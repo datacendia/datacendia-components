@@ -1,0 +1,59 @@
+{
+  "id": 5944539,
+  "name": "Murray v. Gil",
+  "name_abbreviation": "Murray v. Gil",
+  "decision_date": "2011-02-28",
+  "docket_number": "No. 10-8184",
+  "first_page": "1259",
+  "last_page": "1259",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1259"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 61,
+    "ocr_confidence": 0.634,
+    "sha256": "e7e08ee5da98cb29b7961f4d02662dd33fe6b9e51d32dd9e876e406406410df1",
+    "simhash": "1:4c4e83c3a16a1e24",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Murray v. Gil."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8184.\nMurray v. Gil."
+  },
+  "file_name": "1259-05",
+  "first_page_order": 1281,
+  "last_page_order": 1281
+}

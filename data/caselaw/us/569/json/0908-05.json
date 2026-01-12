@@ -1,0 +1,66 @@
+{
+  "id": 12697155,
+  "name": "Pierre ALMOND, petitioner, v. MICHIGAN.",
+  "name_abbreviation": "Almond v. Michigan",
+  "decision_date": "2013-04-01",
+  "docket_number": "No. 12\u20138491.",
+  "first_page": "908",
+  "last_page": "908",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "569 U.S. 908"
+    },
+    {
+      "type": "parallel",
+      "cite": "185 L. Ed. 2d 794"
+    },
+    {
+      "type": "parallel",
+      "cite": "133 S. Ct. 1733"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 27,
+    "char_count": 211,
+    "sha256": "067dc67f3338a26d9c5b0c07587ac9a52a950807abfa197926f972090b55d501",
+    "simhash": "1:7fee261522d96db1",
+    "word_count": 32
+  },
+  "last_updated": "2021-09-08T21:16:17.237805+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pierre ALMOND, petitioner,\nv.\nMICHIGAN."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "Pierre ALMOND, petitioner,\nv.\nMICHIGAN.\nNo. 12-8491.\nSupreme Court of the United States\nApril 1, 2013.\nPetition for writ of certiorari to the Circuit Court of Michigan, Wayne County, Criminal Division, denied."
+  },
+  "file_name": "0908-05",
+  "first_page_order": 908,
+  "last_page_order": 908
+}

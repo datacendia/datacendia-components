@@ -1,0 +1,59 @@
+{
+  "id": 6003313,
+  "name": "Velarde v. California",
+  "name_abbreviation": "Velarde v. California",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5353",
+  "first_page": "917",
+  "last_page": "917",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 917"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 94,
+    "ocr_confidence": 0.556,
+    "sha256": "d9a6a8cec54b253df2fa9b90935c547968227c9c94acce94565836db74116c54",
+    "simhash": "1:25e0d4841f150804",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Velarde v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 4th App. Dist., Div. 1. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5353.\nVelarde v. California."
+  },
+  "file_name": "0917-01",
+  "first_page_order": 939,
+  "last_page_order": 939
+}

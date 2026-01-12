@@ -1,0 +1,59 @@
+{
+  "id": 12432947,
+  "name": "Birdette v. SIMOS",
+  "name_abbreviation": "Birdette v. SIMOS",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-8204",
+  "first_page": "1225",
+  "last_page": "1225",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1225"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 28,
+    "char_count": 170,
+    "ocr_confidence": 0.64,
+    "sha256": "81f217538c8247ae8070ddf2491e758652d5372c78188a11a3ed773077f555ad",
+    "simhash": "1:7e9849dc0e60b5f6",
+    "word_count": 28
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Birdette v. SIMOS."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Motion of petitioner for leave to proceed in forma pauperis denied, and certiorari dismissed. See this Court\u2019s Rule 39.8.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8204.\nBirdette v. SIMOS."
+  },
+  "file_name": "1225-03",
+  "first_page_order": 1301,
+  "last_page_order": 1301
+}

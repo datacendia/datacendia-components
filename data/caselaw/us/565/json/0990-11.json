@@ -1,0 +1,59 @@
+{
+  "id": 12231619,
+  "name": "Zavala v. United States",
+  "name_abbreviation": "Zavala v. United States",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-6515",
+  "first_page": "990",
+  "last_page": "990",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 990"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.648,
+    "sha256": "8631124b9db1bfa2ac2c7a13e726abd1e8bf08d1b3385d3a29a7457c46fb885f",
+    "simhash": "1:1062840b36950c18",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Zavala v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6515.\nZavala v. United States."
+  },
+  "file_name": "0990-11",
+  "first_page_order": 1072,
+  "last_page_order": 1072
+}

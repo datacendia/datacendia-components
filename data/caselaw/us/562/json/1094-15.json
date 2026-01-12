@@ -1,0 +1,59 @@
+{
+  "id": 5983827,
+  "name": "Castillo v. Connecticut",
+  "name_abbreviation": "Castillo v. Connecticut",
+  "decision_date": "2010-12-06",
+  "docket_number": "No. 10-7098",
+  "first_page": "1094",
+  "last_page": "1094",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1094"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 72,
+    "ocr_confidence": 0.572,
+    "sha256": "f797f7e7ff14fc1fd1aec2cb0b1926494804241d30cd329e44dc22fe28ba46ab",
+    "simhash": "1:1abbe4b4a4680896",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Castillo v. Connecticut."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Conn. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7098.\nCastillo v. Connecticut."
+  },
+  "file_name": "1094-15",
+  "first_page_order": 1116,
+  "last_page_order": 1116
+}

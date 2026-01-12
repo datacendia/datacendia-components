@@ -1,0 +1,76 @@
+{
+  "id": 12415154,
+  "name": "Gibert et al. v. United States; and Hutto et al. v. United States",
+  "name_abbreviation": "Gibert v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-217",
+  "first_page": "889",
+  "last_page": "889",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 889"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "677 F. 3d 629",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3871644
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/677/0629-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 20,
+    "char_count": 128,
+    "ocr_confidence": 0.642,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25607187909410933
+    },
+    "sha256": "04a312a981c83a029409bd7763a20a0113f913fb4af7f6b4160e1ba4eeafc7ee",
+    "simhash": "1:2309b7511f27f008",
+    "word_count": 25
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gibert et al. v. United States and Hutto et al. v. United States"
+    ],
+    "opinions": [
+      {
+        "text": "(677 F. 3d 629). C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-217.\nGibert et al. v. United States and Hutto et al. v. United States"
+  },
+  "file_name": "0889-10",
+  "first_page_order": 965,
+  "last_page_order": 965
+}

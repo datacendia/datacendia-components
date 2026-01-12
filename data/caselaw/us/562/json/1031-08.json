@@ -1,0 +1,59 @@
+{
+  "id": 5953558,
+  "name": "Miller v. City of New York, New York",
+  "name_abbreviation": "Miller v. City of New York",
+  "decision_date": "2010-11-08",
+  "docket_number": "No. 10-6280",
+  "first_page": "1031",
+  "last_page": "1031",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1031"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 84,
+    "ocr_confidence": 0.646,
+    "sha256": "7ca0f9178ae1bfe59c372916ee0caddbf3277a660168ea84ffb8e3c2f7395e1d",
+    "simhash": "1:1e668ad11b13a266",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Miller v. City of New York, New York."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6280.\nMiller v. City of New York, New York."
+  },
+  "file_name": "1031-08",
+  "first_page_order": 1053,
+  "last_page_order": 1053
+}

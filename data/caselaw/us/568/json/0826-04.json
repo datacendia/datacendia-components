@@ -1,0 +1,59 @@
+{
+  "id": 12410444,
+  "name": "Yakubu v. Holder, Attorney General",
+  "name_abbreviation": "Yakubu v. Holder",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-1533",
+  "first_page": "826",
+  "last_page": "826",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 826"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 84,
+    "ocr_confidence": 0.697,
+    "sha256": "90d8b6ee3ecbceaf481c0d5c76218a5f04167bf8978f85b9d8fe3554a5081ac9",
+    "simhash": "1:43414aa82565f01a",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Yakubu v. Holder, Attorney General."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1533.\nYakubu v. Holder, Attorney General."
+  },
+  "file_name": "0826-04",
+  "first_page_order": 902,
+  "last_page_order": 902
+}

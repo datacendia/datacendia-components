@@ -1,0 +1,68 @@
+{
+  "id": 12704664,
+  "name": "In re Mitchell D. DiVENTURA, petitioner.",
+  "name_abbreviation": "In re Diventura",
+  "decision_date": "2013-11-04",
+  "docket_number": "No. 13\u20136842.",
+  "first_page": "989",
+  "last_page": "989",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 989"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 396"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 550"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 23,
+    "char_count": 147,
+    "sha256": "8fd5594c14492f7fd908f3580294c91095c2cf79f584f7fb3d2880a321c6796f",
+    "simhash": "1:c8ed860623d84433",
+    "word_count": 24
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Mitchell D. DiVENTURA, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of habeas corpus denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re Mitchell D. DiVENTURA, petitioner.\nNo. 13-6842.\nSupreme Court of the United States\nNov. 4, 2013.\nPetition for writ of habeas corpus denied."
+  },
+  "file_name": "0989-04",
+  "first_page_order": 989,
+  "last_page_order": 989
+}

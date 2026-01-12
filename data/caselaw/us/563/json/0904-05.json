@@ -1,0 +1,59 @@
+{
+  "id": 5913128,
+  "name": "Nash v. Michigan",
+  "name_abbreviation": "Nash v. Michigan",
+  "decision_date": "2011-03-28",
+  "docket_number": "No. 10-954",
+  "first_page": "904",
+  "last_page": "904",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 904"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.596,
+    "sha256": "d7c6b92c8e1ba378ed016d4a0b8940e22ed76ec15f84e4fbaf76e922a829d568",
+    "simhash": "1:527cc28dead682ae",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Nash v. Michigan."
+    ],
+    "opinions": [
+      {
+        "text": "Cir. Ct. Ingham County, Mieh. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-954.\nNash v. Michigan."
+  },
+  "file_name": "0904-05",
+  "first_page_order": 930,
+  "last_page_order": 930
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5984748,
+  "name": "Savath v. United States",
+  "name_abbreviation": "Savath v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8238",
+  "first_page": "1239",
+  "last_page": "1239",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1239"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.583,
+    "sha256": "8cfbf73b4c12044b2f39a69d6ae0735651a1d5e27d81fdabad5c89e820113165",
+    "simhash": "1:9693c6812d81657e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Savath v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8238.\nSavath v. United States."
+  },
+  "file_name": "1239-16",
+  "first_page_order": 1261,
+  "last_page_order": 1261
+}

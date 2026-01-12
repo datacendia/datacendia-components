@@ -1,0 +1,59 @@
+{
+  "id": 6006761,
+  "name": "Kurtz v. Wisconsin",
+  "name_abbreviation": "Kurtz v. Wisconsin",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-7952",
+  "first_page": "1192",
+  "last_page": "1192",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1192"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 66,
+    "ocr_confidence": 0.648,
+    "sha256": "c7afcbac5746d06f17a8c456328c081193377da064abe397e8795f741b439088",
+    "simhash": "1:4c35f3a8fd84b4df",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kurtz v. Wisconsin."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Wis. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7952.\nKurtz v. Wisconsin."
+  },
+  "file_name": "1192-01",
+  "first_page_order": 1214,
+  "last_page_order": 1214
+}

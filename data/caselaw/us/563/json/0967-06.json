@@ -1,0 +1,59 @@
+{
+  "id": 4223137,
+  "name": "Inirio-Castro v. United States",
+  "name_abbreviation": "Inirio-Castro v. United States",
+  "decision_date": "2011-04-25",
+  "docket_number": "No. 10-9709",
+  "first_page": "967",
+  "last_page": "967",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 967"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.593,
+    "sha256": "b7f5938776b2c457bfc7188a3c5b3ce1367c3ee7249abd663dad6bf30125b366",
+    "simhash": "1:050b5e620e309d6c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Inirio-Castro v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9709.\nInirio-Castro v. United States."
+  },
+  "file_name": "0967-06",
+  "first_page_order": 993,
+  "last_page_order": 993
+}

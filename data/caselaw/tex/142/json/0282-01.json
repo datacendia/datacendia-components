@@ -1,0 +1,863 @@
+{
+  "id": 2340688,
+  "name": "City of Houston v. Benancio Quinones, Individually and as Next Friend for Nera Quionones, a Minor",
+  "name_abbreviation": "City of Houston v. Quinones",
+  "decision_date": "1944-02-02",
+  "docket_number": "No. 8166",
+  "first_page": "282",
+  "last_page": "290",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "142 Tex. 282"
+    },
+    {
+      "type": "parallel",
+      "cite": "177 S.W.2d 259"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "133 S. W. (2d) 228",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        12056732
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/133/0228-01"
+      ]
+    },
+    {
+      "cite": "31 S. W. 621",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "171 S. W. (2d) 483",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2308448,
+        10213659
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/141/0189-01",
+        "/sw2d/171/0483-01"
+      ]
+    },
+    {
+      "cite": "48 S. W. (2d) 418",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": -1
+    },
+    {
+      "cite": "152 S. W. (2d) 1088",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2315022,
+        10227007
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/137/0226-01",
+        "/sw2d/152/1088-01"
+      ]
+    },
+    {
+      "cite": "13 S. W. (2d) 467",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10294592
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/13/0467-01"
+      ]
+    },
+    {
+      "cite": "111 S. W. (2d) 690",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2290176,
+        12039217
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/130/0587-01",
+        "/sw2d/111/0690-01"
+      ]
+    },
+    {
+      "cite": "62 S. W. (2d) 689",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10256069
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/62/0689-01"
+      ]
+    },
+    {
+      "cite": "169 S. W. (2d) 462",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2310141,
+        10212199
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/140/0510-01",
+        "/sw2d/169/0462-01"
+      ]
+    },
+    {
+      "cite": "160 S. W. (2d) 290",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10212407
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/160/0290-01"
+      ]
+    },
+    {
+      "cite": "100 S. W. (2d) 765",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10258411
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/100/0765-01"
+      ]
+    },
+    {
+      "cite": "62 S. W. (2d) 70",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10233955
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/62/0070-01"
+      ]
+    },
+    {
+      "cite": "62 S. W. 909",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "94 Texas 523",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2233471
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/94/0523-01"
+      ]
+    },
+    {
+      "cite": "83 S. E. 109",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "140 Texas 510",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2310141
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/140/0510-01"
+      ]
+    },
+    {
+      "cite": "99 S. W. (2d) 909",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        12075080,
+        2293207
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/99/0909-01",
+        "/tex/128/0616-01"
+      ]
+    },
+    {
+      "cite": "128 Texas 616",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2293207
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/128/0616-01"
+      ]
+    },
+    {
+      "cite": "157 S. W. (2d) 633",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2313601,
+        10222351
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/138/0178-01",
+        "/sw2d/157/0633-01"
+      ]
+    },
+    {
+      "cite": "168 S. W. (2d) 642",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2310176,
+        10218271
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/140/0494-01",
+        "/sw2d/168/0642-01"
+      ]
+    },
+    {
+      "cite": "140 Texas 494",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2310176
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/140/0494-01"
+      ]
+    },
+    {
+      "cite": "292 S. W. 182",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10292356
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/292/0182-01"
+      ]
+    },
+    {
+      "cite": "5 S. W. (2d) 765",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10287430
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/5/0765-01"
+      ]
+    },
+    {
+      "cite": "46 A. L. R. 1507",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "285 S. W. 269",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10296219
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/285/0269-01"
+      ]
+    },
+    {
+      "cite": "277 S. W. 106",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10292083
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/277/0106-01"
+      ]
+    },
+    {
+      "cite": "143 S. W. 606",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8284360,
+        8284413
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/143/0606-01",
+        "/sw/143/0606-02"
+      ]
+    },
+    {
+      "cite": "105 Texas 42",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2255368
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/105/0042-01"
+      ]
+    },
+    {
+      "cite": "73 A. L. R. 89",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 S. W. (2d) 637",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10277942,
+        2271186,
+        2271148,
+        10277902
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/32/0637-02",
+        "/tex/119/0456-01",
+        "/tex/119/0463-01",
+        "/sw2d/32/0637-01"
+      ]
+    },
+    {
+      "cite": "119 Texas 456",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2271186
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/119/0456-01"
+      ]
+    },
+    {
+      "cite": "59 S. W. 100",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "180 S. W. 116",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8245869,
+        8245950
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/180/0116-01",
+        "/sw/180/0116-02"
+      ]
+    },
+    {
+      "cite": "65 L. R. A. 316",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "79 S. W. 817",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "58 S. W. (2d) 448",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        1871841,
+        1871806
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mo/332/0402-01",
+        "/mo/332/0277-01"
+      ]
+    },
+    {
+      "cite": "27 Am. St. Rep. 902",
+      "category": "reporters:state",
+      "reporter": "Am. St. Rep.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "17 S. W. 1029",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "82 Texas 516",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2213798
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/82/0516-01"
+      ]
+    },
+    {
+      "cite": "280 S. W. 753",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10316002
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/280/0753-01"
+      ]
+    },
+    {
+      "cite": "108 S. W. (2d) 929",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10266046
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/108/0929-01"
+      ]
+    },
+    {
+      "cite": "87 S. W. (2d) 544",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10260546
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/87/0544-01"
+      ]
+    },
+    {
+      "cite": "39 S. W. (2d) 882",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10276588
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/39/0882-01"
+      ]
+    },
+    {
+      "cite": "39 S. W. (2d) 859",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10276292
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/39/0859-01"
+      ]
+    },
+    {
+      "cite": "106 S. W. (2d) 660",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10265274,
+        2290139
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/106/0660-01",
+        "/tex/130/0096-01"
+      ]
+    },
+    {
+      "cite": "130 Texas 96",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2290139
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/130/0096-01"
+      ]
+    },
+    {
+      "cite": "29 A. L. R. 1471",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "262 U. S. 182",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6139079
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/262/0182-01"
+      ]
+    },
+    {
+      "cite": "5 S. W. (2d) 761",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10287422
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/5/0761-01"
+      ]
+    },
+    {
+      "cite": "107 S. W. (2d) 879",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2290099,
+        10266070
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/130/0237-01",
+        "/sw2d/107/0879-01"
+      ]
+    },
+    {
+      "cite": "130 Texas 237",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2290099
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/130/0237-01"
+      ]
+    },
+    {
+      "cite": "107 S. W. (2d) 872",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2290137,
+        10265909
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/130/0225-01",
+        "/sw2d/107/0872-01"
+      ]
+    },
+    {
+      "cite": "130 Texas 225",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2290137
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/130/0225-01"
+      ]
+    },
+    {
+      "cite": "50 Am. Rep. 517",
+      "category": "reporters:state_regional",
+      "reporter": "Am. Rep.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "62 Texas 118",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2167439
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/62/0118-01"
+      ]
+    },
+    {
+      "cite": "40 S. W. (2d) 57",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10247328,
+        2307422
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/40/0057-01",
+        "/tex/120/0456-01"
+      ]
+    },
+    {
+      "cite": "120 Texas 456",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2307422
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/120/0456-01"
+      ]
+    },
+    {
+      "cite": "8 S. W. (2d) 271",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10288236
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/8/0271-01"
+      ]
+    },
+    {
+      "cite": "5 S. W. (2d) 498",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2274868,
+        10286615
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/117/0394-01",
+        "/sw2d/5/0498-01"
+      ]
+    },
+    {
+      "cite": "117 Texas 394",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2274868
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/117/0394-01"
+      ]
+    },
+    {
+      "cite": "114 S. W. (2d) 853",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10270257
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/114/0853-01"
+      ]
+    },
+    {
+      "cite": "112 S. W. (2d) 1035",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10274635,
+        10274523
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/112/1035-02",
+        "/sw2d/112/1035-01"
+      ]
+    },
+    {
+      "cite": "131 Texas 237",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2324549
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/131/0237-01"
+      ]
+    },
+    {
+      "cite": "164 S. W. (2d) 516",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2311439,
+        10213623
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/139/0600-01",
+        "/sw2d/164/0516-01"
+      ]
+    },
+    {
+      "cite": "139 Texas 600",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2311439
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/139/0600-01"
+      ]
+    },
+    {
+      "cite": "172 S. W. (2d) 187",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10203635
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/172/0187-01"
+      ]
+    },
+    {
+      "cite": "169 S. W. (2d) 462",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2310141,
+        10212199
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/140/0510-01",
+        "/sw2d/169/0462-01"
+      ]
+    },
+    {
+      "cite": "62 S. W. 909",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "94 Texas 523",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2233471
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/94/0523-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 889,
+    "char_count": 17464,
+    "ocr_confidence": 0.584,
+    "pagerank": {
+      "raw": 2.3792208915106568e-06,
+      "percentile": 0.9962511327880506
+    },
+    "sha256": "5af6f6becc06ca6c4ad692d76eed7e14b01757c233e5950d5d092e5a2f3a2c37",
+    "simhash": "1:5febaddaf1a6b73a",
+    "word_count": 3180
+  },
+  "last_updated": "2024-02-27T17:54:29.127269+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "City of Houston v. Benancio Quinones, Individually and as Next Friend for Nera Quionones, a Minor."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Sharp\ndelivered the opinion of the Court.\nThis suit was brought by Benanico Quinones, individually and as next friend of his minor daughter, Nera Quinones, against the City of Houston, for personal injuries sustained by the minor child. Based upon the verdict of the jury, the trial court rendered judgment for plaintiff in the sum of $27,210.00. Upon appeal by the City, the Court of Civil Appeals affirmed the judgment of the trial court. 172 S. W. (2d) 187. The application for writ of error filed by the City was granted by this Court.\nThe injury was caused by a horse-powered mowing machine owned and operated by the City of Houston, and driven by J. T. Stafford, an employee of the Street and Bridge Department of petitioner. Stafford was cutting weeds along the shoulders of Ralston Street when the injury occurred. The place of the accident was in a sparsely inhabited neighborhood and in the 2500 block on Ralston Street, where nearly every lot facing the street was vacant. Ralston Street is a shelled highway. Its shoulders and ditches, as well as the adjacent vacant lots in the 2500 block, were thickly covered with weeds growing approximately five feet high. There were no sidewalks in the 2500 block, and pedestrians had to walk on the shelled highway or in the weeds. As to whether the child, Nera Quinones, was walking on the shelled portion of Ralston Street, or was walking in the weeds, was a contested issue. Stafford did not see the child until she was a few inches in front of the blade of his mowing machine. He stopped as quickly as possible, but not in time to avoid the injury. The blade cut the child\u2019s legs so badly that they had to be amputated below the knees.\nPlaintiff based his cause of action on the ground that Stafford was guilty of negligence in operating the mower. The jury found that Stafford had failed to keep a proper lookout, and that such failure was negligence and the proximate cause of the injury.\nPetitioner\u2019s application for writ of error was granted on the following three points presented by it: (1) That the cutting of weeds by the City was a governmental function, because it was done for the promotion of public health; (2) that the trial court committed error in admitting testimony of the child\u2019s mother regarding declarations made by the child as part of the res gestae; and (3) that there was misconduct of the jury.\nIn the recent case of City of Tyler v. Ingram, 139 Texas 600, 164 S. W. (2d) 516, this Court had before it for decision the liability of a city for alleged negligent acts of an employee of the city, and in that case the following rules were announced:\n\u201cA municipal corporation functions in a dual capacity. At times it functions as a private corporation, and at other times it functions as an arm of the government. Therefore its liability or nonliability rests upon the following two rules:\n\u201c1. When a municipal corporation acts in its private capacity, for the benefit only of those within its corporate limits, and not as an arm of the government, it is liable for the negligence of its representatives. Scroggins v. City of Harlingen, 131 Texas 237, 112 S. W. (2d) 1035, 114 S. W. (2d) 853; City of Waco v. Branch et al, 117 Texas 394, 5 S. W. (2d) 498; Id., Tex. Civ. App., 8 S. W. (2d) 271; City of Amarillo v. Ware, 120 Texas 456, 40 S. W. (2d) 57; City of Galveston v. Posnainsky, 62 Texas 118, 50 Am. Rep. 517; 30 Tex. Jur., p. 542, sec. 299; 6 McQuillin on Municipal Corporations, 2d Ed., p. 1058, sec. 2796.\n\u201c2. A municipal corporation is not' liable for the negligence of its agents and employees in the performance of purely governmental matters solely for the public benefit. Scroggins v. City of Harlingen, supra; City of Dallas v. Smith, 130 Texas 225, 107 S. W. (2d) 872; Gartman v. City of McAllen, 130 Texas 237, 107 S. W. (2d) 879; City of Fort Worth v. Wiggins, Tex. Com. App., 5 S. W. (2d) 761; City of Amarillo v. Ware, 120 Texas 456, 40 S. W. (2d) 57; City of Galveston v. Posnainsky, supra; City of Trenton v. State of New Jersey, 262 U. S. 182, 43 S. Ct. 534, 67 L. Ed. 937, 29 A. L. R. 1471; 30 Tex. Jur., p. 523, sec. 289; 6 McQuillin on Municipal Corporations, 2d Ed., pp. 1044 and 1058, secs. 2793 and 2796.\u201d\nThe underlying test is whether the act performed by a city is public in its nature and performed as the agent of the State in furtherance of general law for the interest of the public at large, or whether it is performed primarily for the benefit of those within the corporate limits of the municipality. The cleaning, maintenance, and grading of streets by a municipality are not governmental functions, but are proprietary or corporate functions, and a city is liable for damages resulting from the negligence of its servants in the performance of those duties. City of Panhandle v. Byrd, 130 Texas 96, 106 S. W. (2d) 660; City of Galveston v. Posnainsky, 62 Texas 118, 50 Am. Rep. 517; City of Wichita Falls v. Mauldin (Tex. Com. App.), 39 S. W. (2d) 859; Ostrom v. City of San Antonio, 94 Texas 523, 62 S. W. 909; City of Wichita Falls v. Sullivan (Tex. Com. App.), 39 S. W. (2d) 882; City of Wichita Falls v. Phillips (Tex. Civ. App.), 87 S. W. (2d) 544.\nPetitioner contends that this case is controlled by the holding in the City of Fort Worth v. George, 108 S. W. (2d) 929, writ refused. We think the facts in that case are clearly distinguishable from those in this case. It was held in that case that the collection of garbage by a municipality is a governmental function, because the duty is imposed upon it by the State Legislature and is performed by the city in furtherance of general law for the interest of the public at large. There is no showing in this record that Stafford was cutting the weeds on Ralston Street at the request of the City Health Officer or as a health or sanitary measure. On the contrary, H. B. Hamilton, Division Foreman of the Street and Bridge Department, and Stafford\u2019s immediate supervisor, testified that the work that was being done on the occasion of the accident was a part of the regular street maintenance. We know of no statute that imposes upon municipalities the duty to cut weeds growing on its streets, or to clean and maintain its streets; nor do we understand that petitioner contends that such an Act has been passed by the Legislature of this State.\nNo issue was submitted to the jury to determine the purpose of the City in cutting the weeds, but the trial court found that the cutting of the weeds on the occasion of the accident was not done in the discharge of any governmental function. The Court of Civil Appeals held that in the performance of his duties on the occasion Stafford was working for the Street and Bridge Department of the City, and that the cutting of weeds was an incident to the cleaning and maintenance of the streets. We agree with that holding.\nThe City contends that it was error to permit the mother of Nera Quinones to testify as to what the child said after the injury. Respondent contends that such testimony was admissible, as being a part of the res gestae. The child was just past three years of age when she was injured, and was under five years of age when this case was tried. She was placed on the witness stand, but questioning revealed that she was incompetent to qualify as a witness because she did not have sufficient understanding to know the nature of an oath. Mrs. Quinones was then put on the witness stand. She testified that she reached the scene of the accident just after the ambulance arrived, which was about thirty minutes after the accident; that she and her husband got into the ambulance and went with the child to the hospital. Nera was immediately taken to the operating room and her legs were amputated, which the mother said required about thirty minutes. Nera was conscious from the time of the injury until taken into the operating room. The doctor testified that she was too weak to take ether, and she was given an opiate or sedative to relieve the suffering while her legs were amputated. After the operation she was placed in a ward, and the mother remained at her bedside. For two and one-half to three hours after the operation the child was under the influence of the sedative, and seemed to be asleep, and did not speak at all. At the end of that time she roused and spoke to her mother for the first time. This was four hours or more after the accident. The mother asked her how the accident happened, and the child replied that she was going to Nana\u2019s (a neighbor), and was going on the street, when she saw the horses and moved off into the weeds. The mother testified that the child said nothing more about the accident, except that sometime during the night she would scream and talk about the horses coming at her.\nNo rigid rule respecting the admissibility of evidence as a part of the res gestae has been announced. The general rule relating to this question is that res gestae evidence is not the witness speaking but the transaction voicing itself. 17 Tex. Jur., pp. 614-630, sec. 257-264; 20 Am. Jur., p. 553; 32 C. J. S., p. 45, sec. 417. In determining whether evidence is admissible, each case must be tested by its own facts; and if upon a fair analysis a statement after the event does not appear to be a continuation of such event, it cannot be res gestae, even though made near the time of the occurrence. Statements must be either a part of the transaction or made under such circumstances as to raise a reasonable presumption that they are spontaneous utterances of facts arising out of the transaction itself, and so soon thereafter as to exclude the presumption that they are the result of premeditation or design. If they are not in their nature a part of the occurrence, they do not constitute a part of the res gestae, and are inadmissible. San Antonio Public Service Co. v. Alexander (Tex. Com. App.), 280 S. W. 753; International & G. N. Ry. Co. v. Anderson, 82 Texas 516, 17 S. W. 1029, 27 Am. St. Rep. 902; Texas Interurban Ry. Co. v. Hughes et al (Tex. Com. App.), 58 S. W. (2d) 448; 32 C. J. S., p. 45, sec. 417.\nThe precise question here under consideration, so far as we can learn, has never been decided by this Court. The Court of Criminal' Appeals has held that the statements of a child three and a half years of age, the victim of rape, made only a few moments afterwards, and in fact proximate to the event and apparently spontaneous, were admissible as part of the res gestae, even though she did not realize the nature of an oath. Kenney v. State, 79 S. W. 817, 65 L. R. A. 316; Watkins v. State, 180 S. W. 116.\nWe think the sound rule to be that exclamations or statements of an infant, too young to realize the obligation of an oath, made spontaneously and contemporaneously with the main transaction, are admissible as part of the res gestae, if the child possesses sufficient intelligence to render his or her statements reliable. 32 C. J. S., p. 25, sec. 410; 20 Amer. Jur., p. 574; sec. 678; annotations in 65 L. R. A., pp. 317, 318. In this instance the statements were not made at the time of the injury, nor immediately thereafter, but were made after the child underwent an operation, hours after the injury. Furthermore, her statements were made in response to questions asked her by her mother. Such testimony was inadmissible.\nThe City also contends that it was error for the trial court and Court of Civil Appeals to hold that a new trial should not be granted on account of misconduct of the jury. It is shown that during the course of the jury\u2019s deliberations upon the issue whether Stafford had kept a proper lookout, one of the jurors stated that he had run a mowing machine, and he knew that from the driver\u2019s position on the seat of the mower he could have seen over the weeds and could have seen the child, and that such statement influenced the jury\u2019s verdict.\nWhether Stafford could have seen the child in the street prior to the accident was a vital issue in the case. It is respondent\u2019s theory that the child was walking on the shelled portion of the street and plainly visible to Stafford, and that he would have seen her in time to have avoided the accident if he had kept a proper lookout. It is petitioner\u2019s theory that the child was walking on a path in the weeds, and was entirely obscured from Stafford\u2019s view, and that he never had an opportunity to see her, nor had he seen her prior to the accident, although he had kept a proper lookout for persons walking in the street in front of the mowing machine. The rule has long prevailed in this State that jurors may not receive new testimony during their deliberations. Lincoln v. Stone (Tex. Com. App.), 59 S. W. 100; Casstevens v. Texas & Pac. Ry. Co., 119 Texas 456, 32 S. W. (2d) 637, 73 A. L. R. 89; Houston & T. C. Ry. Co. v. Gray, 105 Texas 42, 143 S. W. 606; Moore v. Ivey (Tex. Com. App.), 277 S. W. 106; St. Louis S. W. Ry. Co. v. Robinson (Tex. Com. App.), 285 S. W. 269, 46 A. L. R. 1507; St. Louis, S. W. Ry. Co. v. Lewis (Tex. Com. App.), 5 S. W. (2d) 765; St. Louis S. F. Ry. Co. v. Rutland (Texas Com. App.), 292 S. W. 182.\nThe statement of the juror as to his experience in operating a mowing machine was clearly jury misconduct. The question is whether under under Rule 327, Texas Rules of Civil Proce-\" dure, it reasonably appears from the entire record that the misconduct probably resulted in injury to petitioner. This Rule placed upon petitioner the burden of not only showing that misconduct occurred, but also of showing that the misconduct probably resulted in injury to the City. The fact that the jurors testified that their verdict was not affected by the misconduct is without force or effect, and may not be considered by the Court in passing upon the question of probable injury. Sproles Motor Freight Lines v. Long, 140 Texas 494, 168 S. W. (2d) 642; Texas Milk Products Co. v. Birtcher, 138 Texas, 178, 157 S. W. (2d) 633; Republic Insurance Co. v. Hale, 128 Texas 616, 99 S. W. (2d) 909; Barrington v. Duncan, 140 Texas 510, 169 S. W. (2d) 462.\nMisconduct of the jury having been established, the question of probable injury becomes one of law for the courts. In considering this matter the courts will examine the entire record in the case. The record in this case shows that the jury deliberated five or six hours before any of the special issues submitted to it were answered. Issue No. 1 was answered first. It inquired whether Stafford had failed to keep a proper lookout for persons who might be walking on Ralston Street in front of the mowing machine. All of the difficulties the jury had in reaching a verdict on the issues of negligence were in regard to Issue No. 1. Mr. Stafford had testified that he had kept a proper lookout for persons who might be walking on Ralston Street, but had seen no one. Several of the jurors testified that while deliberating on this issue the misconduct occurred. On the first ballot nine jurors answered Issue No. 1 \u201cYes,\u201d while three answered it \u201cNo.\u201d It was not until the fifth or sixth ballot that all answered \u201cYes,\u201d and thus finding that Stafford had failed to keep a proper lookout. From an examination of all the relevant facts, we conclude that the-misconduct of the juror was calculated to work an injury to petitioner, and that it probably did so; for which reason the cause must be remanded for a new trial.\nThe judgments of the trial court and Court of Civil Appeals are both reversed, and the cause is remanded to the trial court for a new trial.\nOpinion delivered February 2, 1944.\nRehearing overruled February 23, 1944.",
+        "type": "majority",
+        "author": "Mr. Justice Sharp"
+      }
+    ],
+    "attorneys": [
+      "Lewis W. Cutrer, City Attorney, and Lester Settergast and Harry Dipyel, Assistant City Attorney, for the City of Houston, petitioner.",
+      "Verle C. Witham and Robert H. Martin, both of Houston, and George W. Eddy, of Dallas, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "City of Houston v. Benancio Quinones, Individually and as Next Friend for Nera Quionones, a Minor.\nNo. 8166.\nDecided February 2, 1944.\nRehearing overruled February 23, 1944.\n(177 S. W., 2d Series, 259.)\nLewis W. Cutrer, City Attorney, and Lester Settergast and Harry Dipyel, Assistant City Attorney, for the City of Houston, petitioner.\nIt was error for the Court of Civil Appeals to hold that because the weeds in question were being cut for the primary purpose of cleaning the streets by an employee of the street and bridge department of the city, and not by the Health Officer, the city was not performing a governmental function, and it was not error for the trial court to refuse to grant the city\u2019s motion for an instructed verdict and judgment non obstante veredicto. McBurney v. Norris, 142 Geo. 409, 83 S. E. 109; Ostrom v. City of San Antonio, 94 Texas 523, 62 S. W. 909; Tompkins v. Williams, 62 S. W. (2d) 70; City of Munday v. Shaw, 100 S. W. (2d) 765.\nOn the question of misconduct of jury not resulting in injury to plaintiff. Gillett Motor Transport Co. v. Whitfield, 160 S. W. (2d) 290; Barrington v. Duncan, 169 S. W. (2d) 462.\nVerle C. Witham and Robert H. Martin, both of Houston, and George W. Eddy, of Dallas, for respondents.\nThe cutting of weeds upon the occasion in question was not solely for public health, but primarily for the purpose of cleaning the street and therefore the city was liable for the negligence of its employee. Kling v. City of Austin, 62 S. W. (2d) 689; Adams v. Grapotte, 130 Texas, 587, 111 S. W. (2d) 690; Kimbrough v. Powell, 13 S. W. (2d) 467.\nOn the question of misconduct. City of Amarillo v. Huddleston, 152 S. W. (2d) 1088; Kuntz v. Spence, 48 S. W. (2d) 418; Akers v. Epperson, 171 S. W. (2d) 483.\nOn the issue of res gestae. Brown v. Mitchell, 31 S. W. 621; Foley Dry Goods Co. v. Settegast, 133 S. W. (2d) 228."
+  },
+  "file_name": "0282-01",
+  "first_page_order": 300,
+  "last_page_order": 308
+}

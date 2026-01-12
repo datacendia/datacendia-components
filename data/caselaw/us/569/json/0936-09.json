@@ -1,0 +1,68 @@
+{
+  "id": 12697556,
+  "name": "John DOE, petitioner, v. UNITED STATES.",
+  "name_abbreviation": "Doe v. United States",
+  "decision_date": "2013-04-15",
+  "docket_number": "No. 12\u20139072.",
+  "first_page": "936",
+  "last_page": "936",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "569 U.S. 936"
+    },
+    {
+      "type": "parallel",
+      "cite": "185 L. Ed. 2d 844"
+    },
+    {
+      "type": "parallel",
+      "cite": "133 S. Ct. 1836"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 205,
+    "sha256": "6a2f6b6b5126fbefe46f4c44753f3f5f51accc12460f1d456d67cee2059b2213",
+    "simhash": "1:d12f76443c84469c",
+    "word_count": 34
+  },
+  "last_updated": "2021-09-08T21:16:17.237805+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "John DOE, petitioner,\nv.\nUNITED STATES."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of certiorari to the United States Court of Appeals for the Tenth Circuit denied."
+    ],
+    "corrections": "",
+    "head_matter": "John DOE, petitioner,\nv.\nUNITED STATES.\nNo. 12-9072.\nSupreme Court of the United States\nApril 15, 2013.\nPetition for writ of certiorari to the United States Court of Appeals for the Tenth Circuit denied."
+  },
+  "file_name": "0936-09",
+  "first_page_order": 936,
+  "last_page_order": 936
+}

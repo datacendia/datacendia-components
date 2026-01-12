@@ -1,0 +1,59 @@
+{
+  "id": 12423321,
+  "name": "Turner v. United States",
+  "name_abbreviation": "Turner v. United States",
+  "decision_date": "2012-11-13",
+  "docket_number": "No. 12-6744",
+  "first_page": "1018",
+  "last_page": "1018",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1018"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.696,
+    "sha256": "ffd160d0874ba98fe777f71d4317e7b2a9cc67e6dcf5bff85682f10696ac09a2",
+    "simhash": "1:451aefe24fbc140e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Turner v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6744.\nTurner v. United States."
+  },
+  "file_name": "1018-07",
+  "first_page_order": 1094,
+  "last_page_order": 1094
+}

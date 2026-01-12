@@ -1,0 +1,59 @@
+{
+  "id": 5921814,
+  "name": "Littlejohn v. Wisconsin",
+  "name_abbreviation": "Littlejohn v. Wisconsin",
+  "decision_date": "2011-06-27",
+  "docket_number": "No. 10-7013",
+  "first_page": "1039",
+  "last_page": "1039",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1039"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 71,
+    "ocr_confidence": 0.611,
+    "sha256": "4069a39c01b989d29ebb342fb47612f216c0203afd64c0aa9bf03863b71676a3",
+    "simhash": "1:8e17d19ac076e58d",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Littlejohn v. Wisconsin."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Wis. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7013.\nLittlejohn v. Wisconsin."
+  },
+  "file_name": "1039-11",
+  "first_page_order": 1033,
+  "last_page_order": 1033
+}

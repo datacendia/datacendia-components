@@ -1,0 +1,59 @@
+{
+  "id": 5927480,
+  "name": "Cameron v. United States",
+  "name_abbreviation": "Cameron v. United States",
+  "decision_date": "2011-06-13",
+  "docket_number": "No. 10-10408",
+  "first_page": "1010",
+  "last_page": "1010",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1010"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.606,
+    "sha256": "a5af10be237a26371ec7d310802adbf6d73fc94a11554193eded719f75544268",
+    "simhash": "1:87c0ce50ce953339",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cameron v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10408.\nCameron v. United States."
+  },
+  "file_name": "1010-02",
+  "first_page_order": 1004,
+  "last_page_order": 1004
+}

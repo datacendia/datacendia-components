@@ -1,0 +1,59 @@
+{
+  "id": 12409009,
+  "name": "Seldon et ux. v. United States",
+  "name_abbreviation": "Seldon v. United States",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. 11-10279",
+  "first_page": "912",
+  "last_page": "912",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 912"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 80,
+    "ocr_confidence": 0.67,
+    "sha256": "2ccdf93078aabd2bfeb6fc72d8758502003930695f48c4011591b30f1e028ef4",
+    "simhash": "1:5419332323af915e",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Seldon et ux. v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10279.\nSeldon et ux. v. United States."
+  },
+  "file_name": "0912-08",
+  "first_page_order": 816,
+  "last_page_order": 816
+}

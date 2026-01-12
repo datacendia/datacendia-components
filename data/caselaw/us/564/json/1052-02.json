@@ -1,0 +1,59 @@
+{
+  "id": 4335840,
+  "name": "Williams v. Illinois",
+  "name_abbreviation": "Williams v. Illinois",
+  "decision_date": "2011-06-28",
+  "docket_number": "No. 10-8505",
+  "first_page": "1052",
+  "last_page": "1052",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1052"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 20,
+    "char_count": 138,
+    "ocr_confidence": 0.553,
+    "sha256": "8bb6c53c57f56cff9706944a96ae1943dbb4793e622b1a56a22b27828abd7118",
+    "simhash": "1:62a0dd178745b210",
+    "word_count": 21
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ill. Motion of petitioner for leave to proceed in forma pauperis granted. Certiorari granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8505.\nWilliams v. Illinois."
+  },
+  "file_name": "1052-02",
+  "first_page_order": 1046,
+  "last_page_order": 1046
+}

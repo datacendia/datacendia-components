@@ -1,0 +1,59 @@
+{
+  "id": 12414643,
+  "name": "Stephens v. Georgia Department of Transportation et al.",
+  "name_abbreviation": "Stephens v. Georgia Department of Transportation",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-11002",
+  "first_page": "873",
+  "last_page": "873",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 873"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 105,
+    "ocr_confidence": 0.73,
+    "sha256": "b8bbc4f0654a12279b713795f7d789f42b87d82d3ab315fcb5c81642676d166a",
+    "simhash": "1:9948026ac3cf91f2",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Stephens v. Georgia Department of Transportation et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-11002.\nStephens v. Georgia Department of Transportation et al."
+  },
+  "file_name": "0873-11",
+  "first_page_order": 949,
+  "last_page_order": 949
+}

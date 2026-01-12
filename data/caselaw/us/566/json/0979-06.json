@@ -1,0 +1,59 @@
+{
+  "id": 12213780,
+  "name": "Muchnick v. Pennsylvania",
+  "name_abbreviation": "Muchnick v. Pennsylvania",
+  "decision_date": "2012-04-30",
+  "docket_number": "No. 11-9382",
+  "first_page": "979",
+  "last_page": "979",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 979"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 73,
+    "ocr_confidence": 0.547,
+    "sha256": "0f912f974890c5169fd836f80e99d5c137165318bcc130fc9bd21ac4c1714168",
+    "simhash": "1:63d680d0b5ec99d4",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Muchnick v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Pa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9382.\nMuchnick v. Pennsylvania."
+  },
+  "file_name": "0979-06",
+  "first_page_order": 855,
+  "last_page_order": 855
+}

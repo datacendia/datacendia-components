@@ -1,0 +1,841 @@
+{
+  "id": 12521906,
+  "name": "NATIONAL LABOR RELATIONS BOARD, Petitioner v. INGREDION INCORPORATED, d/b/a Penford Products Co., Respondent Local 100G, Bakery, Confectionery, Tobacco Workers and Grain Millers International Union, AFL-CIO, CLC, Intervenor",
+  "name_abbreviation": "Nat'l Labor Relations Bd. v. Ingredion Inc.",
+  "decision_date": "2019-07-19",
+  "docket_number": "No. 18-1155; C/w 18-1244",
+  "first_page": "509",
+  "last_page": "519",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "930 F.3d 509"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "D.C. Cir.",
+    "id": 11448,
+    "name": "Court of Appeals of the District of Columbia"
+  },
+  "jurisdiction": {
+    "id": 56,
+    "name_long": "District of Columbia",
+    "name": "D.C."
+  },
+  "cites_to": [
+    {
+      "cite": "895 F.3d 69",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517650
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "86"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/895/0069-01"
+      ]
+    },
+    {
+      "cite": "379 U.S. 203",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11729976
+      ],
+      "weight": 3,
+      "year": 1964,
+      "pin_cites": [
+        {
+          "page": "216-17"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/379/0203-01"
+      ]
+    },
+    {
+      "cite": "2 F.3d 1162",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3723897,
+        1883108
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "1169"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/303/0193-01",
+        "/f3d/2/1162-01"
+      ]
+    },
+    {
+      "cite": "856 F.2d 275",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10527401,
+        3458630
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "280"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/856/0275-01",
+        "/us-app-dc/272/0321-01"
+      ]
+    },
+    {
+      "cite": "334 F.3d 88",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3701880,
+        1530127
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "91-92"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/357/0250-01",
+        "/f3d/334/0088-01"
+      ]
+    },
+    {
+      "cite": "453 F.3d 538",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3457484,
+        3337245
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "544"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/372/0066-01",
+        "/f3d/453/0538-01"
+      ]
+    },
+    {
+      "cite": "832 F.3d 351",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4351245
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "360",
+          "parenthetical": "quoting Progressive Elec., Inc. v. NLRB , 453 F.3d 538, 544 (D.C. Cir. 2006) "
+        },
+        {
+          "page": "360-61"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/832/0351-01"
+      ]
+    },
+    {
+      "cite": "229 F.3d 1184",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3675640,
+        11192023
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "1191"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/343/0336-01",
+        "/f3d/229/1184-01"
+      ]
+    },
+    {
+      "cite": "292 NLRB 671",
+      "category": "reporters:federal",
+      "reporter": "N.L.R.B.",
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "672"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "331 NLRB 735",
+      "category": "reporters:federal",
+      "reporter": "N.L.R.B.",
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "737"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "414 F.3d 36",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3442857,
+        8968324
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "45"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/367/0145-01",
+        "/f3d/414/0036-01"
+      ]
+    },
+    {
+      "cite": "440 U.S. 301",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6182107
+      ],
+      "weight": 3,
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "303"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/440/0301-01"
+      ]
+    },
+    {
+      "cite": "312 NLRB 1060",
+      "category": "reporters:federal",
+      "reporter": "N.L.R.B.",
+      "year": 1993,
+      "opinion_index": 0
+    },
+    {
+      "cite": "331 NLRB 1084",
+      "category": "reporters:federal",
+      "reporter": "N.L.R.B.",
+      "weight": 4,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "1097"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "163 NLRB 475",
+      "category": "reporters:federal",
+      "reporter": "N.L.R.B.",
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "478"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "664 F.3d 341",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5874201,
+        3860802
+      ],
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "347"
+        },
+        {
+          "page": "347"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/398/0356-01",
+        "/f3d/664/0341-01"
+      ]
+    },
+    {
+      "cite": "501 U.S. 190",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1107959
+      ],
+      "weight": 3,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "198"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/501/0190-01"
+      ]
+    },
+    {
+      "cite": "362 NLRB 718",
+      "category": "reporters:federal",
+      "reporter": "N.L.R.B.",
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "718-19"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "315 F.3d 951",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9378010
+      ],
+      "year": 2003,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/315/0951-01"
+      ]
+    },
+    {
+      "cite": "334 NLRB 466",
+      "category": "reporters:federal",
+      "reporter": "N.L.R.B.",
+      "weight": 7,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "467-68"
+        },
+        {
+          "page": "467"
+        },
+        {
+          "page": "479"
+        },
+        {
+          "page": "467"
+        },
+        {
+          "parenthetical": "quoting Hr'g Tr. 727 (Apr. 21, 2016)"
+        },
+        {
+          "parenthetical": "quoting Hr'g Tr. 740 (Apr. 21, 2016)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "395 U.S. 575",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1772169
+      ],
+      "weight": 9,
+      "year": 1969,
+      "pin_cites": [
+        {
+          "page": "618"
+        },
+        {
+          "page": "620"
+        },
+        {
+          "page": "619"
+        },
+        {
+          "page": "619-20"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/395/0575-01"
+      ]
+    },
+    {
+      "cite": "465 U.S. 822",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11337795
+      ],
+      "weight": 3,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "829"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/465/0822-01"
+      ]
+    },
+    {
+      "cite": "196 NLRB 458",
+      "category": "reporters:federal",
+      "reporter": "N.L.R.B.",
+      "weight": 2,
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "458-59"
+        },
+        {
+          "page": "459"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "310 NLRB 216",
+      "category": "reporters:federal",
+      "reporter": "N.L.R.B.",
+      "weight": 3,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "217"
+        },
+        {
+          "page": "216"
+        },
+        {
+          "page": "217"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "301 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        547892
+      ],
+      "weight": 3,
+      "year": 1937,
+      "pin_cites": [
+        {
+          "page": "44"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/301/0001-01"
+      ]
+    },
+    {
+      "cite": "321 U.S. 678",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        302123
+      ],
+      "weight": 4,
+      "year": 1944,
+      "pin_cites": [
+        {
+          "page": "683-84",
+          "parenthetical": "quoting NLRB v. Jones & Laughlin Steel Corp. , 301 U.S. 1, 44, 57 S.Ct. 615, 81 L.Ed. 893 (1937) "
+        },
+        {
+          "parenthetical": "quoting NLRB v. Jones & Laughlin Steel Corp. , 301 U.S. 1, 44, 57 S.Ct. 615, 81 L.Ed. 893 (1937) "
+        },
+        {
+          "parenthetical": "quoting NLRB v. Jones & Laughlin Steel Corp. , 301 U.S. 1, 44, 57 S.Ct. 615, 81 L.Ed. 893 (1937) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/321/0678-01"
+      ]
+    },
+    {
+      "cite": "29 U.S.C. \u00a7 159",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "387 F.3d 908",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9154905,
+        3433602
+      ],
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "913"
+        },
+        {
+          "page": "913",
+          "parenthetical": "alteration in original"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/387/0908-01",
+        "/us-app-dc/363/0323-01"
+      ]
+    },
+    {
+      "cite": "324 U.S. 793",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6156862
+      ],
+      "weight": 3,
+      "year": 1945,
+      "pin_cites": [
+        {
+          "page": "800"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/324/0793-01"
+      ]
+    },
+    {
+      "cite": "668 F.3d 758",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3719288,
+        3768971
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "764-65"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/668/0758-01",
+        "/us-app-dc/399/0213-01"
+      ]
+    },
+    {
+      "cite": "494 U.S. 775",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        4904
+      ],
+      "weight": 3,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "786"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/494/0775-01"
+      ]
+    },
+    {
+      "cite": "646 F.3d 929",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3416873,
+        3557252
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "935"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/646/0929-01",
+        "/us-app-dc/396/0205-01"
+      ]
+    },
+    {
+      "cite": "812 F.3d 159",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4085980,
+        12310021
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "165",
+          "parenthetical": "quoting Bally's Park Place, Inc. v. NLRB , 646 F.3d 929, 935 (D.C. Cir. 2011) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/812/0159-01",
+        "/us-app-dc/421/0099-01"
+      ]
+    },
+    {
+      "cite": "859 F.3d 23",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12276257
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "29"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/859/0023-01"
+      ]
+    },
+    {
+      "cite": "305 U.S. 197",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6139848
+      ],
+      "weight": 3,
+      "year": 1938,
+      "pin_cites": [
+        {
+          "page": "229"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/305/0197-01"
+      ]
+    },
+    {
+      "cite": "95 L.Ed. 456",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "year": 1951,
+      "opinion_index": 0
+    },
+    {
+      "cite": "340 U.S. 474",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6931620
+      ],
+      "weight": 4,
+      "year": 1951,
+      "pin_cites": [
+        {
+          "page": "487-88"
+        },
+        {
+          "page": "477"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/340/0474-01"
+      ]
+    },
+    {
+      "cite": "921 F.2d 1275",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        3487500,
+        10549310
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "1279",
+          "parenthetical": "citing Universal Camera Corp. v. NLRB , 340 U.S. 474, 487-88, 71 S.Ct. 456, 95 L.Ed. 456 (1951) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/287/0287-01",
+        "/f2d/921/1275-01"
+      ]
+    },
+    {
+      "cite": "29 U.S.C. \u00a7 160",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(e)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "366 NLRB No. 74",
+      "category": "reporters:neutral",
+      "reporter": "NLRB No.",
+      "year": 2018,
+      "pin_cites": [
+        {
+          "parenthetical": "\" Decision \""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2016 WL 4501993",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2016,
+      "pin_cites": [
+        {
+          "parenthetical": "\" ALJ Decision \""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "386 F.3d 1160",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9155034,
+        3433895
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1164"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/386/1160-01",
+        "/us-app-dc/363/0272-01"
+      ]
+    },
+    {
+      "cite": "29 U.S.C. \u00a7 158",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1245,
+    "char_count": 24957,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2594299899337761
+    },
+    "sha256": "7322e9e0134a49fe3d0a33c7ab93ba408b4e53f38af2e348948adc076a369e2d",
+    "simhash": "1:9cb0958e2b177676",
+    "word_count": 4097
+  },
+  "last_updated": "2024-02-27T18:47:03.658527+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before: Rogers, Srinivasan, and Wilkins, Circuit Judges."
+    ],
+    "parties": [
+      "NATIONAL LABOR RELATIONS BOARD, Petitioner\nv.\nINGREDION INCORPORATED, d/b/a Penford Products Co., Respondent"
+    ],
+    "opinions": [
+      {
+        "text": "Rogers, Circuit Judge:\nIngredion, Inc. petitions for review of the Decision and Order of the National Labor Relations Board on the ground that five of the Board's findings, including that Ingredion violated the National Labor Relations Act (\"the Act\") by dealing directly with employees and denigrating a union in the eyes of employees, are unsupported by substantial evidence. We conclude that Ingredion fails to meet its burden in this regard. We further conclude that Ingredion's contentions that the Board violated its due process rights and improperly imposed a notice-reading remedy lack merit. Accordingly, we deny the petition and grant the Board's cross-application for enforcement of its Order.\nI.\nIngredion is a multinational corn starch manufacturing company. In March 2015, it acquired a corn processing plant in Cedar Rapids, Iowa. Approximately 165 of the plant's employees were represented by a local division of the Bakery, Confectionery, Tobacco Workers, and Grain Millers International Union, AFL-CIO (\"the Union\"). Ingredion recognized the Union and assumed the existing collective bargaining agreement (\"CBA\"), which was scheduled to expire on August 1, 2015. On June 1, 2015, Ingredion and the Union commenced negotiations for a new CBA. The Union proposed to modify the existing CBA in several ways. Ingredion proposed to start from scratch with an entirely new CBA in both substance and form. The parties had not reached an agreement as of August 18, when Ingredion declared that they were at impasse and presented its \"last, best, and final offer.\" After rejecting the Union's counteroffer of September 10, Ingredion unilaterally implemented the terms of its final offer on September 14, 2015. Ten days later, the Union filed charges with the Board alleging that Ingredion had engaged in numerous unfair labor practices proscribed by Section 8(a)(1) and (5) of the Act, 29 U.S.C. \u00a7 158(a)(1), (5). The Board's General Counsel issued a complaint against Ingredion in January 2016.\nSection 8(a)(1) and Section 8(a)(5) define unfair labor practices in overlapping terms. Section 8(a)(1) provides that it is \"an unfair labor practice for an employer to interfere with, restrain, or coerce employees in the exercise of\" their right to bargain collectively. Id. \u00a7 158(a)(1). Section 8(a)(5) provides that it is \"an unfair labor practice for an employer to refuse to bargain collectively with the representatives of his employees.\" Id. \u00a7 158(a)(5). Because a refusal to bargain necessarily interferes with bargaining, \"an employer who violates section 8(a)(5) also, derivatively, violates section 8(a)(1).\" Exxon Chem. Co. v. NLRB , 386 F.3d 1160, 1164 (D.C. Cir. 2004).\nAn administrative law judge determined, after conducting an evidentiary hearing, that Ingredion had committed several violations of Section 8(a). As relevant here, the ALJ found that Ingredion had violated Section 8(a)(1) by \"denigrating the Union\" in the eyes of employees and by \"threatening employees that they would lose their jobs if they went on strike.\" Ingredion, Inc. , No. 18-CA-160654, slip op. at 58-59, 2016 WL 4501993 (NLRB Div. of Judges Aug. 26, 2016) (\" ALJ Decision \"). He further found that Ingredion had violated Section 8(a)(5) (and, derivatively, Section 8(a)(1)) by dealing with employees directly rather than through the Union, by unilaterally implementing new terms and conditions of employment without first reaching an overall impasse in bargaining, and by failing to respond in a timely manner to a Union request for information. Id. at 58.\nThe Board affirmed with respect to all five violations.\nIngredion, Inc. , 366 NLRB No. 74, slip op. at 1-2 & nn.1-3 (May 1, 2018) (\" Decision \"). It directed Ingredion to cease and desist from its violations of the Act, rescind the unilaterally implemented terms and conditions of employment, and compensate employees for losses incurred as a result of its violations. Id. at 2-3 (\"Order \"). In addition, the Board ordered Ingredion to have its chief negotiator, Ken Meadows, read a notice describing these remedies to assembled employees \"or permit a Board agent, in the presence of Meadows and other corporate officials responsible for labor relations, to read the notice to employees.\" Id. at 3. One Board Member dissented from the latter portion of the Order. See Decision at 1 n.2.\nII.\nThe Board's factual findings are conclusive \"if supported by substantial evidence on the record considered as a whole.\" 29 U.S.C. \u00a7 160(e) ; see, e.g. , Elastic Stop Nut Div. of Harvard Indus., Inc. v. NLRB , 921 F.2d 1275, 1279 (D.C. Cir. 1990) (citing Universal Camera Corp. v. NLRB , 340 U.S. 474, 487-88, 71 S.Ct. 456, 95 L.Ed. 456 (1951) ). Substantial evidence \"means such relevant evidence as a reasonable mind might accept as adequate to support a conclusion.\" E.g. , Universal Camera , 340 U.S. at 477, 71 S.Ct. 456 (quoting Consol. Edison Co. v. NLRB , 305 U.S. 197, 229, 59 S.Ct. 206, 83 L.Ed. 126 (1938) ); King Soopers, Inc. v. NLRB , 859 F.3d 23, 29 (D.C. Cir. 2017). The court, consequently, must affirm the Board's findings unless \"no reasonable factfinder\" could find as it did. Alden Leeds, Inc. v. NLRB , 812 F.3d 159, 165 (D.C. Cir. 2016) (quoting Bally's Park Place, Inc. v. NLRB , 646 F.3d 929, 935 (D.C. Cir. 2011) ). The court's assessment of the Board's decision occurs in light of Congress's broad delegation to the Board to carry out the Act, see, e.g. , NLRB v. Curtin Matheson Sci., Inc. , 494 U.S. 775, 786, 110 S.Ct. 1542, 108 L.Ed.2d 801 (1990) ; Allied Mech. Servs., Inc. v. NLRB , 668 F.3d 758, 764-65 (D.C. Cir. 2012), and recognition that matters involving the interpretation of incidents between management and labor will often turn on the Board's assessment of events in light of its expertise in the area of labor relations, see, e.g. , Republic Aviation Corp. v. NLRB , 324 U.S. 793, 800, 65 S.Ct. 982, 89 L.Ed. 1372 (1945) ; United Servs. Auto. Ass'n v. NLRB , 387 F.3d 908, 913 (D.C. Cir. 2004).\n1. Direct dealing. The Board found that Ingredion engaged in direct dealing with employees when its chief negotiator, Ken Meadows, first visited the plant on April 6, 2015. Decision at 1 n.1. Ingredion acknowledges that Meadows spoke to at least five employees during that visit but maintains that his \"impromptu conversations\" with them were too \"brief and general\" to constitute direct dealing. See Pet'r's Br. 38-41.\nSection 9(a) of the Act obligates an employer to treat union officials as \"the exclusive representatives of [its] employees.\" 29 U.S.C. \u00a7 159(a). The Supreme Court has held that this obligation includes \"the negative duty to treat with no other.\" Medo Photo Supply Corp. v. NLRB , 321 U.S. 678, 683-84, 64 S.Ct. 830, 88 L.Ed. 1007 (1944) (quoting NLRB v. Jones & Laughlin Steel Corp. , 301 U.S. 1, 44, 57 S.Ct. 615, 81 L.Ed. 893 (1937) ). It is therefore \"an infringement of the Act for the employer to disregard the bargaining representative by negotiating with individual employees, whether a majority or a minority, with respect to wages, hours and working conditions.\" Id. at 684, 64 S.Ct. 830.\nUnder Board precedent, an employer violates Section 8(a)(1) and (5) of the Act if it \"attempt[s] to arm itself for upcoming negotiations\" by directly \"soliciting the sentiment of the employees on a subject to be discussed at the bargaining table.\" Harris-Teeter Super Mkts., Inc. , 310 NLRB 216, 217 (1993) ; see Obie Pac., Inc. , 196 NLRB 458, 458-59 (1972). For example, the employer in Harris-Teeter exercised a contractual right to temporarily change its employees' work schedule amid ongoing negotiations with the union and then asked the employees if they \"liked the change\" or had other comments about it. 310 NLRB at 216. The Board held that this solicitation of employee views on a subject of negotiation violated Section 8(a)(1) and (5) because it \"usurp[ed] the [u]nion's function.\" Id. at 217.\nThe record shows that less than two months before the start of negotiations with the Union over a new collective bargaining agreement, Meadows spent approximately 25 minutes speaking with employees about subjects that were to be addressed during the negotiations. He criticized the work schedules and health insurance benefits provided by the existing CBA and asked what the employees hoped to see in a new agreement. They expressed interest in a wage raise of 3 to 3.5 percent, an increased pension multiplier, different work schedules, more vacation days, and health insurance coverage for early retirees. Meadows told the employees that any wage increase would be \"in the range of 2 to 2.5 percent,\" that the health insurance policy would be changed, and that the pension multiplier would not be increased because \"pensions were a thing of the past and 'would probably be going away.' \" ALJ Decision at 7, 37-38 (quoting Hr'g Tr. 61 (Apr. 18, 2016)). Employees who had worked at the plant and been represented by the Union for decades testified that they had never had a manager or supervisor approach them to discuss contract negotiations prior to Ingredion's takeover of the plant.\nIngredion does not dispute that Meadows had direct contact with employees and solicited their views about key terms in soon-to-be-commenced bargaining with the Union. Whether such contact is too brief or informal to constitute a violation of Section 8(a)(1) and (5) is the type of on-the-ground assessment that \"implicates [the Board's] expertise in labor relations,\" United Servs. , 387 F.3d at 913 (alteration in original) (quoting NLRB v. City Disposal Sys., Inc. , 465 U.S. 822, 829, 104 S.Ct. 1505, 79 L.Ed.2d 839 (1984) ). Ingredion points to nothing in the record considered as a whole that would cause the court to doubt the reasonableness of the Board's finding. The Board's finding rests on substantial evidence that Meadows' conduct \"undermine[d] the exclusive agency relationship\" between the Union and its members, Obie Pac. , 196 NLRB at 459, illustrating one of the ills Congress sought to guard against by enacting Sections 8(a) and 9(a) of the Act, 29 U.S.C. \u00a7\u00a7 158(a), 159(a).\n2. Denigration of the Union. The Board found that one of Ingredion's managers unlawfully denigrated the Union in the eyes of employees by falsely representing that it was unwilling to negotiate on certain subjects. See Decision at 1 n.1. Ingredion contends that the manager did not violate the Act because he made only \"a non-actionable statement of opinion, not a 'threat of reprisal or force or promise of benefit.' \" Pet'r's Br. 44 (quoting NLRB v. Gissel Packing Co. , 395 U.S. 575, 618, 89 S.Ct. 1918, 23 L.Ed.2d 547 (1969) ).\nSection 8(a)(1) of the Act makes it unlawful for an employer to \"interfere with, restrain, or coerce employees\" with respect to collective bargaining. 29 U.S.C. \u00a7 158(a)(1). Section 8(c), however, permits an employer to express a \"view[ ], argument, or opinion\" about bargaining so long as it does not threaten or coerce the employees. Id. \u00a7 158(c). In Gissel Packing , 395 U.S. at 620, 89 S.Ct. 1918, the Supreme Court distinguished the statements of opinion protected under Section 8(c) from \"coercive ... overstatements\" that an employer \"has reason to believe will mislead his employees.\"\nThe Board has held that an employer violates Section 8(a)(1) by \"misrepresent[ing] the [u]nion's bargaining positions\" in a way that \"tends to undermine\" employee support for the union. Miller Waste Mills, Inc. , 334 NLRB 466, 467-68 (2001), enforced , 315 F.3d 951 (8th Cir. 2003) ; see Faro Screen Process, Inc. , 362 NLRB 718, 718-19 (2015). In Miller Waste Mills , for example, the employer sent employees a letter that \"blamed the [u]nion for preventing the employees from receiving their customary annual wage increase,\" 334 NLRB at 467, even though the employer \"believed that the [u]nion had given its blessing to a wage increase,\" id. at 479. The Board ruled that the letter violated Section 8(a)(1) because it caused the employees to lose faith in their union representatives and thus interfered with their ability to bargain collectively. Id. at 467.\nThe record shows that Ingredion's manager told an employee in early July not to sign his retirement papers because \"there was a better contract coming\" and he \"would like the retirement that [Ingredion] was going to propose.\" ALJ Decision at 30. The manager also told the employee not to \"let a few people in the union body sway what [he] want[ed] to do.\" Id. (quoting Hr'g Tr. 727 (Apr. 21, 2016)). The manager claimed that Ingredion's chief labor negotiator, Meadows, had given him permission to discuss the topic with employees. Id.\nThe record further shows that shortly after speaking with the first employee, this manager approached another employee who was considering retirement and told him to contact his union representatives and \"have them get a hold of the company and start negotiating.\" Id. (quoting Hr'g Tr. 740 (Apr. 21, 2016)). In fact, the parties had already held three bargaining sessions and had scheduled additional sessions for the entire week of July 27. Id. at 11-13. The manager told this second employee the \"pension is negotiable, the hours, wages are negotiable, everything is negotiable.\" Id. at 30 (quoting Hr'g Tr. 740). The second employee testified that after conferring with the first employee, he concluded that Ingredion had \" 'a lot to give' \" them, that \"the Union was not telling [them] everything,\" and that the parties \"needed to get together and negotiate.\" Id. at 31 (quoting Hr'g Tr. 741).\nIngredion's contention that the manager's statements were non-threatening, see Pet'r's Br. 44, misunderstands the nature of its violation. The Board did not find that the statements were threatening, but rather that they were misleading. See Decision at 1 n.1. The record evidence supports the Board's finding that Ingredion violated Section 8(a)(1) by misrepresenting the Union's position in a way that tended to cause employees to lose faith in the Union.\n3. Impasse. The Board found that Ingredion violated Section 8(a)(1) and (5) of the Act by unilaterally implementing new terms and conditions of employment when \"the parties had not reached an overall impasse in bargaining.\" Id. at 1. Ingredion contends that it bargained with the Union to a valid impasse over a single issue, namely the format of the new CBA. See Pet'r's Br. 20-22. Here, Ingredion simply ignores record evidence to the contrary.\nIt is well established that \"an employer commits an unfair labor practice if, without bargaining to impasse, it effects a unilateral change of an existing term or condition of employment.\" Litton Fin. Printing Div. v. NLRB , 501 U.S. 190, 198, 111 S.Ct. 2215, 115 L.Ed.2d 177 (1991) ; see, e.g. , Wayneview Care Ctr. v. NLRB , 664 F.3d 341, 347 (D.C. Cir. 2011). An impasse occurs \"when 'good faith negotiations have exhausted the prospects of concluding an agreement.' \" Wayneview , 664 F.3d at 347 (quoting Taft Broad. Co. , 163 NLRB 475, 478 (1967) ). A party claiming impasse based on a single critical issue has the burden of showing \"there can be no progress on any aspect of the negotiations until the impasse relating to the critical issue is resolved.\" Id. at 350 (quoting CalMat Co. , 331 NLRB 1084, 1097 (2000) ).\nThe record shows that although the Union's proposals used the format of the existing CBA and Ingredion's proposals used a different format, this did not prevent the parties from proceeding to negotiate and reach agreement on some material issues. For example, the Union added to its June 29 proposal certain provisions initially proposed by Ingredion regarding union elections, seniority, and paid time off. Compare Union Proposal of June 29, art. II, \u00a7\u00a7 2, 4; art. V, \u00a7 1; art. VIII, \u00a7 3, with Ingredion Proposal of June 1, art. III, \u00a7\u00a7 1, 3; art. V, \u00a7 1; art. XIV, \u00a7 4. Similarly, Ingredion added to its July 28 and 29 proposals certain elements of the existing CBA that the Union wanted to retain. Compare Ingredion Proposal of July 28, art. XX, \u00a7 3, and Ingredion Proposal of July 29, art. XI, \u00a7\u00a7 5-6, with CBA art. IV, \u00a7\u00a7 11-12; art. X, \u00a7 1(g). In addition, the parties created and exchanged summaries that compared the substantive terms of their proposals despite the differences in format. Moreover, at the time Ingredion declared impasse, major economic issues had received little attention from the parties: Ingredion had made only a single wage proposal, the Union had not made \"any specific proposal regarding wages,\" and there had \"been relatively little discussion regarding other important economic issues such as health insurance and retirement benefits.\" ALJ Decision at 48. For that reason, the Board concluded that \"further discussion of the substantive terms may well have resulted in the parties compromising with respect to the format and language of a new agreement.\" Id. A review of the record as a whole, then, shows substantial evidence to support the Board's finding that although the format of the new contract was a \"major issue[ ],\" id. , it did not create an overall impasse, see Decision at 1 (adopting ALJ Decision at 47-49 ).\n4. Delay in providing requested information. Ingredion promptly responded to most of the Union's requests for information but took eleven weeks to provide three items of pension-related information. The Board found that this delay was unreasonable and therefore violated Section 8(a)(1) and (5). See id. at 1 n.1. Ingredion maintains that it \"made a 'reasonable good-faith effort' \" to produce the items \" 'as promptly as circumstances allow[ed].' \" Pet'r's Br. 48 (alteration in original) (quoting Good Life Beverage Co. , 312 NLRB 1060, 1062 n.9 (1993) ).\n\"The duty to bargain collectively\" imposed by Section 8(a)(5) \"includes a duty to provide relevant information needed by a labor union for the proper performance of its duties as the employees' bargaining representative.\" Detroit Edison Co. v. NLRB , 440 U.S. 301, 303, 99 S.Ct. 1123, 59 L.Ed.2d 333 (1979). \"An employer violates the Act not only by refusing to provide such relevant information but also by not providing it in a timely manner.\" Brewers & Maltsters, Local Union No. 6 v. NLRB , 414 F.3d 36, 45 (D.C. Cir. 2005). Under Board precedent, an unjustified delay of seven weeks may constitute a violation of Section 8(a)(1) and (5). See, e.g. , Woodland Clinic , 331 NLRB 735, 737 (2000) ; Bundy Corp. , 292 NLRB 671, 672 (1989).\nThe record shows that Ingredion's contemporaneous explanation for the delay differs from the explanation it presented to the court. Meadows did not tell the Union that the information would be difficult or time-consuming to retrieve, see Pet'r's Br. 48, 50, but rather that Ingredion might not provide pension-related information because it intended to discontinue the existing pension plan. See ALJ Decision at 12. This was not a valid reason for delaying compliance with an information request; regardless of what Ingredion intended, it had an obligation to provide the information in a timely manner because it was relevant to the Union's proposals. See Country Ford Trucks, Inc. v. NLRB , 229 F.3d 1184, 1191 (D.C. Cir. 2000). Given Ingredion's inadequate and changing explanation for the delay, the Board was entitled to conclude that the delay was unreasonable. See Decision at 1 n.1 (adopting ALJ Decision at 36-37 ).\n5. Threats of job loss. The Board found that Ingredion violated Section 8(a)(1) of the Act when one of its managers told employees discussing a potential strike, \"You boys, you might want to think long and hard about walking out on these people. They've got the deep pockets and lots of plants that make the same thing you do. You may not get back in the door if you go out.\" ALJ Decision at 32 (quoting Hr'g Tr. 38 (Apr. 18, 2016)). Ingredion characterizes this as \"a truthful statement that one potential consequence of a strike is job loss.\" Pet'r's Br. 47.\nAlthough an employer may communicate \"what [it] reasonably believes will be the likely economic consequences\" of a labor strike, Gissel Packing , 395 U.S. at 619, 89 S.Ct. 1918, it violates Section 8(a)(1) if it makes \"coercive statements that threaten employees with job loss or plant closure in retaliation for protected union activities,\" Care One at Madison Ave., LLC v. NLRB , 832 F.3d 351, 360 (D.C. Cir. 2016) (quoting Progressive Elec., Inc. v. NLRB , 453 F.3d 538, 544 (D.C. Cir. 2006) ).\nThe Board reasonably found that the statement was not an \"honest forecast[ ]\" based on \"economic realities,\" Gissel Packing , 395 U.S. at 619-20, 89 S.Ct. 1918, but a threat to terminate employees for exercising their right to strike. See Care One , 832 F.3d at 360-61. Further, Ingredion's view that the Board lacked jurisdiction over the relevant allegation in the General Counsel's complaint because it \"was not 'closely related' to the claims in the [Union's] first amended charge,\" Pet'r's Br. 45 (quoting Precision Concrete v. NLRB , 334 F.3d 88, 91-92 (D.C. Cir. 2003) ), is meritless. The complaint alleged that in July 2015, the manager \"threatened employees that they would never return to work if they went on strike,\" Second Am. to Compl. 2. This is closely related to the Union's charge that \"[s]ince about April 6, 2015, [Ingredion] threaten[ed] employees with replacement if they d[id] not agree to\" its proposals, First Am. Charge. See G.W. Galloway Co. v. NLRB , 856 F.2d 275, 280 (D.C. Cir. 1988). Further, in suggesting the Board did not address this allegation, see Pet'r's Br. 45, Ingredion overlooks that the Board affirmed the ALJ's findings except as specified otherwise, never disavowed the ALJ's finding that the statement was an unlawful threat, and ordered Ingredion to stop \"[t]hreatening employees that they might lose their jobs if they went on strike,\" Order at 2; see Decision at 1 & nn.1-2.\nTo the extent Ingredion's challenge morphs into a due process objection, this too fails. Ingredion maintains it did not have a meaningful opportunity to respond to the unlawful-threats allegation because it was added to the complaint just two days before the administrative hearing. See Pet'r's Br. 51-52. Yet the record shows Ingredion received a \"full and fair opportunity to litigate the matter,\" and in any event Ingredion points to no prejudice. See Davis Supermarkets, Inc. v. NLRB , 2 F.3d 1162, 1169 (D.C. Cir. 1993). Thus, Ingredion has shown no basis for reversing the Board's findings of unfair labor practices.\nIII.\nIngredion objects to the Board's remedial Order on two grounds. First, it maintains it was denied due process by the provision rescinding all discipline imposed pursuant to unilaterally implemented terms and conditions because the complaint did not specifically request such a remedy. See Pet'r's Br. 53-54. This is meritless. Ingredion was on notice that the remedy was in play because the complaint asked the Board to compensate employees \"for any losses they have suffered as a result of the unilateral implementation\" of new terms and conditions. Compl. 8.\nSecond, Ingredion objects to the provision directing that Meadows read a notice describing Ingredion's legal obligations to assembled employees \"or permit a Board agent, in the presence of Meadows and other corporate officials responsible for labor relations, to read the notice to employees,\" Order at 3. The Board's broad discretion to fashion remedies for violations of the Act, see, e.g. , Fibreboard Paper Prods. Corp. v. NLRB , 379 U.S. 203, 216-17, 85 S.Ct. 398, 13 L.Ed.2d 233 (1964), allows it to impose this \"extraordinary remedy,\" Decision at 1 n.2 (Member Emanuel, dissenting), where \"upper management has been directly involved in multiple violations of the Act,\" Veritas Health Servs., Inc. v. NLRB , 895 F.3d 69, 86 (D.C. Cir. 2018). Here, Ingredion's chief negotiator played a central role in several violations of the Act, so the Board did not abuse its discretion by imposing the remedy.\nAccordingly, we deny the petition for review and grant the Board's cross-application for enforcement of its Order.",
+        "type": "majority",
+        "author": "Rogers, Circuit Judge:"
+      }
+    ],
+    "attorneys": [
+      "Brian J. Paul, Indianapolis, IN, argued the cause for petitioner Ingredion Incorporated. With him on the briefs were Stuart R. Buttrick, Indianapolis, IN, Ryan J. Funk, Indianapolis, IN, Jeffrey P. Justman, Minneapolis, MN, and Kyle J. Essley, Minneapolis, MN.",
+      "Eric Weitz, Attorney, National Labor Relations Board, argued the cause for respondent National Labor Relations Board. With him on the brief were Peter B. Robb, General Counsel, David S. Habenstreit, Assistant General Counsel, and Usha Dheenan, Supervisory Attorney."
+    ],
+    "corrections": "",
+    "head_matter": "NATIONAL LABOR RELATIONS BOARD, Petitioner\nv.\nINGREDION INCORPORATED, d/b/a Penford Products Co., Respondent\nLocal 100G, Bakery, Confectionery, Tobacco Workers and Grain Millers International Union, AFL-CIO, CLC, Intervenor\nNo. 18-1155\nC/w 18-1244\nUnited States Court of Appeals, District of Columbia Circuit.\nArgued May 6, 2019\nDecided July 19, 2019\nBrian J. Paul, Indianapolis, IN, argued the cause for petitioner Ingredion Incorporated. With him on the briefs were Stuart R. Buttrick, Indianapolis, IN, Ryan J. Funk, Indianapolis, IN, Jeffrey P. Justman, Minneapolis, MN, and Kyle J. Essley, Minneapolis, MN.\nEric Weitz, Attorney, National Labor Relations Board, argued the cause for respondent National Labor Relations Board. With him on the brief were Peter B. Robb, General Counsel, David S. Habenstreit, Assistant General Counsel, and Usha Dheenan, Supervisory Attorney.\nBefore: Rogers, Srinivasan, and Wilkins, Circuit Judges."
+  },
+  "file_name": "0509-01",
+  "first_page_order": 509,
+  "last_page_order": 519
+}

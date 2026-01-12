@@ -1,0 +1,66 @@
+{
+  "id": 12412647,
+  "name": "Blake v. United States; Jaimes v. United States",
+  "name_abbreviation": "Blake v. United States",
+  "decision_date": "2012-06-29",
+  "docket_number": "No. 11-799; No. 11-883",
+  "first_page": "948",
+  "last_page": "948",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 948"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "446 Fed. Appx. 713",
+      "category": "reporters:federal",
+      "reporter": "Fed. Appx.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 36,
+    "char_count": 279,
+    "ocr_confidence": 0.676,
+    "sha256": "68fdf4a05bf6ab3642f1b8284617c34822f8274975c803cdbbbc0a6f59d1d324",
+    "simhash": "1:a249fb468f2b9eb8",
+    "word_count": 47
+  },
+  "last_updated": "2024-02-27T23:46:21.325002+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Blake v. United States. Jaimes v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir.; and\nC. A. 5th Cir. Reported below: 446 Fed. Appx. 713. Certiorari granted, judgments vacated, and cases remanded for further consideration in light of Dorsey v. United States, ante, p. 260.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-799.\nNo. 11-883.\nBlake v. United States. Jaimes v. United States."
+  },
+  "file_name": "0948-02",
+  "first_page_order": 852,
+  "last_page_order": 852
+}

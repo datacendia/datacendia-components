@@ -1,0 +1,59 @@
+{
+  "id": 12432530,
+  "name": "Fermin v. United States",
+  "name_abbreviation": "Fermin v. United States",
+  "decision_date": "2013-03-04",
+  "docket_number": "No. 12-890",
+  "first_page": "1213",
+  "last_page": "1213",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1213"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.687,
+    "sha256": "bce7630c8338214690a6ba9e0c34529b974290ce187ef84c921f23abeb5a3515",
+    "simhash": "1:8128db8ea9900c02",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Fermin v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-890.\nFermin v. United States."
+  },
+  "file_name": "1213-10",
+  "first_page_order": 1289,
+  "last_page_order": 1289
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5990649,
+  "name": "Wallace v. Florida Parole Commission",
+  "name_abbreviation": "Wallace v. Florida Parole Commission",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5283",
+  "first_page": "913",
+  "last_page": "913",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 913"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 86,
+    "ocr_confidence": 0.545,
+    "sha256": "5f61e4dfdfea008ce4466f8479855b13d951a60567e09f21d71eb90303758b55",
+    "simhash": "1:1298aa5b716b30f6",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wallace v. Florida Parole Commission."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5283.\nWallace v. Florida Parole Commission."
+  },
+  "file_name": "0913-07",
+  "first_page_order": 935,
+  "last_page_order": 935
+}

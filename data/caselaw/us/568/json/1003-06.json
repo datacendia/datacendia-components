@@ -1,0 +1,59 @@
+{
+  "id": 12422164,
+  "name": "Grogans v. United States",
+  "name_abbreviation": "Grogans v. United States",
+  "decision_date": "2012-11-05",
+  "docket_number": "No. 12-6500",
+  "first_page": "1003",
+  "last_page": "1003",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1003"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.647,
+    "sha256": "37996314bb7ae7e68ab446df9377a8218aba02af6b29207f3e6654250bfdc1f8",
+    "simhash": "1:378aae5b4e8fb90d",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Grogans v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6500.\nGrogans v. United States."
+  },
+  "file_name": "1003-06",
+  "first_page_order": 1079,
+  "last_page_order": 1079
+}

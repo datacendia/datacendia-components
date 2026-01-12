@@ -1,0 +1,59 @@
+{
+  "id": 12214930,
+  "name": "In re Hien Anh Dao; In re Dunlap; In re Durschmidt; and In re Carter",
+  "name_abbreviation": "In re Hien Anh Dao",
+  "decision_date": "2012-05-14",
+  "docket_number": "No. 11-9091; No. 11-9165; No. 11-9327; No. 11-9666",
+  "first_page": "985",
+  "last_page": "985",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 985"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 20,
+    "char_count": 162,
+    "ocr_confidence": 0.518,
+    "sha256": "de00e08b63bf717523bb4b92b544809da5de38a64ea8075776fc1ffa06a1d694",
+    "simhash": "1:2c2e9ab7cb892334",
+    "word_count": 29
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Hien Anh Dao; In re Dunlap; In re Durschmidt; and In re Carter."
+    ],
+    "opinions": [
+      {
+        "text": "Petitions for writs of mandamus denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9091.\nNo. 11-9165.\nNo. 11-9327.\nNo. 11-9666.\nIn re Hien Anh Dao; In re Dunlap; In re Durschmidt; and In re Carter."
+  },
+  "file_name": "0985-08",
+  "first_page_order": 861,
+  "last_page_order": 861
+}

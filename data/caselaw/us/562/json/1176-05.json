@@ -1,0 +1,59 @@
+{
+  "id": 5946732,
+  "name": "Kellner v. California",
+  "name_abbreviation": "Kellner v. California",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-6870",
+  "first_page": "1176",
+  "last_page": "1176",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1176"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 27,
+    "char_count": 183,
+    "ocr_confidence": 0.567,
+    "sha256": "2261c95af7b0f808dc4b803d8a0c03f82da0bbc65f7bd52c85e2392453340709",
+    "simhash": "1:e5a430e843a6e601",
+    "word_count": 29
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kellner v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 6th App. Dist. Motion of petitioner for reconsideration of order denying leave to proceed in forma pauperis [ante, p. 1059] denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6870.\nKellner v. California."
+  },
+  "file_name": "1176-05",
+  "first_page_order": 1198,
+  "last_page_order": 1198
+}

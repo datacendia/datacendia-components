@@ -1,0 +1,61 @@
+{
+  "id": 12226387,
+  "name": "Miller, aka Favreau, aka Brodeau v. United States",
+  "name_abbreviation": "Miller v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11207",
+  "first_page": "933",
+  "last_page": "933",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 933"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 27,
+    "char_count": 181,
+    "ocr_confidence": 0.66,
+    "sha256": "68c923a8c2e325389b1be796916e37a90918fa92ed4ca99d128a20b642b92af1",
+    "simhash": "1:8961d2806b0ed202",
+    "word_count": 29
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice So-tomayor took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Miller, aka Favreau, aka Brodeau v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.\nJustice So-tomayor took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11207.\nMiller, aka Favreau, aka Brodeau v. United States."
+  },
+  "file_name": "0933-06",
+  "first_page_order": 1015,
+  "last_page_order": 1015
+}

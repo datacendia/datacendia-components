@@ -1,0 +1,59 @@
+{
+  "id": 12410141,
+  "name": "White v. City of Waukegan, Illinois, et al.",
+  "name_abbreviation": "White v. City of Waukegan",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-1495",
+  "first_page": "824",
+  "last_page": "824",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 824"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 91,
+    "ocr_confidence": 0.655,
+    "sha256": "c9a7a38978138344a17e1ce93d95cd671b71dafa8d748ad236d36fe9082f8307",
+    "simhash": "1:b855a8a9e1dd9f28",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "White v. City of Waukegan, Illinois, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1495.\nWhite v. City of Waukegan, Illinois, et al."
+  },
+  "file_name": "0824-02",
+  "first_page_order": 900,
+  "last_page_order": 900
+}

@@ -1,0 +1,128 @@
+{
+  "id": 5934492,
+  "name": "Lyles v. Lemmon et al.",
+  "name_abbreviation": "Lyles v. Lemmon",
+  "decision_date": "2011-07-25",
+  "docket_number": "No. 10-8731",
+  "first_page": "1056",
+  "last_page": "1056",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1056"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "563 U. S. 929",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5918729,
+        5938842,
+        5963292,
+        5925408,
+        5933619,
+        5944506,
+        5914814,
+        5946693,
+        12458952,
+        12458953,
+        5913674,
+        12458954,
+        12458955,
+        5955661,
+        12458958,
+        12458959,
+        12458957,
+        12458961,
+        12458962,
+        5933139,
+        12458963,
+        5927125,
+        12458964,
+        12458960,
+        5952857,
+        12458956
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/563/0929-06",
+        "/us/563/0929-08",
+        "/us/563/0929-12",
+        "/us/563/0929-02",
+        "/us/563/0929-11",
+        "/us/563/0929-09",
+        "/us/563/0929-05",
+        "/us/563/0929-07",
+        "/l-ed-2d/179/0793-03",
+        "/l-ed-2d/179/0793-04",
+        "/us/563/0929-03",
+        "/l-ed-2d/179/0793-05",
+        "/l-ed-2d/179/0793-06",
+        "/us/563/0929-01",
+        "/l-ed-2d/179/0794-01",
+        "/l-ed-2d/179/0794-02",
+        "/l-ed-2d/179/0793-08",
+        "/l-ed-2d/179/0794-04",
+        "/l-ed-2d/179/0794-05",
+        "/us/563/0929-13",
+        "/l-ed-2d/179/0794-06",
+        "/us/563/0929-10",
+        "/l-ed-2d/179/0794-07",
+        "/l-ed-2d/179/0794-03",
+        "/us/563/0929-04",
+        "/l-ed-2d/179/0793-07"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 26,
+    "char_count": 161,
+    "ocr_confidence": 0.575,
+    "pagerank": {
+      "raw": 4.373766679880339e-06,
+      "percentile": 0.9983551737401186
+    },
+    "sha256": "3fec84df0dece14bbcdc4a89b8507f00afe7c70899b286d377b5d29a64460185",
+    "simhash": "1:1fb39e824d46e8c7",
+    "word_count": 28
+  },
+  "last_updated": "2024-02-27T23:47:04.462735+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Lyles v. Lemmon et al.,"
+    ],
+    "opinions": [
+      {
+        "text": "563 U. S. 929. Petition for rehearing denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8731.\nLyles v. Lemmon et al.,"
+  },
+  "file_name": "1056-01",
+  "first_page_order": 1050,
+  "last_page_order": 1050
+}

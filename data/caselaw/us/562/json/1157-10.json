@@ -1,0 +1,59 @@
+{
+  "id": 6029489,
+  "name": "Newton v. United States",
+  "name_abbreviation": "Newton v. United States",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7649",
+  "first_page": "1157",
+  "last_page": "1157",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1157"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.628,
+    "sha256": "d24df3e3a8ebb2606a0f47133d790280b567e3a54d6c66bfee172fcc8076fc7a",
+    "simhash": "1:b4cbd619ceacb12e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Newton v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7649.\nNewton v. United States."
+  },
+  "file_name": "1157-10",
+  "first_page_order": 1179,
+  "last_page_order": 1179
+}

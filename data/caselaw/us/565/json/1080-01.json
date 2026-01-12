@@ -1,0 +1,59 @@
+{
+  "id": 12236768,
+  "name": "Nelson v. New Jersey",
+  "name_abbreviation": "Nelson v. New Jersey",
+  "decision_date": "2011-12-05",
+  "docket_number": "No. 11-495",
+  "first_page": "1080",
+  "last_page": "1080",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1080"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 81,
+    "ocr_confidence": 0.779,
+    "sha256": "cd25538699f0ffef0f50b50a9ccd43bdf0b689c54e921b8211863fb34af656b8",
+    "simhash": "1:facdb71e0eef93bd",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Nelson v. New Jersey."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. N. J., App. Div. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-495.\nNelson v. New Jersey."
+  },
+  "file_name": "1080-01",
+  "first_page_order": 1162,
+  "last_page_order": 1162
+}

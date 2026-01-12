@@ -1,0 +1,59 @@
+{
+  "id": 12410136,
+  "name": "Soto v. United States",
+  "name_abbreviation": "Soto v. United States",
+  "decision_date": "2012-06-18",
+  "docket_number": "No. 11-10319",
+  "first_page": "921",
+  "last_page": "921",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 921"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.688,
+    "sha256": "e908749986116a96c2825f0aee8abd0dd051cf4a719324c51dee2f922e754fcc",
+    "simhash": "1:01294bd30f13f520",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Soto v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10319.\nSoto v. United States."
+  },
+  "file_name": "0921-12",
+  "first_page_order": 825,
+  "last_page_order": 825
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12430730,
+  "name": "Haynes v. United States",
+  "name_abbreviation": "Haynes v. United States",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-7170",
+  "first_page": "1164",
+  "last_page": "1164",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1164"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.624,
+    "sha256": "f2431a7a6dd3b2305bf12b89fe6768582c51ba9686cb59a82a6603d048a22860",
+    "simhash": "1:44abf2836fbd016e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Haynes v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7170.\nHaynes v. United States."
+  },
+  "file_name": "1164-11",
+  "first_page_order": 1240,
+  "last_page_order": 1240
+}

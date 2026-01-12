@@ -1,0 +1,59 @@
+{
+  "id": 5961335,
+  "name": "Price v. Hickey, Warden",
+  "name_abbreviation": "Price v. Hickey",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11475",
+  "first_page": "883",
+  "last_page": "883",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 883"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.683,
+    "sha256": "b6134b86cf12f505debe8cf83882bf817e13558b61743c73002818f1fa10e88a",
+    "simhash": "1:96a1cfb7f8eb90de",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Price v. Hickey, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11475.\nPrice v. Hickey, Warden."
+  },
+  "file_name": "0883-01",
+  "first_page_order": 905,
+  "last_page_order": 905
+}

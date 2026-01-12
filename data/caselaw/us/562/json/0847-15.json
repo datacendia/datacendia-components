@@ -1,0 +1,59 @@
+{
+  "id": 6029358,
+  "name": "Shannon v. Evans, Warden",
+  "name_abbreviation": "Shannon v. Evans",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10617",
+  "first_page": "847",
+  "last_page": "847",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 847"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.542,
+    "sha256": "c91bb4946ccb7a5539eea588b61515eb60d01a1d95aa12aab831e7368476060e",
+    "simhash": "1:96cf36a1be59deb2",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Shannon v. Evans, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10617.\nShannon v. Evans, Warden."
+  },
+  "file_name": "0847-15",
+  "first_page_order": 869,
+  "last_page_order": 869
+}

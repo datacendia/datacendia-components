@@ -1,0 +1,59 @@
+{
+  "id": 12428345,
+  "name": "Patterson v. Pennsylvania",
+  "name_abbreviation": "Patterson v. Pennsylvania",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-6843",
+  "first_page": "1098",
+  "last_page": "1098",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1098"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 74,
+    "ocr_confidence": 0.672,
+    "sha256": "de67beb769d6c534c5bd9e02ee45bcdafc1a50e694cd0c321d208986125ab235",
+    "simhash": "1:56448cd0b2e8b4fc",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Patterson v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Pa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6843.\nPatterson v. Pennsylvania."
+  },
+  "file_name": "1098-09",
+  "first_page_order": 1174,
+  "last_page_order": 1174
+}

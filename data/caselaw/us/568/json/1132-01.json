@@ -1,0 +1,59 @@
+{
+  "id": 12429564,
+  "name": "Trujillo v. Florida",
+  "name_abbreviation": "Trujillo v. Florida",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-7320",
+  "first_page": "1132",
+  "last_page": "1132",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1132"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 70,
+    "ocr_confidence": 0.595,
+    "sha256": "e92b43f78d3763ed69e53af513beca390849b8f4a9eaa0aa48cf14facea3f399",
+    "simhash": "1:1f6c0eabbd4bb13f",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Trujillo v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7320.\nTrujillo v. Florida."
+  },
+  "file_name": "1132-01",
+  "first_page_order": 1208,
+  "last_page_order": 1208
+}

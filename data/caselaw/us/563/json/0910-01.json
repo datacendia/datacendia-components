@@ -1,0 +1,59 @@
+{
+  "id": 5942547,
+  "name": "Gallardo v. Arizona",
+  "name_abbreviation": "Gallardo v. Arizona",
+  "decision_date": "2011-03-28",
+  "docket_number": "No. 10-8817",
+  "first_page": "910",
+  "last_page": "910",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 910"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 68,
+    "ocr_confidence": 0.577,
+    "sha256": "7ff7a5c462bfdbb7952b3f8e891400aba49c8b67ed99c3924fa20565ae2a011e",
+    "simhash": "1:a02b2d3a4527b558",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gallardo v. Arizona."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ariz. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8817.\nGallardo v. Arizona."
+  },
+  "file_name": "0910-01",
+  "first_page_order": 936,
+  "last_page_order": 936
+}

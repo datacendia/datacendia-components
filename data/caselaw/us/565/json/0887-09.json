@@ -1,0 +1,59 @@
+{
+  "id": 12215860,
+  "name": "Schoppe-Rico v. California",
+  "name_abbreviation": "Schoppe-Rico v. California",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5052",
+  "first_page": "887",
+  "last_page": "887",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 887"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 74,
+    "ocr_confidence": 0.728,
+    "sha256": "ac98f1363656a53c7254985e9c2a76de4daadeeb8018951b35d4105b8aa93179",
+    "simhash": "1:0c0411728e5c013d",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Schoppe-Rico v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5052.\nSchoppe-Rico v. California."
+  },
+  "file_name": "0887-09",
+  "first_page_order": 969,
+  "last_page_order": 969
+}

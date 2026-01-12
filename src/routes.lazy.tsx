@@ -86,9 +86,12 @@ const SovereignEnterpriseIntelligencePage = lazy(
 );
 
 // Demos
-const RegulatorsReceiptPage = lazy(() => import('./pages/demos/RegulatorsReceiptPage'));
+const RegulatorsReceiptPage = lazy(() => import('./pages/cortex/trust/RegulatorsReceiptPage'));
 const DemoLauncherPage = lazy(() => import('./pages/cortex/demo/DemoLauncherPage'));
 const ShowcaseDashboard = lazy(() => import('./components/showcase/ShowcaseDashboard'));
+
+// Workflows
+const LegalWorkflowPage = lazy(() => import('./pages/cortex/workflows/LegalWorkflowPage'));
 
 // Legal
 const PrivacyPolicyPage = lazy(() =>
@@ -760,10 +763,18 @@ export const router = createBrowserRouter([
     ),
   },
   {
-    path: '/demos/regulators-receipt',
+    path: '/cortex/trust/regulators-receipt',
     element: (
       <SuspenseWrapper>
         <RegulatorsReceiptPage />
+      </SuspenseWrapper>
+    ),
+  },
+  {
+    path: '/cortex/workflows/legal',
+    element: (
+      <SuspenseWrapper>
+        <LegalWorkflowPage />
       </SuspenseWrapper>
     ),
   },

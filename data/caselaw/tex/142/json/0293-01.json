@@ -1,0 +1,721 @@
+{
+  "id": 2340494,
+  "name": "E. C. Marrs et al v. Railroad Commission of Texas et al.",
+  "name_abbreviation": "Marrs v. Railroad Commission",
+  "decision_date": "1944-01-05",
+  "docket_number": "No. 8044",
+  "first_page": "293",
+  "last_page": "308",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "142 Tex. 293"
+    },
+    {
+      "type": "parallel",
+      "cite": "177 S.W.2d 941"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "168 S. W. (2d) 625",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10217720,
+        2310170
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/168/0625-01",
+        "/tex/140/0527-01"
+      ]
+    },
+    {
+      "cite": "104 S. W. (2d) 1106",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2291498,
+        10276963
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/129/0617-01",
+        "/sw2d/104/1106-01"
+      ]
+    },
+    {
+      "cite": "129 Texas 617",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2291498
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/129/0617-01"
+      ]
+    },
+    {
+      "cite": "168 S. W. (2d) 645",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2310192,
+        2310137,
+        10218436,
+        10218333
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/140/0423-01",
+        "/tex/140/0483-01",
+        "/sw2d/168/0645-02",
+        "/sw2d/168/0645-01"
+      ]
+    },
+    {
+      "cite": "140 Texas 483",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2310137
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/140/0483-01"
+      ]
+    },
+    {
+      "cite": "263 S. W. 249",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10298301
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/263/0249-01"
+      ]
+    },
+    {
+      "cite": "84 S. W. (2d) 1076",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10264034,
+        2296187
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/84/1076-01",
+        "/tex/126/0011-01"
+      ]
+    },
+    {
+      "cite": "126 Texas 11",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2296187
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/126/0011-01"
+      ]
+    },
+    {
+      "cite": "300 U. S. 55",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        336703
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "80"
+        },
+        {
+          "page": "524"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/300/0055-01"
+      ]
+    },
+    {
+      "cite": "27 A. L. R. 375",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "66 L. Ed. 204",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Sup. Ct. 124",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        3678391
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/257/0312-01"
+      ]
+    },
+    {
+      "cite": "267 U. S. 312",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "pin_cites": [
+        {
+          "page": "332, 333"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "116 U. S. 616",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3516335
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/116/0616-01"
+      ]
+    },
+    {
+      "cite": "211 U. S. 249",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11927011
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/211/0249-01"
+      ]
+    },
+    {
+      "cite": "298 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1486385
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/298/0001-01"
+      ]
+    },
+    {
+      "cite": "6 Sup. Ct. 1064",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        3519528,
+        3519298
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/118/0355-01",
+        "/us/118/0356-01"
+      ]
+    },
+    {
+      "cite": "118 U. S. 356",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3519298
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/118/0356-01"
+      ]
+    },
+    {
+      "cite": "101 A. L. R. 1393",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "weight": 4,
+      "opinion_index": 0
+    },
+    {
+      "cite": "99 A. L. R. 1107",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "weight": 3,
+      "opinion_index": 0
+    },
+    {
+      "cite": "87 S W. (2d) 1069",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2296185,
+        10276604
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/126/0296-01",
+        "/sw2d/87/1069-01"
+      ]
+    },
+    {
+      "cite": "83 S. W. (2d) 935",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10260312,
+        2296185
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/83/0935-01",
+        "/tex/126/0296-01"
+      ]
+    },
+    {
+      "cite": "126 Texas 296",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2296185
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/126/0296-01"
+      ]
+    },
+    {
+      "cite": "28 A. L. R. 1321",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "260 U. S. 393",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11926101
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/260/0393-01"
+      ]
+    },
+    {
+      "cite": "132 S. W. (2d) 254",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2319493,
+        10230798
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/134/0122-01",
+        "/sw2d/132/0254-01"
+      ]
+    },
+    {
+      "cite": "134 Texas 122",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2319493
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "125"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/134/0122-01"
+      ]
+    },
+    {
+      "cite": "131 S. W. (2d) 73",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10229224,
+        2319548
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/131/0073-01",
+        "/tex/134/0059-01"
+      ]
+    },
+    {
+      "cite": "134 Texas 59",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2319548
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/134/0059-01"
+      ]
+    },
+    {
+      "cite": "294 S. W. 835",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        2276555,
+        10313214
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/116/0453-01",
+        "/sw/294/0835-01"
+      ]
+    },
+    {
+      "cite": "116 Texas 453",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2276555
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/116/0453-01"
+      ]
+    },
+    {
+      "cite": "50 S. W. (2d) 769",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10251674,
+        2305651
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/50/0769-01",
+        "/tex/121/0502-01"
+      ]
+    },
+    {
+      "cite": "121 Texas 502",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2305651
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/121/0502-01"
+      ]
+    },
+    {
+      "cite": "29 A. L. R. 566",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "254 S. W. 290",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10301179,
+        2281759
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/254/0290-01",
+        "/tex/113/0160-01"
+      ]
+    },
+    {
+      "cite": "113 Texas 160",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2281759
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/113/0160-01"
+      ]
+    },
+    {
+      "cite": "176 S. W. 717",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8272715
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/176/0717-01"
+      ]
+    },
+    {
+      "cite": "107 Texas 226",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2251580
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/107/0226-01"
+      ]
+    },
+    {
+      "cite": "52 Sup. Ct. 296",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Sup. Ct. 527",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "253 U. S. 287",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        189354
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/253/0287-01"
+      ]
+    },
+    {
+      "cite": "285 U. S. 22",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1175221
+      ],
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "60"
+        },
+        {
+          "page": "598"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/285/0022-01"
+      ]
+    },
+    {
+      "cite": "153 S. W. (2d) 681",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10223971,
+        2314955
+      ],
+      "pin_cites": [
+        {
+          "page": "696"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/153/0681-01",
+        "/tex/137/0279-01"
+      ]
+    },
+    {
+      "cite": "137 Texas 279",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2314955
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/137/0279-01"
+      ]
+    },
+    {
+      "cite": "38 S. W. 750",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "90 Texas 340",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2241848
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/90/0340-01"
+      ]
+    },
+    {
+      "cite": "139 Texas 66",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2311456
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/139/0066-01"
+      ]
+    },
+    {
+      "cite": "161 S. W. (2d) 1035",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10225952,
+        2311421
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/161/1035-01",
+        "/tex/139/0080-01"
+      ]
+    },
+    {
+      "cite": "139 Tex. 80",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2311421
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/139/0080-01"
+      ]
+    },
+    {
+      "cite": "161 S. W. (2d) 1022",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2311456,
+        10225915
+      ],
+      "weight": 5,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/139/0066-01",
+        "/sw2d/161/1022-01"
+      ]
+    },
+    {
+      "cite": "161 S. W. (2d) 1039",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "161 S. W. (2d) 1037",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10225982
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1042"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/161/1037-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1341,
+    "char_count": 37143,
+    "ocr_confidence": 0.601,
+    "pagerank": {
+      "raw": 7.780855845228237e-07,
+      "percentile": 0.9721087986210779
+    },
+    "sha256": "2e194e5ea13e89affae6748be6af3033c2b1772e4856df22e939a7cf48225a2c",
+    "simhash": "1:8b0f6ddc372721cd",
+    "word_count": 6355
+  },
+  "last_updated": "2024-02-27T17:54:29.127269+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "E. C. Marrs et al v. Railroad Commission of Texas et al."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Chief Justice Alexander\ndelivered the opinion of the Court.\nThis suit was brought by E. C. Marrs and Federal Royalties Company, Inc., owners of royalty interests in the McEIroy Field in Crane and Upton Counties, both as a statutory suit under Article 6049c, Sec. 8, Vernon\u2019s Annotated Civil Statutes, to test the validity of the Railroad Commissioner\u2019s proration orders for the months of March, April, May and June, 1941, as applied to said field, and as a bill in equity to restrain the Commission from restricting production in the field in such a manner as to constitute a taking of plaintiffs property without due process of law. The Gulf Oil Corporation, the operating lessee of a large portion of the field, which was named as a party defendant, admitted the material allegations of plaintiffs\u2019 petition and filed a cross-action against the Commission in which it prayed for substantially the same relief. Other royalty owners, W. T. Crier and the McEIroy Ranch Company, intervened and likewise aligned themselves with the plaintiffs. Upon trial without a jury the District Court of Travis County granted the relief prayed for. The Court of Civil Appeals reversed this judgment and sustained the Commissioner\u2019s orders. 161 S. W. (2d) 1037. All the parties other than the Railroad Commission applied to this Court for a writ of error, and will be hereinafter referred to as petitioners.\nThe petitioners own practically all the mineral estate in the rich southern section of the McElroy Field, known as the Inside McElroy area. Their suit is predicated on the theory that their production is so restricted by the Commissioner\u2019s proration orders that they are unable to recover their oil before it drains away to the more densely drilled section to the north, known as the Church-Fields area. The principal fact issue involved is whether such drainage is actually taking place. The district court found that it was and so recited in its judgment.\nThe McElroy Field is about eleven miles long and two and one-half miles wide, running generally northwest and southeast. Until the proration order of March 5, 1941, it had been treated by the Commission as three separate fields. The northern portion, formerly known as the Church-Fields Field, includes the University Block on the north end, a narrow tract of land running east and west across the field known as The Texas Company strip, and the north four sections of the McElroy Ranch. The southern portion, formerly known as the Gulf-McElroy or Inside McElroy Field, lies almost wholly within the McElroy Ranch. A smaller area to the south, along the western edge of the field, was known as the McClintic Field (See map in opinion of the Court of Civil Appeals, 161 S. W. (2d) 1039.) Although originally developed in these three separate areas, the McElroy Field, as it is now called, is one continuous reservoir, containing altogether an estimated 16,900 productive acres. The oil is produced from a dolomitic limestone formation about 3,000 feet below the surface. This pay formation dips and thins out gradually toward the west, but drops off steeply along its eastern edge, so that the east side is generally thicker and more productive. The whole structure slopes downward toward the north. The pay section was originally about twice as productive in the Inside McElroy area, or south portion of the field, as it was in the Church-Fields area to the north. The limestone is sealed off by impermeable strata from other formations, so that internal gas pressure is the only source of reservoir energy. This pressure was originally 755 pounds per square inch all over the field at a common level of 200 feet below sea level.\nIn the Church-Fields area the first well was discovered in April, 1926. Because of the competitive conditions occasioned by the diversity of lease ownership, development in that area proceeded very rapidly. Before the end of 1927 some 221 wells had been drilled. All these wells were allowed to produce at full capacity for-about four years prior to proration, which became effective in that field about January, 1931. By May, 1941, 332 wells had been drilled in this area on a spacing pattern permitted by the Commission of approximately one well to- ten acres, the area eventually being developed to one well to approximately eighteen acres, although some portions -were more densely drilled. By May, 1941, of the 332 wells, 202 were drilled in the University \u2022Block, 15 on The Texas Company strip, and 115 on the north four sections of the McElroy Ranch. As shown on petitioners\u2019 maps, the old Church-Fields area contains 6,000 acres of land, including 4,440 acres in the University Block and The Texas Company strip and 1,560 acres in the north four sections of the McElroy Ranch. To January 1, 1941, these three areas had produced altogether 87,325,851 barrels of oil; about 57,000,000 barrels from the University Block, 10,500,000 barrels from The Texas Company strip, and 20,000,000 barrels from the north four sections of the McElroy Ranch. Of the 67,500,000 barrels produced from the University Block and The Texas Company strip, 49.000. 000 were produced before proration and some 18,500,000 since; and of the 20,000,000 barrels produced from the north four sections, 11,000,000 were produced before proration and 9.000. 000 since. Calculated by the acre, the Church-Feilds area has recovered 14,554 barrels of oil per acre. At the time pro-ration went into effect all of the wells in the University Block and on The Texas Company strip, except two, had ceased to produce through reservoir pressure and had passed into the pumping stage, having utilized and reduced the original reservoir pressure of 755 pounds to an average of about 200 pounds; the lowest pressure being about 65 pounds slightly to the east of the central portion of the University Block, where nineteen leases had been densely drilled and had produced about 36,000,000 barrels of oil, creating the lowest pressure area in the field.\nOil was first discovered in the Inside McElroy area in July, 1926. Since practically the entire field has been operated from the beginning by the Gulf Oil Corporation, the lessee of all the McElroy Ranch properties, including the north four sections located in the Church-Fields area, there was no competition to stimulate such rapid development and dense drilling as took place in the Church-Fields area. Only 27 wells were in production when proration went into effect in that field in the latter part of 1932. To January 1, 1941, the Inside McElroy area had produced 27,210,556 barrels of oil, or 2,864 barrels per acre, of which 15,000,000 barrels were produced before proration. Since proration, the drilling of this area has proceeded on a pattern suggested by the Gulf Oil Corporation and approved by the Commission of one well to 17.8 acres. As of May 1, 1941, the drilling had reached a density of one well to 37 acres in the 6,080 acres of unitized leases, with a total of 146 wells, all flowing, except two at the edge of the field. At the time of the trial and for the past several years the Gulf Oil Corporation has had six strings of tools running, with twenty-four crews engaged in new drilling, spacing the wells so as ultimately to drill the 9,500 acres in this area to one well to 17.8 acres, in accordance with the pattern approved by the Commission. As the result of proration and of this plan of development, only a comparatively small part of the oil originally in place in the Inside McElroy area has been recovered, an estimated 80% of the recoverable oil yet remaining, as compared with 15% in the Church-Fields area, and the original reservoir pressure of 755 pounds has been reduced to an average for the field of approximately 550 pounds.\nThe McClintic Field was discovered in 1928 or 1929 and has been densely drilled. It contains 1,400 productive acres, and on January 1, 1941, had produced 3,205,795 barrels of oil, or 2,290 barrels per acre. There is no issue of drainage to this area.\nWhile the Commission under its state-wide proration order for May, 1941, fixed the total allowable for the entire McElroy Field at 18,714 barrels per day, as a matter of fact after making \u2022certain deductions for shut-downs of nine days per month, as provided for in the Commission\u2019s order, the net allowable averaged only about 12,500 barrels per day for the entire field. A portion of this is allocated to marginal wells and the remander is apportioned on the basis of 50% per well and 50% average potential productivity as applied to unitized acreage and other factors. The result is that the Inside McElroy is allowed to produce 6,500 barrels per day, the Church-Fields area 5,082 barrels per day (3,048 barrels for the University Block and The Texas Company strip, and 2,034 barrels for the north four sections of the McElroy Ranch), and the McClintic Field 1,100 barrels per day.\nBecause of the larger withdrawals in the Church-Fields area, as well as the greater original productivity of the Inside McElroy, the total daily potential of the Inside McElroy is about eight times that of the Church-Fields area north of the McElroy Ranch. This disparity in potentials is only to a small degree reflected in the Railroad Commission\u2019s scheduled allowables for the field. The relation between the present potentials, .the estimated present recoverable reverses, and the net allowable production (average, including shut-down days) may be seen from the following tabulation:\nAlthough the Railroad Commission did not officially declare the McElroy Field to be a single reservoir until 1941, the operators in the field recognized it as such early in its development. Accordingly, the petitioners undertook to protect their Inside McElroy properties from drainage by drilling several tiers of offset wells on the north four sections of the McElroy Ranch immediately south, of The Texas Company strip. Before proration, these sections were drilled to a density of one well to about 20 acres; and, according to petitioners\u2019 witnesses, these wells created a zone of interference which formed a barrier to any substantial migration of oil from the Inside McElroy northward to the University Block. In other words, these wells, by being allowed to flow at full capacity, intercepted the oil and kept it from flowing from the Inside McElroy to the University Block. In this way the petitioners were able to prevent the escape of their oil to the low pressure area to the north. Upon the advent of proration, the flow of these intercepting wells was greatly reduced, and the power of petitioners to fend for themselves was taken away. Petitioners assert that under proration the allowable production in the Inside McElroy and on these four sections is so restricted that these wells no longer present any effective barrier to the movement of the oil, and that drainage is taking place in large quantities.\nOPINION.\nThe trial court found that the evidence supported petitioners\u2019 contention. There appears to be ample evidence to support this finding. The \u00e9vidence shows that the Church-Fields area was thoroughly drilled and developed, and its wells allowed to flow at full capacity for approximately four years prior to proration. As a result that area became more thoroughly exhausted than did the less developed Inside McElroy. Prior to pro ration all the wells in the University Block and The Texas Company strip, except two, had ceased to produce through reservoir pressure and had passed to the pumping stage, whereas all the wells in the Inside McElroy, except two, were still flowing. The bottom hole pressure in the Church-Fields area had been reduced from 755 pounds to an average of approximately only 200 pounds, while the bottom hole pressure in the Inside McElroy was approximately 630 pounds. This difference in the bottom hole pressure tended to create a \u201cpressure sink\u201d in the Church-Fields area and to cause the oil to migrate thereto. Notwithstanding this tendency to drainage toward the \u201cpressure sink,\u201d petitioners, by allowing their tier of wells on their northern boundary to flow at full capacity, were enabled to intercept and capture the oil before it left their premises; but proration reduced the flow of oil by these wells and allowed the oil to migrate to the \u201cpressure sink.\u201d After proration, the pressure in the Church-Fields area increased in some places. Many of the wells began to produce more oil. Some of the wells in that area that had been off production for more than ten years on account of depletion were rejuvenated and put back on substantial commercial production. In fact, the Railroad Commission itself in 1939 found that drainage was taking place from the Inside McElroy to the Church-Field area, and there does not appear to have been any material change since that time to prevent the drainage. The evidence further shows that the Church - Fields area has already produced an a verage of 14,550 barrels of oil per acre, whereas the Inside McElroy has only produced an average of 2,864 barrels per acre. Only 15% of the recoverable oil in the ChurchFields area remains, whereas more than 80% of the recoverable oil remains in the Inside McElroy Field. Notwithtsanding the fact that the potential of the Inside McElroy is now several times that of the Church-Fields area north of the EcElroy Ranch, the order of the Railroad Commission here under consideration allows the Church-Fields area to produce 5,082 barrels per day and the Inside McElroy only 6,500 barrels per day. This is entirely out of proportion to the productivity of the two areas. The evidence further shows, and the trial court found, that the allowable to the Inside McElroy could be greatly raised without injury to the field or waste of the natural resources, and that this would prevent or at least greatly reduce the drainage complained of. The above evidence would seem to be ample to support the findings of the trial court that the orders complained of were arbitrary, unjust, arid discriminatory, and that they deprived petitioners of their just property rights.\nIn fact, as we construe the opinion of the Court of Civil Appeals, that court does not consider the evidence insufficient to support the judgment of,the trial court, if the trial court had a right to make an independent review of the evidence. But apparently the Court of Civil Appeals was of the opinion that the trial court had no such authority. In this connection the court said:\n\u201cThe trial court\u2019s findings of fact and conclusions of law plainly show that it simply weighed the evidence from the viewpoint of a- court or jury in its fact finding function in an ordinary civil suit without reference to the findings of the Commission, accepting or disregarding evidence as it might believe or disbelieve the testimony of the several witnesses and the respective theories they advanced, on either the issue of drainage or waste of reservoir energy in producing oil, and in this manner reached the conclusion that the evidence so accepted constituted satisfactory and convincing evidence. This sort of trial of the suit testing the validity of the proration orders is contrary to the rule announced by the Supreme Court in the cases of Railroad Commission of Texas and Trem Carr v. Shell Oil Company, Inc., et al, 139 Tes. 66, 161 S. W. (2d) 1022; and Cook Drilling Company et al v. Gulf Oil Corporation, 139 Tex. 80, 161 S. W. (2d) 1035, wherein the court holds that in a suit attacking the validity of any order of the Commission administering the oil conservation laws, or rules and regulations pertaining thereto, the inquiry is confined to the question of whether or not the order, rule or regulation is sustained by substantial evidence in existence at the time the order, rule, or regulation was made, determinable from evidence adduced in the trial court only, the court being required to determine this question of law from a consideration of all the probative evidence adduced and not from a consideration of the evidence as determinative of an original issue of fact, independent of the Commission finding.\u201d 161 S. W. (2d) 1037, 1042.\nFrom the above statement we conclude that the Court of Civil Appeals was of the opinion that the trial court had no right to pass on the credibility of the witnesses or the weight to be given to the testimony or to otherwise exercise the usual fact-finding function of a trial court, but was bound to accept unqualifiedly as true all testimony given upon the trial; and if, when so accepted, there was substantial evidence in the record to support the implied finding of the Commission in favor of its orders, the court was bound to accept such finding. In this we believe the Court of Civil Appeals was in error. The court cited Cook Drilling Company v. Gulf Oil Corporatioin, 139 Texas 80, 161 S. W. (2d) 1035, and Railroad Commission of Texas and Trem Carr v. Shell Oil Company, Inc., et al, 139 Texas 66, 161 S. W. (2d) 1022, in support of its holding. The question here under consideration does not appear to have, been discussed in the Cook Drilling Company case. In the Trem Carr case we expressly repudiated the doctrine which prevails in some jurisdictions to the effect that an administrative agency can take the testimony and make the findings of fact, and that such findings will be binding on the court. We there pointed out that such doctrine had for its foundation statutory enactments which attempted to confer such authority upon the administrative agency, but that our Legislature had never undertaken to pass such a statute. We also called attention to the fact that our statutes provided for a \u201csuit\u201d to test the validity of orders of the Railroad Commission and for a \u201ctrial\u201d thereof, and that \u201cthe taking of the testimony, including the determination of what evidence shall be admitted and what shall be rejected and the weight to be given thereto, is an important feature of a \u2018trial\u2019.\u201d\nIt will be noted that the statute here under consideration (Art. 6049c, Section 8, Vernon\u2019s Annotated Civil Statutes) authorizes the filing of a \u201csuit\u201d to test the validity of proration orders issued by the Railroad Commission, and further provides \u201cin all such trials, the burden of proof shall be upon the party complaining of such laws, rule, regulation or order; and such laws, rule, regulation or order so complained of shall be deemed prima facie valid.\u201d It is clear from the above that it was intended there should be a \u201ctrial\u201d of the issues in court, and no limitation is placed on the sort of trial to be had, except that it must be one to test the validity of the order, and the burden of proof is on the one complaining thereof. A \u201ctrial\u201d as commonly understood contemplates a judicial examination of all the issues of law and fact. 64 C. J. 31. There cannot be a judicial examination of what the facts are without the right to pass on the credibility of the witnesses and the weight to be given to the evidence. That was the only kind of trial known to the courts at the time the statute was enacted. It would indeed be a very limited trial if the court was not only bound to accept as literally true each item of testimony that was introduced, but was denied the right to'determine what weight should be given to the various circumstances in evidence. The very fact that the statute provides that the burden of proof shall be on the party complaining of the order evidences legislative intent that the court . should determine whether the burden of proof had been met, and this cannot be done without weighing the evidence and passing on the credibility of the witnesses.\nIn the case of Railroad Commission v. Houston & T. C. R. R. Co., 90 Texas 340, 38 S. W. 750, the court had under consideration statutes which provided as follows:\n\u201cArticle 4565. If any railroad' company or other party at interest be dissatisfied with the decision of any rate, classification, rule, charge, order, act or regulation adopted by the Commission, such dissatisfied company or party may file a petition, setting forth the particular cause or causes of objection to such decision, or to either, rate, rule, charge, classification or order, or to either or all of them, in a court of competent jurisdiction in Travis County, Texas, against said Commission as defendant.\u201d\n\u2022 \u201cArt. 4566. In all trials under the foregoing article the burden of proof shall rest upon the plaintiff, who must show by clear and satisfactory evidence that the rates, regulation, order, classification, act or charges complained of are unreasonable and unjust to it or them.\u201d\nAfter referring to the fact that under the statutes in question a suit could be maintained to test the validity of the order of the Railroad Commission, either on the ground that it was confiscatory or was unreasonable or unjust, the court said:\n\u201cIndeed, the conferring of that jurisdiction upon the courts, of itself, imposed the duty to try the case by the ordinary rules of procedure, unless otherwise provided.\u201d\nAs previously stated, this suit was brought both as a statutory suit under Article 6049c, Section 8, Vernon\u2019s Annotated Civil Statutes, to test the validity of the Railroad Commission\u2019s proration orders and as a bill in equity to restrain the Commission from restricting production in the field in such manner as to constitute a taking of plaintiffs\u2019 property without due process of law. It was charged that the orders of the Railroad Commission were invalid because they were unreasonable, arbitrary, and discriminatory, and amounted to a confiscation of petitioners\u2019 property. The suit was for the purpose of testing out these issues. The statute authorized the suit, and upon the trial thereof the court had the right to hear evidence as to whether the order amounted to an arbitrary discrimination against the petitioners or unlawfully deprived them of their property. In passing on such issues the court had a right to pass on the credibility of the .witnesses and the weight to be given to the evidence.\nIt appears to be well settled that in suits brought to set aside an order, rule, or regulaion of an administrative agency on the ground that it violates one\u2019s constitutional rights, such as the confiscation of his property or the denial of equal protection of the law, the law contemplates an independent review of the facts by the court as in other civil actions. Lone Star Gas Co. v. State, 137 Texas 279, 153 S. W. (2d) 681, 696; Crowell v. Benson, 285 U. S. 22, 60, 52 Sup. Ct. 285, 598; Ohio Valley Water Co. v. Ben Avon Borough, 253 U. S. 287, 64 L. Ed. 908, 52 Sup. Ct. 527.\nIn the case of Crowell v. Benson, supra, the court said:\n\u201cIn cases brought to enforce constitutional rights, the judicial power of the United States necessarily extends to the independent determination of all questions, both of fact and law, necessary to the performance of that supreme function. The case of confiscation is illustrative,- the ultimate conclusion almost invariably depending upon the decisions of questions of fact. This court has held the owner to be entitled to \u2018a fair opportunity for submitting that issue to a judicial tribunal for determination upon its own independent judgment as to both law and facts\u2019,\u201d 285 U. S. 22, 52 Sup. Ct. 296, 76 L. Ed. 598. Therefore, the trial court properly made an independent review of the facts in this case as in other civil actions.\nUnder the settled law of this State oil and gas form a part and parcel of the land wherein they tarry and belong to the owner of such land or his assigns (31 Tex. Jur. 518; The Texas Co. v. Daugherty, 107 Texas 226, 176 S. W. 717, L. R. A. 1917F, 989; Stephens County v. Mid-Kansas Oil & Gas Co., 113 Texas 160, 254 S. W. 290, 29 A. L. R. 566; Lemar v. Garner, 121 Texas 502, 50 S. W. (2d) 769; Hager v. Stakes, 116 Texas 453, 294 S. W. 835); and such owner has the right to mine such minerals subject to the conservation laws of this State. Every owner or lessee is entitled to a fair change to recover the oil or gas in or under his land, or their equivalent in kind, and any denial of such fair chance amounts to confiscation. Gulf Land Co. v. Atlantic Ref. Co., 134 Texas 59, 131 S. W. (2d) 73; Railroad-Commission of Texas et al v. Gulf Production Co., 134 Texas 122, 125, 132 S. W. (2d) 254.\nUnder the findings of the trial court the allowables as fixed by the Railroad Commission for the two areas are entirely out of proportion to the potentials thereof. They are not in proportion to the oil under the different areas. It is very evident that petitioners are not being permitted to mine their just proportion of the oil. There is several times as much oil underlying petitioners\u2019 land as there is under the land in the Church-Fields area, yet those in the Church-Fields area are being permitted to mine nearly as much oil as are petitioners. As the oil is taken from the depleted Church-Fields area it is replaced by oil drained from petitioners\u2019 property. If petitioners were free to fend for themselves they could mine the oil under their land and thus prevent its escape to the adjoining area. But the orders of the Railroad Commission here complained of prevent petitioners from so doing. As a result, petitioners are being forever deprived of their property. It is the taking of one man\u2019s property- and the giving it to another.\nOur Constitution authorizes the conservation of our natural resources. Article XVI, Section 59a. The authority to execute this constitutional provision in so far as it applies to oil and gas has been vested by the Legislature in the Railroad Commission of the State. Undpubtedly, in carrying out this constitutional purpose, the Commission must, as far as possible, act in consonance with the vested property rights of the individual. While our Constitution thus provides for the conservation of our natural resources for the benefit of the public, there are other constitutional provisions for the protection of the property rights of the individual. Article I, Section 17, of our State Constitution prohibits the taking of one\u2019s property for public use without adequate compensation therefor. Article I, Section 3, provides for equal rights for all men, and Article I, Section 19, provides that no citizen shall be deprived of his property except by the due course of the law of the land. The Fourteenth Amendment to our Federal Constitution provides that no State shall deprive any citizen of his property without due process of law, nor deny to any person within its jurisdiction the equal protection of the laws. We need not here determine to what extent the State may confiscate one\u2019s property, or deprive him of the use thereof, without compensation, where this is necessary in order to conserve the natural resources of the State. See in this connection Pennsylvania Coal Co. v. Mahan, 260 U. S. 393, 43 S. Ct. 158, 67 L. Ed. 322, 28 A. L. R. 1321; Brown v. Humble Oil & Ref. Co., 126 Texas 296, 83 S. W. (2d) 935, 87 S W. (2d) 1069, 99 A. L. R. 1107, 101 A. L. R. 1393, and authorities there cited. It is sufficient to point out that the trial court here found that the drainage complained of was not necessary in order to avoid waste, and that finding is supported by the evidence. It was further found that the orders of the Railroad Commission were unreasonable, unjust, and discriminatory. This Court has many times said that the Railroad Commission cannot indulge in unjust, unreasonable or arbitrary discrimination between different oil fields, or between different owners in the same field. Gulf Land Co. v. Atlantic Refining Co., 134 Texas 59, 131 S. W. (2d) 73; Brown v. Humble Oil & Ref. Co., 126 Texas 296, 83 S. W. (2d) 935, 87 S. W. (2d) 1069; 99 A. L. R. 1107, 101 A. L. R. 1393; Railroad Commission et al v. Shell Oil Co., Inc., et al, 139 Texas 66, 161 S. W. (2d) 1022. See also Yick Wo v. Hopkins, 118 U. S. 356, 6 Sup. Ct. 1064, 30 L. Ed. 220; Jones v. Securities & Exchange Commission, 298 U. S. 1, 56 Sup. Ct. 654, 80 L. Ed. 1015; Garfield v. United States, 211 U. S. 249, 29 S. Ct. 62, 53 L. Ed. 168; Boyd v. United States, 116 U. S. 616, 6 Sup. Ct. 524, 29 L. Ed. 746; Truax v. Corrigan, 267 U. S. 312, 332, 333, 42 Sup. Ct. 124, 66 L. Ed. 204, 27 A. L. R. 375.\nThis is not a case of mere waste in which the Commission has exercised the sound discretion invested in it to conserve our natural resources. As previously stated, the orders of the Railroad Commission here complained of have the effect of taking one\u2019s property and giving it to another under circumstances where the evidence shows that this is not necessary in order to conserve the natural resources. In Thompson v. Consolidated Gas Co., 300 U. S. 55, 80, 81 L. Ed. 510, 524, it was said: \u201cAnd this court has many times warned that one person\u2019s property may not be taken for the benefit of another private person without a justifying public purpose, even though compensation be paid.\u201d See other authorities cited therein.\nIt follows that the orders of the Railroad Commission here complained of are invalid, and the trial court properly struck them down.\nThe Court of Civil Appeals was further of the opinion that petitioners were not entitled to complain of the proration orders in question because petitioners had not developed their property as they should, and if drainage was taking place it was due to such lack of development. We are unable to hgree with this holding. Prior to proration, petitioners were able to protect their property against drainage by the operation of offset wells drilled by them, and there was no necessity for them to further develop their property at that time. Since proration, the Commission has allowed the development of the field on a basis of one well to 17.8 acres, but we do not understand that the Commission has undertaken to require the property to be so developed. The evidence shows that petitioners have carried on a program of diligent development since proration, and at the time of the trial had six strings of tools in operation, and this .has been done in spite of the fact that the allowable assigned to the Inside McElroy since proration began has not increased in proportion to the number of wells in operation. Although the number of wells in the Inside McElroy increased from 27 in 1933 to 140 in the early part of 1941, the allowable has fluctuated widely and has not increased proportionately. Since March, 1940, approximately 40 wells have been added, but the allowable at the time of the trial was 3,500 barrels per day less. Moreover, under the formula being used by the Railroad Commission at the time of the trial, when a new well is completed, if the potential is lower than the average potential for its \u201cproration unit\u201d (and this is likely to happen as development proceeds toward the edge of the field and is less productive), the agerage potential for the \u201cproration unit\u201d is brought down, and even though the new well is given the present well assignment of 18 barrels per day, the average potential assignment for the \u201cproration unit\u201d is reduced, and the net result may be a lower rather than a higher allowable. We think the trial court was justified in finding that the evidence did not sustain the Commission\u2019s contention that the drainage was due to lack of diligence on the part of petitioners in developing their land.\nThe judgment of the trial court declaring invalid and permanently enjoining the Railroad Commission from enforcing the Commission\u2019s orders, allocating and- apportioning the allowable production of oil from the field between the producers therein for the months of March, April, May, and June, 1941, must be sustained.\nThe trial court, however, not only enjoined the enforcement of the orders previously entered by the Railroad Commission, but went further, and permanently enjoined the Commission from thereafter restricting petitioners from producing, using, or marketing less than 35,000 barrels of oil daily from the portion of the McElroy Field in which they 'were interested. This latter ruling we think was error. A court has the right to review the action of the Railroad Commission, and to strike its orders down if they are illegal; but it has no authority to write a pro-ration order for the Commission, nor to prescribe the terms of a subseqquent order to be entered by the Commission. Brown v. Humble Oil & Ref. Co., 126 Texas 296, 87 S. W. (2d) 1069, 101 A. L. R. 1393; State v. Richardson, 126 Texas 11, 84 S. W. (2d) 1076; State v. Chicago-Rock Island R. R. Co. (Com. App.), 263 S. W. 249; Electra Ind. School Dist. v. W. P. Waggoner Estate, 140 Texas 483, 168 S. W. (2d) 645; Magnolia Petroleum Co. v. New Process Production Co., 129 Texas 617, 104 S. W. (2d) 1106; Railroad Commission v. Wencker, 140 Texas, 527, 168 S. W. (2d) 625. The responsibility rests with the Commission to devise some scheme of proration that will conserve the oil in the field in question, and at the same time will be fair and just and will not deprive petitioners of their property. There are many and varied methods that may be adopted by the Commission to accomplish this purpose. This necessarily involves the exercise of the discretion that has been committed by the Legislature to the Commission, and it would amount to a usurpation of the Commission\u2019s power by the court, for the court to undertake to prescribe the terms of such an order. As heretofore stated by this Court, in passing on the validity of any scheme that may be worked out by the Commission for the handling of this problem, a reasonable margin will be allowed for differences in opinion and errors in judgment. Railroad Commission v. Shell Oil Co., 139 Texas 66, 161 S. W. (2d) 1022; Gulf Land Co. v. Atlantic Ref. Co., 134 Texas 59, 131 S. W. (2d) 73; Brown v. Humble Oil & Ref. Co., 126 Texas 296, 83 S. W. (2d) 935, 87 S. W. (2d) 1069, 99 A. L. R. 1107, 101 A. L. R. 1393.\nIn this case it is charged that confiscation of property is and will be suffered by Marrs et al, unless the proration orders of the Railroad Commission here involved are enjoined. In this regard it is charged that such orders have resulted, and will in the future result, in depriving Marrs et al of a fair chance to recover the oil under their land, or its equivalent. It is further charged that such orders have resulted, and will in the future result, in according to others the unfair change of recovering more oil than is under their lands, or its equivalent, and that such unfair chance has been accorded at the expense of Marrs et al. This record contains evidence amply sufficient in law f to substantiate these charges. It therefore contains evidence legally sufficient to show confiscation of property belonging to Marrs et al. Gulf Land Co. v. Atlantic Refining Co., 134 Texas 59, 131 S. W. (2d) 73; Railroad Commission of Texas et al v. Gulf Production Co., 134 Texas 122, 132 S. W. (2d) 254. We hold that in such a case our Constitution guarantees a trial of such issues as in other civil cases. In making this rule we in nowise question or overrule anything said by this Court in either Railroad Commission of Texas v. Shell Oil Co., 139 Texas 66, 161 S. W. (2d) 1022; Gulf Land Co. v. Atlantic Refining Co., supra; or Railroad Commission of Texas et al v. Gulf Production Co., supra.\nThe orders heretofore entered will be held to be illegal; and, of course, the Commission will have to enter substantially different orders which will not arbitrarily discriminate between the parties and will not unlawfully deprive petitioners of their property. But within such limitations, the Commission will. be left free to prescribe the terms of the orders to be entered by it.\nThe judgment of the Court of Civil Appeals is reversed. The judgment of the trial court, holding invalid and permanently enjoining the Railroad Commission from enforcing the Commission\u2019s proration orders allocating and apportioning the allowable production of oil from the field in question between the producers therein for the months of March, April, May, and June, 1941, will be affirmed. The judgment of the trial court in all other respects is reversed and set aside.\nOpinion delivered January 5, 1944.\nRehearing overruled March 8,1944.",
+        "type": "majority",
+        "author": "Mr. Chief Justice Alexander"
+      }
+    ],
+    "attorneys": [
+      "Scarborough, Yates & Scarborough and Dallas Scarborough, all of Abilene, Phillips, Trammell, Estes, Edwards & Orn, of Fort Worth, for W. T. Crier and McEIroy Ranch Company, White, Taylor & Chandler, Black, Graves & Stayton, of Austin, H. L. Stone, of San Angelo, P. 0. Settle, of Fort Worth and John E. Green, Jr., of Houston, for Gulf Oil Corporation, Henry H. Brooks, of Austin, Dorsey Hardeman, of San Angelo, Joe G. Montague, Ira Butler, James & Conner, Mark McGee, Cantey, Hanger, McMahon, McKnight & Johnson, and Gillis A. Johnson, all of Fort Worth, for E. C. Marrs and Federal Royaylties Companyy, Inc., petitioners.",
+      "Gerald C. Mann, Attorney General, Grover Sellers, James D. Smullen, Ed Roy Simmons, Assistants Attorney General, for the respondent Railroad Commission."
+    ],
+    "corrections": "",
+    "head_matter": "MARCH, 1944\nE. C. Marrs et al v. Railroad Commission of Texas et al.\nNo. 8044.\nDecided January 5, 1944.\nRehearing overruled March 8, 1944.\n(177 S. W., 2d Series, 941.)\nScarborough, Yates & Scarborough and Dallas Scarborough, all of Abilene, Phillips, Trammell, Estes, Edwards & Orn, of Fort Worth, for W. T. Crier and McEIroy Ranch Company, White, Taylor & Chandler, Black, Graves & Stayton, of Austin, H. L. Stone, of San Angelo, P. 0. Settle, of Fort Worth and John E. Green, Jr., of Houston, for Gulf Oil Corporation, Henry H. Brooks, of Austin, Dorsey Hardeman, of San Angelo, Joe G. Montague, Ira Butler, James & Conner, Mark McGee, Cantey, Hanger, McMahon, McKnight & Johnson, and Gillis A. Johnson, all of Fort Worth, for E. C. Marrs and Federal Royaylties Companyy, Inc., petitioners.\nGerald C. Mann, Attorney General, Grover Sellers, James D. Smullen, Ed Roy Simmons, Assistants Attorney General, for the respondent Railroad Commission."
+  },
+  "file_name": "0293-01",
+  "first_page_order": 311,
+  "last_page_order": 326
+}

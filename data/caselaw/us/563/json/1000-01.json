@@ -1,0 +1,59 @@
+{
+  "id": 5915322,
+  "name": "Jones v. United States",
+  "name_abbreviation": "Jones v. United States",
+  "decision_date": "2011-05-16",
+  "docket_number": "No. 10-9968",
+  "first_page": "1000",
+  "last_page": "1000",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1000"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.605,
+    "sha256": "73b8bee3f6e393f2b156a4392eabcab20be3bee6bd9eab5275519a620de50915",
+    "simhash": "1:065be6014e9d9e08",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jones v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9968.\nJones v. United States."
+  },
+  "file_name": "1000-01",
+  "first_page_order": 1026,
+  "last_page_order": 1026
+}

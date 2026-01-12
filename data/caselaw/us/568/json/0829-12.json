@@ -1,0 +1,59 @@
+{
+  "id": 12410960,
+  "name": "Orso v. United States",
+  "name_abbreviation": "Orso v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-9911",
+  "first_page": "829",
+  "last_page": "829",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 829"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.722,
+    "sha256": "cf2c618d8ef7b07c2f580b4e0d39ee9234cf76062e993084d15fc02ab5175238",
+    "simhash": "1:0e289b338cc5d012",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Orso v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9911.\nOrso v. United States."
+  },
+  "file_name": "0829-12",
+  "first_page_order": 905,
+  "last_page_order": 905
+}

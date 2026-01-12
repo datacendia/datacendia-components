@@ -1,0 +1,59 @@
+{
+  "id": 12221395,
+  "name": "Carter v. Shartle, Warden",
+  "name_abbreviation": "Carter v. Shartle",
+  "decision_date": "2012-05-21",
+  "docket_number": "No. 11-9908",
+  "first_page": "1016",
+  "last_page": "1016",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1016"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.552,
+    "sha256": "3aa93d7cb12a5559e710d2c04c3a67fa71288b7c66b1c2c2e0173489c2bc61ca",
+    "simhash": "1:e6988b94fd289d77",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Carter v. Shartle, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9908.\nCarter v. Shartle, Warden."
+  },
+  "file_name": "1016-07",
+  "first_page_order": 892,
+  "last_page_order": 892
+}

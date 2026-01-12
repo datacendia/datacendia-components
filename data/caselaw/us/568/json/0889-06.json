@@ -1,0 +1,59 @@
+{
+  "id": 12415147,
+  "name": "Carey v. Ryan",
+  "name_abbreviation": "Carey v. Ryan",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-196",
+  "first_page": "889",
+  "last_page": "889",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 889"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 63,
+    "ocr_confidence": 0.672,
+    "sha256": "ef35676faa5f00b349416aa16df6c561f6e0d117792bf434151dfa235552c510",
+    "simhash": "1:1112e0085004047d",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Carey v. Ryan."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Sp. App. Md. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-196.\nCarey v. Ryan."
+  },
+  "file_name": "0889-06",
+  "first_page_order": 965,
+  "last_page_order": 965
+}

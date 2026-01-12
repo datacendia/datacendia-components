@@ -1,0 +1,59 @@
+{
+  "id": 5958785,
+  "name": "Lemus v. Kramer, Warden",
+  "name_abbreviation": "Lemus v. Kramer",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11330",
+  "first_page": "874",
+  "last_page": "874",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 874"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.596,
+    "sha256": "2472a8d7d6af07aab01e9cbc4a043976da28ad555c77519f65971cd960ee5e61",
+    "simhash": "1:d1b5a6d4afff11c6",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lemus v. Kramer, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11330.\nLemus v. Kramer, Warden."
+  },
+  "file_name": "0874-07",
+  "first_page_order": 896,
+  "last_page_order": 896
+}

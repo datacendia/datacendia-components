@@ -1,0 +1,788 @@
+{
+  "id": 4294654,
+  "name": "ANIMAL LEGAL DEFENSE FUND, Plaintiff and Respondent, v. LT NAPA PARTNERS LLC et al., Defendants and Appellants",
+  "name_abbreviation": "Animal Legal Defense Fund v. LT Napa Partners LLC",
+  "decision_date": "2015-03-05",
+  "docket_number": "No. A139625",
+  "first_page": "1270",
+  "last_page": "1289",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "234 Cal. App. 4th 1270"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 21092,
+    "name": "California Court of Appeal"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "192 Cal.Rptr. 155",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "143 Cal.App.3d 261",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2116659
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/143/0261-01"
+      ]
+    },
+    {
+      "cite": "508 U.S. 520",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11787
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "538"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/508/0520-01"
+      ]
+    },
+    {
+      "cite": "74 Cal.Rptr.2d 75",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1993,
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Cal.App.4th 495",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "504"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "158 Cal.Rptr.3d 508",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "217 Cal.App.4th 654",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4266153
+      ],
+      "pin_cites": [
+        {
+          "page": "665, fn. 4"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/217/0654-01"
+      ]
+    },
+    {
+      "cite": "79 F.Supp.3d 1136",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        4266999
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/79/1136-01"
+      ]
+    },
+    {
+      "cite": "74 P.3d 737",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "3 Cal.Rptr.3d 636",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Cal.4th 728",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        18381
+      ],
+      "pin_cites": [
+        {
+          "page": "732, fn. 1"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/31/0728-01"
+      ]
+    },
+    {
+      "cite": "10 Cal.Rptr.3d 486",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "116 Cal.App.4th 604",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        462671
+      ],
+      "pin_cites": [
+        {
+          "page": "615"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/116/0604-01"
+      ]
+    },
+    {
+      "cite": "307 P.2d 429",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "148 Cal.App.2d 639",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        4414811
+      ],
+      "pin_cites": [
+        {
+          "page": "644"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/148/0639-01"
+      ]
+    },
+    {
+      "cite": "319 P.3d 201",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "168 Cal.Rptr.3d 440",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "58 Cal.4th 697",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        4000481
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/58/0697-01"
+      ]
+    },
+    {
+      "cite": "137 P.3d 218",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.Rptr.3d 394",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal.4th 77",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3583008
+      ],
+      "pin_cites": [
+        {
+          "page": "92"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/39/0077-01"
+      ]
+    },
+    {
+      "cite": "584 P.2d 512",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "149 Cal.Rptr. 375",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "22 Cal.3d 388",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2282107
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/22/0388-01"
+      ]
+    },
+    {
+      "cite": "926 P.2d 1042",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "58 Cal.Rptr.2d 855",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "14 Cal.4th 294",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        341407
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/14/0294-01"
+      ]
+    },
+    {
+      "cite": "96 Cal.Rptr.2d 314",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "80 Cal.App.4th 1403",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1103579
+      ],
+      "pin_cites": [
+        {
+          "page": "1425"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/80/1403-01"
+      ]
+    },
+    {
+      "cite": "206 P.3d 739",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "93 Cal.Rptr.3d 369",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.4th 282",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3896417
+      ],
+      "pin_cites": [
+        {
+          "page": "288"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/46/0282-01"
+      ]
+    },
+    {
+      "cite": "63 P.3d 937",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "131 Cal.Rptr.2d 29",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Cal.4th 1134",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        777211
+      ],
+      "pin_cites": [
+        {
+          "page": "1143"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/29/1134-01"
+      ]
+    },
+    {
+      "cite": "633 F.3d 1136",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4091105,
+        3555010
+      ],
+      "pin_cites": [
+        {
+          "page": "1140"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/633/1136-01",
+        "/us-app-dc/394/0239-01"
+      ]
+    },
+    {
+      "cite": "394 U.S. App.D.C. 239",
+      "category": "reporters:state",
+      "reporter": "U.S. App. D.C.",
+      "case_ids": [
+        3555010
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/394/0239-01"
+      ]
+    },
+    {
+      "cite": "233 Cal.App.4th 1321",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4219717
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/233/1321-01"
+      ]
+    },
+    {
+      "cite": "122 Cal.Rptr.3d 73",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "193 Cal.App.4th 435",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4230769
+      ],
+      "pin_cites": [
+        {
+          "page": "444"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/193/0435-01"
+      ]
+    },
+    {
+      "cite": "666 F.3d 1216",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6050108
+      ],
+      "pin_cites": [
+        {
+          "page": "1219"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/666/1216-01"
+      ]
+    },
+    {
+      "cite": "899 F.2d 24",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10526040,
+        3479712
+      ],
+      "pin_cites": [
+        {
+          "page": "27"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/899/0024-01",
+        "/us-app-dc/283/0216-01"
+      ]
+    },
+    {
+      "cite": "283 U.S. App.D.C. 216",
+      "category": "reporters:state",
+      "reporter": "U.S. App. D.C.",
+      "case_ids": [
+        3479712
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/283/0216-01"
+      ]
+    },
+    {
+      "cite": "66 Cal.Rptr.3d 543",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "155 Cal.App.4th 798",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3651758
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/155/0798-01"
+      ]
+    },
+    {
+      "cite": "285 F.3d 899",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9446816
+      ],
+      "pin_cites": [
+        {
+          "page": "903-905"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/285/0899-01"
+      ]
+    },
+    {
+      "cite": "42 U.S.C. \u00a7 3601",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "455 U.S. 363",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11305645
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/455/0363-01"
+      ]
+    },
+    {
+      "cite": "426 F.Supp.2d 1061",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        5388863
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1069"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/426/1061-01"
+      ]
+    },
+    {
+      "cite": "70 Cal.Rptr.3d 466",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "158 Cal.App.4th 847",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3835500
+      ],
+      "pin_cites": [
+        {
+          "page": "854-855"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/158/0847-01"
+      ]
+    },
+    {
+      "cite": "246 P.3d 877",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "120 Cal.Rptr.3d 741",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 Cal.4th 310",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3915209
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "320"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/51/0310-01"
+      ]
+    },
+    {
+      "cite": "35 Cal.Rptr.3d 31",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "133 Cal.App.4th 658",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3684976
+      ],
+      "pin_cites": [
+        {
+          "page": "676"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/133/0658-01"
+      ]
+    },
+    {
+      "cite": "52 P.3d 703",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "124 Cal.Rptr.2d 530",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Cal.4th 82",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        777250
+      ],
+      "pin_cites": [
+        {
+          "page": "88-89"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/29/0082-01"
+      ]
+    },
+    {
+      "cite": "117 Cal.Rptr.3d 805",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "190 Cal.App.4th 40",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4227049
+      ],
+      "pin_cites": [
+        {
+          "page": "56"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/190/0040-01"
+      ]
+    },
+    {
+      "cite": "52 P.3d 695",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "124 Cal.Rptr.2d 519",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Cal.4th 69",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        777221
+      ],
+      "pin_cites": [
+        {
+          "page": "78"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/29/0069-01"
+      ]
+    },
+    {
+      "cite": "126 Cal.Rptr.2d 560",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "102 Cal.App.4th 1388",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1151177
+      ],
+      "pin_cites": [
+        {
+          "page": "1395-1396"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/102/1388-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1660,
+    "char_count": 45195,
+    "ocr_confidence": 0.9,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.14449278703121302
+    },
+    "sha256": "b7c295ea6392bec2a9d4b6848167bdaf49374bc4ee3f5c0f24ba0337ea7bc413",
+    "simhash": "1:df37c60a7dd48166",
+    "word_count": 7108
+  },
+  "last_updated": "2024-02-27T18:42:40.455132+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "ANIMAL LEGAL DEFENSE FUND, Plaintiff and Respondent, v. LT NAPA PARTNERS LLC et al., Defendants and Appellants."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nSIMONS, J.\nPlaintiff and respondent Animal Legal Defense Fund (plaintiff) filed an action against defendants and appellants LT Napa Partners LLC and Kenneth Frank (defendants), alleging defendants sold foie gras in their Napa restaurant in violation of section 25982 of the Health and Safety Code (Section 25982). Defendants moved to strike plaintiff\u2019s claim pursuant to the anti-SLAPP statute, section 425.16 of the Code of Civil Procedure (Section 425.16). Defendants appeal from the trial court\u2019s denial of the motion. We affirm.\nBACKGROUND\nIn 2004, the Legislature enacted Section 25982, banning the sale of foie gras effective July 1, 2012. (See Health & Saf. Code, \u00a7 25980 et seq.) Plaintiff advocated for passage of the ban and has been active in informing the public about the law and its view that production of foie gras involves cruelty to animals. Defendant Frank, who is the head chef at Napa restaurant La Toque, has been a vocal opponent of Section 25982. For example, he testified at state Senate hearings preceding passage of the law, publicly debated the merits of the ban, and authored a newspaper opinion article against the ban. La Toque is owned by defendant LT Napa Partners LLC (LT Napa); Frank is the managing member of LT Napa.\nAfter the ban went into effect, plaintiff paid an investigator to dine at La Toque on three occasions in September 2012, October 2012, and March 2013. On each occasion he requested foie gras and was told that if he ordered an expensive tasting menu he would receive foie gras. On two of the occasions it was described as a \u201cgift\u201d from the chef. He ordered the tasting menus and was served foie gras. He was not told he was served foie gras in protest against the foie gras ban and was not provided information about defendant Frank\u2019s opposition to the foie gras ban\nPlaintiff brought the results of its investigation to Napa law enforcement authorities. Over the course of three months, plaintiff attempted to persuade the Napa authorities to take action based on the alleged violation of Section 25982 at La Toque, but the city attorney declined. Subsequently, plaintiff initiated the present suit, alleging a cause of action under the unfair competition law (UCL) (Bus. & Prof. Code, \u00a7 17200 et seq.) based on defendants\u2019 alleged violation of Section 25982. Plaintiff does not request damages but seeks an injunction prohibiting defendants from \u201cfurnishing, preparing, or serving foie gras in any form or manner whatsoever.\u201d\nDefendants brought a special motion to strike plaintiff\u2019s action as a SLAPP under Section 425.16. The trial court denied the motion, concluding defendants had failed to show plaintiff\u2019s cause of action arose from protected activity and concluding plaintiff had shown a probability of prevailing on the merits. This appeal followed.\nDISCUSSION\nI. The Anti-SLAPP Law\n\u201cIn 1992, the Legislature enacted [Sjection 425.16 in an effort to curtail lawsuits brought primarily \u2018to chill the valid exercise of . . . freedom of speech and petition for redress of grievances\u2019 and \u2018to encourage continued participation in matters of public significance.\u2019 (\u00a7425.16, subd. (a).) The section authorizes a special motion to strike \u2018[a] cause of action against a person arising from any act of that person in furtherance of the person\u2019s right of petition or free speech under the United States [Constitution] or [the] California Constitution in connection with a public issue ....\u2019(\u00a7 425.16, subd. (b)(1).) The goal is to eliminate meritless or retaliatory litigation at an early stage of the proceedings. [Citations.] The statute directs the trial court to grant the special motion to strike \u2018unless the court determines that the plaintiff has established that there is a probability that the plaintiff will prevail on the claim.\u2019 (\u00a7425.16, subd. (b)(1).)\u201d (Gallimore v. State Farm Fire & Casualty Ins. Co. (2002) 102 Cal.App.4th 1388, 1395-1396 [126 Cal.Rptr.2d 560], fn. omitted {Gallimore).)\n\u201cThe statutory language establishes a two-part test. First, it must be determined whether the plaintiff\u2019s cause of action arose from acts by the defendant in furtherance of the defendant\u2019s right of petition or free speech in connection with a public issue. [Citation.] \u2018A defendant meets this burden by demonstrating that the act underlying the plaintiff\u2019s cause fits one of the categories spelled out in [S]ection 425.16, subdivision (e).\u2019 [Citation.] Assuming this threshold condition is satisfied, it must then be determined that the plaintiff has established a reasonable probability of success on his or her claims at trial.\u201d (Gallimore, supra, 102 Cal.App.4th at p. 1396.) \u201cWhether [S]ection 425.16 applies and whether the plaintiff has shown a probability of prevailing are both legal questions which we review independently on appeal.\u201d (Ibid.) The statute provides that Section 425.16 \u201cshall be construed broadly.\u201d (\u00a7 425.16, subd. (a).)\nII. We Assume for Purposes of Appeal That Plaintiff\u2019s Lawsuit Arises out of Defendants\u2019 Conduct in Furtherance of Protected Speech\nA defendant can meet its burden of making a threshold showing that a cause of action is one arising from protected activity by demonstrating the act underlying the plaintiff\u2019s cause of action falls within one of the four categories identified in Section 425.16, subdivision (e). (City of Cotati v. Cashman (2002) 29 Cal.4th 69, 78 [124 Cal.Rptr.2d 519, 52 P.3d 695].) Among other things, defendants contend plaintiff\u2019s UCL claim arises out of \u201cconduct in furtherance of the exercise of the constitutional right of petition or the constitutional right of free speech in connection with a public issue or an issue of public interest.\u201d (\u00a7 425.16, subd. (e)(4).) In particular, they contend the serving of foie gras at La Toque was in furtherance of defendant Frank\u2019s public opposition to the foie gras ban. For purposes of the present appeal we will assume that conduct is protected activity within the meaning of Section 425.16, subdivision (e). (See Smith v. Adventist Health Systems/West (2010) 190 Cal.App.4th 40, 56 [117 Cal.Rptr.3d 805] [assuming satisfaction of first step and proceeding to consideration of second step of \u00a7 425.16 analysis].)\nIII. Plaintiff Has Demonstrated a Probability of Prevailing\nIn order to establish a probability of prevailing for purposes of Section 425.16, subdivision (b)(1), \u201c \u2018the plaintiff \u201cmust demonstrate that the complaint is both legally sufficient and supported by a sufficient prima facie showing of facts to sustain a favorable judgment if the evidence submitted by the plaintiff is credited.\u201d \u2019 \u201d (Navellier v. Sletten (2002) 29 Cal.4th 82, 88-89 [124 Cal.Rptr.2d 530, 52 P.3d 703].) However, a defendant that advances an affirmative defense to the plaintiff\u2019s claims bears the burden of proof on the defense. (Peregrine Funding, Inc. v. Sheppard Mullin Richter & Hampton LLP (2005) 133 Cal.App.4th 658, 676 [35 Cal.Rptr.3d 31].)\n\u201cThe UCL prohibits, and provides civil remedies for, unfair competition, which it defines as \u2018any unlawful, unfair or fraudulent business act or practice.\u2019 ([Bus. & Prof. Code,] \u00a7 17200.) Its purpose \u2018is to protect both consumers and competitors by promoting fair competition in commercial markets for goods and services.\u2019 [Citations.] In service of that purpose, the Legislature framed the UCL\u2019s substantive provisions in \u2018 \u201cbroad, sweeping language\u201d \u2019 [citations] and provided \u2018courts with broad equitable powers to remedy violations.\u2019 \u201d (Kwikset Corp. v. Superior Court (2011) 51 Cal.4th 310, 320 [120 Cal.Rptr.3d 741, 246 P.3d 877] (Kwikset).)\nOn appeal, defendants contend plaintiff failed to demonstrate a probability of prevailing because plaintiff lacks standing, there is no basis for liability against defendant Frank, and plaintiff\u2019s evidence fails to show defendants sold foie gras within the meaning of Section 25982. We disagree.\nA. Plaintiff Has Shown a Probability of Prevailing on the Standing Issue\n1. Legal Background\nIn Kwikset, supra, 51 Cal.4th 310, the California Supreme Court examined the standing requirements of the UCL in light of the 2004 approval of Proposition 64. The court explained that, \u201cWhile the substantive reach of [the UCL] remains expansive, the electorate has materially curtailed the universe of those who may enforce [its] provisions. ... \u2018In 2004, the electorate substantially revised the UCL\u2019s standing requirement; where once private suits could be brought by \u201cany person acting for the interests of itself, its members or the general public\u201d [citation], now private standing is limited to any \u201cperson who has suffered injury in fact and has lost money or property\u201d as a result of unfair competition [citations]. The intent of this change was to confine standing to those actually injured by a defendant\u2019s business practices and to curtail the prior practice of filing suits on behalf of \u201c \u2018clients who have not used the defendant\u2019s product or service, viewed the defendant\u2019s advertising, or had any other business dealing with the defendant . . . .\u2019 \u201d [Citation.] [][] While the voters clearly intended to restrict UCL standing, they just as plainly preserved standing for those who had had business dealings with a defendant and had lost money or property as a result of the defendant\u2019s unfair business practices.\u2019 \u201d (Kwikset, supra, 51 Cal.4th at pp. 320-321.)\nKwikset interpreted the Proposition 64 requirement that a party has \u201clost money or property\u201d to mean that a party must \u201c(1) establish a loss or deprivation of money or property sufficient to qualify as injury in fact, i.e., economic injury, and (2) show that that economic injury was the result of, i.e., caused by, the unfair business practice or false advertising that is the gravamen of the claim.\u201d (Kwikset, supra, 51 Cal.4th at p. 322.) Kwikset pointed out that \u201c \u2018[ijnjury in fact\u2019 is a legal term of art\u201d that makes reference to one of the requirements for federal standing under article III, section 2 of the United States Constitution. (Kwikset, at p. 322.) Indeed, \u201c[t]he text of Proposition 64 establishes expressly that in selecting this phrase the drafters and voters intended to incorporate the established federal meaning. The initiative declares: \u2018It is the intent of the California voters in enacting this act to prohibit private attorneys from filing lawsuits for unfair competition where they have no client who has been injured in fact under the standing requirements of the United States Constitution.\u2019 \u201d (Ibid.)\n\u201c[Pjroof of injury in fact will in many instances overlap with proof of\u2019 loss of \u201cmoney or property,\u201d as also required by Proposition 64. (Kwikset, supra, 51 Cal.4th at p. 323.) Kwikset noted that such \u201ceconomic injury ... is itself a classic form of injury in fact,\u201d and \u201cthe quantum of lost money or property necessary to show standing is only so much as would suffice to establish injury in fact . . . .\u201d (Id., at pp. 323-324.) \u201cHowever, because economic injury is but one among many types of injury in fact, the Proposition 64 requirement that injury be economic renders standing under [Business and Professions Code] section 17204 substantially narrower than federal standing under article III, section 2 of the United States Constitution, which may be predicated on a broader range of injuries.\u201d (Kwikset, at p. 324.) Nevertheless, injury in fact is \u201cnot a substantial or insurmountable hurdle\u201d; it suffices \u201cto \u2018 \u201callege[] some specific, \u2018identifiable trifle\u2019 of injury.\u201d \u2019 \u201d (Ibid.) \u201cIf a party has alleged or proven a personal, individualized loss of money or property in any nontrivial amount, he or she has also alleged or proven injury in fact.\u201d (Id. at p. 325.)\nFinally, \u201cProposition 64 requires that a plaintiff\u2019s economic injury come \u2018as a result of\u2019 the unfair competition .... [Citations.] \u2018The phrase \u201cas a result of\u2019 in its plain and ordinary sense means \u201ccaused by\u201d and requires a showing of a causal connection or reliance ....\u2019\u201d (Kwikset, supra, 51 Cal.4th at p. 326.)\n2. Analysis\nIn the present case, plaintiff contends it suffered injury in fact and lost money as a result of defendants\u2019 conduct in serving foie gras because it \u201chas diverted significant organizational resources to combat [defendants\u2019] continuing illegal sales of foie gras.\u201d Plaintiff submitted a detailed declaration from its executive director, Stephen Wells, outlining plaintiff\u2019s advocacy against foie gras in general and in favor of California\u2019s ban on the sale of foie gras in particular. Plaintiff wrote letters of support for the bill that enacted Section 25982, and \u201c[djuring the months before the law became effective, [plaintiff] performed public outreach to remind the public of the July 1, 2012 effective date and reinforce the law\u2019s importance.\u201d Following the effective date of the ban, plaintiff paid a private investigator to visit La Toque, and \u201c[u]pan learning the results of the investigations . . . , paid staff at ALDF diverted their attention from other ALDF projects to analyze the facts obtained during the investigation.\u201d Subsequently, plaintiff \u201cexpended significant staff time and resources to share its investigation findings with Napa law enforcement authorities.\u201d Plaintiff\u2019s staff attorneys \u201cdiverted time and attention from other projects and attempted to persuade the Napa authorities to enforce\u201d the ban on sale of foie gras \u201cover the course of at least three months.\u201d Mr. Wells\u2019s declaration also averred that defendants\u2019 alleged violations of Section 25982 \u201charm [plaintiff\u2019s] organizational mission,\u201d and \u201c[t]he diversion of limited resources has caused [plaintiff] to postpone projects that would reach new media markets, reach new people, better develop [plaintiff\u2019s] organization, and advance its mission.\u201d Alternatives to spending on the California foie gras ban include, for example, \u201cadvocating an end to cruel production methods in other states and at the federal level.\u201d\nPlaintiff points out that, although Kwikset declined to \u201csupply an exhaustive list of the ways in which unfair competition may cause economic harm,\u201d the court did note that a plaintiff \u201crequired to enter into a transaction, costing money or property, that would otherwise have been unnecessary\u201d would have standing under the UCL. (Kwikset, supra, 51 Cal.4th at pp. 323-324.) Plaintiff contends its expenditure of resources in investigating defendants\u2019 alleged sales of foie gras and attempting to persuade the Napa authorities to prosecute were such transactions. Kwikset cited Hall v. Time Inc. (2008) 158 Cal.App.4th 847, 854\u2014855 [70 Cal.Rptr.3d 466], as a case \u201ccataloguing some of the various forms of economic injury.\u201d (Kwikset, at p. 323.) Hall had cited Southern California Housing v. Los Feliz Towers Homeowners (C.D.Cal. 2005) 426 F.Supp.2d 1061, 1069 (Southern Cal. Housing), as an example of a case where a plaintiff \u201cexpended money due to the defendant\u2019s acts of unfair competition,\u201d with the parenthetical \u201chousing rights center lost financial resources and diverted staff time investigating case against defendants.\u201d (Hall, at p. 854.) In Southern Cal. Housing, the federal district court held that a housing advocacy organization met the Proposition 64 standing requirement by \u201cpresenting] evidence of actual injury based on loss of financial resources in investigating [a] claim and diversion of staff time from other cases to investigate the allegations here.\u201d (Southern Cal. Housing, at p. 1069.) Accordingly, although Kwikset did not hold that the precise expenditures made by the plaintiff constitute injury in fact under the UCL, the court did express some approval for that proposition through its approving citation to Hall.\nCases addressing the federal standing requirement \u2014 which are relevant as explained in Kwikset, supra, 51 Cal.4th at page 322\u2014also support the proposition that the plaintiff\u2019s claimed diversion of resources can constitute injury in fact. For example, in Havens Realty Corp. v. Coleman (1982) 455 U.S. 363 [71 L.Ed.2d 214, 102 S.Ct. 1114] (Havens), a Fair Housing Act (42 U.S.C. \u00a7 3601 et seq.) action, the plaintiff alleged it \u201c \u2018had to devote significant resources to identify and counteract the defendant\u2019s . . . racially discriminatory steering practices.\u2019 \u201d (Havens, at p. 379.) Havens held that \u201c[s]uch concrete and demonstrable injury to the organization\u2019s activities \u2014 \u25a0 with the consequent drain on the organization\u2019s resources\u201d was sufficient to demonstrate injury in fact. (Ibid.; see Fair Housing of Marin v. Combs (9th Cir. 2002) 285 F.3d 899, 903-905 [listing cases and finding standing where organization\u2019s \u201cresources were diverted to investigating and other efforts to counteract [the defendant\u2019s] discrimination above and beyond litigation\u201d].)\nDefendants rely on Buckland v. Threshold Enterprises, Ltd. (2007) 155 Cal.App.4th 798 [66 Cal.Rptr.3d 543] (Buckland), disapproved on other grounds in Kwikset, supra, 51 Cal.4th 310, in arguing that plaintiff does not have standing. But the reasoning of that case supports plaintiff\u2019s position that it has established a prima facie case. In Buckland, a women\u2019s rights advocate bought skin creams that were allegedly sold by the defendants in violation of federal marketing laws. (Buckland, at pp. 804-805.) The plaintiff in Buckland acknowledged she had incurred \u201c \u2018the cost of purchasing each of these products in order to meet the letter of the law to have . . . economic damages that provide standing under the statutes by which I am proceeding in the case.\u2019 \u201d (Id. at p. 805.) In considering whether the plaintiff had standing under the UCL, Buckland surveyed the post-Havens federal case law and concluded the federal circuits were divided on \u201cwhether the costs an organization incurs to pursue litigation are sufficient, in themselves, to establish an injury in fact.\u201d (Buckland, at p. 815.) Buckland adopted the rule of the majority of the circuits that, \u201c \u2018[a]n organization cannot. . . manufacture the injury necessary to maintain a suit from its expenditure of resources on that very suit.\u2019 \u201d (Ibid., quoting Spann v. Colonial Village, Inc. (D.C. Cir. 1990) 283 U.S. App.D.C. 216 [899 F.2d 24, 27] (Spann).) Buckland concluded its plaintiff did not have standing under that rule \u201c[b]ecause the costs were incurred solely to facilitate her litigation . . . [and] to hold otherwise would gut the injury, in fact requirement.\u201d (Buckland, at p. 816.)\nNevertheless, Buckland recognized that, under the federal cases it followed, \u201cfunds expended independently of the litigation to investigate or combat the defendant\u2019s misconduct may establish an injury in fact.\u201d (Buckland, supra, 155 Cal.App.4th at p. 815, citing Spann, supra, 899 F.2d at p. 27; see Fair Housing Council v. Roommate.com, LLC (9th Cir. 2012) 666 F.3d 1216, 1219 [\u201c[A]n organization has \u2018direct standing to sue [when] it showed a drain on its resources from both a diversion of its resources and frustration of its mission.\u2019 [Citation.] However, \u2018 \u201cstanding must be established independent of the lawsuit filed by the plaintiff.\u201d \u2019 \u201d].) Buckland distinguished Havens and Southern Cal. Housing on the basis that Buckland could not allege a \u201cdiversion of resources\u201d comparable to the allegations of the organizations in those other two cases, \u201cand her investigation costs, if any, are inextricably tied to her litigation expenses.\u201d (Buckland, at p. 816; see Havens, supra, 455 U.S. at p. 379; Southern Cal. Housing, supra, 426 F.Supp.2d at p. 1069.)\nAccepting, as we must, the truth of the averments in Mr. Wells\u2019s declaration (Gerbosi v. Gaims, Weil, West & Epstein, LLP (2011) 193 Cal.App.4th 435, 444 [122 Cal.Rptr.3d 73]), we conclude the present case is like Havens and Southern Cal. Housing and unlike Buckland. The declaration indicates plaintiff spent months on the effort to persuade Napa authorities to take action based on the alleged violations of Section 25982. Thus, plaintiff has presented evidence its investigatory expenditures, as well as the resources spent in attempting to persuade the authorities, had a purpose independent of the current litigation and might have rendered such litigation unnecessary. Moreover, Mr. Wells\u2019s declaration indicates that, in addition to general advocacy against foie gras, plaintiff specifically advocated for passage of the California ban on the sale of foie gras and has expended resources on educating the public about the ban, including immediately before the statute\u2019s July 2012 effective date. Plaintiff, thus, has presented evidence of a genuine and long-standing interest in the effective enforcement of the statute and in exposing those who violate it. Plaintiff\u2019s evidence provides a basis to conclude that defendants\u2019 alleged violations of the statute tended to frustrate plaintiff\u2019s advocacy for an effective ban on the sale of foie gras in California, and tended to impede plaintiff\u2019s ability to shift its focus on advocacy efforts in, for example, other states and at the federal level. (See Havens, supra, 455 U.S. at p. 379 [the plaintiff alleged the defendants\u2019 racial steering practices \u201c \u2018frustrated\u2019 \u201d the plaintiff\u2019s \u201c \u2018efforts to assist equal access to housing through counseling and other referral services\u2019 \u201d].) In sum, Mr. Wells\u2019s declaration is sufficient to make a prima facie showing of standing to sue.\nDefendants argue that a recent decision from this district\u2019s Division Four, Two Jinn, Inc. v. Government Payment Service, Inc. (2015) 233 Cal.App.4th 1321 (Two Jinn), demonstrates plaintiff\u2019s lack of standing. There, a licensed bail agent brought a UCL action to enjoin the defendant from engaging in bail agent activities in violation of legal requirements. (Two Jinn, at p. 1326.) The plaintiff, like plaintiff in this case, argued it had standing because \u201c \u2018[w]ell before any litigation was considered,\u2019 it expended significant time and resources investigating and documenting [the defendant\u2019s] activities in order to assist government regulators and convince them to uniformly enforce the law.\u201d (Id. at p. 1336.) The Two Jinn court assumed that under Buckland such a showing would demonstrate that the plaintiff\u2019s investigation \u201cwas conducted independently of [the] lawsuit,\u201d but the court held that the plaintiff had failed to present any evidence in support of its argument. (Two Jinn, at p. 1336.) \u201cIndeed, [plaintiff\u2019s general counsel] expressly conceded that [its] investigation constituted \u2018pre[-]litigation activities.\u2019 \u201d (Ibid.) The court noted that the plaintiff had shared its evidence with California\u2019s Department of Insurance, but \u201cit did so as part of this litigation in order to support its petition for a writ of mandate.\u201d (Ibid.) Here, Mr. Wells\u2019s declaration, which avers the investigation and enforcement efforts with Napa authorities had a purpose independent of the lawsuit, as well as harm from the diversion of resources and the frustration of plaintiff\u2019s advocacy efforts, provides the evidence absent in Two Jinn and establishes a prima facie case of standing.\nWe also reject defendants\u2019 contention that plaintiff failed to make a prima facie showing that its economic injury was \u201ccaused by\u201d defendants\u2019 conduct (see Kwikset, supra, 51 Cal.4th at p. 326), because the \u201cpurpose of [plaintiff\u2019s] existence is to invest [its] resources in litigation activities.\u201d That the expenditure of resources in investigating defendants\u2019 alleged lawbreaking was wholly consistent with plaintiff\u2019s mission does not mean the resources were not in fact diverted from other activities as a result of defendants\u2019 conduct. Where the economic injury is diversion of resources, the proper focus of the inquiry is not the \u201cvoluntariness or involuntariness\u201d of the expenditures. (Equal Rights Center v. Post Properties, Inc. (D.C. Cir. 2011) 394 U.S. App.D.C. 239 [633 F.3d 1136, 1140] (Equal Rights Center).) Instead, the proper focus is on whether the plaintiff \u201cundertook the expenditures in response to, and to counteract, the effects of the defendants\u2019 alleged [misconduct] rather than in anticipation of litigation.\u201d (Ibid.) Plaintiff has made a prima facie showing it can satisfy the UCL\u2019s causation requirement for standing.\nB. Plaintiff Has Shown a Probability of Prevailing on Its Claim That Defendants Unlawfully Sold Foie Gras\n1. Plaintiff Has Shown a Basis for Liability Against Defendant Frank\nDefendants contend plaintiff has not shown a basis for liability against defendant Frank because there is no evidence that Frank himself directly served foie gras to any patron of La Toque. However, the complaint alleges, \u201c[defendants, by themselves and through agents, routinely sell foie gras in violation of\u2019 Section 25982. (Italics added.) The evidence in the record shows Frank is the \u201cmanaging member\u201d of LT Napa (the owner of La Toque) and has worked as the restaurant\u2019s \u201chead chef\u2019 since 1976. Moreover, there is evidence Frank is personally responsible for the restaurant\u2019s policy regarding serving foie gras. His own declaration states, \u201cIn the exercise of my constitutionally protected right of petition and free speech, my restaurant, La Toque, is protesting the law, not breaking it, by giving away foie gras to customers I choose to give it to. I give away a much smaller amount of foie gras than I did before July 1, 2012, when Section 25982 went into effect. However, what I do give away to customers is my way of dumping tea in the harbor, so to speak.\u201d If the serving of foie gras at La Toque violates Section 25982, plaintiff has shown a basis for its claim that Frank is personally liable for the violation.\n2. Plaintiff Has Shown a Probability of Prevailing on Its Claim Defendants Unlawfully \u201cSold\u201d Foie Gras\n\u201cBusiness and Professions Code section 17200 et seq. prohibits unfair competition, including unlawful, unfair, and fraudulent business acts. The UCL covers a wide range of conduct. It embraces \u2018 \u201c \u2018 \u201canything that can properly be called a business practice and that at the same time is forbidden by law.\u201d \u2019 \u201d \u2019 \u201d (Korea Supply Co. v. Lockheed Martin Corp. (2003) 29 Cal.4th 1134, 1143 [131 Cal.Rptr.2d 29, 63 P.3d 937], fn. omitted.) \u201c[Business and Professions Code] [s]ection 17200 \u2018borrows\u2019 violations from other laws by making them independently actionable as unfair competitive practices. [Citation.]\u201d (Korea Supply, at p. 1143.) At issue in the present case are Health and Safety Code section 25981 and Section 25982. Under Health and Safety Code section 25981, it is unlawful to \u201cforce feed a bird for the purpose of enlarging the bird\u2019s liver beyond normal size.\u201d Section 25982, in turn, prohibits the sale of foie gras produced through force feeding, stating \u201c[a] product may not be sold in California if it is the result of force feeding a bird for the purpose of enlarging the bird\u2019s liver beyond normal size.\u201d Plaintiff\u2019s UCL action claims defendants violated Section 25982 by selling foie gras at La Toque.\n\u201cAs with all questions of statutory interpretation, we attempt to discern the Legislature\u2019s intent, \u2018being careful to give the statute\u2019s words their plain, commonsense meaning. [Citation.] If the language of the statute is not ambiguous, the plain meaning controls and resort to extrinsic sources to determine the Legislature\u2019s intent is unnecessary.\u2019 \u201d (Ste. Marie v. Riverside County Regional Park & Open-Space Dist. (2009) 46 Cal.4th 282, 288 [93 Cal.Rptr.3d 369, 206 P.3d 739].) If terms used in a statute \u201care not specifically defined, a court may also consider evidence of legislative history in ascertaining the statute\u2019s meaning.\u201d (Metropolitan Water Dist. v. Imperial Irrigation Dist. (2000) 80 Cal.App.4th 1403, 1425 [96 Cal.Rptr.2d 314].)\nAt the outset, we reject defendants\u2019 contention that Section 25982 is a statute \u201cimposing criminal penalties\u201d that must be construed narrowly. In People ex rel. Lungren v. Superior Court (1996) 14 Cal.4th 294 [58 Cal.Rptr.2d 855, 926 P.2d 1042] (Lungren), the California Supreme Court rejected the proposition that \u201call statutes with civil monetary penalties should ... be strictly construed.\u201d (Id. at p. 313.) The court interpreted \u201cdictum\u201d in Hale v. Morgan (1978) 22 Cal.3d 388 [149 Cal.Rptr. 375, 584 P.2d 512]\u2014upon which defendants here rely \u2014 as possibly supporting narrow construction of a statute\u2019s \u201c \u2018penalty clause.\u2019 \u201d (Lungren, at p. 314.) But Hale \u201cdid not purport to alter the general rule that civil statutes for the protection of the public are, generally, broadly construed in favor of that protective purpose.\u201d (Lungren, at p. 313; accord, Smith v. Superior Court (2006) 39 Cal.4th 77, 92 [45 Cal.Rptr.3d 394, 137 P.3d 218].) In particular, that rule of broad construction applies to the interpretation of statutes \u201cthat define[] the conduct proscribed by the Act, and the scope of the government\u2019s authority to enjoin and prohibit that conduct, rather than the method of assessing the amount of penalty for transgressing the proscription.\u201d (Lungren, at p. 314.) That is what is at issue in the present case: we construe the language of Section 25982 defining what conduct is prohibited, rather than a penalty clause related to the prohibition. Because defendants do not deny that Section 25982 is intended for the protection of the public within the meaning of Lungren, we broadly construe Section 25982 in favor of its public purposes.\nOn the merits, defendants do not dispute that the foie gras served at La Toque was produced through force-feeding. The sole issue regarding the applicability of Section 25982 is whether defendants\u2019 conduct in serving foie gras at La Toque constituted \u201csales\u201d prohibited under the statute. In opposing defendants\u2019 anti-SLAPP motion, plaintiff presented a declaration from its investigator, who averred that on three occasions he was told he would obtain foie gras if he purchased a tasting menu at La Toque. On two of the occasions the foie gras was characterized as a \u201cgift,\u201d apparently foie gras was not listed in the description of the tasting menu, and apparently a separate amount was not charged for the item. Defendants quote section 2106, subdivision (1) of the California Uniform Commercial Code for the proposition that \u201c[a] \u2018sale\u2019 consists in the passing of title from the seller to the buyer for a price.\u201d Although that definition expressly applies only to the California Uniform Commercial Code, both parties agree it is a reasonable general definition. (See Merriam-Webster\u2019s Collegiate Diet. (10th ed. 2001) p. 1028 [defining a \u201csale\u201d as \u201cthe transfer of ownership of and title to property from one person to another for a price\u201d].) Employing that definition, defendants assert that plaintiff\u2019s evidence does not show that foie gras was provided for a price.\nWe find guidance in the California Supreme Court\u2019s recent decision in Ennabe v. Manosa (2014) 58 Cal.4th 697 [168 Cal.Rptr.3d 440, 319 P.3d 201]. There, the court applied section 25602.1 of the Business and Professions Code, which states that a person \u201cwho sells, or causes to be sold, any alcoholic beverage, to any obviously intoxicated minor\u201d can be liable for resulting injuries or death. (See Ennabe, at pp. 702, 709-710.) The court considered whether the defendant could be held liable under the provision where she supplied alcohol to a minor at a party, and the minor was charged a fee to enter the party. (Ibid.) The statute considered in Ennabe is part of the Alcoholic Beverage Control Act (Bus. & Prof. Code, \u00a7 23000 et seq.), which defines a sale to include \u201cany transaction whereby, for any consideration, title to alcoholic beverages is transferred from one person to another.\u201d (Bus. & Prof. Code, \u00a7 23025; see Ennabe, at p. 714.)\nIn interpreting the statute, Ennabe noted it was unclear whether a rule of liberal or strict construction was applicable, because both rules applied under different principles of statutory interpretation. (Ennabe, supra, 58 Cal.4th at pp. 713-714.) Turning to the statutory language, Ennabe stated, the \u201cbroad definition of a sale shows the Legislature intended the law to cover a wide range of transactions involving alcoholic beverages: a qualifying sale includes \u2018any transaction\u2019 in which title to an alcoholic beverage is passed for \u2018any consideration.\u2019 (Italics added.) Use of the term \u2018any\u2019 to modify the words \u2018transaction\u2019 and \u2018consideration\u2019 demonstrates the Legislature intended the law to have a broad sweep and thus include both indirect as well as direct transactions.\u201d (Ennabe, at p. 714.) The court concluded \u201cthe plain meaning of a \u2018sale,\u2019 as defined in [Business and Professions Code] section 23025 and used in [Business and Professions Code] section 25602.1, includes [the minor\u2019s] payment of the entrance fee for [the defendant\u2019s] party, irrespective of the fact possession of a particular drink did not occur immediately upon payment.\u201d (Ennabe, at p. 715.)\nEnnabe cited with approval a 1985 Attorney General opinion that is more analogous to the present case. (Ennabe, supra, 58 Cal.4th at pp. 716-717.) In that opinion, the California Attorney General interpreted liquor licensing laws with respect to commercial enterprises that offer \u201ccomplimentary\u201d alcoholic beverages to paying customers who purchase another good or service. (Offer of \u201cComplimentary\u201d Alcoholic Beverage is \u201cSale,\u201d 68 Ops.Cal.Atty.Gen. 263 (1985) (Opinion No. 85-701).) The Attorney General was asked, \u201cMay the operator of a commercial enterprise who does not have an alcoholic beverage license legally offer and provide \u2018complimentary\u2019 alcoholic beverages to any interested adult guest, customer or passenger of the business or service, without specific charge while at the same time charging for the product provided or the services rendered?\u201d (Id. at p. 263.) Considering analogous out-of-state authority, the Attorney General concluded that \u201ccomplimentary\u201d alcohol is in fact \u201csold,\u201d even though the operators do not charge additional amounts to customers who elect to consume alcohol. (Id. at pp. 265-267.) As the opinion explained, \u201c \u2018It is wholly immaterial that no specific price is attached to those articles separately.\u2019 . . . [T]he furnishing of the beverages, although denominated \u2018complimentary\u2019, are for a consideration and constitute a sale within the meaning of California\u2019s Alcoholic Beverage Control Act.\u201d (Id. at p. 267; accord, Ennabe, at p. 717.) To hold otherwise would undermine the Legislature\u2019s intent to regulate the provision of alcoholic beverages. (Opn. No. 85-701, at p. 267.)\nUnder Ennabe and Opinion No. 85-701, La Toque\u2019s serving of foie gras as part of a tasting menu constituted a sale of foie gras. Plaintiff\u2019s investigator\u2019s decision to order and agreement to pay the specified price for the tasting menu was the consideration offered for the entirety of the food served, including the foie gras. (H. S. Crocker Co., Inc. v. McFaddin (1957) 148 Cal.App.2d 639, 644 [307 P.2d 429] (H. S. Crocker Co.) [\u201cThe \u2018price\u2019 is the consideration passing from the buyer to the seller for the latter\u2019s interest in the thing sold.\u201d].) Under the investigator\u2019s averments, the foie gras served as part of the menu was \u201csold\u201d to him as much as any other part of the tasting menu. Defendants present no reason in logic or the law why we should conclude otherwise. Defendants assert that \u201cgiving free foie gras to customers who purchased specific meals at the normal price was not a \u2018sale.\u2019 \u201d It appears they contend not all of the patrons who ordered the tasting menu received foie gras, despite paying the same amount as the investigator. However, regardless of whether other patrons paid the same amount without receiving foie gras, the investigator\u2019s averments show the receipt of foie gras was part of the tasting menu offered to him prior to his decision to order it. Thus, the foie gras was part of the property he was offered for the price he agreed to pay. Regardless of whether other patrons received foie gras on a random basis without a prior agreement, the investigator\u2019s averments show he was \u201csold\u201d foie gras as part of the tasting menu. Neither does the server\u2019s characterization of the foie gras as a \u201cgift\u201d on two of the occasions change the analysis, when the investigator was led to understand that he could only obtain the \u201cgift\u201d by purchasing the tasting menu. As in Ennabe and Opinion No. 85-701, it is \u201c \u2018 \u201cimmaterial that no specific\u201d \u2019 \u201d and separate price was attached to the foie gras; the furnishing of the foie gras, even if characterized as a gift, was \u201c \u2018for a consideration and constitute[d\\ a sale within the meaning of\u2019 \u201d Section 25982. (Ennabe, supra, 58 Cal.4th at p. 717.)\nDefendants also argue the concept of sale in Section 25982 should be construed more narrowly than it was in Ennabe and Opinion No. 85-701 because the Legislature did not broadly define \u201csold\u201d for purposes of Section 25982. Defendants assert, \u201cIt is instructive that the Legislature chose to adopt the substantially broader definition of \u2018any consideration\u2019 for the \u2018sale\u2019 of alcohol . . . , but chose not to do so for its ban of the \u2018sale\u2019 of foie gras produced by force feeding.\u201d We disagree. The standard definition of a sale in the California Uniform Commercial Code, discussed previously, contemplates that any form of consideration \u2014 even nonmonetary consideration \u2014 may constitute the \u201cprice\u201d of the item sold. (H. S. Crocker Co., supra, 148 Cal.App.2d at pp. 644-645; accord, Amdahl Corp. v. County of Santa Clara (2004) 116 Cal.App.4th 604, 615 [10 Cal.Rptr.3d 486].) The absence of an express broad definition for \u201csold\u201d applicable to Section 25982 does not mean that the consideration for foie gras must take any particular form. In light of the broad construction we apply to Section 25982, it is appropriate that the outcome in the present case be the same as that under the Alcoholic Beverage Control Act. Notably, allowing restaurants to avoid the foie gras ban by the expedient of \u201cgifting,\u201d while informing patrons they will receive foie gras if they purchase other goods, would substantially undermine the ban itself. (See Opn. No. 85-701, 68 Ops.Cal.Atty.Gen., supra, at p. 267.)\nBy analogy to Ennabe, supra, 58 Cal.4th 697, and Opinion No. 85-701, we construe the term \u201csold\u201d in Section 25982 to encompass serving foie gras as part of a tasting menu, regardless of whether there is a separate charge for the foie gras, whether it is listed on the menu, and whether it is characterized as a \u201cgift\u201d by the restaurant. Plaintiff has shown a probability of prevailing on its UCL claim based on violation of Section 25982.\nDISPOSITION\nThe trial court\u2019s order is affirmed. Costs on appeal are awarded to respondents.\nJones, P. J., and Bruiniers, J., concurred.\nAppellants\u2019 petition for review by the Supreme Court was denied June 10, 2015, S225790.\n\u201cSLAPP is an acronym for \u2018strategic lawsuit against public participation.\u2019 \u201d (Jarrow Formulas, Inc. v. LaMarche (2003) 31 Cal.4th 728, 732, fn. 1 [3 Cal.Rptr.3d 636, 74 P.3d 737].)\nOn January 7, 2015, a federal district court held that Section 25982 is preempted by federal law and enjoined its enforcement. (Des Eleveurs de Canards et d\u2019Oies du Quebec v. Harris (C.D.Cal. 2015) 79 F.Supp.3d 1136.) Two days before oral argument, defendants requested dismissal of the present appeal, apparently on the basis that the present lawsuit was mooted by the federal ruling. We denied that request. Nothing in that denial or in this decision precludes defendants from presenting arguments after remand regarding the effect of the federal decision on the present lawsuit.\nSection 25982 bans the sale of products that are \u201cthe result of force feeding a bird for the purpose of enlarging the bird\u2019s liver beyond normal size.\u201d\nIn a declaration, Frank averred that, \u201c[sjhortly after\u201d the investigator\u2019s March 2013 visit, La Toque started \u201cpresenting a \u2018protest card\u2019 \u201d when serving foie gras. He averred the cards explained his \u201ccriticism of and opposition to\u201d Section 25982.\nWe have considered an amicus curiae brief filed in favor of plaintiff by John L. Burton, the author of the Senate bill that resulted in enactment of the ban on foie gras. Amicus curiae requested that this court take judicial notice of various legislative history materials regarding the enactment of Section 25982. We deny the request because most of the materials are unnecessary to resolution of the issues on appeal and those materials that we rely upon are published materials regarding which a motion for judicial notice is unnecessary. (Wittenberg v. Beachwalk Homeowners Assn. (2013) 217 Cal.App.4th 654, 665, fn. 4 [158 Cal.Rptr.3d 508] [\u201cA motion for judicial notice of published legislative history, such as the Senate analysis here, is unnecessary.\u201d].)\nThe UCL\u2019s standing provision provides, \u201c[ajctions for relief pursuant to this chapter shall be prosecuted exclusively in a court of competent jurisdiction by [various law enforcement officials] ... or by a person who has suffered injury in fact and has lost money or property as a result of the unfair competition.\u201d (Bus. & Prof. Code, \u00a7 17204.)\nWe need not and do not conclude that plaintiff will ultimately persuade the court that the expenditure of resources had a purpose independent of the current litigation and were not expenditures made to \u201c \u2018manufacture the injury.\u2019 \u201d (Buckland, supra, 155 Cal.App.4th at p. 815.) We hold only that plaintiff\u2019s showing regarding standing is sufficient to defeat the defendants\u2019 special motion to strike.\nAlthough the Equal Rights Center case did not frame this aspect of the standing issue as a causation analysis, the reasoning of the case is applicable to show satisfaction of the UCL\u2019s causation requirement.\nBecause plaintiff has shown a probability of prevailing on this issue, we need not address its contention that defendants forfeited the issue by failing to properly raise it below.\nThe legislative history indicates proponents of the foie gras ban argued the force feeding involved in its production \u201cis a cruel and inhumane process.\u201d (E.g., Sen. Com. on Business & Professions, Analysis of Sen. Bill No. 1520 (2003-2004 Reg. Sess.) Apr. 26, 2004, p. 4; Assem. Com. on Business & Professions, Analysis of Sen. Bill No. 1520 (2003-2004 Reg. Sess.) as amended May 6, 2004, p. 4.) \u201c \u2018It has long been the public policy of this country to avoid unnecessary cruelty to animals.\u2019 [Citation.] \u2018[T]here is a social norm that strongly proscribes the infliction of any \u201cunnecessary\u201d pain on animals, and imposes an obligation on all humans to treat nonhumans \u201chumanely.\u201d \u2019 \u201d (Farm Sanctuary, Inc. v. Department of Food & Agriculture (1998) 63 Cal.App.4th 495, 504 [74 Cal.Rptr.2d 75]; see Church of Lukumi Babalu Aye, Inc. v. Hialeah (1993) 508 U.S. 520, 538 [124 L.Ed.2d 472, 113 S.Ct. 2217] [referring to \u201clegitimate governmental interests in . . . preventing cruelty to animals\u201d].) Defendants do not dispute that the public interest in preventing cruelty to animals is equivalent to the interest in the \u201cprotection of the public\u201d referenced in Lungren, supra, 14 Cal.4th at page 313.\nThe additional cases cited by defendants supporting their argument for narrow construction of Section 25982 precede Lungren and do not provide a basis to distinguish the present case from Lungren. (See, e.g., People v. Mobil Oil Corp. (1983) 143 Cal.App.3d 261 [192 Cal.Rptr. 155].)\nDefendants assert La Toque\u2019s policy for serving foie gras was other than as described by the investigator. For example, they assert, \u201cThere is no evidence in this case that foie gras was offered on a consistent basis to customers that ordered certain meals but only on a random basis to customers chosen by the duty chef. The evidence only showed that a gift of foie gras was offered on some occasions to patrons who ordered certain menu items. ... La Toque patrons are occasionally served free foie gras on an arbitrary basis, as chosen by the duty chef, and often when the patrons order certain menu items (i.e., those that would complement, or be complemented by, a serving of foie gras).\u201d Regardless of whether defendants ultimately prove the truth of their assertions, the evidence in plaintiff\u2019s investigator\u2019s declaration is prima facie evidence of a violation of Section 25982 and sufficient to satisfy the second prong of the anti-SLAPP analysis. We need not and do not decide whether serving foie gras for no extra charge on a truly random basis, not tied to particular menu items or in response to a request by a patron, would constitute a sale prohibited under Section 25982.\nIn light of the authoritativeness of Ennabe, supra, 58 Cal.4th 697, we need not discuss the various other authorities cited by the parties to support their respective positions, none of which is directly on point.",
+        "type": "majority",
+        "author": "SIMONS, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Greenwald & Hoffman, Paul A. Hoffman, Paul Evan Greenwald; Law Offices of Manuel S. Klausner, Manuel S. Klausner; The Michael Tenenbaum Law Firm and Michael Tenenbaum for Defendants and Appellants.",
+      "Animal Legal Defense Fund, Matthew Liebman, Christopher A. Berry; Fenwick & West and William R. Skinner for Plaintiffs and Respondents.",
+      "Drinker Biddle & Reath, Sheldon Eisenberg and Erin E. McCracken for John L. Burton as Amicus Curiae on behalf of Plaintiffs and Respondents."
+    ],
+    "corrections": "",
+    "head_matter": "[No. A139625.\nFirst Dist., Div. Five.\nMar. 5, 2015.]\nANIMAL LEGAL DEFENSE FUND, Plaintiff and Respondent, v. LT NAPA PARTNERS LLC et al., Defendants and Appellants.\nCounsel\nGreenwald & Hoffman, Paul A. Hoffman, Paul Evan Greenwald; Law Offices of Manuel S. Klausner, Manuel S. Klausner; The Michael Tenenbaum Law Firm and Michael Tenenbaum for Defendants and Appellants.\nAnimal Legal Defense Fund, Matthew Liebman, Christopher A. Berry; Fenwick & West and William R. Skinner for Plaintiffs and Respondents.\nDrinker Biddle & Reath, Sheldon Eisenberg and Erin E. McCracken for John L. Burton as Amicus Curiae on behalf of Plaintiffs and Respondents."
+  },
+  "file_name": "1270-01",
+  "first_page_order": 1074,
+  "last_page_order": 1093
+}

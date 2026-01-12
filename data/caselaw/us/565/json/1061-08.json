@@ -1,0 +1,59 @@
+{
+  "id": 12235231,
+  "name": "Sinani v. Holder, Attorney General",
+  "name_abbreviation": "Sinani v. Holder",
+  "decision_date": "2011-11-28",
+  "docket_number": "No. 11-401",
+  "first_page": "1061",
+  "last_page": "1061",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1061"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 82,
+    "ocr_confidence": 0.691,
+    "sha256": "64e26df678a85b6ed90c571ff733b263b0933030562c404bdceb277f01ec06c0",
+    "simhash": "1:e28a0238a8343004",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sinani v. Holder, Attorney General."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-401.\nSinani v. Holder, Attorney General."
+  },
+  "file_name": "1061-08",
+  "first_page_order": 1143,
+  "last_page_order": 1143
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12202377,
+  "name": "Delahanty v. Arizona",
+  "name_abbreviation": "Delahanty v. Arizona",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10453",
+  "first_page": "837",
+  "last_page": "837",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 837"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 70,
+    "ocr_confidence": 0.669,
+    "sha256": "272b8436b4ddaa663b5aa48f23535edc4d0b04696693c225878b59839c24a81f",
+    "simhash": "1:2a3d452fed63f609",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Delahanty v. Arizona."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ariz. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10453.\nDelahanty v. Arizona."
+  },
+  "file_name": "0837-06",
+  "first_page_order": 919,
+  "last_page_order": 919
+}

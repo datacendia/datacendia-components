@@ -1,0 +1,59 @@
+{
+  "id": 12206958,
+  "name": "Richards v. Hinkle, Warden",
+  "name_abbreviation": "Richards v. Hinkle",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10868",
+  "first_page": "854",
+  "last_page": "854",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 854"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.684,
+    "sha256": "c2a1abd6d676b9e078a8ac48ab2e2e543428412b15397ec36237874a147c9cce",
+    "simhash": "1:acc866d8c6377217",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Richards v. Hinkle, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10868.\nRichards v. Hinkle, Warden."
+  },
+  "file_name": "0854-05",
+  "first_page_order": 936,
+  "last_page_order": 936
+}

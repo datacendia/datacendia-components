@@ -1,0 +1,59 @@
+{
+  "id": 5919834,
+  "name": "Brown v. Illinois",
+  "name_abbreviation": "Brown v. Illinois",
+  "decision_date": "2011-05-23",
+  "docket_number": "No. 10-9533",
+  "first_page": "1010",
+  "last_page": "1010",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1010"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.627,
+    "sha256": "973b674f9dab1c9888a56a5ff3168effd4b1545d890361e31fd04ac7226ca7e5",
+    "simhash": "1:4131d2de35b5f52d",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Brown v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill, 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9533.\nBrown v. Illinois."
+  },
+  "file_name": "1010-01",
+  "first_page_order": 1036,
+  "last_page_order": 1036
+}

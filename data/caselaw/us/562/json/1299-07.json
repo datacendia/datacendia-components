@@ -1,0 +1,59 @@
+{
+  "id": 6000718,
+  "name": "Martin v. Tanner, Warden",
+  "name_abbreviation": "Martin v. Tanner",
+  "decision_date": "2011-03-21",
+  "docket_number": "No. 10-8959",
+  "first_page": "1299",
+  "last_page": "1299",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1299"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.613,
+    "sha256": "1ba7b01b164624102aa3bc4b793aeb9ea96d85bd5073a0a8fc8c4e633c000a2b",
+    "simhash": "1:378ad390195c1a7a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Martin v. Tanner, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8959.\nMartin v. Tanner, Warden."
+  },
+  "file_name": "1299-07",
+  "first_page_order": 1321,
+  "last_page_order": 1321
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5994092,
+  "name": "Gaona v. United States",
+  "name_abbreviation": "Gaona v. United States",
+  "decision_date": "2010-11-01",
+  "docket_number": "No. 10-6687",
+  "first_page": "1018",
+  "last_page": "1018",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1018"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.606,
+    "sha256": "b38f5124fb89978e470e5919af90f68602013879d8704c39a798b0c52f5851ee",
+    "simhash": "1:8128cb9b8f801d42",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gaona v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6687.\nGaona v. United States."
+  },
+  "file_name": "1018-07",
+  "first_page_order": 1040,
+  "last_page_order": 1040
+}

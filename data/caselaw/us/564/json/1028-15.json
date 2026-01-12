@@ -1,0 +1,59 @@
+{
+  "id": 4336807,
+  "name": "Gelin v. United States",
+  "name_abbreviation": "Gelin v. United States",
+  "decision_date": "2011-06-20",
+  "docket_number": "No. 10-10595",
+  "first_page": "1028",
+  "last_page": "1028",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1028"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.606,
+    "sha256": "bedc86a87abd03e5115ddda0dd6f94828ece28d573037bef08f70a5a26359ab4",
+    "simhash": "1:250a988bca855158",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gelin v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10595.\nGelin v. United States."
+  },
+  "file_name": "1028-15",
+  "first_page_order": 1022,
+  "last_page_order": 1022
+}

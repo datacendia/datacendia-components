@@ -1,0 +1,68 @@
+{
+  "id": 12697696,
+  "name": "In re Juan REYES, petitioner.",
+  "name_abbreviation": "In re Reyes",
+  "decision_date": "2013-04-22",
+  "docket_number": "No. 12\u20139370.",
+  "first_page": "946",
+  "last_page": "946",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "569 U.S. 946"
+    },
+    {
+      "type": "parallel",
+      "cite": "185 L. Ed. 2d 880"
+    },
+    {
+      "type": "parallel",
+      "cite": "133 S. Ct. 2012"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 21,
+    "char_count": 133,
+    "sha256": "da38016891f353df58cede899194321d46f470b9ef698e00ab8ded756f9cdb3a",
+    "simhash": "1:4b47465533c1657b",
+    "word_count": 22
+  },
+  "last_updated": "2021-08-27T21:08:28.003473+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Juan REYES, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of mandamus denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re Juan REYES, petitioner.\nNo. 12-9370.\nSupreme Court of the United States\nApril 22, 2013.\nPetition for writ of mandamus denied."
+  },
+  "file_name": "0946-09",
+  "first_page_order": 946,
+  "last_page_order": 946
+}

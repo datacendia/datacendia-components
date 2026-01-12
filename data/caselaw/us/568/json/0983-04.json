@@ -1,0 +1,59 @@
+{
+  "id": 12420428,
+  "name": "Rayfield v. United Medical Center",
+  "name_abbreviation": "Rayfield v. United Medical Center",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-5879",
+  "first_page": "983",
+  "last_page": "983",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 983"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 82,
+    "ocr_confidence": 0.555,
+    "sha256": "f96f8ae37cae4f0d90015fa305b35411ef6b9771e872f82f230b395149b39266",
+    "simhash": "1:a095426c29081a56",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rayfield v. United Medical Center."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. D. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5879.\nRayfield v. United Medical Center."
+  },
+  "file_name": "0983-04",
+  "first_page_order": 1059,
+  "last_page_order": 1059
+}

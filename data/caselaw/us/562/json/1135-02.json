@@ -1,0 +1,59 @@
+{
+  "id": 6030275,
+  "name": "Haque v. New York",
+  "name_abbreviation": "Haque v. New York",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-320",
+  "first_page": "1135",
+  "last_page": "1135",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1135"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 90,
+    "ocr_confidence": 0.653,
+    "sha256": "0d3c448a78213d5a633158a89848d9b886422337ee27090115841910244077b0",
+    "simhash": "1:2922c1462114d952",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Haque v. New York."
+    ],
+    "opinions": [
+      {
+        "text": "App. Div., Sup. Ct. N. Y, 2d Jud. Dept. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-320.\nHaque v. New York."
+  },
+  "file_name": "1135-02",
+  "first_page_order": 1157,
+  "last_page_order": 1157
+}

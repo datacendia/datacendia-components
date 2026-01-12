@@ -1,0 +1,59 @@
+{
+  "id": 12239988,
+  "name": "Hendricks v. Virginia",
+  "name_abbreviation": "Hendricks v. Virginia",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-6986",
+  "first_page": "1120",
+  "last_page": "1120",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1120"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 69,
+    "ocr_confidence": 0.653,
+    "sha256": "64d60f75d7aed61987ecfabb9cf9f661e277fee29f11d4bfe3a16ab0612064ec",
+    "simhash": "1:982891233ec6e43a",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hendricks v. Virginia."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Va. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6986.\nHendricks v. Virginia."
+  },
+  "file_name": "1120-11",
+  "first_page_order": 1202,
+  "last_page_order": 1202
+}

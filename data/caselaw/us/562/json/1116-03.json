@@ -1,0 +1,59 @@
+{
+  "id": 5953866,
+  "name": "Silva v. United States",
+  "name_abbreviation": "Silva v. United States",
+  "decision_date": "2010-12-13",
+  "docket_number": "No. 10-7413",
+  "first_page": "1116",
+  "last_page": "1116",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1116"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.566,
+    "sha256": "89a5a8082fe47bc407e64e01d0fd2d72e918c0635ad27b89c4a16b7d0e2923b3",
+    "simhash": "1:0128a30b6ab04118",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Silva v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7413.\nSilva v. United States."
+  },
+  "file_name": "1116-03",
+  "first_page_order": 1138,
+  "last_page_order": 1138
+}

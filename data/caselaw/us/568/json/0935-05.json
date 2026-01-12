@@ -1,0 +1,61 @@
+{
+  "id": 12417445,
+  "name": "Peer v. United States",
+  "name_abbreviation": "Peer v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5938",
+  "first_page": "935",
+  "last_page": "935",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 935"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 149,
+    "ocr_confidence": 0.567,
+    "sha256": "4ee90a521cad60f4acb1184ae9a27e54fe53184ec236b30d7658cc013529e415",
+    "simhash": "1:9933ba0a27b6795a",
+    "word_count": 24
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no'part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Peer v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Cer-tiorari denied.\nJustice Kagan took no'part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5938.\nPeer v. United States."
+  },
+  "file_name": "0935-05",
+  "first_page_order": 1011,
+  "last_page_order": 1011
+}

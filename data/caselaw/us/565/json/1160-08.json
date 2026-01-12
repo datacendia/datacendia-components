@@ -1,0 +1,59 @@
+{
+  "id": 12242742,
+  "name": "Justus v. South Carolina",
+  "name_abbreviation": "Justus v. South Carolina",
+  "decision_date": "2012-01-17",
+  "docket_number": "No. 11-6809",
+  "first_page": "1160",
+  "last_page": "1160",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1160"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.616,
+    "sha256": "34c79631aabd0258a2a154d0c0a5b04ca84e819418cce246b455376b7a3e5a00",
+    "simhash": "1:601bed782ff4f7d0",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Justus v. South Carolina."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. S. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6809.\nJustus v. South Carolina."
+  },
+  "file_name": "1160-08",
+  "first_page_order": 1242,
+  "last_page_order": 1242
+}

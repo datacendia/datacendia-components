@@ -1,0 +1,59 @@
+{
+  "id": 5983230,
+  "name": "Taplin v. Yates, Warden",
+  "name_abbreviation": "Taplin v. Yates",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5524",
+  "first_page": "927",
+  "last_page": "927",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 927"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.605,
+    "sha256": "61cf8ec6c39c9d0f1a774eb5265b56603fa01dc0d6ac3c8c58100746a2040895",
+    "simhash": "1:15b2379929db11f7",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Taplin v. Yates, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5524.\nTaplin v. Yates, Warden."
+  },
+  "file_name": "0927-03",
+  "first_page_order": 949,
+  "last_page_order": 949
+}

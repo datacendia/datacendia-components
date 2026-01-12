@@ -1,0 +1,59 @@
+{
+  "id": 12199996,
+  "name": "Rodriguez-Castorena v. United States",
+  "name_abbreviation": "Rodriguez-Castorena v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-9760",
+  "first_page": "830",
+  "last_page": "830",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 830"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 85,
+    "ocr_confidence": 0.674,
+    "sha256": "e3b25c1dec8b51b62e2abf9029ceda9eec51e035b739c073a3f76577fe9aa431",
+    "simhash": "1:47888303491cd46a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rodriguez-Castorena v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9760.\nRodriguez-Castorena v. United States."
+  },
+  "file_name": "0830-03",
+  "first_page_order": 912,
+  "last_page_order": 912
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12208900,
+  "name": "Tekle v. United States (two judgments)",
+  "name_abbreviation": "Tekle v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10995",
+  "first_page": "861",
+  "last_page": "861",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 861"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 88,
+    "ocr_confidence": 0.727,
+    "sha256": "5d193f0799ed3e53e95e233b6864670010593998b62648482f3d061561cc04e6",
+    "simhash": "1:14b180d32f7fd61f",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Tekle v. United States (two judgments)."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10995.\nTekle v. United States (two judgments)."
+  },
+  "file_name": "0861-05",
+  "first_page_order": 943,
+  "last_page_order": 943
+}

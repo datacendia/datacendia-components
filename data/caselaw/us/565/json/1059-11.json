@@ -1,0 +1,76 @@
+{
+  "id": 12235086,
+  "name": "City of Los Angeles, California v. Alameda Books, Inc.; and Alameda Books, Inc., et al. v. City of Los Angeles, California",
+  "name_abbreviation": "City of Los Angeles v. Alameda Books, Inc.",
+  "decision_date": "2011-11-28",
+  "docket_number": "No. 11-245; No. 11-379",
+  "first_page": "1059",
+  "last_page": "1059",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1059"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "631 F. 3d 1031",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4086938
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/631/1031-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 27,
+    "char_count": 214,
+    "ocr_confidence": 0.658,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2476538207439893
+    },
+    "sha256": "6449d178c8518c81d2f0db5c8c6724562f2d5ba5583c5c94718d18dfd1f862aa",
+    "simhash": "1:1cfb231f3a7de763",
+    "word_count": 37
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "City of Los Angeles, California v. Alameda Books, Inc.; and Alameda Books, Inc., et al. v. City of Los Angeles, California."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied. Reported below: 631 F. 3d 1031.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-245.\nNo. 11-379.\nCity of Los Angeles, California v. Alameda Books, Inc.; and Alameda Books, Inc., et al. v. City of Los Angeles, California."
+  },
+  "file_name": "1059-11",
+  "first_page_order": 1141,
+  "last_page_order": 1141
+}

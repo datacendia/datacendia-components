@@ -1,0 +1,820 @@
+{
+  "id": 12521394,
+  "name": "Lakesha BUTLER, Plaintiff - Appellee v. COAST ELECTRIC POWER ASSOCIATION, Defendant - Appellant William Willis, III, Plaintiff - Appellee v. Dixie Electric Power Association, Defendant - Appellant Kimberly Harper, Plaintiff - Appellee v. Southern Pine Electric Cooperative, Defendant - Appellant",
+  "name_abbreviation": "Butler v. Coast Elec. Power Ass'n",
+  "decision_date": "2019-06-07",
+  "docket_number": "No. 18-60365; C/w 18-60372, Consolidated with 18-60383",
+  "first_page": "190",
+  "last_page": "202",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "926 F.3d 190"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "5th Cir.",
+    "id": 8820,
+    "name": "United States Court of Appeals for the Fifth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "394 F.2d 672",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2153676
+      ],
+      "year": 1968,
+      "pin_cites": [
+        {
+          "page": "677"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/394/0672-01"
+      ]
+    },
+    {
+      "cite": "913 F.2d 228",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10532364
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "229"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/913/0228-01"
+      ]
+    },
+    {
+      "cite": "7 C.F.R. \u00a7 1710.114",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "pin_cites": [
+        {
+          "page": "(d)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2016 WL 3963217",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "*8"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2015 WL 4742496",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "*4-5",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2016 WL 7408852",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "*3",
+          "parenthetical": "finding a colorable preemption defense"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "753 F. App'x 124",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "weight": 5,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "128-29",
+          "parenthetical": "affirming the exercise of federal officer removal jurisdiction based on a similar preemption argument, then affirming the district court's dismissal of the complaint for failure to state a claim without considering the merits of the preemption defense"
+        },
+        {
+          "page": "128",
+          "parenthetical": "\"REA also has a colorable federal defense that warrants review in a federal forum.\""
+        },
+        {
+          "page": "127",
+          "parenthetical": "holding without discussion that the defendant power cooperative was a \"person\" under the statute"
+        },
+        {
+          "page": "127"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "812 So. 2d 912",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9434811
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "920-21",
+          "parenthetical": "explaining that the Rural Electrification Act does not expressly preempt state regulation and that Congress generally intended \"the creation and organization of rural electric associations [to be] left to the states\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/812/0912-01"
+      ]
+    },
+    {
+      "cite": "49 F.3d 1074",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7417148
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "1075",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/49/1074-01"
+      ]
+    },
+    {
+      "cite": "31 F.3d 319",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10523580
+      ],
+      "weight": 2,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "324"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/31/0319-01"
+      ]
+    },
+    {
+      "cite": "845 F.3d 1135",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12178369
+      ],
+      "weight": 5,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1146",
+          "parenthetical": "\"The Supreme Court's decision in Arkansas Electric Cooperative expressly left open the possibility that a valid rule of the REA affecting rural power cooperatives could preempt state law or state regulation of those cooperatives ....\""
+        },
+        {
+          "page": "1146",
+          "parenthetical": "same"
+        },
+        {
+          "page": "1141"
+        },
+        {
+          "page": "1142",
+          "parenthetical": "same"
+        },
+        {
+          "page": "1143-44",
+          "parenthetical": "\"These rural electric cooperatives exist to provide a public function conceived of and directed by the federal government.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/845/1135-01"
+      ]
+    },
+    {
+      "cite": "258 F. Supp. 3d 566",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        12273562
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "577-78",
+          "parenthetical": "acknowledging Fellner 's reminder that only federal law is capable of preempting state law but declining to decide whether a provision in a federal loan agreement may have preemptive force"
+        },
+        {
+          "page": "576-78"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/258/0566-01"
+      ]
+    },
+    {
+      "cite": "539 F.3d 237",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3121211
+      ],
+      "weight": 2,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "244-46",
+          "parenthetical": "addressing the preemptive effect of a letter from the FDA Commissioner"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/539/0237-01"
+      ]
+    },
+    {
+      "cite": "458 U.S. 141",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        636558
+      ],
+      "weight": 3,
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "153"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/458/0141-01"
+      ]
+    },
+    {
+      "cite": "508 F.3d 753",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6047155
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "758",
+          "parenthetical": "citing Fid. Fed. Sav. & Loan Ass'n v. de la Cuesta , 458 U.S. 141, 153, 102 S.Ct. 3014, 73 L.Ed.2d 664 (1982) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/508/0753-01"
+      ]
+    },
+    {
+      "cite": "100 L.Ed.2d 48",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12031304,
+        6210193
+      ],
+      "year": 1988,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/350/0061-01",
+        "/us/486/0057-01"
+      ]
+    },
+    {
+      "cite": "486 U.S. 57",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6210193
+      ],
+      "weight": 2,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "63"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/486/0057-01"
+      ]
+    },
+    {
+      "cite": "312 U.S. 52",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        359179
+      ],
+      "weight": 3,
+      "year": 1941,
+      "pin_cites": [
+        {
+          "page": "67"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/312/0052-01"
+      ]
+    },
+    {
+      "cite": "373 U.S. 132",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11717019
+      ],
+      "weight": 3,
+      "year": 1963,
+      "pin_cites": [
+        {
+          "page": "142-43"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/373/0132-01"
+      ]
+    },
+    {
+      "cite": "567 U.S. 387",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12407266
+      ],
+      "weight": 6,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "398-99"
+        },
+        {
+          "page": "399-400"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/567/0387-01"
+      ]
+    },
+    {
+      "cite": "817 F.3d 457",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6810695
+      ],
+      "weight": 3,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "461"
+        },
+        {
+          "page": "462",
+          "parenthetical": "\"[M]ere federal involvement does not satisfy the causal nexus requirement; instead, the defendant must show that its actions taken pursuant to the government's direction or control caused the plaintiff's specific injuries.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/817/0457-01"
+      ]
+    },
+    {
+      "cite": "829 F.3d 370",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4340037
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "375",
+          "parenthetical": "explaining that the federal defense must simply be \"subject to reasonable debate\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/829/0370-01"
+      ]
+    },
+    {
+      "cite": "546 U.S. 500",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5937941
+      ],
+      "weight": 3,
+      "year": 2006,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/546/0500-01"
+      ]
+    },
+    {
+      "cite": "527 U.S. 423",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1248520
+      ],
+      "weight": 5,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "431-32"
+        },
+        {
+          "page": "431"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/527/0423-01"
+      ]
+    },
+    {
+      "cite": "551 U.S. 142",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3573471
+      ],
+      "weight": 5,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "147"
+        },
+        {
+          "page": "151-57"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/551/0142-01"
+      ]
+    },
+    {
+      "cite": "855 F.3d 305",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12276794
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "311"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/855/0305-01"
+      ]
+    },
+    {
+      "cite": "885 F.3d 398",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516315
+      ],
+      "weight": 4,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "400",
+          "parenthetical": "quoting Texas v. Kleinert , 855 F.3d 305, 311 (5th Cir. 2017) "
+        },
+        {
+          "page": "404-05",
+          "parenthetical": "Higginbotham, J., concurring"
+        },
+        {
+          "page": "402-04",
+          "parenthetical": "majority op."
+        },
+        {
+          "page": "403"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/885/0398-01"
+      ]
+    },
+    {
+      "cite": "846 F.3d 785",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12133118
+      ],
+      "weight": 4,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "789",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "789-90"
+        },
+        {
+          "page": "789-90"
+        },
+        {
+          "page": "792"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/846/0785-01"
+      ]
+    },
+    {
+      "cite": "879 F.3d 602",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12265236
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "607"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/879/0602-01"
+      ]
+    },
+    {
+      "cite": "461 U.S. 375",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11298624
+      ],
+      "weight": 15,
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "380-81"
+        },
+        {
+          "page": "385-89"
+        },
+        {
+          "page": "386-89"
+        },
+        {
+          "page": "386"
+        },
+        {
+          "page": "388-89"
+        },
+        {
+          "page": "386"
+        },
+        {
+          "page": "380-81"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/461/0375-01"
+      ]
+    },
+    {
+      "cite": "7 U.S.C. \u00a7 904",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "7 C.F.R. \u00a7\u00a7 1717.600",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "391 F.2d 470",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        3579001,
+        2103267
+      ],
+      "year": 1968,
+      "pin_cites": [
+        {
+          "page": "473"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/391/0470-01"
+      ]
+    },
+    {
+      "cite": "109 F.3d 248",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        834097
+      ],
+      "weight": 6,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "252"
+        },
+        {
+          "page": "253-58"
+        },
+        {
+          "page": "253-55"
+        },
+        {
+          "page": "255-58"
+        },
+        {
+          "page": "258"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/109/0248-01"
+      ]
+    },
+    {
+      "cite": "7 U.S.C. \u00a7\u00a7 901",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 Stat. 1363",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 Envtl. L. 39",
+      "category": "journals:journal",
+      "reporter": "Envtl. L.",
+      "weight": 3,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "42"
+        },
+        {
+          "page": "43"
+        },
+        {
+          "page": "45"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "7 C.F.R. \u00a7 1717.617",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 7,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1442",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1466,
+    "char_count": 34778,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2593454290192208
+    },
+    "sha256": "e8428f082c48eb01c84ce89f1303d690149a4cec47a1b7f0ff4538597d05baa6",
+    "simhash": "1:cd6db9fd4aecb739",
+    "word_count": 5308
+  },
+  "last_updated": "2024-02-27T18:46:44.951673+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before HIGGINBOTHAM, ELROD, and HO, Circuit Judges."
+    ],
+    "parties": [
+      "Lakesha BUTLER, Plaintiff - Appellee\nv.\nCOAST ELECTRIC POWER ASSOCIATION, Defendant - Appellant"
+    ],
+    "opinions": [
+      {
+        "text": "PATRICK E. HIGGINBOTHAM, Circuit Judge:\nMembers of three rural power cooperatives allege that the cooperatives have failed to refund excess \"patronage capital\" to their members as required by state law. They request a refund of capital above a specific ratio of equity to assets established in the cooperatives' agreements with the federal Rural Utilities Service, and the appointment of a trustee or receiver to oversee the repayment process. The cooperatives believe such relief would conflict with the cooperatives' federal loan agreements. As they have a colorable federal preemption defense, the cooperatives were entitled to remove under 28 U.S.C. \u00a7 1442 's provision for federal officer removal. We therefore reverse the district court's decision to remand these consolidated cases to state court.\nI\nA\nThe New Deal Congress confronted serious problems affecting rural residents' ability to access electricity. For-profit utilities providers concentrated their service in densely populated urban areas, due in part to the heightened cost of providing service to geographically dispersed rural customers and in part to the more stable base of demand provided by their affluent urban counterparts. Just when for-profit providers began to expand into rural areas, the Great Depression struck-\"dampening ... potential demand for rural electricity [and making] expansion again unprofitable.\"\nIn response to this dilemma, Congress passed the Federal Rural Electrification Act in 1936, which established the Rural Electrification Administration as an independent agency and authorized it to provide direct, below-market loans to rural utilities providers. The REA has since been absorbed by the Department of Agriculture and renamed as the Rural Utilities Service.\nFrom the beginning, REA loans came hand-in-hand with authority to \"exercise[ ] extensive supervision over the planning, construction and operation of the facilities it finance[d].\" To this day, federal regulations establish extensive policies for RUS loans, including that borrowers must-with certain exceptions-obtain RUS approval for certain construction and contracts; meet applicable RUS design and construction standards; and follow RUS requirements regarding contract bidding. Several regulations provide that if the terms of a loan agreement require RUS approval for specific actions, approval is automatically granted if certain conditions are met. Chiefly relevant here, 7 C.F.R. \u00a7 1717.617 provides that if the terms of a loan agreement require RUS approval for member distributions, approval is automatically granted if the borrower meets four specified conditions, including that \"[a]fter giving effect to the distribution, the borrower's equity will be greater than or equal to 30 percent of its total assets.\"\nThe loans' rigorous conditions had consequences: from the REA's \"early months,\" \"it became apparent that because of the demanding terms imposed on REA borrowers[,] the private utilities would not take advantage of the availability of REA loans to extend their operations into rural areas.\" So, the REA began to encourage the formation of electric power cooperatives-nonprofit, member-owned, state-law entities that provide services, invest revenues in operations, and then return remaining revenue to members in the form of \"patronage capital.\" Together, favorable loans and the development of customer-owned cooperatives helped \"bring electric power to parts of the country not adequately served by commercial companies.\"\nB\nThe defendants-appellants are three Mississippi power cooperatives that have entered into financial assistance contracts with the REA and RUS since the late 1930s. As with all RUS borrowers, the cooperatives' loan agreements with RUS impose significant restrictions and approval requirements. Central to this case, the agreements require prior written approval from RUS before the cooperatives engage in member distributions of patronage capital. In keeping with 7 C.F.R. \u00a7 1717.617, however, the agreements grant automatic approval of member distributions if \"[a]fter giving effect to the Distribution, the Equity of the Borrower shall be greater than or equal to 30% of its Total Assets.\" The agreements also list several \"events of default,\" including where \"[a] court having jurisdiction in the premises shall enter a decree or order for relief in respect of the Borrower in an involuntary case under any applicable bankruptcy, insolvency, or other similar law now or hereafter in effect, or appointing a receiver, liquidator, assignee, custodian, trustee, sequestrator or similar official ... and such decree or order shall remain unstayed and in effect for a period of ninety (90) consecutive days.\"\nMembers of each cooperative sued them in state chancery court under Mississippi Code \u00a7 77-5-235(5), which requires cooperatives to return excess revenues to members-beyond that needed to pay operating and maintenance expenses and debt obligations and maintain reserves for improvement, construction, depreciation, and contingencies-\"by such means as the board may decide, including through the reimbursement of membership fees, the implementation of general rate reductions, [or] the limitation or avoidance of future rate increases.\" In addition to alleging violations of this refund requirement, the members alleged other state-law claims including fraudulent concealment, breach of fiduciary duty, unjust enrichment, and conversion.\nEach complaint acknowledged that it was \"recommended\" that the cooperatives retain equity equal to 30% of their assets and that cooperatives would receive automatic RUS approval for distributions satisfying the 30% equity requirement. The plaintiffs argued that the cooperatives were required to return excess equity \"not necessary to pay for expenses, debt service or reasonable reserves.\" They sought the return of excess equity and other relief, including the appointment of an independent trustee or receiver to oversee the repayment process.\nThe cooperatives attempted to remove the cases to federal district court, asserting federal officer removal jurisdiction under 28 U.S.C. \u00a7 1442. On motion by the plaintiffs, the district court remanded each case to state court. The cooperatives appealed, and we consolidated the three cases.\nII\nWhile we ordinarily do not have jurisdiction to review a district court's decision to remand a case to state court, we may do so where a defendant removed the case under federal officer removal jurisdiction.\nWe review the district court's decision to remand de novo.\nThe federal officer removal statute, 28 U.S.C. \u00a7 1442, authorizes removal to federal court by persons acting under an officer or agency of the United States who are sued for acts \"for or relating to any act under color of such office.\" We have interpreted this to allow removal where a defendant can show \"(1) that it is a person within the meaning of the statute, (2) that it has a colorable federal defense, (3) that it acted pursuant to a federal officer's directions, and (4) that a causal nexus exists between [its] actions under color of federal office and the plaintiff's claims.\"\nWhile the defendant seeking removal has the burden to establish federal jurisdiction, federal officer removal is \"not narrow or limited.\" Instead, in contrast to most questions of federal jurisdiction, federal officer removal must be \"liberally construed.\"\nIII\nA colorable federal defense \"does not need to be 'clearly sustainable,' as \u00a7 1442 does not require a ... person acting under [a federal official] to 'win his case before he can have it removed.' \" Rather, the defense need only be colorable : it must not be \"immaterial and made solely for the purpose of obtaining jurisdiction\" or \"wholly insubstantial and frivolous.\" This reflects the goal of federal officer jurisdiction, which is to give federal officers and those acting under them a federal forum in which to assert federal defenses.\nThe cooperatives assert a federal preemption defense. Preemption doctrine reflects the basic concept, grounded in the Supremacy Clause, that federal law can trump contrary state law. Federal law preempts state law in three different ways: when Congress does so expressly; when federal law occupies the entire field of regulation; and when state law conflicts with federal law. This last category, \"conflict preemption,\" occurs either where \"compliance with both federal and state regulations is a physical impossibility\" or where the state law \"stands as an obstacle to the accomplishment and execution of the full purposes and objectives of Congress.\"\nThe cooperatives argue that Mississippi Code \u00a7 77-5-235(5) 's refund requirement conflicts with Congress's purposes and objectives as expressed in the Rural Electrification Act, federal regulations, and the cooperatives' loan agreements with RUS. They also argue that the plaintiffs' request for appointment of a trustee or receiver conflicts with federal interests and the provision in their loan agreements that appointment of a receiver constitutes an event of default.\nA\nThe relationship between federal law and regulations and the defendants' RUS loan agreements raises an important threshold issue. As we have explained, preemption doctrine stems from the Supremacy Clause, which establishes that \"the Constitution, and the Laws of the United States ... shall be the supreme Law of the Land.\" In effect, only federal law can preempt state law. The Supreme Court has firmly held that agency regulations constitute federal law for preemption purposes. But our caselaw on preemption does not provide significant guidance on whether the terms of federal loan agreements can themselves preempt state law. The plaintiffs cite only one case, from outside our circuit- Fellner v. Tri-Union Seafoods, L.L.C. -for their argument that it is \"well-settled\" that loan agreements cannot bear preemptive weight. Even Fellner does not directly address the preemptive effect of federal loan agreements, and courts in that circuit have not treated the issue as fully settled.\nArkansas Electric Cooperative Corp. v. Arkansas Public Service Commission sheds some light. While the Supreme Court acknowledged that the REA's status as a lending agency rather than a classic regulatory body might \"present the interesting question of how [the Court] should in general define the proper relationship between the requirements established by federal lending agencies and the more direct regulatory activities of state authorities,\" it concluded that the question was not implicated by the specific issue of whether REA rate supervision facially preempted state rate-setting jurisdiction. Despite not addressing the issue outright, the Court offered some guidance on how preemption doctrine might operate in the context of REA-now, RUS-lending. It observed that Congress generally expected agency regulation to govern fledgling rural power cooperatives \"within the constraints of existing state regulatory schemes.\" This did not foreclose the possibility, however, that future REA policymaking could preempt state regulation-or that \"even without an explicit statement from the REA, [a particular state regulation] may so seriously compromise important federal interests, including the ability of [the cooperative] to repay its loans, as to be implicitly pre-empted by the Rural Electrification Act.\"\nWe have twice had occasion to consider Arkansas Electric Cooperative 's suggestion that preemption is possible under the Rural Electrification Act and corresponding loan agreements and regulations. First, City of Morgan City v. South Louisiana Electric Cooperative Ass'n held that the Rural Electrification Act preempted state-law expropriation of electrical equipment and the right to provide electricity to consumers in a certain area. We concluded that the state expropriation law would frustrate the purposes and objectives of the Rural Electrification Act by hindering \"the repayment of federal loans, ... the financial viability of federally financed electricity cooperatives, and ultimately ... the maintenance of electricity service to rural areas.\" Upon denying rehearing, we explained that while Arkansas Electric Cooperative rejected an argument for far-reaching, facial preemption of state regulation by federal law, it \"confirm[ed]\" that the Rural Electrification Act could preempt state action that seriously compromised important federal interests. City of Morgan City thus recognized that at least in certain contexts, the significant federal interest in recouping federal loans and ensuring the viability of rural power cooperatives may preempt conflicting state regulation.\nLater, we rejected a preemption challenge to a state rate order in In re Cajun Electric Power Cooperative, Inc. RUS asserted that its regulations preempted any state efforts to set rates that were too low to allow the borrower to repay its secured RUS loans. We concluded that the Secretary of Agriculture had lacked authority to promulgate the relevant regulations, so the regulations standing alone could not preempt state law. Further, while we acknowledged that Arkansas Electric suggested in dicta that preemption was conceivably possible where state regulation seriously compromised important federal interests, we found no threat to such interests that would warrant preemption. Instead, \"the federal interest of primary importance under the [Rural Electrification] Act-affordable electric energy for rural consumers-would be seriously compromised by the increased consumer rates that would be required by the Secretary's pre-emption and rate escalation regulations.\"\nTo be sure, Congress intended agency regulation of rural power cooperatives to operate \"within the constraints of existing state regulatory schemes.\" But taken together, Arkansas Electric , Morgan City , and Cajun Electric suggest a path for an RUS borrower to demonstrate preemption. First, RUS policymaking-and perhaps the terms of RUS loan agreements, though we have not yet addressed that issue-may potentially preempt conflicting state regulation. Second, state regulation may be preempted when it seriously conflicts with important federal interests, especially the Rural Electrification Act's primary purpose of ensuring affordable rural electricity.\nB\nWith this framework in mind, we turn first to the cooperatives' argument that federal law preempts the plaintiffs' demand for the return of excess capital under Mississippi Code \u00a7 77-5-235(5). As we have explained, 7 C.F.R. \u00a7 1717.617 provides that \"[i]f a distribution or power supply borrower is required by its loan documents to obtain prior approval from RUS before declaring or paying any dividends, paying or determining to pay any patronage refunds, or retiring any patronage capital, or making any other cash distributions, such approval is hereby given if[, among other conditions,] ... [a]fter giving effect to the distribution, the borrower's equity will be greater than or equal to 30 percent of its total assets.\" The relevant loan agreements require such prior approval before making member distributions. The cooperatives suggest that 7 C.F.R. \u00a7 1717.617 coupled with the consonant terms in their loan agreements preempts the state-law refund requirement.\nThe plaintiffs contend that obligations arising from RUS loan documents can never have preemptive effect, and so there is no danger of preemption here. As we have explained, it is unclear to what extent obligations imposed on a federal borrower by a federal loan agreement can preempt conflicting state regulation. We have not firmly resolved this issue, and it is at least possible that in certain circumstances, RUS loan agreements can preempt, or contribute to preemption, of state law. Several other federal courts have allowed for federal officer removal in similar contexts, bolstering the cooperatives' argument that their preemption defense based on their RUS loan agreements is at least colorable .\nThe plaintiffs raise another issue, though, which motivated the district court's remand decision. They argue that they only seek a refund of equity within 7 C.F.R. \u00a7 1717.617 's \"safe harbor\"-that is, a refund of equity above the 30% threshold, which \u00a7 1717.617 automatically approves. The district court agreed, observing that the plaintiffs \"plainly drafted [their complaints] to avoid entanglement with federal regulations.\" The plaintiffs urge that this sets these cases apart from the other cases where federal courts have found cooperatives' preemption defenses colorable.\nExpressing no view on the ultimate merits of this issue, we conclude that the cooperatives' argument for preemption is at least colorable-which is all that is required for federal officer removal under 28 U.S.C. \u00a7 1442. The cooperatives argue that even if the plaintiffs only seek excess revenues above 30% of the cooperatives' assets, if the plaintiffs were granted all the relief they request-including attorney's fees and interest-this would push the relief outside the \"safe harbor\" permitted by 7 C.F.R. \u00a7 1717.617. While we do not doubt that the able district court could fashion relief that would not threaten this balance, such an effort would implicate whether federal law can in any way limit the relief sought in this state-law suit. Further, the core of the cooperatives' argument is that state lawsuits mandating the return of excess revenue-even when limited to capital above the 30% threshold-conflict with the federal goal of bringing electricity \"to parts of the country not adequately served by commercial utility companies.\" They suggest that the RUS loan process reflects a scheme to commit equity thresholds to the cooperatives' discretion to ensure that cooperatives have proper reserves to repay their loans while investing further in infrastructure, which is threatened by state laws removing discretion over reserves.\nIt may well be that as the case progresses, this preemption argument cannot hold up; that there is no conflict between state law requiring cooperatives to refund excess equity beyond the 30% requirement and the cooperatives' arrangement with RUS, or that RUS loan terms do not bear preemptive force. At this stage, however, we may only undertake a surface-level analysis of whether the federal preemption defense is colorable. We conclude that it is.\nC\nThe cooperatives raise another colorable preemption argument, separate from whether federal law forecloses application of Mississippi Code \u00a7 77-5-235 to require refund of patronage capital above the 30% requirement. They argue that federal law preempts the plaintiffs' request for the remedy of placing the cooperatives under the control of a trustee or receivership-both because appointment of a trustee or receiver would \"usurp\" the ability of the cooperatives to set rates and retain reasonable reserves and because it would constitute default under the terms of the RUS loan agreements.\nThe cooperatives' RUS loan agreements list several \"events of default,\" including events specified in a paragraph entitled \"Bankruptcy\":\n[When a] court having jurisdiction in the premises shall enter a decree or order for relief in respect of the Borrower in an involuntary case under any applicable bankruptcy, insolvency, or other similar law now or hereafter in effect, or appointing a receiver, liquidator, assignee, custodian, trustee, sequestrator or similar official, or ordering the winding up or liquidation of its affairs, and such decree or order shall remain unstayed and in effect for a period of ninety (90) consecutive days or the Borrower shall commence a voluntary case under any applicable bankruptcy, insolvency or other similar law now or hereafter in effect, or under such law, or consent to the appointment or taking possession by a receiver, liquidator, assignee, custodian or trustee, of a substantial part of its property, or make any general assignment for the benefit of creditors ....\nThe district court concluded that this provision only applied to the appointment of a receiver or related entity in bankruptcy proceedings. The cooperatives respond that the loan agreements provide that their internal headings are not meant to govern content, and that the relevant section can reasonably be interpreted to state that appointment of a receiver in a non-bankruptcy court proceeding for ninety days constitutes an event of default. We agree that the provision is susceptible of multiple interpretations.\nThe district court also suggested that the cooperatives had \"not demonstrated to the Court's satisfaction that the terms of a loan from the RUS constitute 'federal law' for purposes of a conflict preemption analysis.\" This invokes issues that we have already established are not conclusively resolved-the preemptive force of federal RUS loan agreements and the degree to which an important federal interest in the functioning of rural power cooperatives can preempt state regulation. When assessing the validity of removal, it is not appropriate for us to resolve these issues further.\n* * *\nIn sum, it was error to conclude that the cooperatives have not presented a colorable federal defense, as required for federal officer removal jurisdiction. Again, this is not to say that the cooperatives will inevitably be successful in their preemption defense. Rather, our conclusion is a natural byproduct of the fact that \"one of the most important reasons for [federal officer] removal is to have the validity of the [federal defense] tried in a federal court.\"\nIV\nThe plaintiffs do not challenge any other element of federal officer removal jurisdiction. Having determined that the cooperatives assert a colorable federal defense, however, we still \"have a constitutional obligation to satisfy ourselves that subject matter jurisdiction is proper.\" We conclude that it is. The cooperatives are \"persons\" within the meaning of 28 U.S.C. \u00a7 1442(a), as the removal statute applies to private persons and corporate entities. Further, they \"acted under\" the direction of a federal officer or agency as we have interpreted that requirement-to at a minimum \"involve an effort to assist, or to help carry out, the duties or tasks of the federal superior.\" The cooperatives are not merely regulated entities; rather, they are \"instrumentalities of the United States\" that \"act under\" RUS's direction based on a close and detailed lending relationship and shared goal of furthering affordable rural electricity. Finally, whether the state lawsuit has the necessary \"causal nexus\" to the cooperatives' actions under color of federal office is closely tied to whether the cooperatives have presented a colorable federal defense. The cooperatives argue that the relief the plaintiffs seek would put them in tension with constraints imposed by RUS. We agree that this is enough, even if it is possible that the cooperatives' obligations under state law ultimately do not conflict with their federal requirements.\nV\nThe requirements for federal officer removal are met. We therefore reverse the district court's decision to remand these consolidated cases to state court.\nSee Richard P. Keck, Reevaluating the Rural Electrification Administration: A New Deal for the Taxpayer , 16 Envtl. L. 39, 42 (1985).\nId. at 43.\nSee id. at 45. See generally Rural Electrification Act of 1936, 49 Stat. 1363 (codified at 7 U.S.C. \u00a7\u00a7 901 et seq. ). The REA was originally established by executive order. See Keck, supra , at 44-45.\nSee United States v. Cajun Elec. Power Coop., Inc. (In re Cajun Elec. Power Coop., Inc. ), 109 F.3d 248, 252 (5th Cir. 1997).\nSalt River Project Agric. Improvement & Power Dist. v. Fed. Power Comm'n , 391 F.2d 470, 473 (D.C. Cir. 1968).\nSee 7 C.F.R. \u00a7\u00a7 1717.600 et seq. RUS is also authorized to waive the approval requirement entirely for certain actions. See id. \u00a7 1717.600(c).\nSee, e.g. , id. \u00a7 1717.603 (granting automatic approval for small-scale additions or extensions not financed by RUS); id. \u00a7 1717.608 (granting automatic approval of small-scale retail power contracts); id. \u00a7 1717.609 (if the loan contract gives RUS the unconditional right to approve the borrower's general manager, granting automatic approval as long as the borrower is not in default); id. \u00a7 1717.611 (granting automatic approval for most legal, accounting, supervisory, and engineering expenses).\n7 C.F.R. \u00a7 1717.617(a).\nKeck, supra , at 45.\nSee id. The Rural Electrification Act expressly grants lending preference to government entities and \"cooperative, nonprofit, or limited-dividend associations.\" See 7 U.S.C. \u00a7 904(a).\nArk. Elec. Coop. Corp. v. Ark. Pub. Serv. Comm'n , 461 U.S. 375, 380-81, 103 S.Ct. 1905, 76 L.Ed.2d 1 (1983).\nMiss. Code \u00a7 77-5-235(5).\nSee, e.g. , Morgan v. Huntington Ingalls, Inc. , 879 F.3d 602, 607 (5th Cir. 2018).\nSee id.\n28 U.S.C. \u00a7 1442(a)(1).\nZeringue v. Crane Co. , 846 F.3d 785, 789 (5th Cir. 2017) (internal quotation marks omitted).\nLegendre v. Huntington Ingalls, Inc. , 885 F.3d 398, 400 (5th Cir. 2018) (quoting Texas v. Kleinert , 855 F.3d 305, 311 (5th Cir. 2017) ).\nWatson v. Philip Morris Cos., Inc. , 551 U.S. 142, 147, 127 S.Ct. 2301, 168 L.Ed.2d 42 (2007).\nZeringue , 846 F.3d at 789-90 (quoting Jefferson County v. Acker , 527 U.S. 423, 431-32, 119 S.Ct. 2069, 144 L.Ed.2d 408 (1999) ).\nId. at 790 (quoting Arbaugh v. Y&H Corp. , 546 U.S. 500, 513 n.10, 126 S.Ct. 1235, 163 L.Ed.2d 1097 (2006) ); see also Crutchfield v. Sewerage & Water Bd. of New Orleans , 829 F.3d 370, 375 (5th Cir. 2016) (explaining that the federal defense must simply be \"subject to reasonable debate\").\nSee, e.g. , Savoie v. Huntington Ingalls, Inc. , 817 F.3d 457, 461 (5th Cir. 2016).\nSee Arizona v. United States , 567 U.S. 387, 398-99, 132 S.Ct. 2492, 183 L.Ed.2d 351 (2012).\nSee id. at 399-400, 132 S.Ct. 2492.\nId. (quoting Fla. Lime & Avocado Growers, Inc. v. Paul , 373 U.S. 132, 142-43, 83 S.Ct. 1210, 10 L.Ed.2d 248 (1963), and Hines v. Davidowitz , 312 U.S. 52, 67, 61 S.Ct. 399, 85 L.Ed. 581 (1941) ).\nAt points, the cooperatives' argument appears to bleed into arguing that it is impossible for them to comply both with federal and state law. As we will explain, obstacle preemption is the more appropriate lens through which to view their preemption argument.\nU.S. Const. Art. VI, cl. 2.\nSee, e.g. , City of New York v. Fed. Commc'n Comm'n , 486 U.S. 57, 63, 108 S.Ct. 1637, 100 L.Ed.2d 48 (1988) ; see also O'Hara v. Gen. Motors Corp. , 508 F.3d 753, 758 (5th Cir. 2007) (citing Fid. Fed. Sav. & Loan Ass'n v. de la Cuesta , 458 U.S. 141, 153, 102 S.Ct. 3014, 73 L.Ed.2d 664 (1982) ) (\"Federal regulations can have a preemptive effect equal to that of federal laws.\").\n539 F.3d 237 (3d Cir. 2008).\nSee id. at 244-46 (addressing the preemptive effect of a letter from the FDA Commissioner); Cessna v. REA Energy Coop., Inc. (Cessna II ), 258 F. Supp. 3d 566, 577-78 (W.D. Pa. 2017) (acknowledging Fellner 's reminder that only federal law is capable of preempting state law but declining to decide whether a provision in a federal loan agreement may have preemptive force).\nArk. Elec. Coop. , 461 U.S. at 385-89, 103 S.Ct. 1905.\nId. at 386-89, 103 S.Ct. 1905.\nId. at 386, 103 S.Ct. 1905.\nId. at 388-89, 103 S.Ct. 1905 ; see also Caver v. Cent. Ala. Elec. Coop. , 845 F.3d 1135, 1146 (11th Cir. 2017) (\"The Supreme Court's decision in Arkansas Electric Cooperative expressly left open the possibility that a valid rule of the REA affecting rural power cooperatives could preempt state law or state regulation of those cooperatives ....\").\n31 F.3d 319 (5th Cir. 1994).\nId. at 324.\nCity of Morgan City v. S. La. Elec. Co-op. Ass'n , 49 F.3d 1074, 1075 (5th Cir. 1995) (per curiam), denying reh'g .\n109 F.3d at 253-58.\nId. at 253-55.\nSee id. at 255-58.\nSee id. at 258.\nId.\nArk. Elec. Coop. , 461 U.S. at 386, 103 S.Ct. 1905 ; see also Tallahatchie Valley Elec. Power Ass'n v. Miss. Propane Gas Ass'n, Inc. , 812 So. 2d 912, 920-21 (Miss. 2002) (explaining that the Rural Electrification Act does not expressly preempt state regulation and that Congress generally intended \"the creation and organization of rural electric associations [to be] left to the states\").\nSee, e.g. , Cessna v. REA Energy Coop., Inc. (Cessna III ), 753 F. App'x 124, 128-29 (3d Cir. 2018) (affirming the exercise of federal officer removal jurisdiction based on a similar preemption argument, then affirming the district court's dismissal of the complaint for failure to state a claim without considering the merits of the preemption defense); Caver , 845 F.3d at 1146 (same); see also Simmons v. W. Fla. Elec. Coop. Ass'n, Inc. , No. 5:15cv321-RH/GRJ, 2016 WL 7408852, at *3 (N.D. Fla. Dec. 22, 2016) (finding a colorable preemption defense); Davis v. Cent. Ala. Elec. Coop. , No. 15-0131-WS-C, 2015 WL 4742496, at *4-5 (S.D. Ala. Aug. 11, 2015) (same).\nThe plaintiffs argue that the cooperatives' preemption defense is no longer colorable because it was rejected by the Western District of Pennsylvania in Cessna . Putting aside the fact that we may legitimately disagree with another court's holding on a preemption defense, the plaintiffs misinterpret the teachings of the Cessna line of cases. The Western District of Pennsylvania did not hold that a preemption defense was squarely unavailable. Having already decided that federal jurisdiction was appropriate, see Cessna v. REA Energy Coop., Inc. (Cessna I ), No. 3:16-42, 2016 WL 3963217, at *8 (W.D. Pa. July 21, 2016), it simply held that such a defense was not adequately supported on the \"limited record\" at the motion-to-dismiss stage and therefore declined to dismiss the complaint on preemption grounds. See Cessna II , 258 F. Supp. 3d at 576-78. Tellingly, the Third Circuit then affirmed the exercise of federal officer jurisdiction. See Cessna III , 753 F. App'x at 128 (\"REA also has a colorable federal defense that warrants review in a federal forum.\").\nFor example, the two other circuits to consider this preemption issue did so in situations where the plaintiffs did not clearly limit their complaints to seeking excess revenue above the 30% requirement. See Cessna III , 753 F. App'x at 126 ; Caver , 845 F.3d at 1141.\nRelatedly, the cooperatives argue that the plaintiffs did not request only revenues in excess of the 30% ratio, but instead requested \"at least\" that much. While the cooperatives seize on the use of the phrases \"at least\" or \"not less than\" throughout the plaintiffs' complaints, in context those phrases captured the fact that revenues above the 30% threshold might exceed the numerical value the plaintiffs identified in their complaints-for example, revenues above 30% of Coast Electric's assets may exceed $ 53 million.\nArk. Elec. Coop. , 461 U.S. at 380-81, 103 S.Ct. 1905.\nFor example, 7 C.F.R. \u00a7 1710.114(d)(1) requires RUS borrowers to design and implement rates to \"provide and maintain reasonable working capital.\"\nSee, e.g. , Zeringue , 846 F.3d at 789-90.\nAcker , 527 U.S. at 431, 119 S.Ct. 2069.\nKleinert , 855 F.3d at 312 n.4 (quoting Ziegler v. Champion Mortg. Co. , 913 F.2d 228, 229 (5th Cir. 1990) ).\nSee Savoie , 817 F.3d at 461 ; see also Cessna III , 753 F. App'x at 127 (holding without discussion that the defendant power cooperative was a \"person\" under the statute); Caver , 845 F.3d at 1142 (same).\nZeringue , 846 F.3d at 792.\nSee Watson , 551 U.S. at 151-57, 127 S.Ct. 2301.\nAla. Power Co. v. Ala. Elec. Coop., Inc. , 394 F.2d 672, 677 (5th Cir. 1968).\nSee Cessna III , 753 F. App'x at 127 (\"Although [the cooperative's] mere compliance with a complex regulatory scheme would not suffice, the relationship between [the cooperative] and the federal [g]overnment is more significant. [The cooperative's] existence and continued operation implement a long-running federal program.\" (citation omitted)); Caver , 845 F.3d at 1143-44 (\"These rural electric cooperatives exist to provide a public function conceived of and directed by the federal government.\").\nSee Legendre , 885 F.3d at 404-05 (Higginbotham, J., concurring) (\"[C]ausal nexus has little work to do once a court sequences its analysis to determine the availability of a colorable federal defense ... at the outset.\").\nThe cooperatives suggest that the causal-nexus requirement has been expanded or eliminated since the 2011 amendments to \u00a7 1442. Our governing caselaw suggests that the 2011 amendments did not meaningfully change the causal-nexus requirement, however. See, e.g. , Legendre , 885 F.3d at 402-04 (majority op.); see also Savoie , 817 F.3d at 462 (\"[M]ere federal involvement does not satisfy the causal nexus requirement; instead, the defendant must show that its actions taken pursuant to the government's direction or control caused the plaintiff's specific injuries.\"). Regardless, we conclude that the causal-nexus requirement is satisfied here because the crux of the cooperatives' argument is that their RUS loan agreements do not leave them \"free to adopt\" the measures the plaintiffs seek. See Legendre , 885 F.3d at 403.",
+        "type": "majority",
+        "author": "PATRICK E. HIGGINBOTHAM, Circuit Judge:"
+      }
+    ],
+    "attorneys": [
+      "Brannon Lee Berry, Justin Glenn, Walker W. Jones, III, Cosmich, Simmons & Brown, P.L.L.C., Jackson, MS, Timothy Charles Holleman, Boyce Holleman & Associates, Gulfport, MS, for Plaintiff-Appellee LAKESHA BUTLER.",
+      "Peter Charles Abide, Esq., Currie, Johnson & Myers, P.A., Biloxi, MS, Christina M. Schwing, Laura Beard Renstrom, Holland & Knight, L.L.P., Jacksonville, FL, Luther T. Munford, Butler Snow, L.L.P., Ridgeland, MS, for Defendant-Appellant COAST ELECTRIC POWER ASSOCIATION.",
+      "Brannon Lee Berry, Justin Glenn, Walker W. Jones, III, Cosmich, Simmons & Brown, P.L.L.C., Jackson, MS, for Plaintiff-Appellee WILLIAM WILLIS, III.",
+      "Christina M. Schwing, Laura Beard Renstrom, Holland & Knight, L.L.P., Jacksonville, FL, Norman Gene Hortman, Jr., Hortman, Harlow, Bassi, Robinson & McDaniel, P.L.L.C., Laurel, MS, Luther T. Munford, Butler Snow, L.L.P., Ridgeland, MS, for Defendant-Appellant DIXIE ELECTRIC POWER ASSOCIATION.",
+      "Brannon Lee Berry, Walker W. Jones, III, Cosmich, Simmons & Brown, P.L.L.C., Jackson, MS, for Plaintiff-Appellee KIMBERLY HARPER.",
+      "Christina M. Schwing, Laura Beard Renstrom, Holland & Knight, L.L.P., Jacksonville, FL, Sherrill Wayne Easterling, Hattiesburg, MS, Luther T. Munford, Butler Snow, L.L.P., Ridgeland, MS, for Defendant-Appellant SOUTHERN PINE ELECTRIC COOPERATIVE."
+    ],
+    "corrections": "",
+    "head_matter": "Lakesha BUTLER, Plaintiff - Appellee\nv.\nCOAST ELECTRIC POWER ASSOCIATION, Defendant - Appellant\nWilliam Willis, III, Plaintiff - Appellee\nv.\nDixie Electric Power Association, Defendant - Appellant\nKimberly Harper, Plaintiff - Appellee\nv.\nSouthern Pine Electric Cooperative, Defendant - Appellant\nNo. 18-60365\nC/w 18-60372, Consolidated with 18-60383\nUnited States Court of Appeals, Fifth Circuit.\nFILED June 7, 2019\nBrannon Lee Berry, Justin Glenn, Walker W. Jones, III, Cosmich, Simmons & Brown, P.L.L.C., Jackson, MS, Timothy Charles Holleman, Boyce Holleman & Associates, Gulfport, MS, for Plaintiff-Appellee LAKESHA BUTLER.\nPeter Charles Abide, Esq., Currie, Johnson & Myers, P.A., Biloxi, MS, Christina M. Schwing, Laura Beard Renstrom, Holland & Knight, L.L.P., Jacksonville, FL, Luther T. Munford, Butler Snow, L.L.P., Ridgeland, MS, for Defendant-Appellant COAST ELECTRIC POWER ASSOCIATION.\nBrannon Lee Berry, Justin Glenn, Walker W. Jones, III, Cosmich, Simmons & Brown, P.L.L.C., Jackson, MS, for Plaintiff-Appellee WILLIAM WILLIS, III.\nChristina M. Schwing, Laura Beard Renstrom, Holland & Knight, L.L.P., Jacksonville, FL, Norman Gene Hortman, Jr., Hortman, Harlow, Bassi, Robinson & McDaniel, P.L.L.C., Laurel, MS, Luther T. Munford, Butler Snow, L.L.P., Ridgeland, MS, for Defendant-Appellant DIXIE ELECTRIC POWER ASSOCIATION.\nBrannon Lee Berry, Walker W. Jones, III, Cosmich, Simmons & Brown, P.L.L.C., Jackson, MS, for Plaintiff-Appellee KIMBERLY HARPER.\nChristina M. Schwing, Laura Beard Renstrom, Holland & Knight, L.L.P., Jacksonville, FL, Sherrill Wayne Easterling, Hattiesburg, MS, Luther T. Munford, Butler Snow, L.L.P., Ridgeland, MS, for Defendant-Appellant SOUTHERN PINE ELECTRIC COOPERATIVE.\nBefore HIGGINBOTHAM, ELROD, and HO, Circuit Judges."
+  },
+  "file_name": "0190-01",
+  "first_page_order": 190,
+  "last_page_order": 202
+}

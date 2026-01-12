@@ -1,0 +1,68 @@
+{
+  "id": 12704662,
+  "name": "In re Christopher J. COMEAUX, petitioner.",
+  "name_abbreviation": "In re Comeaux",
+  "decision_date": "2013-11-04",
+  "docket_number": "No. 13\u20136667.",
+  "first_page": "989",
+  "last_page": "989",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 989"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 396"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 543"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 22,
+    "char_count": 143,
+    "sha256": "f3d8d7a1245a72186439542657f7ec23c9618d4d5e97f2b8080a7bf1488be9b3",
+    "simhash": "1:40658446a29826f5",
+    "word_count": 23
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Christopher J. COMEAUX, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of mandamus denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re Christopher J. COMEAUX, petitioner.\nNo. 13-6667.\nSupreme Court of the United States\nNov. 4, 2013.\nPetition for writ of mandamus denied."
+  },
+  "file_name": "0989-02",
+  "first_page_order": 989,
+  "last_page_order": 989
+}

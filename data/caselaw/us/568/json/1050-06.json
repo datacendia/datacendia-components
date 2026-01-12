@@ -1,0 +1,59 @@
+{
+  "id": 12426496,
+  "name": "Ford v. Mississippi",
+  "name_abbreviation": "Ford v. Mississippi",
+  "decision_date": "2012-12-03",
+  "docket_number": "No. 12-6481",
+  "first_page": "1050",
+  "last_page": "1050",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1050"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 69,
+    "ocr_confidence": 0.671,
+    "sha256": "a79bb4e1f9d2d83b428c29b518d2babd678b10fa2d02ce2aa229e19ffaad3426",
+    "simhash": "1:982a0580005c0188",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ford v. Mississippi."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Miss. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6481.\nFord v. Mississippi."
+  },
+  "file_name": "1050-06",
+  "first_page_order": 1126,
+  "last_page_order": 1126
+}

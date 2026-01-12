@@ -1,0 +1,59 @@
+{
+  "id": 5931601,
+  "name": "Miller v. California",
+  "name_abbreviation": "Miller v. California",
+  "decision_date": "2011-02-28",
+  "docket_number": "No. 10-8124",
+  "first_page": "1258",
+  "last_page": "1258",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1258"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 84,
+    "ocr_confidence": 0.618,
+    "sha256": "a26196101024662cdb2e7c73a99297c5477e9fdae993c62cf45a8584fc92dd98",
+    "simhash": "1:e424b38030031a01",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Miller v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 1st App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8124.\nMiller v. California."
+  },
+  "file_name": "1258-07",
+  "first_page_order": 1280,
+  "last_page_order": 1280
+}

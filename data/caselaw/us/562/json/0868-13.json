@@ -1,0 +1,59 @@
+{
+  "id": 4126210,
+  "name": "Sanai v. Sanai",
+  "name_abbreviation": "Sanai v. Sanai",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11231",
+  "first_page": "868",
+  "last_page": "868",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 868"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 9,
+    "char_count": 64,
+    "ocr_confidence": 0.604,
+    "sha256": "7a20175a2f9c35a3f0c062a4253b24fee6e19a4e5373df9a5af5bee0735c374f",
+    "simhash": "1:cf8070214074b843",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sanai v. Sanai."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Wash. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11231.\nSanai v. Sanai."
+  },
+  "file_name": "0868-13",
+  "first_page_order": 890,
+  "last_page_order": 890
+}

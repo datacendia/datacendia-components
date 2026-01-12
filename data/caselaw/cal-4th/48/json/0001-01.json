@@ -1,0 +1,940 @@
+{
+  "id": 6050874,
+  "name": "THE PEOPLE, Petitioner, v. THE SUPERIOR COURT OF YUBA COUNTY, Respondent; DUSTIN WILLIAM SPARKS, Real Party in Interest",
+  "name_abbreviation": "People v. Superior Court",
+  "decision_date": "2010-02-08",
+  "docket_number": "No. S164614",
+  "first_page": "1",
+  "last_page": "22",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "48 Cal. 4th 1"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal.",
+    "id": 9021,
+    "name": "Supreme Court of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "501 U.S. 808",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1108176
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "828"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/501/0808-01"
+      ]
+    },
+    {
+      "cite": "975 P.2d 1071",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "84 Cal.Rptr.2d 665",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 Cal.4th 403",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        829694
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/20/0403-01"
+      ]
+    },
+    {
+      "cite": "210 P.3d 361",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "96 Cal.Rptr.3d 191",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.4th 1053",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3896621
+      ],
+      "pin_cites": [
+        {
+          "page": "1120"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/46/1053-01"
+      ]
+    },
+    {
+      "cite": "973 P.2d 527",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "83 Cal.Rptr.2d 548",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 Cal.4th 163",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        829708
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "178"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/20/0163-01"
+      ]
+    },
+    {
+      "cite": "795 P.2d 1223",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "272 Cal.Rptr. 767",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 Cal.3d 335",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4457800
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/51/0335-01"
+      ]
+    },
+    {
+      "cite": "851 R2d 27",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1990,
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 Cal.Rptr.2d 233",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1990,
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 Cal.4th 59",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1998579
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "78"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/5/0059-01"
+      ]
+    },
+    {
+      "cite": "141 P.3d 197",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "48 Cal.Rptr.3d 75",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal.4th 1070",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3582738
+      ],
+      "pin_cites": [
+        {
+          "page": "1080"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/39/1070-01"
+      ]
+    },
+    {
+      "cite": "408 N.Y.S.2d 646",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "95 Misc.2d 960",
+      "category": "reporters:state",
+      "reporter": "Misc. 2d",
+      "case_ids": [
+        1918045
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/misc2d/95/0960-01"
+      ]
+    },
+    {
+      "cite": "380 A.2d 1128",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "75 N.J. 181",
+      "category": "reporters:state",
+      "reporter": "N.J.",
+      "case_ids": [
+        1317400
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nj/75/0181-01"
+      ]
+    },
+    {
+      "cite": "95 P.3d 321",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "152 Wn.2d 107",
+      "category": "reporters:state",
+      "reporter": "Wash. 2d",
+      "case_ids": [
+        1217429
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wash-2d/152/0107-01"
+      ]
+    },
+    {
+      "cite": "473 Pa. 458",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        1730300
+      ],
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "335"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/pa/473/0458-01"
+      ]
+    },
+    {
+      "cite": "56 Or.App. 527",
+      "category": "reporters:state",
+      "reporter": "Or. App.",
+      "case_ids": [
+        2089021
+      ],
+      "weight": 2,
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "348"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/or-app/56/0527-01"
+      ]
+    },
+    {
+      "cite": "93 Nev. 397",
+      "category": "reporters:state",
+      "reporter": "Nev.",
+      "case_ids": [
+        4860812
+      ],
+      "weight": 2,
+      "year": 1982,
+      "opinion_index": 0,
+      "case_paths": [
+        "/nev/93/0397-01"
+      ]
+    },
+    {
+      "cite": "687 S.W.2d 924",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9989309
+      ],
+      "pin_cites": [
+        {
+          "page": "926"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/687/0924-01"
+      ]
+    },
+    {
+      "cite": "345 N.W.2d 639",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "641"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "131 Mich.App. 34",
+      "category": "reporters:state",
+      "reporter": "Mich. App.",
+      "case_ids": [
+        2249904
+      ],
+      "year": 1985,
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich-app/131/0034-01"
+      ]
+    },
+    {
+      "cite": "392 N.E.2d 869",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "873"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "8 Mass.App.Ct. 202",
+      "category": "reporters:state",
+      "reporter": "Mass. App. Ct.",
+      "case_ids": [
+        3959365
+      ],
+      "year": 1983,
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass-app-ct/8/0202-01"
+      ]
+    },
+    {
+      "cite": "656 N.E.2d 750",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "755"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "212 Ill.Dec. 153",
+      "category": "reporters:state",
+      "reporter": "Ill. Dec.",
+      "year": 1979,
+      "opinion_index": 0
+    },
+    {
+      "cite": "167 Ill.2d 1",
+      "category": "reporters:state",
+      "reporter": "Ill. 2d",
+      "case_ids": [
+        222767
+      ],
+      "year": 1979,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ill-2d/167/0001-01"
+      ]
+    },
+    {
+      "cite": "403 So.2d 443",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9558659
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "445"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/403/0443-01"
+      ]
+    },
+    {
+      "cite": "881 A.2d 222",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "229-230, fn. 21"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "275 Conn. 192",
+      "category": "reporters:state",
+      "reporter": "Conn.",
+      "case_ids": [
+        3149652
+      ],
+      "year": 1981,
+      "opinion_index": 0,
+      "case_paths": [
+        "/conn/275/0192-01"
+      ]
+    },
+    {
+      "cite": "740 P.2d 1",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "case_ids": [
+        10401423
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "5-6"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/p2d/740/0001-01"
+      ]
+    },
+    {
+      "cite": "17 Ark. App. 223",
+      "category": "reporters:state",
+      "reporter": "Ark. App.",
+      "case_ids": [
+        6655422
+      ],
+      "weight": 2,
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "328"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark-app/17/0223-01"
+      ]
+    },
+    {
+      "cite": "130 Ariz. 138",
+      "category": "reporters:state",
+      "reporter": "Ariz.",
+      "case_ids": [
+        710981
+      ],
+      "weight": 2,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "952-953"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ariz/130/0138-01"
+      ]
+    },
+    {
+      "cite": "636 P.2d 622",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "case_ids": [
+        10437742
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "626-627"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/p2d/636/0622-01"
+      ]
+    },
+    {
+      "cite": "678 R2d 386",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "case_ids": [
+        10419142
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "392-393"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/p2d/678/0386-01"
+      ]
+    },
+    {
+      "cite": "850 F.2d 1557",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1792836
+      ],
+      "pin_cites": [
+        {
+          "page": "1560"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/850/1557-01"
+      ]
+    },
+    {
+      "cite": "84 Cal.Rptr.3d 663",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "167 Cal.App.4th 1050",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5729638
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/167/1050-01"
+      ]
+    },
+    {
+      "cite": "24 P.3d 1210",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "108 Cal.Rptr.2d 188",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Cal.4th 1111",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        265416
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1117"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/25/1111-01"
+      ]
+    },
+    {
+      "cite": "31 Cal.Rptr.2d 764",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "765 P.2d 419",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "254 Cal.Rptr. 257",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.3d 746",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1971383
+      ],
+      "pin_cites": [
+        {
+          "page": "781-782"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/47/0746-01"
+      ]
+    },
+    {
+      "cite": "38 P.3d 461",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1989,
+      "opinion_index": 0
+    },
+    {
+      "cite": "115 Cal.Rptr.2d 614",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1989,
+      "opinion_index": 0
+    },
+    {
+      "cite": "27 Cal.4th 102",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1103393
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "163-164"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/27/0102-01"
+      ]
+    },
+    {
+      "cite": "749 P.2d 279",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "243 Cal.Rptr. 842",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.3d 375",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4538028
+      ],
+      "pin_cites": [
+        {
+          "page": "412"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/44/0375-01"
+      ]
+    },
+    {
+      "cite": "469 U.S. 57",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11958569
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "p. 67"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/469/0057-01"
+      ]
+    },
+    {
+      "cite": "640 P.2d 753",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "180 Cal.Rptr. 617",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal.3d 822",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2013854
+      ],
+      "pin_cites": [
+        {
+          "page": "836"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/30/0822-01"
+      ]
+    },
+    {
+      "cite": "847 P.2d 45",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "17 Cal.Rptr.2d 365",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "4 Cal.4th 1116",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        2001619
+      ],
+      "pin_cites": [
+        {
+          "page": "1126"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/4/1116-01"
+      ]
+    },
+    {
+      "cite": "477 P.2d 131",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "91 Cal.Rptr. 275",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "3 Cal.3d 578",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2313228
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/3/0578-01"
+      ]
+    },
+    {
+      "cite": "15 P.3d 234",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "103 Cal.Rptr.2d 13",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "24 Cal.4th 856",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1180128
+      ],
+      "weight": 10,
+      "pin_cites": [
+        {
+          "page": "860"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/24/0856-01"
+      ]
+    },
+    {
+      "cite": "447 U.S. 10",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6180575
+      ],
+      "weight": 25,
+      "pin_cites": [
+        {
+          "page": "25-26"
+        },
+        {
+          "page": "p. 14"
+        },
+        {
+          "page": "p. 22"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/447/0010-01"
+      ]
+    },
+    {
+      "cite": "527 P.2d 622",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "117 Cal.Rptr. 70",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "12 Cal.3d 686",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2315579
+      ],
+      "weight": 14,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/12/0686-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1734,
+    "char_count": 51313,
+    "ocr_confidence": 0.894,
+    "pagerank": {
+      "raw": 2.409811441370501e-07,
+      "percentile": 0.7998423846332354
+    },
+    "sha256": "8d901f39f4a7e3c8fb53577cc8777942a02c56af4df1051de0035880e33b188b",
+    "simhash": "1:b6fcf1376f49091e",
+    "word_count": 8194
+  },
+  "last_updated": "2024-02-27T23:01:22.343664+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Petitioner, v. THE SUPERIOR COURT OF YUBA COUNTY, Respondent; DUSTIN WILLIAM SPARKS, Real Party in Interest."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nCHIN, J,\nReal party in interest, Dustin William Sparks (hereafter defendant or Sparks), was charged with two felony murders. Before his case came to trial, two other persons were tried for the same murders. One was convicted of voluntary manslaughter, and the other was acquitted. Concerned about possible inconsistent verdicts, and applying the doctrine of nonmutual collateral estoppel adopted in a criminal case in People v. Taylor (1974) 12 Cal.3d 686 [117 Cal.Rptr. 70, 527 P.2d 622] (Taylor), the superior court ruled that those verdicts prohibit the prosecution from trying defendant for a crime greater than voluntary manslaughter.\nWe conclude that decisions postdating Taylor, supra, 12 Cal.3d 686, including decisions from this court and the United States Supreme Court, have undermined Taylor's reasoning and the authority on which it relied. Occasional inconsistent jury verdicts are inevitable in our criminal justice system. If a verdict regarding one participant in alleged criminal conduct is inconsistent with other verdicts, all of the verdicts may stand. (Standefer v. United States (1980) 447 U.S. 10, 25-26 [64 L.Ed.2d 689, 100 S.Ct. 1999](Standefer)', People v. Palmer (2001) 24 Cal.4th 856, 860 [103 Cal.Rptr.2d 13, 15 P.3d 234] (Palmer).) Accordingly, a verdict regarding one defendant has no effect on the trial of a different defendant. Courts should determine the propriety of a prosecution based on that prosecution\u2019s own record, not a different record. Nonmutual collateral estoppel does not apply to verdicts in criminal cases.\nWe affirm the judgment of the Court of Appeal, which set aside the superior court\u2019s ruling, and overrule People v. Taylor, supra, 12 Cal.3d 686.\nI. Facts and Procedural History\nDefendant was charged with two counts of felony murder based on a plan to steal marijuana plants that resulted in the killing of two people. Two other participants in the events leading to the deaths, Michael Huggins and Matthew Griffin, were tried separately for the murders before defendant\u2019s case came to trial. Griffin was acquitted and Huggins convicted of voluntary manslaughter.\nThe Court of Appeal summarized the evidence presented at Huggins\u2019s trial, which that court and this court have judicially noticed:\n\u201cIn September 2005, Huggins lived in a house in Antelope with his girlfriend, Angelic Rampone, Matthew Griffin, and Griffin\u2019s girlfriend, Amy Butler. Levill Hill would sometimes spend the night at the house.\n\u201cIn the house one day there was a discussion in which Butler told Griffin, Huggins, Rampone, and Hill that she knew of a house in Olivehurst where they could steal marijuana plants. The Olivehurst house belonged to Michael Hance. In back of the Olivehurst house was a trailer occupied by two men who had gone to school with Butler\u2014Scott Davis and Michael Hance\u2019s son, Christopher Hance. Davis lived rent free in the trailer in exchange for guarding marijuana plants that were on the property.\n\u201cOne evening in the beginning of September 2005, Butler, Griffin, Huggins, Rampone, and Hill drove to the Olivehurst house but decided not to steal the marijuana plants at that time. Later, Huggins, Griffin, and Butler talked about returning to the Olivehurst house, tying \u2018the boys up,\u2019 and trying to steal the marijuana plants. Butler said she wanted nothing more to do with the plan.\n\u201cIn the early morning of September 27, Huggins, Rampone, Hill, and Griffin drove back to the Olivehurst house. En route, they picked up Huggins\u2019s cousin, Sparks. When they got to the Olivehurst house, they parked the car, and Huggins, Sparks, Griffin, and Hill got out. Huggins had a .45-caliber pistol and Sparks had a toy gun that looked real. Hill was handed duct tape and Griffin rope \u2018just in case\u2019 they needed to tie anybody up. Hill threw the duct tape back inside the car. They all then walked past the house and decided that none of them were going to go ahead with the plan to steal marijuana. They then split up in two groups\u2014Huggins and Sparks ahead and Hill and Griffin behind\u2014and all headed back toward the Olivehurst house.\n\u201cWhen they got to the house, however, Huggins kneeled down between the south and north gate to the house. Sparks stood right by Huggins. Hill and Griffin walked by them, and Hill asked what they were doing. Huggins replied, \u2018 \u201cWe\u2019re going to do it.\u201d \u2019 Hill responded, \u2018 \u201cNo, you\u2019re not.\u201d \u2019 Hill and Griffin then walked away. In Hill\u2019s view, he and Griffin abandoned the plan, but Huggins and Sparks did not.\n\u201cHuggins walked through the gate to the side of the house. Sparks stayed at the gate. While Sparks was at the gate, someone hit him.\n\u201cAfter Sparks was hit, Hill heard a gunshot. Hill and Griffin ran back to the car. Sparks and Huggins followed. They drove back to the Antelope house.\n\u201cMichael Hance was home at the time of the shooting and described what he heard and saw. He was in the house talking with his son while Davis was sleeping in the trailer. Michael and Christopher Hance heard one of the gates open, so Christopher went out to investigate. Michael Hance then heard \u2018scuffling\u2019 \u2018between the two gates\u2019 and heard a shot.\n\u201cMichael Hance ran outside and saw Huggins go into the trailer, heard \u2018some yelling,\u2019 and then \u2018a shot or two\u2019 inside the trailer. As Michael Hance started going toward the trailer, Christopher Hance, Huggins, and Davis \u2018poured out\u2019 of the trailer. Davis, who was holding his neck, fell to the ground.\n\u201cMichael Hance called 911. When police arrived, they found Davis dead. Christopher Hance was bleeding profusely from his lower abdomen and right leg and died from blood loss.\n\u201cBased on this and other evidence introduced at trial, the jury in Huggins\u2019s case was instructed on felony murder with the underlying felony being robbery or burglary or attempted robbery or burglary and on voluntary manslaughter based on intent to kill or conscious disregard for life. The jury found Huggins guilty of two counts of voluntary manslaughter while personally using a firearm.\u201d\nAs a result of the verdicts as to Huggins and Griffin, defendant moved to preclude the prosecution from trying him for any crime greater than voluntary manslaughter. He argued that collateral estoppel prevented the prosecution from relitigating issues decided in the previous trials.\nIn opposing the motion, the district attorney argued that evidence not admitted at the earlier trials could be used in defendant\u2019s trial. As the Court of Appeal summarized: \u201cThis evidence included statements made by Sparks during a police interview. In that interview, Sparks initially explained that he, Huggins, Griffin, and Hill all planned to participate in stealing the marijuana with his role being to \u2018grab the plants.\u2019 When they got to the street, Griffin got scared, \u2018punk[ed] out,\u2019 and went back to the car. Sparks and Huggins stood by the gate. Huggins went onto the property. As Sparks was standing outside the gate, he was confronted by someone wanting to know who he was, leading to a short physical altercation. Sparks then heard gunshots and ran back to the car. When Huggins returned to the car, he said to Sparks, \u2018[Wjhere the Fuck were you a[t] Dustin?\u2019 Not wanting Huggins to think he \u2018just punked out,\u2019 Sparks said that he got into a fight.\u201d (Fn. omitted.)\nThe trial court, which had presided over Huggins\u2019s trial, granted defendant\u2019s motion. Relying largely on Taylor, supra, 12 Cal.3d 686, it found that collateral estoppel applied because it would preclude a \u201cthird trial on these same facts\u201d and would prevent inconsistent judgments, thus \u201celiminat[ingj the risk of undermining the integrity of the justice system.\u201d It prevented the prosecution \u201cfrom pursuing a conviction for homicide ... on the basis [that] the homicides allegedly occurred during the commission of a robbery, burglary, or an attempt of either crime.\u201d\nThe People filed a petition for a writ of mandate in the Court of Appeal challenging the trial court\u2019s ruling. The Court of Appeal issued an alternative writ and ultimately a peremptory writ directing the superior court to vacate its order and to issue a new order denying defendant\u2019s motion to preclude the People from trying him for any crime greater than voluntary manslaughter.\nWe granted defendant\u2019s petition for review. We also directed the parties to brief the question of whether Taylor, supra, 12 Cal.Sd 686, should be overruled.\nII. Discussion\nIn Taylor, supra, 12 Cal.3d 686, three persons (Taylor, Daniels, and Smith) planned to rob a liquor store operated by Jack and Linda West. Taylor remained in the getaway car while the other two entered the store. There Daniels and Smith robbed the Wests at gunpoint of money in the cash register. In the process, a gun battle broke out in which the Wests shot Smith, killing him. (Id. at pp. 689-690.) We explained that, in an earlier opinion, we had held that Taylor could be prosecuted for Smith\u2019s murder \u201con a theory of vicarious liability if it independently appeared that his confederates entertained malice aforethought . . . .\u201d (Id. at p. 691; see Taylor v. Superior Court (1970) 3 Cal.3d 578 [91 Cal.Rptr. 275, 477 P.2d 131].) However, before Taylor\u2019s trial, Daniels was tried for that murder and, although convicted of robbery, was acquitted of murder. In light of this verdict, this court held that principles of collateral estoppel prohibited Taylor from being tried for the same murder.\nIn overturning the trial court\u2019s ruling in this case, the Court of Appeal distinguished Taylor, partly on the basis that evidence admissible against defendant in his trial was not available in the prior trials of Huggins and Griffin. Defendant argues that Taylor is indistinguishable, and that the Court of Appeal erred in not applying it. Whether Taylor would apply to the facts of this case is a complex and difficult question. But we need not decide that question. As we discuss, intervening judicial decisions have deprived Taylor of any continuing validity. In Palmer, supra, 24 Cal.4th at page 866, we distinguished, but did not overrule, Taylor because there was no need to do so. But the time has come to overrule it entirely.\nTaylor began its analysis by explaining that \u201c[collateral estoppel has been held to bar relitigation of an issue decided at a previous trial if (1) the issue necessarily decided at the previous trial is identical to the one which is sought to be relitigated; if (2) the previous trial resulted in a final judgment on the merits; and if (3) the party against whom collateral estoppel is asserted was a party or in privity with a party at the prior trial.\u201d (Taylor, supra, 12 Cal.3d at p. 691.) \u201cAs to the third requirement of identity of parties,\u201d Taylor continued, \u201cit is the rule in civil cases that the party benefitting from collateral estoppel need not have been a party in the prior trial so long as the party bound by the doctrine was such a party. Mutuality is thus not required.\u201d (Id. at p. 692, italics added.) Taylor observed, however, that \u201ccourts have sometimes declined to apply the doctrine in behalf of a criminal defendant who was not involved in the prior trial.\u201d (Ibid.) This observation gave rise to the question of whether what is sometimes called \u201cnonmutual collateral estoppel\u201d applies in a criminal case, that is, whether a defendant can obtain the benefit of a favorable verdict involving a different person even though that defendant would not have been bound by an unfavorable verdict regarding that other person.\nIn support of applying collateral estoppel even when there is no identity of defendants, Taylor cited some out-of-state and federal cases applying the defense of collateral estoppel. (Taylor, supra, 12 Cal.3d at p. 693.) It also relied in part on cases that \u201chave applied the doctrine to preclude the conviction of an alleged conspirator when all other alleged coconspirators have been acquitted [citation] or the charges against all the other coconspirators have been dismissed because of insufficient evidence [citation].\u201d (Id. at pp. 694-695.)\nIn addition to citing supporting cases, Taylor identified three \u201cstrong policy considerations\u201d behind the collateral estoppel doctrine: \u201c(1) to promote judicial economy by minimizing repetitive litigation; (2) to prevent inconsistent judgments which undermine the integrity of the judicial system; and (3) to provide repose by preventing a person from being harassed by vexatious litigation.\u201d (Taylor, supra, 12 Cal.3d at p. 695.)\nRegarding the first of these considerations, the court explained that \u201c[t]he need for judicial economy by minimizing repetitive litigation is even more important in criminal than in civil trials. Crowded court dockets inevitably will impose a heavy burden on criminal defendants as substantial periods of incarceration may result while they await trial, and long delays between arrest and sentencing will decrease the effectiveness of the punishment which is ultimately meted out. [Citation.] Although the saving of the resources of the court system may be somewhat reduced when, in addition to the crime against which a plea of collateral estoppel is urged, other crimes must also be litigated, the other goals of an application of the doctrine can nevertheless be achieved.\u201d (Taylor, supra, 12 Cal.3d at p. 695.)\nRegarding the second of these considerations, the court explained that \u201c[p]erhaps the most compelling reason for an application of collateral estoppel where vicarious liability is at issue is to prevent the compromising of the integrity of the judicial system caused by the rendering of inconsistent verdicts. Criminal trials generally receive more publicity than civil ones, and the public\u2019s view of the judicial system in general is often shaped by the impression of the fairness of the criminal justice system in particular. [Citation.] Few things undermine the layman\u2019s faith in the integrity of our legal institutions more than the specter of a system whi\u00f3h results in a person being punished for the acts of another, when the actor himself under identical charges had been previously exonerated from responsibility for those very acts. This is particularly so under the facts of the instant case when the People seek to punish defendant, who was not even present on the immediate scene, for the death of an accomplice caused by the acts of another confederate who himself has been exonerated.\u201d (Taylor, supra, 12 Cal.Sd at pp. 695-696.)\nThe court acknowledged that \u201cthe third purpose of collateral estoppel, preventing harassment through vexatious litigation, does not appear to be fulfilled if the doctrine is applied when different defendants are tried but once in separate trials . . . .\u201d (Taylor, supra, 12 Cal.Sd at p. 696.) But it believed the \u201cother general purposes\u201d of the doctrine supported applying it under the circumstances of the case. (Ibid.) The court stressed that the defendant tried first \u201cdid not offer a defense such as insanity, intoxication, or duress based on his personal lack of culpability irrespective of the criminality of his acts\u201d (id. at p. 697, fn. 13), and that the inconsistency in the verdicts \u201ccannot be explained by differences in evidence or jury instructions\u201d (id. at p. 698, fns. omitted). It noted that the \u201ccase therefore does not present the issue of whether and under what circumstances the prosecution\u2019s discovery of new evidence after the first trial will preclude a plea of collateral estoppel which otherwise may have been valid\u201d (id. at p. 698, fn. 16), and it did \u201cnot reach the question of whether the bar of collateral estoppel is applicable when the People allege that the prior verdict of acquittal was based on erroneous rulings which they were unable to correct through appellate review\u201d (id. at p. 698, fn. 17).\nUnder these circumstances\u2014where the prior trial involved no defense personal to the defendant, there was no difference in evidence between the trials, and there was no claim the prior acquittal was based on erroneous rulings\u2014Taylor \u201cconclude[d] that the lack of identity of parties defendant does not preclude the application of the doctrine of collateral estoppel; we limit today\u2019s holding to the particular circumstances of the instant case where an accused\u2019s guilt must be predicated on his vicarious liability for the acts of a previously acquitted confederate.\u201d (Taylor, supra, 12 Cal.Sd at p. 698.)\nSix years after Taylor, the United States Supreme Court refused to apply nonmutual collateral estoppel to a criminal case. (Standefer, supra, 447 U.S. 10.) The Standefer court described the issue as being \u201cwhether a defendant accused of aiding and abetting in the commission of a federal offense may be convicted after the named principal has been acquitted of that offense.\u201d (Id. at p. 11.) As we explained in Palmer, in Standefer, \u201cthe petitioner was convicted of aiding and abetting a crime despite the fact that the alleged actual perpetrator, Niederberger, had previously been acquitted of that crime in a different prosecution. Relying on the doctrine of nonmutual collateral estoppel, the petitioner argued that the prior acquittal precluded the government from relitigating the question of the actual perpetrator\u2019s guilt.\u201d (Palmer, supra, 24 Cal.4th at p. 862.) The high court had granted certiorari because of the importance of the issue and the existence of conflicting federal decisions. (Standefer, supra, at p. 14.) The court cited, and ultimately implicitly disapproved, two cases that had applied collateral estoppel in similar circumstances. (Id. at p. 14, fn. 7.) The Taylor court had cited those same cases in support of its ruling. (Taylor, supra, 12 Cal.3d at p. 693.)\nThe Standefer court noted (as had Taylor, supra, 12 Cal.3d at p. 692) that the doctrine of nonmutual collateral estoppel first arose in civil cases. (Standefer, supra, 447 U.S. at p. 21.) But, unlike the court in Taylor, the high court in Standefer refused to extend the doctrine to criminal cases; it refused to give a verdict regarding one defendant preclusive effect on the trial of a different defendant. \u201cThis, however, is a criminal case, presenting considerations different from those in [the civil cases it had cited]. First, in a criminal case, the Government is often without the kind of \u2018full and fair opportunity to litigate\u2019 that is a prerequisite of estoppel.\u201d (Standefer, supra, at p. 22.) The court noted that the prosecution has limited discovery rights, cannot obtain a directed verdict or judgment notwithstanding the verdict no matter how clear the evidence of guilt, and cannot appeal an adverse verdict. \u201cThe absence of these remedial procedures in criminal cases permits juries to acquit out of compassion or compromise or because of \u2018 \u201ctheir assumption of a power which they had no right to exercise, but to which they were disposed through lenity.\u201d \u2019 \u201d (Ibid.) The court explained that \u201cin a criminal case the Government has no . . . avenue to correct errors. Under contemporary principles of collateral estoppel, this factor strongly militates against giving an acquittal preclusive effect.\u201d (Id. at p. 23.)\nThe court also noted that sometimes evidence is available in one case against one defendant that is not available in another case against another defendant. The unavailability of evidence in the one case may result in an acquittal that might not occur in a trial where the evidence was available. In these circumstances, the court explained, \u201capplication of nonmutual estoppel would be plainly unwarranted, [f] It is argued that this concern could be met on a case-by-case basis by conducting a pretrial hearing to determine whether any such evidentiary ruling had deprived the Government of an opportunity to present its case fully the first time around. That process, however, could prove protracted and burdensome. Under such a scheme, the Government presumably would be entitled to seek review of any adverse evidentiary ruling rendered in the first proceeding and of any aspect of the jury charge in that case that worked to its detriment. Nothing short of that would insure that its opportunity to litigate had been \u2018full and fair.\u2019 If so, the \u2018pretrial hearing\u2019 would fast become a substitute for appellate review, and the very purpose of litigation economy that estoppel is designed to promote would be frustrated.\u201d (Standefer, supra, 447 U.S. at p. 24, fn. omitted.)\nThe high court also noted \u201cthe important federal interest in the enforcement of the criminal law.\u201d (Standefer, supra, 447 U.S. at p. 24.) It quoted with approval from the Third Circuit Court of Appeals opinion; \u201c \u2018To plead crowded dockets as an excuse for not trying criminal defendants is in our view neither in the best interests of the courts, nor the public.\u2019 \u201d (Id. at p. 25.) The high court then noted, \u201cIn short, this criminal case involves \u2018competing policy considerations\u2019 that outweigh the economy concerns that undergird the estoppel doctrine.\u201d (Ibid.)\nThe Standefer court explained that in denying preclusive effect to the actual perpetrator\u2019s acquittal, it did \u201cnot deviate from the sound teaching that \u2018justice must satisfy the appearance of justice.\u2019 [Citation.] This case does no more than manifest the simple, if discomforting, reality that \u2018different juries may reach different results under any criminal statute. That is one of the consequences we accept under our jury system.\u2019 [Citation.] While symmetry of results may be intellectually satisfying, it is not required. [Citation.] [f] Here, petitioner received a fair trial at which the Government bore the burden of proving beyond reasonable doubt that Niederberger violated [the statute] and that petitioner aided and abetted him in that venture. He was entitled to no less\u2014and to no more.\u201d (Standefer, supra, 447 U.S. at pp. 25-26.)\nStandefer, supra, 447 U.S. 10, was based on federal law and is not binding on this court in interpreting state law. (See People v. Guiton (1993) 4 Cal.4th 1116, 1126 [17 Cal.Rptr.2d 365, 847 P.2d 45].) California is permitted to have a collateral estoppel rule more favorable to criminal defendants than the federal rule. \u201cNevertheless, a decision by the United States Supreme Court, and especially a unanimous one such as [Standefer] . . . , is entitled to \u2018respectful consideration.\u2019 \u201d (Ibid., quoting People v. Teresinski (1982) 30 Cal.3d 822, 836 [180 Cal.Rptr. 617, 640 P.2d 753].) After careful consideration, we find Standefer persuasive.\nIndeed, we have already found Standefer persuasive. In Palmer, supra, 24 Cal.4th 856, defendants Price and Palmer were tried together, but with separate juries, for various crimes they committed together, including one count of conspiracy to murder. One jury convicted Price of all charges, including the conspiracy charge, but the other jury acquitted Palmer of the conspiracy charge, although it convicted him of other charges. There was no evidence anyone other than Price and Palmer was involved in the alleged conspiracy. Price contended that \u201cthe so-called rule of consistency\u2014that the acquittal of all alleged coconspirators but one requires acquittal of the remaining alleged conspirator\u201d\u2014required reversal of his conspiracy conviction. (Id. at p. 858.) We concluded \u201cthat the rule of consistency is a vestige of the past with no continuing validity. Many reasons may explain apparently inconsistent verdicts: lenience, compromise, differing evidence as to different defendants, or, possibly, that two juries simply viewed similar evidence differently. If substantial evidence supports a jury verdict as to one defendant, that verdict may stand despite an apparently inconsistent verdict as to another defendant.\u201d (Ibid.)\nRelying on a number of California and federal cases holding that inconsistent verdicts may stand\u2014some involving multiple defendants and some involving multiple verdicts as to a single defendant\u2014we explained that \u201c[t]he law generally accepts inconsistent verdicts as an occasionally inevitable, if not entirely satisfying, consequence of a criminal justice system that gives defendants the benefit of a reasonable doubt as to guilt, and juries the power to acquit whatever the evidence.\u201d (Palmer, supra, 24 Cal.4th at p. 860.)\nWe relied heavily on the reasoning of Standefer, supra, 447 U.S. 10, as well as United States v. Powell (1984) 469 U.S. 57 [83 L.Ed.2d 461, 105 S.Ct. 471] (Powell), a case in which the high court held\u2014for many of the same reasons it had given in Standefer\u2014that the criminal justice system must accept inconsistent verdicts as to a single defendant. (Palmer, supra, 24 Cal.4th at pp. 862-864.) We quoted Powell as noting \u201c \u2018that a criminal defendant already is afforded protection against jury irrationality or error by the independent review of the sufficiency of the evidence undertaken by the trial and appellate courts. This review should not be confused with the problems caused by inconsistent verdicts. Sufficiency-of-the-evidence review involves assessment by the courts of whether the evidence adduced at trial could support any rational determination of guilt beyond a reasonable doubt. [Citations.] This review should be independent of the jury\u2019s determination that evidence on another count was insufficient. The Government must convince the jury with its proof, and must also satisfy the courts that given this proof the jury could rationally have reached a verdict of guilt beyond a reasonable doubt. We do not believe that further safeguards against jury irrationality are necessary.\u2019 \u201d (Palmer, supra, at pp. 863-864, quoting Powell, supra, at p. 67.)\nPalmer further explained that \u201c[o]ur criminal justice system, which permits a conviction only if the jury unanimously finds beyond a reasonable doubt that a defendant is guilty of the particular charge, gives the defendant the benefit of the doubt. Moreover, a jury clearly has the unreviewable power, if not the right, to acquit whatever the evidence. An inevitable result of this system, and one that society accepts in its quest to avoid convicting the innocent, is that some criminal defendants who are guilty will be found not guilty. This circumstance does not, however, mean that if one person receives lenient treatment from the system, all must.\u201d (Palmer, supra, 24 Cal.4th at p. 865.)\nPalmer rejected Price\u2019s reliance on Taylor, supra, 12 Cal.3d 686. We concluded that the three purposes of collateral estoppel that Taylor cited did not warrant extending its holding to Price\u2019s situation. \u201cReversing Price\u2019s conviction would not serve judicial economy; this case was litigated once, not repetitively. The rule of consistency cannot prevent an inconsistent verdict that has already occurred; the only question that remains is what to do with that verdict. Nothing about this case hints at vexatious litigation; defendant was tried but once on good, credible evidence. Moreover, occasional inconsistent verdicts do not undermine the integrity of our criminal justice system but are an inevitable consequence of that system. Indeed, a \u2018rule that could promote the duplication of an erroneous acquittal to all persons who participate in a criminal transaction\u2019 [citation] might itself undermine the system more than accepting inconsistent verdicts once they have occurred.\u201d (Palmer, supra, 24 Cal.4th at p. 866.)\nPalmer specifically disapproved Court of Appeal decisions that had applied the rule of consistency, including the two cases Taylor had cited in this regard to support its own conclusion. (Palmer, supra, 24 Cal.4th at pp. 861, 867; see Taylor, supra, 12 Cal.3d at p. 695.)\nIt is readily apparent that little remains of the foundation on which Taylor based its conclusion. Most of the authority Taylor cited has now been disapproved, either implicitly by the high court in Standefer, supra, 447 U.S. 10, or expressly by this court in Palmer, supra, 24 Cal.4th 856. The high court in Standefer, although not citing Taylor, rejected all of its reasoning. In Palmer, we rejected what Taylor described as \u201c[p]erhaps the most compelling reason\u201d for its conclusion, namely preventing a perceived compromising of the integrity of the judicial system. (Taylor, supra, 12 Cal.3d at p. 695.) Courts of this state that have considered Taylor have generally distinguished it and limited it to its very narrow factual scenario. In People v. Howard (1988) 44 Cal.3d 375, 412 [243 Cal.Rptr. 842, 749 P.2d 279], for example, we said that \u201cTaylor is of limited application,\u201d and that the \u201cgeneral rule is that acquittal of one codefendant normally will not require acquittal of another.\u201d (See also People v. Lawley (2002) 27 Cal.4th 102, 163-164 [115 Cal.Rptr.2d 614, 38 P.3d 461]; People v. Garrison (1989) 47 Cal.3d 746, 781-782 [254 Cal.Rptr. 257, 765 P.2d 419].) Even a Court of Appeal refused to apply Taylor to the closely similar situation where the actual shooter was acquitted, but an aider and abettor convicted, of the same murder. (People v. Wilkins (1994) 26 CaI.App.4th 1089 [31 Cal.Rptr.2d 764].) Except for cases we disapproved in Palmer, supra, 24 Cal.4th 856, we are aware of no reported California case that actually followed Taylor.\nPalmer is distinguishable from this case and from Taylor. In Palmer, the inconsistent verdicts occurred simultaneously, so Taylor\u2019s judicial economy rationale was not implicated. As we noted in Palmer, no rule can prevent an inconsistent verdict that has already occurred. (Palmer, supra, 24 Cal.4th at p. 866.) Here, defendant has not yet been tried, so the judicial economy rationale may apply.\nTaylor\u2019s judicial economy rationale, however, does not warrant a departure from the general rule enunciated in Palmer and other cases that an acquittal of one defendant has no preclusive effect on another defendant. We do not know how many, if any, trials never occurred due to Taylor, but over the years the decision itself has generated much litigation, generally resulting, at least at the appellate level, in Taylor being distinguished rather than followed. Moreover, if, as Taylor itself suggested, its rule would require examination of the prior trial\u2019s record to determine whether the acquitted defendant had proffered a defense personal to that defendant, or whether judicial error had occurred, or whether the evidence at the new trial might be different than at the prior trial (as the Court of Appeal found in this case), that examination would itself create substantial additional litigation which, as the high court pointed out, would frustrate \u201cthe very purpose of litigation economy that estoppel is designed to promote . . . .\u201d (Standefer, supra, 447 U.S. at p. 24.) Thus, Taylor may actually have caused more litigation than it prevented.\nThis case presents a good example of Taylor\u2019s inefficiencies. In deciding whether Taylor applies here, the Court of Appeal judicially noticed, and extensively reviewed, the appellate record in Huggins\u2019s case. At defendant\u2019s request, we have judicially noticed that same record. The parties\u2019 briefs discuss and analyze that record in detail. Defendant also asked us to judicially notice the record of Griffin\u2019s trial. But because Griffin was acquitted, no appellate record currently exists. No one appeals an acquittal. Thus, for us to analyze Griffin\u2019s trial, a record of that case would have to have been created. Because no appellate record of Griffin\u2019s trial currently exists, and the Court of Appeal had not noticed the record of that case, we denied defendant\u2019s request to notice that record, but without prejudice to a party\u2019s citing the trial court\u2019s discussion of Griffin\u2019s trial or arguing that the Court of Appeal should have noticed that record. In his brief on the merits in this court, defendant no longer relies on Griffin\u2019s trial or acquittal. But in many cases involving collateral estoppel, a record of a trial resulting in an acquittal might have to be prepared. Doing so solely to decide whether the acquittal should have preclusive effect on another case would hardly further judicial economy.\nAdditionally, here the trial court did not preclude a trial but merely reduced the seriousness of the charge. Another full trial would be needed even under the trial court\u2019s ruling. Thus, in this case, applying Taylor has caused much litigation and much expenditure of judicial resources. Because a trial would be required in any event, whether the trial court\u2019s ruling would have saved any resources is questionable. On balance, we can confidently say that it would have been much more sparing of judicial resources simply to have tried defendant long ago.\nMoreover, even if we were to assume that the Taylor rule might occasionally save some judicial resources, as the high court also pointed out, it is not in the best interests of the courts or public to use judicial economy as a reason not to try criminal defendants. (Standefer, supra, 447 U.S. at p. 25.)\nDistinguishing Palmer on the basis that here no inconsistent verdict has yet occurred would also have the unfortunate effect of making collateral estoppel\u2019s application turn on the happenstance of which trial goes first. If this defendant had been tried first and convicted of murder, and the other two participants tried later, then Palmer would compel acceptance of defendant\u2019s conviction even if it were inconsistent with the later verdicts. As we have explained, occasional inconsistent verdicts do not undermine the integrity of the justice system. But a rule that defendants can assert the preclusive effect of other trials if, and only if, their trial was scheduled to go later than the other trials would, we believe, itself cast discredit on that system. It would mean that, of two participants in an alleged criminal enterprise, the one tried first would have only one trial in which to prevail\u2014that participant\u2019s own trial; but the participant scheduled to be tried second might have two trials in which to prevail\u2014either the first or the second trial. If, instead, both participants were tried together, neither could benefit from an inconsistent verdict. (Palmer, supra, 24 Cal.4th 856.) Such a system would give the appearance of arbitrariness, not integrity. Accordingly, the appearance of justice the criminal justice system needs is best served if all participants in alleged criminal conduct are tried on their cases\u2019 own merits, without concern for the results of other trials.\nApplying the doctrine of nonmutual collateral estoppel would have another unfortunate effect on the criminal justice system. Because no criminal defendant can be bound by an adverse factual finding in a trial in which that defendant did not participate, retention of nonmutual collateral estoppel in criminal cases creates what we might call a one-way ratchet. That is, if the first coconspirator to be tried receives a favorable verdict, that verdict, if given collateral estoppel effect, ratchets down the potential punishment for other defendants whose trials might follow; in contrast, because nonmutual collateral estoppel would apply against the prosecution but not against any defendant, if the first coconspirator received an unfavorable verdict, additional defendants would still be fully eligible to argue for acquittal or a lesser punishment. All defendants may thus receive the benefit of the most favorable verdict any jury might render (provided they time their trials correctly). Nothing in our jury system suggests such a scale tipping is either compelled or beneficial. A rule that can extend the effect of an erroneous acquittal to all persons who participated in the criminal enterprise might undermine the system more than accepting the potential for inconsistent verdicts. (Palmer, supra, 24 Cal.4th at p. 866.)\nStressing the narrowness of Taylor\u2019s holding, defendant seeks to distinguish its facts from both Standefer, supra, 447 U.S. 10, and Palmer, supra, 24 Cal.4th 856. He argues that the latter cases involve aider-and-abettor or coconspirator liability (that is, liability for intended crimes) and not, like Taylor, true vicarious liability (that is, liability for unintended crimes under the natural and probable consequences doctrine). (See People v. McCoy (2001) 25 Cal.4th 1111, 1117 [108 Cal.Rptr.2d 188, 24 P.3d 1210].) Attempting to draw an analogy to civil cases, he argues that even if we reject nonmutual collateral estoppel everywhere else in the criminal realm, we should preserve it for cases like Taylor. We disagree. The reasons that caused the high court in Standefer to reject nonmutual collateral estoppel in criminal cases, as well as our reasoning in accepting inconsistent verdicts in Palmer, apply no matter what the basis for criminal liability is. If the liability in Taylor was truly vicarious, that merely means that Daniels\u2019s not guilty verdict was inconsistent with Taylor\u2019s guilty verdict. But, as both the high court and this court have already held, the criminal justice system must accept inconsistent verdicts. Moreover, if an evidentiary hearing, or perhaps a jury trial, were necessary to determine a defendant\u2019s precise intent in order to decide whether collateral estoppel applies, the system would be particularly inefficient, contrary to the doctrine\u2019s supposed benefit of saving judicial resources.\nThere are, certainly, factual differences among the cases. But, crucially, in both Standefer, supra, 447 U.S. 10, and Palmer, supra, 24 Cal.4th 856, the verdicts regarding the coperpetrators, if given preclusive effect, would have meant the defendant could not have been guilty of the same charges. Defendant argues that \u201cunder the Huggins jury\u2019s verdicts, it was factually and legally impossible for Huggins to be innocent of felony-murder, but Mr. Sparks to be guilty.\u201d We may assume this to be true. But, similarly, under the jury\u2019s acquittal of Niederberger in Standefer, it was impossible for the defendant to be guilty of aiding and abetting crimes that never occurred, and in Palmer, under the jury\u2019s acquittal of Palmer of conspiracy, it was impossible for Price to have been guilty of conspiring with himself. Standefer's and Palmer's rationale supports denying preclusive effect to any verdict regarding a different criminal defendant, a conclusion at odds with Taylor, supra, 12 Cal.3d 686.\nDefendant also cites People v. Caesar (2008) 167 Cal.App.4th 1050 [84 Cal.Rptr.3d 663], In that case, Caesar and Godbolt were tried together. As relevant, the jury convicted both of the attempted murder of Clayton. Caesar\u2019s guilt was solely based on the theory that he was guilty of Godbolt\u2019s attempted murder of Clayton on an aiding and abetting theory. The jury found the attempted murder was premeditated as to Caesar but not premeditated as to Godbolt. The Court of Appeal reduced Caesar\u2019s attempted murder conviction to unpremeditated attempted murder because the premeditation finding as to Godbolt was inconsistent with the premeditation finding as to Caesar. The court reasoned that \u201cbecause the jury made an explicit finding that Godbolt did not act with premeditation in attempting to murder Clayton,\u201d it \u201cdid not make the necessary finding to convict Caesar of attempted premeditated murder under the natural and probable consequences doctrine.\u201d (Id. at p. 1059.) The court distinguished our decision in People v. McCoy, supra, 25 Cal.4th 1111, where we held that, under some circumstances, an aider and abettor may be convicted of a greater crime than the actual perpetrator. (People v. Caesar, supra, at p. 1057.) But it did not cite Palmer, supra, 24 Cal.4th 856, or consider whether inconsistent verdicts as to separate defendants may be given effect. Instead, it made the \u201c \u2018precipitous leap\u2019 \u201d from a finding that the verdicts were inconsistent \u201cto a rule requiring reversal of the inconsistent verdict. . . .\u201d (Palmer, supra, at p. 864, quoting U.S. v. Andrews (11th Cir. 1988) 850 F.2d 1557, 1560.) We disapprove People v. Caesar, supra, 167 Cal.App.4th 1050, to the extent it is inconsistent with Palmer or this opinion.\nCourts from other states that have considered Taylor, supra, 12 Cal.3d 686, have also generally distinguished it or rejected it, or both. Indeed, the cases postdating Standefer, supra, 447 U.S. 10, have uniformly followed Standefer rather than Taylor. (See Kott v. State (Alaska 1984) 678 R2d 386, 392-393 [affirming the Alaska Court of Appeal\u2019s decision, which had rejected the defendant\u2019s collateral estoppel argument]; State v. Kott (Alaska Ct.App. 1981) 636 P.2d 622, 626-627 [the court of appeal decision affirmed in Kott v. State, finding Taylor \u201cdistinguishable on its facts\u201d but \u201cpreferring] to reject its holding\u201d]; State v. Jimenez (1981) 130 Ariz. 138 [634 P.2d 950, 952-953] [both distinguishing and disagreeing with Taylor]; Jared v. State (1986) 17 Ark. App. 223 [707 S.W.2d 325, 328] [\u201cThe rule in Taylor simply is contrary to that which governs in Arkansas.\u201d]; People v. Allee (Colo. 1987) 740 P.2d 1, 5-6 [agreeing with \u201calmost all jurisdictions [that] continue to require mutuality of parties in criminal proceedings\u201d and dismissing Taylor with a \u201c[b]ut see\u201d citation]; State v. Santiago (2005) 275 Conn. 192 [881 A.2d 222, 229-230, fn. 21] [finding Taylor not persuasive]; Potts v. State (Fla.Dist.Ct.App. 1981) 403 So.2d 443, 445 [rejecting Taylor and stating that \u201cthe acquittal of appellant\u2019s confederate of the assault has no bearing on the disposition of the charge against appellant\u201d]; People v. Franklin (1995) 167 Ill.2d 1 [212 Ill.Dec. 153, 656 N.E.2d 750, 755] [following what it described as \u201c[m]ost\u201d courts in refusing to apply collateral estoppel and dismissing Taylor with a \u201cbut see\u201d citation]; Commonwealth v. Scala (1979) 8 Mass.App.Ct. 202 [392 N.E.2d 869, 873] [rejecting the application of collateral estoppel and dismissing Taylor with a \u201c[cjontrast\u201d citation]; People v. Paige (1983) 131 Mich.App. 34 [345 N.W.2d 639, 641] [finding Taylor not persuasive]; State v. Hall (Mo.Ct.App. 1985) 687 S.W.2d 924, 926 [rejecting a collateral estoppel contention without citing Taylor]; see also State v. Hall, at pp. 930-931 (cone. opn. of Clark, J.) [discussing the issue in greater detail and citing Taylor but rejecting it in favor of Standefer]; Larsen v. State (1977) 93 Nev. 397 [566 P.2d 413, 414 & fn. 2] [saying that generally collateral estoppel does not apply in criminal cases, citing Taylor for the proposition that \u201c[tjhere may be special circumstances which warrant deviation from this rule,\u201d but finding no such circumstances in the case]; State v. Campbell (1982) 56 Or.App. 527 [642 P.2d 346, 348] [rejecting Taylor in favor of the \u201cpolicy considerations\u201d articulated in Standefer, and concluding \u201cthat the rule requiring mutual identity of parties in criminal cases should be retained\u201d]; Commonwealth v. Brown (1977) 473 Pa. 458 [375 A.2d 331, 335] [finding Taylor\u2019s reasoning \u201cunpersuasive\u201d]; State v. Mullin-Coston (2004) 152 Wn.2d 107 [95 P.3d 321].)\nOne of the most recent of these cases, the Washington Supreme Court\u2019s opinion in State v. Mullin-Coston, supra, 95 P.3d 321, discussed the issue extensively. It viewed our decision in Palmer, supra, 24 Cal.4th 856, as having already \u201crejected Taylor.\u201d (Mullin-Coston, supra, at p. 327.) It then said, \u201cCalifornia is not alone; the overwhelming majority of courts to confront the issue have held that issues decided by one defendant\u2019s jury are not binding in the subsequent prosecution of a different defendant. We agree with all of those courts and the United States Supreme Court; the public interest in the justice of criminal results outweighs the interest in judicial economy.\u201d (Ibid., fn. omitted.)\nWe are aware of only two cases, both predating Standefer, supra, 447 U.S. 10, that appear to follow Taylor, supra, 12 Cal.3d 686 at all, and they are readily distinguishable. The first of these cases, State v. Gonzalez (1977) 75 N.J. 181 [380 A.2d 1128], did not involve jury trials but court rulings regarding identical suppression motions based on the same facts brought separately by two defendants. One court had granted the motion as to one defendant, but a different court later denied the same motion as to the second defendant. In the second defendant\u2019s appeal, the New Jersey Supreme Court expressed \u201cmisgivings as to the broader implications of extending the collateral estoppel doctrine\u201d (id., 380 A.2d at p. 1135) but it found under the \u201cexceptional circumstances\u201d of the case\u2014including the facts that the second defendant had failed to join in the first suppression motion through no fault of his own, and that the State could have, but had not, appealed the adverse suppression ruling\u2014that it should give collateral estoppel effect to the earlier suppression ruling. (Ibid.) In support of this conclusion, it simply cited Taylor with the signal \u201ccf.\u201d (Gonzalez, supra, at p. 1135.) Gonzalez thus provides no support for extending collateral estoppel to a jury verdict in a criminal case. (We express no opinion on whether collateral estoppel might apply in a situation not involving nonappealable rulings.)\nThe second of these cases, People v. Felton (N.Y.Sup.Ct. 1978) 95 Misc.2d 960 [408 N.Y.S.2d 646], is the only case following Taylor that involved a jury verdict. But even that case is distinguishable. In Felton, the defendant had originally been tried with a codefendant. The jury in the earlier trial had found the codefendant not guilty of a certain charge but could not reach a verdict on that charge as to the defendant. The appellate court concluded that the codefendant\u2019s acquittal had collateral estoppel effect in the defendant\u2019s case and cited Taylor, supra, 12 Cal.3d 686, to support its conclusion. But it pointedly based its conclusion on the fact that the defendant had participated in the earlier trial, and it cautioned that it was not going \u201cso far as to rule that a \u2018total stranger\u2019 to a prior proceeding would be entitled to invoke the relief sought herein.\u201d (Felton, supra, 408 N.Y.S.2d at p. 649.) \u201cTo extend the doctrine to a \u2018stranger,\u2019 \u201d the court explained, \u201cwould create an incentive for co-defendants to schedule motions and trials consecutively so as to capitalize on any favorable rulings rendered in the prior proceeding. This would only serve to pervert the underlying policies of collateral estoppel.\u201d (Ibid.) In this case, defendant did not participate in, but was a \u201cstranger\u201d to, the trials of his alleged coparticipants. Thus, even Felton does not aid him. Moreover, in light of the other authorities and reasons we have cited, we find Felton unpersuasive.\nDefendant argues that the doctrine of stare decisis militates against overruling Taylor, supra, 12 Cal.3d 686. (See People v. Garcia (2006) 39 Cal.4th 1070, 1080 [48 Cal.Rptr.3d 75, 141 P.3d 197].) But \u201cthe doctrine is flexible, and \u2018permits this court to reconsider, and ultimately to depart from, our own prior precedent in an appropriate case.\u2019 \u201d (People v. King (1993) 5 Cal.4th 59, 78 [19 Cal.Rptr.2d 233, 851 R2d 27].) As we have explained, Taylor has almost never been followed, and its rationale and the authorities it cited have now been largely discredited. Defendant claims we \u201cstrongly reiterated\u201d Taylor 19 years ago in Lucido v. Superior Court (1990) 51 Cal.3d 335 [272 Cal.Rptr. 767, 795 P.2d 1223]. Lucido, which involved an entirely different collateral estoppel issue, did, indeed, cite Taylor and quote its rationale. But then it distinguished Taylor and refused to extend it to its own situation. (Lucido, supra, at pp. 347, 350-351.) Citing and distinguishing a case is not strongly reiterating it. Instead, we rejected Taylor\u2019s main rationale in Palmer, supra, 24 Cal.4th 856.\nDefendant notes that the Legislature has never acted to overturn Taylor, supra, 12 Cal.3d 686, in the 35 years since it was decided and cites this inaction as a reason not to overturn it. In some situations, legislative acquiescence might support a conclusion the Legislature has effectively ratified a judicial interpretation of a statute. (E.g., Cel-Tech Communications, Inc. v. Los Angeles Cellular Telephone Co. (1999) 20 Cal.4th 163, 178 [83 Cal.Rptr.2d 548, 973 P.2d 527]; but see People v. Farley (2009) 46 Cal.4th 1053, 1120 [96 Cal.Rptr.3d 191, 210 P.3d 361].) Taylor, however, interpreted no statute. It extended a judicial doctrine developed in civil cases to the criminal realm. Taylor did not claim a constitutional basis for its ruling, so presumably the Legislature could have overturned it if the question had come before it, and it had wished to do so. But because Taylor extended a judicial doctrine, and did not interpret a statute, it is primarily up to the courts to reconsider its correctness.\nFinally, citing People v. Morante (1999) 20 Cal.4th 403 [84 Cal.Rptr.2d 665, 975 P.2d 1071], defendant argues that if we overrule Taylor, supra, 12 Cal.3d 686, we can do so only prospectively. Morante explained that \u201ca judicial enlargement of a criminal statute that is not foreseeable, \u2018applied retroactively, operates in the same manner as an ex post facto law. [Citation.]\u2019 [Citations.] Holding a defendant criminally liable for conduct that he or she could not reasonably anticipate would be proscribed, \u2018violates due process because the law must give sufficient warning so that individuals \u201cmay conduct themselves so as to avoid that which is forbidden.\u201d [Citation.]\u2019 [Citations.] \u2018[A] state Supreme Court, no less than a state Legislature, is barred from making conduct criminal which was innocent when it occurred, through the process of judicial interpretation. . . .\u2019 [Citation.]\u201d (People v. Morante, supra, at p. 431.) For similar reasons, concerns about stare decisis are \u201cat their acme . . . where reliance interests are involved . . . .\u201d (Payne v. Tennessee (1991) 501 U.S. 808, 828 [115 L.Ed.2d 720, 111 S.Ct. 2597]; accord, People v. King, supra, 5 Cal.4th at p. 78 [overruling a previous opinion of this court but doing so only prospectively due to reliance and ex post facto concerns].)\nThese concerns are not implicated here. Overruling Taylor will not criminalize conduct that had been innocent. Murder has always been a crime. At the time of the alleged crime, defendant could not have relied on the fact that Huggins would be tried before him or on the verdict as to Huggins, for that trial and that verdict had not yet occurred. Reliance is of less concern in cases \u201cinvolving procedural and evidentiary rules.\u201d (Payne v. Tennessee, supra, 501 U.S. at p. 828.) No doctrine requires that defendant receive the benefit of Taylor\u2019s collateral estoppel holding.\nIII. Conclusion\nWe affirm the judgment of the Court of Appeal and overrule People v. Taylor, supra, 12 Cal.3d 686.\nGeorge, C. J., Kennard, J., Baxter, J., Werdegar, J., Moreno, J., and Corrigan, J., concurred.\nThe petition of real party in interest for a rehearing was denied March 30, 2010.",
+        "type": "majority",
+        "author": "CHIN, J,"
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Edmund G. Brown, Jr., Attorney General, Dane R. Gillette, Chief Assistant Attorney General, Michael P. Farrell, Assistant Attorney General, John G. McLean, R. Todd Marshall and George M. Hendrickson, Deputy Attorneys General, for Petitioner.",
+      "Mitchell Keiter as Amicus Curiae on behalf of Petitioner.",
+      "No appearance for Respondent.",
+      "S. Michelle May, under appointment by the Supreme Court; Scott and Heitman and Justin B. Scott for Real Party in Interest."
+    ],
+    "corrections": "",
+    "head_matter": "[No. S164614.\nFeb. 8, 2010.]\nTHE PEOPLE, Petitioner, v. THE SUPERIOR COURT OF YUBA COUNTY, Respondent; DUSTIN WILLIAM SPARKS, Real Party in Interest.\nCounsel\nEdmund G. Brown, Jr., Attorney General, Dane R. Gillette, Chief Assistant Attorney General, Michael P. Farrell, Assistant Attorney General, John G. McLean, R. Todd Marshall and George M. Hendrickson, Deputy Attorneys General, for Petitioner.\nMitchell Keiter as Amicus Curiae on behalf of Petitioner.\nNo appearance for Respondent.\nS. Michelle May, under appointment by the Supreme Court; Scott and Heitman and Justin B. Scott for Real Party in Interest."
+  },
+  "file_name": "0001-01",
+  "first_page_order": 39,
+  "last_page_order": 60
+}

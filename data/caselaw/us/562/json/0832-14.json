@@ -1,0 +1,59 @@
+{
+  "id": 5975844,
+  "name": "Neal v. United States",
+  "name_abbreviation": "Neal v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-1414",
+  "first_page": "832",
+  "last_page": "832",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 832"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.66,
+    "sha256": "8f44162b5ee1dff7c92aac0c36685d4decc8ce420a64d1a2549763f597b66025",
+    "simhash": "1:113aee837275d331",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Neal v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. Armed Forces. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-1414.\nNeal v. United States."
+  },
+  "file_name": "0832-14",
+  "first_page_order": 854,
+  "last_page_order": 854
+}

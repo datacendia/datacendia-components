@@ -1,0 +1,59 @@
+{
+  "id": 12219919,
+  "name": "Gunn v. United States",
+  "name_abbreviation": "Gunn v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5366",
+  "first_page": "903",
+  "last_page": "903",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 903"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.675,
+    "sha256": "26e3efb7467be32380f82b199945dca145cc13a88517de33e51f9365d4b8de87",
+    "simhash": "1:912b8b4300935418",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gunn v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5366.\nGunn v. United States."
+  },
+  "file_name": "0903-13",
+  "first_page_order": 985,
+  "last_page_order": 985
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12423871,
+  "name": "In re Lipin",
+  "name_abbreviation": "In re Lipin",
+  "decision_date": "2012-11-26",
+  "docket_number": "No. 12-316",
+  "first_page": "1025",
+  "last_page": "1025",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1025"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 83,
+    "ocr_confidence": 0.594,
+    "sha256": "f51344457ec4d04ec3b84bb82ca81b8d73470c48fd916b1ed51b35b13747bdd1",
+    "simhash": "1:885cc67d998b241a",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Lipin."
+    ],
+    "opinions": [
+      {
+        "text": "Petition for writ of mandamus and/ or prohibition denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-316.\nIn re Lipin."
+  },
+  "file_name": "1025-06",
+  "first_page_order": 1101,
+  "last_page_order": 1101
+}

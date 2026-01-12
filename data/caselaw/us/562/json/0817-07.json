@@ -1,0 +1,59 @@
+{
+  "id": 6024564,
+  "name": "In re Discipline of Schwartz",
+  "name_abbreviation": "In re Discipline of Schwartz",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. D-2566",
+  "first_page": "817",
+  "last_page": "817",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 817"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 41,
+    "char_count": 287,
+    "ocr_confidence": 0.529,
+    "sha256": "5e069187a57a542e271c5814ec985c71b392dbb3347ba7c478495b008967a4f9",
+    "simhash": "1:768279be3aeeb7c2",
+    "word_count": 53
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Schwartz."
+    ],
+    "opinions": [
+      {
+        "text": "Arthur L. Schwartz, of West Orange, N. J., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2566.\nIn re Discipline of Schwartz."
+  },
+  "file_name": "0817-07",
+  "first_page_order": 839,
+  "last_page_order": 839
+}

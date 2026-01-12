@@ -1,0 +1,59 @@
+{
+  "id": 12425594,
+  "name": "Randleman v. United States",
+  "name_abbreviation": "Randleman v. United States",
+  "decision_date": "2012-11-26",
+  "docket_number": "No. 12-6921",
+  "first_page": "1038",
+  "last_page": "1038",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1038"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.686,
+    "sha256": "b37934e2e078ad3bc6789e1af378973f393113880fd5106e4818e7f174385653",
+    "simhash": "1:878ab2072e3f1868",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Randleman v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6921.\nRandleman v. United States."
+  },
+  "file_name": "1038-12",
+  "first_page_order": 1114,
+  "last_page_order": 1114
+}

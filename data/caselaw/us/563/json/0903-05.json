@@ -1,0 +1,61 @@
+{
+  "id": 5964763,
+  "name": "In re Springer",
+  "name_abbreviation": "In re Springer",
+  "decision_date": "2011-03-28",
+  "docket_number": "No. 10-9109",
+  "first_page": "903",
+  "last_page": "903",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 903"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 35,
+    "char_count": 283,
+    "ocr_confidence": 0.54,
+    "sha256": "919955c3da1b9c060002230fea24aedf01985171ccf8ece1e6efa1dfee9877be",
+    "simhash": "1:5ab3fbc4cb672d0a",
+    "word_count": 46
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this motion and this petition."
+    ],
+    "parties": [
+      "In re Springer."
+    ],
+    "opinions": [
+      {
+        "text": "Motion of petitioner for leave to proceed in forma pawperis denied, and petition for writ of mandamus and/or prohibition dismissed. See this Court\u2019s Rule 39.8.\nJustice Kagan took no part in the consideration or decision of this motion and this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9109.\nIn re Springer."
+  },
+  "file_name": "0903-05",
+  "first_page_order": 929,
+  "last_page_order": 929
+}

@@ -1,0 +1,59 @@
+{
+  "id": 6016728,
+  "name": "Kistler v. United States",
+  "name_abbreviation": "Kistler v. United States",
+  "decision_date": "2011-03-21",
+  "docket_number": "No. 10-9080",
+  "first_page": "1301",
+  "last_page": "1301",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1301"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.644,
+    "sha256": "a2ca8d909d232c535de512f81e28e06a5cde9e6acdf56a5018b04dd04d9d325f",
+    "simhash": "1:154ba6030bbf095e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kistler v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9080.\nKistler v. United States."
+  },
+  "file_name": "1301-09",
+  "first_page_order": 1323,
+  "last_page_order": 1323
+}

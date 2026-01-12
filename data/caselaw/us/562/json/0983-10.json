@@ -1,0 +1,59 @@
+{
+  "id": 6002368,
+  "name": "Mars v. Illinois",
+  "name_abbreviation": "Mars v. Illinois",
+  "decision_date": "2010-10-18",
+  "docket_number": "No. 10-5919",
+  "first_page": "983",
+  "last_page": "983",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 983"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.677,
+    "sha256": "853d5eddaa8ab360e7071f7e1e43afddccc225f8c8faf8dcc0baf8d3a2cc0d02",
+    "simhash": "1:5821d3d071173f1d",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mars v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 2d Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5919.\nMars v. Illinois."
+  },
+  "file_name": "0983-10",
+  "first_page_order": 1005,
+  "last_page_order": 1005
+}

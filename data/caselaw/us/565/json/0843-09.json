@@ -1,0 +1,59 @@
+{
+  "id": 12204062,
+  "name": "Womack-Grey v. Rogers, Warden",
+  "name_abbreviation": "Womack-Grey v. Rogers",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10673",
+  "first_page": "843",
+  "last_page": "843",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 843"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.68,
+    "sha256": "c816976ab001d30f0668f92956854c2ac579fe7d32c5b3d83f7c60ba196c9ddf",
+    "simhash": "1:128c5392990eb664",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Womack-Grey v. Rogers, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10673.\nWomack-Grey v. Rogers, Warden."
+  },
+  "file_name": "0843-09",
+  "first_page_order": 925,
+  "last_page_order": 925
+}

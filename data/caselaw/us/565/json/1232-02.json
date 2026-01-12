@@ -1,0 +1,61 @@
+{
+  "id": 12249153,
+  "name": "Haney v. Adams, Warden",
+  "name_abbreviation": "Haney v. Adams",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-6165",
+  "first_page": "1232",
+  "last_page": "1232",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1232"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 162,
+    "ocr_confidence": 0.656,
+    "sha256": "fba57220663284c538090a25770bd03ca139e1aace6627f4855bdd3a8399f8a9",
+    "simhash": "1:8c12aa8ff5cefede",
+    "word_count": 26
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Breyer took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Haney v. Adams, Warden,"
+    ],
+    "opinions": [
+      {
+        "text": "ante, p. 1022. Petition for rehearing denied.\nJustice Breyer took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6165.\nHaney v. Adams, Warden,"
+  },
+  "file_name": "1232-02",
+  "first_page_order": 1314,
+  "last_page_order": 1314
+}

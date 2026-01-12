@@ -1,0 +1,59 @@
+{
+  "id": 12415249,
+  "name": "McCarthy v. Scofield et al.",
+  "name_abbreviation": "McCarthy v. Scofield",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5094",
+  "first_page": "894",
+  "last_page": "894",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 894"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.718,
+    "sha256": "b6bedab89dd8b993ff78636c9ed91e4db8c2bada669fdbbe68d24671f579161e",
+    "simhash": "1:1c5fc48ffa890e84",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McCarthy v. Scofield et al."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Mich. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5094.\nMcCarthy v. Scofield et al."
+  },
+  "file_name": "0894-13",
+  "first_page_order": 970,
+  "last_page_order": 970
+}

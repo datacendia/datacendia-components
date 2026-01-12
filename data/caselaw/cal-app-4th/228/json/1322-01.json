@@ -1,0 +1,1283 @@
+{
+  "id": 4331791,
+  "name": "In re ALEXANDRIA P., a Person Coming Under the Juvenile Court Law. LOS ANGELES COUNTY DEPARTMENT OF CHILDREN AND FAMILY SERVICES, Plaintiff and Respondent, v. J.E., Defendant and Respondent; RUSSELL P. et al., Objectors and Appellants; CHOCTAW NATION OF OKLAHOMA, Intervener and Respondent",
+  "name_abbreviation": "Los Angeles County Department of Children & Family Services v. J.E.",
+  "decision_date": "2014-08-15",
+  "docket_number": "No. B252999",
+  "first_page": "1322",
+  "last_page": "1357",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "228 Cal. App. 4th 1322"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "133 S.Ct. 2552",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        7342721,
+        12698479
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/am-tribal-law/11/2552-01",
+        "/us/570/0637-01"
+      ]
+    },
+    {
+      "cite": "186 L.Ed.2d 729",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12698479
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/570/0637-01"
+      ]
+    },
+    {
+      "cite": "146 Cal.Rptr.3d 501",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "208 Cal.App.4th 1438",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4257657
+      ],
+      "pin_cites": [
+        {
+          "page": "1454"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/208/1438-01"
+      ]
+    },
+    {
+      "cite": "98 Cal.Rptr.3d 477",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "176 Cal.App.4th 1315",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5740500
+      ],
+      "pin_cites": [
+        {
+          "page": "1323"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/176/1315-01"
+      ]
+    },
+    {
+      "cite": "25 U.S.C. \u00a7 1903",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(4)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "121 Cal.Rptr.3d 366",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "192 Cal.App.4th 129",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6053782
+      ],
+      "pin_cites": [
+        {
+          "page": "150-151"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/192/0129-01"
+      ]
+    },
+    {
+      "cite": "161 Cal.Rptr.3d 837",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "219 Cal.App.4th 452",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6050172
+      ],
+      "pin_cites": [
+        {
+          "page": "463"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/219/0452-01"
+      ]
+    },
+    {
+      "cite": "213 Neb. 741",
+      "category": "reporters:state",
+      "reporter": "Neb.",
+      "case_ids": [
+        2984682
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "791"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/neb/213/0741-01"
+      ]
+    },
+    {
+      "cite": "572 N.W.2d 579",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "case_ids": [
+        11890975
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "585"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nw2d/572/0579-01"
+      ]
+    },
+    {
+      "cite": "56 Cal.Rptr.3d 151",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "148 Cal.App.4th 841",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5571393
+      ],
+      "pin_cites": [
+        {
+          "page": "855"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/148/0841-01"
+      ]
+    },
+    {
+      "cite": "276 Cal.Rptr. 619",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "226 Cal.App.3d 655",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2334590
+      ],
+      "pin_cites": [
+        {
+          "page": "661"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/226/0655-01"
+      ]
+    },
+    {
+      "cite": "284 P.3d 29",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "case_ids": [
+        4060579
+      ],
+      "pin_cites": [
+        {
+          "page": "38"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ariz/230/0339-01"
+      ]
+    },
+    {
+      "cite": "246 Cal.Rptr. 168",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "200 Cal.App.3d 657",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4433367
+      ],
+      "pin_cites": [
+        {
+          "page": "663"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/200/0657-01"
+      ]
+    },
+    {
+      "cite": "99 Cal.Rptr.3d 356",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "177 Cal.App.4th 683",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5742282
+      ],
+      "pin_cites": [
+        {
+          "page": "697-698"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/177/0683-01"
+      ]
+    },
+    {
+      "cite": "236 Or. App. 535",
+      "category": "reporters:state",
+      "reporter": "Or. App.",
+      "case_ids": [
+        4204935
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "50, fn. 17"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/or-app/236/0535-01"
+      ]
+    },
+    {
+      "cite": "521 N.W.2d 357",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "case_ids": [
+        11957186
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nw2d/521/0357-01"
+      ]
+    },
+    {
+      "cite": "507 N.W.2d 872",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "case_ids": [
+        10635608
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "878"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nw2d/507/0872-01"
+      ]
+    },
+    {
+      "cite": "2003 OKCIVAPP 24",
+      "category": "reporters:neutral",
+      "reporter": "OK CIV APP",
+      "case_ids": [
+        9131525
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "373-74"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/p3d/67/0359-01"
+      ]
+    },
+    {
+      "cite": "2011 SD 8",
+      "category": "reporters:state",
+      "reporter": "SD",
+      "case_ids": [
+        7075989
+      ],
+      "weight": 2,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "43-44"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nw2d/795/0039-01"
+      ]
+    },
+    {
+      "cite": "46 Cal.Rptr.2d 198",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 Cal.App.4th 1813",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6045372
+      ],
+      "pin_cites": [
+        {
+          "page": "1827-1829"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/38/1813-01"
+      ]
+    },
+    {
+      "cite": "111 S.Ct. 654",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        6121506
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/122/0654-01"
+      ]
+    },
+    {
+      "cite": "498 U.S. 279",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6223600
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "286"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/498/0279-01"
+      ]
+    },
+    {
+      "cite": "851 P.2d 1307",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 Cal.Rptr.2d 698",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 Cal.4th 242",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1998561
+      ],
+      "pin_cites": [
+        {
+          "page": "251"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/5/0242-01"
+      ]
+    },
+    {
+      "cite": "455 U.S. 745",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11307633
+      ],
+      "weight": 3,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "754-755"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/455/0745-01"
+      ]
+    },
+    {
+      "cite": "754 P.2d 708",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "247 Cal.Rptr. 362",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.3d 491",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4528719
+      ],
+      "pin_cites": [
+        {
+          "page": "501"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/45/0491-01"
+      ]
+    },
+    {
+      "cite": "74 Cal.Rptr.2d 642",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Cal.App.4th 700",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "pin_cites": [
+        {
+          "page": "709-710"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "303 P.3d 431",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "case_ids": [
+        6972319
+      ],
+      "weight": 8,
+      "pin_cites": [
+        {
+          "page": "434"
+        },
+        {
+          "page": "p. 447"
+        },
+        {
+          "page": "pp. 447-448"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/p3d/303/0431-01"
+      ]
+    },
+    {
+      "cite": "90 P.3d 746",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "13 Cal.Rptr.3d 786",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Cal.4th 1287",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        801097
+      ],
+      "pin_cites": [
+        {
+          "page": "1293"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/32/1287-01"
+      ]
+    },
+    {
+      "cite": "53 Cal.Rptr.2d 679",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.App.4th 1483",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4751863
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/45/1483-01"
+      ]
+    },
+    {
+      "cite": "76 Cal.Rptr.2d 121",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "65 Cal.App.4th 79",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        527387
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/65/0079-01"
+      ]
+    },
+    {
+      "cite": "48 Cal.Rptr.3d 605",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "142 Cal.App.4th 988",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3499551
+      ],
+      "pin_cites": [
+        {
+          "page": "996"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/142/0988-01"
+      ]
+    },
+    {
+      "cite": "69 Cal.Rptr.2d 414",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 Cal.App.4th 703",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        261044
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "718-724"
+        },
+        {
+          "page": "720"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/59/0703-01"
+      ]
+    },
+    {
+      "cite": "59 Cal.Rptr.3d 321",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1997,
+      "opinion_index": 0
+    },
+    {
+      "cite": "150 Cal.App.4th 1247",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3676603
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "1265"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/150/1247-01"
+      ]
+    },
+    {
+      "cite": "62 Va.App. 350",
+      "category": "reporters:state",
+      "reporter": "Va. App.",
+      "case_ids": [
+        3858238
+      ],
+      "weight": 7,
+      "pin_cites": [
+        {
+          "page": "847-848"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/va-app/62/0350-01"
+      ]
+    },
+    {
+      "cite": "288 Kan. 429",
+      "category": "reporters:state",
+      "reporter": "Kan.",
+      "case_ids": [
+        3718626
+      ],
+      "weight": 2,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "548-551"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/kan/288/0429-01"
+      ]
+    },
+    {
+      "cite": "231 Kan. 199",
+      "category": "reporters:state",
+      "reporter": "Kan.",
+      "case_ids": [
+        1443840
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "175"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/kan/231/0199-01"
+      ]
+    },
+    {
+      "cite": "49 Cal.Rptr.2d 507",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Cal.App.4th 1483",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4727852
+      ],
+      "pin_cites": [
+        {
+          "page": "1490, fn. 2"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/41/1483-01"
+      ]
+    },
+    {
+      "cite": "431 U.S. 816",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        2109
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "843-847"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/431/0816-01"
+      ]
+    },
+    {
+      "cite": "778 F.2d 1386",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1526895
+      ],
+      "pin_cites": [
+        {
+          "page": "1389"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/778/1386-01"
+      ]
+    },
+    {
+      "cite": "878 P.2d 1297",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1985,
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 Cal.Rptr.2d 85",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1985,
+      "opinion_index": 0
+    },
+    {
+      "cite": "8 Cal.4th 398",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1985986
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "419"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/8/0398-01"
+      ]
+    },
+    {
+      "cite": "851 P.2d 826",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 Cal.Rptr.2d 544",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 Cal.4th 295",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1998585
+      ],
+      "pin_cites": [
+        {
+          "page": "306"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/5/0295-01"
+      ]
+    },
+    {
+      "cite": "74 Cal.Rptr.3d 755",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "161 Cal.App.4th 943",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3995330
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "953"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/161/0943-01"
+      ]
+    },
+    {
+      "cite": "37 Cal.Rptr.3d 6",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2008,
+      "opinion_index": 0
+    },
+    {
+      "cite": "134 Cal.App.4th 1357",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6048778
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "1359-1362"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/134/1357-01"
+      ]
+    },
+    {
+      "cite": "128 Cal.Rptr.3d 276",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Cal.4th 231",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3919252
+      ],
+      "pin_cites": [
+        {
+          "page": "236"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/52/0231-01"
+      ]
+    },
+    {
+      "cite": "45 Cal.Rptr.2d 333",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 Cal.App.4th 747",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4897180
+      ],
+      "pin_cites": [
+        {
+          "page": "752-754"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/38/0747-01"
+      ]
+    },
+    {
+      "cite": "19 Cal.Rptr.3d 155",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "122 Cal.App.4th 626",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1137527
+      ],
+      "pin_cites": [
+        {
+          "page": "644"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/122/0626-01"
+      ]
+    },
+    {
+      "cite": "146 Cal.Rptr.3d 124",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "208 Cal.App.4th 1019",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4257880
+      ],
+      "pin_cites": [
+        {
+          "page": "1029"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/208/1019-01"
+      ]
+    },
+    {
+      "cite": "122 Cal.Rptr.3d 6",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "192 Cal.App.4th 967",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4229582
+      ],
+      "pin_cites": [
+        {
+          "page": "977"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/192/0967-01"
+      ]
+    },
+    {
+      "cite": "164 Cal.Rptr.3d 720",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "221 Cal.App.4th 674",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6053737
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/221/0674-01"
+      ]
+    },
+    {
+      "cite": "281 P.3d 906",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "144 Cal.Rptr.3d 843",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "55 Cal.4th 30",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3932358
+      ],
+      "pin_cites": [
+        {
+          "page": "40"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/55/0030-01"
+      ]
+    },
+    {
+      "cite": "490 U.S. 30",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        605240
+      ],
+      "weight": 8,
+      "pin_cites": [
+        {
+          "page": "32"
+        },
+        {
+          "page": "pp. 36-37"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/490/0030-01"
+      ]
+    },
+    {
+      "cite": "112 Cal.Rptr.2d 692",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "92 Cal.App.4th 1274",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        418354
+      ],
+      "weight": 5,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/92/1274-01"
+      ]
+    },
+    {
+      "cite": "825 N.W.2d 173",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "284 Neb. 834",
+      "category": "reporters:state",
+      "reporter": "Neb.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "239 Neb. 817",
+      "category": "reporters:state",
+      "reporter": "Neb.",
+      "case_ids": [
+        5228877
+      ],
+      "weight": 2,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "116-118"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/neb/239/0817-01"
+      ]
+    },
+    {
+      "cite": "299 Mont. 62",
+      "category": "reporters:state",
+      "reporter": "Mont.",
+      "case_ids": [
+        229028
+      ],
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "783"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mont/299/0062-01"
+      ]
+    },
+    {
+      "cite": "732 P.2d 962",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "case_ids": [
+        11310775
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "971"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/p2d/732/0962-01"
+      ]
+    },
+    {
+      "cite": "99 Cal.Rptr.2d 688",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "83 Cal.App.4th 460",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        525284
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/83/0460-01"
+      ]
+    },
+    {
+      "cite": "84 Cal.Rptr.3d 841",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "167 Cal.App.4th 1292",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5729902
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/167/1292-01"
+      ]
+    },
+    {
+      "cite": "25 U.S.C. \u00a7 1901",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 2284,
+    "char_count": 87485,
+    "ocr_confidence": 0.904,
+    "pagerank": {
+      "raw": 9.280437361428208e-08,
+      "percentile": 0.511920965276354
+    },
+    "sha256": "63eee4d8bfc8ffe5fe87c924ff2b5a313df6567a5564ee6e5ad705d68d85df17",
+    "simhash": "1:7a08b23668084dea",
+    "word_count": 13965
+  },
+  "last_updated": "2024-02-27T19:58:27.199147+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re ALEXANDRIA P., a Person Coming Under the Juvenile Court Law. LOS ANGELES COUNTY DEPARTMENT OF CHILDREN AND FAMILY SERVICES, Plaintiff and Respondent, v. J.E., Defendant and Respondent; RUSSELL P. et al., Objectors and Appellants; CHOCTAW NATION OF OKLAHOMA, Intervener and Respondent."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nKRIEGLER, J.\nThis case involves the placement preferences set forth in the Indian Child Welfare Act of 1978 (ICWA) (25 U.S.C. \u00a7 1901 et seq.). At issue is whether the dependency court properly applied the ICWA in finding that the foster parents of an Indian child failed to prove good cause to deviate from the ICWA\u2019s adoptive placement preferences.\nA 17-month-old Indian child was removed from the custody of her mother, who has a lengthy substance abuse problem and has lost custody of at least six other children, and her father, who has an extensive criminal history and has lost custody of one other child. The girl\u2019s father is an enrolled member of an Indian tribe, and the girl is considered an Indian child under the ICWA. The tribe consented to the girl\u2019s placement with a non-Indian foster family to facilitate efforts to reunify the girl with her father. The girl lived in two foster homes before she was placed with de facto parents at the age of two. She bonded with the family and has thrived for the past two and a half years.\nAfter reunification efforts failed, the father, the tribe, and the Los Angeles County Department of Children and Family Services (Department) recommended that the girl be placed in Utah with a non-Indian couple who are extended family of the father. The de facto parents (de facto parents) argued good cause existed to depart from the ICWA\u2019s adoptive placement preferences and it was in the girl\u2019s best interests to remain with the de facto family. The child\u2019s court-appointed counsel argued that good cause did not exist. The court ordered the girl placed with the extended family in Utah after finding that de facto parents had not proven by clear and convincing evidence that it was a certainty the child would suffer emotional harm by the transfer.\nDe facto parents appeal from the placement order, raising constitutional challenges to the ICWA, which we hold they lack standing to assert. De facto parents also contend that the ICWA\u2019s adoptive placement preferences do not apply when the tribe has consented to a child\u2019s placement outside of the ICWA\u2019s foster care placement preferences. We disagree with their interpretation of the statutory language. De facto parents further contend the court erroneously applied the clear and convincing standard of proof, rather than preponderance of the evidence, a contention we reject based upon the overwhelming authority on the issue. Finally, de facto parents contend the court erroneously interpreted the good cause exception to the ICWA\u2019s adoptive placement preferences as requiring proof of a certainty that the child would suffer emotional harm if placed with the Utah couple, and failed to consider the bond between Alexandria P. and her foster family, the risk of detriment if that bond was broken, and Alexandria\u2019s best interests. We agree with this last contention and reverse the placement order because the court\u2019s error was prejudicial.\nFor clarity, we set forth the parties before turning to the facts and procedural history. The Indian child\u2019s name is Alexandria. De facto parents, Russell and Summer R, are appellants seeking to reverse the placement order. The P.s are supported by amici curiae Joan Hollinger, Northern California Association of Counsel for Children, and Advokids, which filed a joint brief in support of reversal. Alexandria argues we should affirm the order directing her preadoptive placement with Ginger and Ken R., her extended family in Utah. Alexandria\u2019s father, the Department, and the Choctaw Nation of Oklahoma (tribe) have all filed briefs in support of affirmance as well.\nFACTUAL BACKGROUND\nAlexandria\u2019s Family Background\nAlexandria\u2019s mother is not Indian, has a history of substance abuse, including methamphetamine abuse, and lost custody of at least six other children before Alexandria was bom. Alexandria\u2019s father (father), an enrolled member of the tribe, has a history of substance abuse and an extensive criminal history. He lost custody of Alexandria\u2019s older half sister, Anna, an enrolled member of the tribe who currently lives in Los Angeles with her paternal stepgrandfather, her adoptive parent. Alexandria is l/64th Choctaw and meets the statutory definition of an Indian child.\nAlexandria\u2019s Child Welfare History\nAlexandria was detained from her parents and placed with a foster family when she was 17 months old, based on concerns about her parents\u2019 ability to care for her in light of their histories of substance abuse, child welfare referrals, and criminal activity. Alexandria reportedly was moved to a different foster family after suffering a black eye and a scrape on the side of her face. The P.s were Alexandria\u2019s third foster care placement, initially arranged in December 2011 as a \u201crespite care\u201d placement that evolved into a long-term foster care placement. The P.s were aware that Alexandria was an Indian child and her placement was subject to the ICWA.\nBy the time Alexandria was placed with the P.s in December 2011, her extended family in Utah, the R.s, were aware of dependency proceedings and had spoken to representatives of the tribe about their interest in adopting Alexandria. The tribe agreed to initial foster placement with the P.s because it was close to father at a time when he was working on reunification. If reunification services were terminated, the tribe recommended placement with the R.s in Utah.\nAlexandria\u2019s Emotional Health\nAlexandria\u2019s first months after being placed with the P.s were difficult'. She was weepy at times, did not want to be held, and had difficulty differentiating between strangers and caregivers, indiscriminately calling people \u201cmommy\u201d or \u201cdaddy.\u201d These behaviors were considered signs of a \u201creactive attachment, the disinhibitive type.\u201d The P.s addressed Alexandria\u2019s attachment issues with consistency and loving care. They did not ask the social worker for a therapy referral, understanding the issues to be ones they could work out on their own. After a few months, Alexandria\u2019s behavioral issues resolved, and she formed a strong primary bond and attachment with the entire P. family, viewing the parents as her own parents and the P. children as her siblings.\nOn September 17, 2012, Alexandria began play therapy with Ruth Polcino, a therapist with United American Indian Involvement. Sessions took place weekly in the P. home. In a December 31, 2012 letter to the Department\u2019s social worker Roberta Javier, Polcino noted Alexandria\u2019s \u201chappiness, playfulness, sense of safety, and positive rapport with her foster parents and siblings\u201d and concluded that her consistent, loving experience in the foster home appears to have fostered a healthy and secure attachment. Notably, the letter concludes, \u201cBased on witnessing Alexandria in the [P.s\u2019] household, and based on her history of repeated separation from caretakers, this therapist highly recommends that Alexandria be allowed to stay in touch with the [P.] family, even after she is placed with her Aunt [(Ginger R.)] in Utah. This recommendation is not intended to interfere with the current adoption, but rather to allow Alexandria to stay in touch with the [P.] family as extended family who care about her.\u201d\nAn April 3, 2013 report notes the significant advancements made by Alexandria during her placement with the P.s, as well as her ability to form a healthy attachment to new caretakers: \u201cAlexandria\u2019s ability to re-attach to a new caretaker is stronger because of the stability that the [P] family has provided for her. The behaviors that she presented with initially when placed with the [P] family were much more indicative of a possible attachment disorder (i.e., the indiscriminate attachment she demonstrated with strangers). Since then, these behaviors have been almost entirely extinguished. In their place are more appropriate behaviors that are evidence of a more healthy and secure attachment. . . .\u201d\nFather\u2019s Reunification Efforts\nFather successfully complied with reunification services for more than six months, progressing to such an extent that he was granted unmonitored eight-hour visits. By June 2012, the Department reported a substantial probability he would reunify with Alexandria within the next six months. Shortly thereafter, however, father\u2019s emotional state deteriorated dramatically. He separated from his new wife, left California, and did not visit Alexandria after July 28, 2012. By September 2012, he had communicated to the Department that he no longer wished to continue reunification services.\nThe R. Family\nBecause Ginger R.\u2019s uncle is Alexandria\u2019s paternal stepgrandfather, the tribe recognizes the R.s as Alexandria\u2019s extended family. The R.s have an ongoing relationship with Alexandria\u2019s half sister, Anna, who visits the R.s on holidays and for a week or two during the summer. Anna and Alexandria have the same paternal grandmother (who has since passed away) and stepgrandfather, and the stepgrandfather has designated the R.s to care for Anna if he should become unable to care for Anna.\nThe R.s expressed their interest in adopting Alexandria as early as October 2011. They were initially told that to avoid confusing Alexandria, they should not contact her while father attempted to reunify. If reunification efforts failed, they were the tribe\u2019s first choice for adoption. The family has approval for Alexandria to be placed with them under the Interstate Compact on the Placement of Children (ICPC; Fam. Code, \u00a7 7900 et seq.). The R.s first visited Alexandria shortly after the court terminated father\u2019s reunification services. Since then, they video chat with Alexandria about twice a week and have had multiple in-person visits in Los Angeles. The P.s refer to the R.s as family from Utah. At one point, when Alexandria asked if she was going to Utah, the P.s responded that they did not know for sure, but it was possible. Russell and Summer P. testified that before and following a recent visit by the R.s, most likely in June 2013, Alexandria was upset and said she did not want to visit with the R.s and did not like it when they came to visit. Russell P. acknowledged that the change in Alexandria\u2019s feelings coincided with the birth of a new baby in the P. family and a transition to a new therapist for Alexandria.\nThe P. Family\nAlexandria has lived with the P.s for over two and a half years, beginning in December 2011. By all accounts, they have provided her with clear and consistent rules and a loving environment. Alexandria is bonded to the P.s and has a healthy attachment to them. The Department consistently reminded the P.s that Alexandria is an Indian child subject to the ICWA placement preferences. At some point after father\u2019s reunification efforts failed, the P.s decided they wanted to adopt Alexandria. They discussed the issue with the Department social worker, who advised them that the tribe had selected the R.s as the planned adoptive placement.\nTransition Planning\nAs ordered by the court on April 12, 2013, the Department arranged a conference call to discuss a transition plan in anticipation of a possible court order directing placement with the R.s. The call lasted 90 minutes and included the P.s in Los Angeles; the R.s from Utah; Ruth Polcino, Alexandria\u2019s therapist at United American Indian Involvement; Polcino\u2019s supervisor, Jennifer Lingenfelter; Alexandria\u2019s attorney, Kerri Anderson; and Department social worker Roberta Javier, as well as two other Department employees. The participants agreed on a transition plan that involved a relatively short transition, with both families meeting for breakfast or at a park, explaining to Alexandria that she would be going to Uve with the R.s, who are family who love Alexandria very much and would take good care of her. The P.s would reassure Alexandria that they love her and would always be a part of her family.\nPROCEDURAL BACKGROUND\nThe Department filed a petition in this matter on April 25, 2011, alleging that Alexandria was at risk of physical harm due to her parents\u2019 history of substance abuse. The court appointed counsel for Alexandria and father, ordered reunification services for father, and later found father to be Alexandria\u2019s biological father based on DNA test results.\nOn August 30, 2011, the court found that the ICWA applies and the matter was transferred to a specialized department for ICWA cases, with Commissioner Sheri Sobel presiding. On November 3, 2011, the Department filed a last-minute information attaching the tribe\u2019s notice of intervention, which the court acknowledged and filed the same day. A later last-minute information filed by the Department attached a declaration of a tribal social worker acknowledging that the ICWA requirements for Alexandria\u2019s removal from parental custody had been met.\nOn December 22, 2011, the court conducted adjudication and disposition hearings, sustaining allegations under subdivision (b) of Welfare and Institutions Code section 300 and removing Alexandria from parental custody. The court ordered reunification services for father, but denied services for the mother. The court granted father monitored visits at least three times a week after he was released from custody. At a progress hearing on March 22, 2012, the court granted the Department discretion to allow father unmonitored daytime visits with Alexandria. On June 21, 2012, the Department filed a report describing father\u2019s substantial compliance with reunification services and the likelihood that father would be able to reunify with Alexandria. The same day, the court ordered play therapy for Alexandria. On August 17, 2012, the court granted the Department\u2019s petition to change the court order, reinstating the requirement that father\u2019s visits be supervised.\nOn October 4, 2012, the court terminated father\u2019s reunification services and scheduled a hearing for termination of parental rights under Welfare and Institutions Code section 366.26. At the Department\u2019s request on November 16, 2012, the court issued a request for expedited placement, identifying the R.s in Utah as the planned placement under the ICPC.\nOn January 17, 2013, while the ICPC request was still in process, Alexandria\u2019s guardian ad litem and court-appointed attorney requested a \u201cDo Not Remove\u201d order to prevent Alexandria from being moved out of state without a court order. Commissioner Sobel granted the request on January 18, 2013. Other than two continuances granted in April 2013, all later proceedings were held before Judge Amy Pellman.\nOver the next six months, the court granted de facto parent status to the P.s, the ICPC request permitting Alexandria\u2019s placement with the R.s in Utah was approved, Alexandria\u2019s attorney withdrew her objection to Alexandria\u2019s change in placement, and all parties submitted briefing addressing whether good cause existed to depart from the ICWA\u2019s adoptive placement preferences.\nOn July 29, 2013, the court commenced a hearing that spanned five days over the course of three months to determine whether good cause existed to permit Alexandria to remain with the P.s, rather than placing her with the R.s in Utah in accordance with the ICWA\u2019s adoptive placement preferences. The court heard testimony from (1) Roberta Javier, the social worker for the Department who was assigned to the case in December 2011, around the same time Alexandria was placed with the P.s; (2) Jennifer Lingenfelter, clinical director at United American Indian Involvement, where she supervised Alexandria\u2019s first therapist, Ruth Polcino, until Polcino went on maternity leave; (3) Russell R, Alexandria\u2019s foster father; (4) Summer R, Alexandria\u2019s foster mother; (5) Ginger R., Alexandria\u2019s extended family member and proposed adoptive mother; (6) Genevieve Marquez, Alexandria\u2019s current therapist at United American Indian Involvement; (7) Amanda Robinson, a tribal social worker; (8) Lauren Axline, a foster adoption case manager at the foster agency that placed Alexandria with the P.s; and (9) Billy Stevens, a tribal elder.\nThe social workers and therapists who testified all agreed that Alexandria has a primary attachment and a strong bond with the P.s. She considers Russell and Summer P. her parents and the P. children her siblings. Regarding Alexandria\u2019s ability to attach with a new caregiver if her bond with the P.s is broken, Javier and Lingenfelter acknowledged that a change in placement would be potentially traumatic, but that the existence of a primary bond and healthy attachment increases the likelihood that a child will successfully attach to a new caregiver. Marquez believed that with appropriate intervention and support, Alexandria would cope with a transition resiliently, characterizing the possible trauma as a loss, but not the equivalent of the death of a parent. Lingenfelter and Marquez both acknowledged that any transition would pose a risk of trauma, including the possibility of depression and anxiety. Javier did not believe Alexandria would suffer any severe trauma because she sees the R.s as family and would not feel as if she is being sent to live with strangers. Axline, on the other hand, compared the transition to the death or loss of a parent or family, because \u201cshe is being taken away from everything that is familiar to her, everything that she\u2019s known to be stability.\u201d She also believed that Alexandria would have a more difficult time adjusting to a new placement than when she first came to the P.s because of the length of time she has been living with the P.s, and because she is able to understand far more than when she transitioned to the P.s at two years of age.\nOn December 9, 2013, the court issued a written statement of decision, summarized below. It also granted a seven-day stay, during which the P.s filed a petition for writ of supersedeas, which this court granted, directing that Alexandria would stay with the P.s until this court decided the P.s\u2019 appeal of the court\u2019s December 9, 2013 order.\nTHE DEPENDENCY COURT\u2019S DECISION\nThe court issued its written statement of decision on December 9, 2013, finding the P.s had not demonstrated good cause to depart from the placement preferences and ordering a gradual transition for Alexandria to move from the P.s\u2019 home to the R.s\u2019 home. In its decision, the court reviewed the law governing the ICWA\u2019s placement preferences and concluded that the R.s were extended family entitled to preference under section 1915(a) and Welfare and Institutions Code section 361.31, subdivision (h) unless the P.s demonstrated good cause to depart from that preference. The court\u2019s analysis focused primarily on \u201cwhether the significant bonding between the [P.s] and Alexandria constitute[] good cause to deviate from the placement preferences.\u201d It perceived a conflict in California appellate law on whether a court could consider the bonding that had occurred between Alexandria and the P.s as part of its good cause analysis. (In re A.A. (2008) 167 Cal.App.4th 1292 [84 Cal.Rptr.3d 841] (A.A.) [affirming good cause finding based on expert testimony that minors suffered from reactive attachment disorder and changing placement would be detrimental]; cf. In re Desiree F. (2000) 83 Cal.App.4th 460 [99 Cal.Rptr.2d 688] (Desiree F.) [finding the ICWA notice violation and instructing the trial court to not consider the bonding between the child and current foster family and the trauma that may result from a change in placement in determining whether good cause exists to deviate from the ICWA\u2019s placement preferences].)\nThe court then cited Adoption of Halloway (Utah 1986) 732 P.2d 962, 971 (Holloway) for the proposition that \u201ccourts generally agree that the psychological bond of an Indian child to a foster or adoptive parent should not be used as the sole evidence to support a finding of emotional damage.\u201d The court did not discuss Halloway, but did describe two other out-of-state cases. In the first case, the Montana Supreme Court reversed a lower court finding of good cause based on the child\u2019s strong psychological bond with foster parents, concluding instead that absent testimony demonstrating a child was \u201ccertain to develop an attachment disorder\u201d the child\u2019s attachment does not necessarily outweigh the placement preferences. (In re C.H. (2000) 299 Mont. 62 [997 P.2d 776, 783] (C.H.).) In the second case, the county appealed a decision transferring a dependency case to tribal court pursuant to section 1911. The Nebraska Supreme Court reversed, concluding that the good cause exception applied when the two special needs children had lived with their non-Indian foster family for the previous seven years and two experts testified about the negative effects of a change in placement. (Interest of C.W. (1992) 239 Neb. 817 [479 N.W.2d 105, 116-118], overruled in In re Interest of Zylena R. (2012) 284 Neb. 834 [825 N.W.2d 173], to the extent that it permits a state court to consider the best interests of an Indian child in deciding whether there is good cause to deny a motion to transfer a proceeding to tribal court.)\nThe court distinguished Alexandria\u2019s situation from the facts under consideration in A. A., C.H., and Interest ofC.W., noting that \u201c[t]he expert testimony in this case did not reach to the level of certainty that Alexandria would suffer extreme detriment from another move.\u201d The court\u2019s decision included excerpts from two articles about the effect of changes in placement on children\u2019s brains, but then stated no evidence had been presented to contradict the expert testimony that a child who has successfully bonded would have an easier time bonding again and any trauma associated with a change in placement would be tempered by the stability of the earlier placement. The court noted the lack of evidence as to why introducing Alexandria to the R.s earlier would have interfered with reunification efforts, and admonished both the tribe and the Department for their respective roles in delaying contact between Alexandria and the R.s.\nUltimately, the court concluded that the Ps \u201cwere unable to meet their burden by clear and convincing evidence, that either the child currently had extreme psychological or emotional problems or would definitively have them in the future. Without that evidence, supported by experts, there is insufficient evidence to warrant a deviation from the placement preference. [Citations.] The evidence is uncontroverted that Alexandria is extremely bonded to the [P.s] and that she sees this family as her primary attachment. And while the bonding with the [P.s] is significant to this court, it does not supersede the placement preference under the ICWA. In re Desiree F.[, supra,] 83 Cal.App.4th 460.\u201d\nDISCUSSION\nWe first consider whether the adoptive placement preferences set forth in section 1915(a), and Welfare and Institutions Code section 361.31, subdivision (c), apply to Alexandria. The P.s are the only party challenging application of the placement preferences, and we conclude they lack standing to raise constitutional arguments against the ICWA\u2019s application because they do not have a constitutionally protected interest in a continued relationship with Alexandria. Even if the P.s had standing to raise their constitutional arguments, we are not persuaded they are correct on the merits. The existing Indian family doctrine applied by Division Two of this court in In re Santos Y (2001) 92 Cal.App.4th 1274 [112 Cal.Rptr.2d 692] (Santos Y) might permit us to conclude that the ICWA does not apply in this case, but the doctrine has been called into question by other appellate courts in this state, as well as by the courts of other states. The United States Supreme Court\u2019s recent opinion in Adoptive Couple v. Baby Girl (2013) 570 U.S._,_[186 L.Ed.2d 729, 133 S.Ct. 2552] (Adoptive Couple) also does not compel a different conclusion. Next, we reject the contentions made the P.s and by amici curiae that section 1915(a)\u2019s adoptive placement preferences do not apply because Alexandria had already been placed in foster care with de facto parents with the knowledge and consent of the tribe.\nConcluding that the ICWA\u2019s adoptive placement preferences do apply to this case, we then review the trial court\u2019s order finding that the P.s failed to produce clear and convincing evidence of good cause to depart from those placement preferences. We determine that the court applied the correct burden of proof by requiring the P.s to prove by clear and convincing evidence that there was good cause to deviate from section 1915\u2019s placement preferences. However, the court erroneously required the P.s to prove a certainty that Alexandria would suffer harm if moved, and failed to consider Alexandria\u2019s best interests or her bond with the P.s in determining good cause.\nThe ICWA: Background Information\nBecause numerous state and federal cases already review the legislative history and purpose of the ICWA and California\u2019s statutory enactments pertaining to Indian child welfare law (see, e.g., Adoptive Couple, supra, 570 U.S. at p._[133 S.Ct. at p. 2557]; Mississippi Choctaw Indian Band v. Holyfield (1989) 490 U.S. 30, 32 [104 L.Ed.2d 29, 109 S.Ct. 1597] (Holyfield); In re W.B. (2012) 55 Cal.4th 30, 40 [144 Cal.Rptr.3d 843, 281 P.3d 906] (W.B.) In re Autumn K. (2013) 221 Cal.App.4th 674 [164 Cal.Rptr.3d 720] (Autumn K.)), we limit our discussion here to the law most relevant to the issues presented in this case. The ICWA was enacted based on increasing concerns about \u201cabusive child welfare practices that resulted in the separation of large numbers of Indian children from their families and tribes through adoption or foster care placement, usually in non-Indian homes.\u201d (Holyfield, supra, at p. 32.) The first section of the ICWA states Congress\u2019s findings \u201c(3) that there is no resource that is more vital to the continued existence and integrity of Indian tribes than their children and that the United States has a direct interest, as trustee, in protecting Indian children who are members of or are eligible for membership in an Indian tribe; [\u00b6] (4) that an alarmingly high percentage of Indian families are broken up by the removal, often unwarranted, of their children from them by nontribal public and private agencies and that an alarmingly high percentage of such children are placed in non-Indian foster and adoptive homes and institutions; and [\u00b6] (5) that the States, exercising their recognized jurisdiction over Indian child custody proceedings through administrative and judicial bodies, have often failed to recognize the essential tribal relations of Indian people and the cultural and social standards prevailing in Indian communities and families.\u201d (\u00a7 1901.)\nThe ICWA establishes procedural and substantive standards governing the removal of Indian children from their families. (W.B., supra, 55 Cal.4th at p. 40.) The ICWA first requires notice to the Indian child\u2019s parent, Indian custodian, and tribe or the Bureau of Indian Affairs (Bureau) whenever a court has reason to know that an Indian child is involved in a child custody proceeding. (\u00a7\u00a7 1903(1), (4), 1912.) Once notice is given, the parent and the tribe have the right to petition to transfer the case to tribal court. (Holyfield, supra, 490 U.S. at p. 36.) If the matter is not transferred to tribal court, the ICWA imposes various procedural and substantive requirements on the proceedings. (W.B., supra, 55 Cal.4th at p. 49 [reviewing the ICWA\u2019s requirements in detail].) \u201cThe most important substantive requirement imposed on state courts is that of \u00a7 1915(a), which, absent \u2018good cause\u2019 to the contrary, mandates that adoptive placements be made preferentially with (1) members of the child\u2019s extended family, (2) other members of the same tribe, or (3) other Indian families.\u201d (Holyfield, supra, at pp. 36-37.)\nOne year after the enactment of the ICWA, the Bureau enacted guidelines concerning the implementation of the ICWA. (Guidelines for State Courts; Indian Child Custody Proceedings, 44 Fed.Reg. 67584 (Nov. 26, 1979) (Guidelines).) According to the Guidelines, \u201cThe Indian Child Welfare Act, the federal regulations implementing the Act, the recommended guidelines and any state statutes, regulations or rules promulgated to implement the Act shall be liberally construed in favor of a result that is consistent with these preferences. Any ambiguities in any of such statutes, regulations, rules or guidelines shall be resolved in favor of the result that is most consistent with these preferences.\u201d (Id. at p. 67586.)\nResponding to inconsistent and sporadic application of the ICWA\u2019s requirements by California courts, the California Legislature enacted Senate Bill No. 678 (2005-2006 Reg. Sess.) (Senate Bill 678) in 2006. Senate Bill 678 incorporated the ICWA\u2019s requirements into California statutory law, revising several provisions of the Family, Probate, and Welfare and Institutions Codes. (See Autumn K., supra, 221 Cal.App.4th at pp. 703-704.) According to the Senate Rules Committee, Senate Bill 678 \u201caffirms the state\u2019s interest in protecting Indian children and the child\u2019s interest in having tribal membership and a connection to the tribal community.\u201d (Sen. Rules Com., Off. of Sen. Floor Analyses, 3d reading analysis of Sen. Bill No. 678 (2005-2006 Reg. Sess.) as amended Aug. 22, 2005, p. 1.) Similar to the ICWA, Senate Bill 678 contains a section of express legislative findings, including findings that \u201c[i]t is in the interest of an Indian child that the child\u2019s membership in the child\u2019s Indian tribe and connection to the tribal community be encouraged and protected, regardless of whether the child is in the physical custody of an Indian parent or Indian custodian at the commencement of a child custody proceeding, the parental rights of the child\u2019s parents have been terminated, or where the child has resided or been domiciled.\u201d (Welf. & Inst. Code, \u00a7 224, subd. (a)(2).) The statute directs the court to \u201cstrive to promote the stability and security of Indian tribes and families, comply with the federal Indian Child Welfare Act, and seek to protect the best interest of the child. Whenever an Indian child is removed from a foster care home or institution, guardianship, or adoptive placement for the purpose of further foster care, guardianship, or adoptive placement, placement of the child shall be in accordance with the Indian Child Welfare Act.\u201d (Id., \u00a7 224, subd. (b).) In addition, a determination that a minor is \u201celigible for membership in an Indian tribe and a biological child of a member of an Indian tribe shall constitute a significant political affiliation with the tribe and shall require the application of the federal Indian Child Welfare Act to the proceedings.\u201d (Id., \u00a7 224, subd. (c).)\n\u201cIn certain respects, California\u2019s Indian child custody framework sets forth greater protections for Indian children, their tribes and parents than ICWA. [Citations.]\u201d (In re Jack C. (2011) 192 Cal.App.4th 967, 977 [122 Cal.Rptr.3d 6].) Both federal and state law expressly provide that if a state or federal law provides a higher level of protection to the rights of the parent or Indian guardian of an Indian child, the higher standard shall prevail. (\u00a7 1921; Welf. & Inst. Code, \u00a7 224, subd. (d) [also applying the higher standard of protection to the rights of the child].)\nThe ICWA defines foster care placement and adoptive placement (\u00a7 1903(l)(i) & (iv)), and establishes separate placement preferences and standards for each (\u00a7 1915(a) & (b)). The preferences reflect the legislative goals of keeping Indian children with their families and preserving the connection between the child and his or her tribe when removal is necessary. (\u00a7\u00a7 1901, 1902; see Welf. & Inst. Code, \u00a7 224.) California\u2019s statutes governing placement of Indian children parallel those of the federal law. (Welf. & Inst. Code, \u00a7 361.31; In re Anthony T. (2012) 208 Cal.App.4th 1019, 1029 [146 Cal.Rptr.3d 124] (Anthony T.) [California\u2019s statute restates in large part \u00a7 1915].) The party seeking a placement outside the statutory preferences bears the burden of demonstrating good cause. (Welf. & Inst. Code, \u00a7 361.31, subd. (j); Fresno County Dept. of Children & Family Services v. Superior Court (2004) 122 Cal.App.4th 626, 644 [19 Cal.Rptr.3d 155] (Fresno County).)\nDe Facto Parents\u2019 Challenge to the ICWA\u2019s Constitutionality\nThe P.s make three separate arguments challenging the constitutionality of the ICWA\u2019s application in this case. They first contend that the ICWA violates equal protection because Alexandria\u2019s only connection to the tribe is biological. Second, they contend the ICWA unconstitutionally impacts their liberty interest as a \u201cde facto family\u201d by requiring Alexandria\u2019s removal from their home. Third, they contend the ICWA is invalid because Congress acted outside of its enumerated powers when it enacted the ICWA. The P.s lack standing to raise any of these issues on appeal. Even if we were to conclude they had standing, we are not persuaded by their arguments.\nA. The P.s\u2019 Standing to Raise Constitutional Challenge\nAs de facto parents, the P.s\u2019 substantive and appellate rights are more limited than those of a presumed parent. (See, e.g., Clifford S. v. Superior Court (1995) 38 Cal.App.4th 747, 752-754 [45 Cal.Rptr.2d 333] [de facto parents are not entitled to reunification services and therefore lack standing to appeal denial of reunification services].) Because the P.s have not identified a constitutionally protected interest in a continued relationship with Alexandria, and because Alexandria does not join their arguments, we see no basis for expanding their limited rights to include the right to appeal the ICWA\u2019s constitutionality.\n\u201cAlthough standing to appeal is construed liberally, and doubts are resolved in its favor, only a person aggrieved by a decision may appeal. [Citations.]\u201d (In re K.C. (2011) 52 Cal.4th 231, 236 [128 Cal.Rptr.3d 276].) De facto parents must have a legal right that has been aggrieved by the order being appealed. (In re P.L. (2005) 134 Cal.App.4th 1357, 1359-1362 [37 Cal.Rptr.3d 6] [de facto parent had no right to continued custody and therefore lacked standing where the child was placed pending finding a prospective adoptive home]; but see In re Vincent M. (2008) 161 Cal.App.4th 943, 953 [74 Cal.Rptr.3d 755] (Vincent M.) [foster parents who were also prospective adoptive parents had standing to challenge an order taking the case off the adoption track].)\nIn order to challenge the constitutionality of the court\u2019s application of the ICWA in this case, the P.s must demonstrate they have a constitutionally protected interest at stake. Parents whose children are subjects of a dependency proceeding have constitutionally protected interests in a continued relationship with their children. (In re Marilyn H. (1993) 5 Cal.4th 295, 306 [19 Cal.Rptr.2d 544, 851 P.2d 826].) Children also have a fundamental interest in stability and permanency deserving of constitutional protection. (In re Jasmon O. (1994) 8 Cal.4th 398, 419 [33 Cal.Rptr.2d 85, 878 P.2d 1297].) Foster parents, on the other hand, do not enjoy the same constitutional protections. (Backlund v. Barnhart (9th Cir. 1985) 778 F.2d 1386, 1389 [\u201cfoster parents do not enjoy the same constitutional protections that natural parents do\u201d].)\nThe P.s claim there is a constitutionally protected interest in the foster family relationship. Relying on Smith v. Organization of Foster Families (1977) 431 U.S. 816, 843-847 [53 L.Ed.2d 14, 97 S.Ct. 2094] (Smith), the P.s argue that they and Alexandria, considered as a unit, are a de facto family with an interest in stability and the right to be free from government intrusion. In Smith, a group of foster parents challenged the adequacy of protections against removal of foster children who had been placed with the family a year or more. (Id. at p. 839.) The United States Supreme Court declined to decide whether the foster parents had a constitutionally protected liberty interest, concluding instead that even if such an interest existed, the challenged procedures were constitutionally adequate. (Id. at p. 847.) Ultimately, the high court held the laws governing the foster family relationship were sufficient to satisfy due process, but it did not create or recognize an independent constitutional interest in the foster family relationship. (Ibid.) The P.s here contend the ICWA violates both due process and equal protection. Without demonstrating that they are entitled to constitutional protections as foster parents, they cannot raise such a challenge.\nThe P.s also argue they have standing because Alexandria\u2019s constitutional interest in stability and permanency is intertwined with their interest in continued custody. Had Alexandria argued that the ICWA\u2019s application in this case impaired her constitutional rights, our analysis might be different. In Santos Y, the court considered a constitutional challenge raised by the de facto parents. The court did not address standing, but expressly noted that the de facto parents\u2019 position was consistent with the minor\u2019s position, and that the de facto parents did not possess their own independent constitutional interest. (Santos Y, supra, 92 Cal.App.4th at pp. 1314-1316 & fn. 24 [\u201c[a]ppellants may raise the interests of the Minor, but as foster parents do not themselves possess an interest in a familial relationship with the Minor that has been found to be fundamental for substantive due process analysis\u201d]; see In re Bridget R. (1996) 41 Cal.App.4th 1483, 1490, fn. 2 [49 Cal.Rptr.2d 507] [minors filed a responsive brief supporting position of the de facto parents challenging a change in placement under the ICWA].) Even in Smith, appointed counsel for the children argued that foster parents possessed no liberty interest independent of the interests of the foster children, and the best interests of those children would not be served by additional procedural protections against removal from foster families. (Smith, supra, 431 U.S. at p. 839.)\nIn contrast here, Alexandria\u2019s counsel and guardian ad litem never contested the ICWA\u2019s application to this case, and agreed with the Department, father, and the tribe that the ICWA required Alexandria to be placed with the R.s for adoption and good cause did not exist to deviate from that placement decision. Thus we conclude that on the facts before us, where minor has separate counsel who has sought an outcome consistent with the ICWA\u2019s requirements, de facto parents lack standing to independently appeal the constitutionality of the ICWA\u2019s application to the case.\nOur decision in Vincent M., supra, 161 Cal.App.4th 943, recognizing that de facto parents may have standing to appeal orders that impact their right to a continued relationship with a foster child, does not require a different result. In Vincent M., the minor was placed with the de facto parents when he was only four days old, and the case was immediately put on the adoption track. The biological father appeared for the first time in the action eight months later, filing a petition under Welfare and Institutions Code section 388 seeking reunification services. We held that the de facto parents had a legally cognizable interest in the planned adoption and a right to appeal an order that took the case off the adoption track. (161 Cal.App.4th at p. 953.) The foster parents in Vincent M. were aggrieved by the order they were appealing, but they made no constitutional challenge to the trial court\u2019s order on behalf of the minor. Here, the P.s acknowledge Alexandria\u2019s placement with them was not an adoptive placement and they were consistently made aware that the ICWA\u2019s placement preferences were applicable. They knew at all times the placement was intended to be temporary to facilitate reunification and Alexandria would either reunify with father or be placed with another family under the ICWA\u2019s placement preferences.\nB. Constitutional Arguments\nEven if we were to conclude the P.s had standing to challenge the ICWA\u2019s constitutionality, we find their arguments unpersuasive. The P.s\u2019 constitutional arguments emphasize that Alexandria\u2019s connection to the tribe is solely biological, and that father did not have physical or legal custody of Alexandria before the dependency case was filed. We reject the P.s\u2019 attempt to apply the existing Indian family doctrine to this case, and to expand the limited holding of the United States Supreme Court in Adoptive Couple, supra, 570 U.S._ [133 S.Ct. 2552], well beyond its intended scope. We also reject the argument that Congress acted outside of its enumerated powers in enacting the ICWA.\n1. The continued viability of the existing Indian family doctrine is questionable, and it is inapplicable to this case\nThe existing Indian family doctrine is a judicially created exception to the ICWA for factual situations when the minor has never been a member of an Indian home or exposed to Indian culture. It was first applied by the Kansas Supreme Court in Matter of Adoption of Baby Boy L. (1982) 231 Kan. 199 [643 P.2d 168, 175. That court has since repudiated the doctrine, as have courts in many other states. (In re A.J.S. (2009) 288 Kan. 429 [204 P.3d 543, 548-551]; see Thompson v. Fairfax County Dept. of Family Services (2013) 62 Va.App. 350 [747 S.E.2d 838, 847-848] [citing and joining \u201cthe growing chorus of courts that have rejected the Existing Indian Family Exception\u201d].)\nIn California, there is a split in the appellate districts, and the continued viability of the doctrine is far from settled. Four of California\u2019s six appellate districts have rejected the doctrine. Most recently, the First Appellate District declared, \u201cThere is no question that the existing Indian family doctrine is not viable in California.\u201d (Autumn K., supra, 221 Cal.App.4th at p. 716.) The Sixth Appellate District rejected the doctrine in In re Vincent M. (2007) 150 Cal.App.4th 1247, 1265 [59 Cal.Rptr.3d 321], turning away from its earlier application of the doctrine in Crystal R. v. Superior Court (1997) 59 Cal.App.4th 703, 718-724 [69 Cal.Rptr.2d 414] (Crystal R.), and explicitly rejecting this district\u2019s continued application of the doctrine in Santos Y, supra, 92 Cal.App.4th 1274. Also among those rejecting the doctrine are the Third Appellate District (Adoption of Hannah S. (2006) 142 Cal.App.4th 988, 996 [48 Cal.Rptr.3d 605]) and the Fifth Appellate District (In re Alicia S. (1998) 65 Cal.App.4th 79 [76 Cal.Rptr.2d 121] (Alicia S.)).\nOf the two California appellate districts that have upheld the doctrine, the Fourth District\u2019s decision (In re Alexandria Y. (1996) 45 Cal.App.4th 1483 [53 Cal.Rptr.2d 679]) predates the enactment of Welfare and Institutions Code section 224 in 2006, codifying the California Legislature\u2019s intent to protect and encourage an Indian child\u2019s connection to the tribal community, regardless of the child\u2019s prior connection to the tribe. Only our own Second District has published an opinion rejecting the Legislature\u2019s attempt to establish the ICWA\u2019s application where a minor\u2019s sole connection to the tribe is biological. (Santos Y, supra, 92 Cal.App.4th 1274 [not applying statute rejecting existing Indian family doctrine because Cal. Legislature has no independent constitutional authority with respect to Indian tribes].) Even if Santos Y, supra, 92 Cal.App.4th 1274 is correct in recognizing the existing Indian family doctrine, it is distinguishable from the current case because the appellants and the minors in Santos Y both sought the same result, namely continued placement with the de facto parents. In contrast here, Alexandria, through her counsel, argues the court was correct in applying the ICWA, and only the P.s \u2014 who lack an independent constitutional right \u2014 are arguing the ICWA is unconstitutional as applied. Without going into an in depth analysis, in light of the numerous decisions within California and from other states rejecting the existing Indian family doctrine, we are inclined to agree with the Sixth District\u2019s reasoning that later California statutes indicate a clear intent to prohibit state courts from continuing to apply the existing Indian family doctrine in cases where the ICWA would otherwise apply. (See In re Vincent M., supra, 150 Cal.App.4th at p. 1271 (conc. opn. of Bamattre-Manoukian, J); see also Welf. & Inst. Code, \u00a7 224, subds. (a)(2) & (c).)\n2. The United States Supreme Court\u2019s analysis in Adoptive Couple does not impact this case\nThe most recent United States Supreme Court case addressing the ICWA only receives tangential mention in the P.s\u2019 opening brief to support their argument that the ICWA cannot constitutionally apply to a case where an Indian father never had custody of the child. The reasoning of Adoptive Couple, supra, 570 U.S. at pages - [133 S.Ct. at pp. 2558-2559] has no impact on the case before us, because the facts of our case are entirely distinguishable.\nAdoptive Couple involved an Indian father whose child was placed in a private adoption after he had voluntarily relinquished his parental rights. (Adoptive Couple, supra, 570 U.S. at pp.___-_ [133 S.Ct. at pp. 2558-2559].) The Supreme Court addressed whether the ICWA precluded termination of the father\u2019s rights until the court found that \u201c \u2018active efforts have been made to provide remedial services and rehabilitative programs\u2019 \u201d to the father and that his continued custody of the minor would \u201c \u2018result in serious emotional or physical\u2019 \u201d harm to the minor. (570 U.S. at pp. - [133 S.Ct. at pp. 2557-2558], quoting \u00a7 1912(d) & (f).) The court held that such findings were not necessary because the father never had physical or legal custody of the minor. The court interpreted statutory language referring to a parent\u2019s \u201ccontinued custody\u201d (\u00a7 1912(f)) and efforts directed at preventing the \u201cbreakup of the Indian family\u201d (\u00a7 1912(d)) as limiting the scope of the statutory requirements so as to exclude a biological father who never had physical or legal custody of his child. (570 U.S. at pp. - [133 S.Ct. at pp. 2560-2564].) The court\u2019s opinion is based entirely on interpreting the statutory language, in particular the phrases \u201ccontinued custody\u201d and \u201cbreakup,\u201d to arrive at the conclusion that the ICWA\u2019s protections did not apply to the father. Nowhere in the court\u2019s opinion is there a discussion of the ICWA\u2019s constitutionality, or whether it may constitutionally be applied in a dependency proceeding where the Indian father has a period of substantial compliance with reunification services, including unmonitored visitation. Justice Scalia\u2019s dissent in Adoptive Couple raises the question of whether visitation would be sufficient to warrant the ICWA\u2019s protections under section 1912(d) and (f). (570 U.S. at pp. - [133 S.Ct. at pp. 2578-2579] (dis. opn. of Scalia, J.).) However, the court does not address the concern beyond noting that such parents might receive protections under state law. (Id. at p._, fn. 8 [133 S.Ct. at p. 2563, fn. 8].) None of the discussion affects the dependency court\u2019s application of the ICWA in the case currently under appeal.\nPart IV of the United States Supreme Court\u2019s opinion does address the ICWA\u2019s placement preferences under section 1915, the provision at issue in our case. The court held that when no party entitled to placement preference under section 1915(a) has come forward to adopt an Indian child, the preferences identified under that section do not apply. (Adoptive Couple, supra, 570 U.S. at p._[133 S.Ct. at p. 2564].) This holding does not apply to the case at hand because the R.s have been identified as prospective adoptive parents and are entitled to placement preference because they are considered extended family by the tribe. Nothing in the reasoning of Adoptive Couple leads us to conclude otherwise.\n3. We need not examine the ICWA\u2019s facial constitutionality\nAppellant\u2019s final attack on the ICWA\u2019s constitutionality rests on Justice Thomas\u2019s concurrence in Adoptive Couple. (Adoptive Couple, supra, 570 U.S. at pp. - [133 S.Ct. at pp. 2565-2571] (conc. opn. of Thomas, J.).) Justice Thomas characterizes the ICWA as facially unconstitutional because it falls outside Congress\u2019s powers to \u201cregulate Commerce . . . with the Indian Tribes.\u201d (U.S. Const., art. I, \u00a7 8, cl. 3.) This view was not adopted by any other member of the United States Supreme Court, and even if it had any viability, it would not bar the application of California statutes that parallel the ICWA. Thus, the trial court\u2019s decision would still be a legitimate application of Welfare and Institutions Code section 361.31.\nAsserted Agreement by the Tribe to Alexandria\u2019s Adoptive Placement by Consenting to Her Foster Care Placement with the P.s\nThe P.s and amici curiae make a novel contention that by consenting to Alexandria\u2019s placement with a family outside of the foster care placement preferences identified in section 1915(b), the tribe waived the application of the adoptive placement preferences stated in section 1915(a). We reject this contention because the P.s forfeited the issue by failing to raise it before the court and also because it does not comport with the plain statutory language.\nBecause they failed to argue this issue to the court, the P.s are precluded from raising the argument on appeal. A claim of error is forfeited on appeal if it is not raised in the trial court. (In re S.B. (2004) 32 Cal.4th 1287, 1293 [13 Cal.Rptr.3d 786, 90 P.3d 746].) \u201cThe purpose of this rule is to encourage parties to bring errors to the attention of the trial court, so that they may be corrected.\u201d (Ibid.) There was an extended timeframe during which the P.s argued that Alexandria should remain placed with them, but at no point did they argue that the tribe\u2019s consent to foster care placement precluded application of section 1915(a). Therefore, this issue is forfeited on appeal.\nEven if we did not consider the issue forfeited, we are not persuaded that Congress or the California Legislature intended to require tribes to make an election at the time of foster care placement that would prevent a change in placement for adoption, especially when the foster family is informed that they are not being considered as an adoptive placement because of the ICWA\u2019s requirements. Section 1903(1) provides separate definitions for \u201cfoster care placement\u201d and \u201cadoptive placement.\u201d The ICWA\u2019s placement preferences are distinct for each type of placement, and different considerations apply for foster care and adoptive placements. (See \u00a7\u00a7 1915(a) [adoptive placement preferences], 1915(b) [foster care placement preferences].) For example, foster care placements must be within reasonable proximity to the child\u2019s home and must take a child\u2019s special needs into account. (\u00a7 1915(b); Anthony T, supra, 208 Cal.App.4th at pp. 1029-1032 [foster care placement was not in \u201creasonable proximity\u201d to minor\u2019s home].) The same is not true for adoptive placements. (\u00a7 1915(a).) The P.s and amici curiae argue that once an Indian child is placed in foster care under section 1915(b), the only way for a court to consider adoptive placement preferences under section 1915(a) is if the child is \u201cremoved\u201d from the foster placement under section 1916(b).\nThis argument is unsupported by case law and, in fact, runs counter to the many published cases where a tribe or Indian parent initially consents to foster care placement that does not comply with the ICWA\u2019s placement preferences, and later asserts adoptive placement preferences, usually after reunification efforts have failed. (See, e.g., Santos Y., supra, 92 Cal.App.4th 1274 [tribe supported placement with foster parents for two years, until it found a suitable individual qualified as a preferred adoptive placement]; Native Village of Tununak v. State, Dept. of Health & Social Services, Office of Children\u2019s Services (Alaska 2013) 303 P.3d 431, 434 (Tununak) [parties stipulated to a foster placement that departed from the ICWA\u2019s placement preferences while a search for preferred placements continued].)\nThe good cause exception permits a court to depart from adoptive placement preferences. (See, e.g., Alicia S., supra, 65 Cal.App.4th at pp. 91-92 [removal from a foster home is not a foregone conclusion if the ICWA applies, because \u201cgood cause\u201d exception may permit a different result].) However, we decline to conclude that mere consent to a foster care placement falling outside the preferences listed in section 1915(b) in order to facilitate reunification efforts precludes a court from ordering a later change in placement to comply with section 1915(a)\u2019s adoptive placement preferences.\nThe Dependency Court\u2019s Decision on the Applicability of the Good Cause Exception to the ICWA \u2019s Placement Preferences\nThe trial court correctly required the P.s to demonstrate by clear and convincing evidence that there was good cause to depart from the ICWA\u2019s placement preferences. However, the court\u2019s application of the good cause exception to the facts before it was legally erroneous. Because the error was prejudicial to the P.s, we reverse and remand the matter for the court to conduct further proceedings necessary to apply the good cause exception in a manner consistent with this opinion.\nA. The Clear and Convincing Standard of Proof Applies to Good Cause Determinations Under Section 1915 of the United States Code.\nThe P.s and amici curiae contend that the trial court applied an erroneous standard of proof when it concluded they failed to show good cause by clear and convincing evidence. According to the P.s, good cause need only be shown by a preponderance of the evidence because both the state and federal statutes are silent on the applicable standard of proof. (Evid. Code, \u00a7 115 \u201c[ejxcept as otherwise provided by law, the burden of proof requires proof by a preponderance of the evidence\u201d].) The Department and Alexandria both contend that the court correctly required the P.s to show clear and convincing evidence of good cause. Alexandria also contends the P.s forfeited the right to raise the issue on appeal by failing to object to the court\u2019s use of the clear and convincing standard of proof. Father and the tribe join in these arguments.\nWe exercise our discretion to proceed to the merits of the P.s\u2019 argument. In a case where the placement of a young child is at issue, allocation of the burden of proof in the trial court\u2019s assessment of good cause is an issue of vital importance and sufficient magnitude to warrant relaxation of the rule of forfeiture. We conclude that in spite of the absence of express statutory language, the party asserting the good cause exception to the ICWA\u2019s placement preferences must demonstrate good cause by clear and convincing evidence.\nWe review de nova the question of what standard of proof applies in light of a silent or ambiguous statute. (In re Michael G. (1998) 63 Cal.App.4th 700, 709-710 [74 Cal.Rptr.2d 642] (Michael G.).) \u201cOur primary aim in construing any law is to determine the legislative intent. [Citation.] In doing so we look first to the words of the statute, giving them their usual and ordinary meaning. [Citations.]\u201d (Committee of Seven Thousand v. Superior Court (1988) 45 Cal.3d 491, 501 [247 Cal.Rptr. 362, 754 P.2d 708].) The function of a standard of proof is to instruct the finder of fact about the degree of confidence necessary for a particular type of adjudication, balancing the weight of private and public interests and reflecting a societal judgment of how the risk of error should be distributed between the parties. (Santosky v. Kramer (1982) 455 U.S. 745, 754-755 [71 L.Ed.2d 599,102 S.Ct. 1388]; Cynthia D. v. Superior Court (1993) 5 Cal.4th 242, 251 [19 Cal.Rptr.2d 698, 851 P.2d 1307].) Here, a lower standard of proof would likely result in more frequent exceptions to the ICWA\u2019s placement preferences, undermining \u201c[t]he most important substantive requirement imposed on state courts\u201d by the ICWA. (Holyfield, supra, 490 U.S. at pp. 36-37.) The Guidelines state that custody proceedings involving Indian children \u201cshall follow strict procedures and meet stringent requirements to justify any result in an individual case contrary to [the ICWA placement] preferences,\u201d and that any ambiguities in the ICWA statutes \u201cshall be resolved in favor of a result that is most consistent with these preferences.\u201d (Guidelines, supra, 44 Fed.Reg. at p. 67586.) Although the Guidelines are not binding, they help inform our decision of whether the ICWA mandates a \u201cclear and convincing evidence\u201d standard in adoptive preferences.\nNeither section 1915 nor Welfare and Institutions Code section 361.31 specifies a standard of proof for the good cause exception to the placement preferences identified in the statute. This is in contrast to other provisions of the two statutory schemes, where either Congress or the California Legislature has specified a standard of proof. (See, e.g., \u00a7 1912(e) [requiring clear and convincing evidence that a parent\u2019s continued custody of a child is likely to result in harm to the child before placing the child in foster care]; Welf. & Inst. Code, \u00a7 361.7, subd. (c) [same].) The principles of statutory construction recognize that when the Legislature employs a term in one place and omits it in another, the term usually should not be implied where it is absent. (Michael G., supra, 63 Cal.App.4th at p. 710.) The same principle applies in federal law. (Grogan v. Garner (1991) 498 U.S. 279, 286 [112 L.Ed.2d 755, 111 S.Ct. 654] [legislative \u201csilence is inconsistent with the view that Congress intended to require a special, heightened standard of proof\u2019].) However, courts have also interpreted statutes that do not specify a standard of proof as requiring clear and convincing evidence, rather than the lower standard of preponderance of the evidence. (See, e.g., In re Marquis D. (1995) 38 Cal.App.4th 1813, 1827-1829 [46 Cal.Rptr.2d 198] [despite statute\u2019s silence, the department must show clear and convincing evidence of detriment before court can deny noncustodial parent\u2019s request for placement].)\nThe ICWA\u2019s policy goal of promoting the stability and security of Indian tribes and families persuades us to join the growing number of state courts, including the Supreme Courts of Alaska and South Dakota, that apply the clear and convincing standard of proof to good cause determinations under section 1915. (See, e.g., Tununak, supra, 303 P.3d 431 [overruling earlier precedent and requiring clear and convincing evidence for good cause determinations]; People ex rel. South Dakota Dept. of Social Services (2011) 2011 SD 8 [795 N.W.2d 39, 43-44] [\u201cdeviations from the ICWA placement preferences require a showing of good cause by clear and convincing evidence\u201d]; In re Adoption of Baby Girl B. (2003) 2003 OKCIVAPP 24 [67 P.3d 359, 373-74] [clear and convincing standard of proof applies to \u00a7 1915(b) determinations]; Matter of Custody of S.E.G., (Minn.Ct.App. 1993) 507 N.W.2d 872, 878, revd. on other grounds (Minn. 1994) 521 N.W.2d 357 (S.E.G.) [\u201cit is unreasonable to assume that Congress, by its silence, intended to apply the preponderance of the evidence standard when determining whether \u2018good cause\u2019 exists to deviate from the adoption placement preferences . . .\u201d].) In contrast, the P.s do not cite to any cases applying the preponderance of the evidence standard of proof to good cause exceptions to the placement preferences, and we are aware of only one published appellate court decision rejecting the clear and convincing standard of proof. (Department of Human Services v. Three Affiliated Tribes of Ford Berthold Reservation (2010) 236 Or. App. 535 [238 P.3d 40, 50, fn. 17] [rejecting minor\u2019s contention that good cause determination must be based on clear and convincing evidence].)\nJust last year, the Alaska Supreme Court examined this precise issue, and we are persuaded by its well-reasoned decision that despite the lack of explicit statutory language, a court must find clear and convincing evidence of good cause before it may deviate from the ICWA\u2019s placement preferences. In Tununak, supra, 303 P.3d at pages 433-440, a four-month-old Indian girl was removed from her parents, who lived in Anchorage. The girl\u2019s maternal grandmother lived in a remote Alaskan town, and although she was available for placement, all parties agreed that immediate placement would hinder any efforts at reunification. Instead, the girl was placed with a non-Indian foster family in Anchorage to facilitate reunification efforts.\nThe tribe consented to the foster care placement. After the parents failed to reunify, the lower court found good cause by a preponderance of the evidence to deviate from a preferred placement, allowing the minor to remain with the foster family rather than placing her with the maternal grandmother for adoption. (Tununak, supra, 303 P.3d at pp. 433-440.) The Alaska Supreme Court in Tununak conducted an in depth examination of legislative history and cases from other jurisdictions, and also considered its own earlier decisions identifying preponderance of the evidence as the correct standard of proof for finding good cause, and reached the conclusion that its earlier decisions were erroneous and the correct standard of proof for the good cause exception was clear and convincing evidence. (Id. at pp. 446-449.) In light of the ICWA\u2019s policy \u201cto protect the best interests of Indian children and to promote the stability and security of Indian tribes and families\u201d the Tununak court declined to infer the appropriate standard of proof without a closer examination of Congress\u2019s intent. (\u00a7 1902; see Tununak, supra, at p. 447.) In enacting the ICWA, Congress intended to \u201ceradicate the unwarranted removal of Indian children from their communities. Congress expressly noted the role of state courts in perpetuating this problem and sought to rein in state court discretion through the passage of mandatory federal standards, amongst which is \u00a7 1915(a).\u201d (Tununak, supra, at pp. 447-448, fns. omitted.)\nThe Alaska Supreme Court looked to the United States Supreme Court\u2019s reasoning in Holyfield, supra, 490 U.S. 30, as supporting the inference that a higher evidentiary standard was warranted based on close scrutiny of Congressional intent. (Tununak, supra, 303 P.3d at p. 448.) In Holyfield, the United States Supreme Court pointed to the legislative history and purpose of the ICWA to conclude that Congress did not intend to leave definitions of critical terms such as \u201cdomicile\u201d to state courts because Congress perceived those courts as \u201cpartly responsible for the problem it intended to correct.\u201d (Holyfield, supra, 490 U.S. at p. 45.) Just as Holyfield considered it \u201cbeyond dispute that Congress intended a uniform federal law of domicile for the ICWA\u201d (id. at p. 47), courts have almost universally concluded that Congress intended a nationally consistent standard of proof for the good cause exception. (Tununak, supra, at p. 448). As the Tununak court explained, \u201cHolyfield instructs us that like the definition of \u2018domicile,\u2019 the \u2018good cause\u2019 standard must be interpreted according to Congress\u2019s intent. While we are mindful that Congress intended to leave the good cause determination to the states, we recognize that this discretion is not without bounds. As our foregoing analysis of the purposes and policies that drove the enactment of ICWA indicates, the clear and convincing evidence standard is most consistent with Congress\u2019s intent to maintain Indian families and tribes intact wherever possible by eradicating the unwarranted removal of Indian children from their communities.\u201d (Ibid.)\nThe Tununak court also pointed out that \u201c[a] clear and convincing standard of proof for \u00a7 1915(a) good cause determinations is also more consistent with other provisions in ICWA demanding a heightened standard of proof.\u201d (Tununak, supra, 303 P.3d at p. 449; see ibid, [referring to \u00a7\u00a7 1921 (\u201c[i]n any case where State or Federal law applicable to a child custody proceeding . . . provides a higher standard of protection to the rights of the parent or Indian custodian of an Indian child than the rights provided under this subchapter, the State or Federal court shall apply the State or Federal standard\u201d), 1912(e) (requiring clear and convincing evidence that the continued custody of the child by the parent or Indian custodian is likely to result in serious emotional or physical damage to the child), 1912(f) (requiring evidence beyond a reasonable doubt before parental rights are terminated).)\nBased on principles of statutory interpretation and case law, both from California as well as other state courts, we are persuaded that even in the face of legislative silence on the question, both Congress and the California Legislature intended for courts to apply the higher clear and convincing evidence standard of proof before making a good cause exception to the placement preferences.\nB. The Dependency Court\u2019s Interpretation of the Good Cause Exception Was Legally Erroneous\nWhen a party appeals a good cause determination, the appellate court usually applies a substantial evidence standard of review. (Fresno County, supra, 122 Cal.App.4th at pp. 644 \u2014 646.) \u201cUnder this standard, we do not pass on the credibility of witnesses, attempt to resolve conflicts in the evidence, or reweigh the evidence. Instead, we draw all reasonable inferences in support of the findings, view the record favorably to the juvenile court\u2019s order and affirm the order even if there is other evidence supporting a contrary finding. [Citations.] The appellant has the burden of showing there is no evidence of a sufficiently substantial nature to support the court\u2019s findings. [Citation.]\u201d (In re G.L. (2009) 177 Cal.App.4th 683, 697-698 [99 Cal.Rptr.3d 356].) However, because the Rs challenge the lower court\u2019s interpretation of the term \u201cgood cause,\u201d they raise issues of statutory interpretation, which we review de nova. (Anthony T., supra, 208 Cal.App.4th at p. 1028.)\nThe court committed three legal errors in interpreting the meaning of the term \u201cgood cause\u201d as an exception to the placement preferences identified in section 1915. First, it erred by requiring the P.s to show that Alexandria either \u201ccurrently had extreme psychological or emotional problems or would definitively have them in the future\u201d and reasoning that the \u201cexpert testimony in this case did not reach to the level of certainty that Alexandria would suffer extreme detriment from another move.\u201d Second, while not entirely clear from the court\u2019s statement of decision, the court may have erroneously declined to consider the bond between Alexandria and the P.s, and the detriment Alexandria might suffer from an order requiring a change in placement. Third, the court failed to consider Alexandria\u2019s best interests in deciding whether the good cause exception applied.\n\u201c[T]he legislative history of the [ICWA] \u2018states explicitly that the use of the term \u201cgood cause\u201d was designed to provide state courts with flexibility in determining the disposition of a placement proceeding involving an Indian child. [Citation.]\u2019 [Citation.]\u201d (In re Robert T. (1988) 200 Cal.App.3d 657, 663 [246 Cal.Rptr. 168].) In determining whether good cause exists to depart from the ICWA\u2019s placement preferences, the court may take a variety of considerations into account. The Guidelines state, \u201ca determination of good cause not to follow the order of preference set out above shall be based on one or more of the following considerations: [\u00b6] (i) The request of the biological parents or the child when the child is of sufficient age. [\u00b6] (ii) The extraordinary physical or emotional needs of the child as established by testimony of a qualified expert witness, [\u00b6] (iii) The unavailability of suitable families for placement after a diligent search has been completed for families meeting the preference criteria.\u201d (Guidelines, supra, 44 Fed.Reg. at p. 67594.) These considerations are not exclusive, and courts are free to consider other factors. (Fresno County, supra, 122 Cal.App.4th at p. 643 [the guidelines \u201cshould be given important but not controlling significance\u201d].)\n1. Certainty requirement\nIn determining what evidence is required to establish good cause, the court ruled that a moving party could only show good cause by expert testimony and evidence that the child \u201ccurrently had extreme psychological or emotional problems, or would definitively have them in the future.\u201d This extreme standard is not based in California law, but instead is found in an opinion by the Montana Supreme Court, which reversed a lower court\u2019s finding of good cause to deviate from the ICWA\u2019s placement preferences. (C.H., supra, 997 P.2d 776.) In C.H., the lower court determined the child had likely suffered physical abuse and placed her with non-Indian foster parents at the age of three months. When the child was 15 months old, the lower court found good cause to deviate from the ICWA\u2019s placement preferences based in part on a finding that \u201cas a result of [minor\u2019s] emotional bond with the [foster family] and the abuse she experienced early in life, she is at risk for developing an attachment disorder should she be removed\u201d from her foster home. (997 P.2d at p. 781.) The Montana Supreme Court reversed, pointing to the lack of any testimony that the minor \u201cwas certain to develop an attachment disorder if removed from\u201d the foster family\u2019s home. (Id. at p. 783, italics added.) The court went on to explain the certainty requirement by stating, \u201cThe risk that a child might develop such problems in the future is simply too nebulous and speculative a standard on which to determine that good cause exists to avoid the ICWA placement preferences. Indeed, it could be said that any child who has been abused, removed from its parents\u2019 care at a young age and placed in foster care might be at risk for developing emotional or psychological disorders. To allow such an indefinite standard to meet the good cause test for avoiding the preferences would essentially ignore the preferences set forth in \u00a7 1915(a) of the ICWA.\u201d (Ibid.)\nThe decision in C.H., supra, 997 P.2d 776 is in a distinct minority among cases interpreting the good cause requirement, as most cases do not require the party seeking a good cause exception to the placement preferences to demonstrate with certainty that a child will suffer harm. (See, e.g., Fresno County, supra, 122 Cal.App.4th at p. 640 [affirming good cause finding based on \u201chigh risk\u201d that minor would develop an attachment order]; A.A., supra, 167 Cal.App.4th at pp. 1329-1330 [good cause to remain in nonpreferred placement because removal posed a serious risk of harm].) An Arizona appellate opinion reflects our concern about holding a moving party to such a high standard: \u201cWe disagree with In re C.H. Interpreting ICWA to require an expert to testify that trauma is certain to result from a transfer of custody or if a certain placement is or is not made cannot be in a child\u2019s best interest. Prediction of psychological or emotional harm is not an exact science. All we can expect is that, given the expert\u2019s experience, there is a reasonable prospect for significant emotional harm to the child by removal from a home.\u201d (Navajo Nation v. Arizona Dept. of Economic Security (Ariz.Ct.App. 2012) 284 P.3d 29, 38, italics added (Navajo Nation).)\nBased on the cases discussed above, we conclude that the court incorrectly required the P.s to show a certainty that Alexandria would suffer harm if the court followed the placement preferences listed in section 1915(b). Instead, we hold that a court may find good cause when a party shows by clear and convincing evidence that there is a significant risk that a child will suffer serious harm as a result of a change in placement. (See, e.g., Fresno County, supra, 122 Cal.App.4th at p. 640.)\n2. Bonding with foster family\nThe court erroneously relied on Desiree F, supra, 83 Cal.App.4th at page 476 and Halloway, supra, 732 P.2d 962 to conclude that \u201cwhile the bonding with the [P.s] is significant to this court, it does not supersede the placement preference under the ICWA.\u201d It is impossible to determine from this language whether the court considered the bond between Alexandria and the P.s as a factor, or felt compelled by Desiree F. to ignore the bond in determining good cause. To the extent the court relied on Desiree F. to exclude the bond as a factor in the good cause determination, it did so erroneously because the facts of our case do not warrant such an exclusion. In Desiree F., the social services agency was responsible for the delay in notifying the tribe of the proceedings, and the appellate court clarified that on remand, the trial court could not consider factors flowing from the agency\u2019s \u201cflagrant violation\u201d of the ICWA, including any bond the minor developed with the current foster family. (Desiree R, supra, at p. 476.) In the present case, the Department acted promptly to notify the tribe, and the social worker was in communication with the tribe even before Alexandria was placed with the P.s. Thus, no ICWA violation precludes the court from considering the bond that Alexandria has with her foster family.\nThe social workers and therapists who testified at trial all agreed that Alexandria had a strong bond with and a healthy attachment to the P.s. Testimony varied on nature of the trauma Alexandria would suffer upon the breaking of her bond with the P.s as her primary caregivers. Genevieve Marquez and Jennifer Lingenfelter, the therapist and supervisor at United American Indian Involvement, acknowledged that being removed from the P.s would cause some trauma to Alexandria, but that she was resilient and would overcome any trauma, particularly if she was able to maintain continued contact with the P.s and received therapeutic support after placement with the R.s. The Department social worker, Roberta Javier, acknowledged that the transition would be difficult for Alexandria, but that because she has a healthy attachment currently, and because she knows the R.s as family, she would be able to renegotiate a new bond that would be just as healthy. Lauren Axline, the social worker for the foster family agency, had the strongest views of the negative impact on Alexandria. It was Axline\u2019s belief that Alexandria would experience removal as the death of a parent or family \u201cbecause she is being taken away from everything that is familiar to her, everything that she\u2019s known to be stability.\u201d Axline also felt that continued contact and therapeutic support would not lessen the trauma suffered by Alexandria.\nIn fact the bond between Alexandria and her caretakers and the trauma that Alexandria may suffer if that bond is broken are essential components of what the court should consider when determining whether good cause exists to depart from the ICWA\u2019s placement preferences. In addition, Halloway does not support excluding the bond from a good cause consideration under section 1915, as it involved a different section of the ICWA, concerning tribal court jurisdiction, and good cause for a court to decline to transfer a dependency case to tribal court. (Holloway, supra, 732 P.2d at pp. 971-972.)\n3. Best interests\nThe court also committed legal error by failing to consider Alexandria\u2019s best interests as part of its good cause determination. The court\u2019s written statement of decision does not reveal whether the court considered Alexandria\u2019s best interests as one of the key factors in determining whether there is good cause to depart from the ICWA\u2019s placement preferences. \u201cThe ICWA presumes it is in the best interests of the child to retain tribal ties and cultural heritage and in the interest of the tribe to preserve its future generations, a most important resource. (In re Crystal K. (1990) 226 Cal.App.3d 655, 661 [276 Cal.Rptr. 619].)\u201d (Desiree F., supra, 83 Cal.App.4th at p. 469.) But the presumption that following the placement preferences is in a child\u2019s best interest is a starting point, not the end, of the inquiry into a child\u2019s best interests. As an Arizona appellate court recently explained, courts \u201cshould start with the presumption that ICWA preferences are in the child\u2019s best interest and then balance that presumption against other relevant factors to determine whether placement outside ICWA preferences is in the child\u2019s best interest.\u201d (Navajo Nation, supra, 284 P.3d at p. 35.)\n\u201c \u2018Good cause\u2019 often includes considerations affecting the best interests of the child, such as whether the child has had any significant contact with the tribe ... or the extent of the child\u2019s bonding with a prospective adoptive family. [Citations.]\u201d (Crystal R., supra, 59 Cal.App.4th 703, 720, fn. omitted.) Although we are unaware of any published California case holding that a court must consider a child\u2019s best interests when determining good cause, such an approach is consistent with the law in many other states and with California\u2019s emphasis on best interests in dependency proceedings. (See, e.g., In re Lauren R. (2007) 148 Cal.App.4th 841, 855 [56 Cal.Rptr.3d 151] [\u201c \u2018the fundamental duty of the court is to assure the best interests of the child, whose bond with a foster parent may require that placement with a relative be rejected\u2019 \u201d]; Tununak, supra, 303 P.3d at pp. 451-452 [good cause depends on many factors, including the child\u2019s best interests]; In Interest of A.E. (Iowa 1997) 572 N.W.2d 579, 585 [good cause depends on a fact determinative analysis consisting of many factors, including the best interests of the child]; In re Interest of Bird Head (1983) 213 Neb. 741 [331 N.W.2d 785, 791] [\u201c[ICWA] does not change the cardinal rule that the best interests of the child are paramount, although it may alter its focus.\u201d]; but see S.E.G., supra, 521 N.W.2d at pp. 362-363 [holding that the good cause exception does not include the best interests of the child].) Based on the foregoing, we conclude the court erred in failing to consider whether, in light of the presumption that adherence to the placement preferences would usually be in a minor\u2019s best interests, Alexandria\u2019s best interests supported a finding of good cause.\nC. The Dependency Court\u2019s Erroneous Interpretation of the Good Cause Exception Was Prejudicial\nBased on the evidence presented to the court at the good cause hearing, we conclude that the court\u2019s erroneous application of the good cause exception was prejudicial. (See In re Abram L. (2013) 219 Cal.App.4th 452, 463 [161 Cal.Rptr.3d 837] [finding prejudicial error based on reasonable probability that a result more favorable to the appealing party would have been reached in the absence of error].) In this case, it is reasonably probable that the court\u2019s decision would have been different had it applied the correct good cause standard, considering risk of harm rather than requiring the P.s to show a certainty of harm, and considering Alexandria\u2019s best interests, including the strength and longevity of her bond with the P.s and the trauma she may suffer if that bond is broken.\nA full year has passed since the court began its good cause hearing in July 2013, and circumstances may have changed in the interim. For example, Alexandria may have had additional opportunities to bond more strongly with the R.s, reducing the risk of detriment or trauma. Alternatively, her bond with the P.s may have become even more primary and strong. Because we reverse and remand, we emphasize that in determining whether good cause exists to depart from the placement preferences identified in section 1915(a), the court may consider facts and circumstances that have arisen since the filing of this appeal. (See, e.g., In re B.C. (2011) 192 Cal.App.4th 129, 150-151 [121 Cal.Rptr.3d 366] [reversing and remanding with clarification that in determining child\u2019s best interests, the court may consider events arising since the filing of the appeal].)\nWe recognize that a final decision regarding Alexandria\u2019s adoptive placement will be further delayed as a result of our determination of the merits of this appeal. That delay is warranted by the need to ensure that the correct legal standard is utilized in deciding whether good cause has been shown that it is in the best interest of Alexandria to depart from the ICWA\u2019s placement preferences.\nDISPOSITION\nThe order transferring custody of the minor to the R.s is reversed. The cause is remanded to the dependency court with directions to determine if good cause exists to deviate from the ICWA\u2019s adoptive placement preferences in accordance with this opinion.\nTurner, P. J., and Mosk, J., concurred.\nA petition for a rehearing was denied September 4, 2014, and the petitions of appellants and respondent J.E. for review by the Supreme Court were denied October 29, 2014, S221458.\nAll statutory references are to 25 United States Code, unless otherwise indicated.\nFather initially denied any Indian heritage, and the record does not contain any evidence he ever lived on a reservation or had any social, political, or cultural ties to the tribe. Alexandria\u2019s paternal grandmother alerted the Department to father\u2019s tribal membership and also reported that Alexandria\u2019s half sister is a registered member of the tribe.\nThe ICWA defines an Indian child as including \u201cany unmarried person who is under age eighteen and ... is eligible for membership in an Indian tribe and is the biological child of a member of an Indian tribe.\u201d (25 U.S.C. \u00a7 1903(4).)\nLauren Axline, a rebuttal witness called by the P.s, was the only witness who testified about the transfer from Alexandria\u2019s first foster family to her second placement. Department reports indicate that Alexandria\u2019s foster placement changed twice between April and December 2011, but do not provide any reason for the changes in placement.\nThe P.s agreed to care for Alexandria while her second foster family went on vacation.\nIt is unclear why the court did not find father to be a presumed father, a status father requested early on in the case.\nThe declaration stated, \u201cactive efforts have been made to provide remedial services and rehabilitation programs designed to prevent the breakup of the Indian family and those efforts have been unsuccessful. There is clear and convincing evidence that continued custody ... is likely to cause the Indian child serious emotional or physical damage.\u201d\nThe record contains no information about the reasons for this change in position.\nThe articles were not placed in evidence below, nor were they the subject of expert testimony at trial.\nThe Department contends we should refuse to consider the P.s\u2019 constitutional arguments because they forfeited the issue by failing to raise it before the court. The P.s did raise their constitutional arguments before the court. Even if they did not, we retain discretion to consider questions of constitutional import, even where the parties have forfeited their right to raise the issue on appeal. (In re Spencer S. (2009) 176 Cal.App.4th 1315, 1323 [98 Cal.Rptr.3d 477].)\nThe P.s attempt to frame their argument as the family\u2019s interest, rather than their interests as foster or de facto parents, ignoring the fact that their arguments about stability and Alexandria\u2019s best interests contradict those expressed by Alexandria\u2019s guardian ad litem on her behalf. We address this divergence of position later in this opinion.\nWe also decline to consider the argument, contained in footnote 6 of the P.s\u2019 opening brief, that the court erred in accepting the tribe\u2019s characterization of the R.s as extended family. (California Assn. of Sanitation Agencies v. State Water Resources Control Bd. (2012) 208 Cal.App.4th 1438, 1454 [146 Cal.Rptr.3d 501] [appellate court may disregard contentions not raised in a properly headed argument and not supported by reasoned argument]; Cal. Rules of Court, rule 8.204(a)(1)(B).)\nThe relevant statutory text reads as follows: \u201c(a) Adoptive placements; preferences H] In any adoptive placement of an Indian child under State law, a preference shall be given, in the absence of good cause to the contrary, to a placement with (1) a member of the child\u2019s extended family; (2) other members of the Indian child\u2019s tribe; or (3) other Indian families. [\u00b6] (b) Foster care or preadoptive placements; criteria; preferences [1] Any child accepted for foster care or preadoptive placement shall be placed in the least restrictive setting which most approximates a family and in which his special needs, if any, may be met. The child shall also be placed within reasonable proximity to his or her home, taking into account any special needs of the child. In any foster care or preadoptive placement, a preference shall be given, in the absence of good cause to the contrary, to a placement with \u2014 Q] (i) a member of the Indian child\u2019s extended family; [$] (ii) a foster home licensed, approved, or specified by the Indian child\u2019s tribe; [ftj (iii) an Indian foster home licensed or approved by an authorized non-Indian licensing authority; or HO (iv) an institution for children approved by an Indian tribe or operated by an Indian organization which has a program suitable to meet the Indian child\u2019s needs.\u201d (\u00a7 1915(a) & (b), boldface omitted.)\nSection 1903(l)(i) defines foster care placement as \u201cany action removing an Indian child from its parent or Indian custodian for temporary placement in a foster home or institution or the home of a guardian or conservator where the parent or Indian custodian cannot have the child returned upon demand, but where parental rights have not been terminated.\u201d Section 1903(l)(iv) defines adoptive placement as \u201cthe permanent placement of an Indian child for adoption, including any action resulting in a final decree of adoption.\u201d\nIn its decision, the court emphasized the lack of expert testimony to support application of the good cause exception. Although expert testimony is needed to establish that a child has \u201cextraordinary physical or emotional needs\u201d as described in the Guidelines (Guidelines, supra, 44 Fed.Reg. at p. 67594), courts have discretion to base their good cause determinations on factors not listed in the Guidelines. (Fresno County, supra, 122 Cal.App.4th at pp. 642-643.) Accordingly, evidence supporting a good cause finding need not be limited to expert testimony. (Ibid.)",
+        "type": "majority",
+        "author": "KRIEGLER, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Quinn Emanuel Urquhart & Sullivan, Lori Alvino McGill; Latham & Watkins, Pamela S. Palmer, Stephanie N. Grace and Ming M. Zhu for Objectors and Appellants.",
+      "Covington & Burling, Mark W. Hosier, David Schraub and Richard A. Jones for Professor Joan Hollinger, Northern California Association of Counsel for Children, and Advokids as Amici Curiae on behalf of Objectors and Appellants.",
+      "John F. Krattli, County Counsel, Dawyn R. Harrison, Assistant County Counsel, and Kim Nemoy, Deputy County Counsel, for Plaintiff and Respondent.",
+      "Law Offices of Joanne Willis Newton and Joanne Willis Newton, under appointment by the Court of Appeal, for Defendant and Respondent.",
+      "Christopher Blake, under appointment by the Court of Appeal, for minor Alexandria P.",
+      "Melissa L. Middleton for Intervener and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. B252999.\nSecond Dist., Div. Five.\nAug. 15, 2014.]\nIn re ALEXANDRIA P., a Person Coming Under the Juvenile Court Law. LOS ANGELES COUNTY DEPARTMENT OF CHILDREN AND FAMILY SERVICES, Plaintiff and Respondent, v. J.E., Defendant and Respondent; RUSSELL P. et al., Objectors and Appellants; CHOCTAW NATION OF OKLAHOMA, Intervener and Respondent.\nCounsel\nQuinn Emanuel Urquhart & Sullivan, Lori Alvino McGill; Latham & Watkins, Pamela S. Palmer, Stephanie N. Grace and Ming M. Zhu for Objectors and Appellants.\nCovington & Burling, Mark W. Hosier, David Schraub and Richard A. Jones for Professor Joan Hollinger, Northern California Association of Counsel for Children, and Advokids as Amici Curiae on behalf of Objectors and Appellants.\nJohn F. Krattli, County Counsel, Dawyn R. Harrison, Assistant County Counsel, and Kim Nemoy, Deputy County Counsel, for Plaintiff and Respondent.\nLaw Offices of Joanne Willis Newton and Joanne Willis Newton, under appointment by the Court of Appeal, for Defendant and Respondent.\nChristopher Blake, under appointment by the Court of Appeal, for minor Alexandria P.\nMelissa L. Middleton for Intervener and Respondent."
+  },
+  "file_name": "1322-01",
+  "first_page_order": 1094,
+  "last_page_order": 1129
+}

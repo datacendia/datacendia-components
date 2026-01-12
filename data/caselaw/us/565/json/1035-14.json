@@ -1,0 +1,59 @@
+{
+  "id": 12233453,
+  "name": "Babb v. Angell",
+  "name_abbreviation": "Babb v. Angell",
+  "decision_date": "2011-11-14",
+  "docket_number": "No. 11-327",
+  "first_page": "1035",
+  "last_page": "1035",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1035"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 62,
+    "ocr_confidence": 0.677,
+    "sha256": "179b102002d3d76614e6b965dd611f244456eb2b3eca0515ec08e1caa3851862",
+    "simhash": "1:2fc09a29c60a3091",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Babb v. Angell."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-327.\nBabb v. Angell."
+  },
+  "file_name": "1035-14",
+  "first_page_order": 1117,
+  "last_page_order": 1117
+}

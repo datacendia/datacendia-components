@@ -1,0 +1,463 @@
+{
+  "id": 12519145,
+  "name": "Mycal L. ASHBY, Plaintiff-Appellant, v. WARRICK COUNTY SCHOOL CORPORATION, Defendant-Appellee.",
+  "name_abbreviation": "Ashby v. Warrick Cnty. Sch. Corp.",
+  "decision_date": "2018-11-05",
+  "docket_number": "No. 18-1371",
+  "first_page": "225",
+  "last_page": "234",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "908 F.3d 225"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "7th Cir.",
+    "id": 9010,
+    "name": "United States Court of Appeals for the Seventh Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "72 F.Supp.2d 489",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        629405
+      ],
+      "year": 1999,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/72/0489-01"
+      ]
+    },
+    {
+      "cite": "679 F.Supp.2d 931",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        3585260
+      ],
+      "year": 2009,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/679/0931-01"
+      ]
+    },
+    {
+      "cite": "524 U.S. 624",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11182853
+      ],
+      "weight": 3,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "642"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/524/0624-01"
+      ]
+    },
+    {
+      "cite": "527 U.S. 581",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1248146
+      ],
+      "weight": 3,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "597-98",
+          "parenthetical": "quoting Bragdon v. Abbott , 524 U.S. 624, 642, 118 S.Ct. 2196, 141 L.Ed.2d 540 (1998) "
+        },
+        {
+          "parenthetical": "quoting Bragdon v. Abbott , 524 U.S. 624, 642, 118 S.Ct. 2196, 141 L.Ed.2d 540 (1998) "
+        },
+        {
+          "parenthetical": "quoting Bragdon v. Abbott , 524 U.S. 624, 642, 118 S.Ct. 2196, 141 L.Ed.2d 540 (1998) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/527/0581-01"
+      ]
+    },
+    {
+      "cite": "42 U.S.C. \u00a7 12134",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "465 F.3d 737",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3262935
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "750-51",
+          "parenthetical": "citing 42 U.S.C. \u00a7 12134(a) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/465/0737-01"
+      ]
+    },
+    {
+      "cite": "657 F.3d 215",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3834340
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "225",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/657/0215-01"
+      ]
+    },
+    {
+      "cite": "292 F.3d 1073",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9419262
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "1077",
+          "parenthetical": "relying on Rehabilitation Act definition of \"program or activity\" to interpret analogous ADA language"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/292/1073-01"
+      ]
+    },
+    {
+      "cite": "383 F.3d 599",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9209499
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "607"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/383/0599-01"
+      ]
+    },
+    {
+      "cite": "29 U.S.C. \u00a7 794",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 C.F.R. \u00a7 35.130",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 7,
+      "pin_cites": [
+        {
+          "page": "(b)"
+        },
+        {
+          "page": "(b)(4)",
+          "parenthetical": "\"A public entity may not, in determining the site or location of a facility, make selections-(i) That have the effect of excluding individuals with disabilities from, denying them the benefits of, or otherwise subjecting them to discrimination.\""
+        },
+        {
+          "page": "(b)(1)"
+        },
+        {
+          "page": "12-13",
+          "parenthetical": "noting that, under the Technical Assistance Manual to the ADA, when public and private entities have a \"close relationship,\" \"certain activities may be at least indirectly affected by both titles\""
+        },
+        {
+          "page": "13-14",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "14"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "196 L.Ed.2d 284",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12607848,
+        12607561,
+        12602871
+      ],
+      "weight": 2,
+      "year": 2016,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/137/0414-06",
+        "/s-ct/137/0371-03",
+        "/s-ct/137/0011-01"
+      ]
+    },
+    {
+      "cite": "137 S.Ct. 414",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12607843,
+        12607844,
+        12607845,
+        12607846,
+        12607847,
+        12607848
+      ],
+      "year": 2016,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/137/0414-01",
+        "/s-ct/137/0414-02",
+        "/s-ct/137/0414-03",
+        "/s-ct/137/0414-04",
+        "/s-ct/137/0414-05",
+        "/s-ct/137/0414-06"
+      ]
+    },
+    {
+      "cite": "781 F.3d 250",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4076308
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "256"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/781/0250-01"
+      ]
+    },
+    {
+      "cite": "695 F.3d 778",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3528351
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "787-88"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/695/0778-01"
+      ]
+    },
+    {
+      "cite": "778 F.3d 586",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6051906
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "592"
+        },
+        {
+          "page": "592",
+          "parenthetical": "noting that the standard for liability under the ADA and the Rehabilitation Act is \"functionally identical,\" with the additional requirement that the state agency in question \"must accept federal funds\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/778/0586-01"
+      ]
+    },
+    {
+      "cite": "42 U.S.C. \u00a7 12132",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 10,
+      "pin_cites": [
+        {
+          "page": "50"
+        },
+        {
+          "page": "64"
+        },
+        {
+          "page": "14"
+        },
+        {
+          "page": "12"
+        },
+        {
+          "parenthetical": "emphasis in original"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 U.S.C. \u00a7 12101",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(b)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "541 U.S. 509",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5877309
+      ],
+      "weight": 5,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "516"
+        },
+        {
+          "page": "516-17"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/541/0509-01"
+      ]
+    },
+    {
+      "cite": "300 F.3d 775",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11422955
+      ],
+      "weight": 6,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "777"
+        },
+        {
+          "page": "782"
+        },
+        {
+          "page": "782"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/300/0775-01"
+      ]
+    },
+    {
+      "cite": "28 C.F.R. \u00a7 35.102",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1129,
+    "char_count": 26436,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2591075773143531
+    },
+    "sha256": "351563fe203ec3e2291af2b35b6a1d74353208632de100858ec823d5c3e2f17c",
+    "simhash": "1:9cde8c5f6d9f6e29",
+    "word_count": 4256
+  },
+  "last_updated": "2024-02-27T16:20:33.568669+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Ripple, Kanne, and Brennan, Circuit Judges."
+    ],
+    "parties": [
+      "Mycal L. ASHBY, Plaintiff-Appellant,\nv.\nWARRICK COUNTY SCHOOL CORPORATION, Defendant-Appellee."
+    ],
+    "opinions": [
+      {
+        "text": "Ripple, Circuit Judge.\nMycal Ashby's son was a member of his elementary school choir for several years. In both 2014 and 2015, the choir agreed to perform a Christmas concert at a local history museum. The museum is located in a historic building and, at the time of both concerts, was not accessible to persons with disabilities. Ms. Ashby, who uses a wheelchair, therefore was unable, in both years, to attend the Christmas concert and to see her son and his schoolmates sing. She consequently brought this action against the Warrick County School Corporation, alleging discrimination under the Americans with Disabilities Act (\"ADA\") and the Rehabilitation Act.\nThe parties filed cross-motions for summary judgment. Focusing on the language of the statute and implementing regulation, the district court concluded that the Christmas concert was not a \"service, program, or activity of \" the Warrick Schools. Nor was the concert an activity \"provided or made available\" by the School Corporation. 28 C.F.R. \u00a7 35.102. It therefore granted Warrick Schools' motion for summary judgment. Ms. Ashby appealed.\nBecause resolution of the appeal turns on the proper interpretation and application of statutory and regulatory language on which we have little precedent, we invited the Department of Justice, the agency charged with the administration of the statute, to submit a brief as amicus curiae. The Department accepted our invitation and submitted a brief. The Government notes that when a public entity offers a program in conjunction with a private entity, the question whether a service, program, or activity is one \"of\" a public entity is a complicated, fact-based one. The Government's brief suggests that there is a \"spectrum\" of possible relationships ranging from a \"true joint endeavor\" on one end to participation in a wholly private event on the other. The Department's interpretation of its regulations is a reasonable one that offers a loose but practical framework that aids in decisionmaking.\nUpon close examination of the record, it is clear to us that the district court correctly determined that the event in question was not a service, program, or activity provided or made available by the Warrick County School Corporation. Accordingly, its judgment is affirmed.\nI\nA.\nSince infancy, Ms. Ashby has had transverse myelitis, a condition that renders her paralyzed from the chest down. She cannot stand or walk and relies on a motorized wheelchair for mobility.\nMs. Ashby and her husband, Robert, have a son who attended Loge Elementary from 2011-16. He participated in the school choir when he was in the fourth and fifth grades, during the 2014-15 and 2015-16 school years. Ms. Ashby attended school events, and her disability was known to school officials.\nThe Loge choir was an extracurricular activity offered by the school. Participation was voluntary, and students received no academic credit. The school's music teacher, Abby Roach, led the choir as a volunteer; she was not compensated for the additional time that she devoted to this activity. The choir practiced weekly after school, and Roach sought to introduce the children to singing in an \"informal\" format. Nevertheless, the choir performed for others on a few occasions during the year, including during a Veteran's Day program and as a part of the school's Fine Arts Night; both of these events were held at Loge Elementary. The students also performed during the day at a local nursing home as a community service. In both of the school years in which the Ashbys' son was a choir member, the choir also performed a Christmas concert at the Warrick County Museum.\nThe Warrick County Museum is a local historical museum. It is not affiliated with the Warrick County School Corporation. The museum is housed in a 1901 building, and, at all times relevant to the present case, it had no ramp access and no elevator, although they have since been installed. For several years, the museum decorated for the holidays and held a series of December events to promote and fundraise on its own behalf. Among the holiday events were Christmas concerts at which local elementary school choirs performed, each on its own night. The museum coordinated these events by contacting local schools and inviting each to select from available dates. The museum advertised the concerts in its newsletters and publicized them in local media.\nThe Loge choir participated in this program for a number of years. In fall 2014, it again received an invitation from Gretchen Powers, a museum volunteer and member of the Board, and Roach selected a date for her students to participate. The school then sent home a flyer to choir-student families and placed the event on the school calendar. The children were instructed to dress up, and the evening performance was open to family members and others.\nOn the night of the 2014 Christmas performance, the Ashby family arrived at the museum and quickly discovered that there was no handicapped parking and no ramp up to the door. Mr. Ashby went up to Roach, who was standing near the door, and a representative of the museum, and both informed him that the museum was not accessible. Ms. Ashby would not be able to access the upper floor where the concert would be held. With little time before the program, Mr. Ashby drove his distraught wife to a local Wal-Mart where she waited while her son performed with his choir. Following the concert, Mr. Ashby spoke to both Roach and Lynn Pierce, the Loge principal, and expressed his displeasure about the inaccessibility of the concert venue. He followed up the next day with a call to the principal to discuss the matter.\nThe choir repeated the program, in some form, at a local nursing home. Although the fifth grade class held its own holiday program, the choir's only holiday performances were at the museum and the nursing home.\nIn the fall of 2015, the museum again contacted Roach and sought to schedule school choirs for performances at the museum. In her initial mid-September email to schedule concerts, Powers informed the choir directors that the museum was \"in the process of installing [an] elevator which should be up and running in just a few weeks.\" By mid-October, her email confirming the selected dates also stated that she thought that she could \"safely say the elevator will be available\" at the time of the concerts in December. In early December, the choir director of a different school, Stephanie Wiedrich, contacted Powers to inquire whether the elevator was operational because she was considering bringing risers for her students to stand on. Powers responded, \"[n]o elevator.\" This final exchange appears to have been between Powers and Wiedrich alone; no one at Loge received a copy. Roach and Pierce both testified that they did not follow up with the museum to determine whether the elevator was operational as the concert date approached. Mr. Ashby approached both Roach and Pierce in the weeks before the concert, and both informed him, incorrectly, that the museum was accessible.\nThe 2015 concert for the Loge choir at the museum resulted in a similar situation for the Ashbys. Upon their arrival at the museum, they were disappointed to find that, despite the assurances that they had received, the concert was inaccessible to Ms. Ashby.\nB.\nMs. Ashby brought this action against the Warrick County School Corporation in September 2016. She sought compensatory damages for intentional disability discrimination under Title II of the ADA and Section 504 of the Rehabilitation Act, alleging that the School Corporation had violated both statutes by allowing the Loge choir to perform at a building that was inaccessible to persons with disabilities.\nMs. Ashby moved for partial summary judgment on the question of liability; the School Corporation filed a cross-motion for summary judgment. In considering the motions, the district court first examined whether the Christmas concert was a \"service, program, or activity\" of the Warrick Schools. The court acknowledged that the statute itself did not define the term and that courts have construed it broadly. Indeed, the parties were in agreement that the concert was a \"service, program, or activity.\" Their disagreement was over whether it was a \"service, program, or activity\" of the Warrick Schools. To resolve this second interpretive problem, the court turned to the regulations, which said that the statute placed responsibility on a public entity for activities that it \"provided or made available.\" 28 C.F.R. \u00a7 35.102. In the court's view, under this regulation, liability attaches where the public entity \"schedules, coordinates, and controls the particular service, program, or activity.\"\nApplying this interpretation to the facts, the court determined that the concert was not an activity of the Warrick County School Corporation. It therefore granted Warrick Schools' motion for summary judgment. Ms. Ashby now appeals.\nAfter oral argument in this case, we determined that the participation of the Department of Justice, the agency charged with the administration of the statute, would assist us in understanding the operation of the statutory and regulatory language. We therefore invited the Attorney General to file an amicus curiae brief. He accepted the invitation, and we are grateful for the assistance provided by the Department of Justice.\nII\nDISCUSSION\nThe general standard governing our review of the district court's decision is well-settled: We review the district court's summary judgment order de novo. Oconomowoc Residential Programs, Inc. v. City of Milwaukee , 300 F.3d 775, 777 (7th Cir. 2002). Summary judgment is appropriate when no material fact is in dispute and the moving party is entitled to judgment as a matter of law. Id. Both the district court and this court view all facts and draw all reasonable inferences in favor of the nonmoving party. See id.\n\"[A]fter decades of deliberation and investigation into the need for comprehensive legislation to address discrimination against persons with disabilities,\" the ADA was enacted into law. Tennessee v. Lane , 541 U.S. 509, 516, 124 S.Ct. 1978, 158 L.Ed.2d 820 (2004). It is designed \"to provide a clear and comprehensive national mandate for the elimination of discrimination against individuals with disabilities.\" 42 U.S.C. \u00a7 12101(b)(1). The ADA \"forbids discrimination against persons with disabilities in three major areas of public life: employment, which is covered by Title I of the statute; public services, programs, and activities, which are the subject of Title II; and public accommodations, which are covered by Title III.\" Lane , 541 U.S. at 516-17, 124 S.Ct. 1978.\nMs. Ashby submits that the Warrick County School Corporation, as a public entity, violated her rights under Title II of the ADA. See 42 U.S.C. \u00a7 12132. That section provides in relevant part:\n[N]o qualified individual with a disability shall, by reason of such disability, be excluded from participation in or be denied the benefits of the services, programs, or activities of a public entity, or be subjected to discrimination by any such entity.\nTo establish a violation of Title II, Ms. Ashby therefore must show that she \"is a 'qualified individual with a disability,' that [s]he was denied 'the benefits of the services, programs, or activities of a public entity' or otherwise subjected to discrimination by such an entity, and that the denial or discrimination was 'by reason of' [her] disability.\" Wagoner v. Lemmon , 778 F.3d 586, 592 (7th Cir. 2015). It is undisputed that Ms. Ashby has a disability within the meaning of the statute.\nA.\nAt the heart of this case is whether the Christmas concert was a \"service, program, or activity\" of the defendant public entity, Warrick Schools.\nNeither the statutory language nor the regulations give us a clear answer to our problem. Title II of the ADA does not define explicitly \"services, programs, or activities,\" Oconomowoc , 300 F.3d at 782. The regulations, see generally 28 C.F.R. pt. 35, bring us a little further, but hardly to a conclusion. The regulations simply state that they apply \"to all services, programs, and activities provided or made available by public entities ,\" but give no further instruction. 28 C.F.R. \u00a7 35.102 (emphasis added). The preamble to the final rule, published as an appendix to the rule, only amplifies its reach, describing the statute as applying to \"anything a public entity does.\" 28 C.F.R. pt. 35, app. B ; see also Oconomowoc , 300 F.3d at 782 (citing the appendix as guidance). The limited case law interpreting the statutory term simply emphasizes the breadth of the ADA, and of this phrase itself. See, e.g. , Bahl v. County of Ramsey , 695 F.3d 778, 787-88 (8th Cir. 2012).\nDrawing on this limited guidance, the parties dispute whether the concerts in question were \"provided or made available by\" the schools, rather than the museum. See 28 C.F.R. pt. 35, app. B. In the School Corporation's view, Loge provided only \"an opportunity for its students to provide a community service to the Museum and gain performance experience,\" while the concert itself was provided by the museum. But as Ms. Ashby rightly counters, the performance by the Loge Elementary School was, in effect, the sole content to the evening.\nAs our colleague in the district court correctly recognized, existing authority, whether it be statutory, regulatory, or case law, provides but a modicum of guidance on how to identify the responsible party when two or more entities, only one of which is subject to the statute, collaborate. The district court relied on cases concluding that city sidewalks and municipal court proceedings were within the meaning of the statute to reach its conclusion that the concerts were not.\nBefore us, the School Corporation relies on a now-vacated decision of the Fifth Circuit, in which it held that a Texas state agency which certified and licensed private driver's education programs did not itself \"provide\" driver's education, and therefore it could not be held liable for failing to require the licensed entities to provide accessible services. Ivy v. Williams , 781 F.3d 250, 256 (5th Cir. 2015), vacated and remanded sub nom. Ivy v. Morath , --- U.S. ----, 137 S.Ct. 414, 196 L.Ed.2d 284 (2016). Notably, the Fifth Circuit remarked that the regulations never \"define what it means for the state to 'provid[e]' \" something, particularly in the context of joint involvement. Id. Although it considered the potential liability of the Texas state actor a \"close question,\" that court ultimately relied on a series of cases that concluded that public entities that license or regulate private entities are not liable for a private actor's failure to make an event, service, or venue accessible, absent a contractual or agency relationship. Id. at 255-57.\nThese authorities are of very limited utility in deciding the case before us. We therefore begin by stating some basic principles that may, despite their generality, point the way. First, it is clear that a governmental entity cannot avoid its obligations under the statute by ceding its governmental functions to private entities. \"The mandate of Title II ... is clear: whenever a public entity or federal funding recipient 'does ... anything,' it must extend 'the benefits of,' and cannot 'discriminat[e]' in, that thing on the basis of disability.\" Accordingly, the question whether a particular event is a service, program, or activity of a public entity turns on what the public entity itself is doing, providing, or making available. Second, as both parties acknowledge, and as the Attorney General confirms, the regulations specifically contemplate, in various sections, that liability may attach to some complicated relationships between public and private actors. For example, 28 C.F.R. \u00a7 35.130(b), provides that a public entity may not discriminate, on the basis of disability, directly or indirectly, such as \"through contractual, licensing, or other arrangements.\" See id. \u00a7 35.130(b)(1).\nIndeed, more to the point, the Government also acknowledges that the statute is intended to cover at least some circumstances in which a public and private entity are both involved. Notably, however, it acknowledges, indeed it stresses, that the required analysis is \"complicated.\" It continues:\nOne end of the spectrum is obvious: where the public entity and the private entity engage in a true joint endeavor, both entities may be responsible for complying with the ADA (and any federal funding recipient with Section 504)\nwith respect to the entire event. Thus, in joint endeavors, both Title II and Title III of the ADA may be implicated: the public entity is responsible for meeting its legal obligations under Title II, while any private entity that qualifies as a public accommodation is responsible for complying with Title III.[ ]\nBy way of example, the Department points to the regulations that \"make[ ] clear that public entities cannot evade their Title II obligations by ceding the provision or administration of public services, programs, or activities to private entities via 'contractual, licensing, or other arrangements.' \" The Department also notes that when public and private entities act jointly, such as when a municipality and a private company jointly work to build a new stadium, both Title II and Title III may be implicated. When a public action is undertaken jointly with a private actor or is the result of a close relationship with a private actor, a public entity may remain liable under Title II.\n\"At the other end of the spectrum,\" the Government tells us, are cases in which \"the public entity does not engage in a joint endeavor with the private entity, but instead participates in an event of the private entity.\" In such a case, the liability of the public entity is limited to its own program within the event, but does not extend \"to the entire event.\" Here, the Government posits a program involving fifty school choirs over a three-day festival at a private venue, in which an individual school is merely one participant. The Department asserts that on these facts, no choir would be required to ensure that the entire festival is accessible to the audience.\nThe Department's articulation of a spectrum is persuasive and takes us a significant step closer to a resolution of the problem before us by providing at least a loose framework for decision. Furthermore, we agree with the Department that the present case lies between the two extremes it has delineated. The question still remains, however, as to where on the spectrum delineated by the Department the present situation should be placed. The answer to this question turns on an examination of the record.\nHaving undertaken such an examination, we agree with our colleague in the district court that there is no dispute about a material issue of fact. It is also clear, even when we construe those facts in the light most favorable to Ms. Ashby, that the event was part of the museum's own programming. It held a series of \"holiday happenings\" for the people of the community with the hope that those in attendance would be more supportive of the museum's endeavors. The students of the School Corporation who sang at these events, and the teachers who accompanied them, were simply the invitees of the museum. The responsibility of the School Corporation, upon acceptance of the invitation, was limited to arranging for the attendance of the students and for their presentation of a musical program for the audience. All other matters, such as planning, community notification, and refreshments for the audience were handled by the museum as the sponsor and host of the events.\nThe record, even charitably read for Ms. Ashby, does not support the conclusion that the school's participation was in any way a substitution for an event that otherwise would have been held at the school as part of its own observance of the holiday season. We certainly can speculate that the individual school and, indeed, the School Corporation as a whole, benefitted in some way by performing at this community event. Although the choir was not organized to provide the children with an opportunity to sing before an audience, the children well might have derived a benefit from such an experience. Their parents also no doubt enjoyed seeing children perform in such a festive ambiance. Nevertheless, the record makes clear that these benefits were purely collateral to the objectives of the museum and, consequently, had to be enjoyed in that context.\nUnder the statute and regulations, as they currently exist, the inquiry into whether a particular program involving private entities not subject to the statute and public entities subject to the statute is a \"service, program, or activity\" of the public entity is, as the Department states, a fact-intensive issue. Here, the district court properly understood the statutory and regulatory command and properly determined that the event, organized, sponsored, and maintained by the private museum, was not subject to the strictures of the statutes. The children of the School Corporation participated solely as the invitees of the museum. Accordingly, the judgment of the district court must be affirmed.\nConclusion\nFor the reasons set forth above, we affirm the district court's judgment in favor of the Warrick Schools.\nAFFIRMED\nR.51 at 17 (emphasis added) (internal quotation marks omitted); see also 42 U.S.C. \u00a7 12132.\nThe court expresses its thanks to the Department of Justice for having accepted our invitation to file a brief as amicus curiae and for having rendered assistance to the court.\nGov't Br. 12-14.\nR.41-1 at 1.\nR.36-3 at 46.\nId. at 50.\nId. at 64.\nR.51 at 11; see also 42 U.S.C. \u00a7 12132.\nId. at 14.\nMs. Ashby also asserts her claim under Section 504 of the Rehabilitation Act, 29 U.S.C. \u00a7 794. Section 504 uses nearly identical language to describe prohibited discriminatory acts, but its coverage is limited to \"any program or activity receiving Federal financial assistance.\" Id. \u00a7 794(a). Because of the similarities between the ADA and the Rehabilitation Act, our cases \"construe and apply them in a consistent manner.\" Radaszewski ex rel. Radaszewski v. Maram , 383 F.3d 599, 607 (7th Cir. 2004) ; see also Wagoner v. Lemmon , 778 F.3d 586, 592 (7th Cir. 2015) (noting that the standard for liability under the ADA and the Rehabilitation Act is \"functionally identical,\" with the additional requirement that the state agency in question \"must accept federal funds\"). Our discussion of the substantive standard applies to her claim asserted under both statutes, and we rely interchangeably on cases arising under either statute.\nThe Rehabilitation Act defines \"program or activity\" as \"all of the operations of\" the covered entity. 29 U.S.C. \u00a7 794(b) ; see also Barden v. City of Sacramento , 292 F.3d 1073, 1077 (9th Cir. 2002) (relying on Rehabilitation Act definition of \"program or activity\" to interpret analogous ADA language); Frame v. City of Arlington , 657 F.3d 215, 225 (5th Cir. 2011) (same).\nThe implementing regulations are issued by the Attorney General \"at the instruction of Congress.\" Wis. Cmty. Servs., Inc. v. City of Milwaukee , 465 F.3d 737, 750-51 (7th Cir. 2006) (citing 42 U.S.C. \u00a7 12134(a) ). We have noted that the Supreme Court never has decided whether the Attorney General's regulations here are entitled to Chevron deference. Id. at 751 n.10. However, the Court has said that \"its views warrant respect\" and that the Attorney General's views fall within \"the well-reasoned views of the agencies implementing a statute\" that \"constitute a body of experience and informed judgment to which courts and litigants may properly resort for guidance.\" Olmstead v. L.C. ex rel. Zimring , 527 U.S. 581, 597-98, 119 S.Ct. 2176, 144 L.Ed.2d 540 (1999) (quoting Bragdon v. Abbott , 524 U.S. 624, 642, 118 S.Ct. 2196, 141 L.Ed.2d 540 (1998) ).\nAppellee's Br. 18.\nSee R.51 at 12-13 (citing Culvahouse v. City of LaPorte , 679 F.Supp.2d 931 (N.D. Ind. 2009), and Soto v. City of Newark , 72 F.Supp.2d 489 (D.N.J. 1999) ).\nSee Gov't Br. 12 (stating that \"the Department's Title II regulation makes clear that public entities cannot evade their Title II obligations by ceding the provision or administration of public services, programs, or activities to private entities\"); 28 C.F.R. \u00a7 35.130(b)(4) (\"A public entity may not, in determining the site or location of a facility, make selections-(i) That have the effect of excluding individuals with disabilities from, denying them the benefits of, or otherwise subjecting them to discrimination.\").\nGov't Br. 11 (quoting Oconomowoc Residential Programs, Inc. v. City of Milwaukee , 300 F.3d 775, 782 (7th Cir. 2002), and 42 U.S.C. \u00a7 12132 ).\nId. at 12.\nId. (emphasis in original).\nId. (citing 28 C.F.R. \u00a7 35.130(b)(1) ).\nSee id. at 12-13 (noting that, under the Technical Assistance Manual to the ADA, when public and private entities have a \"close relationship,\" \"certain activities may be at least indirectly affected by both titles\").\nId. at 13-14 (emphasis added).\nId. at 14.\nSee R.36-3 at 36.\nAs judicial decisions further examine this question, the Department might well consider providing more precise guidance in future regulatory pronouncements.\nThe parties dispute whether Ms. Ashby was an eligible participant under the statute and whether any discrimination she faced from the Warrick Schools was intentional. Our decision today precludes the necessity of our reaching these issues.",
+        "type": "majority",
+        "author": "Ripple, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Kenneth J. Falk, Jan P. Mensz, Attorneys, INDIANA CIVIL LIBERTIES UNION, Indianapolis, IN, for Plaintiff-Appellant.",
+      "Sara R. Blevins, Michelle L. Cooper, Attorneys, LEWIS & KAPPES, Indianapolis, IN, Mark Neff, Attorney, Boonville, IN, for Defendant-Appellee.",
+      "Thomas E. Chandler, Christine A. Monta, Attorneys, DEPARTMENT OF JUSTICE, Civil Rights Division, Appellate Section, Washington, DC, Noel J. Francisco, Attorney, DEPARTMENT OF JUSTICE, Office of the Solicitor General, Washington, DC, John M. Gore, Attorney, DEPARTMENT OF JUSTICE, Civil Rights Division, Washington, DC, for Amicus Curiae."
+    ],
+    "corrections": "",
+    "head_matter": "Mycal L. ASHBY, Plaintiff-Appellant,\nv.\nWARRICK COUNTY SCHOOL CORPORATION, Defendant-Appellee.\nNo. 18-1371\nUnited States Court of Appeals, Seventh Circuit.\nArgued June 1, 2018\nDecided November 5, 2018\nKenneth J. Falk, Jan P. Mensz, Attorneys, INDIANA CIVIL LIBERTIES UNION, Indianapolis, IN, for Plaintiff-Appellant.\nSara R. Blevins, Michelle L. Cooper, Attorneys, LEWIS & KAPPES, Indianapolis, IN, Mark Neff, Attorney, Boonville, IN, for Defendant-Appellee.\nThomas E. Chandler, Christine A. Monta, Attorneys, DEPARTMENT OF JUSTICE, Civil Rights Division, Appellate Section, Washington, DC, Noel J. Francisco, Attorney, DEPARTMENT OF JUSTICE, Office of the Solicitor General, Washington, DC, John M. Gore, Attorney, DEPARTMENT OF JUSTICE, Civil Rights Division, Washington, DC, for Amicus Curiae.\nBefore Ripple, Kanne, and Brennan, Circuit Judges."
+  },
+  "file_name": "0225-01",
+  "first_page_order": 225,
+  "last_page_order": 234
+}

@@ -1,0 +1,469 @@
+{
+  "id": 2259045,
+  "name": "The State of Texas Et Al v. The Federal Land Bank of Houston",
+  "name_abbreviation": "State v. Federal Land Bank",
+  "decision_date": "1959-12-09",
+  "docket_number": "No. A-6961",
+  "first_page": "282",
+  "last_page": "292",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "160 Tex. 282"
+    },
+    {
+      "type": "parallel",
+      "cite": "329 S.W.2d 847"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "277 S.W. 89",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10291759
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw/277/0089-01"
+      ]
+    },
+    {
+      "cite": "134 S.W. 2d 1036",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10249986,
+        2319468
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/134/1036-01",
+        "/tex/134/0211-01"
+      ]
+    },
+    {
+      "cite": "134 Texas 211",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2319468
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/134/0211-01"
+      ]
+    },
+    {
+      "cite": "5 S.W. 2d 756",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10287413
+      ],
+      "pin_cites": [
+        {
+          "page": "760"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/5/0756-01"
+      ]
+    },
+    {
+      "cite": "68 L. Ed. 2d 12",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "opinion_index": -1
+    },
+    {
+      "cite": "263 U.S. 137",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6138889
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/263/0137-01"
+      ]
+    },
+    {
+      "cite": "263 S.W. 493",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "271 S.W. 2d 414",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10190770,
+        2247959
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/271/0414-01",
+        "/tex/153/0566-01"
+      ]
+    },
+    {
+      "cite": "153 Texas 566",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2247959
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/153/0566-01"
+      ]
+    },
+    {
+      "cite": "282 S.W. 2d 378",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10181321,
+        2250929
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/282/0378-01",
+        "/tex/155/0014-01"
+      ]
+    },
+    {
+      "cite": "155 Texas 14",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2250929
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/155/0014-01"
+      ]
+    },
+    {
+      "cite": "258 F. 2d 240",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        451842
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/258/0240-01"
+      ]
+    },
+    {
+      "cite": "265 S.W. 2d 569",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10195366,
+        2247943
+      ],
+      "weight": 2,
+      "year": 1954,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/265/0569-01",
+        "/tex/153/0205-01"
+      ]
+    },
+    {
+      "cite": "153 Texas 205",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2247943
+      ],
+      "weight": 2,
+      "year": 1954,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/153/0205-01"
+      ]
+    },
+    {
+      "cite": "314 S.W. 2d 621",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10176899
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/314/0621-01"
+      ]
+    },
+    {
+      "cite": "271 S.W. 2d 414",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10190770,
+        2247959
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/271/0414-01",
+        "/tex/153/0566-01"
+      ]
+    },
+    {
+      "cite": "153 Texas 566",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2247959
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/153/0566-01"
+      ]
+    },
+    {
+      "cite": "282 S.W. 2d 378",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10181321,
+        2250929
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/282/0378-01",
+        "/tex/155/0014-01"
+      ]
+    },
+    {
+      "cite": "155 Texas 14",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2250929
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/155/0014-01"
+      ]
+    },
+    {
+      "cite": "85 S.W. 2d 776",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10247396
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/85/0776-01"
+      ]
+    },
+    {
+      "cite": "251 S.W. 2d 153",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2244738,
+        10193163
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/151/0370-01",
+        "/sw2d/251/0153-01"
+      ]
+    },
+    {
+      "cite": "151 Texas 370",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2244738
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/151/0370-01"
+      ]
+    },
+    {
+      "cite": "98 S.W. 2d 993",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10269545,
+        2293197
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/98/0993-01",
+        "/tex/128/0324-01"
+      ]
+    },
+    {
+      "cite": "128 Texas 324",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2293197
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/128/0324-01"
+      ]
+    },
+    {
+      "cite": "265 S.W. 2d 569",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10195366,
+        2247943
+      ],
+      "year": 1954,
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/265/0569-01",
+        "/tex/153/0205-01"
+      ]
+    },
+    {
+      "cite": "153 Texas 205",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2247943
+      ],
+      "year": 1954,
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/153/0205-01"
+      ]
+    },
+    {
+      "cite": "271 S.W. 2d 414",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10190770,
+        2247959
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/271/0414-01",
+        "/tex/153/0566-01"
+      ]
+    },
+    {
+      "cite": "153 Texas 566",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2247959
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/153/0566-01"
+      ]
+    },
+    {
+      "cite": "282 S.W. 2d 378",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10181321,
+        2250929
+      ],
+      "pin_cites": [
+        {
+          "page": "384"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/282/0378-01",
+        "/tex/155/0014-01"
+      ]
+    },
+    {
+      "cite": "155 Texas 14",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2250929
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/155/0014-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 834,
+    "char_count": 21962,
+    "ocr_confidence": 0.601,
+    "pagerank": {
+      "raw": 4.544568699690963e-07,
+      "percentile": 0.9243029226800481
+    },
+    "sha256": "9fa07c8117b7cba5be5c66d7fe79c32c16e5ec5c0c651d129d8c8961e6949cee",
+    "simhash": "1:58ad8285c637fb92",
+    "word_count": 3820
+  },
+  "last_updated": "2024-02-27T22:54:30.640255+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "The State of Texas Et Al v. The Federal Land Bank of Houston."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Greenhill\ndelivered the opinion of the Court.\nThis suit involves a small sum of money but important principles of ad valorem taxation.\nDallam County sued the Federal Land Bank of Houston for $8.20. The suit was for delinquent state and county ad valorem taxes on mineral interests owned by the Bank in Dallam County. Two main questions are presented: (1) the validity of the entire ad valorem tax system used by Dallam County; and (2) assuming the system to be invalid, whether the Land Bank proved substantial injury to itself because of the use of the system.\nThe trial court, sitting without a jury, entered judgment against the Bank for the taxes, penalty, and interest. Upon its original consideration, the Court of Civil Appeals, in substance, affirmed that judgment'. It held that while the Dallam County system was illegal, the Bank nevertheless failed, under Article 7329, R.C.S., to prove the excessive amount of taxes which it was required to pay. The judgment of the trial court was reformed to eliminate the $1.02 of penalty and interest, and those matters are no longer in the case.\nUpon rehearing, however, the Court of Civil Appeals struck down the tax entirely and rendered judgment for the Land Bank, 314 S.W. 2d 621.\nWe, for a different reason, believe that the Court of Civil Appeals was correct in its original judgment, and we here affirm the judgment of the trial court for the taxes due. We hold that the scheme of taxation of Dallam County was illegal. But we also hold that under the facts of this case the Land Bank failed to prove substantial injury to itself by virtue of that system.\nThe facts are fully set out in the opinion of the Court of Civil Appeals, 314 S.W. 2d 621, and they will not be repeated in detail here.\nOver the years, the Land Bank had acquired or retained various mineral interests under roughly 80,000 acres of land in Dallam County. It has never rendered any of those interests for taxation or paid any ad valorem taxes thereon, and it did not render the particular mineral interests here in suit. It made no effort to enjoin the County from establishing and carrying out the scheme in question. It did not protest the method of taxation or the valuations placed on its minerals. It made no appeal to the board of equalization. It did not even answer the Tax Assessor\u2019s letters. Only when this suit was brought for the delinquent taxes did it attack the method of valuation and taxation.\nOver the years, Dallam County had made no attempt to collect ad valorem taxes on several mineral interests. If a taxpayer rendered them for taxes, and some people did, taxes were collected thereon.\nBeginning in 1954, however, the several minerals were placed on the tax rolls, and the County placed a uniform value upon them, generally $1.00 per mineral acre except on royalty which it valued at 50 cents per acre. But if the minerals were owned by the surface owner and no oil and gas lease or other instrument had been executed which severed the mineral estate from the ownership of the surface, the minerals were not separately valued or separately taxed. If the minerals had been severed, the surface was valued at substantially the same amount as land containing unsevered minerals; and, in addition, the minerals were separately valued and taxed.\nFor example, all pasture land was valued at from $3.00 to $3.50 per acre for tax purposes. If the surface owner had not executed an oil and gas lease or otherwise severed the mineral interest, the total tax valuation for this land and its minerals was $3.00 to $3.50 per acre. If the mineral estate under similar grazing land had been severed, the surface was valued at the same $3.00 to $3.50 per acre, and the owner of the mineral interest was taxed on the basis of $1.00 per acre valuation for the minerals. Other interests in the minerals were likewise taxed at an arbitrary, uniform valuation.\n1 On the land in question, the mineral estate had been severed. The Land Bank was the owner of mineral interests therein. It did not own the surface. The tax on their mineral interests is the subject of this suit.\nThe particular land in question, as we understand the record, is \u201cwildcat\u201d territory for oil and gas. There has been no exploration to prove whether or not it contains oil, gas, or other minerals. Yet there is evidence that all lands and all mineral interests in the County had a market value. Thus, two tracts of land, either of which might or might not have contained minerals, were differently valued for tax purposes simply because the minerals had been legally severed under one tract and not under the other. The minerals in the one were additionally taxed. In the other they were not.\nThis practice was followed throughout the County. The mineral estates in the lands under approximately 48% of the land in the County were owned by the surface owner; that is, these mineral estates had not been severed. The minerals under those lands had not been separately valued for tax purposes or taxed unless the owner voluntarily rendered them for taxation. The severed mineral estates under the remaining 52% of the County were separately treated and assigned a value for tax purposes in addition to value placed upon the surface and any improvements thereon.\nWe agree with the Court of Civil Appeals that this system of taxation is arbitrary and fundamentally erroneous. The fixing of the values of the various mineral interests at an arbitrary rate without regard to market value and the assigning of a value, or an additional value, to the mineral interests under some lands and taxing them, and not similarly valuing and taxing the minerals under other similar lands, is clearly contrary to the injunction put upon taxing authorities by Section 1 of Article 8 of the Texas Constitution, which provides that:\n\u201cTaxation shall be equal and uniform. All property in this State * * * shall be taxed in proportion to its value * * * *\u201d\nTwo of the leading cases so holding are Whelan v. State, 155 Texas 14, 282 S.W. 2d 378 (1955) ; and State v. Whittenburg, 153 Texas 205, 265 S.W. 2d 569 (1954).\nThis Court has stated:\n\u201cThe deliberate adoption of a plan for the omission from the tax rolls of a large volume of property, personal or real, is in direct contravention of constitutional and statutory provisions for equality and uniformity of taxation.\u201d City of Arlington v. Cannon, 153 Texas 566, 271 S.W. 2d 414 (1954).\nBut while the Land Bank did prove an arbitrary and illegal scheme of ad valorem taxation, that fact alone under the facts here does not of itself entitle it to relief. This is not a direct attack on the scheme of taxation or a suit to prevent the initiation or operation of an illegal scheme. No relief was sought by mandamus or injunction. Here the taxpayer sat by and allowed the plan to be put into operation without even a suggestion of a protest, objection, or appeal. The County and the other taxpayers have proceeded under the plan. The point is made only after the county-wide valuations have been fixed and adjusted in the board of equalization, the taxes levied, assessed, and presumably paid by the other taxpayers in the county. Under those circumstances, the Land Bank must assume a very heavy and onerous burden.\n2 The government does not lose its right to taxes on one parcel of property by reason of the failure of its officers, either negligently or designedly, to assess other property that is likewise taxable. Once such a plan is put into effect, the litigant may defeat the recovery of taxes only to the extent that they are excessive; and he must prove the excessiveness. City of Arlington v. Cannon, 153 Texas 566, 271 S.W. 2d 414 (1954). When the attack is made because the taxing authority has followed an arbitrary plan or scheme, the taxpayer, to prevail, must show not only that the plan was an arbitrary and illegal one but also that the use of the plan worked to his substantial injury. State v. Whittenburg, 153 Texas 205, 265 S.W. 2d 569 (1954).\n\u201cThe difficulties to be encountered in making the necessary proof as a basis for relief is the penalty the taxpayer must pay for sitting idly by while taxing authorities put into effect a plan of taxation which deliberately permits certain classes of property to escape taxation.\u201d City of Arlington v. Cannon, supra.\nIn cases previously before this Court, proof of substantial injury has been held to mean that the taxpayer must prove that his taxes are excessive or substantially higher by virtue of the omission of the taxable property and the failure to assess taxable property at its market value. Whelan v. State, supra; State v. Whittenburg, supra. As stated by Judge Brown of the Fifth Circuit after reviewing the Texas cases, \u201cIt must finally be translated into hard dollars out of the complaining taxpayer\u2019s pocket.\u201d \u201c* * * no matter how much it (the tax plan) violates the State Constitutional pattern, the only relief of a taxpayer defending delinquent tax suit is to show in dollars and cents that he is worse off.\u201d City of Orange v. Levingston Shipbuilding Co. (1958), 258 F. 2d 240 at 246 and 248.\n3 The trial court, sitting without a jury in this case, found against the Land Bank. Thus, by implication, it found that the Land Bank failed to make such proof. The evidence supports these findings.\nThe tax assessor testified that the values placed on all mineral interests were \u201cminimum values\u201d; i.e., 50 cents, 75 cents, and $1.00 per acre. Based on these valuations, the State taxes on the Land Bank\u2019s interest in the minerals in the 320 acres in question were 67 cents per year. The average County tax on these minerals was $1.39. Thus the average total tax for a year on the Bank\u2019s minerals in the 320 acres was $2.06. We find no proof as to how much less than $2.06 the taxes would have been if all the minerals in the County had been taxed at their market value, including the interest the Land Bank had in 80,000 of the acres of Dallam County. A 20% reduction would have made a difference of only about 41 cents per year on the minerals in question. It is difficult to see substantial injury to any taxpayer under those circumstances. And as to this petitioner, the Land Bank, with its very substantial holdings and assets, the situation at least approaches the point of de minimis non curat lex (the law does not concern itself with small or trifling matters).\nBut we need not and do not rest our holding on so narrow a basis. The tax scheme was a county-wide one. It had two features which were particularly objectionable:\n(1) The minerals in the land (as well as much of the surface) were not taxed on the basis of their actual market value; each mineral acre was assessed on the same valuation regardless of actual market value. For some interests, the values may have been excessive; for others, there may have been a gross undervaluation.\n(2) The minerals under some land were assigned an additional value simply because the mineral estates had been severed.\nTo be relieved of its operations after it has been allowed to be put into full operation, the Land Bank had the burden to show that the entire plan, as it applies to the entire property of the Bank in that county, results in substantial injury to it.\nThe parties do not agree on the actual amount of mineral acres owned by the Land Bank in the various quadrants of the County. The minerals under the northeast and southeast quadrants were the most valuable in the County. In the northeast quadrant, the Bank owned over 11,000 acres of nonparticipating royalty, over 2,000 acres of minerals for a term of fifty years, and some 350 acres of minerals in fee. In the southeast quadrant, it owned over 13,000 acres of nonparticipating royalty and over 1,100 acres of minerals in fee.\nThe minerals in question were in the southwest quadrant. There was testimony that they were worth $5.00 per acre. There was testimony that minerals in the northeast quadrant were worth five to ten times as much as the minerals in the land in question, and that minerals in the southeast quadrant were worth five times as much. Yet the minerals in the northeast and southeast quadrants were valued at one dollar per acre for the minerals and 50 cents for the royalty. No proof was offered of the value of the Bank\u2019s minerals in the northeast and southeast quadrants. Of the minerals and royalty interests owned by it, the Bank offered proof of market value only of the 320 acres in question in the southwest quadrant.\nThe County contends that because of the higher actual market value of the Land Bank\u2019s holding in the northeast and southeast quadrants which are assessed on this minimum basis, the Land Bank actually benefited from the tax scheme. The Land Bank answers, correctly we think, that to hold that it was benefited by the offsetting advantage by virtue of other property owned by it would be speculative on matters outside of the record in this case. It is speculative both ways, both as to benefit or substantial injury, because no proof was offered; and the burden was on the Bank to prove that it has suffered substantial injury by virtue of the County\u2019s tax plan.\nAs an instrumentality of the federal government, the Land Bank claims an exemption from ad valorem taxation on its money in the bank and on its promissory notes. The County does not here contest that exemption. Nevertheless, the Land Bank contends that the' County\u2019s tax scheme is illegal because the County has not taxed money in banks. It says its million dollars in the banks is exempt from taxation, but it is injured because others are not taxed on their deposits. The County answers that the Land Bank has failed to make proof as to the precise amount of the deposits which are subject to taxation, and the trial court so found by implication. While the Whelan case, supra, makes it plain that deposits are taxable, we need not decide the contention made here. We have already held the County\u2019s tax scheme to be invalid on other grounds; and even if we were to agree with the Land Bank that the plan is invalid for this additional reason, it still could not prevail. There being no proof of the market value of its very substantial oil, gas and mineral interests in the north and east quadrants of the County, all of which were taxed at the uniform minimum amounts, we are unable to say as a matter of law that it proved substantial injury to itself. Whelan v. State, 155 Texas 14, 282 S.W. 2d 378 (1955) ; City of Orange v. Levingston Shipbuilding Co., (5th Cir. 1958) 258 F. 2d 240.\nThe judgment of the Court of Civil Appeals is reversed and that of the trial court is reformed so as to eliminate a recovery as to penalty and interest. As so reformed, the judgment of the trial court is affirmed.\nOpinion delivered December 9, 1959.\n. \u2014 It was stipulated that it was the practice of the County to affix the following values to surface lands per acre: irrigated land, $6.00; nonirrigated farm lands, $3.50 to $10.00; pasture, $3.00 to $3.50. The values placed on all severed minerals per acre were: leasehold interest, $1.00 for 1954, and $.75 for 1955 and 1956; royalty, $.50; other mineral interest, $1.00.",
+        "type": "majority",
+        "author": "Mr. Justice Greenhill"
+      },
+      {
+        "text": "Justice Smith\ndissenting.\nThe majority agrees with the Court of Civil Appeals that the system of taxation adopted by the County is arbitrary and fundamentally erroneous, but, largely because of the decision in State v. Whittenburg, 153 Texas 205, 265 S.W. 2d 569, and cases following, holds that the Federal Land Bank should lose for' failure to prove substantial injury to itself by virtue of that system.\nThis writer joined Justices Smedley and Brewster in a dissenting opinion in the Whittenburg case, supra. That opinion was written by Justice Smedley in February 1954.\nThis Court should exercise its right to review the principles of law announced by the majority in the Whittenburg case, and, if the law was erroneously pronounced, should correct the error committed in the former case. The holding is that showing that a taxing authority has followed an arbitrary plan or scheme is not enough, but that the taxpayer has the burden of going further and establishing that the use of the plan worked to his substantial injury. It seems that in the Whittenburg case, supra, as well as the case of City of Arlington v. Cannon, 153 Texas 566, 271 S.W. 2d 414, the theory is advanced that a taxpayer is charged with the duty of acting as a watchdog over the elected servants of the people and upon failure to immediately apply for a writ of mandamus or injunction to prevent such officials from thrusting upon him an unjust tax burden, he must suffer merely because he failed to show substantial injury. It is true that no dissent was filed in the City of Arlington case, supra, however, there is precedent for reviewing and even overruling former decisions of this Court, especially where such decision is based on a decision reached by a divided Court. See Federal Royalty Co. v. State, 128 Texas 324, 98 S.W. 2d 993; Bowman Biscuit Co. of Texas v. Hines, 151 Texas 370, 251 S.W. 2d 153. The Whittenburg case, supra, and the present case f\u00e1il to follow the rule that when the taxing officials employ an arbitrary and unjust method of valuing and assessing property, as was done here, the property owner' is entitled to relief against the' valuations and assessments. There is a distinction in a case where the board fairly and honestly endeavors to fix a just valuation for taxing purposes. In such case, a mistake on the part of- the board is not subject to court review, but, where the board adopts a method, plan or scheme that is illegal, arbitrary, or fundamentally wrong, the decision may be attacked and set aside, and this without proof of injury, as Whittenburg. and other cases now require. This Court should return to the true rule and the only just rule which was announced in the cases cited in the dissenting opinion in the Whittenburg case. The majority in the Whittenburg case, supra, emphasizes its holding by quoting from the case of Lubbock Hotel Co. v. Lubbock Independent School District, Texas Civ. App., 85 S.W. 2d 776, no writ history. The quotation reads as follows:\n\u201cA mere theory may not be litigated. * * * There must be more than the mere adoption of a fundamentally wrong principle or method of taxation. The courts grant relief upon \u2018the adoption of a fundamentally wrong principle or method, the application of which substantially injures the complainant\u2019.\u201d 85 S.W. 2d at page 778.\nIt is my contention that there' existed something more in the Whittenburg case than an attempt to litigate a mere theory. In the present case, not only was there an illegal plan in full operation, but the taxing authority actually brought suit to collect taxes wherein the rate of taxation was fixed by such illegal plan. If the taxing authority adopts a method that is illegal, arbitrary, or fundamentally wrong, the taxation will not be permitted to stand.\nRegardless of the action this Court may take in regard to overruling the holding in the Whittenburg case, it is my contention that the evidence in this case shows that the taxing authority has deliberately omitted from the tax rolls a large volume of property, personal and real, thereby acting in direct contravention of the constitutional provisions of Article VIII, Sec. 1, Constitution of Texas, and the provisions of Article 7174, Vernon\u2019s Annotated Civil Statutes of Texas.\nIt is clear from the stipulated evidence that over 48 per cent of the minerals in Dallam County were shown to be owned in common with the surface, and were not valued for taxation, either by listing them separately or by adding their market value to that of the surface.\nIt was stipulated that no attempt was made to assess bank deposits. With bank deposits added, the lands, as well as the minerals, were entitled to a 20 per cent reduction in assessment to make the total tax for 1954.\nIn the case of Whelan v. State, 155 Texas 14, 282 S.W. 2d 378, 384, this Court held that money on deposit in banks was subject to taxation. This Court reversed that case because testimony as to bank deposits was excluded by the trial court. The Court said:\n\u201cIt can hardly be questioned or doubted that on the. record before the court, the proffered evidence, if undisputed, would have shown substantial injury as a matter of law in that petitioners\u2019 taxes were excessive to the extent indicated.\u201d\n-In our c\u00e1se, property, both real and personal, has been relieved entirely from taxation. This amounts to discrimination as against the respondent and is a denial of due process and equal protection, and amounts to a denial of rights guaranteed by the Texas Constitution, Art. 1, Secs. 3, 19, and the Fourteenth Amendment to the United States Constitution.\nThe judgment of the Court of Civil Appeals should be affirmed.\nOpinion delivered December 9, 1959.",
+        "type": "dissent",
+        "author": "Justice Smith"
+      }
+    ],
+    "attorneys": [
+      "Richards & Ferguson and Robert C. Ferguson, of Dalhart, for petitioners.",
+      "B. L. Templeton, of Houston, Underwood, Wilson, Sutton, Hearne & Boyce and H. A. Berry, all of Amarillo, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "The State of Texas Et Al v. The Federal Land Bank of Houston.\nNo. A-6961.\nDecided December 9, 1959.\n(329 S.W. 2d Series 847)\nRichards & Ferguson and Robert C. Ferguson, of Dalhart, for petitioners.\nIt was error for the Court of Civil Appeals to reverse the trial court\u2019s judgment when respondent failed to sustain its burden of proving an illegal plan of taxation for the tax years in question and its substantial injury resulting from the placing into effect of such plan. Whelan v. State, 155 Texas 14, 282 S.W. 2d 378; City of Arlington v. Cannon, 153 Texas 566, 271 S.W. 2d 414; Druesdow v. Baker, Com. App., 263 S.W. 493, affirmed by the Supreme Court of the United States, 263 U.S. 137, 44 Sup. Ct. 40, 68 L. Ed. 2d 12.\nB. L. Templeton, of Houston, Underwood, Wilson, Sutton, Hearne & Boyce and H. A. Berry, all of Amarillo, for respondents.\nUnder its counterpoints to petitioners points respondents cite Rowland v. City of Tyler, Com. of App., 5 S.W. 2d 756, 760; Howth v. French Ind. Sch. Dist., 134 Texas 211, 134 S.W. 2d 1036; Town of Pleasanton v. Vance, Com. of App., 277 S.W. 89."
+  },
+  "file_name": "0282-01",
+  "first_page_order": 296,
+  "last_page_order": 306
+}

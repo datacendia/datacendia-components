@@ -1,0 +1,59 @@
+{
+  "id": 12432624,
+  "name": "Missouri v. Birkett, Warden",
+  "name_abbreviation": "Missouri v. Birkett",
+  "decision_date": "2013-03-04",
+  "docket_number": "No. 12-7984",
+  "first_page": "1215",
+  "last_page": "1215",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1215"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.631,
+    "sha256": "34370c43d0add1be7a8ef4a9a7d2b7bfba7b00fcd68a978217dd3b9a3857fb7d",
+    "simhash": "1:b79c23076e131226",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Missouri v. Birkett, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7984.\nMissouri v. Birkett, Warden."
+  },
+  "file_name": "1215-14",
+  "first_page_order": 1291,
+  "last_page_order": 1291
+}

@@ -1,0 +1,1680 @@
+{
+  "id": 3582194,
+  "name": "UNITED STATES v. STEVENS",
+  "name_abbreviation": "United States v. Stevens",
+  "decision_date": "2010-04-20",
+  "docket_number": "No. 08-769",
+  "first_page": "460",
+  "last_page": "505",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "559 U.S. 460"
+    },
+    {
+      "type": "parallel",
+      "cite": "176 L. Ed. 2d 435"
+    },
+    {
+      "type": "parallel",
+      "cite": "130 S. Ct. 1577"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2009-047"
+    },
+    {
+      "type": "vendor",
+      "cite": "2010 U.S. LEXIS 3478"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "1 Cranch 137",
+      "category": "reporters:scotus_early",
+      "reporter": "Cranch",
+      "case_ids": [
+        6759998,
+        6760011,
+        12121622
+      ],
+      "year": 1803,
+      "pin_cites": [
+        {
+          "page": "178"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/dc/1/0137-01",
+        "/dc/1/0137-02",
+        "/us/5/0137-01"
+      ]
+    },
+    {
+      "cite": "513 U. S. 454",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1333702
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "479, n. 26"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/513/0454-01"
+      ]
+    },
+    {
+      "cite": "484 U. S. 383",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        600890
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "397"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/484/0383-01"
+      ]
+    },
+    {
+      "cite": "521 U. S. 844",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        916080
+      ],
+      "weight": 2,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "884"
+        },
+        {
+          "page": "884-885"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/521/0844-01"
+      ]
+    },
+    {
+      "cite": "556 U. S. 502",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653713
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "516"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/556/0502-01"
+      ]
+    },
+    {
+      "cite": "531 U. S. 457",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9505769
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "473"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/531/0457-01"
+      ]
+    },
+    {
+      "cite": "333 U. S. 507",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6158437
+      ],
+      "year": 1948,
+      "pin_cites": [
+        {
+          "page": "528",
+          "parenthetical": "Frankfurter, J., dissenting"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/333/0507-01"
+      ]
+    },
+    {
+      "cite": "403 U. S. 15",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12026621
+      ],
+      "year": 1971,
+      "pin_cites": [
+        {
+          "page": "25",
+          "parenthetical": "quoting Winters v. New York, 333 U. S. 507, 528 (1948) (Frankfurter, J., dissenting); alteration in original"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/403/0015-01"
+      ]
+    },
+    {
+      "cite": "408 U. S. 229",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1782954
+      ],
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "231",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/408/0229-01"
+      ]
+    },
+    {
+      "cite": "413 U. S. 15",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11338628
+      ],
+      "weight": 4,
+      "year": 1973,
+      "pin_cites": [
+        {
+          "page": "24"
+        },
+        {
+          "page": "24-25"
+        },
+        {
+          "page": "25, n. 7"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/413/0015-01"
+      ]
+    },
+    {
+      "cite": "478 U. S. 328",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6207436
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "342"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/478/0328-01"
+      ]
+    },
+    {
+      "cite": "501 U. S. 560",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1107753
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "575",
+          "parenthetical": "Scalia, J., concurring in judgment"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/501/0560-01"
+      ]
+    },
+    {
+      "cite": "Fla. Stat. Ann. \u00a7828.23",
+      "category": "laws:leg_statute",
+      "reporter": "Fla. Stat. Ann.",
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "(5)",
+          "parenthetical": "excluding poultry from humane slaughter requirements"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "Wash. Admin. Code \u00a7232-28-342",
+      "category": "laws:admin_compilation",
+      "reporter": "Wash. Admin. Code",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "Va. Code Ann. \u00a729.1-519",
+      "category": "laws:leg_statute",
+      "reporter": "Va. Code Ann.",
+      "pin_cites": [
+        {
+          "page": "(A)(6)",
+          "parenthetical": "Lexis 2008 Cum. Supp."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "Ga. Code Ann. \u00a727-3-4",
+      "category": "laws:leg_statute",
+      "reporter": "Ga. Code Ann.",
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "541 U. S. 246",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5877502
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "252"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/541/0246-01"
+      ]
+    },
+    {
+      "cite": "543 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3442217
+      ],
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "11"
+        },
+        {
+          "page": "11",
+          "parenthetical": "interpreting a '\"substantial risk'\" of the \"us[e]\" of \"physical force\" as part of the definition of \" 'crime of violence' \""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/543/0001-01"
+      ]
+    },
+    {
+      "cite": "553 U. S. 285",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3674164
+      ],
+      "weight": 3,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "293"
+        },
+        {
+          "page": "294"
+        },
+        {
+          "page": "294"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/553/0285-01"
+      ]
+    },
+    {
+      "cite": "552 U. S. 442",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3675723
+      ],
+      "weight": 2,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "449, n. 6",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "444"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/552/0442-01"
+      ]
+    },
+    {
+      "cite": "521 U. S. 702",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        916123
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "740, n. 7",
+          "parenthetical": "Stevens, J., concurring in judgments"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/521/0702-01"
+      ]
+    },
+    {
+      "cite": "481 U. S. 739",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6222105
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "745"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/481/0739-01"
+      ]
+    },
+    {
+      "cite": "535 U. S. 234",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        354556
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "249-250",
+          "parenthetical": "noting that distribution and sale \"were intrinsically related to the sexual abuse of children,\" giving the speech at issue \"a proximate link to the crime from which it came\" (internal quotation marks omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/535/0234-01"
+      ]
+    },
+    {
+      "cite": "495 U. S. 103",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        634195
+      ],
+      "weight": 2,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "110",
+          "parenthetical": "describing Ferber as finding \"persuasive\" the argument that the advertising and sale of child pornography was \"an integral part\" of its unlawful production (internal quotation marks omitted)"
+        },
+        {
+          "page": "121"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/495/0103-01"
+      ]
+    },
+    {
+      "cite": "458 U. S. 747",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        636693
+      ],
+      "weight": 7,
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "763-764"
+        },
+        {
+          "page": "763"
+        },
+        {
+          "page": "756-757, 762"
+        },
+        {
+          "page": "764"
+        },
+        {
+          "page": "759, 761"
+        },
+        {
+          "page": "761-762"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/458/0747-01"
+      ]
+    },
+    {
+      "cite": "482 U. S. 569",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6217453
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "574"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/482/0569-01"
+      ]
+    },
+    {
+      "cite": "315 U. S. 568",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        374637
+      ],
+      "weight": 2,
+      "year": 1942,
+      "pin_cites": [
+        {
+          "page": "571-572"
+        },
+        {
+          "page": "572"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/315/0568-01"
+      ]
+    },
+    {
+      "cite": "336 U. S. 490",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3939338
+      ],
+      "weight": 2,
+      "year": 1949,
+      "pin_cites": [
+        {
+          "page": "498"
+        },
+        {
+          "page": "498"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/336/0490-01"
+      ]
+    },
+    {
+      "cite": "395 U. S. 444",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1771581
+      ],
+      "year": 1969,
+      "pin_cites": [
+        {
+          "page": "447-449",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/395/0444-01"
+      ]
+    },
+    {
+      "cite": "425 U. S. 748",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6182253
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "771"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/425/0748-01"
+      ]
+    },
+    {
+      "cite": "343 U. S. 250",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11339036
+      ],
+      "year": 1952,
+      "pin_cites": [
+        {
+          "page": "254-255"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/343/0250-01"
+      ]
+    },
+    {
+      "cite": "354 U. S. 476",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6160660
+      ],
+      "year": 1957,
+      "pin_cites": [
+        {
+          "page": "483"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/354/0476-01"
+      ]
+    },
+    {
+      "cite": "502 U.S. 105",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6219760
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "127",
+          "parenthetical": "Kennedy, J., concurring in judgment"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/502/0105-01"
+      ]
+    },
+    {
+      "cite": "505 U. S. 377",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1481163
+      ],
+      "weight": 2,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "382"
+        },
+        {
+          "page": "382-383"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/505/0377-01"
+      ]
+    },
+    {
+      "cite": "529 U. S. 803",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9509184
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "817",
+          "parenthetical": "quoting R. A. V. v. St. Paul, 505 U. S. 377, 382 (1992); citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/529/0803-01"
+      ]
+    },
+    {
+      "cite": "535 U. S. 564",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        355003
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "573",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/535/0564-01"
+      ]
+    },
+    {
+      "cite": "556 U. S. 1181",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "533 F. 3d 218",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4038107
+      ],
+      "weight": 10,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "221",
+          "parenthetical": "en banc"
+        },
+        {
+          "page": "224"
+        },
+        {
+          "page": "224-232"
+        },
+        {
+          "page": "232"
+        },
+        {
+          "page": "232-235"
+        },
+        {
+          "page": "235, n. 16"
+        },
+        {
+          "page": "231, n. 13"
+        },
+        {
+          "page": "231, n. 13",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/533/0218-01"
+      ]
+    },
+    {
+      "cite": "7 U.S.C. \u00a72156",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "90 Stat. 421",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 48",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "2-3"
+        },
+        {
+          "page": "(c)(2)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "Tex. Penal Code Ann. \u00a7 42.092",
+      "category": "laws:leg_statute",
+      "reporter": "Tex. Code Ann.",
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "(a)(2)",
+          "parenthetical": "\"'Animal' means a domesticated living creature, in-eluding any stray or feral cat or dog, and a wild living creature previously captured. The term does not include an uncaptured wild living creature or a livestock animal\""
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "468 U. S. 609",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11339552
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "624-625",
+          "parenthetical": "citing state laws prohibiting discrimination in public accommodations as evidence of the compelling governmental interest in ensuring equal access"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/468/0609-01"
+      ]
+    },
+    {
+      "cite": "19 Harv. J. L. & Tech. 413",
+      "category": "journals:journal",
+      "reporter": "Harv. J.L. & Tech.",
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "432",
+          "parenthetical": "\"Not surprisingly, state laws relating to the humane treatment of wildlife, including deer, elk, and waterfowl, are virtually non-existent\""
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "533 P. 3d 218",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "231, n. 13",
+          "parenthetical": "en bane"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "Wyo. Stat. Ann. \u00a7 6-3-203",
+      "category": "laws:leg_statute",
+      "reporter": "Wyo. Stat. Ann.",
+      "weight": 3,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "(m)(iv)",
+          "parenthetical": "\"Nothing in subsection (a), (b) or (n) of this section shall be construed to prohibit... [t]he hunting, capture or destruction of any predatory animal or other wildlife in any manner not otherwise prohibited by law\""
+        },
+        {
+          "page": "71"
+        },
+        {
+          "page": "47"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "Wis. Stat. \u00a7951.015",
+      "category": "laws:leg_statute",
+      "reporter": "Wis. Stat.",
+      "pin_cites": [
+        {
+          "page": "(1)",
+          "parenthetical": "2007-2008"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "W. Va. Code Ann. \u00a7 61-8-19",
+      "category": "laws:leg_statute",
+      "reporter": "W. Va. Code Ann.",
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "(f)",
+          "parenthetical": "\"The provisions of this section do not apply to lawful acts' of hunting, fishing, [or] trapping\""
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "Wash. Rev. Code \u00a716.52.180",
+      "category": "laws:leg_statute",
+      "reporter": "Wash. Rev. Code",
+      "year": 2008,
+      "pin_cites": [
+        {
+          "parenthetical": "\"No part of this chapter shall be deemed to interfere with any of the laws of this state known as the 'game laws'... or to interfere with the right to kill animals to be used for food\""
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "Va. Code Ann. \u00a73.2-6570",
+      "category": "laws:leg_statute",
+      "reporter": "Va. Code Ann.",
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "(D)",
+          "parenthetical": "\"This section shall not prohibit authorized wildlife management activities or hunting, fishing or trapping [as regulated by state law]\""
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "Utah Code Ann. \u00a7 76-9-301",
+      "category": "laws:leg_statute",
+      "reporter": "Utah Code Ann.",
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "(l)(b)(ii)(D)",
+          "parenthetical": "\"'Animal' does not include . . . wildlife, as defined in Section 23-13-2, including protected and unprotected wildlife, if the conduct toward the wildlife is in accordance with lawful hunting, fishing, or trapping practices or other lawful practices\""
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "Tenn. Code Ann. \u00a739-14-201",
+      "category": "laws:leg_statute",
+      "reporter": "Tenn. Code Ann.",
+      "pin_cites": [
+        {
+          "page": "(1)",
+          "parenthetical": "2010 Supp."
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "18 Pa. Cons. Stat. \u00a75511",
+      "category": "laws:leg_statute",
+      "reporter": "Pa. Cons. Stat.",
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "(a)(3)(ii)",
+          "parenthetical": "\"This subsection [banning killing, maiming, or poisoning of domestic animals or zoo animals] shall not apply to... the killing of any animal or fowl pursuant to ... The Game Law\""
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "Nev. Rev. Stat. \u00a7\u00a7574.200",
+      "category": "laws:leg_statute",
+      "reporter": "Nev. Rev. Stat.",
+      "pin_cites": [
+        {
+          "page": "(1)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "Neb. Rev. Stat. \u00a728-1013",
+      "category": "laws:leg_statute",
+      "reporter": "Neb. Rev. Stat.",
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "(4)",
+          "parenthetical": "exempting \"[e]ommonly accepted practices of hunting, fishing, or trapping\""
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "Mont. Code Ann. \u00a745-8-211",
+      "category": "laws:leg_statute",
+      "reporter": "Mont. Code Ann.",
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "(4)(d)",
+          "parenthetical": "\"This section does not prohibit... lawful fishing, hunting, and trapping activities\""
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "Mo. Rev. Stat. \u00a7578.007",
+      "category": "laws:leg_statute",
+      "reporter": "Mo. Rev. Stat.",
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "(3)",
+          "parenthetical": "\"The provisions of sections 578.005 to 578.023 shall not apply to... [hjunting, fishing, or trapping as allowed by\" state law"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "Mich. Comp. Laws Ann. \u00a7\u00a7 750.50",
+      "category": "laws:leg_statute",
+      "reporter": "Mich. Comp. Laws Ann.",
+      "pin_cites": [
+        {
+          "page": "(ll)(a)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "Ky. Rev. Stat. Ann. \u00a7\u00a7 525.130",
+      "category": "laws:leg_statute",
+      "reporter": "Ky. Rev. Stat. Ann.",
+      "pin_cites": [
+        {
+          "page": "(2)(a)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "Kan. Stat. Ann. \u00a7 21-4310",
+      "category": "laws:leg_statute",
+      "reporter": "Kan. Stat. Ann.",
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "(b)(3)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "Ind. Code \u00a7 35-46-3-5",
+      "category": "laws:leg_statute",
+      "reporter": "Ind. Code",
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "Idaho Code \u00a725-3515",
+      "category": "laws:leg_statute",
+      "reporter": "Idaho Code",
+      "year": 2000,
+      "pin_cites": [
+        {
+          "parenthetical": "\"No part of this chapter shall be construed as interfering with, negating or preempting any of the laws or rules of the department of fish and game of this state... or to interfere with the right to kill, slaughter, bag or take all animals used for food\""
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "Haw. Rev. Stat. \u00a7711-1108.5",
+      "category": "laws:leg_statute",
+      "reporter": "Haw. Rev. Stat.",
+      "pin_cites": [
+        {
+          "page": "(1)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "Ga. Code Ann. \u00a7 16-12-4",
+      "category": "laws:leg_statute",
+      "reporter": "Ga. Code Ann.",
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "(e)",
+          "parenthetical": "\"The provisions of this Code section shall not be construed as prohibiting conduct which is otherwise permitted under the laws of this state or of the United States, including, but not limited to . . . hunting, trapping, fishing, [or] wildlife management\""
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "Fla. Stat. \u00a7828.122",
+      "category": "laws:leg_statute",
+      "reporter": "Fla. Stat.",
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "(9)(b)",
+          "parenthetical": "\"This section shall not apply to . . . [a]ny person using animals to pursue or take wildlife or to participate in any hunting regulated or subject to being regulated by the rules and regulations of the Fish and Wildlife Conservation Commission\""
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "Conn. Gen. Stat. \u00a7 53-247",
+      "category": "laws:leg_statute",
+      "reporter": "Conn. Gen. Stat.",
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "Colo. Rev. Stat. Ann. \u00a7 18-9-201.5",
+      "category": "laws:leg_statute",
+      "reporter": "Colo. Rev. Stat. Ann.",
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "(2)",
+          "parenthetical": "\"In case of any conflict between this part 2 [prohibiting cruelty to animals] or section 35-43-126, [Colo. Rev. Stat.], and section 35-43-126, [Colo. Rev. Stat.], and the wildlife statutes of the state, said wildlife statutes shall control\""
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "Ark. Code Ann. \u00a75-62-105",
+      "category": "laws:leg_statute",
+      "reporter": "Ark. Code Ann.",
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "(a)",
+          "parenthetical": "\"This sub-chapter does not prohibit any of the following activities: ... (9"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "Ariz. Rev. Stat. Ann. \u00a7\u00a7 13-2910",
+      "category": "laws:leg_statute",
+      "reporter": "Ariz. Rev. Stat. Ann.",
+      "pin_cites": [
+        {
+          "parenthetical": "0(1), (3) (West Supp. 2009) (\"This section does not prohibit or restrict . . . [t]he taking of wildlife or other activities permitted by or pursuant to title 17 ... [or] [activities regulated by the Arizona game and fish department or the Arizona department of agriculture\""
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "Alaska Stat. \u00a7 11.61.140",
+      "category": "laws:leg_statute",
+      "reporter": "Alaska Stat.",
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "(c)(4)",
+          "parenthetical": "\"It is a defense to a prosecution under this section that the conduct of the defendant... was necessarily incidental to lawful fishing, hunting or trapping activities\""
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "18 U. S. C. \u00a749",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "7 U. S. C. \u00a7 2156",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "18 U. S. C. \u00a72252",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "Kan. Stat. Ann. \u00a721",
+      "category": "laws:leg_statute",
+      "reporter": "Kan. Stat. Ann.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "Idaho Code \u00a725-3514",
+      "category": "laws:leg_statute",
+      "reporter": "Idaho Code",
+      "year": 2000,
+      "opinion_index": 1
+    },
+    {
+      "cite": "39 Fed. Reg. 35315",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 1974,
+      "pin_cites": [
+        {
+          "parenthetical": "hunting furthers \"appreciation and respect for nature\" and preservation of the environment"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "44 Fed. Reg. 53149",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 1979,
+      "pin_cites": [
+        {
+          "parenthetical": "hunting promotes conservation and an appreciation of \"healthy recreation, peaceful solitude and closeness to nature\""
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "69 Fed. Reg. 59539",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 2004,
+      "pin_cites": [
+        {
+          "parenthetical": "hunting and fishing are \"an important part of our Nation's heritage,\" and \"America's hunters and anglers represent the great spirit of our country\""
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "73 Fed. Reg. 57233",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 2008,
+      "pin_cites": [
+        {
+          "parenthetical": "hunters and anglers \"add to . our heritage and keep our wildlife populations healthy and strong,\" and \"are among our foremost conservationists\""
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "74 Fed. Reg. 49305",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 2009,
+      "pin_cites": [
+        {
+          "parenthetical": "hunting and fishing are \"ageless pursuits\" that promote \"the conservation and restoration of numerous species and their natural habitats\""
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "86 Stat. 133",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "466 U. S. 789",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6206324
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "801",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/466/0789-01"
+      ]
+    },
+    {
+      "cite": "539 U. S. 113",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8897431
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "122",
+          "parenthetical": "quoting New York State Club Assn., supra, at 14; emphasis added; internal quotation marks omitted; alteration in original"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/539/0113-01"
+      ]
+    },
+    {
+      "cite": "482 U. S. 451",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6216102
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "466-467"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/482/0451-01"
+      ]
+    },
+    {
+      "cite": "487 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1775005
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "11"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/487/0001-01"
+      ]
+    },
+    {
+      "cite": "436 U. S. 447",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1490308
+      ],
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "462, n. 20",
+          "parenthetical": "describing the doctrine as one \"under which a person may challenge a statute that infringes protected speech even if the statute constitutionally might be applied to him\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/436/0447-01"
+      ]
+    },
+    {
+      "cite": "492 U. S. 469",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6216467
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "483",
+          "parenthetical": "\"Ordinarily, the principal advantage of the overbreadth doctrine for a litigant is that it enables him to benefit from the statute's unlawful application to someone else\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/492/0469-01"
+      ]
+    },
+    {
+      "cite": "413 U. S. 601",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11342234
+      ],
+      "weight": 2,
+      "year": 1973,
+      "pin_cites": [
+        {
+          "page": "611-612"
+        },
+        {
+          "page": "613"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/413/0601-01"
+      ]
+    },
+    {
+      "cite": "528 U. S. 32",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9476053
+      ],
+      "weight": 2,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "39",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "45",
+          "parenthetical": "Stevens, J., dissenting"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/528/0032-01"
+      ]
+    },
+    {
+      "cite": "553 U. S. 285",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3674164
+      ],
+      "weight": 8,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "293",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "292"
+        },
+        {
+          "page": "301-302"
+        },
+        {
+          "page": "307",
+          "parenthetical": "Stevens, J., concurring"
+        },
+        {
+          "page": "292"
+        },
+        {
+          "page": "292"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/553/0285-01"
+      ]
+    },
+    {
+      "cite": "535 U. S. 234",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        354556
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "249"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/535/0234-01"
+      ]
+    },
+    {
+      "cite": "458 U. S. 747",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        636693
+      ],
+      "weight": 17,
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "767"
+        },
+        {
+          "page": "768"
+        },
+        {
+          "page": "773"
+        },
+        {
+          "page": "769, n. 24"
+        },
+        {
+          "page": "758",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "749",
+          "parenthetical": "\"In recent years, the exploitive use of children in the production of pornography has become a serious national problem\""
+        },
+        {
+          "page": "758, n. 9",
+          "parenthetical": "\"Sexual molestation by adults is often involved in the production of child sexual performances\""
+        },
+        {
+          "page": "759"
+        },
+        {
+          "page": "759-760"
+        },
+        {
+          "page": "761",
+          "parenthetical": "\"The advertising and selling of child pornography provide an economic motive for and are thus an integral part of the production of such materials\""
+        },
+        {
+          "page": "762-763"
+        },
+        {
+          "page": "758"
+        },
+        {
+          "page": "760"
+        },
+        {
+          "page": "759-760"
+        },
+        {
+          "page": "761"
+        },
+        {
+          "page": "757-758"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/458/0747-01"
+      ]
+    },
+    {
+      "cite": "502 U.S. 105",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6219760
+      ],
+      "weight": 3,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "119"
+        },
+        {
+          "page": "119"
+        },
+        {
+          "page": "118",
+          "parenthetical": "State's compelling interest \"in ensuring that victims of crime are compensated by those who harm them\" evidenced by fact that \"[e]very State has a body of tort law serving exactly this interest\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/502/0105-01"
+      ]
+    },
+    {
+      "cite": "533 F. 3d 218",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4038107
+      ],
+      "weight": 4,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "222",
+          "parenthetical": "en banc"
+        },
+        {
+          "page": "223"
+        },
+        {
+          "page": "228",
+          "parenthetical": "\"Preventing cruelty to animals, although an exceedingly worthy goal, simply does not implicate interests of the same magnitude as protecting children from physical and psychological harm\""
+        },
+        {
+          "page": "246",
+          "parenthetical": "Cowen, J., dissenting"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/533/0218-01"
+      ]
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 48",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 1
+    }
+  ],
+  "analysis": {
+    "cardinality": 3055,
+    "char_count": 90128,
+    "ocr_confidence": 0.59,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.10164936256901465
+    },
+    "sha256": "dbf7df83cda1cb2fc1b1c79c7ebe19b829e6b0d3131fe11589ec7815f25a96fc",
+    "simhash": "1:dc0692d5209de4a9",
+    "word_count": 14509
+  },
+  "last_updated": "2024-02-27T16:02:41.844851+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Roberts, C. J., delivered the opinion of the Court, in which Stevens, Scalia, Kennedy, Thomas, Ginsburg, Breyer, and Sotomayor, JJ., joined. Auto, J., filed a dissenting opinion, post, p. 482."
+    ],
+    "parties": [
+      "UNITED STATES v. STEVENS"
+    ],
+    "opinions": [
+      {
+        "text": "Chief Justice Roberts\ndelivered the opinion of the Court.\nCongress enacted 18 U. S. C. \u00a7 48 to criminalize the commercial creation, sale, or possession of certain depictions of animal cruelty. The statute does not address underlying acts harmful to animals, but only portrayals of such conduct. The question presented is whether the prohibition in the statute is consistent with the freedom of speech guaranteed by the First Amendment.\nI\nSection 48 establishes a criminal penalty of up to five years in prison for anyone who knowingly \u201ccreates, sells, or possesses a depiction of animal cruelty,\u201d if done \u201cfor commercial gain\u201d in interstate or foreign commerce. \u00a7 48(a). A depiction of \u201canimal cruelty\u201d is defined as one \u201cin which a living animal is intentionally maimed, mutilated, tortured, wounded, or killed,\u201d if that conduct violates federal or state law where \u201cthe creation, sale, or possession takes place.\u201d \u00a7 48(e)(1). In what is referred to as the \u201cexceptions clause,\u201d the law exempts from prohibition any depiction \u201cthat has serious religious, political, scientific, educational, journalistic, historical, or artistie value.\u201d \u00a748(b).\nThe legislative background of \u00a7 48 focused primarily on the interstate market for \u201ccrush videos.\u201d According to the House Committee Report on the bill, such videos feature the intentional torture and killing of helpless animals, including cats, dogs, monkeys, mice, and hamsters. H. R. Rep. No. 106-397, p. 2 (1999) (hereinafter H. R. Rep.). Crush videos often depict women slowly crushing animals to death \u201cwith their bare feet or while wearing high heeled shoes,\u201d sometimes while \u201ctalking to the animals in a kind of dominatrix patter\u201d over \u201c[t]he cries and squeals of the animals, obviously in great pain.\u201d Ibid. Apparently these depictions \u201cappeal to persons with a very specific sexual fetish who find them sexually arousing or otherwise exciting.\u201d Id., at 2-3. The acts depicted in crush videos are typically prohibited by the animal cruelty laws enacted by all 50 States and the District of Columbia. See Brief for United States 25, n. 7 (listing statutes). But crush videos rarely disclose the participants' identities, inhibiting prosecution of the underlying conduct. See H. R. Rep., at 3; accord, Brief for State of Florida et al. as Amici Curiae 11.\nThis case, however, involves an application of \u00a7 48 to depictions of animal fighting. Dogfighting, for example, is unlawful in all 50 States and the District of Columbia, see Brief for United States 26, n. 8 (listing statutes), and has been restricted by federal law since 1976. Animal Welfare Act Amendments of 1976, \u00a717, 90 Stat. 421, 7 U.S.C. \u00a72156. Respondent Robert J. Stevens ran a business, \u201cDogs of Velvet and Steel,\u201d and an associated Web site, through which he sold videos of pit bulls engaging in dogfights and attacking other animals. Among these videos were Japan Pit Fights and Pick-A-Winna: A Pit Bull Documentary, which include contemporary footage of dogfights in Japan (where such conduct is allegedly legal) as well as footage of American dogfights from the 1960\u2019s and 1970's. A third video, Catch Dogs and Country Living, depicts the use of pit bulls to hunt wild boar, as well as a \u201cgruesome\u201d scene of a pit bull attacking a domestic farm pig. 533 F. 3d 218, 221 (CA3 2008) (en banc). On the basis of these videos, Stevens was indicted on three counts of violating \u00a748.\nStevens moved to dismiss the indictment, arguing that \u00a7 48 is facially invalid under the First Amendment. The District Court denied the motion; It held that the depictions subject to \u00a748, like obscenity or child pornography, are categorically unprotected by the First Amendment. 2:04-cr-00051-ANB (WD Pa., Nov. 10, 2004), App. to Pet. for Cert. 65a-71a. It went on to hold that \u00a748 is not substantially overbroad, because the exceptions clause sufficiently narrows the statute to constitutional applications. Id., at 71a-75a. The jury convicted Stevens on all counts, and the District Court sentenced him to three concurrent sentences of 37 months\u2019 imprisonment, followed by three years of supervised release. App. 37.\nThe en banc Third Circuit, over a three-judge dissent, declared \u00a748 facially unconstitutional and vacated Stevens\u2019s conviction. 533 F. 3d 218. The Court of Appeals first held that \u00a748 regulates speech that is protected by the First Amendment. The Court declined to recognize a new category of unprotected speech for depictions of animal cruelty, id., at 224, and n. 6, and rejected the Government\u2019s analogy between animal cruelty depictions and child pornography, id., at 224-232.\nThe Court of Appeals then held that \u00a748 could not survive strict scrutiny as a content-based regulation of protected speech. Id., at 232. It found that the statute lacked a compelling Government interest and was neither narrowly tailored to preventing animal cruelty nor the least restrictive means of doing so. Id., at 232-235. It therefore held \u00a748 facially invalid.\nIn an extended footnote, the Third Circuit noted that \u00a748 \u201cmight also be unconstitutionally overbroad,\u201d because it \u201cpotentially covers a great deal of constitutionally protected speech\u201d and \u201csweeps [too] widely\u201d to be limited only by prosecutorial discretion. Id., at 235, n. 16. But the Court of Appeals declined to rest its analysis on this ground.\nWe granted certiorari. 556 U. S. 1181 (2009).\nII\nThe Government\u2019s primary submission is that \u00a748 necessarily complies with the Constitution because the banned depictions of animal cruelty, as a class, are categorically unprotected by the First Amendment. We disagree.\nThe First Amendment provides that \u201cCongress shall make no law . . . abridging the freedom of speech.\u201d \u201c[A]s a general matter, the First Amendment means that government has no power to restrict expression because of its message, its ideas, its subject matter, or its content.\u201d Ashcroft v. American Civil Liberties Union, 535 U. S. 564, 573 (2002) (internal quotation marks omitted). Section 48 explicitly regulates expression based on content: The statute restricts \u201cvisual [and] auditory depietion[s],\u201d such as photographs, videos, or sound recordings, depending on whether they depict conduct in which a living animal is intentionally harmed. As such, \u00a748 is \u201c\u2018presumptively invalid,\u2019 and the Government bears the burden to rebut that presumption.\u201d United States v. Playboy Entertainment Group, Inc., 529 U. S. 803, 817 (2000) (quoting R. A. V. v. St. Paul, 505 U. S. 377, 382 (1992); citation omitted).\n\u201cFrom 1791 to the present,\u201d however, the First Amendment has \u201cpermitted restrictions upon the content of speech in a few limited areas,\u201d and has never \u201cinelude[d] a freedom to disregard these traditional limitations.\u201d Id., at 382-383. These \u201chistoric and traditional categories long familiar to the bar,\u201d Simon & Schuster, Inc. v. Members of N. Y. State Crime Victims Bd., 502 U.S. 105, 127 (1991) (Kennedy, J., concurring in judgment) \u2014 including obscenity, Roth v. United States, 354 U. S. 476, 483 (1957), defamation, Beauharnais v. Illinois, 343 U. S. 250, 254-255 (1952), fraud, Virginia Bd. of Pharmacy v. Virginia Citizens Consumer Council, Inc., 425 U. S. 748, 771 (1976), incitement, Brandenburg v. Ohio, 395 U. S. 444, 447-449 (1969) (per curiam), and speech integral to criminal conduct, Giboney v. Empire Storage & Ice Co., 336 U. S. 490, 498 (1949) \u2014 are \u201cwell-defined and narrowly limited classes of speech, the prevention and punishment of which have never been thought to raise any Constitutional problem,\u201d Chaplinsky v. New Hampshire, 315 U. S. 568, 571-572 (1942).\nThe Government argues that '\u2018depictions of animal cruelty\u201d should be added to the list. It contends that depictions of \u201cillegal acts of animal cruelty\u201d that are \u201cmade, sold, or possessed for commercial gain\u201d necessarily \u201clack expressive value,\u201d and may accordingly \u201cbe regulated as unprotected speech.\u201d Brief for United States 10 (emphasis added). The claim is not just that Congress may regulate depictions of animal cruelty subject to the First Amendment, but that these depictions are outside the reach of that Amendment altogether \u2014 that they fall into a \u201c\u2018First Amendment Free Zone.\u2019\u201d Board of Airport Comm\u2019rs of Los Angeles v. Jews for Jesus, Inc., 482 U. S. 569, 574 (1987).\nAs the Government notes, the prohibition of animal cruelty itself has a long history in American law, starting with the early settlement of the Colonies. Reply Brief 12, n. 8; see, e. g., The Body of Liberties \u00a7 92 (Mass. Bay Colony 1641), reprinted in American Historical Documents 1000-1904, 43 Harvard Classics 66, 79 (C. Eliot ed. 1910) (\u201cNo man shall exercise any Tirranny or Crueltie towards any bruite Creature which are usuallie kept for man\u2019s use\u201d). But we are unaware of any similar tradition excluding depictions of animal cruelty from \u201cthe freedom of speech\u201d codified in the First Amendment, and the Government points us to none.\nThe Government contends that \u201chistorical evidence\u201d about the reach of the First Amendment is not \u201ca necessary prerequisite for regulation today,\u201d Reply Brief 12, n. 8, and that categories of speech may be exempted from the First Amendment\u2019s protection without any long-settled tradition of subjecting that speech to regulation. Instead, the Government points to Congress\u2019s \u201c \u2018legislative judgment that... depictions of animals being intentionally tortured and killed [are] of such minimal redeeming value as to render [them] unworthy of First Amendment protection/ \u201d Brief for United States 28 (quoting 538 F. 3d, at 243 (Cowen, J., dissenting)), and asks the Court to uphold the ban on the same basis. The Government thus proposes that a claim of categorical exclusion should be considered under a simple balancing test: \u201cWhether a given category of speech enjoys First Amendment protection depends upon a categorical balancing of the value of the speech against its societal costs.\u201d Brief for United States 8; see also id., at 12.\nAs a free-floating test for First Amendment coverage, that sentence is startling and dangerous. The First Amendment\u2019s guarantee of free speech does not extend only to categories of speech that survive an ad hoc balancing of relative social costs and benefits. The First Amendment itself reflects a judgment by the American people that the benefits of its restrictions on the Government outweigh the costs. Our Constitution forecloses any attempt to revise that judgment simply on the basis that some speech is not worth it. The Constitution is not a document \u201cprescribing limits, and declaring that those limits may be passed at pleasure.\u201d Marbury v. Madison, 1 Cranch 137, 178 (1803).\nTo be fair to the Government, its view did not emerge from a vacuum. As the Government correctly notes, this Court has often described historically unprotected categories of speech as being \u201c \u2018of such slight social value as a step to truth that any benefit that may be derived from them is clearly outweighed by the social interest in order and morality.\u2019\u201d R. A. V., supra, at 383 (quoting Chaplinsky, supra, at 572). In New York v. Ferber, 458 U. S. 747 (1982), we noted that within these categories of unprotected speech, \u201cthe evil to be restricted so overwhelmingly outweighs the expressive interests, if any, at stake, that no process of case-by-ease adjudication is required,\u201d because \u201cthe balance of competing interests is clearly struck,\u201d id., at 763-764. The Government derives its proposed test from these descriptions in our precedents. See Brief for United States 12-13.\nBut such descriptions are just that \u2014 descriptive. They do not set forth a test that may be applied as a general matter to permit the Government to imprison any speaker so long as his speech is deemed valueless or unnecessary or so long as an ad hoc calculus of costs and benefits tilts in a statute\u2019s favor.\nWhen we have identified categories of speech as fully outside the protection of the First Amendment, it has not been on the basis of a simple cost-benefit analysis. In Ferber, for example, we classified child pornography as such a category, 458 U. S., at 763. We noted that the State of New York had a compelling interest in protecting children from abuse, and that the value of using children in these works (as opposed to simulated conduct or adult actors) was de minimis. Id., at 756-757, 762. But our decision did not rest on this \u201cbalance of competing interests\u201d alone. Id., at 764. We made clear that Ferber presented a special case: The market for child pornography was \u201cintrinsically related\u201d to the underlying abuse, and was therefore \u201can integral part of the production of such materials, an activity illegal throughout the Nation.\u201d Id., at 759, 761. As we noted, \u201c\u2018[i]t rarely has been suggested that the constitutional freedom for speech and press extends its immunity to speech or writing used as an integral part of conduct in violation of a valid criminal statute.\u2019\u201d Id., at 761-762 (quoting Giboney, 336 U. S., at 498). Ferber thus grounded its analysis in a previously recognized, long-established category of unprotected speech, and our subsequent decisions have shared this understanding. See Osborne v. Ohio, 495 U. S. 103, 110 (1990) (describing Ferber as finding \u201cpersuasive\u201d the argument that the advertising and sale of child pornography was \u201can integral part\u201d of its unlawful production (internal quotation marks omitted)); Ashcroft v. Free Speech Coalition, 535 U. S. 234, 249-250 (2002) (noting that distribution and sale \u201cwere intrinsically related to the sexual abuse of children,\u201d giving the speech at issue \u201ca proximate link to the crime from which it came\u201d (internal quotation marks omitted)).\nOur decisions in Ferber and other cases cannot be taken as establishing a freewheeling authority to declare new categories of speech outside the scope of the First Amendment. Maybe there are some categories of speech th\u00e1t have been historically unprotected, but have not yet been specifically identified or discussed as such in our case law. But if so, there is no evidence that \u201cdepictions of animal cruelty\u201d is among them. We need not foreclose the future recognition of such additional categories to reject the Government\u2019s highly manipulable balancing test as a means of identifying them.\nIII\nBecause we decline to carve out from the First Amendment any novel exception for \u00a7 48, we review Stevens\u2019s First Amendment challenge under our existing doctrine.\nA\nStevens challenged \u00a7 48 on its face, arguing that any conviction secured under the statute would be unconstitutional. The court below decided the case on that basis, 533 F. 3d, at 231, n. 13, and we granted the Solicitor General\u2019s petition for certiorari to determine \u201cwhether 18 U. S. C. 48 is facially invalid under the Free Speech Clause of the First Amendment,\u201d Pet. for Cert. I.\nTo succeed in a typical facial attack, Stevens would have to establish \u201cthat no set of circumstances exists under which [\u00a7 48] would be valid,\u201d United States v. Salerno, 481 U. S. 739, 745 (1987), or that the statute lacks any \u201cplainly legitimate sweep,\u201d Washington v. Glucksberg, 521 U. S. 702, 740, n. 7 (1997) (Stevens, J., concurring in judgments) (internal quotation marks omitted). Which standard applies in a typical case is a matter of dispute that we need not and do not address, and neither Salerno nor Glucksberg is a speech case. Here the Government asserts that Stevens cannot prevail because \u00a748 is plainly legitimate as applied to crush videos and animal fighting depictions. Deciding this case through a traditional facial analysis would require us to resolve whether these applications of \u00a7 48 are in fact consistent with the Constitution.\nIn the First Amendment context, however, this Court recognizes \u201ca second type of facial challenge,\u201d whereby a law may be invalidated as overbroad if \u201ca substantial number of its applications are unconstitutional, judged in relation to the statute\u2019s plainly legitimate sweep.\u201d Washington State Grange v. Washington State Republican Party, 552 U. S. 442, 449, n. 6 (2008) (internal quotation marks omitted). Stevens argues that \u00a7 48 applies to common depictions of ordinary and lawful activities, and that these depictions constitute the vast majority of materials subject to the statute. Brief for Respondent 22-25. The Government makes no effort to defend such a broad ban as constitutional. Instead, the Government\u2019s entire defense of \u00a748 rests on interpreting the statute as narrowly limited to specific types of \u201cextreme\u201d material. Brief for United States 8. As the parties have presented the issue, therefore, the constitutionality of \u00a748 hinges on how broadly it is construed. It is to that question that we now turn.\nB\nAs we explained two Terms ago, \u201c[t]he first step in over-breadth analysis is to construe the challenged statute; it is impossible to determine whether a statute reaches too far without first knowing what the statute covers.\u201d United States v. Williams, 553 U. S. 285, 293 (2008). Because \u00a748 is a federal statute, there is no need to defer to a state court\u2019s authority to interpret its own law.\nWe read \u00a748 to create a criminal prohibition of alarming breadth. To begin with, the text of the statute\u2019s ban on a \u201c 'depiction of animal cruelty\u2019 \u201d nowhere requires that the depicted conduct be cruel. That text applies to \u201cany... depiction\u201d in which \u201ca living animal is intentionally maimed, mutilated, tortured, wounded, or killed.\u201d \u00a7 48(c)(1). \u201c[M]aimed, mutilated, [and] tortured\u201d convey cruelty, but \u201cwounded\u201d or \u201ckilled\u201d do not suggest any such limitation.\nThe Government contends that the terms in the definition should be read to require the additional element of \u201caccompanying acts of cruelty. \u201d Reply Brief 6; see also Tr. of Oral Arg. 17-19. (The dissent hinges on the same assumption. See post, at 486-487,489.) The Government bases this argument on the definiendum, \u201cdepiction of animal cruelty,\u201d c\u00a3 Leocal v. Ashcroft, 543 U. S. 1, 11 (2004), and on \u201c 'the eommonsense canon of noscitur a sociis.\u2019 \u201d Reply Brief 7 (quoting Williams, 553 U. S., at 294). As that canon recognizes, an ambiguous term may be \u201cgiven more precise content by the neighboring words with which it is associated.\u201d Id., at 294. Likewise, an unclear definitional phrase may take meaning from the term to be defined, see Leocal, supra, at 11 (interpreting a \u2018\u201csubstantial risk\u2019\u201d of the \u201cus[e]\u201d of \u201cphysical force\u201d as part of the definition of \u201c \u2018crime of violence\u2019 \u201d).\nBut the phrase \u201cwounded ... or killed\u201d at issue here contains little ambiguity. The Government\u2019s opening brief properly applies the ordinary meaning of these words, stating for example that to \u201c'kill\u2019 is \u2018to deprive of life.\u2019\u201d Brief for United States 14 (quoting Webster\u2019s Third New International Dictionary 1242 (1993)). We agree that \u201cwounded\u201d and \u201ckilled\u201d should be read according to their ordinary meaning. Cf. Engine Mfrs. Assn. v. South Coast Air Quality Management Dist., 541 U. S. 246, 252 (2004). Nothing about that meaning requires cruelty.\nWhile not requiring cruelty, \u00a7 48 does require that the depicted conduct be \u201cillegal.\u201d But this requirement does not limit \u00a748 along the lines the Government suggests. There are myriad federal and state laws concerning the proper treatment of animals, but many of them are not designed to guard against animal cruelty. Protections of endangered species, for example, restrict even the humane \u201cwound[ing] or killing]\u201d of \u201cliving animal[s].\u201d \u00a7 48(c)(1). Livestock regulations are often designed to protect the health of human beings, and hunting and fishing rules (seasons, licensure, bag limits, weight requirements) can be designed to raise revenue, preserve animal populations, or prevent accidents. The text of \u00a7 48(c) draws no distinction based on the reason the intentional killing of an animal is made illegal, and includes, for example, the humane slaughter of a stolen cow.\nWhat is more, the application of \u00a7 48 to depictions of illegal conduct extends to conduct that is illegal in only a single jurisdiction. Under subsection (c)(1), the depicted conduct need only be illegal in \u201cthe State in which the creation, sale, or possession takes place, regardless of whether the . . . wounding ... or killing took place in [that] State.\u201d A depiction of entirely lawful conduct runs afoul of the ban if that depiction later finds its way into another State where the same conduct is unlawful. This provision greatly expands the scope of \u00a748, because although there may be \u201ca broad societal consensus\u201d against cruelty to animals, Brief for United States 2, there is substantial disagreement on what types of conduct are properly regarded as cruel. Both views about cruelty to animals and regulations having no connection to cruelty vary widely from place to place.\nIn the District of Columbia, for example, all hunting is unlawful. D. C. Code Munic. Regs., tit. 19, \u00a71560 (June 2004). Other jurisdictions permit or encourage hunting, and there is an enormous national market for hunting-related depictions in which a living animal is intentionally killed. Hunting periodicals have circulations in the hundreds of thousands or millions, see Mediaweek, Sept. 29, 2008, p. 28, and hunting television programs, videos, and Web sites are equally popular, see Brief for Professional Outdoor Media Association et al. as Amici Curiae 9-10. The demand for hunting depictions exceeds the estimated demand for crush videos or animal fighting depictions by several orders of magnitude. Compare ibid, and Brief for National Rifle Association of America, Inc., as Amicus Curiae 12 (hereinafter NRA Brief) (estimating that hunting magazines alone account for $135 million in annual retail sales) with Brief for United States 43-44,46 (suggesting $1 million in crush video sales per year, and noting that Stevens earned $57,000 from his videos). Nonetheless, because the statute allows each jurisdiction to export its laws to the rest of the country, \u00a7 48(a) extends to any magazine or video depicting lawful hunting, so long as that depiction is sold within the Nation's Capital.\nThose seeking to comply with the law thus face a bewildering maze of regulations from at least 56 separate jurisdictions. Some States permit hunting with crossbows, Ga. Code Ann. \u00a727-3-4(1) (2007); Va. Code Ann. \u00a729.1-519(A)(6) (Lexis 2008 Cum. Supp.), while others forbid it, Ore. Admin. Rule 635-065-0725 (2009), or restrict it only to the disabled, N. Y. Envir. Conserv. Lavs? Ann. \u00a711-0901(16) (West 2005). Missouri allows the \u201ccanned\u201d hunting of ungulates held in captivity, Mo. Code Regs. Ann., tit. 3, 10-9.560(1) (2009), but Montana restricts such hunting to certain bird species, Mont. Admin. Rule 12.6.1202(1) (2007). The sharp-tailed grouse may be hunted in Idaho, but not in Washington. Compare Idaho Admin. Code \u00a7 13.01.09.606 (2009) with Wash. Admin. Code \u00a7232-28-342 (2009).\nThe disagreements among the States \u2014 and the \u201ccommonwealthfs], territor[ies], or possession^] of the United States,\u201d 18 U. S. C. \u00a7 48(c)(2) \u2014 extend well beyond hunting. State agricultural regulations permit different methods of livestock slaughter in different places or as applied to different animals. Compare, e.g., Fla. Stat. Ann. \u00a7828.23(5) (West 2006) (excluding poultry from humane slaughter requirements) with Cal. Food & Agrie. Code Ann. \u00a7 19501(b) (West 2001) (including some poultry). California has recently banned cutting or \u201cdocking\u201d the tails of dairy cattle, which other States permit. 2009 Cal. Legis. Serv. Ch. 344 (S. B. 135) (West). Even cockfighting, long considered immoral in much of America, see Barnes v. Glen Theatre, Inc., 501 U. S. 560, 575 (1991) (Scalia, J., concurring in judgment), is legal in Puerto Rico, see 15 Laws P. R. Ann. \u00a7301 (Supp. 2008); Posadas de Puerto Rico Associates v. Tourism Co. of P. R., 478 U. S. 328, 342 (1986), and was legal in Louisiana until 2008, see La. Rev. Stat. Ann. \u00a714:102.23 (West) (effective Aug. 15, 2008). An otherwise-lawful image of any of these practices, if sold or possessed for commercial gain within a State that happens to forbid the practice, falls within the prohibition of \u00a7 48(a).\nC\nThe only thing standing between defendants who sell such depictions and five years in federal prison \u2014 other than the mercy of a prosecutor \u2014 is the statute\u2019s exceptions clause. Subsection (b) exempts from prohibition \u201cany depiction that has serious religious, political, scientific, educational, journalistic, historical, or artistic value.\u201d The Government argues that this clause substantially narrows the statute\u2019s reach: News reports about animal cruelty have \u201cjournalistic\u201d value; pictures of bullfights in Spain have \u201chistorical\u201d value; and instructional hunting videos have \u201ceducational\u201d value. Reply Brief 6. Thus, the Government argues, \u00a748 reaches only crush videos, depictions of animal fighting (other than Spanish bullfighting, see Brief for United States 47-48), and perhaps other depictions of \u201cextreme acts of animal cruelty.\u201d Id., at 41.\nThe Government\u2019s attempt to narrow the statutory ban, however, requires an unrealistically broad reading of the exceptions clause. As the Government reads the clause, any material with \u201credeeming societal value,\u201d id., at 9, 16, 23, \u201c \u2018at least some minimal value,\u2019 \u201d Reply Brief 6 (quoting H. R. Rep., at 4), or anything more than \u201cscant social value,\u201d Reply Brief 11, is excluded under \u00a7 48(b). But the text says \u201cserious\u201d value, and \u201cserious\u201d should be taken seriously. We decline the Government\u2019s invitation \u2014 advanced for the first time in this Court \u2014 to regard as \u201cserious\u201d anything that is not \u201cscant.\u201d (Or, as the dissent puts it, \u201c \u2018trifling.\u2019 \u201d Post, at 487.) As the Government recognized below, \u201cserious\u201d ordinarily means a good bit more. The District Court\u2019s jury instructions required value that is \u201csignificant and of great import,\u201d App. 132, and the Government defended these instructions as properly relying on \u201ca commonly accepted meaning of the word \u2018serious,\u2019 \u201d Brief for United States in No. 05-2497 (CA3), p. 50.\nQuite apart from the requirement of \u201cserious\u201d value in \u00a7 48(b), the excepted speech must also fall within one of the enumerated categories. Much speech does not. Most hunting videos, for example, are not obviously instructional in nature, except in the sense that all life is a lesson. According to Safari Club International and the Congressional Sportsmen\u2019s Foundation, many popular videos \u201chave primarily entertainment value\u201d and are designed to \u201centertai[n] the viewer, marke[t] hunting equipment, or increas[e] the hunting community.\u201d Brief for Safari Club International et al. as Amici Curiae 12. The National Rifle Association agrees that \u201cmuch of the content of hunting media ... is merely recreational in nature.\u201d NR A Brief 28. The Government offers no principled explanation why these depictions of hunting or depictions of Spanish bullfights would be inherently valuable while those of Japanese dogfights are not. The dissent contends that hunting depictions must have serious value because hunting has serious value, in a way that dogfights presumably do not. Post, at 487-488. But \u00a7 48(b) addresses the value of the depictions, not of the underlying activity. There is simply no adequate reading of the exceptions clause that results in the statute\u2019s banning only the depictions the Government would like to ban.\nThe Government explains that the language of \u00a7 48(b) was largely drawn from our opinion in Miller v. California, 413 U. S. 15 (1973), which excepted from its definition of obscenity any material with \u201cserious literary, artistic, political, or scientific value,\u201d id., at 24. See Reply Brief 8, 9, and n. 5. According to the Government, this incorporation of the Miller standard into \u00a7 48 is therefore surely enough to answer any First Amendment objection. Reply Brief 8-9.\nIn Miller we held that \u201cserious\u201d value shields depictions of sex from regulation as obscenity. 413 U. S., at 24-25. Limiting Miller's exception to \u201cserious\u201d value ensured that \u201c \u2018[a] quotation from Voltaire in the flyleaf of a book [would] not constitutionally redeem an otherwise obscene publication.\u2019 \u201d Id., at 25, n. 7 (quoting Kois v. Wisconsin, 408 U. S. 229, 231 (1972) (per curiam)). We did not, however, determine that serious value could be used as a general precondition to protecting other types of speech in the first place. Most of what we say to one another lacks \u201creligious, political, scientific, educational, journalistic, historical, or artistie value\u201d (let alone serious value), but it is still sheltered from Government regulation. Even \u201c \u2018[w]holly neutral f\u00fatilities ... come under the protection of free speech as fully as do Keats\u2019 poems or Donne\u2019s sermons.\u2019\u201d Cohen v. California, 403 U. S. 15, 25 (1971) (quoting Winters v. New York, 333 U. S. 507, 528 (1948) (Frankfurter, J., dissenting); alteration in original).\nThus, the protection of the First Amendment presumptively extends to many forms of speech that do not qualify for the serious-value exception of \u00a7 48(b), but nonetheless fall within the broad reach of \u00a7 48(c).\nD\nNot to worry, the Government says: The Executive Branch construes \u00a748 to reach only \u201cextreme\u201d cruelty, Brief for United States 8, and it \u201cneither has brought nor will bring a prosecution for anything less,\u201d Reply Brief 6-7. The Government hits this theme hard, invoking its prosecutorial discretion several times; See id., at 6-7, 10, and n. 6, 19, 22. But the First Amendment protects against the Government; it does not leave us at the mercy of noblesse oblige. We would not uphold an unconstitutional statute merely because the Government promised to use it responsibly. Gf. Whitman v. American Trucking Assns., Inc., 531 U. S. 457, 473 (2001).\nThis prosecution is itself evidence of the danger in putting faith in Government representations of prosecutorial restraint. When this legislation was enacted, the Executive Branch announced that it would interpret \u00a748 as covering only depictions \u201cof wanton cruelty to animals designed to appeal to a prurient interest in sex.\u201d See Statement by President William J. Clinton upon Signing H. R. 1887, 34 Weekly Comp, of Pres. Doc. 2557 (1999). No one suggests that the videos in this case fit that description. The Government\u2019s assurance that it will apply \u00a748 far more restrietively than its language provides is pertinent only as an implicit acknowledgment of the potential constitutional problems with a more natural reading.\nNor can we rely upon the canon of construction that \u201cambiguous statutory language [should] be construed to avoid serious constitutional doubts.\u201d FCC v. Fox Television Stations, Inc., 556 U. S. 502, 516 (2009). \u201c[T]his Court may impose a limiting construction on a statute only if it is \u2018readily susceptible\u2019 to such a construction.\u201d Reno v. American Civil Liberties Union, 521 U. S. 844, 884 (1997). We \u201c\u2018will not rewrite a... law to conform it to constitutional requirements,\u2019\u201d id., at 884-885 (quoting Virginia v. American Booksellers Assn., Inc., 484 U. S. 383, 397 (1988); omission in original), for doing so would constitute a \u201cserious invasion of the legislative domain,\u201d United States v. Treasury Employees, 513 U. S. 454, 479, n. 26 (1995), and sharply diminish Congress\u2019s \u201cincentive to draft a narrowly tailored law in the first place,\u201d Osborne, 495 U. S., at 121. To read \u00a748 as the Government desires requires rewriting, not just reinterpretation.\n* * *\nOur construction of \u00a748 decides the constitutional question; the Government makes no effort to defend the constitutionality of \u00a748 as applied beyond crush videos and depictions of animal fighting. It argues that those particular depictions are intrinsically related to criminal conduct or are analogous to obscenity (if not themselves obscene), and that the ban on such speech is narrowly tailored to reinforce restrictions on the underlying conduct, prevent additional crime arising from the depictions, or safeguard public mores. But the Government nowhere attempts to extend these arguments to depictions of any other activities \u2014 depictions that are presumptively protected by the First Amendment but that remain subject to the criminal sanctions of \u00a748.\nNor does the Government seriously contest that the presumptively impermissible applications of \u00a748 (properly construed) far outnumber any permissible ones. However \u201cgrowing\u201d and \u201clucrative\u201d the markets for crush videos and dogfighting depictions might be, see Brief for United States 43, 46 (internal quotation marks omitted), they are dwarfed by the market for other depictions, such as hunting magazines and videos, that we have determined to be within the scope of \u00a748, see supra, at 477. We therefore need not and do not decide whether a statute limited to crush videos or other depictions of extreme animal cruelty would be constitutional. We hold only that \u00a7 48 is not so limited but is instead substantially overbroad, and therefore invalid under the First Amendment.\nThe judgment of the United States Court of Appeals for the Third Circuit is affirmed.\nIt is so ordered.\nThe statute reads in full:\n\u201c\u00a7 48. Depiction of animal cruelty\n\u201c(a) Creation, Sale, or Possession \u2014 Whoever knowingly creates, sells, or possesses a depiction of animal cruelty with the intention of placing that depiction in interstate or foreign commerce for commercial gain, shall be fined under this title or imprisoned not more than 5 years, or both.\n\u201c(b) Exception. \u2014 Subsection (a) does not apply to any depiction that has serious religious, political, scientific, educational, journalistic, historical, or artistic value.\n\u201c(c) Definitions. \u2014 In this section-\nal) the term \u2018depiction of animal cruelty\u2019 means any visual or auditory depiction, including any photograph, motion-picture film, video recording, electronic image, or sound recording of conduct in which a living animal is intentionally maimed, mutilated, tortured, wounded, or killed, if such conduct is illegal under Federal law or the law of the State in which the creation, sale, or possession takes place, regardless of whether the maiming, mutilation, torture, wounding, or killing took place in the State; and\n\u201c(2) the term \u2018State\u2019 means each of the several States, the District of Columbia, the Commonwealth of Puerto Rico, the Virgin Islands, Guam, American Samoa, the Commonwealth of the Northern Mariana Islands, and any other commonwealth, territory, or possession of the United States.\u201d\nThe Government contends that these dogfights were unlawful at the time they occurred, while Stevens disputes the assertion. Reply Brief for United States 25, n. 14 (hereinafter Reply Brief); Brief for Respondent 44, n. 18.\nThe dissent contends that because there has not been a ruling on the validity of the statute as applied to Stevens, our consideration of his facial overbreadth claim is premature. Post, at 482, and n. 1, 483, 484 (opinion of Alito, J.). Whether or not that conclusion follows, here no as-applied claim has been preserved. Neither court below construed Stevens\u2019s briefs as adequately developing a separate attack on a defined subset of the statute\u2019s applications (say, dogfighting videos). See 533 F. 3d 218,231, n. 13 (CA3 2008) (en banc) (\u201cStevens brings a facial challenge to the statute\u201d); App. to Pet. for Cert. 65a, 74a. Neither did the Government, see Brief for United States in No. 05-2497 (CA3), p. 28 (opposing \u201cthe appellant\u2019s facial challenge\u201d); accord, Brief for United States 4. The sentence in Stevens\u2019s appellate brief mentioning his unrelated sufficiency-of-the-evidence challenge hardly developed a First Amendment as-applied claim. See post, at 482-483, n. 1. Stevens\u2019s constitutional argument is a general one. And unlike the challengers in Washington State Grange, Stevens does not \u201crest on factual assumptions . . . that can be evaluated only in the context of an as-applied challenge.\u201d 552 U. S., at 444.\nThe citations in the dissent\u2019s appendix are beside the point. The cited statutes stand for the proposition that hunting is not covered by animal cruelty laws. But the reach of \u00a7 48 is, as we have explained, not restricted to depictions of conduct that violates a law specifically directed at animal cruelty. It simply requires that the depicted conduct be \u201cillegal.\u201d \u00a7 48(c)(1). The Government implicitly admits as much, arguing that \u201cinstructional videos for hunting\u201d are saved by the statute\u2019s exceptions clause, not that they fall outside the prohibition in the first place. Reply Brief 6.",
+        "type": "majority",
+        "author": "Chief Justice Roberts"
+      },
+      {
+        "text": "Justice Alito,\ndissenting.\nThe Court strikes down in its entirety a valuable statute, 18 U. S. C. \u00a7 48, that was enacted not to suppress speech, but to prevent horrific acts of animal cruelty \u2014 in particular, the creation and commercial exploitation of \u201ccrush videos,\u201d a form of depraved entertainment that has no social value. The Court\u2019s approach, which has the practical effect of legalizing the sale of such videos and is thus likely to spur a resumption of their production, is unwarranted. Respondent was convicted under \u00a748 for selling videos depicting dogfights. On appeal, he argued, among other things, that \u00a748 is unconstitutional as applied to the facts of this case, and he highlighted features of those videos that might distinguish them from other dogfight videos brought to our attention. The Court of Appeals \u2014 incorrectly, in my view \u2014 declined to decide whether \u00a748 is unconstitutional as applied to respondent\u2019s videos and instead reached out to hold that the statute is facially invalid. Today\u2019s decision does not endorse the Court of Appeals\u2019 reasoning, but it nevertheless strikes down \u00a748 using what has been aptly termed the \u201cstrong medicine\u201d of the overbreadth doctrine, United States v. Williams, 553 U. S. 285, 293 (2008) (internal quotation marks omitted), a potion that generally should be administered only as \u201ca last resort,\u201d Los Angeles Police Dept. v. United Reporting Publishing Corp., 528 U. S. 32, 39 (1999) (internal quotation marks omitted).\nInstead of applying the doctrine of overbreadth, I would vacate the decision below and instruct the Court of Appeals on remand to decide whether the videos that respondent sold are constitutionally protected. If the question of over-breadth is to be decided, however, I do not think the present record supports the Court\u2019s conclusion that \u00a7 48 bans a substantial quantity of protected speech.\nI\nA party seeking to challenge the constitutionality of a statute generally must show that the statute violates the party\u2019s own rights. New York v. Ferber, 458 U. S. 747, 767 (1982). The First Amendment overbreadth doctrine carves out a narrow exception to that general rule. See id., at 768; Broadrick v. Oklahoma, 413 U. S. 601, 611-612 (1973). Because an overly broad law may deter constitutionally protected speech, the overbreadth doctrine allows a party to whom the law may constitutionally be applied to challenge the statute on the ground that it violates the First Amendment rights of others. See, e. g., Board of Trustees of State Univ. of N. Y. v. Fox, 492 U. S. 469, 483 (1989) (\u201cOrdinarily, the principal advantage of the overbreadth doctrine for a litigant is that it enables him to benefit from the statute\u2019s unlawful application to someone else\u201d); see also Ohralik v. Ohio State Bar Assn., 436 U. S. 447, 462, n. 20 (1978) (describing the doctrine as one \u201cunder which a person may challenge a statute that infringes protected speech even if the statute constitutionally might be applied to him\u201d).\nThe \u201cstrong medicine\u201d of overbreadth invalidation need not and generally should not be administered when the statute under attack is unconstitutional as applied to the challenger before the court. As we said in Fox, supra, at 484-485, \u201c[i]t is not the usual judicial practice, . . . nor do we consider it generally desirable, to proceed to an overbreadth issue unnecessarily \u2014 that is, before it is determined that the statute would be valid as applied.\u201d Accord, New York State Club Assn., Inc. v. City of New York, 487 U. S. 1, 11 (1988); see also Broadrick, supra, at 613; United Reporting Publishing Corp., supra, at 45 (Stevens, J., dissenting).\nI see no reason to depart here from the generally preferred procedure of considering the question of overbreadth only as a last resort. Because the Court has addressed the overbreadth question, however, I will explain why I do not think that the record supports the conclusion that \u00a748, when properly interpreted, is overly broad.\nII\nThe overbreadth doctrine \u201cstrike[s] a balance between competing social costs.\u201d Williams, 553 U. S., at 292. Specifically, the doctrine seeks to balance the \u201charmful effects\u201d of \u201cinvalidating a law that in some of its applications is perfectly constitutional\u201d against the possibility that \u201cthe threat of enforcement of an overbroad law [will] dete[r] people from engaging in constitutionally protected speech.\u201d Ibid. \u201cIn order to maintain an appropriate balance, we have vigorously enforced the requirement that a statute\u2019s overbreadth be substantial, not only in an absolute sense, but also relative to the statute\u2019s plainly legitimate sweep.\u201d Ibid.\nIn determining whether a statute\u2019s overbreadth is substantial, we consider a statute\u2019s application to real-world conduct, not fanciful hypothetieals. See, e. g., id., at 301-302; see also Ferber, supra, at 773; Houston v. Hill, 482 U. S. 451, 466-467 (1987). Accordingly, we have repeatedly emphasized that an overbreadth claimant bears the burden of demonstrating, \u201cfrom the text of [the law] and from actual fact,\u201d that substantial overbreadth exists. Virginia v. Hicks, 539 U. S. 113, 122 (2003) (quoting New York State Club Assn., supra, at 14; emphasis added; internal quotation marks omitted; alteration in original). Similarly, \u201cthere must be a realistic danger that the statute itself will significantly compromise recognized First Amendment protections of parties not before the Court for it to be facially challenged on overbreadth grounds.\u201d Members of City Council of Los Angeles v. Taxpayers for Vincent, 466 U. S. 789, 801 (1984) (emphasis added).\nIII\nIn holding that \u00a748 violates the overbreadth rule, the Court declines to decide whether, as the Government maintains, \u00a7 48 is constitutional as applied to two broad categories of depictions that exist in the real world: crush videos and depictions of deadly animal fights. See ante, at 473, 481. Instead, the Court tacitly assumes for the sake of argument that \u00a7 48 is valid as applied to these depictions, but the Court concludes that \u00a748 reaches too much protected speech to survive. The Court relies primarily on depictions of hunters killing or wounding game and depictions of animals being slaughtered for food. I address the Court\u2019s examples below.\nA\nI turn first to depictions of hunting. As the Court notes, photographs and videos of hunters shooting game are common. See ante, at 476. But hunting is legal in all 50 States, and \u00a748 applies only to a depiction of conduct that is illegal in the jurisdiction in which the depiction is created, sold, or possessed. \u00a7\u00a7 48(a), (c). Therefore, in all 50 States, the creation, sale, or possession for sale of the vast majority of hunting depictions indisputably falls outside \u00a748\u2019s reach.\nStraining to find overbreadth, the Court suggests that \u00a748 prohibits the sale or possession in the District of Columbia of any depiction of hunting because the District \u2014 undoubtedly because of its urban character \u2014 does not permit hunting within its boundaries. Ante, at 475-476. The Court also suggests that, because some States prohibit a particular type of hunting (e. g., hunting with a crossbow or \u201ccanned\u201d hunting) or the hunting of a particular animal (e. g., the \u201csharp-tailed grouse\u201d), \u00a748 makes it illegal for persons in such States to sell or possess for sale a depiction of hunting that was perfectly legal in the State in which the hunting took place. See ante, at 475-477.\nThe Court\u2019s interpretation is seriously flawed. \u201cWhen a federal court is dealing with a federal statute challenged as overbroad, it should, of course, construe the statute to avoid constitutional problems, if the statute is subject to such a limiting construction.\u201d Ferber, 458 U. S., at 769, n. 24. See also Williams, supra, at 307 (Stevens, J., concurring) (\u201c[T]o the extent the statutory text alone is unclear, our duty to avoid constitutional objections makes it especially appropriate to look beyond the text in order to ascertain the intent of its drafters\u201d).\nApplying this canon, I would hold that \u00a748 does not apply to depictions of hunting. First, because \u00a748 targets depictions of \u201canimal cruelty,\u201d I would interpret that term to apply only to depictions involving acts of animal cruelty as defined by applicable state or federal law, not to depictions of acts that happen to be illegal for reasons having nothing to do with the prevention of animal cruelty. See ante, at 475 (interpreting \u201c[t]he text of \u00a7 48(c)\u201d to ban a depiction of \u201cthe humane slaughter of a stolen cow\u201d). Virtually all state laws prohibiting animal cruelty either expressly define the term \u201canimal\u201d to exclude wildlife or else specifically exempt lawful hunting activities, so the statutory prohibition set forth in \u00a7 48(a) may reasonably be interpreted not to reach most if not all hunting depictions.\nSecond, even if the hunting of wild animals were otherwise covered by \u00a7 48(a), I would hold that hunting depictions fall within the exception in \u00a7 48(b) for depictions that have \u201cserious\u201d (i. e., not \u201ctrifling\u201d) \u201cscientific,\u201d \u201ceducational,\u201d or \u201chistorical\u201d value. While there are certainly those who find hunting objectionable, the predominant view in this country has long been that hunting serves many important values, and it is clear that Congress shares that view. Since 1972, when Congress called upon the President to designate a National Hunting and Fishing Day, see S. J. Res. 117, 92d Cong., 2d Sess. (1972), 86 Stat. 133, Presidents have regularly issued proclamations extolling the values served by hunting. See Presidential Proclamation No. 8421, 74 Fed. Reg. 49305 (Pres. Obama 2009) (hunting and fishing are \u201cageless pursuits\u201d that promote \u201cthe conservation and restoration of numerous species and their natural habitats\u201d); Presidential Proclamation No. 8295, 73 Fed. Reg. 57233 (Pres. Bush 2008) (hunters and anglers \u201cadd to . our heritage and keep our wildlife populations healthy and strong,\u201d and \u201care among our foremost conservationists\u201d); Presidential Proclamation No. 7822, 69 Fed. Reg. 59539 (Pres. Bush 2004) (hunting and fishing are \u201can important part of our Nation\u2019s heritage,\u201d and \u201cAmerica\u2019s hunters and anglers represent the great spirit of our country\u201d); Presidential Proclamation No. 4682, 44 Fed. Reg. 53149 (Pres. Carter 1979) (hunting promotes conservation and an appreciation of \u201chealthy recreation, peaceful solitude and closeness to nature\u201d); Presidential Proclamation No. 4318, 39 Fed. Reg. 35315 (Pres. Ford 1974) (hunting furthers \u201cappreciation and respect for nature\u201d and preservation of the environment). Thus, it is widely thought that hunting has \u201cscientific\u201d value in that it promotes conservation, \u201chistorical\u201d value in that it provides a link to past times when hunting played a critical role in daily life, and \u201ceducational\u201d value in that it furthers the understanding and appreciation of nature and our country\u2019s past and instills valuable character traits. And if hunting itself is widely thought to serve these values, then it takes but a small additional step to conclude that depictions of hunting make a nontrivial contribution to the exchange of ideas. Accordingly, I would hold that hunting depictions fall comfortably within the exception set out in \u00a7 48(b).\nI do not have the slightest doubt that Congress, in enacting \u00a7 48, had no intention of restricting the creation, sale, or possession of depictions of hunting. Proponents of the law made this point clearly. See H. R. Rep. No. 106-397, p. 8 (1999) (hereinafter H. R. Rep.) (\u201c[D]epictions of ordinary hunting and fishing activities do not fall within the scope of the statute\u201d); 145 Cong. Rec. 25894 (1999) (Rep. McCollum) (\u201c[T]he sale of depictions of legal activities, such as hunting and fishing, would not be illegal under this bill\u201d); id., at 25895 (Rep. Smith) (\u201c[L]et us be clear as to what this legislation will not do. It will in no way prohibit hunting, fishing, or wildlife videos\u201d). Indeed, even opponents acknowledged that \u00a7 48 was not intended to reach ordinary hunting depictions. See ibid. (Rep. Scott); id., at 25897 (Rep. Paul).\nFor these reasons, I am convinced that \u00a748 has no application to depictions of hunting. But even if \u00a7 48 did impermissibly reach the sale or possession of depictions of hunting in a few unusual situations (for example, the sale in Oregon of a depiction of hunting with a crossbow in Virginia or the sale in Washington State of the hunting of a sharp-tailed grouse in Idaho, see ante, at 476-477), those isolated applications would hardly show that \u00a748 bans a substantial amount of protected speech.\nB\nAlthough the Court\u2019s overbreadth analysis rests primarily on the proposition that \u00a748 substantially restricts the sale and possession of hunting depictions, the Court cites a few additional examples, including depictions of methods of slaughter and the docking of the tails of dairy cows. See ante, at 477.\nSuch examples do not show that the statute is substantially overbroad, for two reasons. First, as explained above, \u00a748 can reasonably be construed to apply only to depictions involving acts of animal cruelty as defined by applicable state or federal law, and anticruelty laws do not ban the sorts of acts depicted in the Court\u2019s hypotheticals. See, e. g., Idaho Code \u00a725-3514 (Lexis 2000) (\u201cNo part of this chapter [prohibiting cruelty to animals] shall be construed as interfering with or allowing interference with . .. [t]he humane slaughter of any animal normally and commonly raised as food, or for production of fiber . . . [or] [n]ormal or accepted practices of . . . animal husbandry\u201d); Kan. Stat. Ann. \u00a721 \u2014 4310(b) (2007) (\u201cThe provisions of this section shall not apply . . . with respect to farm animals, normal or accepted practices of animal husbandry, including the normal and accepted practices for the slaughter of such animals\u201d); Md. Crim. Law Code Ann. \u00a7 10-603 (Lexis 2002) (sections prohibiting animal cruelty \u201cdo not apply to ... customary and normal veterinary and agricultural husbandry practices including dehorning, castration, tail docking, and limit feeding\u201d).\nSecond, nothing in the record suggests that anyone has ever created, sold, or possessed for sale a depiction of the slaughter of food animals or of the docking of the tails of dairy cows that would not easily qualify under the exception set out in \u00a7 48(b). Depictions created to show proper methods of slaughter or tail docking would presumably have serious \u201ceducational\u201d value, and depictions created to focus attention on methods thought to be inhumane or otherwise objectionable would presumably have either serious \u201ceducational\u201d or \u201cjournalistic\u201d value or both. In short, the Court\u2019s examples of depictions involving the docking of tails and humane slaughter do not show that \u00a7 48 suffers from any over-breadth, much less substantial overbreadth.\nThe Court notes, finally, that cockfighting, which is illegal in all States, is still legal in Puerto Rico, ante, at 477, and I take the Court\u2019s point to be that it would be impermissible to ban the creation, sale, or possession in Puerto Rico of a depiction of a cockfight that was legally staged in Puerto Rico. But assuming for the sake of argument that this is correct, this veritable sliver of unconstitutionality would not be enough to justify striking down \u00a748 in toto.\nIn sum, we have a duty to interpret \u00a748 so as to avoid serious constitutional concerns, and \u00a748 may reasonably be construed not to reach almost all, if not all, of the depictions that the Court finds constitutionally protected. Thus, \u00a748 does not appear to have a large number of unconstitutional applications. Invalidation for overbreadth is appropriate only if the challenged statute suffers from substantial over-breadth \u2014 judged not just in absolute terms, but in relation to the statute\u2019s \u201cplainly legitimate sweep.\u201d Williams, 553 U. S., at 292. As I explain in the following Part, \u00a7 48 has a substantial core of constitutionally permissible applications.\nIV\nA\n1\nAs the Court of Appeals recognized, \u201cthe primary conduct that Congress sought to address through its passage [of \u00a7 48] was the creation, sale, or possession of \u2018crush videos.\u2019 \u201d 533 F. 3d 218, 222 (CA3 2008) (en banc). A sample crush video, which has been lodged with the Clerk, records the following event:\n\u201c[A] kitten, secured to the ground, watches and shrieks in pain as a woman thrusts her high-heeled shoe into its body, slams her heel into the kitten\u2019s eye socket and mouth loudly fracturing its skull, and stomps repeatedly on the animal\u2019s head. The kitten hemorrhages blood, screams blindly in pain, and is ultimately left dead in a moist pile of blood-s\u00f3aked hair and bone.\u201d Brief for Humane Society of United States as Amicus Curiae 2 (hereinafter Humane Society Brief).\nIt is undisputed that the conduct depicted in crush videos may constitutionally be prohibited. All 50 States and the District of Columbia have enacted statutes prohibiting animal cruelty. See 533 F. 3d, at 223, and n. 4 (citing statutes); H. R. Rep., at 3. But before the enactment of \u00a748, the underlying conduct depicted in crush videos was nearly impossible to prosecute. These videos, which \u201coften appeal to persons with a very specific sexual fetish,\u201d id., at 2, were made in secret, generally without a live audience, and \u201cthe faces of the women inflicting the torture in the material often were not shown, nor could the location of the place where the cruelty was being inflicted or the date of the activity be ascertained from the depiction,\u201d id., at 3. Thus, law enforcement authorities often were not able to identify the parties responsible for the torture. See Punishing Depictions of Animal Cruelty and the Federal Prisoner Health Care Co-Payment Act of 1999: Hearing before the Subcommittee on Crime of the House Committee on the Judiciary, 106th Cong., 1st Sess., 1 (1999) (hereinafter Hearing on Depictions of Animal Cruelty). In the rare instances in which it was possible to identify and find the perpetrators, they \u201coften were able to successfully assert as a defense that the State could not prove its jurisdiction over the place where the act occurred or that the actions depicted took place within the time specified in the State statute of limitations.\u201d H. R. Rep., at 3; see also 145 Cong. Rec. 25896 (Rep. Gallegly) (\u201c[I]t is the prosecutors from around this country, Federal prosecutors as well as State prosecutors, that have made an appeal to us for this\u201d); Hearing on Depictions of Animal Cruelty 21 (\u201cIf the production of the video is not discovered during the actual filming, then prosecution for the offense is virtually impossible without a cooperative eyewitness to the filming or an undercover police operation \u201d); id., at 34-35 (discussing example of case in which state prosecutor \u201chad the defendant telling us he produced these videos,\u201d but where prosecution was not possible because the State could not prove where or when the tape was made).\nIn light of the practical problems thwarting the prosecution of the creators of crush videos under state animal cruelty laws, Congress concluded that the only effective way of stopping the underlying criminal conduct was to prohibit the commercial exploitation of the videos of that conduct. And Congress\u2019 strategy appears to have been vindicated. We are told that \u201c[b]y 2007, sponsors of \u00a748 declared the crush video industry dead. Even overseas websites shut down in the wake of \u00a748. Now, after the Third Circuit\u2019s decision [facially invalidating the statute], crush videos are already back online.\u201d Humane Society Brief 5 (citations omitted).\n2\nThe First Amendment protects freedom of speech, but it most certainly does not protect violent criminal conduct, even if engaged in for expressive purposes. Crush videos present a highly unusual free speech issue because they are so closely linked with violent criminal conduct. The videos record the commission of violent criminal acts, and it appears that these crimes are committed for the sole purpose of creating the videos. In addition, as noted above, Congress was presented with compelling evidence that the only way of preventing these crimes was to target the sale of the videos. Under these circumstances, I cannot believe that the First Amendment commands Congress to step aside and allow the underlying crimes to continue.\nThe most relevant of our prior decisions is Ferber, 458 U. S. 747, which concerned child pornography. The Court there held that child pornography is not protected speech, and I believe that Ferber\u2019s reasoning dictates a similar conclusion here.\nIn Ferber, an important factor \u2014 I would say the most important factor \u2014 was that child pornography involves the commission of a crime that inflicts severe personal injury to the \u201cchildren who are made to engage in sexual conduct for commercial purposes.\u201d Id., at 758 (internal quotation marks omitted). The Ferber Court repeatedly described the production of child pornography as child \u201cabuse,\u201d \u201cmolestation,\u201d or \u201cexploitation.\u201d See, e.g., id., at 749 (\u201cIn recent years, the exploitive use of children in the production of pornography has become a serious national problem\u201d); id., at 758, n. 9 (\u201cSexual molestation by adults is often involved in the production of child sexual performances\u201d). As later noted in Ashcroft v. Free Speech Coalition, 535 U. S. 234, 249 (2002), in Ferber \u201c[t]he production of the work, not its content, was the target of the statute.\u201d See also 535 U. S., at 250 (Ferber involved \u201cspeech that itself is the record of sexual abuse\u201d).\nSecond, Ferber emphasized the fact that these underlying crimes could not be effectively combated without targeting the distribution of child pornography. As the Court put it, \u201cthe distribution network for child pornography must be closed if the production of material which requires the sexual exploitation of children is to be effectively controlled.\u201d 458 U. S., at 759. The Court added:\n\u201c[T]here is no serious contention that the legislature was unjustified in believing that it is difficult, if not impossible, to halt the exploitation of children by pursuing only those who produce the photographs and movies____ The most expeditious if not the only practical method of law enforcement may be to dry up the market for this material by imposing severe criminal penalties on persons selling, advertising, or otherwise promoting the product.\u201d Id., at 759-760.\nSee also id., at 761 (\u201cThe advertising and selling of child pornography provide an economic motive for and are thus an integral part of the production of such materials\u201d).\nThird, the Ferber Court noted that the value of child pornography \u201cis exceedingly modest, if not de minimis,\u201d and that any such value was \u201coverwhelmingly outweigh[ed]\u201d by \u201cthe evil to be restricted.\u201d Id., at 762-763.\nAll three of these characteristics, are shared by \u00a748, as applied to crush videos. First, the conduct' depicted in crush videos is criminal in every State and the District of Columbia. Thus, any crush video made in this country records the actual commission of a criminal act that inflicts severe physical injury and excruciating pain and ultimately results in death. Those who record the underlying criminal acts are likely to be criminally culpable, either as aiders and abettors or conspirators. And in the tight and secretive market for these videos, some who sell the videos or possess them with the intent to make a profit may be similarly culpable. (For example, in some cases, crush videos were commissioned by purchasers who specified the details of the acts that they wanted to see performed. See H. R. Rep., at 3; Hearing on Depictions of Animal Cruelty 27.) To the extent that \u00a7 48 reaches such persons, it surely does not violate the First Amendment.\nSecond, the criminal acts shown in crush videos cannot be prevented without targeting the conduct prohibited by \u00a748 \u2014 the creation, sale, and possession for sale of depictions of animal torture with the intention of realizing a commercial profit. The evidence presented to Congress posed a stark choice: Either ban the commercial exploitation of crush videos or tolerate a continuation of the criminal acts that they record. Faced with this evidence, Congress reasonably chose to target the lucrative crush video market.\nFinally, the harm caused by the underlying crimes vastly outweighs any minimal value that the depictions might conceivably be thought to possess. Section 48 reaches only the actual recording of acts of animal torture; the statute does not apply to verbal descriptions or to simulations. And, unlike the child pornography statute in Ferber or its federal counterpart, 18 U. S. C. \u00a72252, \u00a7 48(b) provides an exception for depictions having any \u201cserious religious, political, scientific, educational, journalistic, historical, or artistic value.\u201d\nIt must be acknowledged that \u00a7 48 differs from a child pornography law in an important respect: Preventing the abuse of children is certainly much more important than preventing the torture of the animals used in crush videos. It was largely for this reason that the Court of Appeals concluded that Ferber did not support the constitutionality of \u00a7 48. 533 F. 3d, at 228 (\u201cPreventing cruelty to animals, although an exceedingly worthy goal, simply does not implicate interests of the same magnitude as protecting children from physical and psychological harm\u201d). But while protecting children is unquestionably more important than protecting animals, the Government also has a compelling interest in preventing the torture depicted in crush videos.\nThe animals used in crush videos are living creatures that experience excruciating pain. Our society has long banned such cruelty, which is illegal throughout the country. In Ferber, the Court noted that \u201cvirtually all of the States and the United States have passed legislation proscribing the production of or otherwise combating 'child pornography/ \u201d and the Court declined to \u201csecond-guess [that] legislative judgment.\u201d 458 U. S., at 758. Here, likewise, the Court of Appeals erred in second-guessing the legislative judgment about the importance of preventing cruelty to animals.\nSection 48\u2019s ban on trafficking in crush videos also helps to enforce the criminal laws and to ensure that criminals do not profit from their crimes. See 145 Cong. Ree. 25897 (1999) (Rep. Gallegly) (\u201cThe state has an interest in enforcing its existing laws. Right now, the laws are not only being violated, but people are making huge profits from promoting the violations\u201d); id., at 10685 (1999) (same) (explaining that he introduced the House version of the bill because \u201ccriminals should not profit from [their] illegal acts\u201d). We have already judged that taking the profit out of crime is a compelling interest. See Simon & Schuster, Inc. v. Members of N. Y. State Crime Victims Bd., 502 U. S. 105, 119 (1991).\nIn short, Ferber is the case that sheds the most light on the constitutionality of Congress\u2019 effort to halt the production of crush videos. Applying the principles set forth in Ferber, I would hold that crush videos are not protected by the First Amendment.\nB\nApplication of the Ferber framework also supports the constitutionality of \u00a748 as applied to depictions of brutal animal fights. (For convenience, I will focus on videos of dogfights, which appear to be the most common type of animal fight videos.)\nFirst, such depictions, like crush videos, record the actual commission of a crime involving deadly violence. Dogfights are illegal in every State and the District of Columbia, Brief for United States 26-27, and n. 8 (citing statutes), and under federal law constitute a felony punishable by imprisonment for up to five years, 7 U. S. C. \u00a7 2156 et seq. (2006 ed. and Supp. II); 18 U. S. C. \u00a749 (2006 ed., Supp. II).\nSecond, Congress had an ample basis for concluding that the crimes depicted in these videos cannot be effectively controlled without targeting the videos. Like crush videos and child pornography, dogfight videos are very often produced as part of a \u201clow-profile, clandestine industry,\u201d and \u201cthe need to market the resulting products requires a visible apparatus of distribution.\u201d Ferber, 458 U. S., at 760. In such circumstances, Congress had reasonable grounds for concluding that it would be \u201cdifficult, if not impossible, to halt\u201d the underlying exploitation of dogs by pursuing only those who stage the fights. Id., at 759-760; see 533 F. 3d, at 246 (Cowen, J., dissenting) (citing evidence establishing \u201cthe existence of a lucrative market for depictions of animal cruelty,\u201d including videos of dogfights, \u201cwhich in turn provides a powerful incentive to individuals to create [such] videos\u201d).\nThe commercial trade in videos of dogfights is \u201can integral part of the production of such materials,\u201d Ferber, supra, at 761. As the Humane Society explains, \u201c[videotapes memorializing dogfights are integral to the success of this criminal industry\u201d for a variety of reasons. Humane Society Brief 5. For one thing, some dogfighting videos are made \u201csolely for the purpose of selling the video (and not for a live audience).\u201d Id., at 9. In addition, those who stage dogfights profit not just from the sale of the videos themselves, but from the gambling revenue they take in from the fights; the videos \u201cencourage [such] gambling activity because they allow those reluctant to attend actual fights for fear of prosecution to still bet on the outcome.\u201d Ibid.; accord, Brief for Center on the Administration of Criminal Law as Amicus Curiae 12 (\u201cSelling videos of dogfights effectively abets the underlying crimes by providing a market for dogfighting while allowing actual dogfights to remain underground\u201d); ibid. (\u201cThese videos are part of a \u2018lucrative market\u2019 where videos are produced by a \u2018bare-boned, clandestine staff\u2019 in order to permit the actual location of dogfights and the perpetrators of these underlying criminal activities to go undetected\u201d (citation omitted)). Moreover, \u201c[v]ideo documentation is vital to the criminal enterprise because it provides proof of a dog\u2019s fighting prowess \u2014 proof demanded by potential buyers and critical to the underground market.\u201d Humane Society Brief 9. Such recordings may also serve as \u201c \u2018training\u2019 videos for other fight organizers.\u201d Ibid. In short, because videos depicting live dogfights are essential to the success of the criminal dogfighting subculture, the commercial sale of such videos helps to fuel the market for, and thus to perpetuate the perpetration of, the criminal conduct depicted in them.\nThird, depictions of dogfights that fall within \u00a7 48\u2019s reach have by definition no appreciable social v\u00e1lue. As noted, \u00a7 48(b) exempts depictions having any appreciable social value, and thus the mere inclusion of a depiction of a live fight in a larger work that aims at communicating an idea or a message with a modicum of social value would not run afoul of the statute.\nFinally, the harm caused by the underlying criminal acts greatly outweighs any trifling value that the depictions might be thought to possess. As the Humane Society explains;\n\u201cThe abused dogs used in fights endure physical torture and emotional manipulation throughout their lives to predispose them to violence; common tactics include feeding the animals hot peppers and gunpowder, prodding them with sticks, and electrocution. Dogs are conditioned never to give up a fight, even if they will be gravely hurt or killed. As a result, dogfights inflict horrific injuries on the participating animals, including lacerations, ripped ears, puncture wounds and broken bones. Losing dogs are routinely refused treatment, beaten further as \u2018punishment\u2019 for the loss, and executed by drowning, hanging, or incineration.\u201d Id., at 5-6 (footnotes omitted).\nFor these dogs, unlike the animals killed in crush videos, the suffering lasts for years rather than minutes. As with crush videos, moreover, the statutory ban on commerce in dogfighting videos is also supported by compelling governmental interests in effectively enforcing the Nation\u2019s criminal laws and preventing criminals from profiting from their illegal activities. See Ferber, supra, at 757-758; Simon & Schuster, 502 U. S., at 119.\nIn sum, \u00a748 may validly be applied to at least two broad real-world categories of expression covered by the statute: crush videos and dogfighting videos. Thus, the statute has a substantial core of constitutionally permissible applications. Moreover, for the reasons set forth above, the record does not show that \u00a748, properly interpreted, bans a substantial amount of protected speech in absolute terms. A fortiori, respondent has not met his burden of demonstrating that any impermissible applications of the statute are \u201csubstantial\u201d in relation to its \u201cplainly legitimate sweep.\u201d Williams, 553 U. S., at 292. Accordingly, I would reject respondent\u2019s claim that \u00a7 48 is facially unconstitutional under the overbreadth doctrine.\n* * *\nFor these reasons, I respectfully dissent.\nAPPENDIX\nAs the following chart makes clear, virtually all state laws prohibiting animal cruelty either expressly define the term \u201canimal\u201d to exclude wildlife or else specifically exempt lawful hunting activities.\nAlaska Alaska Stat. \u00a7 11.61.140(c)(4) (2008) (\u201cIt is a defense to a prosecution under this section that the conduct of the defendant... was necessarily incidental to lawful fishing, hunting or trapping activities\u201d)\nArizona Ariz. Rev. Stat. Ann. \u00a7\u00a7 13-2910(0(1), (3) (West Supp. 2009) (\u201cThis section does not prohibit or restrict . . . [t]he taking of wildlife or other activities permitted by or pursuant to title 17 ... [or] [activities regulated by the Arizona game and fish department or the Arizona department of agriculture\u201d)\nArkansas Ark. Code Ann. \u00a75-62-105(a) (Supp. 2009) (\u201cThis sub-chapter does not prohibit any of the following activities: ... (9) Engaging in the taking of game or fish through hunting, trapping, or fishing, or engaging in any other activity authorized by Arkansas Constitution, Amendment 35, by \u00a7 15-41-101 et seq., or by any Arkansas State Game and Fish Commission regulation promulgated under either Arkansas Constitution, Amendment 35, or statute\u201d)\nCalifornia Cal. Penal Code Ann. \u00a7599c (West 1999) (\u201cNo part of this title shall be construed as interfering with any of the laws of this state known as the \u2018game laws,\u2019 . . . or to interfere with the right to kill all animals used for food\u201d)\nColorado Colo. Rev. Stat. Ann. \u00a7 18-9-201.5(2) (2009) (\u201cIn case of any conflict between this part 2 [prohibiting cruelty to animals] or section 35-43-126, [Colo. Rev. Stat.], and section 35-43-126, [Colo. Rev. Stat.], and the wildlife statutes of the state, said wildlife statutes shall control\u201d), \u00a7 18-9-202(3) (\u201cNothing in this part 2 shall be construed to amend or in any manner change the authority of the wildlife commission, as established in title 33, [Colo. Rev. Stat.], or to prohibit any conduct therein authorized or permitted\u201d)\nConnecticut Conn. Gen. Stat. \u00a7 53-247(b) (2009) (\u201cAny person who maliciously and intentionally maims, mutilates, tortures, wounds or kills an animal shall be fined not more than five thousand dollars or imprisoned not more than five years or both. The provisions of this subsection shall not apply to . . . any person . . . while lawfully engaged in the taking of wildlife\u201d)\nDelaware Del. Code Ann., Tit. 11, \u00a7 1325(f) (2007) (\u201cThis section shall not apply to the lawful hunting or trapping of animals as provided by law\u201d)\nFlorida Fla. Stat. \u00a7828.122(9)(b) (2007) (\u201cThis section shall not apply to . . . [a]ny person using animals to pursue or take wildlife or to participate in any hunting regulated or subject to being regulated by the rules and regulations of the Fish and Wildlife Conservation Commission\u201d)\nGeorgia Ga. Code Ann. \u00a7 16-12-4(e) (2007) (\u201cThe provisions of this Code section shall not be construed as prohibiting conduct which is otherwise permitted under the laws of this state or of the United States, including, but not limited to . . . hunting, trapping, fishing, [or] wildlife management\u201d)\nHawaii Haw. Rev. Stat. \u00a7711-1108.5(1) (2008 Cum. Supp.) (\u201cA person commits the offense of cruelty to anim\u00e1is in the first degree if the person intentionally or knowingly tortures, mutilates, or poisons or causes the torture, mutilation, or poisoning of any pet animal or equine animal resulting in serious bodily injury or death of the pet animal or equine animal\u201d)\nIdaho Idaho Code \u00a725-3515 (Lexis 2000) (\u201cNo part of this chapter shall be construed as interfering with, negating or preempting any of the laws or rules of the department of fish and game of this state... or to interfere with the right to kill, slaughter, bag or take all animals used for food\u201d)\nIllinois Ill. Comp. Stat., ch. 510, \u00a770/13 (West 2006) (\u201cIn ease of any alleged conflict between this Act . . . and the \u2018Wildlife Code of Illinois\u2019 or \u2018An Act to define and require the use of humane methods in the handling, preparation for slaughter, and slaughter of livestock for meat or meat products to be offered for sale',... the provisions of those Acts shall prevail\u201d (footnotes omitted)), \u00a770/3.03(b)(l) (\u201cFor the purposes of this Section, 'animal torture\u2019 does not include any death, harm, or injury caused to any animal by... any hunting, fishing, trapping, or other activity allowed under the Wildlife Code, the Wildlife Habitat Management Areas Act, or the Fish and Aquatic Life Code\u201d (footnotes omitted))\nIndiana Ind. Code \u00a7 35-46-3-5(a) (West 2004) (subject to certain exceptions not relevant here, \u201cthis chapter [prohibiting \u201cOffenses Relating to Animals\u201d] does not apply to ... [f]ishing, hunting, trapping, or other conduct authorized under [Ind. Code \u00a7] 14-22\u201d)\nIowa Iowa Code \u00a7717B.2(5) (2009) (\u201cThis section [banning \u2018animal abuse\u2019] shall not apply to . .. [a] person taking, hunting, trapping, or fishing for a wild animal as provided in chapter 481A\u201d), \u00a7 717B.3A(2)(e) (\u201cThis section [banning \u2018animal torture\u2019] shall not apply to ... [a] person taking, hunting, trapping, or fishing for a wild animal as provided in chapter 481A\u201d)\nKansas Kan. Stat. Ann. \u00a7 21-4310(b)(3) (2007) (\u201cThe provisions of this section shall not apply to . . . killing, attempting to kill, trapping, catching or taking of any animal in accordance with the provisions of chapter 32 [Wildlife, Parks and Recreation] or chapter 47 [Livestock and Domestic Animals] of the Kansas Statutes Annotated\u201d)\nKentucky Ky. Rev. Stat. Ann. \u00a7\u00a7 525.130(2)(a), (e) (Lexis 2008) (\u201cNothing in this section shall apply to the killing of animals ... [p]ursuant to a license to hunt, fish, or trap . .. [or] [f]or purposes relating to sporting activities\u201d), \u00a7 525.130(3) (\u201cActivities of animals engaged in hunting, field trials, dog training other than training a dog to fight for pleasure or profit, and other activities authorized either by a hunting license or by the Department of Fish and Wildlife shall not constitute a violation of this section\u201d)\nLouisiana La. Rev. Stat. Ann. \u00a7 14:102.1(C)(1) (West Supp. 2010) (\u201cThis Section shall not apply to ... [t]he lawful hunting or trapping of wildlife as provided by law\u201d)\nMaine Me. Rev. Stat. Ann., Tit. 17, \u00a71031(1)(G) (West Supp. 2009) (providing that hunting and trapping an animal is not a form of prohibited animal cruelty if \u201cpermitted pursuant to\u201d parts of state code regulating the shooting of large game, inland fisheries, and wildlife)\nMaryland Md. Crim. Law Code Ann. \u00a710-603(3) (Lexis 2002) (\u201cSections 10-601 through 10-608 of this subtitle do\nMichigan Mich. Comp. Laws Ann. \u00a7\u00a7 750.50(ll)(a), (b) (West Supp. 2009) (\u201cThis section does not prohibit the lawful killing or other use of an animal, including... [fishing . . . [h]unting, [or] trapping [as regulated by state law]\u201d), \u00a7\u00a7 750.50b(9)(a), (b) (\u201cThis section does not prohibit the lawful killing of an animal pursuant to . . . [fBshing . . . [hjunting, [or] trapping [as regulated by state law]\u201d)\nMissouri Mo. Rev. Stat. \u00a7578.007(3) (2000) (\u201cThe provisions of sections 578.005 to 578.023 shall not apply to... [hjunting, fishing, or trapping as allowed by\u201d state law)\nMontana Mont. Code Ann. \u00a745-8-211(4)(d) (2009) (\u201cThis section does not prohibit... lawful fishing, hunting, and trapping activities\u201d)\nNebraska Neb. Rev. Stat. \u00a728-1013(4) (2008) (exempting \u201c[e]ommonly accepted practices of hunting, fishing, or trapping\u201d)\nNevada Nev. Rev. Stat. \u00a7\u00a7574.200(1), (3) (2007) (provisions of Nevada law banning animal cruelty \u201cdo not... [ijnterfere with any of the fish and game laws . . . [or] the right to kill all animals and fowl used for food\u201d)\nNew Hampshire N. H. Rev. Stat. Ann. \u00a7 644:8(11) (West Supp. 2009) (\u201cIn this section, \u2018animal\u2019 means a domestic animal, a household pet or a wild animal in captivity\u201d)\nNew Jersey N. J. Stat. Ann. \u00a7 4:22-16(c) (West 1998) (\u201cNothing contained in this article shall be construed to prohibit or interfere with .. . [t]he shooting or taking of game or game fish in such manner and at such times as is allowed or provided by the laws of this State\u201d)\nNew Mexico N. M. Stat. Ann. \u00a730-18-l(I)(D (Supp. 2009) (\u201cThe provisions of this section do not apply to ... fishing, hunting, falconry, taking and trapping\u201d)\nNew York N. Y. Agrie. & Mkts. Law Ann. \u00a7353-a(2) (West 2004) (\u201cNothing contained in this section shall be construed to prohibit or interfere in any way with anyone lawfully engaged in hunting, trapping, or fishing\u201d)\nNorth Carolina N. C. Gen. Stat. Ann. \u00a7 14-360(c)(l) (Lexis 2009) (\u201c[TJhis section shall not apply to... [t]he lawful taking of animals under the jurisdiction and regulation of the Wildlife Resources Commission ... \u201d) not apply to... an activity that may cause unavoidable physical pain to an animal, including ... hunting, if the person performing the activity uses the most humane method reasonably available\u201d)\nNorth Dakota N. D. Cent. Code Ann. \u00a736-21.1-01(5)(a) (Lexis Supp. 2009) (\u201c\u2018Cruelty\u2019 or \u2018torture\u2019.. . does not include .. . [a]ny activity that requires a license or permit under chapter 20.1-03 [which governs gaming and other licenses]\u201d)\nOregon Ore. Rev. Stat. \u00a7167.335 (2007) (\u201cUnless gross negligence can be shown, the provisions of [certain statutes prohibiting animal cruelty] do not apply to . . . (7) [l]awful fishing, hunting and trapping activities\u201d)\nPennsylvania 18 Pa. Cons. Stat. \u00a75511(a)(3)(ii) (2008) (\u201cThis subsection [banning killing, maiming, or poisoning of domestic animals or zoo animals] shall not apply to... the killing of any animal or fowl pursuant to ... The Game Law\u201d), \u00a7 5511(c)(1) (\u201cA person commits an offense if he wantonly or cruelly illtreats, overloads, beats, otherwise abuses any animal, or neglects any animal as to which he has a duty of care\u201d)\nRhode Island R. I. Gen. Laws \u00a74-l-3(a) (Lexis 1998) (prohibiting \u201c[e]very owner, possessor, or person having the charge or custody of any animal\u201d from engaging in certain acts of unnecessary cruelty), \u00a7\u00a74-l-5(a), (b) (prohibiting only \u201c[mjalidous\u201d injury to or killing of animals and further providing that \u201c[t]his section shall not apply to licensed hunters during hunting season or a licensed business killing animals for human consumption\u201d)\nSouth Carolina S. C. Code Ann. \u00a747-1-40(0 (Supp. 2009) (\u201cThis section does not apply to . .. activity authorized by Title 50 [consisting of laws on Fish, Game, and Watercraft]\u201d)\nSouth Dakota S. D. Codified Laws \u00a740-1-17 (2004) (\u201cThe acts and conduct of persons who are lawfully engaged in any of the activities authorized by Title 41 [Game, Fish, Parks and Forestry] . . . and persons who properly kill any animal used for food and sport hunting, trapping, and fishing as authorized by the South Dakota Department of Game, Fish and Parks, are exempt from the provisions of this chapter\u201d)\nTennessee Tenn. Code Ann. \u00a739-14-201(1) (2010 Supp.) (\u201c\u2018Animal\u2019 means a domesticated living creature or a wild creature previously captured\u201d), \u00a739-14-201(4) (\u201c[N]othing in this part shall be construed as prohibiting the shooting of birds or game for the purpose of human food or the use of animate targets by incorporated gun clubs\u201d)\nTexas Tex. Penal Code Ann. \u00a7 42.092(a)(2) (West Supp. 2009) (\u201c\u2018Animal\u2019 means a domesticated living creature, in-eluding any stray or feral cat or dog, and a wild living creature previously captured. The term does not include an uncaptured wild living creature or a livestock animal\u201d), \u00a7 42.092(f)(1)(A) (\u201cIt is an exception to the application of this section that the conduct engaged in by the actor is a generally accepted and otherwise lawful . . . form of conduct occurring solely for the purpose of or in support of . . . fishing, hunting, or trapping\u201d)\nUtah Utah Code Ann. \u00a7 76-9-301(l)(b)(ii)(D) (Lexis 2008) (\u201c\u2018Animal\u2019 does not include . . . wildlife, as defined in Section 23-13-2, including protected and unprotected wildlife, if the conduct toward the wildlife is in accordance with lawful hunting, fishing, or trapping practices or other lawful practices\u201d), \u00a7 76-9-301(9)(C) (\u201cThis section does not affect or prohibit... the lawful hunting of, fishing for, or trapping of, wildlife\u201d)\nVermont Vt. Stat. Ann., Tit. 13, \u00a7851b(l) (2009) (\u201cThis subchapter shall not apply to . . . activities regulated by the department of fish and wildlife pursuant to Part 4 of Title 10\u201d)\nVirginia Va. Code Ann. \u00a73.2-6570(D) (Lexis 2008) (\u201cThis section shall not prohibit authorized wildlife management activities or hunting, fishing or trapping [as regulated by state law]\u201d)\nWashington Wash. Rev. Code \u00a716.52.180 (2008) (\u201cNo part of this chapter shall be deemed to interfere with any of the laws of this state known as the \u2018game laws\u2019... or to interfere with the right to kill animals to be used for food\u201d)\nWest Virginia W. Va. Code Ann. \u00a7 61-8-19(f) (Lexis Supp. 2009) (\u201cThe provisions of this section do not apply to lawful acts' of hunting, fishing, [or] trapping\u201d)\nWisconsin Wis. Stat. \u00a7951.015(1) (2007-2008) (\u201cThis chapter may not be interpreted as controverting any law regulating wild animals that are subject to regulation under ch. 169 [regulating, among other things, hunting], [or] the taking of wild animals\u201d)\nWyoming Wyo. Stat. Ann. \u00a7 6-3-203(m)(iv) (2009) (\u201cNothing in subsection (a), (b) or (n) of this section shall be construed to prohibit... [t]he hunting, capture or destruction of any predatory animal or other wildlife in any manner not otherwise prohibited by law\u201d)\nRespondent argued at length that the evidence was insufficient to prove that the particular videos he sold lacked any serious scientific, educational, or historical value and thus fell outside the exception in \u00a7 48(b). See Brief for Appellant in No. 05-2497 (CA3), pp. 72-79. He added that, if the evidence in this case was held to be sufficient to take his videos outside the scope of the exception, then \u201cthis case presents... a situation\u201d in which \u201ca constitutional violation occurs.\u201d Id., at 71. See also id., at 47 (\u201cThe applicability of 18 U. S. C. \u00a7 48 to speech which is not a crush video or an appeal to some prurient sexual interest constitutes a restriction of protected speech, and an unwarranted violation of the First Amendment\u2019s free speech guarantee\u201d); Brief for Respondent 55 (\u201cStevens\u2019 speech does not fit within any existing category of unprotected, prosecutable speech\u201d); id,., at 57 (\u201c[T]he record as a whole demonstrates that Stevens\u2019 speech cannot constitutionally be punished\u201d). Contrary to the Court, ante, at 473, n. 3 (citing 533 P. 3d 218, 231, n. 13 (CA3 2008) (en bane)), I see no suggestion in the opinion of the Court of Appeals that respondent did not preserve an as-applied challenge.\nFor the reasons set forth below, this is not a case in which the challenged statute is unconstitutional in all or almost all of its applications.\nSee Appendix, infra (citing statutes); B. Wagman, S. Waisman, & P. Fraseh, Animal Law: Cases and Materials 92 (4th ed. 2010) (\u201cMost anti-cruelty laws also include one or more exemptions,\u201d which often \u201cexclud[e] from coverage (1) whole classes of animals, such as wildlife or farm animals, or (2) specific activities, such as hunting\u201d); Note, Economics and Ethics in the Genetic Engineering of Animals, 19 Harv. J. L. & Tech. 413, 432 (2006) (\u201cNot surprisingly, state laws relating to the humane treatment of wildlife, including deer, elk, and waterfowl, are virtually non-existent\u201d).\nWebster\u2019s Third New International Dictionary 2073 (1976); Random House Dictionary of the English Language 1303 (1966). While the term \u201cserious\u201d may also mean \u201cweighty\u201d or \u201cimportant,\u201d ibid., we should adopt the former definition if necessary to avoid unconstitutionality.\nSince the Court has taken pains not to decide whether \u00a748 would be unconstitutional as applied to graphic dogfight videos, including those depicting fights occurring in countries where dogfighting is legal, I take it that the Court does not intend for its passing reference to cockfights to mean either that all depictions of cockfights, whether legal or illegal under local law, are protected by the First Amendment or that it is impermissible to ban the sale or possession in the States of a depiction of a legal cockfight in Puerto Rico.\nIn other cases, we have regarded evidence of a national consensus as proof that a particular government interest is compelling. See Simon & Schuster, Inc. v. Members of N. Y. State Crime Victims Bd., 502 U. S. 105, 118 (1991) (State\u2019s compelling interest \u201cin ensuring that victims of crime are compensated by those who harm them\u201d evidenced by fact that \u201c[e]very State has a body of tort law serving exactly this interest\u201d); Roberts v. United States Jaycees, 468 U. S. 609, 624-625 (1984) (citing state laws prohibiting discrimination in public accommodations as evidence of the compelling governmental interest in ensuring equal access).",
+        "type": "dissent",
+        "author": "Justice Alito,"
+      }
+    ],
+    "attorneys": [
+      "Deputy Solicitor General Katyal argued the cause for the United States. On the briefs were Solicitor General Kagan, Assistant Attorney General Breuer, Deputy Solicitor General Dreeben, Nicole A. Saharsky, and Vicki S. Marani.",
+      "Patricia A. Millett argued the cause for respondent. With her on the brief were Thomas C. Goldstein, Kevin R. Amer, Jeffrey L. Fisher, Lisa B. Freeland, Michael J. Novara, Karen Sirianni Gerlach, and Robert Corn-Revere."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES v. STEVENS\nNo. 08-769.\nArgued October 6, 2009\nDecided April 20, 2010\nRoberts, C. J., delivered the opinion of the Court, in which Stevens, Scalia, Kennedy, Thomas, Ginsburg, Breyer, and Sotomayor, JJ., joined. Auto, J., filed a dissenting opinion, post, p. 482.\nDeputy Solicitor General Katyal argued the cause for the United States. On the briefs were Solicitor General Kagan, Assistant Attorney General Breuer, Deputy Solicitor General Dreeben, Nicole A. Saharsky, and Vicki S. Marani.\nPatricia A. Millett argued the cause for respondent. With her on the brief were Thomas C. Goldstein, Kevin R. Amer, Jeffrey L. Fisher, Lisa B. Freeland, Michael J. Novara, Karen Sirianni Gerlach, and Robert Corn-Revere.\nBriefs of amici curiae urging reversal were filed for the State of Florida et al. by Bill McCollum, Attorney General of Florida, Scott D. Makar, Solicitor General, and Timothy D. Osterhaus and Craig D. Feiser, Deputy Solicitors General, and by the Attorneys General for their respective States as follows: Troy King of Alabama, Terry Goddard of Arizona, Dustin McDaniel of Arkansas, Edmund G. Brown, Jr., of California, John Suthers of Colorado, Rickard Blumenthal of Connecticut, Mark J. Bennett of Hawaii, Lisa Madigan of Illinois, Gregory F. Zoeller of Indiana, Jack Conway of Kentucky, James D. \u201cBuddy\u201d Caldwell of Louisiana, Douglas F. Gansler of Maryland, Michael A Cox of Michigan, Jim Hood of Mississippi, Steve Bullock of Montana, Kelly A Ayotte of New Hampshire, Gary K King of New Mexico, Roy Cooper of North Carolina, Rickard Cordray of Ohio, Patrick C. Lynch of Rhode Island, Henry D. McMaster of South Carolina, Greg Abbott of Texas, Mark L. Shurtleff of Utah, William C. Mims of Virginia, and Darrell V. McGraw, Jr., of West Virginia; for the American Society for the Prevention of Cruelty to Animals by Ian C. Schaefer; for the Animal Legal Defense Fund by Karen JohnsonMcKewan and Warrington S. Parker III; for the Center on the Administration of Criminal Law by Paul D. Clement, Anthony S. Barkow, and Rachel E. Barkow; for a Group of American Law Professors by Megan A Senatori and Pamela D. Frasch, both pro se; for the Humane Society of the United States by J. Scott Ballenger, Claudia M. O\u2019Brien, Melissa B. Arbus, Jonathan R. Lowom, and Kimberly D. Ockene; for the Northwest Animal Rights Network by James H. Jones, Jr.; and for the Washington Legal Foundation et al. by Daniel J. Popeo and Richard A. Samp.\nBriefs of amici curiae urging affirmance were filed for the Association of American Publishers, Inc., et al. by R. Bruce Rich, Jonathan Bloom, and Michael A Bamberger; for the Cato Institute by Gene C. Schaerr, Geoffrey P. Eaton, Ilya Shapiro, and Linda T. Coberly; for Bruce Ackerman et al. by Craig Green, pro se; for the DKT Liberty Project et al. by Paul M. Smith, Katherine A Fallow, Steven R. Shapiro, and John B. Morris, Jr.; for the Endangered Breed Association et al. by Judith A Brecha; for the First Amendment Lawyers Association by Cathy E. Crosson, Clyde F. DeWitt III, and Lawrence G. Walters; for the National Coalition Against Censorship et al. by Andrew E. Tauber, Jeffrey P. Cunar\u00e1, and Joan E. Bertin; for the National Rifle Association of America, Inc., by R. Hewitt Pate III, Ryan A Shores, and Lewis F. Powell III; for the National Shooting Sports Foundation, Inc., by Lawrence G. Keane and Christopher P. Johnson; for the Professional Outdoor Media Association et al. by Beth Heifetz; for the Reporters Committee for Freedom of the Press et al. by Lucy A Dalglish, Gregg P. Leslie, Kevin M. Goldberg, David Ardia, Marshall W. Anstandig, Mickey H. Osterreicher, George Freeman, Ren\u00e9 P. Milam, Barbara L. Camens, William Jay Powell, and Bruce W. Sanford; for the Safari Club International et al. by Douglas S. Burdin and William J. McGrath; and for the Thomas Jefferson Center for the Protection of Free Expression by J. Joshua Wheeler.\nHenry Mark Holzer and Lance J. Gotko filed a brief for the International Society for Animal Rights as amicus curiae."
+  },
+  "file_name": "0460-01",
+  "first_page_order": 560,
+  "last_page_order": 605
+}

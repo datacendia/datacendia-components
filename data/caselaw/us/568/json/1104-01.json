@@ -1,0 +1,59 @@
+{
+  "id": 12428547,
+  "name": "Parrish v. Yates, Warden",
+  "name_abbreviation": "Parrish v. Yates",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-7026",
+  "first_page": "1104",
+  "last_page": "1104",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1104"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.634,
+    "sha256": "cbdd33e15ec055c56809c955eb5e41e76c0bc54c0a6edc3eb64f061add9c12f1",
+    "simhash": "1:97e12c9969bb7077",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Parrish v. Yates, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7026.\nParrish v. Yates, Warden."
+  },
+  "file_name": "1104-01",
+  "first_page_order": 1180,
+  "last_page_order": 1180
+}

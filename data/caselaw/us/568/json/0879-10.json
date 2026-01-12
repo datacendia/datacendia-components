@@ -1,0 +1,59 @@
+{
+  "id": 12414797,
+  "name": "Rydland v. United States",
+  "name_abbreviation": "Rydland v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-11105",
+  "first_page": "879",
+  "last_page": "879",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 879"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.694,
+    "sha256": "ffb7acf3116422a9be3b69c50392d8344c1c0dc6ec3d4e2f9ad328afe23229e4",
+    "simhash": "1:37abc859ce85b91c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rydland v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-11105.\nRydland v. United States."
+  },
+  "file_name": "0879-10",
+  "first_page_order": 955,
+  "last_page_order": 955
+}

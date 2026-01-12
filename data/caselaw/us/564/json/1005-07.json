@@ -1,0 +1,59 @@
+{
+  "id": 4332917,
+  "name": "Davis v. United States",
+  "name_abbreviation": "Davis v. United States",
+  "decision_date": "2011-06-13",
+  "docket_number": "No. 10-1379",
+  "first_page": "1005",
+  "last_page": "1005",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1005"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.542,
+    "sha256": "55945135345b1ac23a6f0fb54865bca51915c89097c182a90dffe7a0ca107e7c",
+    "simhash": "1:8108dd9a8a809a12",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Davis v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1379.\nDavis v. United States."
+  },
+  "file_name": "1005-07",
+  "first_page_order": 999,
+  "last_page_order": 999
+}

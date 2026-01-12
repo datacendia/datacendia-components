@@ -1,0 +1,59 @@
+{
+  "id": 5909782,
+  "name": "Tate v. California",
+  "name_abbreviation": "Tate v. California",
+  "decision_date": "2011-03-07",
+  "docket_number": "No. 10-7833",
+  "first_page": "1274",
+  "last_page": "1274",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1274"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 66,
+    "ocr_confidence": 0.623,
+    "sha256": "1870e184d2cb79622a855a6519a83e9ad19e90350c5bdfff047bf3316ad013f3",
+    "simhash": "1:6e3b37d79f5ac15b",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Tate v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7833.\nTate v. California."
+  },
+  "file_name": "1274-02",
+  "first_page_order": 1296,
+  "last_page_order": 1296
+}

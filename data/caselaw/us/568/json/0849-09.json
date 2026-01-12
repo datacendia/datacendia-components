@@ -1,0 +1,59 @@
+{
+  "id": 12413328,
+  "name": "Holland v. United States",
+  "name_abbreviation": "Holland v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10569",
+  "first_page": "849",
+  "last_page": "849",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 849"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.635,
+    "sha256": "1d464c2ceb70179e699b24208bda0b6db99c181d124f3069853e0b335f3e3df3",
+    "simhash": "1:87aab60f0a9f482e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Holland v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10569.\nHolland v. United States."
+  },
+  "file_name": "0849-09",
+  "first_page_order": 925,
+  "last_page_order": 925
+}

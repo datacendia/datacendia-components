@@ -1,0 +1,59 @@
+{
+  "id": 12433411,
+  "name": "Watson-El v. United States et al.",
+  "name_abbreviation": "Watson-El v. United States",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-8224",
+  "first_page": "1237",
+  "last_page": "1237",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1237"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 81,
+    "ocr_confidence": 0.616,
+    "sha256": "4c19c906e3b970db5791a5a1ca8b31a233b92e768a98a025c549715c4906102e",
+    "simhash": "1:02cb24a80909823a",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Watson-El v. United States et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8224.\nWatson-El v. United States et al."
+  },
+  "file_name": "1237-06",
+  "first_page_order": 1313,
+  "last_page_order": 1313
+}

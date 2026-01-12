@@ -1,0 +1,66 @@
+{
+  "id": 12704989,
+  "name": "In the Matter of DISCIPLINE OF Lennox Jacinto SIMON.",
+  "name_abbreviation": "In re Simon",
+  "decision_date": "2014-03-24",
+  "docket_number": "No. D\u20132769.",
+  "first_page": "1013",
+  "last_page": "1013",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "572 U.S. 1013"
+    },
+    {
+      "type": "parallel",
+      "cite": "188 L. Ed. 2d 588"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 1581"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 45,
+    "char_count": 368,
+    "sha256": "1a4eb31ff6e2103e1508df6615554ea562358cefe7344ea903fea26a98131344",
+    "simhash": "1:7bab31be1fcab7ea",
+    "word_count": 64
+  },
+  "last_updated": "2021-08-27T20:44:00.426858+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In the Matter of DISCIPLINE OF Lennox Jacinto SIMON."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "In the Matter of DISCIPLINE OF Lennox Jacinto SIMON.\nNo. D-2769.\nSupreme Court of the United States\nMarch 24, 2014.\nLennox Jacinto Simon, of Mitchellville, Maryland, is suspended from the practice of law in this Court and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court."
+  },
+  "file_name": "1013-08",
+  "first_page_order": 1013,
+  "last_page_order": 1013
+}

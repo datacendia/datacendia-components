@@ -1,0 +1,59 @@
+{
+  "id": 12419264,
+  "name": "Green v. Texas",
+  "name_abbreviation": "Green v. Texas",
+  "decision_date": "2012-10-10",
+  "docket_number": "No. 12-6652 (12A346)",
+  "first_page": "960",
+  "last_page": "960",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 960"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 29,
+    "char_count": 225,
+    "ocr_confidence": 0.645,
+    "sha256": "8c6d6663e3421fc746e15d7097037c568276b196cf049491184b17d9d3013ecf",
+    "simhash": "1:e007913047fd0cb5",
+    "word_count": 35
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Green v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tex. Certiorari denied. Application for stay of execution of sentence of death, presented to Justice Ginsburg, and by her referred to the Court, denied. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6652 (12A346).\nGreen v. Texas."
+  },
+  "file_name": "0960-06",
+  "first_page_order": 1036,
+  "last_page_order": 1036
+}

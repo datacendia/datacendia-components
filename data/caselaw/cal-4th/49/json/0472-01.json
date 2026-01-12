@@ -1,0 +1,1912 @@
+{
+  "id": 3905046,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. CISCO JAMES HARTSCH, Defendant and Appellant",
+  "name_abbreviation": "People v. Hartsch",
+  "decision_date": "2010-06-28",
+  "docket_number": "No. S074804",
+  "first_page": "472",
+  "last_page": "517",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "49 Cal. 4th 472"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal.",
+    "id": 9021,
+    "name": "Supreme Court of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "47 Cal.4th 145",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3899649
+      ],
+      "pin_cites": [
+        {
+          "page": "199-200"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/47/0145-01"
+      ]
+    },
+    {
+      "cite": "542 U.S. 296",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5868041
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/542/0296-01"
+      ]
+    },
+    {
+      "cite": "536 U.S. 584",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1254507
+      ],
+      "weight": 3,
+      "year": 2004,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/536/0584-01"
+      ]
+    },
+    {
+      "cite": "530 U.S. 466",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9413911
+      ],
+      "weight": 3,
+      "year": 2002,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/530/0466-01"
+      ]
+    },
+    {
+      "cite": "200 P.3d 879",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "89 Cal.Rptr.3d 264",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.4th 836",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3893057
+      ],
+      "pin_cites": [
+        {
+          "page": "861"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/45/0836-01"
+      ]
+    },
+    {
+      "cite": "213 P.3d 77",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "97 Cal.Rptr.3d 732",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.4th 399",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3899330
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "455"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/47/0399-01"
+      ]
+    },
+    {
+      "cite": "185 P.3d 727",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "78 Cal.Rptr.3d 295",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.4th 1269",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3884552
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "1315-1316"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/43/1269-01"
+      ]
+    },
+    {
+      "cite": "189 P.3d 880",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "81 Cal.Rptr.3d 614",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.4th 1101",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3888605
+      ],
+      "pin_cites": [
+        {
+          "page": "1140"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/44/1101-01"
+      ]
+    },
+    {
+      "cite": "839 P.2d 984",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "13 Cal.Rptr.2d 475",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "3 Cal.4th 959",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        2008240
+      ],
+      "pin_cites": [
+        {
+          "page": "1013"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/3/0959-01"
+      ]
+    },
+    {
+      "cite": "998 P.2d 969",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1992,
+      "opinion_index": 0
+    },
+    {
+      "cite": "96 Cal.Rptr.2d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1992,
+      "opinion_index": 0
+    },
+    {
+      "cite": "22 Cal.4th 1153",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        157790
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "1220"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/22/1153-01"
+      ]
+    },
+    {
+      "cite": "938 P.2d 388",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "64 Cal.Rptr.2d 594",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 Cal.4th 997",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1006066
+      ],
+      "pin_cites": [
+        {
+          "page": "1068"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/15/0997-01"
+      ]
+    },
+    {
+      "cite": "137 P.3d 229",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1997,
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.Rptr.3d 407",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1997,
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal.4th 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3582872
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "42"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/39/0001-01"
+      ]
+    },
+    {
+      "cite": "210 P.3d 1119",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2006,
+      "opinion_index": 0
+    },
+    {
+      "cite": "96 Cal.Rptr.3d 512",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2006,
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.4th 1255",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3895962
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "1314"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/46/1255-01"
+      ]
+    },
+    {
+      "cite": "240 Cal.Rptr. 516",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "195 Cal.App.3d 244",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2221644
+      ],
+      "pin_cites": [
+        {
+          "page": "256-257"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/195/0244-01"
+      ]
+    },
+    {
+      "cite": "390 P.2d 381",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Cal.Rptr. 605",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "61 Cal.2d 137",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2337745
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/61/0137-01"
+      ]
+    },
+    {
+      "cite": "753 P.2d 37",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "246 Cal.Rptr. 245",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.3d 86",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4529308
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/45/0086-01"
+      ]
+    },
+    {
+      "cite": "809 P.2d 351",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "280 Cal.Rptr. 692",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.3d 618",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2358507
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/53/0618-01"
+      ]
+    },
+    {
+      "cite": "487 U.S. 164",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1775119
+      ],
+      "weight": 3,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "172-174"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/487/0164-01"
+      ]
+    },
+    {
+      "cite": "51 P.3d 224",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "123 Cal.Rptr.2d 345",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.4th 557",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        947634
+      ],
+      "pin_cites": [
+        {
+          "page": "659"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/28/0557-01"
+      ]
+    },
+    {
+      "cite": "118 R3d 545",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 Cal.Rptr.3d 509",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Cal.4th 310",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3771918
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/37/0310-01"
+      ]
+    },
+    {
+      "cite": "114 P.3d 758",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal.Rptr.3d 513",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Cal.4th 309",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3122122
+      ],
+      "pin_cites": [
+        {
+          "page": "357"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/36/0309-01"
+      ]
+    },
+    {
+      "cite": "89 P.3d 353",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "13 Cal.Rptr.3d 34",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Cal.4th 1153",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        801086
+      ],
+      "pin_cites": [
+        {
+          "page": "1183"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/32/1153-01"
+      ]
+    },
+    {
+      "cite": "93 P.3d 244",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2004,
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 Cal.Rptr.3d 624",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2004,
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 Cal.4th 382",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        493360
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "397-398"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/33/0382-01"
+      ]
+    },
+    {
+      "cite": "501 U.S. 808",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1108176
+      ],
+      "weight": 5,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/501/0808-01"
+      ]
+    },
+    {
+      "cite": "78 Cal.Rptr.3d 918",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "164 Cal.App.4th 653",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3938236
+      ],
+      "pin_cites": [
+        {
+          "page": "663-664"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/164/0653-01"
+      ]
+    },
+    {
+      "cite": "189 P.3d 971",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "81 Cal.Rptr.3d 723",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.4th 1164",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3888075
+      ],
+      "pin_cites": [
+        {
+          "page": "1175"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/44/1164-01"
+      ]
+    },
+    {
+      "cite": "112 Cal.Rptr.2d 850",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 2008,
+      "opinion_index": 0
+    },
+    {
+      "cite": "93 Cal.App.4th 258",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        974634
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "266-267"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/93/0258-01"
+      ]
+    },
+    {
+      "cite": "29 P.3d 197",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "111 Cal.Rptr.2d 114",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 Cal.4th 779",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        456849
+      ],
+      "pin_cites": [
+        {
+          "page": "788"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/26/0779-01"
+      ]
+    },
+    {
+      "cite": "74 P.3d 820",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "3 Cal.Rptr.3d 733",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Cal.4th 822",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        17831
+      ],
+      "pin_cites": [
+        {
+          "page": "848"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/31/0822-01"
+      ]
+    },
+    {
+      "cite": "141 P.3d 135",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "48 Cal.Rptr.3d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal.4th 826",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3583235
+      ],
+      "pin_cites": [
+        {
+          "page": "888-889"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/39/0826-01"
+      ]
+    },
+    {
+      "cite": "157 P.3d 950",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2006,
+      "opinion_index": 0
+    },
+    {
+      "cite": "58 Cal.Rptr.3d 340",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2006,
+      "opinion_index": 0
+    },
+    {
+      "cite": "40 Cal.4th 1334",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3158764
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "1361"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/40/1334-01"
+      ]
+    },
+    {
+      "cite": "50 P.3d 332",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "122 Cal.Rptr.2d 545",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.4th 703",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        947685
+      ],
+      "pin_cites": [
+        {
+          "page": "740"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/28/0703-01"
+      ]
+    },
+    {
+      "cite": "161 P.3d 104",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2002,
+      "opinion_index": 0
+    },
+    {
+      "cite": "61 Cal.Rptr.3d 580",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2002,
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Cal.4th 555",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3819179
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "589"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/41/0555-01"
+      ]
+    },
+    {
+      "cite": "91 P.3d 164",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2007,
+      "opinion_index": 0
+    },
+    {
+      "cite": "14 Cal.Rptr.3d 212",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2007,
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 Cal.4th 96",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        493329
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "142"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/33/0096-01"
+      ]
+    },
+    {
+      "cite": "28 P.3d 78",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "110 Cal.Rptr.2d 324",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 Cal.4th 398",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        456827
+      ],
+      "pin_cites": [
+        {
+          "page": "438"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/26/0398-01"
+      ]
+    },
+    {
+      "cite": "978 P.2d 15",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "85 Cal.Rptr.2d 857",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 Cal.4th 826",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        829711
+      ],
+      "pin_cites": [
+        {
+          "page": "887"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/20/0826-01"
+      ]
+    },
+    {
+      "cite": "140 P.3d 657",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1999,
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.Rptr.3d 326",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1999,
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal.4th 641",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3582965
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "720-721"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/39/0641-01"
+      ]
+    },
+    {
+      "cite": "755 P.2d 1049",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "248 Cal.Rptr. 600",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.3d 1126",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4529359
+      ],
+      "pin_cites": [
+        {
+          "page": "1134"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/45/1126-01"
+      ]
+    },
+    {
+      "cite": "117 P.3d 591",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Cal.Rptr.3d 894",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Cal.4th 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3771844
+      ],
+      "pin_cites": [
+        {
+          "page": "30"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/37/0001-01"
+      ]
+    },
+    {
+      "cite": "58 P.3d 931",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2005,
+      "opinion_index": 0
+    },
+    {
+      "cite": "127 Cal.Rptr.2d 802",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 2005,
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Cal.4th 515",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        777236
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "558"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/29/0515-01"
+      ]
+    },
+    {
+      "cite": "28 P.3d 34",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "110 Cal.Rptr.2d 272",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 Cal.4th 334",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        456799
+      ],
+      "pin_cites": [
+        {
+          "page": "370"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/26/0334-01"
+      ]
+    },
+    {
+      "cite": "386 U.S. 18",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6168882
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "24"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/386/0018-01"
+      ]
+    },
+    {
+      "cite": "299 P.2d 243",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.2d 818",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4370142
+      ],
+      "pin_cites": [
+        {
+          "page": "836"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/46/0818-01"
+      ]
+    },
+    {
+      "cite": "73 P.3d 1137",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "3 Cal.Rptr.3d 145",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Cal.4th 518",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        18455
+      ],
+      "pin_cites": [
+        {
+          "page": "534"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/31/0518-01"
+      ]
+    },
+    {
+      "cite": "971 P.2d 618",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2003,
+      "opinion_index": 0
+    },
+    {
+      "cite": "82 Cal.Rptr.2d 413",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 2003,
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 Cal.4th 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        829710
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "9-10"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/20/0001-01"
+      ]
+    },
+    {
+      "cite": "212 P.3d 692",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "97 Cal.Rptr.3d 412",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.4th 318",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3899473
+      ],
+      "pin_cites": [
+        {
+          "page": "368"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/47/0318-01"
+      ]
+    },
+    {
+      "cite": "108 P.3d 182",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 Cal.Rptr.3d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.4th 514",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        873219
+      ],
+      "pin_cites": [
+        {
+          "page": "531"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/35/0514-01"
+      ]
+    },
+    {
+      "cite": "185 P.3d 708",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "78 Cal.Rptr.3d 272",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.4th 1205",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3884226
+      ],
+      "pin_cites": [
+        {
+          "page": "1220"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/43/1205-01"
+      ]
+    },
+    {
+      "cite": "94 Cal.Rptr. 458",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 Cal.App.3d 758",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4432386
+      ],
+      "pin_cites": [
+        {
+          "page": "761"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/16/0758-01"
+      ]
+    },
+    {
+      "cite": "67 Cal.Rptr.3d 849",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1971,
+      "opinion_index": 0
+    },
+    {
+      "cite": "156 Cal.App.4th 1100",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6051699
+      ],
+      "year": 1971,
+      "pin_cites": [
+        {
+          "page": "1105, fn. 2"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/156/1100-01"
+      ]
+    },
+    {
+      "cite": "96 P.3d 30",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "17 Cal.Rptr.3d 710",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "34 Cal.4th 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        633001
+      ],
+      "pin_cites": [
+        {
+          "page": "67"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/34/0001-01"
+      ]
+    },
+    {
+      "cite": "377 U.S. 201",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6166804
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/377/0333-01"
+      ]
+    },
+    {
+      "cite": "148 P.3d 47",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Cal.Rptr.3d 268",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "40 Cal.4th 287",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3159689
+      ],
+      "pin_cites": [
+        {
+          "page": "313"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/40/0287-01"
+      ]
+    },
+    {
+      "cite": "74 P.3d 852",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "3 Cal.Rptr.3d 769",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Cal.4th 903",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        18553
+      ],
+      "pin_cites": [
+        {
+          "page": "926"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/31/0903-01"
+      ]
+    },
+    {
+      "cite": "131 P.3d 995",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2003,
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Cal.Rptr.3d 593",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2003,
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 Cal.4th 175",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3853099
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "236"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/38/0175-01"
+      ]
+    },
+    {
+      "cite": "746 P.2d 452",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2006,
+      "opinion_index": 0
+    },
+    {
+      "cite": "242 Cal.Rptr. 477",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 2006,
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.3d 216",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4538060
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "225"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/44/0216-01"
+      ]
+    },
+    {
+      "cite": "160 P.3d 84",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "60 Cal.Rptr.3d 209",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Cal.4th 313",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3819406
+      ],
+      "pin_cites": [
+        {
+          "page": "342"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/41/0313-01"
+      ]
+    },
+    {
+      "cite": "545 U.S. 162",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8208918
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "168"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/545/0162-01"
+      ]
+    },
+    {
+      "cite": "205 P.3d 245",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "92 Cal.Rptr.3d 330",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.4th 67",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3896303
+      ],
+      "pin_cites": [
+        {
+          "page": "77-78"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/46/0067-01"
+      ]
+    },
+    {
+      "cite": "140 P.3d 775",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.Rptr.3d 467",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal.4th 970",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3583344
+      ],
+      "pin_cites": [
+        {
+          "page": "1008"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/39/0970-01"
+      ]
+    },
+    {
+      "cite": "476 U.S. 79",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12787
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/476/0079-01"
+      ]
+    },
+    {
+      "cite": "583 P.2d 748",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "148 Cal.Rptr. 890",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "22 Cal.3d 258",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2282118
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/22/0258-01"
+      ]
+    },
+    {
+      "cite": "384 U.S. 436",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12046400
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/384/0436-01"
+      ]
+    },
+    {
+      "cite": "190 P.3d 616",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "82 Cal.Rptr.3d 265",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.4th 1263",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3888685
+      ],
+      "pin_cites": [
+        {
+          "page": "1286"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/44/1263-01"
+      ]
+    },
+    {
+      "cite": "189 P.3d 911",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "81 Cal.Rptr.3d 651",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.4th 1032",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3888539
+      ],
+      "pin_cites": [
+        {
+          "page": "1050, fn. 4"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/44/1032-01"
+      ]
+    },
+    {
+      "cite": "767 P.2d 1047",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "255 Cal.Rptr. 569",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.3d 1194",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1971412
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/47/1194-01"
+      ]
+    },
+    {
+      "cite": "187 P.3d 946",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1989,
+      "opinion_index": 0
+    },
+    {
+      "cite": "80 Cal.Rptr.3d 98",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1989,
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.4th 602",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3888634
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "622"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/44/0602-01"
+      ]
+    },
+    {
+      "cite": "211 P.3d 520",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "97 Cal.Rptr.3d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.4th 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3899403
+      ],
+      "pin_cites": [
+        {
+          "page": "90"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/47/0001-01"
+      ]
+    },
+    {
+      "cite": "209 P.3d 1",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "95 Cal.Rptr.3d 78",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.4th 731",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3896084
+      ],
+      "pin_cites": [
+        {
+          "page": "817"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/46/0731-01"
+      ]
+    },
+    {
+      "cite": "211 P.3d 617",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "97 Cal.Rptr.3d 117",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 3047,
+    "char_count": 114606,
+    "ocr_confidence": 0.916,
+    "pagerank": {
+      "raw": 3.0397880279796665e-07,
+      "percentile": 0.8551819044276326
+    },
+    "sha256": "53358e6796c1c4a5642cb20a041a512e9518c74529bbf67e2b2309164a70b8f5",
+    "simhash": "1:97dcc122b6c64d31",
+    "word_count": 18346
+  },
+  "last_updated": "2024-02-27T22:03:05.071485+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. CISCO JAMES HARTSCH, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nCORRIGAN, J.\nDefendant Cisco James Hartsch was convicted of three counts of first degree murder and one count of shooting at an inhabited dwelling. As to all counts, the jury found that he personally used a firearm. It returned a verdict of death, based on the special circumstance of multiple murder. This appeal is automatic. The trial court also imposed a determinate sentence, which defendant does not challenge. We affirm.\nI. FACTS\nThe facts are summarized here. Further factual and procedural details are provided in the discussion of defendant\u2019s claims on appeal.\nA. Guilt Phase\n1. Prosecution\nEarly on the morning of June 15, 1995, well before dawn, defendant and his friend Frank Castaneda left a party to go target shooting in an orange grove near the town of Highgrove in Riverside County. Defendant, who was drunk and may have smoked some methamphetamine, took his .22-caliber revolver. He was 18 years old; Castaneda, 20. At trial, Castaneda provided the following account of the ensuing events.\nAs Castaneda was driving to the orange grove in a stolen Honda, defendant fired four or five shots at a house. He had some problems with the family that lived there. When they got to the grove, they saw a truck parked in the dark. Defendant told Castaneda to pull over, saying he was going to \u201cjack it,\u201d meaning he intended to take something from the apparently unoccupied vehicle. Castaneda stopped the car, facing the front end of the truck. As defendant approached the driver\u2019s side, Castaneda noticed someone in the passenger seat. He switched the car\u2019s headlights to the high beams to give defendant a better view. A woman sat up on the passenger seat, and defendant seemed surprised. The woman woke up a man in the driver\u2019s seat, who spoke angrily to defendant. Defendant fired his gun several times into the driver\u2019s side of the truck. The woman screamed repeatedly, \u201coh, my God.\u201d\nCastaneda panicked and backed up, preparing to leave. Defendant fired more shots into the truck, then approached the car and asked Castaneda where he was going. Castaneda said, \u201clet\u2019s get out of here.\u201d Defendant replied, \u201cthey\u2019re not dead yet,\u201d and reloaded the revolver. Castaneda again said he wanted to leave, but defendant pointed the gun at him. Defendant then walked to the passenger side of the truck and fired more shots through the passenger window. Castaneda saw him reach into the truck before returning to the car.\nAs they drove away, defendant told Castaneda, \u201cthe bitch didn\u2019t want to die and . . . she had nice tits.\u201d He said he had pulled down her shirt and grabbed her breast. Defendant also said that when the woman said, \u201coh God,\u201d he had told her, \u201cGod can\u2019t help you now. Mt. Vernon is here to rob, kill and destroy.\u201d Castaneda drove defendant home. When they arrived, Castaneda said he was not going to take the blame if they got caught. Defendant told him not to worry, adding, \u201cit\u2019s not like they were important, like, if they were bankers or lawyers or anything like that. Nobody cared about them.\u201d\nThe bodies were discovered later that morning by a water company employee, who called the police. A .22-caliber bullet and casings were recovered at the scene. Shoe prints with a chevron pattern were found around the truck. The prints were consistent with size nine and a half Nike tennis shoes. The shoulder straps of the female victim\u2019s top and bra had been pulled down. She was identified as Ellen Creque. Her companion was Kenneth Gorman. Gorman had been shot seven times; Creque, 13 times. More .22-caliber bullets were recovered during the autopsies.\nAt 6:30 on the same morning, defendant and his brother \u201cChucky\u201d Rushing went to work at a beverage packing company. They were wearing tennis shoes, which were not allowed in the plant, and were sent home to change. Two supervisors testified that defendant\u2019s shoes were white.\nCastaneda, meanwhile, had driven to the home of his girlfriend, Veronica Delgado, and gone to sleep in the car. Veronica\u2019s brother Gabriel woke him by tapping on the window. Castaneda told Gabriel that defendant had shot two people in the orange grove with the gun Gabriel had given him. Later that day, Castaneda also told his brother-in-law about the shootings. Castaneda wanted to know if the victims had been found; he drove to the scene with his brother-in-law and Gabriel. They left when they saw the police. The next day, Friday, June 16, Castaneda read a newspaper story about the murders. He clipped the article and showed it to Veronica, telling her that he had been there, and that defendant was the killer. When Veronica became upset, Castaneda told her he was lying.\nAngelica Delgado was Veronica\u2019s 14-year-old sister. Late in the afternoon of June 16, she left her grandmother\u2019s house with friends. She was wearing several rings and necklaces. She and her friends drove around for a while, stopping at defendant\u2019s house to see one of his sisters, Suzie. They drove around some more, but eventually returned to defendant\u2019s house. Angelica\u2019s friends left, and she stayed to visit with Suzie. Angelica\u2019s older brother Jesse testified that she called him around 9:00 or 9:30 p.m. and said she had a ride home. Suzie testified that Angelica left the house on foot.\nLater that night, Castaneda and his sister Alvina were driving through Highgrove when they saw defendant driving toward them. Castaneda stopped and defendant pulled up beside him. Angelica was with defendant. Castaneda testified that defendant told them he was going to the orange groves to have sex, presumably with Angelica. Angelica was smiling and appeared happy. Castaneda said he would be at his mother\u2019s house later, and defendant replied that he would come by. Alvina testified that defendant invited them to join him and Angelica. When Castaneda declined, defendant said that \u201cthey were going to the groves to party and have some fun.\u201d Alvina also said that Angelica seemed to be happy.\nDefendant came to Castaneda\u2019s mother\u2019s house after midnight and showed Castaneda two necklaces. Castaneda asked where he got them, but defendant only smiled and returned them to his pocket. Castaneda recognized a medallion as Angelica\u2019s. He asked to see the jewelry again, but defendant refused. Around the same time, defendant gave his girlfriend, Larissa Gonzalez, a heart-shaped ring that was later identified as Angelica\u2019s. Gonzalez testified that defendant had other rings and necklaces.\nThe next morning, Saturday, June 17, Veronica asked Castaneda if they could \u201crun away\u201d to Texas. They had discussed such a move over the past few months; both had relatives there. Veronica had a four-month-old baby, by another man. She and Castaneda were using methamphetamine regularly, and she wanted to get away from the drugs. Castaneda agreed. They packed the stolen Honda, visited several family members to borrow money, and drove to Laredo. They left that Saturday afternoon and arrived the following Monday. Veronica did not tell her mother she was going, because she was only 17 years old and would have gotten into trouble. From Laredo, Castaneda telephoned defendant to borrow money. Defendant wired him $60.\nEarly on Tuesday morning, June 20, Angelica\u2019s body was found in an orchard near Highgrove. The body lay on its back about 20 feet from a dirt road, beginning to decompose. Bloodstains on the sweatshirt and jeans indicated that the victim had been upright when killed. There were no drag marks or signs of a struggle. Shoe prints leading to and from the body had a chevron sole pattern. The victim\u2019s shoe prints were found along with more chevron prints on and around some large tractor tires near the dirt road.\nLater the same day, Angelica\u2019s mother, Diana Madrid, heard that citrus workers were talking about another body found in the groves. She feared the victim might be her daughter, who had been missing for several days. Madrid contacted the sheriff\u2019s department, and learned that the body was indeed Angelica\u2019s. She had been shot four times in the top of her head and once between the eyes. The bullets and fragments recovered from her skull were in the .22-caliber range. The chevron shoe prints found at the scene were similar to those found at the scene of the Gorman and Creque murders, and were again consistent with men\u2019s size nine and a half Nike shoes.\nCastaneda and Veronica learned of Angelica\u2019s death, and promptly left Texas for California. Castaneda, however, was stopped by a Texas state trooper for speeding, and taken into custody when he was unable to produce a vehicle registration. The Honda was impounded. Veronica and her baby flew back to Riverside.\nAngelica\u2019s brother Jesse told investigators that Angelica had telephoned from defendant\u2019s house the night she disappeared. Officers visited the house on Wednesday, June 21. In the yard, they noticed chevron shoe prints similar to those found around Angelica\u2019s body. With the consent of defendant\u2019s mother they searched the house, but discovered nothing of evidentiary value. At the time, they were unaware that the garage had been converted into a bedroom.\nOfficers questioned defendant at work on Friday, June 23, saying they were investigating Angelica\u2019s death. Defendant told them he had formerly dated Angelica, and last saw her the previous May. She had been with his ex-girlfriend Armanda Ramirez, and he had exchanged some angry words with Angelica. On the day Angelica disappeared, he had come home from work and gone with friends to San Bernardino, returning around four in the morning. He told the officers his shoe size was nine and a half, and said he had two pairs of Nike tennis shoes, one white and one black.\nThat evening, Angelica\u2019s relatives contacted the authorities. Veronica told investigators what Castaneda had said about the Gorman and Creque murders. Gabriel related in detail what Castaneda had told him about the killings, although initially he attempted to protect Castaneda by saying he had heard about them from defendant. Ultimately, however, he admitted that Castaneda was the source of his information. The next morning, officers executed a search warrant at defendant\u2019s residence. They found him sleeping in the converted garage, and seized a pair of black Nike tennis shoes, size nine and a half, a .22-caliber magazine with six live rounds, and an expended .22-caliber shell. Defendant was arrested, waived his Miranda rights, and consented to an interview. (Miranda v. Arizona (1966) 384 U.S. 436 [16 L.Ed.2d 694, 86 S.Ct. 1602].)\nDefendant told the investigators that on the night of the Gorman and Creque killings, he had been partying with his brother Chucky, two girls, and Castaneda. Initially, he denied leaving with Castaneda. The investigators falsely told defendant that Castaneda had identified him as the shooter, and that they knew he had used the gun he got from Gabriel. Defendant admitted getting a gun from Gabriel, but said he had sold it at a liquor store two weeks earlier. The investigators also told defendant they thought the shoe prints at the crime scenes would match the shoes taken from his bedroom. Defendant was eager to talk about the shoe prints, and claimed they would not match those shoes. As the questioning continued, defendant admitted leaving the house with Castaneda and going to the orange groves, but insisted he had been drunk and had trouble remembering what happened. He conceded it was possible he had shot up a car in the groves without realizing anyone was in it. He said that Castaneda did not have a gun, and he did not think Castaneda had left the car.\nOn the same day that defendant made these statements, investigators flew to Texas and interviewed Castaneda. Castaneda refused to speak without counsel. However, the next day he changed his mind and agreed to a taped interview, giving his account of the Gorman and Creque shootings. He waived extradition and returned to California with the investigators. Castaneda took the officers on the route he and defendant had driven, showing them two locations where he said defendant had tossed spent shell casings. In one of those places, .22-caliber shells were recovered.\nSeveral days later, investigators placed Castaneda in the same jail cell with defendant. Unbeknownst to either of them, their conversation was recorded. There was a telephone in the cell, and defendant was making a call home when Castaneda arrived. He seemed excited to see Castaneda. In conversation with his brother on the phone, defendant told Chucky that \u201cthey got the wrong shoes,\u201d and directed him to call \u201cLittle Mikey\u201d and \u201ctell him to get the fuckin\u2019 rid of that shit.\u201d Castaneda understood this to mean that \u201cMikey\u201d should dispose of the .22-caliber revolver. Defendant also told Castaneda that the police had the wrong shoes, because his mother had thrown out the white Nikes. He said there was no evidence. When Castaneda disagreed, defendant spoke about getting rid of the gun, which was \u201cthe only thing they can use.\u201d\nThe next day, June 29, defendant wrote a letter in which he talked about having a gun, mentioned a girl who was driving him insane, and wrote: \u201cI didn\u2019t give a fuck anymore. I lost it. ... I just got too stressed out, I guess. I flipped out, lost it, went insane. . . . My brother, oh, boy, I\u2019m glad he wasn\u2019t a part of it. ... I shocked everyone. No one can believe what I did.\u201d\nCastaneda had not told the police he had seen defendant with Angelica the night she was murdered, and with her necklace later that night. However, around July 3 he contacted an investigator and provided that information. Castaneda explained that he had not wanted to link himself to another killing, and hoped \u201cthey\u2019d be able to figure it out and piece it together themselves.\u201d Eventually, when defendant had not been charged with Angelica\u2019s murder, he decided to assist them because \u201cit was the right thing to do.\u201d\nOne firearms expert concluded that the same weapon was used to shoot Gorman, Creque, and Angelica. Another found the match probable but not conclusive. Semen was recovered from Angelica\u2019s vagina. Its concentration indicated it had been deposited within three days of her death. DNA testing showed that the random match probability of the semen coming from anyone other than defendant was less than one in a billion.\n2. Defense\nThe defense theory was that Castaneda and Gabriel Delgado had murdered Gorman and Creque, and Castaneda had killed Angelica. Defense counsel challenged Castaneda\u2019s credibility, noting his many felony convictions, and his involvement in other shooting incidents. Counsel also argued that Castaneda was an accomplice to the Gorman and Creque murders, and thus his testimony was suspect and required corroboration. He suggested that Castaneda\u2019s flight to Texas with Veronica reflected his guilt. Counsel contended the shoe print evidence was inconclusive as to size.\nA witness who lived near the orange grove testified for the defense. She awoke at 4:00 a.m. on the day of the Gorman and Creque murders. She thought she had heard gunshots, but may have been dreaming. Based on this testimony, counsel argued that Castaneda had enough time to drive defendant back to the party, then return with Gabriel to the orange grove by 4:00. Counsel argued that Gabriel\u2019s statements about the shootings to the police included many more details than he could have learned from Castaneda, more indeed than Castaneda said he gave Gabriel. Counsel emphasized Gabriel\u2019s attempt to protect Castaneda by telling the police at first that he had heard about the shootings from defendant.\nCounsel conceded that defendant had sex with Angelica, but argued that it was consensual and did not necessarily occur on the night she was killed. He noted that Castaneda had asked Diana Madrid how much Angelica\u2019s diamond ring was worth, shortly before she disappeared. Madrid testified that she told Castaneda it was worth about $1,200. Madrid further testified that a couple of weeks before she disappeared, Angelica had become angry about her sister Veronica\u2019s relationship with Castaneda. She had left the house, upset. Madrid started to go after her, but Castaneda grabbed her keys and said he would bring Angelica back. When they returned about 45 minutes later, Angelica was still upset.\nCounsel also sought to establish that the purse Angelica was carrying on the night she disappeared had been found at the home of Castaneda\u2019s mother. Madrid testified that she saw Angelica with a black-and-white purse on June 16. After Veronica returned from Texas, she had moved into the Castaneda residence. Madrid found Angelica\u2019s purse there when she helped Veronica move a few months later. Counsel noted that pewter figurines found in the impounded Honda were similar to figurines that Angelica collected.\nB. Penalty Phase\n1. Prosecution\nThe prosecutor presented evidence of defendant\u2019s other criminal activity. In May 1991, defendant, Castaneda, and others smashed the window of a truck in a parking lot. In January 1992, defendant went with his father and brother to an apartment complex, looking for someone who had shot at defendant. His father drove a pickup, with defendant in the passenger seat and his brother in the middle. A resident of the complex heard something ram into her door. When she opened the door, she saw a truck close by, with a passenger pointing a gun at her. She closed the door, called the police, and heard gunshots. In a nearby alley, the police found defendant, his father, and his brother in the truck. A .22-caliber pistol with a round in the chamber was under the seat. Defendant had three clips of .22-caliber ammunition in his pocket, one of them with an empty round.\nIn May 1993, a developmentally disabled man was robbed and shot to death in a school parking lot. Defendant told a cellmate he had committed the killing. He remembered the date well because his uncle had died the same day. In September 1993, defendant was part of a group that accosted a homeless couple. They beat and stabbed the man and stole his jacket, sweatshirt, and shirt. When the group was caught, defendant was wearing the man\u2019s shirt. He resisted arrest and was subdued with pepper spray. In October 1994, while in a juvenile rehabilitation program, defendant forced a tentmate to orally copulate him. When confronted, defendant admitted the victim\u2019s allegations. In 1995, shortly before the murders in this case, defendant struck his former girlfriend Armanda Ramirez on two occasions.\nThe jury heard victim impact testimony from Kenneth Gorman\u2019s brother and sister, Ellen Creque\u2019s brother and daughter, and Angelica\u2019s mother and sister.\n2. Defense\nA supervisor at the beverage plant testified that defendant was a very good employee. His probation officer said that defendant was cooperative and well adjusted in normal social settings, but likely to be violent when intoxicated or with peers. Poorly supervised at home, he was a chronic reoffender who required further intervention to avoid criminal activity. A case manager from the juvenile rehabilitation program testified that defendant was cooperative, quiet, and artistic, but frank about intending to return to the gang lifestyle.\nDefendant\u2019s mother testified about his family background. She had separated from his father when the father went to prison. She became involved with a man who fathered her younger daughters, and he mistreated defendant. Eventually she reunified with defendant\u2019s father, who later returned to prison. Defendant\u2019s older brother had been sent to the California Youth Authority. Two of defendant\u2019s sisters testified on his behalf, as did his current girlfriend, who intended to marry him.\nCastaneda also testified for the defense at the penalty phase. He said that defendant had been depressed on the night of the Gorman and Creque shootings, and upset about Armanda Ramirez. It had been Castaneda\u2019s idea to go target shooting in the groves, to relieve defendant\u2019s tension.\nn. DISCUSSION\nA. Pretrial Issues\n1. Denial of Defendant\u2019s Wheeler Motion\nDefense counsel made a Wheeler motion after the prosecutor exercised the 17th of his 20 peremptory challenges. (People v. Wheeler (1978) 22 Cal.3d 258 [148 Cal.Rptr. 890, 583 P.2d 748] (Wheeler).) It was the prosecutor\u2019s fourth challenge of an African-American. The court deferred a hearing on the motion, and jury selection continued. The prosecutor passed the challenge at a point when the panel included two African-Americans. After the defense excused a White candidate, the prosecutor excused the African-American who took the same seat, and the defense excused the next White candidate. The court then heard the Wheeler motion.\nThe argument in support of the motion was perfunctory. To support his claim of racial discrimination, defense counsel noted that when he made the motion, the prosecutor had excused every African-American prospective juror except J.C., who was employed as a school resource officer in a position \u201cakin to law enforcement.\u201d Counsel stated that nine of the 91 prospective jurors in the venire pool had identified themselves as African-American in their questionnaires. (In fact, 10 prospective jurors had done so.) Three of them had yet to be called. Counsel observed that the other African-American presently in the jury box, R.P., had been unsuccessfully challenged for cause by the defense due to her opinions on the death penalty. The court summarily denied the Wheeler motion.\nDefendant contends the court erred by failing to find a prima facie case of discrimination under Wheeler and Batson v. Kentucky (1986) 476 U.S. 79 [90 L.Ed.2d 69, 106 S.Ct. 1712] (Batson). \u201cUnder Wheeler, supra, 22 Cal.3d 258, \u2018[a] prosecutor\u2019s use of peremptory challenges to strike prospective jurors on the basis of group bias\u2014that is, bias against \u201cmembers of an identifiable group distinguished on racial, religious, ethnic, or similar grounds\u201d\u2014violates the right of a criminal defendant to trial by a jury drawn from a representative cross-section of the community under article I, section 16 of the state Constitution. [Citations.]\u2019 (People v. Lewis and Oliver (2006) 39 Cal.4th 970, 1008 [47 Cal.Rptr.3d 467, 140 P.3d 775].) \u2018Such a practice also violates the defendant\u2019s right to equal protection under the Fourteenth Amendment. [Citations.]\u2019 (Ibid., citing Batson, supra, 476 U.S. at p. 88.)\u201d (People v. Hawthorne (2009) 46 Cal.4th 67, 77-78 [92 Cal.Rptr.3d 330, 205 P.3d 245] (Hawthorne).)\n\u2022 The applicable procedure is now well established. \u201cFirst, the defendant must make out a prima facie case \u2018by showing that the totality of the relevant facts gives rise to an inference of discriminatory purpose.\u2019 [Citations.] Second, once the defendant has made out a prima facie case, the \u2018burden shifts to the State to explain adequately the racial exclusion\u2019 by offering permissible race-neutral justifications for the strikes. [Citations.] Third, \u2018[i]f a race-neutral explanation is tendered, the trial court must then decide . . . whether the opponent of the strike has proved purposeful racial discrimination.\u2019 [Citation.]\u201d (Johnson v. California (2005) 545 U.S. 162, 168 [162 L.Ed.2d 129, 125 S.Ct. 2410], fn. omitted; see also Hawthorne, supra, 46 Cal.4th at p. 78.)\nHere, as in Hawthorne, defendant contends reversal is required because the trial court presumably applied the Wheeler standard, requiring the defense to show a \u201cstrong likelihood\u201d that a juror was challenged on the basis of group bias. (Wheeler, supra, 22 Cal.3d at p. 280; see Hawthorne, supra, 46 Cal.4th at p. 79.) \u201cThe high court later disapproved that standard for purposes of a defendant\u2019s establishing a prima facie case. (Johnson v. California, supra, 545 U.S. at pp. 166-168.) Under Batson, the court stated, the prima facie burden is simply to \u2018producfe] evidence sufficient to permit the trial judge to draw an inference that discrimination has occurred.\u2019 (Johnson v. California, at p. 170.)\u201d (Hawthorne, at p. 79.)\nWhen we cannot be sure the trial court applied the correct standard, we review the record independently to resolve the legal question whether the record supports an inference that the prosecutor excused a juror on the basis of race. (Hawthorne, supra, 46 Cal.4th at p. 79; People v. Bonilla (2007) 41 Cal.4th 313, 342 [60 Cal.Rptr.3d 209, 160 P.3d 84].) It is the defendant\u2019s burden to make a prima facie showing on this point, and to that end the defendant should make as complete a record of the facts and circumstances as possible. (Batson, supra, 476 U.S. at p. 96; Hawthorne, at p. 79.) Here, the record made by defense counsel does not support an inference of discrimination.\nAs noted, in the trial court defendant relied entirely on the fact that the prosecutor had excused four of the first five African-Americans called to the jury box. Under the circumstances before the court, however, this showing did not raise an inference of racial discrimination. There were two African-Americans on the panel by the time the motion was heard, J. C. and R.P. Defense counsel claimed the prosecutor had not challenged J.C. because he was sympathetic to law enforcement, and had passed R.P. because she favored the death penalty. This argument, however, tended to show that the prosecutor was motivated by the candidates\u2019 individual views instead of their race. The prosecutor\u2019s acceptance of a panel including these African-American prospective jurors, while not conclusive, was \u201can indication of the prosecutor\u2019s good faith in exercising his peremptories, and ... an appropriate factor for the trial judge to consider in ruling on a Wheeler objection . . . .\u201d (People v. Snow (1987) 44 Cal.3d 216, 225 [242 Cal.Rptr. 477, 746 P.2d 452]; accord, People v. Huggins (2006) 38 Cal.4th 175, 236 [41 Cal.Rptr.3d 593, 131 P.3d 995]; People v. Reynoso (2003) 31 Cal.4th 903, 926 [3 Cal.Rptr.3d 769, 74 P.3d 852].)\nDefendant notes that when the Wheeler motion was argued, the prosecutor had exercised peremptory challenges against 71 percent of the African-American candidates who had been seated in the jury box (five of seven). He compares this figure with the 27 percent of White candidates excused by the prosecutor (nine of 33). However, because defense counsel had peremptorily challenged 17 White prospective jurors, the number remaining for challenge by the prosecutor was only 16. Thus, the prosecutor challenged 56 percent of the Whites who were not removed by the defense, and together the attorneys had excused 79 percent of the White candidates (26 of 33).\nDefendant\u2019s statistical analysis does not raise an inference of racial discrimination. The numbers are subject to a variety of interpretations, by one of which Whites were actually underrepresented on the panel as compared to African-Americans. Defendant calculates that when the court heard the Wheeler motion, there had been 48 available candidates after challenges for cause and excus\u00e1is for hardship. Accepting this figure, African-Americans were represented on the panel in a proportion roughly equal to their representation in the candidate pool: two of 12, or 17 percent of the panel, as compared to seven of 48, or 15 percent in the pool. Whites, on the other hand, were only 58 percent of the panel (seven of 12), though they made up 69 percent of the available candidates (33 of 48).\nDefendant devotes considerable space in his brief to exploring the questionnaires of the five African-American candidates peremptorily challenged by the prosecutor. Defendant could have presented but did not present any argument based on these questionnaires in the trial court. He based his Wheeler motion entirely on the number of peremptory challenges against African-Americans, referring to responses on the jury questionnaires only to argue that the two African-American jurors currently in the box were likely to be favorably disposed toward the prosecution. In any event, we have examined the questionnaires of the candidates in question. They do not justify an inference of discrimination.\nOne of these prospective jurors, T.A., was strongly opposed to the death penalty. Another, O.B., had been treated badly by Los Angeles police officers while waiting at a bus stop, and wrote that he would not apply the same standards in evaluating testimony by peace officers as he would for other witnesses. G.C., while a supporter of the death penalty, expressed reluctance to resolve conflicts in the evidence and discomfort with scientific evidence. G.C. failed to answer hypothetical questions regarding penalty deliberations. Upon questioning by the court, G.C. said he could listen to scientific evidence and discuss it with fellow jurors. He provided oral answers to the hypotheticals. He was hesitant, however, about his ability to refrain from discussing the case with persons outside the jury.\nK.W. was also unwilling to resolve conflicts in the evidence, believing that was \u201cthe lawyers\u2019 job.\u201d When the court explained the jury\u2019s role to her, however, she affirmed that she could perform it. K.W. had a third cousin who had been convicted of murder, but felt she was treated fairly by the justice system. J.B., a supporter of the death penalty who believed it was imposed \u201ctoo seldom,\u201d gave no responses in her questionnaire that would plainly appear to have given a prosecutor pause, though she said that if a back problem were to recur she might have difficulty serving. J.B., who worked at a Veterans Health Administration hospital, also noted that she might be distracted as a juror if she \u201chear[d] grief from work\u201d about being away for a long period.\nO.B.\u2019s bias against police officers, G.C.\u2019s failure to complete the questionnaire and his hesitance over evidentiary questions and the confidentiality of deliberations, and K.W.\u2019s initial unwillingness to resolve evidentiary conflicts were all matters that could legitimately give an advocate pause. J.B.\u2019s medical condition and work concerns did not appear to be serious impediments to her service, and the prosecutor had earlier accepted a panel that included her. Her eventual dismissal did not fit into a pattern of discrimination against African-American candidates for the jury, two of whom had been accepted by the prosecutor shortly before the Wheeler motion was heard. A single questionable challenge in such circumstances does not raise an inference of discrimination by the prosecutor. (Cf. People v. Williams (2006) 40 Cal.4th 287, 313 [52 Cal.Rptr.3d 268, 148 P.3d 47] .)\nDefendant also asserts that the prosecutor\u2019s failure to engage the African-American prospective jurors in extensive questioning during voir dire reflects discrimination. Again, defense counsel did not make this claim below. We note that the prosecutor tended to speak to the venire members as a group, and often did not question individual candidates of any race in more than a cursory manner.\nHad defense counsel supported his Wheeler motion with references to the questionnaire and voir dire responses of the prospective jurors excused by the prosecutor, the court could have evaluated them with the benefit of its own observations, and the prosecutor could have explained his reasoning. Counsel may have decided it was not worthwhile to delve into these matters, aware that the prosecutor had just accepted a panel, at a late stage of the selection process, on which African-Americans were proportionally represented. Whatever the case may be, on the record before us we conclude that defendant failed to meet his burden of establishing a prima facie case of discrimination in the prosecutor\u2019s use of peremptory challenges.\n2. Admission of the Taped Conversation with Castaneda\nCastaneda was brought back to California, in custody, on Sunday night, June 25, 1995. He and investigators retraced the route he had driven with defendant on the night Creque and Gorman were killed. During an interview with Detective Michael Eveland, Castaneda implicated defendant in the shootings. Eveland did not expressly ask for Castaneda\u2019s assistance in gathering evidence. Castaneda was nevertheless cooperative, though apprehensive about retaliation. Eveland initially asked the jail authorities not to house defendant and Castaneda together. However, on Tuesday, June 27, he arranged for them to be placed in the same cell, where their conversation was recorded. His plan was to see if defendant would make any incriminating statements, and also to see whether Castaneda would say anything inconsistent with what he had told Eveland. Castaneda was not informed of the arrangement, or asked to question defendant about anything. Defendant did, in fact, make several incriminating statements after Castaneda was placed in a cell with him.\nAs one element of a lengthy pretrial motion to suppress statements made after his arrest, defendant argued briefly that admission of the statements he made in the jail cell with Castaneda would violate his Sixth Amendment right to counsel under Massiah v. United States (1964) 377 U.S. 201 [12 L.Ed.2d 246, 84 S.Ct. 1199]. That argument was properly rejected. \u201cTo prevail on a Massiah claim, a defendant must show that the police and the informant took some action, beyond merely listening, that was designed deliberately to elicit incriminating remarks. [Citations.] \u2018Specifically, the evidence must establish that the informant (1) was acting as a government agent, i.e., under the direction of the government pursuant to a preexisting arrangement, with the expectation of some resulting benefit or advantage, and (2) deliberately elicited incriminating statements.\u2019 [Citation.] The requirement of agency is not satisfied when law enforcement officials \u2018merely accept information elicited by the informant-inmate on his or her own initiative, with no official promises, encouragement, or guidance.\u2019 [Citation.] A preexisting arrangement, however, need not be explicit or formal, but may be inferred from evidence of the parties\u2019 behavior indicative of such an agreement. [Citation.] A trial court\u2019s ruling on a motion to suppress informant testimony is essentially a factual determination, entitled to deferential review on appeal. [Citation.]\u201d (People v. Coffman and Marlow (2004) 34 Cal.4th 1, 67 [17 Cal.Rptr.3d 710, 96 P.3d 30].)\nThe court here found that Castaneda was not a police agent. Defendant renewed his Massiah claim in a general way at trial, objecting to the admission of his taped statements on the grounds previously raised. The court overruled the objection. On appeal, defendant contends the court erred because the record supports an inference that Castaneda was acting as a police agent. His arguments, however, are based on testimony given after the court\u2019s rulings. Our review, of course, is limited to the evidence before the court when it heard the motion. (People v. Garry (2007) 156 Cal.App.4th 1100, 1105, fn. 2 [67 Cal.Rptr.3d 849]; People v. Gibbs (1971) 16 Cal.App.3d 758, 761 [94 Cal.Rptr. 458].) In any event, the evidence defendant relies on fails to show any preexisting arrangement between Castaneda and the police.\nDefendant claims the police told Castaneda that the \u201cdoor was open\u201d for him to help himself, implicitly inviting him to help them convict defendant. This assertion exaggerates the testimony of Detective Allen Paine. Paine said that when he first contacted Castaneda in Texas, Castaneda had declined to speak with him. The following day, Paine visited Castaneda to give him property receipts after the search of the Honda that Castaneda had been driving. He told Castaneda that he would be returning to California, but offered him the opportunity to speak by saying, \u201cmy door is always open.\u201d The following day, Castaneda decided to talk. Nothing in Paine\u2019s testimony suggests he encouraged Castaneda to \u201chelp himself\u2019 or implicate defendant.\nDefendant contends Castaneda was motivated to incriminate him because Castaneda was himself a suspect in the killings, either as the shooter or as an accomplice. The record provides only slight support for this claim, which itself falls short of establishing an agreement with the authorities. Paine testified that he did not tell Castaneda he was a suspect when they spoke in Texas. Castaneda testified that in Texas the police told him they were only interested in him as a witness. They \u201cprobably\u201d told him it would be best for him to talk, and said they did not want to see him prosecuted for something he did not do. However, they did not say he could be charged as an accessory. Castaneda said he changed his mind and decided to talk because he wanted to assist in the investigation, and also desired to return to California.\nCastaneda denied cooperating with the police in order to avoid being charged in the shootings. In response to a question by defense counsel, indefinite as to time, Castaneda admitted he was told it would be in his interest to cooperate with the police. He also said that at some point in June of 1995 he was told he might be charged as an accessory. Castaneda was eventually charged with auto theft, and served a prison term for driving the stolen Honda.\nContrary to defendant\u2019s arguments, the record does not suggest an implicit agreement between Castaneda and the police to elicit incriminating statements from defendant in the jail cell. Castaneda was unaware of the taping arrangement. There is no evidence the police ever prompted him to obtain statements from defendant. He was given no instructions regarding the meeting in the cell or even advance notice that it would take place. The mere fact that Castaneda decided to cooperate with the police did not transform him into a police agent. The court properly admitted the taped statements.\n3. Denial of Severance\nDefendant moved to sever the Gorman and Creque murder charges from the Angelica Delgado murder charges, and the charge of shooting at a dwelling from all the murder charges. He conceded that the offenses belonged to the same class of crimes, thus qualifying for consolidation under section 954. However, he claimed the crimes were unrelated and a joint trial would be unfair. Among the arguments he advanced were that the evidence of the various offenses was not cross-admissible, and that the inflammatory nature of the offenses would prejudice the jury. The prosecutor opposed the motion, arguing that the evidence was cross-admissible as to identity, intent, and plan, and that defendant would not be unduly prejudiced by joinder.\nAt the hearing on the motion, the court was particularly concerned about evidence that the driveby shooting, which occurred before the Gorman and Creque murders, was gang related. It declined to sever the murder charges, but told the prosecutor it would sever the count for shooting at a dwelling unless he agreed not to use the gang evidence. The prosecutor agreed.\nOn appeal, defendant renews his arguments on cross-admissibility and prejudice as to the murder charges. He contends the court\u2019s failure to sever the charges resulted in a fundamentally unfair trial, denying him due process and a reliable penalty determination. These claims are meritless.\n\u201cAs we often have observed, because consolidation or joinder of charged offenses ordinarily promotes efficiency, that is the course of action preferred by the law. [Citations.]\u201d (Alcala v. Superior Court (2008) 43 Cal.4th 1205, 1220 [78 Cal.Rptr.3d 272, 185 P.3d 708] {Alcala).) When, as in this case, the statutory requirements for joinder have been met, a defendant \u201ccan establish error in the trial court\u2019s ruling allowing joint trial . . . only by making a \u2018clear showing of prejudice ....\u2019\u201d {Ibid., original italics.) Denial of a motion for severance amounts to a prejudicial abuse of discretion if the trial court\u2019s ruling falls outside the bounds of reason. {Ibid.) \u201c \u2018The state\u2019s interest in joinder gives the court broader discretion in ruling on a motion for severance than it has in ruling on admissibility of evidence.\u2019 \u201d {Id. at p. 1221.)\n\u201c[W]e consider the record before the trial court when it made its ruling. [Citation.] \u2018The factors to be considered are these: (1) the cross-admissibility of the evidence in separate trials; (2) whether some of the charges are likely to unusually inflame the jury against the defendant; (3) whether a weak case has been joined with a strong case or another weak case so that the total evidence may alter the outcome of some or all of the charges; and (4) whether one of the charges is a capital offense, or the joinder of the charges converts the matter into a capital case.\u2019 [Citations.]\u201d (Alcala, supra, 43 Cal.4th at pp. 1220-1221.)\n\u201cWe frequently have observed that if evidence underlying the offenses in question would be \u2018cross-admissible\u2019 in separate trials of other charges, that circumstance normally is sufficient, standing alone, to dispel any prejudice and justify a trial court\u2019s refusal to sever the charged offenses. [Citations.] Our cases, however, make it clear that complete (or so-called two-way) cross-admissibility is not required. In other words, it may be sufficient, for example, if evidence underlying charge \u2018B\u2019 is admissible in the trial of charge \u2018A\u2019\u2014even though evidence underlying charge \u2018A\u2019 may not be similarly admissible in the trial of charge \u2018B.\u2019 [Citations.]\u201d (Alcala, supra, 43 Cal.4th at p. 1221.)\nOn a motion for severance, the defendant bears the burden of showing that evidence would not have been cross-admissible in a separate trial. (Alcala, supra, 43 Cal.4th at p. 1222, fn. 11.) Here, defendant could not carry that burden. Evidence of the Gorman and Creque murders would have been admissible to show defendant\u2019s intent and plan in the Angelica Delgado murder. To be admissible on the issue of intent, the evidence of the prior killings needed only sufficient similarity to support an inference that defendant probably harbored the same intent when he shot Angelica. (Id. at pp. 1222-1223.) And to prove a common scheme or plan, the evidence need not be unusual or distinctive; it is enough if it supports an inference that the defendant employed the plan in committing the subsequent offense. (Id. at p. 1226.)\nThose standards were satisfied here. Defendant\u2019s premeditation of Angelica\u2019s murder was at issue. His return to the same remote location, at a similar late hour, and with the same gun supported an inference that he deliberately killed Angelica in the same point-blank manner he had killed Gorman and Creque the previous night.\nDefendant fails to establish any other factor demonstrating the need for a severance. He does not claim that a weak case was bolstered by joinder, or that noncapital charges were converted into a capital case. He does argue that consolidation of the charges would tend to inflame the jury. He refers to Castaneda\u2019s testimony that defendant said of Creque, \u201cthe bitch won\u2019t die,\u201d told her, \u201cGod can\u2019t help you now\u201d because \u201cMt. Vernon is here to rob, kill and destroy,\u201d pulled down her shirt, and made sexual comments about her. Regarding Angelica\u2019s murder, defendant claims the facts that she was only 14, and was killed and robbed after a romantic tryst, would have prejudiced the jury with respect to the Gorman and Creque killings. However, both of these incidents were equally offensive. Neither was more inflammatory than the other. The trial court was presented with strong evidence of defendant\u2019s guilt in each case, including Castaneda\u2019s eyewitness account of the Gorman and Creque murders and strong circumstantial and DNA evidence linking defendant to Angelica\u2019s killing. Under these circumstances, the trial court properly rejected defendant\u2019s claims of undue prejudice.\nNor can defendant show actual prejudice amounting to a denial of fundamental fairness. \u201cA pretrial ruling that was correct when made can be reversed on appeal only if joinder was so grossly unfair as to deny due process.\u201d (People v. Stitely (2005) 35 Cal.4th 514, 531 [26 Cal.Rptr.3d 1, 108 P.3d 182].) The factors noted above, bolstered by the shoe print evidence introduced at trial and defendant\u2019s own incriminating statements, closely linked the crimes together. The joint trial provided defendant with due process.\nB. Guilt Phase Issues\n1. Exclusion of Testimony Regarding Castaneda and Angelica\nDuring his cross-examination of Castaneda, defense counsel established that Castaneda was \u201csort of close\u201d to Angelica Delgado, sometimes feeling like she was a sister and sometimes not getting along with her. Counsel asked about an argument in early June 1995. Castaneda remembered that he and Angelica had argued in the presence of her mother. Angelica had run from the house, and Castaneda went after her. He said they did not return to the house together. Instead, Angelica met her mother outside and went somewhere with her. Castaneda denied there was any argument after which he went out to get Angelica and returned to the house with her an hour or two later. He also denied ever having sex with Angelica or threatening her. Counsel questioned Castaneda about his testimony that the night before she disappeared, Angelica had told him she might be pregnant. Castaneda said Angelica did not know who the father might be.\nAngelica\u2019s mother, Diana Madrid, testified as a defense witness. Before her appearance, the prosecutor moved to exclude any testimony regarding an argument between Castaneda and Angelica, after which Angelica left the house and returned in a disheveled state with Castaneda. The prosecutor anticipated that the defense would insinuate Castaneda had raped Angelica, and contended this was \u201cpurely and absolutely speculation and conjecture.\u201d Defense counsel responded that rape was one inference, assault another, and that the evidence was relevant to impeach Castaneda\u2019s testimony denying any such incident. The court agreed that Castaneda\u2019s relationship with Angelica shortly before her death was relevant, but was skeptical about the inferences counsel mentioned.\nDefense counsel said the only further information he had on the incident was that when Angelica returned to the residence, she was very upset, with her makeup smeared and plant debris on her clothing. She told Castaneda, \u201cI\u2019m going to tell my mother.\u201d Castaneda replied, \u201cGo ahead and tell her. There\u2019s nothing she\u2019s going to do about it.\u201d Angelica then said to Madrid, \u201cI can\u2019t tell you right now,\u201d and spent the next two hours in the shower. The court ruled that counsel could show Angelica was upset when she returned, but anything further, and specifically anything about her physical condition, was irrelevant.\nMadrid testified that a couple of weeks before her disappearance, Angelica had become angry about her sister Veronica\u2019s situation, including her involvement with Castaneda. She left the house, and Castaneda took Madrid\u2019s car keys, saying he would bring Angelica back. After about 45 minutes, Castaneda returned with Angelica, who was still upset. The court sustained the prosecutor\u2019s objection to a question about the state of Angelica\u2019s clothing.\nDefendant contends the court abused its discretion by excluding the evidence of Angelica\u2019s appearance and statements upon her return to the house on this occasion, violating his constitutional rights to present a defense. He claims the evidence tended to show that Castaneda had raped or assaulted Angelica, and was relevant not only to impeach Castaneda\u2019s testimony but also to establish a motive for him to have murdered her, and therefore to testify falsely against defendant. Thus, defendant claims, he was deprived of the ability to fully present the theory of his defense.\nDefense counsel, however, did not assert in the trial court that the evidence would have established a motive for murder on Castaneda\u2019s part. He sought to introduce it only for purposes of impeachment, by way of contradicting Castaneda\u2019s denial of the incident. Thus, he forfeited the ground for admission that he advances on appeal. In any event, it is well settled that \u201c ' \u201cevidence of mere motive or opportunity to commit the crime in another person, without more, will not suffice to raise a reasonable doubt about a defendant\u2019s guilt: there must be direct or circumstantial evidence linking the third person to the actual perpetration of the crime.\u201d [Citation.] . . . [S]uch [third party culpability] evidence is subject to exclusion under Evidence Code section 352.\u2019 \u201d (People v. McWhorter (2009) 47 Cal.4th 318, 368 [97 Cal.Rptr.3d 412, 212 P.3d 692].)\nDefendant contends other evidence implicated Castaneda. He notes Madrid\u2019s testimony that Castaneda had inquired about the value of one of Angelica\u2019s rings shortly before her death, and that Angelica\u2019s purse was found at Castaneda\u2019s house. He also observes that Castaneda admitted being present at the Gorman and Creque murders, and left the state abruptly after the crimes. However, the evidence that it was defendant who committed the murders was overwhelming, even when Castaneda\u2019s testimony is set aside. The shoe prints at both scenes matched defendant\u2019s size, not Castaneda\u2019s. Defendant was the one who had Angelica\u2019s jewelry after she disappeared, and it was his DNA that was recovered from her body. He, not Castaneda, made statements implicating himself in the killings during police interviews, in the jail cell conversation with Castaneda, and in the letter he wrote from jail.\nThe evidence of Castaneda\u2019s guilt, on the other hand, was entirely speculative. He had left the state to live with Angelica\u2019s sister Veronica, which tended to negate any inference of an escape attempt. Veronica also provided an alternate explanation for the fact that Angelica\u2019s purse was in her possession.\nFurthermore, the evidence of some sort of altercation between Castaneda and Angelica provided only slight support for a finding that he had a motive for murder. In particular, Castaneda could not have believed he could cover up the incident by killing Angelica, when Madrid was present immediately after the event and heard Angelica\u2019s statements about it. Given the weakness of this evidence of motive and the strength of the evidence against defendant, even if counsel had sought to present Madrid\u2019s testimony to support his third party culpability theory, its partial exclusion would not have prejudiced defendant.\nRegarding the impeachment value of the evidence as it was argued below, it is true that the incident would have provided a more dramatic showing of conflict between Castaneda and Angelica than was presented by Madrid\u2019s trial testimony. \u201cAs with all relevant evidence, however, the trial court retains discretion to admit or exclude evidence offered for impeachment. [Citations.] A trial court\u2019s exercise of discretion in admitting or excluding evidence is reviewable for abuse [citation] and will not be disturbed except on a showing the trial court exercised its discretion in an arbitrary, capricious, or patently absurd manner that resulted in a manifest miscarriage of justice . . . .\u201d (People v. Rodriguez (1999) 20 Cal.4th 1, 9-10 [82 Cal.Rptr.2d 413, 971 P.2d 618]; accord, People v. Brown (2003) 31 Cal.4th 518, 534 [3 Cal.Rptr.3d 145, 73 P.3d 1137].)\nHere, defense counsel was able to contradict Castaneda\u2019s testimony on the dispute with Angelica by presenting Madrid\u2019s partial account of the incident. Moreover, this was hardly a central aspect of Castaneda\u2019s testimony or credibility. Counsel extensively impeached Castaneda with his criminal record, his motives to cooperate with the police, and his delay in reporting that he had seen defendant with Angelica the night she disappeared. Counsel also obtained other significant impeachment evidence from Madrid, who refuted Castaneda\u2019s denial that he ever asked her about the value of Angelica\u2019s diamond ring. Under these circumstances, the court did not abuse its discretion by excluding a part of Madrid\u2019s testimony.\nWe recognize that Castaneda\u2019s credibility was a critical factor at trial, and the excluded testimony would have given the defense an opportunity to cast some suspicion on him, in a general way. However, even if the court\u2019s ruling were deemed erroneous, it would not be prejudicial. Considering the consistent evidence of defendant\u2019s guilt from a variety of sources, the outcome of the trial was not affected by the court\u2019s ruling, either as a matter of reasonable probability under state law (People v. Watson (1956) 46 Cal.2d 818, 836 [299 P.2d 243]), or under the \u201charmless beyond a reasonable doubt\u201d standard for federal constitutional error (Chapman v. California (1967) 386 U.S. 18, 24 [17 L.Ed.2d 705, 87 S.Ct. 824]).\n2. Refusal of Instructions Requested by Defense\na. The Aiding and Abetting Instruction\nDefendant contends the trial court improperly refused various jury instructions requested by defense counsel. First, he challenges the court\u2019s rejection of a version of CALJIC No. 8.27, which explained liability for aiding and abetting a felony murder. Counsel argued below that for purposes of the instructions on accomplice testimony, the jury would have to determine whether Castaneda was an accomplice to one of the charged offenses. Thus, it needed to be told that if Castaneda aided and abetted an attempted robbery of Gorman and Creque, he could also be found to have aided and abetted in their murders under the felony-murder doctrine. Counsel conceded there was no evidence that Castaneda was an accomplice to premeditated murder.\nThe prosecutor opposed the request, arguing that the general instructions on accomplice testimony were sufficient. The court decided not to give the instruction. It agreed there was evidence that might establish Castaneda\u2019s status as an accomplice, but evidently it believed the instructions on the charged offenses were adequate, together with the accomplice testimony instructions.\nOn appeal, defendant argues that without the proposed instruction the jury could not have understood Castaneda\u2019s status as an accomplice to felony murder. He refers to testimony by Detective Barnes that, when interviewed in Texas, Castaneda said defendant had told him he was going to \u201cjack \u2019em\u201d when he left the car to approach the truck where Gorman and Creque were sleeping. If the jury believed defendant expressed that intent, defendant contends Castaneda could have been deemed an accomplice to attempted robbery, and therefore to felony murder.\nHaving found sufficient evidence of Castaneda\u2019s status as an accomplice, the court should have given the instruction proposed by the defense. The felony-murder instruction given to the jury referred only to the \u201cperpetrator\u201d of the crime of robbery. Defense counsel correctly pointed out that further instruction was necessary if the jury was to \u201cmake the leap from aiding and abetting a robbery to aiding and abetting a murder.\u201d The prosecutor argued to the jury that all three murders were felony murders as well as premeditated murders. He contended that Angelica was murdered during a robbery, and Gorman and Creque during an attempted robbery. Under these circumstances, the jury should have been instructed on aiding and abetting liability in connection with the Gorman and Creque murders. The absence of such instruction, however, was clearly harmless.\n\u201cA trial court\u2019s failure to instruct on accomplice liability ... is harmless if there is sufficient corroborating evidence in the record. [Citation.] \u2018Corroborating evidence may be slight, may be entirely circumstantial, and need not be sufficient to establish every element of the charged offense. [Citations.]\u2019 [Citation.] The evidence \u2018is sufficient if it tends to connect the defendant with the crime in such a way as to satisfy the jury that the accomplice is telling the truth.\u2019 [Citation.]\u201d (People v. Lewis (2001) 26 Cal.4th 334, 370 [110 Cal.Rptr.2d 272, 28 P.3d 34]; accord, People v. Brown, supra, 31 Cal.4th at p. 556.)\nHere, the evidence corroborating Castaneda\u2019s testimony was powerful. Shoe prints at the Gorman and Creque murder scene were consistent with his account of the shootings. Shell casings were discovered where Castaneda said defendant threw them from the car, and Creque was found with her shirt pulled down just as Castaneda reported. Defendant\u2019s own statements to the police mirrored Castaneda\u2019s description of the events leading to the shootings. Castaneda\u2019s testimony regarding defendant\u2019s plan to have sex with Angelica in the groves was confirmed by the DNA evidence, and his testimony that defendant had Angelica\u2019s jewelry was consistent with Larissa Gonzalez\u2019s account. Thus, there was ample corroboration, and defendant could not have been prejudiced by the omission of his proposed instruction on accomplice liability for felony murder.\nb. The \u201cPinpoint\u201d Instructions\nNext, defendant challenges the trial court\u2019s rejection of a series of 11 proposed instructions, which he characterizes as \u201cpinpoint\u201d instructions on the defense theory that Castaneda was the killer. \u201cWe have suggested that \u2018in appropriate circumstances\u2019 a trial court may be required to give a requested jury instruction that pinpoints a defense theory of the case .... [Citations.] But a trial court need not give a pinpoint instruction if it is argumentative [citation], merely duplicates other instructions [citation], or is not supported by substantial evidence [citation].\u201d (People v. Bolden (2002) 29 Cal.4th 515, 558 [127 Cal.Rptr.2d 802, 58 P.3d 931]; see also, e.g., People v. Moon (2005) 37 Cal.4th 1, 30 [32 Cal.Rptr.3d 894, 117 P.3d 591].)\nThe court rejected the first 10 of these \u201ctheory of defense\u201d instructions on the ground that they \u201cborderfed] on [the] argumentative\u201d and duplicated the general instruction on witness credibility (CALJIC No. 2.20). Defendant contends these instructions were nonargumentative, proper statements of the law derived from the standard CALJIC instructions ordinarily applicable to defendants, and appropriate here to the defense theory of third party liability. However, an examination of the proposed instructions reveals that most of them were either legally incorrect, unsupported by the evidence, duplicative, or argumentative.\nDefendant\u2019s proposed instruction F, a modification of CALJIC No. 2.03, would have told the jury that false or misleading statements by a witness regarding the crimes charged against the defendant could be considered a circumstance tending to prove the witness\u2019s guilt. Defendant offered no authority below, and provides none here, supporting this notion. The instruction would have told the jury that untruthful testimony about the crimes from any witness could be taken as an indication of that witness\u2019s guilt. This might lead to absurd results. For example, the jury might conclude that Diana Madrid had lied about the purse Angelica was carrying on the night of her murder. Veronica Delgado contradicted Madrid on this point, saying Angelica had left the purse at the Castaneda house earlier. Defendant\u2019s proposed instruction would have informed the jury that it could consider Madrid\u2019s testimony as evidence she had killed her daughter. There is no basis in reason for such an inference.\nSimilarly, defendant\u2019s proposed instructions G and H, based on CALJIC Nos. 2.04 and 2.06, stated that attempts by a witness to persuade another witness to testify falsely, fabricate evidence, or suppress evidence concerning the charged crimes could be considered circumstances tending to prove the witness\u2019s guilt as a murderer. Again, neither logic nor authority supports these instructions. Nor has defendant identified any attempts by Castaneda to suborn perjury or to fabricate or suppress evidence.\nDefendant\u2019s proposed instruction J, modeled on CALJIC No. 2.15, would have allowed the jury to infer from an individual\u2019s possession of recently stolen property, together with corroborating evidence, that the individual stole the property. Defendant does not explain the factual basis for this proposed instruction, though he claims in passing that Castaneda was found in possession of the purse Angelica was carrying on the night she was murdered. Madrid did testify that she found the purse at the Castaneda house when she helped Veronica move, three to five months after the murder. However, it is questionable whether the purse qualified as \u201crecently\u201d stolen property, or whether Castaneda possessed it, since Madrid said she found it among Veronica\u2019s belongings. Moreover, defendant refers to no evidence corroborating a theft by Castaneda. Accordingly, this proposed instruction was not supported by substantial evidence.\nDefendant\u2019s proposed instructions K and L were presented as variations of CALJIC No. 2.21.2, an instruction that was given by the court. Proposed instruction K stated: \u201cIn judging the statement made by any witness who testified against the defendant, if you should have any reasonable doubt as to the credibility or truthfulness of any such statement, you must resolve that doubt in favor of the defendant, and find such statement to be untrue.\u201d This proposal added little to the general instruction on reasonable doubt. It is too vague to be considered a pinpoint instruction, and does not support defendant\u2019s third party liability theory. Defendant offers no specific argument in support of this proposed instruction, and fails to demonstrate any error in its omission.\nProposed instruction L stated: \u201cIf you should find that during the course of this trial a witness\u2019 testimony was willfully false or deliberately misleading, in whole or in part, you may consider such testimony in assessing the witness\u2019 credibility. Such evidence of a witness\u2019 false or misleading testimony may not be considered as a circumstance tending to prove the guilt of the defendant. [j[] The weight and significance of such evidence, if any, are matters for your determination.\u201d The only argument defendant offers in support of this proposal is that it would have allowed the jury to consider a witness\u2019s false statements in assessing his or her credibility, a point covered by CALJIC No. 2.21.2 (see fn. 33, ante). No error appears.\nProposed instruction M, based on CALJIC No. 2.51, stated: \u201cMotive is not an element of the crimes charged and need not be shown. However, you may consider motive or lack of motive as a circumstance in this case. Presence of motive in the defendant or another person may tend to establish that person\u2019s guilt. Absence of motive in the defendant may tend to establish his innocence. You will therefore give its presence or absence, as the case may be, the weight to which you find it to be entitled.\u201d Defendant contends there was evidence that Castaneda had argued with Angelica about Castaneda\u2019s relationship with Veronica not long before Angelica was murdered. However, assuming this evidence suggested a motive for murder on Castaneda\u2019s part (see pt. ELB.L, ante), defendant\u2019s proposed instruction was improperly argumentative. It advised the jury that absence of motive might tend to establish the defendant\u2019s innocence, but not the innocence of the other person mentioned in the instruction. The court properly rejected this proposal.\nProposed instruction N, based on CALJIC No. 2.52, stated: \u201cThe flight of a person immediately after the commission of a crime, although not sufficient to establish guilt, is a fact which, if proved, may be considered by you in the light of all other proved facts in judging the testimony, credibility, and culpability of the witness. The weight to which this circumstance is entitled is a matter for your determination.\u201d Defendant argues that Castaneda\u2019s flight to Texas with Veronica the day after Angelica was killed supported this proposed instruction. Any error in omitting this instruction was clearly harmless, however. The logic of the inference it described was plain, and was argued to the jury by counsel. Moreover, the facts that Castaneda left with Angelica\u2019s sister, and promptly set out to return to California upon hearing about the murder, undermined any inference that the trip to Texas was an attempt to escape reflecting consciousness of guilt.\nProposed instruction O was based on CALJIC No. 2.62, which informs the jury that it may consider a defendant\u2019s failure to deny or explain incriminating evidence as tending to indicate the truth of the evidence. However, defendant\u2019s proposal was confused, substituting \u201cwitness\u201d for \u201cdefendant\u201d in the standard instruction but stating that the failure to explain or deny would indicate the truth of the witness\u2019s testimony, rather than the truth of the incriminating evidence. This was presumably not the inference defendant wanted the jury to draw. In any event, the instruction was not supported by the evidence. Even if it might properly be applied to witness testimony, a conclusion we do not reach, defendant fails to identify any failure on Castaneda\u2019s part to deny or explain evidence tending to incriminate him. To the contrary, Castaneda\u2019s testimony about his actions was comprehensive, detailed, and responsive during cross-examination.\nProposed instructions I and Z addressed defendant\u2019s third party liability theory. Instruction I stated, in pertinent part: \u201cIf the evidence presented in this case convinces you beyond a reasonable doubt that the defendant is guilty, you should so find, even though you may believe that one or more other persons are also guilty. [][] On the other hand, if you entertain a reasonable doubt of the defendant\u2019s guilt after an impartial consideration of the evidence presented in the case, including any evidence of the guilt of another person or persons, it is your duty to find the defendant not guilty.\u201d\nProposed instruction Z stated: \u201cEvidence has been presented during the course of this trial indicating or tending to prove that someone other than the defendant committed, or may have had a motive and opportunity to commit, the offense(s) charged. In this regard, it is not required that defendant prove this fact beyond a reasonable doubt, [f] The weight and significance of such evidence are matters for your determination. If after consideration of all of the evidence presented, you have a reasonable doubt that the defendant committed the offense(s) charged, you must give the defendant the benefit of the doubt and find him not guilty.\u201d\nWe have noted that similar instructions add little to the standard instruction on reasonable doubt. (People v. Wright (1988) 45 Cal.3d 1126, 1134 [248 Cal.Rptr. 600, 755 P.2d 1049].) We have also held that even if such instructions properly pinpoint the theory of third party liability, their omission is not prejudicial because the reasonable doubt instructions give defendants ample opportunity to impress upon the jury that evidence of another party\u2019s liability must be considered in weighing whether the prosecution has met its burden of proof. (People v. Ledesma (2006) 39 Cal.4th 641, 720-721 [47 Cal.Rptr.3d 326, 140 P.3d 657]; People v. Earp (1999) 20 Cal.4th 826, 887 [85 Cal.Rptr.2d 857, 978 P.2d 15].)\nHere, defendant\u2019s proposed instruction I simply restated the reasonable doubt standard in connection with the possibility that one or more others might be guilty parties. The omission of this instruction, if error, could not have affected the verdict. It is hardly a difficult concept for the jury to grasp that acquittal is required if there is reasonable doubt as to whether someone else committed the charged crimes. The closing arguments focused the jury\u2019s attention on that point. Defendant\u2019s proposed instruction Z was unduly argumentative, because it told the jury that evidence \u201cindicated] or tend[ed] to prove that someone other than the defendant committed, or may have had a motive and opportunity to commit, the offense(s) charged.\u201d It is improper for an instruction to indicate an opinion favorable to the defendant regarding the effect of the evidence. (People v. Wright, supra, 45 Cal.3d at p. 1135.)\n3. Admission of Evidence That Defendant Shaved \u201c187\u201d into His Hair\nDefense counsel objected to the admission of testimony by a sheriff\u2019s deputy that defendant, while incarcerated pending trial, had shaved \u201c187\u201d into his hair. The prosecutor responded that this reference to the Penal Code section for the crime of murder was an implicit admission on defendant\u2019s part. Defense counsel argued that it could just as well reflect only the charges against his client. He claimed the testimony would be unduly prejudicial. The trial court acknowledged that there might be an innocent explanation, and that the probative weight of the evidence was \u201cde minimis.\u201d However, it declined to exclude the testimony, finding it relevant and not prejudicial.\nThe deputy testified that in October 1995 he was working in a jail housing unit. One morning when defendant appeared for breakfast, the deputy noticed that he had the number \u201c187\u201d shaved on the top of his head, in a Mohawk-style strip of hair. The deputy was too busy to take a picture, and by the time he obtained a camera, defendant had shaved his entire head. The deputy prepared a memorandum on the incident and forwarded it to the prosecutor.\nDefendant claims this evidence was irrelevant, speculative, and highly prejudicial. To the contrary, as the trial court noted, the evidence was relevant and not particularly prejudicial. (See People v. Ochoa (2001) 26 Cal.4th 398, 438 [110 Cal.Rptr.2d 324, 28 P.3d 78] [\u201c187\u201d tattooed on defendant\u2019s forehead manifested consciousness of guilt].) The deputy\u2019s testimony was very brief. Although defendant claims the prosecutor relied on this incident to argue defendant\u2019s guilt of the murders, he refers only to a brief portion of the penalty phase argument in which the prosecutor noted the incident as an example of defendant\u2019s cockiness. No error appears.\n4. CALJIC Nos. 2.03 and 2.06\nThe court gave CALJIC No. 2.03, on false statements, and CALJIC No. 2.06, on attempts to suppress evidence, as factors tending to show consciousness of guilt. Defense counsel objected to CALJIC No. 2.03 on the ground that the evidence did not support it. He gave no grounds for his objection to CALJIC No. 2.06. On appeal, he argues at length that these instructions were unnecessary and argumentative, and allowed the jury to draw irrational inferences. We have repeatedly rejected these claims, and do so again here. (People v. Holloway (2004) 33 Cal.4th 96, 142 [14 Cal.Rptr.3d 212, 91 P.3d 164]; see also, e.g., People v. Geier (2007) 41 Cal.4th 555, 589 [61 Cal.Rptr.3d 580, 161 P.3d 104] [CALJIC No. 2.03]; People v. Cash (2002) 28 Cal.4th 703, 740 [122 Cal.Rptr.2d 545, 50 P.3d 332] [CALJIC No. 2.06].)\n5. Instructions Assertedly Bearing on Reasonable Doubt\nDefendant renews other arguments we have often dismissed concerning the impact of certain instructions on the reasonable doubt standard. No objection was made below. Defendant\u2019s claims are again unpersuasive. CALJIC Nos. 2.01 and 2.02, on circumstantial evidence, do not undermine the standard of proof beyond a reasonable doubt, nor do CALJIC Nos. 2.21.2, 2.22, and 2.27, on witness testimony. (E.g., People v. Cook (2007) 40 Cal.4th 1334, 1361 [58 Cal.Rptr.3d 340, 157 P.3d 950]; People v. Rogers (2006) 39 Cal.4th 826, 888-889 [48 Cal.Rptr.3d 1, 141 P.3d 135].) Defendant further contends that the premeditated murder instruction, CALJIC No. 8.20, might suggest the defendant must eliminate the possibility of premeditation, because it is phrased in terms of conditions \u201cprecluding the idea of deliberation.\u201d Nothing in the instruction, however, indicates that the defense bears any burden of persuasion. \u201cThere is no reasonable likelihood that any jury would misconstrue this instruction as lessening the prosecution\u2019s burden of proof in any respect.\u201d (People v. Crew (2003) 31 Cal.4th 822, 848 [3 Cal.Rptr.3d 733, 74 P.3d 820].)\nC. Penalty Phase Issues\n1. Admission of Evidence of Assault in Aggravation\nDuring the penalty phase, and over defendant\u2019s objection, the court permitted the prosecutor to introduce evidence of an assault with a deadly weapon committed by defendant with his father and brother. Defendant contends the evidence at trial was insufficient to establish the offense, and therefore the incident should not have been presented to the jury as an aggravating factor under section 190.3, factor (b). He also claims the jury instruction on the elements of assault with a deadly weapon was defective.\nThe sufficiency of the evidence argument is meritless. Defendant\u2019s father, Joseph Hartsch, testified that in January 1992 he drove to an apartment complex with defendant and defendant\u2019s brother Chucky. They were looking for an individual known as \u201cHalf Man,\u201d who had recently shot at defendant and some companions. Joseph said he intended to \u201cconfront him on his threats and whatnot.\u201d When they arrived at the complex, Joseph drove into the yard in front of the apartments and yelled for \u201cHalf Man\u201d to come out. Defendant was seated on the passenger side, with Chucky in the middle of the bench seat. There was a handgun under the seat, and an ammunition clip in the glove compartment. No shots were fired. When officers detained them behind the complex, Joseph lied and told them he was looking for someone named Tommy Gomez.\nChucky also testified that defendant was on the passenger side of the truck. Joseph had fired the gun into the air once or twice. A woman had stuck her head out of an apartment, and \u201cwe were like mad people, so we probably said something to her.\u201d Defendant had the clip from the gun, but he did not fire the weapon.\nMary Palacio testified that on the night in question she heard something ram the front door of her apartment. When she opened the door, she saw a truck not far from the door, and a person seated on the passenger side pointing a gun at her. She slammed the door and called the police. The people in the truck left, yelling \u201cbad words.\u201d Shortly thereafter, she heard \u201cabout two\u201d gunshots.\nAn officer testified that he responded to a \u201cshots fired\u201d call that night, and found the Hartsches in a truck parked nearby. Another officer testified that a handgun was recovered from beneath the passenger seat, with a bullet chambered. A third officer said that he searched defendant and found three magazine clips in his jacket pocket.\nDefendant claims there was no evidence he pointed the gun at the victim. But the testimony clearly established that he was sitting on the passenger side of the truck, and that the person seated there had pointed a gun at the victim.\nRelying on People v. Williams (2001) 26 Cal.4th 779, 788 [111 Cal.Rptr.2d 114, 29 P.3d 197], defendant argues there was no showing he knew that his actions that night would probably and directly result in a battery. However, he concedes that pointing a gun at someone in a menacing manner is sufficient to establish the requisite mental state. (People v. Raviart (2001) 93 Cal.App.4th 258, 266-267 [112 Cal.Rptr.2d 850]; see People v. Chance (2008) 44 Cal.4th 1164, 1175 [81 Cal.Rptr.3d 723, 189 P.3d 971].) Here, defendant pointed a gun at Mary Palacio under threatening circumstances. Finally, defendant asserts the evidence was insufficient to show that he aided and abetted an assault. However, there was ample evidence that he was a perpetrator.\nAs for the claim of instructional error, defendant notes that since Williams had not yet been decided, the jury was not informed that he had to know that his actions would \u201cprobably and directly result in physical force being applied to another . . . .\u201d (People v. Williams, supra, 26 Cal.4th at p. 788.) But as we observed in Williams, this omission is not likely to be prejudicial because \u201ca defendant\u2019s knowledge of the relevant factual circumstances is rarely in dispute.\u201d (Id. at p. 790; see People v. Miller (2008) 164 Cal.App.4th 653, 663-664 [78 Cal.Rptr.3d 918].) That is the case here. The jury would have understood that defendant had the \u201cactual knowledge\u201d required by Williams when he pointed the gun at Palacio. (Williams, at p. 788.)\n2. The Victim Impact Evidence\nDefendant contends the victim impact testimony exceeded the constitutional bounds imposed by Payne v. Tennessee (1991) 501 U.S. 808 [115 L.Ed.2d 720, 111 S.Ct. 2597] (Payne). He asserts that under Payne, victim impact evidence should be limited to one witness per victim, and describe only the effects of the crime on a family member present at the murder scene. Further, he claims the evidence should include only those effects that were known or reasonably apparent to the defendant when he committed the crime, or that were properly introduced during the guilt phase. Defendant also argues that these limitations are necessary to restrict victim impact evidence to the \u201ccircumstances of the crime\u201d permitted as aggravating evidence by section 190.3, factor (a). These claims are manifestly meritless.\nDefendant derives his constitutional arguments from the circumstance that in Payne, there was only one victim impact witness who described the effect of the murders on a child who was present at the scene of the crime and suffered serious injuries himself. (See Payne, supra, 501 U.S. at pp. 814-815.) The Payne court, however, did not restrict its holding to the circumstances there presented. To the contrary, it noted at the outset of its analysis that \u201c[w]hatever the prevailing sentencing philosophy, the sentencing authority has always been free to consider a wide range of relevant material.\u201d (Payne, at pp. 820-821.) And the court stated its holding in broad terms: \u201cWe thus hold that if the State chooses to permit the admission of victim impact evidence and prosecutorial argument on that subject, the Eighth Amendment erects no per se bar. A State may legitimately conclude that evidence about the victim and about the impact of the murder on the victim\u2019s family is relevant to the jury\u2019s decision as to whether or not the death penalty should be imposed. There is no reason to treat such evidence differently than other relevant evidence is treated.\u201d (Id. at p. 827.)\nThus, Payne does not support the narrow limitations urged by defendant. It gave considerable latitude to state law in the admission of victim impact evidence. \u201cThe States remain free, in capital cases, as well as others, to devise new procedures and new remedies to meet felt needs. Victim impact evidence is simply another form or method of informing the sentencing authority about the specific harm caused by the crime in question, evidence of a general type long considered by sentencing authorities.\u201d (Payne, supra, 501 U.S. at pp. 824-825.) Consistent with Payne, we have held that \u201c[u]nless it invites a purely irrational response from the jury, the devastating effect of a capital crime on loved ones and the community is relevant and admissible as a circumstance of the crime under section 190.3, factor (a).\u201d (People v. Lewis and Oliver, supra, 39 Cal.4th at pp. 1056-1057.) We have specifically rejected defendant\u2019s claims that only impacts on those present at the murder, and those known or foreseeable by the defendant, are properly admitted. (Id. at p. 1057; People v. Brown (2004) 33 Cal.4th 382, 397-398 [15 Cal.Rptr.3d 624, 93 P.3d 244]; People v. Pollock (2004) 32 Cal.4th 1153, 1183 [13 Cal.Rptr.3d 34, 89 P.3d 353].) Nor do defendant\u2019s references to policies followed in other states persuade us that victim impact evidence should be limited to one witness for each victim.\nDefendant\u2019s statutory argument is equally unconvincing. Nothing in the \u201ccircumstances of the crime\u201d terms of section 190.3, factor (a) indicates that testimony should be limited to a single witness per victim. Furthermore, we have consistently interpreted this factor to include impacts on persons not present at the crime scene, and circumstances unknown and not specifically foreseeable by the defendant. (People v. Lewis and Oliver, supra, 39 Cal.4th at p. 1057.) We have also rejected defendant\u2019s claim that our interpretation is unconstitutionally vague. (Ibid.)\nDefendant does not argue that the victim impact testimony in his case was particularly inflammatory. Rather, he claims some of it was too far removed from the circumstances of the crime to qualify as proper victim impact testimony. He complains about testimony from Gorman\u2019s brother regarding Gorman\u2019s molestation by a foster parent when he was a child, and his courage in testifying against the abuser. Defendant also objects to testimony from Creque\u2019s daughter about the quality of Creque\u2019s voice and the poetry she wrote for her children. Defense counsel did not object to this testimony, forfeiting any claim of error. In any event, the witnesses\u2019 brief comments on these aspects of the victims\u2019 characters were relevant to show the effect of the deaths on close family members, and the nature of their loss. Defendant further contends that evidence of Gorman\u2019s brother\u2019s depression, and Creque\u2019s brother\u2019s relapse into alcoholism, was too remote to be considered a circumstance of the crime. Again, these claims were forfeited by failure to object, and the testimony was brief and reasonably related to the impacts of the murders. (See People v. Wilson (2005) 36 Cal.4th 309, 357 [30 Cal.Rptr.3d 513, 114 P.3d 758].)\n3. Refusal of Instruction on Victim Impact Evidence\nDefendant requested the following instruction regarding the victim impact evidence: \u201cEvidence has been presented for the purpose of showing the specific harm caused by the defendant\u2019s crimes, as it directly relates to the circumstances of the capital offense. Such evidence, if believed, was not received and may not be considered by you to divert your attention from your proper role of deciding whether the defendant should live or die. You must make this decision soberly and rationally, and you may not impose the ultimate punishment of death as a result of an irrational, purely subjective response to emotional evidence and argument. On the other hand, evidence and argument on emotional, though relevant subjects, may provide legitimate reasons to sway you to show mercy towards the defendant.\u201d\nThe trial court declined to give this instruction, observing that it asked the jury to consider the emotional impact of the penalty phase evidence, and telling counsel he was free to make that point in argument. Defendant contends this was error, depriving him of a fair and reliable penalty determination.\nWe found no error in the refusal of a similar instruction in People v. Ochoa, supra, 26 Cal.4th at page 455. There, we held CALJIC No. 8.84.1 sufficient to guide the jury in the same aspect of its penalty deliberations. (Ochoa, at p. 455.) In People v. Harris (2005) 37 Cal.4th 310 [33 Cal.Rptr.3d 509, 118 R3d 545], we held that the trial court properly refused a nearly identical instruction. However, as defendant points out, in Harris another special instruction on victim impact evidence was given at the prosecutor\u2019s request. We deemed that instruction proper, and noted that the trial court properly found the rejected instruction confusing regarding whose emotional response was being addressed, the victim\u2019s family\u2019s or the jurors\u2019. {Id. at pp. 358-359.)\nDefendant\u2019s attempt to support a different conclusion here is unpersuasive. Aside from the reasons identified in Ochoa and Harris, his proposed instruction was argumentative. It discouraged reliance on emotional evidence to support a verdict of death, while encouraging reliance on emotional evidence to show mercy to the defendant. Defendant notes that in other states juries are cautioned against the misuse of victim impact evidence. He argues that if his proposed instruction was defective, the trial court should have given a properly revised version of it. However, \u201c[w]e previously have explained that the standard CALJIC penalty phase instructions \u2018are adequate to inform the jurors of their sentencing responsibilities in compliance with federal and state constitutional standards.\u2019 [Citation.] Moreover, the general rule is that a trial court may refuse a proffered instruction if it is an incorrect statement of law, is argumentative, or is duplicative.\u201d (People v. Gurule (2002) 28 Cal.4th 557, 659 [123 Cal.Rptr.2d 345, 51 P.3d 224]; accord, People v. Brown, supra, 31 Cal.4th at p. 569.) When the instructions given are proper, the court has no obligation to modify a defective proposed instruction.\n4. Refusal of Lingering Doubt Instruction\nThe trial court rejected a proposed instruction on lingering doubt. Defendant claims error under the federal Constitution and state law. We disagree.\nThe United States Supreme Court has held that there is no federal constitutional right to a \u201cresidual doubt\u201d instruction at the sentencing phase of a capital case. (Franklin v. Lynaugh (1988) 487 U.S. 164, 172-174 [101 L.Ed.2d 155, 108 S.Ct. 2320].) Defendant bases his state law claim on People v. Cox (1991) 53 Cal.3d 618 [280 Cal.Rptr. 692, 809 P.2d 351] (Cox). There, after considering the Franklin opinion, this court decided that the California Constitution likewise does not require an instruction on lingering doubt. (Cox, at pp. 677-678.) Defendant, however, relies on a footnote in Cox, which we set out in full to provide necessary context:\n\u201cPeople v. Thompson [(1988)] 45 Cal.3d 86 [246 Cal.Rptr. 245, 753 P.2d 37], does not assist defendant\u2019s argument. In that case, we indicated in dictum, \u2018Had the requested instructions actually asked the jury to consider any lingering doubts about defendant\u2019s intent to kill, despite the sufficiency of evidence to support [the jury\u2019s] special finding, we might seriously consider whether refusal to give such instruction was error. In People v. Terry [(1964) 61 Cal.2d 137 [37 Cal.Rptr. 605, 390 P.2d 381]], we noted a defendant may call upon such doubts in the penalty phase. [Citations.]\u2019 (Id., at pp. 134-135.)\n\u201cHowever, as in Thompson, defendant failed to frame his instruction in a manner that directed the jury to a proper consideration of the lingering doubt question. As a matter of statutory mandate, the court must charge the jury \u2018on any points of law pertinent to the issue, if requested\u2019 (\u00a7 1093, subd. (f); see \u00a7 1127; People v. Thompkins (1987) 195 Cal.App.3d 244, 256-257 [240 Cal.Rptr. 516]); thus, it may be required to give a properly formulated lingering doubt instruction when warranted by the evidence. (See People v. Thompson, supra, 45 Cal.3d at pp. 134\u2014135; People v. Terry, supra, 61 Cal.2d at pp. 145-147.) Nevertheless, this obligation obtains only insofar as the request accurately reflects its supporting authority. While, by logical extrapolation, People v. Terry, supra, 61 Cal.2d 137, may sustain an instruction on lingering doubt as to the nature of the accused\u2019s participation, defendant\u2019s proffered language erroneously prescribed that the jury evaluate this factor in a particular manner. [Citation.] Hence, the trial court did not err in rejecting it.\u201d (Cox, supra, 53 Cal.3d at p. 678, fn. 20, italics added.)\nThe Cox dictum that a lingering doubt instruction may be required as a matter of statutory law, which itself was based on dictum from Thompson, has been put to rest. We have repeatedly held that instruction on lingering doubt is not required by state law, and that the standard instructions on capital sentencing factors, together with counsel\u2019s closing argument, are sufficient to convey the lingering doubt concept to the jury. (E.g., People v. Lewis (2009) 46 Cal.4th 1255, 1314 [96 Cal.Rptr.3d 512, 210 P.3d 1119]; People v. Demetrulias (2006) 39 Cal.4th 1, 42 [45 Cal.Rptr.3d 407, 137 P.3d 229]; People v. Hines (1997) 15 Cal.4th 997, 1068 [64 Cal.Rptr.2d 594, 938 P.2d 388].) Here, as the Attorney General notes, defense counsel did not argue lingering doubt, instead urging the jury to consider defendant\u2019s youth and personal history as reasons to vote against the death penalty.\n5. Denial of Motion to Modify Verdict\nAt the sentencing hearing on November 13, 1998, the court heard argument from counsel on the automatic application to modify the death verdict. (\u00a7 190.4, subd. (e).) The prosecutor briefly urged the court to impose the sentence chosen by the jury, noting the senseless nature of the killings and the remorseless manner in which defendant carried them out, shooting each victim multiple times. Defense counsel, also briefly, asked the court to impose the lesser punishment of life without parole, observing that Castaneda was never charged with any offense for his role and contending it would be disproportionate to sentence defendant to death.\nThe court recited the procedural history of the case, from the filing of charges through the jury\u2019s guilt and penalty verdicts. It then declared: \u201cThereafter, on Friday, November the 13th, 1998, the defendant\u2019s motion for modification of verdict and finding imposing the death penalty was heard by the Court, and said motion was denied. Whereupon defendant\u2019s counsel stated there was no legal cause why sentence should not be pronounced, and the court pronounced the judgment as follows . . . .\u201d After imposing the death penalty and remanding defendant to custody, the court added: \u201cThis is truly something that didn\u2019t have to happen for anyone. It\u2019s ugly for everyone. People don\u2019t take responsibility with what they do anymore. It\u2019s [szc] permeates every level of society. You just don\u2019t get any help at home, friends, neighbors\u2014it\u2019s sad. It\u2019s sad for all of us.\u201d\nDefendant claims the court erred by failing to conduct an independent review of the mitigating and aggravating evidence or to provide reasons for denying modification, as required by section 190.4, subdivision (e). The Attorney General concedes that the court failed to state its reasons, but argues that defendant forfeited this claim of error by failing to object below. The Attorney General is correct. \u201cIf a defendant fails to make a specific objection to the court\u2019s ruling at the modification hearing, the claim is forfeited. (See People v. Riel (2000) 22 Cal.4th 1153, 1220 [96 Cal.Rptr.2d 1, 998 P.2d 969].) This rule applies only to cases in which the modification hearing was conducted after the finality of this court\u2019s decision in People v. Hill (1992) 3 Cal.4th 959, 1013 [13 Cal.Rptr.2d 475, 839 P.2d 984]. (Riel, supra, 22 Cal.4th at p. 1220.) As defendant\u2019s modification hearing was held post-Hill, the forfeiture rule applies here.\u201d (People v. Mungia (2008) 44 Cal.4th 1101, 1140 [81 Cal.Rptr.3d 614, 189 P.3d 880].) \u201c[T]he defendant must bring any deficiency in the ruling to the trial court\u2019s attention by a contemporaneous objection, to give the court an opportunity to correct the error.\u201d (Id. at p. 1141.)\nDefendant contends the court failed to understand its duty of independent review. However, the court heard argument on the application for modification, and is presumed to have understood the governing standard of review. (People v. Crew, supra, 31 Cal.4th at p. 859.) Defendant notes that in proceedings to settle the record, appellate counsel asked if there were other transcripts reflecting the modification proceedings. The court said there were not, and explained that in ruling on the motion it had followed \u201ca script so that I can go through all the machinations\u2014hopefully properly, correctly.\u201d Although the court failed to provide the required reasons, the fact that it followed a script or checklist in announcing its ruling does not show that it failed to independently review the evidence.\nWe note that by any measure, the aggravating evidence, weighed against the mitigating evidence, amply supported the jury\u2019s penalty determination. \u201cIn ruling on the application to modify, the trial court does not make an independent penalty determination, but instead reweighs the evidence of aggravating and mitigating circumstances and then determines whether the weight of the evidence supports the jury verdict. [Citation.]\u201d (People v. Wallace, supra, 44 Cal.4th at p. 1096.)\n6. Challenges to the Death Penalty Law and Instructions\nDefendant raises a series of challenges to California\u2019s death penalty law and the standard CALJIC sentencing instructions. We have consistently rejected these claims, and do so again here. Thus:\n(a) Admission of evidence of prior unadjudicated criminal activity does not violate a defendant\u2019s constitutional rights. Section 190.3, factor (b) is not overbroad; the standards governing proof of charged offenses, including the requirement of jury unanimity, do not apply to other-crimes evidence at a penalty phase; the use of the same jury for the guilt and penalty phases does not deprive the defendant of an impartial jury; expiration of the statute of limitations does not bar the use of prior criminal activity as an aggravating factor; and juvenile misconduct is properly introduced under section 190.3, factor (b). (People v. Harris (2008) 43 Cal.4th 1269, 1315-1316 [78 Cal.Rptr.3d 295, 185 P.3d 727]; see also, e.g., People v. Martinez (2009) 47 Cal.4th 399, 455 [97 Cal.Rptr.3d 732, 213 P.3d 77]; People v. Bunyard (2009) 45 Cal.4th 836, 861 [89 Cal.Rptr.3d 264, 200 P.3d 879].) As in Harris, defendant fails to show that his counsel was prevented from conducting effective voir dire on the other-crimes evidence.\n(b) \u201cThere is no requirement in the federal or the state Constitution that the jury reach a unanimous agreement with respect to the factors in aggravation, that jurors find the factors in aggravation to be true beyond a reasonable doubt, that the jury find beyond a reasonable doubt that the circumstances in aggravation outweigh those in mitigation before imposing the death penalty, or that the jury find beyond a reasonable doubt that death is the appropriate punishment. [Citation.] \u2018We have repeatedly held that the high court\u2019s recent decisions [in Apprendi v. New Jersey (2000) 530 U.S. 466 [147 L.Ed.2d 435, 120 S.Ct. 2348]; Ring v. Arizona (2002) 536 U.S. 584 [153 L.Ed.2d 556, 122 S.Ct. 2428]; and Blakely v. Washington (2004) 542 U.S. 296 [159 L.Ed.2d 403, 124 S.Ct. 2531]] do not compel a different answer.\u2019 \u201d (People v. Carrington (2009) 47 Cal.4th 145, 199-200 [97 Cal.Rptr.3d 117, 211 P.3d 617].) And, \u201c[c]ontrary to defendant\u2019s claim, he was not entitled to an instruction informing the jury that a presumption exists in favor of a sentence less than death. [Citations.]\u201d (People v. Dykes (2009) 46 Cal.4th 731, 817 [95 Cal.Rptr.3d 78, 209 P.3d 1].)\n(c) \u201cContrary to defendant\u2019s arguments, the \u2018so substantial\u2019 language [in CALJIC No. 8.88] is not impermissibly vague and ambiguous [citations], nor is the use of the term \u2018warranted\u2019 instead of \u2018appropriate\u2019 [citations].\u201d (People v. Harris, supra, 43 Cal.4th at pp. 1321-1322.) \u201cNor was the court required to instruct the jury that if the aggravating circumstances did not outweigh those in mitigation, a sentence of life without the possibility of parole was mandatory. [Citation.]\u201d (People v. Friend (2009) 47 Cal.4th 1, 90 [97 Cal.Rptr.3d 1, 211 P.3d 520].)\n(d) \u201cSection 190.3, factor (a), is neither vague nor overbroad, and does not impermissibly permit arbitrary and capricious imposition of the death penalty. [Citation.] . . . The court need not delete inapplicable statutory factors [from CALJIC No. 8.85] or designate aggravating and mitigating factors. [Citation.] The use of certain adjectives such as \u2018extreme\u2019 and \u2018substantial\u2019 in the list of mitigating factors in section 190.3 does not render the statute unconstitutional. [Citation.] Written findings regarding the aggravating factors are not constitutionally required. [Citation.] [][] The death penalty law does not deny capital defendants equal protection. [Citation.]\u201d (People v. Friend, supra, 47 Cal.4th at p. 90.)\n(e) \u201cThe absence of intercase proportionality review does not violate the Eighth and Fourteenth Amendments to the United States Constitution. [Citations.]\u201d (People v. Friend, supra, 47 Cal.4th at p. 89.)\n(f) \u201cWe have rejected the contention that the California death penalty scheme violates international law. [Citations.]\u201d (People v. Martinez, supra, 47 Cal.4th at p. 456.)\n7. Cumulative Error\nDefendant claims the cumulative effect of the errors at his trial requires reversal, even if none is prejudicial by itself. However, we conclude that no error affected the guilt or penalty verdict, considered individually or conjunctively.\nIII. DISPOSITION\nWe affirm the judgment.\nGeorge, C. J., Kennard, J., Baxter, J., Werdegar, J., Chin, J., and Moreno, J., concurred.\nAppellant\u2019s petition for a rehearing was denied August 11, 2010. George, C. J., did not participate therein.\nPenal Code sections 187 and 246. Further statutory references are to the Penal Code, unless otherwise specified.\nSections 667, 1192.7, subdivision (c), and 12022.5, subdivision (a).\nSection 190.2, subdivision (a)(3).\nCalifornia Constitution, article VI, section 11; Penal Code section 1239, subdivision (b).\nA spent .22-caliber bullet fell on the hand of one of the occupants as she slept. Another was recovered from the wall of the house.\nAt the penalty phase, there was testimony that defendant was a member of the Mt. Vernon West Side Verdugo gang.\nGabriel testified that he had acquired the revolver in a burglary. He gave it to defendant about a month before the killings, in return for a .22-caliber rifle that Gabriel had borrowed from defendant and lost.\nHer full name was Diana Angelica Delgado. We refer to her as \u201cAngelica,\u201d as did her family members who testified.\nThe prints found at the crime scenes did not match the soles of defendant\u2019s black Nikes.\nCastaneda had six convictions for vehicle theft. He was involved in the shooting of two people in 1989, and admitted brandishing a weapon in 1991. He shot a man in 1993. In 1998, he pleaded guilty to possession of a firearm as a felon.\nCastaneda wore a size 12. The prosecution\u2019s expert testified that a size 12 Nike shoe, of the kind with a chevron pattern matching the prints at the crime scenes, was about an inch longer than a size nine and a half.\nVeronica contradicted her mother\u2019s testimony, saying Angelica had left the purse at the Castaneda residence a few weeks before she disappeared.\nVeronica testified that Castaneda had stolen the figurines from a gift shop on the way to Texas.\nThe prosecutor had also accepted a panel with one African-American member, J.B., at an early stage of the jury selection proceedings. At that point the prosecutor had excused only one other potential juror, a White person. Subsequently, the prosecutor exercised a peremptory challenge against J.B.\nWhen the court heard the motion, seat No. 1 in the jury box was empty, awaiting voir dire of the next candidate pool. For purposes of the statistical snapshot noted above, we assume that seat was occupied by a White juror, as it was when the prosecutor accepted the panel shortly before the Wheeler hearing, and as it was during trial.\nIn Williams, we noted that \u201c[o]ur confidence in the results of appellate comparative analysis is somewhat diminished when there is a \u2018lone questionable peremptory challenge\u2019 and the record reveals \u2018a sound, objectively plausible basis\u2019 for the challenge. [Citation.]\u201d (People v. Williams, supra, 40 Cal.4th at pp. 312-313.) Here, defendant does not resort to comparative analysis, and the objective factors supporting the challenge of J.B. are unclear. However, it is still the case that the challenge of a single apparently qualified prospective juror does not suggest racial discrimination, \u201cparticularly \u2018given the legitimate role that subjective factors may have in a prosecutor\u2019s decision\u2019 to challenge or not challenge jurors peremptorily. [Citation.]\u201d (Williams, at p. 313.)\n\u201cMyriad subtle nuances\u201d not reflected on the record may shape an attorney\u2019s jury selection strategy, \u201cincluding attitude, attention, interest, body language, facial expression and eye contact.\u201d (People v. Lenix (2008) 44 Cal.4th 602, 622 [80 Cal.Rptr.3d 98, 187 P.3d 946].) \u201c[T]he selection of a jury is a fluid process, with challenges for cause and peremptory strikes continually changing the composition of the jury before it is finally empanelled. As we noted in People v. Johnson (1989) 47 Cal.3d 1194[, 1220 [255 Cal.Rptr. 569, 767 P.2d 1047]]: \u2018[T]he particular combination or mix of jurors which a lawyer seeks may, and often does, change as certain jurors are removed or seated in the jury box.\u2019 \u201d (Lenix, at p. 623.)\nWe reiterate that for purposes of developing the appellate record, it is preferable for the trial court to permit the prosecutor to provide justifications for excusing minority group jurors even when the defendant\u2019s prima facie showing is inadequate. (People v. Bonilla, supra, 41 Cal.4th at p. 343, fn. 13; see Hawthorne, supra, 46 Cal.4th at p. 78 [trial court asked prosecutor for explanation \u201c \u2018to protect the record\u2019 \u201d].)\nDefendant did not renew his Wheeler motion, and has thus forfeited any arguments based on subsequent events during the selection process. We note, however, that the prosecutor later accepted another panel including J.C. and R.P., the two African-Americans in the jury box when the motion was heard. Thereafter, defense counsel exercised peremptory challenges against J.C. and R.R The jury that sat for trial was composed of eight Whites, three Hispanics, and one African-American. The four alternates were White; the prosecutor peremptorily challenged two African-Americans and one White candidate, and the defense excused four White candidates.\nDefendant cites the Fifth, Eighth, and Fourteenth Amendments to the federal Constitution, and article I, sections 15, 16, and 17 of the California Constitution. He asserts an equal protection violation as well, but fails to support that claim with any argument.\nIn the trial court, defense counsel obtained a mling that it was unnecessary for him to state constitutional grounds for his objections. As is our usual practice, we resolve defendant\u2019s multiple constitutional claims without separate discussion. Rejection of a claim on its merits necessarily disposes of the additional constitutional \u201cgloss.\u201d (E.g., People v. Wallace (2008) 44 Cal.4th 1032, 1050, fn. 4 [81 Cal.Rptr.3d 651, 189 P.3d 911].)\nDefendant notes that the shoe print evidence introduced at trial was not presented at the preliminary hearing, though it was mentioned by counsel during argument on the severance motion. Even without that evidence, however, the common factors noted above were sufficient to establish cross-admissibility.\nDefendant invokes the Fourth, Sixth, Eighth, and Fourteenth Amendments to the federal Constitution, and article I, sections 7, 13, 15, and 16 of the California Constitution.\nHe asserts error under the Fifth, Sixth, Eighth, and Fourteenth Amendments to the federal Constitution, and article I, sections 7, 13, 15, and 16 of the California Constitution.\nThe proposed instruction read: \u201cIf a human being is killed by any one of several persons engaged in the commission or attempted commission of the crime of robbery, all persons, who either directly and actively commit the act constituting that crime, or who with knowledge of the unlawful purpose of the perpetrator of the crime and with the intent or purpose of committing, encouraging, or facilitating the commission of the offense, aid, promote, encourage, or instigate by act or advice its commission, are guilty of murder of the first degree, whether the killing is intentional, unintentional, or accidental.\u201d\nThe requirement of corroboration is the central aspect of the accomplice testimony instructions. The jury was told: \u201cYou cannot find a defendant guilty based on the testimony of an accomplice unless the testimony is corroborated by other evidence that tends to connect such defendant with the commission of the offense.\u201d\nWhat Castaneda actually said to Barnes in the taped interview was: \u201cHe was already out of the car, he was \u2018I\u2019m going to jack \u2019em, I\u2019m going to jack this, I\u2019m going to jack, just like that, he said I\u2019m going to jack this, I\u2019m going to jack, I\u2019m going to jack this.\u2019 \u201d\nFelony murder was charged as a special circumstance in connection with the Angelica Delgado murder only. The jury found that allegation not true.\nHe claims the court\u2019s error violated his rights under the Fifth, Sixth, Eighth, and Fourteenth Amendments to the federal Constitution, and unspecified provisions of the state Constitution.\nThe jury was given the following version of CALJIC No. 2.20: \u201cEvery person who testifies under oath is a witness. You are the sole judges of the believability of a witness and the weight to be given to the testimony of each witness.\n\u201cIn determining the believability of a witness, you may consider anything that has a tendency in reason to prove or disprove the tmthfiilness of the testimony of the witness, including but not limited to any of the following:\n\u201cThe extent of the opportunity or ability of the witness to see or hear or otherwise become aware of any matter about which the witness has testified;\n\u201cThe ability of the witness to remember or communicate any matter about which the witness has testified;\n\u201cThe character and quality of that testimony;\n\u201cThe demeanor and manner of the witness while testifying;\n\u201cThe existence or nonexistence of a bias, interest, or other motive;\n\u201cThe existence or nonexistence of any fact testified to by the witness;\n\u201cThe attitude of the witness toward this action or toward the giving of testimony;\n\u201cA statement previously made by the witness that is consistent or inconsistent with his or her testimony;\n\u201cAn admission by the witness of untmthfulness;\n\u201cThe witness\u2019s prior conviction of a felony;\n\u201cPast criminal conduct of a witness amounting to a misdemeanor.\u201d\nProposed instruction F stated, in relevant part: \u201cIf you should find that before this trial court a witness made wilfully false or deliberately misleading statements concerning the crime(s) for which the defendant is now being tried, you may consider such statement(s) as a circumstance tending to prove a consciousness of guilt on the part of said witness. Such conduct may be considered by you in light of all other proven facts, in deciding whether or not the defendant\u2019s guilt has been proven beyond a reasonable doubt.\u201d\nProposed instruction G stated, in relevant part: \u201cIf you should find that before this trial court a witness attempted to, or did persuade, another witness to testify falsely or attempted to, or did fabricate, evidence concerning the crime(s) for which the defendant is now being tried, you may consider such conduct as a circumstance tending to prove a consciousness of guilt on the part of said witness. Such conduct may be considered by you in light of all other proven facts, in deciding whether or not the defendant\u2019s guilt has been proven beyond a reasonable doubt.\u201d\nProposed instruction H stated, in relevant part: \u201cIf you should find that before this trial court a witness attempted to, or did suppress evidence concerning the crime(s) for which the defendant is now being tried, you may consider such conduct as a circumstance tending to prove a consciousness of guilt on the part of said witness. Such conduct may be considered by you in light of all other proven facts, in deciding whether or not the defendant\u2019s guilt has been proven beyond a reasonable doubt.\u201d\nProposed instruction J stated, in relevant part: \u201cIf you find that an individual was in conscious possession of recently stolen property, the fact of such possession, together with corroborating evidence tending to prove he committed the theft, is sufficient to permit an inference that he stole the property. The corroborating evidence referenced need only be slight, and need not by itself be sufficient to warrant a finding that he committed the theft.\u201d\nAt trial, defense counsel argued that certain figurines found in the Honda after Castaneda\u2019s arrest belonged to Angelica. Defendant does not mention the figurines on appeal.\nCALJIC No. 2.21.2 provides: \u201cA witness who is willfully false in one material part of his or her testimony is to be distrusted in others. You may reject the whole testimony of a witness who willfully has testified falsely as to a material point unless, from all the evidence, you believe the probability of truth favors his or her testimony in other particulars.\u201d\nProposed instruction O stated, in relevant part: \u201cIf, during the course of this trial, you should find that a witness has failed to explain or deny any evidence which tended to incriminate him, and which he can reasonably be expected to deny or explain because of facts within his knowledge, you may take that failure into consideration as tending to indicate the truth of his testimony and, as indicating that, among the inferences that may reasonably be drawn therefrom, those unfavorable to the witness are the more probable. . . .\u201d\nDefendant refers to the portion of CALJIC No. 8.20 that states: \u201cIf you find that the killing was preceded and accompanied by a clear, deliberate intent on the part of the defendant to kill, which was the result of deliberation and premeditation, so that it must have been formed upon pre-existing reflection and not under a sudden heat of passion or other condition precluding the idea of deliberation, it is murder of the first degree.\u201d\nDefendant claims violation of his rights to due process, a fair trial, and equal protection under the Fifth, Sixth, and Fourteenth Amendments to the federal Constitution, and article I, sections 7, 13, 15, and 16 of the California Constitution.\nAt points in his reply brief, defendant appears to challenge the sufficiency of the prosecution\u2019s proffer of evidence regarding this incident. The proffer, based on a police report, did not include the fact that defendant pointed a gun at Palacio. However, it did include the information that the residents of her apartment heard gunshots and people yelling \u201cshoot, shoot, shoot,\u201d along with gang slogans, as defendant and his father and brother drove around on the lawn, and the subsequent discovery of defendant in the truck with the magazine clips. This showing was sufficient to justify admission of the incident as \u201ccriminal activity by the defendant which involved the use or attempted use of force or violence or the express or implied threat to use force or violence,\u201d under section 190.3, factor (b).\nDefense counsel unsuccessfully objected, on similar grounds, in advance of the victim impact testimony.\nHe claims violation of his rights under the Sixth, Eighth, and Fourteenth Amendments to the federal Constitution, and article I, sections 7, 15, 16, and 17 of the California Constitution.\nCALJIC No. 8.84.1, which was also given in this case, states: \u201cYou must neither be influenced by bias or prejudice against the defendant, nor be swayed by public opinion or public feelings. Both the People and the defendant have a right to expect that you will consider all of the evidence, follow the law, exercise your discretion conscientiously, and reach a just verdict.\u201d\nThe instruction read: \u201cAlthough you have found the defendant guilty of murder in the first degree beyond a reasonable doubt, you may demand a greater degree of certainty for the imposition of the death penalty. The finding of guilt is not infallible and any lingering or residual doubts which you may entertain on the question of his guilt, even though it [sic] does not rise to the level of a reasonable doubt, may be considered by you in determining the appropriate penalty to be imposed.\n\u201cLingering or residual doubt is defined as the state of mind between \u2018beyond a reasonable doubt\u2019 and \u2018beyond all possible doubt.\u2019 Thus, if you have any lingering or residual doubt concerning the defendant\u2019s guilt, you may consider that as a factor in mitigation, upon which to base a sentence of life imprisonment without the possibility of parole.\u201d\nCox\u2019s proposed instruction told the jury that it could consider any lingering doubt over his role as the actual shooter. (Cox, supra, 53 Cal.3d at p. 675.) The Cox court held that this instruction improperly \u201cinvaded the jury\u2019s responsibility to determine whether a particular \u2018circumstance of the crime\u2019 was aggravating, mitigating, or irrelevant and \u2018arbitrarily stressed certain items of evidence.\u2019 [Citation.] The instruction setting forth the list of factors in section 190.3, including factor (k), adequately apprised the jury of the relevant considerations when evaluated in light of the evidence and argument by counsel without disturbing the balance of the weighing process.\u201d (Cox, at pp. 678-679, fn. 21.)\nSection 190.4, subdivision (e) provides in relevant part: \u201cIn every case in which the trier of fact has returned a verdict or finding imposing the death penalty, the defendant shall be deemed to have made an application for modification of such verdict or finding pursuant to Subdivision 7 of Section 11. In ruling on the application, the judge shall review the evidence, consider, take into account, and be guided by the aggravating and mitigating circumstances referred to in Section 190.3, and shall make a determination as to whether the jury\u2019s findings and verdicts that the aggravating circumstances outweigh the mitigating circumstances are contrary to law or the evidence presented. The judge shall state on the record the reasons for his findings.\n\u201cThe judge shall set forth the reasons for his ruling on the application and direct that they be entered on the Clerk\u2019s minutes. . . .\u201d\nDefendant contends the failure to comply with these statutory requirements violated his rights under the Sixth, Eighth, and Fourteenth Amendments to the federal Constitution, and article I, sections 1, 7, 15, 16, and 17 of the state Constitution.\nDefendant cites no specific authority to support his voir dire argument. He complains in particular that counsel was unable to explore the prospective jurors\u2019 attitudes toward his prior crimes involving female victims. We note that \u201ca defendant cannot insist upon questions that are \u2018 \u201cso specific\u201d \u2019 that they expose jurors to the facts of the case, or tempt them to prejudge penalty based on the aggravating and mitigating evidence.\u201d (People v. Carasi (2008) 44 Cal.4th 1263, 1286 [82 Cal.Rptr.3d 265, 190 P.3d 616].) Moreover, here the charged offenses involved two female victims, so the jurors\u2019 attitudes toward crimes against women were equally pertinent to both phases. (Cf. People v. Harris, supra, 43 Cal.4th at p. 1316.)",
+        "type": "majority",
+        "author": "CORRIGAN, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Michael J. Hersek, State Public Defender, under appointment by the Supreme Court, and William Hassler, Deputy State Public Defender, for Defendant and Appellant.",
+      "Edmund G. Brown, Jr., Attorney General, Mary Jo Graves, Chief Assistant Attorney General, Gary W. Schons, Assistant Attorney General, Holly D. Wilkens and Felicity Senoski, Deputy Attorneys General, for Plaintiff and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. S074804.\nJune 28, 2010.]\nTHE PEOPLE, Plaintiff and Respondent, v. CISCO JAMES HARTSCH, Defendant and Appellant.\nCounsel\nMichael J. Hersek, State Public Defender, under appointment by the Supreme Court, and William Hassler, Deputy State Public Defender, for Defendant and Appellant.\nEdmund G. Brown, Jr., Attorney General, Mary Jo Graves, Chief Assistant Attorney General, Gary W. Schons, Assistant Attorney General, Holly D. Wilkens and Felicity Senoski, Deputy Attorneys General, for Plaintiff and Respondent."
+  },
+  "file_name": "0472-01",
+  "first_page_order": 508,
+  "last_page_order": 553
+}

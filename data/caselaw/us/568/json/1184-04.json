@@ -1,0 +1,59 @@
+{
+  "id": 12431597,
+  "name": "Ciota v. United States",
+  "name_abbreviation": "Ciota v. United States",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-8169",
+  "first_page": "1184",
+  "last_page": "1184",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1184"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.646,
+    "sha256": "08cefded896066f2b69d1d17b16c0d1902869417ed3df010c1ea678157fe89d4",
+    "simhash": "1:000819895ad55838",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ciota v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8169.\nCiota v. United States."
+  },
+  "file_name": "1184-04",
+  "first_page_order": 1260,
+  "last_page_order": 1260
+}

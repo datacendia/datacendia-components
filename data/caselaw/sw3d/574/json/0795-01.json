@@ -1,0 +1,79 @@
+{
+  "id": 12659784,
+  "name": "Michael C. MOSES, Appellant, v. STATE of Missouri, Respondent.",
+  "name_abbreviation": "Moses v. State",
+  "decision_date": "2019-05-14",
+  "docket_number": "WD 81374",
+  "first_page": "795",
+  "last_page": "795",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "574 S.W.3d 795"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mo. App. Ct.",
+    "id": 30098,
+    "name": "Missouri Court of Appeals, Western District"
+  },
+  "jurisdiction": {
+    "id": 37,
+    "name_long": "Missouri",
+    "name": "Mo."
+  },
+  "cites_to": [
+    {
+      "cite": "497 S.W.3d 263",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12182019
+      ],
+      "year": 2016,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/497/0263-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 155,
+    "char_count": 1638,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.26512144144311117
+    },
+    "sha256": "90f8d95732d93c3816b2106bb51ee14a3086bc1189ff1998c80898ba3f2c7037",
+    "simhash": "1:4d3c5d845df1e1c6",
+    "word_count": 261
+  },
+  "last_updated": "2024-02-27T16:05:00.629633+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Michael C. MOSES, Appellant,\nv.\nSTATE of Missouri, Respondent."
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM:\nIn May 2015, Michael Moses pleaded guilty in the Circuit Court of Platte County to the class C felony of stealing, for taking merchandise from a Wal-Mart store that had a value of more than $ 500. The circuit court suspended the imposition of sentence, placed Moses on probation, and ordered that he pay restitution in an amount to be determined by the Department of Probation and Parole. In June 2016, Moses admitted to three probation violations. The circuit court revoked his probation, and sentenced him to three years' incarceration, with an obligation to pay the outstanding balance of the restitution award. Moses filed a motion seeking post-conviction relief under Supreme Court Rule 24.035. The circuit court denied the motion following an evidentiary hearing. Moses appeals. He argues that he was erroneously convicted of, and sentenced for, felony stealing, since his offense was only a misdemeanor under the Missouri Supreme Court's decision in State v. Bazell , 497 S.W.3d 263 (Mo. 2016). Moses also argues that the circuit court lacked an evidentiary basis for ordering him to pay restitution. We affirm. Because a published opinion would have no precedential value, we have provided an unpublished memorandum to the parties which sets forth the reasons for this order. Rule 84.16(b).",
+        "type": "majority",
+        "author": "PER CURIAM:"
+      }
+    ],
+    "attorneys": [
+      "Annette M. Wallace, Kansas City for appellant.",
+      "Shaun Mackelprang, Jefferson City for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "Michael C. MOSES, Appellant,\nv.\nSTATE of Missouri, Respondent.\nWD 81374\nMissouri Court of Appeals, Western District.\nFiled: May 14, 2019\nAnnette M. Wallace, Kansas City for appellant.\nShaun Mackelprang, Jefferson City for respondent.\nBefore Division Two: Edward R. Ardini, Jr., P.J., and Alok Ahuja and Gary D. Witt, JJ.\nORDER"
+  },
+  "file_name": "0795-01",
+  "first_page_order": 795,
+  "last_page_order": 795
+}

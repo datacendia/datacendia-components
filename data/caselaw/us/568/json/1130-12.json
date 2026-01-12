@@ -1,0 +1,59 @@
+{
+  "id": 12429514,
+  "name": "Dean v. Texas",
+  "name_abbreviation": "Dean v. Texas",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-7276",
+  "first_page": "1130",
+  "last_page": "1130",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1130"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 68,
+    "ocr_confidence": 0.732,
+    "sha256": "f8acbe47bcd2a4dc948fc5d08a313b07cd0926a053f56e470947652124e687ac",
+    "simhash": "1:00d5d1f415ff75e8",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dean v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tex. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7276.\nDean v. Texas."
+  },
+  "file_name": "1130-12",
+  "first_page_order": 1206,
+  "last_page_order": 1206
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12215138,
+  "name": "Samuels v. United States",
+  "name_abbreviation": "Samuels v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-239",
+  "first_page": "884",
+  "last_page": "884",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 884"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.756,
+    "sha256": "3d1fda02b88f8d890fe022a16e676ab0b59fb2c6c49b17a245b06d45b036bd47",
+    "simhash": "1:d102ab8308531500",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Samuels v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-239.\nSamuels v. United States."
+  },
+  "file_name": "0884-15",
+  "first_page_order": 966,
+  "last_page_order": 966
+}

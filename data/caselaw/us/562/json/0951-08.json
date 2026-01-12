@@ -1,0 +1,61 @@
+{
+  "id": 5998994,
+  "name": "Manna v. Schultz, Warden",
+  "name_abbreviation": "Manna v. Schultz",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11402",
+  "first_page": "951",
+  "last_page": "951",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 951"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 151,
+    "ocr_confidence": 0.599,
+    "sha256": "f5da31ca5b5ed0c7871362efe0ddb1113c12e7d6067246a74562d661d9dc8ead",
+    "simhash": "1:8cb35682fa0eb046",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Alito took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Manna v. Schultz, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.\nJustice Alito took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11402.\nManna v. Schultz, Warden."
+  },
+  "file_name": "0951-08",
+  "first_page_order": 973,
+  "last_page_order": 973
+}

@@ -1,0 +1,59 @@
+{
+  "id": 6023226,
+  "name": "In re Discipline of Rothschild",
+  "name_abbreviation": "In re Discipline of Rothschild",
+  "decision_date": "2010-11-15",
+  "docket_number": "No. D-2577",
+  "first_page": "1039",
+  "last_page": "1039",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1039"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 39,
+    "char_count": 286,
+    "ocr_confidence": 0.573,
+    "sha256": "f92e273baef748a42f5748066775f7195849f56139e67a990b7abccebc1104cf",
+    "simhash": "1:778a21a63ffab7ea",
+    "word_count": 51
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Rothschild."
+    ],
+    "opinions": [
+      {
+        "text": "John David Rothschild, of Sonoma, Cal., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2577.\nIn re Discipline of Rothschild."
+  },
+  "file_name": "1039-07",
+  "first_page_order": 1061,
+  "last_page_order": 1061
+}

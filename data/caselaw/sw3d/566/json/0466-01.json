@@ -1,0 +1,289 @@
+{
+  "id": 12658748,
+  "name": "Christopher SEGERSTROM, Appellant v. STATE of Arkansas, Appellee",
+  "name_abbreviation": "Segerstrom v. State",
+  "decision_date": "2019-02-14",
+  "docket_number": "No. CR-17-829",
+  "first_page": "466",
+  "last_page": "469",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 S.W.3d 466"
+    },
+    {
+      "type": "parallel",
+      "cite": "2019 Ark. 36"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Ark.",
+    "id": 8808,
+    "name": "Arkansas Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 34,
+    "name_long": "Arkansas",
+    "name": "Ark."
+  },
+  "cites_to": [
+    {
+      "cite": "Ark. Code Ann. \u00a7 5-4-401",
+      "category": "laws:leg_statute",
+      "reporter": "Ark. Code Ann.",
+      "weight": 2,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "547 S.W.3d 64",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12656555
+      ],
+      "weight": 8,
+      "pin_cites": [
+        {
+          "page": "71"
+        },
+        {
+          "page": "70"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/547/0064-01"
+      ]
+    },
+    {
+      "cite": "2018 Ark. 179",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "14"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "136 S.Ct. 718",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12601432
+      ],
+      "weight": 2,
+      "year": 2016,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/136/0718-01"
+      ]
+    },
+    {
+      "cite": "2017 Ark. Acts 2615",
+      "category": "laws:leg_session",
+      "reporter": "Ark. Acts",
+      "opinion_index": 0
+    },
+    {
+      "cite": "2015 Ark. 277",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        6860121
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/465/0842-01"
+      ]
+    },
+    {
+      "cite": "2013 Ark. 175",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        6948164
+      ],
+      "weight": 8,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/426/0906-01"
+      ]
+    },
+    {
+      "cite": "2018 Ark. 353",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        12658387
+      ],
+      "weight": 8,
+      "pin_cites": [
+        {
+          "page": "2"
+        },
+        {
+          "page": "3-4"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/563/0530-01"
+      ]
+    },
+    {
+      "cite": "567 U.S. 460",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12407312
+      ],
+      "weight": 7,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "479"
+        },
+        {
+          "page": "489"
+        },
+        {
+          "page": "489"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/567/0460-01"
+      ]
+    },
+    {
+      "cite": "301 Ark. 314",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1885568
+      ],
+      "weight": 2,
+      "year": 1990,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/301/0314-01"
+      ]
+    },
+    {
+      "cite": "2018 Ark. 353",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        12658387
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw3d/563/0530-01"
+      ]
+    },
+    {
+      "cite": "547 S.W.3d 64",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12656555
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw3d/547/0064-01"
+      ]
+    },
+    {
+      "cite": "2018 Ark. 179",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "547 S.W.3d 64",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12656555
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/sw3d/547/0064-01"
+      ]
+    },
+    {
+      "cite": "2018 Ark. 179",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "opinion_index": 3
+    }
+  ],
+  "analysis": {
+    "cardinality": 407,
+    "char_count": 8573,
+    "pagerank": {
+      "raw": 1.0691065237350871e-07,
+      "percentile": 0.5593223774822393
+    },
+    "sha256": "a9b686bcbd374826710d4a38a8198da052d8e3b7ff06138cb72ddf9720f7e0c1",
+    "simhash": "1:b98abe1541c37e11",
+    "word_count": 1391
+  },
+  "last_updated": "2024-02-27T16:04:37.378194+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Christopher SEGERSTROM, Appellant\nv.\nSTATE of Arkansas, Appellee"
+    ],
+    "opinions": [
+      {
+        "text": "Karen R. Baker, Associate Justice\nThis appeal stems from appellant Christopher Segerstrom's conviction and sentence in Washington County Circuit Court for one count of capital murder and a sentence of life without the possibility of parole. Segerstrom v. State , 301 Ark. 314, 783 S.W.2d 847 (1990). At the time of the offense on July 26, 1986, Segerstrom was fifteen-years old.\nIn Miller v. Alabama , 567 U.S. 460, 479, 132 S.Ct. 2455, 183 L.Ed.2d 407 (2012), the Supreme Court of the United States held that \"the Eighth Amendment forbids a sentencing scheme that mandates life in prison without possibility of parole for juvenile offenders.\" The Court further held that defendants who committed homicide crimes as juveniles and faced a sentence of life without parole were entitled to a sentencing hearing that would permit a judge or jury to consider the individual characteristics of the defendant and the individual circumstances of the crime as mitigating factors for a lesser sentence.\nId. at 489, 132 S.Ct. 2455 ; Robinson v. State , 2018 Ark. 353, at 2, 563 S.W.3d 530.\nFollowing Miller , and this court's opinions in Jackson v. Norris , 2013 Ark. 175, 426 S.W.3d 906 and Kelley v. Gordon , 2015 Ark. 277, 465 S.W.3d 842, Segerstrom filed a petition for writ of habeas corpus in the Hot Spring County Circuit Court on the ground that he was a juvenile when he committed the crime and was entitled to have his sentence vacated pursuant to Miller . On September 19, 2016, the circuit court granted Segerstrom's petition for writ of habeas corpus, vacated his sentencing order and remanded Segerstrom's case to Washington County for resentencing.\nOn April 24, 2017, the State filed a motion for resentencing in the Washington County Circuit Court pursuant to the Fair Sentencing of Minors Act of 2017 (FSMA). Act of Mar. 20, 2017, No. 539, 2017 Ark. Acts 2615. On May 3, the circuit court held a hearing on the matter. On May 17, the circuit court entered an order denying Segerstrom's request for a resentencing hearing and sentenced Segerstrom to life imprisonment with the possibility of parole after thirty years based on the FSMA. The circuit court held that the FSMA eliminated \"life without parole as a sentencing option for minors and [created] more age-appropriate sentencing standards in compliance with the United States Constitution for minors who commit serious crimes.\" The circuit court further held that the FSMA went into effect on March 21, 2017, when it was signed by the governor and applied retroactively. On June 16, Segerstrom filed a motion to reconsider and on June 28, the circuit court denied the motion to reconsider, holding that the FSMA applied retroactively.\nSegerstrom appeals and presents five issues: (1) the circuit court erred when it retroactively applied the penalty and parole provisions of the FSMA to resentence Segerstrom to life imprisonment with the possibility of parole after thirty years; (2) the Arkansas Supreme Court has held that juvenile capital murderers who were sentenced to life imprisonment without parole are entitled to be resentenced, and denying Segerstrom the relief granted to other Miller - Jackson defendants violates the federal and state constitutional rights of due process, equal protection and fundamental fairness; (3) neither the retroactive parole-eligibility provision of the FSMA nor the holding in Montgomery v. Louisiana , 577 U.S. ----, 136 S.Ct. 718, 193 L.Ed.2d 599 (2016), invalidate the Arkansas Supreme Court's holding in Jackson , 2013 Ark. 175, 426 S.W.3d 906, and Gordon , 2015 Ark. 277, 465 S.W.3d 842 ; (4) Miller requires that Segerstrom receive \"individualized\" resentencing by a \"judge or jury,\" 567 U.S. at 489, 132 S.Ct. 2455, and a parole hearing under section 13 of the FSMA satisfies neither of those requirements; and (5) the FSMA, as applied to Segerstrom, violates the federal and state constitutional guarantee against ex post facto legislation. We reverse and remand.\nPoints on Appeal\nFor his first point on appeal, Segerstrom relies on Harris v. State , 2018 Ark. 179, at 14, 547 S.W.3d 64, to contend that the circuit court erred when it retroactively applied the penalty and parole provisions of the FSMA to resentence Segerstrom to life imprisonment with the possibility of parole after thirty years. Segerstrom asserts that, like Harris, he is a Miller - Jackson inmate, no longer serving a sentence to which the parole-eligibility provision of the FSMA could attach to and the circuit court's decision must be reversed. The State responds that the circuit court correctly ruled that the FSMA retroactively applied to Segerstrom. The State further responds that Harris was wrongly decided and should be overruled.\nIn Harris , 2018 Ark. 179, 547 S.W.3d 64, we addressed the issue presented in this case and held that the penalty provisions of the FSMA are not retroactive. Further, we held that the revised punishment for juveniles convicted of capital murder applies only to crimes committed on or after the effective date of the FSMA-March 20, 2017. Id. at 14, 547 S.W.3d at 71. Accordingly, we held that the parole-eligibility provision did not apply at the time of Harris's hearing on his motion for resentencing because \"by its plain language, the provision applies only to those juvenile offenders who are serving a sentence for either capital or first-degree murder.\" Id. at 11, 547 S.W.3d at 70. We held that because Harris's sentence was vacated in 2016, Harris was no longer serving a sentence to which parole eligibility could attach. Id. Therefore, the FSMA parole-eligibility provision did not apply to Harris at the time of his hearing because after his original sentence was vacated, Harris was no longer serving a sentence to which parole eligibility could attach. Id.\nRecently, in Robinson , 2018 Ark. 353, 563 S.W.3d 530, we referenced our decision in Harris and held that the circuit court erred in applying the FSMA to Robinson's case and that Robinson was entitled to a hearing to present Miller evidence for consideration. Robinson, like Harris, committed his crime before the effective date of the FSMA, and we held that the FSMA penalty provisions did not apply. Robinson's sentence was vacated by the circuit court in 2016 and Robinson, like Harris, was no longer serving a sentence to which parole eligibility could attach. Accordingly, the parole-eligibility provision of the FSMA did not apply to Robinson at the time of his hearing. Based on our decision in Harris , we held that the circuit court erred in applying the FSMA to Robinson's case and Robinson was entitled to a hearing to present Miller evidence for consideration and sentencing within the discretionary range for a Class Y felony, which is ten to forty years or life. See Ark. Code Ann. \u00a7 5-4-401(a) (Repl. 2013); Harris , 2018 Ark. 179, 547 S.W.3d 64 ; Jackson , 2013 Ark. 175, 426 S.W.3d 906 ; Robinson , 2018 Ark. 353, at 3-4, 563 S.W.3d 530. We also specifically declined the State's invitation to overrule Harris .\nWith this history in mind, we turn to Segerstrom's point on appeal. Consistent with our decisions in Harris and Robinson , we hold that the circuit court erred in applying the FSMA to Segerstrom's case. Segerstrom is entitled to a hearing to present Miller evidence for consideration and sentencing within the discretionary range for a Class Y felony, which is ten to forty years or life. See Ark. Code Ann. \u00a7 5-4-401(a) ; Harris , 2018 Ark. 179, 547 S.W.3d 64 ; Jackson , 2013 Ark. 175, 426 S.W.3d 906 ; Robinson , 2018 Ark. 353, 563 S.W.3d 530.\nBecause we reverse and remand on Segerstrom's first point on appeal, we do not reach Segerstrom's remaining points on appeal.\nReversed and remanded.\nWood and Wynne, JJ., concur.\nWomack, J., dissents.\nSegerstrom was born on December 24, 1970.",
+        "type": "majority",
+        "author": "Karen R. Baker, Associate Justice"
+      },
+      {
+        "text": "Rhonda K. Wood, Justice, concurring.\nI concur for the reasons set forth in my concurring opinion in Robinson v. State , 2018 Ark. 353, 563 S.W.3d 530 (Wood, J., concurring).",
+        "type": "concurrence",
+        "author": "Rhonda K. Wood, Justice, concurring."
+      },
+      {
+        "text": "Robin F. Wynne, Justice, concurring.\nI concur for the reasons set out in my concurring opinion in Harris v. State , 2018 Ark. 179, 547 S.W.3d 64.",
+        "type": "concurrence",
+        "author": "Robin F. Wynne, Justice, concurring."
+      },
+      {
+        "text": "Shawn A. Womack, Justice, dissenting.\nI dissent for the reasons set forth in my dissenting opinion in Harris v. State , 2018 Ark. 179, 547 S.W.3d 64.",
+        "type": "dissent",
+        "author": "Shawn A. Womack, Justice, dissenting."
+      }
+    ],
+    "attorneys": [
+      "McLemore Law, Ltd., Fayetteville, by: Kent McLemore, for appellant.",
+      "Leslie Rutledge, Att'y Gen., by: Vada Berger, Ass't Att'y Gen., for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "Christopher SEGERSTROM, Appellant\nv.\nSTATE of Arkansas, Appellee\nNo. CR-17-829\nSupreme Court of Arkansas.\nOpinion Delivered February 14, 2019\nMcLemore Law, Ltd., Fayetteville, by: Kent McLemore, for appellant.\nLeslie Rutledge, Att'y Gen., by: Vada Berger, Ass't Att'y Gen., for appellee."
+  },
+  "file_name": "0466-01",
+  "first_page_order": 466,
+  "last_page_order": 469
+}

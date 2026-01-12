@@ -1,0 +1,59 @@
+{
+  "id": 6023328,
+  "name": "McGee v. Brown, Attorney General of California",
+  "name_abbreviation": "McGee v. Brown",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-106",
+  "first_page": "894",
+  "last_page": "894",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 894"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 94,
+    "ocr_confidence": 0.515,
+    "sha256": "ebbb52e91ebf985d692df97a07dcf7fce0efc60365f396cc138a2c0a82c98992",
+    "simhash": "1:1081222359652044",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McGee v. Brown, Attorney General of California."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-106.\nMcGee v. Brown, Attorney General of California."
+  },
+  "file_name": "0894-02",
+  "first_page_order": 916,
+  "last_page_order": 916
+}

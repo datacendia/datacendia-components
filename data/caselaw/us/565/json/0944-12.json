@@ -1,0 +1,59 @@
+{
+  "id": 12227144,
+  "name": "Rojas Nieto v. Holder, Attorney General",
+  "name_abbreviation": "Nieto v. Holder",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-198",
+  "first_page": "944",
+  "last_page": "944",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 944"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 87,
+    "ocr_confidence": 0.698,
+    "sha256": "a56a36b5d415aebc0f6b83aed91fb7bac32152b062ebdc889c0c380b094606f8",
+    "simhash": "1:d1ebd69a491c7462",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rojas Nieto v. Holder, Attorney General."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-198.\nRojas Nieto v. Holder, Attorney General."
+  },
+  "file_name": "0944-12",
+  "first_page_order": 1026,
+  "last_page_order": 1026
+}

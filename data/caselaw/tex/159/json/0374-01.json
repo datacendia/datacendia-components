@@ -1,0 +1,83 @@
+{
+  "id": 2257127,
+  "name": "West Texas Gulf Pipe Line Company v. Hardin County, Texas et al.",
+  "name_abbreviation": "West Texas Gulf Pipe Line Co. v. Hardin County",
+  "decision_date": "1959-03-11",
+  "docket_number": "No. A-7162",
+  "first_page": "374",
+  "last_page": "375",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "159 Tex. 374"
+    },
+    {
+      "type": "parallel",
+      "cite": "321 S.W.2d 576"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "319 S.W. 2d 155",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10159096
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/319/0155-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 122,
+    "char_count": 1161,
+    "ocr_confidence": 0.595,
+    "pagerank": {
+      "raw": 2.0658117901680485e-07,
+      "percentile": 0.7571221333753435
+    },
+    "sha256": "cfbc0646d6d85dcbb021279092f57c415bdaf4c833640820ff4ee3ed18226b0c",
+    "simhash": "1:136b80f33e8e898f",
+    "word_count": 192
+  },
+  "last_updated": "2024-02-27T19:26:07.846026+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "West Texas Gulf Pipe Line Company v. Hardin County, Texas Et Al."
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM:\nThe trial court refused to issue a temporary injunction restraining the officers, officials and employees of Hardin County from attempting to collect certain taxes levied against properties of petitioner, West Texas Gulf Pipe Line Company. The Court of Civil Appeals affirmed this action. 319 S.W. 2d 155. It appears that there is no threat of irreparable injury or damage to petitioner pending a final determination of the case on the merits, and therefore the Court of Civil Appeals was correct in affirming the trial court\u2019s order upon the basis that an abuse of the legal discretion vested in the trial court was not shown. We express no opinion as to other matters discussed by the Court of Civil Appeals. The application for writ of error is refused, no reversible error.\nOpinion delivered March 11, 1959.",
+        "type": "majority",
+        "author": "PER CURIAM:"
+      }
+    ],
+    "attorneys": [
+      "Williams F. Erwin, Jr., of Houston, Keith, Mehaffy, Me-Nicholas & Weber, of Beaumont, for petitioner.",
+      "Earl B. Stover, County Attorney, Hardin County, of Kountze and E. G. Ayeock, of Fort Worth, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "West Texas Gulf Pipe Line Company v. Hardin County, Texas Et Al.\nNo. A-7162.\nDecided March 11, 1959.\n(321 S.W. 2d Series 576)\nWilliams F. Erwin, Jr., of Houston, Keith, Mehaffy, Me-Nicholas & Weber, of Beaumont, for petitioner.\nEarl B. Stover, County Attorney, Hardin County, of Kountze and E. G. Ayeock, of Fort Worth, for respondents."
+  },
+  "file_name": "0374-01",
+  "first_page_order": 388,
+  "last_page_order": 389
+}

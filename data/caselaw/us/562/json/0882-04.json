@@ -1,0 +1,59 @@
+{
+  "id": 6022180,
+  "name": "Sealed Petitioner v. United States",
+  "name_abbreviation": "Sealed v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11462",
+  "first_page": "882",
+  "last_page": "882",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 882"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 84,
+    "ocr_confidence": 0.552,
+    "sha256": "41472ff6a8648a38a3c7da83407bdc9ff097c573180a0598eac802c1587b5844",
+    "simhash": "1:018ae601493e1639",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sealed Petitioner v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11462.\nSealed Petitioner v. United States."
+  },
+  "file_name": "0882-04",
+  "first_page_order": 904,
+  "last_page_order": 904
+}

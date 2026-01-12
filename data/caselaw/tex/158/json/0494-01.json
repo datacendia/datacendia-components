@@ -1,0 +1,84 @@
+{
+  "id": 2255859,
+  "name": "Ruby Jewel Trotter, Et Vir v. Elbert Wellington Pollan, Et Ux",
+  "name_abbreviation": "Trotter v. Pollan",
+  "decision_date": "1958-06-04",
+  "docket_number": "No. A-6805",
+  "first_page": "494",
+  "last_page": "495",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "158 Tex. 494"
+    },
+    {
+      "type": "parallel",
+      "cite": "313 S.W.2d 603"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "311 S.W. 2d 723",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10177327
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/311/0723-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 70,
+    "char_count": 614,
+    "ocr_confidence": 0.616,
+    "pagerank": {
+      "raw": 6.986905053985567e-08,
+      "percentile": 0.42252946021177296
+    },
+    "sha256": "67da754a32b7d7e2921167ea9c098a1e3ba0804c0cc21dcc341c8b6111247c66",
+    "simhash": "1:c44b86b7699fe21e",
+    "word_count": 105
+  },
+  "last_updated": "2024-02-27T19:47:07.204323+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ruby Jewel Trotter, Et Vir v. Elbert Wellington Pollan, Et Ux"
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM:\nThe application for writ of error is refused, No Reversible Error. No application for writ of error was filed by Mr. and Mrs. Pollan, and our order should not be taken as indicating either approval or disapproval of the holding of the Court of Civil Appeals as to the validity of the adoption decree. 311 S.W. 2d 723.\nOpinion delivered June 4, 1958.",
+        "type": "majority",
+        "author": "PER CURIAM:"
+      }
+    ],
+    "attorneys": [
+      "Earl E. Parker, of Dallas, for petitioners.",
+      "Piranio & Davis, of Dallas, for respondents.",
+      "Application refused, no reversible error."
+    ],
+    "corrections": "",
+    "head_matter": "Ruby Jewel Trotter, Et Vir v. Elbert Wellington Pollan, Et Ux\nNo. A-6805.\nDecided June 4, 1958.\n(313 S.W. 2d Series 603)\nEarl E. Parker, of Dallas, for petitioners.\nPiranio & Davis, of Dallas, for respondents.\nApplication refused, no reversible error."
+  },
+  "file_name": "0494-01",
+  "first_page_order": 510,
+  "last_page_order": 511
+}

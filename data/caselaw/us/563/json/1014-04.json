@@ -1,0 +1,59 @@
+{
+  "id": 5922201,
+  "name": "Young v. United States",
+  "name_abbreviation": "Young v. United States",
+  "decision_date": "2011-05-23",
+  "docket_number": "No. 10-10086",
+  "first_page": "1014",
+  "last_page": "1014",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1014"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.631,
+    "sha256": "d500b40c553fbc70718e0b5b2e7d7c16f396bd65f179a254ab43ddda8e0af563",
+    "simhash": "1:279ad3824dacbf5a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Young v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10086.\nYoung v. United States."
+  },
+  "file_name": "1014-04",
+  "first_page_order": 1040,
+  "last_page_order": 1040
+}

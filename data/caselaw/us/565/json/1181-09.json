@@ -1,0 +1,59 @@
+{
+  "id": 12244782,
+  "name": "Roberson v. Ohio",
+  "name_abbreviation": "Roberson v. Ohio",
+  "decision_date": "2012-01-23",
+  "docket_number": "No. 11-7565",
+  "first_page": "1181",
+  "last_page": "1181",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1181"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 80,
+    "ocr_confidence": 0.695,
+    "sha256": "f5eb2aa928accc092f5357cf2009339cb949dc3941edb19dba56fc6e4febdae9",
+    "simhash": "1:a9d97f571fea0379",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Roberson v. Ohio."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ohio, Lorain County. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7565.\nRoberson v. Ohio."
+  },
+  "file_name": "1181-09",
+  "first_page_order": 1263,
+  "last_page_order": 1263
+}

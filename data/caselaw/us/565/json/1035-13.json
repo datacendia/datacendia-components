@@ -1,0 +1,59 @@
+{
+  "id": 12233440,
+  "name": "Ong v. New Jersey",
+  "name_abbreviation": "Ong v. New Jersey",
+  "decision_date": "2011-11-14",
+  "docket_number": "No. 11-324",
+  "first_page": "1035",
+  "last_page": "1035",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1035"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 78,
+    "ocr_confidence": 0.721,
+    "sha256": "62912111dbd6b9a26db83f7cac77e31ad7e11b95a172ece9fa995ac1a5aa95e7",
+    "simhash": "1:7bcd9f7c9bedb1b5",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ong v. New Jersey."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. N. J., App. Div. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-324.\nOng v. New Jersey."
+  },
+  "file_name": "1035-13",
+  "first_page_order": 1117,
+  "last_page_order": 1117
+}

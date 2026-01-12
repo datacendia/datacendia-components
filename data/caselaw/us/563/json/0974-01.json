@@ -1,0 +1,59 @@
+{
+  "id": 5948642,
+  "name": "Bauer et al. v. Shepard et al.",
+  "name_abbreviation": "Bauer v. Shepard",
+  "decision_date": "2011-05-02",
+  "docket_number": "No. 10-425",
+  "first_page": "974",
+  "last_page": "974",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 974"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 77,
+    "ocr_confidence": 0.584,
+    "sha256": "aa13bc30e7b46257e55e74a77d09ac2555ecec6f9979a55479a61f201bce6a31",
+    "simhash": "1:0bd0e4b1e34f9424",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bauer et al. v. Shepard et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-425.\nBauer et al. v. Shepard et al."
+  },
+  "file_name": "0974-01",
+  "first_page_order": 1000,
+  "last_page_order": 1000
+}

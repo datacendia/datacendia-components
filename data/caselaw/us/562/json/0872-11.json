@@ -1,0 +1,59 @@
+{
+  "id": 5902152,
+  "name": "Ewing v. United States Postal Service",
+  "name_abbreviation": "Ewing v. United States Postal Service",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11298",
+  "first_page": "872",
+  "last_page": "872",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 872"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 87,
+    "ocr_confidence": 0.504,
+    "sha256": "32abf6fafc6119be4aa3555daa039ab17de96daedf2f7913fd6ca1814728dbfa",
+    "simhash": "1:e18a026f4a3ff064",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ewing v. United States Postal Service."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11298.\nEwing v. United States Postal Service."
+  },
+  "file_name": "0872-11",
+  "first_page_order": 894,
+  "last_page_order": 894
+}

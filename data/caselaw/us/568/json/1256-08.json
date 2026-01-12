@@ -1,0 +1,59 @@
+{
+  "id": 12434133,
+  "name": "Vanhook v. United States",
+  "name_abbreviation": "Vanhook v. United States",
+  "decision_date": "2013-03-25",
+  "docket_number": "No. 12-8820",
+  "first_page": "1256",
+  "last_page": "1256",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1256"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.619,
+    "sha256": "179fedf7e460eed931b07dbe452945d44fb0c95dba0f41f0f2a5e2916165748e",
+    "simhash": "1:869af651ce95b505",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Vanhook v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8820.\nVanhook v. United States."
+  },
+  "file_name": "1256-08",
+  "first_page_order": 1332,
+  "last_page_order": 1332
+}

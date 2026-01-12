@@ -1,0 +1,84 @@
+{
+  "id": 12407612,
+  "name": "In re Disbarment of Katz",
+  "name_abbreviation": "In re Disbarment of Katz",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. D-2645",
+  "first_page": "902",
+  "last_page": "902",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 902"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "566 U. S. 933",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12203111,
+        12203209,
+        12203189,
+        12203093,
+        12203223,
+        12203160,
+        12203135
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/566/0933-02",
+        "/us/566/0933-06",
+        "/us/566/0933-05",
+        "/us/566/0933-01",
+        "/us/566/0933-07",
+        "/us/566/0933-04",
+        "/us/566/0933-03"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 105,
+    "ocr_confidence": 0.669,
+    "sha256": "89a98fb86c054b5c82c3a4d34605c1142388875f737bbe434bbea44a0ae76646",
+    "simhash": "1:9ca5f5aeef9036a2",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:46:21.325002+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Katz."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see 566 U. S. 933.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2645.\nIn re Disbarment of Katz."
+  },
+  "file_name": "0902-15",
+  "first_page_order": 806,
+  "last_page_order": 806
+}

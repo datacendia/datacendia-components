@@ -1,0 +1,59 @@
+{
+  "id": 6002719,
+  "name": "Link v. Lombardi, Director, Missouri Department of Corrections, et al.",
+  "name_abbreviation": "Link v. Lombardi",
+  "decision_date": "2011-02-08",
+  "docket_number": "No. 10A785",
+  "first_page": "1208",
+  "last_page": "1208",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1208"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 32,
+    "char_count": 226,
+    "ocr_confidence": 0.671,
+    "sha256": "bc5361a97370cf49a1b8bd4c552cac4048cf926934427c3de323c81c5cf84485",
+    "simhash": "1:704bfd7b1601a101",
+    "word_count": 36
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Link v. Lombardi, Director, Missouri Department of Corrections, et al."
+    ],
+    "opinions": [
+      {
+        "text": "Application for stay of execution of sentence of death, presented to Justice Alito, and by him referred to the Court, denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "February 8, 2011\nNo. 10A785.\nLink v. Lombardi, Director, Missouri Department of Corrections, et al."
+  },
+  "file_name": "1208-07",
+  "first_page_order": 1230,
+  "last_page_order": 1230
+}

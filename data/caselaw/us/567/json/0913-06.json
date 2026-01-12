@@ -1,0 +1,59 @@
+{
+  "id": 12409149,
+  "name": "Massey v. United States",
+  "name_abbreviation": "Massey v. United States",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. 11-10322",
+  "first_page": "913",
+  "last_page": "913",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 913"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.63,
+    "sha256": "846d41675f4edbe98c7dbbb26d7465e014140b2ad2ff07398545015ac393ef1a",
+    "simhash": "1:860a16034e37980e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Massey v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10322.\nMassey v. United States."
+  },
+  "file_name": "0913-06",
+  "first_page_order": 817,
+  "last_page_order": 817
+}

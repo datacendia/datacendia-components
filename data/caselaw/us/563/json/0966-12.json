@@ -1,0 +1,59 @@
+{
+  "id": 5959304,
+  "name": "Heckathorne v. United States",
+  "name_abbreviation": "Heckathorne v. United States",
+  "decision_date": "2011-04-25",
+  "docket_number": "No. 10-9684",
+  "first_page": "966",
+  "last_page": "966",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 966"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.523,
+    "sha256": "a880ad5fc62ade227a79e34217cef0985a43651c12184e2ca112a2bebfc465ea",
+    "simhash": "1:0493c7896fbf054e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Heckathorne v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9684.\nHeckathorne v. United States."
+  },
+  "file_name": "0966-12",
+  "first_page_order": 992,
+  "last_page_order": 992
+}

@@ -1,0 +1,79 @@
+{
+  "id": 12187581,
+  "name": "Tyrues v. Shinseki, Secretary of Veterans Affairs",
+  "name_abbreviation": "Tyrues v. Shinseki",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-1405",
+  "first_page": "802",
+  "last_page": "802",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 802"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "562 U. S. 428",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6023194,
+        12457263
+      ],
+      "year": 2011,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/562/0428-01",
+        "/l-ed-2d/179/0159-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 31,
+    "char_count": 219,
+    "ocr_confidence": 0.647,
+    "pagerank": {
+      "raw": 4.688403287882615e-08,
+      "percentile": 0.2522827105710528
+    },
+    "sha256": "65f08b41f4d6cdf4577484fb2749b61672995d254949c2f22e5291c71ac59eee",
+    "simhash": "1:cd42a8cc94eb928c",
+    "word_count": 34
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Tyrues v. Shinseki, Secretary of Veterans Affairs."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. Fed. Cir. Certiorari granted, judgment vacated, and case remanded for further consideration in light of Henderson v. Shinseki, 562 U. S. 428 (2011).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1405.\nTyrues v. Shinseki, Secretary of Veterans Affairs."
+  },
+  "file_name": "0802-03",
+  "first_page_order": 884,
+  "last_page_order": 884
+}

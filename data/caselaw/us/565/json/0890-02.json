@@ -1,0 +1,59 @@
+{
+  "id": 12216634,
+  "name": "Jones v. Camden Police Department et al.",
+  "name_abbreviation": "Jones v. Camden Police Department",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5106",
+  "first_page": "890",
+  "last_page": "890",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 890"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 88,
+    "ocr_confidence": 0.676,
+    "sha256": "883d7c27bc55e96600ec85e47b3ee12b5ad55ad5ee581e61b9831adb7697a7d0",
+    "simhash": "1:160860e86d8cb135",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jones v. Camden Police Department et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5106.\nJones v. Camden Police Department et al."
+  },
+  "file_name": "0890-02",
+  "first_page_order": 972,
+  "last_page_order": 972
+}

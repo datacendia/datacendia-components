@@ -1,0 +1,59 @@
+{
+  "id": 5988448,
+  "name": "Larrabee v. United States",
+  "name_abbreviation": "Larrabee v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5649",
+  "first_page": "933",
+  "last_page": "933",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 933"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.558,
+    "sha256": "743c837bef70541adc005e60bc0ec1fdb0e2bbf883c381b68b064eaeb4431e1f",
+    "simhash": "1:8488e3a38f3d142b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Larrabee v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5649.\nLarrabee v. United States."
+  },
+  "file_name": "0933-08",
+  "first_page_order": 955,
+  "last_page_order": 955
+}

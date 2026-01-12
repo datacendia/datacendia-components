@@ -1,0 +1,59 @@
+{
+  "id": 6009663,
+  "name": "Culbertson v. Missouri",
+  "name_abbreviation": "Culbertson v. Missouri",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8217",
+  "first_page": "1239",
+  "last_page": "1239",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1239"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 69,
+    "ocr_confidence": 0.656,
+    "sha256": "6af0db62284416efa85618b3c341dc1fe11dd1a23af2ade9c90c6781fe72870e",
+    "simhash": "1:64b21b2a676fee44",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Culbertson v. Missouri."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Mo. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8217.\nCulbertson v. Missouri."
+  },
+  "file_name": "1239-08",
+  "first_page_order": 1261,
+  "last_page_order": 1261
+}

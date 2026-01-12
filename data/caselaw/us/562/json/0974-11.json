@@ -1,0 +1,59 @@
+{
+  "id": 5990435,
+  "name": "Caldwell et al. v. United States",
+  "name_abbreviation": "Caldwell v. United States",
+  "decision_date": "2010-10-12",
+  "docket_number": "No. 10-6348",
+  "first_page": "974",
+  "last_page": "974",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 974"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 82,
+    "ocr_confidence": 0.579,
+    "sha256": "21398b9082b76979b8c1f9f5a31a9edae66fa858b130d42561bff7863aa4d4e8",
+    "simhash": "1:9d28db230bab901c",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Caldwell et al. v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6348.\nCaldwell et al. v. United States."
+  },
+  "file_name": "0974-11",
+  "first_page_order": 996,
+  "last_page_order": 996
+}

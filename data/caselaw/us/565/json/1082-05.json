@@ -1,0 +1,59 @@
+{
+  "id": 12237012,
+  "name": "Chavez v. Grounds, Warden",
+  "name_abbreviation": "Chavez v. Grounds",
+  "decision_date": "2011-12-05",
+  "docket_number": "No. 11-6684",
+  "first_page": "1082",
+  "last_page": "1082",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1082"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.693,
+    "sha256": "9c78ab0bc82c27c2b1fd40ee16e9b52b55cdf2f18b5b49385cf05d16d24e15f3",
+    "simhash": "1:db93e3eb28fda567",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Chavez v. Grounds, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6684.\nChavez v. Grounds, Warden."
+  },
+  "file_name": "1082-05",
+  "first_page_order": 1164,
+  "last_page_order": 1164
+}

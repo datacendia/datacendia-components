@@ -1,0 +1,59 @@
+{
+  "id": 6021614,
+  "name": "Dixie v. Wilson, Superintendent, Indiana State Prison",
+  "name_abbreviation": "Dixie v. Wilson",
+  "decision_date": "2010-10-12",
+  "docket_number": "No. 10-5846",
+  "first_page": "968",
+  "last_page": "968",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 968"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 102,
+    "ocr_confidence": 0.551,
+    "sha256": "487a68ff314e7649388ef069232dc911e45df9c92b63fb9eaa7867151be7ccaa",
+    "simhash": "1:434d289bbd2e0612",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dixie v. Wilson, Superintendent, Indiana State Prison."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5846.\nDixie v. Wilson, Superintendent, Indiana State Prison."
+  },
+  "file_name": "0968-10",
+  "first_page_order": 990,
+  "last_page_order": 990
+}

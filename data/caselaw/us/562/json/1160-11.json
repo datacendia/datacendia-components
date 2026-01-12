@@ -1,0 +1,59 @@
+{
+  "id": 4126238,
+  "name": "Elmer v. United States",
+  "name_abbreviation": "Elmer v. United States",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7750",
+  "first_page": "1160",
+  "last_page": "1160",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1160"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.626,
+    "sha256": "bb2a71a6ca7e43199b5b83fd0df8a6e1a508feaa757d974efd150688558a1eb3",
+    "simhash": "1:05289a4b2b940118",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Elmer v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7750.\nElmer v. United States."
+  },
+  "file_name": "1160-11",
+  "first_page_order": 1182,
+  "last_page_order": 1182
+}

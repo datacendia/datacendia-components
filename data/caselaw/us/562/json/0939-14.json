@@ -1,0 +1,59 @@
+{
+  "id": 6031888,
+  "name": "Williams v. Pennsylvania",
+  "name_abbreviation": "Williams v. Pennsylvania",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5857",
+  "first_page": "939",
+  "last_page": "939",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 939"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 73,
+    "ocr_confidence": 0.599,
+    "sha256": "7a5e2c7a07d007bb1f0022b47a9ab21c7cd99e36b07181ab1131783e0f6685ec",
+    "simhash": "1:6b7e09d092a8bdd3",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Pa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5857.\nWilliams v. Pennsylvania."
+  },
+  "file_name": "0939-14",
+  "first_page_order": 961,
+  "last_page_order": 961
+}

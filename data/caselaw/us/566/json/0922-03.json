@@ -1,0 +1,59 @@
+{
+  "id": 12200240,
+  "name": "Tyler v. Adams, Warden",
+  "name_abbreviation": "Tyler v. Adams",
+  "decision_date": "2012-04-02",
+  "docket_number": "No. 11-940",
+  "first_page": "922",
+  "last_page": "922",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 922"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.628,
+    "sha256": "b946f14806242cd67d90d350852e7c996cb3f323b3bd14563ed4fcf2b6e4a26d",
+    "simhash": "1:008008c9349720f6",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Tyler v. Adams, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-940.\nTyler v. Adams, Warden."
+  },
+  "file_name": "0922-03",
+  "first_page_order": 798,
+  "last_page_order": 798
+}

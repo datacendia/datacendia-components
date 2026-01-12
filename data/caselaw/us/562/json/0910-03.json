@@ -1,0 +1,59 @@
+{
+  "id": 5989721,
+  "name": "Johnson v. United States",
+  "name_abbreviation": "Johnson v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5223",
+  "first_page": "910",
+  "last_page": "910",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 910"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.602,
+    "sha256": "d39787f47967090f4e0e670900f83ea59f63511c5e20a4d55eff6f8e5cfba0c9",
+    "simhash": "1:979aa7991e8f1149",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Johnson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5223.\nJohnson v. United States."
+  },
+  "file_name": "0910-03",
+  "first_page_order": 932,
+  "last_page_order": 932
+}

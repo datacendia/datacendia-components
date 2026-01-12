@@ -1,0 +1,59 @@
+{
+  "id": 12227738,
+  "name": "Betancort-Salazar v. Arkansas",
+  "name_abbreviation": "Betancort-Salazar v. Arkansas",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-5752",
+  "first_page": "950",
+  "last_page": "950",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 950"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 77,
+    "ocr_confidence": 0.687,
+    "sha256": "cab325912f075dfc17dc6ee5cc819756d717bcc821168a9718167356c9efc014",
+    "simhash": "1:da303b0410203fd0",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Betancort-Salazar v. Arkansas."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ark. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5752.\nBetancort-Salazar v. Arkansas."
+  },
+  "file_name": "0950-08",
+  "first_page_order": 1032,
+  "last_page_order": 1032
+}

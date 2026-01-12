@@ -1,0 +1,59 @@
+{
+  "id": 12420496,
+  "name": "Ruiz v. Texas",
+  "name_abbreviation": "Ruiz v. Texas",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-5920",
+  "first_page": "983",
+  "last_page": "983",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 983"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.698,
+    "sha256": "7765fe80584f207a030a87adf0ee96157301ed562dd0a107f9f6e71384127e49",
+    "simhash": "1:888a8301ae486412",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ruiz v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Tex., 14th Dist. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5920.\nRuiz v. Texas."
+  },
+  "file_name": "0983-14",
+  "first_page_order": 1059,
+  "last_page_order": 1059
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12188340,
+  "name": "Williams v. Moore",
+  "name_abbreviation": "Williams v. Moore",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10941",
+  "first_page": "804",
+  "last_page": "804",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 804"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 28,
+    "char_count": 170,
+    "ocr_confidence": 0.665,
+    "sha256": "ac38c0485f47759b470c9c974fc63b681fd6ff0095b4ffd4f2ba0e4e57070225",
+    "simhash": "1:a8a951c8c7403f92",
+    "word_count": 28
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. Moore."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Motion of petitioner for leave to proceed in forma pauperis denied, and certiorari dismissed. See this Court\u2019s Rule 39.8.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10941.\nWilliams v. Moore."
+  },
+  "file_name": "0804-04",
+  "first_page_order": 886,
+  "last_page_order": 886
+}

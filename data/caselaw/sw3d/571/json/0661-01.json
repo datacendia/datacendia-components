@@ -1,0 +1,684 @@
+{
+  "id": 12659421,
+  "name": "Dr. Patt MCGUIRE, Appellant, v. Jerry EDWARDS, Scott Briete, St. Louis County, State of Missouri, Office of the State Court Administrator, and Genevieve Frank, Respondents.",
+  "name_abbreviation": "McGuire v. Edwards",
+  "decision_date": "2019-04-02",
+  "docket_number": "No. ED 106860",
+  "first_page": "661",
+  "last_page": "670",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 S.W.3d 661"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mo. App. Ct.",
+    "id": 30182,
+    "name": "Missouri Court of Appeals, Eastern District, DIVISION FOUR"
+  },
+  "jurisdiction": {
+    "id": 37,
+    "name_long": "Missouri",
+    "name": "Mo."
+  },
+  "cites_to": [
+    {
+      "cite": "16 S.W. 161",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "year": 1891,
+      "pin_cites": [
+        {
+          "page": "169",
+          "parenthetical": "finding a mere clerical error of not including a party in the caption of the petition did not prohibit judgment against that party"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "104 Mo. 127",
+      "category": "reporters:state",
+      "reporter": "Mo.",
+      "case_ids": [
+        420489
+      ],
+      "year": 1891,
+      "pin_cites": [
+        {
+          "parenthetical": "finding a mere clerical error of not including a party in the caption of the petition did not prohibit judgment against that party"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mo/104/0127-01"
+      ]
+    },
+    {
+      "cite": "306 S.W.3d 551",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7326147
+      ],
+      "weight": 5,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "555"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/306/0551-01"
+      ]
+    },
+    {
+      "cite": "876 F.2d 1",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10526957
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "2"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/876/0001-01"
+      ]
+    },
+    {
+      "cite": "223 F.Supp.2d 241",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        11349992
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "251-52",
+          "parenthetical": "quoting Cok v. Cosentino, 876 F.2d 1, 2 (1st Cir. 1989) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/223/0241-01"
+      ]
+    },
+    {
+      "cite": "536 U.S. 273",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1254550
+      ],
+      "weight": 5,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "286-87"
+        },
+        {
+          "page": "287"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/536/0273-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7\u00a7 1505",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "536 S.W.3d 321",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12408864
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "336"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/536/0321-01"
+      ]
+    },
+    {
+      "cite": "491 U.S. 58",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6210401
+      ],
+      "weight": 3,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "69-71"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/491/0058-01"
+      ]
+    },
+    {
+      "cite": "441 U.S. 600",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1779933
+      ],
+      "weight": 3,
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "617"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/441/0600-01"
+      ]
+    },
+    {
+      "cite": "544 U.S. 113",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5888862
+      ],
+      "weight": 3,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "119-20"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/544/0113-01"
+      ]
+    },
+    {
+      "cite": "487 U.S. 42",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1774710
+      ],
+      "weight": 5,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "48"
+        },
+        {
+          "page": "48"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/487/0042-01"
+      ]
+    },
+    {
+      "cite": "209 F.3d 713",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11452528
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "715",
+          "parenthetical": "\" Section 1983 does not confer substantive rights but merely provides a means to vindicate rights conferred by the Constitution or laws of the United States.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/209/0713-01"
+      ]
+    },
+    {
+      "cite": "510 U.S. 266",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        231967
+      ],
+      "weight": 3,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "271",
+          "parenthetical": "quoted case omitted"
+        },
+        {
+          "parenthetical": "quoted case omitted"
+        },
+        {
+          "parenthetical": "quoted case omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/510/0266-01"
+      ]
+    },
+    {
+      "cite": "583 S.W.2d 559",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9940545
+      ],
+      "weight": 2,
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "559",
+          "parenthetical": "\"In reviewing the granting of a motion to dismiss for failure to state a claim on which relief could be granted, the appellate court is confined to the face of the petition.\""
+        },
+        {
+          "page": "559"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/583/0559-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7\u00a7 242",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 1520",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7\u00a7 1512",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7\u00a7 1029",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 S.W.3d 664",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11243002
+      ],
+      "weight": 3,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "667"
+        },
+        {
+          "page": "667"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/25/0664-01"
+      ]
+    },
+    {
+      "cite": "570 S.W.2d 679",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9947773
+      ],
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "686"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/570/0679-01"
+      ]
+    },
+    {
+      "cite": "301 S.W.3d 119",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7296975
+      ],
+      "weight": 2,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "120"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/301/0119-01"
+      ]
+    },
+    {
+      "cite": "391 S.W.3d 532",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7095151
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "533"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/391/0532-01"
+      ]
+    },
+    {
+      "cite": "300 S.W.3d 580",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7299276
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "582"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/300/0580-01"
+      ]
+    },
+    {
+      "cite": "563 S.W.3d 740",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12658414
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "742"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/563/0740-01"
+      ]
+    },
+    {
+      "cite": "310 S.W.3d 295",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7323639
+      ],
+      "weight": 3,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "296"
+        },
+        {
+          "page": "296"
+        },
+        {
+          "page": "297"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/310/0295-01"
+      ]
+    },
+    {
+      "cite": "258 S.W.3d 547",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8178015
+      ],
+      "weight": 5,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "557",
+          "parenthetical": "\"This [C]ourt is under no obligation to review briefs which do not conform to the rules of procedure.\""
+        },
+        {
+          "page": "557"
+        },
+        {
+          "page": "554"
+        },
+        {
+          "page": "557",
+          "parenthetical": "\"Appellant's argument should demonstrate how principles of law and the facts of the case interact.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/258/0547-01"
+      ]
+    },
+    {
+      "cite": "545 S.W.3d 377",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12656310
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "379"
+        },
+        {
+          "page": "380"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/545/0377-01"
+      ]
+    },
+    {
+      "cite": "2019 WL 1029609",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 3,
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "*2"
+        },
+        {
+          "page": "*5"
+        },
+        {
+          "page": "*2"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "300 S.W.3d 583",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7299292
+      ],
+      "weight": 4,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "584"
+        },
+        {
+          "page": "585"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/300/0583-01"
+      ]
+    },
+    {
+      "cite": "489 S.W.3d 784",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6800584
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "789",
+          "parenthetical": "internal quotations omitted"
+        },
+        {
+          "page": "789"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/489/0784-01"
+      ]
+    },
+    {
+      "cite": "260 S.W.3d 834",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8175048
+      ],
+      "weight": 3,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "836"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/260/0834-01"
+      ]
+    },
+    {
+      "cite": "476 S.W.3d 913",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6768716
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "915",
+          "parenthetical": "quoting Lynch v. Lynch, 260 S.W.3d 834, 836 (Mo. banc 2008) "
+        },
+        {
+          "page": "915",
+          "parenthetical": "\"If the petition sets forth any set of facts that, if proven, would entitle the plaintiff[ ] to relief, then the petition states a claim.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/476/0913-01"
+      ]
+    },
+    {
+      "cite": "2018 WL 783064",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "year": 2018,
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 U.S.C. \u00a7 1983",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 7,
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1096,
+    "char_count": 23976,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.26506719117601063
+    },
+    "sha256": "6397772a9b3c633c2a5add553ad7a4bf5fb7293aa4524208bdb5407df2f0378e",
+    "simhash": "1:07b13ff741cb1707",
+    "word_count": 3899
+  },
+  "last_updated": "2024-02-27T16:04:57.576429+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dr. Patt MCGUIRE, Appellant,\nv.\nJerry EDWARDS, Scott Briete, St. Louis County, State of Missouri, Office of the State Court Administrator, and Genevieve Frank, Respondents."
+    ],
+    "opinions": [
+      {
+        "text": "KURT S. ODENWALD, Presiding Judge\nIntroduction\nDr. Patt McGuire (\"Dr. McGuire\") appeals from the circuit court's dismissal of her amended petition regarding a clerical error on Case.net for failure to state a claim. We dismiss Dr. McGuire's appeal for failure to comply with the mandatory appellate briefing standards of Rule 84.04. Even had Dr. McGuire's brief complied with the requirements of Rule 84.04, her amended petition creates no cognizable legal cause of action and is thus meritless.\nFactual and Procedural History\nDr. McGuire filed an employment discrimination claim against her former employer. During the course of her suit, Dr. McGuire noticed when she looked at Case.net online that the system had removed two of the defendants on her case (\"the Change\"). Specifically, after the Change, Case.net showed that two parties had an \"end date\" of November 21, 2017 and showed the \"party end reason\" as \"Party Released/Ended.\"\nDr. McGuire sought to speak about the Change with the judge assigned to her employment discrimination case. The judge's clerk (\"Clerk\") attempted to answer Dr. McGuire's questions regarding the Change on Case.net. Clerk stated that she was unfamiliar with the Change and asked Dr. McGuire to wait while Clerk spoke with the judge. After a few minutes, Clerk returned to Dr. McGuire and told her \"the judge said he did not do that.\" Dr. McGuire requested that Clerk ask a manager how and why the Change appeared on Case.net. Clerk sent Dr. McGuire to the Circuit Clerk's Office. Once there, Dr. McGuire insisted on speaking with the lead manager. However, he was unavailable at the time.\nThe following day, Dr. McGuire returned to the Circuit Clerk's Office. Jerry Edwards (\"Edwards\"), the director of the Circuit Clerk's Office, assisted Dr. McGuire. Edwards reviewed Case.net and corrected the Change to reflect that no party had been formally dismissed from Dr. McGuire's employment discrimination case. Dr. McGuire asked how the Change occurred and who changed the information, among other questions. Edwards was unable to answer and referred Dr. McGuire to the legal department. The Change was viewable on Case.net for a total of six days.\nDr. McGuire then filed a claim against Edwards and St. Louis County for tampering, asserting claims under 42 U.S.C. \u00a7 1983. Dr. McGuire sought $35,000,000 in compensatory damages and another $35,000,000 in punitive damages. Edwards removed the case to the United States District Court for the Eastern District of Missouri. McGuire v. Edwards, No. 4:18-CV-71 CAS, 2018 WL 783064 (E.D. Mo. Feb. 8, 2018). The United States District Court remanded the case to St. Louis County because even though Dr. McGuire asserted a claim under 42 U.S.C. \u00a7 1983, her \"claims [were] so completely devoid of merit as to not involve a federal controversy.\" Id. After the case was remanded to St. Louis County, Dr. McGuire filed an amended petition, asserting claims against Edwards, Scott Briete-Edwards's immediate supervisor-the State of Missouri, St. Louis County, and the Office of the State Court Administrator (collectively, \"Respondents\"). Respondents moved to dismiss Dr. McGuire's petition for failure to state a claim. The circuit court granted Respondents' motion and dismissed Dr. McGuire's petition with prejudice. Dr. McGuire now appeals.\nStandard of Review\nWe review a trial court's grant of a motion to dismiss de novo. Metro. St. Louis Sewer Dist. v. City of Bellefontaine Neighbors, 476 S.W.3d 913, 915 (Mo. banc 2016) (quoting Lynch v. Lynch, 260 S.W.3d 834, 836 (Mo. banc 2008) ). We \"treat[ ] the facts contained in the petition as true and in the light most favorable to the plaintiff.\" Id. Further, \"[i]f the petition sets forth any set of facts that, if proven, would entitle the plaintiff[ ] to relief, then the petition states a claim.\" Id.\nA motion to dismiss for failure to state a claim tests the adequacy of a plaintiff's petition. When considering whether a petition fails to state a claim upon which relief can be granted, this Court must accept all properly pleaded facts as true, giving the pleadings their broadest intendment, and construe all allegations favorably to the pleader. The Court reviews the petition to see if the facts alleged, given their broadest intendment, meet the elements of a cause of action that is recognized or that might be adopted.\nPeters v. Wady Indus., 489 S.W.3d 784, 789 (Mo. banc 2016) (internal quotations omitted).\nDiscussion\nI. Dr. McGuire Submitted an Insufficient Appellate Brief under Rule 84.04.\nDr. McGuire is a pro se appellant. We hold pro se appellants to the same standards as attorneys, including considerations for compliance with Supreme Court of Missouri Rules. See Carlisle v. Rainbow Connection, Inc., 300 S.W.3d 583, 584 (Mo. App. E.D. 2009). Although \"[w]e are mindful of the problems that a pro se litigant faces[,] ... judicial impartiality, judicial economy, and fairness to all parties necessitate that we do not grant a pro se appellant preferential treatment with regard to complying with the rules of appellate procedure.\" Id. at 584-85 ;\nMidtown Home Improvements, Inc. v. Taylor, No. ED106721, --- S.W.3d ----, ----, 2019 WL 1029609, at *2 (Mo. App. E.D. Mar. 5, 2019). Under the clear mandate of Rule 84.04, \"[w]hile we prefer, whenever possible, to dispose of a case on the merits, we must dismiss the appeal if the deficiencies in the brief are such that no claims are preserved for appellate review.\" Taylor, --- S.W.3d at ----, 2019 WL 1029609, at *5 (citing Hamilton v. Archer, 545 S.W.3d 377, 379 (Mo. App. E.D. 2018) ); see also Carden v. Mo. Intergovernmental Risk Mgmt. Ass'n, 258 S.W.3d 547, 557 (Mo. App. S.D. 2008) (\"This [C]ourt is under no obligation to review briefs which do not conform to the rules of procedure.\").\nAn appellate brief must contain:\n1) a detailed table of contents and an alphabetically-arranged table of cases and other authorities cited, all with corresponding page references, 2) a concise statement of the jurisdictional grounds, 3) a statement of facts, 4) a \"Point Relied On\" for each issue on appeal, 5) an argument that substantially follows the corresponding \"Point Relied On,\" and 6) a statement of the precise relief sought.\nPorter v. Div. of Emp't Sec., 310 S.W.3d 295, 296 (Mo. App. E.D. 2010) ; Rule 84.04(a). As an appellate court, we should not speculate as to the parameters of the appellant's argument because doing so would improperly cast the court in the role of the appellant's advocate. Porter, 310 S.W.3d at 296.\nDr. McGuire's appellate brief violates Rule 84.04 in several respects, leaving nothing for appellate review. See Carden, 258 S.W.3d at 557.\nBeginning with Dr. McGuire's jurisdictional statement, her brief is insufficient under Rule 84.04. See Taylor, --- S.W.3d at ----, 2019 WL 1029609, at *2. A jurisdictional statement must \"set forth sufficient factual data to demonstrate the applicability of the particular provision or provisions of article V, section 3 of the [Missouri] Constitution upon which jurisdiction is sought to be predicated.\" Rule 84.04(b). Dr. McGuire's jurisdictional statement, however, notes only a brief summary of her original suit. Specifically, the jurisdictional statement provides:\nAppellant's civil case, filed with the circuit clerk's office data was intentionally tampered with, Section 537-050, RSMo, and hence remained for six (6) days until the appellant questioned the falsified data with the active presiding judge clerk on the case and management, management without an Order accessed the appellant's case for a second time, without authorization and made further changes.\nThe jurisdictional statement does not refer to the constitutional basis for this Court's jurisdiction. Unifund CCR Partners v. Myers, 563 S.W.3d 740, 742 (Mo. App. E.D. 2018). Instead, Dr. McGuire's jurisdictional statement is an argumentative statement of facts. See Porter, 310 S.W.3d at 297. Dr. McGuire's jurisdictional statement fails to establish this Court's jurisdiction and thus merits dismissing the appeal. See Carden, 258 S.W.3d at 554.\nAdditionally, although Dr. McGuire included a section entitled \"Points on Appeal,\" this section is woefully inadequate under the criteria set forth under Rule 84.04(d). Each of Dr. McGuire's points on appeal fail to clearly and concisely state a claim of error. The deficiencies of Dr. McGuire's Points on Appeal are exemplified in Point Three:\nThe [circuit] court erred in denying Dr. McGuire's claim to establish the right to Accurate Entries because this decision was contrary to Judicial Personnel responsibilities, not supported by the substantial evidence and against the weight of the evidence in that the [circuit] court misapplied Civil rights law 42 U.S.C. \u00a7 1983 ; in imposing the burden upon Dr. McGuire to show the right to hold the defendants accountable for with convincing evidence; Dr. McGuire was not allowed to present substantial evidence that there were no written Orders for the unauthorized access to Dr. McGuire's employment discrimination case in the [Case.net] System; that this point was not allowed to be established by the [circuit] court, not only by the not allowing submitted motions to be heard and the ignoring of the detailed responsibilities listed in the Missouri Courts Judicial Branch of Government as well as by the repeated attempts to bringing the inaccurate entries to the attention of the Court by Dr. McGuire; the [circuit] court was presented with evidence one or more isolated instances where the defendants are responsible by the right for accurate entries because violations were supported by Presiding Judge Dean Paul Waldermer at the time of the Tampering (Obstruction of Justice) activities[.]\nUnder Rule 84.04(d)(2), \"each point relied on must identify the administrative ruling or action the appellant challenges, provide a concise statement of the legal reasons for the claim on appeal, and explain why the legal reasons support the claim of error.\" Johnson v. Buffalo Lodging Assocs., 300 S.W.3d 580, 582 (Mo. App. E.D. 2009). Dr. McGuire's points on appeal do not identify the action she challenges; concisely state the legal reason for the claim of reversible error; or explain in summary fashion why those legal reasons support the claim of reversible error as required by Rule 84.04. Id.; Rule 84.04(d)(2). \"Adherence to the rule serves to notify the opposing party of the precise matters under contention and inform the court of the issues presented for appeal.\" Carden, 258 S.W.3d at 556 ; Hamilton, 545 S.W.3d at 380. Here, Dr. McGuire's points on appeal merely list unrelated statutes and abstract statements of law which are not logically connected to a particular issue and do not explain a legal reason to support a claim of reversible error. Dr. McGuire's points on appeal are defective.\nLastly, Dr. McGuire's argument section also fails to comport with Rule 84.04. Rule 84.04(e) requires the argument portion of an appellate brief to:\n\"substantially follow the order\" set out in the points relied on, restate the point relied on at the beginning of any paragraph section discussing such point, include a concise statement of the applicable standard of review for each claim of error, and advise the court how the facts of the case and principles of law interact.\nDavis v. Long, 391 S.W.3d 532, 533 (Mo. App. E.D. 2013) ; Rule 84.04(e). \"If a party does not support contentions with relevant authority or argument beyond conclusory statements, the point is deemed abandoned.\" Carlisle, 300 S.W.3d at 585.\nThe argument section of Dr. McGuire's brief is interspersed with additional arguments that do not correspond with her points relied on and contain authority that is erroneously cited in both substance and form. Further, Dr. McGuire's arguments are conclusory. Dr. McGuire fails to explain why, in the context of the case, the law supports a claim of reversible error. Id. at 585-86 ; Carden, 258 S.W.3d at 557 (\"Appellant's argument should demonstrate how principles of law and the facts of the case interact.\"). Accordingly, Dr. McGuire's appellate brief fails to comply with Rule 84.04(e).\nDespite an appellant's failure to comply with Rule 84.04, we may exercise discretion to review the appeal when the failure does not substantially prevent meaningful review.\nKieffer v. Gianino, 301 S.W.3d 119, 120 (Mo. App. E.D. 2010). Here, Dr. McGuire's entire brief is inadequate. See Rule 84.04. While we prefer to decide cases on the merits, the deficiencies of Dr. McGuire's brief prevent meaningful appellate review. See id. We dismiss Dr. McGuire's appeal. However, we ex gratia explain below why Dr. McGuire's appeal lacks merit.\nII. Even if Dr. McGuire's Appeal Complied with Rule 84.04, Dr. McGuire's Petition Lacks Any Viable Claim for Relief.\n\"It is not the function of the appellate court to serve as advocate for any party to an appeal.\" Thummel v. King, 570 S.W.2d 679, 686 (Mo. banc 1978) ; Wilson v. Carnahan, 25 S.W.3d 664, 667 (Mo. App. W.D. 2000). \"As such, we have no duty to search the transcript or record to discover the facts which substantiate a point on appeal.\" Wilson, 25 S.W.3d at 667. \"That is the duty of the parties, not the function of an appellate court.\" Id. However, given the procedural posture of the trial court's dismissal of Dr. McGuire's amended petition, we need only review the facts presented in her amended petition to determine whether she presented any legal avenue for relief. See Peters, 489 S.W.3d at 789 (\"The Court reviews the petition to see if the facts alleged, given their broadest intendment, meet the elements of a cause of action that is recognized or that might be adopted.\"). Because our review is limited to the amended petition, we ex gratia review the substance of Dr. McGuire's appeal.\nA. Dr. McGuire's Petition Identifies No Viable Relief under the Statutes Referenced.\nDr. McGuire refers to the following federal statutes in her amended petition and associated hearings in reference to her claims: 18 U.S.C. \u00a7\u00a7 1029, 1505, 1506, 1512, 1519, 1520 ; 42 U.S.C. \u00a7 1983. Dr. McGuire has acknowledged that the following statutes do not apply: 18 U.S.C. \u00a7\u00a7 1512, 1519, and 18 U.S.C. \u00a7 1520. Thus, we need not address any claims asserted under these statutes. In her appellate brief, Dr. McGuire avers that she introduced 18 U.S.C. \u00a7\u00a7 242, 1030, and 1401 during a hearing to cure the citation errors in her amended petition. However, our review of a motion to dismiss for failure to state a claim is restricted to only those facts stated in the petition as formally amended, not any facts raised during a hearing or elsewhere. See Goodwin v. Goodwin, 583 S.W.2d 559, 559 (Mo. App. E.D. 1979) (\"In reviewing the granting of a motion to dismiss for failure to state a claim on which relief could be granted, the appellate court is confined to the face of the petition.\"); see also City of Bellefontaine Neighbors, 476 S.W.3d at 915 (\"If the petition sets forth any set of facts that, if proven, would entitle the plaintiff[ ] to relief, then the petition states a claim.\") (emphasis added). Dr. McGuire had an opportunity to file a second amended petition in which she could have pleaded new claims under 18 U.S.C. \u00a7\u00a7 242, 1030, and 1401. See Rule 55.33(a) (A trial court may grant a plaintiff leave to amend its petition after a responsive pleading is filed \"by leave of court or by written consent of the adverse party; and leave shall be freely given when justice so requires.\"). Dr. McGuire did not seek to amend her pleadings to add any claims under these newly cited statutes. Because Dr. McGuire did not include averments under 18 U.S.C. \u00a7\u00a7 242, 1030, or 1401 in her amended motion, we cannot consider these statutes on appeal. See Goodwin, 583 S.W.2d at 559.\nTurning to the face of her amended petition, first, we address 42 U.S.C. \u00a7 1983. The United States District Court for the Eastern District of Missouri thoroughly analyzed the application of \u00a7 1983 to Dr. McGuire's petition when the case was removed to the federal court for potential federal question jurisdiction. McGuire v. Edwards, No. 4:18-CV-71 CAS, 2018 WL 783064 (E.D. Mo. Feb. 8, 2018).\nSection 1983 is a remedial statute, which \"is not itself a source of substantive rights, but [rather] a method for vindicating federal rights elsewhere conferred.\" Albright v. Oliver, 510 U.S. 266, 271 [114 S.Ct. 807, 127 L.Ed.2d 114] (1994) (quoted case omitted). See also Wilson v. Spain, 209 F.3d 713, 715 (8th Cir. 2000) (\" Section 1983 does not confer substantive rights but merely provides a means to vindicate rights conferred by the Constitution or laws of the United States.\"). To state a claim under 42 U.S.C. \u00a7 1983, a plaintiff must establish two essential elements: (1) the violation of a right secured by the Constitution or laws of the United States, and (2) the alleged deprivation was committed by a person acting under color of state law. See West v. Atkins, 487 U.S. 42, 48 [108 S.Ct. 2250, 101 L.Ed.2d 40] (1988).\n[Dr. McGuire's] petition does not allege the violation of a right secured by the United States Constitution or federal law such that she could assert a claim under Section 1983. ... [Dr. McGuire] does not identify which of her constitutional rights were violated by these actions, and the Court finds that any claim of a constitutional violation based on the facts alleged is wholly insubstantial and obviously frivolous, and so completely devoid of merit as not to involve a federal controversy.\nId. at *4.\nAs properly noted in the federal action, Section 1983 is merely a vehicle for claims against persons acting under color of law. See West, 487 U.S. at 48, 108 S.Ct. 2250 ; City of Rancho Palos Verdes v. Abrams, 544 U.S. 113, 119-20, 125 S.Ct. 1453, 161 L.Ed.2d 316 (2005). \"[O]ne cannot go into court and claim a 'violation of \u00a7 1983 '-for \u00a7 1983 by itself does not protect anyone against anything.\" Chapman v. Houston Welfare Rights Org., 441 U.S. 600, 617, 99 S.Ct. 1905, 60 L.Ed.2d 508 (1979). We further note that Dr. McGuire's claims against the State of Missouri and OSCA are not cognizable under \u00a7 1983 because the State and its agencies are not \"persons\" under \u00a7 1983. Will v. Mich. Dep't of State Police, 491 U.S. 58, 69-71, 109 S.Ct. 2304, 105 L.Ed.2d 45 (1989) ; Williston v. Vasterling, 536 S.W.3d 321, 336 (Mo. App. W.D. 2017). Regarding the remaining defendants, our review of the amended petition confirms that Dr. McGuire did not plead violations of any applicable constitutional or statutory rights that would provide a basis for prosecuting a claim under \u00a7 1983.\nDr. McGuire cites federal criminal statutes 18 U.S.C. \u00a7\u00a7 1505 and 1506 as a basis for her \u00a7 1983 action. Dr. McGuire appears to argue that the inaccurate data on Case.net was a falsified record in a court proceeding under these federal statutes, and correspondingly, the falsification by a state or local official acting \"under color of state law\" necessarily implies the right to sue. Fatal to Dr. McGuire's claim is the fact that neither 18 U.S.C. \u00a7\u00a7 1505 nor 1506 provides a private right of action to Dr. McGuire or a basis to pursue any civil proceeding against Respondents. See Gonzaga Univ. v. Doe, 536 U.S. 273, 286-87, 122 S.Ct. 2268, 153 L.Ed.2d 309 (2002) ; see also Briand v. Lavigne, 223 F.Supp.2d 241, 251-52 (D. Me. 2002) (quoting Cok v. Cosentino, 876 F.2d 1, 2 (1st Cir. 1989) ) (\"Generally, a private citizen has no authority to initiate a federal criminal prosecution.\"). Statutes that \"focus on the person regulated rather than the individuals protected\" do not display any indication of Congressional intent to create a private right. Gonzaga Univ., 536 U.S. at 287, 122 S.Ct. 2268. The criminal statutes cited by Dr. McGuire do not provide her any relief individually or through \u00a7 1983. Thus, Dr. McGuire does not aver the violation of any statute that would survive a motion to dismiss for failure to state a claim.\nB. The Facts of the Amended Petition Do Not Suggest an Actionable Claim.\nAssuming the facts pleaded by Dr. McGuire as true, her amended petition describes the following situation: Dr. McGuire noticed an error in Case.net concerning the parties in her employment discrimination case. Court staff corrected the Change after only six days. Dr. McGuire admitted during appellate oral argument that the official file containing her employment discrimination case was not altered in any manner.\nCase.net is an electronic display of court information provided for the convenience of litigants and the public. Case.net is not an official court record. Johnson v. McCullough, 306 S.W.3d 551, 559 n.4 (Mo. banc 2010). When viewing a record, Case.net displays a disclaimer in the record's header advising parties that \"[t]his information is provided as a service and is not considered an official record.\" CASE.NET , https://www.courts.mo.gov/casenet (last visited Mar. 22, 2019); see also Case.net Public Inquiry , MISSOURI COURTS , https://www.courts.mo.gov/page.jsp?id=98876 (last visited Mar. 22, 2019). Case.net has limited usefulness and was created to streamline the filing and review processes for the convenience of parties. See Johnson, 306 S.W.3d at 559 n.4. Because Case.net entries on their face are not official court records, such entries do not have the force of law and cannot deprive the complaining party of life, liberty, or property. Cf. Wolff v. Ward, 104 Mo. 127, 16 S.W. 161, 169 (Mo. 1891) (finding a mere clerical error of not including a party in the caption of the petition did not prohibit judgment against that party). Further, it is recognized that Case.net may contain inaccurate and incomplete information. Johnson, 306 S.W.3d at 559 n.4. In order to obtain an official record, parties must visit the court of record and review the case's official file.\nHere, Dr. McGuire admits that the official file never reflected the Change, and no party was formally dismissed from her case. The Change entered on Case.net was merely clerical and, as such, was harmless. See id. After Edwards addressed the clerical mistake-merely six days after Dr. McGuire discovered the error-Dr. McGuire's issue was resolved. Dr. McGuire utterly failed to plead any facts sufficient to support a legal cause of action under any laws known by this Court; nor did Dr. McGuire claim Edwards's actions in correcting the clerical error caused her any recoverable damages. Dr. McGuire's amended petition pleaded no viable claim for relief. Dr. McGuire's amended petition was similarly deficient as is her brief in this appeal. The circuit court properly dismissed Dr. McGuire's amended petition for failure to state a claim. Even had Dr. McGuire's appellate brief complied with Rule 84.04, we would deny Dr. McGuire's points on appeal. Dr. McGuire's pursuit of profoundly meritless claims in both the circuit court and this Court has resulted in a substantial waste of judicial resources.\nConclusion\nThe appeal is dismissed for failure to adhere to the requirements of Rule 84.04. The costs of this appeal are assessed against Dr. McGuire.\nGary M. Gaertner, Jr., J., concurs.\nColleen Dolan, J., concurs.\nAll Rule references are to Mo. R. Civ. P. (2017).\nCase.net is Missouri's automated case record service. Johnson v. McCullough, 306 S.W.3d 551, 555 (Mo. banc 2010). Case.net is accessible using the following web address: https://www.courts.mo.gov/casenet. Case.net , https://www.courts.mo.gov/casenet (last visited Mar. 22, 2019).",
+        "type": "majority",
+        "author": "KURT S. ODENWALD, Presiding Judge"
+      }
+    ],
+    "attorneys": [
+      "Dr. Patt McGuire, 10164 Ventura Dr., St. Louis, MO 63136, for appellant.",
+      "Robert J. Isaacson, PO Box 861, St. Louis, MO 63188, Priscilla F. Gunn, 41 South Central Ave., 9th Fl., Clayton, MO 63105, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "Dr. Patt MCGUIRE, Appellant,\nv.\nJerry EDWARDS, Scott Briete, St. Louis County, State of Missouri, Office of the State Court Administrator, and Genevieve Frank, Respondents.\nNo. ED 106860\nMissouri Court of Appeals, Eastern District, DIVISION FOUR.\nFILED: April 2, 2019\nRehearing Denied April 29, 2019\nDr. Patt McGuire, 10164 Ventura Dr., St. Louis, MO 63136, for appellant.\nRobert J. Isaacson, PO Box 861, St. Louis, MO 63188, Priscilla F. Gunn, 41 South Central Ave., 9th Fl., Clayton, MO 63105, for respondents."
+  },
+  "file_name": "0661-01",
+  "first_page_order": 661,
+  "last_page_order": 670
+}

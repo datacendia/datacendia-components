@@ -1,0 +1,61 @@
+{
+  "id": 12417315,
+  "name": "Rollness v. United States",
+  "name_abbreviation": "Rollness v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5101",
+  "first_page": "932",
+  "last_page": "932",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 932"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 152,
+    "ocr_confidence": 0.667,
+    "sha256": "41075f3e912c9661a178026b1e6afb45a04c550ca5edf97cab5c5ecd2e9e6183",
+    "simhash": "1:d9b36b826d864850",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Rollness v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5101.\nRollness v. United States."
+  },
+  "file_name": "0932-07",
+  "first_page_order": 1008,
+  "last_page_order": 1008
+}

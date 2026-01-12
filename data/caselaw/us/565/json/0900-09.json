@@ -1,0 +1,59 @@
+{
+  "id": 12219207,
+  "name": "Dobric v. Baron",
+  "name_abbreviation": "Dobric v. Baron",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5300",
+  "first_page": "900",
+  "last_page": "900",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 900"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 90,
+    "ocr_confidence": 0.665,
+    "sha256": "9bc36cebf6006d2c02c6ec55da21e1f48d58770c1dd70461e859eae55c21999e",
+    "simhash": "1:36e055ce5125d216",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dobric v. Baron."
+    ],
+    "opinions": [
+      {
+        "text": "App. Div., Sup. Ct. N. Y., 2d Jud. Dept. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5300.\nDobric v. Baron."
+  },
+  "file_name": "0900-09",
+  "first_page_order": 982,
+  "last_page_order": 982
+}

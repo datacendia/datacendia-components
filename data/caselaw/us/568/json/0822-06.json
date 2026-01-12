@@ -1,0 +1,59 @@
+{
+  "id": 12409865,
+  "name": "Ray v. Michigan Department of Corrections",
+  "name_abbreviation": "Ray v. Michigan Department of Corrections",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-1463",
+  "first_page": "822",
+  "last_page": "822",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 822"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 90,
+    "ocr_confidence": 0.661,
+    "sha256": "c08ee3ec5f4ee68f277628d50a920fcd364717c2a9547ed29b71c5fa1f1d4baf",
+    "simhash": "1:355afae22809cab0",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ray v. Michigan Department of Corrections."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Mich. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1463.\nRay v. Michigan Department of Corrections."
+  },
+  "file_name": "0822-06",
+  "first_page_order": 898,
+  "last_page_order": 898
+}

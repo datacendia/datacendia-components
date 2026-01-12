@@ -1,0 +1,59 @@
+{
+  "id": 12224214,
+  "name": "Mesa-Lopez v. United States",
+  "name_abbreviation": "Mesa-Lopez v. United States",
+  "decision_date": "2012-05-29",
+  "docket_number": "No. 11-10090",
+  "first_page": "1030",
+  "last_page": "1030",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1030"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.62,
+    "sha256": "dbd312c6eea6b8d859fa2908d771800a1d33a20de3503ff3ab695367da1c6dae",
+    "simhash": "1:178a9e104a8db10e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mesa-Lopez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10090.\nMesa-Lopez v. United States."
+  },
+  "file_name": "1030-10",
+  "first_page_order": 906,
+  "last_page_order": 906
+}

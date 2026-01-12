@@ -1,0 +1,59 @@
+{
+  "id": 6004999,
+  "name": "Hassan v. United States",
+  "name_abbreviation": "Hassan v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-141",
+  "first_page": "952",
+  "last_page": "952",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 952"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 86,
+    "ocr_confidence": 0.684,
+    "sha256": "536cc9314ef1dc31e484b847fbae788495c05326baeefa67a73ff82241cadb17",
+    "simhash": "1:1c865a9b1a96060c",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hassan v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari before judgment denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-141.\nHassan v. United States."
+  },
+  "file_name": "0952-10",
+  "first_page_order": 974,
+  "last_page_order": 974
+}

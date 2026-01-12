@@ -1,0 +1,59 @@
+{
+  "id": 12428069,
+  "name": "Carthen v. United States",
+  "name_abbreviation": "Carthen v. United States",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-5948",
+  "first_page": "1092",
+  "last_page": "1092",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1092"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.707,
+    "sha256": "ff0bc06ceae93e81f646a2420368132fca9886c7f66fc4e510d686d57c49525c",
+    "simhash": "1:9d1ad3930b91565c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Carthen v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5948.\nCarthen v. United States."
+  },
+  "file_name": "1092-04",
+  "first_page_order": 1168,
+  "last_page_order": 1168
+}

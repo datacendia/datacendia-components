@@ -1,0 +1,59 @@
+{
+  "id": 6009701,
+  "name": "Williams v. United States",
+  "name_abbreviation": "Williams v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5318",
+  "first_page": "915",
+  "last_page": "915",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 915"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.658,
+    "sha256": "e271d7378875d947d7cbb149e92f0faf3c34606f22a856ee8eb5d55fcad46477",
+    "simhash": "1:a45bf769bbcb1f95",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. D. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5318.\nWilliams v. United States."
+  },
+  "file_name": "0915-05",
+  "first_page_order": 937,
+  "last_page_order": 937
+}

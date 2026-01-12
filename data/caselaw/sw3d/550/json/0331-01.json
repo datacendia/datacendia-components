@@ -1,0 +1,654 @@
+{
+  "id": 12656866,
+  "name": "Treveia Shawna MCCURDY, Appellant v. The STATE of Texas, Appellee",
+  "name_abbreviation": "McCurdy v. State",
+  "decision_date": "2018-05-08",
+  "docket_number": "NO. 14-16-00322-CR",
+  "first_page": "331",
+  "last_page": "340",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "550 S.W.3d 331"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex. App. Ct.",
+    "id": 30078,
+    "name": "Court of Appeals of Texas, Houston (14th Dist.)"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "387 S.W.3d 626",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7095288
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "633"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/387/0626-01"
+      ]
+    },
+    {
+      "cite": "343 S.W.3d 137",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7318461
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "143"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/343/0137-01"
+      ]
+    },
+    {
+      "cite": "187 S.W.3d 475",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8430717
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "483"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/187/0475-01"
+      ]
+    },
+    {
+      "cite": "187 S.W.3d 390",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8430140
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "392"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/187/0390-01"
+      ]
+    },
+    {
+      "cite": "101 S.W.3d 107",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9310229
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "110-11"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/101/0107-01"
+      ]
+    },
+    {
+      "cite": "537 S.W.3d 113",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12408994
+      ],
+      "weight": 5,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "117"
+        },
+        {
+          "page": "118"
+        },
+        {
+          "page": "118"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/537/0113-01"
+      ]
+    },
+    {
+      "cite": "877 S.W.2d 768",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        11761394
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "771"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/877/0768-01"
+      ]
+    },
+    {
+      "cite": "9 S.W.3d 808",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11495619
+      ],
+      "weight": 2,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "813"
+        },
+        {
+          "page": "813-14"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/9/0808-01"
+      ]
+    },
+    {
+      "cite": "726 S.W.2d 53",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9959780
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "55",
+          "parenthetical": "applying Strickland standard to ineffective-assistance claims under the Texas Constitution"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/726/0053-01"
+      ]
+    },
+    {
+      "cite": "945 S.W.2d 830",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        12000779
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "835"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/945/0830-01"
+      ]
+    },
+    {
+      "cite": "466 U.S. 668",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6204802
+      ],
+      "weight": 7,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "686"
+        },
+        {
+          "page": "687-88, 694"
+        },
+        {
+          "parenthetical": "applying Strickland standard to ineffective-assistance claims under the Texas Constitution"
+        },
+        {
+          "page": "689"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/466/0668-01"
+      ]
+    },
+    {
+      "cite": "394 S.W.3d 788",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7095042
+      ],
+      "pin_cites": [
+        {
+          "page": "792-93"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/394/0788-01"
+      ]
+    },
+    {
+      "cite": "527 S.W.3d 536",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12386475
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "543-44"
+        },
+        {
+          "page": "544"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/527/0536-01"
+      ]
+    },
+    {
+      "cite": "344 S.W.3d 409",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7319066
+      ],
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "412"
+        },
+        {
+          "page": "413"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/344/0409-01"
+      ]
+    },
+    {
+      "cite": "336 S.W.3d 242",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7319956
+      ],
+      "weight": 5,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "254"
+        },
+        {
+          "page": "252"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/336/0242-01"
+      ]
+    },
+    {
+      "cite": "46 S.W.3d 243",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11089268
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "246"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/46/0243-01"
+      ]
+    },
+    {
+      "cite": "542 S.W.3d 43",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12655988
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "45"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/542/0043-01"
+      ]
+    },
+    {
+      "cite": "186 S.W.3d 81",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8978567
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "86"
+        },
+        {
+          "page": "86"
+        },
+        {
+          "page": "86"
+        },
+        {
+          "page": "86"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/186/0081-01"
+      ]
+    },
+    {
+      "cite": "230 S.W.3d 225",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8347993
+      ],
+      "pin_cites": [
+        {
+          "page": "229-30"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/230/0225-01"
+      ]
+    },
+    {
+      "cite": "361 S.W.3d 694",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7317144
+      ],
+      "weight": 2,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "697"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/361/0694-01"
+      ]
+    },
+    {
+      "cite": "158 S.W.3d 44",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9013771
+      ],
+      "pin_cites": [
+        {
+          "page": "48"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/158/0044-01"
+      ]
+    },
+    {
+      "cite": "525 S.W.3d 351",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12386211
+      ],
+      "weight": 13,
+      "pin_cites": [
+        {
+          "page": "359"
+        },
+        {
+          "page": "359"
+        },
+        {
+          "page": "359"
+        },
+        {
+          "page": "359"
+        },
+        {
+          "page": "359"
+        },
+        {
+          "page": "359"
+        },
+        {
+          "page": "359"
+        },
+        {
+          "page": "359"
+        },
+        {
+          "page": "359"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/525/0351-01"
+      ]
+    },
+    {
+      "cite": "939 S.W.2d 607",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10023150
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "614"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/939/0607-01"
+      ]
+    },
+    {
+      "cite": "867 S.W.2d 43",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9994178
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "47"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/867/0043-01"
+      ]
+    },
+    {
+      "cite": "707 S.W.2d 611",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9973409
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "614"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/707/0611-01"
+      ]
+    },
+    {
+      "cite": "991 S.W.2d 267",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        11610362
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "271"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/991/0267-01"
+      ]
+    },
+    {
+      "cite": "819 S.W.2d 839",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9988000
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "846"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/819/0839-01"
+      ]
+    },
+    {
+      "cite": "667 S.W.2d 137",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9930892
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "143"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/667/0137-01"
+      ]
+    },
+    {
+      "cite": "29 S.W.3d 103",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11178593
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "111"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/29/0103-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 871,
+    "char_count": 20349,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2647816532933001
+    },
+    "sha256": "51794f9887cc6be7c19ed5c954a8ba917df65d0504a5cbe219e97b14bf990dad",
+    "simhash": "1:3b493ca6498571de",
+    "word_count": 3348
+  },
+  "last_updated": "2024-02-27T16:16:05.631967+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Panel consists of Chief Justice Frost and Justices Busby and Wise."
+    ],
+    "parties": [
+      "Treveia Shawna MCCURDY, Appellant\nv.\nThe STATE of Texas, Appellee"
+    ],
+    "opinions": [
+      {
+        "text": "Kem Thompson Frost, Chief Justice\nIn this opinion we address the sufficiency of the evidence to support appellant Treveia Shawna McCurdy's theft conviction as well as an alleged variance between the information charging the offense and the record evidence. We also consider appellant's ineffective-assistance-of-counsel claim based on her trial lawyer's failure to object to evidence. Finding no error, we affirm.\nFACTUAL AND PROCEDURAL BACKGROUND\nAppellant entered a chain store that sold home goods. Using cash, appellant purchased a handbag for $179.99 and two rugs, each priced at $399.99. Appellant's total purchase amounted to $1,060.82. Appellant left the store with the handbag, but left the two rugs sitting towards the front of the store. About ten minutes later, appellant came back to the store and returned the purse and the two rugs she had just purchased. Appellant received a cash refund of $1,060.82 for the items. Appellant's receipt for the items and refund receipt listed each item and its price, along with each item's department number and unique \"skew line\" or \"uline number,\" which identifies each item in the store. The chain store's practice was not to mark through return items on the receipt.\nA few hours later, appellant entered a different location of the chain store, carrying two rugs. Appellant showed the cashier the same receipt from earlier in the day and asked the cashier for a refund on the two rugs. The cashier called the manager to approve the refund. The manager compared the department number, uline number, and price of the rugs, as shown by the receipt, with the department number, uline number, and price of the rugs appellant brought into the store. Because the numbers handwritten on the rug matched the numbers on the receipt, the manager approved the refund and paid appellant $865.98 in cash for the return of the two rugs. The store later realized that the store did not carry those rugs as merchandise.\nWhile reviewing weekly reports of purchases, Daniel Cano, a loss-prevention officer for the chain store's parent company noticed that the company's records indicated the same rugs had been returned to the second location after they already had been returned to the first location. Cano explained that there is a lag in the chain store's computer system; returns do not appear on the system until twenty-four hours, so a cashier would not see that an item previously had been returned if the item was returned again within a twenty-four hour period after the returns were reported. Cano was able to see that the same rugs appeared to have been returned twice. Cano began investigating the transactions by pulling the electronic record for the returns and matching it with video surveillance. Appellant was arrested and charged with theft.\nThe information alleged appellant \"intentionally and knowingly unlawfully appropriated property, to wit: United States currency, of the value of $500 or more but less than $1,500, from Daniel Cano, the owner thereof, without effective consent of the owner and with the intent to deprive the owner of the property.\" Appellant pleaded, \"not guilty.\"\nIn the jury trial that followed, Cano testified that surveillance video showed that appellant was the person who purported to return the same rugs twice. The store manager in the second location identified appellant as the individual who made the return. The manager testified that the returned rugs contained the handwritten uline number and department number that matched the numbers on the receipt, but that the rugs were not the store's property. Cano testified that an individual could take a marker and handwrite the uline number on the rug as long as the individual had a receipt listing the uline number. The manager testified that the rugs appellant presented for return at the second location were thin and low quality compared with the rugs the store sold in the price range of the rugs indicated by the uline number. Cano testified that in his opinion, the return could not have been a mistake because the rugs appellant returned contained the incorrect uline numbers.\nAppellant gave a different account. She testified that she is an interior decorator and that she regularly purchases rugs for clients and then returns the rugs if the client does not want to use the rug. Appellant testified that on the date in question, she purchased the rugs from the store for a client and then learned that the client was not coming to the store so appellant returned the rugs as well as the purse. Appellant testified that later that day she was returning different rugs to the store near another client's home and mistakenly provided the cashier with the wrong receipt. Appellant stated that if the cashier had told her she had the wrong receipt she would have looked for the correct receipt or done the return without a receipt. Appellant testified that her practice was to store receipts for clients in a mass file. She said that her clients had never asked her for a receipt for any purchase because as long as the purchase was within the client's budget, the client did not care to know the price. Appellant did not bring any receipts with her to trial. Appellant could not explain why the rugs contained a uline number that corresponded with the uline number for the rugs she had returned to a different location earlier in the day.\nThe jury found appellant guilty as charged. The trial court assessed as punishment a $1000 fine and 365 days in jail, probated over eighteen months. Appellant now challenges her conviction, raising three issues on appeal.\nISSUES AND ANALYSES\nA. Sufficiency of the evidence of theft elements\nIn her first issue, appellant asserts that the record evidence is insufficient to prove she committed theft because there is no evidence that appellant intended to commit fraud. In particular, appellant argues that this court should evaluate the sufficiency of the evidence under the standard for theft in relationship to a contract, which appellant contends requires additional elements of proof.\nIn evaluating a challenge to the sufficiency of the evidence supporting a criminal conviction, we view the evidence in the light most favorable to the verdict. Wesbrook v. State , 29 S.W.3d 103, 111 (Tex. Crim. App. 2000). The issue on appeal is not whether we, as a court, believe the State's evidence or believe that appellant's evidence outweighs the State's evidence. Wicker v. State , 667 S.W.2d 137, 143 (Tex. Crim. App. 1984). We may not overturn the jury's verdict unless it is irrational or unsupported by proof beyond a reasonable doubt. Matson v. State , 819 S.W.2d 839, 846 (Tex. Crim. App. 1991). The jury \"is the sole judge of the credibility of the witnesses and of the strength of the evidence.\" Fuentes v. State, 991 S.W.2d 267, 271 (Tex. Crim. App. 1999). The jury may choose to believe or disbelieve any portion of the witnesses' testimony. Sharp v. State , 707 S.W.2d 611, 614 (Tex. Crim. App. 1986). We presume that when faced with conflicting evidence, the jury resolved conflicts in favor of the prevailing party. Turro v. State , 867 S.W.2d 43, 47 (Tex. Crim. App. 1993). Therefore, if any rational trier of fact could have found the essential elements of the crime beyond a reasonable doubt, we must affirm. McDuff v. State , 939 S.W.2d 607, 614 (Tex. Crim. App. 1997).\nA person commits theft when the person \"unlawfully appropriates property with the intent to deprive the owner of the property.\" Tex. Penal Code \u00a7 31.03(a) (West, Westlaw through 2017 1st C.S.); Long v. State , 525 S.W.3d 351, 359 (Tex. App.-Houston [14th Dist.] 2017, pet. ref'd). One appropriates property under section 31.03(a) of the Penal Code if one \"acquire[s] or otherwise exercise[s] control over property other than real property.\" Tex. Penal Code \u00a7 31.01(4)(B) (West, Westlaw through 2017 1st C.S.); Long , 525 S.W.3d at 359. Appropriation of property is unlawful if it is \"without the owner's effective consent.\" Tex. Penal Code \u00a7 31.03(b)(1) ; Long , 525 S.W.3d at 359. Consent is not effective if the consent is \"induced by deception or coercion.\" Tex. Penal Code \u00a7 31.01(3)(A) ; Long , 525 S.W.3d at 359. \"Deception\" means \"creating or confirming by words or conduct a false impression of law or fact that is likely to affect the judgment of another in the transaction, and that the actor does not believe to be true.\" Tex. Penal Code \u00a7 31.01(1)(A) ; Long , 525 S.W.3d at 359. One acts intentionally, or with intent, with respect to the nature of one's conduct or to a result of one's conduct when it is one's conscious objective or desire to engage in the conduct or cause the result. Tex. Penal Code \u00a7 6.03(a) ; Long , 525 S.W.3d at 359.\nIntent is a question of fact for the jury, and the jury may infer intent from the circumstances. See Reed v. State , 158 S.W.3d 44, 48 (Tex. App.-Houston [14th Dist.] 2005, pet. ref'd).\n\"Deprive\" means \"to withhold property from the owner permanently or for so extended a period of time that a major portion of the value or enjoyment of the property is lost to the owner.\" Tex. Penal Code \u00a7 31.01(2)(A) ; Long , 525 S.W.3d at 359. An \"owner\" \"has title to the property, possession of the property, whether lawful or not, or a greater right to possession of the property than the actor.\" Tex. Penal Code \u00a7 1.07(a)(35)(A) (West, Westlaw through 2017 1st C.S.); Long , 525 S.W.3d at 359. Money is considered property. Tex. Penal Code \u00a7 31.01(5)(C) ; Long , 525 S.W.3d at 359.\nA claim of theft made in connection with a contract requires proof of more than an intent to deprive the owner of property and subsequent appropriation of the property. Wirth v. State , 361 S.W.3d 694, 697 (Tex. Crim. App. 2012). For that type of theft, the evidence must show that the appropriation was a result of false pretext or fraud and that the accused intended to deprive the owner of the property at the time it was taken. Id. These additional requirements are needed to prove theft in connection with a contract because under the terms of a contract, individuals often have the right to deprive the owner of property in return for consideration. Jacobs v. State , 230 S.W.3d 225, 229-30 (Tex. App.-Houston [14th Dist.] 2006, no pet.).\nPresuming for the sake of argument that the line of cases relating to theft in connection with a contract applies to this case, the evidence in today's case would allow a rational trier of fact to find that appellant's appropriation of United States currency from the home-goods store was a result of fraud and that appellant intended to deprive the owner of the currency at the time it was taken. See Long , 525 S.W.3d at 362 ; Onwukwe v. State , 186 S.W.3d 81, 86 (Tex. App.-Houston [1st Dist.] 2005, no pet.). The jury reasonably could have inferred that appellant purchased the rugs, obtained the department number and uline number from the receipt, returned the rugs, wrote the department number and uline number from the original rugs on inferior rugs that did not belong to the chain store, and then presented the inferior rugs and a receipt that did not pertain to those two rugs to the second store, seeking a refund. See Long , 525 S.W.3d at 362 ; Onwukwe , 186 S.W.3d at 86. The jury reasonably could have inferred that appellant engaged in this conduct to deceive the store manager into giving her the $865.98 as a refund for the rugs, even though appellant had not purchased the rugs from that store. See Long , 525 S.W.3d at 362 ; Onwukwe , 186 S.W.3d at 86.\nThe evidence is sufficient to support appellant's conviction for theft. See Long , 525 S.W.3d at 362 ; Onwukwe , 186 S.W.3d at 86. We overrule appellant's first issue.\nB. Alleged variance between information and trial evidence\nWe address appellant's third issue before her second issue because, if meritorious, appellant's third issue would afford greater relief than her second issue. See Saldivar v. State , 542 S.W.3d 43, 45 (Tex. App.-Houston [14th Dist.] 2017). In her third issue, appellant asserts a material variance between the charging instrument and the trial evidence. Specifically, appellant asserts that the information alleged Cano was the owner of the stolen property and the trial evidence did not show Cano owned the property in question.\nA variance occurs when there is a discrepancy between the allegations in the charging instrument and the proof at trial. Gollihar v. State , 46 S.W.3d 243, 246 (Tex. Crim. App. 2001). We analyze an alleged variance between the charging instrument and the proof at trial under a sufficiency-of-the-evidence standard. Byrd v. State , 336 S.W.3d 242, 254 (Tex. Crim. App. 2011). The name of the owner of stolen property is not a substantive element of theft under the Penal Code, but in theft cases state law requires the state to allege the name of the owner of the property in its charging instrument. Garza v. State , 344 S.W.3d 409, 412 (Tex. Crim. App. 2011). Although the name of the owner is not a substantive element of theft, the State is required to prove beyond a reasonable doubt that the person alleged in the indictment as the owner of the property is the property owner. Byrd v. State , 336 S.W.3d at 252. The State may allege either the actual owner or a special owner. Id. A special owner is an individual who is in custody or control of property belonging to another. Id. An owner is anyone with a rational connection to the property through title, possession, whether lawful or not, or a greater right to possession of the property than the defendant. Id. \"Possession\" means actual care, custody, control, or management. Tex. Penal Code \u00a7 1.07(a)(39) ; Garza , 344 S.W.3d at 413.\nThe information alleged that Cano owned the stolen currency. At trial, Cano testified that he is an employee for the parent company of the chain store and that his job is to investigate organized retail crime. Cano testified that as a representative of the parent company, he had a greater right to possession of the $865.98 than appellant, that the money was taken without his consent, and that the $865.98 was a total loss to him. Based on Cano's testimony, the jury reasonably could have believed that Cano had a greater right to the $865.98 than appellant. See Binnion v. State , 527 S.W.3d 536, 543-44 (Tex. App.-Houston [1st Dist.] 2017, pet. ref'd) (holding employee's testimony that employee had greater right to funds than defendant sufficient evidence that employee was owner); Sandone v. State , 394 S.W.3d 788, 792-93 (Tex. App.-Fort Worth 2013, no pet.) (holding loss-prevention officer qualified as owner of stolen property). The evidence suffices to show that Cano owned the $865.98 because the record contains evidence showing that Cano had a greater right to the $865.98 than appellant. See Binnion , 527 S.W.3d at 544. We overrule appellant's third issue.\nC. Ineffective-assistance-of-counsel claim\nIn appellant's second issue, appellant asserts that her trial counsel did not render effective assistance because trial counsel failed to object when the prosecutor asked Cano whether the second return by appellant was a mistake or accident. According to appellant, the testimony was inadmissible because Cano was not an expert witness and the inquiry invaded the province of the jury because the question asked Cano to provide an ultimate conclusion on the appellant's guilt or innocence. Appellant filed a motion for new trial but did not raise ineffective assistance of counsel, so the record is silent regarding counsel's reasons, if any, for not objecting to the question.\nBoth the United States Constitution and the Texas Constitution guarantee an accused the right to assistance of counsel. U.S. Const. amend. VI ; Tex. Const. art. I, \u00a7 10 ; see also Tex. Code Crim. Proc. Ann. art. 1.051 (West, Westlaw through 2017 1st C.S.). This right necessarily includes the right to reasonably effective assistance of counsel. Strickland v. Washington , 466 U.S. 668, 686, 104 S.Ct. 2052, 80 L.Ed.2d 674 (1984)\n; Ex parte Gonzales , 945 S.W.2d 830, 835 (Tex. Crim. App. 1997). To prevail on an ineffective-assistance claim, a defendant must prove (1) counsel's representation fell below the objective standard of reasonableness, and (2) there is a reasonable probability that but for counsel's deficiency the result of the proceeding would have been different. Strickland , 466 U.S. at 687-88, 694, 104 S.Ct. 2052 ; see Hernandez v. State , 726 S.W.2d 53, 55 (Tex. Crim. App. 1986) (applying Strickland standard to ineffective-assistance claims under the Texas Constitution). In considering an ineffective-assistance claim, we indulge a strong presumption that counsel's actions fell within the wide range of reasonable professional behavior and were motivated by sound trial strategy. Strickland , 466 U.S. at 689, 104 S.Ct. 2052 ; Thompson v. State , 9 S.W.3d 808, 813 (Tex. Crim. App. 1999) ; Jackson v. State , 877 S.W.2d 768, 771 (Tex. Crim. App. 1994). To defeat this presumption, any allegation of ineffectiveness must be firmly founded in the record and the record must affirmatively demonstrate the alleged ineffectiveness. Prine v. State , 537 S.W.3d 113, 117 (Tex. Crim. App. 2017).\nTrial counsel generally should be given an opportunity to explain counsel's actions before being found ineffective. Id. In most cases, direct appeal is an inadequate vehicle for raising such a claim because the record generally stands undeveloped and cannot adequately reflect the motives behind trial counsel's actions. Rylander v. State , 101 S.W.3d 107, 110-11 (Tex. Crim. App. 2003) ; Thompson , 9 S.W.3d at 813-14. In the face of a silent record, we cannot know trial counsel's strategy, so we will not find deficient performance unless the challenged conduct was \"so outrageous that no competent attorney would have engaged in it.\" Goodspeed v. State , 187 S.W.3d 390, 392 (Tex. Crim. App. 2005). A sound trial strategy may be executed imperfectly, but the right to effective assistance of counsel does not entitle a defendant to errorless or perfect counsel. Robertson v. State , 187 S.W.3d 475, 483 (Tex. Crim. App. 2006). Instead, we \"review the totality of the representation and the circumstances of each case without the benefit of hindsight.\" Lopez v. State , 343 S.W.3d 137, 143 (Tex. Crim. App. 2011). Counsel's conscious decision not to pursue a defense or to call a witness or to object to evidence is not insulated from review, but, unless a defendant overcomes the presumption that counsel's actions were based in sound trial strategy, counsel generally will not be found ineffective. Ex parte Flores , 387 S.W.3d 626, 633 (Tex. Crim. App. 2012).\nDecisions relating to objecting to evidence implicate strategy. Prine , 537 S.W.3d at 118. The decision not to object to a piece of evidence is the type of strategic decision that requires courts to evaluate an attorney's explanation before concluding counsel was ineffective. Id. The record does not contain counsel's reasons for failing to object to the evidence, so to hold counsel ineffective would require this court to speculate regarding counsel's reasons. The record does not demonstrate that counsel's failure to object to Cano's testimony was so outrageous that no reasonable attorney would have failed to object to the evidence. Without a more fully developed record, we cannot conclude trial counsel was ineffective in failing to do so. See id. at 118. We overrule appellant's second issue.\nCONCLUSION\nThe record contains sufficient evidence to support appellant's conviction for theft. The facts alleged in the information did not vary materially from the evidence presented at trial. The record evidence is sufficient to support appellant's conviction for theft under the information. Without a more fully developed record, we cannot determine whether trial counsel was ineffective in failing to object to Cano's testimony, so appellant has failed to show ineffective assistance of counsel. Having overruled all of appellant's issues, we affirm the trial court's judgment.",
+        "type": "majority",
+        "author": "Kem Thompson Frost, Chief Justice"
+      }
+    ],
+    "attorneys": [
+      "Harold V. Dutton, Houston, TX, for Appellant.",
+      "Monica Nunez-Garza, Richmond, TX, for the State."
+    ],
+    "corrections": "",
+    "head_matter": "Treveia Shawna MCCURDY, Appellant\nv.\nThe STATE of Texas, Appellee\nNO. 14-16-00322-CR\nCourt of Appeals of Texas, Houston (14th Dist.).\nOpinion filed May 8, 2018\nHarold V. Dutton, Houston, TX, for Appellant.\nMonica Nunez-Garza, Richmond, TX, for the State.\nPanel consists of Chief Justice Frost and Justices Busby and Wise."
+  },
+  "file_name": "0331-01",
+  "first_page_order": 331,
+  "last_page_order": 340
+}

@@ -1,0 +1,59 @@
+{
+  "id": 6018583,
+  "name": "Pete v. White, Warden",
+  "name_abbreviation": "Pete v. White",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7094",
+  "first_page": "1145",
+  "last_page": "1145",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1145"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.615,
+    "sha256": "a74a07991768456197904afc7904dd490b03408c7a6405f5347476583641b719",
+    "simhash": "1:97885ac2994e96ee",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pete v. White, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7094.\nPete v. White, Warden."
+  },
+  "file_name": "1145-04",
+  "first_page_order": 1167,
+  "last_page_order": 1167
+}

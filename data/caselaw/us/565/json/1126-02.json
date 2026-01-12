@@ -1,0 +1,59 @@
+{
+  "id": 12240588,
+  "name": "Ontiveros-Perez v. Colorado",
+  "name_abbreviation": "Ontiveros-Perez v. Colorado",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-7190",
+  "first_page": "1126",
+  "last_page": "1126",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1126"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 76,
+    "ocr_confidence": 0.618,
+    "sha256": "d609f138fe86a0a9b9ad37b0e9d6b835b9b35efad60812cad7b706e64ce41360",
+    "simhash": "1:189b42311522218b",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ontiveros-Perez v. Colorado."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Colo. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7190.\nOntiveros-Perez v. Colorado."
+  },
+  "file_name": "1126-02",
+  "first_page_order": 1208,
+  "last_page_order": 1208
+}

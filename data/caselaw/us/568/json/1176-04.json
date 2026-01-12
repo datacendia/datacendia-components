@@ -1,0 +1,59 @@
+{
+  "id": 12431224,
+  "name": "Morrow v. United States",
+  "name_abbreviation": "Morrow v. United States",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-7885",
+  "first_page": "1176",
+  "last_page": "1176",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1176"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.695,
+    "sha256": "5db88cc82a6f9a57915f0597365216867eb071398f650340465e970d2b242026",
+    "simhash": "1:01008b9b49d55f00",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Morrow v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7885.\nMorrow v. United States."
+  },
+  "file_name": "1176-04",
+  "first_page_order": 1252,
+  "last_page_order": 1252
+}

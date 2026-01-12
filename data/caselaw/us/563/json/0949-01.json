@@ -1,0 +1,59 @@
+{
+  "id": 5951688,
+  "name": "Wilson v. United States",
+  "name_abbreviation": "Wilson v. United States",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-9418",
+  "first_page": "949",
+  "last_page": "949",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 949"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.637,
+    "sha256": "0b51c0c42b44414351f5ebfb48c60b8bb7976960ecf57cf990360036dda85c8d",
+    "simhash": "1:b4abf6a3cf3511eb",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wilson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9418.\nWilson v. United States."
+  },
+  "file_name": "0949-01",
+  "first_page_order": 975,
+  "last_page_order": 975
+}

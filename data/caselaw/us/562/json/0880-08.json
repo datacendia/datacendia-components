@@ -1,0 +1,59 @@
+{
+  "id": 5997774,
+  "name": "Quigley v. Illinois",
+  "name_abbreviation": "Quigley v. Illinois",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11433",
+  "first_page": "880",
+  "last_page": "880",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 880"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 78,
+    "ocr_confidence": 0.628,
+    "sha256": "93b289587d5652ed98ae5d411cd6374cd924cb21924fbf0de2393987df2e627d",
+    "simhash": "1:6091909e7534bb0d",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Quigley v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 2d Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11433.\nQuigley v. Illinois."
+  },
+  "file_name": "0880-08",
+  "first_page_order": 902,
+  "last_page_order": 902
+}

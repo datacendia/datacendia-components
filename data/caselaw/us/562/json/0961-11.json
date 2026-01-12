@@ -1,0 +1,59 @@
+{
+  "id": 5940639,
+  "name": "Kereakoglow v. Massachusetts",
+  "name_abbreviation": "Kereakoglow v. Massachusetts",
+  "decision_date": "2010-10-12",
+  "docket_number": "No. 10-154",
+  "first_page": "961",
+  "last_page": "961",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 961"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 81,
+    "ocr_confidence": 0.631,
+    "sha256": "6d2c45938d3d1b92cda0c3b7600d1b22c7fba9d35a4e5bfd493868c7ccc7aad3",
+    "simhash": "1:a01268e779a4d100",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kereakoglow v. Massachusetts."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Jud. Ct. Mass. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-154.\nKereakoglow v. Massachusetts."
+  },
+  "file_name": "0961-11",
+  "first_page_order": 983,
+  "last_page_order": 983
+}

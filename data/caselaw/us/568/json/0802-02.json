@@ -1,0 +1,102 @@
+{
+  "id": 12407843,
+  "name": "Munoz v. Massachusetts; Shanton v. United States",
+  "name_abbreviation": "Munoz v. Massachusetts",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-9106; No. 11-10599",
+  "first_page": "802",
+  "last_page": "802",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 802"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "567 U. S. 50",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12407017
+      ],
+      "year": 2012,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/567/0050-01"
+      ]
+    },
+    {
+      "cite": "462 Fed. Appx. 297",
+      "category": "reporters:federal",
+      "reporter": "Fed. Appx.",
+      "year": 2012,
+      "opinion_index": 0
+    },
+    {
+      "cite": "958 N. E. 2d 1167",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "461 Mass. 126",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        4272775
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/461/0126-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 57,
+    "char_count": 412,
+    "ocr_confidence": 0.652,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2554826555525052
+    },
+    "sha256": "538f8ebb0ef0fbcd9ff375866ac9785a41674b3bded2e9db35215546af28c71f",
+    "simhash": "1:a2842154d4019688",
+    "word_count": 68
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Munoz v. Massachusetts. Shanton v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Jud. Ct. Mass. Reported below: 461 Mass. 126, 958 N. E. 2d 1167; and\nC. A. 4th Cir. Reported below: 462 Fed. Appx. 297. Motions of petitioners for leave to proceed in forma pauperis granted. Certiorari granted, judgments vacated, and cases remanded for further consideration in light of Williams v. Illinois, 567 U. S. 50 (2012).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9106.\nNo. 11-10599.\nMunoz v. Massachusetts. Shanton v. United States."
+  },
+  "file_name": "0802-02",
+  "first_page_order": 878,
+  "last_page_order": 878
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5992163,
+  "name": "Nguyen v. United States",
+  "name_abbreviation": "Nguyen v. United States",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-5175",
+  "first_page": "1140",
+  "last_page": "1140",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1140"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.651,
+    "sha256": "ed6412ea3db67492c5fe02ebee67a3d5eb54c0b69b22e63b9741b20f4a90ceb7",
+    "simhash": "1:843a628307250643",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Nguyen v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5175.\nNguyen v. United States."
+  },
+  "file_name": "1140-14",
+  "first_page_order": 1162,
+  "last_page_order": 1162
+}

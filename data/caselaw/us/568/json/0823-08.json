@@ -1,0 +1,59 @@
+{
+  "id": 12410041,
+  "name": "Caro et al. v. United States",
+  "name_abbreviation": "Caro v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-1483",
+  "first_page": "823",
+  "last_page": "823",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 823"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 78,
+    "ocr_confidence": 0.712,
+    "sha256": "5bdc60c524ec281b88b938eadde2e1396658f5b2153179b517d9bd66c79fb0b9",
+    "simhash": "1:9f788e0306a51c18",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Caro et al. v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1483.\nCaro et al. v. United States."
+  },
+  "file_name": "0823-08",
+  "first_page_order": 899,
+  "last_page_order": 899
+}

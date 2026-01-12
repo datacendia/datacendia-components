@@ -1,0 +1,59 @@
+{
+  "id": 12431095,
+  "name": "Johnson v. Varga, Warden",
+  "name_abbreviation": "Johnson v. Varga",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-7776",
+  "first_page": "1173",
+  "last_page": "1173",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1173"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 71,
+    "ocr_confidence": 0.64,
+    "sha256": "91c4e53e7f463b0e4f7328f378c20306a3bb4c8ee932ee32327399b95b29f670",
+    "simhash": "1:80d304ac278e0aeb",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Johnson v. Varga, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Va. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7776.\nJohnson v. Varga, Warden."
+  },
+  "file_name": "1173-06",
+  "first_page_order": 1249,
+  "last_page_order": 1249
+}

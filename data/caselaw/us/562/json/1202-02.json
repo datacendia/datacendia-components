@@ -1,0 +1,59 @@
+{
+  "id": 5988614,
+  "name": "Scott v. Urlich et al.",
+  "name_abbreviation": "Scott v. Urlich",
+  "decision_date": "2011-01-24",
+  "docket_number": "No. 10-6017",
+  "first_page": "1202",
+  "last_page": "1202",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1202"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 72,
+    "ocr_confidence": 0.619,
+    "sha256": "3d4a7489cea4dc124b15c638f515904a08ab7e61c6fe779a302d2600e7d5eeb3",
+    "simhash": "1:80c830eadb16da70",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Scott v. Urlich et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6017.\nScott v. Urlich et al."
+  },
+  "file_name": "1202-02",
+  "first_page_order": 1224,
+  "last_page_order": 1224
+}

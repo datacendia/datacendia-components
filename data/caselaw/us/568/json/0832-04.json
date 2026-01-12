@@ -1,0 +1,59 @@
+{
+  "id": 12411346,
+  "name": "Bookman v. United States District Court for the Eastern District of Pennsylvania",
+  "name_abbreviation": "Bookman v. United States District Court for the Eastern District of Pennsylvania",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10064",
+  "first_page": "832",
+  "last_page": "832",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 832"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 19,
+    "char_count": 129,
+    "ocr_confidence": 0.617,
+    "sha256": "b2eb4458204193d71d5905383a2770b5bafe589f94205331f3006157202cba08",
+    "simhash": "1:c789f973c825b037",
+    "word_count": 20
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bookman v. United States District Court for the Eastern District of Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10064.\nBookman v. United States District Court for the Eastern District of Pennsylvania."
+  },
+  "file_name": "0832-04",
+  "first_page_order": 908,
+  "last_page_order": 908
+}

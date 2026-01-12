@@ -1,0 +1,59 @@
+{
+  "id": 5951169,
+  "name": "Carter v. Nevada",
+  "name_abbreviation": "Carter v. Nevada",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-9072",
+  "first_page": "945",
+  "last_page": "945",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 945"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 64,
+    "ocr_confidence": 0.675,
+    "sha256": "85bf4262cd3537f9a40bf5d49ef7605280367c9fcb21caf42c65e203a18aade1",
+    "simhash": "1:80f6a723298eafcd",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Carter v. Nevada."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Nev. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9072.\nCarter v. Nevada."
+  },
+  "file_name": "0945-09",
+  "first_page_order": 971,
+  "last_page_order": 971
+}

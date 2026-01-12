@@ -1,0 +1,59 @@
+{
+  "id": 5908057,
+  "name": "Hunter v. Galaza, Warden",
+  "name_abbreviation": "Hunter v. Galaza",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10441",
+  "first_page": "844",
+  "last_page": "844",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 844"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.624,
+    "sha256": "9395f50da3c6ece9cea38da3ee17f8f9f28a3bedc40fe95874931f175d9c5d72",
+    "simhash": "1:d09322a92fbbe1e6",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hunter v. Galaza, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10441.\nHunter v. Galaza, Warden."
+  },
+  "file_name": "0844-08",
+  "first_page_order": 866,
+  "last_page_order": 866
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12252378,
+  "name": "Hatfield v. Jeffreys, Warden",
+  "name_abbreviation": "Hatfield v. Jeffreys",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. 11-8506",
+  "first_page": "1269",
+  "last_page": "1269",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1269"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.656,
+    "sha256": "3f7852d6b89eafc8cb94209b80cb17675a0edadac1badc52d25bc53879b97f33",
+    "simhash": "1:bf0b362eff3b0822",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hatfield v. Jeffreys, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8506.\nHatfield v. Jeffreys, Warden."
+  },
+  "file_name": "1269-07",
+  "first_page_order": 1351,
+  "last_page_order": 1351
+}

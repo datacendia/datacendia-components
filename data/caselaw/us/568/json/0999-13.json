@@ -1,0 +1,59 @@
+{
+  "id": 12421921,
+  "name": "McFadden v. Missouri",
+  "name_abbreviation": "McFadden v. Missouri",
+  "decision_date": "2012-11-05",
+  "docket_number": "No. 12-6064",
+  "first_page": "999",
+  "last_page": "999",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 999"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 68,
+    "ocr_confidence": 0.643,
+    "sha256": "e7f9386d7374de6e0acbea2f17f93d72027a0113620dcdfcbcf33649a6674ba8",
+    "simhash": "1:60675d600c4bd0c7",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McFadden v. Missouri."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Mo. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6064.\nMcFadden v. Missouri."
+  },
+  "file_name": "0999-13",
+  "first_page_order": 1075,
+  "last_page_order": 1075
+}

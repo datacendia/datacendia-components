@@ -1,0 +1,61 @@
+{
+  "id": 12209248,
+  "name": "Pignard v. United States",
+  "name_abbreviation": "Pignard v. United States",
+  "decision_date": "2012-04-16",
+  "docket_number": "No. 11-9264",
+  "first_page": "957",
+  "last_page": "957",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 957"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 26,
+    "char_count": 173,
+    "ocr_confidence": 0.573,
+    "sha256": "9bc6b5f3d14ca35ef8d63512e3ae87ffe1e4476e6dbb997215a94f26dff88511",
+    "simhash": "1:0d11eb0280de5d00",
+    "word_count": 28
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor and Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Pignard v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Cer-tiorari denied.\nJustice Sotomayor and Justice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9264.\nPignard v. United States."
+  },
+  "file_name": "0957-07",
+  "first_page_order": 833,
+  "last_page_order": 833
+}

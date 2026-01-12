@@ -1,0 +1,59 @@
+{
+  "id": 12422915,
+  "name": "Anderson v. City of Riverside, California, et al.",
+  "name_abbreviation": "Anderson v. City of Riverside",
+  "decision_date": "2012-11-13",
+  "docket_number": "No. 12-6215",
+  "first_page": "1014",
+  "last_page": "1014",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1014"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 97,
+    "ocr_confidence": 0.598,
+    "sha256": "1c45e312c55b269529668a576bd77faf0afcae98bdae615ce5dc6fc31462a61b",
+    "simhash": "1:10f54608bb7f355d",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Anderson v. City of Riverside, California, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6215.\nAnderson v. City of Riverside, California, et al."
+  },
+  "file_name": "1014-09",
+  "first_page_order": 1090,
+  "last_page_order": 1090
+}

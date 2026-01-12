@@ -1,0 +1,59 @@
+{
+  "id": 12228257,
+  "name": "Custer v. United States",
+  "name_abbreviation": "Custer v. United States",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-6144",
+  "first_page": "955",
+  "last_page": "955",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 955"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.689,
+    "sha256": "260edc13d461429e11daaa962de2244e97fb3b7cf30aa0c2bc66df39d087bc7e",
+    "simhash": "1:551afe234e9dfc6e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Custer v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6144.\nCuster v. United States."
+  },
+  "file_name": "0955-04",
+  "first_page_order": 1037,
+  "last_page_order": 1037
+}

@@ -1,0 +1,76 @@
+{
+  "id": 12429897,
+  "name": "Chadbourne & Parke LLP v. Troice et al.; Willis of Colorado Inc. et al. v. Troice et al.; and Proskauer Rose LLP v. Troice et al.",
+  "name_abbreviation": "Chadbourne & Parke LLP v. Troice",
+  "decision_date": "2013-01-18",
+  "docket_number": "No. 12-79; No. 12-86; No. 12-88",
+  "first_page": "1140",
+  "last_page": "1141",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1140"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "675 F. 3d 503",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3750942
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/675/0503-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 63,
+    "char_count": 610,
+    "ocr_confidence": 0.628,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.256277296475586
+    },
+    "sha256": "6c42c7086dc7bf544795582968f3168791c27887ea34313f2596066adb74553f",
+    "simhash": "1:7b7309b1990135ac",
+    "word_count": 107
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Chadbourne & Parke LLP v. Troice et al.; Willis of Colorado Inc. et al. v. Troice et al.; and Proskauer Rose LLP v. Troice et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Motions of Breazeale, Sachse & Wilson, LLP, and DRI-The Voice of the Defense Bar for leave to file briefs as amici curiae granted. Certiorari in No. 12-79 granted limited to Question 1 presented by the petition. Certiorari in No. 12-86 granted. Certiorari in No. 12-88 granted limited to Question 1 presented by the petition. Cases consolidated, and a total of one hour is allotted for oral argument. Reported below: 675 F. 3d 503.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-79.\nNo. 12-86.\nNo. 12-88.\nChadbourne & Parke LLP v. Troice et al.; Willis of Colorado Inc. et al. v. Troice et al.; and Proskauer Rose LLP v. Troice et al."
+  },
+  "file_name": "1140-06",
+  "first_page_order": 1216,
+  "last_page_order": 1217
+}

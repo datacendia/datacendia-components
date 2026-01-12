@@ -1,0 +1,59 @@
+{
+  "id": 5987061,
+  "name": "Edwards v. California",
+  "name_abbreviation": "Edwards v. California",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10530",
+  "first_page": "845",
+  "last_page": "845",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 845"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 70,
+    "ocr_confidence": 0.675,
+    "sha256": "2e00d263bc76cd206805e07d7ad76013fc8d7698904e9f8892a9c78132cc2046",
+    "simhash": "1:1e0a95f6cb7a184b",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Edwards v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10530.\nEdwards v. California."
+  },
+  "file_name": "0845-13",
+  "first_page_order": 867,
+  "last_page_order": 867
+}

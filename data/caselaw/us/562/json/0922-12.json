@@ -1,0 +1,59 @@
+{
+  "id": 5973222,
+  "name": "Wyrick v. Ebbert, Warden",
+  "name_abbreviation": "Wyrick v. Ebbert",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5451",
+  "first_page": "922",
+  "last_page": "922",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 922"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.587,
+    "sha256": "79c764585a3eaf954f8a3a4491113ba93b8f863cfeadd79c90bdbd08648f9d33",
+    "simhash": "1:b9ccfaa16a57b065",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wyrick v. Ebbert, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5451.\nWyrick v. Ebbert, Warden."
+  },
+  "file_name": "0922-12",
+  "first_page_order": 944,
+  "last_page_order": 944
+}

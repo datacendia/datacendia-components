@@ -1,0 +1,59 @@
+{
+  "id": 4126359,
+  "name": "Clinton v. California",
+  "name_abbreviation": "Clinton v. California",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5088",
+  "first_page": "903",
+  "last_page": "903",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 903"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 70,
+    "ocr_confidence": 0.573,
+    "sha256": "8782efd167d5752b60aa86c1a763b7a059b9826f6a24c75e55ca088b4cb4b289",
+    "simhash": "1:55b1608435b52006",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Clinton v. California."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5088.\nClinton v. California."
+  },
+  "file_name": "0903-04",
+  "first_page_order": 925,
+  "last_page_order": 925
+}

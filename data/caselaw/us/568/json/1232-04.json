@@ -1,0 +1,59 @@
+{
+  "id": 12433187,
+  "name": "Patel v. United States",
+  "name_abbreviation": "Patel v. United States",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-1017",
+  "first_page": "1232",
+  "last_page": "1232",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1232"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.644,
+    "sha256": "17c41e89a2f6f0d1eba75404343f9debbca93af6bd7d23c5ec582ec08efbfb50",
+    "simhash": "1:05089b8ac3999d48",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Patel v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-1017.\nPatel v. United States."
+  },
+  "file_name": "1232-04",
+  "first_page_order": 1308,
+  "last_page_order": 1308
+}

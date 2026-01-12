@@ -1,0 +1,59 @@
+{
+  "id": 12219968,
+  "name": "Nielson v. Ketchum et al.",
+  "name_abbreviation": "Nielson v. Ketchum",
+  "decision_date": "2012-05-21",
+  "docket_number": "No. 11-680",
+  "first_page": "1009",
+  "last_page": "1009",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1009"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 73,
+    "ocr_confidence": 0.584,
+    "sha256": "005e77bf000b96dc64a94a87c82bbd2ec70d5d333ed15b3e18645d9d65e992f7",
+    "simhash": "1:11d878a8db16962c",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Nielson v. Ketchum et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-680.\nNielson v. Ketchum et al."
+  },
+  "file_name": "1009-04",
+  "first_page_order": 885,
+  "last_page_order": 885
+}

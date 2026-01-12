@@ -1,0 +1,59 @@
+{
+  "id": 12423022,
+  "name": "Morris v. Cross et al.",
+  "name_abbreviation": "Morris v. Cross",
+  "decision_date": "2012-11-13",
+  "docket_number": "No. 12-6338",
+  "first_page": "1015",
+  "last_page": "1015",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1015"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 71,
+    "ocr_confidence": 0.608,
+    "sha256": "b65cfad1641105e7688e25dc8081907e492dfa2d8233f5b52836ce62f513a34a",
+    "simhash": "1:d8ac51ab9d09f536",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Morris v. Cross et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6338.\nMorris v. Cross et al."
+  },
+  "file_name": "1015-13",
+  "first_page_order": 1091,
+  "last_page_order": 1091
+}

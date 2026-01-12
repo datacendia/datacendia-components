@@ -1,0 +1,61 @@
+{
+  "id": 12417378,
+  "name": "Gonzaga Rodriquez v. United States",
+  "name_abbreviation": "Gonzaga Rodriquez v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5530",
+  "first_page": "934",
+  "last_page": "934",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 934"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 161,
+    "ocr_confidence": 0.644,
+    "sha256": "4ceb6fdee8dba1944c8799e34320763a0d1b76bff74dd7bc533756daeae3a51d",
+    "simhash": "1:1d337b822d8ce84e",
+    "word_count": 26
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Gonzaga Rodriquez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5530.\nGonzaga Rodriquez v. United States."
+  },
+  "file_name": "0934-02",
+  "first_page_order": 1010,
+  "last_page_order": 1010
+}

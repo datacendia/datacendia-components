@@ -1,0 +1,59 @@
+{
+  "id": 12431534,
+  "name": "Miller v. United States",
+  "name_abbreviation": "Miller v. United States",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-8100",
+  "first_page": "1182",
+  "last_page": "1182",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1182"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.56,
+    "sha256": "070a023202baa56147d50fbdaa347cc59d53cfb0db52139b1ac68a072a9f047e",
+    "simhash": "1:00bab3828f101208",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Miller v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8100.\nMiller v. United States."
+  },
+  "file_name": "1182-14",
+  "first_page_order": 1258,
+  "last_page_order": 1258
+}

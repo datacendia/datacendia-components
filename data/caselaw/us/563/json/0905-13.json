@@ -1,0 +1,59 @@
+{
+  "id": 5940936,
+  "name": "Garcia v. Florida",
+  "name_abbreviation": "Garcia v. Florida",
+  "decision_date": "2011-03-28",
+  "docket_number": "No. 10-8459",
+  "first_page": "905",
+  "last_page": "905",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 905"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 81,
+    "ocr_confidence": 0.625,
+    "sha256": "a0348394d4d8cf32b8a965962818e8f85ab25d632ce58487b54de3996e77b725",
+    "simhash": "1:bd30211af2654a0e",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Garcia v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 2d Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8459.\nGarcia v. Florida."
+  },
+  "file_name": "0905-13",
+  "first_page_order": 931,
+  "last_page_order": 931
+}

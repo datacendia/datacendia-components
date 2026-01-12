@@ -1,0 +1,59 @@
+{
+  "id": 5943596,
+  "name": "Allen v. Illinois",
+  "name_abbreviation": "Allen v. Illinois",
+  "decision_date": "2011-06-06",
+  "docket_number": "No. 10-8240",
+  "first_page": "1034",
+  "last_page": "1034",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1034"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.674,
+    "sha256": "088cf530e503f8ee5b814a7d3e7c1def946e11adfce150c4349a5d52064ac16d",
+    "simhash": "1:41f9d6506c35fc2e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Allen v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8240.\nAllen v. Illinois."
+  },
+  "file_name": "1034-14",
+  "first_page_order": 1060,
+  "last_page_order": 1060
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12431881,
+  "name": "Danielczyk et al. v. United States",
+  "name_abbreviation": "Danielczyk v. United States",
+  "decision_date": "2013-02-25",
+  "docket_number": "No. 12-579",
+  "first_page": "1193",
+  "last_page": "1193",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1193"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 82,
+    "ocr_confidence": 0.577,
+    "sha256": "689a079cf30145e0abb3c98039dd84d0ec7dda5415e7b01cd2bcf2d2a4afc77c",
+    "simhash": "1:95caded94facb109",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Danielczyk et al. v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-579.\nDanielczyk et al. v. United States."
+  },
+  "file_name": "1193-08",
+  "first_page_order": 1269,
+  "last_page_order": 1269
+}

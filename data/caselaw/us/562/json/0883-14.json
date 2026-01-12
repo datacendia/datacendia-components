@@ -1,0 +1,59 @@
+{
+  "id": 6018937,
+  "name": "Bryant v. Averitt Express, Inc.",
+  "name_abbreviation": "Bryant v. Averitt Express, Inc.",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11491",
+  "first_page": "883",
+  "last_page": "883",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 883"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 81,
+    "ocr_confidence": 0.638,
+    "sha256": "09b3024f2ef713cc90bae2f00b1eb34cc7f7bc3d814acb83561dd69edff127a2",
+    "simhash": "1:9f2b0a33a58ca27a",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bryant v. Averitt Express, Inc."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11491.\nBryant v. Averitt Express, Inc."
+  },
+  "file_name": "0883-14",
+  "first_page_order": 905,
+  "last_page_order": 905
+}

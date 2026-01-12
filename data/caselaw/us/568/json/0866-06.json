@@ -1,0 +1,59 @@
+{
+  "id": 12414402,
+  "name": "Phillips v. Cain, Warden",
+  "name_abbreviation": "Phillips v. Cain",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10867",
+  "first_page": "866",
+  "last_page": "866",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 866"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.614,
+    "sha256": "381358d64a16ca583e874e7a78cb5145ece9e83166e838176ff9088f6a6a2252",
+    "simhash": "1:effe9b8258cab666",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Phillips v. Cain, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10867.\nPhillips v. Cain, Warden."
+  },
+  "file_name": "0866-06",
+  "first_page_order": 942,
+  "last_page_order": 942
+}

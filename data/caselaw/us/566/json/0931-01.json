@@ -1,0 +1,98 @@
+{
+  "id": 12202822,
+  "name": "Springston v. United States; Caraway v. United States",
+  "name_abbreviation": "Springston v. United States",
+  "decision_date": "2012-04-16",
+  "docket_number": "No. 11-7325; No. 11-8138",
+  "first_page": "931",
+  "last_page": "931",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 931"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "565 U. S. 432",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12186464,
+        12446026
+      ],
+      "year": 2012,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/565/0432-01",
+        "/l-ed-2d/181/0935-01"
+      ]
+    },
+    {
+      "cite": "431 Fed. Appx. 49",
+      "category": "reporters:federal",
+      "reporter": "Fed. Appx.",
+      "year": 2012,
+      "opinion_index": 0
+    },
+    {
+      "cite": "650 F. 3d 1153",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3749777
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/650/1153-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 51,
+    "char_count": 411,
+    "ocr_confidence": 0.547,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.24764455379444902
+    },
+    "sha256": "c9edcb888ab087859fc49beb06ce75c195cb43d0f48d352aa7d16c824b64af0b",
+    "simhash": "1:2403b3128c059e1e",
+    "word_count": 68
+  },
+  "last_updated": "2024-02-27T23:45:15.365324+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Springston v. United States. Caraway v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Reported below: 650 F. 3d 1153; and\nC. A. 2d Cir. Reported below: 431 Fed. Appx. 49. Motions of petitioners for leave to proceed informa pauperis granted. Certiorari granted, judgments vacated, and cases remanded for further consideration in light of Reynolds v. United States, 565 U. S. 432 (2012).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "April 16, 2012\nNo. 11-7325.\nNo. 11-8138.\nSpringston v. United States. Caraway v. United States."
+  },
+  "file_name": "0931-01",
+  "first_page_order": 807,
+  "last_page_order": 807
+}

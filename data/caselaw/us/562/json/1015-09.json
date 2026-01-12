@@ -1,0 +1,59 @@
+{
+  "id": 6009977,
+  "name": "Henderson v. United States",
+  "name_abbreviation": "Henderson v. United States",
+  "decision_date": "2010-11-01",
+  "docket_number": "No. 10-6527",
+  "first_page": "1015",
+  "last_page": "1015",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1015"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.607,
+    "sha256": "35fc94cb7625ddc2c4966e24de81eba112b0e8777aee91d89f0e711dc0c1785a",
+    "simhash": "1:878bee79cebd3935",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Henderson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6527.\nHenderson v. United States."
+  },
+  "file_name": "1015-09",
+  "first_page_order": 1037,
+  "last_page_order": 1037
+}

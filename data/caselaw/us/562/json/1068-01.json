@@ -1,0 +1,59 @@
+{
+  "id": 5943105,
+  "name": "Mulder v. Williams, Warden",
+  "name_abbreviation": "Mulder v. Williams",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 10-6570",
+  "first_page": "1068",
+  "last_page": "1068",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1068"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.613,
+    "sha256": "7f14e5b2b5faae75520d1d4728eb0be7516cbd8980a87dc73c703f5107fb4c6c",
+    "simhash": "1:1cd225c539a13077",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mulder v. Williams, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6570.\nMulder v. Williams, Warden."
+  },
+  "file_name": "1068-01",
+  "first_page_order": 1090,
+  "last_page_order": 1090
+}

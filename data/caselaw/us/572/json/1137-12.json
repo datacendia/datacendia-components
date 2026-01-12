@@ -1,0 +1,68 @@
+{
+  "id": 12706679,
+  "name": "Eugene THOMPSON, petitioner, v. UNITED STATES.",
+  "name_abbreviation": "Thompson v. United States",
+  "decision_date": "2014-05-27",
+  "docket_number": "No. 13\u20138781.",
+  "first_page": "1137",
+  "last_page": "1137",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "572 U.S. 1137"
+    },
+    {
+      "type": "parallel",
+      "cite": "189 L. Ed. 2d 213"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 2663"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 210,
+    "sha256": "301a613c775746aeedc2872b64e5c2df79910ae8ebcacdf7612c18bc67a10abe",
+    "simhash": "1:55ff74443b85525d",
+    "word_count": 34
+  },
+  "last_updated": "2021-09-08T21:16:17.237805+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Eugene THOMPSON, petitioner,\nv.\nUNITED STATES."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of certiorari to the United States Court of Appeals for the Fifth Circuit denied."
+    ],
+    "corrections": "",
+    "head_matter": "Eugene THOMPSON, petitioner,\nv.\nUNITED STATES.\nNo. 13-8781.\nSupreme Court of the United States\nMay 27, 2014.\nPetition for writ of certiorari to the United States Court of Appeals for the Fifth Circuit denied."
+  },
+  "file_name": "1137-12",
+  "first_page_order": 1137,
+  "last_page_order": 1137
+}

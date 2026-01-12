@@ -1,0 +1,59 @@
+{
+  "id": 5962701,
+  "name": "Dunigan v. Superior Court of California, Sacramento County, et al.",
+  "name_abbreviation": "Dunigan v. Superior Court of California",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8252",
+  "first_page": "1240",
+  "last_page": "1240",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1240"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 113,
+    "ocr_confidence": 0.538,
+    "sha256": "11f585751dd499d2838eb55212782466509b4acba3235cb069246d2e82ef5482",
+    "simhash": "1:ca23f2f0173c0758",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dunigan v. Superior Court of California, Sacramento County, et al."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8252.\nDunigan v. Superior Court of California, Sacramento County, et al."
+  },
+  "file_name": "1240-07",
+  "first_page_order": 1262,
+  "last_page_order": 1262
+}

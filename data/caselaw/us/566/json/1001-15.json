@@ -1,0 +1,59 @@
+{
+  "id": 12218812,
+  "name": "Body v. United States",
+  "name_abbreviation": "Body v. United States",
+  "decision_date": "2012-05-14",
+  "docket_number": "No. 11-9722",
+  "first_page": "1001",
+  "last_page": "1001",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1001"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.595,
+    "sha256": "243ae6eb0dc6ff31df6f900072a8ee12ed1b52fbb76eab639a46a5dd165cbcf4",
+    "simhash": "1:204a9a0a8ac19018",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Body v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9722.\nBody v. United States."
+  },
+  "file_name": "1001-15",
+  "first_page_order": 877,
+  "last_page_order": 877
+}

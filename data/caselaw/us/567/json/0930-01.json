@@ -1,0 +1,94 @@
+{
+  "id": 12410665,
+  "name": "Blye et al. v. Kozinski, Chief Judge, United States Court of Appeals for the Ninth Circuit, et al.",
+  "name_abbreviation": "Blye v. Kozinski",
+  "decision_date": "2012-06-18",
+  "docket_number": "No. 11-1063",
+  "first_page": "930",
+  "last_page": "930",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 930"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "566 U. S. 970",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12212033,
+        12212002,
+        12211964,
+        12212070,
+        12212009,
+        12211979,
+        12212017,
+        12212050,
+        12211991,
+        12212092,
+        12211967
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/566/0970-08",
+        "/us/566/0970-05",
+        "/us/566/0970-01",
+        "/us/566/0970-10",
+        "/us/566/0970-06",
+        "/us/566/0970-03",
+        "/us/566/0970-07",
+        "/us/566/0970-09",
+        "/us/566/0970-04",
+        "/us/566/0970-11",
+        "/us/566/0970-02"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 35,
+    "char_count": 238,
+    "ocr_confidence": 0.661,
+    "sha256": "01e272776c3e470caa5d916bd32f2d84af7b2fa5cd2afc60fcd83d8db8576100",
+    "simhash": "1:8e3158864f6e73ca",
+    "word_count": 41
+  },
+  "last_updated": "2024-02-27T23:46:21.325002+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Breyer took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Blye et al. v. Kozinski, Chief Judge, United States Court of Appeals for the Ninth Circuit, et al.,"
+    ],
+    "opinions": [
+      {
+        "text": "566 U. S. 970. Petition for rehearing denied.\nJustice Breyer took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1063.\nBlye et al. v. Kozinski, Chief Judge, United States Court of Appeals for the Ninth Circuit, et al.,"
+  },
+  "file_name": "0930-01",
+  "first_page_order": 834,
+  "last_page_order": 834
+}

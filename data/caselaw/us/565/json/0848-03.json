@@ -1,0 +1,59 @@
+{
+  "id": 12205263,
+  "name": "Forney v. Florida",
+  "name_abbreviation": "Forney v. Florida",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10755",
+  "first_page": "848",
+  "last_page": "848",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 848"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 83,
+    "ocr_confidence": 0.676,
+    "sha256": "740d0dcbdbc71ff1e98c8a4a9a866f3a848a94054566ff0da328520eed3e4eec",
+    "simhash": "1:a118551226c16912",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Forney v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 4th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10755.\nForney v. Florida."
+  },
+  "file_name": "0848-03",
+  "first_page_order": 930,
+  "last_page_order": 930
+}

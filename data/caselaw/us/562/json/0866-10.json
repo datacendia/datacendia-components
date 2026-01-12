@@ -1,0 +1,59 @@
+{
+  "id": 6017159,
+  "name": "Owens v. Georgia",
+  "name_abbreviation": "Owens v. Georgia",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11190",
+  "first_page": "866",
+  "last_page": "866",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 866"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 64,
+    "ocr_confidence": 0.569,
+    "sha256": "0ced6b528d18d7c56f87775dfc9ecbc86cc559c02538b3909afc5478a5be4c24",
+    "simhash": "1:c0ad88b1445c9431",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Owens v. Georgia."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ga. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11190.\nOwens v. Georgia."
+  },
+  "file_name": "0866-10",
+  "first_page_order": 888,
+  "last_page_order": 888
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5972035,
+  "name": "Rashid v. United States",
+  "name_abbreviation": "Rashid v. United States",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 10-7281",
+  "first_page": "1077",
+  "last_page": "1077",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1077"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.568,
+    "sha256": "73c94ea7cc3d806eabbeaa2c36432fb723f07cc03b13355a3ea061b9946f740b",
+    "simhash": "1:0a28990ae8909c0a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rashid v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7281.\nRashid v. United States."
+  },
+  "file_name": "1077-07",
+  "first_page_order": 1099,
+  "last_page_order": 1099
+}

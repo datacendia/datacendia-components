@@ -1,0 +1,59 @@
+{
+  "id": 5928006,
+  "name": "Green v. Palmer, Warden",
+  "name_abbreviation": "Green v. Palmer",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-8893",
+  "first_page": "941",
+  "last_page": "941",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 941"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 71,
+    "ocr_confidence": 0.607,
+    "sha256": "7225c5a14b06cf97b84ea8cbda1077076f2bf21317727d5f2e7bb07358b50123",
+    "simhash": "1:c0bc02b905a71d44",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Green v. Palmer, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Nev. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8893.\nGreen v. Palmer, Warden."
+  },
+  "file_name": "0941-05",
+  "first_page_order": 967,
+  "last_page_order": 967
+}

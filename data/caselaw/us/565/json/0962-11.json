@@ -1,0 +1,59 @@
+{
+  "id": 12229000,
+  "name": "McClendon v. Rednour, Warden",
+  "name_abbreviation": "McClendon v. Rednour",
+  "decision_date": "2011-10-17",
+  "docket_number": "No. 10-10487",
+  "first_page": "962",
+  "last_page": "962",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 962"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.682,
+    "sha256": "aad0ff816df6cd8e17a0f9a54415e01280a77d49591078a2a07106aa6987a1d6",
+    "simhash": "1:b6cd84fdde6b41ae",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McClendon v. Rednour, Warden"
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10487.\nMcClendon v. Rednour, Warden"
+  },
+  "file_name": "0962-11",
+  "first_page_order": 1044,
+  "last_page_order": 1044
+}

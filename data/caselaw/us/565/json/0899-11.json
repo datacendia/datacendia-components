@@ -1,0 +1,59 @@
+{
+  "id": 12219002,
+  "name": "Young Son Im v. United States",
+  "name_abbreviation": "Young Son Im v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5285",
+  "first_page": "899",
+  "last_page": "899",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 899"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 77,
+    "ocr_confidence": 0.682,
+    "sha256": "3dda25c562a62f5d3fb76ab1859161842dc6fa1763f39d70216e0acc543415f6",
+    "simhash": "1:95c3833b9b973509",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Young Son Im v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5285.\nYoung Son Im v. United States."
+  },
+  "file_name": "0899-11",
+  "first_page_order": 981,
+  "last_page_order": 981
+}

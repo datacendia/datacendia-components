@@ -1,0 +1,59 @@
+{
+  "id": 12430094,
+  "name": "Johnson v. Orange County, Virginia, et al.",
+  "name_abbreviation": "Johnson v. Orange County",
+  "decision_date": "2013-01-22",
+  "docket_number": "No. 12-7363",
+  "first_page": "1146",
+  "last_page": "1146",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1146"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 90,
+    "ocr_confidence": 0.614,
+    "sha256": "43f0ce6277385db9e52e117c9d252503d20c3048505711c4c4467ba23a2ab6ce",
+    "simhash": "1:378840c8d79e1127",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Johnson v. Orange County, Virginia, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7363.\nJohnson v. Orange County, Virginia, et al."
+  },
+  "file_name": "1146-07",
+  "first_page_order": 1222,
+  "last_page_order": 1222
+}

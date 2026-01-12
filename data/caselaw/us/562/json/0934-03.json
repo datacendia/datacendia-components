@@ -1,0 +1,59 @@
+{
+  "id": 5972765,
+  "name": "Salazar v. Florida",
+  "name_abbreviation": "Salazar v. Florida",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5669",
+  "first_page": "934",
+  "last_page": "934",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 934"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 82,
+    "ocr_confidence": 0.645,
+    "sha256": "63b45f815a9ccde94a96f1c95b5292d00381abaa14df5f340288b190cb62fb82",
+    "simhash": "1:a960051622654e18",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Salazar v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 2d Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5669.\nSalazar v. Florida."
+  },
+  "file_name": "0934-03",
+  "first_page_order": 956,
+  "last_page_order": 956
+}

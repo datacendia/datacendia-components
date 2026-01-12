@@ -1,0 +1,64 @@
+{
+  "id": 12702078,
+  "name": "State of TEXAS, plaintiff, v. State of NEW MEXICO.",
+  "name_abbreviation": "State v. New Mexico",
+  "decision_date": "2013-10-07",
+  "docket_number": "No. 65, Original.",
+  "first_page": "808",
+  "last_page": "808",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 808"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 372"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 45,
+    "char_count": 330,
+    "sha256": "cb95a45c1ad1adf776e80b0e8c95f06db35a1fbaaa3d8685532c905c41efe9b5",
+    "simhash": "1:e8fb4c0a7fc594e9",
+    "word_count": 59
+  },
+  "last_updated": "2021-09-08T21:16:17.237805+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "State of TEXAS, plaintiff,\nv.\nState of NEW MEXICO."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Motion of River Master for fees and reimbursement of expenses granted, and the River Master is awarded a total of $6,889.03 for the period July 1, 2012, through June 30, 2013, to be paid equally by the parties."
+    ],
+    "corrections": "",
+    "head_matter": "State of TEXAS, plaintiff,\nv.\nState of NEW MEXICO.\nNo. 65, Original.\nSupreme Court of the United States\nOct. 7, 2013.\nMotion of River Master for fees and reimbursement of expenses granted, and the River Master is awarded a total of $6,889.03 for the period July 1, 2012, through June 30, 2013, to be paid equally by the parties."
+  },
+  "file_name": "0808-10",
+  "first_page_order": 808,
+  "last_page_order": 808
+}

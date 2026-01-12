@@ -1,0 +1,59 @@
+{
+  "id": 6016425,
+  "name": "Gospidon v. United States",
+  "name_abbreviation": "Gospidon v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8479",
+  "first_page": "1246",
+  "last_page": "1246",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1246"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.61,
+    "sha256": "1ebcfe8d46538d1483f8b8666bcd555751dd53924a45338d285e6d723c9513ea",
+    "simhash": "1:17aacb2306cfb058",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gospidon v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8479.\nGospidon v. United States."
+  },
+  "file_name": "1246-07",
+  "first_page_order": 1268,
+  "last_page_order": 1268
+}

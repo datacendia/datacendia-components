@@ -1,0 +1,59 @@
+{
+  "id": 12412694,
+  "name": "Yarns v. Florida",
+  "name_abbreviation": "Yarns v. Florida",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10363",
+  "first_page": "841",
+  "last_page": "841",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 841"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 82,
+    "ocr_confidence": 0.645,
+    "sha256": "6bd63e54df8a47566f21cb7d06e880e803a7f6c3f854c8c0734d3472bcdd1955",
+    "simhash": "1:d118504266c97a14",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Yarns v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10363.\nYarns v. Florida."
+  },
+  "file_name": "0841-08",
+  "first_page_order": 917,
+  "last_page_order": 917
+}

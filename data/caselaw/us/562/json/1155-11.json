@@ -1,0 +1,59 @@
+{
+  "id": 5971353,
+  "name": "Izegwire v. United States",
+  "name_abbreviation": "Izegwire v. United States",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7581",
+  "first_page": "1155",
+  "last_page": "1155",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1155"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.605,
+    "sha256": "cf6489eaaf582c53e59dbd63b738235ae41601787e75fb70f83424ac27ec9b53",
+    "simhash": "1:16ca82c1cebdb119",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Izegwire v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7581.\nIzegwire v. United States."
+  },
+  "file_name": "1155-11",
+  "first_page_order": 1177,
+  "last_page_order": 1177
+}

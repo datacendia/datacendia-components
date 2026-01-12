@@ -1,0 +1,59 @@
+{
+  "id": 5998883,
+  "name": "Barnes v. Royal Health Care LLC",
+  "name_abbreviation": "Barnes v. Royal Health Care LLC",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10753",
+  "first_page": "851",
+  "last_page": "851",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 851"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 80,
+    "ocr_confidence": 0.518,
+    "sha256": "6cd009b895a41de230e95e64ab9a4c35015112bb4c456f422353f3a15236dc92",
+    "simhash": "1:7def84f16b17e522",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Barnes v. Royal Health Care LLC."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10753.\nBarnes v. Royal Health Care LLC."
+  },
+  "file_name": "0851-05",
+  "first_page_order": 873,
+  "last_page_order": 873
+}

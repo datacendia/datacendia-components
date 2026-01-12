@@ -1,0 +1,59 @@
+{
+  "id": 5913837,
+  "name": "Williams v. Illinois",
+  "name_abbreviation": "Williams v. Illinois",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-9136",
+  "first_page": "946",
+  "last_page": "946",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 946"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.627,
+    "sha256": "02a8d2c21482c4c7ad9aad8d00f845057f6e4e37ec710ee482a59dd80cffa2fb",
+    "simhash": "1:60b1d2dd1d24eb2e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9136.\nWilliams v. Illinois."
+  },
+  "file_name": "0946-03",
+  "first_page_order": 972,
+  "last_page_order": 972
+}

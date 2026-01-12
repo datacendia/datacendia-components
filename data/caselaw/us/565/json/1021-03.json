@@ -1,0 +1,59 @@
+{
+  "id": 12233090,
+  "name": "Mancari v. United States",
+  "name_abbreviation": "Mancari v. United States",
+  "decision_date": "2011-11-07",
+  "docket_number": "No. 11-6802",
+  "first_page": "1021",
+  "last_page": "1021",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1021"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.697,
+    "sha256": "ea53b564daeb9d84e9c1a9262213331b4ef55d2124f94f53521503138708e18a",
+    "simhash": "1:070a87192f855ca8",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mancari v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6802.\nMancari v. United States."
+  },
+  "file_name": "1021-03",
+  "first_page_order": 1103,
+  "last_page_order": 1103
+}

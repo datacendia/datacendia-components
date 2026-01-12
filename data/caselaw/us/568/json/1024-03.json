@@ -1,0 +1,80 @@
+{
+  "id": 12423770,
+  "name": "Descamps v. United States",
+  "name_abbreviation": "Descamps v. United States",
+  "decision_date": "2012-11-26",
+  "docket_number": "No. 11-9540",
+  "first_page": "1024",
+  "last_page": "1024",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1024"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "567 U. S. 964",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12413163,
+        12413167,
+        12413171,
+        12413176,
+        12413180
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/567/0964-01",
+        "/us/567/0964-02",
+        "/us/567/0964-03",
+        "/us/567/0964-04",
+        "/us/567/0964-05"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 30,
+    "char_count": 183,
+    "ocr_confidence": 0.648,
+    "sha256": "9001f4f4acd2fef2799cb1d4ce78f298dd12d0c4f19df36cebd455a5b9b76d9e",
+    "simhash": "1:f290fd036e312d7d",
+    "word_count": 32
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Descamps v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. [Certiorari granted, 567 U. S. 964.] Motion of petitioner for leave to file volume II of the joint appendix under seal granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9540.\nDescamps v. United States."
+  },
+  "file_name": "1024-03",
+  "first_page_order": 1100,
+  "last_page_order": 1100
+}

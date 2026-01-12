@@ -1,0 +1,59 @@
+{
+  "id": 12418127,
+  "name": "Schad v. Ryan, Director, Arizona Department of Corrections",
+  "name_abbreviation": "Schad v. Ryan",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-5534",
+  "first_page": "945",
+  "last_page": "945",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 945"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 107,
+    "ocr_confidence": 0.609,
+    "sha256": "4fc5fe385fa5a75ead3006d604a57a967279a090da544f1d44c759eaab3d0042",
+    "simhash": "1:87fa30a505acb077",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Schad v. Ryan, Director, Arizona Department of Corrections."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5534.\nSchad v. Ryan, Director, Arizona Department of Corrections."
+  },
+  "file_name": "0945-14",
+  "first_page_order": 1021,
+  "last_page_order": 1021
+}

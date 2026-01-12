@@ -1,0 +1,59 @@
+{
+  "id": 5920485,
+  "name": "Durham v. United States",
+  "name_abbreviation": "Durham v. United States",
+  "decision_date": "2011-05-23",
+  "docket_number": "No. 10-10030",
+  "first_page": "1013",
+  "last_page": "1013",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1013"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.542,
+    "sha256": "22dafd1654935672b2fdfaf2babc042e87893eb6edeccc98a38612e569f5a787",
+    "simhash": "1:15fbd2830e871d48",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Durham v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10030.\nDurham v. United States."
+  },
+  "file_name": "1013-09",
+  "first_page_order": 1039,
+  "last_page_order": 1039
+}

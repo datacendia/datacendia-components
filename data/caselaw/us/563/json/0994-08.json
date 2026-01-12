@@ -1,0 +1,59 @@
+{
+  "id": 5963627,
+  "name": "Byrd v. Arias et al.",
+  "name_abbreviation": "Byrd v. Arias",
+  "decision_date": "2011-05-16",
+  "docket_number": "No. 10-9425",
+  "first_page": "994",
+  "last_page": "994",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 994"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 68,
+    "ocr_confidence": 0.598,
+    "sha256": "1dc2999171f6cb1e3ffa5f05911d924fd264b8025feb7d0451f87c174f605410",
+    "simhash": "1:90d360a879bdc0f4",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Byrd v. Arias et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9425.\nByrd v. Arias et al."
+  },
+  "file_name": "0994-08",
+  "first_page_order": 1020,
+  "last_page_order": 1020
+}

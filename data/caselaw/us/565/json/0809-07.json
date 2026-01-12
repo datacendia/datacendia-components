@@ -1,0 +1,78 @@
+{
+  "id": 12190193,
+  "name": "Camreta v. Greene, Personally and as Next Friend of S. G., a Minor, et al.; and Alford, Deputy Sheriff, Deschutes County, Oregon v. Greene, Personally and as Next Friend of S. G., a Minor, et al.",
+  "name_abbreviation": "Camreta v. Greene ex rel. S. G.",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 09-1454; No. 09-1478",
+  "first_page": "809",
+  "last_page": "809",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 809"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "563 U. S. 692",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5939592,
+        12459539
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/563/0692-01",
+        "/l-ed-2d/179/1118-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 34,
+    "char_count": 283,
+    "ocr_confidence": 0.604,
+    "pagerank": {
+      "raw": 4.688403287882615e-08,
+      "percentile": 0.2523527551654325
+    },
+    "sha256": "604931874b2ad8bf9b1339a6389decfba9d115816f0d258668d6669a83efac8e",
+    "simhash": "1:0ffcee90fc91e9d3",
+    "word_count": 51
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Camreta v. Greene, Personally and as Next Friend of S. G., a Minor, et al.; and Alford, Deputy Sheriff, Deschutes County, Oregon v. Greene, Personally and as Next Friend of S. G., a Minor, et al.,"
+    ],
+    "opinions": [
+      {
+        "text": "563 U. S. 692. Motion of respondent to retax costs granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-1454.\nNo. 09-1478.\nCamreta v. Greene, Personally and as Next Friend of S. G., a Minor, et al.; and Alford, Deputy Sheriff, Deschutes County, Oregon v. Greene, Personally and as Next Friend of S. G., a Minor, et al.,"
+  },
+  "file_name": "0809-07",
+  "first_page_order": 891,
+  "last_page_order": 891
+}

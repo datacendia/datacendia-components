@@ -1,0 +1,61 @@
+{
+  "id": 5963210,
+  "name": "Mi Kyung Kim v. United States",
+  "name_abbreviation": "Mi Kyung Kim v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8275",
+  "first_page": "1251",
+  "last_page": "1251",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1251"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 26,
+    "char_count": 157,
+    "ocr_confidence": 0.561,
+    "sha256": "5d23e973897c8aec2ce1fddbe23c2f34d6a7b7bfb4b21c0fdb16e9fc193f83b2",
+    "simhash": "1:8403288127af9c5a",
+    "word_count": 27
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Breyer took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Mi Kyung Kim v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.\nJustice Breyer took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8275.\nMi Kyung Kim v. United States."
+  },
+  "file_name": "1251-01",
+  "first_page_order": 1273,
+  "last_page_order": 1273
+}

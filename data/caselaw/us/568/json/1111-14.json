@@ -1,0 +1,59 @@
+{
+  "id": 12428909,
+  "name": "Battle v. United States",
+  "name_abbreviation": "Battle v. United States",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-7481",
+  "first_page": "1111",
+  "last_page": "1111",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1111"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.705,
+    "sha256": "ee5387926c832660e235b8f82edff506c811cbad009b3a8c198440dfd66ccd85",
+    "simhash": "1:23ca9ac3cad5d159",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Battle v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7481.\nBattle v. United States."
+  },
+  "file_name": "1111-14",
+  "first_page_order": 1187,
+  "last_page_order": 1187
+}

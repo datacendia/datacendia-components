@@ -1,0 +1,59 @@
+{
+  "id": 6015752,
+  "name": "Thomas v. Frech et al.",
+  "name_abbreviation": "Thomas v. Frech",
+  "decision_date": "2011-03-21",
+  "docket_number": "No. 10-8420",
+  "first_page": "1293",
+  "last_page": "1293",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1293"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 71,
+    "ocr_confidence": 0.596,
+    "sha256": "48db98b6d9faba737c5b2e314a62d416523d633e88a9cf3313c779a43a7200d4",
+    "simhash": "1:13d870a85b2792ba",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Thomas v. Frech et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8420.\nThomas v. Frech et al."
+  },
+  "file_name": "1293-03",
+  "first_page_order": 1315,
+  "last_page_order": 1315
+}

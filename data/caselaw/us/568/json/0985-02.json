@@ -1,0 +1,59 @@
+{
+  "id": 12420613,
+  "name": "Wallace v. Roberts, Warden",
+  "name_abbreviation": "Wallace v. Roberts",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-5990",
+  "first_page": "985",
+  "last_page": "985",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 985"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 94,
+    "ocr_confidence": 0.672,
+    "sha256": "3065b0effc530341d85b94a6c5731a5d65ce1b471f665221df973741ebedbce9",
+    "simhash": "1:b95428291f918843",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wallace v. Roberts, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Washington County, Ga. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5990.\nWallace v. Roberts, Warden."
+  },
+  "file_name": "0985-02",
+  "first_page_order": 1061,
+  "last_page_order": 1061
+}

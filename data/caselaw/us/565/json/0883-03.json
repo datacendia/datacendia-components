@@ -1,0 +1,59 @@
+{
+  "id": 12214746,
+  "name": "Martinez v. United States",
+  "name_abbreviation": "Martinez v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-118",
+  "first_page": "883",
+  "last_page": "883",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 883"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.701,
+    "sha256": "aadf70691291443374d6b76c15ffe5b482571efa3e699033ea11b0d2978f5bcf",
+    "simhash": "1:01aae39b90d15608",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Martinez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-118.\nMartinez v. United States."
+  },
+  "file_name": "0883-03",
+  "first_page_order": 965,
+  "last_page_order": 965
+}

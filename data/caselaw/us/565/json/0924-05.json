@@ -1,0 +1,59 @@
+{
+  "id": 12224714,
+  "name": "Helmick v. United States",
+  "name_abbreviation": "Helmick v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5875",
+  "first_page": "924",
+  "last_page": "924",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 924"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.598,
+    "sha256": "8f9c80eea5e56146dc43204bf19a23ea3c58803bc4b7a02dec41f1d964c0a184",
+    "simhash": "1:d78ad3820a2ebc2f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Helmick v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5875.\nHelmick v. United States."
+  },
+  "file_name": "0924-05",
+  "first_page_order": 1006,
+  "last_page_order": 1006
+}

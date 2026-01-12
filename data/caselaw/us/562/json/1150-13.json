@@ -1,0 +1,59 @@
+{
+  "id": 5911472,
+  "name": "Schlechty v. Indiana",
+  "name_abbreviation": "Schlechty v. Indiana",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7306",
+  "first_page": "1150",
+  "last_page": "1150",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1150"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 69,
+    "ocr_confidence": 0.73,
+    "sha256": "e5f36e2d2b510ab9bf98e595722744835c81ad2b5d7966ee8d90a52a7da0930b",
+    "simhash": "1:8a0a0a4130ca2528",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Schlechty v. Indiana."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ind. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7306.\nSchlechty v. Indiana."
+  },
+  "file_name": "1150-13",
+  "first_page_order": 1172,
+  "last_page_order": 1172
+}

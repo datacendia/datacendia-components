@@ -1,0 +1,76 @@
+{
+  "id": 12192463,
+  "name": "Junk, as Parent and Next Friend of T. J., a Minor v. Terminix International Co.; and Breneman v. Junk, as Parent and Next Friend of T. J., a Minor",
+  "name_abbreviation": "Junk ex rel. T. J. v. Terminix International Co.",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-1238; No. 10-1403",
+  "first_page": "816",
+  "last_page": "816",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 816"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "628 F. 3d 439",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4076786
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/628/0439-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 30,
+    "char_count": 239,
+    "ocr_confidence": 0.645,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.24760555538180026
+    },
+    "sha256": "eb5c0d13ec557727adecd951b9e4a97fe94f8e0a935433743a10a044d5b7ebf2",
+    "simhash": "1:b2dbc729b037c1a2",
+    "word_count": 45
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Junk, as Parent and Next Friend of T. J., a Minor v. Terminix International Co.; and Breneman v. Junk, as Parent and Next Friend of T. J., a Minor."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied. Reported below: 628 F. 3d 439.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1238.\nNo. 10-1403.\nJunk, as Parent and Next Friend of T. J., a Minor v. Terminix International Co.; and Breneman v. Junk, as Parent and Next Friend of T. J., a Minor."
+  },
+  "file_name": "0816-01",
+  "first_page_order": 898,
+  "last_page_order": 898
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12410116,
+  "name": "Ohio ex rel. Varnau v. Wenninger",
+  "name_abbreviation": "Ohio ex rel. Varnau v. Wenninger",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-1493",
+  "first_page": "823",
+  "last_page": "823",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 823"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 81,
+    "ocr_confidence": 0.689,
+    "sha256": "847906f5f214c1fd1592ae3631e65e53a8b2c09dc954f71ba4fc43d9bf796530",
+    "simhash": "1:2e17e34e3188241a",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ohio ex rel. Varnau v. Wenninger."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ohio. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1493.\nOhio ex rel. Varnau v. Wenninger."
+  },
+  "file_name": "0823-14",
+  "first_page_order": 899,
+  "last_page_order": 899
+}

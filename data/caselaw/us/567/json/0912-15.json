@@ -1,0 +1,59 @@
+{
+  "id": 12409072,
+  "name": "Grimaldo v. United States",
+  "name_abbreviation": "Grimaldo v. United States",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. 11-10292",
+  "first_page": "912",
+  "last_page": "912",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 912"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.681,
+    "sha256": "c595473319ac8b2c5ff72a57c820e14dd996d0794a21da84ba6c12a2d075a4d3",
+    "simhash": "1:070ad282c82a3c6e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Grimaldo v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10292.\nGrimaldo v. United States."
+  },
+  "file_name": "0912-15",
+  "first_page_order": 816,
+  "last_page_order": 816
+}

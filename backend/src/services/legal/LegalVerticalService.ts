@@ -6,7 +6,7 @@
  */
 
 import { EventEmitter } from 'events';
-import crypto from 'crypto';
+import * as crypto from 'crypto';
 
 // =============================================================================
 // TYPES
@@ -168,7 +168,8 @@ export class LegalVerticalService extends EventEmitter {
   private caseLibrary: Map<string, CaseLaw> = new Map();
   private matters: Map<string, Matter> = new Map();
   private privilegeReviews: Map<string, PrivilegeReview> = new Map();
-  private citations: Map<string, Citation> = new Map();
+  // Citation cache for validation
+  private citationCache: Map<string, Citation> = new Map();
 
   // Legal-specific agent presets
   private readonly agentPresets: AgentPreset[] = [
@@ -293,7 +294,7 @@ export class LegalVerticalService extends EventEmitter {
     const startTime = Date.now();
     const results: CaseLaw[] = [];
 
-    for (const caseLaw of this.caseLibrary.values()) {
+    for (const caseLaw of Array.from(this.caseLibrary.values())) {
       let matches = false;
 
       // Text search
@@ -365,7 +366,7 @@ export class LegalVerticalService extends EventEmitter {
    * Get case by citation
    */
   getCaseByCitation(citation: string): CaseLaw | undefined {
-    for (const caseLaw of this.caseLibrary.values()) {
+    for (const caseLaw of Array.from(this.caseLibrary.values())) {
       if (caseLaw.citation === citation) {
         return caseLaw;
       }
@@ -402,7 +403,7 @@ export class LegalVerticalService extends EventEmitter {
       dateRange: { earliest: null as Date | null, latest: null as Date | null },
     };
 
-    for (const caseLaw of this.caseLibrary.values()) {
+    for (const caseLaw of Array.from(this.caseLibrary.values())) {
       // Jurisdiction
       stats.byJurisdiction[caseLaw.jurisdiction] = 
         (stats.byJurisdiction[caseLaw.jurisdiction] || 0) + 1;
@@ -543,7 +544,7 @@ export class LegalVerticalService extends EventEmitter {
   } {
     // Find the most recent privilege review for this document
     let latestReview: PrivilegeReview | undefined;
-    for (const review of this.privilegeReviews.values()) {
+    for (const review of Array.from(this.privilegeReviews.values())) {
       if (review.documentId === documentId) {
         if (!latestReview || review.reviewedAt > latestReview.reviewedAt) {
           latestReview = review;
@@ -696,7 +697,16 @@ export class LegalVerticalService extends EventEmitter {
     };
 
     const presetId = presetMap[matterType] || 'contract-review';
-    return this.agentPresets.find(p => p.id === presetId) || this.agentPresets[0];
+    const preset = this.agentPresets.find(p => p.id === presetId);
+    if (!preset) {
+      // Fallback to first preset if not found
+      const fallback = this.agentPresets[0];
+      if (!fallback) {
+        throw new Error('No agent presets configured');
+      }
+      return fallback;
+    }
+    return preset;
   }
 
   // ===========================================================================

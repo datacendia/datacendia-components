@@ -1,0 +1,59 @@
+{
+  "id": 12427967,
+  "name": "Schottel v. Young",
+  "name_abbreviation": "Schottel v. Young",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-541",
+  "first_page": "1089",
+  "last_page": "1089",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1089"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 65,
+    "ocr_confidence": 0.639,
+    "sha256": "41353cbe0c46c8b86cffce05a069e586788abc9f6d1e2b11bc6a87bbac3dd098",
+    "simhash": "1:34f3c2ac5d38b461",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Schottel v. Young."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-541.\nSchottel v. Young."
+  },
+  "file_name": "1089-10",
+  "first_page_order": 1165,
+  "last_page_order": 1165
+}

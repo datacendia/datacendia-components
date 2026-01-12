@@ -1,0 +1,59 @@
+{
+  "id": 4225952,
+  "name": "Promotor v. Pollard, Warden",
+  "name_abbreviation": "Promotor v. Pollard",
+  "decision_date": "2011-05-31",
+  "docket_number": "No. 10-9749",
+  "first_page": "1024",
+  "last_page": "1024",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1024"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.584,
+    "sha256": "991264b75a7b92ce22d5b0994fd7059ec5e6f30547363524f94cb21b970dff54",
+    "simhash": "1:86c9d63b2b0b3fa2",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Promotor v. Pollard, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9749.\nPromotor v. Pollard, Warden."
+  },
+  "file_name": "1024-09",
+  "first_page_order": 1050,
+  "last_page_order": 1050
+}

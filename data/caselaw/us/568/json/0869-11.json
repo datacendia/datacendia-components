@@ -1,0 +1,59 @@
+{
+  "id": 12414555,
+  "name": "Smith v. Bondi, Attorney General of Florida, et al.",
+  "name_abbreviation": "Smith v. Bondi",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10926",
+  "first_page": "869",
+  "last_page": "869",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 869"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 101,
+    "ocr_confidence": 0.651,
+    "sha256": "a123a65e7dc238bb2c82d43404cacd2205109ec15d4dd8e945a44dfbc1ea393b",
+    "simhash": "1:9168283a15289016",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Smith v. Bondi, Attorney General of Florida, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10926.\nSmith v. Bondi, Attorney General of Florida, et al."
+  },
+  "file_name": "0869-11",
+  "first_page_order": 945,
+  "last_page_order": 945
+}

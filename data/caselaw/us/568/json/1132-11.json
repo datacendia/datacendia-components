@@ -1,0 +1,59 @@
+{
+  "id": 12429595,
+  "name": "Hodges v. Parker, Warden",
+  "name_abbreviation": "Hodges v. Parker",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-7421",
+  "first_page": "1132",
+  "last_page": "1132",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1132"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.678,
+    "sha256": "5ea3a5353ab7915ce227a06e1a1a72ec20149741247eead835b37ead0389d31a",
+    "simhash": "1:b69e3269ee3b00c4",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hodges v. Parker, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7421.\nHodges v. Parker, Warden."
+  },
+  "file_name": "1132-11",
+  "first_page_order": 1208,
+  "last_page_order": 1208
+}

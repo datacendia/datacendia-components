@@ -1,0 +1,59 @@
+{
+  "id": 12427480,
+  "name": "Franklin v. United States",
+  "name_abbreviation": "Franklin v. United States",
+  "decision_date": "2012-12-10",
+  "docket_number": "No. 12-7067",
+  "first_page": "1073",
+  "last_page": "1073",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1073"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.617,
+    "sha256": "2ef7b1b3b9b5cab3f2114f7aeff73f3e7b5a43c737f9396b1ab7b6985d682a5d",
+    "simhash": "1:b6caff014ea53919",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Franklin v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7067.\nFranklin v. United States."
+  },
+  "file_name": "1073-03",
+  "first_page_order": 1149,
+  "last_page_order": 1149
+}

@@ -1,0 +1,89 @@
+{
+  "id": 2308469,
+  "name": "State of Texas et al. v. Jim H. Glass et al.; Jim H. Glass et al. v. State of Texas et al.",
+  "name_abbreviation": "State v. Glass",
+  "decision_date": "1943-04-21",
+  "docket_number": "Application No. 26, 843; Application No. 26,844",
+  "first_page": "83",
+  "last_page": "84",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "141 Tex. 83"
+    },
+    {
+      "type": "parallel",
+      "cite": "170 S.W.2d 470"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "136 Texas 589",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "167 S. W. (2d) 296",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10207635
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/167/0296-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 122,
+    "char_count": 1286,
+    "ocr_confidence": 0.635,
+    "pagerank": {
+      "raw": 1.2166327722039003e-07,
+      "percentile": 0.5972294137611884
+    },
+    "sha256": "e6d93ba04b835f9517090672618fa5f83b4572b9da8a7d37380d5058eaef028b",
+    "simhash": "1:a95b06ab326b1f3d",
+    "word_count": 223
+  },
+  "last_updated": "2024-02-27T17:50:53.882340+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "State of Texas et al v. Jim H. Glass et al Jim H. Glass et al v. State of Texas et al."
+    ],
+    "opinions": [
+      {
+        "text": "per curiam :\nThe above-numbered and entitled applications for writs of error were filed in the cause of State et al v. Glass et al, No. 11441, in the Court of Civil Appeals at Galveston. The opinion of the Court of Civil Appeals is reported in 167 S. W. (2d) 296, and we refer to that opinion for a full statement of the facts and issues involved. Heretofore, on February 17, 1943, we \u201cRefused for Want of Merit\u201d both of the above applications. It is now ordered that the orders above indicated be, and the same are hereby, set aside, and that both of said applications be Refused.\nOpinion delivered April 21, 1943.\nSee Rules 483, Texas Rules of Civil Procedure, 136 Texas 589.- \u2014 Reporter.",
+        "type": "majority",
+        "author": "per curiam :"
+      }
+    ],
+    "attorneys": [
+      "Gerald C. Mann, Attorney General, Geo. W. Barcus and Ode Speer, Assistants Attorney General, for the Highway Department, Dan W. Jackson, Criminal District Attorney, and Conrad J. iMndram, Assistant Criminal District Attorney, of Harris County, and Lewis & Knipp) and Ernest A. Knipp, all of Houston, for Harris County, the petitioners.",
+      "Elbert Roberts, of Houston, for respondent, Jim Glass, tax collector."
+    ],
+    "corrections": "",
+    "head_matter": "State of Texas et al v. Jim H. Glass et al Jim H. Glass et al v. State of Texas et al.\nApplication No. 26, 843. Application No. 26,844.\nDecided April 21, 1943.\n(170 S. W., 2d Series, 470.)\nGerald C. Mann, Attorney General, Geo. W. Barcus and Ode Speer, Assistants Attorney General, for the Highway Department, Dan W. Jackson, Criminal District Attorney, and Conrad J. iMndram, Assistant Criminal District Attorney, of Harris County, and Lewis & Knipp) and Ernest A. Knipp, all of Houston, for Harris County, the petitioners.\nElbert Roberts, of Houston, for respondent, Jim Glass, tax collector."
+  },
+  "file_name": "0083-01",
+  "first_page_order": 101,
+  "last_page_order": 102
+}

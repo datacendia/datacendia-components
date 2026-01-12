@@ -1,0 +1,61 @@
+{
+  "id": 12226136,
+  "name": "Wilson v. United States",
+  "name_abbreviation": "Wilson v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-9837",
+  "first_page": "931",
+  "last_page": "931",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 931"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 151,
+    "ocr_confidence": 0.715,
+    "sha256": "fa2574e01118cc12ed7d8ec5b1091c6b675cffd99c15b67ed1e6d45c3a1f5774",
+    "simhash": "1:9fb17a8627a69862",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Wilson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9837.\nWilson v. United States."
+  },
+  "file_name": "0931-01",
+  "first_page_order": 1013,
+  "last_page_order": 1013
+}

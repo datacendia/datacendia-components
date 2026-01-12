@@ -1,0 +1,680 @@
+{
+  "id": 12520511,
+  "name": "UNITED STATES of America, Plaintiff-Appellant, v. Donnell ARTIS; Chanta Hopkins, aka Askari Aquil Mohammed, Defendants-Appellees.",
+  "name_abbreviation": "U.S. v. Artis",
+  "decision_date": "2019-03-27",
+  "docket_number": "No. 18-10246",
+  "first_page": "1123",
+  "last_page": "1135",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "919 F.3d 1123"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "9th Cir.",
+    "id": 18869,
+    "name": "United States Court of Appeals for the Ninth"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "553 U.S. 164",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3674054
+      ],
+      "weight": 3,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "168"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/553/0164-01"
+      ]
+    },
+    {
+      "cite": "132 Harv. L. Rev. 471",
+      "category": "journals:journal",
+      "reporter": "Harv. L. Rev.",
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "501"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "14 F.2d 88",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1301899
+      ],
+      "weight": 2,
+      "year": 1926,
+      "pin_cites": [
+        {
+          "page": "89"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/14/0088-01"
+      ]
+    },
+    {
+      "cite": "631 P.2d 38",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "42"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "175 Cal.Rptr. 604",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1981,
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Cal.3d 698",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2257755
+      ],
+      "year": 1981,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/29/0698-01"
+      ]
+    },
+    {
+      "cite": "906 F.3d 1109",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518847
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1117"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/906/1109-01"
+      ]
+    },
+    {
+      "cite": "725 F.3d 1076",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4071971
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "1085"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/725/1076-01"
+      ]
+    },
+    {
+      "cite": "371 U.S. 471",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        450611
+      ],
+      "weight": 3,
+      "year": 1963,
+      "pin_cites": [
+        {
+          "page": "485"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/371/0471-01"
+      ]
+    },
+    {
+      "cite": "555 U.S. 135",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3679252
+      ],
+      "weight": 11,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "138, 147-48"
+        },
+        {
+          "page": "144"
+        },
+        {
+          "page": "137"
+        },
+        {
+          "page": "144"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/555/0135-01"
+      ]
+    },
+    {
+      "cite": "834 F.2d 782",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10548756
+      ],
+      "weight": 2,
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "789"
+        },
+        {
+          "page": "789"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/834/0782-01"
+      ]
+    },
+    {
+      "cite": "882 F.2d 1459",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1820804
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "1466-67"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/882/1459-01"
+      ]
+    },
+    {
+      "cite": "468 U.S. 897",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11340969
+      ],
+      "weight": 3,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "922"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/468/0897-01"
+      ]
+    },
+    {
+      "cite": "264 F.3d 919",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9485624
+      ],
+      "weight": 2,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "925"
+        },
+        {
+          "page": "925-26"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/264/0919-01"
+      ]
+    },
+    {
+      "cite": "462 U.S. 213",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6187462
+      ],
+      "weight": 7,
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "233"
+        },
+        {
+          "page": "242-43"
+        },
+        {
+          "page": "238"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/462/0213-01"
+      ]
+    },
+    {
+      "cite": "871 F.3d 852",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12265929
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "864"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/871/0852-01"
+      ]
+    },
+    {
+      "cite": "482 F.3d 1047",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3865329
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "1051"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/482/1047-01"
+      ]
+    },
+    {
+      "cite": "314 F.3d 1105",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9386635
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "1114-15"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/314/1105-01"
+      ]
+    },
+    {
+      "cite": "590 F.3d 942",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3504054
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "948"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/590/0942-01"
+      ]
+    },
+    {
+      "cite": "601 F.3d 276",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4225926
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "282-83"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/601/0276-01"
+      ]
+    },
+    {
+      "cite": "742 F.3d 246",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4071238
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "254"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/742/0246-01"
+      ]
+    },
+    {
+      "cite": "3 F.3d 300",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10510130
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "303"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/3/0300-01"
+      ]
+    },
+    {
+      "cite": "397 F.3d 1205",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9038967
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1213"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/397/1205-01"
+      ]
+    },
+    {
+      "cite": "942 F.2d 1537",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10531910
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "1540-41"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/942/1537-01"
+      ]
+    },
+    {
+      "cite": "178 F.3d 1099",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        577830
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "1106"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/178/1099-01"
+      ]
+    },
+    {
+      "cite": "Cal. Penal Code \u00a7 1530",
+      "category": "laws:leg_statute",
+      "reporter": "Cal. Code",
+      "opinion_index": 0
+    },
+    {
+      "cite": "Cal. Penal Code \u00a7\u00a7 1523",
+      "category": "laws:leg_statute",
+      "reporter": "Cal. Code",
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.Rptr.2d 156",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "170-71"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.App.4th 1030",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6045351
+      ],
+      "year": 1996,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/45/1030-01"
+      ]
+    },
+    {
+      "cite": "897 F.2d 346",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10530245
+      ],
+      "weight": 2,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "348"
+        },
+        {
+          "page": "348-49"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/897/0346-01"
+      ]
+    },
+    {
+      "cite": "441 U.S. 238",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1779836
+      ],
+      "weight": 5,
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "255"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/441/0238-01"
+      ]
+    },
+    {
+      "cite": "526 U.S. 603",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11133554
+      ],
+      "weight": 3,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "614"
+        },
+        {
+          "parenthetical": "holding that police violated the Fourth Amendment by allowing members of the news media into a home during the execution of a warrant, due to the heightened intrusion upon privacy interests caused by their unauthorized presence and non-law-enforcement purpose"
+        },
+        {
+          "parenthetical": "holding that police violated the Fourth Amendment by allowing members of the news media into a home during the execution of a warrant, due to the heightened intrusion upon privacy interests caused by their unauthorized presence and non-law-enforcement purpose"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/526/0603-01"
+      ]
+    },
+    {
+      "cite": "134 S.Ct. 2473",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12581677
+      ],
+      "weight": 2,
+      "year": 2014,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/134/2473-01"
+      ]
+    },
+    {
+      "cite": "573 U.S. 373",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 2014,
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3731",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "315 F.Supp.3d 1142",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        12525652
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1145"
+        },
+        {
+          "page": "1143-44"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/315/1142-01"
+      ]
+    },
+    {
+      "cite": "34 U.S.C. \u00a7 41503",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1204,
+    "char_count": 32706,
+    "pagerank": {
+      "raw": 5.298132930532853e-08,
+      "percentile": 0.3348137285223965
+    },
+    "sha256": "8f9d6769094ef8934da1a538e8c5ff4015f7e7f53896354a83c630f141ba90dc",
+    "simhash": "1:4a5b05366bafe7b3",
+    "word_count": 5183
+  },
+  "last_updated": "2024-02-27T18:46:33.646602+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellant,\nv.\nDonnell ARTIS; Chanta Hopkins, aka Askari Aquil Mohammed, Defendants-Appellees."
+    ],
+    "opinions": [
+      {
+        "text": "WATFORD, Circuit Judge:\nFederal agents may have violated California law when they executed two search warrants issued by state court judges. California law authorizes \"peace officers\" to execute search warrants, but excludes federal law enforcement officers from the definition of that term. This apparent violation of state law, we conclude, does not render the warrants invalid under the Fourth Amendment. One of the warrants, however, was not supported by probable cause, and the evidence seized pursuant to that warrant must be suppressed.\nI\nAt the time of the events relevant to this appeal, defendants Donnell Artis and Chanta Hopkins were alleged confederates engaged in credit card fraud and identity theft. Both were also fugitives from justice with outstanding warrants for their arrest on state law charges.\nArtis and Hopkins came to the attention of Stonie Carlson, a Special Agent with the Federal Bureau of Investigation assigned to the Pacific Southwest Regional Fugitive Task Force, a joint federal-state task force operating under the direction of the United States Marshals Service. See 34 U.S.C. \u00a7 41503(a). Agent Carlson set out to find the two men, both of whom were believed to be in or around Oakland, California. Officers from the Oakland Police Department informed Agent Carlson that Artis and Hopkins could often be found hanging out at a particular liquor store in Oakland, and Agent Carlson spotted Artis there one day. When Agent Carlson and his partner tried to arrest Artis, a brief scuffle ensued, during which Artis dropped his cell phone. Artis broke away and managed to escape on foot, leaving his cell phone behind. Agent Carlson returned to the liquor store and retrieved the phone, a seizure rendered lawful by Artis' abandonment of the phone when he fled from agents attempting to arrest him.\nIn his capacity as a member of the fugitive task force, Agent Carlson applied for a warrant to search Artis' cell phone. Although he could have asked a federal magistrate judge to issue the warrant under Federal Rule of Criminal Procedure 41, Agent Carlson submitted the application to a judge of the Alameda County Superior Court. Agent Carlson later explained that he did so because Artis' outstanding arrest warrants were for state law offenses and at the time Agent Carlson was not contemplating filing federal charges against Artis. For reasons unexplained in the record, Agent Carlson did not predicate the warrant application on Artis' status as a known fugitive, which would have provided a basis to search his phone for information useful in finding him. Instead, Agent Carlson's affidavit recounted facts establishing probable cause to believe that Artis was engaged (with Hopkins) in a conspiracy to commit credit card fraud under state law. He requested permission to search Artis' cell phone for evidence of that offense.\nThe Alameda County Superior Court judge issued a warrant, directed to \"any peace officer in Alameda County,\" authorizing a search of Artis' cell phone for \"evidence of a crime\"-in particular, for eight specified categories of information, such as stored email and text messages \"[c]ontaining any references to fraud or related criminal activity.\" Agent Carlson found that he lacked the technical expertise to execute the warrant himself, but after a few days' delay he enlisted the help of a fellow FBI agent who was able to extract the relevant information from Artis' phone. Based in part on that evidence, the government charged Artis with the federal firearms and identity-theft offenses he faces in this case.\nTwo days after obtaining the warrant to search Artis' phone, but before he had been able to execute it, Agent Carlson applied for a second search warrant, this one targeting Hopkins. Agent Carlson again applied for the warrant in his capacity as a member of the fugitive task force, and he again submitted the application to an Alameda County Superior Court judge rather than a federal magistrate judge. Agent Carlson predicated the Hopkins warrant application solely on Hopkins' status as a fugitive with an outstanding warrant for his arrest. The application sought authorization to use a cell-site simulator to track the location of a cell phone assigned the number (832) 763-5555. Agent Carlson's affidavit recounted facts establishing probable cause to believe that Hopkins was then using the targeted cell phone.\nAn Alameda County Superior Court judge issued a search warrant, also directed to \"any peace officer in the County of Alameda,\" authorizing use of a cell-site simulator for a period of 30 days to track the location of the targeted cell phone. The warrant stated that federal agents \"employed by the United States Marshals Service are authorized to assist in the service of this search warrant.\"\nA federal agent working as part of the fugitive task force deployed the cell-site simulator in accordance with the warrant.\nThrough use of the device and additional investigative work, task force agents determined that Hopkins lived in a particular apartment building in San Francisco. They arrested him as he left his apartment and found incriminating evidence during a search incident to arrest. That evidence formed the basis for a search warrant issued by a San Francisco County Superior Court judge authorizing a search of Hopkins' apartment. The apartment search yielded much of the evidence underlying the federal drug-trafficking and identity-theft charges filed against Hopkins in this case.\nArtis and Hopkins filed separate motions to suppress that challenged the validity of their respective Alameda County Superior Court search warrants. Both motions argued that: (1) the warrants were invalid because they were executed by officials not authorized to execute warrants under California law; and (2) the warrants were not supported by probable cause.\nAfter conducting an evidentiary hearing at which Agent Carlson testified, the district court granted both motions to suppress. The court agreed with the defendants that \"under California law, federal law enforcement officers are not permitted to execute search warrants issued by California state judges.\" UnitedStates v. Artis , 315 F.Supp.3d 1142, 1145 (N.D. Cal. 2018). The court concluded that federal agents impermissibly executed both warrants but recognized that suppression would not be justified on the basis of this state law violation alone. Id. at 1143-44. In addition, though, the court held that neither warrant was supported by probable cause, and it declined to apply the good-faith exception to the exclusionary rule in view of a \"string of errors\" embodied in the two warrant applications submitted by Agent Carlson.\nAs permitted under 18 U.S.C. \u00a7 3731, the government filed an interlocutory appeal from the district court's suppression ruling.\nII\nThe outcome of this appeal turns on whether the challenged searches violated the Fourth Amendment, which protects the people's right \"to be secure in their persons, houses, papers, and effects, against unreasonable searches and seizures.\" Certain searches must be conducted pursuant to a warrant to be deemed reasonable. The search of Artis' cell phone definitely required a warrant, see Riley v. California , 573 U.S. 373, 134 S.Ct. 2473, 189 L.Ed.2d 430 (2014), and we will assume (as the government has) that use of a cell-site simulator to track the location of Hopkins' cell phone also required a warrant. But both of the searches in question were conducted pursuant to a warrant. To establish a Fourth Amendment violation, then, the defendants must succeed in showing either that the warrants were invalid under the Fourth Amendment or that, even if valid, the warrants were executed in a manner that rendered the searches unreasonable.\nThe defendants have confined themselves to the first line of argument, framing their challenge solely as an attack on the validity of their respective warrants. They do not contend that anything about the manner of execution rendered the searches unreasonable. They have not asserted, for example, that the scope of the searches conducted by the agents exceeded what the warrants authorized, or that the agents seized evidence not described in the warrants. Their only complaint about the manner in which the warrants were executed is that federal agents conducted the searches instead of officials designated as \"peace officers\" under state law. But the identity of the executing officers-federal agents versus peace officers-does not implicate any interest protected by the Fourth Amendment. No greater intrusion upon protected privacy or property interests occurred by virtue of the fact that the searches were conducted by federal agents as opposed to, say, city police officers. Cf. Wilson v. Layne , 526 U.S. 603, 614, 119 S.Ct. 1692, 143 L.Ed.2d 818 (1999) (holding that police violated the Fourth Amendment by allowing members of the news media into a home during the execution of a warrant, due to the heightened intrusion upon privacy interests caused by their unauthorized presence and non-law-enforcement purpose).\nTo succeed here, the defendants must demonstrate that their respective search warrants were invalid under the Fourth Amendment. The Amendment's Warrant Clause provides that a warrant may be issued only \"upon probable cause, supported by Oath or affirmation, and particularly describing the place to be searched, and the persons or things to be seized.\" The Supreme Court has held that this language imposes three requirements for issuance of a valid search warrant. First, the warrant must be issued by a neutral and detached magistrate. Dalia v. United States , 441 U.S. 238, 255, 99 S.Ct. 1682, 60 L.Ed.2d 177 (1979). Second, the warrant must be supported by \"probable cause to believe that the evidence sought will aid in a particular apprehension or conviction for a particular offense.\" Id. (internal quotation marks omitted). And third, the warrant must describe the things to be seized and the place to be searched with particularity. Id.\nOnly the second of these requirements-whether the warrants were supported by probable cause-is open to serious challenge. (We address that issue in the next section.) As to the first requirement, both warrants were issued by neutral and detached judges of the Alameda County Superior Court who were authorized to issue search warrants in the jurisdiction where the warrants were to be executed. Neither Artis nor Hopkins challenges the third requirement demanding sufficient particularity.\nThe defendants argue that we should add a fourth requirement to the list. They contend that a state court warrant is valid for Fourth Amendment purposes only if the officers who execute it are authorized to do so under state law, and that the warrants at issue here are invalid because they were issued to and executed by federal agents in contravention of California law.\nBefore addressing the defendants' argument, it is useful to separate the warrant process into its three distinct phases: application, issuance, and execution. See United States v. Freeman , 897 F.2d 346, 348 (8th Cir. 1990). First, someone applies for a warrant, typically a law enforcement officer or an attorney for the government. Second, the magistrate issues the warrant, directing it to a particular person or class of people. Finally, someone executes the warrant by conducting the search or seizure that the warrant authorizes.\nThe defendants really contest only the third phase of this process. They do not contend that Agent Carlson violated California law by applying for the warrants, nor could they, for California law places no limits on who may apply for a search warrant. See People v. Bell , 45 Cal.App.4th 1030, 53 Cal.Rptr.2d 156, 170-71 (1996). Nor can they contend that the warrants were improperly issued under state law. It's true that under California law a search warrant must be directed to a \"peace officer,\" Cal. Penal Code \u00a7\u00a7 1523, 1528(a), 1530, and that federal law enforcement officers do not qualify as peace officers, \u00a7 830.8(a). But the warrants in this case were directed, as state law requires, \"to any peace officer\" in Alameda County. The defendants are thus wrong in asserting that the warrants were improperly issued to a federal agent.\nWhether the warrants were improperly executed by federal agents is a closer question. California law requires search warrants to be executed by \"peace officers,\" but federal agents may assist a peace officer in executing a search warrant, provided the federal agent is acting \"in aid of the officer on his requiring it, he being present and acting in its execution.\" Cal. Penal Code \u00a7 1530. As the defendants argue, it seems doubtful that this requirement was satisfied here, although California courts do not appear to have addressed how strictly this provision should be construed when federal agents execute a search warrant as members of a joint federal-state task force that includes peace officers.\nWe find it unnecessary to decide whether federal agents violated California law by executing the Artis and Hopkins warrants. Even if such a violation occurred, the warrants would still be valid under the Fourth Amendment. An otherwise properly issued search warrant is not rendered void for Fourth Amendment purposes merely because it was executed by law enforcement officers who lacked warrant-executing authority under state law. See United States v. Green , 178 F.3d 1099, 1106 (10th Cir. 1999) ; United States v. Gilbert , 942 F.2d 1537, 1540-41 (11th Cir. 1991) ; Freeman , 897 F.2d at 348-49.\nAlternatively, the defendants argue that the validity of the warrants should be assessed under Federal Rule of Criminal Procedure 41, which establishes the procedures for issuance of search warrants in federal court. This argument lacks merit as well. Rule 41 applies only when a search is \"federal in character.\" UnitedStates v. Martinez-Garcia , 397 F.3d 1205, 1213 (9th Cir. 2005). The fact that federal agents were involved in conducting the search is a relevant consideration, but not sufficient on its own to trigger the rule's application. United States v. Palmer , 3 F.3d 300, 303 (9th Cir. 1993). The search must be tied to an investigation into potential violations of federal law. See United States v. Duval , 742 F.3d 246, 254 (6th Cir. 2014) ; United States v. Claridy , 601 F.3d 276, 282-83 (4th Cir. 2010). The searches in question here do not fit that bill. Agent Carlson sought the warrants in furtherance of an investigation into state law violations alone-in Artis' case, to investigate an alleged conspiracy to commit credit card fraud under state law, and in Hopkins' case, to aid in locating a fugitive wanted on state law charges. At the time Agent Carlson applied for the warrants, no discussions were underway about bringing federal charges against either Artis or Hopkins. The provisions of Rule 41 therefore do not apply.\nIII\nThe sole remaining issue is whether the warrants are invalid under the Fourth Amendment because they were not supported by probable cause. The district court held both warrants invalid on this basis, and further held that the government could not rely on the good-faith exception to the exclusionary rule. We agree with the district court's conclusion only as to the Artis warrant, which we address first.\nA\nAgent Carlson's application for the Artis warrant requested authorization to search his cell phone for evidence of his involvement in a conspiracy to commit credit card fraud, and the supporting affidavit accordingly sought to establish probable cause to believe that Artis was engaged in that offense. In reviewing the adequacy of the probable cause showing, we must assess whether probable cause has been shown with respect to the offense asserted as the basis for issuing the warrant; whether Agent Carlson's affidavit established probable cause with respect to some other offense is irrelevant. See United States v. $186,416.00 in U.S. Currency , 590 F.3d 942, 948 (9th Cir. 2010). We therefore reject the government's assertion that the warrant may be upheld because Agent Carlson's affidavit established probable cause to believe that Artis was a fugitive and that a search of his cell phone would yield evidence useful in finding him.\nThe first obstacle the government faces in attempting to defend the adequacy of the probable cause showing is that the most probative evidence mentioned in Agent Carlson's affidavit must be disregarded. The affidavit describes an earlier search that occurred when officers attempted to execute a warrant for Artis' arrest at his girlfriend's apartment. According to the affidavit, when the officers knocked on the front door to the apartment, it swung open. Concerned that someone might be inside and in need of help, the officers performed what Agent Carlson termed a \"safety sweep\" of the apartment. Although the officers found no one inside, in the course of the safety sweep they observed \"several counterfeit credit cards\" bearing Artis' name on a kitchen counter. (The affidavit does not explain how the officers were able to determine, from the face of the cards alone, that they were indeed counterfeit.) The officers' observation of the counterfeit credit cards obviously provided strong support for the conclusion that Artis was engaged in some sort of credit card fraud, and the judge who issued the warrant no doubt relied heavily on that evidence in deciding that probable cause had been shown.\nArtis contends here, as he did below, that the search of his girlfriend's apartment violated his Fourth Amendment rights. He asserts as a factual matter that he was an overnight guest in his girlfriend's apartment. Thus, as a legal matter, the officers could not rely on Artis' arrest warrant alone as authorization to enter his girlfriend's apartment: They needed a search warrant or probable cause to believe he was present at the time of the search, neither of which, he contends, they had. See United States v. Gorman , 314 F.3d 1105, 1114-15 (9th Cir. 2002). Artis further suggests that the officers lied when they stated the front door to the apartment had been left ajar, eliminating any basis for their claim that exigent circumstances justified a warrantless entry.\nThe government conceded below that the district court should disregard the evidence discovered during the apartment search when assessing whether probable cause had been shown, albeit not on the ground that the officers' entry was unlawful but rather because the counterfeit credit cards may not have been found in plain view, as Agent Carlson's affidavit asserted. In light of the government's refusal to defend the legality of the apartment search, the district court properly struck from Agent Carlson's affidavit any reference to the counterfeit credit cards. We will follow the same course here. Having excised evidence from the supporting affidavit, we do not defer, as we normally would, to the issuing magistrate's determination that probable cause existed. In that scenario, we have nothing to which we could defer, as the magistrate made no determination about whether probable cause exists on the set of facts now before us. See United States v. Kelley , 482 F.3d 1047, 1051 (9th Cir. 2007). Instead, we must \"determine on our own whether the remaining portions of the affidavit support a finding of probable cause.\" United States v. Job , 871 F.3d 852, 864 (9th Cir. 2017).\nThe remaining portions of Agent Carlson's affidavit fail to support a finding of probable cause that Artis was engaged in credit card fraud. The affidavit recounts the following facts: (1) Artis had outstanding arrest warrants for, among other offenses, identity theft; (2) Artis fled from Agent Carlson and his partner when they attempted to arrest him; and (3) Artis is a close associate of Hopkins, who also had an outstanding warrant for his arrest. Considered together, these facts fall far short of establishing probable cause regarding credit card fraud. They establish little more than Artis' status as a fugitive from justice.\nThe affidavit included one additional piece of evidence that merits separate discussion. Agent Carlson stated, without further elaboration, that a cooperating witness had informed him that \"Artis and Hopkins are involved in a conspiracy to commit credit card fraud and that they are in constant communication with each other in furtherance of the crime.\" If credited, this information would obviously suffice to establish probable cause to believe that Artis was engaged in credit card fraud. But other than the evidence obtained from the unlawful search of Artis' girlfriend's apartment, which we must disregard, the affidavit offers no basis for concluding that the information provided by the unnamed informant was reliable. The affidavit does not state the informant's basis of knowledge or provide any information about the informant's reliability in the past. See Illinois v. Gates , 462 U.S. 213, 233, 103 S.Ct. 2317, 76 L.Ed.2d 527 (1983) ; United States v. Bishop , 264 F.3d 919, 925 (9th Cir. 2001). Nor does the affidavit contain any information corroborating what the informant said. See Gates , 462 U.S. at 242-43, 103 S.Ct. 2317 ; Bishop , 264 F.3d at 925-26.\nContrary to the government's argument, Artis' outstanding arrest warrant for identity theft does not provide the necessary corroboration. Although identity theft and credit card fraud are potentially related offenses, without knowing more about the age of the warrant and the nature of the underlying conduct, no inferences can be drawn about whether the existence of the warrant bolstered the credibility of the informant's bare accusation.\nAs the district court held, after excising the evidence illegally obtained, the remaining portions of Agent Carlson's affidavit fail to establish a \"fair probability\" that evidence of credit card fraud would be found on Artis' cell phone. Gates , 462 U.S. at 238, 103 S.Ct. 2317. The search of the phone pursuant to an invalid warrant violated Artis' Fourth Amendment rights, requiring suppression of the fruits of that search unless the government can demonstrate that the good-faith exception to the exclusionary rule applies.\nThe good-faith exception precludes suppression of evidence seized by officers who acted \"in objectively reasonable reliance\" on a search warrant that is later declared invalid. United States v. Leon , 468 U.S. 897, 922, 104 S.Ct. 3405, 82 L.Ed.2d 677 (1984). However, we have held that the good-faith exception may not be invoked when \"the search warrant was issued in part on the basis of evidence obtained from an illegal search.\" United States v. Wanless , 882 F.2d 1459, 1466-67 (9th Cir. 1989) ; see also United States v. Vasey , 834 F.2d 782, 789 (9th Cir. 1987). That rule would foreclose the government's reliance on the good-faith exception here.\nWe acknowledge that the Supreme Court's precedent on application of the good-faith exception has shifted somewhat since we decided Vasey and Wanless . When those cases were decided, the good-faith exception had been held to apply only when the police acted in reasonable reliance on mistakes made by others, such as the magistrate who issued the defective warrant in Leon . It was not yet clear whether the good-faith exception would apply when the police acted in reliance on their own mistakes. Thus, in rejecting application of the good-faith exception in Vasey , we stressed that \"[t]he constitutional error was made by the officer in this case, not by the magistrate as in Leon .\" 834 F.2d at 789. The good-faith exception could not apply to the fruit of that constitutional violation, including evidence seized under the resulting warrant.\nThe Supreme Court has since held that the good-faith exception can apply even when the police are responsible for the mistake that led to an unlawful search or seizure. In Herring v. United States , 555 U.S. 135, 129 S.Ct. 695, 172 L.Ed.2d 496 (2009), the Court applied the good-faith exception to uphold the admission of evidence seized during a concededly unlawful arrest, even though the arrest occurred because law enforcement officials negligently failed to remove a recalled warrant from their database. Id. at 138, 147-48, 129 S.Ct. 695. The Court held that, to justify suppression as a remedy for a Fourth Amendment violation, \"police conduct must be sufficiently deliberate that exclusion can meaningfully deter it, and sufficiently culpable that such deterrence is worth the price paid by the justice system.\" Id. at 144, 129 S.Ct. 695. The \"isolated negligence\" at issue in Herring , the Court concluded, did not meet that standard. Id. at 137, 129 S.Ct. 695.\nIn light of Herring , we can no longer declare the good-faith exception categorically inapplicable whenever a search warrant is issued on the basis of evidence illegally obtained as a result of constitutional errors by the police. We must instead determine whether the police misconduct that led to discovery of the illegally obtained evidence is itself subject to the good-faith exception. If it is, suppression of the evidence seized pursuant to the warrant will not be justified. But if the police misconduct is not protected by the good-faith exception, suppression is the appropriate remedy. The misconduct will by definition be \"sufficiently deliberate\" that it can be deterred through application of the exclusionary rule, and \"sufficiently culpable\"\nto warrant exclusion as a remedy. Id. at 144, 129 S.Ct. 695. And because the illegally obtained evidence will necessarily have been decisive in establishing probable cause (otherwise there would be no need to resort to the good-faith exception), evidence discovered pursuant to the warrant will be the fruit of that earlier illegality and subject to suppression for that reason. See Wong Sun v. United States , 371 U.S. 471, 485, 83 S.Ct. 407, 9 L.Ed.2d 441 (1963).\nUnder this standard, suppression is warranted here. The government bears the burden of showing that the good-faith exception applies. See United States v. Underwood , 725 F.3d 1076, 1085 (9th Cir. 2013). In this case, it must show that the good-faith exception would have applied to render the counterfeit credit cards evidence admissible. The government cannot carry that burden because it has made no effort to defend the legality of the search that yielded the evidence in question. The search violated the Fourth Amendment either because the officers lacked authority to enter Artis' girlfriend's apartment in the first place, as Artis contends, or because the officers did not discover the credit cards in plain view, as the government has effectively conceded. Either way, the police discovered the evidence through conduct that, on this record at least, is plainly unconstitutional, in contrast to the kind of \"isolated negligence\" at issue in Herring . That misconduct is sufficiently deliberate that it can be deterred through exclusion of the fruit of the illegal search, and sufficiently culpable to warrant imposition of that sanction.\nThe evidence seized pursuant to the Artis warrant must be suppressed as the fruit of the illegal search of his girlfriend's apartment. As we have held, observation of the counterfeit credit cards was crucial to issuance of the warrant, since without that illegally obtained evidence probable cause was lacking. We therefore affirm the district court's order granting Artis' motion to suppress.\nB\nWe next address whether probable cause supported the Hopkins warrant, which authorized use of a cell-site simulator to track the location of the cell phone using the number (832) 763-5555.\nThe Hopkins warrant was predicated solely on his status as a fugitive from justice and the government's legitimate interest in apprehending him. No one disputes that tracking the location of a particular cell phone will likely assist in locating the person using that phone. The warrant application therefore needed to establish probable cause to believe two things: that Hopkins was in fact a fugitive, and that he was currently using the targeted cell phone. Hopkins challenges only the adequacy of the showing as to his use of the phone.\nAgent Carlson's affidavit recounts the following facts. After he obtained possession of Artis' cell phone, the phone received \"several incoming calls\" from the number (832) 763-5555. (During the evidentiary hearing, Agent Carlson clarified that he saw several notifications on the locked screen of Artis' phone reflecting contacts from the targeted cell phone, at least one of which was an incoming call. This clarification does not affect the analysis.) A search of a law enforcement database revealed that the number was issued to an unknown subscriber with Verizon Wireless. Agent Carlson contacted a cooperating witness who told him that Hopkins' cell phone number was (832) 763-5555 and that the cooperating witness had learned this fact from Artis-someone who, as a \"known associate\" of Hopkins, would presumably know the latter's cell phone number. If credited, this information from the informant would easily establish probable cause to believe that Hopkins was using the targeted cell phone.\nHopkins contends that the affidavit provided no basis for crediting the informant as reliable because nothing disclosed in the affidavit corroborated the informant's tip. We disagree. The informant's tip was corroborated by the fact that someone using the number attributed to Hopkins attempted to contact Artis, one of Hopkins' associates. Had the informant simply made up a phone number for Hopkins, it would be a remarkable coincidence to find a missed call from that number on Artis' cell phone. Hopkins assumes that Agent Carlson told the informant that several notifications from the number (832) 763-5555 had appeared on Artis' phone and then asked the informant to confirm whether that number belonged to Hopkins. If accurate, this sequence of events would undoubtedly undermine the corroborative value of the contacts from the targeted cell phone. But nothing in the affidavit supports Hopkins' version of events. And despite having had an opportunity to cross-examine Agent Carlson at the evidentiary hearing, Hopkins can point to nothing in the record to support his factual narrative. The informant's tip plus the corroborating notifications found on Artis' phone sufficed-although barely-to establish probable cause that Hopkins was using the targeted cell phone.\nBecause the Hopkins warrant is valid under the Fourth Amendment, we need not address whether the good-faith exception to the exclusionary rule applies as to this warrant. We reverse the district court's order granting Hopkins' motion to suppress.\nAFFIRMED IN PART, REVERSED IN PART, and REMANDED.\nOur court has recently held that, in addition, the magistrate must be authorized by law to issue warrants in the jurisdiction where the warrant will be executed. United States v. Henderson , 906 F.3d 1109, 1117 (9th Cir. 2018).\nHopkins contends that the judge who issued his warrant exceeded the scope of her authority because agents ended up deploying the cell-site simulator in neighboring San Francisco County. But Hopkins points to no provision of California law that limits a Superior Court judge's authority to issue a search warrant to the territorial boundaries of the county in which the judge sits. The few California cases addressing similar issues seem to point in the opposite direction. See, e.g. , People v. Fleming , 29 Cal.3d 698, 175 Cal.Rptr. 604, 631 P.2d 38, 42 (1981). The district court has not yet addressed this argument, however, and Hopkins remains free to renew it on remand.\nThe Hopkins cell-site simulator warrant, as noted above, did provide that federal agents \"employed by the United States Marshals Service are authorized to assist in the service of this warrant.\"\nIn Perry v. United States , 14 F.2d 88 (9th Cir. 1926), we held that the Fourth Amendment was violated when officers without statutory authorization executed a search warrant. Id. at 89. But Perry rested on the Prohibition-era view that a lawful Fourth Amendment search or seizure required compliance with an authorizing statute. See Orin S. Kerr, Cross-Enforcement of the Fourth Amendment , 132 Harv. L. Rev. 471, 501 (2018). Perry 's holding on that point did not survive Virginia v. Moore , 553 U.S. 164, 168, 128 S.Ct. 1598, 170 L.Ed.2d 559 (2008).",
+        "type": "majority",
+        "author": "WATFORD, Circuit Judge:"
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellant,\nv.\nDonnell ARTIS; Chanta Hopkins, aka Askari Aquil Mohammed, Defendants-Appellees.\nNo. 18-10246\nUnited States Court of Appeals, Ninth Circuit.\nArgued and Submitted January 11, 2019 Pasadena, California\nFiled March 27, 2019"
+  },
+  "file_name": "1123-01",
+  "first_page_order": 1123,
+  "last_page_order": 1135
+}

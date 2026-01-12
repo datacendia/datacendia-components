@@ -1,0 +1,61 @@
+{
+  "id": 12417229,
+  "name": "Mathis v. Obama, President of the United States, et al.",
+  "name_abbreviation": "Mathis v. Obama",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10834",
+  "first_page": "930",
+  "last_page": "931",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 930"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 28,
+    "char_count": 182,
+    "ocr_confidence": 0.585,
+    "sha256": "73a1fd35e38db7dac106486462d500cc46457a0f6d5eac0c4e9f1734f46e8185",
+    "simhash": "1:98b3708a210ec046",
+    "word_count": 31
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Alito took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Mathis v. Obama, President of the United States, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.\nJustice Alito took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10834.\nMathis v. Obama, President of the United States, et al."
+  },
+  "file_name": "0930-11",
+  "first_page_order": 1006,
+  "last_page_order": 1007
+}

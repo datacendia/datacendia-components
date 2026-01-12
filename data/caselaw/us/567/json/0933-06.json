@@ -1,0 +1,78 @@
+{
+  "id": 12411023,
+  "name": "Decker, Oregon State Forester, et al. v. Northwest Environmental Defense Center; and Georgia-Pacific West, Inc., et al. v. Northwest Environmental Defense Center",
+  "name_abbreviation": "Decker v. Northwest Environmental Defense Center",
+  "decision_date": "2012-06-25",
+  "docket_number": "No. 11-338; No. 11-347",
+  "first_page": "933",
+  "last_page": "933",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 933"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "640 F. 3d 1063",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4204187
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/640/1063-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 52,
+    "char_count": 410,
+    "ocr_confidence": 0.656,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.255760857100163
+    },
+    "sha256": "bf245b9b957823b0e8ce508da3d13617ae8f2cf286e4ccd40fa01b54565e44c1",
+    "simhash": "1:38f5361969276a86",
+    "word_count": 64
+  },
+  "last_updated": "2024-02-27T23:46:21.325002+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Breyer took no part in the consideration or decision of these petitions."
+    ],
+    "parties": [
+      "Decker, Oregon State Forester, et al. v. Northwest Environmental Defense Center; and Georgia-Pacific West, Inc., et al. v. Northwest Environmental Defense Center."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari granted, cases consolidated, and a total of one hour is allotted for oral argument.\nJustice Breyer took no part in the consideration or decision of these petitions.\nReported below: 640 F. 3d 1063.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-338.\nNo. 11-347.\nDecker, Oregon State Forester, et al. v. Northwest Environmental Defense Center; and Georgia-Pacific West, Inc., et al. v. Northwest Environmental Defense Center."
+  },
+  "file_name": "0933-06",
+  "first_page_order": 837,
+  "last_page_order": 837
+}

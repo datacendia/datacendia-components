@@ -1,0 +1,59 @@
+{
+  "id": 12207913,
+  "name": "Landon v. United States",
+  "name_abbreviation": "Landon v. United States",
+  "decision_date": "2012-04-16",
+  "docket_number": "No. 11-9242",
+  "first_page": "952",
+  "last_page": "952",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 952"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.637,
+    "sha256": "22ad0d42f860121481f897849cf6de53695021a42ebfdfc06ad21b9c1cfbe519",
+    "simhash": "1:979a420e4ebd9816",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Landon v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9242.\nLandon v. United States."
+  },
+  "file_name": "0952-12",
+  "first_page_order": 828,
+  "last_page_order": 828
+}

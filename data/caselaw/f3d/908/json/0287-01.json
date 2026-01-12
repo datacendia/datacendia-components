@@ -1,0 +1,265 @@
+{
+  "id": 12519152,
+  "name": "UNITED STATES of America, Plaintiff-Appellee, v. Joshua C. BOLIN, Defendant-Appellant.",
+  "name_abbreviation": "United States v. Bolin",
+  "decision_date": "2018-11-07",
+  "docket_number": "No. 18-2208",
+  "first_page": "287",
+  "last_page": "290",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "908 F.3d 287"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "7th Cir.",
+    "id": 9010,
+    "name": "United States Court of Appeals for the Seventh Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "488 U.S. 563",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1494463
+      ],
+      "weight": 6,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "569"
+        },
+        {
+          "page": "576"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/488/0563-01"
+      ]
+    },
+    {
+      "cite": "138 S.Ct. 798",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12616876
+      ],
+      "weight": 9,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "806"
+        },
+        {
+          "page": "801-02"
+        },
+        {
+          "page": "802"
+        },
+        {
+          "page": "803"
+        },
+        {
+          "page": "804"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/0798-01"
+      ]
+    },
+    {
+      "cite": "833 F.3d 797",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4350287
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "801"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/833/0797-01"
+      ]
+    },
+    {
+      "cite": "646 F.3d 499",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3415514
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "502"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/646/0499-01"
+      ]
+    },
+    {
+      "cite": "665 F.3d 827",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3863007
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "837"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/665/0827-01"
+      ]
+    },
+    {
+      "cite": "649 F.3d 634",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5714107
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "638"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/649/0634-01"
+      ]
+    },
+    {
+      "cite": "897 F.3d 878",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517888
+      ],
+      "weight": 4,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "882",
+          "parenthetical": "quoting United States v. Sakellarion , 649 F.3d 634, 638 (7th Cir. 2011) "
+        },
+        {
+          "page": "882"
+        },
+        {
+          "page": "883"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/897/0878-01"
+      ]
+    },
+    {
+      "cite": "569 F.3d 774",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3658973
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "776",
+          "parenthetical": "citing Fed. R. Crim. P. 11(b)(1)(N) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/569/0774-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3742",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7\u00a7 3013",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 2252",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)(4)(B)"
+        },
+        {
+          "page": "(a)(4)(B)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 517,
+    "char_count": 9561,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25910815649869934
+    },
+    "sha256": "b36a3cfe9de44064a7b24a521a8b16e0cc9b1590e2ddbc4ec4f32bc98dae764d",
+    "simhash": "1:f3aeeb0b4c09f515",
+    "word_count": 1544
+  },
+  "last_updated": "2024-02-27T16:20:33.568669+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Flaum, Easterbrook, and Brennan, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee,\nv.\nJoshua C. BOLIN, Defendant-Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Flaum, Circuit Judge.\nDefendant-appellant Joshua Bolin pleaded guilty to possessing sexually explicit material involving minors, in violation of 18 U.S.C. \u00a7 2252(a)(4)(B). After Bolin signed a plea agreement, the district court sentenced Bolin to 120 months of imprisonment and a supervised release term of 15 years. The district court did not impose a fine, but it ordered Bolin to pay the mandatory special assessment and the additional special assessment under 18 U.S.C. \u00a7\u00a7 3013 and 3014. Bolin argues that the district court erred in imposing the $5,000 additional special assessment under \u00a7 3014 because he is indigent. The government argues Bolin has waived this claim. We agree, and we affirm.\nI. Background\nOn May 31, 2017, the government charged Bolin with possession of sexually explicit material involving minors, in violation of 18 U.S.C. \u00a7\u00a7 2252(a)(4)(B) and 2252(b)(2). At his initial appearance, Bolin submitted a financial affidavit. The court approved it and appointed him counsel under the Criminal Justice Act. See 18 U.S.C. \u00a7 3006A.\nBolin and the government jointly filed a \"Petition to Enter Guilty Plea and Plea Agreement\" on February 21, 2018 informing the court that Bolin had agreed to plead guilty. The plea agreement included a section titled \"Waiver of Right to Appeal,\" which, relevant here, had a paragraph that addressed \"Direct Appeal.\" That paragraph stated:\nThe defendant understands that the defendant has a statutory right to appeal the conviction and sentence imposed and the manner in which the sentence was determined. Acknowledging this right, and in exchange for the concessions made by the Government in this Plea Agreement, the defendant expressly waives the defendant's right to appeal the conviction imposed in this case on any ground, including the right to appeal conferred by 18 U.S.C. \u00a7 3742.... This blanket waiver of appeal specifically includes all provisions of the guilty plea and sentence imposed, including the length and conditions [of] supervised release and the amount of any fine.\nAt the change of plea hearing on March 14, 2018, the district court determined that Bolin was competent and capable of entering into an informed plea, and the district court adjudged Bolin guilty.\nThe U.S. Probation Office filed a Presentence Investigation Report (\"PSR\"). The PSR explained that under the relevant statutes, Bolin faced a $250,000 fine, and under the Guidelines, he faced a $20,000 to $200,000 fine. Nevertheless, the Probation Office recommended that the court not impose any fine on Bolin. Additionally, in accordance with the statutes, the Guidelines, and the plea agreement, the Probation Office recommended that the district court impose $100 for the mandatory special assessment and $5,000 for the additional special assessment, but it did not elaborate as to its reasoning for those recommendations.\nAt the sentencing hearing on May 15, 2018, the district court described Bolin as a \"relatively intelligent young man,\" who graduated \"close to the top ten in his high school class,\" and who is \"interested in electronics.\" When the district court asked Bolin about his post-release plans, Bolin said he hoped to use the education he received from the Bureau of Prisons to work and have a normal life. In turn, the district court said Bolin \"should take advantage of education [and] vocational training opportunities while he's at the Bureau, so when he does come out of the Bureau of Prisons, he'll be able to seek employment and become a productive member of society and be able to support himself.\"\nUltimately, the district court sentenced Bolin to 120 months of imprisonment and a supervised release term of 15 years. The district court did not impose a fine given Bolin's \"current financial resources and future ability to pay,\" but it ordered Bolin to pay a mandatory special assessment of $100 and an additional special assessment of $5,000. The district court did not explicitly state its reasoning for ordering Bolin to pay both assessments.\nThe district court entered judgment on May 16, 2018. This appeal followed.\nII. Discussion\n\"As a general rule, a defendant may waive the right to appeal his conviction and sentence ....\" United States v. Cole , 569 F.3d 774, 776 (7th Cir. 2009) (citing Fed. R. Crim. P. 11(b)(1)(N) ). When a waiver of appellate rights is knowing and voluntary, it \"must be enforced.\" United States v. Perillo , 897 F.3d 878, 882 (7th Cir. 2018) (quoting United States v. Sakellarion , 649 F.3d 634, 638 (7th Cir. 2011) ). But such waivers should only be enforced to the extent the subject of the appeal falls within the scope of the waiver. United States v. Shah , 665 F.3d 827, 837 (7th Cir. 2011). We review the scope of a waiver de novo. Perillo , 897 F.3d at 882.\nBolin appeals the court's imposition of the additional special assessment because the district court found him to be indigent when it appointed him counsel and when it decided he was unable to pay a fine under the Guidelines. The parties dispute whether Bolin's claim falls within the scope of the waiver provision in his plea agreement. The government emphasizes that Bolin agreed to a \"blanket waiver of appeal,\" including \"all provisions\" of his sentence and \"any fine.\" We agree.\nOur decision in Perillo is instructive here. In that case, the appellant argued that she had not waived her right to appeal the restitution order of her sentence because the waiver did not refer to restitution. Perillo , 897 F.3d at 883. But because the waiver applied to \"all provisions of the ... sentence imposed,\" we held: \"[t]he fact that other specific terms of the sentence were mentioned and restitution was not does not take restitution out from under the 'all provisions' umbrella.\" Id. (citing United States v. Worden , 646 F.3d 499, 502 (7th Cir. 2011) ).\nThe waiver provision in Bolin's plea agreement similarly referred to \"all provisions\" of his sentence. And additional special assessments are part of the sentencing \"package.\" Cf. United States v. Mobley , 833 F.3d 797, 801 (7th Cir. 2016). Thus, Bolin's waiver provision did not need to expressly reference the additional special assessment in order for the waiver provision to apply to that aspect of Bolin's sentence. The waiver provision had sufficient breadth to encompass Bolin's right to raise a claim involving the additional special assessment on appeal.\nBolin relies on Class v. United States , --- U.S. ----, 138 S.Ct. 798, 200 L.Ed.2d 37 (2018), to argue that certain challenges are eligible for appellate review, notwithstanding a plea agreement that waives a defendant's appellate rights. Bolin contends that, like the defendant in Class , he does not wish to deny that he engaged in any of the conduct to which he already admitted. Rather, Bolin seeks to argue that \u00a7 3014 does not apply to him because he is indigent. As such, Bolin says he is only raising a claim that \"judged on its face\" would remove the government's power to \"constitutionally prosecute\" him if his claim proves successful. See id. at 806.\nIn Class , the Supreme Court considered whether a guilty plea prevents a defendant from appealing his conviction on the theory that the statute of conviction is unconstitutional. Id. at 801-02. The defendant's written plea agreement included express waivers, such as the right to appeal a sentence at or below the Guidelines. Id. at 802. However, it also enumerated categories of claims that the defendant could raise on appeal, such as claims based on certain statutes providing for sentence reductions. Id. Notably, the plea agreement did not contain an express waiver of the defendant's right to challenge the constitutionality of the statute of conviction on direct appeal. Id.\nThe Court held that the defendant did not waive the right to appeal the constitutionality of the statute of conviction by signing the plea agreement. Id. at 803. Drawing on its holdings \"stretch[ing] back nearly 150 years,\" the Court explained that \"a guilty plea does not bar a claim on appeal 'where on the face of the record the court had no power to enter the conviction or impose the sentence.' \" Id. at 804 (quoting United States v. Broce , 488 U.S. 563, 569, 109 S.Ct. 757, 102 L.Ed.2d 927 (1989) ). By contrast, where defendants cannot prove their claim \"without contradicting [their] indictments,\" the Court reiterated that their claims are \"foreclosed by the admissions inherent in their guilty pleas.\" Id. (quoting Broce , 488 U.S. at 576, 109 S.Ct. 757 ).\nClass is inapposite. Bolin's claim on appeal does not challenge the constitutionality of \u00a7 3014, nor does his claim implicate the power of the government to prosecute him. Additionally, unlike in Class , Bolin's claim on appeal contradicts the terms of the plea agreement.\nAbsent any evidence to suggest that Bolin's waiver was invalid, it follows that the waiver contained in the plea agreement is enforceable. Consequently, our review of Bolin's claim is foreclosed.\nIII. Conclusion\nFor the foregoing reasons, we AFFIRM the judgment of the district court.",
+        "type": "majority",
+        "author": "Flaum, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Brian L. Reitz, Attorney, Office of the United States Attorney, Indianapolis, IN, Kyle Matthew Sawa, Attorney, Office of the United States Attorney, Evansville, IN, for Plaintiff-Appellee.",
+      "Erin L. Berger, Attorney, Evansville, IN, for Defendant-Appellant."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee,\nv.\nJoshua C. BOLIN, Defendant-Appellant.\nNo. 18-2208\nUnited States Court of Appeals, Seventh Circuit.\nArgued October 31, 2018\nDecided November 7, 2018\nBrian L. Reitz, Attorney, Office of the United States Attorney, Indianapolis, IN, Kyle Matthew Sawa, Attorney, Office of the United States Attorney, Evansville, IN, for Plaintiff-Appellee.\nErin L. Berger, Attorney, Evansville, IN, for Defendant-Appellant.\nBefore Flaum, Easterbrook, and Brennan, Circuit Judges."
+  },
+  "file_name": "0287-01",
+  "first_page_order": 287,
+  "last_page_order": 290
+}

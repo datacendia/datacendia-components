@@ -1,0 +1,59 @@
+{
+  "id": 12409970,
+  "name": "Petway v. National Labor Relations Board",
+  "name_abbreviation": "Petway v. National Labor Relations Board",
+  "decision_date": "2012-06-18",
+  "docket_number": "No. 11-9989",
+  "first_page": "920",
+  "last_page": "920",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 920"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 89,
+    "ocr_confidence": 0.712,
+    "sha256": "246b49b689f697b565e71921516c881517c2faf9f5b11cb61db49345fa15a05d",
+    "simhash": "1:badb35edde2f1167",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Petway v. National Labor Relations Board."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9989.\nPetway v. National Labor Relations Board."
+  },
+  "file_name": "0920-08",
+  "first_page_order": 824,
+  "last_page_order": 824
+}

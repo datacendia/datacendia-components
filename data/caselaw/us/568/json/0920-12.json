@@ -1,0 +1,59 @@
+{
+  "id": 12416490,
+  "name": "Sylvester v. United States",
+  "name_abbreviation": "Sylvester v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5662",
+  "first_page": "920",
+  "last_page": "920",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 920"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.685,
+    "sha256": "4eff47515be9071b58466f27c1d52dc725a246eb7c830152250129d33dbb3210",
+    "simhash": "1:cf6bcba3868f903a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sylvester v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5662.\nSylvester v. United States."
+  },
+  "file_name": "0920-12",
+  "first_page_order": 996,
+  "last_page_order": 996
+}

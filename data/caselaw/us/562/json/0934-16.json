@@ -1,0 +1,59 @@
+{
+  "id": 6032833,
+  "name": "Lasko v. Watts et al.",
+  "name_abbreviation": "Lasko v. Watts",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5700",
+  "first_page": "934",
+  "last_page": "934",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 934"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 68,
+    "ocr_confidence": 0.6,
+    "sha256": "1cf2d23ca510028f5e2da1d25da6e4590f900b3af0975eec22e8b604dce401c0",
+    "simhash": "1:080ca5a84b05b162",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lasko v. Watts et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5700.\nLasko v. Watts et al."
+  },
+  "file_name": "0934-16",
+  "first_page_order": 956,
+  "last_page_order": 956
+}

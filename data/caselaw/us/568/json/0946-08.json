@@ -1,0 +1,59 @@
+{
+  "id": 12418166,
+  "name": "Cooper v. Illinois",
+  "name_abbreviation": "Cooper v. Illinois",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-5568",
+  "first_page": "946",
+  "last_page": "946",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 946"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.662,
+    "sha256": "0ddfbeb9d9523bd4fde4efa5ec21e97be880f74710616c8724df82090105ff54",
+    "simhash": "1:4031b3977174773d",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cooper v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 2d Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5568.\nCooper v. Illinois."
+  },
+  "file_name": "0946-08",
+  "first_page_order": 1022,
+  "last_page_order": 1022
+}

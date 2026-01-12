@@ -1,0 +1,85 @@
+{
+  "id": 12705967,
+  "name": "Norm ROBINSON, Warden, petitioner, v. John DRUMMOND.",
+  "name_abbreviation": "Robinson v. Drummond",
+  "decision_date": "2014-04-28",
+  "docket_number": "No. 13\u2013496.",
+  "first_page": "1084",
+  "last_page": "1084",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "572 U.S. 1084"
+    },
+    {
+      "type": "parallel",
+      "cite": "188 L. Ed. 2d 957"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 1934"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "134 S.Ct. 1697",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12706994,
+        12579839
+      ],
+      "weight": 2,
+      "year": 2014,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/572/0415-01",
+        "/s-ct/134/1697-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 47,
+    "char_count": 461,
+    "sha256": "114a03fc221975a48cb1e09569bc86a05b3fae2ab25c1ffd11b57279eec25c37",
+    "simhash": "1:442f62040502168d",
+    "word_count": 75
+  },
+  "last_updated": "2024-02-27T18:41:28.401677+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Norm ROBINSON, Warden, petitioner,\nv.\nJohn DRUMMOND."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "On petition for writ of certiorari to the United States Court of Appeals for the Sixth Circuit. Petition for writ of certiorari granted. Judgment vacated, and case remanded to the United States Court of Appeals for the Sixth Circuit for further consideration in light of White v. Woodall, 572 U.S. ----, 134 S.Ct. 1697, 188 L.Ed.2d 698 (2014)."
+    ],
+    "corrections": "",
+    "head_matter": "Norm ROBINSON, Warden, petitioner,\nv.\nJohn DRUMMOND.\nNo. 13-496.\nSupreme Court of the United States\nApril 28, 2014.\nOn petition for writ of certiorari to the United States Court of Appeals for the Sixth Circuit. Petition for writ of certiorari granted. Judgment vacated, and case remanded to the United States Court of Appeals for the Sixth Circuit for further consideration in light of White v. Woodall, 572 U.S. ----, 134 S.Ct. 1697, 188 L.Ed.2d 698 (2014)."
+  },
+  "file_name": "1084-05",
+  "first_page_order": 1084,
+  "last_page_order": 1084
+}

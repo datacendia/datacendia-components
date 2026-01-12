@@ -1,0 +1,59 @@
+{
+  "id": 12218926,
+  "name": "White v. United States",
+  "name_abbreviation": "White v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5281",
+  "first_page": "899",
+  "last_page": "899",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 899"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.71,
+    "sha256": "61f7859db8302ff2e40835a89cd996ab43d3543e5e5a98bdd8fbd9013451a758",
+    "simhash": "1:808a9288ca95581a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "White v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5281.\nWhite v. United States."
+  },
+  "file_name": "0899-07",
+  "first_page_order": 981,
+  "last_page_order": 981
+}

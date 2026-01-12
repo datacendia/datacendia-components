@@ -1,0 +1,540 @@
+{
+  "id": 4137331,
+  "name": "ERNEST BRADY et al., Plaintiffs and Appellants, v. CALSOL, INC., Defendant and Respondent",
+  "name_abbreviation": "Brady v. Calsol, Inc.",
+  "decision_date": "2015-10-07",
+  "docket_number": "No. B262028",
+  "first_page": "1212",
+  "last_page": "1226",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "241 Cal. App. 4th 1212"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "419 S.W.3d 143",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7250617,
+        7250477
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/419/0143-02",
+        "/sw3d/419/0143-01"
+      ]
+    },
+    {
+      "cite": "100 Cal.Rptr. 354",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "23 Cal.App.3d 585",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4433252
+      ],
+      "pin_cites": [
+        {
+          "page": "589"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/23/0585-01"
+      ]
+    },
+    {
+      "cite": "97 F.3d 1050",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7650140
+      ],
+      "pin_cites": [
+        {
+          "page": "1057"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/97/1050-01"
+      ]
+    },
+    {
+      "cite": "144 N.J. 34",
+      "category": "reporters:state",
+      "reporter": "N.J.",
+      "case_ids": [
+        820724
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "633"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nj/144/0034-01"
+      ]
+    },
+    {
+      "cite": "90 Cal.Rptr.3d 414",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "171 Cal.App.4th 564",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        12126752
+      ],
+      "pin_cites": [
+        {
+          "page": "588"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/171/0564-01"
+      ]
+    },
+    {
+      "cite": "203 Cal.App.4th 88",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "74 Cal.Rptr.2d 580",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Cal.App.4th 1178",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "opinion_index": 0
+    },
+    {
+      "cite": "74 Cal.Rptr.3d 359",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1998,
+      "opinion_index": 0
+    },
+    {
+      "cite": "161 Cal.App.4th 651",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3995833
+      ],
+      "year": 1998,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/161/0651-01"
+      ]
+    },
+    {
+      "cite": "53 Cal.Rptr.2d 642",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 2008,
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.App.4th 1224",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4752592
+      ],
+      "year": 2008,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/45/1224-01"
+      ]
+    },
+    {
+      "cite": "117 Cal.Rptr.3d 791",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1996,
+      "opinion_index": 0
+    },
+    {
+      "cite": "190 Cal.App.4th 23",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4227430
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "29"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/190/0023-01"
+      ]
+    },
+    {
+      "cite": "136 Cal.Rptr.3d 630",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "203 Cal.App.4th 81",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4248571
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/203/0081-01"
+      ]
+    },
+    {
+      "cite": "96 Cal.Rptr. 803",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 Cal.App.3d 669",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4403494
+      ],
+      "pin_cites": [
+        {
+          "page": "674"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/19/0669-01"
+      ]
+    },
+    {
+      "cite": "212 Cal.Rptr. 395",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "166 Cal.App.3d 357",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2169635
+      ],
+      "pin_cites": [
+        {
+          "page": "363-364"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/166/0357-01"
+      ]
+    },
+    {
+      "cite": "810 P.2d 549",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1985,
+      "opinion_index": 0
+    },
+    {
+      "cite": "281 Cal.Rptr. 528",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1985,
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.3d 987",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2358707
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "995"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/53/0987-01"
+      ]
+    },
+    {
+      "cite": "28 P.3d 116",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "110 Cal.Rptr.2d 370",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 Cal.4th 465",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        456727
+      ],
+      "pin_cites": [
+        {
+          "page": "478"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/26/0465-01"
+      ]
+    },
+    {
+      "cite": "116 P.3d 1123",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Cal.Rptr.3d 436",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Cal.4th 1028",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3121992
+      ],
+      "pin_cites": [
+        {
+          "page": "1037"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/36/1028-01"
+      ]
+    },
+    {
+      "cite": "225 Cal.Rptr. 203",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 2005,
+      "opinion_index": 0
+    },
+    {
+      "cite": "179 Cal.App.3d 1061",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2188761
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1064-1065"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/179/1061-01"
+      ]
+    },
+    {
+      "cite": "28 P.3d 249",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "110 Cal.Rptr.2d 528",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 Cal.4th 703",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        456873
+      ],
+      "pin_cites": [
+        {
+          "page": "722"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/26/0703-01"
+      ]
+    },
+    {
+      "cite": "115 P.3d 77",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal.Rptr.3d 797",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Cal.4th 446",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3123113
+      ],
+      "pin_cites": [
+        {
+          "page": "460"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/36/0446-01"
+      ]
+    },
+    {
+      "cite": "71 Cal.Rptr.2d 817",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "61 Cal.App.4th 830",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1240482
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "839"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/61/0830-01"
+      ]
+    },
+    {
+      "cite": "266 P.3d 987",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "135 Cal.Rptr.3d 288",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.4th 335",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6050788
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "355"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/53/0335-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1243,
+    "char_count": 29997,
+    "ocr_confidence": 0.859,
+    "pagerank": {
+      "raw": 5.507290070623438e-08,
+      "percentile": 0.34432972733159345
+    },
+    "sha256": "792f59f3d36e915148bbae2a260fdc25c6d8aaebfcab644a1dc9c415bcb91769",
+    "simhash": "1:1fafcaaf469652c8",
+    "word_count": 4718
+  },
+  "last_updated": "2024-02-27T23:24:54.318392+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Rubin, Acting P. J., and Grimes, J., concurred."
+    ],
+    "parties": [
+      "ERNEST BRADY et al., Plaintiffs and Appellants, v. CALSOL, INC., Defendant and Respondent."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nOHTA, J.*\nThis is a coordinated case involving plaintiffs Ernest Brady and David Gibbs (Plaintiffs), who were diagnosed with acute myelogenous leukemia allegedly caused by exposure to Safety-Kleen 105 Solvent during the course of their employment. Plaintiffs brought action against various defendants including Calsol, Inc., a distributor of mineral spirits for the ultimate manufacturer, Safety-Kleen Systems, Inc. Calsol filed a motion for summary judgment based on the raw material or component parts doctrine, which shields a supplier from liability \u201ccaused by the finished product info which the component has been incorporated unless the component itself was defective and caused harm.\u201d (O\u2019Neil v. Crane Co. (2012) 53 Cal.4th 335, 355 [135 Cal.Rptr.3d 288, 266 P.3d 987] (O\u2019Neil).) The trial court granted the summary judgment motion. As we explain, the component parts doctrine requires a showing the mineral spirits supplied to Safety-Kleen was not inherently dangerous. (Artiglio v. General Electric Co. (1998) 61 Cal.App.4th 830, 839 [71 Cal.Rptr.2d 817] (Artiglio).) Calsol has failed to make that showing. As a result, there remains a dispute of material fact as to whether mineral spirits are inherently dangerous. We reverse the summary judgment and remand for further proceedings.\nFACTS\nGibbs worked as a mechanic at various facilities in California and elsewhere from 1989 to 2007. Brady also worked as a mechanic from 1973 to 2006 for the Los Angeles Unified School District. As part of their duties, Brady and Gibbs degreased and scrubbed automotive parts with the SafetyKleen 105 Solvent (105 Solvent) using a parts washer supplied by SafetyKleen. The washer was composed of a \u201csinlc-on-a-drum,\u201d which allowed the solvent to be pumped up to the sink and then recycled back into the drum. Safety-Kleen replaced the drum filled with 105 Solvent at regular intervals. It then removed contaminants from the used 105 Solvent and new or \u201cvirgin\u201d mineral spirits were added to the used solvent along with an antistatic agent and a green dye. This product was sold as recycled 105 Solvent.\nOn June 27, 2008, Plaintiffs brought separate products liability lawsuits against Safety-Kleen and its suppliers. Plaintiffs\u2019 cases were coordinated with similar cases against Safety-Kleen and assigned a coordination trial judge. Plaintiffs amended their complaints to add Calsol as a defendant on October 21, 2008. Calsol served as a distributor of mineral spirits to Safety-Kleen between 1993 and 1996. The mineral spirits sold by Calsol were refined by Kem Oil & Refining Co. and were shipped directly, to Safety-Kleen from Kern Oil. Kem Oil provided Safety-Kleen with a material safety data sheet, a certificate of analysis, and a bill of lading in connection with the deliveries of mineral spirits.\nPlaintiffs alleged causes of action against Calsol for negligence, strict liability based on failure to warn, strict liability based on design defect, breach of implied warranties, and loss of consortium. Among other things, Plaintiffs alleged their leukemia was caused by benzene, a carcinogen, which is found in mineral spirits.\nMineral spirits is commonly used in industrial or consumer cleaning and degreasing products. It is a refined petrochemical solvent comprised of blends of hydrocarbons primarily separated from crude oil through a refining process known as fractional distillation. Fractional distillation is a process where temperature changes allow for the separation of hydrocarbons based on boiling points. Benzene occurs naturally in crude oil and is a known human carcinogen at certain concentrations. Most refining processes do not separate the varying constituents of crude oil with absolute precision; therefore benzene remains in mineral spirits after the distillation process. However, the parties dispute the level of benzene found in the mineral spirits supplied to Safety-Kleen. Calsol asserts it is present in \u201cvarying low concentrations.\u201d Plaintiffs, on the other hand, assert Safety-Kleen tested the industrial grade mineral spirits provided to it by its suppliers and discovered it contained benzene at concentrations that could cause injury.\nCalsol moved for summary judgment, or in the alternative, summary adjudication, on the ground it owed no duty to Plaintiffs under the component parts doctrine. Plaintiffs opposed, arguing, among other things, that the coordination court had ruled in their favor on this issue against similarly situated defendants in other Safety-Kleen cases. The trial court granted Calsol\u2019s motion and judgment was entered in Calsol\u2019s favor on December 1, 2014. Plaintiffs timely appealed.\nDISCUSSION\nI. Standard of Review\nA defendant moving for summary judgment must show that one or more elements of a cause of action cannot be established or that there is a complete defense to the cause of action. (Miller v. Department of Corrections (2005) 36 Cal.4th 446, 460 [30 Cal.Rptr.3d 797, 115 P.3d 77]; Code Civ. Proc., \u00a7 437c, subd. (p)(2).) Once the defendant\u2019s burden has been met, the plaintiff is required to show a triable issue of material fact as to the cause of action or defense. (\u00a7 437c, subd. (p)(2).) A triable issue of fact is created when the evidence reasonably permits the trier of fact, under the applicable standard of proof, to find the purportedly contested fact in favor of the party opposing the motion. (Lugtu v. California Highway Patrol (2001) 26 Cal.4th 703, 722 [110 Cal.Rptr.2d 528, 28 P.3d 249].) The plaintiff may not rely on the allegations in his pleadings but must set forth the specific facts showing the triable issue. (\u00a7 437c, subd. (p)(2).)\nWe review the record de novo, considering all the evidence set forth in the moving and opposing papers except that to which objections were made and sustained. We liberally construe the evidence in support of the plaintiff opposing summary judgment and resolve doubts concerning the evidence in his favor. (AARTS Productions, Inc. v. Crocker National Bank (1986) 179 Cal.App.3d 1061, 1064-1065 [225 Cal.Rptr. 203]; Yanowitz v. L\u2019Oreal USA, Inc. (2005) 36 Cal.4th 1028, 1037 [32 Cal.Rptr.3d 436, 116 P.3d 1123]; \u00a7 437c, subd. (c).)\nII. Relevant Law\nA products liability case may rest on either a theory of strict liability or negligence. (Merrill v. Navegar, Inc. (2001) 26 Cal.4th 465, 478 [110 Cal.Rptr.2d 370, 28 P.3d 116].) In either case, the plaintiff must prove that a defect in the product caused injury. (Ibid.) In asserting a claim for negligence, the plaintiff must prove the defect in the product was due to the defendant\u2019s negligence. (Ibid.) Generally, recovery is permitted for three kinds of defects: manufacturing defects, design defects, and warning defects. (Anderson v. Owens-Corning Fiberglas Corp. (1991) 53 Cal.3d 987, 995 [281 Cal.Rptr. 528, 810 P.2d 549]; Powell v. Standard Brands Paint Co. (1985) 166 Cal.App.3d 357, 363-364 [212 Cal.Rptr. 395].) Plaintiffs have alleged claims based on strict liability as well as negligence for design and warning defects.\nThe component parts or raw materials doctrine shields a supplier such as Calsol from strict liability or negligence for defects contained in the finished product. Calsol moved for summary judgment relying on this theory. The doctrine is set forth in the Restatement Third of Torts as follows: a seller or distributor of product components is subject to liability for harm caused by the end product if (1) the component itself has a defect which causes injury, or (2) the seller substantially participates in integrating the component into the end product and \u201cthe integration of the component causes the product to be defective.\u201d (Rest.3d Torts, Products Liability, \u00a7 5.)\nThe authors explain, \u201cAs a general rule, component sellers should not be liable when the component itself is not defective as defined in this Chapter. If the component is not itself defective, it would be unjust and inefficient to impose liability solely on the ground that the manufacturer of the integrated product utilizes the component in a manner that renders the integrated product defective. Imposing liability would require the component seller to scrutinize another\u2019s product which the component seller has no role in developing. This would require the component seller to develop sufficient sophistication to review the decisions of the business entity that is already charged with responsibility for the integrated product.\u201d (Rest.3d Torts, Products Liability, \u00a7 5, com. a, p. 131.)\nUnder the Restatement, a product is defective if it: \u201c(a) contains a manufacturing defect when the product departs from its intended design even though all possible care was exercised in the preparation and marketing of the product; [\u00b6] (b) is defective in design when the foreseeable risks of harm posed by the product could have been reduced or avoided by the adoption of a reasonable alternative design by the seller or other distributor, or a predecessor in the commercial chain of distribution, and the omission of the alternative design renders the product not reasonably safe; [\u00b6] (c) is defective because of inadequate instructions or warnings when the foreseeable risks of harm posed by the product could have been reduced or avoided by the provision of reasonable instructions or warnings by the seller or other distributor, or a predecessor in the commercial chain of distribution, and the omission of the instructions or warnings renders the product not reasonably safe.\u201d (Rest.3d Torts, Products Liability, \u00a7 2, p. 14.)\nThe Restatement further explains \u201cProduct components include raw materials. . . . Thus, when raw materials are contaminated or otherwise defective within the meaning of \u00a7 2(a), the seller of the raw material is subject to liability for harm caused by such defects.\u201d (Rest.3d Torts, Products Liability, \u00a7 5, com. c, p. 134.) California courts have generally adopted the component parts doctrine as it is articulated in the Restatement. The following cases provide insight into how California courts have applied the doctrine.\nIn Walker v. Stauffer Chemical Corp. (1971) 19 Cal.App.3d 669, 674 [96 Cal.Rptr. 803] (Walker), the plaintiff was injured when a drain cleaning product exploded. The drain cleaner contained a mix of 50 percent sulfuric acid and 50 percent alkaline base. (Id. at p. 671.) Summary judgment was entered in favor of the defendant who sold bulk sulfuric acid to the drain cleaner manufacturer to be compounded, packaged, and distributed to the public. \u201cEach delivery of acid was checked for consistency and strength by a chemist using standard tests and testing procedures. At no time did these tests reveal the acid to be defective in any way.\u201d (Ibid.) Thus, the court found it undisputed that the bulk acid was not defective and there was no claim of negligence in the manufacture or packaging of the bulk acid. Instead, the parties\u2019 primary dispute related to whether the bulk supplier could be considered a manufacturer. The court held it could not. The actual manufacturer, to whom the bulk supplier sold the acid, compounded the sulfuric acid with other substances, substantially altering its chemical composition and the container form in which it was distributed. (Id. at p. 672.)\nFor these reasons, the Court of Appeal upheld the summary judgment, reasoning, \u201cWe do not believe it realistically feasible or necessary to the protection of the public to require the manufacturer and supplier of a standard chemical ingredient such as bulk sulfuric acid, not having control over the subsequent compounding, packaging or marketing of an item eventually causing injury to the ultimate consumer, to bear the responsibility for that injury. The manufacturer (seller) of the product causing the injury is so situated as to afford the necessary protection.\u201d (Walker, supra, 19 Cal.App.3d at p. 674.)\nAt the time Walker was decided, the Restatement Third of Torts was several decades from publication. Walker thus referred to section 402A of the Restatement Second of Torts in arriving at its decision. Section 402A expressed no opinion as to the section\u2019s application \u201cto the seller of a product expected to be processed or otherwise substantially changed before it reaches the user or consumer ... or [\u00b6] ... to the seller of a component part of a product to be assembled.\u201d (Rest.2d Torts, \u00a7 402A, p. 348.)\nIn Artiglio, supra, 61 Cal.App.4th 830, the supplier sold silicone made to meet the purchaser\u2019s specifications. The purchaser then \u201ccooked\u201d the silicone to be used in breast implants. The plaintiffs were injured by the breast implants. The court held the supplier of silicone had no duty to warn ultimate consumers of the possible dangers of the implants. (Id. at p. 837.) After careful examination of the relevant case law and an approved proposed final draft of the Restatement Third of Torts, the Artiglio court held \u201ccomponent and raw material suppliers are not liable to ultimate consumers when the goods or material they supply are not inherently dangerous, they sell goods or material in bulk to a sophisticated buyer, the material is substantially changed during the manufacturing process and the supplier has a limited role in developing and designing the end product. When these factors exist, the social cost of imposing a duty to the ultimate consumers far exceeds any additional protection provided to consumers. [Citation.]\u201d (Artiglio, at p. 839.) Here, Plaintiffs rely heavily on the first factor Artiglio mentions; whether the goods or raw materials are not inherent dangerous.\nIn Maxton v. Western States Metals (2012) 203 Cal.App.4th 81 [136 Cal.Rptr.3d 630] (Maxton), the supplier of metal products was held not liable for injuries to the plaintiff caused by exposure to toxic fumes and dusts created by cutting, grinding, sandblasting and welding the metal products. (Id. at p. 86.) Adopting the Artiglio factors, the court concluded the metal products were not inherently dangerous when they left the supplier\u2019s control. They only became dangerous as a result of the manufacturing process. (Maxton, at p. 93.) Further, the plaintiff\u2019s employer was a sophisticated buyer and the metal products were substantially changed with none of the suppliers having any role in developing or designing the end products. (Ibid.)\nThe court reasoned, \u201cWe thus conclude that the social cost of imposing a duty on defendants and expanding the strict liability doctrine under the circumstances of this case far exceeds any additional protection provided to users of defendants\u2019 products, including Maxton. By social cost we mean the practical burdens that would be placed on defendants as suppliers of the ubiquitous metal products involved in this case. Defendants would be required to assess the risks of using their metal products to manufacture other products. In order to make such assessments, defendants would need to retain experts on the countless ways their customers, including LeFiell, used their metal products. [Citations.] Defendants would also be placed in the untenable position of second-guessing their customers whenever they received information regarding potential safety problems. [Citation.] We decline to expand the law of negligence and strict liability in that way.\u201d (Maxton, supra, 203 Cal.App.4th at pp. 93-94.)\nThe outcomes in Walker, Artiglio, and Maxton are contrasted with product liability cases involving suppliers of raw asbestos. Suppliers of raw asbestos, which has been held to be a \u201cdefective product\u201d as a matter of law, have not received the protection afforded by the component parts doctrine. (Stewart v. Union Carbide Corp. (2010) 190 Cal.App.4th 23, 29 [117 Cal.Rptr.3d 791]; see Jenkins v. T&N PLC (1996) 45 Cal.App.4th 1224 [53 Cal.Rptr.2d 642]; Garza v. Asbestos Corp., Ltd. (2008) 161 Cal.App.4th 651 [74 Cal.Rptr.3d 359]; Arena v. Owens-Corning Fiberglas Corp. (1998) 63 Cal.App.4th 1178 [74 Cal.Rptr.2d 580] (Arena).)\nIII. Analysis\nUnder the factors identified in Artiglio, Calsol was required to establish there was no dispute of material fact that (1) the mineral spirits supplied to Safety-Kleen was not inherently dangerous; (2) the mineral spirits was sold in bulk to a sophisticated buyer; (3) the mineral spirits was substantially changed during the manufacturing process; and (4) Calsol had a limited role in developing and designing 105 Solvent. (Artiglio, supra, 61 Cal.App.4th at p. 839.) Calsol takes issue with the first factor listed in Artiglio, challenging whether the component parts doctrine requires a showing the component is not \u201cinherently dangerous.\u201d Plaintiffs assert mineral spirits is inherently dangerous because the spirits contain benzene, a known carcinogen. Thus, like the suppliers of raw asbestos, if there is a triable issue of fact whether the spirits contain a carcinogen, Calsol may not prevail under the component parts doctrine. Calsol, on the other hand, argues Artiglio \u201cinvented\u201d the phrase \u201cinherently dangerous\u201d by misinterpreting a comment set forth in the Restatement Second of Torts about \u201cunreasonably dangerous\u201d products. In addition, Calsol asserts other courts\u2019 articulations of the component parts doctrine have excluded the requirement that the component not be inherently dangerous, including the California Supreme Court in O\u2019Neil, supra, 53 Cal.4th 335.\nAt the summary judgment motion, Plaintiff\u2019s counsel argued the trial court was making a factual determination mineral spirits was not \u201cinherently dangerous.\u201d The trial court responded it was making a determination as a matter of law. In its tentative ruling posted on October 27, 2014, the trial court wrote in part III(C), \u201cAsbestos is different than mineral spirits because asbestos effectively has been banned entirely from the modern marketplace. By contrast, mineral spirits is an ingredient with legitimate uses. The same is true of kerosene and concentrated sulphuric acid. Like knives, these bulk chemicals can be useful even though they can be dangerous.\u201d\nWe are disinclined to create a conflict with Artiglio on this issue. Artiglio conducted an exhaustive review of relevant authority, including an approved draft of the Restatement Third of Torts, in its analysis. Artiglio has also been cited with approval for this proposition by other California courts. (Maxton, supra, 203 Cal.App.4th 88-89; see Taylor v. Elliott Turbomachinery Co. Inc. (2009) 171 Cal.App.4th 564, 588 [90 Cal.Rptr.3d 414].) Indeed, Maxton adopted the \u201cnot inherently dangerous\u201d factor from Artiglio and concluded, \u201cthe metal products in this case were not dangerous when they left [the] defendants\u2019 control.\u201d (Maxton, supra, 203 Cal.App.4th at p. 93.) As such, the court concluded, \u201cBecause the metal products here are not analogous to raw asbestos or otherwise inherently dangerous, they are not themselves defective.\u201d (Id. at p. 94.) Both the California Supreme Court and the Restatement Third cited to Artiglio with no indication of disapproval, although for different issues involving the component parts doctrine. (O\u2019Neil, supra, 53 Cal.4th at p. 362; Rest.3d Torts, Products Liability, \u00a7 5, com. c, p. 134.) Indeed, O\u2019Neil affirmed, \u201c \u2018in California, a manufacturer has no duty to warn of defects in products supplied by others and used in conjunction with the manufacturer\u2019s product unless the manufacturer\u2019s product itself causes or creates the risk of harm.\u2019 [Citation.]\u201d (O\u2019Neil, supra, at p. 354.)\nOther jurisdictions agree with Artiglio; the Supreme Court of New Jersey noted, \u201cThe prevailing view is that a manufacturer of a component part, not dangerous in and of itself, does not have a duty to warn an employee of the immediate purchaser of the component where the immediate purchaser is aware of the need to attach safety devices. [Citation.]\u201d (Zaza v. Marquess & Nell (1996) 144 N.J. 34 [675 A.2d 620, 633], italics added.)\nA requirement that the component not be inherently dangerous comports with the policy behind the doctrine. As the Artiglio court recognized, \u201cthe duty of a component manufacturer or supplier to warn about the hazards of its products is not unlimited. As one court stated: \u2018Making suppliers of inherently safe raw materials and component parts pay for the mistakes of the finished product manufacturer would not only be unfair, but it also would impose [an] intolerable burden on the business world .... Suppliers of versatile materials like chains, valves, sand gravel, etc., cannot be expected to become experts in the infinite number of finished products that might conceivably incorporate their multi-use raw materials or components.\u2019 (In re TMJ Implants Products Liability Litigation (8th Cir. 1996) 97 F.3d 1050, 1057.)\u201d (Artiglio, supra, 61 Cal.App.4th at p. 837.) Requiring a supplier to warn of the dangers of an inherently dangerous product, however, does not require the supplier to \u201c \u2018develop expertise regarding a multitude of different end-products and to investigate the actual use of raw materials by manufacturers over whom the supplier has no control.\u2019 \u201d (Artiglio, supra, at p. 839.) It merely requires the supplier to understand the dangers inherent in its own product.\nCalsol attempts to circumvent the inherently dangerous factor by quoting cases which adopt the Restatement\u2019s language that the product must not be \u201cdefective\u201d at the time it leaves the supplier. According to Calsol, \u201cthe consistent factor rendering a material or component defective in all of the authorities above, is the presence of a foreign item that is not a natural part of the raw material or component part.\u201d\nWe are not persuaded by Calsol\u2019s interpretation of what is defective, particularly when its definition categorically excludes any product that is inherently dangerous. Calsol\u2019s position cannot be reconciled with the asbestos cases, which have consistently found asbestos fiber to be a defective raw material because it is inherently dangerous. As the First Appellate District explained, \u201c \u2018Asbestos fiber which is extracted by crushing an asbestos rock and compacting the fiber into bags is a product within the meaning of the Restatement; it is no different than a poisonous mushroom extracted from the ground, which regardless of the changes it undergoes, remains poisonous to the user or consumer. [\u00b6] The fact that an item is processed before it is sold is not determinative of its status as a product, and thus strict liability may be imposed where a person contracts asbestosis while working with raw asbestos fiber, because although asbestos fiber is processed before it is sold to consumers, it is the fiber, rather than the manufactured article, that causes asbestosis.\u2019 (American Law of Products Liability (3d ed. 1987) \u00a7 16:77, p. 97, fns. omitted.)\u201d (Arena, supra, 63 Cal.App.4th at p. 1187, fn. 5.) It is clear the defective nature of asbestos lies in its inherent danger to the consumer rather than on any foreign contaminant, just as in the case of a poisonous mushroom.\nCalsol cites to Walker, contending it is a competing appellate decision which does not require the component be \u201cinherently dangerous\u201d to benefit from the doctrine. Calsol argues the sulfuric acid in Walker has a similar propensity for danger as the mineral spirits it supplied to Safety-Kleen. We do not agree that Walker presents a split of authority with Artiglio on the component parts doctrine.\nWalker was decided well before the Restatement Third of Torts, which sets forth the component parts doctrine. Walker instead relied on the Restatement Second of Torts, which sets forth the rule for liability of a seller of an end product that is in \u201cdefective condition unreasonably dangerous to the user or consumer.\u201d (Rest.2d Torts, \u00a7 402A.) This rule describes the liability of a manufacturer, such as Safety-Kleen, rather than a component parts supplier, such as Calsol. The authors of the Restatement Second of Torts recognized the law surrounding the component parts doctrine had not yet been developed at that point, and \u201c[t]hus far the decisions applying the rule stated have not gone beyond products which are sold in the condition, or in substantially the same condition, in which they are expected to reach the hands of the ultimate user or consumer.\u201d (Rest.2d Torts, \u00a7 402A, com. p, p. 357.)\nIn Walker, the parties argued whether a triable issue of fact existed as to who was the manufacturer, the seller of the drain cleaner or the supplier of the bulk sulfuric acid. (Walker, supra, 19 Cal.App.3d at pp. 672-673.) It is apparent the Walker court was not asked to fully consider the component parts doctrine in reaching its decision because the defense had not yet been formed.\nA Dispute of Material Fact Exists as to Whether Mineral Spirits Is Inherently Dangerous\nCalsol makes no demonstration that its mineral spirits was not inherently dangerous. Plaintiffs, on the other hand, presented the declaration of Dr. Mark Nicas on the hazards of 105 Solvent and mineral spirits. He opined, \u201cto a reasonable degree of scientific certainty, that mineral spirits is inherently dangerous, because respiratory exposure to benzene vapors occurs when mineral spirits is present in opened Safety-Kleen parts washer machines and because the use of mineral spirits-based solvent to degrease dirty mechanical parts results in both respiratory and dermal exposure to benzene, a known human carcinogen and leukemogen.\u201d\nRather than address whether mineral spirits is inherently dangerous, Calsol arg\u00fces its mineral spirits is, as a matter of law, not defectively designed because it is comparable to kerosene, as listed in the Restatement Third. In the comments relating to raw materials in section 5 of the Restatement Third of Torts, the authors noted, \u201cProduct components include raw materials. See Comment a. Thus, when raw materials are contaminated or otherwise defective within the meaning of \u00a7 2(a), the seller of the raw materials is subject to liability for harm caused by such defects. Regarding the seller\u2019s exposure to liability for defective design, a basic raw material such as sand, gravel, or kerosene cannot be defectively designed.\u201d (Rest.3d Torts, Products Liability, \u00a7 167, com. c, p. 134.)\nThe comment in the Restatement cited above is not precedent that mineral spirits cannot be inherently dangerous or that mineral spirits cannot be defectively designed. \u201cAs stated in Canfield v. Security-First Nat. Bank [citation]: \u2018. . . The Restatement. . . does not constitute a binding authority, but, considering the circumstances under which it has been drafted, and its purposes, in the absence of a contrary statute or decision in this state, it is entitled to great consideration as an argumentative authority.\u2019 \u201d (Standard Oil Co. v. Oil, Chemical etc. Internat. Union (1972) 23 Cal.App.3d 585, 589 [100 Cal.Rptr. 354].) While Standard Oil Co. dealt with the Restatement on Restitution, the persuasive authority of the Restatement as published by the American Law Institute is generally agreed upon in other jurisdictions.\nAs stated in Arena in the context of raw asbestos, \u201cTo the extent that the term \u2018design\u2019 merely means a preconceived plan, even raw asbestos has a design, in that the miner\u2019s subjective plan of blasting it out of the ground, pounding and separating the fibers, and marketing them for various uses, constitutes a design.\u201d (Arena, supra, 63 Cal.App.4th at pp. 1186-1187, fn. omitted.) It is not clear there is no \u201cdesign\u201d in the distillation process to produce mineral spirits. But were we to conclude mineral spirits cannot be defectively designed, such a conclusion does not supplant the \u201cnot inherently dangerous\u201d requirement. The Restatement Third does not stand for this proposition, much less address the issue. Accordingly, we are not persuaded by Calsol\u2019s argument that \u201c[t]he undisputed material facts demonstrated the virgin mineral spirits supplied by Calsol were not defective and not contaminated, such that the first element of the Doctrine was met.\u201d This ignores the import of the comment made by the authors of Restatement Third of Torts that liability to suppliers of raw material can stem either from contamination or because the raw material is defective within the meaning of Restatement Third of Torts, Products Liability, section 2, subdivision (a). (Rest.3d Torts, Products Liability, \u00a7 5, com. c, p. 134.) Calsol has failed to establish a complete defense based on the component parts doctrine.\nIn light of our holding that there remains a triable issue as to whether the mineral spirits supplied by Calsol was inherently dangerous, we need not reach Calsol\u2019s argument that it fulfilled its burden as to the remaining three factors articulated in Artiglio.\nDISPOSITION\nThe summary judgment is reversed and remanded for further proceedings. Plaintiffs shall recover their costs on appeal.\nRubin, Acting P. J., and Grimes, J., concurred.\nJudge of the Los Angeles Superior Court, assigned by the Chief Justice pursuant to article VI, section 6 of the California Constitution.\nThe lawsuit is also brought on behalf of their wives, Debra Brady and Jeanne Oakley. Within two months after the lawsuit was filed, David Gibbs died. His complaint was amended to add his child, Kyler James Gene Oakley-Gibbs, as a plaintiff.\nAll further statutory references are to the Code of Civil Procedure.\nSee D.T. v. Catholic Diocese of Kansas City-St. Joseph (Mo. 2013) 419 S.W.3d 143, \u201cAnd because the Restatements of the Law, as a series of treatises, are not binding precedent upon any court but, rather, constitute the American Law Institute\u2019s compilations of law and general statements on what the law is or should be . . . .\u201d (Id. at p. 156, fn. 12.)",
+        "type": "majority",
+        "author": "OHTA, J.*"
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Metzger Law Group, Raphael Metzger, Kimberly A. Miller and Kathryn A. Saldana for Plaintiffs and Appellants.",
+      "Wood, Smith, Henning & Berman, David E Wood and Tracy M. Lewis for Defendant and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. B262028.\nSecond Dist., Div. Eight.\nOct. 7, 2015.]\nERNEST BRADY et al., Plaintiffs and Appellants, v. CALSOL, INC., Defendant and Respondent.\nCounsel\nMetzger Law Group, Raphael Metzger, Kimberly A. Miller and Kathryn A. Saldana for Plaintiffs and Appellants.\nWood, Smith, Henning & Berman, David E Wood and Tracy M. Lewis for Defendant and Respondent."
+  },
+  "file_name": "1212-01",
+  "first_page_order": 1032,
+  "last_page_order": 1046
+}

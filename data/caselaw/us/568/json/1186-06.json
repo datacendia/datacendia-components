@@ -1,0 +1,59 @@
+{
+  "id": 12431699,
+  "name": "Castaneda v. United States",
+  "name_abbreviation": "Castaneda v. United States",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-8294",
+  "first_page": "1186",
+  "last_page": "1186",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1186"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.646,
+    "sha256": "8146578a0d0e0af5ca598941d6a868a11aa5b7fbfedf5e9191a2e15fec7f6956",
+    "simhash": "1:a70a9b839c2cdc1e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Castaneda v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8294.\nCastaneda v. United States."
+  },
+  "file_name": "1186-06",
+  "first_page_order": 1262,
+  "last_page_order": 1262
+}

@@ -1,0 +1,109 @@
+{
+  "id": 2247931,
+  "name": "National Bedding Company v. W. Sears McGee Et Al",
+  "name_abbreviation": "National Bedding Co. v. McGee",
+  "decision_date": "1954-01-13",
+  "docket_number": "No. A-4359",
+  "first_page": "55",
+  "last_page": "56",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "153 Tex. 55"
+    },
+    {
+      "type": "parallel",
+      "cite": "263 S.W.2d 948"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "179 S.W. 2d, 831",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10219947
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/179/0831-01"
+      ]
+    },
+    {
+      "cite": "163 S.W. 2d 833",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10223290,
+        2311431
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/163/0833-01",
+        "/tex/139/0540-01"
+      ]
+    },
+    {
+      "cite": "139 Texas 540",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2311431
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/139/0540-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 174,
+    "char_count": 1971,
+    "ocr_confidence": 0.624,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.07805030331884213
+    },
+    "sha256": "f437c12da1871cd2b5f022580aa1267f7d7f63b3817fa508297d4c144375d0f3",
+    "simhash": "1:c4031408d52fbd58",
+    "word_count": 350
+  },
+  "last_updated": "2024-02-27T22:44:17.710833+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "National Bedding Company v. W. Sears McGee Et Al"
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Brewster\ndelivered the opinion of the Court.\nThis is an original mandamus proceeding by which relator, Albert Bentch d/b/a National Bedding Company, seeks an order directing Hon. W. Sears McGee, Judge of Harris County Court at Law, respondent, \u201cto set aside the order of August 10, 1951 (1953), setting aside the default judgment rendered in favor of relator June 16, 1953.\u201d\nOn May 24, 1953, relator filed suit in respondent\u2019s court against All Bargain Furniture Company on a sworn account of $326. On June 16, 1953, and after citation had been duly served, the court rendered a default judgment for plaintiff for $326, interest and costs, during a term of court which ended on July 6, 1953.\nOn July 3, 1953, defendant furniture company filed a motion to set aside the judgment, hearing on which motion was set for July 10. It was heard on July 27, 1953, and granted on August 10, 1953. Two days later relator moved the court to set aside this last order because the court term during which the original judgment was rendered had expired and the order was therefore void.\nThe default judgment rendered on June 16 was a final judgment valid both on its face and on the face of the record. Therefore, the trial court had no power to set it aside at a subsequent term, either upon motion of the defendant furniture company or upon its own motion. Its validity can be challenged only by the equity action of bill of review. Ridley v. McCallum, District Judge, et al, 139 Texas 540, 163 S.W. 2d 833. See, also, Rule 320(d) T. R. C. P. and Arenstein v. Jencks et al. (Civ. App.), 179 S.W. 2d, 831, for an interesting discussion by Justice Murray, much of which is applicable here.\nThe writ of mandamus will issue as prayed by relator.\nOpinion delivered January 13, 1954.",
+        "type": "majority",
+        "author": "Mr. Justice Brewster"
+      }
+    ],
+    "attorneys": [
+      "Harold Kahn, of Houston, for relator.",
+      "W. Sears McGee, in pro per, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "National Bedding Company v. W. Sears McGee Et Al\nNo. A-4359.\nDecided January 13, 1954.\n(263 S.W. 2d Series 948)\nHarold Kahn, of Houston, for relator.\nW. Sears McGee, in pro per, for respondent."
+  },
+  "file_name": "0055-01",
+  "first_page_order": 71,
+  "last_page_order": 72
+}

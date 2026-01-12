@@ -1,0 +1,59 @@
+{
+  "id": 12415795,
+  "name": "Lopez Vasquez v. United States",
+  "name_abbreviation": "Lopez Vasquez v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5385",
+  "first_page": "910",
+  "last_page": "910",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 910"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 79,
+    "ocr_confidence": 0.684,
+    "sha256": "5d37e523c1280b0ebe4e0d70db6f247c392964411d15b14116a8af60239ad6ea",
+    "simhash": "1:052ad3020d0c344e",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lopez Vasquez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5385.\nLopez Vasquez v. United States."
+  },
+  "file_name": "0910-02",
+  "first_page_order": 986,
+  "last_page_order": 986
+}

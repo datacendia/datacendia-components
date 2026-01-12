@@ -1,0 +1,61 @@
+{
+  "id": 6001800,
+  "name": "Schulz v. Federal Reserve System et al.",
+  "name_abbreviation": "Schulz v. Federal Reserve System",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 10-560",
+  "first_page": "1083",
+  "last_page": "1083",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1083"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 27,
+    "char_count": 167,
+    "ocr_confidence": 0.541,
+    "sha256": "7a3b653db8f6d72531542ec146127660427694bd4d4ac5b4528f0204e9bf9d9e",
+    "simhash": "1:99f77881572cf4c4",
+    "word_count": 28
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Schulz v. Federal Reserve System et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.\nJustice Sotomayor took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-560.\nSchulz v. Federal Reserve System et al."
+  },
+  "file_name": "1083-01",
+  "first_page_order": 1105,
+  "last_page_order": 1105
+}

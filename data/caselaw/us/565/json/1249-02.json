@@ -1,0 +1,59 @@
+{
+  "id": 12250453,
+  "name": "Weston v. Illinois",
+  "name_abbreviation": "Weston v. Illinois",
+  "decision_date": "2012-03-05",
+  "docket_number": "No. 11-8153",
+  "first_page": "1249",
+  "last_page": "1249",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1249"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.704,
+    "sha256": "7fbd53de5732d9932c6f467a6df493f699920925f9afedd5c8d35d3a3b68cc55",
+    "simhash": "1:09b9d6db15a5ec6d",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Weston v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8153.\nWeston v. Illinois."
+  },
+  "file_name": "1249-02",
+  "first_page_order": 1331,
+  "last_page_order": 1331
+}

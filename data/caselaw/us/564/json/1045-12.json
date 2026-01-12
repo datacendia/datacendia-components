@@ -1,0 +1,59 @@
+{
+  "id": 4334518,
+  "name": "Duckett v. United States",
+  "name_abbreviation": "Duckett v. United States",
+  "decision_date": "2011-06-27",
+  "docket_number": "No. 10-10766",
+  "first_page": "1045",
+  "last_page": "1045",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1045"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.561,
+    "sha256": "67ffe73661dabfe289289922243d9a15a8b3578da3d15c6317a16d4111bc40c5",
+    "simhash": "1:16e3b6832fbf2856",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Duckett v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10766.\nDuckett v. United States."
+  },
+  "file_name": "1045-12",
+  "first_page_order": 1039,
+  "last_page_order": 1039
+}

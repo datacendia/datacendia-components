@@ -1,0 +1,98 @@
+{
+  "id": 5951200,
+  "name": "In re Disbarment of Fox",
+  "name_abbreviation": "In re Disbarment of Fox",
+  "decision_date": "2011-05-31",
+  "docket_number": "No. D-2543",
+  "first_page": "1019",
+  "last_page": "1019",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1019"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "562 U. S. 814",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5987755,
+        12437771,
+        12437772,
+        12437773,
+        12437774,
+        12437776,
+        6028657,
+        5905554,
+        12437777,
+        12437775,
+        5925526,
+        5901847,
+        5946615,
+        5911292
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/562/0814-04",
+        "/l-ed-2d/178/0269-05",
+        "/l-ed-2d/178/0269-06",
+        "/l-ed-2d/178/0270-01",
+        "/l-ed-2d/178/0270-02",
+        "/l-ed-2d/178/0270-04",
+        "/us/562/0814-03",
+        "/us/562/0814-05",
+        "/l-ed-2d/178/0270-05",
+        "/l-ed-2d/178/0270-03",
+        "/us/562/0814-06",
+        "/us/562/0814-01",
+        "/us/562/0814-07",
+        "/us/562/0814-02"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 104,
+    "ocr_confidence": 0.617,
+    "sha256": "b4881f4da155314b37a8eb2975d9546c78d26933aaa8f1af6e5cc531d0a19f0e",
+    "simhash": "1:3979d8aaebd488bd",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:44:09.189648+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Fox."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see 562 U. S. 814.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2543.\nIn re Disbarment of Fox."
+  },
+  "file_name": "1019-04",
+  "first_page_order": 1045,
+  "last_page_order": 1045
+}

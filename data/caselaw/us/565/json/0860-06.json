@@ -1,0 +1,59 @@
+{
+  "id": 12208619,
+  "name": "Holmes v. Washington",
+  "name_abbreviation": "Holmes v. Washington",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10976",
+  "first_page": "860",
+  "last_page": "860",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 860"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 70,
+    "ocr_confidence": 0.644,
+    "sha256": "0db473b5c9a2c4ff83d9297b4b496b2ef7e5fd07ae011bb2d63fef4536b4878b",
+    "simhash": "1:8be5cc8b8800fcdb",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Holmes v. Washington."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Wash. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10976.\nHolmes v. Washington."
+  },
+  "file_name": "0860-06",
+  "first_page_order": 942,
+  "last_page_order": 942
+}

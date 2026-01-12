@@ -1,0 +1,906 @@
+{
+  "id": 3991202,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. DORA DIAZ, Defendant and Appellant",
+  "name_abbreviation": "People v. Diaz",
+  "decision_date": "2015-04-06",
+  "docket_number": "No. S205145",
+  "first_page": "1176",
+  "last_page": "1197",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "60 Cal. 4th 1176"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal.",
+    "id": 9021,
+    "name": "Supreme Court of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "18 P.3d 11",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "104 Cal.Rptr.2d 582",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Cal.4th 34",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        265436
+      ],
+      "pin_cites": [
+        {
+          "page": "48, fn. 7"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/25/0034-01"
+      ]
+    },
+    {
+      "cite": "805 P.2d 899",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "278 Cal.Rptr. 640",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Cal.3d 1210",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2376294
+      ],
+      "pin_cites": [
+        {
+          "page": "1268"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/52/1210-01"
+      ]
+    },
+    {
+      "cite": "299 P.2d 243",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.2d 818",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4370142
+      ],
+      "pin_cites": [
+        {
+          "page": "835-836"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/46/0818-01"
+      ]
+    },
+    {
+      "cite": "957 P.2d 928",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "76 Cal.Rptr.2d 239",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 Cal.4th 558",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        344190
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/18/0558-01"
+      ]
+    },
+    {
+      "cite": "269 Cal.Rptr. 413",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "220 Cal.App.3d 310",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2302095
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/220/0310-01"
+      ]
+    },
+    {
+      "cite": "831 P.2d 297",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "9 Cal.Rptr.2d 72",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "2 Cal.4th 759",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        2005387
+      ],
+      "pin_cites": [
+        {
+          "page": "782-784"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/2/0759-01"
+      ]
+    },
+    {
+      "cite": "184 P.3d 732",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "77 Cal.Rptr.3d 605",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.4th 1132",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3884310
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/43/1132-01"
+      ]
+    },
+    {
+      "cite": "111 P.3d 921",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.Rptr.3d 647",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.4th 884",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        873207
+      ],
+      "pin_cites": [
+        {
+          "page": "906"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/35/0884-01"
+      ]
+    },
+    {
+      "cite": "538 P.2d 247",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "123 Cal.Rptr. 119",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "14 Cal.3d 864",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2279717
+      ],
+      "pin_cites": [
+        {
+          "page": "883-884"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/14/0864-01"
+      ]
+    },
+    {
+      "cite": "782 P.2d 627",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "264 Cal.Rptr. 386",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 Cal.3d 991",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1974378
+      ],
+      "pin_cites": [
+        {
+          "page": "1021"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/49/0991-01"
+      ]
+    },
+    {
+      "cite": "753 P.2d 629",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1989,
+      "opinion_index": 0
+    },
+    {
+      "cite": "246 Cal.Rptr. 673",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1989,
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.3d 147",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4529449
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "166"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/45/0147-01"
+      ]
+    },
+    {
+      "cite": "756 P.2d 795",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1988,
+      "opinion_index": 0
+    },
+    {
+      "cite": "249 Cal.Rptr. 71",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1988,
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.3d 1189",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4528165
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "1224"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/45/1189-01"
+      ]
+    },
+    {
+      "cite": "756 P.2d 221",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1988,
+      "opinion_index": 0
+    },
+    {
+      "cite": "248 Cal.Rptr. 834",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1988,
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.3d 1268",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4528477
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "1315"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/45/1268-01"
+      ]
+    },
+    {
+      "cite": "47 P.3d 262",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1988,
+      "opinion_index": 0
+    },
+    {
+      "cite": "120 Cal.Rptr.2d 477",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1988,
+      "opinion_index": 0
+    },
+    {
+      "cite": "27 Cal.4th 1187",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1103385
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "1200"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/27/1187-01"
+      ]
+    },
+    {
+      "cite": "75 Cal.Rptr. 430",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "270 Cal.App.2d 37",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2187304
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/270/0037-01"
+      ]
+    },
+    {
+      "cite": "86 Cal.Rptr. 651",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1969,
+      "opinion_index": 0
+    },
+    {
+      "cite": "7 Cal.App.3d 305",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4386684
+      ],
+      "year": 1969,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/7/0305-01"
+      ]
+    },
+    {
+      "cite": "198 P.2d 877",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 Cal.2d 33",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4395469
+      ],
+      "pin_cites": [
+        {
+          "page": "40"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/33/0033-01"
+      ]
+    },
+    {
+      "cite": "173 P.2d 1",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Cal.2d 87",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2211116
+      ],
+      "pin_cites": [
+        {
+          "page": "94"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/29/0087-01"
+      ]
+    },
+    {
+      "cite": "297 P.3d 859",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "154 Cal.Rptr.3d 621",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "56 Cal.4th 480",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        4224789
+      ],
+      "pin_cites": [
+        {
+          "page": "488"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/56/0480-01"
+      ]
+    },
+    {
+      "cite": "463 P.2d 390",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2013,
+      "opinion_index": 0
+    },
+    {
+      "cite": "83 Cal.Rptr. 166",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 2013,
+      "opinion_index": 0
+    },
+    {
+      "cite": "1 Cal.3d 524",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1183321
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "531"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/1/0524-01"
+      ]
+    },
+    {
+      "cite": "749 P.2d 803",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "244 Cal.Rptr. 148",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.3d 480",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4538646
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/44/0480-01"
+      ]
+    },
+    {
+      "cite": "162 Cal.Rptr. 816",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1988,
+      "opinion_index": 0
+    },
+    {
+      "cite": "103 Cal.App.3d 139",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        1978949
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "151"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/103/0139-01"
+      ]
+    },
+    {
+      "cite": "238 Cal.Rptr. 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1980,
+      "opinion_index": 0
+    },
+    {
+      "cite": "192 Cal.App.3d 667",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2213939
+      ],
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "675-676"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/192/0667-01"
+      ]
+    },
+    {
+      "cite": "280 Cal.Rptr. 305",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1987,
+      "opinion_index": 0
+    },
+    {
+      "cite": "229 Cal.App.3d 13",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4396781
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "17-20"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/229/0013-01"
+      ]
+    },
+    {
+      "cite": "259 P.3d 1186",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "130 Cal.Rptr.3d 590",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Cal.4th 610",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3919135
+      ],
+      "pin_cites": [
+        {
+          "page": "679"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/52/0610-01"
+      ]
+    },
+    {
+      "cite": "114 Cal.Rptr. 916",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 2011,
+      "opinion_index": 0
+    },
+    {
+      "cite": "40 Cal.App.3d 347",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4411178
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "352"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/40/0347-01"
+      ]
+    },
+    {
+      "cite": "935 P.2d 708",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Cal.Rptr.2d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 Cal.4th 312",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1005964
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/15/0312-01"
+      ]
+    },
+    {
+      "cite": "202 P.2d 82",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 Cal.2d 395",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4395119
+      ],
+      "pin_cites": [
+        {
+          "page": "399"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/33/0395-01"
+      ]
+    },
+    {
+      "cite": "16 Cal.Rptr. 256",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "195 Cal.App.2d 829",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2322541
+      ],
+      "pin_cites": [
+        {
+          "page": "832"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/195/0829-01"
+      ]
+    },
+    {
+      "cite": "492 P.2d 1",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "99 Cal.Rptr. 313",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "6 Cal.3d 441",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2274665
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "455, fn. 4"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/6/0441-01"
+      ]
+    },
+    {
+      "cite": "388 P.2d 892",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Cal.Rptr. 620",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "60 Cal.2d 772",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2339573
+      ],
+      "pin_cites": [
+        {
+          "page": "799"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/60/0772-01"
+      ]
+    },
+    {
+      "cite": "13 Cal.Rptr.3d 509",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "118 Cal.App.4th 1055",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1377287
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/118/1055-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1577,
+    "char_count": 51171,
+    "ocr_confidence": 0.857,
+    "pagerank": {
+      "raw": 7.876118906679038e-08,
+      "percentile": 0.46000867232027814
+    },
+    "sha256": "1334636db0a0554c8027f25ff3cb289a72d33e69e84d5a545232e3bd329acaef",
+    "simhash": "1:b680f32ac71a9770",
+    "word_count": 8205
+  },
+  "last_updated": "2024-02-27T22:28:00.361349+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. DORA DIAZ, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nCANTIL-SAKAUYE, C. J.\nWe granted review to resolve a conflict in the Courts of Appeal regarding whether a trial court has the duty to instruct a jury to consider a criminal defendant\u2019s out-of-court statements with caution when the statements at issue form the basis of a prosecution for making criminal threats. We also asked the parties to brief whether we should continue to require courts to instruct that a defendant\u2019s out-of-court statements must be viewed with caution even in the absence of a request.\nWe hold that the cautionary instruction is applicable when the statements at issue are criminal threats. However, the trial court is no longer required to give the instruction sua sponte. In the present case, the failure to give the instruction, even if error, was harmless.\nI. Facts and Procedure\nDefendant Dora Diaz was charged with and convicted of one count of willful, deliberate, and premeditated attempted murder (Pen. Code, \u00a7\u00a7 187, 189, 664, subd. (a)) and three counts of threatening to commit a crime resulting in death or great bodily injury (\u00a7 422). The jury found defendant guilty on all four counts and the trial court sentenced her to a prison term of life, with the possibility of parole after seven years, for the attempted murder and a consecutive three-year four-month prison term for the three criminal threats.\nThe criminal threats charges stemmed from statements defendant made during and after the attempted murder of Eduardo Morales. On September 5, 2009, Eduardo lived in a two-room apartment in San Jose with his mother, Marta Rosales, his sister-in-law, Indira Pineda, and three other family members. Defendant had recently ended a relationship with Eduardo. Between 1:00 a.m. and 1:30 a.m., Eduardo was asleep in the apartment\u2019s living room when he awoke to knocking on the window and door. He peeked out the window and saw defendant and two women he did not recognize yelling at him to come out. While putting on his shoes to go outside, he heard one of the apartment\u2019s windows break. He opened the door and asked the women why they were doing this to him. The three women grabbed Eduardo by his hair, which was long, and dragged him into the driveway. Marta called 911 to report that her son was being assaulted.\nThe three women began hitting and kicking Eduardo in his face and chest. Eduardo was knocked to the ground and covered himself. During the attack, the women were calling him names and one yelled, \u201cPuro catorce,\u201d which an expert later testified constituted a declaration that the Norte\u00f1o street gang was responsible for the attack.\nDefendant then stepped back, snapped her fingers twice, and whistled. Three men, including one who looked like defendant\u2019s 16-year-old son, emerged and joined in the beating. One of the men had a knife with a four- or five-inch blade; he began stabbing Eduardo.\nMarta came out of the apartment and pleaded with the assailants to cease the attack on her son. Eduardo called out to tell her that he had been stabbed. Possibly alerted by the sound of sirens, some of the assailants retreated to a dark-colored Lincoln Town Car. Defendant remained and lifted Eduardo\u2019s shirt so she could view his wounds. When looking at the wounds, defendant laughed. Defendant then argued with Marta and Eduardo\u2019s sister-in-law, Indira, who also had come out of the house. Defendant and Indira grabbed at each other and exchanged words. Eventually, defendant ran off.\nThe three counts of criminal threats correspond with statements allegedly made by defendant to Eduardo, Marta, and Indira during the attack. Each testified concerning the statements. Eduardo testified that when defendant lifted his shirt to view his wounds, she told him \u201cthat if [he] did not die this time, that [he] surely would the next time and that she was going to finish off [his] whole family.\u201d He further testified that he saw defendant arguing with Indira and calling her names, but he could not recall whether defendant had said anything else to Indira.\nMarta testified that defendant told Eduardo, \u201cIf you don\u2019t die from this one, you\u2019ll die next time around.\u201d She further testified that defendant threatened her, saying \u201cyou\u2019re going to pay for this\u201d and that defendant \u201cwould kill every member of [Marta\u2019s] family one by one.\u201d She recalled defendant also telling Indira, \u201cyou\u2019re going to pay for this.\u201d Marta\u2019s husband, Alvaro Hernandez, testified that defendant told his wife that she was going to kill everyone.\nIndira testified that while the women were dragging Eduardo out by his hair, defendant \u201cwas telling him, \u2018I\u2019m going to kill you.\u2019 \u201d Later, she said, defendant told Eduardo that \u201cif he didn\u2019t die from this one, he would die from the next one.\u201d Indira further testified, \u201cshe did say that she could possibly kill all of us . . . Marta, Eduardo, and whoever else lived there.\u201d Indira testified that defendant told her specifically, \u201cYou\u2019re going to pay for this . . . I\u2019m going to kill you.\u201d\nPrior to jury deliberations, the trial court provided standard instructions on the elements of the crimes, the presumption of innocence, the burden of proof, the treatment of circumstantial evidence, and credibility considerations when assessing witness testimony. Defendant did not request, nor did the court provide on its own motion, CALCRIM No. 358, which instructs the jury to \u201c[cjonsider with caution\u201d any unrecorded statement made by the defendant tending to show his or her guilt.\nOn appeal, defendant argued that omission of this instruction was reversible error. The Court of Appeal affirmed defendant\u2019s conviction, holding that any error in omitting the instruction was harmless in light of the other instructions the jury received and the evidence in the case. The Court of Appeal expressly disagreed with People v. Zichko (2004) 118 Cal.App.4th 1055 [13 Cal.Rptr.3d 509] (Zichko). In Zichko, a defendant who had been convicted of making criminal threats argued that the trial court had erred in failing to give CALJIC No. 2.71, which, like CALCRIM No. 358, advises jurors that \u201c[e]vidence of an oral admission of [a] [the] defendant not made in court should be viewed with caution.\u201d Zichko held that the cautionary instruction is not to be given in a criminal threats case, in which the statement constitutes the criminal act itself. (Zichko, supra, at p. 1058.) It reasoned that the cautionary instruction should be given only when the statement reflects an \u201cadmission.\u201d Zichko concluded that in a criminal threats case, where the statements constitute the criminal act itself, they do not constitute admissions because the truth of the threats is immaterial. (Id. at p. 1060.) It also concluded that the cautionary instruction is \u201cinconsistent with the reasonable doubt standard of proof.\u201d (Ibid.) Zichko reasoned that giving the cautionary instruction in a criminal threats case may lead a jury to believe it could find a defendant guilty \u201ceven if it did not conclude beyond a reasonable doubt that the statements were made, as long as the jury exercised \u2018caution\u2019 in making its determination.\u201d (Ibid.) The Court of Appeal in the present case concluded that Zichko \u201cseems to have created a false dichotomy between a statement that constitutes a crime and a statement that is evidence of a crime.\u201d\nII. Analysis\nA. Applicability of the Cautionary Instruction to Criminal Threats\nAs we explain below, case law recognizes that the purpose of the instruction \u2014 to aid the jury in evaluating whether the defendant actually made the statement \u2014 is served regardless of whether the statement constitutes all or part of the criminal act and whether it is admitted for its truth. Contrary to the reasoning of Zichko, we see no conflict between the cautionary instruction and the requirement of proof beyond a reasonable doubt.\nIn 1872, the Legislature codified as part of the Code of Civil Procedure certain instructions regarding the effect of evidence, to be given to the jury \u201con all proper occasions.\u201d (Code Civ. Proc., former \u00a7 2061.) These included instructions \u201cthat the testimony of an accomplice ought to be viewed with distrust, and the evidence of the oral admissions of a party with caution.\u201d (Code Civ. Proc., former \u00a7 2061, subd. 4; see People v. Ford (1964) 60 Cal.2d 772, 799 [36 Cal.Rptr. 620, 388 P.2d 892].) Code of Civil Procedure former section 2061 was not limited to criminal cases, and the statutory requirement has long been reflected in the pattern jury instructions applicable to both civil and criminal cases.\nThe Legislature repealed Code of Civil Procedure, former section 2061 in 1965 when it adopted the Evidence Code. (Stats. 1965, ch. 299, \u00a7 127, p. 1366, operative Jan. 1, 1967.) The Law Revision Commission explained that because \u201cthe section is but a partial codification of the common law, the repeal should have no effect on the giving of the instructions contained in the section or on the giving of any other cautionary instructions that are permitted or required to be given by decisional law.\u201d (Recommendation Proposing an Evidence Code (Jan. 1965) 7 Cal. Law Revision Com. Rep. (1965) com. on repeal foll. Code Civ. Proc., \u00a7 2061, p. 358.) Subsequently we held, citing the Law Revision Commission\u2019s report, that the repeal had no effect on the court\u2019s obligation to give the instructions contained in the former statute. (People v. Beagle (1972) 6 Cal.3d 441, 455, fn. 4 [99 Cal.Rptr. 313, 492 P.2d 1] (Beagle).)\nIn order to evaluate the circumstances in which the cautionary instruction is applicable, we begin with the considerations that give rise to the need for caution. The extrajudicial admission of a party \u2014 that is, any statement by a party to an action that is offered against that party \u2014 -is admissible in evidence regardless of its hearsay character. (Evid. Code, \u00a7 1220; see Code Civ. Proc., former \u00a7 1870, subd. 2, enacted 1872 and repealed by Stats. 1965, ch. 299, \u00a7 58, p. 1360, operative Jan. 1, 1967.) \u201cThis kind of testimony is considered dangerous, first, because it may be misapprehended by the person who hears it; secondly, it may not be well remembered; thirdly, it may not be correctly repeated.\u201d (People v. Gardner (1961) 195 Cal.App.2d 829, 832 [16 Cal.Rptr. 256].) Even witnesses with the best intentions often cannot report the \u201c \u2018exact language\u2019 \u201d used by a defendant, and therefore may convey, through errors and omissions, an inaccurate impression of a defendant\u2019s statements. (People v. Bemis (1949) 33 Cal.2d 395, 399 [202 P.2d 82].) \u201c \u2018No other class of testimony affords such temptations or opportunities for unscrupulous witnesses to torture the facts or commit open perjury, as it is often impossible to contradict their testimony at all, or at least by any other witness than the party himself.\u2019 (2 Jones, Commentaries on the Law of Evidence, 620.)\u201d (Ibid.) Even if the party testifies, it may be difficult to convincingly dispute evidence of an extrajudicial admission because the party has an obvious interest in the outcome of a case. \u201cIt was undoubtedly such considerations that led the Legislature to make the admitting of extrajudicial admissions into evidence conditional on the giving of a cautionary instruction.\u201d (Ibid.) The cautionary instruction \u201cis designed to aid the jury in determining whether an admission or confession was in fact made.\u201d (Id. at p. 400.)\nWe recognized in People v. Carpenter (1997) 15 Cal.4th 312 [63 Cal.Rptr.2d 1, 935 P.2d 708] (Carpenter) that \u201c[t]he rationale behind the cautionary instruction suggests it applies broadly.\u201d (Id. at pp. 392-393.) In Carpenter, the defendant was charged with murder and attempted rape. An eyewitness testified that, prior to the killing, the defendant told the victim, \u201c \u2018 \u201cI want to rape you.\u201d \u2019 \u201d (Id. at p. 392.) We noted that the statement of intent \u201cwas part of the crime itself,\u201d and we reiterated our observation in Beagle that \u201c \u2018[f]or purposes of requiring . . . cautionary instructions, we have not distinguished between actual admissions [citation] and pre-offense statements of intent [citation]. [Citations.]\u2019 \u201d (Carpenter, at p. 392, quoting Beagle, supra, 6 Cal.3d at p. 455, fn. 5 [cautionary instruction required with respect to arsonist\u2019s preoffense statement].) We also reiterated the reason for not excluding preoffense statements from the ambit of the instruction: \u201cAlthough the risk of conviction because of a false preoffense statement alone is less than the risk of conviction upon a false confession or admission, \u2018we find the risk of an unjust result sufficient to justify our broader rule.\u2019 \u201d (Carpenter, at p. 392, quoting Beagle, at p. 455, fn. 5.) Finally, we observed that \u201c \u2018[t]he purpose of the cautionary instruction is to assist the jury in determining if the statement was in fact made.\u2019 [Citation.] This purpose would apply to any oral statement of the defendant, whether made before, during, or after the crime.\u201d (Carpenter, at p. 393.) Consistent with Carpenter, CALCRIM No. 358 does not use the term \u201cadmissions\u201d and requires caution regarding \u201cany statement made by (the/a) defendant tending to show (his/her) guilt unless the statement was written or otherwise recorded.\u201d\nThe Attorney General argues that Carpenter\u2019s assertion that the instruction applies to \u201cany oral statement of the defendant\u201d constitutes dicta set out in the context of statements that tend to prove the crime \u2014 admissions and preoffense statements of intent \u2014 and should not be extended to statements that constitute the criminal act itself. Although Carpenter did not actually address a statement that constituted the charged criminal act, its reasoning applies fully to such statements. The risk that a witness will report the defendant\u2019s statement inaccurately or falsely is just as great in a case involving a threat as in a case involving a confession or a preoffense statement of intent. And the risk that inaccurate or false testimony will lead to an unjust result is just as great when the statement constitutes the charged criminal act as it is when the statement merely provides evidence of the criminal act.\nThe court in Zichko misinterpreted Carpenter as holding that \u201cthe instruction applies to any oral admission.\u201d (Zichko, supra, 118 Cal.App.4th at p. 1059, italics added.) Zichko then reasoned that the instruction did not apply to a verbal threat because a threat did not fall within its definition of an \u201cadmission.\u201d (Ibid.) Both the language and rationale of Carpenter make clear, however, that the instruction applies to any oral statement by the defendant, used to show guilt, regardless of whether it fits any particular definition of \u201cadmission.\u201d Zichko also went astray in focusing on the circumstance that the statements at issue constituted a criminal act whose truth was not material. \u201c[W]hether defendant\u2019s statements were \u2018verbal acts\u2019 and therefore not hearsay (Evid. Code, \u00a7\u00a7 125, 1200) or admissions but admissible as an exception to the hearsay rule (Evid. Code, \u00a7\u00a7 1204, 1220) does not determine whether they should be viewed with caution.\u201d (People v. Ramirez (1974) 40 Cal.App.3d 347, 352 [114 Cal.Rptr. 916]; see People v. McKinnon (2011) 52 Cal.4th 610, 679 [130 Cal.Rptr.3d 590, 259 P.3d 1186] [cautionary instruction applicable to defendant\u2019s oral threats, used to prove his guilt of murder].) The cautionary instruction is concerned with the reliability and credibility of the witness who testifies about the defendant\u2019s statements. Such concerns are present regardless of whether the statement is offered for its truth or as a verbal act whose truth is not relevant. For this reason, the cautionary instruction applies to statements that are not admitted for their truth, such as a statement admitted to show the defendant\u2019s state of mind or a false exculpatory statement admitted as evidence of consciousness of guilt. (See People v. Brackett (1991) 229 Cal.App.3d 13, 17-20 [280 Cal.Rptr. 305]; People v. Mendoza (1987) 192 Cal.App.3d 667, 675-676 [238 Cal.Rptr. 1]; but see People v. La Salle (1980) 103 Cal.App.3d 139, 151 [162 Cal.Rptr. 816] [criticizing the definition of \u201cadmission\u201d in CALJIC No. 2.71 because it could apply to nonhearsay], disapproved on other grounds in People v. Kimble (1988) 44 Cal.3d 480, 496 & fn. 12 [244 Cal.Rptr. 148, 749 P.2d 803].) Thus, the cautionary instruction applies to any extrajudicial oral statement by the defendant that is used by the prosecution to prove the defendant\u2019s guilt \u2014 it does not matter whether the statement was made before, during, or after the crime, whether it can be described as a confession or admission, or whether it is a verbal act that constitutes part of the crime or the criminal act itself. We disapprove People v. Zichko, supra, 118 Cal.App.4th 1055 to the extent it reaches a contrary conclusion.\nEchoing Zichko, supra, 118 Cal.App.4th at page 1060, the Attorney General argues that, in the context of a criminal threats case, the cautionary instruction conflicts with the requirement that the elements of the offense, including the threat itself, be proved beyond a reasonable doubt. The Attorney General contends that the cautionary instruction could mislead jurors to believe they could find a defendant guilty of making a criminal threat without proof beyond a reasonable doubt that the threat was made, as long as they exercise caution in making that determination. This argument is not persuasive. The cautionary instruction does not conflict with the reasonable doubt instruction because the two instructions serve distinct purposes and aid the jury in different ways. The reasonable doubt instruction informs the jury that it must find the facts required for conviction to be proved with the specified level of certainty before it may convict the defendant. (CALCRIM No. 220.) The cautionary instruction, on the other hand, advises jurors that in deciding whether to believe a witness\u2019s testimony about the defendant\u2019s statements, they must exercise particular caution. The two instructions, together, inform the jury that it must determine whether each of the elements of the crime has been proved beyond a reasonable doubt, and that in making that determination it must exercise special caution in considering one particular type of evidence.\nFurthermore, nothing in the wording of the instructions would suggest to a jury that the cautionary instruction was meant to apply in lieu of \u2014 rather than in addition to \u2014 the reasonable doubt instruction. The CALCRIM instructions given in the present case permit a conviction for criminal threats only if the People prove all of the elements of the offense. (See CALCRIM No. 1300.) The reasonable doubt instruction informed the jury, \u201cWhenever I tell you the People must prove something, I mean they must prove it beyond a reasonable doubt [unless I specifically tell you otherwise].\u201d (CALCRIM No. 220.) The language of the cautionary instruction does not reference the People\u2019s burden of proof or the elements of the offense, or in any other way suggest to jurors that the instruction was meant to create an exception to the rule that all elements of the crime must be proved beyond a reasonable doubt.\nB. Trial court\u2019s duty to instruct on its own motion\nWe asked the parties to brief whether the cautionary instruction should continue to be required in the absence of a request by the defendant. As we explain below, the trial court\u2019s sua sponte obligation to give the cautionary instruction was originally based on Code of Civil Procedure former section 2061. Following that statute\u2019s repeal, we continued to recognize the obligation without analyzing whether the requirement is warranted. We now conclude that in light of a change in the law that requires the general instructions on witness credibility to be given sua sponte in every case, the cautionary instruction is not one of the general principles of law upon which a court is required to instruct the jury in the absence of a request. The cautionary instruction does not reflect a legal principle with which jurors would be unfamiliar absent the instruction, and the defendant may not always want the instruction to be given. Nevertheless, the instruction may be useful to the defense in highlighting for the jury the need for care and caution in evaluating evidence of the defendant\u2019s statements. Finally, we explain that the fact that the Legislature has imposed a sua sponte duty to give the instruction in certain circumstances in juvenile cases does not require that all criminal defendants receive the same treatment under equal protection principles.\n\u201cIt is settled that in criminal cases, even in the absence of a- request, the trial court must instruct on the general principles of law relevant to the issues raised by the evidence. [Citations.] The general principles of law governing the case are those principles closely and openly connected with the facts before the court, and which are necessary for the jury\u2019s understanding of the case.\u201d (People v. St. Martin (1970) 1 Cal.3d 524, 531 [83 Cal.Rptr. 166, 463 P.2d 390]; see People v. Delgado (2013) 56 Cal.4th 480, 488 [154 Cal.Rptr.3d 621, 297 P.3d 859].) We long ago held that, under Code of Civil Procedure former section 2061, a trial court in a criminal case was obligated to advise the jury on the court\u2019s own motion to consider a defendant\u2019s extrajudicial statements with caution. (People v. Bemis, supra, 33 Cal.2d at p. 399.) After the repeal of Code of Civil Procedure former section 2061 we continued to so hold (see Carpenter, supra, 15 Cal.4th at p. 392), but none of our cases has until now carefully examined whether the cautionary instruction is one of those \u201cgeneral principles of law\u201d so \u201cnecessary for the jury\u2019s understanding of the case\u201d that the instruction must be given by the trial court even when the defendant does not request it.\nOur early cases identified the language of Code of Civil Procedure former section 2061 \u2014 requiring that the cautionary instruction be given \u201cby the Court on all proper occasions\u201d \u2014 as the basis for imposing a sua sponte duty on the trial court to give the cautionary instruction. (See, e.g., People v. Koenig (1946) 29 Cal.2d 87, 94 [173 P.2d 1] [\u201cIn view of the code section . . . such a cautionary instruction should have been given.\u201d (italics added)]; People v. Cornett (1948) 33 Cal.2d 33, 40 [198 P.2d 877] [\u201cIt is clear that in view of the foregoing code section the trial court should have given such a cautionary instruction.\u201d (italics added)]; People v. Bemis, supra, 33 Cal.2d at p. 399 [noting that \u201cthe Legislature [made] the admitting of extrajudicial admissions into evidence conditional on the giving of a cautionary instruction\u201d]; People v. Ford, supra, 60 Cal.2d at p. 799 [quoting Code Civ. Proc., former \u00a7 2061\u2019s language that the jurors \u201c \u2018are ... to be instructed by the court on all proper occasions\u2019 \u201d to view \u201c \u2018oral admissions of a party . . . with caution\u2019 \u201d].)\nAfter the repeal of Code of Civil Procedure former section 2061 in 1967, our seminal case addressing the trial court\u2019s sua sponte instructional duties respecting a criminal defendant\u2019s out-of-court admissions was Beagle, supra, 6 Cal.3d 441. There we affirmed that the trial court had a sua sponte duty to give this instruction. (Id. at p. 455.) As primary authority, we cited People v. Ford, supra, 60 Cal.2d at page 799, a case based on the statutory provision. (Beagle, at p. 455.) We observed in a footnote that \u201cAlthough Code of Civil Procedure section 2061, requiring the cautionary instruction, was repealed effective January 1, 1967, the repeal does not affect the decisional law,\u201d citing the Law Revision Commission comment to that effect discussed above. (Id. at fn. 4.) We also cited two Court of Appeal decisions: People v. Blankenship (1970) 7 Cal.App.3d 305 [86 Cal.Rptr. 651] and People v. Reed (1969) 270 Cal.App.2d 37 [75 Cal.Rptr. 430]. (Beagle, supra, at p. 455, fn. 4.) Those Court of Appeal decisions likewise observed that cases like Ford and Bemis remained valid despite the repeal of Code of Civil Procedure former section 2061 because the Law Revision Commission\u2019s comment to the repealed section suggested the repeal \u201cshould have no effect on the decisional law requiring cautionary instructions.\u201d (Blankenship, at p. 310; accord, Reed, at p. 43, fn. 2.) We have since affirmed this rule without discussion in a number of cases, all of which trace back to our holding in Beagle. (See People v. Slaughter (2002) 27 Cal.4th 1187, 1200 [120 Cal.Rptr.2d 477, 47 P.3d 262] [citing Beagle]; People v. Williams (1988) 45 Cal.3d 1268, 1315 [248 Cal.Rptr. 834, 756 P.2d 221] [citing Beagle]; People v. Bunyard (1988) 45 Cal.3d 1189, 1224 [249 Cal.Rptr. 71, 756 P.2d 795] [citing Beagle]; People v. Heishman (1988) 45 Cal.3d 147, 166 [246 Cal.Rptr. 673, 753 P.2d 629] [citing Beagle]; see also Carpenter, supra, 15 Cal.4th at p. 392 [citing Beagle, Lang, and Ford]; People v. Lang (1989) 49 Cal.3d 991, 1021 [264 Cal.Rptr. 386, 782 P.2d 627] [citing Williams, Bunyard, Heishman, and Beagle].)\nReconsidering the issue in light of the general principles regarding the court\u2019s duty to provide instructions, we conclude that the instruction need not be given sua sponte. The cautionary instruction on admissions is no longer \u201cnecessary for the jury\u2019s understanding of the case\u201d (People v. St. Martin, supra, 1 Cal.3d at p. 531, italics added) because courts are now required to instruct the jury, in all criminal cases, concerning the general principles that apply to their consideration of witness testimony. (People v. Rincon-Pineda (1975) 14 Cal.3d 864, 883-884 [123 Cal.Rptr. 119, 538 P.2d 247].)\nAlthough instructions on witness credibility were included in the pattern instructions given at the time that Beagle was decided in 1972, no authority required that they be given sua sponte. (See CALJIC No. 2.20 (3d ed. 1970) [Credibility of Witness].) The standard CALJIC instruction included a statement that the jurors are the exclusive judges of witness credibility, which Penal Code section 1127 requires to be given in every criminal case. It also included the list of factors affecting witness credibility contained in Evidence Code section 780, which provides examples of matters that may be relevant to witness credibility. No case or statute, however, required that the jury be instructed on these factors. In 1975, we stated that \u201cthe substance\u201d of CALJIC No. 2.20, including the factors that affect witness credibility, \u201cshould henceforth always be given.\u201d (People v. Rincon-Pineda, supra, 14 Cal.3d at p. 883 [holding that courts should no longer instruct juries to consider with caution the testimony of the complaining witness in a rape case].)\nConsistent with the instructions required by Rincon-Pineda, current instructions advise the jury to consider, among other things, how well a witness could \u201csee, hear, or otherwise perceive the things about which the witness testified,\u201d how well the witness was \u201cable to remember and describe what happened,\u201d and whether the witness\u2019s testimony was influenced by \u201cbias or prejudice, a personal relationship with someone involved in the case, or a personal interest in how the case is decided.\u201d (CALCRIM No. 226.) These general instructions, like the cautionary instruction, \u201caid the jury in determining whether [the defendant\u2019s extrajudicial statement] was in fact made.\u201d (People v. Bemis, supra, 33 Cal.2d at p. 400.) Consequently, the erroneous omission of the cautionary instruction has frequently been held to be harmless error in light of such general instructions on witness credibility. (See People v. Dickey (2005) 35 Cal.4th 884, 906 [28 Cal.Rptr.3d 647, 111 P.3d 921]; Carpenter, supra, 15 Cal.4th at p. 393; People v. Bunyard, supra, 45 Cal.3d at p. 1225.) Because courts must now instruct the jury on these general factors in every case, we conclude that the cautionary instruction on defendant\u2019s statements is no longer so necessary to the jury\u2019s understanding of the case as to require the court to give it sua sponte.\nThe cautionary instruction regarding a defendant\u2019s statements stands in contrast to instructions that convey a legal principle with which jurors would be unfamiliar in the absence of instruction from the court. This distinction is illustrated by People v. Najera (2008) 43 Cal.4th 1132 [77 Cal.Rptr.3d 605, 184 P.3d 732], in which we held that the trial court had no duty to instruct the jury on its own motion that possession of recently stolen property is insufficient by itself to establish guilt of theft-related offenses. We compared the instruction at issue with instructions concerning the corpus delicti rule and the requirement that the testimony of an accomplice be corroborated. Those instructions reflected legal rules that certain types of evidence are insufficient, alone, to establish guilt \u2014 rules of which the jurors would not be aware without instruction. (Id. at pp. 1136-1137.) In contrast, the mle that possession of stolen property is insufficient in itself to establish guilt of theft is \u201cmerely a specific application of the general instruction governing circumstantial evidence.\u201d (Id. at p. 1138.) We explained that \u201c \u2018an instruction that tells the jury what kinds of rational inferences may be drawn from the evidence does not provide any insight jurors are not already expected to possess.\u2019 [Citation.] Such instructions, while helpful in various circumstances, are not vital to the jury\u2019s ability to analyze the evidence and therefore are not instructions that must be given to the jury even in the absence of a request.\u201d (Id. at p. 1139.) Likewise, the cautionary instruction concerning the defendant\u2019s extrajudicial statements may be helpful in some circumstances but is not \u201cvital to the jury\u2019s ability to analyze the evidence.\u201d (Ibid.)\nFurthermore, it is more appropriate to permit defendants to determine whether to request the instruction than to require the trial judge to give it in every case. In People v. Livaditis (1992) 2 Cal.4th 759, 782-784 [9 Cal.Rptr.2d 72, 831 P.2d 297] (Livaditis), we held that the cautionary instruction regarding the defendant\u2019s admissions need not be given at the penalty phase of a capital case in the absence of the defendant\u2019s request. We reasoned that at that phase, \u201c[w]hether a particular statement is aggravating or mitigating is often open to interpretation.\u201d (Id. at p. 783.) Because advising caution might not be in the defendant\u2019s interest in that context, a trial court need not give the cautionary instruction unless it is requested by the defendant.\nIn Livaditis, we distinguished a case that rejected the defendant\u2019s argument that the cautionary instruction should not have been given at the guilt phase because the defendant\u2019s statements were both exculpatory and inculpatory\u2014People v. Vega (1990) 220 Cal.App.3d 310 [269 Cal.Rptr. 413] (Vega). (Livaditis, supra, 2 Cal.4th at pp. 783-784.) Vega reasoned that because the CALJIC instruction given in that case referred to the defendant\u2019s admission, and defined an admission as a statement tending to prove guilt, the jury would understand that only statements tending to prove guilt should be viewed with caution. (Vega, at p. 317.) We later reached the same conclusion in People v. Slaughter, supra, 27 Cal.4th at page 1200. In Livaditis, we reasoned that at \u201ca penalty phase, the distinction between mitigation and aggravation is often more blurred than the distinction between a statement that incriminates and one that does not. A statement, for example, that the defendant is sorry he stabbed the victim to death is both mitigating and aggravating. It admits guilt but also expresses remorse.\u201d (Livaditis, at p. 784.)\nAlthough the line between mitigating and aggravating statements may tend to be more blurred than the line between incriminating statements and exculpatory statements, the difference is only a matter of degree. A statement that is exculpatory on its face could be incriminating if proved to be false. (See, e.g., People v. Mendoza, supra, 192 Cal.App.3d, at pp. 675-676 [defendant\u2019s exculpatory statements to police that were proved to be false, showing consciousness of guilt, constituted admissions to which the cautionary instruction applied].) It is not uncommon that the statements of a defendant contain both incriminating and exculpatory elements. In Vega, for example, the defendant was charged with robbery, vehicle theft, and kidnapping. In some of his statements to police, he admitted taking the vehicle but stated that he did not intend to keep it and took it only \u201ctemporarily because of an emergency.\u201d (Vega, supra, 220 Cal.App.3d at p. 317.) The decision in Vega recognized that \u201cit is not uncommon that a single statement may tend to prove guilt or innocence, depending upon the state of the remaining evidence and the issue for which it is being considered.\u201d (Id. at pp. 317-318.) Despite its recognition that a statement may include both incriminating and exculpatory elements, Vega declined to require the trial court to modify the instruction in such circumstances and relied upon the jury to understand the word \u201cadmission\u201d and apply it only to incriminating statements. (Id. at p. 318.) A defendant, however, might prefer not to rely on the jury\u2019s ability to discriminate between those incriminating admissions it should view with special caution and those exculpatory statements that are not subject to the instruction. Or a defendant might not contest that the incriminating portions of his or her statements were made, and wish to avoid any risk that the jury might apply the cautionary instruction to portions of the statements that he or she wanted the jury to accept. Therefore, it is appropriate to allow the defendant to make the strategic decision whether to request the instruction.\nIt is true that we have rejected the argument that we should eliminate the court\u2019s sua sponte duty to give an instruction directing the jury to consider an accomplice\u2019s statement with distrust \u2014 an instruction that also derived from Code of Civil Procedure former section 2061, subdivision 4. (People v. Guiuan (1998) 18 Cal.4th 558 [76 Cal.Rptr.2d 239, 957 P.2d 928].) The majority in Guiuan stated that \u201c[i]t has long been one of the instructions on the \u2018general principles of law\u2019 that trial courts must give on their own initiative. . . . The repeal of [section 2061] did not purport to abrogate this requirement, and it was continued by our decisional law.\u201d (Id. at p. 569.) Nevertheless, we did not feel constrained in Guiuan to maintain the instructional duty precisely as it was set forth in the statute. Although we concluded that the duty to give the instruction regarding accomplice testimony had not been abrogated, we modified the instruction\u2019s language to require \u201c \u2018care and caution\u2019 \u201d rather than \u201c \u2018with distrust.\u2019 \u201d (Ibid.) In addition, in order to remove the burden on the trial court to modify the instruction when accomplice testimony is presented by, or is favorable to, the defendant, we modified the language of the instruction to refer \u201conly to [accomplice] testimony that . . . incriminate[d] the defendant.\u201d (Ibid.) As Guiuan demonstrates, the language of former section 2061, even as perpetuated in our decisions after its repeal, need not inhibit the continuing development and refinement of the common law rules that it embodied.\nThe People urge us to conclude not only that the cautionary instruction concerning a defendant\u2019s extrajudicial statements need not be given on the court\u2019s own motion, but also that it should never be given, even when a defendant requests it. We decline to do so. Although the instruction is not absolutely necessary to the jury\u2019s understanding of the case whenever there is evidence of a defendant\u2019s extrajudicial statements, it can be useful in highlighting for the jury the need to carefully consider a type of evidence that is particularly vulnerable to distortion, whether intentional or accidental. (See People v. Bemis, supra, 33 Cal.2d at pp. 399-400.)\nBoth parties argue that the recent adoption of section 859.5 favors their position, but none of their arguments is persuasive. Section 859.5, subdivision (a) requires that custodial interrogations of juvenile murder suspects be recorded. If such an interrogation is not recorded, the court must instruct the jury to \u201cview with caution the statements made in [the] custodial interrogation.\u201d (\u00a7 859.5, subd: (e)(3).) The Attorney General argues that the Legislature\u2019s imposition of a sua sponte duty on the court to give the cautionary instruction under these narrow circumstances implies a considered decision not to require it more generally for all oral admissions, and thus supports the conclusion that the instruction need not be given sua sponte. The decisional law at the time the Legislature adopted section 859.5, however, required the cautionary instruction on admissions to be given sua sponte. There is no reason to believe that, in requiring a special cautionary instruction in cases in which law enforcement has not complied with the statutory requirements for recording the statements of juveniles suspected of homicide, the Legislature implicitly intended to change the law applicable to other cases.\nDefendant, on the other hand, argues that the Legislature\u2019s adoption of section 859.5, subdivision (e)(3) demonstrates that, contrary to the Attorney General\u2019s argument, the Legislature concluded that the general instructions concerning witness credibility are not an adequate substitute for a cautionary instruction concerning a defendant\u2019s statements. We disagree. There is no indication that the Legislature thought that the general instructions on witness credibility would be insufficient in cases not addressed by section 859.5. The special instruction contemplated in section 859.5 is intended to be a remedy for law enforcement\u2019s failure to follow that law. (\u00a7 859.5, subd. (e).)\nFinally, defendant contends that elimination of the sua sponte duty to give the general cautionary instruction concerning admissions would create an equal protection problem, because defendant is assertedly similarly situated to the juvenile defendants to whom section 859.5 applies. Defendant is not similarly situated to juvenile murder suspects who are interrogated in custody in violation of section 859.5. No law requires that a defendant\u2019s admissions be recorded. In adopting section 859.5, the Legislature explicitly recognized the special problems created by the custodial interrogation of juvenile suspects, and the corresponding need for accurate recordings of those interrogations, particularly in murder cases. (Sen. Bill No. 569 (2013-2014 Reg. Sess.) \u00a7 1 [legislative findings].) These special problems clearly are not applicable in defendant\u2019s case, in which the oral admissions at issue were not made during a police interrogation and defendant was not a murder suspect.\nC. Harmless error\nWe need not decide whether the new rule we announce today\u2014 eliminating the court\u2019s sua sponte duty to give the cautionary instruction on defendant\u2019s extrajudicial statements \u2014 applies retroactively because, in any event, the omission of the cautionary instmction was harmless. We apply the standard for state law error; whether it is reasonably probable the jury would have reached a result more favorable to defendant had the instruction been given. (People v. Watson (1956) 46 Cal.2d 818, 835-836 [299 P.2d 243].) Failure to give the cautionary instruction is not' a violation of federal due process warranting the \u201cmore stringent standard\u201d of review for federal constitutional error. (Carpenter, supra, 15 Cal.4th at p. 393.) \u201cSince the cautionary instruction is intended to help the jury to determine whether the statement attributed to the defendant was in fact made, courts examining the prejudice in failing to give the instruction examine the record to see if there was any conflict in the evidence about the exact words used, their meaning, or whether the [statements] were repeated accurately.\u201d (People v. Pensinger (1991) 52 Cal.3d 1210, 1268 [278 Cal.Rptr. 640, 805 P.2d 899].)\nConcerning the convictions for criminal threats, the testimony of Eduardo, Marta, and Indira regarding the substance and meaning of defendant\u2019s threatening statements was largely consistent. Each testified that defendant told Eduardo that if he did not die this time, he would die the next time. Each also testified that defendant said she would kill their entire family. Even though Eduardo could not remember all that had been said to Indira, Marta and Indira both testified that defendant had told Indira that she was going to \u201cpay for this.\u201d The minor variations in the exact wordings of these statements are not the sort of inconsistencies that would cause a jury to question whether the statements were actually made, even when the testimony is viewed with caution. Not only was this testimony generally consistent, but there was no evidence contradicting these witnesses\u2019 testimony that the statements were made. (See People v. Dickey, supra, 35 Cal.4th at p. 906 [\u201cWhere there was no such conflict in the evidence, but simply a denial by the defendant that he made the statements attributed to him, we have found failure to give the cautionary instruction harmless.\u201d].)\nDefense counsel did make two arguments in an attempt to cast doubt on the prosecution\u2019s evidence of criminal threats. First, defense counsel contended that if defendant had made the threats, the jury would be able to hear these threats on a 911 call that Marta made during the attack. The prosecution played a recording of the call for the jury and the court provided a translated transcript. The recording of the 911 call contains roughly 60 seconds during which a female voice can be heard screaming but the actual words are mostly incomprehensible. Given the recording\u2019s inconclusive nature, it is not reasonably probable that the jury would have been more likely to find it exonerating had the trial court given the cautionary instruction.\nSecond, in an apparent attempt to suggest to the jury that the witnesses had conspired to present false testimony, defense counsel asked Eduardo, Marta, and Indira whether they had discussed the attack prior to trial. After each replied in the negative, the defense suggested to the jury in closing arguments that this was \u201ca really bad, huge fat lie.\u201d No evidence suggested that the witnesses had coordinated their testimony. It is unlikely that this argument would have been significantly bolstered by provision of the cautionary instruction.\nFurthermore, the instructions provided by the trial court concerning witness credibility informed the jury of the need to evaluate the witnesses\u2019 testimony for possible inaccuracies and determine whether the statement was in fact made. The jury was instructed with CALCRIM No. 226, which sets out the numerous factors the jury may consider in deciding whether a witness\u2019s testimony is credible. \u201c[Wjhen the trial court otherwise has thoroughly instructed the jury on assessing the credibility of witnesses, we have concluded the jury was adequately warned to view their testimony with caution.\u201d (People v. McKinnon, supra, 52 Cal.4th at p. 680; see Carpenter, supra, 15 Cal.4th at p. 392 [finding trial court\u2019s instruction on witness credibility prevented prejudice where there was no evidence that the statements were not made].)\nTurning to the attempted murder conviction, defendant argues that the trial court\u2019s failure to give the cautionary instruction was prejudicial because the evidence of defendant\u2019s statements was used to prove the intent element of attempted murder and the finding that the attempted murder was deliberate and premeditated. In addition to the evidence of defendant\u2019s criminal threats discussed above, Indira testified that defendant told Eduardo, as the women dragged him out by his hair, that she was going to kill him. A police investigator who interviewed Marta three days after the stabbing testified that Marta told him that defendant had shouted \u201cDie! Die! Die!\u201d during the attack. Although, in her testimony, Marta denied relaying those words to the investigator, she testified that she remembered defendant saying \u201cIf you don\u2019t die from this one, you\u2019ll die from the next one.\u201d\nThe absence of the cautionary instruction was not prejudicial as to the attempted murder conviction or the finding that the attempted murder was deliberate and premeditated. Although the prosecution referred to the \u201cDie! Die! Die!\u201d language in closing arguments, it expressly acknowledged that it was uncertain whether this statement was made. Although the statement described by Marta in court was different from the statement described by the investigator, her testimony also strongly suggested an intent to kill. No evidence contradicted Indira\u2019s statement that defendant told Eduardo she was going to kill him, and the circumstantial evidence strongly supported the prosecution\u2019s theory that defendant had planned the attack. The jury heard testimony from Eduardo, Marta, and Indira that defendant snapped her fingers and whistled to call forth associates \u2014 young gang members \u2014 who were lying in wait, and that one of them stabbed Eduardo repeatedly in defendant\u2019s presence. In light of all the evidence, it is not reasonably probable that the jury would have returned a verdict more favorable to defendant on the attempted murder count had the trial court provided the cautionary instruction. Accordingly, we conclude that the omission of the cautionary instruction in this case was harmless.\nIII. Conclusion\n, The decision of the Court of Appeal is affirmed.\nWerdegar, J., Chin, J., Corrigan, J., Liu, J., Cu\u00e9llar, J., and Kruger, J., concurred.\nAll further statutory references are to the Penal Code, unless otherwise noted.\nCALCRIM No. 358 provides: \u201cYou have heard evidence that the defendant made [an] oral or written statements] (before the trial/while the court was not in session). You must decide whether the defendant made any (such/of these) statements], in whole or in part. If you decide that the defendant made such [a] statements], consider the statements], along with all the other evidence, in reaching your verdict. It is up to .you to decide how much importance to give to the statements], [\u00b6] [Consider with caution any statement made by (the/a) defendant tending to show (his/her) guilt unless the statement was written or otherwise recorded.]\u201d\nCALJIC No. 2.71 provides: \u201cAn admission is a statement made by [a] [the] defendant which does not by itself acknowledge [his] [her] guilt of the crimefs] for which the defendant is on trial, but which statement tends to prove [his] [her] guilt when considered with the rest of the evidence. [\u00b6] You are the exclusive judges as to whether the defendant made an admission, and if so, whether that statement is true in whole or in part. [\u00b6] [Evidence of an oral admission of [a] [the] defendant not made in court should be viewed with caution.]\u201d\n(See CALJIC No. 29-D (1st ed. 1946) [\u201cThe law of this state admonishes you to view with caution the testimony of any witness which purports to relate an oral admission of the defendant [or an oral confession by him]\u201d]; Cal. Jury Instructions, Civil, No. 8 (1938) [\u201cevidence of the oral admission of a party, other than by his own testimony in this trial, ought to be viewed by you with caution\u201d]; see also CACI No. 212 (2014 ed.) [\u201cA party may offer into evidence any oral or written statement made by an opposing party outside the courtroom. [\u00b6] \u2022 \u2022 \u2022 [\u00b6] You should view testimony about an oral statement made by a party outside the courtroom with caution.\u201d]; BAJI No. 2.25 (2014 ed.) [\u201cA statement made by a party before trial that has a tendency to prove or disprove any material fact in this action and which is against that party\u2019s interest is an admission. Evidence of an oral admission not made under oath should be viewed with caution.\u201d].)\nIn contrast, the CALJIC instruction discussed in Zichko, supra, 118 Cal.App.4th 1055, requires that \u201cEvidence of an oral admission of [a] [the] defendant not made in court should be viewed with caution.\u201d (CALJIC No. 2.71.)\nIn limiting application of the cautionary instruction to \u201cadmissions,\u201d Zichko found support in the circumstance that the CALJIC version of the cautionary instruction at issue in that case directs the jury to determine \u201cwhether [the] statement is true in whole or in part.\u201d (CALJIC No. 2.71; see Zichko, supra, 118 Cal.App.4th at p. 1060.) Zichko noted that there would be no reason to instruct a jury to determine whether a threat was true because a threat may be a crime \u201ceven if there is no intent of actually carrying it out.\u201d (\u00a7 422; see Zichko, at p. 1060.) The pattern jury instructions, however, \u201care not themselves the law, and are not authority to establish legal propositions or precedent.\u201d (People v. Morales (2001) 25 Cal.4th 34, 48, fn. 7 [104 Cal.Rptr.2d 582, 18 P.3d 11].) In contrast to the CALCRIM instructions (which include one cautionary instruction that is applicable to all oral statements of the defendant), CALJIC includes separate instructions tailored to different types of statements: a defendant\u2019s oral confession (CALJIC No. 2.70), an admission not amounting to a confession (CALJIC No. 2.71), and a preoffense statement of intent, plan, motive, or design (CALJIC No. 2.71.7). The circumstances that the CALJIC instruction drafted to apply to admissions includes language that may not be appropriate when the defendant\u2019s statements are offered as proof of a verbal act, and that the CALJIC drafters have not created an instruction specifically applicable to statements offered as proof of a verbal act, do not support the conclusion that a cautionary instruction is inapplicable to criminal threats.\nAlso unavailing is the Attorney General\u2019s contention that the language in CALCRIM No. 358 directing a jury to \u201cdecide how much importance to give to the statements]\u201d indicates that the cautionary instruction was never intended to be given when the statement constitutes the criminal act itself. Because the instruction is not itself authority, whether or not it was so intended does not affect our analysis. (See People v. Morales, supra, 25 Cal.4th at p. 48, fn. 7.) In any event, it is not clear that the language directing a jury to consider the importance of the statement is inapplicable in a criminal threats case. In such a case, the jury must determine not only whether the statement was made but also whether it was intended to \u201cbe taken as a threat\u201d and whether it caused the victim to \u201cfear for his\u00a1 or her . . . safety.\u201d (\u00a7 422.)",
+        "type": "majority",
+        "author": "CANTIL-SAKAUYE, C. J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Dallas Sacher, under appointment by the Supreme Court, and Syda Kosofsky, under appointment by the Court of Appeal, for Defendant and Appellant.",
+      "Kamala D. Harris, Attorney General, Dane R. Gillette, Chief Assistant Attorney General, Gerald A. Engler, Assistant Attorney General, Laurence K.",
+      "Sullivan, Jeffrey M. Laurence, Stan Helfman, Christopher J. Wei, Luke Fadem and Masha A. Dabiza, Deputy Attorneys General, for Plaintiff and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. S205145.\nApr. 6, 2015.]\nTHE PEOPLE, Plaintiff and Respondent, v. DORA DIAZ, Defendant and Appellant.\nCounsel\nDallas Sacher, under appointment by the Supreme Court, and Syda Kosofsky, under appointment by the Court of Appeal, for Defendant and Appellant.\nKamala D. Harris, Attorney General, Dane R. Gillette, Chief Assistant Attorney General, Gerald A. Engler, Assistant Attorney General, Laurence K.\nSullivan, Jeffrey M. Laurence, Stan Helfman, Christopher J. Wei, Luke Fadem and Masha A. Dabiza, Deputy Attorneys General, for Plaintiff and Respondent."
+  },
+  "file_name": "1176-01",
+  "first_page_order": 1130,
+  "last_page_order": 1151
+}

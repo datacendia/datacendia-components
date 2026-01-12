@@ -1,0 +1,59 @@
+{
+  "id": 12212527,
+  "name": "Cohen v. Alfred & Adele Davis Academy, Inc.",
+  "name_abbreviation": "Cohen v. Alfred & Adele Davis Academy, Inc.",
+  "decision_date": "2012-04-30",
+  "docket_number": "No. 11-1072",
+  "first_page": "974",
+  "last_page": "974",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 974"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 89,
+    "ocr_confidence": 0.603,
+    "sha256": "65d31494c28867d05e5c4b86d710dde29e22cb9939571f830be1229efc388844",
+    "simhash": "1:5080689cfa5a9641",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cohen v. Alfred & Adele Davis Academy, Inc."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ga. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1072.\nCohen v. Alfred & Adele Davis Academy, Inc."
+  },
+  "file_name": "0974-11",
+  "first_page_order": 850,
+  "last_page_order": 850
+}

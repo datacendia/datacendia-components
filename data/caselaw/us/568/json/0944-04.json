@@ -1,0 +1,59 @@
+{
+  "id": 12417984,
+  "name": "Williams v. McEwen, Acting Warden",
+  "name_abbreviation": "Williams v. McEwen",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-225",
+  "first_page": "944",
+  "last_page": "944",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 944"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 81,
+    "ocr_confidence": 0.681,
+    "sha256": "020d989b79e83ea03f0a25029a4d3a73629425c71f5a058224ab9f7174823fad",
+    "simhash": "1:5bf124803989244b",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. McEwen, Acting Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-225.\nWilliams v. McEwen, Acting Warden."
+  },
+  "file_name": "0944-04",
+  "first_page_order": 1020,
+  "last_page_order": 1020
+}

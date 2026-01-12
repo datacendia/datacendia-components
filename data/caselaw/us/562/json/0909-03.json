@@ -1,0 +1,59 @@
+{
+  "id": 5957053,
+  "name": "Hogan v. Florida",
+  "name_abbreviation": "Hogan v. Florida",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5200",
+  "first_page": "909",
+  "last_page": "909",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 909"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 80,
+    "ocr_confidence": 0.601,
+    "sha256": "14c78af785ef52dee65dd1656585350070ed549eb1f16c29df9a32edcab85cbd",
+    "simhash": "1:b8708132c6454e3e",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hogan v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 2d Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5200.\nHogan v. Florida."
+  },
+  "file_name": "0909-03",
+  "first_page_order": 931,
+  "last_page_order": 931
+}

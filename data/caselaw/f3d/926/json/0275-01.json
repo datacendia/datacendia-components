@@ -1,0 +1,624 @@
+{
+  "id": 12521403,
+  "name": "UNITED STATES of America, Plaintiff-Appellee, v. Lawrence Michael LYNDE, Defendant-Appellant.",
+  "name_abbreviation": "United States v. Lynde",
+  "decision_date": "2019-06-07",
+  "docket_number": "No. 18-3725",
+  "first_page": "275",
+  "last_page": "283",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "926 F.3d 275"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "6th Cir.",
+    "id": 21296,
+    "name": "United States Court of Appeals for the Six Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "448 F.3d 929",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6046530
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "932"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/448/0929-01"
+      ]
+    },
+    {
+      "cite": "734 F.3d 441",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3718583
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "450"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/734/0441-01"
+      ]
+    },
+    {
+      "cite": "744 F. App'x 245",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "249"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "749 F.3d 908",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4064145
+      ],
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "911"
+        },
+        {
+          "page": "911"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/749/0908-01"
+      ]
+    },
+    {
+      "cite": "760 F.3d 699",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4148328
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "707-08"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/760/0699-01"
+      ]
+    },
+    {
+      "cite": "817 F.3d 1114",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6813890
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1115-16"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/817/1114-01"
+      ]
+    },
+    {
+      "cite": "754 F.3d 888",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6056026
+      ],
+      "weight": 4,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "900"
+        },
+        {
+          "page": "900"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/754/0888-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 994",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(p)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "488 U.S. 361",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1494660
+      ],
+      "weight": 3,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "427",
+          "parenthetical": "Scalia, J., dissenting"
+        },
+        {
+          "parenthetical": "Scalia, J., dissenting"
+        },
+        {
+          "parenthetical": "Scalia, J., dissenting"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/488/0361-01"
+      ]
+    },
+    {
+      "cite": "370 U.S. 405",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6168335
+      ],
+      "weight": 3,
+      "year": 1962,
+      "pin_cites": [
+        {
+          "page": "411"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/370/0405-01"
+      ]
+    },
+    {
+      "cite": "514 U.S. 211",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1339497
+      ],
+      "weight": 3,
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "218-25"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/514/0211-01"
+      ]
+    },
+    {
+      "cite": "520 F. App'x 392",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        5711896
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "392-93",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/520/0392-01"
+      ]
+    },
+    {
+      "cite": "527 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1248184
+      ],
+      "weight": 3,
+      "year": 1999,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/527/0001-01"
+      ]
+    },
+    {
+      "cite": "747 F. App'x 269",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "278",
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "628 F.3d 791",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4075565
+      ],
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "799-800"
+        },
+        {
+          "page": "799"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/628/0791-01"
+      ]
+    },
+    {
+      "cite": "543 U.S. 220",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5925862
+      ],
+      "weight": 3,
+      "year": 2005,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/543/0220-01"
+      ]
+    },
+    {
+      "cite": "506 F.3d 461",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6046327
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "464-66"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/506/0461-01"
+      ]
+    },
+    {
+      "cite": "693 F. App'x 521",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        12400223
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "523"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/693/0521-01"
+      ]
+    },
+    {
+      "cite": "688 F. App'x 351",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        12399831
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "352",
+          "parenthetical": "alteration in original"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/688/0351-01"
+      ]
+    },
+    {
+      "cite": "775 F.3d 778",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6055409
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "786-87"
+        },
+        {
+          "page": "786-87"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/775/0778-01"
+      ]
+    },
+    {
+      "cite": "636 F.3d 772",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4102398
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "775-76"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/636/0772-01"
+      ]
+    },
+    {
+      "cite": "551 U.S. 338",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3573000
+      ],
+      "weight": 3,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "347"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/551/0338-01"
+      ]
+    },
+    {
+      "cite": "536 F.3d 571",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5763036
+      ],
+      "weight": 2,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "573"
+        },
+        {
+          "page": "573"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/536/0571-01"
+      ]
+    },
+    {
+      "cite": "885 F.3d 436",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516320
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "442"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/885/0436-01"
+      ]
+    },
+    {
+      "cite": "552 U.S. 38",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3675664
+      ],
+      "weight": 7,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "41"
+        },
+        {
+          "page": "51-52"
+        },
+        {
+          "page": "59-60"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/552/0038-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3553",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 8,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)(1)"
+        },
+        {
+          "page": "(a)(6)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 2252",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 8,
+      "pin_cites": [
+        {
+          "page": "(a)(2)"
+        },
+        {
+          "page": "(b)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "665 F.3d 758",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3863597
+      ],
+      "weight": 6,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "761-64"
+        },
+        {
+          "page": "762"
+        },
+        {
+          "page": "764"
+        },
+        {
+          "page": "764"
+        },
+        {
+          "page": "761-62"
+        },
+        {
+          "page": "767"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/665/0758-01"
+      ]
+    },
+    {
+      "cite": "669 F.3d 723",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3722854
+      ],
+      "weight": 3,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "733"
+        },
+        {
+          "page": "733"
+        },
+        {
+          "page": "733"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/669/0723-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 981,
+    "char_count": 17630,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2593467804493621
+    },
+    "sha256": "390a1a2f39b3bcc17167602ccce2083f8281c0b2b10b77a7a1a3d77eb56a1ffc",
+    "simhash": "1:ced2ef34fe27395f",
+    "word_count": 2818
+  },
+  "last_updated": "2024-02-27T18:46:44.951673+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before: COOK, NALBANDIAN, and MURPHY, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee,\nv.\nLawrence Michael LYNDE, Defendant-Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "MURPHY, Circuit Judge.\nSection 2G2.2 of the Sentencing Guidelines increases the recommended sentence in child-pornography cases if the offense involves a minor under the age of 12, the use of a computer, or other aggravating factors. This Guideline has repeatedly been subject to the criticism that its enhancements apply in most child-pornography cases and generate unduly harsh sentences. Our court has just as repeatedly rebuffed claims that courts must decline to follow \u00a7 2G2.2 because it arose from too much democratic tinkering by Congress and not enough empirical research by the Sentencing Commission. United States v. Cunningham , 669 F.3d 723, 733 (6th Cir. 2012). Lawrence Lynde, who pleaded guilty to a child-pornography offense, asks us to depart from our cases and reject \u00a7 2G2.2 because the Commission added its expert voice to the criticism in a 2012 report to Congress. But just as this report cannot compel the legislative branch to depart from its policy choices about \u00a7 2G2.2's content, cf. United States v. Bistline , 665 F.3d 758, 761-64 (6th Cir. 2012), so too it cannot compel the judicial branch to depart from its legal judgment about \u00a7 2G2.2's validity. We thus affirm Lynde's sentence.\nBefore detailing our reasoning, we start with the facts. In October 2015, federal officials received a tip from Canadian authorities that Lynde had been trading child pornography online. An investigation uncovered that he had exchanged 62 images with another individual on the online application \"Kik\" between October and December 2014. Executing a search warrant at Lynde's home in December 2015, federal agents recovered 322 images and five videos of child pornography. The images showed, among other things, prepubescent minors, including toddlers, engaged in genital-to-genital intercourse with adult males. Lynde ultimately pleaded guilty to receiving and distributing child pornography, in violation of 18 U.S.C. \u00a7 2252(a)(2).\nThe knowing receipt and distribution of child pornography carries a statutory minimum of five years' imprisonment and a statutory maximum of twenty years. 18 U.S.C. \u00a7 2252(b)(1). The Sentencing Guidelines assigned Lynde's crime a base offense level of 22.\nU.S.S.G. \u00a7 2G2.2(a)(2) (2016). His presentence report applied five \u00a7 2G2.2 enhancements: (1) Lynde's offense involved children under 12, id. \u00a7 2G2.2(b)(2) ; (2) Lynde knowingly distributed child pornography, id. \u00a7 2G2.2(b)(3)(F) ; (3) the child pornography presented sadistic or masochistic conduct and the sexual abuse of a toddler, id. \u00a7 2G2.2(b)(4) ; (4) Lynde had used a computer, id. \u00a7 2G2.2(b)(6) ; and (5) Lynde possessed over 600 images, id. \u00a7 2G2.2(b)(7)(D). (Under the Guidelines commentary, every video is \"considered to have 75 images.\" Id. \u00a7 2G2.2, cmt. n.6(B)(ii).) After reductions for acceptance of responsibility, Lynde's total offense level was 34. With no criminal history, he faced a Guidelines range between 151 and 188 months.\nAt sentencing, Lynde's counsel objected to the \u00a7 2G2.2 enhancements. Counsel conceded that they applied. But he described \u00a7 2G2.2 as \"broken\" because it produced harsh sentences through enhancements that enlarge the punishment in most cases. Counsel also highlighted Lynde's otherwise productive life and strong family support. A married father of three who provided care to his sick wife, Lynde served in the military and then began a career servicing x-ray equipment, which occasionally took him overseas on charitable work. Lynde's counsel thus requested the statutory minimum-a five-year sentence.\nThe district court agreed that the presentence report correctly calculated the Guidelines range, but decided that a Guidelines sentence would be \"longer than necessary\" under 18 U.S.C. \u00a7 3553(a). It rejected the use-of-a-computer enhancement because the court had never presided over a child-pornography case that did not involve a computer. It also decreased the offense level because of Lynde's family circumstances. All in all, its reductions reduced the Guidelines range to between 97 and 121 months. Because of Lynde's \"particularly exemplary life,\" the court settled on a 97-month sentence.\nWe review this sentence \"under a deferential abuse-of-discretion standard.\" Gall v. United States , 552 U.S. 38, 41, 128 S.Ct. 586, 169 L.Ed.2d 445 (2007). While a sentence must be both procedurally and substantively reasonable, id. at 51-52, 128 S.Ct. 586, Lynde does not identify any procedural problems with his sentence. He simply disputes the bottom-line number, arguing that his 97-month sentence is \"too long.\" United States v. Rayyan , 885 F.3d 436, 442 (6th Cir. 2018). Lynde presents wholesale and retail challenges in support of this substantive argument: He broadly asserts that the district court should have rejected the \u00a7 2G2.2 enhancements on policy grounds that would apply to most defendants, and he narrowly asserts that the district court wrongly balanced the \u00a7 3553(a) factors in his case.\nWholesale Challenge . We typically start with an appellate presumption of reasonableness if the district court imposes a sentence within the Guidelines range (or a sentence below that range where, as here, the defendant is the one appealing). United States v. Curry , 536 F.3d 571, 573 (6th Cir. 2008). This \"presumption reflects the fact that, by the time an appeals court is considering a within-Guidelines sentence on review, both the sentencing judge and the Sentencing Commission will have reached the same conclusion as to the proper sentence in the particular case.\" Rita v. United States , 551 U.S. 338, 347, 127 S.Ct. 2456, 168 L.Ed.2d 203 (2007). And when a judge departs downward from the Guidelines range, \"simple logic compels the conclusion\" that a \"defendant's task of persuading us that the more lenient sentence ... is unreasonably long is even more demanding.\" Curry , 536 F.3d at 573. Flipping this logic on its head, Lynde argues that we should treat as unreasonable even a below-Guidelines sentence that relies on \u00a7 2G2.2's enhancements. That is so, Lynde claims, because those enhancements neither (1) arise from the Commission's careful study into the courts' past sentencing practices nor (2) adequately distinguish among child-pornography offenders.\nWe have not taken kindly to Lynde's claim that \u00a7 2G2.2 deserves to be cast aside because of its \"purported lack of empirical grounding.\" Cunningham , 669 F.3d at 733. His premise is correct. Congress has actively policed \u00a7 2G2.2, so the Commission's usual statistical methods have taken a backseat to Congress's \"desire to cast a wider criminal net[ ] and impose harsher punishments.\" United States v. McNerney , 636 F.3d 772, 775-76 (6th Cir. 2011). But Lynde's conclusion does not follow. To the contrary, Congress's direct involvement is a \"virtue, rather than [a] vice,\" in a republic like ours because \"[t]he Constitution is fundamentally a democratic document, not a technocratic one.\" Bistline , 665 F.3d at 762. If the representatives who are accountable to the People reach \"a retributive judgment that certain crimes are reprehensible and warrant serious punishment as a result,\" the Commission cannot stand in their way. Id. at 764.\nWe have also rejected Lynde's claim that \u00a7 2G2.2's enhancements must be disregarded because they apply in most cases and do not adequately distinguish among offenders. See United States v. Walters , 775 F.3d 778, 786-87 (6th Cir. 2015). If \"the harm [an enhancement] addresses is real,\" we have reasoned, \"the enhancement is valid, no matter how often it applies.\" United States v. Lester , 688 F. App'x 351, 352 (6th Cir. 2017) (alteration in original) (citation omitted). Here, Lynde does not dispute that real harms undergird two of the enhancements that he attacks-those for pornography involving children under 12, and for pornography that includes sadistic or masochistic conduct or the abuse of toddlers. U.S.S.G. \u00a7 2G2.2(b)(2), (b)(4). (The phrase \"res ipsa loquitur\" comes to mind.) Rather, Lynde makes only the legally insufficient point that these enhancements arise frequently. See Lester , 688 F. App'x at 352 ; Walters , 775 F.3d at 786-87. With respect to the enhancement for offenses involving \"600 or more images,\" U.S.S.G. \u00a7 2G2.2(b)(7)(D), Lynde does additionally argue that the commentary arbitrarily treats video clips as \"75 images,\" U.S.S.G. \u00a7 2G2.2, cmt. n.6(B)(ii). But one could reasonably decide \"that videos and movies\" cause more harm and so \"should be weighed much more heavily than photos or pictures.\" United States v. Hanson , 693 F. App'x 521, 523 (9th Cir. 2017). (As a disclaimer, we note that Lynde does not dispute that this \u00a7 2G2.2 enhancement factually applies, so we do not address whether the commentary's bright-line rule correctly interprets \u00a7 2G2.2(b)(7). Cf. United States v. Geerken , 506 F.3d 461, 464-66 (6th Cir. 2007).)\nTo be sure, the Guidelines have been advisory since United States v. Booker , 543 U.S. 220, 125 S.Ct. 738, 160 L.Ed.2d 621 (2005). Thus, a district court may disagree with \u00a7 2G2.2's enhancements \"for policy reasons, and may reject the Guidelines range based on that disagreement.\" United States v. Brooks , 628 F.3d 791, 799-800 (6th Cir. 2011). But a district court faces a \"formidable task\" when it seeks to reject the policies underlying a Guideline, like \u00a7 2G2.2, that \"comes bristling with Congress's own empirical and value judgments.\" Bistline , 665 F.3d at 764. If that is true, a district court cannot be said to have abused its discretion merely because it followed \u00a7 2G2.2 (and agreed with its policies).\nCunningham , 669 F.3d at 733. As we have said, \" 'the mere fact that a sentencing court has the discretion to disagree with the guidelines on policy grounds does not mean that it is required to do so'-and that is true no matter how persuasive an appellate court finds the defendant's policy arguments.\" United States v. Souders , 747 F. App'x 269, 278 (6th Cir. 2018) (citation omitted).\nEven so, Lynde replies, the district court acted arbitrarily in this case by charting a middle course: It declined to impose \u00a7 2G2.2's use-of-a-computer enhancement on the ground that the enhancement applies in most cases, but refused to extend the same logic to the other enhancements. Yet the broad discretion granted to district courts in sentencing means that they need not follow Lynde's \" 'in for a penny, in for a pound' approach.\" See Neder v. United States , 527 U.S. 1, 17 n.2, 119 S.Ct. 1827, 144 L.Ed.2d 35 (1999). And a district court could reasonably conclude that the use of a computer does not warrant extra punishment while also deciding that, for example, trading in images of toddler rape does. See United States v. Klepper , 520 F. App'x 392, 392-93 (6th Cir. 2013) (per curiam).\nOur existing precedent would fully rebut Lynde's attack on \u00a7 2G2.2 but for a new turn that he takes. Lynde says that the Sentencing Commission itself \"offered significant criticism of [ \u00a7 2G2.2's] enhancements\" in a December 2012 report to Congress recommending changes. See U.S. Sentencing Comm'n, Federal Child Pornography Offenses 322-25 (Dec. 2012). Does this report require us to reassess our cases upholding \u00a7 2G2.2's general validity? No. That's analogous to suggesting that Congress can compel the Supreme Court to depart from its authoritative interpretation of the law-not by amending the law through Article I's bicameralism and presentment process-but by issuing a congressional report critical of the decision. Cf. Plaut v. Spendthrift Farm, Inc. , 514 U.S. 211, 218-25, 115 S.Ct. 1447, 131 L.Ed.2d 328 (1995) ; United States v. Wise , 370 U.S. 405, 411, 82 S.Ct. 1354, 8 L.Ed.2d 590 (1962). Since Congress cannot supersede judicial interpretations in this way, it should go without saying that the Commission-which has been described as \"a sort of junior-varsity Congress,\" Mistretta v. United States , 488 U.S. 361, 427, 109 S.Ct. 647, 102 L.Ed.2d 714 (1989) (Scalia, J., dissenting)-cannot either. See also Bistline , 665 F.3d at 761-62. And while the Commission may follow the prescribed process for amending the Guideline (or convince Congress to do so for subsections out of its control), see 28 U.S.C. \u00a7 994(p), Lynde concedes that neither Congress nor the Commission has amended \u00a7 2G2.2 in response to this report.\nWe are not alone in taking this view. Other circuits have held that the Commission's \"report does not render the non-production child pornography guidelines in \u00a7 2G2.2 invalid or illegitimate.\" United States v. Cubero , 754 F.3d 888, 900 (11th Cir. 2014) ; United States v. Sigsbury , 817 F.3d 1114, 1115-16 (8th Cir. 2016) ; United States v. McLaughlin , 760 F.3d 699, 707-08 (7th Cir. 2014) ; cf. United States v. Grigsby , 749 F.3d 908, 911 (10th Cir. 2014). While \"Congress and the Commission are responsible for altering the Guidelines,\" they have not done so. Grigsby , 749 F.3d at 911. The report thus \"does not change the statutory sentencing scheme, the applicable sentencing guidelines, or the binding precedent about \u00a7 2G2.2 in this Circuit.\" Cubero , 754 F.3d at 900. That said, a district court may consider the report's policy concerns when deciding whether to follow \u00a7 2G2.2's enhancements. Id. If, however, the court opts to adhere to \u00a7 2G2.2, the normal standards of appellate review apply. Id.\nIn sum, notwithstanding the Commission's report, a sentence does not become unreasonable \"because U.S.S.G. \u00a7 2G2.2 [is] involved.\" Brooks , 628 F.3d at 799. Instead, a sentence following this Guideline receives the same appellate presumption of reasonableness that applies to a sentence following any other Guideline. See United States v. Wroten , 744 F. App'x 245, 249 (6th Cir. 2018).\nRetail Challenge . Apart from his arguments against \u00a7 2G2.2, Lynde asserts that the district court arbitrarily applied the \u00a7 3553(a) factors to his case. Recall, however, that Lynde's 97-month sentence fell well below the Guidelines range of 151 to 188 months' imprisonment. \"Although it is not impossible to succeed on a substantive-reasonableness challenge to a below-guidelines sentence, defendants who seek to do so bear a heavy burden.\" United States v. Greco , 734 F.3d 441, 450 (6th Cir. 2013). Lynde has not met that burden here.\nIndeed, the district court thoroughly weighed \u00a7 3553(a)'s sentencing factors, factors that it called \"[t]he touchstone of sentencing.\" It recognized the nature and severity of Lynde's offense, which causes \"incalculable\" and \"devastating\" harm to child victims. 18 U.S.C. \u00a7 3553(a)(1), (a)(2)(A). It acknowledged the need to deter this conduct and protect children, recognizing that the sentence must \"affect and attack the demand side\" of child pornography. Id. \u00a7 3553(a)(2)(B)-(C). It identified the Guidelines range, see id. \u00a7 3553(a)(4), and the criticisms (like those that Lynde now presses) about the way that this range has been set. The court likewise considered Lynde's personal characteristics. Id. \u00a7 3553(a)(1). It agreed that he had \"led a particularly exemplary life\" until this offense, and also reduced the sentence because of his wife's illness. These factors led it to settle on the lowest end of an adjusted Guidelines range. That sentence, the court concluded, accomplished the various purposes of sentencing. Id. \u00a7 3553(a)(2).\nAgainst all this, Lynde can only nitpick the district court's reasoning. He says, for example, that the district court did not expressly address his \"educational or vocational\" needs. Id. \u00a7 3553(a)(2)(D). But that factor has little relevance to Lynde, an already skilled technician. The district court did not abuse its discretion by failing to make an \"explicit[ ] reference\" to it. United States v. Morris , 448 F.3d 929, 932 (6th Cir. 2006).\nWhile conceding that the district court relied on various mitigating factors to reduce his sentence, Lynde also asserts that it did not reduce the sentence enough . Lynde may feel that the district court's already lenient sentence was not lenient enough, but its decision properly (not arbitrarily) balanced the relevant factors. In that respect, Lynde noticeably omits mentioning one factor-the one requiring the district court to consider \"the need to avoid unwarranted sentence disparities.\" 18 U.S.C. \u00a7 3553(a)(6). The greater the departure from the Guidelines range, the more this factor rises to the fore. See Bistline , 665 F.3d at 767. And here, the district court's sentence was already more than one-third shorter than the low end of the Guidelines range. The district court thus made a \"reasoned and reasonable decision that the \u00a7 3553(a) factors, on the whole, justified the sentence.\" Gall , 552 U.S. at 59-60, 128 S.Ct. 586.\n* * *\nAnyone who has reviewed the sentencing materials in this case-both the materials detailing the severe and lasting harm that child pornography causes its victims and those showing the effects of this conviction on Lynde and his family-would recognize that the district court faced a difficult decision. Our task as appellate judges is not to pick the sentence that we would prefer (whether higher or lower), but only to ensure that the sentence chosen by the district court fell within its broad range of reasoned discretion. On that, we are confident in the answer.\nWe affirm.",
+        "type": "majority",
+        "author": "MURPHY, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "ON BRIEF: Manuel B. Russ, Nashville, Tennessee, for Appellant. Danielle K. Angeli, UNITED STATES ATTORNEY'S OFFICE, Cleveland, Ohio, for Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee,\nv.\nLawrence Michael LYNDE, Defendant-Appellant.\nNo. 18-3725\nUnited States Court of Appeals, Sixth Circuit.\nDecided and Filed: June 7, 2019\nON BRIEF: Manuel B. Russ, Nashville, Tennessee, for Appellant. Danielle K. Angeli, UNITED STATES ATTORNEY'S OFFICE, Cleveland, Ohio, for Appellee.\nBefore: COOK, NALBANDIAN, and MURPHY, Circuit Judges."
+  },
+  "file_name": "0275-01",
+  "first_page_order": 275,
+  "last_page_order": 283
+}

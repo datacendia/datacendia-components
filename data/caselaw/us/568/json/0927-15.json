@@ -1,0 +1,61 @@
+{
+  "id": 12417098,
+  "name": "Rubashkin v. United States",
+  "name_abbreviation": "Rubashkin v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-1203",
+  "first_page": "927",
+  "last_page": "927",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 927"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 153,
+    "ocr_confidence": 0.662,
+    "sha256": "1223bbba278bd0e85f005481acd90235d9d0390e50cb30a6d6a79ccbd770f3f9",
+    "simhash": "1:8db3e2822f3570c0",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Rubashkin v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1203.\nRubashkin v. United States."
+  },
+  "file_name": "0927-15",
+  "first_page_order": 1003,
+  "last_page_order": 1003
+}

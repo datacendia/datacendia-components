@@ -1,0 +1,59 @@
+{
+  "id": 12413554,
+  "name": "Rodriguez v. Department of State",
+  "name_abbreviation": "Rodriguez v. Department of State",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10625",
+  "first_page": "852",
+  "last_page": "852",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 852"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 83,
+    "ocr_confidence": 0.693,
+    "sha256": "6980c244c0d00cfc7c9e7312ae5641e587d580d4bdc496fd06caca4d055d3de7",
+    "simhash": "1:988380414af2b0ca",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rodriguez v. Department of State."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. Fed. Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10625.\nRodriguez v. Department of State."
+  },
+  "file_name": "0852-10",
+  "first_page_order": 928,
+  "last_page_order": 928
+}

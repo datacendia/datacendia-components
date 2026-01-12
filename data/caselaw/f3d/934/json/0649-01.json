@@ -1,0 +1,1820 @@
+{
+  "id": 12522431,
+  "name": "AMERICAN BANKERS ASSOCIATION, Appellee v. NATIONAL CREDIT UNION ADMINISTRATION, Appellant",
+  "name_abbreviation": "Am. Bankers Ass'n v. Nat'l Credit Union Admin.",
+  "decision_date": "2019-08-20",
+  "docket_number": "No. 18-5154; C/w 18-5181",
+  "first_page": "649",
+  "last_page": "675",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "934 F.3d 649"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "D.C. Cir.",
+    "id": 11448,
+    "name": "Court of Appeals of the District of Columbia"
+  },
+  "jurisdiction": {
+    "id": 56,
+    "name_long": "District of Columbia",
+    "name": "D.C."
+  },
+  "cites_to": [
+    {
+      "cite": "130 S.Ct. 1396",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        3581774,
+        12447670
+      ],
+      "weight": 2,
+      "year": 2010,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/559/0280-01",
+        "/l-ed-2d/176/0225-01"
+      ]
+    },
+    {
+      "cite": "559 U.S. 280",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12447670,
+        3581774
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "288"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/176/0225-01",
+        "/us/559/0280-01"
+      ]
+    },
+    {
+      "cite": "795 F.3d 118",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6786606,
+        4289679
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "132"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/417/0381-01",
+        "/f3d/795/0118-01"
+      ]
+    },
+    {
+      "cite": "429 F.3d 1136",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3447042,
+        1554059
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1152",
+          "parenthetical": "declining to vacate rule because, in the interim, it \"may do some good, if it does anything at all\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/368/0335-01",
+        "/f3d/429/1136-01"
+      ]
+    },
+    {
+      "cite": "489 F.3d 1364",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3563353,
+        3485793
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "1374"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/376/0528-01",
+        "/f3d/489/1364-01"
+      ]
+    },
+    {
+      "cite": "420 F.2d 245",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2159341
+      ],
+      "year": 1969,
+      "pin_cites": [
+        {
+          "page": "247",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/420/0245-01"
+      ]
+    },
+    {
+      "cite": "568 F.2d 1383",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        909997,
+        3773559
+      ],
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "1387"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/568/1383-01",
+        "/us-app-dc/186/0161-01"
+      ]
+    },
+    {
+      "cite": "988 F.2d 146",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        3813033,
+        10510774
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "152",
+          "parenthetical": "determining that, because vacatur would give regulated parties a \"peculiar windfall,\" the meager chance of justifying the action was given \"little weight\" in the remedial analysis"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/300/0198-01",
+        "/f2d/988/0146-01"
+      ]
+    },
+    {
+      "cite": "280 F.3d 1027",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5872350,
+        9396974
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "1049",
+          "parenthetical": "holding that, because the agency likely could justify its action on remand, the potential for disruption was \"only barely relevant\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/350/0079-01",
+        "/f3d/280/1027-01"
+      ]
+    },
+    {
+      "cite": "896 F.3d 520",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517743
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "536"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/896/0520-01"
+      ]
+    },
+    {
+      "cite": "5 U.S.C. \u00a7 702",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "parenthetical": "\"Nothing herein ... affects ... the power or duty of the court to ... deny relief on any ... appropriate ... equitable ground ....\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "925 F.3d 1279",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12521271
+      ],
+      "weight": 4,
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "1287"
+        },
+        {
+          "page": "1287",
+          "parenthetical": "citation omitted"
+        },
+        {
+          "page": "1287"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/925/1279-01"
+      ]
+    },
+    {
+      "cite": "310 U.S. 113",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6137383
+      ],
+      "weight": 3,
+      "year": 1940,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/310/0113-01"
+      ]
+    },
+    {
+      "cite": "107 F.2d 627",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1046150
+      ],
+      "year": 1939,
+      "pin_cites": [
+        {
+          "page": "631"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/107/0627-01"
+      ]
+    },
+    {
+      "cite": "524 U.S. 125",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11181745
+      ],
+      "weight": 3,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "129-30"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/524/0125-01"
+      ]
+    },
+    {
+      "cite": "22 B.T.A. 1273",
+      "category": "reporters:specialty",
+      "reporter": "B.T.A.",
+      "case_ids": [
+        12116239
+      ],
+      "year": 1931,
+      "pin_cites": [
+        {
+          "page": "1274"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/bta/22/1273-01"
+      ]
+    },
+    {
+      "cite": "269 N.W. 281",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "year": 1936,
+      "pin_cites": [
+        {
+          "page": "282-83"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "222 Wis. 605",
+      "category": "reporters:state",
+      "reporter": "Wis.",
+      "case_ids": [
+        8693927
+      ],
+      "year": 1936,
+      "opinion_index": 0,
+      "case_paths": [
+        "/wis/222/0605-01"
+      ]
+    },
+    {
+      "cite": "67 S.Ct. 1760",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "year": 1947,
+      "opinion_index": 0
+    },
+    {
+      "cite": "332 U.S. 194",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        365064
+      ],
+      "weight": 2,
+      "year": 1947,
+      "pin_cites": [
+        {
+          "page": "196"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/332/0194-01"
+      ]
+    },
+    {
+      "cite": "347 F. Supp. 2d 1061",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        9169886
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1074"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/347/1061-01"
+      ]
+    },
+    {
+      "cite": "2008 WL 2857678",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "*1"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "12 U.S.C. \u00a7 1754",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "540 U.S. 20",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8896762
+      ],
+      "weight": 3,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "29",
+          "parenthetical": "\"Virtually every legal (or other) rule has imperfect applications in particular circumstances.\""
+        },
+        {
+          "parenthetical": "\"Virtually every legal (or other) rule has imperfect applications in particular circumstances.\""
+        },
+        {
+          "parenthetical": "\"Virtually every legal (or other) rule has imperfect applications in particular circumstances.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/540/0020-01"
+      ]
+    },
+    {
+      "cite": "502 U.S. 183",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6221371
+      ],
+      "weight": 3,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "188",
+          "parenthetical": "\"That the regulation may be invalid as applied in s[ome] cases ... does not mean that the regulation is facially invalid because it is without statutory authority.\""
+        },
+        {
+          "parenthetical": "\"That the regulation may be invalid as applied in s[ome] cases ... does not mean that the regulation is facially invalid because it is without statutory authority.\""
+        },
+        {
+          "parenthetical": "\"That the regulation may be invalid as applied in s[ome] cases ... does not mean that the regulation is facially invalid because it is without statutory authority.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/502/0183-01"
+      ]
+    },
+    {
+      "cite": "572 U.S. 489",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12706996
+      ],
+      "weight": 5,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "524",
+          "parenthetical": "\"The possibility that the rule, in uncommon particular applications, might exceed [the agency]'s statutory authority does not warrant judicial condemnation of the rule in its entirety.\""
+        },
+        {
+          "parenthetical": "\"The possibility that the rule, in uncommon particular applications, might exceed [the agency]'s statutory authority does not warrant judicial condemnation of the rule in its entirety.\""
+        },
+        {
+          "parenthetical": "\"The possibility that the rule, in uncommon particular applications, might exceed [the agency]'s statutory authority does not warrant judicial condemnation of the rule in its entirety.\""
+        },
+        {
+          "page": "523-24"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/572/0489-01"
+      ]
+    },
+    {
+      "cite": "499 U.S. 606",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11320137
+      ],
+      "weight": 3,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "619"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/499/0606-01"
+      ]
+    },
+    {
+      "cite": "138 S. Ct. 2165",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12612885
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "2173"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/2165-01"
+      ]
+    },
+    {
+      "cite": "707 F.3d 394",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3536408,
+        3661878
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "397-98",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/707/0394-01",
+        "/us-app-dc/404/0096-01"
+      ]
+    },
+    {
+      "cite": "75 Fed. Reg. 36,257",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "36,259"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "541 U.S. 232",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5883661
+      ],
+      "weight": 3,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "244",
+          "parenthetical": "citation omitted"
+        },
+        {
+          "parenthetical": "citation omitted"
+        },
+        {
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/541/0232-01"
+      ]
+    },
+    {
+      "cite": "549 U.S. 561",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3553650
+      ],
+      "weight": 3,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "574",
+          "parenthetical": "\"[M]ost words have different shades of meaning and consequently may be variously construed ... in different statutes ....\" (citation omitted)"
+        },
+        {
+          "parenthetical": "\"[M]ost words have different shades of meaning and consequently may be variously construed ... in different statutes ....\" (citation omitted)"
+        },
+        {
+          "parenthetical": "\"[M]ost words have different shades of meaning and consequently may be variously construed ... in different statutes ....\" (citation omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/549/0561-01"
+      ]
+    },
+    {
+      "cite": "66 Fed. Reg. 29,010",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 2001,
+      "opinion_index": 0
+    },
+    {
+      "cite": "123 Stat. 2190",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 666",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "year": 1998,
+      "pin_cites": [
+        {
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 U.S.C. \u00a7 2203",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "year": 1998,
+      "pin_cites": [
+        {
+          "parenthetical": "defining \"local\" as \"city, town, county, ... or other political subdivision of a State\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "515 U.S. 687",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1564389
+      ],
+      "weight": 3,
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "702",
+          "parenthetical": "citation omitted"
+        },
+        {
+          "parenthetical": "citation omitted"
+        },
+        {
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/515/0687-01"
+      ]
+    },
+    {
+      "cite": "552 U.S. 214",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3675555
+      ],
+      "weight": 3,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "227"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/552/0214-01"
+      ]
+    },
+    {
+      "cite": "463 U.S. 29",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6190630
+      ],
+      "weight": 12,
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "43"
+        },
+        {
+          "page": "43"
+        },
+        {
+          "page": "43"
+        },
+        {
+          "page": "43"
+        },
+        {
+          "page": "43"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/463/0029-01"
+      ]
+    },
+    {
+      "cite": "139 S. Ct. 2551",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12620860
+      ],
+      "weight": 2,
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "2569"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/2551-01"
+      ]
+    },
+    {
+      "cite": "136 S. Ct. 760",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12601464
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "782"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/136/0760-01"
+      ]
+    },
+    {
+      "cite": "790 F.3d 198",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4273274,
+        4279581
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "204"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/790/0198-01",
+        "/us-app-dc/416/0129-01"
+      ]
+    },
+    {
+      "cite": "912 F.2d 504",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        9046484,
+        5676862
+      ],
+      "weight": 2,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "509",
+          "parenthetical": "Thomas, J."
+        },
+        {
+          "page": "510"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/912/0504-01",
+        "/us-app-dc/286/0104-01"
+      ]
+    },
+    {
+      "cite": "825 F.3d 646",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12310433,
+        4324114
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "653"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/423/0155-01",
+        "/f3d/825/0646-01"
+      ]
+    },
+    {
+      "cite": "876 F.2d 994",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        3468554,
+        10538083
+      ],
+      "weight": 2,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "1000"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/278/0116-01",
+        "/f2d/876/0994-01"
+      ]
+    },
+    {
+      "cite": "399 F.2d 390",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2140826
+      ],
+      "year": 1968,
+      "pin_cites": [
+        {
+          "page": "393",
+          "parenthetical": "Friendly, J."
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/399/0390-01"
+      ]
+    },
+    {
+      "cite": "763 F.3d 754",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4181372
+      ],
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "760"
+        },
+        {
+          "page": "760"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/763/0754-01"
+      ]
+    },
+    {
+      "cite": "825 F.3d 674",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12310449,
+        4324386
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "717"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/423/0183-01",
+        "/f3d/825/0674-01"
+      ]
+    },
+    {
+      "cite": "778 F.3d 1034",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6051473,
+        6055993
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1038"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/778/1034-01",
+        "/us-app-dc/414/0222-01"
+      ]
+    },
+    {
+      "cite": "681 F.3d 427",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3886093,
+        3772143
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "441"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/681/0427-01",
+        "/us-app-dc/401/0096-01"
+      ]
+    },
+    {
+      "cite": "754 F.3d 1056",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6055939,
+        4280358
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1063"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/754/1056-01",
+        "/us-app-dc/410/0264-01"
+      ]
+    },
+    {
+      "cite": "569 U.S. 290",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12697048
+      ],
+      "weight": 3,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "297",
+          "parenthetical": "emphasis omitted"
+        },
+        {
+          "parenthetical": "emphasis omitted"
+        },
+        {
+          "parenthetical": "emphasis omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/569/0290-01"
+      ]
+    },
+    {
+      "cite": "920 F.3d 855",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12520734
+      ],
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "860",
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/920/0855-01"
+      ]
+    },
+    {
+      "cite": "882 F.3d 220",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12515941
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "222"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/882/0220-01"
+      ]
+    },
+    {
+      "cite": "134 S.Ct. 584",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12584672,
+        12702001
+      ],
+      "weight": 2,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "parenthetical": "citation omitted"
+        },
+        {
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/134/0584-01",
+        "/us/571/0069-01"
+      ]
+    },
+    {
+      "cite": "571 U.S. 69",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12702001
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "77",
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/571/0069-01"
+      ]
+    },
+    {
+      "cite": "475 U.S. 534",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6205017
+      ],
+      "weight": 3,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "541"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/475/0534-01"
+      ]
+    },
+    {
+      "cite": "183 L.Ed.2d 281",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12407170,
+        12407151
+      ],
+      "year": 2012,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/567/0298-01",
+        "/us/567/0260-01"
+      ]
+    },
+    {
+      "cite": "567 U.S. 298",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12407170
+      ],
+      "weight": 3,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "307"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/567/0298-01"
+      ]
+    },
+    {
+      "cite": "137 S. Ct. 2012",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12605129
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "parenthetical": "holding that the court must find \"absolutely clear that the allegedly wrongful behavior could not reasonably be expected to recur\" (emphasis added) (quoting Friends of the Earth , 528 U.S. at 189, 120 S.Ct. 693 )"
+        },
+        {
+          "parenthetical": "holding that the court must find \"absolutely clear that the allegedly wrongful behavior could not reasonably be expected to recur\" (emphasis added) (quoting Friends of the Earth , 528 U.S. at 189, 120 S.Ct. 693 )"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/137/2012-01"
+      ]
+    },
+    {
+      "cite": "591 F.2d 896",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        3778832,
+        521518
+      ],
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "902"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/192/0287-01",
+        "/f2d/591/0896-01"
+      ]
+    },
+    {
+      "cite": "528 U.S. 167",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9476232
+      ],
+      "weight": 5,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "189",
+          "parenthetical": "citation omitted"
+        },
+        {
+          "parenthetical": "citation omitted"
+        },
+        {
+          "parenthetical": "citation omitted"
+        },
+        {
+          "page": "189"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/528/0167-01"
+      ]
+    },
+    {
+      "cite": "455 U.S. 283",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11305055
+      ],
+      "weight": 9,
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "289"
+        },
+        {
+          "page": "289"
+        },
+        {
+          "parenthetical": "holding that the court must find \"absolutely clear that the allegedly wrongful behavior could not reasonably be expected to recur\" (emphasis added"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/455/0283-01"
+      ]
+    },
+    {
+      "cite": "108 F.3d 346",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7629472,
+        3703647
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "349"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/108/0346-01",
+        "/us-app-dc/323/0292-01"
+      ]
+    },
+    {
+      "cite": "271 F.3d 262",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9462963,
+        5873078
+      ],
+      "weight": 4,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "274"
+        },
+        {
+          "page": "274"
+        },
+        {
+          "page": "273",
+          "parenthetical": "citation omitted"
+        },
+        {
+          "page": "267"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/271/0262-01",
+        "/us-app-dc/350/0001-01"
+      ]
+    },
+    {
+      "cite": "947 F.2d 971",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        3494212,
+        10524158
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "977"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/292/0105-01",
+        "/f2d/947/0971-01"
+      ]
+    },
+    {
+      "cite": "920 F.3d 828",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12520731
+      ],
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "832",
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/920/0828-01"
+      ]
+    },
+    {
+      "cite": "83 Fed. Reg. 30,289",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "weight": 3,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "30,291"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "842 F.3d 1274",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12142694
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1277"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/842/1274-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1291",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 U.S.C. \u00a7\u00a7 701",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "60 Stat. 237",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "year": 1946,
+      "opinion_index": 0
+    },
+    {
+      "cite": "81 Fed. Reg. 88,412",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "weight": 25,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "88,440"
+        },
+        {
+          "page": "88,413, 88,440"
+        },
+        {
+          "page": "88,416, 88,440"
+        },
+        {
+          "page": "88,440"
+        },
+        {
+          "page": "88"
+        },
+        {
+          "page": "88,414"
+        },
+        {
+          "page": "88,415"
+        },
+        {
+          "page": "88"
+        },
+        {
+          "page": "88,413"
+        },
+        {
+          "page": "88,414",
+          "parenthetical": "remarking on the importance of credit unions \"providing financial services to low income and underserved populations without regard to where they are located within a community, i.e. , beyond its 'core area' \""
+        },
+        {
+          "page": "88,414"
+        },
+        {
+          "page": "88,440"
+        },
+        {
+          "page": "88,440"
+        },
+        {
+          "page": "88"
+        },
+        {
+          "page": "88,416"
+        },
+        {
+          "page": "88,417"
+        },
+        {
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "12 U.S.C. \u00a7 1759",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "(b)",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "4, 12"
+        },
+        {
+          "page": "4"
+        },
+        {
+          "page": "(g)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "12 U.S.C. \u00a7 1753",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(3)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "12 U.S.C. \u00a7 1757",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(5)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "112 Stat. 913",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "year": 1998,
+      "pin_cites": [
+        {
+          "parenthetical": "codified as amended in scattered sections of 12 U.S.C."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "100 F.3d 973",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3696667,
+        11942173
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "974",
+          "parenthetical": "noting that Congress \"entrusted\" the agency with \"the responsibility of overseeing\" federal credit unions"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/321/0359-01",
+        "/f3d/100/0973-01"
+      ]
+    },
+    {
+      "cite": "84 Stat. 994",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "year": 1970,
+      "pin_cites": [
+        {
+          "parenthetical": "codified as amended in scattered sections of 12 U.S.C."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "90 F.3d 525",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3695240,
+        9046365
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "526"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/319/0302-01",
+        "/f3d/90/0525-01"
+      ]
+    },
+    {
+      "cite": "306 F. Supp. 3d 44",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        12524853
+      ],
+      "weight": 21,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "61, 69-70"
+        },
+        {
+          "page": "61"
+        },
+        {
+          "page": "64-65"
+        },
+        {
+          "page": "69-70"
+        },
+        {
+          "page": "61"
+        },
+        {
+          "page": "58, 61"
+        },
+        {
+          "page": "57-59"
+        },
+        {
+          "page": "59-60"
+        },
+        {
+          "page": "62-63"
+        },
+        {
+          "page": "65"
+        },
+        {
+          "page": "64"
+        },
+        {
+          "page": "69"
+        },
+        {
+          "page": "69-70"
+        },
+        {
+          "page": "67-69"
+        },
+        {
+          "page": "68"
+        },
+        {
+          "page": "67-69"
+        },
+        {
+          "page": "68"
+        },
+        {
+          "page": "68-69"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/306/0044-01"
+      ]
+    },
+    {
+      "cite": "12 U.S.C. \u00a7\u00a7 1751",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "48 Stat. 1216",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "year": 1934,
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 U.S.C. \u00a7 706",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "(2)(A)"
+        },
+        {
+          "page": "(2)(A)"
+        },
+        {
+          "page": "(2)",
+          "parenthetical": "noting that the \"reviewing court shall ... set aside\" unlawful agency action"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "522 U.S. 479",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11472372
+      ],
+      "weight": 23,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "485"
+        },
+        {
+          "page": "503"
+        },
+        {
+          "page": "492"
+        },
+        {
+          "page": "502"
+        },
+        {
+          "page": "502"
+        },
+        {
+          "page": "492"
+        },
+        {
+          "page": "502"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/522/0479-01"
+      ]
+    },
+    {
+      "cite": "988 F.2d 1272",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10517056,
+        3812022
+      ],
+      "weight": 2,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "1274",
+          "parenthetical": "citation omitted"
+        },
+        {
+          "page": "1276"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/988/1272-01",
+        "/us-app-dc/300/0314-01"
+      ]
+    },
+    {
+      "cite": "533 U.S. 218",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9313070
+      ],
+      "weight": 3,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "227, 229",
+          "parenthetical": "citation omitted"
+        },
+        {
+          "parenthetical": "citation omitted"
+        },
+        {
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/533/0218-01"
+      ]
+    },
+    {
+      "cite": "467 U.S. 837",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6209106
+      ],
+      "weight": 17,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "866"
+        },
+        {
+          "page": "865"
+        },
+        {
+          "page": "843"
+        },
+        {
+          "page": "843"
+        },
+        {
+          "page": "842-43"
+        },
+        {
+          "parenthetical": "Thomas, J."
+        },
+        {
+          "page": "843"
+        },
+        {
+          "page": "844"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/467/0837-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 2592,
+    "char_count": 68678,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2595261345352567
+    },
+    "sha256": "1824fe2e00a42956ec55482e90f8cb3ecbd3e84b8caea79c7ea4eb6644a85fa8",
+    "simhash": "1:ae58ea33a2351bb1",
+    "word_count": 10950
+  },
+  "last_updated": "2024-02-27T18:47:10.696993+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before: Henderson, Pillard, and Wilkins, Circuit Judges."
+    ],
+    "parties": [
+      "AMERICAN BANKERS ASSOCIATION, Appellee\nv.\nNATIONAL CREDIT UNION ADMINISTRATION, Appellant"
+    ],
+    "opinions": [
+      {
+        "text": "Wilkins, Circuit Judge:\nLongstanding principles of administrative law teach us to give federal agencies breathing room when they make policy and \"resolv[e] the struggle between competing views of the public interest.\" Chevron, U.S.A., Inc. v. Nat. Res. Def. Council, Inc. , 467 U.S. 837, 866, 104 S.Ct. 2778, 81 L.Ed.2d 694 (1984). And because many policy decisions merge with legal ones, Chevron requires us frequently to sustain agency interpretations of certain federal statutes. Congress often expects agencies, with their political accountability, \"bod[ies] of experience[,] and informed judgment,\" to make sound interpretive choices \"with the force of law.\" United States v. Mead Corp. , 533 U.S. 218, 227, 229, 121 S.Ct. 2164, 150 L.Ed.2d 292 (2001) (citation omitted).\nCongress expressly tasked the National Credit Union Administration (NCUA) with making such choices in defining the reach of federal credit unions. Since the Great Depression, Congress has maintained a \"system of federal credit unions that ... provide credit at reasonable rates\" and banking services to \"people of 'small means.' \" First Nat'l Bank & Tr. Co. v. NCUA (First Nat'l Bank I ), 988 F.2d 1272, 1274 (D.C. Cir. 1993) (citation omitted), aff'd , 522 U.S. 479, 118 S.Ct. 927, 140 L.Ed.2d 1 (1998). Although a private bank may solicit and welcome customers from anywhere, Congress has limited whom these federal financial institutions may serve. For instance, certain institutions called \"community credit unions\" may cover individuals and entities only within a preapproved geographical area. The credit union will not receive a federal charter (and thus cannot start operations) unless it first proffers a geographical coverage area and the NCUA accepts the proposal. Congress explicitly assigns the agency the task of creating vetting standards.\nExercising its expressly delegated power, the NCUA has promulgated a final rule that makes it easier for community credit unions to expand their geographical coverage and thus to reach more potential members. Representing competitors to the credit unions, the American Bankers Association (Association) has challenged the NCUA's new rule as neither \"in accordance with law\" nor within \"statutory jurisdiction.\" 5 U.S.C. \u00a7 706(2)(A), (C). The District Court vacated significant portions of the rule, deeming them to be based on unreasonable agency interpretations of the Federal Credit Union Act (Act), Pub. L. No. 73-467, 48 Stat. 1216 (1934) (codified as amended at 12 U.S.C. \u00a7\u00a7 1751 to 1795k ). See Am. Bankers Ass'n v. NCUA , 306 F. Supp. 3d 44, 61, 69-70 (D.D.C. 2018).\nWe appreciate the District Court's conclusions, made after a thoughtful analysis of the Act. But we ultimately disagree with many of them. In this facial challenge, we review the rule not as armchair bankers or geographers, but rather as lay judges cognizant that Congress expressly delegated certain policy choices to the NCUA. After considering the Act's text, purpose, and legislative history, we hold the agency's policy choices \"entirely appropriate\" for the most part.\nChevron , 467 U.S. at 865, 104 S.Ct. 2778. We therefore sustain the bulk of the rule. Still, we do not rubber-stamp this regulation. We remand, without vacating, one portion for further consideration of the discriminatory impact it might have on poor and minority urban residents.\nI.\nA.\nThe nation's credit unions started in the early twentieth century \"as a populist mechanism designed to empower farmers against bad loans.\" Mehrsa Baradaran, How the Poor Got Cut Out of Banking , 62 EMORY L.J. 483, 500 (2013). Walloped by crop failures and the Great Depression, farmers seeking credit became not only increasingly suspicious of traditional bankers, who \"disregard[ed]\" poor individuals and stayed in the big cities, but also fearful of loan sharks, \"who would extract 'up to a thousand percent' in interest rates.\" Id. at 500-01 (quoting 80 CONG. REC. 6752 (1936) (statement of Rep. Lundeen)). The farmers thus began to build their own credit networks.\nIn a national grassroots campaign, farmers created localized, non-profit \"credit groups\" collecting funds from and loaning small sums to one another at low interest rates. See id. at 501-02. The success of any such self-help institution \"hinge[s] on the interpersonal dynamics of its members: Lenders must be able to evaluate the ability and willingness of potential borrowers to pay back their loans and borrowers must feel obligated to pay back those loans.\" Wendy Cassity, Note, The Case for a Credit Union Community Reinvestment Act , 100 COLUM. L. REV. 331, 337 (2000) ; see also First Nat'l Bank & Tr. Co. v. NCUA (First Nat'l Bank II ), 90 F.3d 525, 526 (D.C. Cir. 1996), aff'd , 522 U.S. 479, 118 S.Ct. 927, 140 L.Ed.2d 1 (1998).\nBy 1934, individuals had organized about 3,000 local credit unions, with about 750,000 members. See 80 CONG. REC. at 6753. Recognizing the success of credit unions at the state level, Congress created a federal system that year by passing the Act. Legislators worried that \"usurious money lending ... obviously destroy[ed] vast totals of buying power [once held by] ... the average worker.\" H.R. REP. NO. 73-2021, at 1-2 (1934); see also S. REP. NO. 73-555, at 1 (1934). Congress touted the Act's ability to \"make more available to people of small means credit for provident purposes.\" H.R. REP. NO. 73-2021, at 1; see also S. REP. NO. 73-555, at 1.\nCredit unions multiplied over the ensuing decades. By 1970, Congress created an independent agency to supervise federal credit unions: the NCUA. See Pub. L. No. 91-468, 84 Stat. 994 (1970) (codified as amended in scattered sections of 12 U.S.C.); see also Swan v. Clinton , 100 F.3d 973, 974 (D.C. Cir. 1996) (noting that Congress \"entrusted\" the agency with \"the responsibility of overseeing\" federal credit unions). Legislators thought that the agency would be \"more responsive to the needs of credit unions\" and would \"provide more flexible and innovative regulation\" than prior government agencies, which did not have federal credit unions as their sole focus. S. REP. NO. 91-518, at 3 (1969).\nThe NCUA faced its first major crisis at the end of the 1970s. After years of economic decline in several industrial sectors, federal credit unions tied to those business sectors began to suffer. The resulting liquidation of numerous credit unions \"threaten[ed] 'the safety and soundness of the federal credit union system.' \" Cassity, supra , at 338-39 (footnote omitted). Reacting to the emergency, the NCUA in 1981 promulgated a groundbreaking rule that loosened a major size limitation on certain federal credit unions. Almost immediately, those financial institutions grew in membership.\nMeanwhile, credit unions became \"caught up in the broader changes in banking and faced internal as well as external pressure to compete with [private] banks and seek higher profits.\" Baradaran, supra , at 505. Unlike credit unions, private, for-profit banks were \"owned by equity holders who may not necessarily be customers (depositors or borrowers),\" and they did \"not have similar membership and commercial lending restrictions\" as credit unions. DARRYL E. GETTER, CONG. RESEARCH SERV., IF11048, INTRODUCTION TO BANK REGULATION: CREDIT UNIONS AND COMMUNITY BANKS: A COMPARISON 1 (2018). To remain viable, credit unions \"started to focus on attracting more customers and expanding the industry.\" Baradaran, supra , at 505. As part of that strategy, many consolidated through mergers. And private banks soon treated credit unions as serious competitors, seeking to curb their growth. See NCUA v. First Nat'l Bank & Tr. Co. (First Nat'l Bank III ), 522 U.S. 479, 485, 118 S.Ct. 927, 140 L.Ed.2d 1 (1998) ; First Nat'l Bank I , 988 F.2d at 1276.\nIn 1998, the banking industry successfully challenged as contrary to the Act the 1981 rule that had eased size limitations for certain federal credit unions. See First Nat'l Bank III , 522 U.S. at 503, 118 S.Ct. 927. Congress swiftly responded. In less than six months, legislators amended the Act, superseding the holding in First National Bank III , loosening size limitations on certain federal credit unions, and adding other reforms. See Credit Union Membership Access Act, Pub. L. No. 105-219, 112 Stat. 913 (1998) (codified as amended in scattered sections of 12 U.S.C.). Partly because of the 1998 amendments and related NCUA regulations, credit unions continued to merge and grow in membership. Now, more than 61 million customers perform their banking services at about 3,400 federal credit unions. See 2018 NAT'L CREDIT UNION ADMIN. ANN. REP. 192.\nB.\nFederal credit unions pool funds from - and give loans to - their members and other credit-union entities. 12 U.S.C. \u00a7 1757(5), (6). A credit union's members, whether individual or corporate, must come from the credit union's membership \"field,\" id. \u00a7 1753(5), which is based on a shared occupation, association, or geographical area. Members receive regular dividends. Id. \u00a7 1763. Congress has shielded federal credit unions from federal corporate income taxes and most state and local taxes, but members must pay taxes on their dividends. See JAMES M. BICKLEY, CONG. RESEARCH SERV., 97-548 E, SHOULD CREDIT UNIONS BE TAXED ? 3-5 (2005).\nTo create a federal credit union, at least seven individuals must present a proposed charter and pay a fee to the NCUA. See MICHAEL P. MALLOY, BANKING LAW & REGULATION \u00a7 2.04 (2d ed. 2019). In the application, the organizers must pledge to deposit funds for shares in the institution and must describe the credit union's proposed membership field. 12 U.S.C. \u00a7 1753(3), (5). The NCUA must approve the charter before the institution may start. See id. \u00a7 1754. The agency will complete an \"appropriate investigation\" and determine the \"general character and fitness\" of the organizers, the \"economic advisability of establishing\" the credit union, and the \"conform[ity]\" of proposal details with the Act. Id.\nThe Act governs two types of federal credit unions: \"common-bond\" credit unions and \"community\" credit unions. See id. \u00a7 1759(b). This case deals with the latter category. The 1934 version of the Act required a community credit union's membership field to reflect a particular geographical area - to wit, \"a well-defined neighborhood, community, or rural district.\" \u00a7 9, 48 Stat. at 1219. As amended in 1998, the Act provides that membership for a community credit union \"shall be limited to ... [p]ersons or organizations within a well-defined local community, neighborhood, or rural district.\" 12 U.S.C. \u00a7 1759(b) (emphasis added). The 1998 version calls on the NCUA to \"prescribe, by regulation, a definition for the term 'well-defined local community, neighborhood, or rural district.' \" Id. \u00a7 1759(g)(1). Thus, under the new regime, individuals seeking to organize a new community credit union (or alter an existing one) must commit to serving members within the NCUA's contemporaneous definition of \"local community, neighborhood, or rural district.\" See S. REP. NO. 105-193, at 4, 8 (1998); H.R. REP. NO. 105-472, at 21 (1998). As part of their application to the NCUA, they must provide a proposed description of the precise geographical area that the credit union would serve.\nSince 1998, there has been \"dramatic growth\" in the number of community credit unions. U.S. GOV'T ACCOUNTABILITY OFF., GAO-07-29, CREDIT UNIONS: GREATER TRANSPARENCY NEEDED ON WHO CREDIT UNIONS SERVE AND ON SENIOR EXECUTIVE COMPENSATION ARRANGEMENTS 4 (2006). Despite a 11-percent drop in the number of federal credit unions from 2000 to 2005, community credit unions doubled to 1,115. Id. at 4, 12. Meanwhile, the amount of assets in community credit unions quadrupled to $104 billion. Id. at 4.\nC.\nOn December 7, 2016, the NCUA amended its membership-field rules for community credit unions. See Chartering and Field of Membership Manual, 81 Fed. Reg. 88,412 (Dec. 7, 2016). Several changes rely on two terms devised by the Office of Management and Budget (OMB) and based on data collected by the Census Bureau (Census): \"Core Based Statistical Areas\" and \"Combined Statistical Areas.\"\nThe OMB has designated numerous regions around the country as Core Based Statistical Areas, which comprise at least one urban cluster, or core, of 10,000 or more people and adjacent counties with substantial commuting ties to that core. See U.S. CENSUS BUREAU, GEOGRAPHICAL PROGRAM, GLOSSARY , https://www.census.gov/programs-surveys/geography/about/glossary.html. In layman's terms, a Core Based Statistical Area is a city or town and its suburbs.\nMeanwhile, a Combined Statistical Area is a conglomerate of two or more adjoining Core Based Statistical Areas, each of which has substantial commuting ties with at least one other Core Based Statistical Area in the group. Id. Essentially, a Combined Statistical Area is a regional hub with urban centers connected by commuting patterns. Combined Statistical Areas may \"reflect broader social and economic interactions, such as wholesaling, commodity distribution, and weekend recreation activities.\" OFFICE OF MGMT. & BUDGET, EXEC. OFFICE OF THE PRESIDENT, OMB BULL. NO. 15-01, REVISED DELINEATIONS OF METROPOLITAN STATISTICAL AREAS, MICROPOLITAN STATISTICAL AREAS, AND COMBINED STATISTICAL AREAS, AND GUIDANCE ON USES OF THE DELINEATIONS OF THESE AREAS app. 2-3 (2015).\nRelevant here, the 2016 rule made two changes to the NCUA's definition of the term \"local community\" under \u00a7 1759(b)(3) and one to that of \"rural district.\" The changes affect what proposed membership areas satisfy the geographical limitation imposed by the Act.\nThe first change to the \"local community\" definition involves Combined Statistical Areas. A proposed area qualifies as a local community if it encompasses the whole or a portion of a Combined Statistical Area and does not exceed a designated population limit. See 81 Fed. Reg. at 88,440. The NCUA has set that cap at 2.5 million people.\nThe second change involves Core Based Statistical Areas. The parties agree that all or part of a Core Based Statistical Area may qualify as a local community so long as it does not exceed the population limit. But since 2010, the NCUA required such a membership area to include the urban core. The new rule no longer requires that the core be included in the local community that a credit union proposes to serve. See id. at 88,413, 88,440.\nAs for the \"rural district\" definition, the new rule increases the population cap for valid rural districts from 250,000 people (or 3 percent of the population of the state where most eligible residents are located) to 1 million people. See id. at 88,416, 88,440. The new population limit works with two other constraints set by the rule: (1) an outer geographical limit on how far a rural district may extend past the borders of the credit union's headquarters state; and (2) a requirement either that most eligible residents reside in Census-designated rural areas, or that the population density of the proposed district equals 100 or fewer people per square mile. See id. at 88,440.\nD.\nOn the day the NCUA published the rule, the Association filed this injunctive and declaratory action in the District Court. The Association claimed that the three changes described above were not only arbitrary and capricious under the Administrative Procedure Act (APA), Pub. L. No. 79-404, 60 Stat. 237 (1946) (codified as 5 U.S.C. \u00a7\u00a7 701 - 06 ), but also unreasonable and entitled to no deference under Chevron . The agency and Association filed cross-motions for summary judgment. On March 29, 2018, the District Court granted both motions in part and denied them in part.\nThe court made three relevant holdings. First, it rejected as unreasonable the qualification of certain Combined Statistical Areas as local communities. See Am. Bankers Ass'n , 306 F. Supp. 3d at 61. Second, it sustained as well-reasoned the elimination of the core requirement from the Core Based Statistical Area a credit union proposes to serve as its local community. Id. at 64-65. Third, it rejected as unreasonable the increased population cap for rural districts. Id. at 69-70. (It also sustained a separate portion of the rule, which the Association does not challenge here.)\nThe NCUA and Association timely appealed. We have appellate jurisdiction under 28 U.S.C. \u00a7 1291.\nII.\nAt the outset, we must assure ourselves of our subject matter jurisdiction over the appellate proceeding. See, e.g. , United States v. Gooch , 842 F.3d 1274, 1277 (D.C. Cir. 2016).\nIn their original briefing, the parties failed to apprise us of a rule that was promulgated while this appeal was pending and that changed membership-field requirements for community credit unions. See Chartering and Field of Membership, 83 Fed. Reg. 30,289 (June 28, 2018). The 2018 rule eliminated the portion of the 2016 rule allowing Combined Statistical Areas to qualify as local communities. Compare 12 C.F.R. pt. 701, app. B, ch. 2 \u00a7 V.A.2 (2018), with id. (2019). The 2018 rule preamble did not specifically discuss the removal but concluded that \"[a]ny modification in th[e] final rule is consistent with the District Court decision\" in this action. 83 Fed. Reg. at 30,291.\n\"Under the mootness doctrine, we cannot decide a case if 'events have so transpired that the decision will neither presently affect the parties' rights nor have a more-than-speculative chance of affecting them in the future.' \" Reid v. Hurwitz , 920 F.3d 828, 832 (D.C. Cir. 2019) (citation omitted). The same principle applies to individual claims. See Tucson Med. Ctr. v. Sullivan , 947 F.2d 971, 977 (D.C. Cir. 1991). Accordingly, if a rule under review (or a portion of it) is superseded or amended during an appeal, the proceeding (or relevant part) might be moot. See, e.g. , Am. Bankers Ass'n v. NCUA , 271 F.3d 262, 274 (D.C. Cir. 2001). We therefore requested supplemental briefing on the issue of appellate jurisdiction.\nBased on the government's submission and representations at oral argument, we hold that the portion of the appeal related to Combined Statistical Areas is not moot. \"[T]he mere power to [reinstitute] a challenged law is not a sufficient basis on which a court can conclude that\" a challenge remains live. Nat'l Black Police Ass'n v. District of Columbia , 108 F.3d 346, 349 (D.C. Cir. 1997). The government has stated that, if we reverse the relevant part of the District Court's decision, all three members of the NCUA's board intend to reinstitute the Combined Statistical Area portion of the 2016 rule. See Decl. of Michael McKenna \u00b6 3, ECF No. 1781123; Oral Arg. Recording 11:33-48. Accordingly, City of Mesquite v. Aladdin's Castle, Inc. , 455 U.S. 283, 102 S.Ct. 1070, 71 L.Ed.2d 152 (1982), governs this case. In Aladdin's Castle , the Supreme Court deemed the controversy live in part because the government had announced \"an intention\" to restore the rule under challenge if the lower-court decision were vacated. Id. at 289 & n.11, 102 S.Ct. 1070 ; see also Am. Bankers Ass'n , 271 F.3d at 274. The NCUA's submission and representations evince such an intention here, and the Association - which bears the \"heavy burden\" of proving mootness, Friends of the Earth, Inc. v. Laidlaw Envtl. Servs. (TOC), Inc. , 528 U.S. 167, 189, 120 S.Ct. 693, 145 L.Ed.2d 610 (2000) (citation omitted) - offers no evidence to the contrary.\nThe Association attempts to distinguish Aladdin's Castle on two grounds, but neither sways us. First, the Association notes that the city government in Aladdin's Castle said it would reenact \"precisely the same\" law, see 455 U.S. at 289, 102 S.Ct. 1070, but that in this case any future notice-and-comment proceedings might produce a different \"local community\" definition, perhaps not even relying on Combined Statistical Areas. After all, the agency must keep a \"flexible and open-minded attitude\" during the process. See Nat'l Tour Brokers Ass'n v. United States , 591 F.2d 896, 902 (D.C. Cir. 1978). We grant that commenters might convince the NCUA to change its mind; mann tracht, und Gott lacht . But that strikes us as speculative as public input convincing Mesquite legislators to enact a different law. We do not see Aladdin's Castle turning on such conjecture. Instead, we see a live dispute because there is \"no certainty\" that the NCUA will forego reinstating the same Combined Statistical Area definition. Aladdin's Castle , 455 U.S. at 289, 102 S.Ct. 1070 ; see also Trinity Lutheran Church of Columbia, Inc. v. Comer , --- U.S. ----, 137 S. Ct. 2012, 2019 n.1, 198 L.Ed.2d 551 (2017) (holding that the court must find \"absolutely clear that the allegedly wrongful behavior could not reasonably be expected to recur\" (emphasis added) (quoting Friends of the Earth , 528 U.S. at 189, 120 S.Ct. 693 )). After all, the NCUA continues to defend the definition here. See Knox v. Serv. Emps. Int'l Union, Local 100 , 567 U.S. 298, 307, 132 S.Ct. 2277, 183 L.Ed.2d 281 (2012).\nSecond, the Association observes that both sides in Aladdin's Castle urged the Supreme Court to treat their dispute as live. In contrast, only the NCUA seeks to proceed here; the Association would prefer to wait until the agency reinstitutes the rule. But the existence or absence of jurisdiction does not turn on which parties challenge or defend it. Cf. Bender v. Williamsport Area Sch. Dist. , 475 U.S. 534, 541, 106 S.Ct. 1326, 89 L.Ed.2d 501 (1986). Because the NCUA remains bound by the lower-court judgment, the present injury renders irrelevant the Association's preference. \"Jurisdiction existing,\" our duty to decide the appeal \"is 'virtually unflagging.' \" Sprint Commc'ns, Inc. v. Jacobs , 571 U.S. 69, 77, 134 S.Ct. 584, 187 L.Ed.2d 505 (2013) (citation omitted).\nIn short, we may review the challenge to the rule change involving Combined Statistical Areas. We see no jurisdictional issues with the rest of the appeal. We thus turn to the merits.\nIII.\nWe review de novo the District Court's rulings on summary judgment. See Loan Syndications & Trading Ass'n v. SEC , 882 F.3d 220, 222 (D.C. Cir. 2018). We review the administrative record and give \"no particular deference\" to the District Court's views. Oceana, Inc. v. Ross , 920 F.3d 855, 860 (D.C. Cir. 2019) (citation omitted).\nThe APA governs this suit. In relevant part, the statute provides that we \"decide all relevant questions of law\" and \"interpret ... statutory provisions.\" 5 U.S.C. \u00a7 706. We ordinarily set aside agency actions that are either \"arbitrary, capricious, an abuse of discretion, or otherwise not in accordance with law,\" id. \u00a7 706(2)(A), or \"in excess of statutory jurisdiction, authority, or limitations, or short of statutory right,\" id. \u00a7 706(2)(C).\nWe review the agency rule in accordance with the familiar Chevron doctrine, a two-prong test for determining whether an agency \"has stayed within the bounds of its statutory authority\" when issuing its action. City of Arlington v. FCC , 569 U.S. 290, 297, 133 S.Ct. 1863, 185 L.Ed.2d 941 (2013) (emphasis omitted). At the first step, we determine \"whether Congress has directly spoken to the precise question at issue,\" and we \"give effect\" to any \"unambiguously expressed intent.\" Chevron , 467 U.S. at 842-43 & n.9, 104 S.Ct. 2778.\nIf we glean no such unambiguous intent, we turn to the second step and determine \"whether the agency's answer\" to the question \"is based on a permissible construction of the statute.\" Id. at 843, 104 S.Ct. 2778. By arriving at the second step, we have concluded that Congress either explicitly or implicitly delegated to the agency the lawmaking authority to clarify the statute. We presume that Congress would not authorize the promulgation of an \"[im]permissible construction.\" Chevron , 467 U.S. at 843, 104 S.Ct. 2778. Accordingly, we will set aside agency actions based on such a construction, because they are either \"not in accordance with law\" or \"in excess of statutory jurisdiction.\" 5 U.S.C. \u00a7 706(2)(A), (C) ; see also CSX Transp., Inc. v. Surface Transp. Bd. , 754 F.3d 1056, 1063 (D.C. Cir. 2014) ; Ass'n of Privacy Sector Colls. & Univs. v. Duncan , 681 F.3d 427, 441 (D.C. Cir. 2012).\nIV.\nFor all three challenges, the first step of the Chevron analysis proceeds in the same way. \"We begin our analysis, as always, with the statutory text.\" Tesoro Alaska Co. v. FERC , 778 F.3d 1034, 1038 (D.C. Cir. 2015). Congress having expressly assigned the NCUA the power to define the challenged terms, see 12 U.S.C. \u00a7 1759(g)(1), we may proceed to Chevron 's second prong without further analysis, see U.S. Telecom Ass'n v. FCC , 825 F.3d 674, 717 (D.C. Cir. 2016) ; Rush Univ. Med. Ctr. v. Burwell , 763 F.3d 754, 760 (7th Cir. 2014) ; Comm'r v. Pepsi-Cola Niagara Bottling Corp. , 399 F.2d 390, 393 (2d Cir. 1968) (Friendly, J.) (\"When Congress has used a general term and has empowered an administrator to define it, the courts must respect his construction if this is within the range of reason.\").\nAn express delegation of definitional power \"necessarily suggests that Congress did not intend the [terms] to be applied in [their] plain meaning sense,\" Women Involved in Farm Econ. v. U.S. Dep't of Agric. , 876 F.2d 994, 1000 (D.C. Cir. 1989), that they are not \"self-defining,\" id. , and that the agency \"enjoy[s] broad discretion\" in how to define them, Lindeen v. SEC , 825 F.3d 646, 653 (D.C. Cir. 2016). In Chevron terms, Congress through explicit language \"has directly spoken to the precise question\" of whether the identified terms must carry certain meanings. 467 U.S. at 842-43, 104 S.Ct. 2778. The answer is no. See Buongiorno v. Sullivan , 912 F.2d 504, 509 (D.C. Cir. 1990) (Thomas, J.) (\"When Congress expressly delegates the authority to fill a gap in a statute, Congress speaks, in effect, directly, and says, succinctly, that it wants the agency to annotate its words.\"). To hold otherwise at the first Chevron step would \"undermine\" the ability of Congress to delegate definitional power. Rush Univ. Med. Ctr. , 763 F.3d at 760.\nConsequently, we turn to whether the NCUA's definitions are \"based on a permissible construction of the statute.\" Chevron , 467 U.S. at 843, 104 S.Ct. 2778.\nV.\nAgency interpretations promulgated to fill an explicit legislative gap \"are given controlling weight unless they are arbitrary, capricious, or manifestly contrary to the statute.\" Chevron , 467 U.S. at 844, 104 S.Ct. 2778 ; see also Pharm. Research & Mfrs. of Am. v. FTC , 790 F.3d 198, 204 (D.C. Cir. 2015).\nUnder arbitrary and capricious review, \"we may not substitute our own judgment for that\" of the agency. FERC v. Elec. Power Supply Ass'n , --- U.S. ----, 136 S. Ct. 760, 782, 193 L.Ed.2d 661 (2016) ; accord Dep't of Commerce v. New York , --- U.S. ----, 139 S. Ct. 2551, 2569, 204 L.Ed.2d 978 (2019). Still, we are \"not a 'rubber stamp,' \" Oceana , 920 F.3d at 863 ; \"the agency must examine the relevant data and articulate a satisfactory explanation for its action,\" Motor Vehicle Mfrs. Ass'n of U.S., Inc. v. State Farm Mut. Auto. Ins. Co. (State Farm ), 463 U.S. 29, 43, 103 S.Ct. 2856, 77 L.Ed.2d 443 (1983). A rule is arbitrary and capricious if (1) the agency \"has relied on factors which Congress has not intended it to consider\"; (2) the agency \"entirely failed to consider an important aspect of the problem\"; (3) the agency's explanation \"runs counter to the evidence before the agency\"; or (4) the explanation \"is so implausible that it could not be ascribed to a difference in view or the product of agency expertise.\" Id.\nIn turn, we assess three definitional changes in the 2016 rule: (1) qualifying Combined Statistical Areas as local communities; (2) eliminating the core requirement for local communities based on Core Based Statistical Areas; and (3) raising the population cap for rural districts. We sustain the first and third amendments in full. As for the second, we hold that it is rationally related to the Act's text and purposes, but that it is insufficiently explained.\nA.\nThe District Court rejected the first change because it approved certain Combined Statistical Areas \"no matter how geographically dispersed and unconnected\" the \"members may be.\" Am. Bankers Ass'n , 306 F. Supp. 3d at 61. To the court, the approval did not fit with the term \"local community,\" which, in its view, \"encompass[es] an area no larger than a county.\" Id. at 58, 61. We respectfully disagree.\nThe NCUA possesses vast discretion to define terms because Congress expressly has given it such power. But the authority is not boundless. The agency must craft a reasonable definition consistent with the Act's text and purposes; that is central to the review we apply at Chevron 's second step. Here, the NCUA's definition meets the standard.\nWe first focus on the text. Congress introduced the phrase \"local community\" in the 1998 amendments. The word \"community\" had a broad scope at the time. It meant not only \"society at large\" but also a \"body of individuals organized into a unit or manifesting usu[ally] with awareness of some unifying trait.\" See Community, WEBSTER'S THIRD INTERNATIONAL DICTIONARY OF THE ENGLISH LANGUAGE UNABRIDGED 460 (1993). The group could be \"united by historical consciousness or ... common social, economic, and political interests.\" Id. But the unifying trait could also be simply \"living in a particular place or region.\" Id.\nThe NCUA has recognized that the modifier \"local\" \"reflects congressional intent that it takes 'a more circumspect and restricted approach to chartering community credit unions.' \" Am. Bankers Ass'n , 271 F.3d at 273 (citation omitted); see also Oral Arg. Recording 3:16-18. Indeed, Congress made clear its intention to \"modif[y]\" the \"current law regarding community credit unions\" by adding the word \"local\" to community. S. REP. NO. 105-193, at 6-7.\nInsertion of the modifier \"local\" before \"community\" implies that the community \"relate[s] to\" a \"particular limited district\" or is \"confined to a particular place.\" Local , WEBSTER'S THIRD INTERNATIONAL DICTIONARY OF THE ENGLISH LANGUAGE UNABRIDGED 1327 (1993). But that place need not be the size of a county, as the District Court held. The Supreme Court has recognized that the geographical areas \"need not be small.\" First Nat'l Bank III , 522 U.S. at 492, 118 S.Ct. 927. And if Congress wanted a local community to correspond to a particular geographical unit, such as a county, \" 'it easily could have written' that limitation explicitly.\" NCUA Br. 25-26 (quoting Ali v. Fed. Bureau of Prisons , 552 U.S. 214, 227, 128 S.Ct. 831, 169 L.Ed.2d 680 (2008) ); see also Credit Union Nat'l Ass'n Amicus Br. 15. The NCUA sensibly reads the term \"local\" to mean simply that the community, regardless of shape or size, should be neither \"broad\" nor \"general.\" Local , SUPRA, at 1327, 132 S.Ct. 2277.\nTo be clear, we do not hold today that the NCUA must consider only bonds and social connections as understood in 1998. The parties agree, and thus we assume, that the NCUA, despite its expressly delegated authority, must adopt a definition consistent with what the term \"local community\" meant in 1998, the time of its adoption.\nAfter consulting state statutes and invoking the canon of noscitur a sociis , the District Court developed a rather size-restrictive meaning for the phrase. See Am. Bankers Ass'n , 306 F. Supp. 3d at 57-59. But we do not think that defining a \"local community\" to refer to an area larger than a county is an unreasonable interpretation of the Act's text.\nWe receive little guidance from the state statutes in effect in 1998. Indeed, some of the statutes considered \"local communities\" to be quite large. See, e.g. , ALASKA STAT. \u00a7 18.66.990(7) (1998) (defining \"local community entity\" as \"a city or borough or other political subdivision of the state, a nonprofit organization, or a combination of these \" (emphasis added)); see also NCUA Br. 25 n.4.\nWe also reject the District Court's invocation of the noscitur a sociis canon. When several terms \"are associated in a context suggesting that [they] have something in common, they should be assigned a permissible meaning that makes them similar.\" ANTONIN SCALIA & BRYAN A. GARNER, READING LAW: THE INTERPRETATION OF LEGAL TEXTS 195 (2012). But the \"substantive connection, or fit, between\" the terms here - local community, neighborhood, and rural district - is \"not so tight or so self-evident.\" Graham Cty. Soil & Water Conservation Dist. v. United States ex rel. Wilson , 559 U.S. 280, 288, 130 S.Ct. 1396, 176 L.Ed.2d 225 (2010). Only the word \"neighborhood\" has a dictionary definition clearly suggesting a region of small size; the phrase \"local community\" does not, as we have explained above, and neither does \"rural district,\" as we explain below. A size restriction would impermissibly \"submerge[ ]\" the independent \"character\" of the latter two terms. Babbitt v. Sweet Home Chapter of Cmtys. for a Great Or. (Sweet Home ), 515 U.S. 687, 702, 115 S.Ct. 2407, 132 L.Ed.2d 597 (1995) (citation omitted).\nThe Association also points to other textual indicators. But contrary to what it suggests, see Am. Bankers Ass'n Br. 27-28, we see nothing in the record suggesting that \"local community\" is a term of art. The Association also says the usage of word \"local\" in two other federal statutes indicates that rules permitting coverage areas of larger than a county would be manifestly contrary to the Act. See id. at 32; see also 15 U.S.C. \u00a7 2203 (1998) (defining \"local\" as \"city, town, county, ... or other political subdivision of a State\"); 18 U.S.C. \u00a7 666 (1998) (same). (The Association pointed to other laws, but they did not exist in 1998. See National Defense Authorization Act for Fiscal Year 2010, Pub. L. No. 111-84, \u00a7 4703(b), 123 Stat. 2190, 2837 (2009); PRIME Act Grants, 66 Fed. Reg. 29,010 (May 29, 2001).) True enough. But the two statutes address materially distinct issues - fire prevention and embezzlement - and thus do not indicate that the term \"local\" must imply a size limitation here. See Envtl. Def. v. Duke Energy Corp. , 549 U.S. 561, 574, 127 S.Ct. 1423, 167 L.Ed.2d 295 (2007) (\"[M]ost words have different shades of meaning and consequently may be variously construed ... in different statutes ....\" (citation omitted)).\nIn addition to being consistent with the Act's text, the Combined Statistical Area definition rationally advances the Act's underlying purposes. In the 1998 amendments, Congress made two relevant findings about purpose. First, legislators found \"essential\" to the credit-union system a \"meaningful affinity and bond among members, manifested by a commonality of routine interaction[;] shared and related work experiences, interests, or activities[;] or the maintenance of an otherwise well-understood sense of cohesion or identity.\" \u00a7 2, 112 Stat. at 914. Second, Congress highlighted the importance of \"credit union safety and soundness,\" because a credit union on firm financial footing \"will enhance the public benefit that citizens receive.\" Id. The legislative history also confirms the importance of common bonds, see S. REP. NO. 73-555, at 2; see also H.R. REP. NO. 105-472, at 12 ; H.R. REP. NO. 73-2021, at 2; 144 CONG. REC. S9094 (daily ed. July 28, 1998) (statement of Sen. Mikulski); id. at S8971-72 (daily ed. July 24, 1998) (statement of Sen. Moseley-Braun), and economic \"integrity,\" S. REP. NO. 105-193, at 3 ; see also 144 CONG. REC. S9094 (statement of Sen. Mikulski); id. at S8972 (statement of Sen. Moseley-Braun), to federal credit unions.\nWe recognize that there may be some tension between the Act's principal purposes: A credit union with exceedingly close ties among its members is unlikely to have a large enough customer base to thrive economically. To the extent that such tension exists, the Act leaves to the NCUA to strike a reasonable balance. Congress was well aware that a viable credit union might serve a relatively large geographical area. See, e.g. , H.R. REP. NO. 73-2021, at 2 (\"[T]here are cases in which communities and organizations cross State lines.\").\nThe NCUA did just that in promulgating the Combined Statistical Area definition. That definition allows for larger community credit unions; the decision is consistent with decades of history promoting the economic viability of credit unions in the face of banks and other competing financial institutions. Nonetheless, the NCUA struck a balance by ensuring that members within the local community maintain somewhat of a commuter relationship with each other. As the Association even acknowledges, commuting patterns \"may sometimes serve as a proxy for community interaction.\" Am. Bankers Ass'n Br. 38 n.25. We see nothing irrational about adopting the factor as a proxy for the common bond contemplated by Congress. Perhaps we would have made a different call had we been the policymakers. Perhaps we would have sought a tighter bond. Or perhaps we would not have prioritized credit-union growth. See Iowa Bankers Ass'n Amicus Br. 24-25. But we must \"refrain from substituting [our] own interstitial lawmaking for that\" of the agency. Household Credit Servs., Inc. v. Pfennig , 541 U.S. 232, 244, 124 S.Ct. 1741, 158 L.Ed.2d 450 (2004) (citation omitted).\nThe NCUA also reasonably explained its amendment to the \"local community\" definition. To begin with, the agency reasonably circumscribed the size of a local community under the Combined Statistical Area rule by imposing a 2.5 million-person population limit. Used by the OMB in analogous circumstances, the cap is a \"logical breaking point in terms of community cohesiveness with respect to a multijurisdictional area.\" Chartering and Field of Membership for Federal Credit Unions, 75 Fed. Reg. 36,257, 36,259 (June 25, 2010). Moreover, the NCUA reasonably relied on its prior experience with Core Based Statistical Areas, which no party disputes can serve as local communities under the Act. The agency noted that the average geographic size of Combined Statistical Areas with populations of up to 2.5 million people is 4,553 square miles, and that the average size of the Core Based Statistical Areas approved by the NCUA as local communities is 4,572 square miles. See 81 Fed. Reg. at 88,414 -15. Given that similarity in size, the NCUA reasonably considered adopted its population-limited Combined Statistical Areas standard.\nFinally, the NCUA's definition does not readily create general, widely dispersed regions. Cf. First Nat'l Bank III , 522 U.S. at 502, 118 S.Ct. 927 (indicating that community credit unions may not be \"composed of members from an unlimited number of unrelated geographical units\"). Combined Statistical Areas are geographical units well-accepted within the government. See 81 Fed. Reg. at 88,414. Because they essentially are regional hubs, the Combined Statistical Areas concentrate around central locations. The OMB carved out the areas so that their constituent parts share commuting ties and they reflect \"broader social and economic interactions.\" OFFICE OF MGMT. & BUDGET, SUPRA , at app. 2-3. The NCUA rationally believed that such \"real-world interconnections\" would qualify as the type of mutual bonds suggested by the term \"local community.\" Credit Union Nat'l Ass'n Amicus Br. 9. Thus, the agency reasonably determined that Combined Statistical Areas \"simply unif[y], as a single community,\" already connected neighboring regions. See 81 Fed. Reg. at 88,415.\nThe Association raises a potpourri of objections to the NCUA's decision-making. See Am. Bankers Ass'n Br. 33-48. Virtually all of its gripes are forfeited because it failed first to raise them to the agency, see, e.g. , Koretoff v. Vilsack , 707 F.3d 394, 397-98 (D.C. Cir. 2013) (per curiam), or lack merit because they involve outdated \"local community\" definitions, which either did not allow for the qualification of certain geographical areas as local communities or lacked a population cap of 2.5 million people.\nBut one of the complaints is \"deserving of sustained consideration.\" Ortiz v. United States , --- U.S. ----, 138 S. Ct. 2165, 2173, 201 L.Ed.2d 601 (2018). The Association contends that some large Combined Statistical Areas are so sprawling that the NCUA's definition, which treats a 2.5-million-person portion of them as a local community, must be unreasonable. Recall that a Combined Statistical Area is a regional hub with more than one urban center. Under the OMB's technical specifications, each center need not be connected to every other by commuting ties; rather, each need only have ties to one other center within the hub. As the Association colorfully puts it, the OMB may designate as a Combined Statistical Area a mere \"daisy chain\" of urban centers \"that are linked to their neighbors but have nothing to with those at the other end of the chain.\" See Am. Bankers Ass'n Br. 36 (citation omitted). Theoretically, the Association continues, certain 2.5-million-person communities might bring together parts of different urban centers with no connection with one another. The Association also suggests that the rule might permit local communities comprising non-contiguous portions of a Combined Statistical Area. See id. at 39.\nWe understand the Association's argument to be attacking the Combined Statistical Area definition as unreasonable. To the Association, the NCUA failed sufficiently to consider the potential for the rule to create unreasonable results. One hypothetical application disturbed the District Court here: the prospect that, within the Combined Statistical Area including the District of Columbia and counties from three states (Maryland, Pennsylvania, and Virginia), one could create a local community bringing together Doylesburg, Pennsylvania, and Partlow, Virginia, towns located 200 miles apart. See Am. Bankers Ass'n , 306 F. Supp. 3d at 59-60.\nWe might well agree with the District Court that the approval of such a geographical area would contravene the Act. But even so, the Association would need much more to mount its facial pre-enforcement challenge in this case. As the Supreme Court repeatedly has held, \"the fact that petitioner can point to a hypothetical case in which the rule might lead to an arbitrary result does not render the rule\" facially invalid.\nAm. Hosp. Ass'n v. NLRB , 499 U.S. 606, 619, 111 S.Ct. 1539, 113 L.Ed.2d 675 (1991) ; see also EPA v. EME Homer City Generation, L.P. (EME Homer ), 572 U.S. 489, 524, 134 S.Ct. 1584, 188 L.Ed.2d 775 (2014) (\"The possibility that the rule, in uncommon particular applications, might exceed [the agency]'s statutory authority does not warrant judicial condemnation of the rule in its entirety.\"); INS v. Nat'l Ctr. for Immigrants' Rights, Inc. , 502 U.S. 183, 188, 112 S.Ct. 551, 116 L.Ed.2d 546 (1991) (\"That the regulation may be invalid as applied in s[ome] cases ... does not mean that the regulation is facially invalid because it is without statutory authority.\"); cf. Barnhart v. Thomas , 540 U.S. 20, 29, 124 S.Ct. 376, 157 L.Ed.2d 333 (2003) (\"Virtually every legal (or other) rule has imperfect applications in particular circumstances.\").\nHere, the Association's complaint and the District Court's accompanying worry strike us as too conjectural. The NCUA must assess the \"economic advisability of establishing\" the proposed credit union before approving it, 12 U.S.C. \u00a7 1754, and as part of the assessment, the organizers must propose a \"realistic\" business plan showing how the institution and its branches would serve all members in the local community, see 12 C.F.R. pt. 701, app. B, ch. 1 \u00a7 IV.D. The Association has failed to demonstrate the plausibility of a local community that is defined like the hypothetical narrow, multi-state strip and accompanies a realistic business plan. And if the agency were to receive and approve such an application, a petitioner can make an as-applied challenge. See, e.g. , EME Homer , 572 U.S. at 523-24, 134 S.Ct. 1584 ; Buongiorno , 912 F.2d at 510. The Association has succeeded in such challenges in the past. See, e.g. , Am. Bankers Ass'n v. NCUA , No. 1:05-CV-2247, 2008 WL 2857678, at *1 (M.D. Pa. July 21, 2008) ; Am. Bankers Ass'n v. NCUA , 347 F. Supp. 2d 1061, 1074 (D. Utah 2004). Thus, we reject the facial attack on the amended \"local community\" definition involving Combined Statistical Areas.\nB.\nWe turn to the next rule change. The District Court upheld the eliminated core requirement for a local community based on a Core Based Statistical Area. The court acknowledged that defining a local community without its urban core \"does not alter the ... common bond\" shared by the members in the remainder. Am. Bankers Ass'n , 306 F. Supp. 3d at 62-63. Meanwhile, the court accepted the agency's response to the claim that the new definition encouraged redlining - a broad category of lending practices with negative impact on \"areas where low-income and minority populations are concentrated.\" Id. at 65 (quoting 81 Fed. Reg. at 88,413 ).\nLike the District Court, we hold that the eliminated core requirement is consistent with the Act's text and purposes. Still, we see merit in the Association's redlining argument and thus hold the definitional change to be arbitrary and capricious.\n1.\nWe will sustain the eliminated core requirement if it reflects a reasonable interpretation of \"local community\" that is rationally related to the dual purposes of promoting credit-union growth and ensuring some cohesion among members. It does. Omission of the urban core from proposed geographical area will permit community credit unions to reach new members in the suburban parts of the Core Based Statistical Area and thus to maintain a healthy membership. Because the suburbs under the OMB's definition have substantial commuting ties to the urban cluster, they all will be \"within a feasible commuting radius\" and thus \"share[ ]\nat least some geographic ties.\" Am. Bankers Ass'n , 306 F. Supp. 3d at 64. Those bonds do not disappear if the local community lacks the core. The Association seeks greater \"assurance[s]\" of a meaningful bond among members, Am. Bankers Ass'n Br. 66-67; see also Am. Bankers Ass'n Reply 11, but we do not replace the agency's policy judgment with ours.\nWe also do not believe that the eliminated core requirement would create sprawling, boundless geographical regions. No one disputes that, as a general matter, a membership area comprising an intact Core Based Statistical Area will satisfy any definition of \"local community.\" If the local community with the core poses no problem, we fail to see how a local community without one would. And even as to Core Based Statistical Areas that do not qualify as local communities (because they have populations of more than 2.5 million), the geographical ties ensure that the proposed membership area will still be contained within the boundaries of a single, well-recognized metropolitan region. A single region is not what concerned the Supreme Court in First National Bank III . See 522 U.S. at 502, 118 S.Ct. 927.\nThe Association objects to the expansive hypothetical membership fields, highlighting two Core Based Statistical Areas whose populations exceed the NCUA's cap of 2.5 million. The Association asserts that the rule change \"makes it much easier to unite far-distant edges\" of those sprawling areas in a single membership area. Am. Bankers Ass'n Reply 9. Fair point. But economic realities do not make it plausible that organizers would propose such a local community or that the NCUA would approve it. Like the Combined Statistical Area definition, the eliminated core requirement does not become facially infirm because of farfetched hypotheticals. To the extent they occur in the future, troublesome rule applications might be subject to as-applied challenges. See Am. Bankers Ass'n , 271 F.3d at 267.\n2\nDespite the eliminated core requirement's consistency with the Act, we cannot sustain the definitional change because the NCUA has not adequately explained it.\nThe Association contends that the rule change \"effectively allows credit unions to engage in 'redlining' by denying service to urban areas with large numbers of minority and lower-income residents.\" Am. Bankers Ass'n Br. 65. The NCUA attempted to address this concern in the preamble. At first blush, the agency's statements appear persuasive. Still, the Association persuasively argues that the response fails to \"consider an important aspect\" of the redlining issue or is otherwise \"so implausible\" as to be unreasonable. State Farm , 463 U.S. at 43, 103 S.Ct. 2856. Thus, the eliminated core requirement is arbitrary and capricious.\nDuring the notice-and-comment proceedings, the Association warned against redlining and objected that community credit unions could now \"serv[e] wealthier suburban counties and exclud[e] markets containing low-income and minority communities that reside in the core area.\" Letter from James Chessen, Exec. Vice President & Chief Economist, Am. Bankers Ass'n, to Gerard S. Poliquin, Sec'y of the Board, Nat'l Credit Union Admin. (Feb 5, 2016), Am. Bankers Ass'n v. NCUA , No. 1:16-cv-02394-DLF (D.D.C. filed Aug. 23, 2017), ECF No. 26-1 at 228. Fairly read, the Association's objection is not to traditional redlining, which encompasses the refusal to make loans in low-income or minority neighborhoods within a service area, see Baradaran, supra , at 494; see also Cassity, supra , at 348, 355. Federal credit unions \"cannot 'redline' \" in the traditional sense because \"everyone in a credit union's 'community' is a member who is eligible to take advantage of credit union services\" and credit unions \"by definition cannot reach beyond their member communities to offer credit to the general public.\" Cassity, supra , at 355. But a community credit union can engage in more unconventional redlining practices: \"gerrymander[ing] to create its own community of exclusively higher-income members.\" Id. at 359. We think it evident that the Association was focusing on such gerrymandering.\nIn response, the NCUA acknowledged that it originally kept the core requirement as a benefit to \"low-income and underserved populations.\" 81 Fed. Reg. at 88,413. Some commenters criticized the core requirement as failing to achieve that goal; it caused community credit unions \"to sacrifice service to other areas\" within the Core Based Statistical Area, id. , and such service arguably could benefit poor and minority customers residing outside the core, see id. at 88,414 (remarking on the importance of credit unions \"providing financial services to low income and underserved populations without regard to where they are located within a community, i.e. , beyond its 'core area' \").\nStill, the agency dismissed the redlining concern on other grounds, pointing to its \"supervisory process to assess [credit-union] management's efforts to offer service to the entire community [the credit union] seeks to serve.\" Id. The NCUA focused on two aspects of its process. First, the agency touted its \"annual evaluation,\" which \"encompasses [the credit union]'s implementation of its business and marketing plans.\" Id. Citing its \"[e]xperience\" as support, the agency identified the evaluation as a \"more effective means\" than a core requirement to \"ensur[e] that the low-income and underserved populations are fairly served.\" Id. Indeed, prior evaluations confirm that the agency has had \"success in providing financial services to low-income and underserved populations without regard to where they are located within\" the membership area. Id. at 88,414. Second, the NCUA noted its \"mandate to consider member complaints alleging discriminatory practices affecting low-income and underserved populations, such as redlining, and to respond as necessary when such practices are shown to exist.\" Id.\nBoth aspects of the NCUA's supervisory process fail to address the redlining issue raised by the Association. The annual evaluation process might be an adequate response to traditional redlining, because it might ensure that community credit unions adequately serve poor and minority residents living in their local communities. But we do not see how it fixes gerrymandering or the potential discriminatory economic impact on urban residents. See State Farm , 463 U.S. at 43, 103 S.Ct. 2856 (requiring the agency to consider relevant factors). The annual evaluation process necessarily does not come into effect until the NCUA already has approved the charter, business plan, and proposed local community. See Iowa Bankers Ass'n Amicus Br. 12. And nothing in the record suggests that business plans may focus on residents residing outside the finalized membership area; in fact, the law forbids federal credit unions from serving those residents.\nThe complaint process also does not work in the gerrymandering context. As the preamble points out, complaints are raised by the membership, which would not include the affected urban residents because of the rule change. It seems quite implausible, absent some contrary evidence the agency failed to detail, that members will file grievances based on gerrymandering harms suffered by residents outside the coverage area. See State Farm , 463 U.S. at 43, 103 S.Ct. 2856 (rejecting implausible explanations).\nThe NCUA attempts to defend the rule change by offering a buffet of other potential rationales in its briefing and at oral argument. They all fail because the agency did not adopt them when promulgating the rule change. See State Farm , 463 U.S. at 43, 103 S.Ct. 2856 (noting that courts may not \"supply a reasoned basis for the agency's action that the agency itself has not given\" (quoting SEC v. Chenery Corp. , 332 U.S. 194, 196, 67 S.Ct. 1760, 91 L.Ed. 1995 (1947) )). We pause, though, to caution the NCUA about two proffered reasons. At oral argument, the government counsel suggested that the agency may reject proposed local communities if it suspects they discriminate against residents in the urban core. See Oral Arg. Recording 5:28-49, 13:43-14:09. But current reviewing guidelines do not indicate that the agency looks for such discrimination. See 12 C.F.R. pt. 701, app. B, ch. 1 \u00a7 VII.A. And the NCUA made the opposite representations to the District Court. See Transcript of Motion Hearing at 48:23-49:7 (\"[District Court]: ... If a credit union comes to the agency and says I want to serve X area, either in a rural district or a combined statistical area, and they meet the definition, the agency has no authority to reject that application, as long as the credit union can demonstrate that they can serve the area? [NCUA]: ... I think that's probably right, your Honor.\"), Am. Bankers Ass'n v. NCUA , No. 1:16-cv-02394-DLF (D.D.C. filed Mar. 27, 2018), ECF No. 33. The government counsel also suggested that community credit unions already cover the vast majority of urban cores. See Oral Arg. Recording 8:10-22, 12:30-41; see also id. at 7:39-8:01; cf. NCUA Reply 27-28. Perhaps, but the current record does not support the assertion.\nC.\nFinally, the District Court rejected the increased population cap for rural districts. The court worried that a rural district satisfying the new, higher limit could be too large or could contain \"numerous urban centers.\" Am. Bankers Ass'n , 306 F. Supp. 3d at 69. Because the rule qualified certain districts \"no matter [their] geographic size or the number or size of metropolitan areas falling within [their] proposed boundaries,\" the court held that the NCUA's new definition is unreasonable. Id. at 69-70. But in our view, the new \"rural district\" definition is reasonable.\nAs suggested above, we assume that the NCUA must adopt definitions consistent with the statutory terms as understood in 1934, not today. The terms \"rural\" and \"district\" do not connote specific population or geographical constraints. See First Nat'l Bank III , 522 U.S. at 492, 118 S.Ct. 927 (noting that markets \"need not be small\"). A \"district\" means a \"portion of a state, county, country , town, or city ... made for administrative, electoral, or other purposes.\" District , WEBSTER'S NEW INTERNATIONAL DICTIONARY OF THE ENGLISH LANGUAGE 649 (2d ed. 1934) (emphasis added). The district may be \"of undefined extent.\" Id. Meanwhile, \"rural\" indicates a \"country\" or \"agricultur[al]\" lifestyle, as opposed to that of a \"city or town.\" Rural , WEBSTER'S NEW INTERNATIONAL DICTIONARY OF THE ENGLISH LANGUAGE 1861 (2d ed. 1934). \"Rural\" lands generally \"resembl[e]\" the \"country[side].\" Id.\nNothing about the 1-million-person cap prevents the rural district from resembling the countryside. And one of the unchallenged restrictions helps provide a rural character to such districts. Either most residents in the proposed district live on rural land, or the population density is 100 or fewer people per square mile. See 81 Fed. Reg. at 88,440. Accordingly, even if most residents live on urban areas in the rural district, those areas will be surrounded by rural land. That's because 100 people per square mile - or one person for every six or so acres - is a rural population density.\nAs for size, the contemporaneous definition of \"district\" reassures us that rural districts may cross state lines. And a second unchallenged restriction assures that the 1-million-person cap will not support gigantic or straggly rural districts. As the rule explains, the boundaries of a community credit union's district may not \"exceed the outer boundaries of the states\" immediately surrounding the state where the proposed credit union would have its headquarters. 81 Fed. Reg. at 88,440. Thus, even though the population density of the entire United States is less than 100 people per square mile, see NCUA Br. 56 n.44; Oral Arg. Recording 39:34-38, the geographical limitation forces a rural district to be much smaller. We are confident that such districts will not be so enormous as to amount to federations of \"unrelated geographic units.\" See First Nat'l Bank III , 522 U.S. at 502, 118 S.Ct. 927.\nIn arguing that the amended \"rural district\" definition is unreasonable, the Association relies heavily on the interpretive analysis performed by the District Court. See Am. Bankers Ass'n , 306 F. Supp. 3d at 67-69. The court's core contention is that we must construe \"rural\" and \"district\" together as a specialized phrase that meant, in 1934, an \"area[ ] much smaller than a state.\" Id. at 68. For support, the District Court not only consulted two 1934-era dictionaries, results of a Westlaw search of contemporaneous opinions, and a database containing historical uses of the phrase, but also invoked the noscitur a sociis canon. See id. at 67-69.\nThe proffered definitional evidence is pretty thin. The 1934-era dictionaries described what the specialized phrase \"rural district\" meant in Great Britain , not in the much larger and more expansive United States, which by the 1930s encompassed forty-eight continental states. See, e.g. , Rural District , WEBSTER'S NEW INTERNATIONAL DICTIONARY OF THE ENGLISH LANGUAGE 1861 (1934) (\"in England, a subdivision of an administrative county embracing ... county parishes\").\nThe proffered Westlaw search results included scores of federal and state judicial and administrative opinions. See Plaintiff's Supplemental Memorandum app. 6, Am. Bankers Ass'n v. NCUA , No. 1:16-cv-02394-DLF (D.D.C. filed Mar. 16, 2018), ECF No. 32-6. But we find little of use in those documents. Many of those opinions do not discuss size or population. See, e.g. , Nicolai v. Wis. Power & Light Co. , 222 Wis. 605, 269 N.W. 281, 282-83 (1936). Those that do involve specific rural districts whose sizes were between a town and a state. See, e.g. , Sarther Grocery Co. v Comm'r , 22 B.T.A. 1273, 1274 (1931). But none declares that rural districts by definition are restricted to any particular size or population.\nThe District Court next turned to the Corpus of Historical American Usage, a free and public online database. See Am. Bankers Ass'n , 306 F. Supp. 3d at 68 & n.5. The database notes 197 mentions of the phrase in the first half of the twentieth century and only 37 in the second. See Search Results for RURAL DISTRICTS and RURAL DISTRICT, CORPUS OF HISTORICAL AMERICAN ENGLISH , https://www.english-corpora.org/coha/ (follow \"List\" hyperlink; then search matching strings field for \"RURAL DISTRICT\"). The perceived drop-off led the District Court to determine that, \"even if rural district does not carry meaning distinct from its individual words today, it did in 1934.\" Am. Bankers Ass'n , 306 F. Supp. 3d at 68.\nAlthough federal courts may use \"crude[ ]\" searches on databases to learn of ambiguities in a statutory term, Muscarello v. United States , 524 U.S. 125, 129-30, 118 S.Ct. 1911, 141 L.Ed.2d 111 (1998), the search here did not suffice to show that the agency's definition was unreasonable. Much more is required to cabin the agency's discretion. A search of a commercial database, ProQuest, reveals that the phrase appeared at least 500 times in the second half of the century. We are not confident that the proffered evidence establishes a particular historical trend.\nThe District Court lastly invoked noscitur a sociis . See Am. Bankers Ass'n , 306 F. Supp. 3d at 68-69. The canon is inapposite. Recall that the term \"rural district\" was listed with \"community,\" not \"local community,\" in 1934. At the time, \"community\" could refer to \"[s]ociety at large\" or a \"commonwealth or state.\" Community , WEBSTER'S NEW INTERNATIONAL DICTIONARY OF THE ENGLISH LANGUAGE 452 (1934). Indeed, we said that the word is \"too indefinite to be used for purposes of exact measurement in terms of acres or square miles.\" Lukens Steel Co. v. Perkins , 107 F.2d 627, 631 (D.C. Cir. 1939), rev'd sub nom. , Perkins v. Lukens Steel Co. , 310 U.S. 113, 60 S.Ct. 869, 84 L.Ed. 1108 (1940). Thus, we do not see size or population as a connection between the terms.\nThe increased population cap is consistent with not only the Act's text but also its purposes. For instance, as the preamble noted, the expanded definition allows community credit unions in rural districts to reach more \"persons of modest means who may reside\" in those areas. 81 Fed. Reg. at 88,416 ; see also \u00a7 2(1), (2), 112 Stat. at 913.\nAnd the change is neither arbitrary nor capricious. The new rule explains that it provides a \"level of operating efficiencies and scale\" making rural districts attractive options for prospective credit unions. 81 Fed. Reg. at 88,416. \"[A] sufficiently large population base is essential to enable\" them \"to offer financial services economically.\" Id. at 88,417. The NCUA also chose the 1-million figure based on prior experience. The agency noted that it had approved of eight districts with populations of more than 250,000, and that one of them already had exceeded 1 million. See id. \"Having set a 1 million precedent in one state,\" the agency felt justified in having a \"fixed 1 million population cap for the other 49 states.\" Id. (emphasis added). We cannot say this policy choice lacks rational explanation.\nThe Association says the NCUA failed to consider prior agency decisions. See Am. Bankers Ass'n Br. 61. But we see no discrepancy and thus summarily reject the objection. The Association also turns to troubling hypothetical examples of rural districts with unruly shapes and those with dense urban areas such as Denver, Colorado. See NCUA Br. 55-61; Oral Arg. Recording 37:55-38:05. Again, such implausible outliers do not impugn the rule's general reasonableness.\nVI.\nWe now consider the remedy. To sum up, we hold that defining certain Combined Statistical Areas or portions of them as local communities and raising the population cap for rural districts are consistent with the Act and reasonably explained. Thus, we sustain both aspects of the challenged rule. We also leave undisturbed the portion of the District Court's opinion that the parties do not contest on appeal.\nBut we deem the eliminated core requirement to be arbitrary and capricious. When a rule is contrary to law, the \"ordinary practice is to vacate\" it.\nUnited Steel v. Mine Safety & Health Admin. , 925 F.3d 1279, 1287 (D.C. Cir. 2019) ; see also 5 U.S.C. \u00a7 706(2) (noting that the \"reviewing court shall ... set aside\" unlawful agency action). But in \"rare cases,\" we will opt instead to remand without vacating the rule, so that the agency can \"correct its errors.\" United Steel , 925 F.3d at 1287 ; see also 5 U.S.C. \u00a7 702 (\"Nothing herein ... affects ... the power or duty of the court to ... deny relief on any ... appropriate ... equitable ground ....\"); Oglala Sioux Tribe v. U.S. Nuclear Regulatory Comm'n , 896 F.3d 520, 536 (D.C. Cir. 2018). In considering whether to adopt the latter equitable remedy, we balance \"(1) the seriousness of the deficiencies of the action, that is, how likely it is the agency will be able to justify its decision on remand; and (2) the disruptive consequences of vacatur.\" United Steel , 925 F.3d at 1287 (citation omitted). A strong showing of one factor may obviate the need to find a similar showing of the other. See, e.g. , Fox Television Stations, Inc. v. FCC , 280 F.3d 1027, 1049 (D.C. Cir. 2002) (holding that, because the agency likely could justify its action on remand, the potential for disruption was \"only barely relevant\"); Allied-Signal, Inc. v. U.S. Nuclear Regulatory Comm'n , 988 F.2d 146, 152 (D.C. Cir. 1993) (determining that, because vacatur would give regulated parties a \"peculiar windfall,\" the meager chance of justifying the action was given \"little weight\" in the remedial analysis).\nThe NCUA has not requested remand without vacatur in this case. But because we have a \"duty\" to ensure the propriety of the APA remedy, 5 U.S.C. \u00a7 702, we hold that we have the discretion to raise the issue sua sponte , cf. Igonia v. Califano , 568 F.2d 1383, 1387 (D.C. Cir. 1977) ; Gaddis v. Dixie Realty Co. , 420 F.2d 245, 247 (D.C. Cir. 1969) (per curiam). Remand without vacatur is appropriate here.\nWe conclude that the NCUA might be able to offer a satisfactory reason on remand. And as for disruptive effect, we perceive a substantial likelihood that vacating the rule could make it more difficult for some poor and minority suburban residents to receive adequate financial services. Even temporarily depriving these members of the opportunity is inequitable, because it would \"set back\" the Act's objective of offering financial services to people of small means. See Nat'l Res. Def. Council v. EPA , 489 F.3d 1364, 1374 (D.C. Cir. 2007) ; see also Advocates for Highway & Auto Safety v. Fed. Motor Carrier Safety Admin. , 429 F.3d 1136, 1152 (D.C. Cir. 2005) (declining to vacate rule because, in the interim, it \"may do some good, if it does anything at all\").\nGiven the potential for sufficient justification and the substantial likelihood of disruptive effect, we have a rare case in which vacatur is inappropriate. See United Steel , 925 F.3d at 1287. Thus, we remand without vacating the relevant part of the 2016 rule. We trust that the agency will act expeditiously. See EME Homer City Generation, L.P. v. EPA , 795 F.3d 118, 132 (D.C. Cir. 2015).\n* * *\nIn short, we reverse the challenged portions of the District Court's summary judgment order. With respect to the qualification of certain Combined Statistical Areas as local communities and the increased population cap for rural districts, we direct the District Court to issue summary judgment in favor of the NCUA. As to the elimination of the urban-core requirement for local communities based on Core Based Statistical Areas, we direct the District Court to issue summary judgment in favor of the Association and to remand, without vacating, the relevant portion of the 2016 rule for further explanation.\nSo ordered.",
+        "type": "majority",
+        "author": "Wilkins, Circuit Judge:"
+      }
+    ],
+    "attorneys": [
+      "Daniel Aguilar, Attorney, U.S. Department of Justice, argued the cause for Appellant-Cross-Appellee. With him on the briefs was Mark B. Stern, Attorney.",
+      "Allison Jones Rushing, was on the brief for amici curiae Credit Union National Association, et al. in support of Appellant-Cross-Appellee. Nicholas G. Gamse, Washington, DC, entered an appearance.",
+      "Steven D. Gordon, Washington, DC, was on the brief for amici curiae State Bankers Associations in support Appellee-Cross-Appellant American Bankers Association.",
+      "Robert A. Long Jr., Washington, DC, argued the cause for Appellee-Cross-Appellant. With him on the briefs were Andrew J. Soukup, Philip Levitz, and Lauren Moxley, Washington, DC."
+    ],
+    "corrections": "",
+    "head_matter": "AMERICAN BANKERS ASSOCIATION, Appellee\nv.\nNATIONAL CREDIT UNION ADMINISTRATION, Appellant\nNo. 18-5154\nC/w 18-5181\nUnited States Court of Appeals, District of Columbia Circuit.\nArgued April 16, 2019\nDecided August 20, 2019\nDaniel Aguilar, Attorney, U.S. Department of Justice, argued the cause for Appellant-Cross-Appellee. With him on the briefs was Mark B. Stern, Attorney.\nAllison Jones Rushing, was on the brief for amici curiae Credit Union National Association, et al. in support of Appellant-Cross-Appellee. Nicholas G. Gamse, Washington, DC, entered an appearance.\nSteven D. Gordon, Washington, DC, was on the brief for amici curiae State Bankers Associations in support Appellee-Cross-Appellant American Bankers Association.\nRobert A. Long Jr., Washington, DC, argued the cause for Appellee-Cross-Appellant. With him on the briefs were Andrew J. Soukup, Philip Levitz, and Lauren Moxley, Washington, DC.\nBefore: Henderson, Pillard, and Wilkins, Circuit Judges."
+  },
+  "file_name": "0649-01",
+  "first_page_order": 649,
+  "last_page_order": 675
+}

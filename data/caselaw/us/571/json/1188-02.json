@@ -1,0 +1,85 @@
+{
+  "id": 12701212,
+  "name": "Doyle Randall PAROLINE, petitioner, v. UNITED STATES, et al.",
+  "name_abbreviation": "Paroline v. United States",
+  "decision_date": "2014-02-21",
+  "docket_number": "No. 12\u20138561.",
+  "first_page": "1188",
+  "last_page": "1188",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 1188"
+    },
+    {
+      "type": "parallel",
+      "cite": "188 L. Ed. 2d 145"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 1157"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "134 S.Ct. 881",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12585952,
+        12701986
+      ],
+      "weight": 2,
+      "year": 2014,
+      "opinion_index": -1,
+      "case_paths": [
+        "/s-ct/134/0881-01",
+        "/us/571/0204-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 63,
+    "char_count": 468,
+    "sha256": "a4a0a2e3c7f912b8d5980e139cf428f33286afe6d43774f7e88a95392ee51199",
+    "simhash": "1:9ba5559617867618",
+    "word_count": 77
+  },
+  "last_updated": "2024-02-27T18:46:20.843173+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Doyle Randall PAROLINE, petitioner,\nv.\nUNITED STATES, et al."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Motion of respondent Amy Unknown for leave to file a supplemental brief after argument granted. Other parties may file supplemental briefs, not to exceed 3,000 words each, addressing the effect of our decision in Burrage v. United States, 571 U.S. ----, 134 S.Ct. 881, 187 L.Ed.2d 715 (2014), on this case, on or before Friday, March 7, 2014."
+    ],
+    "corrections": "",
+    "head_matter": "Doyle Randall PAROLINE, petitioner,\nv.\nUNITED STATES, et al.\nNo. 12-8561.\nSupreme Court of the United States\nFeb. 21, 2014.\nMotion of respondent Amy Unknown for leave to file a supplemental brief after argument granted. Other parties may file supplemental briefs, not to exceed 3,000 words each, addressing the effect of our decision in Burrage v. United States, 571 U.S. ----, 134 S.Ct. 881, 187 L.Ed.2d 715 (2014), on this case, on or before Friday, March 7, 2014."
+  },
+  "file_name": "1188-02",
+  "first_page_order": 1188,
+  "last_page_order": 1188
+}

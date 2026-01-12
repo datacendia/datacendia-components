@@ -1,0 +1,59 @@
+{
+  "id": 5962741,
+  "name": "Messerly v. United States",
+  "name_abbreviation": "Messerly v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5831",
+  "first_page": "939",
+  "last_page": "939",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 939"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.673,
+    "sha256": "9edb274348323fa41bc6f7d5e7465162a428347db7b1b820654c2d66db64ff1f",
+    "simhash": "1:14bbe2800fb9e13e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Messerly v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5831.\nMesserly v. United States."
+  },
+  "file_name": "0939-01",
+  "first_page_order": 961,
+  "last_page_order": 961
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12415127,
+  "name": "Rodrigues v. United States",
+  "name_abbreviation": "Rodrigues v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-155",
+  "first_page": "888",
+  "last_page": "888",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 888"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.695,
+    "sha256": "481ac5b440079b86739115518e7ecf46bcc9732646a491843f7e35bed7f9a57a",
+    "simhash": "1:d483e7052b87114e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rodrigues v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-155.\nRodrigues v. United States."
+  },
+  "file_name": "0888-10",
+  "first_page_order": 964,
+  "last_page_order": 964
+}

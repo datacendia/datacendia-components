@@ -1,0 +1,59 @@
+{
+  "id": 12241936,
+  "name": "Diaz-Maldonado v. United States",
+  "name_abbreviation": "Diaz-Maldonado v. United States",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-7655",
+  "first_page": "1137",
+  "last_page": "1137",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1137"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 81,
+    "ocr_confidence": 0.637,
+    "sha256": "e62e9104c5da116db82473ab295e3782cdfbe644793e3282d99787dc3aabb3eb",
+    "simhash": "1:94090a2283c9909a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Diaz-Maldonado v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7655.\nDiaz-Maldonado v. United States."
+  },
+  "file_name": "1137-06",
+  "first_page_order": 1219,
+  "last_page_order": 1219
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12431826,
+  "name": "Tho Minh Chau v. Massachusetts",
+  "name_abbreviation": "Tho Minh Chau v. Massachusetts",
+  "decision_date": "2013-02-25",
+  "docket_number": "No. 11-1473",
+  "first_page": "1192",
+  "last_page": "1192",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1192"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.633,
+    "sha256": "fcb00c0f2e736bca6592faf00a1ca41bd9299454562caba46849df4d4922deda",
+    "simhash": "1:9935ac76a3f8ba3c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Tho Minh Chau v. Massachusetts."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Mass. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1473.\nTho Minh Chau v. Massachusetts."
+  },
+  "file_name": "1192-05",
+  "first_page_order": 1268,
+  "last_page_order": 1268
+}

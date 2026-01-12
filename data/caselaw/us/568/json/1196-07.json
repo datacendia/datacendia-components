@@ -1,0 +1,59 @@
+{
+  "id": 12431995,
+  "name": "Batista v. United States",
+  "name_abbreviation": "Batista v. United States",
+  "decision_date": "2013-02-25",
+  "docket_number": "No. 12-6972",
+  "first_page": "1196",
+  "last_page": "1196",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1196"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.598,
+    "sha256": "1cda7a59081813e1cb366ded0aef61866dec49678cbf68afeef087e416965ab0",
+    "simhash": "1:4dc22b8aca151358",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Batista v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6972.\nBatista v. United States."
+  },
+  "file_name": "1196-07",
+  "first_page_order": 1272,
+  "last_page_order": 1272
+}

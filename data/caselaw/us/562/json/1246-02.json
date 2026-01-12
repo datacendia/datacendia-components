@@ -1,0 +1,59 @@
+{
+  "id": 6014498,
+  "name": "Tillman v. United States",
+  "name_abbreviation": "Tillman v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8466",
+  "first_page": "1246",
+  "last_page": "1246",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1246"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.61,
+    "sha256": "bf09e2d75e553bae0dcd23df89bd39a46342fdf57540d4fa40b6ce99b6b0ec35",
+    "simhash": "1:c6aab2826ebf1808",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Tillman v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8466.\nTillman v. United States."
+  },
+  "file_name": "1246-02",
+  "first_page_order": 1268,
+  "last_page_order": 1268
+}

@@ -1,0 +1,68 @@
+{
+  "id": 12700296,
+  "name": "In re Janet MARCUSSE, petitioner.",
+  "name_abbreviation": "In re Marcusse",
+  "decision_date": "2014-01-13",
+  "docket_number": "No. 13\u20137452.",
+  "first_page": "1124",
+  "last_page": "1124",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 1124"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 837"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 951"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 40,
+    "char_count": 320,
+    "sha256": "9269364cd9bf23dd8aa8819be289e77b0040694ac2b4df6c02d8f6a7154ca004",
+    "simhash": "1:4b87f856813286da",
+    "word_count": 53
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Janet MARCUSSE, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Motion of petitioner for leave to proceed in forma pauperis denied, and petition for writ of mandamus dismissed. See Rule 39.8."
+    ],
+    "corrections": "",
+    "head_matter": "In re Janet MARCUSSE, petitioner.\nNo. 13-7452.\nSupreme Court of the United States\nJan. 13, 2014.\nMotion of petitioner for leave to proceed in forma pauperis denied, and petition for writ of mandamus dismissed. See Rule 39.8.\nJustice KAGAN took no part in the consideration or decision of this motion and this petition."
+  },
+  "file_name": "1124-02",
+  "first_page_order": 1124,
+  "last_page_order": 1124
+}

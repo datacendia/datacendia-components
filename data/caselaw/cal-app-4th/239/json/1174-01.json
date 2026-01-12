@@ -1,0 +1,906 @@
+{
+  "id": 6056008,
+  "name": "HEWLETT-PACKARD COMPANY, Plaintiff, Cross-defendant and Respondent, v. ORACLE CORPORATION, Defendant, Cross-complainant and Appellant",
+  "name_abbreviation": "Hewlett-Packard Co. v. Oracle Corp.",
+  "decision_date": "2015-08-27",
+  "docket_number": "No. H039507",
+  "first_page": "1174",
+  "last_page": "1197",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "239 Cal. App. 4th 1174"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "25 Cal.Rptr.3d 372",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "126 Cal.App.4th 1241",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1557262
+      ],
+      "pin_cites": [
+        {
+          "page": "1248"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/126/1241-01"
+      ]
+    },
+    {
+      "cite": "89 Cal.Rptr.3d 659",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2005,
+      "opinion_index": 0
+    },
+    {
+      "cite": "171 Cal.App.4th 1356",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        12133604
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1370-1371"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/171/1356-01"
+      ]
+    },
+    {
+      "cite": "81 Cal.Rptr.3d 354",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "165 Cal.App.4th 987",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3941158
+      ],
+      "pin_cites": [
+        {
+          "page": "994"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/165/0987-01"
+      ]
+    },
+    {
+      "cite": "231 Cal.Rptr. 241",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "186 Cal.App.3d 959",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2197097
+      ],
+      "pin_cites": [
+        {
+          "page": "967"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/186/0959-01"
+      ]
+    },
+    {
+      "cite": "19 Cal.Rptr.3d 149",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "122 Cal.App.4th 673",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1137536
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/122/0673-01"
+      ]
+    },
+    {
+      "cite": "52 P.3d 685",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "124 Cal.Rptr.2d 507",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Cal.4th 53",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        777220
+      ],
+      "pin_cites": [
+        {
+          "page": "65"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/29/0053-01"
+      ]
+    },
+    {
+      "cite": "111 Cal.Rptr.2d 582",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "91 Cal.App.4th 832",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        226341
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "841"
+        },
+        {
+          "page": "840-841"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/91/0832-01"
+      ]
+    },
+    {
+      "cite": "255 Cal.Rptr. 704",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "207 Cal.App.3d 1287",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        6038773
+      ],
+      "pin_cites": [
+        {
+          "page": "1298"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/207/1287-01"
+      ]
+    },
+    {
+      "cite": "98 Cal.Rptr.3d 459",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "176 Cal.App.4th 1210",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5740595
+      ],
+      "pin_cites": [
+        {
+          "page": "1222"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/176/1210-01"
+      ]
+    },
+    {
+      "cite": "130 Cal.Rptr.3d 910",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "199 Cal.App.4th 676",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6054532
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "684"
+        },
+        {
+          "page": "680-681"
+        },
+        {
+          "page": "680"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/199/0676-01"
+      ]
+    },
+    {
+      "cite": "123 Cal.Rptr.3d 301",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "193 Cal.App.4th 634",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6053833
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "653, 654"
+        },
+        {
+          "page": "653"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/193/0634-01"
+      ]
+    },
+    {
+      "cite": "53 Cal.Rptr.3d 779",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2011,
+      "opinion_index": 0
+    },
+    {
+      "cite": "146 Cal.App.4th 1540",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5567056
+      ],
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1543"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/146/1540-01"
+      ]
+    },
+    {
+      "cite": "35 Cal.Rptr.3d 909",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2007,
+      "opinion_index": 0
+    },
+    {
+      "cite": "134 Cal.App.4th 278",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3734438
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "286"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/134/0278-01"
+      ]
+    },
+    {
+      "cite": "83 Cal.Rptr.3d 95",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2005,
+      "opinion_index": 0
+    },
+    {
+      "cite": "166 Cal.App.4th 772",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3945452
+      ],
+      "weight": 2,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "775"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/166/0772-01"
+      ]
+    },
+    {
+      "cite": "37 Cal.Rptr.3d 786",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "135 Cal.App.4th 952",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5291508
+      ],
+      "pin_cites": [
+        {
+          "page": "955"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/135/0952-01"
+      ]
+    },
+    {
+      "cite": "168 Cal.Rptr.3d 461",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "224 Cal.App.4th 125",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4190244
+      ],
+      "pin_cites": [
+        {
+          "page": "128"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/224/0125-01"
+      ]
+    },
+    {
+      "cite": "106 P.3d 958",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Cal.Rptr.3d 298",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.4th 180",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        873227
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "195, fn. 8"
+        },
+        {
+          "page": "192"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/35/0180-01"
+      ]
+    },
+    {
+      "cite": "119 Cal.Rptr.3d 835",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "191 Cal.App.4th 977",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4228753
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "998, 999"
+        },
+        {
+          "page": "997, 998"
+        },
+        {
+          "page": "1000-1001"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/191/0977-01"
+      ]
+    },
+    {
+      "cite": "176 Cal.Rptr.3d 567",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "229 Cal.App.4th 27",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4341473
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/229/0027-01"
+      ]
+    },
+    {
+      "cite": "110 Cal.Rptr.3d 559",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2014,
+      "opinion_index": 0
+    },
+    {
+      "cite": "185 Cal.App.4th 606",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4221246
+      ],
+      "year": 2014,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/185/0606-01"
+      ]
+    },
+    {
+      "cite": "148 Cal.Rptr.3d 550",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2010,
+      "opinion_index": 0
+    },
+    {
+      "cite": "210 Cal.App.4th 378",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4260689
+      ],
+      "year": 2010,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/210/0378-01"
+      ]
+    },
+    {
+      "cite": "85 Cal.Rptr.3d 838",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "168 Cal.App.4th 1007",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5731174
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/168/1007-01"
+      ]
+    },
+    {
+      "cite": "143 Cal.Rptr.3d 160",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2008,
+      "opinion_index": 0
+    },
+    {
+      "cite": "207 Cal.App.4th 180",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6054221
+      ],
+      "year": 2008,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/207/0180-01"
+      ]
+    },
+    {
+      "cite": "161 Cal.Rptr.3d 846",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "219 Cal.App.4th 521",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6050543
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/219/0521-01"
+      ]
+    },
+    {
+      "cite": "156 Cal.Rptr.3d 492",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "216 Cal.App.4th 481",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6054555
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/216/0481-01"
+      ]
+    },
+    {
+      "cite": "74 Cal.Rptr.3d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "160 Cal.App.4th 1467",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3919322
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/160/1467-01"
+      ]
+    },
+    {
+      "cite": "175 Cal.Rptr.3d 17",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2008,
+      "opinion_index": 0
+    },
+    {
+      "cite": "227 Cal.App.4th 1266",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6054986
+      ],
+      "year": 2008,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/227/1266-01"
+      ]
+    },
+    {
+      "cite": "6 Cal.Rptr.3d 494",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "113 Cal.App.4th 181",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        2225965
+      ],
+      "pin_cites": [
+        {
+          "page": "193"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/113/0181-01"
+      ]
+    },
+    {
+      "cite": "7 Cal.Rptr.3d 715",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2003,
+      "opinion_index": 0
+    },
+    {
+      "cite": "114 Cal.App.4th 624",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        2193425
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "632"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/114/0624-01"
+      ]
+    },
+    {
+      "cite": "52 Cal.Rptr.3d 712",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2003,
+      "opinion_index": 0
+    },
+    {
+      "cite": "145 Cal.App.4th 1532",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5502383
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "1535, 1539-1540"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/145/1532-01"
+      ]
+    },
+    {
+      "cite": "179 Cal.Rptr.3d 129",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "230 Cal.App.4th 859",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4083615
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "876"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/230/0859-01"
+      ]
+    },
+    {
+      "cite": "9 Cal.Rptr.3d 844",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "115 Cal.App.4th 1315",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1459317
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "1317"
+        },
+        {
+          "page": "1318"
+        },
+        {
+          "page": "1318"
+        },
+        {
+          "page": "1318"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/115/1315-01"
+      ]
+    },
+    {
+      "cite": "117 Cal.Rptr.3d 153",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "189 Cal.App.4th 265",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4225696
+      ],
+      "pin_cites": [
+        {
+          "page": "270"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/189/0265-01"
+      ]
+    },
+    {
+      "cite": "230 P.3d 1117",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2010,
+      "opinion_index": 0
+    },
+    {
+      "cite": "109 Cal.Rptr.3d 329",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2010,
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 Cal.4th 12",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6050888
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "21"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/49/0012-01"
+      ]
+    },
+    {
+      "cite": "159 Cal.Rptr.3d 901",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2010,
+      "opinion_index": 0
+    },
+    {
+      "cite": "218 Cal.App.4th 384",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6050104
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "394"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/218/0384-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 2156,
+    "char_count": 57628,
+    "ocr_confidence": 0.846,
+    "pagerank": {
+      "raw": 7.743395394183287e-08,
+      "percentile": 0.4552220998212637
+    },
+    "sha256": "f1647a9081a6ed05e81d4d281cafde43abf0f9e1b964dc92517c4af621d94737",
+    "simhash": "1:6fbc452d3247d56e",
+    "word_count": 9198
+  },
+  "last_updated": "2024-02-27T23:23:23.090373+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "HEWLETT-PACKARD COMPANY, Plaintiff, Cross-defendant and Respondent, v. ORACLE CORPORATION, Defendant, Cross-complainant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nRUSHING, P. J.\nPlaintiff Hewlett-Packard Company (HP) brought this action against Oracle Corporation (Oracle) alleging that Oracle breached contractual and other duties by announcing that it would no longer make its software products compatible with certain HP hardware products. After the trial court found in a bifurcated trial that Oracle was indeed obligated to adapt its products to the HP systems, and on the very eve of a trial on the questions of breach and remedy, Oracle brought a motion under the antiSLAPP statute, Code of Civil Procedure section 425.16 (\u00a7 425.16), challenging one aspect of HP\u2019s proof of damages. The trial court denied the motion as untimely. Oracle immediately appealed, bringing all further proceedings to a halt. In a pattern that has become all too familiar to the appellate courts of this state, the appeal, like the motion engendering it, is utterly without merit. The motion was late under any reasonable construction of the facts, and it was quite properly denied because it could not possibly achieve the purposes for which the anti-SLAPP statute was enacted. We will therefore affirm, declining to assess sanctions against Oracle only because we do not wish to further delay the long-overdue trial of the merits of this action.\nBackground\nA. History of Cooperation in the Mission Critical Enterprise Server Market\nFor many years prior to 2010, Oracle and HP cooperated in the market for servers variously characterized as \u201chigh performance,\u201d \u201chigh-end enterprise,\u201d and \u201cmission critical.\u201d Many of HP\u2019s sales in this category involved machines utilizing the Itanium processor, a product of Intel Corporation. According to an HP expert witness whose report Oracle cites on another point, HP sells two servers utilizing the Itanium processor \u2014 \u201cIntegrity\u201d and \u201cSuper-dome.\u201d The servers, with the HP-UX operating system \u2014 a proprietary derivative of Unix \u2014 were adapted \u201cto perform mission-critical processes, such as large-scale technical, government, or business computing. Customers with these mission-critical computing needs . . . tend to be large businesses, universities, and government agencies.\u201d Oracle sold and supported software, including its industry-dominant database program, that it \u201cported\u201d to run on these and competing systems. The trial court found the relationship to have been \u201cprofitable for both parties.\u201d\nB. Acquisition of Sun; Hiring of Hurd; Ensuing Suit; Hurd Agreement\nIn 2010 this seemingly harmonious relationship was shaken by two events. First, in January, Oracle acquired Sun Microsystems, whose products included servers built around its SPARC processor and typically running Solaris, its own Unix-based operating system. The acquisition of these assets made Oracle a natural competitor with HP in the mission critical server market. As the trial court wrote, \u201cThis was a potential sea change in the relationship between the parties.\u201d\nThen, about seven months after Oracle acquired Sun, a well-publicized chain of events resulted in the resignation of HP\u2019s chief executive officer, Mark Hurd, at the request of HP\u2019s board. A month later, Oracle hired Hurd as its co-president.\nExpressing concern that Hurd could use HP trade secrets to the unfair advantage of Oracle \u2014 particularly in exploiting the newly acquired Sun assets to compete with HP \u2014 HP filed suit against Hurd. The dispute was quickly settled by a written agreement in late September 2010, between HP and Oracle (the Hurd agreement). Its first enumerated paragraph, entitled \u201cReaffirmation of the Oracle-HP Partnership,\u201d states, \u201cOracle and HP reaffirm their commitment to their longstanding strategic relationship and their mutual desire to continue to support their mutual customers. Oracle will continue to offer its product suite on HP platforms, and HP will continue to support Oracle products (including Oracle Enterprise Linux and Oracle VM) on its hardware in a manner consistent with that partnership as it existed prior to Oracle\u2019s hiring of Hurd.\u201d\nC. Cessation of Porting; Initiation of Suit\nAccording to the trial court\u2019s statement of decision, Oracle issued a press release on March 22, 2011 \u2014 some six months after entering the Hurd agreement \u2014 stating that it had \u201cdecided to discontinue all software development on the Intel Itanium microprocessor.\u201d This suggested that Oracle would no longer port new versions of its software products to run on HP\u2019s Itanium systems. Any doubt on that score was eliminated when, as the court found, \u201cOracle identified on its website the current versions of its major products that were available on Itanium and the next versions of those products that would not be available on Itanium.\u201d Oracle apparently indicated, at or about the same time, that new versions of its software would continue to be \u201cmade available\u201d on the competing \u201cIBM Power and Sun S[PARC]\u201d platforms.\nOn June 15, 2011, HP filed the complaint in this action alleging, among other things, that Oracle\u2019s announced refusal to continue porting its software to Itanium constituted a breach of the Hurd agreement, a violation of assurances made enforceable by promissory estoppel, and a breach of the covenant of good faith and fair dealing. It prayed for a declaration that Oracle was under a duty to continue porting its products to Itanium, for a decree compelling Oracle to specifically perform that obligation, and for damages. Oracle filed a cross-complaint and HP demurred. Oracle filed an amended cross-complaint asserting that the Itanium platform was doomed and that HP had artificially propped it up by making secret payments to Intel, thus misleading the public and Oracle as to its future viability. HP also demurred to this pleading, with results not disclosed by the record. The trial court deemed the matter a complex case. The parties filed cross-motions for summary judgment or summary adjudication, which the court apparently denied.\nD. Finding Against Oracle in Phase 1; Vow to Appeal\nThe court conducted a bench trial under HP\u2019s declaratory relief cause of action on the question whether Oracle was under a duty to continue porting its products to Itanium. On August 1, 2012, the court issued a tentative ruling to the effect that Oracle was under such an obligation by virtue of both the Hurd agreement and other assurances Oracle had given to HP.\nOn the day the court issued its tentative ruling, Oracle responded with a press release framed as a quotation from an Oracle spokesperson. It stated that \u201c \u2018[n]othing in the court\u2019s preliminary opinion change[d] th[e] fact\u2019 \u201d that, as asserted in Oracle\u2019s March 2011 press releases, \u201c \u2018Itanium was approaching its end of life.\u2019 \u201d The Hurd settlement was dismissed as \u201c \u2018an unrelated employment agreement\u2019 \u201d in which Oracle had not \u201c \u2018give[n] up its fundamental right to make platform engineering decisions.\u2019 \u201d The press release concluded, \u201c \u2018We plan to appeal the Court\u2019s ruling while fully litigating our cross claims that HP misled both its partners and customers.\u2019 \u201d\nOn August 28, the court issued a 43-page statement of decision ratifying and explaining its tentative ruling. It reserved for further trial \u201c[t]he issues of both parties\u2019 performance pursuant to, and any breach of,\u201d the duties thus found. Also reserved was the question of the remedy, if any, to which HP was entitled.\nE. Resumption of Porting; Supplementation of Damages Theory\nPrior to the trial in phase 1, HP\u2019s experts on damages and causation had submitted reports premised on Oracle\u2019s own announcement that Itanium users would be unable to run new versions of Oracle products. On September 4, 2012, Oracle reversed itself on this point, issuing yet another press release stating that it would \u201ccontinue building the latest versions of its database and other software covered by the judge\u2019s ruling to HP Itanium computers.\u201d Oracle did not indicate how long this undertaking could be expected to last.\nOracle\u2019s announcement muddied the waters on causation and damage. Oracle\u2019s counsel wrote to the court on September 10, 2012, stating that HP\u2019s claims for \u201cfuture damages\u201d were no longer viable. As a result, he wrote, the parties had agreed that further discovery on damages and causation was necessary. The court manifestly agreed, and in December 2012, HP\u2019s experts promulgated supplemental reports opining that Oracle\u2019s announced intention to resume porting had not repaired the harm to HP caused by the March 2011 announcements. The essential mechanism of damage, they opined, was widespread market uncertainty about the future viability of Itanium servers as a platform for Oracle applications. Both witnesses identified the prospect of an eventual appeal by Oracle as a factor contributing to this uncertainty. Damages expert Jonathan Orszag wrote that the \u201ccontinued decline in Itanium revenue\u201d reflected in then-current projections \u201cshows that any favorable impact from the Phase I decision and the Oracle September 2012 announcement has been more than outweighed by the continuing negative impact . . . from the March 2011 Oracle Announcements and the continuing uncertainty created by Oracle\u2019s recent statements regarding its intention to appeal the Phase I decision.\u201d He noted other factors bearing on customer uncertainty, including \u201cserious concerns about . . . Oracle\u2019s commitment to the Itanium platform . . . and concerns about the level and quality of Oracle\u2019s future contractual performance.\u201d Oracle\u2019s September 2012 statement failed to assuage these concerns, he reported, for several reasons including the previous press release \u201ccriticizing the court\u2019s tentative decision and vowing to appeal . . . .\u201d This vow, he observed, had been cited by industry analysts in forecasting a continued and probably irreversible decline in Itanium usage, and in advising their readers to migrate elsewhere. Causation expert Bert Collins opined, similarly, that the ruling in phase 1 and Oracle\u2019s professed intention to resume porting to Itanium had not \u201cprovided customers with the reassurance they need in order for HP\u2019s Itanium-based servers to be their platform of choice.\u201d He alluded to the facts that Oracle \u201calso announced that it intends to appeal the Court\u2019s ruling, and . . . has filed a petition with the appeals court asking that it review certain alleged errors . . . .\u201d The prospect of appellate review, he noted, \u201cnaturally leaves customers uncertain about whether Oracle will continue to develop its future software products for Itanium-based servers.\u201d\nF. Anti-SLAPP Motion\nOn March 8, 2013, Oracle filed a motion under the anti-SLAPP statute, section 425.16, to strike \u201cin whole or in relevant part,\u201d HP\u2019s causes of action for breach of contract, breach of the implied covenant of good faith and fair dealing, and promissory estoppel. The motion was set to be heard on April 5, 2013, one court day before trial on phase 2 was set to commence. The motion asserted that HP had \u201cchanged its damages theory\u201d by relying on \u201ccustomer uncertainty . . . resulting from Oracle\u2019s March 2011 announcement and its subsequent refusal to accept the [statement of decision] as the final, definitive ruling on the meaning of the Hurd Settlement Agreement.\u201d Oracle contended that this theory of damages arose in substantial part from its announced intention to appeal the trial court\u2019s determination on liability, which announcement was protected conduct under the anti-SLAPP act because it constituted an exercise or attempt to exercise Oracle\u2019s rights both to freedom of speech and to petition the government for redress of grievances. (See \u00a7 425.16, subd. (b)(1).)\nThe trial court denied the motion on the ground that it came after expiration of the 60-day time prescribed by the anti-SLAPP statute (\u00a7 425.16, subd. (f)), and that Oracle had failed to furnish a sound justification for its late presentation. Oracle filed this appeal. HP moved to dismiss the appeal on the ground that it is frivolous. We postponed a determination on the motion pending briefing on the merits.\nAnalysis\nI. Introduction\nAs is recounted in many judicial opinions, the Legislature adopted the anti-SLAPP statute to address what it described as a \u201cdisturbing increase in lawsuits brought primarily to chill the valid exercise of the constitutional rights of freedom of speech and petition for the redress of grievances.\u201d (\u00a7 425.16, subd. (a).) The Legislature\u2019s intended target was the so-called \u201cStrategic Lawsuit Against Public Participation, or SLAPP,\u201d which is \u201c \u2018a civil lawsuit . . . aimed at preventing citizens from exercising their political rights or punishing those who have done so. \u201c \u2018While SLAPP suits masquerade as ordinary lawsuits . . . , they are generally meritless suits brought primarily to chill the exercise of free speech or petition rights by the threat of severe economic sanctions against the defendant, and not to vindicate a legally cognizable right.\u2019 \u201d [Citation.]\u2019 \u201d (Renewable Resources Coalition, Inc. v. Pebble Mines Corp. (2013) 218 Cal.App.4th 384, 394 [159 Cal.Rptr.3d 901], quoting Simpson Strong-Tie Co., Inc. v. Gore (2010) 49 Cal.4th 12, 21 [109 Cal.Rptr.3d 329, 230 P.3d 1117]; see Baharian-Mehr v. Smith (2010) 189 Cal.App.4th 265, 270 [117 Cal.Rptr.3d 153].)\nAn archetypal SLAPP would be an action in which \u201ca developer sues neighborhood activists for having spoken out against the developer\u2019s project in some public forum.\u201d (People ex rel. Lockyer v. Brar (2004) 115 Cal.App.4th 1315, 1317 [9 Cal.Rptr.3d 844] (Brar); see Old Republic Construction Program Group v. The Boccardo Law Firm, Inc. (2014) 230 Cal.App.4th 859, 876 [179 Cal.Rptr.3d 129] (Old Republic) [\u201ccore purpose\u201d of the statute is to \u201cremedy a very specific pattern by which contestants in the arena of public affairs were using meritless litigation as a device to silence and punish their adversaries\u201d].) The statute sweeps far beyond this paradigm, however, reaching any lawsuit or claim found to arise from a party\u2019s actions in litigation, whether or not the activities \u2014 or the litigation \u2014 have any connection to an issue of public significance or interest, or to anything that might plausibly be labeled \u201cpublic participation.\u201d As a result of this overbreadth, we have seen far more anti-SLAPP motions in garden-variety civil disputes than in cases actually resembling the paradigm. (See, e.g., Kolar v. Donahue, McIntosh & Hammerton (2006) 145 Cal.App.4th 1532, 1535, 1539-1540 [52 Cal.Rptr.3d 712] [former clients\u2019 \u201c \u2018garden variety legal malpractice action\u2019 \u201d]; Jespersen v. Zubiate-Beauchamp (2003) 114 Cal.App.4th 624, 632 [7 Cal.Rptr.3d 715] [same]; Martinez v. Metabolife Internal, Inc. (2003) 113 Cal.App.4th 181, 193 [6 Cal.Rptr.3d 494], [\u201cgarden-variety personal injury claims\u201d].) Numerous reported decisions deal with anti-SLAPP motions originating in such quotidian contexts as landlord versus tenant (e.g., Ulkarim v. Westfield LLC (2014) 227 Cal.App.4th 1266 [175 Cal.Rptr.3d 17]; Feldman v. 1100 Park Lane Associates (2008) 160 Cal.App.4th 1467 [74 Cal.Rptr.3d 1]); client versus attorney (e.g., Castleman v. Sagaser (2013) 216 Cal.App.4th 481 [156 Cal.Rptr.3d 492]); employee versus employer or coworker (e.g., Cho v. Chang (2013) 219 Cal.App.4th 521 [161 Cal.Rptr.3d 846]); injured person versus insurer (e.g., Old Republic, supra,, 230 Cal.App.4th 859); landowner versus neighbor (e.g., M.F. Farming Co. v. Couch Distributing Co., Inc. (2012) 207 Cal.App.4th 180 [143 Cal.Rptr.3d 160]; Paiva v. Nichols (2008) 168 Cal.App.4th 1007 [85 Cal.Rptr.3d 838]); and marital disputes (e.g., Holland v. Jones (2012) 210 Cal.App.4th 378 [148 Cal.Rptr.3d 550]; G.R. v. Intelligator (2010) 185 Cal.App.4th 606 [110 Cal.Rptr.3d 559]; S.A. v. Maiden (2014) 229 Cal.App.4th 27 [176 Cal.Rptr.3d 567]). Not surprisingly, many courts and commentators have attempted to draw attention \u2014 particularly legislative attention \u2014 to this \u201cexplosion of anti-SLAPP motions\u201d and resulting appeals, and to particular \u201cways in which the anti-SLAPP procedure is being misused \u2014 and abused.\u201d (Grewal v. Jammu (2011) 191 Cal.App.4th 977, 998, 999, 119 Cal.Rptr.3d 835 [marshaling authorities].)\nA major reason for this explosion is that the statute rewards the filer of an unsuccessful anti-SLAPP motion with what one court has called a \u201cfree time-out\u201d from further litigation in the trial court. (Brar, supra, 115 Cal.App.4th 1315, 1318.) The statute does this by entitling the unsuccessful movant to immediately appeal the denial of such a motion \u2014 even one like Oracle\u2019s, which wholly lacks merit, attacks only a small part of the plaintiff\u2019s case, and is heard nearly two years into the lawsuit, and on the day before a scheduled trial. (\u00a7 425.16, subd. (i) (\u00a7 425.16(f)).) Such an appeal automatically stays all further trial proceedings on causes of action \u201caffected by the motion.\u201d (Varian Medical Systems, Inc. v. Delfino (2005) 35 Cal.4th 180, 195, fn. 8 [25 Cal.Rptr.3d 298, 106 P.3d 958]; see id. at p. 186 (Var\u00edan).) This means that however unsound an anti-SLAPP motion may be, it will typically stop the entire lawsuit dead in its tracks until an appellate court completes its review. A stark example is provided by Brar, where the defendant filed an anti-SLAPP motion even though, as an enforcement action brought by the Attorney General, the matter was categorically exempt from the anti-SLAPP law. (Brar, supra, 115 Cal.App.4th at p. 1318, quoting \u00a7 425.16, subd. (d).) Faced with this seemingly impenetrable barrier to relief, the defendant offered only a tortured and \u201cquite irrelevant\u201d argument impugning the Attorney General\u2019s motives. (Brar, at p. 1319.) The court found \u201c \u2018brought for reasons of delay\u2019 virtually tattooed on [the appeal\u2019s] forehead,\u201d illustrating the fact that \u201cunder a rule of automatic stay ... the incentive to appeal even the denial of a patently frivolous anti-SLAPP motion is overwhelming.\u201d (Ibid.)\nNearly a decade later, the pattern decried in Brar had become so familiar that one court opened an opinion with a weary protest: \u201cAnother appeal in an anti-SLAPP case. Another appeal by a defendant whose anti-SLAPP motion failed below. Another appeal that, assuming it has no merit, will result in an inordinate delay of the plaintiff\u2019s case and cause him to incur more unnecessary attorney fees. [Citation.] And no merit it has.\u201d (Moriarty v. Laramar Management Corp. (2014) 224 Cal.App.4th 125, 128 [168 Cal.Rptr.3d 461].) Another court was described as \u201cexasperated\u201d by a motion that advanced \u201c \u2018[n]either the public\u2019s nor defendant\u2019s right to participate.\u2019 \u201d (Grewal v. Jammu, supra, 191 Cal.App.4th 977, 997, 998, quoting Moran v. Endres (2006) 135 Cal.App.4th 952, 955 [37 Cal.Rptr.3d 786].)\nThe statute contains a provision apparently intended to limit this kind of abuse: \u201cThe special motion may be filed within 60 days of the service of the complaint or, in the court\u2019s discretion, at any later time upon terms it deems proper.\u201d (\u00a7 425.16, subd. (f) (\u00a7 425.16(f)).) In other words, the defendant is only entitled to \u201cfile[]\u201d such a motion within 60 days of service; thereafter filing may be allowed, or not, in the trial court\u2019s discretion. This language might be readily understood to mean that a trial court need not entertain, but can instead refuse to hear, a motion filed outside the 60 days. And indeed, some courts have suggested that this provision empowers a trial court to require advance leave before the defendant is permitted to file such a motion. (See Platypus Wear, Inc. v. Goldberg (2008) 166 Cal.App.4th 772, 775 [83 Cal.Rptr.3d 95] [\u201cA party may not file an anti-SLAPP motion more than 60 days after the filing of the complaint, unless the trial court affirmatively exercises its discretion to allow a late filing.\u201d]; Olsen v. Harbison (2005) 134 Cal.App.4th 278, 286 [35 Cal.Rptr.3d 909] [\u201cThe statute expressly provides that a late anti-SLAPP motion shall not be filed unless the court affirmatively exercises discretion to permit it to be filed.\u201d]; Kuhysz v. Sandler (2007) 146 Cal.App.4th 1540, 1543 [53 Cal.Rptr.3d 779] [citing failure to seek leave as one of several defects]; South Sutter, LLC v. LJ Sutter Partners, L.P. (2011) 193 Cal.App.4th 634, 653, 654 [123 Cal.Rptr.3d 301] (South Sutter) [implying that failure to seek leave could be fatal, but finding motion there timely]; but see Chitsazzadeh v. Kramer & Kaslow (2011) 199 Cal.App.4th 676, 684 [130 Cal.Rptr.3d 910] (Chitsazzadeh) [failure to seek leave not fatal if court elects to entertain late motion].) HP asked the court below to follow these suggestions and frame its order as a denial of leave to file the motion. Such an order would not be immediately appealable under the terms of the statute. The same would seem to be true of an order striking an anti-SLAPP motion as untimely and unsupported by sufficient cause to permit late filing.\nHere, the trial court adopted a more streamlined approach: It heard the motion, and then \u201cdenied\u201d it on grounds of untimeliness, concluding that good cause had not been shown for a belated hearing. While entirely suitable in a more conventional procedural setting, this approach produced the regrettable consequence of granting Oracle the \u201cfree time-out\u201d condemned in Brar, supra, 115 Cal.App.4th 1315, 1318. Because the statute plainly authorizes an appeal from \u201c[a]n order granting or denying a special motion to strike\u201d (\u00a7 425.16(f)), we have no choice but to conclude that the order is appealable, and that we are vested with jurisdiction to decide the appeal.\nII. The Trial Court\u2019s Decision Not to Entertain the Motion Cannot Be Overturned Unless It Contravened the Purposes and Policy of the Act\nAs already noted, the statute vests the trial court with discretion to entertain an anti-SLAPP motion proffered after expiration of the 60-day period. (\u00a7 425.16(f) [motion \u201cmay be filed ... in the court\u2019s discretion, at any later time\u201d].) The question here is whether the trial court, by refusing to entertain Oracle\u2019s motion on the merits, abused the discretion thus vested in it. \u201cDiscretion\u201d refers to a zone of latitude within which a trial court\u2019s actions must be upheld on appeal. (See Miyamoto v. Department of Motor Vehicles (2009) 176 Cal.App.4th 1210, 1222 [98 Cal.Rptr.3d 459] (cone. opn. of Rushing, P. J.).) \u201cThe legal principles that govern the subject of discretionary action vary greatly with context. [Citation.] They are derived from the common law or statutes under which discretion is conferred.\u201d (City of Sacramento v. Drew (1989) 207 Cal.App.3d 1287, 1298 [255 Cal.Rptr. 704].)\nIn the anti-SLAPP context, courts have identified two particular ways in which a refusal to entertain a late anti-SLAPP motion might be shown to constitute an abuse of discretion: (1) if \u201cthe grounds given by the court . . . are inconsistent with the substantive law of section 425.16,\u201d and (2) if the court\u2019s application of the statute to the facts of the case is \u201coutside the range of discretion conferred upon the trial court under that statute, read in light of its purposes and policy.\u201d (Olsen v. Harbison, supra, 134 Cal.App.4th at p. 285, italics added.) In other words, a claim that a trial court abused its discretion by failing to entertain a late anti-SLAPP motion requires the appellant to demonstrate that the trial court applied the statute in a manner that is incompatible either with the statute\u2019s actual mandate, or with its \u201cpurposes and policy.\u201d (Ibid.)\nWe do not understand Oracle to claim that the trial court\u2019s ruling violated any express mandate of the statute. Its appellate challenge therefore necessarily rests on the premise that the refusal to entertain the motion on the merits did violence to the statute\u2019s purpose and policy. This premise cannot be sustained.\nIII. The Motion Was Properly Denied Because It Could Not Efficiently Dispose of Any Substantial Part of the Action and Could Only Delay a Final Determination and Magnify the Costs to Both Parties\nA. The Purpose of the Statute Is to Promptly Dispose of Qualifying Causes of Action and Thereby Spare the Defendant from the Costs of a Successful Defense Under Conventional Procedures\nThe overarching objective of the anti-SLAPP statute is \u201cto prevent and deter\u201d lawsuits chilling speech and petition rights. (Varian, supra, 35 Cal.4th 180, 192.) \u201cBecause these meritless lawsuits seek to deplete \u2018the defendant\u2019s energy\u2019 and drain \u2018his or her resources\u2019 [citation], the Legislature sought \u2018 \u201cto prevent SLAPPs by ending them early and without great cost to the SLAPP target\u201d \u2019 [citation]. Section 425.16 therefore establishes a procedure where the trial court evaluates the merits of the lawsuit using a summary-judgment-like procedure at an early stage of the litigation. [Citation.]\u201d (Ibid., italics added; see Lam v. Ngo, (2001) 91 Cal.App.4th 832, 841 [111 Cal.Rptr.2d 582] (Lam) [\u201cwhole purpose\u201d of statute is \u201cto provide a mechanism for the early termination of claims that are improperly aimed at the exercise of free speech or the right of petition\u201d]; Lam, at p. 844 [\u201cpurpose is to weed out meritless \u2018claims\u2019 at an early stage\u201d]; Castleman v. Sagaser, supra, 216 Cal.App.4th at p. 489 [motion \u201callows the trial court to evaluate the lawsuit at an early stage\u201d].)\nA late anti-SLAPP motion cannot fulfill the statutory purpose if it is not brought until after the parties have incurred substantial expense. Recognition of this fact is implicit in the 60-day requirement, which entitles a defendant to use the statute\u2019s \u201cspecial\u201d procedure (\u00a7 425.16, subd. (b)(1)) only by bringing the motion early enough to avoid the cost of resolving the case by more conventional means. (Chitsazzadeh, supra, 199 Cal.App.4th at p. 682 [\u201cThe purpose of these timing requirements is to facilitate the dismissal of an action subject to a special motion to strike early in the litigation so as to minimize the cost to the defendant.\u201d]; see Varian, supra, 35 Cal.4th at p. 192, quoting Equilon Enterprises v. Consumer Cause, Inc. (2002) 29 Cal.4th 53, 65 [124 Cal.Rptr.2d 507, 52 P.3d 685] [\u201cthe \u2018short time frame for anti-SLAPP filings and hearings\u2019 and the \u2018stay of discovery\u2019 pending resolution of the motion evidences the Legislature\u2019s intent to minimize the litigation costs of SLAPP targets\u201d].) By failing to act within this time, a defendant incurs costs \u2014 and permits the plaintiff to incur costs \u2014 that a timely motion might be able to avert. As these costs accumulate in the course of conventional discovery and motion practice, the capacity of an anti-SLAPP motion to satisfy the statutory purpose diminishes. And as the utility of the motion diminishes, so does the justification for the statute\u2019s deviations from more conventional modes of disposition. It is therefore to be expected that every case will come to a point beyond which an anti-SLAPP motion simply cannot perform its intended function. If such a motion is untimely \u2014 as it will be in the absence of some event which has reopened the 60-day period \u2014 the trial court cannot abuse its discretion by refusing to hear it.\nB. The Motion Was Too Late to Accomplish the Statutory Objectives\nWhen the trial court made the order under review, this case had clearly passed the point just described. Oracle\u2019s motion was brought, by our reckoning, at least 618 days after the 60-day period began to run, and 558 days after it ended. In fact the motion could not have been brought any later; it was heard on the last court day before trial.\nWe have found no authority suggesting that a defendant may be entitled to have an anti-SLAPP motion heard after such a delay. On the contrary, much shorter lapses of time have been held to justify a refusal to entertain anti-SLAPP motions on the merits. (See, e.g., Chitsazzadeh, supra, 199 Cal.App.4th 676, 680-681 [motion properly denied as untimely where 113 days elapsed between service of complaint and filing of motion]; Morin v. Rosenthal (2004) 122 Cal.App.4th 673 [19 Cal.Rptr.3d 149] [no abuse of discretion to deny as untimely motions filed 90 days after remand from federal bankruptcy court]; Kunysz v. Sandler, supra, 146 Cal.App.4th 1540, [no abuse of discretion to deny, partly on timeliness grounds, motion for reconsideration filed some 10 months after initial timely motion]; Olsen v. Harbison, supra, 134 Cal.App.4th at pp. 282, 283 [appeal dismissed as frivolous where motion filed 278 days after service].)\nThe only case we have found rivaling this one in the degree of the motion\u2019s lateness is Platypus Wear, Inc. v. Goldberg, supra, 166 Cal.App.4th 772, where some two years elapsed between the filing of the complaint and the defendant\u2019s application for leave to file a late anti-SLAPP motion. The trial court granted the application and entertained the anti-SLAPP motion, but then denied it on the merits, triggering the inevitable appeal. The court was held to have abused its discretion by deciding to hear the motion.\nAt the same time, we are aware of no case holding that a trial court abused its discretion by denying an anti-SLAPP motion, or refusing to hear it, after the 60 days had passed. Here the statutory period had elapsed roughly 10 times over. Given that extraordinary delay, it would require a comparably extraordinary showing to make even a colorable claim that the trial court abused its discretion by refusing to entertain the motion on the merits.\nAs previously noted, an anti-SLAPP motion cannot fulfill the statutory purpose, and may indeed subvert that purpose, if the parties have already incurred substantial expense preparing the case for a more conventional disposition. Here, 632 days elapsed between HP\u2019s complaint and Oracle\u2019s anti-SLAPP motion. The online docket sheet, reproduced as an exhibit to HP\u2019s motion to dismiss, shows 483 entries \u2014 that is, 483 documents filed\u2014 over the period beginning with the complaint and ending with the antiSLAPP motion. These of course included all of the pleadings: HP\u2019s complaint, Oracle\u2019s cross-complaint, HP\u2019s demurrer, Oracle\u2019s amended cross-complaint, and the parties\u2019 respective answers. In addition the docket reflects extensive \u2014 and extensively contested \u2014 discovery proceedings, including numerous motions. The parties also filed, by our count, eight motions to seal parts of the file. Another four motions to seal were filed by nonparty Intel Corporation. The parties filed cross-motions for summary judgment or summary adjudication. They also participated in numerous case management conferences, some of which are reflected in the 14 volumes of reporter\u2019s transcript \u2014 not including trial proceedings in phase 1 \u2014 contained in the appellate record.\nIndeed, by the time Oracle\u2019s anti-SLAPP motion was brought, the court had already tried a major part of the case, and was on the verge of trying the rest. The docket includes many filings made in anticipation of the impending trial on phase 2, including proposed jury instructions and motions in limine. Again, the anti-SLAPP motion was heard one court day before that trial was to commence. Had that motion not been interposed, the entire case would presumably have been tried by now, and this court would be addressing all of the issues raised by an appeal from the resulting judgment, rather than an interruptive appeal that could at most resolve one issue while the rest of the case languished below. \u201cThose whose rights and obligations depend on [a] judgment are [typically] best served by a single complete and final resolution of the issues presented. A right to an interlocutory appeal permits a party who benefits from delay to frustrate the goals of promptness and certainty of adjudication. The possibility that an order is appealable can produce delay even where no one wants to impede the litigation. If the ruling is appealable, the aggrieved party must appeal or the right to contest it is lost. [Citations.] Thus every exception to the final judgment rule not only forges another weapon for the obstructive litigant but also requires a genuinely aggrieved party to choose between immediate appeal and the permanent loss of possibly meritorious objections.\u201d (Kinoshita v. Horio (1986) 186 Cal.App.3d 959, 967 [231 Cal.Rptr. 241].)\nNor would the result have been substantially different if the trial court had entertained and granted the anti-SLAPP motion: the order would still have been likely to generate only delay and expense. Had the motion been granted, HP would have been entitled to take an immediate appeal. (\u00a7 425.16(i).) As previously noted, HP might have been practically compelled to exercise this prerogative in order to avoid a later claim that it had forfeited any claim of error with respect to the granting of the anti-SLAPP motion. (See fn. 7, ante)\nAll of this would have been quite apparent to the trial court when Oracle filed its llth-hour motion. There was simply no way a motion brought that late could achieve any significant reduction in the time and expense required to conclude the lawsuit. These facts alone bar a holding that refusal to entertain the motion on the merits was an abuse of discretion. The costs of defense had already been fully incurred, save for a trial which was destined to go forward \u2014 eventually\u2014even if the motion was granted. The only likely effect of the motion would be to generate an expensive and time-consuming delay. That is all it could do \u2014 and all it has done.\nIV. Oracle\u2019s Claim of an Excuse for Delayed Filing Does Not Establish an Abuse of Discretion\nA. An Excuse for Late Filing Does Not Deprive a Trial Court of Discretion to Refuse to Entertain a Late Anti-SLAPP Motion\nOracle insists that the record showed an adequate excuse for not filing the motion within the prescribed 60 days, and that the trial court\u2019s conclusion to the contrary is unsustainable. The first problem with this argument is that it avoids the central question raised by any late anti-SLAPP motion, which is the extent to which it can serve the statutory purpose of providing an expedited disposition of meritless claims burdening the exercise of speech and petition rights. The possibility that the defendant can point to some circumstantial justification for not bringing the motion sooner \u2014 like mistake, surprise, or excusable neglect \u2014 has little if any relevance where, as here, the motion could not expedite, but could only impede, an ultimate resolution.\nThe anti-SLAPP procedure is not intended and cannot serve as a mere symbolic affirmation of our society\u2019s commitment to public participation. It is an attempt to remedy a specific social ill, i.e., use of the litigation process to harass, intimidate, and punish those who seek to partake in public affairs. The justification for the statute\u2019s extraordinary procedures must rest on the actual utility of the procedure in particular cases. As we have said, where the parties have already incurred substantial expense and the case has progressed to its later stages, it is almost certain to be too late for the motion to accomplish any legitimate purpose. No showing of blamelessness or justification on the part of the defendant can restore what time has destroyed. All the motion can accomplish is delay.\nIt follows that even if Oracle had succeeded in establishing an excuse for not bringing the motion sooner, the trial court would not have been obliged to entertain the motion on the merits, and its refusal to do so would not constitute an abuse of discretion. Nor does Oracle offer any persuasive support to the contrary. It cites Lam, supra, 91 Cal.App.4th 832, where a trial court denied as untimely an anti-SLAPP motion filed 64 days after service of a first amended complaint. The court held that (1) the 60-day period runs anew from the filing of an amended complaint, at least where the preceding complaint \u201ccontained no anti-free-speech claims\u201d (91 Cal.App.4th at p. 841); and (2) service of such a pleading by mail extends the 60 days to 65 in accordance with Code of Civil Procedure section 1013, subdivision (a) (91 Cal.App.4th at pp. 842-843).\nIn short, the motion in Lam was held to be timely. The trial court therefore had no discretion to abuse, and its refusal to hear the motion was simple error. (See Lam, supra, 91 Cal.App.4th. at p. 840 [court has discretion to refuse to consider merits of late motion, but \u201cmust\u201d reach merits if motion \u201cis filed within the 60-day deadline\u201d (italics omitted)].) This makes the case entirely inapposite where, as here, the motion was brought beyond the deadline and the trial court was vested with discretion to refuse to hear it. The Lam court did not consider any excuse for late filing; indeed the defendant offered no excuse, properly speaking. The case therefore cannot stand for the proposition that such an excuse requires the trial court to entertain a late anti-SLAPP motion that cannot serve the purposes of the statute. As discussed in greater detail below (see pt. IV.B., post), Oracle\u2019s motion was late under any construction of the facts. Nothing in Lam required the trial court to hear it.\nMuch the same is true of South Sutter, supra, 193 Cal.App.4th 634, 653, also cited by Oracle. The trial court there was held not to have erred by \u201cstarting the 60-day period anew\u201d upon the transfer of the case from another county. The holding rested on a stipulation transferring the action, in which the court found the parties had \u201ceffectively agreed\u201d that transfer would restart the period. (Id. at pp. 654, 656.) Support for its conclusion was found in Morin v. Rosenthal, supra, 122 Cal.App.4th 673, where the trial court refused to hear an anti-SLAPP motion filed 90 days after a remand from bankruptcy court. The reviewing court concluded that the trial court had \u201cacted within its discretion in denying the SLAPP motions as untimely,\u201d even though the defendants claimed that the motion could not have been heard earlier due to their own motions for intra-county transfer and to disqualify the assigned judge. (Id. at p. 681; see id. at p. 680.) Nothing in either case supports a rule under which an excuse for late filing deprives the trial court of discretion to decline to hear a late anti-SLAPP motion that cannot serve the statutory objectives. That the tardiness of the motion is excusable is merely one factor that may justify, but need not compel, a decision to entertain it on the merits.\nB. Oracle Offered No Colorable Excuse for the Motion\u2019s Untimeliness\nEven if an excuse for late filing could require that Oracle\u2019s motion be heard on the merits \u2014 a premise we emphatically reject \u2014 nothing in the record impeaches the trial court\u2019s finding that the excuse offered by Oracle was inadequate. This is true for a number of reasons, of which the most telling may be that Oracle waited more than 60 days after the claimed occasion to file the motion came to its attention. The gist of Oracle\u2019s argument is that HP\u2019s case did not implicate speech or petition rights, and thus did not furnish an occasion to file an anti-SLAPP motion, until HP cited Oracle\u2019s vow to appeal as a factor contributing to the market uncertainty that had depressed HP\u2019s Itanium-based business. But HP first cited Oracle\u2019s avowed intention to appeal as a factor bearing on causation and damages no later than October 25, 2012, when HP filed its motion to serve supplemental expert reports on those subjects. The supporting memorandum quoted Oracle\u2019s press release of August 1, 2012, promising to \u201c \u2018appeal the Court\u2019s ruling\u2019 \u201d in phase 1. HP noted that while Oracle had publicly resumed porting to Itanium, it had \u201creservefd] the right to stop porting again if it prevails on appeal. ...\u201d A few pages later HP reiterated that Oracle had \u201creserved the right to stop porting again, not only vowing to appeal the Court\u2019s decision . . . but filing a Petition for Writ of Mandate\u201d challenging the decision in phase 1.\nThese remarks clearly presaged HP\u2019s contention that the promise to appeal was a factor contributing to HP\u2019s injuries. The supplemental expert reports, which were apparently served on December 10, 2012, made this contention explicit. HP\u2019s damages expert, Orszag, cited Oracle\u2019s announced intention to appeal, along with its filing of a writ petition in this court, as one of three \u201cdevelopments\u201d since his original report having \u201cthe potential to affect my calculation of damages.\u201d Referring to a continuing decline in Itanium sales, he opined that \u201cany favorable impact from the Phase 1 decision and the Oracle September 2012 announcement has been more than outweighed by the continuing negative impact on Itanium performance from the March 2011 Oracle Announcements and the continuing uncertainty created by Oracle\u2019s recent statements regarding its intention to appeal the Phase 1 decision.\u201d He noted reports from HP employees that \u201ccustomers continued to have serious concerns about such factors as Oracle\u2019s commitment to the Itanium platform, the continuing delay and uncertainty created by Oracle\u2019s announced intention to appeal the Phase 1 decision, and concerns about the level and quality of Oracle\u2019s future contractual performance.\u201d Oracle\u2019s announced resumption of porting, reported these employees, was \u201cinsufficient to cause customers to change their decisions to migrate away from Itanium. In addition to the lengthy delay between Oracle\u2019s March 2011 announcements and its September 2012 statement that it would resume porting to Itanium, customers are aware that Oracle made the statement only after losing Phase 1 of the trial, and shortly after Oracle had issued another statement criticizing the court\u2019s tentative decision and vowing to appeal the court\u2019s decision.\u201d\nCausation expert Collins also cited the vow to appeal and the writ petition as factors contributing to customer doubts about the future viability of Itanium as a platform for Oracle applications. He wrote that Oracle\u2019s public disagreement with the trial court\u2019s ruling, together with the vow to appeal, \u201cnaturally leaves customers uncertain about whether Oracle will continue to develop its future software products for Itanium-based servers.\u201d He reported his understanding, gathered from HP sales directors, that \u201ccustomers doubt that Oracle\u2019s stated intention to resume porting is going to last over the long-term and, therefore, they are migrating away from their Itanium-based platforms.\u201d Oracle\u2019s original announcement of non-support for Itanium, and the contentiousness manifested in its more recent announcements, including the vow to appeal, was leading customers to \u201cunderstandably question and be concerned about whether the necessary degree of cooperation between Oracle and HP will exist in the future.\u201d\nThe anti-SLAPP motion was filed on March 8, 2013 \u2014 88 days after the reports, and 134 days after HP\u2019s motion to prepare them. Assuming HP had the statutory 60 days from the later date to have an anti-SLAPP motion heard, plus five days for service by mail (see Code Civ. Proc., \u00a7 1013, subd. (a)), the motion was still at least 23 days late. Nothing in Lam suggests that the trial court would have abused its discretion there if the anti-SLAPP motion had been filed more than 65 days after service of the amended complaint.\nIn an attempt to address this fatal defect in its position, Oracle suggests that it could not have appreciated the importance of the vow to HP\u2019s case until it conducted the depositions of certain HP witnesses, which it did during the 65 days preceding the anti-SLAPP motion. It cites the testimony of HP experts Collins and Orszag, but neither of them appears to have said anything materially different from what they had written in their supplemental reports. Perhaps for this reason, HP also cites the deposition testimony of David Donatelli, whom it describes as \u201cthe head of the HP business unit responsible for Itanium and a principal HP trial witness.\u201d Donatelli affirmed that \u201c[a]s far as I know,\u201d it was \u201cOracle\u2019s choice to continue to exercise its right to contest HP\u2019s claims that has caused [HP\u2019s] damages.\u201d This testimony differed from the supplemental expert reports only in its oversimplification of the revised damages theory \u2014 a subject on which Donatelli may not even be qualified to give an opinion, and on which he certainly was not authorized to speak with greater authority than HP\u2019s attorneys and the experts they had engaged. The implied assertion that his testimony somehow triggered a new 60-day period within which to file an anti-SLAPP motion is, at best, fanciful.\nConclusion\nThe foregoing discussion does not exhaust the grounds on which the trial court\u2019s denial of Oracle\u2019s motion appears justified. Among other apparent defects in the motion are that it did not target a \u201ccause of action\u201d or \u201cclaim\u201d but part of HP\u2019s intended proof of causation and damages. (See \u00a7 425.16, subd. (b)(1), (3).) It was in effect a motion in limine. Indeed it duplicated in substance a motion in limine filed by Oracle in anticipation of trial in phase 2. That motion raised the same substantive issues, and had the matter not been derailed, would have produced a ruling that could be reviewed in due course along with any other issues remaining after trial. Regrettably, Oracle elected instead to resort to a procedure guaranteeing it a two-year respite from defending its conduct.\nThe case thus provides yet another illustration of the many ways in which the current anti-SLAPP statute produces unintended and even perverse results. It can be argued that the overbreadth of the statute has made the cure worse than the disease. To be sure, the statute achieves its intended purpose in true SLAPP cases, i.e., patently meritless suits brought to punish and harass adversaries in the public arena. But if it makes short work of suits like that, it makes much longer and more expensive work of many suits bearing no resemblance whatever to the targeted paradigm. It is as if a city had decided to cure an illness afflicting a few of its residents by lacing the water supply with a chemical that would indeed cure those sufferers, but would sicken a larger number of previously healthy citizens.\nIf HP\u2019s claims are just, then it has been deprived of justice for two years. That deprivation cannot be defended by citing the avowed purposes of section 425.16, for this suit does not and never did implicate the interests at the heart of that statute, i.e., the right to take part in public affairs without suffering the oppression and expense of a meritless lawsuit intended to punish and deter the exercise of political rights. We can only join a chorus of other courts in pleading with the Legislature to examine the real-world effects of the statute on ordinary civil disputes and to seek a way to reduce the overwhelming temptations it currently offers to engage in abuses at least as injurious as those it was designed to correct.\nIn this regard, we offer the suggestion that one simple fix might substantially reduce the motivation to abuse the anti-SLAPP procedure: Limit the right to interlocutory appeal to denials, and allow them only where the motion (1) is filed within the allotted 60 days, and (2) would \u2014 if granted\u2014 dispose of the entire action. Where either of those conditions is lacking, the motion can rarely if ever achieve any real saving of time or money, and an appeal can only have the opposite effect. Such an amendment would limit invocation of the statute to cases where it may serve its stated purpose and greatly reduce its tactical utility in many if not most of the situations where it is now being most sorely abused.\nDisposition\nThe order denying Oracle\u2019s anti-SLAPP motion is affirmed.\nElia, J., and M\u00e1rquez, J., concurred.\nAs the trial court noted, to \u201cport\u201d software is to adapt it to run on a particular computing platform.\nAlthough the press releases described in this paragraph provided the genesis for this lawsuit, neither party appears to have included them in the record on appeal. At least neither party cites us to them, and we have failed to find them, although the record is exceptionally difficult to navigate for a number of reasons, including that the text in the digital facsimiles thoughtfully supplied by the parties has been inadequately digitized and cannot be reliably searched. We find in one expert report a Web address for what appear to be copies of the news releases. (See Oracle Stops All Software Development For Intel Itanium Microprocessor (Mar. 22, 2011) <http://www.oracle.com/us/corporate/press/346696> [as of Aug. 27, 2015]; Oracle Issues Statement (Mar. 23, 2011) <http://www.oracle.com/us/corporate/press/349278> [as of Aug. 27, 2015].) However, while these documents appear to conform to the press releases as described in the record, they have not been properly brought before us.\nWe are not blind to the possibility that this consequence was not unintended.\nCounsel wrote, \u201c[T]he parties have agreed that on account of Oracle\u2019s announcement, HP will need to substantially revise its damages case. That is because approximately $3.4 billion of the $3.9 billion in damages HP is seeking were (as of January 2012) \u2018future damages\u2019 based on the assumption that Oracle would not be porting in the future. Since Oracle will timely perform on substantially all of its obligations \u2014 and 100% of its future obligations \u2014 HP\u2019s damages report obviously needs to be revised. HP and Oracle agree this will require a new report from HP\u2019s damages expert, a response from Oracle\u2019s damages expert, and supplemental expert depositions, all of which must be completed before trial.\u201d\nHe quoted one research firm as concluding that \u201cHP\u2019s customers should not immediately assume that everything has returned to a \u2018status quo ante.\u2019 Once Humpty Dumpty has fallen off the wall it is very difficult to put the pieces together again.\u201d (Fichera, HP Vs. Oracle \u2014 Despite Verdict In Favor Of HP, The End Is Not Yet In Sight (Forrester Blogs, Aug. 3, 2012) <http://blogs.forrester.com/richard_fichera/12-08-03-hp_vs_oracle_despite_verdict_in_favor_ of_hp_the_end_is_not_yet_in_sight> [as of Aug. 27, 2015].) That analysis went on to state, \u201cOracle will appeal, and there is no guarantee of the outcome. ... [\u00b6] ... [\u00b6] So the game is not over, and before HP Integrity users relax and return to business as usual, they need to wait for the final resolution of the legal actions, as well as closure and specificity on what will be delivered and when in the case of an eventual HP victory.\u201d (Ibid., boldface omitted.) An appendix to the report included another blog entry from the same source noting that, in view of the ongoing legal proceedings, \u201c \u2018Oracle\u2019s future availability on Itanium and HP-UX is not yet assured, so we really cannot advise the large number of Oracle users who will require Oracle 12 and later versions to relax yet.\u2019 \u201d (Quoting Fichera, HP and Intel Announce Poulson and New Integrity Servers \u2014 Great News for a Select New (Forrester Blogs, Nov. 9, 2012) <http://blogs.forrester.com/richard_fichera/12-ll-09-hp_and_intel_announce_poulson_ and_new_integrity_servers_great_news_for_a_select_few> [as accessed Nov. 12, 2012].) .\nOracle had filed a petition for writ of mandate on October 12, 2012, asking this court to overturn the trial court\u2019s decision in phase 1. We ultimately denied the petition without opinion. (Oracle Corp. v. Superior Court (Jan. 31, 2013, H038880), petn. den.)\nOracle filed a second petition in this court on lanuary 17, 2013, challenging the trial court\u2019s order allowing HP to submit supplemental expert reports as well as limitations on the supplemental discovery it allowed Oracle to conduct. We denied the petition without opinion. (Oracle Corp. v. Superior Court (Mar. 27, 2013, H039210), petn. den.)\nIn a spirit of reciprocity, the Legislature also granted an immediate appeal to losing plaintiffs. (See Grewal v. Jammu, supra, 191 Cal.App.4th 977, 1000-1001, quoting Sen. Com. on Judiciary, Analysis of Assem. Bill No. 1675 (1999-2000 Reg. Sess.) as amended May 28, 1999, p. 3 [\u201c \u2018The author is submitting amendments in Committee to clarify that the right of appeal would apply to motions granted or denied in order to assure that both the plaintiff and defendant are given equal rights to appeal an adverse order.\u2019 \u201d].) As a practical matter, however, many plaintiffs are unlikely to appreciate the gesture. If an anti-SLAPP order strikes the entire complaint, it effects a judgment of dismissal, which is appealable in its own right. (See Melbostad v. Fisher (2008) 165 Cal.App.4th 987, 994 [81 Cal.Rptr.3d 354]; Code Civ. Proc., \u00a7 904.1, subd. (a)(1).) Section 425.16(i) can thus affect plaintiffs only where an anti-SLAPP motion is granted as to part but not all of the plaintiff\u2019s case. In that situation, the most efficient path might be \u2014 and many plaintiffs might prefer \u2014 to litigate the remaining claims and seek appellate review of the SLAPP order, if necessary, on appeal from the resulting judgment. By granting an immediate appeal, the statute forces the plaintiff to choose between interrupting the prosecution of his or her case and forfeiting appellate review of the SLAPP ruling. (See Code Civ. Proc., \u00a7 906 [Authorizing review of \u201cany intermediate ruling, proceeding, order or decision which involves the merits or necessarily affects the judgment or order appealed from,\u201d but adding, \u201cThe provisions of this section do not authorize the reviewing court to review any decision or order from which an appeal might have been taken.\u201d]; Alfaro v. Community Housing Improvement System & Planning Assn., Inc. (2009) 171 Cal.App.4th 1356, 1370-1371 [89 Cal.Rptr.3d 659] [court \u201cmay not review an earlier appealable ruling\u201d on appeal from later judgment]; Strathvale Holdings v. E.B.H. (2005) 126 Cal.App.4th 1241, 1248 [25 Cal.Rptr.3d 372] [\u201cUnder section 906, on appeal, we may not review any order from which a separate appeal might have been taken.\u201d].)\nThe Supreme Court recognized the potential for abuse flowing from the automatic stay of trial proceedings when an order denying an anti-SLAPP motion is appealed. (Varian, supra, 35 Cal.4th at pp. 195-196.) The court urged lower courts to do what they could to deter frivolous motions and appeals by dismissing them promptly and, where appropriate, awarding sanctions. (Id. at p. 196.) The court was \u201c[h]opeful[]\u201d that this would \u201csomewhat reduce the risk of abuse.\u201d (Ibid.) But a prompt dismissal, even of a frivolous appeal, is not always feasible. In this case, HP\u2019s motion to dismiss the appeal was supported by four volumes of exhibits, which Oracle answered with another five volumes, with the result that the motion essentially duplicated the appeal itself. Top-drawer legal representation, such as both parties have engaged here, can obscure the core frivolousness of an appeal beneath layers of artful obfuscation which only the most painstaking examination can peel away. And where the stakes are high enough \u2014 as they certainly are here, judging from the multi-billion-dollar figures put forward by HP\u2019s experts on damages \u2014 the threat or even the certain prospect of sanctions may not alter the economic calculus that makes an anti-SLAPP motion, and ensuing appeal, so attractive.\nBut see Chitsazzadeh, supra, 199 Cal.App.4th 676, 680, footnote 2, where the court elected without explanation to \u201cregard\u201d an order striking a late anti-SLAPP motion \u201cas a denial of the motion, and therefore an appealable order.\u201d We question whether that approach conforms to either the letter or the spirit of the statute. It seems to us that appellate recognition of a power in trial courts to strike untimely anti-SLAPP motions would go far to curb the abuses observed in this and many other cases.\nThese figures assume the complaint was served no later than June 28, 2011, when Oracle filed a notice of appearance. On that assumption, the 60-day period expired no later than August 29, 2011. The anti-SLAPP motion was filed on March 8, 2013.\nThe rule that an amended complaint reopens the time to file an anti-SLAPP motion is intended to prevent sharp practice by plaintiffs who might otherwise circumvent the statute by filing an initial complaint devoid of qualifying causes of action and then amend to add such claims after 60 days have passed. (See Lam, supra, 91 Cal.App.4th 832, 840-841 [\u201cCauses of action subject to a special motion to strike could be held back from an original complaint . . . .\u201d].) But a rule properly tailored to that objective would permit an amended pleading to extend or reopen the time limit only as to newly pleaded causes of action arising from protected conduct. A rule automatically reopening a case to anti-SLAPP proceedings upon the filing of any amendment permits defendants to forgo an early motion, perhaps in recognition of its likely failure, and yet seize upon an amended pleading to file the same meritless motion later in the action, thereby securing the \u201cfree time-out\u201d condemned in Brar, supra, 115 Cal.App.4th 1315, 1318.\n\u201cQ. . .. And in September, early September, Oracle announced that it was complying with the Court\u2019s interpretation of the contract and resuming porting; right?\n\u201cA. Yes, while also under appeal.\n\u201cQ. Sure. Well, and \u2014 well, we\u2019ll get to that. So is it \u2014 is it Oracle\u2019s choice to continue to exercise its right to contest HP\u2019s claims that has caused your damages, as far as you\u2019re concerned?\n\u201cA. As far as I know, it is, yes.\u201d",
+        "type": "majority",
+        "author": "RUSHING, P. J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Latham & Watkins, Daniel M. Wall, Alfred C. Pfeiffer, Jr., and Sadik Huseny for Defendant, Cross-complainant and Appellant.",
+      "Gibson, Dunn & Crutcher, Jeffrey T. Thomas, Samuel Liversidge and Robert S. Frank, Jr., for Plaintiff, Cross-defendant and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. H039507.\nSixth Dist.\nAug. 27, 2015.]\nHEWLETT-PACKARD COMPANY, Plaintiff, Cross-defendant and Respondent, v. ORACLE CORPORATION, Defendant, Cross-complainant and Appellant.\nCounsel\nLatham & Watkins, Daniel M. Wall, Alfred C. Pfeiffer, Jr., and Sadik Huseny for Defendant, Cross-complainant and Appellant.\nGibson, Dunn & Crutcher, Jeffrey T. Thomas, Samuel Liversidge and Robert S. Frank, Jr., for Plaintiff, Cross-defendant and Respondent."
+  },
+  "file_name": "1174-01",
+  "first_page_order": 896,
+  "last_page_order": 919
+}

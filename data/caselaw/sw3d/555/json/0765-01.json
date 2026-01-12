@@ -1,0 +1,959 @@
+{
+  "id": 12657495,
+  "name": "Brandon Wayne TAYLOR, Appellant v. The STATE of Texas, Appellee",
+  "name_abbreviation": "Taylor v. State",
+  "decision_date": "2018-07-23",
+  "docket_number": "No. 07-16-00419-CR",
+  "first_page": "765",
+  "last_page": "781",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "555 S.W.3d 765"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex. App. Ct.",
+    "id": 30081,
+    "name": "Court of Appeals of Texas, Amarillo"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "Tex. Penal Code Ann. \u00a7 16.02",
+      "category": "laws:leg_statute",
+      "reporter": "Tex. Code Ann.",
+      "pin_cites": [
+        {
+          "page": "(c)(4)(A)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "809 S.W.2d 664",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9990543
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "667-68"
+        },
+        {
+          "page": "667"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/809/0664-01"
+      ]
+    },
+    {
+      "cite": "323 S.W.3d 893",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7326325
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "912"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/323/0893-01"
+      ]
+    },
+    {
+      "cite": "Tex. Penal Code Ann. \u00a7 21.11",
+      "category": "laws:leg_statute",
+      "reporter": "Tex. Code Ann.",
+      "weight": 3,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "129 S.W.3d 530",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9275151
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "535"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/129/0530-01"
+      ]
+    },
+    {
+      "cite": "2018 WL 2107237",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "pin_cites": [
+        {
+          "page": "*8"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "555 S.W.3d 116",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12657427
+      ],
+      "pin_cites": [
+        {
+          "page": "126"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/555/0116-01"
+      ]
+    },
+    {
+      "cite": "2013 WL 5676024",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "pin_cites": [
+        {
+          "page": "*3"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2017 WL 2333790",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "*1"
+        },
+        {
+          "page": "*1"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2017 WL 3882738",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "*1"
+        },
+        {
+          "page": "*1"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "288 S.W.3d 80",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7300643
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "86"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/288/0080-01"
+      ]
+    },
+    {
+      "cite": "523 S.W.2d 669",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10133454
+      ],
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "671"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/523/0669-01"
+      ]
+    },
+    {
+      "cite": "242 S.W.3d 32",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8301473
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "40-41"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/242/0032-01"
+      ]
+    },
+    {
+      "cite": "336 S.W.3d 306",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7320077
+      ],
+      "pin_cites": [
+        {
+          "page": "318"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/336/0306-01"
+      ]
+    },
+    {
+      "cite": "229 S.W.3d 469",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8399693
+      ],
+      "pin_cites": [
+        {
+          "page": "478"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/229/0469-01"
+      ]
+    },
+    {
+      "cite": "824 S.W.2d 568",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9981629
+      ],
+      "weight": 2,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "573",
+          "parenthetical": "en banc"
+        },
+        {
+          "page": "573"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/824/0568-01"
+      ]
+    },
+    {
+      "cite": "797 S.W.2d 906",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9990253
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "914-17"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/797/0906-01"
+      ]
+    },
+    {
+      "cite": "849 S.W.2d 817",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10017322
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "818-19",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/849/0817-01"
+      ]
+    },
+    {
+      "cite": "307 S.W.3d 386",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7325336
+      ],
+      "pin_cites": [
+        {
+          "page": "392"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/307/0386-01"
+      ]
+    },
+    {
+      "cite": "354 S.W.3d 425",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7317155
+      ],
+      "weight": 3,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "435-36"
+        },
+        {
+          "page": "436"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/354/0425-01"
+      ]
+    },
+    {
+      "cite": "330 S.W.3d 253",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7320819
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "273"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/330/0253-01"
+      ]
+    },
+    {
+      "cite": "368 S.W.3d 528",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7315609
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "535"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/368/0528-01"
+      ]
+    },
+    {
+      "cite": "15 S.W.3d 540",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11528487
+      ],
+      "weight": 2,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "542"
+        },
+        {
+          "page": "542"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/15/0540-01"
+      ]
+    },
+    {
+      "cite": "613 S.W.2d 497",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9971407
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "500"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/613/0497-01"
+      ]
+    },
+    {
+      "cite": "2016 WL 1391066",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "*2-3"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "658 S.W.2d 592",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9945747
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "594",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/658/0592-01"
+      ]
+    },
+    {
+      "cite": "622 S.W.2d 111",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9959534
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "113"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/622/0111-01"
+      ]
+    },
+    {
+      "cite": "818 S.W.2d 782",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9984678
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "785-86"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/818/0782-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C.S. \u00a7 2511",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(2)(d)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2016 WL 1730356",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "pin_cites": [
+        {
+          "page": "*4-5"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "390 S.W.3d 328",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7094850
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "335"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/390/0328-01"
+      ]
+    },
+    {
+      "cite": "861 S.W.2d 890",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10021117
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "893",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/861/0890-01"
+      ]
+    },
+    {
+      "cite": "70 S.W.3d 841",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9509699
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "845"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/70/0841-01"
+      ]
+    },
+    {
+      "cite": "544 S.W.3d 363",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12656197
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "370"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/544/0363-01"
+      ]
+    },
+    {
+      "cite": "634 S.W.2d 718",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9952877
+      ],
+      "weight": 2,
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "720",
+          "parenthetical": "orig. proceeding"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/634/0718-01"
+      ]
+    },
+    {
+      "cite": "906 S.W.2d 500",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10010787
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "511"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/906/0500-01"
+      ]
+    },
+    {
+      "cite": "937 S.W.2d 456",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        11312017
+      ],
+      "weight": 2,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "468"
+        },
+        {
+          "page": "468"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/937/0456-01"
+      ]
+    },
+    {
+      "cite": "2003 WL 22480926",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "opinion_index": 0
+    },
+    {
+      "cite": "2010 WL 2044905",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "pin_cites": [
+        {
+          "page": "*4"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "424 S.W.3d 245",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6952311
+      ],
+      "pin_cites": [
+        {
+          "page": "253"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/424/0245-01"
+      ]
+    },
+    {
+      "cite": "805 S.W.2d 459",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9997025
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "461"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/805/0459-01"
+      ]
+    },
+    {
+      "cite": "204 S.W.3d 404",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8446751
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "448-50"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/204/0404-01"
+      ]
+    },
+    {
+      "cite": "443 U.S. 307",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6182418
+      ],
+      "weight": 5,
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "319"
+        },
+        {
+          "page": "319"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/443/0307-01"
+      ]
+    },
+    {
+      "cite": "473 U.S. 667",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6205331
+      ],
+      "weight": 6,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "676"
+        },
+        {
+          "page": "811-12"
+        },
+        {
+          "page": "812"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/473/0667-01"
+      ]
+    },
+    {
+      "cite": "353 S.W.3d 797",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7319092
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "811",
+          "parenthetical": "quoting United States v. Bagley , 473 U.S. 667, 676, 105 S.Ct. 3375, 87 L.Ed. 2d 481 (1985) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/353/0797-01"
+      ]
+    },
+    {
+      "cite": "805 S.W.2d 396",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9995664
+      ],
+      "weight": 3,
+      "year": 1990,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/805/0396-01"
+      ]
+    },
+    {
+      "cite": "514 U.S. 419",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1339057
+      ],
+      "weight": 4,
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "437-38"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/514/0419-01"
+      ]
+    },
+    {
+      "cite": "183 S.W.3d 403",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8989263
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "406",
+          "parenthetical": "en banc"
+        },
+        {
+          "page": "407"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/183/0403-01"
+      ]
+    },
+    {
+      "cite": "86 S.W.3d 603",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9312916
+      ],
+      "weight": 4,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "612"
+        },
+        {
+          "page": "612"
+        },
+        {
+          "page": "612"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/86/0603-01"
+      ]
+    },
+    {
+      "cite": "841 S.W.2d 399",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10000452
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "404",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/841/0399-01"
+      ]
+    },
+    {
+      "cite": "373 U.S. 83",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11716714
+      ],
+      "weight": 3,
+      "year": 1963,
+      "pin_cites": [
+        {
+          "page": "87"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/373/0083-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1403,
+    "char_count": 40205,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2648443982641459
+    },
+    "sha256": "be72d46941ceda057f67250ac5a7c4a8c0b8cbc10573f5b9bbf6e0628d5b6ba2",
+    "simhash": "1:bb2ada707ae783ad",
+    "word_count": 6532
+  },
+  "last_updated": "2024-02-27T16:11:54.482228+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before QUINN, C.J., and PIRTLE and PARKER, JJ."
+    ],
+    "parties": [
+      "Brandon Wayne TAYLOR, Appellant\nv.\nThe STATE of Texas, Appellee"
+    ],
+    "opinions": [
+      {
+        "text": "Judy C. Parker, Justice\nAppellant, Brandon Wayne Taylor, appeals his convictions for the offenses of indecency with a child, aggravated sexual assault of a child, and sexual assault of a child. Appellant was sentenced to five years' incarceration and a $10,000 fine, forty years' incarceration and a $10,000 fine, and thirteen years' incarceration and a $10,000 fine, respectively. The trial court ordered each of the sentences to run consecutively. By his appeal, appellant raises eight issues. We affirm the judgment of the trial court.\nFactual and Procedural Background\nAppellant was indicted for committing three counts of indecency with a child, four counts of aggravated sexual assault of a child, and one count of sexual assault of a child. All of these alleged offenses involved appellant's biological daughter, K.A.T. K.A.T. was thirteen or fourteen years old when each alleged incident occurred. The incidents forming the basis for these allegations occurred on or about August 1, August 9, September 13, and October 18, 2014, and January 1, 2015.\nWhen K.A.T.'s mother took possession of K.A.T. and her brother for summer visitation in May of 2015, she said she could not recognize K.A.T.'s personality. Concerned about K.A.T.'s changed behavior, her mother looked at K.A.T.'s phone and discovered vulgar and hypersexual text conversations, apparently with appellant. When she confronted K.A.T. about these messages, K.A.T. became embarrassed and ashamed and blamed \"everything\" on appellant.\nTo prove to her mother that she was telling the truth, K.A.T. called appellant from her hotel room in California while her mother recorded the phone call. In the conversation, K.A.T. told appellant that she had lost a journal that contained her writings about instances when he would come into her room and touch her. During the conversation, appellant never refuted K.A.T.'s repeated references to him coming into her room and touching her, and appellant acknowledged that, if K.A.T.'s mother reads the journal, she will talk to the police. Immediately following this, appellant told K.A.T., \"[y]ou better tell her you lied.\"\nThe case was reported to the Borger Police Department in May of 2015. Following an investigation, appellant was indicted as described above. Soon after being indicted, appellant retained an attorney from the Dallas area. In September of 2016, the trial court heard pre-trial matters. One of the matters addressed at this hearing was the State's motion in limine. The State sought to prohibit any evidence of K.A.T.'s past sexual behavior without a prior discussion of the evidence outside of the presence of the jury. Appellant objected, claiming that he needed to address her past sexual behavior to explain to the jury that she had been pregnant. The trial court granted the State's motion but held in abeyance any ruling on the admissibility of such evidence until it was offered at trial.\nLess than two weeks after the September pre-trial hearing and one week before trial had been specially set to begin, the trial court heard appellant's motion for continuance. Appellant requested a continuance after firing his Dallas lawyer and hiring local counsel. Appellant requested a ninety-day extension to allow his new counsel to obtain the file from appellant's former lawyer and to conduct some additional investigation. The trial court denied appellant's motion for continuance, citing the year and two months that the case had been pending as well as the fact that the case had been specially set for October 17, 2016. The trial court ordered appellant's prior attorney to turn over a copy of appellant's file within twenty-four hours.\nThe case was called for trial on October 17, 2016. Before trial began, the State abandoned two of the eight counts alleged. Appellant entered a plea of not guilty to all remaining counts. After hearing the evidence presented, which included the testimony of K.A.T., as well as the recording of the phone call between K.A.T. and appellant, the jury found appellant guilty of one count of indecency with a child, one count of sexual assault of a child, and one count of aggravated sexual assault of a child. After hearing punishment evidence, the jury returned a verdict sentencing appellant to five years' incarceration and $10,000 fine for the indecency conviction, thirteen years' incarceration and a $10,000 fine for the sexual assault conviction, and forty years' incarceration and a $10,000 fine for the aggravated sexual assault conviction.\nFollowing the trial, appellant filed a motion for new trial upon which the trial court held a hearing. Appellant offered the testimony of Michael Stanford, K.A.T.'s ex-boyfriend. Appellant contended that the State had violated his due process rights by not disclosing Stanford's testimony before trial. The State offered testimony to establish the extent to which it possessed information regarding how Stanford would have testified at trial. At the close of the hearing, the trial court denied the motion after opining that the new evidence was cumulative and collateral.\nBrady Violation\nBy his first issue, appellant contends that the State violated his due process rights by failing to disclose evidence that is exculpatory of appellant. Specifically, appellant contends that the State suppressed evidence that Michael Stanford, K.A.T.'s ex-boyfriend, would testify that he was with K.A.T. from December 30, 2014 through January 2, 2015, and that she and appellant did not have any contact during that period of time.\nLaw\nThe State must disclose exculpatory evidence that is material to the defendant's case. See Brady v. Maryland , 373 U.S. 83, 87, 83 S.Ct. 1194, 10 L.Ed. 2d 215 (1963). A Brady violation occurs when the State fails to disclose evidence which is favorable to the accused that creates a probability sufficient to undermine the confidence in the outcome of the proceeding. Thomas v. State , 841 S.W.2d 399, 404 (Tex. Crim. App. 1992) (en banc). Thus, to establish a Brady violation, a defendant must show that:\n1) the State failed to disclose evidence, regardless of the prosecution's good or bad faith;\n2) the withheld evidence is favorable to him; [and]\n3) the evidence is material, that is, there is a reasonable probability that had the evidence been disclosed, the outcome of the trial would have been different.\nHampton v. State , 86 S.W.3d 603, 612 (Tex. Crim. App. 2002).\n\"[P]rosecutors have a duty to learn of Brady evidence known to others acting on the [S]tate's behalf in a particular case.\" Harm v. State , 183 S.W.3d 403, 406 (Tex. Crim. App. 2006) (en banc) (citing Kyles v. Whitley , 514 U.S. 419, 437-38, 115 S.Ct. 1555, 131 L.Ed. 2d 490 (1995) ). However, the State is not obligated to disclose exculpatory information that it does not possess or know to exist. Id. at 407 (citing Hafdahl v. State , 805 S.W.2d 396, 399 n.3 (Tex. Crim. App. 1990) ). Further, the State \"is not required to seek out exculpatory evidence independently on appellant's behalf, or furnish appellant with exculpatory or mitigating evidence that is fully accessible to appellant from other sources.\" Id.\n\"Favorable evidence is that which, if disclosed and used effectively, 'may make the difference between conviction and acquittal.' \" Pena v. State , 353 S.W.3d 797, 811 (Tex. Crim. App. 2011) (quoting United States v. Bagley , 473 U.S. 667, 676, 105 S.Ct. 3375, 87 L.Ed. 2d 481 (1985) ). Favorable evidence includes exculpatory evidence as well as impeachment evidence. Id. Exculpatory evidence is evidence that may justify, excuse, or clear the defendant from guilt. Id. at 811-12. Impeachment evidence is evidence that disputes, disparages, denies, or contradicts other evidence. Id. at 812.\n\"Under Brady , the defendant bears the burden of showing that, in light of all the evidence, it is reasonably probable that the outcome of the trial would have been different had the prosecutor made a timely disclosure.\" Hampton , 86 S.W.3d at 612. If it is merely possible that the undisclosed information might have helped the defense or affected the outcome of the trial, it is not material in the constitutional sense. Id.\nAnalysis\nAppellant offered the testimony of Stanford and Stanford's grandparents at the hearing on appellant's motion for new trial. Stanford testified that he was with K.A.T. continuously from December 31, 2014 through January 2, 2015, and that there was no point during this time that appellant and K.A.T. came into contact. Stanford and his grandparents testified about a trip that they took with K.A.T. to the Dallas-Fort Worth area during which they stayed at a La Quinta Inn. Appellant contends that this is Brady evidence that the State had a duty to disclose because this evidence directly refutes the allegations relating to offenses occurring on or about October 18, 2014, and January 1, 2015.\nPrior to trial, the only person associated with the State to speak to Stanford was investigator C.H. Price. According to Price's testimony at the new trial hearing, Stanford said that he did not believe K.A.T.'s allegation against appellant because K.A.T. loved her dad. Stanford told Price that K.A.T. can be truthful but Stanford questioned her truthfulness because she cheated on him during their relationship. However, Price specifically testified that he and Stanford did not specifically discuss December 31, 2014, or the trip that K.A.T. took to the Dallas-Fort Worth area with Stanford and his grandparents. Thus, according to Price's testimony, the only evidence from Stanford that the State had knowledge of was that Stanford did not believe K.A.T.'s allegations against appellant because K.A.T. loved her dad and cheated on Stanford.\nThe State is under no duty to disclose exculpatory information that it does not know to exist. Hafdahl , 805 S.W.2d at 399 n.3 ; Harm , 183 S.W.3d at 407. As such, the State was not obligated to disclose any information concerning Stanford's potential testimony regarding December 31, 2014, or the trip to the Dallas-Fort Worth area because the State had no knowledge of this information until after the trial.\nThe only exculpatory evidence that Stanford could have provided and that the State knew of was that Stanford did not believe K.A.T.'s allegations and that Stanford believed K.A.T. to be untruthful on occasion because she cheated on him. In his appellate brief, appellant does not specifically address this evidence and, therefore, he has failed to meet his burden to show that, in light of all the evidence, it is reasonably probable that the outcome of the trial would have been different if the prosecutor had disclosed this evidence before trial. Hampton , 86 S.W.3d at 612. Further, appellant offered the testimony of at least four witnesses that K.A.T. lies. Therefore, Stanford's testimony would have merely been cumulative.\nAs such, we conclude that appellant has not shown that the State violated Brady by failing to disclose the information that it had obtained prior to trial from Stanford. Consequently, we overrule appellant's first issue.\nSufficiency of the Evidence\nBy his second and third issues, appellant challenges the legal and factual sufficiency of the evidence to support his convictions.\nLaw\nIn assessing the sufficiency of the evidence, we review all the evidence in the light most favorable to the verdict to determine whether any rational trier of fact could have found the essential elements of the offense beyond a reasonable doubt. Jackson v. Virginia , 443 U.S. 307, 319, 99 S.Ct. 2781, 61 L.Ed. 2d 560 (1979) ; see Brooks , 323 S.W.3d at 912. \"[O]nly that evidence which is sufficient in character, weight, and amount to justify a factfinder in concluding that every element of the offense has been proven beyond a reasonable doubt is adequate to support a conviction.\" Brooks , 323 S.W.3d at 917 (Cochran, J., concurring). We remain mindful that \"[t]here is no higher burden of proof in any trial, criminal or civil, and there is no higher standard of appellate review than the standard mandated by Jackson .\" Id. When reviewing all of the evidence under the Jackson standard of review, the ultimate question is whether the jury's finding of guilt was a rational finding. See id. at 906-07 n.26 (discussing Judge Cochran's dissenting opinion in Watson v. State , 204 S.W.3d 404, 448-50 (Tex. Crim. App. 2006), as outlining the proper application of a single evidentiary standard of review). \"[T]he reviewing court is required to defer to the jury's credibility and weight determinations because the jury is the sole judge of the witnesses' credibility and the weight to be given their testimony.\" Id. at 899.\nAnalysis\nAppellant contends that the evidence is insufficient to support his convictions because the weight of the evidence was overwhelming that K.A.T. had no contact with appellant on August 1 or 9, 2014, or on January 1, 2015. Appellant points to the testimony of four different witnesses that K.A.T. did not return from summer visitation with her mother until August 16, 2014. Further, those same witnesses testified that K.A.T. was not in the same location as appellant on December 31, 2014 through the following afternoon. Appellant also reiterates that his inability to offer Stanford's testimony regarding K.A.T.'s whereabouts on December 31, 2014, caused him significant harm and renders the evidence insufficient. Finally, appellant points to the testimony from K.A.T.'s mother that she had taken K.A.T. to the Western Arkansas Counseling Guidance Center for help dealing with K.A.T.'s lying, stealing, manipulation, and hypersexuality, as proof that K.A.T. is not credible.\nMost of the evidence highlighted by appellant as establishing the insufficiency of the evidence supporting his convictions is simply evidence that conflicts with K.A.T.'s testimony or draws her credibility into question. However, we are required to defer to the jury's credibility and weight determinations, and the jury is entitled to believe all, some, or none of the witnesses' testimony. Id. ; Chambers v. State , 805 S.W.2d 459, 461 (Tex. Crim. App. 1991). Further, the testimony of a child complainant alone is sufficient to support a conviction for sexual assault. TEX. CODE CRIM. PROC. ANN. art. 38.07 (West Supp. 2017); Torres v. State , 424 S.W.3d 245, 253 (Tex. App.-Houston [14th Dist.] 2014, pet. ref'd). In this case, K.A.T.'s testimony was sufficient evidence of each of the essential elements of the offenses for which appellant was convicted. Viewing all the evidence in the light most favorable to the verdict, we conclude that the evidence was sufficient to allow a rational jury to find the essential elements of the offenses for which appellant was convicted beyond a reasonable doubt. See Jackson , 443 U.S. at 319, 99 S.Ct. 2781 ; Brooks , 323 S.W.3d at 912.\nAs for appellant's contention regarding his inability to offer the testimony of Stanford, we may not consider evidence not presented to the jury in our sufficiency review. See Fahimi-Monzari v. State , No. 05-09-00555-CR, 2010 WL 2044905, at *4, 2010 Tex. App. LEXIS 3902, at *12 (Tex. App.-Dallas May 25, 2010, no pet.) (citing Arellano v. State , No. 05-02-01200-CR, 2003 WL 22480926, at *2 n. 1, 2003 Tex. App. LEXIS 9350, at *7 n. 1 (Tex. App.-Dallas Nov. 4, 2003, no pet.) ).\nBecause we conclude that sufficient evidence was presented to enable the jury to find appellant guilty of the offenses for which he was convicted beyond a reasonable doubt, we deny appellant's second and third issues.\nContinuance\nBy his fourth issue, appellant contends that the trial court erred in denying his motion for continuance. Appellant filed a motion for continuance and obtained a hearing on the motion on October 10, 2016, seven days before the trial was specially set. The trial court denied the motion.\nLaw\nA trial court's ruling on a motion for continuance is reviewed for abuse of discretion. Janecka v. State , 937 S.W.2d 456, 468 (Tex. Crim. App. 1996). To establish that the denial of a motion for continuance constituted an abuse of discretion, the defendant must show that he was prejudiced by his counsel's inadequate preparation time. Heiselbetz v. State , 906 S.W.2d 500, 511 (Tex. Crim. App. 1995). Counsel's mere desire for more time to prepare does not establish an abuse of discretion. Janecka , 937 S.W.2d at 468.\nRelevant factors to be considered in reviewing the grant or denial of a motion for continuance include: (1) the length of delay requested; (2) prior requests for continuance and whether they were granted or denied; (3) the length of time the accused had to prepare for trial; (4) the existence of another competent attorney that is prepared to try the case; (5) the inconvenience to witnesses, opposing counsel, and the trial court; (6) the legitimacy of the reason for the delay; (7) the complexity of the case; (8) identifiable harm that was caused by the denial; and (9) the quality of legal representation actually provided. Ex parte Windham , 634 S.W.2d 718, 720 (Tex. Crim. App. 1982) (orig. proceeding). The public interest in the fair and orderly administration of justice may be greater than a defendant's right to have counsel of his choice. Id.\nAnalysis\nAppellant did not request a continuance until one week before trial was set to commence. While appellant only requested a ninety-day continuance, the case had been pending for approximately one year and two months and the trial had been specially set by agreement of the parties for October 17, 2016. Appellant's prior counsel had adequate time to prepare for and presumably was prepared to go to trial. While appellant testified about the problems he had with his prior counsel's representation and approach to his case, appellant never explained why he did not seek to change his counsel until a week before trial. The State had made arrangements for out-of-state witnesses and such a last-minute change to the trial setting would have been a significant inconvenience to the State and those witnesses. As the trial court noted, while certainly serious, this case was not particularly complex.\nIn reviewing the record, appellant's trial counsel was prepared and zealously defended appellant. Appellant's identification of how he was harmed by the trial court's denial of the motion for continuance requires speculation that the information that appellant sought would be relevant and exculpatory.\nConsequently, we cannot conclude that the trial court abused its discretion in denying appellant's motion for continuance. We overrule appellant's fourth issue.\nAdmission of Recorded Phone Call\nBy his seventh issue, appellant contends that the trial court erred by allowing a recording of a telephone call into evidence because that recording was made in violation of the laws of the state in which it was made.\nLaw\nA trial court's decision to admit or exclude evidence is reviewed under an abuse of discretion standard. Gonzalez v. State , 544 S.W.3d 363, 370 (Tex. Crim. App. 2018). A trial court abuses its discretion when its decision lies outside of the zone of reasonable disagreement. Id. We must uphold the trial court's decision if it is reasonably supported by the record and correct under any theory of law applicable to the case. Willover v. State , 70 S.W.3d 841, 845 (Tex. Crim. App. 2002). A trial court necessarily abuses its discretion when it admits evidence that was obtained in violation of state or federal law. Erdman v. State , 861 S.W.2d 890, 893 (Tex. Crim. App. 1993) (en banc), overruled on other grounds by , Fienen v. State , 390 S.W.3d 328, 335 (Tex. Crim. App. 2012). This is true because \"[n]o evidence obtained by an officer or other person in violation of any provisions of the Constitution or laws of the State of Texas, or of the Constitution or laws of the United States of America, shall be admitted in evidence against the accused on the trial of any criminal case.\" TEX. CODE CRIM. PROC. ANN. art. 38.23(a) (West 2018).\nUnder Texas law, it is not unlawful to record a telephone call if the person making the recording is a party to the call or one of the parties to the call has given prior consent. Wesley v. State , No. 08-14-00121-CR, 2016 WL 1730356 at *4-5, 2016 Tex. App. LEXIS 4551 at *11-12 (Tex. App.-El Paso Apr. 29, 2016, pet. ref'd) (not designated for publication) (citing TEX. PENAL CODE ANN. \u00a7 16.02(c)(4) (West Supp. 2017) ). Likewise, under federal law, it is not unlawful to record a telephone call if the person making the recording is a party to the call or one of the parties to the call has given prior consent. 18 U.S.C.S. \u00a7 2511(2)(d). However, the parties to the present case stipulated that, under California law, all parties to a telephone call must consent to its recording before it is legal to record. See CAL. PENAL CODE ANN. \u00a7 632(a).\nAnalysis\nThe recorded phone call was of a conversation between K.A.T. and appellant that was made while both parties were in California. The parties to the present case stipulated that K.A.T. consented to the recording but appellant did not consent to the recording and, in fact, was unaware that the call was being recorded. While the parties agreed that the recording was illegally obtained under California law, they disagreed as to whether that rendered the evidence inadmissible under article 38.23(a).\nArticle 38.23(a) provides that evidence is inadmissible against an accused in a criminal trial if the evidence was obtained in violation of federal or Texas law. See TEX. CODE CRIM. PROC. ANN. art. 38.23(a). In construing a statute, we apply the plain meaning of the language as written unless doing so would make its meaning ambiguous or lead to absurd results. Boykin v. State , 818 S.W.2d 782, 785-86 (Tex. Crim. App. 1991). Applying this rule of statutory construction unambiguously leads to the conclusion that evidence is inadmissible under this statute only if it was obtained in violation of federal or Texas law. The challenged telephone call recording was not obtained in violation of either federal or Texas law, both of which require only one party's consent to the recording. As such, we conclude that the trial court did not abuse its discretion in admitting the recording over appellant's objection.\nUse of Transcript of Recorded Phone Call\nBy his fifth issue, appellant contends that the trial court erred by allowing the jury to use a State-generated transcript of the recorded telephone call discussed above because the transcript violates the best evidence rule and is inaccurate.\nLaw\nWe review the admission of demonstrative evidence for abuse of discretion. See Simmons v. State , 622 S.W.2d 111, 113 (Tex. Crim. App. 1981). The Texas Court of Criminal Appeals has explained that a transcript of a recording that has been identified as an accurate representation of the conversation by a participant to the conversation \"is no different than testimony by that witness that the transcribed words were spoken by the participants at the time of his conversation with appellant.\" Garrett v. State , 658 S.W.2d 592, 594 (Tex. Crim. App. 1983) (en banc). Transcripts of an audio recording may be used to aid the jury if: (1) the appellant is given an advance copy and adequate time to review and contest it, (2) the transcript is not admitted as evidence, and (3) the trial court provides the jury a limiting instruction. Burns v. State , No. 07-15-00229-CR, 2016 WL 1391066 at *2-3, 2016 Tex. App. LEXIS 3405 at *7 (Tex. App.-Amarillo Apr. 1, 2016, pet. ref'd) (mem. op., not designated for publication).\nAnalysis\nIn his argument of this issue, appellant does not challenge the transcript directly. Rather, he challenges the quality of the recording of the telephone call and the potential that the recording has been altered. He does not contend that he did not receive a copy of the transcript before trial. Further, appellant does not contend that the transcript was admitted into evidence. Finally, appellant does not contend that the trial court failed to provide the jury with a limiting instruction. Consequently, appellant has not presented an argument that supports his contention that the trial court erred in allowing the State to use the transcript as a demonstrative jury aid. Id.\nAppellant does argue that the recording includes inaudible portions and, we presume, he also contends that the transcript is unreliable as to those portions. However, since appellant does not challenge that he had an advance copy of the transcript which was not admitted and which the jury was instructed could only be used as a demonstrative aid, we cannot conclude that the trial court abused its discretion in overruling appellant's objection. Id., at *2-3, 2016 Tex. App. LEXIS 3405 at *7-8.\nFinally, appellant simply states that the use of the transcript violates the best evidence rule. However, we fail to see how the best evidence rule could have been violated when the transcript was used only for demonstrative purposes while the actual recording of the telephone call was admitted into evidence.\nConsequently, we overrule appellant's fifth issue.\nQualifications of State's Expert Witness\nBy his sixth issue, appellant contends that the trial court erred in allowing Danielle Litchford to testify as an expert witness without proper qualifications.\nLaw\nThe admissibility of evidence generally and the qualifications of a witness to testify as an expert are reviewable for abuse of discretion. See TEX. R. EVID. 104(a) ; Holloway v. State , 613 S.W.2d 497, 500 (Tex. Crim. App. 1981). We will uphold the trial court's ruling if it is within the zone of reasonable disagreement. Weatherred v. State , 15 S.W.3d 540, 542 (Tex. Crim. App. 2000).\nA witness qualified as an expert by knowledge, skill, experience, training, or education may testify in the form of an opinion if: (1) the witness's expertise will help the trier of fact understand the evidence, (2) the testimony is based on sufficient data, (3) the testimony is based on reliable principles and methods, and (4) the expert has reliably applied the principles and methods to the facts of the case. TEX. R. EVID. 702 ; In re Martinez , No. 09-05-00493-CV, 2006 Tex. App. LEXIS 7459, at *10 (Tex. App.-Beaumont May 26, 2006, no pet.) (mem. op.). The threshold determination is whether the evidence is helpful to the jury and, to be helpful, the evidence must be reliable. Somers v. State , 368 S.W.3d 528, 535 (Tex. Crim. App. 2012).\nPsychology is considered a \"soft science.\" Weatherred , 15 S.W.3d at 542. Where the reliability of soft science is at issue, the inquiry is more flexible than that applied to the hard sciences. Coble v. State , 330 S.W.3d 253, 273 (Tex. Crim. App. 2010). To determine the reliability of soft-science testimony, the trial court must determine whether (1) the field of expertise is a legitimate one, (2) the subject matter of the expert's testimony is within the scope of that field, and (3) the expert's testimony properly relies on or utilizes the principles involved in that field. Tillman v. State , 354 S.W.3d 425, 435-36 (Tex. Crim. App. 2011).\nAnalysis\nDanielle Litchford is a licensed professional counselor who counseled K.A.T. to help her deal with post-traumatic stress disorder and major depressive disorder. Litchford testified that she has a bachelor's degree in sociology and a master's degree in marriage and family therapy. She has counseled for eight years and has been licensed as a therapist for four years. She has received continuing education in trauma-focused cognitive behavioral therapy. At the time of trial, she had counseled ten to twenty children where the primary focus of treatment was sexual abuse. However, Litchford has not taken any specific classes related to counseling sexually abused children and she had never been qualified to testify as an expert in Texas or any other state.\nMost of appellant's argument regarding Litchford's qualifications go to whether her testimony was reliable. Under Tillman , our analysis of whether Litchford's testimony was reliable must focus on whether her field of expertise is a legitimate field, whether the subject matter of her testimony was within that field, and whether her testimony relied on the principles involved in that field. Id. Research concerning the behavioral characteristics of sexually abused children is a legitimate field of expertise. Chavarria v. State , 307 S.W.3d 386, 392 (Tex. App.-San Antonio 2009, no pet.) (citing Cohn v. State , 849 S.W.2d 817, 818-19 (Tex. Crim. App. 1993) (en banc), and Duckett v. State , 797 S.W.2d 906, 914-17 (Tex. Crim. App. 1990), among others). According to Litchford's testimony, her counseling sessions with K.A.T. were within the scope of this field of expertise. Finally, Litchford testified about her sessions with K.A.T., including how those sessions relied on the principles of counseling sexually abused children. Consequently, we conclude that the trial court did not abuse its discretion in concluding that Litchford's qualifications meet those required for a soft science under Tillman .\nWhile we consider expert testimony in the soft sciences through the lens of Tillman , we must still consider the general principles announced in Kelly v. State , 824 S.W.2d 568, 573 (Tex. Crim. App. 1992) (en banc), although the specific factors outlined in that case may not apply. Tillman , 354 S.W.3d at 436. Appellant contends that Litchford is not qualified because she has only treated ten clients in the last two years whose primary area of concern was sexual abuse, she has not written any papers in her field, and no medical doctor or psychiatrist reviewed her notes. However, appellant does not present any argument explaining why treating ten clients within a two-year period is insubstantial. Based on Litchford's testimony that she had nineteen sessions with K.A.T. between March and October of 2016, it is reasonable to assume that Litchford had a limited number of clients during this two-year period. Further, Litchford's testimony was that she had counseled ten children whose primary focus was sexual abuse, which implies that she has worked with other children that have issues relating to sexual abuse but for whom that is not the primary focus of her treatment. We believe that Litchford's treatment of ten children whose primary focus was sexual abuse within a two-year period is not evidence that Litchford was unqualified to testify as an expert. Even Kelly does not require an expert to have written papers in her field. See Kelly , 824 S.W.2d at 573. Therefore, we cannot conclude that such a failure is a disqualifying factor in determining whether a witness qualifies as an expert. Finally, appellant does not cite to any authority that would impose the burden of having a potential expert witness have her treatment notes independently reviewed by an expert in another field before being qualified to provide expert testimony. Having concluded that Litchford meets the reliability requirements of Tillman , we do not believe that review of Litchford's notes is required.\nFinally, appellant attacks Litchford's qualifications by contending that Litchford's expert opinions are unreliable because there was additional information relating to K.A.T. that Litchford did not know at the time that she formulated her opinions. Lack of historical information by an expert generally goes to the weight of the expert's testimony, not its admissibility. LMC Complete Auto., Inc. v. Burke , 229 S.W.3d 469, 478 (Tex. App.-Houston [1st Dist.] 2007, pet. denied). Particularly, appellant points to testimony that establishes that Litchford did not know that K.A.T. had been raped as a child and, as such, Litchford did not distinguish between what parts of K.A.T.'s behavior were attributable to the rape versus the sexual assault committed by appellant. Complaints about analytical gaps in expert testimony also go to the weight of the evidence, and not its admissibility. LaSalle Pipeline, LP v. Donnell Lands, L.P. , 336 S.W.3d 306, 318 (Tex. App.-San Antonio 2010, pet. denied) (citing Ford Motor Co. v. Ledesma , 242 S.W.3d 32, 40-41 (Tex. 2007) ). Appellant was able to cross-examine Litchford about her lack of knowledge of these incidents. The jury was free to ascribe the appropriate weight to Litchford's testimony.\nFor the foregoing reasons, we overrule appellant's sixth issue.\nMotion in Limine\nBy his eighth issue, appellant contends that the trial court erred in granting the State's motion in limine that prohibited appellant from introducing evidence of the complainant's motive to lie about the sexual assault without first presenting the evidence to the court outside of the presence of the jury.\nLaw\nUnlike a trial court's admissibility rulings, a motion in limine is a means of raising objections to a general area of inquiry prior to the matter reaching the ears of the jury through testimony, jury argument, or other means. Norman v. State , 523 S.W.2d 669, 671 (Tex. Crim. App. 1975). The grant of a motion in limine does not exclude evidence; rather, it merely requires parties to approach the trial court for a definitive ruling before attempting to put on evidence within the scope of the motion. Thierry v. State , 288 S.W.3d 80, 86 (Tex. App.-Houston [1st Dist.] 2009, pet. ref'd). As such, the grant or denial of a motion in limine does not preserve error. Id.\nAnalysis\nAppellant does not identify any instance during the trial where he attempted to offer evidence or elicit testimony of K.A.T.'s motive to lie but was denied that opportunity by a ruling of the trial court. In his brief, the evidence that appellant claims he was prohibited from presenting by the trial court's motion in limine ruling was that K.A.T. was motivated to lie because she was pregnant and wanted to have an abortion against appellant's wishes. However, during appellant's cross-examination of K.A.T., he elicited the testimony that she was pregnant and that she went to California with her mother to have an abortion. Thus, the trial court did not make an evidentiary ruling on any evidence regarding K.A.T.'s motive to lie, and appellant was allowed to elicit the testimony that he claims was prohibited by the trial court's ruling on the State's motion in limine. Consequently, we overrule appellant's eighth issue.\nConfrontation Clause\nWithin his argument regarding the motion in limine, appellant contends that the trial court's alleged restriction of his ability to cross-examine K.A.T. to establish her motive to lie violates the Confrontation Clause of the United States Constitution. As discussed above, the trial court did not exclude any evidence of K.A.T.'s motive to lie and, in fact, appellant was allowed to cross-examine K.A.T. regarding her pregnancy and desire to have an abortion. Further, appellant cross-examined K.A.T. fully and was able to elicit significant information regarding her lack of truthfulness and motive to lie. As such, we cannot conclude that any ruling of the trial court regarding K.A.T.'s testimony violated appellant's Confrontation Clause rights.\nAlso, toward the end of appellant's motion in limine argument, appellant states that if the Court determines that there was no Brady violation in the State's failure to disclose Stanford as a potential witness, \"then the Court should consider that failure to disclose as a Confrontation Clause violation.\" No additional argument is presented and appellant does not include any citations to the record or case law to support this statement. As such, this contention is inadequately briefed and is waived. Araujo v. State , No. 07-16-00463-CR, 2017 WL 3882738, at *1, 2017 Tex. App. LEXIS 8436, at *2 (Tex. App.-Amarillo Sept. 5, 2017, no pet.) (mem. op., not designated for publication); Gonzalez v. Park , No. 07-16-00305-CV, 2017 WL 2333790 at *1, 2017 Tex. App. LEXIS 4624 at *1 (Tex. App.-Amarillo May 19, 2017, no pet.) (mem. op.) (per curiam); see TEX. R. APP. P. 38.1(i). In his reply brief, appellant provides some citations to authority relevant to his argument that the State's failure to disclose Stanford constituted a violation of his Confrontation Clause rights. Failure to cite to the record or applicable authority until a reply brief waives the argument. Bank of Am., N.A. v. Barth , No. 13-08-00612-CV, 2013 WL 5676024 at *3, 2013 Tex. App. LEXIS 12871 at *9 (Tex. App.-Corpus Christi Oct. 17, 2013, no pet.).\nFinally, in regard to both of these Confrontation Clause contentions, appellant does not cite where in the record he raised this objection with the trial court. In our review of the record, we have found no such objection raised as it relates to K.A.T.'s or Stanford's testimony. \"[A] defendant's failure to object on Confrontation Clause grounds at trial waives a Confrontation Clause complaint for appellate review.\" Scott v. State , No. 01-16-00933-CR, 555 S.W.3d 116, 126, 2018 WL 2107237 at *8, 2018 Tex. App. LEXIS 3200 at *19-20 (Tex. App.-Houston [1st Dist.] May 8, 2018, no pet. h.) (citing Paredes v. State , 129 S.W.3d 530, 535 (Tex. Crim. App. 2004) ).\nMotion for New Trial\nIn the Conclusion and Prayer of his brief, appellant states that the trial court abused its discretion by denying appellant's motion for new trial. This statement is unaccompanied by any argument or citations to the record or case law. As such, this contention is inadequately briefed and is waived. Araujo , 2017 WL 3882738, at *1, 2017 Tex. App. LEXIS 8436, at *2 ; Gonzalez , 2017 WL 2333790, at *1, 2017 Tex. App. LEXIS 4624, at *1 ; see TEX. R. APP. P. 38.1(i).\nConclusion\nHaving overruled each of appellant's issues, we affirm the judgment of the trial court.\nSee Tex. Penal Code Ann. \u00a7 21.11(a)(1) (West Supp. 2017).\nSee id. \u00a7 22.021(a) (West Supp. 2017).\nSee id. \u00a7 22.011(a)(2)(A) (West Supp. 2017).\nThe allegations relating to October 18, 2014, were that appellant took K.A.T. to the Dallas-Fort Worth area on a work-related trip and that they stayed in a La Quinta Inn. Appellant contends that it was from the trip that K.A.T. took with Stanford and his grandparents that K.A.T. developed the story underlying the October 18, 2014 allegations.\nIn Brooks v. State , 323 S.W.3d 893, 912 (Tex. Crim. App. 2010), the Texas Court of Criminal Appeals decided that there is no meaningful distinction between the legal and factual sufficiency standard. As such, we will address appellant's second and third issues together.\nThe three counts for which appellant was found guilty occurred on or about August 1, 2014, and January 1, 2015.\nAs an example, appellant indicates that the continuance would have enabled him to obtain phone records of K.A.T. and that those records might have shown that K.A.T. was not where she claimed that certain instances of sexual assault occurred. However, since appellant did not offer such evidence at the hearing on his motion for new trial or in some other manner, we would have to speculate that those records would be relevant and exculpatory.\nAppellant cites to Kent v. State , 809 S.W.2d 664, 667-68 (Tex. App.-Amarillo 1991, pet. ref'd), in which this Court held that the defendant violated Texas law by having another person place a device on his wife's phone line that would intercept her calls so that he could eavesdrop on and record them. However, the opinion expressly notes that, \"[n]one of the exceptions specifically provided by subsection (c) of [Texas Penal Code] section 16.02 has been invoked.\" Id. at 667. However, in the present case, the parties stipulated that K.A.T. was a party to the communication, which meets the exception provided by subsection (c)(4)(A) of section 16.02. Tex. Penal Code Ann. \u00a7 16.02(c)(4)(A).\nNotably, K.A.T. would fall into this category since Litchford counseled K.A.T. primarily to help her deal with post-traumatic stress disorder and major depressive disorder.\nHowever, even in his reply brief, appellant does not include citations to the record relating to this contention.",
+        "type": "majority",
+        "author": "Judy C. Parker, Justice"
+      }
+    ],
+    "attorneys": [
+      "Erin Lands, for Appellee.",
+      "Michael A. Warner, Amarillo, for Appellant."
+    ],
+    "corrections": "",
+    "head_matter": "Brandon Wayne TAYLOR, Appellant\nv.\nThe STATE of Texas, Appellee\nNo. 07-16-00419-CR\nCourt of Appeals of Texas, Amarillo.\nJuly 23, 2018\nErin Lands, for Appellee.\nMichael A. Warner, Amarillo, for Appellant.\nBefore QUINN, C.J., and PIRTLE and PARKER, JJ."
+  },
+  "file_name": "0765-01",
+  "first_page_order": 765,
+  "last_page_order": 781
+}

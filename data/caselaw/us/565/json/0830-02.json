@@ -1,0 +1,59 @@
+{
+  "id": 12199981,
+  "name": "Martin v. Alabama",
+  "name_abbreviation": "Martin v. Alabama",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-9682",
+  "first_page": "830",
+  "last_page": "830",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 830"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 71,
+    "ocr_confidence": 0.681,
+    "sha256": "635d2432dee04c7482859ab280e4f7dfdd2467043c1e5be2560d600d14c6a5ab",
+    "simhash": "1:04428157b3af8344",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Martin v. Alabama."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Ala. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9682.\nMartin v. Alabama."
+  },
+  "file_name": "0830-02",
+  "first_page_order": 912,
+  "last_page_order": 912
+}

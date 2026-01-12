@@ -1,0 +1,61 @@
+{
+  "id": 5942697,
+  "name": "United States v. Williams",
+  "name_abbreviation": "United States v. Williams",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 09-466",
+  "first_page": "1056",
+  "last_page": "1056",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1056"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 47,
+    "char_count": 387,
+    "ocr_confidence": 0.586,
+    "sha256": "5f53ba94d69f5c18d969f8f91c0f5065a84328fd994eaeb8b91d4b2b57318bcf",
+    "simhash": "1:db00e8124747da9e",
+    "word_count": 63
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor and Justice Kagan took no part in the consideration or decision of this motion and this petition."
+    ],
+    "parties": [
+      "United States v. Williams."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Motion of respondent for leave to proceed in forma pauperis granted. Certiorari granted, judgment vacated, and ease remanded for further consideration in light of Abbott v. United States, ante, p. 8.\nJustice Sotomayor and Justice Kagan took no part in the consideration or decision of this motion and this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "November 29, 2010\nNo. 09-466.\nUnited States v. Williams."
+  },
+  "file_name": "1056-02",
+  "first_page_order": 1078,
+  "last_page_order": 1078
+}

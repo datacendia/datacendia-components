@@ -1,0 +1,59 @@
+{
+  "id": 12428750,
+  "name": "Vega Padron v. United States",
+  "name_abbreviation": "Vega Padron v. United States",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-7314",
+  "first_page": "1108",
+  "last_page": "1108",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1108"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 77,
+    "ocr_confidence": 0.712,
+    "sha256": "69bb63055753d69b0d8b46ebc803f7647eaee080c2df82d0f481df7510afa5fa",
+    "simhash": "1:a28aca71ce8d9808",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Vega Padron v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7314.\nVega Padron v. United States."
+  },
+  "file_name": "1108-08",
+  "first_page_order": 1184,
+  "last_page_order": 1184
+}

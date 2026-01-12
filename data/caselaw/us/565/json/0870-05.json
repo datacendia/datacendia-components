@@ -1,0 +1,59 @@
+{
+  "id": 12211382,
+  "name": "Nelson v. Virginia",
+  "name_abbreviation": "Nelson v. Virginia",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11156",
+  "first_page": "870",
+  "last_page": "870",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 870"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 66,
+    "ocr_confidence": 0.698,
+    "sha256": "d97c205e78ef99838269a5e6d91b84759a7fafcc4fad355a6a25f4fc3a955f5f",
+    "simhash": "1:aeff02c03e9cfdee",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Nelson v. Virginia."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Va. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11156.\nNelson v. Virginia."
+  },
+  "file_name": "0870-05",
+  "first_page_order": 952,
+  "last_page_order": 952
+}

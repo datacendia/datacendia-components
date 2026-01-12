@@ -1,0 +1,59 @@
+{
+  "id": 5961610,
+  "name": "Crase v. United States",
+  "name_abbreviation": "Crase v. United States",
+  "decision_date": "2010-10-18",
+  "docket_number": "No. 10-353",
+  "first_page": "982",
+  "last_page": "982",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 982"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.603,
+    "sha256": "5b4360b805277a0a835b86f3f3dfc2c136f5dfdc5c4dae20c2e4e584b56c5269",
+    "simhash": "1:856a1a339ec5d458",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Crase v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-353.\nCrase v. United States."
+  },
+  "file_name": "0982-09",
+  "first_page_order": 1004,
+  "last_page_order": 1004
+}

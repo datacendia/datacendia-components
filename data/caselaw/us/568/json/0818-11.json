@@ -1,0 +1,59 @@
+{
+  "id": 12409320,
+  "name": "Taylor et al. v. Streicher et al.",
+  "name_abbreviation": "Taylor v. Streicher",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-1389",
+  "first_page": "818",
+  "last_page": "818",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 818"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 81,
+    "ocr_confidence": 0.614,
+    "sha256": "2715aeca484780d62c7dd47cfae393cbd8c6df3a5497e1d2460ac74d787f2f31",
+    "simhash": "1:931a340249ae9c64",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Taylor et al. v. Streicher et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1389.\nTaylor et al. v. Streicher et al."
+  },
+  "file_name": "0818-11",
+  "first_page_order": 894,
+  "last_page_order": 894
+}

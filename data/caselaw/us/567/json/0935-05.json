@@ -1,0 +1,59 @@
+{
+  "id": 12411221,
+  "name": "Herring v. Florida",
+  "name_abbreviation": "Herring v. Florida",
+  "decision_date": "2012-06-25",
+  "docket_number": "No. 11-1158",
+  "first_page": "935",
+  "last_page": "935",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 935"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 66,
+    "ocr_confidence": 0.675,
+    "sha256": "2799e4b97f09dd26a136d756992c17dccaff12dbdb5fee52bf1fe5d1cbb256fe",
+    "simhash": "1:465e926270e53a33",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Herring v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1158.\nHerring v. Florida."
+  },
+  "file_name": "0935-05",
+  "first_page_order": 839,
+  "last_page_order": 839
+}

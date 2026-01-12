@@ -1,0 +1,59 @@
+{
+  "id": 6002825,
+  "name": "Jones v. Alabama",
+  "name_abbreviation": "Jones v. Alabama",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10987",
+  "first_page": "858",
+  "last_page": "858",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 858"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 71,
+    "ocr_confidence": 0.616,
+    "sha256": "753b8f8490c86dda58bb125ac6011da5a42f026bc9b7beeb6957d1636dba84cc",
+    "simhash": "1:0670cb1450c50d20",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jones v. Alabama."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Ala. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10987.\nJones v. Alabama."
+  },
+  "file_name": "0858-03",
+  "first_page_order": 880,
+  "last_page_order": 880
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5976655,
+  "name": "Baum v. AstraZeneca LP",
+  "name_abbreviation": "Baum v. AstraZeneca LP",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-160",
+  "first_page": "896",
+  "last_page": "896",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 896"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 69,
+    "ocr_confidence": 0.639,
+    "sha256": "bf97e0023d97be857bf10c2a6752d0674c510e973418597c56ed481a0586aea0",
+    "simhash": "1:cadee92a6aa3a326",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Baum v. AstraZeneca LP."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-160.\nBaum v. AstraZeneca LP."
+  },
+  "file_name": "0896-03",
+  "first_page_order": 918,
+  "last_page_order": 918
+}

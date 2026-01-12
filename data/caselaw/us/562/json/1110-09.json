@@ -1,0 +1,59 @@
+{
+  "id": 6019565,
+  "name": "LaCour v. Kilcrease et al.",
+  "name_abbreviation": "LaCour v. Kilcrease",
+  "decision_date": "2010-12-13",
+  "docket_number": "No. 10-597",
+  "first_page": "1110",
+  "last_page": "1110",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1110"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 73,
+    "ocr_confidence": 0.519,
+    "sha256": "cee39384e10b791e718d37c212d7cd6f1f7bf74a64bcb0de46ccd491b6a226e8",
+    "simhash": "1:80589888990bb422",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "LaCour v. Kilcrease et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-597.\nLaCour v. Kilcrease et al."
+  },
+  "file_name": "1110-09",
+  "first_page_order": 1132,
+  "last_page_order": 1132
+}

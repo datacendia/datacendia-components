@@ -1,0 +1,59 @@
+{
+  "id": 5945984,
+  "name": "Cawthon v. United States",
+  "name_abbreviation": "Cawthon v. United States",
+  "decision_date": "2011-06-06",
+  "docket_number": "No. 10-10324",
+  "first_page": "1039",
+  "last_page": "1039",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1039"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.634,
+    "sha256": "38f53e219e86221be750b79b9b060f5cc5f0be4d2faf46d7ea5fca2a309113a9",
+    "simhash": "1:163ace27028dbc5a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cawthon v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10324.\nCawthon v. United States."
+  },
+  "file_name": "1039-13",
+  "first_page_order": 1065,
+  "last_page_order": 1065
+}

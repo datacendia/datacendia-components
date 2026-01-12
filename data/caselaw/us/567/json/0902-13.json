@@ -1,0 +1,86 @@
+{
+  "id": 12407601,
+  "name": "In re Disbarment of Needle",
+  "name_abbreviation": "In re Disbarment of Needle",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. D-2642",
+  "first_page": "902",
+  "last_page": "902",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 902"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "566 U. S. 932",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12202976,
+        12202945,
+        12203011,
+        12202958,
+        12202992,
+        12203089,
+        12203065,
+        12203036
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/566/0932-03",
+        "/us/566/0932-01",
+        "/us/566/0932-05",
+        "/us/566/0932-02",
+        "/us/566/0932-04",
+        "/us/566/0932-08",
+        "/us/566/0932-07",
+        "/us/566/0932-06"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 107,
+    "ocr_confidence": 0.667,
+    "sha256": "9a7341a0eb1f58cf24dcccb20921ea40f91abb89365759f55f2bc74de963c2bd",
+    "simhash": "1:f819f58a6bd672ef",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:46:21.325002+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Needle."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see 566 U. S. 932.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2642.\nIn re Disbarment of Needle."
+  },
+  "file_name": "0902-13",
+  "first_page_order": 806,
+  "last_page_order": 806
+}

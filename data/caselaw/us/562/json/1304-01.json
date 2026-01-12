@@ -1,0 +1,61 @@
+{
+  "id": 6016299,
+  "name": "McPherson v. United States et al.",
+  "name_abbreviation": "McPherson v. United States",
+  "decision_date": "2011-03-21",
+  "docket_number": "No. 10-8489",
+  "first_page": "1304",
+  "last_page": "1304",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1304"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 26,
+    "char_count": 158,
+    "ocr_confidence": 0.573,
+    "sha256": "f946bef11c27270a247f9bc053785625aec16ad098c09adc0af3c945f191cc30",
+    "simhash": "1:d933e9825f0e9856",
+    "word_count": 27
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "McPherson v. United States et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8489.\nMcPherson v. United States et al."
+  },
+  "file_name": "1304-01",
+  "first_page_order": 1326,
+  "last_page_order": 1326
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12235276,
+  "name": "Snider v. Virginia",
+  "name_abbreviation": "Snider v. Virginia",
+  "decision_date": "2011-11-28",
+  "docket_number": "No. 11-450",
+  "first_page": "1062",
+  "last_page": "1062",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1062"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 64,
+    "ocr_confidence": 0.689,
+    "sha256": "40d80d0911ee12b76fd76b91a744eefbecc58d9e4cdcb8839e831178438d484c",
+    "simhash": "1:eacf83852f882cf8",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Snider v. Virginia."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Va. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-450.\nSnider v. Virginia."
+  },
+  "file_name": "1062-02",
+  "first_page_order": 1144,
+  "last_page_order": 1144
+}

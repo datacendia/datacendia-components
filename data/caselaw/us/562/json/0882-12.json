@@ -1,0 +1,59 @@
+{
+  "id": 5996660,
+  "name": "Cross v. Nevada",
+  "name_abbreviation": "Cross v. Nevada",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11470",
+  "first_page": "882",
+  "last_page": "882",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 882"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 64,
+    "ocr_confidence": 0.615,
+    "sha256": "84b839f9d44117acbeee288e3239b2033d58fde5f5132cf03d06c5f64462f350",
+    "simhash": "1:8bfea68e0daf5fc9",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cross v. Nevada."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Nev. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11470.\nCross v. Nevada."
+  },
+  "file_name": "0882-12",
+  "first_page_order": 904,
+  "last_page_order": 904
+}

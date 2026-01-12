@@ -1,0 +1,793 @@
+{
+  "id": 12520145,
+  "name": "Sanford S. WADLER, Plaintiff-Appellee, v. BIO-RAD LABORATORIES, INC., a Delaware Corporation; Norman Schwartz, Defendants-Appellants.",
+  "name_abbreviation": "Wadler v. Bio-Rad Labs., Inc.",
+  "decision_date": "2019-02-26",
+  "docket_number": "No. 17-16193",
+  "first_page": "1176",
+  "last_page": "1191",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "916 F.3d 1176"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "9th Cir.",
+    "id": 18869,
+    "name": "United States Court of Appeals for the Ninth"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "106 F.3d 1488",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7654385
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "1490",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/106/1488-01"
+      ]
+    },
+    {
+      "cite": "175 F.3d 680",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1720093
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "688-89"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/175/0680-01"
+      ]
+    },
+    {
+      "cite": "106 F.3d 894",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7652430
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "901"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/106/0894-01"
+      ]
+    },
+    {
+      "cite": "279 Cal.Rptr. 453",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "458",
+          "parenthetical": "recognizing that Tameny protects reporting bribery"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "228 Cal.App.3d 1117",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4400241
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "parenthetical": "recognizing that Tameny protects reporting bribery"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/228/1117-01"
+      ]
+    },
+    {
+      "cite": "960 P.2d 1046",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "weight": 5,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "1048-49"
+        },
+        {
+          "page": "1051",
+          "parenthetical": "recognizing that Tameny protects reporting \"a statutory violation for the public's benefit\""
+        },
+        {
+          "page": "1059",
+          "parenthetical": "\"[A]n employee need not prove an actual violation of law; it suffices if the employer fired him for reporting his 'reasonably based suspicions' of illegal activity.\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "78 Cal.Rptr.2d 16",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "weight": 3,
+      "year": 1998,
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 Cal.4th 66",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1709340
+      ],
+      "year": 1998,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/19/0066-01"
+      ]
+    },
+    {
+      "cite": "39 F.3d 1021",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10530303
+      ],
+      "year": 1994,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/39/1021-01"
+      ]
+    },
+    {
+      "cite": "872 F.2d 1410",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10539769
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "1414"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/872/1410-01"
+      ]
+    },
+    {
+      "cite": "558 F.3d 722",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3361433
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "723"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/558/0722-01"
+      ]
+    },
+    {
+      "cite": "2011 WL 2517148",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 3,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "*14",
+          "parenthetical": "en banc"
+        },
+        {
+          "page": "*12"
+        },
+        {
+          "page": "*12"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "577 F.3d 989",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4042677
+      ],
+      "weight": 5,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "1001"
+        },
+        {
+          "page": "1001"
+        },
+        {
+          "page": "1002",
+          "parenthetical": "\"Requiring an employee to essentially prove the existence of fraud before suggesting the need for an investigation would hardly be consistent with Congress's goal of encouraging disclosure.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/577/0989-01"
+      ]
+    },
+    {
+      "cite": "477 U.S. 242",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6206897
+      ],
+      "weight": 7,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "250"
+        },
+        {
+          "page": "250-51"
+        },
+        {
+          "page": "250"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/477/0242-01"
+      ]
+    },
+    {
+      "cite": "487 U.S. 500",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1775177
+      ],
+      "weight": 3,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "513"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/487/0500-01"
+      ]
+    },
+    {
+      "cite": "898 F.3d 952",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518021
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "958"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/898/0952-01"
+      ]
+    },
+    {
+      "cite": "134 S.Ct. 2175",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12581203
+      ],
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "2185"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/134/2175-01"
+      ]
+    },
+    {
+      "cite": "573 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 2014,
+      "opinion_index": 0
+    },
+    {
+      "cite": "389 U.S. 332",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11339040
+      ],
+      "weight": 3,
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "336"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/389/0332-01"
+      ]
+    },
+    {
+      "cite": "494 U.S. 922",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        4885
+      ],
+      "weight": 6,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "931-32"
+        },
+        {
+          "page": "931-32"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/494/0922-01"
+      ]
+    },
+    {
+      "cite": "135 S.Ct. 913",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12594419
+      ],
+      "weight": 4,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "919"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/135/0913-01"
+      ]
+    },
+    {
+      "cite": "792 F.3d 1203",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4275388,
+        5914469
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1210"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/792/1203-01",
+        "/br/534/1203-01"
+      ]
+    },
+    {
+      "cite": "869 F.3d 1004",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12266706,
+        12269843,
+        12266719
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1010"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/869/1004-01",
+        "/br/574/1004-01",
+        "/f3d/869/1004-02"
+      ]
+    },
+    {
+      "cite": "766 F.3d 1115",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4201668
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "parenthetical": "\"[E]ven if a party fails to raise an issue in the district court, we generally will not deem the issue waived if the district court actually considered it.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/766/1115-01"
+      ]
+    },
+    {
+      "cite": "896 F.3d 923",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517787
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "930"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/896/0923-01"
+      ]
+    },
+    {
+      "cite": "289 F.3d 615",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9435026
+      ],
+      "year": 2002,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/289/0615-01"
+      ]
+    },
+    {
+      "cite": "280 F.3d 1266",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9398111
+      ],
+      "pin_cites": [
+        {
+          "page": "1270"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/280/1266-01"
+      ]
+    },
+    {
+      "cite": "17 C.F.R. \u00a7 240",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "898 F.3d 960",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518022
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "964"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/898/0960-01"
+      ]
+    },
+    {
+      "cite": "883 F.3d 739",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516100
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "748",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/883/0739-01"
+      ]
+    },
+    {
+      "cite": "833 F.3d 1060",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4350534
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1066"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/833/1060-01"
+      ]
+    },
+    {
+      "cite": "772 F.3d 834",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4315358
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "838"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/772/0834-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7\u00a7 1331",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "697 F.3d 1059",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3622566
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "1070"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/697/1059-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1291",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "610 P.2d 1330",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "1336-37",
+          "parenthetical": "the \" Tameny \" claim"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "164 Cal.Rptr. 839",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1980,
+      "pin_cites": [
+        {
+          "parenthetical": "the \" Tameny \" claim"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "27 Cal.3d 167",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2261809
+      ],
+      "year": 1980,
+      "pin_cites": [
+        {
+          "parenthetical": "the \" Tameny \" claim"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/27/0167-01"
+      ]
+    },
+    {
+      "cite": "201 L.Ed.2d 295",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12613219,
+        12613224,
+        12613225,
+        12613324,
+        12613229,
+        12613235,
+        12613236,
+        12613239
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/2581-03",
+        "/s-ct/138/2582-03",
+        "/s-ct/138/2582-04",
+        "/s-ct/138/2596-07",
+        "/s-ct/138/2583-01",
+        "/s-ct/138/2583-07",
+        "/s-ct/138/2583-08",
+        "/s-ct/138/2584-02"
+      ]
+    },
+    {
+      "cite": "138 S.Ct. 2582",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12613222,
+        12613223,
+        12613224,
+        12613225,
+        12613226,
+        12613227,
+        12613228
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/2582-01",
+        "/s-ct/138/2582-02",
+        "/s-ct/138/2582-03",
+        "/s-ct/138/2582-04",
+        "/s-ct/138/2582-05",
+        "/s-ct/138/2582-06",
+        "/s-ct/138/2582-07"
+      ]
+    },
+    {
+      "cite": "868 F.3d 1110",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12266920
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1115"
+        },
+        {
+          "page": "1115",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/868/1110-01"
+      ]
+    },
+    {
+      "cite": "138 S.Ct. 767",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12616856
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "778"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/0767-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1361,
+    "char_count": 35667,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2591954202735372
+    },
+    "sha256": "6b9229c5a1c14663ee3af785d0432d6ceccf38ae53b9d825cf76ee125ab919e2",
+    "simhash": "1:9aa0723250d91863",
+    "word_count": 5634
+  },
+  "last_updated": "2024-02-27T16:21:04.146489+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sanford S. WADLER, Plaintiff-Appellee,\nv.\nBIO-RAD LABORATORIES, INC., a Delaware Corporation; Norman Schwartz, Defendants-Appellants."
+    ],
+    "opinions": [
+      {
+        "text": "BENNETT, Circuit Judge:\nIn this whistleblower retaliation case, Bio-Rad Laboratories, Inc. (\"Bio-Rad\" or \"the Company\") and its CEO, Norman Schwartz, appeal an $11 million jury verdict in favor of Bio-Rad's former general counsel, Sanford Wadler. The jury found that Defendants violated the Sarbanes-Oxley Act (\"SOX\"), the Dodd-Frank Act, and California public policy by terminating Wadler's employment in retaliation for his internal report that he believed the Company had engaged in serious and prolonged violations of the Foreign Corrupt Practices Act (\"FCPA\") in China.\nOn appeal, Defendants argue that the district court erred by instructing the jury that statutory provisions of the FCPA constitute \"rule[s] or regulation[s] of the Securities and Exchange Commission\" (\"SEC\") for purposes of whether Wadler engaged in \"protected activity\" under SOX \u00a7 806, 18 U.S.C. \u00a7 1514A(a). We agree. We reject, however, Bio-Rad's argument that no properly instructed jury could return a SOX verdict in favor of Wadler. Accordingly, we vacate the SOX verdict and remand for the district court to determine whether a new trial is warranted.\nWith respect to Wadler's California public policy claim, by contrast, we conclude that the district court's SOX instructional error was harmless and therefore we affirm the verdict and corresponding damages as to that claim.\nIn a memorandum disposition filed this date, we conclude that the instructional error was not harmless as to the SOX claim. We also reject Bio-Rad's challenges to the district court's evidentiary rulings and the sufficiency of the evidence. Finally, we vacate with instructions to enter judgment in favor of Bio-Rad as to the Dodd-Frank claim in light of Digital Realty Trust, Inc. v. Somers , --- U.S. ----, 138 S.Ct. 767, 778, 200 L.Ed.2d 15 (2018), which held that Dodd-Frank does not apply to purely internal reports. We therefore also vacate the portion of damages attributable solely to the Dodd-Frank verdict, approximately $2.96 million plus interest.\nAccordingly, we vacate in part, affirm in part, and remand for consideration of whether a new trial is warranted as to the SOX claim.\nI.\nWe must view the evidence at trial in the light most favorable to the verdict. Shafer v. Cty. of Santa Barbara , 868 F.3d 1110, 1115 (9th Cir. 2017), cert. denied , --- U.S. ----, 138 S.Ct. 2582, 201 L.Ed.2d 295 (2018). Because the jury returned a verdict in favor of Wadler on all claims, we review the pertinent facts adduced at trial in the light most favorable to him.\nA.\nThe trial centered on a memorandum that Wadler delivered to the Audit Committee of Bio-Rad's Board of Directors in February 2013 (the \"Audit Committee Memo\" or \"Memo\") and Schwartz's subsequent decision to terminate Wadler's employment in June 2013. Wadler stated in the Memo that he believed Bio-Rad employees in China had violated the FCPA's bribery and books-and-records provisions, and that senior management was likely complicit.\nThe factual basis for the Memo, and Wadler's reasons for writing it, can be traced back to 2009. In that year, Bio-Rad's internal audit team discovered that Bio-Rad salesmen in Vietnam and Thailand had engaged in potential FCPA violations. At Wadler's recommendation, Bio-Rad hired FCPA attorney Patrick Norton of Steptoe & Johnson to investigate.\nNorton reported his findings to Bio-Rad's Board of Directors in September 2011. Specifically, Norton reported that he had found evidence that Bio-Rad employees were violating the FCPA's bribery and books-and-records provisions in Vietnam, Thailand, and Russia. As for China, Norton reported several \"red flags,\" including \"[v]ery high, unexplained commissions\" and a \"history of widespread corruption\" in the country's medical products market. Norton reported, however, that \"no evidence of improper payments\" had been found to date in China.\nIn June 2012, Wadler and Schwartz received the results of a sales documentation audit that had been initiated at the request of Bio-Rad's licensor, Life Technologies, Inc. (\"Life Tech\"). The audit, which covered the years 2006 to 2010, revealed that Bio-Rad owed Life Tech around $30 million in royalty obligations due to Bio-Rad's missing documentation of end-user prices for products primarily in the Chinese market.\nWadler and John Cassingham, an in-house patent lawyer who reported to Wadler, repeatedly attempted to obtain the missing sales documents from China. In November 2012, Cassingham finally succeeded in obtaining a complete set of documents for a single transaction and sent those documents to Wadler. Wadler testified that Cassingham thought the documents showed bribery. Wadler further testified that he subsequently told Schwartz about the potential bribery, but Schwartz responded that he was not going to do anything about it.\nWadler's concerns increased as he and Cassingham spoke to other employees. In December 2012, for example, a senior Bio-Rad manager in China told Wadler that he had never visited one of Bio-Rad's main distributors to look for documents, despite the distributor's failure to comply with Bio-Rad's documentation requests. A different Bio-Rad employee in China later told Cassingham (who in turn told Wadler) about a widespread \"under the covers\" scheme in which cover sheets on import/export documents were used to show the official number of products while the shipments themselves were padded with free extra products. Wadler later obtained around 160 sets of Chinese sales documents, thirty percent of which showed the product-padding pattern that fit the description of the \"under the covers\" scheme.\nIn January 2013, Wadler discovered that Bio-Rad employees in China had entered into unauthorized contracts with distributors. In the course of investigating those contracts, Wadler learned that they were not accurate translations of approved English-language distributor contracts, but had instead been translated from an earlier template that did not include FCPA compliance provisions. Wadler's junior attorneys also informed him that the contracts provided for unauthorized \"incentives payable in free product - between 1-3% of sales if [salesmen] achieved certain targets,\" with a \"financial impact of ... approximately one million dollars.\"\nB.\nOn February 8, 2013, Wadler delivered the Memo to the Audit Committee, reporting his belief that there were \"serious and prolonged violations of the FCPA in Bio-Rad's business in China.\" Wadler listed several sources of concern: (1) a free-product scheme that \"suggest[ed] several possibilities for bribery\"; (2) Bio-Rad's inability to obtain documents for the Life Tech audit, which \"could itself be considered a substantive and clear violation of [the FCPA's] books and records requirements\"; and (3) the Chinese distributor contracts without FCPA compliance language. Wadler concluded that \"these practices [we]re endemic and that high levels of management within the company had to know they were happening ,\" which, he continued, was why he had not yet discussed his concerns with senior management (including Schwartz).\nWadler recommended that Bio-Rad \"promptly conduct an in depth investigation into business practices in China\" and that the Company report his suspicions to the government and to the Company's auditors. The Company's duty to report was \"especially true,\" he wrote, because it had \"meetings scheduled with the government agencies in late February to discuss the 'tone at the top' in relationship to penalties for the violations in Vietnam, Russia, Thailand and Brazil.\" Wadler opined that it \"would deeply prejudice how the government would view the company if we had discussions about 'tone at the top' knowing that there [were] potentially serious additional violations that were being withheld.\"\nC.\nIn response to the Memo, the Audit Committee authorized Wadler to hire Davis Polk & Wardwell to investigate his concerns. On February 20, 2013, the Chairman of the Audit Committee told Schwartz about the Memo. Two days later Schwartz informed the head of Bio-Rad's human resources department that Wadler had \"been acting a little bizarre lately\" and that Schwartz might \"want to put him on an administrative leave.\" By March, Schwartz had become \"entirely frustrated\" with Wadler but believed that \"he must stay in place until [an] FCPA settlement\" with the government was final.\nDavis Polk reported the findings of its investigation to Bio-Rad's Board of Directors on June 4, 2013. Davis Polk found that there was \"no evidence to date of any violation-or attempted violation-of the FCPA\" in China. Schwartz fired Wadler three days later. Bio-Rad later paid the government a total of $55 million to resolve its investigation into FCPA issues in Vietnam, Thailand, and Russia. Nothing was paid as a result of any FCPA issues in China.\nII.\nIn May 2015, Wadler brought this action for compensatory and punitive damages against the Company and Schwartz. As relevant here, Wadler alleged violations of SOX and Dodd-Frank as to both Defendants, and a violation of California public policy under Tameny v. Atlantic Richfield Co. , 27 Cal.3d 167, 164 Cal.Rptr. 839, 610 P.2d 1330, 1336-37 (1980) (the \" Tameny \" claim) against the Company only. The case proceeded to a jury trial in January 2017.\nAt trial, Wadler set out to prove that Schwartz fired him in retaliation for reporting alleged FCPA violations to the Audit Committee, while Bio-Rad attempted to show that Wadler was fired due to his poor performance and dysfunctional relationship with management. Bio-Rad also tried to show that Wadler wrote the Memo only because he was concerned about his job security, and that it would have been unreasonable for a general counsel in Wadler's position to believe that the Company had violated the FCPA in China.\nAt the close of trial, the judge gave several jury instructions concerning when an employee engages in \"protected activity\" for purposes of SOX, Tameny , and Dodd-Frank. For each of the three claims, the instructions stated that Wadler had to prove he engaged in protected activity under SOX, which in turn depended on whether he disclosed conduct that he reasonably believed violated a \"rule or regulation of the\" SEC. The main instruction at issue in this appeal, Instruction 21, stated that, under \"the rules and regulations of the [SEC] applicable to Bio-Rad,\" it is unlawful to (1) bribe a foreign official; (2) fail to keep accurate and reasonably detailed books and records; (3) knowingly falsify books and records; and (4) knowingly circumvent a system of internal accounting controls.\nThe jury returned a verdict in favor of Wadler on all three claims. As to all three claims in general, the jury awarded Wadler $2.96 million in compensatory damages for past economic loss against both Defendants. The district court doubled that amount under Dodd-Frank's doubling provision, 15 U.S.C. \u00a7 78u-6(h)(1)(C)(ii), resulting in a total award of $5.92 million plus interest against Schwartz. Because the jury also awarded Wadler $5 million in punitive damages against the Company based on the Tameny claim, the total award against the Company was $10.92 million plus interest.\nBio-Rad subsequently filed a renewed motion for judgment as a matter of law (\"JMOL\") and a motion for new trial. Bio-Rad argued, inter alia, that Wadler's disclosure of alleged FCPA violations was not protected activity under SOX because provisions of the FCPA, a statute, do not constitute SEC rules or regulations for purposes of SOX \u00a7 806. The district court denied Bio-Rad's motions. The court concluded that the FCPA is a \"rule or regulation of the SEC\" for purposes of SOX because \"the FCPA is an amendment to the Securities ... Exchange Act of 1934 and is codified within it.\" This appeal followed.\nIII.\nWe have jurisdiction under 28 U.S.C. \u00a7 1291 over the appeal of the denial of a motion for new trial and renewed motion for JMOL, and the district court's interlocutory rulings at trial. See Hall v. City of Los Angeles , 697 F.3d 1059, 1070 (9th Cir. 2012). The district court had jurisdiction under 28 U.S.C. \u00a7\u00a7 1331 and 1367.\nWe review de novo whether a jury instruction correctly states the law. Wilkerson v. Wheeler , 772 F.3d 834, 838 (9th Cir. 2014). The denial of a motion for JMOL is also reviewed de novo, Castro v. Cty. of Los Angeles , 833 F.3d 1060, 1066 (9th Cir. 2016), and the denial of a motion for new trial is reviewed for abuse of discretion, Crowley v. Epicept Corp. , 883 F.3d 739, 748 (9th Cir. 2018) (per curiam). We review de novo questions of statutory interpretation. California v. Iipay Nation of Santa Ysabel , 898 F.3d 960, 964 (9th Cir. 2018).\nIV.\nA. The SOX Claim\nSection 806 of SOX prohibits publicly traded companies from retaliating against an employee who lawfully reports\nany conduct which the employee reasonably believes constitutes a violation of [ 18 U.S.C.] section 1341 [mail fraud], 1343 [wire fraud], 1344 [bank fraud], or 1348 [securities fraud], any rule or regulation of the Securities and Exchange Commission, or any provision of Federal law relating to fraud against shareholders ....\n18 U.S.C. \u00a7 1514A(a)(1). The question before us is whether the district court erred by instructing the jury that, for purposes of \u00a7 806, rules or regulations of the SEC include the FCPA's books-and-records provisions, 15 U.S.C. \u00a7 78m(b)(5), (2)(A), and anti-bribery provision, id. \u00a7 78dd-1(a). We conclude that the court erred. However, because a properly instructed jury could return a verdict in Wadler's favor, we vacate the SOX verdict and remand for the district court to consider whether a new trial is appropriate in light of our decision to affirm the Tameny verdict.\n1.\nAs a threshold matter, we consider whether Bio-Rad's claim of instructional error is properly before us with respect to paragraphs two through four of Instruction 21 concerning books and records. Wadler argues that Bio-Rad invited error or waived the books-and-records part of its claim, in light of Bio-Rad's shifting positions in the district court. Bio-Rad correctly conceded in the district court, and continues to concede on appeal, that one of the FCPA books-and-records provisions in Instruction 21 is also an SEC regulation within the scope of \u00a7 806. See 17 C.F.R. \u00a7 240.13b2-1 (\"No person shall directly or indirectly, falsify or cause to be falsified, any book, record or account ....\"). At times, however, Bio-Rad appeared to abandon a challenge to all three books-and-records provisions listed in Instruction 21 by targeting only the FCPA anti-bribery provision. Although Bio-Rad's position was not always clear, we conclude that its actions did not rise to the level of invited error or waiver.\nAs for invited error, Bio-Rad originally objected to the jury instructions on the ground that reporting any FCPA violation is not SOX-protected activity. Although Bio-Rad narrowed its objection at one point to only the anti-bribery portion of the instructions, Bio-Rad expressly preserved its original objection at the final jury instructions conference. The district court then stated that Bio-Rad's position that a statute is not a rule or regulation for purposes of \u00a7 806 was \"very clear.\" On this record, we cannot say that Bio-Rad was responsible for any error in the jury instructions. See Sovak v. Chugai Pharm. Co. , 280 F.3d 1266, 1270 (9th Cir.), amended by 289 F.3d 615 (9th Cir. 2002).\nBio-Rad also raised its present claim in the JMOL briefing such that it is not waived on appeal. Bio-Rad specifically argued, in its JMOL motion, that the FCPA is not a rule or regulation of the SEC because it is a statute. Even if Bio-Rad again limited the scope of that argument to the anti-bribery context in its renewed JMOL motion, the district court addressed the merits of the basic issue before us now: whether any FCPA provision can be a rule or regulation of the SEC for purposes of \u00a7 806. Accordingly, that issue is properly before us. See True Health Chiropractic, Inc. v. McKesson Corp. , 896 F.3d 923, 930 (9th Cir. 2018), petition for cert. filed , --- U.S.L.W. ---- (U.S. Jan. 25, 2019) (No. 18-987); see also Tarabochia v. Adkins , 766 F.3d 1115, 1128 n.12 (9th Cir. 2014) (\"[E]ven if a party fails to raise an issue in the district court, we generally will not deem the issue waived if the district court actually considered it.\").\nWe therefore proceed to the merits of the issue raised on appeal: whether Instruction 21 erroneously listed the FCPA's anti-bribery and books-and-records-provisions as \"rules or regulations of the SEC\" under SOX \u00a7 806.\n2.\nIn construing the provisions of a statute, \"we begin with well-settled canons of statutory interpretation.\" Zazzali v. United States (In re DBSI, Inc. ), 869 F.3d 1004, 1010 (9th Cir. 2017). \"A primary canon of statutory interpretation is that the plain language of a statute should be enforced according to its terms, in light of its context.\" ASARCO, LLC v. Celanese Chem. Co. , 792 F.3d 1203, 1210 (9th Cir. 2015). We also presume that Congress acts intentionally when it uses particular wording in one part of a statute but omits it in another. Dep't of Homeland Sec. v. MacLean , --- U.S. ----, 135 S.Ct. 913, 919, 190 L.Ed.2d 771 (2015). Thus, when a statute uses the phrase \"law, rule, or regulation\" in one section but uses only \"law\" in a different section, the word \"law\" does not encompass administrative rules or regulations. Id. at 919-20 ; Dep't of Treasury, IRS v. Fed. Labor Relations Auth. , 494 U.S. 922, 931-32, 110 S.Ct. 1623, 108 L.Ed.2d 914 (1990).\nApplying these principles here, we hold that \u00a7 806's text is clear: an FCPA provision is not a \"rule or regulation of the [SEC].\" 18 U.S.C. \u00a7 1514A(a)(1). Although the words \"rule\" and \"regulation\" could perhaps encompass a statute when read in isolation, the more natural and plain reading of these words together and in context is that they refer only to administrative rules or regulations. That the phrase \"rule or regulation\" is used in conjunction with an administrative agency, the SEC, suggests that it encompasses only administrative rules or regulations. Most notably, Congress uses the phrase \"any rule or regulation of the [SEC]\" in the same list in which it uses \"any provision of Federal law relating to fraud against shareholders,\" id. , which strongly suggests that there is a difference between the meaning of \"rule or regulation\" and \"law.\" See MacLean , 135 S.Ct. at 919-20 ; Dep't of Treasury, IRS , 494 U.S. at 931-32, 110 S.Ct. 1623. The most obvious explanation is that \"law\" encompasses statutes, like the FCPA, whereas \"rule or regulation\" does not.\nWe reject Wadler's arguments for a different interpretation. First, Wadler argues that \"rule or regulation of the SEC\" should be broadly interpreted in light of SOX's remedial purpose of protecting employees who report corporate misconduct. It is a \"familiar canon of statutory construction that remedial legislation should be construed broadly to effectuate its purposes,\" Tcherepnin v. Knight , 389 U.S. 332, 336, 88 S.Ct. 548, 19 L.Ed.2d 564 (1967), but this canon should not be \"treated ... as a substitute for a conclusion grounded in the statute's text and structure,\" CTS Corp. v. Waldburger , 573 U.S. 1, 134 S.Ct. 2175, 2185, 189 L.Ed.2d 62 (2014).\nSecond, Wadler's reliance on legislative history-in the form of statements made on the Senate floor-is equally unavailing. When, as here, \"a statute's language is plain and unambiguous, our inquiry ends.\" Christie v. Ga.-Pac. Co. , 898 F.3d 952, 958 (9th Cir. 2018).\nIn sum, statutory provisions of the FCPA, including the three books-and-records provisions and anti-bribery provision listed in Instruction 21, are not \"rules or regulations of the SEC\" under SOX \u00a7 806. The district court erred in instructing the jury otherwise. As noted above, in a memorandum disposition filed this date, we conclude that the instructional error was not harmless as to the SOX claim.\n3.\nHaving found error that was not harmless, we must determine the proper remedy. Bio-Rad argues that we must reverse with instructions to enter judgment in its favor because a properly instructed jury could not return a verdict for Wadler. We disagree.\nWhen a district court commits instructional error, we reverse and direct entry of judgment if \"the evidence presented [at] trial would not suffice, as a matter of law, to support a jury verdict under the properly formulated [instruction].\" Boyle v. United Techs. Corp. , 487 U.S. 500, 513, 108 S.Ct. 2510, 101 L.Ed.2d 442 (1988). Bio-Rad argues that there is insufficient evidence to support a verdict based on properly formulated instructions. Although Bio-Rad acknowledges that Instruction 21 properly lists a books-and-records falsification provision as an SEC rule or regulation in light of 17 C.F.R. \u00a7 240.13b2-1, Bio-Rad contends that there is insufficient evidence to prove that Wadler reported conduct that he reasonably believed violated that regulation.\nEvidence is insufficient only \"if, under the governing law, there can be but one reasonable conclusion as to the verdict.\" Anderson v. Liberty Lobby, Inc. , 477 U.S. 242, 250, 106 S.Ct. 2505, 91 L.Ed.2d 202 (1986). Conversely, if \"reasonable minds could differ as to the import of the evidence,\" the evidence is sufficient. Id. at 250-51, 106 S.Ct. 2505. Sufficiency is a low bar, especially because \"we must construe the facts in the light most favorable to the jury's verdict.\" Shafer , 868 F.3d at 1115 (internal quotation marks omitted).\nThis already low bar is further lowered by the substantive law governing protected activity under \u00a7 806. See Anderson , 477 U.S. at 250, 106 S.Ct. 2505. In a new trial, Wadler would not have to prove that he reported an actual violation. Van Asdale v. Int'l Game Tech. , 577 F.3d 989, 1001 (9th Cir. 2009) ; Sylvester v. Parexel Int'l LLC , No. 07-123, 2011 WL 2517148, at *14 (Dep't of Labor May 25, 2011) (en banc). He would have to prove only that he \"reasonably believed that there might have been\" a violation and that he was \"fired for even suggesting further inquiry.\" Van Asdale , 577 F.3d at 1001. We have referred to this standard as a \"minimal threshold requirement.\" Id.\nConstruing the facts in the light most favorable to the verdict, a jury permissibly could find that Wadler satisfied that minimal requirement. First, a reasonable jury could find that the Audit Committee Memo suggested further inquiry into whether Bio-Rad falsified books and records. The Memo described many instances in which Bio-Rad's shipping documents did not match the billing documents of distributors or end-users. Although a jury could find that such discrepancies did not raise books-and-records concerns, or that they did not specifically implicate the SEC's falsification regulation, a reasonable jury also could find that further inquiry was warranted with respect to falsification.\nSecond, a reasonable jury could find that Wadler reasonably believed that Bio-Rad had falsified books and records. In a new trial, Wadler would have to prove that he subjectively believed that the conduct described in the Memo evidenced the falsification of books and records and that his belief was objectively reasonable in the circumstances. Van Asdale , 577 F.3d at 1000 ; Sylvester , 2011 WL 2517148, at *12. The objective reasonableness component, the only component that Bio-Rad challenges on appeal, \"is evaluated based on the knowledge available to a reasonable person in the same factual circumstances with the same training and experience as the aggrieved employee.\" Sylvester , 2011 WL 2517148, at *12 (quoting Harp v. Charter Commc'ns, Inc. , 558 F.3d 722, 723 (7th Cir. 2009) ). \"The reasonable belief standard requires an examination of the reasonableness of a complainant's beliefs, but not whether the complainant actually communicated the reasonableness of those beliefs to management or the authorities.\" Id. at *13.\nThere is sufficient evidence to support the objective reasonableness of Wadler's belief that Bio-Rad had falsified books and records. Before he submitted the Audit Committee Memo in February 2013, Wadler was aware of Bio-Rad's FCPA issues in several countries and the numerous \"red flags\" in China. Wadler testified that Cassingham thought the Life Tech audit documents showed bribery. Wadler also testified that a Bio-Rad employee reported an \"under the covers\" scheme in which Bio-Rad shipped free products. Finally, Wadler discovered Chinese contracts without FCPA compliance language and with unauthorized terms providing for free product incentives.\nBio-Rad argues that this evidence does not directly implicate books-and-records falsification. A reasonable jury, however, could find that a general counsel in Wadler's position reasonably believed that Bio-Rad was falsifying books and records as part of its alleged FCPA violations in China. While the evidence needed to support a whistleblower's reasonable belief will necessarily vary with the circumstances, \u00a7 806 generally does not require an employee to undertake an investigation before reporting his concerns. See Van Asdale , 577 F.3d at 1002 (\"Requiring an employee to essentially prove the existence of fraud before suggesting the need for an investigation would hardly be consistent with Congress's goal of encouraging disclosure.\"). Such a requirement would undermine the purpose of SOX, particularly where, as here, a general counsel reports his concerns to the Board of Directors because he believes that senior management is complicit in unlawful conduct. Wadler's Audit Committee Memo prompted further investigation, and the Audit Committee's Chair testified that he thought Wadler \"did a terrific job\" by reporting his concerns. In these circumstances, there is sufficient evidence to support a SOX verdict under a properly formulated falsification instruction. We therefore do not reverse with instructions to direct entry of judgment in Bio-Rad's favor.\nAccordingly, we vacate the SOX verdict against the Company and Schwartz and remand for the district court to consider whether a new trial is warranted. In light of our decision below, affirming the Tameny verdict against the Company and the corresponding verdict for compensatory damages for past economic loss, the district court should consider whether, and to what extent, any retrial would result in an impermissible double recovery for the same injury. See California v. Chevron Corp. , 872 F.2d 1410, 1414 (9th Cir. 1989). The district court may also consider any other reasons why our opinion might bar or obviate the need for a SOX retrial, or might limit the issues in such a retrial. If a new trial is warranted, the district court may consider in the first instance whether to allow a \"fraud against shareholders\" theory, as well as any other arguments consistent with this opinion. See, e.g. , Bator v. Hawaii , 39 F.3d 1021, 1030 n.9 (9th Cir. 1994).\nB. The Tameny Claim\nWe now consider Bio-Rad's challenge to the Tameny verdict. Bio-Rad argues that the SOX instructional error tainted the Tameny verdict because Wadler's engaging in protected activity under SOX was a predicate to his success on the Tameny claim. However, Wadler contends that the Tameny instruction, Instruction 27, referred to the SOX-protected activity instructions simply to tell the jury that he had to prove that he was retaliated against for reporting conduct that he reasonably believed violated the FCPA provisions in Instruction 21-not because SOX itself was a necessary part of his Tameny theory at trial. We agree with Wadler.\nUnder California law, a Tameny claim must rely on a \"fundamental public policy\" that is \"tethered to\" a constitutional or statutory provision. Green v. Ralee Eng'g Co. , 19 Cal.4th 66, 78 Cal.Rptr.2d 16, 960 P.2d 1046, 1048-49 (1998). The California Supreme Court has not decided whether SOX or the relevant FCPA provisions are tethered to a fundamental public policy for purposes of Tameny . Because the parties do not dispute those questions, we will not decide them either. Instead, we assume without deciding that a plaintiff may state a Tameny claim by alleging that he was retaliated against (1) for engaging in SOX-protected activity or (2) for reporting conduct that he reasonably believed violated the FCPA's bribery or books-and-records provisions, regardless of whether that report is protected by SOX. See id. , 78 Cal.Rptr.2d 16, 960 P.2d at 1051 (recognizing that Tameny protects reporting \"a statutory violation for the public's benefit\"); id., 78 Cal.Rptr.2d 16, 960 P.2d at 1059 (\"[A]n employee need not prove an actual violation of law; it suffices if the employer fired him for reporting his 'reasonably based suspicions' of illegal activity.\"); Collier v. Superior Court , 228 Cal.App.3d 1117, 279 Cal.Rptr. 453, 458 (1991) (recognizing that Tameny protects reporting bribery).\nWadler properly raised a Tameny theory based on a fundamental public policy tied to the FCPA, which was independent of his claim under SOX. To begin with, the Tameny portion of Wadler's complaint referenced both the FCPA and SOX. And, like his complaint, the first version of Wadler's proposed Tameny instruction referenced both SOX and the FCPA. Most notably, just before trial, Bio-Rad proposed a Tameny instruction that did not reference SOX at all: \"The plaintiff has the burden of proving ... [t]hat Bio-Rad discharged Plaintiff for making a report of what the Plaintiff in good faith and reasonably believed was an FCPA violation.\" The judge then proposed a Tameny instruction (Instruction 27) referencing only SOX. However, there is nothing to suggest that the judge did so in order to remove an FCPA-based Tameny theory from the case. To the contrary, all available evidence indicates that the Tameny instruction referred to protected activity under SOX simply to present the jury with a single factual theory of Tameny liability, which the parties understood could be based on a fundamental public policy tied to either SOX or the FCPA. As Wadler acknowledged in the district court, and as Bio-Rad recognizes on appeal, there was \"complete overlap between the type of protected activity involved in [Wadler's Tameny ] claim and his claim under the Sarbanes-Oxley Act.\" Considering the structure of the final jury instructions and the record as a whole, we conclude that Wadler presented the jury with a single factual theory of Tameny liability, which turned on his report of alleged FCPA violations and was not dependent on his claim under SOX.\nInstruction 27 (the Tameny instruction) was the first in a chain of cross-references that ultimately made the success of Wadler's Tameny claim dependent on whether Bio-Rad retaliated against him for reporting conduct that he reasonably believed violated the FCPA. Instruction 27 told jurors that, to prevail on his Tameny claim, Wadler had to prove that a motivating reason for his discharge was engaging in protected activity under SOX. It then referred jurors to the SOX instructions in order to determine if his activity was protected.\nNotably, jurors were instructed that, to prevail on a Tameny claim, Wadler had to believe that one of the provisions listed in Instruction 21 (captioned \"The Foreign Corrupt Practices Act\") had been violated. Instruction 21 listed provisions of the FCPA: it is unlawful to (1) bribe a foreign official; (2) fail to keep accurate and reasonably detailed books and records; (3) knowingly falsify books and records; and (4) knowingly circumvent a system of internal accounting controls. Although this Instruction was erroneous to the extent that it told jurors that a violation of the FCPA was a rule or regulation of the SEC for the purposes of SOX, as discussed supra , there is no dispute that Instruction 21 correctly described the provisions of the FCPA. See 15 U.S.C. \u00a7 78dd-1(a) (anti-bribery); id. \u00a7 78m(b)(2)(A) (keeping accurate books and records) & (b)(5) (\"knowingly circumvent ... a system of internal accounting controls\" and \"knowingly falsify any book, record, or account.\"). Thus, on the Tameny claim, jurors were instructed that Wadler had to show that he had reasonably believed Bio-Rad violated the provisions of the FCPA listed in Instruction 21 and that Bio-Rad discharged him for disclosing that belief.\nAssuming, as we must, that the jury correctly followed the cross-references in the instructions, Westinghouse Elec. Corp. v. Gen. Circuit Breaker & Elec. Supply Inc. , 106 F.3d 894, 901 (9th Cir. 1997), it necessarily found that Bio-Rad violated Tameny with respect to the alleged FCPA violations. We have repeatedly held that an instructional error is harmless when the jury necessarily would have reached the same verdict under a proper instruction. See Snyder v. Freight, Constr., Gen. Drivers, Warehousemen & Helpers, Local No. 287 , 175 F.3d 680, 688-89, 688 n.12 (9th Cir. 1999) ; United States v. Washington , 106 F.3d 1488, 1490 (9th Cir. 1997) (per curiam); Westinghouse Elec. Corp. , 106 F.3d at 902. In these circumstances, the SOX instructional error was harmless as to the Tameny verdict because Wadler's Tameny claim-that Bio-Rad retaliated against him for reporting conduct that he reasonably believed violated the FCPA-did not depend on SOX.\nV.\nIn sum, on the SOX claim, we VACATE and REMAND for the district court to consider whether a new trial is warranted. On the Tameny claim, we AFFIRM the jury's verdict, which is against the Company only. We also AFFIRM the corresponding award of compensatory and punitive damages against the Company, except for the portion of damages attributable to Dodd-Frank's doubling provision. As discussed in the memorandum filed this date, we VACATE the Dodd-Frank verdict with instructions to the district court to enter judgment in favor of the Company and Schwartz on that claim.\nVACATED in part, AFFIRMED in part, and REMANDED. The parties shall bear their own costs on appeal.\nWe refer to the Defendants collectively as \"Bio-Rad\" except when necessary to distinguish between them.\nFor simplicity, throughout this opinion we refer to the books-and-records provisions listed in paragraphs two and three of Instruction 21, and the internal accounting controls provision in paragraph four of Instruction 21, collectively as the \"books-and-records\" provisions.\nBecause the evidence at trial was even stronger with respect to the other FCPA provisions listed in Instruction 21, we reject Bio-Rad's argument that the district court erred by concluding that substantial evidence supports all three verdicts.\nIndeed, as we explain below, Bio-Rad proposed a jury instruction in the district court suggesting that it accepted that the relevant FCPA provisions are tethered to a fundamental public policy for purposes of Tameny .",
+        "type": "majority",
+        "author": "BENNETT, Circuit Judge:"
+      }
+    ],
+    "attorneys": [
+      "Kathleen M. Sullivan (argued) and William B. Adams, Quinn Emanuel Urquhart & Sullivan LLP, New York, New York; Karin Kramer, Andrew P. March, and John M. Potter, Quinn Emanuel Urquhart & Sullivan, LLP, San Francisco, California; for Defendants-Appellants.",
+      "Michael John von Loewenfeldt (argued), Kenneth P. Nabity, and James M. Wagstaffe, Kerr & Wagstaffe LLP, San Francisco, California, for Plaintiff-Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "Sanford S. WADLER, Plaintiff-Appellee,\nv.\nBIO-RAD LABORATORIES, INC., a Delaware Corporation; Norman Schwartz, Defendants-Appellants.\nNo. 17-16193\nUnited States Court of Appeals, Ninth Circuit.\nArgued and Submitted November 14, 2018 San Francisco, California\nFiled February 26, 2019\nKathleen M. Sullivan (argued) and William B. Adams, Quinn Emanuel Urquhart & Sullivan LLP, New York, New York; Karin Kramer, Andrew P. March, and John M. Potter, Quinn Emanuel Urquhart & Sullivan, LLP, San Francisco, California; for Defendants-Appellants.\nMichael John von Loewenfeldt (argued), Kenneth P. Nabity, and James M. Wagstaffe, Kerr & Wagstaffe LLP, San Francisco, California, for Plaintiff-Appellee.\nBefore: Susan P. Graber and Mark J. Bennett, Circuit Judges, and Leslie E. Kobayashi, District Judge.\nThe Honorable Leslie E. Kobayashi, United States District Judge for the District of Hawaii, sitting by designation."
+  },
+  "file_name": "1176-01",
+  "first_page_order": 1176,
+  "last_page_order": 1191
+}

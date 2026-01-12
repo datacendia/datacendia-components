@@ -1,0 +1,61 @@
+{
+  "id": 5920681,
+  "name": "Taylor v. Texas",
+  "name_abbreviation": "Taylor v. Texas",
+  "decision_date": "2011-06-16",
+  "docket_number": "No. 10A1236 (10-11056)",
+  "first_page": "1014",
+  "last_page": "1015",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1014"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 37,
+    "char_count": 325,
+    "ocr_confidence": 0.496,
+    "sha256": "05b9d2b0cb9c30a231e8dcd3948484c35bde73c44f0004976db7519ed840baf8",
+    "simhash": "1:502ffb31df8409e0",
+    "word_count": 51
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Ginsburg, Justice Breyer, Justice Soto-mayor, and Justice Kagan would grant the application for stay of execution."
+    ],
+    "parties": [
+      "Taylor v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tex. Application for stay of execution of sentence of death, presented to Justice Scalia, and by him referred to the Court, denied.\nJustice Ginsburg, Justice Breyer, Justice Soto-mayor, and Justice Kagan would grant the application for stay of execution.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "June 16, 2011\nNo. 10A1236 (10-11056).\nTaylor v. Texas."
+  },
+  "file_name": "1014-05",
+  "first_page_order": 1008,
+  "last_page_order": 1009
+}

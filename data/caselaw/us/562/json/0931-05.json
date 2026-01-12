@@ -1,0 +1,59 @@
+{
+  "id": 6020387,
+  "name": "Castillo Sanchez v. Oklahoma",
+  "name_abbreviation": "Castillo Sanchez v. Oklahoma",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5606",
+  "first_page": "931",
+  "last_page": "931",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 931"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 83,
+    "ocr_confidence": 0.531,
+    "sha256": "dd8743e08d3f4e3e476954d2d363dd739a459f296c7d9859b28127789780d755",
+    "simhash": "1:14722b8ce3ea64ce",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Castillo Sanchez v. Oklahoma."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Okla. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5606.\nCastillo Sanchez v. Oklahoma."
+  },
+  "file_name": "0931-05",
+  "first_page_order": 953,
+  "last_page_order": 953
+}

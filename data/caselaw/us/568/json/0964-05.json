@@ -1,0 +1,59 @@
+{
+  "id": 12419447,
+  "name": "Ghane v. United States",
+  "name_abbreviation": "Ghane v. United States",
+  "decision_date": "2012-10-15",
+  "docket_number": "No. 12-5318",
+  "first_page": "964",
+  "last_page": "964",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 964"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.62,
+    "sha256": "6931c2a959bfdf0a9969d26c91cac13d39f4b1cc21e7a8a971a5a4dd3886d683",
+    "simhash": "1:80bab8c38831141a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ghane v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5318.\nGhane v. United States."
+  },
+  "file_name": "0964-05",
+  "first_page_order": 1040,
+  "last_page_order": 1040
+}

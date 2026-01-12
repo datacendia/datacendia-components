@@ -1,0 +1,59 @@
+{
+  "id": 12430727,
+  "name": "Jackson v. Houk, Warden",
+  "name_abbreviation": "Jackson v. Houk",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-7159",
+  "first_page": "1164",
+  "last_page": "1164",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1164"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.618,
+    "sha256": "f55126777dae83b40c555ae483c39b8e3f6e76af4ce989f1ced543f29f8d1611",
+    "simhash": "1:f08a26a4ae3f1832",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jackson v. Houk, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7159.\nJackson v. Houk, Warden."
+  },
+  "file_name": "1164-10",
+  "first_page_order": 1240,
+  "last_page_order": 1240
+}

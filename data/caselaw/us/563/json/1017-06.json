@@ -1,0 +1,59 @@
+{
+  "id": 5942738,
+  "name": "Beaty v. Arizona",
+  "name_abbreviation": "Beaty v. Arizona",
+  "decision_date": "2011-05-25",
+  "docket_number": "No. 10A1138 (10-10608)",
+  "first_page": "1017",
+  "last_page": "1017",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1017"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 32,
+    "char_count": 221,
+    "ocr_confidence": 0.612,
+    "sha256": "1a69ddeccd0eea6bab4c4e2ac04c5172f048c834e759a2f8891b3c9adf7a53d7",
+    "simhash": "1:541ba971de6d88c0",
+    "word_count": 36
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Beaty v. Arizona."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Ariz., County of Maricopa. Application for stay of execution of sentence of death, presented to Justice Kennedy, and by him referred to the Court, denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "May 25, 2011\nNo. 10A1138 (10-10608).\nBeaty v. Arizona."
+  },
+  "file_name": "1017-06",
+  "first_page_order": 1043,
+  "last_page_order": 1043
+}

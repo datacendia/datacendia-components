@@ -1,0 +1,61 @@
+{
+  "id": 12423532,
+  "name": "Rutledge v. City of Oakland, California, et al.",
+  "name_abbreviation": "Rutledge v. City of Oakland",
+  "decision_date": "2012-11-13",
+  "docket_number": "No. 11-10607",
+  "first_page": "1020",
+  "last_page": "1020",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1020"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 27,
+    "char_count": 187,
+    "ocr_confidence": 0.597,
+    "sha256": "d6cc413296f69743a374dd57abc7b9c286ffb1fe528b1e8eceb1c0eeb5cf15f9",
+    "simhash": "1:89e308c3e74efadc",
+    "word_count": 30
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Breyer took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Rutledge v. City of Oakland, California, et al.,"
+    ],
+    "opinions": [
+      {
+        "text": "ante, p. 930. Petition for rehearing denied.\nJustice Breyer took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10607.\nRutledge v. City of Oakland, California, et al.,"
+  },
+  "file_name": "1020-03",
+  "first_page_order": 1096,
+  "last_page_order": 1096
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12201077,
+  "name": "Porco v. New York",
+  "name_abbreviation": "Porco v. New York",
+  "decision_date": "2012-04-02",
+  "docket_number": "No. 11-8557",
+  "first_page": "924",
+  "last_page": "924",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 924"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 92,
+    "ocr_confidence": 0.604,
+    "sha256": "afebed5d69cf823bdc03ee25761be7df2a7aa550ca69eebbcc6ee92c7d8c218f",
+    "simhash": "1:297241462185d150",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Porco v. New York."
+    ],
+    "opinions": [
+      {
+        "text": "App. Div., Sup. Ct. N. Y., 2d Jud. Dept. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8557.\nPorco v. New York."
+  },
+  "file_name": "0924-13",
+  "first_page_order": 800,
+  "last_page_order": 800
+}

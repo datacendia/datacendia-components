@@ -1,0 +1,59 @@
+{
+  "id": 12211059,
+  "name": "Miranda-Garcia v. United States",
+  "name_abbreviation": "Miranda-Garcia v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11135",
+  "first_page": "869",
+  "last_page": "869",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 869"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 82,
+    "ocr_confidence": 0.75,
+    "sha256": "98feef48efc78ead731be92ceb6d1edaefae2a4eea334423c413d504a846d5c0",
+    "simhash": "1:060a82330b859412",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Miranda-Garcia v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11135.\nMiranda-Garcia v. United States."
+  },
+  "file_name": "0869-04",
+  "first_page_order": 951,
+  "last_page_order": 951
+}

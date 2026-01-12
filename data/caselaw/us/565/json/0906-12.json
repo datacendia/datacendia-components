@@ -1,0 +1,59 @@
+{
+  "id": 12220525,
+  "name": "Duran-Montes v. United States",
+  "name_abbreviation": "Duran-Montes v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5425",
+  "first_page": "906",
+  "last_page": "906",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 906"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 78,
+    "ocr_confidence": 0.687,
+    "sha256": "907e6a2e1a813e43174edd5945fbbd0367768a0124ad21fd80ca86e4571f2519",
+    "simhash": "1:0788d3020b049568",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Duran-Montes v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5425.\nDuran-Montes v. United States."
+  },
+  "file_name": "0906-12",
+  "first_page_order": 988,
+  "last_page_order": 988
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5973661,
+  "name": "Craig v. United States",
+  "name_abbreviation": "Craig v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-6537",
+  "first_page": "1223",
+  "last_page": "1223",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1223"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.604,
+    "sha256": "a1d9bdb8fd6f188b2b3f0b18a106acd2b1987cd1a26599dc34d419e750011378",
+    "simhash": "1:8608d703c88a372e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Craig v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6537.\nCraig v. United States."
+  },
+  "file_name": "1223-10",
+  "first_page_order": 1245,
+  "last_page_order": 1245
+}

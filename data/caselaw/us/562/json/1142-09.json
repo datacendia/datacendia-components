@@ -1,0 +1,59 @@
+{
+  "id": 5953687,
+  "name": "Dartez v. Kansas",
+  "name_abbreviation": "Dartez v. Kansas",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-6689",
+  "first_page": "1142",
+  "last_page": "1142",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1142"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 64,
+    "ocr_confidence": 0.571,
+    "sha256": "b483b08c60fb4a64740d28ab50b37c3012884980f785153f893ce261044c2c1c",
+    "simhash": "1:48a4e3ce2141f683",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dartez v. Kansas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Kan. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6689.\nDartez v. Kansas."
+  },
+  "file_name": "1142-09",
+  "first_page_order": 1164,
+  "last_page_order": 1164
+}

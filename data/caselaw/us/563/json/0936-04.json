@@ -1,0 +1,59 @@
+{
+  "id": 5911921,
+  "name": "Scott v. Texas",
+  "name_abbreviation": "Scott v. Texas",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-884",
+  "first_page": "936",
+  "last_page": "936",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 936"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 67,
+    "ocr_confidence": 0.6,
+    "sha256": "510daf457531af58ac1a6b2d713db9abc5052143d56bad578804c66183db2f41",
+    "simhash": "1:2122b13656346619",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Scott v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tex. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-884.\nScott v. Texas."
+  },
+  "file_name": "0936-04",
+  "first_page_order": 962,
+  "last_page_order": 962
+}

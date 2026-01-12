@@ -1,0 +1,61 @@
+{
+  "id": 12419233,
+  "name": "Moore v. United States",
+  "name_abbreviation": "Moore v. United States",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-5992",
+  "first_page": "959",
+  "last_page": "959",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 959"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 150,
+    "ocr_confidence": 0.683,
+    "sha256": "f8d5fce5b86761bb62f115d840b1149d463af9d04c3651b1c19a054641a36e4e",
+    "simhash": "1:8b529a82638eda1a",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Moore v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Cer-tiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5992.\nMoore v. United States."
+  },
+  "file_name": "0959-09",
+  "first_page_order": 1035,
+  "last_page_order": 1035
+}

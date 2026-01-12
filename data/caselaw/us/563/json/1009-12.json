@@ -1,0 +1,59 @@
+{
+  "id": 4224677,
+  "name": "Monroe v. Krippel et al.",
+  "name_abbreviation": "Monroe v. Krippel",
+  "decision_date": "2011-05-23",
+  "docket_number": "No. 10-9069",
+  "first_page": "1009",
+  "last_page": "1009",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1009"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 72,
+    "ocr_confidence": 0.602,
+    "sha256": "4951de505c24ec6e926979cb7589c975e8a1aff77fe356fb1522a077cdb4277a",
+    "simhash": "1:b1cc3270c52d9135",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Monroe v. Krippel et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9069.\nMonroe v. Krippel et al."
+  },
+  "file_name": "1009-12",
+  "first_page_order": 1035,
+  "last_page_order": 1035
+}

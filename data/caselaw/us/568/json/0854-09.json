@@ -1,0 +1,59 @@
+{
+  "id": 12413673,
+  "name": "Page v. Texas",
+  "name_abbreviation": "Page v. Texas",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10658",
+  "first_page": "854",
+  "last_page": "854",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 854"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 69,
+    "ocr_confidence": 0.69,
+    "sha256": "4ce34b469dd60e689987e2a26b38c27a123bb55ee048dbd847073bf594b26942",
+    "simhash": "1:18e790f43f3f74d8",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Page v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tex. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10658.\nPage v. Texas."
+  },
+  "file_name": "0854-09",
+  "first_page_order": 930,
+  "last_page_order": 930
+}

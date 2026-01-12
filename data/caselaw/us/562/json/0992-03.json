@@ -1,0 +1,59 @@
+{
+  "id": 5998941,
+  "name": "Compian v. United States",
+  "name_abbreviation": "Compian v. United States",
+  "decision_date": "2010-10-18",
+  "docket_number": "No. 10-6622",
+  "first_page": "992",
+  "last_page": "992",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 992"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.618,
+    "sha256": "359f7aa3f98bc9aac2932878faf71f34b9220c2be17637b19eec46970d9352f9",
+    "simhash": "1:8788d382d8aecc79",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Compian v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6622.\nCompian v. United States."
+  },
+  "file_name": "0992-03",
+  "first_page_order": 1014,
+  "last_page_order": 1014
+}

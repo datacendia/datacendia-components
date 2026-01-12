@@ -1,0 +1,59 @@
+{
+  "id": 5955661,
+  "name": "Greer v. United States",
+  "name_abbreviation": "Greer v. United States",
+  "decision_date": "2011-04-04",
+  "docket_number": "No. 10-9396",
+  "first_page": "929",
+  "last_page": "929",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 929"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.56,
+    "sha256": "220b3c1e8a0362c47a0d3d44d3aec1274b3976e4d9cf204631c3fa3ce0cb5633",
+    "simhash": "1:154bce820b19144c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Greer v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9396.\nGreer v. United States."
+  },
+  "file_name": "0929-01",
+  "first_page_order": 955,
+  "last_page_order": 955
+}

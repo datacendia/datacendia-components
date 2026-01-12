@@ -1,0 +1,59 @@
+{
+  "id": 5996210,
+  "name": "Manning v. McCollum, Attorney General of Florida",
+  "name_abbreviation": "Manning v. McCollum",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5426",
+  "first_page": "921",
+  "last_page": "921",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 921"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 98,
+    "ocr_confidence": 0.61,
+    "sha256": "b0c0d8f3a3cd35337ac468e95a127bed0164dac143c15e7f5dd36fab67777000",
+    "simhash": "1:15010a332302f006",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Manning v. McCollum, Attorney General of Florida."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5426.\nManning v. McCollum, Attorney General of Florida."
+  },
+  "file_name": "0921-07",
+  "first_page_order": 943,
+  "last_page_order": 943
+}

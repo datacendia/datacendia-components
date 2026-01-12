@@ -1,0 +1,59 @@
+{
+  "id": 12219814,
+  "name": "Amavizca v. Arizona",
+  "name_abbreviation": "Amavizca v. Arizona",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5358",
+  "first_page": "903",
+  "last_page": "903",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 903"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 69,
+    "ocr_confidence": 0.716,
+    "sha256": "570213e5d3963989d443a6a31b67e1158bd60f728b3c6503970520a4d5b2c5aa",
+    "simhash": "1:8508c42309e61002",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Amavizca v. Arizona."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ariz. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5358.\nAmavizca v. Arizona."
+  },
+  "file_name": "0903-06",
+  "first_page_order": 985,
+  "last_page_order": 985
+}

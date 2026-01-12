@@ -1,0 +1,922 @@
+{
+  "id": 6055231,
+  "name": "JAMES RUFINI, Plaintiff and Appellant, v. CITIMORTGAGE, INC., Defendant and Respondent",
+  "name_abbreviation": "Rufini v. Citimortgage, Inc.",
+  "decision_date": "2014-05-28",
+  "docket_number": "No. A138480",
+  "first_page": "299",
+  "last_page": "312",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "227 Cal. App. 4th 299"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "93 Cal.Rptr.2d 364",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "78 Cal.App.4th 847",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        196758
+      ],
+      "pin_cites": [
+        {
+          "page": "894, fn. 10"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/78/0847-01"
+      ]
+    },
+    {
+      "cite": "875 P.2d 73",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Cal.Rptr.2d 358",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "7 Cal.4th 1057",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1981815
+      ],
+      "pin_cites": [
+        {
+          "page": "1063"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/7/1057-01"
+      ]
+    },
+    {
+      "cite": "80 Cal.Rptr.3d 6",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "164 Cal.App.4th 1171",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3938065
+      ],
+      "pin_cites": [
+        {
+          "page": "1177"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/164/1171-01"
+      ]
+    },
+    {
+      "cite": "283 Cal.Rptr. 53",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "231 Cal.App.3d 1089",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4390075
+      ],
+      "pin_cites": [
+        {
+          "page": "1096"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/231/1089-01"
+      ]
+    },
+    {
+      "cite": "279 Cal.Rptr. 459",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "228 Cal.App.3d 1128",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4400432
+      ],
+      "pin_cites": [
+        {
+          "page": "1135"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/228/1128-01"
+      ]
+    },
+    {
+      "cite": "981 P.2d 978",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1991,
+      "opinion_index": 0
+    },
+    {
+      "cite": "87 Cal.Rptr.2d 886",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1991,
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 Cal.4th 543",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        884885
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "552, 553-554"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/21/0543-01"
+      ]
+    },
+    {
+      "cite": "69 Cal.Rptr.2d 623",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 Cal.App.4th 965",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        261100
+      ],
+      "pin_cites": [
+        {
+          "page": "968, fn. 3"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/59/0965-01"
+      ]
+    },
+    {
+      "cite": "58 Cal.Rptr.2d 89",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1997,
+      "opinion_index": 0
+    },
+    {
+      "cite": "50 Cal.App.4th 632",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4672913
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "653"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/50/0632-01"
+      ]
+    },
+    {
+      "cite": "281 Cal.Rptr. 827",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "230 Cal.App.3d 1125",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        6036947
+      ],
+      "pin_cites": [
+        {
+          "page": "1155-1156"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/230/1125-01"
+      ]
+    },
+    {
+      "cite": "246 P.3d 877",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "120 Cal.Rptr.3d 741",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 Cal.4th 310",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3915209
+      ],
+      "pin_cites": [
+        {
+          "page": "320-321"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/51/0310-01"
+      ]
+    },
+    {
+      "cite": "304 P.3d 163",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "159 Cal.Rptr.3d 672",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 Cal.4th 364",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6053978
+      ],
+      "pin_cites": [
+        {
+          "page": "370"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/57/0364-01"
+      ]
+    },
+    {
+      "cite": "973 P.2d 527",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "83 Cal.Rptr.2d 548",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 Cal.4th 163",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        829708
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/20/0163-01"
+      ]
+    },
+    {
+      "cite": "144 Cal.Rptr. 46",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "77 Cal.App.3d 951",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2011323
+      ],
+      "pin_cites": [
+        {
+          "page": "958, fn. 3"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/77/0951-01"
+      ]
+    },
+    {
+      "cite": "203 Cal.Rptr. 345",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1978,
+      "opinion_index": 0
+    },
+    {
+      "cite": "156 Cal.App.3d 965",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2146830
+      ],
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "977-978"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/156/0965-01"
+      ]
+    },
+    {
+      "cite": "2010 WL 761236",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "opinion_index": 0
+    },
+    {
+      "cite": "127 Cal.Rptr.3d 589",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "196 Cal.App.4th 1559",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4235222
+      ],
+      "pin_cites": [
+        {
+          "page": "1572-1573"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/196/1559-01"
+      ]
+    },
+    {
+      "cite": "129 Cal.Rptr.3d 874",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2011,
+      "opinion_index": 0
+    },
+    {
+      "cite": "198 Cal.App.4th 230",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4238187
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "250"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/198/0230-01"
+      ]
+    },
+    {
+      "cite": "245 Cal.Rptr. 211",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "199 Cal.App.3d 858",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4403836
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/199/0858-01"
+      ]
+    },
+    {
+      "cite": "59 Cal.Rptr.3d 672",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1988,
+      "opinion_index": 0
+    },
+    {
+      "cite": "151 Cal.App.4th 168",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3720691
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "182"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/151/0168-01"
+      ]
+    },
+    {
+      "cite": "147 Cal.Rptr.3d 41",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "209 Cal.App.4th 182",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6054590
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/209/0182-01"
+      ]
+    },
+    {
+      "cite": "28 Cal.Rptr.3d 825",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "129 Cal.App.4th 706",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        2483300
+      ],
+      "pin_cites": [
+        {
+          "page": "712"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/129/0706-01"
+      ]
+    },
+    {
+      "cite": "212 Cal-Rptr. 232",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "165 Cal.App.3d 1214",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2128950
+      ],
+      "pin_cites": [
+        {
+          "page": "1222-1223"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/165/1214-01"
+      ]
+    },
+    {
+      "cite": "92 Cal.Rptr. 851",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 Cal.App.3d 112",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4416927
+      ],
+      "pin_cites": [
+        {
+          "page": "117"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/15/0112-01"
+      ]
+    },
+    {
+      "cite": "135 Cal.Rptr.3d 442",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "200 Cal.App.4th 1499",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4242744
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/200/1499-01"
+      ]
+    },
+    {
+      "cite": "283 F.R.D. 533",
+      "category": "reporters:specialty",
+      "reporter": "F.R.D.",
+      "case_ids": [
+        4283064
+      ],
+      "pin_cites": [
+        {
+          "page": "550"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/frd/283/0533-01"
+      ]
+    },
+    {
+      "cite": "673 F.3d 547",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3741891
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "557"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/673/0547-01"
+      ]
+    },
+    {
+      "cite": "728 F.3d 878",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3696475
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/728/0878-01"
+      ]
+    },
+    {
+      "cite": "146 Cal.Rptr.3d 90",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "208 Cal.App.4th 1001",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4257041
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1017"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/208/1001-01"
+      ]
+    },
+    {
+      "cite": "154 Cal.Rptr.3d 285",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "214 Cal.App.4th 780",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4264489
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "792"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/214/0780-01"
+      ]
+    },
+    {
+      "cite": "163 Cal.Rptr.3d 539",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "220 Cal.App.4th 915",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3801051
+      ],
+      "pin_cites": [
+        {
+          "page": "922-923"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/220/0915-01"
+      ]
+    },
+    {
+      "cite": "65 P.3d 1255",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "132 Cal.Rptr.2d 490",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal.4th 167",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        269734
+      ],
+      "pin_cites": [
+        {
+          "page": "174"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/30/0167-01"
+      ]
+    },
+    {
+      "cite": "162 Cal.Rptr.3d 382",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "219 Cal.App.4th 1052",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6050159
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1057"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/219/1052-01"
+      ]
+    },
+    {
+      "cite": "10 Cal.Rptr.2d 293",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "8 Cal.App.4th 294",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        2320528
+      ],
+      "pin_cites": [
+        {
+          "page": "296-297"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/8/0294-01"
+      ]
+    },
+    {
+      "cite": "43 Cal.Rptr.2d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Cal.App.4th 333",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4881934
+      ],
+      "pin_cites": [
+        {
+          "page": "341"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/36/0333-01"
+      ]
+    },
+    {
+      "cite": "127 Cal.Rptr.3d 569",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1995,
+      "opinion_index": 0
+    },
+    {
+      "cite": "196 Cal.App.4th 1545",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4235571
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "1552"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/196/1545-01"
+      ]
+    },
+    {
+      "cite": "126 Cal.Rptr.3d 174",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "195 Cal.App.4th 1602",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4234111
+      ],
+      "pin_cites": [
+        {
+          "page": "1608-1609"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/195/1602-01"
+      ]
+    },
+    {
+      "cite": "904 P.2d 1205",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2011,
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.Rptr.2d 594",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 2011,
+      "opinion_index": 0
+    },
+    {
+      "cite": "11 Cal.4th 583",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1960668
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "586"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/11/0583-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1436,
+    "char_count": 32020,
+    "ocr_confidence": 0.904,
+    "pagerank": {
+      "raw": 6.597858217498873e-08,
+      "percentile": 0.4034242923043004
+    },
+    "sha256": "189a53d488cf49603128284612864defad3e0a0fde2aaa7fdcdd76dd7d6c2b23",
+    "simhash": "1:ae4f77be7e77866c",
+    "word_count": 5038
+  },
+  "last_updated": "2024-02-27T22:08:11.870890+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "JAMES RUFINI, Plaintiff and Appellant, v. CITIMORTGAGE, INC., Defendant and Respondent."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nSIGGINS, J.\nJames Rufini challenges an order sustaining a demurrer, without leave to amend, to his complaint concerning a failed home loan modification and eventual foreclosure. He contends his complaint adequately alleges causes of action for wrongful foreclosure, breach of contract and of the covenant of good faith and fair dealing, breach of fiduciary duty, negligence, negligent misrepresentation, and unfair business practices. We affirm the trial court\u2019s order sustaining the demurrer to the causes of action for general negligence, breach of fiduciary duty, and an accounting, and reverse it as to the causes of action for breach of contract, negligent misrepresentation and unfair business practices. With the guidance of appellate decisions, issued after the trial court\u2019s ruling, which address similar claims, we conclude the court should have granted Rufini leave to amend. We reverse to allow Rufini to amend his complaint on remand if he can do so as generally described in this opinion.\nBACKGROUND\nThis appeal challenges a trial court order sustaining a demurrer so we draw the relevant facts from the complaint. (Adams v. Paul (1995) 11 Cal.4th 583, 586 [46 Cal.Rptr.2d 594, 904 P.2d 1205]; Hamilton v. Greenwich Investors XXVI, LLC (2011) 195 Cal.App.4th 1602, 1608-1609 [126 Cal.Rptr.3d 174] (Hamilton).)\nIn July 2007 Rufini purchased his primary residence in Sonoma with a $600,000 loan toward the purchase price secured by a deed of trust. Rufini and his fianc\u00e9e lived in the home until they separated and Rufini temporarily moved in with his son to allow his fianc\u00e9e time to find a new place to live. He then sought a loan modification from CitiMortgage, Inc. In June 2009, CitiMortgage approved Rufini for a loan modification and told him he would receive a permanent modification in October after making timely trial payments of $2,787.93 in July, August and September.\nRufini timely made the trial payments at' the modified rate through December 2009. In January, 2010, CitiMortgage informed him that his permanent loan modification agreement would be ready in three days. Rufini was concerned about the reliability of that promise, and worried by stories of lenders arbitrarily cancelling trial loan modifications, so he decided against moving back into his house until he received the written agreement. Three months later, with still no written agreement in hand, he rented out his house to offset his expenses until he could return. In August, Rufini learned that CitiMortgage was denying his loan modification, \u201costensibly because the home was not owner-occupied.\u201d He attempted to continue his timely mortgage payments at the modified level, but CitiMortgage returned his checks.\nRufini received a notice of default and election to sell under the deed of trust in September 2010, followed in December by a notice of trustee\u2019s sale scheduled for January 3, 2011. He contacted CitiMortgage and obtained its agreement to delay the foreclosure sale for 30 days. CitiMortgage assigned Jonathan Semien to Rufini\u2019s account, but Rufini was unable to contact him on the phone for another three and a half weeks. When he finally reached Semien\u2019s secretary, he was told the foreclosure would probably not take place until March 1, 2011, and was asked to provide additional information about his income. On March 1 Semien requested further documentation, including proof of residency and financial statements, \u201cto complete modification] review.\u201d In the meantime, however, CitiMortgage \u201cknowingly planned and schemed ... to transfer plaintiff\u2019s loan to PennyMac and foreclose on plaintiff behind his back in violation of dual tracking,\u201d all while lulling Rufini into complacency by pretending to pursue the permanent loan modification. On February 25, without Rufini\u2019s knowledge, CitiMortgage transferred his loan to PennyMac.\nIn mid-March, Rufini received a new notice of trustee\u2019s sale for an April 1, 2011 sale, but Semien agreed to postpone it again while they continued to pursue a loan modification. On April 11 Rufini was informed his modification was \u201cin final state of completion.\u201d Then, on May 4, 2011, his house was sold at auction. Rufini contacted Semien, who told him that \u201chis loan had been sold, that [Semien] knew all along that plaintiff\u2019s loan was sold to PennyMac, and knew plaintiff\u2019s loan would be foreclosed upon. Semien said he knew this information all along. ... It was clear Mr. Semien was lying to plaintiff and had plaintiff send in extra documents even though he knew they had no intention of modifying plaintiff\u2019s loan. It seems clear his intention was to deceive plaintiff so plaintiff would not take any action until the foreclosure occurred.\u201d\nThe complaint sought equitable relief and damages for an illegal trustee\u2019s sale, \u201cbreach of contract\u2014promissory estoppel,\u201d breach of fiduciary duty, breach of the implied covenant of good faith and fair dealing, unfair business practices, negligence, negligent misrepresentation, and an accounting. The trial court found the complaint failed to state a viable cause of action and sustained CitiMortgage\u2019s demurrer without leave to amend. Rufini filed a timely appeal.\nDISCUSSION\nI. Standards of Review\nWe review an order sustaining a demurrer de novo to determine whether the complaint states facts sufficient to constitute a cause of action. (Bower v. AT&T Mobility, LLC (2011) 196 Cal.App.4th 1545, 1552 [127 Cal.Rptr.3d 569]; Stanton Road Associates v. Pacific Employers Ins. Co. (1995) 36 Cal.App.4th 333, 341 [43 Cal.Rptr.2d 1] (Stanton Road).) We construe the complaint \u201cliberally . . . with a view to substantial justice between the parties\u201d (Code Civ. Proc., \u00a7 452) and treat it \u201c \u2018 \u201cas admitting all material facts properly pleaded, but not contentions, deductions or conclusions of fact or law. [Citation.] We also consider matters which may be judicially noticed.\u201d [Citation.] Further, we give the complaint a reasonable interpretation, reading it as a whole and its parts in their context.\u2019 \u201d (Stanton Road, supra, 36 Cal.App.4th at p. 340; see Jager v. County of Alameda (1992) 8 Cal.App.4th 294, 296-297 [10 Cal.Rptr.2d 293].) When the court sustains a demurrer without leave to amend, \u201c \u2018we decide whether there is a reasonable possibility that the defect can be cured by amendment: if it can be, the trial court has abused its discretion and we reverse; if not, there has been no abuse of discretion and we affirm. [Citations.] The burden of proving such reasonable possibility is squarely on the plaintiff.\u2019 [Citations.]\u201d (Stanton Road, supra, at p. 341.) Whether the plaintiff will ultimately be able to prove the complaint\u2019s allegations is not relevant. (Chavez v. Indymac Mortgage Services (2013) 219 Cal.App.4th 1052, 1057 [162 Cal.Rptr.3d 382] (Chavez).)\nII. Breach of Contract, Breach of Covenant and Wrongful Foreclosure\nA. Allegations\nWe address these causes of action jointly because they share the common premise that CitiMortgage wrongfully foreclosed in breach of a binding agreement to modify Rufini\u2019s mortgage despite his compliance with the trial modification.\nThe clear thrust of Rufini\u2019s complaint is that CitiMortgage agreed to modify Rufini\u2019s original loan after a trial modification period and then breached that agreement after he complied with its terms and relied on the agreement to his detriment. Rufini alleges he \u201cwas approved for a loan modification in June 2009. Plaintiff was told he would receive his permanent modification in October, after making his trial payments of $2787.93 for July, August, and September, 2009, which were all timely made.\u201d Thereafter he made or tendered payments \u201cpursuant to the written Loan Modification Agreement\u201d \u201c[throughout the events leading up to this action.\u201d The complaint further alleges that, in reliance on CitiMortgage\u2019s promise to modify his loan, Rufini did not pursue other ways to avoid foreclosure and spent \u201ccountless hours\u201d on the telephone and preparing correspondence, documents, and financial and personal information in pursuit of the modification.\nB. Analysis\nCitiMortgage argues the complaint cannot state a cause of action for breach of contract because it was Rufini, not CitiMortgage, who breached the terms of the original note and deed of trust. This argument is predicated on Rufini\u2019s default under the terms of the original loan by making and tendering to CitiMortgage the reduced payments required by the trial modification plan, even though CitiMortgage ultimately declined to modify the loan. This argument is easily rejected. Rufini is not making a claim that CitiMortgage breached under the original loan documents. Rather, Rufini\u2019s claim is that CitiMortgage breached its agreement to modify that loan.\nCitiMortgage asserts that the lack of a written agreement to modify Rufini\u2019s loan is fatal to his complaint because a written agreement is required by the statute of frauds. The argument seems based on a misreading of the complaint. Liberally construed, the complaint alleges both that there was a written agreement and that Rufini detrimentally relied on CitiMortgage\u2019s representations. Specifically, it alleges Rufini reasonably relied on CitiMortgage\u2019s promise to modify his loan \u201c[g]iven the language in the subject written Loan Modification Agreement,\u201d made and tendered multiple loan payments, refrained from pursuing alternative funding opportunities, and expended substantial time and effort providing CitiMortgage with information \u201cpursuant to the written Loan Modification Agreement.\u201d (Italics added.) CitiMortgage proposes no reason to conclude these allegations of a writing and forbearance would not satisfy the statute of frauds, and none is apparent. (See generally Small v. Fritz Companies, Inc. (2003) 30 Cal.4th 167, 174 [132 Cal.Rptr.2d 490, 65 P.3d 1255] [forbearance sufficient to overcome statute of frauds].) Though the exact basis of Rufini\u2019s contract theory is less than clear, the cure is to allow him to amend his complaint to clearly specify the nature and terms of the agreement he alleges CitiMortgage breached. (See Stanton Road, supra, 36 Cal.App.4th at p. 341.)\nFor guidance on remand, we refer the parties to recent opinions, issued after the trial court\u2019s ruling in this case, addressing the obligations of lenders and borrowers who engage in attempts to modify home mortgages under the federal Home Affordable Modification Program (HAMP). (See Bushell v. JPMorgan Chase Bank, N.A. (2013) 220 Cal.App.4th 915, 922-923 [163 Cal.Rptr.3d 539] (Bushell); Chavez, supra, 219 Cal.App.4th 1052; West v. JPMorgan Chase Bank, N.A. (2013) 214 Cal.App.4th 780 [154 Cal.Rptr.3d 285] (West); Barroso v. Ocwen Loan Servicing, LLC (2012) 208 Cal.App.4th 1001 [146 Cal.Rptr.3d 90] (Barroso); Corvello v. Wells Fargo Bank, N.A. (9th Cir. 2013) 728 F.3d 878 (Corvello); Wigod v. Wells Fargo Bank, N.A. (7th Cir. 2012) 673 F.3d 547, 557 (Wigod); see also Sutcliffe v. Wells Fargo Bank, N.A. (N.D.Cal. 2012) 283 F.R.D. 533, 550.) Under HAMP, enacted to minimize home foreclosures following the massive financial upheaval in 2008 (Bushell, supra, at pp. 922-923; Corvello, supra, 728 F.3d at p. 880), qualifying homeowners may obtain. permanent loan modifications that reduce their mortgage payments..Lenders receive various incentives from the government for each HAMP modification. (Bushell, supra, 220 Cal.App.4th at p. 923.) The participating lender initially determines whether a borrower satisfies certain threshold requirements regarding the amount of the loan balance, monthly payment, and owner occupancy. (Ibid.) It then implements the HAMP modification process in two stages. (Id. at p. 924.) In the first stage, it provides the borrower with a \u201cTrial Period Plan\u201d (TPP), setting forth the trial payment terms, instructs the borrower to sign and return the TPP and other documents, and requests the first trial payment. (Ibid.) In the second stage, if the borrower has made all required trial payments and complied with all of the TPP\u2019s other terms, and if the borrower\u2019s representations on which the modification is based remain correct, the lender must offer the borrower a permanent loan modification. (Id. at pp. 924-925; West, supra, 214 Cal.App.4th at pp. 786, 788; Wigod, supra, 673 F.3d at p. 557.) Under the above authority, if the lender does not do so, the borrower may sue the lender for breach of the trial modification plan and related causes of action.\nCitiMortgage urges that West and, presumably, the other cases cited above are inapplicable here because Rufini \u201cfailed to allege his eligibility to participate in a HAMP TPP or modification, let alone compliance with the process . . . .\u201d Possibly, but whether or not Rufini can so allege upon remand remains to be seen. Although the complaint does not plainly identify the attempted modification as pursuant to a TPP, it suggests as much in alleging that CitiMortgage refused-\u201cto qualify [Rufini] under HAMP.\u201d Moreover, Rufini claims in his reply brief that the modification was, in fact, pursuant to a written TPP, and seeks leave to amend his complaint to that effect. Based on the allegations of his complaint and the recent decisions addressing such modifications, we agree that he must be given the opportunity to do so.\nCitiMortgage\u2019s assertion that Rufini was ineligible for a HAMP modification because he was not living in his home at the time is also unavailing on demurrer. The HAMP guideline cited by CitiMortgage, Supplemental Directive 09-01, specifies only that the home must be the borrower\u2019s primary residence, as evidenced by tax returns, credit reports and other \u201creasonable evidence . . . such as utility bills in the borrower\u2019s name.\u201d Rufini\u2019s allegation that he was renting out his home at the time suggests he may have difficulty prevailing on a HAMP-related contract claim. But it does not establish as a matter of law that he will be unable to prove an actionable breach, and it is not our task at this juncture to determine whether he will ultimately be able to do so. (See Chavez, supra, 219 Cal.App.4th at p. 1057.)\nNungaray v. Litton Loan Servicing, LP (2011) 200 Cal.App.4th 1499 [135 Cal.Rptr.3d 442], which CitiMortgage cites for the proposition that a borrower\u2019s compliance with a TPP does not give rise to a contract to permanently modify the original loan, does not persuade us otherwise. Nungaray is distinguishable, for one, in that the court there found on summary judgment that the plaintiffs had failed to comply with the conditions of their TPP. (Id. at pp. 1504-1505.) There has been no such finding here. More fundamentally, Nungaray's analysis is at odds with the more recent and more persuasive cases cited above concluding, at least at the pleading stage, that compliance with a TPP can give rise to an enforceable agreement to permanently modify a loan.\nCitiMortgage further asserts Rufini cannot maintain a breach of contract or, indeed, any cause of action arising from the allegedly wrongful foreclosure, because he failed to allege he was willing and able to tender the full amount of the loan. Here too, we disagree. CitiMortgage relies on the general rule that a plaintiff may not challenge the propriety of a foreclosure on his or her property without offering to repay the full amount borrowed against it. (See Karlsen v. American Sav. & Loan Assn. (1971) 15 Cal.App.3d 112, 117 [92 Cal.Rptr. 851] [judgment on the pleadings proper where plaintiff attempted to set aside trustee\u2019s sale for lack of adequate notice, because \u201c[a] valid and viable tender of payment of the indebtedness owing is essential to an action to cancel a voidable sale under a deed of trust\u201d]; United States Cold Storage v. Great Western Savings & Loan Assn. (1985) 165 Cal.App.3d 1214, 1222-1223 [212 Cal-Rptr. 232] [\u201cthe law is long-established that a trustor or his successor must tender the obligation in full as a prerequisite to challenge of the foreclosure sale\u201d (italics omitted)].)\nBut Rufini has clarified that he is not seeking to undo the foreclosure sale. Construed liberally, the complaint appears to be about whether CitiMortgage had a right to foreclose under the original loan agreement after it offered Rufini a modification agreement and he accepted by \u201cperforming] all conditions, covenants and promises required on his part to be performed\u201d thereunder. So construed, since Rufini did not default under the terms of the modified agreement, he was not required to tender his indebtedness to avoid foreclosure. (Barroso, supra, 208 Cal.App.4th 1001, 1017; Chavez, supra, 219 Cal.App.4th at pp. 1062-1063; see Bank of America, N.A. v. La Jolla Group II (2005) 129 Cal.App.4th 706, 712 [28 Cal.Rptr.3d 825] [\u201cIf, after a default, the trustor and beneficiary enter into an agreement to cure the default and reinstate the loan, no contractual basis remains for exercising the power of sale.\u201d].)\nIf Rufini is able to allege facts showing, under the above authorities, that CitiMortgage was contractually obligated to modify his loan, he must also be granted leave to allege a cause of action for breach of the implied covenant of good faith and fair dealing based on its refusal to do so. (Barroso, supra, 208 Cal.App.4th at pp. 1014\u20141015.) \u201c \u2018It has long been recognized, of course, that every contract imposes upon each party a duty of good faith and fair dealing in the performance of the contract such that neither party shall do anything which will have the effect of destroying or injuring the right of the other party to receive the fruits of the contract.\u2019 \u201d (Id. at p. 1014; see Bushell, supra, 220 Cal.App.4th at pp. 928-929.) We do not separately address the sufficiency of his cause of action for wrongful foreclosure because its legal viability appears to depend on whether Rufini can allege on remand that CitiMortgage foreclosed despite an enforceable agreement to permanently modify his loan. (See Barroso, supra, 208 Cal.App.4th at pp. 1016-1017.)\nIII. Negligent Misrepresentation\nRufini contends the court erred when it sustained the demurrer to his cause of action for negligent misrepresentation. This contention, too, has merit.\nThe elements of negligent misrepresentation are (1) the defendant made a false representation; (2) without reasonable grounds for believing it to be true; (3) with the intent to deceive the plaintiff; (4) justifiable reliance on the representation; and (5) resulting harm. (West, supra, 214 Cal.App.4th 780, 792.) Here, Rufini alleged CitiMortgage falsely told him he was approved for a permanent loan modification on July 31, 2009, and thereafter carried on the pretense of engaging in efforts to finalize it, while all the while planning to foreclose on his loan; that CitiMortgage made this misrepresentation with the intent of inducing-him to rely on it; and that in reasonable reliance on it he spent hundreds of hours in loan modification negotiations and lost the opportunity to pursue other ways to avoid foreclosure. These allegations are sufficient, for purposes of demurrer, to state a claim for negligent misrepresentation. (See, e.g., West, supra, 214 Cal.App.4th at pp. 793-795; Bushell, supra, 220 Cal.App.4th at pp. 915, 930-931.)\nCitiMortgage asserts the trial court ruled correctly because, as we understand the essence of its argument, banks owe their borrowers no duty not to misrepresent the truth \u201cin the context of the loan modification allegations/discussions.\u201d Their authorities for this proposition do not support it. Ragland v. U.S. Bank National Assn. (2012) 209 Cal.App.4th 182 [147 Cal.Rptr.3d 41] held that the plaintiff could not prove the existence of a special relationship with the bank giving rise to the duty of care required for negligent infliction of emotional distress, but reversed a grant of summary judgment on the plaintiff\u2019s claim for negligent misrepresentation. (Id. at pp. 196-199, 205-206.) In Melican v. Regents of University of California (2007) 151 Cal.App.4th 168, 182 [59 Cal.Rptr.3d 672], also a summary judgment case, the plaintiffs had failed to allege two of the three misrepresentations they ascribed to the defendants, and failed to demonstrate any actionable reliance on the third. Eddy v. Sharp (1988) 199 Cal.App.3d 858 [245 Cal.Rptr. 211] addresses the scope of an insurer\u2019s duty to inform its insureds of their rights and duties under an insurance policy, not whether lenders have a free pass to misrepresent important facts with impunity when they negotiate loan modifications. They do not. (See Boschma v. Home Loan Center, Inc. (2011) 198 Cal.App.4th 230, 250 [129 Cal.Rptr.3d 874] [lender had a common law duty to avoid making partial, misleading representations of material facts]; Wells Fargo Bank, N.A. v. FSI, Financial Solutions, Inc. (2011) 196 Cal.App.4th 1559, 1572-1573 [127 Cal.Rptr.3d 589].)\nCiting an unpublished federal trial court opinion (Newgent v. Wells Fargo Bank, N.A. (S.D.Cal., Mar. 2, 2010, No. 09cvl525 WQH (WMC)) 2010 WL 761236), CitiMortgage next contends Rufini\u2019s negligent misrepresentation claim is barred by the statute of frauds because he failed to allege the existence of a written modification agreement. Assuming for purposes of this discussion that the statute of frauds bars a negligent misrepresentation claim based on an oral agreement to modify a contract required to be in writing (see Munoz v. Kaiser Steel Corp. (1984) 156 Cal.App.3d 965, 977-978 [203 Cal.Rptr. 345]; but see Southern Cal. etc. Assemblies of God v. Shepherd of Hills etc. Church (1978) 77 Cal.App.3d 951, 958, fn. 3 [144 Cal.Rptr. 46]), we have already stated- that Rufini alleged both a written agreement and his forbearance from pursuing other sources of financing in reliance on CitiMortgage\u2019s representations. (See Small v. Fritz Companies, Inc., supra, 30 Cal.4th at p. 174; Bushell, supra, 220 Cal.App.4th at p. 930.)\nCitiMortgage\u2019s further assertion that Rufini\u2019s negligent misrepresentation claim is unsupported by a valid allegation of damages is equally meritless. Such forbearance, as well as the hundreds of hours Rufini alleges he spent in loan modification negotiations with CitiMortgage, are also sufficient allegations of damage to withstand the demurrer to this cause of action. (See West, supra, 214 Cal.App.4th at p. 795; Bushell, supra, 220 Cal.App.4th at p. 928.) Moreover, Rufini could possibly plead a loss of equity in the property as a result of the improper auction sale.\nIV. Business & Professions Code Section 17200\nBusiness and Professions Code section 17200, the unfair competition law, permits civil recovery for \u201cany unlawful, unfair or fraudulent business act or practice.\u201d Rufini alleged that CitiMortgage committed an unlawful business practice when it denied his loan modification in bad faith \u201con the grounds that the home was not owner occupied when in fact it was owner occupied,\u201d and pretended to engage in loan modification efforts while actually intending to foreclose. CitiMortgage contends the court properly sustained the demurrer to this cause of action because Rufini failed to allege a \u201cpredicate act involving a violation of some other statute,\u201d which it asserts is a prerequisite to liability under section 17200. Not so. Cel-Tech Communications, Inc. v. Los Angeles Cellular Telephone Co. (1999) 20 Cal.4th 163 [83 Cal.Rptr.2d 548, 973 P.2d 527], which CitiMortgage cites for its view of the law, explains that, with limitations not relevant here, section 17200 imposes no such requirement. \u201cThe statutory language referring to \u2018any unlawful, unfair or fraudulent\u2019 practice (italics added) makes clear that a practice may be deemed unfair even if not specifically proscribed by some other law. \u2018Because Business and Professions Code section 17200 is written in the disjunctive, it establishes three varieties of unfair competition\u2014acts or practices which are unlawful, or unfair, or fraudulent. \u201cIn other words, a practice is prohibited as \u2018unfair\u2019 or \u2018deceptive\u2019 even if not \u2018unlawful\u2019 and vice versa.\u201d \u2019 \u201d (Cel-Tech Communications, Inc., supra, at p. 180, some italics added; see Zhang v. Superior Court (2013) 57 Cal.4th 364, 370 [159 Cal.Rptr.3d 672, 304 P.3d 163].)\nWest, supra, 214 Cal.App.4th at pages 805-806 is instructive. The complaint there, liberally construed, alleged that the lender engaged in a practice of offering borrowers TPP\u2019s that did not comply with federal guidelines and directives; made misrepresentations about a borrower\u2019s right and ability to challenge bank calculations; made misrepresentations about pending foreclosure sales; and wrongfully had trustees\u2019 sales conducted when the borrower was in compliance with a TPP. (Id. at p. 806.) The court held these allegations sufficient to support a cause of action under the unfair competition law based on underlying, nonstatutory claims for fraud, negligent misrepresentation, breach of contract and promissory estoppel. (Ibid.) So, too, here.\nCitiMortgage alternatively argues Rufini lacks standing to bring an unfair competition claim because he cannot allege he \u201clost money or property as a result of the unfair competition.\u201d It seems CitiMortgage considers Rufini\u2019s only loss to be the mortgage payments he made while attempting to obtain a loan modification, and concludes those payments cannot support a claim for damages because Rufini was legally required to make them under the original note. Not so. The complaint also alleges that CitiMortgage\u2019s unfair and deceptive practices deprived Rufini of the opportunity to pursue other means of avoiding foreclosure, leading to the loss of his home and the equity he had in it. He sufficiently alleged standing under section 17200. (See Zhang v. Superior Court, supra, 57 Cal.4th at p. 372; Kwikset Corp. v. Superior Court (2011) 51 Cal.4th 310, 320-321 [120 Cal.Rptr.3d 741, 246 P.3d 877].)\nFinally, relying upon Mangini v. Aerojet-General Corp. (1991) 230 Cal.App.3d 1125, 1155-1156 [281 Cal.Rptr. 827], CitiMortgage asserts Rufini\u2019s section 17200 claim fails because the unfair competition law applies only to ongoing conduct. That was the state of the law when Mangini was decided, but the following year the Legislature amended section 17200 to state that it applies to any unlawful \u201c \u2018act or practice,\u2019 presumably permitting invocation of the UCA based on a single instance of unfair conduct.\u201d (Podolsky v. First Healthcare Corp. (1996) 50 Cal.App.4th 632, 653 [58 Cal.Rptr.2d 89]; see Klein v. Earth Elements, Inc. (1997) 59 Cal.App.4th 965, 968, fn. 3 [69 Cal.Rptr.2d 623].) We conclude the trial court erroneously sustained the demurrer to Rufini\u2019s cause of action brought under section 17200.\nV. Other Causes of Action\nRufini\u2019s causes of action for general negligence and breach of fiduciary duty fare less well. In support of the former, Rufini incorporates his prior allegations and further alleges that CitiMortgage violated its duty as the servicer of his loan when it \u201cnegligently and carelessly rejected plaintiffs tenders of the reimbursement amounts.\u201d With the addition of the assertion that CitiMortgage\u2019s actions were negligent, the allegations essentially elaborate on Rufini\u2019s breach of contract allegations and therefore do not support a separate cause of action in tort. \u201c \u2018[C]ourts will generally enforce the breach of a contractual promise through contract law, except when the actions that constitute the breach violate a social policy that merits the imposition of tort remedies.\u2019 \u201d (Erlich v. Menezes (1999) 21 Cal.4th 543, 552, 553-554 [87 Cal.Rptr.2d 886, 981 P.2d 978]; see Award Metals, Inc. v. Superior Court (1991) 228 Cal.App.3d 1128, 1135 [279 Cal.Rptr. 459] [demurrer properly sustained to duplicative negligence cause of action].)\nAs to breach of fiduciary duty, Rufini alleges that CitiMortgage owed him a fiduciary duty to, at a minimum, perform a fair analysis in good faith, investigate the material facts, and use reasonable care and due diligence in compliance with the relevant standards of professional conduct. This cause of action falls directly afoul of the principle that \u201c[n]o fiduciary duty exists between a borrower and lender in an arm\u2019s length transaction. [Citations.] \u2018[A]s a general rule, a financial institution owes no duty of care to a borrower when the institution\u2019s involvement in the loan transaction does not exceed the scope of its conventional role as a mere lender of money.\u2019 \u201d (Ragland v. U.S. Bank National Assn., supra, 209 Cal.App.4th at p. 206, quoting Nymark v. Heart Fed. Savings & Loan Assn. (1991) 231 Cal.App.3d 1089, 1096 [283 Cal.Rptr. 53].) Rufini\u2019s factual allegations do not show that CitiMortgage\u2019s activities went beyond its conventional role as a mere lender of money and therefore do not establish the existence of a fiduciary duty.\nThe trial court also sustained CitiMortgage\u2019s demurrer to Rufini\u2019s cause of action for an accounting. Rufini has abandoned any claim of error regarding that cause of action by failing to assert it in his briefs on appeal, so we will not address it. (See Wall Street Network, Ltd. v. New York Times Co. (2008) 164 Cal.App.4th 1171, 1177 [80 Cal.Rptr.3d 6].)\nDISPOSITION\nThe judgment is affirmed as to the causes of action for general negligence, breach of fiduciary duty and an accounting. In all other respects, the judgment is reversed and the matter remanded for further proceedings. Rufini shall recover costs incurred on appeal.\nMcGuiness, R J., and Jenkins, J., concurred.\nA petition for a rehearing was denied July 22, 2014, and the opinion was modified to read as printed above.\nThe operative pleading is the first amended complaint. We deny CitiMortgage\u2019s request for judicial notice of Rufini\u2019s deed of trust and other recorded and unrecorded documents because they are not necessary for resolution of the issues before us. (See Mangini v. R. J. Reynolds Tobacco Co. (1994) 7 Cal.4th 1057, 1063 [31 Cal.Rptr.2d 358, 875 P.2d 73].)\nNo written agreement was appended to the complaint or appears in the record.\nRufini has filed a motion to augment the record to include a July 6, 2009 letter from CitiMortgage that appears to be an offer to enter a TPP. He asserts the document was lodged with the trial court but CitiMortgage says it was not, and Rufini has not supplied this court with a copy stamped by the trial court or otherwise established that it was lodged and before the trial court when it ruled on the demurrer. Moreover, Rufini did not seek to augment the record with this document until after CitiMortgage filed its respondent\u2019s brief on appeal. For these reasons, the motion to augment is denied. (See Cal. Rules of Court, rule 8.155(a); Shade Foods, Inc. v. Innovative Products Sales & Marketing, Inc. (2000) 78 Cal.App.4th 847, 894, fn. 10 [93 Cal.Rptr.2d 364] [points raised in the reply brief for the first time will not be considered, unless good reason is shown for failure to present them before].)\nHereinafter section 17200.\nBusiness and Professions Code section 17204 provides that \u201c[a]ctions for relief pursuant to this chapter shall be prosecuted exclusively in a court of competent jurisdiction by the Attorney General or a district attorney or by a county counsel authorized by agreement with the district attorney in actions involving violation of a county ordinance, or by a city attorney of a city having a population in excess of 750,000, or by a city attorney in a city and county or, with the consent of the district attorney, by a city prosecutor in a city having a full-time city prosecutor in the name of the people of the State of California upon their own complaint or upon the complaint of a board, officer, person, corporation, or association, or by a person who has suffered injury in fact and has lost money or property as a result of the unfair competition.\u201d (Italics added.)",
+        "type": "majority",
+        "author": "SIGGINS, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Richard Phillip Sax and William P. Matz for Plaintiff and Appellant.",
+      "Pite Duncan, Peter Joseph Salmon and Christopher Lee Peterson for Defendant and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. A138480.\nFirst Dist., Div. Three.\nMay 28, 2014.]\nJAMES RUFINI, Plaintiff and Appellant, v. CITIMORTGAGE, INC., Defendant and Respondent.\nCounsel\nRichard Phillip Sax and William P. Matz for Plaintiff and Appellant.\nPite Duncan, Peter Joseph Salmon and Christopher Lee Peterson for Defendant and Respondent."
+  },
+  "file_name": "0299-01",
+  "first_page_order": 287,
+  "last_page_order": 300
+}

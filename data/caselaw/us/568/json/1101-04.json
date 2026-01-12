@@ -1,0 +1,59 @@
+{
+  "id": 12428440,
+  "name": "Knox v. Morgan et al.",
+  "name_abbreviation": "Knox v. Morgan",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-6943",
+  "first_page": "1101",
+  "last_page": "1101",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1101"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.672,
+    "sha256": "084ff5c5a32becce85e379b46a3a20c06515fa2320468c3b9b23634c15044a7f",
+    "simhash": "1:32c3e0a896241210",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Knox v. Morgan et al."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Okla. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6943.\nKnox v. Morgan et al."
+  },
+  "file_name": "1101-04",
+  "first_page_order": 1177,
+  "last_page_order": 1177
+}

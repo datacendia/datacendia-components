@@ -1,0 +1,61 @@
+{
+  "id": 6002777,
+  "name": "Burke v. United States District Court for the Eastern District of Pennsylvania",
+  "name_abbreviation": "Burke v. United States District Court for the Eastern District of Pennsylvania",
+  "decision_date": "2010-12-06",
+  "docket_number": "No. 10-7396",
+  "first_page": "1103",
+  "last_page": "1103",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1103"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 29,
+    "char_count": 205,
+    "ocr_confidence": 0.532,
+    "sha256": "6c403fae1ce4a5755d5f2dd47bcc07b5a865b70f6a0ade67590c28202e988a36",
+    "simhash": "1:eba0f98aea65d092",
+    "word_count": 33
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Burke v. United States District Court for the Eastern District of Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Cer-tiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7396.\nBurke v. United States District Court for the Eastern District of Pennsylvania."
+  },
+  "file_name": "1103-03",
+  "first_page_order": 1125,
+  "last_page_order": 1125
+}

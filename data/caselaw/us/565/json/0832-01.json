@@ -1,0 +1,59 @@
+{
+  "id": 12200674,
+  "name": "Barragan-Diaz v. United States",
+  "name_abbreviation": "Barragan-Diaz v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10244",
+  "first_page": "832",
+  "last_page": "832",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 832"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 80,
+    "ocr_confidence": 0.683,
+    "sha256": "9d6a0f8987690e959d50341ca4f914acf1b37c04432f8fe2cf4e8ca93007bbc2",
+    "simhash": "1:0688d7820bc8ac5e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Barragan-Diaz v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10244.\nBarragan-Diaz v. United States."
+  },
+  "file_name": "0832-01",
+  "first_page_order": 914,
+  "last_page_order": 914
+}

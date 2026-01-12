@@ -1,0 +1,130 @@
+{
+  "id": 12228890,
+  "name": "Bean v. Thaler, Director, Texas Department of Criminal Justice, Correctional Institutions Division",
+  "name_abbreviation": "Bean v. Thaler",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 10-8709",
+  "first_page": "960",
+  "last_page": "960",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 960"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "563 U. S. 919",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5939716,
+        12458812,
+        5947924,
+        5947303,
+        4225071,
+        5938225,
+        5940403,
+        12458808,
+        12458809,
+        12458810,
+        12458811,
+        5958204,
+        5909053,
+        12458814,
+        12458815,
+        5963200,
+        12458817,
+        12458818,
+        12458819,
+        12458816,
+        12458821,
+        12458813,
+        12458822,
+        12458820,
+        5959509,
+        5960152,
+        4224090,
+        5961961,
+        5949436,
+        5927166
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/563/0919-06",
+        "/l-ed-2d/179/0775-05",
+        "/us/563/0919-01",
+        "/us/563/0919-10",
+        "/us/563/0919-15",
+        "/us/563/0919-07",
+        "/us/563/0919-13",
+        "/l-ed-2d/179/0775-01",
+        "/l-ed-2d/179/0775-02",
+        "/l-ed-2d/179/0775-03",
+        "/l-ed-2d/179/0775-04",
+        "/us/563/0919-08",
+        "/us/563/0919-03",
+        "/l-ed-2d/179/0775-07",
+        "/l-ed-2d/179/0775-08",
+        "/us/563/0919-14",
+        "/l-ed-2d/179/0776-02",
+        "/l-ed-2d/179/0776-03",
+        "/l-ed-2d/179/0776-04",
+        "/l-ed-2d/179/0776-01",
+        "/l-ed-2d/179/0776-06",
+        "/l-ed-2d/179/0775-06",
+        "/l-ed-2d/179/0776-07",
+        "/l-ed-2d/179/0776-05",
+        "/us/563/0919-04",
+        "/us/563/0919-02",
+        "/us/563/0919-05",
+        "/us/563/0919-12",
+        "/us/563/0919-09",
+        "/us/563/0919-11"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 26,
+    "char_count": 184,
+    "ocr_confidence": 0.67,
+    "sha256": "47ddc37a96b99c3b82a9ae907e8e48c001ff73b045768a47393410365b851465",
+    "simhash": "1:94b549220078c62d",
+    "word_count": 27
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bean v. Thaler, Director, Texas Department of Criminal Justice, Correctional Institutions Division,"
+    ],
+    "opinions": [
+      {
+        "text": "563 U. S. 919. Motion for leave to file petition for rehearing denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8709.\nBean v. Thaler, Director, Texas Department of Criminal Justice, Correctional Institutions Division,"
+  },
+  "file_name": "0960-10",
+  "first_page_order": 1042,
+  "last_page_order": 1042
+}

@@ -1,0 +1,59 @@
+{
+  "id": 6024413,
+  "name": "Baez v. United States",
+  "name_abbreviation": "Baez v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8204",
+  "first_page": "1238",
+  "last_page": "1238",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1238"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.643,
+    "sha256": "2d9b8203b4ce4ec1177dcaa31801c2c4d3b0a2da5cd53df1d98644b4944f1c4c",
+    "simhash": "1:05fbe7a26b9f1d0e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Baez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8204.\nBaez v. United States."
+  },
+  "file_name": "1238-15",
+  "first_page_order": 1260,
+  "last_page_order": 1260
+}

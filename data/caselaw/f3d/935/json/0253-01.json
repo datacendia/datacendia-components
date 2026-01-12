@@ -1,0 +1,716 @@
+{
+  "id": 12522507,
+  "name": "Officer John DOE, Police Officer, Plaintiff - Appellant v. DeRay MCKESSON; Black Lives Matter; Black Lives Matter Network, Incorporated, Defendants - Appellees",
+  "name_abbreviation": "Doe v. McKesson",
+  "decision_date": "2019-08-08",
+  "docket_number": "No. 17-30864",
+  "first_page": "253",
+  "last_page": "266",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "935 F.3d 253"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "5th Cir.",
+    "id": 8820,
+    "name": "United States Court of Appeals for the Fifth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "331 U.S. 367",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6157728
+      ],
+      "weight": 3,
+      "year": 1947,
+      "pin_cites": [
+        {
+          "page": "374"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/331/0367-01"
+      ]
+    },
+    {
+      "cite": "653 F.2d 180",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1465999
+      ],
+      "weight": 2,
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "186"
+        },
+        {
+          "page": "185"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/653/0180-01"
+      ]
+    },
+    {
+      "cite": "888 F.2d 345",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10529627
+      ],
+      "year": 1989,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/888/0345-01"
+      ]
+    },
+    {
+      "cite": "565 F.3d 228",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3642025
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "parenthetical": "citing Xerox Corp. v. Genmoora Corp. , 888 F.2d 345, 358 n.70 (5th Cir. 1989) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/565/0228-01"
+      ]
+    },
+    {
+      "cite": "894 F.Supp.2d 966",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        4279777
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "968",
+          "parenthetical": "\"Whether a party has the capacity to sue or be sued is a legal question that may be decided at the Rule 12 stage.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/894/0966-01"
+      ]
+    },
+    {
+      "cite": "344 F.2d 294",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        869538
+      ],
+      "year": 1965,
+      "pin_cites": [
+        {
+          "parenthetical": "\"Although the defense of lack of capacity is not expressly mentioned in [R]ule 12(b), the practice has grown up of examining it by a 12(b)(6) motion when the defect appears upon the face of the complaint.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/344/0294-01"
+      ]
+    },
+    {
+      "cite": "939 F.2d 311",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10522177
+      ],
+      "year": 1991,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/939/0311-01"
+      ]
+    },
+    {
+      "cite": "686 F.Supp.2d 663",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        3613359
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "675",
+          "parenthetical": "relying on organization's formal and determinate membership structure"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/686/0663-01"
+      ]
+    },
+    {
+      "cite": "999 So. 2d 216",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        8163312
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "223",
+          "parenthetical": "relying on organization's required dues and possession of an insurance policy"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/999/0216-01"
+      ]
+    },
+    {
+      "cite": "897 So. 2d 726",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9019559
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "728-729",
+          "parenthetical": "relying on organization's unfiled articles of incorporation"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/897/0726-01"
+      ]
+    },
+    {
+      "cite": "377 U.S. 360",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6169382
+      ],
+      "weight": 3,
+      "year": 1964,
+      "pin_cites": [
+        {
+          "parenthetical": "noting that \"[t]he lower court took judicial notice of the fact that the Communist Party of the United States ... was a part of the world Communist movement\" (emphasis added)"
+        },
+        {
+          "parenthetical": "noting that \"[t]he lower court took judicial notice of the fact that the Communist Party of the United States ... was a part of the world Communist movement\" (emphasis added)"
+        },
+        {
+          "parenthetical": "noting that \"[t]he lower court took judicial notice of the fact that the Communist Party of the United States ... was a part of the world Communist movement\" (emphasis added)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/377/0492-01"
+      ]
+    },
+    {
+      "cite": "530 F.Supp. 241",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        5647240
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "259-60",
+          "parenthetical": "stating the court could take \"notice that the IRA is a 'Republican movement,' at least insofar as it advocates a united Ireland \" (emphasis added)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/530/0241-01"
+      ]
+    },
+    {
+      "cite": "159 F.3d 790",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1615532
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "801",
+          "parenthetical": "holding that the court could take judicial notice of the aims and goals of a movement"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/159/0790-01"
+      ]
+    },
+    {
+      "cite": "162 F.3d 827",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11806456
+      ],
+      "weight": 2,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "831"
+        },
+        {
+          "page": "830"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/162/0827-01"
+      ]
+    },
+    {
+      "cite": "468 U.S. 288",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11338073
+      ],
+      "weight": 3,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "293",
+          "parenthetical": "reasonable time, place, and manner restrictions do not violate the First Amendment"
+        },
+        {
+          "parenthetical": "reasonable time, place, and manner restrictions do not violate the First Amendment"
+        },
+        {
+          "parenthetical": "reasonable time, place, and manner restrictions do not violate the First Amendment"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/468/0288-01"
+      ]
+    },
+    {
+      "cite": "458 U.S. 886",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        636531
+      ],
+      "weight": 11,
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "916"
+        },
+        {
+          "page": "916-17"
+        },
+        {
+          "page": "916"
+        },
+        {
+          "page": "920"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/458/0886-01"
+      ]
+    },
+    {
+      "cite": "605 So. 2d 1032",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        7492295
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "1052",
+          "parenthetical": "\"To meet the cause-in-fact element, a plaintiff must prove only that the conduct was a necessary antecedent of the accident, that is, but for the defendant's conduct, the incident probably would not have occurred.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/605/1032-01"
+      ]
+    },
+    {
+      "cite": "707 So. 2d 1225",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        11877849
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "1231"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/707/1225-01"
+      ]
+    },
+    {
+      "cite": "20 F.3d 154",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10503463
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "157"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/20/0154-01"
+      ]
+    },
+    {
+      "cite": "367 F.3d 485",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9247142
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "489"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/367/0485-01"
+      ]
+    },
+    {
+      "cite": "752 So. 2d 762",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        11478586
+      ],
+      "weight": 2,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "766"
+        },
+        {
+          "page": "766"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/752/0762-01"
+      ]
+    },
+    {
+      "cite": "859 So. 2d 656",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9055128
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "659"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/859/0656-01"
+      ]
+    },
+    {
+      "cite": "690 So. 2d 124",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        11916883
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "131"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/690/0124-01"
+      ]
+    },
+    {
+      "cite": "992 So. 2d 1091",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        8231284
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "1094"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/992/1091-01"
+      ]
+    },
+    {
+      "cite": "828 So. 2d 546",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        11364812
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "552"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/828/0546-01"
+      ]
+    },
+    {
+      "cite": "559 So. 2d 467",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        7525027
+      ],
+      "weight": 5,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "476"
+        },
+        {
+          "page": "474"
+        },
+        {
+          "page": "473"
+        },
+        {
+          "page": "474",
+          "parenthetical": "quoting La. Civ. Code Ann. art. 24"
+        },
+        {
+          "page": "474-475",
+          "parenthetical": "finding that hunting group was not an unincorporated association because it did not own or lease the property that it was based on, required the permission of one of its alleged members to use the property, and lacked formal rules or bylaws"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/559/0467-01"
+      ]
+    },
+    {
+      "cite": "832 F.3d 586",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4350473
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "590"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/832/0586-01"
+      ]
+    },
+    {
+      "cite": "807 F.3d 657",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4362019
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "684",
+          "parenthetical": "internal quotation marks, brackets, and ellipses omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/807/0657-01"
+      ]
+    },
+    {
+      "cite": "550 U.S. 544",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3556136
+      ],
+      "weight": 3,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "557",
+          "parenthetical": "internal quotation marks and brackets omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks and brackets omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks and brackets omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/550/0544-01"
+      ]
+    },
+    {
+      "cite": "556 U.S. 662",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653744
+      ],
+      "weight": 5,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "678",
+          "parenthetical": "quoting Bell Atl. Corp. v. Twombly , 550 U.S. 544, 557, 127 S.Ct. 1955, 167 L.Ed.2d 929 (2007) (internal quotation marks and brackets omitted)"
+        },
+        {
+          "parenthetical": "quoting Bell Atl. Corp. v. Twombly , 550 U.S. 544, 557, 127 S.Ct. 1955, 167 L.Ed.2d 929 (2007) (internal quotation marks and brackets omitted)"
+        },
+        {
+          "parenthetical": "quoting Bell Atl. Corp. v. Twombly , 550 U.S. 544, 557, 127 S.Ct. 1955, 167 L.Ed.2d 929 (2007) (internal quotation marks and brackets omitted)"
+        },
+        {
+          "page": "680"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/556/0662-01"
+      ]
+    },
+    {
+      "cite": "868 F.3d 371",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12264626
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "374"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/868/0371-01"
+      ]
+    },
+    {
+      "cite": "875 F.3d 243",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12264034
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "249"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/875/0243-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1395,
+    "char_count": 34776,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25954080720536216
+    },
+    "sha256": "2231a988ecd4834eb99079116e9098ffee8a0f7aa745278324f141ed6ebc45ae",
+    "simhash": "1:9fc2efb27edb0687",
+    "word_count": 5670
+  },
+  "last_updated": "2024-02-27T18:47:13.464613+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before JOLLY, ELROD, and WILLETT, Circuit Judges."
+    ],
+    "parties": [
+      "Officer John DOE, Police Officer, Plaintiff - Appellant\nv.\nDeRay MCKESSON; Black Lives Matter; Black Lives Matter Network, Incorporated, Defendants - Appellees"
+    ],
+    "opinions": [
+      {
+        "text": "E. GRADY JOLLY, Circuit Judge:\nThe petition for panel rehearing is hereby GRANTED. We WITHDRAW the court's prior opinion of April 24, 2019, and substitute the following opinion.\nDuring a public protest against police misconduct in Baton Rouge, Louisiana, an unidentified individual hit Officer John Doe with a heavy object, causing him serious physical injuries. Following this incident, Officer Doe brought suit against \"Black Lives Matter,\" the group associated with the protest, and DeRay Mckesson, one of the leaders of Black Lives Matter and the organizer of the protest. Officer Doe later sought to amend his complaint to add Black Lives Matter Network, Inc. and #BlackLivesMatter as defendants. The district court dismissed Officer Doe's claims on the pleadings under Federal Rule of Civil Procedure 12(b)(6), and denied his motion to amend his complaint as futile. Because we conclude that the district court erred in dismissing the case against Mckesson on the basis of the pleadings, we REMAND for further proceedings relative to Mckesson. We further hold that the district court properly dismissed the claims against Black Lives Matter. We thus REVERSE in part, AFFIRM in part, and REMAND for further proceedings not inconsistent with this opinion.\nI.\nOn July 9, 2016, a protest took place by blocking a public highway in front of the Baton Rouge Police Department headquarters. This demonstration was one in a string of protests across the country, often associated with Black Lives Matter, concerning police practices. The Baton Rouge Police Department prepared by organizing a front line of officers in riot gear. These officers were ordered to stand in front of other officers prepared to make arrests. Officer Doe was one of the officers ordered to make arrests. DeRay Mckesson, associated with Black Lives Matter, was the prime leader and an organizer of the protest.\nIn the presence of Mckesson, some protesters began throwing objects at the police officers. Specifically, protestors began to throw full water bottles, which had been stolen from a nearby convenience store. The dismissed complaint further alleges that Mckesson did nothing to prevent the violence or to calm the crowd, and, indeed, alleges that Mckesson \"incited the violence on behalf of [Black Lives Matter].\" The complaint specifically alleges that Mckesson led the protestors to block the public highway. The police officers began making arrests of those blocking the highway and participating in the violence.\nAt some point, an unidentified individual picked up a piece of concrete or a similar rock-like object and threw it at the officers making arrests. The object struck Officer Doe's face. Officer Doe was knocked to the ground and incapacitated. Officer Doe's injuries included loss of teeth, a jaw injury, a brain injury, a head injury, lost wages, \"and other compensable losses.\"\nFollowing the Baton Rouge protest, Officer Doe brought suit, naming Mckesson and Black Lives Matter as defendants. According to his complaint, the defendants are liable on theories of negligence, respondeat superior, and civil conspiracy. Mckesson subsequently filed two motions: (1) a Rule 12(b)(6) motion, asserting that Officer Doe failed to state a plausible claim for relief against Mckesson and (2) a Rule 9(a)(2) motion, asserting that Black Lives Matter is not an entity with the capacity to be sued.\nOfficer Doe responded by filing a motion to amend. He sought leave to amend his complaint to add factual allegations to his complaint and Black Lives Matter Network, Inc. and #BlackLivesMatter as defendants.\nII.\nThe district court granted both of Mckesson's motions, treating the Rule 9(a)(2) motion as a Rule 12(b)(6) motion, and denied Officer Doe's motion for leave to amend, concluding that his proposed amendment would be futile. With respect to Officer Doe's claims against #BlackLivesMatter, the district court took judicial notice that it is a \"hashtag\" and therefore an \"expression\" that lacks the capacity to be sued. With respect to Officer Doe's claims against Black Lives Matter Network, Inc. the district court held that Officer Doe's allegations were insufficient to state a plausible claim for relief against this entity. Emphasizing the fact that Officer Doe attempted to add a social movement and a \"hashtag\" as defendants, the district court dismissed his case with prejudice. Officer Doe timely appealed.\nIII.\nWhen considering a motion to dismiss under Rule 12(b)(6), we will not affirm dismissal of a claim unless the plaintiff can prove no set of facts in support of his claim that would entitle him to relief. Alexander v. Verizon Wireless Servs., L.L.C. , 875 F.3d 243, 249 (5th Cir. 2017). \"We take all factual allegations as true and construe the facts in the light most favorable to the plaintiff.\" Id. (citing Kelly v. Nichamoff , 868 F.3d 371, 374 (5th Cir. 2017) ). To survive, a complaint must consist of more than \"labels and conclusions\" or \"naked assertions devoid of further factual enhancement.\" Ashcroft v. Iqbal , 556 U.S. 662, 678, 129 S.Ct. 1937, 173 L.Ed.2d 868 (2009) (quoting Bell Atl. Corp. v. Twombly , 550 U.S. 544, 557, 127 S.Ct. 1955, 167 L.Ed.2d 929 (2007) (internal quotation marks and brackets omitted)). Instead, \"the plaintiff must plead enough facts to nudge the claims across the line from conceivable to plausible.\" Hinojosa v. Livingston , 807 F.3d 657, 684 (5th Cir. 2015) (internal quotation marks, brackets, and ellipses omitted) (quoting Iqbal , 556 U.S. at 680, 129 S.Ct. 1937 ).\nA district court's denial of a motion to amend is generally reviewed for abuse of discretion. Thomas v. Chevron U.S.A., Inc. , 832 F.3d 586, 590 (5th Cir. 2016). However, where the district court's denial of leave to amend was based solely on futility, we instead apply a de novo standard of review identical in practice to the Rule 12(b)(6) standard. Id . When a party seeks leave from the court to amend and justice requires it, the district court should freely give it. Fed. R. Civ. P. 15(a)(2).\nIV.\nA.\nWe begin by addressing Officer Doe's claims against DeRay Mckesson. The district court did not reach the merits of Officer Doe's underlying state tort claims, but instead found that Officer Doe failed to plead facts that took Mckesson's conduct outside of the bounds of First Amendment protected speech and association. Because we ultimately find that Mckesson's conduct at this pleading stage was not necessarily protected by the First Amendment, we will begin by addressing the plausibility of Officer Doe's state tort claims. We will address each of Officer Doe's specific theories of liability in turn-vicarious liability, negligence, and civil conspiracy, beginning with vicarious liability.\n1.\nLouisiana Civil Code article 2320 provides that \"[m]asters and employers are answerable for the damage occasioned by their servants and overseers, in the exercise of the functions which they are employed.\" A \"servant,\" as used in the Civil Code, \"includes anyone who performs continuous service for another and whose physical movements are subject to the control or right to control of the other as to the manner of performing the service.\" Ermert v . Hartford Ins . Co ., 559 So. 2d 467, 476 (La. 1990). Officer Doe's vicarious liability theory fails at the point of our beginning because he does not allege facts that support an inference that the unknown assailant \"perform[ed] a continuous service\" for or that the assailant's \"physical movements [were] subject to the control or right to control\" of Mckesson. Therefore, under the pleadings, Mckesson cannot be held liable under a vicarious liability theory.\n2.\nWe now move on to address Officer Doe's civil conspiracy theory. Civil conspiracy is not itself an actionable tort. Ross v . Conoco , Inc. , 828 So. 2d 546, 552 (La. 2002). Instead, it assigns liability arising from the existence of an underlying unlawful act. Id . In order to impose liability for civil conspiracy in Louisiana, a plaintiff must prove that (1) an agreement existed with one or more persons to commit an illegal or tortious act; (2) the act was actually committed; (3) the act resulted in plaintiff's injury; and (4) there was an agreement as to the intended outcome or result. Crutcher-Tufts Res., Inc . v . Tufts , 992 So. 2d 1091, 1094 (La. Ct. App. 2008) ; see also La. Civ. Code art. 2324. \"Evidence of ... a conspiracy can be actual knowledge, overt actions with another, such as arming oneself in anticipation of apprehension, or inferred from the knowledge of the alleged co-conspirator of the impropriety of the actions taken by the other co-conspirator.\" Stephens v. Bail Enf't , 690 So. 2d 124, 131 (La. Ct. App. 1997).\nOfficer Doe's complaint is vague about the underlying conspiracy to which Mckesson agreed, or with whom such an agreement was made. In his complaint, Officer Doe refers to a conspiracy \"to incite a riot/protest.\" Disregarding Officer Doe's conclusory allegations, we find that Officer Doe has not alleged facts that would support a plausible claim that Mckesson can be held liable for his injuries on a theory of civil conspiracy. Although Officer Doe has alleged facts that support an inference that Mckesson agreed with unnamed others to demonstrate illegally on a public highway, he has not pled facts that would allow a jury to conclude that Mckesson colluded with the unknown assailant to attack Officer Doe or knew of the attack and specifically ratified it. The closest that Officer Doe comes to such an allegation is when he states that Mckesson was \"giving orders\" throughout the demonstration. But we cannot infer from this quite unspecific allegation that Mckesson ordered the unknown assailant to attack Officer Doe. Lacking an allegation of this pleading quality, Officer Doe's conspiracy claim must and does fail.\n3.\nFinally, we turn to Officer Doe's negligence theory. Officer Doe alleges that Mckesson was negligent for organizing and leading the Baton Rouge demonstration because he \"knew or should have known\" that the demonstration would turn violent. We agree as follows.\nLouisiana Civil Code article 2315 provides that \"[e]very act whatever of man that causes damage to another obliges him by whose fault it happened to repair it.\" The Louisiana Supreme Court has adopted a \"duty-risk\" analysis for assigning tort liability under a negligence theory. This theory requires a plaintiff to establish that (1) the plaintiff suffered an injury; (2) the defendant owed a duty of care to the plaintiff; (3) the duty was breached by the defendant; (4) the conduct in question was the cause-in-fact of the resulting harm; and (5) the risk of harm was within the scope of protection afforded by the duty breached. Lazard v. Foti , 859 So. 2d 656, 659 (La. 2003). Whether a defendant owes a plaintiff a duty is a question of law. See Posecai v. Wal-Mart Stores, Inc. , 752 So. 2d 762, 766 (La. 1999) ; Bursztajn v. United States , 367 F.3d 485, 489 (5th Cir. 2004) (\"Under Louisiana law, the existence of a duty presents a question of law that 'varies depending on the facts, circumstances, and context of each case and is limited by the particular risk, harm, and plaintiff involved.' \" (quoting Dupre v. Chevron U.S.A., Inc. , 20 F.3d 154, 157 (5th Cir. 1994) )). There is a \"universal duty on the part of the defendant in negligence cases to use reasonable care so as to avoid injury to another.\" Boykin v. La. Transit Co. , 707 So. 2d 1225, 1231 (La. 1998). Louisiana courts elucidate specific duties of care based on consideration of \"various moral, social, and economic factors, including the fairness of imposing liability; the economic impact on the defendant and on similarly situated parties; the need for an incentive to prevent future harm; the nature of defendant's activity; the potential for an unmanageable flow of litigation; the historical development of precedent; and the direction in which society and its institutions are evolving.\" Posecai , 752 So. 2d at 766.\nWe first note that this case comes before us from a dismissal on the pleadings alone. In this context, we find that Officer Doe has plausibly alleged that Mckesson breached his duty of reasonable care in the course of organizing and leading the Baton Rouge demonstration. The complaint specifically alleges that it was Mckesson himself who intentionally led the demonstrators to block the highway. Blocking a public highway is a criminal act under Louisiana law. See La. Rev. Stat. Ann. \u00a7 14:97. As such, it was patently foreseeable that the Baton Rouge police would be required to respond to the demonstration by clearing the highway and, when necessary, making arrests. Given the intentional lawlessness of this aspect of the demonstration, Mckesson should have known that leading the demonstrators onto a busy highway was most nearly certain to provoke a confrontation between police and the mass of demonstrators, yet he ignored the foreseeable danger to officers, bystanders, and demonstrators, and notwithstanding, did so anyway. By ignoring the foreseeable risk of violence that his actions created, Mckesson failed to exercise reasonable care in conducting his demonstration.\nOfficer Doe has also plausibly alleged that Mckesson's breach of duty was the cause-in-fact of Officer Doe's injury and that the injury was within the scope of the duty breached by Mckesson. It may have been an unknown demonstrator who threw the hard object at Officer Doe, but by leading the demonstrators onto the public highway and provoking a violent confrontation with the police, Mckesson's negligent actions were the \"but for\" causes of Officer Doe's injuries. See Roberts v. Benoit , 605 So. 2d 1032, 1052 (La. 1991) (\"To meet the cause-in-fact element, a plaintiff must prove only that the conduct was a necessary antecedent of the accident, that is, but for the defendant's conduct, the incident probably would not have occurred.\"). Furthermore, as the purpose of imposing a duty on Mckesson in this situation is to prevent foreseeable violence to the police and bystanders, Officer Doe's injury, as alleged in the pleadings, was within the scope of the duty of care allegedly breached by Mckesson.\nWe iterate what we have previously noted: Our ruling at this point is not to say that a finding of liability will ultimately be appropriate. At the motion to dismiss stage, however, we are simply required to decide whether Officer Doe's claim for relief is sufficiently plausible to allow him to proceed to discovery. We find that it is.\nB.\nHaving concluded that Officer Doe has stated a plausible claim for relief against Mckesson under state tort law, we will now take a step back and address the district court's determination that Officer Doe's complaint should be dismissed based on the First Amendment. The Supreme Court has made clear that \"[t]he First Amendment does not protect violence.\" N.A.A.C.P. v. Claiborne Hardware Co. , 458 U.S. 886, 916, 102 S.Ct. 3409, 73 L.Ed.2d 1215 (1982). Nonetheless, the district court dismissed the complaint on First Amendment grounds, reasoning that \"[i]n order to state a claim against Mckesson to hold him liable for the tortious act of another with whom he was associating during the demonstration, Plaintiff would have to allege facts that tend to demonstrate that Mckesson 'authorized, directed, or ratified specific tortious activity.' \" See id . at 927, 102 S.Ct. 3409. The district court then went on to find that there were no plausible allegations that Mckesson had done so in his complaint.\nThe district court appears to have assumed that in order to state a claim that Mckesson was liable for his injuries, Officer Doe was required to allege facts that created an inference that Mckesson directed, authorized, or ratified the unknown assailant's specific conduct in attacking Officer Doe. This assumption, however, does not fit the situation we address today. Even if we assume that Officer Doe seeks to hold Mckesson \"liable for the unlawful conduct of others\" within the meaning of Claiborne Hardware , the First Amendment would not require dismissal of Officer Doe's complaint. Id. In order to counter Mckesson's First Amendment defense at the pleading stage Officer Doe simply needed to plausibly allege that his injuries were one of the \"consequences\" of \"tortious activity,\" which itself was \"authorized, directed, or ratified\" by Mckesson in violation of his duty of care. See id . (\"[A] finding that [the defendant] authorized, directed, or ratified specific tortious activity would justify holding him responsible for the consequences of that activity.\"). Our discussion above makes clear that Officer Doe's complaint does allege that Mckesson directed the demonstrators to engage in the criminal act of occupying the public highway, which quite consequentially provoked a confrontation between the Baton Rouge police and the protesters, and that Officer Doe's injuries were the foreseeable result of the tortious and illegal conduct of blocking a busy highway.\nWe focus here on the fact that Mckesson \"directed ... specific tortious activity\" because we hold that Officer Doe has adequately alleged that his injuries were the result of Mckesson's own tortious conduct in organizing a foreseeably violent protest. In Mckesson's petition for rehearing, he expresses concern that the panel opinion permits Officer Doe to hold him liable for the tortious conduct of others even though Officer Doe merely alleged that he was negligent, and not that he specifically intended that violence would result. We think that Mckesson's criticisms are misplaced. We perceive no Constitutional issue with Mckesson being held liable for injuries caused by a combination of his own negligent conduct and the violent actions of a another that were foreseeable as a result of that negligent conduct. The permissibility of such liability is a standard aspect of state law. See Restatement (Third) of Torts: Liability for Physical and Emotional Harm \u00a7 19 (2010) (\"The conduct of a defendant can lack reasonable care insofar as it foreseeably combines with or permits the improper conduct of the plaintiff or a third party.\"). There is no indication in Claiborne Hardware or subsequent decisions that the Supreme Court intended to restructure state tort law by eliminating this principle of negligence liability.\nWe of course acknowledge that Mckesson's negligent conduct took place in the context of a political protest. It is certainly true that \"the presence of activity protected by the First Amendment imposes restraints on the grounds that may give rise to damages liability and on the persons who may be held accountable for those damages.\" Claiborne Hardware , 458 U.S. at 916-17, 102 S.Ct. 3409. But Claiborne Hardware does not insulate the petitioner from liability for his own negligent conduct simply because he, and those he associated with, also intended to communicate a message. See id. at 916, 102 S.Ct. 3409 (\"[T]he use of weapons, gunpowder, and gasoline may not constitutionally masquerade under the guise of advocacy.\") (internal quotation marks and citations omitted). Furthermore, although we do not understand the petitioner to be arguing that the Baton Rouge police violated the demonstrators' First Amendment rights by attempting to remove them from the highway, we note that the criminal conduct allegedly ordered by Mckesson was not itself protected by the First Amendment, as Mckesson ordered the demonstrators to violate a reasonable time, place, and manner restriction by blocking the public highway. See Clark v. Cmty. for Creative Non-Violence , 468 U.S. 288, 293, 104 S.Ct. 3065, 82 L.Ed.2d 221 (1984) (reasonable time, place, and manner restrictions do not violate the First Amendment). As such, no First Amendment protected activity is suppressed by allowing the consequences of Mckesson's conduct to be addressed by state tort law.\nThus, on the pleadings, which must be read in a light most favorable to Officer Doe, the First Amendment is not a bar to Officer Doe's negligence theory. The district court erred by dismissing Officer Doe's complaint-at the pleading stage-as barred by the First Amendment.\nC.\nNow we turn our attention to whether Officer Doe has stated a claim against Black Lives Matter. The district court took judicial notice that \" 'Black Lives Matter,' as that term is used in the Complaint, is a social movement that was catalyzed on social media by the persons listed in the Complaint in response to the perceived mistreatment of African-American citizens by law enforcement officers.\" Based on this conclusion, the district court held that Black Lives Matter is not a \"juridical person\" capable of being sued. See Ermert , 559 So. 2d at 474. We first address the district court's taking of judicial notice, then Black Lives Matter's alleged capacity to be sued.\nFederal Rule of Evidence 201 provides that a court may take judicial notice of an \"adjudicative fact\" if the fact is \"not subject to reasonable dispute\" in that it is either (1) generally known within the territorial jurisdiction of the trial court or (2) capable of accurate and ready determination by resort to sources whose accuracy cannot be questioned. Fed. R. Evid. 201(b). \" Rule 201 authorizes the court to take notice only of 'adjudicative facts ,' not legal determinations.\" Taylor v. Charter Med. Corp. , 162 F.3d 827, 831 (5th Cir. 1998). In Taylor , we held that another court's state actor determination was not an \"adjudicative fact\" within the meaning of Rule 201 because \"[w]hether a private party is a state actor for the purposes of \u00a7 1983 is a mixed question of fact and law and is thus subject to our de novo review.\" Id . at 830-31. We further held that the state-actor determination was not beyond reasonable dispute where it \"was, in fact, disputed by the parties\" in the related case. Id. at 830.\nWe think that the district court was incorrect to take judicial notice of a mixed question of fact and law when it concluded that Black Lives Matter is a \"social movement , rather than an organization or entity of any sort.\" The legal status of Black Lives Matter is not immune from reasonable dispute; and, indeed, it is disputed by the parties-Doe claiming that Black Lives Matter is a national unincorporated association, and Mckesson claiming that it is a movement or at best a community of interest. This difference is sufficient under our case law to preclude judicial notice.\nWe should further say that we see the cases relied on by the district court as distinguishable. Each deals with judicial notice of an aspect of an entity, not its legal form. See United States v. Parise , 159 F.3d 790, 801 (3d Cir. 1998) (holding that the court could take judicial notice of the aims and goals of a movement); Atty. Gen. of U.S. v. Irish N. Aid. Comm. , 530 F.Supp. 241, 259-60 (S.D.N.Y. 1981) (stating the court could take \"notice that the IRA is a 'Republican movement,' at least insofar as it advocates a united Ireland \" (emphasis added)); see also Baggett v. Bullitt , 377 U.S. 360, 376 n.13, 84 S.Ct. 1316, 12 L.Ed.2d 377 (1964) (noting that \"[t]he lower court took judicial notice of the fact that the Communist Party of the United States ... was a part of the world Communist movement\" (emphasis added)).\nNow, we move on to discuss the merits of Officer Doe's contention that Black Lives Matter is a suable entity. He alleges that Black Lives Matter \"is a national incorporated association with chapter [sic] in many states.\" Under Federal Rule of Civil Procedure 17(b), the capacity of an entity \"to sue or be sued is determined ... by the law of the state where the court is located.\" Under Article 738 of the Louisiana Code of Civil Procedure, \"an unincorporated association has the procedural capacity to be sued in its own name.\" The Louisiana Supreme Court has held that \"an unincorporated association is created in the same manner as a partnership, by a contract between two or more persons to combine their efforts, resources, knowledge or activities for a purpose other than profit or commercial benefit.\" Ermert , 559 So. 2d at 473. \"Interpretation of a contract is the determination of the common intent of the parties.\" La. Civ. Code Ann. art. 2045. To show intent, \"the object of the contract of association must necessarily be the creation of an entity whose personality 'is distinct from that of its members.' \" Ermert , 559 So. 2d at 474 (quoting La. Civ. Code Ann. art. 24). Louisiana law does not provide for a public display of the parties' intent. Id .\nLouisiana courts have looked to various factors as indicative of an intent to create an unincorporated association, including requiring dues, having insurance, ownership of property, governing agreements, or the presence of a formal membership structure. See Bogue Lusa Waterworks Dist . v. La. Dep't of Envtl . Quality , 897 So. 2d 726, 728-729 (La. Ct. App. 2004) (relying on organization's unfiled articles of incorporation); Friendship Hunting Club v. Lejeune , 999 So. 2d 216, 223 (La. Ct. App. 2008) (relying on organization's required dues and possession of an insurance policy); see also Concerned Citizens Around Murphy v . Murphy Oil USA, Inc. , 686 F.Supp.2d 663, 675 (E.D. La. 2010) (relying on organization's formal and determinate membership structure). Lacking at least some of these indicators, Louisiana courts have been unwilling to find an intent to create an unincorporated association. See, e.g. , Ermert , 559 So. 2d at 474-475 (finding that hunting group was not an unincorporated association because it did not own or lease the property that it was based on, required the permission of one of its alleged members to use the property, and lacked formal rules or bylaws).\nOfficer Doe has not shown in his complaint a plausible inference that Black Lives Matter is an unincorporated association. His only allegations are that Black Lives Matter: (1) was created by three women; (2) has several leaders, including Mckesson; (3) has chapters in many states; and (4) was involved in numerous protests in response to police practices. He does not allege that it possesses property, has a formal membership, requires dues, or possesses a governing agreement. As such, the complaint lacks any indication that Black Lives Matter possesses the traits that Louisiana courts have regarded as indicative of an intent to establish a juridical entity. We have no doubt that Black Lives Matter involves a number of people working in concert, but \"an unincorporated association .... does not come into existence or commence merely by virtue of the fortuitous creation of a community of interest or the fact that a number of individuals have simply acted together.\" Id . at 474. Therefore, we find that the district court did not err in concluding that Officer Doe's complaint has failed plausibly to allege that Black Lives Matter is an entity capable of being sued.\nV.\nIn sum, we hold that Officer Doe has not adequately alleged that Mckesson was vicariously liable for the conduct of the unknown assailant or that Mckesson entered into a civil conspiracy with the purpose of injuring Officer Doe. We do find, however, that Officer Doe adequately alleged that Mckesson is liable in negligence for organizing and leading the Baton Rouge demonstration to illegally occupy a highway. We further find that in this context the district court erred in dismissing the suit on First Amendment grounds. As such, Officer Doe has pleaded a claim for relief against DeRay Mckesson in his active complaint. We also hold that the district court erred by taking judicial notice of the legal status of \"Black Lives Matter,\" but nonetheless find that Officer Doe did not plead facts that would allow us to conclude that Black Lives Matter is an entity capable of being sued. Therefore, the judgment of the district court is AFFIRMED in part, REVERSED in part, and the case is REMANDED for further proceedings not inconsistent with this opinion.\nAFFIRMED in part, REVERSED in part, and REMANDED.\nWe do not address any of the allegations raised by the Proposed Amended Complaint. See note 5, infra .\nThis case comes to us on a motion to dismiss, so we treat all well-pleaded facts as true.\nFederal Rule of Civil Procedure Rule 9(a)(2) states that, if a party wishes to raise an issue regarding lack of capacity to be sued, \"a party must do so by a specific denial.\" Rule 12(b) does not specifically authorize a motion to dismiss based on a lack of capacity. Nonetheless, we have permitted Rule 12(b) motions arguing lack of capacity. See, e.g. , Darby v. Pasadena Police Dep't , 939 F.2d 311 (5th Cir. 1991). Where the issue appears on the face of the complaint, other courts have done the same and treated it as a Rule 12(b)(6) motion. See, e.g. , Klebanow v. N.Y. Produce Exch. , 344 F.2d 294, 296 n.1 (2d Cir. 1965) (\"Although the defense of lack of capacity is not expressly mentioned in [R]ule 12(b), the practice has grown up of examining it by a 12(b)(6) motion when the defect appears upon the face of the complaint.\"); Coates v. Brazoria Cty. Tex. , 894 F.Supp.2d 966, 968 (S.D. Tex. 2012) (\"Whether a party has the capacity to sue or be sued is a legal question that may be decided at the Rule 12 stage.\"); see also 5A Charles Alan Wright & Arthur R. Miller, Federal Practice and Procedure \u00a7 1294 (3d ed. 2018) (\"An effective denial of capacity ... creates an issue of fact. Such a denial may be made in the responsive pleading or, if the lack of capacity ... appears on the face of the pleadings or is discernible there from, the issue can be raised by a motion to dismiss for failure to state a claim for relief.\" (footnotes omitted)). Thus, we review the district court's dismissal for lack of capacity de novo and apply the Rule 12(b)(6) standard.\nWe emphasize, however, that our opinion does not suggest that the First Amendment allows a person to be punished, or held civilly liable, simply because of his associations with others, unless it is established that the group that the person associated with \"itself possessed unlawful goals and that the individual held a specific intent to further those illegal aims.\" Claiborne Hardware , 458 U.S. at 920, 102 S.Ct. 3409. But we also observe that, in any event, Officer Doe's allegations are sufficient to state a claim that Black Lives Matter \"possessed unlawful goals\" and that Mckesson \"held a specific intent to further those illegal aims.\" See id . Officer Doe alleges that Black Lives Matter \"plann[ed] to block a public highway,\" and, in his amended complaint, that Mckesson and Black Lives Matter traveled to Baton Rouge \"for the purpose of ... rioting.\" (emphasis added).\nWe do not address as to whether Officer Doe could state a claim against an entity whose capacity to be sued was plausibly alleged, nor do we address whether Mckesson could be held liable for the actions of that entity under state law.\nOfficer Doe has complained of the lack of discovery in this case, particularly related to his claims against the corporate defendants. Officer Doe is free to argue before the district court that he is entitled to discovery. The district court may then decide whether, in the light of our remand, discovery would be appropriate.\nBecause we find that Officer Doe has successfully pled a claim, we do not reach the district court's denial of Officer Doe's motion for leave to amend. See Lormand v. US Unwired, Inc. , 565 F.3d 228, 268 n.36 (5th Cir. 2009) (citing Xerox Corp. v. Genmoora Corp. , 888 F.2d 345, 358 n.70 (5th Cir. 1989) ). It follows that we do not address any of the allegations in the Proposed Amended Complaint or the parties it seeks to add. On remand, Officer Doe may seek leave to amend his complaint to add new parties and plead additional facts to support his negligence claim. The district court should determine whether to grant this motion, and any new motions for leave to amend, in the light of our opinion.\nOn appeal, Officer Doe also argues that the district court erred in denying his request to proceed anonymously as John Doe. He argues that the public nature of his job puts him and his family in danger of additional violence. At the district court, he listed a number of examples of acts of violence against police officers by individuals who may have some connection with Black Lives Matter. In its order, the district court walked through three factors common to anonymous-party suits that we have said \"deserve considerable weight.\" Doe v. Stegall , 653 F.2d 180, 186 (5th Cir. 1981). These are: (1) whether the plaintiff is \"challeng[ing] governmental activity\"; (2) whether the plaintiff will be required to disclose information \"of the utmost intimacy\"; and (3) whether the plaintiff will be \"compelled to admit [his] intention to engage in illegal conduct, thereby risking criminal prosecution.\" Id. at 185. The district court concluded that none of these factors applied to the facts of this case. In response to Officer Doe's argument regarding potential future violence, the district court noted that the incidents Officer Doe listed did not involve Officer Doe and were not related to this lawsuit. In fact, at oral argument before the district court regarding his motion, Officer Doe conceded that he had received no particularized threats of violence since filing his lawsuit. The district court instead saw the incidents Officer Doe listed as evidence of \"the generalized threat of violence that all police officers face.\" As a result, the district found that Doe had not demonstrated a privacy interest that outweighs the \"customary and constitutionally embedded presumption of openness in judicial proceedings.\" Id . at 186. We agree with the district court and affirm the denial of Doe's motion to proceed anonymously. In so holding, we emphasize what the Supreme Court said decades ago: \"What transpires in the court room is public property.\" Craig v. Harney , 331 U.S. 367, 374, 67 S.Ct. 1249, 91 L.Ed. 1546 (1947).",
+        "type": "majority",
+        "author": "E. GRADY JOLLY, Circuit Judge:"
+      }
+    ],
+    "attorneys": [
+      "Donna Unkel Grodner, Esq., Grodner & Associates, A.P.L.C., Baton Rouge, LA, for Plaintiff-Appellant.",
+      "William P. Gibbens, Esq., Ian Lewis Atkinson, Esq., Attorney, Schonekas, Evans, McGoey & McEachin, L.L.C., New Orleans, LA, David Thomas Goldberg, Donahue, Goldberg & Weaver, L.L.P., Brooklyn, NY, for Defendant-Appellee DERAY MCKESSON.",
+      "Christine Marie Calogero, Barrasso, Usdin, Kupperman, Freeman & Sarver, L.L.C., New Orleans, LA, for Defendant-Appellee BLACK LIVES MATTER NETWORK, INCORPORATED."
+    ],
+    "corrections": "",
+    "head_matter": "Officer John DOE, Police Officer, Plaintiff - Appellant\nv.\nDeRay MCKESSON; Black Lives Matter; Black Lives Matter Network, Incorporated, Defendants - Appellees\nNo. 17-30864\nUnited States Court of Appeals, Fifth Circuit.\nAugust 8, 2019\nDonna Unkel Grodner, Esq., Grodner & Associates, A.P.L.C., Baton Rouge, LA, for Plaintiff-Appellant.\nWilliam P. Gibbens, Esq., Ian Lewis Atkinson, Esq., Attorney, Schonekas, Evans, McGoey & McEachin, L.L.C., New Orleans, LA, David Thomas Goldberg, Donahue, Goldberg & Weaver, L.L.P., Brooklyn, NY, for Defendant-Appellee DERAY MCKESSON.\nChristine Marie Calogero, Barrasso, Usdin, Kupperman, Freeman & Sarver, L.L.C., New Orleans, LA, for Defendant-Appellee BLACK LIVES MATTER NETWORK, INCORPORATED.\nBefore JOLLY, ELROD, and WILLETT, Circuit Judges."
+  },
+  "file_name": "0253-01",
+  "first_page_order": 253,
+  "last_page_order": 266
+}

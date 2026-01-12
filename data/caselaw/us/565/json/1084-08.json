@@ -1,0 +1,59 @@
+{
+  "id": 12237252,
+  "name": "Long v. Connecticut",
+  "name_abbreviation": "Long v. Connecticut",
+  "decision_date": "2011-12-05",
+  "docket_number": "No. 11-7093",
+  "first_page": "1084",
+  "last_page": "1084",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1084"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 69,
+    "ocr_confidence": 0.686,
+    "sha256": "042bf52c28a2f19a1d2e8c0e8d01b8bd21e33e331cca74a55d7efce10d302517",
+    "simhash": "1:856f1bb3050a3208",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Long v. Connecticut."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Conn. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7093.\nLong v. Connecticut."
+  },
+  "file_name": "1084-08",
+  "first_page_order": 1166,
+  "last_page_order": 1166
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5997850,
+  "name": "Jenkins v. New York City Department of Homeless Services",
+  "name_abbreviation": "Jenkins v. New York City Department of Homeless Services",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8345",
+  "first_page": "1243",
+  "last_page": "1243",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1243"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 104,
+    "ocr_confidence": 0.635,
+    "sha256": "36747ee00011723bfb24cf31ac8afd4899521b65829345e7dc223684b79518f5",
+    "simhash": "1:5dc02218031bb542",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jenkins v. New York City Department of Homeless Services."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8345.\nJenkins v. New York City Department of Homeless Services."
+  },
+  "file_name": "1243-03",
+  "first_page_order": 1265,
+  "last_page_order": 1265
+}

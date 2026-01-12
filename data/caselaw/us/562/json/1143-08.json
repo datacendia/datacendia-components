@@ -1,0 +1,59 @@
+{
+  "id": 5939771,
+  "name": "Frazier v. Jackson et al.",
+  "name_abbreviation": "Frazier v. Jackson",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-6985",
+  "first_page": "1143",
+  "last_page": "1143",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1143"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 74,
+    "ocr_confidence": 0.604,
+    "sha256": "b8c752bc97201d12229cec9b295590f4efdb0cdc5957adbd1e2ae4e5a30052e0",
+    "simhash": "1:13c010aabf355266",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Frazier v. Jackson et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6985.\nFrazier v. Jackson et al."
+  },
+  "file_name": "1143-08",
+  "first_page_order": 1165,
+  "last_page_order": 1165
+}

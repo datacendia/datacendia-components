@@ -1,0 +1,79 @@
+{
+  "id": 5961355,
+  "name": "Pulido-Islas v. United States",
+  "name_abbreviation": "Pulido-Islas v. United States",
+  "decision_date": "2010-11-15",
+  "docket_number": "No. 10-5610",
+  "first_page": "1038",
+  "last_page": "1038",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1038"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "560 U. S. 563",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12454864,
+        3641562
+      ],
+      "year": 2010,
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/177/0068-01",
+        "/us/560/0563-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 39,
+    "char_count": 291,
+    "ocr_confidence": 0.573,
+    "pagerank": {
+      "raw": 4.688403287882615e-08,
+      "percentile": 0.17531143883203082
+    },
+    "sha256": "59d73183f27894788e788c8d57f29c4cac1c93877813c2db674ea15d0660d83f",
+    "simhash": "1:c600f312c582b61a",
+    "word_count": 45
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pulido-Islas v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Motion of petitioner for leave to proceed in forma pauperis granted. Certiorari granted, judgment vacated, and ease remanded for further consideration in light of Carachuri-Rosendo\nv. Holder, 560 U. S. 563 (2010).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "November 15, 2010\nNo. 10-5610.\nPulido-Islas v. United States."
+  },
+  "file_name": "1038-03",
+  "first_page_order": 1060,
+  "last_page_order": 1060
+}

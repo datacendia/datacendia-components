@@ -1,0 +1,59 @@
+{
+  "id": 12251169,
+  "name": "In re Disbarment of Woolverton",
+  "name_abbreviation": "In re Disbarment of Woolverton",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. D-2610",
+  "first_page": "1256",
+  "last_page": "1256",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1256"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 111,
+    "ocr_confidence": 0.655,
+    "sha256": "9415a120a9b2ee2c5f5a79181d1eaaf964e7ccd8fe8bee13ce491aad0f0867a8",
+    "simhash": "1:6e789c67cb745063",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Woolverton."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see ante, p. 1053.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2610.\nIn re Disbarment of Woolverton."
+  },
+  "file_name": "1256-10",
+  "first_page_order": 1338,
+  "last_page_order": 1338
+}

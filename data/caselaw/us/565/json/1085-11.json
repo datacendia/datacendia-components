@@ -1,0 +1,59 @@
+{
+  "id": 12237381,
+  "name": "Bargeron v. United States",
+  "name_abbreviation": "Bargeron v. United States",
+  "decision_date": "2011-12-05",
+  "docket_number": "No. 11-7138",
+  "first_page": "1085",
+  "last_page": "1085",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1085"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.674,
+    "sha256": "b7c1f9c81395cb775755fb6a6542e4abe133020ccb9af097f88f020cf52957a7",
+    "simhash": "1:2e094e2b0fad98dc",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bargeron v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7138.\nBargeron v. United States."
+  },
+  "file_name": "1085-11",
+  "first_page_order": 1167,
+  "last_page_order": 1167
+}

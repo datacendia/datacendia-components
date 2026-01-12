@@ -1,0 +1,2504 @@
+{
+  "id": 4331008,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. LOUIS VAN LEONARD et al., Defendants and Appellants",
+  "name_abbreviation": "People v. Van Leonard",
+  "decision_date": "2014-07-18",
+  "docket_number": "No. D062660",
+  "first_page": "465",
+  "last_page": "504",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "228 Cal. App. 4th 465"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "133 P.3d 534",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.Rptr.3d 621",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 Cal.4th 344",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3852869
+      ],
+      "pin_cites": [
+        {
+          "page": "373"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/38/0344-01"
+      ]
+    },
+    {
+      "cite": "297 P.3d 793",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "154 Cal.Rptr.3d 541",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "56 Cal.4th 393",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        4225064
+      ],
+      "pin_cites": [
+        {
+          "page": "446"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/56/0393-01"
+      ]
+    },
+    {
+      "cite": "386 U.S. 18",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6168882
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/386/0018-01"
+      ]
+    },
+    {
+      "cite": "137 Cal.App.2d 840",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2170122
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "841"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/137/0840-01"
+      ]
+    },
+    {
+      "cite": "290 P.2d 951",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1955,
+      "opinion_index": 0
+    },
+    {
+      "cite": "137 Cal.App.2d 728",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2170119
+      ],
+      "year": 1955,
+      "pin_cites": [
+        {
+          "page": "732"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/137/0728-01"
+      ]
+    },
+    {
+      "cite": "221 Cal.Rptr. 292",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "175 Cal.App.3d 865",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        12254304
+      ],
+      "pin_cites": [
+        {
+          "page": "874"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/175/0865-01"
+      ]
+    },
+    {
+      "cite": "163 P.2d 41",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "71 Cal.App.2d 637",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        4622669
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/71/0637-01"
+      ]
+    },
+    {
+      "cite": "535 P.2d 337",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "121 Cal.Rptr. 473",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "14 Cal.3d 466",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2279710
+      ],
+      "pin_cites": [
+        {
+          "page": "471"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/14/0466-01"
+      ]
+    },
+    {
+      "cite": "26 P.3d 1040",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1975,
+      "opinion_index": 0
+    },
+    {
+      "cite": "109 Cal.Rptr.2d 303",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1975,
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 Cal.4th 181",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        456751
+      ],
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "185"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/26/0181-01"
+      ]
+    },
+    {
+      "cite": "821 P.2d 610",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "3 Cal.Rptr.2d 106",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "1 Cal.4th 324",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1201305
+      ],
+      "pin_cites": [
+        {
+          "page": "492"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/1/0324-01"
+      ]
+    },
+    {
+      "cite": "70 Cal.Rptr.2d 462",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "60 Cal.App.4th 429",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "pin_cites": [
+        {
+          "page": "435"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "105 Cal.Rptr.2d 80",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "87 Cal.App.4th 991",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        106975
+      ],
+      "pin_cites": [
+        {
+          "page": "998"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/87/0991-01"
+      ]
+    },
+    {
+      "cite": "92 P.3d 369",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "14 Cal.Rptr.3d 880",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 Cal.4th 367",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        493327
+      ],
+      "pin_cites": [
+        {
+          "page": "375"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/33/0367-01"
+      ]
+    },
+    {
+      "cite": "60 Cal.Rptr.3d 375",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "152 Cal.App.4th 720",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3812269
+      ],
+      "pin_cites": [
+        {
+          "page": "752"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/152/0720-01"
+      ]
+    },
+    {
+      "cite": "86 Cal.Rptr.2d 151",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "73 Cal.App.4th 84",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        194392
+      ],
+      "pin_cites": [
+        {
+          "page": "101"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/73/0084-01"
+      ]
+    },
+    {
+      "cite": "38 Cal.Rptr.3d 781",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "136 Cal.App.4th 253",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3727518
+      ],
+      "pin_cites": [
+        {
+          "page": "256"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/136/0253-01"
+      ]
+    },
+    {
+      "cite": "49 Cal.Rptr.3d 287",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2006,
+      "opinion_index": 0
+    },
+    {
+      "cite": "143 Cal.App.4th 234",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3595719
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "244-245"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/143/0234-01"
+      ]
+    },
+    {
+      "cite": "136 Cal.Rptr.3d 646",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "203 Cal.App.4th 388",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4248553
+      ],
+      "pin_cites": [
+        {
+          "page": "399"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/203/0388-01"
+      ]
+    },
+    {
+      "cite": "127 Cal.Rptr.2d 319",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "103 Cal.App.4th 1139",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        747533
+      ],
+      "pin_cites": [
+        {
+          "page": "1143"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/103/1139-01"
+      ]
+    },
+    {
+      "cite": "267 P.3d 1135",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2002,
+      "opinion_index": 0
+    },
+    {
+      "cite": "136 Cal.Rptr.3d 66",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2002,
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.4th 599",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6050970
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "618"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/53/0599-01"
+      ]
+    },
+    {
+      "cite": "885 P.2d 1040",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Cal.Rptr.2d 627",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "9 Cal.4th 331",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1989358
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "354, fn. 17"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/9/0331-01"
+      ]
+    },
+    {
+      "cite": "504 P.2d 905",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "105 Cal.Rptr. 681",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "8 Cal.3d 625",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2321913
+      ],
+      "pin_cites": [
+        {
+          "page": "639"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/8/0625-01"
+      ]
+    },
+    {
+      "cite": "858 P.2d 611",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "23 Cal.Rptr.2d 144",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 Cal.4th 1203",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1998572
+      ],
+      "pin_cites": [
+        {
+          "page": "1208"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/5/1203-01"
+      ]
+    },
+    {
+      "cite": "253 P.3d 553",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "126 Cal.Rptr.3d 465",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 Cal.4th 1210",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3915414
+      ],
+      "pin_cites": [
+        {
+          "page": "1251"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/51/1210-01"
+      ]
+    },
+    {
+      "cite": "73 P.3d 1137",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "3 Cal.Rptr.3d 145",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Cal.4th 518",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        18455
+      ],
+      "pin_cites": [
+        {
+          "page": "545"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/31/0518-01"
+      ]
+    },
+    {
+      "cite": "696 P.2d 111",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "211 Cal.Rptr. 719",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 Cal.3d 301",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1977065
+      ],
+      "pin_cites": [
+        {
+          "page": "312-313"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/38/0301-01"
+      ]
+    },
+    {
+      "cite": "261 P.3d 243",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "131 Cal.Rptr.3d 225",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Cal.4th 856",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3919295
+      ],
+      "pin_cites": [
+        {
+          "page": "932"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/52/0856-01"
+      ]
+    },
+    {
+      "cite": "828 P.2d 705",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "7 Cal.Rptr.2d 564",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "2 Cal.4th 629",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        2005377
+      ],
+      "pin_cites": [
+        {
+          "page": "654"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/2/0629-01"
+      ]
+    },
+    {
+      "cite": "841 P.2d 938",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "14 Cal.Rptr.2d 418",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "4 Cal.4th 284",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        2001629
+      ],
+      "pin_cites": [
+        {
+          "page": "295"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/4/0284-01"
+      ]
+    },
+    {
+      "cite": "144 Cal.Rptr. 6",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "77 Cal.App.3d 924",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2011338
+      ],
+      "pin_cites": [
+        {
+          "page": "929"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/77/0924-01"
+      ]
+    },
+    {
+      "cite": "25 P.3d 519",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "108 Cal.Rptr.2d 291",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Cal.4th 926",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        265422
+      ],
+      "pin_cites": [
+        {
+          "page": "999"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/25/0926-01"
+      ]
+    },
+    {
+      "cite": "281 P.3d 1",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "144 Cal.Rptr.3d 84",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.4th 758",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        5720951
+      ],
+      "pin_cites": [
+        {
+          "page": "809"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/54/0758-01"
+      ]
+    },
+    {
+      "cite": "193 Cal.Rptr. 799",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "145 Cal.App.3d 967",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2101420
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/145/0967-01"
+      ]
+    },
+    {
+      "cite": "920 P.2d 1337",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "56 Cal.Rptr.2d 133",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "13 Cal.4th 1055",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1965947
+      ],
+      "pin_cites": [
+        {
+          "page": "1070"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/13/1055-01"
+      ]
+    },
+    {
+      "cite": "299 P.2d 243",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.2d 818",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4370142
+      ],
+      "pin_cites": [
+        {
+          "page": "836"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/46/0818-01"
+      ]
+    },
+    {
+      "cite": "172 Cal.Rptr. 221",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "116 Cal.App.3d 820",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2055675
+      ],
+      "pin_cites": [
+        {
+          "page": "829"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/116/0820-01"
+      ]
+    },
+    {
+      "cite": "156 P.3d 1015",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 Cal.Rptr.3d 543",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "40 Cal.4th 1179",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3158961
+      ],
+      "pin_cites": [
+        {
+          "page": "1223"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/40/1179-01"
+      ]
+    },
+    {
+      "cite": "262 P.3d 581",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "132 Cal.Rptr.3d 373",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Cal.4th 1038",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3919405
+      ],
+      "pin_cites": [
+        {
+          "page": "1048"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/52/1038-01"
+      ]
+    },
+    {
+      "cite": "927 P.2d 713",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 Cal.Rptr.2d 356",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "14 Cal.4th 605",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        341437
+      ],
+      "pin_cites": [
+        {
+          "page": "617"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/14/0605-01"
+      ]
+    },
+    {
+      "cite": "125 Cal.Rptr.2d 312",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "102 Cal.App.4th 116",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1151128
+      ],
+      "pin_cites": [
+        {
+          "page": "123-124"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/102/0116-01"
+      ]
+    },
+    {
+      "cite": "140 Cal.Rptr. 299",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "72 Cal.App.3d 714",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        1987591
+      ],
+      "pin_cites": [
+        {
+          "page": "717"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/72/0714-01"
+      ]
+    },
+    {
+      "cite": "18 Cal.Rptr.2d 511",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "14 Cal.App.4th 1303",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6037310
+      ],
+      "pin_cites": [
+        {
+          "page": "1309"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/14/1303-01"
+      ]
+    },
+    {
+      "cite": "133 Cal.Rptr.2d 454",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "108 Cal.App.4th 403",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        282414
+      ],
+      "pin_cites": [
+        {
+          "page": "418"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/108/0403-01"
+      ]
+    },
+    {
+      "cite": "25 P.3d 641",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "108 Cal.Rptr.2d 436",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Cal.4th 1124",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        265435
+      ],
+      "pin_cites": [
+        {
+          "page": "1132"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/25/1124-01"
+      ]
+    },
+    {
+      "cite": "127 Cal.Rptr.2d 777",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "104 Cal.App.4th 108",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        331643
+      ],
+      "pin_cites": [
+        {
+          "page": "116"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/104/0108-01"
+      ]
+    },
+    {
+      "cite": "254 Cal.Rptr. 831",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "207 Cal.App.3d 323",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        6038856
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/207/0323-01"
+      ]
+    },
+    {
+      "cite": "97 Cal.Rptr. 722",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 Cal.App.3d 481",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2348240
+      ],
+      "pin_cites": [
+        {
+          "page": "486"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/20/0481-01"
+      ]
+    },
+    {
+      "cite": "643 P.2d 971",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "182 Cal.Rptr. 354",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Cal.3d 263",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1979969
+      ],
+      "pin_cites": [
+        {
+          "page": "282"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/31/0263-01"
+      ]
+    },
+    {
+      "cite": "152 Cal.Rptr. 312",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.4th 1164",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3888075
+      ],
+      "pin_cites": [
+        {
+          "page": "1172"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/44/1164-01"
+      ]
+    },
+    {
+      "cite": "105 P.3d 487",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "24 Cal.Rptr.3d 112",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "34 Cal.4th 1149",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        633007
+      ],
+      "pin_cites": [
+        {
+          "page": "1181"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/34/1149-01"
+      ]
+    },
+    {
+      "cite": "931 P.2d 262",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "61 Cal.Rptr.2d 84",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 Cal.4th 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1006007
+      ],
+      "pin_cites": [
+        {
+          "page": "34"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/15/0001-01"
+      ]
+    },
+    {
+      "cite": "82 P.3d 296",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "8 Cal.Rptr.3d 271",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Cal.4th 73",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        801078
+      ],
+      "pin_cites": [
+        {
+          "page": "104"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/32/0073-01"
+      ]
+    },
+    {
+      "cite": "466 U.S. 668",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6204802
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "689"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/466/0668-01"
+      ]
+    },
+    {
+      "cite": "933 P.2d 1134",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "62 Cal.Rptr.2d 437",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 Cal.4th 264",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1006058
+      ],
+      "pin_cites": [
+        {
+          "page": "266-267"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/15/0264-01"
+      ]
+    },
+    {
+      "cite": "976 P.2d 683",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "85 Cal.Rptr.2d 132",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 Cal.4th 546",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        829700
+      ],
+      "pin_cites": [
+        {
+          "page": "623-624"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/20/0546-01"
+      ]
+    },
+    {
+      "cite": "14 P.3d 942",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "102 Cal.Rptr.2d 731",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "24 Cal.4th 849",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1180115
+      ],
+      "pin_cites": [
+        {
+          "page": "855"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/24/0849-01"
+      ]
+    },
+    {
+      "cite": "948 P.2d 429",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "69 Cal.Rptr.2d 917",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "17 Cal.4th 148",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1550686
+      ],
+      "pin_cites": [
+        {
+          "page": "161, fn. 6"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/17/0148-01"
+      ]
+    },
+    {
+      "cite": "292 P.2d 552",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "138 Cal.App.2d 871",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2168261
+      ],
+      "pin_cites": [
+        {
+          "page": "874"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/138/0871-01"
+      ]
+    },
+    {
+      "cite": "31 Cal.Rptr. 587",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1956,
+      "opinion_index": 0
+    },
+    {
+      "cite": "217 Cal.App.2d 310",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2115019
+      ],
+      "year": 1956,
+      "pin_cites": [
+        {
+          "page": "313"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/217/0310-01"
+      ]
+    },
+    {
+      "cite": "926 P.2d 438",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "58 Cal.Rptr.2d 458",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "14 Cal.4th 367",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        341415
+      ],
+      "pin_cites": [
+        {
+          "page": "372"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/14/0367-01"
+      ]
+    },
+    {
+      "cite": "981 P.2d 42",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "87 Cal.Rptr.2d 412",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 Cal.4th 335",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        884814
+      ],
+      "pin_cites": [
+        {
+          "page": "338"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/21/0335-01"
+      ]
+    },
+    {
+      "cite": "232 Cal.Rptr. 619",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 2012,
+      "opinion_index": 0
+    },
+    {
+      "cite": "187 Cal.App.3d 1222",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2200900
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "1224"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/187/1222-01"
+      ]
+    },
+    {
+      "cite": "14 P.3d 207",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "102 Cal.Rptr.2d 533",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "24 Cal.4th 767",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1180105
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/24/0767-01"
+      ]
+    },
+    {
+      "cite": "209 P.3d 1",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "95 Cal.Rptr.3d 78",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.4th 731",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3896084
+      ],
+      "pin_cites": [
+        {
+          "page": "779"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/46/0731-01"
+      ]
+    },
+    {
+      "cite": "91 P.3d 164",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "14 Cal.Rptr.3d 212",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 Cal.4th 96",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        493329
+      ],
+      "pin_cites": [
+        {
+          "page": "155, fn. 18"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/33/0096-01"
+      ]
+    },
+    {
+      "cite": "853 P.2d 1093",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 Cal.Rptr.2d 638",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 Cal.4th 580",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1998525
+      ],
+      "pin_cites": [
+        {
+          "page": "589-590"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/5/0580-01"
+      ]
+    },
+    {
+      "cite": "304 P.2d 719",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "147 Cal.App.2d 76",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2181126
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/147/0076-01"
+      ]
+    },
+    {
+      "cite": "255 Cal.Rptr. 46",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1956,
+      "opinion_index": 0
+    },
+    {
+      "cite": "207 Cal.App.3d 464",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        6038509
+      ],
+      "year": 1956,
+      "pin_cites": [
+        {
+          "page": "472"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/207/0464-01"
+      ]
+    },
+    {
+      "cite": "92 Cal.Rptr. 647",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "14 Cal.App.3d 1017",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4419246
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/14/1017-01"
+      ]
+    },
+    {
+      "cite": "140 Cal.Rptr. 301",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "72 Cal.App.3d 734",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        1987605
+      ],
+      "pin_cites": [
+        {
+          "page": "739"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/72/0734-01"
+      ]
+    },
+    {
+      "cite": "238 Cal.Rptr. 356",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "193 Cal.App.3d 518",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4231917
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/193/0518-01"
+      ]
+    },
+    {
+      "cite": "207 P.2d 571",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "92 Cal.App.2d 562",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2251773
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/92/0562-01"
+      ]
+    },
+    {
+      "cite": "79 P.3d 1030",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "6 Cal.Rptr.3d 723",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Cal.4th 1107",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        17263
+      ],
+      "pin_cites": [
+        {
+          "page": "1114"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/31/1107-01"
+      ]
+    },
+    {
+      "cite": "889 P.2d 541",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 Cal.Rptr.2d 347",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "9 Cal.4th 580",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1989356
+      ],
+      "pin_cites": [
+        {
+          "page": "592, fn. 7"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/9/0580-01"
+      ]
+    },
+    {
+      "cite": "468 P.2d 193",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1995,
+      "opinion_index": 0
+    },
+    {
+      "cite": "86 Cal.Rptr. 65",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1995,
+      "opinion_index": 0
+    },
+    {
+      "cite": "2 Cal.3d 557",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2310797
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "564"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/2/0557-01"
+      ]
+    },
+    {
+      "cite": "102 P.2d 813",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal.App.2d 243",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        6040729
+      ],
+      "pin_cites": [
+        {
+          "page": "247"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/39/0243-01"
+      ]
+    },
+    {
+      "cite": "8 Cal.Rptr. 795",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "186 Cal.App.2d 178",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2338088
+      ],
+      "pin_cites": [
+        {
+          "page": "184, fn. 2"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/186/0178-01"
+      ]
+    },
+    {
+      "cite": "282 P.2d 961",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1960,
+      "opinion_index": 0
+    },
+    {
+      "cite": "132 Cal.App.2d 736",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2186953
+      ],
+      "year": 1960,
+      "pin_cites": [
+        {
+          "page": "738"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/132/0736-01"
+      ]
+    },
+    {
+      "cite": "40 Cal.Rptr.3d 768",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "137 Cal.App.4th 1050",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3818730
+      ],
+      "pin_cites": [
+        {
+          "page": "1057"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/137/1050-01"
+      ]
+    },
+    {
+      "cite": "43 Cal.Rptr.3d 911",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "140 Cal.App.4th 111",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5754101
+      ],
+      "pin_cites": [
+        {
+          "page": "133-134"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/140/0111-01"
+      ]
+    },
+    {
+      "cite": "163 Cal.Rptr.3d 862",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "221 Cal.App.4th 139",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4182720
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "149"
+        },
+        {
+          "page": "147, fn. 8"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/221/0139-01"
+      ]
+    },
+    {
+      "cite": "918 P.2d 999",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.Rptr.2d 695",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "13 Cal.4th 590",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1965959
+      ],
+      "pin_cites": [
+        {
+          "page": "606, fn. 3"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/13/0590-01"
+      ]
+    },
+    {
+      "cite": "917 P.2d 628",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.Rptr.2d 789",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "13 Cal.4th 497",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1965926
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/13/0497-01"
+      ]
+    },
+    {
+      "cite": "89 Cal.App.3d 143",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2023239
+      ],
+      "pin_cites": [
+        {
+          "page": "151"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/89/0143-01"
+      ]
+    },
+    {
+      "cite": "283 Cal.Rptr. 361",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "232 Cal.App.3d 248",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        6036489
+      ],
+      "pin_cites": [
+        {
+          "page": "265-266"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/232/0248-01"
+      ]
+    },
+    {
+      "cite": "18 Cal.Rptr.3d 626",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "122 Cal.App.4th 260",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1137517
+      ],
+      "pin_cites": [
+        {
+          "page": "270"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/122/0260-01"
+      ]
+    },
+    {
+      "cite": "101 Cal.Rptr.2d 270",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "84 Cal.App.4th 946",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1166844
+      ],
+      "pin_cites": [
+        {
+          "page": "967"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/84/0946-01"
+      ]
+    },
+    {
+      "cite": "874 P.2d 903",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Cal.Rptr.2d 128",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "7 Cal.4th 1027",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1981850
+      ],
+      "pin_cites": [
+        {
+          "page": "1039"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/7/1027-01"
+      ]
+    },
+    {
+      "cite": "254 P.3d 965",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "127 Cal.Rptr.3d 662",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 Cal.4th 965",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3915372
+      ],
+      "pin_cites": [
+        {
+          "page": "975"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/51/0965-01"
+      ]
+    },
+    {
+      "cite": "219 Cal.Rptr. 873",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "174 Cal.App.3d 296",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2180131
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/174/0296-01"
+      ]
+    },
+    {
+      "cite": "831 P.2d 1159",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "9 Cal.Rptr.2d 577",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "2 Cal.4th 1117",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        2005405
+      ],
+      "pin_cites": [
+        {
+          "page": "1126"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/2/1117-01"
+      ]
+    },
+    {
+      "cite": "237 P.3d 474",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "114 Cal.Rptr.3d 133",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "50 Cal.4th 616",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3910173
+      ],
+      "pin_cites": [
+        {
+          "page": "679"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/50/0616-01"
+      ]
+    },
+    {
+      "cite": "926 P.2d 1013",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "58 Cal.Rptr.2d 827",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "14 Cal.4th 248",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        341438
+      ],
+      "pin_cites": [
+        {
+          "page": "259"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/14/0248-01"
+      ]
+    },
+    {
+      "cite": "945 P.2d 1204",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "68 Cal.Rptr.2d 655",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 Cal.4th 1023",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1217914
+      ],
+      "pin_cites": [
+        {
+          "page": "1028"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/16/1023-01"
+      ]
+    },
+    {
+      "cite": "29 P.3d 197",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "111 Cal.Rptr.2d 114",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 Cal.4th 779",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        456849
+      ],
+      "pin_cites": [
+        {
+          "page": "788"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/26/0779-01"
+      ]
+    },
+    {
+      "cite": "189 P.3d 971",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "81 Cal.Rptr.3d 723",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 2745,
+    "char_count": 94208,
+    "ocr_confidence": 0.905,
+    "pagerank": {
+      "raw": 8.918332391478443e-08,
+      "percentile": 0.5004235768185713
+    },
+    "sha256": "3bb1759ce90e3b33219a4bd7db8f88a48b14ed8667103f816c1d4b6afbb879dd",
+    "simhash": "1:9ffece24740a80fc",
+    "word_count": 15196
+  },
+  "last_updated": "2024-02-27T19:58:27.199147+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. LOUIS VAN LEONARD et al., Defendants and Appellants."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nMcDONALD, Acting P. J.\nA jury convicted Louis Van Leonard and Charles Dwayne Walser of two counts each of pimping (Pen. Code, \u00a7 266h, subd. (a)), two counts each of pandering (\u00a7 266i, subd. (a)(2)), and one count each of assault by means of force likely to produce great bodily injury (former \u00a7 245, subd. (a)(1)). The jury also convicted Leonard of one count of making a criminal threat. (\u00a7 422.) Following a bench trial, the court found true that Leonard had a prior prison term under section 667.5, subdivision (b); a prior serious felony conviction under section 667, subdivision (a)(1); and a \u201c[s]trike prior\u201d conviction for purposes of section 667, subdivisions (b) through (i). The court ordered that Leonard\u2019s prison prior under section 667, subdivision (a)(1), be stricken for purposes of sentencing. The court further stayed punishment under section 654 on Leonard\u2019s and Walser\u2019s convictions for pimping. With enhancements, the court sentenced Leonard to a term of 23 years in prison. The court sentenced Walser to a term of eight years four months in prison.\nLeonard and Walser appeal, contending (1) the operative amended information at trial was not properly filed; (2) the evidence was insufficient to support defendants\u2019 convictions on certain counts; (3) the court erred in not giving a unanimity instruction on pandering; (4) the court erred in admitting expert testimony regarding the culture of pimping and pandering; (5) the court erred in limiting cross-examination of the victims regarding their bias and credibility; (6) defendants\u2019 sentences on their assault convictions and on Leonard\u2019s criminal threat conviction should have been stayed under section 654; (7) the court abused its discretion by declining to dismiss Leonard\u2019s \u201cstrike prior\u201d under People v. Superior Court (Romero) (1996) 13 Cal.4th 497 [53 Cal.Rptr.2d 789, 917 P.2d 628]; and (8) the judgment against Leonard erroneously states that his prison prior under section 667.5, subdivision (b), was stayed by the court. We modify the judgment against Leonard to provide that his prison prior was stricken by the court, rather than stayed, and affirm it as modified. We affirm the judgment against Walser in full.\nFACTS\nIn 2011, Leonard approached Cynthia Jordan along El Cajon Boulevard in San Diego. Jordan was working as a prostitute at the time, and she thought Leonard might be a potential client. After speaking with him, however, Jordan understood that Leonard was interested in becoming her pimp. Jordan told Leonard her life had been difficult lately, and Leonard offered her protection. Leonard said he could provide Jordan with a place to live and food to eat if Jordan continued to work as a prostitute and gave her earnings to Leonard. Jordan soon gave Leonard a $100 \u201cchoosing fee,\u201d symbolizing her choice of Leonard as her pimp, and moved into Leonard\u2019s apartment the next day.\nWalser and his girlfriend also lived in Leonard\u2019s apartment. Because Leonard has muscular dystrophy and uses a wheelchair, Walser assisted Leonard with certain daily activities. Walser\u2019s duties included bathing and dressing Leonard, lifting Leonard into and out of his wheelchair, and placing Leonard in his car. Walser received payments from the government as Leonard\u2019s caregiver. Walser, known by his nickname \u201cCharlie Mack,\u201d also assisted in Leonard\u2019s pimping operation. He was Leonard\u2019s \u201cenforcer\u201d and the \u201cstrong arm\u201d Leonard needed because he was in a wheelchair.\nLeonard controlled Jordan\u2019s activities. Leonard told Jordan how to speak to potential clients, how much to charge, when to demand payment, and how to avoid contact with other pimps. Leonard and Walser supplied Jordan with methamphetamines to feed her severe drug addiction. Jordan worked out of the apartment and in hotel rooms. Leonard eventually rented the apartment next door to use for prostitution. Leonard often drove Jordan to out calls, and he waited nearby to make sure Jordan turned the payments over to him immediately afterwards. Walser, and sometimes other men, rode along with Leonard for protection.\nLeonard posted advertisements for Jordan on adult-oriented Web sites, which resulted in more lucrative prostitution work than the street. Walser assisted by taking sexually suggestive photographs for these advertisements. Jordan earned up to $1,000 per night, from multiple encounters. The money went towards Leonard\u2019s rent, car payments and upgrades for his two Cadillacs, and other expenses.\nLeonard required Jordan to have sex with him as well. Eventually, Jordan developed romantic feelings for Leonard, which he encouraged. Leonard told Jordan she was beautiful and he wanted to marry her. Leonard promised Jordan her own apartment and a better life. Jordan believed Leonard, although she was aware he was pimping several other women at the same time.\nOne other woman was Amber Hanson. Hanson met Leonard through Walser\u2019s brother, Ivan Mosley (also known as \u201cJ. Mack\u201d). Mosley approached Hanson one night while she was working as a prostitute on El Cajon Boulevard. He brought Hanson to Leonard\u2019s apartment, where Walser sold Hanson some methamphetamine and Hanson and Mosley had oral sex. Hanson, Mosley, and Walser discussed Hanson\u2019s work as a prostitute. Mosley gave Hanson his number to call if she wanted to buy drugs in the future. Later, Hanson contacted Mosley, and they met at Leonard\u2019s apartment a second time. This time, Hanson met Leonard, who offered to be Hanson\u2019s pimp. Leonard said he would provide her with a place to stay and food to eat, if she turned over all of her earnings to him. Hanson agreed and moved into Leonard\u2019s apartment.\nHanson continued to work the streets, although Leonard began to post advertisements for her services on adult-oriented Web sites as well. Hanson sometimes traveled with Leonard, and she continued to work as a prostitute on these trips. In general, Hanson made between $500 and $1,000 per night. Like Jordan, she gave all of her earnings to Leonard. He used the money for rent, car repairs, and drugs. Also like Jordan, Hanson developed romantic feelings for Leonard. Leonard told Hanson he wanted to marry her. Hanson had Leonard\u2019s nickname, \u201cMr. X.,\u201d tattooed on her chest. She became pregnant with twins and believed Leonard to be the father.\nIf Hanson did not have a client\u2019s payment for Leonard, or if Hanson spoke in a way that upset Leonard, he would order Walser to beat her. Leonard would say, \u201cbeat that bitch,\u201d and Walser would do so. After Hanson became pregnant, she stood up to Leonard more often. She did not want to continue working so many hours as a prostitute. Leonard responded that \u201chis other baby\u2019s mother . . . was out there working the blade until she was ready to pop,\u201d and the beatings increased in severity. In one instance, Hanson and Jordan got into an argument. To punish Hanson, Walser punched her. Hanson suffered a cracked tooth, a dislocated jaw, and a broken lip from Walser\u2019s beating. Hanson also beat and cut herself.\nEventually, Hanson left Leonard. She returned to El Cajon Boulevard to work the streets. One night, Leonard pulled up beside her in his Cadillac. Walser was in the car as well. Walser grabbed Hanson and threw her into Leonard\u2019s Cadillac. They drove to Leonard\u2019s apartment, where Walser led Hanson to Leonard\u2019s bedroom. Leonard told Hanson she should not have left and she needed to return to Leonard. Leonard instructed Walser to beat Hanson, and he complied. Walser kicked Hanson in the stomach, back, legs, and face. Leonard kicked Hanson in the face as well. Leonard confined Hanson to the bedroom until Hanson agreed to work for him again. When Leonard released her, she returned to the streets and sought out her new pimp, Kevin Smith. Hanson soon started bleeding profusely as a result of the beating. Smith drove her to a hospital emergency room, where she suffered a miscarriage.\nMeanwhile, Jordan had become fearful of Leonard and his aggressive nature. When Jordan did not want to work, Leonard used threats and psychological manipulation to keep her in line. Jordan witnessed Walser beating Hanson. Jordan sometimes left the apartment for days or a week at a time, and she moved down the street for a time. However, Jordan continued to work for Leonard out of fear.\nAfter almost a year working for Leonard, Jordan entered treatment for drug addiction. She was in treatment for a little over a month. She did not see Leonard for a while, but they spoke on the phone. When Jordan returned to the apartment to check on Leonard, he pressured her to work for him again. They began to argue, and Jordan attempted to drive away. She was unable to do so, however, because Leonard had parked behind her car in his wheelchair, blocking her way out. A number of men approached Jordan\u2019s car and began beating on her windows. At least one window was smashed, and the men dragged Jordan out of her car and slammed her to the ground. Jordan thought her life was in danger. They brought her into Leonard\u2019s apartment, where Leonard took Jordan\u2019s phone and told her not to leave.\nJordan eventually escaped and drove her car, which also had its tires slashed, down El Cajon Boulevard. Leonard caught up to her and convinced her to get into his car to talk. Leonard then told Jordan if she ever left him again he would kill her. Frightened anew, Jordan jumped out of Leonard\u2019s car at a stoplight, went back to her car, and drove to find help. When she stopped at an auto parts store, an unknown person called police.\nJordan told police about the events of that day and her history working for Leonard. The police began an investigation. Jordan agreed to make a number of recorded \u201cpretext\u201d calls to Leonard in an effort to obtain evidence against him. In one call, Jordan and Leonard discussed a potential client. Jordan explained that the client would pay $800, and she asked to keep $200. Leonard responded, \u201cAll right[,] I\u2019ll give you two out of the eight.\u201d In two other calls, Jordan and Leonard discussed how Jordan should \u201crecruit\u201d other women to work for Leonard. Leonard asked Jordan to bring one woman to his apartment and tell her she would be able to \u201cchill\u201d there. Leonard explained, \u201cI\u2019ll come back and snatch her up with the quickness, [\u00b6] . . . [1] But you got to watch her \u2019cause I don\u2019t want nobody else giving her false \u2014 false information [1] . . . [\u00b6] . . . and trying to move her while I\u2019m not there.\u201d The police uncovered Internet advertisements for Jordan and Hanson, and at least one account was linked to Walser through his e-mail address.\nPolice investigators reviewed Leonard\u2019s postings on social media and found repeated references to pimping and \u201cP\u2019s,\u201d which is slang for pimps. For example, one post stated, \u201c[June 4, 1967], a pimp was bom.\u201d That date is Leonard\u2019s birth date. Other posts stated, \u201cJust got back from Las Vegas, can you say a pimp named X the Pimp\u201d and \u201cWhy is the homies calling my Cadillac, The Super Duper Ho Scooper.\u201d A photograph in one post showed Leonard in a red suit holding two \u201cpimp cups\u201d engraved with the name \u201cMr. X.\u201d\nAt trial, Jordan and Hanson testified for the prosecution pursuant to grants of immunity. James Hunter, a detective with the San Diego Police Department (SDPD), testified regarding the investigation of Leonard and Walser. Detective Hunter also testified as an expert regarding the pimping subculture, as well as the patterns of psychological and physical abuse that pimps use to control women.\nWalser testified in his own defense. He denied knowing Leonard was a pimp or that any prostitution was occurring in the apartment. Walser denied being violent toward Hanson or anyone else. Mosley, Walser\u2019s brother, testified he knew Jordan and Hanson were prostitutes, but he did not know Leonard or Walser were engaged in pimping or pandering. The building manager for Leonard\u2019s apartment, Anthony Clemons, testified that he had no reason to believe that prostitution or other illegal activity was occurring in the apartment.\nDISCUSSION\nI\nA\nThe prosecution filed a third amended information on June 26, 2012. As relevant to this appeal, the third amended information added two allegations against Leonard: a prior serious felony conviction under section 667, subdivision (a)(1), and a \u201cstrike prior\u201d conviction under section 667, subdivisions (b) through (i). The trial court clerk was unable to find any record of proceedings on the date the third amended information was filed.\nApproximately one month later, during a hearing on the date set for defendants\u2019 jury trial, the court stated, \u201c[M]y clerk tells me that these gentlemen have not been arraigned on the third amended complaint [sic]. Is that true?\u201d The prosecutor answered affirmatively, and the court proceeded to arraign Leonard and his codefendants. Leonard\u2019s counsel stated he had received a copy of the amended information. Leonard waived reading of the amended information, pleaded not guilty, and denied the allegations.\nThe court minutes from the hearing reflect as follows: \u201cAll defendants are advised of their rights and arraigned on the Third Amended Information filed June 26, 2012. The defendants have received a copy of the information and waive reading. The defendants waive their rights and enter a plea of NOT GUILTY to all counts and allegations as charged.\u201d\nB\nLeonard contends the court did not have jurisdiction to arraign him or proceed to trial on the additional allegations in the third amended information because the record does not reflect any order granting the prosecution leave to file the amended information. We conclude the court had jurisdiction.\nFollowing a defendant\u2019s plea, leave of court is normally required before an information may be amended. (\u00a7 1009; People v. Valladoli (1996) 13 Cal.4th 590, 606, fn. 3 [54 Cal.Rptr.2d 695, 918 P.2d 999] (Valladoli).) As this court recently explained, \u201cthe Supreme Court made it clear that a trial court must approve the filing of the amended charging document, and that it is within the trial court\u2019s discretion to deny leave to amend.\u201d (People v. Lettice (2013) 221 Cal.App.4th 139, 149 [163 Cal.Rptr.3d 862] (Lettice).) The court retains this authority even where, as here, the prosecution seeks to add allegations of a defendant\u2019s prior convictions. (Ibid.; see \u00a7 969a.) Although the prosecution normally requests leave to amend in writing, the trial court has authority to amend the information on an oral motion (People v. Sandoval (2006) 140 Cal.App.4th 111, 133-134 [43 Cal.Rptr.3d 911]) or sua sponte on the court\u2019s own motion (People v. Carrasco (2006) 137 Cal.App.4th 1050, 1057 [40 Cal.Rptr.3d 768]).\nWhere, as here, an amended information was filed and no order explicitly approves its filing, we will presume in favor of the judgment that the amended information was filed with leave of court. (See People v. Loggins (1955) 132 Cal.App.2d 736, 738 [282 P.2d 961] {Loggins) [\u201cThe amended information here was filed in open court and is presumed to have been filed pursuant to leave of court, although the minutes of the court do not so state.\u201d]; see also People v. Elliott (1960) 186 Cal.App.2d 178, 184, fn. 2 [8 Cal.Rptr. 795].) In civil appeals, a similar rule applies in the context of amended complaints. (See Head v. Logan (1940) 39 Cal.App.2d 243, 247 [102 P.2d 813] [\u201cThe record is silent as to whether or not permission was given to file the pleading in question. We must therefore presume, in support of the judgment, that such permission was granted.\u201d].)\nThese principles are specific applications of the presumption of correctness that governs all appeals. \u201c \u2018A judgment or order of the lower court is presumed correct. All intendments and presumptions are indulged to support it on matters as to which the record is silent, and error must be affirmatively shown. This is not only a general principle of appellate practice but an ingredient of the constitutional doctrine of reversible error.\u2019 \u201d (Denham v. Superior Court (1970) 2 Cal.3d 557, 564 [86 Cal.Rptr. 65, 468 P.2d 193]; see People v. Wiley (1995) 9 Cal.4th 580, 592, fn. 7 [38 Cal.Rptr.2d 347, 889 P.2d 541].) Moreover, \u201c \u2018a trial court is presumed to have been aware of and followed the applicable law. [Citations.]\u2019 \u201d (People v. Stowell (2003) 31 Cal.4th 1107, 1114 [6 Cal.Rptr.3d 723, 79 P.3d 1030].)\nRelying on People v. Brower (1949) 92 Cal.App.2d 562 [207 P.2d 571], Leonard argues the absence of a court order in the record makes the third amended information a \u201cnullity.\u201d In Brower, an amended information was filed without leave of court. (Id. at p. 564.) The trial court recognized the error and set aside the improperly filed amended information. (Ibid.) On appeal, the defendant contended the filing of the amended information had displaced the original information, such that the defendant could not thereafter be tried on the original information. (Ibid.) The court rejected the defendant\u2019s contention: \u201cThe filing of the amended information without leave of court in nowise affected the original information, nor did its setting aside.\u201d (Ibid.) The court further stated, \u201cUntil the court had granted permission that it be filed, the amended information had no place in the record and was not legally filed.\u201d (Ibid.)\nLeonard claims the latter statement applies to the third amended information here. Unlike Brower, the record here is silent regarding the court\u2019s approval of the amended information. The trial court in Brower specifically stated the amended information had been filed without leave of court. (People v. Brower, supra, 92 Cal.App.2d at p. 564.) The trial court clerk here was unable to find any record of proceedings on the date the third amended information was filed. During the arraignment of Leonard and Walser on the third amended information, the trial court made no mention of its filing. Leonard\u2019s argument would require an affirmative statement of approval in the record to confirm on appeal that the third amended information was \u201clegally filed.\u201d (Brower, at p. 564.) However, that requirement would be inconsistent with the well-settled presumption of correctness. Nothing in Brower shows the court intended that result.\nLeonard also relies on Chambers v. Santa Cruz City School Dist. (1987) 193 Cal.App.3d 518 [238 Cal.Rptr. 356]. In that case, the plaintiffs filed a personal injury lawsuit against two defendants. (Id. at p. 520.) The plaintiffs did not serve the defendants with their summons and complaint within the statutorily mandated time period. (Ibid.) After the expiration of this period, a third party moved for leave to file a complaint in intervention, which the trial court approved. (Ibid.) The complaint in intervention was filed with the court and the defendants answered. (Id. at pp. 520-521.) The defendants then moved to dismiss the principal complaint on the ground the defendants had not been served with that complaint. (Id. at p. 521.) The trial court granted the defendants\u2019 motion and dismissed both the principal complaint and the complaint in intervention on the ground it had no jurisdiction to hear either. (Ibid.) Under the then prevailing statutory scheme, dismissal of the principal complaint was mandatory (with certain inapplicable exceptions) if the defendants were not served with a summons and complaint within three years of filing. (Id. at pp. 522-523.) On appeal, the court affirmed, holding that after the time period for service of the principal complaint had run, the trial court lacked jurisdiction \u201cto do anything but dismiss the action.\u201d (Id. at p. 524.) The trial court therefore did not have the power to grant the third party leave to file its complaint in intervention, and it was properly dismissed as well. (Ibid.)\nLeonard contends the following language from Chambers supports his position here: \u201c \u2018Thus, while it is true that had the complaint in intervention been validly filed it would have become an independent action with a life of its own [citation], the court lacking power to order it filed after the expiration of three years, the clerk of the court could not breathe fife into it merely by applying a file stamp to it.\u2019 \u201d (Chambers v. Santa Cruz City School Dist., supra, 193 Cal.App.3d at p. 522, quoting Floyd Neal & Associates, Inc. v. Superior Court (1977) 72 Cal.App.3d 734, 739 [140 Cal.Rptr. 301].) But unlike the record here, the record in Chambers established the court\u2019s lack of jurisdiction over the complaint in intervention. The improper filing \u2014 which the trial court in Chambers approved \u2014 could therefore be challenged. Here, the clerk\u2019s file stamp on the third amended information does not by itself compel a conclusion that it was properly filed with leave of court. Rather, in the absence of any indication that leave of court was not granted, we must presume it was properly filed.\nThe remaining authority on which Leonard relies is similarly inapposite. In People v. Flowers (1971) 14 Cal.App.3d 1017 [92 Cal.Rptr. 647], the court confirmed \u201cthe discretion of the trial court to disallow\u201d an amended information, but it did not consider whether an amended information could be challenged on appeal where the record as to the trial court\u2019s approval was silent. (Id. at p. 1021; see People v. Superior Court (Alvarado) (1989) 207 Cal.App.3d 464, 472 [255 Cal.Rptr. 46].) In Foley v. Foley (1956) 147 Cal.App.2d 76 [304 P.2d 719], the court considered whether a filing was ineffective where the clerk did not collect the required filing fee. The court held that \u201cthe timely filing of the notice [of motion] by the county clerk was effective notwithstanding the fact that the filing fee was not paid within the statutory period.\u201d (Id. at p. 78.) These authorities have no application here.\nC\nAnalogizing this case to our recent decision in Lettice, Leonard argues in the alternative that the silent record here demonstrates the trial court erred by not exercising its discretion to allow or disallow the amended information. In Lettice, the defendant pleaded guilty pursuant to a plea agreement, and the trial court accepted his plea. (Lettice, supra, 221 Cal.App.4th at p. 144.) On the date set for sentencing, the trial court stated, \u201c \u2018Okay. There is an amended information. We\u2019ve talked about this in chambers. It appears the People believe that the defendant has a strike prior ....\u2019\u201d (Ibid.) Following a colloquy with the prosecutor about the timing of the discovery of the prior, the court attempted to arraign the defendant on the amended information. (Ibid.) Defense counsel objected. (Ibid.) The court insisted, however, and the defendant was arraigned on the amended information. (Id. at p. 145.) The court and counsel discussed the defendant\u2019s prior plea, and the prosecution moved to withdraw from the plea agreement. (Ibid.) The court deferred ruling on that motion, noting it raised complicated issues of notice and estoppel. (Ibid.) At the end of the hearing, the court stated, \u201c \u2018[T]here\u2019s a difference between withdrawing the plea or demanding to withdraw the plea and a statutory right to add the strike after the plead \u201d (Id. at p. 146, italics added.)\nOn appeal, this court held that the trial court committed reversible error when it allowed the amendment without exercising its discretion to determine whether amendment was proper. (Lettice, supra, 221 Cal.App.4th at p. 153; see Valladoli, supra, 13 Cal.4th at p. 606, fn. 3.) This court stated, \u201cThe record reflects that the People failed to obtain court approval prior to filing the amended information, and that the court filed the amended information under the misimpression that it was required to do so.\u201d (Lettice, at p. 152.)\nLettice had the benefit of a more complete record surrounding the amended information than we have here. Although the circumstances of the actual filing of the amended information in Lettice are unclear, the trial court stated incorrectly the prosecution had a \u201c \u2018statutory right\u2019 \u201d to file the amended information even after the defendant\u2019s plea. (Lettice, supra, 221 Cal.App.4th at p. 146; see id. at p. 152 [\u201cthe trial court expressly, and erroneously, stated that the People had a statutory right to file the amended information\u201d].)\nLettice distinguished the situation in which a silent record would require affirmance. (Lettice, supra, 221 Cal.App.4th at p. 152 [\u201cWe cannot presume that the trial court engaged in the required \u2018prudent exercise of [its] discretion [under section 969a]\u2019. . . [citation], in light of a record that demonstrates that the trial court clearly believed it had no such discretion.\u201d].) Here, the record is silent, and the presumption governs. (See Loggins, supra, 132 Cal.App.2d at p. 738; cf. Lettice, at p. 152 [\u201cThis case is thus distinguishable from the silent record at issue in People v. Loggins . . . .\u201d].)\nRequiring leave of court before the prosecution may amend an information following a defendant\u2019s plea has long been an important safeguard for the rights of the accused. (See People v. Superior Court (Alvarado), supra, 207 Cal.App.3d at p. 472.) The discretion afforded trial courts to refuse such amendment \u201censure[s] the due process rights of criminal defendants are adequately protected.\u201d (Valladoli, supra, 13 Cal.4th at p. 607.) Nonetheless, we cannot conclude on the silent record here that the trial court did not exercise its discretion or did not approve the third amended information at issue. (Loggins, supra, 132 Cal.App.2d at p. 738; see People v. Elliott, supra, 186 Cal.App.2d at p. 184, fn. 2; Head v. Logan, supra, 39 Cal.App.2d at p. 247.)\nD\nEven had he shown that the trial court erred by not exercising its discretion to approve the filing of the third amended information, Leonard has forfeited that argument by not objecting in the trial court. It appears no reported decision has directly addressed the precise issue of forfeiture presented here. In Lettice, for example, this court proceeded to the merits of the trial court\u2019s order without considering forfeiture. (Lettice, supra, 221 Cal.App.4th 139, 147, fn. 8 [\u201cWe exercise our discretion to consider Lettice\u2019s claim on the merits despite any possible forfeiture for failure to object in the trial court.\u201d].)\nAs a general rule, however, \u201c \u2018 \u201c[a]n appellate court will ordinarily not consider procedural defects or erroneous rulings, in connection with relief sought or defenses asserted, where an objection could have been, but was not, presented to the lower court (People v. Saunders (1993) 5 Cal.4th 580, 589-590 [20 Cal.Rptr.2d 638, 853 P.2d 1093].) \u201c '\u2018No procedural principle is more familiar to this Court than that a constitutional right,\u201d or a right of any other sort, \u201cmay be forfeited in criminal as well as civil cases by the failure to make timely assertion of the right before a tribunal having jurisdiction to determine it.\u201d [Citation.]\u2019 \u201d (Id. at p. 590.) A defendant may forfeit a substantive defense through failure to plead it. (See, e.g., People v. Holloway (2004) 33 Cal.4th 96, 155, fn. 18 [14 Cal.Rptr.3d 212, 91 P.3d 164] [double jeopardy].) A defendant may also forfeit a claim of error based on the trial court\u2019s failure to exercise discretion on a procedural ruling. (See, e.g., People v. Dykes (2009) 46 Cal.4th 731, 779 [95 Cal.Rptr.3d 78, 209 P.3d 1] [admission of evidence under Evid. Code, \u00a7 352].)\nThe Supreme Court\u2019s opinion in People v. Tindall (2000) 24 Cal.4th 767 [102 Cal.Rptr.2d 533, 14 P.3d 207] (Tindall) is instructive. Tindall considered the interplay between the prosecution\u2019s ability to amend an information under section 969a, on one hand, and the requirement that a single jury decide both guilt and the truth of any prior conviction allegations under section 1025, subdivision (b), on the other. (Tindall, at pp. 769-770.) The Supreme Court held that a court may not allow such an amendment after the jury deciding a defendant\u2019s guilt has rendered a verdict and been discharged because, in that case, the same jury could not decide the truth of the newly added prior conviction allegations. (Id. at p. 782.) As relevant here, the Supreme Court further determined that a claim of error, based on a court\u2019s improper approval of such an amendment, was subject to forfeiture for failure to object in the trial court. (Id. at p. 776, fn. 6.)\nTindall based its conclusion on the fact that the order was \u201cin excess of [the trial court\u2019s] jurisdiction,\u201d rather than a matter of fundamental subject matter jurisdiction. (Tindall, supra, 24 Cal.4th at p. 776, fn. 6.) \u201cA court acts in excess of its jurisdiction when \u2018it has no \u201cjurisdiction\u201d (or power) to act except in a particular manner, or to give certain kinds of relief, or to act without the occurrence of certain procedural prerequisites.\u2019 \u201d (Id. at p. 776.) \u201c[A] court\u2019s act in excess of its jurisdiction is valid until set aside, and a party may be precluded from setting it aside, due to waiver, estoppel or the passage of time.\u201d (Id. at fn. 6.)\n\u201cTimely filing of the valid information gives the superior court jurisdiction to try an accused.\u201d (People v. Smith (1986) 187 Cal.App.3d 1222, 1224 [232 Cal.Rptr. 619]; see 4 Witkin & Epstein, Cal. Criminal Law (4th ed. 2012) Pretrial Proceedings, \u00a7 200, p. 458.) Here, there is no argument a valid information was not filed at the outset of the case. The trial court thus had fundamental subject matter jurisdiction. (See People v. Smith, supra, 187 Cal.App.3d at p. 1224.) The court\u2019s decision to allow the third amended information was an act in excess of jurisdiction because (as we here assume) it did not exercise its discretion to determine whether amendment was proper. Thus, like Tindall, any claim of error based on that decision was forfeited by Leonard\u2019s failure to object in the trial court. (See Tindall, supra, 24 Cal.4th at p. 776, fn. 6.)\nLeonard argues the situation here is analogous to a statute of limitations defect on the face of a charging document, which may be raised for the first time on appeal. (See People v. Williams (1999) 21 Cal.4th 335, 338 [87 Cal.Rptr.2d 412, 981 P.2d 42].) This type of defect, however, has been traditionally seen as affecting the court\u2019s fundamental subject matter jurisdiction and power to proceed. (See Cowen v. Superior Court (1996) 14 Cal.4th 367, 372 [58 Cal.Rptr.2d 458, 926 P.2d 438].) More recent decisions of the Supreme Court have removed these jurisprudential underpinnings of the statute of limitations rule. (See id. at p. 374; Williams, at p. 337.) However, the rule survives as a matter of stare decisis in the absence of a \u201cgood reason\u201d to change it. (Williams, at p. 341.)\nThe alleged error at issue here does not give rise to the same concerns as a facially invalid charging document. The historic concern over a court\u2019s power to proceed is not implicated where, as here, a court acts in excess of jurisdiction rather than without jurisdiction. (See Tindall, supra, 24 Cal.4th at p. 776, fn. 6.) Moreover, we have found no similar historic rule against forfeiture that would give rise to stare decisis concerns. To the extent similar issues have been considered before, the available authority indicates that applying the mie of forfeiture is proper. (See People v. Beck, supra, 71 Cal.App.2d at p. 641 [\u201cWhere an amended pleading is filed in open court pursuant to section 1008 ... by the district attorney and the accused being present offers no objection thereto, he may not for the first time raise the point on appeal.\u201d]; see also People v. Collins (1963) 217 Cal.App.2d 310, 313 [31 Cal.Rptr. 587] [\u201cDefendant did not object to the amendment of the information or ask for a continuance and thereby waived the right to assert error.\u201d]; People v. Vance (1956) 138 Cal.App.2d 871, 874 [292 P.2d 552].)\nThis court has discretion to address a claim of error raised for the first time on appeal. (People v. Williams (1998) 17 Cal.4th 148, 161, fn. 6 [69 Cal.Rptr.2d 917, 948 P.2d 429] (Williams).) We decline to do so here. The decision whether to allow an amended information is inherently fact bound. (See Valladoli, supra, 13 Cal.4th at p. 607 [citing factors such as \u201cthe reason for the late amendment,\u201d \u201cwhether the defendant is surprised,\u201d and \u201cwhether the prosecution\u2019s initial failure to allege the prior convictions affected the defendant\u2019s decisions during plea bargaining, if any\u201d].) We are unable to fully weigh these facts on the current record, in large part because of Leonard\u2019s failure to object in the trial court. Consideration of the merits would therefore be unwarranted. (See People v. Smith (2001) 24 Cal.4th 849, 855 [102 Cal.Rptr.2d 731, 14 P.3d 942] (conc. opn. of Mosk, J.) [\u201c[F]orfeiture nevertheless counsels an appellate court not to reach a nonpreserved claim when it has resulted in a void in the record that the court itself cannot or should not fill.\u201d].)\nE\nLeonard further claims his counsel was ineffective by not objecting to the third amended information. \u201cTo prevail on a claim of ineffective assistance of counsel, defendant \u2018must establish not only deficient performance, i.e., representation below an objective standard of reasonableness, but also resultant prejudice. [Citation.] Tactical errors are generally not deemed reversible; and counsel\u2019s decisionmaking must be evaluated in the context of the available facts. [Citation.] To the extent the record on appeal fails to disclose why counsel acted or failed to act in the manner challenged, we will affirm the judgment \u201cunless counsel was asked for an explanation and failed to provide one, or unless there simply could be no satisfactory explanation ____\u201d [Citation.]\u2019 \u201d (People v. Hart (1999) 20 Cal.4th 546, 623-624 [85 Cal.Rptr.2d 132, 976 P.2d 683] (Hart).) \u201cA claim of ineffective assistance in such a case is more appropriately decided in a habeas corpus proceeding.\u201d (People v. Mendoza Tello (1997) 15 Cal.4th 264, 266-267 [62 Cal.Rptr.2d 437, 933 P.2d 1134].)\nHere, Leonard asserts there could be no tactical reason for his counsel\u2019s failure to object to the third amended information. Leonard does not persuasively explain his assertion. As we have explained, the record here is exceedingly thin. The third amended information was filed and, approximately a month later, defendants were arraigned on it without objection. The gap in time and the absence of discussion regarding filing at the hearing strongly suggest considerations not reflected in the record were potentially at play. Moreover, consideration of the Valladoli factors makes relevant numerous aspects of defendants\u2019 litigation strategy, which Leonard\u2019s counsel may have felt would be harmful to explore in front of the trial court. We note the record reflects little of relevance regarding those factors and how they would have affected other trial issues. Given the record, we are cognizant of the principle that \u201ca court must indulge a strong presumption that counsel\u2019s conduct falls within the wide range of reasonable professional assistance . . . .\u201d (Strickland v. Washington (1984) 466 U.S. 668, 689 [80 L.Ed.2d 674, 104 S.Ct. 2052].) Under these circumstances, we cannot say that \u201c \u2018 \u201cthere simply could be no satisfactory explanation . . .\u201d \u2019 \u201d for counsel\u2019s failure to object. (Hart, supra, 20 Cal.4th at pp. 623-624.)\nMoreover, if we were to consider the question of prejudice, we would conclude that Leonard\u2019s claim must fail on this ground as well. \u201c \u2018[Prejudice must be affirmatively proved; the record must demonstrate \u201ca reasonable probability that, but for counsel\u2019s unprofessional errors, the result of the proceeding would have been different. A reasonable probability is a probability sufficient to undermine confidence in the outcome.\u201d \u2019 \u201d (Hart, supra, 20 Cal.4th at p. 624.) The record is devoid of any facts that would demonstrate a basis for the court to deny leave to amend the information. (See Valladoli, supra, 13 Cal.4th at p. 607.) Leonard argues the prosecution did not offer any explanation for the late filing. But the question was never asked, and we cannot draw any inferences from any alleged lack of explanation. Leonard further argues he would have reconsidered his plea bargaining strategy had he known of the additional allegations earlier. Any inference regarding plea bargaining, however, would be speculation. The record does not reflect any plea bargaining occurred, at what time, or when Leonard knew the prosecution would be adding additional allegations. (The third amended information was filed approximately one month before trial.) On this record, Leonard has not established a \u201c \u2018 \u201creasonable probability that ... the result of the proceeding would have been different\u201d \u2019 \u201d had his counsel objected. (Hart, at p. 624.)\nII\nA\nLeonard and Walser each contend the evidence was insufficient to convict them of certain charges. \u201cThe applicable standard of review is well settled: \u2018 \u201cTo determine the sufficiency of the evidence to support a conviction, an appellate court reviews the entire record in the light most favorable to the prosecution to determine whether it contains evidence that is reasonable, credible, and of solid value, from which a rational trier of fact could find the defendant guilty beyond a reasonable doubt.\u201d \u2019 [Citations.] \u2018 \u201c \u2018If the circumstances reasonably justify the trier of fact\u2019s findings, the opinion of the reviewing court that the circumstances might also be reasonably reconciled with a contrary finding does not warrant a reversal of the judgment.\u2019 \u201d \u2019 [Citation.] The standard of review is the same when the prosecution relies mainly on circumstantial evidence.\u201d (People v. Valdez (2004) 32 Cal.4th 73, 104 [8 Cal.Rptr.3d 271, 82 P.3d 296].)\n\u201cIn resolving claims involving the sufficiency of evidence, a reviewing court must determine \u2018whether, after viewing the evidence in the light most favorable to the prosecution, any rational trier of fact could have found the essential elements of the crime beyond a reasonable doubt.\u2019 \u201d (People v. Marshall (1997) 15 Cal.4th 1, 34 [61 Cal.Rptr.2d 84, 931 P.2d 262].) \u201cIn deciding the sufficiency of the evidence, a reviewing court resolves neither credibility issues nor evidentiary conflicts. [Citation.] Resolution of conflicts and inconsistencies in the testimony is the exclusive province of the trier of fact. [Citation.] Moreover, unless the testimony is physically impossible or inherently improbable, testimony of a single witness is sufficient to support a conviction.\u201d (People v. Young (2005) 34 Cal.4th 1149, 1181 [24 Cal.Rptr.3d 112, 105 P.3d 487].)\nB\nLeonard contends the evidence was insufficient to convict him of an assault on Jordan by means of force likely to produce great bodily injury. (See \u00a7 245, subd. (a)(1).) He was prosecuted on a theory of aiding and abetting the assault on Jordan in her car following her visit to his apartment after her time away in drug rehabilitation.\n\u201cAn assault is an unlawful attempt, coupled with a present ability, to commit a violent injury on the person of another.\u201d (\u00a7 240.) \u201c[I]t is a defendant\u2019s action enabling him to inflict a present injury that constitutes the actus reus of assault. There is no requirement that the injury would necessarily occur as the very next step in the sequence of events, or without any delay.\u201d (People v. Chance (2008) 44 Cal.4th 1164, 1172 [81 Cal.Rptr.3d 723, 189 P.3d 971].) Assault is a general intent crime; it \u201cdoes not require a specific intent to injure the victim.\u201d (People v. Williams (2001) 26 Cal.4th 779, 788 [111 Cal.Rptr.2d 114, 29 P.3d 197].) \u201c[A] defendant guilty of assault must be aware of the facts that would lead a reasonable person to realize that a battery would directly, naturally and probably result from his conduct. . . . He, however, need not be subjectively aware of the risk that a battery might occur.\u201d (Ibid.)\n\u201cOne may commit an assault without making actual physical contact with the person of the victim; because the statute focuses on use of a deadly weapon or instrument or, alternatively, on force likely to produce great bodily injury, whether the victim in fact suffers any harm is immaterial. [Citation.] That the use of hands or fists alone may support a conviction of assault \u2018by means of force likely to produce great bodily injury\u2019 is well established.\u201d (People v. Aguilar (1997) 16 Cal.4th 1023, 1028 [68 Cal.Rptr.2d 655, 945 P.2d 1204].)\n\u201c[A]n aider and abettor is a person who, \u2018acting with (1) knowledge of the unlawful purpose of the perpetrator; and (2) the intent or purpose of committing, encouraging, or facilitating the commission of the offense, (3) by act or advice aids, promotes, encourages or instigates, the commission of the crime.\u2019 \u201d (People v. Prettyman (1996) 14 Cal.4th 248, 259 [58 Cal.Rptr.2d 827, 926 P.2d 1013].)\nLeonard argues the incident in question consisted of two discrete events: first, an act of \u201cvandalism\u201d in which Jordan\u2019s car window was smashed and her tires were slashed; and second, an act of violence toward Jordan when she was pulled from the car, slammed to the ground, and dragged back into Leonard\u2019s apartment. Leonard claims the prosecution elected to proceed on the basis of only the first event and, if they did not, a unanimity instruction was required. He argues the evidence surrounding the first event does not constitute sufficient evidence of an assault by means of force likely to produce great bodily injury. Leonard also claims that two events combined still would not constitute sufficient evidence.\nWe do not agree the evidence established two discrete events that required an election by the prosecution. Where, as here, \u201c \u2018the acts are so closely connected in time as to form part of one transaction\u2019 [citation] . . . ,\u201d they are properly considered part of the same offense. (People v. Jennings (2010) 50 Cal.4th 616, 679 [114 Cal.Rptr.3d 133, 237 P.3d 474].) For the same reason, a unanimity instruction was not required. (Ibid.) Moreover, the prosecution did not make the election alleged by Leonard. At the outset of his closing argument, the prosecutor identified the entire incident as support for the assault charge against Leonard. Even had the prosecutor limited his argument to the first part of the incident, our analysis would remain unchanged because the jury was not limited to the prosecution\u2019s stated theory. (See People v. Perez (1992) 2 Cal.4th 1117, 1126 [9 Cal.Rptr.2d 577, 831 P.2d 1159] [\u201cIt is elementary, however, that the prosecutor\u2019s argument is not evidence and the theories suggested are not the exclusive theories that may be considered by the jury.\u201d].)\nHere, the evidence showed that a group of men attacked Jordan while she was in her car, smashed the car window, dragged her out of the car, slammed her to the ground, and forced her into Leonard\u2019s apartment. By positioning his wheelchair behind Jordan\u2019s parked car, Leonard prevented her from leaving and was instrumental in facilitating the assault. (See People v. Prettyman, supra, 14 Cal.4th at p. 259.) This evidence is sufficient to support Leonard\u2019s conviction. (See People v. Williams, supra, 26 Cal.4th at p. 788.)\nUnlike People v. Duke (1985) 174 Cal.App.3d 296 [219 Cal.Rptr. 873], on which Leonard relies, the jury here could reasonably conclude the force threatened against Jordan (and actually applied to her) was likely to produce great bodily injury. In Duke, the evidence established only that the defendant had put the victim in a headlock \u201cmomentarily and released her almost immediately.\u201d (Id. at p. 303.) In that court\u2019s view, the victim \u201cwas in no danger from the force actually exerted on her body.\u201d (Ibid.) Here, by contrast, Jordan was surrounded by men, at least one of whom swung his fist towards her with force sufficient to smash a car window. She was then dragged out of the car and slammed to the ground. The jury was entitled to find this force created a sufficient likelihood of great bodily injury, even in the absence of evidence that injury resulted. (See People v. Aguilar, supra, 16 Cal.4th at p. 1028.)\nC\nWalser contends that the evidence was insufficient to convict him of pandering Jordan or Hanson. Under the charged statute, pandering is conduct that \u201c[b]y promises, threats, violence, or by any device or scheme, causes, induces, persuades, or encourages another person to become a prostitute.\u201d (\u00a7 266i, subd. (a)(2).) \u201cThe language of the pandering statute describes current conduct on the part of the defendant: inducing and encouraging. That current conduct is aimed at producing subsequent conduct by the target: that the target thereafter engage in acts of prostitution following a defendant\u2019s inducement or encouragement.\u201d (People v. Zambia (2011) 51 Cal.4th 965, 975 [127 Cal.Rptr.3d 662, 254 P.3d 965] (Zambia).) The \u201cproscribed activity of encouraging someone \u2018to become a prostitute,\u2019 as set forth in section 266i, subdivision (a)(2), includes encouragement of someone who is already an active prostitute . . . .\u201d (Id. at p. 981.) The prosecution proceeded against Walser on the theory that he aided and abetted Leonard\u2019s pandering of Jordan and Hanson.\nWalser contends that he could not have been convicted of pandering because there was no evidence Walser aided or abetted Leonard before the crime of pandering was completed as to either victim. \u201cThe statute is clear that the crime of pandering is complete when the defendant \u2018encourages another person to become a prostitute\u2019 by \u2018promises, threats, violence, or by any device or scheme ....\u2019(\u00a7 266i, subd. (a)(2).)\u201d (Zambia, supra, 51 Cal.4th at pp. 981-982, fn. 8.) \u201cIt is settled that if a defendant\u2019s liability for an offense is predicated upon the theory that he or she aided and abetted the perpetrator, the defendant\u2019s intent to encourage or facilitate the actions of the perpetrator \u2018must be formed prior to or during \u201ccommission\u201d of that offense.\u2019 \u201d (People v. Montoya (1994) 7 Cal.4th 1027, 1039 [31 Cal.Rptr.2d 128, 874 P.2d 903].) \u201cIn this respect, not only must the subjective intent to encourage or facilitate the actions of the perpetrator be formed prior to or during the commission of the offense, if there is no participation in the planning, the aider and abettor must take affirmative action at the time the offense is committed.\u201d (People v. Joiner (2000) 84 Cal.App.4th 946, 967 [101 Cal.Rptr.2d 270].)\nWalser\u2019s argument confuses the point at which a crime is completed for purposes of liability with the point at which commission of a crime ceases in the context of aiding and abetting. The two points need not be the same. \u201c \u2018[A]n offense may have been \u201ccommitted,\u201d so as to subject its perpetrator to liability for the completed offense as opposed to an attempt to commit it, but still remain in progress for purposes of determining aider and abettor liability.\u2019 \u201d (People v. Felton (2004) 122 Cal.App.4th 260, 270 [18 Cal.Rptr.3d 626]; see People v. Montoya, supra, 7 Cal.4th at p. 1039.)\n\u201c[B]oth pimping and pandering have been held to be crimes of a continuous ongoing nature . . . .\u201d (People v. Dell (1991) 232 Cal.App.3d 248, 265-266 [283 Cal.Rptr. 361] (Dell); see People v. White (1979) 89 Cal.App.3d 143, 151 [152 Cal.Rptr. 312] (White).) Walser could therefore join in the pandering of Jordan and Hanson as an aider and abettor as long as the pandering remained ongoing. (See People v. Felton, supra, 122 Cal.App.4th at p. 271.) Felton considered an analogous continuous course of conduct crime, felony child endangerment. (Ibid.) The court explained, \u201c[the perpetrator\u2019s] offense was \u2018complete,\u2019 for purposes of her guilt, the moment she left the baby with defendant. However, it was not \u2018complete,\u2019 for purposes of aider and abettor liability, until she returned home,\u201d i.e., when the child endangerment ceased. (Ibid.) The evidence of Walser\u2019s violence, threats, and intimidation during the course of Leonard\u2019s pandering of Jordan and Hanson is therefore sufficient to support Walser\u2019s conviction.\nWalser disputes the characterization of pandering as a continuous course of conduct crime in Dell and White. He argues that neither Dell nor White considered the specific charge at issue here: pandering by encouragement under section 266i, subdivision (a)(2). He claims that pandering by encouragement differs from other types of pandering that have been characterized as course of conduct crimes. For example, the court in White considered the crime of pandering in which a defendant \u201c[procures for another person a place as an inmate in a house of prostitution . . . .\u201d (Former \u00a7 266i, subd. (c), now \u00a7 266i, subd. (a)(3).) The court held \u201conce the female is procured for a house of prostitution, the one offense becomes ongoing as long as the female plies her trade in such house.\u201d (White, supra, 89 Cal.App.3d at p. 151; see People v. Diedrich (1982) 31 Cal.3d 263, 282 [182 Cal.Rptr. 354, 643 P.2d 971] [citing White for the proposition that pandering is a continuous and ongoing offense].)\nIn determining whether the crime can be a continuous or ongoing offense, we discern no relevant difference between the type of pandering at issue in White and the type charged here. \u201cThe subdivisions of the [pandering] statute do not state different offenses but merely define the different circumstances under which the crime of pandering may be committed.\u201d (People v. Lax (1971) 20 Cal.App.3d 481, 486 [97 Cal.Rptr. 722].) The pandering at issue in White was completed when the victim was procured for the house of prostitution, and it continued as long as the victim remained in the house and worked as a prostitute. (White, supra, 89 Cal.App.3d at p. 151.) Here, the charged pandering is completed once the victim is encouraged to become a prostitute (Zambia, supra, 51 Cal.4th at p. 981, fn. 8), and it continues as long as the intended prostitution continues. Contrary to Walser\u2019s contention, encouraging a person to become a prostitute is no more an individualized act than procuring for a person a place in a house of prostitution, which White held was an ongoing offense. (White, at p. 151.)\nPeople v. DeLoach (1989) 207 Cal.App.3d 323 [254 Cal.Rptr. 831] does not alter this analysis. In that case, the defendant was convicted of two counts under section 266i, subdivision (a)(2), for encouraging her daughter to become a prostitute on two separate occasions, 20 days apart. (DeLoach, at p. 332.) On appeal, the defendant argued that pandering was \u201can \u2018ongoing offense\u2019; once [defendant] had pandered her daughter the first time, \u2018any acts of prostitution by [daughter] subsequent to her becoming a prostitute did not, by themselves, give rise to separate counts of pandering.\u2019 \u201d (Ibid.) The court characterized defendant\u2019s argument as follows: \u201cAppellant\u2019s argument is based on the apparent premise that once a person has performed an act of prostitution, even though done under compulsion and duress, that person is irrevocably branded as a prostitute.\u201d (Ibid.) The court disagreed, noting that \u201c[t]he interpretation of Penal Code section 266i urged by appellant would require us to stigmatize the victim in this case . . . with a new form of Scarlet Letter.\u201d (Id. at p. 334.)\nDeLoach did not consider whether pandering by encouragement under section 266i, subdivision (a)(2), could be an ongoing offense. Under the facts presented there, the court in DeLoach held that two separate charges of pandering by encouragement were sufficiently distinct and supported. The facts presented here are far different. Our conclusion that pandering by encouragement can be an ongoing offense does not necessarily mean pandering by encouragement must be charged as a single ongoing offense under all factual scenarios. (See People v. Napoles (2002) 104 Cal.App.4th 108, 116 [127 Cal.Rptr.2d 777] [\u201cOf course, child abuse is not invariably charged as a course of conduct offense; one act or omission constituting abuse may be sufficient for conviction.\u201d].)\nWalser further contends the evidence is insufficient to support his conviction of pandering Jordan because none of Walser\u2019s violence was directed specifically at Jordan. Jordan testified she remained with Leonard because of Leonard\u2019s threats. Jordan knew Walser was the enforcer of those threats, and she witnessed Walser beating Hanson on at least one occasion at Leonard\u2019s direction. Moreover, Walser took pictures of Jordan for advertisements on adult-oriented Web sites, and the evidence showed Walser was aware that the reason for the pictures and the advertisements was prostitution. Walser\u2019s e-mail address was found in the account information for one or two of the advertisements. Based on this evidence, the jury could reasonably find Walser\u2019s actions aided and abetted Leonard\u2019s pandering of Jordan and were intended to do so.\nIII\nIn a related argument, Walser contends the trial court erred by not instructing the jury that it must unanimously agree on which act or acts formed the basis of Walser\u2019s liability for pandering. \u201cIn a criminal case, a jury verdict must be unanimous.\u201d (People v. Russo (2001) 25 Cal.4th 1124, 1132 [108 Cal.Rptr.2d 436, 25 P.3d 641].) \u201cAdditionally, the jury must agree unanimously the defendant is guilty of a specific crime. [Citation.] Therefore, cases have long held that when the evidence suggests more than one discrete crime, either the prosecution must elect among the crimes or the court must require the jury to agree on the same criminal act.\u201d (Ibid.) \u201cWhen the prosecutor does not make an election, the trial court has a sua sponte duty to instruct the jury on unanimity.\u201d (People v. Mayer (2003) 108 Cal.App.4th 403, 418 [133 Cal.Rptr.2d 454].)\n\u201c \u2018Neither instruction nor election are required, however, if the case falls within the continuous course of conduct exception.\u2019 \u201d (People v. Avina (1993) 14 Cal.App.4th 1303, 1309 [18 Cal.Rptr.2d 511].) This exception applies where \u201c \u2018the statute contemplates a continuous course of conduct of a series of acts over a period of time,\u2019 \u201d including pimping and pandering. (Ibid.; see Dell, supra, 232 Cal.App.3d at pp. 265-266 [\u201cMost significantly, both pimping and pandering have been held to be crimes of a continuous ongoing nature and are therefore not subject to the requirement the jury must agree on the specific act or acts constituting the offense.\u201d].)\nAs discussed ante, we conclude that the charged offense, pandering by encouragement, can be a crime of a continuous ongoing nature. (See White, supra, 89 Cal.App.3d at p. 151.) The language of the charging document, specifying that the acts of pandering took place over a specified period of time, reflects that the prosecution intended to charge Walser in this manner. (See People v. Ewing (1977) 72 Cal.App.3d 714, 717 [140 Cal.Rptr. 299].) \u201cThis language alerts the jury that the charge consists of a continuous course of conduct, to be proved by evidence of more than one individual act.\u201d (People v. Napoles, supra, 104 Cal.App.4th at p. 117.) Likewise, although the evidence presented at trial included discussion of several discrete events, the bulk of the evidence was directed towards a continuous course of threats and intimidation directed at Jordan and Hanson. (See ibid.) Walser, in particular, was described by his status as Leonard\u2019s \u201cstrong arm\u201d and his \u201cenforcer\u201d over this period. We therefore are not persuaded by Walser\u2019s claim that the evidence at trial showed a series of distinct criminal acts that precluded a finding of continuous conduct. (See People v. Rae (2002) 102 Cal.App.4th 116, 123-124 [125 Cal.Rptr.2d 312].) A unanimity instruction was not required. (See Ewing, at p. 717; Napoles, at p. 117; Dell, supra, 232 Cal.App.3d at p. 266.) Because we conclude the trial court did not err, we need not consider Walser\u2019s additional arguments regarding prejudice.\nIV\nLeonard contends the court erred by allowing Detective Hunter to give expert testimony regarding the culture of pimping and pandering, including his interpretation of Leonard\u2019s social media postings and the victims\u2019 statements against Leonard. Leonard argues Detective Hunter\u2019s testimony invaded the factfinding province of the jury by commenting on Leonard\u2019s guilt or innocence.\nDetective Hunter was the prosecution\u2019s first witness at trial. He had spent 18 years as a police officer, including six years in the vice operations unit of the SDPD. He developed the SDPD\u2019s first training program on pimping and pandering and taught the subject hundreds of times. Among other subjects, he testified at trial regarding the ways pimps control the prostitutes who work for them. Some pimps are \u201cfinesse pimps,\u201d who use promises of money, jewelry, travel, and love as tools of control. Other pimps are \u201cgorilla pimps,\u201d who rely on violence and threats. During Detective Hunter\u2019s testimony, the prosecutor asked, \u201cAnd have you, in your speaking with [Jordan], as well as reviewing the reports in this case and the cell phone examination and any other evidence, . . . have you formed an opinion as to what type of pimp Mr. X or Louis Leonard is?\u201d Detective Hunter answered affirmatively, and he explained that \u201c[i]t started out in the beginning as a finesse pimp in their relationship, and it easily developed into a gorilla pimping relationship.\u201d\nLater, following Hanson\u2019s testimony, Detective Hunter was recalled. The prosecutor referenced Detective Hunter\u2019s previous testimony and asked, \u201cRelating with that subject area, did you see patterns of behavior in pimping in manipulation and control of women in the testimony you heard today?\u201d Detective Hunter answered, \u201cYes.\u201d Detective Hunter also explained that certain postings of Leonard\u2019s social media referenced pimping and prostitution and that Leonard\u2019s style mimicked successful pimps.\n\u201cCalifornia law permits a person with \u2018special knowledge, skill, experience, training, or education\u2019 in a particular field to qualify as an expert witness (Evid. Code, \u00a7 720) and to give testimony in the form of an opinion (id., \u00a7 801).\u201d (People v. Gardeley (1996) 14 Cal.4th 605, 617 [59 Cal.Rptr.2d 356, 927 P.2d 713].) An expert\u2019s opinion must be \u201c[r]elated to a subject that is sufficiently beyond common experience that the opinion of an expert would assist the trier of fact.\u201d (Evid. Code, \u00a7 801, subd. (a).) \u201cTestimony in the form of an opinion that is otherwise admissible is not objectionable because it embraces the ultimate issue to be decided by the trier of fact.\u201d (Id., \u00a7 805.)\nHowever, \u201c \u2018[a] witness may not express an opinion on a defendant\u2019s guilt. [Citations.] The reason for this rule is not because guilt is the ultimate issue of fact for the jury, as opinion testimony often goes to the ultimate issue. [Citations.] \u201cRather, opinions on guilt or innocence are inadmissible because they are of no assistance to the trier of fact. To put it another way, the trier of fact is as competent as the witness to weigh the evidence and draw a conclusion on the issue of guilt.\u201d \u2019 \u201d (People v. Vang (2011) 52 Cal.4th 1038, 1048 [132 Cal.Rptr.3d 373, 262 P.3d 581].) We review the trial court\u2019s decision to admit expert testimony for abuse of discretion. (People v. Prince (2007) 40 Cal.4th 1179, 1223 [57 Cal.Rptr.3d 543, 156 P.3d 1015].)\nHere, Detective Hunter\u2019s testimony regarding what type of pimp Leonard was and what \u201cpatterns of behavior in pimping\u201d were shown in Hanson\u2019s testimony could reasonably be interpreted as unhelpful comments on Leonard\u2019s guilt or innocence on the charge of pimping. (See People v. Brown (1981) 116 Cal.App.3d 820, 829 [172 Cal.Rptr. 221] [testimony that defendant acted as a \u201c \u2018runner\u2019 \u201d \u201cwas tantamount to an opinion that [defendant] was guilty of the charged crime\u201d].) The jury was as qualified as Detective Hunter to determine whether the evidence showed Leonard was acting as a \u201cgorilla pimp\u201d or \u201cfinesse pimp,\u201d for example, after Detective Hunter had explained those terms. (See ibid.; see also People v. Vang, supra, 52 Cal.4th at p. 1048.)\nHowever, even assuming the trial court abused its discretion in admitting this testimony, any error was harmless. (See People v. Watson (1956) 46 Cal.2d 818, 836 [299 P.2d 243] (Watson).) The improper testimony cited by Leonard was brief, and remaining evidence against Leonard was overwhelming. The additional effect on the jury from the allegedly improper testimony, if any, was negligible. We are not persuaded by Leonard\u2019s claim that prejudice may be found in the jury\u2019s unfamiliarity with the culture of pimping and pandering and in the alleged dispute regarding Leonard\u2019s pimping role engendered by his emotional relationship with Jordan and Hanson. Moreover, the trial court properly instructed the jury with CALCRIM No. 332, which reminded the jury that they need not accept Detective Hunter\u2019s testimony as true or correct. The jury was told, \u201cYou must decide whether information on which the expert relied was true and accurate. You may disregard any opinion that you find unbelievable, unreasonable or unsupported by the evidence.\u201d (Ibid.) Considering this instruction, and after reviewing the entire record, we conclude Leonard has not established prejudicial error.\nV\nA\nLeonard and Walser argue the court improperly limited their cross-examinations of Jordan and Hanson. As to Jordan, Leonard and Walser claim they should have been able to explore Jordan\u2019s alleged complaints to the police regarding other pimps to show bias. As to Hanson, Leonard and Walser claim they should have been able to introduce evidence of Hanson\u2019s conviction for evidence tampering (destroying a methamphetamine pipe) to undermine her credibility.\n\u201cExcept as otherwise provided by statute, all relevant evidence is admissible.\u201d (Evid. Code, \u00a7351.) \u201c \u2018Relevant evidence\u2019 means evidence, including evidence relevant to the credibility of a witness or hearsay declarant, having any tendency in reason to prove or disprove any disputed fact that is of consequence to the determination of the action.\u201d (Id., \u00a7 210.)\n\u201cThe court in its discretion may exclude evidence if its probative value is substantially outweighed by the probability that its admission will (a) necessitate undue consumption of time or (b) create substantial danger of undue prejudice, of confusing the issues, or of misleading the jury.\u201d (Evid. Code, \u00a7 352.) \u201cRulings under Evidence Code section 352 come within the trial court\u2019s discretion and will not be overturned absent an abuse of that discretion.\u201d (People v. Minifie (1996) 13 Cal.4th 1055, 1070 [56 Cal.Rptr.2d 133, 920 P.2d 1337].)\nB\nDuring Jordan\u2019s testimony, Walser\u2019s counsel sought to ask her if she had accused \u201cat least one other person\u201d of pimping and mistreating prostitutes and if she intended to \u201cwage some kind of crusade against pimps\u201d in San Diego. The trial court sustained objections to both questions on relevance and other grounds. Leonard\u2019s counsel asked if Jordan had told Detective Hunter that she was pursuing a case against another pimp. The trial court again sustained the prosecutor\u2019s objection, this time on hearsay grounds.\nLater, Walser\u2019s counsel asked the court to revisit its evidentiary rulings. Walser\u2019s counsel claimed he wanted to show that Jordan was \u201con some kind of a campaign\u201d against pimps in San Diego. After discussion, the trial court determined the proposed inquiry was inadmissible under Evidence Code section 352. The court stated, \u201cI don\u2019t think \u2014 I think it has very marginal relevance and it\u2019s \u2014 it would be way too time consuming to deal with that issue. There\u2019s plenty of ammunition that you have used and can use against [Jordan], And so I don\u2019t think it really helps in any significant way.\u201d During Detective Hunter\u2019s testimony, Leonard\u2019s counsel asked whether Jordan had told him she was working on other cases against pimps. The court sustained the prosecutor\u2019s objection on relevance grounds.\nThe trial court did not err by excluding this evidence under Evidence Code section 352. The relevance of this evidence, if any, was marginal. Unlike People v. Stewart (1983) 145 Cal.App.3d 967 [193 Cal.Rptr. 799], on which Walser relies, the evidence here was not directed toward Jordan\u2019s alleged bias against defendants but toward Jordan\u2019s complaints in unrelated cases. (Id. at p. 977.) Jordan already testified she had reported Leonard and Walser to police and that she was testifying pursuant to an immunity agreement. Any bias based on those facts was already before the jury. The fact Jordan made other reports, or that she was on an alleged \u201ccrusade\u201d against pimps in San Diego, would add little to her alleged bias. But exploration of Jordan\u2019s other reports, and the bases therefor, held the potential to consume a disproportionate amount of time at trial and confuse the issues before the jury. The trial court properly excluded the evidence.\nContrary to Leonard and Walser\u2019s contentions, the application of Evidence Code section 352 does not violate their due process rights. (See People v. Riccardi (2012) 54 Cal.4th 758, 809 [144 Cal.Rptr.3d 84, 281 P.3d 1] [\u201cThe routine and proper application of state evidentiary law does not impinge on a defendant\u2019s due process rights.\u201d].) \u201cAlthough the complete exclusion of evidence intended to establish an accused\u2019s defense may impair his or her right to due process of law, the exclusion of defense evidence on a minor or subsidiary point does not interfere with that constitutional right.\u201d (People v. Cunningham (2001) 25 Cal.4th 926, 999 [108 Cal.Rptr.2d 291, 25 P.3d 519].) Under the circumstances here, Leonard and Walser have not established any violation of their due process rights.\nEven had Leonard and Walser shown the court erred in excluding evidence of Jordan\u2019s other reports and her alleged \u201ccrusade\u2019\u2019 against pimps in San Diego, any error was harmless under both the federal and California standards. (See Chapman v. California, supra, 386 U.S. at p. 24; Watson, supra, 46 Cal.2d at p. 836.) There was ample evidence of Jordan\u2019s animosity towards Leonard and Walser, so any additional effect on the jury of evidence of potential animosity towards other pimps would be negligible. Unlike People v. Stewart, supra, 145 Cal.App.3d at page 977, and People v. Allen (1978) 77 Cal.App.3d 924, 929 [144 Cal.Rptr. 6], both cited by Walser, the evidence Leonard and Walser sought to introduce would not have provided the jury with any additional significant reason to suspect Jordan\u2019s testimony. Independent evidence also corroborated Jordan\u2019s testimony, including Internet advertisements (some with Walser\u2019s e-mail address), Leonard\u2019s social media postings, Jordan\u2019s pretext calls with Leonard, and Hanson\u2019s testimony. Leonard and Walser have not established prejudicial error.\nC\nPrior to trial, the court and counsel discussed the admissibility of prior criminal convictions as impeachment against Hanson. Although the court allowed Leonard and Walser to put into evidence seven or eight prior felony convictions, the court excluded evidence of Hanson\u2019s conviction in Florida for evidence tampering. The court and counsel believed this latter crime to be a misdemeanor, although Leonard and Walser argue on appeal that it was in fact a felony. The trial court explained its reasoning as follows:\n\u201cTHE COURT: Well, I think that we can\u2019t \u2014 I mean like I said, I have a big problem with getting into details of misdemeanors. And so we don\u2019t have the conduct to put on what the conduct was. I suspect what it was she tossed the dope over the fence or something.\n\u201c[THE PEOPLE]: She stepped on a meth pipe or crack pipe.\n\u201cTHE COURT: Yeah. So that \u2014 it sounds a lot more sordid than it really is. And since I\u2019m not letting misdemeanor conduct come in against your client [(Leonard)], I\u2019m not going to let misdemeanor conduct come in against her. Like you said, she has a long and storied felony record . . . .\u201d Later, during Hanson\u2019s testimony, Walser\u2019s counsel renewed his request to put her conviction before the jury. The court again rejected the request, calling the proposed evidence \u201ctrivial\u201d and excluding it under Evidence Code section 352.\n\u201c[I]f past criminal conduct amounting to a misdemeanor has some logical bearing upon the veracity of a witness in a criminal proceeding, that conduct is admissible, subject to trial court discretion ....\u201d (People v. Wheeler (1992) 4 Cal.4th 284, 295 [14 Cal.Rptr.2d 418, 841 P.2d 938].) \u201cWhen the witness subject to impeachment is not the defendant, those factors [guiding the court\u2019s discretion] prominently include whether the conviction (1) reflects on honesty and (2) is near in time.\u201d (People v. Clair (1992) 2 Cal.4th 629, 654 [7 Cal.Rptr.2d 564, 828 P.2d 705].) However, \u201cthe latitude [Evidence Code] section 352 allows for exclusion of impeachment evidence in individual cases is broad. The statute empowers courts to prevent criminal trials from degenerating into nitpicking wars of attrition over collateral credibility issues.\u201d (Wheeler, at p. 296.) \u201c \u2018[C]ourts may and should consider with particular care whether the admission of such evidence might involve undue time, confusion, or prejudice which outweighs its probative value.\u2019 \u201d (People v. Clark (2011) 52 Cal.4th 856, 932 [131 Cal.Rptr.3d 225, 261 P.3d 243].)\nEven assuming Hanson\u2019s conviction for evidence tampering involved moral turpitude and had some probative value, we conclude the trial court did not abuse its discretion in excluding it. Given the circumstances of Hanson\u2019s offense, its probative value was slight and the nature of the crime potentially misleading. The trial court did not err in determining that admission of the evidence would consume time and effort to get \u201cinto details of misdemeanors\u201d that would substantially outweigh its probative value. (See People v. Wheeler, supra, 4 Cal.4th at pp. 296-297.) The trial court did not arbitrarily exclude the conviction because it was alleged to be a misdemeanor, as Leonard contends. Instead, it properly exercised its discretion under Evidence Code section 352. Contrary to Leonard\u2019s contention, that section may be invoked to exclude a felony or misdemeanor offense even if it has resulted in a conviction. (People v. Castro (1985) 38 Cal.3d 301, 312-313 [211 Cal.Rptr. 719, 696 P.2d 111]; Wheeler, at p. 295.)\nMoreover, exclusion of such evidence did not violate Leonard\u2019s or Walser\u2019s due process rights. (See People v. Riccardi, supra, 54 Cal.4th at p. 809; see also People v. Brown (2003) 31 Cal.4th 518, 545 [3 Cal.Rptr.3d 145, 73 P.3d 1137] [\u201cMoreover, reliance on Evidence Code section 352 to exclude evidence of marginal impeachment value that would entail the undue consumption of time generally does not contravene a defendant\u2019s constitutional rights to confrontation and cross-examination.\u201d].) Given the ample evidence regarding Hanson\u2019s credibility offered at trial, Leonard and Walser have not shown that introducing the conviction at issue here \u201c \u2018would have produced \u201ca significantly different impression of [the witness\u2019s] credibility\u201d \u2019 \u201d as required to state a constitutional violation. (People v. Virgil (2011) 51 Cal.4th 1210, 1251 [126 Cal.Rptr.3d 465, 253 P.3d 553].)\nEven had Leonard and Walser shown the court erred in excluding evidence of Hanson\u2019s conviction under Evidence Code section 352, any error was harmless under both the federal and California standards. (See Chapman v. California, supra, 386 U.S. at p. 24; Watson, supra, 46 Cal.2d at p. 836.) Leonard and Walser introduced ample evidence addressing Hanson\u2019s credibility at trial, including her prior felony convictions, prior prison time, immunity agreement, and prostitution work. Hanson testified regarding a recent felony arrest for possession of controlled substances. During the arrest, Hanson said, she smashed the drugs in her possession \u201cinto crumbs\u201d so that the police \u201ccould not tell how much\u201d she had. Thus, analogous conduct showing alleged moral turpitude was before the jury even absent admission of Hanson\u2019s prior conviction. Moreover, Hanson\u2019s incriminating testimony against Leonard and Walser was corroborated by independent evidence, including Jordan\u2019s testimony, text messages from Leonard to Hanson discussing prostitution, and Internet advertisements for Hanson with pictures from Leonard\u2019s apartment or near his car. We therefore conclude Leonard and Walser have not established prejudicial error.\nVI\nA\nLeonard and Walser argue the court should have stayed their sentences on their convictions for assault (Leonard and Walser) and making a criminal threat (Leonard only) under section 654. \u201cAn act or omission that is punishable in different ways by different provisions of law shall be punished under the provision that provides for the longest potential term of imprisonment, but in no case shall the act or omission be punished under more than one provision.\u201d (\u00a7 654, subd. (a).) The prohibition on multiple punishments in section 654 extends to a single act or an indivisible course of conduct. (People v. Latimer (1993) 5 Cal.4th 1203, 1208 [23 Cal.Rptr.2d 144, 858 P.2d 611] (Latimer).) \u201c \u2018Whether a course of criminal conduct is divisible and therefore gives rise to more than one act within the meaning of section 654 depends on the intent and objective of the actor. If all of the offenses were incident to one objective, the defendant may be punished for any one of such offenses but not for more than one.\u2019 \u201d (Ibid.)\n\u201cIf [a defendant] entertained multiple criminal objectives which were independent of and not merely incidental to each other, he may be punished for independent violations committed in pursuit of each objective even though the violations shared common acts or were parts of an otherwise indivisible course of conduct.\u201d (People v. Beamon (1973) 8 Cal.3d 625, 639 [105 Cal.Rptr. 681, 504 P.2d 905] (Beamon).) \u201c[A] course of conduct divisible in time, although directed to one objective, may [also] give rise to multiple violations and punishment.\u201d (Id. at fn. 11; see Latimer, supra, 5 Cal.4th at p. 1212.)\nLeonard and Walser may raise the applicability of section 654 on appeal even if no objection was made in the trial court. (People v. Scott (1994) 9 Cal.4th 331, 354, fn. 17 [36 Cal.Rptr.2d 627, 885 P.2d 1040].) We review the trial court\u2019s implied determination that section 654 does not apply for substantial evidence. (People v. Brents (2012) 53 Cal.4th 599, 618 [136 Cal.Rptr.3d 66, 267 P.3d 1135]; see People v. Jones (2002) 103 Cal.App.4th 1139, 1143 [127 Cal.Rptr.2d 319].)\nB\nLeonard argues the sentences for his assault and threat against Jordan should be stayed under section 654 based on his conviction and sentence for pandering Jordan. Although we conclude in part IIC, ante, that pandering by encouragement can be a continuous and ongoing offense, substantial evidence supports a finding that the crime of pandering here had ceased by the time Jordan was assaulted and threatened. Jordan had been away from Leonard for over a month in a drug rehabilitation program. She returned to his apartment because she wanted to talk with him. Leonard\u2019s objective was therefore not to continue the prior pandering, but to force Jordan to work for him anew. On these facts, application of section 654 would be inappropriate. (See Beamon, supra, 8 Cal.3d at p. 639; see also People v. Louie (2012) 203 Cal.App.4th 388, 399 [136 Cal.Rptr.3d 646].)\nLeonard argues the language of the charging document, which specified that the pandering occurred over dates that encompass the assault and threat, establishes that section 654 must apply, absent a contrary finding by the jury. The authorities Leonard cites do not support his argument. People v. Riskin (2006) 143 Cal.App.4th 234, 244-245 [49 Cal.Rptr.3d 287], and People v. Hiscox (2006) 136 Cal.App.4th 253, 256 [38 Cal.Rptr.3d 781], rely on the ex post facto clauses of the California and federal Constitutions to hold that sentencing under a newly effective statute could not occur absent evidence at trial that the charged offense took place after the effective date of the new statute. Here, by contrast, the evidence at trial showed Leonard\u2019s pandering of Jordan had ceased by the time of the assault and threat. (See People v. Centers (1999) 73 Cal.App.4th 84, 101 [86 Cal.Rptr.2d 151] [\u201cOrdinarily, in determining whether Penal Code section 654 applies, the trial court is entitled to make any necessary factual findings not already made by the jury.\u201d].) Moreover, the ex post facto concerns that animated the decisions in Riskin and Hiscox are not present here.\nSimilarly, the prosecutor\u2019s reference during his closing argument to the threat against Jordan in the context of pandering does not compel the application of section 654 to Leonard\u2019s sentence for the threat. The prosecutor\u2019s statements are not evidence, and they are not binding on the jury or the court. (See People v. Perez, supra, 2 Cal.4th at p. 1126; see also People v. Centers, supra, 73 Cal.App.4th at p. 101.) Leonard\u2019s attempt to characterize the prosecutor\u2019s statement as a binding judicial admission is unpersuasive. (Cf. Fassberg Construction Co. v. Housing Authority of City of Los Angeles (2007) 152 Cal.App.4th 720, 752 [60 Cal.Rptr.3d 375].)\nC\nWalser argues the sentence for his assault on Hanson should be stayed under section 654 based on his conviction for pandering Hanson. Substantial evidence supports the finding that the crime of pandering of Hanson had also ceased by the time she was picked up on the street by Leonard and Walser and assaulted. Hanson testified she had left Leonard and developed a relationship with another man. She did not return to Leonard; instead Leonard and Walser came to her after she left. Walser told her she needed to \u201ccome home\u201d and should not have run away. When they arrived at Leonard\u2019s apartment, Leonard and Walser beat Hanson severely. Because her relationship with Leonard and Walser had ceased prior to that point, the assault was not part of the same indivisible course of conduct as the pandering. Section 654 does not apply. (See Beamon, supra, 8 Cal.3d at p. 639; see also People v. Louie, supra, 203 Cal.App.4th at p. 399.)\nWalser argues Latimer supports his contention that section 654 should apply here. In Latimer, the defendant abducted the victim, drove her to a nearby desert area, and raped her twice. (Latimer, supra, 5 Cal.4th at p. 1206.) The defendant pleaded nolo contendere to one count of kidnapping and two counts of forcible rape. (Ibid.) On appeal, he contended his sentence for the kidnapping conviction should be stayed under section 654. The Supreme Court agreed. \u201cAlthough the kidnapping and the rapes were separate acts, the evidence does not suggest any intent or objective behind the kidnapping other than to facilitate the rapes.\u201d (Latimer, at p. 1216.)\nUnlike Latimer, the evidence here does not show a single continuous and indivisible transaction. The assault against Hanson could not have been intended to facilitate the prior pandering because that course of conduct had ceased. Walser harbored a new criminal intent and objective: evidently to facilitate a new round of pandering, but potentially simple retribution. Walser could therefore be punished separately for the resulting crime of assault. Walser\u2019s reliance on the prosecution\u2019s closing argument, which mentioned the assault on Hanson in the context of pandering, is unpersuasive for the same reasons we explained with respect to Leonard\u2019s similar contention, ante.\nVII\nA\nLeonard contends the trial court abused its discretion in declining to strike his prior conviction under Romero and thus sentencing him as a second strike offender. The conviction at issue involved a 2001 altercation between Leonard and his children\u2019s babysitter. Leonard called her by phone and accused her of hiding Leonard\u2019s girlfriend at her house. He threatened to \u201cknock her head off.\u201d When Leonard arrived at the babysitter\u2019s home to pick up his children, he said he would drop his children off and come back with a gun. He said he had friends who would get the babysitter if she was hiding his girlfriend. Leonard left and returned approximately two and a half hours later.\nWhen Leonard returned, he yelled for his girlfriend. When nothing happened, he fired an unknown number of shots from a nine-millimeter semiautomatic handgun. Leonard was arrested a short time later in his car with the gun and a spent shell casing. His children were in the backseat. Leonard was convicted of negligent discharge of a firearm (\u00a7 246.3) and two counts of child abuse (\u00a7 273a, subd. (a)). The court sentenced Leonard to probation. He did not complete probation and was sentenced to three years in prison.\nLeonard\u2019s counsel here argued the trial court should exercise its discretion, in the interests of justice, to strike this prior conviction allegation for purposes of the three strikes law. He argued the prior offense was remote in time and qualitatively different from his current offenses. Leonard\u2019s counsel claimed no weapon was used in the current offenses. He also emphasized Leonard\u2019s age (46) and physical disability. The prosecution opposed, arguing Leonard\u2019s crimes showed an escalation of sophistication and violence towards women.\nThe trial court noted Leonard had been involved in a variety of criminal activity starting in 1991. He had numerous drug convictions, as well as a conviction for spousal abuse. Although Leonard had no prior convictions for pimping or pandering, the trial court considered his social media posting (\u201c[June 4, 1967], a pimp was bom\u201d) to be evidence he had considered himself a pimp for a long time. The trial court agreed with the prosecution that Leonard had an escalating record of offenses and violence.\nResponding to Leonard\u2019s counsel\u2019s argument, the trial court said \u201cno weapon was used in this case because Mr. Leonard is apparently not capable of handling a weapon too well at this juncture in his life, but he used a weapon in the past.\u201d The trial court stated that \u201cnow the weapon he use[s] is Mr. Walser.\u201d\nThe court found the circumstances of Leonard\u2019s prior conviction, committing the offense in front of his children, were significant and \u201cvery serious.\u201d The court further commented as follows: \u201cHe has not done anything particularly productive since then to improve himself. And he\u2019s descended into\u2014 deeper and deeper into the pimp life since that happened. And I suspect that that whole incident back in 2001 had a lot to do with pimping, too, and the woman he was trying to find was probably one of the women working for him.\u201d\nB\n\u201c[A] trial court may strike or vacate an allegation or finding under the Three Strikes law that a defendant has previously been convicted of a serious and/or violent felony, on its own motion, \u2018in furtherance of justice\u2019 pursuant to . . . section 1385(a).\u201d (Williams, supra, 17 Cal.4th at p. 158.) \u201c[I]n mling whether to strike or vacate a prior serious and/or violent felony conviction allegation or finding under the Three Strikes law ... the court in question must consider whether, in light of the nature and circumstances of his present felonies and prior serious and/or violent felony convictions, and the particulars of his background, character, and prospects, the defendant may be deemed outside the scheme\u2019s spirit, in whole or in part, and hence should be treated as though he had not previously been convicted of one or more serious and/or violent felonies.\u201d (Id. at p. 161.) \u201c[A] trial court\u2019s refusal or failure to dismiss or strike a prior conviction allegation under section 1385 is subject to review for abuse of discretion.\u201d (People v. Carmony (2004) 33 Cal.4th 367, 375 [14 Cal.Rptr.3d 880, 92 P.3d 369] (Carmony).)\nLeonard argues the trial court abused its discretion by relying on two factors allegedly unsupported by the evidence: first, that 2001 conviction was related to pimping; and second, that Leonard is currently not capable of handling a firearm \u201ctoo well.\u201d \u201cA trial court abuses its discretion when the factual findings critical to its decision find no support in the evidence.\u201d (People v. Cluff (2001) 87 Cal.App.4th 991, 998 [105 Cal.Rptr.2d 80].)\nWe conclude the court\u2019s factual findings are supported by the record. As the court noted, Leonard himself wrote \u201c[June 4, 1967], a pimp was bom,\u201d and thus it is reasonable to infer that he had considered himself a pimp for a long time. This fact, combined with the hostility to women shown in the prior conviction, adequately raises the suspicion noted by the trial court that the 2001 conviction had something to do with pimping. The fact that the records of the 2001 conviction itself do not mention pimping is insufficient to rebut this reasonable inference.\nSimilarly, the evidence showed Leonard required assistance with daily activities, including bathing and dressing. These facts provide ample support for the trial court\u2019s conclusion that Leonard could not handle a firearm \u201ctoo well\u201d at this point in his life. Contrary to Leonard\u2019s contention, the fact he was able to drive his car does not compel the conclusion that he could also handle a firearm well.\nEven if the evidence failed to support these two factors, Leonard would not have established prejudicial error. These factors were not \u201ccritical to its decision\u201d because other considerations \u2014 sufficient in themselves \u2014 supported the court\u2019s refusal to dismiss Leonard\u2019s prior conviction allegation. (People v. Cluff, supra, 87 Cal.App.4th at p. 998.) These factors were also not \u201cimpermissible\u201d for the trial court to consider, such as bias related to a defendant\u2019s race or national origin. (Carmony, supra, 33 Cal.4th at p. 378; see People v. Gillispie (1997) 60 Cal.App.4th 429, 435 [70 Cal.Rptr.2d 462].) This is not a case in which the trial court was unaware of its discretion to dismiss the prior conviction allegation. (See Carmony, at p. 378.)\nIn general, \u201c[w]hen a trial court has given both proper and improper reasons for a sentence choice, a reviewing court will set aside the sentence only if it is reasonably probable that the trial court would have chosen a lesser sentence had it known that some of its reasons were improper.\u201d (People v. Price (1991) 1 Cal.4th 324, 492 [3 Cal.Rptr.2d 106, 821 P.2d 610].) Contrary to Leonard\u2019s contention, that asserted error does not amount to a violation of due process under the federal or California Constitution. (See Price, at p. 492.) Given the trial court\u2019s comments, and the evidence in the record, there is no reasonable possibility that the trial court would have stricken Leonard\u2019s prior conviction allegation had the two factual findings in question been discarded. Remand for resentencing is not required. (See ibid.)\nLeonard further contends the trial court placed \u201cundue weight\u201d on the seriousness of the prior conviction. The trial court should consider the \u201cthe nature and circumstances of his . . . prior serious and/or violent felony convictions,\u201d and the court properly did so here. (Williams, supra, 17 Cal.4th at p. 161.) The record does not reflect that the trial court placed any more weight on this consideration than warranted. Because \u201c \u2018the record demonstrates that the trial court balanced the relevant facts and reached an impartial decision in conformity with the spirit of the law ...,\u201d\u2019 we will not question the trial court\u2019s conclusion on appeal. (Carmony, supra, 33 Cal.4th at p. 378.)\nVIII\nLeonard argues the court\u2019s abstract of judgment erroneously states his prison prior was stayed, rather than stricken as the court orally ordered. The court\u2019s oral pronouncement of Leonard\u2019s sentence controls subsequent written judgments and orders. (See People v. Mitchell (2001) 26 Cal.4th 181, 185 [109 Cal.Rptr.2d 303, 26 P.3d 1040]; see also People v. Mesa (1975) 14 Cal.3d 466, 471 [121 Cal.Rptr. 473, 535 P.2d 337].) The Attorney General does not disagree. We will therefore modify the judgment to conform to the court\u2019s oral pronouncement.\nDISPOSITION\nThe judgment against Leonard is modified by striking his prison prior under section 667.5, subdivision (b). As so modified, the judgment is affirmed. The trial court is directed to prepare an amended abstract of judgment and forward it to the Department of Corrections and Rehabilitation.\nThe judgment against Walser is affirmed.\nMcIntyre, L, and Aaron, 1, concurred.\nAppellants\u2019 petitions for review by the Supreme Court were denied October 29, 2014, S220714.\nFurther statutory references are to the Penal Code unless otherwise specified.\nEffective January 1, 2012, the relevant portion of section 245, subdivision (a)(1), was recodified as section 245, subdivision (a)(4), without substantive change. (Stats. 2011, ch. 183, \u00a7 1.) For clarity, we will continue to refer to former section 245, subdivision (a)(1), in this opinion.\nThe court additionally sentenced Walser to a term of eight months, to be served consecutively, for a 2010 conviction for drug possession. (Health & Saf. Code, \u00a7 11377, subd. (a).)\nIn their briefing, Walser and the Attorney General refer to the victims by their first names and last initials. Leonard uses their full names. The trial court prohibited any reference to the victims\u2019 last names in open court, though this prohibition was unevenly applied. The victims here do not fall within the class of persons whose identities must be kept confidential upon request. (See \u00a7\u00a7 293, 293.5.) We therefore use .their full names.\nSmith was later charged with pimping and pandering as Leonard and Walser\u2019s codefendant. His case was severed for trial, and this court affirmed his conviction on appeal. (People v. Smith (Jan. 23, 2014, D063100) [nonpub. opn.].)\nThe Attorney General relies heavily on People v. Beck (1945) 71 Cal.App.2d 637 [163 P.2d 41], which states a similar principle: \u201c[I]t is presumed in the absence of positive evidence to the contrary that the proceedings at the time of filing the amended information were regular and proper.\u201d (Id. at p. 641.) Leonard points out the defendants in Beck were present in court when the amended information was filed. However, this fact is irrelevant to our conclusion here. It is the absence of information, i.e., a silent record, that compels the application of the presumption of correctness. (See People v. Thurmond (1985) 175 Cal.App.3d 865, 874 [221 Cal.Rptr. 292] [\u201cWhere the record is silent, the judgment of the lower court is presumed correct.\u201d].) The burden is on the party challenging a judgment to affirmatively show error. The absence of an order approving filing, and the absence of any record of proceedings on the date of filing, simply reflect a silent record and are insufficient to establish error. (See ibid.)\nNeither the court nor defense counsel expressed any surprise that the third amended information had been filed or that Leonard, Walser, and their codefendant would need to be arraigned on it. Courts have implied a trial court\u2019s approval of an amended criminal complaint on somewhat analogous records. (See Muns v. Superior Court (1955) 137 Cal.App.2d 728, 732 [290 P.2d 951] [distinguishing Brower]', see also Merz v. Superior Court (1955) 137 Cal.App.2d 840, 841 [290 P.2d 953].) However, we believe the most accurate characterization here is that the record is simply silent on the issue of approval.\nThe prosecutor argued, \u201cDid X aid and abet an assault with force which could cause great bodily injury on [Jordan] when he wheeled his cart, his go[-]cart wheelchair in back of her car so she couldn\u2019t leave and his associates come, break the car window while she\u2019s seated in there, slashed the tires, then drag her out, take her into the room?\u201d The fact that the prosecutor did not specifically mention slamming Jordan to the ground before taking her to Leonard\u2019s room is of no moment.\nWe do not place Detective Hunter\u2019s testimony on Leonard\u2019s social media postings and style in this category. Detective Hunter\u2019s testimony regarding the meaning of this evidence, in the culture of pimping and pandering, did not comment on Leonard\u2019s guilt or innocence. For example, testifying Leonard\u2019s style of dress or accessories mimicked those of a successful pimp is not the same as testifying that Leonard was in fact a pimp. The court did not err in admitting this testimony.\nLeonard contends this error should be reviewed under the federal standard for prejudice under Chapman v. California (1967) 386 U.S. 18 [17 L.Ed.2d 705, 87 S.Ct. 824], but he has not established any grounds for this heightened review. (See People v. Pearson (2013) 56 Cal.4th 393, 446 [154 Cal.Rptr.3d 541, 297 P.3d 793] [erroneous admission of expert testimony reviewed under Watson standard of prejudice].) Even under the Chapman standard, however, we would find the error harmless beyond a reasonable doubt.\nThe trial court\u2019s apparent belief that the misdemeanor could not be proved through the record of conviction also does not establish error. Even if the court was mistaken in its belief, the thrust of the court\u2019s concern was that the misdemeanor conviction itself was not evidence of impeachment; the underlying conduct must be proven, as Leonard concedes. (See People v. Chatman (2006) 38 Cal.4th 344, 373 [42 Cal.Rptr.3d 621, 133 P.3d 534].) The time and effort required to present, explain, and address the evidence establishing proof of the underlying conduct was a proper basis for exclusion under Evidence Code section 352.\nWe further reject Leonard\u2019s general claim that this potential error, combined with others, cumulatively establishes prejudicial error. (See People v. Cunningham, supra, 25 Cal.4th at p. 1009.) Each of the potential errors we have considered is harmless for the reasons stated, whether considered individually or collectively.\nRelying on People v. Scott, supra, 9 Cal.4th 331, the Attorney General contends Leonard forfeited these claims of error on appeal by not objecting to the trial court\u2019s reliance on these factors. Given our discussion of the merits, we need not address whether Leonard forfeited these claims.",
+        "type": "majority",
+        "author": "McDONALD, Acting P. J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Carl Fabian, under appointment by the Court of Appeal, for Defendant and Appellant Louis Van Leonard.",
+      "Jill M. Klein, under appointment by the Court of Appeal, for Defendant and Appellant Charles Dwayne Walser.",
+      "Kamala D. Harris, Attorney General, Dane R. Gillette, Chief Assistant Attorney General, Julie L. Garland, Assistant Attorney General, Eric A. Swenson, Kristine A. Gutierrez and Lynne G. McGinnis, Deputy Attorneys General, for Plaintiff and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. D062660.\nFourth Dist., Div. One.\nJuly 18, 2014.]\nTHE PEOPLE, Plaintiff and Respondent, v. LOUIS VAN LEONARD et al., Defendants and Appellants.\nCounsel\nCarl Fabian, under appointment by the Court of Appeal, for Defendant and Appellant Louis Van Leonard.\nJill M. Klein, under appointment by the Court of Appeal, for Defendant and Appellant Charles Dwayne Walser.\nKamala D. Harris, Attorney General, Dane R. Gillette, Chief Assistant Attorney General, Julie L. Garland, Assistant Attorney General, Eric A. Swenson, Kristine A. Gutierrez and Lynne G. McGinnis, Deputy Attorneys General, for Plaintiff and Respondent."
+  },
+  "file_name": "0465-01",
+  "first_page_order": 411,
+  "last_page_order": 450
+}

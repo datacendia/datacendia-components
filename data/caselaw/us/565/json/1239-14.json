@@ -1,0 +1,59 @@
+{
+  "id": 12249749,
+  "name": "Fulton v. Chester, Warden",
+  "name_abbreviation": "Fulton v. Chester",
+  "decision_date": "2012-02-27",
+  "docket_number": "No. 11-8509",
+  "first_page": "1239",
+  "last_page": "1239",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1239"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.653,
+    "sha256": "aa69702bcfd2177c0debab767a8a4819b7c89378148cd5100dd4de9ae8f60a30",
+    "simhash": "1:bf95d82793f632f7",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Fulton v. Chester, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8509.\nFulton v. Chester, Warden."
+  },
+  "file_name": "1239-14",
+  "first_page_order": 1321,
+  "last_page_order": 1321
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5935049,
+  "name": "King v. UT Medical Group, Inc., et al.",
+  "name_abbreviation": "King v. UT Medical Group, Inc.",
+  "decision_date": "2011-04-25",
+  "docket_number": "No. 10-9214",
+  "first_page": "965",
+  "last_page": "965",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 965"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 86,
+    "ocr_confidence": 0.658,
+    "sha256": "cf7d962c1bf495d3f7458550e983322fbc555eab087fcf23653f44edfcb9db31",
+    "simhash": "1:cc4a70a8e22ec8c4",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "King v. UT Medical Group, Inc., et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9214.\nKing v. UT Medical Group, Inc., et al."
+  },
+  "file_name": "0965-02",
+  "first_page_order": 991,
+  "last_page_order": 991
+}

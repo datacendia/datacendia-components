@@ -1,0 +1,59 @@
+{
+  "id": 12413865,
+  "name": "Bynum v. United States",
+  "name_abbreviation": "Bynum v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10702",
+  "first_page": "857",
+  "last_page": "857",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 857"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.684,
+    "sha256": "db53ca3bac794b96ba93f8283dad263e828b25047a55792b941b64109f89e458",
+    "simhash": "1:272ae6a32fbd160a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bynum v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10702.\nBynum v. United States."
+  },
+  "file_name": "0857-07",
+  "first_page_order": 933,
+  "last_page_order": 933
+}

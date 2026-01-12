@@ -1,0 +1,59 @@
+{
+  "id": 5958842,
+  "name": "Nance v. United States",
+  "name_abbreviation": "Nance v. United States",
+  "decision_date": "2011-04-04",
+  "docket_number": "No. 10-9367",
+  "first_page": "928",
+  "last_page": "928",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 928"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.622,
+    "sha256": "1f51c88e3f603898181bb98ef23e77826d4ca133a58d3b9a13a40d90e507ce62",
+    "simhash": "1:47bbc7834ba3801e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Nance v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9367.\nNance v. United States."
+  },
+  "file_name": "0928-08",
+  "first_page_order": 954,
+  "last_page_order": 954
+}

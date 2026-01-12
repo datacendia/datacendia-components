@@ -1,0 +1,507 @@
+{
+  "id": 12186377,
+  "name": "PERRY, GOVERNOR OF TEXAS, et al. v. PEREZ et al.",
+  "name_abbreviation": "Perry v. Perez",
+  "decision_date": "2012-01-20",
+  "docket_number": "No. 11-713 (11A520)",
+  "first_page": "388",
+  "last_page": "399",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 388"
+    },
+    {
+      "type": "parallel",
+      "cite": "181 L. Ed. 2d 900"
+    },
+    {
+      "type": "parallel",
+      "cite": "132 S. Ct. 934"
+    },
+    {
+      "type": "vendor",
+      "cite": "2012 U.S. LEXIS 908"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2011-021"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "42 U. S. C. \u00a7 1973",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "556 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653583
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "13-15",
+          "parenthetical": "plurality opinion"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/556/0001-01"
+      ]
+    },
+    {
+      "cite": "3 App. 600",
+      "category": "reporters:state",
+      "reporter": "Ohio App.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "1 App. 174",
+      "category": "reporters:state",
+      "reporter": "Ohio App.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "Tex. Elec. Code Ann. \u00a742.032",
+      "category": "laws:leg_statute",
+      "reporter": "Tex. Code Ann.",
+      "year": 2010,
+      "opinion_index": 0
+    },
+    {
+      "cite": "1 App. 173",
+      "category": "reporters:state",
+      "reporter": "Ohio App.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "536 U. S. 919",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1255045,
+        1254758,
+        1255242,
+        1255211,
+        1255150,
+        1255037
+      ],
+      "year": 2002,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/536/0919-05",
+        "/us/536/0919-04",
+        "/us/536/0919-06",
+        "/us/536/0919-03",
+        "/us/536/0919-02",
+        "/us/536/0919-01"
+      ]
+    },
+    {
+      "cite": "2001 U. S. Dist. LEXIS 25740",
+      "category": "reporters:specialty_lexis",
+      "reporter": "U.S. Dist. LEXIS",
+      "year": 2001,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "1 App. 182",
+      "category": "reporters:state",
+      "reporter": "Ohio App.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "452 U. S. 130",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1313655
+      ],
+      "year": 1981,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/452/0130-01"
+      ]
+    },
+    {
+      "cite": "519 U. S. 9",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11594468
+      ],
+      "year": 1996,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/519/0009-01"
+      ]
+    },
+    {
+      "cite": "400 U. S. 379",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12047314
+      ],
+      "year": 1971,
+      "pin_cites": [
+        {
+          "page": "385"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/400/0379-01"
+      ]
+    },
+    {
+      "cite": "555 U. S. 7",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3679402
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "20"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/555/0007-01"
+      ]
+    },
+    {
+      "cite": "403 U. S. 124",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12026813
+      ],
+      "year": 1971,
+      "pin_cites": [
+        {
+          "page": "160-161",
+          "parenthetical": "equal protection challenge"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/403/0124-01"
+      ]
+    },
+    {
+      "cite": "456 U. S. 37",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6182977
+      ],
+      "weight": 3,
+      "year": 1982,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        },
+        {
+          "page": "40-41"
+        },
+        {
+          "page": "42-43",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/456/0037-01"
+      ]
+    },
+    {
+      "cite": "521 U. S. 74",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        915643
+      ],
+      "weight": 3,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "79",
+          "parenthetical": "holding that the District Court properly declined to defer to a precleared plan that used race as a predominant factor"
+        },
+        {
+          "page": "85-86"
+        },
+        {
+          "page": "98"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/521/0074-01"
+      ]
+    },
+    {
+      "cite": "412 U. S. 783",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6176159
+      ],
+      "weight": 3,
+      "year": 1973,
+      "pin_cites": [
+        {
+          "page": "795-796"
+        },
+        {
+          "page": "797"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/412/0783-01"
+      ]
+    },
+    {
+      "cite": "515 U. S. 900",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1563963
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "915-916"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/515/0900-01"
+      ]
+    },
+    {
+      "cite": "420 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11642508
+      ],
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "27"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/420/0001-01"
+      ]
+    },
+    {
+      "cite": "431 U. S. 407",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1565
+      ],
+      "weight": 2,
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "414-415"
+        },
+        {
+          "page": "415"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/431/0407-01"
+      ]
+    },
+    {
+      "cite": "538 U. S. 254",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9030705
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "283-285",
+          "parenthetical": "Kennedy, J., concurring"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/538/0254-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 2284",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "500 U. S. 646",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6229392
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "652"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/500/0646-01"
+      ]
+    },
+    {
+      "cite": "557 U. S. 193",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3657859
+      ],
+      "weight": 2,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "198"
+        },
+        {
+          "page": "204"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/557/0193-01"
+      ]
+    },
+    {
+      "cite": "79 Stat. 439",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "539 U. S. 461",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8898256
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "488, n. 2"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/539/0461-01"
+      ]
+    },
+    {
+      "cite": "557 U. S. 193",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3657859
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "212",
+          "parenthetical": "opinion concurring in judgment in part and dissenting in part"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/557/0193-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1108,
+    "char_count": 22250,
+    "ocr_confidence": 0.644,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.24750361893685693
+    },
+    "sha256": "fd8b50e095ec8aa8800102d119f0fd8f3bfae89d255d9cdc0b6eb8304408d573",
+    "simhash": "1:a65c5570be83afea",
+    "word_count": 3666
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "PERRY, GOVERNOR OF TEXAS, et al. v. PEREZ et al."
+    ],
+    "opinions": [
+      {
+        "text": "Per Curiam.\nThe 2010 census showed an enormous increase in Texas\u2019 population, with over four million new residents. That growth required the State to redraw its electoral districts for the United States Congress, the State Senate, and the State House of Representatives, in order to comply with the Constitution\u2019s one-person, one-vote rule. See Georgia v. Ashcroft, 539 U. S. 461, 488, n. 2 (2003). The State also had to create new districts for the four additional congressional seats it received.\nTexas is a \u201ccovered jurisdiction\u201d under \u00a7 5 of the Voting Rights Act of 1965. See 79 Stat. 439, 42 U. S. C. \u00a7 1973c(a); 28 CFR pt. 51, App. (2011). Section 5 suspends all changes to a covered jurisdiction\u2019s election procedures, including district lines, until those changes are submitted to and approved by a three-judge United States District Court for the District of Columbia, or the Attorney General. See Northwest Austin Municipal Util. Dist. No. One v. Holder, 557 U. S. 193, 198 (2009). This process, known as preclearance, requires the covered jurisdiction to demonstrate that its proposed change \u201cneither has the purpose nor will have the effect of denying or abridging the right to vote on account of race or color.\u201d \u00a71973c(a). This Court has been emphatic that a new electoral map cannot be used to conduct an election until it has been precleared. See, e. g., Clark v. Roemer, 500 U. S. 646, 652 (1991).\nThe day after completing its new electoral plans, Texas submitted them to the United States District Court for the District of Columbia for preclearance. The preclearance process remains ongoing. Texas was unsuccessful in its bid for summary judgment, and a trial is scheduled in the coming weeks. Meanwhile, various plaintiffs \u2014 appellees here\u2014 brought suit in Texas, claiming that the State\u2019s newly enacted plans violate the United States Constitution and \u00a7 2 of the Voting Rights Act. Appellees alleged, inter alia, that Texas\u2019 enacted plans discriminate against Latinos and African-Americans and dilute their voting strength, notwithstanding the fact that Latinos and African-Americans accounted for three-quarters of Texas\u2019 population growth since 2000. A three-judge panel of the United States District Court for the Western District of Texas was convened. See 28 U. S. C. \u00a7 2284. That court heard argument and held a trial with respect to the plaintiffs\u2019 claims, but withheld judgment pending resolution of the preclearance process in the D. C. court. Cf. Branch v. Smith, 538 U. S. 254, 283-285 (2003) (Kennedy, J., concurring).\nAs Texas\u2019 2012 primaries approached, it became increasingly likely that the State\u2019s newly enacted plans would not receive preclearance in time for the 2012 elections. And the State\u2019s old district lines could not be used, because population growth had rendered them inconsistent with the Constitution\u2019s one-person, one-vote requirement. It thus fell to the District Court in Texas to devise interim plans for the State\u2019s 2012 primaries and elections. See Connor v. Finch, 431 U. S. 407, 414-415 (1977). After receiving proposals from the parties and holding extensive hearings, that court issued its interim plans. The court unanimously agreed on an interim State Senate plan, but Judge Smith dissented with respect to the congressional and State House plans. Texas asked this Court to stay the interim plans pending an appeal, arguing that they were unnecessarily inconsistent with the State\u2019s enacted plans. This Court granted the stay and noted probable jurisdiction. Post, p. 1090.\nRedistricting is \u201cprimarily the duty and responsibility of the State.\u201d Chapman v. Meier, 420 U. S. 1, 27 (1975). The failure of a State\u2019s newly enacted plan to gain preclearance prior to an upcoming election does not, by itself, require a court to take up the state legislature\u2019s task. That is because, in most circumstances, the State\u2019s last enacted plan simply remains in effect until the new plan receives preclearance. But if an intervening event \u2014 most commonly, as here, a census \u2014 renders the current plan unusable, a court must undertake the \u201cunwelcome obligation\u201d of creating an interim plan. Connor, supra, at 415. Even then, the plan already in effect may give sufficient structure to the court\u2019s endeavor. Where shifts in a State\u2019s population have been relatively small, a court may need to make only minor or obvious adjustments to the State\u2019s existing districts in order to devise an interim plan.\nBut here the scale of Texas\u2019 population growth appears to require sweeping changes to the State\u2019s current districts. In areas where population shifts are so large that no semblance of the existing plan\u2019s district lines can be used, that plan offers little guidance to a court drawing an interim map. The problem is perhaps most obvious in adding new congressional districts: The old plan gives no suggestion as to where those new districts should be placed. In addition, experience has shown the difficulty of defining neutral legal principles in this area, for redistricting ordinarily involves criteria and standards that have been weighed and evaluated by the elected branches in the exercise of their political judgment. See, e.g., Miller,v. Johnson, 515 U. S. 900, 915-916 (1995); White v. Weiser, 412 U. S. 783, 795-796 (1973). Thus, if the old state districts were the only source to which a district court could look, it would be forced to make the sort of policy judgments for which courts are, at best, ill suited.\nTo avoid being compelled to make such otherwise stand-ardless decisions, a district court should take guidance from the State\u2019s recently enacted plan in drafting an interim plan. That plan reflects the State\u2019s policy judgments on where to place new districts and how to shift existing ones in response to massive population growth. This Court has observed before that \u201cfaced with the necessity of drawing district lines by judicial order, a court, as a general rule, should be guided by the legislative policies underlying\u201d a state plan \u2014 even one that was itself unenforceable \u2014 \u201cto the extent those policies do not lead to violations of the Constitution or the Voting Rights Act.\u201d Abrams v. Johnson, 521 U. S. 74, 79 (1997) (holding that the District Court properly declined to defer to a precleared plan that used race as a predominant factor). For example, in White, supra, an equal population challenge, this Court reversed a District Court\u2019s choice of interim plan and required the District Court to choose a plan more closely resembling an enacted state plan, even though the state plan itself had been held to violate the one-person, one-vote principle. Similarly, in Upham v. Seamon, 456 U. S. 37 (1982) (per curiam), although the state plan as a whole had been denied \u00a7 5 preclearance, this Court directed a District Court to \u201cdefer to the legislative judgments the [state] plans reflect,\u201d insofar as they involved districts found to meet the preclearance standard. Id., at 40-41. See also Whitcomb v. Chavis, 403 U. S. 124, 160-161 (1971) (equal protection challenge).\nSection 5 prevents a state plan from being implemented if it has not been precleared. But that does not mean that the plan is of no account or that the policy judgments it reflects can be disregarded by a district court drawing an interim plan. On the contrary, the state plan serves as a starting point for the district court. It provides important guidance that helps ensure that the district court appropriately confines itself to drawing interim maps that comply with the Constitution and the Voting Rights Act, without displacing legitimate state policy judgments with the court\u2019s own preferences.\nA district court making such use of a State\u2019s plan must, of course, take care not to incorporate into the interim plan any legal defects in the state plan. See Abrams, supra, at 85-86; White, supra, at 797. Where a State\u2019s plan faces challenges under the Constitution or \u00a7 2 of the Voting Rights Act, a district court should still be guided by that plan, except to the extent those legal challenges are shown to have a likelihood of success on the merits. Plaintiffs seeking a preliminary injunction of a statute must normally demonstrate that they are likely to succeed on the merits of their challenge to that law. See Winter v. Natural Resources Defense Council, Inc., 555 U. S. 7, 20 (2008). There is no reason that plaintiffs seeking to defeat the policies behind a State\u2019s redistricting legislation should not also have to meet that standard. And because the local district court \u2014 here, the District Court for the Western District of Texas \u2014 will ultimately decide the merits of claims under \u00a72 and the Constitution, it is well equipped to apply that familiar standard.\nThe calculus with respect to \u00a75 challenges is somewhat different. Where a State has sought preclearance in the District Court for the District of Columbia, \u00a7 5 allows only that court to determine whether the state plan complies with \u00a7 5. Consistent with that design, we have made clear that other district courts may not address the merits of \u00a7 5 challenges. See, e. g., Perkins v. Matthews, 400 U. S. 379, 385 (1971). The local district court drafting an interim plan must therefore be careful not to prejudge the merits of the preclearance proceedings. The court should presume neither that a State\u2019s effort to preclear its plan will succeed nor that it will fail.\nThe need to avoid prejudging the merits of preclearance is satisfied by taking guidance from a State\u2019s policy judgments unless they reflect aspects of the state plan that stand a reasonable probability of failing to gain \u00a7 5 preclearance. And by \u201creasonable probability\u201d this Court means in this context that the \u00a75 challenge is not insubstantial. That standard ensures that a district court is not deprived of important guidance provided by a state plan due to \u00a7 5 challenges that have no reasonable probability of success but still respects the jurisdiction and prerogative of those responsible for the preclearance determination. And the reasonable probability standard adequately balances the unique preclearance scheme with the State\u2019s sovereignty and a district court\u2019s need for policy guidance in constructing an interim map. This Court recently noted the \u201cserious constitutional questions\u201d raised by \u00a7 5\u2019s intrusion on state sovereignty. Northwest Austin, 557 U. S., at 204. Those concerns would only be exacerbated if \u00a7 5 required a district court to wholly ignore the State\u2019s policies in drawing maps that will govern a State\u2019s elections, without any reason to believe those state policies are unlawful.\nAppellees, however, contend that \u00a7 5 demands exactly that. In their view, this Court\u2019s precedents require district courts to ignore any state plan that has not received \u00a75 preclearance. But the cases upon which appellees rely hold only that a district court may not adopt an unprecleared plan as its own. See Lopez v. Monterey County, 519 U. S. 9 (1996); McDaniel v. Sanchez, 452 U. S. 130 (1981). They say nothing about whether a district court may take guidance from the lawful policies incorporated in such a plan for aid in drawing an interim map. Indeed, in Upham this Court ordered a District Court to defer to the unobjectionable aspects of a State\u2019s plan even though that plan had already been denied preclearance.\nIn this litigation, the District Court stated that it had \u201cgiv[en] effect to as much of the policy judgments in the Legislature\u2019s enacted map as possible.\u201d 1 App. 182. At the same time, however, the court said that it was required to draw an \u201cindependent map\u201d following \u201cneutral principles that advance the interest of the collective public good.\u201d Id., at 169-170. In the court\u2019s view, it \u201cwas not required to give any deference to the Legislature\u2019s enacted plan,\u201d and it instead applied principles that it determined \u201cplace the interests of the citizens of Texas first.\u201d Id., at 171. To the extent the District Court exceeded its mission to draw interim maps that do not violate the Constitution or the Voting Rights Act, and substituted its own concept of \u201cthe collective public good\u201d for the Texas Legislature\u2019s determination of which policies serve \u201cthe interests of the citizens of Texas,\u201d the court erred.\nIn proclaiming its ability to draw an interim map \u201cwithout regard to political considerations,\u201d the District Court relied heavily on Balderas v. Texas, No. 6:01cvl58, 2001 U. S. Dist. LEXIS 25740 (ED Tex., Nov. 14, 2001) (per curiam), summarily aff\u2019d, 536 U. S. 919 (2002). 1 App. 182. But in Bald-eras there was no recently enacted state plan to which the District Court could turn. Without the benefit of legislative guidance in making distinctly legislative policy judgments, the Balderas court was perhaps compelled to design an interim map based on its own notion of the public good. Because the District Court here had the benefit of a recently enacted plan to assist it, the court had neither the need nor the license to cast aside that vital aid.\nSome specific aspects of the District Court\u2019s plans seem to pay adequate attention to the State\u2019s policies, others do not, and the propriety of still others is unclear. For example, in drawing State House districts in north and east Texas, the District Court closely followed the State\u2019s policies. See 1 App. 173; 5 id., at 25-26. Although Texas\u2019 entire State House plan is challenged in the \u00a7 5 proceedings, there is apparently no serious allegation that the district lines in north and east Texas have a discriminatory intent or effect. 1 id., at 187, n. 4. The District Court was thus correct to take guidance from the State\u2019s plan in drawing the interim map for those regions. But the court then altered those districts to achieve de minimis population variations \u2014 even though there was no claim that the population variations in those districts were unlawful. Id., at 171, and n. 8. In the absence of any legal flaw in this respect in the State\u2019s plan, the District Court had no basis to modify that plan.\nThe District Court also erred in refusing to split voting precincts (called \u201cvoter tabulation districts\u201d in Texas) in drawing the interim plans. Id., at 90,102-103. That choice alone prevented the District Court from following the lead of Texas\u2019 enacted plan \u2014 which freely splits precincts \u2014 in many areas where there were no legal challenges to the plan\u2019s details. See id., at 102-103, 116, n. 24. The District Court was apparently motivated by a well-intentioned desire to save Texas the time and expense of reconfiguring precincts, and to ensure that the court\u2019s interim plan could be implemented in time for the upcoming election. Id., at 90, 102-103,109. But the State\u2019s plan accepted the costs of splitting precincts in order to accomplish other goals, and Texas law expressly allows recasting precincts when redistricting. See Tex. Elec. Code Ann. \u00a742.032 (West 2010). If a State has chosen to accept the burden of changing its precincts, and its decision to do so is otherwise lawful, there is no warrant for a district court to ignore the State\u2019s decision. Of course, in these cases it may well be that Texas will reexamine this issue in light of the exigencies caused by the impending election.\nThe District Court also appears to have unnecessarily ignored the State\u2019s plans in drawing certain individual districts. For example, the District Court drew an interim District 77 that resembles neither the State\u2019s newly enacted plan, nor the previous plan in effect prior to the 2010 census. The court said that it did so in response to alleged constitutional violations. 1 App. 174-175. But the court did not say that those allegations were plausible, much less likely to succeed. Nor did the District Court rely on a finding that the relevant aspects of the state plan stood a reasonable probability of failing to gain \u00a7 5 preclearance, see supra, at 395. Without such a determination, the District Court had no basis for drawing a district that does not resemble any legislatively enacted plan.\nThe court\u2019s approach in drawing other districts was unclear. The interim plan\u2019s Congressional District 33, for example, disregards aspects of the State\u2019s plan that appear to be subject to strong challenges in the \u00a7 5 proceeding. See 3 App. 600-601; 5 id., at 12-14. That much seems appropriate, but there are grounds for concern with the path the District Court followed from there. The court\u2019s order suggests that it may have intentionally drawn District 33 as a \u201cminority coalition opportunity district\u201d in which the court expected two different minority groups to band together to form an electoral majority. 1 id., at 147. The order is somewhat ambiguous on this point \u2014 some portions suggest that the court deliberately designed such a district, other parts suggest that it drew the district solely as a response to population growth in the area. Compare id., at 146-147 (\u201cBecause much of the growth that occurred in the Dallas-Fort Worth metroplex was attributable to minorities, the new district 33 was drawn as a minority coalition opportunity district\u201d), with id., at 144 (\u201cThe Court has nowhere expressly sought to increase the performance of any opportunity district above benchmark\u201d). If the District Court did set out to create a minority coalition district, rather than drawing a district that simply reflected population growth, it had no basis for doing so. Cf. Bartlett v. Strickland, 556 U. S. 1, 13-15 (2009) (plurality opinion).\nBecause it is unclear whether the District Court for the Western District of Texas followed the appropriate standards in drawing interim maps for the 2012 Texas elections, the orders implementing those maps are vacated, and the cases are remanded for further proceedings consistent with this opinion.\nThe judgment shall issue forthwith.\nIt is so ordered.\nSection 2 prohibits \u201cany State or political subdivision\u201d from imposing any electoral practice \u201cwhich results in a denial or abridgement of the right of any citizen of the United States to vote on account of race or color.\u201d 42 U. S. C. \u00a7 1973(a).\nThis Court has stated that court-drawn maps are held to a higher standard of acceptable population variation than legislatively enacted maps. See, e. g., Abrams v. Johnson, 521 U. S. 74, 98 (1997). But this Court has also explained that those \u201cstricter standard[s]\u201d are not triggered where a district court incorporates unchallenged portions of a State\u2019s map into an interim map. Upham v. Seamon, 456 U. S. 37, 42-43 (1982) (per curiam).",
+        "type": "majority",
+        "author": "Per Curiam."
+      },
+      {
+        "text": "Justice Thomas,\nconcurring in the judgment.\nThe Court proceeds from the premise that court-drawn interim plans are necessary in part because Texas\u2019 newly enacted redistricting plans are unenforceable for lack of preclearance under \u00a75 of the Voting Rights Act of 1965. Ante, at 390-392. In my view, Texas\u2019 failure to timely obtain \u00a7 5 preclearance of its new plans is no obstacle to their implementation, because, as I have previously explained, \u00a7 5 is unconstitutional. See Northwest Austin Municipal Util. Dish No. One v. Holder, 557 U. S. 193, 212 (2009) (opinion concurring in judgment in part and dissenting in part). Although Texas\u2019 new plans are being challenged on the grounds that they violate the Federal Constitution and \u00a7 2 of the Voting Rights Act, they have not yet been found to violate any law. Accordingly, Texas\u2019 duly enacted redistricting plans should govern the upcoming elections. I would therefore vacate the interim orders and remand for the United States District Court for the Western District of Texas to consider appel-lees\u2019 constitutional and \u00a7 2 challenges in the ordinary course.",
+        "type": "concurrence",
+        "author": "Justice Thomas,"
+      }
+    ],
+    "attorneys": [
+      "Paul D. Clement argued the cause for appellants in all cases. With him on the briefs were Conor B. Dugan, Greg Abbott, Attorney General of Texas, Jonathan Mitchell, Solicitor General, David J. Schenck, James D. Blacklock, Matthew H. Frederick, and J. Reed Clay, Jr.",
+      "Principal Deputy Solicitor General Srinivasan argued the cause for the United States as amicus curiae supporting affirmance in part and vacatur in part. With him on the brief were Solicitor General Verrilli, Assistant Attorney General Perez, William M. Jay, Sarah E. Harrington, Jessica Dunsay Silver, and Linda F. Thome.",
+      "Jose Garza argued the cause for appellees in all cases. Paul M. Smith, Michael B. DeSanctis, Jessica Ring Amun-son, J. Gerald Hebert, and David Richards filed briefs in all cases for appellees Wendy Davis et al. Anita Earls, Gary Bledsoe, and Robert S. Notzon filed briefs in all cases for appellees Texas State Conference of NAACP Branches et al. Nina Perales, Pamela Karlan, Joaquin G. Avila, Richard E. Gray III, Mr. Garza, and David Richards filed briefs in all cases for appellees Texas Latino Redistricting Task Force et al. Renea Hicks, John M. Devaney, Marc E. Elias, Kevin J. Hamilton, Messrs. Smith, DeSanctis, Ms. Amunson, and Mr. Hebert filed briefs in all cases for appellees Eddie Rodriguez et al."
+    ],
+    "corrections": "",
+    "head_matter": "PERRY, GOVERNOR OF TEXAS, et al. v. PEREZ et al.\nNo. 11-713 (11A520).\nArgued January 9, 2012\nDecided January 20, 2012\nPaul D. Clement argued the cause for appellants in all cases. With him on the briefs were Conor B. Dugan, Greg Abbott, Attorney General of Texas, Jonathan Mitchell, Solicitor General, David J. Schenck, James D. Blacklock, Matthew H. Frederick, and J. Reed Clay, Jr.\nPrincipal Deputy Solicitor General Srinivasan argued the cause for the United States as amicus curiae supporting affirmance in part and vacatur in part. With him on the brief were Solicitor General Verrilli, Assistant Attorney General Perez, William M. Jay, Sarah E. Harrington, Jessica Dunsay Silver, and Linda F. Thome.\nJose Garza argued the cause for appellees in all cases. Paul M. Smith, Michael B. DeSanctis, Jessica Ring Amun-son, J. Gerald Hebert, and David Richards filed briefs in all cases for appellees Wendy Davis et al. Anita Earls, Gary Bledsoe, and Robert S. Notzon filed briefs in all cases for appellees Texas State Conference of NAACP Branches et al. Nina Perales, Pamela Karlan, Joaquin G. Avila, Richard E. Gray III, Mr. Garza, and David Richards filed briefs in all cases for appellees Texas Latino Redistricting Task Force et al. Renea Hicks, John M. Devaney, Marc E. Elias, Kevin J. Hamilton, Messrs. Smith, DeSanctis, Ms. Amunson, and Mr. Hebert filed briefs in all cases for appellees Eddie Rodriguez et al.\nTogether with No. 11-714 (11A521), Perry, Governor of Texas, et al. v. Davis et al., and No. 11-715 (11A536), Perry, Governor of Texas, et al. v. Perez et al., also on appeal from the same court.\nA brief of amici curiae urging reversal in all cases was filed for the State of Alabama et al. by Luther Strange, Attorney General of Alabama, John C. Neiman, Jr., Solicitor General, and Andrew L. Brasher, Deputy Solicitor General, and by the Attorneys General for their respective States as follows: Thomas C. Horne of Arizona, Pamela Jo Bondi of Florida, Samuel S. Olens of Georgia, James D. \u201cBuddy\u201d Caldwell of Louisiana, Bill Schuette of Michigan, Alan Wilson of South Carolina, and Kenneth T. Cuccinelli II of Virginia.\nBriefs of amici curiae urging vacatur in all eases were filed for Congressman Francisco Canseco by Chris K. Gober and Eric C. Opiela; for the Eagle Forum Education & Legal Defense Fund, Inc., by Lawrence J. Joseph; and for Edward Chen et al. by William S. Consovoy and Thomas R. McCarthy.\nBriefs of amici curiae were filed in all cases for the Cato Institute by Ilya Shapiro; and for the Organization of Chinese Americans Greater Houston Chapter by Saul P. Morgenstem and Kenneth Kimerling."
+  },
+  "file_name": "0388-01",
+  "first_page_order": 602,
+  "last_page_order": 613
+}

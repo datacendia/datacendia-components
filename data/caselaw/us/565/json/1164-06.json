@@ -1,0 +1,59 @@
+{
+  "id": 12243166,
+  "name": "Harvey v. Christie, Governor of New Jersey, et al.",
+  "name_abbreviation": "Harvey v. Christie",
+  "decision_date": "2012-01-17",
+  "docket_number": "No. 11-7391",
+  "first_page": "1164",
+  "last_page": "1164",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1164"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 97,
+    "ocr_confidence": 0.646,
+    "sha256": "10b2fe04cea11d8d9e5de7dfe053a9ef5ba33f6b3b130d86f1ec817e9b15312b",
+    "simhash": "1:58988421c29d9135",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Harvey v. Christie, Governor of New Jersey, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7391.\nHarvey v. Christie, Governor of New Jersey, et al."
+  },
+  "file_name": "1164-06",
+  "first_page_order": 1246,
+  "last_page_order": 1246
+}

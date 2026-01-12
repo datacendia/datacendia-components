@@ -1,0 +1,59 @@
+{
+  "id": 12213254,
+  "name": "Saeku v. United States",
+  "name_abbreviation": "Saeku v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11289",
+  "first_page": "877",
+  "last_page": "877",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 877"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.714,
+    "sha256": "87a94fc2449e311764de3a64482d3cb640f4166dd1a5fcee18541e0a61f44110",
+    "simhash": "1:21ea904bca849119",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Saeku v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11289.\nSaeku v. United States."
+  },
+  "file_name": "0877-04",
+  "first_page_order": 959,
+  "last_page_order": 959
+}

@@ -1,0 +1,82 @@
+{
+  "id": 12238775,
+  "name": "Strong v. Suter, Clerk, Supreme Court of the United States",
+  "name_abbreviation": "Strong v. Suter",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-7374",
+  "first_page": "1106",
+  "last_page": "1106",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1106"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "506 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11924825
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/506/0001-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 72,
+    "char_count": 567,
+    "ocr_confidence": 0.662,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2476551721741306
+    },
+    "sha256": "c006e02659c8752086ebc8448509392a9d06a5dbb6f48ddecc5d506943d10531",
+    "simhash": "1:6522148c250cd6fb",
+    "word_count": 95
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Strong v. Suter, Clerk, Supreme Court of the United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Motion of petitioner for leave to proceed in forma pauperis denied, and certiorari dismissed. See this Court\u2019s Rule 39.8. As petitioner has repeatedly abused this Court\u2019s process, the Clerk is directed not to accept any further petitions in noncriminal matters from petitioner unless the docketing fee required by Rule 38(a) is paid and the petition is submitted in compliance with Rule 33.1. See Martin v. District of Columbia Court of Appeals, 506 U. S. 1 (1992) (per curiam).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7374.\nStrong v. Suter, Clerk, Supreme Court of the United States."
+  },
+  "file_name": "1106-04",
+  "first_page_order": 1188,
+  "last_page_order": 1188
+}

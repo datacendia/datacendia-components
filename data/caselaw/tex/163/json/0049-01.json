@@ -1,0 +1,546 @@
+{
+  "id": 2263643,
+  "name": "Robert J. Cook et al, Petitioners v. Ralph Neill et al, Respondents",
+  "name_abbreviation": "Cook v. Neill",
+  "decision_date": "1961-12-13",
+  "docket_number": "No. A-8189",
+  "first_page": "49",
+  "last_page": "62",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "163 Tex. 49"
+    },
+    {
+      "type": "parallel",
+      "cite": "352 S.W.2d 258"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "122 S.W. 2d 322",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10233587
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/122/0322-01"
+      ]
+    },
+    {
+      "cite": "88 S.W. 2d 1069",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10275171
+      ],
+      "year": 1935,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/88/1069-01"
+      ]
+    },
+    {
+      "cite": "333 S.W. 2d 697",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10166826
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/333/0697-01"
+      ]
+    },
+    {
+      "cite": "29 S.W. 2d 312",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10281636,
+        2271213
+      ],
+      "year": 1960,
+      "pin_cites": [
+        {
+          "page": "314"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/29/0312-01",
+        "/tex/119/0403-01"
+      ]
+    },
+    {
+      "cite": "119 Texas 407",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "year": 1960,
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 S.W. 559",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "year": 1960,
+      "opinion_index": 0
+    },
+    {
+      "cite": "84 Texas 401",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2210013
+      ],
+      "year": 1960,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/84/0401-01"
+      ]
+    },
+    {
+      "cite": "288 S.W. 159",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10294628
+      ],
+      "year": 1960,
+      "pin_cites": [
+        {
+          "page": "160, 161"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/288/0159-01"
+      ]
+    },
+    {
+      "cite": "116 Texas 183",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2276552
+      ],
+      "year": 1960,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/116/0183-01"
+      ]
+    },
+    {
+      "cite": "109 S.W. 2d 158",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10244840,
+        2290129
+      ],
+      "pin_cites": [
+        {
+          "page": "159"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/109/0158-01",
+        "/tex/130/0346-01"
+      ]
+    },
+    {
+      "cite": "130 Texas 346",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2290129
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/130/0346-01"
+      ]
+    },
+    {
+      "cite": "161 A.L.R. 877",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "weight": 2,
+      "year": 1945,
+      "opinion_index": 0
+    },
+    {
+      "cite": "188 S.W. 2d 568",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2336587,
+        10199732
+      ],
+      "weight": 2,
+      "year": 1945,
+      "pin_cites": [
+        {
+          "page": "570"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/144/0107-01",
+        "/sw2d/188/0568-01"
+      ]
+    },
+    {
+      "cite": "144 Texas 107",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2336587
+      ],
+      "weight": 2,
+      "year": 1945,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/144/0107-01"
+      ]
+    },
+    {
+      "cite": "220 S.W. 1090",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10338815
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/220/1090-01"
+      ]
+    },
+    {
+      "cite": "184 S.W. 562",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8250704
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/184/0562-01"
+      ]
+    },
+    {
+      "cite": "118 S.W. 2d 1070",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10253374
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/118/1070-01"
+      ]
+    },
+    {
+      "cite": "206 S.W. 2d 885",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10212479
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/206/0885-01"
+      ]
+    },
+    {
+      "cite": "211 S.W. 2d 238",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10190137
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/211/0238-01"
+      ]
+    },
+    {
+      "cite": "40 S.W. 2d 41",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10246485,
+        2307477
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/40/0041-01",
+        "/tex/120/0307-01"
+      ]
+    },
+    {
+      "cite": "120 Texas 307",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2307477
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/120/0307-01"
+      ]
+    },
+    {
+      "cite": "285 S.W. 1063",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        2276545,
+        10325095
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/116/0001-01",
+        "/sw/285/1063-01"
+      ]
+    },
+    {
+      "cite": "116 Texas 1",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2276545
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/116/0001-01"
+      ]
+    },
+    {
+      "cite": "247 S.W. 2d 564",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10212825,
+        10212670
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/247/0564-02",
+        "/sw2d/247/0564-01"
+      ]
+    },
+    {
+      "cite": "258 S.W. 2d 384",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10205706
+      ],
+      "year": 1952,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/258/0384-01"
+      ]
+    },
+    {
+      "cite": "256 S.W. 2d 151",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10198810
+      ],
+      "year": 1953,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/256/0151-01"
+      ]
+    },
+    {
+      "cite": "286 S.W. 265",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "year": 1953,
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 S.W. 2d 144",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10290084,
+        10290101
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/15/0144-01",
+        "/sw2d/15/0144-02"
+      ]
+    },
+    {
+      "cite": "192 S.W. 2d 891",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10209339
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/192/0891-01"
+      ]
+    },
+    {
+      "cite": "303 S.W. 2d 820",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10178127
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/303/0820-01"
+      ]
+    },
+    {
+      "cite": "304 S.W. 2d 439",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10167439
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/304/0439-01"
+      ]
+    },
+    {
+      "cite": "35 S.W. 2d 123",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10247366
+      ],
+      "year": 1927,
+      "pin_cites": [
+        {
+          "page": "127"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/35/0123-01"
+      ]
+    },
+    {
+      "cite": "300 S.W. 211",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10291163
+      ],
+      "year": 1927,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/300/0211-01"
+      ]
+    },
+    {
+      "cite": "22 S.W. 2d 499",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10277083
+      ],
+      "year": 1927,
+      "pin_cites": [
+        {
+          "page": "501"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/22/0499-01"
+      ]
+    },
+    {
+      "cite": "286 S.W. 501",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10302068
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/286/0501-01"
+      ]
+    },
+    {
+      "cite": "340 S.W. 2d 315",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10156670
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/340/0315-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1011,
+    "char_count": 31381,
+    "ocr_confidence": 0.607,
+    "pagerank": {
+      "raw": 1.7862867890162832e-07,
+      "percentile": 0.7142499427572805
+    },
+    "sha256": "5e7bb15b4d16836595b73937d14891a40674df2db94fb9fd76269a6167dd6691",
+    "simhash": "1:015edcb641ad9bd9",
+    "word_count": 5186
+  },
+  "last_updated": "2024-02-27T22:19:56.646811+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Robert J. Cook et al, Petitioners v. Ralph Neill et al, Respondents"
+    ],
+    "opinions": [
+      {
+        "text": "ASSOCIATE JUSTICE CLYDE E. SMITH\ndelivered the opinion of the Court.\nThis controversy stems from the action of the County School Trustees of Howard County in passing orders annexing Center Point Common School District No. 7 and Gay Hill Common School District No. 6 to Big Spring Independent School District. The suit was by the trustees of the common school districts against the County School Trustees of Howard County, the County School Superintendent, Walker Bailey, and the Trustees of the Big Spring Independent School District to have declared void the orders of annexation.\nFor convenience, we shall hereafter refer to the petitioners as Cook, and the respondents, who were plaintiffs in the trial court, as Neill.\nNeill alleged in his petition that the enactment of the two annexation orders annexing the Center Point and the Gay Hill Common School Districts to the Big Spring Independent School District were unenforceable and of no legal effect for several reasons:\n(A) that the orders violated the Constitution of the United States and Texas because the orders were made without notifying the plaintiffs and giving them an opportunity to be heard; (B) that the orders were in violation of the statute because not made at a meeting held at a proper place; (C) that the statutes under which the county school trustees purported to act are unconstitutional; (D) that the orders were arbitrary, capricious, and were an abuse of discretion because of the facilities of the common school districts involved; (E) that a school district would be created containing more than one hundred square miles contrary to law, and (F) that the order so far as the Gay Hill District was concerned was void and unenforceable because the area of the Big Spring District and the Gay Hill District were not contiguous for the reason that, according to plaintiffs\u2019 allegations, the order annexing the Center Point District to the Big Spring District did not become final until sometime after the order annexing Gay Hill to Big Spring was made, there being no contention that the three districts did not constitute as a whole one contiguous area.\nNeill further alleged that the orders were invalid because they were in violation of certain promises and representations which had been made by some of the individual members of the Board of County School Trustees of Howard County at some time in the past with respect to the matter of consolidation of the district involved.\nNeill also alleged that the statute under which the county school trustees acted in the annexation (Article 2922a, Vernon\u2019s Ann. Texas Statutes) was improperly applied here because of the financial condition of Gay Hill Common School District. Neill alleged in his petition that the statute under which the annexation orders were made authorized the creation of rural high school districts and that the Big Spring Independent School District is not a rural high school district nor a rural school district within the meaning of the statute and that for such reason the orders were void.\nOn May 9, 1960, and within five days after the annexation orders were passed, Neill began a series of moves to perfect an appeal. Two suits were filed. The first suit, Cause No. 12,416, was filed at 11:53 a.m. in the District Court of Howard County. This filing was about 40 minutes after a notice of appeal was filed with the Secretary of the County School Trustees and some two hours after a notice of appeal was filed with the State Commissioner of Education. However, this cause is not involved here.\nThe suit involved here was filed in the same district court at 4:43 o\u2019clock in the afternoon of May 9, 1960, some 5% hours after the notice of appeal was filed with the Secretary of the County School Trustees of Howard County, and some 6% hours after the filing of the notice of appeal with the State Commissioner of Education.\nOn May 12, 1960, Neill filed a First Amended Original Petition. Thereafter, on May 13, 1960, Cook filed a plea to the jurisdiction of the court, alleging, in effect, that the district court was without jurisdiction for two reasons: (1) that since coordinate jurisdiction over the subject matter of the suit was vested by statute, Article 2686, Vernon\u2019s Annotated Civil Statutes, in two tribunals, the district court and the administrative authorities \u2014 the State Commissioner of Education and the State Board of Education, such administrative authorities having first acquired active jurisdiction, retained that jurisdiction, and the district court had no power to interfere, although Article 2682, Vernon\u2019s Annotated Civil Statutes, gives the district courts general supervisory control of the actions of the County Board of School Trustees in creating, changing, or modifying school districts; and (2) that Cook, by filing his appeal first with the administrative authorities, elected to appeal to those authorities rather than trying his cause of action in the district court.\nThe trial court in its judgment determined that Cook\u2019s plea to the jurisdiction and motion for dismissal was \u201cwell taken\u201d. The plea to the jurisdiction was sustained and the cause dismissed.\nNeill appealed on one ground of error: \u201cThe trial court erred in dismissing the action for want of jurisdiction.\u201d The Court of Civil Appeals sustained the point, holding that the district court erred in sustaining the plea to the jurisdiction and dismissing the case, and ordered the judgment reversed and the cause remanded for a trial on the merits. 340 S.W. 2d 315.\nCook\u2019s points in his application for writ of error present the contention that the district court was without jurisdiction: (1) Because the legislature, by the adoption of Article 2686, Vernon\u2019s Annotated Civil Statutes, gave to the school authorities coordinate jurisdiction with the district court in all cases challenging the creation, changing, and modification of school districts, thereby giving the school authorities coordinate jurisdiction to review and pass upon the validity of actions of county school trustees in annexing districts to other districts where the attack upon such actions is based upon mixed questions of fact and questions of law, and (2) Because Neill elected his remedy by first appealing to the administrative authorities, the State Commissioner of Education, and the State Board of Education.\nNeill contends that the sole question before the Court is whether his attack upon the legality of school annexation orders is to be ruled upon by the courts rather than the State Commissioner of Education. Neill contends that the annexation orders are invalid for several reasons, some of the reasons being (1) because the actions of the County School Trustees in entering the orders were unreasonable, arbitrary, capricious, and constituted an abuse of discretion; (2) because the actions were not taken at a duly constituted meeting; and (3) because no elections were held to create a district containing more than 100 square miles.\nThe Court of Civil Appeals has held that the courts have jurisdiction of the matters involved to the exclusion of the school authorities. In so holding, the court relied primarily upon the holding in the case of Henderson et al v. Miller et al, Texas Civ. App. (1926), 286 S.W. 501, wr. ref., wherein it was held \u201cthat neither the Board of County School Trustees, nor the state superintendent, nor the State Board of Education, is vested with any jurisdiction to determine the constitutionality of any statute, or the question whether or not any action by any board of school trustees is violative of constitutional rights. Authority to determine such questions is exclusively the function of the judiciary. * * *.\u201d The court cited other cases such as Hale v. McMurrey, Texas Civ. App. (1929), 22 S.W. 2d 499, 501, wr. ref.; Adams v. Miles, Texas Civ. App. (1927), 300 S.W. 211, reversed on other grounds by The Supreme Court of Texas, 35 S.W. 2d 123, 127; Crow v. Burnet Independent School District et al, Texas Civ. App. (1927), 304 S.W. 2d 439, wr. ref. n.r.e., in support of its final conclusion in the present case. The effect of the holding is to say that the rule declared in these and other cases of like holding applies in any case wherein constitutional questions are involved, despite the wording of a specific statute such as Article 2686, supra. With this we do not agree. The district court and the administrative authorities have coordinate jurisdiction in a suit involving the annexing of school districts by a county board of trustees. Any statements in former decisions to the effect that the district court has exclusive jurisdiction in such cases are incorrect and should be disregarded.\nWhere county school trustees take action to annex some school districts to other school districts as authorized under the provisions of Article 2922a, Vernon\u2019s Annotated Civil Statutes, those dissatisfied with such action may elect to appeal directly to the district court. See Adkins v. Rogers, Texas Civ. App., 303 S.W. 2d 820, wr. ref. n.r.e.; County School Trustees of Callahan County v. District Trustees of District No. 15 (Hart) Common School District of Callahan County, Texas Civ. App., 192 S.W. 2d 891, wr. ref. n.r.e.; County Board of School Trustees of Limestone County v. Wilson, Texas Civ. App., 15 S.W. 2d 144, wr. dism. On the other hand, they may elect to appeal directly to the State Commissioner of Education (formerly the State Superintendent of Public Instruction). This administrative agency has appellate coordinate jurisdiction with the district court to determine appeals from orders of county school trustees, creating, changing, and modifying school districts. See Stinson v. Graham, Texas Civ. App. (1926), 286 S.W. 265; District Trustees of Tennessee Colony Common School Dist. No. 21 v. Central Education Agency, Texas Civ. App. (1953), 256 S.W. 2d 151, wr. ref. n.r.e.; State ex rel. Texas City Independent School Dist. v. La Marque Independent School Dist., Texas Civ. App. (1953), 258 S.W. 2d 384, wr. ref. n.r.e.; and, Erath County School Trustees v. Hico County Line Independent School Dist., Texas Civ. App. (1952), 247 S.W. 2d 564, wr. ref.\nIn the last case, the court held that jurisdiction of the county judge to receive a petition for consolidation of two independent school districts was coordinate with that of the county school trustees to group one of the independent school districts with another school district to form a rural high school district. This case is also authority for the rule, which has been invoked by the Texas courts, that where two tribunals have coordinate jurisdiction over the subject matter the one which first acquires active jurisdiction shall retain its jurisdiction until the matter is disposed of without interference from the other tribunal. The court cited: Cleveland v. Ward, 116 Texas 1, 285 S.W. 1063; State ex rel. George v. Baker, 120 Texas 307, 40 S.W. 2d 41; Garrett, County Judge v. Unity Common School Dist., Texas Civ. App., 211 S.W. 2d 238, Wichita Common School Dist. No. 11 v. Dickens Independent School Dist. of Dickens County, Texas Civ. App., 206 S.W. 2d 885; Lynn County School Board v. Garlynn Common County Line School Dist., Texas Civ. App., 118 S.W. 2d 1070; 21 C.J.S., Courts, Section 492, page 745.\nThe application of this rule is not limited to situations where original action is taken by an officer or body having jurisdiction over the subject matter. The rule applies with equal force to the review of the actions of such bodies in the exercise of appellate jurisdiction. See Adkins v. Rogers, supra. That case involved a dispute over jurisdiction of an appeal from orders of the county school trustees annexing two common school districts to an independent school district under provisions of Article 2922a, supra. The precise question presented was whether jurisdiction of the appeal was in the district court or in the State Commissioner of Education. The plaintiffs who were attacking the annexation orders had filed their suit in the District Court of Brazoria County seven days prior to the time they took action to appeal administratively to the State Commissioner of Education. The court held that since the suit was first filed in the District Court of Brazoria County, that court had jurisdiction to determine the validity of the annexation orders to the exclusion of the administrative officers, namely, the State Commissioner of Education and the State Board of Education. No contention was made that appeals involving a determination of the validity of annexation orders under Article 2922a, supra, could not be made first to the State Commissioner of Education had the parties so elected.\nThe case of State ex rel. Texas City Independent School Dist. v. La Marque Independent School Dist., supra, supports Cook in his contention that the State Commissioner of Education has jurisdiction of appeals in territorial matters to the exclusion of the district court where the appealing parties have chosen to appeal first to the administrative authorities. The court said:\n\u201c* * * As the trial court properly held the deposition of the State Commissioner of Education was not admissible for the purpose of showing that an appeal to him by the appellant, in seeking the order it coveted in this cause, had been dismissed or abandoned; this, for the reason that appellants having admitted that they did file such appeal, the law bound them to pursue that remedy to its final conclusion, which they did not do before appealing to the courts in this controversy. * * *.\u201d (Emphasis added.)\nIt is argued that Article 2686, supra, has application only in cases where the appeal is to be perfected from a decision of the County Superintendent of Public Instruction to the County Board of School Trustees, etc. We cannot agree with this contention. We have found no case which holds that the Article has reference only to appeals from a decision of the County Superintendent. In the case of Jennings v. Carson, Texas Civ. App. (1916), 184 S.W. 562, Id., Comm. App. 1920, 220 S.W. 1090, holdings approved by the Supreme Court, which originated when the trustees of the school district involved refused a petition to create a new district, the Court of Civil Appeals observed that the duties of the County Superintendent are only ministerial and that \u201csince the County Superintendent has no discretionary powers, it is difficult to conceive of any action on his part from which it would ever be necessary for anyone to appeal.\u201d This language in the Jennings case, presumably at least, is the reason why the courts have consistently disregarded the literal language of the statute from the beginning. Although the Court of Civil Appeals opinion was rendered in this case on March 15, 1916, the final judgment of the Supreme Court was not rendered until May 5, 1920. See 220 S.W. 1090, Comm, of App. The Court of Civil Appeals had held that the district court had jurisdiction of the case and affirmed the judgment of the trial court creating the new district and perpetuating the injunction theretofore issued. The Supreme Court, upon the recommendation of the Commission of Appeals, entered its judgment reversing the judgment of the Court of Civil Appeals and remanding the cause to the trial court with instructions to dismiss. The Commission of Appeals was not required to directly pass upon the question of whether or not the appeal provision of what is now Article 2686 applies only to decisions originating with the County Superintendent of Public Instruction. However, it was held that the statute in effect at the time conferred the right of appeal from the decisions of the subordinate school officers in certain matters to the State Superintendent of Public Instruction and thence to the State Board of Education, and that it was necessary to prosecute the appeals in the manner designated before resort could be had to the courts. The Court held that the statute conferred upon the Board of County School Trustees the authority to manage and control the public high schools provided for in the Act of the Thirty-Second Legislature. (General Laws 32d Leg. Ch. 26, p. 34; Vernon\u2019s Sayles\u2019 Ann. Civ. Stat. 1914, Arts. 2849a-2849c). Section 10 of the Act, Article 2849j, read as follows:\n\u201cAll appeals from decisions of the county superintendent of public instruction shall lie to the county school trustees, and from the said county school trustees to the state superintendent of public instruction, and thence to the state board of education.\u201d\nThe Court after quoting the above section of the statute, said:\n\u201cAs the foregoing section was originally enacted when the duty to establish school districts devolved upon the Commissioners\u2019 Court, the appeals therein referred to had no relation to such duty. The Act of the Thirty-Fourth Legislature, supra, amending the Act of the Thirty-Second Legislature, so enlarged the scope of the administrative duties of the county trustees as to extend their management and control over all the public free schools of the county. * *\nThe reasoning employed by the Court in reaching its ultimate conclusion in the Jennings case leads us to conclude that the right of appeal from the decisions of the Board of County School Trustees was granted by the provisions of Article 2686, supra.\nNeill\u2019s argument in his original reply to Cook\u2019s application for writ of error was to the effect that the Legislature has expressly conferred exclusive jurisdiction upon the district court in all cases challenging the creation, changing, and modification of school districts, through the enactment of Article 2682, supra. In a supplemental brief filed on September 18, 1961, he advances the theory that the Legislature repealed Article 2686, supra, and portions of Articles 2690 and 2749, Vernon\u2019s Annotated Civil Statutes of Texas, by the adoption in 1949 of Article 2654-7, Vernon\u2019s Annotated Civil Statutes. In making such contention, he agrees with the position taken by Mr. Ernest A. Knipp, who has filed a \u201cBrief of Amicus Curiae\u201d. However, Neill does not agree with Knipp\u2019s position that Article 2654-7, Section l, had the effect of also repealing Article 2862, supra.\nWe shall consider Neill\u2019s contention in the order of presentation. We do not agree that the Legislature has expressly conferred jurisdiction upon the district court to the exclusion of the administrative agencies in cases challenging the creation, changing, and modification of school districts through the enactment of Article 2682, supra. A holding by this Court adopting such view would be wholly inconsistent not only with the views expressed in the above cited cases, but with the cases of Mission Independent School District v. Diserens, 144 Texas 107, 188 S.W. 2d 568, 570, 161 A.L.R. 877 (1945) ; Palmer Publishing Co. v. Smith, 130 Texas 346, 109 S.W. 2d 158, 159; Warren v. Sanger Independent School District, 116 Texas 183, 288 S.W. 159, 160, 161; Nance v. Johnson, 84 Texas 401, 19 S.W. 559; Bishop v. Houston Ind. School Dist., 119 Texas 407, 29 S.W. 2d 312, 314. These cases were recently cited and discussed in the case of McIntyre v. Hoblinski, Texas Civ. App. (1960), 333 S.W. 2d 697, wr. ref.\nThere is language in the cases of Mission Independent School Dist. v. Diserens, 144 Texas 107, 188 S.W. 2d 568, 161 A.L.R. 877, and McIntyre v. Hoblinski, 333 S.W. 2d 697, wr. ref., which would seem to run counter to our present interpretation of the effect of Article 2686. In refusing the application for writ of error in the latter case, this Count adopted the opinion of the Court of Civil Appeals.\nThe troublesome language is as follows:\n\u201cIt is a well-settled rule that in all matters pertaining to the administration of school laws involving questions of fact as distinguished from pure questions of law resort must first be had to the school authorities and the method of appeal there provided for exhausted before the courts will entertain jurisdiction of a complaint with reference to such matters.\u201d\nIf taken out of proper context and read literally, this language would compel the result that in all school cases where there is not a pure question of law involved, the school authorities would have jurisdiction of the controversy to the complete exclusion of the courts. This is not the law.\nWe do not question the correctness of the language above as it applied in the particular cases where used. In the Hoblinski case the language was taken as a direct quote from the Diserens case. In turn, the language was used in the Diserens case only to state a general principle and was again taken as a direct quote. The actual origin of this language is the case of State ex rel. Nevills v. Sanderson, 88 S.W. 2d 1069, Texas Civ. App. (1935), no wr. hist. In the Sanderson case, a private citizen sued, through the county attorney, to remove a county trustee on the grounds that he was not qualified for office. The trial court dismissed the suit and was affirmed by the Court of Civil Appeals. That court observed that the county superintendent had not requested the county attorney to bring suit nor had he personally been requested to remove the trustee. Because Art. 2747 expressly charges the superintendent with the duty of removing disqualified trustees, the Court held that the courts were without jurisdiction until the superintendent had acted. The opinion, including the language which we have quoted above, did not in any way alter or question the provisions of Article 2686. In fact, the Court in that case quoted Article 2686 and left the clear implication that after the superintendent had acted, the provisions of Article 2686 would apply, including the election provision.\nLikewise, the Diserens case, supra, in no way affects our present interpretation of. Article 2686. That case involved a dispute between an independent school district and a teacher who had breached her contract with the school district. The language in question was used to state a general principle only and was clearly dicta in the case. No action by a county school superintendent or county board of trustees was involved in any way, and Article 2686 had no application in the case whatever.\nThe Hoblinski case, supra, involved a suit by individual taxpayers against an independent school district and others. The complaint alleged breaches of the principle of separation of church and state. Again, a county superintendent or trustees were not involved and Article 2686 could have no application in the case.\nIn short, it is our position that the language quoted above states an accurate general proposition and was validly applied in the three cases just discussed. However, it is not to be applied broadly in all school cases. We believe that wherever it is applicable, Article 2686 is to be applied as it has been written and construed by the courts. That is, specifically, whenever the particular dispute involves a decision by a county board of school trustees, either on appeal from the county superintendent or as an original proposition, then the aggrieved party may elect to appeal either to the courts or to the proper administrative authorities. This is true whether the dispute involves only questions of fact, mixed questions of law and fact, or questions of law only.\nWe turn now to Neill\u2019s contention that Article 2686, supra, was repealed by the Legislature by the enactment of Article 2654-7, Sec. 1, supra. He now argues that \u201cArticle 2654-7, Sec. 1, however, eliminated any election of procedures, in school cases, by recognizing that both administrative and judicial action may be taken in the same case.\u201d Neill reasons that now \u201ca party may, but shall not be required to, go to school officials for relief, even when the County School Superintendent is the offensive one. If the aggrieved one does invoke the aid of the school authorities, perforce of the last sentence of the 1949 [Article 2654-7] statute, he is not to be denied his day in court because thereof.\u201d In substance, Neill is saying that the Legislature, in enacting Article 2654-7, supra, recognized the concurrent existence of rules, and he reasons that in this case \u201cthe higher school authorities should have jurisdiction to determine in their expertise whether, in the interest of good school administration, the Big Spring Independent School District should have Respondents\u2019 moneys and properties, while at the same time the courts have the authority to determine whether the county school trustees, in law, have taken these assets and vested them in another. Thus, one body, the administrative body, may look at whether the county school trustees should have done what they purport to do, while another body, the judicial body, determines whether, in law, they did what they purport to do. This concept is what the Legislature had in mind in Article 2654-7 when it said that \u201cadministrative appeals involving the school laws of Texas shall not deprive a party of his legal remedy.\u201d With this contention we cannot agree. Article 2654-7, Sec. 1, was enacted in 1949 as a part of the so-called Gilmer-Aikin Legislation, Acts 1949, 51st Leg., p. 537, Ch. 299, Art. VII, Senate Bill No. 115. There was no express repeal of Article 2686, supra, in this statute. In fact, there appears nothing to indicate that Article 2656, Vernon\u2019s Annotated Civil Statutes, was repealed by Article 2654-7, supra. This latter Article provides, in substance, that the State Superintendent [now the State Commissioner of Education] of Public Instruction is charged with the administration of the school laws, and that he shall hear and determine all appeals from the rulings and decisions of subordinate school officers, and that appeals would lie from his rulings to the State Board of Education. Aside from that, there is no conflict between Article 2686 and Article 2654-7, Sec. 1, as applied to this case. Under the former, the parties are given the right to elect whether to appeal to the State Commissioner of Education or to the appropriate court. Article 2654-7 states that they may appeal to the State Commissioner of Education, but that this Article shall not deprive them of any legal remedy. This simply means that if the parties appeal to the court, Article 2654-7 does not deprive them of that right, inasmuch as Article 2654-7 makes no provision with regard to an election as does Article 2686. There cannot be a conflict as to that on which Article 2654-7 is silent.\nIt clearly appears from the statutes, including Articles 2656, 2686, and 2654-7, supra, that some matters involved in the operation of the Texas public school system are appealable to the State Commissioner of Education. The matters involved here present an action which may be appealed to such agency. Article 2654, supra, provides in part that the State Commissioner of Education shall hear and determine all appeals, etc. Article 2654-7, in Section 1, provides for appeal of \u201cany matter of dispute among them arising under provisions of the school laws of Texas\u201d, to the State Commissioner of Education, and for appeals from \u201cthe actions or decisions of any Board of Trustees or Board of Education\u201d, and Article 2686 with respect to the subject matter involved speaks of \u201call appeals\u201d. These Articles do not in any manner limit the subject matter of decisions that may be appealed to the State Commissioner of Education.\nIn this case, we hold that the appeal provisions of Article 2686, which provide for an election to appeal either to the State Commissioner of Education or the appropriate district court, have not in any manner been repealed, and that such provisions apply in this case.\nWe must now determine whether Neill made a binding election to pursue the administrative route so as to preclude his subsequent appeal to the district court. We hold that he did not. Under the provisions of Article 2686, election of the desired course of appeal must be made within five days. Here, Neill gave notice of appeal to the administrative authorities and also filed suit in the district court within the five-day period. Indeed, as stated above, these acts were performed on the same day, only some hours apart. We hold that the mere giving of notice of appeal to the administrative authorities was not a binding election. By later filing suit in the district court, Neill in effect withdrew his appeal to the administrative authorities and indicated a new and different course of appeal. This he had the right to do, so long as it was within the five-day statutory period. In other words, there is no binding election until the five-day period has expired. Thus, Neill\u2019s ultimate election was to the district court in this case, and that court improperly dismissed the suit.\nIt is well settled that once a matter in controversy is submitted to the school authorities for decision on appeal, that course of appeal must be exhausted and completed before resort can be had to the courts for relief. See Plains Common Consolidated School District No. 1 of Yoakum County v. Hayhurst, Texas Civ. App., 122 S.W. 2d 322, no wr. hist.; State ex rel. Texas City Independent School District v. La Marque Independent School District, supra. We do not disturb that principle here, and it would have applied in the present case had there been a final, binding election to appeal to the school authorities. As stated above, there was not such a final election here.\nFor the reasons stated, the judgment of the Court of Civil Appeals is affirmed.\nOpinion delivered December 13, 1961.\n. \u201cArt. 2686. Appeals.\n\u201cAll appeals from the decision of the County Superintendent of Public Instruction shall lie to the County Board of School Trustees, and should either party decide to further appeal such matters, they are here given the right to elect to appeal to any court having proper jurisdiction of the subject matter; or to the State Superintendent of Public Instruction as now provided by law, provided the election of which course of appeal the party or parties desire to pursue, shall be given within five days from the final decision of said County Board of School Trustees, provided this act shall not apply to any controversy now pending or to any orders of school authorities made more than five days before this act becomes effective. Acts 1915, p. 71; Acts 1927, 40th Leg., p. 128, ch. 83, Sec. 1.\u201d\n. \u201cArt. 2682. Supervisory powers of district court\n\u201cThe district court shall have general supervisory control of the actions of the county board of school trustees in creating, changing and modifying school districts. Id.\u201d\n. \u201cParties having any matter of dispute among them arising under provisions of the School Laws of Texas, or any person or parties aggrieved by the actions or decisions of any Board of Trustees or Board of Education, may appeal in writing to the Commissioner of Education who, after due notice to the parties interested, shall examine in a hearing and render a judgment without cost to the parties involved. However, nothing contained in this section shall deprive any party of a legal remedy.\u201d",
+        "type": "majority",
+        "author": "ASSOCIATE JUSTICE CLYDE E. SMITH"
+      }
+    ],
+    "attorneys": [
+      "Guilford L. Jones, Big Spring, J. C. Hinsley, Austin, for petitioners.",
+      "Harvey C. Hoover, Jr., Hartman Hooser, Big Spring, Newton J. Steele, Turpin, Kerr, Smith & Dyer, Midland, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "Robert J. Cook et al, Petitioners v. Ralph Neill et al, Respondents\nNo. A-8189.\nDecided December 13, 1961\n352 S.W. 2d 258\nGuilford L. Jones, Big Spring, J. C. Hinsley, Austin, for petitioners.\nHarvey C. Hoover, Jr., Hartman Hooser, Big Spring, Newton J. Steele, Turpin, Kerr, Smith & Dyer, Midland, for respondents."
+  },
+  "file_name": "0049-01",
+  "first_page_order": 77,
+  "last_page_order": 90
+}

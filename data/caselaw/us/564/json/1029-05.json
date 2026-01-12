@@ -1,0 +1,59 @@
+{
+  "id": 4333837,
+  "name": "Gambrell v. United States",
+  "name_abbreviation": "Gambrell v. United States",
+  "decision_date": "2011-06-20",
+  "docket_number": "No. 10-10602",
+  "first_page": "1029",
+  "last_page": "1029",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1029"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.514,
+    "sha256": "b498f52d839562dc77b02a806e7818eac9d4bfc98a7716c81685e7eca097b025",
+    "simhash": "1:0749d60bcf071128",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gambrell v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10602.\nGambrell v. United States."
+  },
+  "file_name": "1029-05",
+  "first_page_order": 1023,
+  "last_page_order": 1023
+}

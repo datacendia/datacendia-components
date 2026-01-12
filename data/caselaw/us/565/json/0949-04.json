@@ -1,0 +1,59 @@
+{
+  "id": 12227596,
+  "name": "Cooper v. Massachusetts",
+  "name_abbreviation": "Cooper v. Massachusetts",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-5700",
+  "first_page": "949",
+  "last_page": "949",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 949"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 72,
+    "ocr_confidence": 0.683,
+    "sha256": "c37f781afe7f7df0c4e96dd085ad2ff2b760d95a241f9870154cd33204f80f5b",
+    "simhash": "1:cc19cd7420049d48",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cooper v. Massachusetts."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Mass. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5700.\nCooper v. Massachusetts."
+  },
+  "file_name": "0949-04",
+  "first_page_order": 1031,
+  "last_page_order": 1031
+}

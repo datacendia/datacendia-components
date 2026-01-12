@@ -1,0 +1,59 @@
+{
+  "id": 5922878,
+  "name": "Ford v. Chapman, Warden",
+  "name_abbreviation": "Ford v. Chapman",
+  "decision_date": "2010-11-01",
+  "docket_number": "No. 10-6683",
+  "first_page": "1018",
+  "last_page": "1018",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1018"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.671,
+    "sha256": "80db1944ba12a2cb99223b481dd49eaddf7a86330f7bc198353121d3900b7300",
+    "simhash": "1:87ea999aa96bd277",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ford v. Chapman, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6683.\nFord v. Chapman, Warden."
+  },
+  "file_name": "1018-04",
+  "first_page_order": 1040,
+  "last_page_order": 1040
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5932836,
+  "name": "Jason K. v. California",
+  "name_abbreviation": "Jason K. v. California",
+  "decision_date": "2011-06-13",
+  "docket_number": "No. 10-10192",
+  "first_page": "1009",
+  "last_page": "1009",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1009"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 96,
+    "ocr_confidence": 0.586,
+    "sha256": "2774f327a6572b617ae79f380508ab2c7636e3dfd6e610495bd0b46e73fd036b",
+    "simhash": "1:4de15d872b5f6e0d",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jason K. v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 4th App. Dist., Div. 1. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10192.\nJason K. v. California."
+  },
+  "file_name": "1009-09",
+  "first_page_order": 1003,
+  "last_page_order": 1003
+}

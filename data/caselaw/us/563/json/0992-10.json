@@ -1,0 +1,59 @@
+{
+  "id": 5911634,
+  "name": "Ciha v. Iowa",
+  "name_abbreviation": "Ciha v. Iowa",
+  "decision_date": "2011-05-16",
+  "docket_number": "No. 10-9330",
+  "first_page": "992",
+  "last_page": "992",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 992"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 9,
+    "char_count": 61,
+    "ocr_confidence": 0.728,
+    "sha256": "15eccda2a759d5f3138c68fff1aea5e59d7fb801931a488650107240a886bb17",
+    "simhash": "1:49969a6264c36693",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ciha v. Iowa."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Iowa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9330.\nCiha v. Iowa."
+  },
+  "file_name": "0992-10",
+  "first_page_order": 1018,
+  "last_page_order": 1018
+}

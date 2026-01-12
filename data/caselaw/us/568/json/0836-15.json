@@ -1,0 +1,59 @@
+{
+  "id": 12412089,
+  "name": "Rizzo v. Connecticut",
+  "name_abbreviation": "Rizzo v. Connecticut",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10231",
+  "first_page": "836",
+  "last_page": "836",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 836"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 71,
+    "ocr_confidence": 0.651,
+    "sha256": "b27e0050bb4938486b7b42a4c2419b27074d137779a357f254a33b84f5ff82a4",
+    "simhash": "1:00e7238295418060",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rizzo v. Connecticut."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Conn. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10231.\nRizzo v. Connecticut."
+  },
+  "file_name": "0836-15",
+  "first_page_order": 912,
+  "last_page_order": 912
+}

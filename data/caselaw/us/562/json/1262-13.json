@@ -1,0 +1,59 @@
+{
+  "id": 5955833,
+  "name": "Adams v. United States",
+  "name_abbreviation": "Adams v. United States",
+  "decision_date": "2011-02-28",
+  "docket_number": "No. 10-8701",
+  "first_page": "1262",
+  "last_page": "1262",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1262"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.604,
+    "sha256": "155bafc6bfcb8bc89063c9c62e2909b8c8e53acbc6dcab2cbd3e7b5347e89f4c",
+    "simhash": "1:258a9a4bca955158",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Adams v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8701.\nAdams v. United States."
+  },
+  "file_name": "1262-13",
+  "first_page_order": 1284,
+  "last_page_order": 1284
+}

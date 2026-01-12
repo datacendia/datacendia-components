@@ -1,0 +1,59 @@
+{
+  "id": 12428924,
+  "name": "Powdrill v. United States",
+  "name_abbreviation": "Powdrill v. United States",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-7492",
+  "first_page": "1112",
+  "last_page": "1112",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1112"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.638,
+    "sha256": "4f5f2125d0379484863277aee907498f9ae3aa51dbfdf34e55f893f725e89979",
+    "simhash": "1:872ad3828bfcb77f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Powdrill v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7492.\nPowdrill v. United States."
+  },
+  "file_name": "1112-03",
+  "first_page_order": 1188,
+  "last_page_order": 1188
+}

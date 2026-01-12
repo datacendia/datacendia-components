@@ -1,0 +1,59 @@
+{
+  "id": 5979703,
+  "name": "Williams v. Crouch et al.",
+  "name_abbreviation": "Williams v. Crouch",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11089",
+  "first_page": "861",
+  "last_page": "861",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 861"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 74,
+    "ocr_confidence": 0.499,
+    "sha256": "eed48e6edd9852d6fdc52d8c443898d6d8e5847f71d07211179732e90f5853b4",
+    "simhash": "1:01c820e14931107b",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. Crouch et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11089.\nWilliams v. Crouch et al."
+  },
+  "file_name": "0861-12",
+  "first_page_order": 883,
+  "last_page_order": 883
+}

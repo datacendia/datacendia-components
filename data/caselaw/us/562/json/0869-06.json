@@ -1,0 +1,59 @@
+{
+  "id": 6024610,
+  "name": "Baugh v. United States District Court for the District of Oregon",
+  "name_abbreviation": "Baugh v. United States District Court for the District of Oregon",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11240",
+  "first_page": "869",
+  "last_page": "869",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 869"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 18,
+    "char_count": 114,
+    "ocr_confidence": 0.501,
+    "sha256": "cd251a66c9eab7271f0f753a9353de33936dcc14f50f0b48beb05f159788905a",
+    "simhash": "1:172bb0812da5a116",
+    "word_count": 19
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Baugh v. United States District Court for the District of Oregon."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11240.\nBaugh v. United States District Court for the District of Oregon."
+  },
+  "file_name": "0869-06",
+  "first_page_order": 891,
+  "last_page_order": 891
+}

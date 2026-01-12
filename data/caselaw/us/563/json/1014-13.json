@@ -1,0 +1,59 @@
+{
+  "id": 5913058,
+  "name": "Rahim v. United States",
+  "name_abbreviation": "Rahim v. United States",
+  "decision_date": "2011-05-23",
+  "docket_number": "No. 10-10116",
+  "first_page": "1014",
+  "last_page": "1014",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1014"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.671,
+    "sha256": "e21031dae111e9521e8e6c4fda4638bf55458e3108162c4d73b9f82268e65493",
+    "simhash": "1:14bace3362adb40c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rahim v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10116.\nRahim v. United States."
+  },
+  "file_name": "1014-13",
+  "first_page_order": 1040,
+  "last_page_order": 1040
+}

@@ -1,0 +1,61 @@
+{
+  "id": 12250006,
+  "name": "Michigan et al. v. United States Army Corps of Engineers et al.",
+  "name_abbreviation": "Michigan v. United States Army Corps of Engineers",
+  "decision_date": "2012-02-27",
+  "docket_number": "No. 11-541",
+  "first_page": "1241",
+  "last_page": "1241",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1241"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 29,
+    "char_count": 188,
+    "ocr_confidence": 0.603,
+    "sha256": "364ca0ed4b62c04200e09303bdfd3bbf4598f0030df244afeb2f5099f8c3ec29",
+    "simhash": "1:8b7179006306d860",
+    "word_count": 33
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Michigan et al. v. United States Army Corps of Engineers et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-541.\nMichigan et al. v. United States Army Corps of Engineers et al."
+  },
+  "file_name": "1241-12",
+  "first_page_order": 1323,
+  "last_page_order": 1323
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12247050,
+  "name": "Butcher v. Pennsylvania",
+  "name_abbreviation": "Butcher v. Pennsylvania",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-7833",
+  "first_page": "1211",
+  "last_page": "1211",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1211"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 72,
+    "ocr_confidence": 0.689,
+    "sha256": "db6e8cc3bd328d27c7c85b93ee3f2c95249efea270d9bc35be180cf0eed33595",
+    "simhash": "1:f66ee3d0b1e8add4",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Butcher v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Pa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7833.\nButcher v. Pennsylvania."
+  },
+  "file_name": "1211-13",
+  "first_page_order": 1293,
+  "last_page_order": 1293
+}

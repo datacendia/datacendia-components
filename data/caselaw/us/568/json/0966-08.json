@@ -1,0 +1,59 @@
+{
+  "id": 12419596,
+  "name": "Johnson v. California (two judgments)",
+  "name_abbreviation": "Johnson v. California",
+  "decision_date": "2012-10-15",
+  "docket_number": "No. 12-5828",
+  "first_page": "966",
+  "last_page": "966",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 966"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 85,
+    "ocr_confidence": 0.677,
+    "sha256": "2ffe075e7a59f3bef346e55d0b0e435e52545ad7553fa42b77eef0bc55555e54",
+    "simhash": "1:5c1a97f64534947b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Johnson v. California (two judgments)."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5828.\nJohnson v. California (two judgments)."
+  },
+  "file_name": "0966-08",
+  "first_page_order": 1042,
+  "last_page_order": 1042
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12252732,
+  "name": "Mosley v. United States",
+  "name_abbreviation": "Mosley v. United States",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. 11-8795",
+  "first_page": "1272",
+  "last_page": "1272",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1272"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.664,
+    "sha256": "b0c73540523945c546e37db9050304d9970aae26059ceaf6a221d90e3a0d980f",
+    "simhash": "1:06cb8e0f4a8f9528",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mosley v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8795.\nMosley v. United States."
+  },
+  "file_name": "1272-10",
+  "first_page_order": 1354,
+  "last_page_order": 1354
+}

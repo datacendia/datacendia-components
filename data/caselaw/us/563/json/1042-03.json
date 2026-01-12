@@ -1,0 +1,61 @@
+{
+  "id": 4225382,
+  "name": "Bruce v. United States",
+  "name_abbreviation": "Bruce v. United States",
+  "decision_date": "2011-06-06",
+  "docket_number": "No. 10-10386",
+  "first_page": "1042",
+  "last_page": "1042",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1042"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 153,
+    "ocr_confidence": 0.64,
+    "sha256": "e597c5f0ffc07b0237dce2ad4238f294c0439aded42f03dc2e2c39075377bf3b",
+    "simhash": "1:9d333a810b067648",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Bruce v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.\nJustice Sotomayor took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10386.\nBruce v. United States."
+  },
+  "file_name": "1042-03",
+  "first_page_order": 1068,
+  "last_page_order": 1068
+}

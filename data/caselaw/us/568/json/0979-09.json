@@ -1,0 +1,59 @@
+{
+  "id": 12420087,
+  "name": "Lauer v. Securities and Exchange Commission",
+  "name_abbreviation": "Lauer v. Securities & Exchange Commission",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-260",
+  "first_page": "979",
+  "last_page": "979",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 979"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 92,
+    "ocr_confidence": 0.661,
+    "sha256": "bcd8ec4b6629171f8740e877ea23ab1f3793ea40a809efe7891e6e35110f4274",
+    "simhash": "1:27eb0a18e377b2f6",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lauer v. Securities and Exchange Commission."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-260.\nLauer v. Securities and Exchange Commission."
+  },
+  "file_name": "0979-09",
+  "first_page_order": 1055,
+  "last_page_order": 1055
+}

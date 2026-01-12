@@ -1,0 +1,68 @@
+{
+  "id": 12701286,
+  "name": "In re Derrick GODFREY, petitioner.",
+  "name_abbreviation": "In re Godfrey",
+  "decision_date": "2014-02-24",
+  "docket_number": "No. 13\u20138484.",
+  "first_page": "1195",
+  "last_page": "1195",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 1195"
+    },
+    {
+      "type": "parallel",
+      "cite": "188 L. Ed. 2d 361"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 1359"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 22,
+    "char_count": 142,
+    "sha256": "70c3feb9c8cd57434f5b8fa2cedb9c8ebfe199069bbc136697034ba123274bcf",
+    "simhash": "1:796b1452be914535",
+    "word_count": 23
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Derrick GODFREY, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of habeas corpus denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re Derrick GODFREY, petitioner.\nNo. 13-8484.\nSupreme Court of the United States\nFeb. 24, 2014.\nPetition for writ of habeas corpus denied."
+  },
+  "file_name": "1195-12",
+  "first_page_order": 1195,
+  "last_page_order": 1195
+}

@@ -1,0 +1,61 @@
+{
+  "id": 5920480,
+  "name": "Lee v United States",
+  "name_abbreviation": "Lee v. United States",
+  "decision_date": "2011-06-20",
+  "docket_number": "No. 10-10133",
+  "first_page": "1030",
+  "last_page": "1030",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1030"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 148,
+    "ocr_confidence": 0.498,
+    "sha256": "591f72c6294f321cba84d6c8d0d88764c3b36e9047b90abb0509c26cdbc79d07",
+    "simhash": "1:9d23da0205a698c2",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Lee v United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10133.\nLee v United States."
+  },
+  "file_name": "1030-07",
+  "first_page_order": 1024,
+  "last_page_order": 1024
+}

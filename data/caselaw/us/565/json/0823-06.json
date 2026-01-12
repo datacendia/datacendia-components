@@ -1,0 +1,59 @@
+{
+  "id": 12197024,
+  "name": "Abell v. Wilson",
+  "name_abbreviation": "Abell v. Wilson",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-1469",
+  "first_page": "823",
+  "last_page": "823",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 823"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 64,
+    "ocr_confidence": 0.66,
+    "sha256": "8ad4fdaffeaaaab70b47fe8d3edbd99bd5f0bdd2b3a895c50e967b56e500ac72",
+    "simhash": "1:a62cb0681a409755",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Abell v. Wilson."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. D. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1469.\nAbell v. Wilson."
+  },
+  "file_name": "0823-06",
+  "first_page_order": 905,
+  "last_page_order": 905
+}

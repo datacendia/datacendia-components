@@ -1,0 +1,59 @@
+{
+  "id": 12429294,
+  "name": "Heap v. United States",
+  "name_abbreviation": "Heap v. United States",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-702",
+  "first_page": "1125",
+  "last_page": "1125",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1125"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 69,
+    "ocr_confidence": 0.635,
+    "sha256": "5cf5fca2b465e247d948c949515eb04cb01ed8f43edafe50e333997bb48c99fa",
+    "simhash": "1:960a9b8248068c3e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Heap v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-702.\nHeap v. United States."
+  },
+  "file_name": "1125-11",
+  "first_page_order": 1201,
+  "last_page_order": 1201
+}

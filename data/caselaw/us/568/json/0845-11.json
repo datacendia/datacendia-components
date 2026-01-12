@@ -1,0 +1,59 @@
+{
+  "id": 12413105,
+  "name": "Efstathiou v. California",
+  "name_abbreviation": "Efstathiou v. California",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10481",
+  "first_page": "845",
+  "last_page": "845",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 845"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 88,
+    "ocr_confidence": 0.633,
+    "sha256": "729b2ac85627a0bda8473e0cba976aeaed977916b423fce40e2b75f01672f1fc",
+    "simhash": "1:212903c430d3f8c1",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Efstathiou v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 3d App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10481.\nEfstathiou v. California."
+  },
+  "file_name": "0845-11",
+  "first_page_order": 921,
+  "last_page_order": 921
+}

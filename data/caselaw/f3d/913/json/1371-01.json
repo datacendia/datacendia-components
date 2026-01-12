@@ -1,0 +1,1941 @@
+{
+  "id": 12519760,
+  "name": "Alfred PROCOPIO, Jr., Claimant-Appellant v. Robert WILKIE, Secretary of Veterans Affairs, Respondent-Appellee",
+  "name_abbreviation": "Procopio v. Wilkie",
+  "decision_date": "2019-01-29",
+  "docket_number": "2017-1821",
+  "first_page": "1371",
+  "last_page": "1395",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "913 F.3d 1371"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Fed. Cir.",
+    "id": 8955,
+    "name": "United States Court of Appeals for the Federal Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "110 Stat. 3009",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "year": 1996,
+      "opinion_index": 0
+    },
+    {
+      "cite": "727 F.3d 1161",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4076641,
+        4075062
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "1169-70"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/727/1161-01",
+        "/vet-app/26/1161-01"
+      ]
+    },
+    {
+      "cite": "260 F.3d 1365",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9500069,
+        9040334
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "1378"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/260/1365-01",
+        "/vet-app/18/1365-01"
+      ]
+    },
+    {
+      "cite": "384 U.S. 436",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12046400
+      ],
+      "weight": 3,
+      "year": 1966,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/384/0436-01"
+      ]
+    },
+    {
+      "cite": "530 U.S. 428",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9413869
+      ],
+      "weight": 3,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "443",
+          "parenthetical": "declining to overrule Miranda v. Arizona , 384 U.S. 436, 86 S.Ct. 1602, 16 L.Ed.2d 694 (1966), because \"Miranda has become embedded in routine police practice to the point where the warnings have become part of our national culture\""
+        },
+        {
+          "parenthetical": "declining to overrule Miranda v. Arizona , 384 U.S. 436, 86 S.Ct. 1602, 16 L.Ed.2d 694 (1966), because \"Miranda has become embedded in routine police practice to the point where the warnings have become part of our national culture\""
+        },
+        {
+          "parenthetical": "declining to overrule Miranda v. Arizona , 384 U.S. 436, 86 S.Ct. 1602, 16 L.Ed.2d 694 (1966), because \"Miranda has become embedded in routine police practice to the point where the warnings have become part of our national culture\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/530/0428-01"
+      ]
+    },
+    {
+      "cite": "436 U.S. 658",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1490618
+      ],
+      "weight": 5,
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "695"
+        },
+        {
+          "page": "695"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/436/0658-01"
+      ]
+    },
+    {
+      "cite": "46 U.S.C. \u00a7\u00a7 2301",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 U.S.C. \u00a7 638",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(1)"
+        },
+        {
+          "page": "(1)",
+          "parenthetical": "\"United States\" includes \"subsoil of those submarine areas which are adjacent to the territorial waters of the United States\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 U.S.C. \u00a7 1362",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(15)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 U.S.C. \u00a7 1203",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "55 F.3d 732",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7414755
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "754"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/55/0732-01"
+      ]
+    },
+    {
+      "cite": "8 U.S.C. \u00a7 1158",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        },
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 C.F.R. \u00a7 101.1",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 U.S.C. \u00a7 2402",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(8)"
+        },
+        {
+          "page": "(8)",
+          "parenthetical": "defining \"import\" to mean \"to land on, bring into, or introduce into, or attempt to land on, bring into or introduce into, any place subject to the jurisdiction of the United States, including the 12-mile territorial sea of the United States\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 U.S.C. \u00a7 1110",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "parenthetical": "entitling certain veterans to compensation for disability, injury, or disease contracted or aggravated \"in the active military, naval, or air service, during a period of war\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 C.F.R. \u00a7 3.313",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "55 Fed. Reg. 43123",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "weight": 2,
+      "year": 1990,
+      "opinion_index": 0
+    },
+    {
+      "cite": "50 Fed. Reg. 15848",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "15849"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "98 Stat. 2725",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "2727-28"
+        },
+        {
+          "page": "2725"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "73 Fed. Reg. 20566",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 2008,
+      "pin_cites": [
+        {
+          "parenthetical": "citing Jeanne Mager Stellman et al., The extent and patterns of usage of Agent Orange and other herbicides in Vietnam , 422 NATURE 681, 681-687 (2003) "
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "556 U.S. 303",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653414
+      ],
+      "weight": 3,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "314",
+          "parenthetical": "quoting Hibbs v. Winn , 542 U.S. 88, 101, 124 S.Ct. 2276, 159 L.Ed.2d 172 (2004) (quoting 2A N. Singer, Statutes and Statutory Construction \u00a7 46.06 pp. 181-186 (rev. 6th ed. 2000) ) "
+        },
+        {
+          "parenthetical": "quoting Hibbs v. Winn , 542 U.S. 88, 101, 124 S.Ct. 2276, 159 L.Ed.2d 172 (2004) (quoting 2A N. Singer, Statutes and Statutory Construction \u00a7 46.06 pp. 181-186 (rev. 6th ed. 2000) ) "
+        },
+        {
+          "parenthetical": "quoting Hibbs v. Winn , 542 U.S. 88, 101, 124 S.Ct. 2276, 159 L.Ed.2d 172 (2004) (quoting 2A N. Singer, Statutes and Statutory Construction \u00a7 46.06 pp. 181-186 (rev. 6th ed. 2000) ) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/556/0303-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 2280",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(b)(1)(A)(ii)",
+          "parenthetical": "criminalizing certain acts if committed \"in the United States, including the territorial seas\""
+        },
+        {
+          "page": "(b)(1)(A)(ii)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "94 Stat. 2171",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "year": 1980,
+      "opinion_index": 0
+    },
+    {
+      "cite": "2 L.Ed. 208",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "year": 1804,
+      "opinion_index": 0
+    },
+    {
+      "cite": "6 U.S. 2",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 1804,
+      "opinion_index": 0
+    },
+    {
+      "cite": "67 S.Ct. 1658",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        364863
+      ],
+      "weight": 4,
+      "year": 1947,
+      "pin_cites": [
+        {
+          "parenthetical": "\"That the political agencies of this nation both claim and exercise broad dominion and control over our three-mile marginal belt is now a settled fact.\""
+        },
+        {
+          "parenthetical": "\"That the political agencies of this nation both claim and exercise broad dominion and control over our three-mile marginal belt is now a settled fact.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/332/0804-01"
+      ]
+    },
+    {
+      "cite": "332 U.S. 19",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        365152,
+        364863
+      ],
+      "weight": 2,
+      "year": 1947,
+      "pin_cites": [
+        {
+          "page": "33",
+          "parenthetical": "\"That the political agencies of this nation both claim and exercise broad dominion and control over our three-mile marginal belt is now a settled fact.\""
+        },
+        {
+          "page": "33-34"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/332/0019-01",
+        "/us/332/0804-01"
+      ]
+    },
+    {
+      "cite": "516 U.S. 284",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        327837
+      ],
+      "weight": 3,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "295-96"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/516/0284-01"
+      ]
+    },
+    {
+      "cite": "719 F.3d 160",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4054667
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "181",
+          "parenthetical": "Smith, J., concurring"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/719/0160-01"
+      ]
+    },
+    {
+      "cite": "135 S.Ct. 831",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12594237
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "parenthetical": "quoting Morrow v. Balaski , 719 F.3d 160, 181 (3d Cir. 2013) (Smith, J., concurring) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/135/0831-01"
+      ]
+    },
+    {
+      "cite": "744 F.3d 1272",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4120058
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1283",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/744/1272-01"
+      ]
+    },
+    {
+      "cite": "552 U.S. 74",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3675968
+      ],
+      "weight": 3,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "82"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/552/0074-01"
+      ]
+    },
+    {
+      "cite": "128 S.Ct. 750",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        3350285,
+        3675998
+      ],
+      "weight": 2,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/fed-cl/79/0750-02",
+        "/us/552/0130-01"
+      ]
+    },
+    {
+      "cite": "552 U.S. 130",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3675998
+      ],
+      "weight": 4,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "139",
+          "parenthetical": "citation omitted"
+        },
+        {
+          "parenthetical": "citation omitted"
+        },
+        {
+          "page": "139"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/552/0130-01"
+      ]
+    },
+    {
+      "cite": "719 F.3d 1305",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4055400
+      ],
+      "weight": 4,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "1316",
+          "parenthetical": "en banc"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks and citation omitted"
+        },
+        {
+          "page": "1316"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/719/1305-01"
+      ]
+    },
+    {
+      "cite": "752 F.3d 949",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4308267
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "956",
+          "parenthetical": "\"[S]tare decisis exists to 'enhance [ ] predictability and efficiency in dispute resolution and legal proceedings' through creation of settled expectations in prior decisions of the court.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/752/0949-01"
+      ]
+    },
+    {
+      "cite": "1991 WL 65877",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "pin_cites": [
+        {
+          "page": "*1"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "112 F.3d 1455",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        854900
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "1461-62",
+          "parenthetical": "\"[T]he canon of construction favoring Native Americans controls over the more general rule of deference to agency interpretations of ambiguous statutes.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/112/1455-01"
+      ]
+    },
+    {
+      "cite": "240 F.3d 1081",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11140530,
+        3677773
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "1101",
+          "parenthetical": "\" Chevron deference is not applicable\" in the context of Indian law because \"the special strength\" of this canon trumps the normally-applicable deference."
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/240/1081-01",
+        "/us-app-dc/345/0141-01"
+      ]
+    },
+    {
+      "cite": "471 U.S. 759",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6208461
+      ],
+      "weight": 4,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "766"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/471/0759-01"
+      ]
+    },
+    {
+      "cite": "99 L.Ed. 905",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "year": 1955,
+      "opinion_index": 0
+    },
+    {
+      "cite": "349 U.S. 81",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11333568
+      ],
+      "weight": 2,
+      "year": 1955,
+      "pin_cites": [
+        {
+          "page": "83"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/349/0081-01"
+      ]
+    },
+    {
+      "cite": "498 U.S. 103",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6219942
+      ],
+      "weight": 3,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "108"
+        },
+        {
+          "parenthetical": "\"[W]e have always reserved lenity for those situations in which a reasonable doubt persists about a statute's intended scope even after resort to the language and structure, legislative history, and motivating policies of the statute.\" (internal quotations omitted) "
+        },
+        {
+          "parenthetical": "\"[W]e have always reserved lenity for those situations in which a reasonable doubt persists about a statute's intended scope even after resort to the language and structure, legislative history, and motivating policies of the statute.\" (internal quotations omitted) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/498/0103-01"
+      ]
+    },
+    {
+      "cite": "190 L.Ed.2d 381",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12593152,
+        12592398,
+        12593362,
+        12593363,
+        12593364,
+        12593365,
+        12593366,
+        12593367
+      ],
+      "year": 2014,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/135/0475-02",
+        "/s-ct/135/0352-01",
+        "/s-ct/135/0507-02",
+        "/s-ct/135/0507-03",
+        "/s-ct/135/0507-04",
+        "/s-ct/135/0507-05",
+        "/s-ct/135/0507-06",
+        "/s-ct/135/0508-01"
+      ]
+    },
+    {
+      "cite": "135 S.Ct. 352",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12592398
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "353"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/135/0352-01"
+      ]
+    },
+    {
+      "cite": "73 Fed. Reg. 20,566",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "20,567"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "69 Fed. Reg. 44,614",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "44,620"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "189 L.Ed.2d 372",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "year": 2014,
+      "opinion_index": 0
+    },
+    {
+      "cite": "134 S.Ct. 2427",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "year": 2014,
+      "opinion_index": 0
+    },
+    {
+      "cite": "573 U.S. 302",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "321"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "568 U.S. 597",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12407704
+      ],
+      "weight": 3,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "621",
+          "parenthetical": "Scalia, J., dissenting"
+        },
+        {
+          "parenthetical": "Scalia, J., dissenting"
+        },
+        {
+          "parenthetical": "Scalia, J., dissenting"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/568/0597-01"
+      ]
+    },
+    {
+      "cite": "762 F.3d 1362",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4179592
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1366-68",
+          "parenthetical": "O'Malley, J., concurring"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/762/1362-01"
+      ]
+    },
+    {
+      "cite": "823 F.3d 630",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12274992,
+        5921610
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "parenthetical": "O'Malley, J."
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/vet-app/28/0630-01",
+        "/f3d/823/0630-01"
+      ]
+    },
+    {
+      "cite": "325 U.S. 410",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6156543
+      ],
+      "weight": 3,
+      "year": 1945,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/325/0410-01"
+      ]
+    },
+    {
+      "cite": "2018 WL 6439837",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "parenthetical": "granting certiorari on question of \"[w]hether the Court should overrule Auer and [Bowles v.] Seminole Rock [& Sand Co., 325 U.S. 410, 65 S.Ct. 1215, 89 L.Ed. 1700 (1945"
+        },
+        {
+          "parenthetical": "\"The petition for writ of certiorari is granted limited to Question 1 presented by the petition\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "139 S.Ct. 657",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12623857,
+        12623858,
+        12623859,
+        12623860,
+        12623861,
+        12623862,
+        12623863
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "parenthetical": "granting certiorari on question of \"[w]hether the Court should overrule Auer and [Bowles v.] Seminole Rock [& Sand Co., 325 U.S. 410, 65 S.Ct. 1215, 89 L.Ed. 1700 (1945"
+        },
+        {
+          "parenthetical": "\"The petition for writ of certiorari is granted limited to Question 1 presented by the petition\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/0657-01",
+        "/s-ct/139/0657-02",
+        "/s-ct/139/0657-03",
+        "/s-ct/139/0657-04",
+        "/s-ct/139/0657-05",
+        "/s-ct/139/0657-06",
+        "/s-ct/139/0657-07"
+      ]
+    },
+    {
+      "cite": "880 F.3d 1378",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12267281
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1379-80",
+          "parenthetical": "O'Malley, J., dissenting from denial of en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/880/1378-01"
+      ]
+    },
+    {
+      "cite": "135 S.Ct. 2699",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12591135
+      ],
+      "weight": 3,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "2712",
+          "parenthetical": "Thomas, J., concurring"
+        },
+        {
+          "parenthetical": "Thomas, J., concurring"
+        },
+        {
+          "page": "2712"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/135/2699-01"
+      ]
+    },
+    {
+      "cite": "138 S.Ct. 2105",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12612847
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "2121",
+          "parenthetical": "Kennedy, J., concurring"
+        },
+        {
+          "parenthetical": "Kennedy, J., concurring"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/2105-01"
+      ]
+    },
+    {
+      "cite": "225 F.3d 1368",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        162088,
+        11236091
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "1376"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/fed-cl/47/1368-01",
+        "/f3d/225/1368-01"
+      ]
+    },
+    {
+      "cite": "569 U.S. 290",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12697048
+      ],
+      "weight": 3,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "327",
+          "parenthetical": "Roberts, C.J., dissenting"
+        },
+        {
+          "parenthetical": "Roberts, C.J., dissenting"
+        },
+        {
+          "parenthetical": "Roberts, C.J., dissenting"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/569/0290-01"
+      ]
+    },
+    {
+      "cite": "712 F. Supp. 1404",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        7399315
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "1423"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/712/1404-01"
+      ]
+    },
+    {
+      "cite": "363 F.3d 1316",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9273347,
+        9259243
+      ],
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1320",
+          "parenthetical": "\"[T]he veterans benefit system is designed to award entitlements to a special class of citizens, those who risked harm to serve and defend their country. This entire scheme is imbued with special beneficence from a grateful sovereign.\" (quotations omitted) "
+        },
+        {
+          "page": "1320"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/363/1316-01",
+        "/vet-app/17/1316-01"
+      ]
+    },
+    {
+      "cite": "440 F.3d 1341",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        81833
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "1350",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/440/1341-01"
+      ]
+    },
+    {
+      "cite": "872 F.3d 1290",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12267289
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1316",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/872/1290-01"
+      ]
+    },
+    {
+      "cite": "868 F.3d 1006",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12266613
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1011-12",
+          "parenthetical": "employing at Chevron step one the canon that \"Congress 'legislate[s] against the backdrop of existing law' \" (citation omitted) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/868/1006-01"
+      ]
+    },
+    {
+      "cite": "529 U.S. 120",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9508268
+      ],
+      "weight": 3,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "132-33",
+          "parenthetical": "employing at Chevron step one the \"fundamental canon of statutory construction that the words of a statute must be read in their context and with a view to their place in the overall statutory scheme\""
+        },
+        {
+          "parenthetical": "employing at Chevron step one the \"fundamental canon of statutory construction that the words of a statute must be read in their context and with a view to their place in the overall statutory scheme\""
+        },
+        {
+          "parenthetical": "employing at Chevron step one the \"fundamental canon of statutory construction that the words of a statute must be read in their context and with a view to their place in the overall statutory scheme\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/529/0120-01"
+      ]
+    },
+    {
+      "cite": "138 S.Ct. 1612",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12611962
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1630"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/1612-01"
+      ]
+    },
+    {
+      "cite": "200 L.Ed.2d 695",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12611230
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "parenthetical": "quoting Chevron , 467 U.S. at 843 n.9, 104 S.Ct. 2778."
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/1348-01"
+      ]
+    },
+    {
+      "cite": "138 S.Ct. 1348",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12611230,
+        12611231
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1358",
+          "parenthetical": "quoting Chevron , 467 U.S. at 843 n.9, 104 S.Ct. 2778."
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/1348-01",
+        "/s-ct/138/1348-02"
+      ]
+    },
+    {
+      "cite": "485 U.S. 415",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        14012
+      ],
+      "weight": 3,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "430"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/485/0415-01"
+      ]
+    },
+    {
+      "cite": "512 U.S. 504",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        39585
+      ],
+      "weight": 3,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "512",
+          "parenthetical": "quoting Gardebring v. Jenkins , 485 U.S. 415, 430, 108 S.Ct. 1306, 99 L.Ed.2d 515 (1988) "
+        },
+        {
+          "parenthetical": "quoting Gardebring v. Jenkins , 485 U.S. 415, 430, 108 S.Ct. 1306, 99 L.Ed.2d 515 (1988) "
+        },
+        {
+          "parenthetical": "quoting Gardebring v. Jenkins , 485 U.S. 415, 430, 108 S.Ct. 1306, 99 L.Ed.2d 515 (1988) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/512/0504-01"
+      ]
+    },
+    {
+      "cite": "542 U.S. 88",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5856684
+      ],
+      "weight": 6,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "102",
+          "parenthetical": "citation omitted"
+        },
+        {
+          "parenthetical": "citation omitted"
+        },
+        {
+          "parenthetical": "citation omitted"
+        },
+        {
+          "page": "101",
+          "parenthetical": "quoting 2A N. Singer, Statutes and Statutory Construction \u00a7 46.06 pp. 181-186 (rev. 6th ed. 2000) "
+        },
+        {
+          "parenthetical": "quoting 2A N. Singer, Statutes and Statutory Construction \u00a7 46.06 pp. 181-186 (rev. 6th ed. 2000) "
+        },
+        {
+          "parenthetical": "quoting 2A N. Singer, Statutes and Statutory Construction \u00a7 46.06 pp. 181-186 (rev. 6th ed. 2000) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/542/0088-01"
+      ]
+    },
+    {
+      "cite": "529 U.S. 576",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9508888
+      ],
+      "weight": 8,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "588",
+          "parenthetical": "\" Auer deference is warranted only when the language of the regulation is ambiguous.\""
+        },
+        {
+          "parenthetical": "\" Auer deference is warranted only when the language of the regulation is ambiguous.\""
+        },
+        {
+          "parenthetical": "\" Auer deference is warranted only when the language of the regulation is ambiguous.\""
+        },
+        {
+          "page": "588"
+        },
+        {
+          "parenthetical": "quoting Gardebring v. Jenkins , 485 U.S. 415, 430, 108 S.Ct. 1306, 99 L.Ed.2d 515 (1988) "
+        },
+        {
+          "page": "588",
+          "parenthetical": "\" Auer deference is warranted only when the language of the regulation is ambiguous.\""
+        },
+        {
+          "parenthetical": "\" Auer deference is warranted only when the language of the regulation is ambiguous.\""
+        },
+        {
+          "parenthetical": "\" Auer deference is warranted only when the language of the regulation is ambiguous.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/529/0576-01"
+      ]
+    },
+    {
+      "cite": "319 U.S. 561",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        366821
+      ],
+      "weight": 8,
+      "year": 1943,
+      "pin_cites": [
+        {
+          "page": "575"
+        },
+        {
+          "page": "575"
+        },
+        {
+          "page": "575"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/319/0561-01"
+      ]
+    },
+    {
+      "cite": "328 U.S. 275",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        377002
+      ],
+      "weight": 3,
+      "year": 1946,
+      "pin_cites": [
+        {
+          "page": "285"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/328/0275-01"
+      ]
+    },
+    {
+      "cite": "502 U.S. 215",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6222957
+      ],
+      "weight": 8,
+      "year": 1991,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/502/0215-01"
+      ]
+    },
+    {
+      "cite": "115 S.Ct. 552",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        1332238,
+        6467327
+      ],
+      "year": 1994,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/513/0115-01",
+        "/vet-app/7/0552-01"
+      ]
+    },
+    {
+      "cite": "513 U.S. 115",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1332238
+      ],
+      "weight": 2,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "117-18"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/513/0115-01"
+      ]
+    },
+    {
+      "cite": "131 S.Ct. 1197",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        6023194,
+        4151926,
+        12457263
+      ],
+      "weight": 4,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "parenthetical": "\"We have long applied the canon that provisions for benefits to members of the Armed Services are to be construed in the beneficiaries' favor.\" (quotations omitted) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/562/0428-01",
+        "/vet-app/24/1197-01",
+        "/l-ed-2d/179/0159-01"
+      ]
+    },
+    {
+      "cite": "562 U.S. 428",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6023194,
+        12457263
+      ],
+      "weight": 6,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "441"
+        },
+        {
+          "page": "441",
+          "parenthetical": "\"We have long applied the canon that provisions for benefits to members of the Armed Services are to be construed in the beneficiaries' favor.\" (quotations omitted) "
+        },
+        {
+          "parenthetical": "\"We have long applied the canon that provisions for benefits to members of the Armed Services are to be construed in the beneficiaries' favor.\" (quotations omitted) "
+        },
+        {
+          "page": "441"
+        },
+        {
+          "page": "441"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/562/0428-01",
+        "/l-ed-2d/179/0159-01"
+      ]
+    },
+    {
+      "cite": "138 S.Ct. 1061",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12610392
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1074"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/1061-01"
+      ]
+    },
+    {
+      "cite": "499 U.S. 83",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11318028
+      ],
+      "weight": 3,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "88-92",
+          "parenthetical": "comparing distinct usage of \"attorney's fees\" and \"expert fees\" among statutes"
+        },
+        {
+          "parenthetical": "comparing distinct usage of \"attorney's fees\" and \"expert fees\" among statutes"
+        },
+        {
+          "parenthetical": "comparing distinct usage of \"attorney's fees\" and \"expert fees\" among statutes"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/499/0083-01"
+      ]
+    },
+    {
+      "cite": "508 U.S. 200",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12197
+      ],
+      "weight": 3,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "208",
+          "parenthetical": "\"[I]t is generally presumed that Congress acts intentionally and purposely in the disparate inclusion or exclusion\" of \"particular language\""
+        },
+        {
+          "parenthetical": "\"[I]t is generally presumed that Congress acts intentionally and purposely in the disparate inclusion or exclusion\" of \"particular language\""
+        },
+        {
+          "parenthetical": "\"[I]t is generally presumed that Congress acts intentionally and purposely in the disparate inclusion or exclusion\" of \"particular language\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/508/0200-01"
+      ]
+    },
+    {
+      "cite": "38 U.S.C. \u00a7 101",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(30)",
+          "parenthetical": "defining the term \"Mexican border period\" in the case of \"a veteran who ... served in Mexico, on the borders thereof, or in the waters adjacent thereto\""
+        },
+        {
+          "page": "55:00-55:15",
+          "parenthetical": "government"
+        },
+        {
+          "page": "(30)",
+          "parenthetical": "referring to veterans who \"served in Mexico, on the borders thereof, or in the waters adjacent thereto\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "10 U.S.C. \u00a7\u00a7 3756",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 C.F.R. \u00a7 3",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "55:40-56:10",
+          "parenthetical": "government's counsel confirming offshore waters extend beyond the territorial sea"
+        },
+        {
+          "page": "2:00-2:16",
+          "parenthetical": "Mr. Procopio's counsel stating \"[t]he offshore water is broader than the territorial sea ... and it's an important difference because a nation is sovereign only in its territorial sea.\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "103 Stat. 2981",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "weight": 2,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "parenthetical": "\"International law recognizes that coastal nations may exercise sovereignty and jurisdiction over their territorial seas.\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "381 U.S. 139",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6167391
+      ],
+      "weight": 4,
+      "year": 1965,
+      "pin_cites": [
+        {
+          "page": "165",
+          "parenthetical": "stating the 1958 Convention provides \"the best and most workable definitions available\" for defining coastal boundaries"
+        },
+        {
+          "parenthetical": "stating the 1958 Convention provides \"the best and most workable definitions available\" for defining coastal boundaries"
+        },
+        {
+          "parenthetical": "stating the 1958 Convention provides \"the best and most workable definitions available\" for defining coastal boundaries"
+        },
+        {
+          "parenthetical": "\"[I]nternational law treats the territorial sea like land territory ....\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/381/0139-01"
+      ]
+    },
+    {
+      "cite": "38 C.F.R. \u00a7 3.309",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "pin_cites": [
+        {
+          "page": "(e)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "544 F.3d 1306",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3841652,
+        5631799
+      ],
+      "year": 2008,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/544/1306-01",
+        "/vet-app/22/1306-03"
+      ]
+    },
+    {
+      "cite": "519 U.S. 452",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11596027
+      ],
+      "weight": 8,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "461-63"
+        },
+        {
+          "page": "461-63"
+        },
+        {
+          "page": "461"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/519/0452-01"
+      ]
+    },
+    {
+      "cite": "467 U.S. 837",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6209106
+      ],
+      "weight": 16,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "842-43"
+        },
+        {
+          "page": "842"
+        },
+        {
+          "page": "842-43"
+        },
+        {
+          "page": "843"
+        },
+        {
+          "page": "842"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/467/0837-01"
+      ]
+    },
+    {
+      "cite": "525 F.3d 1168",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3582409,
+        5636655
+      ],
+      "weight": 26,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "1173"
+        },
+        {
+          "page": "1172"
+        },
+        {
+          "page": "1184"
+        },
+        {
+          "page": "1186"
+        },
+        {
+          "page": "1184-86"
+        },
+        {
+          "page": "1175-83",
+          "parenthetical": "discussing the difficulty in determining the likelihood of exposure to herbicides rather than any sovereignty concerns"
+        },
+        {
+          "page": "1183-86"
+        },
+        {
+          "page": "1186"
+        },
+        {
+          "page": "1186-97"
+        },
+        {
+          "page": "1190",
+          "parenthetical": "\"[T]he agency's current interpretation of its regulations differs from the position it took in some previous adjudications and seemed to take in its Adjudication Manual[.]\""
+        },
+        {
+          "page": "1185-86"
+        },
+        {
+          "page": "1172"
+        },
+        {
+          "page": "1184"
+        },
+        {
+          "page": "1184"
+        },
+        {
+          "page": "1192-93"
+        },
+        {
+          "page": "1185-86"
+        },
+        {
+          "page": "1184"
+        },
+        {
+          "page": "1186-90, 1197"
+        },
+        {
+          "page": "1195, 1197"
+        },
+        {
+          "page": "1194"
+        },
+        {
+          "page": "1183-86"
+        },
+        {
+          "page": "1186"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/525/1168-01",
+        "/vet-app/22/1168-01"
+      ]
+    },
+    {
+      "cite": "62 Fed. Reg. 63,603",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "63,604"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 C.F.R. \u00a7 3.307",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 3,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "(a)(6)",
+          "parenthetical": "\"Regulation 307\""
+        },
+        {
+          "page": "(a)(6)(iii)",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 U.S.C. \u00a7 1116",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 11,
+      "pin_cites": [
+        {
+          "page": "(a)",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)(1)"
+        },
+        {
+          "page": "(a)(1)(A)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 2619,
+    "char_count": 87849,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2591587385982735
+    },
+    "sha256": "691c3a500ba041684441bbab810d4e17e1ec5c7fd25c298eff42e72b9660c5b0",
+    "simhash": "1:9229fbdced7566b0",
+    "word_count": 13931
+  },
+  "last_updated": "2024-02-27T18:46:17.308091+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Alfred PROCOPIO, Jr., Claimant-Appellant\nv.\nRobert WILKIE, Secretary of Veterans Affairs, Respondent-Appellee"
+    ],
+    "opinions": [
+      {
+        "text": "Concurring opinion filed by Circuit Judge Lourie.\nConcurring opinion filed by Circuit Judge O'Malley.\nDissenting opinion filed by Circuit Judge Chen, in which Circuit Judge Dyk joins.\nMoore, Circuit Judge.\nAlfred Procopio, Jr., appeals a decision of the Court of Appeals for Veterans Claims denying service connection for prostate cancer and diabetes mellitus as a result of exposure to an herbicide agent, Agent Orange, during his Vietnam Warera service in the United States Navy. Because we hold that the unambiguous language of 38 U.S.C. \u00a7 1116 entitles Mr. Procopio to a presumption of service connection for his prostate cancer and diabetes mellitus, we reverse.\nBACKGROUND\nIn 1991, Congress passed the Agent Orange Act, codified at 38 U.S.C. \u00a7 1116, granting a presumption of service connection for certain diseases to veterans who \"served in the Republic of Vietnam\":\n[A] disease specified in paragraph (2) of this subsection becoming manifest as specified in that paragraph in a veteran who, during active military, naval, or air service, served in the Republic of Vietnam during the period beginning on January 9, 1962, and ending on May 7, 1975; and [B] each additional disease (if any) that (i) the Secretary determines in regulations prescribed under this section warrants a presumption of service-connection by reason of having positive association with exposure to an herbicide agent, and (ii) becomes manifest within the period (if any) prescribed in such regulations in a veteran who, during active military, naval, or air service, served in the Republic of Vietnam during the period beginning on January 9, 1962, and ending on May 7, 1975, and while so serving was exposed to that herbicide agent, shall be considered to have been incurred in or aggravated by such service, notwithstanding that there is no record of evidence of such disease during the period of such service.\n38 U.S.C. \u00a7 1116(a) (emphasis added). Under \u00a7 1116(f), such a veteran \"shall be presumed to have been exposed during such service to [the] herbicide agent ... unless there is affirmative evidence to establish that the veteran was not exposed to any such agent during that service.\"\nIn 1993, the Department of Veterans Affairs issued regulations pursuant to \u00a7 1116 that stated \" 'Service in the Republic of Vietnam' includes service in the waters offshore and service in other locations if the conditions of service involved duty or visitation in the Republic of Vietnam.\" 38 C.F.R. \u00a7 3.307(a)(6) (1993) (\"Regulation 307\"). In 1997 in a General Counsel opinion about a different regulation, the government interpreted Regulation 307 as limiting service \"in the Republic of Vietnam\" to service in waters offshore the landmass of the Republic of Vietnam only if the service involved duty or visitation on the landmass, including the inland waterways of the Republic of Vietnam, (\"foot-on-land\" requirement). Gen. Counsel Prec. 27-97 (July 23, 1997); 62 Fed. Reg. 63,603, 63,604 (Dec. 1, 1997).\nA panel of this court considered the government's interpretation of \u00a7 1116 in Haas v. Peake , 525 F.3d 1168 (Fed. Cir. 2008). Mr. Haas had served in waters offshore the landmass of the Republic of Vietnam but was denied \u00a7 1116 's presumption of service connection because he could not meet the government's foot-on-land requirement. Id. at 1173. Accordingly, we were asked to decide whether \"serv[ice] in the Republic of Vietnam\" in \u00a7 1116 required presence on the landmass or inland waterways of the Republic of Vietnam. Id. at 1172.\nWe applied the two-step framework of Chevron U.S.A., Inc. v. Natural Resources Defense Council, Inc. , 467 U.S. 837, 842-43, 104 S.Ct. 2778, 81 L.Ed.2d 694 (1984), to \u00a7 1116 and Regulation 307. At Chevron step one, the Haas court held that \u00a7 1116 was ambiguous as applied to veterans who, like Mr. Haas, served in the waters offshore the landmass of the Republic of Vietnam but did not meet the foot-on-land requirement. 525 F.3d at 1184. At Chevron step two, the Haas court held Regulation 307 was \"a reasonable interpretation of the statute\" but itself ambiguous. Id. at 1186. It then \"[a]ppl[ied] the substantial deference that is due to an agency's interpretation of its own regulations\" under Auer v. Robbins, 519 U.S. 452, 461-63, 117 S.Ct. 905, 137 L.Ed.2d 79 (1997), to uphold the government's interpretation of Regulation 307, i.e., the foot-on-land requirement. Id. at 1195. See also Haas v. Peake, 544 F.3d 1306 (Fed. Cir. 2008).\nMr. Procopio served aboard the U.S.S. Intrepid from November 1964 to July 1967. In July 1966, the Intrepid was deployed in the waters offshore the landmass of the Republic of Vietnam, including its territorial sea. Mr. Procopio sought entitlement to service connection for diabetes mellitus in October 2006 and for prostate cancer in October 2007 but was denied service connection for both in April 2009. Diabetes mellitus is listed in the statute under paragraph (2) of \u00a7 1116(a), and prostate cancer is listed in the pertinent regulation, 38 C.F.R. \u00a7 3.309(e). The Board of Veterans' Appeals likewise denied him service connection in March 2011 and again in July 2015, finding \"[t]he competent and credible evidence of record is against a finding that the Veteran was present on the landmass or the inland waters of Vietnam during service and, therefore, he is not presumed to have been exposed to herbicides, including Agent Orange,\" under \u00a7 1116. The Veterans Court affirmed, determining it was bound by our decision in Haas . Mr. Procopio timely appealed.\nA panel of this court heard oral argument on May 4, 2018, and on May 21, 2018, the parties were directed to file supplemental briefs on \"the impact of the pro-claimant canon on step one of the Chevron analysis in this case, assuming that Haas v. Peake did not consider its impact.\" On August 16, 2018, the court sua sponte ordered the case be heard en banc. We asked the parties to address two issues:\nDoes the phrase \"served in the Republic of Vietnam\" in ... \u00a7 1116 unambiguously include service in offshore waters within the legally recognized territorial limits of the Republic of Vietnam, regardless of whether such service included presence on or within the landmass of the Republic of Vietnam?\nWhat role, if any, does the pro-claimant canon play in this analysis?\nIn addition to the parties' briefs, we received seven amicus briefs. The en banc court heard oral argument on December 7, 2018.\nDISCUSSION\nSection 1116 extends the presumption of service connection to veterans who \"served in the Republic of Vietnam\" during a specified period if they came down with certain diseases. At issue is whether Mr. Procopio, who served in the territorial sea of the \"Republic of Vietnam\" during the specified period, \"served in the Republic of Vietnam\" under \u00a7 1116.\nChevron sets forth a two-step framework for interpreting a statute, like \u00a7 1116, that is administered by an agency. 467 U.S. at 842, 104 S.Ct. 2778. Step one asks \"whether Congress has directly spoken to the precise question at issue.\" Id. \"If the intent of Congress is clear, that is the end of the matter,\" and we \"must give effect to the unambiguously expressed intent of Congress.\" Id. at 842-43, 104 S.Ct. 2778. If, on the other hand, \"the statute is silent or ambiguous with respect to the specific issue,\" we proceed to Chevron step two, at which we ask \"whether the agency's answer is based on a permissible construction of the statute.\" Id. at 843, 104 S.Ct. 2778.\nHere, we determine at Chevron step one that Congress has spoken directly to the question of whether Mr. Procopio, who served in the territorial sea of the \"Republic of Vietnam,\" \"served in the Republic of Vietnam.\" He did. Congress chose to use the formal name of the country and invoke a notion of territorial boundaries by stating that \"service in the Republic of Vietnam\" is included. The intent of Congress is clear from its use of the term \"in the Republic of Vietnam,\" which all available international law unambiguously confirms includes its territorial sea. Because we must \"give effect to the unambiguously expressed intent of Congress,\" we do not reach Chevron step two.\nIn 1954, the nation then known as Vietnam was partitioned by a \"provisional military demarcation line\" into two regions colloquially known as \"North Vietnam\" and \"South Vietnam.\" Geneva Agreements on the Cessation of Hostilities in Vietnam, art. 1, July 20, 1954, 935 U.N.T.S. 149 (\"Geneva Accords\"). In 1955, South Vietnam was formally named, by proclamation of its president, the \"Republic of Vietnam.\" Provisional Constitutional Act Establishing the Republic of Viet-Nam , Oct. 26, 1955, reprinted in A.W. Cameron (ed.), Viet-Nam Crisis: A Documentary History, Volume I: 1940-1956 (1971).\nInternational law uniformly confirms that the \"Republic of Vietnam,\" like all sovereign nations, included its territorial sea. This was true in 1955 when the \"Republic of Vietnam\" was created. Geneva Accords at art. 4 (extending the provisional military demarcation line into the \"territorial waters\"). And this was true in 1991 when Congress adopted the Agent Orange Act. In 1958, the United States entered into the Convention on the Territorial Sea and the Contiguous Zone (\"1958 Convention\"), agreeing that \"[t]he sovereignty of a State extends, beyond its land territory and its internal waters, to a belt of sea adjacent to its coast, described as the territorial sea.\" 1958 Convention, art. 1(1), 15 U.S.T. 1606, T.I.A.S. No. 5639 (Apr. 29, 1958) ; see also United States v. California , 381 U.S. 139, 165, 85 S.Ct. 1401, 14 L.Ed.2d 296 (1965) (stating the 1958 Convention provides \"the best and most workable definitions available\" for defining coastal boundaries); Legal Issues Raised by the Proposed Presidential Proclamation to Extend the Territorial Sea, 12 O.L.C. 238, 247 (1988) (\"[T]he modern view is that the territorial sea is part of a nation and that a nation asserts full sovereignty rights over its territorial sea ....\"). In 1982, the United Nations Convention on the Law of the Sea (\"UNCLOS\") echoed the 1958 Convention, stating \"[t]he sovereignty of a coastal State extends ... to an adjacent belt of sea, described as the territorial sea,\" having a breadth \"not exceeding 12 nautical miles.\" Part II, arts. 2, 3, 1833 U.N.T.S. 397, 400 (Dec. 10, 1982). And the Restatement of Foreign Relations Law in effect when the Agent Orange Act was passed provided that \"[a] state has complete sovereignty over the territorial sea, analogous to that which it possesses over its land territory, internal waters, and archipelagic waters,\" meaning \"[t]he rights and duties of a state and its jurisdiction are the same in the territorial sea as in its land territory.\" Restatement (Third) of Foreign Relations Law \u00a7\u00a7 511, cmt. b, 512, cmt. a (1987); see also id. (\"[I]nternational law treats the territorial sea like land territory ....\"); Presidential Proclamation 5928, 103 Stat. 2981 (1988) (\"International law recognizes that coastal nations may exercise sovereignty and jurisdiction over their territorial seas.\").\nThus, all available international law, including but not limited to the congressionally ratified 1958 Convention, confirms that, when the Agent Orange Act was passed in 1991, the \"Republic of Vietnam\" included both its landmass and its 12 nautical mile territorial sea. The government has pointed to no law to the contrary. This uniform international law was the backdrop against which Congress adopted the Agent Orange Act. By using the formal term \"Republic of Vietnam,\" Congress unambiguously referred, consistent with that backdrop, to both its landmass and its territorial sea. We also note that the statute expressly includes \"active military, naval, or air service ... in the Republic of Vietnam,\" \u00a7 1116(a)(1), reinforcing our conclusion that Congress was expressly extending the presumption to naval personnel who served in the territorial sea. We conclude at Chevron step one that the intent of Congress is clear from the text of \u00a7 1116 : Mr. Procopio, who served in the territorial sea of the \"Republic of Vietnam,\" is entitled to \u00a7 1116 's presumption.\nWe find no merit in the government's arguments to the contrary. Its primary argument is that it injected ambiguity into the term \"Republic of Vietnam\" prior to the Agent Orange Act by promulgating two regulations, 38 C.F.R. \u00a7 3.311a(a)(1) (\"Regulation 311\") and \u00a7 3.313(a) (\"Regulation 313\"). According to the government, Regulation 311 imposed the foot-on-land requirement, but Regulation 313 did not. The government contends that \u00a7 1116 codified both regulations and that, accordingly, it is ambiguous whether Congress intended to impose the foot-on-land requirement. We are not persuaded.\nRegulation 311 created a presumption of service connection for chloracne and later soft-tissue sarcomas for veterans who served in \"the Republic of Vietnam.\" It stated:\n\"Service in the Republic of Vietnam\" includes service in the waters offshore and service in other locations, if the conditions of service involved duty or visitation in the Republic of Vietnam.\nRegulation 313 created a presumption of service connection for Non-Hodgkin's lymphoma for veterans who served in \"Vietnam.\" It stated:\n\"Service in Vietnam\" includes service in the waters offshore, or service in other locations if the conditions of service involved duty or visitation in Vietnam.\nThe government asks us to infer that Regulation 311 imposed the foot-on-land requirement, and that Regulation 313 did not. This distinction is essential to its argument that \u00a7 1116, which codified both, is ambiguous. We do not agree. We do not read Regulation 311, Regulation 313, or even later-adopted Regulation 307 as articulating the government's current foot-on-land requirement. And there is no indication anyone, including the government, did before \u00a7 1116 was adopted.\nRegulation 311 grants a presumption of service connection for \"service in the waters offshore and service in other locations, if the conditions of service involved duty or visitation in the Republic of Vietnam.\" Regulation 313 grants the presumption for \"service in the waters offshore, or service in other locations if the conditions of service involved duty or visitation in Vietnam.\" We do not read these minor grammatical differences to compel the distinction the government urges. At best, the addition of a comma in Regulation 311 permits the clause \"if the conditions of service involved duty or visitation in the Republic of Vietnam\" to modify both \"service in the waters offshore\" and \"service in other locations.\" But even if Regulation 311 is so read, it still does not impose the foot-on-land requirement: it covers everyone whose service included duty or visitation \"in the Republic of Vietnam,\" which, under background law, embraces the territorial sea.\nThat is the straightforward meaning of the regulation even after taking full account of the comma. As the government concedes, the \"waters offshore\" are broader than the territorial sea. See Oral Argument at 55:08-55:19 (government's counsel acknowledging offshore waters \"can also include beyond the territorial seas\"); id. at 55:40-56:10 (government's counsel confirming offshore waters extend beyond the territorial sea); cf. id. at 2:00-2:16 (Mr. Procopio's counsel stating \"[t]he offshore water is broader than the territorial sea ... and it's an important difference because a nation is sovereign only in its territorial sea.\"). Regulation 311's requirement of \"duty or visitation in the Republic of Vietnam\" brings within coverage only a subset of all those who served \"offshore,\" namely, those whose service included presence on land, in the inland waterways, or in the territorial sea, consistent with international law. That is, veterans who served in the waters offshore or in other locations would be eligible for the presumption if during such service they visited the Republic of Vietnam (which is defined as the landmass and territorial sea by international law).\nGiven the undisputed distinction between offshore waters and territorial seas, we see no basis for incorporating a foot-on-land requirement into Regulation 311. The only discussion of this provision appears in the proposed rulemaking where the government explains that, \"[b]ecause some military personnel stationed elsewhere may have been present in the Republic of Vietnam, 'service in the Republic of Vietnam' will encompass services elsewhere if the person concerned actually was in the Republic of Vietnam , however briefly.\" 50 Fed. Reg. at 15,848, 15,849 (Apr. 22, 1985). We see no evidence that the government understood Regulation 311 to include the foot-on-land requirement until after the Agent Orange Act was passed. The government first articulated this position in 1997, six years after the Act. Gen. Counsel Prec. 27-97 (July 23, 1997). We cannot read into \u00a7 1116 an ambiguity that relies on a distinction made only after \u00a7 1116 was adopted.\nIt is undisputed that Regulation 313 covering Non-Hodgkin's lymphoma does not include the foot-on-land requirement, meaning the presumption of service connection for Non-Hodgkin's lymphoma would have applied to veterans who served on the landmass or in the territorial sea. The government asserts that Regulation 311 presumed service connection for diseases-chloracne and soft-tissue sarcomas-linked to herbicide exposure, while Regulation 313 presumed service connection for a disease-Non-Hodgkin's lymphoma-not linked to herbicide exposure. But that asserted distinction does not indicate ambiguity in \u00a7 1116. Indeed, when Congress enacted \u00a7 1116 it expressly extended the presumption to Non-Hodgkin's lymphoma, as well as chloracne and soft-tissue sarcomas. And the government argues that \u00a7 1116 intended to codify Regulation 311 and Regulation 313. No fair reading of \u00a7 1116 can exclude the very veterans suffering from Non-Hodgkin's lymphoma that were entitled to Regulation 313's presumption, yet the government's (and the dissent's) reading does just that: According to the government, a veteran with Non-Hodgkin's lymphoma who served in the Republic of Vietnam's territorial sea would have been entitled to service connection under Regulation 313, but this same veteran would not be entitled to service connection under \u00a7 1116. This cannot be right. We decline to read \u00a7 1116, as the dissent urges, to both codify Regulation 313 and erode that regulation's coverage. We see no basis to conclude that Congress chose to reduce the scope of service connection for Non-Hodgkin's lymphoma without explanation.\nIn short, we do not understand Regulation 311 or Regulation 313 to articulate a foot-on-land requirement. We find no merit to the government's argument that \u00a7 1116 is ambiguous because \"Congress's codification of the existing regulatory presumptions ... tells, at best, a conflicting story.\" Appellee's Br. 39-40. In 1991, Congress legislated against the backdrop of international law that had defined the \"Republic of Vietnam\" as including its territorial sea for decades. The government's foot-on-land requirement, first articulated in 1997, does not provide a basis to find ambiguity in the language Congress chose.\nThe government also argues the \"Republic of Vietnam\" in \u00a7 1116 does not include its territorial sea because when Congress intends to bring a territorial sea within the ambit of a statute, it says so expressly. But the examples the government points to address not a nation's territorial sea, but only \"waters adjacent.\" 10 U.S.C. \u00a7\u00a7 3756, 6258, 8756 (extending the Korea Defense Service Medal to those who \"served in the Republic of Korea or the waters adjacent thereto\"); Veterans' Rehabilitation and Education Amendments of 1980, Pub. L. No. 96-466, \u00a7 513(b) (providing for the publishing of labor statistics on \"veterans ... who served ... in naval missions in the waters adjacent to Vietnam\"); 38 U.S.C. \u00a7 101(30) (defining the term \"Mexican border period\" in the case of \"a veteran who ... served in Mexico, on the borders thereof, or in the waters adjacent thereto\"). While the dissent calls this distinction \"speculative,\" Dissent at 1391, both parties conceded at oral argument that the \"waters adjacent\" to a nation are distinct from, and extend beyond, its territorial sea. See Oral Argument at 26:50-27:18 (Mr. Procopio); id. at 55:00-55:15 (government). It is precisely because \"waters adjacent\" go beyond a nation's landmass and territorial sea that Congress needed to specify \"waters adjacent\" in these statutes. See , e.g. , Keene Corp. v. United States , 508 U.S. 200, 208, 113 S.Ct. 2035, 124 L.Ed.2d 118 (1993) (\"[I]t is generally presumed that Congress acts intentionally and purposely in the disparate inclusion or exclusion\" of \"particular language\"); W. Va. Univ. Hosps., Inc. v. Casey , 499 U.S. 83, 88-92, 111 S.Ct. 1138, 113 L.Ed.2d 68 (1991) (comparing distinct usage of \"attorney's fees\" and \"expert fees\" among statutes). These statutes cast no doubt on our conclusion that, by using the formal term \"Republic of Vietnam,\" Congress unambiguously referred, consistent with uniform international law, to both its landmass and its 12 nautical mile territorial sea.\nThe other statutes the government cites likewise cast no doubt on this conclusion. The government has failed to cite any instance in which the unmodified use of a formal sovereign name has been construed to not include its territorial sea. Instead, the government would have us infer that because several statutes refer to both the \"United States\" and its \"territorial seas\" or \"territorial waters,\" the term \"United States\" cannot be generally understood to include territorial sea. We see no basis for drawing that inference. As the Supreme Court has observed, there are \"many examples of Congress legislating in that hyper-vigilant way, to 'remov[e] any doubt' as to things not particularly doubtful in the first instance.\" Cyan, Inc. v. Beaver Cty. Employees Ret. Fund , --- U.S. ----, 138 S.Ct. 1061, 1074, 200 L.Ed.2d 332 (2018).\nRespectfully, the Haas court went astray when it found ambiguity in \u00a7 1116 based on \"competing methods of defining the reaches of a sovereign nation\" and the government's urged distinction between Regulations 311 and 313. 525 F.3d at 1184-86. As discussed above, international law uniformly confirms that the \"Republic of Vietnam\" included its territorial sea. And we cannot read into \u00a7 1116 an ambiguity that relies on a distinction between Regulations 311 and 313 made by the government only after \u00a7 1116 was adopted. Haas is overruled.\nThe parties and amici have differing views on the role the pro-veteran canon should play in this analysis. See generally Henderson v. Shinseki , 562 U.S. 428, 441, 131 S.Ct. 1197, 179 L.Ed.2d 159 (2011) ; Brown v. Gardner , 513 U.S. 115, 117-18, 115 S.Ct. 552, 130 L.Ed.2d 462 (1994) ; King v. St. Vincent's Hosp. , 502 U.S. 215, 220 n.9, 112 S.Ct. 570, 116 L.Ed.2d 578 (1991) ; Fishgold v. Sullivan Drydock & Repair Corp. , 328 U.S. 275, 285, 66 S.Ct. 1105, 90 L.Ed. 1230 (1946) ; Boone v. Lightner , 319 U.S. 561, 575, 63 S.Ct. 1223, 87 L.Ed. 1587 (1943). Given our conclusion that the intent of Congress is clear from the text of \u00a7 1116-and that clear intent favors veterans-we have no reason to reach this issue.\nNo judge on this court has determined that this veteran should be denied benefits under \u00a7 1116. One concurrence concludes that \u00a7 1116 is ambiguous but finds the agency's interpretation unreasonable. See Lourie, J., concurring. Because we decide that the statute is unambiguous, we need not decide whether the agency's interpretation is reasonable. The dissent concludes that \u00a7 1116 is ambiguous but claims it is \"premature\" to decide whether the agency's interpretation is unreasonable. Dissent at 1395-96 (refusing to consider the reasonableness of the agency's interpretation). Respectfully, by declining to reach Chevron step two, the dissent fails to decide this case.\nCONCLUSION\nCongress has spoken directly to the question of whether those who served in the 12 nautical mile territorial sea of the \"Republic of Vietnam\" are entitled to \u00a7 1116 's presumption if they meet the section's other requirements. They are. Because \"the intent of Congress is clear, that is the end of the matter.\" Chevron , 467 U.S. at 842, 104 S.Ct. 2778. Mr. Procopio is entitled to a presumption of service connection for his prostate cancer and diabetes mellitus. Accordingly, we reverse.\nREVERSED AND REMANDED\nLourie, Circuit Judge, concurring in the judgment.\nI join the majority in reversing the judgment of the Veterans Court, but, respectfully, I would do so for different reasons.\nI do not agree with the majority that international law and sovereignty principles, which would include the territorial waters of the Republic of Vietnam, render the phrase \"served in the Republic of Vietnam\" in 38 U.S.C. \u00a7 1116 unambiguous. See Majority at 1375-76. Sovereign borders are not necessarily what Congress had in mind when it enacted statutes for veterans' benefits, and specifically, when it enacted the Agent Orange Act. See Haas v. Peake , 525 F.3d 1168, 1175-83 (Fed. Cir. 2008) (discussing the difficulty in determining the likelihood of exposure to herbicides rather than any sovereignty concerns). The majority's holding thus covers more legal territory than necessary and decides an issue not before us.\nI instead agree with the court in Haas , see id. at 1183-86, and the dissent, see Dissent at 1389-94, that \"served in the Republic of Vietnam\" is ambiguous under Chevron step one. The statute entitles a veteran to a presumption of service connection for certain diseases if the veteran \"served in the Republic of Vietnam.\" 38 U.S.C. \u00a7 1116(a). That qualification does not tell us whether offshore waters are or are not included. Thus, as to that issue, the statute surely is ambiguous.\nI also agree with the Haas court that under Chevron step two, the regulation promulgated by the agency reflects a reasonable interpretation of the statute. See Haas , 525 F.3d at 1186. However, unlike the court in Haas , I would hold that the agency's interpretation of its regulation is not owed any deference as generally required by Auer v. Robbins , 519 U.S. 452, 461-63, 117 S.Ct. 905, 137 L.Ed.2d 79 (1997), because the regulation is not ambiguous, see Christensen v. Harris Cty. , 529 U.S. 576, 588, 120 S.Ct. 1655, 146 L.Ed.2d 621 (2000) (\" Auer deference is warranted only when the language of the regulation is ambiguous.\"). Contra Haas , 525 F.3d at 1186-97.\nThe agency's regulation states that \" '[s]ervice in the Republic of Vietnam' includes service in the waters offshore and service in other locations if the conditions of service involved duty or visitation in the Republic of Vietnam.\" 38 C.F.R. \u00a7 3.307(a)(6)(iii) (emphasis added). In interpreting the regulation, we need not resort to international definitions of national sovereignty over waters adjacent to land or to the pro-veteran canon; we should simply read the plain language of the regulation. And, the plain reading of this inclusive regulation specifies that service in the Republic of Vietnam includes (1) \"service in the waters offshore\" and (2) \"service in other locations if the conditions of service involved duty or visitation in the Republic of Vietnam.\" Id. Thus, a veteran who served in the \"waters offshore\" is included within the meaning of \"service in the Republic of Vietnam\" and entitled to presumptive service connection.\nThe agency in this case appears to have interpreted the \"duty or visitation\" clause to modify not only the service in \"other locations,\" but also \"waters offshore,\" creating a foot-on-land requirement. See Majority at 1393-94 (discussing the agency's interpretation). However, if \"duty or visitation\" were required for all Vietnam veterans, the phrases \"waters offshore\" and \"other locations\" would be superfluous. Cf. Hibbs v. Winn , 542 U.S. 88, 102, 124 S.Ct. 2276, 159 L.Ed.2d 172 (2004) (citation omitted) (\"A statute should be construed so that effect is given to all its provisions, so that no part will be inoperative or superfluous, void or insignificant ....\"). Under the agency's interpretation, it would matter not whether the veteran served in the \"waters offshore\" or \"other locations\" as long as the veteran set foot on the Vietnam landmass, which renders the \"duty or visitation\" clause the only operative phrase. That is contrary to the regulation's plain language.\nWhile we, at least until higher law says otherwise, are obligated to give some degree of deference to an agency in interpreting its own regulation, see Auer , 519 U.S. at 461, 117 S.Ct. 905, deference has its limits. We are not obligated to give an agency deference when the regulation is not ambiguous, see Christensen , 529 U.S. at 588, 120 S.Ct. 1655, or when an \"alternative reading is compelled by the regulation's plain language,\" Thomas Jefferson Univ. v. Shalala , 512 U.S. 504, 512, 114 S.Ct. 2381, 129 L.Ed.2d 405 (1994) (quoting Gardebring v. Jenkins , 485 U.S. 415, 430, 108 S.Ct. 1306, 99 L.Ed.2d 515 (1988) ), as it does here. Thus, I would reverse the judgment of the Veterans Court because the agency's regulation plainly entitled Mr. Procopio to a presumption of service connection for his prostate cancer and diabetes mellitus based on his service in the offshore waters of Vietnam.\nO'Malley, Circuit Judge, concurring.\nI agree with the majority's well-reasoned decision. The term \"Republic of Vietnam,\" as it appears in 38 U.S.C. \u00a7 1116, unambiguously encompasses its territorial waters.\nI write separately because I believe the pro-veteran canon of construction adds further support to the majority's conclusion. Specifically, I write to explain that: (1) the pro-veteran canon, like every other canon of statutory construction, can and should apply at step one of Chevron to help determine whether a statutory ambiguity exists; and, (2) even when a statute remains irresolvably ambiguous, when a choice between deferring to an agency interpretation of that statute-or particularly where that interpretation is itself ambiguous-and resolving any ambiguity by application of the pro-veteran canon come to a head, traditional notions of agency deference must give way.\nThe Supreme Court has made clear that courts are obligated to apply all traditional tools of statutory interpretation at step one of Chevron . 467 U.S. at 843 n.9, 104 S.Ct. 2778. Indeed, \"we owe an agency's interpretation of the law no deference unless, after 'employing traditional tools of statutory construction,' we find ourselves unable to discern Congress's meaning.\" SAS Inst., Inc. v. Iancu , --- U.S. ----, 138 S.Ct. 1348, 1358, 200 L.Ed.2d 695 (2018) (quoting Chevron , 467 U.S. at 843 n.9, 104 S.Ct. 2778.); see also Epic Sys. Corp. v. Lewis , --- U.S. ----, 138 S.Ct. 1612, 1630, 200 L.Ed.2d 889 (2018) (\"[D]eference is not due unless a court, employing traditional tools of statutory construction, is left with an unresolved ambiguity. And [here,] that [ ] is missing: the canon against reading conflicts into statutes is a traditional tool of statutory construction and it, along with the other traditional canons we have discussed, is more than up to the job of solving today's interpretive puzzle. Where, as here, the canons supply an answer, Chevron leaves the stage.\" (internal citations and quotations omitted) ); Food & Drug Admin. v. Brown & Williamson Tobacco Corp. , 529 U.S. 120, 132-33, 120 S.Ct. 1291, 146 L.Ed.2d 121 (2000) (employing at Chevron step one the \"fundamental canon of statutory construction that the words of a statute must be read in their context and with a view to their place in the overall statutory scheme\"); Gazelle v. Shulkin , 868 F.3d 1006, 1011-12 (Fed. Cir. 2017) (employing at Chevron step one the canon that \"Congress 'legislate[s] against the backdrop of existing law' \" (citation omitted) ).\nA court similarly may not defer to an agency's interpretation of its own regulation or any other interpretive ruling unless, after applying the same interpretative principles that apply in the context of statutory interpretation, the court finds the regulation or interpretation to be ambiguous. Christensen v. Harris County , 529 U.S. 576, 588, 120 S.Ct. 1655, 146 L.Ed.2d 621 (2000) (\" Auer deference is warranted only when the language of the regulation is ambiguous.\"); Aqua Prods., Inc. v. Matal , 872 F.3d 1290, 1316 (Fed. Cir. 2017) (en banc) (\"We use the same interpretive rules to construe regulations as we do statutes[.]\"); Roberto v. Dep't of Navy , 440 F.3d 1341, 1350 (Fed. Cir. 2006) (same). Thus, there is no doubt that courts must apply all traditional tools of statutory construction before resort to agency deference, regardless of at what point the agency seeks deference.\nThere is also no doubt that the pro-veteran canon is one such traditional tool. Henderson v. Shinseki , 562 U.S. 428, 441, 131 S.Ct. 1197, 179 L.Ed.2d 159 (2011) (\"We have long applied the canon that provisions for benefits to members of the Armed Services are to be construed in the beneficiaries' favor.\" (quotations omitted) ); see Antonin Scalia, Judicial Deference to Administrative Interpretations of Law, 1989 DUKE L.J. 511, 515 (1989) (\"[T]he consideration and evaluation of policy consequences\" is \"part of the traditional judicial tool-kit that is used in applying the first step of Chevron [.]\"). The pro-veteran canon instructs that provisions providing benefits to veterans should be liberally construed in the veterans' favor, with any interpretative doubt resolved to their benefit. See, e.g. , King v. St. Vincent's Hosp. , 502 U.S. 215, 220 n.9, 112 S.Ct. 570, 116 L.Ed.2d 578 (1991). The Supreme Court first articulated this canon in Boone v. Lightner to reflect the sound policy that we must \"protect those who have been obliged to drop their own affairs to take up the burdens of the nation.\" 319 U.S. 561, 575, 63 S.Ct. 1223, 87 L.Ed. 1587 (1943). This same policy underlies the entire veterans benefit scheme. Barrett v. Principi , 363 F.3d 1316, 1320 (Fed. Cir. 2004) (\"[T]he veterans benefit system is designed to award entitlements to a special class of citizens, those who risked harm to serve and defend their country. This entire scheme is imbued with special beneficence from a grateful sovereign.\" (quotations omitted) ).\nFew provisions embody this veteran-friendly purpose more than \u00a7 1116 's presumption of service connection for those who served in the Republic of Vietnam. Congress enacted this presumption in response to concerns that the agency was \"utilizing too high a standard for determining if there is a linkage between exposure to Agent Orange and a subsequent manifestation of a disease\" and was thereby \"failing to give the benefit of the doubt to veterans in prescribing the standards in the regulations for VA to use in deciding whether to provide service connection for any specific disease.\" Sidath Viranga Panangala et al., Cong. Research Serv., R41405, Veterans Affairs: Presumptive Service Connection and Disability Compensation 14 (2014) (quoting Nehmer v. United States Veterans' Admin., 712 F. Supp. 1404, 1423 (N.D. Cal. 1989) ); see also Agent Orange Legislation and Oversight: Hearing on S. 1692 & S. 1787 Before the S. Comm. on Veterans' Affairs , 1988 Leg., 2nd Sess. 5 (statement of Sen. Thomas A. Daschle, Member, S. Comm. on Veterans' Affairs) (\"[T]here is a time for study and more study, and there is a time for leadership. In the case of veterans exposed to Agent Orange ... science will never be able to dictate policy. That is our role.\"). Section 1116 was designed to afford veterans the benefit of the doubt in the face of scientific uncertainty.\nCourts have \"long applied\" the pro-veteran canon of construction to such provisions. Henderson , 562 U.S. at 441, 131 S.Ct. 1197. And, because we presume Congress legislates with the knowledge of judicial canons of statutory construction, we should apply this canon to resolve doubt in a claimant's favor because that is precisely what Congress intended when it enacted the Agent Orange Act in 1991 against the backdrop of Boone . King , 502 U.S. at 220 n.9, 112 S.Ct. 570. Thus, when interpreting such statutes, or regulations promulgated thereunder, we may not resort to agency deference unless, after applying the pro-veteran canon along with other tools of statutory interpretation, we are left with an unresolved ambiguity.\nThe government contends that applying the pro-veteran canon before resorting to agency deference would usurp the agency's role of gap-filling. But the government forgets that an agency has no responsibility to fill gaps if we find that Congress did not leave such a gap. SAS , 138 S.Ct. at 1358 ; City of Arlington v. F.C.C. , 569 U.S. 290, 327, 133 S.Ct. 1863, 185 L.Ed.2d 941 (2013) (Roberts, C.J., dissenting) (\"We do not leave it to the agency to decide when it is in charge.\"). And, importantly, it ignores that \"the duty to interpret statutes as set forth by Congress is a duty that rests with the judiciary.\" Bankers Tr. N.Y. Corp. v. United States , 225 F.3d 1368, 1376 (Fed. Cir. 2000). Deference cannot displace either this duty or the duty to consider appropriate legal doctrines when exercising it.\nWhen the pro-veteran canon and agency deference come to a head, it is agency deference-the weaker of two doctrines at any level-that must give way. Several justices of the Supreme Court have urged their colleagues \"to reconsider, in an appropriate case, the premises that underlie Chevron and how courts have implemented that decision.\" Pereira v. Sessions , --- U.S. ----, 138 S.Ct. 2105, 2121, 201 L.Ed.2d 433 (2018) (Kennedy, J., concurring); see also Michigan v. E.P.A. , --- U.S. ----, 135 S.Ct. 2699, 2712, 192 L.Ed.2d 674 (2015) (Thomas, J., concurring) (\"I write separately to note that [the agency's] request for deference raises serious questions about the constitutionality of our broader practice of deferring to agency interpretations of federal statutes.\"). By requiring courts to defer to an agency's interpretation of a statute-not because it is the correct interpretation but because it is merely reasonable- Chevron deference \"wrests from Courts the ultimate interpretative authority to say what the law is,\" and thereby \"raises serious separation-of-powers questions.\" Michigan , 135 S.Ct. at 2712.\nThe case for Auer deference is even weaker. Not only have several justices expressed concerns with Auer deference, the Supreme Court recently granted certiorari on the question of whether the Court should overrule Auer entirely. Kisor v. Shulkin , 880 F.3d 1378 (Fed. Cir. 2018), cert. granted , Kisor v. Wilkie , --- U.S. ----, 139 S.Ct. 657, --- L.Ed.2d ----, 2018 WL 6439837 (2018) (granting certiorari on question of \"[w]hether the Court should overrule Auer and [Bowles v.] Seminole Rock [& Sand Co., 325 U.S. 410, 65 S.Ct. 1215, 89 L.Ed. 1700 (1945) ]\" and declining to consider \"[a]lternatively\"-presented question of \"whether Auer deference should yield to a substantive canon of construction\"). As I have previously opined, Auer deference \"encourages agencies to write ambiguous regulations and interpret them later, which defeats the purpose of delegation, undermines the rule of law, and ultimately allows agencies to circumvent the notice-and-comment rulemaking process.\" Kisor v. Shulkin , 880 F.3d 1378, 1379-80 (Fed. Cir. 2018) (O'Malley, J., dissenting from denial of en banc) (internal quotations and alterations omitted) (citing Hudgens v. McDonald , 823 F.3d 630, 639 n.5 (Fed. Cir. 2016) (O'Malley, J.); Johnson v. McDonald , 762 F.3d 1362, 1366-68 (Fed. Cir. 2014) (O'Malley, J., concurring) ). In this way, Auer deference leaves agencies' rulemaking authority unchecked and, as with Chevron , raises serious questions regarding separation of powers. Decker v. Nw. Envtl. Def. Ctr. , 568 U.S. 597, 621, 133 S.Ct. 1326, 185 L.Ed.2d 447 (2013) (Scalia, J., dissenting) (explaining that Auer \"contravenes one of the great rules of separation of powers\" that \"[h]e who writes the law must not adjudge its violation\")\nOf course, we have no authority to overturn either Chevron or Auer . But we can and should consider these well-documented weaknesses when agency deference conflicts with the pro-veteran canon of construction. Questionable principles of deference should not displace long-standing canons of construction. Here, there is no justification for deferring to the agency's interpretation of \"Republic of Vietnam\" when that interpretation fails to account for the purpose underlying the entire statutory scheme providing benefits to veterans. See Util. Air Regulatory Grp. v. E.P.A. , 573 U.S. 302, 321, 134 S.Ct. 2427, 189 L.Ed.2d 372 (2014) (\"Even under Chevron 's deferential framework, agencies must operate within the bounds of reasonable interpretation. ... A statutory provision that may seem ambiguous in isolation is often clarified by the remainder of the statutory scheme because only one of the permissible meanings produces a substantive effect that is compatible with the rest of the law.\" (internal quotations and alterations omitted) ). Rather, deference should yield to the canon that embodies this very purpose. To hold otherwise would not only wrest from us our interpretative authority to say what the law is, it would displace congressional intent.\nSimilarly, there is no justification for deferring to the agency's interpretation of its own ambiguous regulation when it twice attempted and failed to codify the foot-on-land requirement through the notice-and-comment rulemaking process.\nPresumptions of Service Connection for Certain Disabilities, and Related Matters, 69 Fed. Reg. 44,614, 44,620 (July 27, 2004) ; Definition of Service in the Republic of Vietnam, 73 Fed. Reg. 20,566, 20,567 (Apr. 16, 2008). We should not reward the agency with Auer deference when it circumvents the rules mandated by Congress in the Administrative Procedure Act in its effort to reach a result contrary to the pro-veteran canon. And, when the agency does not deny that its interpretation of the regulations to which it now points to support the foot-on-land requirement has been inconsistent over the years, the case for deference is weaker still. Haas , 525 F.3d at 1190 (\"[T]he agency's current interpretation of its regulations differs from the position it took in some previous adjudications and seemed to take in its Adjudication Manual[.]\"). Thus, in a case like this one, where questionable resort to agency deference and the pro-veteran canon come to a head, agency deference must yield.\nThe government contends that the pro-veteran canon, like the rule of lenity-which \"requires interpreters to resolve ambiguity in criminal laws in favor of defendants\"-is a canon of last resort that cannot trump agency deference. Whitman v. United States , --- U.S. ----, 135 S.Ct. 352, 353, 190 L.Ed.2d 381 (2014). This comparison misses the mark. While the Supreme Court cautions against the overuse of the rule of lenity, it has treated the pro-veteran canon more favorably. Compare Moskal v. United States , 498 U.S. 103, 108, 111 S.Ct. 461, 112 L.Ed.2d 449 (1990) (\"[W]e have always reserved lenity for those situations in which a reasonable doubt persists about a statute's intended scope even after resort to the language and structure, legislative history, and motivating policies of the statute.\" (internal quotations omitted) ), with Henderson , 562 U.S. at 441, 131 S.Ct. 1197 (\"We have long applied the canon that provisions for benefits to members of the Armed Services are to be construed in the beneficiaries' favor.\" (quotations omitted) ). This is not surprising considering that the principles animating the rule of lenity differ greatly from those of the pro-veteran canon. The rule of lenity merely reflects a \"presupposition of our law to resolve doubts in the enforcement of a penal code against the imposition of a harsher punishment,\" but it is \"not out of any sentimental consideration, or for want of sympathy with the purpose of Congress in proscribing evil or anti-social conduct.\" Bell v. United States , 349 U.S. 81, 83, 75 S.Ct. 620, 99 L.Ed. 905 (1955). In contrast, the pro-veteran canon recognizes this country's equitable obligation to \"those who have been obliged to drop their own affairs to take up the burdens of the nation.\" Boone , 319 U.S. at 575, 63 S.Ct. 1223.\nIn this way, the pro-veteran canon is more analogous to the substantive canon of construction applied in the context of Indian law, which instructs that \"statutes are to be construed liberally in favor of Indians, with ambiguous provisions interpreted to their benefit.\" Montana v. Blackfeet Tribe of Indians , 471 U.S. 759, 766, 105 S.Ct. 2399, 85 L.Ed.2d 753 (1985). As the Supreme Court has explained, \"standard principles of statutory construction do not have their usual force\" when weighed against the pro-Indian canon because the canon is \"rooted in the unique trust relationship between the United States and the Indians.\" Id.\nApplying this principle, courts have found that the pro-Indian canon trumps agency deference under Chevron . Cobell v. Norton , 240 F.3d 1081, 1101 (D.C. Cir. 2001) (\" Chevron deference is not applicable\" in the context of Indian law because \"the special strength\" of this canon trumps the normally-applicable deference.); see also Ramah Navajo Chapter v. Lujan, 112 F.3d 1455, 1461-62 (10th Cir. 1997) (\"[T]he canon of construction favoring Native Americans controls over the more general rule of deference to agency interpretations of ambiguous statutes.\"). The same should be true in this context.\nAs explained above, this country's relationship with its veterans is also both unique and important. The policy that we owe a debt of gratitude to those who served our country, which is the driving purpose behind the Agent Orange Act, is derived from the same sources as the pro-veteran canon, i.e., that those who served their country are entitled to special benefits from a grateful nation. See, e.g ., 137 Cong. Rec. E1486-01, 137 Cong. Rec. E1486-01, E1486, 1991 WL 65877, *1 (\"We owe it to our Vietnam veterans to enact badly needed legislation such as this so that they are given a full and proper 'thank you.' \"); Barrett , 363 F.3d at 1320. Therefore, when the pro-veteran canon and reflexive agency deference conflict, the canon should control.\nBy codifying in \u00a7 1116 a presumption of service connection for those who served in the Republic of Vietnam, Congress recognized that veterans should not have to fight for benefits from the very government they once risked their lives to defend. We ignore this purpose when we fail to apply the pro-veteran canon to resolve ambiguities in statutes and regulations that provide benefits to veterans; and, by failing to hold that agency deference must yield to the pro-veteran canon, we permit agencies to do the same. The practical result is that veterans like Mr. Procopio, even after returning home, are still fighting. Therefore, while I agree with the majority's decision, I write separately to lament the court's failure-yet again-to address and resolve the tension between the pro-veteran canon and agency deference.\nChen, Circuit Judge, dissenting, with whom Circuit Judge Dyk joins.\nMr. Procopio suffers from prostate cancer and type 2 diabetes. He claims that his conditions are service connected, relying on a statutory provision, 38 U.S.C. \u00a7 1116, that creates a presumption of service connection for service members who \"served in the Republic of Vietnam during the period beginning on January 9, 1962, and ending on May 7, 1975.\" We granted en banc review to determine whether this provision unambiguously applies to Blue Water Navy veterans, like Mr. Procopio, who served in the territorial waters of Vietnam.\nThe majority concludes that the statute unambiguously applies to Blue Water Navy veterans who did not set foot on the Vietnam landmass and overrules our prior decision to the contrary in Haas v. Peake , 525 F.3d 1168 (Fed. Cir. 2008). In my view, the statute is ambiguous, and the majority inappropriately preempts Congress's role in determining whether the statute should apply in these circumstances-an issue which Congress is grappling with at this very time.\nOur court has already confronted this precise interpretive question for veterans who served on ships off the coast of Vietnam during the Vietnam War. And we concluded, after considering the statute and its legislative history, that this statutory phrase is ambiguous. See id. at 1185-86. By repudiating a statutory interpretation from a 10-year old precedential opinion without any evidence of changed circumstances, today's decision undermines the principle of stare decisis .\nContrary to the majority's conclusion, international law and sovereignty principles do not dictate that Congress unambiguously intended \"Republic of Vietnam\" to include its territorial waters. No prior case has announced a principle that a statute's reference to a country name should be treated as a term of art that encompasses both the country's landmass and territorial waters. Such a rule is particularly anomalous in the context of a statute governing veterans' disability benefits, which in no way implicates a foreign country's sovereignty over territorial waters. Further, I see nothing in the legislative history of \u00a7 1116 suggesting that Blue Water Navy veterans would be covered by the presumption of service connection. Because herbicides were sprayed throughout the landmass of the Republic of Vietnam, it is at least a reasonable understanding of the statute that Congress at the time of the Agent Orange Act directed its statutory presumption of service connection towards those service members who had actually served within the country's land borders. I would therefore find, as we did in Haas , that \u00a7 1116 is ambiguous under Chevron step one. Accordingly, I respectfully dissent.\nSTARE DECISIS AND HAAS V. PEAKE\nThis court has already ruled on the statutory interpretation of service \"in the Republic of Vietnam\" under 38 U.S.C. \u00a7 1116(a)(1). In Haas , we addressed whether a veteran who served on a ship that traveled in the territorial waters of Vietnam but who never went ashore \"served in the Republic of Vietnam.\" 525 F.3d at 1172. There, we reviewed the statute and legislative history and concluded that the phrase was ambiguous. Id. at 1184.\nDespite our court's settled statutory interpretation from a decade ago, the majority nevertheless elects to re-open this already-decided interpretive issue. In doing so, the majority disregards stare decisis , which serves an important purpose in American law. See Deckers Corp. v. United States , 752 F.3d 949, 956 (Fed. Cir. 2014) (\"[S]tare decisis exists to 'enhance [ ] predictability and efficiency in dispute resolution and legal proceedings' through creation of settled expectations in prior decisions of the court.\") (citation omitted).\nIn Robert Bosch, LLC v. Pylon Manufacturing Corp. , we considered what effect stare decisis has when this court reviews panel decisions en banc. 719 F.3d 1305, 1316 (Fed. Cir. 2013) (en banc). We pointed out that \"the implications of stare decisis are less weighty than if we were [reconsidering] a precedent established by the court en banc.\" Id. (internal quotation marks omitted). Nevertheless, we concluded that \"panel opinions, like en banc opinions, invoke the principle of stare decisis,\" reasoning that, \"because [our precedent] represents the established law of the circuit, a due regard for the value of stability in the law requires that we have good and sufficient reason to reject it at this late date.\" Id. (internal quotation marks and citation omitted) (alteration in original).\nThe Supreme Court has warned that \"stare decisis in respect to statutory interpretation has 'special force,' for 'Congress remains free to alter what we have done.' \" John R. Sand & Gravel Co. v. United States , 552 U.S. 130, 139, 128 S.Ct. 750, 169 L.Ed.2d 591 (2008) (citation omitted). \"A difference of opinion within the Court ... does not keep the door open for another try at statutory construction ....\" Watson v. United States , 552 U.S. 74, 82, 128 S.Ct. 579, 169 L.Ed.2d 472 (2007). Indeed, \"the very point of stare decisis is to forbid us from revisiting a debate every time there are reasonable arguments to be made on both sides.\"\nLighting Ballast Control LLC v. Philips Elecs. N. Am. Corp. , 744 F.3d 1272, 1283 (Fed. Cir. 2014) (en banc), abrogated by Teva Pharm. USA, Inc. v. Sandoz, Inc. , --- U.S. ----, 135 S.Ct. 831, --- L.Ed.2d ---- (2015) (quoting Morrow v. Balaski , 719 F.3d 160, 181 (3d Cir. 2013) (Smith, J., concurring) ). Congress has the responsibility for revising its statutes; the Judiciary should be more circumspect before forsaking prior statutory interpretations. See Neal v. United States , 516 U.S. 284, 295-96, 116 S.Ct. 763, 133 L.Ed.2d 709 (1996). Indeed, the recent debates in Congress, which required consideration of the significant cost of the proposed addition of Blue Water Navy veterans underscores why Congress, rather than the courts, should be the one to revisit our interpretation in Haas . See Citation of Supplemental Authority 1, ECF No. 39; Blue Water Navy Vietnam Veterans Act, H.R. 299, 115th Cong. (2017-18) (\"Blue Water Navy Vietnam Veterans Act of 2018\"). The Supreme Court's admonishment against overruling prior statutory interpretation is particularly apt here, where Congress has been actively considering whether to take any action in response to this court's interpretation.\nOur statutory interpretation in Haas has been the law of this court for over ten years. Neither party has identified any intervening development of the law that has removed or weakened the conceptual underpinnings from Haas in this regard. I would therefore follow Haas to conclude that the statutory phrase at issue is ambiguous.\nSTATUTORY AMBIGUITY\nI do not find persuasive the majority's conclusion that international law dictates its interpretation. The Haas court considered similar sources of evidence but still concluded that the statutory phrase was ambiguous. Haas , 525 F.3d at 1184. All of the international law sources relied upon by the majority relate to laws that statutorily define the territorial waters over which a sovereign nation has dominion and control. See, e.g. , Restatement (Third) of Foreign Relations Law \u00a7 511(a) (\"The territorial sea: a belt of sea that may not exceed 12 nautical miles, measured from a baseline that is either the low-water line along the coast or the seaward limit of the internal waters of the coastal state or, in the case of an archipelagic state, the seaward limit of the archipelagic waters\"); United States v. California , 332 U.S. 19, 33, 67 S.Ct. 1658, 91 L.Ed. 1889 (1947) (\"That the political agencies of this nation both claim and exercise broad dominion and control over our three-mile marginal belt is now a settled fact.\"); 1958 Convention on the Territorial Sea and the Contiguous Zone, art. 1(1), 15 U.S.T. 1606, T.I.A.S. No. 5639 (Apr. 29, 1958) (\"The sovereignty of a State extends, beyond its land territory and its internal waters, to a belt of sea adjacent to its coast, described as the territorial sea.\"); United Nations Convention on the Law of the Sea, art. 2, 1833 U.N.T.S. 397, 400 (Dec. 10, 1982, entered into force on Nov. 16, 1994) (\"The sovereignty of a coastal State extends, beyond its land territory and internal waters and, in the case of an archipelagic State, its archipelagic waters, to an adjacent belt of sea, described as the territorial sea.\"). They do not purport to define territorial waters as part of the definition of the country itself.\nSection 1116, a U.S. veterans' disability benefits statute, has nothing to do with the dominion and control of a foreign sovereign over territorial waters. Nor would an opinion construing a U.S. veterans' disability benefits statute be in any danger of violating the law of the nations. See Murray v. Schooner Charming Betsy , 6 U.S. 2 Cranch 64, 2 L.Ed. 208 (1804).\nThere is no support for a rule that a statute that refers to a country includes the country's territorial waters. The majority admonishes the government for \"fail[ing] to cite any instance in which the unmodified use of a formal sovereign name has been construed to not include its territorial sea\" (Majority Op. at 1379) but the same can be said of the majority. The majority creates a new canon of statutory construction that any use of a formal country name necessarily includes the nation's territorial seas, without citing a single instance where Congress has stated this intent or where the Judiciary has construed a statute's use of a formal country name to include the country's territorial seas.\nDictionaries from 1991, when the Agent Orange Act was passed, often defined countries in terms of square miles of the land mass. The same is true of maps, which typically show the land area of a country. I am unaware of any dictionary or standard map that defines countries in terms of land plus the territorial sea, nor does the majority point to any.\nCongress has repeatedly shown that when it wants to include a country's territorial waters, it does so expressly. See, e.g. , Veterans' Rehabilitation and Education Amendments of 1980, Pub. L. No. 96-466, \u00a7 513(b), 94 Stat. 2171 (1980) (defining eligibility for educational assistance and other service-connected benefits as \"veterans who during the Vietnam era served in Vietnam, in air missions over Vietnam, or in naval missions in the waters adjacent to Vietnam shall be considered to be veterans who served in the Vietnam theatre of operations\"); Tax Reform Act of 1986, H. Rep. No. 99-841, at 599 (1986), as reprinted in 1986 U.S.C.C.A.N. 4075, 4687 (clarifying that \"income attributable to services performed in the United States or in the U.S. territorial waters is U.S. source.\"); 18 U.S.C. \u00a7 2280(b)(1)(A)(ii) (criminalizing certain acts if committed \"in the United States, including the territorial seas\"). This is true even when Congress uses a sovereign nation's formal name in the statute. See 10 U.S.C. \u00a7\u00a7 3756, 6258, 8756 (extending the Korea Defense Service Medal to veterans who \"served in the Republic of Korea or the waters adjacent thereto\"). The underlying assumption in each of these statutes is that the use of the country name is not sufficient to include territorial or adjacent waters. The majority's contrary conclusion renders Congress's express inclusion or exclusion of territorial seas in these statutes superfluous, which is \"at odds with one of the most basic interpretive canons, that ' \"[a] statute should be construed so that effect is given to all its provisions, so that no part will be inoperative or superfluous, void or insignificant.\" ' \" Corley v. United States , 556 U.S. 303, 314, 129 S.Ct. 1558, 173 L.Ed.2d 443 (2009) (quoting Hibbs v. Winn , 542 U.S. 88, 101, 124 S.Ct. 2276, 159 L.Ed.2d 172 (2004) (quoting 2A N. Singer, Statutes and Statutory Construction \u00a7 46.06 pp. 181-186 (rev. 6th ed. 2000) ) ). And the majority's attempt to explain a few of these examples away by creating a distinction between Congress's use of the term \"waters adjacent\" versus territorial waters or seas is speculative and entirely unconvincing. See Majority Op. at 1378-79.\nBy enacting the Agent Orange Act, Congress intended to help Vietnam veterans who had manifested certain specified diseases as a result of having been exposed to Agent Orange. See 38 U.S.C. \u00a7 1116. The VA has explained that \"virtually all herbicide spraying in Vietnam, which was for the purpose of eliminating plant cover for the enemy, took place over land.\" 73 Fed. Reg. 20566-01, 20568 (Apr. 16, 2008) (citing Jeanne Mager Stellman et al., The extent and patterns of usage of Agent Orange and other herbicides in Vietnam , 422 NATURE 681, 681-687 (2003) ). It therefore stands to reason that Congress would restrict the service connection presumption to those veterans who were actually exposed to Agent Orange on the landmass of Vietnam. Accord Haas , 525 F.3d at 1192-93. Congress did not possess any information suggesting that herbicides had been used up to three or twelve nautical miles from the shore.\nThe majority errs in dismissing the relevance of \u00a7\u00a7 3.311a and 3.313, regulations that existed before the enactment of \u00a7 1116. The majority suggests that Congress was enacting the statute against a background in which the existing regulations covered territorial waters, but it misunderstands the history behind each rule. Regulation 3.311a was promulgated in 1985 to implement the Veterans' Dioxin and Radiation Exposure Compensation Standards Act, Public Law 98-542, 98 Stat. 2725, 2725-34 (1984) (\"1984 Dioxin Act\"). Section 5 of the 1984 Dioxin Act directed the VA to establish guidelines grounded in \"sound scientific and medical evidence\" that require the veterans' death or disability be based on actual exposure to herbicides containing dioxin. Id. at 2727-28. The 1984 Dioxin Act noted that there was evidence that specific diseases-chloracne, porphyria cutanea tarda, and soft tissue sarcoma-were linked to exposure to dioxin-containing herbicides. Id. at 2725. Thereafter, the VA promulgated \u00a7 3.311a. The \u00a7 3.311a rulemaking notice noted that herbicides \"were used during the Vietnam conflict to defoliate trees, remove ground cover, and destroy crops,\" and that many veterans \"were deployed in or near locations where Agent Orange was sprayed.\" Adjudication of Claims Based on Exposure to Dioxin or Ionizing Radiation, 50 Fed. Reg. 15848, 15849 (Apr. 22, 1985). Because the regulation required exposure to dioxin-containing herbicides and herbicides had been sprayed on Vietnam's landmass, the VA imposed a foot-on-land requirement for veterans that served offshore or in locations other than Vietnam:\n\"Service in the Republic of Vietnam\" includes service in the waters offshore and service in other locations, if the conditions of service involved duty or visitation in the Republic of Vietnam.\n38 C.F.R. \u00a7 3.311a(b) (1986). The natural reading of the regulation's use of the conjunctive \"and\" confirms that the prepositional phrase applied both to offshore veterans and those stationed outside of Vietnam.\nThe VA promulgated \u00a7 3.313 for an entirely different purpose. Contrary to \u00a7 3.311a, \u00a7 3.313 was not linked to herbicide exposure, but rather was based on a 1990 CDC study that determined that all Vietnam veterans-including those that served on the landmass as well as those who served offshore-had a higher incidence rate of non-Hodgkin's lymphoma than non-Vietnam veterans. Claims Based on Service in Vietnam, 55 Fed. Reg. 43123-01 (Oct. 26, 1990). The 1990 study further concluded that no correlation existed between non-Hodgkin's lymphoma and exposure to Agent Orange. Id. The VA therefore worded \u00a7 3.313 specifically to apply to all offshore veterans, without a foot-on-land requirement:\nService in Vietnam includes service in the waters offshore, or service in other locations if the conditions of service involved duty or visitation in Vietnam.\n38 C.F.R. \u00a7 3.313(a) (1990). The natural reading of the regulation's use of the disjunctive \"or\" and movement of the comma to offset \"offshore\" from the rest of the sentence confirms that the offshore veterans were not subject to a foot-on-land requirement. While the grammatical differences between the two regulations may appear to be small, they set forth critical distinctions driven by the different purposes between the regulations.\nWhen the VA promulgated these two regulations, their meanings were not ambiguous. The ambiguity arose when Congress appeared to codify both VA regulations in the Agent Orange Act, one regulation with a foot-on-land requirement and one without. 137 Cong. Rec. H719-01 (1991) (\"[T]he bill would ... codify decisions the Secretary of Veterans Affairs has announced to grant presumptions of service connection for non-Hodgkin's lymphoma and soft-tissue sarcoma in veterans who served in Vietnam ....\"). The Agent Orange Act used the term \"served in the Republic of Vietnam\" without defining the term:\n[A] disease specified in paragraph (2) of this subsection becoming manifest as specified in that paragraph in a veteran who, during active military, naval, or air service, served in the Republic of Vietnam during the period beginning on January 9, 1962, and ending on May 7, 1975;\n38 U.S.C. \u00a7 1116(a)(1)(A).\nAs we concluded in Haas , \u00a7 1116 's use of \"Republic of Vietnam\" rather than \"Vietnam\" counsels against the majority's reading of the statute because the language more closely tracks that used in \u00a7 3.311a, which imposed the foot-on-land requirement on offshore veterans. Haas , 525 F.3d at 1185-86. A congressional choice to codify the foot-on-land requirement from \u00a7 3.311a would have been a reasonable one, since both \u00a7 3.311a and the Agent Orange Act-unlike \u00a7 3.313-required that the service connection be based on actual exposure to herbicides during the war. Moreover, \"Congress included non-Hodgkin's lymphoma [from \u00a7 3.313(a) ] on the list of diseases specifically identified in the Agent Orange Act based on evidence that, contrary to the conclusion of the 1990 CDC study, non-Hodgkin's lymphoma was in fact associated with exposure to Agent Orange.\" Id. at 1179 n.1 (citing Report to the Secretary of Veterans Affairs on the Association Between Adverse Health Effects and Exposure to Agent Orange, reprinted in Links Between Agent Orange, Herbicides, and Rare Diseases: Hearing before the Human Resources and Intergovernmental Relations Subcomm. of the Comm. on Gov't Relations , 101st Cong., 2d Sess. 22, 41 (1990) ). Against this regulatory backdrop prior to the codification of service connection presumption for certain diseases through the Agent Orange Act, it is far from clear that Congress intended \u00a7 1116 to encompass veterans who served in offshore waters up to 12 nautical miles away from Vietnam. During that lead-up to the Agent Orange Act, the majority cites no evidence that Blue Water Navy veterans had been receiving service connection presumptions for any of these diseases listed in \u00a7 3.311a.\nThe majority's conclusion that \"Republic of Vietnam\" in \u00a7 3.311a\"covers everyone whose service included duty or visitation 'in the Republic of Vietnam,' which, under background law, embraces the territorial sea\" (Majority Op. at 1377) is incorrect, because it assumes that the VA also bought into the majority's newly announced principle that reciting a sovereign's formal name in a statute or-for purposes of \u00a7 3.311a-a regulation, necessarily includes the country's territorial seas. The majority cites no case law or other support for this assumption. Nor does the majority cite support for its subsequent conclusion that \u00a7 3.311a encompasses \"only a subset\" of offshore veterans-those that served on land, within the internal waterways, or within the territorial seas of Vietnam. See id. There is no evidence in the regulation or its history that the VA intended this interpretation.\nI also disagree with the majority's conclusion that \u00a7 1116 's language specifying that the presumption is applicable to veterans regardless of what military branch they served in (i.e. , \"active military, naval, or air service in the Republic of Vietnam\") has any bearing on whether offshore veterans are subject to a foot-on-land requirement. See Majority Op. at 1376. A veteran who served in the Navy but spent time on the landmass of Vietnam is no less likely to have a service connection due to exposure to Agent Orange than a veteran who served on the land in Vietnam in the Army. Moreover, this statutory phrase is commonly used in other sections of Title 38, suggesting that Congress did not have something particular in mind as to how it repeated this phrase in \u00a7 1116. See , e.g. , 38 U.S.C. \u00a7 1110 (entitling certain veterans to compensation for disability, injury, or disease contracted or aggravated \"in the active military, naval, or air service, during a period of war\"); id. \u00a7 1112(b) (establishing presumption of service connection for prisoners of war where condition became manifest \"after active military, naval, or air service\").\nAfter reviewing the applicable provisions, it is not clear to me that Congress unambiguously intended \"served in the Republic of Vietnam\" to include Blue Water veterans. Although international law establishes that sovereign nations have dominion and control over their territorial seas, a U.S. veterans' benefits statute has nothing to do with regulating interactions with a foreign sovereign. And the Agent Orange Act's legislative history provides no support for the majority's conclusion. I therefore believe, as this court concluded in Haas , that the statutory phrase \"Republic of Vietnam\" is ambiguous when applied to service in the waters adjoining the landmass of Vietnam. See Haas , 525 F.3d at 1184.\nAs for the liberal construction principle known as the pro-veteran canon, neither the Supreme Court nor this court has applied it at step one of Chevron as a means for deeming Congress's intent clear for an otherwise unclear statute. But even if it were relevant to the step one inquiry, I do not view this canon, given its indeterminate nature, as compelling the conversion of this ambiguous statute into an unambiguous one.\nThe significance of the policy choice and budget impact that the court makes today further underscores why more compelling indicia are required before concluding that Congress clearly intended the majority's statutory interpretation. Congress recently estimated that it would need to allocate an additional $1.8 billion during fiscal year 2019, and $5.7 billion over 10 years, to fund the Blue Water Navy Vietnam Veterans Act of 2018, a bill that would have explicitly expanded the presumption of Agent Orange exposure to Blue Water Navy veterans. See Blue Water Navy Vietnam Veterans Act of 2018: Hearing on H.R. 299 Before the S. Comm. on Veterans' Affairs, 115th Cong. 1, 4 (2018) (statement of Dr. Paul R. Lawrence, Under Secretary, Benefits Department, Veterans' Affairs). The bill passed the House unanimously in 2018 but failed to pass the Senate before the end of the 2018 session, due, in part, to concerns over the cost of expanding the presumption of service connection. It is not for the Judiciary to step in and redirect such a significant budget item-rather, that policy choice should be left to Congress.\nI do not reach the question of whether Haas should be reaffirmed insofar as it held that at step two of Chevron , deference was owed to the interpretation of the statute by the VA. See id . at 1184, 1192-93. Relying on principles of Auer deference, the Haas panel held that the VA had interpreted the statute to preclude coverage of Blue Water Navy veterans who had not set foot on the Vietnam landmass. See id. at 1186-90, 1197. The court also held that the interpretation was reasonable in the light of the evidence available to the VA at the time it made its interpretation. Id. at 1195, 1197. The court declined to consider other evidence not considered by the VA. Id. at 1194.\nIn ordering rehearing en banc we asked that the parties address the question of ambiguity. In accordance with our order the parties have not, in fact, fully addressed the step two Chevron issues. At the same time there have been relevant developments that bear on that question. The Supreme Court has recently granted certiorari to address the question of whether Auer should be overruled. There have been additional studies of the issue of Blue Water Navy diseases attributable to dioxin exposure, and the issue continues to be studied, with a new report predicted to become available next April. Under these circumstances, I think it premature to address Haas ' treatment of step two of Chevron .\nThe Board of Veterans' Appeals found, and the parties do not dispute, that Mr. Procopio served in the Republic of Vietnam's territorial sea. J.A. 32, 49-52.\nThe dissent criticizes that these sources of international law merely \"define the territorial waters over which a sovereign nation has dominion and control\" but \"do not purport to define territorial waters as part of the definition of the country itself.\" Dissent at 1389. But the area over which a sovereign nation has dominion and control is a definition of the country itself, and the dissent points to no sources supporting any other definition of the \"Republic of Vietnam.\" The dictionaries and maps the dissent cites define other terms (\"Vietnam,\" \"United States,\" \"Socialist Republic of Vietnam\"). Dissent at 1389-90, 1390-91 nn.2-3. When trying to discern what Congress meant by \"in the Republic of Vietnam,\" we think the contemporaneous definition provided by international law is a better source than the definitions of other countries provided by these generalist dictionaries and maps.\nThere is no dispute that, when the Agent Orange Act was passed in 1991, a nation's territorial sea had a breadth \"not exceeding 12 nautical miles.\" UNCLOS, 1833 U.N.T.S. at 400.\nWe do not, as the dissent contends, \"create[ ] a new canon of statutory construction that any use of a formal country name necessarily includes the nation's territorial seas.\" Dissent at 1390. This case requires us to determine only what Congress meant when it used the phrase \"in the Republic of Vietnam\" in 1991.\nThe government conceded, though, at oral argument that if Congress were to pass a statute forbidding military action within a nation, that statute would be violated if the President sent forces into the nation's 12-mile territorial sea, as that would \"impact the sovereign boundary of [the nation].\" See Oral Argument at 27:37-28:13.\nIn several cases, it is clear Congress' express reference to territorial sea was to remove any doubt as to a provision's meaning. For instance, in 16 U.S.C. \u00a7 2402(8) 's definition of \"import,\" the statement that \"any place subject to the jurisdiction of the United States\" \"include[s] the 12-mile territorial sea of the United States,\" clearly reflects Congress' express concern that \"import\" as defined in \u00a7 2402(8) could be misread to have the same meaning as it has under the customs laws of the United States. For customs purposes a good may not be imported until it arrives at a port, see, e.g. , 19 C.F.R. \u00a7 101.1, and the \"customs territory of the United States\" is limited to the States, the District of Columbia, and Puerto Rico, and does not include other sovereign territory of the United States, see Harmonized Tariff Schedule of the United States, General Note 2. Similarly, the reference to \"United States waters\" in 8 U.S.C. \u00a7 1158(a)(1) serves a clarifying purpose in light of caselaw holding \"physical presence\" is a term of art in immigration law requiring an alien to have landed on shore, see Zhang v. Slattery , 55 F.3d 732, 754 (2d Cir. 1995). Nothing in these provisions, 18 U.S.C. \u00a7 2280(b)(1)(A)(ii), or 33 U.S.C. \u00a7 1203, suggests Congress did not understand the term \"United States\" to generally include its territorial sea.\nIt is also unsurprising that Congress has found it expedient to define phrases including the term \"United States\" for use in particular statutes and in some of those instances it referred to the territorial sea of the United States. E.g. , 16 U.S.C. \u00a7 1362(15) ; 26 U.S.C. \u00a7 638(1) ; 46 U.S.C. \u00a7\u00a7 2301, 4301, 4701(3). That provides little insight into Congress' use of the formal name of a foreign country absent an express definition . In short, none of these statutes sheds any light on how Congress understood the \"Republic of Vietnam\" when it passed the Agent Orange Act in 1991, and none create any ambiguity in the face of long-established, uniform international law recognizing the \"Republic of Vietnam\" includes its territorial sea.\n\"[W]e have never applied stare decisis mechanically to prohibit overruling our earlier decisions determining the meaning of statutes.\" Monell v. Dep't of Social Servs. of City of New York , 436 U.S. 658, 695, 98 S.Ct. 2018, 56 L.Ed.2d 611 (1978). Charging that \"stare decisis in respect to statutory interpretation has 'special force,' for 'Congress remains free to alter what we have done,' \" the dissent seems to suggest we can never overrule a precedent interpreting a statute. Dissent at 1388-89 (quoting John R. Sand & Gravel Co. v. United States , 552 U.S. 130, 139, 128 S.Ct. 750, 169 L.Ed.2d 591 (2008) ). But we see no reason here to \"place on the shoulders of Congress the burden of the Court's own error.\" Monell , 436 U.S. at 695, 98 S.Ct. 2018. The parties have presented arguments and evidence not considered in Haas . Haas , 525 F.3d at 1183-86. Moreover, the dissent's concern for \"stability in the law\" is misplaced. Dissent at 1388-89 (quoting Robert Bosch, LLC v. Pylon Mfg. Corp. , 719 F.3d 1305, 1316 (Fed. Cir. 2013) ). While there are certainly situations where parties' reliance on our settled law is of paramount concern (see , e.g. , Dickerson v. United States , 530 U.S. 428, 443, 120 S.Ct. 2326, 147 L.Ed.2d 405 (2000) (declining to overrule Miranda v. Arizona , 384 U.S. 436, 86 S.Ct. 1602, 16 L.Ed.2d 694 (1966), because \"Miranda has become embedded in routine police practice to the point where the warnings have become part of our national culture\") ), no such reliance concern exists here.\nThe dissent criticizes our interpretation of \u00a7 1116 as a \"policy choice [that] should be left to Congress,\" noting the \"cost of expanding the presumption of service connection.\" Dissent at 1394-95. Respectfully, we are interpreting a statute, not making a policy judgment. Moreover, the dissent's criticism seems out of place where it has not concluded that the agency's determination is reasonable or that Mr. Procopio should be denied his benefits.\nI address both Chevron and Auer deference because we relied on both in Haas v. Peake to uphold the agency's regulation. We deferred to the agency's interpretation of its own ambiguous regulation under Auer , and then, in turn, found \"that the regulation reflects a reasonable interpretation of the statute\" under Chevron . 525 F.3d 1168, 1186 (Fed. Cir. 2008).\nOf course, application of the pro-veteran canon will not always resolve ambiguities in a statute or regulation in the veterans' favor. For example, in Nat'l Org. of Veterans' Advocates, Inc. v. Sec'y of Veterans Affairs , we resorted to agency deference despite applying the pro-veteran canon because other canons of statutory construction and the pro-veteran canon pulled in opposite directions. 260 F.3d 1365, 1378 (Fed. Cir. 2001). And, in Burden v. Shinseki , we found that the pro-veteran canon was not enough to resolve a statutory ambiguity when deciding whether to award benefits to a veteran's surviving common law spouse over the veteran's children because neither interpretation had a particularly pro-veteran reading. 727 F.3d 1161, 1169-70 (Fed. Cir. 2013). Thus, while application of the pro-veteran canon may resolve any apparent ambiguity, it will not always do so.\nWhile the Supreme Court will consider whether Auer should be overruled and, thus, not available in any cases, it did not agree to consider a second question raising whether principles of agency deference generally must yield when at odds with the pro-veteran canon of construction.\nMoreover, there is no clear evidence that the now-defunct Republic of Vietnam ever claimed a territorial sea extending 12 nautical miles from its shore, including during the Vietnam War. See Majority Op. at 1376-77. Up until 1988, the United States only claimed a three-mile nautical belt as its territorial sea. See Territorial Sea of the United States of America, Presidential Proclamation 5,928, 103 Stat. 2981, 2982 (Dec. 27, 1988); see also United States v. California , 332 U.S. 19, 33-34, 67 S.Ct. 1658, 91 L.Ed. 1889 (1947). There is no reason to believe that the Republic of Vietnam, when it existed, would have done otherwise.\nSee, e.g. , Vietnam , Random House Webster's College Dictionary (1991) (\"a country in SE Asia, comprising the former states of Annam, Tonkin, and Cochin-China: formerly part of French Indochina; divided into North Vietnam and South Vietnam in 1954 and reunified in 1976. [pop] 64,000,000; 126,104 sq. mi. (326,609 sq. km)\"); Vietnam , Webster's Ninth New Collegiate Dictionary (1991) (\"country SE Asia in Indochina; state, including Tonkin & N Annam, set up 1945-46; with S. Annam & Cochin China, an associated state of French Union 1950-54; after civil war, divided 1954-75 at 17th parallel into republics of North Vietnam (* Hanoi) & South Vietnam (* Saigon) reunited 1975 (* Hanoi) area 127,207 sq mi (330,738 sq km), pop 52,741,766\" (emphasis omitted) ); Vietnam , Webster's New Geographic Dictionary (1988) (\"Republic, SE Asia, divided 1954-75 into North Vietnam and South Vietnam ...\"); United States of America , Random House Webster's College Dictionary (1991) (\"country made up of the North American area extending from the Atlantic Ocean to the Pacific Ocean between Canada and Mexico, together with Alas. & Hawaii; 3,615,211 sq. mi. (9,376,614 sq. km); pop. 240,856,000; cap. Washington; also called the United States\"); United States of America , Webster's Ninth New Collegiate Dictionary (2001) (\"United States\"); United States , Webster's Ninth New Collegiate Dictionary (2001) (\"a republic in the N Western Hemisphere comprising 48 conterminous states, the District of Columbia, and Alaska in North America, and Hawaii in the N Pacific. 249,632,692; conterminous United States, 3,615,122 sq. mi. (9,363,166 sq. km); Washington, D.C. ... Also called United States of America\"); United States of America commonly shortened to United States , Webster's New Geographic Dictionary (1988) (\"Federal republic, North America, bounded on N by Canada and (in Alaska) by the Arctic Ocean, on E by the Atlantic Ocean, on S by Mexico and Gulf of Mexico, and on W by Pacific Ocean; 3,615,123 sq. m. (excluding Great Lakes); pop. (1980c) 226,545,805; * Washington, D.C.\").\nSee, e.g. , National Geographic, Atlas of the World 18-19 (6th ed. 1990) [hereinafter, \" Atlas of the World \"] (depicting the United States in terms of land area); Central Intelligence Agency, the World Factbook 1991 324, 332 (1991). National Geographic's Atlas of the World also defined countries in terms of the size of their land mass. See, e.g. , Atlas of the World at 127 (\"Socialist Republic of Vietnam Area: 329,556 sq km (127,242 sq mi)\").\nSee also, e.g. , 38 U.S.C. \u00a7 101(30) (referring to veterans who \"served in Mexico, on the borders thereof, or in the waters adjacent thereto\"); Omnibus Consolidated Appropriations Act, 1997, Pub. L. No. 104-208, Division C, \u00a7 604, 110 Stat. 3009 (1996) (codified at 8 U.S.C. \u00a7 1158(a)(1) ) (\"[a]ny alien who is physically present in the United States or who arrives in the United States (whether or not at a designated port of arrival and including an alien who is brought to the United States after having been interdicted in international or United States waters), irrespective of such alien's status, may apply for asylum in accordance with this section ....\"); 16 U.S.C. \u00a7 2402(8) (defining \"import\" to mean \"to land on, bring into, or introduce into, or attempt to land on, bring into or introduce into, any place subject to the jurisdiction of the United States, including the 12-mile territorial sea of the United States\"). Compare 26 U.S.C. \u00a7 638(1) (\"United States\" includes \"subsoil of those submarine areas which are adjacent to the territorial waters of the United States\"), with id. at \u00a7 7701(a)(9) (\"United States\" includes \"only the States and the District of Columbia\").\nMr. Procopio counters this understanding with another theory-that \"ships in the near-shore marine waters collected water that was contaminated with the runoff from areas sprayed with Agent Orange,\" and the \"[s]hipboard distillers converted the marine water into water for the boilers and potable water by vaporizing them and condensing the liquid\" in a way that \"enhanced the effect of Agent Orange.\" Appellant En Banc Op. Br. at 19. But Mr. Procopio presents no evidence that Congress at the time of the Agent Orange Act was aware of or had considered the potential dangers from contaminated runoff.\nSee Order Granting En Banc Rehearing at 2, Procopio v. Wilkie , No. 17-1821 (Fed. Cir. Aug. 16, 2018), ECF No. 63 (ordering the parties to brief the following issue: \"Does the phrase 'served in the Republic of Vietnam' in 38 U.S.C. \u00a7 1116 unambiguously include service in offshore waters within the legally recognized territorial limits of the Republic of Vietnam, regardless of whether such service included presence on or within the landmass of the Republic of Vietnam?\").\nSee Order Granting Certiorari, Kisor v. Wilkie , No. 18-15, --- U.S. ----, 139 S.Ct. 657, --- L.Ed.2d ----, 2018 WL 6439837 (Dec. 10, 2018) (\"The petition for writ of certiorari is granted limited to Question 1 presented by the petition\"); Cert. Pet., Kisor v. Wilkie , No. 18-15 (Jun. 29, 2018) (\"1. Whether the Court should overrule Auer and Seminole Rock .\").",
+        "type": "majority",
+        "author": "Concurring opinion filed by Circuit Judge Lourie."
+      }
+    ],
+    "attorneys": [
+      "Melanie L. Bostwick, Orrick, Herrington & Sutcliffe LLP, Washington, DC, argued for claimant-appellant. Also represented by Thomas Mark Bondy, Robert Manhas; Matthew R. Shahabian, New York, NY; John B. Wells, Law Office of John B. Wells, Slidell, LA.",
+      "Eric Peter Bruskin, Commercial Litigation Branch, Civil Division, United States Department of Justice, Washington, DC, argued for respondent-appellee. Also represented by Joseph H. Hunt, Robert E. Kirschman, Jr., Martin F. Hockey, Jr. ; Brian D. Griffin, Brandon A. Jonas, Office of General Counsel, United States Department of Veterans Affairs, Washington, DC.",
+      "Catherine Emily Stetson, Hogan Lovells US LLP, Washington, DC, for amici curiae National Organization of Veterans' Advocates, Inc., Paralyzed Veterans of America, Military Officers Association of America, AMVETS, Veterans and Military Law Section, Federal Bar Association. Also represented by William David Maxwell. Amicus curiae National Organization of Veterans' Advocates, Inc. also represented by Chris Attig, Attig Steel, PLLC, Little Rock, AR.",
+      "Kenneth M. Carpenter, Law Offices of Carpenter Chartered, Topeka, KS, for amicus curiae Joseph A. Taina.",
+      "Glenn R. Bergmann, Bergmann Moore, LLC, Bethesda, MD, for amicus curiae The American Legion. Also represented by James Daniel Ridgway.",
+      "Angela K. Drake, The Veterans Clinic at The University of Missouri School of Law, Columbia, MO, for amicus curiae National Law School Veterans Clinic Consortium.",
+      "Doris Hines, Finnegan, Henderson, Farabow, Garrett & Dunner, LLP, Washington, DC, for amicus curiae Disabled American Veterans. Also represented by Charles Collins-Chase, Sean Damon, Ronald Lee Smith.",
+      "Stanley Joseph Panikowski, III, DLA Piper LLP (US), San Diego, CA, for amici curiae Blue Water Navy Vietnam Veterans Association, Association of the United States Navy, Fleet Reserve Association. Also represented by Jacob Anderson, Erin Gibson.",
+      "Stephen Blake Kinnaird, Paul Hastings LLP, Washington, DC, for amici curiae National Veterans Legal Services Program, Veterans of Foreign Wars of the United States. Amicus curiae National Veterans Legal Services Program also represented by Barton F. Stichman, National Veterans Legal Services Program, Washington, DC.",
+      "Opinion for the court filed by Circuit Judge MOORE, in which Chief Judge Prost and Circuit Judges Newman, O'Malley, Reyna, Wallach, Taranto, and Stoll join."
+    ],
+    "corrections": "",
+    "head_matter": "Alfred PROCOPIO, Jr., Claimant-Appellant\nv.\nRobert WILKIE, Secretary of Veterans Affairs, Respondent-Appellee\n2017-1821\nUnited States Court of Appeals, Federal Circuit.\nDecided: January 29, 2019\nMelanie L. Bostwick, Orrick, Herrington & Sutcliffe LLP, Washington, DC, argued for claimant-appellant. Also represented by Thomas Mark Bondy, Robert Manhas; Matthew R. Shahabian, New York, NY; John B. Wells, Law Office of John B. Wells, Slidell, LA.\nEric Peter Bruskin, Commercial Litigation Branch, Civil Division, United States Department of Justice, Washington, DC, argued for respondent-appellee. Also represented by Joseph H. Hunt, Robert E. Kirschman, Jr., Martin F. Hockey, Jr. ; Brian D. Griffin, Brandon A. Jonas, Office of General Counsel, United States Department of Veterans Affairs, Washington, DC.\nCatherine Emily Stetson, Hogan Lovells US LLP, Washington, DC, for amici curiae National Organization of Veterans' Advocates, Inc., Paralyzed Veterans of America, Military Officers Association of America, AMVETS, Veterans and Military Law Section, Federal Bar Association. Also represented by William David Maxwell. Amicus curiae National Organization of Veterans' Advocates, Inc. also represented by Chris Attig, Attig Steel, PLLC, Little Rock, AR.\nKenneth M. Carpenter, Law Offices of Carpenter Chartered, Topeka, KS, for amicus curiae Joseph A. Taina.\nGlenn R. Bergmann, Bergmann Moore, LLC, Bethesda, MD, for amicus curiae The American Legion. Also represented by James Daniel Ridgway.\nAngela K. Drake, The Veterans Clinic at The University of Missouri School of Law, Columbia, MO, for amicus curiae National Law School Veterans Clinic Consortium.\nDoris Hines, Finnegan, Henderson, Farabow, Garrett & Dunner, LLP, Washington, DC, for amicus curiae Disabled American Veterans. Also represented by Charles Collins-Chase, Sean Damon, Ronald Lee Smith.\nStanley Joseph Panikowski, III, DLA Piper LLP (US), San Diego, CA, for amici curiae Blue Water Navy Vietnam Veterans Association, Association of the United States Navy, Fleet Reserve Association. Also represented by Jacob Anderson, Erin Gibson.\nStephen Blake Kinnaird, Paul Hastings LLP, Washington, DC, for amici curiae National Veterans Legal Services Program, Veterans of Foreign Wars of the United States. Amicus curiae National Veterans Legal Services Program also represented by Barton F. Stichman, National Veterans Legal Services Program, Washington, DC.\nBefore Prost, Chief Judge, Newman, Lourie, Dyk, Moore, O'Malley, Reyna, Wallach, Taranto, Chen, and Stoll, Circuit Judges.\nOpinion for the court filed by Circuit Judge MOORE, in which Chief Judge Prost and Circuit Judges Newman, O'Malley, Reyna, Wallach, Taranto, and Stoll join."
+  },
+  "file_name": "1371-01",
+  "first_page_order": 1371,
+  "last_page_order": 1395
+}

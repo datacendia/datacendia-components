@@ -1,0 +1,82 @@
+{
+  "id": 6011523,
+  "name": "In re Ashanti",
+  "name_abbreviation": "In re Ashanti",
+  "decision_date": "2010-12-13",
+  "docket_number": "No. 10-6894",
+  "first_page": "1107",
+  "last_page": "1107",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1107"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "506 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11924825
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/506/0001-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 67,
+    "char_count": 526,
+    "ocr_confidence": 0.559,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.17199554877523748
+    },
+    "sha256": "4fedd44fa24b48e1bd054c01a0ce25c9f426a4021c4900ada6a3f11d7320fb01",
+    "simhash": "1:6d2214cc0525d75e",
+    "word_count": 88
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Ashanti."
+    ],
+    "opinions": [
+      {
+        "text": "Motion of petitioner for leave to proceed in forma pauperis denied, and petition for writ of mandamus dismissed. See this Court\u2019s Rule 39.8. As petitioner has repeatedly abused this Court\u2019s process, the Clerk is directed not to accept any further petitions in noncriminal matters from petitioner unless the docketing fee required by Rule 38(a) is paid and the petition is submitted in compliance with Rule 33.1. See Martin v. District of Columbia Court of Appeals, 506 U. S. 1 (1992) (per curiam).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6894.\nIn re Ashanti."
+  },
+  "file_name": "1107-06",
+  "first_page_order": 1129,
+  "last_page_order": 1129
+}

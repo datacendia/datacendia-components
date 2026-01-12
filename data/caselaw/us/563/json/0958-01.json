@@ -1,0 +1,104 @@
+{
+  "id": 5965979,
+  "name": "United States v. Dewar et al.",
+  "name_abbreviation": "United States v. Dewar",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-681",
+  "first_page": "958",
+  "last_page": "958",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 958"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "562 U. S. 1254",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5941281,
+        12457896,
+        6021592,
+        6011272,
+        5968520,
+        12457895,
+        12457867,
+        12457899,
+        12457898,
+        12457897,
+        12457871,
+        5986256,
+        12457872,
+        5948855,
+        6007512,
+        12458079
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/562/1254-07",
+        "/l-ed-2d/179/0471-02",
+        "/us/562/1254-02",
+        "/us/562/1254-01",
+        "/us/562/1254-05",
+        "/l-ed-2d/179/0471-01",
+        "/l-ed-2d/179/0370-06",
+        "/l-ed-2d/179/0471-05",
+        "/l-ed-2d/179/0471-04",
+        "/l-ed-2d/179/0471-03",
+        "/l-ed-2d/179/0371-03",
+        "/us/562/1254-03",
+        "/l-ed-2d/179/0371-04",
+        "/us/562/1254-06",
+        "/us/562/1254-04",
+        "/l-ed-2d/179/0495-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 29,
+    "char_count": 189,
+    "ocr_confidence": 0.614,
+    "sha256": "6626e753438ac120daae277fbf1b00b2d98de237f4c3a32ca494bd84bdcb2e90",
+    "simhash": "1:1973b80256ac480e",
+    "word_count": 32
+  },
+  "last_updated": "2024-02-27T23:44:09.189648+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor and Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "United States v. Dewar et al."
+    ],
+    "opinions": [
+      {
+        "text": "562 U. S. 1254. Petition for rehearing denied.\nJustice Sotomayor and Justice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-681.\nUnited States v. Dewar et al."
+  },
+  "file_name": "0958-01",
+  "first_page_order": 984,
+  "last_page_order": 984
+}

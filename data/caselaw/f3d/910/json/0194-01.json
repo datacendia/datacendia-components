@@ -1,0 +1,200 @@
+{
+  "id": 12519403,
+  "name": "UNITED STATES of America, Plaintiff-Appellee, v. Jose NINO-CARREON, Defendant-Appellant.",
+  "name_abbreviation": "United States v. Nino-Carreon",
+  "decision_date": "2018-12-03",
+  "docket_number": "No. 17-11433",
+  "first_page": "194",
+  "last_page": "198",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "910 F.3d 194"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "5th Cir.",
+    "id": 8820,
+    "name": "United States Court of Appeals for the Fifth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "138 S.Ct. 1897",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12612311
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1904-05",
+          "parenthetical": "quoting Molina-Martinez , 136 S.Ct. at 1343 "
+        },
+        {
+          "parenthetical": "quoting Molina-Martinez , 136 S.Ct. at 1343 "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/1897-01"
+      ]
+    },
+    {
+      "cite": "896 F.3d 726",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517759
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "728"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/896/0726-01"
+      ]
+    },
+    {
+      "cite": "507 U.S. 725",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6237509
+      ],
+      "weight": 3,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "736"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/507/0725-01"
+      ]
+    },
+    {
+      "cite": "136 S.Ct. 1338",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12595701
+      ],
+      "weight": 7,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1343",
+          "parenthetical": "quoting United States v. Olano , 507 U.S. 725, 736, 113 S.Ct. 1770, 123 L.Ed.2d 508 (1993) "
+        },
+        {
+          "parenthetical": "quoting United States v. Olano , 507 U.S. 725, 736, 113 S.Ct. 1770, 123 L.Ed.2d 508 (1993) "
+        },
+        {
+          "page": "1345"
+        },
+        {
+          "page": "1346"
+        },
+        {
+          "page": "1346-47"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/136/1338-01"
+      ]
+    },
+    {
+      "cite": "884 F.3d 554",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516204
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "556"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/884/0554-01"
+      ]
+    },
+    {
+      "cite": "556 U.S. 129",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653331
+      ],
+      "weight": 7,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "135"
+        },
+        {
+          "page": "135"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/556/0129-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 437,
+    "char_count": 7445,
+    "pagerank": {
+      "raw": 5.676830387708631e-08,
+      "percentile": 0.3573941955689309
+    },
+    "sha256": "636ef8b736c08bad18e73870e56109f89a1bbf617232d34c456777c97286831e",
+    "simhash": "1:73af36f1fd08b702",
+    "word_count": 1134
+  },
+  "last_updated": "2024-02-27T18:46:13.639075+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before SMITH, BARKSDALE, and HO, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee,\nv.\nJose NINO-CARREON, Defendant-Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "JERRY E. SMITH, Circuit Judge:\nJose Nino-Carreon pleaded guilty of illegal reentry after removal and was sentenced to fifty months' imprisonment. He appeals his sentence, asserting that the district court plainly erred in assessing criminal history points for three convictions occurring in 2003 and 2004. He maintains that the court determined that the earliest date of his offense and relevant conduct was August 17, 2016, the date he was apprehended by immigration authorities, and consequently, that the earlier convictions should not have been scored because the sentence in each was imposed more than ten years before that date. See U.S.S.G. \u00a7 4A1.2(e)(2). Though Nino-Carreon is correct that the district court erred in scoring those three convictions, he has not demonstrated that the error affected his substantial rights. See Puckett v. United States , 556 U.S. 129, 135, 129 S.Ct. 1423, 173 L.Ed.2d 266 (2009). Therefore, we affirm.\nI.\nWe review this issue for plain error because Nino-Carreon failed to object to the computation of his criminal history score in the district court. See United States v. Carlile , 884 F.3d 554, 556 (5th Cir. 2018). Nino-Carreon must satisfy three hurdles before this court may exercise its discretion to correct plain error. First, \"there must be an error or defect ... that has not been intentionally relinquished or abandoned ... by the appellant.\" Puckett , 556 U.S. at 135, 129 S.Ct. 1423. Second, \"the legal error must be clear or obvious, rather than subject to reasonable dispute.\" Id. Third, \"the error must have affected the appellant's substantial rights.\" Id. If Nino-Carreon satisfies these three conditions, \"the court of appeals should exercise its discretion to correct the forfeited error if the error 'seriously affects the fairness, integrity or public reputation of judicial proceedings.' \" Molina-Martinez v. United States , --- U.S. ----, 136 S.Ct. 1338, 1343, 194 L.Ed.2d 444 (2016) (quoting United States v. Olano , 507 U.S. 725, 736, 113 S.Ct. 1770, 123 L.Ed.2d 508 (1993) ).\nII.\nAs Nino-Carreon acknowledges, his criminal history category of VI remains unchanged so long as the district court correctly assessed a criminal history point for one of the three contested convictions. The most recent sentencing date is December 1, 2004. Therefore, he must have entered the United States on or before December 1, 2014, when the ten-year limitations period expired, for the district court not to have erred.\nNino-Carreon contends that this court must use the date he was apprehended in the United States, August 17, 2016, as his earliest offense date. But \"when determining whether a prior conviction meets the time-period requirement for assessing criminal history points under \u00a7 4A1.2(e), the triggering date is that of the defendant's illegal reentry, not the date on which the defendant was found by immigration authorities in the United States.\" United States v. Ponce , 896 F.3d 726, 728 (5th Cir. 2018). Thus, Nino-Carreon's assertion is meritless.\nNevertheless, contrary to the government's claims, the record does not support a finding that Nino-Carreon reentered the United States between his December 30, 2012, deportation and December 1, 2014. The Presentence Report (\"PSR\") states that Nino-Carreon (1) worked as a roofer in Texas from 2015 to 2016 and (2) was in a relationship with his girlfriend, an alleged U.S. resident who lived in Fort Worth, \"for two years\" before his August 29, 2017, PSR interview. Consequently, nothing in the PSR points to a date of reentry earlier than 2015. The government's assertion that the probation officer \"implicitly found\" that the December 1, 2004, sentence occurred \"within ten years of [Nino-Carreon's] most recent illegal reentry,\" contrary to the PSR's explicit statement that his \"earliest offense date, including relevant conduct[,] is August 17, 2016,\" is unavailing. Therefore, Nino-Carreon has satisfied the first two plain-error prongs: There was an error that was not intentionally relinquished or abandoned, and the error was clear based on the evidence contained in the PSR.\nTo satisfy the third prong, \"the defendant ordinarily must 'show a reasonable probability that, but for the error, the outcome of the proceeding would have been different.' \" Rosales-Mireles v. United States , --- U.S. ----, 138 S.Ct. 1897, 1904-05, 201 L.Ed.2d 376 (2018) (quoting Molina-Martinez , 136 S.Ct. at 1343 ). \"When a defendant is sentenced under an incorrect Guidelines range-whether or not the defendant's ultimate sentence falls within the correct range-the error itself can, and most often will, be sufficient to show a reasonable probability of a different outcome absent the error.\" Molina-Martinez , 136 S.Ct. at 1345. But \"[t]here may be instances when, despite application of an erroneous Guidelines range, a reasonable probability of prejudice does not exist.\" Id. at 1346. For example, \"[j]udges may find that some cases merit a detailed explanation of the reasons the selected sentence is appropriate [and] [t]hat explanation could make it clear that the judge based the sentence ... on factors independent of the Guidelines.\" Id. at 1346-47.\nThat is the case here. There is no reasonable probability that Nino-Carreon's sentence would have been different had the district court used the correct range. Even before the sentencing hearing, the court expressed a \"tentative conclusion that the defendant should receive a sentence of imprisonment significantly above the top of the advisory guideline range.\" During the hearing, the court emphasized Nino-Carreon's criminal history through a comprehensive recitation filling six transcript pages. The court devoted particular attention to Nino-Carreon's two 2016 assaults resulting in bodily injury on a family member, describing in detail what he had done. The court added, \"And I have concluded a sentence of imprisonment of 50 months is absolutely necessary to satisfy those [sentencing] factors.\" In its statement of reasons, the court specified that those factors were \"the history and characteristics of the defendant, the nature and circumstances of the offense, ... [the need for the sentence imposed to reflect] the seriousness of the offense[,] to promote respect for the law, and [to] protect the public from further crimes by the defendant.\"\nThe district court's statements thus substantiate that there is no reasonable probability that Nino-Carreon's sentence would have been different had the court used the correct guideline range of 21 to 27 months instead of 24 to 30 months. The court provided \"a detailed explanation of the reasons the selected sentence is appropriate\" and made \"clear that the [court] based the sentence ... on factors independent of the Guidelines.\" Id. Consequently, Nino-Carreon has not demonstrated that the error affected his substantial rights, and we have no need to address the fourth prong.\nThe judgment of sentence is AFFIRMED.",
+        "type": "majority",
+        "author": "JERRY E. SMITH, Circuit Judge:"
+      }
+    ],
+    "attorneys": [
+      "Leigha Amy Simonton, James Wesley Hendrix, Assistant U.S. Attorneys, U.S. Attorney's Office, Northern District of Texas, Dallas, TX, for Plaintiff-Appellee.",
+      "Kevin Joel Page, Federal Public Defender's Office, Northern District of Texas, Dallas, TX, for Defendant-Appellant."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee,\nv.\nJose NINO-CARREON, Defendant-Appellant.\nNo. 17-11433\nUnited States Court of Appeals, Fifth Circuit.\nFILED December 3, 2018\nLeigha Amy Simonton, James Wesley Hendrix, Assistant U.S. Attorneys, U.S. Attorney's Office, Northern District of Texas, Dallas, TX, for Plaintiff-Appellee.\nKevin Joel Page, Federal Public Defender's Office, Northern District of Texas, Dallas, TX, for Defendant-Appellant.\nBefore SMITH, BARKSDALE, and HO, Circuit Judges."
+  },
+  "file_name": "0194-01",
+  "first_page_order": 194,
+  "last_page_order": 198
+}

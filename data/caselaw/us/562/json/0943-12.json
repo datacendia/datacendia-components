@@ -1,0 +1,59 @@
+{
+  "id": 6020952,
+  "name": "Mardis v. United States",
+  "name_abbreviation": "Mardis v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-6013",
+  "first_page": "943",
+  "last_page": "943",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 943"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.557,
+    "sha256": "0f4272949efe0792e0e440a40b306ddf2adc0975bd4aa538f6f59190f23613ae",
+    "simhash": "1:e70af20a4abf4c4e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mardis v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6013.\nMardis v. United States."
+  },
+  "file_name": "0943-12",
+  "first_page_order": 965,
+  "last_page_order": 965
+}

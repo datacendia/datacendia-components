@@ -1,0 +1,745 @@
+{
+  "id": 12656942,
+  "name": "LOCKHEED MARTIN CORP., Appellant v. Glenn HEGAR, Comptroller of Public Accounts of the State of Texas; and Ken Paxton, Attorney General of the State of Texas, Appellees",
+  "name_abbreviation": "Lockheed Martin Corp. v. Hegar",
+  "decision_date": "2018-06-08",
+  "docket_number": "NO. 03-16-00303-CV",
+  "first_page": "855",
+  "last_page": "871",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "550 S.W.3d 855"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex. App. Ct.",
+    "id": 30135,
+    "name": "Court of Appeals of Texas, Austin"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "123 Stat. 1617",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 U.S.C. \u00a7 3729",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "401 S.W.3d 623",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7093485
+      ],
+      "year": 2013,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/401/0623-01"
+      ]
+    },
+    {
+      "cite": "46 S.W.3d 237",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11089209
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "241"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/46/0237-01"
+      ]
+    },
+    {
+      "cite": "168 S.W.3d 802",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8943104
+      ],
+      "weight": 3,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "815-17"
+        },
+        {
+          "page": "816",
+          "parenthetical": "footnote omitted"
+        },
+        {
+          "page": "819",
+          "parenthetical": "referring to factfinders as \"the sole judges\" of credibility and weight of the evidence"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/168/0802-01"
+      ]
+    },
+    {
+      "cite": "989 S.W.2d 464",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        11621635
+      ],
+      "pin_cites": [
+        {
+          "page": "467"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/989/0464-01"
+      ]
+    },
+    {
+      "cite": "350 S.W.2d 839",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10177170,
+        2263613
+      ],
+      "weight": 2,
+      "year": 1961,
+      "pin_cites": [
+        {
+          "page": "846"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/350/0839-01",
+        "/tex/163/0011-01"
+      ]
+    },
+    {
+      "cite": "163 Tex. 11",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2263613
+      ],
+      "year": 1961,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/163/0011-01"
+      ]
+    },
+    {
+      "cite": "78 S.W.3d 630",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9408143
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "634"
+        },
+        {
+          "page": "634"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/78/0630-01"
+      ]
+    },
+    {
+      "cite": "484 S.W.3d 611",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6812243
+      ],
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "615"
+        },
+        {
+          "page": "615-16"
+        },
+        {
+          "page": "616"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/484/0611-01"
+      ]
+    },
+    {
+      "cite": "877 P.2d 133",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "case_ids": [
+        10349335
+      ],
+      "weight": 2,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "136"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/p2d/877/0133-01"
+      ]
+    },
+    {
+      "cite": "34 S.W.3d 578",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11162745
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "580"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/34/0578-01"
+      ]
+    },
+    {
+      "cite": "488 S.W.3d 294",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6802377
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "297"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/488/0294-01"
+      ]
+    },
+    {
+      "cite": "58 Comp. Gen. 81",
+      "category": "reporters:federal",
+      "reporter": "Comp. Gen.",
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "85",
+          "parenthetical": "observing, in context of dispute regarding Comptroller General's jurisdiction to address private parties' challenge to FMS transactions, that \"[t]he U.S. Government, in effect, acts as the agent of the buying country in dealing with the U.S. selling company\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "460 S.W.3d 743",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6872713
+      ],
+      "pin_cites": [
+        {
+          "page": "749-50"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/460/0743-01"
+      ]
+    },
+    {
+      "cite": "422 S.W.3d 632",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7328049
+      ],
+      "weight": 2,
+      "year": 2013,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/422/0632-01"
+      ]
+    },
+    {
+      "cite": "38 Tex. Reg. 5109",
+      "category": "laws:admin_register",
+      "reporter": "Tex. Reg.",
+      "weight": 4,
+      "year": 2013,
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Tex. Reg. 1218",
+      "category": "laws:admin_register",
+      "reporter": "Tex. Reg.",
+      "year": 2003,
+      "opinion_index": 0
+    },
+    {
+      "cite": "34 Tex. Admin. Code \u00a7 3.557",
+      "category": "laws:admin_compilation",
+      "reporter": "Tex. Admin. Code",
+      "year": 2004,
+      "pin_cites": [
+        {
+          "parenthetical": "Comptroller of Pub. Accounts, Earned Surplus: Apportionment"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "815 S.W.2d 245",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9971418
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "249"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/815/0245-01"
+      ]
+    },
+    {
+      "cite": "71 L.Ed.2d 659",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "year": 1982,
+      "opinion_index": 0
+    },
+    {
+      "cite": "102 S.Ct. 1445",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "year": 1982,
+      "opinion_index": 0
+    },
+    {
+      "cite": "455 U.S. 946",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11336195,
+        11335972,
+        11335878,
+        11335598,
+        11335824,
+        11336115,
+        11336052,
+        11335444,
+        11335509,
+        11335387,
+        11335676,
+        11335773
+      ],
+      "year": 1982,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/455/0946-12",
+        "/us/455/0946-09",
+        "/us/455/0946-08",
+        "/us/455/0946-04",
+        "/us/455/0946-07",
+        "/us/455/0946-11",
+        "/us/455/0946-10",
+        "/us/455/0946-02",
+        "/us/455/0946-03",
+        "/us/455/0946-01",
+        "/us/455/0946-05",
+        "/us/455/0946-06"
+      ]
+    },
+    {
+      "cite": "614 S.W.2d 215",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9960694
+      ],
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "217"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/614/0215-01"
+      ]
+    },
+    {
+      "cite": "149 S.W.3d 166",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9142869
+      ],
+      "pin_cites": [
+        {
+          "page": "169"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/149/0166-01"
+      ]
+    },
+    {
+      "cite": "1997 Tex. Gen. Laws 4569",
+      "category": "laws:leg_session",
+      "reporter": "Tex. Gen. Laws",
+      "opinion_index": 0
+    },
+    {
+      "cite": "62 L.Ed.2d 645",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "year": 1980,
+      "opinion_index": 0
+    },
+    {
+      "cite": "100 S.Ct. 667",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "year": 1980,
+      "opinion_index": 0
+    },
+    {
+      "cite": "444 U.S. 1016",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11427078,
+        11426918,
+        11426857,
+        11426698,
+        11426956,
+        11426996,
+        11427031,
+        11426744,
+        11426812,
+        11426653
+      ],
+      "year": 1980,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/444/1016-10",
+        "/us/444/1016-06",
+        "/us/444/1016-05",
+        "/us/444/1016-02",
+        "/us/444/1016-07",
+        "/us/444/1016-08",
+        "/us/444/1016-09",
+        "/us/444/1016-03",
+        "/us/444/1016-04",
+        "/us/444/1016-01"
+      ]
+    },
+    {
+      "cite": "584 S.W.2d 268",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9932883
+      ],
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "270"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/584/0268-01"
+      ]
+    },
+    {
+      "cite": "340 S.W.3d 432",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7319877
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "437",
+          "parenthetical": "citing Bullock v. National Bancshares Corp. , 584 S.W.2d 268, 270 (Tex. 1979), cert. denied , 444 U.S. 1016, 100 S.Ct. 667, 62 L.Ed.2d 645 (1980) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/340/0432-01"
+      ]
+    },
+    {
+      "cite": "22 U.S.C. \u00a7 2778",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(3)",
+          "parenthetical": "authorizing President to \"require that any defense article or defense service be sold under this chapter as a condition of its eligibility for export\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "727 F.2d 1567",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1934467
+      ],
+      "weight": 2,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "1570",
+          "parenthetical": "\"Congress contemplated that sales under the Arms Export Control Act would be at no cost to the government.\""
+        },
+        {
+          "page": "1570",
+          "parenthetical": "\"Pursuant to the [AECA], the foreign government could be required to deposit money in a trust fund, which would be used to pay the contractor [or] the purchaser could provide the United States with a dependable undertaking to pay.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/727/1565-01"
+      ]
+    },
+    {
+      "cite": "282 F.Supp.2d 1324",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        9095446
+      ],
+      "weight": 6,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "1341"
+        },
+        {
+          "page": "1338",
+          "parenthetical": "discussing FMS trust fund with U.S. Treasury"
+        },
+        {
+          "page": "1327-29"
+        },
+        {
+          "page": "1329-30"
+        },
+        {
+          "page": "1338-41"
+        },
+        {
+          "page": "1341"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/282/1324-01"
+      ]
+    },
+    {
+      "cite": "22 U.S.C. \u00a7 2762",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)",
+          "parenthetical": "requiring purchasing country to \"provide[ ] the United States Government with a dependable undertaking (1) to pay the full amount of such contract [purchasing the military goods or services] which will assure the United States Government against any loss on the contract, and (2"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "884 F.3d 463",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516192
+      ],
+      "weight": 4,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "467",
+          "parenthetical": "citing 22 U.S.C. \u00a7 2762 "
+        },
+        {
+          "page": "468"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/884/0463-01"
+      ]
+    },
+    {
+      "cite": "484 F.3d 700",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5732593
+      ],
+      "weight": 10,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "parenthetical": "explaining that DoD created DSCA and issued SAMM pursuant to presidential delegation of his authority under AECA"
+        },
+        {
+          "page": "706-07"
+        },
+        {
+          "page": "703",
+          "parenthetical": "observing that some defense articles \"because of their sensitive nature can only be purchased through the FMS program\""
+        },
+        {
+          "page": "707"
+        },
+        {
+          "page": "707"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/484/0700-01"
+      ]
+    },
+    {
+      "cite": "331 Fed.Appx. 1",
+      "category": "reporters:federal",
+      "reporter": "Fed. Appx.",
+      "year": 2009,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "565 F.Supp.2d 59",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        5758198
+      ],
+      "weight": 4,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "62"
+        },
+        {
+          "page": "62"
+        },
+        {
+          "page": "62",
+          "parenthetical": "internal citations omitted"
+        },
+        {
+          "page": "62",
+          "parenthetical": "referring to the Green Book 's depiction of \"the traditional FMS process ... as a foreign purchaser, by means of the LOA, employing the DoD to conduct a defense procurement on its behalf\" (quoting Green Book , at 15-9) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/565/0059-01"
+      ]
+    },
+    {
+      "cite": "22 U.S.C. \u00a7\u00a7 2751",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 5,
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1784,
+    "char_count": 54751,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2647880243211091
+    },
+    "sha256": "a659a54e95fbaba1c2bdecd4d4955042771f00d6d2810e2d246b842abf9e8770",
+    "simhash": "1:bacfa798ed72245e",
+    "word_count": 8577
+  },
+  "last_updated": "2024-02-27T16:16:05.631967+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Justices Puryear, Pemberton, and Field"
+    ],
+    "parties": [
+      "LOCKHEED MARTIN CORP., Appellant\nv.\nGlenn HEGAR, Comptroller of Public Accounts of the State of Texas; and Ken Paxton, Attorney General of the State of Texas, Appellees"
+    ],
+    "opinions": [
+      {
+        "text": "Bob Pemberton, Justice\nThis appeal arises at a first-impression intersection between our State's franchise-tax law and the federal laws that restrict the export of military articles from the United States to foreign nations. The pivotal issue concerns the proper \"sourcing,\" for Texas franchise-tax-apportionment purposes, of receipts from Lockheed Martin Corporation's sales of fighter aircraft through \"Foreign Military Sales\" (FMS) transactions. FMS transactions, simply described, and as relevant here, entail the United States government's procurement from a domestic contractor of defense articles for resale to, and ultimate use by, the military forces of a foreign government. The Comptroller insists that Lockheed Martin's revenues from these FMS transactions are Texas receipts (and, therefore, serve ultimately to increase the company's Texas franchise-tax liability) because of certain U.S. government actions that occurred here. Lockheed Martin urges that the receipts are instead properly sourced to the respective foreign nations of the aircraft's ultimate users. The district court agreed with the Comptroller, and hence this appeal by Lockheed Martin. We will affirm the district court's judgment.\nTHE FMS TRANSACTIONS\nThe federal legal landscape that forms the context of the parties' Texas tax dispute begins with the Arms Export Control Act (AECA), which restricts sales of U.S.-made military goods and services to foreign nations so as to ensure consistency with U.S. foreign-policy and strategic interests. There are two primary means under the AECA by which such sales can be authorized. First, under what is known as a \"Direct Commercial Sales\" (DCS) transaction, approved foreign governments may negotiate and contract directly to purchase certain military goods and services from a U.S. contractor that obtains an export license issued by the State Department. The second means is the \"Foreign Military Sales\" or \"FMS\" transaction or program, our immediate focus here. In FMS transactions, an approved foreign nation is authorized to purchase specified military goods and services from the U.S. government upon presidential findings that doing so will \"strengthen the security of the United States and promote world peace\" and the recipient nation's acceptance of conditions that include restrictions on retransfer.\nAlthough these government-to-government FMS transactions can include sales from existing U.S. government stocks, the type of FMS transaction at issue here entails the U.S. government agreeing to procure the goods or services from a domestic contractor for resale to the foreign government. FMS transactions (so defined) are effected through two distinct but related contracts. First, the foreign government and the U.S. government enter into a \"Letter of Offer and Acceptance\" (LOA) under which the foreign government, in essence, hires the U.S. Department of Defense (DoD) to conduct a defense procurement on its behalf in much the same manner that DoD would procure articles for its own use. \"The U.S. government then contracts with a U.S. contractor for the goods and services that the U.S. government will eventually resell to the foreign sovereign.\" \"Thus, for defense articles procured under the FMS Program, there are contractual relationships between the United States and the foreign government and between the United States and the defense contractor ... [but] no contract between the foreign government and the defense contractor.\"\nFederal courts have recognized that the legal implications for \"this dual-contract structure\" include \"preclud[ing] the foreign sovereign from directly suing the U.S. contractor for its performance on an FMS contract,\" and the contractor likewise looks to the U.S. government rather than the foreign government for payment. However, the U.S. government is required to conduct FMS transactions so as to neither earn profits nor incur losses, and to that end the foreign government is required to pay the U.S. government the full amount of the U.S. government's payments made under its procurement contract with the contractor, plus administrative charges to cover the U.S. government's costs in administering the transaction. The foreign government generally meets these obligations in advance of the procurement either by depositing money into a trust fund with the U.S. Treasury or through an extension of credit based on a \"dependable undertaking\" to pay.\nAs compared to direct sales, the foreign government cedes \"significant control\" to the U.S. government in FMS transactions regarding the terms of the procurement being made on the foreign government's behalf, including the price of the articles being acquired. While the foreign government and U.S. contractor \"may coordinate in advance of the government-to-government talks in an attempt to pre-determine the contents of the eventual government-to-government agreement,\" such as by \"negotiat[ing] proposed pricing and technical specifications with a favored U.S. contractor and then urg[ing] the U.S. government to provide a sole-source award to that contractor under the pre-negotiated terms,\" the U.S. government is not obligated to agree to do so. Similarly, the U.S. government controls the ongoing management of the contract. Yet the FMS method also has its own \"distinct advantages\":\nSome defense articles may be purchased only through the FMS Program. Participation in the FMS Program may also present political advantages to the foreign government and help[ ] to build strong relationships between the United States military and its foreign counterpart. Additional benefits to foreign governments include shorter procurement delays, lower prices through economies of scale achieved by the [DoD], and the opportunity to benefit from the DoD's familiarity with the U.S. defense procurement system.\nThe FMS transactions at issue here specifically involved the U.S. government's purchase of F-16 fighter jets from Lockheed Martin for resale to the governments of Chile, Greece, Israel, Oman, or Poland. The material features of these transactions were stipulated or otherwise undisputed by the parties, and were consistent with the basic outline of FMS transactions just described. The U.S. government executed an LOA with each foreign government and in turn executed procurement contracts with Lockheed Martin. The procurement contracts were sole-source agreements with Lockheed Martin that incorporated some aircraft specifications originating with the foreign governments. However, a representative copy of the contracts between the U.S. government and Lockheed Martin reflects that the aircraft purchases were a type that the U.S. government had authorized only through the FMS process and not direct sales. The AECA authorizes the imposition of this FMA-only restriction as a means of ensuring, through the U.S. government's intermediation in a back-to-back contract structure, greater U.S. government control and security regarding sensitive military technologies as compared to the direct-sale method. As such, \"the choice of this [FMS] structure reflects the national security interests of the United States.\"\nLockheed Martin manufactured each of the jets at the large facility it owns and operates in Fort Worth. At that location, an authorized U.S. government representative (specifically, a representative of the Defense Contract Management Agency, a DoD arm) signed a \"Material Inspection and Receiving Report\" (termed a \"DD250\" form) signifying the U.S. government's final acceptance of each jet as meeting the requirements of its contract with Lockheed Martin. That event, the parties further stipulated, also represented the passage of title to each jet from Lockheed Martin to the U.S. government, upon which Lockheed Martin was entitled to request payment from the U.S. government. The U.S. government paid Lockheed Martin for the aircraft from funds the end-user foreign government had on deposit with the U.S. government or for which the U.S. government had extended credit to the foreign government based upon a \"dependable undertaking.\"\nThe title transfer to the U.S. government served in part to facilitate its ultimate delivery of each jet to the foreign government end user in its respective territory. Following the U.S. government's execution of the DD250 form, a U.S. government pilot came to the Fort Worth facility to ferry the jet to the foreign delivery point. At this stage, a U.S. government representative (i.e., DCMA personnel) signed a \"Requisition and Invoice/Shipping Document\" (\"DD Form 1149\") documenting the transfer of possession and control over the jet from Lockheed Martin to the U.S. government. A U.S. government representative also executed, at the Fort Worth facility, an \"Aerospace Vehicle Delivery Receipt\" (\"AFTO 290\") form documenting the transfer of possession and control of the jet to the U.S. government pilot responsible for ferrying it to the foreign delivery point. Upon arrival in the foreign country, a representative of the foreign government receiving the jet countersigned the AFTO 290, documenting receipt, delivery, and transfer of possession of the jet from the U.S. government to the foreign government. The foreign government typically would have agreed under its applicable LOA with the U.S. government to assume all risk of loss or damage to the jet during transit and to indemnify the U.S. government for any such loss or damage for which the U.S. government would have been responsible to Lockheed Martin.\nTHE FRANCHISE-TAX DISPUTE\nThe Texas franchise tax \"is a tax on the privilege of doing business in Texas.\" Lockheed Martin, a Maryland corporation, has \"done business\" in Texas (among other states) at all relevant times and has thereby been required to pay Texas franchise taxes. The dispute concerns Lockheed Martin's franchise-tax liabilities for the years 2005, 2006, and 2007, during which time Lockheed Martin paid the tax based on its \"earned surplus.\" Because not all of Lockheed Martin's earned surplus was attributable to Texas, it was necessary for the company to apportion that tax base (as with taxable margin under the current Chapter 171) by \"multiplying the taxable earned surplus by a fraction, the numerator of which is the corporation's gross receipts from business done in this state ... and the denominator of which is the corporation's gross receipts from its entire business.\" The effect of this formula, as we have previously observed, is that \"the larger a [taxpayer's] 'gross receipts from business done in this state,' the larger the apportionment factor, and the larger percentage of its taxable earned surplus is subject to the franchise tax.\"\nWhen initially calculating and paying its Texas franchise taxes for the three years in question, Lockheed Martin treated its revenues from the FMS transactions as Texas receipts. In 2011, however, Lockheed Martin filed amended reports and later a refund claim predicated on the assertion that these receipts should have been sourced instead to the respective foreign nations of the aircraft's end users. The corresponding adjustment-removing the FMS receipts from the numerator of the apportionment factor-would yield a reduction in Lockheed Martin's franchise-tax liability for the refund period that the parties later stipulated to be approximately $2.5 million. The Comptroller ultimately denied the refund claim. After exhausting its remaining administrative remedies, Lockheed Martin pursued its refund claim through a de novo action in district court. The claim was tried to the bench, principally on the parties' stipulations, and the district court rendered judgment that Lockheed Martin take nothing.\nAt each level of the litigation, the parties' dispute has centered principally on construction and application of the Tax Code provision that at relevant times guided determination of a taxpayer's \"gross receipts from business done in this state.\" That provision, a now-former Section 171.1032, prescribed that this all-important numerator in the apportionment factor included the taxpayer's receipts from:\neach sale of tangible personal property if the property is delivered or shipped to a buyer in this state regardless of the FOB point or another condition of the sale....\nThere is no question that the aircraft at issue are \"tangible personal property\" and that Lockheed Martin made some form of a \"sale\" of each and earned receipts. The parties have likewise seemed to agree that \"delivered\" as used in Former Section 171.1032 denoted the concept of \"delivery,\" i.e., the transfer of possession or control over each jet. Former Section 171.1032 also instructs us, as both sides acknowledge, that the analysis is not controlled by the agreed-upon F.O.B. (free-on-board)\npoint or similar contractual sale conditions relating to the location where title is deemed to pass, where the property is deemed accepted, or where the risk of loss is assumed. The parties' dispute has centered, rather, on the identity of the relevant \"buyer\" in Lockheed Martin's FMS transactions-was it the U.S. government or the foreign governments that were the aircraft's end users? A related debate has concerned whether the determining factor under Former Section 171.1032 is the location of the buyer versus the location where delivery or shipment to the buyer occurred.\nThe Comptroller has maintained that the U.S. government was the relevant \"buyer\" in the FMS transactions, i.e., that we should view each FMS transaction as two separate sales for purposes of Former Section 171.1032-the U.S. government buying the jets from Lockheed, then reselling them to the foreign governments-with the former sale concluding in Texas. But regardless, the Comptroller urges, the controlling consideration is that delivery was made to the U.S. government (whether considered to be the buyer in a distinct sale or a recipient acting on behalf of a foreign ultimate buyer) in Texas, when Lockheed Martin transferred possession and control of each jet to U.S. government representatives at Lockheed Martin's Fort Worth facility.\nThe Comptroller views this singular focus on the location at which delivery occurred-which it terms \"the place-of-delivery test\"-as a settled principle of Texas franchise-tax-apportionment jurisprudence. The Comptroller derives that notion chiefly from this Court's 1981 decision in Bullock v. Enserch Exploration, Inc . The pivotal question in Enserch concerned the sourcing of receipts, under a materially identical predecessor to Former Section 171.1032, earned by three corporations through what this Court described as their \"sales of natural gas with deliveries in Texas to interstate pipeline companies for resale outside of Texas.\" Although the gas was sold in apparent expectation of being flowed through interstate pipelines and ultimately resold out of state, this Court considered the statute to be \"clear and unambiguous\" in requiring that the sales be sourced to Texas:\nIt is self-evident from the facts ... that [the taxpayer corporations] are not sellers of natural gas to out-of-state buyers. These transactions begin and end in Texas. [The predecessor statute] clearly provides that \"when the property is delivered or shipped to a purchaser within this State,\" a sale of such property constitutes gross receipts from business done in Texas \"regardless of the F.O.B. point or other conditions of the sale ....\" It makes no difference that the gas eventually moves in interstate commerce. For the purposes of this tax, its status is simply determined by whether such property, when sold, is delivered or shipped to a purchaser within Texas.\nThe Comptroller further emphasizes that the Texas Supreme Court later cited Enserch in discussing the meaning of \"business done in Texas\" and opined, regarding the same sourcing language at issue in Enserch and here, that \"it is apparent that the Legislature sought to collect franchise tax from corporations that deliver or ship personal property to purchasers within Texas.\"\nThe Comptroller also relies on a since-repealed rule applicable to this case (Former Rule 3.557) in which his office had implemented the \"place-of-delivery test.\" Subsection (e)(37)(A) of Former Rule 3.557 provided that transactions involving the sale of tangible personal property and which result in Texas receipts include:\nthe sale of tangible personal property which is delivered in Texas to a purchaser. Delivery is complete upon transfer of possession or control of the property to the purchaser, an employee of the purchaser, or to transportation vehicles leased or owned by the purchaser. F.O.B. point, location of title passage, or other conditions of the sale are not relevant to the determination of Texas gross receipts.\nAs the italicized language emphasizes, the Comptroller construed Former Section 171.1032's reference to \"property ... delivered or shipped to a buyer in this state\" to denote delivery in Texas, regardless where the buyer might otherwise be considered to be located. Other components of Former Rule 3.557 similarly prescribed that Texas receipts also included sales of goods delivered in Texas \"to an employee or transportation agent of an out-of-state purchaser\" (including a carrier that \"is under the supervision and control of the purchaser with respect to the manner in which goods are transported\"), the \"sale and delivery in Texas of [goods] that are loaded into a barge, truck, airplane, vessel, tanker, or any other means of conveyance leased and controlled or owned by the purchaser of the [goods],\" and \"the sale of tangible personal property which is delivered to and stored in a warehouse or other storage facility in Texas at the purchaser's request,\" as opposed to a necessary delay in transit, even though the property is subsequently shipped outside Texas. On the other hand, the rule excluded from Texas receipts sales of goods \"delivered in Texas to an independent common carrier, common carrier, or freight forwarder hired by a purchaser of the property ... if the carrier transports or forwards the property to the purchaser out of state.\"\nLockheed Martin decries the Comptroller's construction of Former Section 171.1032 as elevating \"form over substance\" and ignoring the \"economic realities\" underlying its FMS transactions, contrary to the admonishments of both the Texas Supreme Court and this Court. The FMS transactions, Lockheed Martin insists, were substantively sales made by it to the foreign nations, with delivery correspondingly occurring within the respective boundaries of these foreign \"buyers\" upon the U.S. government's ultimate relinquishment of possession and control of each jet there. As for any potential legal significance of the U.S. government's intervening role in these transactions, Lockheed Martin downplays it as merely \"conditions of the sale\" made within the FMS scheme, which under Former Section 171.1032 are explicitly not to be controlling. Lockheed Martin further depicts the U.S. government's role as that of a \"purchasing agent\" or \"delivery agent\" acting on behalf of the foreign \"buyers,\" a characterization that has been used in other contexts by Comptroller General opinions, commentary to which Lockheed Martin refers us, and also some of the federal cases we have previously cited.\nTo the extent its \"purchasing agent\" theory would potentially imply that the foreign governments took delivery of the jets in Texas through the U.S. government acting on their behalf, Lockheed Martin makes a broader challenge to the Comptroller's \"place-of-delivery test\" as misreading Enserch and the underlying statutory language. The determining factor under Former Section 171.1032 and provisions like it, Lockheed Martin urges, is not whether delivery occurred in Texas, but whether the buyer was in Texas. While the location of the buyer and that of delivery may coincide when a buyer in this state also takes delivery in this state (and Lockheed Martin posits that Enserch was addressed to that situation), the distinction takes on greater practical significance when the buyer is located out of state. In that situation, the effect of Lockheed Martin's proposed construction differs from that of the Comptroller's \"place-of-delivery rule\" by excluding receipts generated by out-of-state buyers who merely take delivery of goods in Texas and immediately transport them elsewhere.\nThe competing constructions of Lockheed Martin and the Comptroller represent opposing sides in a larger nationwide divergence over the proper construction of language analogous to Former Section 171.1032. That language tracks a model act, the Uniform Division of Income for Tax Purposes Act (UDITPA), and has been incorporated in some form into the tax laws of numerous states besides Texas. Lockheed Martin's approach is commonly known as the \"ultimate-destination\" test, as it looks to the state where the buyer is located and will use or consume the goods. Justifications for the \"ultimate-destination\" approach, echoed by Lockheed Martin here, include the placement in the statute of the modifying prepositional phrase \"in this state\" immediately after \"buyer\" or \"purchaser\" rather than after \"delivered\" or \"shipped\" (in essence, an application of the \"last-antecedent\" canon of statutory construction ) and a perceived underlying policy to take account of \"the contribution of the consumer's or purchaser's state\" that produced the buyer or market when apportioning receipts generated by the sale. Lockheed Martin asserts-with some apparent support-that the \"ultimate-destination\" construction has been the dominant view among the courts that have considered the question. However, the Comptroller's \"place-of-destination\" construction finds adherents that include the Multistate Tax Commission, and asserted justifications include potential practical difficulties in administering the alternative.\nBecause the ultimate destinations of the jets were the respective foreign nations, Lockheed Martin reasons, those governments were not \"buyer[s] in this state\" and the resultant sourcing of the receipts to Texas was improper under Former Section 171.1032. And to the extent Former Rule 3.557 would compel a contrary result, Lockheed Martin adds, the rule contradicts Former Section 171.1032 and is therefore invalid. In fact, Lockheed Martin complains, the rule inverts Former Section 171.1032's language, which focuses on whether property is \"delivered or shipped to a buyer in [Texas],\" to look instead to whether property \"is delivered in Texas to a purchaser.\"\nThe district court, as noted previously, rendered judgment that Lockheed Martin take nothing on its refund claim. It subsequently made findings of fact and conclusions of law that were generally consistent with the Comptroller's arguments and contrary to Lockheed Martin's theories. These findings and conclusions were to the effect that Lockheed Martin's receipts from its FMS transactions were properly sourced to Texas under Former Section 171.1032 because the company's sales that generated the receipts were made to the U.S. government as the \"buyer,\" those sales were completed in Texas, and the jets were delivered to the U.S. government in Texas. Correspondingly, the district court found or concluded that the foreign governments had purchased the jets from the U.S. government rather than from Lockheed Martin and that \"[t]he FMS program does not create an agency relationship between the [U.S. government] and the foreign government.\" The district court also purported to rely on former Rule 3.557(e)(37)(a) as support for its ruling, thereby tacitly rejecting Lockheed Martin's validity challenge.\nANALYSIS\nA tax-refund suit is a form of de novo judicial review on which the claimant (here, Lockheed Martin) has the burden of proof by a preponderance of the evidence. On appeal, this burden translates into Lockheed Martin's need to demonstrate that the evidence establishes conclusively-i.e., as a matter of law-any material facts on which its refund claim depends and that were not found by the district court in order to obtain an appellate judgment awarding the refund it seeks. Accordingly, Lockheed Martin couches its appellate arguments in terms of seeking to demonstrate that conclusive evidence establishes the facts material to its refund claim as a matter of law. But this inquiry \"is necessarily framed by construction\" of Former Section 171.1032, as \"it is that statute's scope and meaning, after all, that ultimately controls whether or how the existence or nonexistence of particular facts have legal effect upon [Lockheed Martin's] claimed right of recovery.\" For this reason, and because virtually all of the material facts regarding the FMS transactions are stipulated or otherwise undisputed, resolution of this appeal ultimately turns on construction of Former Section 171.1032. That is a question of law that we review de novo.\nThe threshold question we must consider under Former Section 171.1032 is the identity of the relevant \"buyer\" or \"buyers\" to which Lockheed Martin made its \"sales\" of the aircraft -is the buyer the U.S. government or the respective foreign end users? In both legal and ordinary usage, Lockheed Martin inescapably \"sold\" or made \"sales\" of the aircraft in question to the U.S. government-under contracts formed for that purpose, Lockheed Martin conveyed the aircraft to the U.S. government in return for payment. The gravamen of Lockheed Martin's position is that we must disregard what would otherwise be considered its sales to the U.S. government and instead impute the U.S. government's actions to the foreign government end users. This is so, Lockheed Martin insists, because the \"economic reality\" or substance of the FMS transactions as a whole was to effect Lockheed Martin's sale of the aircraft to the respective foreign governments, with the U.S. government serving merely as a \"purchasing agent\" or middleman serving the foreign government. We disagree with both the conclusion and its premise.\nLockheed Martin is correct that we cannot \"disregard the economic realities underlying the transactions at issue\" when construing and applying tax statutes like Former Section 171.1032. But this does not mean we can add or ignore textual features \"in the guise of considering the economic realities or essence of the transaction,\" either. Thus, if the U.S. government is the \"buyer\" in Lockheed Martin's aircraft sales under a proper construction of Former Section 171.1032, that statute requires the receipts be sourced to Texas without regard to any subsequent or related transactions between the U.S. government and the foreign governments. That is the import of our Enserch decision-whether one reads it as looking to the location of the Texas buyer or the Texas delivery, the decisive consideration to this Court was that the sales transactions \"begin and end in Texas.\" That the same gas would be resold in interstate commerce, we reasoned, \"makes no difference\" in the analysis. To the extent Lockheed Martin is suggesting that resales by the U.S. government to foreign governments could convert the identity of Lockheed Martin's \"buyer\" under Former Section 171.1032 from what would otherwise be the U.S. government to the foreign governments, it contradicts Enserch .\nNor are the foreign governments Lockheed Martin's \"buyers,\" to the exclusion of the U.S. government, even in substantive effect. As we acknowledged in our introductory explanation of FMS transactions, the U.S. government to some extent does act \"on behalf of\" a foreign government or akin to a hired purchaser when conducting FMS procurements. But that review also illustrates that any such effects or implications occur within a statutory and transactional framework that exists for the dominant purpose of advancing the U.S. government's own national-security and foreign-policy interests, and to which ends the U.S. government concomitantly possesses ultimate power and control over the transactions relative to the foreign nations' respective interests. For such reasons, federal courts have rejected, in a variety of contexts, similar invitations to disregard or \"pierce\" the two-contract structure of FMS transactions based on a \"procurement agent\" or similar theory for treating the transactions as if directly between the contractor and the foreign end user.\nFor example, United States ex rel. Campbell v. Lockheed Martin Corp. concerned FMS transactions in which the U.S. government had contracted with Lockheed Martin to provide navigational equipment that the U.S. government would resell to various foreign nations. Lockheed Martin was later sued under the False Claims Act for allegedly billing the U.S. government falsely under its contract. Lockheed Martin sought summary judgment on the ground that it did not assert any \"claim\" to the U.S. government, so as to present a basis for liability under the Act, because its payment requests within the FMS scheme could ultimately implicate only funds of foreign governments that the U.S. government was holding merely as a \"fiduciary\" or \"agent.\" The court denied Lockheed Martin's summary-judgment motion, and the following portion of its analysis is particularly instructive here:\nThe [U.S.] Government is an independent actor and not a true \"fiduciary\" or \"agent\" of a foreign government in the Foreign Military Sales program. Under the AECA, the President (and by designation, the Department of Defense) may sell defense articles and services from two sources.... Regardless of whether the sales are stock sales or procured item sales, it is the United States who is selling the items to the foreign governments.\nIn this arrangement there is no privity of contract between Lockheed and the foreign countries. Instead, Lockheed was obligated to deliver [the navigational equipment] to the United States and the United States was obligated to pay Lockheed for the [goods]; the Government's obligation to pay was not contingent on receipt of funds from a foreign government. The foreign nations have no obligation to pay Lockheed, and the United States government actually takes title to the [goods] upon delivery from Lockheed, and title then passes from the United States to the foreign government. The United States is benefitting its own foreign policy interests when it undertakes the sale of military equipment under the FMS program, and the United States has the option of refusing to resell to the foreign government even if an LOA exists.\nAnd as previously observed, the U.S. government's decision to require use of the FMS acquisition method in lieu of direct sales, as there was evidence here, in itself \"reflects the national security interests of the United States\" by ensuring tighter U.S. government control of sensitive technologies through a back-to-back contract structure. For this reason, the Fourth Circuit has held that a foreign government in an FMS-only transaction cannot sue the U.S. contractor as a third-party beneficiary of the U.S. government's procurement contract. As the court observed, \"[I]t would be contrary to the statutory scheme to imply a direct relationship between the domestic contractor and the foreign purchaser\" and thereby \"allow the foreign purchaser to gain an advantage of [the direct-sale method] where United States policy (and the statutory scheme chosen to effectuate that policy) explicitly precludes a [direct-sale] arrangement.\"\nThe logic of these federal decisions, which we find persuasive, counsels us similarly to hold that the U.S. government was the \"buyer\" in Lockheed Martin's aircraft sales for purposes of Former Section 171.1032. It follows that Lockheed Martin's receipts from the FMS transactions are properly sourced to Texas. This is so regardless of whether we apply the Comptroller's place-of-delivery test or instead adopt the ultimate-destination analysis urged by Lockheed Martin. Under the former approach, it would be decisive that delivery of the jets to the U.S. government occurred at Lockheed Martin's facility in Fort Worth. As for the latter, Lockheed Martin does not appear to contest that the U.S. government or military, which has personnel at the Fort Worth facility, would be considered a Texas buyer. Under either view, as in Enserch , the critical consideration is that the Lockheed Martin-U.S. government sales transactions would \"begin and end in Texas.\" Consequently, we need not address Lockheed Martin's arguments questioning the Comptroller's \"place-of-delivery rule\" or its applicability to the particular circumstances here, nor the related challenge to Former Rule 3.557.\nCONCLUSION\nWe affirm the district court's judgment.\nAffirmed\nSee generally 22 U.S.C. \u00a7\u00a7 2751 -2796d.\nSee id. \u00a7 2778.\nId. \u00a7 2753(a)(1).\nSee id. \u00a7 2761.\nSee id. \u00a7 2762.\nSee Heroth v. Kingdom of Saudi Arabia , 565 F.Supp.2d 59, 62 (D.D.C. 2008), aff'd , 331 Fed.Appx. 1 (D.C. Cir. 2009) (per curiam); U.S. Dep't of Def., Def. Sec. Cooperation Agency, DoD 5105.38-M, Security Assistance Management Manual (1988) \u00b6 20202(B)(1) [hereinafter SAMM ] (providing generally that \"[w]hen procuring for a foreign government [in an FMS transaction], DOD will apply the same contract clauses and contract administration as it would use in procuring for itself\"); id. \u00b6\u00b6 70101-40 (prescribing contents of LOA and associated procedures). The SAMM is a DoD compilation of information, instructions, and policies to direct the agency's personnel in carrying out their responsibilities under FMS programs and other \"security assistance\" initiatives. See Secretary of State for Def. v. Trimble Navigation Ltd. , 484 F.3d 700, 703 n.1 (4th Cir. 2007) (explaining that DoD created DSCA and issued SAMM pursuant to presidential delegation of his authority under AECA). The parties stipulated that the 1988 version of the SAMM \"is the version of the SAMM most relevant to this case.\"\nBAE Sys. Tech. Sol. & Servs. v. Republic of Korea's Def. Acquisition Program Admin. , 884 F.3d 463, 467 (4th Cir. 2018) (citing 22 U.S.C. \u00a7 2762 ).\nHeroth , 565 F.Supp.2d at 62.\nBAE Sys. Tech. Sol. , 884 F.3d at 467 (citing Trimble Navigation Ltd. , 484 F.3d at 707 ).\nSee United States ex rel. Campbell v. Lockheed Martin Corp. , 282 F.Supp.2d 1324, 1341 (M.D. Fla. 2003) (\"In this [FMS] arrangement [for sale of a component part for military aircraft] there is no privity between Lockheed and the foreign countries. Instead, Lockheed was obligated to deliver [the articles] to the United States and the United States was obligated to pay Lockheed for the [articles]; the Government's obligation to pay [Lockheed] was not contingent on receipt of funds from a foreign government. The foreign nations have no obligation to pay Lockheed....\").\nSee 22 U.S.C. \u00a7 2762(a) (requiring purchasing country to \"provide[ ] the United States Government with a dependable undertaking (1) to pay the full amount of such contract [purchasing the military goods or services] which will assure the United States Government against any loss on the contract, and (2) to make funds available in such amounts and at such times as may be required by the contract, and for any damages and costs that may accrue from the cancellation of such a contract, in advance of the time such payments, damages, or costs are due\"); United States v. General Elec. Corp. , 727 F.2d 1567, 1570 (Fed. Cir. 1984) (\"Congress contemplated that sales under the Arms Export Control Act would be at no cost to the government.\"); SAMM \u00b6\u00b6 70203-04.\nSee General Elec. Corp. , 727 F.2d at 1570 (\"Pursuant to the [AECA], the foreign government could be required to deposit money in a trust fund, which would be used to pay the contractor [or] the purchaser could provide the United States with a dependable undertaking to pay.\"); Campbell , 282 F.Supp.2d at 1338 (discussing FMS trust fund with U.S. Treasury).\nSee BAE Sys. Tech. Sol. , 884 F.3d at 468.\nId.\nSee Trimble Navigation Ltd. , 484 F.3d at 706-07.\nHeroth , 565 F.Supp.2d at 62 (internal citations omitted).\nThe parties stipulated to the admission of a redacted copy of the contract between the U.S. government and Lockheed Martin for production of aircraft for use by Israel and further agreed that this agreement was \"illustrative of the kind and type of documents deadline with each sale of foreign F-16s at issue.\" The face of this contract indicates, \"FMS REQUIREMENT IAW [i.e., in accordance with] THE ARMS EXPORT CONTROL ACT.\"\nSee 22 U.S.C. \u00a7 2778(a)(3) (authorizing President to \"require that any defense article or defense service be sold under this chapter as a condition of its eligibility for export\"); Trimble Navigation Ltd. , 484 F.3d at 703 (observing that some defense articles \"because of their sensitive nature can only be purchased through the FMS program\"); SAMM \u00b6\u00b6 60001-02 (explaining conditions under which FMS method may be required in lieu of direct sales, including \"special situations\" in which the U.S. government wishes to exercise control that is more easily achieved within FMS channels and citing AECA).\nTrimble Navigation Ltd. , 484 F.3d at 707.\nSee SAMM table 701-11 (\"Additional Terms and Conditions\").\nTGS-NOPEC Geophysical Co. v. Combs , 340 S.W.3d 432, 437 (Tex. 2011) (citing Bullock v. National Bancshares Corp. , 584 S.W.2d 268, 270 (Tex. 1979), cert. denied , 444 U.S. 1016, 100 S.Ct. 667, 62 L.Ed.2d 645 (1980) ).\nSee Act of May 30, 1997, 75th Leg., R.S., ch. 1185, \u00a7 7, 1997 Tex. Gen. Laws 4569, 4570. We will hereinafter refer to provisions within this prior version of Tax Code Chapter 171 as \"Former Section 171. ____.\"\nFormer Section 171.106(b); cf. Tex. Tax Code \u00a7 171.106(a) (providing that generally \"a taxable entity's margin is apportioned to this state to determine the amount of tax imposed under Section 171.002 by multiplying the margin by a fraction, the numerator of which is the taxable entity's gross receipts from business done in this state, as determined under Section 171.103, and the denominator of which is the taxable entity's gross receipts from its entire business, as determined under Section 171.105\").\nAnderson-Clayton Bros. Funeral Home, Inc. v. Strayhorn , 149 S.W.3d 166, 169 (Tex. App.-Austin 2004, pet. denied) (quoting Former Section 171.106 ).\nSee Tex. Tax Code \u00a7 112.151.\nFormer Section 171.1032(a)(1); cf. Tex. Tax Code \u00a7 171.103(a)(1) (generally prescribing that \"in apportioning margin, the gross receipts of a taxable entity from its business done in the state is the sum of the taxable entity's receipts from: ... each sale of tangible personal property if the property is delivered or shipped to a buyer in this state regardless of the FOB point or another condition of the sale\").\nSee delivery , Black's Law Dictionary (10th ed. 2014) (\"the formal act of voluntarily transferring something; esp., the act of bringing goods, letters, etc. to a particular person or place\").\nI.e., the location to which the seller bears the expense and risk of transporting the tangible personal property being sold. See Tex. Bus. & Com. Code \u00a7 2.319(a) (under Texas Uniform Commercial Code, \"[u]nless otherwise agreed the term F.O.B. (which means \"free on board\") at a named place, even though used only in connection with the stated price, is a delivery term under which (1) when the term is F.O.B. the place of shipment, the seller must at that place ship the goods in the manner provided in this chapter (Section 2.504) and bear the expense and risk of putting them into the possession of the carrier; or (2) when the term is F.O.B. the place of destination, the seller must at his own expense and risk transport the goods to that place and there tender delivery of them in the manner provided in this chapter (Section 2.503); (3) when under either Subdivision (1) or (2) the term is also F.O.B. vessel, car or other vehicle, the seller must in addition at his own expense and risk load the goods on board. If the term is F.O.B. vessel the buyer must name the vessel and in an appropriate case the seller must comply with the provisions of this chapter on the form of bill of lading (Section 2.323)\").\nSee, e.g. , Comptroller of Pub. Accounts, Docket No. 17,594 (1982) (final order) (\"It seems clear from the language of [Former Section 171.1032's predecessor] that FOB point or other conditions of a sale relating to acceptance of the property, passage of title, or risk of loss are not controlling for purposes of determining whether the receipts from a particular sale are Texas receipts.\" (citing Comptroller of Pub. Accounts, Docket No. 11,083 (1984) ) ).\nWe use \"Comptroller\" to refer both to that office and the Attorney General in the context of the trial- and appellate-level litigation, as their interests are aligned. See Tex. Tax Code \u00a7 112.151(b) (\"The suit must be brought against both the comptroller and the attorney general.\").\n614 S.W.2d 215 (Tex. Civ. App.-Austin 1981, writ ref'd n.r.e.), cert. denied , 455 U.S. 946, 102 S.Ct. 1445, 71 L.Ed.2d 659 (1982).\nId. at 216.\nSee id. at 216-17 (\"Appellees, Enserch and Continental, sell the gas they produce to interstate transmission companies which transport the gas to ultimate destinations located outside of Texas. Appellee, South Texas, purchases natural gas from producers and gathers, transports and sells this gas to interstate transmission companies in Texas which transport the gas to destinations in states other than Texas. There is a continuous and uninterrupted movement of the gas sold through the connecting pipeline of appellee South Texas and its purchasers from the time the gas is acquired by South Texas until it reaches its ultimate destination in another state.\").\nId. at 217 (emphasis in original).\nSharp v. House of Lloyd, Inc. , 815 S.W.2d 245, 249 (Tex. 1991).\nSee 34 Tex. Admin. Code \u00a7 3.557 (2004) (Comptroller of Pub. Accounts, Earned Surplus: Apportionment), adopted 28 Tex. Reg. 1218 (2003), repealed by 38 Tex. Reg. 5109 (2013).\nId. \u00a7 3.557(e)(37)(A) (emphasis added).\nId. \u00a7 3.557(e)(37)(B), (C), (G).\nId. \u00a7 3.557(e)(37)(C).\nSee Combs v. Roark Amusement & Vending, L.P. , 422 S.W.3d 632, 637 & n.14 (Tex. 2013) (in context of holding that purchases of inventory for coin-operated claw-game machines satisfied sale-for-resale exemption even while not every \"sale\" transferred a prize, observing that \"in the area of tax law, like other areas of economic regulation, a plain-meaning determination [of statutory language] should not disregard the economic realities underlying the transactions in issue\"); Gulf Chem. & Metallurgical Corp. v. Hegar , 460 S.W.3d 743, 749-50 (Tex. App.-Austin 2015, no pet.) (explaining, before determining whether certain service payments could be included as gross receipts for purpose of state franchise tax, that we \"look to the substance of a transaction rather than its form\" to determine its character).\nSee Former Section 171.1032 (\"... regardless of the FOB point or another condition of the sale\").\nSee, e.g. , In reProcurements Involving Military Sales , 58 Comp. Gen. 81, 85 (Comp. Gen. Nov. 16, 1978) (observing, in context of dispute regarding Comptroller General's jurisdiction to address private parties' challenge to FMS transactions, that \"[t]he U.S. Government, in effect, acts as the agent of the buying country in dealing with the U.S. selling company\").\nLockheed Martin has requested both this Court and the district court to take judicial notice of a commonly cited reference source in this arena, the Green Book. See generally Def. Sec. Cooperation Agency, Def. Institute of Sec. Cooperation Studies, The Management of Security Cooperation (37.1 ed. May 2017) [herein after Green Book ], http://disam.osd.mil/pubs/DR/greenbook.htm. \"The Green Book is a textbook published by the Defense Institute of Security Management, the agency responsible for providing research support to advance U.S. foreign policy through security assistance.\" Trimble Navigation Ltd. , 484 F.3d at 704 n.2. \"While the Green Book does not represent official agency guidance, it is an attempt to summarize security assistance programs and is based upon the AECA and the SAMM , among other sources.\" Id. Lockheed Martin emphasizes the following Green Book excerpt to support its proposition that the U.S. government acts \"as the purchasing agent for the foreign government [in] conduct[ing] on behalf of the foreign government\":\nAs a very broad generalization, the traditional FMS process can be characterized as a foreign purchaser, by means of the LOA, employing the DoD to conduct a defense procurement on its behalf. As such, the foreign purchaser entrusts the DoD to make decisions and take actions on its behalf. The foreign purchaser relies on the good faith commitment that DoD makes to conduct FMS procurement business in essentially the same manner that it conducts procurement business for itself. In this relationship of trust, there is no need for direct participation of the foreign purchaser in the procurement. DoD will execute the procurement based on the content of the LOA.\nGreen Book , at 15-9.\nSee Heroth , 565 F.Supp.2d at 62 (referring to the Green Book 's depiction of \"the traditional FMS process ... as a foreign purchaser, by means of the LOA, employing the DoD to conduct a defense procurement on its behalf\" (quoting Green Book , at 15-9) ).\nUnif. Division of Income for Tax Purposes Act \u00a7 16(a), 7A U.L.A. 147 (1957) (\"Sales of tangible personal property are in this state if: (a) the property is delivered or shipped to a purchaser ... within this state regardless of the f.o.b. point or other conditions of the sale....\"); see also Jerome R. Hellerstein, Walter Hellerstein, & John A. Swain, 1 State Taxation: Constitutional Limitations and Corporate Income and Franchise Taxes \u00b6 9.18[1][a], at 9-251 (3d ed. 1988) [hereinafter Hellerstein] (describing this provision as \"UDITPA's general destination rule for sales of tangible personal property\").\nSee Hellerstein \u00b6 9.18[1], at 9-251 (\"The destination rule for attributing receipts from sales of tangible personal property ... is now in use, in one way or another, in every one of the forty-five states (and the District of Columbia) that employs a sales or receipts factor in the apportionment formulas of their corporate income taxes.\").\nSee, e.g. , Hellerstein \u00b6 9.18[1][a], at 9-255 (terming this construction \"the ultimate-destination rule\" and contrasting it with \"the place-of-delivery rule\").\nSee, e.g. , Sullivan v. Abraham , 488 S.W.3d 294, 297 (Tex. 2016) (explaining that the canon \"provides 'that a qualifying phrase in a statute or the Constitution must be confined to the words and phrases immediately preceding it to which it may, without impairing the meaning of the sentence, be applied' \" (quoting Spradlin v. Jim Walter Homes, Inc. , 34 S.W.3d 578, 580 (Tex. 2000) ) ).\nHellerstein \u00b6 9.18[1][a], at 9-256.\nSee id. \u00b6 9.18[1][a], at 9-255 (while questioning that construction, acknowledging that \"most courts that have considered the issue have adopted the ultimate-destination rule rather than the place-of-delivery rule\" and terming these holdings \"the overwhelming majority\" view).\nSee Hellerstein \u00b6 9.18[1][a], at 9-252 (\"UDITPA, at least as construed by the Multistate Tax Commission (MTC), attributes sales to the state in which they are 'delivered ... to a purchaser,' whether or not that is the ultimate destination of the goods ... [t]hus, under UDITPA, as construed by the MTC regulations, it appears that if goods are sold to the buyer in State A and it sends its trucks to the terminal in State A to pick up the goods and transport them to its branches in other states, the good would be treated as having been 'delivered or shipped to a purchaser' in State A.\" (citing MTC Reg. IV 16(a)(3) ) ); see also Hercules, Inc. v. Utah State Tax Comm'n , 877 P.2d 133, 136 (Utah 1994) (refusing to apply \"the destination rule\" to source receipts from sale of goods completed in Utah, reasoning that \"the status of the sales is 'simply determined by whether such property, when sold, is delivered or shipped to a purchaser within' Utah\" (quoting Enserch , 614 S.W.2d at 217 ) ).\nSee Hellerstein \u00b6 9.18[1][a], at 9-255 (opining that ultimate-destination approach \"introduce[s] time-consuming and burdensome complexities that require vendors to inquire into the course of a product's journey after it is turned over to the customer\").\nIn conclusions of law 2 and 3, the district court held that Lockheed Martin was not entitled to its claimed refund because\"[t]he receipts from the sale of the F-16s at issue are gross receipts of Lockheed Martin from business done in Texas\" for purposes of apportionment under Former Section 171.1032 and Former Rule 3.557, and also made what was styled as a parallel ultimate finding (18) that \"[t]he receipts from the sale of the F-16s at issue by Lockheed Martin to the USG are Texas receipts for Lockheed Martin.\" In support of these ultimate findings or conclusions, the district court made underlying findings or conclusions that included, in addition to those discussed in text, that \"[t]he sales of the F-16s at issue were completed within Texas\" (designated as finding of fact no. 17), that \"[t]he [U.S. government] purchased the F-16s at issue in Fort Worth, Texas\" (finding of fact no. 11), that \"[t]he [U.S. government] took possession and control of the F-16s at issue in Fort Worth, Texas\" (finding of fact no. 12), and that \"Lockheed Martin delivered the F-16s at issue to the USG in Fort Worth, Texas\" (finding of fact no. 14).\nThe district court also included a finding or conclusion, designated as finding of fact no. 19, that \"[t]he F-16s at issue were not subject to taxes in any other state and are not subject to double taxation.\" This finding corresponds somewhat to a so-called \"throwback\" component of Former Section 171.1032, which deemed receipts from sales of personal property to be Texas receipts when \"shipped from this state to a purchaser in another state in which the seller is not subject to any tax on, or measured by, net income, without regard to whether the tax is imposed.\" Former Section 171.1032(a)(1). However, the Comptroller has not purported to rely on this throwback provision as support for the district court's judgment, so we do not consider that possibility.\nTo be precise, the findings and conclusions cite a different rule, but the parties agree that this was a typographical error and was intended to refer to Former Rule 3.557(e)(37)(A).\nSee Allstate Ins. Co. v. Hegar , 484 S.W.3d 611, 615 (Tex. App.-Austin 2016, pet. denied) (citing Tex. Tax Code \u00a7\u00a7 111.104(a), 112.052 -.053; GATX Terminals Corp. v. Rylander , 78 S.W.3d 630, 634 (Tex. App.-Austin 2002, no pet.) ); GATX Terminals Corp. , 78 S.W.3d at 634 (quoting Key W. Life Ins. Co. v. State Bd. of Ins. , 163 Tex. 11, 350 S.W.2d 839, 846 (1961), and citing id. , and Attorney Gen. v. Orr , 989 S.W.2d 464, 467 (Tex. App.-Austin 1999, no pet.) ).\nSee Allstate Ins. Co. , 484 S.W.3d at 615 (citing City of Keller v. Wilson , 168 S.W.3d 802, 815-17 (Tex. 2005) ; Dow Chem. Co. v. Francis , 46 S.W.3d 237, 241 (Tex. 2001) ). \"Evidence is conclusive only if reasonable people could not differ in their conclusions, a matter that depends on the facts of each case.\" City of Keller , 168 S.W.3d at 816 (footnote omitted). Lockheed Martin has not pursued the alternative remedy of reversal and remand for new trial based on a \"great weight and preponderance\" challenge to the district court's failure to find material facts. Cf. Allstate Ins. Co. , 484 S.W.3d at 615-16.\nAllstate Ins. Co. , 484 S.W.3d at 616.\nSee id. at 616 & n.10.\nSee Former Section 171.1032(a)(1) (referencing \"... each sale of tangible personal property if the property is delivered or shipped to a buyer in this state ...\").\nSee sale , Black's Law Dictionary (10th ed. 2014) (\"the transfer of property or title for a price\"); sale , Webster's Third New International Dictionary Unabridged 2003 (Phillip Gove ed. 2002) (\"the act of selling: a contract transferring the absolute or general ownership of property from one person or corporate body to another for a price; ... [the] transfer of such ownership of and title\"); cf. Tex. Tax Code \u00a7 151.005 (defining \"sale\" or \"purchase\" for purposes of sales tax to include \"a transfer of title or possession of tangible personal property\" for consideration).\nRoark Amusement & Vending, L.P. , 422 S.W.3d at 637 & n.14.\nSee Combs v. Health Care Servs. Corp. , 401 S.W.3d 623, 627 n.8 (Tex. 2013).\nSee Enserch , 614 S.W.2d at 217.\nSee id.\nSeesupra pp. 857-59.\nSee 282 F.Supp.2d at 1327-29.\nSee id. at 1329-30.\nThe False Claims Act, as analyzed by the Campbell court, created liability for any person who \"knowingly presents, or causes to be presented, to an officer or an employee of the United States Government or a member of the Armed Forces a false or fraudulent claim for payment or approval; [or] ... knowingly makes, uses, or causes to be made or used, a false record or statement to get a false or fraudulent claim paid or approved by the Government.\" 31 U.S.C. \u00a7 3729(a) (2000). The Fraud Enforcement Recovery Act of 2009 amended certain sections of the False Claims Act, including section 3729(a). See Pub. L. No. 111-21, \u00a7 4, 123 Stat. 1617, 1621-25 (2009) (codified as amended at 31 U.S.C. \u00a7 3729 (2012) ).\nCampbell , 282 F.Supp.2d at 1338-41.\nId. at 1341.\nWe acknowledge that Lockheed Martin presented witness testimony suggesting that, at least as a general proposition, the foreign nations had the option of choosing between FMS and the direct-sale method as a means of purchasing U.S.-made military articles. But the contract documents before the district court indicated otherwise, and it was the district court's province as factfinder to resolve such conflicts regarding credibility and weight. See City of Keller , 168 S.W.3d at 819 (referring to factfinders as \"the sole judges\" of credibility and weight of the evidence).\nTrimble Navigation Ltd. , 484 F.3d at 707.\nSee id.\nId.\nEnserch , 614 S.W.2d at 217 ; see also Hercules, Inc. , 877 P.2d at 136 n.5 (similarly holding, in the alternative, that taxpayer company's sales of missile motors to Lockheed affiliate were Utah sales \"[e]ven if the destination rule applied\" because \"Lockheed was a Utah purchaser\" in light of stipulation that company was \"doing business\" in that state).\nSee Tex. R. App. P. 47.1.",
+        "type": "majority",
+        "author": "Bob Pemberton, Justice"
+      }
+    ],
+    "attorneys": [
+      "Mr. Jeremy Gove, Mr. Doug Sigel, Mr. Mark W. Eidman, for Appellant.",
+      "Mr. Ari Cuenin, for Appellees."
+    ],
+    "corrections": "",
+    "head_matter": "LOCKHEED MARTIN CORP., Appellant\nv.\nGlenn HEGAR, Comptroller of Public Accounts of the State of Texas; and Ken Paxton, Attorney General of the State of Texas, Appellees\nNO. 03-16-00303-CV\nCourt of Appeals of Texas, Austin.\nFiled: June 8, 2018\nMr. Jeremy Gove, Mr. Doug Sigel, Mr. Mark W. Eidman, for Appellant.\nMr. Ari Cuenin, for Appellees.\nBefore Justices Puryear, Pemberton, and Field"
+  },
+  "file_name": "0855-01",
+  "first_page_order": 855,
+  "last_page_order": 871
+}

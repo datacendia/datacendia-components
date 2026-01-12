@@ -1,0 +1,59 @@
+{
+  "id": 12207510,
+  "name": "Rodriguez-Franco v. United States",
+  "name_abbreviation": "Rodriguez-Franco v. United States",
+  "decision_date": "2012-04-16",
+  "docket_number": "No. 11-9186",
+  "first_page": "951",
+  "last_page": "951",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 951"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 81,
+    "ocr_confidence": 0.609,
+    "sha256": "e3c6c10b0e4e7e203503f314ca3522ffb0f1df511068be8de0f94711f516bd02",
+    "simhash": "1:040a9a0b6a24a406",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rodriguez-Franco v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9186.\nRodriguez-Franco v. United States."
+  },
+  "file_name": "0951-08",
+  "first_page_order": 827,
+  "last_page_order": 827
+}

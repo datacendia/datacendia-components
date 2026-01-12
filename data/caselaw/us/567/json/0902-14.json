@@ -1,0 +1,86 @@
+{
+  "id": 12407607,
+  "name": "In re Disbarment of Dorny",
+  "name_abbreviation": "In re Disbarment of Dorny",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. D-2643",
+  "first_page": "902",
+  "last_page": "902",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 902"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "566 U. S. 932",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12202976,
+        12202945,
+        12203011,
+        12202958,
+        12202992,
+        12203089,
+        12203065,
+        12203036
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/566/0932-03",
+        "/us/566/0932-01",
+        "/us/566/0932-05",
+        "/us/566/0932-02",
+        "/us/566/0932-04",
+        "/us/566/0932-08",
+        "/us/566/0932-07",
+        "/us/566/0932-06"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 106,
+    "ocr_confidence": 0.696,
+    "sha256": "5e91fa740df10ef01049c0214b9ca72fe3d302a47fdf37c8051288f6bfaad3d0",
+    "simhash": "1:1838dc82fb96d2eb",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:46:21.325002+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Dorny."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see 566 U. S. 932.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2643.\nIn re Disbarment of Dorny."
+  },
+  "file_name": "0902-14",
+  "first_page_order": 806,
+  "last_page_order": 806
+}

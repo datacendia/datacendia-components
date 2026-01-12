@@ -1,0 +1,59 @@
+{
+  "id": 5950063,
+  "name": "Eicher v. Diodati",
+  "name_abbreviation": "Eicher v. Diodati",
+  "decision_date": "2011-05-02",
+  "docket_number": "No. 10-9232",
+  "first_page": "977",
+  "last_page": "977",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 977"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 66,
+    "ocr_confidence": 0.656,
+    "sha256": "3801cc12b4d297e66ffdac84a593e1639657568520627f54476763466defc587",
+    "simhash": "1:225bbd937062ed73",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Eicher v. Diodati."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ariz. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9232.\nEicher v. Diodati."
+  },
+  "file_name": "0977-06",
+  "first_page_order": 1003,
+  "last_page_order": 1003
+}

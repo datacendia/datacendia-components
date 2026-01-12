@@ -1,0 +1,61 @@
+{
+  "id": 12417373,
+  "name": "Confredo v. United States",
+  "name_abbreviation": "Confredo v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5514",
+  "first_page": "934",
+  "last_page": "934",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 934"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 155,
+    "ocr_confidence": 0.638,
+    "sha256": "fc16d86fd216d26439fe2cd98c52586f9853d9939bf201adaf4bd0356bc1d13a",
+    "simhash": "1:9d33da831326f44a",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Confredo v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.\nJustice Sotomayor took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5514.\nConfredo v. United States."
+  },
+  "file_name": "0934-01",
+  "first_page_order": 1010,
+  "last_page_order": 1010
+}

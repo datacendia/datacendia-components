@@ -1,0 +1,59 @@
+{
+  "id": 12244363,
+  "name": "Day v. United States",
+  "name_abbreviation": "Day v. United States",
+  "decision_date": "2012-01-23",
+  "docket_number": "No. 11M62",
+  "first_page": "1176",
+  "last_page": "1176",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1176"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 20,
+    "char_count": 120,
+    "ocr_confidence": 0.679,
+    "sha256": "c7a8be713f9cc554558632b0657c6aaa3cd201588509548544d3db3eab6d73ef",
+    "simhash": "1:4a478217c3c98038",
+    "word_count": 22
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Day v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "Motion to direct the Clerk to file petition for writ of certiorari out of time denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11M62.\nDay v. United States."
+  },
+  "file_name": "1176-02",
+  "first_page_order": 1258,
+  "last_page_order": 1258
+}

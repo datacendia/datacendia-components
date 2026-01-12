@@ -1,0 +1,59 @@
+{
+  "id": 12429741,
+  "name": "Burgess v. United States",
+  "name_abbreviation": "Burgess v. United States",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-7684",
+  "first_page": "1135",
+  "last_page": "1135",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1135"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.588,
+    "sha256": "63702d75ed0187a8808f9c2ee959f7e9557660cdd2a77af31fb508572c60628f",
+    "simhash": "1:95abe259ce8fb50e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Burgess v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7684.\nBurgess v. United States."
+  },
+  "file_name": "1135-14",
+  "first_page_order": 1211,
+  "last_page_order": 1211
+}

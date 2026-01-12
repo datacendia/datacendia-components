@@ -1,0 +1,59 @@
+{
+  "id": 12433654,
+  "name": "Medley v. United States",
+  "name_abbreviation": "Medley v. United States",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-8716",
+  "first_page": "1242",
+  "last_page": "1242",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1242"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.673,
+    "sha256": "7c85ae994105e7d627e2aa1d0667b085124e1f357495bc9c806629d60b25d07c",
+    "simhash": "1:a60bf66e238f0714",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Medley v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. D. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8716.\nMedley v. United States."
+  },
+  "file_name": "1242-13",
+  "first_page_order": 1318,
+  "last_page_order": 1318
+}

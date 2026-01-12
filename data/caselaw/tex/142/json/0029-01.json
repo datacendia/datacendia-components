@@ -1,0 +1,402 @@
+{
+  "id": 2339480,
+  "name": "C. A. Davis v. National Casualty Company",
+  "name_abbreviation": "Davis v. National Casualty Co.",
+  "decision_date": "1943-12-08",
+  "docket_number": "No. 8162",
+  "first_page": "29",
+  "last_page": "35",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "142 Tex. 29"
+    },
+    {
+      "type": "parallel",
+      "cite": "175 S.W.2d 957"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "161 S. W. (2d) 1048",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10226017,
+        2311455
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/161/1048-01",
+        "/tex/139/0138-01"
+      ]
+    },
+    {
+      "cite": "139 Texas 138",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2311455
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/139/0138-01"
+      ]
+    },
+    {
+      "cite": "116 S. W. (2d) 679",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2322472,
+        10237371
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/132/0065-01",
+        "/sw2d/116/0679-01"
+      ]
+    },
+    {
+      "cite": "132 Texas 65",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2322472
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/132/0065-01"
+      ]
+    },
+    {
+      "cite": "35 S. W. 1060",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "89 Texas 590",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2243268
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/89/0590-01"
+      ]
+    },
+    {
+      "cite": "119 A. L. R. 1029",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "17 N. E. (2d) 782",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "249 N. Y. 94",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "9 N. E. (2d) 869",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "166 N. E. 1",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "201 Ind. 84",
+      "category": "reporters:state",
+      "reporter": "Ind.",
+      "case_ids": [
+        1539835
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ind/201/0084-01"
+      ]
+    },
+    {
+      "cite": "131 Pac. (2d) 18",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "55 Cal. App., (2d) 569",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2385943
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/55/0569-01"
+      ]
+    },
+    {
+      "cite": "28 S. W. (2d) 339",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "161 Tenn. 41",
+      "category": "reporters:state",
+      "reporter": "Tenn.",
+      "case_ids": [
+        8532883
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tenn/161/0041-01"
+      ]
+    },
+    {
+      "cite": "46 S. W. (2d) 807",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "185 Ark. 256",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1435063
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/185/0256-01"
+      ]
+    },
+    {
+      "cite": "90 Pac. (2d) 729",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "199 Wash. 106",
+      "category": "reporters:state",
+      "reporter": "Wash.",
+      "case_ids": [
+        483472
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wash/199/0106-01"
+      ]
+    },
+    {
+      "cite": "307 U. S. 219",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6138643
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/307/0219-01"
+      ]
+    },
+    {
+      "cite": "283 U. S. 25",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        434101
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/283/0025-01"
+      ]
+    },
+    {
+      "cite": "163 S. W. (2d) 398",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10214072,
+        2311462
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/163/0398-01",
+        "/tex/139/0388-01"
+      ]
+    },
+    {
+      "cite": "139 Texas 388",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2311462
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/139/0388-01"
+      ]
+    },
+    {
+      "cite": "12 S. W. (2d) 110",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2273210,
+        10289204
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/118/0166-01",
+        "/sw2d/12/0110-01"
+      ]
+    },
+    {
+      "cite": "118 Texas 166",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2273210
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/118/0166-01"
+      ]
+    },
+    {
+      "cite": "247 S. W. 825",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10327701,
+        2283271
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/247/0825-01",
+        "/tex/112/0369-01"
+      ]
+    },
+    {
+      "cite": "112 Texas 369",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2283271
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/112/0369-01"
+      ]
+    },
+    {
+      "cite": "37 S. W. 311",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "90 Texas 78",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2241919
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/90/0078-01"
+      ]
+    },
+    {
+      "cite": "114 S. W. (2d) 338",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10251248
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/114/0338-01"
+      ]
+    },
+    {
+      "cite": "172 S. W. (2d) 131",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10201998
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/172/0131-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 682,
+    "char_count": 12900,
+    "ocr_confidence": 0.616,
+    "pagerank": {
+      "raw": 5.486859483487985e-07,
+      "percentile": 0.9459422151638956
+    },
+    "sha256": "cfe788f2c0a856420c03a110fea2016704232efb88af3a2ab4bde39b813f2538",
+    "simhash": "1:6b75454149fef7bc",
+    "word_count": 2267
+  },
+  "last_updated": "2024-02-27T17:54:29.127269+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "C. A. Davis v. National Casualty Company."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Judge Smedley,\nof the Commission of Appeals, delivered the opinion for the Court.\nRespondent issued to petitioner an accident policy, insuring him against death or dismemberment resulting from bodily injury, if sustained, among other means, \u201cBy being struck, knocked down or run over while walking or standing on a public, highway, by a vehicle propelled by Steam, Cable, Electricity, Naptha, Gasoline, Compressed Air, Liquid or Horse Power (excluding injuries sustained while on a railroad right of way, except an established crossing, or sustained while doing work on a public highway or railroad right of way).\u201d\nAccording to the agreed statement of facts on which- the case was tried, petitioner was injured while working for his employer, a rig-building contractor, and while engaged in moving a derrick from one location in the oil field to another over a public highway. The derrick was being pulled on rollers by a caterpillar tractor which was propelled by gasoline. Petitioner had been carrying rollers from the back to the front of the derrick and placing them under it, and while he was standing or walking on the highway, his right foot was caught under a roller with the derrick on it, near the front of the derrick, as it was being pulled by the tractor. His foot and ankle were crushed so that it was necessary to amputate the foot.\nThe trial court\u2019s judgment in favor of petitioner for $500.00, the amount of indemnity provided by the policy for the loss of a foot, and for $60.00 as penalty and $140.00 as attorney\u2019s fees was reversed by the Court of Civil Appeals and judgment was rendered by that court that petitioner take nothing. 172 S. W. (2d) 131. The Court of Civil Appeals held that neither the derrick nor the roller under it was a \u201cvehicle\u201d and consequently that petitioner was not struck by a \u201cvehicle\u201d within the meaning of the quoted paragraph of the policy.\nJurisdiction in this court is alleged on account of conflict between the decision of the Court of Civil Appeals in this case and the decision of the Court of Civil Appeals for the Ninth Supreme Judicial District in Commercial Standard Insurance Company v. McKinney, 114 S. W. (2d) 338.\nIn that case the policy of insurance on which the suit was brought exempted the insurer from liability for injuries \u201ccaused by the ownership, maintenance or use of a vehicle of any description.\u201d The plaintiff, a road contractor, was operating on the road a scarifier drawn by a caterpillar tractor, and as he was preparing to park the machine for the night and while the machines were on the \u201cwrong side\u201d of the road without lights, a passenger bus collided with them. The operator of the tractor and scarifier adjusted the claims made against him by passengers in the bus who were injured in the collision and sued the insurer for indemnity. The controlling question in the case was whether the injuries were or were not caused by the ownership, maintenance or use of a vehicle. The Court of Civil Appeals held that they were so caused.\nThe conflict that confers jurisdiction upon' this court exists when the decisions are based on practically the same state of facts and announce antagonistic conclusions. Sun Mutual Insurance Co. v. Roberts, Willis & Taylor, 90 Texas 78, 37 S. W. 311; Garitty v. Rainey, 112 Texas 369, 247 S. W. 825; Layton v. Hightower, 118 Texas 166, 12 S. W. (2d) 110; Employers\u2019 Liability Assurance Corp. v. Trane Co., 139 Texas 388, 163 S. W. (2d) 398. It is not essential that the facts of the two cases be identical. We believe that the facts of this case and the facts in Commercial Standard Ins. Co. v. McKinney, 114 S. W. (2d) 338, are so nearly the same that they raise for decision the same question of law.\nIn each'of the two cases the decision turned on the question whether the contrivance or device that was operated on the road and caused the injury was or was not a \u201cvehicle\u201d within the meaning of a policy of insurance which did not define the word. In this case the contrivance or device was a tractor and the attached derrick resting on and carried by rollers placed under it. In the other case the contrivance or device was a tractor and the attached scarifier carried on its own wheels. In this case it was held by the Court of Civil Appeals that the contrivance or device was not a vehicle; in the other case it was held that the contrivance or device was a vehicle.\nSince the insurer did not in its policy define the word \u201cvehicle,\u201d it is to be construed according to its ordinary import or as the word is generally defined. Many definitions may be found in the decisions. Often the word is defined with reference to a statute or ordinance. No statutory definition is pertinent in this case, but it may be observed that the definition of \u201cvehicle\u201d appearing in the statutes regulating the registration of motor vehicles used on the public highways and providing for .drivers\u2019 licenses is substantially the same as the definition generally given. It is:\n\u201c \u2018Vehicle\u2019 means every device in or by which any person or property is or may be transported or drawn upon a public highway, except devices moved only by human power or used exclusively upon stationary rails or tracks.\u201d Section 1, Subdivision (a), Chapter 88, Acts Second Called Session 41st Legislature, page 172; Section 1, Subdivision (a), Article I, Chapter 173, Acts Regular Session, 47th Legislature, page 245 (Vernon\u2019s Annotated Civil Statutes, Article 6675a, 6687b.\nThe definition given in Corpus Juris and quoted in the opinion of .the Court of Civil Appeals is:\n\u201cvehicle. As used in common speech, the word has a varied and somewhat extended meaning. \u2018Vehicle\u2019 has been defined as a conveyance; a means of conveyance; an instrumentality for transporting persons or things from place to place; that in or on which any person or thing is or may be carried; specifically, a means of conveyance upon land; and hence a carriage; any carriage moving on land, either on wheels or on runners; any carriage or conveyance used or' capable of being used as a means of transportation on land. \u2018Vehicle\u2019 includes every description of carriage or other artificial contrivance used or capable of being used as a means of transportation on land. But the term is more generally applied to wheeled carriages. \u2018Vehicle\u2019 may include the machine drawing as well as the thing drawn. In a wider sep.se, that which is used as an instrument of conveyance or communication, of conveyance, transmission, or communication.\u201d 66 C. J. pp. 426-428.\nMost of the decisions give the word an extended meaning. It was held in McBoyle v. U. S., 283 U. S. 25, 75 L. ed. 816, 51 Sup. Ct. 340, that an airplane is not a motor vehicle as defined in the National Motor Vehicle Theft Act. Justice Holmes, who wrote the opinion, said in substance that the word \u201cvehicle\u201d in every day speech and as used in the statute calls up the picture of a thing moving on land, a vehicle that runs, not a vehicle that flies.\nJustice McReynold, in a case arising out of the seizing of an automobile for unlawful transportation of distilled spirits, after quoting the definition of \u201cvehicle\u201d as \u201cThat in or on which a person or thing is or may be carried from one place to another,\u201d said:\n\u201cA wheelbarrow, a covered wagon, a \u2018Rolls-Royce,\u2019 the patient mule, a \u2018Man of War\u2019 and possibly a Pullman car or ocean liner is a vehicle.\u201d United States v. One 1936 Model Ford, 307 U. S. 219, 83 L. ed. 1 249, 1261 , 59 Sup. Ct. 861.\nIn Peterson v. King County, 199 Wash. 106, 90 Pac. (2d) 729, it was held that a motor-driven road grader equipped to carry at least one person was a vehicle under a statute defining \u201cvehicle\u201d as \u201cEvery device in, upon or by which any person or property is or may be transported or drawn upon a public highway.\u201d The opinion discusses a number of cases, quoting definitions from them.\nThe policy upon which the suit was brought in Gilbert v. Life & Casualty Company, 185 Ark. 256, 46 S. W. (2d) 807, in language substantially the same as the policy in this case, insured against injury resulting from the insured\u2019s being struck while walking or standing on a public highway by a vehicle propelled by steam, gasoline, etc. The insured, while standing on a highway in process of construction or improvement, was struck by a cable .attached to a tractor pulling a stump out of the-highway. The court held that he was struck and injured by a vehicle within the meaning of the policy.\nThe Supreme Court of Tennessee, construing a like provision in an accident policy, held that the plaintiff\u2019s declaration stated a case of liability under the policy, in its averments that he was walking along a newly graveled highway when the rapidly turning wheels of an automobile propelled by gasoline, which had passed him, knocked or otherwise caused a rock to be thrown against him, and that the rock struck his eye with such force as to destroy its sight. In so holding the court said:\n\u201cThe peril against which the insured here had bought protection was that of a blow from a moving vehicle on a public highway. He could not, of course, have been struck except by a vehicle in motion. No part of the automobile hit his eye. The automobile hit the rock and cast it into his eye. A blow from the automobile was the efficient and proximate cause of his injury. It seems immaterial that the moving car struck him with a rock instead of with some part of the machine. He was none the less struck, and the agency which inflicted the blow was a moving vehicle upon a public highway, against blows from which he had contracted for indemnity.\u201d Maness v. Life & Casualty Ins. Co., 161 Tenn. 41, 28 S. W. (2d) 339.\nIt is our opinion that the contrivance or device by which petitioner was struck was a \u201cvehicle\u201d within the ordinary meaning of the word. The tractor, the derrick and the rollers under the derrick, taken together, were a device or instrumentality assembled and used to transport the derrick from one place to another. The vehicle thus formed was propelled by the gasoline used in the tractor\u2019s motor. We give no importance to the fact that the rollers were not attached to the derrick. They served the purpose that wheels would have served and, together with the tractor to which the derrick was attached by a cable, were the means of carrying the derrick. It profits little to consider separately the tractor or the derrick or the roller and to determine . whether it separately would be or would not be a vehicle. All of them were brought together and together became and were used as a device on or by which the derrick, even though forming during its transportation a part of the vehicle, was transported. When a motor truck or tractor and a trailer are joined for the purpose of moving both over the highway they become in effect one motor vehicle. Miller v. Berman, 55 Cal. App., (2d) 569, 131 Pac. (2d) 18; Eddleman v. City of Brazil, 201 Ind. 84, 166 N. E. 1; Kern v. Contract Cartage Company, 55 Ohio Appeals 481, 9 N. E. (2d) 869. It has been held that they are not, when thus attached, considered one motor vehicle if a pertinent statute treats them as separate units. Hennessy v. Walker, 249 N. Y. 94, 17 N. E. (2d) 782, 119 A. L. R. 1029.\nIf it may be said that the language of the policy, which was selected by the insurer, is in its use of the word \u201cvehicle\u201d ambiguous or of uncertain meaning, it is at least fairly susceptible of the construction that we have given it and that construction should be adopted because it is favorable to the insured. Brown v. Palatine Insurance Co., 89 Texas 590, 35 S. W. 1060; McCaleb v. Continental Casualty Co., 132 Texas 65, 116 S. W. (2d) 679; United States Service Automobile Association v. Miles, 139 Texas 138, 161 S. W. (2d) 1048.\nThe policy excludes injuries sustained \u201cwhile doing work on a public highway.\u201d Respondent contends that the insured was not protected by the policy when he was injured because he was engaged in moving the derrick along the highway and therefore was \u201cdoing work on a public highway.\u201d The words \u201cdoing work on\u201d thus used in the policy may be given that meaning, but they may also reasonably be given the meaning that they exclude from the protection afforded by the policy injuries suffered by the insured while the work that he is doing is directed to or concerns the highway itself, as constructing, maintaining or repairing the highway. Under the rule announced by the authorities last cited, we give the words \u201cdoing work on\u201d the latter meaning.\nThe judgment of the Court of Civil Appeals is reversed and the judgment of the district court is affirmed.\nOpinion adopted by the Supreme Court, December 8, 1943.",
+        "type": "majority",
+        "author": "Mr. Judge Smedley,"
+      }
+    ],
+    "attorneys": [
+      "Scott Toothaker, Strickland, Ewers &; Wilkins, all of Mission, for petitioner.",
+      "Kelley & Looney and L. Hamilton Lowe, all of Edinburg, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "C. A. Davis v. National Casualty Company.\nNo. 8162.\nDecided December 8, 1943.\n(175 S. W., 2d Series, 957.)\nScott Toothaker, Strickland, Ewers &; Wilkins, all of Mission, for petitioner.\nKelley & Looney and L. Hamilton Lowe, all of Edinburg, for respondent."
+  },
+  "file_name": "0029-01",
+  "first_page_order": 47,
+  "last_page_order": 53
+}

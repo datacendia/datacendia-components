@@ -1,0 +1,59 @@
+{
+  "id": 12225726,
+  "name": "Cortes v. United States",
+  "name_abbreviation": "Cortes v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-6061",
+  "first_page": "928",
+  "last_page": "928",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 928"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.638,
+    "sha256": "6db3e2dfee988c6055696b5fb3af2f8af511e37953f5b358f9929eea08112b22",
+    "simhash": "1:028a9a1388d59012",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cortes v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6061.\nCortes v. United States."
+  },
+  "file_name": "0928-03",
+  "first_page_order": 1010,
+  "last_page_order": 1010
+}

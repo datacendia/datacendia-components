@@ -1,0 +1,1363 @@
+{
+  "id": 2252387,
+  "name": "Margaret G. Gibson Et Vir v. Fred Turner, Jr. Et Al.",
+  "name_abbreviation": "Gibson v. Turner",
+  "decision_date": "1956-07-25",
+  "docket_number": "No. A-5165",
+  "first_page": "289",
+  "last_page": "312",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "156 Tex. 289"
+    },
+    {
+      "type": "parallel",
+      "cite": "294 S.W.2d 781"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "173 S.W. 2d 454",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10207741,
+        2308414
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/173/0454-01",
+        "/tex/141/0405-01"
+      ]
+    },
+    {
+      "cite": "141 Texas 405",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2308414
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/141/0405-01"
+      ]
+    },
+    {
+      "cite": "135 Texas 509",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2317799
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/135/0509-01"
+      ]
+    },
+    {
+      "cite": "19 S.W. 2d 27",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2273243,
+        10257246
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/118/0509-01",
+        "/sw2d/19/0027-01"
+      ]
+    },
+    {
+      "cite": "118 Texas 509",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2273243
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/118/0509-01"
+      ]
+    },
+    {
+      "cite": "192 S.W. 2d 260",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10189888,
+        2336659,
+        10189956,
+        2336639
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/192/0260-01",
+        "/tex/144/0583-01",
+        "/sw2d/192/0260-02",
+        "/tex/144/0535-01"
+      ]
+    },
+    {
+      "cite": "144 Texas 583",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2336659
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/144/0583-01"
+      ]
+    },
+    {
+      "cite": "214 S.W. 2d 692",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10226280
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/214/0692-01"
+      ]
+    },
+    {
+      "cite": "294 S.W. 835",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        2276555,
+        10313214
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/116/0453-01",
+        "/sw/294/0835-01"
+      ]
+    },
+    {
+      "cite": "116 Texas 453",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2276555
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/116/0453-01"
+      ]
+    },
+    {
+      "cite": "217 S.W. 2d 988",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10214096,
+        2333806
+      ],
+      "pin_cites": [
+        {
+          "page": "993"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/217/0988-01",
+        "/tex/147/0525-01"
+      ]
+    },
+    {
+      "cite": "147 Texas 525",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2333806
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/147/0525-01"
+      ]
+    },
+    {
+      "cite": "86 S.W. 2d 1077",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2296220,
+        10265445
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/126/0450-01",
+        "/sw2d/86/1077-01"
+      ]
+    },
+    {
+      "cite": "126 Texas 450",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2296220
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/126/0450-01"
+      ]
+    },
+    {
+      "cite": "59 Texas 41",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2173032
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/59/0041-01"
+      ]
+    },
+    {
+      "cite": "45 S.W. 995",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "172 A.L.R. 18",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "231 S.W. 2d 660",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10203737
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/231/0660-01"
+      ]
+    },
+    {
+      "cite": "136 S.W. 499",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8279757
+      ],
+      "pin_cites": [
+        {
+          "page": "501"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/136/0499-01"
+      ]
+    },
+    {
+      "cite": "4 S.W. 41",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "68 Texas 379",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2198851
+      ],
+      "pin_cites": [
+        {
+          "page": "381"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/68/0379-01"
+      ]
+    },
+    {
+      "cite": "19 Texas 260",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2038602
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "262"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/19/0260-01"
+      ]
+    },
+    {
+      "cite": "10 Texas 65",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        6767582
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "68"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/10/0032-01"
+      ]
+    },
+    {
+      "cite": "45 S.W. 994",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "92 Texas 72",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2237513
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "74"
+        },
+        {
+          "page": "75, 76"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/92/0072-01"
+      ]
+    },
+    {
+      "cite": "169 A.L.R. 1",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "193 S.W. 2d 165",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2336611,
+        10187691
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/144/0618-01",
+        "/sw2d/193/0165-01"
+      ]
+    },
+    {
+      "cite": "144 Texas 618",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2336611
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/144/0618-01"
+      ]
+    },
+    {
+      "cite": "215 S.W. 2d 599",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10259241,
+        2333841
+      ],
+      "pin_cites": [
+        {
+          "page": "603"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/215/0599-01",
+        "/tex/147/0332-01"
+      ]
+    },
+    {
+      "cite": "147 Texas 332",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2333841
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/147/0332-01"
+      ]
+    },
+    {
+      "cite": "161 S.W. 2d 270",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10212680,
+        2313725
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/161/0270-01",
+        "/tex/138/0558-01"
+      ]
+    },
+    {
+      "cite": "138 Texas 558",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2313725
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/138/0558-01"
+      ]
+    },
+    {
+      "cite": "202 S.W. 2d 448",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10195513,
+        8715292
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/202/0448-01",
+        "/tex/146/0046-01"
+      ]
+    },
+    {
+      "cite": "146 Texas 46",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        8715292
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/146/0046-01"
+      ]
+    },
+    {
+      "cite": "220 S.W. 544",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10316352
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/220/0544-01"
+      ]
+    },
+    {
+      "cite": "48 Texas 355",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2155680
+      ],
+      "pin_cites": [
+        {
+          "page": "363"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/48/0355-01"
+      ]
+    },
+    {
+      "cite": "144 S.W. 2d 878",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2317761,
+        10228103
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/135/0503-01",
+        "/sw2d/144/0878-01"
+      ]
+    },
+    {
+      "cite": "135 Texas 503",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2317761
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "507"
+        },
+        {
+          "page": "507"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/135/0503-01"
+      ]
+    },
+    {
+      "cite": "78 S.W. 2d 174",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10237894,
+        2300415
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/78/0174-01",
+        "/tex/124/0387-01"
+      ]
+    },
+    {
+      "cite": "124 Texas 387",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2300415
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/124/0387-01"
+      ]
+    },
+    {
+      "cite": "49 S.W. 2d 532",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10240556
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/49/0532-01"
+      ]
+    },
+    {
+      "cite": "266 S.W. 2d 850",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2247907,
+        10207319
+      ],
+      "pin_cites": [
+        {
+          "page": "854"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/153/0197-01",
+        "/sw2d/266/0850-01"
+      ]
+    },
+    {
+      "cite": "153 Texas 197",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2247907
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/153/0197-01"
+      ]
+    },
+    {
+      "cite": "239 S.W. 2d 379",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2328402,
+        10200647
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/150/0207-01",
+        "/sw2d/239/0379-01"
+      ]
+    },
+    {
+      "cite": "150 Texas 207",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2328402
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/150/0207-01"
+      ]
+    },
+    {
+      "cite": "236 S.W. 2d 108",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10191170,
+        2330547
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/236/0108-01",
+        "/tex/149/0587-02"
+      ]
+    },
+    {
+      "cite": "149 Texas 587",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2330520,
+        2330547
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/149/0587-01",
+        "/tex/149/0587-02"
+      ]
+    },
+    {
+      "cite": "166 S.W. 113",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8270859
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/166/0113-01"
+      ]
+    },
+    {
+      "cite": "16 S.W. 2d 901",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10310806
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/16/0901-01"
+      ]
+    },
+    {
+      "cite": "111 S.W. 182",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "151 S.W. 2d 104",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        8728196
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mo-app/236/0299-01"
+      ]
+    },
+    {
+      "cite": "137 Texas 32",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2315010,
+        2314996
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/137/0032-02",
+        "/tex/137/0032-01"
+      ]
+    },
+    {
+      "cite": "131 S.W. 1061",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "103 Texas 585",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2259350
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/103/0585-01"
+      ]
+    },
+    {
+      "cite": "36 S.W. 2d 1007",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10280704
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/36/1007-01"
+      ]
+    },
+    {
+      "cite": "28 Texas 552",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2102719
+      ],
+      "pin_cites": [
+        {
+          "page": "554"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/28/0552-01"
+      ]
+    },
+    {
+      "cite": "217 S.W. 2d 994",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10214251,
+        2333829
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/217/0994-01",
+        "/tex/147/0512-01"
+      ]
+    },
+    {
+      "cite": "147 Texas 512",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2333829
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/147/0512-01"
+      ]
+    },
+    {
+      "cite": "270 S.W. 2d 880",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10199104
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/270/0880-01"
+      ]
+    },
+    {
+      "cite": "68 S.W. 2d 321",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10239904
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/68/0321-01"
+      ]
+    },
+    {
+      "cite": "163 A.L.R. 1128",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "107 S.W. 2d 1037",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10271804
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/107/1037-01"
+      ]
+    },
+    {
+      "cite": "77 S.W. 2d 1021",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10270426,
+        2300426
+      ],
+      "pin_cites": [
+        {
+          "page": "1028"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/77/1021-01",
+        "/tex/124/0290-01"
+      ]
+    },
+    {
+      "cite": "124 Texas 290",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2300426
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/124/0290-01"
+      ]
+    },
+    {
+      "cite": "259 S.W. 2d 166",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10198323,
+        2246294
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "169"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/259/0166-01",
+        "/tex/152/0447-01"
+      ]
+    },
+    {
+      "cite": "152 Texas 447",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2246294
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/152/0447-01"
+      ]
+    },
+    {
+      "cite": "274 S.W. 2d 916",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10185519
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/274/0916-01"
+      ]
+    },
+    {
+      "cite": "19 S.W. 2d 27",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2273243,
+        10257246
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/118/0509-01",
+        "/sw2d/19/0027-01"
+      ]
+    },
+    {
+      "cite": "118 Texas 509",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2273243
+      ],
+      "pin_cites": [
+        {
+          "page": "517"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/118/0509-01"
+      ]
+    },
+    {
+      "cite": "192 S.W. 2d 260",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10189888,
+        2336659,
+        10189956,
+        2336639
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "262"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/192/0260-01",
+        "/tex/144/0583-01",
+        "/sw2d/192/0260-02",
+        "/tex/144/0535-01"
+      ]
+    },
+    {
+      "cite": "144 Texas 583",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2336659
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "285"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/144/0583-01"
+      ]
+    },
+    {
+      "cite": "214 S.W. 2d 692",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10226280
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/214/0692-01"
+      ]
+    },
+    {
+      "cite": "294 S.W. 835",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        2276555,
+        10313214
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/116/0453-01",
+        "/sw/294/0835-01"
+      ]
+    },
+    {
+      "cite": "116 Texas 453",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2276555
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/116/0453-01"
+      ]
+    },
+    {
+      "cite": "45 S.W. 996",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "92 Texas 75",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "144 S.W. 2d 880",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "18 S.W. 339",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "66 Texas 111",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2202568
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/66/0111-01"
+      ]
+    },
+    {
+      "cite": "4 S.W. 641",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "21 S.W. 2d 532",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10277671
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/21/0532-01"
+      ]
+    },
+    {
+      "cite": "86 S.W. 2d 1077",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2296220,
+        10265445
+      ],
+      "pin_cites": [
+        {
+          "page": "1080"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/126/0450-01",
+        "/sw2d/86/1077-01"
+      ]
+    },
+    {
+      "cite": "126 Texas 450",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2296220
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/126/0450-01"
+      ]
+    },
+    {
+      "cite": "231 S.W. 2d 660",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10203737
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/231/0660-01"
+      ]
+    },
+    {
+      "cite": "68 Texas 379",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2198851
+      ],
+      "pin_cites": [
+        {
+          "page": "381"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/68/0379-01"
+      ]
+    },
+    {
+      "cite": "10 Texas 65",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        6767582
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "68-9"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/10/0032-01"
+      ]
+    },
+    {
+      "cite": "45 S.W. 994",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "92 Texas 72",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2237513
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/92/0072-01"
+      ]
+    },
+    {
+      "cite": "202 S.W. 2d 448",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10195513,
+        8715292
+      ],
+      "pin_cites": [
+        {
+          "page": "455"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/202/0448-01",
+        "/tex/146/0046-01"
+      ]
+    },
+    {
+      "cite": "146 Texas 46",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        8715292
+      ],
+      "pin_cites": [
+        {
+          "page": "57"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/146/0046-01"
+      ]
+    },
+    {
+      "cite": "144 S.W. 2d 878",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2317761,
+        10228103
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/135/0503-01",
+        "/sw2d/144/0878-01"
+      ]
+    },
+    {
+      "cite": "135 Texas 503",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2317761
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/135/0503-01"
+      ]
+    },
+    {
+      "cite": "163 A.L.R. 1128",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "259 S.W. 2d 166",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10198323,
+        2246294
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/259/0166-01",
+        "/tex/152/0447-01"
+      ]
+    },
+    {
+      "cite": "152 Texas 447",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2246294
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/152/0447-01"
+      ]
+    },
+    {
+      "cite": "192 S.W. 2d 260",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10189888,
+        2336659,
+        10189956,
+        2336639
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/192/0260-01",
+        "/tex/144/0583-01",
+        "/sw2d/192/0260-02",
+        "/tex/144/0535-01"
+      ]
+    },
+    {
+      "cite": "144 Texas 583",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2336659
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/144/0583-01"
+      ]
+    },
+    {
+      "cite": "214 S.W. 2d 692",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10226280
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/214/0692-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1534,
+    "char_count": 54570,
+    "ocr_confidence": 0.62,
+    "pagerank": {
+      "raw": 5.257760568003366e-07,
+      "percentile": 0.9415317263670585
+    },
+    "sha256": "9248c3dca1f0fbf1a96c56672cf9c84a961a7dcae541bfc3b4aeaab955d8386f",
+    "simhash": "1:ab19e8a022acf7dc",
+    "word_count": 9516
+  },
+  "last_updated": "2024-02-27T22:45:04.681911+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Margaret G. Gibson Et Vir v. Fred Turner, Jr. Et Al."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Griffin\ndelivered the opinion of the Court.\nAll previous opinions of this Court are hereby withdrawn; the motion of petitioners for a rehearing is granted, and the following is the opinion of the Court.\nThis suit involves the construction of the royalty clause of an oil and gas lease. On February 18, 1947, petitioner, Margaret G. Gibson, her mother, and her two sisters and a brother were owners of an undivided 9/40ths fee interest in the minerals in, on, and under Survey 14, Cert. No. 3802, Blk. G.C. & S. F. Ry. Co. Survey, containing 922 acres of land in Upton County, Texas. Margaret Gibson owned an undivided l/40th interest in said 922 acres of land. On said date respondent Fred Turner, Jr., and other respondents owned the leasehold mineral interest in the remaining 31/40ths of said land. Respondents were also aware that the Gresham lessors (Mrs. Gibson being a daughter of Mrs. Gresham) only owned 9/40ths of the minerals. On February 17, 1947, the petitioner, Mrs. Gibson, and the other owners of the 9/40th mineral interest made, executed and delivered to Fred Turner, Jr., an oil, gas and other minerals lease on the whole of the oil, gas and other minerals under the whole of Survey 14, and upon a printed form in common use. The granting clause, among other things provided that \u201clessor in consideration of ten and No/100 dollars ($10.00), in hand paid, of the royalties herein provided, and of the agreements of the Lessee herein contained, hereby grants, leases, and lets exclusively unto the Lessee, * * Thereafter follows a provision for an oil payment of $5,186.25 (this figure being the exact equivalent of 9/40ths of 922 acres at $25.00 per acre) out of \u201cthe first oil and gas produced, saved and sold from said premises under this lease * * Paragraph 3 of the lease provided that \u201cthe royalties to be paid lessors are: (a) on oil, one-eighth of that produced and saved from said land, * * * (b) on gas * * * produced from said land * * * the market value * * * of one-\u00e9ighth * * (Emphasis ours). The stipulated delay rental was $207.45 (this sum being the exact equivalent of 9/40ths of 922 acres at $1.00 per acre). Paragraph 9 states \u201clessor hereby warrants and agrees to defend the title to said land * * The original lease was introduced in evidence and following the above quoted provision of the paragraph was printed a proportionate reduction of royalty clause, which was eliminated prior to signature by the lessors, by running typewritten \u201cx\u201d through it.\nMargaret G. Gibson, joined by her husband, Ben D. Gibson, brought this suit against her co-lessors in said land and Fred Turner, Jr., lessee, and his assignees and co-owners of the total leasehold interest seeking a declaratory judgment construing the lease to provide and mean that Fred Turner, Jr., his assigns and co-owners of the working interest under the lease, are by its terms obligated to pay to Margaret G. Gibson as royalty l/72nd of the oil and gas or the value thereof produced and saved from the lands described in said lease, that is, that she should be paid that proportion of l/8th of the oil produced and saved from the land described in the lease, and that proportion of l/8th of the gas sold or used off said premises which the interest (l/40th) owned by Margaret G. Gibson in the mineral estate in the land bore to the total interest (9/40ths) owned by her and her co-lessors in such mineral estate.\nIt was urged in the pleadings of the defendants, Fred Turner, Jr. and his assignees, that, although the lease executed by Margaret G. Gibson and her co-lessors purported to cover the entire mineral interest in the tract described and warranted the title thereto, the grantors in said lease actually owned only 9/40ths of the mineral therein and Margaret G. Gibson owned only 1/40th of such total mineral interest; that the lease provided as part of the consideration therefor, that lessors should receive l/8th of all the oil produced from the land covered by the lease; that since the title had failed except as to 9/40ths of the mineral interest purported to be conveyed, the consideration should be abated in proportion to the part of the title that had failed; that Margaret G. Gibson was therefore entitled to receive only l/40th of the l/8th royalty provided by the lease, or l/320th of the oil and gas so produced and saved.\nThe trial was had upon an agreed statement of facts before the court without a jury and judgment was entered in accordance with the defendants\u2019 contention that Margaret G. Gibson was entitled to receive only l/40th of the full l/8th royalty interest in the land described. On appeal the Court of Civil Appeals affirmed the trial court\u2019s judgment. 274 S.W. 2d 916.\nAll parties agree that the lease is unambiguous, and we also agree that there is no ambiguity in the lease; therefore, it is a question of the construction to be given to the lease. It must be given the legal effect resulting from a construction of the language contained within the four corners of the instrument. Benge v. Scharbauer, 152 Texas 447 (2), 259 S.W. 2d 166 (1). All parties, both petitioners and respondents, agree that the royalty under this lease, like the oil payment to be made under it, was reserved by the lessors (one of whom is petitioner herein) from the rights granted by the lease. Sheffield v. Hogg, 124 Texas 290, 77 S.W. 2d 1021, 1028; Hager v. Stakes, 116 Texas 453, 294 S.W. 835; Waggoner Estate v. Sigler Oil Co., 118 Texas 509, 517, 19 S.W. 2d 27; Frost v. Standard Oil Co. of Kansas, Texas Civ. App., 107 S.W. 2d 1037, no writ history.\nWhat royalty does the lease in question purport to reserve in the grantors? The language of the lease is: \u201c3. The royalties to be paid lessor are: (a) on oil, one-eighth of that produced and saved from said land, * * *; (b) on gas, * * * produced from said land, * * * the market value at the well * * * of the gas so sold or used, provided that on gas sold at the wells the royalty shall be one-eighth of the amount realized from such sale.\u201d (Emphases ours.) The provision is made for royalty on other minerals, etc., etc. This is clearly a provision for a royalty payment of l/8th of 40/40th of the production from the \u201csaid land\u201d which is \u201call of Survey No. 14, Upton County, Texas, containing 922 acres more or less.\u201d There are no words in the lease modifying or changing the above construction of the lease.\nThis case is controlled by the court\u2019s reasoning and judgment in the following cases: King v. First Nat. Bank of Wichita Falls, 144 Texas 583, 192 S.W. 2d 260, 163 A.L.R. 1128; R. Lacy, Inc. v. Jarrett, et al, 1948, Texas Civ. App., 214 S.W. 2d 692, wr. ref.; Clemmens v. Kennedy, et al, 1934, Texas Civ. App., 68 S.W. 2d 321, wr. ref.; McElmurray v. McElmurray, 1954, Texas Civ. App., 270 S.W. 2d 880, wr. ref.\nIn the King case an owner of an undivided one-half interest in two tracts of land in Young County, Texas, conveyed by warranty deed such undivided one-half interest \u201c \u2018in and to the following described land situated in Young County, Texas, to-wit :***\u2019\u201d and here follows a description of two tracts of land, aggregating 240 acres, more or less. The deed contained the following reservations:\n\u201c * * The grantor hereby reserved unto himself, his heirs, successors and assigns for a period of ten (10) years only from this date an undivided one-eighth (l/8th) of the usual and customary one-eighth royalty interest reserved by the land-owners in oil and gas and other minerals that may be produced from the hereinabove described land; * * *\u2019 \u201d\nGrantee King contended that since only a one-half interest was conveyed in the land, the grantor, Duncan, reserved only one-eighth of one-half of the usual l/8th royalty in the entire 240 acres. The Bank, which had succeeded to the rights of grant- or, Duncan, contended that the reservation covered and included one-eighth of the usual l/8th royalty in the entire 240 acres. Judgment in the trial court for the Bank\u2019s contention was affirmed by the Court of Civil Appeals. This Court affirmed the judgments of both courts below. The Court held that by the language \u201c \u2018minerals that may be produced from the hereinabove described land\u2019 \u201d was meant the total production from the whole of said land rather than from the grantor\u2019s one-half interest therein! Such holding requires our holding in this case that the reservation of production \u201cfrom said land\u201d in our lease covers l/8th of 40/40ths, or total production from Survey No. 14 in its entirety, and not from the 9/40ths owned by the grantors in the lease. .\nWe can see no distinction in principle between the case of R. Lucy, Inc. v. Jarrett, et al, 1948, Texas Civ. App., 214 S.W. 2d 692, wr. ref., and the present case. In the Lacy case, one Durham owned only a 7/12ths undivided interest in three adjacent lots in the townsite of Hawkins, Texas, and one Leona Guy owned the remaining 5/12ths interest in said lots. In 1943 one Breeding took an oil and gas lease from Leona Guy covering all these lots. In 1945 Breeding took an oil and gas lease from Durham upon the same three lots. This lease purported to convey the entire title or whole interest in the three lots. The granting clause of the Durham lease was to all intents and purposes in the same wording as the granting clause in our lease. Following the description in the Durham lease was re served \u201ca production payment of $15,000.00 out of l/8th of 7/8ths of the oil, if, as and only when produced, saved and marketed from said land under this lease.\u201d (Emphasis added). R. Lacy, Inc., having succeeded to Breeding\u2019s rights under the Durham lease, brought a declaratory judgment action wherein it sought to construe the oil payment reservation to cover only l/8th of 7/12th of 7/8ths of the oil as delivered from the pipeline on the ground that the reservation should be reduced proportionately to the ownership of Durham. Judgment in the trial court was for Jarrett, et al who had purchased the oil payment from Durham, that the reservation applied to l/8th of 7/8ths of the oil produced. This part of the judgment was affirmed by the Court of Civil Appeals. The trial court\u2019s judgment was modified so as to make the oil payment of $15,000.00 inclusive of the production taxes. This Court gave an unqualified \u201cRefusal\u201d to the Court of Civil Appeals\u2019 opinion, thus making it our own opinion, Rule 483, Texas Rules of Civil Procedure; Heinatz v. Allen, 147 Texas 512, 217 S.W. 2d 994.\nThe reasoning in the cases of Clemmens v. Kennedy, et al, Texas Civ. App., 1934, 68 S.W. 2d 321, wr. ref., and McElmurray v. McElmurray, Texas Civ. App. 1954, 270 S.W. 2d 880, wr. ref., also support the construction of our lease to the effect that the l/8th royalty reserved covers 40/40th of the production from the entire Survey No. 14.\nThe lease itself, in addition to the plain and unambiguous language of the royalty clause, contains three other provisions which show that the parties to the lease at the time of its execution did not limit the royalty provision to l/8th of 9/40ths of the production \u2014 the interest owned by the lessors in the minerals under Survey No. 14. The first is the oil payment reservation of an undivided l/16th of l/8th of the oil and gas production to secure the payment of the sum of $5,186.25 to the lessors. This sum is the exact equivalent of 9/40ths of the total of 922 acres contained in Survey No. 14, at $25.00 per acre, which is stated in petitioners\u2019 application to be the bonus payment. The second is the provision that payment for delay rental was fixed in the lease at $207.45, or 9/40ths at $1.00 per acre on the 922 acres. These figures are not controverted nor denied by respondents. The third is that prior to the signature and delivery of the lease the \u201cproportionate reduction\u201d clause of Paragraph 9 of the lease was struck from the printed form used in the lease.\nThe first two instances show that all parties at the time the lease was drawn recognized that lessors only had a 9/40th interest in Survey No. 14, and reduced the oil payment bonus and delay rental proportionately to such interest. The fact that the royalties to be paid were not reduced in any such proportion, but that a royalty of 1/8th of the oil and gas produced and saved from said land (being from the total 40/40ths of the minerals, rather than only 9/40ths) shows that no reduction of the l/8th royalty was intended to be made by the parties. We cannot conceive how parties could draw a lease which would provide for l/8th of the oil and gas produced from a tract of land in any clearer language than was here used.\nRespondents contend that the fact that the proportionate reduction clause was stricken from the lease cannot be considered in construing the meaning of the royalty reservation of \u201cl/8th of that produced and saved from said land.\u201d As early as 1866, this Court, in the case of Self v. King, 28 Texas 552, 554, said:\n\u201c* * * The Court may read a written document in the light of surrounding circumstances, which can be proved, in order to arrive at the true meaning and intention of the parties as expressed in the words used, but will not hear parol evidence of language or words other than those used by the parties themselves in the writing. No other words are to be added to or subtracted from the written instrument.\u201d\nAgain, in Ryan v. Kent, Com. App., 36 S.W. 2d 1007, (1, 2) 1010, Judge Leddy said that in construing a contract a court may look to the circumstances surrounding the parties at the time the contract was entered into, the situation of the parties, and the subject matter of the instrument, regardless of whether the language used in the contract be ambiguous. Lipscomb v. Fuqua, 103 Texas 585, 131 S.W. 1061; Murphy v. Dilworth, 137 Texas 32, 151 S.W. 2d 104; Bowden v. Paterson, 51 Texas Civ. App. 173, 111 S.W. 182, wr. den.; Hoffer Oil Corp. v. Hughes, Texas Civ. App., 16 S.W. 2d 901, no writ history; Dublin Electric & Gas Co. v. Thompson, Texas Civ. App., 166 S.W. 113, no writ history.\nThis Court, in the cases of Glens Falls Ins. Co. v. McCown, 149 Texas 587, 236 S.W. 2d 108; and Providence Washington Ins. Co. v. Proffitt, 150 Texas 207, 239 S.W. 2d 379, in construing insurance policies and in determining the meaning of clauses in each policy which were in effect by virtue of premiums having been paid for such coverage, considered coverage clauses which were not effective because no premiums had been paid for those specific risks. See also Corbin, Vol. 3, Sec. 543, p. 72, et seq.; Thomas Gilcrease Foundation v. Stanolind Oil & Gas Co., 153 Texas 197, 266 S.W. 2d 850, 854, wherein this Court took into consideration that the \u201centirety clause\u201d under discussion was included in the lease at the instance of the lessee.\nHere the stipulation shows that the lessors owned only 9/40ths of the minerals instead of all the 7/8ths mineral interest as the lease purported to convey. This fact is used by respondents to secure a proportionate reduction of the royalty payable under the lease, which changes the plain and clear language of the instrument. Without this circumstance being shown there could be no claim for a reduction of the royalty. In the Murphy case the court points out that the grantor owned an undivided l/8th mineral interest and therefore could reserve l/16th minerals in his deed.\nRespondents rely upon the case of. Mineral Investing Corporation v. Bishop Cattle Co., Texas Civ. App., 49 S.W. 2d 532, aff. 124 Texas 387, 78 S.W. 2d 174, as authority for the proposition that words stricken out of a mineral deed before it is signed cannot be considered in construing the lease. The Supreme Court affirmed the Court of Civil Appeals\u2019 judgment affirming the judgment of the trial court upon the ground that the Court of Civil Appeals should have affirmed the trial court\u2019s judgment on certificate. The reason given was that the record on appeal was not filed in the Court of Civil Appeals within the statutory period. In fact, the Supreme Court said, \u201c* * * If this (affirmance on certificate) should have been done, then the judgment of the Court of Civil Appeals should be affirmed here, regardless of the correctness of its opinion on the merits of the case.\u201d Respondents also rely upon a quotation from 31-A Texas Jur. 75, which is but a summary of a holding of the Court of Civil Appeals in the Mineral Investing Corporation case.\nRespondents\u2019 contention amounts to one that a royalty cannot be larger than l/8th of the interest owned by the lessors. It is well settled that the parties may provide for a royalty payment different from the fractional mineral interest owned by the parties making the lease. As this Court said in Benge v. Scharbauer, supra, (152 Texas 447, 259 S.W. 2d 166, 169). \u201cThe fractional part of the bonuses, rentals and royalties that one is to receive under a mineral lease usually or normally is the same as his fractional mineral interest, but we cannot say that it must always be the same. The parties owning the mineral interest may make it different if they intend to do so, and plainly and in a formal way express that intention.\u201d\nThe case of Duhig v. Peavy-Moore Lumber Co., 135 Texas 503, 144 S.W. 2d 878, has been cited as sustaining the contention of respondents. The reservation in our lease covers l/8th, or 5/40ths. The lessors having purported to convey 40/40ths, and having reserved only 5/40ths, their lease would be held to convey 35/40ths to the lessees. Under the doctrine of after-acquired title as set out in the Duhig case, lessors would be estopped to urge any interest they might have in the land against lessees until lessees had received 35/40ths of the minerals. However, in our case, the lessees owned all the balance of the minral estate, except such as was conveyed to them by lessors; therefore, there can be no breach of warranty. Further, in the Duhig case the grantor conveyed all the title and attempted to reserve only one-half mineral interest, thus conveying an undivided one-half mineral interest to his grantees. Since Duhig only owned an undivided one-half mineral interest, he could not convey one-half and keep one-half. Therefore, his one-half he owned was used to carry into effect his conveyance. In the Duhig case there was a failure of title to a part of the estate which the deed purported to convey and a breach of warranty with respect thereto, and the grantors\u2019 reserved estate, which happened to be exactly sufficient to make up the failure in the grantee\u2019s title, was taken from the grantor and awarded to the grantee for that purpose. In this case there has been no failure of the grantee\u2019s title to any part of the 35/40ths of the minerals which the lease purported to grant and no breach of warranty with respect thereto, and there is, therefore, no occasion and no right to take from the lessors and award to the lessees any part of the lessors\u2019 reserved royalty estate.\nRespondents insist throughout their briefs in this Court that this is not a suit on a warranty, but for proportionate reduction of the consideration paid \u2014 the purchase price \u2014 as a result of a failure of consideration for the payment. The Duhig case holds that where there is an outstanding reservation of one-half of all minerals in, on and under a tract of land, and the then owner gives a warranty deed to another retaining \u201can undivided one-half interest in and to all mineral rights or minerals of whatever description in the land\u201d without any mention being made of the then outstanding title to one-half of all minerals in a third party, who is a prior grantor, the doctrine of estoppel to assert an after-acquired title prevents the grantor in the second deed from claiming any mineral interest as against the grantee. The Court says: \u201c* * * Thus the deed is so written that the general warranty extends the full fee simple title to the land except an undivided one-half interest in the minerals * * 135 Texas 503, 507, 144 S.W. 2d 1st. col., p. 880. And further, \u201c* * * When the deed is so interpreted the warranty is breached at the very time of the execution and delivery of the deed, for the deed warrants the title to the surface estate and also to an undivided one-half interest in the minerals. The result is that the grantor has breached his warranty, but that he has and holds in virtue of the deed containing the warranty the very interest, one-half of the minerals, required to remedy the breach * * 135 Texas 503, 507, 144 S.W. 2d 1st col., p. 880. The Court holds that even though Duhig did not acquire title to the one-half mineral interest claimed by his successors, after the execution of the deed, he will be estopped to assert the reservation in his deed as against his grantee to whom he purports to convey all the surface and one-half of the minerals. Not owning the outstanding one-half mineral interest Duhig could not convey it to his grantee; therefore, the one-half he attempted to retain or reserve for himself will be taken in order to give the grantee in the deed the full title Duhig conveyed to him.\nThe covenant of general warranty in a lease does not warrant the title of the lessors. It warrants the title of the lessees. It is for this reason that there can be no breach of warranty and no recovery of damages for breach of warranty unless and until there has been an actual or constructive eviction of the lessee. In 14 Am. Jur. 521, Covenants, Conditions and Restriction, Sec. 51, we find this statement of the nature of a covenant of general warranty: \u201cThe covenant of warranty is an agreement by the warrantor that upon the failure of the title which the deed purports to convey, either for the whole estate or part only, he will make compensation in money for the loss sustained. It is an assurance or guaranty of title. The obligation is not that the covenantor is the true owner or that he is seised in fee with the right to convey, but that he loill defend and protect the covenantee against the rightful claims of all persons.\u201d (Emphasis ours.) So, also in McClelland v. Moore, 48 Texas 355, 363, this Court, speaking of the covenant of general warranty, said that \u201cthe nature and purpose of such a covenant is for the indemnity of the purchaser against the loss or injury he may sustain by a failure or defect in the vendor\u2019s title.\u201d See also Langford v. Newsom, Texas Com. App., 220 S.W. 544. The warranty does not constitute a part of the conveyance nor strengthen or enlarge the title conveyed. City of Beaumont v. Moore, 146 Texas 46 [6], 202 S.W. 2d 448 (10-13). Such covenant extends only to what is granted, or what purports to be granted, by the deed and does not apply to the interest reserved in the conveyance. Benge v. Scharbauer, supra (6) ; Clark v. Gauntt, 138 Texas 558, 161 S.W. 2d 270; Adams v. Duncan, 147 Texas 332, 215 S.W. 2d 599, 603; Nye v. Bradford, 144 Texas 618, 193 S.W. 2d 165 (3), 169 A.L.R. 1.\n\u201c* * * the property excepted or the estate reserved is never included in the grant. Each is something to be deducted from the thing granted, narrowing and limiting what would otherwise pass by the general words of the grant. In this instance, however, at the time of the conveyance, the grantor actually owned one-half or four-eighths of the minerals under the entire land, or all or eight-eighths of his undivided one-half interest, and thus, without incongruity, the one-eighth portion of the royalty reserved could relate either to the whole or the one-half interest in the land, depending upon the intention of the parties from the language of the entire instrument.\u201d King v. First Nat. Bank of Wichita Falls, 144 Texas 583, 285 (1), 192 S.W. 2d 260, 262 (1), 163 A.L.R. 1128.\nThe above applies to our case. The lessors owned 9/40ths of the mineral rights in the land, and could, without any incongruity, reserve for themselves l/8th or 5/40ths of these mineral rights as a royalty consideration to be paid for the sale of 4/40ths. In the absence of any fraud, accident, or mistake or effort to reform there is no law to prevent the lessors and lessees from making such a contract. The language is clear, unambiguous, simple and plain, and states that the royalty on oil and gas to be paid is l/8th of that produced and saved from said land. Under the King case, supra, and other cases herein discussed, such language at the time of the execution of the lease meant l/8th of the total oil, gas, etc. produced from the whole of the land covered by the lease; i. e., from Survey No. 14, and not from an undivided l/40th interest in said section and the minerals themselves.\nRespondents say in their answer to the application for writ of error \u201cQuestions of breach of warranty are alien to the controversy. The question is what is the effect of this royalty provision under this lease, with all of its provisions, granting clause and warranty clause included.\u201d Respondents, who owned the remaining 31/40ths of the mineral interest in Survey No. 14, cannot claim any rights by virtue of a breach of warranty, or failure of title, nor can they defend a suit for the remaining purchase price (in this case the royalties to be paid in the future) or ask any abatement therein for the reason that they have not been and cannot be evicted from the use and enjoyment of the whole estate; nor is there any outstanding superior title to their title to any part of the estate conveyed, as there was to an undivided one-half interest in the Duhig case. Rancho Bonito Land & Livestock Co. v. North, 92 Texas 72, 45 S.W. 994; Brock v. Southwick, 1853, 10 Texas 65, 68; Cooper v. Singleton, 1857, 19 Texas 260, 262; May v. Ivie, 1887, 68 Texas 379, 381, 4 S.W. 41; Adams v. Jordan, 1911, Texas Civ. App., 136 S.W. 499, 501, no writ history; Turner v. Neel, 1950, Texas Civ. App., 231 S.W. 2d 660, wr. ref., n.r.e.; see also Notes 172 A.L.R. 18.\nIn the Bonito Land & Livestock Company case, supra, defendant North conveyed to Maddox Bros. & Anderson by general warranty deed the Jane Williams Survey of 1,280 acres, and the Thomas R. Webb Survey of 640 acres, both in Menard County, Texas. It later developed that these two surveys were in conflict with certain other surveys which at the time of the conveyance by North were then owned by Maddox Bros. & Anderson. At the time of the conveyance none of the parties thereto knew of this conflict. The title to the land in conflict was owned by Maddox Bros. & Anderson at that time. The conflict developed afterwards, and it was then determined that North had no title to the land in conflict, but that the title to such lands in conflict was vested in Maddox Bros. & Anderson. Maddox Bros. & Anderson later organized Bonito Land & Livestock Company, and were the owners of all of its capital stock. The corporation brought suit upon North\u2019s warranty for the return of the purchase price paid for the 458.84 acres in the conflict at $2.00 per acre. Judgment of the trial court was for the defendant and against the plaintiffs. The case was appealed to the Court of Civil Appeals which in turn certified to the Supreme Court two questions, to wit:\n\u201c * * (1) J. W. and F. M. Maddox and C. E. Anderson being the owners in fee of all the land in conflict with older surveys, except what was owned by North at the time of the conveyance by him to them, there being no eviction or threat of eviction, was there a breach of the covenant of warranty in North\u2019s deed to them, upon which suit can be maintained by the corporation, composed, as it is, of John W. and F. M. Maddox and C. E. Anderson, by whom the land was conveyed to plaintiff, the corporation? (2) Where the vendee himself owns the superior title to the land conveyed to him by deed with general covenant of warranty of \u201cthe premises,\u201d is there a breach of the covenant of warranty, such as will support an action for the breach of the covenant by the covenantee or his vendee ?\u2019 \u201d (92 Texas 72, 74, 45 S.W. 995).\nThis Court answered both questions in the negative. In discussing the legal principles, this Court said:\n\u201c* * * It has been held in this state that the mere existence of a superior title in another is not a breach of warranty, * * *. If the covenantee were to procure the holder of the superior title to evict him, certainly such act would debar him from his action upon the covenant, and we think the same would be true if he were to purchase such title when it had not been asserted; for in each of such cases but for his own act his title might have remained unquestioned until perfected by lapse of time. To the benefit of such contingencies the vendor is entitled as well after as before his conveyance, and the covenantee who has been placed in privity with the title, and often in possession of the land, will not be permitted to deprive him thereof. There can be no legal eviction or turning out unless and until a superior title has been, without the invitation of the covenantee, pressed upon him. Jones v. Paul, supra. (59 Texas 41.) * * * But to hold that this is so (a force which covenantee cannot resist be pressed upon him) when he, as in the case before us, discovers that he really owned the superior title before he purchased from his warrantor, would be extending the rule beyond its reason. It could only be applied to such a case by holding that he could evict himself by electing to hold under his superior title upon its discovery. But we have seen that legal eviction cannot be predicated upon the mere voluntary act of the covenantee. We are therefore of opinion that there has been no eviction, and therefore no breach of the warranty, in the case before us.\u201d (Rancho Bonito Land & Livestock Co. v. North, 92 Texas 72, 75, 76, 45 S.W. 994).\nThere were no allegations of fraud, accident, mistake or overreaching in the Bonito case. There are no such allegations lin the case at bar, nor is there any effort to reform the lease. This case being tried upon stipulations of fact, we find no proof of any such claims. This Court recognized that the Bonito Company might have maintained a suit for equitable action, independent of the warranty, under proper averments of fraud, accident or mistake, or other equitable grounds. The above case is decisive of the respondents\u2019 claims herein. Respondents cannot maintain a suit upon the warranty in the lease for reasons given in the Bonito case. Neither can they maintain any equitable suit for relief by virtue of the absence of any allegations of overreaching, fraud, accident or mistake. The Bonito Company case has been cited and approved by this Court down through 1954 without any criticism, explanation or distinction being made. The Court of Civil Appeals\u2019 opinion in this cause is the first time any distinction from its pronouncement has ever been made by any Texas case.\nFurther, as regards respondents\u2019 action for abatement of a part of the purchase price, (in this instance a proportionate reduction of the agreed royalty to the proportion of ownership by lessors), we hold that respondents owning all the balance of the leasehold at the time the Gresham lease was executed cannot recover because they are in no danger of being evicted from the estate granted. It is shown beyond any question that all parties dealt with this mineral interest on the basis that respondents were purchasing, and petitioners owned only an undivided 9/40ths interest. The figures contained in the lease as to the amount of oil payment and delay rental to be paid lessors and the stipulation filed in this cause show these facts beyond any controversy.\nThe early case of Brock v. Southwick, 1853, 10 Texas 65, was a suit wherein a purchaser took a deed from a grantor knowing- that grantor did not own a clear title to the lots conveyed by deed. Later the purchaser resisted payment of a purchase money note, upon the ground that the grantor\u2019s title to the land conveyed was defective. The trial court instructed the jury, in effect, that unless the defendant had been dispossessed, he could not successfully resist the payment of the note, that proof of a valid outstanding title was not a good defense to the action. In affirming the trial court\u2019s judgment, Mr. J. Wheeler said: \u201cThere is no evidence of any misrepresentation or fraud, practiced upon him (the defendant). He took and retained possession under his purchase. Can he, under these circumstances, withhold the payment of the purchase money? We think clearly not. Had the defendant been deceived as to the title he acquired, by the fraud of the vendor, or had he been ignorant of the defect of title, a very different case would have been presented. But when he made the purchase and accepted the conveyance with a knowledge of that defect, he must, we think be deemed to have waived the objection.\u201d See also Cooper v. Singleton, 1857, 19 Texas 260.\nRespondents rely strongly upon the case of Klein v. Humble Oil & Refining Co., 126 Texas 450, 86 S.W. 2d 1077. That case is not similar to the case at bar. It involved the construction of an oil and gas lease and the Court construed the lease based upon the wording of the lease and certain other instruments contained in the record. There was no contention of breach of warranty or of failure of consideration, or proportionate reduction of royalties in the Klein case. The Court held that under the reservation made by Stein in his deed of conveyance to Baker\u2019s predecessor in title, the owner of the land and the remaining minerals, had the right to include the Stein interest in the lease made, and with no necessity that Stein join in the lease. This was due to the wording of Stein\u2019s reservation in his deed to Klein, Baker\u2019s grantor, and also by the wording of certain instruments executed by Stein and Baker, singly and jointly. Baker having the right to include the Stein interest in his lease, and there being only a total of l/8th royalty reserved in that lease, such reservation as to the east 10 acres was held to be the l/8th reserved by Stein, and not an additional l/8th royalty in favor of Baker.\nRespondents also rely upon the case of City of Beaumont v. Moore, 146 Texas 46, 202 S.W. 2d 448 to support their position herein. That case is not similar to this one and announces no rules of law that will entitle respondent to a recovery. In that case Moore had purchased certain royalty interest in minerals underlying the Beaumont Municipal Airport from the City. It was determined that Moore\u2019s royalty interest could not be enjoyed so long as the City used the airport, and that the airport land could not be used for any purpose inconsistent with its use as an airport, until such use, in whole or in part, was lawfully abandoned by the City. This dedication to airport use was held to prevent Moore\u2019s dominion over and enjoyment of the royalty purchased and to constitute an incumbrance upon the title in violation of the warranty and also of Article 1297, Vernon\u2019s Annotated Civil Statutes. In our case there are no pleadings or proof that respondents\u2019 dominion over, or enjoyment of, the mineral interest received under the lease has been in anywise restricted or interfered with. On the contrary, the stipulations of record show conclusively that respondents are successfully and continuously producing the oil and gas under (the lease and its right to do so is expressly recognized. No interference of any kind or character is shown; nor is it shown that respondents are in danger of, or in fact can be, evicted from their estate. This suit is for the purpose of determining the sole question of how much royalty must be paid to Mrs. Gibson under the lease.\nMrs. Gibson\u2019s rights can in nowise be affected by any actions taken, division orders signed, or conduct by the other lessors in the lease, she never having ratified or agreed to such action or conduct as a correct construction of the royalty provision. This record shows she has at all times contended that she was entitled to receive a royalty of l/72nd of total production from the land covered by the lease. In the language of this Court in the case of Garza v. De Montalvo, 1949, 147 Texas 525, 217 S.W. 2d 988, 993, \u201c* * * We know of no rule of construction which would permit the unambiguous meaning of the language of the agreement to be departed from because later developments prove the agreement to be more advantageous to some of the parties than to others.\u201d\nMrs. Gibson, owning an undivided l/9th of the mineral rights covered by the lease should receive l/9th of the l/8th royalty provided for therein, or l/72nd.\nThe judgments of both courts below are reversed and judgment here rendered that Mrs. Gibson be entitled to recover a royalty of l/72nd of all the oil and gas production from Survey No. 14.\nAssociate Justices Calvert and Walker concur only in the result.\nOpinion delivered July 25, 1956.",
+        "type": "majority",
+        "author": "Mr. Justice Griffin"
+      },
+      {
+        "text": "Mr. Justice Garwood\njoined by Justice Culver dissenting.\nAs the author of the original opinion of the Court now withdrawn on rehearing, I submit herewith, by way of dissent and in the interest of time, the same opinion with exception of the statement of the facts, which substantially corresponded to that of the new opinion of the Court:\nWe shall assume that the royalty clause, in consonance with decisions such as Lacy v. Jarrett, Texas Civ. App., 214 S.W. 2d 692, wr. of er. refused, refers to and describes 1/8 of 40/40 of the total production from Survey 14, and that there is nothing on the face of the lease, or in its nature as a lease, unless it be the warranty, to vary the effect of such a royalty stipulation where the lessors have less title than the granting clause purports to convey.\nWhat, then, is the effect of the warranty? In the Lacy case, in which the lease in question evidently contained a warranty, the court held that the fraction of total production, from which the $15,000 reserved oil payment in question was stipulated to come, should not be reduced merely because the lessor actually owned but 7/12 of the three lots of which the granting clause purported to lease the full interest. But notwithstanding our earlier approval of the opinion in that case, we cannot well ignore the fact that the existence of the warranty was not even mentioned, and that evidently no argument based on the principle of Duhig v. Peavy-Moore Lumber Co., 135 Texas 503, 144 S.W. 2d 878, was made. The only point referred to in the opinion was whether the words in the oil payment clause, \u201cfrom said land under this lease,\u201d referred to the 7/12 interest that actually passed under the granting clause (as in Hooks v. Neill, Texas Civ. App., wr. of er. refused, 21 S.W. 2d 532) or the tracts of land described in that clause (as in King v. First National Bank, 144 Texas 583, 192 S.W. 2d 260, 163 A.L.R. 1128).\nThe King case is also much relied on by the petitioner here, but is less in point than Lacy v. Jarrett, in that the granting clause in the former purported to convey the exact interest which the grantor owned, to wit, \u201c* * * all that certain undivided one-half (%) interest (being all of the interest owned by the grantor) in and to the following described land * * *,\u201d while in the Lacy and instant cases the granting clause purported to convey the full ownership, as against an actual ownership of a mere fraction. Naturally the warranty did not enter into the King decision, which went off largely on other considerations. These latter were: (a) whether the reference in the royalty clause to \u201c \u2018the hereinabove described land\u2019 \u201d meant what it said or meant something such as \u201cthe hereinabove conveyed interest in the hereinabove described land;\u201d and (b) whether the reservation of \u201cone-eighth (1/8) of the usual and customary one-eighth royalty interest reserved by the landowner in oil and gas * * * that may be produced from the above-described land,\u201d should be taken to mean only half of the stated fraction, merely because the granting clause conveyed (and purported to convey) only a half interest in the land.\nIn the instant case we are not at all concerned with the correctness of the general proposition that a grantor or lessor may validly reserve a royalty amounting to even more than 5/9 or 55 per cent of the production corresponding to the interest conveyed or leased by him. We are concerned with whether a lessor accomplishes that result where his warranted conveyance is in fact false in that he does not own all he purports thereby to convey.\nThe now familiar holding of the Duhig case, supra, is that where a grantor purports to convey land, reserving half of the minerals, and there is already a half interest outstanding, the deed being taken as intending to reserve the half which was not outstanding, the effect of the warranty is to defeat the reservation by way of estoppel. Subject to the questions hereinafter discussed, we think the same equitable principle applies where a lessor purports to lease with warranty 40/40 of the minerals and purportedly reserves 1/8 of 40/40 as royalty, when actually he owns only 9/40.\nThat the principle of the Duhig case is sound we have reaffirmed as lately as Benge v. Scharbauer, 152 Texas 447, 259 S.W. 2d 166. There we actually applied it to the extent of vesting in the grantee a 2/8 mineral interest corresponding to the 2/8 interest outstanding, although under the facts of that case, we did not apply it so as to reduce the royalty. The Benge case does not say that the Duhig rule applies only to reservations of mineral interests as distinguished from royalties. It is not even cited by the petitioner in this Court in support of her position. Here, there is no possible way to satisfy the warranty unless by reducing the royalty.\nWe may, of course, speculate at length over whether the parties to the instant case actually meant what the lease says and, if not, just what they did mean. From any point of view, the contract, as applied to the actual facts, is peculiar. But the contract itself not being ambiguous, we cannot depart from its terms. The royalty clause undoubtedly stipulates 1/8 of 40/40 \u25a0of the production from the tract. But with equal clarity the granting clause refers to 40/40 of the minerals, and the warranty clause warrants the title of the lessors. How are we to say that the royalty clause is to be respected, but that the granting clause and the warranty are not to be respected? The net result of the contract as written is that the lessee is to get 35/40 (that is, 40/40 less royalty of 5/40) of the production from the whole tract, and the lessors warrant their title accordingly. But the lessors actually own only 9/40 and therefore cannot keep their bargain that the lessee shall have 35/40 by the lease. There is little justice in holding the lessee to one part of the contract while not holding the lessors to another part. As before indicated, the mere fact that, as in the King case, supra, the parties could have validly contracted for the lessee to pay a royalty of 1/8 of 40/40, or 5/40, and thus to get by the lease only a net ownership of 4/40 (9/40 - 5/40), or less oil than the royalty owner gets, does not mean that they did so contract.\nThe theoretical result of applying the Duhig rule here is, of course, that the lessors get nothing from their lease, and obviously that, too, is somewhat peculiar. But such was the result in the Duhig case, and actually the result here, under the position to which the respondents have firmly committed themselves, is that the petitioner gets the more or less usual royalty corresponding to her actual ownership. The other lessors are not parties to this litigation and, for whatever relevance the matter may have, are evidently accepting such a royalty without question.\nKlein v. Humble Oil & Refining Co., 126 Texas 450, 86 S.W. 2d 1077, 1080, which, like the Duhig case, is relied on by the respondents, supports the thesis of the latter to the extent of an apparent emphasis on what the lessor purported by the granting clause to lease in determining the effect upon the 1/8 royalty reservation of an outstanding interest of 1/8 reserved by a remote grantor. The decision was that the royalty reserved in the lease was simply the outstanding interest, so that the lessor in effect got nothing by his lease, and possibly this was because the granting clause in the lease (like that in the instant case) purported to apply to the full mineral interest and was accompanied by the usual warranty. But the point actually disputed by the parties seems to have been as to whether the outstanding interest was one of a royalty which the lessor was authorized to incorporate in the lease or was something else, the court holding it to be the former by reason of recitals in sundry documents of record. The court also stated that the proportionate reduction of royalty clause in the lease did not \u201coperate to reduce the estate which the lessor purported to convey,\u201d since otherwise it would have \u201cthe effect of nullifying the warranty.\u201d The matter of warranty is not elsewhere referred to nor is that of the proportionate reduction clause.\nIn the Duhig case, supra, which came after the Klein case, the Court of Civil Appeals rested its conclusion upon the latter and held that Duhig\u2019s deed should be construed as meaning merely to reserve the half interest which had been reserved by his remote grantor. But the Supreme Court deliberately took what it evidently considered to be an essentially different course, treating the deed as purporting to convey the half interest purportedly reserved and holding Duhig- estopped by his warranty. See 135 Texas, p. 506, 144 S.W. 2d p. 879. We are thus rather doubtful as to what effect we might here give the Klein case.\nThe petitioner argues that our view as thus far stated amounts to putting back into the lease the proportionate reduction clause which the parties deliberately struck out. But, even assuming the fact of the provision having been stricken to be evidence that it was stricken in order to contract, in effect, upon the basis of a contrary provision, we yet fail to appreciate its competency when the petitioner herself asserts the instrument to be on its face unambiguous, as it is. The other parol evidence in the case (as in the Duhig case) does not deal with the meaning of that instrument, but simply gives the facts to which the instrument must be applied.\nBut the more difficult question arises from the argument of the petitioner that: (a) the Duhig type of case reaches its result in order to avoid what would otherwise be a breach of warranty; (b) there can be no talk of breach of warranty here because, unlike the Duhig situation, the outstanding interest was owned by the respondents themselves at the time the warranty was given. In support of this, the petitioner cites Rancho Bonito Land & Livestock Co. v. North, 92 Texas 72, 45 S.W. 994, undoubtedly holding \u2014 as to deeds of land generally \u2014 that ownership of the outstanding paramount title by the grantee at the time the warranty was given, although the grantee may not have known that he did own it (as where there is an unsuspected conflict between surveys) prevents an action for damages by the grantee on the warranty. Admittedly the holding is simply an application of the old and still subsisting rule that such actions are conditioned upon an eviction, actual or constructive, else the warrantor would be unfairly deprived of the chance that his potential liability might disappear by acquisition of the outstanding title through limitations. More specifically it was said in the Rancho Bonito case that to allow the warrantee to recover when he himself owns the outstanding title, would be to eliminate the requirement of eviction, since a person cannot well evict himself.\nThe rule, by the terms of the opinion, applies primarily to actions for damages as distinguished from equitable proceedings, especially those of a defensive nature, where the grantee asserts fraud, mistake, or even ignorance of the outstanding title. While in the latter we have dispensed with the requirement of eviction, we have yet held that, if the grantee on taking the deed knows of the outstanding title, he may not resist payment of vendor\u2019s lien notes on the ground of breach of warranty, but must pay and then sue for damages if and when evicted. Brock v. Southwick, 10 Texas 65. See also May v. Ivie, 68 Texas 379, 381, 4 S.W. 641; Haralson v. Langford, 66 Texas 111, 18 S.W. 339; Turner v. Neel, Texas Civ. App., 231 S.W. 2d 660. On the other hand, we have held that an action for breach of warranty is not foreclosed by the fact that the warrantee took the deed with knowledge of the outstanding interest. City of Beaumont v. Moore, 146 Texas 46, 57, 202 S.W. 2d 448, 455.\nBut the matter of the warrantee\u2019s ownership of the outstanding interest has no effect in a Duhig case type of situation. That decision was expressly an extension of the equitable principle applied in the doctrine of after-acquired title. However, the title which the court treated as \u201cafter-acquired\u201d was not a title purchased by the grantor from a third party as in the ordinary instance of the doctrine. It was the very title which the grantor himself reserved in the deed to the grantee, even as the royalty is in the instant lease. Since the reservation itself is what in effect passes to the grantee in order to forestall the \u201ccontradition or breach of the warranty,\u201d [135 Texas 503, 144 S.W. 2d 880], how can the ownership of the third party outstanding title by the grantee logically have anything to do with the matter? As the respondents well observe, it would have made no difference in the Duhig case if the grantee in the Duhig deed had owned the half interest that was then outstanding in Duhig\u2019s remote grantor.\nThe mere knowledge by the respondents of the outstanding 31/40 interest in Survey 14 is likewise immaterial. What difference would it have made in the Duhig case if Duhig\u2019s grantee had known (as it doubtless did) of the half interest outstanding in Duhig\u2019s remote grantor? If the Duhig deed itself purported to reserve the other half, then certainly his grantee knew it, and yet that reservation was held to be in effect destroyed by the warranty. As before stated, even in an ordinary suit for breach of warranty, knowledge of the outstanding interest by the plaintiff grantee is no defense. City of Beaumont v. Moore, supra.\nResting our views largely on the Duhig case, we conclude that the judgments of the trial court and Court of Civil Appeals in favor of the respondents were correct, and accordingly should be affirmed.\nOpinion delivered July 25, 1956.\n\u201cIf the covenantee were to procure the holder of the superior title to evict him, certainly such act would debar him from his action upon the covenant, and we think the same would be true if he were to purchase such title when it had not been asserted, for in each of such cases but for his own act his title might have remained unquestioned until perfected by lapse of time. To the benefit of such contingencies the vendor is entitled as well after as before his conveyance, and the covenantee who has been placed in privity with the title and often in possession of the land will not be permitted to deprive him thereof. There can be no legal eviction or turning out unless and until a superior title has been without the invitation of the covenantee pressed upon him. * * * *. If in such cases he yields to a force he cannot resist, he is, in contemplation of law, evicted. But to hold that this is so when he, as in the case before us, discovers that he really owned the superior title before he purchased from his warrantor, would be extending the rule beyond its reason. It could only be applied to such a case by holding that he could evict himself by electing- to hold under his superior title upon its discovery. But we have seen that legal eviction cannot be predicated upon the., mere voluntary act of the covenantee.\u201d 92 Texas 75-6, 45 S.W. 996.\n\u201cIt is fair to conclude that he considered his purchase worth, or that he was willing to give, the stipulated price, notwithstanding the defect of title; or that he chose to take the chances as to the title, and have his recourse upon the covenants in his deeds in ease of eviction. * * * * Had the defendant been deceived as \u2022 to the title * * * by the fraud of the vendor, or had he been ignorant of the dfefect of title,, a very different case would have been presented.\u201d (10 Texas 65, 68-9).",
+        "type": "dissent",
+        "author": "Mr. Justice Garwood"
+      },
+      {
+        "text": "ON MOTION FOR REHEARING\nMr. Justice Griffin.\nRespondents\u2019 motion for rehearing is granted to the following extent: the judgment of the trial court adjudicating the rights of Mrs. Willie Gresham, Chambless Gresham, Mary Katherine Gresham, Elizabeth G. Moore and Charles M. Moore under this lease is affirmed; in all other respects the judgments of both courts below are reversed and judgment here rendered that Mrs. Gibson be entitled to recover l/72nd of all oil and gas production under Survey No. 14, Certificate 3802, Block 4i/\u00a3, G.C. & S. F. Ry. Co. Survey, Upton County, Texas.\nOpinion delivered October 31, 1956.\nSecond motion for rehearing overruled November 28, 1956.",
+        "type": "rehearing",
+        "author": "Mr. Justice Griffin."
+      }
+    ],
+    "attorneys": [
+      "Charles L. Krueger and Dan Moody, both of Austin, for petitioners.",
+      "Stubbeman, McRae & Sealy, of Midland, for Fred Turner, Jr., Cox, Patterson & Smith and J. Burleson Smith, of San Antonio, for Slick-TJrschel Oil Company, Neil, Blanks, Lewis & Logan, of San Angelo and Graves, Dougherty & Greenhill, by Ireland Graves, of Austin, for Plymouth Oil Company, respondents."
+    ],
+    "corrections": "",
+    "head_matter": "Margaret G. Gibson Et Vir v. Fred Turner, Jr. Et Al.\nNo. A-5165.\nDecided July 25, 1956.\nRehearing Overruled October 31, 1956.\nSecond Rehearing Overruled November 28, 1956.\n(294 S.W. 2d Series 781)\nCharles L. Krueger and Dan Moody, both of Austin, for petitioners.\nThe Court of Civil Appeals erred in refusing to hold that under the lease involved in this action Mrs. Gibson owned and was entitled to a royalty of l/72nd of the oil produced and saved from the land involved or its market value at the well; in holding that defendants may claim a breach of warranty in the lease, although they, at the time the lease was taken, owned the entire working interest in the mineral estate in the land under lease, except the 9/40ths interest included in the lease which they now hold under plaintiffs and their co-lessors. Hager v. Stakes, 116 Texas 453, 294 S.W. 835; R. Lacy, Inc., v. Jarrett, 214 S.W. 2d 692, writ of error refused; King v. First Natl. Bank, 144 Texas 583, 192 S.W. 2d 260.\nStubbeman, McRae & Sealy, of Midland, for Fred Turner, Jr., Cox, Patterson & Smith and J. Burleson Smith, of San Antonio, for Slick-TJrschel Oil Company, Neil, Blanks, Lewis & Logan, of San Angelo and Graves, Dougherty & Greenhill, by Ireland Graves, of Austin, for Plymouth Oil Company, respondents.\nIn reply to petitioners points of error cite: Waggoner Estate v. Sigler Oil Company, 118 Texas 509, 19 S.W. 2d 27; State National Bank of Corpus Christi v. Morgan, 135 Texas 509, 143 2d 757; Langley v. Morris, 141 Texas 405, 173 S.W. 2d 454."
+  },
+  "file_name": "0289-01",
+  "first_page_order": 301,
+  "last_page_order": 324
+}

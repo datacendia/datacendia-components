@@ -1,0 +1,59 @@
+{
+  "id": 6005961,
+  "name": "Anthony v. Florida",
+  "name_abbreviation": "Anthony v. Florida",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5299",
+  "first_page": "914",
+  "last_page": "914",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 914"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 82,
+    "ocr_confidence": 0.625,
+    "sha256": "a3c1f660ad121ce088a596ea0a240f8a1f0d89aea3738a4e490363374c2d0cde",
+    "simhash": "1:70a85106c4414b03",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Anthony v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 3d Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5299.\nAnthony v. Florida."
+  },
+  "file_name": "0914-04",
+  "first_page_order": 936,
+  "last_page_order": 936
+}

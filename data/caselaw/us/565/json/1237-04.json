@@ -1,0 +1,59 @@
+{
+  "id": 12249461,
+  "name": "Wright v. Texas",
+  "name_abbreviation": "Wright v. Texas",
+  "decision_date": "2012-02-27",
+  "docket_number": "No. 11-8031",
+  "first_page": "1237",
+  "last_page": "1237",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1237"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 70,
+    "ocr_confidence": 0.687,
+    "sha256": "6da4fe64111b7918d49c992c1a6450e649c648fd21d4478299180b0673768592",
+    "simhash": "1:8927d8e476ad72d0",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wright v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tex. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8031.\nWright v. Texas."
+  },
+  "file_name": "1237-04",
+  "first_page_order": 1319,
+  "last_page_order": 1319
+}

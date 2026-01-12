@@ -1,0 +1,59 @@
+{
+  "id": 6021285,
+  "name": "Riley v. Supreme Court of Pennsylvania",
+  "name_abbreviation": "Riley v. Supreme Court of Pennsylvania",
+  "decision_date": "2010-11-01",
+  "docket_number": "No. 10-6233",
+  "first_page": "1013",
+  "last_page": "1013",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1013"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 86,
+    "ocr_confidence": 0.566,
+    "sha256": "49cca8ce7c06c86aa3140f9c5c6d3d3f7292467688126cb1887a58b46870bebc",
+    "simhash": "1:e808fdbb7bb7ad26",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Riley v. Supreme Court of Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6233.\nRiley v. Supreme Court of Pennsylvania."
+  },
+  "file_name": "1013-04",
+  "first_page_order": 1035,
+  "last_page_order": 1035
+}

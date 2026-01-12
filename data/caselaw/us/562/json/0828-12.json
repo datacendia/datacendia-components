@@ -1,0 +1,59 @@
+{
+  "id": 5945276,
+  "name": "Allen et al. v. McWane, Inc.",
+  "name_abbreviation": "Allen v. McWane, Inc.",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-1218",
+  "first_page": "828",
+  "last_page": "828",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 828"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 76,
+    "ocr_confidence": 0.608,
+    "sha256": "05f6011b1e65b5fea82a775308b84729f17d392a17e4cbcce0a5e9ff8c850e28",
+    "simhash": "1:1a9ed280894abc62",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Allen et al. v. McWane, Inc."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-1218.\nAllen et al. v. McWane, Inc."
+  },
+  "file_name": "0828-12",
+  "first_page_order": 850,
+  "last_page_order": 850
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12410579,
+  "name": "Baskerville v. United States",
+  "name_abbreviation": "Baskerville v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-8278",
+  "first_page": "827",
+  "last_page": "827",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 827"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.748,
+    "sha256": "3905bfd68148873e61ddd34e71957bab5ee8f42cf5a8fec3f1a5f8e444bec568",
+    "simhash": "1:440afa2b4eadb506",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Baskerville v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8278.\nBaskerville v. United States."
+  },
+  "file_name": "0827-03",
+  "first_page_order": 903,
+  "last_page_order": 903
+}

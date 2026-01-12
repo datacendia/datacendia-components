@@ -1,0 +1,59 @@
+{
+  "id": 5938350,
+  "name": "Bell v. Pennsylvania",
+  "name_abbreviation": "Bell v. Pennsylvania",
+  "decision_date": "2011-03-28",
+  "docket_number": "No. 10-8799",
+  "first_page": "909",
+  "last_page": "909",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 909"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 69,
+    "ocr_confidence": 0.577,
+    "sha256": "ea2fe205af489ef351498cd8f5500fc1a26df42f6a5e804ed931ca29dd932559",
+    "simhash": "1:ee7eaa9090edcad5",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bell v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Pa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8799.\nBell v. Pennsylvania."
+  },
+  "file_name": "0909-13",
+  "first_page_order": 935,
+  "last_page_order": 935
+}

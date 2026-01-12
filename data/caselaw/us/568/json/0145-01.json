@@ -1,0 +1,1261 @@
+{
+  "id": 12407338,
+  "name": "SEBELIUS, SECRETARY OF HEALTH AND HUMAN SERVICES v. AUBURN REGIONAL MEDICAL CENTER et al.",
+  "name_abbreviation": "Sebelius v. Auburn Regional Medical Center",
+  "decision_date": "2013-01-22",
+  "docket_number": "No. 11-1231",
+  "first_page": "145",
+  "last_page": "164",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 145"
+    },
+    {
+      "type": "parallel",
+      "cite": "184 L. Ed. 2d 627"
+    },
+    {
+      "type": "parallel",
+      "cite": "133 S. Ct. 817"
+    },
+    {
+      "type": "vendor",
+      "cite": "2013 U.S. LEXIS 915"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2012-011"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "567 U. S. 955",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12412897,
+        12412933,
+        12412905,
+        12412941,
+        12412910,
+        12412947,
+        12412918,
+        12412926
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/567/0955-01",
+        "/us/567/0955-06",
+        "/us/567/0955-02",
+        "/us/567/0955-07",
+        "/us/567/0955-03",
+        "/us/567/0955-08",
+        "/us/567/0955-04",
+        "/us/567/0955-05"
+      ]
+    },
+    {
+      "cite": "42 CFR \u00a7405.1806",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "70 Fed. Reg. 47438",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 2005,
+      "opinion_index": 0
+    },
+    {
+      "cite": "117 Stat. 2427",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 CFR \u00a7 405.1836",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "73 Fed. Reg. 30250",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 2008,
+      "pin_cites": [
+        {
+          "parenthetical": "codified in 42 CFR \u00a7 405.1836(b) (2012)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 CFR \u00a7 405.1843",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 CFR \u00a7 405.1885",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "(b)(3)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "309 U. S. 134",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6137955
+      ],
+      "year": 1940,
+      "pin_cites": [
+        {
+          "page": "143"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/309/0134-01"
+      ]
+    },
+    {
+      "cite": "525 U. S. 449",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11076629
+      ],
+      "weight": 3,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "456"
+        },
+        {
+          "page": "455"
+        },
+        {
+          "page": "456"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/525/0449-01"
+      ]
+    },
+    {
+      "cite": "476 U. S. 467",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12797
+      ],
+      "weight": 2,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "480"
+        },
+        {
+          "page": "480"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/476/0467-01"
+      ]
+    },
+    {
+      "cite": "478 U. S. 833",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6214125
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "846"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/478/0833-01"
+      ]
+    },
+    {
+      "cite": "519 U. S. 347",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11595552
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "350"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/519/0347-01"
+      ]
+    },
+    {
+      "cite": "107 U. S. 123",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3499887
+      ],
+      "year": 1883,
+      "pin_cites": [
+        {
+          "parenthetical": "six-year period for filing suit in Court of Claims"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/107/0123-01"
+      ]
+    },
+    {
+      "cite": "501 U. S. 350",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1107797
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "parenthetical": "one- and three-year periods for commencing civil action under \u00a7 10(b) of the Securities Exchange Act of 1934"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/501/0350-01"
+      ]
+    },
+    {
+      "cite": "524 U. S. 38",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11181267
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "parenthetical": "12-year period to bring suit under Quiet Title Act"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/524/0038-01"
+      ]
+    },
+    {
+      "cite": "528 U. S. 549",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9476519
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "parenthetical": "four-year period for filing civil Racketeer Influenced and Corrupt Organizations Act suit"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/528/0549-01"
+      ]
+    },
+    {
+      "cite": "560 U. S. 631",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3641601,
+        12454867
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "parenthetical": "one-year limitation for filing application for writ of habeas corpus"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/560/0631-01",
+        "/l-ed-2d/177/0130-01"
+      ]
+    },
+    {
+      "cite": "545 U. S. 967",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8210237
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "980"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/545/0967-01"
+      ]
+    },
+    {
+      "cite": "503 U. S. 638",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6237415
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "644",
+          "parenthetical": "\"Deadlines may lead to unwelcome results, but they prompt parties to act and produce finality.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/503/0638-01"
+      ]
+    },
+    {
+      "cite": "467 U. S. 837",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6209106
+      ],
+      "weight": 2,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "844"
+        },
+        {
+          "page": "843, n. 11"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/467/0837-01"
+      ]
+    },
+    {
+      "cite": "359 F. 3d 1307",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9287540
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1310"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/359/1307-01"
+      ]
+    },
+    {
+      "cite": "503 U. S. 249",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6225793
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "253"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/503/0249-01"
+      ]
+    },
+    {
+      "cite": "542 U. S. 692",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5862480
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "711, n. 9",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/542/0692-01"
+      ]
+    },
+    {
+      "cite": "422 U. S. 749",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9671
+      ],
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "763-764",
+          "parenthetical": "statutory provision at issue contained three requirements for judicial review, only one of which was jurisdictional"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/422/0749-01"
+      ]
+    },
+    {
+      "cite": "386 U. S. 484",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6176897
+      ],
+      "weight": 2,
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "498",
+          "parenthetical": "filing deadline for claims under the Trading with the Enemy Act"
+        },
+        {
+          "parenthetical": "60-day period for filing suit under Trading with the Enemy Act"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/386/0484-01"
+      ]
+    },
+    {
+      "cite": "540 U. S. 443",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8897340
+      ],
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "454",
+          "parenthetical": "filing deadlines for objecting to debtor's discharge in bankruptcy"
+        },
+        {
+          "page": "454",
+          "parenthetical": "a time limitation may be emphatic, yet not jurisdictional"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/540/0443-01"
+      ]
+    },
+    {
+      "cite": "541 U. S. 401",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5932838
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "414",
+          "parenthetical": "filing deadline for fee applications under Equal Access to Justice Act"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/541/0401-01"
+      ]
+    },
+    {
+      "cite": "551 U. S. 205",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3573311
+      ],
+      "weight": 2,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "214"
+        },
+        {
+          "page": "209, n. 2"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/551/0205-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 2107",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 U. S. C. \u00a7 7266",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "455 U. S. 385",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11305742
+      ],
+      "weight": 3,
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "394"
+        },
+        {
+          "page": "398"
+        },
+        {
+          "page": "397",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/455/0385-01"
+      ]
+    },
+    {
+      "cite": "552 U. S. 130",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3675998
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "133-134"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/552/0130-01"
+      ]
+    },
+    {
+      "cite": "559 U. S. 154",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12446768,
+        3582065
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "168"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/176/0018-01",
+        "/us/559/0154-01"
+      ]
+    },
+    {
+      "cite": "565 U. S. 134",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12186041,
+        12445442
+      ],
+      "weight": 2,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "137"
+        },
+        {
+          "page": "146-147"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/565/0134-01",
+        "/l-ed-2d/181/0619-01"
+      ]
+    },
+    {
+      "cite": "523 U. S. 83",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11503308
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "90",
+          "parenthetical": "jurisdiction has been a \"word of many, too many, meanings\" (internal quotation marks omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/523/0083-01"
+      ]
+    },
+    {
+      "cite": "546 U. S. 500",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5937941
+      ],
+      "weight": 3,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "514"
+        },
+        {
+          "page": "516"
+        },
+        {
+          "page": "515-516"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/546/0500-01"
+      ]
+    },
+    {
+      "cite": "562 U. S. 428",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6023194,
+        12457263
+      ],
+      "weight": 5,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "434"
+        },
+        {
+          "page": "435"
+        },
+        {
+          "page": "435-436"
+        },
+        {
+          "page": "438"
+        },
+        {
+          "page": "435"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/562/0428-01",
+        "/l-ed-2d/179/0159-01"
+      ]
+    },
+    {
+      "cite": "786 F. 2d 848",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1556453
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "852-853",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/786/0848-01"
+      ]
+    },
+    {
+      "cite": "891 F. 2d 850",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10534550
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "855-856",
+          "parenthetical": "statute of limitations is jurisdictional and the Secretary lacked authority to promulgate good-cause exception"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/891/0850-01"
+      ]
+    },
+    {
+      "cite": "783 F. 2d 1376",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1544033
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "1379-1380",
+          "parenthetical": "180-day limit is not jurisdictional and the Secretary may extend it for good cause"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/783/1376-01"
+      ]
+    },
+    {
+      "cite": "567 U. S. 933",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12411042,
+        12411011,
+        12410987,
+        12411053,
+        12411023,
+        12410994,
+        12410964,
+        12411032,
+        12410975
+      ],
+      "year": 2012,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/567/0933-08",
+        "/us/567/0933-05",
+        "/us/567/0933-03",
+        "/us/567/0933-09",
+        "/us/567/0933-06",
+        "/us/567/0933-04",
+        "/us/567/0933-01",
+        "/us/567/0933-07",
+        "/us/567/0933-02"
+      ]
+    },
+    {
+      "cite": "498 U. S. 89",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6219498
+      ],
+      "weight": 5,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "95-96"
+        },
+        {
+          "page": "95-96"
+        },
+        {
+          "page": "95-96"
+        },
+        {
+          "page": "95"
+        },
+        {
+          "page": "91"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/498/0089-01"
+      ]
+    },
+    {
+      "cite": "642 F. 3d 1145",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3556120,
+        3386401
+      ],
+      "weight": 4,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1148"
+        },
+        {
+          "page": "1149-1151"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/395/0324-01",
+        "/f3d/642/1145-01"
+      ]
+    },
+    {
+      "cite": "686 F. Supp. 2d 56",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "70"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "545 F. Supp. 2d 20",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        3803465
+      ],
+      "weight": 2,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "26-30"
+        },
+        {
+          "page": "57-58",
+          "parenthetical": "concluding that CMS failed to use the \"best available data\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/545/0020-01"
+      ]
+    },
+    {
+      "cite": "42 CFR \u00a7 405.1841",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 3,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "(b)"
+        },
+        {
+          "page": "(b)"
+        },
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Fed. Reg. 34517",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 1974,
+      "pin_cites": [
+        {
+          "parenthetical": "codified in 42 CFR \u00a7 405.1841(b) (2007)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "97 Stat. 165",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "567 U. S. 955",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12412897,
+        12412933,
+        12412905,
+        12412941,
+        12412910,
+        12412947,
+        12412918,
+        12412926
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/567/0955-01",
+        "/us/567/0955-06",
+        "/us/567/0955-02",
+        "/us/567/0955-07",
+        "/us/567/0955-03",
+        "/us/567/0955-08",
+        "/us/567/0955-04",
+        "/us/567/0955-05"
+      ]
+    },
+    {
+      "cite": "742 F. 2d 729",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        613442
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "738"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/742/0729-01"
+      ]
+    },
+    {
+      "cite": "424 U. S. 319",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12026449
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "330"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/424/0319-01"
+      ]
+    },
+    {
+      "cite": "548 U. S. 81",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3500482
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "88-91"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/548/0081-01"
+      ]
+    },
+    {
+      "cite": "535 U. S. 43",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        352189
+      ],
+      "weight": 2,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "49-53",
+          "parenthetical": "applying the presumption to a limitations period in bankruptcy proceedings"
+        },
+        {
+          "page": "49-50",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/535/0043-01"
+      ]
+    },
+    {
+      "cite": "42 CFR \u00a7 405.1836",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "73 Fed. Reg. 30250",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 2008,
+      "pin_cites": [
+        {
+          "parenthetical": "codified in 42 CFR \u00a7 405.1836(b) (2012)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "525 U. S. 449",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11076629
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "456"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/525/0449-01"
+      ]
+    },
+    {
+      "cite": "476 U. S. 467",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12797
+      ],
+      "weight": 2,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "480",
+          "parenthetical": "quoting Mathews v. Eldridge, 424 U. S. 319, 330 (1976)"
+        },
+        {
+          "page": "481"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/476/0467-01"
+      ]
+    },
+    {
+      "cite": "519 U. S. 347",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11595552
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "350-353",
+          "parenthetical": "assuming without deciding that the Irwin presumption applied to administrative tax refund claims but finding based on statutory text, structure, and the underlying subject matter that tolling was unavailable"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/519/0347-01"
+      ]
+    },
+    {
+      "cite": "524 U. S. 38",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11181267
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "49-50",
+          "parenthetical": "Stevens, J., concurring"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/524/0038-01"
+      ]
+    },
+    {
+      "cite": "455 U. S. 385",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11305742
+      ],
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "392-398",
+          "parenthetical": "holding that the statutory time limit for filing charges with the Equal Employment Opportunity Commission was \"not a jurisdictional prerequisite to suit in federal court, but a requirement that, like a statute of limitations, is subject to waiver, estoppel, and equitable tolling\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/455/0385-01"
+      ]
+    },
+    {
+      "cite": "562 U. S. 428",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6023194,
+        12457263
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "442, n. 4",
+          "parenthetical": "noting that the Government did not dispute whether the statutory filing deadline in the Article I Veterans Court was subject to equitable tolling if the deadline was nonjurisdictional"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/562/0428-01",
+        "/l-ed-2d/179/0159-01"
+      ]
+    },
+    {
+      "cite": "498 U. S. 89",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6219498
+      ],
+      "weight": 2,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "95-96"
+        },
+        {
+          "page": "95"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/498/0089-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1510,
+    "char_count": 34707,
+    "ocr_confidence": 0.633,
+    "pagerank": {
+      "raw": 1.9863649094343465e-06,
+      "percentile": 0.9949248006350949
+    },
+    "sha256": "2657ef17780617a3081c516e1dbda9eb198f8a9cf4b5dc80c8f6db6a15c95263",
+    "simhash": "1:146eadc621aeab22",
+    "word_count": 5492
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Ginsburg, J., delivered the opinion for .a unanimous Court. Soto-mayor, J., filed a concurring opinion, post, p. 161."
+    ],
+    "parties": [
+      "SEBELIUS, SECRETARY OF HEALTH AND HUMAN SERVICES v. AUBURN REGIONAL MEDICAL CENTER et al."
+    ],
+    "opinions": [
+      {
+        "text": "Justice Ginsburg\ndelivered the opinion of the Court.\nThis case concerns the time within which health care providers may file an administrative appeal from the initial determination of the reimbursement due them for inpatient services rendered to Medicare beneficiaries. Government contractors, called fiscal intermediaries, receive cost reports annually from care providers and notify them of the reimbursement amount for which they qualify. A provider dissatisfied with the fiscal intermediary\u2019s determination may appeal to an administrative body named the Provider Reimbursement Review Board (PRRB or Board). The governing statute, \u00a7 602(h)(1)(D), 97 Stat. 165, 42 U. S. C. \u00a7 1395oo(a)(3), sets a 180-day limit for filing appeals from the fiscal intermediary to the PRRB. By a regulation promulgated in 1974, the Secretary of the Department of Health and Human Services (HHS) authorized the Board to extend the 180-day limitation, for good cause, up to three years.\nThe providers in this case are hospitals who appealed to the PRRB more than ten years after expiration of the 180-day statutory deadline. They assert that the Secretary\u2019s failure to disclose information that made the fiscal intermediary\u2019s reimbursement calculation incorrect prevented them from earlier appealing to the Board. Three positions have been briefed and argued regarding the time for providers\u2019 appeals to the PRRB. First, a Court-appointed amicus curiae has urged that the 180-day limitation is \u201cjurisdictional,\u201d and therefore cannot be enlarged at all by agency or court. Second, the Government maintains that the Secretary has the prerogative to set an outer limit of three years for appeals to the Board. And third, the hospitals argue that the doctrine of equitable tolling applies, stopping the 180-day clock during the time the Secretary concealed the information that made the fiscal intermediary\u2019s reimbursement determinations incorrect.\nWe hold that the statutory 180-day limitation is not \u201cjurisdictional,\u201d and that the Secretary reasonably construed the statute to permit a regulation extending the time for a provider\u2019s appeal to the PRRB to three years. We further hold that the presumption in favor of equitable tolling does not apply to administrative appeals of the kind here at issue.\nHH\nThe Medicare program covers certain inpatient services that hospitals provide to Medicare beneficiaries. Providers are reimbursed at a fixed amount per patient, regardless of the actual operating costs they incur in rendering these services. But the total reimbursement amount is adjusted upward for hospitals that serve a disproportionate share of low-income patients. This adjustment is made because hospitals with an unusually high percentage of low-income patients generally have higher per-patient costs; such hospitals, Congress therefore found, should receive higher reimbursement rates. See H. R. Rep. No. 99-241, pt. 1, p. 16 (1985). The amount of the disproportionate share adjustment is determined in part by the percentage of the patients served by the hospital who are eligible for Supplemental Security Income (SSI) payments, a percentage commonly called the SSI fraction. 42 U. S. C. \u00a7 1395ww(d) (2006 ed. and Supp. V).\nAt the end of each year, providers participating in Medicare submit cost reports to contractors acting on behalf of HHS known as fiscal intermediaries. Also at year end, the Centers for Medicare & Medicaid Services (CMS) calculates the SSI fraction for each eligible hospital and submits that number to the intermediary for that hospital. Using these numbers to determine the total payment due, the intermediary issues a Notice of Program Reimbursement (NPR) informing the provider how much it will be paid for the year.\nIf a provider is dissatisfied with the intermediary\u2019s reimbursement determination, the statute gives it the right to file a request for a hearing before the PRRB within 180 days of receiving the NPR. \u00a7 1395oo(a)(3) (2006 ed.) In 1974, the Secretary promulgated a regulation, after notice and comment rulemaking, permitting the Board to extend the 180-day time limit upon a showing of good cause; the regulation further provides that \u201cno such extension shall be granted by the Board if such request is filed more than 3 years after the date the notice of the intermediary\u2019s determination is mailed to the provider.\u201d 39 Fed. Reg. 34517 (1974) (codified in 42 CFR \u00a7 405.1841(b) (2007)).\nFor many years, CMS released only the results of its SSI fraction calculations and not the underlying data. The Baystate Medical Center\u2014a hospital not party to this case\u2014 timely appealed the calculation of its SSI fraction for each year from 1993 through 1996. Eventually, the PRRB determined that CMS had omitted several categories of SSI data from its calculations and was using a flawed process to determine the number of low-income beneficiaries treated by hospitals. These errors caused a systematic undercalculation of the disproportionate share adjustment, resulting in underpayments to the providers. Baystate Medical Center v. Leavitt, 545 F. Supp. 2d 20, 26-30 (DC 2008); see id., at 57-58 (concluding that CMS failed to use the \u201cbest available data\u201d).\nThe methodological errors revealed by the Board\u2019s Bay-state decision would have yielded similarly reduced payments to all providers for which CMS had calculated an SSI fraction. In March 2006, the Board\u2019s decision in the Bay-state case was made public. Within 180 days, the hospitals in this case filed a complaint with the Board seeking to challenge their disproportionate share adjustments for the years 1987 through 1994. The hospitals acknowledged that their challenges, unlike Baystate\u2019s timely contest, were more than a decade out of time. But equitable tolling of the limitations period was in order, they urged, due to CMS\u2019s failure to inform the hospitals that their SSI fractions had been based on faulty data.\nThe PRRB held that it lacked jurisdiction over the hospitals\u2019 complaint, reasoning that it had no equitable powers save those legislation or regulation might confer, and that the Secretary\u2019s regulation permitted it to excuse late appeals only for good cause, with three years as the outer limit. On judicial review, the District Court dismissed the hospitals\u2019 claims for relief, holding that nothing in the statute suggests that \u201cCongress intended to authorize equitable tolling.\u201d 686 F. Supp. 2d 56, 70 (DC 2010).\nThe Court of Appeals reversed. 642 F. 3d 1145 (CADC 2011). It relied on the presumption that statutory limitations periods are generally subject to equitable tolling and reasoned that \u201c \u2018the same rebuttable presumption of equitable tolling applicable to suits against private defendants should also apply to suits against the United States.\u2019 \u201d Id., at 1148 (quoting Irwin v. Department of Veterans Affairs, 498 U. S. 89, 95-96 (1990)). The presumption applies to the 180-day time limit for provider appeals from reimbursement determinations, the Court of Appeals held, finding nothing in the statutory provision for PRRB review indicating that Congress intended to disallow equitable tolling. 642 F. 3d, at 1149-1151.\nWe granted the Secretary\u2019s petition for certiorari, 567 U. S. 933 (2012), to resolve a conflict among the Courts of Appeals over whether the 180-day time limit in 42 U. S. C. \u00a7 1395oo(a)(3) constricts the Board\u2019s jurisdiction. Compare 642 F. 3d 1145 (case below); Western Medical Enterprises, Inc. v. Heckler, 783 F. 2d 1376, 1379-1380 (CA9 1986) (180-day limit is not jurisdictional and the Secretary may extend it for good cause), with Alacare Home Health Servs., Inc. v. Sullivan, 891 F. 2d 850, 855-856 (CA11 1990) (statute of limitations is jurisdictional and the Secretary lacked authority to promulgate good-cause exception); St. Joseph\u2019s Hospital of Kansas City v. Heckler, 786 F. 2d 848, 852-853 (CA8 1986) (same). Beyond the jurisdictional inquiry, the Secretary asked us to determine whether the Court of Appeals erred in concluding that equitable tolling applies to providers\u2019 Medicare reimbursement appeals to the PRRB, notwithstanding the Secretary\u2019s regulation barring such appeals after three years.\nII\nA\nCharacterizing a rule as jurisdictional renders it unique in our adversarial system. Objections to a tribunal\u2019s jurisdiction can be raised at any time, even by a party that once conceded the tribunal\u2019s subject-matter jurisdiction over the controversy. Tardy jurisdictional objections can therefore result in a waste of adjudicatory resources and can disturbingly disarm litigants. See Henderson v. Shinseki, 562 U. S. 428, 434 (2011); Arbaugh v. Y & H Corp., 546 U. S. 500, 514 (2006). With these untoward consequences in mind, \u201cwe have tried in recent cases to bring some discipline to the use\u201d of the term \u201cjurisdiction.\u201d Henderson, 562 U. S., at 435; see also Steel Co. v. Citizens for Better Environment, 523 U. S. 83, 90 (1998) (jurisdiction has been a \u201cword of many, too many, meanings\u201d (internal quotation marks omitted)).\nTo ward off profligate use of the term \u201cjurisdiction,\u201d we have adopted a \u201creadily administrable bright line\u201d for determining whether to classify a statutory limitation as jurisdictional. Arbaugh, 546 U. S., at 516. We inquire whether Congress has \u201cclearly state[d]\u201d that the rule is jurisdictional; absent such a clear statement, we have cautioned, \u201ccourts should treat the restriction as nonjurisdictional in character.\u201d Id., at 515-516; see also Gonzalez v. Thaler, 565 U. S. 134, 137 (2012); Henderson, 562 U. S., at 435-436. This is not to say that Congress must incant magic words in order to speak clearly. We consider \u201ccontext, including this Court\u2019s interpretations of similar provisions in many years past,\u201d as probative of whether Congress intended a particular provision to rank as jurisdictional. Reed Elsevier, Inc. v. Muchnick, 559 U. S. 154, 168 (2010); see also John R. Sand & Gravel Co. v. United States, 552 U. S. 130, 133-134 (2008).\nWe reiterate what it would mean were we to type the governing statute, 42 U. S. C. \u00a7 1395oo(a)(3), \u201cjurisdictional.\u201d Under no circumstance could providers engage PRRB review more than 180 days after notice of the fiscal intermediary\u2019s final determination. Not only could there be no equitable tolling. The Secretary\u2019s regulation providing for a good-cause extension, see swpra, at 150, would fall as well.\nThe language Congress used hardly reveals a design to preclude any regulatory extension. Section 1395oo(a)(3) instructs that a provider of services \u201cmay obtain a hearing\u201d by the Board regarding its reimbursement amount if \u201csuch provider files a request for a hearing within 180 days after notice of the intermediary\u2019s final determination.\u201d This provision \u201cdoes not speak in jurisdictional terms.\u201d Zipes v. Trans World Airlines, Inc., 455 U. S. 385, 394 (1982). Indeed, it is less \u201cjurisdictional\u201d in tone than the provision we held to be nonjurisdictional in Henderson. There, the statute provided that a veteran seeking Veterans Court review of the Department of Veterans Affairs\u2019 determination of disability benefits \u201cshall file a notice of appeal . . . within 120 days.\u201d 562 U. S., at 438 (quoting 38 U. S. C. \u00a7 7266(a); emphasis added). Section 1395oo(a)(3), by contrast, contains neither the mandatory word \u201cshall\u201d nor the appellation \u201cnotice of appeal,\u201d words with jurisdictional import in the context of 28 U. S. C. \u00a7 2107\u2019s limitations on the time for appeal from a district court to a court of appeals. See Bowles v. Russell, 551 U. S. 205, 214 (2007).\nKey to our decision, we have repeatedly held that filing deadlines ordinarily are not jurisdictional; indeed, we have described them as \u201cquintessential claim-processing rules.\u201d Henderson, 562 U. S., at 435; see also Scarborough v. Princ ipi, 541 U. S. 401, 414 (2004) (filing deadline for fee applications under Equal Access to Justice Act); Kontrick v. Ryan, 540 U. S. 443, 454 (2004) (filing deadlines for objecting to debtor\u2019s discharge in bankruptcy); Honda v. Clark, 386 U. S. 484, 498 (1967) (filing deadline for claims under the Trading with the Enemy Act). This case is scarcely the exceptional one in which a \u201ccentury\u2019s worth of precedent and practice in American courts\u201d rank a time limit as jurisdictional. Bowles, 551 U. S., at 209, n. 2; cf. Kontrick, 540 U. S., at 454 (a time limitation may be emphatic, yet not jurisdictional).\nB\nAmicus urges that the three requirements in \u00a7 1395oo(a) are specifications that together define the limits of the PRRB\u2019s jurisdiction. Subsection (a)(1) specifies the claims providers may bring to the Board, and subsection (a)(2) sets forth an amount-in-controversy requirement. These are jurisdictional requirements, amicus asserts, so we should read the third specification, subsection (a)(3)\u2019s 180-day limitation, as also setting a jurisdictional requirement.\nLast Term, we rejected a similar proximity-based argument. A requirement we would otherwise classify as non-jurisdictional, we held, does not become jurisdictional simply because it is placed in a section of a statute that also contains jurisdictional provisions. Gonzalez, 565 U. S., at 146-147; see Weinberger v. Salfi, 422 U. S. 749, 763-764 (1975) (statutory provision at issue contained three requirements for judicial review, only one of which was jurisdictional).\nAmicus also argues that the 180-day time limit for provider appeals to the PRRB should be viewed as jurisdictional because Congress could have expressly made the provision nonjurisdictional, and indeed did so for other time limits in the Medicare Act. Amicus notes particularly that when Medicare beneficiaries request the Secretary to reconsider a benefits determination, the statute gives them a time limit of 180 days or \u201csuch additional time as the Secretary may allow.\u201d 42 U. S. C. \u00a7 1395ff(b)(1)(D)(i); see also \u00a7 1395ff(b)(1)(D)(ii) (permitting Medicare beneficiary to request a hearing by the Secretary within \u201ctime limits\u201d the Secretary \u201cshall establish in regulations\u201d). We have recognized, as a general rule, that Congress\u2019 use of \u201ccertain language in one part of the statute and different language in another\u201d can indicate that \u201cdifferent meanings were intended.\u201d Sosa v. Alvarez-Machain, 542 U. S. 692, 711, n. 9 (2004) (internal quotation marks omitted). Amicus notes this general rule in urging that an express grant of authority for the Secretary to extend the time for beneficiary appeals implies the absence of such leeway for provider appeals.\nBut the interpretive guide just identified, like other canons of construction, is \u201cno more than [a] rul[e] of thumb\u201d that can tip the scales when a statute could be read in multiple ways. Connecticut Nat. Bank v. Germain, 503 U. S. 249, 253 (1992). For the reasons earlier stated, see supra, at 153-155, we are persuaded that the time limitation in \u00a7 1395oo(a) is most sensibly characterized as a nonjurisdictional prescription. The limitation therefore does not bar the modest extension contained in the Secretary\u2019s regulation.\nIll\nWe turn now to the question whether \u00a7 1395oo(a)(3)\u2019s 180-day time limit for a provider to appeal to the PRRB is subject to equitable tolling.\nA\nCongress vested in the Secretary large rulemaking authority to administer the Medicare program. The PRRB may adopt rules and procedures only if \u201cnot inconsistent\u201d with the Medicare Act or \u201cregulations of the Secretary.\u201d 42 U. S. C. \u00a7 1395oo(e). Concerning the 18Q-day period for an appeal to the Board from an intermediary\u2019s reimbursement determination, the Secretary\u2019s regulation implementing \u00a7 1395oo, adopted after notice and comment, speaks in no uncertain terms:\n\u201cA request for a Board hearing filed after [the 180-day time limit] shall be dismissed by the Board, except that for good cause shown, the time limit may be extended. However, no such extension shall be granted by the Board if such request is filed more than 3 years after the date the notice of the intermediary\u2019s determination is mailed to the provider.\u201d 42 CFR \u00a7 405.1841(b) (2007).\nThe Secretary allowed only a distinctly limited extension of time to appeal to the PRRB, cognizant that \u201cthe Board is burdened by an immense caseload,\u201d and that \u201cprocedural rules requiring timely filings are indispensable devices for keeping the machinery of the reimbursement appeals process running smoothly.\u201d High Country Home Health, Inc. v. Thompson, 359 F. 3d 1307, 1310 (CA10 2004). Imposing equitable tolling to permit appeals barred by the Secretary\u2019s regulation would essentially gut the Secretary\u2019s requirement that an appeal to the Board \u201cshall be dismissed\u201d if filed more than 180 days after the NPR, unless the provider shows \u201cgood cause\u201d and requests an extension no later than three years after the NPR. A court lacks authority to undermine the regime established by the Secretary unless her regulation is \u201carbitrary, capricious, or manifestly contrary to the statute.\u201d Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc., 467 U. S. 837, 844 (1984).\nThe Secretary\u2019s regulation, we are satisfied, survives inspection under that deferential standard. As HHS has explained, \u201c[i]t is in the interest of providers and the program that, at some point, intermediary determinations and the resulting amount of program payment due the provider or the program become no longer open to correction.\u201d CMS, Medicare: Provider Reimbursement Manual, pt. 1, ch. 29, \u00a72930, p. 29-73 (rev. no. 372, 2011); cf. Taylor v. Freeland & Kronz, 503 U. S. 638, 644 (1992) (\u201cDeadlines may lead to unwelcome results, but they prompt parties to act and produce finality.\u201d). The Secretary brought to bear practical experience in superintending the huge program generally, and the PRRB in particular, in maintaining three years as the outer limit. A court must uphold the Secretary\u2019s judgment as long as it is a permissible construction of the statute, even if it differs from how the court would have interpreted the statute in the absence of an agency regulation. National Cable & Telecommunications Assn. v. Brand X Internet Services, 545 U. S. 967, 980 (2005); see also Chevron, 467 U. S., at 843, n. 11.\nB\nRejecting the Secretary\u2019s position, the Court of Appeals relied principally on this Court\u2019s decision in Irwin, 498 U. S., at 95-96. Irwin concerned the then 30-day time period for filing suit against a federal agency under Title VII of the Civil Rights Act of 1964, 42 U. S. C. \u00a72000e-16(c) (1988 ed.). We held in Irwin that \u201cthe same rebuttable presumption of equitable tolling applicable to suits against private defendants should also apply to suits against the United States.\u201d 498 U. S., at 95-96. Irwin itself, and equitable-tolling cases we have considered both pre- and post-Irwin, have generally involved time limits for filing suit in federal court. See, e. g., Holland v. Florida, 560 U. S. 631 (2010) (one-year limitation for filing application for writ of habeas corpus); Rotella v. Wood, 528 U. S. 549 (2000) (four-year period for filing civil Racketeer Influenced and Corrupt Organizations Act suit); United States v. Beggerly, 524 U. S. 38 (1998) (12-year period to bring suit under Quiet Title Act); Lampf Pleva, Lipkind, Prupis & Petigrow v. Gilbertson, 501 U. S. 350 (1991) (one- and three-year periods for commencing civil action under \u00a7 10(b) of the Securities Exchange Act of 1934); Honda v. Clark, 386 U. S. 484 (1967) (60-day period for filing suit under Trading with the Enemy Act); Kendall v. United States, 107 U. S. 123 (1883) (six-year period for filing suit in Court of Claims). Courts in those cases rendered in the first instance the decision whether equity required tolling.\nThis case is of a different order. We have never applied the Irwin presumption to an agency\u2019s internal appeal deadline, here the time a provider has to appeal an intermediary\u2019s reimbursement determination to the PRRB. Cf. United States v. Brockamp, 519 U. S. 347, 350 (1997) (assuming, ar-guendo, that Irwin presumption applied to time limit for filing an administrative claim for a tax refund, but concluding based on statutory text, structure, and purpose that there was \u201cgood reason to believe that Congress did not want the equitable tolling doctrine to apply\u201d).\nThe presumption of equitable tolling was adopted in part on the premise that \u201c[s]uch a principle is likely to be a realistic assessment of legislative intent.\u201d Irwin, 498 U. S., at 95. But that premise is inapt in the context of providers\u2019 administrative appeals under the Medicare Act. The Act, until 1972, provided no avenue for providers to obtain administrative or judicial review. When Congress first directed the Secretary to establish the PRRB, Congress simultaneously imposed the 180-day deadline, with no statutory exceptions. For nearly 40 years the Secretary has prohibited the Board from extending that deadline, except as provided by regulation. And until the D. C. Circuit\u2019s decision in this case, no court had ever read equitable tolling into \u00a7 1395oo(a)(3) or the Secretary\u2019s implementation of that provision. Congress amended \u00a7 1395oo six times since 1974, each time leaving untouched the 180-day administrative appeal provision and the Secretary\u2019s rulemaking authority. At no time did Congress express disapproval of the three-year outer time limit set by the Secretary for an extension upon a showing of good cause. See Commodity Futures Trading Comm\u2019n v. Schor, 478 U. S. 833, 846 (1986) (\u201c[W]hen Congress revisits a statute giving rise to a longstanding administrative interpretation without pertinent change, the congressional failure to revise or repeal the agency\u2019s interpretation is persuasive evidence that the interpretation is the one intended by Congress.\u201d (internal quotation marks omitted)).\nWe note, furthermore, that unlike the remedial statutes at issue in many of this Court\u2019s equitable-tolling decisions, see Irwin, 498 U. S., at 91; Bowen v. City of New York, 476 U. S. 467, 480 (1986); Zipes, 455 U. S., at 398, the statutory scheme before us is not designed to be \u201c\u2018unusually protective\u2019 of claimants,\u201d Bowen, 476 U. S., at 480. Nor is it one \u201cin which laymen, unassisted by trained lawyers, initiate the process.\u201d Zipes, 455 U. S., at 397 (internal quotation marks omitted); The Medicare payment system in question applies to \u201csophisticated\u201d institutional providers assisted by legal counsel, and \u201cgenerally capable of identifying an underpayment in [their] own NPR within the 180-day time period specified in 42 U. S. C. \u00a7 1395oo(a)(3).\u201d Your Home Visiting Nurse Services, Inc. v. Shalala, 525 U. S. 449, 456 (1999). As repeat players who elect to participate in the Medicare system, providers can hardly claim lack of notice of the Secretary\u2019s regulations.\nThe hospitals ultimately argue that the Secretary\u2019s regulations fail to adhere to the \u201cfundamentals of fair play.\u201d FCC v. Pottsville Broadcasting Co., 309 U. S. 134, 143 (1940). They point, particularly, to 42 CFR \u00a7 405.1885(b)(3) (2012), which permits reopening of an intermediary\u2019s reimbursement determination \u201cat any time if it is established that such determination . . . was procured by fraud or similar fault of any party to the determination.\u201d\nWe considered a similar alleged inequity in Your Home and explained that it was justified by the \u201cadministrative realities\u201d of the provider reimbursement appeal system. 525 U. S., at 455. There are only a few dozen fiscal intermediaries and they are charged with issuing tens of thousands of NPRs, while each provider can concentrate on a single NPR, its own. Id., at 456. The Secretary, Your Home concluded, could reasonably believe that this asymmetry justifies giving the intermediaries more time to discover overpayments than the providers have to discover underpay-merits. Moreover, the fraud exception allowing indefinite reopening does apply to an intermediary if it \u201cprocured\u201d a Board decision by \u201cfraud or similar fault.\u201d Although an intermediary is not a party to its own determination, it does rank as a party in proceedings before the Board. 42 CFR \u00a7 405.1843(a).\n* * *\nWe hold, in sum, that the 180-day statutory deadline for administrative appeals to the PRRB, contained in 42 U. S. C. \u00a7 1395oo(a)(3), is not \u201cjurisdictional.\u201d Therefore the Secretary lawfully exercised her rulemaking authority in providing for a three-year \u201cgood cause\u201d extension. We further hold that the equitable-tolling presumption our Irwin decision approved for suits brought in court does not similarly apply to administrative appeals of the kind here considered, and that the Secretary\u2019s regulation, 42 CFR \u00a7 405.1841(b), is a permissible interpretation of the statute.\nThe judgment of the United States Court of Appeals for the District of Columbia Circuit is therefore reversed, and the case is remanded for further proceedings consistent with this opinion.\nIt is so ordered.\nThe agency was called the Department of Health, Education, and Welfare until 1979, but for simplicity\u2019s sake we refer to it as HHS throughout this opinion.\nIn 2008, after this case commenced, the Secretary replaced the 1974 regulation with a new prescription limiting \u201cgood cause\u201d to \u201cextraordinary circumstances beyond [the provider\u2019s] control (such as a natural or other catastrophe, fire, or strike).\u201d 73 Fed. Reg. 30250 (2008) (codified in 42 CFR \u00a7 405.1836(b) (2012)). The new regulation retains the strict three-year cutoff for all claims. \u00a7 405.1836(c)(2). The parties agree that this case is governed by the 1974 regulation, and our opinion today addresses only that regulation.\nIn \u00a7 951 of the Medicare Prescription Drug, Improvement, and Modernization Act of 2003, 117 Stat. 2427, Congress required the Secretary to furnish hospitals with the data necessary to compute their own disproportionate share adjustment. Pursuant to this congressional mandate, the Secretary has adopted procedures for turning over the SSI data to hospitals upon request. 70 Fed. Reg. 47438 (2005).\nBecause no party takes the view that the statutory 180-day time limit is jurisdictional, we appointed John F. Manning to brief and argue this position as amicus curiae. 567 U. S. 955 (2012). Amicus Manning has ably discharged his assigned responsibilities and the Court thanks him for his well-stated arguments.\nBecause neither the Secretary nor the intermediary counts as a party to the intermediary\u2019s determination, 42 CFR \u00a7405.1806, providers alone are subject to this exception to the time limitation.\nThe fraud exception apart, reopening time is limited to three years. \u00a7 405.1885(a). Within that time, reopening may be sought by the intermediary, the Board, the Secretary, or the provider. Thus an intermediary determination or Board decision could not be reopened if, outside the three-year window, the Secretary discovered errors in calculating the SSI fraction that resulted in overpayments to providers.",
+        "type": "majority",
+        "author": "Justice Ginsburg"
+      },
+      {
+        "text": "Justice Sotomayor,\nconcurring.\nThe Court holds that the presumption in favor of equitable tolling that we adopted in Irwin v. Department of Veterans Affairs, 498 U. S. 89, 95-96 (1990), does not apply to 42 U. S. C. \u00a7 1395oo(a)(3)\u2019s nonjurisdictional 180-day deadline for health care providers to file administrative appeals with the Provider Reimbursement Review Board (PRRB), and that the Secretary\u2019s regulation limiting \u201cgood cause\u201d extensions of that deadline to three years is a permissible interpretation of the statute. I agree with those holdings and join the Court\u2019s opinion in full. I write separately to note that the Court\u2019s decision in this case does not establish that equitable tolling principles are irrelevant to internal administrative deadlines in all, or even most, contexts.\nThe Court is correct that our equitable tolling cases have typically involved deadlines to bring suit in federal court. Ante, at 158. But we have never suggested that the presumption in favor of equitable tolling is generally inapplicable to administrative deadlines. Cf. Henderson v. Shinseki, 562 U. S. 428, 442, n. 4 (2011) (noting that the Government did not dispute whether the statutory filing deadline in the Article I Veterans Court was subject to equitable tolling if the deadline was nonjurisdictional); United States v. Brockamp, 519 U. S. 347, 350-353 (1997) (assuming without deciding that the Irwin presumption applied to administrative tax refund claims but finding based on statutory text, structure, and the underlying subject matter that tolling was unavailable); see also ante, at 159 (discussing Brockamp). And we have previously applied the Irwin presumption outside the context of filing deadlines in Article III courts. See Young v. United States, 535 U. S. 43, 49-53 (2002) (applying the presumption to a limitations period in bankruptcy proceedings); cf. Zipes v. Trans World Airlines, Inc., 455 U. S. 385, 392-398 (1982) (holding that the statutory time limit for filing charges with the Equal Employment Opportunity Commission was \u201cnot a jurisdictional prerequisite to suit in federal court, but a requirement that, like a statute of limitations, is subject to waiver, estoppel, and equitable tolling\u201d).\nIn administrative settings other than the one presented here, I believe the \u201cbackground principle\u201d that limitations periods \u201care customarily subject to equitable tolling,\u201d Young, 535 U. S., at 49-50 (internal quotation marks omitted), may limit an agency\u2019s discretion to make filing deadlines absolute. The Court quite properly observes that the question whether equitable tolling is available turns on congressional intent. See ante, at 159. \u201c[A] realistic assessment\u201d of that intent, Irwin, 498 U. S., at 95, may vary by context.\nIn this case, given the nature of the statutory scheme, which \u201capplies to \u2018sophisticated\u2019 institutional providers\u201d who are \u201crepeat players\u201d in the Medicare system, and the statute\u2019s history, I agree that it would distort congressional intent to presume that the PRRB\u2019s administrative deadline should be subject to equitable tolling. Ante, at 159-160 (quoting Your Home Visiting Nurse Services, Inc. v. Shalala, 525 U. S. 449, 456 (1999)). By contrast, with respect to remedial statutes designed to protect the rights of unsophisticated claimants, see ante, at 159-160, agencies (and reviewing courts) may best honor congressional intent by presuming that statutory deadlines for administrative appeals are subject to equitable tolling, just as courts presume comparable judicial deadlines under such statutes may be tolled. Because claimants must generally pursue administrative relief before seeking judicial review, see Woodford, v. Ngo, 548 U. S. 81, 88-91 (2006), a contrary approach could have odd practical consequences and would attribute a strange intent to Congress: to protect a claimant\u2019s ability to seek judicial review of an agency\u2019s decision by making equitable tolling available, while leaving to the agency\u2019s discretion whether the same claimant may invoke equitable tolling in order to seek an administrative remedy in the first place.\nEven in eases where the governing statute clearly delegates to an agency the discretion to adopt rules that limit the scope of equitable exceptions to administrative deadlines, I believe \u201ccases may arise where the equities in favor of tolling the limitations period are \u2018so great that deference to the agency\u2019s judgment is inappropriate.\u2019\u201d Bowen v. City of New York, 476 U. S. 467, 480 (1986) (quoting Mathews v. Eldridge, 424 U. S. 319, 330 (1976)). In particular, efforts by an agency to enforce tight filing deadlines in cases where there are credible allegations that filing delay was due to the agency\u2019s own misfeasance may not survive deferential review. While equitable tolling extends to circumstances outside both parties\u2019 control, the related doctrines of equitable estoppel and fraudulent concealment may bar a defendant from enforcing a statute of limitation when its own deception prevented a reasonably diligent plaintiff from bringing a timely claim. See United States v. Beggerly, 524 U. S. 38, 49-50 (1998) (Stevens, J., concurring) (noting that these doctrines are distinct); see generally 2 C. Corman, Limitation of Actions \u00a7\u00a79.1, 9.7 (1991) (describing the doctrines). In Bowen, we applied the basic principle underlying these doctrines to an agency\u2019s conduct, as we concluded that a 60-day deadline to seek judicial review of the administrative denial of disability benefits should be tolled because the Social Security Administration\u2019s \u201c\u2018secretive conduct prevented] plaintiffs from knowing of a violation of rights.\u2019\u201d 476 U. S., at 481 (quoting New York v. Heckler, 742 F. 2d 729, 738 (CA2 1984)).\nWhile the providers in this ease allege that the agency\u2019s failure to disclose information about how it calculated the Supplemental Security Income fraction prevented them from bringing timely challenges to reimbursement determinations, I am satisfied that the Secretary\u2019s 3-year good-cause exception is a reasonable accommodation of the competing interests in administrative efficiency and fairness. We would face a different case if the Secretary\u2019s regulation did not recognize an exception for good cause or defined good cause so narrowly as to exclude cases of fraudulent concealment and equitable estoppel. See ante, at 150, n. 2 (explaining that the Secretary\u2019s amended regulation limiting the scope of \u201c \u2018good cause,\u2019 \u201d 73 Fed. Reg. 30250 (2008) (codified in 42 CFR \u00a7 405.1836(b) (2012)), is not before us).\nWith these observations, I join the Court\u2019s opinion in full.",
+        "type": "concurrence",
+        "author": "Justice Sotomayor,"
+      }
+    ],
+    "attorneys": [
+      "Deputy Solicitor General Kneedler argued the cause for petitioner. With him on the briefs were Solicitor General Verrilli, Acting Assistant Attorney General Delery, Melissa Arbus Sherry, Mark B. Stern, Stephanie R. Marcus, William, B. Schultz, Kenneth Y Choe, Janice L. Hoffman, Lawrence J Harder, and Gerard Keating.",
+      "John F. Manning, by invitation of the Court, 567 U. S. 955, argued the cause as amicus curiae urging reversal. With him on the briefs was Kevin B. Huff.",
+      "Robert L. Roth argued the cause for respondents. With him on the brief were John R. Hellow, Patricia A. Millett, Ruthanne M. Deutsch, and Hyland Hunt."
+    ],
+    "corrections": "",
+    "head_matter": "SEBELIUS, SECRETARY OF HEALTH AND HUMAN SERVICES v. AUBURN REGIONAL MEDICAL CENTER et al.\nNo. 11-1231.\nArgued December 4, 2012\nDecided January 22, 2013\nGinsburg, J., delivered the opinion for .a unanimous Court. Soto-mayor, J., filed a concurring opinion, post, p. 161.\nDeputy Solicitor General Kneedler argued the cause for petitioner. With him on the briefs were Solicitor General Verrilli, Acting Assistant Attorney General Delery, Melissa Arbus Sherry, Mark B. Stern, Stephanie R. Marcus, William, B. Schultz, Kenneth Y Choe, Janice L. Hoffman, Lawrence J Harder, and Gerard Keating.\nJohn F. Manning, by invitation of the Court, 567 U. S. 955, argued the cause as amicus curiae urging reversal. With him on the briefs was Kevin B. Huff.\nRobert L. Roth argued the cause for respondents. With him on the brief were John R. Hellow, Patricia A. Millett, Ruthanne M. Deutsch, and Hyland Hunt.\nBriefs of amici curiae urging affirmance were filed for the American Hospital Association by Catherine E. Stetson and Dominic F. Perella-, for Quality Reimbursement Services, Inc., by Jeffrey A. Lovitky; and for Southwest Consulting Associates, LP, by John M. Faust.\nBriefs of amici curiae were filed for the Benjamin N. Cardozo School of Law Tax Clinic by Carlton M. Smith-, and for Scott Dodson by Mr. Dodson, pro se."
+  },
+  "file_name": "0145-01",
+  "first_page_order": 363,
+  "last_page_order": 382
+}

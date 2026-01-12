@@ -1,0 +1,59 @@
+{
+  "id": 6003915,
+  "name": "White v. Martel, Warden",
+  "name_abbreviation": "White v. Martel",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-161",
+  "first_page": "896",
+  "last_page": "896",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 896"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.547,
+    "sha256": "1bbebd68abc43856ab7252ba8376df5837ed6f4eb35332c80b33b058f0d7e11b",
+    "simhash": "1:dcd3c7406b0d60de",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "White v. Martel, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-161.\nWhite v. Martel, Warden."
+  },
+  "file_name": "0896-04",
+  "first_page_order": 918,
+  "last_page_order": 918
+}

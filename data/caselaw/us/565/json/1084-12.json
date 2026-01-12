@@ -1,0 +1,59 @@
+{
+  "id": 12237286,
+  "name": "Carr v. United States",
+  "name_abbreviation": "Carr v. United States",
+  "decision_date": "2011-12-05",
+  "docket_number": "No. 11-7104",
+  "first_page": "1084",
+  "last_page": "1084",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1084"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.683,
+    "sha256": "8893d407a2e2eed8af4a6cff1313a490de306a953b7fbb9138df450040a8c839",
+    "simhash": "1:04088a8b00c3c628",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Carr v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7104.\nCarr v. United States."
+  },
+  "file_name": "1084-12",
+  "first_page_order": 1166,
+  "last_page_order": 1166
+}

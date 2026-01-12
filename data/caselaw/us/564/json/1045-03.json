@@ -1,0 +1,59 @@
+{
+  "id": 5927242,
+  "name": "McDonald v. United States",
+  "name_abbreviation": "McDonald v. United States",
+  "decision_date": "2011-06-27",
+  "docket_number": "No. 10-10671",
+  "first_page": "1045",
+  "last_page": "1045",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1045"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.601,
+    "sha256": "64c8f614437d572be4bed2573e6393abe85be16dc1f20cc4897be2a8c685a3e2",
+    "simhash": "1:840abac20a3f001e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McDonald v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10671.\nMcDonald v. United States."
+  },
+  "file_name": "1045-03",
+  "first_page_order": 1039,
+  "last_page_order": 1039
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12252300,
+  "name": "Oke v. Ohio",
+  "name_abbreviation": "Oke v. Ohio",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. 11-8456",
+  "first_page": "1268",
+  "last_page": "1268",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1268"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 9,
+    "char_count": 60,
+    "ocr_confidence": 0.706,
+    "sha256": "991e1aa98b9d122da890c30c52e93c72d6c4ad980842e714eabac26d56c78204",
+    "simhash": "1:3a506675e6a98987",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Oke v. Ohio."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ohio. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8456.\nOke v. Ohio."
+  },
+  "file_name": "1268-13",
+  "first_page_order": 1350,
+  "last_page_order": 1350
+}

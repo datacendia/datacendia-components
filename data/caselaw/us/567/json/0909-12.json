@@ -1,0 +1,59 @@
+{
+  "id": 12408554,
+  "name": "Jamil v. McQuiggin, Warden",
+  "name_abbreviation": "Jamil v. McQuiggin",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. 11-9852",
+  "first_page": "909",
+  "last_page": "909",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 909"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.678,
+    "sha256": "b64c66ea9df305f8635176c9eb0e54dd14c044fe053607fc15429bc81b747baa",
+    "simhash": "1:b78b5ae9be1d8062",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jamil v. McQuiggin, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9852.\nJamil v. McQuiggin, Warden."
+  },
+  "file_name": "0909-12",
+  "first_page_order": 813,
+  "last_page_order": 813
+}

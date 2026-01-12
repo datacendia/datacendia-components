@@ -1,0 +1,59 @@
+{
+  "id": 12229418,
+  "name": "Arias v. Texas",
+  "name_abbreviation": "Arias v. Texas",
+  "decision_date": "2011-10-17",
+  "docket_number": "No. 11-5922",
+  "first_page": "967",
+  "last_page": "967",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 967"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.662,
+    "sha256": "70d79167ba51fade7cefdcfeb45321256952c8ebdb3da8148e0568debd898b9b",
+    "simhash": "1:ca809b23e649e452",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Arias v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Tex., 4th Dist. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5922.\nArias v. Texas."
+  },
+  "file_name": "0967-02",
+  "first_page_order": 1049,
+  "last_page_order": 1049
+}

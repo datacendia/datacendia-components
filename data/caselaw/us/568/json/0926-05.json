@@ -1,0 +1,59 @@
+{
+  "id": 12416947,
+  "name": "Bowie v. United States",
+  "name_abbreviation": "Bowie v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5898",
+  "first_page": "926",
+  "last_page": "926",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 926"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.649,
+    "sha256": "2c2340623c092e3231e62de3b569a69353eae8c23a65d383a7ca96c1e30dbb58",
+    "simhash": "1:02809a8b4ad1d418",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bowie v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5898.\nBowie v. United States."
+  },
+  "file_name": "0926-05",
+  "first_page_order": 1002,
+  "last_page_order": 1002
+}

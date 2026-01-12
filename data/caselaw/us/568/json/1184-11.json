@@ -1,0 +1,59 @@
+{
+  "id": 12431618,
+  "name": "Crews v. United States",
+  "name_abbreviation": "Crews v. United States",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-8196",
+  "first_page": "1184",
+  "last_page": "1184",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1184"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.664,
+    "sha256": "adf557bce86b48716776b0e87e84ed7646beb9efdf2b573c237dee99fc518c26",
+    "simhash": "1:97aa8a0344ad941a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Crews v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8196.\nCrews v. United States."
+  },
+  "file_name": "1184-11",
+  "first_page_order": 1260,
+  "last_page_order": 1260
+}

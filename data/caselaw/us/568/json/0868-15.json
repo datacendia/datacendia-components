@@ -1,0 +1,59 @@
+{
+  "id": 12414531,
+  "name": "Patterson v. Merit Systems Protection Board",
+  "name_abbreviation": "Patterson v. Merit Systems Protection Board",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10914",
+  "first_page": "868",
+  "last_page": "868",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 868"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 94,
+    "ocr_confidence": 0.696,
+    "sha256": "1645f054c0cf66aeed2a6cef27437576e04edd2199b59eede051da211e3dfd15",
+    "simhash": "1:8cc9c0445ecca4f6",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Patterson v. Merit Systems Protection Board."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. Fed. Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10914.\nPatterson v. Merit Systems Protection Board."
+  },
+  "file_name": "0868-15",
+  "first_page_order": 944,
+  "last_page_order": 944
+}

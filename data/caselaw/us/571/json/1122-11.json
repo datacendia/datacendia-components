@@ -1,0 +1,66 @@
+{
+  "id": 12700280,
+  "name": "Irving H. PICARD, petitioner, v. JPMORGAN CHASE & CO., et al.",
+  "name_abbreviation": "Picard v. Jpmorgan Chase & Co.",
+  "decision_date": "2014-01-13",
+  "docket_number": "No. 13\u2013448.",
+  "first_page": "1122",
+  "last_page": "1122",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 1122"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 771"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 982"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 42,
+    "char_count": 307,
+    "sha256": "3cc48a0710e2f3446645e8e955382921e02233ca9619fc17b7cdb1d322db3061",
+    "simhash": "1:3aa7168cfb865642",
+    "word_count": 53
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Irving H. PICARD, petitioner,\nv.\nJPMORGAN CHASE & CO., et al."
+    ],
+    "opinions": [
+      {
+        "text": "Justice ALITO took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": "Justice ALITO took no part in the consideration or decision of this petition."
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "Irving H. PICARD, petitioner,\nv.\nJPMORGAN CHASE & CO., et al.\nNo. 13-448.\nSupreme Court of the United States\nJan. 13, 2014.\nThe Solicitor General is invited to file a brief in this case expressing the views of the United States."
+  },
+  "file_name": "1122-11",
+  "first_page_order": 1122,
+  "last_page_order": 1122
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12418117,
+  "name": "James v. Cain, Warden",
+  "name_abbreviation": "James v. Cain",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-5525",
+  "first_page": "945",
+  "last_page": "945",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 945"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.702,
+    "sha256": "24f74074ae5b5a720b97590120c074326d4eb6a797c0f09b203f6dc41c5e16e1",
+    "simhash": "1:810ad9129940826e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "James v. Cain, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5525.\nJames v. Cain, Warden."
+  },
+  "file_name": "0945-12",
+  "first_page_order": 1021,
+  "last_page_order": 1021
+}

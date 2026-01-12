@@ -1,0 +1,59 @@
+{
+  "id": 12414702,
+  "name": "Miranda v. Anchondo et al.",
+  "name_abbreviation": "Miranda v. Anchondo",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-11045",
+  "first_page": "876",
+  "last_page": "876",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 876"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 75,
+    "ocr_confidence": 0.678,
+    "sha256": "3eeb2016f6544cea94cd4d7e8805c5558d5bf7e9d41698e40ebc388c2d32cea8",
+    "simhash": "1:50c024a16b968066",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Miranda v. Anchondo et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-11045.\nMiranda v. Anchondo et al."
+  },
+  "file_name": "0876-04",
+  "first_page_order": 952,
+  "last_page_order": 952
+}

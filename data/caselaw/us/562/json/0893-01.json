@@ -1,0 +1,59 @@
+{
+  "id": 5934813,
+  "name": "Valencia v. United States",
+  "name_abbreviation": "Valencia v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-78",
+  "first_page": "893",
+  "last_page": "893",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 893"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.622,
+    "sha256": "6ad30a05181fb4ce4fa4875389978c03d19af440d9a8776eab21def0009b4238",
+    "simhash": "1:85aad7820a18946f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Valencia v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-78.\nValencia v. United States."
+  },
+  "file_name": "0893-01",
+  "first_page_order": 915,
+  "last_page_order": 915
+}

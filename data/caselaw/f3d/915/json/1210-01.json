@@ -1,0 +1,262 @@
+{
+  "id": 12520014,
+  "name": "Melissa MAHER, Plaintiff - Appellant v. IOWA STATE UNIVERSITY, Defendant - Appellee",
+  "name_abbreviation": "Maher v. Iowa State Univ.",
+  "decision_date": "2019-02-15",
+  "docket_number": "No. 18-1559",
+  "first_page": "1210",
+  "last_page": "1213",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "915 F.3d 1210"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "8th Cir.",
+    "id": 8821,
+    "name": "United States Court of Appeals for the Eighth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "Iowa Code Ann. \u00a7 614.1",
+      "category": "laws:leg_statute",
+      "reporter": "Iowa Code Ann.",
+      "pin_cites": [
+        {
+          "page": "(2)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "650 F.3d 1198",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5874743
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1205"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/650/1198-01"
+      ]
+    },
+    {
+      "cite": "550 U.S. 372",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3555943
+      ],
+      "weight": 3,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "378"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/550/0372-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 636",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "840 F.3d 523",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12174332
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "535",
+          "parenthetical": "explaining that when conduct \"that leads to an adverse academic decision is of a disciplinary nature, due process may require ... procedural protections.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/840/0523-01"
+      ]
+    },
+    {
+      "cite": "341 F.3d 745",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9100046
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "751"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/341/0745-01"
+      ]
+    },
+    {
+      "cite": "880 F.3d 998",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12266437
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1007",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/880/0998-01"
+      ]
+    },
+    {
+      "cite": "526 U.S. 629",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11133593
+      ],
+      "weight": 9,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "648"
+        },
+        {
+          "page": "648"
+        },
+        {
+          "page": "649"
+        },
+        {
+          "page": "648"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/526/0629-01"
+      ]
+    },
+    {
+      "cite": "865 F.3d 1054",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275761
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1057"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/865/1054-01"
+      ]
+    },
+    {
+      "cite": "679 F.3d 1062",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3876593
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "1065"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/679/1062-01"
+      ]
+    },
+    {
+      "cite": "20 U.S.C. \u00a7 1681",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 500,
+    "char_count": 7902,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.259182871279368
+    },
+    "sha256": "b51ac38a2bbdd9b7ac1fb693f4ac38386c25d49f27fc894ef40425074d248809",
+    "simhash": "1:387bf4349a0c4686",
+    "word_count": 1254
+  },
+  "last_updated": "2024-02-27T18:46:27.774001+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before GRUENDER, WOLLMAN, and SHEPHERD, Circuit Judges."
+    ],
+    "parties": [
+      "Melissa MAHER, Plaintiff - Appellant\nv.\nIOWA STATE UNIVERSITY, Defendant - Appellee"
+    ],
+    "opinions": [
+      {
+        "text": "GRUENDER, Circuit Judge.\nMelissa Maher appeals the district court's grant of Iowa State University's (\"ISU\") motion for summary judgment. She argues that her action is not barred by the applicable statute of limitations and that ISU was deliberately indifferent. We affirm.\nPatrick Whetstone sexually assaulted Maher in March 2014. Both Maher and Whetstone were ISU students at the time. Maher reported the assault to ISU, and ISU began an investigation after Maher identified her assailant in May 2014. ISU subsequently issued a no-contact order that prohibited Whetstone from interacting with Maher.\nWhen Maher returned to ISU in the late summer of 2014, she discovered that Whetstone lived in a building close to her own. Maher, her parents, and her roommate met with ISU administration to discuss a housing change on August 20, 2014. At that meeting, ISU explained that it could not move Whetstone until the investigation and hearing process concluded. ISU presented at least two alternative housing arrangements for Maher. She declined both. On September 19, 2014, ISU's investigative report concluded that Whetstone sexually assaulted Maher. Maher withdrew from ISU shortly after. On July 22, 2015, an administrative judge found that Whetstone was responsible for violating ISU's Code of Conduct and expelled him.\nMaher filed a Title IX action against ISU on September 9, 2016. 20 U.S.C. \u00a7 1681(a). She argued that she was \"excluded from participation in and denied the benefits of the educational programs at ISU as a result of ISU's response to the sexual assault.\" ISU filed a motion for summary judgment, which the district court granted. The district court concluded that Maher's claim was time barred by Iowa's two-year statute of limitations because it accrued on August 20, 2014, the day ISU administration met with Maher, her parents, and her roommate to discuss the housing situation. The district court also held that Maher had not raised a material question of fact as to whether ISU was deliberately indifferent and that she had not \"demonstrated a genuine issue of material fact as to whether ISU engaged in severe, pervasive, and objectively offensive discrimination against Maher because of her sex.\" Maher appeals, arguing that her action was not time barred and that there is a genuine dispute as to a material fact-whether ISU was deliberately indifferent.\n\"We review a district court's grant of summary judgment de novo, viewing the evidence in the light most favorable to the nonmoving party.\" Ridenour v. Boehringer Ingelheim Pharm., Inc. , 679 F.3d 1062, 1065 (8th Cir. 2012). \"[A] court shall grant summary judgment if the movant shows that there is no genuine dispute as to any material fact and the movant is entitled to judgment as a matter of law.\" Fed. R. Civ. P. 56(a).\nWe assume, without deciding, that Maher's claim survives Iowa's statute of limitations. Thus, we consider Maher's Title IX claim on the merits. Title IX requires that \"[n]o person in the United States shall, on the basis of sex, be excluded from participation in, be denied the benefits of, or be subjected to discrimination under any education program or activity receiving Federal financial assistance.\" 20 U.S.C. \u00a7 1681(a). Maher's Title IX claim must demonstrate that ISU was \"(1) deliberately indifferent (2) to known acts of discrimination (3) which occurr[ed] under its control.\" K.T. v. Culver-Stockton College , 865 F.3d 1054, 1057 (8th Cir. 2017). We conclude that there is no genuine dispute as to whether ISU was deliberately indifferent.\nMaher argues that \"[i]t wasn't until [ISU] refused to move the man it admitted raped Maher and offered no comparable housing that .... [ISU] was deliberately indifferent to Maher.\" In other words, Maher argues that ISU's handling of the housing situation became deliberately indifferent only after ISU's investigative report concluded that Whetstone sexually assaulted Maher. A school is deliberately indifferent when its \"response to the harassment or lack thereof is clearly unreasonable in light of the known circumstances.\" Davis Next Friend LaShonda D. v. Monroe Cty. Bd. of Educ. , 526 U.S. 629, 648, 119 S.Ct. 1661, 143 L.Ed.2d 839 (1999). \"This clearly unreasonable standard is intended to afford flexibility to school administrators.\" Estate of Barnwell by and through Barnwell v. Watson , 880 F.3d 998, 1007 (8th Cir. 2018) (internal quotation marks omitted). \"[V]ictims of peer harassment\" do not \"have a Title IX right to make particular remedial demands.\" Davis , 526 U.S. at 648, 119 S.Ct. 1661.\nBefore the conclusion of ISU's investigative report, ISU had offered Maher at least two reasonable housing alternatives that would have resolved Maher's objection to the housing situation: a converted housing den or a room at the Memorial Union Hotel. But Maher declined both of those options, and dissatisfaction with the school's response does not mean the school's response can be characterized as deliberate indifference. See Ostrander v. Duggan , 341 F.3d 745, 751 (8th Cir. 2003). After ISU's investigative report concluded that Whetstone sexually assaulted Maher, there was no reason for ISU to think that Maher's dissatisfaction with its proposed housing alternatives would have changed.\nAnd while Maher's preference was that ISU move Whetstone, it was not deliberately indifferent for ISU to wait to take such action until the hearing process concluded because ISU was respecting Whetstone's procedural due process rights. See Keefe v. Adams , 840 F.3d 523, 535 (8th Cir. 2016) (explaining that when conduct \"that leads to an adverse academic decision is of a disciplinary nature, due process may require ... procedural protections.\"); Davis , 526 U.S. at 649, 119 S.Ct. 1661 (\"[I]t would be entirely reasonable for a school to refrain from a form of disciplinary action that would expose it to constitutional or statutory claims.\"). Further, ISU instituted a no-contact order between Whetstone and Maher in May 2014, and there is no evidence that it was violated. Thus, there is no genuine dispute that ISU was deliberately indifferent after its investigative report concluded that Whetstone sexually assaulted Maher because ISU was not clearly unreasonable in light of the known circumstances. See id. at 648, 119 S.Ct. 1661. The district court properly granted ISU's motion for summary judgment.\nFor the foregoing reasons, we affirm.\nThe Honorable Helen C. Adams, Chief Magistrate Judge, United States District Court for the Southern District of Iowa, to whom the case was referred by consent of the parties pursuant to 28 U.S.C. \u00a7 636(c).\nISU claims it presented three options to Maher, including a room reserved for emergency situations. But Maher claims that \"[t]he facts establish that [ISU] generally maintains a small number of beds for emergency situations, but not that any were available for Maher or that one was offered to Maher.\" On a motion for summary judgment, we construe the record in the light most favorable to Maher. See Scott v. Harris , 550 U.S. 372, 378, 127 S.Ct. 1769, 167 L.Ed.2d 686 (2007).\nTitle IX does not include a statute of limitations. Instead, Title IX claims are \"governed by the state's personal injury statute of limitations.\" Walker v. Barrett , 650 F.3d 1198, 1205 (8th Cir. 2011). Iowa's personal injury statute of limitations is two years. Iowa Code Ann. \u00a7 614.1(2).",
+        "type": "majority",
+        "author": "GRUENDER, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Andrew J. Zbaracki, NEWBROUGH LAW FIRM, Ames, IA, for Plaintiff - Appellant.",
+      "Hayley Elizabeth Hanson, Michael T. Raupp, Derek T. Teeter, HUSCH & BLACKWELL, Kansas City, MO, Natasha N. Wilson, ATTORNEY GENERAL'S OFFICE, Des Moines, IA, for Defendant - Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "Melissa MAHER, Plaintiff - Appellant\nv.\nIOWA STATE UNIVERSITY, Defendant - Appellee\nNo. 18-1559\nUnited States Court of Appeals, Eighth Circuit.\nSubmitted: January 15, 2019\nFiled: February 15, 2019\nAndrew J. Zbaracki, NEWBROUGH LAW FIRM, Ames, IA, for Plaintiff - Appellant.\nHayley Elizabeth Hanson, Michael T. Raupp, Derek T. Teeter, HUSCH & BLACKWELL, Kansas City, MO, Natasha N. Wilson, ATTORNEY GENERAL'S OFFICE, Des Moines, IA, for Defendant - Appellee.\nBefore GRUENDER, WOLLMAN, and SHEPHERD, Circuit Judges."
+  },
+  "file_name": "1210-01",
+  "first_page_order": 1210,
+  "last_page_order": 1213
+}

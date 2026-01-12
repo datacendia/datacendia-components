@@ -1,0 +1,414 @@
+{
+  "id": 2310133,
+  "name": "Velma J. Erisman v. Guy A. Thompson, Trustee for International-Great Northern Railroad Company",
+  "name_abbreviation": "Erisman v. Thompson",
+  "decision_date": "1943-01-06",
+  "docket_number": "No. 7950",
+  "first_page": "361",
+  "last_page": "369",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "140 Tex. 361"
+    },
+    {
+      "type": "parallel",
+      "cite": "167 S.W.2d 731"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "47 S. W. 974",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "92 Texas 288",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2237422
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/92/0288-01"
+      ]
+    },
+    {
+      "cite": "32 S. W. 517",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "88 Texas 607",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2245543
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/88/0607-01"
+      ]
+    },
+    {
+      "cite": "96 S. W. 1073",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "100 Texas 136",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2265313
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/100/0136-01"
+      ]
+    },
+    {
+      "cite": "156 S. W. (2d) 513",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10219728,
+        2314975
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/156/0513-01",
+        "/tex/137/0628-01"
+      ]
+    },
+    {
+      "cite": "137 Texas 628",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2314975
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/137/0628-01"
+      ]
+    },
+    {
+      "cite": "135 S. W. (2d) 79",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10229089,
+        2319551
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/135/0079-01",
+        "/tex/134/0360-01"
+      ]
+    },
+    {
+      "cite": "134 Texas 360",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2319551
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/134/0360-01"
+      ]
+    },
+    {
+      "cite": "293 S. W. 811",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10308567
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw/293/0811-01"
+      ]
+    },
+    {
+      "cite": "6 S. W. (2d) 111",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10285497
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/6/0111-01"
+      ]
+    },
+    {
+      "cite": "29 S. W. (2d) 989",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10286854
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/29/0989-01"
+      ]
+    },
+    {
+      "cite": "279 S. W. 808",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10312094
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/279/0808-01"
+      ]
+    },
+    {
+      "cite": "154 S. W. (2d) 625",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2314965,
+        10222230
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/137/0493-01",
+        "/sw2d/154/0625-01"
+      ]
+    },
+    {
+      "cite": "137 Texas 493",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2314965
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/137/0493-01"
+      ]
+    },
+    {
+      "cite": "240 S. W. 517",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        2284653,
+        10315829
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/111/0461-01",
+        "/sw/240/0517-01"
+      ]
+    },
+    {
+      "cite": "111 Texas 461",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2284653
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/111/0461-01"
+      ]
+    },
+    {
+      "cite": "46 S. W. 28",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "pin_cites": [
+        {
+          "page": "29"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "92 Texas 98",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2237550
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/92/0098-01"
+      ]
+    },
+    {
+      "cite": "29 S. W. 756",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "88 Texas 44",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2245540
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/88/0044-01"
+      ]
+    },
+    {
+      "cite": "249 S. W. 822",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        12078404,
+        2283269
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/249/0822-01",
+        "/tex/112/0544-01"
+      ]
+    },
+    {
+      "cite": "112 Texas 544",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2283269
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/112/0544-01"
+      ]
+    },
+    {
+      "cite": "61 Texas 296",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2169045
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/61/0296-01"
+      ]
+    },
+    {
+      "cite": "24 S. W. 92",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "89 Texas 233",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2243176
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/89/0233-01"
+      ]
+    },
+    {
+      "cite": "157 S. W. (2d) 439",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10218895
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/157/0439-01"
+      ]
+    },
+    {
+      "cite": "35 S. W. 1058",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "pin_cites": [
+        {
+          "page": "1059"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "89 Texas 635",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2243263
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/89/0635-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 727,
+    "char_count": 17700,
+    "ocr_confidence": 0.582,
+    "pagerank": {
+      "raw": 3.513227829488249e-07,
+      "percentile": 0.8834088396659419
+    },
+    "sha256": "a790ed26ef064544ad8bc93458dc7cf2ede6b6b259760e648834c2472cfbfb15",
+    "simhash": "1:38e8b582a49675fa",
+    "word_count": 3114
+  },
+  "last_updated": "2024-02-27T22:16:15.949603+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Velma J. Erisman v. Guy A. Thompson, Trustee for International-Great Northern Railroad Company."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Critz\ndelivered the opinion of the Court.\nThis is a personal injury suit. It was filed in the District Court of Brazos County, Texas, by Miss Velma' J. Erisman against Guy A Thompson, in his official capacity as Trustee for International-Great Northern Railroad Company. Trial in the district court, with the aid of a jury, resulted in a verdict and judgment for Miss Erisman in the sum of $12,000.00. This judgment was reversed and this cause remanded for a new trial by the Court of Civil Appeals. 157 S. W. (2d) 439. Miss Erisman brings error. We shall hereinafter refer to Miss Erisman as plaintiff,. and to Guy A. Thompson, Trustee, as defendant.\nBy her petition in the district court plaintiff alleged that she was driving an automobile along a public paved road in the daytime; that such road ran alongside the right of way of the defendant; that a wind was blowing in a direction from the railroad right of way toward and across the public road on which plaintiff was travelling; that the defendant had permitted its right of way to grow up in vegetation, such as weeds and grasses; that just before plaintiff was injured the servants, agents and employees of defendant set fire to the vegetation growing upon its right of way; that such vegetation was dry, and when set on fire made a very large fire; that a very dense smoke emanated from such fire; that such smoke was driven by the wind into, over, and across the public road along which plaintiff was driving; that such smoke was so dense that it made it impossible for the plaintiff to see cars approaching her from the opposite direction; that such smoke was so dense that the drivers of approaching cars could not see the plaintiff\u2019s' car; that while plaintiff was driving on such road, under the circumstances above detailed, her car collided with a car travelling in the opposite direction, driven by one D. R. Vaughn; and that as a result of such collision plaintiff was very seriously injured.\nAs to the negligence of the defendant, the plaintiff\u2019s petition alleges that the defendant was guilty of negligence, which proximately caused her injuries, by its servants and employees \u201coperating said train at a low rate of speed and bringing said train to a stop at frequent intervals, and intentionally ignited and set fire to the said vegetation growing on said right of way at many different points within said right of way and along said railroad; that said vegetation was so ignited, and set fire by the said agents, employees and servants of the defendant in the due course of their business and employment and for the purpose of ridding the said right of way of said vegetation. That the said vegetation on said right of wiay was set afire and ignited at some places by the said agents, employees and servants of the defendant throwing burning substances from said train and at other places by disembarking from said train and igniting such dry vegetation with, matches or other instmumentalities. That the fires so set and started by such agents, servants and employees of the defendant quickly spread so as to consume and did consume the said dry and tinderlike vegetation, * * .\u201d (Emphasis ours.)\nBoiled down, the above-quoted portion of the plaintiff\u2019s petition alleges that the vegetation on the defendant\u2019s right of way was \u201cintentionally\u201d set afire in two ways: (a) by the servants, agents and employees of defendant throwing burning substances from the train into such vegetation, and (b) by such servants, agents and employees disembarking from the train and igniting such vegetation with burning matches or other instrumentalities.\nWe refer to the opinion of the Court of Civil Appeals for a very full and fair statement of the evidence offered at the trial, bearing on the question as to when and how the vegetation on defendant\u2019s right of way was set afire. It is sufficient, for the purpose of this opinion, to state that the plaintiff\u2019s evidence tended to show that the servants, agents and employees of the defendant set afire the vegetation in question in each of the two ways set out and specifically pleaded by the plaintiff.\nThe only issue submitted to the jury pertaining to the way the vegetation on defendant\u2019s right of way was set afire is contained in Special Issue No. 6 of the court\u2019s charge. Such issue reads as follows:\n\u201cDo you find from a preponderance of the evidence that the agents, servants and employees of the defendant, on December 6, 1938, set afire the vegetation growing on the right of way of the defendant at and near the scene of the collision at the time and place in question?\u201d\nThe jury answered the above issue, \u201cYes.\u201d Also, the jury found that the setting afire of the vegetation on defendant\u2019s right of way was negligence, and was the proximate cause of the plaintiff\u2019s injuries.\nDefendant duly and seasonably excepted to Special Issue No. 6 on various grounds. We shall not attempt to set out or state all of such grounds. It is sufficient to say that this issue was excepted to on the ground that it eliminated the question of an intentional setting of the fire, and combined into one special issue a question of fact that defendant was entitled to have divided two issues, one calling for a fact finding as to whether its agents, servants and employees set fire to the vegetation on its right of way, by throwing burning substances from the train therein, and one calling for a fact finding as to whether its agents, servants and employees set fire to such vegetation by disembarking from the train and igniting it with matches or other instrumentalities. Defendant further excepted to Special Issue No. 6 on the ground that it did not confine the jury in answering the same to the pleadings and proof regarding the way and manner the vegetation on defendant\u2019s right of way .was set on fire, but permitted the jury to go outside the pleadings and proof and speculate as to how such vegetation was set on fire. The opinion of the Court of Civil Appeals holds that Special Issue No. 6 was defective in the particulars indicated by the above-stated exceptions. Plaintiff assigns such rulings as error in this Court. At this point we pause to note that this case was tried before the effective date of our new Texas Rules of Civil Procedure. We merely mention this fact to show that the decision of the question of law here involved must be determined by the provisions of Article 2189 and 2190, R. C. S. 1925.\nUnder Article 2189 it is provided that the trial court \u201cshall submit the case upon special issues raised by the pleadings and the evidence in the case. Such special issues shall be submitted distinctly and separately. Each issue shall be answered separately.\u201d Under Article 2190 it is provided that the trial court, when he submits a case on special issues, \u201cshall submit all the issues made by the pleadings and the evidence.\u201d Both articles restrict the issues to be submitted to those raised by the pleadings and the evidence. The conjunctive conjunction \u201cand\u201d is used. An issue raised by the pleadings alone cannot be submitted, and likewise an issue raised by the evidence alone cannot be submitted. Under the plain language of the two- statutes, before an issue can be submitted at all it must be raised by both \u201cthe pleadings and the evidence.\u201d\nIndependent of the above statutes, pleadings determine the issues upon which parties go to trial, and it is not even proper to admit evidence unless it is addressed to or bears upon some issue raised by the pleadings. Jordan v. Meyers, 89 Texas 233, 24 S. W. 92; American Legion of Honor v. Anderson, 61 Texas 296. The rule further is that allegations of the pleadings and the evidence offered thereunder must conform to each other. Golden v. Odiorne, 112 Texas 544, 249 S. W. 822. In determining issues presented by a pleading, we must look thereon from the standpoint of the party against whom they are exhibited. The purpose of the pleading is to put such party on notice of the character of evidence that he will be called upon to meet. Ware v. Shafer, 88 Texas 44, 29 S. W. 756; San Antonio & A. P. Ry. Co. v. Morgan, 92 Texas 98, 46 S. W. 28, 29.\nUnder the above rules of law the plaintiff\u2019s petition defined the cause of action this defendant was called upon to meet. Defendant had the legal right to expect the allegations of the petition and the evidence offered thereunder to coincide. Under the plain language of Articles 2189 and 2190, supra, the defendant .had the right to have the issues submitted to the jury so framed as to coincide not only with the evidence, and not only with the pleadings, but with both the pleadings and the evidence. In submitting a negligence case, the special issues should be restricted to the specific acts of negligence defined by the pleadings and supported by the evidence. Fox v. Dallas Hotel Co., 111 Texas 461, 240 S. W. 517; Walgreen-Texas Co. v. Shivers, 137 Texas 493, 154 S. W. (2d) 625; St. Louis, S. F. & T. Ry. Co. v. Wilson (Com. App., opinion approved), 279 S. W. 808; Simmonds v. St. Louis, B. & M. Ry. Co. (Com. App., opinion approved), 29 S. W. (2d) 989; Kansas City, M. & O. Ry. Co. v. Perry (Com. App.), 6 S. W. (2d) 111.\nAs defined by the plaintiff\u2019s petition in this case, the defendant was called upon to defend an action wherein it was alleged in plaintiff\u2019s petition that its servants, agents and employees \u201cintentionally\u201d set afire the vegetation on its right of way. Furthermore, such petition specifically pleaded how such servants, agents and employees accompanied the act of setting such vegetation afire. This was the cause of action the defendant was called upon to meet. Plaintiff was bound by her pleadings. The defendant had the right to have Special Issue No. 6 so framed as to submit the question only of an \u201cintentional\u201d setting of the fire. Furthermore, the defendant had the right to have such issue so framed as to submit the question of the setting of such fire to the way and manner pleaded by the plaintiff.\nWe agree with the rulings of the Court of Civil Appeals on the other law questions presented in the application for writ of error. No good purpose would be served by further discussion of such questions.\nThe judgment of the Court of Civil Appeals is affirmed.\nOpinion delivered January 6, 1943.\nRehearing overruled February 10, 1943.",
+        "type": "majority",
+        "author": "Mr. Justice Critz"
+      },
+      {
+        "text": "Mr. Chief Justice Alexander\ndissenting.\nI am not in accord with the holding in the majority opinion.\nAs stated in the majority opinion, the plaintiff alleged that the defendant\u2019s agent intentionally set fire to the grass on its right of way, causing smoke to envelope her so that she could not see her way, \u2014 thus resulting in the collision in which she was injured. In my opinion the court by Special Issue' No. 6 properly submitted to the jury the question as to whether defendant\u2019s agents set the vegetation on fire. Said issue, as submitted, was as follows:\n\u201cDo you find from a preponderance of the evidence that the agents, servants and employees of the defendant, on December 6, 1938, set afire the vegetation growing on the right of way of the defendant at and near the scene of the collision at the time and place in question. ?\u201d\nTo which the jury answered \u201cYes.\u201d\nIt is true that plaintiff alleged that the fire was set out by defendant\u2019s agents, at some places by throwing burning substances from the train, and at others by disembarking from the train and igniting the vegetation with matches or other instrumntalities; but the controlling question was whether the defendant\u2019s agents had negligently set out the fire which caused the damage, and not whether the fire had been applied directly to the vegetation by the hands of defendant\u2019s agents, or had been thrown by such agents from a moving train. There was no evidence that the grass was set on fire in any other manner than by the employees either throwing burning substances into the grass or by applying the fire directly to the grass by hand. There was no material difference between these two methods of setting out the fire. Liability of the Railroad Company for the consequences would arise under the same circumstances, regardless of which method was used: There was therefore but a single act of negligence \u2014 the setting of the grass on fire by defendant\u2019s employees \u2014 and there was 'no need to submit but a single issue to the jury.\nIt may be argued that some of the jurors might have believed that the fire was set out by throwing substances from the train, while others believed that the agents disembarked from the train and set out the fire by matches or other instrumentalities; and, if so, the jury would have answered the issue as submitted in the affirmative, even though there was not unanimity of opinion among all twelve of the jurors as to how the fire was set out. This may be true, but it must be remembered that the information which was needed by the court in order to write a judgment was not how the fire was set out, but whether defendant\u2019s agents set out the fire. That was all that was important. It is sufficient if they agree on the happening of the ultimate or controlling event. It would be too much to expect that all twelve jurors should be brought to agreement upon all the subordinate fact-theories which may condition liability. This would be carrying the matter of unanimous verdict too far. Such a result was not attained under the old general charge, and we should not require it under the special issue system.\nThis case is easily distinguishable from the case of Dallas Hotel Co. v. Fox, cited in the main opinion. In that case there were allegations of a number of separate acts of contributory negligence, such as failing to lock the elevator, crawling partly under the elevator, and the like. The court did not separately submit the various acts of contributory negligence, but bundled them all up and submitted them in a single question, as follows:\n\u201cWas Alexander Fox guilty of contributory negligence in his conduct in, around, or about the said elevator or the shaft thereof prior to or at the time he was injured ?\u201d\nIn the case at bar, only one act of negligence was alleged\u2014 setting the grass on fire. It was not necessary for the court to separately submit to the jury the issue as to how the grass was set afire \u2014 whether by applying a match directly to the grass or by tossing a firebrand into it.\nIn Walgreen-Texas Co. v. Shivers, cited in the main opinion, the trial court wholly failed to submit to the jury the issue as to whether plaintiff was negligent in backing off the platform from which she fell. There was no attempt to submit that issue in any manner. Consequently the facts of that case do not present a case where there was an alleged failure to split an issue into two or more questions.\nThe case of St. Louis, S. F. & T. Ry. Co. v. Wilson, cited in the main opinion, was a case in which the judgment was reversed because the court split the issue into two questions instead of combining all of the elements in a single issue.\nThe case of Simmons v. St. Louis, B. & M. Ry. Co., cited in the main opinion, was a case of misconduct of the jury in answering some of the issues in a given way to accomplish a given result.\nThe case of Kansas City, M. & O. Ry. Co. v. Perry, cited in the main opinion, was a case in which the court refused to \u2022 separately submit the issue as to whether a truck driver killed at a crossing was negligent in failing to discover the presence of the train, or in failing to avoid collision after discovering it.\nNone of the cases above discussed had under consideration the question now before us.\nLong ago this Court recognized the danger incident to unduly splitting up the issues and separately submitting each circumstance introduced in support of a cause of action. In the case of Missouri, K. & T. Co. v. McGlamory, 89 Texas 635, 35 S. W. 1058, 1059, it was said:\n\u201cThis rule does not permit a litigant to annoy the court or confuse the jury by special charges upon the weight of, or giving prominence to each circumstance introduced tending to support his cause of action or defense, but requires him at his peril to present in such special charge for the consideration of the jury a fact or group of facts which, if found by them from the evidence to be true, establishes in law some material issue presented by the pleading.\u201d\nIn my opinion the rule which requires issues to be separately submitted must be applied more tolerantly, if the special issue system, with all its beneficial features, is to survive.\nOpinion delivered January 6, 1943.",
+        "type": "dissent",
+        "author": "Mr. Chief Justice Alexander"
+      }
+    ],
+    "attorneys": [
+      "Stewart & Barron and W. S. Barron, of Bryan, Collins, Williams & Garrison, of Lufkin, for petitioner.",
+      "Andrews, Kelley, Kwrth & Campbell, F. L. Henderson, Ben G. Sewell, J. Toll Undenvood, and Sewell, Taylor, Morris & Connally, all of Houston, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "Velma J. Erisman v. Guy A. Thompson, Trustee for International-Great Northern Railroad Company.\nNo. 7950.\nDecided January 6, 1943.\nRehearing overruled February 10, 1943.\n(167 S. W., 2d Series, 731.)\nStewart & Barron and W. S. Barron, of Bryan, Collins, Williams & Garrison, of Lufkin, for petitioner.\nOn the question of the submission of the special issue relating to act of setting fire to the vegetation by the railroad company\u2019s employees. Hudson v. St. Louis S. W. Ry. Co., 293 S. W. 811; Wichita Falls & So. Ry. Co. v. Pepper, 134 Texas 360, 135 S. W. (2d) 79; Scott v. Gardner, 137 Texas 628, 156 S. W. (2d) 513.\nAndrews, Kelley, Kwrth & Campbell, F. L. Henderson, Ben G. Sewell, J. Toll Undenvood, and Sewell, Taylor, Morris & Connally, all of Houston, for respondent.\nThe court erred in submitting to the jury special issue as to how the fire was set to the vegetation in its failure to specify the particular manner in which the fire was set. Galveston, H. & S. A. Ry. Co. v. Currie, 100 Texas 136, 96 S. W. 1073; International & G. N. R. R. Co. v. Cooper, 88 Texas 607, 32 S. W. 517; Branch v. International & G. N. R. Co., 92 Texas 288, 47 S. W. 974."
+  },
+  "file_name": "0361-01",
+  "first_page_order": 385,
+  "last_page_order": 393
+}

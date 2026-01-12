@@ -1,0 +1,59 @@
+{
+  "id": 12239496,
+  "name": "Taylor v. United States",
+  "name_abbreviation": "Taylor v. United States",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-5819",
+  "first_page": "1116",
+  "last_page": "1116",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1116"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.705,
+    "sha256": "4a18d229a2e4192625d6cc2d5265f3e7545ac369ec78e397a390e0e030218624",
+    "simhash": "1:008aaa4b4a95001a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Taylor v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5819.\nTaylor v. United States."
+  },
+  "file_name": "1116-04",
+  "first_page_order": 1198,
+  "last_page_order": 1198
+}

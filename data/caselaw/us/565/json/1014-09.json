@@ -1,0 +1,59 @@
+{
+  "id": 12232339,
+  "name": "Zangara v. Somerset Medical Center",
+  "name_abbreviation": "Zangara v. Somerset Medical Center",
+  "decision_date": "2011-11-07",
+  "docket_number": "No. 11-307",
+  "first_page": "1014",
+  "last_page": "1014",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1014"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 82,
+    "ocr_confidence": 0.651,
+    "sha256": "b9b01680ed4325fe04aebde4428266e2410ea706ccd8ce6fc999dcdc97c22bdb",
+    "simhash": "1:2c4d456d20589706",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Zangara v. Somerset Medical Center."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. N. J. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-307.\nZangara v. Somerset Medical Center."
+  },
+  "file_name": "1014-09",
+  "first_page_order": 1096,
+  "last_page_order": 1096
+}

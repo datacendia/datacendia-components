@@ -1,0 +1,59 @@
+{
+  "id": 12208355,
+  "name": "Shabazz v. Williams, Warden",
+  "name_abbreviation": "Shabazz v. Williams",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10961",
+  "first_page": "859",
+  "last_page": "859",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 859"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 78,
+    "ocr_confidence": 0.703,
+    "sha256": "753766bb6332f31706634edf213fc0be8fbe1cfd23fc5018a4d98b0c8dff809c",
+    "simhash": "1:1d5a4f3395ebb45a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Shabazz v. Williams, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10961.\nShabazz v. Williams, Warden."
+  },
+  "file_name": "0859-08",
+  "first_page_order": 941,
+  "last_page_order": 941
+}

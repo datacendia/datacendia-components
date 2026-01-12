@@ -1,0 +1,59 @@
+{
+  "id": 5979016,
+  "name": "Boyce v. United States",
+  "name_abbreviation": "Boyce v. United States",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 10-5926",
+  "first_page": "1066",
+  "last_page": "1066",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1066"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.657,
+    "sha256": "62323e99b4e5f85dfc65ccc067404fda8174bf9254b8e20568d5c2ec141ee688",
+    "simhash": "1:b48aca53ce8db93d",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Boyce v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5926.\nBoyce v. United States."
+  },
+  "file_name": "1066-10",
+  "first_page_order": 1088,
+  "last_page_order": 1088
+}

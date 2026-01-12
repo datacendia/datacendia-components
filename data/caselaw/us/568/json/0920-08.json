@@ -1,0 +1,59 @@
+{
+  "id": 12416469,
+  "name": "Martinez v. Pennsylvania",
+  "name_abbreviation": "Martinez v. Pennsylvania",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5653",
+  "first_page": "920",
+  "last_page": "920",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 920"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 73,
+    "ocr_confidence": 0.683,
+    "sha256": "282f4551f812d1019832eea03d5588321fb84fe2c017f1e2a88c88e473337c0e",
+    "simhash": "1:4a6cacd8b3e8d9f4",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Martinez v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Pa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5653.\nMartinez v. Pennsylvania."
+  },
+  "file_name": "0920-08",
+  "first_page_order": 996,
+  "last_page_order": 996
+}

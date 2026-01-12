@@ -1,0 +1,59 @@
+{
+  "id": 12428192,
+  "name": "Williams v. Alabama et al.",
+  "name_abbreviation": "Williams v. Alabama",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-6683",
+  "first_page": "1095",
+  "last_page": "1095",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1095"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 75,
+    "ocr_confidence": 0.61,
+    "sha256": "aa5c21e6151d58726c687a3a1e5cd4bb7539b7955f13caf7c4a218498705e355",
+    "simhash": "1:1a680222630c90b0",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. Alabama et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6683.\nWilliams v. Alabama et al."
+  },
+  "file_name": "1095-03",
+  "first_page_order": 1171,
+  "last_page_order": 1171
+}

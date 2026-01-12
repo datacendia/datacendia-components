@@ -1,0 +1,59 @@
+{
+  "id": 12418253,
+  "name": "Croneberger v. Washington",
+  "name_abbreviation": "Croneberger v. Washington",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-5610",
+  "first_page": "947",
+  "last_page": "947",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 947"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 74,
+    "ocr_confidence": 0.677,
+    "sha256": "114e1b4c9aa45979fe239eeeb73f07a9fa6138889e3f9447f3d5d24578e64063",
+    "simhash": "1:8d834c050d687adb",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Croneberger v. Washington."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Wash. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5610.\nCroneberger v. Washington."
+  },
+  "file_name": "0947-12",
+  "first_page_order": 1023,
+  "last_page_order": 1023
+}

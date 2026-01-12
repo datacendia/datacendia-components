@@ -1,0 +1,736 @@
+{
+  "id": 5946261,
+  "name": "UNITED STATES v. TINKLENBERG",
+  "name_abbreviation": "United States v. Tinklenberg",
+  "decision_date": "2011-05-26",
+  "docket_number": "No. 09-1498",
+  "first_page": "647",
+  "last_page": "667",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 647"
+    },
+    {
+      "type": "parallel",
+      "cite": "179 L. Ed. 2d 1080"
+    },
+    {
+      "type": "parallel",
+      "cite": "131 S. Ct. 2007"
+    },
+    {
+      "type": "vendor",
+      "cite": "2011 U.S. LEXIS 4017"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2010-048"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "18 U. S. C. \u00a7 2518",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(9)",
+          "parenthetical": "establishing a 10-day period for disclosing applications for and court orders authorizing wiretaps without specifically excluding weekends and holidays"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 3142",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(d)(2)",
+          "parenthetical": "permitting the temporary detention of certain defendants \"for a period of not more than ten days, excluding Saturdays, Sundays, and holidays\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 A. 1083",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "year": 1898,
+      "pin_cites": [
+        {
+          "page": "1086"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "88 Md. 500",
+      "category": "reporters:state",
+      "reporter": "Md.",
+      "case_ids": [
+        2175230
+      ],
+      "year": 1898,
+      "pin_cites": [
+        {
+          "page": "508-511"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/md/88/0500-01"
+      ]
+    },
+    {
+      "cite": "145 N. E. 487",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "year": 1924,
+      "pin_cites": [
+        {
+          "page": "488"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "195 Ind. 381",
+      "category": "reporters:state",
+      "reporter": "Ind.",
+      "case_ids": [
+        1512632
+      ],
+      "year": 1924,
+      "pin_cites": [
+        {
+          "page": "383-884"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ind/195/0381-01"
+      ]
+    },
+    {
+      "cite": "422 U. S. 225",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9475
+      ],
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "242, n. 16"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/422/0225-01"
+      ]
+    },
+    {
+      "cite": "887 F. 2d 651",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10531722
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "656-657",
+          "parenthetical": "trial on other charges"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/887/0651-01"
+      ]
+    },
+    {
+      "cite": "290 F. 3d 1341",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9437095
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "1350",
+          "parenthetical": "unavailability of essential witnesses"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/290/1341-01"
+      ]
+    },
+    {
+      "cite": "525 F. 3d 844",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3584126
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "852",
+          "parenthetical": "interlocutory appeal"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/525/0844-01"
+      ]
+    },
+    {
+      "cite": "746 F. 2d 619",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        649082
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "622"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/746/0619-01"
+      ]
+    },
+    {
+      "cite": "547 U. S. 489",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3276046
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "497",
+          "parenthetical": "noting that the Act's exceptions provide \"necessary flexibility\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/547/0489-01"
+      ]
+    },
+    {
+      "cite": "540 U. S. 581",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8897702
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "593-594"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/540/0581-01"
+      ]
+    },
+    {
+      "cite": "697 F. 2d 1368",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1502656
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "1371-1372",
+          "parenthetical": "explicit"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/697/1368-01"
+      ]
+    },
+    {
+      "cite": "374 F. 3d 976",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9238788
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "985-986",
+          "parenthetical": "explicit"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/374/0976-01"
+      ]
+    },
+    {
+      "cite": "726 F. 2d 548",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1929551
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "551",
+          "parenthetical": "explicit"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/726/0548-01"
+      ]
+    },
+    {
+      "cite": "339 F. 3d 692",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9103332
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "698",
+          "parenthetical": "implicit"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/339/0692-01"
+      ]
+    },
+    {
+      "cite": "827 F. 2d 143",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1754080
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "151",
+          "parenthetical": "explicit"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/827/0143-01"
+      ]
+    },
+    {
+      "cite": "508 F. 3d 195",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6047006
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "200",
+          "parenthetical": "explicit"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/508/0195-01"
+      ]
+    },
+    {
+      "cite": "107 F. 3d 248",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7636999
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "253-254",
+          "parenthetical": "explicit"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/107/-1328-01"
+      ]
+    },
+    {
+      "cite": "715 F. 2d 810",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1882389
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "813",
+          "parenthetical": "explicit"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/715/0810-01"
+      ]
+    },
+    {
+      "cite": "476 U. S. 321",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12671
+      ],
+      "weight": 2,
+      "year": 1986,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/476/0321-01"
+      ]
+    },
+    {
+      "cite": "697 F. 2d 38",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1502643
+      ],
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "42",
+          "parenthetical": "explicit"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/697/0038-01"
+      ]
+    },
+    {
+      "cite": "469 F. 3d 7",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3756242
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "10",
+          "parenthetical": "explicit"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/469/0007-01"
+      ]
+    },
+    {
+      "cite": "559 U. S. 196",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3581824,
+        12446770
+      ],
+      "weight": 2,
+      "year": 2010,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/559/0196-01",
+        "/l-ed-2d/176/0054-01"
+      ]
+    },
+    {
+      "cite": "835 F. 2d 1440",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10553205,
+        4331990
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "1443",
+          "parenthetical": "explicit"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/835/1440-01",
+        "/us-app-dc/266/0344-01"
+      ]
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 924",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(e)(2)(B)(ii)",
+          "parenthetical": "2006 ed."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "685 F. 2d 1131",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        525581
+      ],
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "1137"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/685/1131-01"
+      ]
+    },
+    {
+      "cite": "495 U. S. 575",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        634101
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "602",
+          "parenthetical": "\"crime of violence\" characterizes the generic crime, not the particular act committed"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/495/0575-01"
+      ]
+    },
+    {
+      "cite": "21 U. S. C. \u00a7 843",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(6)",
+          "parenthetical": "possession of items used to manufacture a controlled substance"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 922",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(g)(1)",
+          "parenthetical": "felon in possession of a firearm"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "579 F. 3d 589",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4053950
+      ],
+      "weight": 8,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "598"
+        },
+        {
+          "page": "598"
+        },
+        {
+          "page": "597"
+        },
+        {
+          "parenthetical": "2006 ed. and Supp. Ill"
+        },
+        {
+          "page": "598"
+        },
+        {
+          "parenthetical": "\"[T]he statute is clear\""
+        },
+        {
+          "parenthetical": "\"[t]he interval of time between two events\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/579/0589-01"
+      ]
+    },
+    {
+      "cite": "579 P. 3d 589",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "598"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "546 U. S. 21",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5923137
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "34"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/546/0021-01"
+      ]
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 3161",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(h)(1)(D)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "476 U. S. 321",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12671
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "327"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/476/0321-01"
+      ]
+    },
+    {
+      "cite": "559 U. S. 196",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3581824,
+        12446770
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "199, n. 1, 203"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/559/0196-01",
+        "/l-ed-2d/176/0054-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1297,
+    "char_count": 34648,
+    "ocr_confidence": 0.594,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.17197933161354195
+    },
+    "sha256": "4c6099ce7f1f7623a6127659e5ccb66080d490174ce606477977302f6d44b441",
+    "simhash": "1:9994cb2eaaa51ed2",
+    "word_count": 5716
+  },
+  "last_updated": "2024-02-27T23:44:09.189648+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Breyer, J., delivered the opinion of the Court, in which Kennedy, Ginsburg, Alito, and Sotomayor, JJ., joined, and in which Roberts, C. J., and Scalia and Thomas, JJ., joined as to Parts I and III. Scalia, J., filed an opinion concurring in part and concurring in the judgment, in which Roberts, C. J., and Thomas, J., joined, post, p. 663. Kagan, J., took no part in the consideration or decision of the case.",
+      "Justice Kagan took no part in the consideration or decision of this case."
+    ],
+    "parties": [
+      "UNITED STATES v. TINKLENBERG"
+    ],
+    "opinions": [
+      {
+        "text": "Justice Breyer\ndelivered the opinion of the Court.\nThe Speedy Trial Act of 1974, 18 U. S.C. \u00a73161 et seq;> provides that in \u201cany case in which a plea of not guilty is entered, the trial.. . shall commence within seventy days\u201d from the later of (1) the \u201cfiling date\u201d of the information or indictment or (2) the defendant\u2019s initial appearance before a judicial officer (i <?., the arraignment). \u00a7 3161(c)(1). The Act goes on to list a set of exclusions from the 70-day period, including \u201cdelay resulting from, any pretrial motion, from the filing of the motion through the conclusion of the hearing on, or other prompt disposition of, such motion.\u201d \u00a7 3161(h)(1)(D) (2006 ed., Supp. Ill) (emphasis added).\nThe United States Court of Appeals for the Sixth Circuit held in this case that a pretrial motion falls within this exclusion only if it \u201cactually causefs] a delay, or the expectation of a delay, of trial.\u201d 579 F. 3d 589, 598 (2009). In our view, however, the statutory exclusion does not contain this kind of causation requirement. Rather, the filing of a pretrial motion falls within this provision irrespective of whether it actually causes, or is expected to cause, delay in starting a trial.\nI\nJason Louis Tinklenberg, the respondent, was convicted of violating federal drug and gun laws. 18 U. S. C. \u00a7 922(g)(1) (felon in possession of a firearm); 21 U. S. C. \u00a7 843(a)(6) (possession of items used to manufacture a controlled substance). He made his initial appearance before a judicial officer on October 31, 2005, and the speedy trial clock then began to run. His trial began on August 14, 2006, 287 days later. Just before trial, TinHenberg asked the District Court to dismiss the indictment on the ground that the trial came too late, violating the Speedy Trial Act\u2019s 70-day requirement. The District Court denied the motion after finding that 218 of the 287 days fell within various Speedy Trial Act exclusions, leaving 69 nonexcludable days, thereby making the trial timely.\nOn appeal the Sixth Circuit agreed with the District Court that many of the 287 days were excludable. But it disagreed with the District Court about the excludability of time related to three pretrial motions. The Government filed the first motion, an unopposed motion to conduct a video deposition of a witness, on August 1, 2006; the District Court disposed of the motion on August 3, 2006. The Government filed the second motion, an unopposed motion to bring seized firearms into the courtroom as evidence at trial, on August 8, 2006; the District Court disposed of the motion on August 10, 2006. TinHenberg filed the third motion, a motion to dismiss the indictment under the Speedy Trial Act, on Am gust 11, 2006; the District Court denied that motion on August 14, 2006. In the Sixth Circuit\u2019s view, the nine days during which the three motions were pending were not excludable because the motions did not \u201cactually cause a delay, or the expectation of delay, of trial.\u201d 579 F. 3d, at 598. Because these 9 days were sufficient to bring the number of nonexcludable days above 70, the Court of Appeals found a violation of the Act. And given the fact that TinHenberg had already served his prison sentence, it ordered the District Court to dismiss the indictment with prejudice.\nWe granted certiorari at the Government\u2019s request in order to review the Sixth Circuit\u2019s motion-by-motion causation test. We now reverse its determination. But because we agree with the defendant about a subsidiary matter, namely, the exclusion of certain holidays and weekend days during the period in which he was transported for a competency examination, id., at 597, we affirm the Court of Appeals\u2019 ultimate conclusion.\nII\nA\nIn relevant part the Speedy Trial Act sets forth a basic rule:\n\u201cIn any case in which a plea of not guilty is entered, the trial of a defendant.. . shall commence within seventy days from [the later of (1)] the filing date ... of the information or indictment, or . . . [(2)'] the date the defendant has appeared before a judicial officer of the court in which such charge is pending ....\u201d \u00a7-3161(c)(l) (2006 ed.).\nThe Act then says that the \u201cfollowing periods of delay shall be excluded in computing.. . the time within which the trial . . . must commence.\u201d \u00a7 3161(h) (2006 ed., Supp. III). It lists seven such \u201cperiods of delay.\u201d\nIt describes the first of these seven excludable periods as\n\u201c(1) Any period of delay resulting from other proceedings concerning the defendant, including but not limited to\u2014\n\u201c(A) delay resulting from any proceeding ... to determine the mental competency or physical capacity of the defendant;\n\u201c(B) delay resulting from trial with respect to other charges . . .;\n\u201c(C) delay resulting from any interlocutory appeal;\n\u201c(D) delay resulting from any pretrial motion, from the filing of the motion through the conclusion of the hearing on, or other prompt disposition of, such motion;\n\u201c(E) delay resulting from any proceeding relating to the transfer of a case [or defendant] . . . from another district.. . ;\n\u201c(F) delay resulting from transportation of any defendant from another district, or to and from places of examination or hospitalization, except that any time consumed in excess of ten days . . . shall be presumed to be unreasonable;\n\u201c(G) delay resulting from consideration by the court of a proposed plea agreement.. .;\n\u201c(H) delay reasonably attributable to any period, not to exceed thirty days, during which any proceeding concerning the defendant is actually under advisement by the court.\u201d Ibid. (2006 ed. and Supp. Ill) (emphasis added).\nB\nThe particular provision before us, subparagraph (D), excludes from the speedy trial period \u201cdelay resulting from any pretrial motion, from the filing of the motion through the conclusion of the hearing on, or other prompt disposition of, such motion.\u201d \u00a7 3161(h)(1)(D). The question is whether this provision stops the speedy trial clock from running automatically upon the filing of a pretrial motion irrespective of whether the motion has any impact on when the trial begins. Unlike the Sixth Circuit, we believe the answer to this question is yes.\nWe begin with the Act\u2019s language. The Sixth Circuit based its answer primarily upon that language. It argued that the phrase \u201cdelay resulting from,\u201d read most naturally, requires a court to apply the exclusion provision only to those \u201cmotion[s]\u201d that \u201cactually cause a delay, or the expectation of a delay, of trial.\u201d 579 F. 3d, at 598. We agree that such a reading is linguistically reasonable, but the Court of Appeals wrote that there \u201cis no conceivable way to read this language other than to require a delay to result from any pretrial motion before excludable time occurs.\u201d Ibid. See also ibid. (\u201c[T]he statute is clear\u201d). And here we disagree.\nWhen the Court of Appeals says that its reading is the only way any reasonable person could read this language, it overstates its claim. For one thing, even though the word \u201cdelay\u201d ordinarily indicates a postponement, it need not inevitably do so. Compare American Heritage Dictionary 480 (4th ed. 2000) (\u201c[t]o postpone until a later time\u201d or \u201c[t]o cause to be later or slower than expected or desired\u201d) with ibid. (\u201c[t]he interval of time between two events\u201d). In any event, terms must be read in their statutory context in order to determine how the provision in question should be applied in an individual case.\nStatutory language that describes a particular circumstance, for example, might require a judge to examine each individual case to see if that circumstance is present. But, alternatively, it might ask a judge instead to look at more general matters, such as when a statute requires a judge to increase the sentence of one convicted of a \u201ccrime of violence\u201d without requiring the judge to determine whether the particular crime at issue in a particular case was committed in a violent manner. See Taylor v. United States, 495 U. S. 575, 602 (1990) (\u201ccrime of violence\u201d characterizes the generic crime, not the particular act committed). Similarly a statute that forbids the importation of \u201cwild birds\u201d need not require a court to decide whether a particular parrot is, in fact, wild or domesticated. It may intend to place the entire species within that definition without investigation of the characteristics of an individual specimen. See United States v. Fifty-Three (53) Eclectus Parrots, 685 F. 2d 1131, 1137 (CA9 1982).\nMore than that, statutory language can sometimes specify that a set of circumstances exhibits a certain characteristic virtually as a matter of definition and irrespective of how a court may view it in a particular case. A statute that describes \u201cextortion\u201d as a \u201ccrime of violence\u201d makes that fact so by definition, without asking a court to second-guess Congress about the matter. 18 U. S. C. \u00a7 924(e)(2)(B)(ii) (2006 ed.) (defining \u201cviolent felony\u201d to include extortion for purposes of the Armed Career Criminal Act).\nThe statute before us, though more complex, can be read similarly. The pretrial motion subparagraph falls within a general set of provisions introduced by the phrase: \u201cThe following periods of delay shall be excluded.\u201d \u00a7 3161(h) (2006 ed., Supp. III). That phrase is then followed by a list that includes \u201c[a]ny period of delay resulting from other proceedings concerning the defendant, including ....\u201d \u00a7 3161(h)(1). This latter list is followed by a sublist, each member (but one) of which is introduced by the phrase \u201cdelay resulting from . . . ,\u201d ibid. (2006 ed. and Supp. Ill), which words are followed by a more specific description, such as \u201cany pretrial motion\u201d from its \u201cfiling\u201d \u201cthrough the conclusion of the hearing on, or other prompt disposition of, such motion.\u201d \u00a7 3161(h)(1)(D) (2006 ed., Supp. III). . The whole paragraph can be read as requiring the automatic exclusion of the members of that specific sublist, while referring to those members in general as \u201cperiods of d\u00e9lay\u201d and as causing that delay, not because Congress intended the judge to determine causation, but because, in a close to definitional way, the words embody Congress\u2019 own view of the matter.\nIt is not farfetched to describe the members of the specific sublist in the statute before us in this definitional sense \u2014 as \u201cperiods of delay\u201d or as bringing about delay. After all, the exclusion of any of the specific periods described always delays the expiration of the 70-day speedy trial deadline. Or Congress might have described the specific periods listed in paragraph (1) as \u201cperiods of delay\u201d and \u201cdelay[s] resulting from\u201d simply because periods of the type described often do cause a delay in the start of trial. Both explanations show that, linguistically speaking, one can read the statutory exclusion as automatically applying to the specific periods described without leaving to the district court the task of determining whether the period described would or did actually cause a postponement of the trial in the particular case. Thus, language alone cannot resolve the basic question presented in this case. But when read in context and in light of the statute\u2019s structure and purpose, we think it clear that Congress intended subparagraph (D) to apply automatically.\nc\nWe now turn to several considerations, which, taken together, convince us that the subparagraphs that specifically list common pretrial occurrences apply automatically in the way we have just described. First, subparagraph (D) clarifies that the trial court should measure the period of excludable delay for a pretrial motion \u201cfrom the filing of the motion through the conclusion of the hearing on, or other prompt disposition of, such motion,\u201d but nowhere does it mention the date on which the trial begins or was expected to begin. \u00a7 3161(h)(1)(D) (2006 ed., Supp. III). Thus, it is best read to instruct measurement of the time actually consumed by consideration of the pretrial motion. Two other related sub-paragraphs contain clarifying language that contemplates measurement of the time actually consumed by the specified pretrial occurrence without regard to the commencement of the trial. See \u00a7 3161(h)(1)(F) (\u201c[A]ny time consumed in excess of ten days from the date an order of removal or an order directing such transportation, and the defendant\u2019s arrival at the destination shall be presumed to be unreasonable\u201d); \u00a7 3161(h)(1)(H) (\u201cdelay reasonably attributable to any period, not to exceed thirty days, during which any proceeding concerning the defendant is actually under advisement by the court\u201d). If \u201cdelay\u201d truly referred to the postponement of trial, then presumably those subparagraphs would instruct that excludable periods should be measured from the date that trial was otherwise scheduled to begin.\nSecond, we are impressed that during the 37 years since Congress enacted the Speedy Trial Act, every Court of Appeals has considered the question before us now, and every Court of Appeals, implicitly or explicitly, has rejected the interpretation that the Sixth Circuit adopted in this case. See United States v. Wilson, 835 F. 2d 1440, 1443 (CADC 1987) (explicit), abrogated on other grounds by Bloate v. United States, 559 U. S. 196 (2010); United States v. Hood, 469 F. 3d 7, 10 (CA1 2006) (explicit); United States v. Cobb, 697 F. 2d 38, 42 (CA2 1982) (explicit), abrogated on other grounds by Henderson v. United States, 476 U. S. 321 (1986); United States v. Novak, 715 F. 2d 810, 813 (CA3 1983) (explicit), abrogated on other grounds by Henderson, supra; United States v. Dorlouis, 107 F. 3d 248, 253-254 (CA4 1997) (explicit); United States v. Green, 508 F. 3d 195, 200 (CA5 2007) (explicit); United States v. Montoya, 827 F. 2d 143,151 (CA7 1987) (explicit); United States v. Titlbach, 339 F. 3d 692, 698 (CA8 2003) (implicit); United States v. Van Brandy, 726 F. 2d 548, 551 (CA9 1984) (explicit); United States v. Vogl, 374 F. 3d 976, 985-986 (CA10 2004) (explicit); United States v. Stafford, 697 F. 2d 1368, 1371-1372 (CA11 1983) (explicit). This unanimity among the lower courts about the meaning of a statute of great practical administrative importance in the daily working lives of busy trial judges is itself entitled to strong consideration, particularly when those courts have maintained that interpretation consistently over a long period of time. See General Dynamics Land Systems, Inc. v. Cline, 540 U. S. 581, 593-594 (2004).\nThird, the Sixth Circuit\u2019s interpretation would make the subparagraph (D) exclusion significantly more difficult to administer. And in doing so, it would significantly hinder the Speedy Trial Act\u2019s efforts to secure fair and efficient criminal trial proceedings. See Zedner v. United States, 547 U. S. 489, 497 (2006) (noting that the Act\u2019s exceptions provide \u201cnecessary flexibility\u201d); H. R. Rep. No. 93-1508, p. 15 (1974) (the Act seeks to achieve \u201cefficiency in the processing of cases which is commensurate with due process\u201d); S. Rep. No. 93-1021, p. 21 (1974). Trial judges may, for example, set trial dates beyond 70 days in light of other commitments. And in doing so, a trial judge may well be aware, based on his or her experience, that pretrial motions will likely consume the extra time \u2014 even though the judge may know little about which specific motions will be filed, when, and how many. How is that judge to apply the Sixth Circuit\u2019s approach, particularly when several, including unanticipated, pretrial proceedings did consume the time in question?\nMoreover, what is to happen if several excludable and several nonexcludable potential causes of delay (e. g., pretrial motions to take depositions, potential scheduling conflicts, various health examinations, etc.) coincide, particularly in multidefendant cases? Can the judge, motion by motion, decide which motions were responsible and which were not responsible for postponing what otherwise might have been an earlier trial date? And how is a defendant or his attorney to predict whether or when a judge will later find a particular motion to have caused a postponement of trial? And if the matter is difficult to predict, how is the attorney to know when or whether he or she should seek further postponement of the 70-day deadline?\nWith considerable time and judicial effort, perhaps through the use of various presumptions, courts could find methods for overcoming these and other administrative difficulties. In some instances, the judge may know at the time of filing that a given motion is easily resolved or that its complexity will almost certainly postpone the trial. Judges could note on the record their predictions about whether the motion will postpone trial at the time that the motion is filed. Parties could also stipulate as to whether a given motion would be excluded from the speedy trial clock. But those theoretical strategies would not prevent all or even most mistakes, needless dismissals of indictments, and potential retrials after appeal \u2014 all of which exact a toll in terms of the fairness of and confidence in the criminal justice system. And any such future strategies for administering the Sixth Circuit\u2019s rule cannot provide a present justification for turning the federal judicial system away from the far less obstacle-strewn path that the system has long traveled.\nFourth, we are reinforced in our conclusion by the difficulty of squaring the Sixth Circuit\u2019s interpretation with this Court\u2019s precedent. In Henderson v. United States, supra, the Court rejected the contention that the exclusion provision for pretrial motions governs only reasonable delays. The Court there concluded (as the Court of Appeals had held) that the exclusion \u201cwas intended to be automatic.\u201d Id., at 327 (quoting United States v. Henderson, 746 F. 2d 619, 622 (CA9 1984); internal quotation marks omitted). See also Bloate, 559 U. S. 196 (holding based in part on the view that the exclusion applies \u201cautomatically\u201d to the specified period of delay). Henderson did not consider whether a trial court must determine whether the pretrial motion actually caused postponement of the trial in each individual case. But the Sixth Circuit\u2019s interpretation would nonetheless significantly limit the premise of \u201cautomatic application\u201d upon which the case rests.\nFifth, for those who find legislative history useful, it is worthwhile noting (as this Court noted in Henderson) that the Senate Report concerning the reenactment of the provision in 1979 described it, along with the other provisions in \u00a7 3161(h)(1), as referring to \u201cspecific and recurring periods of time often found in criminal cases,\u201d and characterized them as \u201cautomatically excludable delay,\u201d S. Rep. No. 96-212, p. 9 (1979). See H. R. Rep. No. 93-1508, at 21 (\u201cThe time limits would be tolled by hearings, proceedings and necessary delay which normally occur prior to the trial of criminal cases\u201d (emphasis added)); S. Rep. No. 93-1021, at 21 (\u201c[The Act] has carefully constructed exclusions and exceptions which permit normal pre-trial preparation in the ordinary noncomplex cases which represent the bulk of business in the Federal courts\u201d). But ef. id., at 35 (paragraph (h)(1) excludes \u201c[d]elays caused by proceedings relating to the defendant\u201d (emphasis added)).\nSixth, because all the subparagraphs but one under paragraph (1) begin with the phrase \u201cdelay resulting from,\u201d the Sixth Circuit\u2019s interpretation would potentially extend well beyond pretrial motions and encompass such matters as mental and physical competency examinations, interlocutory appeals, consideration of plea agreements, and the absence of essential witnesses. See \u00a7 3161(h)(1) (2006 ed., Supp. III); \u00a7 3161(h)(3)(A) (2006 ed.). Given the administrative complexity the causation requirement would .bring about in all these areas, those Circuits that have considered a causation requirement in respect to these other matters have rejected it. See, e. g., United States v. Pete, 525 F. 3d 844, 852 (CA9 2008) (interlocutory appeal); United States v. Miles, 290 F. 3d 1341, 1350 (CA11 2002) (unavailability of essential witnesses); United States v. Robinson, 887 F. 2d 651, 656-657 (CA6 1989) (trial on other charges). That further complexity, along with these lower court holdings, reinforce our conclusion.\nWe consequently disagree with the Sixth Circuit that the Act\u2019s exclusion requires a court to find that the event the exclusion specifically describes, here the filing of the pretrial motion, actually caused or was expected to cause delay of a trial. We hold that the Act contains no such requirement.\nIll\nTinklenberg also argues that the Sixth Circuit wrongly interpreted a different exclusion provision, this time the provision excluding\n\u201cdelay resulting from transportation of any defendant from another district, or to and from places of examination or hospitalization, except that any time consumed in excess of ten days from the date an order of removal or an order directing such transportation, and the defendant\u2019s arrival at the destination shall be presumed to be unreasonable.\u201d \u00a7 3161(h)(1)(F) (2006 ed., Supp. Ill) (emphasis added).\nThe District Court granted Tinklenberg\u2019s request for a competency evaluation, and he was transported to a medical facility for examination. The lower courts agreed that a total of 20 transportation days elapsed and that since the Government provided no justification, all days in excess of the 10 days specified in the statute were unreasonable. But in counting those excess days, the court exempted weekend days and holidays. Since Veterans Day, Thanksgiving Day, and three weekends all fell within the 20-day period, only 2 days, not 10 days, were considered excessive, during which the 70-day Speedy Trial Act clock continued to tick.\nTinklenberg argues that subparagraph (F) does not exempt weekend days and holidays; hence the court should have considered 10, not 2, days to be excessive. And the parties concede that those eight extra ticking days are enough to make the difference between compliance with, and violation of, the Act.\nAs the Solicitor General notes, we may consider, or \u201cdecline to entertain,\u201d alternative grounds for affirmance. See United States v. Nobles, 422 U. S. 225, 242, n. 16 (1975). In this case, we believe it treats Tinklenberg, who has already served his sentence, more fairly to consider the alternative ground and thereby more fully to dispose of the case.\nThe Sixth Circuit exempted weekend days and holidays because it believed that subparagraph (F) incorporated Federal Rule of Criminal Procedure 45(a). At the relevant time, that Rule excluded weekend days and holidays when computing any period of time specified in the \u201crules,\u201d in \u201cany local rule,\u201d or in \u201cany court order\u201d that was less than 11 days. Fed. Rule Crim. Proc. 45(a) (2005). But in our view subparagraph (F) does not incorporate Rule 45. The Act does not say that it incorporates Rule 45. The Government has given us no good reason for reading it as incorporating the Rule. And the Rule itself, as it existed at the relevant time, said that it applied to \u201crules\u201d and to \u201corders,\u201d but it said nothing about statutes. Other things being equal, the fact that Rule 45 is revised from time to time also argues against its direct application to subparagraph (F). That is because those changes, likely reflecting considerations other than those related to the Speedy Trial Act, may well leave courts treating similar defendants differently.\nWithout relying upon a cross-reference to Rule 45, we believe the better reading of subparagraph (F) would include weekend days and holidays in its 10-day time period. Under the common-law rule, weekend days and holidays are included when counting a statutory time period of 10 days unless the statute specifically excludes them. See 74 Am. Jur. 2d, Time \u00a722, p. 589 (2001) (in calculating time periods expressed in statutes, \u201cwhen the time stipulated must necessarily include one or more Saturdays, Sundays, or holidays, those days will not be excluded, in the absence of an express proviso for their exclusion\u201d). Many courts have treated statutory time periods this way. See, e. g., Howeisen v. Chapman, 195 Ind. 381, 383-884, 145 N. E. 487, 488 (1924); American Tobacco Co. v. Strickling, 88 Md. 500, 508-511, 41 A. 1083, 1086 (1898). And Congress has tended specifically to exclude weekend days and holidays from statutory time periods of 10 days when it intended that result. Compare 18 U. S. C. \u00a7 3142(d)(2) (permitting the temporary detention of certain defendants \u201cfor a period of not more than ten days, excluding Saturdays, Sundays, and holidays\u201d) and 5 U. S. C. \u00a7 552a(d)(2)(A) (requiring an agency to acknowledge receipt of a request to amend agency records within \u201c10 days (excluding Saturdays, Sundays, and legal public holidays)\u201d) with 18 U. S. C. \u00a7 2518(9) (establishing a 10-day period for disclosing applications for and court orders authorizing wiretaps without specifically excluding weekends and holidays) and \u00a7 4244(a) (providing a 10-day period after conviction for filing a motion to request mental health treatment without specifically excluding weekends and holidays). Indeed, Rule 45 has been recently modified so that now (though not at the time of Tinklenberg\u2019s proceedings) it requires a similar result. Fed. Rule Crim. Proc. 45(a)(1) (2010) (instructing that weekend days and holidays are to be counted when calculating all time periods, including statutory time periods for which no alternative method of computing time is specified).\n* * \u25a0 *\nWe disagree with the Sixth Circuit\u2019s interpretation of both subparagraph (D) and subparagraph (F), and now hold that its interpretations of those two provisions are mistaken. Nonetheless the conclusions the court drew from those two interpretations in relevant part cancel each other out such that the court\u2019s ultimate conclusion that Tinklenberg\u2019s trial failed to comply with the Speedy Trial Act\u2019s deadline is correct. Therefore, the Sixth Circuit\u2019s judgment ordering dismissal of the indictment on remand is\nAffirmed.\nJustice Kagan took no part in the consideration or decision of this case.",
+        "type": "majority",
+        "author": "Justice Breyer"
+      },
+      {
+        "text": "Justice Scalia,\nwith whom The Chief Justice and Justice Thomas join, concurring in part and concurring in the judgment.\nI join Parts I and III of the Court\u2019s opinion. I agree with the judgment of the Court in Part II that a pretrial motion need not actually postpone a trial, or create an expectation of postponement, in order for its pendency to be excluded under the Speedy Trial Act of 1974,18 U. S. C. \u00a7 3161(h)(1)(D) (2006 ed., Supp. III). But I think that conclusion is entirely clear from the text of the Speedy Trial Act, and see no need to look beyond the text. The clarity of the text is doubtless why, as the Court\u2019s opinion points out, ante, at 656-657, every Circuit disagrees with the Sixth Circuit\u2019s conclusion. That is the direction in which the causality proceeds: Clarity of text produces unanimity of Circuits \u2014 not, as the Court\u2019s opinion would have it, unanimity of Circuits clarifies text.\nAs the Court discusses, ante, at 653-654, the word \u201cdelay\u201d can mean postponement, but it can also mean an \u201cinterval of time between two events.\u201d American Heritage Dictionary 480 (4th ed. 2000). One might refer to the \u201cdelay\u201d between two ticks of a clock, or between seeing lightning and hearing thunder, but that does not imply that the first postponed or slowed the second. Here there are substantial textual indications that the word \u201cdelay\u201d similarly refers to the period between ticks of the speedy trial clock \u2014 in other words, the period during which the Speedy Trial Act\u2019s 70-day requirement is tolled.\nInterpreting the \u201cdelay\u201d referred to in \u00a7 3161(h)(1)(D) (or referred to anywhere else in \u00a7 3161(h)) as the delay of a trial date would make little sense in light of the context of the provision and the structure of the statute. Section 3161(h)(1)(D) specifies starting and stopping points for the excludable \u201cdelay\u201d that bear no relation whatsoever to the actual amount of time that a trial might be postponed by a pretrial motion. It equates the \u201cdelay resulting from any pretrial motion\u201d to the period of time between \u201cthe filing of the motion\u201d and \u201cthe conclusion of the hearing on, or other prompt disposition of, such motion.\u201d This equation is possible if \u201cdelay\u201d refers to an interval of time excludable for purposes of the Speedy Trial Act, but it makes no sense if \u201cdelay\u201d refers to the time a trial is postponed. Consider, for example, a pretrial motion that is pending for 10 days but causes the district court to push back a trial\u2019s beginning by only one day. In such a situation, \u00a7 3161(h)(1)(D) would require that the entire 10-day period be excluded for Speedy Trial Act purposes.\nNeighboring statutory provisions, moreover, link the ex-cludable \u201cdelay\u201d to the time consumed by the specified event, not the number of days a trial is postponed. Section 3161(h)(1)(H), for example, excludes \u201cdelay reasonably attributable to any period, not to exceed thirty days, during whieh any proceeding concerning the defendant is actually under advisement by the court.\u201d And \u00a7 3161(h)(1)(F) excludes \u201cdelay resulting from transportation . . . except that any time consumed in excess of ten days from ... an order directing such transportation, and the defendant\u2019s arrival at the destination shall be presumed to be unreasonable.\u201d If \u201cdelay\u201d means trial delay, it makes little sense for Congress to have placed a limit upon the \u201ctime consumed\u201d in transporting a defendant rather than upon the permissible postponement of trial date.\nThe Speedy Trial Act\u2019s structure also suggests that \u00a7 3161(h)(1)(D) is meant to apply automatically and is not dependent on predicate findings of postponement. Section 3161(h) lists various types of delay that may be excluded, the first six of which (including \u00a7 3161(h)(1)(D)) make no reference to any required findings. But the seventh, which excludes \u201cdelay resulting from a continuance granted by any judge,\u201d conditions that exclusion upon certain findings, \u00a7 3161(h)(7)(A). In light of this difference in formulation, we have held that the first six exclusions are \u201c \u2018automatic,\u2019 \u201d apply \u201cregardless of the specifics of the case,\u201d and require no district-court findings. Bloate v. United States, 559 U. S. 196, 199, n. 1, 203 (2010); see also Henderson v. United States, 476 U. S. 321, 327 (1986). Tinklenberg\u2019s incorporation of a threshold inquiry into \u00a7 3161(h)(1)(D) would make it none of these things.\nDelay of trial is also ruled out by the fact that the text is forward looking. It says that the \u201cfollowing periods of delay shall be excluded in computing . . . the time within which the trial . . . must commence.\u201d \u00a7 3161(h) (emphasis added). This is designed to enable the determination in advance of the date by which the trial \u201cmust commence.\u201d Quite obviously, if the specified delays did not count unless and until they delayed the trial, one could not know whether they counted until after the fact. And on that interpretation the provision should have read, not \u201cthe time within which the trial . . . must commence,\u201d but rather \u201cthe time within which the trial. . . should have commenced.\u201d\nAnd finally, there are the administrative difficulties that arise when \u201cdelay\u201d is taken to mean \u201cdelay in trial,\u201d discussed in the Court\u2019s opinion, ante, at 657-658. These are not relevant on their own, but only because they bear upon the meaning of the text. When one of two possible meanings yields impracticable results, the other meaning is more likely correct.\nTinklenberg would invent a threshold inquiry applicable only to \u00a7 3161(h)(1)(D): If, he says, at least some delay of the trial date has occurred, then the entire period specified in \u00a7 3161(h)(1)(D) may be excluded. This makes no sense. First, nothing in the statute supports treating the word \u201cdelay\u201d as a trigger for an exclusion of an unrelated period of time; quite the opposite, \u00a7 3161(h)(1)(D) treats the period of \u201cdelay\u201d and the pendency of the pretrial motion equivalently. Second, that interpretation would ascribe different meanings to the word \u201cdelay\u201d as it is used throughout the Speedy Trial Act. \u201c[DJelay resulting from any interlocutory appeal,\u201d \u00a7 3161(h)(1)(C), for example, would refer to the number of days a trial was postponed; but \u201cdelay resulting from any pretrial motion,\u201d \u00a7 3161(h)(1)(D), would refer to the different period specified in that paragraph. Identical words used in different parts of a statute are presumed to have the same meaning absent indication to the contrary, and here no such indication exists. See IBP, Inc. v. Alvarez, 546 U. S. 21, 34 (2005).\nTinklenberg also argues that his interpretation draws support from the phrase \u201cresulting from,\u201d which appears after the word \u201cdelay\u201d in \u00a7 3161(h)(1)(D). He asserts that this phrase \u201cunderscores that Subsection (D) excludes periods of delay that occur as a consequence of pretrial motions, not merely the time during which such motions are pending.\u201d Brief for Respondent 17. That is true enough, but it sheds no light on the meaning of the word \u201cdelay.\u201d Cf. Bloate, supra, at 205, n. 9. There is nothing odd in saying that an interval of excludable time under \u00a7 3161(h)(1)(D) arises \u201cas a consequence\u201d of a party\u2019s having filed a pretrial motion; if no pretrial motion is filed, no delay results.\nI consider only this possibility, and not the extended meaning invented by the Sixth Circuit (\u201cexpectation of a dela[y] of trial\u201d) \u2014 presumably to explain how delay can be computed ex ante, before any trial delay has actually occurred. See 579 P. 3d 589, 598 (2009). \u201c[EJxpectation of a delay\u201d is simply not one of the possible meanings of \u201cdelay.\u201d",
+        "type": "concurrence",
+        "author": "Justice Scalia,"
+      }
+    ],
+    "attorneys": [
+      "Matthew D. Roberts argued the cause for the United States-. With him on the briefs were Acting Solicitor General Katyal, Assistant Attorney General Breuer, Acting Deputy Solicitor General McLeese, and Joseph C. Wyderko.",
+      "Jeffrey L. Fisher argued the cause for respondent. With him on the brief were Steve S. Nolder, Kevin M. Schad, and Pamela S. Karlan."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES v. TINKLENBERG\nNo. 09-1498.\nArgued February 22, 2011 \u2014\nDecided.May 26, 2011\nBreyer, J., delivered the opinion of the Court, in which Kennedy, Ginsburg, Alito, and Sotomayor, JJ., joined, and in which Roberts, C. J., and Scalia and Thomas, JJ., joined as to Parts I and III. Scalia, J., filed an opinion concurring in part and concurring in the judgment, in which Roberts, C. J., and Thomas, J., joined, post, p. 663. Kagan, J., took no part in the consideration or decision of the case.\nMatthew D. Roberts argued the cause for the United States-. With him on the briefs were Acting Solicitor General Katyal, Assistant Attorney General Breuer, Acting Deputy Solicitor General McLeese, and Joseph C. Wyderko.\nJeffrey L. Fisher argued the cause for respondent. With him on the brief were Steve S. Nolder, Kevin M. Schad, and Pamela S. Karlan.\nDennis G. Terez, Melissa M. Salinas, and David M. Porter filed a brief for the National Association of Criminal Defense Lawyers as amicus curiae urging affirmance."
+  },
+  "file_name": "0647-01",
+  "first_page_order": 729,
+  "last_page_order": 749
+}

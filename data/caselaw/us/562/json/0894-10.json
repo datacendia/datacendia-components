@@ -1,0 +1,59 @@
+{
+  "id": 5906057,
+  "name": "Newmark v. United States",
+  "name_abbreviation": "Newmark v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-123",
+  "first_page": "894",
+  "last_page": "894",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 894"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.642,
+    "sha256": "daa08003ebb7098ea00cf1ae8f13b2a8c0f355035a0a1c1cc3edb4a807b53f72",
+    "simhash": "1:840eef23eabd872e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Newmark v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-123.\nNewmark v. United States."
+  },
+  "file_name": "0894-10",
+  "first_page_order": 916,
+  "last_page_order": 916
+}

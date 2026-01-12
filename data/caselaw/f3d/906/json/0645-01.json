@@ -1,0 +1,427 @@
+{
+  "id": 12518930,
+  "name": "UNITED STATES of America, Plaintiff-Appellee, v. Solomon SMITH, Jr., Defendant-Appellant.",
+  "name_abbreviation": "United States v. Smith",
+  "decision_date": "2018-10-16",
+  "docket_number": "No. 16-3575",
+  "first_page": "645",
+  "last_page": "652",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "906 F.3d 645"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "7th Cir.",
+    "id": 9010,
+    "name": "United States Court of Appeals for the Seventh Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "795 F.3d 761",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4289216
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "767-68"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/795/0761-01"
+      ]
+    },
+    {
+      "cite": "840 F.3d 920",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12175044
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "921"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/840/0920-01"
+      ]
+    },
+    {
+      "cite": "528 F.3d 538",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3582233
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "539"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/528/0538-01"
+      ]
+    },
+    {
+      "cite": "765 F.3d 702",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4185491
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "710-11"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/765/0702-01"
+      ]
+    },
+    {
+      "cite": "304 U.S. 458",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        10805
+      ],
+      "weight": 3,
+      "year": 1938,
+      "pin_cites": [
+        {
+          "page": "464"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/304/0458-01"
+      ]
+    },
+    {
+      "cite": "507 U.S. 725",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6237509
+      ],
+      "weight": 3,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "733",
+          "parenthetical": "quoting Johnson v. Zerbst , 304 U.S. 458, 464, 58 S.Ct. 1019, 82 L.Ed. 1461 (1938) "
+        },
+        {
+          "parenthetical": "quoting Johnson v. Zerbst , 304 U.S. 458, 464, 58 S.Ct. 1019, 82 L.Ed. 1461 (1938) "
+        },
+        {
+          "parenthetical": "quoting Johnson v. Zerbst , 304 U.S. 458, 464, 58 S.Ct. 1019, 82 L.Ed. 1461 (1938) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/507/0725-01"
+      ]
+    },
+    {
+      "cite": "804 F.3d 859",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4357514
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "870",
+          "parenthetical": "allowing visits between 6:00 a.m. and 11:00 p.m. \"at home or any other reasonable location\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/804/0859-01"
+      ]
+    },
+    {
+      "cite": "825 F.3d 832",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4324000
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "837, 842",
+          "parenthetical": "permitting \"probation officer to visit the defendant at any reasonable time at home and at work\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/825/0832-01"
+      ]
+    },
+    {
+      "cite": "813 F.3d 681",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4088020
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "683",
+          "parenthetical": "rejecting requirement that supervisee submit to visits \"at any time at home or elsewhere\""
+        },
+        {
+          "page": "683-84",
+          "parenthetical": "suggesting that district court curtail probation officer's discretion by allowing visits only to reasonable locations between specified hours"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/813/0681-01"
+      ]
+    },
+    {
+      "cite": "753 F.3d 705",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5916971
+      ],
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "715-16"
+        },
+        {
+          "page": "717"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/753/0705-01"
+      ]
+    },
+    {
+      "cite": "777 F.3d 368",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3985240
+      ],
+      "weight": 3,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "376-77"
+        },
+        {
+          "page": "379-80",
+          "parenthetical": "same"
+        },
+        {
+          "page": "382",
+          "parenthetical": "remanding for resentencing in toto because \"reconsideration of th[e] conditions may conceivably induce ... judges to alter the prison sentence\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/777/0368-01"
+      ]
+    },
+    {
+      "cite": "809 F.3d 924",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4058665
+      ],
+      "weight": 3,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "933",
+          "parenthetical": "permitting an alcohol condition where the district court had made findings concerning defendant's alcohol dependency and had \"reasonably concluded that alcohol consumption might lead\" to recidivism"
+        },
+        {
+          "page": "934",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/809/0924-01"
+      ]
+    },
+    {
+      "cite": "825 F.3d 862",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4324995
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "868-69"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/825/0862-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3583",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(d)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "782 F.3d 828",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6053731
+      ],
+      "weight": 5,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "847"
+        },
+        {
+          "page": "849"
+        },
+        {
+          "page": "850-51",
+          "parenthetical": "same"
+        },
+        {
+          "page": "866-67",
+          "parenthetical": "adopting the Thompson approach"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/782/0828-01"
+      ]
+    },
+    {
+      "cite": "303 F.3d 793",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11435067
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "800"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/303/0793-01"
+      ]
+    },
+    {
+      "cite": "743 F.3d 176",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4115625
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "193",
+          "parenthetical": "quoting United States v. Sines , 303 F.3d 793, 800 (7th Cir. 2002) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/743/0176-01"
+      ]
+    },
+    {
+      "cite": "26 U.S.C. \u00a7\u00a7 7206",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(1)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 812,
+    "char_count": 16375,
+    "pagerank": {
+      "raw": 7.890109005986352e-08,
+      "percentile": 0.46038881031287926
+    },
+    "sha256": "7553c30fa0d15f9f9c3ffba26f8ed5ae1ae969ebd8d5c4e8bbf16d16c579baf1",
+    "simhash": "1:1614f77d7a68de59",
+    "word_count": 2627
+  },
+  "last_updated": "2024-02-27T18:46:07.237745+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Wood, Chief Judge, and Sykes and Hamilton, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee,\nv.\nSolomon SMITH, Jr., Defendant-Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Wood, Chief Judge.\nSolomon Smith pleaded guilty to two counts of filing fraudulent federal tax returns. His appeal concerns only the supervised release portion of his sentence. He objects to two discretionary conditions imposed by the judge: one that forbids \"excessive use\" of alcohol, and one that obliges him to submit to visits from his probation officer at any reasonable time. Those visits may occur at his home, workplace, or any reasonable location that the officer designates. Smith, a teetotaler who stands convicted of tax fraud, views those conditions as unwarranted by his crime or character and ill-suited to the purposes of supervised release. He also asserts that a ban on excessive alcohol use is impermissibly vague.\nAlthough there may be some substance to Smith's complaints, the procedural history of this case complicates matters. After taking time to review the visitation condition, Smith's attorney told the district court that it was reasonable. In so doing, the attorney waived Smith's present objection that the court failed to provide an adequate rationale in support of the condition. As for the alcohol condition, a procedural error by the district court creates a problem, but one that we can fix on appeal. At Smith's sentencing hearing, the district court purported to adopt, by reference to the presentence investigative report (PSR), a condition forbidding \"excessive use\" of alcohol. Importantly, the PSR explicitly defined the term \"excessive use\" to mean use that produces a blood alcohol concentration (BAC) in excess of 0.08%. Perhaps not coincidentally, that is the level used by the State of Illinois for purposes of its driving laws. See 625 ILCS 5/11-501(a)(1). But that objective benchmark was not mentioned in either the court's oral pronouncement of the sentence or its later written judgment. The limitation in the PSR thus fell by the wayside, and the undefined term \"excessive use\" that is currently in the judgment is both vague and, for a non-drinker, unjustified without some explanation. Nonetheless, we conclude that remand is unnecessary, because we find no other reversible error in the conditions of supervised release and we can amend the judgment so that the definition of \"excessive use\" reflects the court's evident intent to incorporate the BAC of 0.08%. We affirm the district court's judgment as corrected.\nI\nSmith was prosecuted for filing fraudulent tax returns in violation of 26 U.S.C. \u00a7\u00a7 7206(1) and 7206(2) ; as we noted, he pleaded guilty to those offenses. His Form 1041 trust tax returns, covering Tax Year 2008 and Tax Year 2009, had claimed refunds of approximately $380,000 each for payments made by a non-existent trust. The IRS paid a hefty refund (including interest) of $386,310.94 in response to the 2008 return, but it rejected his request for a refund for 2009.\nBefore Smith's sentencing hearing, the probation office prepared a PSR. The report contained proposed conditions of mandatory supervised release. One of those proposals, labeled discretionary condition 7, stated, \"you shall refrain from ? any or ? excessive use of alcohol (defined as having a blood alcohol concentration greater than 0.08%); or ?).\" Proposed discretionary condition 16 read, \"? you shall permit a probation officer to visit you ? at any reasonable time or ? as specified: ? at home ? at work ? at school ? at a community service location ? other reasonable location specified by a probation officer ? you shall permit confiscation of any contraband observed in plain view of the probation officer.\" Smith raised no objections to these proposed conditions (or for that matter any others) in his sentencing memorandum. He instead requested a \"sentence of probation, supplemented with special conditions appropriate to his crime,\" without ever addressing the PSR.\nDuring sentencing, the district court permitted Smith to review a written sentencing recommendation prepared by the probation office. The sentencing recommendation included the same two supervised-release conditions as the PSR. When the sentencing hearing turned to supervised release, the district court confirmed that Smith's attorney and the prosecutor were familiar with the proposed conditions and invited them to raise any objections they might have. Smith's attorney said he had no problem with the four proposed mandatory conditions. The district court then enumerated the proposed discretionary conditions and asked, \"Is there any reason-this is addressed to the lawyers and Mr. Smith, any reason-we should discuss those or whether-is there any objection to the imposition of any of those conditions?\" The prosecution responded that it had \"no objection\" and thought that each proposed condition was \"relevant.\" The court then addressed Smith's attorney, David Kadzai.\nTHE COURT: All right. Mr. Kadzai, do you have any objection to those?\nMR. KADZAI: We feel they are reasonable.\nTHE COURT: They are reasonable? All right. So, then, I will impose those.\nA similar conversation followed with respect to the seven proposed special conditions, which Kadzai agreed were reasonable and could be imposed without further discussion.\nThe district court later issued a written judgment. The judgment was similar, but not identical to, the two discretionary conditions found in the PSR and sentencing recommendation:\n(7) you shall refrain from ? any or ? excessive use of alcohol (defined as ? having a blood alcohol concentration greater than 0.08%; or ?)....\n(16) ? you shall permit a probation officer to visit you ? at any reasonable time or ? as specified: ? at home ? at work ? at school ? at a community service location ? other reasonable location specified by a probation officer ? you shall permit confiscation of any contraband observed in plain view of the probation officer.\nNote that written condition 7 did not check off the parenthetical definition of \"excessive use,\" unlike the PSR, which did.\nSmith's appeal challenges these two conditions on substantive grounds. Neither condition, Smith asserts, was tailored to him or his offense, and neither furthered the purposes of supervised release. In addition, he argued that the failure to define \"excessive use\" left him exposed to an arbitrary and indefinite restriction on his liberty.\nII\nAlthough judges enjoy \" 'wide discretion' in determining conditions of supervised release,\" that discretion is not without limit. United States v. Adkins , 743 F.3d 176, 193 (7th Cir. 2014) (quoting United States v. Sines , 303 F.3d 793, 800 (7th Cir. 2002) ). The judge should impose conditions that are \"(a) appropriately tailored to the defendant's offense, personal history and characteristics; (b) involve no greater deprivation of liberty than is reasonably necessary to achieve the goals of deterrence, protection of the public, and rehabilitation; and (c) sufficiently specific to place the defendant on notice of what is expected.\" United States v. Kappes , 782 F.3d 828, 847 (7th Cir. 2015) ; see also 18 U.S.C. \u00a7 3583(d) ; United States v. Bloch , 825 F.3d 862, 868-69 (7th Cir. 2016). We have found that restrictions on alcohol consumption violate the first two requirements when the defendant lacks a personal history of alcohol abuse and his offense has no apparent connection to intoxication. Kappes , 782 F.3d at 849, 852 ; cf. United States v. Poulin , 809 F.3d 924, 933 (7th Cir. 2016) (permitting an alcohol condition where the district court had made findings concerning defendant's alcohol dependency and had \"reasonably concluded that alcohol consumption might lead\" to recidivism). Moreover, we repeatedly have held that a condition banning \"excessive use\" of alcohol without defining that term is unlawfully vague. E.g. , Kappes , 782 F.3d at 849 ;\nUnited States v. Thompson , 777 F.3d 368, 376-77 (7th Cir. 2015) ; United States v. Siegel , 753 F.3d 705, 715-16 (7th Cir. 2014).\nWe have been less consistent in our analysis of visitation conditions. In a number of cases, we have disapproved of such conditions if they failed to qualify when or where a probation officer may impinge on his supervisee's liberty. United States v. Henry , 813 F.3d 681, 683 (7th Cir. 2016) (rejecting requirement that supervisee submit to visits \"at any time at home or elsewhere\"); Poulin , 809 F.3d at 934 (same); Kappes , 782 F.3d at 850-51 (same); Thompson , 777 F.3d at 379-80 (same). In other instances, we have permitted conditions that, at least on their face, appear to be remarkably similar. United States v. Bickart , 825 F.3d 832, 837, 842 (7th Cir. 2016) (permitting \"probation officer to visit the defendant at any reasonable time at home and at work\"); United States v. Armour , 804 F.3d 859, 870 (7th Cir. 2015) (allowing visits between 6:00 a.m. and 11:00 p.m. \"at home or any other reasonable location\"); see also Henry , 813 F.3d at 683-84 (suggesting that district court curtail probation officer's discretion by allowing visits only to reasonable locations between specified hours).\nAlthough there are tensions between these lines of cases, this is not the proper occasion in which to dig down and see if we need to overrule one set of cases or if they prove to be compatible upon more careful study. As we noted earlier, Smith affirmatively told the district court that he had no objection to the visitation condition in his case, and so the judge had no occasion to hear argument or to reflect on both the legal requirements for visitation conditions or the way they apply to Smith. This was more than a forfeiture: it was a waiver of the right to object to that condition. Waiver is the \"intentional relinquishment or abandonment of a known right.\" United States v. Olano , 507 U.S. 725, 733, 113 S.Ct. 1770, 123 L.Ed.2d 508 (1993) (quoting Johnson v. Zerbst , 304 U.S. 458, 464, 58 S.Ct. 1019, 82 L.Ed. 1461 (1938) ). That is what Smith did. The district court expressly invited objections to the proposed visitation condition, and Smith's attorney, with the benefit of having seen the condition in advance, responded that the condition was \"reasonable.\" Smith has not argued that either he or his attorney was confused or that the response did not indicate approval. As a practical matter, it may be that defendants are reluctant to object to conditions out of a fear of eliciting a longer term of incarceration or supervised release, but we cannot give any weight to such fears. Sentencing as a whole is a fraught matter for defendants, but in order for the system to work, people must raise their objections in a timely manner before the district court, so that it can take appropriate steps.\nIII\nWe now turn to the alcohol restriction. Smith is not ham-strung by waiver of his objection to this condition because the version to which his lawyer agreed included the critical definition of a BAC above 0.08%. But that limitation did not make it into Smith's sentence. Rather than defining \"excessive\" either by BAC or anything else, the court said only that \"the Discretionary Conditions are styled 1, 2, 4, 6, 7, 8, 14, 15, 16, 17, 18 and 22\" and solicited objections to them. Smith's attorney declared the enumerated conditions to be \"reasonable,\" and the court proceeded to \"impose those\" conditions. That was, at best, ambiguous. And the ambiguity only worsened when the definition of \"excessive use\" disappeared in the court's written judgment, issued after the sentencing hearing. Smith never assented to those conditions nor did he have an opportunity to do so. As a result, Smith did not forfeit, let alone waive, his right to challenge the written condition as unlawfully vague. FED. R. CRIM. P. 51.\nNormally, when there is a conflict between an oral sentence and the written sentence, the oral sentence prevails. E.g. , United States v. Johnson , 765 F.3d 702, 710-11 (7th Cir. 2014) ; United States v. McHugh , 528 F.3d 538, 539 (7th Cir. 2008). But this rule is of no help when there is no oral statement to which we may refer. See United States v. Thomas , 840 F.3d 920, 921 (7th Cir. 2016) ; Bloch , 825 F.3d at 872. With respect to the conditions of supervised release, that describes this record. In its own words, the district court sought to \"short-circuit\" the sentencing hearing by incorporating by reference the conditions proposed in the PSR. That was its prerogative, see Bloch , 825 F.3d at 872, but that choice was not risk-free. When the district court opts to incorporate conditions by reference, the defendant must have had an \"opportunity to review the proposed conditions before sentencing,\" and the subsequent written judgment cannot conflict with either the written notice or the conditions pronounced at the sentencing hearing. Thomas , 840 F.3d at 921 ; see also Bloch , 825 F.3d at 872. Those limitations ensure that the defendant has ample opportunity to object. Bloch , 825 F.3d at 872. They also prevent uncertainty over what conditions or version of a condition the district court intended to impose; liberty should not turn on guess-work.\nJust such an uncertainty is present here. If the court meant to limit the alcohol condition to consumption that led to a higher BAC than 0.08%, it needed to say so. If it did not so limit the term \"excessive use,\" then, as we have explained, we have both the problem of vagueness and (if excessive means anything more than zero) why this was right for Smith.\nSomething therefore needs to happen. One option would be to order a plenary resentencing; another would be to vacate the alcohol condition and issue a limited remand to the district court for resentencing only on this point. We have followed both approaches. Compare, e.g. , Thompson , 777 F.3d at 382 (remanding for resentencing in toto because \"reconsideration of th[e] conditions may conceivably induce ... judges to alter the prison sentence\"); and Kappes , 782 F.3d at 866-67 (adopting the Thompson approach); with Bickart , 825 F.3d at 842 (limited remand); Poulin , 809 F.3d at 936 ; United States v. Purham , 795 F.3d 761, 767-68 (7th Cir. 2015) ; and Siegel , 753 F.3d at 717. Or we could simply correct the judgment ourselves. In our view, this last approach is the best one for Smith's case. Nothing in this record even hints that the district court viewed the contested conditions of Smith's supervised release as a partial substitute for incarceration. Indeed, in general, it is likely to be the case that the substitution effect is not present for conditions of supervised release that must be set aside for failure to advance the purposes of supervised release, lack of clarity, or procedural infirmity. If a condition is unsuited to the defendant or his offense, it is hard to see how it could properly serve as an offset to incarceration. If the district court fails, as here, to impose its intended condition, a limited remand would only serve to clarify what we already know the court intended to do. Since we are confident that we can tell what the district court intended, we can follow that path.\nIV\nThis case is a good candidate for a simple correction. By reading off the numbered recommended conditions from the PSR, the only sensible conclusion is that the judge meant to adopt precisely those recommendations. Recommended discretionary condition 7 indicated that \"excessive use\" of alcohol exists only if BAC goes above 0.08%. As the government points out, if Smith is indeed a teetotaler, this should not inhibit his behavior at all. If the condition proves to be burden-some, Smith is also entitled to file a motion in the district court seeking modification of the terms of his release.\nWe thus order that the sentence be corrected to include, for purposes of discretionary condition 7 of Smith's supervised release, the limitation tying excessive alcohol use to a BAC of 0.08%. In all other respects we AFFIRM the judgment of the district court.",
+        "type": "majority",
+        "author": "Wood, Chief Judge."
+      }
+    ],
+    "attorneys": [
+      "David E. Bindi, Attorney, OFFICE OF THE UNITED STATES ATTORNEY, Chicago, IL, for Plaintiff-Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee,\nv.\nSolomon SMITH, Jr., Defendant-Appellant.\nNo. 16-3575\nUnited States Court of Appeals, Seventh Circuit.\nArgued May 30, 2018\nDecided October 16, 2018\nDavid E. Bindi, Attorney, OFFICE OF THE UNITED STATES ATTORNEY, Chicago, IL, for Plaintiff-Appellee.\nDaniel J. Hillis, Attorney, OFFICE OF THE FEDERAL PUBLIC DEFENDER, Springfield, IL, Thomas W. Patton, Attorney, OFFICE OF THE FEDERAL PUBLIC DEFENDER, Peoria, IL, Defendant-Appellant.\nBefore Wood, Chief Judge, and Sykes and Hamilton, Circuit Judges."
+  },
+  "file_name": "0645-01",
+  "first_page_order": 645,
+  "last_page_order": 652
+}

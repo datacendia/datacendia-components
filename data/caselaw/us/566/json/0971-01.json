@@ -1,0 +1,126 @@
+{
+  "id": 12212105,
+  "name": "Ortiz-Alvear v. Wells, Warden, In re Crawford",
+  "name_abbreviation": "Ortiz-Alvear v. Wells",
+  "decision_date": "2012-04-23",
+  "docket_number": "No. 11-6205; No. 11-8740",
+  "first_page": "971",
+  "last_page": "971",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 971"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "565 U. S. 1259",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12251362,
+        12251363,
+        12251365,
+        12251368,
+        12251337,
+        12251372,
+        12251340,
+        12251344,
+        12251377,
+        12251349,
+        12251383,
+        12251355
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/565/1259-06",
+        "/us/565/1259-07",
+        "/us/565/1259-08",
+        "/us/565/1259-09",
+        "/us/565/1259-01",
+        "/us/565/1259-10",
+        "/us/565/1259-02",
+        "/us/565/1259-03",
+        "/us/565/1259-11",
+        "/us/565/1259-04",
+        "/us/565/1259-12",
+        "/us/565/1259-05"
+      ]
+    },
+    {
+      "cite": "565 U. S. 1229",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12249089,
+        12249059,
+        12249093,
+        12249066,
+        12249074,
+        12249048,
+        12249083,
+        12249084,
+        12249053,
+        12249086
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/565/1229-09",
+        "/us/565/1229-03",
+        "/us/565/1229-10",
+        "/us/565/1229-04",
+        "/us/565/1229-05",
+        "/us/565/1229-01",
+        "/us/565/1229-06",
+        "/us/565/1229-07",
+        "/us/565/1229-02",
+        "/us/565/1229-08"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 30,
+    "char_count": 221,
+    "ocr_confidence": 0.573,
+    "sha256": "ad8f27f6b4ddd6624122ded600258dcb8a663d0c7adc47f8fae0e348c6eec088",
+    "simhash": "1:22349a40b6db2886",
+    "word_count": 37
+  },
+  "last_updated": "2024-02-27T23:45:15.365324+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of these petitions."
+    ],
+    "parties": [
+      "Ortiz-Alvear v. Wells, Warden, In re Crawford,"
+    ],
+    "opinions": [
+      {
+        "text": "565 U. S. 1229; and\n565 U. S. 1259. Petitions for rehearing denied.\nJustice Kagan took no part in the consideration or decision of these petitions.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6205.\nNo. 11-8740.\nOrtiz-Alvear v. Wells, Warden, In re Crawford,"
+  },
+  "file_name": "0971-01",
+  "first_page_order": 847,
+  "last_page_order": 847
+}

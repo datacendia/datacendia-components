@@ -1,0 +1,923 @@
+{
+  "id": 12522505,
+  "name": "UNITED STATES of America, Plaintiff - Appellee, v. Thomas Edward NORMAN, Defendant - Appellant.",
+  "name_abbreviation": "United States v. Norman",
+  "decision_date": "2019-08-15",
+  "docket_number": "No. 18-4214",
+  "first_page": "232",
+  "last_page": "243",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "935 F.3d 232"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "4th Cir.",
+    "id": 8954,
+    "name": "United States Court of Appeals for the Fourth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "18 U.S.C. \u00a7 841",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 U.S.C. \u00a7 5845",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "914 F.3d 229",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12519907
+      ],
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "246-47",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/914/0229-01"
+      ]
+    },
+    {
+      "cite": "813 F.3d 135",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4089375
+      ],
+      "year": 2015,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/813/0135-01"
+      ]
+    },
+    {
+      "cite": "767 F. App'x 431",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "437",
+          "parenthetical": "\" Kennedy and subsequent cases cast enough doubt on [defendant's] argument that any error isn't clear or obvious enough to be plain.\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "737 F. App'x 147",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "148-49"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 U.S.C. \u00a7 1959",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(5)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "285 F.3d 336",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9445180
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "342",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/285/0336-01"
+      ]
+    },
+    {
+      "cite": "415 U.S. 528",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6178436
+      ],
+      "weight": 3,
+      "year": 1974,
+      "pin_cites": [
+        {
+          "parenthetical": "emphasis added"
+        },
+        {
+          "parenthetical": "emphasis added"
+        },
+        {
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/415/0528-01"
+      ]
+    },
+    {
+      "cite": "494 U.S. 259",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5121
+      ],
+      "weight": 3,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "272",
+          "parenthetical": "citations omitted"
+        },
+        {
+          "parenthetical": "citations omitted"
+        },
+        {
+          "parenthetical": "citations omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/494/0259-01"
+      ]
+    },
+    {
+      "cite": "531 U.S. 533",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9505810
+      ],
+      "weight": 5,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "557",
+          "parenthetical": "Scalia, J., dissenting"
+        },
+        {
+          "parenthetical": "Scalia, J., dissenting"
+        },
+        {
+          "parenthetical": "Scalia, J., dissenting"
+        },
+        {
+          "page": "557"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/531/0533-01"
+      ]
+    },
+    {
+      "cite": "507 U.S. 619",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6235767
+      ],
+      "weight": 3,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "631",
+          "parenthetical": "\"[S]ince we have never squarely addressed the issue, and have at most assumed [it], we are free to address the issue on the merits.\""
+        },
+        {
+          "parenthetical": "\"[S]ince we have never squarely addressed the issue, and have at most assumed [it], we are free to address the issue on the merits.\""
+        },
+        {
+          "parenthetical": "\"[S]ince we have never squarely addressed the issue, and have at most assumed [it], we are free to address the issue on the merits.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/507/0619-01"
+      ]
+    },
+    {
+      "cite": "554 U.S. 570",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3677081
+      ],
+      "weight": 3,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "parenthetical": "characterizing statement in previous decision as \"dictum\" because \"the point was not at issue and was not argued\" and refusing to follow that \"dictum\""
+        },
+        {
+          "parenthetical": "characterizing statement in previous decision as \"dictum\" because \"the point was not at issue and was not argued\" and refusing to follow that \"dictum\""
+        },
+        {
+          "parenthetical": "characterizing statement in previous decision as \"dictum\" because \"the point was not at issue and was not argued\" and refusing to follow that \"dictum\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/554/0570-01"
+      ]
+    },
+    {
+      "cite": "734 F.3d 323",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3717861
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "335",
+          "parenthetical": "holding that a previous case, which assumed a sentencing enhancement applied, \"did not dictate th[at] outcome\" because the issue \"was not contested\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/734/0323-01"
+      ]
+    },
+    {
+      "cite": "808 F.3d 972",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4366676
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "977",
+          "parenthetical": "expressly rejecting the view that an observation on an issue not briefed and argued to the court in an earlier case constituted a \"holding\" on that issue and refusing to follow that \"passing observation\""
+        },
+        {
+          "page": "977"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/808/0972-01"
+      ]
+    },
+    {
+      "cite": "363 F.3d 341",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9266010
+      ],
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "345"
+        },
+        {
+          "page": "345"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/363/0341-01"
+      ]
+    },
+    {
+      "cite": "56 F.3d 551",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11328134
+      ],
+      "weight": 2,
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "555"
+        },
+        {
+          "page": "555"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/56/0551-01"
+      ]
+    },
+    {
+      "cite": "32 F.3d 876",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1844388
+      ],
+      "weight": 2,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "888"
+        },
+        {
+          "page": "888-90"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/32/0876-01"
+      ]
+    },
+    {
+      "cite": "700 F.3d 751",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3637880
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "754"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/700/0751-01"
+      ]
+    },
+    {
+      "cite": "798 F.3d 900",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4332769
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "904"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/798/0900-01"
+      ]
+    },
+    {
+      "cite": "714 F.3d 232",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5868847
+      ],
+      "weight": 6,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "237-38",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "238"
+        },
+        {
+          "page": "238"
+        },
+        {
+          "page": "238"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/714/0232-01"
+      ]
+    },
+    {
+      "cite": "836 F.3d 1305",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4353618
+      ],
+      "weight": 3,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1314",
+          "parenthetical": "holding same"
+        },
+        {
+          "page": "1314"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/836/1305-01"
+      ]
+    },
+    {
+      "cite": "513 U.S. 10",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1330519
+      ],
+      "weight": 3,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "11"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/513/0010-01"
+      ]
+    },
+    {
+      "cite": "885 F.3d 300",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516310
+      ],
+      "weight": 7,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "308",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "307-09"
+        },
+        {
+          "page": "305-06"
+        },
+        {
+          "page": "306-07"
+        },
+        {
+          "page": "305-09"
+        },
+        {
+          "page": "309"
+        },
+        {
+          "page": "308",
+          "parenthetical": "distinguishing Etienne on the basis that the Guidelines \"require[ ] us to consider a crime's contemporary meaning, not its common law meaning\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/885/0300-01"
+      ]
+    },
+    {
+      "cite": "533 F.3d 250",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4039499
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "254-55"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/533/0250-01"
+      ]
+    },
+    {
+      "cite": "495 U.S. 575",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        634101
+      ],
+      "weight": 9,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "600-02"
+        },
+        {
+          "page": "598"
+        },
+        {
+          "page": "600"
+        },
+        {
+          "page": "598"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/495/0575-01"
+      ]
+    },
+    {
+      "cite": "553 F.3d 732",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3718200
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "737",
+          "parenthetical": "citing Taylor v. United States , 495 U.S. 575, 600-02, 110 S.Ct. 2143, 109 L.Ed.2d 607 (1990) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/553/0732-01"
+      ]
+    },
+    {
+      "cite": "568 U.S. 266",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12407459
+      ],
+      "weight": 5,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "272",
+          "parenthetical": "alterations and internal quotation marks omitted"
+        },
+        {
+          "parenthetical": "alterations and internal quotation marks omitted"
+        },
+        {
+          "parenthetical": "alterations and internal quotation marks omitted"
+        },
+        {
+          "page": "279"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/568/0266-01"
+      ]
+    },
+    {
+      "cite": "726 F.3d 503",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4074542
+      ],
+      "weight": 2,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "509"
+        },
+        {
+          "page": "516"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/726/0503-01"
+      ]
+    },
+    {
+      "cite": "848 F.3d 180",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12277314
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "182-83"
+        },
+        {
+          "page": "186-87",
+          "parenthetical": "applying categorical approach to define \"attempting\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/848/0180-01"
+      ]
+    },
+    {
+      "cite": "541 U.S. 615",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5878891
+      ],
+      "weight": 3,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "631-32",
+          "parenthetical": "Scalia, J., concurring in the judgment"
+        },
+        {
+          "parenthetical": "Scalia, J., concurring in the judgment"
+        },
+        {
+          "parenthetical": "Scalia, J., concurring in the judgment"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/541/0615-01"
+      ]
+    },
+    {
+      "cite": "556 U.S. 332",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653882
+      ],
+      "weight": 5,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "343",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "343"
+        },
+        {
+          "parenthetical": "Scalia, J., concurring in the judgment"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/556/0332-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 924",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(c)(1)(A)",
+          "parenthetical": "\"Count 3\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 U.S.C. \u00a7\u00a7 841",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(1) and (b)(1)(C)",
+          "parenthetical": "\"Count 2\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7\u00a7 922",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(g)(1)"
+        },
+        {
+          "page": "(g)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "854 F.3d 261",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12276878
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "265"
+        },
+        {
+          "page": "265"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/854/0261-01"
+      ]
+    },
+    {
+      "cite": "21 U.S.C. \u00a7 846",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "888"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "387 F.3d 329",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9153346
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "333",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/387/0329-01"
+      ]
+    },
+    {
+      "cite": "199 F.3d 694",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1753206
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "703",
+          "parenthetical": "defining dictum as a \"statement in a judicial opinion that could have been deleted without seriously impairing the analytical foundations of the holding\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/199/0694-01"
+      ]
+    },
+    {
+      "cite": "32 F.3d 876",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1844388
+      ],
+      "weight": 6,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "887"
+        },
+        {
+          "page": "888"
+        },
+        {
+          "page": "888, 890"
+        },
+        {
+          "page": "891",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/32/0876-01"
+      ]
+    },
+    {
+      "cite": "885 F.3d 300",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516310
+      ],
+      "year": 2018,
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/885/0300-01"
+      ]
+    },
+    {
+      "cite": "21 U.S.C. \u00a7 846",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 1
+    }
+  ],
+  "analysis": {
+    "cardinality": 1204,
+    "char_count": 32497,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25954042108246467
+    },
+    "sha256": "bf0be7ce1a7940cef216fe808033f4433f7ede8cd65de560ec1701f0e0f124bf",
+    "simhash": "1:ea4ad754a98d5f42",
+    "word_count": 5137
+  },
+  "last_updated": "2024-02-27T18:47:13.464613+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before MOTZ, KING, and THACKER, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff - Appellee,\nv.\nThomas Edward NORMAN, Defendant - Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "DIANA GRIBBON MOTZ, Circuit Judge:\nThe district court found Thomas Edward Norman guilty of being a felon in possession of a firearm, possessing heroin and cocaine with intent to distribute, and possessing a firearm in furtherance of a drug trafficking crime. On the basis of his prior conviction for conspiracy to possess cocaine and cocaine base with intent to distribute, in violation of 21 U.S.C. \u00a7 846, the court applied an effective six-level enhancement to Norman's sentence under United States Sentencing Guidelines (U.S.S.G.) \u00a7 2K2.1(a)(4)(A). Norman appeals the denial of his motion to suppress and the imposition of the enhancement. For the reasons that follow, we affirm.\nI.\nWe relate the facts relevant to the suppression motion in the light most favorable to the Government, the prevailing party before the district court. See United States v. Bullette , 854 F.3d 261, 265 (4th Cir. 2017).\nOn December 7, 2016, officers with the United States Marshals Fugitive Task Force and the local sheriff's office received information that Norman, wanted on an outstanding warrant for violating the terms of his supervised release, could be found in a black Camry on Archer Road in Spartanburg, South Carolina. Arriving on the scene, the officers approached the vehicle, removed Norman, and placed him under arrest pursuant to the outstanding warrant. They then searched Norman and found a large amount of cash and a cell phone in his pockets. The officers also removed and searched the sole passenger in the vehicle, Princess Harrison; they found a baggie in her hair, which she admitted contained cocaine residue.\nWhen officers placed the cash seized from Norman's person on the driver's side seat of the Camry, they saw additional cash on the car's floorboard. The officers later ascertained that the total amount of cash recovered from Norman's person and the floorboard was $1,244. The officers also observed a small tied-up quarter baggie sitting behind the gear stick on the center console of the vehicle. One officer testified that, based on the baggie's distinctive appearance and his seventeen years of experience with narcotics investigations, he believed the baggie contained contraband. The baggie's contents later tested positive for heroin.\nAfter arresting Norman and Harrison and observing the cash and baggie in plain view, the officers conducted an extensive search of the vehicle. They subsequently located packages containing cocaine and \"molly\" (a street term for powdered ecstasy) under a bag on the floor of the back seat and a firearm under the driver's side seat.\nOn June 13, 2017, a federal grand jury indicted Norman on three counts: (1) possession of a firearm and ammunition by a felon, in violation of 18 U.S.C. \u00a7\u00a7 922(g)(1), 924(a)(2), and 924(e) (\"Count 1\"); (2) possession with intent to distribute a quantity of heroin and cocaine, in violation of 21 U.S.C. \u00a7\u00a7 841(a)(1) and (b)(1)(C) (\"Count 2\"); and (3) possession of a firearm in furtherance of a drug trafficking crime, in violation of 18 U.S.C. \u00a7 924(c)(1)(A) (\"Count 3\").\nThe case proceeded to a bench trial. After the close of the Government's case, Norman moved to suppress the drugs and firearm recovered from the Camry as fruits of an illegal search. The district court denied his motion, and later found Norman guilty on all three counts.\nFollowing Norman's conviction, the district court asked the United States Probation Office to prepare a Presentence Investigation Report (\"PSR\"). For Count 1, the Probation Office calculated a base offense level of 20. This included an effective six-level enhancement under U.S.S.G. \u00a7 2K2.1(a)(4)(A), on the basis that a prior conviction for \"Conspiracy to [Possess with Intent to Distribute] Cocaine and Cocaine Base\" under 21 U.S.C. \u00a7 846 constituted a \"controlled substance offense.\" With an additional two-level enhancement for a stolen firearm and a criminal history category of VI, Norman's resulting Guidelines range was 84 to 105 months' imprisonment. Counts 1 and 2 were consolidated pursuant to U.S.S.G. \u00a7 3D1.2(c). Because Count 3 required a mandatory 60-month consecutive term of imprisonment, Norman's effective Guidelines range under U.S.S.G. \u00a7 5G1.2(a) was 144 to 165 months.\nAt his sentencing hearing on March 27, 2018, Norman's sole objection was to the criminal history points associated with a 2005 conviction in state court. The court overruled that objection. The district court then sentenced Norman to 156 months of imprisonment, consisting of 96 months for Counts 1 and 2 and 60 consecutive months for Count 3, followed by a five-year term of supervised release.\nThis appeal followed.\nII.\nNorman first challenges the district court's denial of his motion to suppress the fruits of the warrantless search of the Camry. We review the court's legal conclusions de novo and its factual findings for clear error. Bullette , 854 F.3d at 265.\nThe district court denied Norman's motion on the basis of two exceptions to the warrant requirement, finding both that the search was \"incident to an arrest\" and that the officers \"had probable cause to search because ... there was in plain view evidence of drugs in the car.\" On appeal, the Government primarily maintains that the warrantless search was valid as a search incident to the arrest of Princess Harrison. Although Norman raises a host of arguments challenging the applicability of several exceptions to the warrant requirement, he offers no rebuttal to this argument and so has abandoned any challenge to it.\nEven if that were not so, we would agree with the Government that the officers' search of the Camry was a valid search incident to the arrest of Harrison. Police may conduct a warrantless search of a vehicle \"incident to a lawful arrest when it is reasonable to believe evidence relevant to the crime of arrest might be found in the vehicle.\" Arizona v. Gant , 556 U.S. 332, 343, 129 S.Ct. 1710, 173 L.Ed.2d 485 (2009) (internal quotation marks omitted). After finding a bag of white powder in Harrison's hair - which she admitted to the arresting officer was cocaine - and observing a suspicious baggie and a large amount of cash in plain view, the officers had a \"reasonable basis\" to believe they might find additional drugs in the Camry in which Harrison, an arrestee, was a passenger. Id. at 343, 129 S.Ct. 1710 ; see also Thornton v. United States , 541 U.S. 615, 631-32, 124 S.Ct. 2127, 158 L.Ed.2d 905 (2004) (Scalia, J., concurring in the judgment).\nIII.\nHaving concluded that Norman's only challenge to his conviction fails, we turn to his challenge to the six-level Guidelines enhancement. Ordinarily, we review de novo whether a conviction qualifies as a predicate offense under the Guidelines. United States v. Dozier , 848 F.3d 180, 182-83 (4th Cir. 2017). However, because Norman failed to object to the application of the enhancement before the district court, we can review only for plain error. United States v. Carthorne , 726 F.3d 503, 509 (4th Cir. 2013) ; see also Fed. R. Crim. P. 52(b). To establish plain error, a defendant must demonstrate (1) that an error was made, (2) that it was plain, (3) that it affected his substantial rights, and (4) that it is the type of error that \"seriously affects the fairness, integrity or public reputation of judicial proceedings.\" Henderson v. United States , 568 U.S. 266, 272, 133 S.Ct. 1121, 185 L.Ed.2d 85 (2013) (alterations and internal quotation marks omitted).\nA.\n1.\nWe first consider whether the district court erred in its Guidelines analysis.\nThe Sentencing Guidelines provide that a defendant convicted under 18 U.S.C. \u00a7 922(g)(1) will have a base offense level of 20 if he has a prior conviction for a \"controlled substance offense.\" U.S.S.G. \u00a7 2K2.1(a)(4). \"Controlled substance offense\" is defined in U.S.S.G. \u00a7 4B1.2(b), id. \u00a7 2K2.1 cmt. n.1, the commentary to which defines \"controlled substance offense\" to include the offenses of \"aiding and abetting, conspiring, and attempting to commit such offenses,\" id. \u00a7 4B1.2 cmt. n.1.\nCourts employ a categorical approach to determine whether a conviction qualifies as a predicate offense under the Sentencing Guidelines. United States v. Seay , 553 F.3d 732, 737 (4th Cir. 2009) (citing Taylor v. United States , 495 U.S. 575, 600-02, 110 S.Ct. 2143, 109 L.Ed.2d 607 (1990) ). This approach involves two steps. The first requires us to distill a \"generic\" definition of the predicate offense. Taylor , 495 U.S. at 598, 110 S.Ct. 2143. The second requires us to determine whether the conviction at issue constitutes a conviction of that generic offense. Id. at 600, 110 S.Ct. 2143. We do this by comparing the elements of the generic offense to the elements of the defendant's offense of conviction. If the offense of conviction criminalizes conduct broader than that encompassed by the generic offense, then the conviction does not categorically qualify under the Guidelines. United States v. Chacon , 533 F.3d 250, 254-55 (4th Cir. 2008).\nIn this case, the district court applied a base offense level of 20 on the basis of Norman's 2008 conviction for conspiracy to possess cocaine and cocaine base with intent to distribute, in violation of 21 U.S.C. \u00a7 846. This increased Norman's base offense level from 14 to 20. Taken with the two-level enhancement for a stolen firearm, application of the controlled substance offense enhancement raised Norman's Guidelines range from 46-57 months to 84-105 months. Norman concedes that actual possession of cocaine and cocaine base with intent to distribute qualifies as a controlled substance offense. But he contends that because the definition of \"conspiracy\" in 21 U.S.C. \u00a7 846 is broader than the definition of the generic crime of conspiracy, his conspiracy conviction does not qualify as a \"controlled substance offense\" under the Guidelines.\nA straightforward application of controlling precedent compels us to agree. Because the Guidelines do not define \"conspiracy\" under \u00a7 4B1.2, the term is defined by reference to the \"generic, contemporary meaning\" of the crime. Taylor , 495 U.S. at 598, 110 S.Ct. 2143. Relying on the fact that thirty-six states and the District of Columbia, Guam, Puerto Rico, and the Virgin Islands \"define conspiracy to require an overt act,\" we have expressly held that \"an overt act is an element of the generic definition of conspiracy\" as incorporated into \u00a7 4B1.2. United States v. McCollum , 885 F.3d 300, 308 (4th Cir. 2018) (internal quotation marks omitted). And it is undisputed that \"conspiracy\" under \u00a7 846 does not require an overt act. See United States v. Shabani , 513 U.S. 10, 11, 115 S.Ct. 382, 130 L.Ed.2d 225 (1994). Therefore, \u00a7 846 criminalizes a broader range of conduct than that covered by generic conspiracy, and Norman's conviction under \u00a7 846 cannot support the six-level enhancement he received. See United States v. Martinez-Cruz , 836 F.3d 1305, 1314 (10th Cir. 2016) (holding same).\nThe Government concedes that we generally apply the categorical approach to determine whether a conviction qualifies as a predicate offense under the Guidelines. Nevertheless, it offers several arguments as to why we should diverge from this established rule here. None are persuasive.\nThe Government first asserts that the commentary to \u00a7 4B1.2 somehow demonstrates that the Sentencing Commission intended to treat any relevant conspiracy crime as a controlled substance offense, regardless of whether it requires an overt act. Recall that the commentary states that \"aiding and abetting, conspiring, and attempting\" to commit a controlled substance offense meet the requirements of U.S.S.G. \u00a7 4B1.2(b). But the commentary does not define those enumerated offenses for the purpose of determining whether a given \"aiding and abetting, conspiring, or attempting\" conviction qualifies as a controlled substance offense. As we have explained, it is well settled that when the Guidelines simply name a type of offense without specifically defining it, nomenclature alone does not control; rather, we use the categorical approach to compare a potential predicate offense with the generic definition of the specified offense. See McCollum , 885 F.3d at 307-09 (applying categorical approach to define \"conspiring\" under \u00a7 4B1.2(b) to require an overt act); Dozier , 848 F.3d at 186-87 (applying categorical approach to define \"attempting\").\nNor, contrary to the Government's suggestion, does United States v. Medina-Campo , 714 F.3d 232 (4th Cir. 2013), counsel abandonment of the categorical approach here. That case required us to resolve a different question. In Medina-Campo , the issue was whether the list of enumerated offenses in the commentary to U.S.S.G. \u00a7 2L1.2, which \"include[d] the offenses of aiding and abetting, conspiring, and attempting,\" provided an exhaustive list or could include the Oregon crime of \"solicitation.\" Id. at 237-38 (internal quotation marks omitted). After careful analysis, we held that the list was not exclusive and so could include the Oregon offense, because \"solicitation\" was similar to the enumerated offenses listed in the commentary. Id. at 238.\nMedina-Campo was thus about whether an offense was similar to the enumerated offenses of \"aiding and abetting, conspiring, and attempting.\" This case, in contrast, is about whether an offense is the enumerated offense of \"conspiring.\" When answering the similar question in Medina-Campo , we expressly reaffirmed that we use \"a categorical approach\" to answer the question of \"whether a prior conviction\" is an enumerated offense. Id. at 235 ; see also id. at 238. Moreover, in resolving the question presented in Medina-Campo , we specifically acknowledged the fact that generic \"conspiring\" requires an overt act. Id. at 238. Rather than offering the Government support, Medina-Campo thus substantially undermines its argument.\nTaking a different tack, the Government relies on out-of-circuit caselaw to argue that we need not apply the categorical approach because the Sentencing Commission must have intended to include federal drug trafficking conspiracies in its definition of \"controlled substance offenses.\" See United States v. Rivera-Constantino , 798 F.3d 900, 904 (9th Cir. 2015) ; United States v. Rodriguez-Escareno , 700 F.3d 751, 754 (5th Cir. 2012). But we rejected precisely this argument in McCollum . There, we held that \u00a7 4B1.2 's text and commentary \"support[ed] the application of Taylor 's categorical approach to predicate crimes under both state and federal law.\" See McCollum , 885 F.3d at 305-06. We found that our precedent, too, \"offer[ed] no basis for analyzing the laws of different sovereigns under different standards.\" Id. at 306-07. Here again, the Government identifies nothing in the Guidelines or our case law that would support treating federal and state crimes differently for the purposes of \u00a7 4B1.2(b).\nWe therefore hold that a \"conspiracy\" conviction under \u00a7 846 is a categorical mismatch to the generic crime of conspiracy enumerated in \u00a7 4B1.2(b). As Judge Ebel explained in reaching the same conclusion for the Tenth Circuit, courts that have held to the contrary have all \"divined the intent of the Sentencing Commission without offering any evidence of that intent.\" Martinez-Cruz , 836 F.3d at 1314. Like the Tenth Circuit, \"we find no evidence\" of the intent of the Sentencing Commission \"regarding whether a conspiracy conviction requires an overt act - except for the plain language of the guideline, which uses a generic, undefined term, ripe for the categorical approach.\" Id.\nIn sum, the Government's lengthy brief offers no reasoned basis to ignore our binding precedent or abandon the categorical approach. We can only follow the same approach we have consistently applied to define enumerated offenses since the Supreme Court announced its decision in Taylor - a categorical one. Our faithful application of that approach leads inevitably to the conclusion that the district court erred in enhancing Norman's sentence under \u00a7 2K2.1(a)(4)(A).\n2.\nNotwithstanding this analysis, the Government, now joined by the dissent, insists that we have already held to the contrary. It is true that in a series of decades-old cases, this court assumed that \u00a7 846 conspiracy convictions qualified as controlled substance offenses. See United States v. Kennedy , 32 F.3d 876, 888 (4th Cir. 1994) ; United States v. Walton , 56 F.3d 551, 555 (4th Cir. 1995) ; United States v. Brandon , 363 F.3d 341, 345 (4th Cir. 2004). But not one of these cases \"held\" that an \u00a7 846 conspiracy qualified as a controlled substance offense.\nIn Kennedy , for example, the parties contested two Guidelines issues - neither of which involved whether a \u00a7 846 conspiracy conviction qualifies as a controlled substance offense. The defendants in Kennedy raised a host of challenges to their convictions and sentences on appeal, none of which are relevant here. On cross-appeal, however, the Government argued that the district court incorrectly held that it had no authority to find facts as to when a specific defendant's \u00a7 846 conspiracy started, for the purposes of determining which prior felony convictions were recent enough to serve as predicates in that defendant's case . In reply, the defendants argued that the district court had no such authority and challenged the applicability of the career offender enhancement solely on the ground that the Sentencing Commission \"exceeded its statutory mandate in including drug conspiracy offenses in the definition of controlled substance offense.\" 32 F.3d at 888-90. Neither party addressed the question of whether the defendant's \u00a7 846 conspiracy conviction qualified as a \"controlled substance offense\" under the Guidelines, and neither raised any argument relating to the categorical approach.\nThe Kennedy court ruled for the Government on both issues: it held that the district court had the authority to find facts relating to the \u00a7 846 offense and that the Sentencing Commission did not exceed its statutory authority in including drug conspiracy offenses within its definition of \"controlled substance offense\" in the Guidelines. In the course of reaching these holdings, the court remarked in passing that \"conspiracy to distribute cocaine in violation of 21 U.S.C. \u00a7 846 [ ] would clearly qualify as a career offender offense under the Guidelines provisions and commentaries.\" Id. at 888. As this court and the Supreme Court have repeatedly recognized, such a \"passing observation\" on an issue neither briefed nor disputed does not constitute a holding. See, e.g. , United States v. McLeod , 808 F.3d 972, 977 (4th Cir. 2015) (expressly rejecting the view that an observation on an issue not briefed and argued to the court in an earlier case constituted a \"holding\" on that issue and refusing to follow that \"passing observation\"); United States v. Hemingway , 734 F.3d 323, 335 (4th Cir. 2013) (holding that a previous case, which assumed a sentencing enhancement applied, \"did not dictate th[at] outcome\" because the issue \"was not contested\"); see also D.C. v. Heller , 554 U.S. 570, 625 n.25, 128 S.Ct. 2783, 171 L.Ed.2d 637 (2008) (characterizing statement in previous decision as \"dictum\" because \"the point was not at issue and was not argued\" and refusing to follow that \"dictum\"); Brecht v. Abrahamson , 507 U.S. 619, 631, 113 S.Ct. 1710, 123 L.Ed.2d 353 (1993) (\"[S]ince we have never squarely addressed the issue, and have at most assumed [it], we are free to address the issue on the merits.\"); Legal Servs. Corp. v. Velazquez , 531 U.S. 533, 557, 121 S.Ct. 1043, 149 L.Ed.2d 63 (2001) (Scalia, J., dissenting) (explaining that \"judicial decisions do not stand as binding 'precedent' for points that were not raised, not argued, and hence not analyzed\" and collecting cases). Accordingly, as in McLeod , the Government can take \"little comfort\" here from \"passing observation[s]\" in earlier cases. 808 F.3d at 977.\nOur friend in dissent ignores all this authority. He suggests that even though the question of whether an \u00a7 846 conspiracy qualifies as a controlled substance offense was \"not raised, not argued, and hence not analyzed\" in Kennedy , Velazquez , 531 U.S. at 557, 121 S.Ct. 1043, Kennedy nevertheless decided that antecedent issue because the remand order directed the district court to sentence the defendant as a career offender if his \"conspiratorial activities began on or before\" a critical date. The Supreme Court, however, has repeatedly rejected such an approach. As the Court has explained, courts often decide \"particular legal issues while assuming without deciding the validity of antecedent propositions, and such assumptions ... are not binding in future cases that directly raise the questions.\" United States v. Verdugo-Urquidez , 494 U.S. 259, 272, 110 S.Ct. 1056, 108 L.Ed.2d 222 (1990) (citations omitted) (citing numerous cases). Indeed, the Court has long and expressly held, with respect to perhaps the most essential antecedent issue - jurisdiction - that it is not \"bound\" by cases that \"assumed that jurisdiction existed ... or so stated without analysis .\" Hagans v. Lavine , 415 U.S. 528, 533 n.5, 94 S.Ct. 1372, 39 L.Ed.2d 577 (1974) (emphasis added) (citing cases dating back to the early nineteenth century). This is so because, under our adversarial system of justice, an unchallenged and untested assumption is simply not a holding that binds future courts.\nThus, this court's prior assumption that \u00a7 846 conspiracy convictions qualify as controlled substance offenses does not control our analysis here.\nB.\nHaving found that the district court erred, we must determine whether that error was plain. An error is plain \"if the settled law of the Supreme Court or this circuit establishes that an error has occurred.\" United States v. Maxwell , 285 F.3d 336, 342 (4th Cir. 2002) (internal quotation marks omitted). \"[W]hether a legal question was settled or unsettled at the time of trial, it is enough that an error be 'plain' at the time of appellate consideration ....\" Henderson , 568 U.S. at 279, 133 S.Ct. 1121 (internal quotation marks omitted).\nNorman contends that our decision in McCollum renders the error here plain. As noted above, in McCollum , we applied the categorical approach to decide whether a defendant's prior conviction for conspiracy to commit murder in aid of racketeering under 21 U.S.C. \u00a7 1959(a)(5) triggered U.S.S.G. \u00a7 2K2.1 's crime of violence enhancement. McCollum , 885 F.3d at 305-09. We concluded that because conspiracy under \u00a7 1959(a)(5) does not require an overt act, it covers a broader range of conduct than that covered by generic conspiracy and so the defendant's conviction could not support his enhanced sentence. Id. at 309. We subsequently applied McCollum in an unpublished opinion holding that because conspiracy under \u00a7 846 also lacks an overt act requirement, it does not qualify as a \"controlled substance offense\" under \u00a7 4B1.2. United States v. Whitley , 737 F. App'x 147, 148-49 (4th Cir. 2018).\nWe agree with Norman that McCollum controls this case. But prior to today's decision, Kennedy and its progeny sufficiently muddied the water such that \"the district court's error was not so clear or obvious as to\" be plain. Carthorne , 726 F.3d at 516. Indeed, another panel of this court recently suggested as much in an unpublished opinion. See United States v. Chavez-Lopez , 767 F. App'x 431, 437 (4th Cir. 2019) (\" Kennedy and subsequent cases cast enough doubt on [defendant's] argument that any error isn't clear or obvious enough to be plain.\"). Accordingly, we conclude that the district court's error here was not plain and so provides no basis for reversal.\nIV.\nFor the foregoing reasons, the judgment of the district court is\nAFFIRMED .\nRelying on Etienne v. Lynch , 813 F.3d 135 (4th Cir. 2015), the Government argues that prior to McCollum , we had defined \"generic conspiracy\" as not requiring an overt act. But, as the McCollum court explained, Etienne concerned the common law definition of conspiracy as incorporated into the Immigration and Nationality Act, whereas McCollum and the case at hand concern the generic definition of conspiracy as incorporated into the Guidelines. McCollum , 885 F.3d at 308 (distinguishing Etienne on the basis that the Guidelines \"require[ ] us to consider a crime's contemporary meaning, not its common law meaning\").\nPuzzlingly, the Government also contends that the categorical approach applies only to \"prior\" felony convictions and so should not apply here. We have held to the contrary. See United States v. Simms , 914 F.3d 229, 246-47 (4th Cir. 2019) (en banc). In any event, the argument is totally inapt because Norman's 2003 conspiracy conviction was prior to the 2016 convictions on appeal here.\nThe Government additionally offers several policy arguments for why we should not reach the result we do. But we think it best to leave consideration of those arguments to the Sentencing Commission. If the Commission wishes for \u00a7 2K2.1 to reach all federal conspiracy offenses, regardless of whether they require an overt act, it can amend the Guidelines accordingly. See, e.g. , U.S.S.G. \u00a7 4B1.2(a)(2) (defining \"crime of violence\" to include \"unlawful possession of a firearm described in 26 U.S.C. \u00a7 5845(a) or explosive material as defined in 18 U.S.C. \u00a7 841(c)\").\nWalton and Brandon (also relied on by the Government, but not the dissent) similarly never held that a \u00a7 846 conspiracy was a controlled substance offense under \u00a7 4B1.2. The only question in Walton was whether a conviction for \"us[ing] the public telephone system in committing\" a \"conspiracy to distribute cocaine\" constituted \"aiding and abetting\" under \u00a7 4B1.1. 56 F.3d at 555. The only question in Brandon was whether the defendant's prior conviction for common law robbery qualified as a felony crime of violence under \u00a7 4B1.1. 363 F.3d at 345.",
+        "type": "majority",
+        "author": "DIANA GRIBBON MOTZ, Circuit Judge:"
+      },
+      {
+        "text": "KING, Circuit Judge, concurring in part and dissenting in part:\nAlthough I join my good colleagues in rejecting defendant Thomas Norman's Fourth Amendment contention and affirming the judgment, I do not agree that United States v. McCollum , 885 F.3d 300 (4th Cir. 2018), controls the sentencing issue and that the district court erred under that decision. As I see it, the controlling precedent is actually United States v. Kennedy , 32 F.3d 876 (4th Cir. 1994), which supports the district court's conclusion that the offense of conspiracy to distribute controlled substances, in violation of 21 U.S.C. \u00a7 846, qualifies as a \"controlled substance offense\" pursuant to section 2K2.1(a)(4)(A) of the Sentencing Guidelines. In the circumstances, I would decide the sentencing issue on the first prong of plain error review and conclude that the district court committed no error. I therefore dissent in part.\nThe panel majority sidesteps the binding Kennedy decision by characterizing Kennedy as having \"assumed \" that a \u00a7 846 conspiracy is a controlled substance offense. See ante 239-40. In Kennedy , the government cross-appealed to challenge the district court's failure to categorize as a career offender, under Guidelines section 4B1.1, a defendant convicted of a \u00a7 846 conspiracy offense. The Kennedy decision recognized that, in order to designate a defendant as a Guidelines career offender, the government must establish, in relevant part, that \"the instant offense of conviction is a felony that is ... a controlled substance offense.\" See 32 F.3d at 887 (quoting USSG \u00a7 4B1.1 ). And the career offender provision in Kennedy incorporates the same definition of \"controlled substance offense\" used in the Guidelines provision at issue here. See USSG \u00a7 4B1.2(b) (defining \"controlled substance offense\" for career offender provision); see also id. \u00a7 2K2.1 cmt. n.1 (incorporating section 4B1.2 definitions).\nContrary to today's panel majority, the Kennedy parties' arguments regarding the career offender designation very much \"involved whether a \u00a7 846 conspiracy conviction qualifies as a controlled substance offense.\" See ante 239. That is, Kennedy addressed and answered three questions relevant to the defendant's career offender status: (1) the question of whether, as argued by the government, the district court had incorrectly concluded that it lacked authority to render a factual finding essential to categorizing the defendant as a career offender; (2) the question of whether, as argued by the defendant, the Sentencing Commission had exceeded its statutory mandate by including conspiracy in the definition of a controlled substance offense; and (3) the threshold question of whether a \u00a7 846 conspiracy is even a controlled substance offense at all.\nUnderstandably, the Kennedy decision first decided the threshold question, i.e., whether a \u00a7 846 conspiracy constitutes a controlled substance offense within the meaning of Guidelines section 4B1.1. In so doing, Kennedy reviewed the pertinent section 4B1.2 definition and concluded that the defendant's \"instant offense of conviction - conspiracy to distribute cocaine in violation of 21 U.S.C. \u00a7 846 - would clearly qualify as a career offender offense under the Guidelines provisions and commentaries.\" See 32 F.3d at 888. Only then did the Kennedy panel deem it necessary and appropriate to resolve the additional questions raised by the parties. See id. at 888, 890 (proceeding to the defendant's contention that \"his conspiracy conviction [nonetheless] cannot qualify as a 'controlled substance offense' \" because \"the Sentencing Commission exceeded its statutory mandate in including drug conspiracy offenses in the ['controlled substance offense'] definition,\" and to the government's argument that the district court possessed \"the authority to make a factual finding, based on the trial record, as to when the instant drug conspiracy offense actually started\").\nHaving ruled that the Sentencing Commission did not exceed its statutory mandate and that the district court had fact-finding authority, the Kennedy decision vacated the defendant's sentence and remanded for further proceedings on the defendant's career offender status. Significantly, we limited the Kennedy remand to the factual issue of when the instant \u00a7 846 offense began, instructing that \"[i]f the court determines that conspiratorial activities began on or before [the critical date], then it must find [the defendant] to be a career offender.\" See Kennedy , 32 F.3d at 891 (emphasis added). By imposing that limitation, the panel underscored that Kennedy had definitively decided that a \u00a7 846 conspiracy qualifies as a controlled substance offense, obviating any further debate or consideration of the question.\nIn these circumstances, it is incorrect for today's panel majority to dismiss as a \"passing observation\" or mere \"dictum\" Kennedy 's conclusion that a \u00a7 846 conspiracy is a controlled substance offense. See ante 240-41; see also Pittston Co. v. United States , 199 F.3d 694, 703 (4th Cir. 1999) (defining dictum as a \"statement in a judicial opinion that could have been deleted without seriously impairing the analytical foundations of the holding\"). Rather, our Kennedy decision constitutes controlling precedent on the controlled substance offense question.\nBecause my friends have failed to adhere to the Kennedy precedent, I respectfully dissent as to that aspect of the majority decision.\nTo the extent that the 2018 McCollum decision relied on by the panel majority conflicts with our 1994 decision in Kennedy , the earlier of those decisions - Kennedy - controls. See McMellon v. United States , 387 F.3d 329, 333 (4th Cir. 2004) (en banc) (explaining that \"one panel cannot overrule another\").",
+        "type": "concurring-in-part-and-dissenting-in-part",
+        "author": "KING, Circuit Judge, concurring in part and dissenting in part:"
+      }
+    ],
+    "attorneys": [
+      "ARGUED: Emily Deck Harrill, OFFICE OF THE FEDERAL PUBLIC DEFENDER, Columbia, South Carolina, for Appellant. Brook Bowers Andrews, OFFICE OF THE UNITED STATES ATTORNEY, Columbia, South Carolina, for Appellee. ON BRIEF: Sherri A. Lydon, United States Attorney, Columbia, South Carolina, Jennifer E. Wells, Special Assistant United States Attorney, OFFICE OF THE UNITED STATES ATTORNEY, Greenville, South Carolina, for Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff - Appellee,\nv.\nThomas Edward NORMAN, Defendant - Appellant.\nNo. 18-4214\nUnited States Court of Appeals, Fourth Circuit.\nArgued: May 7, 2019\nDecided: August 15, 2019\nARGUED: Emily Deck Harrill, OFFICE OF THE FEDERAL PUBLIC DEFENDER, Columbia, South Carolina, for Appellant. Brook Bowers Andrews, OFFICE OF THE UNITED STATES ATTORNEY, Columbia, South Carolina, for Appellee. ON BRIEF: Sherri A. Lydon, United States Attorney, Columbia, South Carolina, Jennifer E. Wells, Special Assistant United States Attorney, OFFICE OF THE UNITED STATES ATTORNEY, Greenville, South Carolina, for Appellee.\nBefore MOTZ, KING, and THACKER, Circuit Judges.\nAffirmed by published opinion. Judge Motz wrote the opinion, in which Judge Thacker joined. Judge King wrote an opinion concurring in part and dissenting in part."
+  },
+  "file_name": "0232-01",
+  "first_page_order": 232,
+  "last_page_order": 243
+}

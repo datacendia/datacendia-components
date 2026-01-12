@@ -1,0 +1,59 @@
+{
+  "id": 12237372,
+  "name": "Ward v. United States",
+  "name_abbreviation": "Ward v. United States",
+  "decision_date": "2011-12-05",
+  "docket_number": "No. 11-7137",
+  "first_page": "1085",
+  "last_page": "1085",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1085"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.635,
+    "sha256": "026cf0c0a2bdfb7fca594daefd78a078f64d094bb0ae2d849fd0e9abc203b10d",
+    "simhash": "1:018a9953ca805149",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ward v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7137.\nWard v. United States."
+  },
+  "file_name": "1085-10",
+  "first_page_order": 1167,
+  "last_page_order": 1167
+}

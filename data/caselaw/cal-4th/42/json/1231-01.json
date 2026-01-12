@@ -1,0 +1,771 @@
+{
+  "id": 3673355,
+  "name": "In re DENNIS HAROLD LAWLEY on Habeas Corpus",
+  "name_abbreviation": "In re Lawley",
+  "decision_date": "2008-03-24",
+  "docket_number": "No. S089463",
+  "first_page": "1231",
+  "last_page": "1250",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "42 Cal. 4th 1231"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal.",
+    "id": 9021,
+    "name": "Supreme Court of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "10 Cal.Rptr.2d 910",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "8 Cal.App.4th 1214",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        2320545
+      ],
+      "pin_cites": [
+        {
+          "page": "1217"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/8/1214-01"
+      ]
+    },
+    {
+      "cite": "394 U.S. 286",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6170863
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "295"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/394/0286-01"
+      ]
+    },
+    {
+      "cite": "61 P.3d 402",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "129 Cal.Rptr.2d 605",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Cal.4th 783",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        777231
+      ],
+      "pin_cites": [
+        {
+          "page": "814"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/29/0783-01"
+      ]
+    },
+    {
+      "cite": "480 U.S. 39",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1131144
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/480/0039-01"
+      ]
+    },
+    {
+      "cite": "397 P.2d 1001",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.Rptr. 9",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "62 Cal.2d 218",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2334088
+      ],
+      "pin_cites": [
+        {
+          "page": "225"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/62/0218-01"
+      ]
+    },
+    {
+      "cite": "855 P.2d 391",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1965,
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 Cal.Rptr.2d 373",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1965,
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 Cal.4th 813",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1998553
+      ],
+      "year": 1965,
+      "pin_cites": [
+        {
+          "page": "824-829"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/5/0813-01"
+      ]
+    },
+    {
+      "cite": "424 U.S. 409",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12026708
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "427, fn. 25"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/424/0409-01"
+      ]
+    },
+    {
+      "cite": "373 U.S. 83",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11716714
+      ],
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "86-87"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/373/0083-01"
+      ]
+    },
+    {
+      "cite": "473 U.S. 667",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6205331
+      ],
+      "weight": 3,
+      "year": 1963,
+      "pin_cites": [
+        {
+          "page": "674-678"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/473/0667-01"
+      ]
+    },
+    {
+      "cite": "514 U.S. 419",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1339057
+      ],
+      "weight": 3,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "432-433, 437-438"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/514/0419-01"
+      ]
+    },
+    {
+      "cite": "911 P.2d 468",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "50 Cal.Rptr.2d 281",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "12 Cal.4th 935",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1957526
+      ],
+      "pin_cites": [
+        {
+          "page": "946"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/12/0935-01"
+      ]
+    },
+    {
+      "cite": "129 P.3d 49",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal.Rptr.3d 845",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Cal.4th 1249",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3772313
+      ],
+      "pin_cites": [
+        {
+          "page": "1256"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/37/1249-01"
+      ]
+    },
+    {
+      "cite": "547 U.S. 518",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3275461
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "554"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/547/0518-01"
+      ]
+    },
+    {
+      "cite": "506 U.S. 390",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11925317
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "442"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/506/0390-01"
+      ]
+    },
+    {
+      "cite": "466 U.S. 668",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6204802
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "694"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/466/0668-01"
+      ]
+    },
+    {
+      "cite": "886 P.2d 1252",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Cal.Rptr.2d 259",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "9 Cal.4th 464",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1989397
+      ],
+      "pin_cites": [
+        {
+          "page": "474"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/9/0464-01"
+      ]
+    },
+    {
+      "cite": "387 P.2d 6",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.Rptr. 293",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "60 Cal.2d 554",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2339632
+      ],
+      "pin_cites": [
+        {
+          "page": "560, 569"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/60/0554-01"
+      ]
+    },
+    {
+      "cite": "449 P.2d 174",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1963,
+      "opinion_index": 0
+    },
+    {
+      "cite": "74 Cal.Rptr. 238",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1963,
+      "opinion_index": 0
+    },
+    {
+      "cite": "70 Cal.2d 200",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2308218
+      ],
+      "year": 1963,
+      "pin_cites": [
+        {
+          "page": "210, 217"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/70/0200-01"
+      ]
+    },
+    {
+      "cite": "887 P.2d 527",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Cal.Rptr.2d 446",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "9 Cal.4th 535",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1989421
+      ],
+      "pin_cites": [
+        {
+          "page": "546"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/9/0535-01"
+      ]
+    },
+    {
+      "cite": "855 P.2d 729",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 Cal.Rptr.2d 509",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 Cal.4th 750",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1998547
+      ],
+      "pin_cites": [
+        {
+          "page": "798, fn. 33"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/5/0750-01"
+      ]
+    },
+    {
+      "cite": "800 P.2d 1159",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "275 Cal.Rptr. 729",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 Cal.3d 1179",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4457889
+      ],
+      "pin_cites": [
+        {
+          "page": "1246"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/51/1179-01"
+      ]
+    },
+    {
+      "cite": "177 P.2d 918",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Cal.2d 709",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2211146
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/29/0709-01"
+      ]
+    },
+    {
+      "cite": "523 P.2d 229",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "114 Cal.Rptr. 429",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "11 Cal.3d 703",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2302334
+      ],
+      "pin_cites": [
+        {
+          "page": "724"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/11/0703-01"
+      ]
+    },
+    {
+      "cite": "637 P.2d 690",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1974,
+      "opinion_index": 0
+    },
+    {
+      "cite": "179 Cal.Rptr. 223",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1974,
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal.3d 408",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2013837
+      ],
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "415-417, 424"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/30/0408-01"
+      ]
+    },
+    {
+      "cite": "957 P.2d 299",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1981,
+      "opinion_index": 0
+    },
+    {
+      "cite": "75 Cal.Rptr.2d 878",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1981,
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 Cal.4th 447",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        344163
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "453-454"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/18/0447-01"
+      ]
+    },
+    {
+      "cite": "170 P.3d 153",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1998,
+      "opinion_index": 0
+    },
+    {
+      "cite": "67 Cal.Rptr.3d 781",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1998,
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.4th 630",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3673484
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "637"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/42/0630-01"
+      ]
+    },
+    {
+      "cite": "163 P.3d 853",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Cal.Rptr.3d 845",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Cal.4th 977",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3819030
+      ],
+      "pin_cites": [
+        {
+          "page": "1016"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/41/0977-01"
+      ]
+    },
+    {
+      "cite": "38 P.3d 461",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "115 Cal.Rptr.2d 614",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "27 Cal.4th 102",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1103393
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/27/0102-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1866,
+    "char_count": 47592,
+    "ocr_confidence": 0.925,
+    "pagerank": {
+      "raw": 1.0555069668843786e-07,
+      "percentile": 0.5552472364218918
+    },
+    "sha256": "aed3671635c0e6728aff4a38240d055c8bbf58513f235f0ef67edff5aa7e912e",
+    "simhash": "1:cafba94c455010bc",
+    "word_count": 7804
+  },
+  "last_updated": "2024-02-27T16:39:29.802540+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re DENNIS HAROLD LAWLEY on Habeas Corpus."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nWERDEGAR, J.\nOn January 22, 1989, Brian Seaboum shot and killed Kenneth Lawton Stewart. In the years that followed, three men were held criminally accountable for Stewart\u2019s death. Petitioner Dennis Harold Lawley was tried, convicted of first degree murder with special circumstances, and sentenced to death for hiring Brian Seaboum and Steven Mendonca to kill Stewart. Seaboum was tried and convicted of second degree murder. (People v. Seabourn (Super. Ct. Stanislaus County, 1990, No. 244904).) Steven Mendonca pleaded guilty to second degree murder for assisting Seaboum. (People v. Mendonca (Super. Ct. Stanislaus County, 1990, No. 255043).) We affirmed Lawley\u2019s conviction and sentence on automatic appeal. (People v. Lawley (2002) 27 Cal.4th 102 [115 Cal.Rptr.2d 614, 38 P.3d 461] (Lawley).)\nIn a petition for writ of habeas corpus, Lawley asserted he was factually innocent of Stewart\u2019s murder because Seaboum shot Stewart at the behest of the Aryan Brotherhood, a powerful prison gang, not at his behest. Lawley supported this assertion with, inter alia, a declaration from Seaboum himself asserting that Lawley was not involved in the murder of Stewart. We issued an order to show cause and subsequently appointed a referee to hear evidence and make factual findings. The referee has now issued his report, and the parties have filed briefs on the merits.\nThe principal question we must answer is this: Has Lawley proven to a sufficient degree of certainty that he was uninvolved in, and innocent of criminal responsibility for, Kenneth Stewart\u2019s death? We conclude he has not. Referee Judge John Griffin, after hearing extensive testimony and reviewing written evidence, concluded Seaboum\u2019s current testimony was of uncertain credibility and Lawley therefore had failed to show his innocence. Lawley himself does not now assert he was uninvolved in Stewart\u2019s death, only that Seaboum would not have killed Stewart \u201cbut for\u201d the involvement of the Aryan Brotherhood. We therefore discharge the order to show cause.\nFactual and Procedural Background\nThe Crimes and Trial\nThe following description of the crimes and trial is taken in large part from our opinion in Lawley\u2019s automatic appeal. (Lawley, supra, 27 Cal.4th at pp. 113-121.)\nOn the evening of January 22, 1989, the body of Kenneth Stewart was found on Keyes Road in Stanislaus County, dead of gunshot wounds to the back of the head. Stewart, who had been released from prison four days before his death, had a reputation for robbing dmg dealers. In the brief period following his release, Stewart was known to frequent the Del Rio Mobile Home Park in Modesto, also known as Butler\u2019s Camp. Lawley rented a cabin at Butler\u2019s Camp, and his cabin was the scene of much drag dealing.\nRicky Black, a heroin addict and felon who was also charged with Stewart\u2019s kidnapping and murder, as well as an unrelated dmg charge, testified under a grant of immunity that on the night of the killing he encountered Seaboum in Butler\u2019s Camp. Seaboum asked him if he had seen Stewart, telling him he wanted to kill Stewart and needed his help. Black agreed; he knew Stewart was in the cabin of Lawrence Woodcock and lured him out by telling him Seaboum wanted to do a drag robbery. After introducing Stewart to Seaboum, Black got into Seaboum\u2019s car with Stewart and rode a short distance, but then got out despite Seaboum\u2019s entreating him to stay. That was the last time Black saw Stewart. Seaboum later told Black he had killed Stewart and buried the murder weapon. A few days before the murder, Black had entered Lawley\u2019s cabin just as Stewart was finishing robbing and assaulting Lawley.\nTreva Coonce testified under a grant of immunity at Lawley\u2019s preliminary hearing and trial. At the preliminary hearing, Coonce, a heroin addict in jail going through withdrawal and previously a resident of Butler\u2019s Camp, testified that a few days after Stewart robbed and assaulted Lawley she heard Lawley say, in the presence of Seaboum, Coonce\u2019s boyfriend Steven Mendonca, and others, that he \u201cwould do anything to have [Stewart] taken care of\u2019 and \u201cwould pay to have that [m-r] killed.\u201d Seaboum responded that they might \u201cwork something out.\u201d Coonce saw Lawley give money to Seaboum, perhaps more than $1,000 but less than $5,000. Other business transactions were going on in the cabin at the same time, and Coonce could not say whether the payment was for killing Stewart. On the night of the murder, Coonce was in her trailer at Butler\u2019s Camp when Seaboum and Mendonca returned from killing Stewart. Later, Mendonca told her the gun used in the crime had been buried or thrown into water. At Lawley\u2019s trial, Coonce repudiated her prior statements and testimony incriminating Lawley and others.\nSharon Tripp testified she stayed at Lawley\u2019s cabin off and on in January 1989. One morning that month, she entered the cabin and saw Lawley lying on a couch, with scrapes on his hand and blood on his jacket. Lawley said he had been robbed the night before by Stewart and would \u201clike to kill the [m-r].\u201d He had a gun tucked in his pants.\nDavid Anderson, an ex-heroin addict who had previously served as a police informant, testified he visited Lawley\u2019s cabin about six to eight times in January 1989 to purchase drags. On one occasion, a gun Anderson kept under the front seat of his track, which was parked near the cabin, was stolen. When he returned to the cabin the following day, Lawley appeared to have been badly beaten. When Anderson asked if he knew who had done it, Lawley did not respond directly to him, but mentioned the name \u201cStewart.\u201d Lawley stated he had things taken care of and that \u201c[i]f the son of a bitch comes back he\u2019s a dead [m-r].\u201d While waiting to complete a drag purchase, Anderson saw Lawley, Coonce, and Mendonca enter the bathroom, leaving the door open an inch and a half. Lawley had Anderson\u2019s gun holster down the front of his pants, containing a gun Anderson believed was his. From inside the bathroom, Anderson heard Lawley say; \u201cI got this. I want this done. I got the means to get this done.\u201d Lawley also said; \u201cI can give you some tonight, but. . . you won\u2019t get the rest until it is done, and I want my property back.\u201d Mendonca said: \u201cWe know right where he is. I can get the job done.\u201d Anderson saw a hand go into a woman\u2019s purse and saw an object he believed was his stolen gun. When the three emerged from the bathroom, Coonce was carrying a purse and neither Mendonca nor Lawley had the gun. Mendonca said he wanted some drugs, he was going to take off, it would be fast, and it would be that night. Lawley packaged some cocaine and heroin and gave it to Mendonca and Coonce, telling them: \u201cIf you want the rest you have got to get the job done and I want my property back.\u201d Coonce and Mendonca then left the cabin.\nA search of Lawley\u2019s cabin two days after the killing yielded, among other items, a loaded Ruger .357 magnum pistol and unexpended .357 magnum Federal cartridges. California Department of Justice Criminalist Jerry Chisum compared bullet fragments found in, on, or near Stewart\u2019s body with bullets fired from the gun found in Lawley\u2019s cabin and testified that gun had fired the shot that killed Stewart. Witness Charles Anderson identified the gun as one he had sold to David Anderson a few months before the shooting.\nLawley, who had discharged his appointed attorney and represented himself after a competency hearing in which he was found competent to stand trial, argued to the jury that unidentified persons had framed him for the murder because he had angered them with his efforts to go down in history as \u201cthe Beast in Revelations.\u201d Lawley also attempted to establish that Seaboum had killed Stewart pursuant to an Aryan Brotherhood contract. At the time of Lawley\u2019s trial, Seaboum was unavailable to testify, as he was awaiting his own separate trial in connection with the killing. Accordingly, Lawley made an offer of proof that Monte Mullins and David Hager would testify that Seaboum had told them, inter alia, he had committed the murder at the behest of the Aryan Brotherhood. The prosecutor objected to the proffered testimony on hearsay grounds; Lawley countered that the testimony was admissible under the exception for declarations against penal interest. The trial court mled that Mullins and Hager could testify that Seaboum had admitted he was hired to kill, and did kill, Stewart, but could not testify that Seaboum identified the Aryan Brotherhood as the party that hired him. Consequently, no testimony regarding the alleged role of the Aryan Brotherhood in the Stewart murder was admitted at Lawley\u2019s trial.\nA jury convicted Lawley of single counts of murder (Pen. Code, \u00a7 187), conspiracy to commit murder (\u00a7 182, subd. (a)(1)), and solicitation to commit murder (\u00a7 653f, subd. (b)). It found true a financial-gain special-circumstance allegation. (\u00a7 190.2, subd. (a)(1).) It also found true an allegation that Lawley was armed during the commission of a felony. (\u00a7 12022, subd. (a).) The jury subsequently fixed the penalty for the murder and conspiracy counts at death; the trial court imposed sentence accordingly. On automatic appeal, we vacated as unauthorized the special circumstance finding and sentence of death on the conspiracy count, modified the judgment on the conspiracy count, and otherwise affirmed the judgment, including the sentence of death on the murder count. (Lawley, supra, 27 Cal.4th at p. 113.)\nThe Habeas Corpus Proceedings\nOn June 26, 2000, during the pendency of his automatic appeal, Lawley filed a first petition for writ of habeas corpus challenging his conviction and sentence. The petition asserted Lawley was actually innocent of murder; in support of this claim, it included, inter alia, a declaration by Brian Seaboum describing the circumstances of the killing and asserting that it was the result of an Aryan Brotherhood murder contract. The petition also claimed a violation of due process in the prosecution\u2019s failure to disclose material exculpatory evidence consisting of a letter Seaboum had written to the prosecutor after Lawley\u2019s trial, allegedly exculpating Lawley; portions of Seaboum\u2019s correctional files containing materials generated during his 1997 \u201cdebriefing\u201d from the Aryan Brotherhood, in which he likewise allegedly exonerated Lawley; and Seaboum\u2019s handwritten account of his participation in the Aryan Brotherhood.\nWe issued an order to show cause limited to these two claims. In their return, the People, represented by the Attorney General, conceded that Seaboum\u2019s statements, if tme, would establish Lawley\u2019s innocence. Consequently, the Attorney General did not object to an evidentiary hearing; because Seaboum had been awaiting trial at the time of Lawley\u2019s trial and had thus been rendered unavailable because of his constitutional privilege not to testify, Lawley had never had a judicial fomm in which to proffer such testimony establishing his innocence.\nWe appointed a referee to hear evidence and answer the following factual questions:\n1. Is Lawley factually innocent because Brian Seaboum killed Kenneth Stewart, not at Lawley\u2019s request, but solely for or at the direction of the Aryan Brotherhood or other persons?\n2. Did Brian Seaboum communicate with District Attorney James C. Brazelton, by letter or other means, after Lawley\u2019s trial? If so, what was the substance of the communication?\n3. Does the Department of Corrections (now the Department of Corrections and Rehabilitation), or any of its employees, agents, or subordinate or related entities, possess information exonerating Lawley of complicity in the killing of Stewart?\nThe referee heard testimony from 18 witnesses, including Seaboum. He considered a range of documentary evidence. After taking the matter under submission, the referee concluded (1) Lawley had not demonstrated actual innocence; (2) Seaboum communicated with Brazelton by letter, but only a single line in the letter had any bearing on Lawley\u2019s guilt or innocence; and (3) the Department of Corrections had nothing in its possession that would have materially helped Lawley.\nThe parties have filed postreference briefs. The People take no exception to the referee\u2019s report; Lawley disagrees with each of its conclusions. We consider them in turn.\nDISCUSSION\nI. Lawley\u2019s Actual Innocence Claim\nA. Standards for Deciding an Actual Innocence Claim\n\u201cHabeas corpus will lie to vindicate a claim that newly discovered evidence demonstrates a prisoner is actually innocent.\u201d (In re Hardy (2007) 41 Cal.4th 977, 1016 [63 Cal.Rptr.3d 845, 163 P.3d 853].) We have long recognized the viability of an actual innocence habeas corpus claim, at least insofar as the claim is based on newly discovered evidence or on proof false evidence was introduced at trial. (In re Bell (2007) 42 Cal.4th 630, 637 [67 Cal.Rptr.3d 781, 170 P.3d 153] [false evidence]; In re Johnson (1998) 18 Cal.4th 447, 453-454 [75 Cal.Rptr.2d 878, 957 P.2d 299] [both]; In re Hall (1981) 30 Cal.3d 408, 415-417, 424 [179 Cal.Rptr. 223, 637 P.2d 690] [both]; In re Weber (1974) 11 Cal.3d 703, 724 [114 Cal.Rptr. 429, 523 P.2d 229] [new evidence].) Here, we issued an order to show cause and ordered an evidentiary hearing because Lawley submitted newly discovered evidence, evidence unavailable at the time of trial because of Brian Seaboum\u2019s constitutional privilege not to testify, that, if credited, suggested Lawley was factually innocent of the crime for which he had been convicted.\nThe standard for determining whether to afford prisoners habeas corpus relief on the ground that newly discovered evidence demonstrates actual innocence is likewise established. Under principles dating back to In re Lindley (1947) 29 Cal.2d 709 [177 P.2d 918], \u201c[a] criminal judgment may be collaterally attacked on habeas corpus on the basis of newly discovered evidence if such evidence casts \u2018fundamental doubt on the accuracy and reliability of the proceedings. At the guilt phase, such evidence, if credited, must undermine the entire prosecution case and point unerringly to innocence or reduced culpability. (In re Hall[, supra,] 30 Cal.3d [at p.] 417; In re Weber[, supra,] 11 Cal.3d [at p.] 724.)\u2019 (People v. Gonzalez (1990) 51 Cal.3d 1179, 1246 [275 Cal.Rptr. 729, 800 P.2d 1159].) \u2018[N]ewly discovered evidence does not warrant relief unless it is of such character \u201cas will completely undermine the entire structure of the case upon which the prosecution was based.\u201d \u2019 (In re Weber, at p. 724, quoting In re Lindley[, at p.] 723.)\u201d (In re Hardy, supra, 41 Cal.4th at p. 1016; accord, In re Bell, supra, 42 Cal.4th at p. 637; In re Johnson, supra, 18 Cal.4th at p. 462.) If \u201ca reasonable jury could have rejected\u201d the evidence presented, a petitioner has not satisfied his burden. (In re Clark (1993) 5 Cal.4th 750, 798, fn. 33 [21 Cal.Rptr.2d 509, 855 P.2d 729].)\nLawley disputes this standard, arguing that it applies only to the determination whether a petitioner has shown actual innocence for purposes of overcoming procedural bars to habeas corpus relief. He argues that he need only show by a preponderance of the evidence that he is entitled to relief. (E.g., In re Sassounian (1995) 9 Cal.4th 535, 546 [37 Cal.Rptr.2d 446, 887 P.2d 527] [habeas corpus petitioner bears the burden of proving facts entitling him to relief by a preponderance of the evidence].)\nIt is true we referenced the Lindley standard for showing actual innocence in In re Clark, supra, 5 Cal.4th at page 798, footnote 33, a case analyzing when a showing of actual innocence might support an exception to the bar against successive or untimely petitions. In doing so, however, we did not tear the standard from its roots and render it applicable only to procedural default cases; instead, both before and after In re Clark we have consistently applied it as the relevant standard for deciding substantive actual innocence claims, including twice within just the last year. (See In re Bell, supra, 42 Cal.4th at p. 637; In re Hardy, supra, 41 Cal.4th at p. 1016.)\nAs for Lawley\u2019s assertion that a more lenient preponderance of the evidence standard should apply to his claim for relief based on newly discovered evidence, we have always recognized that a higher standard applies to such claims. In re Lindley itself involved claims of both perjured testimony and newly discovered evidence establishing innocence. The perjured testimony claim was subject to proof by a preponderance of the evidence: \u201cIn a habeas corpus proceeding, one who establishes by a preponderance of substantial, credible evidence that he was convicted by perjured testimony knowingly presented by representatives of the State, is entitled to a judgment discharging him from custody . .. .\u201d (In re Lindley, supra, 29 Cal.2d at p. 722.) The newly discovered evidence claim was subject to the higher standard we have discussed\u2014the evidence must \u201ccompletely undermine the entire structure of the case upon which the prosecution was based.\u201d (Id. at p. 723.) Subsequently, we have consistently and consciously applied this higher standard, rather than the preponderance standard, to actual innocence claims. (See, e.g., In re Hardy, supra, 41 Cal.4th at pp. 1016-1021 [implicitly applying preponderance standard to ineffective assistance of counsel claim, but applying heightened Lindley standard to newly discovered evidence claim]; In re Johnson, supra, 18 Cal.4th at pp. 460-462 [acknowledging generally applicable preponderance standard, but applying higher Lindley standard to actual innocence claim]; In re Branch (1969) 70 Cal.2d 200, 210, 217 [74 Cal.Rptr. 238, 449 P.2d 174] [implicitly applying preponderance standard to ineffective assistance of counsel claim, but applying heightened Lindley standard to newly discovered evidence claim]; In re Imbler (1963) 60 Cal.2d 554, 560, 569 [35 Cal.Rptr. 293, 387 P.2d 6] [applying preponderance standard to perjured testimony claim and heightened Lindley standard to newly discovered evidence claim].)\nThe rationale for our applying a different, higher standard to actual innocence habeas corpus claims is readily explained. Generally, of course, habeas corpus claims must surmount the presumption of correctness we accord criminal judgments rendered after procedurally fair trials. \u201c \u2018For purposes of collateral attack, all presumptions favor the truth, accuracy, and fairness of the conviction and sentence; defendant thus must undertake the burden of overturning them. Society\u2019s interest in the finality of criminal proceedings so demands, and due process is not thereby offended.\u2019 \u201d (People v. Duvall (1995) 9 Cal.4th 464, 474 [37 Cal.Rptr.2d 259, 886 P.2d 1252], quoting People v. Gonzalez, supra, 51 Cal.3d at p. 1260.) Unlike claims directed at prosecutorial, judicial, juror, or defense counsel misconduct, however, actual innocence claims based on either newly discovered or nonperjured false evidence do not attack the procedural fairness of the trial. They concede the procedural fairness of the trial, but nevertheless attack the accuracy of the verdict rendered and seek a reexamination of the very question the jury or court has already answered: Is the defendant guilty of the charges presented? A conviction obtained after a constitutionally adequate trial is entitled to great weight. Accordingly, a higher standard properly applies to challenges to a judgment whose procedural fairness is conceded than to one whose procedural fairness is challenged. (See Strickland v. Washington (1984) 466 U.S. 668, 694 [80 L.Ed.2d 674, 104 S.Ct. 2052] [motions for new trial based on newly discovered evidence are subject to a higher standard than ineffective assistance of counsel claims because they challenge a presumptively fair trial]; In re Johnson, supra, 18 Cal.4th at p. 462 [rejecting the assertion that a lower standard should apply to an actual innocence claim in the absence of proof the trial was infected by procedural errors of constitutional dimension].) Metaphorically, an actual innocence claim based on newly discovered evidence seeks a second bite at the apple, but unlike an ineffective assistance of counsel claim, for example, it does not contend the first bite was rotten.\nIn the alternative, Lawley contends that under the Eighth and Fourteenth Amendments to the United States Constitution he need only show that he \u201cprobably is innocent\u201d to obtain relief. (Herrera v. Collins (1993) 506 U.S. 390, 442 [122 L.Ed.2d 203, 113 S.Ct. 853] (dis. opn. of Blackmun, J.).) Of course, the majority in Herrera rejected that standard, concluding only that if the Eighth and Fourteenth Amendments prohibited execution of the innocent\u2014a position it did not endorse\u2014a petitioner would have to, at a minimum, make a \u201ctruly persuasive demonstration of \u2018actual innocence\u2019 \u201d and the threshold for relief would \u201cnecessarily be extraordinarily high.\u201d (Herrera v. Collins, at p. 417; accord, House v. Bell (2006) 547 U.S. 518, 554 [165 L.Ed.2d 1, 126 S.Ct. 2064].) Nor have we ever concluded the Eighth and Fourteenth Amendments compel a standard lower than the Lindley standard. We decline to do so here.\nIn assessing whether Lawley has satisfied the high standard for actual innocence claims, we do not consider the question de novo; instead, we view it through the lens of the referee\u2019s report and findings. \u201c[W]e give great weight to those of the referee\u2019s findings that are supported by substantial evidence. [Citations.] This is especially true for findings involving credibility determinations. The central reason for referring a habeas corpus claim for an evidentiary hearing is to obtain credibility determinations [citation]; consequently, we give special deference to the referee on factual questions \u2018requiring resolution of testimonial conflicts and assessment of witnesses\u2019 credibility, because the referee has the opportunity to observe the witnesses\u2019 demeanor and manner of testifying\u2019 [citation].\u201d (In re Thomas (2006) 37 Cal.4th 1249, 1256 [39 Cal.Rptr.3d 845, 129 P.3d 49].) Where, as here, \u201c[t]he referee\u2019s finding on petitioner\u2019s claim of actual innocence was wholly dependent on his assessment of the credibility of the witnesses before him, a quintessentially factual inquiry,\u201d we employ the deferential standard of review applicable to findings of fact to that conclusion. (In re Johnson, supra, 18 Cal.4th at p. 461.)\nB. Lawley\u2019s Showing of Actual Innocence\nAfter considering the evidence presented, the referee concluded Lawley had not established his actual innocence. The referee\u2019s conclusion is supported by substantial evidence.\nBrian Seaboum\u2019s testimony was the centerpiece of the evidentiary hearing. Seaboum testified repeatedly that he killed Stewart on orders he received from the Aryan Brotherhood while in prison in 1987 or 1988, and Lawley was innocent and had nothing to do with the crime. As early as 1989, Seaboum had told others, including David Hager and Monte Mullins, that the Aryan Brotherhood was behind the shooting and Lawley was innocent. Seaboum had for a decade maintained Lawley\u2019s innocence in letters to Lawley\u2019s counsel.\nOther witnesses, former Aryan Brotherhood members\u2014Wayne \u201cSmiley\u201d Richardson, David Hager, Jesse Bmn\u2014likewise testified the Aryan Brotherhood had ordered Stewart killed. Richardson testified he told Seaboum: \u201cIf you get the opportunity when you are out there, take care of business\u201d\u2014i.e., kill Stewart. Hager and Lee Max Barnett both testified that Seaboum told them in the late 1980\u2019s or early 1990\u2019s that he killed Stewart on behalf of the Aryan Brotherhood. The referee acknowledged there was \u201cplenty of evidence that the AB[] might have been involved in the murder of Kenny Stewart.\u201d A reasonable jury might have credited this testimony.\nHowever, a reasonable jury might also have disbelieved Seaboum and the former Aryan Brotherhood members supporting him and instead credited the numerous witnesses at Lawley\u2019s original trial who testified that Lawley had a gmdge against Stewart, wanted him dead, and paid to have him killed. Alternatively, it might have believed Seaboum and the other witnesses concerning Aryan Brotherhood involvement, but still believed Lawley was also involved and culpable.\nNotably, Seaboum has an established history of lying under oath, of lying about this case, and of lying in order to implicate others and exonerate Lawley. At the time of the murder, Seaboum told Steven Mendonca to make up stories about how the Stewart killing had occurred, i.e., lie about how it happened, to confuse those investigating it. Seaboum took the stand and lied at his own trial for the Stewart murder, as he did at other trials. At his sentencing, he concocted a phony \u201ckite,\u201d purported to be from an unknown fellow prisoner named \u201cRon,\u201d that fingered David Hager as the one responsible for the Stewart killing. The fake kite claimed Hager was trying to set up Lawley and Seaboum.\nAt the evidentiary hearing, Seaboum admitted lying to David Hager about how he killed Stewart. He asserted he would lie under oath to get a man he deemed innocent, Lawley, out of jail. As the referee noted, he maintained his friend Steven Mendonca was entirely innocent as well, despite Mendonca\u2019s having pleaded guilty to second degree murder and accepted a sentence of 15 years to life for his role in the murder.\nAt the evidentiary hearing, Seaboum was also imprecise about the details surrounding the Aryan Brotherhood\u2019s order to kill Stewart. Although he testified that he was given an order, he had earlier stated in a declaration that he unilaterally decided to carry out the contract on Stewart to curry favor with the Aryan Brotherhood. He refused to identify anyone who might have been involved in giving the order, making it more difficult to confirm or refute his claim. He testified he had no idea what the basis for the order was, thus contradicting his statement in an earlier declaration that the hit was ordered because Stewart \u201chad \u2018disrespected\u2019 leaders of the AB over an assault of an inmate named Tinker Love.\u201d He testified that he was given the order orally, or maybe in writing. He testified that Monte Mullins might have been present when the order was delivered, or perhaps not.\nAdditionally, an April 1995 letter Seaboum wrote to Lawley\u2019s counsel suggests the Aryan Brotherhood conspiracy to kill Stewart may have been an elaborate fiction: \u201c[T]his stuff is real old I got at a few friends who said yes that, that might have been the case that the victim [Stewart] could have been AB or someone who crossed another member like on a hit list something of that nature.\u201d He went on: \u201cBut I will stay on that issue we discussed about Kenny S. which one would be better if he was an enemy of the AB that would be no problem because people get hit daily for running their mouth about things they shouldn\u2019t all over the USA. But to prove he\u2019s a member [of the AB] would be hard because everyone knows you have to be around certain people in and out of prison with a lot of support . . . .\u201d One might conclude that Seaboum, in his desire to assist Lawley, chose the easier course of concocting a story that Stewart was an enemy of the Aryan Brotherhood and wound up on their hit list.\nIn closing, Seaboum offered: \u201cIf I can do anything just let me know I know we\u2019ll need witnesses and most these people are real shady characters but I\u2019ll do what I can to get \u2019em to talk once we know who they are OK\u201d\u2014an offer that makes more sense if Seaboum was planning to find Aryan Brotherhood associates serving life sentences with nothing to lose to testify than it does if the order to kill Stewart was real and the identities of potential witnesses were already fixed. In an addendum, Seaboum added: \u201cI been thinking about how to get those witnesses to testify\u2014this is a suggestion I could write them through you but beings we can\u2019t trust these people 100% I\u2019ll be careful what I say so they can\u2019t hurt us . . . .\u201d He listed people he thought would \u201ccome to our side every one except Ricky Black unless he\u2019s got life also.\u201d He asked for additional research that might help him come up with a motive for why he or the Aryan Brotherhood might have wanted Stewart dead: \u201c[S]o I can check on Stewar[t] situation find out have [your investigator] find out when Kenny S. was in prison and where, as much as you can, because I believe we were in DVI [a Tracy prison] together at the same time and it\u2019s possible he made commitments to me and I passed them on as a middle man but cosigned for him and when he got out he didn\u2019t follow through. But theirs 100 different things that could of happened.\u201d\nThe letter suggests a motive for constmcting such a story, as well. In the course of the letter, Seaboum offered to \u201cdo everything possible to help Dennis [Lawley]\u201d and repeatedly expressed his concurrent hope that by doing so, he might get help in seeking a reduced sentence. In a previous meeting, Lawley\u2019s counsel had made Seaboum feel like he might have hope of getting out of prison some day. Seaboum repeatedly expressed gratitude for this and other kindnesses counsel had shown him.\nA 1995 Seaboum letter to Aryan Brotherhood member Jimmy Pendleton paints a similar picture and creates reason to doubt not only Seabourn but the various former Aryan Brotherhood members who corroborated his story. Seaboum appears to be seeking permission concerning possible future testimony by Aryan Brotherhood members and associates. He then notes Lawley\u2019s counsel \u201cwent out of his way to help me he has even offered to buy me a T.V. and to help me get an attorney and investigator.\u201d He goes on: \u201cOnce [Lawley\u2019s counsel] decides the best way to go about this I\u2019ll let you know what we\u2019re going to need and what kind of witnesses it has to be all verified though so the D.A. can\u2019t punch holes in our case but that should be no problem once we find out where these rats have done their time and when which jails they were in and so on then we\u2019ll be able to find intelligent credible witnesses to support whatever it is we need done.\u201d He notes in closing: \u201cAlso [Lawley\u2019s counsel] says the DA through away everything so I guess we can make up [s\u2014t] because they can\u2019t prove it ain\u2019t true.\u201d Consistent wth their assertion that Richardson, Brun, Hager, and others were untrustworthy, the People pointed out in cross-examination that although each had been debriefed upon leaving the Aryan Brotherhood, a process that involved revealing as much as they knew about Aryan Brotherhood crimes, not one mentioned in debriefing that Stewart was either targeted for murder or had been murdered.\nIn doubting Seaboum, the referee offered another possible motive. When Seaboum was searched before testifying at the evidentiary hearing, a handcuff key was found hidden in his rectum. In assessing Seaboum\u2019s credibility, the referee considered as a possible motivation for testifying that Seaboum might have hoped to use the opportunity of his transport from an out-of-state prison to and from the evidentiary hearing to attempt escape.\nFinally, as the referee also noted, Seaboum testified that he had buried the murder weapon, but a ballistics expert at trial testified that a gun found in a search of Lawley\u2019s cabin after the murder (and established by other witnesses to have been David Anderson\u2019s gun) matched shell fragments found in, on, or near Stewart\u2019s body and was the murder weapon. (Lawley, supra, 27 Cal.4th at p. 118.) Another ballistics expert testified at the evidentiary hearing, and he too confirmed this match. Based on the record as it existed at the close of the evidentiary hearing, the referee could take into account that discrepancy.\nGiven this history, it is difficult to know where the lies end and the truth begins with Seaboum. Seaboum admitted having lied, having directed Mendonca to lie, and having created a phony document implicating an innocent third party, all in order to shield himself and his friends, Mendonca and Lawley, from punishment for Stewart\u2019s death. His letters suggest he may have rounded up fellow ex-Aryan Brotherhood friends to help him portray Lawley as innocent. The referee apparently concluded that Seaboum, like the boy who cried wolf, could not be deemed reliable, or at a minimum that a reasonable jury could have rejected Seaboum\u2019s testimony that Lawley was uninvolved. That conclusion is entitled to special deference. (See, e.g., In re Malone (1996) 12 Cal.4th 935, 946 [50 Cal.Rptr.2d 281, 911 P.2d 468].)\nAgainst the referee\u2019s conclusion, Lawley repeatedly argues the People presented no evidence Seaboum killed Stewart at Lawley\u2019s instigation. They did not have to; that evidence was presented at trial. As in In re Branch, supra, 70 Cal.2d at page 217, Seaboum\u2019s testimony may point to Lawley\u2019s innocence if believed, but there is a substantial question whether it should be believed. Lawley\u2019s evidentiary hearing showing presents an alternate theory for why Stewart was killed, but given the doubts surrounding Seaboum\u2019s credibility, it is not a theory a reasonable jury would have been compelled to accept. Lawley himself hedges, acknowledging in his brief that \u201c[p]erhaps [he] was involved in some way.\u201d Accordingly, Lawley has failed to show entitlement to relief on his claim of actual innocence.\nII. Nondisclosure of Exculpatory Evidence\nAs noted, we also issued an order to show cause on Lawley\u2019s claim that the prosecution failed to disclose material exculpatory evidence in its possession that supported Lawley\u2019s assertion of innocence.\nBefore and during trial, due process requires the prosecution to disclose to the defense evidence that is material and exculpatory. (Kyles v. Whitley (1995) 514 U.S. 419, 432-433, 437-438 [131 L.Ed.2d 490, 115 S.Ct. 1555]; Untied States v. Bagley (1985) 473 U.S. 667, 674-678 [87 L.Ed.2d 481, 105 S.Ct. 3375]; Brady v. Maryland (1963) 373 U.S. 83, 86-87 [10 L.Ed.2d 215, 83 S.Ct. 1194].) This obligation continues after trial: \u201c \u2018[Even] after a conviction[,] the prosecutor ... is bound by the ethics of his office to inform the appropriate authority of . . . information that casts doubt upon the correctness of the conviction.\u2019 \u201d (People v. Gonzalez, supra, 51 Cal.3d at p. 1261, quoting Imbler v. Pachtman (1976) 424 U.S. 409, 427, fn. 25 [47 L.Ed.2d 128, 96 S.Ct. 984]; see also Rules Prof. Conduct of State Bar, rule 5-220 [duty not to suppress evidence]; ABA Model Rules Prof. Conduct, mle 3.8 [\u201cThe prosecutor in a criminal case shall: [1] . . . [1] (d) make timely disclosure to the defense of all evidence or information known to the prosecutor that tends to negate the guilt of the accused or mitigates the offense.\u201d].)\nIn his petition, Lawley contended the prosecution breached this duty by failing to disclose a posttrial 1996 letter from Seaboum to Prosecutor James C. Brazelton that asserted Lawley\u2019s innocence, as well as a Department of Corrections report summarizing Seaboum\u2019s 1997 debriefing when he disassociated himself from the Aryan Brotherhood, and Seaboum\u2019s handwritten account of his Aryan Brotherhood participation.\nIn the course of the evidentiary proceeding following our issuance of the order to show cause, the People disclosed to Lawley the 1996 Seaboum-Brazelton letter. It was admitted into evidence at the evidentiary hearing, the referee considered it in reaching his conclusions, and Lawley thus had the full benefit of it in attempting to demonstrate actual innocence. The People also disclosed the Department of Corrections report and Seaboum\u2019s written account. Again, the referee considered these documents, and Lawley had their full benefit in arguing his actual innocence. Given the prosecution\u2019s disclosure of these materials and Lawley\u2019s use of them to argue actual innocence, Lawley has received all the relief on this claim to which he might be entitled.\nWhile not contending the prosecution\u2019s nondisclosure of these particular documents alone requires a further remedy, Lawley asserts two other bases for relief. First, he argues some relief is warranted because the Department of Corrections has, he contends, failed to make an exhaustive search of its debriefing files for any documents that might corroborate (1) Seaboum\u2019s association with the Aryan Brotherhood, and (2) Lawley\u2019s contention that Stewart was targeted for death by the Aryan Brotherhood.\nWe are not persuaded. No one disputes that Seaboum was associated with the Aryan Brotherhood at one point. As mentioned, the referee noted there was \u201cplenty of evidence that the AB might have been involved in the murder of Kenny Stewart.\u201d Lawley called and presented evidence from many of the witnesses whose written files he now demands\u2014David Hager, Wayne Richardson, Jesse Bran, Lee Max Barnett. Additional cumulative evidence culled from Department of Corrections files would not materially alter the referee\u2019s conclusion, supported by substantial evidence, that (1) Seaboum was not wholly credible, and (2) the Aryan Brotherhood\u2019s wanting Stewart dead was not inconsistent with Seaboum\u2019s taking money from Lawley to kill Stewart.\nSecond, Lawley argues the prosecution engaged in misconduct by first concealing evidence of Aryan Brotherhood involvement at the time of trial and then arguing to the jury: \u201cNow, nobody else in this case had a reason to kill Kenneth Stewart.\u201d We rejected this claim of prosecutorial misconduct in Lawley\u2019s direct appeal. (Lawley, supra, 27 Cal.4th at p. 156.) It is thus barred as repetitive. (In re Harris (1993) 5 Cal.4th 813, 824-829 [21 Cal.Rptr.2d 373, 855 P.2d 391]; In re Waltreus (1965) 62 Cal.2d 218, 225 [42 Cal.Rptr. 9, 397 P.2d 1001].) Accordingly, it was not within the scope of our order to show cause or our direction to the referee to take evidence and issue findings.\nTo the extent Lawley seeks to avoid this bar and have us revisit the issue by suggesting now that the prosecution violated Brady v. Maryland, supra, 373 U.S. 83, by failing to disclose evidence of Aryan Brotherhood involvement at the time of trial, he may not do so. Lawley\u2019s petition for writ of habeas corpus does not allege there was any such Brady violation at trial. As we have explained: \u201cWhen an order to show cause does issue, it is limited to the claims raised in the petition and the factual bases for those claims alleged in the petition. . . . While the traverse may allege additional facts in support of the claim on which an order to show cause has issued, attempts to introduce additional claims or wholly different factual bases for those claims in a traverse do not expand the scope of the proceeding[,] which is limited to the claims [that] the court initially determined stated a prima facie case for relief.\u201d (In re Clark, supra, 5 Cal.4th at p. 781, fn. 16.) What Lawley could not do in his 2002 traverse, he cannot do at this even later stage: he cannot through argument in a postreference brief expand his claims beyond those alleged in the petition and made the basis of this court\u2019s order to show cause.\nIII. Fairness of the Evidentiary Hearing\nLawley closes by objecting that he was denied a fair evidentiary hearing. He recounts the People\u2019s objections to his issuance of subpoenas duces tecum and the referee\u2019s reluctance to compel discovery. He further recounts numerous objections to questions dining the evidentiary hearing itself, on hearsay and other grounds.\nWhat Lawley fails to do is identify error in any of the referee\u2019s rulings. In our order appointing a referee, we directed that \u201c[a]ny requests for discovery in this matter, including but not limited to any motion by petitioner under Pennsylvania v. Ritchie (1987) 480 U.S. 39 [94 L.Ed.2d 40, 107 S.Ct. 989], should be addressed to the referee. (See In re Scott (2003) 29 Cal.4th 783, 814 [129 Cal.Rptr.2d 605, 61 P.3d 402].)\u201d In so doing, we delegated to the referee our \u201cpower and authority to require and compel the attendance of witnesses, by process of subpoena and attachment, and to do and perform all other acts and things necessary to a full and fair hearing and determination of the case\u201d (\u00a7 1484), and in particular the power to ensure orderly discovery in this matter. In contravention of both our order and a subsequent order by the referee, Lawley sought discovery directly from third parties and law enforcement officials. While his attempts at obtaining discovery in this fashion and through the referee were in some cases delayed and in some cases ultimately fruitless, Lawley does not articulate how the referee erred, if at all, in managing discovery in the fashion that he did. The mere fact Lawley may have been delayed in receiving, or even denied, discovery he sought does not alone demonstrate error. There is no federal right, constitutional or otherwise, to discovery in a habeas corpus proceeding. (Harris v. Nelson (1969) 394 U.S. 286, 295 [22 L.Ed.2d 281, 89 S.Ct. 1082]; Herrera v. Collins, supra, 506 U.S. at p. 444 (dis. opn. of Blackmun, J.) [\u201cA prisoner raising an actual-innocence claim in a federal habeas petition is not entitled to discovery as a matter of right.\u201d].) Nor have we recognized any state right to unfettered discovery, instead allowing trial courts and referees to manage discovery on a case-by-case basis. (In re Scott, at pp. 813-814; People v. Gonzalez, supra, 51 Cal.3d at pp. 1258-1261.)\nSimilarly, while complaining that numerous objections on hearsay grounds were sustained, Lawley does not expressly contend the referee erred in so ruling. Alternatively, if his recitation of these objections and rulings may be interpreted as asserting error, he does not offer any legal argument for why any of the testimony he sought was not inadmissible on hearsay and other grounds.\nLawley has not shown he was denied a fair opportunity at the evidentiary hearing to establish his innocence.\nDisposition\nOur order to show cause was limited to a claim of actual innocence and the related claim that the prosecution violated a duty to disclose exculpatory evidence. Lawley has not established entitlement to relief on either claim. Lawley\u2019s other claims and his petition for writ of habeas corpus will be resolved by separate order, as is our practice. (See, e.g., In re Thomas, supra, 37 Cal.4th at p. 1277.) The order to show cause is discharged.\nGeorge, C. J., Kennard, J., Baxter, J., Chin, J., Moreno, J., and Corrigan, J., concurred.\nPetitioner\u2019s petition for a rehearing was denied May 4, 2008.\nSee Bible, Revelation 13:1 to 13:18, 17:8 to 17:18.\nAll further statutory references are to the Penal Code.\nHager\u2019s statements do not entirely benefit Lawley. Speaking with investigators for the People, Hager indicated Seaboum got the murder weapon from Lawley, just as he had testified at Seaboum\u2019s 1990 trial. At the evidentiary hearing, he initially affirmed but later sought to repudiate these prior statements.\n\u201cAB\u201d refers to the Aryan Brotherhood.\nKites are written messages prisoners pass to each other. (See People v. Elguera (1992) 8 Cal.App.4th 1214, 1217 [10 Cal.Rptr.2d 910].)\nSeaboum\u2019s statement also contradicted other evidence submitted in support of the habeas corpus petition, which alleged the hit was ordered because Stewart \u201cburned\u201d the Aryan Brotherhood by not paying it the \u201ctax\u201d it was due on his drag sales.\nWhile many years have passed since the Stewart murder, one might reasonably suppose that, given this is the very crime for which Seaboum is serving a life sentence, the details might have fixed themselves in his mind. His recollection was certainly clear enough about most other aspects of the crime.\nSeaboum\u2019s unusual candor in this letter, one of his first to Lawley\u2019s counsel, may be explained by his comment: \u201cI\u2019m pretty sure the mail is 100% safe here I\u2019ll always sign my name on the back of the envelope so you\u2019ll know if it\u2019s been messed with or not.\u201d He also marked the letter as \u201cConfidential Legal Mail,\u201d a practice he continued throughout their correspondence, although Lawley\u2019s counsel did not represent him. In subsequent letters, he became more circumspect.\nIn another 1995 letter to Lawley\u2019s counsel, Seaboum wrote: \u201cI asked you what you were willing to do for me or how far your willing to go for me I think it\u2019s best you wait until you get the facts in front of you first and decide the road we\u2019re going to go down its just I get over excited I mean all I think about is I might get to get out someday and I hate to loose that feeling But I\u2019m going to try to pretend I\u2019ll never get out I know you told me not to get my hopes up but I can\u2019t help it I know at the very least I\u2019ll get to go out to Court again and that I\u2019ll have a little money once in a while regardless what happens.\u201d Similarly, in a 1995 letter to Lawley\u2019s parents, Seaboum wrote: \u201cBut I do need an answer on this, this thing with Dennis [Lawley], His attorney wrote me I\u2019m sending you the letter with this one let me know what you and Dennis or better yet Dennis\u2019s attorney wants me to do how far to go. I know I can get Dennis off but I want to make sure I have his word he\u2019ll look out for me.\u201d\nLong after the close of the evidentiary hearing, Lawley submitted evidence purporting to show a gun had been found in the field where Seaboum claimed he had buried one. However, Lawley submitted no foundation establishing the gun was linked to the Stewart murder. Accordingly, we denied his motion to augment the record and do not consider the matter further in connection with his current petition for writ of habeas corpus.\nThe referee concluded the letter \u201ccontains very little information that is helpful to this referee.\u201d Seaboum wrote in part: \u201cI hope you don\u2019t allow Dennis Lawley to die. Well, actually he\u2019s already dead, mentally. If I could, I\u2019d take his place. I know you don\u2019t have much pity for criminals after seeing all the [s\u2014t] you see daily but, I see the same thing and I know if I still have compassion for people you do also. This guy isn\u2019t guilty of nothing Jim, except desperately wanting to have friends, no matter what the cost.\u201d Otherwise, the referee concluded, the letter contained no relevant information pertaining to Lawley\u2019s guilt or innocence. Lawley does not challenge this conclusion, which is supported by our own review of the letter.\nAs with the 1996 Seaboum-Brazelton letter, the referee found the debriefing documents shed little light on Lawley\u2019s claim of innocence. The 1997 Department of Corrections debriefing summary indicates Seaboum refused to discuss the Stewart murder because he was still hoping for a new trial, and the referee concluded nothing in Seaboum\u2019s handwritten account indicated Lawley was innocent or otherwise would assist him. Having reviewed the summary and handwritten account, we agree, with one exception. Seaboum\u2019s handwritten account does assert: \u201cThis D.A. who prosecuted me knows this guy Dennis Lawley is innocent but he sent him to Death Roll [sic] anyway.\u201d It thus sheds no more light on Stewart\u2019s murder than the 1996 Seaboum-Brazelton letter.\nThus, while Lawley complains about the People\u2019s insistence during the evidentiary hearing that Brady claims were not at issue, the People were right: they were not.",
+        "type": "majority",
+        "author": "WERDEGAR, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Scott F. Kauffman and Bicka Ann Barlow, under appointments by the Supreme Court, for Petitioner Dennis Harold Lawley.",
+      "Bill Lockyer and Edmund G. Brown, Jr., Attorneys General, David P. Druliner and Robert R. Anderson, Chief Assistant Attorneys General, Mary Jo Graves, Assistant Attorney General, Ward A. Campbell, Stephen G. Herndon, Eric L. Christoffersen, Patrick J. Whalen, Michael P. Farrell and David Andrew Eldridge, Deputy Attorneys General, for Respondent State of California."
+    ],
+    "corrections": "",
+    "head_matter": "[No. S089463.\nMar. 24, 2008.]\nIn re DENNIS HAROLD LAWLEY on Habeas Corpus.\nCounsel\nScott F. Kauffman and Bicka Ann Barlow, under appointments by the Supreme Court, for Petitioner Dennis Harold Lawley.\nBill Lockyer and Edmund G. Brown, Jr., Attorneys General, David P. Druliner and Robert R. Anderson, Chief Assistant Attorneys General, Mary Jo Graves, Assistant Attorney General, Ward A. Campbell, Stephen G. Herndon, Eric L. Christoffersen, Patrick J. Whalen, Michael P. Farrell and David Andrew Eldridge, Deputy Attorneys General, for Respondent State of California."
+  },
+  "file_name": "1231-01",
+  "first_page_order": 1271,
+  "last_page_order": 1290
+}

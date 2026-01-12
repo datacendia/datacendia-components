@@ -1,0 +1,59 @@
+{
+  "id": 5952971,
+  "name": "Thomas v. Bartow, Warden",
+  "name_abbreviation": "Thomas v. Bartow",
+  "decision_date": "2011-03-07",
+  "docket_number": "No. 10-7892",
+  "first_page": "1274",
+  "last_page": "1274",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1274"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.565,
+    "sha256": "17241f9efb9690143b9fae72535c6aec7241a3999feb0398fe2e0602dc7a545f",
+    "simhash": "1:e3de1cec7f4d7a00",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Thomas v. Bartow, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7892.\nThomas v. Bartow, Warden."
+  },
+  "file_name": "1274-05",
+  "first_page_order": 1296,
+  "last_page_order": 1296
+}

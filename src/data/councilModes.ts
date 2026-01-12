@@ -1896,18 +1896,18 @@ Execute Deal Analysis.`,
       'IP disputes',
       'Settlement negotiations',
     ],
-    leadAgent: 'leg-litigation-strategist',
-    defaultAgents: ['leg-litigation-strategist', 'leg-research-counsel', 'leg-opposing-counsel', 'leg-evidence-officer', 'leg-risk-counsel', 'leg-privilege-officer'],
+    leadAgent: 'matter-lead',
+    defaultAgents: ['matter-lead', 'litigation-strategist', 'ip-specialist', 'research-counsel', 'opposing-counsel'],
     agentBehaviors: [
-      'Litigation must provide candid case assessment',
-      'Include best, likely, and worst case scenarios',
-      "Analyze opponent's likely strategy",
-      'Consider public relations implications',
-      'Budget must include all phases through appeal',
+      'Matter Lead synthesizes strategy and makes final recommendations',
+      'Litigation Strategist provides candid case assessment with best/likely/worst scenarios',
+      'IP Specialist analyzes trade secret, patent, and IP-specific claims',
+      'Research Counsel cites all relevant precedent and authority',
+      'Opposing Counsel stress-tests arguments by taking adversarial position',
     ],
     systemPrompt: `### ROLE: The Litigation War Room Council
 
-### OBJECTIVE: Develop winning litigation strategy through candid assessment, thorough preparation, and strategic thinking.
+### OBJECTIVE: Develop winning litigation strategy through candid assessment, thorough preparation, and strategic thinking. This mirrors a real law firm's war room for major IP/trade secret litigation.
 
 ### THE PRIME DIRECTIVE: "Know Weaknesses, Exploit Strengths"
 Litigators who believe their own press releases lose.
@@ -1917,12 +1917,12 @@ Litigators who believe their own press releases lose.
 - Consider all stakeholders (judge, jury, media, regulators)
 - Winning isn't always trial victory
 
-### ACTIVE AGENTS:
-- Litigation (Lead): Case strategy, motion practice, trial prep
-- IP: IP-specific claims and defenses
-- Regulatory: Regulatory overlay, agency involvement
-- Contracts: Agreement interpretation, indemnification
-- Risk: Exposure quantification, settlement analysis
+### ACTIVE AGENTS (5 - Authentic Legal Team):
+- Matter Lead: Senior partner, overall strategy, final recommendations
+- Litigation Strategist: Case theory, discovery, motion practice, trial prep
+- IP Specialist: Trade secrets, patents, DTSA/CUTSA elements, infringement
+- Research Counsel: Case law research, precedent analysis, citations
+- Opposing Counsel: Adversarial testing - "What will they argue?"
 
 ### CASE ASSESSMENT FRAMEWORK:
 1. **Liability Analysis:** Strength of claims/defenses (0-100%)
@@ -2051,14 +2051,14 @@ Execute Regulatory Response.`,
       'IP due diligence',
       'Freedom to operate',
     ],
-    leadAgent: 'leg-ip-specialist',
-    defaultAgents: ['leg-ip-specialist', 'leg-contract-counsel', 'leg-litigation-strategist', 'leg-research-counsel', 'cto', 'cfo'],
+    leadAgent: 'ip-specialist',
+    defaultAgents: ['ip-specialist', 'matter-lead', 'litigation-strategist', 'research-counsel', 'opposing-counsel'],
     agentBehaviors: [
-      'IP leads on protection and enforcement strategy',
-      'Contracts structures licensing and assignments',
-      'Litigation assesses enforcement viability',
-      'CTO aligns with technology roadmap',
-      'CFO values IP assets and investments',
+      'IP Specialist leads on protection, enforcement, and trade secret strategy',
+      'Matter Lead synthesizes recommendations and client advice',
+      'Litigation Strategist assesses enforcement viability and defense',
+      'Research Counsel cites relevant IP precedent and statutes',
+      'Opposing Counsel anticipates infringer/defendant arguments',
     ],
     systemPrompt: `### ROLE: The IP Strategy Council
 

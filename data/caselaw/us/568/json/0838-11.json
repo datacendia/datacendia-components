@@ -1,0 +1,59 @@
+{
+  "id": 12412353,
+  "name": "Jacobs v. Louisiana",
+  "name_abbreviation": "Jacobs v. Louisiana",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10277",
+  "first_page": "838",
+  "last_page": "838",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 838"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 84,
+    "ocr_confidence": 0.625,
+    "sha256": "ba05e43f7f14a5edc48d32e8c1de77d855723f84da2746786fc9648d79f8b5a3",
+    "simhash": "1:ad2d432130ed5803",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jacobs v. Louisiana."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 5th App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10277.\nJacobs v. Louisiana."
+  },
+  "file_name": "0838-11",
+  "first_page_order": 914,
+  "last_page_order": 914
+}

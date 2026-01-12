@@ -1,0 +1,61 @@
+{
+  "id": 6021172,
+  "name": "Krasniqi v. Holder, Attorney General",
+  "name_abbreviation": "Krasniqi v. Holder",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-1359",
+  "first_page": "947",
+  "last_page": "947",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 947"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 166,
+    "ocr_confidence": 0.575,
+    "sha256": "855fb93b2100e8806864f73fa78e13f498684254b5dd0ec64d978746dbb799ad",
+    "simhash": "1:99935898bd2ef64a",
+    "word_count": 26
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Krasniqi v. Holder, Attorney General."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.\nJustice Sotomayor took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-1359.\nKrasniqi v. Holder, Attorney General."
+  },
+  "file_name": "0947-01",
+  "first_page_order": 969,
+  "last_page_order": 969
+}

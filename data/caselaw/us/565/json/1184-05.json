@@ -1,0 +1,59 @@
+{
+  "id": 12245105,
+  "name": "Rodebaugh v. United States",
+  "name_abbreviation": "Rodebaugh v. United States",
+  "decision_date": "2012-01-23",
+  "docket_number": "No. 11-7977",
+  "first_page": "1184",
+  "last_page": "1184",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1184"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.66,
+    "sha256": "e3a7d3893908bc5828b5206332d4bc961d2f29af6441188060f17b86c83e83ef",
+    "simhash": "1:873be7258d3d954b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rodebaugh v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7977.\nRodebaugh v. United States."
+  },
+  "file_name": "1184-05",
+  "first_page_order": 1266,
+  "last_page_order": 1266
+}

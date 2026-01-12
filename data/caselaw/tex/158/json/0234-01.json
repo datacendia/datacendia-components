@@ -1,0 +1,990 @@
+{
+  "id": 2255801,
+  "name": "Alamo Express, Incorporated, Et Al v. Union City Transfer, Et Al.",
+  "name_abbreviation": "Alamo Express, Inc. v. Union City Transfer",
+  "decision_date": "1958-01-15",
+  "docket_number": "No. A-6268",
+  "first_page": "234",
+  "last_page": "253",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "158 Tex. 234"
+    },
+    {
+      "type": "parallel",
+      "cite": "309 S.W.2d 815"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "73 S.W. 2d 505",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2302378,
+        10248558
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/123/0521-01",
+        "/sw2d/73/0505-01"
+      ]
+    },
+    {
+      "cite": "123 Texas 521",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2302378
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/123/0521-01"
+      ]
+    },
+    {
+      "cite": "324 U.S. 548",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6156028
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "562"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/324/0548-01"
+      ]
+    },
+    {
+      "cite": "161 S.W. 2d 1035",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10225952,
+        2311421
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/161/1035-01",
+        "/tex/139/0080-01"
+      ]
+    },
+    {
+      "cite": "139 Texas 80",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2311421
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/139/0080-01"
+      ]
+    },
+    {
+      "cite": "165 S.W. 2d 446",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2310152,
+        10214953
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/140/0015-01",
+        "/sw2d/165/0446-01"
+      ]
+    },
+    {
+      "cite": "140 Texas 15",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2310152
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/140/0015-01"
+      ]
+    },
+    {
+      "cite": "209 S.W. 2d 388",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10195643
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/209/0388-01"
+      ]
+    },
+    {
+      "cite": "146 Texas 511",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        8716856
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/146/0511-01"
+      ]
+    },
+    {
+      "cite": "169 S.W. 2d 478",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10212794,
+        2310206
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/169/0478-01",
+        "/tex/140/0577-01"
+      ]
+    },
+    {
+      "cite": "140 Texas 577",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2310206
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/140/0577-01"
+      ]
+    },
+    {
+      "cite": "190 S.W. 2d 709",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2336685,
+        10205070
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/144/0360-01",
+        "/sw2d/190/0709-01"
+      ]
+    },
+    {
+      "cite": "144 Texas 360",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2336685
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/144/0360-01"
+      ]
+    },
+    {
+      "cite": "232 S.W. 2d 742",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10208098
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/232/0742-01"
+      ]
+    },
+    {
+      "cite": "241 Iowa 840",
+      "category": "reporters:state",
+      "reporter": "Iowa",
+      "case_ids": [
+        8643376
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/iowa/241/0840-01"
+      ]
+    },
+    {
+      "cite": "5 A.L.R. 2d 569",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "58 Atl. 2d 672",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "190 Md. 394",
+      "category": "reporters:state",
+      "reporter": "Md.",
+      "case_ids": [
+        2252828
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/md/190/0394-01"
+      ]
+    },
+    {
+      "cite": "242 S.W. 2d 166",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10192476,
+        2328373
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/242/0166-01",
+        "/tex/150/0490-01"
+      ]
+    },
+    {
+      "cite": "150 Texas 490",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2328373
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/150/0490-01"
+      ]
+    },
+    {
+      "cite": "236 S.W. 2d 853",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10218770
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/236/0853-01"
+      ]
+    },
+    {
+      "cite": "232 S.W. 2d 139",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10193094
+      ],
+      "pin_cites": [
+        {
+          "page": "142"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/232/0139-01"
+      ]
+    },
+    {
+      "cite": "242 S.W. 2d 881",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10217480,
+        2328378
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/242/0881-01",
+        "/tex/150/0506-01"
+      ]
+    },
+    {
+      "cite": "150 Texas 506",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2328378
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/150/0506-01"
+      ]
+    },
+    {
+      "cite": "240 S.W. 2d 759",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2328368,
+        10214218
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/150/0307-01",
+        "/sw2d/240/0759-01"
+      ]
+    },
+    {
+      "cite": "150 Texas 307",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2328368
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/150/0307-01"
+      ]
+    },
+    {
+      "cite": "159 S.W. 2d 926",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10225179,
+        10225118
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/159/0926-02",
+        "/sw2d/159/0926-01"
+      ]
+    },
+    {
+      "cite": "106 S.W. 2d 327",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10255330
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/106/0327-01"
+      ]
+    },
+    {
+      "cite": "231 S.W. 2d 462",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10197538
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/231/0462-01"
+      ]
+    },
+    {
+      "cite": "90 S.W. 2d 581",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10256283
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/90/0581-01"
+      ]
+    },
+    {
+      "cite": "45 S.W. 2d 413",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10239594
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/45/0413-01"
+      ]
+    },
+    {
+      "cite": "167 S.W. 2d 249",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10205755
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/167/0249-01"
+      ]
+    },
+    {
+      "cite": "96 S.W. 2d 735",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10257473
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/96/0735-01"
+      ]
+    },
+    {
+      "cite": "236 S.W. 2d 210",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10196201
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/236/0210-01"
+      ]
+    },
+    {
+      "cite": "166 S.W. 2d 75",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10200721,
+        2310130
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/166/0075-01",
+        "/tex/140/0131-01"
+      ]
+    },
+    {
+      "cite": "140 Texas 131",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2310130
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/140/0131-01"
+      ]
+    },
+    {
+      "cite": "269 S.W. 2d 472",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10195475
+      ],
+      "pin_cites": [
+        {
+          "page": "478"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/269/0472-01"
+      ]
+    },
+    {
+      "cite": "73 S.W. 2d 509",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2300420,
+        10248807
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/124/0126-01",
+        "/sw2d/73/0509-01"
+      ]
+    },
+    {
+      "cite": "124 Texas 126",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2300420
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/124/0126-01"
+      ]
+    },
+    {
+      "cite": "236 S.W. 2d 646",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10211612
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/236/0646-01"
+      ]
+    },
+    {
+      "cite": "147 S.W. 2d 1102",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10228052
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/147/1102-01"
+      ]
+    },
+    {
+      "cite": "255 S.W. 2d 903",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10219769
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/255/0903-01"
+      ]
+    },
+    {
+      "cite": "191 S.W. 2d 501",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10195038
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "parenthetical": "17"
+        },
+        {
+          "page": "p. 503"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/191/0501-01"
+      ]
+    },
+    {
+      "cite": "27 A.L.R. 2d 965",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "242 S.W. 2d 181",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2328401,
+        10192796
+      ],
+      "pin_cites": [
+        {
+          "page": "183"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/150/0433-01",
+        "/sw2d/242/0181-01"
+      ]
+    },
+    {
+      "cite": "150 Texas 433",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2328401
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/150/0433-01"
+      ]
+    },
+    {
+      "cite": "161 S.W. 2d 1022",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2311456,
+        10225915
+      ],
+      "pin_cites": [
+        {
+          "page": "1029"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/139/0066-01",
+        "/sw2d/161/1022-01"
+      ]
+    },
+    {
+      "cite": "139 Texas 66",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2311456
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/139/0066-01"
+      ]
+    },
+    {
+      "cite": "177 S.W. 2d 941",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10223530,
+        2340494
+      ],
+      "pin_cites": [
+        {
+          "page": "950"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/177/0941-01",
+        "/tex/142/0293-01"
+      ]
+    },
+    {
+      "cite": "142 Texas 293",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2340494
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/142/0293-01"
+      ]
+    },
+    {
+      "cite": "168 Fed. 131",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6718378
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/168/0131-01"
+      ]
+    },
+    {
+      "cite": "140 S.W. 2d 946",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10241042
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/140/0946-01"
+      ]
+    },
+    {
+      "cite": "153 S.W. 2d 681",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10223971,
+        2314955
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "697"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/153/0681-01",
+        "/tex/137/0279-01"
+      ]
+    },
+    {
+      "cite": "137 Texas 279",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2314955
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/137/0279-01"
+      ]
+    },
+    {
+      "cite": "236 S.W. 2d 491",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2330530,
+        10205503
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/149/0554-01",
+        "/sw2d/236/0491-01"
+      ]
+    },
+    {
+      "cite": "149 Texas 554",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2330530
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/149/0554-01"
+      ]
+    },
+    {
+      "cite": "232 S.W. 2d 146",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10193181
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/232/0146-01"
+      ]
+    },
+    {
+      "cite": "73 Sup. Ct. 941",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "year": 1953,
+      "opinion_index": 0
+    },
+    {
+      "cite": "97 L. Ed. 1375",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "year": 1953,
+      "opinion_index": 0
+    },
+    {
+      "cite": "345 U.S. 954",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        372497,
+        372675,
+        372676
+      ],
+      "year": 1953,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/345/0954-01",
+        "/us/345/0954-02",
+        "/us/345/0954-03"
+      ]
+    },
+    {
+      "cite": "326 U.S. 77",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6156272
+      ],
+      "weight": 2,
+      "year": 1953,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/326/0077-01"
+      ]
+    },
+    {
+      "cite": "143 S.W. 2d 370",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10227059,
+        2317823
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/143/0370-01",
+        "/tex/135/0290-01"
+      ]
+    },
+    {
+      "cite": "135 Texas 290",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2317823
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/135/0290-01"
+      ]
+    },
+    {
+      "cite": "123 S.W. 2d 322",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10231421,
+        2322519
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/123/0322-01",
+        "/tex/132/0237-01"
+      ]
+    },
+    {
+      "cite": "132 Texas 237",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2322519
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/132/0237-01"
+      ]
+    },
+    {
+      "cite": "208 S.W. 2d 586",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10202363
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/208/0586-01"
+      ]
+    },
+    {
+      "cite": "298 S.W. 2d 914",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10183682
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/298/0914-01"
+      ]
+    },
+    {
+      "cite": "73 S.W. 2d 505",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2302378,
+        10248558
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/123/0521-01",
+        "/sw2d/73/0505-01"
+      ]
+    },
+    {
+      "cite": "123 Texas 521",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2302378
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/123/0521-01"
+      ]
+    },
+    {
+      "cite": "324 U.S. 548",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6156028
+      ],
+      "pin_cites": [
+        {
+          "page": "562"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/324/0548-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1434,
+    "char_count": 45153,
+    "ocr_confidence": 0.598,
+    "pagerank": {
+      "raw": 6.742583433374895e-07,
+      "percentile": 0.9632519115979349
+    },
+    "sha256": "f8e263f1299bd4df4338bbc3c92b40df81629d36c8cbf59442a35f9033c7156d",
+    "simhash": "1:a78adc402b613a5c",
+    "word_count": 7347
+  },
+  "last_updated": "2024-02-27T19:47:07.204323+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Alamo Express, Incorporated, Et Al v. Union City Transfer, Et Al."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Griffin\ndelivered the opinion of the Court.\nThis suit originated in the District Court of Travis County, Texas. The suit was brought by petitioners as plaintiffs against the Railroad Commission of Texas and some 128 individuals, corporations and partnerships who had received 150 certificates from the Railroad Commission allowing these 128 to transport some 130 named commodities over the highways of the State of Texas within the limits of their existing certificates. Petitipners will hereinafter be referred to as the \u201ccommon carriers,\u201d the respondent Railroad Commission as the \u201cCommission,\u201d and the other respondents as \u201cspecialized carriers.\u201d This suit was filed in accordance with the provisions of Section 20 Article 911b, Vernon\u2019s Annotated Texas Civil Statutes, which governs appeals from an order of the Commission granting .certificates to specialized carriers. .\nPrior to 1953 each and every one of the specialized carriers was the owner of a specialized motor carrier certificate authorizing such owner to transport over irregular routes and under irregular schedules oil field equipment, certain designated kinds of pipe, and, in addition, some 85 named commodities, when not moving as oil field equipment, as follows:\nThe holder of this authority may transport the above named commodities together with its attachments and its detached parts thereof between incorporated cities, towns and villages only when the commodity to be transported weighs 4,000 pounds or more in a single piece or when such commodity, because of its physical characteristics other than weight, requires the use of \u2018special devices, facilities or equipment\u2019 for the safe and proper loading or unloading thereof.\n\u201cThe terms \u2018special devices, facilities or equipment\u2019 is construed to mean only those operated by motive or mechanical power.\u201d\nThe certificates held had been duly issued by the Commission in accordance with the existing laws at the respective dates of issuance believing that such transportation of said commodities was authorized. Each of the specialized carriers had transported a part, and in some instances all, of the commodities named in the order of the Commission dated May 13, 1954. The specialized carriers believed that in transporting such commodities for use in the sulphur and water well industries, they were transporting \u201coil field equipment.\u201d\nIn the fall of 1953, the legality of such transportation of said commodities as oil field equipment was questioned by both the Interstate Commerce Commission and the Texas Railroad Commission. In keeping with existing rules and regulations of the Commission, each of the 128 holders of 150 specialized carrier certificates filed an application with the Commission to have its existing certificate amended so as to include the right to transport some 130 named commodities upon and along the routes and within the areas as set out in each existing certificate. Each of these applications complied as to form and content with the existing laws and the regulations of the Commission. Also each application was accomnanied by the required exhibits, maps and other data. The first of these applications was filed in November of 1953, and the filings continued through January, 1954. On the call of the Commission docket on February 2, 1954, it was announced by the person acting,on behalf of the Commission that all of these applications related to the same subject matter and all were being set for hearing at the Lamar Hotel in Houston, Texas, on March 15, 1954. Later some 13 similar applications were set for the same hearing at the same time and place. Printed hearing notices in due form and in compliance with the provisions of Sections 11 and 21 of Article 911b were sent to all interested parties more than ten days prior to the date of hearing. This was true even as regarded the 13 applications filed after the call of the docket on February 2, 1954. Prior to the taking of testimony the Commission\u2019s examiner announced that a consolidated hearing would be held on all applications. The common carriers objected to the consolidation of the applications and have brought these objections to this Court. The hearing lasted for a period of four days. Each and every party was permitted to call any and all witnesses requested, and none were prevented from examining, cross-examining, making any and all objections desired, or conducting their respective cases as each saw fit. The record was prepared and forwarded to the Commission. On May 3, 1954, the Commission, in duly constituted conference and acting as a Commission, took up and considered the applications of the specialized carriers and caused to be issued to each of them an order dated May 13, 1954, granting in part the applications for amendment of existing certificates. The additional authority contained in the May 13th order, so far as pertinent here, was as follows: \u201c* * * except that the applicants are prohibited from transporting pipe when not moving as oilfield equipment, where both origin and destination are placed on the certified routes of regular route common carrier motor carriers, when such pipe is less than four inches (4\u201d) in diameter and is also less than twenty-eight feet (28\u2019) in length.\u201d The diameter and length restriction is the same as in the original certificates. The common carriers have not lodged any objection to the authority to transport pipe in any of their briefs, so we will not further discuss this.\nThe May 13th order amended the existing certificates in the following particulars:\n\u201cIt is further ordered by the Commission that the certificates enumerated in the caption of this order be amended so as to authorize the transportation by these applicants, when said commodities are not moving as oilfield equipment and when said commodities require specialized equipment for the loading or unloading, and transportation; thereof, between all points within the area covered by the existing certificates * *\nThen followed a list of 130 commodities, transportation of which was authorized by the order. The transportation of such commodities was limited in the following manner:\n\u201cThe holder of this authority may transport the above-named commodities (beginning with the commodity \u2018Absorbers\u2019) together with its attachments and its detached parts thereof, between points in the pickup and delivery limits of the regular route common carrier motor carriers in incorporated cities, towns and villages only when the commodity to be transported weighs 4,000 pounds or more in a single piece or when such commodity, because of physical characteristics other than weight, require the use of \u2018special devices, facilities or equipment\u2019 for the safe and proper loading or unloading and transportation thereof.\n\u201cThe term \u2018special devices, facilities or equipment\u2019 is construed to mean only those operated by motive or mechanical power.\u201d\nWithin the time authorized by the Comimssion\u2019s Rules of Procedure and Practice, the common carriers filed their written exceptions and objections to the order of the Commission dated May 13, 1954, and requested the Commission to hear oral argument. Under date of July 26, 1954, the Commission granted the petition for oral argument; and on Monday, August 2, 1954, the Commission heard oral argument on the applications and its order dated May 13, 1954.\nSubsequently, on Monday, August 16, 1954, the Commission, in a duly constituted conference and acting as a Commission, took up and considered all of the exceptions and objections of the common carriers to its order of May 13, 1954, in the light of not only what was said in such written exceptions and objections, but also in the light of what had been stated at the oral argument, and overruled such exceptions and objections.\nUnder date of August 18, 1954, the Commission caused to be issued its formal order overruling such exceptions and objections, and, thereupon, the order of May 13, 1954 became a final order of the Commission. In due time the specialized carriers (respondents in this cause) complied with the administrative requirements of the Commission, and there were issued to each of them amended specialized motor carrier certificates embracing the additional authority authorized by the order of May 13, 1954.\n. On November 2, 1954, common carriers instituted this suit to set aside- all of the order of the Commission dated May 13, 1954. After a trial before the court, the trial court entered its judgment decreeing the order of the Commission dated May 13, 1954 to be a valid, subsisting and legal order of the Commission, and that the amended specialized motor carrier certificates issued by the Commission to the specialized carriers pursuant to its order of May 13, 1954 to be valid and subsisting certificates. In due time thereafter, the common carriers perfected their appeal to the Court of Civil Appeals from that part of the trial court\u2019s judgment sustaining the basic order of May 13, 1954, and denying .the common carriers relief. The Court of Civil Appeals affirmed the trial court\u2019s judgment. 298 S.W. 2d 914. That opinion sets out the facts in much detail, and we shall not repeat any more than is necessary for a clear understanding of this opinion.\nThe common carriers have set out in their application for writ of error six points of error and three subpoints. However, the common carriers have summarized their points as follows:\n\u201cThe controlling issues on the validity of the Commission\u2019s order of May 13, 1954, as summarized in Points I through V, and as recognized by the Court of Civil Appeals, are legal issues. Essentially these five controlling issues concern (1) whether the Commission\u2019s order of May 13, 1954, was reasonably supported by substantial evidence adduced before the Trial Court (Points I and I-A), and (2) whether the Commission\u2019s action represented by its order of May 13, 1954, is violative of jurisdictional and procedural limitations imposed by- the >1941 Specialized Motor Carrier Act and by the fundamental requirements of administrative due process of law (Points II, III, IV and V).\u201d\nIn addition, the common carriers attack the order entered by the Commission as being invalid and void because it does not comply with the requirements of Section 5a (d) of Article 911b that \u201c* * * the Commission shall set forth in its order full and complete findings of fact pointing out in detail the inadequacies of the services and facilities of the existing carriers, and the public need for the proposed service. * *\nWe will first discuss the points having to do with -the jurisdiction of the Commission to process the applications as was done in the instant case, as we conceive these to be fundamental. The common carriers complain of -the action of the Commission in having consolidated all of the applications into. one hearing over their objections. They contend that such procedure deprived them of due process of law in protecting their rights; and, further, that in making such a mass and wholesale grant of the 150 amendments to the existing certificates, the Commission, as a matter of law, did not reasonably discharge the mandatory administrative duties prescribed by -Article 911b. The common carriers have cited no authorities to sustain their position. As we understand their argument, it is basically that the statutes and the requirements of \u201cdue process\u201d direct individual hearings and individual consideration of each and every application separate and alone from every other application. Article 911b, Section 12 (a), with regard- to hearings by the Commission on applications filed before it, says in part:\n\u201cThe hearing on an application for certificate or permit shall be conducted under such rules and regulations as the Commission may prescribe. * * * After hearing and such investigation as the Commission may make, it shall be the duty of the Commission to grant or refuse the application * *\nPursuant to such authority, the Commission has promulgated rules and regulations as to procedure before it. Rule 39 provides :\n\u201cNo hearing of two or more applications * * * shall be heard on a joint record without the affirmative consent of all parties, both applicant and protestant, unless the presiding examiner shall find prior to the consolidation of such proceedings that substantial justice cannot be afforded without the consolidation.\u201d\nWhen the hearings began in Houston, the Commission\u2019s examiner appointed to hear these applications stated, in substance, that it would be an undue burden on all parties and the Commission to hear these applications separately; that each application was to transport the same commodities; that the testimony as to public convenience and necessity for the services sought to be rendered and inadequacy - of the existing services as given in one hearing would apply to all applications the same as if heard separately.' He also in effect held that to hold separate hearings would require useless repetition of the same testimony ; would require more time in the hearing than was reasonably necessary, and unduly delay the action of the Commission on the applications. We agree with the holding of the Court of Civil Appeals that the action of the examiner in consolidating all the applications in one hearing was correct, and no- abuse of discretion harming the rights of the common carriers. \"\nIt is well established that hearings by the Commission and its action are not limited by the same rules as hearings in court. Kerrville Bus Co., Inc. v. Continental Bus System, Texas Civ. App., 1947, 208 S.W. 2d 586 (3), 588, 589, ref., n.r.e.; Booth v. Texas Employer\u2019s Ins. Ass\u2019n., 132 Texas 237, 123 S.W. 2d 322 (5-6), 326; Traders & General Ins. Co. v. Garry, 135 Texas 290, 143 S.W. 2d 370 (1-3), 372; 1 Texas Jur. Ten Year Supp. 108, Administrative Law and Procedure, Sec. 23; 73 C.J.S. 437, Sec. 118. An administrative agency has the sole discretion to determine whether or not it will consolidate into one hearing applications pending before it involving the same commodities, routes, parties, etc., etc. American Trucking Ass\u2019ns. v. United States, Va., (1945), 326 U.S. 77, 65 Sup. Ct. 1499; Wales v. United States, 108 Fed. Sup. 928, N. D. Texas, 1952, affirmed 345 U.S. 954, 97 L. Ed. 1375, 73 Sup. Ct. 941 (1953) ; Davis, Administrative Law, (1951), pp. 297-298; Thompson v. Hovey Petroleum Co., Texas Civ. App., 232 S.W. 2d 146, reversed on other grounds, 149 Texas 554, 236 S.W. 2d 491. The Supreme Court\u2019s opinion in that case sets out that the Commission consolidated some 13 or 14 applications, but nothing further was said about this action. We overrule the common carriers\u2019 points which complain of the hearing of all applications on a consolidated record.\nAs to the common carriers\u2019 points complaining that they were not afforded due process, we overrule these points also. The record shows beyond any dispute that the applications and notices were amply sufficient to show what commodities were sought to be transported; the routes to be used in transportation thereof; equipment to be used by the various specialized carriers in such transportation; the parties affected by the applications, the time and place of hearing. No one was misled by either the applications or the notices as to the true purpose of the hearing, or the result sought by applicants, the specialized carriers. All parties appeared at the designated time and place of the hearing either in person or by counsel and in the vast majority of instances by both methods. No party was restricted as to evidence such party might offer; no request to be permitted to produce additional evidence was denied. Ample opportunity was given all parties to examine and cross-examine all witnesses, exhibits, etc. The common carriers have called to our attention no instances wherein they were harmed by the consolidated hearing. Ample opportunity for a hearing before the Commission on the examiner\u2019s report, and the Commission\u2019s action in granting the amended permits was given' and an extended hearing had. The Commission, prior to acting on the applications and ordering the amended certificates issued, had considered the full transcript of the evidence and pleadings before the examiner, and appeal was duly taken from the Commission\u2019s final order.\nCommon carriers complain that the certificates granted to Union City Transfer and 15 other specialized carriers (hereinafter designated as Union City Group) authorized the transportation of 24 commodities not named in the applications filed by the Union City Group. This is true as to the applications as filed. At the opening of the hearing, the attorneys for common carriers, the specialized carriers and the Commission together checked all applications and amended those omitting certain commodities for the express purpose of making each and every application \u2014 including those of the Union City Group \u2014 contain an identical description of all commodities sought to be transported. Amendment of applications at the time of hearing has been expressly approved. Kerrville Bus Co., Inc. v. Continental Bus System, supra, and authorities therein cited. We hold that the common carriers had due process in the Commission\u2019s action on their resisting the specialized carriers\u2019 applications for amendment of their certificates. Lone Star Gas Co. v. State, 137 Texas 279, 153 S.W. 2d 681 (20-22), 699; G. & H. Motor Freight Lines, Inc. v. Railroad Commission, Texas Civ. App., 140 S.W. 2d 946 (7, 8), 951, dism. cor. judg.; New York Cent. & H. R. R. Co. v. Interstate Commerce Commission, 1909, Cir. Ct. S. D. N. Y., 168 Fed. 131; Market Street Railway Co. v. Railroad Commission of California, 1945, 324 U.S. 548, 562; Marrs v. Railroad Commission, 142 Texas 293, 177 S.W. 2d 941, 950.\nThe common carriers, as part of their attack on the jurisdiction of the Commission to issue its order of May 13, 1954, assert that the evidence before the Commission did not show that a certificate be issued each individual specialized carrier in order that the public convenience and necessity for the service be satisfied; nor did such evidence show the inadequacy of existing services and facilities of the common carriers and the ability of the specialized carriers to render the new services sought. Bearing on this jurisdictional point a complete record of the proceedings before the Commission was introduced in the trial court. Also, it is contended that many of the commodities sought to be transported are not commodities which, because of size, weight, or other characteristics, require special equipment for loading or unloading. We cannot detail all the evidence heard by the Commission. Suffice it to say that some 26 witnesses from industry testified before the Commission at the hearing. Generally the testimony of each was to the effect that he, or the company he represented, manufactured, installed or sold (and sometimes a combination of two or all), equipment used in the discovery, - production, processing and marketing of sulphur and sulphur products; that the common carriers could not properly transport such equipment because it was a most unusual occurrence if the site where the equipment must be delivered was along or upon the routes of such common carriers; that the common carriers did not have the necessary trucks, trailers or equipment to properly handle these commodities; that undue delay would be occasioned if it were required that the common carriers transport such commodities over their routes and then the commodities be interchanged with the specialized carriers for transportation to their use sites; that the specialized carriers were not required to travel over any regular route, but could use such roads as were best suited to carrying out the transportation and delivery of such commodities to their use sites; that witnesses\u2019 companies used common carriers wherever such carriers could render a comparable service and intended to continue to use the common carriers in the future, but that the common carriers could not fill the needs of the industry; that the commodities sought to be transported needed special handling, and special equipment was required to properly protect such commodities in the course of transportation and installation thereof; this need to transport to use sites existed over the whole of the State of Texas; and other detailed testimony as to the manufacturers, sellers, installers and users of each of the commodities as to their experience with the common carriers and the specialized carriers pointed out the inadequacies of the services rendered by the common carriers, and the need for the adequate services by the specialized carriers. Similar testimony was given as to water well drilling development and irrigation needs and uses. In addition, there were introduced the reports, lists of equipment and records of each and every one of the applicant specialized carriers. The evidence before the Commission was sufficient to invoke its .jurisdiction to act on the applications. We hold that the record does not show, as a matter of law, that the Commission did not comply with the statutory requirements in the consideration and determination of the applications before it.\nThis brings us to the next attack made on the order of the Commission entered on May 13, 1954. This attack is based on the assertion that the order of the Commission is not supported by substantial evidence. The substantial evidence rule is as follows.: \u25a0 \u25a0 1\n\u201c* * * In such a case the issue is not whether or not the agency came to the -proper fact conclusion on the basis of conflicting evidence,- but whether or not it acted arbitrarily and without regard to the facts. Hence it is generally recognized that where the order of the agency under attack involves the exercise of the sound judgment and discretion of the agency in a matter committed to it by the Legislature, the court will sustain the order if the action of the agency in reaching such conclusion is reasonably supported by substanatial evidence. This does not mean that a mere scintilla of evidence will Suffice, nor does it mean that the court is bound to select the testimony of one side, with absolute blindness to that introduced by the other. After all, the court is to render justice in the case. The record is to be considered as a whole, and it is for the court to determine what constitutes substantial evidence. The court is not to substitute its discretion for that committed to the agency by the Legislature, but is to sustain the agency if it is reasonably supported by substantial evidence before the court. If the evidence as a whole is such that reasonable minds could not have reached the conclusion that the agency must have reached in order to justify its action, then the order must be set aside.\u201d Railroad Commission v. Shell Oil Co., 139 Texas 66, 161 S.W. 2d 1022, 1029.\nAnd further in Shupee v. Railroad Commission of Texas, 123 Texas 521, 73 S.W. 2d 505(2), 508, as follows:\n\u201cWe think it clear that the intention of the statutory provisions is that the decisions of the Railroad Commission upon the granting or refusing of any permit to operate a bus line over any highways in Texas should be final and conclusive, unless it acted unreasonably and unlawfully, or unless its decisions had no basis in fact and were arbitrary or capricious. In other words, if the findings and orders of the Railroad Commission in such matters had any reasonable basis in fact, and were not shown to be arbitrary and unreasonable, they must be supported by the court. The court cannot substitute its judgment for that of the commission, unless it be shown that said judgment of the commission was without foundation in fact, or was unreasonable or arbitrary, * *\nSee also Board of Firemen\u2019s Relief & Retirement Fund Trustees of Houston v. Marks, 150 Texas 433, 242 S.W. 2d 181, 183; 27 A.L.R. 2d 965; Miller v. Tarry, Texas Civ. App., 191 S.W. 2d 501, wr. ref., n.r.e.; Texas Industrial Traffic Leaerue v. Railroad Commission of Texas, Texas Civ. App., 255 S.W. 2d 903, wr. ref., n.r.e.; Central Freight Lines, Inc. v. Sadler, Texas Civ. App., 147 S.W. 2d 1102 (1, 2), 1108-09, dism. cor. judg., and authorities cited therein; Merchants Fast Motor Lines, Inc. v. Newman, Texas Civ. App., 1951, 236 S.W. 2d 646, ref. n.r.e.; 73 C.J.S. 548, et. seq., Public Administrative Bodies and Procedure, Sec. 202. This same rule applies to issuance of certificates to carriers to transport freight. Texas & Pacific Motor Transport Co. v. Railroad Commission of Texas, 124 Texas 126, 73 S.W. 2d 509; Robertson Transports, Inc. v. Transport Co. of Texas, Texas Civ. App., 269 S.W. 2d 472, 478(3), ref. n.r.e.\nThe order of the Commission acting on application for certificates is presumed to be valid and reasonably supported by substantial evidence. Webster v. Texas & Pacific Motor Transp. Co., 140 Texas 131, 166 S.W. 2d 75(4) ; Stotts v. Railroad Commission, Texas Civ. App., 1951, 236 S.W. 2d 210, ref.; Miller v. Tarry, supra, (17). Section 20 of Article 911b governing appeals from orders of the Commission in transportation matters, provides in part that \u201cin all trials under this section the burden of proof shall rest upon plaintiff, who must show by the preponderance of the evidence that the decisions, * * * orders, * * * acts, * * * complained of are unreasonable and unjust to it or them * * This rule as to burden applies to the common carriers in this suit on all points of error alleged by them \u2014 jurisdictional or otherwise. To the same effect is Miller v. Tarry, supra. The statute is plain and unambiguous and its meaning is clear.\nThis is not a case where the Commission heard no evidence. In cases under the Motor Carrier Act, the Commission must hear evidence in order to have power to grant a certificate. Miller v. Tarry, supra, p. 503, 2nd. col.; Railroad Commission of Texas v. Red Arrow Freight Lines, Inc., 1936, Texas Civ. App., 96 S.W. 2d 735, ref.; Railroad Commission of Texas v. Red Arrow Freight Lines, Inc., 1942, Texas Civ. App., 167 S.W. 2d 249 (1), ref., w.o.m. Otherwise the Commission could not comply with the statutory requirement that its order entered on the application \u201cshall set forth * * * full and complete findings of fact pointing out in detail * * *\u201d certain facts obtained from the evidence. Art. 911b, Sec. 5a(d). Having heard evidence, an appeal from the Commission\u2019s order is governed by the substantial evidence rule above quoted, and Section 20 of Article 911b. Railroad Commission of Texas v. Rau, Texas Civ. App., 45 S.W. 2d 413 (1, 2, 3), dism. cor. judg.; Lone Star Gas Co. v. State, 137 Texas 279, 153 S.W. 2d 681, 697.\nWe shall summarize the evidence before the trial court. In the district court 13 of the protesting common carriers testified, but no testimony was heard from any manufacturers, sellers, installers or users of any of the commodities, or from public witnesses. These witnesses testified regarding their certificates, routes, terminals, equipment, schedules and operations and the individual commodities included in the applications of the specialized carriers. Generally such testimony was to the effect that such commodities required no specialized equipment for loading or unloading, and that the common carriers could adequately protect such commodities in shipment. It was admitted that in the vast majority of shipments \u2014 those going to use sites \u2014 the common carriers could not deliver the equipment to the place needed because of the limitations imposed by their authorized routes; that they could not install the equipment at the use sites; that they could not handle large and heavy items except at their terminals in the large cities; that frequently they had to hire special equipment in order to handle many of the commodities; that to require these items to be carried by common carriers between their terminals and then reload and transport by specialized carriers to use sites would be inconvenient and cause unnecessary delay. Upon trial, specialized carriers offered four witnesses from shippers and users of the commodities covered by their applications. These witnesses, in substance, testified that the activities and operations of the sulphur industry were similar to those of the petroleum and natural gas industry; that drilling rigs were used in the exploration for and discovery of sulphur; that seismographic and coring operations are conducted and if prospects are favorable; larger drilling rigs, similar to those used in the oil field, were moved in; that a great deal of equipment is moved, such as mud pumping equipment, power equipment, caterpillar tractors and bulldozers, draglines, trucks, tool houses, and in remote areas living quarters and bunk houses; necessary fittings and tools, and equipment needed in drilling operations as well as large quantities of pipe required; that sulphur is mined and explored for wherever it might be found, which could be anywhere from the hilly country of West Texas to the marshes of the Gulf Coast; that discoveries are usually not located on rail lines or on highways; and that the sulphur companies, in their exploratory and drilling work, are dependent almost wholly on the so-called oil field carriers or heavy haulers, such as the specialized carirers. These witnesses further testified to the need of industry and their individual companies for the proposed service and to facts showing inadequacy of existing services; that a number of the commodities involved in the Commission\u2019s order are manufactured and shipped by said companies; that the equipment1 which was sold to and used by the petroleum industry is also sold to and used by the water well and sulphur industries; that the same type of equipment is used to drill oil wells, water wells and sulphur wells; and that the type of transportation service needed and used by the companies on most of their shipments is the irregular route specialized carriers because of the location of the use sites and the size or physical characteristics of the shipments. Seventy-seven of the specialized carrier applicants testified in the trial court as to the specialized trucking equipment operated by them, specially designed and equipped for the loading, unloading and transportation of commodities which, by reason of size, weight, length, height, etc., required the use of such special equipment, as well as a number of photographic exhibits showing the type and character of equipment operated and the size and shape of a number of the commodities authorized to be transported under the involved order of the Commission. There was also testimony by a number of the specialized carriers that in addition to hauling drilling rigs, pipe and component parts to or for oil companies, they had also hauled such rigs to and for sulphur companies, water well drillers, and other related companies.\nThe Commission considered the records before it and the reports filed before it by the specialized carriers regarding financial ability, equipment used, including special equipment as defined in the statute and in the Commission\u2019s order. The Commission has the right to rely upon its own records and the information contained therein in considering and disposing of the applications before it. Railroad Commission v. McDonald, Texas Civ. App., 90 S.W. 2d 581, no writ history; Red Ball Motor Freight, Inc. v. Southern Pacific Transport Co., 231 S.W. 2d 462, n.r.e.; Railroad Commission of Texas v. Brown Express, 106 S.W. 2d 327, dism.; North East Texas Motor Lines, Inc. v. Texas & Pacific Motor Transport Co., 159 S.W. 2d 926, no writ history; Texas Industrial Traffic League v. Railroad Commission of Texas, Texas Civ. App., 255 S.W. 2d 903, n.r.e.; 73 C.J.S. 442, Public Administrative Bodies and Procedure, Sec. 123. We hold that when the record as a whole is considered the order of the Commission and the action of the trial court affirming such order is reasonably supported by substantial evidence.\nThe common motor carriers' complain that the order of the Commission entered May 13, 1954 is void because, it does n\u00f3t set forth full and complete findings of -fact pointing out in detail the inadequacies. of the services and facilities of'the-exist-. ing carriers, and the public need for the proposed service. The Commission made findings as supported by the evidence before it. The Court of Civil Appeals opinion discusses this assignment in detail, and we have examined the record and found' its conclusion correct. We will not further extend this opinion by again setting out the order.\nThe common carriers rely upon the cases of Thompson v. Hovey Petroleum Co., supra; Thompson v. Railroad Commission, 1951, 150 Texas 307, 240 S.W. 2d 759, and Railroad Commission of Texas v. Roberdeau, 1951, 150 Texas 506, 242 S.W. 2d 881, to sustain their contention that the order of the Commission entered on May 13, 1954 is void. The order condemned in the Hovey Petroleum Company case above was a mere summary of the testimony given by the witnesses who appeared before the Commission. For instance, the order recites \u201cthe Commission further finds from the evidence that applicants presented witnesses who testified * * *;\u201d \u201cthe Commission further finds that said application was protested by [certain named parties] * * *\u201d and here then setting out the substance of such testimony. The Court said: \u201cWith this testimony from existing motor carriers before the Commission, one looks in vain at the Commission\u2019s order, above quoted, for any disposition of it in \u2018pointing out in detail the inadequacies of the services and facilities of the existing carriers,\u2019 as required by Art. 911b, Sec. 5a (d), supra. By reference to the second paragraph of the order quoted above it will be observed that the Commission says that the \u2018rail lines offered evidence which was in part as follows\u2019. (Italics ours). Following that is recounted testimony about tank cars, but there is not a single word about tank trucks * *\nIn the Thompson v. Railroad Commission case, supra, this Court said the orders under review are substantially identical with the order in the Hovey case; and would not be set out in the Thompson opinion. Regarding the finding of the Commission relative the inadequacies of the existing services and the public convenience and necessity of the proposed service, it \u201cis not a finding of fact, but is only a finding of an ultimate conclusion, partly in the words of the statute.\u201d The Roberdeau case, supra, is of no assistance in our cause. There it was held that even though an order did not contain fact findings required by statute (Sec. 5a (d), Art 911b) such order could not be set aside in a collateral attack, but must be directly attacked. None of the three cases above discussed control out case. Our order is set forth in different verbiage than the orders in the Hovey and Thompson cases, and the point in the Roberdeau case is not present in our case. We hold the order of May 13, 1954 is sufficiently specific and definite in its findings of fact and the recitations in such order as to comply with Sec. 5a (d) of Art. 911b and is therefore not a void order.\nThe common motor carriers contend that the order is void because in permitting the specialized carrier to transport commodities, which because of physical characteristics other than weight, require the use of \u201cspecial devices, facilities or equipment\u201d for the safe and proper loading or unloading thereof, the order is vague and indefinite, and furnishes no proper standards or definitions whereby it may be determined what commodities the specialized carriers may lawfully transport. In Section 1 of the Act creating and defining specialized motor carriers, \u201cit is declared to be the policy of the Legislature to create a class of common carrier motor carriers designated as specialized motor carriers, to engage in the business of transporting for compensation or hire over the highways in this State, over irregular routes, on irregular schedules with specialized equipment * * * commodities, which by reason of length, weight, height, size, or other physical characteristics, require the use of special devices, facilities, or equipment for their loading or unloading, and all commodities which require special facilities or special motor vehicles for adequate, efficient or safe transportation; * * This intent is carried forward in Section 1 (i), Art. 911b where, in discussing \u201cspecialized motor carriers\u201d the Legislature defines \u201cproperty requiring specialized equipment is limited to * * * (4) commodities which by reason of length, width, weight, height, sizes or other physical characteristics require the use of special devices, facilities, or equipment for their loading, unloading, and transportation.\u201d In the case of Thompson v. Railroad Commission, Texas Civ. App., 1950, 232 S.W. 2d 139, 142, reversed on insufficiency of the Commission order, 150 Texas 307, 240 S.W. 2d 759, the Court of Civil Appeals discusses the above Section of the Act as follows:\n\u201cThe common purpose of this Act was to provide for the safe and efficient transportation of commodities having awkward or unusual physical characteristics. Nothing else seemed to matter. It could hardly be contended that there was a grouping of intrinsically related commodities when milk and oil field equipment are mentioned in the same section. The only common denominator which these two commodities have is that the transportation of both, in quantity, is difficult and requires special equipment and facilities.\n\u201cIt would have been virtually impossible for the Legislature to have named all of the commodities which require special transportation equipment. The fact that some of these were specifically mentioned does not detract from the legislative purpose. That they were named is probably accounted for by their importance and thus were readily called to the legislative mind.\u201d\nWe approve this discussion. Commodities are constantly changing in size, shape and weight. A description of a commodity adequate today might easily be wholly inadequate in a year or so from this time. Whether or not a particular commodity is within the terms of the Act and correspondingly of the order is a fact issue in each case. Querner v. Railroad Commission of Texas, 236 S.W. 2d 853, affirmed 150 Texas 490, 242 S.W. 2d 166. In our case the Commission has specifically set out by name the commodities which the specialized motor carriers are authorized to transport, but has limited the transportation of such named commodities within the pickup and delivery limits of the common carriers in incorporated cities by a limitation as to weight (must weigh more than 4,000 pounds) and has further limited the commodities to be transported \u201cwhere such commodity, because of physical characteristics other than weight, requires the use of special devices, facilities or equipment for the safe and proper loading or unloading thereof.\u201d The order then proceeds to define \u201cspecial devices, facilities or equipment\u201d as meaning only those operated by motive or mechanical power. We hold the order is not indefinite, vague or uncertain.\nCommon carriers complain of the failure of the trial court and the Court of Civil Appeals, upon sustaining the order of May 13, 1954, to render a declaratory judgment declaring the meaning of the order and its various provisions which are not definite, certain and measurable by any standards in the order. We have held that the various provisions of the order are definite, certain and measurable by standards contained in the legislative enactment authorizing the issuance of permits to specialized motor carriers, and also contained in the order. In addition, we hold that in this direct attack upon the order by appeal under Section 20, Article 911b, an action for declaratory judgment does not lie. Section 20 provides for the method of attack on an order and further gives such appeals precedence on the court dockets over all other causes on the docket of a different nature. This remedy has been held exclusive. Lone Star Gas Co. v. State, 137 Texas 279, 153 S.W. 2d 681 (23). These provisions provide for an effective method of attack on the orders of the Commission and for a speedy disposition of such appeals. The public has an interest in the action of the Railroad Commission, and an early conclusion should be brought to attacks on the orders of the Commission. Board of County Commissioners of Anne Arundel County v. Buch, 190 Md. 394, 58 Atl. 2d 672; 5 A.L.R. 2d 569; Rich Mfg. Co. v. Petty, 241 Iowa 840, 42 N.W. 2d 80; Southern Traffic Bureau v. Thompson, 232 S.W. 2d 742 (10, 11, 12), 750-51; 14B Texas Jur. 306-307, Sec. 11; Idem, p. 312, Sec. 17; 16 Am. Jur. 295, Sec. 21; 73 C.J.S. 479, Public Administrative Bodies and Procedure, Sec. 146.\nWhat the common carriers are seeking by their request for a declaratory judgment is an advisory opinion by the Court. It is well settled that courts will not give advisory opinions. The present right of common carriers which has been violated by the order of May 13, 1954 is the right to the sole and exclusive use of the highway to transport the commodities enumerated in the order. A redress to that right is afforded by appeal as provided in Sec. 20 of Art. 911b. We affirm the holding of the Court of Civil Appeals with regard to the request for a declaratory judgment.\nCommon carriers complain that certain findings of fact filed by the trial court are without support in the evidence. We will not again summarize the testimony, but our discussion of this evidence under previous points of error urged by the common carriers, demonstrates that the findings complained of are supported by the evidence.\nCommon carriers also complain of the action of the trial court in refusing to make additional findings of fact requested by the common carriers. We find no error in the actions of both courts below in this regard.\nJudgment of the Court of Civil Appeals is affirmed.\nOpinion delivered January 15, 1958.",
+        "type": "majority",
+        "author": "Mr. Justice Griffin"
+      },
+      {
+        "text": "Mr. Justice Calvert\njoined by Justice Walker, dissenting.\nThe manner in which the Commission, the trial court, the Court of Civil Appeals and the majority of this court have dealt with the subject matter of this suit appeals to one as likely the best practical solution of a knotty problem, but it hardly squares, even loosely, with statutory requirements or established legal precedents.\nIn a single hearing amendment has been ordered of 150 certificates held by 129 specialized carriers authorizing transportation of 130 commodities. One hundred six of the certificates are state-wide in scope and the remainder are confined to more or less local areas.\nI do not quarrel with the procedure of dealing with the matter in a single or joint hearing. On the other hand, the amendment of each certificate represents the granting of a certificate right which, under the applicable statute, can only be based on need for the service. Each amendment therefore repres\u00e9nts a separate new service and should be supported by proof. In my judgment the record simply does not justify a conclusion that there is substantial evidence reasonably supporting the wholesale granting of all of the amended certificates. There may be substantial evidence reasonably supporting the granting of some of them. It would serve no useful purpose to analyze the evidence at length.\nOpinion delivered January 15, 1958.\nRehearing overruled March 5, 1958.",
+        "type": "dissent",
+        "author": "Mr. Justice Calvert"
+      }
+    ],
+    "attorneys": [
+      "Herbert L. Smith and Phillip Robinson, both of Austin, for petitioners.",
+      "Will Wilson, Attorney General, James N. Ludlum and Houghton Brownlee, Jr., Assistants Attorney General, for Railroad Commission; John N. Benckenstein, of Beaumont, Ewell H. Muse, Jr., Morgan Nesbitt, Looney, Clark & Morehead, Everett L. Looney, Thomas E. James, Charles D. Mathews, all of Austin, and Jo E. Shaw, of Houston, for Specialized Motor Carriers, all respondents."
+    ],
+    "corrections": "",
+    "head_matter": "Alamo Express, Incorporated, Et Al v. Union City Transfer, Et Al.\nNo. A-6268.\nDecided January 15, 1958.\nRehearing overruled March 5, 1958\n(309 S.W. 2d Series 815)\nHerbert L. Smith and Phillip Robinson, both of Austin, for petitioners.\nThe Court of Civil Appeals erred in sustaining the order of the Railroad Commission, because there was no substantial evidence introduced reasonably supporting the commission\u2019s action in granting 150 separate applications, 106 of which were statewide in scope, to transport 130 listed commodities with numerous additional sub-listed commodities between all points on and along all existing highways of regular route common carriers in Texas. Also because said order was void, invalid and a denial of due process. Cobb v. Harrington, 144 Texas 360, 190 S.W. 2d 709; Fambrough v. Wagley, 140 Texas 577, 169 S.W. 2d 478; Hawkins v. Texas Company, 146 Texas 511, 209 S.W. 2d 388; Lone Star Gas Co. v. Kelly, 140 Texas 15, 165 S.W. 2d 446.\nWill Wilson, Attorney General, James N. Ludlum and Houghton Brownlee, Jr., Assistants Attorney General, for Railroad Commission; John N. Benckenstein, of Beaumont, Ewell H. Muse, Jr., Morgan Nesbitt, Looney, Clark & Morehead, Everett L. Looney, Thomas E. James, Charles D. Mathews, all of Austin, and Jo E. Shaw, of Houston, for Specialized Motor Carriers, all respondents.\nIn reply to points set forth by petitioners, Cook Drilling Co. v. Gulf Oil Corp., 139 Texas 80, 161 S.W. 2d 1035; Market Street Railway v. Railroad Commission, 324 U.S. 548, 562, 89 L. Ed. 1171, 65 Sup. Ct. 770; Shupee v. Railroad Commission, 123 Texas 521, 73 S.W. 2d 505.\nSee also Railroad Com. v. Alamo Express, ante 68."
+  },
+  "file_name": "0234-01",
+  "first_page_order": 250,
+  "last_page_order": 269
+}

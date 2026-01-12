@@ -1,0 +1,61 @@
+{
+  "id": 12242209,
+  "name": "McCreary v. United States",
+  "name_abbreviation": "McCreary v. United States",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-7596",
+  "first_page": "1149",
+  "last_page": "1149",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1149"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 155,
+    "ocr_confidence": 0.647,
+    "sha256": "37668d499ff85e3ae21c7068e99faa30b74bd35abe54710b0d2f5f46338811d1",
+    "simhash": "1:9d339a82030ef648",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "McCreary v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.\nJustice Sotomayor took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7596.\nMcCreary v. United States."
+  },
+  "file_name": "1149-07",
+  "first_page_order": 1231,
+  "last_page_order": 1231
+}

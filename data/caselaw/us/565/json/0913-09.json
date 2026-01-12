@@ -1,0 +1,59 @@
+{
+  "id": 12222069,
+  "name": "Jones v. Unger, Superintendent, Wyoming Correctional Facility",
+  "name_abbreviation": "Jones v. Unger",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5540",
+  "first_page": "913",
+  "last_page": "913",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 913"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 109,
+    "ocr_confidence": 0.643,
+    "sha256": "3c7731a2a5c9b1485cbe012484ea13a2a2524f81b12148cfd0eedeb5738b5978",
+    "simhash": "1:9943e0cf981502c4",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jones v. Unger, Superintendent, Wyoming Correctional Facility."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5540.\nJones v. Unger, Superintendent, Wyoming Correctional Facility."
+  },
+  "file_name": "0913-09",
+  "first_page_order": 995,
+  "last_page_order": 995
+}

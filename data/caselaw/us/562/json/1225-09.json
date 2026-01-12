@@ -1,0 +1,59 @@
+{
+  "id": 6032647,
+  "name": "Blount v. California",
+  "name_abbreviation": "Blount v. California",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-7710",
+  "first_page": "1225",
+  "last_page": "1225",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1225"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 93,
+    "ocr_confidence": 0.589,
+    "sha256": "fb20b3dbec55ff915e5451fd4bae83b511a5bdcdbe85a63c3ec2415354e6a46c",
+    "simhash": "1:c6811740175f300c",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Blount v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 4th App. Dist., Div. 3. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7710.\nBlount v. California."
+  },
+  "file_name": "1225-09",
+  "first_page_order": 1247,
+  "last_page_order": 1247
+}

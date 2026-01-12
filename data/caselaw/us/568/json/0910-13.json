@@ -1,0 +1,59 @@
+{
+  "id": 12415821,
+  "name": "Mattison v. Michigan",
+  "name_abbreviation": "Mattison v. Michigan",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5398",
+  "first_page": "910",
+  "last_page": "910",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 910"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 70,
+    "ocr_confidence": 0.715,
+    "sha256": "79d5692b96b411e015dd7fd8658499b51726b3a3bac13cfe4d2aefef2d367945",
+    "simhash": "1:f2e3a1cae20154da",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mattison v. Michigan."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Mich. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5398.\nMattison v. Michigan."
+  },
+  "file_name": "0910-13",
+  "first_page_order": 986,
+  "last_page_order": 986
+}

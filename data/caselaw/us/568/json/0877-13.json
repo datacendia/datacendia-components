@@ -1,0 +1,59 @@
+{
+  "id": 12414744,
+  "name": "Gutierrez v. California",
+  "name_abbreviation": "Gutierrez v. California",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-11073",
+  "first_page": "877",
+  "last_page": "877",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 877"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 87,
+    "ocr_confidence": 0.699,
+    "sha256": "fcdf9eff9ad6d91b2f37b70b78b52340cbe805b575ac0b521ac15e0519aadba6",
+    "simhash": "1:0305f2a011830ac7",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gutierrez v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 2d App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-11073.\nGutierrez v. California."
+  },
+  "file_name": "0877-13",
+  "first_page_order": 953,
+  "last_page_order": 953
+}

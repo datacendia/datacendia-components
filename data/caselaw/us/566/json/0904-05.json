@@ -1,0 +1,59 @@
+{
+  "id": 12191271,
+  "name": "Cook v. Arizona",
+  "name_abbreviation": "Cook v. Arizona",
+  "decision_date": "2012-03-26",
+  "docket_number": "No. 10-9742",
+  "first_page": "904",
+  "last_page": "904",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 904"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 85,
+    "ocr_confidence": 0.592,
+    "sha256": "d44a3aba65115af3b38eca7abf5ba0d7fe58ac2cbebde1edda4a53d25eca97fc",
+    "simhash": "1:6981d4645e618994",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cook v. Arizona."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Ariz., County of Mohave. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9742.\nCook v. Arizona."
+  },
+  "file_name": "0904-05",
+  "first_page_order": 780,
+  "last_page_order": 780
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12421450,
+  "name": "Solis, aka Medel v. United States",
+  "name_abbreviation": "Solis v. United States",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-6509",
+  "first_page": "993",
+  "last_page": "993",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 993"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 82,
+    "ocr_confidence": 0.643,
+    "sha256": "edaf379fd0ffeb8803a7366b757e0c0507f3778b1c36ba55c68e8f529e801643",
+    "simhash": "1:a718c38b298d194a",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Solis, aka Medel v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6509.\nSolis, aka Medel v. United States."
+  },
+  "file_name": "0993-14",
+  "first_page_order": 1069,
+  "last_page_order": 1069
+}

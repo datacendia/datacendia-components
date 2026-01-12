@@ -1,0 +1,59 @@
+{
+  "id": 5933449,
+  "name": "Olvera-Campos v. United States",
+  "name_abbreviation": "Olvera-Campos v. United States",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-8039",
+  "first_page": "939",
+  "last_page": "939",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 939"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.675,
+    "sha256": "d2f81ac3a5db68a49c8f36f014055d903d08ca2a52f13ce608e8f9392c28c11b",
+    "simhash": "1:04aba0030b9d0056",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Olvera-Campos v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8039.\nOlvera-Campos v. United States."
+  },
+  "file_name": "0939-02",
+  "first_page_order": 965,
+  "last_page_order": 965
+}

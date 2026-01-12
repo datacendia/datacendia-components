@@ -1,0 +1,59 @@
+{
+  "id": 5944924,
+  "name": "Gopie v. United States",
+  "name_abbreviation": "Gopie v. United States",
+  "decision_date": "2010-10-12",
+  "docket_number": "No. 10-6248",
+  "first_page": "972",
+  "last_page": "972",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 972"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.606,
+    "sha256": "d024a76569c71d1dacea7a76b8d15aad63bcd4ab011cc54f6fbf9203adc8d051",
+    "simhash": "1:163aca03028fb01c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gopie v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6248.\nGopie v. United States."
+  },
+  "file_name": "0972-15",
+  "first_page_order": 994,
+  "last_page_order": 994
+}

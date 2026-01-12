@@ -1,0 +1,59 @@
+{
+  "id": 12414312,
+  "name": "Moore v. Department of the Navy",
+  "name_abbreviation": "Moore v. Department of the Navy",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10832",
+  "first_page": "864",
+  "last_page": "864",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 864"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 82,
+    "ocr_confidence": 0.716,
+    "sha256": "8cbf9843c7c231dd8959ba5455c146d554293bbdd8eef64724144095e6c2e00d",
+    "simhash": "1:af1b980c5e9fb0c7",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Moore v. Department of the Navy."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. Fed. Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10832.\nMoore v. Department of the Navy."
+  },
+  "file_name": "0864-13",
+  "first_page_order": 940,
+  "last_page_order": 940
+}

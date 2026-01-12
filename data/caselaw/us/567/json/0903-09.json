@@ -1,0 +1,86 @@
+{
+  "id": 12407678,
+  "name": "In re Disbarment of Douglas",
+  "name_abbreviation": "In re Disbarment of Douglas",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. D-2659",
+  "first_page": "903",
+  "last_page": "903",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 903"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "566 U. S. 934",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12203262,
+        12203367,
+        12203240,
+        12203340,
+        12203249,
+        12203315,
+        12203388,
+        12203294
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/566/0934-03",
+        "/us/566/0934-07",
+        "/us/566/0934-01",
+        "/us/566/0934-06",
+        "/us/566/0934-02",
+        "/us/566/0934-05",
+        "/us/566/0934-08",
+        "/us/566/0934-04"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 108,
+    "ocr_confidence": 0.686,
+    "sha256": "a112cca8fdbc42b35d255a6789a5c90121611374e21fcf406c2cc2b0a7845645",
+    "simhash": "1:fc68cdcebbd232e7",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:46:21.325002+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Douglas."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see 566 U. S. 934.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2659.\nIn re Disbarment of Douglas."
+  },
+  "file_name": "0903-09",
+  "first_page_order": 807,
+  "last_page_order": 807
+}

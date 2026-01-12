@@ -1,0 +1,59 @@
+{
+  "id": 12408063,
+  "name": "Bourne v. Curtin, Warden",
+  "name_abbreviation": "Bourne v. Curtin",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. 11-1241",
+  "first_page": "906",
+  "last_page": "906",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 906"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.638,
+    "sha256": "8e55cef8832ae551aa5bf4c55bb9d0d288cae1e7d515ed02d191a7ce22103c46",
+    "simhash": "1:b1aa32f42e7ff811",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bourne v. Curtin, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1241.\nBourne v. Curtin, Warden."
+  },
+  "file_name": "0906-06",
+  "first_page_order": 810,
+  "last_page_order": 810
+}

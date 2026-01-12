@@ -1,0 +1,59 @@
+{
+  "id": 5954514,
+  "name": "Woolridge v. Edwards",
+  "name_abbreviation": "Woolridge v. Edwards",
+  "decision_date": "2010-11-15",
+  "docket_number": "No. 10-6360",
+  "first_page": "1046",
+  "last_page": "1046",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1046"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 69,
+    "ocr_confidence": 0.583,
+    "sha256": "450c94bd36b9c3d2bc9118e47066ddb791b91148617e4ca970f09fd9b43d3bff",
+    "simhash": "1:1081c3a02d3720f6",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Woolridge v. Edwards."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6360.\nWoolridge v. Edwards."
+  },
+  "file_name": "1046-11",
+  "first_page_order": 1068,
+  "last_page_order": 1068
+}

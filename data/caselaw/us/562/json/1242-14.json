@@ -1,0 +1,59 @@
+{
+  "id": 6007971,
+  "name": "Chambliss v. United States",
+  "name_abbreviation": "Chambliss v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8331",
+  "first_page": "1242",
+  "last_page": "1242",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1242"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.641,
+    "sha256": "6d1cab7307fac08e8a4018c4a1d8e7edd03721563f252b5ec14baf20b808811d",
+    "simhash": "1:959aea02ce1d5d42",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Chambliss v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8331.\nChambliss v. United States."
+  },
+  "file_name": "1242-14",
+  "first_page_order": 1264,
+  "last_page_order": 1264
+}

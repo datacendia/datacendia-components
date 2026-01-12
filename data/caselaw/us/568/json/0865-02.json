@@ -1,0 +1,59 @@
+{
+  "id": 12414330,
+  "name": "Enraca v. California",
+  "name_abbreviation": "Enraca v. California",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10839",
+  "first_page": "865",
+  "last_page": "865",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 865"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 70,
+    "ocr_confidence": 0.644,
+    "sha256": "ecd251c6005d97b4ce55e6c60a779cc1dfe4d1dee419bda66e9f82b59e949359",
+    "simhash": "1:1c4b15778023107e",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Enraca v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10839.\nEnraca v. California."
+  },
+  "file_name": "0865-02",
+  "first_page_order": 941,
+  "last_page_order": 941
+}

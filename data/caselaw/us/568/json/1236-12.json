@@ -1,0 +1,59 @@
+{
+  "id": 12433384,
+  "name": "Nave v. Nebraska",
+  "name_abbreviation": "Nave v. Nebraska",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-8190",
+  "first_page": "1236",
+  "last_page": "1236",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1236"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 64,
+    "ocr_confidence": 0.758,
+    "sha256": "fc094f79fcb3758d319eca7bc3cfa59e3805fdecab1f90d59abbc22a3e26be20",
+    "simhash": "1:86bfdb20165afeb9",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Nave v. Nebraska."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Neb. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8190.\nNave v. Nebraska."
+  },
+  "file_name": "1236-12",
+  "first_page_order": 1312,
+  "last_page_order": 1312
+}

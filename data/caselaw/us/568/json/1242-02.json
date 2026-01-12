@@ -1,0 +1,59 @@
+{
+  "id": 12433622,
+  "name": "Huerta v. United States",
+  "name_abbreviation": "Huerta v. United States",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-8686",
+  "first_page": "1242",
+  "last_page": "1242",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1242"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.646,
+    "sha256": "f37d0a43a7e54dc61952282eb58722eeefde2912a8adee9bb94fe7b287b79ee7",
+    "simhash": "1:959bf20acabd9044",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Huerta v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8686.\nHuerta v. United States."
+  },
+  "file_name": "1242-02",
+  "first_page_order": 1318,
+  "last_page_order": 1318
+}

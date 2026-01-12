@@ -1,0 +1,59 @@
+{
+  "id": 5905846,
+  "name": "Diaz v. Florida",
+  "name_abbreviation": "Diaz v. Florida",
+  "decision_date": "2011-03-21",
+  "docket_number": "No. 10-8563",
+  "first_page": "1294",
+  "last_page": "1294",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1294"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 80,
+    "ocr_confidence": 0.621,
+    "sha256": "e13cab3cca83b0e905fecab371e1e6f91baa8d0ff99ab9310fbc686f8aa4ac7e",
+    "simhash": "1:a138151366c34b0a",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Diaz v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 4th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8563.\nDiaz v. Florida."
+  },
+  "file_name": "1294-10",
+  "first_page_order": 1316,
+  "last_page_order": 1316
+}

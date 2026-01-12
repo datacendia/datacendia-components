@@ -1,0 +1,68 @@
+{
+  "id": 12701192,
+  "name": "In re James SUDBERRY, petitioner.",
+  "name_abbreviation": "In re Sudberry",
+  "decision_date": "2014-01-27",
+  "docket_number": "No. 13\u20137148.",
+  "first_page": "1186",
+  "last_page": "1186",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 1186"
+    },
+    {
+      "type": "parallel",
+      "cite": "188 L. Ed. 2d 142"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 1055"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 20,
+    "char_count": 129,
+    "sha256": "de7fcbcd1a65315aeb219286cf2f744003450d21c14069252199a30323d812b8",
+    "simhash": "1:ebb334d6bd896e86",
+    "word_count": 20
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re James SUDBERRY, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for rehearing denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re James SUDBERRY, petitioner.\nNo. 13-7148.\nSupreme Court of the United States\nJan. 27, 2014.\nPetition for rehearing denied."
+  },
+  "file_name": "1186-07",
+  "first_page_order": 1186,
+  "last_page_order": 1186
+}

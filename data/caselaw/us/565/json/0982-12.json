@@ -1,0 +1,59 @@
+{
+  "id": 12230789,
+  "name": "Collins v. City of Jacksonville, Florida",
+  "name_abbreviation": "Collins v. City of Jacksonville",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-6042",
+  "first_page": "982",
+  "last_page": "982",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 982"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 88,
+    "ocr_confidence": 0.645,
+    "sha256": "026c5625cd43103ea7b6fd8f81278ee3698eaa8840576ba66164a54654d663c1",
+    "simhash": "1:44df96005c48bba1",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Collins v. City of Jacksonville, Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6042.\nCollins v. City of Jacksonville, Florida."
+  },
+  "file_name": "0982-12",
+  "first_page_order": 1064,
+  "last_page_order": 1064
+}

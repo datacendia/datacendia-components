@@ -1,0 +1,59 @@
+{
+  "id": 12432441,
+  "name": "Jaffe v. Pregerson, Judge, United States District Court for the Central District of California, et al.",
+  "name_abbreviation": "Jaffe v. Pregerson",
+  "decision_date": "2013-03-04",
+  "docket_number": "No. 12M95",
+  "first_page": "1211",
+  "last_page": "1211",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1211"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 28,
+    "char_count": 201,
+    "ocr_confidence": 0.608,
+    "sha256": "2536c93b1cbaefb8366f63a8e5c3f74934c394cd421a415029d529a7133d5e1b",
+    "simhash": "1:564c0027d241c89b",
+    "word_count": 34
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jaffe v. Pregerson, Judge, United States District Court for the Central District of California, et al."
+    ],
+    "opinions": [
+      {
+        "text": "Motion to direct the Clerk to file petition for writ of certiorari out of time denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12M95.\nJaffe v. Pregerson, Judge, United States District Court for the Central District of California, et al."
+  },
+  "file_name": "1211-01",
+  "first_page_order": 1287,
+  "last_page_order": 1287
+}

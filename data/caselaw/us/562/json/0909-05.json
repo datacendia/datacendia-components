@@ -1,0 +1,59 @@
+{
+  "id": 5988469,
+  "name": "Guzman v. Washington",
+  "name_abbreviation": "Guzman v. Washington",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5202",
+  "first_page": "909",
+  "last_page": "909",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 909"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 69,
+    "ocr_confidence": 0.608,
+    "sha256": "2721a09e0ea912e3fddf41eb3fb383712dd6e2d2679974e5ae9b20177b5f49ad",
+    "simhash": "1:e9877ce509347adb",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Guzman v. Washington."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Wash. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5202.\nGuzman v. Washington."
+  },
+  "file_name": "0909-05",
+  "first_page_order": 931,
+  "last_page_order": 931
+}

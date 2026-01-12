@@ -1,0 +1,59 @@
+{
+  "id": 5955561,
+  "name": "Frank v. United States",
+  "name_abbreviation": "Frank v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11374",
+  "first_page": "876",
+  "last_page": "876",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 876"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.66,
+    "sha256": "052ff359b6a1c313bb236ee1ab65f5f2b08edc942dbea040d2dd45a46f59d4a5",
+    "simhash": "1:076bcb2303a79018",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Frank v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11374.\nFrank v. United States."
+  },
+  "file_name": "0876-14",
+  "first_page_order": 898,
+  "last_page_order": 898
+}

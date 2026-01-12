@@ -1,0 +1,59 @@
+{
+  "id": 5904898,
+  "name": "Sanchez v. Dupnik, Sheriff, Pima County, Arizona, et al.",
+  "name_abbreviation": "Sanchez v. Dupnik",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-1469",
+  "first_page": "835",
+  "last_page": "835",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 835"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 104,
+    "ocr_confidence": 0.576,
+    "sha256": "4ec6d0e5431d8a1c3933287536997f9e9707e13063f09116ace73b08031a459f",
+    "simhash": "1:5010a0a82d046024",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sanchez v. Dupnik, Sheriff, Pima County, Arizona, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-1469.\nSanchez v. Dupnik, Sheriff, Pima County, Arizona, et al."
+  },
+  "file_name": "0835-09",
+  "first_page_order": 857,
+  "last_page_order": 857
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5970231,
+  "name": "Banks v. Illinois",
+  "name_abbreviation": "Banks v. Illinois",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-5922",
+  "first_page": "1141",
+  "last_page": "1141",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1141"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 65,
+    "ocr_confidence": 0.592,
+    "sha256": "185fcc03e3cab45e38c8422905ee0c014d6eb6b0a8cf8e1f76abb061eb8a06fa",
+    "simhash": "1:51d0c88f9a5354e7",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Banks v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ill. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5922.\nBanks v. Illinois."
+  },
+  "file_name": "1141-06",
+  "first_page_order": 1163,
+  "last_page_order": 1163
+}

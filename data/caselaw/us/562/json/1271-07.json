@@ -1,0 +1,59 @@
+{
+  "id": 6019166,
+  "name": "Mayer v. Belichick et al.",
+  "name_abbreviation": "Mayer v. Belichick",
+  "decision_date": "2011-03-07",
+  "docket_number": "No. 10-867",
+  "first_page": "1271",
+  "last_page": "1271",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1271"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 72,
+    "ocr_confidence": 0.562,
+    "sha256": "295ad3b29a1960ab55555d85ff4bb59644d3a6727acc9a0f7fb553cd953fe375",
+    "simhash": "1:881c0c2af9c0b2a7",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mayer v. Belichick et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-867.\nMayer v. Belichick et al."
+  },
+  "file_name": "1271-07",
+  "first_page_order": 1293,
+  "last_page_order": 1293
+}

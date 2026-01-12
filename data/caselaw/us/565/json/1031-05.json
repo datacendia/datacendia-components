@@ -1,0 +1,59 @@
+{
+  "id": 12233220,
+  "name": "Stovall, Warden v. Miller",
+  "name_abbreviation": "Stovall v. Miller",
+  "decision_date": "2011-11-14",
+  "docket_number": "No. 10-851",
+  "first_page": "1031",
+  "last_page": "1031",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1031"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 31,
+    "char_count": 197,
+    "ocr_confidence": 0.606,
+    "sha256": "fe81c78bf0e3a9eb2c74724ff7fc9f8b46033477733c81e0ac85c7b50ed5d6ac",
+    "simhash": "1:83026282842b0484",
+    "word_count": 32
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Stovall, Warden v. Miller."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari granted, judgment vacated, and case remanded for further consideration in light of Greene v. Fisher, ante, p. 34.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "November 14, 2011\nNo. 10-851.\nStovall, Warden v. Miller."
+  },
+  "file_name": "1031-05",
+  "first_page_order": 1113,
+  "last_page_order": 1113
+}

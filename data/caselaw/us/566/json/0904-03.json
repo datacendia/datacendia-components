@@ -1,0 +1,59 @@
+{
+  "id": 12191184,
+  "name": "Florida v. Harris",
+  "name_abbreviation": "Florida v. Harris",
+  "decision_date": "2012-03-26",
+  "docket_number": "No. 11-817",
+  "first_page": "904",
+  "last_page": "904",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 904"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 32,
+    "char_count": 236,
+    "ocr_confidence": 0.6,
+    "sha256": "efbfd079314444a3c1af929aa66f4e51a48bdbe6dd942ea94f31428ee0294624",
+    "simhash": "1:37e6585744b99e14",
+    "word_count": 39
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Florida v. Harris."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. Motion of National Police Canine Association et al. for leave to \u00f1le a brief as amici curiae granted. Motion of respondent for leave to proceed in forma pauperis granted. Certiorari granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-817.\nFlorida v. Harris."
+  },
+  "file_name": "0904-03",
+  "first_page_order": 780,
+  "last_page_order": 780
+}

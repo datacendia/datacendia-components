@@ -1,0 +1,147 @@
+{
+  "id": 12520643,
+  "name": "UNITED STATES of America, Plaintiff-Appellee v. Elba TORRES, Defendant-Appellant",
+  "name_abbreviation": "U.S. v. Torres",
+  "decision_date": "2019-04-15",
+  "docket_number": "No. 18-1245",
+  "first_page": "1215",
+  "last_page": "1218",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "920 F.3d 1215"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "8th Cir.",
+    "id": 8821,
+    "name": "United States Court of Appeals for the Eighth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "845 F.3d 623",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12176965
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "626",
+          "parenthetical": "addressing the meaning of the same phrase as it appears in section 2L2.2(b)(3)(A) of the Guidelines"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/845/0623-01"
+      ]
+    },
+    {
+      "cite": "136 S.Ct. 958",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12602432
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "968"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/136/0958-01"
+      ]
+    },
+    {
+      "cite": "630 F.3d 1078",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6052467
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1083"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/630/1078-01"
+      ]
+    },
+    {
+      "cite": "22 C.F.R. \u00a7 51.3",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(e)"
+        },
+        {
+          "page": "(e)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7\u00a7 1028",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(3)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 376,
+    "char_count": 5629,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2592481260490476
+    },
+    "sha256": "e666cc18fdfac4053be432bbe716ef23d4b112a83ba56c2b50a47beece081081",
+    "simhash": "1:fb2afa20a535d6a9",
+    "word_count": 859
+  },
+  "last_updated": "2024-02-27T18:46:47.899627+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before LOKEN, GRASZ, and STRAS, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee\nv.\nElba TORRES, Defendant-Appellant"
+    ],
+    "opinions": [
+      {
+        "text": "STRAS, Circuit Judge.\nElba Torres was convicted of charges related to the unlawful acquisition and sale of identity documents. See 18 U.S.C. \u00a7\u00a7 1028(a)(3), 1028A(a)(1). One of those items was a United States passport card, a wallet-sized document that permits American nationals to travel by land or sea between the United States and a limited number of foreign countries. See 22 C.F.R. \u00a7 51.3(e). She argues that possession of a passport card did not justify enhancing her sentence for \"fraudulently obtain[ing] or us[ing] ... a United States passport.\" U.S.S.G. \u00a7 2L2.1(b)(5)(A). Her theory is that the phrase \"a United States passport\" refers only to a passport book. The district court disagreed, and so do we.\nThis case poses a seemingly straightforward question: is a passport card \"a United States passport\" under section 2L2.1(b)(5)(A) ? To answer this question, we apply \"basic rules\" of \"statutory\" interpretation, including the ordinary-meaning rule, which requires us to give undefined words and phrases their plain and ordinary meaning. United States v. Hackman , 630 F.3d 1078, 1083 (8th Cir. 2011).\nWhat makes this case unusual, however, is that the ordinary meaning of the phrase \"United States passport\" is intertwined with its technical legal meaning, because a passport is itself a legal document. To quote one representative definition, a passport is an \"official document issued by a government\" to prospective travelers. The American Heritage Dictionary of the English Language 1289 (5th ed. 2011); see also Webster's Third New International Dictionary 1652 (2002) (explaining that a passport is \"a formal document issued by a competent officer ... of a country\"). So a United States passport, then, must refer to any official document that the United States government has designated as a passport and issues to travelers.\nThis includes passport cards. One federal regulation, for example, identifies passport cards as one of five \"[t]ypes of passports\" and explains that they are \"issued ... on the same basis\" as \"regular passports.\" 22 C.F.R. \u00a7 51.3(e). A related regulation broadly defines a passport as \"a travel document regardless of format issued under the authority of the Secretary of State attesting to the identity and nationality of the bearer.\" Id. \u00a7 51.1 (emphasis added). A passport card neatly fits this definition because it is inscribed with, among other things, a photograph of the bearer, a statement of the bearer's nationality, and the words \"passport card\" and \"United States Department of State.\" See Passport Card, Travel.State.Gov, https://travel.state.gov/content/travel/en/passports/apply-renew-passport/card.html (last visited April 8, 2019). In short, despite its different physical appearance, a passport card is as much a \"United States passport\" as its blue-covered counterpart.\nThis conclusion should come as little surprise to anyone who has recently applied for either a regular passport book or a passport card. The instructions to the Department of State's current application, which can be used to apply for either or both, explain that a \"passport card is a U.S. passport issued in card format.\" U.S. Dep't of State, U.S. Passport Application 3 (June 2016) (emphasis added), available at https://eforms.state.gov/Forms/ds11.pdf (last visited April 8, 2019). The instructions further state that a passport card, \"[l]ike the traditional U.S. passport book ..., reflects the bearer's origin, identity, and nationality, and is subject to existing passport laws and regulations.\" Id. And the Department's publicly available website offers similar information, explaining that \"[t]he passport book and passport card are both U.S. passports.\" Passport Card, Travel.State.Gov, https://travel.state.gov/content/travel/en/passports/apply-renew-passport/card.html (last visited April 8, 2019).\nTorres's arguments to the contrary are unpersuasive. She contends that the Guidelines must exclude passport cards because they did not exist when the Sentencing Commission first implemented section 2L2.1(b)(5)(A). The problem with this argument, however, is that nothing about the use of the phrase \"a United States passport\" suggests a limited class of then-existing passports. In fact, adoption of such a broad phrase suggests that it includes any form of passport that the Department of State decides to issue on behalf of the United States.\nTorres also urges us to invoke the rule of lenity, but this canon applies only when the relevant language is ambiguous and ordinary interpretive tools \"reveal[ ] no satisfactory construction.\" Lockhart v. United States , --- U.S. ----, 136 S.Ct. 958, 968, 194 L.Ed.2d 48 (2016). As the Fifth Circuit recently explained when confronted with a near-identical question, the phrase \"United States passport\" \"is not ambiguous and clearly includes passport cards.\" United States v. Casillas-Casillas , 845 F.3d 623, 626 (5th Cir. 2017) (addressing the meaning of the same phrase as it appears in section 2L2.2(b)(3)(A) of the Guidelines). Our analysis leads us to the same conclusion.\nWe accordingly affirm the judgment of the district court.\nThe Honorable Linda R. Reade, United States District Judge for the Northern District of Iowa.",
+        "type": "majority",
+        "author": "STRAS, Circuit Judge."
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee\nv.\nElba TORRES, Defendant-Appellant\nNo. 18-1245\nUnited States Court of Appeals, Eighth Circuit.\nSubmitted: January 14, 2019\nFiled: April 15, 2019\nCounsel who represented the appellant was Raphael M. Scheetz of Cedar Rapids, IA.\nCounsel who represented the appellee was Daniel C. Tvedt, AUSA, of Cedar Rapids, IA.\nBefore LOKEN, GRASZ, and STRAS, Circuit Judges."
+  },
+  "file_name": "1215-01",
+  "first_page_order": 1215,
+  "last_page_order": 1218
+}

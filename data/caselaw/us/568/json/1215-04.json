@@ -1,0 +1,59 @@
+{
+  "id": 12432593,
+  "name": "Rowls v. Michigan",
+  "name_abbreviation": "Rowls v. Michigan",
+  "decision_date": "2013-03-04",
+  "docket_number": "No. 12-7960",
+  "first_page": "1215",
+  "last_page": "1215",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1215"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 67,
+    "ocr_confidence": 0.62,
+    "sha256": "5977a09080e15b789d18ce05a3868e392c37695ede0609ce17b38ae191fc122a",
+    "simhash": "1:514e2d43e081d4c2",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rowls v. Michigan."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Mich. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7960.\nRowls v. Michigan."
+  },
+  "file_name": "1215-04",
+  "first_page_order": 1291,
+  "last_page_order": 1291
+}

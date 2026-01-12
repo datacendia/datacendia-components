@@ -1,0 +1,59 @@
+{
+  "id": 5993539,
+  "name": "Young v. United States",
+  "name_abbreviation": "Young v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11309",
+  "first_page": "873",
+  "last_page": "873",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 873"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.585,
+    "sha256": "15f370c6173446d9e88b29a1b257ccd42368401785151b29cc20992343ecf1f5",
+    "simhash": "1:376dfd2123ef1f5e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Young v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. D. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11309.\nYoung v. United States."
+  },
+  "file_name": "0873-07",
+  "first_page_order": 895,
+  "last_page_order": 895
+}

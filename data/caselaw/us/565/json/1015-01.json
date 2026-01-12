@@ -1,0 +1,59 @@
+{
+  "id": 12232394,
+  "name": "Palmer, Warden v. Cooper",
+  "name_abbreviation": "Palmer v. Cooper",
+  "decision_date": "2011-11-07",
+  "docket_number": "No. 11-382",
+  "first_page": "1015",
+  "last_page": "1015",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1015"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.681,
+    "sha256": "121b4d63068017ca129242b86772a7aaefc56381a97decfb29ad96cea4fa13a0",
+    "simhash": "1:d7d3a4e9d37d616e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Palmer, Warden v. Cooper."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-382.\nPalmer, Warden v. Cooper."
+  },
+  "file_name": "1015-01",
+  "first_page_order": 1097,
+  "last_page_order": 1097
+}

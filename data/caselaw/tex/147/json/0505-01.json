@@ -1,0 +1,620 @@
+{
+  "id": 2333804,
+  "name": "Fire Department of The City of Fort Worth et al v. City of Fort Worth",
+  "name_abbreviation": "Fire Department v. City of Fort Worth",
+  "decision_date": "1949-02-09",
+  "docket_number": "No. A-1906",
+  "first_page": "505",
+  "last_page": "511",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "147 Tex. 505"
+    },
+    {
+      "type": "parallel",
+      "cite": "217 S.W.2d 664"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "177 S. W. 953",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8275949,
+        8275902
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw/177/0953-02",
+        "/sw/177/0953-01"
+      ]
+    },
+    {
+      "cite": "109 Texas 11",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2288347
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/109/0011-01"
+      ]
+    },
+    {
+      "cite": "150 S. W. (2d) 1000",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2316477,
+        11614575
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/136/0370-01",
+        "/sw2d/150/1000-01"
+      ]
+    },
+    {
+      "cite": "136 Texas 370",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2316477
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/136/0370-01"
+      ]
+    },
+    {
+      "cite": "36 S. W. (2d) 470",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10263068,
+        2305631
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/36/0470-01",
+        "/tex/121/0014-01"
+      ]
+    },
+    {
+      "cite": "121 Texas 14",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2305631
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/121/0014-01"
+      ]
+    },
+    {
+      "cite": "156 S. W. 911",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8295154
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw/156/0911-01"
+      ]
+    },
+    {
+      "cite": "59 S. W. (2d) 1080",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10272529,
+        2304278
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/59/1080-01",
+        "/tex/122/0328-01"
+      ]
+    },
+    {
+      "cite": "122 Texas 328",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2304278
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/122/0328-01"
+      ]
+    },
+    {
+      "cite": "196 S. W. 502",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10319350
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw/196/0502-01"
+      ]
+    },
+    {
+      "cite": "108 Texas 434",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2249330
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/108/0434-01"
+      ]
+    },
+    {
+      "cite": "82 N. E. 860",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "230 Ill., 496",
+      "category": "reporters:state",
+      "reporter": "Ill.",
+      "case_ids": [
+        5632915
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ill/230/0496-01"
+      ]
+    },
+    {
+      "cite": "125 A. L. R. 259",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "280 N. W. 464",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "285 Mich. 262",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1814859
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/285/0262-01"
+      ]
+    },
+    {
+      "cite": "17 N. E. (2d) 641",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "134 Ohio St. 468",
+      "category": "reporters:state",
+      "reporter": "Ohio St.",
+      "case_ids": [
+        629347
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ohio-st/134/0468-01"
+      ]
+    },
+    {
+      "cite": "177 S. W. (2d) 941",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10223530,
+        2340494
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/177/0941-01",
+        "/tex/142/0293-01"
+      ]
+    },
+    {
+      "cite": "142 Texas 293",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2340494
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/142/0293-01"
+      ]
+    },
+    {
+      "cite": "191 S. W. (2d) 501",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10195038
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/191/0501-01"
+      ]
+    },
+    {
+      "cite": "117 S. W. (2d) 530",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10238128
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/117/0530-01"
+      ]
+    },
+    {
+      "cite": "164 S. W. (2d) 234",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10205953
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/164/0234-01"
+      ]
+    },
+    {
+      "cite": "198 S. W. (2d) 424",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10193584,
+        2335039
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/198/0424-01",
+        "/tex/145/0323-01"
+      ]
+    },
+    {
+      "cite": "145 Texas 323",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2335039
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/145/0323-01"
+      ]
+    },
+    {
+      "cite": "203 S. W. (2d) 950",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10211505
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/203/0950-01"
+      ]
+    },
+    {
+      "cite": "108 S. W. (2d) 967",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10267512
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/108/0967-01"
+      ]
+    },
+    {
+      "cite": "108 S. W. (2d) 300",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10248021
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/108/0300-01"
+      ]
+    },
+    {
+      "cite": "73 S. W. (2d) 505",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2302378,
+        10248558
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/123/0521-01",
+        "/sw2d/73/0505-01"
+      ]
+    },
+    {
+      "cite": "123 Texas 521",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2302378
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/123/0521-01"
+      ]
+    },
+    {
+      "cite": "101 A. L. R. 1393",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "87 S. W. (2d) 1069",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2296185,
+        10276604
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/126/0296-01",
+        "/sw2d/87/1069-01"
+      ]
+    },
+    {
+      "cite": "99 A. L. R. 1107",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "83 S. W. (2d) 935",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10260312,
+        2296185
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/83/0935-01",
+        "/tex/126/0296-01"
+      ]
+    },
+    {
+      "cite": "126 Texas 296",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2296185
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/126/0296-01"
+      ]
+    },
+    {
+      "cite": "154 U. S. 362",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3579432
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/154/0362-01"
+      ]
+    },
+    {
+      "cite": "242 S. W. 749",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8264321,
+        2284684,
+        8264285
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/242/0749-02",
+        "/tex/111/0535-01",
+        "/sw/242/0749-01"
+      ]
+    },
+    {
+      "cite": "111 Texas 535",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2284684
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/111/0535-01"
+      ]
+    },
+    {
+      "cite": "221 S. W. 880",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10321984
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/221/0880-01"
+      ]
+    },
+    {
+      "cite": "110 Texas 369",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2286425
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/110/0369-01"
+      ]
+    },
+    {
+      "cite": "131 S. W. 535",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "103 Texas 491",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2259223
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/103/0491-01"
+      ]
+    },
+    {
+      "cite": "61 S. W. (2d) 1022",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2304248,
+        10269958
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/122/0459-01",
+        "/sw2d/61/1022-01"
+      ]
+    },
+    {
+      "cite": "122 Texas 459",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2304248
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/122/0459-01"
+      ]
+    },
+    {
+      "cite": "61 S. W. (2d) 1017",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10269852
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/61/1017-01"
+      ]
+    },
+    {
+      "cite": "180 S. W. (2d) 633",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10215697
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/180/0633-01"
+      ]
+    },
+    {
+      "cite": "213 S. W. (2d) 347",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10190999
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/213/0347-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 744,
+    "char_count": 12904,
+    "ocr_confidence": 0.609,
+    "pagerank": {
+      "raw": 1.827920086834983e-06,
+      "percentile": 0.9941616287281614
+    },
+    "sha256": "1691ce2f80255b05802b91714e08eb1a36354ff43431c3b4b37a159d1e16b42a",
+    "simhash": "1:310ddc6167279fc8",
+    "word_count": 2206
+  },
+  "last_updated": "2024-02-27T21:30:02.118491+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Fire Department of The City of Fort Worth et al v. City of Fort Worth."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Simpson\ndelivered the opinion of the Court.\nA measure known as the Firemen\u2019s and Policemen\u2019s Civil Service Act was passed by the Legislature in 1947 and approved by the Governor. Acts 1947, 50th Leg., ch. 325; Art. 1269m, Vernon\u2019s Ann. Civ. Stat. The provisions of the act were accepted by a majority vote of the citizens of the City of Fort Worth in an election called conformably to the statute\u2019s terms. Afterwards the City filed a suit in the nature of a class bill against all the members of the Fire and Police Departments, seeking, first, to have the entire act declared unconsittutional, and second, to have its provisions construed. The trial court adjudged one section of the act unconstitutional and, so, invalid, but upheld the validity of the other provisions of the law. The Court of Civil Appeals affirmed that judgment. 213 S. W. (2d) 347. This writ of error was granted because of the tentative view that there was error in holding the questioned section unstitutional. A further consideration of the arguments and the record confirms that conclusion.\nFollowing is the section which has been held invalid:\n\u201cSec. 18. In the event any Fireman or Policeman is dissatisfied with the decision of the Commission, he may, within ten (10) days after the rendition of such final decision, file a petition in the District Court, asking that his order of suspension or dismissal be set aside, that he be reinstated in the Fire Department or Police Department, and such case shall be tried de novo. Such cases shall' be advanced on the docket of the District Court, and shall be given a preference setting over all other cases.\u201d\nThe allegations of invalidity which the courts below sustained are in substance that the statute would permit the appeal of an indefinite suspension or dismissal on the part of any fireman or policeman to the district court, with the power of that court in a denovo trial to substitute its judgment and discretion for that of the executive, administrative and legislative bodies of the City charged with the discipline and supervision of the numerous members of the Fire and Police Departments, thus conferring executive and legislative power on the district court in violation of Section 1, Article II of the Texas Constitutional (the article dealing with a- division of governmental powers into three separate departments).\nThis enactment provides for the appointment of a civil service commission to administer the system in each city where the provisions of the law are accepted by the voters. Section 16 sets up the procedure by which firemen and policemen may appeal to the commission from disciplinary orders issued by the department heads. Section 5 provides that the commission shall make rules and regulations prescribing what shall constitute cause for removal or suspension of firemen or policemen, but limits its power as follows: \u201c* * * No rule for the removal or suspension of such employees shall be valid unless it involves one or more of the following grounds: Conviction of a felony or other crime involving moral turpitude; violations of the provisions of the charter of said city; acts of incompetency; neglect of duty; discourtesy by said employee to the public or to follow employees while said employee is in the line of duty; acts of said employee showing a lack of good moral character; drinking of intoxicants while on duty, or intoxication while off duty; or whose conduct was prejudicial to good order; refusal or neglect to pay just debts; absence without leave; shirking duty, or cowardice at fires, violation of any of the rules and regulations of the Fire Department or Police Department or of special orders, as applicable.\u201d\nThis statute confers upon an employee the right to continue in his employment so long as his conduct meets the stipulated standards. By providing a complete and exclusive list of acts of misconduct which may constitute cause for removal, the Legislature has taken pains to withhold from the commission an unlimited discretion in dismissing or suspending employees. The rules under which the commission acts must conform to the pattern of Section 5; and the only power the commission has to order the removal or suspension of an employee rests upon a determination that he has been guilty of one or more of the eneumerated derelictions. This responsibility must be exerecised reasonably and according to law, and can in no sense be regarded as a matter of discretion beyond judicial review.\nNo attack is made by the City upon the general power of the Legislature to establish a civil service system, nor is the authority of the civil service commission to act in a proper case denied. The only question is, can the commission\u2019s acts be subjected to judicial scrutiny?\nIt is generally recognized that even without express statutory authorization the orders entered by an administrative body pursuant to legislative sanction are subject to judicial review. English Freight Co. v. Knox, Texas Civ. App., 180 S. W. (2d) 633, error refused. The exercise of this jurisdiction by the courts is not in derogation of the separation of powers among the three branches of government but, on the contrary, is calculated directly to uphold and preserve that principle. Denison v. State, Texas Civ. App., 61 S. W. (2d) 1017, error refused 122 Texas 459, 61 S. W. (2d) 1022. And where the legislative branch has expressly provided for review by the courts, it must clearly appear that the review exceeds judicial authority before the legislation will be held to transcend constitutional bounds. Ashford v. Goodwin, 103 Texas 491, 131 S. W. 535, Ann. Cas. 1913A 699; Koy v. Schneider, 110 Texas 369, 221 S. W. 880 (on rehearing); Smith v. Patterson, 111 Texas 535, 242 S. W. 749.\nStatutory review by the courts of acts of administrative agencies has been upheld too often to be open to question. Reagan v. Farmers\u2019 Loan & Trust Co., 154 U. S. 362, 14 S. Ct. 1047, 38 L. Ed. 1014; Brown v. Humble Oil & Refining Co., 126 Texas 296, 83 S. W. (2d) 935, 99 A. L. R. 1107 (rehearing denied 126 Texas 296, 87 S. W. (2d) 1069, 101 A. L. R. 1393); Shuppe v. Railroad Commission of Texas, 123 Texas 521, 73 S. W. (2d) 505; Bradley v. Texas Liquor Control Board, Texas Civ. App., 108 S. W. (2d) 300; Turner v. Bennett, Texas Civ. App., 108 S. W. (2d) 967; Dept. of Public Safety v. Robertson, 203 S. W. (2d) 950. An administrative agency, though vested with discretion in its acts, must not exercise its powers arbitrarily or capriciously, and the reasonableness of its orders is, and under our system of government must be, subject to judicial review. Reagan v. Farmers\u2019 Loan & Trust Co., supra; Brown v. Humble Oil & Refining Co., supra. The extent of such a review has been rather generally held to be limited to an ascertainment of whether there was substantial evidence reasonably sufficient to support the challenged order. Shupee v. Railroad Commission, supra; Bradley v. Texas Liquor Control Board, supra; Trapp v. Shell Oil Co., 145 Texas 323, 198 S. W. (2d) 424. There is nothing in Section 18 to suggest that the district court is empowered to do more. Although the statute provides for a trial de novo, this term as applied to reviews of administrative orders has come to have a well-defined significance in the decisions of this State, and as a rule has been taken to mean a trial to determine only the issues of whether the agency\u2019s ruling is free of the taint of any illegality and is reasonably supported by substantial evidence. Letwin v. Gulf Oil Corp., Texas Civ. App., 164 S. W. (2d) 234, error refused; Texas Liquor Control Board v. Floyd, Texas Civ. App., 117 S. W. (2d) 530; Miller v. Tarry, Texas Civ. App., 191 S. W. (2d) 501, error refused, no reversible error.\nThe Court of Civil Appeals expressly recognizes these general principles. The gist of its holding seems to be that the appeal authorized by this statute empowers the court to go further than making an inquiry into the legality and reasonableness of the commission\u2019s order, and authorizes the court to issue the order which it thinks the administrative officials should have entered. Of course, if in a particular case a district court undertook to exceed its authority in any such a fashion, its action would be clearly in excess of its constitutional power. Marrs v. Railroad Commission, 142 Texas 293, 177 S. W. (2d) 941. Such a case was presented in Hawkins v. Steubenville, 134 Ohio St. 468, 17 N. E. (2d) 641, where upon an appeal from a civil service commission\u2019s order of removal the trial court set aside the order of removal and adjudged a disciplinary punishment of temporary suspension. The Ohio Supreme Court held that under the statute the power of the court was confined to the rendition of a judgment either upholding or striking* down the questioned order, and that the court had no power to modify action of the commission by substituting a different penalty. In the statute here under review, the district court\u2019s power is limited to either upholding or setting aside the commission\u2019s order, and no authority is conferred upon the court to substitute its own for the commission\u2019s discretion.\nThe only language in the statute which might possible suggest the conclusion reached by the Court of Civil Appeals is the provision that the employee may ask \u201cthat he be reinstated.\u201d Reinstatement of the employee necessarily ensues from vaeating the order dismissing or suspending him. There is nothing invalid about this. Indeed, the ordinary and usual result of setting aside any order, whether it be of an administrative body or of a court, is to return the parties to the status they occupied before the challenged order was entered.\nThe Court of Civil Appeals cited Appeal of Fredericks, 285 Mich. 262, 280 N. W. 464, 125 A. L. R. 259, which the City relies on as holding that an attempt by the Legislature to create a right of appeal to the courts from a decision of the civil service commission would be unconstitutional as an endeavor to foist non judicial functions upon the court. The Court of Civil Appeals states: \u201cWe do not interpret the decision as a holding that an order of a civil service commission may not be attacked in court as being arbitrary, capricious, or beyond or without authority of law.\u201d That case turned upon the extent of the review authorized by the Michigan statute. From what has been said, it is apparent that there is no real conflict but, rather, agreement in principle between that case and the holding here. The opinion in Aurora v. Schoeberlein, 230 Ill., 496, 82 N. E. 860, was also referred to by the Court of Civil Appeals. While the provisions of the statute under attack in that case possibly distinguish it from this one, a reading of other decisions by Illinois courts indicates a view in that state quite different from the one established by the Texas decisions with respect to judicial review of administrative orders. However, the rule as announced in Texas finds support generally in the other jurisdictions, and no good reason is perceived why this court should depart from a course which has now become so well fixed and been so carefully charted. See 42 Am. Jur., Public Administrative Law, p. 601 et seq.\nIt follows that the statutory provision for a court review of an order of the civil service commission suspending or dismissing an employee must be held constitutional. Except as to its conclusion in this respect, there was no error in the rulings of the Court of Civil Appeals. The judgments of the courts below are affirmed except that part holding Section 18 unconstitutional. In this regard, the judgments below are reversed and judgment is rendered declaring this section constitutional.\nOpinion delivered February 9, 1949.\nRehearing overruled March 9, 1949.",
+        "type": "majority",
+        "author": "Mr. Justice Simpson"
+      }
+    ],
+    "attorneys": [
+      "Oliver W. Fannin, Doyle H. Willis and Oliver W. Fannin, Jr., all of Fort Worth, for petitioner, Fire Department of City of Fort Worth.",
+      "R. E. Rouer, Heard L. Floore, Sam A. Woodward and Lang-ford Carlton, all of Fort Worth, for respondent, City of Fort Worth."
+    ],
+    "corrections": "",
+    "head_matter": "Fire Department of The City of Fort Worth et al v. City of Fort Worth.\nNo. A-1906.\nDecided February 9, 1949.\nRehearing overruled March 9, \u00cd949.\n(217 S. W., 2d Series, 664.)\nOliver W. Fannin, Doyle H. Willis and Oliver W. Fannin, Jr., all of Fort Worth, for petitioner, Fire Department of City of Fort Worth.\nThe trial court and the Court of Civil Appeals erred in holding the provisions of section 18 of the Firemen\u2019s and Policemen\u2019s Civil Service Act (Acts 1947, 50th Leg., ch. 325; Art. 1269m Vernon\u2019s Texas Stat.) unconstitutional. San Antonio & A. P. Ry. Co. v. Blair, 108 Texas 434, 196 S. W. 502; Jones v. Alexander, 122 Texas 328, 59 S. W. (2d) 1080; Lane v. Hewgley, 156 S. W. 911.\nR. E. Rouer, Heard L. Floore, Sam A. Woodward and Lang-ford Carlton, all of Fort Worth, for respondent, City of Fort Worth.\nIt was error for the Court of Civil Appeals to refuse to hold all of the provisions of said act- unconstitutional. City of Fort Worth v. Bobbitt, 121 Texas 14, 36 S. W. (2d) 470; Miller v. El Paso County, 136 Texas 370, 150 S. W. (2d) 1000; Ex Parte Mitchell, 109 Texas 11, 177 S. W. 953."
+  },
+  "file_name": "0505-01",
+  "first_page_order": 521,
+  "last_page_order": 527
+}

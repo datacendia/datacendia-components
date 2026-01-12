@@ -1,0 +1,61 @@
+{
+  "id": 12251100,
+  "name": "Wright v. Mitchell, Warden",
+  "name_abbreviation": "Wright v. Mitchell",
+  "decision_date": "2012-03-05",
+  "docket_number": "No. 11-8690",
+  "first_page": "1254",
+  "last_page": "1254",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1254"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 153,
+    "ocr_confidence": 0.571,
+    "sha256": "7def8fb38612651733e1b24fc5253bb11de66f812a1c9f4dd4a4d40e75710c1d",
+    "simhash": "1:9c130a82eccff2c6",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Wright v. Mitchell, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8690.\nWright v. Mitchell, Warden."
+  },
+  "file_name": "1254-04",
+  "first_page_order": 1336,
+  "last_page_order": 1336
+}

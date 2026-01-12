@@ -1,0 +1,59 @@
+{
+  "id": 12413247,
+  "name": "Levin v. United States et al.",
+  "name_abbreviation": "Levin v. United States",
+  "decision_date": "2012-09-25",
+  "docket_number": "No. 11-1351",
+  "first_page": "968",
+  "last_page": "968",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 968"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 78,
+    "ocr_confidence": 0.695,
+    "sha256": "8a4b72963f3220e33562e92d0ca9d7746e36201ce251626aa627adf2dd7bdadd",
+    "simhash": "1:d80166e33d35d21a",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Levin v. United States et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1351.\nLevin v. United States et al."
+  },
+  "file_name": "0968-03",
+  "first_page_order": 872,
+  "last_page_order": 872
+}

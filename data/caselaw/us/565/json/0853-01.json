@@ -1,0 +1,59 @@
+{
+  "id": 12206611,
+  "name": "Halstied v. Oklahoma",
+  "name_abbreviation": "Halstied v. Oklahoma",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10848",
+  "first_page": "853",
+  "last_page": "853",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 853"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 76,
+    "ocr_confidence": 0.724,
+    "sha256": "02f62d4d7c894ccd6aa7d7a3a7419abcd1a6ad47a7cc8eefd8f8a81ba8537d86",
+    "simhash": "1:14f7912ad1e8ee48",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Halstied v. Oklahoma."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Okla. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10848.\nHalstied v. Oklahoma."
+  },
+  "file_name": "0853-01",
+  "first_page_order": 935,
+  "last_page_order": 935
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5958717,
+  "name": "Villar v. United States",
+  "name_abbreviation": "Villar v. United States",
+  "decision_date": "2011-04-25",
+  "docket_number": "No. 10-9698",
+  "first_page": "967",
+  "last_page": "967",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 967"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.586,
+    "sha256": "b8ebf875272a9383d42dba3bb9c3180179e99b1332057b6d26e1308e7119c248",
+    "simhash": "1:c50affc2479d3d2e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Villar v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9698.\nVillar v. United States."
+  },
+  "file_name": "0967-02",
+  "first_page_order": 993,
+  "last_page_order": 993
+}

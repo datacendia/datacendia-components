@@ -1,0 +1,59 @@
+{
+  "id": 5989192,
+  "name": "Baker v. Buss, Secretary, Florida Department of Corrections",
+  "name_abbreviation": "Baker v. Buss",
+  "decision_date": "2011-03-21",
+  "docket_number": "No. 09-11056",
+  "first_page": "1282",
+  "last_page": "1283",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1282"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 41,
+    "char_count": 297,
+    "ocr_confidence": 0.611,
+    "sha256": "c89bfebe9998ed2ca833d844e678aa9b3b28078954ee7bd35e1303e91059c9a2",
+    "simhash": "1:4f2468b784c3a29f",
+    "word_count": 46
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Baker v. Buss, Secretary, Florida Department of Corrections."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Motion of petitioner for leave to proceed informa pauperis granted. Certiorari granted, judgment vacated, and case remanded for further consideration in light of Wall v. Kholi, ante, p. 545.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "March 21, 2011\nNo. 09-11056.\nBaker v. Buss, Secretary, Florida Department of Corrections."
+  },
+  "file_name": "1282-05",
+  "first_page_order": 1304,
+  "last_page_order": 1305
+}

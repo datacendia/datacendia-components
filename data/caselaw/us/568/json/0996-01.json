@@ -1,0 +1,61 @@
+{
+  "id": 12421630,
+  "name": "Rodriguez v. United States",
+  "name_abbreviation": "Rodriguez v. United States",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-6378",
+  "first_page": "996",
+  "last_page": "996",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 996"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 156,
+    "ocr_confidence": 0.675,
+    "sha256": "79614bba9222e84f318a158367c1802294866279aa44d7a32186d47c6c646cd2",
+    "simhash": "1:9db2ba834f0ef248",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Rodriguez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.\nJustice Sotomayor took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6378.\nRodriguez v. United States."
+  },
+  "file_name": "0996-01",
+  "first_page_order": 1072,
+  "last_page_order": 1072
+}

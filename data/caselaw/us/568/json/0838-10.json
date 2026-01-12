@@ -1,0 +1,59 @@
+{
+  "id": 12412343,
+  "name": "Mack v. Curran et al.",
+  "name_abbreviation": "Mack v. Curran",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10276",
+  "first_page": "838",
+  "last_page": "838",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 838"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 70,
+    "ocr_confidence": 0.707,
+    "sha256": "96962594ef2ee5df5db6832d5218fbd41c9f4539f6923b225f9ed25c39cf320e",
+    "simhash": "1:9a0d3d7279b9b7a6",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mack v. Curran et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10276.\nMack v. Curran et al."
+  },
+  "file_name": "0838-10",
+  "first_page_order": 914,
+  "last_page_order": 914
+}

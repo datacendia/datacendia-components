@@ -1,0 +1,59 @@
+{
+  "id": 6030509,
+  "name": "Allen v. Reliance Insurance Co.",
+  "name_abbreviation": "Allen v. Reliance Insurance",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7347",
+  "first_page": "1151",
+  "last_page": "1151",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1151"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 79,
+    "ocr_confidence": 0.622,
+    "sha256": "4873da67466260a717547a178adcc91085166b3fbe73d8851c5278562dd5c313",
+    "simhash": "1:044326ad35a7056a",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Allen v. Reliance Insurance Co."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7347.\nAllen v. Reliance Insurance Co."
+  },
+  "file_name": "1151-14",
+  "first_page_order": 1173,
+  "last_page_order": 1173
+}

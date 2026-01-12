@@ -1,0 +1,59 @@
+{
+  "id": 5917639,
+  "name": "Howard v. Nero et al.",
+  "name_abbreviation": "Howard v. Nero",
+  "decision_date": "2011-05-16",
+  "docket_number": "No. 10-9715",
+  "first_page": "997",
+  "last_page": "997",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 997"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 69,
+    "ocr_confidence": 0.636,
+    "sha256": "3b3bac7f7090f7ade49cc2358beedeb030c3dcd7f06b5b75ebd38f96486e6098",
+    "simhash": "1:81da68f8c4889014",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Howard v. Nero et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9715.\nHoward v. Nero et al."
+  },
+  "file_name": "0997-04",
+  "first_page_order": 1023,
+  "last_page_order": 1023
+}

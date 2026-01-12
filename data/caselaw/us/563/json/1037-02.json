@@ -1,0 +1,59 @@
+{
+  "id": 5918685,
+  "name": "DeLeon Martinez v. Texas",
+  "name_abbreviation": "DeLeon Martinez v. Texas",
+  "decision_date": "2011-06-06",
+  "docket_number": "No. 10-9833",
+  "first_page": "1037",
+  "last_page": "1037",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1037"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 78,
+    "ocr_confidence": 0.655,
+    "sha256": "6fba2fa8546eb452729025bbe3048bbdb6f86236317c380d40d6a9d0c92820bb",
+    "simhash": "1:6997b04656bd6e32",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "DeLeon Martinez v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tex. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9833.\nDeLeon Martinez v. Texas."
+  },
+  "file_name": "1037-02",
+  "first_page_order": 1063,
+  "last_page_order": 1063
+}

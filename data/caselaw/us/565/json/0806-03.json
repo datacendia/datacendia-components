@@ -1,0 +1,82 @@
+{
+  "id": 12188911,
+  "name": "Jones v. Legal Aid of Nebraska et al.",
+  "name_abbreviation": "Jones v. Legal Aid of Nebraska",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5064",
+  "first_page": "806",
+  "last_page": "806",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 806"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "506 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11924825
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/506/0001-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 73,
+    "char_count": 545,
+    "ocr_confidence": 0.655,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.24756771533784402
+    },
+    "sha256": "36148bee54d41e58489c23f120978112e4f0b9cbd83a8eeec75d9386742f7c79",
+    "simhash": "1:ed2a348c0564d66e",
+    "word_count": 93
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jones v. Legal Aid of Nebraska et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Motion of petitioner for leave to proceed in forma pauperis denied, and certiorari dismissed. See this Court\u2019s Rule 39.8. As petitioner has repeatedly abused this Court\u2019s process, the Clerk is directed not to accept any further petitions in noncriminal matters from petitioner unless the docketing fee required by Rule 38(a) is paid and the petition is submitted in compliance with Rule 33.1. See Martin v. District of Columbia Court of Appeals, 506 U. S. 1 (1992) (per curiam).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5064.\nJones v. Legal Aid of Nebraska et al."
+  },
+  "file_name": "0806-03",
+  "first_page_order": 888,
+  "last_page_order": 888
+}

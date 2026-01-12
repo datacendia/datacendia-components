@@ -1,0 +1,68 @@
+{
+  "id": 12703238,
+  "name": "KENTUCKY, petitioner, v. N.C., A Child Under Eighteen.",
+  "name_abbreviation": "Ky. v. N.C.",
+  "decision_date": "2013-10-07",
+  "docket_number": "No. 13\u2013123.",
+  "first_page": "887",
+  "last_page": "887",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 887"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 154"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 303"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 190,
+    "sha256": "fadcf11f8435f93a69c0c61ef9b0aec70065e7517323b7cf92990863e58aa009",
+    "simhash": "1:412fc61c7bf70295",
+    "word_count": 31
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "KENTUCKY, petitioner,\nv.\nN.C., A Child Under Eighteen."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of certiorari to the Supreme Court of Kentucky denied."
+    ],
+    "corrections": "",
+    "head_matter": "KENTUCKY, petitioner,\nv.\nN.C., A Child Under Eighteen.\nNo. 13-123.\nSupreme Court of the United States\nOct. 7, 2013.\nPetition for writ of certiorari to the Supreme Court of Kentucky denied."
+  },
+  "file_name": "0887-10",
+  "first_page_order": 887,
+  "last_page_order": 887
+}

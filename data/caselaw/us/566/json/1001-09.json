@@ -1,0 +1,59 @@
+{
+  "id": 12218669,
+  "name": "Blackwell v. United States",
+  "name_abbreviation": "Blackwell v. United States",
+  "decision_date": "2012-05-14",
+  "docket_number": "No. 11-9709",
+  "first_page": "1001",
+  "last_page": "1001",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1001"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.533,
+    "sha256": "6f25a55cde1409677fe89132aa7917d60fd18070ac150539e1dc022695ddfc12",
+    "simhash": "1:441ae6896fbdc006",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Blackwell v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9709.\nBlackwell v. United States."
+  },
+  "file_name": "1001-09",
+  "first_page_order": 877,
+  "last_page_order": 877
+}

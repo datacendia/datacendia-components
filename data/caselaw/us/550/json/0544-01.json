@@ -1,0 +1,2917 @@
+{
+  "id": 3556136,
+  "name": "BELL ATLANTIC CORP. et al. v. TWOMBLY et al.",
+  "name_abbreviation": "Bell Atlantic Corp. v. Twombly",
+  "decision_date": "2007-05-21",
+  "docket_number": "No. 05-1126",
+  "first_page": "544",
+  "last_page": "597",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "550 U.S. 544"
+    },
+    {
+      "type": "parallel",
+      "cite": "167 L. Ed. 2d 929"
+    },
+    {
+      "type": "parallel",
+      "cite": "127 S. Ct. 1955"
+    },
+    {
+      "type": "vendor",
+      "cite": "2007 U.S. LEXIS 5901"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2006-045"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "890 F. Supp. 250",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        7830530
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "256",
+          "parenthetical": "while the plaintiff \"may believe the defendants conspired ... , the defendants' allegedly conspiratorial actions could equally have been prompted by lawful, independent goals which do not constitute a conspiracy\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/890/0250-01"
+      ]
+    },
+    {
+      "cite": "15 U. S. C. \u00a7 1",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 7,
+      "pin_cites": [
+        {
+          "page": "\u00b6 50"
+        },
+        {
+          "page": "\u00b6\u00b6 40-41"
+        },
+        {
+          "page": "\u00b6 42"
+        },
+        {
+          "page": "\u00b6 51"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "110 Stat. 56",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "525 U. S. 366",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11076593
+      ],
+      "weight": 2,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "371"
+        },
+        {
+          "page": "371"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/525/0366-01"
+      ]
+    },
+    {
+      "cite": "47 U. S. C. \u00a7271",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "540 U. S. 398",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8897225
+      ],
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "402"
+        },
+        {
+          "page": "410"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/540/0398-01"
+      ]
+    },
+    {
+      "cite": "47 U. S. C. \u00a7 251",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "450 F. 3d 528",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3087923,
+        3454828
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "533-534",
+          "parenthetical": "summarizing the 10-year-long regulatory struggle between the ILECs and CLECs"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/450/0528-01",
+        "/us-app-dc/371/0283-01"
+      ]
+    },
+    {
+      "cite": "26 Stat. 209",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "313 F. Supp. 2d 174",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        9246962
+      ],
+      "weight": 7,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "179",
+          "parenthetical": "quoting Theatre Enterprises, Inc. v. Paramount Film Distributing Corp., 346 U. S. 537, 541 (1954); alterations in original"
+        },
+        {
+          "page": "179"
+        },
+        {
+          "page": "183"
+        },
+        {
+          "page": "188"
+        },
+        {
+          "page": "184"
+        },
+        {
+          "page": "181",
+          "parenthetical": "citation and footnote omitted"
+        },
+        {
+          "page": "182"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/313/0174-01"
+      ]
+    },
+    {
+      "cite": "346 U. S. 537",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6931622
+      ],
+      "weight": 3,
+      "year": 1954,
+      "pin_cites": [
+        {
+          "page": "541"
+        },
+        {
+          "page": "540"
+        },
+        {
+          "page": "540-541"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/346/0537-01"
+      ]
+    },
+    {
+      "cite": "425 F. 3d 99",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1550621
+      ],
+      "weight": 6,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "114",
+          "parenthetical": "emphasis in original"
+        },
+        {
+          "page": "106, 114",
+          "parenthetical": "invoking Conley's \"no set of facts\" language in describing the standard for dismissal"
+        },
+        {
+          "page": "106,114"
+        },
+        {
+          "page": "102-104"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/425/0099-01"
+      ]
+    },
+    {
+      "cite": "548 U. S. 903",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 2006,
+      "opinion_index": 0
+    },
+    {
+      "cite": "467 U. S. 752",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6207619
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "775"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/467/0752-01"
+      ]
+    },
+    {
+      "cite": "509 U. S. 209",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        355638
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "227"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/509/0209-01"
+      ]
+    },
+    {
+      "cite": "75 Harv. L. Rev. 655",
+      "category": "journals:journal",
+      "reporter": "Harv. L. Rev.",
+      "year": 1962,
+      "pin_cites": [
+        {
+          "page": "672",
+          "parenthetical": "\"[M]ere interdependence of basic price decisions is not conspiracy\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "465 U. S. 752",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11337242
+      ],
+      "weight": 2,
+      "year": 1984,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/465/0752-01"
+      ]
+    },
+    {
+      "cite": "475 U. S. 574",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6205783
+      ],
+      "weight": 2,
+      "year": 1986,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/475/0574-01"
+      ]
+    },
+    {
+      "cite": "355 U. S. 41",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6161830
+      ],
+      "weight": 3,
+      "year": 1957,
+      "pin_cites": [
+        {
+          "page": "47"
+        },
+        {
+          "page": "45-46"
+        },
+        {
+          "page": "47",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/355/0041-01"
+      ]
+    },
+    {
+      "cite": "40 F. 3d 247",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10522762
+      ],
+      "weight": 2,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "251"
+        },
+        {
+          "page": "251",
+          "parenthetical": "once a claim for relief has been stated, a plaintiff \"receives the benefit of imagination, so long as the hypotheses are consistent with the complaint\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/40/0247-01"
+      ]
+    },
+    {
+      "cite": "478 U. S. 265",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6206610
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "286",
+          "parenthetical": "on a motion to dismiss, courts \"are not bound to accept as true a legal conclusion couched as a factual allegation\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/478/0265-01"
+      ]
+    },
+    {
+      "cite": "534 U. S. 506",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9108377
+      ],
+      "weight": 7,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "508, n. 1"
+        },
+        {
+          "page": "514"
+        },
+        {
+          "page": "508"
+        },
+        {
+          "page": "512"
+        },
+        {
+          "page": "514"
+        },
+        {
+          "page": "508"
+        },
+        {
+          "page": "515",
+          "parenthetical": "quoting Leathermcm v. Tarrant County Narcotics Intelligence and Coordination Unit, 507 U. S. 163, 168 (1993)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/534/0506-01"
+      ]
+    },
+    {
+      "cite": "490 U. S. 319",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        605680
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "327",
+          "parenthetical": "\"Rule 12(b)(6) does not countenance ... dismissals based on a judge's disbelief of a complaint's factual allegations\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/490/0319-01"
+      ]
+    },
+    {
+      "cite": "416 U. S. 232",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        84435
+      ],
+      "weight": 3,
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "236",
+          "parenthetical": "a well-pleaded complaint may proceed even if it appears \"that a recovery is very remote and unlikely\""
+        },
+        {
+          "page": "236",
+          "parenthetical": "a district court weighing a motion to dismiss asks \"not whether a plaintiff will ultimately prevail but whether the claimant is entitled to offer evidence to support the claims\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/416/0232-01"
+      ]
+    },
+    {
+      "cite": "170 F. 3d 53",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11585054
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "56"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/170/0053-01"
+      ]
+    },
+    {
+      "cite": "544 U. S. 336",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5891157
+      ],
+      "weight": 5,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "347"
+        },
+        {
+          "page": "347"
+        },
+        {
+          "page": "347"
+        },
+        {
+          "page": "347",
+          "parenthetical": "requiring \" 'reasonably founded hope that the [discovery] process will reveal relevant evidence' \" to support the claim (quoting Blue Chip Stamps v. Manor Drug Stores, 421 U. S. 723, 741 (1975); alteration in Dura)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/544/0336-01"
+      ]
+    },
+    {
+      "cite": "421 U. S. 723",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        541651
+      ],
+      "weight": 4,
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "741"
+        },
+        {
+          "page": "741"
+        },
+        {
+          "page": "741"
+        },
+        {
+          "page": "741"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/421/0723-01"
+      ]
+    },
+    {
+      "cite": "114 F. Supp. 643",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        4235580
+      ],
+      "year": 1953,
+      "pin_cites": [
+        {
+          "page": "645"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/114/0643-01"
+      ]
+    },
+    {
+      "cite": "289 F. Supp. 2d 986",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        9055384
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "995",
+          "parenthetical": "Posner, J., sitting by designation"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/289/0986-01"
+      ]
+    },
+    {
+      "cite": "368 U. S. 464",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6173571
+      ],
+      "year": 1962,
+      "pin_cites": [
+        {
+          "page": "473"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/368/0464-01"
+      ]
+    },
+    {
+      "cite": "459 U. S. 519",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6199687
+      ],
+      "weight": 2,
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "528, n. 17"
+        },
+        {
+          "page": "526",
+          "parenthetical": "\"It is not . . . proper to assume that [the plaintiff] can prove facts that it has not alleged or that the defendants have violated the antitrust laws in ways that have not been alleged\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/459/0519-01"
+      ]
+    },
+    {
+      "cite": "745 F. 2d 1101",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        593138
+      ],
+      "weight": 2,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "1106",
+          "parenthetical": "\"[T]he costs of modern federal antitrust litigation and the increasing caseload of the federal courts counsel against sending the parties into discovery when there is no reasonable likelihood that the plaintiffs can construct a claim from the events related in the complaint\""
+        },
+        {
+          "page": "1106"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/745/1101-01"
+      ]
+    },
+    {
+      "cite": "78 N. Y. U. L. Rev. 1887",
+      "category": "journals:journal",
+      "reporter": "N.Y.U. L. Rev.",
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "1898-1899",
+          "parenthetical": "discussing the unusually high cost of discovery in antitrust cases"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "192 F. R. D. 354",
+      "category": "reporters:specialty",
+      "reporter": "F.R.D.",
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "357",
+          "parenthetical": "reporting that discovery accounts for as much as 90 percent of litigation costs when discovery is actively employed"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "69 B. U. L. Rev. 635",
+      "category": "journals:journal",
+      "reporter": "B.U. L. Rev.",
+      "weight": 2,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "638",
+          "parenthetical": "\"Judges can do little about impositional discovery when parties control the legal claims to be presented and conduct the discovery themselves\""
+        },
+        {
+          "page": "638-639",
+          "parenthetical": "footnote omitted"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "866 F. 2d 1149",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10535596
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "1155",
+          "parenthetical": "tension between Conley's \"no set of facts\" language and its acknowledgment that a plaintiff must provide the \"grounds\" on which his claim rests"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/866/1149-01"
+      ]
+    },
+    {
+      "cite": "544 F. 2d 543",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1020757
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "546, n. 3",
+          "parenthetical": "\"[W]hen a plaintiff . . . supplies facts to support his claim, we do not think that Conley imposes a duty on the courts to conjure up unpleaded facts that might turn a frivolous claim of unconstitutional . . . action into a substantial one\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/544/0543-01"
+      ]
+    },
+    {
+      "cite": "856 F. 2d 39",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10524824
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "42-43",
+          "parenthetical": "quoting O'Brien's analysis"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/856/0039-01"
+      ]
+    },
+    {
+      "cite": "76 Texas L. Rev. 1665",
+      "category": "journals:journal",
+      "reporter": "Tex. L. Rev.",
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "1685",
+          "parenthetical": "describing Conley as having \"turned Rule 8 on its head\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "86 Colum. L. Rev. 433",
+      "category": "journals:journal",
+      "reporter": "Colum. L. Rev.",
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "463-465",
+          "parenthetical": "noting tension between Conley and subsequent understandings of Rule 8"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "510 U. S. 249",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        233940
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "256"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/510/0249-01"
+      ]
+    },
+    {
+      "cite": "492 U. S. 229",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6213827
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "249-250"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/492/0229-01"
+      ]
+    },
+    {
+      "cite": "467 U. S. 69",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6194504
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "73"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/467/0069-01"
+      ]
+    },
+    {
+      "cite": "535 U. S. 467",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        351774
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "477-478",
+          "parenthetical": "describing telephone service providers as traditional public monopolies"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/535/0467-01"
+      ]
+    },
+    {
+      "cite": "411 U. S. 792",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        10002
+      ],
+      "year": 1973,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/411/0792-01"
+      ]
+    },
+    {
+      "cite": "248 F. 2d 319",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        394493
+      ],
+      "weight": 2,
+      "year": 1957,
+      "pin_cites": [
+        {
+          "page": "325"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/248/0319-01"
+      ]
+    },
+    {
+      "cite": "365 U. S. 381",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6166406
+      ],
+      "year": 1961,
+      "pin_cites": [
+        {
+          "page": "383",
+          "parenthetical": "\"In the absence of... an allegation [that the arrest was made without probable cause] the courts below could not, nor can we, assume that respondents arrested petitioner without probable cause to believe that he had committed ... a narcotics offense\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/365/0381-01"
+      ]
+    },
+    {
+      "cite": "108 F. 2d 302",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1041670
+      ],
+      "year": 1940,
+      "pin_cites": [
+        {
+          "page": "305",
+          "parenthetical": "\" '[I]f, in view of what is alleged, it can reasonably be conceived that the plaintiffs ... could, upon a trial, establish a case which would entitle them to . . . relief, the motion to dismiss should not have been granted' \""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/108/0302-01"
+      ]
+    },
+    {
+      "cite": "130 F. 2d 631",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1154431
+      ],
+      "year": 1942,
+      "pin_cites": [
+        {
+          "page": "635",
+          "parenthetical": "\"No matter how likely it may seem that the pleader will be unable to prove his case, he is entitled, upon averring a claim, to an opportunity to try to prove it\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/130/0631-01"
+      ]
+    },
+    {
+      "cite": "507 U. S. 163",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6224800
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "168"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/507/0163-01"
+      ]
+    },
+    {
+      "cite": "638 S. E. 2d 197",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.2d",
+      "case_ids": [
+        12637343
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "199"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/se2d/638/0197-01"
+      ]
+    },
+    {
+      "cite": "47 U. S. C. \u00a7271",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "540 U. S. 398",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8897225
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "402"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/540/0398-01"
+      ]
+    },
+    {
+      "cite": "534 U. S. 506",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9108377
+      ],
+      "weight": 8,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "508, n. 1"
+        },
+        {
+          "page": "514",
+          "parenthetical": "\"The liberal notice pleading of Rule 8(a) is the starting point of a simplified pleading system, which was adopted to focus litigation on the merits of a claim\""
+        },
+        {
+          "page": "513"
+        },
+        {
+          "page": "511"
+        },
+        {
+          "page": "512"
+        },
+        {
+          "page": "515"
+        },
+        {
+          "page": "514"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/534/0506-01"
+      ]
+    },
+    {
+      "cite": "346 U. S. 537",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6931622
+      ],
+      "weight": 2,
+      "year": 1954,
+      "pin_cites": [
+        {
+          "page": "540-542"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/346/0537-01"
+      ]
+    },
+    {
+      "cite": "465 U. S. 752",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11337242
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "764"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/465/0752-01"
+      ]
+    },
+    {
+      "cite": "475 U. S. 574",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6205783
+      ],
+      "weight": 3,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "588"
+        },
+        {
+          "page": "588"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/475/0574-01"
+      ]
+    },
+    {
+      "cite": "355 U. S. 41",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6161830
+      ],
+      "weight": 5,
+      "year": 1957,
+      "pin_cites": [
+        {
+          "page": "47-48"
+        },
+        {
+          "page": "45-46"
+        },
+        {
+          "page": "45",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "45-46"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/355/0041-01"
+      ]
+    },
+    {
+      "cite": "485 U. S. 271",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        13336
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "283"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/485/0271-01"
+      ]
+    },
+    {
+      "cite": "416 U. S. 232",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        84435
+      ],
+      "weight": 4,
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "236",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "238"
+        },
+        {
+          "page": "236"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/416/0232-01"
+      ]
+    },
+    {
+      "cite": "544 U. S. 336",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5891157
+      ],
+      "weight": 2,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "347"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/544/0336-01"
+      ]
+    },
+    {
+      "cite": "368 U. S. 464",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6173571
+      ],
+      "year": 1962,
+      "pin_cites": [
+        {
+          "page": "473"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/368/0464-01"
+      ]
+    },
+    {
+      "cite": "459 U. S. 519",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6199687
+      ],
+      "weight": 4,
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "526-527"
+        },
+        {
+          "page": "540"
+        },
+        {
+          "page": "526"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/459/0519-01"
+      ]
+    },
+    {
+      "cite": "69 B. U. L. Rev. 635",
+      "category": "journals:journal",
+      "reporter": "B.U. L. Rev.",
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "645"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "411 U. S. 792",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        10002
+      ],
+      "year": 1973,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/411/0792-01"
+      ]
+    },
+    {
+      "cite": "108 F. 2d 302",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1041670
+      ],
+      "weight": 4,
+      "year": 1940,
+      "pin_cites": [
+        {
+          "page": "305"
+        },
+        {
+          "page": "306"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/108/0302-01"
+      ]
+    },
+    {
+      "cite": "130 F. 2d 631",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1154431
+      ],
+      "year": 1942,
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/130/0631-01"
+      ]
+    },
+    {
+      "cite": "507 U. S. 163",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6224800
+      ],
+      "weight": 5,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "167",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "168-169"
+        },
+        {
+          "page": "168"
+        },
+        {
+          "page": "168"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/507/0163-01"
+      ]
+    },
+    {
+      "cite": "318 U. S. 125",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        364396
+      ],
+      "year": 1943,
+      "pin_cites": [
+        {
+          "page": "127"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/318/0125-01"
+      ]
+    },
+    {
+      "cite": "57 Colum. L. Rev. 518",
+      "category": "journals:journal",
+      "reporter": "Colum. L. Rev.",
+      "year": 1957,
+      "pin_cites": [
+        {
+          "page": "520-521"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "21 Colum. L. Rev. 416",
+      "category": "journals:journal",
+      "reporter": "Colum. L. Rev.",
+      "year": 1921,
+      "pin_cites": [
+        {
+          "page": "417",
+          "parenthetical": "hereinafter Cook"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "23 A. B. A. J. 976",
+      "category": "journals:journal",
+      "reporter": "A.B.A. J.",
+      "year": 1937,
+      "pin_cites": [
+        {
+          "page": "977",
+          "parenthetical": "hereinafter Clark, New Federal Rules"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "329 U. S. 495",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6158152
+      ],
+      "year": 1947,
+      "pin_cites": [
+        {
+          "page": "501"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/329/0495-01"
+      ]
+    },
+    {
+      "cite": "362 F. 3d 969",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9269970
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "970",
+          "parenthetical": "Posner, J."
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/362/0969-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7\u00a72072-2074",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "69 F. 2d 326",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        273702
+      ],
+      "year": 1934,
+      "pin_cites": [
+        {
+          "page": "329"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/69/0326-01"
+      ]
+    },
+    {
+      "cite": "139 F. 2d 774",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        3683505
+      ],
+      "weight": 2,
+      "year": 1944,
+      "pin_cites": [
+        {
+          "page": "775"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/139/0774-01"
+      ]
+    },
+    {
+      "cite": "471 F. 2d 430",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        269081
+      ],
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "433"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/471/0430-01"
+      ]
+    },
+    {
+      "cite": "954 F. 2d 1054",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10519726
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "1057",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/954/1054-01"
+      ]
+    },
+    {
+      "cite": "469 U. S. 111",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11958809
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "121"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/469/0111-01"
+      ]
+    },
+    {
+      "cite": "425 U. S. 738",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6181950
+      ],
+      "weight": 2,
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "746",
+          "parenthetical": "quoting Poller v. Columbia Broadcasting System, Inc., 368 U. S. 464, 473 (1962)"
+        },
+        {
+          "page": "746"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/425/0738-01"
+      ]
+    },
+    {
+      "cite": "395 F. 2d 420",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2151112
+      ],
+      "year": 1968,
+      "pin_cites": [
+        {
+          "page": "423",
+          "parenthetical": "\"The 'liberal' approach to the consideration of antitrust complaints is important because inherent in such an action is the fact that all the details and specific facts relied upon cannot properly be set forth as part of the pleadings\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/395/0420-01"
+      ]
+    },
+    {
+      "cite": "352 U. S. 445",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6161823
+      ],
+      "year": 1957,
+      "pin_cites": [
+        {
+          "page": "454",
+          "parenthetical": "\"Congress itself has placed the private antitrust litigant in a most favorable position .... In the face of such a policy this Court should not add requirements to burden the private litigant beyond what is specifically set forth by Congress in those laws\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/352/0445-01"
+      ]
+    },
+    {
+      "cite": "429 U. S. 477",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6310
+      ],
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "489-490"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/429/0477-01"
+      ]
+    },
+    {
+      "cite": "35 Yale L. J. 259",
+      "category": "journals:journal",
+      "reporter": "Yale L.J.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "347 U. S. 186",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11299796
+      ],
+      "year": 1954,
+      "pin_cites": [
+        {
+          "page": "188",
+          "parenthetical": "holding, in an antitrust case, that the Government's allegations of effects on interstate commerce must be taken into account in deciding whether to dismiss the complaint \"[w]hether these charges be called 'allegations of fact' or 'mere conclusions of the pleader' \""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/347/0186-01"
+      ]
+    },
+    {
+      "cite": "957 F. 2d 353",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10520101
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "354",
+          "parenthetical": "\"The Federal Rules of Civil Procedure establish a system of notice pleading rather than of fact pleading, . . . so the happenstance that a complaint is 'eonclusory,' whatever exactly that overused lawyers' cliche means, does not automatically condemn it\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/957/0353-01"
+      ]
+    },
+    {
+      "cite": "323 F. 2d 1",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        101633
+      ],
+      "year": 1963,
+      "pin_cites": [
+        {
+          "page": "3-4",
+          "parenthetical": "\"[O]ne purpose of Rule 8 was to get away from the highly technical distinction between statements of fact and conclusions of law... \""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/323/0001-01"
+      ]
+    },
+    {
+      "cite": "277 F. 2d 694",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        703739
+      ],
+      "year": 1960,
+      "pin_cites": [
+        {
+          "page": "697",
+          "parenthetical": "\"Under the notice system of pleading established by the Rules of Civil Procedure,. .. the ancient distinction between pleading 'facts' and 'conclusions' is no longer significant\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/277/0694-01"
+      ]
+    },
+    {
+      "cite": "468 U. S. 737",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11340114
+      ],
+      "weight": 2,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "767-768, n. 1",
+          "parenthetical": "Brennan, J., dissenting"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/468/0737-01"
+      ]
+    },
+    {
+      "cite": "523 U. S. 574",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11503978
+      ],
+      "weight": 3,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "595"
+        },
+        {
+          "page": "598"
+        },
+        {
+          "page": "598-599"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/523/0574-01"
+      ]
+    },
+    {
+      "cite": "535 U. S. 813",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        352191
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "818"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/535/0813-01"
+      ]
+    },
+    {
+      "cite": "526 U. S. 629",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11133593
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "654"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/526/0629-01"
+      ]
+    },
+    {
+      "cite": "509 U. S. 764",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "811"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "489 U. S. 593",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12032830
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "598"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/489/0593-01"
+      ]
+    },
+    {
+      "cite": "449 U. S. 5",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11715236
+      ],
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "10",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/449/0005-01"
+      ]
+    },
+    {
+      "cite": "444 U. S. 232",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11305805
+      ],
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "246"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/444/0232-01"
+      ]
+    },
+    {
+      "cite": "429 U. S. 97",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        7354
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "106"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/429/0097-01"
+      ]
+    },
+    {
+      "cite": "405 U. S. 319",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11722405
+      ],
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "322",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/405/0319-01"
+      ]
+    },
+    {
+      "cite": "404 U. S. 519",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6175151
+      ],
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "521",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/404/0519-01"
+      ]
+    },
+    {
+      "cite": "395 U. S. 411",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1771818
+      ],
+      "year": 1969,
+      "pin_cites": [
+        {
+          "page": "422",
+          "parenthetical": "plurality opinion"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/395/0411-01"
+      ]
+    },
+    {
+      "cite": "470 U. S. 532",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11299646
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "554",
+          "parenthetical": "Brennan, J., concurring in part and dissenting in part"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/470/0532-01"
+      ]
+    },
+    {
+      "cite": "466 U. S. 558",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6203719
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "587",
+          "parenthetical": "Stevens, J., dissenting"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/466/0558-01"
+      ]
+    },
+    {
+      "cite": "431 U. S. 553",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1563
+      ],
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "561, n. 1",
+          "parenthetical": "Marshall, J., dissenting"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/431/0553-01"
+      ]
+    },
+    {
+      "cite": "426 U. S. 26",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6174426
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "55, n. 6",
+          "parenthetical": "Brennan, J., concurring in judgment"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/426/0026-01"
+      ]
+    },
+    {
+      "cite": "930 So. 2d 502",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        8424066
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "507"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/so2d/930/0502-01"
+      ]
+    },
+    {
+      "cite": "151 P. 3d 388",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "case_ids": [
+        8332034
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "396"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/p3d/151/0388-01"
+      ]
+    },
+    {
+      "cite": "167 Ariz. 501",
+      "category": "reporters:state",
+      "reporter": "Ariz.",
+      "case_ids": [
+        1544620
+      ],
+      "weight": 2,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "503"
+        },
+        {
+          "page": "1255"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ariz/167/0501-01"
+      ]
+    },
+    {
+      "cite": "27 P. 3d 377",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "case_ids": [
+        11082692
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "385-386",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/p3d/27/0377-01"
+      ]
+    },
+    {
+      "cite": "906 A. 2d 308",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "case_ids": [
+        8466249
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "312"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/a2d/906/0308-01"
+      ]
+    },
+    {
+      "cite": "636 So. 2d 576",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        11725214
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "578"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/so2d/636/0576-01"
+      ]
+    },
+    {
+      "cite": "266 Ga. 612",
+      "category": "reporters:state",
+      "reporter": "Ga.",
+      "case_ids": [
+        1245957
+      ],
+      "weight": 2,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "613"
+        },
+        {
+          "page": "199"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ga/266/0612-01"
+      ]
+    },
+    {
+      "cite": "111 Haw. 401",
+      "category": "reporters:state",
+      "reporter": "Haw.",
+      "case_ids": [
+        12262107
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "406"
+        },
+        {
+          "page": "270"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/haw/111/0401-01"
+      ]
+    },
+    {
+      "cite": "142 Idaho 253",
+      "category": "reporters:state",
+      "reporter": "Idaho",
+      "case_ids": [
+        3677868
+      ],
+      "weight": 2,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "257"
+        },
+        {
+          "page": "160"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/idaho/142/0253-01"
+      ]
+    },
+    {
+      "cite": "801 So. 2d 346",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9455731
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "349"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/so2d/801/0346-01"
+      ]
+    },
+    {
+      "cite": "431 A. 2d 1313",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "case_ids": [
+        7994890
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "1318-1319"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/a2d/431/1313-01"
+      ]
+    },
+    {
+      "cite": "446 Mass. 645",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        3783983
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "647"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/mass/446/0645-01"
+      ]
+    },
+    {
+      "cite": "846 N. E. 2d 1133",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "1135"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "926 So. 2d 890",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        8442754
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "893"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/so2d/926/0890-01"
+      ]
+    },
+    {
+      "cite": "337 Mont. 1",
+      "category": "reporters:state",
+      "reporter": "Mont.",
+      "case_ids": [
+        5473865
+      ],
+      "weight": 2,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "7"
+        },
+        {
+          "page": "1252"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/mont/337/0001-01"
+      ]
+    },
+    {
+      "cite": "270 Neb. 987",
+      "category": "reporters:state",
+      "reporter": "Neb.",
+      "case_ids": [
+        3792517
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "989"
+        },
+        {
+          "page": "324"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/neb/270/0987-01"
+      ]
+    },
+    {
+      "cite": "116 Nev. 1213",
+      "category": "reporters:state",
+      "reporter": "Nev.",
+      "case_ids": [
+        11447611
+      ],
+      "weight": 2,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "1217"
+        },
+        {
+          "page": "1278"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/nev/116-2/1213-01"
+      ]
+    },
+    {
+      "cite": "361 N. C. 137",
+      "category": "reporters:state",
+      "reporter": "N.C.",
+      "case_ids": [
+        3736123
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "139"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/nc/361/0137-01"
+      ]
+    },
+    {
+      "cite": "2001 ND 154",
+      "category": "reporters:state",
+      "reporter": "ND",
+      "case_ids": [
+        9494459
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "\u00b6 10"
+        },
+        {
+          "page": "434"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/nw2d/632/0429-01"
+      ]
+    },
+    {
+      "cite": "112 Ohio St. 3d 561",
+      "category": "reporters:state",
+      "reporter": "Ohio St. 3d",
+      "case_ids": [
+        3891406
+      ],
+      "pin_cites": [
+        {
+          "page": "562"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ohio-st-3d/112/0561-01"
+      ]
+    },
+    {
+      "cite": "2007-Ohio-814",
+      "category": "reporters:neutral",
+      "reporter": "Ohio",
+      "pin_cites": [
+        {
+          "page": "\u00b65"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "862 N. E. 2d 104",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "pin_cites": [
+        {
+          "page": "105"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "2006 OK 53",
+      "category": "reporters:neutral",
+      "reporter": "OK",
+      "case_ids": [
+        8468134
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "\u00b6 2"
+        },
+        {
+          "page": "551"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/p3d/141/0549-01"
+      ]
+    },
+    {
+      "cite": "570 A. 2d 656",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "case_ids": [
+        7382236
+      ],
+      "pin_cites": [
+        {
+          "page": "659"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/a2d/570/0656-01"
+      ]
+    },
+    {
+      "cite": "2003 SD 28",
+      "category": "reporters:state",
+      "reporter": "SD",
+      "case_ids": [
+        9346988
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "\u00b6 4"
+        },
+        {
+          "page": "22"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/nw2d/659/0020-01"
+      ]
+    },
+    {
+      "cite": "712 S. W. 2d 470",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9976750
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "471"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/712/0470-01"
+      ]
+    },
+    {
+      "cite": "145 Vt. 443",
+      "category": "reporters:state",
+      "reporter": "Vt.",
+      "case_ids": [
+        4744294
+      ],
+      "weight": 2,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "446"
+        },
+        {
+          "page": "124"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/vt/145/0443-01"
+      ]
+    },
+    {
+      "cite": "156 Wash. 2d 485",
+      "category": "reporters:state",
+      "reporter": "Wash. 2d",
+      "case_ids": [
+        3893212
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "497",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/wash-2d/156/0485-01"
+      ]
+    },
+    {
+      "cite": "130 P. 3d 809",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "815",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "216 W. Va. 499",
+      "category": "reporters:state",
+      "reporter": "W. Va.",
+      "case_ids": [
+        8929731
+      ],
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "502"
+        },
+        {
+          "page": "831"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/w-va/216/0499-01"
+      ]
+    },
+    {
+      "cite": "747 P. 2d 511",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "case_ids": [
+        10402180
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "512"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/p2d/747/0511-01"
+      ]
+    },
+    {
+      "cite": "780 A. 2d 1075",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "case_ids": [
+        9485281
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "1082-1083",
+          "parenthetical": "permitting dismissal only \"where the court determines with reasonable certainty that the plaintiff could prevail on no set of facts that may be inferred from the well-pleaded allegations in the complaint\" (internal quotation marks omitted)"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/a2d/780/1075-01"
+      ]
+    },
+    {
+      "cite": "212 Ill. 2d 311",
+      "category": "reporters:state",
+      "reporter": "Ill. 2d",
+      "case_ids": [
+        2444417
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "318",
+          "parenthetical": "replacing \"appears beyond doubt\" in the Conley formulation with \"is clearly apparent\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ill-2d/212/0311-01"
+      ]
+    },
+    {
+      "cite": "818 N. E. 2d 311",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "317",
+          "parenthetical": "replacing \"appears beyond doubt\" in the Conley formulation with \"is clearly apparent\""
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "522 N. E. 2d 386",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "case_ids": [
+        10909259
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "388",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ne2d/522/0386-01"
+      ]
+    },
+    {
+      "cite": "666 N. W. 2d 612",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "case_ids": [
+        9108145
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "614",
+          "parenthetical": "holding that a motion to dismiss should be sustained \"only when there exists no conceivable set of facts entitling the non-moving party to relief\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/nw2d/666/0612-01"
+      ]
+    },
+    {
+      "cite": "104 S. W. 3d 757",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9126136
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "759",
+          "parenthetical": "holding that judgment on the pleadings should be granted \"if it appears beyond doubt that the nonmoving party cannot prove any set of facts that would entitle him/her to relief\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw3d/104/0757-01"
+      ]
+    },
+    {
+      "cite": "470 Mich. 274",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1414170
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "277",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/mich/470/0274-01"
+      ]
+    },
+    {
+      "cite": "681 N. W. 2d 342",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "345",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "706 S. W. 2d 440",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9971531
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "441",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/706/0440-01"
+      ]
+    },
+    {
+      "cite": "795 P. 2d 622",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "case_ids": [
+        11299493
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "624",
+          "parenthetical": "holding that a motion to dismiss is appropriate \"only if it clearly appears that [the plaintiff] can prove no set of facts in support of his claim\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/p2d/795/0622-01"
+      ]
+    },
+    {
+      "cite": "63 Va. Cir. 68",
+      "category": "reporters:state",
+      "reporter": "Va. Cir.",
+      "case_ids": [
+        3780559
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "70",
+          "parenthetical": "\"The Virginia standard is identical [to the Conley formulation], though the Supreme Court of Virginia may not have used the same words to describe it\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/va-cir/63/0068-01"
+      ]
+    },
+    {
+      "cite": "457 U. S. 147",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6186289
+      ],
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "161"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/457/0147-01"
+      ]
+    },
+    {
+      "cite": "471 F. 3d 24",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5251468
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "parenthetical": "holding that a district court may not certify a class without ruling that each Rule 23 requirement is met, even if a requirement overlaps with a merits issue"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/471/0024-01"
+      ]
+    },
+    {
+      "cite": "357 U. S. 197",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6161783
+      ],
+      "year": 1958,
+      "pin_cites": [
+        {
+          "page": "206",
+          "parenthetical": "\"Rule 34 is sufficiently flexible to be adapted to the exigencies of particular litigation\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/357/0197-01"
+      ]
+    },
+    {
+      "cite": "498 U. S. 533",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6233009
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "parenthetical": "holding that Rule 11 applies to a represented party who signs a pleading, motion, or other papers, as well as to attorneys"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/498/0533-01"
+      ]
+    },
+    {
+      "cite": "232 F. R. D. 116",
+      "category": "reporters:specialty",
+      "reporter": "F.R.D.",
+      "case_ids": [
+        950008
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "126",
+          "parenthetical": "\"As possible sanctions pursuant to Rule 11, the court has an arsenal of options at its disposal\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/frd/232/0116-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 3661,
+    "char_count": 109298,
+    "ocr_confidence": 0.708,
+    "pagerank": {
+      "raw": 0.0002423956385319518,
+      "percentile": 0.9999951734637811
+    },
+    "sha256": "9c012cd3f0d41cce20e523a8ce36cfd8f4f5765b3c501700213337077b584bee",
+    "simhash": "1:fd78f78dfedb9fda",
+    "word_count": 17809
+  },
+  "last_updated": "2024-02-27T16:14:56.834045+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Souter, J., delivered the opinion of the Court, in which Roberts, C. J., and Scalia, Kennedy, Thomas, Breyer, and Auto, JJ., joined. Stevens, J., filed a dissenting opinion, in which Ginsburg, J., joined, except as to Part IV, post, p. 570.",
+      "Justice Ginsburg joins except as to Part IV, dissenting."
+    ],
+    "parties": [
+      "BELL ATLANTIC CORP. et al. v. TWOMBLY et al."
+    ],
+    "opinions": [
+      {
+        "text": "Justice Souter\ndelivered the opinion of the Court.\nLiability under \u00a7 1 of the Sherman Act, 15 U. S. C. \u00a7 1, requires a \u201ccontract, combination ... , or conspiracy, in restraint of trade or commerce.\u201d The question in this putative class action is whether a \u00a7 1 complaint can survive a motion to dismiss when it alleges that major telecommunications providers engaged in certain parallel conduct unfavorable to competition, absent some factual context suggesting agreement, as distinct from identical, independent action. We hold that such a complaint should be dismissed.\nI\nThe upshot of the 1984 divestiture of the American Telephone & Telegraph Company\u2019s (AT&T) local telephone business was a system of regional service monopolies (variously called \u201cRegional Bell Operating Companies,\u201d \u201cBaby Bells,\u201d or \u201cIncumbent Local Exchange Carriers\u201d (ILECs)), and a separate, competitive market for long-distance service from which the ILECs were excluded. More than a decade later, Congress withdrew approval of the ILECs\u2019 monopolies by enacting the Telecommunications Act of 1996 (1996 Act), 110 Stat. 56, which \u201cfundamentally restructure[d] local telephone markets\u201d and \u201csubjected] [ILECs] to a host of duties intended to facilitate market entry.\u201d AT&T Corp. v. Iowa Utilities Bd., 525 U. S. 366, 371 (1999). In recompense, the 1996 Act set conditions for authorizing ILECs to enter the long-distance market. See 47 U. S. C. \u00a7271.\n\u201cCentral to the [new] scheme [was each ILEC\u2019s] obligation ... to share its network with competitors,\u201d Verizon Communications Inc. v. Law Offices of Curtis V. Trinko, LLP, 540 U. S. 398, 402 (2004), which came to be known as \u201ccompetitive local exchange carriers\u201d (CLECs), Pet. for Cert. 6, n. 1. A CLEC could make use of an ILEC\u2019s network in any of three ways: by (1) \u201cpurchasing] local telephone services at wholesale rates for resale to end users,\u201d (2) \u201cleasing] elements of the [ILEC\u2019s] network \u2018on an unbundled basis,\u2019 \u201d or (3) \u201cinterconnecting] its own facilities with the [ILEC\u2019s] network.\u201d Iowa Utilities Bd., supra, at 371 (quoting 47 U. S. C. \u00a7 251(c)). Owing to the \u201cconsiderable expense and effort\u201d required to make unbundled network elements available to rivals at wholesale prices, Trinko, supra, at 410, the ILECs vigorously litigated the scope of the sharing obligation imposed by the 1996 Act, with the result that the Federal Communications Commission (FCC) three times revised its regulations to narrow the range of network elements to be shared with the CLECs. See Covad Communications Co. v. FCC, 450 F. 3d 528, 533-534 (CADC 2006) (summarizing the 10-year-long regulatory struggle between the ILECs and CLECs).\nRespondents William Twombly and Lawrence Marcus (hereinafter plaintiffs) represent a putative class consisting of all \u201csubscribers of local telephone and/or high speed internet services . . . from February 8, 1996 to present.\u201d Amended Complaint in No. 02 CIV. 10220 (GEL) (SDNY) \u00b6 53, App. 28 (hereinafter Complaint). In this action against petitioners, a group of ILECs, plaintiffs seek treble damages and declaratory and injunctive relief for claimed violations of \u00a71 of the Sherman Act, ch. 647, 26 Stat. 209, as amended, 15 U. S. C. \u00a7 1, which prohibits \u201c[ejvery contract, combination in the form of trust or otherwise, or conspiracy, in restraint of trade or commerce among the several States, or with foreign nations.\u201d\nThe complaint alleges that the ILECs conspired to restrain trade in two ways, each supposedly inflating charges for local telephone and high-speed Internet services. Plaintiffs say, first, that the ILECs \u201cengaged in parallel conduct\u201d in their respective service areas to inhibit the growth of upstart CLECs. Complaint \u00b647, App. 23-26. Their actions allegedly included making unfair agreements with the CLECs for access to ILEC networks, providing inferior connections to the networks, overcharging, and billing in ways designed to sabotage the CLECs\u2019 relations with their own customers. Ibid. According to the complaint, the ILECs\u2019 \u201ccompelling common motivatio[n]\u201d to thwart the CLECs\u2019 competitive efforts naturally led them to form a conspiracy; \u201c[h]ad any one [ILEC] not sought to prevent CLECs . . . from competing effectively , the resulting greater competitive inroads into that [ILEC\u2019s] territory would have revealed the degree to which competitive entry by CLECs would have been successful in the other territories in the absence of such conduct.\u201d Id., \u00b6 50, App. 26-27.\nSecond, the complaint charges agreements by the ILECs to refrain from competing against one another. These are to be inferred from the ILECs\u2019 common failure \u201cmeaningfully [to] pursu[e]\u201d \u201cattractive business opportunities]\u201d in contiguous markets where they possessed \u201csubstantial competitive advantages,\u201d id., \u00b6\u00b6 40-41, App. 21-22, and from a statement of Richard Notebaert, chief executive officer (CEO) of the ILEC Qwest, that competing in the territory of another ILEC \u201c \u2018might be a good way to turn a quick dollar but that doesn\u2019t make it right,\u2019\u201d id., \u00b6 42, App. 22.\nThe complaint couches its ultimate allegations this way:\n\u201cIn the absence of any meaningful competition between the [ILECs] in one another\u2019s markets, and in light of the parallel course of conduct that each engaged in to prevent competition from CLECs within their respective local telephone and/or high speed internet services markets and the other facts and market circumstances alleged above, Plaintiffs allege upon information and belief that [the ILECs] have entered into a contract, combination or conspiracy to prevent competitive entry in their respective local telephone and/or high speed internet services markets and have agreed not to compete with one another and otherwise allocated customers and markets to one another.\u201d Id., \u00b6 51, App. 27.\nThe United States District Court for the Southern District of New York dismissed the complaint for failure to state a claim upon which relief can be granted. The District Court acknowledged that \u201cplaintiffs may allege a conspiracy by citing instances of parallel business behavior that suggest an agreement,\u201d but emphasized that \u201cwhile \u2018[circumstantial evidence of consciously parallel behavior may have made heavy inroads into the traditional judicial attitude toward conspiracy[, . . .] \u201cconscious parallelism\u201d has not yet read conspiracy out of the Sherman Act entirely.\u2019\u201d 313 F. Supp. 2d 174, 179 (2003) (quoting Theatre Enterprises, Inc. v. Paramount Film Distributing Corp., 346 U. S. 537, 541 (1954); alterations in original). Thus, the District Court understood that allegations of parallel business conduct, taken alone, do not state a claim under \u00a7 1; plaintiffs must allege additional facts that \u201cten[d] to exclude independent self-interested conduct as an explanation for defendants\u2019 parallel behavior.\u201d 313 F. Supp. 2d, at 179. The District Court found plaintiffs\u2019 allegations of parallel ILEC actions to discourage competition inadequate because \u201cthe behavior of each ILEC in resisting the incursion of CLECs is fully explained by the ILEC\u2019s own interests in defending its individual territory.\u201d Id., at 183. As to the ILECs\u2019 supposed agreement against competing with each other, the District Court found that the complaint does not \u201calleg[e] facts . . . suggesting that refraining from competing in other territories as CLECs was contrary to [the ILECs\u2019] apparent economic interests, and consequently [does] not rais[e] an inference that [the ILECs\u2019] actions were the result of a conspiracy.\u201d Id., at 188.\nThe Court of Appeals for the Second Circuit reversed, holding that the District Court tested the complaint by the wrong standard. It held that \u201cplus factors are not required to be pleaded to permit an antitrust claim based on parallel conduct to survive dismissal.\u201d 425 F. 3d 99, 114 (2005) (emphasis in original). Although the Court of Appeals took the view that plaintiffs must plead facts that \u201cinclude conspiracy among the realm of \u2018plausible\u2019 possibilities in order to survive a motion to dismiss,\u201d it then said that \u201cto rule that allegations of parallel anticompetitive conduct fail to support a plausible conspiracy claim, a court would have to conclude that there is no set of facts that would permit a plaintiff to demonstrate that the particular parallelism asserted was the product of collusion rather than coincidence.\u201d Ibid.\nWe granted certiorari to address the proper standard for pleading an antitrust conspiracy through allegations of parallel conduct, 548 U. S. 903 (2006), and now reverse.\nII\nA\nBecause \u00a71 of the Sherman Act \u201cdoes not prohibit [all] unreasonable restraints of trade . . . but only restraints effected by a contract, combination, or conspiracy,\u201d Copperweld Corp. v. Independence Tube Corp., 467 U. S. 752, 775 (1984), \u201c[t]he crucial question\u201d is whether the challenged anticompetitive conduct \u201cstem[s] from independent decision or from an agreement, tacit or express,\u201d Theatre Enterprises, 346 U. S., at 540. While a showing of parallel \u201cbusiness behavior is admissible circumstantial evidence from which the fact finder may infer agreement,\u201d it falls short of \u201cconclusively establishing] agreement or . . . itself constituting] a Sherman Act offense.\u201d Id., at 540-541. Even \u201cconscious parallelism,\u201d a common reaction of \u201cfirms in a concentrated market [that] recogniz[e] their shared economic interests and their interdependence with respect to price and output deeisions\u201d is \u201cnot in itself unlawful.\u201d Brooke Group Ltd. v. Brown & Williamson Tobacco Corp., 509 U. S. 209, 227 (1993); see 6 P. Areeda & H. Hovenkamp, Antitrust Law \u00b6 1433a, p. 236 (2d ed. 2003) (hereinafter Ajreeda & Hovenkamp) (\u201cThe courts are nearly unanimous in saying that mere interdependent parallelism does not establish the contract, combination, or conspiracy required by Sherman Act \u00a7 1\u201d); Turner, The Definition of Agreement Under the Sherman Act: Conscious Parallelism and Refusals to Deal, 75 Harv. L. Rev. 655, 672 (1962) (\u201c[M]ere interdependence of basic price decisions is not conspiracy\u201d).\nThe inadequacy of showing parallel conduct or interdependence, without more, mirrors the ambiguity of the behavior: consistent with conspiracy, but just as much in line with a wide swath of rational and competitive business strategy unilaterally prompted by common perceptions of the market. See, e. g., AEI-Brookings Joint Center for Regulatory Studies, Epstein, Motions to Dismiss Antitrust Cases: Separating Fact from Fantasy, Related Publication 06-08, pp. 3-4 (2006) (discussing problem of \u201cfalse positives\u201d in \u00a7 1 suits). Accordingly, we have previously hedged against false inferences from identical behavior at a number of points in the trial sequence. An antitrust conspiracy plaintiff with evidence showing nothing beyond parallel conduct is not entitled to a directed verdict, see Theatre Enterprises, supra; proof of a \u00a7 1 conspiracy must include evidence tending to exclude the possibility of independent action, see Monsanto Co. v. Spray-Rite Service Corp., 465 U. S. 752 (1984); and at the summary judgment stage a \u00a7 1 plaintiff\u2019s offer of conspiracy evidence must tend to rule out the possibility that the defendants were acting independently, see Matsushita Elec. Industrial Co. v. Zenith Radio Corp., 475 U. S. 574 (1986).\nB\nThis case presents the antecedent question of what a plaintiff must plead in order to state a claim under \u00a71 of the Sherman Act. Federal Rule of Civil Procedure 8(a)(2) requires only \u201ca short and plain statement of the claim showing that the pleader is entitled to relief,\u201d in order to \u201cgive the defendant fair notice of what the . . . claim is and the grounds upon which it rests,\u201d Conley v. Gibson, 355 U. S. 41, 47 (1957). While a complaint attacked by a Rule 12(b)(6) motion to dismiss does not need detailed factual allegations, ibid.; Sanjuan v. American 13d. of Psychiatry and Neurology, Inc., 40 F. 3d 247, 251 (CA7 1994), a plaintiff\u2019s obligation to provide the \u201cgrounds\u201d of his \u201centitle[ment] to relief\u201d requires more than labels and conclusions, and a formulaic recitation of the elements of a cause of action will not do, see Papasan v. Allain, 478 U. S. 265, 286 (1986) (on a motion to dismiss, courts \u201care not bound to accept as true a legal conclusion couched as a factual allegation\u201d). Factual allegations must be enough to raise a right to relief above the speculative level, see 5 C. Wright & A. Miller, Federal Practice and Procedure \u00a7 1216, pp. 235-236 (3d ed. 2004) (hereinafter Wright & Miller) (\u201c[T]he pleading must contain something more . . . than ... a statement of facts that merely creates a suspicion [of] a legally cognizable right of action\u201d), on the assumption that all the allegations in the complaint are true (even if doubtful in fact), see, e. g., Swierkiewicz v. Sorema N. A, 534 U. S. 506, 508, n. 1 (2002); Neitzke v. Williams, 490 U. S. 319, 327 (1989) (\u201cRule 12(b)(6) does not countenance ... dismissals based on a judge\u2019s disbelief of a complaint\u2019s factual allegations\u201d); Scheuer v. Rhodes, 416 U. S. 232, 236 (1974) (a well-pleaded complaint may proceed even if it appears \u201cthat a recovery is very remote and unlikely\u201d).\nIn applying these general standards to a \u00a7 1 claim, we hold that stating such a claim requires a complaint with enough factual matter (taken as true) to suggest that an agreement was made. Asking for plausible grounds to infer an agreement does not impose a probability requirement at the pleading stage; it simply calls for enough fact to raise a reasonable expectation that discovery will reveal evidence of illegal agreement. And, of course, a well-pleaded complaint may proceed even if it strikes a savvy judge that actual proof of the facts alleged is improbable, and \u201cthat a recovery is very remote and unlikely.\u201d Ibid. In identifying facts that are suggestive enough to render a \u00a7 1 conspiracy plausible, we have the benefit of the prior rulings and considered views of leading commentators, already quoted, that lawful parallel conduct fails to bespeak unlawful agreement. It makes sense to say, therefore, that an allegation of parallel conduct and a bare assertion of conspiracy will not suffice. Without more, parallel conduct does not suggest conspiracy, and a conclusory allegation of agreement at some unidentified point does not supply facts adequate to show illegality. Hence, when allegations of parallel conduct are set out in order to make a \u00a7 1 claim, they must be placed in a context that raises a suggestion of a preceding agreement, not merely parallel conduct that could just as well be independent action.\nThe need at the pleading stage for allegations plausibly suggesting (not merely consistent with) agreement reflects the threshold requirement of Rule 8(a)(2) that the \u201cplain statement\u201d possess enough heft to \u201csho[w] that the pleader is entitled to relief.\u201d A statement of parallel conduct, even conduct consciously undertaken, needs some setting suggesting the agreement necessary to make out a \u00a7 1 claim; without that further circumstance pointing toward a meeting of the minds, an account of a defendant\u2019s commercial efforts stays in neutral territory. An allegation of parallel conduct is thus much like a naked assertion of conspiracy in a \u00a7 1 complaint: it gets the eomplaint close to stating a claim, but without some further factual enhancement it stops short of the line between possibility and plausibility of \u201centitle[ment] to relief.\u201d Cf. DM Research, Inc. v. College of Am. Pathologists, 170 F. 3d 53, 56 (CA1 1999) (\u201c[T]erms like \u2018conspiracy,\u2019 or even \u2018agreement,\u2019 are border-line: they might well be sufficient in conjunction with a more specific allegation \u2014 for example, identifying a written agreement or even a basis for inferring a tacit agreement,. . . but a court is not required to accept such terms as a sufficient basis for a complaint\u201d).\nWe alluded to the practical significance of the Rule 8 entitlement requirement in Dura Pharmaceuticals, Inc. v. Broudo, 544 U. S. 336 (2005), when we explained that something beyond the mere possibility of loss causation must be alleged, lest a plaintiff with \u201c \u2018a largely groundless claim\u2019 \u201d be allowed to \u201c \u2018take up the time of a number of other people, with the right to do so representing an in terrorem increment of the settlement value.\u2019\u201d Id., at 347 (quoting Blue Chip Stamps v. Manor Drug Stores, 421 U. S. 723, 741 (1975)). So, when the allegations in a complaint, however true, could not raise a claim of entitlement to relief, \u201c \u2018this basic deficiency should ... be exposed at the point of minimum expenditure of time and money by the parties and the court.\u2019\u201d 5 Wright & Miller \u00a71216, at 233-234 (quoting Daves v. Hawaiian Dredging Co., 114 F. Supp. 643, 645 (Haw. 1953)); see also Dura, supra, at 346; Asahi Glass Co. v. Pentech Pharmaceuticals, Inc., 289 F. Supp. 2d 986, 995 (ND Ill. 2003) (Posner, J., sitting by designation) (\u201c[S]ome threshold of plausibility must be crossed at the outset before a patent antitrust ease should be permitted to go into its inevitably costly and protracted discovery phase\u201d).\nThus, it is one thing to be cautious before dismissing an antitrust complaint in advance of discovery, cf. Poller v. Columbia Broadcasting System, Inc., 368 U. S. 464, 473 (1962), but quite another to forget that proceeding to antitrust discovery can be expensive. As we indicated over 20 years ago in Associated Gen. Contractors of Cal., Inc. v. Carpenters, 459 U. S. 519, 528, n. 17 (1983), \u201ca district court must retain the power to insist upon some specificity in pleading before allowing a potentially massive factual controversy to proceed.\u201d See also Car Carriers, Inc. v. Ford Motor Co., 745 F. 2d 1101, 1106 (CA7 1984) (\u201c[T]he costs of modern federal antitrust litigation and the increasing caseload of the federal courts counsel against sending the parties into discovery when there is no reasonable likelihood that the plaintiffs can construct a claim from the events related in the complaint\u201d); Note, Modeling the Effect of One-Way Fee Shifting on Discovery Abuse in Private Antitrust Litigation, 78 N. Y. U. L. Rev. 1887, 1898-1899 (2003) (discussing the unusually high cost of discovery in antitrust cases); Manual for Complex Litigation, Fourth, \u00a7 30, p. 519 (2004) (describing extensive scope of discovery in antitrust cases); Memorandum from Paul V. Niemeyer, Chair, Advisory Committee on Civil Rules, to Hon. Anthony J. Scirica, Chair, Committee on Rules of Practice and Procedure (May 11,1999), 192 F. R. D. 354,357 (2000) (reporting that discovery accounts for as much as 90 percent of litigation costs when discovery is actively employed). That potential expense is obvious enough in the present case: plaintiffs represent a putative class of at least 90 percent of all subscribers to local telephone or high-speed Internet service in the continental United States, in an action against America\u2019s largest telecommunications firms (with many thousands of employees generating reams and gigabytes of business records) for unspecified (if any) instances of antitrust violations that allegedly occurred over a period of seven years.\nIt is no answer to say that a claim just shy of a plausible entitlement to relief can, if groundless, be weeded out early in the discovery process through \u201ccareful case management,\u201d post, at 573, given the common lament that the success of judicial supervision in checking discovery abuse has been on the modest side. See, e.g., Easterbrook, Discovery as Abuse, 69 B. U. L. Rev. 635, 638 (1989) (\u201cJudges can do little about impositional discovery when parties control the legal claims to be presented and conduct the discovery themselves\u201d). And it is self-evident that the problem of discovery abuse cannot be solved by \u201ccareful scrutiny of evidence at the summary judgment stage,\u201d much less \u201clucid instructions to juries,\u201d post, at 573; the threat of discovery expense will push cost-conscious defendants to settle even anemic cases before reaching those proceedings. Probably, then, it is only by taking care to require allegations that reach the level suggesting conspiracy that we can hope to avoid the potentially enormous expense of discovery in cases with no \u201c \u2018reasonably founded hope that the [discovery] process will reveal relevant evidence\u2019\u201d to support a \u00a71 claim. Dura, 544 U. S., at 347 (quoting Blue Chip Stamps, supra, at 741; alteration in Dura).\nPlaintiffs do not, of course, dispute the requirement of plausibility and the need for something more than merely parallel behavior explained in Theatre Enterprises, Monsanto, and Matsushita, and their main argument against the plausibility standard at the pleading stage is its ostensible conflict with an early statement of ours construing Rule 8. Justice Black\u2019s opinion for the Court in Conley v. Gibson spoke not only of the need for fair notice of the grounds for entitlement to relief but of \u201cthe accepted rule that a complaint should not be dismissed for failure to state a claim unless it appears beyond doubt that the plaintiff can prove no set of facts in support of his claim which would entitle him to relief.\u201d 355 U. S., at 45-46. This \u201cno set of facts\u201d language can be read in isolation as saying that any statement revealing the theory of the claim will suffice unless its factual impossibility may be shown from the face of the pleadings; and the Court of Appeals appears to have read Conley in some such way when formulating its understanding of the proper pleading standard, see 425 F. 3d, at 106, 114 (invoking Conley\u2019s \u201cno set of facts\u201d language in describing the standard for dismissal).\nOn such a focused and literal reading of Conley\u2019s \u201cno set of facts,\u201d a wholly conclusory statement of claim would survive a motion to dismiss whenever the pleadings left open the possibility that a plaintiff might later establish some \u201cset of [undisclosed] facts\u201d to support recovery. So here, the Court of Appeals specifically found the prospect of unearthing direct evidence of conspiracy sufficient to preclude dismissal, even though the complaint does not set forth a single fact in a context that suggests an agreement. 425 F. 3d, at 106,114. It seems fair to say that this approach to pleading would dispense with any showing of a \u201c \u2018reasonably founded hope\u2019\u201d that a plaintiff would be able to make a case, see Dura, 544 U. S., at 347 (quoting Blue Chip Stamps, 421 U. S., at 741); Mr. Micawber\u2019s optimism would be enough.\nSeeing this, a good many judges and commentators have balked at taking the literal terms of the Conley passage as a pleading standard. See, e. g., Car Carriers, 745 F. 2d, at 1106 (\u201cConley has never been interpreted literally\u201d and, \u201c[i]n practice, a complaint... must contain either direct or inferential allegations respecting all the material elements necessary to sustain recovery under some viable legal theory\u201d (internal quotation marks omitted; emphasis and omission in original)); Ascon Properties, Inc. v. Mobil Oil Co., 866 F. 2d 1149, 1155 (CA9 1989) (tension between Conley\u2019s \u201cno set of facts\u201d language and its acknowledgment that a plaintiff must provide the \u201cgrounds\u201d on which his claim rests); O\u2019Brien v. DiGrazia, 544 F. 2d 543, 546, n. 3 (CA1 1976) (\u201c[W]hen a plaintiff . . . supplies facts to support his claim, we do not think that Conley imposes a duty on the courts to conjure up unpleaded facts that might turn a frivolous claim of unconstitutional . . . action into a substantial one\u201d); McGregor v. Industrial Excess Landfill, Inc., 856 F. 2d 39,42-43 (CA6 1988) (quoting O\u2019Brien\u2019s analysis); Hazard, From Whom No Secrets Are Hid, 76 Texas L. Rev. 1665, 1685 (1998) (describing Conley as having \u201cturned Rule 8 on its head\u201d); Marcus, The Revival of Fact Pleading Under the Federal Rules of Civil Procedure, 86 Colum. L. Rev. 433, 463-465 (1986) (noting tension between Conley and subsequent understandings of Rule 8).\nWe could go on, but there is no need to pile up further citations to show that Conley\u2019s \u201cno set of facts\u201d language has been questioned, criticized, and explained away long enough. To be fair to the Conley Court, the passage should be understood in light of the opinion\u2019s preceding summary of the complaint\u2019s concrete allegations, which the Court quite reasonably understood as amply stating a claim for relief. But the passage so often quoted fails to mention this understanding on the part of the Court, and after puzzling the profession for 50 years, this famous observation has earned its retirement. The phrase is best forgotten as an incomplete, negative gloss on an accepted pleading standard: once a claim has been stated adequately, it may be supported by showing any set of facts consistent with the allegations in the complaint. See Sanjuan, 40 F. 3d, at 251 (once a claim for relief has been stated, a plaintiff \u201creceives the benefit of imagination, so long as the hypotheses are consistent with the complaint\u201d); accord, Swierkiewicz, 534 U. S., at 514; National Organization for Women, Inc. v. Scheidler, 510 U. S. 249, 256 (1994); H. J. Inc. v. Northwestern Bell Telephone Co., 492 U. S. 229, 249-250 (1989); Hishon v. King & Spalding, 467 U. S. 69, 73 (1984). Conley, then, described the breadth of opportunity to prove what an adequate complaint claims, not the minimum standard of adequate pleading to govern a complaint\u2019s survival.\nIII\nWhen we look for plausibility in this complaint, we agree with the District Court that plaintiffs\u2019 claim of conspiracy in restraint of trade comes up short. To begin with, the complaint leaves no doubt that plaintiffs rest their \u00a7 1 claim on descriptions of parallel conduct and not on any independent allegation of actual agreement among the ILECs. Supra, at 550-551. Although in form a few stray statements speak directly of agreement, on fair reading these are merely legal conclusions resting on the prior allegations. Thus, the complaint first takes account of the alleged \u201cabsence of any meaningful competition between [the ILECs] in one another\u2019s markets,\u201d \u201cthe parallel course of conduct that each [ILEC] engaged in to prevent competition from CLECs,\u201d \u201cand the other facts and market circumstances alleged [earlier]\u201d; \u201cin light of\u201d these, the complaint concludes \u201cthat [the ILECs] have entered into a contract, combination or conspiracy to prevent competitive entry into their . . . markets and have agreed not to compete with one another.\u201d Complaint \u00b651, App. 27. The nub of the complaint, then, is the ILECs\u2019 parallel behavior, consisting of steps to keep the CLECs out and manifest disinterest in becoming CLECs themselves, and its sufficiency turns on the suggestions raised by this conduct when viewed in light of common economic experience.\nWe think that nothing contained in the complaint invests either the action or inaction alleged with a plausible suggestion of conspiracy. As to the ILECs\u2019 supposed agreement to disobey the 1996 Act and thwart the CLECs\u2019 attempts to compete, we agree with the District Court that nothing in the complaint intimates that the resistance to the upstarts was anything more than the natural, unilateral reaction of each ILEC intent on keeping its regional dominance. The 1996 Act did more than just subject the ILECs to competition; it obliged them to subsidize their competitors with their own equipment at wholesale rates. The economic incentive to resist was powerful, but resisting competition is routine market conduct, and even if the ILECs flouted the 1996 Act in all the ways the plaintiffs allege, see id., \u00b6 47, App. 23-24, there is no reason to infer that the companies had agreed among themselves to do what was only natural anyway; so natural, in fact, that if alleging parallel decisions to resist competition were enough to imply an antitrust conspiracy, pleading a \u00a7 1 violation against almost any group of competing businesses would be a sure thing.\nThe complaint makes its closest pass at a predicate for conspiracy with the claim that collusion was necessary because success by even one CLEG in an ILEC\u2019s territory \u201cwould have revealed the degree to which competitive entry by CLECs would have been successful in the other territories.\u201d Id., \u00b6 50, App. 26-27. But, its logic aside, this general premise still fails to answer the point that there was just no need for joint encouragement to resist the 1996 Act; as the District Court said, \u201ceach ILEC has reason to want to avoid dealing with CLECs\u201d and \u201ceach ILEC would attempt to keep CLECs out, regardless of the actions of the other ILECs.\u201d 313 F. Supp. 2d, at 184; cf. Kramer v. Pollock-Krasner Foundation, 890 F. Supp. 250, 256 (SONY 1995) (while the plaintiff \u201cmay believe the defendants conspired ... , the defendants\u2019 allegedly conspiratorial actions could equally have been prompted by lawful, independent goals which do not constitute a conspiracy\u201d).\nPlaintiffs\u2019 second conspiracy theory rests on the competitive reticence among the ILECs themselves in the wake of the 1996 Act, which was supposedly passed in the \u201c\u2018hop[e] that the large incumbent local monopoly companies ... might attack their neighbors\u2019 service areas, as they are the best situated to do so.\u2019\u201d Complaint \u00b638, App. 20 (quoting Consumer Federation of America, Lessons from 1996 Telecommunications Act: Deregulation Before Meaningful Competition Spells Consumer Disaster, p. 12 (Feb. 2000)). Contrary to hope, the ILECs declined \u201c \u2018to enter each other\u2019s service territories in any significant way,\u2019 \u201d Complaint \u00b6 38, App. 20, and the local telephone and high-speed Internet market remains highly compartmentalized geographically, with minimal competition. Based on this state of affairs, and perceiving the ILECs to be blessed with \u201cespecially attractive business opportunities\u201d in surrounding markets dominated by other ILECs, the plaintiffs assert that the ILECs\u2019 parallel conduct was \u201cstrongly suggestive of conspiracy.\u201d Id., \u00b6 40, App. 21.\nBut it was not suggestive of conspiracy, not if history teaches anything. In a traditionally unregulated industry with low barriers to entry, sparse competition among large firms dominating separate geographical segments of the market could very well signify illegal agreement, but here we have an obvious alternative explanation. In the decade preceding the 1996 Act and well before that, monopoly was the norm in telecommunications, not the exception. See Verizon Communications Inc. v. FCC, 535 U. S. 467, 477-478 (2002) (describing telephone service providers as traditional public monopolies). The ILECs were born in that world, doubtless liked the world the way it was, and surely knew the adage about him who lives by the sword. Hence, a natural explanation for the noncompetition alleged is that the former Government-sanctioned monopolists were sitting tight, expecting their neighbors tp do the same thing.\nIn fact, the complaint itself gives reasons to believe that the ILECs would see their best interests in keeping to their old turf. Although the complaint says generally that the ILECs passed up \u201cespecially attractive business opportunities]\u201d by declining to compete as CLECs against other ILECs, Complaint \u00b6 40, App. 21, it does not allege that competition as CLECs was potentially any more lucrative than other opportunities being pursued by the ILECs during the same period, and the complaint is replete with indications that any CLEC faced nearly insurmountable barriers to profitability owing to the ILECs\u2019 flagrant resistance to the network sharing requirements of the 1996 Act, id., \u00b6 47, App. 23-26. Not only that, but even without a monopolistic tradition and the peculiar difficulty of mandating shared networks, \u201c[f]irms do not expand without limit and none of them enters every market that an outside observer might regard as profitable, or even a small portion of such markets.\u201d Areeda & Hovenkamp \u00b6 307d, at 155 (Supp. 2006) (commenting on the case at bar). The upshot is that Congress may have expected some ILECs to become CLECs in the legacy territories of other ILECs, but the disappointment does not make conspiracy plausible. We agree with the District Court\u2019s assessment that antitrust conspiracy was not suggested by the facts adduced under either theory of the complaint, which thus fails to state a valid \u00a7 1 claim.\nPlaintiffs say that our analysis runs counter to Swierkiewicz, 534 U. S., at 508, which held that \u201ca complaint in an employment discrimination lawsuit [need] not contain specific facts establishing a prima facie case of discrimination under the framework set forth in McDonnell Douglas Corp. v. Green, 411 U. S. 792 (1973).\u201d They argue that just as the prima facie case is a \u201cflexible evidentiary standard\u201d that \u201cshould not be transposed into a rigid pleading standard for discrimination cases,\u201d Swierkiewicz, supra, at 512, \u201ctrans-posting] 'plus factor\u2019 summary judgment analysis woodenly into a rigid Rule 12(b)(6) pleading standard . . . would be unwise,\u201d Brief for Respondents 39. As the District Court correctly understood, however, \u201cSwierkiewicz did not change the law of pleading, but simply re-emphasized . . . that the Second Circuit\u2019s use of a heightened pleading standard for Title VII cases was contrary to the Federal Rules\u2019 structure of liberal pleading requirements.\u201d 313 F. Supp. 2d, at 181 (citation and footnote omitted). Even though Swierkiewicz\u2019s pleadings \u201cdetailed the events leading to his termination, provided relevant dates, and included the ages and nationalities of at least some of the relevant persons involved with his termination,\u201d the Court of Appeals dismissed his complaint for failing to allege certain additional facts that Swierkiewicz would need at the trial stage to support his claim in the absence of direct evidence of discrimination. Swierkiewicz, 534 U. S., at 514. We reversed on the ground that the Court of Appeals had impermissibly applied what amounted to a heightened pleading requirement by insisting that Swierkiewicz allege \u201cspecific facts\u201d beyond those necessary to state his claim and the grounds showing entitlement to relief. Id., at 508.\nHere, in contrast, we do not require heightened fact pleading of specifics, but only enough facts to state a claim to relief that is plausible on its face. Because the plaintiffs here have not nudged their claims across the line from conceivable to plausible, their complaint must be dismissed.\n* * *\nThe judgment of the Court of Appeals for the Second Circuit is reversed, and the case is remanded for further proceedings consistent with this opinion.\nIt is so ordered.\nThe 1984 divestiture of AT&T\u2019s local telephone service created seven Regional Bell Operating Companies. Through a series of mergers and acquisitions, those seven companies were consolidated into the four ILECs named in this suit: BellSouth Corporation, Qwest Communications International, Inc., SBC Communications, Inc., and Verizon Communications, Inc. (successor-in-interest to Bell Atlantic Corporation). Complaint \u00b6 21, App. 16. Together, these ILECs allegedly control 90 percent or more of the market for local telephone service in the 48 contiguous States. Id., \u00b6 48, App. 26.\nIn setting forth the grounds for \u00a7 1 relief, the complaint repeats these allegations in substantially similar language:\n\u201cBeginning at least as early as February 6,1996, and continuing to the present, the exact dates being unknown to Plaintiffs, Defendants and their co-conspirators engaged in a contract, combination or conspiracy to prevent competitive entry in their respective local telephone and/or high speed internet services markets by, among other things, agreeing not to compete with one another and to stifle attempts by others to compete with them and otherwise allocating customers and markets to one another in violation of Section 1 of the Sherman Act.\u201d Id., \u00b6 64, App. 30-31.\nThe dissent greatly oversimplifies matters by suggesting that the Federal Rules somehow dispensed with the pleading of facts altogether. See post, at 580 (opinion of Stevens, J.) (pleading standard of Federal Rules \u201cdoes not require, or even invite, the pleading of facts\u201d). While, for most types of cases, the Federal Rules eliminated the cumbersome requirement that a claimant \u201cset out in detail the facts upon which he bases his claim,\u201d Conley v. Gibson, 355 U. S. 41, 47 (1957) (emphasis added), Rule 8(a)(2) still requires a \u201cshowing,\u201d rather than a blanket assertion, of entitlement to relief. Without some factual allegation in the complaint, it is hard to see how a claimant could satisfy the requirement of providing not only \u2018Tair notice\u201d of the nature of the claim, but also \u201cgrounds\u201d on which the claim rests. See 5 Wright & Miller \u00a7 1202, at 94, 95 (Rule 8(a) \u201ccontemplate[s] the statement of circumstances, occurrences, and events in support of the claim presented\u201d and does not authorize a pleader\u2019s \u201cbare averment that he wants relief and is entitled to it\u201d).\nCommentators have offered several examples of parallel conduct allegations that would state a \u00a7 1 claim under this standard. See, e. g., 6 Areeda & Hovenkamp \u00b6 1425, at 167-185 (discussing \u201cparallel behavior that would probably not result from chance, coincidence, independent responses to common stimuli, or mere interdependence unaided by an advance understanding among the parties\u201d); Blechman, Conscious Parallelism, Signalling and Facilitating Devices: The Problem of Tacit Collusion Under the Antitrust Laws, 24 N. Y. L. S. L. Rev. 881,899 (1979) (describing \u201cconduct [that] indicates the sort of restricted freedom of action and sense of obligation that one generally associates with agreement\u201d). The parties in this case agree that \u201ccomplex and historically unprecedented changes in pricing structure made at the very same time by multiple competitors, and made for no other discernible reason,\u201d would support a plausible inference of conspiracy. Brief for Respondents 37; see also Reply Brief for Petitioners 12.\nThe border in DM Research was the line between the conclusory and the factual. Here it lies between the factually neutral and the factually suggestive. Each must be crossed to enter the realm of plausible liability.\nThe dissent takes heart in the reassurances of plaintiffs\u2019 counsel that discovery would be \u2018\u201c\u201cphased\u201d\u201d\u2019 and \u201climited to the existence of the alleged conspiracy and class certification.\u201d Post, at 593. But determining whether some illegal agreement may have taken place between unspecified persons at different ILECs (each a multibillion dollar corporation with legions of management level employees) at some point over seven years is a sprawling, costly, and. hugely time-consuming undertaking not easily susceptible to the kind of line drawing and case management that the dissent envisions. Perhaps the best answer to the dissent\u2019s optimism that antitrust discovery is open to effective judicial control is a more extensive quotation of the authority just cited, a judge with a background in antitrust law. Given the system that we have, the hope of effective judicial supervision is slim:\n\u201cThe timing is all wrong. The plaintiff files a sketchy complaint (the Rules of Civil Procedure discourage fulsome documents), and discovery is launched. A judicial officer does not know the details of the case the parties will present and in theory cannot know the details. Discovery is used to find the details. The judicial officer always knows less than the parties, and the parties themselves may not know very well where they are going or what they expect to find. A magistrate supervising discovery does not \u2014 cannot\u2014know the expected productivity of a given request, because the nature of the requester\u2019s claim and the contents of the files (or head) of the adverse party are unknown. Judicial officers cannot measure the costs and benefits to the requester and so cannot isolate impositional requests. Requesters have no reason to disclose their own estimates because they gain from imposing costs on rivals (and may lose from an improvement in accuracy). The portions of the Rules of Civil Procedure calling on judges to trim back excessive demands, therefore, have been, and are doomed to be, hollow. We cannot prevent what we cannot detect; we cannot detect what we cannot define; we cannot define \u2018abusive\u2019 discovery except in theory, because in practice we lack essential information.\u201d Easterbrook, Discovery as Abuse, 69 B. U. L. Rev. 635, 638-639 (1989) (footnote omitted).\nThe Court of Appeals also relied on Chief Judge Clark\u2019s suggestion in Nagler v. Admiral Corp., 248 F. 2d 319 (CA2 1957), that facts indicating parallel conduct alone suffice to state a claim under \u00a7 1. 425 F. 3d, at 114 (citing Nagler, supra, at 325). But Nagler gave no explanation for citing Theatre Enterprises (which upheld a denial of a directed verdict for plaintiff on the ground that proof of parallelism was not proof of conspiracy) as authority that pleading parallel conduct sufficed to plead a Sherman Act conspiracy. Now that Monsanto Co. v. Spray-Rite Service Corp., 465 U. S. 752 (1984), and Matsushita Elec. Industrial Co. v. Zenith Radio Corp., 475 U. S. 574 (1986), have made it clear that neither parallel conduct nor conscious parallelism, taken alone, raise the necessary implication of conspiracy, it is time for a fresh look at adequacy of pleading when a claim rests on parallel action.\nBecause Conleyfe \u2018\u201cno set of facts\u2019\u201d language was one of our earliest statements about pleading under the Federal Rules, it is no surprise that it has since been \u201ccited as authority\u201d by this Court and others. Post, at 577. Although we have not previously explained the circumstances and rejected the literal reading of the passage embraced by the Court of Appeals, our analysis comports with this Court\u2019s statements in the years since Conley. See Dura Pharmaceuticals, Inc. v. Broudo, 544 U. S. 336, 347 (2005) (requiring \u201c \u2018reasonably founded hope that the [discovery] process will reveal relevant evidence\u2019 \u201d to support the claim (quoting Blue Chip Stamps v. Manor Drug Stores, 421 U. S. 723, 741 (1975); alteration in Dura)); Associated Gen. Contractors of Cal., Inc. v. Carpenters, 459 U. S. 519, 526 (1983) (\u201cIt is not . . . proper to assume that [the plaintiff] can prove facts that it has not alleged or that the defendants have violated the antitrust laws in ways that have not been alleged\u201d); Wilson v. Schnettler, 365 U. S. 381, 383 (1961) (\u201cIn the absence of... an allegation [that the arrest was made without probable cause] the courts below could not, nor can we, assume that respondents arrested petitioner without probable cause to believe that he had committed ... a narcotics offense\u201d). Nor are we reaching out to decide this issue in a case where the matter was not raised by the parties, see post, at 579, since both the ILECs and the Government highlight the problems stemming from a literal interpretation of Conley\u2019s \u201cno set of facts\u201d language and seek clarification of the standard. Brief for Petitioners 27-28; Brief for United States as Amicus Curiae 22-25; see also Brief for Respondents 17 (describing \u201c[p]etitioners and their amici\u201d as mounting an \u201cattack on Conley\u2019s \u2018no set of facts\u2019 standard\u201d).\nThe dissent finds relevance in Court of Appeals precedents from the 1940s, which allegedly gave rise to Conley's \u201cno set of facts\u201d language. See post, at 580-583. Even indulging this line of analysis, these cases do not challenge the understanding that, before proceeding to discovery, a complaint must allege facts suggestive of illegal conduct. See, e.g., Leimer v. State Mut. Life Assurance Co. of Worcester, Mass., 108 F. 2d 302, 305 (CA8 1940) (\u201c \u2018[I]f, in view of what is alleged, it can reasonably be conceived that the plaintiffs ... could, upon a trial, establish a case which would entitle them to . . . relief, the motion to dismiss should not have been granted\u2019 \u201d); Continental Collieries, Inc. v. Shober, 130 F. 2d 631, 635 (CA3 1942) (\u201cNo matter how likely it may seem that the pleader will be unable to prove his case, he is entitled, upon averring a claim, to an opportunity to try to prove it\u201d). Rather, these cases stand for the unobjectionable proposition that, when a complaint adequately states a claim, it may not be dismissed based on a district court's assessment that the plaintiff will fail to find evidentiary support for his allegations or prove his claim to the satisfaction of the factfinder. Cf. Scheuer v. Rhodes, 416 U. S. 232, 236 (1974) (a district court weighing a motion to dismiss asks \u201cnot whether a plaintiff will ultimately prevail but whether the claimant is entitled to offer evidence to support the claims\u201d).\nSee Complaint \u00b6\u00b6 51, 64, App. 27,30-31 (alleging that ILECs engaged in a \u201ccontract, combination or conspiracy\u201d and agreed not to compete with one another).\nIf the complaint had not explained that the claim of agreement rested on the parallel conduct described, we doubt that the complaint\u2019s references to an agreement among the ILECs would have given the notice required by Rule 8. Apart from identifying a 7-year span in which the \u00a7 1 violations were supposed to have occurred (1 e., \u201c[beginning at least as early as February 6, 1996, and continuing to the present,\u201d id., \u00b6 64, App. 30), the pleadings mentioned no specific time, place, or person involved in the alleged conspiracies. This lack of notice contrasts sharply with the model form for pleading negligence, Form 9, which the dissent says exemplifies the kind of \u201cbare allegation\u201d that survives a motion to dismiss. Post, at 576. Whereas the model form alleges that the defendant struck the plaintiff with his car while plaintiff was crossing a particular highway at a specified date and time, the complaint here furnishes no clue as to which of the four ILECs (much less which of their employees) supposedly agreed, or when and where the illicit agreement took place. A defendant wishing to prepare an answer in the simple fact pattern laid out in Form 9 would know what to answer; a defendant seeking to respond to plaintiffs\u2019 conelusory allegations in the \u00a7 1 context would have little idea where to begin.\nThe dissent\u2019s quotations from the complaint leave the impression that plaintiffs directly allege illegal agreement; in fact, they proceed exclusively via allegations of parallel conduct, as both the District Court and Court of Appeals recognized. See 313 F. Supp. 2d 174, 182 (SDNY 2003); 425 F. 3d 99, 102-104 (CA2 2005).\nFrom the allegation that the ILECs belong to various trade associations, see Complaint \u00b6 46, App. 23, the dissent playfully suggests that they conspired to restrain trade, an inference said to be \u201cbuttressed by the common sense of Adam Smith.\u201d Post, at 591, 594. If Adam Smith is peering down today, he may be surprised to learn that his tongue-in-cheek remark would be authority to force his famous pinmaker to devote financial and human capital to hire lawyers, prepare for depositions, and otherwise fend off allegations of conspiracy; all this just because he belonged to the same trade guild as one of his competitors when their pins carried the same price tag.\nThe complaint quoted a reported statement of Qwest\u2019s CEO, Richard Notebaert, to suggest that the ILECs declined to compete against each other despite recognizing that it \u201c \u2018might be a good way to turn a quick dollar.\u2019\u201d \u00b642, App. 22 (quoting Chicago Tribune, Oct. 31, 2002, Business Section, p. 1). This was only part of what he reportedly said, however, and the District Court was entitled to take notice of the full contents of the published articles referenced in the complaint, from which the truncated quotations were drawn. See Fed. Rule Evid. 201.\nNotebaert was also quoted as saying that entering new markets as a CLEC would not be \u201ca sustainable economic model\u201d because the CLEC pricing model is \u201cjust... nuts.\u201d Chicago Tribune, Oct. 31,2002, Business Section, p. 1 (cited at Complaint \u00b6 42, App. 22). Another source cited in the complaint quotes Notebaert as saying he thought it \u201cunwise\u201d to \u201cbase a business plan\u201d on the privileges accorded to CLECs under the 1996 Act because the regulatory environment was too unstable. Chicago Tribune, Dec. 19, 2002, Business Section, p. 2 (cited at Complaint \u00b6 45, App. 23).\nIn reaching this conclusion, we do not apply any \u201cheightened\u201d pleading standard, nor do we seek to broaden the scope of Federal Rule of Civil Procedure 9, which can only be accomplished \u201c \u2018by the process of amending the Federal Rules, and not by judicial interpretation.\u2019\u201d Swierkiewicz v. Sorema N. A, 534 U. S. 506, 515 (2002) (quoting Leathermcm v. Tarrant County Narcotics Intelligence and Coordination Unit, 507 U. S. 163, 168 (1993)). On certain subjects understood to raise a high risk of abusive litigation, a plaintiff must state factual allegations with greater particularity than Rule 8 requires. Fed. Rules Civ. Proc. 9(b)-(c). Here, our concern is not that the allegations in the complaint were insufficiently \u201cparticularized],\u201d ibid.; rather, the complaint warranted dismissal because it failed in toto to render plaintiffs\u2019 entitlement to relief plausible.",
+        "type": "majority",
+        "author": "Justice Souter"
+      },
+      {
+        "text": "Justice Stevens,\nwith whom\nJustice Ginsburg joins except as to Part IV, dissenting.\nIn the first paragraph of its 23-page opinion the Court states that the question to be decided is whether allegations that \u201cmajor telecommunications providers engaged in certain parallel conduct unfavorable to competition\u201d suffice to state a violation of \u00a7 1 of the Sherman Act. Ante, at 548-549. The answer to that question has been settled for more than 50 years. If that were indeed the issue, a summary reversal citing Theatre Enterprises, Inc. v. Paramount Film Distributing Corp., 346 U. S. 537 (1954), would adequately resolve this case. As Theatre Enterprises held, parallel conduct is circumstantial evidence admissible on the issue of conspiracy, but it is not itself illegal. Id., at 540-542.\nThus, this is a case in which there is no dispute about the substantive law. If the defendants acted independently, their conduct was perfectly lawful. If, however, that conduct is the product of a horizontal agreement among potential competitors, it was unlawful. The plaintiffs have alleged such an agreement and, because the complaint was dismissed in advance of answer, the allegation has not even been denied. Why, then, does the case not proceed? Does a judicial opinion that the charge is not \u201cplausible\u201d provide a legally acceptable reason for dismissing the complaint? I think not.\nRespondents\u2019 amended complaint describes a variety of circumstantial evidence and makes the straightforward allegation that petitioners\n\u201centered into a contract, combination or conspiracy to prevent competitive entry in their respective local telephone and/or high speed internet services markets and have agreed not to compete with one another and otherwise allocated customers and markets to one another.\u201d Amended Complaint in No. 02 CIV. 10220 (GEL) (SDNY) \u00b6 51, App. 27 (hereinafter Complaint).\nThe complaint explains that, contrary to Congress\u2019 expectation when it enacted the 1996 Telecommunications Act, and consistent with their own economic self-interests, petitioner Incumbent Local Exchange Carriers (ILECs) have assiduously avoided infringing upon each other\u2019s markets and have refused to permit nonincumbent competitors to access their networks. The complaint quotes Richard Notebaert, the former chief executive officer of one such ILEC, as saying that competing in a neighboring ILEC\u2019s territory \u201c \u2018might be a good way to turn a quick dollar but that doesn\u2019t make it right.\u2019\u201d Id., \u00b642, App. 22. Moreover, respondents allege that petitioners \u201ccommunicate amongst themselves\u201d through numerous industry associations. Id., \u00b6 46, App. 23. In sum, respondents allege that petitioners entered into an agreement that has long been recognized as a classic per se violation of the Sherman Act. See Report of the Attorney General\u2019s National Committee to Study the Antitrust Laws 26 (1955).\nUnder rules of procedure that have been well settled since well before our decision in Theatre Enterprises, a judge ruling on a defendant\u2019s motion to dismiss a complaint \u201cmust accept as true all of the factual allegations contained in the complaint.\u201d Swierkiewicz v. Sorema N. A., 534 U. S. 506, 508, n. 1 (2002); see Overstreet v. North Shore Corp., 318 U. S. 125,127 (1943). But instead of requiring knowledgeable executives such as Notebaert to respond to these allegations by way of sworn depositions or other limited discovery \u2014 and indeed without so much as requiring petitioners to file an answer denying that they entered into any agreement \u2014 the majority permits immediate dismissal based on the assurances of company lawyers that nothing untoward was afoot. The Court embraces the argument of those lawyers that \u201cthere is no reason to infer that the companies had agreed among themselves to do what was only natural anyway,\u201d ante, at 566; that \u201cthere was just no need for joint encouragement to resist the 1996 Act,\u201d ibid.; and that the \u201cnatural explanation for the noncompetition alleged is that the former Government-sanctioned monopolists were sitting tight, expecting their neighbors to do the same thing,\u201d ante, at 568.\nThe Court and petitioners\u2019 legal team are no doubt correct that the parallel conduct alleged is consistent with the absence of any contract, combination, or conspiracy. But that conduct is also entirely consistent with the presence of the illegal agreement alleged in the complaint. And the charge that petitioners \u201cagreed not to compete with one another\u201d is not just one of \u201ca few stray statements,\u201d ante, at 564; it is an allegation describing unlawful conduct. As such, the Federal Rules of Civil Procedure, our longstanding precedent, and sound practice mandate that the District Court at least require some sort of response from petitioners before dismissing the case.\nTwo practical concerns presumably explain the Court\u2019s dramatic departure from settled procedural law. Private antitrust litigation can be enormously expensive, and there is a risk that jurors may mistakenly conclude that evidence of parallel conduct has proved that the parties acted pursuant to an agreement when they in fact merely made similar independent decisions. Those concerns merit careful case management, including strict control of discovery, careful scrutiny of evidence at the summary judgment stage, and lucid instructions to juries; they do not, however, justify the dismissal of an adequately pleaded complaint without even requiring the defendants to file answers denying a charge that they in fact engaged in collective decisionmaking. More importantly, they do not justify an interpretation of Federal Rule of Civil Procedure 12(b)(6) that seems to be driven by the majority\u2019s appraisal of the plausibility of the ultimate factual allegation rather than its legal sufficiency.\nI\nRule 8(a)(2) of the Federal Rules requires that a complaint contain \u201ca short and plain statement of the claim showing that the pleader is entitled to relief.\u201d The Rule did not come about by happenstance, and its language is not inadvertent. The English experience with Byzantine special pleading rules \u2014 illustrated by the hypertechnical Hilary rules of 1834 \u2014 made obvious the appeal of a pleading standard that was easy for the common litigant to understand and sufficed to put the defendant on notice as to the nature of the claim against him and the relief sought. Stateside, David Dudley Field developed the highly influential New York Code of 1848, which required \u201c[a] statement of the facts constituting the cause of action, in ordinary and concise language, without repetition, and in such a manner as to enable a person of common understanding to know what is intended.\u201d An Act to Simplify and Abridge the Practice, Pleadings and Proceedings of the Courts of this State, ch. 379, \u00a7 120(2), 1848 N. Y. Laws pp. 497, 521. Substantially similar language appeared in the Federal Equity Rules adopted in 1912. See Fed. Equity Rule 25 (requiring \u201ca short and simple statement of the ultimate facts upon which the plaintiff asks relief, omitting any mere statement of evidence\u201d).\nA difficulty arose, however, in that the Field Code and its progeny required a plaintiff to plead \u201cfacts\u201d rather than \u201cconclusions,\u201d a distinction that proved far easier to say than to apply. As commentators have noted,\n\u201cit is virtually impossible logically to distinguish among \u2018ultimate facts,\u2019 \u2018evidence,\u2019 and \u2018conclusions.\u2019 Essentially any allegation in a pleading must be an assertion that certain occurrences took place. The pleading spectrum, passing from evidence through ultimate facts to conclusions, is largely a continuum varying only in the degree of particularity with which the occurrences are described.\u201d Weinstein & Distler, Comments on Procedural Reform: Drafting Pleading Rules, 57 Colum. L. Rev. 518, 520-521 (1957).\nSee also Cook, Statements of Fact in Pleading Under the Codes, 21 Colum. L. Rev. 416, 417 (1921) (hereinafter Cook) (\u201c[T]here is no logical distinction between statements which are grouped by the courts under the phrases \u2018statements of fact\u2019 and \u2018conclusions of law\u2019 \u201d). Rule 8 was directly responsive to this difficulty. Its drafters intentionally avoided any reference to \u201cfacts\u201d or \u201cevidence\u201d or \u201cconclusions.\u201d See 5 C. Wright & A. Miller, Federal Practice and Procedure \u00a71216, p. 207 (3d ed. 2004) (hereinafter Wright & Miller) (\u201cThe substitution of \u2018claim showing that the pleader is entitled to relief\u2019 for the code formulation of the \u2018facts\u2019 constituting a \u2018cause of action\u2019 was intended to avoid the distinctions drawn under the codes among \u2018evidentiary facts,\u2019 \u2018ultimate facts,\u2019 and \u2018conclusions\u2019... \u201d).\nUnder the relaxed pleading standards of the Federal Rules, the idea was not to keep litigants out of court but rather to keep them in. The merits of a claim would be sorted out during a flexible pretrial process and, as appropriate, through the crucible of trial. See Swierkiewicz, 534 U. S., at 514 (\u201cThe liberal notice pleading of Rule 8(a) is the starting point of a simplified pleading system, which was adopted to focus litigation on the merits of a claim\u201d). Charles E. Clark, the \u201cprincipal draftsman\u201d of the Federal Rules, put it thus:\n\u201cExperience has shown ... that we cannot expect the proof of the case to be made through the pleadings, and that such proof is really not their function. We can expect a general statement distinguishing the case from all others, so that the manner and form of trial and remedy expected are clear, and so that a permanent judgment will result.\u201d The New Federal Rules of Civil Procedure: The Last Phase \u2014 Underlying Philosophy Embodied in Some of the Basic Provisions of the New Procedure, 23 A. B. A. J. 976, 977 (1937) (hereinafter Clark, New Federal Rules).\nThe pleading paradigm under the new Federal Rules was well illustrated by the inclusion in the appendix of Form 9, a complaint for negligence. As relevant, the Form 9 complaint states only: \u201cOn June 1, 1936, in a public highway called Boylston Street in Boston, Massachusetts, defendant negligently drove a motor vehicle against plaintiff who was then crossing said highway.\u201d Form 9, Complaint for Negligence, Forms App., Fed. Rules Civ. Proc., 28 U. S. C. App., p. 829 (hereinafter Form 9). The complaint then describes the plaintiff\u2019s injuries and demands judgment. The asserted ground for relief \u2014 namely, the defendant\u2019s negligent driving \u2014 would have been called a \u201c\u2018conclusion of law\u2019\u201d under the code pleading of old. See, e. g., Cook 419. But that bare allegation suffices under a system that \u201crestrict[s] the pleadings to the task of general notice-giving and invest\u00eds] the deposition-discovery process with a vital role in the preparation for trial.\u201d Hickman v. Taylor, 329 U. S. 495, 501 (1947); see also Swierkiewicz, 534 U. S., at 513, n. 4 (citing Form 9 as an example of \u201c \u2018the simplicity and brevity of statement which the rules contemplate\u2019\u201d); Thomson v. Washington, 362 F. 3d 969, 970 (CA7 2004) (Posner, J.) (\u201cThe federal rules replaced fact pleading with notice pleading\u201d).\nII\nIt is in the context of this history that Conley v. Gibson, 355 U. S. 41 (1957), must be understood. The Conley plaintiffs were black railroad workers who alleged that their union local had refused to protect them against discriminatory discharges, in violation of the National Railway Labor Act. The union sought to dismiss the complaint on the ground that its general allegations of discriminatory treatment by the defendants lacked sufficient specificity. Writing for a unanimous Court, Justice Black rejected the union\u2019s claim as foreclosed by the language of Rule 8. Id., at 47-48. In the course of doing so, he articulated the formulation the Court rejects today: \u201cIn appraising the sufficiency of the complaint we follow, of course, the accepted rule that a complaint should not be dismissed for failure to state a claim unless it appears beyond doubt that the plaintiff can prove no set of facts in support of his claim which would entitle him to relief.\u201d Id., at 45-46.\nConsistent with the design of the Federal Rules, Conley's \u201cno set of facts\u201d formulation permits outright dismissal only when proceeding to discovery or beyond would be futile. Once it is clear that a plaintiff has stated a claim that, if true, would entitle him to relief, matters of proof are appropriately relegated to other stages of the trial process. Today, however, in its explanation of a decision to dismiss a complaint that it regards as a fishing expedition, the Court scraps Conley's \u201cno set of facts\u201d language. Concluding that the phrase has been \u201cquestioned, criticized, and explained away long enough,\u201d ante, at 562, the Court dismisses it as careless composition.\nIf Conley's \u201cno set of facts\u201d language is to be interred, let it not be without a eulogy. That exact language, which the majority says has \u201cpuzzl[ed] the profession for 50 years,\u201d ante, at 563, has been cited as authority in a dozen opinions of this Court and four separate writings. In not one of those 16 opinions was the language \u201cquestioned,\u201d \u201ccriticized,\u201d or \u201cexplained away.\u201d Indeed, today\u2019s opinion is the first by any Member of this Court to express any doubt as to the adequacy of the Conley formulation. Taking their cues from the federal courts, 26 States and the District of Columbia utilize as their standard for dismissal of a complaint the very language the majority repudiates: whether it appears \u201cbeyond doubt\u201d that \u201cno set of facts\u201d in support of the claim would entitle the plaintiff to relief.\nPetitioners have not requested that the Conley formulation be retired, nor have any of the six amici who filed briefs in support of petitioners. I would not rewrite the Nation\u2019s civil procedure textbooks and call into doubt the pleading rules of most of its States without far more informed deliberation as to the costs of doing so. Congress has established a process \u2014 a rulemaking process \u2014 for revisions of that order. See 28 U. S. C. \u00a7\u00a72072-2074 (2000 ed. and Supp. IV).\nToday\u2019s majority calls Conley\u2019s \u201c \u2018no set of facts\u2019 \u201d language \u201can incomplete, negative gloss on an accepted pleading standard: once a claim has been stated adequately, it may be supported by showing any set of facts consistent with the allegations in the complaint.\u201d Ante, at 563. This is not and cannot be what the Conley Court meant. First, as I have explained, and as the Conley Court well knew, the pleading standard the Federal Rules meant to codify does not require, or even invite, the pleading of facts. The \u201cpleading standard\u201d label the majority gives to what it reads into the Conley opinion \u2014 a statement of the permissible factual support for an adequately pleaded complaint \u2014 would not, therefore, have impressed the Conley Court itself. Rather, that Court would have understood the majority\u2019s remodeling of its language to express an evidentiary standard, which the Conley Court had neither need nor want to explicate. Second, it is pellueidly clear that the Conley Court was interested in what a complaint must contain, not what it may contain. In fact, the Court said without qualification that it was \u201cappraising the sufficiency of the complaint.\u201d 355 U. S., at 45 (emphasis added). It was, to paraphrase today\u2019s m\u00e1jority, describing \u201cthe minimum standard of adequate pleading to govern a complaint\u2019s survival,\u201d ante, at 563.\nWe can be triply sure as to Conley\u2019s meaning by examining the three Court of Appeals cases the Conley Court cited as support for the \u201caccepted rule\u201d that \u201ca complaint should not be dismissed for failure to state a claim unless it appears beyond doubt that the plaintiff can prove no set of facts in support of his claim which would entitle him to relief.\u201d 355 U. S., at 45-46. In the first case, Leimer v. State Mut. Life Assurance Co. of Worcester, Mass., 108 F. 2d 302 (CA8 1940), the plaintiff alleged that she was the beneficiary of a life insurance plan and that the insurance company was wrongfully withholding proceeds from her. In reversing the District Court\u2019s grant of the defendant\u2019s motion to dismiss, the Eighth Circuit noted that court\u2019s own longstanding rule that, to warrant dismissal, \u201c \u2018it should appear from the allegations that a cause of action does not exist, rather than that a cause of action has been defectively stated.\u2019\u201d Id., at 305 (quoting Winget v. Rockwood, 69 F. 2d 326, 329 (CA8 1934)).\nThe Leimer court viewed the Federal Rules \u2014 specifically Rules 8(a)(2), 12(b)(6), 12(e) (motion for a more definite statement), and 56 (motion for summary judgment) \u2014 as reinforcing the notion that \u201cthere is no justification for dismissing a complaint for insufficiency of statement, except where it appears to a certainty that the plaintiff would be entitled to no relief under any state of facts which could be proved in support of the claim.\u201d 108 F. 2d, at 306. The court refuted in the strongest terms any suggestion that the unlikelihood of recovery should determine the fate of a complaint: \u201cNo matter how improbable it may be that she can prove her claim, she is entitled to an opportunity to make the attempt, and is not required to accept as final a determination of her rights based upon inferences drawn in favor of the defendant from her amended complaint.\u201d Ibid.\nThe Third Circuit relied on Leimer\u2019s admonition in Continental Collieries, Inc. v. Shober, 130 F. 2d 631 (1942), which the Conley Court also cited in support of its \u201cno set of facts\u201d formulation. In a diversity action the plaintiff alleged breaeh of contract, but the District Court dismissed the complaint on the ground that the contract appeared to be unenforceable under state law. The Court of Appeals reversed, concluding that there were facts in dispute that went to the enforceability of the contract, and that the rule at the pleading stage was as in Leimer: \u201cNo matter how likely it may seem that the pleader will be unable to prove his case, he is entitled, upon averring a claim, to an opportunity to try to prove it.\u201d 130 F. 3d, at 635.\nThe third case the Conley Court cited approvingly was written by Judge Clark himself. In Dioguardi v. Durning, 139 F. 2d 774 (CA2 1944), the pro se plaintiff, an importer of \u201ctonics,\u201d charged the customs inspector with auctioning off the plaintiff\u2019s former merchandise for less than was bid for it \u2014 and indeed for an amount equal to the plaintiff\u2019s own bid \u2014 and complained that two cases of tonics went missing three weeks before the sale. The inference, hinted at by the averments but never stated in so many words, was that the defendant fraudulently denied the plaintiff his rightful claim to the tonics, which, if true, would have violated federal law. Writing six years after the adoption of the Federal Rules he held the lead rein in drafting, Judge Clark said that the defendant\n\u201ccould have disclosed the facts from his point of view, in advance of a trial if he chose, by asking for a pre-trial hearing or by moving for a summary judgment with supporting affidavits. But, as it stands, we do not see how the plaintiff may properly be deprived of his day in court to show what he obviously so firmly believes and what for present purposes defendant must be taken as admitting.\u201d Id., at 775.\nAs any civil procedure student knows, Judge Clark\u2019s opinion disquieted the defense bar and gave rise to a movement to revise Rule 8 to require a plaintiff to plead a \u201c \u2018cause of action.\u2019 \u201d See 5 Wright & Miller \u00a7 1201, at 86-87. The movement failed, see ibid.; Dioguardi was explicitly approved in Conley; and \u201c[i]n retrospect the case itself seems to be a routine application of principles that are universally accepted,\u201d 5 Wright & Miller \u00a7 1220, at 284-285.\nIn light of Leimer, Continental Collieries, and Dioguardi, Conley\u2019s statement that a complaint is not to be dismissed unless \u201cno set of facts\u201d in support thereof would entitle the plaintiff to relief is hardly \u201cpuzzling,\u201d ante, at 562-563. It reflects a philosophy that, unlike in the days of code pleading, separating the wheat from the chaff is a task assigned to the pretrial and trial process. Conley\u2019s language, in short, captures the policy choice embodied in the Federal Rules and binding on the federal courts.\nWe have consistently reaffirmed that basic understanding of the Federal Rules in the half century since Conley. For example, in Scheuer v. Rhodes, 416 U. S. 232 (1974), we reversed the Court of Appeals\u2019 dismissal on the pleadings when the respondents, the Governor and other officials of the State of Ohio, argued that the petitioners\u2019 claims were barred by sovereign immunity. In a unanimous opinion by then-justice Rehnquist, we emphasized:\n\u201cWhen a federal court reviews the sufficiency of a complaint, before the reception of any evidence either by affidavit or admissions, its task is necessarily a limited one. The issue is not whether a plaintiff will ultimately prevail but whether the claimant is entitled to offer evidence to support the claims. Indeed it may appear on the face of the pleadings that a recovery is very remote and unlikely but that is not the test.\u2019\u2019 Id., at 236 (emphasis added).\nThe Rhodes plaintiffs had \u201calleged generally and in conclusory terms\u201d that the defendants, by calling out the National Guard to suppress the Kent State University student protests, \u201cwere guilty of wanton, wilful and negligent conduct.\u201d Krause v. Rhodes, 471 F. 2d 430, 433 (CA6 1972). We reversed the Court of Appeals on the ground that \u201c[w]hatever the plaintiffs may or may not be able to establish as to the merits of their allegations, their claims, as stated in the complaints, given the favorable reading required by the Federal Rules of Civil Procedure,\u201d were not barred by the Eleventh Amendment because they were styled as suits against the defendants in their individual capacities. 416 U. S., at 238.\nWe again spoke with one voice against efforts to expand pleading requirements beyond their appointed limits in Leatherman v. Tarrant County Narcotics Intelligence and Coordination Unit, 507 U. S. 163 (1993). Writing for the unanimous Court, Chief Justice Rehnquist rebuffed the Fifth Circuit\u2019s effort to craft a standard for pleading municipal liability that accounted for \u201cthe enormous expense involved today in litigation,\u201d Leatherman v. Tarrant County Narcotics Intelligence and Coordination Unit, 954 F. 2d 1054, 1057 (1992) (internal quotation marks omitted), by requiring a plaintiff to \u201cstate with factual detail and particularity the basis for the claim which necessarily includes why the defendant-official cannot successfully maintain the defense of immunity,\u201d 507 U. S., at 167 (internal quotation marks omitted). We found this language inconsistent with Rules 8(a)(2) and 9(b) and emphasized that motions to dismiss were not the place to combat discovery abuse: \u201cIn the absence of [an amendment to Rule 9(b)], federal courts and litigants must rely on summary judgment and control of discovery to weed out unmeritorious claims sooner rather than later.\u201d Id., at 168-169.\nMost recently, in Swierkiewicz, 534 U. S. 506, we were faced with a case more similar to the present one than the majority will allow. In discrimination cases, our precedents require a plaintiff at the summary judgment stage to produce either direct evidence of discrimination or, if the claim is based primarily on circumstantial evidence, to meet the shifting evidentiary burdens imposed under the framework articulated in McDonnell Douglas Corp. v. Green, 411 U. S. 792 (1973). See, e. g., Trans World Airlines, Inc. v. Thur ston, 469 U. S. 111, 121 (1985). Swierkiewicz alleged that he had been terminated on account of national origin in violation of Title VII of the Civil Rights Act of 1964. The Second Circuit dismissed the suit on the pleadings because he had not pleaded a prima facie case of discrimination under the McDonnell Douglas standard.\nWe reversed in another unanimous opinion, holding that \u201cunder a notice pleading system, it is not appropriate to require a plaintiff to plead facts establishing a prima facie case because the McDonnell Douglas framework does not apply in every employment discrimination case.\u201d Swierkiewicz, 534 U. S., at 511. We also observed that Rule 8(a)(2) does not contemplate a court\u2019s passing on the merits of a litigant\u2019s claim at the pleading stage. Rather, the \u201csimplified notice pleading standard\u201d of the Federal Rules \u201crelies on liberal discovery rules and summary judgment motions to define disputed facts and issues and to dispose of unmeritorious claims.\u201d Id., at 512; see Brief for United States et al. as Amici Curiae in Swierkiewicz v. Sorema N. A, O. T. 2001, No. 00-1853, p. 10 (stating that a Rule 12(b)(6) motion is not \u201can appropriate device for testing the truth of what is asserted or for determining whether a plaintiff has any evidence to back up what is in the complaint\u201d (internal quotation marks omitted)).\nAs in the discrimination context, we have developed an evidentiary framework for evaluating claims under \u00a7 1 of the Sherman Act when those claims rest on entirely circumstantial evidence of conspiracy. See Matsushita Elec. Indus trial Co. v. Zenith Radio Corp., 475 U. S. 574 (1986). Under Matsushita, a plaintiff\u2019s allegations of an illegal conspiracy may not, at the summary judgment stage, rest solely on the inferences that may be drawn from the parallel conduct of the defendants. In order to survive a Rule 56 motion, a \u00a7 1 plaintiff \u201cmust present evidence \u2018that tends to exclude the possibility\u2019 that the alleged conspirators acted independently.\u2019\u201d Id., at 588 (quoting Monsanto Co. v. Spray-Rite Service Corp., 465 U. S. 752, 764 (1984)). That is, the plaintiff \u201cmust show that the inference of conspiracy is reasonable in light of the competing inferences of independent action or collusive action.\u201d 475 U. S., at 588.\nEverything today\u2019s majority says would therefore make perfect sense if it were ruling on a Rule 56 motion for summary judgment and the evidence included nothing more than the Court has described. But it should go without saying in the wake of Swierkiewicz that a heightened production burden at the summary judgment stage does not translate into a heightened pleading burden at the complaint stage. The majority rejects the complaint in this case because \u2014 in light of the fact that the parallel conduct alleged is consistent with ordinary market behavior \u2014 the claimed conspiracy is \u201cconceivable\u201d but not \u201cplausible,\u201d ante, at 570. I have my doubts about the majority\u2019s assessment of the plausibility of this alleged conspiracy. See Part III, infra. But even if the majority\u2019s speculation is correct, its \u201cplausibility\u201d standard is irreconcilable with Rule 8 and with our governing precedents. As we made clear in Swierkiewicz and Leatherman, fear of the burdens of litigation does not justify factual conclusions supported only by lawyers\u2019 arguments rather than sworn denials or admissible evidence.\nThis case is a poor vehicle for the Court\u2019s new pleading rule, for we have observed that \u201cin antitrust cases, where \u2018the proof is largely in the hands of the alleged conspirators,\u2019 . . . dismissals prior to giving the plaintiff ample opportunity for discovery should be granted very sparingly.\u201d Hospital Building Co. v. Trustees of Rex Hospital, 425 U. S. 738, 746 (1976) (quoting Poller v. Columbia Broadcasting System, Inc., 368 U. S. 464, 473 (1962)); see also Knuth v. Erie-Crawford Dairy Cooperative Assn., 395 F. 2d 420, 423 (CA3 1968) (\u201cThe \u2018liberal\u2019 approach to the consideration of antitrust complaints is important because inherent in such an action is the fact that all the details and specific facts relied upon cannot properly be set forth as part of the pleadings\u201d). Moreover, the fact that the Sherman Act authorizes the recovery of treble damages and attorney\u2019s fees for successful plaintiffs indicates that Congress intended to encourage, rather than discourage, private enforcement of the law. See Radovich v. National Football League, 352 U. S. 445, 454 (1957) (\u201cCongress itself has placed the private antitrust litigant in a most favorable position .... In the face of such a policy this Court should not add requirements to burden the private litigant beyond what is specifically set forth by Congress in those laws\u201d). It is therefore more, not less, important in antitrust cases to resist the urge to engage in armchair economics at the pleading stage.\nThe same year we decided Conley, Judge Clark wrote, presciently,\n\u201cI fear that every age must learn its lesson that special pleading cannot be made to do the service of trial and that live issues between active litigants are not to be disposed of or evaded on the paper pleadings, i. e., the formalistic claims of the parties. Experience has found no quick and easy short cut for trials in cases generally and antitrust cases in particular.\u201d Special Pleading in the \u201cBig Case\u201d? in Procedure \u2014 The Handmaid of Justice 147, 148 (C. Wright & H. Reasoner eds. 1965) (hereinafter Clark, Special Pleading in the Big Case) (emphasis added).\nIn this \u201cBig Case,\u201d the Court succumbs to the temptation that previous Courts have steadfastly resisted. While the majority assures us that it is not applying any \u201c\u2018heightened\u2019 \u201d pleading standard, see ante, at 569, n. 14,1 shall now explain why I have a difficult time understanding its opinion any other way.\nIll\nThe Court does not suggest that an agreement to do what the plaintiffs allege would be permissible under the antitrust laws, see, e. g., Associated Gen. Contractors of Cal., Inc. v. Carpenters, 459 U. S. 519, 526-527 (1983). Nor does the Court hold that these plaintiffs have failed to allege an injury entitling them to sue for damages under those laws, see Brunswick Corp. v. Pueblo Bowl-O-Mat, Inc., 429 U. S. 477, 489-490 (1977). Rather, the theory on which the Court permits dismissal is that, so far as the Federal Rules are concerned, no agreement has been alleged at all. This is a mind-boggling conclusion.\nAs the Court explains, prior to the enactment of the Telecommunications Act of 1996 the law prohibited the defendants from competing with each other. The new statute was enacted to replace a monopolistic market with a competitive one. The Act did not merely require the regional monopolists to take affirmative steps to facilitate entry to new competitors, see Verizon Communications Inc. v. Law Offices of Curtis V. Trinko, LLP, 540 U. S. 398, 402 (2004); it also permitted the existing firms to compete with each other and to expand their operations into previously forbidden territory. See 47 U. S. C. \u00a7271. Each of the defendants decided not to take the latter step. That was obviously an extremely important business decision, and I am willing to presume that each company acted entirely independently in reaching that decision. I am even willing to entertain the majority\u2019s belief that any agreement among the companies was unlikely. But the plaintiffs allege in three places in their complaint, \u00b6\u00b6 4, 51, 64, App. 11, 27, 30, that the ILECs did in fact agree both to prevent competitors from entering into their local markets and to forgo competition with each other. And as the Court recognizes, at the motion to dismiss stage, a judge assumes \u201cthat all the allegations in the complaint are true (even if doubtful in fact).\u201d Ante, at 555.\nThe majority circumvents this obvious obstacle to dismissal by pretending that it does not exist. The Court admits that \u201cin form a few stray statements in the complaint speak directly of agreement,\u201d but disregards those allegations by saying that \u201con fair reading these are merely legal conclusions resting on the prior allegations\u201d of parallel conduct. Ante, at 564. The Court\u2019s dichotomy between factual allegations and \u201clegal conclusions\u201d is the stuff of a bygone era, supra, at 574-576. That distinction was a defining feature of code pleading, see generally Clark, The Complaint in Code Pleading, 35 Yale L. J. 259 (1925-1926), but was conspicuously abolished when the Federal Rules were enacted in 1938. See United States v. Employing Plasterers Assn, of Chicago, 347 U. S. 186, 188 (1954) (holding, in an antitrust case, that the Government\u2019s allegations of effects on interstate commerce must be taken into account in deciding whether to dismiss the complaint \u201c[w]hether these charges be called \u2018allegations of fact\u2019 or \u2018mere conclusions of the pleader\u2019 \u201d); Brownlee v. Conine, 957 F. 2d 353, 354 (CA7 1992) (\u201cThe Federal Rules of Civil Procedure establish a system of notice pleading rather than of fact pleading, . . . so the happenstance that a complaint is \u2018eonclusory,\u2019 whatever exactly that overused lawyers\u2019 clich\u00e9 means, does not automatically condemn it\u201d); Walker Distributing Co. v. Lucky Lager Brewing Co., 323 F. 2d 1, 3-4 (CA9 1963) (\u201c[O]ne purpose of Rule 8 was to get away from the highly technical distinction between statements of fact and conclusions of law... \u201d); Oil, Chemical & Atomic Workers Int\u2019l Union v. Delta, 277 F. 2d 694, 697 (CA6 1960) (\u201cUnder the notice system of pleading established by the Rules of Civil Procedure,. .. the ancient distinction between pleading \u2018facts\u2019 and \u2018conclusions\u2019 is no longer significant\u201d); 5 Wright & Miller \u00a7 1218, at 267 (\u201c[T]he federal rules do not prohibit the pleading of facts or legal conclusions as long as fair notice is given to the parties\u201d). \u201cDefendants entered into a contract\u201d is no more a legal conclusion than \u201cdefendant negligently drove,\u201d see Form 9; supra, at 575-576. Indeed it is less of one.\nEven if I were inclined to accept the Court\u2019s anachronistic dichotomy and ignore the complaint\u2019s actual allegations, I would dispute the Court\u2019s suggestion that any inference of agreement from petitioners\u2019 parallel conduct is \u201cimplausible.\u201d Many years ago a truly great economist perceptively observed that \u201c[pjeople of the same trade seldom meet together, even for merriment and diversion, but the conversation ends in a conspiracy against the public, or in some contrivance to raise prices.\u201d A. Smith, An Inquiry Into the Nature and Causes of the Wealth of Nations, in 39 Great Books of the Western World 55 (R. Hutchins & M. Adler eds. 1952). I am not so cynical as to accept that sentiment at face value, but I need not do so here. Respondents\u2019 complaint points not only to petitioners\u2019 numerous opportunities to meet with each other, Complaint \u00b6 46, App. 23, but also to Notebaert\u2019s curious statement that encroaching on a fellow incumbent\u2019s territory \u201cmight be a good way to turn a quick dollar but that doesn\u2019t make it right,\u201d id., \u00b6 42, App. 22. What did he mean by that? One possible (indeed plausible) inference is that he meant that while it would be in his company\u2019s economic self-interest to compete with its brethren, he had agreed with his competitors not to do so. According to the complaint, that is how the Illinois Coalition for Competitive Telecom construed Notebaert\u2019s statement, id., \u00b6 44, App. 22 (calling the statement \u201cevidence of potential collusion among regional Bell phone monopolies to not compete against one another and kill off potential competitors in local phone service\u201d), and that is how Members of Congress construed his company\u2019s behavior, id., \u00b6 45, App. 23 (describing a letter to the Justice Department requesting an investigation into the possibility that the ILECs\u2019 \u201c \u2018very apparent non-competition policy\u2019 \u201d was coordinated).\nPerhaps Notebaert meant instead that competition would be sensible in the short term but not in the long run. That\u2019s what his lawyers tell us anyway. See Brief for Petitioners 36. But I would think that no one would know better what Notebaert meant than Notebaert himself. Instead of permitting respondents to ask Notebaert, however, the Court looks to other quotes from that and other articles and decides that what he meant was that entering new markets as a competitive local exchange carrier would not be a \u201c \u2018sustainable economic model.\u2019 \u201d Ante, at 568, n. 13. Never mind that\u2014 as anyone ever interviewed knows \u2014 a newspaper article is hardly a verbatim transcript; the writer selects quotes to package his story, not to record a subject\u2019s views for posterity. But more importantly the District Court was required at this stage of the proceedings to construe Notebaert\u2019s ambiguous statement in the plaintiffs\u2019 favor. See Allen v. Wright, 468 U. S. 737, 767-768, n. 1 (1984) (Brennan, J., dissenting). The inference the statement supports \u2014 that simultaneous decisions by ILECs not even to attempt to poach customers from one another once the law authorized them to do so were the product of an agreement \u2014 sits comfortably within the realm of possibility. That is all the Rules require.\nTo be clear, if I had been the trial judge in this case, I would not have permitted the plaintiffs to engage in massive discovery based solely on the allegations in this complaint. On the other hand, I surely would not have dismissed the complaint without requiring the defendants to answer the charge that they \u201chave agreed not to compete with one another and otherwise allocated customers and markets to one another.\u201d Complaint, \u00b6 51, App. 27. Even a sworn denial of that charge would not justify a summary dismissal without giving the plaintiffs the opportunity to take depositions from Notebaert and at least one responsible executive representing each of the other defendants.\nRespondents in this case proposed a plan of \u201c \u2018phased discovery\u2019\u201d limited to the existence of the alleged conspiracy and class certification. Brief for Respondents 25-26. Two petitioners rejected the plan. Ibid. Whether or not respondents\u2019 proposed plan was sensible, it was an appropriate subject for negotiation. Given the charge in the complaint \u2014 buttressed by the common sense of Adam Smith\u2014 I cannot say that the possibility that joint discussions and perhaps some agreements played a role in petitioners\u2019 decisionmaking process is so implausible that dismissing the complaint before any defendant has denied the charge is preferable to granting respondents even a minimal opportunity to prove their claims. See Clark, New Federal Rules 977 (\u201c[Tjhrough the weapons of discovery and summary judgment we have developed new devices, with more appropriate penalties to aid in matters of proof, and do not need to force the pleadings to their less appropriate function\u201d).\nI fear that the unfortunate result of the majority\u2019s new pleading rule will be to invite lawyers\u2019 debates over economic theory to conclusively resolve antitrust suits in the absence of any evidence. It is no surprise that the antitrust defense bar \u2014 among whom \u201clament\u201d as to inadequate judicial supervision of discovery is most \u201ccommon,\u201d see ante, at 559 \u2014 should lobby for this state of affairs. But \u201cwe must recall that their primary responsibility is to win cases for their clients, not to improve law administration for the public.\u201d Clark, Special Pleading in the Big Case 152. As we did in our prior decisions, we should have instructed them that their remedy was to seek to amend the Federal Rules\u2014 not our interpretation of them. See Swierkiewicz, 534 U. S., at 515; Crawford-El v. Britton, 523 U. S. 574, 595 (1998); Leatherman, 507 U. S., at 168.\nIV\nJust a few weeks ago some of my colleagues explained that a strict interpretation of the literal text of statutory language is essential to avoid judicial decisions that are not faithful to the intent of Congress, Zuni Public School Dist. No. 89 v. Department of Education, ante, p. 108 (Scalia, J., dissenting). I happen to believe that there are cases in which other tools of construction are more reliable than text, but I agree of course that congressional intent should guide us in matters of statutory interpretation. Ante, at 106 (Stevens, J., concurring). This is a case in which the intentions of the drafters of three important sources of law \u2014 the Sherman Act, the Telecommunications Act of 1996, and the Federal Rules of Civil Procedure \u2014 all point unmistakably in the same direction, yet the Court marches resolutely the other way. Whether the Court\u2019s actions will benefit only defendants in antitrust treble-damages cases, or whether its test for the sufficiency of a complaint will inure to the benefit of all civil defendants, is a question that the future will answer. But that the Court has announced a significant new rule that does not even purport to respond to any congressional command is glaringly obvious.\nThe transparent policy concern that drives the decision is the interest in protecting antitrust defendants \u2014 who in this case are some of the wealthiest corporations in our economy \u2014 from the burdens of pretrial discovery. Ante, at 558-560. Even if it were not apparent that the legal fees petitioners have incurred in arguing the merits of their Rule 12(b) motion have far exceeded the cost of limited discovery, or that those discovery costs would burden respondents as well as petitioners, that concern would not provide an adequate justification for this law-changing decision. For in the final analysis it is only a lack of confidence in the ability of trial judges to control discovery, buttressed by appellate judges\u2019 independent appraisal of the plausibility of profoundly serious factual allegations, that could account for this stark break from precedent.\nIf the allegation of conspiracy happens to be true, today\u2019s decision obstructs the congressional policy favoring competition that undergirds both the Telecommunications Act of 1996 and the Sherman Act itself. More importantly, even if there is abundant evidence that the allegation is untrue, directing that the case be dismissed without even looking at any of that evidence marks a fundamental \u2014 and unjustified\u2014 change in the character of pretrial practice.\nAccordingly, I respectfully dissent.\nSee 9 W. Holdsworth, History of English Law 324-327 (1926).\nGulfstream Aerospace Corp. v. Mayacamas Corp., 485 U. S. 271, 283 (1988).\nThe Federal Rules do impose a \u201cparticularity\u201d requirement on \u201call averments of fraud or mistake,\u201d Fed. Rule Civ. Proc. 9(b), neither of which has been alleged in this case. We have recognized that the canon of ex-presio unius est exclusio alterius applies to Rule 9(b). See Leatherman v. Tarrant County Narcotics Intelligence and Coordination Unit, 507 U. S. 163, 168 (1993).\nSEC v. Zandford, 535 U. S. 813, 818 (2002); Davis v. Monroe County Bd. of Ed., 526 U. S. 629, 654 (1999); Hartford Fire Ins. Co. v. California, 509 U. S. 764, 811 (1993); Brower v. County of Inyo, 489 U. S. 593, 598 (1989); Hughes v. Rowe, 449 U. S. 5, 10 (1980) (per curiam); McLain v. Real Estate Bd. of New Orleans, Inc., 444 U. S. 232, 246 (1980); Estelle v. Gamble, 429 U. S. 97, 106 (1976); Hospital Building Co. v. Trustees of Rex Hospital, 425 U. S. 738, 746 (1976); Scheuer v. Rhodes, 416 U. S. 232, 236 (1974); Cruz v. Beto, 405 U. S. 319, 322 (1972) (per curiam); Haines v. Kerner, 404 U. S. 519, 521 (1972) (per curiam); Jenkins v. McKeithen, 395 U. S. 411, 422 (1969) (plurality opinion); see also Cleveland Bd. of Ed. v. Loudermill, 470 U. S. 532, 554 (1985) (Brennan, J., concurring in part and dissenting in part); Hoover v. Ronwin, 466 U. S. 558, 587 (1984) (Stevens, J., dissenting); United Air Lines, Inc. v. Evans, 431 U. S. 553, 561, n. 1 (1977) (Marshall, J., dissenting); Simon v. Eastern Ky. Welfare Rights Organization, 426 U. S. 26, 55, n. 6 (1976) (Brennan, J., concurring in judgment).\nSee, e. g., EB Invs., LLC v. Atlantis Development, Inc., 930 So. 2d 502, 507 (Ala. 2005); Department of Health & Social Servs. v. Native Village of Curyung, 151 P. 3d 388, 396 (Alaska 2006); Newman v. Maricopa Cty., 167 Ariz. 501, 503, 808 P. 2d 1253, 1255 (App. 1991); Public Serv. Co. of Colo. v. Van Wyk, 27 P. 3d 377, 385-386 (Colo. 2001) (en banc); Clawson v. St. Louis Post-Dispatch, LLC, 906 A. 2d 308, 312 (D. C. 2006); Hillman Constr. Corp. v. Wainer, 636 So. 2d 576, 578 (Fla. App. 1994); Kaplan v. Kaplan, 266 Ga. 612, 613, 469 S. E. 2d 198, 199 (1996); Wright v. Home Depot U. S. A, Inc., 111 Haw. 401, 406, 142 P. 3d 265, 270 (2006); Taylor v. Maile, 142 Idaho 253, 257, 127 P. 3d 156, 160 (2005); Fink v. Bryant, 2001-CC-0987, p. 4 (La. 11/28/01), 801 So. 2d 346, 349; Gagne v. Cianbro Corp., 431 A. 2d 1313, 1318-1319 (Me. 1981); Gasior v. Massachusetts Gen. Hospital, 446 Mass. 645, 647, 846 N. E. 2d 1133, 1135 (2006); Ralph Walker, Inc. v. Gallagher, 926 So. 2d 890, 893 (Miss. 2006); Jones v. Montana Univ. System, 337 Mont. 1, 7, 155 P. 3d 1247, 1252 (2007); Johnston v. Nebraska Dept. of Correctional Servs., 270 Neb. 987, 989, 709 N. W. 2d 321, 324 (2006); Blackjack Bonding v. Las Vegas Munic. Ct., 116 Nev. 1213, 1217, 14 P. 3d 1275, 1278 (2000); Shepard v. Ocwen Fed. Bank, 361 N. C. 137, 139, 638 S. E. 2d 197, 199 (2006); Rose v. United Equitable Ins. Co., 2001 ND 154, \u00b6 10,632 N. W. 2d 429, 434; State ex rel. Turner v. Houk, 112 Ohio St. 3d 561, 562, 2007-Ohio-814, \u00b65, 862 N. E. 2d 104, 105 (per curiam); Moneypenney v. Dawson, 2006 OK 53, \u00b6 2, 141 P. 3d 549, 551; Gagnon v. State, 570 A. 2d 656, 659 (R. I.1990); Osloond v. Farrier, 2003 SD 28, \u00b6 4, 659 N. W. 2d 20, 22 (per curiam); Smith v. Lincoln Brass Works, Inc., 712 S. W. 2d 470, 471 (Tenn. 1986); Association of Haystack Property Owners, Inc. v. Sprague, 145 Vt. 443, 446, 494 A. 2d 122, 124 (1985); In re Coday, 156 Wash. 2d 485, 497, 130 P. 3d 809, 815 (2006) (en banc); Haines v. Hampshire Cty. Comm\u2019n, 216 W. Va. 499, 502, 607 S. E. 2d 828, 831 (2004); Warren v. Hart, 747 P. 2d 511, 512 (Wyo. 1987); see also Malpiede v. Townson, 780 A. 2d 1075, 1082-1083 (Del. 2001) (permitting dismissal only \u201cwhere the court determines with reasonable certainty that the plaintiff could prevail on no set of facts that may be inferred from the well-pleaded allegations in the complaint\u201d (internal quotation marks omitted)); Canel v. Topinka, 212 Ill. 2d 311, 318, 818 N. E. 2d 311, 317 (2004) (replacing \u201cappears beyond doubt\u201d in the Conley formulation with \u201cis clearly apparent\u201d); In re Young, 522 N. E. 2d 386, 388 (Ind. 1988) (per curiam) (replacing \u201cappears beyond doubt\u201d with \u201cappears to a certainty\u201d); Barkema v. Williams Pipeline Co., 666 N. W. 2d 612, 614 (Iowa 2003) (holding that a motion to dismiss should be sustained \u201conly when there exists no conceivable set of facts entitling the non-moving party to relief\u201d); Pioneer Village v. Bullitt Cty., 104 S. W. 3d 757, 759 (Ky. 2003) (holding that judgment on the pleadings should be granted \u201cif it appears beyond doubt that the nonmoving party cannot prove any set of facts that would entitle him/her to relief\u201d); Corley v. Detroit Bd. of Ed., 470 Mich. 274, 277, 681 N. W. 2d 342, 345 (2004) (per curiam) (holding that a motion for judgment on the pleadings should be granted only \u201c \u2018if no factual development could possibly justify recovery\u2019 \u201d); Oberkramer v. EUisville, 706 S. W. 2d 440, 441 (Mo. 1986) (en banc) (omitting the words \u201cbeyond doubt\u201d from the Conley formulation); Colman v. Utah State Land Bd., 795 P. 2d 622, 624 (Utah 1990) (holding that a motion to dismiss is appropriate \u201conly if it clearly appears that [the plaintiff] can prove no set of facts in support of his claim\u201d); NRC Management Servs. Corp. v. First Va. Bank-Southwest, 63 Va. Cir. 68, 70 (2003) (\u201cThe Virginia standard is identical [to the Conley formulation], though the Supreme Court of Virginia may not have used the same words to describe it\u201d).\nThe majority is correct to say that what the Federal Rules require is a \u201c \u2018showing\u2019 \u201d of entitlement to relief. Ante, at 555, n. 3. Whether and to what extent that \u201cshowing\u201d requires allegations of fact will depend on the particulars of the claim. For example, had the amended complaint in this case alleged only parallel conduct, it would not have made the required \u201cshowing.\u201d See supra, at 570-571. Similarly, had the pleadings contained only an allegation of agreement, without specifying the nature or object of that agreement, they would have been susceptible to the charge that they did not provide sufficient notice that the defendants may answer intelligently. Omissions of that sort instance the type of \u201cbareness\u201d with which the Federal Rules are concerned. A plaintiff\u2019s inability to persuade a district court that the allegations actually included in her complaint are \u201cplausible\u201d is an altogether different kind of failing, and one that should not be fatal at the pleading stage.\nSee also 5 Wright & Miller \u00a7 1202, at 89-90 (\u201c[PJleadings under the rules simply may be a general summary of the party\u2019s position that is sufficient to advise the other party of the event being sued upon, to provide some guidance in a subsequent proceeding as to what was decided for purposes of res judicata and collateral estoppel, and to indicate whether the case should be tried to the court or to a jury. No more is demanded of the pleadings than this; indeed, history shows that no more can be performed successfully by the pleadings\u201d (footnotes omitted)).\nOur decision in Dura Pharmaceuticals, Inc. v. Broudo, 544 U. S. 336 (2005), is not to the contrary. There, the plaintiffs failed adequately to allege loss causation, a required element in a private securities fraud action. Because it alleged nothing more than that the prices of the securities the plaintiffs purchased were artificially inflated, the Dura complaint failed to \u201cprovid[e] the defendants with notice of what the relevant economic loss might be or of what the causal connection might be between that loss and the [alleged] misrepresentation.\u201d Id., at 347. Here, the failure the majority identifies is not a failure of notice \u2014 which \u201cnotice pleading\u201d rightly condemns \u2014 but rather a failure to satisfy the Court that the agreement alleged might plausibly have occurred. That being a question not of notice but of proof, it should not be answered without first hearing from the defendants (as apart from their lawyers).\nSimilarly, in Associated Gen. Contractors of Cal., Inc. v. Carpenters, 459 U. S. 519 (1983), in which we also found an antitrust complaint wanting, the problem was not that the injuries the plaintiffs alleged failed to satisfy some threshold of plausibility, but rather that the injuries as alleged were not \u201cthe type that the antitrust statute was intended to forestall.\u201d Id., at 540; see id., at 526 (\u201cAs the case comes to us, we must assume that the Union can prove the facts alleged in its amended complaint. It is not, however, proper to assume that the Union can prove facts that it has not alleged or that the defendants have violated the antitrust laws in ways that have not been alleged\u201d).\nThe Court suggests that the allegation of an agreement, even if credited, might not give the notice required by Rule 8 because it lacks specificity. Ante, at 565, n. 10. The remedy for an allegation lacking sufficient specificity to provide adequate notice is, of course, a Rule 12(e) motion for a more definite statement. See Swierkiewicz v. Sorema N. A, 534 U. S. 506, 514 (2002). Petitioners made no such motion and indeed have conceded that \u201c[o]ur problem with the current complaint is not a lack of specificity, it\u2019s quite specific.\u201d Tr. of Oral Arg. 14. Thus, the fact that \u201cthe pleadings mentioned no specific time, place, or persons involved in the alleged conspiracies,\u201d ante, at 565, n. 10, is, for our purposes, academic.\nThe Court describes my reference to the allegation that the defendants belong to various trade associations as \u201cplayfully\u201d suggesting that the defendants conspired to restrain trade. Ante, at 567, n. 12. Quite the contrary: An allegation that competitors meet on a regular basis, like the allegations of parallel conduct, is consistent with \u2014 though not sufficient to prove \u2014 the plaintiffs\u2019 entirely serious and unequivocal allegation that the defendants entered into an unlawful agreement. Indeed, if it were true that the plaintiffs \u201crest their \u00a7 1 claim on descriptions of parallel conduct and not on any independent allegation of actual agreement among the ILECs,\u201d ante, at 564, there would have been no purpose in including a reference to the trade association meetings in the amended complaint.\nIt is ironic that the Court seeks to justify its decision to draw factual inferences in the defendants\u2019 favor at the pleading stage by citing to a rule of evidence, ante, at 568, n. 13. Under Federal Rule of Evidence 201(b), a judicially noticed fact \u201cmust be one not subject to reasonable dispute in that it is either (1) generally known within the territorial jurisdiction of the trial court or (2) capable of accurate and ready determination by resort to sources whose accuracy cannot reasonably be questioned.\u201d Whether Notebaert's statements constitute evidence of a conspiracy is hardly beyond reasonable dispute.\nThe Court worries that a defendant seeking to respond to this \u201cconclusory\u201d allegation \u201cwould have little idea where to begin.\u201d Ante, at 565, n. 10. A defendant could, of course, begin by either denying or admitting the charge.\nThe potential for \u201csprawling, costly, and hugely time-consuming\u201d discovery, ante, at 560, n. 6, is no reason to throw the baby out with the bathwater. The Court vastly underestimates a district court\u2019s case-management arsenal. Before discovery even begins, the court may grant a defendant\u2019s Rule 12(e) motion; Rule 7(a) permits a trial court to order a plaintiff to reply to a defendant\u2019s answer, see Crawford-El v. Britton, 523 U. S. 574, 598 (1998); and Rule 23 requires \u201crigorous analysis\u201d to ensure that class certification is appropriate, General Telephone Co. of Southwest v. Falcon, 457 U. S. 147, 161 (1982); see In re Initial Public Offering Securities Litigation, 471 F. 3d 24 (CA2 2006) (holding that a district court may not certify a class without ruling that each Rule 23 requirement is met, even if a requirement overlaps with a merits issue). Rule 16 invests a trial judge with the power, backed by sanctions, to regulate pretrial proceedings via conferences and scheduling orders, at which the parties may discuss, inter alia, \u201cthe elimination of frivolous claims or defenses,\u201d Rule 16(c)(1); \u201cthe necessity or desirability of amendments to the pleadings,\u201d Rule 16(c)(2); \u201cthe control and scheduling of discovery,\u201d Rule 16(c)(6); and \u201cthe need for adopting special procedures for managing potentially difficult or protracted actions that may involve complex issues, multiple parties, difficult legal questions, or unusual proof problems,\u201d Rule 16(c)(12). Subsequently, Rule 26 confers broad discretion to control the combination of interrogatories, requests for admissions, production requests, and depositions permitted in a given case; the sequence in which such discovery devices may be deployed; and the limitations imposed upon them. See 523 U. S., at 598-599. Indeed, Rule 26(c) specifically permits a court to take actions \u201cto protect a party or person from annoyance, embarrassment, oppression, or undue burden or expense\u201d by, for example, disallowing a particular discovery request, setting appropriate terms and conditions, or limiting its scope.\nIn short, the Federal Rules contemplate that pretrial matters will be settled through a flexible process of give and take, of proffers, stipulations, and stonewalls, not by having trial judges screen allegations for their plausibility vel non without requiring an answer from the defendant. See Societe Internationale pour Participations Industrielles et Commerciales, S. A. v. Rogers, 357 U. S. 197, 206 (1958) (\u201cRule 34 is sufficiently flexible to be adapted to the exigencies of particular litigation\u201d). And should it become apparent over the course of litigation that a plaintiff\u2019s filings bespeak an in terrorem suit, the district court has at its call its own in terrorem device, in the form of a wide array of Rule 11 sanctions. See Rules 11(b), (c) (authorizing sanctions if a suit is presented \u2018Tor any improper purpose, such as to harass or to cause unnecessary delay or needless increase in the cost of litigation\u201d); see Business Guides, Inc. v. Chromatic Communications Enterprises, Inc., 498 U. S. 533 (1991) (holding that Rule 11 applies to a represented party who signs a pleading, motion, or other papers, as well as to attorneys); Atkins v. Fischer, 232 F. R. D. 116, 126 (DC 2005) (\u201cAs possible sanctions pursuant to Rule 11, the court has an arsenal of options at its disposal\u201d).\nGiven his \u201cbackground in antitrust law,\u201d ante, at 560, n. 6, Judge Easterbrook has recognized that the most effective solution to discovery abuse lies in the legislative and rulemaking arenas. He has suggested that the remedy for the ills he complains of requires a revolution in the rules of civil procedure:\n\u201cPerhaps a system in which judges pare away issues and focus [on] investigation is too radical to contemplate in this country \u2014 although it prevailed here before 1938, when the Federal Rules of Civil Procedure were adopted. The change could not be accomplished without abandoning notice pleading, increasing the number of judicial officers, and giving them more authority.... If we are to rule out judge-directed discovery, however, we must be prepared to pay the piper. Part of the price is the high cost of unnecessary discovery \u2014 impositional and otherwise.\u201d Discovery as Abuse, 69 B. U. L. Rev. 635, 645 (1989).\nIt would be quite wrong, of course, to assume that dismissal of an antitrust case after discovery is costless to plaintiff's. See Fed. Rule Civ. Proc. 54(d)(1) (\u201c[C]osts other than attorneys\u2019 fees shall be allowed as of course to the prevailing party unless the court .otherwise directs\u201d).",
+        "type": "dissent",
+        "author": "Justice Stevens,"
+      }
+    ],
+    "attorneys": [
+      "Michael K. Kellogg argued the cause for petitioners. With him on the briefs were Mark C. Hansen, Aaron M. Panner, Richard G. Taranto, Stephen M. Shapiro, Kenneth S. Getter, Richard J. Favretto, Timothy Beyer, J. Henry Walker, Marc W. F Galonsky, John Thorne, Paul J. Larkin, Jr., David E. Wheeler, Dan K. Webb, Cynthia P. Delaney, Javier Aguilar, and William M. Schur.",
+      "Assistant Attorney General Barnett argued the cause for the United States as amicus curiae urging reversal. With him on the brief were Solicitor General Clement, Deputy Solicitor General Hungar, Deanne E. Maynard, Catherine G. O\u2019Sullivan, James J. O\u2019Connell, Jr., and Hill B. Wellford.",
+      "J. Douglas Richards argued the cause for respondents. With him on the brief was Michael M. Buchman."
+    ],
+    "corrections": "",
+    "head_matter": "BELL ATLANTIC CORP. et al. v. TWOMBLY et al.\nNo. 05-1126.\nArgued November 27, 2006\nDecided May 21, 2007\nSouter, J., delivered the opinion of the Court, in which Roberts, C. J., and Scalia, Kennedy, Thomas, Breyer, and Auto, JJ., joined. Stevens, J., filed a dissenting opinion, in which Ginsburg, J., joined, except as to Part IV, post, p. 570.\nMichael K. Kellogg argued the cause for petitioners. With him on the briefs were Mark C. Hansen, Aaron M. Panner, Richard G. Taranto, Stephen M. Shapiro, Kenneth S. Getter, Richard J. Favretto, Timothy Beyer, J. Henry Walker, Marc W. F Galonsky, John Thorne, Paul J. Larkin, Jr., David E. Wheeler, Dan K. Webb, Cynthia P. Delaney, Javier Aguilar, and William M. Schur.\nAssistant Attorney General Barnett argued the cause for the United States as amicus curiae urging reversal. With him on the brief were Solicitor General Clement, Deputy Solicitor General Hungar, Deanne E. Maynard, Catherine G. O\u2019Sullivan, James J. O\u2019Connell, Jr., and Hill B. Wellford.\nJ. Douglas Richards argued the cause for respondents. With him on the brief was Michael M. Buchman.\nBriefs of amici curiae urging reversal were filed for the Commonwealth of Virginia by Robert F. McDonnell, Attorney General of Virginia, William E. Thro, State Solicitor General, Stephen R. McCullough, Deputy State Solicitor General, William C. Mims, Chief Deputy Attorney General, and Sarah Oxenham Allen, Assistant Attorney General, by Orville B. Fitch II, Deputy Attorney General of New Hampshire, and by the Attorneys General for their respective States as follows: Troy King of Alabama, John Suthers of Colorado, Lawrence G. Wasden of Idaho, Steve Carter of Indiana, Phill Kline of Kansas, Michael A. Cox of Michigan, Jon Pruning of Nebraska, Wayne Stenehjem of North Dakota, W. A Drew Edmondson of Oklahoma, Thomas W. Corbett, Jr., of Pennsylvania, Patrick C. Lynch of Rhode Island, Larry Long of South Dakota, Paul G. Summers of Tennessee, and Mark L. Shurtleff of Utah; for the American Petroleum Institute by Robert A Long, Theodore P. Metzler, Harry M. Ng, and Douglas W. Morris; for the Chamber of Commerce of the United States of America et al. by Roy T. Englert, Jr., Donald J. Russell, Matthew R. Segal, John T. Whatley, Robin S. Conrad, Amar D. Sarwal, Michael Field Altschul, Jan S. Amundson, Quentin Riegel, Peter B. Kenney, Jr., Mark S. Popofsky, Guy Stephenson, Kathryn Fewell, and Saul P. Morgenstem; for Legal Scholars by Max Huffman; and for MasterCard International Inc. et al. by Timothy J. Muris, Jonathan D. Hacker, and Rebecca H. Farrington.\nParker C. Folse III filed a brief for the American Antitrust Institute as amicus curiae urging affirmance.\nBriefs of amici curiae were filed for the American Bar Association by Karen J. Mathis, Joseph Angland, and Roxann E. Henry; for Economists by R. Hewitt Pate; and for Debra Lyn Bassett et al. by Erie Alan Isaac-son and Christopher M. Burke."
+  },
+  "file_name": "0544-01",
+  "first_page_order": 594,
+  "last_page_order": 647
+}

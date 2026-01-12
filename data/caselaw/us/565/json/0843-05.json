@@ -1,0 +1,59 @@
+{
+  "id": 12203997,
+  "name": "Brown v. Massengill et al.",
+  "name_abbreviation": "Brown v. Massengill",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10666",
+  "first_page": "843",
+  "last_page": "843",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 843"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 75,
+    "ocr_confidence": 0.708,
+    "sha256": "84548cd9574e9679dda61abe1130c6a2daaaf119777d584d261a39d75392e378",
+    "simhash": "1:32c260604ddeb07f",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Brown v. Massengill et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10666.\nBrown v. Massengill et al."
+  },
+  "file_name": "0843-05",
+  "first_page_order": 925,
+  "last_page_order": 925
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5977734,
+  "name": "White v. Evans, Warden",
+  "name_abbreviation": "White v. Evans",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11390",
+  "first_page": "877",
+  "last_page": "877",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 877"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.624,
+    "sha256": "4b364e3fb3ac9e88017f99dbccbc03bea463073159f16ad8be39579f3f5d7a47",
+    "simhash": "1:268336b3ec9b4aa4",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "White v. Evans, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11390.\nWhite v. Evans, Warden."
+  },
+  "file_name": "0877-11",
+  "first_page_order": 899,
+  "last_page_order": 899
+}

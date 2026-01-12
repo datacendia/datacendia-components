@@ -1,0 +1,59 @@
+{
+  "id": 12429280,
+  "name": "Smith v. New York",
+  "name_abbreviation": "Smith v. New York",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-655",
+  "first_page": "1125",
+  "last_page": "1125",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1125"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 64,
+    "ocr_confidence": 0.746,
+    "sha256": "af89ec2d37ba22f69931d04d426a30805d3f316586f8cbdbafa4c22f79b8a405",
+    "simhash": "1:3cde0bd109112c52",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Smith v. New York."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-655.\nSmith v. New York."
+  },
+  "file_name": "1125-06",
+  "first_page_order": 1201,
+  "last_page_order": 1201
+}

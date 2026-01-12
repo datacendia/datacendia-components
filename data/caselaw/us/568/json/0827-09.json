@@ -1,0 +1,59 @@
+{
+  "id": 12410649,
+  "name": "Osburn v. Arkansas",
+  "name_abbreviation": "Osburn v. Arkansas",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-9025",
+  "first_page": "827",
+  "last_page": "827",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 827"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 67,
+    "ocr_confidence": 0.708,
+    "sha256": "e511c7d72cafd32ecd9ef69cbb13a67405d9f5b97bfd5894317bdbc22f6f84c8",
+    "simhash": "1:c41e4b849840569d",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Osburn v. Arkansas."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ark. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9025.\nOsburn v. Arkansas."
+  },
+  "file_name": "0827-09",
+  "first_page_order": 903,
+  "last_page_order": 903
+}

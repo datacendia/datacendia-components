@@ -1,0 +1,59 @@
+{
+  "id": 12410259,
+  "name": "Carmichael v. United States",
+  "name_abbreviation": "Carmichael v. United States",
+  "decision_date": "2012-06-18",
+  "docket_number": "No. 11-10381",
+  "first_page": "922",
+  "last_page": "922",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 922"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.672,
+    "sha256": "4032f066a80a56de3dce45c577999bc7273a0de3860044f8b08bea2b0ebc20af",
+    "simhash": "1:b58b8a79ceaddd3c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Carmichael v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10381.\nCarmichael v. United States."
+  },
+  "file_name": "0922-11",
+  "first_page_order": 826,
+  "last_page_order": 826
+}

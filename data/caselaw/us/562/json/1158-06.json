@@ -1,0 +1,59 @@
+{
+  "id": 6022001,
+  "name": "Saleh v. Davis, Warden",
+  "name_abbreviation": "Saleh v. Davis",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7677",
+  "first_page": "1158",
+  "last_page": "1158",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1158"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.624,
+    "sha256": "b1180465937f8fdba6e033d9ede585eac527b26d85ba6a441445043b17b5f342",
+    "simhash": "1:32841d9392c61b02",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Saleh v. Davis, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7677.\nSaleh v. Davis, Warden."
+  },
+  "file_name": "1158-06",
+  "first_page_order": 1180,
+  "last_page_order": 1180
+}

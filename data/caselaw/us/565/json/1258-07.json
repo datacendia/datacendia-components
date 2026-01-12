@@ -1,0 +1,59 @@
+{
+  "id": 12251335,
+  "name": "In re Jones",
+  "name_abbreviation": "In re Jones",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. 11-8759",
+  "first_page": "1258",
+  "last_page": "1258",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1258"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 64,
+    "ocr_confidence": 0.66,
+    "sha256": "0f317c5b9b1322242cc1e21147d8402b4ccf52dbdb955d8ce0cab91096a923fc",
+    "simhash": "1:4e48944028110059",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Jones."
+    ],
+    "opinions": [
+      {
+        "text": "Petition for writ of mandamus denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8759.\nIn re Jones."
+  },
+  "file_name": "1258-07",
+  "first_page_order": 1340,
+  "last_page_order": 1340
+}

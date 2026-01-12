@@ -1,0 +1,84 @@
+{
+  "id": 12413070,
+  "name": "In re Disbarment of Matthews",
+  "name_abbreviation": "In re Disbarment of Matthews",
+  "decision_date": "2012-08-13",
+  "docket_number": "No. D-2675",
+  "first_page": "959",
+  "last_page": "959",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 959"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "566 U. S. 973",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12212289,
+        12212226,
+        12212269,
+        12212238,
+        12212338,
+        12212312,
+        12212252
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/566/0973-05",
+        "/us/566/0973-01",
+        "/us/566/0973-04",
+        "/us/566/0973-02",
+        "/us/566/0973-07",
+        "/us/566/0973-06",
+        "/us/566/0973-03"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 109,
+    "ocr_confidence": 0.662,
+    "sha256": "7c0c1a245ae0d712972f6c18fb41df4d380942096f4bc00e9f8a9ef6af46bbdc",
+    "simhash": "1:b83cd9abfb52d2c7",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:46:21.325002+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Matthews."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see 566 U. S. 973.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2675.\nIn re Disbarment of Matthews."
+  },
+  "file_name": "0959-09",
+  "first_page_order": 863,
+  "last_page_order": 863
+}

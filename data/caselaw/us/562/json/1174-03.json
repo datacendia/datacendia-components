@@ -1,0 +1,61 @@
+{
+  "id": 5948598,
+  "name": "In re Gorbey",
+  "name_abbreviation": "In re Gorbey",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-6950",
+  "first_page": "1174",
+  "last_page": "1174",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1174"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 22,
+    "char_count": 155,
+    "ocr_confidence": 0.57,
+    "sha256": "9b4b93438c70fb95a765d14bb74a907b12e6e43fb1165652e70de203462985dc",
+    "simhash": "1:8cf7afc33decfe4e",
+    "word_count": 26
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "The Chief Justice took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "In re Gorbey,"
+    ],
+    "opinions": [
+      {
+        "text": "ante, p. 1028. Petition for rehearing denied.\nThe Chief Justice took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6950.\nIn re Gorbey,"
+  },
+  "file_name": "1174-03",
+  "first_page_order": 1196,
+  "last_page_order": 1196
+}

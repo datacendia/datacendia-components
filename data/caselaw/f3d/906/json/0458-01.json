@@ -1,0 +1,761 @@
+{
+  "id": 12518909,
+  "name": "UNITED STATES of America, Plaintiff-Appellee, v. Victor CASTANO, Defendant-Appellant.",
+  "name_abbreviation": "United States v. Castano",
+  "decision_date": "2018-10-15",
+  "docket_number": "No. 17-1458",
+  "first_page": "458",
+  "last_page": "468",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "906 F.3d 458"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "6th Cir.",
+    "id": 21296,
+    "name": "United States Court of Appeals for the Six Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "747 F.2d 1089",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        644257
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "1091"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/747/1089-01"
+      ]
+    },
+    {
+      "cite": "428 U.S. 106",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6176317
+      ],
+      "weight": 3,
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "120"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/428/0106-01"
+      ]
+    },
+    {
+      "cite": "819 F.3d 788",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4253963
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "794",
+          "parenthetical": "citing Singleton v. Wulff , 428 U.S. 106, 120, 96 S.Ct. 2868, 49 L.Ed.2d 826 (1976) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/819/0788-01"
+      ]
+    },
+    {
+      "cite": "92 L.Ed. 746",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "year": 1948,
+      "opinion_index": 0
+    },
+    {
+      "cite": "333 U.S. 364",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6157998
+      ],
+      "weight": 2,
+      "year": 1948,
+      "pin_cites": [
+        {
+          "page": "395"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/333/0364-01"
+      ]
+    },
+    {
+      "cite": "532 U.S. 234",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9301137
+      ],
+      "weight": 4,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "242",
+          "parenthetical": "quoting United States v. U.S. Gypsum Co. , 333 U.S. 364, 395, 68 S.Ct. 525, 92 L.Ed. 746 (1948) "
+        },
+        {
+          "parenthetical": "quoting United States v. U.S. Gypsum Co. , 333 U.S. 364, 395, 68 S.Ct. 525, 92 L.Ed. 746 (1948) "
+        },
+        {
+          "parenthetical": "quoting United States v. U.S. Gypsum Co. , 333 U.S. 364, 395, 68 S.Ct. 525, 92 L.Ed. 746 (1948) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/532/0234-01"
+      ]
+    },
+    {
+      "cite": "928 F.2d 733",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1138255
+      ],
+      "weight": 2,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "738"
+        },
+        {
+          "page": "738"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/928/0733-01"
+      ]
+    },
+    {
+      "cite": "527 U.S. 263",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1248336
+      ],
+      "weight": 5,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "281-82"
+        },
+        {
+          "page": "281"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/527/0263-01"
+      ]
+    },
+    {
+      "cite": "373 U.S. 83",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11716714
+      ],
+      "weight": 3,
+      "year": 1963,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/373/0083-01"
+      ]
+    },
+    {
+      "cite": "461 F.2d 912",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1329999
+      ],
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "917"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/461/0912-01"
+      ]
+    },
+    {
+      "cite": "915 F.2d 553",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10536405
+      ],
+      "weight": 2,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "555"
+        },
+        {
+          "page": "555",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/915/0553-01"
+      ]
+    },
+    {
+      "cite": "360 U.S. 264",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9052
+      ],
+      "weight": 5,
+      "year": 1959,
+      "pin_cites": [
+        {
+          "page": "269"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/360/0264-01"
+      ]
+    },
+    {
+      "cite": "405 U.S. 150",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11721534
+      ],
+      "weight": 5,
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "154"
+        },
+        {
+          "parenthetical": "quoting Napue , 360 U.S. at 269, 79 S.Ct. 1173 "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/405/0150-01"
+      ]
+    },
+    {
+      "cite": "722 F.3d 739",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4063100
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "750",
+          "parenthetical": "citing Giglio v. United States , 405 U.S. 150, 92 S.Ct. 763, 31 L.Ed.2d 104 (1972) ; Napue v. Illinois , 360 U.S. 264, 79 S.Ct. 1173, 3 L.Ed.2d 1217 (1959) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/722/0739-01"
+      ]
+    },
+    {
+      "cite": "294 U.S. 103",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3922727
+      ],
+      "weight": 5,
+      "year": 1935,
+      "pin_cites": [
+        {
+          "page": "112",
+          "parenthetical": "condemning \"deliberate deception of court and jury by the presentation of testimony known to be perjured\""
+        },
+        {
+          "parenthetical": "condemning \"deliberate deception of court and jury by the presentation of testimony known to be perjured\""
+        },
+        {
+          "parenthetical": "condemning \"deliberate deception of court and jury by the presentation of testimony known to be perjured\""
+        },
+        {
+          "page": "112"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/294/0103-01"
+      ]
+    },
+    {
+      "cite": "863 F.2d 218",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10525440
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "224"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/863/0218-01"
+      ]
+    },
+    {
+      "cite": "512 F.2d 221",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        158753
+      ],
+      "weight": 2,
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "229"
+        },
+        {
+          "page": "224"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/512/0221-01"
+      ]
+    },
+    {
+      "cite": "257 F.3d 636",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11085320
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "642-645"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/257/0636-01"
+      ]
+    },
+    {
+      "cite": "178 F.2d 896",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1162624
+      ],
+      "year": 1949,
+      "pin_cites": [
+        {
+          "page": "900",
+          "parenthetical": "cited in United States v. Willis , 257 F.3d 636, 642-645 (6th Cir. 2001) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/178/0896-01"
+      ]
+    },
+    {
+      "cite": "676 F.3d 249",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3757168
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "260"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/676/0249-01"
+      ]
+    },
+    {
+      "cite": "2000 WL 875369",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "*2",
+          "parenthetical": "\"Arguments that could have been raised on direct appeal are not properly brought in a coram nobis petition, which must be based on matters not appearing in the record.\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "864 F.2d 1056",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10534432
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "1062",
+          "parenthetical": "\"The issue that Osser brings at this late date should have been included in his direct appeal.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/864/1056-01"
+      ]
+    },
+    {
+      "cite": "235 U.S. 55",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3674804
+      ],
+      "weight": 3,
+      "year": 1914,
+      "pin_cites": [
+        {
+          "page": "69"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/235/0055-01"
+      ]
+    },
+    {
+      "cite": "907 F.2d 653",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10539300
+      ],
+      "weight": 4,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "658",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "658"
+        },
+        {
+          "page": "659",
+          "parenthetical": "citations omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/907/0653-01"
+      ]
+    },
+    {
+      "cite": "852 F.2d 199",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10542586
+      ],
+      "weight": 3,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "203-04"
+        },
+        {
+          "page": "202"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/852/0199-01"
+      ]
+    },
+    {
+      "cite": "888 F.2d 1145",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10537918
+      ],
+      "year": 1989,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/888/1145-01"
+      ]
+    },
+    {
+      "cite": "770 F.3d 1146",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4266907
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1147",
+          "parenthetical": "citing United States v. Bush , 888 F.2d 1145 (7th Cir. 1989) ; United States v. Keane , 852 F.2d 199 (7th Cir. 1988) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/770/1146-01"
+      ]
+    },
+    {
+      "cite": "532 U.S. 374",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9301278
+      ],
+      "weight": 5,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "382"
+        },
+        {
+          "page": "380"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/532/0374-01"
+      ]
+    },
+    {
+      "cite": "668 F.3d 368",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6048538
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "372"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/668/0368-01"
+      ]
+    },
+    {
+      "cite": "556 U.S. 904",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653448
+      ],
+      "weight": 8,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "916"
+        },
+        {
+          "page": "911"
+        },
+        {
+          "page": "917"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/556/0904-01"
+      ]
+    },
+    {
+      "cite": "98 L.Ed. 248",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "year": 1954,
+      "opinion_index": 0
+    },
+    {
+      "cite": "346 U.S. 502",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6931559
+      ],
+      "weight": 10,
+      "year": 1954,
+      "pin_cites": [
+        {
+          "page": "512"
+        },
+        {
+          "page": "511"
+        },
+        {
+          "page": "512"
+        },
+        {
+          "page": "511"
+        },
+        {
+          "page": "511"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/346/0502-01"
+      ]
+    },
+    {
+      "cite": "568 U.S. 342",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12407511
+      ],
+      "weight": 5,
+      "year": 2013,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/568/0342-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 2255",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "94 F.3d 227",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11326651
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "230"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/94/0227-01"
+      ]
+    },
+    {
+      "cite": "86 F.3d 564",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        452539
+      ],
+      "weight": 2,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "572"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/86/0564-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 922",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(g)(1)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1157,
+    "char_count": 26012,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2590878850465799
+    },
+    "sha256": "7a970b7ee0d44c9a68ee1fee3612188d583865ddbc378a7d15b257c5c89b391a",
+    "simhash": "1:3fa893601b1b56e7",
+    "word_count": 4294
+  },
+  "last_updated": "2024-02-27T18:46:07.237745+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before: GIBBONS, SUTTON, and McKEAGUE, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee,\nv.\nVictor CASTANO, Defendant-Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "McKEAGUE, Circuit Judge.\nIn 2006, a federal jury convicted Victor Castano of drug and firearms crimes. At a subsequent trial in 2015, Castano was convicted of suborning perjury and obstructing justice regarding the 2006 trial, among other crimes. He has yet to be sentenced for these latest convictions, but his impending sentence may be enhanced due to his 2006 felony convictions. Fearing such enhancement, Castano petitioned the district court for a writ of coram nobis to challenge his 2006 firearms conviction. The district court denied his petition, and we AFFIRM .\nI\nIn 2004, Victor Castano was stopped while driving a pickup truck with 50 pounds of marijuana in the truck bed and a loaded .44 Magnum revolver in the center console. Castano was indicted for (I) felon in possession of a firearm; (II) possession with intent to distribute marijuana; and (III) possession of a firearm during a drug trafficking crime. He pled guilty to Count II, and at the end of his 2006 trial, a jury convicted him of Counts I and III. On appeal, we vacated Count III, and the district court resentenced him to time served on Counts I and II.\nCastano is a member of the Devils Diciples [sic] Motorcycle Club (\"DDMC\"), as were most of the cast testifying at his 2006 trial. In subsequent interviews with the FBI, Castano admitted that he and other DDMC members procured two witnesses-Keith McFadden and Stella Herron-to give perjured testimony at Castano's 2006 trial. In 2011, Castano and the others were indicted for subornation of perjury and obstruction of justice and for conspiracy to distribute marijuana. In 2012, Castano and many of the same defendants were indicted in a massive, 52-defendant RICO conspiracy, with DDMC as the enterprise. Castano was tried in a single trial in 2015 on both indictments. He was convicted of subornation of perjury and obstruction of justice regarding his 2006 trial, as well as several conspiracy crimes. He has not yet been sentenced for his 2015 convictions.\nThe perjured testimony at Castano's 2006 trial went to whether Castano knew that the center console of the truck contained a gun, because a conviction for felon in possession of a firearm per 18 U.S.C. \u00a7 922(g)(1) requires a finding of knowing possession. United States v. Chesney , 86 F.3d 564, 572 (6th Cir. 1996). Vernon Rich, William Lonsby, Keith McFadden, and Stella Herron all offered testimony regarding possession of the truck and knowledge of the gun. Rich and Lonsby were called by the government. McFadden was a defense witness, and his girlfriend Herron, originally a defense witness, was instead called by the government as a hostile witness.\nWilliam \"Buckwheat\" Lonsby was the registered owner of the truck. When Castano was arrested, Lonsby \"panicked\" and told the FBI that he had taken the truck to the car wash and cleaned the interior, including the center console, and had not seen a gun. Lonsby also said that Castano picked up the truck from Lonsby's driveway while Lonsby was at work. At the 2006 trial, he testified that he loaned the truck to VanDiver, then washed and cleaned it, then loaned it to McFadden and Herron, and then loaned it to Castano. In fact, Lonsby never had possession of the truck, and he made up the car wash story to separate himself from the gun charge.\nVernon \"Vern\" Rich was a DDMC member and a close friend of Lonsby. Although Lonsby was the registered owner of the truck, Rich had paid for it and used it as his own. To support Lonsby, Rich told the FBI that the truck was in Lonsby's possession and that Castano had borrowed it from Lonsby's house. Rich maintained this version of events at the 2006 trial. In truth, Rich had been the one to loan the truck to Castano, and Castano left from Rich's house.\nKeith \"Gadget\" McFadden was a member of DDMC's Alabama chapter. In a 2010 interview with the FBI, McFadden revealed that the national president and vice-president of DDMC asked him to recruit his girlfriend, Herron, to take responsibility for the gun in Castano's truck because she had a concealed carry permit. When McFadden agreed, Castano gave him a photo of the gun so he and Herron could familiarize themselves with it. During the 2006 trial, McFadden and Herron stayed at Castano's house and rehearsed their testimony. At trial, McFadden testified that he borrowed the truck from Lonsby; that Herron purchased the gun in Alabama; that the gun belonged to both him and Herron; and that he did not tell Castano that the gun was in the truck.\nStella \"Star\" Herron was McFadden's girlfriend. During the 2006 trial, Castano's lawyer decided he would not call Herron, and he asked her to leave the courthouse. After Castano rested without calling Herron, the FBI found her in the courthouse parking lot and brought her in, and the prosecution called her to testify as a hostile witness. She stuck to the broad outline of McFadden's story. In truth, neither McFadden nor Herron ever had possession of the truck or the gun.\nIn an initial interview, Castano told the FBI that he did not know about the gun. He also said that he borrowed the truck from Rich's house. ( Id. ). The latter statement was later proven true. But after Lonsby testified that he loaned the truck to Castano, the other three witnesses followed suit, with the result that they all contradicted Castano's earlier statement that he borrowed the truck from Rich's house. The prosecution used this to question Castano's credibility.\nCastano has not yet been sentenced under his convictions from the 2015 trial. He filed a petition for writ of coram nobis from the district court, hoping to have his 2006 conviction for felon in possession vacated, so that it would not be used to enhance his impending sentence. The district court denied the petition, and Castano filed the instant appeal.\nII\nIn reviewing the district court's denial of Castano's coram nobis petition, we review legal determinations de novo and findings of fact for clear error. Blanton v. United States , 94 F.3d 227, 230 (6th Cir. 1996).\nA. Coram Nobis Generally\nThe writ of coram nobis \"provides a way to collaterally attack a criminal conviction for a person ... who is no longer 'in custody' and therefore cannot seek habeas relief under 28 U.S.C. \u00a7 2255 or \u00a7 2241.\" Chaidez v. United States , 568 U.S. 342, 345 n.1, 133 S.Ct. 1103, 185 L.Ed.2d 149 (2013). Coram nobis petitioners face a high burden. The writ of coram nobis is an \"extraordinary writ,\" used when necessary to redress errors \"of the most fundamental character.\" United States v. Morgan , 346 U.S. 502, 512, 74 S.Ct. 247, 98 L.Ed. 248 (1954). To protect the finality of judgments, coram nobis is limited to \"extreme cases\" in which there were \"fundamental flaws in the proceedings.\" United States v. Denedo , 556 U.S. 904, 916, 129 S.Ct. 2213, 173 L.Ed.2d 1235 (2009). It is presumed that the proceedings leading to the prior conviction were correct, and \"the burden rests on the accused to show otherwise.\" Morgan , 346 U.S. at 511, 74 S.Ct. 247. The petitioner must also demonstrate that correction of the error \"probably would have altered the outcome of the challenged proceeding.\" Pilla v. United States , 668 F.3d 368, 372 (6th Cir. 2012).\nBecause coram nobis is an extraordinary remedy, there are several limitations on its use. First, a writ of coram nobis will not issue when alternative remedies are available. Denedo , 556 U.S. at 911, 129 S.Ct. 2213. Prisoners in federal custody have access to habeas relief under Section 2255 and are barred from coram nobis relief. See id. ; Chaidez , 568 U.S. at 345 n.1, 133 S.Ct. 1103. But a prisoner in custody for a subsequent conviction cannot use Section 2255 to challenge a prior conviction for which the sentence has been served and under which the defendant is no longer \"in custody.\" Daniels v. United States , 532 U.S. 374, 382, 121 S.Ct. 1578, 149 L.Ed.2d 590 (2001). Therefore, Castano, who is in custody but wishes to challenge a prior conviction, has no alternative remedy to coram nobis .\nNext, coram nobis is only appropriate when necessary to remedy an ongoing civil disability. United States v. Waters , 770 F.3d 1146, 1147 (6th Cir. 2014) (citing United States v. Bush , 888 F.2d 1145 (7th Cir. 1989) ; United States v. Keane , 852 F.2d 199 (7th Cir. 1988) ). A qualifying civil disability must meet the following test:\nFirst, the disability must be causing a present harm; it is not enough to raise purely speculative harms or harms that occurred completely in the past. Second, the disability must arise out of the erroneous conviction. Third, the potential harm to the petitioner must be more than incidental.\nUnited States v. Craig , 907 F.2d 653, 658 (7th Cir. 1990) (emphasis added). One injury rising to the level of a civil disability is an enhanced penalty for a recidivist offender. See id. ; Daniels , 532 U.S. at 380, 121 S.Ct. 1578.\nThis requirement poses an issue for Castano because the enhanced sentence he fears has not yet been imposed, which means it is still a \"speculative\" harm. See Craig , 907 F.2d at 658. The 2006 conviction he challenges has appeared in his current presentence investigation report, and it forms the basis for a recommendation of a two-level enhancement as incorporated in his more recent RICO convictions. Coram nobis might be appropriate given a \"realistic threat\" that a conviction would produce a future disability. Keane , 852 F.2d at 203-04. One could argue that the conviction's appearance in the presentence report rises to the level of a \"realistic threat.\" On the other hand, the government argues that the sentencing judge has vast discretion to consider Castano's past relevant conduct even if one of his 2006 convictions is vacated, especially because the underlying conduct was the subject of testimony at Castano's 2015 trial. The Seventh Circuit has offered similar reasoning about the difference between conviction and conduct:\nThe Illinois disciplinary rules ... do not discipline lawyers solely for a conviction; they punish for the conduct underlying the conviction . A writ of error coram nobis could vacate Pappas's conviction, but it could not change the record. Although perhaps not illegal under [intervening Supreme Court precedent], Pappas's role in the scandal certainly provides grounds for his disbarment.\nCraig , 907 F.2d at 659 (citations omitted) (emphasis added). Ultimately, we need not reach the issue because Castano's petition fails on the merits. In the meantime, we assume, without holding, that Castano has an interest in having the felon-in-possession conviction vacated before sentencing.\nFinally, coram nobis relief is generally not appropriate for claims that could have been raised on direct appeal. When the Supreme Court reaffirmed the availability of coram nobis in Morgan , it held that a court must hear a coram nobis petition if \"sound reasons exist[ ] for failure to seek appropriate earlier relief.\" 346 U.S. at 512, 74 S.Ct. 247. This holding is grounded in the common-law history of the writ: \"Claims that could have been raised by direct appeal are outside the scope of the writ.\" Keane , 852 F.2d at 202 (quoting United States v. Mayer , 235 U.S. 55, 69, 35 S.Ct. 16, 59 L.Ed. 129 (1914) ). Later courts have followed this rule. See United States v. Osser , 864 F.2d 1056, 1062 (3rd Cir. 1988) (\"The issue that Osser brings at this late date should have been included in his direct appeal.\"); United States v. Richard , 2000 WL 875369, at *2 (6th Cir. Jun. 19, 2000) (\"Arguments that could have been raised on direct appeal are not properly brought in a coram nobis petition, which must be based on matters not appearing in the record.\"). This general rule, however, remains subject to the ultimate question of coram nobis , that is, whether granting the writ is necessary to achieve justice. See Morgan , 346 U.S. at 511, 74 S.Ct. 247 ; United States v. George , 676 F.3d 249, 260 (1st Cir. 2012). Castano's opportunities to seek earlier relief are addressed below.\nIn sum, in order to merit the extraordinary remedy of coram nobis , a petitioner must demonstrate an error of the most fundamental character that, if corrected, probably would have altered the outcome of the trial; the lack of alternative remedy; the existence of an ongoing civil disability; and sound reasons for failure to seek appropriate earlier relief. The ultimate question is whether extraordinary circumstances compel issuance of the writ to achieve justice. See Morgan , 346 U.S. at 511, 74 S.Ct. 247.\nIII\nCastano's petition ultimately fails because he has not shown fundamental error that would justify this extraordinary remedy, and he lacks sound reasons for failing to seek earlier appropriate relief. Castano raises three arguments on appeal: (1) he was convicted based on perjured testimony; (2) the government knowingly offered that perjured testimony; and (3) the government concealed evidence of Rich's criminal history, an FBI interview with Rich, and a set of pawn slips.\nA. Conviction on the Basis of Perjury\nCastano claims that he was convicted on the basis of perjury and asks that we apply our test for a motion for new trial based on the recantation of a government witness, enunciated in Gordon v. United States , 178 F.2d 896, 900 (6th Cir. 1949) (cited in United States v. Willis , 257 F.3d 636, 642-645 (6th Cir. 2001) ). We need not discuss Gordon , however, because we have already held that perjured testimony, without government knowledge, does not rise to the level of fundamental error correctible in a coram nobis proceeding:\nAn allegation of perjury, apart from an allegation of knowing use by the Government of that perjury, constitutes no basis for habeas corpus or coram nobis relief as it alleges no error of constitutional dimensions. The credibility of witnesses is ordinarily for trial by the jury in the criminal trial. False evidence and perjury are matters that may be raised on the trial and on motions for a new trial, but not in habeas corpus, Section 2255, or other post-conviction petitions.\nBurks v. Egeler , 512 F.2d 221, 229 (6th Cir. 1975) ; but see Sanders v. Sullivan , 863 F.2d 218, 224 (2nd Cir. 1988).\nB. Government Sponsorship of Perjury\nCastano also claims that the government knowingly sponsored the perjured testimony against him. This claim is a more plausible basis for coram nobis relief because the Supreme Court has held that knowing sponsorship of perjury and other false evidence by the government is a violation of due process. See Mooney v. Holohan , 294 U.S. 103, 112, 55 S.Ct. 340, 79 L.Ed. 791 (1935) (condemning \"deliberate deception of court and jury by the presentation of testimony known to be perjured\"). Nor may the state knowingly fail to correct false evidence when it appears. Stumpf v. Robinson , 722 F.3d 739, 750 (6th Cir. 2013) (citing Giglio v. United States , 405 U.S. 150, 92 S.Ct. 763, 31 L.Ed.2d 104 (1972) ; Napue v. Illinois , 360 U.S. 264, 79 S.Ct. 1173, 3 L.Ed.2d 1217 (1959) ). The \"heart\" of such a due process violation is \"state action.\" Burks , 512 F.2d at 224.\nThis claim fails on the merits. Though Castano spends many pages attempting to shame the prosecution into taking responsibility for his compatriots' perjury, concrete accusations are sparse. The only time Castano specifically alleges that the government sponsored perjury is when it called Stella Herron to the stand. As to the other witnesses, Castano does not specifically allege that the government knew about their perjury.\nIn his reply brief, Castano takes special exception to the idea that the government called Herron in order to discredit her testimony, reasoning that calling her while skeptical of her story is akin to sponsoring perjury. It is not. First, Castano fails to identify any concrete evidence that the government knew Herron was lying. Second, under Mooney , the government violates due process when it practices \"deliberate deception\" on the court by offering perjury. Mooney , 294 U.S. at 112, 55 S.Ct. 340. In this case, the government's purpose in calling Herron was hardly to deceive the court. The prosecutor made clear in his closing statement that he doubted her story: \"if you believe Stella Herron, why wouldn't her fingerprints be on that gun?\" R. 80, PID 1058. And again: \"[McFadden and Herron] were inconsistent on every detail of that night and the day after.\" R. 80, PID 1063.\nCastano also argues that \"the government may not call a witness for the sole purpose of impeaching her.\" Reply Br. 8. He reaches this conclusion by brazenly misconstruing United States v. Gomez-Gallardo , 915 F.2d 553, 555 (9th Cir. 1990), which actually bars calling a witness \"for the sole purpose of impeaching him with otherwise inadmissible evidence .\" Id. at 555 (emphasis added). In fact, Sixth Circuit and the Federal Rules of Evidence have long abolished the \"pernicious\" rule against impeaching one's own witness. United States v. Bryant , 461 F.2d 912, 917 (6th Cir. 1972) ; Fed. R. Evid. 607. Herron featured heavily in McFadden's testimony, which was offered to show why Castano would not know about the gun, so her personal recollections were material to the crime charged and the testimony already offered. The government was certainly entitled to call Herron to impeach McFadden's alibi testimony, as well as her own, by showing inconsistencies in their testimony.\nC. Failure to Disclose Evidence\nFinally, Castano asserts that the government failed to disclose exculpatory evidence, a violation of due process under Brady v. Maryland , 373 U.S. 83, 83 S.Ct. 1194, 10 L.Ed.2d 215 (1963). Brady violations involve a three-part test: \"The evidence at issue must be favorable to the accused, either because it is exculpatory or because it is impeaching; that evidence must have been suppressed by the State, either willfully or inadvertently; and prejudice must have ensued.\" Strickler v. Greene , 527 U.S. 263, 281-82, 119 S.Ct. 1936, 144 L.Ed.2d 286 (1999). Prejudice means that the \"nondisclosure was so serious that there is a reasonable probability that the suppressed evidence would have produced a different verdict.\" Id. at 281, 119 S.Ct. 1936. There can be no Brady violation where a defendant \"knew or should have known the essential facts permitting him to take advantage of any exculpatory information.\" United States v. Clark , 928 F.2d 733, 738 (6th Cir. 1991).\n1. Rich's Criminal History\nCastano asserts the government committed a Brady violation, first, by erroneously informing the judge that one of its witnesses, Vernon Rich, had no convictions for theft or dishonesty and no felony convictions within the previous 10 years. In fact, Rich had a 1990 conviction for habitually giving worthless checks, a 1991 conviction for larceny, and a 2005 conviction for \"concealing or misrepresenting a motor vehicle ID,\" which may arguably be a crime of dishonesty. Government suppression of these prior convictions could potentially violate Brady because they could be used to impeach Rich's testimony under Federal Rule of Evidence 609(a). See Giglio , 405 U.S. at 154, 92 S.Ct. 763 (1972) (quoting Napue , 360 U.S. at 269, 79 S.Ct. 1173 ) (allowing for the possibility of a Brady violation for nondisclosure of impeaching evidence when \"reliability of a given witness may [ ] be determinative of guilt or innocence\"). The prosecutor's mistaken remark, however, did not deprive Castano of that right.\nAs to the 1990 and 1991 convictions, the district court found that the prosecution provided the defense with an FBI printout of all of Rich's criminal history prior to 2005, which means that the defense had the same information the government had, even if the printout does not list the ultimate disposition of those incidents. Castano admitted to the district court that he received this printout before trial. This is not a Brady violation because the government did not suppress evidence in its possession and because Castano had the \"essential facts\" of Rich's indictments, from which the defense could have learned of his convictions. Clark , 928 F.2d at 738. As to Rich's 2005 conviction, it did not appear in the FBI printout, and the government cannot be accused of suppressing evidence it did not have.\n2. Rich's FBI Interview\nCastano also claims that the government suppressed a 2005 interview of Rich conducted by FBI Agent Fleming after the authorities raided Rich's house. Agent Fleming was also on Castano's case. The interview reveals that the authorities raided Rich's house and found firearms stored in Rich's garage. The interview also reports a statement by Rich that the truck Castano used in 2004 \"belonged to Rich.\" Castano argues that evidence Rich was a convicted felon and possessed firearms could have been used to impeach Rich and to show that others had access to the truck. Castano also claimed below that his attorney would have cross-examined Rich on ownership of the truck.\nThe district court found that Castano had the interview at least by the time of his direct appeal, and Castano failed to raise any Brady claims on appeal. If the district court's finding is correct, this aspect of Castano's coram nobis petition fails because he had no sound reasons for failing to seek earlier appropriate relief, per the requirements of coram nobis . We review the district court's finding for clear error, which requires a \"definite and firm conviction that a mistake has been committed.\" Easley v. Cromartie , 532 U.S. 234, 242, 121 S.Ct. 1452, 149 L.Ed.2d 430 (2001) (quoting United States v. U.S. Gypsum Co. , 333 U.S. 364, 395, 68 S.Ct. 525, 92 L.Ed. 746 (1948) ).\nThe district court found that the interview was attached to a letter sent by Castano's attorney to the government on June 1, 2006. In the letter, Castano's attorney complains that he had not previously seen the attached \"incident report,\" and he explicitly identifies it as \" Brady material.\" In response, Castano argues that the government attached the interview to the letter in 2014, in preparation for the DDMC trials, and that some other \"incident report\" from the St. Clair County Drug Task Force was originally attached in 2006. But Castano fails to include any such report in the 800-page appendix submitted on appeal. Nor do the markings from the later trials prove that the letter was not the original attachment. Castano's argument does not provide us with a \"definite and firm conviction that a mistake has been committed,\" and we do not find that the district court's conclusion was clearly erroneous. See Easley , 532 U.S. at 242, 121 S.Ct. 1452.\n3. VanDiver's Pawn Slips\nThe final Brady violation Castano alleges is that the government failed to disclose a set of three pawn slips belonging to Cary VanDiver, the existence of which is recorded in a 2002 indictment against VanDiver, two years before the events of this case. In Castano's petition before the district court, he mentions these pawn slips as evidence of VanDiver's ownership of the weapon, not because the gun in this case was the subject of a slip but apparently because it proves VanDiver owned guns in general. Castano did not, however, claim that the pawn slips were not disclosed to the defense or identify them as Brady materials. He also failed to raise the issue at the district court's evidentiary hearing. Therefore, the district court addressed them only in passing in its opinion. \"Issues not examined by the district court are ordinarily not considered on appeal.\" Solo v. United Parcel Service , 819 F.3d 788, 794 (6th Cir. 2016) (citing Singleton v. Wulff , 428 U.S. 106, 120, 96 S.Ct. 2868, 49 L.Ed.2d 826 (1976) ). We have no way to tell whether the pawn slips were disclosed because Castano did not develop the record or prompt a finding by the district court, and we need not consider the issue.\nFurthermore, there is no Brady violation because there was no prejudice. On appeal, Castano tries to connect the pawn slips to whether he knowingly possessed the gun, claiming that the slips demonstrate that others had access to the truck and that VanDiver could be connected to the gun in Castano's case. But he does not allege that the slips were found in the truck, and he does not allege that the gun in the truck was the subject of any of the slips. Furthermore, Lonsby testified that he loaned the truck to others \"all the time\" and that he loaned the truck regularly to VanDiver specifically. The slips are either immaterial or, at best, merely cumulative, helping to establish facts already well established at trial.\nIV\nFinding no error in the district court's denial of Castano's petition for a writ of coram nobis , we AFFIRM .\nIn Flippins v. United States , we stated that, in order to merit relief, a petitioner must show (1) an error of fact, (2) unknown at the time of trial, (3) that is of a fundamentally unjust character which probably would have altered the outcome of the challenged proceeding if it had been known. 747 F.2d 1089, 1091 (6th Cir. 1984). Though this summary captures the common-law history of the writ, it has grown long in the tooth. In 2009, the Supreme Court held that coram nobis is a tool to correct both legal and factual error. Denedo , 556 U.S. at 917, 129 S.Ct. 2213. Furthermore, a legal error will presumably always appear in the record, which calls into question the common-law coram nobis requirement that the error be unknown to the trial court at the time of trial. (On the other hand, whether the error is known at the time of trial may still affect whether the petitioner should have sought earlier appropriate relief, as is discussed below.)",
+        "type": "majority",
+        "author": "McKEAGUE, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "ON BRIEF: Richard G. Convertino, Thomas J. Gruscinski, CONVERTINO & ASSOCIATES, Plymouth, Michigan, for Appellant. Mark Chasteen, UNITED STATES ATTORNEY'S OFFICE, Detroit, Michigan, for Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee,\nv.\nVictor CASTANO, Defendant-Appellant.\nNo. 17-1458\nUnited States Court of Appeals, Sixth Circuit.\nDecided and Filed: October 15, 2018\nON BRIEF: Richard G. Convertino, Thomas J. Gruscinski, CONVERTINO & ASSOCIATES, Plymouth, Michigan, for Appellant. Mark Chasteen, UNITED STATES ATTORNEY'S OFFICE, Detroit, Michigan, for Appellee.\nBefore: GIBBONS, SUTTON, and McKEAGUE, Circuit Judges."
+  },
+  "file_name": "0458-01",
+  "first_page_order": 458,
+  "last_page_order": 468
+}

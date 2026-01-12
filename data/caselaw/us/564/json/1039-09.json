@@ -1,0 +1,59 @@
+{
+  "id": 4331561,
+  "name": "Leitch v. Merkley",
+  "name_abbreviation": "Leitch v. Merkley",
+  "decision_date": "2011-06-27",
+  "docket_number": "No. 10-1406",
+  "first_page": "1039",
+  "last_page": "1039",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1039"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 65,
+    "ocr_confidence": 0.568,
+    "sha256": "1f6400f0b72111d5168b2e05c833197129d5da1d9d9ed8fd9e522a631f8edae9",
+    "simhash": "1:8bc1aa036305e442",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Leitch v. Merkley."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ore. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1406.\nLeitch v. Merkley."
+  },
+  "file_name": "1039-09",
+  "first_page_order": 1033,
+  "last_page_order": 1033
+}

@@ -1,0 +1,61 @@
+{
+  "id": 12432899,
+  "name": "Ryan, Director, Arizona Department of Corrections v. Schad",
+  "name_abbreviation": "Ryan v. Schad",
+  "decision_date": "2013-03-05",
+  "docket_number": "No. 12A857",
+  "first_page": "1222",
+  "last_page": "1223",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1222"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 43,
+    "char_count": 399,
+    "ocr_confidence": 0.555,
+    "sha256": "f0944dad5d6e23aefea000b7c68d063a3a2e3edf082dd15dc07e7c60e8f40dbb",
+    "simhash": "1:74cd92690d889ae1",
+    "word_count": 66
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Scadia and Justice Alito would grant the application to vacate the stay of execution."
+    ],
+    "parties": [
+      "Ryan, Director, Arizona Department of Corrections v. Schad."
+    ],
+    "opinions": [
+      {
+        "text": "Application to vacate stay of execution of sentence of death entered by the United States Court of Appeals for the Ninth Circuit on March 1, 2013, presented to Justice Kennedy, and by him referred to the Court, denied.\nJustice Scadia and Justice Alito would grant the application to vacate the stay of execution.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "March 5, 2013\nNo. 12A857.\nRyan, Director, Arizona Department of Corrections v. Schad."
+  },
+  "file_name": "1222-02",
+  "first_page_order": 1298,
+  "last_page_order": 1299
+}

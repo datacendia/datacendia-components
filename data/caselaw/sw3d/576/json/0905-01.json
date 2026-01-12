@@ -1,0 +1,842 @@
+{
+  "id": 12660075,
+  "name": "James FULTON, Appellant v. The STATE of Texas, Appellee",
+  "name_abbreviation": "Fulton v. State",
+  "decision_date": "2019-06-19",
+  "docket_number": "NO. 12-18-00031-CR",
+  "first_page": "905",
+  "last_page": "929",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "576 S.W.3d 905"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex. App. Ct.",
+    "id": 30384,
+    "name": "Court of Appeals of Texas, Tyler"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "897 S.W.2d 361",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10009048
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "363-64"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/897/0361-01"
+      ]
+    },
+    {
+      "cite": "138 S.W.3d 351",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9221066
+      ],
+      "weight": 3,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "356"
+        },
+        {
+          "page": "357"
+        },
+        {
+          "page": "358",
+          "parenthetical": "\"But we do not hold here that Franklin had a constitutional right to ask the juror additional questions during trial.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/138/0351-01"
+      ]
+    },
+    {
+      "cite": "576 S.W.2d 43",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9925107
+      ],
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "45"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/576/0043-01"
+      ]
+    },
+    {
+      "cite": "982 S.W.2d 386",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        11783885
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "391"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/982/0386-01"
+      ]
+    },
+    {
+      "cite": "988 S.W.2d 230",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        11586362
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "232"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/988/0230-01"
+      ]
+    },
+    {
+      "cite": "491 S.W.3d 819",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6795017
+      ],
+      "weight": 3,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "828"
+        },
+        {
+          "page": "828-29"
+        },
+        {
+          "page": "833"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/491/0819-01"
+      ]
+    },
+    {
+      "cite": "233 S.W.3d 324",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8345085
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "331",
+          "parenthetical": "\"almost total deference\" should be given to fact findings supported by record, especially when they are based upon credibility and demeanor"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/233/0324-01"
+      ]
+    },
+    {
+      "cite": "182 S.W.3d 350",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8991493
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "354"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/182/0350-01"
+      ]
+    },
+    {
+      "cite": "57 S.W.3d 436",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9469219
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "440"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/57/0436-01"
+      ]
+    },
+    {
+      "cite": "101 S.W.3d 107",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9310229
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "110-11"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/101/0107-01"
+      ]
+    },
+    {
+      "cite": "23 S.W.3d 198",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11201071
+      ],
+      "pin_cites": [
+        {
+          "page": "208"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/23/0198-01"
+      ]
+    },
+    {
+      "cite": "163 S.W.3d 734",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8956858
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "740"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/163/0734-01"
+      ]
+    },
+    {
+      "cite": "9 S.W.3d 808",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11495619
+      ],
+      "weight": 2,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "812"
+        },
+        {
+          "page": "814"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/9/0808-01"
+      ]
+    },
+    {
+      "cite": "68 S.W.3d 640",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9443880
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "642"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/68/0640-01"
+      ]
+    },
+    {
+      "cite": "77 S.W.3d 828",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9415377
+      ],
+      "weight": 2,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "833"
+        },
+        {
+          "page": "833"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/77/0828-01"
+      ]
+    },
+    {
+      "cite": "466 U.S. 668",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6204802
+      ],
+      "weight": 15,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "694"
+        },
+        {
+          "page": "2068"
+        },
+        {
+          "page": "687"
+        },
+        {
+          "page": "2064"
+        },
+        {
+          "page": "694"
+        },
+        {
+          "page": "694"
+        },
+        {
+          "page": "694"
+        },
+        {
+          "page": "2068"
+        },
+        {
+          "page": "696"
+        },
+        {
+          "page": "694"
+        },
+        {
+          "page": "2068"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/466/0668-01"
+      ]
+    },
+    {
+      "cite": "2003 WL 21189757",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "pin_cites": [
+        {
+          "page": "*2"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "203 S.W.3d 448",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8461574
+      ],
+      "pin_cites": [
+        {
+          "page": "452"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/203/0448-01"
+      ]
+    },
+    {
+      "cite": "435 S.W.3d 280",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6927928
+      ],
+      "pin_cites": [
+        {
+          "page": "286"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/435/0280-01"
+      ]
+    },
+    {
+      "cite": "520 S.W.3d 616",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12382685,
+        12382694
+      ],
+      "weight": 13,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "624"
+        },
+        {
+          "page": "630"
+        },
+        {
+          "page": "628"
+        },
+        {
+          "page": "629-30"
+        },
+        {
+          "page": "625"
+        },
+        {
+          "page": "626"
+        },
+        {
+          "page": "630"
+        },
+        {
+          "page": "630"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/520/0616-01",
+        "/sw3d/520/0616-02"
+      ]
+    },
+    {
+      "cite": "235 S.W.3d 742",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8370424
+      ],
+      "weight": 2,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "753",
+          "parenthetical": "discussing \"substantial and unjustifiable risk\" in recklessness and criminal negligence"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/235/0742-01"
+      ]
+    },
+    {
+      "cite": "180 S.W.3d 150",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8995615
+      ],
+      "weight": 10,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "158",
+          "parenthetical": "Cochran, J., concurring"
+        },
+        {
+          "page": "158",
+          "parenthetical": "Cochran, J., concurring"
+        },
+        {
+          "page": "150"
+        },
+        {
+          "page": "151-153"
+        },
+        {
+          "page": "156"
+        },
+        {
+          "page": "156"
+        },
+        {
+          "page": "156"
+        },
+        {
+          "page": "156"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/180/0150-01"
+      ]
+    },
+    {
+      "cite": "412 S.W.3d 518",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7089494
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "520",
+          "parenthetical": "citing Jackson , 443 U.S. at 320, 99 S. Ct. at 2790 "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/412/0518-01"
+      ]
+    },
+    {
+      "cite": "369 S.W.3d 188",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7314359
+      ],
+      "weight": 21,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "192"
+        },
+        {
+          "page": "193"
+        },
+        {
+          "page": "193"
+        },
+        {
+          "page": "191"
+        },
+        {
+          "page": "194"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/369/0188-01"
+      ]
+    },
+    {
+      "cite": "443 U.S. 307",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6182418
+      ],
+      "weight": 5,
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "318-19"
+        },
+        {
+          "page": "2788-89"
+        },
+        {
+          "page": "320"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/443/0307-01"
+      ]
+    },
+    {
+      "cite": "416 S.W.3d 884",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7335274
+      ],
+      "weight": 2,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "888",
+          "parenthetical": "citing Jackson v. Virginia , 443 U.S. 307, 318-19, 99 S. Ct. 2781, 2788-89, 61 L.Ed.2d 560 (1979) "
+        },
+        {
+          "page": "888"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/416/0884-01"
+      ]
+    },
+    {
+      "cite": "Tex. Penal Code Ann. \u00a7 49.01",
+      "category": "laws:leg_statute",
+      "reporter": "Tex. Code Ann.",
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "(2)(A)(B)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "5 S.W.3d 292",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11549552
+      ],
+      "pin_cites": [
+        {
+          "page": "295-96"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw3d/5/0292-01"
+      ]
+    },
+    {
+      "cite": "676 S.W.2d 173",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9931430
+      ],
+      "pin_cites": [
+        {
+          "page": "176-77"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/676/0173-01"
+      ]
+    },
+    {
+      "cite": "520 S.W.3d 616",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12382685,
+        12382694
+      ],
+      "weight": 14,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "630"
+        },
+        {
+          "page": "628"
+        },
+        {
+          "page": "630"
+        },
+        {
+          "page": "628"
+        },
+        {
+          "page": "630"
+        },
+        {
+          "page": "625",
+          "parenthetical": "jury rationally could not have found appellant was speeding excessively where only evidence of appellant's speed was trooper's testimony that appellant was traveling \"significantly\" faster than thirty-six or thirty-seven miles per hour"
+        },
+        {
+          "page": "628, 630"
+        },
+        {
+          "page": "631"
+        },
+        {
+          "page": "630"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw3d/520/0616-01",
+        "/sw3d/520/0616-02"
+      ]
+    },
+    {
+      "cite": "235 S.W.3d 742",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8370424
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "753"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw3d/235/0742-01"
+      ]
+    },
+    {
+      "cite": "180 S.W.3d 150",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8995615
+      ],
+      "weight": 6,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "156"
+        },
+        {
+          "page": "155"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw3d/180/0150-01"
+      ]
+    },
+    {
+      "cite": "369 S.W.3d 188",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7314359
+      ],
+      "weight": 7,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "193"
+        },
+        {
+          "page": "191"
+        },
+        {
+          "page": "194"
+        },
+        {
+          "page": "193"
+        },
+        {
+          "page": "195",
+          "parenthetical": "refusing to address moral blameworthiness of cell phone use while driving partly because it is within purview of the legislature to criminalize conduct"
+        },
+        {
+          "page": "192"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw3d/369/0188-01"
+      ]
+    },
+    {
+      "cite": "416 S.W.3d 884",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7335274
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "888"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw3d/416/0884-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1910,
+    "char_count": 71843,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2651633357774913
+    },
+    "sha256": "2189b850481fb26d99f9823f0445cee3d4875cb5e940147a4e39c2e5f1f49c71",
+    "simhash": "1:5a28f3e0008457c6",
+    "word_count": 11757
+  },
+  "last_updated": "2024-02-27T16:13:40.523430+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "James FULTON, Appellant\nv.\nThe STATE of Texas, Appellee"
+    ],
+    "opinions": [
+      {
+        "text": "Brian Hoyle, Justice\nJames Fulton appeals his conviction for criminally negligent homicide. He raises three issues on appeal. We reverse and remand.\nBACKGROUND\nOn May 14, 2016, Appellant was driving his pickup truck in the inside westbound lane of Grande Boulevard, a four lane roadway in Tyler, Texas. Appellant failed to navigate a curve in the road, crossed a double yellow line, and drove into oncoming traffic. He collided head on with a small car in the eastbound outside lane, killing the driver, Haile Beasley, almost instantly. Appellant admitted to officers at the scene that he drank beer at dinner prior to the accident. Appellant stated that he was distracted by a deer in the wooded area off the roadway, which caused him to drive into oncoming traffic instead of negotiating the curve in the roadway. Approximately an hour after the accident, an officer administered standardized field sobriety tests. The officer noted two clues on the horizontal gaze nystagmus (HGN) test but did not detect any clues on the other tests. The officer ultimately determined that Appellant was not intoxicated. Officers asked Appellant to provide a blood or breath sample, but he refused. Officers released Appellant from the scene and later issued him a citation for failure to maintain a single lane.\nThe State indicted Appellant for criminally negligent homicide. Specifically, the indictment alleged that Appellant drove (1) at a speed greater than the posted speed limit, (2) after consuming alcohol, (3) into an oncoming lane of traffic. At trial, the State established that Appellant consumed between four and five beers earlier in the day while playing golf at The Cascades Country Club. Appellant left the golf course and went to dinner around 6:30 or 7:00 p.m. Appellant was seated at the restaurant around 8:00 p.m. and consumed two and one quarter 19.5 ounce beers and a plate of enchiladas. Appellant left the restaurant between 8:55 and 9:18 p.m. The collision occurred at approximately 9:30 p.m. Data retrieved from Appellant's vehicle indicated he was traveling approximately fifty miles per hour at impact and that he only applied his brakes at the moment of impact, if at all. Kirsten Woodard, who was driving in the inside eastbound lane of Grande Boulevard at the time of the accident, testified that Appellant traveled into her lane immediately prior to the crash, causing her to honk her horn and swerve to avoid him.\nThe State conceded that Appellant was not legally intoxicated at the time of the accident but argued that Appellant was impaired by alcohol. The State called expert witnesses to explain the effects of alcohol, such as difficulty with divided attention tasks, even at levels below legal intoxication.\nThe jury found Appellant \"guilty\" of criminally negligent homicide and found the allegation that he used or exhibited a deadly weapon during the commission of the offense to be \"true.\" At punishment, the State again called Woodard, who worked as a bartender at The Cascades. Woodard testified that Appellant came into the bar at The Cascades approximately a month after the accident. She testified that he and his friends ordered alcohol, and Appellant paid with his credit card. The State offered no evidence of prior convictions or other bad acts, but called members of Beasley's family to testify about the impact her death had on them. Appellant called several friends and family members to testify about his character and his remorse about the accident. The State emphasized Appellant's actions in returning to The Cascades and drinking alcohol after the accident both in cross examination of Appellant's witnesses and closing argument. The State asked the jury to sentence Appellant to seven years of imprisonment, but the jury returned a verdict of ten years imprisonment, the maximum sentence.\nAppellant's trial counsel filed a motion for a new trial alleging the State failed to provide him with a letter from Cynthia Davis, an employee of The Cascades, written in response to a subpoena from the State for records of Appellant's credit card transactions. The letter indicated that no records of Appellant using his credit card at The Cascades existed. In his motion, Appellant's trial counsel argued that this evidence was exculpatory, because Woodard testified specifically to seeing Appellant's name on the credit card used to pay for the drinks.\nAt a hearing on the motion, Appellant's new counsel questioned his trial counsel about the letter. Appellant's trial counsel testified that he was unaware that the letter existed, and that had he been aware of its existence, he would have impeached Woodard's testimony. State's counsel testified that he verbally made Appellant's counsel aware of the letter prior to trial, but did not provide Appellant's counsel with a written copy. The trial court found that the State verbally notified Appellant's counsel of the contents of the letter and the State's failure to give Appellant's counsel a written copy of the letter did not affect Appellant's substantial rights. Thus, the trial court denied Appellant's motion for a new trial. This appeal followed.\nSUFFICIENCY OF THE EVIDENCE\nIn Appellant's first issue, he complains that the evidence is insufficient to support the jury's verdict. Specifically, he argues that his actions on the night of the collision were not a gross deviation from an ordinary person's standard of care, which is required to sustain a conviction for criminally negligent homicide.\nStandard of Review and Applicable Law\nWhen reviewing the sufficiency of the evidence, we must view the evidence \"in the light most favorable to the verdict and determine whether, based on the evidence and reasonable inferences therefrom, a rational juror could have found the essential elements of the crime beyond a reasonable doubt.\" Anderson v. State , 416 S.W.3d 884, 888 (Tex. Crim. App. 2013) (citing Jackson v. Virginia , 443 U.S. 307, 318-19, 99 S. Ct. 2781, 2788-89, 61 L.Ed.2d 560 (1979) ). The jury is the sole judge of the credibility of witnesses and the weight to be given to their testimony, and an appellate court must not usurp this role by substituting its own judgment for that of the jury. Montgomery v. State , 369 S.W.3d 188, 192 (Tex. Crim. App. 2012). Our duty simply is to ensure that the evidence presented supports the jury's verdict and that the State presented a legally sufficient case for the offense charged. Id. When an appellate court is faced with a record supporting contradicting inferences, the court must presume that the jury resolved any such conflicts in favor of the verdict, even if not explicitly stated in the record. Id. \"Under this standard, evidence may be legally insufficient when the record contains either no evidence of an essential element, merely a modicum of evidence of one element, or if it conclusively establishes a reasonable doubt.\" Britain v. State , 412 S.W.3d 518, 520 (Tex. Crim. App. 2013) (citing Jackson , 443 U.S. at 320, 99 S. Ct. at 2790 ).\nTo support a conviction for criminally negligent homicide the State must prove that (1) the defendant's conduct caused the death of an individual; (2) the defendant ought to have been aware that there was a substantial and unjustifiable risk of death from his conduct; and (3) his failure to perceive the risk constituted a gross deviation from the standard of care an ordinary person would have exercised under like circumstances. Montgomery , 369 S.W.3d at 192-93 ; see also TEX. PENAL CODE ANN. \u00a7\u00a7 6.03(d), 19.05(a) (West 2011 and 2019). The circumstances are viewed from the standpoint of the actor at the time that the allegedly negligent act occurred. Montgomery , 369 S.W.3d at 193.\nCriminal negligence does not require proof of a defendant's subjective awareness of the risk of harm, but rather his awareness of the attendant circumstances leading to such a risk. Id. Criminal negligence occurs not when the actor is aware of a substantial risk and disregards it, but rather, when he fails to perceive the risk at all. See id.\nThere exists a legal distinction between criminal negligence and ordinary civil negligence. Id. \"Civil or 'simple' negligence 'means the failure to use ordinary care, that is, failing to do that which a person of ordinary prudence would have done under the same or similar circumstances or doing that which a person of ordinary prudence would not have done under the same or similar circumstances.' \" Tello v. State , 180 S.W.3d 150, 158 (Tex. Crim. App. 2005) (Cochran, J., concurring). Conversely, \"[c]onduct that constitutes criminal negligence involves a greater risk of harm to others, without any compensating social utility, than does simple negligence.\" Montgomery , 369 S.W.3d at 193. \"The carelessness required for criminal negligence is significantly higher than that for civil negligence; the seriousness of the negligence would be known by any reasonable person sharing the community's sense of right and wrong.\" Id. The risk must be \"substantial and unjustifiable,\" and the failure to perceive it must be a \"gross deviation\" from reasonable care as judged by general societal standards by ordinary people. Id. \"In finding a defendant criminally negligent, a jury is determining that the defendant's failure to perceive the associated risk is so great as to be worthy of a criminal punishment.\" Id. \"The degree of deviation from reasonable care 'is measured solely by the degree of negligence, not any element of actual awareness.' \" Id. (quoting Tello , 180 S.W.3d at 158 (Cochran, J., concurring)). \"Whether a defendant's conduct involves 'an extreme degree of risk' must be determined by the conduct itself and not by the resultant harm.\" Williams v. State , 235 S.W.3d 742, 753 (Tex. Crim. App. 2007) (discussing \"substantial and unjustifiable risk\" in recklessness and criminal negligence). \"Nor can criminal liability be predicated on every careless act merely because its carelessness results in death or injury to another.\" Id.\nQueeman, Montgomery, and Tello\nAppellant argues that the State failed to prove he acted with criminal negligence on the night of the accident. In support of his argument, he directs our attention to Queeman v. State , a recent court of criminal appeals decision analyzing the sufficiency of the evidence for criminally negligent homicide in the context of a traffic accident. 520 S.W.3d 616 (Tex. Crim. App. 2017).\nIn Queeman , the appellant rear ended another vehicle, killing one of its passengers. See id . at 619. The State alleged that the appellant's failure to control his speed and failure to maintain a proper distance between his vehicle and other traffic constituted criminal negligence. Id. at 624. The court held that the appellant's actions did not constitute a gross deviation from the usual standard of care while driving. Id. at 630. In so doing, the court compared the appellant's conduct to the conduct of the appellants in Montgomery and Tello , two cases wherein the court held the evidence to be sufficient to support a conviction for criminally negligent homicide.\nIn Montgomery , the appellant drove in the center lane of a three-lane service road adjacent to the interstate while talking on her cell phone. Montgomery , 369 S.W.3d at 191. After hanging up the phone, she realized that she missed the entrance ramp to the interstate that diverged from the left lane, and abruptly swerved into the left lane to try to exit the service road onto the interstate. Id . Her lane change occurred after she had already passed the \"safety barrier\"-the beginning of the solid-white-lined area on the pavement between the ramp and the service road. Id. This sudden, late lane change caused a three-vehicle accident in which a passenger in one of the vehicles was killed. Id. The appellant was convicted of criminally negligent homicide based on the State's evidence of her use of a cell phone, her unsafe lane change, and her failure to maintain a proper lookout. Id . In upholding the appellant's conviction, the court observed that she was driving slower than surrounding traffic, was past the \"safety barrier\" when she suddenly changed lanes, did not signal her lane change or look for surrounding traffic, and attempted to enter an on-ramp past its entrance. Id. at 194. The court held that a rational jury could have concluded that, under the circumstances proved at trial, the appellant was criminally negligent because she should have been aware of the substantial and unjustifiable risk created by her actions. Id. The court further held that her failure to appreciate such a risk, given the circumstances known to her at the time, was a gross deviation from the standard of care that an ordinary person would exercise under the same circumstances. Id.\nIn Tello , the appellant was convicted of criminally negligent homicide for failing to adequately secure a homemade trailer to his truck. Tello , 180 S.W.3d at 150. The appellant was towing a load of dirt on the trailer when it detached from the hitch on his truck and killed a pedestrian. Id. The court of criminal appeals determined that the evidence was sufficient because the appellant did not connect the trailer with safety chains as required by law and, moreover, failed to properly attach the trailer hitch, which did not lock properly because it had been hammered repeatedly in attempt to get it to latch. Id. at 151-153. The court held that the cumulative circumstances in the record presented a dangerous situation because an ordinary person would know that the trailer could detach in transit. Id. at 156. Moreover, the evidence supported the conclusion that the appellant was aware of the problems with the trailer, yet failed to perceive a substantial and unjustifiable risk of death from his conduct of knowingly using a faulty trailer hitch without safety chains on a public roadway. Id. at 156. The court held that the jury rationally found the appellant criminally negligent because his failure to perceive the substantial and unjustifiable risk of death was a gross deviation from the standard of care that an ordinary person would exercise under the circumstances. Id.\nIn Queeman , the court distinguished the appellant's conduct in Montgomery because no evidence suggested that the appellant in Queeman was engaging in any activity while driving that a reasonable person would know might distract him, nor did he make an unsafe driving maneuver that a reasonable driver would recognize was inherently risky. Queeman , 520 S.W.3d at 628. The court distinguished the appellant's conduct in Queeman from that of the appellant in Tello because nothing in the record demonstrated that he was on notice of any particular circumstance that an ordinary person would perceive as creating a substantial and unjustifiable risk and for which it would be a gross deviation from the ordinary standard of care to ignore. Id. at 629-30. In Queeman , the evidence at trial established that (1) the appellant rear ended the victim's vehicle causing it to overturn, (2) the victim's vehicle was stopped at the time of impact with its brake lights and turn signal illuminated, (3) the appellant was traveling faster than he claimed, and (4) the appellant did not apply his brakes until the point of impact. Id. at 625. However, the evidence did not quantify the appellant's pre impact speed. Id. The record merely established that he traveled faster than the thirty-six or thirty-seven miles per hour he claimed to have traveled. Id. The court concluded a rational jury could not find that the appellant was speeding excessively beyond the posted speed limit, because to do so would require speculation beyond what was shown by the evidence or what could be rationally inferred therefrom. Id. The court further noted that the jury rationally could have found that the appellant did not swerve to miss the victim, but it noted that nothing in the record established where the appellant was looking when the crash occurred, the reason for his inattentiveness, or the length of time he was inattentive. Id. at 626. Although the record supported a rational conclusion that the appellant was inattentive long enough for him to collide with the back corner of the victim's vehicle, nothing in the record demonstrated whether this was ordinary or gross inattentiveness that contributed to the collision. Id. This conduct, the court held, was a deviation from the ordinary standard of care required to satisfy civil negligence, but absent evidence of more egregious conduct, did not constitute a gross deviation from the standard of care required for criminal negligence. Id. at 630.\nAnalysis of Appellant's Conduct\nAppellant argues that his conduct, like the appellant in Queeman , does not rise to the standard of criminal negligence. He points out that he was not excessively speeding, and the State was unable to prove that he was distracted for an overly long period of time. Appellant also argues that the State failed to prove \"what society would regard as an acceptable amount to drink before driving.\" Further, he states that \"the State's assumption was that any impairment [while driving] (which arguably led to an accident) would constitute a deviation from ordinary standards of care so great that the criminal law should step in and impose a penalty.\"\nThe State presented evidence that Appellant consumed between four and five beers on the golf course earlier in the day, and consumed approximately forty four ounces of beer over the course of less than an hour and half at dinner. Approximately, ten to fifteen minutes after leaving the restaurant, Appellant caused the collision with Beasley. At trial, the State offered evidence that Appellant was impaired by the alcohol he consumed prior to the wreck. Dr. Michael Arambula testified that Appellant exhibited difficulty with the divided attention tasks necessary to safely operate a vehicle at the time of the crash. Arambula reviewed deposition testimony Appellant gave in a separate civil suit, in which Appellant testified that he was cautious about driving that day because of his alcohol consumption. Appellant further testified in the deposition that he was familiar with the roadway, and had driven after drinking too much at that particular restaurant in the past. Arambula opined that Appellant's failure to navigate the curve after becoming distracted, on a roadway he was familiar with, after drinking beer all day and at dinner, caused him to form the opinion that Appellant was under the influence and impaired on alcohol at the time of the accident. Arambula also considered that Appellant displayed two clues on the HGN test an hour after the accident, and that Appellant failed to react to Woodard's lights or horn prior to impact.\nScott Brown, a forensic scientist employed by the Texas Department of Public Safety (DPS), testified about the effects of alcohol on the human body. Brown opined that any amount of alcohol will make driving more difficult because driving requires divided attention tasking. Brown also testified to the typical rates of alcohol absorption and elimination. He testified that an average person who consumed three beers would reach a peak alcohol concentration of .06. He testified that an average person eliminates alcohol at a rate of .02 per hour.\nJimmy Jackson, a lieutenant with DPS, opined that Appellant was impaired based on the amount of alcohol he was known to have consumed on the evening in question. He testified that Appellant's inability to divert his attention back to roadway after becoming distracted by a deer, causing him to cross two lanes of traffic, indicated that he was having difficulty with the divided attention tasks attendant to operating a vehicle. Jackson testified that if he had been investigating the accident, he would have applied for a warrant for Appellant's blood, and that Appellant's refusal to consent to a blood draw indicated to him that Appellant was concerned he was intoxicated or \"borderline.\"\nIn addition to the testimony of Arambula, Brown, and Jackson, the State established that Appellant was familiar with the roadway, and did not react to Woodard's lights and horn. Taken together, the evidence allowed the jury to reasonably conclude that Appellant was impaired by alcohol at the time of the collision. This evidence distinguishes Appellant's case from the facts in Queeman . In Queeman , the court reasoned that\n... the State need not prove the reasons why a driver was inattentive in order to establish criminal negligence, we note here that there is nothing in this record to show that appellant was engaged in acts that might be characterized as grossly negligent in the context of his failure to control speed and failure to maintain a safe distance, such as talking on a cell phone, texting, or intoxication. Tragic consequences, as here, do not elevate ordinary negligence to criminal negligence. We conclude that appellant's failure to maintain a safe speed and proper distance are acts showing a deviation from the ordinary standard of care expected of drivers on our roads, but, without more, they do not rise to the level of a gross deviation from that standard of care and thus do not constitute criminally negligent homicide.\nQueeman , 520 S.W.3d at 630. Here, the State proved an act \"characterized as grossly negligent\" - drinking between four and five beers during the day, followed by drinking approximately forty four more ounces of beer at dinner, prior to driving. Our sister courts have held that driving after consuming alcohol or controlled substances without establishing intoxication can establish recklessness, a higher culpable mental state than criminal negligence. See Turner v. State , 435 S.W.3d 280, 286 (Tex. App.-Waco 2014, pet. ref'd) ; see also Rubio v. State , 203 S.W.3d 448, 452 (Tex. App.-El Paso 2006, pet. ref'd) (\"[T]he fact that one may legally drive after consuming alcohol does not prevent the State from alleging the driver was reckless in doing so.\"); Buie v. State , No. 03-02-00280-CR, 2003 WL 21189757, at *2 (Tex. App.-Austin May 22, 2003, no pet.) (mem. op.).\nWe must view the evidence in the light most favorable to the verdict and determine whether, based on the evidence and reasonable inferences therefrom, a rational juror could have found the essential elements of the crime beyond a reasonable doubt. Anderson , 416 S.W.3d at 888. In finding that Appellant was impaired at the time of the accident, the jury could have considered Appellant's (1) consumption of between four and five beers during the afternoon prior to the accident; (2) consumption of an additional forty four ounces of beer at dinner just prior to driving; (3) familiarity with the roadway; (4) failure to react to Woodard's horn and lights prior to the accident; (5) refusal to submit a blood or breath sample; and (6) exhibition of two clues on the HGN test an hour after the accident.\nWe hold that a rational jury could have found that Appellant was criminally negligent because he should have been aware that drinking such a substantial amount of alcohol prior to driving could cause him to be impaired. See Montgomery , 369 S.W.3d at 194 ; Tello , 180 S.W.3d at 156. Further, the jury could reasonably have found that Appellant's failure to perceive the risk that consuming the alcohol would impair his driving, was a gross deviation from the standard of care that an ordinary person would exercise under the same circumstances. See Montgomery , 369 S.W.3d at 194 ; Tello , 180 S.W.3d at 156. Contrary to the dissent's assertion, our holding does not stand for the proposition that an individual who drinks any amount of alcohol and becomes involved in a fatal car accident acts with criminal negligence. Rather, our holding is limited to the specific facts and circumstances proved at the trial of this case. Appellant's first issue is overruled.\nINEFFECTIVE ASSISTANCE OF COUNSEL\nIn his second issue, Appellant argues that he received ineffective assistance of counsel during the punishment phase of trial because his trial counsel failed to impeach Woodard regarding Appellant's use of a credit card at The Cascades after the collision.\nStandard of Review and Applicable Law\nTo establish ineffective assistance of counsel, an appellant must show that trial counsel's performance was deficient and that the deficient performance prejudiced his defense. Strickland v. Washington , 466 U.S. 668, 694, 104 S. Ct. 2052, 2068, 80 L. Ed. 2d 674 (1984) ; Bone v. State , 77 S.W.3d 828, 833 (Tex. Crim. App. 2002). Under the first prong, the appellant must show that \"counsel made errors so serious that counsel was not functioning as the 'counsel' guaranteed the defendant by the Sixth Amendment.\" Strickland , 466 U.S. at 687, 104 S. Ct. at 2064. Under the second prong, an appellant must show \"a reasonable probability that, but for counsel's unprofessional errors, the result of the proceeding would have been different.\" Strickland , 466 U.S. at 694, 104 S. Ct. at 2068 ; Mitchell v. State , 68 S.W.3d 640, 642 (Tex. Crim. App. 2002).\nDeficient performance requires a showing that trial counsel's performance fell below an objective standard of reasonableness. Thompson v. State , 9 S.W.3d 808, 812 (Tex. Crim. App. 1999). A reviewing court must presume that trial counsel acted within the proper range of reasonable and professional assistance and that his decisions at trial were based on sound trial strategy. Salinas v. State , 163 S.W.3d 734, 740 (Tex. Crim. App. 2005). Allegations of ineffectiveness must be firmly founded in the record, and the record must affirmatively demonstrate the alleged ineffectiveness. Thompson , 9 S.W.3d at 814. It is not our role to speculate as to the basis for trial counsel's actions; thus, a record that is silent on the reasoning behind counsel's actions is sufficient to deny relief. Stults v. State , 23 S.W.3d 198, 208 (Tex. App.-Houston [14th Dist.] 2000, pet. ref'd) ; see Rylander v. State , 101 S.W.3d 107, 110-11 (Tex. Crim. App. 2003). We will not conclude that challenged conduct is deficient unless it was so outrageous that no competent attorney would have engaged in it. Garcia v. State , 57 S.W.3d 436, 440 (Tex. Crim. App. 2001). It is the appellant's burden to establish ineffective assistance by a preponderance of the evidence. Ex Parte Chandler , 182 S.W.3d 350, 354 (Tex. Crim. App. 2005) ; Bone , 77 S.W.3d at 833.\nDeficient Performance\nAt the hearing on Appellant's motion for a new trial, State's counsel testified that he had a telephone conversation with Appellant's trial counsel wherein they discussed that Woodard would testify that Appellant returned to The Cascades after the collision. Specifically, State's counsel recalled telling trial counsel that he was sure Woodard's testimony would preclude the jury from electing to probate Appellant's sentence. State's counsel further recalled that trial counsel seemed more concerned with whether the State intended to offer Woodard's testimony about Appellant's return to The Cascades during the guilt or punishment phase. State's counsel conceded that he failed to give trial counsel physical copies of the emails the State exchanged with Ginny Montoya, the custodian of records from The Cascades, and the letter from Davis stating that The Cascades had no record of Appellant ever using his credit card (The Cascades letter).\nTrial counsel testified that he was aware Woodard would testify, but did not recall State's counsel telling him that Woodard would testify that Appellant used his credit card when he returned to The Cascades. Trial counsel testified that he did not recall being told that the State had The Cascades letter. Trial counsel testified that had he known about The Cascades letter, he would have used it during his cross examination of Woodard to impeach her testimony and would have sought to call Montoya to testify that there was no record of Appellant ever using his credit card at The Cascades.\nThe trial court found that the credible evidence established that trial counsel was informed before the trial that The Cascades letter existed. The State and Appellant agree that we must give deference to the trial court's fact finding that trial counsel was informed of The Cascades letter. See Ex parte Ellis , 233 S.W.3d 324, 331 (Tex. Crim. App. 2007) (\"almost total deference\" should be given to fact findings supported by record, especially when they are based upon credibility and demeanor).\nThe State argues that trial counsel's failure to cross examine Woodard regarding The Cascades letter does not constitute deficient performance:\nInstead of disputing whether his client continued to drink, [trial counsel] likely chose to sidestep [Appellant's] alcohol consumption altogether and focus on redeeming aspects of [Appellant's] character and personality.\nThe record does not support this argument. Trial counsel testified that had he known about The Cascades letter he would have used it to impeach Woodard's testimony. The trial court found that counsel did have knowledge of The Cascades letter, and we must give that finding almost total deference. Thus, our inquiry is whether trial counsel's failure to impeach Woodard with The Cascades letter fell below an objective standard of reasonableness. We hold that it does. Trial counsel indicated that his failure to impeach Woodard or offer evidence regarding The Cascades letter was not based on trial strategy. See Ex parte Saenz , 491 S.W.3d 819, 828 (Tex. Crim. App. 2016). In addition, it was objectively unreasonable for trial counsel to not impeach Woodard or offer extrinsic evidence of the contents of The Cascades letter. During punishment, trial counsel called witnesses to testify that Appellant was remorseful about the collision. Woodard's testimony seriously undermined this strategy, and it was objectively unreasonable to not impeach Woodard with evidence that directly contradicted her testimony. See id. at 828-29.\nPrejudice\nHaving concluded that trial counsel's performance was objectively deficient, we now decide whether Appellant suffered prejudice as a result. To satisfy the prejudice prong of Strickland, the appellant \"must show that there is a reasonable probability that, but for counsel's unprofessional errors, the result of the proceeding would have been different.\" Strickland , 466 U.S. at 694, 104 S. Ct. at 2068 ; Kober v. State , 988 S.W.2d 230, 232 (Tex. Crim. App. 1999). Reasonable probability means a probability sufficient to undermine confidence in the outcome. Strickland , 466 U.S. at 694, 104 S. Ct. at 2068.\nAt punishment, the State offered no evidence of past criminal history or other bad acts. The State relied heavily on Woodard's testimony that Appellant returned to drink at The Cascades after the accident to show that Appellant lacked remorse for his actions. The following exchange occurred during Woodard's direct examination by the State:\nState: When you saw him come in and you - and he's back at The Cascades, you know the circumstances of the - that surrounded Haile's death, he's in the bar, drinks are being ordered, he's with a bunch of guys back at the The Cascades where he had golfed the day Haile was dead, what went through your mind?\nWoodard: I was supposed to take the table. I couldn't manage to take the table. The outside area is my area to serve, and I had to get the server to go to table and speak with everyone. I stepped in the back, and then she came over and told me that they were drinking. I got them ready, and she delivered the drinks.\nState: You asked someone else to take your place?\nWoodard: Yes, sir.\nState: But you actually had to prepare the drinks to go to the table for the man that you knew had killed the girl you'd had that connection with -\nWoodard: Yes, sir.\nState: -- just moments before her death? Was that difficult?\nWoodard: It was. I - that's why I had to step back. I couldn't do it myself. But certainly, making the drinks, I made sure that I did not overpour whatsoever.\nIn addition to emphasizing the emotional impact Appellant's return to The Cascades had on Woodard, the State repeatedly emphasized Appellant's return to The Cascades during its cross-examination of Appellant's witnesses. Appellant called two employees of the Smith County Community Supervision and Corrections Department to testify about the terms and conditions Appellant would be required to abide by if granted probation. During the State's cross-examination of one of these witnesses, the following exchange occurred:\nState: He -- Mr. Fulton has been convicted of criminally negligent homicide, which means he should have been aware or ought to have been aware of a substantial unjustifiable risk that he has placed on other people and his failure to disregard that risk created a -a gross deviation from the standard of care that an ordinary person in his position would utilize.\nThe result of the evidence showed that he consumed beer earlier in the day, 2:00 to 7:00, went to On The Border, consumed another almost four beers in about an hour and a few minutes time, 17 minutes, something like that, and he got behind the car, and he drove.\nThe result was a beautiful young lady named Haile Beasley was struck by him at 50 miles an hour, and her life was taken, and her family now is -- is in a life long of grieving and pain and sadness. The point I'm getting at, that should be a wake-up call for someone, should it not?\nWitness: Yes, sir.\nState: As a probation officer - if you're able to answer this. I don't know if you can or not. If - if a witness testified that he was back at The Cascades drinking after that happened where he'd been drinking earlier in the day when this happened, and alcohol was being served at that table, it would [be a] reasonable inference from the evidence he paid for the alcohol that's being served at the table with a group of guys and he consumed it. Would that concern you a little bit?\nWitness: Yes, sir.\nDuring cross examination of Appellant's friends and family members, the State asked all but one about Appellant's return to The Cascades. On cross examination of Ronald Bogenschutz, the following exchange occurred:\nState: When do you think the - the - you said, since May 2016, you've seen a different defendant, more stoic, more serious. Were you with him after he killed Haile Beasley and went to The Cascades and drank with his friends?\nWitness: No, sir, I was not.\nState: Okay. Well, that - that doesn't sound all that stoic and serious to me. You've killed a girl. You were at The Cascades the day you killed her drinking.\nSince May 2016, when he ended her life, he's back at The Cascades with a group of guys, and he's paying for the rounds of alcohol. Where - I mean, how does that fit into that?\nWitness: I was unaware that that happened until today, so I can't....\nState: That change your opinion at all?\nWitness: I don't think that was a smart move, but ...\nState: Well, you look at - when a - when a person takes the life of another individual, and for whatever sadness Mr. Fulton feels or his friends feel or whatever, I can guarantee you, the family has got a millionfold that -\nWitness: I completely agree. I would not argue with you, no.\nState: Okay.\nWitness: Cannot imagine what they feel.\nState: Right. And you sit back and you go, well, what's registered with the defendant: I mean, he's done these things. Is he heartbroken? Is he - is - is he saying, I will never set foot in another bar; I will never drink another bit of alcohol; I will do everything I can not to do these things? And then he's back at the Cascades again buying rounds of alcohol.\n...\nIs that - is that the stoic, serious person you're talking about?\nWitness: Like I said, I was unaware that that happened. All I can say is the time that I've been around him since, I have seen a different James. I did not have any contact with Mr. Fulton probably six months to seven months after this accident.\nDuring cross examination of Lori McCurley, the State again emphasized Appellant's return to The Cascades:\nState: Today, you heard the testimony of a girl who was not only almost killed by the defendant herself, but she worked at The Cascades, and since the time of the offense - between the time of the offense and the time of indictment, that Haile Beasley is - the defendant is drinking at The Cascades after Haile Beasley is already buried and in the ground.\nWitness: Yes, sir.\nState: You - where's the wake up call? Where's the - where's the compassion? Where's the above and beyond? Where's the passion for her? I mean, don't - wouldn't you expect a person who is - who has done these things after drinking at the Cascades would go, you know what; I care - so - I'm - I'm so devastated about what I've done, I will never put another drop of liquor in my mouth and certainly not go back to the place where I drank the day I killed her? Wouldn't you expect at least that?\nWitness: Possible.\nOn cross-examination of Appellant's brother, the State again asked about the incident:\nState: Would you - would you think that - I mean, you heard the questions I asked about him going and drinking at The Cascades after this occurred. Does that surprise you?\nWitness: Surprise? I don't - it surprises, but I don't know. I guess - I don't know the words I need to say here.\nThe State persistently cross examined Jamie Huff, Appellant's sister in law, about Appellant's return to The Cascades:\nWitness: I think that whatever punishment is given to [Appellant], that living with the thought and the knowing of what he chose to do and what happened is a punishment that nobody can give him that he will live with the rest of his life.\nState: Let me ask you this: If that was true - I want you to respond to this and answer this for me. If it was true ... I've got one point against that. I want you to tell me what you think about this.\n...\nOkay. This is a - this is a picture of Haile Beasley six hours before she died -\nWitness: Uh-huh.\nState: Okay? Mr. Fulton - you talk about his pain. No one can - whatever it was that - the pain he has to live with - he's at The Cascades on May 14, 2016, and he's drinking at The Cascades. Did you hear the first witness come in here today, Kristen Woodard, that said, between May 14th - between May 14th and November 10th, before indictment, between this time, [Appellant] was back out at the Cascades with his friends, and it was odd - it was - it was very telling because she said she heard some guy say Mark.\nWell, she doesn't know Mark Warren, but Mark Warren is a very good friend of the defendant's. And Kristen Woodard said, I heard somebody say Mark - is that right - which was very telling because she doesn't know Mark Warren.\nBut, anyway, when he walked in there with a group of four people - I don't know. I can't remember if he was included in the four or there were four others. Kristen said one of them's name was Mark. Mark Warren was a good friend of the defendant's and actually was drinking with him here.\nWitness: Uh-huh.\nState: He walked in with four people and pays for more alcohol that they're consuming at The Cascades after Haile Beasley is killed.\nAnd I guess, Ms. Huff, my -- my question is: If he's so upset about it and he's so solemn and he's so carefree [sic], why is he back out at The Cascades, after doing that, drinking and paying for the tab?\nSo tell me, where is the change? Where's the regret? Where's the \"I'm so sorry\"? Where's the \"I give a damn about the girl I put on that picture\" if you're back out at The Cascades after you killed her doing the same thing you did when you killed her? Answer me that.\nWitness: I can't tell you what I personally would have done or not done in that situation. You're not asking me that.\nState: No. I'm asking you, since you said, I don't think anyone can ever -- he will be living with this or whatever, it just doesn't seem to me like -- like a man who drinks at The Cascades the day -- I mean, this is the same day. This is when she was on earth, and that's after she has gone to be with God.\nAnd the defendant took her life after drinking at The Cascades, and on May 14, sometime between May 14th and November 10th, he went right back out there and did the same thing again.\nAnd my question is: Where's the regret? Where's the pain? Where's the \"I can't believe what I did\"? Where's the \"alcohol will never touch my lips, and I will never do what I did again on May 14th\"?\nWitness: I'm not [Appellant], but I can say that - and, again, just like - it's hearsay, what you're asking me to answer.\n...\nState: Right. I'm giving you facts. It's in evidence. And you've made a statement that you believe [Appellant] - the regret he deals with will be this, that, and the other.\nWitness: I did believe that, be he didn't go to The Cascades again and drink that many ounces of beer. He had one beer, I understand, and so did his other friends.\n...\nState: So let me get this straight. Is your position that it's okay -- after you've done this to that little girl, it's okay --\nWitness: To drink any alcohol?\nState: Yeah. It's okay to go back out to The Cascades, drink another beer and drive? It's -- you say -- so it's your position that it's -- that that's fine, that's okay; sure, you went to The Cascades and drank beer the day you killed her, and it's fine to go back out there after you've killed her, before ...\n...\nState: Do you think that shows that he really is sorry for what he did?\nWitness: I just don't equate it to that....\nThe State also referenced Appellant's return to The Cascades in its summation.\nNow, the most compelling thing to me is you go and you consume alcohol, you drive and you take her life, her life, and it means so little to you, so little to you, that you will go back to The Cascades after, with your four friends, and you will order alcohol.\nAnd I'll submit to you he consumed alcohol and he paid for it. That is -- that is the biggest sign to me that that message never got through to him and he really doesn't care.\nNow he might care about this, but he never cared about that. I mean, wouldn't you sit there and go, God Almighty, what have I done? Whatever I deserve to get, I'll take, but I will never put another drop of alcohol across my lips, if nothing else to say to her, I'm sorry. I mean, I -- to me, that is everything.\n...\nAnd I'll tell you, there is no other appropriate sentence here than prison. This is not a criminally negligent homicide where there wasn't alcohol involved. I'll submit to you when alcohol is involved, that's a game changer. And when you go back and you care so little that you drink again? I don't care if you're impaired, you're not impaired, alcohol should never have crossed your lips if her death meant anything to you.\n...\nProbation, I tell you another thing about probation. I'm submitting to you probation is not appropriate in this fact scenario. We're not asking for the maximum. He doesn't have any priors. And had this not happened, I wouldn't even be at 7. But he took her life, he took it for drinking alcohol, he took it violently, and he went back and he drank afterwards at the very same place.\nAt the conclusion of the punishment trial, the jury sentenced Appellant to the maximum sentence of ten years of imprisonment, more than the seven years the State requested.\nOn appeal, the State argues that Appellant was not prejudiced by trial counsel's deficient performance because The Cascades letter would not have successfully impeached Woodard because Montoya conceded that \"gaps\" existed in The Cascades record keeping system. In support of this argument, the State quotes portions of Montoya's testimony from the motion for a new trial hearing and characterizes her testimony as \"non-committal.\"\nMontoya testified that had Appellant used his credit card at The Cascades, she believed she would have found record of it. While she testified that there have been instances where the system failed to store information, she clarified that the system normally creates a record when a non member, such as Appellant, pays with a credit card.\nThe State further argues that the jury would have disregarded evidence that The Cascades had no records of Appellant using his credit card because Woodard testified that seeing Appellant's name on the credit card caused her to become so emotional that she was unable to serve Appellant and his friends. We are not persuaded by this argument, as it is simply not logical. Finally, the State argues that the jury would have disregarded evidence that The Cascades had no records of Appellant using his credit card, because Appellant admitted to drinking four to five beers at The Cascades on the date of the collision, and this was not reflected in The Cascades records. We are not persuaded by this argument, because nothing in the record indicates how Appellant paid for those drinks, or if they were paid for by someone else.\nThe State relied entirely on Woodard's testimony to show that Appellant was not remorseful for Beasley's death. The State characterized Appellant's return to The Cascades as \"the most compelling thing\" and \"the biggest sign that the message did not get through to him and he doesn't care.\" As the court of criminal appeals held, \"a verdict or conclusion only weakly supported by the record is more likely to have been affected by errors than one with overwhelming record support.\" Ex parte Saenz , 491 S.W.3d at 833 (quoting Strickland , 466 U.S. at 696, 104 S. Ct. at 2069 ). In this case, the only evidence of Appellant's lack of remorse came from Woodard. However, the fact that The Cascades had no record of Appellant using his credit card directly contradicts Woodard's testimony. Woodard's testimony went unquestioned before the jury, even though State's counsel and Appellant's trial counsel had knowledge that The Cascades records contradicted her claim. This seriously undermines confidence in the jury's punishment verdict. Accordingly, we hold that Appellant met the second prong under Strickland , and has sufficiently demonstrated a reasonable probability that, but for counsel's unprofessional errors, the result of the proceeding would have been different. 466 U.S. at 694, 104 S. Ct. at 2068. We sustain Appellant's second issue.\nJUROR BIAS\nIn his third issue, Appellant argues that the trial court erred by not allowing him to question a juror about potential bias after the start of trial. After the testimony of Brittani Henderson, a civilian witness to the collision, a juror notified the trial court that Henderson was her cousin. Appellant's trial counsel moved to question the juror about whether this caused her to have any bias or prejudice. Because neither the State nor Appellant asked the panel if they knew Henderson during voir dire, the trial court denied the request. Appellant moved for a mistrial, which the trial court denied.\nDiscussion\nThe Sixth Amendment to the United States Constitution and Article 1, Section 10 of the Texas Constitution guarantee criminal defendants the right to trial by an impartial jury. U.S. CONST. AMEND. VI.; TEX. CONST. art. 1, \u00a7 10. The protection under the Texas Constitution is identical to that offered by the United States Constitution. See Jones v. State , 982 S.W.2d 386, 391 (Tex. Crim. App. 1998). When a person serves on a jury but is partial, biased, or prejudiced and that juror is selected not through the fault or lack of diligence of defense counsel but based on inaccurate answers in voir dire, a new trial can be obtained. Von January v. State , 576 S.W.2d 43, 45 (Tex. Crim. App. 1978).\nAppellant does not argue that the trial court erred by refusing to grant the mistrial, nor does he argue that the juror in question was absolutely biased. Rather, Appellant complains that the trial court erred by refusing to allow him to question the juror regarding any potential bias that could result from her relationship to the witness. Appellant argues that this denial violated his constitutional right to a fair and impartial jury and is subject to constitutional harm analysis under Texas Rule of Appellate Procedure 44.2(a). See TEX. R. APP. P. 44.2(a).\nAppellant acknowledges that there is no evidence that the juror withheld information about her familial relationship to Henderson during voir dire, however, he relies on Franklin v. State to argue that \"it was incumbent on the trial court to allow defense counsel to explore the issue with the juror.\" 138 S.W.3d 351, 356 (Tex. Crim. App. 2004). In Franklin , the court of criminal appeals applied the constitutional harm standard to a trial court's denial of a mistrial based on a juror's withholding of material information. Id . at 354-57. After the trial had begun, a juror alerted the trial court that she knew the victim. Id . at 352. The trial court denied defense counsel's motion for mistrial, and further denied his request to question the juror to develop the record on the juror's potential bias. Id . The court of criminal appeals held that the juror's withholding of information, the judge's denial of a mistrial, and the judge's refusal to allow defense counsel to question the juror adversely affected the appellant's right to a fair and impartial trial. Id. at 357.\nAppellant's reliance on Franklin is misplaced. Because Appellant's trial counsel made no attempt during voir dire to ask the veniremembers whether they knew any potential witnesses, despite trial counsel knowing the witnesses' identities, the juror never withheld any information. See Armstrong v. State , 897 S.W.2d 361, 363-64 (Tex. Crim. App. 1995). Thus, Appellant argues that he has a constitutional right to ask jurors additional questions after the start of trial if the need arises. This proposition was specifically dispelled by the court in Franklin . 138 S.W.3d at 358 (\"But we do not hold here that Franklin had a constitutional right to ask the juror additional questions during trial.\")\nAppellant offers no other authority, nor are we aware of any, that requires a trial court to allow a defendant to question a juror, after the start of trial, about matters he could have questioned the juror about during his voir dire examination. Therefore, we overrule Appellant's third issue.\nDISPOSITION\nFor the reasons stated above, we overrule Appellant's first and third issues, and sustain his second issue. Having sustained his second issue, we reverse the trial court's judgment pertaining to punishment, and remand the case to the trial court for a new punishment trial.\nThe Texas Department of Public Safety Trooper who examined the data from Appellant's vehicle testified that it was unclear whether Appellant applied his brakes prior to impact or if the impact moved the brakes forward.",
+        "type": "majority",
+        "author": "Brian Hoyle, Justice"
+      },
+      {
+        "text": "Neeley, J., dissenting.\nGreg Neeley, Justice I agree with the majority's holding that Appellant's trial counsel was ineffective because he failed to impeach Kirsten Woodard with evidence controverting her testimony that Appellant returned to the Cascades after the collision and purchased alcohol. Further, I agree with the majority's conclusion that Appellant suffered prejudice as a result of his trial counsel's deficient performance because the State focused almost entirely on Appellant's lack of remorse in its punishment case, which only was supported by Woodard's uncontradicted testimony. However, because I believe the evidence in this case is insufficient to support Appellant's conviction for criminally negligent homicide, I respectfully dissent.\nThe question presented to this Court is not whether Appellant's negligence proximately caused the accident resulting in Ms. Beasley's tragic death but rather whether Appellant failed to perceive a substantial and unjustifiable risk and whether that failure was a \"gross deviation\" from reasonable care so as to be worthy of criminal punishment. See Montgomery v. State , 369 S.W.3d 188, 193 (Tex. Crim. App. 2012). The majority concludes that Appellant's conduct met this standard because Appellant consumed alcohol over an approximate seven hour period leading up to the accident.\nWhile acknowledging Appellant was not legally intoxicated when the accident occurred, the majority concludes that a reasonable jury could have found that Appellant was impaired at the time of the accident based on the evidence presented by the State. The majority holds that the record supports the jury's verdict because:\n(1) Appellant should have been aware that he was impaired by the alcohol he consumed prior to the accident;\n(2) Appellant failed to perceive the substantial and unjustifiable risk that driving while impaired created; and\n(3) Appellant's failure to perceive this risk was a gross deviation from reasonable care.\nAs already discussed in the majority opinion, the court of criminal appeals recently concluded that the evidence was insufficient to support the appellant's conviction for criminally negligent homicide in a case that resulted from a traffic accident. Queeman v. State , 520 S.W.3d 616, 630 (Tex. Crim. App. 2017). In doing so, the court distinguished the conduct of the appellant in Queeman from the conduct of the appellants in Tello and Montgomery , two other criminally negligent homicide cases involving traffic accidents. Id. ; Montgomery , 369 S.W.3d at 192-93 ; Tello v. State , 180 S.W.3d 150, 156 (Tex. Crim. App. 2005).\nBased upon the holdings in Queeman, Tello , and Montgomery , I believe there is a distinction between acts of commission and omission in criminally negligent homicide cases involving traffic accidents.\nThe conduct of the appellant in Queeman was distinguished from the conduct of the appellant in Montgomery because the appellant in Queeman did not make an unsafe driving maneuver that a reasonable driver would recognize was inherently risky. Queeman , 520 S.W.3d at 628. The conduct of the appellant in Queeman was distinguished from the conduct of the appellant in Tello because nothing in the record demonstrated that the appellant in Queeman was on notice of any circumstance or condition that an ordinary person would perceive as creating a substantial and unjustifiable risk, which would be a gross deviation from the ordinary standard of care to ignore. Id . at 629-30.\nThus, ultimately, the court drew a distinction between acts of omission, such as those of the appellant in Queeman , and acts of commission, such as the actions of the appellants in Montgomery and Tello . The appellant in Montgomery , after realizing she missed the interstate on-ramp, made a quick and conscious decision to make an abrupt lane change, without signaling, to access the freeway. Montgomery , 369 S.W.3d at 191. While her cell phone use likely caused her to be distracted and miss her opportunity to safely change lanes to enter the on-ramp, it was her abrupt and overtly dangerous driving maneuvers that the court held constituted criminal negligence. See id. at 194.\nSeveral circumstances known to the appellant in Tello would have put an ordinary person on notice that using the trailer was a condition that posed a substantial and unjustifiable risk of harm. First, the hitch ball did not properly fit. Tello , 180 S.W.3d at 155. Second, the hitch's mechanism did not work properly, and rather than replacing or repairing the hitch, the appellant repeatedly hammered the hitch to get it to latch properly and it would no longer lock. Id. Lastly, knowing he had a ball that did not properly fit and a hitch that would not lock, the appellant chose to forego using safety chains on the trailer. Id. Appellant claimed that he was unaware of the legal requirement to use safety chains and that he had \"never had a problem with the trailer becoming unhooked\" before the incident. Id. However, the record reflected that the hitch's defects were \"obvious,\" the appellant knew the hitch was faulty, and the appellant chose to use the trailer without safety chains. Id. With each circumstance, the appellant in Tello made conscious decisions.\nIn contrast, the conduct of the appellant in Queeman granted to omissions. He failed to control his speed and maintain a safe distance. While sufficient to show carelessness, the evidence did not establish that the appellant engaged in any criminally culpable risk creating conduct, nor was his conduct such that it posed a substantial and unjustifiable risk of death, nor was the failure to perceive that risk a gross deviation from reasonable care. Queeman , 520 S.W.3d at 630. The court noted that the evidence did not show the appellant made any particular driving maneuver, such as a late lane change without signaling, tailgating unreasonably close to the vehicle he rear-ended, or otherwise driving aggressively. Id. at 628. At most, the evidence showed the appellant was inattentive for an unknown time while driving at an unsafe speed based on his distance from the vehicle he struck and, for an unknown reason, he did not see that vehicle in time to avoid striking it. Id. The court concluded the appellant's conduct was negligent, but not criminal. Id. at 630.\nBased on the Queeman analysis, the majority first should have addressed Appellant's driving prior to the accident and, in the absence of evidence of extreme, aggressive, or foolish driving acts, ended its analysis. Instead, the majority focuses on Appellant's alcohol consumption, how that consumption may have impaired his ability to drive, and how that impairment may have been a contributing factor in causing the collision. Like the appellant in Queeman , Appellant's conduct, which proximately caused this tragic occurrence, consisted of acts of omission, not acts of commission, such as those in Montgomery and Tello .\nThe State characterized Appellant's crossing into oncoming traffic as an \"unsafe lane change\" constituting seriously blameworthy conduct. However, the record demonstrates that Appellant failed to negotiate a curve in the road resulting in his vehicle entering lanes of oncoming traffic. Unlike the appellant in Montgomery , Appellant did not consciously decide to change lanes, rather, he drove into oncoming traffic as a result of becoming distracted. If, for example, Appellant consciously decided to cross the double yellow line and enter oncoming lanes of traffic to pass a vehicle in front of him, that would be an act of commission similar to the aggressive driving in Montgomery . However, Appellant's conduct is more similar to the conduct the court held insufficient to support a criminally negligent homicide conviction in Queeman . Contrary to the State's contention, Appellant did not make an unsafe driving maneuver that a reasonable driver would recognize as inherently risky.\nThe State presented evidence that Appellant was traveling five miles per hour over the speed limit at the time of the accident. This is not excessive speeding. The State offered no authority, nor am I aware of any, that would support the contention that traveling five miles per hour over the speed limit is excessive.\nFinally, the State argued that Appellant was distracted for an unreasonable length of time because the vehicle computer showed Appellant did not turn the steering wheel in the five seconds prior to impact. But this does not establish how long Appellant was distracted because there is no evidence in the record of Appellant's location when the five second period began nor of the length or angle of the curvature in the roadway during the recorded time period. Thus, a rational juror could not find that Appellant was distracted for an unreasonable amount of time because that would require speculation beyond what is shown by the evidence or what rationally could be inferred therefrom. See Queeman , 520 S.W.3d at 625 (jury rationally could not have found appellant was speeding excessively where only evidence of appellant's speed was trooper's testimony that appellant was traveling \"significantly\" faster than thirty-six or thirty-seven miles per hour). Here, unlike in Queeman , there is evidence of why Appellant became distracted - he saw a deer on the side of the roadway. Thus, Appellant's reason for becoming distracted was out of his control, unlike the appellant's cell phone usage in Montgomery , which further supports that we should not criminalize Appellant's conduct.\nThe only factor that distinguishes this case from Queeman is Appellant's alcohol consumption. See id. at 628, 630. At trial, the State expressed skepticism as to Appellant's contention that he became distracted by a deer, but nonetheless argued that Appellant's alcohol consumption impaired his ability to complete divided attention tasks such that he was unable to timely divert his attention back to the roadway after seeing the deer. While the State conceded that it could not prove Appellant was legally intoxicated at the time of the accident, it presented evidence and argued to the jury that Appellant was \"impaired\" from the alcohol he consumed. Impairment was described as an area spanning the points between a person's being legally intoxicated and his having consumed no alcohol. I agree that the record supports a rational inference that Appellant experienced some degree of impairment from alcohol while driving after leaving the restaurant. However, I disagree with the majority that driving after consuming alcohol at a sub-intoxication level, can alone support a conviction for criminally negligent homicide.\nThe State presented testimony from several expert witnesses about how alcohol generally affects the brain and body. Each expert sought to connect his generalized testimony about the effects of alcohol on a person to Appellant's condition at the time of the collision under the vague umbrella of \"impairment.\" According to their collective testimony, Appellant (1) admitted to drinking alcohol, (2) became distracted, and (3) did not divert his attention back to the roadway in time to avoid the accident. But the State was unable to place a numerical value on Appellant's blood alcohol level because Appellant did not provide a blood or breath specimen and a warrant for a blood sample was not sought. By conceding that Appellant was not legally intoxicated, the State implicitly acknowledged that Appellant had not lost the normal use of his faculties.\nWhile Appellant admitted to having more than one drink on the day of the accident, the State relied heavily on evidence that \"impairment\" begins after an individual consumes any amount of alcohol. Without attempting to distinguish impaired driving from intoxicated driving, the majority has accepted the State's position that an individual who drives a vehicle after consuming any amount of alcohol, though not legally intoxicated, has taken a substantial and unjustifiable risk, and the failure to perceive this risk is a gross deviation from reasonable care as judged by general societal standards of ordinary people. Montgomery , 369 S.W.3d at 193. Though there is a statutory definition of intoxication that establishes an upper level when impaired driving becomes criminal, the State's position in this case blurs that distinction. Even though impaired driving and driving while intoxicated are different and only the latter is illegal, the majority has adopted an interchangeable use of those concepts in this case.\nThe general purposes of the Texas Penal Code are to \"establish a system of prohibitions, penalties, and correctional measures to deal with conduct that unjustifiably and inexcusably causes or threatens harm to those individual or public interests for which state protection is appropriate.\" See TEX. PENAL CODE ANN. \u00a7 1.02 (West 2011) (emphasis added). Drinking alcohol is not illegal. Nor is driving a motor vehicle after consuming alcohol as long as the individual is not intoxicated. See id . \u00a7 49.04 (West Supp. 2018) (\"A person commits an offense if the person is intoxicated while operating a motor vehicle in a public place\"). But even though the legality of unintoxicated driving after drinking is not dispositive of the issue, it certainly suggests that society would not regard doing so as a substantial and unjustifiable risk.\nIn passing laws through the legislative process, Texas' elected representatives presumably are following the collective will and mindset of the citizens. In enacting penal statutes which define intoxication and criminalize the operation of a motor vehicle in an intoxicated state, the actions of these elected representatives mirror the societal tolerances of their respective constituency. Law enforcement officers allow individuals who admit to having consumed some alcohol, but who ultimately pass field sobriety tests, to continue driving their vehicles. Under the State's theory, all of these drivers are driving while impaired.\nThrough special elections, the voters of the City of Tyler have approved the sale of alcohol in restaurants and bars. See TEX. ELEC. CODE ANN. \u00a7 501.021 (West 2010). On any given evening, thousands of restaurants and bars throughout Texas serve alcohol to their customers with the knowledge that many of these individuals will drive their personal vehicles to and from these businesses. The concept that a restaurant server in this state would not offer and serve a seemingly sober person a single alcoholic beverage, lest that person possibly drive a vehicle from the premises, is simply not realistic.\nOur society and its laws implicitly have determined that it is acceptable to consume some alcohol and drive a vehicle so long as the individual is not intoxicated. And while it may be a better practice for a person not to drive if planning to drink even one alcoholic beverage, the proliferation of businesses serving alcohol in Tyler and across the State strongly suggests our society has accepted the risk that when driving upon public roads in this state, it is likely that other drivers in the same area are operating vehicles after having consumed alcoholic beverages. As such, it cannot be said that driving at sub-intoxication levels after drinking alcohol would be recognized as serious blameworthy conduct so as to pose a substantial and unjustifiable risk to other drivers on that road and anyone sharing the general community's sense of right and wrong.\nBy holding that Appellant's operation of a motor vehicle in an impaired, but not intoxicated, state constituted a substantial and unjustifiable risk of death and his failure to perceive the risk of driving while impaired was a gross deviation from the usual standard of care, the majority is bridging the divide between sober driving and driving while intoxicated in the event a fatal accident occurs. It is within the purview of the legislature, not the courts, to do so. See Montgomery , 369 S.W.3d at 195 (refusing to address moral blameworthiness of cell phone use while driving partly because it is within purview of the legislature to criminalize conduct).\nThe jury's verdict in this case reflects a finding that Appellant's operation of a motor vehicle in an impaired but not intoxicated state was a gross deviation from the standard of care as judged by general societal standards by ordinary people. The majority concluded the record supports that finding. I acknowledge a reviewing court must not usurp the province of the jury by substituting its own judgment for the jury's. Montgomery , 369 S.W.3d at 192. However, this does not mean we always should defer to a jury's determination that a defendant's acts establish a gross deviation from the ordinary standard of care rather than civil negligence under that jury's subjective point of view. Queeman , 520 S.W.3d at 631. To do so would be to abdicate our responsibility to conduct reviews for the legal sufficiency of the evidence. Id. The impairment in this case was the result of alcohol consumption. But alcohol is not the only thing that can lead to impaired driving. Fatigue, physical ailments, medication, emotional distress, and myriad other things can individually or collectively result in the impairment of divided attention tasks attendant to operating a vehicle. But the majority has opened the door to criminalizing negligent conduct in fatality accidents where there is evidence that a driver was impaired, but not intoxicated, by a substance or condition that affected their ability to properly operate their vehicle.\nThere was no evidence to support the conviction in Queeman because the appellant did not engage in any criminally culpable risk taking conduct such as excessive speeding, racing, failure to obey traffic signals, or other misconduct. See id. at 630. Further, the court concluded that the appellant did not engage in acts that might be characterized as \"grossly negligent\" such as talking on a cell phone, texting, or intoxication Id. The court could have taken the opportunity to bring any alcohol consumption under the umbrella of \"grossly negligent\" conduct but instead chose to reference intoxication, a word with a legal definition. I believe the court's choice of words is significant.\nFor the reasons stated, even viewing the evidence in the light most favorable to the verdict, I conclude that no rational juror could have found, beyond a reasonable doubt, that Appellant engaged in acts that were criminally negligent by traveling five miles over the posted speed limit and failing to negotiate a curve in the roadway. Nor does the evidence that Appellant operated his vehicle while impaired, but not intoxicated, without more, allow a juror rationally to find Appellant was criminally negligent. See id . ; see also Anderson v. State , 416 S.W.3d 884, 888 (Tex. Crim. App. 2013). There is no question that Appellant's negligence proximately caused this tragic accident resulting in the death of an innocent young woman. But tragic consequences do not elevate ordinary negligence to criminal negligence. Queeman , 520 S.W.3d at 630 (citing Williams v. State , 235 S.W.3d 742, 753 (Tex. Crim. App. 2007) ). Contrary to the majority's holding, I would sustain Appellant's first issue and render a judgment of acquittal.\nCf. Thompson v. State , 676 S.W.2d 173, 176-77 (Tex. App.-Houston [14th Dist.] 1984, no pet.) (finding evidence legally sufficient to support criminally negligent homicide for speeding and failure to keep proper lookout when evidence demonstrated that defendant was driving twenty miles per hour above speed limit.); Cooks v. State , 5 S.W.3d 292, 295-96 (Tex. App.-Houston [14th Dist.] 1999, no pet.) (affirming manslaughter conviction where evidence showed appellant was speeding forty-five miles per hour over speed limit.).\n\"Intoxicated\" means not having the normal use of mental or physical faculties by reason of the introduction of alcohol, a controlled substance, a drug, a dangerous drug, a combination of two or more of those substances, or any other substance into the body; or having an alcohol concentration of 0.08 or more. Tex. Penal Code Ann. \u00a7 49.01(2)(A)(B) (West 2011).\nThe expert witnesses relied heavily on the fact that Appellant became distracted to form their opinions that he was \"impaired\" at the time of the accident. This logic is circuitous, as there was little other evidence that Appellant was impaired, other than presenting with two clues on the horizontal gaze nystagmus test, as the officer who performed field sobriety testing observed zero clues on the other tests. Further, while Arambula told the jury that Appellant was having difficulty following directions on the video, he did not specify what Appellant did or did not do on the video that caused him to form this opinion.\nTexas Alcoholic Beverage Commission Local Option Petition and Election Results , https://www.tabc.state.tx.us/cgi-bin/loper2013.pl.",
+        "type": "dissent",
+        "author": "Neeley, J., dissenting."
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "James FULTON, Appellant\nv.\nThe STATE of Texas, Appellee\nNO. 12-18-00031-CR\nCourt of Appeals of Texas, Tyler.\nOpinion delivered June 19, 2019"
+  },
+  "file_name": "0905-01",
+  "first_page_order": 905,
+  "last_page_order": 929
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5935930,
+  "name": "Ogbodiegwu v. Texas",
+  "name_abbreviation": "Ogbodiegwu v. Texas",
+  "decision_date": "2011-04-04",
+  "docket_number": "No. 10-985",
+  "first_page": "918",
+  "last_page": "918",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 918"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.607,
+    "sha256": "9a2ecef1c8473bddb5a073f779bc3374b29e0d1661f837e4516d8577d4b99c08",
+    "simhash": "1:d38190e34e0c6713",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ogbodiegwu v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Tex., 3d Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-985.\nOgbodiegwu v. Texas."
+  },
+  "file_name": "0918-05",
+  "first_page_order": 944,
+  "last_page_order": 944
+}

@@ -1,0 +1,140 @@
+{
+  "id": 12658811,
+  "name": "Thomas MANNS, et al., Respondents, v. SB RE PROPERTIES, LLC, et al., Appellants.",
+  "name_abbreviation": "Manns v. SB Re Props., LLC",
+  "decision_date": "2018-11-13",
+  "docket_number": "ED 105820",
+  "first_page": "206",
+  "last_page": "210",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 S.W.3d 206"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mo. App. Ct.",
+    "id": 30182,
+    "name": "Missouri Court of Appeals, Eastern District, DIVISION FOUR"
+  },
+  "jurisdiction": {
+    "id": 37,
+    "name_long": "Missouri",
+    "name": "Mo."
+  },
+  "cites_to": [
+    {
+      "cite": "531 S.W.3d 522",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12387046
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "533"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/531/0522-01"
+      ]
+    },
+    {
+      "cite": "311 S.W.3d 732",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7325862
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "735"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/311/0732-01"
+      ]
+    },
+    {
+      "cite": "439 S.W.3d 189",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6916869
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "202"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/439/0189-01"
+      ]
+    },
+    {
+      "cite": "536 S.W.2d 30",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10120440
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "32"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/536/0030-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 526,
+    "char_count": 12223,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2649888082278156
+    },
+    "sha256": "9b99ef2c41c760577d7f1410c75aeed831f530fc3ba9524d5a24a3711277df85",
+    "simhash": "1:8fcdc7078c649ffc",
+    "word_count": 2026
+  },
+  "last_updated": "2024-02-27T18:45:52.975436+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Thomas MANNS, et al., Respondents,\nv.\nSB RE PROPERTIES, LLC, et al., Appellants."
+    ],
+    "opinions": [
+      {
+        "text": "Gary M. Gaertner, Jr., Judge\nIntroduction\nAt issue in this case is whether under Section 443.055, RSMo. (2000), a future advance security instrument secures both principal up to the face amount of the loan as well as any excess interest generated on that principal. SB RE Properties, LLC (SB RE) appeals the judgment of the trial court on an interpleader action that awarded $20,000 in the trial court's registry to a junior lienholder, Respondent D & B Guardian, LLC (Guardian). The case originated after a foreclosure sale of property for which both SB RE and Guardian held promissory notes and deeds of trust. After the sale and distribution of most of the proceeds, both parties claimed they were entitled to the remaining $20,000. SB RE claimed its promissory note secured the interest generated on the principal loan amount, even though the total amount of secured debt would then exceed the face value of the note. Because we find that Section 443.055 is silent regarding interest, and that SB RE's promissory note and deed of trust agreed to secure interest generated on the principal in addition to the secured principal amount, SB RE is entitled to the funds in the trial court's registry toward satisfaction of the total secured debt owed to SB RE as the primary lienholder. We reverse and remand to the trial court to enter judgment in favor of SB RE and to direct payment of the $20,000 accordingly to SB RE.\nBackground\nSB RE purchased a promissory note secured by a deed of trust from Flow Partnership, LLP, in December of 2010. The face amount of the note was $237,000.00, but at the time of purchase, the principal balance of the note was $234,003.73. The note was in default when purchased by SB RE, and in October of 2012, SB RE foreclosed on the property securing the note. Guardian holds a note secured by the same property, but the parties agree SB RE's interest in the property is superior to Guardian's interest.\nSB RE hired Thomas Manns (Manns) as its attorney to handle the foreclosure. The property sold for $320,000, and Manns acted as the trustee of those funds. SB RE\ndirected Manns to pay $300,000 to Great Southern Bank, which had loaned SB RE the money to purchase its note at issue, and Manns held the remaining $20,000 in his trust account. Guardian, as the junior lienholder, claimed it was entitled to the remaining $20,000, but SB RE argued it was entitled to the $20,000 as the amount of indebtedness on SB RE's note exceeded $360,000 at the time of foreclosure.\nManns filed a petition for interpleader, and the trial court allowed Manns to pay the $20,000 into the court's registry pending the trial court's determination of whether SB RE or Guardian was entitled to the $20,000. After a hearing, the trial court determined that SB RE's recovery was limited to the face value of its note and corresponding deed of trust, under Section 443,055, RSMo. (2000), which was $237,000. The trial court therefore ordered payment of the $20,000 in its registry to Guardian. This appeal follows.\nStandard of Review\nIn this court-tried case, we will affirm the judgment unless there is no substantial evidence to support it, it is against the weight of the evidence, or it erroneously declares or applies the law. Murphy v. Carron, 536 S.W.2d 30, 32 (Mo. banc 1976). However, we review questions of law, including the interpretation of a statute, de novo. Ivy v. Smith, 439 S.W.3d 189, 202 (Mo. banc 2014). In interpreting statutory language, we give effect to its plain and ordinary meaning, only looking beyond the plain language where the statute is ambiguous. Ross v. Dir. of Revenue, 311 S.W.3d 732, 735 (Mo. banc 2010).\nDiscussion\nSB RE argues that the trial court erroneously declared and applied the law in that while Section 443.055 limits the secured amount of principal on a security instrument to its face value, the statute does not limit the amount of secured interest. Further, SB RE argues that because SB RE established that the principal balance plus interest was greater than $320,000, the trial court erred in awarding the $20,000 in the court's registry to Guardian. We agree.\nThe parties do not dispute that SB RE was the priority lienholder and thus was entitled to satisfaction of the amount secured by SB RE's promissory note and deed of trust first from the proceeds of the foreclosure sale. The trial court found that under Section 443.055, the secured amount of the loan did not include any interest that would increase the total indebtedness beyond the face amount of the loan, which was $237,000. Thus, though SB RE claimed that the amount of indebtedness was in excess of $360,000, which included principal, default interest, late fees, property taxes, and legal and professional fees, the trial court concluded that the secured indebtedness was limited to $237,000. The parties agree that SB RE's promissory note was a type of note that secured future advances, which is governed by Section 443.055.2. The terms of the promissory note also invoke Section 443.055.2, which states, in relevant part:\nThe total amount of obligations that may be secured by such a security instrument may decrease or increase from time to time, but except as to advances made pursuant to subsection 3 of this section, the total principal amount of obligations secured at any given time may not exceed the face amount stated in the security instrument.\n(emphasis added). Section 443.055.2 makes clear that a promissory note with a set face amount may also secure future advances or obligations that the lender could loan to the debtor, up to the face amount of the promissory note. However, there are some advances, specified in subsection 3, that will also be fully secured even if adding them to the principal amount causes the total secured amount to exceed the face value of the promissory note. Subsection 3 defines such advances as \"incurred ... for the reasonable protection of the lender's security interest.\" These include the following:\n[R]eal property taxes, hazard insurance premiums, assessments ... amounts due under prior mortgages or deeds of trust, leases, or other encumbrances, and reasonable costs and attorneys' fees incurred in enforcing the security instrument or the indebtedness which it secures.\nSection 443.055.3(1).\nTherefore, while the plain language of Section 443.055.2 limits the principal amount to the face value, no part of Section 443.055 addresses interest generated on the principal under the terms of the promissory note. See Grisham v. Mission Bank, 531 S.W.3d 522, 533 (Mo. App. W.D. 2017) (\"the maximum lien provision in a future advance deed of trust serves to identify only the total amount of principal secured at any given time by the deed of trust, but it does not represent either the total amount of secured indebtedness or the total amount of overall indebtedness\"). Thus, because the statute is silent as to interest, it does not preclude parties from agreeing to secure interest under the terms of their promissory note and deed of trust. Therefore, we must look to the security instruments between the parties to determine whether the promissory note and the deed of trust secure interest generated on the note in addition to the principal. See id. (finding that deed of trust with face amount of $500,000 secured interest on $500,000 as well where deed specified it secured \"all obligations, debts and liabilities, plus interest thereon,\" and \"maximum lien\" provision of deed specified face value \"in addition to any interest and any amounts advanced ... for the protection of the security interests\").\nHere, SB RE's note and the deed of trust both state that future advances are secured up to a principal amount of $237,000. Additionally, the deed of trust contains the following \"maximum lien\" provision:\nThe total principal amount of obligations at any one time which is secured by this Deed of Trust, in addition to any interest and any amounts advanced by Lender for the protection of the security interests granted herein, is $237,000.00.\n(emphasis added). This provision limits the secured amount of principal to $237,000, but it also acknowledges additional secured amounts of both interest generated on the principal and the kinds of future advances for the protection of SB RE's secured interest as specified in Section 443.055.3(1), which both may cause the total secured amount to exceed $237,000. This maximum lien provision is consistent with the plain language of Section 443.055. Thus, SB RE's note and deed of trust secure a principal amount of up to $237,000, plus interest on the principal amount as well as any qualifying future advances under Section 443.055.3. The trial court misapplied the law when it found Section 443.055 precluded interest as a secured debt by SB RE's note and deed of trust.\nHere, although the record is unclear regarding the precise amount owed to SB RE, it contains enough evidence to determine that SB RE is entitled to the $20,000 in the trial court's registry. According to a spreadsheet in evidence, SB RE claimed a total debt of $362,368.40, which includes the following:\nPrincipal balance: $234,003.73 Default interest: $42,973.81 Credit for interest paid: ($6,631.82) Late fees: $10,918.18 Property taxes: $21,045.92 Default interest and late fee accrual prior to SB RE purchase of note1: $50,058.582 Estimate of legal and professional fees: $10,000.00\n[Editor's Note: The preceding image contains the reference for footnotes , ].\nOf these amounts, the principal does not exceed the face value of the note, thus it is fully secured. Additionally, the interest is secured under the terms of the note and deed of trust, along with any other amount allowable under Section 443.055.3 incurred for the protection of the security interest. Late fees do not qualify as such expenses under Section 443.055.3, but property taxes qualify, as well as \"reasonable costs and attorneys' fees incurred in enforcing the security instrument or the indebtedness which it secures.\" SB RE submitted only an estimation of $10,000 for the latter amount, but because the total of the principal, interest, and taxes exceeds $320,000, this Court does not need to determine the precise amount of secured costs and attorneys' fees here. As SB RE has thus far received only $300,000 of the foreclosure proceeds, the remaining $20,000 is due to SB RE as the priority lienholder in satisfaction of the debt secured by its note.\nConclusion\nWe reverse the judgment of the trial court and remand with instructions to enter judgment in favor of SB RE and to direct payment of the $20,000 in the court's registry to SB RE.\nKurt S. Odenwald, P. J., concurs.\nColleen Dolan, J., concurs.\nSB RE's witness testified that SB RE purchased the right to collect ail default interest and late fees that had accrued.\nWhile the entry on the spreadsheet is for $50,058.58, the separate calculation of this amount lists default interest in the amount of $47,970.75 and late fees in the amount of $2,087.82, which actually totals $50,058.57.\nThere is some dispute regarding whether the secured interest here should include default interest. Under the terms of SB RE's note, the interest rate is 6.25%, but in the event of default, the interest rate increases by 4.00%. An event of default includes the borrower failing to make a payment. According to the record, the borrower ceased making payments in January of 2009, thus the default interest rate applied at that point under the terms of the note. We see no distinction in the statute or prior case law regarding the type of interest secured, thus we conclude the interest charges under the note apply and are secured.",
+        "type": "majority",
+        "author": "Gary M. Gaertner, Jr., Judge"
+      }
+    ],
+    "attorneys": [
+      "Filed: November 13, 2018\nApplication for Transfer to Supreme Court Denied December 17, 2018\nApplication for Transfer Denied March 5, 2019",
+      "Vincent D. Vogler, Jr., Michael A. Kasperek, 11756 Borman Drive, Suite 200, St. Louis, MO 63146 for appellants.",
+      "Thomas E. Manns, 7777 Bonhomme Avenue, Suite 1300, St. Louis, MO 63105, Elkin L. Kistner, 101 S. Hanley, Suite 1280, St. Louis, MO 63105, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "Thomas MANNS, et al., Respondents,\nv.\nSB RE PROPERTIES, LLC, et al., Appellants.\nED 105820\nMissouri Court of Appeals, Eastern District, DIVISION FOUR.\nFiled: November 13, 2018\nApplication for Transfer to Supreme Court Denied December 17, 2018\nApplication for Transfer Denied March 5, 2019\nVincent D. Vogler, Jr., Michael A. Kasperek, 11756 Borman Drive, Suite 200, St. Louis, MO 63146 for appellants.\nThomas E. Manns, 7777 Bonhomme Avenue, Suite 1300, St. Louis, MO 63105, Elkin L. Kistner, 101 S. Hanley, Suite 1280, St. Louis, MO 63105, for respondents."
+  },
+  "file_name": "0206-01",
+  "first_page_order": 206,
+  "last_page_order": 210
+}

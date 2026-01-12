@@ -1,0 +1,59 @@
+{
+  "id": 12231294,
+  "name": "Wade v. Peterson",
+  "name_abbreviation": "Wade v. Peterson",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-6267",
+  "first_page": "987",
+  "last_page": "987",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 987"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 65,
+    "ocr_confidence": 0.696,
+    "sha256": "be76239967613d539cc29be399667e70671d05a9a8a9126d4721d3a5c49aea1d",
+    "simhash": "1:8688d301c8607c67",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wade v. Peterson."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6267.\nWade v. Peterson."
+  },
+  "file_name": "0987-10",
+  "first_page_order": 1069,
+  "last_page_order": 1069
+}

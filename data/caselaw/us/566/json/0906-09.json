@@ -1,0 +1,59 @@
+{
+  "id": 12192665,
+  "name": "Houston v. Easton Area School District",
+  "name_abbreviation": "Houston v. Easton Area School District",
+  "decision_date": "2012-03-26",
+  "docket_number": "No. 11-914",
+  "first_page": "906",
+  "last_page": "906",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 906"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 85,
+    "ocr_confidence": 0.603,
+    "sha256": "f9b70f5cad3e561a86ed7535ebeb9cc97f4045714ad41733afa27910862c17b1",
+    "simhash": "1:7012e33f7b0e23ef",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Houston v. Easton Area School District."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-914.\nHouston v. Easton Area School District."
+  },
+  "file_name": "0906-09",
+  "first_page_order": 782,
+  "last_page_order": 782
+}

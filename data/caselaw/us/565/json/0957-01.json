@@ -1,0 +1,59 @@
+{
+  "id": 12228523,
+  "name": "Shigemura v. United States",
+  "name_abbreviation": "Shigemura v. United States",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-6216",
+  "first_page": "957",
+  "last_page": "957",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 957"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.686,
+    "sha256": "b6760400e5683880c77d878ab8067877d9cb17be71d2d2c214c130a952b1b225",
+    "simhash": "1:879adb2fbfa7912a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Shigemura v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6216.\nShigemura v. United States."
+  },
+  "file_name": "0957-01",
+  "first_page_order": 1039,
+  "last_page_order": 1039
+}

@@ -1,0 +1,78 @@
+{
+  "id": 12417114,
+  "name": "Wyoming v. Department of Agriculture et al.; and Colorado Mining Assn. v. Department of Agriculture et al.",
+  "name_abbreviation": "Wyoming v. Department of Agriculture",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-1378; No. 11-1384",
+  "first_page": "928",
+  "last_page": "928",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 928"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "661 F. 3d 1209",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6050039
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/661/1209-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 38,
+    "char_count": 298,
+    "ocr_confidence": 0.641,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2561263224226586
+    },
+    "sha256": "a3d4b558aa414ed9cf6fdcaca14c3a1b66f83a1e27934da70f17cc272a1d58fb",
+    "simhash": "1:97c1c903c7e7b3a4",
+    "word_count": 49
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Alito and Justice Kagan took no part in the consideration or decision of these petitions."
+    ],
+    "parties": [
+      "Wyoming v. Department of Agriculture et al.; and Colorado Mining Assn. v. Department of Agriculture et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.\nJustice Alito and Justice Kagan took no part in the consideration or decision of these petitions.\nReported below: 661 F. 3d 1209.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1378.\nNo. 11-1384.\nWyoming v. Department of Agriculture et al.; and Colorado Mining Assn. v. Department of Agriculture et al."
+  },
+  "file_name": "0928-03",
+  "first_page_order": 1004,
+  "last_page_order": 1004
+}

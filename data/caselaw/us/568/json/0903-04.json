@@ -1,0 +1,59 @@
+{
+  "id": 12415590,
+  "name": "Sanchez v. New York",
+  "name_abbreviation": "Sanchez v. New York",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5250",
+  "first_page": "903",
+  "last_page": "903",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 903"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 95,
+    "ocr_confidence": 0.714,
+    "sha256": "c802bb2e540cb01c45f6a55c41f64b41bc25de7f533fb34ec7cbcacc2a6817d2",
+    "simhash": "1:649061446199cb41",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sanchez v. New York."
+    ],
+    "opinions": [
+      {
+        "text": "App. Div., Sup. Ct. N. Y., 1st Jud. Dept. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5250.\nSanchez v. New York."
+  },
+  "file_name": "0903-04",
+  "first_page_order": 979,
+  "last_page_order": 979
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12233583,
+  "name": "Winfield v. United States",
+  "name_abbreviation": "Winfield v. United States",
+  "decision_date": "2011-11-14",
+  "docket_number": "No. 11-5762",
+  "first_page": "1037",
+  "last_page": "1037",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1037"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.698,
+    "sha256": "a889fbbb73b8d97f4be71c9b36fe30d9ab3201c00590bb70f210bcaf34b20036",
+    "simhash": "1:b7aa9a58cf85980b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Winfield v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5762.\nWinfield v. United States."
+  },
+  "file_name": "1037-05",
+  "first_page_order": 1119,
+  "last_page_order": 1119
+}

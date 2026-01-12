@@ -1,0 +1,59 @@
+{
+  "id": 12415231,
+  "name": "Garcia v. Yates, Warden",
+  "name_abbreviation": "Garcia v. Yates",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5076",
+  "first_page": "893",
+  "last_page": "893",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 893"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.676,
+    "sha256": "fd3d7d9f9d8bc6fec9158a1eb47a685324b9c028b07235f2252c528ead63bc9f",
+    "simhash": "1:93802da149cb08df",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Garcia v. Yates, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5076.\nGarcia v. Yates, Warden."
+  },
+  "file_name": "0893-11",
+  "first_page_order": 969,
+  "last_page_order": 969
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12232243,
+  "name": "Reyes v. United States",
+  "name_abbreviation": "Reyes v. United States",
+  "decision_date": "2011-11-07",
+  "docket_number": "No. 11-5682",
+  "first_page": "1012",
+  "last_page": "1012",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1012"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 27,
+    "char_count": 169,
+    "ocr_confidence": 0.664,
+    "sha256": "9a9304c91d16ac3e89dabf5478f1b193abc7bf19a042956a336b7424c1645c1d",
+    "simhash": "1:47ea9f7a25afaf9a",
+    "word_count": 28
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Reyes v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Motion of petitioner for reconsideration of order denying leave to proceed in forma pauperis [ante, p. 812] denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5682.\nReyes v. United States."
+  },
+  "file_name": "1012-07",
+  "first_page_order": 1094,
+  "last_page_order": 1094
+}

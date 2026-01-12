@@ -1,0 +1,59 @@
+{
+  "id": 5943251,
+  "name": "Wackerly v. Oklahoma",
+  "name_abbreviation": "Wackerly v. Oklahoma",
+  "decision_date": "2010-10-14",
+  "docket_number": "No. 10-6804 (10A349)",
+  "first_page": "978",
+  "last_page": "978",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 978"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 32,
+    "char_count": 231,
+    "ocr_confidence": 0.577,
+    "sha256": "5742470871b95ae71ef7e8ba4b264c482d535ac1b3ce0a3bfff80890cbccfd29",
+    "simhash": "1:c047da2057c79589",
+    "word_count": 36
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wackerly v. Oklahoma."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Okla. Application for stay of execution of sentence of death, presented to Justice Sotomayor, and by her referred to the Court, denied. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "October 14, 2010\nNo. 10-6804 (10A349).\nWackerly v. Oklahoma."
+  },
+  "file_name": "0978-06",
+  "first_page_order": 1000,
+  "last_page_order": 1000
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12242836,
+  "name": "Freeman v. Texas",
+  "name_abbreviation": "Freeman v. Texas",
+  "decision_date": "2012-01-17",
+  "docket_number": "No. 11-7230",
+  "first_page": "1161",
+  "last_page": "1161",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1161"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 71,
+    "ocr_confidence": 0.747,
+    "sha256": "d14e70b4f80651f9e92e79e611a935d50ddcd0723e37de4083bbe84f8ad00c7a",
+    "simhash": "1:bbbbf9f73ebe6fd0",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Freeman v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tex. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7230.\nFreeman v. Texas."
+  },
+  "file_name": "1161-06",
+  "first_page_order": 1243,
+  "last_page_order": 1243
+}

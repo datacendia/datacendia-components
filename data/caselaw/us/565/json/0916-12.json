@@ -1,0 +1,59 @@
+{
+  "id": 12222854,
+  "name": "Jean-Pierre v. Gubbiotti",
+  "name_abbreviation": "Jean-Pierre v. Gubbiotti",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5623",
+  "first_page": "916",
+  "last_page": "916",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 916"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 73,
+    "ocr_confidence": 0.698,
+    "sha256": "c3ebcf3de753c7d651448fc1fb2d7eb6aa1ebe0317346f3faa8e5aa9eb867c64",
+    "simhash": "1:02c08a03ba14be37",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jean-Pierre v. Gubbiotti."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5623.\nJean-Pierre v. Gubbiotti."
+  },
+  "file_name": "0916-12",
+  "first_page_order": 998,
+  "last_page_order": 998
+}

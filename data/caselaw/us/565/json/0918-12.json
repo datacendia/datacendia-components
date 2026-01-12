@@ -1,0 +1,59 @@
+{
+  "id": 12223357,
+  "name": "Hawkins v. United States",
+  "name_abbreviation": "Hawkins v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5675",
+  "first_page": "918",
+  "last_page": "918",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 918"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.704,
+    "sha256": "6dc70a1f7f1e80f68a32480419fd01522e9ba630c866ca43a2b9e64e8efd7b7b",
+    "simhash": "1:c78a32036e9d992e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hawkins v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5675.\nHawkins v. United States."
+  },
+  "file_name": "0918-12",
+  "first_page_order": 1000,
+  "last_page_order": 1000
+}

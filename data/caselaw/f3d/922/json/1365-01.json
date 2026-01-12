@@ -1,0 +1,824 @@
+{
+  "id": 12520906,
+  "name": "ENDO PHARMACEUTICALS INC., Mallinckrodt LLC, Plaintiffs-Appellees v. ACTAVIS LLC, fka Actavis Inc., Actavis South Atlantic LLC, Teva Pharmaceuticals USA, Inc., Defendants-Appellants",
+  "name_abbreviation": "Endo Pharm. Inc. v. Actavis LLC",
+  "decision_date": "2019-05-03",
+  "docket_number": "2018-1054",
+  "first_page": "1365",
+  "last_page": "1381",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "922 F.3d 1365"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Fed. Cir.",
+    "id": 8955,
+    "name": "United States Court of Appeals for the Federal Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "35 U.S.C. \u00a7 101",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "parenthetical": "allowing \"[w]hoever invents or discovers any new and useful ... composition of matter\" to \"obtain a patent therefor\""
+        },
+        {
+          "page": "51-52"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "821 F.3d 1359",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4257001
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1367",
+          "parenthetical": "explaining that reasonable expectation of success and motivation to combine are \"two different legal concepts\""
+        },
+        {
+          "parenthetical": "\"This is not the type of innovation that the patent system and the obviousness standard were designed to protect.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/821/1359-01"
+      ]
+    },
+    {
+      "cite": "664 F.3d 922",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3861145
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "929",
+          "parenthetical": "\"The district court has wide discretion to weigh expert credibility. This court defers to such credibility determinations.\" (citations omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/664/0922-01"
+      ]
+    },
+    {
+      "cite": "618 F.3d 1294",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3775513
+      ],
+      "weight": 2,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "1302",
+          "parenthetical": "internal quotation marks and citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/618/1294-01"
+      ]
+    },
+    {
+      "cite": "122 F.3d 1396",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        302512
+      ],
+      "weight": 2,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "1401-02"
+        },
+        {
+          "page": "1401-02"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/122/1396-01"
+      ]
+    },
+    {
+      "cite": "35 U.S.C. \u00a7\u00a7 120",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 U.S.C. \u00a7 102",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(b)",
+          "parenthetical": "stating a patent may be invalid if \"the invention was patented or described in a printed publication in this or a foreign country or in public use or on sale in this country, more than one year prior to the date of the application for patent in the United States\""
+        },
+        {
+          "page": "(f)",
+          "parenthetical": "prohibiting the grant of a patent to one who \"did not himself invent the subject matter sought to be patented\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "125 Stat. 284",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "886 F.3d 1369",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516414
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "parenthetical": "explaining that \"we need not address the appellant's conditional [invalidity] arguments\" where the lower tribunal \"did not err in its construction of [a] disputed limitation\" (internal quotation marks, brackets, and citation omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/886/1369-01"
+      ]
+    },
+    {
+      "cite": "878 F.3d 1336",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12267220
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1341",
+          "parenthetical": "internal quotation marks and citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/878/1336-01"
+      ]
+    },
+    {
+      "cite": "480 F.3d 1348",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3895501
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "1364"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/480/1348-01"
+      ]
+    },
+    {
+      "cite": "870 F.3d 1350",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275550
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1361",
+          "parenthetical": "internal quotation marks and citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/870/1350-01"
+      ]
+    },
+    {
+      "cite": "544 F.3d 1341",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3841624
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "1352",
+          "parenthetical": "stating, in the context of certain FDA regulations on extended-release formulations, that \"knowledge of the goal does not render its achievement obvious\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/544/1341-01"
+      ]
+    },
+    {
+      "cite": "512 F.3d 1363",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4070743
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "1373",
+          "parenthetical": "\"[K]nowledge of a problem and motivation to solve it are entirely different from motivation to combine particular references.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/512/1363-01"
+      ]
+    },
+    {
+      "cite": "726 F.3d 1286",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4073531
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "1291-92",
+          "parenthetical": "\"The potential for FDA approval ... may properly be considered, ... in determining whether [a PHOSITA] would be motivated to develop a drug product....\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/726/1286-01"
+      ]
+    },
+    {
+      "cite": "724 F.3d 1343",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4068451
+      ],
+      "weight": 2,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "1354"
+        },
+        {
+          "page": "1354"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/724/1343-01"
+      ]
+    },
+    {
+      "cite": "903 F.3d 1286",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518524
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1291",
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/903/1286-01"
+      ]
+    },
+    {
+      "cite": "383 U.S. 39",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6167032
+      ],
+      "weight": 3,
+      "year": 1966,
+      "pin_cites": [
+        {
+          "page": "50-52"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/383/0039-01"
+      ]
+    },
+    {
+      "cite": "383 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6166987
+      ],
+      "weight": 3,
+      "year": 1966,
+      "pin_cites": [
+        {
+          "page": "17"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/383/0001-01"
+      ]
+    },
+    {
+      "cite": "35 U.S.C. \u00a7 103",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "696 F.3d 1151",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5866605
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "1160",
+          "parenthetical": "internal quotation marks, italics, and citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/696/1151-01"
+      ]
+    },
+    {
+      "cite": "161 F.3d 709",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1366584
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "716",
+          "parenthetical": "\"[T]rial courts generally can hear expert testimony for background and education on the technology implicated by the presented claim construction issues, and ... have broad discretion in this regard.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/161/0709-01"
+      ]
+    },
+    {
+      "cite": "811 F.3d 1359",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4081822
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1363",
+          "parenthetical": "\"The specification is always highly relevant to the claim construction analysis and is, in fact, the single best guide to the meaning of a disputed term.\" (internal quotation marks, brackets, and citation omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/811/1359-01"
+      ]
+    },
+    {
+      "cite": "823 F.3d 1375",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5923318
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1379",
+          "parenthetical": "internal quotation marks and citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/823/1375-01"
+      ]
+    },
+    {
+      "cite": "135 S.Ct. 831",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12594237
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "841"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/135/0831-01"
+      ]
+    },
+    {
+      "cite": "811 F.3d 455",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4082723
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "462",
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/811/0455-01"
+      ]
+    },
+    {
+      "cite": "783 F.3d 1262",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4148167
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1265"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/783/1262-01"
+      ]
+    },
+    {
+      "cite": "381 F.3d 1352",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9205409
+      ],
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1356"
+        },
+        {
+          "page": "1356"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/381/1352-01"
+      ]
+    },
+    {
+      "cite": "415 F.3d 1303",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8948489
+      ],
+      "weight": 5,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1312-13",
+          "parenthetical": "en banc"
+        },
+        {
+          "page": "1313"
+        },
+        {
+          "page": "1314"
+        },
+        {
+          "page": "1319",
+          "parenthetical": "allowing courts to look to extrinsic evidence to, inter alia, better understand the field of the invention and the meaning of a term to a PHOSITA"
+        },
+        {
+          "page": "1317",
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/415/1303-01"
+      ]
+    },
+    {
+      "cite": "457 F.3d 1293",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3789474
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "1301",
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/457/1293-01"
+      ]
+    },
+    {
+      "cite": "663 F.3d 1221",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5879829
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1228",
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/663/1221-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1295",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2017 WL 3731001",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 16,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "*1"
+        },
+        {
+          "page": "*6-8"
+        },
+        {
+          "page": "*14"
+        },
+        {
+          "page": "*14"
+        },
+        {
+          "page": "*9"
+        },
+        {
+          "page": "*12"
+        },
+        {
+          "page": "*12"
+        },
+        {
+          "parenthetical": "internal quotation marks and citation omitted"
+        },
+        {
+          "page": "*6"
+        },
+        {
+          "page": "*6-7"
+        },
+        {
+          "page": "*11-12"
+        },
+        {
+          "page": "*12"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "U.S. Patent No. 8,871,779",
+      "category": "laws:admin_filing",
+      "reporter": "U.S. Patent",
+      "pin_cites": [
+        {
+          "parenthetical": "\"the '779 patent\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "890 F.3d 1313",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516926
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1325-26"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/890/1313-01"
+      ]
+    },
+    {
+      "cite": "550 U.S. 398",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3556178
+      ],
+      "weight": 3,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "418"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/550/0398-01"
+      ]
+    },
+    {
+      "cite": "773 F.3d 1186",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6055811
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1198"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/773/1186-01"
+      ]
+    },
+    {
+      "cite": "821 F.3d 1359",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4257001
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1367",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/821/1359-01"
+      ]
+    },
+    {
+      "cite": "2017 WL 3731001",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 8,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "*7",
+          "parenthetical": "\" Decision \""
+        },
+        {
+          "page": "*10"
+        },
+        {
+          "page": "*10"
+        },
+        {
+          "page": "*10"
+        },
+        {
+          "page": "*9"
+        },
+        {
+          "page": "*12"
+        }
+      ],
+      "opinion_index": 1
+    }
+  ],
+  "analysis": {
+    "cardinality": 1653,
+    "char_count": 50499,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2592788228193999
+    },
+    "sha256": "62809da7ffb87999eebf1f6a912557ea99741739afdb2a0969e98b59153b0212",
+    "simhash": "1:ffa768b757809f4f",
+    "word_count": 7788
+  },
+  "last_updated": "2024-02-27T18:46:53.504629+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Wallach, Clevenger, and Stoll, Circuit Judges."
+    ],
+    "parties": [
+      "ENDO PHARMACEUTICALS INC., Mallinckrodt LLC, Plaintiffs-Appellees\nv.\nACTAVIS LLC, fka Actavis Inc., Actavis South Atlantic LLC, Teva Pharmaceuticals USA, Inc., Defendants-Appellants"
+    ],
+    "opinions": [
+      {
+        "text": "Dissenting opinion filed by Circuit Judge Stoll.\nWallach, Circuit Judge.\nAppellees Endo Pharmaceuticals Inc. (\"Endo Pharmaceuticals\") and Mallinckrodt LLC (\"Mallinckrodt\") (collectively, \"Endo\") sued Appellants Actavis LLC, Actavis South Atlantic LLC, and Teva Pharmaceuticals USA, Inc. (collectively, \"Actavis\") in the U.S. District Court for the District of Delaware (\"District Court\"), alleging that two Abbreviated New Drug Applications filed by Actavis infringed claims 1-6 (\"the Asserted Claims\") of Mallinckrodt's U.S. Patent No. 8,871,779 (\"the '779 patent\"), which Endo Pharmaceuticals licenses. The District Court held that Actavis failed to \"prove[ ] by clear and convincing evidence that any of the [A]sserted [C]laims ... were invalid\" as obvious or anticipated, Endo Pharm. Inc. v. Actavis Inc. , No. 14-1381-RGA, 2017 WL 3731001, at *1 (D. Del. Aug. 30, 2017), and entered final judgment of infringement, based on a stipulation by Actavis, J.A. 1.\nActavis appeals, challenging the invalidity determination. We have jurisdiction pursuant to 28 U.S.C. \u00a7 1295(a)(1) (2012). We affirm.\nBACKGROUND\nI. The '779 Patent\nEntitled \"Process for Preparing Morphinan-6-One Products with Low Levels of a,\u00df-Unsaturated Ketone Compounds,\" the '779 patent generally relates to compounds known as \"morphinan alkaloids,\" such as \"oxymorphone,\" which have \"great medical importance\" and \"are used extensively for pain relief.\" '779 patent col. 1 ll. 24-30. \"Morphinan compounds and analogs thereof typically have a ring structure ... corresponding to Formula (1)\":\nId . col. 1 ll. 38-53. \"[P]harmaceutically desirable morphinan compounds\" often \"have a ketone group[ ] on the C-ring of Formula (1) and a saturated bond[, i.e., single bond,] between the two carbon atoms positioned a and \u00df to the ketone on the C-ring.\" Id . col. 2 ll. 21-24. \"[T]hese compounds may be referred to as morphinan-6-one compounds.\" Id . col. 2 ll. 28-29. \"[T]he ketone is present on the C(6) carbon atom, with the a and \u00df carbon atoms being the C(7) and C(8) positions....\" Id . col. 2 ll. 25-26.\nIn describing the prior art, the '779 patent explains that \"[v]arious processes for producing morphinan-6-one compounds are known,\" and \"many ... involve some form of catalytic hydrogenation[ ] of a,\u00df-unsaturated ketone intermediate compounds [ ('ABUKs') ],\" i.e., applying catalytic hydrogenation to compounds containing ketone groups with double bonds between the a and \u00df carbon atoms to convert the double bonds to single bonds. Id . col. 2 ll. 29-32. However, \"[ABUKs] may persist as impurities in the final products.\" Id . col. 2 ll. 43-45. These hydrogenation processes also \"may tend to undesirably reduce the ketone[, a key functional part of morphinan-6-one compounds,] as well as reducing or removing the a,\u00df-unsaturation.\" Id . col. 2 ll. 47-48.\nThe '779 patent discloses \"processes for preparing highly pure morphinan-6-one products\" having a relatively low concentration of ABUKs present as impurities, which \"involve treating a reaction mixture including a morphinan-6-one compound and an [ABUK] with a sulfur-containing compound.\" Id . col. 5 ll. 6-10. These processes can \"effectively reduce[ ] the concentration of undesirable [ABUKs] to acceptable levels,\" id. col. 5 ll. 11-13, with the process employing a sulfur-containing compound that can reduce ABUK concentration \"from levels of about 0.5% (by weight) or more to levels of not more than about 0.1% ..., or lower (e.g., about 0.01% ..., about 0.001% ..., or lower), with minimal side reactions, ketone reduction, and/or any other undesirable effects,\" id . col. 5 ll. 17-22.\nThe Asserted Claims recite:\n1. A hydrochloride salt of oxymorphone comprising less than 0.001% of 14-hydroxymorphinone .[ ]\n2. The hydrochloride salt of claim 1 comprising less than 0.0005% of 14-hydroxymorphinone .\n3. A pharmaceutical acceptable form comprising the oxymorphone hydrochloride according to claim 1.\n4. A hydrochloride salt of a morphinan-6-one compound corresponding to Formula (2):\ncomprising less than 0.001% measured by [high performance liquid chromatography ] of an [ABUK] corresponding to Formula (3):\nwherein the morphinan-6-one compound is oxymorphone and wherein X is -N(R17)-;\nR1 and R2 are hydrogen;\nR3 is hydroxy;\nR10 is hydrogen;\nR14 is hydroxy; and\nR17 is methyl.\n5. The hydrochloride salt of claim 4 comprising less than 0.0005% of 14-hydroxymorphinone .\n6. A pharmaceutical formulation comprising the oxymorphone hydrochloride according to claim 4.\nId . col. 37 l. 58-col. 38 l. 61 (emphases added).\nII. Prior Art References\nThe District Court determined three references constitute the prior art in this case. See Endo , 2017 WL 3731001, at *6-8. We present each in turn.\nA. Weiss\nA scientific article from 1957, see Ulrich Weiss, Derivatives of Morphine. II. Demethylation of 14-Hydroxycodeinone. 14-hydroxymorphinone and 8,14-Dihydroxydihydromorphinone , 22 J. Organic Chemistry 1505, 1505-08 (1957) (\"Weiss\") (J.A. 2295-98), discloses, inter alia, the use of catalytic hydrogenation to convert oxymorphone ABUK to oxymorphone. See J.A. 2297 (employing palladium charcoal \"as catalyst\" and teaching arriving at the result of 14-hydroxydihydromorphinone, i.e., oxymorphone). Weiss also recounts 8,14-dihydroxy-7,8-dihydromorphinone (\"oxymorphone diol\") as \"the product of hydration of the double bond of [oxymorphone ABUK],\" J.A. 2295, the \"ready conversion of [oxymorphone ABUK] into [oxymorphone diol],\" J.A. 2296, and the reversion of oxymorphone diol to oxymorphone ABUK through the application of hydrochloride, see J.A. 2295, 2297.\nB. Chapman\nEntitled \"Process for Preparing Oxycodone Hydrochloride Having Less Than 25 [Parts Per Million ('ppm') ] 14-hydroxycodeinone,\" U.S. Patent Application No. 2005/0222188 (\"Chapman\") (J.A. 2464-90) discloses, inter alia, processes that employ catalytic hydrogenation to purify oxycodone ABUK into the salt form of oxycodone. See J.A. 2473 (\"In certain embodiments of the present invention, the 14-hydroxycodeinone [i.e., oxycodone ABUK] is converted to oxycodone by hydrogenation ... in conjunction with a ... catalyst....\"). Chapman recites processes that convert oxycodone ABUK to 8,14-dihydroxy-7,8-dihydrocodeinone (\"oxycodone diol\"), a precursor to oxycodone ABUK, which can revert to oxycodone ABUK through the compound's conversion to salt form and thereby frustrate purification. See J.A. 2473-74. But Chapman provides a reaction that can remove oxycodone diol from a sample prior to the completion of purification, and prevent oxycodone diol's reversion to oxycodone ABUK. See J.A. 2483-84 (Example 3).\nC. Rapoport\nA scientific article from 1967, see Henry Rapoport et al., The Synthesis of Thebaine and Northebaine from Codeinone Dimethyl Ketal , 89 J. Am. Chemical Soc'y 1942, 1942-47 (1967) (\"Rapoport\") (J.A. 2908-13), discloses, inter alia, a process involving the use of bisulfite addition to convert oxycodone ABUK to oxycodone, see J.A. 2908-09. This process takes advantage of differences in solubility of the products of reactions between bisulfites and oxycodone ABUK to separate oxycodone from oxycodone ABUK. See J.A. 2908-09.\nDISCUSSION\nActavis contends that the District Court erred by, inter alia, (1) misconstruing the claim term 14-hydroxymorphinone, see Appellants' Br. 67-74; and (2) determining that the Asserted Claims were not obvious in light of the prior art, see id . at 36-66. We address each argument in turn.\nI. Claim Construction\nA. Standard of Review and Legal Standard\n\"The proper construction of a patent's claims is an issue of Federal Circuit law....\" Powell v. Home Depot U.S.A., Inc. , 663 F.3d 1221, 1228 (Fed. Cir. 2011) (citation omitted). \"[C]laim construction must begin with the words of the claims themselves.\" Amgen Inc. v. Hoechst Marion Roussel, Inc. , 457 F.3d 1293, 1301 (Fed. Cir. 2006) (citation omitted). \"[W]ords of a claim are generally given their ordinary and customary meaning\" that they \"would have to a person of ordinary skill in the art [ ('PHOSITA') ] in question at the time of the invention.\" Phillips v. AWH Corp. , 415 F.3d 1303, 1312-13 (Fed. Cir. 2005) (en banc) (internal quotation marks and citations omitted). The PHOSITA \"is deemed to read the claim term not only in the context of the particular claim in which the disputed term appears, but in the context of the entire patent, including the specification.\" Id. at 1313. Prosecution history may also be used to supply additional evidence of claim terms' intended meaning. See Home Diagnostics, Inc. v. LifeScan, Inc. , 381 F.3d 1352, 1356 (Fed. Cir. 2004). \"We review the district court's evaluation of the patent's intrinsic record during claim construction de novo.\" Info-Hold, Inc. v. Applied Media Techs. Corp. , 783 F.3d 1262, 1265 (Fed. Cir. 2015).\nWhile courts may consider extrinsic evidence in claim construction, \"such evidence is generally of less significance than the intrinsic record.\" Wi-LAN, Inc. v. Apple Inc. , 811 F.3d 455, 462 (Fed. Cir. 2016) (citation omitted). When, as here, \"the district court ... look[s] beyond the patent's intrinsic evidence and ... consult[s] extrinsic evidence,\" such \"factfinding must be reviewed for clear error.\" Teva Pharm. USA, Inc. v. Sandoz, Inc. , --- U.S. ----, 135 S.Ct. 831, 841, --- L.Ed.2d ---- (2015). \"A factual finding is clearly erroneous if, despite some supporting evidence, we are left with the definite and firm conviction that a mistake has been made.\" Profectus Tech. LLC v. Huawei Techs. Co. , 823 F.3d 1375, 1379 (Fed. Cir. 2016) (internal quotation marks and citation omitted).\nB. The District Court Properly Construed 14-Hydroxymorphinone as 14-Hydroxymorphinone Hydrochloride\nThe District Court, relying on intrinsic and extrinsic evidence, determined that a PHOSITA would understand the 14-hydroxymorphinone limitations stated in claims 1-2 and 5 to mean \"14-hydroxymorphinone hydrochloride,\" i.e., the \"salt form\" of 14-hydroxymorphinone. Endo , 2017 WL 3731001, at *14 (internal quotation marks omitted). Actavis argues that this limitation requires no construction because of \"[t]he plain language of the claims, and the undisputed chemical difference between 14-hydroxymorphinone [i.e., oxymorphone ABUK] and its hydrochloride salt.\" Appellants' Br. 67. We disagree with Actavis.\nThe District Court correctly construed 14-hydroxymorphinone as 14-hydroxymorphinone hydrochloride. We begin with the claims. See Phillips , 415 F.3d at 1314. The Asserted Claims expressly employ the term 14-hydroxymorphinone three times, once each in claims 1-2 and 5. Independent claim 1 teaches \"[a] hydrochloride salt of oxymorphone comprising \" a certain amount of \"14-hydroxymorphinone,\" '779 patent col. 37 ll. 58-59 (emphasis added), while claim 2, which is dependent on claim 1, claims \"[t]he hydrochloride salt of claim 1 comprising \" a lesser amount of \"14-hydroxymorphinone,\" id . col. 37 ll. 60-61 (emphasis added). Claim 3, which is also dependent on claim 1, does not expressly use the term 14-hydroxymorphinone, but refers to the entire compound taught in claim 1 as \"oxymorphone hydrochloride.\" Id . col. 37 ll. 62-63. In turn, claim 5 claims \"[t]he hydrochloride salt of claim 4 comprising \" a certain amount of \"14-hydroxymorphinone.\" Id . col. 38 ll. 58-59 (emphasis added). Therefore, the Asserted Claims only claim 14-hydroxymorphinone as part of the salt-, or hydrochloride-, form of the claimed compounds, and not as a separate non-salt, non-hydrochloride component. This indicates that, as used in the Asserted Claims, 14-hydroxymorphinone means 14-hydroxymorphinone hydrochloride.\nNext, we turn to the broader specification. See Trs. of Columbia Univ. v. Symantec Corp. , 811 F.3d 1359, 1363 (Fed. Cir. 2016) (\"The specification is always highly relevant to the claim construction analysis and is, in fact, the single best guide to the meaning of a disputed term.\" (internal quotation marks, brackets, and citation omitted)).\nRelevant here, 14-hydroxymorphinone is mentioned in Example 3. See '779 patent col. 37 l. 36. Example 3 recites that \"an oxymorphone [hydrochloride] sample was treated with a sulfur-containing compound,\"id. at col. 37 ll. 18-19, the sample having contained a certain amount of \"14-hydroxymorphinone ... impurity,\" id . col. 37 ll. 24-25. Following treatment, \"oxymorphone base \" was filtered out, id. col. 37 l. 31 (emphasis added), a sample of which contained, inter alia, \"no detectable amount of 14-hydroxymorphinone,\" id . col. 37 ll. 35-36. No distinction is made between the 14-hydroxymorphinone in the oxymorphone hydrochloride and oxymorphone base samples, but it is presented as part of these compounds, not as discrete compounds or as possessing a separate hydrochloride or base form. Nevertheless, 14-hydroxymorphinone's use in the broader specification is relatively unsupportive of either proffered construction.\nFinally, we look to extrinsic evidence. See Phillips , 415 F.3d at 1319 (allowing courts to look to extrinsic evidence to, inter alia, better understand the field of the invention and the meaning of a term to a PHOSITA). The District Court considered the testimony of Actavis's expert, in which he \"agree[d]\" that a PHOSITA reading Example 3 of the '779 patent\"would have to assume that the ABUK impurity there was the ABUK oxymorphone [hydrochloride],\" i.e., the salt form,\" J.A. 3117; see Endo , 2017 WL 3731001, at *14, as is permitted, see Key Pharm. v. Hercon Labs. Corp. , 161 F.3d 709, 716 (Fed. Cir. 1998) (\"[T]rial courts generally can hear expert testimony for background and education on the technology implicated by the presented claim construction issues, and ... have broad discretion in this regard.\"). Indeed, Actavis's expert acknowledged that, \"when you form[ ] the salt from a combination of the oxymorphone and the ABUK[, i.e., the 14-hydroxymorphinone], the [14-hydroxymorphinone] gets formed into a salt at the same time,\" and that a \"[PHOSITA] would be aware of that.\" J.A. 3116; see J.A. 3413 (stating, by Endo's expert, that a PHOSITA \"would know that if you have oxymorphone ABUK in the form of a[ ] ... salt, ... then the ABUK will exist in the form of the ... salt also\"). Accordingly, the intrinsic and extrinsic evidence support the District Court's construction of 14-hydroxymorphinone as 14-hydroxymorphinone hydrochloride.\nII. Obviousness\nA. Standard of Review and Legal Standard\n\"Obviousness is a question of law, reviewed de novo, based upon underlying factual questions which are reviewed for clear error following a bench trial.\" Pozen Inc. v. Par Pharm., Inc ., 696 F.3d 1151, 1160 (Fed. Cir. 2012) (internal quotation marks, italics, and citation omitted). A patent claim is invalid \"if the differences between the subject matter sought to be patented and the prior art are such that the subject matter as a whole would have been obvious at the time the invention was made to a [PHOSITA].\" 35 U.S.C. \u00a7 103(a) (2006). Relevant underlying findings of fact include: (1) \"the scope and content of the prior art,\" (2) \"differences between the prior art and the claims at issue,\" (3) \"the level of ordinary skill in the pertinent art,\" and (4) the presence of objective indicia of nonobviousness such \"as commercial success, long felt but unsolved needs, failure of others,\" and unexpected results. Graham v. John Deere Co. of Kan. City , 383 U.S. 1, 17, 86 S.Ct. 684, 15 L.Ed.2d 545 (1966) ; see United States v. Adams , 383 U.S. 39, 50-52, 86 S.Ct. 708, 15 L.Ed.2d 572 (1966). \"An obviousness determination requires finding that a [PHOSITA] would have been motivated to combine or modify the teachings in the prior art and would have had a reasonable expectation of success in doing so.\" Regents of Univ. of Cal. v. Broad Inst., Inc. , 903 F.3d 1286, 1291 (Fed. Cir. 2018) (citation omitted).\nB. The District Court Did Not Clearly Err in Finding a PHOSITA Would Not Have a Reasonable Expectation of Success in Combining the Prior Art\nThe District Court held that a PHOSITA \"would have understood that it would not be feasible\" to employ Chapman's solution to the reappearing ABUK problem to Weiss's catalytic hydrogenation process for oxymorphone. Endo , 2017 WL 3731001, at *9. The District Court also explained that a PHOSITA would not have a reasonable expectation of success in employing \"sulfur addition and separation as a method of producing low-ABUK oxymorphone,\" id. , because Rapoport does not \"teach[ ] that low-ABUK oxymorphone can be achieved through bisulfite addition combined with extraction,\" id. at *10. The District Court also considered certain confidential communications between the U.S. Food and Drug Administration (\"FDA\") and producers of oxymorphone, including Mallinckrodt (\"FDA communications\"). Id. at *12 ; see J.A. 2890-903. The District Court held that the FDA communications did not provide a reasonable expectation of success because they \"were not teachings and provided no substantive information about how the companies were to go about producing low-ABUK oxymorphone\" and instead \"recognized the challenge the mandate posed for the companies.\" Endo , 2017 WL 3731001, at *12. Actavis challenges the District Court's finding of a lack of reasonable expectation of success and argues the District Court's conclusions \"must be reversed.\" Appellants' Br. 66; see id. at 56-66. We disagree with Actavis.\nThe District Court did not clearly err in concluding that a PHOSITA would lack a reasonable expectation of success in combining Weiss, Chapman, and Rapoport. First, a PHOSITA would not have a reasonable expectation of success in employing Weiss's catalytic hydrogenation process for oxymorphone with Chapman's process to remove diol during hydrogenation. Although Weiss discloses a method of purifying oxymorphone ABUK through catalytic hydrogenation, it does not provide key reaction conditions, see J.A. 2295-98; see also J.A. 3456 (stating, by Endo's expert, that Weiss \"omits[, inter alia,] ... the time that the hydrogenation reaction is run[,] ... the amount and composition of the ... catalyst[,] ... precisely what catalyst [is] us[ed,] ... [and] the pressure of the hydrogen gas,\" each of which can \"affect the effectiveness of the hydrogenation procedure\"), or any level of achieved purification of oxymorphone, let alone purification to the degree claimed by the Asserted Claims, see J.A. 2295-98; see also J.A. 3005 (stating, by Actavis's expert, that Weiss does not \"measure [or] quantify the amount of ABUK[, i.e., 14-hydroxymorphinone]\"), 3458-59 (same, by Endo's expert); '779 patent col. 37 l. 58-col. 38 l. 61 (claiming oxymorphone containing 10 ppm or less of 14-hydroxymorphinone). Weiss also explains that the catalytic hydrogenation process produces oxymorphone diol, see J.A. 2295-96, which is undesirable because it can revert to 14-hydroxymorphinone upon the process' completion and thereby frustrate purification, see J.A. 3476-82 (describing, by Endo's expert, how the process disclosed by Weiss produces oxymorphone diol, and how a significant amount of this diol is likely to revert to 14-hydroxymorphinone as a result of steps undertaken later in the process). With respect to the comparative effect of catalytic hydrogenation on oxymorphone ABUK and oxycodone ABUK, Weiss discloses that the former produces oxymorphone diol much more readily than the latter produces oxycodone diol, see J.A. 2296 (explaining that the \"ready conversion of [oxymorphone ABUK] into [oxymorphone diol] suggested the possibility\" of a similar result in an oxycodone process, but finding \"[t]he total yield of [oxycodone diol] obtained in this fashion was very small\"), indicating that the process is much less effective on oxymorphone ABUK because oxymorphone diol can revert to oxymorphone ABUK and thereby hinder purification, see J.A. 3014 (explaining, by Actavis's expert, that oxymorphone diol can \"go[ ] to the undesired oxymorphone ABUK\"), 3455 (stating, by Endo's expert, that oxymorphone diol is a precursor to oxymorphone ABUK, and its presence can cause \"ABUK levels ... to increase after hydrogenation ends\").\nIn turn, Chapman discloses processes involving the catalytic hydrogenation of oxycodone ABUK, see J.A. 2473, and that these processes create oxycodone diol, see J.A. 2470, which can hinder purification by \"revert[ing] to some ABUK and build[ing] up ABUK after an attempted purification,\" J.A. 3021. Chapman also describes a process that can reduce oxycodone diol in an oxycodone sample, see J.A. 2473-74, but Endo's expert explained that this would likely be ineffective in achieving the same purity as the oxymorphone claimed by the Asserted Claims, see J.A. 3483-91. This is because the only example of this process provided by Chapman, see J.A. 2383-84, discloses a \"long reaction time\" of \"nearly 22 hours\" only reducing the oxyocodone diol content of an oxycodone sample from 2,900 ppm to 400 ppm, and \"with 400 ppm [of diol], that's a lot of ABUK you can make,\" J.A. 3483. Moreover, the longer the reaction runs, the less diol is progressively removed and the more \"other side reactions are going to come in and compete,\" such that one would \"start to hydrogenate other parts of the molecule and introduce other material\" and, therefore, would not \"have any [of the desired] product ... left at all.\" J.A. 3486-87; see '779 patent col. 2 ll. 46-51 (\"[K]nown hydrogenation methods may tend to undesirably reduce the ketone as well as reducing or removing the [ABUK],\" and \"are not normally capable of efficiently and economically reducing the levels of [diol] to below 10 to 100 [ppm], or less.\").\nA PHOSITA would not have had a reasonable expectation of success in combining Weiss and Chapman because Weiss disclosed a material difficulty with using catalytic hydrogenation to purify oxymorphone to the FDA-mandated level, i.e., the production of relatively large amounts of oxymorphone diol, see J.A. 2295-96; see also J.A. 3479 (explaining, by Endo's expert, that a PHOSITA would have understood Weiss to teach \"that they're going to have a higher concentration of the diol in the oxymorphone ABUK reactions than they will in the oxycodone and therefore there's a higher chance that they'll regenerate the oxymorphone ABUK after the end of the reaction than they would have in the oxycodone case\"), and Chapman did not describe a viable solution to this difficulty, see J.A. 3483 (explaining, by Endo's expert, that a PHOSITA reading Chapman would not know how to achieve a sufficiently low amount of diol), 3486-87 (discussing, by Endo's expert, the problem of hydrogenating too much of the molecule); see also J.A. 2473-74. Moreover, Endo's expert testified that, because oxymorphone ABUK and oxycodone ABUK \"are different molecules, ... they are going to have different reactivities,\" J.A. 3466; see J.A. 3220 (stating, by an inventor of another patent, that molecules like oxymorphone and oxymorphone ABUK can slow hydrogenation and are much less stable than oxycodone and oxycodone ABUK), and, therefore, a PHOSITA would have been unlikely to apply Chapman to oxymorphone ABUK, see J.A. 3445-46; see also J.A. 3455 (stating, by Endo's expert, that the position that a PHOSITA would have utilized oxycodone ABUK purification methods on oxymorphone ABUK \"ignores differences between the reactivities of oxycodone and oxymorphone [,] ... [and] trivializes the removal of the oxymorphone diol\" and how \"ABUK levels are expected to increase after hydrogenation ends\").\nSecond, the District Court did not clearly err in finding that a PHOSITA lacked a reasonable expectation of success in employing Rapoport's sulfur addition and separation process to remove oxymorphone impurities. Rapoport discloses a process for purifying oxycodone ABUK through the use of bisulfite additions, but it does not state that any resulting compounds have the purity levels of those in the Asserted Claims. See J.A. 2908-13. According to Endo's expert, Rapoport explains that 25% of ABUK impurities remain following completion of the process, which is \"not a very good partition ratio.\" J.A. 3516. In addition, he recounted that the process described by Rapoport not only fails to remove a significant amount of ABUK, but \"result[s] in a large loss of the desired compound\" as well. J.A. 3517. Therefore, he explained that a PHOSITA would not believe that Rapoport \"would ever be able to get to ... 10 [ppm],\" as claimed in the '779 patent. J.A. 3517; see J.A. 2911.\nThird, based on the teachings of Weiss, Chapman, and Rapoport, the District Court did not clearly err in finding the FDA communications would not provide a PHOSITA with a reasonable expectation of success of achieving the claimed purity levels for oxymorphone. Relevant here, the FDA communications recount the FDA's \"processes for addressing the problem of impurities\" in oxymorphone that had been determined to be mutagenic. J.A. 2893. The FDA limited ABUK content in oxymorphone to 0.001%, i.e., 10 ppm, to satisfy FDA approval guidelines. See J.A. 2895; see also J.A. 2904 (providing that, in January 2004, \"[the FDA] inform[ed] Mallinckrodt that a 0.001% limit [for ABUK] will be required for ... oxymorphone\"). The FDA communications introduced a market force incentivizing purification of oxymorphone to the level of the oxymorphone claimed by the Asserted Claims. See J.A. 2895; Plantronics, Inc. v. Aliph, Inc. , 724 F.3d 1343, 1354 (Fed. Cir. 2013) (\"[M]otivation to combine may be found explicitly or implicitly in[, inter alia,] market forces; design incentives; ... any need or problem known in the field of endeavor at the time of invention ... ; and the background knowledge, creativity, and common sense of [a PHOSITA].\" (internal quotation marks and citation omitted)); see also Allergan, Inc. v. Sandoz Inc. , 726 F.3d 1286, 1291-92 (Fed. Cir. 2013) (\"The potential for FDA approval ... may properly be considered, ... in determining whether [a PHOSITA] would be motivated to develop a drug product....\"). However, the FDA communications recite a goal without teaching how the goal is attained. See J.A. 2890-903; see also Innogenetics, N.V. v. Abbott Labs. , 512 F.3d 1363, 1373 (Fed. Cir. 2008) (\"[K]nowledge of a problem and motivation to solve it are entirely different from motivation to combine particular references.\"). Instead, the District Court found that the FDA communications \"reveal that the FDA recognized the challenge the mandate posed for the companies.\" Endo , 2017 WL 3731001, at *12. The FDA communications convey nothing that would have a led a PHOSITA to view Rapoport's teachings in a different light, see J.A. 3517, or to believe that the sulfur process it describes might be more effective on oxymorphone ABUK, see J.A. 2890-903. Therefore, these communications would not have been enough to overcome the disclosures of Weiss, Chapman, and Rapoport, which indicate that a PHOSITA would not reasonably believe their disclosed methods were fruitful avenues to achieve the FDA-mandated oxymorphone purity level. See Abbott Labs. v. Sandoz, Inc. , 544 F.3d 1341, 1352 (Fed. Cir. 2008) (stating, in the context of certain FDA regulations on extended-release formulations, that \"knowledge of the goal does not render its achievement obvious\").\nThis conclusion is further supported by the fact that the inventors of the '779 patent engaged in extensive experimentation, involving much failure, to ultimately produce the oxymorphone of the Asserted Claims. See, e.g. , J.A. 3142 (stating, by an inventor of the '779 patent, that the inventors \"tried many different\" ways to achieve the oxymorphone of the purity claimed, \"but none of [the prior art] tell[s] you which ones will get you below the FDA-mandated level\"), 3249-64 (describing, by a different inventor of the '779 patent, a subset of the experiments engaged in to reach the purity of the claimed oxymorphone), 3464 (acknowledging, by Endo's expert, the \"extensive experimentation\" engaged in by the inventors of the '779 patent to achieve the compounds claimed by the Asserted Claims). The inventors also testified to their concerns when they became aware of the FDA's purity requirement because it represented a dramatic, and potentially problematic, change in light of then-current knowledge and capabilities. See, e.g. , J.A. 3248 (expressing, by an inventor of the '779 patent, that he \"was fairly shocked and concerned\" because \"[10 ppm was] a fairly low number,\" and \"[i]t represent[ed] a fundamentally significant paradigm shift from the way the current [active pharmaceutical ingredient] manufacturing companies monitor and control their impurities\"); see also J.A. 3386 (stating, by the project manager for Mallinckrodt's project to lower ABUK content in opioids, that \"[g]iven that the target level that we were asked to reach for the ABUK[ ] impurities was orders of magnitude lower than where we currently stood, there were a number of challenges on both the process chemistry side as well as the analytical chemistry side\"). Thus, the District Court did not clearly err in finding no reasonable expectation of success.\nActavis argues, and the dissent accepts, that the District Court erred as a matter of law by imposing a heightened standard in its application of the reasonable expectation of success test. See Appellants' Br. 56-57; Dissent Op. 1379-80. We disagree. Although Actavis points to the District Court's usage of the phrase \"definitive solution,\" Appellants' Br. 56-57 (quoting Endo , 2017 WL 3731001, at *9 ), \"[w]e will not find legal error based upon an isolated statement stripped from its context,\" Waymo LLC v. Uber Techs., Inc. , 870 F.3d 1350, 1361 (Fed. Cir. 2017) (internal quotation marks and citation omitted). Instead, the District Court articulated the proper legal standard, see Endo , 2017 WL 3731001, at *6 (\"That 'expectation of success need only be reasonable, not absolute.' \" (quoting Pfizer, Inc. v. Apotex, Inc. , 480 F.3d 1348, 1364 (Fed. Cir. 2007) )), and applied the correct standard, see, e.g. , id. at *10 (explaining that, for Rapoport's sulfur addition and separation process, a PHOSITA would not understand \"that this was a promising method \" and stating a \"single experiment on a different compound\" was insufficient to render the process \"obvious to a [PHOSITA]\" (emphasis added)), *12 (finding \"the FDA mandate [did not] provide[ ] a [PHOSITA] with a reasonable expectation of success \" (emphasis added)). For instance, where the District Court stated that a PHOSITA \"would not find a definitive solution in Chapman\" to the diol problem, id. at *9, it did not solely base its finding on this statement. The District Court carefully surveyed each expert's testimony on this issue, see id. at *8-9, found Actavis's expert's testimony \"not credible in light of [Endo's expert's] explanation of what would happen,\" and concluded that a PHOSITA \"would have understood that it would not be feasible to simply run the reaction as [Actavis's expert] suggested,\" id. at *9. We do not find error in this reasoning. For the reasons stated above, the District Court did not commit clear error in finding that a PHOSITA lacked a reasonable expectation of success, such that the Asserted Claims would not have been obvious.\nCONCLUSION\nWe have considered Actavis's remaining arguments and find them unpersuasive. Accordingly, the Final Judgment of the U.S. District Court for the District of Delaware is\nAFFIRMED\nA ketone comprises \"a carbonyl group\"- an oxygen atom double-bonded to a carbon atom-where the carbon atom of the carbonyl group is single-bonded to two carbon atoms. J.A. 2952 (testimony of Actavis's expert).\nGenerally, catalytic hydrogenation is a process by which hydrogen, along with a catalyst, is added to a compound containing double bonds, i.e., an unsaturated compound, to convert it to a compound containing single bonds, i.e., a saturated compound. See J.A. 2993-94 (testimony of Actavis's expert). A \"catalyst activates the hydrogen,\" and \"[t]he hydrogen adds a double bond and takes a molecule that has a double bond and one hydrogen on each carbon to a single bond with two hydrogens on each carbon.\" J.A. 2993.\nRelevant to this appeal, 14-hydroxymorphinone, also referred to as \"oxymorphone ABUK,\" is an ABUK impurity in oxymorphone and \"is considered a precursor to oxymorphone because it can be made into oxymorphone by adding a hydrogen, resulting in a single bond.\" Endo , 2017 WL 3731001, at *1 ; see id. at *2. In turn, 14-hydroxycodeinone is an ABUK impurity in oxycodone and referred to as \"oxycodone ABUK.\" Id. at *8.\n\"A specification includes both the written description and the claims of the patent.\" Monsanto Tech. LLC v. E.I. DuPont de Nemours & Co. , 878 F.3d 1336, 1341 (Fed. Cir. 2018) (internal quotation marks and citation omitted).\n\"The prosecution history ... consists of the complete record of the proceedings before the [U.S. Patent and Trademark Office]....\" Phillips , 415 F.3d at 1317 (citation omitted).\nAlthough we may also consider the prosecution history, see Home Diagnostics , 381 F.3d at 1356, neither the parties nor we have identified anything in the prosecution history that further elucidates the proper construction of this limitation, see generally Appellants' Br.; Appellees' Br.\nActavis's argument that the Asserted Claims are anticipated by the prior art is dependent on our adopting their proffered construction of 14-hydroxymorphinone. See Appellants' Br. 66-67, 74-75. Since we do not adopt Actavis's construction, we need not address their anticipation argument. See Knowles Elecs. LLC v. Iancu , 886 F.3d 1369, 1373 n.3 (Fed. Cir. 2018) (explaining that \"we need not address the appellant's conditional [invalidity] arguments\" where the lower tribunal \"did not err in its construction of [a] disputed limitation\" (internal quotation marks, brackets, and citation omitted)).\nCongress amended \u00a7 103 when it enacted the Leahy-Smith America Invents Act (\"AIA\"). Pub. L. No. 112-29, \u00a7 3(c), 125 Stat. 284, 287 (2011). Likewise, Congress amended 35 U.S.C. \u00a7 102 through the AIA. See id. \u00a7 3(b), 125 Stat. at 285-87. However, because the application that led to the '779 patent has never contained (1) a claim having an effective filing date on or after March 16, 2013, or (2) a reference under 35 U.S.C. \u00a7\u00a7 120, 121, or 365(c) to any patent or application that ever contained such a claim, the pre-AIA \u00a7\u00a7 102 and 103 apply. See id. \u00a7 3(n)(1), 125 Stat. at 293.\nThe FDA communications mandated that opioid manufacturers reduce ABUK impurities in oxycodone and oxymorphone to below 0.001%. J.A. 2895; see J.A. 2904. Although the District Court concluded that the FDA communications are not prior art, see Endo , 2017 WL 3731001, at *6-7, we disagree. The District Court determined that (1) \"the documents [were not] generally available as required for them to be \u00a7 102(b) prior art,\" id . at *6 (internal quotation marks and citation omitted); see 35 U.S.C. \u00a7 102(b) (stating a patent may be invalid if \"the invention was patented or described in a printed publication in this or a foreign country or in public use or on sale in this country, more than one year prior to the date of the application for patent in the United States\"); and (2) \"declar[ing] a desire to have a product that has a particular characteristic, but ... [not] provid[ing] any teachings on how to achieve that goal,\" is not enough to make a reference prior art under, inter alia, \u00a7 102(f), Endo , 2017 WL 3731001, at *6 n.4 ; see 35 U.S.C. \u00a7 102(f) (prohibiting the grant of a patent to one who \"did not himself invent the subject matter sought to be patented\"). However, we have stated that \u00a7 102(f)\"does not pertain only to public knowledge, but also applies to private communications between the inventor and another which may never become public.\" OddzOn Prods., Inc. v. Just Toys, Inc. , 122 F.3d 1396, 1401-02 (Fed. Cir. 1997). Moreover, we have also provided that, \"[u]nder an obviousness analysis, a reference need not work to qualify as prior art; it qualifies as prior art, regardless, for whatever is disclosed therein.\" Geo. M. Martin Co. v. All. Mach. Sys. Int'l LLC , 618 F.3d 1294, 1302 (Fed. Cir. 2010) (internal quotation marks and citation omitted). Thus, confidentiality and the absence of any teachings of how to accomplish a stated goal do not bar the FDA communications from being considered prior art here. See id. ; OddzOn , 122 F.3d at 1401-02. As discussed below, the District Court considered the FDA communications in its reasonable expectation of success analysis and properly determined that they were insufficient.\nWith regard to each prior art reference, the District Court, citing cognizable evidence, see, e.g. , J.A. 3456 (testimony of Endo's expert regarding Weiss), 3483 (same regarding Chapman), 3516 (same regarding Rapoport), found Endo's expert \"credible and more convincing\" than Actavis's, see Endo , 2017 WL 3731001, at *9 ; see also id. at *8-11. We do not disturb these credibility findings on appeal. See Celsis in Vitro, Inc. v. CellzDirect, Inc. , 664 F.3d 922, 929 (Fed. Cir. 2012) (\"The district court has wide discretion to weigh expert credibility. This court defers to such credibility determinations.\" (citations omitted)).\nIndeed, the District Court considered the FDA communications' import in its motivation to combine or modify analysis. See Endo , 2017 WL 3731001, at *11-12. Actavis argues the District Court clearly erred in finding the FDA communications did not provide a motivation to combine the prior art. Appellants' Br. 44. Even if the FDA communications provided a general motivation to the opioid industry to achieve a particular purity level, see Plantronics , 724 F.3d at 1354, we need not resolve whether it provided the legally-required motivation to combine because we conclude that a PHOSITA would not have a reasonable expectation of success based on the prior art, see Intelligent Bio-Sys., Inc. v. Illumina Cambridge Ltd. , 821 F.3d 1359, 1367 (Fed. Cir. 2016) (explaining that reasonable expectation of success and motivation to combine are \"two different legal concepts\").\nThe dissent raises the concern that, after the FDA imposed a purity requirement for oxymorphone, Endo improperly \"claimed the FDA mandate[d]\" purity levels, rather than \"a specific process.\" Dissent Op. 1381; see id. (\"This is not the type of innovation that the patent system and the obviousness standard were designed to protect.\"). This policy issue does not bear on the legal issue of obviousness presented in this appeal. Instead, patent law allows a party like Endo to gain from its efforts by securing a patent on a composition. See 35 U.S.C. \u00a7 101 (allowing \"[w]hoever invents or discovers any new and useful ... composition of matter\" to \"obtain a patent therefor\").\nThe dissent selectively chooses other statements made by the District Court. See Dissent Op. 1379-80. Regardless, for the reasons explained, we are confident the District Court applied the correct standard. Indeed, we agree that, if the District Court had applied a 'definitive solution' or 'actual success' standard to measure reasonable expectation of success, it would be legal error.\nActavis also argues that the District Court erred in its finding of non-obviousness because a secondary consideration, i.e., simultaneous invention, supports obviousness. See Appellants' Br. 56. Actavis argues three patent applications and one patent close in time to the '779 patent's invention date, all of which disclose compounds of a purity comparable to those claimed by the Asserted Claims, support obviousness. See id. at 51-52. However, the three applications refer to formulations of oxycodone , not oxymorphone, see J.A. 2459-63 (U.S. Patent Application No. 2006/0111383, entitled \"Preparation of Oxycodone\"), 2464-90 (Chapman), 2613-75 (U.S. Provisional Patent Application No. 60/557,492, entitled \"Process for Preparing Oxycodone Substantially Free of 14-Hydroxycodeinone and Compositions Thereof\"), and we agree with the District Court's reasoning that the one successful purification of oxymorphone to the level of that claimed by the Asserted Claims, disclosed in the patent cited by Actavis, is unpersuasive with regard to obviousness, see Endo , 2017 WL 3731001, at *12.",
+        "type": "majority",
+        "author": "Dissenting opinion filed by Circuit Judge Stoll."
+      },
+      {
+        "text": "Stoll, Circuit Judge, dissenting.\nI respectfully dissent. The FDA set a regulatory requirement that ABUK content in oxymorphone products be less than 0.001% (10 ppm). Mallinckrodt then claimed this requirement in the '779 patent. Not only does the FDA's mandate disclose every limitation of claim 1, but it is the only prior art reference that discloses the 0.001% oxymorphone ABUK limitation. Compare J.A. 2736, 2895, with '779 patent col. 37 ll. 58-59. Yet, the district court determined that this mandate did not disclose \"anything substantive relevant to obviousness.\" Endo Pharm. Inc. v. Actavis Inc. , No. CV-14-1381, 2017 WL 3731001, at *7 (D. Del. Aug. 30, 2017) (\" Decision \"). It further erred by imposing a requirement that a reference must teach how to solve a problem to provide a motivation to combine, conflating enablement and reasonable expectation of success requirements with motivation. See id. at *12. Finally, the district court applied an erroneously heightened standard for reasonable expectation of success by requiring a \"definitive solution\" and proof of actual success. Id. at *9. The majority would disregard a number of these errors as harmless, affirming on the lack of a reasonable expectation of success. Given the significance of the court's errors, however, I cannot agree. While we owe deference to a district court's factual findings, such deference is not due where the trial court applies the incorrect standard to arrive at those findings. I would vacate the district court's decision and remand for a proper analysis under the correct legal standards.\nThe district court found that the FDA Communications do not disclose how to achieve low-ABUK oxymorphone, \"nor do they disclose that this result had ever been achieved in the past.... There is simply no disclosure of anything substantive relevant to obviousness in these communications.\" Id. at *7. The district court further found that \"[s]ince the FDA mandate was nothing more than a directive and provided no substantive teachings on how to produce low-ABUK oxymorphone, it cannot serve as a 'motivation to combine' in an obviousness analysis.\" Id. at *12. I fail to see how the FDA Communications do not disclose \"anything substantive relevant to obviousness,\" when they disclose every limitation of claim 1 and are the only references that expressly disclose the limitation of oxymorphone ABUK content less than 0.001%. Id. at *7. It can hardly be disputed that the FDA communications motivated the actual development of the '779 invention. Indeed, as one of the inventors of the '779 patent testified, \"no special attention was focused on\" ABUK impurities prior to the FDA's structural alert. J.A. 3138 at 222:19-21.\nThe district court also erred by elevating the reasonable expectation of success standard to require that the prior art provide a definitive solution to the problem and proof of actual success. For example, in addressing Rapoport, which discloses a sulfur addition reaction followed by extraction, the court required proof that Rapoport's technique was actually used and worked. Specifically, the district court found that a person of ordinary skill would not have thought Rapoport promising because of its poor extraction partition ratio combined with \"the lack of any examples of this method being used successfully .\" Decision , 2017 WL 3731001, at *10 (emphasis added). This is the wrong standard. Had Rapoport disclosed successful use of sulfur addition and extraction to achieve ABUK levels of less than 10 ppm, it would anticipate the claims. As we have repeatedly held, obviousness requires only a reasonable expectation of success, not proof of actual success. See PAR Pharm., Inc. v. TWI Pharm. , Inc., 773 F.3d 1186, 1198 (Fed. Cir. 2014). The district court further erred by requiring proof of actual success regarding Dr. Gokel's proffered combination of Rapoport with conventional precipitation or chromatography. It discounted Dr. Gokel's suggestion as \"purely hypothetical,\" stating that there \"is no evidence anyone ever combined these methods prior to the invention date and Dr. Gokel himself never did any experiments to show that they would work.\" Decision , 2017 WL 3731001, at *10 (emphasis added). As mentioned above, obviousness does not require proof of successful use of a combination, and the court erred by requiring as much.\nThe district court may have recited the correct legal standard, but contrary to what the majority states, the district court certainly did not apply that standard in its analysis. See Majority Op. 1377-78. For example, the district court's finding that a person of ordinary skill would not have found Rapoport \"promising\" was partially based on \"the lack of any examples of [Rapoport] being used successfully.\" Decision , 2017 WL 3731001, at *10. Further, the district court noted that the Macfarlan Smith experiment-the \"single experiment on a different compound\"-did not show ABUK reduction to below 0.001%. Id. In other words, there was no evidence that a sulfur addition technique actually worked. As mentioned above, a reasonable expectation of success does not require proof of actual success. These statements are thus not examples of the district court applying the correct standard, as the majority believes, and instead show the opposite. See Majority Op. 1377-78.\nThe district court similarly erred when considering Chapman. After reviewing testimony from both experts, the district court credited Mallinckrodt's expert, Dr. Davies, and stated that \"even if a person of ordinary skill would view the oxycodone art as informative in researching possible solutions to reducing ABUK levels in oxymorphone, he would not find a definitive solution in Chapman .\" Decision , 2017 WL 3731001, at *9 (emphasis added). This heightened requirement also goes beyond the reasonable expectation of success standard and constitutes legal error. Further, the district court's finding that a person of ordinary skill \"would have understood that it would not be feasible to simply run [Chapman's] reaction to completion as Dr. Gokel suggested,\" focuses on the wrong question. Id. It is not required for catalytic hydrogenation to be run to completion in order to achieve 10 ppm ABUK. In fact, Dr. Gokel testified that Chapman itself-which achieved 5 ppm ABUK-was not run to completion: \"Q: Now, did he run that part of the process to completion to convert the diol into the ABUK so he could then hydrogenate it and make the oxycodone drug? ... A: He did not, but he could have.\" J.A. 3019-20 at 103:22-104:6.\nFinally, the district court erred by conflating the requirements of reasonable expectation of success and motivation to combine. The district court required that the FDA Communications teach how to achieve the claimed invention in order to provide a motivation to combine. See Decision , 2017 WL 3731001, *12. Whether a reference teaches how to achieve the claimed invention speaks to enablement or reasonable expectation of success-entirely separate inquiries from motivation to combine. \"[O]ne must have a motivation to combine accompanied by a reasonable expectation of achieving what is claimed in the patent-at-issue.\" Intelligent Bio-Sys., Inc. v. Illumina Cambridge Ltd. , 821 F.3d 1359, 1367 (Fed. Cir. 2016) (emphasis added). Motivation to combine refers to \"a reason that would have prompted a person of ordinary skill in the relevant field to combine the elements in the way the claimed new invention does.\" KSR Int'l Co. v. Teleflex Inc. , 550 U.S. 398, 418, 127 S.Ct. 1727, 167 L.Ed.2d 705 (2007). A reasonable expectation of success, on the other hand, addresses whether a person of ordinary skill in the art would have understood that the proposed combination or modification would have been reasonably likely to be successful. See, e.g. , UCB, Inc. v. Accord Healthcare, Inc. , 890 F.3d 1313, 1325-26 (Fed. Cir. 2018).\nOur case law does not require that a reference teach how to achieve the claimed invention in order to provide a motivation to combine. The FDA Communications disclose all the limitations of claim 1. They also disclose a reason to modify Weiss, Chapman, or Rapoport to achieve ABUK\nlevels of less than 10 ppm: the FDA required such levels because it had determined that ABUK levels higher than 10 ppm were genotoxic. If these communications also taught \"how the goal is attained,\" they would anticipate the asserted claims-we would have no need to address obviousness.\nFor all these reasons, I would vacate the district court's decision and remand to allow the district court to apply the correct obviousness test and properly consider the role of the FDA mandate-the sole reason for the '779 patent's existence-in the obviousness analysis. This is not a typical Hatch-Waxman case where the patentee provided the public with a new drug, formulation, or manufacturing process. While Mallinckrodt's patent specification is directed to a specific process for achieving the FDA's objective, Mallinckrodt did not claim that process. Mallinckrodt instead claimed the FDA mandate. The FDA sought to make oxymorphone safer for the public and Mallinckrodt took advantage by claiming the directive itself, securing exclusive rights to a drug first approved in 1959. This is not the type of innovation that the patent system and the obviousness standard were designed to protect.",
+        "type": "dissent",
+        "author": "Stoll, Circuit Judge, dissenting."
+      }
+    ],
+    "attorneys": [
+      "Martin Jay Black, Dechert LLP, Philadelphia, PA, argued for plaintiffs-appellees. Also represented by Sharon K. Gagliardi ; Blake Greene, Austin, TX; Jonathan Loeb, Mountain View, CA; Robert Rhoad, Princeton, NJ.",
+      "Jeffrey J. Toney, Kasowitz, Benson, Torres & Friedman LLP, Atlanta, GA, for plaintiff-appellee Mallinckrodt LLC. Also represented by Rodney R. Miller, Paul Gunter Williams.",
+      "John C. O'Quinn, Kirkland & Ellis LLP, Washington, DC, argued for defendants-appellants. Also represented by William H. Burgess ; Charles A. Weiss, Eric H. Yecies, Holland & Knight, LLP, New York, NY."
+    ],
+    "corrections": "",
+    "head_matter": "ENDO PHARMACEUTICALS INC., Mallinckrodt LLC, Plaintiffs-Appellees\nv.\nACTAVIS LLC, fka Actavis Inc., Actavis South Atlantic LLC, Teva Pharmaceuticals USA, Inc., Defendants-Appellants\n2018-1054\nUnited States Court of Appeals, Federal Circuit.\nDecided: May 3, 2019\nMartin Jay Black, Dechert LLP, Philadelphia, PA, argued for plaintiffs-appellees. Also represented by Sharon K. Gagliardi ; Blake Greene, Austin, TX; Jonathan Loeb, Mountain View, CA; Robert Rhoad, Princeton, NJ.\nJeffrey J. Toney, Kasowitz, Benson, Torres & Friedman LLP, Atlanta, GA, for plaintiff-appellee Mallinckrodt LLC. Also represented by Rodney R. Miller, Paul Gunter Williams.\nJohn C. O'Quinn, Kirkland & Ellis LLP, Washington, DC, argued for defendants-appellants. Also represented by William H. Burgess ; Charles A. Weiss, Eric H. Yecies, Holland & Knight, LLP, New York, NY.\nBefore Wallach, Clevenger, and Stoll, Circuit Judges."
+  },
+  "file_name": "1365-01",
+  "first_page_order": 1365,
+  "last_page_order": 1381
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5960316,
+  "name": "Castillo-Campos v. United States",
+  "name_abbreviation": "Castillo-Campos v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8151",
+  "first_page": "1237",
+  "last_page": "1237",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1237"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 81,
+    "ocr_confidence": 0.614,
+    "sha256": "53e828a8b838c455f8f697069aa619f713faf77f788ed398c2d4c939edd7487a",
+    "simhash": "1:0569e6201bd20716",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Castillo-Campos v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. D. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8151.\nCastillo-Campos v. United States."
+  },
+  "file_name": "1237-04",
+  "first_page_order": 1259,
+  "last_page_order": 1259
+}

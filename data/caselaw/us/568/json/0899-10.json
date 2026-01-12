@@ -1,0 +1,59 @@
+{
+  "id": 12415428,
+  "name": "Gaffney v. Tucker, Secretary, Florida Department of Corrections",
+  "name_abbreviation": "Gaffney v. Tucker",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5187",
+  "first_page": "899",
+  "last_page": "899",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 899"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 111,
+    "ocr_confidence": 0.648,
+    "sha256": "5dcb6b00c629f17374daaa034b372ccaef0418d8d833c81c144f3f3d26f9501e",
+    "simhash": "1:617f42628870b02d",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gaffney v. Tucker, Secretary, Florida Department of Corrections."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5187.\nGaffney v. Tucker, Secretary, Florida Department of Corrections."
+  },
+  "file_name": "0899-10",
+  "first_page_order": 975,
+  "last_page_order": 975
+}

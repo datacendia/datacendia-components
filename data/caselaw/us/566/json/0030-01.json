@@ -1,0 +1,1132 @@
+{
+  "id": 12188287,
+  "name": "COLEMAN v. COURT OF APPEALS OF MARYLAND et al.",
+  "name_abbreviation": "Coleman v. Court of Appeals of Maryland",
+  "decision_date": "2012-03-20",
+  "docket_number": "No. 10-1016",
+  "first_page": "30",
+  "last_page": "65",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 30"
+    },
+    {
+      "type": "parallel",
+      "cite": "182 L. Ed. 2d 296"
+    },
+    {
+      "type": "parallel",
+      "cite": "132 S. Ct. 1327"
+    },
+    {
+      "type": "vendor",
+      "cite": "2012 U.S. LEXIS 2315"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2011-032"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "451 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6182103
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "29"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/451/0001-01"
+      ]
+    },
+    {
+      "cite": "563 U. S. 277",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        4225560,
+        12458764
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "284",
+          "parenthetical": "\"A State . . . may choose to waive its immunity in federal court at its pleasure\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/563/0277-01",
+        "/l-ed-2d/179/0700-01"
+      ]
+    },
+    {
+      "cite": "426 U. S. 229",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6175698
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "239"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/426/0229-01"
+      ]
+    },
+    {
+      "cite": "533 U. S. 53",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9312816
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "82-83",
+          "parenthetical": "O'Connor, J., dissenting"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/533/0053-01"
+      ]
+    },
+    {
+      "cite": "521 U. S. 507",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        915698
+      ],
+      "weight": 5,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "520"
+        },
+        {
+          "page": "525"
+        },
+        {
+          "page": "520"
+        },
+        {
+          "page": "532"
+        },
+        {
+          "page": "519"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/521/0507-01"
+      ]
+    },
+    {
+      "cite": "527 U. S. 627",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1248318
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "639"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/527/0627-01"
+      ]
+    },
+    {
+      "cite": "531 U. S. 356",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9505733
+      ],
+      "weight": 2,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "365",
+          "parenthetical": "quoting Kimel, supra, at 81"
+        },
+        {
+          "page": "373"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/531/0356-01"
+      ]
+    },
+    {
+      "cite": "29 U. S. C. \u00a7 2617",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(2)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "427 U. S. 445",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6178587
+      ],
+      "year": 1976,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/427/0445-01"
+      ]
+    },
+    {
+      "cite": "527 U. S. 706",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1248280
+      ],
+      "year": 1999,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/527/0706-01"
+      ]
+    },
+    {
+      "cite": "528 U. S. 62",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9476145
+      ],
+      "weight": 6,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "72-73"
+        },
+        {
+          "page": "81"
+        },
+        {
+          "page": "88"
+        },
+        {
+          "page": "88",
+          "parenthetical": "\"One means by which we have made such a determination ... is by examining the legislative record containing the reasons for Congress' action\""
+        },
+        {
+          "page": "89"
+        },
+        {
+          "page": "82"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/528/0062-01"
+      ]
+    },
+    {
+      "cite": "564 U. S. 1035",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12451075,
+        12451076,
+        12451077,
+        12451078,
+        4335129,
+        5929119,
+        4336935,
+        4331945,
+        4337067,
+        5929265,
+        5922739,
+        4332361,
+        4336989,
+        12450919,
+        12450920,
+        12450921,
+        12450922,
+        12450923,
+        12450925,
+        12450926,
+        12450927,
+        12450928,
+        5930871
+      ],
+      "year": 2011,
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/180/0906-01",
+        "/l-ed-2d/180/0906-02",
+        "/l-ed-2d/180/0906-03",
+        "/l-ed-2d/180/0906-04",
+        "/us/564/1035-09",
+        "/us/564/1035-02",
+        "/us/564/1035-06",
+        "/us/564/1035-03",
+        "/us/564/1035-10",
+        "/us/564/1035-04",
+        "/us/564/1035-07",
+        "/us/564/1035-08",
+        "/us/564/1035-05",
+        "/l-ed-2d/180/0883-04",
+        "/l-ed-2d/180/0883-05",
+        "/l-ed-2d/180/0883-06",
+        "/l-ed-2d/180/0883-07",
+        "/l-ed-2d/180/0883-08",
+        "/l-ed-2d/180/0884-02",
+        "/l-ed-2d/180/0884-03",
+        "/l-ed-2d/180/0884-04",
+        "/l-ed-2d/180/0884-05",
+        "/us/564/1035-01"
+      ]
+    },
+    {
+      "cite": "538 U. S. 721",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9031553
+      ],
+      "weight": 9,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "730-732"
+        },
+        {
+          "page": "726"
+        },
+        {
+          "parenthetical": "\"The clarity of Congress' intent\" to abrogate the States' immunity from suits for damages under the FMLA \"is not fairly debatable\""
+        },
+        {
+          "page": "730-731"
+        },
+        {
+          "page": "732"
+        },
+        {
+          "page": "731"
+        },
+        {
+          "page": "729"
+        },
+        {
+          "page": "735, 738"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/538/0721-01"
+      ]
+    },
+    {
+      "cite": "29 U. S. C. \u00a7 2612",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "259 F. 3d 1",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9497976
+      ],
+      "year": 2001,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/259/0001-01"
+      ]
+    },
+    {
+      "cite": "342 F. 3d 1159",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9101971
+      ],
+      "year": 2003,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/342/1159-01"
+      ]
+    },
+    {
+      "cite": "422 F. 3d 392",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8930347
+      ],
+      "year": 2005,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/422/0392-01"
+      ]
+    },
+    {
+      "cite": "461 F. 3d 871",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3672077
+      ],
+      "year": 2006,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/461/0871-01"
+      ]
+    },
+    {
+      "cite": "481 F. 3d 1106",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3869899
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/481/1106-01"
+      ]
+    },
+    {
+      "cite": "535 F. 3d 318",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5895860
+      ],
+      "year": 2008,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/535/0318-01"
+      ]
+    },
+    {
+      "cite": "626 F. 3d 187",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6051909
+      ],
+      "weight": 2,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "parenthetical": "case below"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/626/0187-01"
+      ]
+    },
+    {
+      "cite": "29 U. S. C. \u00a7 2601",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "et seq."
+        },
+        {
+          "page": "(a)(4)",
+          "parenthetical": "\"[Tjhere is inadequate job security for employees who have serious health conditions that prevent them from working for temporary periods\""
+        },
+        {
+          "page": "(b)(4)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "107 Stat. 6",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "541 U. S. 509",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5877309
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "565-566",
+          "parenthetical": "Thomas, J., dissenting"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/541/0509-01"
+      ]
+    },
+    {
+      "cite": "538 U. S. 721",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9031553
+      ],
+      "weight": 2,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "745-754",
+          "parenthetical": "Kennedy, J., joined by Scalia and Thomas, JJ., dissenting"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/538/0721-01"
+      ]
+    },
+    {
+      "cite": "29 U. S. C. \u00a7 2612",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(1)(D)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "541 U. S. 509",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5877309
+      ],
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "557-558",
+          "parenthetical": "Scalia, J., dissenting"
+        },
+        {
+          "page": "558-560"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/541/0509-01"
+      ]
+    },
+    {
+      "cite": "91 Harv. L. Rev. 1",
+      "category": "journals:journal",
+      "reporter": "Harv. L. Rev.",
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "54, n. 304"
+        }
+      ],
+      "opinion_index": 3
+    },
+    {
+      "cite": "132 U. Pa. L. Rev. 955",
+      "category": "journals:journal",
+      "reporter": "U. Pa. L. Rev.",
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "983-984"
+        }
+      ],
+      "opinion_index": 3
+    },
+    {
+      "cite": "1 Berkeley Women's L. J. 1",
+      "category": "journals:journal",
+      "reporter": "Berkeley Women's L.J.",
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "31",
+          "parenthetical": "\"[Aiello] results in unequal treatment of similarly situated women and men who have engaged respectively in reproductive conduct [and wish to continue working]. It should be overruled.\""
+        }
+      ],
+      "opinion_index": 3
+    },
+    {
+      "cite": "29 U. S. C. \u00a7\u00a7 2631-2632",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 3
+    },
+    {
+      "cite": "92 Stat. 2076,42",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 3
+    },
+    {
+      "cite": "517 U. S. 44",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11744357
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "100",
+          "parenthetical": "Souter, J., dissenting"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/517/0044-01"
+      ]
+    },
+    {
+      "cite": "209 U. S. 123",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8288600
+      ],
+      "year": 1908,
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/209/0123-01"
+      ]
+    },
+    {
+      "cite": "518 U. S. 515",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1730076
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "531",
+          "parenthetical": "\"Parties who seek to defend gender-based government action must demonstrate an exceedingly persuasive justification for that action.\" (internal quotation marks omitted)"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/518/0515-01"
+      ]
+    },
+    {
+      "cite": "94 Yale L. J. 929",
+      "category": "journals:journal",
+      "reporter": "Yale L.J.",
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "942",
+          "parenthetical": "Pregnancy is \"a biological difference central to the definition of gender roles, one traditionally believed to render women unfit for employment.\""
+        }
+      ],
+      "opinion_index": 3
+    },
+    {
+      "cite": "208 U. S. 412",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3642006
+      ],
+      "year": 1908,
+      "pin_cites": [
+        {
+          "page": "422"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/208/0412-01"
+      ]
+    },
+    {
+      "cite": "94 Colum. L. Rev. 2154",
+      "category": "journals:journal",
+      "reporter": "Colum. L. Rev.",
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "2180",
+          "parenthetical": "\"[I]t is precisely because pregnancy is a condition unique to women that the exclusion of pregnancy from disability coverage is a sex-based classification . .. .\""
+        }
+      ],
+      "opinion_index": 3
+    },
+    {
+      "cite": "429 U. S. 125",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8060
+      ],
+      "weight": 2,
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "161-162",
+          "parenthetical": "Stevens, J., dissenting"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/429/0125-01"
+      ]
+    },
+    {
+      "cite": "506 U. S. 263",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11925246
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "327",
+          "parenthetical": "Stevens, J., dissenting"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/506/0263-01"
+      ]
+    },
+    {
+      "cite": "411 U. S. 677",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        10299
+      ],
+      "year": 1973,
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/411/0677-01"
+      ]
+    },
+    {
+      "cite": "404 U. S. 71",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6170912
+      ],
+      "year": 1971,
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/404/0071-01"
+      ]
+    },
+    {
+      "cite": "417 U. S. 484",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1519579
+      ],
+      "weight": 6,
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "495"
+        },
+        {
+          "page": "496-497, n. 20"
+        },
+        {
+          "page": "489"
+        },
+        {
+          "page": "501"
+        },
+        {
+          "page": "496, n. 20"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/417/0484-01"
+      ]
+    },
+    {
+      "cite": "225 F. 3d 519",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11232610
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "547",
+          "parenthetical": "Dennis, J., dissenting"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/f3d/225/0519-01"
+      ]
+    },
+    {
+      "cite": "13 N. Y. U. Rev. L. & Soc. Change 325",
+      "category": "journals:journal",
+      "reporter": "N.Y.U. Rev. L. & Soc. Change",
+      "pin_cites": [
+        {
+          "page": "326-328",
+          "parenthetical": "1984-1985"
+        }
+      ],
+      "opinion_index": 3
+    },
+    {
+      "cite": "479 U. S. 272",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6214961
+      ],
+      "year": 1987,
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/479/0272-01"
+      ]
+    },
+    {
+      "cite": "541 U. S. 509",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5877309
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "522"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/541/0509-01"
+      ]
+    },
+    {
+      "cite": "521 U. S. 507",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        915698
+      ],
+      "weight": 4,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "520"
+        },
+        {
+          "page": "530-532"
+        },
+        {
+          "page": "532"
+        },
+        {
+          "page": "520"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/521/0507-01"
+      ]
+    },
+    {
+      "cite": "531 U. S. 356",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9505733
+      ],
+      "weight": 4,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "366-367"
+        },
+        {
+          "page": "368"
+        },
+        {
+          "page": "377",
+          "parenthetical": "Breyer, J., dissenting"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/531/0356-01"
+      ]
+    },
+    {
+      "cite": "29 U. S. C. \u00a7 2617",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(b)(2)"
+        }
+      ],
+      "opinion_index": 3
+    },
+    {
+      "cite": "528 U. S. 62",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9476145
+      ],
+      "weight": 4,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "81"
+        },
+        {
+          "page": "83-84"
+        },
+        {
+          "page": "89"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/528/0062-01"
+      ]
+    },
+    {
+      "cite": "538 U. S. 721",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9031553
+      ],
+      "weight": 17,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "727-728"
+        },
+        {
+          "page": "728"
+        },
+        {
+          "page": "729"
+        },
+        {
+          "page": "736",
+          "parenthetical": "quoting same language"
+        },
+        {
+          "page": "730, n. 3",
+          "parenthetical": "quoting 1986 House Hearing 33 (statement of Meryl Frank)"
+        },
+        {
+          "page": "729"
+        },
+        {
+          "page": "736"
+        },
+        {
+          "page": "731",
+          "parenthetical": "States' extended \"maternity\" leaves, far exceeding a woman's physical disability following childbirth, were attributable \"to the pervasive sex-role stereotype that caring for family members is women's work.\""
+        },
+        {
+          "page": "738"
+        },
+        {
+          "page": "738-739"
+        },
+        {
+          "page": "735"
+        },
+        {
+          "page": "729-731"
+        },
+        {
+          "page": "731"
+        },
+        {
+          "page": "736"
+        },
+        {
+          "page": "731, n. 4"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/538/0721-01"
+      ]
+    },
+    {
+      "cite": "29 U. S. C. \u00a7 2612",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        },
+        {
+          "page": "(a)(1)(D)"
+        },
+        {
+          "page": "(a)(1)(D)"
+        }
+      ],
+      "opinion_index": 3
+    },
+    {
+      "cite": "259 F. 3d 1",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9497976
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "21",
+          "parenthetical": "dissenting opinion"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/f3d/259/0001-01"
+      ]
+    },
+    {
+      "cite": "29 U. S. C. \u00a7 2601",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(b)(2)"
+        }
+      ],
+      "opinion_index": 3
+    }
+  ],
+  "analysis": {
+    "cardinality": 2348,
+    "char_count": 67514,
+    "ocr_confidence": 0.633,
+    "pagerank": {
+      "raw": 1.0485411538567439e-06,
+      "percentile": 0.984180158766013
+    },
+    "sha256": "acc688c8d43e790242a4c4f6dd4e930dca11991a13363d6a3a1067a04876f5ca",
+    "simhash": "1:784eb8035a144482",
+    "word_count": 10741
+  },
+  "last_updated": "2024-02-27T23:45:15.365324+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Kennedy, J., announced the judgment of the Court and delivered an opinion, in which Roberts, C. J., and Thomas and Auto JJ., joined. Thomas, J., filed a concurring opinion, post, p. 44. Scaua, J., filed an opinion concurring in the judgment, post, p. 44. Ginsburg, J., filed a dissenting opinion, in which Breyer, J., joined, and in which Sotomayor and Kagan, JJ., joined as to all but footnote 1, post, p. 45."
+    ],
+    "parties": [
+      "COLEMAN v. COURT OF APPEALS OF MARYLAND et al."
+    ],
+    "opinions": [
+      {
+        "text": "Justice Kennedy\nannounced the judgment of the Court and delivered an opinion, in which The Chief Justice, Justice Thomas, and Justice Alito joined.\nThe question in this case is whether a state employee is allowed to recover damages from the state entity that employs him by invoking one of the provisions of a federal statute that, in express terms, seeks to abrogate the States\u2019 immunity from suits for damages. The statute in question is the Family and Medical Leave Act of 1993, 107 Stat. 6, 29 U. S. C. \u00a7 2601 et seq. The provision at issue requires employers, including state employers, to grant unpaid leave for self care for a serious medical condition, provided other statutory requisites are met, particularly requirements that the total amount of annual leave taken under all the Act\u2019s provisions does not exceed a stated maximum. \u00a7 2612(a)(1)(D). In agreement with every Court of Appeals to have addressed this question, this Court now holds that suits against States under this provision are barred by the States\u2019 immunity as sovereigns in our federal system. See 626 F. 3d 187 (CA4 2010) (case below); Nelson v. University of Tex., 535 F. 3d 318 (CA5 2008); Miles v. Bellfontaine Habilitation Center, 481 F. 3d 1106 (CA8 2007) (per curiam); Toeller v. Wisconsin Dept. of Corrections, 461 F. 3d 871 (CA7 2006); Touvell v. Ohio Dept, of Mental Retardation & Developmental Disabilities, 422 F. 3d 392 (CA6 2005); Brockman v. Wyoming Dept. of Family Servs., 342 F. 3d 1159 (CA10 2003); Laro v. New Hampshire, 259 F. 3d 1 (CA1 2001).\nI\nA\nThe Family and Medical Leave Act of 1993 (FMLA or Act) entitles eligible employees to take up to 12 workweeks of unpaid leave per year. An employee may take leave under the FMLA for: (A) \u201cthe birth of a son or daughter ... in order to care for such son or daughter,\u201d (B) the adoption or foster-care placement of a child with the employee, (C) the care of a \u201cspouse, . . . son, daughter, or parent\u201d with \u201ca serious health condition,\u201d or (D) the employee\u2019s own serious health condition when the condition interferes with the employee\u2019s ability to perform at work. 29 U. S. C. \u00a7 2612(a)(1). The Act creates a private right of action to seek both equitable relief and money damages \u201cagainst any employer (including a public agency) in any Federal or State court of competent jurisdiction.\u201d \u00a7 2617(a)(2). As noted, subparagraph (D) is at issue here.\nThis Court considered subparagraph (C) in Nevada Dept. of Human Resources v. Hibbs, 538 U. S. 721 (2003). Subpar-agraph (C), like (A) and (B), grants leave for reasons related to family care, and those three provisions are referred to here as the family-care provisions. Hibbs held that Congress could subject the States to suit for violations of subpar-agraph (C), \u00a7 2612(a)(1)(C). That holding rested on evidence that States had family-leave policies that differentiated on the basis of sex and that States administered even neutral family-leave policies in ways that discriminated on the basis of sex. See id., at 730-732. Subparagraph (D), the self-care provision, was not at issue in Hibbs.\nB\nPetitioner Daniel Coleman was employed by the Court of Appeals of the State of Maryland. When Coleman requested sick leave, he was informed he would be terminated if he did not resign. Coleman then sued the state court in the United States District Court for the District of Maryland, alleging, inter alia, that his employer violated the FMLA by failing to provide him with self-care leave.\nThe District Court dismissed the suit on the basis that the Maryland Court of Appeals, as an entity of a sovereign State, was immune from the suit for damages. The parties do not dispute the District Court\u2019s ruling that the Maryland Court of Appeals is an entity or instrumentality of the State for purposes of sovereign immunity. The District Court concluded the FMLA\u2019s self-care provision did not validly abrogate the State\u2019s immunity from suit. App. to Pet. for Cert. 15-20. The Court of Appeals for the Fourth Circuit affirmed, reasoning that, unlike the family-care provision at issue in Hibbs, the self-care provision was not directed at an identified pattern of gender-based discrimination and was not congruent and proportional to any pattern of sex-based discrimination on the part of States. 626 F. 3d 187. Certio-rari was granted. 564 U. S. 1035 (2011).\nII\nA\nA foundational premise of the federal system is that States, as sovereigns, are immune from suits for damages, save as they elect to waive that defense. See Kimel v. Florida Bd. of Regents, 528 U. S. 62, 72-73 (2000); Alden v. Maine, 527 U. S. 706 (1999). As an exception to this principle, Congress may abrogate the States\u2019 immunity from suit pursuant to its powers under \u00a7 5 of the Fourteenth Amendment. See, e. g., Fitzpatrick v. Bitzer, 427 U. S. 445 (1976).\nCongress must \u201cmak[e] its intention to abrogate unmistakably clear in the language of the statute.\u201d Hibbs, 538 U. S., at 726. On this point the Act does express the clear purpose to abrogate the States\u2019 immunity. Ibid. (\u201cThe clarity of Congress\u2019 intent\u201d to abrogate the States\u2019 immunity from suits for damages under the FMLA \u201cis not fairly debatable\u201d). Congress subjected any \u201cpublic agency\u201d to suit under the FMLA, 29 U. S. C. \u00a7 2617(a)(2), and a \u201cpublic agency\u201d is defined to include both \u201cthe government of a State or political subdivision thereof\u201d and \u201cany agency of ... a State, or a political subdivision of a State,\u201d \u00a7\u00a7203(x), 2611(4)(A)(iii).\nThe question then becomes whether the self-care provision and its attempt to abrogate the States\u2019 immunity are a valid exercise of congressional power under \u00a7 5 of the Fourteenth Amendment. Section 5 grants Congress the power \u201cto enforce\u201d the substantive guarantees of \u00a7 1 of the Amendment by \u201cappropriate legislation.\u201d The power to enforce \u201c\u2018includes the authority both to remedy and to deter violation[s] of rights guaranteed\u2019\u201d by \u00a71. See Board of Trustees of Univ. of Ala. v. Garrett, 531 U. S. 356, 365 (2001) (quoting Kimel, supra, at 81). To ensure Congress\u2019 enforcement powers under \u00a7 5 remain enforcement powers, as envisioned by the ratifiers of the Amendment, rather than powers to redefine the substantive scope of \u00a7 1, Congress \u201cmust tailor\u201d legislation enacted under \u00a7 5 to \u201c \u2018remedy or prevent\u2019 \u201d \u201cconduct transgressing the Fourteenth Amendment\u2019s substantive provisions.\u201d Florida Prepaid Postsecondary Ed. Expense Bd. v. College Savings Bank, 527 U. S. 627, 639 (1999).\nWhether a congressional Act passed under \u00a7 5 can impose monetary liability upon States requires an assessment of both the \u201c\u2018evil\u2019 or \u2018wrong\u2019 that Congress intended to remedy,\u201d ibid., and the means Congress adopted to address that evil, see City of Boerne v. Flores, 521 U. S. 507, 520 (1997). Legislation enacted under \u00a7 5 must be targeted at \u201cconduct transgressing the Fourteenth Amendment\u2019s substantive provisions.\u201d Florida Prepaid, supra, at 639; see Kimel, supra, at 88; City of Boerne, 521 U. S., at 525. And \u201c[t]here must be a congruence and proportionality between the injury to be prevented or remedied and the means adopted to that end.\u201d Id., at 520.\nUnder this analysis Hibbs permitted employees to recover damages from States for violations of subparagraph (C). In enacting the FMLA, Congress relied upon evidence of a well-documented pattern of sex-based discrimination in family-leave policies. States had facially discriminatory leave policies that granted longer periods of leave to women than to men. 538 U. S., at 730-731. States also administered facially neutral family-leave policies in gender-biased ways. Id., at 732. These practices reflected what Congress found to be a \u201cpervasive sex-role stereotype that caring for family members is women\u2019s work,\u201d id., at 731, a stereotype to which even this Court had succumbed in earlier times, id., at 729. Faced with \u201cthe States\u2019 record of unconstitutional participation in, and fostering of, gender-based discrimination in the administration of leave benefits,\u201d Hibbs concluded that requiring state employers to give all employees the opportunity to take family-care leave was \u201cnarrowly targeted at the faultline between work and family \u2014 precisely where sex-based overgeneralization has been and remains strongest.\u201d Id., at 735, 738.\nB\nThe same cannot be said for requiring the States to give all employees the opportunity to take self-care leave. Petitioner advances three arguments for allowing employees to recover damages from States that violate the FMLA\u2019s self-care provision: The self-care provision standing alone addresses sex discrimination and sex stereotyping; the provision is a necessary adjunct to the family-care provision sustained in Hibbs; and the provision eases the burden on single parents. But what the family-care provisions have to support them, the self-care provision lacks, namely, evidence of a pattern of state constitutional violations accompanied by a remedy drawn in narrow terms to address or prevent those violations.\n1\nStanding alone, the self-care provision is not a valid abrogation of the States\u2019 immunity from suit. When the FMLA was enacted, \u201cninety-five percent of full-time state- and local-government employees were covered by paid sick leave plans and ninety-six percent of such employees likewise enjoyed short-term disability protection.\u201d Brief for State of Texas et al. as Amici Curiae 13-14 (hereinafter Texas Brief) (citing Bureau of Labor Statistics, U. S. Dept, of Labor, Employee Benefits in State and Local Governments 17-26 (1994) (hereinafter BLS Rept.)). The evidence did not suggest States had facially discriminatory self-care leave policies or that they administered neutral self-care leave policies in a discriminatory way. And there is scant evidence in the legislative history of a purported stereotype harbored by employers that women take self-care leave more often than men. Congress considered evidence that \u201cmen and women are out on medical leave approximately equally.\u201d H. R. Rep. No. 101-28, pt. 1, p. 15 (1989) (hereinafter H. R. Rep.). Nothing in the record shows employers formulated self-care leave policies based on a contrary view.\nWithout widespread evidence of sex discrimination or sex stereotyping in the administration of sick leave, it is apparent that the congressional purpose in enacting the self-care provision is unrelated to these supposed wrongs. The legislative history of the self-care provision reveals a concern for the economic burdens on the employee and the employee\u2019s family resulting from illness-related job loss and a concern for discrimination on the basis of illness, not sex. See, e. g., S. Rep. No. 103-3, pp. 11-12 (1993); H. R. Rep., at 23. In the findings pertinent to the self-care provision, the statute makes no reference to any distinction on the basis of sex. See 29 U. S. C. \u00a7 2601(a)(4) (\u201c[Tjhere is inadequate job security for employees who have serious health conditions that prevent them from working for temporary periods\u201d). By contrast, with regard to family care Congress invoked concerns related to gender. See \u00a7 2601(a)(5) (\u201c[D]ue to the nature of the roles of men and women in our society, the primary responsibility for family caretaking often falls on women, and such responsibility affects the working lives of women more than it affects the working lives of men\u201d).\nIt is true the self-care provision offers some women a benefit by allowing them to take leave for pregnancy-related illnesses; but as a remedy, the provision is not congruent and proportional to any identified constitutional violations. At the time of the FMLA\u2019s enactment, \u201cninety-five percent\u201d of state employees had paid sick-leave plans at work, and \u201cninety-six percent\u201d had short-term disability protection. Texas Brief 13-14 (citing BLS Rept. 17-26). State employees presumably could take leave for pregnancy-related illnesses under these policies, and Congress did not document any pattern of States excluding pregnancy-related illnesses from sick-leave or disability-leave policies. \u201cCongress . . . said nothing about the existence or adequacy of state remedies.\u201d Florida Prepaid, 527 U. S., at 644. It follows that abrogating the States\u2019 immunity from suits for damages for failure to give self-care leave is not a congruent and proportional remedy if the existing state leave policies would have sufficed.\n2\nAs an alternative justification for the self-care provision, it has been suggested that the provision is a necessary adjunct to the family-care provisions. Petitioner argues that employers may assume women are more likely to take family-care leave than men and that the FMLA therefore offers up to 12 weeks of leave for family care and self care combined. According to petitioner, when the self-care provision is coupled with the family-care provisions, the self-care provision could reduce the difference in the expected number of weeks of FMLA leave that different employees take for different reasons.\nThe fact that self-care leave could have this effect does not mean that it would. If, for example, women are expected to take 20 days of family-care leave per year and men to take 10, and women and men are each expected to take 5 days of self-care leave per year, the difference in the expected number of days of leave and cost to the employer remains the same regardless of the availability of self-care leave. Congress made no findings, and received no specific testimony, to suggest the availability of self-care leave equalizes the expected amount of FMLA leave men and women will take. Even if women take family-care leave more often than men, men do not take self-care leave more often than women; and there is little evidence that employers assume they do. See H. R. Rep., at 15. Petitioner suggests that some women will be expected to take all 12 weeks of leave under the FMLA for family-care purposes, and therefore that any amount of self-care leave taken by men will diminish the difference in the amount of FMLA leave taken by men and women. But there is little evidence to support petitioner\u2019s assumption about the magnitude of women\u2019s expected FMLA leave for family-care purposes. And men are only expected to take five days of sick leave per year, see ibid., so the self-care provision diminishes the difference in expected leave time by a maximum of five days. And that is only to the extent women use all their available FMLA leave for family-care reasons. Petitioner\u2019s overly complicated argument about how the self-care provision works in tandem with the family-care provisions is unconvincing and in the end does not comply with the clear requirements of City of Boerne.\nIn addition petitioner\u2019s first defense of the self-care provision contradicts his second defense of the provision. In the first defense, the Court is told employers assume women take more self-care leave than men. See Tr. of Oral Arg. 10-12. In the second defense, the Court is told the self-care provision provides an incentive to hire women that will counteract the incentives created by the family-care provisions because employers assume women take more family-care leave than men. But if the first defense is correct, the second defense is wrong. In other words, if employers assume women take self-care leave more often than men (the first defense), a self-care provision will not provide an incentive to hire women. To the contrary, the self-care provision would provide an incentive to discriminate against women.\nThere is \u201clittle support in the record for the concerns that supposedly animated\u201d the self-care provision. Florida Prepaid, supra, at 639. Only supposition and conjecture support the contention that the self-care provision is necessary to make the family-care provisions effective. The evidence documented in support of the self-care provision is, to a large degree, unrelated to sex discrimination, or to the administration of the family-care provisions. See supra, at 38. Congress made no findings and did not cite specific or detailed evidence to show how the self-care provision is necessary to the family-care provisions or how it reduces an employer\u2019s incentives to discriminate against women. And \u201cCongress . . . said nothing about the existence or adequacy of state\u201d sick-leave policies. Florida, Prepaid, supra, at 644; see Garrett, 531 U. S., at 373. Under this Court\u2019s precedents, more is required to subject unconsenting States to suits for damages, particularly where, as here, it is for violations of a provision (the self-care provision) that is a supposedly preventive step in aid of already preventive provisions (the family-care provisions). See Florida Prepaid, supra, at 642 (\u201c[T]he legislative record still provides little support for the proposition that Congress sought to remedy a Fourteenth Amendment violation in enacting the Patent Remedy Act\u201d); Kimel, 528 U. S., at 88 (\u201cOne means by which we have made such a determination ... is by examining the legislative record containing the reasons for Congress\u2019 action\u201d).\nThe \u201cfew fleeting references\u201d to how self-care leave is inseparable from family-care leave fall short of what is required for a valid abrogation of States\u2019 immunity from suits for damages. Florida Prepaid, supra, at 644. These \u201cisolated sentences clipped from floor debates\u201d and testimony, Kimel, supra, at 89, are stated as conclusions, unsupported by evidence or findings about how the self-care provision interrelates to the family-care provisions to counteract employers\u2019 incentives to discriminate against women. Congress must rely on more than abstract generalities to subject the States to suits for damages. Otherwise, Congress could choose to combat the purported effects of the family-care provisions by allowing employees to sue States that do not permit employees to take vacation time under the FMLA. There is nothing in particular about self-care leave, as opposed to leave for any personal reason, that connects it to gender discrimination. And when the issue, as here, is whether subparagraph (D) can abrogate a State\u2019s immunity from damages, there is no sufficient nexus, or indeed any demonstrated nexus, between self-care leave and gender discrimination by state employers. Documented discrimination against women in the general workplace is a persistent, unfortunate reality, and, we must assume, a still prevalent wrong. An explicit purpose of the Congress in adopting the FMLA was to improve workplace conditions for women. See 29 U. S. C. \u00a7\u00a7 2601(b)(4), (5). But States may not be subject to suits for damages based on violations of a comprehensive statute unless Congress has identified a specific pattern of constitutional violations by state employers. See City of Boerne, 521 U. S., at 532.\n3\nPetitioner\u2019s last defense of the self-care provision is that the provision helps single parents retain their jobs when they become ill. This, however, does not explain how the provision remedies or prevents constitutional violations. The fact that most single parents happen to be women, see, e. g., S. Rep. No. 103-3, at 7, demonstrates, at most, that the self-care provision was directed at remedying employers\u2019 neutral leave restrictions which have a disparate effect on women. \u201cAlthough disparate impact may be relevant evidence of... discrimination ... such evidence alone is insufficient [to prove a constitutional violation] even where the Fourteenth Amendment subjects state action to strict scrutiny.\u201d Garrett, supra, at 372-373; see Tuan Anh Nguyen v. INS, 533 U. S. 53, 82-83 (2001) (O\u2019Connor, J., dissenting); Washington v. Davis, 426 U. S. 229, 239 (1976). To the extent, then, that the self-care provision addresses neutral leave policies with a disparate impact on women, it is not directed at a pattern of. constitutional violations. Because, moreover, it is \u201cunlikely that many of the [neutral leave policies]... affected by\u201d the self-care provision are unconstitutional, \u201cthe scope of the [self-care provision is] out of proportion to its supposed remedial or preventive objectives.\u201d Kimel, supra, at 82; see City of Boerne, supra, at 519.\nOf course, a State need not assert its Eleventh Amendment immunity from suits for damages. See, e. g., Sossamon v. Texas, 563 U. S. 277, 284 (2011) (\u201cA State . . . may choose to waive its immunity in federal court at its pleasure\u201d). Discrimination against women is contrary to the public policy of the State of Maryland, see, e. g., Maryland\u2019s Fair Employment Practices Act, Md. State Govt. Code Ann. \u00a7 20-606 (Lexis 2009), and the State has conceded that the Act is good social policy, see Tr. of Oral Arg. 35. If the State agrees with petitioner that damages liability for violations of the self-care provision is necessary to combat discrimination against women, the State may waive its immunity or create a parallel state-law cause of action.\n\u215c * *\nAs a consequence of our constitutional design, money damages are the exception when sovereigns are defendants. See, e. g., Pennhurst State School and Hospital v. Halderman, 451 U. S. 1, 29 (1981). Subjecting States to suits for damages pursuant to \u00a75 requires more than a theory for why abrogating the States\u2019 immunity aids in, or advances, a stated congressional purpose. To abrogate the States\u2019 immunity from suits for damages under \u00a7 5, Congress must identify a pattern of constitutional violations and tailor a remedy congruent and proportional to the documented violations. It failed to do so when it allowed employees to sue States for violations of the FMLA\u2019s self-care provision. The judgment of the Court of Appeals is affirmed.\nIt is so ordered.",
+        "type": "majority",
+        "author": "Justice Kennedy"
+      },
+      {
+        "text": "Justice Thomas,\nconcurring.\nI join the plurality\u2019s opinion holding that Congress did not validly abrogate the States\u2019 immunity from suit for money damages for violations of the self-care provision of the Family and Medical Leave Act of 1993 (FMLA), 29 U. S. C. \u00a7 2612(a)(1)(D). As the plurality explains, this case is distinguishable from Nevada Dept. of Human Resources v. Hibbs, 538 U. S. 721 (2003), which held that Congress validly abrogated the States\u2019 immunity from suit for violations of the FMLA\u2019s family-care provision, \u00a7 2612(a)(1)(C). Ante, at 37. I write separately only to reiterate my view that Hibbs was wrongly decided because the family-care provision is not sufficiently linked to a demonstrated pattern of unconstitutional discrimination by the States. See 538 U. S., at 745-754 (Kennedy, J., joined by Scalia and Thomas, JJ., dissenting); Tennessee v. Lane, 541 U. S. 509, 565-566 (2004) (Thomas, J., dissenting). The self-care provision at issue in this ease is even further removed from any such pattern.",
+        "type": "concurrence",
+        "author": "Justice Thomas,"
+      },
+      {
+        "text": "Justice Scalia,\nconcurring in the judgment.\nThe plurality\u2019s opinion seems to me a faithful application of our \u201ccongruence and proportionality\u201d jurisprudence. So does the opinion of the dissent. That is because the varying outcomes we have arrived at under the \u201ccongruence and proportionality\u201d test make no sense. Which in turn is because that flabby test is \u201ca standing invitation to judicial arbitrariness and policy-driven decisionmaking,\u201d Tennessee v. Lane, 541 U. S. 509, 557-558 (2004) (Scalia, J., dissenting). Moreover, in the process of applying (or seeming to apply) the test, we must scour the legislative record in search of evidence that supports the congressional action. See ante, at 37-43; post, at 59-64 (Ginsburg, J., dissenting). This grading of Congress\u2019s homework is a task we are ill suited to perform and ill advised to undertake.\nI adhere to my view that we should instead adopt an approach that is properly tied to the text of \u00a7 5, which grants Congress the power \u201cto enforce, by appropriate legislation,\u201d the other provisions of the Fourteenth Amendment. (Emphasis added.) As I have explained in greater detail elsewhere, see Lane, supra, at 558-560, outside of the context of racial discrimination (which is different for stare decisis reasons), I would limit Congress\u2019s \u00a7 5 power to the regulation of conduct that itself violates the Fourteenth Amendment. Failing to grant state employees leave for the purpose of self-care \u2014 or any other purpose, for that matter \u2014 does not come close.\nAccordingly, I would affirm the judgment of the Court of Appeals.",
+        "type": "concurrence",
+        "author": "Justice Scalia,"
+      },
+      {
+        "text": "Justice Ginsburg,\nwith whom Justice Breyer joins, and with whom Justice Sotomayor and Justice Kagan join as to all but footnote 1, dissenting.\nSection 1 of the Fourteenth Amendment provides: \u201cNo State shall... deny to any person within its jurisdiction the equal protection of the laws.\u201d Section 5 grants Congress the \u201cpower to enforce, by appropriate legislation, the provisions of this article.\u201d Congress\u2019 \u00a75 enforcement power includes the authority to remedy and deter violations of \u00a7 l\u2019s substantive guarantees by prohibiting conduct \u201cnot itself forbidden by the Amendment\u2019s text.\u201d Kimel v. Florida Bd. of Regents, 528 U. S. 62, 81 (2000). \u201cIn other words, Congress may enact so-called prophylactic legislation that proscribes facially constitutional conduct, in order to prevent and deter unconstitutional conduct.\u201d Nevada Dept. of Human Resources v. Hibbs, 538 U. S. 721, 727-728 (2003).\nThe Family and Medical Leave Act of 1993 (FMLA or Act) entitles eligible employees to 12 weeks of job-secured leave during any 12-month period: (A) to care for a newborn son or daughter; (B) to care for a newly adopted son or daughter; (C) to care for a spouse, child, or parent with a serious health condition; or (D) because the employee has a serious health condition that makes her unable to perform the functions of her position. 29 U. S. C. \u00a7 2612(a)(1).\nEven accepting this Court\u2019s view of the scope of Congress\u2019 power under \u00a75 of the Fourteenth Amendment, I would hold that the self-care provision, \u00a7 2612(a)(1)(D), validly enforces the right to be free from gender discrimination in the workplace.\nI\nSection 5 legislation \u201cmust be targeted at conduct transgressing the Fourteenth Amendment\u2019s substantive provisions,\u201d ante, at 36 (internal quotation marks omitted), \u201c[a]nd \u2018[t]here must be a congruence and proportionality between the injury to be prevented or remedied and the means adopted to that end.\u2019 \u201d Ibid, (quoting City of Boerne v. Flores, 521 U. S. 507, 520 (1997)). The first step of the now-familiar Boerne inquiry calls for identification of the constitutional right Congress sought to enforce. See, e. g., Tennessee v. Lane, 541 U. S. 509, 522 (2004). The FMLA\u2019s self-care provision, Maryland asserts, trains not on the right to be free from gender discrimination, but on an \u201cequal protection right to be free from irrational state employment discrimination based on a medical condition.\u201d Brief for Respondents 14. The plurality agrees, concluding that the self-care provision reveals \u201ca concern for discrimination on the basis of illness, not sex.\u201d Ante, at 38. In so declaring, the plurality undervalues the language, purpose, and history of the FMLA, and the self-care provision\u2019s important role in the statutory scheme. As well, the plurality underplays the main theme of our decision in Hibbs: \u201cThe FMLA aims to protect the right to be free from gender-based discrimination in the workplace.\u201d 538 U. S., at 728.\nI begin with the text of the statute, which repeatedly emphasizes gender discrimination. One of the FMLA\u2019s stated purposes is to \u201centitle employees to take reasonable leave,\u201d 29 U. S. C. \u00a7 2601(b)(2), \u201cin a manner that, consistent with the Equal Protection Clause of the Fourteenth Amendment, minimizes the potential for employment discrimination on the basis of sex by ensuring generally that leave is available for eligible medical reasons (including maternity-related disability) and for compelling family reasons, on a gender-neutral basis,\u201d \u00a7 2601(b)(4). Another identified aim is \u201cto promote the goal of equal employment opportunity for women and men, pursuant to [the Equal Protection Clause].\u201d \u00a7 2601(b)(5). \u201c[E]mployment standards that apply to one gender only,\u201d Congress expressly found, \u201chave serious potential for encouraging employers to discriminate against employees and applicants for employment who are of that gender.\u201d \u00a7 2601(a)(6).\nThe FMLA\u2019s purpose and legislative history reinforce the conclusion that the FMLA, in its entirety, is directed at sex discrimination. Indeed, the FMLA was originally envisioned as a way to guarantee \u2014 without singling out women or pregnancy \u2014 that pregnant women would not lose their jobs when they gave birth. The self-care provision achieves that aim.\nA brief history is in order. In his 1982 congressional campaign, then-candidate Howard Berman pledged to introduce legislation similar to the California law challenged in California Fed. Sav. & Loan Assn. v. Guerra, 479 U. S. 272 (1987). S. Wisensale, Family Leave Policy: The Political Economy of Work and Family in America 134 (2001) (hereinafter Wisensale). California\u2019s law, enacted in 1978, made it unlawful for an employer to refuse to grant female employees disabled by pregnancy or childbirth up to four months\u2019 unpaid, job-protected leave. See 1978 Cal. Stats, ch. 1321, \u00a7 1, now codified at Cal. Govt. Code Ann. \u00a7 12945(a)(1) (West Supp. 2012).\nThe California law sharply divided women\u2019s rights advocates. \u201cEqual-treatment\u201d feminists asserted it violated the Pregnancy Discrimination Act\u2019s (PDA) commitment to treating pregnancy the same as other disabilities. It did so by requiring leave only for disability caused by pregnancy and childbirth, thereby treating pregnancy as sui generis. See Brief for American Civil Liberties Union et al. as Amici Curiae in California Fed., O. T. 1985, No. 85-494, pp. 5-10. \u201cEqual-opportunity\u201d feminists disagreed, urging that the California law was consistent with the PDA because it remedied the discriminatory burden that inadequate leave policies placed on a woman\u2019s right to procreate. See Brief for Coalition for Reproductive Equality in the Workplace et al. as Amici Curiae in id., at 2-6. See also Williams, Equality\u2019s Riddle: Pregnancy and the Equal Treatment/ Special Treatment Debate, 13 N. Y. U. Rev. L. & Soc. Change 325, 326-328 (1984-1985) (hereinafter Williams) (discussing disagreement).\nWhile California Fed. moved through the lower federal courts, equal-treatment feminists began work on a gender-neutral leave model, which eventually became the FMLA. See Ross, Legal Aspects of Parental Leave, in Parental Leave and Child Care 97 (J. Hyde & M. Essex eds. 1991) (hereinafter Ross). Then-Congressman Berman met with the Women\u2019s Legal Defense Fund\u2019s Donna Lenhoff, a drafter of the first FMLA bill. Id., at 114-115, n. 27; Wisensale 136. They agreed that any national bill would focus not only on pregnancy, but on equal treatment for all workers. Ross 114-115, n. 27. See also Kazmier v. Widmann, 225 F. 3d 519, 547 (CA5 2000) (Dennis, J., dissenting) (\u201cPerceiving that enacting the PDA had not achieved the intended result of preventing discrimination against either women or men in the granting of leave time in that the States felt it necessary to affirmatively grant pregnancy leave to women and not men, in 1985 Congress began considering the issue of family and medical leave.\u201d).\nThough this Court, in California Fed., eventually upheld California\u2019s pregnancy-only leave policy as not preempted by the PDA, equal-treatment feminists continued to believe that viewing pregnancy as sui generis perpetuated widespread discrimination against women. They therefore maintained their commitment to gender-neutral leave. See Joint Hearing on H. R. 925 before the Subcommittee on Civil Service and the Subcommittee on Compensation and Employee Benefits of the House Committee on Post Office and Civil Service, 100th Cong., 1st Sess., 36 (1987) (hereinafter 1987 House Hearing) (statement of Prof. Eleanor Holmes Norton, Georgetown University Law Center) (\u201c[If California Fed.] becomes the model, employers will provide something for women affected by pregnancy that they are not required to provide for other employees. This gives fodder to those who seek to discriminate against women in employment.... In the [California Fed.] case, I would have preferred the interpretation urged by the [equal-treatment feminists].\u201d).\nCongress agreed. See infra, at 58-59. Adhering to equal-treatment feminists\u2019 aim, the self-care provision, 29 U. S. C. \u00a7 2612(a)(1)(D), prescribes comprehensive leave for women disabled during pregnancy or while recuperating from childbirth \u2014 without singling out pregnancy or childbirth. See S. Rep. No. 101-77, p. 32 (1989) (A \u201csignificant benefit of the temporary medical leave provided by this legislation is the form of protection it offers women workers who bear children. Because the bill treats all employees who are temporarily unable to work due to serious health conditions in the same fashion, it does not create the risk of discrimination against pregnant women posed by legislation which provides job protection only for pregnancy-related disability. Legislation solely protecting pregnant women gives employers an economic incentive to discriminate against women in hiring policies; legislation helping all workers equally does not have this effect.\u201d)- In view of this history, it is impossible to conclude that \u201cnothing in particular about self-care leave . . . connects it to gender discrimination.\u201d Ante, at 42.\nII\nA\nBoerne next asks \u201cwhether Congress had evidence of a pattern of constitutional violations on the part of the States.\u201d Hibbs, 538 U. S., at 729. See also Boerne, 521 U. S., at 530-532. Beyond question, Congress had evidence of a well-documented pattern of workplace discrimination against pregnant women. Section 2612(a)(1)(D) can therefore \u201cbe understood as responsive to, or designed to prevent, unconstitutional behavior.\u201d Id., at 532.\nAlthough the PDA proscribed blatant discrimination on the basis of pregnancy, see 42 U. S. C. \u00a7\u00a7 2000e(k), 2000e-2, supra, at 48, n. 2, the Act is fairly described as a necessary, but not a sufficient, measure. FMLA hearings conducted between 1986 and 1993 included illustrative testimony from women fired after becoming pregnant or giving birth. For example, Beverly Wilkenson was granted seven weeks of leave upon the birth of her child. On the eve of her return to work, a superior informed her that her job had been eliminated. He stated: \u201cBeverly, the best thing for you to do is stay home and take care of your baby and collect your unemployment.\u201d Hearing on H. R. 770 before the Subcommittee on Labor-Management Relations of the House Committee on Education and Labor, 101st Cong., 1st Sess., 12 (1989) (hereinafter 1989 House Hearing) (statement of Beverly Wilkenson). See also S. Rep, No. 102-68, p. 27 (1991) (hereinafter 1991 Senate Report) (describing Ms. Wilken-son\u2019s testimony). Similarly, Linda Pillsbury was notified that she no longer had a job three weeks after her daughter was born. Three secretaries at the same workplace were also forced out of their jobs when they returned to work within weeks of giving birth. See Hearings on S. 249 before the Subcommittee on Children, Family, Drugs and Alcoholism of the Senate Committee on Labor and Human Resources, 100th Cong., 1st Sess., pt. 2, pp. 16,23 (1987) (hereinafter 1987 Senate Hearings) (statement of Linda Pillsbury).\nThese women\u2019s experiences, Congress learned, were hardly isolated incidents. A spokeswoman for the Mayor\u2019s Commission on Women\u2019s Affairs in Chicago testified: \u201cThe lack of uniform parental and medical leave policies in the workplace has created an environment where discrimination is rampant. Very often we are contacted by women workers who are at risk of losing their jobs or have lost them because they are pregnant, [or have] given birth.\u201d Id., at 170 (statement of Peggy Montes). See also Joint Hearing on The Parental and Medical Leave Act of 1986 before the Subcommittee on Labor-Management Relations and the Subcommittee on Labor Standards of the House Committee on Education and Labor, 99th Cong., 2d Sess., 110, n. 18 (1986) (hereinafter 1986 House Hearing) (statement of Women\u2019s Legal Defense Fund) (\u201c[W]omen who are temporarily unable to work due to pregnancy, child-birth, and related medical conditions such as morning sickness, threatened miscarriage, or complications arising from childbirth, often lose their jobs because of the inadequacy of their employers\u2019 leave policies.\u201d); 1991 Senate Report 28 (recording that an Atlanta-based job counseling hotline received approximately 100 calls eaeh year from women who were fired, harassed, or forced out of their jobs due to pregnancy or maternity-disability leave); 139 Cong. Rec. 1826 (1993) (remarks of Sen. Edward Kennedy) (\u201c[W]omen who are pregnant are discriminated against as a general rule in our society and have difficulty retaining their jobs.\u201d)- As summarized by the American Bar Association:\n\u201cHistorically, denial or curtailment of women\u2019s employment opportunities has been traceable directly to the pervasive presumption that women are mothers first, and workers second. This prevailing ideology about women\u2019s roles has in turn justified discrimination against women when they are mothers or mothers-to-be.\u201d 1989 House Hearing 248 (American Bar Association Background Report). See also Hibbs, 538 U. S., at 736 (quoting same language).\n\u201cMany pregnant women have been fired when their employer refused to provide an adequate leave of absence,\u201d Congress had ample cause to conclude. See H. R. Rep. No. 99-699, pt. 2, p. 22 (1986). Pregnancy, Congress also found, has a marked impact on women\u2019s earnings. One year after childbirth, mothers\u2019 earnings fell to $1.40 per hour less than those of women who had not given birth. See 1991 Senate Report 28. See also 1989 House Hearing 356-357 (Report of 9to5, National Association of Working Women (citing same study)).\nCongress heard evidence tying this pattern of discrimination to the States. A 50-state survey by the Yale Bush Center Infant Care Leave Project concluded that \u201c[t]he proportion and construction of leave policies available to public sector employees differs little from those offered private sector employees.\u201d Hibbs, 538 U. S., at 730, n. 3 (quoting 1986 House Hearing 33 (statement of Meryl Frank)). Roughly 28% of women employed in the public sector did not receive eight weeks of job-protected medical leave to recover from childbirth. See 1987 Senate Hearings, pt. 1, pp. 31, 35, 39 (statement of James T. Bond, National Council of Jewish Women). A South Carolina state legislator testified: \u201c[I]n South Carolina, as well as in other states ... no unemployment compensation is paid to a woman who is necessarily absent from her place of employment because of pregnancy or maternity.\u201d See id., pt. 2, p. 361 (statement of Rep. Irene Rudnick). According to an employee of the State of Georgia, if state employees took leave, it was held against them when they were considered for promotions: \u201cIt is common practice for my Department to compare the balance sheets of workers who have and have not used [leave] benefits in determining who should and should not be promoted.\u201d Hearing on H. R. 2 before the Subcommittee on Labor-Management Relations of the House Committee on Education and Labor, 102d Cong., 1st Sess., 36 (1991) (statement of Robert E. Dawkins). See also id., at 33 (One type of leave for Georgia state employees \u201cboils down to whether your supervisor wants you to come back or not.\u201d). In short, Congress had every reason to believe that a pattern of workplace discrimination against pregnant women existed in public-sector employment, just as it did in the private sector.\nB\n\u201c[A] state\u2019s refusal to provide pregnancy leave to its employees,\u201d Maryland responds, is \u201cnot unconstitutional.\u201d Brief for Respondents 23 (citing Geduldig v. Aiello, 417 U. S. 484, 495 (1974)). Aiello\u2019s footnote 20 proclaimed that discrimination on the basis of pregnancy is not discrimination on the basis of sex. In my view, this case is a fit occasion to revisit that conclusion. Footnote 20 reads:\n\u201cThe dissenting opinion , to the contrary, this case is ... a far cry from cases like Reed v. Reed, 404 U. S. 71 (1971), and Frontiero v. Richardson, 411 U. S. 677 (1973), involving discrimination based upon gender as such. The California insurance program does not exclude anyone from benefit eligibility because of gender but merely removes one physical condition\u2014 pregnancy \u2014 from the list of compensable disabilities. While it is true that only women can become pregnant, it does not follow that every legislative classification concerning pregnancy is a sex-based classification ....\n\u201cThe lack of identity between the excluded disability and gender as such , under this insurance program becomes clear upon the most cursory analysis. The program divides potential recipients into two groups\u2014 pregnant women and nonpregnant persons. While the first group is exclusively female, the second includes members of both sexes. The fiscal and actuarial benefits of the program thus accrue to members of both sexes.\u201d 417 U. S., at 496-497, n. 20.\nFirst, \u201c[a]s an abstract statement,\u201d it is \u201csimply false\u201d that \u201ca classification based on pregnancy is gender neutral.\u201d Bray v. Alexandria Women\u2019s Health Clinic, 506 U. S. 263, 327 (1993) (Stevens, J., dissenting). Rather, discriminating on the basis of pregnancy \u201c[b]y definition . . . discriminates on account of sex; for it is the capacity to become pregnant which primarily differentiates the female from the male.\u201d General Elec. Co. v. Gilbert, 429 U. S. 125, 161-162 (1976) (Stevens, J., dissenting). See also Issacharoff & Rosenblum, Women and the Workplace: Accommodating the Demands of Pregnancy, 94 Colum. L. Rev. 2154, 2180 (1994) (\u201c[I]t is precisely because pregnancy is a condition unique to women that the exclusion of pregnancy from disability coverage is a sex-based classification . .. .\u201d).\nThis reality is well illustrated by the facts of Aiello. The California disability-insurance program at issue granted disability benefits for virtually any conceivable work disability, including those arising from cosmetic surgery, skiing accidents, and alcoholism. See Brief for Equal Employment Opportunity Commission as Amicus Curiae in Aiello, O. T. 1973, No. 73-640, p. 7. It also compensated men for disabilities caused by ailments and procedures that affected men alone: for example, vasectomies, circumcision, and prostatec-tomies. See Brief for American Civil Liberties Union et al. as Amici Curiae in id., at 17-18. Only pregnancy was excluded from the definition of disability. See Cal. Un. Ins. Code Ann. \u00a7 2626 (West 1972); Aiello, 417 U. S., at 489. As Justice Brennan insightfully concluded in dissent, \u201ca limitation is imposed upon the disabilities for which women workers may recover, while men receive full compensation for all disabilities suffered .... Such dissimilar treatment of men and women, on the basis of physical characteristics inextricably linked to one sex, inevitably constitutes sex discrimination.\u201d Id., at 501.\nSecond, pregnancy provided a central justification for the historic discrimination against women this Court chronicled in Hibbs. See 538 U. S., at 729 (\u201c[A] proper discharge of [a woman's] maternal functions \u2014 having in view not merely her own health, but the well-being of the race \u2014 justifies] legislation to protect her from the greed as well as the passion of man.\u201d (quoting Muller v. Oregon, 208 U. S. 412, 422 (1908); 2d and 3d alterations in Hibbs)). See also Siegel, Employment Equality Under the Pregnancy Discrimination Act of 1978, 94 Yale L. J. 929, 942 (1985) (Pregnancy is \u201ca biological difference central to the definition of gender roles, one traditionally believed to render women unfit for employment.\u201d). Relatedly, discrimination against pregnant employees was often \u201cbased not on the pregnancy itself but on predictions concerning the future behavior of the pregnant woman when her child was born or on views about what her behavior should be.\u201d Williams 355. See also S. Rep. \u00d1o. 95-331, p. 3 (1977) (\u201c[T]he assumption that women will become pregnant and leave the labor market is at the core of the sex stereotyping resulting in unfavorable disparate treatment of women in the workplace.\u201d).\nIn sum, childbearing is not only a biological function unique to women. It is also inextricably intertwined with employers\u2019 \u201cstereotypical views about women\u2019s commitment to work and their value as employees.\u201d Hibbs, 538 U. S., at 736. Because pregnancy discrimination is inevitably sex discrimination, and because discrimination against women is tightly interwoven with society\u2019s beliefs about pregnancy and motherhood, I would hold that Aiello was egregiously wrong to declare that discrimination on the basis of pregnancy is not discrimination on the basis of sex.\nC.\nBoerne\u2019s third step requires \u201c\u2018a congruence and proportionality between the injury to be prevented or remedied and the means adopted to that end.\u2019 \u201d Ante, at 36 (quoting 521 U. S., at 520). Section 2612(a)(1)(D), I would conclude, is an appropriate response to pervasive discriminatory treatment of pregnant women. In separating self-care leave for the physical disability following childbirth, \u00a7 2612(a)(1)(D), which affects only women, from family-care leave for parenting a newborn baby, \u00a7 2612(a)(1)(A), for which men and women are equally suited, Congress could attack gender discrimination and challenge stereotypes of women as lone childrearers. Cf. Hibbs, 538 U. S., at 731 (States\u2019 extended \u201cmaternity\u201d leaves, far exceeding a woman\u2019s physical disability following childbirth, were attributable \u201cto the pervasive sex-role stereotype that caring for family members is women\u2019s work.\u201d).\nIt would make scant sense to provide job-protected leave for a woman to care for a newborn, but not for her recovery from delivery, a miscarriage, or the birth of a stillborn baby. And allowing States to provide no pregnancy-disability leave at all, given that only women can become pregnant, would obviously \u201cexclude far more women than men from the workplace.\u201d Id., at 738.\nThe plurality\u2019s statement that Congress lacked \u201cwidespread evidence of sex discrimination ... in the administration of sick leave,\u201d ante, at 38, misses the point. So too does the plurality\u2019s observation that state employees likely \u201ccould take leave for pregnancy-related illnesses\u201d \u2014 presumably severe morning sickness, toxemia, etc. \u2014 under paid sick-leave plans, ante, at 39. Congress heard evidence that existing sick-leave plans were inadequate to ensure that women were not fired when they needed to take time out to recover their strength and stamina after childbirth. The self-care provision responds to that evidence by requiring employers to allow leave for \u201congoing pregnancy, miscarriages, . . . the need for prenatal care, childbirth, and recovery from childbirth.\u201d S. Rep. No. 103-3, p. 29 (1993).\nThat \u00a7 2612(a)(1)(D) entitles all employees to up to 12 weeks of unpaid, job-protected leave for a serious health condition, rather than singling out pregnancy or childbirth, does not mean that the provision lacks the requisite congruence and proportionality to the identified constitutional violations. As earlier noted, supra, at 50-51, Congress made plain its rationale for the prescription\u2019s broader compass: Congress sought to ward off the unconstitutional discrimination it believed would attend a pregnancy-only leave requirement. Under the caption \u201cEqual protection and nondiscrimination,\u201d Congress explained:\n\u201cThe FMLA addresses the basic leave needs of all employees. . . . This is an important principle reflected in the bill.\n\u201cA law providing special protection to women ..., in addition to being inequitable, runs the risk of causing discriminatory treatment. Employers might be less inclined to hire women .... For example, legislation addressing the needs of pregnant women only might encourage discriminatory hiring practices against women of child bearing age. Legislation addressing the needs of all workers equally does not have this effect. By addressing the serious leave needs of all employees, the FMLA avoids providing employers the temptation to discriminate [against women].\n\u201cThe legislation is [thus] based not only on the Commerce Clause, but also on the guarantees of equal protection . . . embodied in the Fourteenth Amendment.\u201d H. R. Rep. No. 102-135, pt. 1, pp. 27-28 (1991) (hereinafter 1991 House Report).\nCongress\u2019 concern was solidly grounded in workplace realities. After this Court upheld California\u2019s pregnancy-only leave policy in California 'Fed., Don Butler, President of the Merchants and Manufacturers Association, one of the plaintiffs in that case, told National Public Radio reporter Nina Totenberg that, as a result of the decision, \u201cmany employers will be prone to discriminate against women in hiring and hire males instead.\u201d 1987 House Hearing 36. Totenberg replied, \u201cBut that is illegal, too\u201d \u2014 to which Butler responded, \u201cWell, that is illegal, but try to prove it.\u201d Ibid.\nFinally, as in Hibbs, it is important to note the moderate cast of the FMLA, in particular, the considerable limitations Congress placed on \u00a7\u00a72612(a)(1)(A)-(D)\u2019s leave requirement. See 538 U. S., at 738-739. FMLA leave is unpaid. It is limited to employees who have worked at least one year for the employer and at least 1,250 hours during the past year. \u00a7\u00a72611(2)(A), 2612(d)(1). High-ranking employees, including state elected officials and their staffs, are not within the Act\u2019s compass. \u00a7\u00a7 203(e)(2)(C), 2611(3). Employees must provide advance notice of foreseeable leaves. \u00a7 2612(e). Employers may require a doctor\u2019s certification of a serious health condition. \u00a7 2613(a). And, if an employer violates the FMLA, the employees\u2019recoverable damages are \u201cstrictly defined and measured by actual monetary losses.\u201d Hibbs, 538 U.S., at 740 (citing \u00a7\u00a7 2617(a)(1)(A)(i)-(iii)). The self-care provision, I would therefore hold, is congruent and proportional to the injury to be prevented.\nIII\nBut even if Aiello senselessly holds sway, and impedes the conclusion that \u00a7 2612(a)(1)(D) is an appropriate response to the States\u2019 unconstitutional discrimination against pregnant women, I would nevertheless conclude that the FMLA is valid \u00a75 legislation. For it is a meet response to \u201cthe States\u2019 record of unconstitutional participation in, and fostering of, gender-based discrimination in the administration of [parental and family-care] leave benefits.\u201d Hibbs, 538 U. S., at 735. See also id., at 729-731, and n. 5 (Congress adduced evidence \u201cof a pattern of constitutional violations on the part of the States\u201d in granting parental and family-care leave).\nRequiring States to provide gender-neutral parental and family-care leave alone, Congress was warned, would promote precisely the type of workplace discrimination Congress sought to reduce. The \u201cpervasive sex-role stereotype that caring for family members is women\u2019s work,\u201d id., at 731, Congress heard, led employers to regard required parental and family-care leave as a woman\u2019s benefit. Carol Ball, speaking on behalf of the U. S. Chamber of Commerce, testified that she did not think \u201cthere are going to be many men that take up . . . parental leave.\u201d See Hearing on S. 345 before the Subcommittee on Children, Family, Drugs, and Alcoholism of the Senate Committee on Labor and Human Resources, 101st Cong., 1st Sess., 39 (1989). She frankly admitted that she herself would choose to hire a man over an equally qualified woman if parental leave was required by law. Id., at 30.\nOthers similarly testified that mandating gender-neutral parental leave would lead to discrimination against women. A representative of the National Federation of Independent Business stated: \u201cRequiring employers to provide parental leave benefits creates clear pressures for subtle discrimination based on .. . sex. When choosing between two equally qualified candidates, an employer may be more likely to hire the candidate least likely to take the leave. It is the wage levels and jobs of women of childbearing years which are most at risk in such a situation.\u201d Hearing on H. R. 1 before the Subcommittee on Labor-Management Relations of the House Committee on Education and Labor, 103d Cong., 1st Sess., 95 (1993). See also 1989 House Hearing 169 (statement of Cynthia Simpler, American Society for Personnel Administration) (\u201cSince working women will be viewed as the most likely candidates for parental leave, hidden discrimination will occur if this bill becomes law. Women of childbearing age will be viewed as risks, potentially disrupting operations through an untimely leave.\u201d).\nConversely \u2014 unlike perceptions surrounding who takes parental and family-care leave \u2014 Congress was told that men and women take medical leave approximately equally. According to one study, male workers missed an average of 4.9 days of work per year due to illness or injury; female workers missed 5.1 days. See 1991 House Report, pt. 1, p. 28. \u201c[T]he incidence of serious medical conditions that would be covered by medical leave under the bill,\u201d Congress determined, \u201cis virtually the same for men and women. Employers will find that women and men will take medical leave with equal frequency.\u201d Ibid. \u201c[P]arental and medical leave,\u201d Congress was thus alerted, \u201care inseparable\u201d:\n\u201cIn the words of the old song, \u2018You can\u2019t have one without the other.\u2019\n\u201cAdoption of parental leave protections without medical leave would . . . encourage discrimination against women of child-bearing age, who constitute approximately 73 percent of all the women in the labor force.\n\u201cEmployers would tend to hire men, who are much less likely to claim [the parental leave] benefit. . . .\n\u201cParental leave without medical leave would be the modern version of protective labor laws.\u201d 1986 House Hearing 33-34 (statement of Irene Natividad, National Women\u2019s Political Caucus).\nCongress therefore had good reason to conclude that the self-care provision \u2014 which men no doubt would use \u2014 would counter employers\u2019 impressions that the FMLA would otherwise install female leave. Providing for self-care would thus reduce employers\u2019 corresponding incentive to discriminate against women in hiring and promotion. In other words, \u201c[t]he availability of self-care leave to men serves to blunt the force of stereotypes of women as primary caregivers by increasing the odds that men and women will invoke the FMLA\u2019s leave provisions in near-equal numbers.\u201d See Brief for National Partnership for Women & Families et al. as Amici Curiae 26. As Judge Lipez explained:\n\u201cIf Congress had drawn a line at leave for caring for other family members, there is greater likelihood that the FMLA would have been perceived as further reason to avoid granting employment opportunities to women. Heretofore, women have provided most of the child and elder care, and legislation that focused on these duties could have had a deleterious impact because of the prevalent notion that women take more advantage of such leave policies. The inclusion of personal medical leave in the scheme, unrelated to any need to care for another person, undermines the assumption that women are the only ones taking leave because men, presumably, are as likely as women to get sick.\u201d Laro v. New Hampshire, 259 F. 3d 1, 21 (CA1 2001) (dissenting opinion).\nSenator Barbara Boxer advanced a similar point. Responding to assertions that the FMLA would lead employers to discriminate against women, Senator Boxer stated: \u201c[T]o say that women will not be hired by business is a specious argument.... Men also get sick. They get cancer. They get heart disease. They have ailments. And this bill applies to men and women.\u201d 139 Cong. Rec. 1697 (1993). See also 1987 Senate Hearings, pt. 2, p. 536 (statement of Prof. Susan Deller Ross, Georgetown University Law Center) (\u201cI just think it\u2019s wrong that there will be a perception that this is something that only women will take and they are, therefore, more expensive. Both men and women have medical conditions . . . .\u201d).\nThe plurality therefore gets it wrong in concluding that \u201c[o]nly supposition and conjecture support the contention that the self-care provision is necessary to make the family-care provisions effective.\u201d Ante, at 41. Self-care leave, I would hold, is a key part of Congress\u2019 endeavor to make it feasible for women to work and have families. See 1991 Senate Report 25-26 (\u201cThis legislation is essential if the nation is to address the dramatic changes that have occurred in the American workforce in recent years. . . . The once-typical American family, where the father worked for pay and the mother stayed at home with the children, is vanishing. ... Today, more than one-half of all mothers with infants under one year of age work outside the home. That figure has doubled since 1970 .... By the year 2000, about three out of every four American children will have mothers in the workforce.\u201d). By reducing an employer\u2019s perceived incentive to avoid hiring women, \u00a7 2612(a)(1)(D) lessens the risk that the FMLA as a whole would give rise to the very sex discrimination it was enacted to thwart. The plurality offers no legitimate ground to dilute the force of the Act.\n<i\nTwo additional points. First, this Court reached a different conclusion than the one I reach here in Board of Trustees of Univ. of Ala. v. Garrett, 531 U. S. 356 (2001), and Kimel, 528 U. S. 62. In those cases, as we observed in Hibbs, we reviewed statutes targeting disability and age discrimination, respectively. Neither disability nor age is a suspect classification under this Court\u2019s Equal Protection Clause jurisprudence; States may discriminate on the basis of disability or age as long as the classification is rationally related to a legitimate state interest. See Garrett, 531 U. S., at 366-367; Kimel, 528 U. S., at 83-84. Therefore, for the statutes to be responsive to or designed to prevent unconstitutional discrimination, Congress needed to rely on a pattern of irrational state discrimination on the basis of disability or age. See Garrett, 531 U. S., at 368; Kimel, 528 U. S., at 89. Here, however, Congress homed in on gender discrimination, which triggers heightened review. See United States v. Virginia, 518 U. S. 515, 531 (1996) (\u201cParties who seek to defend gender-based government action must demonstrate an exceedingly persuasive justification for that action.\u201d (internal quotation marks omitted)). \u201c[I]t was [therefore] easier for Congress to show a pattern of state constitutional violations.\u201d Hibbs, 538 U. S., at 736.\nFinally, the plurality\u2019s opinion does not authorize state employers to violate the FMLA, although it does block injured employees from suing for monetary relief. The self-care provision remains valid Commerce Clause legislation, Maryland concedes, and consequently binds the States, as well as the private sector. Tr. of Oral Arg. 25; Brief for Respondents 32-33. An employee wrongly denied self-care leave, Maryland also acknowledges, may, pursuant to Ex parte Young, 209 U. S. 123 (1908), seek injunctive relief against the responsible state official. See Brief for Respondents 33. Moreover, the U. S. Department of Labor may bring an action against a State for violating the self-care provision and may recover monetary relief on an employee\u2019s behalf. 29 U. S. C. \u00a7\u00a7 2617(b)(2)\u2014(3), (d).\nV\nThe plurality pays scant attention to the overarching aim of the FMLA: to make it feasible for women to work while sustaining family life. Over the course of eight years, Congress considered the problem of workplace discrimination against women, and devised the FMLA to reduce sex-based inequalities in leave programs. Essential to its design, Congress assiduously avoided a legislative package that, overall, was or would be seen as geared to women only. Congress thereby reduced employers\u2019 incentives to prefer men over women, advanced women\u2019s economic opportunities, and laid the foundation for a more egalitarian relationship at home and at work. The self-care provision is a key part of that endeavor, and, in my view, a valid exercise of congressional power under \u00a75 of the Fourteenth Amendment. I would therefore reverse the judgment of the U. S. Court of Appeals for the Fourth Circuit.\nI remain of the view that Congress can abrogate state sovereign immunity pursuant to its Article I Commerce Clause power. See Seminole Tribe of Fla. v. Florida, 517 U. S. 44, 100 (1996) (Souter, J., dissenting). Beyond debate, 29 U. S. C. \u00a7 2612(a)(1)(D) is valid Commerce Clause legislation. See infra, at 64-65. I also share the view that Congress can abrogate state immunity pursuant to \u00a7 5 of the Fourteenth Amendment where Congress could reasonably conclude that legislation \u201cconstitutes an appropriate way to enforce [a] basic equal protection requirement.\u201d Board of Trustees of Univ. of Ala. v. Garrett, 531 U. S. 356, 377 (2001) (Breyer, J., dissenting) (internal quotation marks omitted).\nEnacted as an addition to the section defining terms used in Title VII of the Civil Rights Act of 1964, the Pregnancy Discrimination Act of 1978 (PDA) provides: \u201cThe terms \u2018because of sex\u2019 or \u2018on the basis of sex\u2019 include, but are not limited to, because of or on the basis of pregnancy, childbirth, or related medical conditions; and women affected by pregnancy, childbirth, or related medical conditions shall be treated the same for all employment-related purposes, including receipt of benefits under fringe benefit programs, as other persons not so affected but similar in their ability or inability to work_\u201d 92 Stat. 2076,42 U. S. C. \u00a7 2000e(k).\nLenhoff advanced The Parental and Disability Act of 1985, introduced by Rep. Patricia Schroeder. See S. Wisensale, Family Leave Policy: The Political Economy of Work and Family in America 136-138 (2001). She was later named Vice Chair of the Commission on Leave, created by the FMLA to study family and medical leave policies. See 29 U. S. C. \u00a7\u00a7 2631-2632; U. S. Commission on Family and Medical Leave, A Workable Balance: Report to Congress on Family and Medical Leave Policies 210 (Apr. 30, 1996).\nFor example, in addition to mandating pregnancy leave, the California statute allowed employers to discriminate against pregnant workers. Employers could refuse to select a pregnant woman for a training program if she would not finish the program at least three months before giving birth. See 1978 Cal. Stats, ch. 1321, \u00a71. The law limited pregnancy-disability leave to six weeks, \u00a7 1, and provided that women were to receive paid disability benefits for only three weeks after childbirth, \u00a7 2, even if a particular woman remained disabled beyond the three-week period, and even if a man received paid disability benefits throughout his disability. Finally, although it prohibited employers from refusing to promote a woman because of pregnancy, it did not forbid refusing to hire a woman on that basis. See \u00a71. See also Brief for National Organization for Women et al. as Amici Curiae in California Fed. Sav. & Loan Assn. v. Guerra, O. T. 1985, No. 85-494, pp. 14-15. These provisions were all expressly made inapplicable to employers covered by Title VII, \u201c[i]n the event Congress enacts legislation amending Title VII ... to prohibit sex discrimination on the basis of pregnancy,\u201d namely, the PDA. See 1978 Cal. Stats, ch. 1321, \u00a7 4.\nThe medical recovery period for a normal childbirth is four to eight weeks. See Nevada Dept, of Human Resources v. Hibbs, 538 U. S. 721, 731, n. 4 (2003).\nNotably, the plurality does not cite or discuss Geduldig v. Aiello, 417 U. S. 484 (1974), perhaps embarrassed by that opinion\u2019s widely criticized conclusion that discrimination based on pregnancy does not involve \u201cdiscrimination based upon gender as such,\u201d id., at 496, n. 20. See supra, at 54-57; E. Chemerinsky, Constitutional Law 759 (3d ed. 2006) (\u201cIt is hard to imagine a clearer sex-based distinction\u201d than the one at issue in Aiello)-, Kay, Equality and Difference: The Case of Pregnancy, 1 Berkeley Women\u2019s L. J. 1, 31 (1985) (\u201c[Aiello] results in unequal treatment of similarly situated women and men who have engaged respectively in reproductive conduct [and wish to continue working]. It should be overruled.\u201d); Law, Rethinking Sex and the Constitution, 132 U. Pa. L. Rev. 955, 983-984 (1984) (\u201cCriticizing [Aiello] has ... become a cottage industry. Over two dozen law review articles have condemned both the Court\u2019s approach and the result.... Even the principal scholarly defense of [Aiello] admits that the Court was wrong in refusing to recognize that the classification was sex-based . . . .\u201d); Karst, The Supreme Court 1976 Term Foreword: Equal Citizenship Under the Fourteenth Amendment, 91 Harv. L. Rev. 1, 54, n. 304 (1977) (\u201c[T]he constitutional sport of [Aiello] and last Term\u2019s even sillier statutory counterpart, General Elec. Co. v. Gilbert, 429 U. S. 125 (1976), with their Alice-in-Wonderland view of pregnancy as a sex-neutral phenomenon, are good candidates for early retirement. These decisions are textbook examples of the effects of underrepresentation on \u201clegislative\u201d insensitivity. Imagine what the presence of even one woman Justice would have meant to the Court\u2019s conferences.\u201d).",
+        "type": "dissent",
+        "author": "Justice Ginsburg,"
+      }
+    ],
+    "attorneys": [
+      "Michael L. Foreman argued the cause for petitioner. With him on the briefs was Edward Smith, Jr.",
+      "John B. Howard, Jr., Deputy Attorney General of Maryland, argued the cause for respondents. With him on the brief were Douglas F. Gansler, Attorney General, and William F. Brockman, Acting Solicitor General."
+    ],
+    "corrections": "",
+    "head_matter": "COLEMAN v. COURT OF APPEALS OF MARYLAND et al.\nNo. 10-1016.\nArgued January 11, 2012\nDecided March 20, 2012\nKennedy, J., announced the judgment of the Court and delivered an opinion, in which Roberts, C. J., and Thomas and Auto JJ., joined. Thomas, J., filed a concurring opinion, post, p. 44. Scaua, J., filed an opinion concurring in the judgment, post, p. 44. Ginsburg, J., filed a dissenting opinion, in which Breyer, J., joined, and in which Sotomayor and Kagan, JJ., joined as to all but footnote 1, post, p. 45.\nMichael L. Foreman argued the cause for petitioner. With him on the briefs was Edward Smith, Jr.\nJohn B. Howard, Jr., Deputy Attorney General of Maryland, argued the cause for respondents. With him on the brief were Douglas F. Gansler, Attorney General, and William F. Brockman, Acting Solicitor General.\nBriefs of amici curiae urging reversal were filed for the Constitutional Accountability Center by Clifford M. Sloan, Douglas T. Kendall, Elizabeth B. Wydra, and David H. Gans; for the Lawyers\u2019 Committee for Civil Rights Under Law by Jon Greenbaum and Jane Dolkart; for the National Partnership for Women & Families et al. by Judith L. Lichtman, Sarah Crawford, Jonathan J. Frankel, and Phillip Douglass; and for Sen. Tom Harkin et al. by Mark E. Haddad and Carter G. Phillips.\nA brief of amici curiae urging affirmance was filed for the State of Texas et al. by Greg Abbott, Attorney General of Texas, Daniel T. Hodge, First Assistant Attorney General, Bill Cobb, Deputy Attorney General, Jonathan F. Mitchell, Solicitor General, and Sean D. Jordan, Deputy Solicitor General, and by the Attorneys General for their respective States as follows: Lather Strange of Alabama, John J. Burns of Alaska, Thomas C. Horne of Arizona, Dustin McDaniel of Arkansas, John W. Suthers of Colorado, Samuel S. Olens of Georgia, Lawrence G. Wasden of Idaho, Gregory F. Zoeller of Indiana, Derek Schmidt of Kansas, Jack Conway of Kentucky, James D. \u201cBuddy\u201d Caldwell of Louisiana, William J. Schneider of Maine, Bill Schuette of Michigan, Jon Bruning of Nebraska, Michael A. Delaney of New Hampshire, Wayne Stenehjem of North Dakota, E. Scott Pruitt of Oklahoma, Linda L. Kelly of Pennsylvania, Alan Wilson of South Carolina, Robert E. Cooper, Jr., of Tennessee, Mark L. Shurtlejf of Utah, Kenneth T Cuccinelli II of Virginia, Darrell V. McGraw, Jr., of West Virginia, J. B. Van Hollen of Wisconsin, and Gregory A. Phillips of Wyoming."
+  },
+  "file_name": "0030-01",
+  "first_page_order": 110,
+  "last_page_order": 145
+}

@@ -1,0 +1,88 @@
+{
+  "id": 5976619,
+  "name": "Federal Communications Commission et al. v. AT&T Inc. et al.",
+  "name_abbreviation": "Federal Communications Commission v. AT&T Inc.",
+  "decision_date": "2010-11-01",
+  "docket_number": "No. 09-1279",
+  "first_page": "1000",
+  "last_page": "1000",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1000"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "561 U. S. 1057",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12456032,
+        12456033,
+        12456034,
+        12456035,
+        12456036,
+        12456037,
+        12456038,
+        12456031
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/177/1150-04",
+        "/l-ed-2d/177/1150-05",
+        "/l-ed-2d/177/1150-06",
+        "/l-ed-2d/177/1150-07",
+        "/l-ed-2d/177/1151-01",
+        "/l-ed-2d/177/1151-02",
+        "/l-ed-2d/177/1151-03",
+        "/l-ed-2d/177/1150-03"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 42,
+    "char_count": 295,
+    "ocr_confidence": 0.548,
+    "sha256": "2bf70b53c22b24caa3e2808a5d11054f97170c5ada147f974b441e25db84471a",
+    "simhash": "1:0916eca6a225f5e4",
+    "word_count": 50
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this motion."
+    ],
+    "parties": [
+      "Federal Communications Commission et al. v. AT&T Inc. et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. [Certiorari granted, 561 U. S. 1057.] Motion of the Acting Solicitor General to dispense with printing the joint appendix granted.\nJustice Kagan took no part in the consideration or decision of this motion.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-1279.\nFederal Communications Commission et al. v. AT&T Inc. et al."
+  },
+  "file_name": "1000-06",
+  "first_page_order": 1022,
+  "last_page_order": 1022
+}

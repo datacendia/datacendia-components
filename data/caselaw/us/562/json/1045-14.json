@@ -1,0 +1,59 @@
+{
+  "id": 6030805,
+  "name": "Chan v. Department of Justice",
+  "name_abbreviation": "Chan v. Department of Justice",
+  "decision_date": "2010-11-15",
+  "docket_number": "No. 10-5867",
+  "first_page": "1045",
+  "last_page": "1045",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1045"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 79,
+    "ocr_confidence": 0.603,
+    "sha256": "5d94f644b985a9b84692b6d4ff56e446b1c4fe1261f6fc2d8494e8ebff323275",
+    "simhash": "1:8980c0414e2e14ca",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Chan v. Department of Justice."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. Fed. Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5867.\nChan v. Department of Justice."
+  },
+  "file_name": "1045-14",
+  "first_page_order": 1067,
+  "last_page_order": 1067
+}

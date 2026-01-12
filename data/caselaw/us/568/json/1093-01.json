@@ -1,0 +1,59 @@
+{
+  "id": 12428102,
+  "name": "Hernandez-Ochoa v. United States",
+  "name_abbreviation": "Hernandez-Ochoa v. United States",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-6223",
+  "first_page": "1093",
+  "last_page": "1093",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1093"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 81,
+    "ocr_confidence": 0.584,
+    "sha256": "0d630db41074e2340a6defc51dc701775010139d77a8ce02a28ea8da55b6d2bc",
+    "simhash": "1:8198db02c93e1c0a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hernandez-Ochoa v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6223.\nHernandez-Ochoa v. United States."
+  },
+  "file_name": "1093-01",
+  "first_page_order": 1169,
+  "last_page_order": 1169
+}

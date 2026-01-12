@@ -1,0 +1,59 @@
+{
+  "id": 12432718,
+  "name": "Smith, aka Johnson v. New Jersey",
+  "name_abbreviation": "Smith v. New Jersey",
+  "decision_date": "2013-03-04",
+  "docket_number": "No. 12-8377",
+  "first_page": "1217",
+  "last_page": "1217",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1217"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 81,
+    "ocr_confidence": 0.614,
+    "sha256": "6aa96471a5270a02c725d31b913134e291afb956cf0912c6c836d98ce584bae3",
+    "simhash": "1:0861fd4aab58bb9e",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Smith, aka Johnson v. New Jersey."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. N. J. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8377.\nSmith, aka Johnson v. New Jersey."
+  },
+  "file_name": "1217-15",
+  "first_page_order": 1293,
+  "last_page_order": 1293
+}

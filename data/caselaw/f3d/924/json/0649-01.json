@@ -1,0 +1,870 @@
+{
+  "id": 12521206,
+  "name": "UNITED STATES of America, Appellant, v. John PAULING, a/k/a JJ, Defendant-Appellee.",
+  "name_abbreviation": "United States v. Pauling",
+  "decision_date": "2019-05-23",
+  "docket_number": "Docket No. 17-2539-cr; August Term 2018",
+  "first_page": "649",
+  "last_page": "662",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "924 F.3d 649"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "2nd Cir.",
+    "id": 9993,
+    "name": "United States Court of Appeals for the Second Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "543 U.S. 220",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5925862
+      ],
+      "weight": 3,
+      "year": 2005,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/543/0220-01"
+      ]
+    },
+    {
+      "cite": "841 F.3d 95",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12173717
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "99-100"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/841/0095-01"
+      ]
+    },
+    {
+      "cite": "812 F.3d 280",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4086883
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "parenthetical": "noting that a judgment of conviction under 21 U.S.C. \u00a7\u00a7 841(a)(1) and 841(b)(1)(C) is \"in effect a lesser-included offense\" of 21 U.S.C. \u00a7 841(b)(1)(B)\"without a mandatory minimum sentence\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/812/0280-01"
+      ]
+    },
+    {
+      "cite": "626 F.3d 756",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6053167
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "768-70"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/626/0756-01"
+      ]
+    },
+    {
+      "cite": "723 F.3d 562",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4065036
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "571"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/723/0562-01"
+      ]
+    },
+    {
+      "cite": "813 F.3d 785",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4088725
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "793, 796"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/813/0785-01"
+      ]
+    },
+    {
+      "cite": "256 F.3d 687",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11087909
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "693",
+          "parenthetical": "\"Although a jury may infer facts from other facts that are established by inference, each link in the chain of inferences must be sufficiently strong to avoid a lapse into speculation.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/256/0687-01"
+      ]
+    },
+    {
+      "cite": "133 F. App'x 762",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        508342
+      ],
+      "weight": 6,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "parenthetical": "summary order"
+        },
+        {
+          "page": "763-64"
+        },
+        {
+          "page": "765"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/133/0762-01"
+      ]
+    },
+    {
+      "cite": "727 F. App'x 12",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "weight": 7,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "parenthetical": "summary order"
+        },
+        {
+          "page": "13"
+        },
+        {
+          "parenthetical": "No. 17-1254"
+        },
+        {
+          "page": "13"
+        },
+        {
+          "page": "13"
+        },
+        {
+          "page": "14"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "103 F.3d 1085",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        903
+      ],
+      "weight": 3,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "1092",
+          "parenthetical": "approving of method of testing four randomly selected heroin balloons to estimate quantity of heroin contained in 103 balloons found inside defendant's body"
+        },
+        {
+          "parenthetical": "disapproving of extrapolation from quantity of eighth trip that each of seven prior trips contained the same quantity"
+        },
+        {
+          "page": "1092"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/103/1085-01"
+      ]
+    },
+    {
+      "cite": "998 F.2d 84",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10508255
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "90"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/998/0084-01"
+      ]
+    },
+    {
+      "cite": "671 F.3d 149",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5873600
+      ],
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "163",
+          "parenthetical": "requiring \"specific evidence\" of quantity to sustain quantity-based enhancement"
+        },
+        {
+          "page": "163"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/671/0149-01"
+      ]
+    },
+    {
+      "cite": "335 F.3d 170",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1533909
+      ],
+      "weight": 2,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "181"
+        },
+        {
+          "page": "181"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/335/0170-01"
+      ]
+    },
+    {
+      "cite": "534 F.3d 153",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4065534
+      ],
+      "weight": 2,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "159",
+          "parenthetical": "internal quotation marks and alternations omitted"
+        },
+        {
+          "page": "159",
+          "parenthetical": "noting that \"it would not satisfy the Constitution to have a jury determine that the defendant is probably guilty\" (internal quotation marks and alternations omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/534/0153-01"
+      ]
+    },
+    {
+      "cite": "54 F.3d 1040",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7412596
+      ],
+      "weight": 3,
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "1043"
+        },
+        {
+          "page": "1043"
+        },
+        {
+          "page": "1049",
+          "parenthetical": "Newman, J. , dissenting"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/54/1040-01"
+      ]
+    },
+    {
+      "cite": "441 F.3d 153",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1037333
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "169"
+        },
+        {
+          "page": "169",
+          "parenthetical": "noting that \"courts may not credit inferences within the realm of possibility when those inferences are unreasonable\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/441/0153-01"
+      ]
+    },
+    {
+      "cite": "543 F.3d 793",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3825377
+      ],
+      "weight": 2,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "796-97"
+        },
+        {
+          "page": "796-97"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/543/0793-01"
+      ]
+    },
+    {
+      "cite": "568 F.3d 287",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3655805
+      ],
+      "weight": 2,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "301-02"
+        },
+        {
+          "page": "302"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/568/0287-01"
+      ]
+    },
+    {
+      "cite": "630 F.3d 310",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6052399
+      ],
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "314, 319",
+          "parenthetical": "noting distinction between \"reasonable speculation\" and \"sufficient evidence\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/630/0310-01"
+      ]
+    },
+    {
+      "cite": "938 F.2d 364",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10523567
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "372"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/938/0364-01"
+      ]
+    },
+    {
+      "cite": "319 U.S. 372",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        366591
+      ],
+      "weight": 3,
+      "year": 1943,
+      "pin_cites": [
+        {
+          "page": "395"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/319/0372-01"
+      ]
+    },
+    {
+      "cite": "459 U.S. 56",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6191150
+      ],
+      "weight": 3,
+      "year": 1982,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/459/0056-01"
+      ]
+    },
+    {
+      "cite": "648 F.2d 879",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1229803
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "895"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/648/0879-01"
+      ]
+    },
+    {
+      "cite": "39 F.3d 1249",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10532920
+      ],
+      "weight": 2,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "1256"
+        },
+        {
+          "page": "1256"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/39/1249-01"
+      ]
+    },
+    {
+      "cite": "327 U.S. 645",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        413818
+      ],
+      "weight": 3,
+      "year": 1946,
+      "pin_cites": [
+        {
+          "page": "653"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/327/0645-01"
+      ]
+    },
+    {
+      "cite": "196 F.3d 435",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11555282
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "448"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/196/0435-01"
+      ]
+    },
+    {
+      "cite": "480 F.3d 160",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3896819
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "168",
+          "parenthetical": "alterations omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/480/0160-01"
+      ]
+    },
+    {
+      "cite": "960 F.2d 1112",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10524117
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "1121",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/960/1112-01"
+      ]
+    },
+    {
+      "cite": "894 F.3d 64",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517513
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "72",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/894/0064-01"
+      ]
+    },
+    {
+      "cite": "688 F.3d 129",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3498986
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "139"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/688/0129-01"
+      ]
+    },
+    {
+      "cite": "703 F.3d 46",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3649269
+      ],
+      "weight": 2,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "62",
+          "parenthetical": "\"[W]e will uphold the judgment[ ] of conviction if 'any rational trier of fact could have found the essential elements of the crime beyond a reasonable doubt.' \" (quoting Jackson , 443 U.S. at 319, 99 S.Ct. 2781 )"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/703/0046-01"
+      ]
+    },
+    {
+      "cite": "397 U.S. 358",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12054393
+      ],
+      "weight": 3,
+      "year": 1970,
+      "pin_cites": [
+        {
+          "page": "364"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/397/0358-01"
+      ]
+    },
+    {
+      "cite": "443 U.S. 307",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6182418
+      ],
+      "weight": 9,
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "316"
+        },
+        {
+          "page": "317"
+        },
+        {
+          "parenthetical": "\"[W]e will uphold the judgment[ ] of conviction if 'any rational trier of fact could have found the essential elements of the crime beyond a reasonable doubt.' \" (quoting Jackson , 443 U.S. at 319, 99 S.Ct. 2781 )"
+        },
+        {
+          "page": "319"
+        },
+        {
+          "page": "320"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/443/0307-01"
+      ]
+    },
+    {
+      "cite": "158 F.3d 662",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11671462
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "670-71"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/158/0662-01"
+      ]
+    },
+    {
+      "cite": "420 F.3d 111",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8934630
+      ],
+      "weight": 2,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "131"
+        },
+        {
+          "page": "120"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/420/0111-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 924",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(c)",
+          "parenthetical": "\"Count Six\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 922",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)(1)(A) and (a)(2)"
+        },
+        {
+          "page": "(g)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 U.S.C. \u00a7\u00a7 812",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 U.S.C. \u00a7\u00a7 841",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 13,
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        },
+        {
+          "page": "(a)(1)"
+        },
+        {
+          "page": "124"
+        },
+        {
+          "page": "(a)(1)"
+        },
+        {
+          "page": "(a)(1)"
+        },
+        {
+          "page": "(b)(1)(B)"
+        },
+        {
+          "page": "(b)(1)(B)(i)",
+          "parenthetical": "providing penalties for the distribution or possession with intent to distribute \"100 grams or more of a mixture or substance containing a detectable amount of heroin\""
+        },
+        {
+          "page": "124-25",
+          "parenthetical": "PAULING: \"I'm a bring the machine so we could press it all. ... [Y]ou don't wanna smash it up? I mean you don't want to press it? LOW: Yeah. I've been wanted to do that all the week, nigga. I've been calling you man. ... PAULING: Aight, so we can do it tomorrow then.\""
+        },
+        {
+          "page": "144-45"
+        },
+        {
+          "page": "116",
+          "parenthetical": "PAULING: \"[T]he queens thing is good. ... [I]t's already established.\""
+        },
+        {
+          "page": "124",
+          "parenthetical": "PAULING: \"I got some other people who want ... a gram-, two grams shit like that.\""
+        },
+        {
+          "page": "145-46",
+          "parenthetical": "PAULING: \"I'm a move it off for you. ... I'm spend it with you anyway. ... I'm a get rid of all that.\""
+        },
+        {
+          "parenthetical": "LOW: \"[W]e got a nice amount of that shit left, too. ... PAULING: I got you, I, I'm a be hittin' you ... when, um, dude calls me.\""
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1323,
+    "char_count": 37188,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2593174351091512
+    },
+    "sha256": "9f0092b48cbfcf524afcc766ff2c755e115cb05355e2971602fcb1c6481a90ed",
+    "simhash": "1:aaea9ab0ea2d1d63",
+    "word_count": 6155
+  },
+  "last_updated": "2024-02-27T18:46:58.656971+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before: Katzmann, Chief Judge, and Kearse and Chin, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Appellant,\nv.\nJohn PAULING, a/k/a JJ, Defendant-Appellee."
+    ],
+    "opinions": [
+      {
+        "text": "Chin, Circuit Judge:\nIn this case, a jury convicted defendant-appellee John Pauling of conspiring to distribute or possess with the intent to distribute 100 grams or more of heroin. The parties agree that the government was required to prove that the heroin in question was the subject of a conspiracy between Pauling and one of his suppliers, referred to as \"Low\" (the \"Pauling-Low conspiracy\"), and that the government proved beyond a reasonable doubt that 89 grams of heroin were attributable to the Pauling-Low conspiracy. The parties disagree, however, as to whether the government proved that the Pauling-Low conspiracy involved the additional 11 grams of heroin necessary to reach the 100-gram threshold.\nThe district court granted Pauling's motion pursuant to Federal Rule of Criminal Procedure 29 to set aside his conviction on the conspiracy count on the ground that the evidence introduced at trial failed to establish that an additional 11 grams of heroin were attributable to the Pauling-Low conspiracy. Instead of entering judgment convicting Pauling of violating 21 U.S.C. \u00a7\u00a7 841(a)(1), 841(b)(1)(B) and 846, it entered judgment finding Pauling guilty of a lesser included offense, a violation of 21 U.S.C. \u00a7\u00a7 841(a)(1), 841(b)(1)(C), and 846. The former offense carries a five-year mandatory sentence for violations involving 100 grams or more of heroin, while the latter offense carries no mandatory minimum and contains no quantity element. The government appeals.\nWe conclude that the evidence at trial was insufficient to permit a reasonable jury to find beyond a reasonable doubt that the Pauling-Low conspiracy involved an additional 11 grams of heroin. Accordingly, we affirm and remand for sentencing.\nBACKGROUND\nA. Factual Background\nBetween May 25 and July 14, 2016, the Drug Enforcement Administration (\"DEA\") intercepted phone calls between Pauling and various associates, including an individual named \"Low.\" On July 14, Pauling was arrested by authorities. Upon his arrest, agents seized from Pauling's apartment approximately 600 glassine bags, a digital scale, materials that could be used as a cutting agent, and other paraphernalia associated with the distribution of controlled substances.\nPauling concedes that the government established at trial that he and Low conspired to distribute 89 grams of heroin. This was shown through wiretap evidence of four transactions. On June 26, 2016, Pauling purchased 30 grams of heroin from Low for resale to a customer named \"Flow.\" On June 27, Pauling combined 10 grams of heroin he received from Low with 20 grams of a cutting agent, for a total of 30 grams of heroin. On July 3, Pauling requested 14 grams of heroin from Low for a customer named \"Steve.\" Finally, on July 11, Low supplied Pauling with 11 grams of heroin, again for Steve, which Pauling cut for a total of 15 grams. The four transactions thus involved a total of 89 grams of heroin.\nThe conversation between Pauling and Steve about the July 3 transaction is at issue in this appeal. At 1:16 p.m. that day, Pauling spoke to Steve about the quantity of heroin Steve wanted to order:\nPAULING: [T]ell me, the count, that's, you know, tomorrow.\nSTEVE: I'll meet you on, hold on one second. I'm on 17, as a matter of fact, same thing as last time, same thing [as] last time.\nPAULING: Where was it? I forgot, shit because there was so many people.\nSTEVE: Hold on, right, right. I'm a go to, uh, 14th floor.\nApp'x at 122. The parties agree that the floor number was code for drug quantity, in grams. Approximately three hours later, at 4:04 p.m., Pauling called Low:\nPAULING: Yo um, how we gonna do this cause my man wants four-fourteen right and he be down tomorrow and I got some other people who want --\nLOW: 14?\nPAULING: Huh?\nLOW: You said 14?\nPAULING: Yeah, and I got these other people that want a gram-, two grams shit like that.\nId. at 124. There is no dispute that the July 3 calls account for 14 grams of heroin attributable to the Pauling-Low conspiracy, and this amount is included in the 89 grams discussed above. The parties disagree, however, about whether Steve's reference to \"same thing as last time\" during the 1:16 p.m. call referred to a prior 14-gram transaction of heroin supplied by Low. The government argues that it did and that the total quantity of heroin attributable to the Pauling-Low conspiracy was therefore 103 grams -- just over the 100-gram threshold required for the conspiracy count.\nThe wiretaps also provided information about the relationship between Pauling and Low. Pauling owed Low money. Pauling was aware that Low had a stash house for his narcotics, and he was aware that Low's associate \"Play\" worked at the stash house. Pauling and Low discussed prices. On more than one occasion, they discussed in detail the process of cutting narcotics and the benefits of certain cutting agents. Pauling also indicated on several occasions that he would help sell Low's product. The government argues that this evidence proved circumstantially that Pauling and Low conspired to distribute at least another 11 grams of heroin beyond the 89 grams discussed above.\nB. Procedural History\nOn July 14, 2016, the DEA arrested Pauling for his alleged involvement with guns and drugs in the New York City area. The government indicted Pauling on August 18, 2016, on five counts. The government filed a superseding indictment on January 19, 2017, charging Pauling with eight counts: (a) conspiring to distribute and to possess with intent to distribute 100 grams or more of mixtures containing heroin, in violation of 21 U.S.C. \u00a7\u00a7 841(a)(1), 841(b)(1)(B), and 846 (\"Count One\"); (b) three counts of distributing and possessing with intent to distribute heroin, in violation of 21 U.S.C. \u00a7\u00a7 812, 841(a)(1), and 841(b)(1)(C) ; (c) one count of firearms trafficking, in violation of 18 U.S.C. \u00a7 922(a)(1)(A) and (a)(2) ; (d) one count of using, carrying, or possessing a firearm in connection with the heroin distribution conspiracy charged in Count One, in violation of 18 U.S.C. \u00a7 924(c) (\"Count Six\"); and (e) two counts of possessing a firearm after sustaining a felony conviction, in violation of 18 U.S.C. \u00a7 922(g)(1).\nTrial began on February 13, 2017. At the close of the government's case-in-chief on February 15, Pauling moved for a judgment of acquittal as to Count One under Federal Rule of Criminal Procedure 29, citing insufficient evidence to sustain a conviction. The court reserved decision. On February 16, Pauling conceded in his closing argument that he was guilty of all counts except for Counts One and Six. The jury returned its verdict later that day, finding Pauling guilty of all but Count Six.\nOn March 24, 2017, Pauling renewed his motion under Rule 29 to vacate and set aside the portion of the jury's verdict on Count One finding that at least 100 grams of heroin were attributable to the Pauling-Low conspiracy. Pauling moved in the alternative for a new trial pursuant to Rule 33 as to that count. He argued that the July 3 call could not support a jury finding of 28 grams by including the alleged prior 14-gram transaction and that the 100-gram threshold was not otherwise proven beyond a reasonable doubt. The government opposed both motions, arguing that the jury could have reasonably inferred from the July 3 call that the \"same thing as last time\" referred to an earlier transaction in which Pauling sold Steve 14 grams of heroin sourced from Low. It argued that this prior 14-gram transaction should be included, thus bringing the total quantity attributable to the Pauling-Low conspiracy to 103 grams. It argued alternatively that the jury could reasonably infer from the \"close working relationship\" between Pauling and Low that their conspiracy extended \"well beyond\" 100 grams. App'x at 216-17.\nOn June 12, 2017, the district court granted Pauling's motion to vacate and set aside his conviction on Count One and entered a verdict of guilty to a lesser included offense. The district court also conditionally granted Pauling's motion for a new trial, pending the outcome of this appeal. Pauling's sentencing, scheduled for September 13, 2017, was stayed pending this appeal.\nDISCUSSION\nPauling does not challenge the jury's finding that he participated in a conspiracy with Low to distribute heroin. Nor does he dispute that the evidence established that he directly participated with Low in the distribution of 89 grams of heroin. We are therefore presented with a single, discrete question: Whether the government presented evidence sufficient for the jury to find beyond a reasonable doubt that an additional 11 grams or more of heroin was attributable to the Pauling-Low conspiracy. The government argues that it did so, relying first on the July 3 telephone call and second on the evidence of an ongoing relationship between Pauling and Low.\nI. Applicable Law\nThe quantity of drugs involved in a violation of \u00a7 841(b)(1)(B) is an element of the charged offense, see United States v. Gonzalez , 420 F.3d 111, 131 (2d Cir. 2005), and the government has the burden of proving the charged quantity beyond a reasonable doubt, id. at 120. The quantity element is met only if \"a single conspiracy,\" rather than \"separate agreements [that] may have been charged under the umbrella of a single conspiracy count,\" crosses the quantity threshold. United States v. Barnes , 158 F.3d 662, 670-71 (2d Cir. 1998). Thus, while the evidence at trial established that Pauling conspired to distribute over 200 grams of heroin with various individuals, see App'x at 202, it was the government's burden with respect to Count One to prove that 100 or more of those grams were attributable to a single conspiracy -- the Pauling-Low conspiracy.\nDue process requires that essential elements of a crime be proven beyond a reasonable doubt to ensure that \"no person shall be made to suffer the onus of a criminal conviction except upon sufficient proof.\" Jackson v. Virginia , 443 U.S. 307, 316, 99 S.Ct. 2781, 61 L.Ed.2d 560 (1979) ; see also In re Winship , 397 U.S. 358, 364, 90 S.Ct. 1068, 25 L.Ed.2d 368 (1970). Rule 29 of the Federal Rules of Criminal Procure is one means of protecting this constitutional right; it enables the district court to vacate a conviction if it concludes that \"no rational trier of fact could find guilt beyond a reasonable doubt.\"\nJackson , 443 U.S. at 317, 99 S.Ct. 2781 ; see also United States v. Coplan , 703 F.3d 46, 62 (2d Cir. 2012) (\"[W]e will uphold the judgment[ ] of conviction if 'any rational trier of fact could have found the essential elements of the crime beyond a reasonable doubt.' \" (quoting Jackson , 443 U.S. at 319, 99 S.Ct. 2781 )). We review de novo a district court's grant of a Rule 29 motion based on a finding that the trial evidence was insufficient to support the jury's verdict, applying the same standard the district court applies in review of the evidence. United States v. Truman , 688 F.3d 129, 139 (2d Cir. 2012).\nA defendant challenging a jury's guilty verdict \"bears a heavy burden.\" United States v. Martoma , 894 F.3d 64, 72 (2d Cir. 2017) (internal quotation marks omitted). This is because, \"[i]n evaluating a sufficiency challenge, we 'must view the evidence in the light most favorable to the government, crediting every inference that could have been drawn in the government's favor, and deferring to the jury's assessment of witness credibility and its assessment of the weight of the evidence.' \" Id. (quoting Coplan , 703 F.3d at 62 ). This deferential standard of review is \"especially important when reviewing a conviction of conspiracy ... because a conspiracy by its very nature is a secretive operation, and it is a rare case where all aspects of a conspiracy can be laid bare in court with the precision of a surgeon's scalpel.\" United States v. Pitre , 960 F.2d 1112, 1121 (2d Cir. 1992) (internal quotation marks omitted).\n\"An inference is not a suspicion or a guess. It is a reasoned, logical decision to conclude that a disputed fact exists on the basis of another fact that is known to exist.\" Siewe v. Gonzales , 480 F.3d 160, 168 (2d Cir. 2007) (alterations omitted) (quoting Bickerstaff v. Vassar Coll. , 196 F.3d 435, 448 (2d Cir. 1999) ). Impermissible speculation, on the other hand, is \"a complete absence of probative facts to support the conclusion reached.\" Lavender v. Kurn , 327 U.S. 645, 653, 66 S.Ct. 740, 90 L.Ed. 916 (1946). While we must defer to a jury's reasonable inferences, we give no deference to impermissible speculation. United States v. D'Amato , 39 F.3d 1249, 1256 (2d Cir. 1994).\nThe line between permissible inference and impermissible speculation \"is drawn by the laws of logic\" and not \"judicial idiosyncrasies.\" Tose v. First Pa. Bank, N.A. , 648 F.2d 879, 895 (3d Cir. 1981), abrogated on other grounds by Griggs v. Provident Consumer Discount Co. , 459 U.S. 56, 103 S.Ct. 400, 74 L.Ed.2d 225 (1982). As the Supreme Court has instructed, \"the essential requirement is that mere speculation be not allowed to do duty for probative facts, after making due allowance for all reasonably possible inferences favoring the party whose case is attacked.\" Galloway v. United States , 319 U.S. 372, 395, 63 S.Ct. 1077, 87 L.Ed. 1458 (1943). Thus, in a criminal case, \"the government must do more than introduce evidence 'at least as consistent with innocence as with guilt.' \" D'Amato , 39 F.3d at 1256 (quoting United States v. Mulheren , 938 F.2d 364, 372 (2d Cir. 1991) ).\nAt times it may be difficult to distinguish between inference and speculation, as some speculation may indeed be reasonable. Reasonable speculation occurs when the finder of fact concludes that a disputed fact exists that is within the realm of possibility, but the conclusion reached is nevertheless unreasonable because it is not logically based on another fact known to exist. See Langston v. Smith , 630 F.3d 310, 314, 319 (2d Cir. 2011) (noting distinction between \"reasonable speculation\" and \"sufficient evidence\"); Leonard B. Sand et al., Modern Federal Jury Instructions \u00a7 6.01 (2011) (\"The process of drawing inferences from facts in evidence is not a matter of guesswork or speculation. An inference is a deduction or conclusion which ... the jury [is] permitted to draw ... from facts which have been established by either direct or circumstantial evidence.\"); see also O'Laughlin v. O'Brien , 568 F.3d 287, 301-02 (1st Cir. 2009) ; Newman v. Metrish , 543 F.3d 793, 796-97 (6th Cir. 2008). Indeed, we \"may not credit inferences within the realm of possibility when those inferences are unreasonable.\" United States v. Quattrone , 441 F.3d 153, 169 (2d Cir. 2006).\n\"[W]here a fact to be proved is also an element of the offense -- here, [drug quantity] -- it is not enough that the inferences in the government's favor are permissible. We must also be satisfied that the inferences are sufficiently supported to permit a rational juror to find that the element, like all elements, is established beyond a reasonable doubt.\" United States v. Martinez , 54 F.3d 1040, 1043 (2d Cir. 1995) ; see also Sand et al., supra , \u00a7 6.01 (\"[W]hether based upon direct or circumstantial evidence, or upon logical, reasonable inferences drawn from such evidence, [the jury] must be satisfied of the guilt of the defendant beyond a reasonable doubt before [it] may convict.\"). \"[I]t would not satisfy the Constitution to have a jury determine that the defendant is probably guilty.\" United States v. Lorenzo , 534 F.3d 153, 159 (2d Cir. 2008) (internal quotation marks and alternations omitted).\nThe drug quantity attributable to a defendant knowingly participating in a drug distribution conspiracy includes (1) transactions in which he participated directly, (2) transactions in which he did not personally participate, but where he knew of the transactions or they were reasonably foreseeable to him, and (3) quantities he agreed to distribute or possess with intent to distribute \"regardless of whether he ultimately committed the substantive act.\" United States v. Jackson , 335 F.3d 170, 181 (2d Cir. 2003).\nTo prove the quantity by one of these means beyond a reasonable doubt, the government must introduce specific evidence of drug quantities, or evidence from which quantity can, through inference, be logically approximated or extrapolated. See United States v. Archer , 671 F.3d 149, 163 (2d Cir. 2011) (requiring \"specific evidence\" of quantity to sustain quantity-based enhancement). In the absence of such evidence, a jury's finding as to drug quantity is nothing but \"surmise and conjecture.\" United States v. Shonubi , 998 F.2d 84, 90 (2d Cir. 1993). Compare United States v. Shonubi (\"Shonubi II\") , 103 F.3d 1085, 1092 (2d Cir. 1997) (approving of method of testing four randomly selected heroin balloons to estimate quantity of heroin contained in 103 balloons found inside defendant's body), with id. (disapproving of extrapolation from quantity of eighth trip that each of seven prior trips contained the same quantity). Thus, while quantities of controlled substances in a drug distribution conspiracy prosecution may be determined through extrapolation, approximation, or deduction, there ordinarily must be evidence of known quantities, which are sufficiently representative of the unknown quantities and from which an approximation of the unknown quantities can logically be derived. See Archer , 671 F.3d at 163.\nTwo of our decisions, though summary orders, provide a framework for understanding the role of representative proof in proving drug quantity. In United States v. Adames , the defendant was convicted at trial of conspiracy to distribute five or more kilograms of cocaine, and he challenged the sufficiency of the evidence of quantity. 727 F. App'x 12 (2d Cir. 2018) (summary order). The government introduced evidence linking the defendant to four seized packages. Id. at 13. The seized packages contained one kilogram, 530 grams, two kilograms, and 406 grams of cocaine, respectively, Government's Brief at 5-9, Adames , 727 F. App'x 12 (2d Cir. 2018) (No. 17-1254) (describing packages 1, 4, 5, and 9), for a total of 3.936 kilograms, Adames , 727 F. App'x at 13. Other evidence linked the defendant to five additional packages of unknown quantity, which the government was unable to seize. Id. But one of these unseized packages (package 6) was tracked online from an IP address associated with the defendant's home and weighed approximately the same as a seized package (package 5) that contained two kilograms of cocaine. Government's Brief, supra , at 8-9. Moreover, package 6 was briefly examined before delivery, and trial testimony indicated that it contained \"brick shaped\" objects. Id. In addition, although the other unseized packages apparently were never weighed, \"phone records, witness testimony, and other circumstantial evidence establish[ed] that these too were parcels of cocaine.\" Adames , 727 F. App'x at 13. In light of all the circumstances, we held that \"the Government presented sufficient evidence for a reasonable jury to infer the existence of an additional 1.06 kilograms from the aggregate of the additional unseized packages.\" Id. at 14.\nIn United States v. Martinez , the defendant challenged a drug-quantity enhancement at sentencing. 133 F. App'x 762 (2d Cir. 2005) (summary order). It was undisputed that the defendant was responsible for helping to build nine vehicle \"traps\" in three cars used to hide packages of cocaine. Id. at 763-64. The government seized cocaine in one of those traps, which contained 16 kilograms, and evidence showed that the defendant carried 19 kilograms from another vehicle. Id. at 765. A trial witness testified that he saw the defendant carrying another 20 kilograms of cocaine. Id. The district court concluded that the defendant was responsible for over 150 kilograms \"by averaging the three known quantities attributable to [the defendant] -- 16, 19, and 20 kilograms -- and multiplying by nine, the number of traps [defendant] built.\" Id. We vacated the drug-quantity enhancement, noting that \"[t]he average quantity of cocaine seized or unloaded from the three cars is not 'specific evidence' of the quantity of cocaine actually transported in the nine traps built by [the defendant]\" because \"it is quite possible that the traps were used to transport some other contraband\" and the evidence relied upon was not sufficiently reliable. Id.\nAdames and Martinez illustrate how the total drug quantity attributable to a defendant can (and cannot) be inferred or extrapolated from known quantities. In Adames , it was reasonable to infer from evidence of four seized packages, each containing a range of from 406 grams to two kilograms of cocaine, that a total of at least an additional 1.06 kilograms of cocaine was contained in five unseized packages, one of which was known to have a similar weight to a seized package containing two kilograms of cocaine. The seized packages were sufficiently representative of the unseized packages to support the inference that the unseized packages contained enough cocaine to reach the quantity threshold. By contrast, in Martinez , it was not reasonable to infer from evidence of two vehicle traps containing 16 and 19 kilograms of cocaine and testimony that the defendant carried a package of approximately 20 kilograms of cocaine that each of nine traps in three different cars contained the average of the three known quantities. The seized packages were not sufficiently representative of the unseized packages to support the inference that the seized and unseized packages contained a similar quantity of cocaine. A similar lack of representativeness arose in Shonubi II , in which we rejected the inference that each of seven prior trips contained the same quantity of drugs as was seized in the eighth trip. 103 F.3d at 1092.\nII. Application\nThe government argues that it presented evidence sufficient for the jury to find beyond a reasonable doubt that an additional 11 grams or more of heroin was attributable to the Pauling-Low conspiracy. It relies first on the July 3 telephone call and second on the evidence of an ongoing relationship between Pauling and Low. We discuss each in turn.\n1. The July 3 Phone Call\nThe government argues that the evidence permitted the jury to infer that an additional 14 grams of heroin was attributable to the Pauling-Low conspiracy by virtue of the July 3 phone call, in which the buyer mentioned that he wanted the \"same thing as last time\" while placing an order for 14 grams of heroin. App'x at 122. While we agree that the words \"same thing as last time\" could have been a reference to a prior 14-gram sale of heroin by Pauling to Steve, we hold that no reasonable jury could have found beyond a reasonable doubt that those 14 grams were sourced by Low. See Piaskowski v. Bett , 256 F.3d 687, 693 (7th Cir. 2001) (\"Although a jury may infer facts from other facts that are established by inference, each link in the chain of inferences must be sufficiently strong to avoid a lapse into speculation.\").\nOn the present record, the jury could not rationally conclude beyond a reasonable doubt that a specific yet temporally unknown transaction, the existence of which is evidenced solely by five words -- which were not uttered by either Pauling or Low -- involved heroin provided by Low. The jury did not hear evidence as to who provided the heroin in this prior transaction, when the transaction occurred, or what the circumstances were. To conclude so much on the basis of so little amounts to impermissible speculation. Indeed, trial testimony and wiretap evidence established that Pauling had other suppliers, any one of whom could have supplied the heroin for that prior transaction. See Trial Tr. at 175, 183; App'x at 83-84, 88, 98, 100, 103, 127. And while the government introduced evidence that Pauling distributed over 200 grams of heroin, App'x at 202, it did not show that as much as half of that heroin was supplied by Low. Accordingly, without something more, the jury could not reasonably have concluded beyond a reasonable doubt that the words \"same thing as last time\" referred to an additional 14 grams of heroin supplied by Low.\n2. The Ongoing Relationship\nThe government argues that even if the July 3 phone call did not prove that Pauling purchased an additional 14 grams of heroin from Low, it would have been rational for the jury to conclude, based on the evidence of their ongoing relationship, that Pauling and Low conspired to distribute at least an additional 11 grams of heroin. Proof of drug quantity may be established through proof of an agreement to distribute or possess with intent to distribute, regardless of whether the substantive act was actually completed. See Jackson , 335 F.3d at 181. The government asserts that there is \"concrete evidence of Pauling's specific plans to continue to fill large orders through Low, which were disrupted by Pauling's arrest,\" and that the jury could reasonably have inferred that this agreement contemplated 11 or more grams of heroin. Government's Br. at 35.\nIn support of this argument, the government points to the following. First, Pauling and Low mixed and cut heroin together. Second, Pauling sold 89 grams of heroin sourced from Low. Third, Pauling and Low discussed a customer from Queens, which Pauling described as \"good\" and \"already established.\" App'x at 116. Fourth, Pauling knew that Low's operation was large enough to require one worker and a stash house. Finally, Pauling and Low had specific discussions in which they appeared to contemplate future distribution of drugs. For instance, on July 12, just before Pauling was arrested, Low told Pauling that he had \"a nice amount of that shit left,\" to which Pauling replied, \"I got you, I, I'm a be hittin' you ... when, um, dude calls me.\" Id. at 146. According to the government, it would be rational for a jury to infer, for example, that a \" 'nice' amount was at least enough to fill one of Pauling's large orders,\" that is, between 14 and 30 grams. Government's Br. at 35.\nOver the course of the 17-day period from June 26 to July 12, 2016, Low supplied Pauling with 89 grams of heroin over four transactions -- an average of 22.25 grams per transaction, with a low of 14 grams and a high of 30 grams. While it is certainly within the realm of possibility that the reference to \"a nice amount\" meant 14 grams or 30 grams of heroin, it also could have referred to a lesser quantity -- something more than the one- or two-gram sales that sometimes occurred but less than the 11 grams needed to reach the 100-gram threshold. See Quattrone , 441 F.3d at 169 (noting that \"courts may not credit inferences within the realm of possibility when those inferences are unreasonable\"). On the present record, the conclusion that \"a nice amount\" means 11 grams or more may be reasonable speculation, but it is still speculation and therefore is an insufficient basis on which to rest a guilty verdict. See Langston , 630 F.3d at 314 ; see also O'Laughlin , 568 F.3d at 302 (\"The instant facts may support a reasonable speculation that O'Laughlin was the assailant, but not sufficient evidence to establish his guilt. Taken together, the circumstantial evidence in this case, even when drawing all reasonable inferences in favor of the prosecution, does not permit any rational jury to conclude that O'Laughlin was the assailant beyond a reasonable doubt.\"); Newman , 543 F.3d at 796-97 (\"Although circumstantial evidence alone can support a conviction, there are times that it amounts to only a reasonable speculation and not to sufficient evidence. ... [W]here the evidence taken in the light most favorable to the prosecution creates only a reasonable speculation that [an element of the crime is met], there is insufficient evidence to satisfy the Jackson standard.\"). Because of the lack of representative proof of the quantity represented by a \"nice\" amount, the instant case is more like Martinez and Shonubi II than Adames .\nAnd even assuming it was reasonable for the jury to infer that Pauling and Low conspired to distribute an additional 11 or more grams of heroin, \"[w]e must also be satisfied that the inferences are sufficiently supported to permit a rational juror to find that the [quantity] element ... is established beyond a reasonable doubt.\" Martinez , 54 F.3d at 1043. In this case, we are not satisfied that the proof adduced by the government at trial could permit any rational trier of fact to conclude, beyond a reasonable doubt, that Pauling and Low conspired to distribute an additional 11 grams of heroin. See Jackson , 443 U.S. at 320, 99 S.Ct. 2781 (\"[I]t could not seriously be argued that such a 'modicum' of evidence could by itself rationally support a conviction beyond a reasonable doubt.\"). Accordingly, the district court correctly determined that there was insufficient evidence to support the jury's finding that Pauling and Low conspired to distribute 100 grams or more of heroin and, thus, properly granted Pauling's Rule 29 motion.\nOur conclusion is supported by decisions of other courts. Many of our sister circuits have reversed convictions where proof of drug quantity was speculative on facts analogous to these. See United States v. Navarrette-Aguilar , 813 F.3d 785, 793, 796 (9th Cir. 2015) (rejecting government's argument that \"pattern\" of drug dealing between conspirators \"allowed the jury to infer a preexisting agreement to distribute\" 250 additional grams of heroin because \"it would be speculative to infer that the defendants agreed to any future transactions such that they would reach the one kilogram mark\"); United States v. Daniels , 723 F.3d 562, 571 (5th Cir. 2013) (rejecting government's argument that distribution of five kilograms of cocaine was inferable from evidence of distribution of roughly 1.5 kilograms of cocaine to one buyer, combined with evidence of sales to six other buyers, because, \"without more evidence as to the quantity of these other sales,\" finding of five kilograms was mere speculation); United States v. Hickman , 626 F.3d 756, 768-70 (4th Cir. 2010) (rejecting government's argument that the four-month course of conduct between supplier and distributor was \"part of something larger\" such that jury could infer an additional 174 grams of heroin because it would be based on a \"hunch or intuition,\" and jury cannot \"simply guess at the magnitude or frequency of unknown criminal activity\" (internal quotation marks omitted)).\nTo the extent the government separately argues that the substantial interactions between Pauling and Low proved that additional quantities distributed by Low were reasonably foreseeable to Pauling, we agree that such an inference would be reasonable. But even so, based on the evidence here, no jury could reasonably conclude that any specific quantity of heroin was attributable to Low, beyond the undisputed 89 grams. The fact that Low's operation involved a stash house and a worker, and that Pauling was aware of these facts, is simply not specific evidence of drug quantity. In the absence of any evidence indicating the quantities generally (or specifically) associated with Low's operation, quantity is not inferable. There is, therefore, no additional quantity attributable to Low that Pauling could fairly be said to have reasonably foreseen.\n* * *\nAlthough this is a close case that tests the boundary that exists between the drawing of a permissible inference and impermissible speculation, only surmise and guesswork could lead a jury to determine that Pauling and Low conspired to distribute an additional 11 grams of heroin. \"We are obliged to view the evidence with all reasonable inferences drawn in the Government's favor, but we may not permit that rule to displace the even more important rule that all elements of an offense must be proven beyond a reasonable doubt.\" Martinez , 54 F.3d at 1049 (Newman, J. , dissenting). While one could argue, based on reasonable speculation, that it was \"likely\" or \"probable\" that Low and Pauling agreed to distribute an additional 11 grams of heroin, the government had to prove more than likelihood or probability -- it had to prove an agreement to distribute (or possess with intent to distribute) an additional 11 or more grams of heroin beyond a reasonable doubt. See Lorenzo , 534 F.3d at 159 (noting that \"it would not satisfy the Constitution to have a jury determine that the defendant is probably guilty\" (internal quotation marks and alternations omitted)).\nBecause the government failed to do so, the district court correctly determined, viewing all of the evidence in the light most favorable to the government and crediting every inference in its favor, that the evidence at trial was insufficient to support a jury finding that 100 or more grams of heroin were attributable to the Pauling-Low conspiracy.\nCONCLUSION\nFor the reasons set forth above, the judgment of the district court is AFFIRMED . The case is REMANDED for sentencing.\nSee United States v. Facen , 812 F.3d 280, 283 n.1 (2d Cir. 2016) (noting that a judgment of conviction under 21 U.S.C. \u00a7\u00a7 841(a)(1) and 841(b)(1)(C) is \"in effect a lesser-included offense\" of 21 U.S.C. \u00a7 841(b)(1)(B)\"without a mandatory minimum sentence\").\nOur statement of facts views the evidence in the light most favorable to the government, crediting any inference that the jury might have drawn in its favor. See United States v. Rosemond , 841 F.3d 95, 99-100 (2d Cir. 2016).\nPauling concedes that the quantity of the heroin in question is the weight with the cutting agent included. See 21 U.S.C. \u00a7 841(b)(1)(B)(i) (providing penalties for the distribution or possession with intent to distribute \"100 grams or more of a mixture or substance containing a detectable amount of heroin\"). The record indicates that at the time of the conspiracy, a gram of heroin sold for approximately $ 65.\nApp'x at 114 (PAULING: \"I'm mixing this shit right now. ... I'm squeezing it in my hand .... I ain't gonna put it in no press. ... I told you I put the strainer, right? And then [unintelligible] I had to take a hammer and break it with a hammer, cut it small and then I mashed it up ....\"); id. at 124-25 (PAULING: \"I'm a bring the machine so we could press it all. ... [Y]ou don't wanna smash it up? I mean you don't want to press it? LOW: Yeah. I've been wanted to do that all the week, nigga. I've been calling you man. ... PAULING: Aight, so we can do it tomorrow then.\"); id. at 144-45 (PAULING: \"They love it. Don't touch it. They love it. ... [I]f we didn't have that what we did last night, it would be too sticky .... And it was like all gooey. ... [T]he only thing that gets it like that is what we did last night. ... That's what makes it better. ... And what I want to, right? Is ... lie it out and, um, dry it out all the, the sweetness. ... [D]on't get no mix from nowhere else, just use that.\").\nApp'x at 130 (PAULING: \"I'll help you get rid of that shit ... this week. [T]omorrow that shit will be gone.\"); id. at 116 (PAULING: \"[T]he queens thing is good. ... [I]t's already established.\"); id. at 124 (PAULING: \"I got some other people who want ... a gram-, two grams shit like that.\"); id. at 145-46 (PAULING: \"I'm a move it off for you. ... I'm spend it with you anyway. ... I'm a get rid of all that.\"); id. (LOW: \"[W]e got a nice amount of that shit left, too. ... PAULING: I got you, I, I'm a be hittin' you ... when, um, dude calls me.\").\nThe district court correctly charged the jury on this law. Trial Tr. at 573-74.\nThe proof necessary to satisfy an element of a charged crime beyond a reasonable doubt is obviously more stringent than the proof required to establish that a sentencing enhancement is warranted by the preponderance of the evidence. See generally United States v. Booker , 543 U.S. 220, 125 S.Ct. 738, 160 L.Ed.2d 621 (2005).\nIn one transaction, Pauling tells a buyer, \"I only got 10 grams here.\" App'x at 199. It might be said that \"only ... 10 grams\" contrasts with, rather than reflects, a \"nice amount,\" thus enabling the inference that a \"nice amount\" is something more than 10 grams of heroin. But considered in context, no such inference is possible. Pauling told the purchaser that he \"only\" had 10 grams because he did not have enough heroin to fill the buyer's 20-gram order. See Trial Tr. at 123:21-23 (\"[H]e didn't have enough. He didn't have what I ordered. I ordered 20, and he didn't have enough grams of heroin to give me. He only had ten ... grams.\").",
+        "type": "majority",
+        "author": "Chin, Circuit Judge:"
+      }
+    ],
+    "attorneys": [
+      "Jason M. Swergold, Assistant United States Attorney (Amanda L. Houle, Micah W.J. Smith, Assistant United States Attorneys, on the brief), for Geoffrey S. Berman, United States Attorney for the Southern District of New York, New York, New York, for Appellant.",
+      "Yuanchung Lee, Federal Defenders of New York, Inc., New York, New York, for Defendant-Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Appellant,\nv.\nJohn PAULING, a/k/a JJ, Defendant-Appellee.\nDocket No. 17-2539-cr\nAugust Term 2018\nUnited States Court of Appeals, Second Circuit.\nArgued: October 23, 2018\nDecided: May 23, 2019\nJason M. Swergold, Assistant United States Attorney (Amanda L. Houle, Micah W.J. Smith, Assistant United States Attorneys, on the brief), for Geoffrey S. Berman, United States Attorney for the Southern District of New York, New York, New York, for Appellant.\nYuanchung Lee, Federal Defenders of New York, Inc., New York, New York, for Defendant-Appellee.\nBefore: Katzmann, Chief Judge, and Kearse and Chin, Circuit Judges."
+  },
+  "file_name": "0649-01",
+  "first_page_order": 649,
+  "last_page_order": 662
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12415494,
+  "name": "Harper v. Farrell, Judge, Circuit Court of West Virginia, Cabell County",
+  "name_abbreviation": "Harper v. Farrell",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5217",
+  "first_page": "901",
+  "last_page": "901",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 901"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 20,
+    "char_count": 127,
+    "ocr_confidence": 0.635,
+    "sha256": "89d1d5007d5a5f5a06995baba2fb336e9b2054feb21daa4ed5c62455885a13f2",
+    "simhash": "1:af5d03f783c33b7b",
+    "word_count": 20
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Harper v. Farrell, Judge, Circuit Court of West Virginia, Cabell County."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. App. W. Va. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5217.\nHarper v. Farrell, Judge, Circuit Court of West Virginia, Cabell County."
+  },
+  "file_name": "0901-04",
+  "first_page_order": 977,
+  "last_page_order": 977
+}

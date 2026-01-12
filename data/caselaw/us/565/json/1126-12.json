@@ -1,0 +1,59 @@
+{
+  "id": 12240643,
+  "name": "Nelson v. Williams et al.",
+  "name_abbreviation": "Nelson v. Williams",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-7209",
+  "first_page": "1126",
+  "last_page": "1126",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1126"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 75,
+    "ocr_confidence": 0.628,
+    "sha256": "ea1b5c14c5acb5a91d6decd99b1df583d6354887fccb8ba62f877ff5aaf1bba6",
+    "simhash": "1:11f1d6e9411f9440",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Nelson v. Williams et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. D. C. Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7209.\nNelson v. Williams et al."
+  },
+  "file_name": "1126-12",
+  "first_page_order": 1208,
+  "last_page_order": 1208
+}

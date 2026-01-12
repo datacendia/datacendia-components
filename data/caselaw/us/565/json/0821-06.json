@@ -1,0 +1,76 @@
+{
+  "id": 12195579,
+  "name": "United States Steel Corp. v. United States et al.; and Nucor Corp. v. United States et al.",
+  "name_abbreviation": "United States Steel Corp. v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-1433; No. 10-1439",
+  "first_page": "821",
+  "last_page": "821",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 821"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "621 F. 3d 1351",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3785127
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/621/1351-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 184,
+    "ocr_confidence": 0.63,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.24762177254349577
+    },
+    "sha256": "01b1b6187e9b1713afeb3e1b8f356635f504c877b846dc47a62426f4ff20f6f6",
+    "simhash": "1:a50bbd422a35c61e",
+    "word_count": 33
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "United States Steel Corp. v. United States et al.; and Nucor Corp. v. United States et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. Fed. Cir. Certiorari denied. Reported below: 621 F. 3d 1351.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1433.\nNo. 10-1439.\nUnited States Steel Corp. v. United States et al.; and Nucor Corp. v. United States et al."
+  },
+  "file_name": "0821-06",
+  "first_page_order": 903,
+  "last_page_order": 903
+}

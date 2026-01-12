@@ -1,0 +1,59 @@
+{
+  "id": 5944015,
+  "name": "Williams v. Hagan, Warden",
+  "name_abbreviation": "Williams v. Hagan",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-7465",
+  "first_page": "1184",
+  "last_page": "1184",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1184"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.657,
+    "sha256": "bd0c28a58d759d575f78f6e23039ca3516c4f033a8e46faa9f9cab0f8b7a2209",
+    "simhash": "1:b2c214d8adcd3173",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. Hagan, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7465.\nWilliams v. Hagan, Warden."
+  },
+  "file_name": "1184-12",
+  "first_page_order": 1206,
+  "last_page_order": 1206
+}

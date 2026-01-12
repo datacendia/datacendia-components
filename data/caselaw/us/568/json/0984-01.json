@@ -1,0 +1,59 @@
+{
+  "id": 12420512,
+  "name": "Rodriguez v. California",
+  "name_abbreviation": "Rodriguez v. California",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-5922",
+  "first_page": "984",
+  "last_page": "984",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 984"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 87,
+    "ocr_confidence": 0.547,
+    "sha256": "bc064c177103080471727445315871a883ec77a535a5c60395fc7230b30d6d89",
+    "simhash": "1:8c9589c051c16803",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rodriguez v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 5th App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5922.\nRodriguez v. California."
+  },
+  "file_name": "0984-01",
+  "first_page_order": 1060,
+  "last_page_order": 1060
+}

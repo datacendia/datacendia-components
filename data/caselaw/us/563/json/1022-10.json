@@ -1,0 +1,59 @@
+{
+  "id": 5924548,
+  "name": "Davis et al. v. United States",
+  "name_abbreviation": "Davis v. United States",
+  "decision_date": "2011-05-31",
+  "docket_number": "No. 10-1328",
+  "first_page": "1022",
+  "last_page": "1022",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1022"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 78,
+    "ocr_confidence": 0.647,
+    "sha256": "723cb1646f34a57847b4fe2643869836fe255a1103cf5cb18d4e662b9982d182",
+    "simhash": "1:179ad7830fac1c2f",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Davis et al. v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1328.\nDavis et al. v. United States."
+  },
+  "file_name": "1022-10",
+  "first_page_order": 1048,
+  "last_page_order": 1048
+}

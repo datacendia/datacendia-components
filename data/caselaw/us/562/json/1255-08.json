@@ -1,0 +1,59 @@
+{
+  "id": 5960132,
+  "name": "In re Mackey; and In re Espinoza",
+  "name_abbreviation": "In re Mackey",
+  "decision_date": "2011-02-28",
+  "docket_number": "No. 10-8559; No. 10-8751",
+  "first_page": "1255",
+  "last_page": "1255",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1255"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 100,
+    "ocr_confidence": 0.592,
+    "sha256": "212c3ea7a25bcec011f0814e8e7d2e0e2aeb14a28ab282462d87f1348eeb018e",
+    "simhash": "1:592259f1ef0d9204",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Mackey; and In re Espinoza."
+    ],
+    "opinions": [
+      {
+        "text": "Petitions for writs of mandamus denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8559.\nNo. 10-8751.\nIn re Mackey; and In re Espinoza."
+  },
+  "file_name": "1255-08",
+  "first_page_order": 1277,
+  "last_page_order": 1277
+}

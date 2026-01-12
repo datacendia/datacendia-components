@@ -1,0 +1,59 @@
+{
+  "id": 6018275,
+  "name": "Fisher v. Southwestern Bell Telephone Co.",
+  "name_abbreviation": "Fisher v. Southwestern Bell Telephone Co.",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-275",
+  "first_page": "1178",
+  "last_page": "1178",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1178"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 89,
+    "ocr_confidence": 0.625,
+    "sha256": "892913354afad36f8b1ffcf706dc908a6c3bfdf0fc6ca1a87ac3624075fe3fe3",
+    "simhash": "1:87ac82a9b56efb6c",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Fisher v. Southwestern Bell Telephone Co."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-275.\nFisher v. Southwestern Bell Telephone Co."
+  },
+  "file_name": "1178-04",
+  "first_page_order": 1200,
+  "last_page_order": 1200
+}

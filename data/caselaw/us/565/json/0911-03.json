@@ -1,0 +1,59 @@
+{
+  "id": 12221523,
+  "name": "Richards v. Curry, Warden",
+  "name_abbreviation": "Richards v. Curry",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5498",
+  "first_page": "911",
+  "last_page": "911",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 911"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.688,
+    "sha256": "e748dfe23c3ed11a62f261c9d4a388da5429121e13463a3dafadc9ddfafc35ec",
+    "simhash": "1:25b3629c399f10d5",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Richards v. Curry, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5498.\nRichards v. Curry, Warden."
+  },
+  "file_name": "0911-03",
+  "first_page_order": 993,
+  "last_page_order": 993
+}

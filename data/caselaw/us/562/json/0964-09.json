@@ -1,0 +1,59 @@
+{
+  "id": 6018846,
+  "name": "Johnston v. Florida",
+  "name_abbreviation": "Johnston v. Florida",
+  "decision_date": "2010-10-12",
+  "docket_number": "No. 10-5124",
+  "first_page": "964",
+  "last_page": "964",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 964"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 67,
+    "ocr_confidence": 0.638,
+    "sha256": "5d72bb5eb9eb6911c4a9d5596488dcdc5a7412e4b848f63fdd21e80a15741adb",
+    "simhash": "1:135fe243f9b1be37",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Johnston v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5124.\nJohnston v. Florida."
+  },
+  "file_name": "0964-09",
+  "first_page_order": 986,
+  "last_page_order": 986
+}

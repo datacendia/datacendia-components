@@ -1,0 +1,68 @@
+{
+  "id": 12700375,
+  "name": "Martin JONES, petitioner, v. UNITED STATES.",
+  "name_abbreviation": "Jones v. United States",
+  "decision_date": "2014-01-13",
+  "docket_number": "No. 13\u2013554.",
+  "first_page": "1130",
+  "last_page": "1130",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 1130"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 783"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 931"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 208,
+    "sha256": "cf3c1f228047dae938fef9c3b651c06e3f5b8ac13f0e2cd72109c4843209a7a1",
+    "simhash": "1:79ef46442b821691",
+    "word_count": 34
+  },
+  "last_updated": "2021-09-08T21:16:17.237805+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Martin JONES, petitioner,\nv.\nUNITED STATES."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of certiorari to the United States Court of Appeals for the Fourth Circuit denied."
+    ],
+    "corrections": "",
+    "head_matter": "Martin JONES, petitioner,\nv.\nUNITED STATES.\nNo. 13-554.\nSupreme Court of the United States\nJan. 13, 2014.\nPetition for writ of certiorari to the United States Court of Appeals for the Fourth Circuit denied."
+  },
+  "file_name": "1130-05",
+  "first_page_order": 1130,
+  "last_page_order": 1130
+}

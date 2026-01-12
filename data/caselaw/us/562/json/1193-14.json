@@ -1,0 +1,59 @@
+{
+  "id": 5910881,
+  "name": "Ziskind v. United States",
+  "name_abbreviation": "Ziskind v. United States",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-8029",
+  "first_page": "1193",
+  "last_page": "1193",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1193"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.588,
+    "sha256": "178aebb6071b257a504684d141d39d8b676abc34407d5d131b77409fbb3f935c",
+    "simhash": "1:000a8ec14ed19908",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ziskind v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8029.\nZiskind v. United States."
+  },
+  "file_name": "1193-14",
+  "first_page_order": 1215,
+  "last_page_order": 1215
+}

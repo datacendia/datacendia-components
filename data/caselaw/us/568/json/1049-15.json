@@ -1,0 +1,59 @@
+{
+  "id": 12426430,
+  "name": "Lee v. Tennessee",
+  "name_abbreviation": "Lee v. Tennessee",
+  "decision_date": "2012-12-03",
+  "docket_number": "No. 12-6464",
+  "first_page": "1049",
+  "last_page": "1049",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1049"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 71,
+    "ocr_confidence": 0.733,
+    "sha256": "ab222cae3a561922d4159d0cbeef183eadd9114a402e7880041530d83b2e2c6c",
+    "simhash": "1:842181927a8609e9",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lee v. Tennessee."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tenn. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6464.\nLee v. Tennessee."
+  },
+  "file_name": "1049-15",
+  "first_page_order": 1125,
+  "last_page_order": 1125
+}

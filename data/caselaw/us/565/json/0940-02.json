@@ -1,0 +1,110 @@
+{
+  "id": 12226838,
+  "name": "Rehberg v. Paulk",
+  "name_abbreviation": "Rehberg v. Paulk",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 10-788",
+  "first_page": "940",
+  "last_page": "940",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 940"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "562 U. S. 1286",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6003855,
+        6016144,
+        5998242,
+        12458536,
+        5946283,
+        5949740,
+        12458541,
+        5946803,
+        5969343,
+        12458309,
+        5928390,
+        12458311,
+        12458312,
+        12458313,
+        5946442,
+        12458314,
+        12458315,
+        12458310,
+        12458316,
+        5962493
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/562/1286-05",
+        "/us/562/1286-04",
+        "/us/562/1286-08",
+        "/l-ed-2d/179/0644-01",
+        "/us/562/1286-09",
+        "/us/562/1286-07",
+        "/l-ed-2d/179/0645-01",
+        "/us/562/1286-03",
+        "/us/562/1286-02",
+        "/l-ed-2d/179/0615-01",
+        "/us/562/1286-06",
+        "/l-ed-2d/179/0615-03",
+        "/l-ed-2d/179/0615-04",
+        "/l-ed-2d/179/0615-05",
+        "/us/562/1286-10",
+        "/l-ed-2d/179/0615-06",
+        "/l-ed-2d/179/0615-07",
+        "/l-ed-2d/179/0615-02",
+        "/l-ed-2d/179/0616-01",
+        "/us/562/1286-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 33,
+    "char_count": 208,
+    "ocr_confidence": 0.661,
+    "sha256": "ee5c3dc267d72622a712819144018b2134a1558c01b7301eba9bd01bf67ca5e9",
+    "simhash": "1:9090802182e2861d",
+    "word_count": 35
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rehberg v. Paulk."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. [Certiorari granted, 562 U. S. 1286.] Motion of the Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-788.\nRehberg v. Paulk."
+  },
+  "file_name": "0940-02",
+  "first_page_order": 1022,
+  "last_page_order": 1022
+}

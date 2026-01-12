@@ -1,0 +1,59 @@
+{
+  "id": 12237472,
+  "name": "Starks v. United States",
+  "name_abbreviation": "Starks v. United States",
+  "decision_date": "2011-12-05",
+  "docket_number": "No. 11-7153",
+  "first_page": "1086",
+  "last_page": "1086",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1086"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.734,
+    "sha256": "49b3ddd3bc809086f022ff80fcb7ea37019452c588ff7c62a141dfed25af67fa",
+    "simhash": "1:3d29ca23278fb05a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Starks v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7153.\nStarks v. United States."
+  },
+  "file_name": "1086-02",
+  "first_page_order": 1168,
+  "last_page_order": 1168
+}

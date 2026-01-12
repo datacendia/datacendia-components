@@ -1,0 +1,68 @@
+{
+  "id": 12699890,
+  "name": "In re David JACKSON, petitioner.",
+  "name_abbreviation": "In re Jackson",
+  "decision_date": "2013-12-09",
+  "docket_number": "No. 13\u20137310.",
+  "first_page": "1093",
+  "last_page": "1093",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 1093"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 613"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 808"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 22,
+    "char_count": 139,
+    "sha256": "c1efca86a4462256d297a9a20c3bc8b3b9b53685e6fdcf72b9989eee6029dccb",
+    "simhash": "1:6067404c535b4620",
+    "word_count": 23
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re David JACKSON, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of habeas corpus denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re David JACKSON, petitioner.\nNo. 13-7310.\nSupreme Court of the United States\nDec. 9, 2013.\nPetition for writ of habeas corpus denied."
+  },
+  "file_name": "1093-07",
+  "first_page_order": 1093,
+  "last_page_order": 1093
+}

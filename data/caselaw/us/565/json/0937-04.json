@@ -1,0 +1,61 @@
+{
+  "id": 12226775,
+  "name": "Hunter v. United States",
+  "name_abbreviation": "Hunter v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-6094",
+  "first_page": "937",
+  "last_page": "937",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 937"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 151,
+    "ocr_confidence": 0.683,
+    "sha256": "9e8b12700f9777fb3a12f8ba099a63bf2c53250d2fa7e2c9536fbd75bf192995",
+    "simhash": "1:bb82fa06ee8edf48",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Hunter v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Cer-tiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6094.\nHunter v. United States."
+  },
+  "file_name": "0937-04",
+  "first_page_order": 1019,
+  "last_page_order": 1019
+}

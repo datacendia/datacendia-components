@@ -1,0 +1,76 @@
+{
+  "id": 12195627,
+  "name": "Rundus v. City of Dallas, Texas, et al.; and Rundus v. City of Dallas, Texas, et al.",
+  "name_abbreviation": "Rundus v. City of Dallas",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-1434; No. 10-1435",
+  "first_page": "821",
+  "last_page": "821",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 821"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "634 F. 3d 309",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4095932
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/634/0309-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 176,
+    "ocr_confidence": 0.647,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.24762235172784205
+    },
+    "sha256": "ec83630369d912c66de3bbbd1c302e1d19690f88158767e8c8756ddb344e4cb8",
+    "simhash": "1:b138d39a56acff61",
+    "word_count": 33
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rundus v. City of Dallas, Texas, et al.; and Rundus v. City of Dallas, Texas, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied. Reported below: 634 F. 3d 309.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1434.\nNo. 10-1435.\nRundus v. City of Dallas, Texas, et al.; and Rundus v. City of Dallas, Texas, et al."
+  },
+  "file_name": "0821-07",
+  "first_page_order": 903,
+  "last_page_order": 903
+}

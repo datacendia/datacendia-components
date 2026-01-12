@@ -1,0 +1,61 @@
+{
+  "id": 12237653,
+  "name": "Ford v. United States",
+  "name_abbreviation": "Ford v. United States",
+  "decision_date": "2011-12-05",
+  "docket_number": "No. 11-7162",
+  "first_page": "1087",
+  "last_page": "1087",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1087"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 150,
+    "ocr_confidence": 0.633,
+    "sha256": "0c52504abf13df4889bd28c069451f54b9cf00c0de3fead48eb686cee80a5f77",
+    "simhash": "1:5b73da82edeef912",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Ford v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Cer-tiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7162.\nFord v. United States."
+  },
+  "file_name": "1087-11",
+  "first_page_order": 1169,
+  "last_page_order": 1169
+}

@@ -1,0 +1,86 @@
+{
+  "id": 12407578,
+  "name": "In re Disbarment of Klingsmith",
+  "name_abbreviation": "In re Disbarment of Klingsmith",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. D-2634",
+  "first_page": "902",
+  "last_page": "902",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 902"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "566 U. S. 919",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12199493,
+        12199533,
+        12199565,
+        12199631,
+        12199441,
+        12199608,
+        12199517,
+        12199455
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/566/0919-03",
+        "/us/566/0919-05",
+        "/us/566/0919-06",
+        "/us/566/0919-08",
+        "/us/566/0919-01",
+        "/us/566/0919-07",
+        "/us/566/0919-04",
+        "/us/566/0919-02"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 111,
+    "ocr_confidence": 0.727,
+    "sha256": "c809a0cca640ea3a8b12a01a9f6a1dfd74060fedaabc187a500f3758ff671b9e",
+    "simhash": "1:14b844eaba9256e7",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:46:21.325002+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Klingsmith."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see 566 U. S. 919.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2634.\nIn re Disbarment of Klingsmith."
+  },
+  "file_name": "0902-09",
+  "first_page_order": 806,
+  "last_page_order": 806
+}

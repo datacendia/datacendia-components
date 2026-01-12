@@ -1,0 +1,59 @@
+{
+  "id": 4333918,
+  "name": "Guo v. Wagstaff et al.",
+  "name_abbreviation": "Guo v. Wagstaff",
+  "decision_date": "2011-06-13",
+  "docket_number": "No. 10-9898",
+  "first_page": "1006",
+  "last_page": "1006",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1006"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 71,
+    "ocr_confidence": 0.549,
+    "sha256": "08b29fdc3692f3cf6f61052c55d6232ab1f228b1566664af400369d3250b1d1d",
+    "simhash": "1:91c8e9aadbc0d242",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Guo v. Wagstaff et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9898.\nGuo v. Wagstaff et al."
+  },
+  "file_name": "1006-09",
+  "first_page_order": 1000,
+  "last_page_order": 1000
+}

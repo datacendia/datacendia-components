@@ -1,0 +1,59 @@
+{
+  "id": 12222283,
+  "name": "Herring v. United States",
+  "name_abbreviation": "Herring v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5562",
+  "first_page": "914",
+  "last_page": "914",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 914"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.697,
+    "sha256": "3ad73f34137a1677bad81e9ece578ecb4fd4d79e40a6476d4147aedc9bbe52ce",
+    "simhash": "1:05aba6896fada11e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Herring v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5562.\nHerring v. United States."
+  },
+  "file_name": "0914-08",
+  "first_page_order": 996,
+  "last_page_order": 996
+}

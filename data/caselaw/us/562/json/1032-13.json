@@ -1,0 +1,59 @@
+{
+  "id": 6010425,
+  "name": "Price v. Shewalter, Warden",
+  "name_abbreviation": "Price v. Shewalter",
+  "decision_date": "2010-11-08",
+  "docket_number": "No. 10-6473",
+  "first_page": "1032",
+  "last_page": "1032",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1032"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 75,
+    "ocr_confidence": 0.607,
+    "sha256": "3d6195e50fde465a2896b8f72758478d19fe23978ab787c0adb8f58d6ab6d8b2",
+    "simhash": "1:6d1e627f410a9c4b",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Price v. Shewalter, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ohio. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6473.\nPrice v. Shewalter, Warden."
+  },
+  "file_name": "1032-13",
+  "first_page_order": 1054,
+  "last_page_order": 1054
+}

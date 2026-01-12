@@ -1,0 +1,59 @@
+{
+  "id": 5925056,
+  "name": "Cooper v. United States",
+  "name_abbreviation": "Cooper v. United States",
+  "decision_date": "2011-06-20",
+  "docket_number": "No. 10-10628",
+  "first_page": "1029",
+  "last_page": "1029",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1029"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.534,
+    "sha256": "3148ba8efbc54e5875b062b8eb69c7e6419ad279100b1be5e2b8b1c892981694",
+    "simhash": "1:1719aeec3bea1716",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cooper v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. D. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10628.\nCooper v. United States."
+  },
+  "file_name": "1029-13",
+  "first_page_order": 1023,
+  "last_page_order": 1023
+}

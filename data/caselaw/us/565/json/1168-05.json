@@ -1,0 +1,59 @@
+{
+  "id": 12243613,
+  "name": "Wilkerson v. Florida",
+  "name_abbreviation": "Wilkerson v. Florida",
+  "decision_date": "2012-01-17",
+  "docket_number": "No. 11-7672",
+  "first_page": "1168",
+  "last_page": "1168",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1168"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 85,
+    "ocr_confidence": 0.665,
+    "sha256": "894525d6194a67e31d4b57b40adec973075ef30cb118318fc276710100e2d666",
+    "simhash": "1:91200002ca614b16",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wilkerson v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 5th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7672.\nWilkerson v. Florida."
+  },
+  "file_name": "1168-05",
+  "first_page_order": 1250,
+  "last_page_order": 1250
+}

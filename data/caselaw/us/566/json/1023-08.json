@@ -1,0 +1,59 @@
+{
+  "id": 12222433,
+  "name": "Richardson v. Pennsylvania",
+  "name_abbreviation": "Richardson v. Pennsylvania",
+  "decision_date": "2012-05-29",
+  "docket_number": "No. 11-9431",
+  "first_page": "1023",
+  "last_page": "1023",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1023"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 75,
+    "ocr_confidence": 0.593,
+    "sha256": "272afa8f9fa010752bbce668091979133eb87c18d519ad154eaab70e8d5393f9",
+    "simhash": "1:c276fff0b7e89bd5",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Richardson v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Pa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9431.\nRichardson v. Pennsylvania."
+  },
+  "file_name": "1023-08",
+  "first_page_order": 899,
+  "last_page_order": 899
+}

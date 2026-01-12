@@ -1,0 +1,59 @@
+{
+  "id": 12210525,
+  "name": "Moore v. California",
+  "name_abbreviation": "Moore v. California",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11107",
+  "first_page": "867",
+  "last_page": "867",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 867"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 68,
+    "ocr_confidence": 0.692,
+    "sha256": "7cc8a805303690911d8a33ba20322fa11feda737c15a7e7fba959203f1fab0da",
+    "simhash": "1:4e2b33718f7c084f",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Moore v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11107.\nMoore v. California."
+  },
+  "file_name": "0867-07",
+  "first_page_order": 949,
+  "last_page_order": 949
+}

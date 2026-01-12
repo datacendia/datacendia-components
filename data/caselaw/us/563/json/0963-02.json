@@ -1,0 +1,59 @@
+{
+  "id": 5939737,
+  "name": "Sumrell v. Mississippi",
+  "name_abbreviation": "Sumrell v. Mississippi",
+  "decision_date": "2011-04-25",
+  "docket_number": "No. 10-9111",
+  "first_page": "963",
+  "last_page": "963",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 963"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 71,
+    "ocr_confidence": 0.599,
+    "sha256": "0addc044cc7a8211c3e181c7b6ec28dbb20990c925c8e7d828a7f7ad43e011e0",
+    "simhash": "1:032a8a82894a3747",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sumrell v. Mississippi."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9111.\nSumrell v. Mississippi."
+  },
+  "file_name": "0963-02",
+  "first_page_order": 989,
+  "last_page_order": 989
+}

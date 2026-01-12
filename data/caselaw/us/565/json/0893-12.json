@@ -1,0 +1,59 @@
+{
+  "id": 12217640,
+  "name": "Frasher v. United States",
+  "name_abbreviation": "Frasher v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5176",
+  "first_page": "893",
+  "last_page": "893",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 893"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.654,
+    "sha256": "9c3ce13c64da5904ce99199230df94636c60a9dcd9fb40d95352460351377809",
+    "simhash": "1:07bae283afb9164b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Frasher v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5176.\nFrasher v. United States."
+  },
+  "file_name": "0893-12",
+  "first_page_order": 975,
+  "last_page_order": 975
+}

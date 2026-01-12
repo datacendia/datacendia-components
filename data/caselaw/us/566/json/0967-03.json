@@ -1,0 +1,59 @@
+{
+  "id": 12211032,
+  "name": "Scott v. United States",
+  "name_abbreviation": "Scott v. United States",
+  "decision_date": "2012-04-23",
+  "docket_number": "No. 11-9413",
+  "first_page": "967",
+  "last_page": "967",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 967"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.622,
+    "sha256": "d865d70c55e7d5b661791bc2d9925547d07d2de447d3b8bc0072fa47277a0997",
+    "simhash": "1:14a9cfb34a8bb00c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Scott v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9413.\nScott v. United States."
+  },
+  "file_name": "0967-03",
+  "first_page_order": 843,
+  "last_page_order": 843
+}

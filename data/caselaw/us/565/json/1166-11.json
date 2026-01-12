@@ -1,0 +1,59 @@
+{
+  "id": 12243411,
+  "name": "Bear v. Fayram, Warden",
+  "name_abbreviation": "Bear v. Fayram",
+  "decision_date": "2012-01-17",
+  "docket_number": "No. 11-7452",
+  "first_page": "1166",
+  "last_page": "1166",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1166"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.653,
+    "sha256": "11c35495dcf3f70e014c9f13e8f9337a047c6721c21393bf1f88548901818c9b",
+    "simhash": "1:20826af3bd7110b0",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bear v. Fayram, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7452.\nBear v. Fayram, Warden."
+  },
+  "file_name": "1166-11",
+  "first_page_order": 1248,
+  "last_page_order": 1248
+}

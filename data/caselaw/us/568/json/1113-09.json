@@ -1,0 +1,59 @@
+{
+  "id": 12428990,
+  "name": "Jones v. United States",
+  "name_abbreviation": "Jones v. United States",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-7555",
+  "first_page": "1113",
+  "last_page": "1113",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1113"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.679,
+    "sha256": "1659ee1a54bc308c65804f1a853a192d7684ab0ba7843426bd4b9fabae34fdc7",
+    "simhash": "1:02889e014a959028",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jones v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7555.\nJones v. United States."
+  },
+  "file_name": "1113-09",
+  "first_page_order": 1189,
+  "last_page_order": 1189
+}

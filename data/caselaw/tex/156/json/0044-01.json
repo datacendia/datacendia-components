@@ -1,0 +1,633 @@
+{
+  "id": 2252395,
+  "name": "David R. Womack v. Charles D. Berry",
+  "name_abbreviation": "Womack v. Berry",
+  "decision_date": "1956-06-06",
+  "docket_number": "No. A-5517",
+  "first_page": "44",
+  "last_page": "61",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "156 Tex. 44"
+    },
+    {
+      "type": "parallel",
+      "cite": "291 S.W.2d 677"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "163 S.W. 2d 833",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10223290,
+        2311431
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/163/0833-01",
+        "/tex/139/0540-01"
+      ]
+    },
+    {
+      "cite": "139 Texas 540",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2311431
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/139/0540-01"
+      ]
+    },
+    {
+      "cite": "1 S.W. 2d 373",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10292303
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/1/0373-01"
+      ]
+    },
+    {
+      "cite": "55 Am. Dec. 791",
+      "category": "reporters:federal",
+      "reporter": "Am. Dec.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "6 Texas 457",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        6770710
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/6/0229-01"
+      ]
+    },
+    {
+      "cite": "101 S.W. 2d 539",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10252488,
+        2291460
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/101/0539-01",
+        "/tex/129/0141-01"
+      ]
+    },
+    {
+      "cite": "129 Texas 141",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2291460
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/129/0141-01"
+      ]
+    },
+    {
+      "cite": "165 S.W. 2d 81",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10201520,
+        2310161,
+        2311410,
+        10201399
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/165/0081-02",
+        "/tex/140/0001-01",
+        "/tex/139/0650-01",
+        "/sw2d/165/0081-01"
+      ]
+    },
+    {
+      "cite": "139 Texas 650",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2311410
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/139/0650-01"
+      ]
+    },
+    {
+      "cite": "279 S.W. 2d 308",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2249227,
+        10181743
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/154/0448-02",
+        "/sw2d/279/0308-01"
+      ]
+    },
+    {
+      "cite": "154 Texas 448",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2249280,
+        2249227
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/154/0448-01",
+        "/tex/154/0448-02"
+      ]
+    },
+    {
+      "cite": "62 S.W. 2d 1010",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10264615
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/62/1010-01"
+      ]
+    },
+    {
+      "cite": "75 S.W. 2d 876",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2300409,
+        10268543
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/124/0042-01",
+        "/sw2d/75/0876-01"
+      ]
+    },
+    {
+      "cite": "124 Texas 42",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2300409
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/124/0042-01"
+      ]
+    },
+    {
+      "cite": "292 S.W. 877",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10316194,
+        2276542,
+        10316295
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/292/0877-01",
+        "/tex/116/0409-01",
+        "/sw/292/0877-02"
+      ]
+    },
+    {
+      "cite": "116 Texas 409",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2276542
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/116/0409-01"
+      ]
+    },
+    {
+      "cite": "242 S.W. 753",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8264364,
+        2284701
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/242/0753-01",
+        "/tex/111/0585-01"
+      ]
+    },
+    {
+      "cite": "111 Texas 585",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2284701
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/111/0585-01"
+      ]
+    },
+    {
+      "cite": "196 S.W. 501",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10319190
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/196/0501-01"
+      ]
+    },
+    {
+      "cite": "191 S.W. 2d 563",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "109 Texas 69",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2288359
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/109/0069-01"
+      ]
+    },
+    {
+      "cite": "280 S.W. 2d 588",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2249233,
+        10184070
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/154/0511-01",
+        "/sw2d/280/0588-01"
+      ]
+    },
+    {
+      "cite": "154 Texas 511",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2249233
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/154/0511-01"
+      ]
+    },
+    {
+      "cite": "319 U. S. 561",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        366821
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/319/0561-01"
+      ]
+    },
+    {
+      "cite": "3 S.W. 2d 864",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10286493
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/3/0864-01"
+      ]
+    },
+    {
+      "cite": "92 S.W. 2d 435",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2294866,
+        10252811
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/127/0147-01",
+        "/sw2d/92/0435-01"
+      ]
+    },
+    {
+      "cite": "127 Texas 147",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2294866
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/127/0147-01"
+      ]
+    },
+    {
+      "cite": "136 A.L.R. 177",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "150 S.W. 2d 973",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        11614323,
+        2316484
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/150/0973-01",
+        "/tex/136/0299-01"
+      ]
+    },
+    {
+      "cite": "136 Texas 299",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2316484
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/136/0299-01"
+      ]
+    },
+    {
+      "cite": "57 S.W. 2d 188",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10235805
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/57/0188-01"
+      ]
+    },
+    {
+      "cite": "120 S.W. 1044",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "265 S.W. 2d 869",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10207023
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/265/0869-01"
+      ]
+    },
+    {
+      "cite": "244 S.W. 2d 348",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10200478
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/244/0348-01"
+      ]
+    },
+    {
+      "cite": "239 S.W. 2d 431",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10203243
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/239/0431-01"
+      ]
+    },
+    {
+      "cite": "237 S.W. 2d 778",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10212582
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/237/0778-01"
+      ]
+    },
+    {
+      "cite": "220 S.W. 2d 331",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10195156
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/220/0331-01"
+      ]
+    },
+    {
+      "cite": "217 S.W. 2d 183",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10189104
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/217/0183-01"
+      ]
+    },
+    {
+      "cite": "216 S.W. 2d 847",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10209126
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/216/0847-01"
+      ]
+    },
+    {
+      "cite": "163 S.W. 2d 660",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10220308
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/163/0660-01"
+      ]
+    },
+    {
+      "cite": "79 S.W. 86",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "79 S.W. 84",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "2 Am. St. Rep. 505",
+      "category": "reporters:state",
+      "reporter": "Am. St. Rep.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "5 S.W. 62",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "68 Texas 492",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "319 U. S. 566",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "pin_cites": [
+        {
+          "page": "567"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "1 S.W. 2d 373",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10292303
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/1/0373-01"
+      ]
+    },
+    {
+      "cite": "319 U. S. 561",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        366821
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "1226"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/319/0561-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1291,
+    "char_count": 41772,
+    "ocr_confidence": 0.574,
+    "pagerank": {
+      "raw": 1.9192432877704457e-06,
+      "percentile": 0.9946170606857775
+    },
+    "sha256": "519d13d65a01ca32dadc0cf30a28977accc9eab78ff809f3faa6e22d9db9afde",
+    "simhash": "1:4f6cf01d140016d8",
+    "word_count": 7270
+  },
+  "last_updated": "2024-02-27T22:45:04.681911+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "David R. Womack v. Charles D. Berry"
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Walker\ndelivered the opinion of the Court.\nThis is an original proceeding in which relator, David R. Womack, seeks a writ of mandamus directing Honorable Charles D. Berry, Judge of the 8th District Court of Hopkins County, to set aside an order granting, pursuant to the provisions of the Soldiers\u2019 and Sailors\u2019 Civil Relief Act of 1940 as amended, a stay of proceedings pending in said court. Since the cause of action asserted by relator does not affect the defendant who is in military service and can be tried separately without prejudice to any of the parties, we have concluded that the court should order a separate trial of such cause of action and proceed to trial thereon.\nR. M. Womack died testate in 1948, survived by two sons, W. B. Womack and relator, and by three grandchildren, Michael A. Patton, Kathleen E. Patton and Robert M. Patton, who are the children of the testator\u2019s deceased daughter, Mrs. Edna Womack Patton. After directing that the testator\u2019s estate be divided into three equal parts and that the two sons should each take one of such parts, the will provides that the remaining one-third be held in trust by W. B. Womack for the three grandchildren equally; that the trustee shall have complete control of the trust property to handle as he might deem best, but shall hand the same over as the grandchildren, respectively, reach the age of twenty-one; that if any grandchild interferes with W. B. Womack, such grandchild shall take only one dollar from the 'estate; that the testator, his associates in the City National Bank of Sulphur Springs, and W. B. Womack have handled the affairs of Mrs. Edna Womack Patton since her death; that if any grandchild attempts to make claims against the bank or other parties arising out of the handling and management of Mrs. Patton\u2019s estate, such grandchild shall take only one dollar from the testator\u2019s estate; that as each grandchild reaches the age of twenty-one years and is about to receive a portion of the testator\u2019s estate under the will, such grandchild shall release the bank, its officers and W. B. Womack from all claims arising out of the handling of Mrs. Patton\u2019s estate; and that in the event W. B. Womack predeceases relator, the latter shall carry out the terms of the will as trustee with all the benefits, terms and instructions as set out therein.\nW. B. Womack died in 1952. On October 8, 1953, relator instituted suit to recover possession of the property left in trust for the three Patton children, asserting that he is entitled to hold and manage the same as the successor trustee named in the will. Michael became twenty-one years of age on the day the suit was filed, and is the defendant whose military service is the basis of the stay ordered entered by the trial court. Kathleen and Robert are minors, and their father, M. L. Patton, is guardian of their estates.\nThe original petition named M. L. Patton, guardian of the estates of Kathleen and Robert, John H. Stegner, executor of the estate of Louise S. Womack, and Michael A. Patton as defendants. It is there alleged that the will of R. M. Womack was admitted to probate and W. B. Womack qualified as executor of the estate; that W. B. Womack took possession of and co-mingled the trust estate with his individual property; that W. B. Womack left a will in which Louise S. Womack is named as principal beneficiary and independent executrix without bond; that Louise S. Womack came into possession of part of the trust estate after the death of W. B. Womack; that Louise S. Womack died in May, 1953, and John H. Stegner was appointed and qualified as executor of her estate; that the inventory of M. L. Patton, guardian, includes property which was listed in the inventory of the estate of R. M. Womack; that if any of the property in the guardian\u2019s hands is part of the trust estate, relator is entitled to possession thereof; that W. B. Womack did not file income tax returns for the trust estate; that Michael should not receive his share of the trust estate, because relator expects to file proper income tax returns and Michael should be required to pay his share of the taxes and other expenses, including those incurred by relator in filing and prosecuting the suit. Relator prayed for judgment against each defendant for possesison of any of the trust property held by the latter and for the value of the property of the trust that each defendant, being liable therefor, failed to deliver, that the defendants be enjoined from delivering any of the trust estate to Michael, and that Michael be enjoined from receiving or disposing of any of the trust property.\nIt is necessary to set out in some detail the subsequent pleadings and proceedings in the trial court. Defendants first answered with a general denial. Thereafter, in compliance with an order of court directing that they file statements under oath showing the location and disposition of the trust property, the defendants filed separate verified reports. M. L. Patton, guardian, stated that after the death of R. M. Womack there was delivered to him as the property of his three children certain stocks, proceeds of insurance policies, and cash, a list of which is set out in the report, aggregating approximately $74,000.00; that such property represents one-third of all property owned by R. M. Womack at the time of his death; and that the guardian delivered to Michael the latter\u2019s share on October 8, 1953. Michael stated that he has in his possession, subject to such limitation as exists by reason of the suit, all property belonging to his estate theretofore handled by his father, which includes one-third of all property shown in the statement of M. L. Patton. Stegner stated that he does not have possession of any trust property.\nMichael then applied for and was granted, over the protest of relator, leave to implead and file a cross-section against The City National Bank of Sulphur Springs. On December 29, 1954, he filed his first amended original answer and cross-action, alleging that W. B. Womack as executor of the estate of R. M. Womack administered such estate and after paying the claims distributed the estate one-third each to W. B. Womack and relator and one-ninth each to Michael and his brother and sister; that Michael\u2019s share has been handled by his father in a satisfactory manner; that relator is not entitled to possession thereof and should be removed as trustee; that the bank is a depository of a substantial amount of his estate and is demanding a release from all the beneficiaries under the will, which constitutes a cloud on his property. He prayed that relator be denied possession of, and that the bank be required to relinquish any control which it might be asserting over, any of Michael\u2019s property. In a separate pleading, filed on January 18, 1955, and denominated a supplemental petition, Michael alleged that as a result of the bringing of the suit and the relator\u2019s communications with companies in which Michael owns stock, the latter has incurred attorney\u2019s fees and has been prevented from selling his stocks or receiving the dividends thereon, and prayed for judgment against relator for damages in the amount of $12,500.00.\nSeveral days prior to the filing of such supplemental petition, Michael and his father filed a joint motion to stay the proceedings in the case, alleging that the former had been inducted as a Naval Aviation Cadet to serve for a period of four years ending on August 17, 1958, and praying that the proceedings be stayed until that date.\nOn January 21, 1955, relator filed his first amended original petition complaining of M. L. Patton, guardian, and John H. Stegner executor, and seeking to recover only the property left in trust for Kathleen and Robert; no relief is sought against Michael or his property, and the suit against him is expressly dismissed with prejudice.\nThree days later the bank filed its original answer and cross-action, alleging that it has money on deposit in Michael\u2019s account, some of which is part of his inheritance under the R. M. Womack will; that some of the property originally owned by the estate of R. M. Womack is on deposit in the bank to the account of various parties to the case; that various parties have made demands on the bank for the delivery of its deposits and funds; and that the bank is unable to determine its liability, if any, created by the will of R. M. Womack when considered in connection with the estates of the three Patton children. It prayed for a declaratory judgment construing the will to determine whether a valid trust was created in W. B. Womack as trustee and relator as successor trustee, whether the original trustee was authorized to deliver the trust property to the beneficiaries, and whether each child is now entitled to receive his or her inheritance. It also requested the court to determine and adjudicate the property controlled by the will, and to enter judgment releasing the bank from all liability by virtue of its having been depository of funds belonging to the estate of R. M. Womack and by virtue of any connection it might have had with funds belonging to any of the parties to the suit.\nRelator answered the motion to stay the proceedings, praying that the same be defined, or in the alternative that the court grant a separate trial of all claims and issues relating to Michael and stay only the trial of such claims and issues. After a hearing on January 25, 1955, the trial court overruled relator\u2019s motion for a separate trial and granted Michael\u2019s motion for a stay of the proceedings. Relator\u2019s subsequent motion to set aside such order was overruled, and his application to the Court of Civil Appeals for a writ of mandamus was denied in an unpublished opinion.\nThe federal statute provides that any action in which a person in military service is involved, either as plaintiff or defendant, shall on application by such person be stayed as provided in the Act unless in the opinion of the court the ability of such person to prosecute the action or conduct his defense is not materially affected by reason of his military service. Its obvious purpose being to prevent prejudice to the rights of a litigant in military service because of inability to prosecute his claim or conduct his defense, the statute should be liberally construed and applied to accomplish that purpose. It should not, however, be used as a device to delay the proper and expeditious determination of legal proceedings when the rights of the party in military service will not be materially affected thereby. The trial court is given a wide discretion in determining whether a stay should be granted under the circumstances of a particular case and in deciding which party should carry the burden of proof on the issue of prejudice. See Boone v. Lightner, 319 U. S. 561, 63 S. Ct. 1223, 87 L. Ed. 1587.\nRelator\u2019s amended petition asserts only the right to take possession of and manage the property left in trust for Kathleen and Robert. His right to prevail depends upon whether he, as the successor trustee named in the will, is entitled to possession of such property during the minority of the beneficiaries. Michael is twenty-one year of age, and under the provisions of the will is now entitled to his property even though it might be determined that during his minority the same should have been held by the trustee. It clearly appears from the pleadings and verified reports that Michael has received all property to which he is entitled under the will, that he is satisfied with his father\u2019s management thereof during his minority, and that the guardian and possibly the two minor children and the bank have possession of the property devised in trust for Kathleen and Robert. We are unable to perceive, therefore, how Michael could be affected in any way by a determination of the claims of the other parties with reference to the property of the minors. Assuming that the cause of action which relator originally alleged against Michael and his property is effectively dismissed with prejudice, which will be discussed later, no one with the possible exception of the bank is questioning Michael\u2019s right to possession, management and control of his property.\nMichael is interested, however, in his cross-action against relator for damages, in his action against the bank to obtain a release of his property, and in any claims or questions which the bank might raise affecting his property. If these actions and issues are to be determined in connection with and as a part of the trial of the main suit, then it cannot be said, on the record in this case, that the trial court abused its discretion in staying the entire proceedings. If, on the other hand, a separate trial of such actions and issues had been granted, the federal statute would afford no basis for staying the trial of the main case. We must determine, therefore, whether mandamus should issue to compel the trial court to order a severance.\nThe Rules of Civil Procedure bestow upon trial courts broad discretion in the matter of consolidation and severance of causes, and the trial court\u2019s action in such procedural matters will not be disturbed on appeal except for abuse of discretion. See Hamilton v. Hamilton, 154 Texas 511, 280 S.W. 2d 588. This brings us to the most serious question in the case. It is well settled that mandamus lies to enforce the performance of a ministerial act or duty, or to require the exercise of discretion. Many of our decisions declare, without qualification or exception, that the writ will not issue to review or control the action of an inferior court or public officer in a matter involving discretion. Lauraine v. Ashe, 109 Texas 69, 191 S.W. 2d 563; 196 S.W. 501; McDowell v. Hightower, 111 Texas 585, 242 S.W. 753; Anchor v. Martin, 116 Texas 409, 292 S.W. 877; Morton\u2019s Estate v. Chapman, 124 Texas 42, 75 S.W. 2d 876; 28 Tex. Jur. 574, Sec. 33. And it has been held that the determination of the issues of severance invokes the discretionary or judicial powers of the trial court and is not subject to control by mandamus. Baten v. Campbell, 62 S.W. 2d 1010 (no writ).\nThe rule denying mandamus with respect to matters of a discretionary character is not without limitation, however, and the writ may issue in a proper case to correct a clear abuse of discretion. See City of Houston v. Adams, 154 Texas 448, 279 S.W. 2d 308; Stakes v. Rogers, 139 Texas 650, 165 S.W. 2d 81; City of San Antonio v. Zogheib, 129 Texas 141, 101 S.W. 2d 539; Arberry v. Beavers, 6 Texas 457, 55 Am. Dec. 791; King v. Guerra, 1 S.W. 2d 373 (writ ref.); 55 C.J.S. 100, 126, Secs. 63 and 73; 34 Am. Jur. 858, Sec. 69; 35 Am. Jur. 31, Sec. 259. While no Texas case has been found in which the writ issued to correct the action of an officer or tribunal in a matter of discretion, the cited cases recognize the exception to the general rule.\nRule 174(b), Texas Rules of Civil Procedure, provides that the court in furtherance of convenience or to avoid prejudice may order a separate trial of any claim, cross-claim counterclaim or third party claim, or of any separate issue, or of any number of such claims or issues. The use of the permissive word \u201cmay\u201d imports the exercise of discretion in such matters. But the court is not vested with unlimited discretion, and is required to exercise a sound and legal discretion within limits created by the circumstances of the particular case. The express purpose of the rule is to further convenience and avoid prejudice, and thus promote the ends of justice. When all of the facts and circumstances of the case unquestionably require a separate trial to prevent manifest injustice, and there is no fact or circumstance supporting or tending to support a contrary conclusion, and the legal rights of the parties will not be prejudiced thereby, there is no room for the exercise of discretion. The rule then is peremptory in operation and imposes upon the court a duty to order a separate trial. While the refusal to grant a separate trial under such circumstances is usually termed a clear abuse of discretion, it is nevertheless a violation of a plain legal duty. If it also appears that the injustice resulting from such refusal cannot later be remedied on appeal, the action of the court is subject to control by mandamus.\nA granting of relator\u2019s motion for a separate trial of his suit might be contrary to the personal wishes of the other parties, but in a legal sense would not prejudice the latter in any way. Relator\u2019s claim as stated in his amended petition is a distinct and severable part of the entire controversy. The dismissal of his suit against Michael does not affect the latter\u2019s right to be heard on his claims for affirmative relief. But the determination of Michael\u2019s actions for damages and to recover his property, as well as any questions raised by the bank regarding such property, involves no issue which has any bearing on relator\u2019s right to possession of the property of the minors. Michael has no pecuniary interest in and will not be affected by a separate trial of the main suit, and the bank\u2019s interests can be as fully protected in separate trials as in a single trial.\nThe court overruled the motion for a separate trial and granted Michael\u2019s motion that the proceedings be stayed until August 17, 1958. On that date Kathleen will be over twenty-one years of age, and Robert will be almost twenty years old. The latter will probably reach his majority before the case can be tried and appealed. In practical effect, therefore, the action of the trial court denied relator a judicial determination of his right and duty to administer the property left in trust for the minors. By simply granting relator\u2019s motion for a separate trial, the court would have been in position to hear relator\u2019s suit promptly and stay only the proceedings relating to Michael and his property. Under these circumstances we think it was clearly the duty of the court to order a separate trial.\nThe record does not disclose whether the court has entered an order dismissing relator\u2019s suit as to Michael. The question of whether a plaintiff may, without permission of the court, discontinue his suit as to one or more of several defendants who have been served with process, or who have answered, has not been decided. See Rule 163, Texas Rules of Civil Procedure; Ridley v. McCallum, 139 Texas 540, 163 S.W. 2d 833. Nor is it necessary for us to decide the question here. Relator\u2019s amended petition expressly dismisses his suit as to Michael with prejudice. Michael will be fully protected, and the parties other than relator will not be adversely affected by such dismissal. Under these circumstances the trial court is under a duty to order the dismissal. Since relator\u2019s ultimate right to a writ of mandamus will not depend upon whether the court grants or refuses permisison to dismiss, no useful purpose would be served by requiring relator to obtain action by the court on that matter before we consider his petition for mandamus.\nIt is our opinion that the trial court should: (1) order a dismissal of relator\u2019s suit against Michael A. Patton with prejudice as to relator, but without prejudice to the rights of Michael A. Patton and the bank to be heard on their cross-actions: (2) order a separate trial of relator\u2019s suit to recover the- property devised by the will of R. M. Womack in trust for Kathleen E. Patton and Robert M. Patton, and certain related issues raised by the bank\u2019s cross-action as set out below; and (3) set aside the order staying proceedings entered on January 25, 1955, in so far as such order is applicable to the trial of relator\u2019s suit and the issues to be determined in connection therewith.\nThere are a number of questions raised by the bank\u2019s cross-action which are closely related to, and should be disposed of in connection with relator\u2019s suit. At the time such suit is tried, therefore, the court should decide whether the will of R. M. Womack created in W. B. Womack as trustee, and relator as successor trustee, a valid trust in the property bequeathed to the minors, whether the original trustee was entitled to deliver such property to the minors, and whether each minor is now entitled to receive his or her inheritance. The court will also be authorized to and should discharge the bank from liability with respect to any property of the minors which the bank is required to and does surrender upon final determination of relator\u2019s suit. This affords the bank ample protection on that phase of the case, and renders it unnecessary to hold relator\u2019s suit in abeyance until the remaining issues raised by the bank\u2019s cross-action are decided.\nRelator, Michael, M. L. Patton, guardian, and John H. Stegner, executor, are made cross-defendants in the bank\u2019s cross-action. The dismissal of relator\u2019s suit as to Michael does not eliminate the latter as a party defendant to such cross-action, and hence does not deprive the court of jurisdiction to determine, in connection with relator\u2019s suit, the related questions raised by the bank. But, as pointed out above, the decision of these matters cannot affect Michael or his property, and should not be stayed on his account.\nThe bank also asserts the right to a judicial determination of the property controlled by the will and to a general release from all liability by virtue of having been depository of funds belonging to the estate of R. M. Womack and by virtue of any connection it might have had with funds belonging to any of the parties to the suit. If the bank is entitled to such relief, it will be necessary for the court to ascertain and trace the property owned by R. M. Womack at the time of his death, and determine whether the bank has incurred any liability to his estate or to any of the parties to the suit. Michael is interested in these matters, as well as the question of his present right to possession of his inheritance, and the same should not be tried in connection with relator\u2019s suit.\nWe assume that the trial court will enter proper orders in accordance with this opinion, but in the event such orders are not entered, the clerk will be instructed to issue the appropriate writ.\nReferences have been made in this opinion to the provisions of the will of R. M. Womack, the property devised thereby in trust for various persons, and the pleadings and positions of the parties. We are not to be understood as expressing an opinion with respect to the meaning and effect of the will, the sufficiency of the pleadings, the propriety of permitting Michael to file a cross-action against the bank, or the bank\u2019s right to the relief which it seeks.\nOpinion delivered June 6, 1956.\nU.S.C.A. App., Sec. 521.",
+        "type": "majority",
+        "author": "Mr. Justice Walker"
+      },
+      {
+        "text": "Mr. Justice Griffin,\njoined by Justice Garwood, dissenting.\nThe majority opinion recognizes that if the action of the trial judge, first, in entering the stay order and, secondly, in refusing to grant a severance as requested by relator is discretionary when the mandamus should not be granted except for a clear abuse of discretion by the trial court. In this case we are overturning actions of the trial court on matters which are wholly discretionary and not contended to be ministerial, and holding, as a matter of law, that the facts before the trial judge could lead to no other conclusion than that the stay should not have been granted, and also that the cause of action should have been severed.\nRegarding the stay under 50 U.S. C. A. Appendix, Sec. 521, Mr. Justice Jackson discusses this Soldiers and Sailors Relief Act in the case of Boone v. Lightner, 1943, 319 U. S. 561, 87 L. Ed. 1587, 63 Sup. Ct. 1223, 1226. In that case, a stay had been refused by the trial judge. In discussing whether or not the Act conferred discretion on the trial judge, the Court said: \u201c* * * The legislative history of its antecedent [Act of 1918] shows that this clause was deliberately chosen and that judicial discretion thereby conferred on the trial court instead of rigid and undiscriminating suspension of civil proceedings was the very heart of the policy of the Act. * * *\u201d (Emphasis added). In a footnote of the opinion, Mr. Justice Jackson quotes from committee hearings and floor discussions at the time of the passage of the Act to sustain his contention that the trial court has a wide discretion. Portions of such record are as follows: \u201c* * * Most of the actions sought to be brought against soldiers will be for small amounts and will thus be in a local court where the judge, if he does not already know, will be in a favorable position to learn whether or not the defendant who seeks the benefit of the statute has really been prejudiced by his military service. * * *\u201d 319 U. S. 566, 567; 87 L. Ed. (2nd col., bottom p. 1591). Again, \u201c* * * the next material difference between this law and the various State laws is this, and in this I think you will find the chief excellence of the bill which we propose : Instead of the bill we are now considering being arbitrary, inelastic, inflexible, the discretion as to dealing out even-handed justice between the creditor and the soldier, taking into consideration the fact that the soldier has been called to his country\u2019s cause, rests largely, and in some cases entirely, in the breast of the judge who tries the case.\u201d I believe the above authorities are sufficient to show whether or not a stay should be granted is within the discretion of the trial judge and the granting or refusing of a stay is not merely a ministerial act.\nI think the law is well settled that for an action of a trial judge in a matter of this character to be \u201ca clear abuse of discretion,\u201d such action must amount to action wholly through fraud, caprice, or by a purely arbitrary decision, and without reason. King v. Guerra, 1928, 1 S.W. 2d 373 (8), wr. ref. However, the same authority says:\n\u201cBut this exception is restricted in its application to cases in which the offending board acts in the absence of any fact or condition supporting or tending to support its conclusion in the matter acted upon. The judicial function in the expected cases is limited to the inquiry as to whether there can be any controversy over the facts or conditions upon which the board acted, or which it could properly take into consideration in its deliberations. If such controversy is possible, if there can be any reasonable doubt concerning the existence or nonexistence of those facts or conditions or their effect upon the public good, then the courts are quite powerless to revise or disturb the action of the board. Sansom v. Mercer, 68 Texas 492, 5 S.W. 62, 2 Am. St. Rep. 505; Riggins v. Richards, supra. [79 S.W. 84, Tex. Civ. App.] To paraphrase the language of Judge Gaines in the Sansom Case:\n\u2018If there is any controversy as to the existence of the facts upon which the board denied the requested permit, the function of the board was discretionary, and it cannot be compelled to grant the permit/\n\u201cJudge Key said in the Riggins Case that: \u2018Human wisdom has never devised a system of government that did not vest final authority in one or more persons; and when that authority involves discretion, and has been exercised, the courts are powerless to grant relief, however unwisely or unjustly it may have been done.\u2019 79 S.W. 86.\u201d\nThe same law applies to court action as to action by a board.\nI am convinced that this Court can not say, under the facts of this case, that the trial judge, in his rulings acted \u201cwholly through fraud, caprice, or by a purely arbitrary decision, and without reason.\u201d King v. Guerra has an excellent discussion of the right to a mandamus in causes such as this.\nI shall next discuss the matter of a severance. The majority opinion recognizes that the granting of a severance is discretionary with the trial court. In addition to the authorities there cited, I would add:\n\u201cThe trial court has great discretion upon questions of joinder of parties and causes of action, and of consolidation or separation of causes, more especially under Rules 37 to 43, 97, and 174. Wilson v. Ammann & Jordan, Civ. App. 1942, 163 S.W. 2d 660, error dismissed; Simmons v. Wilson, Civ. App. 1949, 216 S.W. 2d 847; Waller Peanut Co. v. Lee County Peanut Co., Civ. App. 1949, 217 S.W. 2d 183; Gowan v. Reimers, Civ. App 1949, 220 S.W. 2d 331, ref. n.r.e.; McGee v. McGee, Civ. App. 1951, 237 S.W. 2d 778, ref. n.r.e.; Utilities Natural Gas Corp. v. Hill, Civ. App. 1951, 239 S.W. 2d 431, ref. n.r.e.; Associated Growers v. Smith, Civ. App. 1952, 244 S.W. 2d 348; Barbee v. Buckner, Civ. App. 1954, 265 S.W. 2d 869, ref. n.r.e. * * *\u201d Footnote 10, Rule 174, Vernon\u2019s Annotated Texas Rules of Civil Procedure.\nNow let us examine the situation of the case before the court at the time he made his rulings which are sought to be overthrown by mandamus. Relator had filed a suit on the day Michael became 21 years of age against Michael and others alleging, among other things, that \u201c* * * Michael should not receive his share of the trust estate, because relator expects to file proper income tax returns and Michael should pay his share of the' taxes and expenses, including those incurred by relator in filing and prosecuting the suit. Relator prayed for judgment against each defendant for possession of any of the trust property held by the latter and for the value of the property of the trust that each defendant, being liable therefor, failed to deliver, that the-defendants be enjoined from delivering any of the trust estate to Michael, and that Michael be enjoined from receiving or disposing of any of the trust property.\u201d To this Michael answered that \u201che has in his possesison, subject to such limitation as exists by reason of the suit,\u201d (emphasis added) all of his estate theretofore handled by his father. Michael thereafter filed a cross-action against the Bank. This cross-action was filed only after Michael had filed a request to be permitted to bring in the Bank, only after an answer by relator opposing such request had been filed and only after a hearing was had before the court and the entry of an order permitting Michael to bring in the Bank. This answer and cross-action was amended on December 29, 1954, and Michael alleged that relator is not entitled to possession of Michael\u2019s estate, and asked that relator be removed as trustee over the estate; that the depository Bank has possession of a substantial amount of Michael\u2019s estate and is demanding a release from all of the beneficiaries under the will before it will deliver to Michael his estate, and that such action on the part of the Bank constitutes a cloud on Michael\u2019s property, and prayed that relator be denied possession of, and the Bank be required to relinquish control over Michael\u2019s property. Apparently the next pleading filed was Michael\u2019s request for a stay under the Soldiers and Sailors Relief Act. Michael\u2019s father joined in such request. On January 18, 1955, Michael further sunplemented his cross-action by alleging a cross-action against relator for \u00a712,500.00 damages by virtue of certain actions of relator. Michael alleged relator had caused certain companies in which Michael had stock to withhold dividends from Michael on the stock Michael owned and that relator\u2019s suit had prevented Michael from selling and disposing of certain stocks he desired to sell. On January 21, 1955, relator amended his petition in which he dismissed his suit against Michael with prejudice, and sought no relief of any character against Michael.\nThe will of R. M. Womack, under which relator claimed the rights asserted in his original and amended petition, provided that W. B. Womack hold in trust for Michael and his brother and sister one-third of R. M. Womack\u2019s estate. It also provides that in the event W. B. Womack \u201cpredeceases me and/or if he predeceases my said son David R. Womack, then, and in that event\u201d David R. Womack shall carry out the terms of the will, as trustee. It also provides, in the case of Michael and the other two children of the testator\u2019s deceased daughter, Edna Patton, that testator, the City National Bank of Sulphur Springs and W. B. Womack had handled the Edna Patton estate to the best of their ability and with no profit to any one of them; that if any of the Patton children attempt to make any claim against the Bank, or testator, or W. B. Womack, then such child or children shall receive from testator\u2019s estate the sum of one dollar each. It further provides that as each Patton child reaches the age of 21 years, and is \u201cabout to receive a portion of my estate under this will such child shall execute a valid release to said City National Bank of Sulphur Springs and my son, and to any officer of said Bank arising out of the handling of the estate of my deceased daughter. [Edna Patton].\u201d Three days later on January 24, 1955, the Bank filed its original answer and cross-action to Michael\u2019s cross-action against it and made all parties to the suit cross-defendants. In its pleading, the Bank asked that the will of R. M. Womack be construed; that various parties have made demands on the Bank for delivery of its deposits and fund of the R. M. Womack estate; that the Bank is unable to determine its liability under the R. M. Womack will when considered in connection with the estates of the three Patton children of whom Michael is one.\nAmong other things the Bank alleged that this cross-plaintiff has participated in the affairs of Rufus Marvin Womack\u2019s estate and that this cross-plaintiff should receive certain releases at certain times during the administration of the estate of Rufus Marvin Womack, and the nature of the releases, and of the demands which have been made on this bank are not clear. This cross-paintiff is unable to make construction of the will of Rufus Marvin Womack, deceased, and is unwilling to determine the extent of its liability, if any, created by said will, when considered in connection with the estates of Michael Alfred Patton, Kathleen E. Patton and Robert M. Patton. This cross-plaintiff, therefore, invokes the \u201cProvisions of the Declaratory Judgment Act of Texas,\u201d as to construction of wills, and therefore, requests this court to construe said will of Rufus Marvin Womack, deceased, and answer the following questions: (1) Did the will of the said Rufus Marvin Womack pass to the three Patton children, to-wit, Michael Alfred Patton, Kathleen E. Patton and Robert M. Patton, jointly a l/3rd interest in his estate? (2) Did the will of Rufus Marvin Womack create and set up a valid trust in W. B. Womack over the property bequeathed therein unto Michael Alfred Patton, Kathleen E. Patton and Robert M. Patton? (3) If the will set up a valid trust of said property in W. B. Womack, did W. B. Womack have the authority to deliver unto the Patton children their interest therein? (4) Did the will of Rufus Marvin Womack create and set up a valid trust in David R. Womack over the property bequeathed therein unto Michael Alfred Patton, Kathleen E. Patton and Robert M. Patton, at the death of W. B. Womack? (5), (6) and (7) inquires whether each of the Patton children now is entitled to receive its inheritance under the R. M. Womack will. The Bank further asks the court to determine and adjudicate the property of the R. M. Womack estate, if any, controlled thereby. The Bank asks that after the will has been construed, the Court enter proper orders and judgments releasing the Bank from liability as \u00a1to the depositor of funds of the R. M. Womack estate; and \u201cby virtue of any connection which it might have had regarding the funds belonging to any one of the original parties to this law suit, including the cross defendants herein.\u201d\nThis is clearly a suit to construe the will of R. M. Womack brought by a party named in the will as having been interested in handling a part of the estate. Further, the Bank is a beneficiary under the will in that the will requires a release from the Patton children as a condition precedent to each child receiving its estate. Further, the will sought to protect the Bank against litigation in providing that if any of the Patton children should make a claim against the Bank, such child should receive only $1.00 from the R. M. Womack estate. Surely it cannot be contended that a pleading of this nature involves only matters between Michael and the Bank. Nor can it be contended that relator, as trustee and as beneficiary, and Michael as beneficiary, and all other beneficiaries are not only proper parties but necessary parties to the Bank\u2019s cross-action. In view of all the complications of the facts in this case, surely this pleading on the part of the Bank was a very wise and necessary one, and the Bank is entitled to make its proof in order to obtain a judgment fixing its rights and liabilities, not only to Michael, but also to all trustees, estates and beneficiaries. The Bank, as beneficiary under the R. M. Womack will, had a right to bring the suit for construction of the will. 44 Tex. Jur. 76, Sec. 197. I think this is a fundamental proposition requiring no further authority. The order of the court permitting Michael to bring in the Bank on his cross-action was an interlocutory order, and can be reviewed only by an appeal in the main case after a final judgment has been entered in the trial court. Mandamus cannot be used in lieu of an appeal. 28 Tex. Jur. 530, Sec. 10. For the purposes of this mandamus proceeding such order permitting Michael to bring in the Bank is valid, subsisting, and not subject to attack. The Bank, being properly made a party to the suit, and being a beneficiary under the will, could legally bring the suit for construction, and for release from its liabilities under the will, and to secure its right to a release from other beneficiaries under the will, as therein provided.\nIn suits for the construction of a will all those who have an interest in the estate and who are named in the will as beneficiaries of substantial parts of the estate are necessary parties. \u201c* * * This is because the necessary parties must be joined in a suit to construe a toill in order to give the court jurisdiction to enter a final judgment. 44 Tex. Jur. 766, Sec. 197; Hay v. Hay, Tex. Civ. App. 120 S.W. 1044, [no writ history] ; Goldsmith v. Mitchell, Tex. Civ. App., 1933, 57 S.W. 2d 188, [dism. w.o.j.].\u201d (Emphasis added). Miller v. Davis, 1941, 136 Texas 299, 150 S.W. 2d 973, 136 A.L.R. 177. See also Sharpe v. Landowners Oil Ass\u2019n., 1936, 127 Texas 147, 92 S.W. 2d 435.\nMiller v. Davis, (18, 19), supra, says:\n\u201cSince we hold that the trustees * * * are necessary parties to this action in order for the court to have jurisdiction to enter final judgment construing this will, it must follow that no final judgment has been entered in this case in the district court. * * *\u201d (Emphasis aded).\nAlthough that suit was by an executor under a will, what was said in the case of Alexander v. Berkman, Tex. Civ. App., 1928, 3 S.W. 2d 864, wr. ref., is particularly applicable to the necessity for all parties to be joined in one and the same suit.\n\u201c* * * He [the executor] is not required to decide conflicting claims at his peril, but has a right to have such claims adjudicated in an action to which all claimants are made parties, so that all not required, and should not be required to litigate such issues with a garnishing creditor in one suit, and with the legatees and other claimants of the funds in his hands in another suit. He has a right to have all parties interested bound by a common finding of fact.\u201d\nThe majority opinion indicates that it has only \u201csliced out\u201d Michael and his interest from the will construction suit, and that no harm can come to the Bank by such slicing. The answer to that argument is found in the above cases wherein it is said that the court has no jurisdiction to render a final judgment unless all necessary parties are present. Any judgment rendered in either of the two suits into which the majority has sliced the Bank\u2019s cross-action for construction would not be a final judgment. Not being a final judgment it could bind none of the litigants. Thus the Bank would not be protected by either one or both of the judgments entered in the severed suits. If Michael and his property can be \u201csliced out\u201d for a separate suit, so could each other party\u2019s interest be made the subject of a separate suit. This is clearly contrary to what has been the law for a long time in suits for construction of wills.\nWe cannot say that the trial court, under the above pleadings before him on January 25, 1955, acted in fraud, arbitrarily, through caprice, or without reason or some basis of fact, when he refused to sever the cause and also when he granted the stay order. I do not see how Michael\u2019s rights can be severed from his cross-action against the Bank and relator, or from the cross-action of the Bank against him, relator and others so as to be tried in a separate suit between the Bank and Michael.\nI am sure it is not necessary to cite authority for the proposition that relator in a mandamus proceeding must show a clear, legal right to have it issued. 28 Tex. Jur. 533, Sec. 11. Neither can we say that the trial court acted in the absence of any fact or condition supporting, or tending to support, the action taken. King v. Guerra, supra.\nI would refuse the mandamus.\nOpinion delivered June 6, 1956.\nRehearing overruled July 18, 1956.",
+        "type": "dissent",
+        "author": "Mr. Justice Griffin,"
+      }
+    ],
+    "attorneys": [
+      "Taylor & Chandler and H. Grady Chandler, all of Austin, for relator.",
+      "Woodrow H. Edwards, for City National Bank of Sulphur Springs, Ramey & Ramey, T. J. Ramey and Howard S. Smith, all of Sulphur Springs, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "David R. Womack v. Charles D. Berry\nNo. A-5517.\nDecided June 6, 1956.\nRehearing overuled July 18, 1956.\n(291 S.W. 2d Series 677)\nTaylor & Chandler and H. Grady Chandler, all of Austin, for relator.\nWoodrow H. Edwards, for City National Bank of Sulphur Springs, Ramey & Ramey, T. J. Ramey and Howard S. Smith, all of Sulphur Springs, for respondents."
+  },
+  "file_name": "0044-01",
+  "first_page_order": 56,
+  "last_page_order": 73
+}

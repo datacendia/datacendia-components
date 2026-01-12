@@ -1,0 +1,59 @@
+{
+  "id": 5984903,
+  "name": "Gross v. United States",
+  "name_abbreviation": "Gross v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-6139",
+  "first_page": "945",
+  "last_page": "945",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 945"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.654,
+    "sha256": "1a1a5756f9536de6f4e29b9982abb76fcb7190a4ba43f3c51d05db150d6565ac",
+    "simhash": "1:1599e4a16fbf8d5e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gross v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6139.\nGross v. United States."
+  },
+  "file_name": "0945-13",
+  "first_page_order": 967,
+  "last_page_order": 967
+}

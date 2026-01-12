@@ -1,0 +1,59 @@
+{
+  "id": 4125984,
+  "name": "Davis v. Maryland State Department of Education",
+  "name_abbreviation": "Davis v. Maryland State Department of Education",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10981",
+  "first_page": "857",
+  "last_page": "857",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 857"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 99,
+    "ocr_confidence": 0.629,
+    "sha256": "184ab3b08aab81f592d3a05a29c94331b151a47981d9c02b8e908ee029c7adc8",
+    "simhash": "1:5592e20370815313",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Davis v. Maryland State Department of Education."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Sp. App. Md. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10981.\nDavis v. Maryland State Department of Education."
+  },
+  "file_name": "0857-14",
+  "first_page_order": 879,
+  "last_page_order": 879
+}

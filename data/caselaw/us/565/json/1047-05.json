@@ -1,0 +1,59 @@
+{
+  "id": 12234620,
+  "name": "Brooks v. Bobby, Warden",
+  "name_abbreviation": "Brooks v. Bobby",
+  "decision_date": "2011-11-15",
+  "docket_number": "No. 11-7324 (11A479)",
+  "first_page": "1047",
+  "last_page": "1047",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1047"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 30,
+    "char_count": 207,
+    "ocr_confidence": 0.685,
+    "sha256": "8c446bc2ca2004ec75e68adfbac4e1bef75d8ed0064635533b2b0c186b370c82",
+    "simhash": "1:e09b5b28ee5d0837",
+    "word_count": 34
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Brooks v. Bobby, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Application for stay of execution of sentence of death, presented to Justice Kagan, and by her referred to the Court, denied. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7324 (11A479).\nBrooks v. Bobby, Warden."
+  },
+  "file_name": "1047-05",
+  "first_page_order": 1129,
+  "last_page_order": 1129
+}

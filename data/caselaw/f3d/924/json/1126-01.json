@@ -1,0 +1,844 @@
+{
+  "id": 12521127,
+  "name": "Charles FARRAR, Petitioner - Appellant, v. Rick RAEMISCH, Executive Director, Colorado Department of Corrections; Cynthia Coffman, Attorney General, State of Colorado ; James Falk, Warden, Sterling Correctional Facility, Respondents - Appellees. Scholars of Federal Habeas Corpus, Amicus Curiae.",
+  "name_abbreviation": "Farrar v. Raemisch",
+  "decision_date": "2019-05-21",
+  "docket_number": "No. 18-1005",
+  "first_page": "1126",
+  "last_page": "1134",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "924 F.3d 1126"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "10th Cir.",
+    "id": 8771,
+    "name": "United States Court of Appeals for the Tenth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "502 U.S. 62",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6218248
+      ],
+      "weight": 3,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "67"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/502/0062-01"
+      ]
+    },
+    {
+      "cite": "277 F.3d 1235",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9452969
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "1243",
+          "parenthetical": "\"In order to establish a due process violation [under Napue ], the [defendants] must show that ... the prosecution knew [the witness's testimony] to be false.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/277/1235-01"
+      ]
+    },
+    {
+      "cite": "793 F.3d 1194",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4277298
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1207",
+          "parenthetical": "\"[T]his court has repeatedly spoken of Napue claims as requiring perjury by the witness and the prosecutor's knowledge of the falsity.\" (internal citations omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/793/1194-01"
+      ]
+    },
+    {
+      "cite": "239 F.3d 1156",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11077504
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "1175"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/239/1156-01"
+      ]
+    },
+    {
+      "cite": "167 F.2d 661",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1198185
+      ],
+      "year": 1948,
+      "pin_cites": [
+        {
+          "page": "662",
+          "parenthetical": "stating that introduction of perjured testimony would not void a criminal judgment unless the government \"knowingly, willfully, and intentionally\" used the perjured testimony"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/167/0661-01"
+      ]
+    },
+    {
+      "cite": "183 F.2d 581",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1238500
+      ],
+      "year": 1950,
+      "pin_cites": [
+        {
+          "page": "581",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/183/0581-01"
+      ]
+    },
+    {
+      "cite": "187 F.2d 409",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1222610
+      ],
+      "year": 1951,
+      "pin_cites": [
+        {
+          "page": "410",
+          "parenthetical": "\"[A] writ of habeas corpus should not be granted upon the grounds that false and perjured testimony was used unless it is shown that it was knowingly used against the defendant by the prosecuting officers in the criminal case.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/187/0409-01"
+      ]
+    },
+    {
+      "cite": "446 F.2d 229",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        813670
+      ],
+      "year": 1971,
+      "pin_cites": [
+        {
+          "page": "232",
+          "parenthetical": "\"While use of perjured testimony to obtain a conviction may be grounds for vacation of a conviction, the petitioner has the burden of establishing that ... it was knowingly and intentionally used by the government to obtain a conviction.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/446/0229-01"
+      ]
+    },
+    {
+      "cite": "828 F.2d 656",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1747920
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "659",
+          "parenthetical": "\"In our habeas corpus consideration of the introduction of false or mistaken testimony, the question of error turns not on the witness' knowledge of falsity, but on the government 's knowledge.\" (emphasis in original)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/828/0656-01"
+      ]
+    },
+    {
+      "cite": "55 F.3d 414",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7413746
+      ],
+      "weight": 2,
+      "year": 1995,
+      "pin_cites": [
+        {
+          "parenthetical": "\"To the extent petitioner attempts to couch his actual innocence claim in terms of a due process violation based upon the state court's denial of his motion for a new trial, petitioner does not allege an 'independent' constitutional violation.\""
+        },
+        {
+          "page": "520"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/55/0414-01"
+      ]
+    },
+    {
+      "cite": "11 F.3d 1518",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11330871
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "1524",
+          "parenthetical": "holding that a challenge to state post-conviction procedures \"would fail to state a federal constitutional claim cognizable in a federal habeas proceeding\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/11/1518-01"
+      ]
+    },
+    {
+      "cite": "469 U.S. 387",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11959535
+      ],
+      "weight": 3,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "393"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/469/0387-01"
+      ]
+    },
+    {
+      "cite": "153 U.S. 684",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3576671
+      ],
+      "weight": 3,
+      "year": 1894,
+      "pin_cites": [
+        {
+          "page": "687-88"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/153/0684-01"
+      ]
+    },
+    {
+      "cite": "2 Vill. L. Rev. 293",
+      "category": "journals:journal",
+      "reporter": "Vill. L. Rev.",
+      "year": 1957,
+      "pin_cites": [
+        {
+          "page": "305",
+          "parenthetical": "stating that in light of the Constitution's silence on the right to a new trial in criminal cases, \"there seems to be no constitutional right to a new trial\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "156 U.S. 51",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1488088
+      ],
+      "weight": 3,
+      "year": 1895,
+      "pin_cites": [
+        {
+          "page": "175",
+          "parenthetical": "Gray, J., dissenting"
+        },
+        {
+          "parenthetical": "Gray, J., dissenting"
+        },
+        {
+          "parenthetical": "Gray, J., dissenting"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/156/0051-01"
+      ]
+    },
+    {
+      "cite": "153 U.S. 308",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3577051
+      ],
+      "weight": 3,
+      "year": 1894,
+      "pin_cites": [
+        {
+          "page": "312",
+          "parenthetical": "\"The overruling of the motion for new trial is next assigned for error. We had supposed that it was well understood by the bar that the refusal of a court of the United States to grant a new trial cannot be reviewed upon writ of error.\" (citing cases)"
+        },
+        {
+          "parenthetical": "\"The overruling of the motion for new trial is next assigned for error. We had supposed that it was well understood by the bar that the refusal of a court of the United States to grant a new trial cannot be reviewed upon writ of error.\" (citing cases)"
+        },
+        {
+          "parenthetical": "\"The overruling of the motion for new trial is next assigned for error. We had supposed that it was well understood by the bar that the refusal of a court of the United States to grant a new trial cannot be reviewed upon writ of error.\" (citing cases)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/153/0308-01"
+      ]
+    },
+    {
+      "cite": "7 L.Ed. 732",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "case_ids": [
+        3305738
+      ],
+      "year": 1830,
+      "pin_cites": [
+        {
+          "parenthetical": "discussing the unavailability of appellate jurisdiction over the denial of a new trial, which would have required reexamination of the jury's factual findings"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/28/0433-01"
+      ]
+    },
+    {
+      "cite": "28 U.S. 3",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 1830,
+      "pin_cites": [
+        {
+          "parenthetical": "discussing the unavailability of appellate jurisdiction over the denial of a new trial, which would have required reexamination of the jury's factual findings"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "624 F.2d 973",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1273083
+      ],
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "974",
+          "parenthetical": "\"It is well established that there is no constitutional right to an appeal.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/624/0973-01"
+      ]
+    },
+    {
+      "cite": "431 U.S. 651",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1917
+      ],
+      "weight": 3,
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "656",
+          "parenthetical": "\"[I]t is well settled that there is no constitutional right to an appeal.\""
+        },
+        {
+          "parenthetical": "\"[I]t is well settled that there is no constitutional right to an appeal.\""
+        },
+        {
+          "parenthetical": "\"[I]t is well settled that there is no constitutional right to an appeal.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/431/0651-01"
+      ]
+    },
+    {
+      "cite": "343 F.3d 976",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9097832
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "981-85"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/343/0976-01"
+      ]
+    },
+    {
+      "cite": "360 U.S. 264",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9052
+      ],
+      "weight": 3,
+      "year": 1959,
+      "pin_cites": [
+        {
+          "page": "269"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/360/0264-01"
+      ]
+    },
+    {
+      "cite": "405 U.S. 150",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11721534
+      ],
+      "weight": 3,
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "153-54"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/405/0150-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 2241",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(c)(3)"
+        },
+        {
+          "page": "(c)(3)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "135 F.3d 1333",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11878636
+      ],
+      "weight": 2,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "1339",
+          "parenthetical": "\"[T]he claim of innocence ... itself is not a basis for federal habeas corpus no matter how convincing the evidence.\""
+        },
+        {
+          "page": "1339"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/135/1333-01"
+      ]
+    },
+    {
+      "cite": "238 F.3d 1263",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11148308
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "parenthetical": "\"[A]n assertion of actual innocence ... does not, standing alone, support the granting of the writ of habeas corpus.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/238/1263-01"
+      ]
+    },
+    {
+      "cite": "906 F.3d 866",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518960
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "parenthetical": "denying a certificate of appealability because freestanding assertions of actual innocence cannot support habeas relief"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/906/0866-01"
+      ]
+    },
+    {
+      "cite": "506 U.S. 390",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11925317
+      ],
+      "weight": 22,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "400"
+        },
+        {
+          "page": "401"
+        },
+        {
+          "page": "407-08"
+        },
+        {
+          "page": "408"
+        },
+        {
+          "page": "408-11"
+        },
+        {
+          "page": "407-08, 411",
+          "parenthetical": "concluding that a state's refusal to consider newly discovered evidence eight years after the conviction did not result in a denial of due process"
+        },
+        {
+          "parenthetical": "concluding that a state's refusal to consider newly discovered evidence eight years after the conviction did not result in a denial of due process"
+        },
+        {
+          "parenthetical": "concluding that a state's refusal to consider newly discovered evidence eight years after the conviction did not result in a denial of due process"
+        },
+        {
+          "page": "417"
+        },
+        {
+          "page": "408"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/506/0390-01"
+      ]
+    },
+    {
+      "cite": "557 U.S. 52",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3658152
+      ],
+      "weight": 6,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "71"
+        },
+        {
+          "page": "71",
+          "parenthetical": "declining to resolve whether actual innocence justifies habeas relief in a non-capital case"
+        },
+        {
+          "parenthetical": "declining to resolve whether actual innocence justifies habeas relief in a non-capital case"
+        },
+        {
+          "parenthetical": "declining to resolve whether actual innocence justifies habeas relief in a non-capital case"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/557/0052-01"
+      ]
+    },
+    {
+      "cite": "547 U.S. 518",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3275461
+      ],
+      "weight": 6,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "554"
+        },
+        {
+          "page": "554-55",
+          "parenthetical": "declining to resolve this issue in a capital case"
+        },
+        {
+          "parenthetical": "declining to resolve this issue in a capital case"
+        },
+        {
+          "parenthetical": "declining to resolve this issue in a capital case"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/547/0518-01"
+      ]
+    },
+    {
+      "cite": "513 U.S. 298",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1333576
+      ],
+      "weight": 3,
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "314-15"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/513/0298-01"
+      ]
+    },
+    {
+      "cite": "569 U.S. 383",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12697052
+      ],
+      "weight": 8,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "386"
+        },
+        {
+          "page": "392-93"
+        },
+        {
+          "page": "392",
+          "parenthetical": "again declining to resolve whether actual innocence justifies habeas relief in a non-capital case"
+        },
+        {
+          "parenthetical": "again declining to resolve whether actual innocence justifies habeas relief in a non-capital case"
+        },
+        {
+          "parenthetical": "again declining to resolve whether actual innocence justifies habeas relief in a non-capital case"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/569/0383-01"
+      ]
+    },
+    {
+      "cite": "184 F.3d 1206",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11549277
+      ],
+      "weight": 2,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "1223"
+        },
+        {
+          "page": "1223"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/184/1206-01"
+      ]
+    },
+    {
+      "cite": "645 F.3d 1159",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5651850
+      ],
+      "year": 2011,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/645/1159-01"
+      ]
+    },
+    {
+      "cite": "689 F.3d 1148",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3500456
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "1163"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/689/1148-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 2254",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(d)"
+        },
+        {
+          "page": "(d)"
+        },
+        {
+          "page": "(d)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "208 P.3d 702",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "case_ids": [
+        7334125
+      ],
+      "weight": 5,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "709-10"
+        },
+        {
+          "page": "707-08",
+          "parenthetical": "internal citations omitted"
+        },
+        {
+          "page": "706-10"
+        },
+        {
+          "page": "706"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/p3d/208/0702-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1012,
+    "char_count": 21486,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2593072028523671
+    },
+    "sha256": "4adca2deb5cc653e2f108ab02321e25ef128f6184a01380b5be9609f36c4d894",
+    "simhash": "1:f6eff30c5d3c561f",
+    "word_count": 3453
+  },
+  "last_updated": "2024-02-27T18:46:58.656971+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before BACHARACH, BALDOCK, and EBEL, Circuit Judges."
+    ],
+    "parties": [
+      "Charles FARRAR, Petitioner - Appellant,\nv.\nRick RAEMISCH, Executive Director, Colorado Department of Corrections; Cynthia Coffman, Attorney General, State of Colorado ; James Falk, Warden, Sterling Correctional Facility, Respondents - Appellees."
+    ],
+    "opinions": [
+      {
+        "text": "BACHARACH, Circuit Judge.\nMr. Charles Farrar, a Colorado state prisoner, appeals the district court's denial of his petition for habeas relief. In district court, Mr. Farrar claimed\n\u2022 actual innocence,\n\u2022 deprivation of due process based on the recantation of a key prosecution witness, and\n\u2022 deprivation of due process based on a state appellate decision establishing an overly restrictive standard for a new trial.\nThe district court denied relief, and we affirm based on three conclusions:\n1. Actual innocence does not supply a freestanding basis for habeas relief.\n2. A private citizen's false testimony does not violate the Constitution unless the government knows that the testimony is false.\n3. The alleged error in the Colorado Supreme Court's decision does not justify habeas relief.\nI. Mr. Farrar is convicted and seeks post-conviction relief.\nMr. Farrar's convictions stemmed from complaints of sexual abuse. The victim was Mr. Farrar's stepdaughter, who complained of the alleged abuse when she was in the eighth grade. Based on the girl's account, state officials charged Mr. Farrar with over twenty counts. Mr. Farrar denied the allegations. At the trial, the girl's testimony supplied the prosecution's only direct evidence of Mr. Farrar's guilt. The jury found Mr. Farrar guilty of numerous counts of sexual assault and one count of child abuse, and the state trial court sentenced Mr. Farrar to prison for a minimum of 145 years and a maximum of life.\nMr. Farrar appealed. While the appeal was pending, the girl recanted her trial testimony. Given the recantation, the Colorado Court of Appeals granted a limited remand to the trial court so that Mr. Farrar could move for a new trial. After Mr. Farrar filed that motion, the trial court conducted evidentiary hearings, where the girl testified that she had fabricated her allegations of sexual abuse. Nonetheless, the trial court denied the motion on the ground that the recantation was not credible. Mr. Farrar appealed again, and the Colorado Court of Appeals affirmed the denial of the motion for a new trial.\nOn certiorari, the Colorado Supreme Court affirmed. Farrar v. People , 208 P.3d 702, 709-10 (Colo. 2009). The court deferred to the trial court's credibility determinations and clarified Colorado's standard for a new trial:\nRather than merely creating reasonable doubt by demonstrating that the recanting witness has given different and irreconcilable testimony on different occasions, recantation can justify a new trial only if it contains sufficiently significant new evidence, and if it, rather than the witness's inconsistent trial testimony, will probably be believed.\nId. at 707-08 (internal citations omitted).\nMr. Farrar then unsuccessfully sought post-conviction relief in state court, which led to this habeas case.\nII. We engage in de novo review without applying 28 U.S.C. \u00a7 2254(d).\nIn habeas cases, we engage in de novo review of the district court's legal ruling. Hooks v. Workman , 689 F.3d 1148, 1163 (10th Cir. 2012). When applying de novo review, however, we must consider the applicability of statutory deference under 28 U.S.C. \u00a7 2254(d). See id. This provision states that a federal court can grant habeas relief only if the state appeals court acts contrary to a Supreme Court precedent, unreasonably applies that precedent, or unreasonably determines the facts. 28 U.S.C. \u00a7 2254(d)(1)-(2). If \u00a7 2254(d) applies, Mr. Farrar and the amici argue that it would be unconstitutional.\nSection 2254(d) does not apply. This section applies only when a state appellate court has adjudicated the merits of a constitutional claim. Byrd v. Workman , 645 F.3d 1159, 1164 n.7 (10th Cir. 2011) ; Hooks v. Ward , 184 F.3d 1206, 1223 (10th Cir. 1999). But the Colorado Supreme Court didn't adjudicate the merits of Mr. Farrar's constitutional claims. Instead, the court simply held that based on Colorado's standard for granting a new trial, the denial of Mr. Farrar's motion had fallen within the trial court's discretion. Farrar v. People , 208 P.3d 702, 706-10 (Colo. 2009). Because the Colorado Supreme Court didn't adjudicate the merits of the constitutional claims, we do not apply \u00a7 2254(d). Hooks , 184 F.3d at 1223.\nIII. Habeas relief cannot be based on actual innocence, a private citizen's false testimony, or the Colorado Supreme Court's definition of the state-law test for granting a new trial.\nMr. Farrar argues that\n\u2022 he is actually innocent,\n\u2022 the girl's false testimony violated his right to due process, and\n\u2022 the Colorado Supreme Court committed a due-process violation by establishing an overly restrictive standard for the grant of a new trial.\nWe reject these arguments.\nA. Actual innocence and false testimony by a private citizen do not entitle Mr. Farrar to habeas relief.\nMr. Farrar alleges that he is actually innocent and his conviction was based on false testimony. But even if these allegations are true, they would not entitle Mr. Farrar to habeas relief.\n1. Our precedents disallow habeas relief based on freestanding claims of actual innocence.\nA distinction exists between claims of actual innocence used as a gateway and as a freestanding basis for habeas relief. As a gateway, a claim of actual innocence \"enable[s] habeas petitioners to overcome a procedural bar\" in order to assert distinct claims for constitutional violations. McQuiggin v. Perkins , 569 U.S. 383, 386, 133 S.Ct. 1924, 185 L.Ed.2d 1019 (2013). Because gateway claims are \"procedural, rather than substantive,\" they do not \"provide a basis for relief.\" Schlup v. Delo , 513 U.S. 298, 314-15, 115 S.Ct. 851, 130 L.Ed.2d 808 (1995). By contrast, a freestanding claim asserts actual innocence as a basis for habeas relief. See House v. Bell , 547 U.S. 518, 554, 126 S.Ct. 2064, 165 L.Ed.2d 1 (2006) ; Dist. Attorney's Office for Third Judicial Dist. v. Osborne , 557 U.S. 52, 71, 129 S.Ct. 2308, 174 L.Ed.2d 38 (2009).\nThe Supreme Court has repeatedly sanctioned gateway actual innocence claims, but the Court has never recognized freestanding actual innocence claims as a basis for federal habeas relief. To the contrary, the Court has repeatedly rejected such claims, noting instead that \"[c]laims of actual innocence based on newly discovered evidence have never been held to state a ground for federal habeas relief absent an independent constitutional violation occurring in the underlying state criminal proceedings.\" Herrera v. Collins , 506 U.S. 390, 400, 113 S.Ct. 853, 122 L.Ed.2d 203 (1993). In rejecting such claims, the Court has observed that \"[f]ew rulings would be more disruptive of our federal system than to provide for federal habeas review of freestanding claims of actual innocence.\" Id. at 401, 113 S.Ct. 853.\nWe have thus held that actual innocence does not constitute a freestanding basis for habeas relief. See Vreeland v. Zupan , 906 F.3d 866, 883 n.6 (10th Cir. 2018) (denying a certificate of appealability because freestanding assertions of actual innocence cannot support habeas relief); LaFevers v. Gibson , 238 F.3d 1263, 1265 n.4 (10th Cir. 2001) (\"[A]n assertion of actual innocence ... does not, standing alone, support the granting of the writ of habeas corpus.\"); Sellers v. Ward , 135 F.3d 1333, 1339 (10th Cir. 1998) (\"[T]he claim of innocence ... itself is not a basis for federal habeas corpus no matter how convincing the evidence.\"). So Mr. Farrar's freestanding claim of actual innocence does not entitle him to habeas relief.\n2. The due-process claim (based on the girl's false testimony) fails because Mr. Farrar does not allege that the government knew that the testimony was false.\nFor habeas relief, Mr. Farrar must show a constitutional violation in his conviction or sentence. 28 U.S.C. \u00a7 2241(c)(3). Here, he alleges a denial of due process when he was convicted based on the girl's false testimony.\nThe Fourteenth Amendment's Due Process Clause prevents the government from knowingly using perjured or false testimony at trial. See Giglio v. United States , 405 U.S. 150, 153-54, 92 S.Ct. 763, 31 L.Ed.2d 104 (1972) ; Napue v. People of State of Ill. , 360 U.S. 264, 269, 79 S.Ct. 1173, 3 L.Ed.2d 1217 (1959). But here, Mr. Farrar does not allege that the government knowingly elicited any false trial testimony. According to Mr. Farrar, the Second and Ninth Circuits have authorized habeas relief even when the government unwittingly elicits false testimony. See, e.g. , Hall v. Dir. of Corr. , 343 F.3d 976, 981-85 (9th Cir. 2003). Mr. Farrar asks us to do the same.\nBut we have rejected that approach. In our circuit, federal habeas relief cannot be based on perjured testimony unless the government knew that the testimony was false. For example, when a witness testified that the defendant had participated in a murder but the witness later recanted, we rejected the viability of a constitutional claim, reasoning that the defendant had \"failed to assert any evidence indicating prosecutors knew [the witness's] testimony was false.\"\nOur circuit's approach precludes habeas relief based on Mr. Farrar's allegations. He alleges that the girl's testimony was false, but he doesn't allege that the government knew of the falsity. This omission is fatal because the government's knowledge is required for a constitutional violation. We thus reject Mr. Farrar's due-process claim based on the use of false testimony at his trial.\nB. Mr. Farrar's challenge to the Colorado Supreme Court's decision does not justify habeas relief.\nMr. Farrar also contends that the Colorado Supreme Court erred in defining the burden for obtaining a new trial based on recanted testimony. Given that the Colorado Supreme Court relied on state law, our first task is to interpret Mr. Farrar's contention. An error in interpreting state law cannot support habeas relief, but federal constitutional violations can ordinarily support habeas relief. We thus assume for the sake of argument that Mr. Farrar is alleging a federal constitutional infirmity in the Colorado Supreme Court's decision. If so, however, this allegation is insufficient because shortcomings in the Colorado Supreme Court's application of state law would not entail a distinct constitutional violation.\nThe Constitution does not require states to provide direct appeals. See Abney v. United States , 431 U.S. 651, 656, 97 S.Ct. 2034, 52 L.Ed.2d 651 (1977) (\"[I]t is well settled that there is no constitutional right to an appeal.\"); United States v. Eggert , 624 F.2d 973, 974 (10th Cir. 1980) (\"It is well established that there is no constitutional right to an appeal.\"). But Colorado (like all other states) has provided the opportunity to appeal. Here, the appeal involved the denial of a new trial after a recantation of trial testimony. We thus inquire whether the Constitution restricts how far states can go in restricting the grant of a new trial based on recanted testimony. In this inquiry, we are guided by the text of the Constitution and historical practice. Herrera v. Collins , 506 U.S. 390, 407-08, 113 S.Ct. 853, 122 L.Ed.2d 203 (1993).\nThe Constitution does not refer to new trials. See id. at 408, 113 S.Ct. 853 (\"The Constitution itself, of course, makes no mention of new trials.\"). They sprung from the common law, with judges ordering new trials to address particular concerns, such as newly discovered evidence. See Francis Wharton, Criminal Pleading & Practice 584-92 (8th ed. 1880).\nDespite the historical availability of new trials, restrictions existed under the common law. For example, courts have long placed time constraints on new-trial motions. Herrera , 506 U.S. at 408-11, 113 S.Ct. 853. And courts-before and after ratification of the Fourteenth Amendment (1868)-have restricted appellate review for the denial of new trials based on matters involving facts or evidence. See Parsons v. Bedford, Breedlove & Robeson , 28 U.S. 3 Pet. 433, 447-48, 7 L.Ed. 732 (1830) (discussing the unavailability of appellate jurisdiction over the denial of a new trial, which would have required reexamination of the jury's factual findings); Blitz v. United States , 153 U.S. 308, 312, 14 S.Ct. 924, 38 L.Ed. 725 (1894) (\"The overruling of the motion for new trial is next assigned for error. We had supposed that it was well understood by the bar that the refusal of a court of the United States to grant a new trial cannot be reviewed upon writ of error.\" (citing cases)); Sparf v. United States , 156 U.S. 51, 175, 15 S.Ct. 273, 39 L.Ed. 343 (1895) (Gray, J., dissenting) (\"[T]he granting or refusal of a new trial rest[ed] wholly in the discretion of the court in which the trial was had, and [could not] be reviewed on error.\").\nGiven the Constitution's silence on new trials and the historical practice under the common law, we conclude that the Constitution did not require Colorado to provide any mechanism for a new trial. See Lester Orfield, New Trial in Federal Criminal Cases , 2 Vill. L. Rev. 293, 305 (1957) (stating that in light of the Constitution's silence on the right to a new trial in criminal cases, \"there seems to be no constitutional right to a new trial\"). Colorado could thus limit the availability of an appeal over the ruling on a new-trial motion. McKane v. Durston , 153 U.S. 684, 687-88, 14 S.Ct. 913, 38 L.Ed. 867 (1894).\nOf course, once Colorado authorized procedures for appeals and new trials, the state had to comport with the Fourteenth Amendment's rights to due process and equal protection. Evitts v. Lucey , 469 U.S. 387, 393, 105 S.Ct. 830, 83 L.Ed.2d 821 (1985). But Colorado's definition of its own test for a new trial cannot be bootstrapped into a distinct constitutional violation triggering a right to habeas relief. See Herrera v. Collins , 506 U.S. 390, 407-08, 411, 113 S.Ct. 853, 122 L.Ed.2d 203 (1993) (concluding that a state's refusal to consider newly discovered evidence eight years after the conviction did not result in a denial of due process).\nWe have addressed a similar issue with respect to applications for post-conviction relief. Like many circuits, we have held that irregularities in a state appellate court's handling of post-conviction proceedings do not support habeas relief because there is no constitutional right to post-conviction proceedings. Sellers v. Ward , 135 F.3d 1333, 1339 (10th Cir. 1998) ; see also Steele v. Young , 11 F.3d 1518, 1524 (10th Cir. 1993) (holding that a challenge to state post-conviction procedures \"would fail to state a federal constitutional claim cognizable in a federal habeas proceeding\").\nNor is there a constitutional right to appeal the denial of a new trial. See p. 1133-34, above; see also Allen v. Nix , 55 F.3d 414, 417 n.5 (8th Cir. 1995) (\"To the extent petitioner attempts to couch his actual innocence claim in terms of a due process violation based upon the state court's denial of his motion for a new trial, petitioner does not allege an 'independent' constitutional violation.\"). We should thus treat appeals on new-trial motions in the same way that we treat post-conviction appeals. In doing so, we conclude that alleged state-law errors in either kind of appeal would not justify habeas relief. The district court thus did not err in rejecting this habeas claim.\n* * *\nMr. Farrar's habeas claims are invalid: Actual innocence and false testimony by a private citizen do not entail constitutional violations triggering habeas relief. Nor can habeas relief be based on the Colorado Supreme Court's definition of the state's test for granting a new trial. We thus affirm the denial of Mr. Farrar's petition for habeas relief.\nIn district court, Mr. Farrar also presented other habeas claims that are not relevant to this appeal.\nFor example, the court discounted some of the girl's new version of events because it included other \"unbelievable\" and \"far more heinous allegation[s],\" including coercion by prosecutors, law enforcement officers, and social workers during the trial. Appellant's App'x, vol. I at 518. The trial court ultimately concluded: \"Nothing that the Court heard or saw during this post-conviction proceeding persuades it that the newly discovered evidence would produce a complete acquittal at a new trial. In all probability, another jury would accept some of [the girl's] contentions and reject others.\" Id. at 520.\nMr. Farrar also appealed his convictions and sentence. But those parts of the appeal in state court are immaterial here.\nIn its appeal brief, the State asserted a defense of procedural default. In oral argument, however, the State expressly waived this defense.\nFor example, a showing of gateway actual innocence can allow an applicant to file an otherwise-barred successive or abusive petition, to avoid a statute of limitations, to overcome a failure to develop facts or observe filing deadlines, or to assert a claim otherwise subject to procedural default. McQuiggin , 569 U.S. at 392-93, 133 S.Ct. 1924.\nThe Supreme Court has hypothesized about the possibility of an exception. See, e.g. , Herrera , 506 U.S. at 417, 113 S.Ct. 853 (assuming, for the sake of argument, that actual innocence might justify habeas relief in a capital case); House v. Bell , 547 U.S. 518, 554-55, 126 S.Ct. 2064, 165 L.Ed.2d 1 (2006) (declining to resolve this issue in a capital case); Dist. Attorney's Office for Third Judicial Dist. v. Osborne , 557 U.S. 52, 71, 129 S.Ct. 2308, 174 L.Ed.2d 38 (2009) (declining to resolve whether actual innocence justifies habeas relief in a non-capital case); McQuiggin v. Perkins , 569 U.S. 383, 392, 133 S.Ct. 1924, 185 L.Ed.2d 1019 (2013) (again declining to resolve whether actual innocence justifies habeas relief in a non-capital case).\nSee Graham v. Wilson , 828 F.2d 656, 659 (10th Cir. 1987) (\"In our habeas corpus consideration of the introduction of false or mistaken testimony, the question of error turns not on the witness' knowledge of falsity, but on the government 's knowledge.\" (emphasis in original)); McBride v. United States , 446 F.2d 229, 232 (10th Cir. 1971) (\"While use of perjured testimony to obtain a conviction may be grounds for vacation of a conviction, the petitioner has the burden of establishing that ... it was knowingly and intentionally used by the government to obtain a conviction.\"); Wild v. State of Okla. , 187 F.2d 409, 410 (10th Cir. 1951) (\"[A] writ of habeas corpus should not be granted upon the grounds that false and perjured testimony was used unless it is shown that it was knowingly used against the defendant by the prosecuting officers in the criminal case.\"); Hinley v. Burford , 183 F.2d 581, 581 (10th Cir. 1950) (per curiam) (\"[T]here is evidence to the effect that appellant was convicted on the false testimony of his daughter, the alleged rape. But ... there is no testimony ... that such testimony was knowingly and intentionally used by the prosecution to obtain the conviction. The writ must therefore be denied.\"); Tilghman v. Hunter , 167 F.2d 661, 662 (10th Cir. 1948) (stating that introduction of perjured testimony would not void a criminal judgment unless the government \"knowingly, willfully, and intentionally\" used the perjured testimony).\nRomano v. Gibson , 239 F.3d 1156, 1175 (10th Cir. 2001) ; see also United States v. Garcia , 793 F.3d 1194, 1207 (10th Cir. 2015) (\"[T]his court has repeatedly spoken of Napue claims as requiring perjury by the witness and the prosecutor's knowledge of the falsity.\" (internal citations omitted)); United States v. Caballero , 277 F.3d 1235, 1243 (10th Cir. 2002) (\"In order to establish a due process violation [under Napue ], the [defendants] must show that ... the prosecution knew [the witness's testimony] to be false.\").\nIn his direct appeal, Mr. Farrar relied solely on Colorado law. Thus, the court purported to rely only on Colorado law. In discussing the state's limits on the right to a new trial, the court observed that the United States Supreme Court \"ha[d] never suggested that newly discovered evidence impeaching a guilty verdict implicates due process of law.\" Farrar v. People , 208 P.3d 702, 706 (Colo. 2009). But the court made this observation only in the course of stating that creation of the right to a new trial under state law largely entails \"a matter of policy\" based on a balancing of the interests in finality, fairness, and accuracy. Id.\nEstelle v. McGuire , 502 U.S. 62, 67, 112 S.Ct. 475, 116 L.Ed.2d 385 (1991).\nSee 28 U.S.C. \u00a7 2241(c)(3) ; see also Part III(A)(2), above.\nIn Herrera v. Collins , 506 U.S. 390, 113 S.Ct. 853, 122 L.Ed.2d 203 (1993), the Supreme Court relied in part on Justice Gray's dissent. See Herrera , 506 U.S. at 408, 113 S.Ct. 853.",
+        "type": "majority",
+        "author": "BACHARACH, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Gail K. Johnson, Johnson & Klein, PLLC, Boulder, Colorado, for the Petitioner - Appellant.",
+      "Ryan A. Crane, Senior Assistant Attorney General, Denver, Colorado (Cynthia H. Coffman, Attorney General, with him on the briefs), for Respondents - Appellees.",
+      "Aurora Temple Barnes, Lewis Roca Rothgerber Christie, LLP, Denver, Colorado (Kenneth F. Rossman, IV, Lewis Roca Rothgerber Christie, LLP, Denver, Colorado, with her on the briefs), for Amicus Curiae."
+    ],
+    "corrections": "",
+    "head_matter": "Charles FARRAR, Petitioner - Appellant,\nv.\nRick RAEMISCH, Executive Director, Colorado Department of Corrections; Cynthia Coffman, Attorney General, State of Colorado ; James Falk, Warden, Sterling Correctional Facility, Respondents - Appellees.\nScholars of Federal Habeas Corpus, Amicus Curiae.\nNo. 18-1005\nUnited States Court of Appeals, Tenth Circuit.\nFILED May 21, 2019\nGail K. Johnson, Johnson & Klein, PLLC, Boulder, Colorado, for the Petitioner - Appellant.\nRyan A. Crane, Senior Assistant Attorney General, Denver, Colorado (Cynthia H. Coffman, Attorney General, with him on the briefs), for Respondents - Appellees.\nAurora Temple Barnes, Lewis Roca Rothgerber Christie, LLP, Denver, Colorado (Kenneth F. Rossman, IV, Lewis Roca Rothgerber Christie, LLP, Denver, Colorado, with her on the briefs), for Amicus Curiae.\nBefore BACHARACH, BALDOCK, and EBEL, Circuit Judges."
+  },
+  "file_name": "1126-01",
+  "first_page_order": 1126,
+  "last_page_order": 1134
+}

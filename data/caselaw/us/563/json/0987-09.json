@@ -1,0 +1,59 @@
+{
+  "id": 5938256,
+  "name": "Guardado-Garcia v. Holder, Attorney General",
+  "name_abbreviation": "Guardado-Garcia v. Holder",
+  "decision_date": "2011-05-16",
+  "docket_number": "No. 10-992",
+  "first_page": "987",
+  "last_page": "987",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 987"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 91,
+    "ocr_confidence": 0.64,
+    "sha256": "c7d56cf1e479abf4c4a4e32cd77152c76d6f40063d89ef4ea6b76a912ec4063c",
+    "simhash": "1:e30b76b849357445",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Guardado-Garcia v. Holder, Attorney General."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-992.\nGuardado-Garcia v. Holder, Attorney General."
+  },
+  "file_name": "0987-09",
+  "first_page_order": 1013,
+  "last_page_order": 1013
+}

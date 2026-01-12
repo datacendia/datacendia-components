@@ -1,0 +1,59 @@
+{
+  "id": 12419471,
+  "name": "King v. Florida",
+  "name_abbreviation": "King v. Florida",
+  "decision_date": "2012-10-15",
+  "docket_number": "No. 12-5733",
+  "first_page": "964",
+  "last_page": "964",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 964"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 63,
+    "ocr_confidence": 0.642,
+    "sha256": "15da9ae73021f03fa30562639c0095c521071498ea77c8d69e2744011be7cc1e",
+    "simhash": "1:477eba62fc37f137",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "King v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5733.\nKing v. Florida."
+  },
+  "file_name": "0964-10",
+  "first_page_order": 1040,
+  "last_page_order": 1040
+}

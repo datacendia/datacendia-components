@@ -1,0 +1,59 @@
+{
+  "id": 5974438,
+  "name": "Jones v. Burns",
+  "name_abbreviation": "Jones v. Burns",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5212",
+  "first_page": "909",
+  "last_page": "909",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 909"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 63,
+    "ocr_confidence": 0.596,
+    "sha256": "caa15bf19e1c51b902b56211c3fd54ab5d03e36adcf157033a03cc8f9d7736c8",
+    "simhash": "1:3090e02505713242",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jones v. Burns."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5212.\nJones v. Burns."
+  },
+  "file_name": "0909-10",
+  "first_page_order": 931,
+  "last_page_order": 931
+}

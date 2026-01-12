@@ -1,0 +1,59 @@
+{
+  "id": 12428672,
+  "name": "Ballard v. United States",
+  "name_abbreviation": "Ballard v. United States",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-7246",
+  "first_page": "1106",
+  "last_page": "1106",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1106"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.623,
+    "sha256": "7aaebcc5266865d508ec70874ebe01a2e3f7c87af192557c953a24c71605e642",
+    "simhash": "1:b7cbe8d84f85b05d",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ballard v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7246.\nBallard v. United States."
+  },
+  "file_name": "1106-13",
+  "first_page_order": 1182,
+  "last_page_order": 1182
+}

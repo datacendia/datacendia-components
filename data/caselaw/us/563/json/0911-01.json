@@ -1,0 +1,59 @@
+{
+  "id": 5932371,
+  "name": "Vicol v. United States",
+  "name_abbreviation": "Vicol v. United States",
+  "decision_date": "2011-03-28",
+  "docket_number": "No. 10-9097",
+  "first_page": "911",
+  "last_page": "911",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 911"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.638,
+    "sha256": "4a6f31d593c3d51353d2270748a09dced11f21aa64e56a3c0c07f033c82807e8",
+    "simhash": "1:831a228aeebd1858",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Vicol v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9097.\nVicol v. United States."
+  },
+  "file_name": "0911-01",
+  "first_page_order": 937,
+  "last_page_order": 937
+}

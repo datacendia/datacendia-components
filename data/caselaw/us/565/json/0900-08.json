@@ -1,0 +1,59 @@
+{
+  "id": 12219190,
+  "name": "O'Connor v. Borgner et al.",
+  "name_abbreviation": "O'Connor v. Borgner",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5299",
+  "first_page": "900",
+  "last_page": "900",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 900"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 75,
+    "ocr_confidence": 0.625,
+    "sha256": "4ba0066b53a6b9b187d169fef11d93e237e1929badaca7042ea6469f9c5929d1",
+    "simhash": "1:9ac88aab57c9b070",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "O\u2019Connor v. Borgner et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5299.\nO\u2019Connor v. Borgner et al."
+  },
+  "file_name": "0900-08",
+  "first_page_order": 982,
+  "last_page_order": 982
+}

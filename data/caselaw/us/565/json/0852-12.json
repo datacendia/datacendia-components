@@ -1,0 +1,59 @@
+{
+  "id": 12206526,
+  "name": "Gribovszki v. Stanford University",
+  "name_abbreviation": "Gribovszki v. Stanford University",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10844",
+  "first_page": "852",
+  "last_page": "852",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 852"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 98,
+    "ocr_confidence": 0.718,
+    "sha256": "f3b1c33c0f2cac95c70741e0a9b439eb9968a9871aabb06b5662565b39cce08a",
+    "simhash": "1:a9a563c901bb736b",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gribovszki v. Stanford University."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 6th App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10844.\nGribovszki v. Stanford University."
+  },
+  "file_name": "0852-12",
+  "first_page_order": 934,
+  "last_page_order": 934
+}

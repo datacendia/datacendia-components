@@ -1,0 +1,59 @@
+{
+  "id": 6031195,
+  "name": "Ghost Bear v. United States",
+  "name_abbreviation": "Ghost Bear v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8569",
+  "first_page": "1248",
+  "last_page": "1248",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1248"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 76,
+    "ocr_confidence": 0.587,
+    "sha256": "af43383b2f8dd9da294affc70e867b0a3ad54f7480b9bac79c8d01098ee63873",
+    "simhash": "1:a4bbe60307331002",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ghost Bear v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8569.\nGhost Bear v. United States."
+  },
+  "file_name": "1248-04",
+  "first_page_order": 1270,
+  "last_page_order": 1270
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12233527,
+  "name": "Kinane et al. v. United States",
+  "name_abbreviation": "Kinane v. United States",
+  "decision_date": "2011-11-14",
+  "docket_number": "No. 11-5073",
+  "first_page": "1036",
+  "last_page": "1036",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1036"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 79,
+    "ocr_confidence": 0.662,
+    "sha256": "8d8ebdde7676246093deb250c0684146cbc7ce05208eaa547bb4ba77dfb94bca",
+    "simhash": "1:e04be6280fef1e14",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kinane et al. v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. D. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5073.\nKinane et al. v. United States."
+  },
+  "file_name": "1036-10",
+  "first_page_order": 1118,
+  "last_page_order": 1118
+}

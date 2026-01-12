@@ -1,0 +1,59 @@
+{
+  "id": 12240999,
+  "name": "Pinder v. United States",
+  "name_abbreviation": "Pinder v. United States",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-7375",
+  "first_page": "1129",
+  "last_page": "1129",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1129"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.641,
+    "sha256": "b0d52ded7e48882f66f3e1313d3e117a0f5332b497dac085710fc90618001011",
+    "simhash": "1:16298e07aa8f910a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pinder v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7375.\nPinder v. United States."
+  },
+  "file_name": "1129-13",
+  "first_page_order": 1211,
+  "last_page_order": 1211
+}

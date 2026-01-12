@@ -1,0 +1,59 @@
+{
+  "id": 12434156,
+  "name": "Stewart v. United States",
+  "name_abbreviation": "Stewart v. United States",
+  "decision_date": "2013-03-25",
+  "docket_number": "No. 12-8853",
+  "first_page": "1256",
+  "last_page": "1256",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1256"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.652,
+    "sha256": "f754c78e6bba817e046894700a8f7384b1b7d05a56a5c85c263867248560d5b4",
+    "simhash": "1:90a9e62309bf0548",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Stewart v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8853.\nStewart v. United States."
+  },
+  "file_name": "1256-16",
+  "first_page_order": 1332,
+  "last_page_order": 1332
+}

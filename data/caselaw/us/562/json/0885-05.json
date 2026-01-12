@@ -1,0 +1,59 @@
+{
+  "id": 5917928,
+  "name": "Solon v. United States",
+  "name_abbreviation": "Solon v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11513",
+  "first_page": "885",
+  "last_page": "885",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 885"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.636,
+    "sha256": "53d9647a9bf8b358958fc693afc9dded26b6f3638f70425405bd3756004587de",
+    "simhash": "1:8788de2ddfa6d138",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Solon v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11513.\nSolon v. United States."
+  },
+  "file_name": "0885-05",
+  "first_page_order": 907,
+  "last_page_order": 907
+}

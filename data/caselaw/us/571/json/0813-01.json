@@ -1,0 +1,68 @@
+{
+  "id": 12702143,
+  "name": "In re Damion WELLS, petitioner.",
+  "name_abbreviation": "In re Wells",
+  "decision_date": "2013-10-07",
+  "docket_number": "No. 13\u20135055.",
+  "first_page": "813",
+  "last_page": "813",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 813"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 266"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 222"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 22,
+    "char_count": 138,
+    "sha256": "efdf83a884c123e614fc9ecc0ae2d3572d3c6d134a75649f9344f7bf3725ff1f",
+    "simhash": "1:682f245eeff9c619",
+    "word_count": 23
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Damion WELLS, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of habeas corpus denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re Damion WELLS, petitioner.\nNo. 13-5055.\nSupreme Court of the United States\nOct. 7, 2013.\nPetition for writ of habeas corpus denied."
+  },
+  "file_name": "0813-01",
+  "first_page_order": 813,
+  "last_page_order": 813
+}

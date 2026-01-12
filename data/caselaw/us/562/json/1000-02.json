@@ -1,0 +1,59 @@
+{
+  "id": 6003748,
+  "name": "In re Disbarment of Bagdasarian",
+  "name_abbreviation": "In re Disbarment of Bagdasarian",
+  "decision_date": "2010-11-01",
+  "docket_number": "No. D-2550",
+  "first_page": "1000",
+  "last_page": "1000",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1000"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 111,
+    "ocr_confidence": 0.597,
+    "sha256": "48470e0462a568ab00fb70d86acbdc80780f6b2a0b92af2508794faaf56959a7",
+    "simhash": "1:6678da86cf46d247",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Bagdasarian."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see ante, p. 815.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2550.\nIn re Disbarment of Bagdasarian."
+  },
+  "file_name": "1000-02",
+  "first_page_order": 1022,
+  "last_page_order": 1022
+}

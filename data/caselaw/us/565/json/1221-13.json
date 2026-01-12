@@ -1,0 +1,59 @@
+{
+  "id": 12248162,
+  "name": "Acevedo v. Shartle, Warden",
+  "name_abbreviation": "Acevedo v. Shartle",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-8186",
+  "first_page": "1221",
+  "last_page": "1221",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1221"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.703,
+    "sha256": "6aee415738f1cfd8cd0165f23b7ec7852701df6ce12802929725792e393e8688",
+    "simhash": "1:b6aa520d7a2a0916",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Acevedo v. Shartle, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8186.\nAcevedo v. Shartle, Warden."
+  },
+  "file_name": "1221-13",
+  "first_page_order": 1303,
+  "last_page_order": 1303
+}

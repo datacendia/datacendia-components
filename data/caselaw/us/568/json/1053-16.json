@@ -1,0 +1,59 @@
+{
+  "id": 12427024,
+  "name": "Replogle v. United States",
+  "name_abbreviation": "Replogle v. United States",
+  "decision_date": "2012-12-03",
+  "docket_number": "No. 12-6929",
+  "first_page": "1053",
+  "last_page": "1053",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1053"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.658,
+    "sha256": "73ea4fed57e33dfb276731c6c1b7e5738d80bb1901f784c4481b9f6e8595777f",
+    "simhash": "1:a4abeea3af9dd472",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Replogle v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6929.\nReplogle v. United States."
+  },
+  "file_name": "1053-16",
+  "first_page_order": 1129,
+  "last_page_order": 1129
+}

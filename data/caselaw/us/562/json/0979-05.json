@@ -1,0 +1,59 @@
+{
+  "id": 5930439,
+  "name": "In re Grand Jury Proceedings",
+  "name_abbreviation": "In re Grand Jury Proceedings",
+  "decision_date": "2010-10-18",
+  "docket_number": "No. 10M38",
+  "first_page": "979",
+  "last_page": "979",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 979"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 31,
+    "char_count": 247,
+    "ocr_confidence": 0.554,
+    "sha256": "f25475634268bc3fa9c62964c083aa3ed7f436dd92bfd9d0e735a40076209f3b",
+    "simhash": "1:12afb13397e30559",
+    "word_count": 41
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Grand Jury Proceedings."
+    ],
+    "opinions": [
+      {
+        "text": "Motion of Reporters Committee for Freedom of the Press for leave to intervene denied. Motion for leave to file petition for writ of certiorari under seal with redacted copies for the public record granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10M38.\nIn re Grand Jury Proceedings."
+  },
+  "file_name": "0979-05",
+  "first_page_order": 1001,
+  "last_page_order": 1001
+}

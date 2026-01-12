@@ -1,0 +1,83 @@
+{
+  "id": 2255821,
+  "name": "Childress County v. L. A. Sachse",
+  "name_abbreviation": "Childress County v. Sachse",
+  "decision_date": "1958-04-23",
+  "docket_number": "No. A-6789",
+  "first_page": "371",
+  "last_page": "371",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "158 Tex. 371"
+    },
+    {
+      "type": "parallel",
+      "cite": "312 S.W.2d 380"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "310 S.W. 2d 414",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10171174
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/310/0414-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 77,
+    "char_count": 661,
+    "ocr_confidence": 0.58,
+    "pagerank": {
+      "raw": 1.500922080196907e-07,
+      "percentile": 0.6656523218149012
+    },
+    "sha256": "a56532ce6e453c5fa489fae100035afdd3cc073e4ae1049e3410961c09520d94",
+    "simhash": "1:2e2904004a1e301e",
+    "word_count": 113
+  },
+  "last_updated": "2024-02-27T19:47:07.204323+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Childress County v. L. A. Sachse"
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM.\nThe application for writ of error is REFUSED. NO REVERSIBLE ERROR. We approve the holding of the Court of Civil Appeals that changes in precinct boundaries do not create a vacancy in the office of County Commissioner or deprive the incumbent of the right to hold office for the remainder of his term, even though by reason of such changes his residence is not within the precinct as redefined. 310 S.W. 2d 414.\nOpinion delivered April 23, 1958.",
+        "type": "majority",
+        "author": "PER CURIAM."
+      }
+    ],
+    "attorneys": [
+      "Charles L. Reynolds, County Attorney, of Childress, for petitioner.",
+      "W. T. Link, of Clarendon, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "Childress County v. L. A. Sachse\nNo. A-6789.\nDecided April 23, 1958.\n(312 S.W. 2d Series 380)\nCharles L. Reynolds, County Attorney, of Childress, for petitioner.\nW. T. Link, of Clarendon, for respondent."
+  },
+  "file_name": "0371-01",
+  "first_page_order": 387,
+  "last_page_order": 387
+}

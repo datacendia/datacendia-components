@@ -1,0 +1,630 @@
+{
+  "id": 12520199,
+  "name": "AIRGAS USA, LLC, Petitioner/Cross-Respondent, v. NATIONAL LABOR RELATIONS BOARD, Respondent/Cross-Petitioner.",
+  "name_abbreviation": "Airgas USA, LLC v. Nat'l Labor Relations Bd.",
+  "decision_date": "2019-02-21",
+  "docket_number": "Nos. 18-1686/1771",
+  "first_page": "555",
+  "last_page": "566",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "916 F.3d 555"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "6th Cir.",
+    "id": 21296,
+    "name": "United States Court of Appeals for the Six Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "155 F.3d 762",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11704207
+      ],
+      "year": 1998,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/155/0762-01"
+      ]
+    },
+    {
+      "cite": "512 U.S. 267",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        39915
+      ],
+      "weight": 5,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "277-78"
+        },
+        {
+          "page": "278"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/512/0267-01"
+      ]
+    },
+    {
+      "cite": "460 U.S. 693",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6198338
+      ],
+      "weight": 3,
+      "year": 1983,
+      "pin_cites": [
+        {
+          "parenthetical": "discussing \u00a7 8(a)(3)"
+        },
+        {
+          "parenthetical": "discussing \u00a7 8(a)(3)"
+        },
+        {
+          "parenthetical": "discussing \u00a7 8(a)(3)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/460/0693-01"
+      ]
+    },
+    {
+      "cite": "346 N.L.R.B. 906",
+      "category": "reporters:federal",
+      "reporter": "N.L.R.B.",
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "933"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "647 F.2d 905",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1224461
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "910"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/647/0905-01"
+      ]
+    },
+    {
+      "cite": "463 F.3d 909",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3722231
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "922",
+          "parenthetical": "\"Where the employer's asserted justification is shifting and unreliable, its case is weakened, and the conclusion that the true reason was for union activity is correspondingly strengthened.\" (quoting NLRB v. Nevis Indus., Inc. , 647 F.2d 905, 910 (9th Cir. 1981) )"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/463/0909-01"
+      ]
+    },
+    {
+      "cite": "312 F. App'x 737",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        3882327
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "751"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/312/0737-01"
+      ]
+    },
+    {
+      "cite": "287 N.L.R.B. 1140",
+      "category": "reporters:federal",
+      "reporter": "N.L.R.B.",
+      "weight": 2,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "1144-45"
+        },
+        {
+          "page": "1144"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "776 F.2d 612",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1516337
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "615-16, 620",
+          "parenthetical": "approximately one month"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/776/0612-01"
+      ]
+    },
+    {
+      "cite": "750 F.2d 524",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        628899
+      ],
+      "weight": 3,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "529",
+          "parenthetical": "three weeks"
+        },
+        {
+          "page": "529"
+        },
+        {
+          "page": "526-27"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/750/0524-01"
+      ]
+    },
+    {
+      "cite": "671 F.3d 602",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3732518
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "608"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/671/0602-01"
+      ]
+    },
+    {
+      "cite": "244 F.3d 454",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11119014
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "466",
+          "parenthetical": "\"[A]bsence of a meaningful investigation into allegedly impermissible conduct before imposing discipline is an accepted form of circumstantial evidence of antiunion animus.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/244/0454-01"
+      ]
+    },
+    {
+      "cite": "283 N.L.R.B. 279",
+      "category": "reporters:federal",
+      "reporter": "N.L.R.B.",
+      "year": 1987,
+      "opinion_index": 0
+    },
+    {
+      "cite": "344 N.L.R.B. 886",
+      "category": "reporters:federal",
+      "reporter": "N.L.R.B.",
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "895",
+          "parenthetical": "quoting K & M Elecs., Inc. , 283 N.L.R.B. 279, 291 n.45 (1987) "
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "761 F.2d 1175",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        29386
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "1179"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/761/1175-01"
+      ]
+    },
+    {
+      "cite": "482 F.3d 425",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3866535
+      ],
+      "weight": 4,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "435-36"
+        },
+        {
+          "page": "435"
+        },
+        {
+          "page": "435-36"
+        },
+        {
+          "page": "435-36"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/482/0425-01"
+      ]
+    },
+    {
+      "cite": "70 F.3d 863",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11929915
+      ],
+      "weight": 5,
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "871"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/70/0863-01"
+      ]
+    },
+    {
+      "cite": "520 F.3d 629",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3703660
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "642",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/520/0629-01"
+      ]
+    },
+    {
+      "cite": "277 N.L.R.B. 563",
+      "category": "reporters:federal",
+      "reporter": "N.L.R.B.",
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "563"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "721 F.2d 570",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1908963
+      ],
+      "weight": 2,
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "571"
+        },
+        {
+          "page": "571"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/721/0570-01"
+      ]
+    },
+    {
+      "cite": "294 F.3d 768",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9410429
+      ],
+      "weight": 7,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "777"
+        },
+        {
+          "page": "778"
+        },
+        {
+          "page": "778"
+        },
+        {
+          "page": "778"
+        },
+        {
+          "page": "778"
+        },
+        {
+          "page": "777"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/294/0768-01"
+      ]
+    },
+    {
+      "cite": "462 U.S. 393",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6188804
+      ],
+      "weight": 3,
+      "year": 1983,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/462/0393-01"
+      ]
+    },
+    {
+      "cite": "251 N.L.R.B. 1083",
+      "category": "reporters:federal",
+      "reporter": "N.L.R.B.",
+      "year": 1980,
+      "opinion_index": 0
+    },
+    {
+      "cite": "609 F.2d 267",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1421649
+      ],
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "270",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/609/0267-01"
+      ]
+    },
+    {
+      "cite": "301 F. App'x 411",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        3692374
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "423"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/301/0411-01"
+      ]
+    },
+    {
+      "cite": "75 N.L.R.B. 569",
+      "category": "reporters:federal",
+      "reporter": "N.L.R.B.",
+      "year": 1947,
+      "pin_cites": [
+        {
+          "page": "571"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "835 F.3d 536",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4354268
+      ],
+      "weight": 3,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "542",
+          "parenthetical": "citations omitted"
+        },
+        {
+          "page": "542"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/835/0536-01"
+      ]
+    },
+    {
+      "cite": "683 F.3d 298",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3895539
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "304"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/683/0298-01"
+      ]
+    },
+    {
+      "cite": "481 F.3d 875",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3869947
+      ],
+      "weight": 3,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "878-79"
+        },
+        {
+          "page": "879",
+          "parenthetical": "citation and internal quotation marks omitted"
+        },
+        {
+          "page": "879"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/481/0875-01"
+      ]
+    },
+    {
+      "cite": "29 U.S.C. \u00a7 160",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(e)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 U.S.C. \u00a7 158",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(a)(4)"
+        },
+        {
+          "page": "(a)(4)"
+        },
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1286,
+    "char_count": 30976,
+    "pagerank": {
+      "raw": 5.8591662004228935e-08,
+      "percentile": 0.3676808956815629
+    },
+    "sha256": "18538aecd98e325c6535a9ec80f54740c63b317338058d5076e8780aac4cf3a4",
+    "simhash": "1:180d52d2bf34306a",
+    "word_count": 4810
+  },
+  "last_updated": "2024-02-27T16:21:04.146489+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before: GIBBONS, ROGERS, and STRANCH, Circuit Judges."
+    ],
+    "parties": [
+      "AIRGAS USA, LLC, Petitioner/Cross-Respondent,\nv.\nNATIONAL LABOR RELATIONS BOARD, Respondent/Cross-Petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "JANE B. STRANCH, Circuit Judge.\nThis case presents cross petitions-one for review and one for enforcement-regarding an order of the National Labor Relations Board (NLRB or the Board). At issue is the level of discipline warranted for a safety violation. Steven Wayne Rottinghouse, Jr., a truck driver employed by Petitioner Airgas USA, was issued a written warning for failing to properly secure his cargo. An administrative law judge (ALJ) found that the company used written discipline to retaliate against Rottinghouse for previously filing charges against it, and a divided panel of the NLRB affirmed. Because the Board's conclusions were supported by substantial evidence, we GRANT the General Counsel's application for enforcement of the Board's decision and DENY Airgas's petition for review.\nI. BACKGROUND\nIn 2015, Rottinghouse was working as a truck driver at Airgas's Cincinnati plant. Airgas's driver trainer described him as \"a very good driver\" who \"knows the truck [and] knows the job.\" Prior to 2015, Rottinghouse maintained good safety and driving records, with no documented violations of Airgas or Department of Transportation (DOT) rules.\nHis record suffered in the spring and summer of 2015-a period that Rottinghouse alleges was marked by a series of unlawful labor practices by Airgas and, in particular, by Clyde Froslear, the operations manager at the Cincinnati plant. In a meeting in April 2015, Froslear purportedly changed disciplinary policies to eliminate verbal warnings; Rottinghouse filed a charge with the NLRB alleging the change was made in retaliation for an earlier charge he had filed. Then, in late June, Airgas suspended Rottinghouse for three days for completing DOT paperwork after clocking out. Froslear described the violation as severe, dishonest, and potentially a terminable offense. Rottinghouse, alleging the suspension was further retaliation, filed a charge on July 7. That same month, Froslear provided an affidavit regarding the first charge, and both charges remained pending in early August.\nOn August 3, Rottinghouse pulled into the yard of the Airgas plant with a load of gas cylinders in his truck. The load consisted of at least one 12-pack of cylinders and four cylinders attached to the truck frame with two straps. The 12-pack, referred to as a \"cradle\" or a \"bank,\" is described as a cage bolted together to keep the cylinders in place. Rottinghouse was responsible for securing the four cylinders that were not in a cradle. Airgas's driver training manual instructs that \"cylinders must be strapped, chained or secured to the vehicle so that they do not move or rattle.\" Cylinders should also be \"nested,\" meaning placed in a secure, staggered formation with each cylinder supporting its neighbors. The cylinders in Rottinghouse's truck, though secured with two straps, were not nested properly and leaned slightly against the truck railing.\nFroslear was standing in the yard when Rottinghouse pulled in. According to the written warning issued to Rottinghouse later that week, Froslear \"heard rattling and saw [Rottinghouse] pulling into the yard. When he went to investigate the noise, he saw that [Rottinghouse] had a pallet on [his] truck that was not properly strapped, which was causing the noise.\" Froslear went into his office to retrieve his phone and safety glasses and returned to the truck. He took a picture of the leaning cylinders and, without physically inspecting the load, went back inside. Froslear did not speak to Rottinghouse about fixing the cylinder placement or tightening the straps even though, according to the facts credited by the ALJ, the two men walked past each other twice. Rottinghouse checked the back of the truck to see what Froslear had photographed, readjusted the cylinders and straps, and left the yard to complete his route. Froslear, who was inside looking out a window while talking to another employee, saw Rottinghouse fix the load.\nThe next day, August 4, Froslear emailed Mark MacBride, Airgas's driver trainer. He attached a copy of the photo he had taken and asked, \"What do you think about this? Look good to you?\" MacBride responded, \"No with the cylinders being off set we would be hit for insecure load just by how it looks. Where is this truck[?]\" When Froslear gave the name of the plant, MacBride wrote, \"Not good, did the driver catch it before leaving[?]\" Froslear wrote, \"I saw it when he pulled in[to] the yard.\" MacBride asked again, \"Did it get fixed before leaving[?]\" and Froslear wrote, \"This is the way it was when he pulled in after his run.\" MacBride responded, \"Unacceptable,\" and Froslear asked, \"Where would I find the strongest language about load securement that drivers are trained to?\" MacBride referred him to the training manual.\nOn August 6, at a meeting with Rottinghouse, another plant manager, and the union steward, Froslear handed Rottinghouse the written warning letter and explained that he had heard rattling himself. Rottinghouse responded that the noise was coming from the 12-cylinder bank, not from the four strapped cylinders. Rottinghouse filed a grievance that day, writing that the \"written warning [was] excessive\" because the cylinders \"were leaning a little but [did] not rattle.\"\nThat grievance gave rise to two meetings. At the first, on September 2, Froslear explained that Article 22 of the Collective Bargaining Agreement provided for written warnings. Rottinghouse disagreed, saying the warning should have been verbal. Froslear read Article 22 and reiterated that \"[t]he discipline stays.\" At the second meeting, on September 23, Froslear again denied the request to reduce the discipline to a verbal warning, this time explaining that it was \"not [Rottinghouse's] first DOT violation\" and that the incident was \"sever[e].\"\nRottinghouse filed a charge with the Board. The ALJ concluded that the General Counsel had made a prima facie showing of discriminatory animus based on several lines of evidence, including \"Froslear's inconsistent and unbelievable testimony\" about the events of August 3, along with his \"complete lack of concern for safety\" and his \"out to get you attitude towards Rottinghouse\" as displayed in his emails to MacBride; the proximity in time between filing a charge in July 2015 and the discipline one month later; and disparate treatment in issuing a written warning to Rottinghouse after other employees received verbal warnings for comparably serious violations. The ALJ discredited as pretextual Airgas's nondiscriminatory reasons for disciplining Rottinghouse, deeming the reasons \"shifting and inconsistent,\" and concluded that Airgas had violated \u00a7 8(a)(4) and (a)(1) of the National Labor Relations Act (NLRA or the Act), 29 U.S.C. \u00a7 158(a)(4), (a)(1). A divided panel of the Board agreed and adopted the ALJ's order.\nAirgas petitions for review, and the General Counsel cross-applies for enforcement of the Board's order.\nII. ANALYSIS\nA. Standard of Review\n\"Pursuant to 29 U.S.C. \u00a7 160(e), this court reviews the factual determinations made by the NLRB under the substantial evidence standard.\" NLRB v. Local 334, Laborers Int'l Union of N. Am. , 481 F.3d 875, 878-79 (6th Cir. 2007). Under that deferential standard, we must \"uphold the NLRB's factual determinations if they are supported by such relevant evidence as a reasonable mind might accept as adequate to support a conclusion,\" id. at 879 (citation and internal quotation marks omitted), even if \"we may have reached a different conclusion had the matter been before us de novo,\" Frenchtown Acquisition Co. v. NLRB , 683 F.3d 298, 304 (6th Cir. 2012). When credibility is at issue, our review is even more deferential: \"We will overturn [credibility] determinations only if they overstep the bounds of reason\" or \"are inherently unreasonable or self-contradictory.\" Caterpillar Logistics, Inc. v. NLRB , 835 F.3d 536, 542 (6th Cir. 2016) (citations omitted).\nB. The Wright Line Framework\nSection 8(a)(4) of the NLRA provides that it is an unfair labor practice for an employer \"to discharge or otherwise discriminate against an employee because he has filed charges\" under the Act. 29 U.S.C. \u00a7 158(a)(4). This anti-retaliation provision is central to the purposes of the NLRA because, without some protection for employees attempting to access the Act's protections, the Board cannot \"assure an effective administration of the Act.\" In re Briggs Mfg. Co. , 75 N.L.R.B. 569, 571 (1947).\nThe language of \u00a7 8(a)(4) encompasses disproportionate or otherwise retaliatory discipline. We have explained that \"[d]isciplinary action falling short of discharge may violate section 8(a)(3) and (1) of the Act,\" NLRB v. Consol. Biscuit Co. , 301 F. App'x 411, 423 (6th Cir. 2008), and that \"intensified surveillance and written reports of minor on-the-job activities of employees\" may violate \u00a7 8(a)(1) of the Act, NLRB v. Fry Foods, Inc. , 609 F.2d 267, 270 (6th Cir. 1979) (per curiam). This logic applies equally to subsection (a)(4), whose broad language prohibiting \"discharg[ing] or otherwise discriminat[ing]\" easily includes the allegedly unwarranted discipline at issue here. Airgas does not argue otherwise.\nWe analyze claims of discrimination in violation of the NLRA under the burden-shifting framework articulated in Wright Line , 251 N.L.R.B. 1083 (1980), and adopted by the Supreme Court in NLRB v. Transportation Management Corp. , 462 U.S. 393, 103 S.Ct. 2469, 76 L.Ed.2d 667 (1983). See FiveCAP, Inc. v. NLRB , 294 F.3d 768, 777 (6th Cir. 2002). The Wright Line test applies in cases alleging a violation of \u00a7 8(a)(4). See NLRB v. Overseas Motor, Inc. , 721 F.2d 570, 571 (6th Cir. 1983) ; see also Taylor & Gaskin, Inc. , 277 N.L.R.B. 563, 563 (1985).\nTo establish a prima facie case of discrimination under Wright Line , \"the General Counsel must demonstrate that (1) the employee was engaged in protected activity; (2) that the employer knew of the employee's protected activity; and (3) that the employer acted as it did on the basis of anti-union animus.\" FiveCAP , 294 F.3d at 777 ; see also Conley v. NLRB , 520 F.3d 629, 642 (6th Cir. 2008) (per curiam). Airgas does not dispute the Board's conclusion that the first two factors are satisfied. Rottinghouse filed two charges in the months leading up to the August written warning, and Froslear provided an affidavit regarding the first charge in July.\nThe remaining element, anti-union animus, may be \"inferred from circumstantial as well as direct evidence.\" W.F. Bolin Co. v. NLRB , 70 F.3d 863, 871 (6th Cir. 1995). Purely circumstantial factors that can support a finding of animus include:\nthe company's expressed hostility towards unionization combined with knowledge of the employees' union activities; inconsistencies between the proffered reason for [discipline] and other actions of the employer; disparate treatment of certain employees compared to other employees with similar work records or offenses; a company's deviation from past practices in implementing the [discipline]; and proximity in time between the employees' union activities and their [discipline].\nId. ; see also FiveCAP , 294 F.3d at 778.\nIf the General Counsel establishes a prima facie case under Wright Line 's initial three-prong test, \"the burden shifts to the employer to prove by a preponderance of the evidence that the employee would have been [disciplined] for permissible reasons even if he had not been involved in activity protected by the [NLRA].\" Overseas Motor , 721 F.2d at 571. If \"the employer's proffered justification for the decision is determined to be pretextual, the Board is not obligated to consider whether the employer would have taken the same decision regardless of the employee's union activity.\" Ctr. Constr. Co. v. NLRB , 482 F.3d 425, 435-36 (6th Cir. 2007).\n1. Evidence of Animus in the Prima Facie Case\nWhether Airgas's decision to issue Rottinghouse a written warning was motivated by anti-union animus is a factual inquiry, and \"[t]he Board's inference of improper motivation must be upheld if it is reasonable in light of the proven facts.\" Birch Run Welding & Fabricating, Inc. v. NLRB , 761 F.2d 1175, 1179 (6th Cir. 1985). We examine the several strands of evidence that the Board relied upon in affirming the ALJ's finding of anti-union animus.\na. Managerial Attitude and Inconsistency\nFirst, we consider the Board's conclusion that Froslear took an \"out to get you attitude\" toward Rottinghouse, including its determinations that \"Froslear was not credible regarding his real reasons for issuing Rottinghouse the warning letter,\" that \"Froslear's actions contradicted his purported concern for safety,\" and that his emails to MacBride were \"evasive[ ]\" and \"show[ed] suspect behavior.\" These interrelated conclusions turn on Froslear's perceived attitude and credibility. Because the ALJ observed and evaluated Froslear during the hearing, we review with a particularly light hand. See Caterpillar Logistics , 835 F.3d at 542.\nWe begin with the foundational conclusion that Froslear's testimony before the ALJ was not credible. Froslear testified that when Rottinghouse drove into the yard, he \"witnessed cylinders falling\"-but when asked if the cylinders actually fell, he responded that they \"tilted\" 10 or 15 degrees. The written warning he issued to Rottinghouse just after the incident mentioned neither falling nor tilting, instead stating only that Froslear \"heard rattling.\" The ALJ credited Froslear's written version, deeming his testimony equivocal, hesitant, and inconsistent, and concluded that Froslear's testimony about the falling cylinders was \"fabricated ... in order to bolster his reasons for issuing the warning letter.\" The ALJ similarly discredited Froslear's testimony that he never saw Rottinghouse near the truck, instead accepting Rottinghouse's statement that the men saw one another twice. Faced with two contradictory factual statements, the ALJ could logically conclude that it was not \"mere coincidence that [Froslear] happened to be looking out the window when Rottinghouse was re-securing his cylinders,\" and credit Rottinghouse's testimony that the two men knew each other's locations. Considering the inconsistencies among Froslear's oral and written accounts and between his version of events and Rottinghouse's, the conclusion, adopted by the Board, that Froslear was not credible falls well within \"the bounds of reason.\" Id.\nThe credibility-based determination that Froslear saw Rottinghouse also supports the Board's conclusion that \"Froslear's actions contradicted his purported concern for safety-the reason he gave for issuing Rottinghouse the warning letter.\" Under the facts accepted by the ALJ and the Board, Froslear had two opportunities to instruct Rottinghouse to fix the problem, but he said nothing. In contrast, Airgas's driver trainer testified that, if he saw a load secured like Rottinghouse's, he would \"go find [the] driver that was doing it. And get him out there and tell him, you're driving around with loose cylinders, let's get up and fix your truck.\" Though managers and trainers may have different concerns, Froslear himself drew no such distinction here. To the contrary, he testified that, if he had seen Rottinghouse-as the ALJ concluded he had-he \"would have said fix it before you leave.\"\nFroslear also testified that his intervention was unnecessary because, after he returned inside the plant, he watched through a window as Rottinghouse rearranged the cylinders and tightened the straps. This justification has two flaws. First, Froslear agreed that physical inspections of loads are necessary to ensure security. Watching from a distance, Froslear could not determine whether the newly strapped down cylinders moved when jostled. Second, by neglecting to speak to Rottinghouse, Froslear left open the possibility that Rottinghouse would not fix the safety problem. Rottinghouse could have returned to his truck and driven away from the plant without checking the load, and Froslear-already back inside-would have been unable to stop him. In light of these unexplained discrepancies, it was within the Board's prerogative to discredit Froslear's testimony that he was centrally concerned with the safety problem the cylinders posed. \"[I]nconsistencies between the proffered reason for [the discipline] and other actions of the employer\" are circumstantial evidence that can support a finding of animus. FiveCAP , 294 F.3d at 778 (quoting W.F. Bolin , 70 F.3d at 871 ).\nAnother indicium of inconsistency (and so of anti-union animus) is Airgas's \"failure to conduct a meaningful investigation.\" Bantek West, Inc. , 344 N.L.R.B. 886, 895 (2005) (quoting K & M Elecs., Inc. , 283 N.L.R.B. 279, 291 n.45 (1987) ); see also Valmont Indus., Inc. v. NLRB , 244 F.3d 454, 466 (5th Cir. 2001) (\"[A]bsence of a meaningful investigation into allegedly impermissible conduct before imposing discipline is an accepted form of circumstantial evidence of antiunion animus.\"). Froslear expressed concern about two problems: the fact that the cylinders were leaning, and the rattling noise. Physical investigation was necessary to confirm the source of the rattling noise. Froslear himself testified that a loose cylinder in a cradle can rattle without posing a safety problem, and it is undisputed that there was a cradle in Rottinghouse's truck. But when Froslear viewed the bed of Rottinghouse's truck, he did not check the cradle for loose cylinders that could have caused the noise. Without sufficient investigation to rule out a viable alternative, Froslear had no basis to conclude in Rottinghouse's warning letter that \"a pallet on your truck ... was not properly strapped, which was causing the [rattling] noise.\"\nThe Board and ALJ found additional evidence of Froslear's retaliatory motive in his email exchange with MacBride. MacBride twice asked whether the driver had fixed the problem before leaving the yard. Although Froslear knew that Rottinghouse had, he twice failed to answer MacBride's question directly and then requested \"the strongest language about load securement that drivers are trained to.\" The Board determined that Froslear's \"evasiveness\" provided \"context to the 'strongest language' request,\" and the email exchange, when considered alongside other record evidence, was \"strong evidence of the Respondent['s] animus.\" Froslear gave a different explanation for his responses, testifying that \"MacBride [did not] realize that this load [was] not going out for the first time, that it returned off the road\" in this condition. But \"[s]imply showing that the evidence supports an alternative story is not enough. [Airgas] must show that the Board's story is unreasonable.\" NLRB v. Galicks, Inc. , 671 F.3d 602, 608 (6th Cir. 2012). It was not unreasonable for the Board to conclude that this exchange was more consistent with a focus on catching Rottinghouse than on improving safety.\nEvaluating the credibility and motivation of an individual witness fits squarely within the expertise of the ALJ. In this case, a central question is whether Froslear was motivated by a desire to improve safety at the plant or by anti-union animus. Substantial evidence supports the Board's conclusions that Froslear's description of the events of August 3 was not credible and that he was not truly concerned with fixing a safety problem. Those conclusions support the Board's finding that Froslear was motivated by anti-union animus.\nb. Temporal Proximity\nThe Board also considered the timing of the events. \"[P]roximity in time between the employees' union activities and their [discipline]\" is circumstantial evidence that can contribute to a finding of anti-union animus. FiveCAP , 294 F.3d at 778 (quoting W.F. Bolin , 70 F.3d at 871 ). Rottinghouse received his written warning on August 6, just under a month after he filed a charge with the Board. Comparable time intervals support a finding of animus. See, e.g. , NLRB v. E.I. DuPont De Nemours , 750 F.2d 524, 529 (6th Cir. 1984) (three weeks); JMC Transp., Inc. v. NLRB , 776 F.2d 612, 615-16, 620 (6th Cir. 1985) (approximately one month).\nAirgas contends that the interval should begin with the date Airgas first became aware of Rottinghouse's filing of charges, no later than April 2015. The argument that temporal proximity must be calculated in relation to the first known instance of protected conduct is not supported by precedent. To the contrary, in E.I. DuPont De Nemours , we found it suspicious that a union supporter was discharged \"[a] mere three weeks after the close of the representation campaign.\" 750 F.2d at 529. We were not concerned that the supporter's first protected activity-contacting the union about organizing the plant's workforce-had occurred several months prior. Id. at 526-27. Firing the worker soon after a critical protected event (the election) logically raised an inference of animus regardless of when the protected activity began. The same is true here, where the discipline occurred soon after another critical protected event: the filing of charges.\nSubstantial evidence therefore supports the Board's conclusion that the temporal proximity between the protected activity and the discipline was evidence of animus.\nc. Disparate Treatment\nFinally, the Board considered \"evidence of disparate treatment\" with regard to Rottinghouse's written warning. \"[D]isparate treatment of certain employees compared to other employees with similar work records or offenses\" may support a finding of anti-union animus. FiveCAP , 294 F.3d at 778 (quoting W.F. Bolin , 70 F.3d at 871 ).\nThe record contains only one instance of discipline for failing to secure cylinders. In that case, Bill Huff received a \"written counseling\" when his truck contained \"a loose cylinder on its side on the floor of the trailer, one pallet with unsecured cylinders [and] another pallet containing liquid containers only secured with one strap.\" Froslear testified that the two offenses were comparable because \"[u]nsecured is unsecured.\" MacBride similarly testified that \"moving cylinders are moving cylinders.\" The union steward disagreed, testifying that \"Huff's incident [was] more serious\" because the cylinders \"could've fell off the back of the truck.\" Because the ALJ's conclusion that the safety problem was more immediate when a cylinder was entirely loose is supported by record evidence, Huff's written warning is of limited use in the disparate treatment analysis.\nIn support of the Board's finding, the General Counsel points to evidence of two employees who received verbal warnings for serious violations of safety regulations unrelated to securing loads. First, John Jeffries received a verbal warning for causing a preventable backing accident. This disciplinary choice was unusual for Airgas; on two other occasions, employees were given written warnings for causing preventable accidents. Similarly unusual is the fact that this warning was not documented on Airgas's standard discipline form used for verbal warnings. Given these unexplained irregularities and the ALJ's decision to spend only a sentence on the Jeffries example in her disparate treatment analysis, we likewise place little weight on the incident.\nThe General Counsel's second example involves Edger Reed, who received verbal counseling for talking on the phone while driving. The disciplinary letter points out that \"[t]his DOT violation could have made [Reed] subject to a $ 2,570 fine and Airgas subject to an $ 11,000 fine.\" Though Airgas asserts in passing that Reed's incident was \"minor,\" in light of the magnitude of potential penalties that Airgas itself identified in Reed's warning letter, the Board was not required to accept that evaluation.\nAirgas also argues that Reed's example is inapposite because a hand-written note on Reed's warning letter explains that it was \"[r]educed to verbal,\" presumably by operation of the grievance process after initially receiving a higher level of discipline such as a written warning. But the case Airgas cites is not on point. M & G Convoy, Inc. , 287 N.L.R.B. 1140, 1144-45 (1988), rejects the theory that prior warnings rescinded during the grievance process demonstrate animus in the subsequent discipline of the same employee. There, the ALJ commended the employer for being \"flexible enough to realize in reaction to employee complaints that it might not succeed in a contractual grievance procedure. This is the action of a fair and reasonable employer, not one seeking to discriminate.\" Id. at 1144. In this case, the General Counsel advances a different argument entirely: that two employees filed grievances about warnings given to them, but only one received a reduction in the level of discipline assessed. The General Counsel argues that the difference in result can be attributed to anti-union animus.\nIt was within the Board's authority to consider the difference in treatment between Rottinghouse and Reed in attempting to discern anti-union animus. Viewing that evidence alongside the temporal proximity to protected activity and the conclusions regarding Froslear's poor credibility and lack of demonstrated safety concern, a reasonable mind could conclude that Airgas chose to issue a written warning to Rottinghouse because of his charge-filing activity. See Local 334 , 481 F.3d at 879. In other words, substantial evidence supports the Board's decision that Airgas \"acted as it did on the basis of anti-union animus.\" FiveCAP , 294 F.3d at 777.\n2. Airgas's Nondiscriminatory Reason\nUnder Wright Line , the burden then shifts to Airgas \"to prove that it would have made the same employment decision regardless\" of Rottinghouse's protected activity. Ctr. Constr. Co. , 482 F.3d at 435. If the employer's proffered justification is determined to be pretextual, the Board need not consider it. Id. at 435-36. Airgas argues that written discipline was warranted because of the undisputed existence of a safety violation and because Rottinghouse had previously committed another DOT violation.\nFor the reasons explained above, substantial evidence supported the conclusions that Froslear's actions were not calculated to rectify a safety problem and that his testimony about the level of safety concern posed was not credible. The Board therefore properly concluded that the ALJ's \"animus analysis and her credibility findings clearly establish that the Respondent's reasons for issuing a written warning as opposed to a verbal warning were pretextual.\"\nThe NLRB also considered whether Rottinghouse's prior DOT violation could justify the issuance of a warning, ultimately concluding that the suggestion \"was disingenuous, at best, because the record establishes that it did not.\" The first time Froslear mentioned the prior violation was the September 23 grievance meeting. By then, Airgas had already had at least three opportunities to explain its actions. First, the prior violation could have been mentioned in the written warning itself, as with another warning letter in the record stating, \"This is not the first issue [the employee has] had following DOT compliance as an Airgas driver.\" Rottinghouse's warning contained no such statement. Second, the prior violation could have been mentioned on August 6 when the letter was given to Rottinghouse. It was not. Third, the prior violation could have been mentioned when, at the grievance meeting on September 2, the union steward stated that the warning should have been verbal. Froslear instead read Article 22 of the Collective Bargaining Agreement-in essence, responding that because Article 22 does not mention verbal warnings, a written warning was appropriate for any infraction. Given Airgas's undisputed history of giving verbal warnings, the Board reasonably concluded that this justification was not supported. It was not until three weeks later that Froslear offered the justification that Airgas advances now. This \"fail[ure] to provide a clear, consistent and credible explanation\" for discipline supports a finding of pretext. NLRB v. Inter-Disciplinary Advantage, Inc. , 312 F. App'x 737, 751 (6th Cir. 2008) ; see also Healthcare Emps. Union, Local 399 v. NLRB , 463 F.3d 909, 922 (9th Cir. 2006) (\"Where the employer's asserted justification is shifting and unreliable, its case is weakened, and the conclusion that the true reason was for union activity is correspondingly strengthened.\" (quoting NLRB v. Nevis Indus., Inc. , 647 F.2d 905, 910 (9th Cir. 1981) )).\nThe Board's finding of pretext was therefore supported by substantial evidence, and it was not obligated to consider the justification any further. See Ctr. Constr. Co. , 482 F.3d at 435-36.\nIII. CONCLUSION\nFor the foregoing reasons, we GRANT the General Counsel's application for enforcement and DENY Airgas's petition for review.\nThe ALJ concluded that Airgas violated both \u00a7 8(a)(4) and (a)(1) of the Act. Section 8(a)(1) provides that an employer may not \"interfere with, restrain, or coerce employees\" exercising their rights to concerted action under the NLRA. 29 U.S.C. \u00a7 158(a)(1). Under Board precedent, \"any violation of Section 8(a)(3) [or] (4) of the Act is also a derivative violation of Section 8(a)(1) of the Act.\" Chinese Daily News , 346 N.L.R.B. 906, 933 (2006) ; see also Metro. Edison Co. v. NLRB , 460 U.S. 693, 698 n.4, 103 S.Ct. 1467, 75 L.Ed.2d 387 (1983) (discussing \u00a7 8(a)(3)). Because the Board did not discuss any violation of \u00a7 8(a)(1) apart from the conduct considered under the rubric of \u00a7 8(a)(4), we analyze only the \u00a7 8(a)(4) charge.\nThe Supreme Court later overruled a footnote in Transportation Management interpreting a provision of the Administrative Procedure Act (APA). See Dir. v. Greenwich Collieries , 512 U.S. 267, 277-78, 114 S.Ct. 2251, 129 L.Ed.2d 221 (1994). In so doing, the Court left intact the holding of Transportation Management , explaining that the Wright Line test was consistent with the APA \"because the NLRB first required the employee to persuade it that antiunion sentiment contributed to the employer's decision. Only then did the NLRB place the burden of persuasion on the employer as to its affirmative defense.\" Id. at 278, 114 S.Ct. 2251 ; see also Arrow Elec. Co. v. NLRB , 155 F.3d 762, 766 & n.5 (6th Cir. 1998).",
+        "type": "majority",
+        "author": "JANE B. STRANCH, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "ARGUED: Michael C. Murphy, AIRGAS, INC., Radnor, Pennsylvania, for Petitioner/Cross-Respondent. Heather S. Beard, NATIONAL LABOR RELATIONS BOARD, Washington, D.C., for Respondent/Cross-Petitioner. ON BRIEF: Michael C. Murphy, AIRGAS, INC., Radnor, Pennsylvania, for Petitioner/Cross-Respondent. Heather S. Beard, Linda Dreeben, NATIONAL LABOR RELATIONS BOARD, Washington, D.C., for Respondent/Cross-Petitioner."
+    ],
+    "corrections": "",
+    "head_matter": "AIRGAS USA, LLC, Petitioner/Cross-Respondent,\nv.\nNATIONAL LABOR RELATIONS BOARD, Respondent/Cross-Petitioner.\nNos. 18-1686/1771\nUnited States Court of Appeals, Sixth Circuit.\nArgued: January 17, 2019\nDecided and Filed: February 21, 2019\nARGUED: Michael C. Murphy, AIRGAS, INC., Radnor, Pennsylvania, for Petitioner/Cross-Respondent. Heather S. Beard, NATIONAL LABOR RELATIONS BOARD, Washington, D.C., for Respondent/Cross-Petitioner. ON BRIEF: Michael C. Murphy, AIRGAS, INC., Radnor, Pennsylvania, for Petitioner/Cross-Respondent. Heather S. Beard, Linda Dreeben, NATIONAL LABOR RELATIONS BOARD, Washington, D.C., for Respondent/Cross-Petitioner.\nBefore: GIBBONS, ROGERS, and STRANCH, Circuit Judges."
+  },
+  "file_name": "0555-01",
+  "first_page_order": 555,
+  "last_page_order": 566
+}

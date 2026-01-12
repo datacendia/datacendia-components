@@ -1,0 +1,59 @@
+{
+  "id": 4337461,
+  "name": "In re Discipline of Losey",
+  "name_abbreviation": "In re Discipline of Losey",
+  "decision_date": "2011-06-20",
+  "docket_number": "No. D-2593",
+  "first_page": "1016",
+  "last_page": "1016",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1016"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 40,
+    "char_count": 280,
+    "ocr_confidence": 0.538,
+    "sha256": "7a18be46a38e61d87531b5a1f7ad1d3250f04f6b7c146ef7e31e962482db8ae7",
+    "simhash": "1:678a73b61feab7ae",
+    "word_count": 52
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Losey."
+    ],
+    "opinions": [
+      {
+        "text": "F. Richard Losey, of San Rafael, Cal., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2593.\nIn re Discipline of Losey."
+  },
+  "file_name": "1016-05",
+  "first_page_order": 1010,
+  "last_page_order": 1010
+}

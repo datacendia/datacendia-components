@@ -1,0 +1,59 @@
+{
+  "id": 12431244,
+  "name": "Anderson v. United States",
+  "name_abbreviation": "Anderson v. United States",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-7901",
+  "first_page": "1176",
+  "last_page": "1176",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1176"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.616,
+    "sha256": "551dac160200473ed75359226fc7f3ebe8fec14d13e18ef361c7b231017b9048",
+    "simhash": "1:07bbe623cf3d045b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Anderson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7901.\nAnderson v. United States."
+  },
+  "file_name": "1176-11",
+  "first_page_order": 1252,
+  "last_page_order": 1252
+}

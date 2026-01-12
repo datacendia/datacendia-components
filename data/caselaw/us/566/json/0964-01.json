@@ -1,0 +1,59 @@
+{
+  "id": 12210164,
+  "name": "Yelloweagle v. United States",
+  "name_abbreviation": "Yelloweagle v. United States",
+  "decision_date": "2012-04-23",
+  "docket_number": "No. 11-7553",
+  "first_page": "964",
+  "last_page": "964",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 964"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 78,
+    "ocr_confidence": 0.608,
+    "sha256": "023371c6d019a573724929deb7e44b6dc7d3175b292af656e345469282f1b5a9",
+    "simhash": "1:1798fb275aaf913e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Yelloweagle v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7553.\nYelloweagle v. United States."
+  },
+  "file_name": "0964-01",
+  "first_page_order": 840,
+  "last_page_order": 840
+}

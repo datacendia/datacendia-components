@@ -1,0 +1,59 @@
+{
+  "id": 5910924,
+  "name": "Peters v. United States",
+  "name_abbreviation": "Peters v. United States",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7723",
+  "first_page": "1159",
+  "last_page": "1159",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1159"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.611,
+    "sha256": "40b48c72fd5be3b7d73ddb9ee4fd860ee87e3d8bd70b2e27851f3dba51271e9c",
+    "simhash": "1:0f5acb33068fb05e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Peters v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7723.\nPeters v. United States."
+  },
+  "file_name": "1159-12",
+  "first_page_order": 1181,
+  "last_page_order": 1181
+}

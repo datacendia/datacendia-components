@@ -1,0 +1,923 @@
+{
+  "id": 6054415,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. EDWARD CHARLES III, Defendant and Appellant",
+  "name_abbreviation": "People v. Charles",
+  "decision_date": "2015-06-01",
+  "docket_number": "No. S076337",
+  "first_page": "308",
+  "last_page": "338",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "61 Cal. 4th 308"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal.",
+    "id": 9021,
+    "name": "Supreme Court of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "289 P.3d 791",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "150 Cal.Rptr.3d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "55 Cal.4th 816",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3932274
+      ],
+      "pin_cites": [
+        {
+          "page": "873"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/55/0816-01"
+      ]
+    },
+    {
+      "cite": "907 P.2d 373",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "48 Cal.Rptr.2d 525",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "12 Cal.4th 415",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1957541
+      ],
+      "pin_cites": [
+        {
+          "page": "467"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/12/0415-01"
+      ]
+    },
+    {
+      "cite": "314 P.3d 450",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "165 Cal.Rptr.3d 204",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "58 Cal.4th 123",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        4000748
+      ],
+      "pin_cites": [
+        {
+          "page": "139, fn. 17"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/58/0123-01"
+      ]
+    },
+    {
+      "cite": "315 P.3d 1",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "165 Cal.Rptr.3d 717",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "58 Cal.4th 197",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        4000608
+      ],
+      "pin_cites": [
+        {
+          "page": "295"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/58/0197-01"
+      ]
+    },
+    {
+      "cite": "331 P.3d 1206",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "176 Cal.Rptr.3d 185",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 Cal.4th 1113",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        4263948
+      ],
+      "pin_cites": [
+        {
+          "page": "1207"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/59/1113-01"
+      ]
+    },
+    {
+      "cite": "330 P.3d 812",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "175 Cal.Rptr.3d 481",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 Cal.4th 672",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        4264070
+      ],
+      "pin_cites": [
+        {
+          "page": "723-724"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/59/0672-01"
+      ]
+    },
+    {
+      "cite": "536 U.S. 584",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1254507
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/536/0584-01"
+      ]
+    },
+    {
+      "cite": "530 U.S. 466",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9413911
+      ],
+      "weight": 3,
+      "year": 2002,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/530/0466-01"
+      ]
+    },
+    {
+      "cite": "334 P.3d 573",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "178 Cal.Rptr.3d 185",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "60 Cal.4th 335",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3990882
+      ],
+      "pin_cites": [
+        {
+          "page": "468"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/60/0335-01"
+      ]
+    },
+    {
+      "cite": "161 P.3d 58",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "61 Cal.Rptr.3d 526",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Cal.4th 472",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3818878
+      ],
+      "pin_cites": [
+        {
+          "page": "536"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/41/0472-01"
+      ]
+    },
+    {
+      "cite": "209 P3d 1",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "95 Cal.Rptr.3d 78",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.4th 731",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3896084
+      ],
+      "pin_cites": [
+        {
+          "page": "816-817"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/46/0731-01"
+      ]
+    },
+    {
+      "cite": "331 P.3d 265",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "176 Cal.Rptr.3d 103",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 Cal.4th 1063",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        4263928
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "1111"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/59/1063-01"
+      ]
+    },
+    {
+      "cite": "107 P.3d 229",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Cal.Rptr.3d 554",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.4th 334",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        873185
+      ],
+      "pin_cites": [
+        {
+          "page": "367"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/35/0334-01"
+      ]
+    },
+    {
+      "cite": "199 P.3d 535",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "88 Cal.Rptr.3d 131",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.4th 577",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3893098
+      ],
+      "pin_cites": [
+        {
+          "page": "601"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/45/0577-01"
+      ]
+    },
+    {
+      "cite": "991 P.2d 165",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "92 Cal.Rptr.2d 80",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "22 Cal.4th 260",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        157940
+      ],
+      "pin_cites": [
+        {
+          "page": "270"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/22/0260-01"
+      ]
+    },
+    {
+      "cite": "279 P.3d 547",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "143 Cal.Rptr.3d 215",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.4th 395",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        5721071
+      ],
+      "pin_cites": [
+        {
+          "page": "430"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/54/0395-01"
+      ]
+    },
+    {
+      "cite": "183 P.3d 1146",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "77 Cal.Rptr.3d 163",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.4th 959",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3884568
+      ],
+      "pin_cites": [
+        {
+          "page": "1021"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/43/0959-01"
+      ]
+    },
+    {
+      "cite": "805 P.2d 899",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2008,
+      "opinion_index": 0
+    },
+    {
+      "cite": "278 Cal.Rptr. 640",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 2008,
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Cal.3d 1210",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2376294
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "1268"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/52/1210-01"
+      ]
+    },
+    {
+      "cite": "70 P.3d 981",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "135 Cal.Rptr.2d 553",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal.4th 1166",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        269727
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/30/1166-01"
+      ]
+    },
+    {
+      "cite": "301 P.3d 1177",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "157 Cal.Rptr.3d 570",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "56 Cal.4th 1028",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        4224861
+      ],
+      "pin_cites": [
+        {
+          "page": "1075"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/56/1028-01"
+      ]
+    },
+    {
+      "cite": "328 P.3d 1",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "174 Cal.Rptr.3d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 Cal.4th 446",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        4264132
+      ],
+      "pin_cites": [
+        {
+          "page": "474"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/59/0446-01"
+      ]
+    },
+    {
+      "cite": "163 P.3d 4",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Cal.Rptr.3d 297",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Cal.4th 1082",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3819049
+      ],
+      "pin_cites": [
+        {
+          "page": "1155"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/41/1082-01"
+      ]
+    },
+    {
+      "cite": "299 P.2d 243",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.2d 818",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4370142
+      ],
+      "pin_cites": [
+        {
+          "page": "836"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/46/0818-01"
+      ]
+    },
+    {
+      "cite": "386 U.S. 18",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6168882
+      ],
+      "weight": 5,
+      "year": 1956,
+      "pin_cites": [
+        {
+          "page": "24"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/386/0018-01"
+      ]
+    },
+    {
+      "cite": "106 P.3d 895",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Cal.Rptr.3d 224",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.4th 208",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        873197
+      ],
+      "pin_cites": [
+        {
+          "page": "242"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/35/0208-01"
+      ]
+    },
+    {
+      "cite": "302 P.3d 927",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "158 Cal.Rptr.3d 521",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "56 Cal.4th 1146",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        4224770
+      ],
+      "pin_cites": [
+        {
+          "page": "1205"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/56/1146-01"
+      ]
+    },
+    {
+      "cite": "789 P.2d 934",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "268 Cal.Rptr. 753",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "50 Cal.3d 785",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4461165
+      ],
+      "pin_cites": [
+        {
+          "page": "792"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/50/0785-01"
+      ]
+    },
+    {
+      "cite": "26 P.3d 357",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "109 Cal.Rptr.2d 31",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 Cal.4th 81",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        456839
+      ],
+      "pin_cites": [
+        {
+          "page": "134"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/26/0081-01"
+      ]
+    },
+    {
+      "cite": "161 P.3d 104",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "61 Cal.Rptr.3d 580",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Cal.4th 555",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3819179
+      ],
+      "pin_cites": [
+        {
+          "page": "582"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/41/0555-01"
+      ]
+    },
+    {
+      "cite": "115 P.3d 417",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Cal.Rptr.3d 96",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Cal.4th 510",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3123549
+      ],
+      "pin_cites": [
+        {
+          "page": "535"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/36/0510-01"
+      ]
+    },
+    {
+      "cite": "303 P.3d 1",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "158 Cal.Rptr.3d 797",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 Cal.4th 79",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6053861
+      ],
+      "pin_cites": [
+        {
+          "page": "132"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/57/0079-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 2362,
+    "char_count": 77340,
+    "ocr_confidence": 0.857,
+    "pagerank": {
+      "raw": 4.434580671315653e-08,
+      "percentile": 0.277816390067529
+    },
+    "sha256": "b11880915b60e8a8b6d55ba3d4efb98b91e7495a15dbfdca3e46721f32a91f9e",
+    "simhash": "1:93ebb026724891e8",
+    "word_count": 12546
+  },
+  "last_updated": "2024-02-27T18:39:57.291380+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Cantil-Sakauye, C. J., Chin, J., Corrigan, J., Liu, J., Cu\u00e9llar, J., and Kruger, J., concurred."
+    ],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. EDWARD CHARLES III, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nWERDEGAR, J.\nDefendant Edward Charles III was convicted at trial of one count of first degree murder and two counts of second degree murder (Pen. Code, \u00a7 187, subd. (a).) The jury also found true multiple-murder special-circumstance allegations. (\u00a7 190.2, subd. (a)(3).) Following a fourth penalty trial, the jury returned a verdict of death. The trial court denied the automatic application to modify the verdict (\u00a7 190.4, subd. (e)) and sentenced defendant to death. This appeal is automatic. (\u00a7 1239, subd. (b).) We affirm the judgment.\nStatement of Facts\n1. Guilt Phase\nA. Summary\nDefendant was charged with killing his father, Edward Charles II, his mother, Dolores Charles, and his 19-year-old younger brother, Daniel Charles. The prosecution showed that on the evening of November 6, 1994, defendant went to his parents\u2019 home around dinnertime when his parents and brother were all present. Sometime later, defendant abducted Danny, stabbed him, and forced him into the trunk of Danny\u2019s car. He either choked or hit Danny in the neck with sufficient force to break his hyoid bone before killing him by striking him repeatedly in the head with a 16-inch crescent wrench. Defendant returned to his parents\u2019 house in the early morning hours of November 7, where he strangled his mother and beat his father to death with a blunt object. After cleaning up, he carried his parents\u2019 bodies to his mother\u2019s car, where he had placed Danny\u2019s body in the trunk, and went to his job at a service station, where he worked a full day. That night, he drove the car to a high school parking lot and set it on fire. He confessed his crime to his martial arts instructor, but he also attempted to persuade his 73-year-old grandfather to take the blame for the murders. In a conversation with one of his jailers and in a letter to a fellow inmate, defendant, while denying he had committed the murders, admitted he had cleaned up the murder scene at his parents\u2019 house, placed the victims\u2019 bodies in a car, and attempted to bum them.\nThe defense, in essence, was that defendant had neither the character nor the motive to kill his parents and brother.\nB. Prosecution Case-in-chief\nDefendant is the elder son of Edward and Dolores. In November 1994, defendant was 22 years old and his brother Danny was 19. Defendant worked as a mechanic at the Sunny Hills Chevron station in Fullerton; Danny was a sophomore at the University of Southern California (USC). Neither lived at their parents\u2019 home on Terraza Place in Fullerton, but their maternal grandfather, Bernard Severino, did. His room was at the opposite end of the house from the master bedroom, where Edward and Dolores slept. Danny lived at USC and defendant was living with the family of his fianc\u00e9e, Tiffany Bowen, who was away at school.\nOn Sunday, November 6, all the members of the Charles family, except defendant, had dinner together. At some point, defendant arrived. There were no arguments among the family. Severino, the sole eyewitness to the events of that evening, told police Danny left first, about 8:00 p.m., followed shortly by defendant. About 9:00 p.m., Dolores expressed concern to Severino that Danny had not called to report he had arrived safely at USC, as was his habit. Severino last spoke to his daughter at 11:30 that night. She was still awaiting Danny\u2019s call. Severino went to bed.\nGina Simms lived on Lakeside Drive in Fullerton around the corner from the Charleses\u2019 house. About 9:30 p.m. on November 6, she was accompanying her friend Susan Poladin and Poladin\u2019s daughter from her house to their car. As they walked down the driveway the two women heard someone calling for help. The call appeared to come from the trunk of a car parked across the street. They returned to Simms\u2019s house to call the police but by the time the police arrived, the car was gone. At trial, the women identified Danny\u2019s Honda as similar to the car they saw that evening.\nAbout 9:50 p.m., Bryan Poor, defendant\u2019s coworker at the Chevron station, saw defendant arrive in a small, light-colored sedan he had never seen defendant drive before. Defendant told him the car belonged to Tiffany Bowen\u2019s mother, Jeanne, and he was testing the clutch or brakes. Defendant parked the car in a poorly lit area of the station. Ordinarily, he parked in front.\nJeanne Bowen testified that on November 6, she owned a gold Impala and a red Mustang, neither of which had a clutch. She also testified that, although defendant was living at her home in November 1994, he did not spend the night of November 6 there.\nOn Monday, November 7, 1994, Severino woke about 5:30 a.m. and went out to walk the family dog. He noticed a three-foot-long trail of blood drops in front of the steps to the house. He also observed that Dolores\u2019s car was not parked in its usual spot. About 6:10 a.m., Jerry Kuhn, who lived across the street, went out to pick up the newspaper and saw defendant using a towel or a rag to rub the Charleses\u2019 driveway. Defendant stopped when he saw Kuhn watching him. He resumed when Kuhn went back into his house, where Kuhn continued to watch defendant from a window. Defendant threw the towel or rag into the back of a truck parked in the driveway.\nDefendant reported for work at the Chevron station about 8:00 a.m. James Burchit, the owner, said defendant was unshaven and looked like he had been up all night.\nDefendant worked until 4:00 p.m. Sometime before 7:00 p.m., he returned to his parents\u2019 residence. By now Severino was concerned because his daughter and son-in-law had not been home all day. He asked defendant if he knew where they were. Defendant told him Danny had had a clutch problem with his car and his parents had gone to pick him up. Severino said he was going to call the police. Defendant left.\nAccording to Jeanne Bowen, defendant arrived at the Bowen residence about 7:00 p.m. At around 9:00 p.m., he asked Ty Bowen, Jeanne\u2019s son, to give him a ride to the Chevron station. Defendant had been driving Tiffany Bowen\u2019s truck, and it was at the residence, but Ty Bowen drove him to the station. About 10:00 p.m., Jeanne Bowen received a phone call from someone named \u201cRob\u201d who asked for Ty. She gave the phone to her son. It was defendant, and he asked Ty to pick him up at a softball field. Ty again complied.\nThe softball field was about sixth-tenths of a mile from El Camino High School in La Mirada where, about 10:00 p.m., Los Angeles County Sheriff\u2019s Deputy James Rifilato was dispatched to investigate a car fire. Rifilato found a gray Honda Civic smoldering in the school\u2019s parking lot. The vehicle was registered to Edward and Dolores. Rifilato looked inside the car and saw the nude, badly burned bodies of a man and a woman in the rear passenger seat. In the trunk, Rifilato found a clothed male body, less burnt than the other two. The bodies in the backseat were identified as Edward and Dolores. The body in the trunk was Danny. An arson investigator who arrived at the scene shortly after Rifilato determined the fire had been intentionally set in three locations, with gasoline used as the accelerant. Police also recovered a knife, a blue T-shirt, and a purple sweatshirt from the car.\nAn autopsy revealed that Danny had been stabbed twice in the back and was then either choked or struck in the neck with sufficient force to break his hyoid bone, which is located under the jaw. He was then struck in the head four times with sufficient force to fracture his skull. The cause of death was blunt force injury to the head.\nEdward\u2019s autopsy revealed that his chest, back, neck, and head had been repeatedly struck, fracturing his ribs, spinal column, neck, jaw, cheek, and skull. The cause of his death was blunt force injuries to his head and neck.\nThe autopsy on Dolores\u2019s body revealed the cause of death was asphyxia due to neck compression. The medical examiner attributed this to strangulation or a blow to her neck. An examination of the victims\u2019 stomach contents indicated Danny was killed first and then his parents, several hours later.\nSometime between 3:00 a.m. and 4:00 a.m., Leann Pollaccia was \u201cdumpster diving\u201d behind a business in an industrial area in Fullerton looking for items to sell. She found a 30-gallon garbage pail that held clothes and a towel soaked with blood. Pollaccia kept digging and found a wrench engraved with the yin-yang symbol. There was hair and blood on the wrench but she took it anyway, leaving the clothes except for a pair of jeans, which she washed. Later, when she read newspaper accounts about the murders that identified defendant as a mechanic, she concluded the wrench was probably the weapon police were looking for, so she turned it over to the police. Kimberly Speare, defendant\u2019s former girlfriend, testified she and defendant had engraved all of his tools with the yin-yang symbol and identified the wrench as part of the set of tools they had engraved. Steve Dowell, a criminalist with the Los Angeles coroner\u2019s office whose specialties included tool mark analysis, compared the wrench to Danny\u2019s and Edward\u2019s skull injuries. He concluded an injury to Danny\u2019s skull bore marks consistent with the class of wrenches to which defendant\u2019s wrench belonged. He could not exclude it as the object that produced the injuries to Edward\u2019s skull. Heidi Robbins, the prosecution\u2019s serologist, testified that blood found on the wrench was consistent only with Danny\u2019s blood.\nLos Angeles County Sheriff\u2019s Sergeant Curt Royer, the lead investigator, first spoke to defendant at the Bowens\u2019 residence at 6:15 a.m. on Tuesday, November 8. Defendant told Royer he had last seen his brother and parents on Sunday night around 8:00 p.m., when Danny left to return to USC. Defendant said he left shortly afterwards and spent the night at the Bowen residence. As to his whereabouts on Monday night, he told Royer he had arrived at the Bowen residence at 8:00 p.m. and remained there until Royer had awakened him.\nRoyer asked defendant why, if his brother had left his parents\u2019 residence while his parents remained there, they had been found in the same vehicle. Defendant said his brother\u2019s car had had clutch problems, so he had probably returned home and had his parents drive him to college. When Royer observed that defendant had not asked him why he was inquiring about his parents, defendant asked, \u201cWell, why? What happened?\u201d Royer told him his parents and brother had been found dead in a car. Defendant said he warned them not to go to the college at night. He dropped to the ground and appeared to sob but, when Royer told defendant he knew he was faking, defendant stopped.\nLater that day, Royer spoke to defendant again. He told defendant that Jeanne Bowen had informed him defendant had not spent Sunday night at the Bowen residence. Defendant then remembered he had gone back to his parents\u2019 house and slept there without anyone having seen him arrive or leave.\nAround 5:50 p.m. on the same day, Tuesday, defendant called Philip Axelson. Axelson had been defendant\u2019s martial arts teacher for three years, until March 1994. Defendant referred to Axelson as \u201csensei,\u201d the Japanese word for teacher. Under Axelson\u2019s tutelage defendant had risen to the green belt level. To achieve that level, defendant had had to be able to break two one-inch-thick boards with his feet and three with his hands. Axelson had seen defendant break as many as five boards, although he did not say whether this was with his hands or feet. At that level, defendant would have been capable of inflicting a severe blow to another person\u2019s body.\nAxelson was at the health club where he worked when he was told he had an emergency call. The employee who answered it told Axelson the caller had identified himself as \u201cEddie,\u201d and \u201csound[ed] really upset.\u201d When Axelson took the phone, defendant was crying. Axelson asked him \u201cWhat\u2019s going on?\u201d He told Axelson he had \u201cdone a terrible thing.\u201d Axelson asked what it was and defendant said, \u201cI killed my family.\u201d Axelson said, \u201cWhat?\u201d and defendant said, \u201cI think I killed my family.\u201d Axelson said, \u201cWhat are you telling me? What are you saying to me?\u201d Defendant replied, \u201cI think I killed my family. I need to come down and talk to you right away.\u201d Axelson, concerned about the safety of other club members and employees should defendant be armed, asked for defendant\u2019s number and told him he would call him back. After getting off the phone with defendant, Axelson called the police and reported the conversation.\nAxelson testified further that he and defendant had had a close relationship while defendant trained with him. Defendant conveyed the impression he hated his brother Danny, who he thought might become a homosexual because of Danny\u2019s interest in opera and theater. Defendant\u2019s feelings toward his mother were also negative; he thought that her smoking showed a lack of regard for his health. As to defendant\u2019s father, Axelson testified there was \u201cno love there.\u201d Defendant complained his father was distant and did not listen to him. Axelson testified that defendant demonstrated no regard for any member of his family.\nDefendant was arrested for the murders on November 9, 1994.\nOn November 10, 1994, Heidi Robbins, a serologist with the Los Angeles County Sheriff\u2019s Department crime lab, went to the Charleses\u2019 residence. Robbins took samples of blood she found at the entrance, in the foyer, and in the master bedroom on a nightstand, a computer, the headboard, the wall above the headboard, the mattress and the box spring. A pair of sparring gloves found in the dining room also had blood on them. Robbins analyzed some, but not all, of the samples she collected in the house. She concluded that blood on the nightstand was consistent with Edward\u2019s. The blood on the sparring gloves was consistent with defendant\u2019s. Robbins was also given the knife recovered from the trunk of the car where Danny\u2019s body was found. Blood on the knife was consistent with his blood.\nSometime in late November, defendant called his grandfather from jail and told him he should take the blame for the murders because he was 74 years old and had already lived his life. (Severino was actually 73.) Severino hung up on him. Defendant called back and told him that his fianc\u00e9e, Tiffany Bowen, was pregnant and defendant had his life to lead.\nOn November 23, 1994, an agitated defendant asked to speak to one of his jailers at Orange County jail, Deputy Sheriff Gene Hyatt. Defendant told Hyatt his grandfather had committed the murders. He told Hyatt that on the night of the murders his grandfather was upset because defendant\u2019s parents were bickering with Danny. Defendant said he left his parents\u2019 house before Danny did but returned around 11:30 p.m. Upon his return, he found a bloody ball peen hammer in the kitchen, the bodies of the three victims in his parents\u2019 bedroom, and his 73-year-old grandfather in his bedroom covered with blood. Defendant decided to cover up for his grandfather. He showered the blood off his grandfather, put him into bed, and cleaned blood from the house. He put the bodies in a car parked in the driveway and then went to bed. The next evening, after working a full day, he drove the bodies to the high school parking lot, doused them with gasoline, set the car on fire and walked home.\nOn December 7, 1994, an inmate named Cezar Pincock approached Sergeant Royer with a letter Pincock claimed defendant had written to him. He offered the letter to Royer in exchange for Royer\u2019s help in two cases, one in which Pincock had been sentenced and the other of which was pending. Royer rejected Pincock\u2019s request for help and seized the letter as evidence. Although the letter does not contain a date or defendant\u2019s name, his former girlfriend, Kimberly Speare, with whom he had lived for a year and a half, testified the writing in the letter was his.\nTony Saavedra, a reporter with The Orange County Register, obtained a copy of the letter and published an article in the newspaper on January 3, 1995, that quoted extensively from it. Before writing and publishing the piece he interviewed defendant about the letter. Saavedra held the first page of the letter up to the glass partition that separated him from defendant, and either read or held up other pages of the letter, while asking him questions about specific passages. Saavedra prefaced his questions with remarks like \u201cYou wrote here,\u201d or \u201cYou said here.\u201d At no point did defendant deny authorship of the letter. In fact, defendant clarified some of the passages that Saavedra did not understand. For example, he explained what was meant in the letter by the term \u201cmonkey boots.\u201d Saavedra also asked defendant about passages in the letter discussing the burning of the bodies. Defendant explained that he couldn\u2019t bury them, but if he burned them \u201cit could be like cremating them.\u201d Defendant also told Saavedra that, as the bodies burned, defendant ran to a nearby baseball field and called his fianc\u00e9e\u2019s brother for a ride home. Appended to the letter was a diagram of the layout of the Charles residence in which furniture was accurately positioned. It also contained information that was not in any of the police reports.\nDefendant in the letter did not admit killing his family. Defendant wrote he arrived at his parents\u2019 house about 11:30 p.m. and found his parents dead. He wrote he \u201cknow[s] who did this and they left a typed note in an envelope with threats and telling me to clean up or I would go to jail for murder. They said if I went to cops [sic], they would kill Tiffany [Bowen] and her family.\u201d He described removing the bodies, cleaning up the house, including the blood on the driveway, consistent with what his neighbor Jerry Kuhn observed. He also wrote that on the Monday night after the killings, he drove the car with the bodies to the high school, poured gasoline in the trunk and inside the car and set it on fire. Elsewhere, he suggested it would \u201clookQ better\u201d and deflect suspicion from him if someone \u2014 \u201cX\u201d\u2014went back to his parents\u2019 residence and got \u201ccaught in the act of something. Weather [sic] it be M. [(murder?)] or stealing]. . . . Someone could call pigs [sic] and tell them X is there and is going to finish the job. X could say he missed gramps.\u201d\nDefendant also proposed a possible alibi for himself for the night the murders occurred. \u201cHow about this. Sunday night I was with a girl from 7:30 pm on til 7:30 am Monday when she dropped me off at my house. She picked me up the night before at my house in a blue four door car. The only thing is who was this girl, where did you meet her, why didn\u2019t you say anything about it before . . . . [\u00b6] [(1)] Who \u2014 I don\u2019t know, find someone who will say they were the girl? [\u00b6] [(2)] Where \u2014 I met her at the station getting gas. [\u00b6] [(3)] Why \u2014 Because I didn\u2019t want my old lady to find out. [\u00b6] What \u2014 Well like I said I couldn\u2019t let my old lady find out.\u201d\nJill Roberson testified she knew defendant before he was arrested and had corresponded with him in jail. She testified she was going to claim defendant was with her the night of the murders. She said the false alibi was her idea. After some equivocation, she testified that, although she had discussed the idea with defendant, he told her not to do it.\nC. Defense Guilt Phase Case\nDefendant called a number of witnesses who testified to his good character and his nonviolent nature. These witnesses also testified to the absence of any animosity by defendant toward his family that would have provided him with a motive to kill his parents and brother. William Hatch, a handwriting comparison expert, compared the jailhouse letter to exemplars of defendant\u2019s handwriting and opined that defendant had not written the letter. (The defense would argue Pincock had forged the letter based on media stories and police reports he obtained from defendant.) Three witnesses, including Jill Roberson\u2019s father, testified she was untruthful. Two witnesses testified they saw defendant driving out of the parking lot of the Chevron station at 9:00 p.m. on the night of the murders. Benjamin Romero, a Fullerton police officer, testified that when Severino was being interviewed he had trouble remembering and answering questions.\nD. Prosecution Rebuttal\nIn rebuttal, Sergeant Royer testified Officer Romero did not participate in Severino\u2019s interview but was simply standing nearby during the interview.\n2. Penalty Phase\nA. Summary\nFor reasons set forth below, there were four penalty trials in this case. (See Discussion, pt. 2.A., p. 332.) The fourth penalty trial jury returned the death verdict under review here.\nB. Prosecution Case\nThe prosecution\u2019s case in aggravation was based on the circumstances of the crimes and defendant\u2019s use or attempted use of force or violence. (\u00a7 190.3, factors (a), (b)) as well as victim impact evidence.\nBecause the fourth penalty jury had not heard the guilt phase evidence, the prosecution presented the same evidence it had presented at that phase as evidence going to the circumstances of the crime. We do not repeat that evidence here.\nBernard Severino provided brief victim impact testimony. He testified to the character of his daughter, son-in-law, and grandson Danny, and stated that he missed them and suffered from loneliness as a result of their deaths.\nDeputy Sheriff Frank Torneo, who worked in the Orange County jail, testified that, on May 5, 1995, he saw defendant come up behind another inmate, put him in a chokehold, drag him into the shower area, and then drop him, unconscious, onto the shower floor. The inmate sustained injuries that required five stitches. A second deputy sheriff, James Gagen, testified that he searched defendant\u2019s cell and found two grinding disks, two hacksaw blades, and a nine-inch piece of metal.\nC. Defense Case\nDefendant called a number of witnesses who testified to his good character, his status as a role model to the boys he coached in soccer, his nonviolent nature, and the absence of anything in defendant\u2019s past or character that had prepared the witnesses for his commission of the murders. Roberta Prindiville, defendant\u2019s maternal aunt, and Joanne Irene, his second cousin, both testified that they and other members of defendant\u2019s extended family still loved him and wanted to maintain a relationship with him, notwithstanding the crimes of which he had been convicted. Norman Morein, a sentencing consultant, testified that defendant\u2019s skills as a mechanic would make him a valuable asset if he were sentenced to life in prison without possibility of parole. William Hatch, the handwriting comparison expert, again testified that, in his opinion, defendant had not authored the jailhouse letter to Cezar Pincock. Ron Klar, defendant\u2019s former attorney, testified that he had gained permission for defendant to keep legal documents related to his case in jail and that all of defendant\u2019s nonlegal mail was inspected before it reached defendant.\nDiscussion\n1. Guilt Phase Claims\nA. Admission of Defendant\u2019s Jailhouse Letter\nDefendant contends the trial court abused its discretion when it admitted his jailhouse letter under the adoptive admission exception to the hearsay rule (Evid. Code, \u00a7 1221) and because the prosecution failed to establish the chain of custody. Additionally, he asserts application of the newsperson\u2019s shield law (Cal. Const., art. I, \u00a7 2, subd. (b); Evid. Code, \u00a7 1070) limited his ability to effectively challenge the testimony of Tony Saavedra, the Orange County Register reporter, which was the basis of the court\u2019s admission of the letter into evidence. Defendant contends the improper admission of the letter violated his Fifth, Sixth, Eighth and Fourteenth Amendment rights. We reject his claims.\n1. Evidence Code Section 402 Hearing\nBefore trial, the court conducted a hearing on defendant\u2019s motion to exclude from evidence the jailhouse letter defendant allegedly wrote to his fellow inmate, Cezar Pincock, about which Tony Saavedra, the reporter for the Orange County Register, later questioned defendant. The prosecutor explained that at his request, Saavedra, who had become aware of the letter and some of its contents, had held off writing a story about it until after the police had investigated whether, as the letter suggested, a \u201chit\u201d had been planned against defendant\u2019s grandfather. In gratitude for his cooperation, the prosecutor gave Saavedra a copy of the letter. The prosecutor represented that Saavedra questioned defendant about the letter on his own and not at the prosecutor\u2019s instigation.\nAlthough, as noted, the author of the letter denied having killed Edward, Dolores and Danny Charles, he described his discovery of the bodies, the cleanup efforts and the attempted disposal of the bodies by burning them. These descriptions largely tallied with what defendant told Deputy Sheriff Hyatt.\nThe issue at the pretrial hearing was not the content of the letter but, as defense counsel put it, \u201cwhether [defendant] confessed to writing\u201d the letter. At the outset of the hearing, the parties stipulated that the letter was received by Sergeant Royer from inmate Pincock as well as to the circumstances under which Saavedra obtained it. They stipulated further that the defense\u2019s handwriting expert, William Hatch, had he been called at the hearing, would have testified none of the writing was in defendant\u2019s hand.\nAs he would at trial, Saavedra testified that he held up pages of the letter to the glass partition that separated him from defendant in the jail\u2019s visiting room and asked him questions about certain passages. In doing so, he used language like \u201cI have a letter that you wrote,\u201d and \u201cYou said here,\u201d or \u201cwell, you wrote here.\u201d In questioning defendant he \u201chopscotched\u201d around the letter. Saavedra testified that at no point did defendant admit or deny he wrote the letter, but he responded to Saavedra\u2019s questions about specific passages. Saavedra testified he was \u201cwaiting\u201d for defendant \u201cto disagree with what was in the letter,\u201d to say, for example, \u201cI didn\u2019t bum my parents,\u201d but \u201cit was quite the opposite.\u201d\nThe prosecutor argued that, in addition to Saavedra\u2019s testimony, the similarities between what was in the letter and what defendant told Deputy Hyatt, which the deputy had testified to at an earlier Evidence Code section 402 hearing, provided further evidence defendant had written the letter. The defense argued that the dissimilarities outweighed the similarities and that the letter was disjointed, \u201cas though someone is getting police reports and getting more information and then writing more letters.\u201d The trial court observed the entire letter appeared to have been written by a single person, a point defense counsel did not dispute. In admitting the document into evidence the court said, \u201c[T]here has been no suggestion of tampering, other than speculation. Certainly, you would expect that if it is in the same handwriting, if [defendant] is shown the first page and he doesn\u2019t deny it is his handwriting, that that would include the whole document.\u201d\nThe court questioned whether, as the defense contended, there was a \u201cproblem with the chain of custody.\u201d Defense counsel replied there was no evidence defendant had given the letter to Pincock or anyone else. Defense counsel conceded, however, that the letter the prosecution gave Saavedra was the same letter Royer said Pincock had given him. The trial court rejected the chain of custody argument, concluding, \u201cIf the handwriting is the same person for all the 18 pages and ... the defendant is shown one page of it by the reporter, and doesn\u2019t deny it under circumstances where a person ordinarily would say that, \u2018That not\u2019s true, I didn\u2019t write that,\u2019 or \u2018that\u2019s not my handwriting,\u2019 it seems that it is an implied admission as to the other 18 [sic] pages. [\u00b6] Unless, you know, there is some evidence that there has been some tampering with those 18 pages.\u201d The court denied the motion to exclude the letter without prejudice to a further showing \u201cthat would justify excluding it.\u201d\n2. Analysis\nAt the Evidence Code section 402 hearing, the admissibility of the jailhouse letter to Pincock hinged upon the preliminary factual question whether defendant authored the letter. In finding that defendant did, the trial court relied on the letter itself, which it concluded had been written by a single individual, similarities between defendant\u2019s statements to Deputy Hyatt and accounts in the letter regarding defendant\u2019s efforts to clean up the murder scene and dispose of the bodies, and the testimony of Tony Saavedra about defendant\u2019s conduct when Saavedra questioned him about the letter. In the court\u2019s opinion, defendant\u2019s conduct constituted an adoptive admission of authorship.\nDefendant challenges the trial court\u2019s conclusion that his conduct when questioned about the letter by Saavedra constituted an adoptive admission. \u201cWe review the trial court\u2019s conclusions regarding foundational facts for substantial evidence. [Citation.] We review the trial court\u2019s ultimate ruling for an abuse of discretion [citations], reversing only if \u2018 \u201cthe trial court exercised its discretion in an arbitrary, capricious, or patently absurd manner that resulted in a manifest miscarriage of justice.\u201d \u2019 \u201d (People v. DeHoyos (2013) 57 Cal.4th 79, 132 [158 Cal.Rptr.3d 797, 303 P.3d 1].)\nBecause the adoptive admission issue involved only the authorship of the letter, not its contents, we are concerned only with whether the trial court ruled correctly that defendant\u2019s conduct in response to Saavedra\u2019s questioning constituted an adoptive admission that he wrote the letter. If so, then any incriminating statements in the body of the letter would become defendant\u2019s own statements and, as such, party admissions. (Evid. Code, \u00a7 1220.)\n\u201cIn determining whether a statement is admissible as an adoptive admission, a trial court must first decide whether there is evidence sufficient to sustain a finding that: (a) the defendant heard and understood the statement under circumstances that normally would call for a response; and (b) by words or conduct, the defendant adopted the statement as true.\u201d (People v. Davis (2005) 36 Cal.4th 510, 535 [31 Cal.Rptr.3d 96, 115 P.3d 417].) \u201cFor the adoptive admission exception to the hearsay rule to apply, no \u2018direct accusation in so many words\u2019 is necessary. [Citation.] Rather, it is enough that the evidence showed that the defendant participated in a private conversation in which the crime was discussed and the circumstances offered him the opportunity to deny responsibility or otherwise dissociate himself from the crime, but that he did not do so.\u201d (Id. at p. 539.)\nIn this case, Saavedra confronted defendant with the letter that, in part, described the author\u2019s efforts to clean up the murder scene and dispose of the bodies. While Saavedra did not directly ask defendant if he had written the letter, he showed him pages of the letter and queried him about it with language that plainly attributed the letter to defendant, e.g., \u201cYou said here,\u201d \u201cWell, you wrote here.\u201d That defendant responded to Saavedra\u2019s queries is evidence defendant heard and understood Saavedra\u2019s remarks, thus fulfilling the first prerequisite for an adoptive admission. As to the second, that the defendant by words or conduct adopt the statement as true, defendant did not deny having written the letter or in any way dissociate himself from it and its incriminating contents. To the contrary, in response to Saavedra\u2019s questions, defendant explained or illuminated passages in the letter. Accordingly, substantial evidence showed defendant heard and understood Saavedra was implicitly asserting defendant had authored the letter and, by responding to Saavedra\u2019s substantive questions regarding the contents of the letter, implicitly admitted authorship.\nMoreover, in concluding defendant wrote the letter, the trial court did not rely solely on its conclusion defendant\u2019s conduct constituted an adoptive admission. The trial court also found the entire document had been written by a single person and implicitly found, as the prosecutor argued, that statements in the letter regarding the aftermath of the murders largely corroborated defendant\u2019s statements to Deputy Hyatt to which Hyatt had testified at an earlier evidentiary hearing.\nWe note further that at trial Kimberley Speare testified that the handwriting in the letter was defendant\u2019s. Thus authenticated as having been written by defendant, any inculpatory statements in the letter were admissible as party admissions. (Evid. Code, \u00a7 1220 [\u201cEvidence of a statement is not made inadmissible by the hearsay rule when offered against the declarant in an action to which he is a party . . . .\u201d].) Accordingly, even if the trial court had erred in admitting the letter as an adoptive admission \u2014 which it did not \u2014 it would have been admissible on this alternative ground. (People v. Geier (2007) 41 Cal.4th 555, 582 [61 Cal.Rptr.3d 580, 161 P.3d 104] [a trial court\u2019s ruling, if correct on any ground, will be affirmed].)\nDefendant challenges the trial court\u2019s ruling on four grounds. First, he claims \u201cthe chain of custody was inadequate to show that the letter was genuine or authored by [defendant].\u201d The trial court appropriately rejected this claim. The parties stipulated that the letter was the same letter Pincock had given Sergeant Royer and that the copy Saavedra showed defendant was a copy of that letter. There was no suggestion the letter was tampered with at any point in its passage from Pincock\u2019s hands to Royer to the hearing. Thus, as the trial court correctly observed, there is no chain of custody issue. (See People v. Catlin (2001) 26 Cal.4th 81, 134 [109 Cal.Rptr.2d 31, 26 P.3d 357].) Defendant\u2019s claim that Pincock forged the letter after obtaining access to police reports in defendant\u2019s possession goes to the question of authorship, not to chain of custody. As already explained, the evidence supports the conclusion that defendant wrote the letter.\nSecond, defendant argues that the trial court erred in admitting the letter because Saavedra admitted he showed only parts, and not the entire document, to defendant. But as earlier noted, the trial court found the entire document was written by a single person and in a single hand. The trial court concluded that person was defendant.\nThird, defendant argues the letter did not constitute an adoptive admission because he did not admit he committed the crimes, but blamed them on a nameless third party. The argument is both forfeited and meritless. Defendant did not seek to exclude the letter because it did not constitute a confession; his sole argument was that he did not write the letter at all. Accordingly, the argument is forfeited. His argument is meritless because it goes not to its admissibility, but to the evidentiary weight of the letter, a matter for the jury.\nIn sum, substantial evidence supports the trial court\u2019s foundational finding of authorship, and it did not abuse its discretion in admitting the letter into evidence.\nFinally, defendant complains that Saavedra\u2019s invocation of the newsperson\u2019s shield law (Cal. Const., art. I, \u00a7 2, subd. (b); Evid. Code, \u00a7 1070) prevented him from properly challenging the admission of the letter by thwarting his ability to confront and cross-examine Saavedra in violation of his Sixth Amendment rights. The claim is meritless.\nArticle I, section 2, subdivision (b) of the California Constitution provides, as relevant to this case, that \u201c[a] . . . reporter . . . shall not be adjudged in contempt by a judicial, legislative, or administrative body ... for refusing to disclose any unpublished information obtained or prepared in gathering, receiving or processing of information for communication to the public.\u201d The constitutional provision is incorporated in the language of section 1070 of the Evidence Code. Termed the \u201cnewsperson\u2019s shield law\u201d (Delaney v. Superior Court (1990) 50 Cal.3d 785, 792 [268 Cal.Rptr. 753, 789 P.2d 934]), these provisions protect \u201ca newsperson from being adjudged in contempt for refusing to disclose either: (1) unpublished information, or (2) the source of information, whether published or unpublished.\u201d (Id. at p. 797.) The immunity is not absolute, however, and may in some instances yield to a criminal defendant\u2019s constitutional right to a fair trial. (Id. at p. 805.)\nThe current case involves unpublished information. In Delaney, we defined the term \u201c \u2018unpublished information\u2019 \u201d as encompassing \u201ca newsperson\u2019s nonconfidential, eyewitness observations of an occurrence in a public place.\u201d (Delaney v. Superior Court, supra, 50 Cal.3d at p. 805.) We also set forth a number of factors to guide the trial court in balancing the interests of a criminal defendant seeking to overcome the immunity granted by the shield law with the newsperson\u2019s interests. Those factors are: (a) \u201cwhether the unpublished information is confidential or sensitive\u201d; (b) whether \u201cthe interests sought to be protected\u201d by the law would be thwarted by disclosure; (c) \u201cthe importance of the information to the criminal defendant\u201d; and (d) \u201c[w]hether there is an alternative source for the unpublished information.\u201d (Id. at p. 813; see id. at pp. 810-811.) The relative weight of these factors in a particular case is for the trial court to decide. (Id. at p. 813.)\nAt the pretrial hearing and at trial, Saavedra was represented by counsel, Mr. Grossberg. Grossberg sought to invoke the shield law to prevent defense counsel from asking Saavedra about any information he obtained from defendant about the murders that did not appear in Saavedra\u2019s published article. For example, when defense counsel asked Saavedra at the hearing whether defendant denied authorship of the letter, Grossberg objected on the grounds that \u201cthe article does not state anywhere, one way or the other, that [defendant] did or did not deny anything.\u201d The trial court overruled the objection. At another point, Grossberg objected when defense counsel asked Saavedra at the hearing if he inquired of defendant when and where the letter was written. Grossberg again argued the answer called for information not published in the article. The trial court, specifically referencing the Delaney factors, overruled the objection. Accordingly, the trial court was clearly attuned to its obligation to weigh the competing interests in ruling on Grossberg\u2019s objections that defense counsel\u2019s questions called for unpublished information in violation of the shield law.\nDefendant does not discuss the actual procedure used at the pretrial evidentiary hearing or the trial court\u2019s rulings regarding the shield law. He also fails to acknowledge that the trial court specifically referred to the Delaney factors in weighing Grossberg\u2019s objections to defense counsel\u2019s questioning, thus belying defendant\u2019s claim the court was unaware of its duty to balance the requirements of the shield law against defendant\u2019s right to disclosure. Instead, he globally claims Saavedra\u2019s invocation of the shield law prevented him from obtaining information that would have impeached Saavedra\u2019s credibility. He fails to direct us to a single question by defense counsel, as to which the trial court sustained an objection by Grossberg, that impeded defendant\u2019s ability to challenge Saavedra\u2019s credibility at the pretrial hearing. At oral argument, he directed us to two passages in the transcript of the hearing that he claims support his argument that invocation of the shield law thwarted his lawyer\u2019s cross-examination of Saavedra. Neither passage does so. The first passage involves a conversation between the court and counsel regarding the shield law in which the court said, \u201cI am trying to focus on what it is that the defense might want to ask [Saavedra] which would cause [the newspaper to invoke the shield law], if that\u2019s the case.\u201d Defense counsel responded he was interested in \u201chow they approached each other, what was said . . . you know we are going to try to find out whether [defendant] confessed to writing or didn\u2019t, and how that came about and what that means.\u201d He concluded by saying, \u201cSo I am really not going outside the four corners of that document [(e.g., the newspaper article)], from what I can gather in my own mind.\u201d Thus, far from restricting defense counsel\u2019s cross-examination, the trial court was simply soliciting defense counsel\u2019s view of whether anything in his cross-examination might cause Grossberg to object under the shield law, to which defense counsel replied he did not believe so.\nThe second passage follows two objections by Grossberg when defense counsel asked Saavedra whether defendant \u201cconfirmed\u201d writing the letter that the trial court overruled. Defense counsel then asked, \u201c[W]hat did you do right before he supposedly confirmed he wrote these things? Tell us what you did.\u201d Grossberg objected \u201cthat that question requests information that was not published, the question of \u2018what did you do\u2019 \u201d The trial court sustained the objection. Defense counsel made no argument or offer of proof. Defendant does not explain, nor is it at all self-evident, how this exchange violated his right to confront and cross-examine Saavedra or deprived him of evidence relevant to Saavedra\u2019s credibility.\nDefendant also cites a fragment of testimony by Saavedra during the first penalty trial as illustrative of the type of question that application of the shield law prevented him from asking at the pretrial hearing: \u201cthe defense was able to elicit the fact that [defendant\u2019s] responses to Saavedra\u2019s questions did not show authorship of the letter, but were in fact just general comments completely independent of the letter.\u201d But since defense counsel did not ask the same question at the pretrial hearing, we have no way of knowing whether Grossberg would have objected or how the court would have ruled. Tellingly, Grossberg did not object when the question was asked at the first penalty trial.\nFinally, defendant directs us to a passage of Saavedra\u2019s testimony during the third penalty trial when, he asserts, application of the shield law was relaxed. He argues this passage demonstrates how restricted his cross-examination of Saavedra was at the guilt phase. Defense counsel asked Saavedra, \u201cCan you distinguish in your mind whether or not the conversation you had with [defendant] in January of 1995, can be split, if you will, into portions which related to this [letter] you brought with you and portions which did not relate to the [letter], but were just conversations about the case?\u201d Grossberg, who was present, made no objection. Saavedra answered, \u201cI think so.\u201d Saavedra then testified, \u201cIt was all together. There wasn\u2019t a definitive talk about one and then talk about the other. It was all together.\u201d Again, we fail to see, and defendant fails to explain, what bearing this exchange has on his claim that invocation of the shield law prevented him from effective cross-examination of Saavedra. Accordingly, we reject his claim.\nB. Prosecutorial Misconduct\nDefendant contends three instances of prosecutorial misconduct require reversal of his convictions and sentence. We disagree.\n\u201c \u2018 \u201cA prosecutor\u2019s conduct violates the Fourteenth Amendment to the federal Constitution when it infects the trial with such unfairness as to make the conviction a denial of due process. Conduct by a prosecutor that does not render a criminal trial fundamentally unfair is prosecutorial misconduct under state law only if it involves the use of deceptive or reprehensible methods to attempt to persuade either the trial court or the jury.\u201d ... To preserve a claim of prosecutorial misconduct for appeal, a defendant must make a timely and specific objection and ask the trial court to admonish the jury to disregard the improper argument.\u2019 \u201d (People v. Linton (2013) 56 Cal.4th 1146, 1205 [158 Cal.Rptr.3d 521, 302 P.3d 927], citation omitted.)\nDefendant first contends the prosecutor committed misconduct by presenting false evidence. Citing discrepancies between details in the jailhouse letter and the facts of the case as they emerged at trial, defendant argues the prosecutor committed misconduct by failing to investigate the possibility Pincock forged the letter. The argument is forfeited because defendant failed to make this objection to the letter in the trial court. It is also meritless.\n\u201c \u2018Under well-established principles of due process, the prosecution cannot present evidence it knows is false and must correct any falsity of which it is aware in the evidence it presents ....\u2019\u201d (People v. Harrison (2005) 35 Cal.4th 208, 242 [25 Cal.Rptr.3d 224, 106 P.3d 895].) Defendant has not established that the prosecution presented evidence it knew was false. The premise of his argument \u2014 that Pincock forged the letter \u2014 was rebutted by the prosecution\u2019s evidence, specifically Saavedra\u2019s testimony regarding his interview with defendant in which defendant implicitly acknowledged the letter was his and the testimony of defendant\u2019s former girlfriend, Kimberly Speare, that the letter was written in defendant\u2019s hand. This being the case, the prosecution was under no obligation to investigate whether the letter was forged and committed no misconduct in failing to do so. Such investigation was a matter for the defense. Even assuming the prosecutor should have recognized the evidence was conflicting with respect to whether defendant wrote the letter, \u201c[w]hen ... the prosecution has doubts as to the truth of a statement it intends to present at trial, it must disclose to the defense any material evidence suggesting that the statement in question is false. But, notwithstanding those doubts, the prosecutor may still present the statement to the jury . . . .\u201d (Ibid.) Here, defendant fails to identify any material evidence the prosecutor failed to disclose. Introducing the letter into evidence was not misconduct.\nNext, defendant claims the prosecutor engaged in misconduct when, during closing argument, he suggested defendant\u2019s motive in committing the murders was to make himself sole heir to his parents\u2019 estate. The defense objected to the argument on the grounds it was unsupported by the evidence. The trial court sustained the objection. The defense did not, however, ask the jury be admonished to disregard the evidence, a failure that forfeits the claim on appeal. (People v. Linton, supra, 56 Cal.4th at p. 1205.) Even if not forfeited, the prosecutor\u2019s brief remark does not rise to the level of misconduct that requires reversal under either the federal or state standard. (See Chapman v. California (1967) 386 U.S. 18, 24 [17 L.Ed.2d 705, 87 S.Ct. 824]; People v. Watson (1956) 46 Cal.2d 818, 836 [299 P.2d 243].)\nFinally, defendant asserts the prosecutor improperly denigrated defense counsel when, in closing argument, he said \u201cI tip my hat to the job the defense did in this case when they had no evidence that went their way. [\u00b6] Trying to make chicken salad out of you know what, okay?\u201d Defendant\u2019s failure to object forfeits the claim. In any event, \u201c[i]t was clear the prosecutor\u2019s comment was aimed solely at the persuasive force of defense counsel\u2019s closing argument, and not at counsel personally. We have found no impropriety in similar prosecutorial remarks.\u201d (People v. Zambrano (2007) 41 Cal.4th 1082, 1155 [63 Cal.Rptr.3d 297, 163 P.3d 4].) Nor do we find any impropriety here.\nC. Instructions\n1. Motive Instruction\nThe jury was instructed with CALJIC No. 2.51, regarding motive, as follows: \u201cMotive is not an element of the crime charged and need not be shown. However, you may consider motive or lack of motive as a circumstance in this case. Presence of motive may tend to establish guilt. Absence of motive may tend to establish innocence. You will therefore give its presence or absence, as the case may be, the weight to which you find it to be entitled.\u201d\nDefendant contends the instruction is unconstitutional because it allows the jury to determine guilt based wholly on evidence of motive and also shifts the burden of proof to defendants to show absence of motive to establish innocence. \u201cAssuming that [the first] claim affects defendant\u2019s substantial rights and therefore that we may address the claim on the merits despite defendant\u2019s failure to object at trial [citation], this court has consistently rejected the claim, and defendant presents no reason for us to adopt a different course here. [Citations.] Defendant also argues that the instruction reduced the prosecutor\u2019s burden of proof by requiring defendant to prove the absence of a motive in order to establish his innocence. Again assuming that this claim, which was not raised below, affects defendant\u2019s substantial rights and is therefore reviewable [citation], we reject the claim on the same basis that we have rejected it in the past . . . .\u201d (People v. Sattiewhite (2014) 59 Cal.4th 446, 474 [174 Cal.Rptr.3d 1, 328 P.3d 1], fn. omitted.)\n2. Consciousness of Guilt Instruction\nDefendant asserts three instructions pertaining to consciousness of guilt given at his trial were \u201cconstitutionally infirm\u201d because they allowed the jury to \u201cconvict him based on improper inferences\u201d and were also \u201cimpermissibly argumentative.\u201d We have consistently rejected identical challenges to these instructions. (People v. Lopez (2013) 56 Cal.4th 1028, 1075 [157 Cal.Rptr.3d 570, 301 P.3d 1177], and cases cited.) Defendant provides us with no persuasive reason to reconsider the issue.\n3. Adoptive Admission Instruction\nDefendant contends the trial court improperly instructed the jury on adoptive admissions because the jailhouse letter to which the instruction pertained was improperly admitted and also because, as a cautionary instruction for his benefit, it should not have been given over his objection. He asserts the instruction \u201cfocused the jury\u2019s attention on . . . the prosecution\u2019s highly improper yet highly influential letter from the informant.\u201d\nOver defendant\u2019s objection, the jury was instructed with CALJIC No. 2.71.5 as follows: \u201cIf you should find from the evidence that there was an occasion when the defendant^,] one, under conditions which reasonably afforded him an opportunity to reply; two, failed to make a denial in the face of an accusation, expressly directed to him or in his presence, charging him with the crime for which such defendant now is on trial or tending to connect him with its commission; and three, that he heard the accusation and understood its nature, then the circumstance of his silence and conduct on that occasion may be considered against him as indicating an admission that the accusation thus made was true. [\u00b6] Evidence of an accusatory statement is not received for the purpose of proving its truth, but only as it supplies meaning to the silence and conduct of the accused in the face of it. Unless you find that the defendant\u2019s silence and conduct at the time indicated an admission that the accusatory statement was true, you must entirely disregard the statement.\u201d\nInasmuch as we have concluded the admission of the letter was proper, we necessarily reject defendant\u2019s claim, premised on the asserted inadmissibility of the letter, that it was error to give the instruction. Defendant\u2019s remaining argument \u2014 that a trial court cannot give CALJIC No. 2.71.5 should a defendant object to it \u2014 misreads People v. Carter (2003) 30 Cal.4th 1166 [135 Cal.Rptr.2d 553, 70 P.3d 981], on which he relies. In Carter, we rejected the defendant\u2019s argument that trial courts have a sua sponte duty to give CALJIC No. 2.71.5 and held \u201ca trial court must give CALJIC No. 2.71.5 only when the defendant requests it.\u201d (Carter, at p. 1198, italics added.) Carter did not say that the trial court cannot give the instruction if the court determines it is warranted. To the contrary, we specifically observed: \u201cTrial courts may certainly [give CALJIC No. 2.71.5] if they think it best to do so. But, . . . courts are required to so instruct only at a defendant\u2019s request.\u201d (Ibid.)\nAccordingly, a trial court may give the instruction, whether or not the defendant requests it, if it believes the instruction will be helpful to the jury. (See People v. Pensinger (1991) 52 Cal.3d 1210, 1268 [278 Cal.Rptr. 640, 805 P.2d 899] [noting that this instruction and the instruction on admissions are \u201cintended to help the jury . . . determine\u201d whether such admissions were made].) Moreover, as we held in People v. Richardson (2008) 43 Cal.4th 959, 1021 [77 Cal.Rptr.3d 163, 183 P.3d 1146], the court may do so even over a defendant\u2019s objection.\nGiven the letter was admitted into evidence and the jury would have to consider it, the trial court properly determined the instruction would guide the jury in assessing its evidentiary value, if any. Had the court not given the instruction, the jury might well have been left at sea regarding the relevance and significance of the letter. By implication, the trial court rejected defendant\u2019s argument that the instruction would be more prejudicial to him than beneficial to the jury. We conclude the trial court acted within its discretion in giving the instruction.\n2. Penalty Phase Claims\nA. Permitting a Fourth Penalty Trial\nDefendant contends the trial court abused its discretion when, pursuant to section 190.4, subdivision (b), the trial court granted the prosecution\u2019s motion for a fourth penalty trial. We see no abuse of discretion.\nSection 190.4, subdivision (b) provides in pertinent part: \u201cIf the trier of fact [at the penalty trial] is a jury and has been unable to reach a unanimous verdict as to what the penalty shall be, the court shall dismiss the jury and shall order a new jury impaneled to try the issue as to what the penalty shall be. If such new jury is unable to reach a unanimous verdict as to what the penalty shall be, the court in its discretion shall either order a new jury or impose a punishment of confinement in state prison for a term of life without the possibility of parole.\u201d\nPreliminarily, we note that, although there were four penalty trials in this case, only two of them were either required by or granted as a matter of discretion under the provisions of section 190.4, subdivision (b). Defendant\u2019s first penalty phase jury deadlocked, dividing 11 to one in favor of a death verdict. Under the statute, the prosecution was entitled to a second penalty phase trial as a matter of right. (Ibid, [providing that, if first penalty phase jury is unable to reach a verdict, the court \u201cshall order a new jury impaneled to try the issue as to what the penalty shall be\u201d].) Consequently, a mistrial was declared and a second penalty phase jury impanelled. The second penalty phase jury did not result in a hung jury. Rather, it returned a death verdict, but that verdict was reversed by the trial court and a new trial granted based on defendant\u2019s allegation of juror misconduct. The third penalty phase jury, required after the new trial motion was granted, deadlocked, also dividing 11 to one in favor of a death verdict.\nThe prosecution moved for a fourth penalty trial. Although it was the fourth penalty trial sought, for purposes of section 190.4, subdivision (b), it would have been only the second retrial of the penalty phase. Defendant opposed the motion, arguing that a fourth penalty trial was unprecedented; life in prison without parole was sufficient punishment for defendant; the prosecution\u2019s case was not \u201cgoing to get any better\u201d if-a new penalty trial were granted, while the defense case would improve; and the court should consider the testimony of defendant\u2019s relatives at the prior penalty trial, which defense counsel characterized as a plea to \u201cEnd this. Let us go on with our lives.\u201d The prosecutor responded that the nature of defendant\u2019s crimes justified the death penalty and a new penalty trial. He also pointed out that, of the 36 jurors who had sat in the three penalty trials, 34 had voted for death.\nIn ruling on the motion, the trial court acknowledged that section 190.4, subdivision (b) called upon it to exercise its discretion. The court stated it was guided by the concept of whether a new trial would be \u201cin furtherance of justice,\u201d which required it to balance \u201cthe constitutional rights of the defendant with the interests of society as a whole as represented by the People. It also necessitates an examination of the nature of the offense, a weighing of the evidence, consideration of the possible harassment and burdens imposed upon the defendant, and the likelihood that additional evidence will be presented at trial.\u201d\nThe court rejected economic considerations as a factor in deciding whether to grant a new penalty trial because \u201c[i]t is the decision of the District Attorney to allocate public resources,\u201d and if either side requested a trial by jury, \u201cit is the constitutional duty of the court to provide a proper forum.\u201d The court found that consideration of the number of jurors that had voted for the death penalty \u2014 34 out of 36 \u2014 was proper. The court observed that the only significant evidence in mitigation was that defendant had no prior criminal record. Regarding the circumstances of the crime, the court \u201cdetermine^] that there is substantial evidence on which a jury could base a verdict of death.\u201d The court acknowledged neither side had represented it would present new or additional evidence in a new penalty trial. It found defendant would not be prejudiced by a new penalty trial because \u201c[h]e is not going anywhere. He will either receive the death penalty or be in prison for the rest of his life.\u201d On balance, the court concluded \u201clegally there is no justification to deny the People\u2019s request to retry the penalty phase of the case,\u201d but cautioned, \u201c[i]n the words of Mick Jagger, \u2018This could be the last time.\u2019 \u201d\nUnder the standard applicable to the court\u2019s ruling on the motion under section 190.4, subdivision (b), \u201c \u2018a trial court does not abuse its discretion unless its decision is so irrational or arbitrary that no reasonable person could agree with it.\u2019 \u201d (People v. McDowell (2012) 54 Cal.4th 395, 430 [143 Cal.Rptr.3d 215, 279 P.3d 547].)\nHere, the trial court\u2019s decision was neither irrational nor arbitrary. The court carefully laid out the factors that guided its exercise of discretion, considered each one and determined, on balance, a retrial was warranted. The factors it considered were both weighty and relevant to the exercise of its discretion: whether, for example, evidence of the circumstances of the crime supported imposition of the death penalty, the numerical breakdown of jurors voting for and against the death penalty, the absence of defense evidence of more than a single factor in mitigation, and the absence of prejudice to defendant. In short, the trial court found a jury would be warranted in returning a death verdict for this horrendous crime as to which defendant offered little in the way of mitigation and as to which the overwhelming number of prior jurors had voted for death. We find no abuse of discretion in the court\u2019s ruling.\nOn appeal, defendant contends the trial court gave undue weight to the numerical breakdown of jurors voting for the death penalty. This is not accurate. As our recitation of the trial court\u2019s ruling shows, this was simply one of several factors the court considered, and one to which it did not assign dispositive or even particular weight. More broadly, defendant asserts the trial court failed to give sufficient weight to his constitutional right \u201cto be free from undue harassment resulting from repeated or vexatious litigation.\u201d Defendant did not expressly make this argument to the trial court. Ordinarily it would be forfeited, except that the court specifically stated it had considered harassment of defendant as part of its balancing of interests. We presume that in finding no prejudice to defendant in granting the request for a fourth penalty trial, the trial court impliedly found it would not constitute harassment.\nDefendant\u2019s argument to the contrary is without merit. Defendant seeks to import into section 190.4\u2019s abuse of discretion standard limitations from section 1387. \u201cSection 1387 . . . establishes that two dismissals pursuant to section 1385, 859b, 861, 871 or 995, bar retrial on felony charges except in limited circumstances.\u201d (People v. Hatch (2000) 22 Cal.4th 260, 270 [92 Cal.Rptr.2d 80, 991 P.2d 165] [noting the statute is sometimes denominated the \u201c \u2018two-dismissal rule\u2019 \u201d].) Under that statute, retrial is permitted when, for example, \u201csubstantial new evidence has been discovered by the prosecution which would not have been known through the exercise of due diligence at, or prior to, the time of termination of the action.\u201d (\u00a7 1387, subd. (a)(1).) Defendant argues the \u201cfailure to offer new evidence is particularly important in the weighing process,\u201d as if to suggest the absence of new evidence by the prosecution should have precluded a fourth penalty trial.\nWe reject defendant\u2019s attempt to limit the trial court\u2019s discretion under section 190.4 with standards imposed in an entirely different statute. In the circumstances here, neither a charge nor a special circumstance finding had been or would have been dismissed. Moreover, section 1387 was first enacted in 1872 while section 190.4 was first enacted in 1978. Certainly, had the Legislature wished to import standards from the former statute into the latter it could have done so, but it did not. As the trial court noted, defendant was not going anywhere, unlike a noncapital defendant who might well regain his or her liberty under the dismissal provisions of section 1387. We fail to see, and defendant fails to persuasively explain, in what manner a penalty phase retrial in the circumstances of this case constituted harassment. We affirm the trial court\u2019s ruling.\nB. Limitations on Testimony by Defendant\u2019s Family Regarding Penalty\nDefendant contends the trial court erroneously excluded testimony from his relatives that his family did not wish to have the death penalty imposed upon him. He asserts the evidence was admissible under section 190.3 because it related to his character.'(\u00a7 190.3 [at penalty phase evidence may be presented by either side \u201crelevant to aggravation, mitigation, and sentence including, but not limited to\u201d evidence of \u201cthe defendant\u2019s character, background, history, mental condition and physical condition\u201d].) Additionally, he argues the evidence should have been admitted as \u201cexecution impact evidence\u201d admissible to counter the prosecution\u2019s victim impact evidence.\nRegarding defendant\u2019s second argument, we have consistently held that the \u201cimpact of a defendant\u2019s execution on his or her family may not be considered by the jury in mitigation.\u201d (People v. Bennett (2009) 45 Cal.4th 577, 601 [88 Cal.Rptr.3d 131, 199 P.3d 535], and cases cited there.) In Bennett, we also rejected any construction of section 190.3 that would permit admission of such execution impact testimony, an argument defendant revives. (Bennett, at p. 602.) He fails to persuade us to reconsider our conclusions.\nRegarding defendant\u2019s argument that the evidence related to his character, we have held \u201cevidence that a family member or friend wants the defendant to live is admissible to the extent it relates to the defendant\u2019s character, but not if it merely relates to the impact of the execution on the witness.\u201d (People v. Smith (2005) 35 Cal.4th 334, 367 [25 Cal.Rptr.3d 554, 107 P.3d 229].) Thus, in Smith we concluded the trial court erred when it excluded testimony by the defendant\u2019s tutor that death was not appropriate because, in her assessment, the defendant was essentially a child and the execution of children was inappropriate. We explained: \u201cBecause Foster had ... a significant relationship [with defendant], and her opinion was based on a feature of defendant\u2019s character that she had personally observed [(his emotional and social immaturity)], we conclude that her opinion was relevant and admissible.\u201d (Ibid.) Unlike Smith, defendant fails to explain to what aspect of his character testimony by family members regarding the death penalty would have applied. Trial counsel merely argued that the fact members of defendant\u2019s family, who were also members of the victims\u2019 family, were willing to testify why they did not want defendant executed \u201cspeaks volumes about who the defendant is,\u201d and was \u201creflective of the kind of person they saw [him] as.\u201d\nNevertheless, even assuming the trial court erred in excluding the testimony, any error was harmless beyond a reasonable doubt. (People v. Smith, supra, 35 Cal.4th at p. 368 [applying the federal harmless error test, pursuant to Chapman v. California, supra, 386 U.S. 18, to the erroneous exclusion of testimony that the defendant should not receive the death penalty].) Both defendant\u2019s aunt and cousin testified they, and the rest of his family, wanted to maintain a relationship with him in the future. Obviously, a prerequisite to such a continuing relationship would be that defendant remain alive. As one of defendant\u2019s attorneys observed about the scope of the trial court\u2019s ruling regarding permissible testimony by family members, \u201canybody with a relatively low I.Q. would be able to figure out from the testimony that the ultimate conclusion is that they don\u2019t want him to be executed.\u201d Accordingly, any error in excluding additional testimony was not prejudicial.\nC. CALJIC No. 8.88\nDefendant launches familiar challenges to CALJIC No. 8.88, which addresses the jury\u2019s function in weighing the circumstances in mitigation and aggravation and in deciding the appropriate penalty. As we have consistently held with respect to these claims, the instruction is not impermissibly broad, vague or misleading, and does not fail to properly advise the jury how to determine when death is the appropriate penalty. (People v. McCurdy (2014) 59 Cal.4th 1063, 1111 [176 Cal.Rptr.3d 103, 331 P.3d 265]; People v. Dykes (2009) 46 Cal.4th 731, 816-817 [95 Cal.Rptr.3d 78, 209 P3d 1].)\nD. Lethal Injection\nDefendant contends execution by lethal injection violates the Eighth Amendment\u2019s proscription against cruel and unusual punishment. As we have previously explained, this claim, which does not implicate the validity of the death judgment itself, but a process which may or may not exist when defendant\u2019s sentence is carried out, is premature and therefore not cognizable on appeal. (People v. Dykes, supra, 46 Cal.4th at p. 820; People v. Abilez (2007) 41 Cal.4th 472, 536 [61 Cal.Rptr.3d 526, 161 P.3d 58].)\nE. Delay Between Death Sentence and Execution\nDefendant contends the delay between his sentence and its execution attributable to the process of postconviction review violates the Eighth Amendment\u2019s proscription against cruel and unusual punishment as well as international law. We have consistently rejected this claim and see no reason to reconsider our earlier precedents. \u201c \u2018One under judgment of death does not suffer cruel and unusual punishment by the inherent delays in resolving his appeal. If the appeal results in reversal of the death judgment, he has suffered no conceivable prejudice, while, if the judgment is affirmed, the delay has prolonged his life.\u2019 \u201d (People v. Richardson, supra, 43 Cal.4th at p. 1037.)\nF. Constitutional Challenges to the Death Penalty Statute\nDefendant raises a number of challenges to the death penalty statute we have consistently rejected. He fails to persuade us to reconsider our previous precedents. Thus we again conclude: \u201cThe death penalty statute does not unconstitutionally fail to adequately narrow the class of murderers eligible for the death penalty.\u201d (People v. Bryant, Smith and Wheeler (2014) 60 Cal.4th 335, 468 [178 Cal.Rptr.3d 185, 334 P.3d 573].)\nThe death penalty statute is not unconstitutional because it allows the jury to consider the circumstances of a defendant\u2019s crime under section 190.3, factor (a). (People v. Bryant, Smith and Wheeler, supra, 60 Cal.4th at p. 469.)\nThe death penalty statute is not unconstitutional \u201cfor failing to require proof beyond a reasonable doubt that aggravating factors exist, outweigh the mitigating factors, and render death the appropriate punishment. [Citations.] \u2018The federal Constitution is not violated by the failure to require a penalty phase jury to reach unanimity on the presence of aggravating factors [citation] .... [Citation.]\u2019 [Citation.] The high court\u2019s decisions in Apprendi v. New Jersey (2000) 530 U.S. 466 [147 L.Ed.2d 435, 120 S.Ct. 2348] and Ring v. Arizona (2002) 536 U.S. 584 [153 L.Ed.2d 556, 122 S.Ct. 2428] do not change this result.\u201d (People v. Boyce (2014) 59 Cal.4th 672, 723-724 [175 Cal.Rptr.3d 481, 330 P.3d 812].) Moreover, defendant\u2019s constitutional rights were not violated by the absence of written findings by the jury regarding aggravating factors. (Id. at pp. 724-725.)\n\u201cThe federal Constitution does not require intercase proportionality review.\u201d (People v. Boyce, supra, 59 Cal.4th at p. 725.)\n\u201c \u2018At the penalty phase, the jury properly may consider a defendant\u2019s unadjudicated criminal activity and need not agree unanimously or beyond a reasonable doubt that the defendant committed those acts.\u2019 \u201d (People v. Banks (2014) 59 Cal.4th 1113, 1207 [176 Cal.Rptr.3d 185, 331 P.3d 1206].)\n\u201c \u2018The use of restrictive adjectives, such as \u201cextreme\u201d and \u201csubstantial,\u201d in the statute\u2019s list of potential mitigating factors does not render it unconstitutional.\u2019 \u201d (People v. Banks, supra, 59 Cal.4th at p. 1207.)\n\u201cThe court need not instruct the jury that mitigating factors can be considered only in mitigation, or to omit mitigating factors that do not apply to defendant\u2019s case.\u201d (People v. Boyce, supra, 59 Cal.4th at p. 724.)\n\u201cBecause capital defendants are not similarly situated to noncapital defendants, California\u2019s death penalty law does not deny capital defendants equal protection by providing certain procedural protections to noncapital defendants but not to capital defendants.\u201d (People v. Williams (2013) 58 Cal.4th 197, 295 [165 Cal.Rptr.3d 717, 315 P.3d 1].) Consequently, the law is not unconstitutional for failing to require jurors to agree on what facts are true or important, or what aggravating circumstances apply, or to articulate reasons for selecting a death sentence. (People v. McCurdy, supra, 59 Cal.4th at pp. 1110-1111.)\n\u201cThe death penalty as applied in this state is not rendered unconstitutional through operation of international law and treaties.\u201d (People v. Williams, supra, 58 Cal.4th at p. 295.)\nG. Cumulative Error\nDefendant contends the cumulative weight of errors occurring at his trial \u2014 particularly the admission of the jailhouse letter, the instruction concerning motive at the guilt phase, the granting of the fourth penalty trial, and imposition of limitations on family member testimony at the penalty phase, combined with the constitutional infirmities of the death penalty statute\u2014 require reversal of his convictions and sentence. We have rejected all these claims of error with the sole exception of his argument regarding limitations on family member testimony at the penalty phase where, assuming error, we found no prejudice. Accordingly, there is neither individual nor cumulative prejudice that requires reversal.\nConclusion\nThe judgment is affirmed.\nCantil-Sakauye, C. J., Chin, J., Corrigan, J., Liu, J., Cu\u00e9llar, J., and Kruger, J., concurred.\nAppellant\u2019s petition for a rehearing was denied August 12, 2015.\nAll further unspecified statutory references are to the Penal Code.\nBecause all the victims have the same last name we refer to them as Edward, Dolores and Danny, as Daniel was universally known.\nPhilip Axelson, defendant\u2019s martial arts teacher, explained this symbol \u201cdepicts two fish, one usually dark and one usually white,\u201d that are \u201cjuxtaposed like two shoes in a [shoe] box\u201d \u201clike they are chasing each other,\u201d and \u201csuggests positive/negative, light and dark, and basically a balance.\u201d He testified further that it was a significant symbol in martial arts and one with which defendant could have been familiar.\n\u201cAs to this and virtually all other appellate claims, defendant contends that an issue raised and decided in the trial court resulted in constitutional violations, but he did not present those constitutional theories below. In such instances, it appears that (1) the appellate claim is the kind that required no trial court action to preserve it, or (2) the new arguments do not invoke facts or legal standards different from those the trial court was asked to apply, but merely assert that the trial court\u2019s act or omission, in addition to being wrong for reasons actually presented to that court, had the legal consequence of violating the United States and California Constitutions. To that extent, defendant\u2019s new constitutional arguments are not forfeited on appeal. [Citation.] In the latter case, no separate constitutional discussion is required or provided where rejection of a claim that the trial court erred on the issue presented to that court necessarily leads to rejection of any constitutional theory or \u2018gloss\u2019 raised for the first time here.\u201d (People v. Contreras (2013) 58 Cal.4th 123, 139, fn. 17 [165 Cal.Rptr.3d 204, 314 P.3d 450].) We apply this principle here and elsewhere where defendant asserts on appeal constitutional claims not advanced below.\nHyatt did not testify at the hearing regarding admissibility of the letter. He had, however, testified at an earlier Evidence Code section 402 hearing on the defense motion to exclude defendant\u2019s statements to him. The court denied that motion in part, permitting admission of some statements that defendant had voluntarily made to Hyatt, but not later statements Hyatt solicited from defendant. In arguing the letter corroborated defendant\u2019s statements to Hyatt, the prosecutor referred to Hyatt\u2019s testimony at this earlier hearing. Defendant did not object to the consideration of Hyatt\u2019s testimony by the trial court.\nAs relevant here, Evidence Code section 402 provides for a hearing out of the presence of the jury \u201c[w]hen the existence of a preliminary fact is disputed . . . .\u201d (Id., \u00a7 402, subd. (a).) Evidence Code section 403 places upon the proponent of the evidence the burden of proving \u201cthe existence of the preliminary fact.\u201d (Id., \u00a7 403, subd. (a).)\nThe court\u2019s finding of authorship was preliminary; the jury was the final arbiter of this issue. \u201c \u2018[T]he judge\u2019s function on questions of this sort is merely to determine whether there is evidence sufficient to permit a jury to decide the question.\u2019 \u201d (People v. Lucas (1995) 12 Cal.4th 415, 467 [48 Cal.Rptr.2d 525, 907 P.2d 373].)\nOn a related note, defendant complains Saavedra\u2019s guilt phase trial testimony that in his opinion defendant wrote the letter usurped the jury\u2019s exclusive prerogative to determine that issue. Defendant did not advance this argument either at the pretrial evidentiary hearing or when Saavedra testified. Accordingly, the claim is forfeited. Even if it were not, the jury was instructed that it alone was to determine whether an admission had been made. \u201cWe presume the jury understood and followed the instruction.\u201d (People v. Homick (2012) 55 Cal.4th 816, 873 [150 Cal.Rptr.3d 1, 289 P.3d 791].)\nThe instructions as given were as follows:\n\u201cIf you find that a defendant attempted to persuade a witness to testify falsely, such conduct may be considered by you as a circumstance tending to show a consciousness of guilt. However, such conduct is not sufficient by itself to prove guilt, and its weight and significance, if any, are matters for your determination.\u201d (CALJIC No. 2.04.)\n\u201cIf you find that an effort to procure false or fabricated evidence was made by another person for the defendant\u2019s benefit, you may not consider that effort as tending to show the defendant\u2019s consciousness of guilt unless you also find that the defendant authorized such effort. [\u00b6] If you find defendant authorized that effort, such conduct is not sufficient by itself to prove guilt, and its weight and significance, if any, are matters for your consideration.\u201d (CALJIC No. 2.05.)\n\u201cIf you find that a defendant attempted to suppress evidence against himself in any manner, such as by destroying the evidence, or by concealing evidence, such attempt may be considered by you as a circumstance tending to show a consciousness of guilt. However, such conduct is not sufficient by itself to prove guilt, and its weight and significance, if any, are matters for your consideration.\u201d (CALJIC No. 2.06.)\nThus, we do not reach, and express no opinion regarding, whether a fourth penalty trial could be granted under the statute where the three earlier trials had resulted in deadlocked juries.\nThe testimony was excluded before his second penalty trial. When the issue arose again before his fourth penalty trial, the trial court adopted the prior ruling.",
+        "type": "majority",
+        "author": "WERDEGAR, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "R. Clayton Seaman, Jr., under appointment by the Supreme Court, for Defendant and Appellant.",
+      "Edmund G. Brown, Jr., and Kamala D. Harris, Attorneys General, Dane R. Gillette, Chief Assistant Attorney General, Gary W. Schons, Assistant Attorney General, Adrianne S. Denault and Peter Quon, Jr., Deputy Attorneys General, for Plaintiff and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. S076337.\nJune 1, 2015.]\nTHE PEOPLE, Plaintiff and Respondent, v. EDWARD CHARLES III, Defendant and Appellant.\nCounsel\nR. Clayton Seaman, Jr., under appointment by the Supreme Court, for Defendant and Appellant.\nEdmund G. Brown, Jr., and Kamala D. Harris, Attorneys General, Dane R. Gillette, Chief Assistant Attorney General, Gary W. Schons, Assistant Attorney General, Adrianne S. Denault and Peter Quon, Jr., Deputy Attorneys General, for Plaintiff and Respondent."
+  },
+  "file_name": "0308-01",
+  "first_page_order": 348,
+  "last_page_order": 378
+}

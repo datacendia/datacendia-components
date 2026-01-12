@@ -1,0 +1,59 @@
+{
+  "id": 12237006,
+  "name": "Diaz v. California",
+  "name_abbreviation": "Diaz v. California",
+  "decision_date": "2011-12-05",
+  "docket_number": "No. 11-6680",
+  "first_page": "1082",
+  "last_page": "1082",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1082"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 80,
+    "ocr_confidence": 0.585,
+    "sha256": "72e0b06f7f822f33e60bff288952f2494bb90250643b50f8fba0964c4bdfa825",
+    "simhash": "1:400d63a015c35a43",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Diaz v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal, 2d App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6680.\nDiaz v. California."
+  },
+  "file_name": "1082-02",
+  "first_page_order": 1164,
+  "last_page_order": 1164
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12424446,
+  "name": "Sherrod v. Johnson et al.",
+  "name_abbreviation": "Sherrod v. Johnson",
+  "decision_date": "2012-11-26",
+  "docket_number": "No. 12-5125",
+  "first_page": "1030",
+  "last_page": "1030",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1030"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 74,
+    "ocr_confidence": 0.635,
+    "sha256": "8d7887f3d6c9ebed9e283a34a62828fe1799e934e403b69eeee3b568d494bdfe",
+    "simhash": "1:1ad10aa0658dd070",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sherrod v. Johnson et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5125.\nSherrod v. Johnson et al."
+  },
+  "file_name": "1030-06",
+  "first_page_order": 1106,
+  "last_page_order": 1106
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5963443,
+  "name": "Pendergrass v. United States",
+  "name_abbreviation": "Pendergrass v. United States",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-9484",
+  "first_page": "951",
+  "last_page": "951",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 951"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.601,
+    "sha256": "05ff89c9bc8254197bf2cbac7afebafd53c3ef8f1c0f932ffafb16fbd6faa8b5",
+    "simhash": "1:d54303930a139c5c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pendergrass v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9484.\nPendergrass v. United States."
+  },
+  "file_name": "0951-02",
+  "first_page_order": 977,
+  "last_page_order": 977
+}

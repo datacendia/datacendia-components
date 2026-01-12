@@ -1,0 +1,59 @@
+{
+  "id": 12215044,
+  "name": "Liggins v. Bouffault et al.",
+  "name_abbreviation": "Liggins v. Bouffault",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-220",
+  "first_page": "884",
+  "last_page": "884",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 884"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 74,
+    "ocr_confidence": 0.654,
+    "sha256": "7ebb6cdc725076a9e9f71b671e70cf34a08dfba3eff0621e5249d45bd3098e90",
+    "simhash": "1:90c920b9c96ef137",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Liggins v. Bouffault et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-220.\nLiggins v. Bouffault et al."
+  },
+  "file_name": "0884-11",
+  "first_page_order": 966,
+  "last_page_order": 966
+}

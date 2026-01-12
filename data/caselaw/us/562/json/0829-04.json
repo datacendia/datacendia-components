@@ -1,0 +1,59 @@
+{
+  "id": 5959618,
+  "name": "University of South Carolina v. University of Southern California",
+  "name_abbreviation": "University of South Carolina v. University of Southern California",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-1270",
+  "first_page": "829",
+  "last_page": "829",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 829"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 115,
+    "ocr_confidence": 0.58,
+    "sha256": "230f9a8060153b91f80546bac6dd5e7c2b3e04df90bb362fe5676d11ac718932",
+    "simhash": "1:9d1a42405be716c2",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "University of South Carolina v. University of Southern California."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. Fed. Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-1270.\nUniversity of South Carolina v. University of Southern California."
+  },
+  "file_name": "0829-04",
+  "first_page_order": 851,
+  "last_page_order": 851
+}

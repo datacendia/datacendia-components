@@ -1,0 +1,197 @@
+{
+  "id": 12520933,
+  "name": "Dina KLEIN, Plaintiff - Appellant v. CREDICO INC., Defendant - Appellee",
+  "name_abbreviation": "Klein v. Credico Inc.",
+  "decision_date": "2019-04-22",
+  "docket_number": "No. 18-2776",
+  "first_page": "393",
+  "last_page": "398",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "922 F.3d 393"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "8th Cir.",
+    "id": 8821,
+    "name": "United States Court of Appeals for the Eighth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "888 F.3d 343",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516685
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "346",
+          "parenthetical": "joining the Third, Fourth, Sixth, Seventh, and Ninth Circuits in adopting a materiality standard for \u00a7 1692e"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/888/0343-01"
+      ]
+    },
+    {
+      "cite": "2017 WL 5891693",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "*3",
+          "parenthetical": "finding that the collection agency violated the FDCPA by engaging in collection activities \"without first being licensed\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "359 F.3d 1015",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9286628
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1018"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/359/1015-01"
+      ]
+    },
+    {
+      "cite": "Minn. Stat. \u00a7 332.33",
+      "category": "laws:leg_statute",
+      "reporter": "Minn. Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "277 F.3d 1051",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9452653
+      ],
+      "weight": 2,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "1055"
+        },
+        {
+          "page": "1056",
+          "parenthetical": "\"[S]tatements that are merely 'susceptible of an ingenious misreading' do not violate the FDCPA.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/277/1051-01"
+      ]
+    },
+    {
+      "cite": "556 U.S. 662",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653744
+      ],
+      "weight": 3,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "678",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/556/0662-01"
+      ]
+    },
+    {
+      "cite": "562 F.3d 923",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5896551
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "927"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/562/0923-01"
+      ]
+    },
+    {
+      "cite": "15 U.S.C. \u00a7 1692",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 473,
+    "char_count": 9118,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25928210486402875
+    },
+    "sha256": "fe7b12e2dab77583d65f00c9bb4c1bb78e51fb8bd5a8fbc47eb781a984d52f8e",
+    "simhash": "1:1fa1426741dda0f7",
+    "word_count": 1417
+  },
+  "last_updated": "2024-02-27T18:46:53.504629+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before GRUENDER, BENTON, and GRASZ, Circuit Judges."
+    ],
+    "parties": [
+      "Dina KLEIN, Plaintiff - Appellant\nv.\nCREDICO INC., Defendant - Appellee"
+    ],
+    "opinions": [
+      {
+        "text": "GRUENDER, Circuit Judge.\nCredico, Inc., which is licensed and does business in Minnesota as Credit Collections Bureau, sent Dina Klein a debt collection letter under the business name \"Credit Collections Bureau\" in March 2017. Klein filed a lawsuit, arguing that the content of the letter violated the Fair Debt Collection Practices Act (\"FDCPA\"). 15 U.S.C. \u00a7 1692. The district court granted Credico's motion to dismiss, see Fed. R. Civ. P. 12(b)(6), and Klein appeals. We affirm.\nCredico's letter included the words \"CREDIT-COLLECTIONS-BUREAU\" in the top right corner. Several lines below the letter included the words \"PROFESSIONAL DEBT COLLECTORS.\" The letter also said that if Klein's debt was not paid and if it was necessary to file a lawsuit to collect the debt, \"it could result in a judgment ... and that judgment could include ... pre-judgment interest.\" The letter was sent to Klein in Minnesota and signed by three people, including Kathy Mitchell, who was not registered to collect debts in Minnesota. Below the signatures, the letter stated, \"Pay on-line or correspond with CCB at www.payccb.com.\"\nThe district court determined that the use of \"PROFESSIONAL DEBT COLLECTORS\" and \"CCB\" was not false or misleading when viewed through the eyes of an unsophisticated consumer, and it further determined that the use was nevertheless immaterial. The district court also held that Mitchell's signature and the statement that Credico could seek pre-judgment interest did not violate the FDCPA. Klein appeals the district court's rulings on each of these aspects of the letter.\n\"We review a grant of a motion to dismiss de novo.\" Keating v. Neb. Pub. Power Dist. , 562 F.3d 923, 927 (8th Cir. 2009). \"To survive a motion to dismiss, a complaint must contain sufficient factual matter, accepted as true, to state a claim to relief that is plausible on its face.\" Ashcroft v. Iqbal , 556 U.S. 662, 678, 129 S.Ct. 1937, 173 L.Ed.2d 868 (2009) (internal quotation marks omitted). A claim is facially plausible \"when the plaintiff pleads factual content that allows the court to draw the reasonable inference that the defendant is liable for the misconduct alleged.\" Id .\nKlein first argues that Credico violated the FDCPA by including \"PROFESSIONAL DEBT COLLECTORS\" in the top right hand corner of the letter and by including the statement that Klein could \"[p]ay on-line or correspond with CCB at www.payccb.com\" at the bottom of the letter. The FDCPA provides that \"[a] debt collector may not use any false, deceptive, or misleading representation or means in connection with the collection of any debt.\" \u00a7 1692e. This includes \"[t]he use of any business, company, or organization name other than the true name of the debt collector's business, company, or organization.\" \u00a7 1692e(14). Klein argues that the use of \"PROFESSIONAL DEBT COLLECTORS\" and the acronym \"CCB\" violated \u00a7 1692e(14) because they are organization names other than Credico's true name.\nWhen \"evaluating whether a debt collection letter is false, misleading, or deceptive in violation of \u00a7 1692e, the letter must be viewed through the eyes of an unsophisticated consumer.\" Peters v. Gen. Serv. Bureau, Inc. , 277 F.3d 1051, 1055 (8th Cir. 2002). The district court correctly determined that an unsophisticated consumer would not think that including \"PROFESSIONAL DEBT COLLECTORS\" and \"CCB\" in the letter is false or misleading. An unsophisticated consumer would understand that \"PROFESSIONAL DEBT COLLECTORS\" and \"CCB\" respectively describe and reference Credico. We agree with Credico that CCB is a commonsense abbreviation of Credit Collections Bureau, Credico's other registered name and the name it used in its letter to Klein, not a different company. And we agree that \"PROFESSIONAL DEBT COLLECTORS\" clearly describes what Credit Collections Bureau is. Further, Credico's letter provided Klein with a correct registered name, its phone number, its website, the balance due, and a name and phone number for her assigned collector.\nThough Klein argues the district court \"erred in dismissing [her] case at the pleading stage based on the court's conjecture as to how an unsophisticated consumer would interpret a collection letter,\" the unsophisticated consumer test contains an \"objective element of reasonableness\" that \"prevents liability for bizarre or idiosyncratic interpretations of collection notices.\" Id . at 1055-56 (concluding \"as a matter of law\" that there was no violation of \u00a7 1692e). The district court's determination was not based on conjecture. Rather, it was based on the correct objective determination that an unsophisticated consumer would not have viewed Credico's statements as false, deceptive, or misleading. See id. at 1056 (\"[S]tatements that are merely 'susceptible of an ingenious misreading' do not violate the FDCPA.\"). Thus, Klein has not pleaded sufficient factual matter to state a plausible claim that Credico violated \u00a7 1692e by including \"PROFESSIONAL DEBT COLLECTORS\" and \"CCB\" in its letter to Klein.\nSecond, Klein argues that Credico's letter violated the FDCPA because the letter was signed by Mitchell, \"who [was] not licensed by the Minnesota Department of Commerce to engage in debt collection activities in Minnesota.\" See Minn. Stat. \u00a7 332.33. The FDCPA stipulates that \"[a] debt collector may not use unfair or unconscionable means to collect or attempt to collect any debt.\" \u00a7 1692f. The statute lists conduct that it considers \"unfair or unconscionable,\" and Klein argues that Mitchell's signature violates \u00a7 1692f(1), which prohibits \"[t]he collection of any amount ... unless such amount is expressly authorized by the agreement creating the debt or permitted by law\" because \"Minnesota law requires all individual debt collectors to obtain licenses as a prerequisite to collecting consumer debts in Minnesota.\"\nBut the FDCPA \"was not meant to convert every violation of a state debt collection law into a federal violation.\" Carlson v. First Revenue Assur. , 359 F.3d 1015, 1018 (8th Cir. 2004). Here, the relevant signature was one of three signatures on the letter, and the other two signatories were both registered to collect debts in Minnesota. Further, Credico, doing business as Credit Collections Bureau, is licensed to collect debts in Minnesota, so it could legally collect the debt, and Mitchell's signature was not an unfair or unconscionable means to attempt to collect a debt. Cf. Goetze v. CRA Collections, Inc. , No. 15-3169, 2017 WL 5891693 at *3 (D. Minn. Nov. 28, 2017) (finding that the collection agency violated the FDCPA by engaging in collection activities \"without first being licensed\"). Thus, we agree with the district court that Klein has not pleaded sufficient factual matter to state a plausible claim that Credico violated \u00a7 1692f(1) by having Mitchell be one of the signatories to the letter.\nFinally, Klein argues that Credico improperly attempted \"to collect prejudgment interest\" because Minnesota Statute section 549.09 does not allow the recovery of pre-judgment interest here. She claims this attempt also violated \u00a7 1692f(1). Credico's letter said, \"When suit is filed, it could result in a judgment against you and that judgment could include ... pre-judgment interest.\" Credico agrees that it could not have collected pre-judgment interest under section 549.09. Instead, Credico says it could seek pre-judgment interest pursuant to Minnesota Statute section 334.01.\nThe district court properly concluded that Minnesota law does not prohibit Credico from seeking pre-judgment interest. We observed in Hill v. Accounts Receivable Servs., LLC that the Minnesota Supreme Court has not yet decided whether section 334.01 allows for the recovery of pre-judgment interest in a case such as this. 888 F.3d at 346. We also determined that \"the text of \u00a7 334.01 does not prohibit\" recovering pre-judgment interest. Id . Thus, because it was not false to suggest that Credico could collect pre-judgment interest, we conclude that Klein has not pleaded sufficient factual matter to state a plausible claim that Credico violated \u00a7 1692f(1).\nFor the foregoing reasons, we affirm the district court's dismissal.\nThe Honorable David S. Doty, United States District Judge for the District of Minnesota.\nKlein also argues that the district court should not have imported a materiality standard into \u00a7 1692e. We need not address this argument because Credico's statements were not false, deceptive, or misleading. But see Hill v. Accounts Receivable Servs., LLC , 888 F.3d 343, 346 (8th Cir. 2018) (joining the Third, Fourth, Sixth, Seventh, and Ninth Circuits in adopting a materiality standard for \u00a7 1692e).",
+        "type": "majority",
+        "author": "GRUENDER, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Darren Brayer Schwiebert, DBS LAW, LLC, Minneapolis, MN, for Plaintiff - Appellant.",
+      "Jessica Lee Prom Klander, Michael August Klutho, Christopher R. Morris, BASSFORD & REMELE, Minneapolis, MN, for Defendant - Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "Dina KLEIN, Plaintiff - Appellant\nv.\nCREDICO INC., Defendant - Appellee\nNo. 18-2776\nUnited States Court of Appeals, Eighth Circuit.\nSubmitted: March 14, 2019\nFiled: April 22, 2019\nDarren Brayer Schwiebert, DBS LAW, LLC, Minneapolis, MN, for Plaintiff - Appellant.\nJessica Lee Prom Klander, Michael August Klutho, Christopher R. Morris, BASSFORD & REMELE, Minneapolis, MN, for Defendant - Appellee.\nBefore GRUENDER, BENTON, and GRASZ, Circuit Judges."
+  },
+  "file_name": "0393-01",
+  "first_page_order": 393,
+  "last_page_order": 398
+}

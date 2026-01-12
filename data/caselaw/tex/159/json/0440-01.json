@@ -1,0 +1,135 @@
+{
+  "id": 2257100,
+  "name": "George B. Parr et al v. J. P. Stockwell et al.",
+  "name_abbreviation": "Parr v. Stockwell",
+  "decision_date": "1959-04-08",
+  "docket_number": "No. A-7155",
+  "first_page": "440",
+  "last_page": "441",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "159 Tex. 440"
+    },
+    {
+      "type": "parallel",
+      "cite": "322 S.W.2d 615"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "317 S.W. 2d 725",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2257082,
+        10175739
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/159/0225-01",
+        "/sw2d/317/0725-01"
+      ]
+    },
+    {
+      "cite": "159 Texas 225",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2257082
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/159/0225-01"
+      ]
+    },
+    {
+      "cite": "131 S.W. 2d 94",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2321099,
+        10229300
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/133/0605-01",
+        "/sw2d/131/0094-01"
+      ]
+    },
+    {
+      "cite": "133 Texas 605",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2321099
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/133/0605-01"
+      ]
+    },
+    {
+      "cite": "319 S.W. 2d 779",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10177539
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/319/0779-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 175,
+    "char_count": 2116,
+    "ocr_confidence": 0.597,
+    "pagerank": {
+      "raw": 1.5101006212550166e-07,
+      "percentile": 0.6673132294585514
+    },
+    "sha256": "b762a119f034698f4d52cabefc14474eef885ab5451f971bb4a0dbaf118c0cfc",
+    "simhash": "1:44d7dc972787ab1e",
+    "word_count": 371
+  },
+  "last_updated": "2024-02-27T19:26:07.846026+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "George B. Parr Et Al v. J. P. Stockwell Et Al."
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM:\nThe Court of Civil Appeals granted an injunction restraining George B. Parr and Amando Garcia, Jr., and each of them, from attempting in any manner to take over the offices of Sheriff and County Clerk of Duval County until after December 31, 1958, and from in any manner interfering with the occupancy and management of said offices by appellants, J. P. Stockwell and Rafael Garcia, until after said date, and enjoining appellees Daniel Tobin, Jr., Tomas H. Molina and Juan Leal, from in any manner attempting to seat George B. Parr and Amando Garcia, Jr., or either of them in the offices of Sheriff and County Clerk of Duval County, until after December 31, 1958. 319 S.W. 2d 779. George B. Parr, Amando Garcia, Jr., Daniel Tobin, Jr., Tomas H. Molina and Juan Leal applied for writ of error.\nFrom the record it appears that the motion for rehearing was overruled on December 31, 1958, and the injunction expired by its own terms on that date. It is therefore apparent from the face of the record that the question of whether or not the injunction should have been granted is moot. Accordingly, writ of error is granted without reference to the merits of the matters or issues decided by the Court of Civil Appeals, University Interscholastic League v. Sims, 133 Texas 605, 131 S.W. 2d 94, and this cause in so far as it relates to such temporary injunction is dismissed at the cost of the petitioners.\nThis order of dismissal is entered without prejudice to such further actions as the parties may wish to take with reference to the consolidated case on the merits. As the judgment of the Court of Civil Appeals has been vacated, its opinion will not necessarily control the trial of the cause on the merits. Rogelio Guajardo, Sr. Trustee, et al. v. Alamo Lumber Company, 159 Texas 225, 317 S.W. 2d 725.\nOpinion delivered April 8, 1959.",
+        "type": "majority",
+        "author": "PER CURIAM:"
+      }
+    ],
+    "attorneys": [
+      "Gerald Weatherly, of Laredo and Werner A. Gohmert, of Alice, for Parr and Garcia, Petitioners.",
+      "Gordon Gibson, of Laredo, for County Judge and Commissioners."
+    ],
+    "corrections": "",
+    "head_matter": "George B. Parr Et Al v. J. P. Stockwell Et Al.\nNo. A-7155.\nDecided April 8, 1959.\n(322 S.W. 2d Series 615)\nGerald Weatherly, of Laredo and Werner A. Gohmert, of Alice, for Parr and Garcia, Petitioners.\nGordon Gibson, of Laredo, for County Judge and Commissioners."
+  },
+  "file_name": "0440-01",
+  "first_page_order": 454,
+  "last_page_order": 455
+}

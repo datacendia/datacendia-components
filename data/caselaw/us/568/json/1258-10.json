@@ -1,0 +1,59 @@
+{
+  "id": 12434230,
+  "name": "Noyes v. United States",
+  "name_abbreviation": "Noyes v. United States",
+  "decision_date": "2013-03-25",
+  "docket_number": "No. 12-8951",
+  "first_page": "1258",
+  "last_page": "1258",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1258"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.533,
+    "sha256": "5189f7cf3af4c985723afcb49504288e1d38a2d166a4d9957c1579838d5ec227",
+    "simhash": "1:830cdd03ea959908",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Noyes v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8951.\nNoyes v. United States."
+  },
+  "file_name": "1258-10",
+  "first_page_order": 1334,
+  "last_page_order": 1334
+}

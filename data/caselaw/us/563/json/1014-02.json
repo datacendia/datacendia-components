@@ -1,0 +1,59 @@
+{
+  "id": 5953102,
+  "name": "Abell v. United States",
+  "name_abbreviation": "Abell v. United States",
+  "decision_date": "2011-05-23",
+  "docket_number": "No. 10-10082",
+  "first_page": "1014",
+  "last_page": "1014",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1014"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.683,
+    "sha256": "177742c7bc0d7d327639fabe0181813d106c48de6790aa66a3fd310d3a0dfe78",
+    "simhash": "1:a58bca594e8f3d0f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Abell v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10082.\nAbell v. United States."
+  },
+  "file_name": "1014-02",
+  "first_page_order": 1040,
+  "last_page_order": 1040
+}

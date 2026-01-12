@@ -1,0 +1,59 @@
+{
+  "id": 12221643,
+  "name": "Singleton v. Six Flags Over Georgia et al.",
+  "name_abbreviation": "Singleton v. Six Flags Over Georgia",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5507",
+  "first_page": "911",
+  "last_page": "911",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 911"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 91,
+    "ocr_confidence": 0.666,
+    "sha256": "fa9b12b140cc1058c5b783ab381ab2a876fceb438c38d94228b35eb0407f1b41",
+    "simhash": "1:12686031478b807f",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Singleton v. Six Flags Over Georgia et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5507.\nSingleton v. Six Flags Over Georgia et al."
+  },
+  "file_name": "0911-11",
+  "first_page_order": 993,
+  "last_page_order": 993
+}

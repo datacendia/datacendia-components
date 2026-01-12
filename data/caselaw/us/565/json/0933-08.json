@@ -1,0 +1,59 @@
+{
+  "id": 12226426,
+  "name": "South Carolina v. Parker",
+  "name_abbreviation": "South Carolina v. Parker",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-44",
+  "first_page": "933",
+  "last_page": "933",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 933"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 22,
+    "char_count": 139,
+    "ocr_confidence": 0.695,
+    "sha256": "b42582b41a4b0e56a8d2c38d26ebc974ace173be80e3d0f25b6e2cf78155fef8",
+    "simhash": "1:3145aa786869611e",
+    "word_count": 22
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "South Carolina v. Parker."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. S. C. Motion of respondent for leave to proceed informa pauperis granted. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-44.\nSouth Carolina v. Parker."
+  },
+  "file_name": "0933-08",
+  "first_page_order": 1015,
+  "last_page_order": 1015
+}

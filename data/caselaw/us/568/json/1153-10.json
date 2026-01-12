@@ -1,0 +1,59 @@
+{
+  "id": 12430348,
+  "name": "In re Roth",
+  "name_abbreviation": "In re Roth",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. D-2692",
+  "first_page": "1153",
+  "last_page": "1154",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1153"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 49,
+    "char_count": 327,
+    "ocr_confidence": 0.61,
+    "sha256": "9c7def042284230bac7cb48999566b90ead44897e3d41670fdd8d10fcf9d4503",
+    "simhash": "1:194811faad88b14a",
+    "word_count": 62
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Roth."
+    ],
+    "opinions": [
+      {
+        "text": "Clifford R. Roth, of Otisville, N. Y., having requested to resign as a member of the Bar of this Court, it is ordered that his name be stricken from the roll of attorneys admitted to the practice of law before this Court. The rule to show cause, issued on October 9, 2012 [ante, p. 938], is discharged.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2692.\nIn re Roth."
+  },
+  "file_name": "1153-10",
+  "first_page_order": 1229,
+  "last_page_order": 1230
+}

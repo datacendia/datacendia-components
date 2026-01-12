@@ -1,0 +1,59 @@
+{
+  "id": 12432872,
+  "name": "Pineda-Sanchez v. United States",
+  "name_abbreviation": "Pineda-Sanchez v. United States",
+  "decision_date": "2013-03-04",
+  "docket_number": "No. 12-8596",
+  "first_page": "1221",
+  "last_page": "1221",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1221"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 81,
+    "ocr_confidence": 0.689,
+    "sha256": "30de503b75143233c90ed14a0f5caebc64fd5c5a5071b589282a1cdf179bd2cd",
+    "simhash": "1:14188a2326a7904e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pineda-Sanchez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8596.\nPineda-Sanchez v. United States."
+  },
+  "file_name": "1221-04",
+  "first_page_order": 1297,
+  "last_page_order": 1297
+}

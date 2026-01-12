@@ -1,0 +1,59 @@
+{
+  "id": 5987213,
+  "name": "Valencia v. Nevada (two judgments)",
+  "name_abbreviation": "Valencia v. Nevada",
+  "decision_date": "2010-11-01",
+  "docket_number": "No. 10-6068",
+  "first_page": "1008",
+  "last_page": "1008",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1008"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 82,
+    "ocr_confidence": 0.658,
+    "sha256": "2237c0d0e9f1b88e195ec9c11e02f3b6947fadabba68b107baa1849936bd6070",
+    "simhash": "1:e9f2fac7058b2d54",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Valencia v. Nevada (two judgments)."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Nev. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6068.\nValencia v. Nevada (two judgments)."
+  },
+  "file_name": "1008-12",
+  "first_page_order": 1030,
+  "last_page_order": 1030
+}

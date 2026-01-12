@@ -1,0 +1,59 @@
+{
+  "id": 12433513,
+  "name": "Gray v. United States",
+  "name_abbreviation": "Gray v. United States",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-8598",
+  "first_page": "1239",
+  "last_page": "1239",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1239"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.629,
+    "sha256": "966b842b668da416085e55bef71bab486864d412057fd49a03f392315ee5c8cf",
+    "simhash": "1:a28a920e6ad59918",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gray v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8598.\nGray v. United States."
+  },
+  "file_name": "1239-13",
+  "first_page_order": 1315,
+  "last_page_order": 1315
+}

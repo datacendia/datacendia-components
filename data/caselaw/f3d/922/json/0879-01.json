@@ -1,0 +1,168 @@
+{
+  "id": 12520990,
+  "name": "ORACLE USA, INC., a Colorado corporation; Oracle America, Inc., a Delaware corporation; Oracle International Corporation, a California corporation, Plaintiffs-Appellees, v. RIMINI STREET, INC., a Nevada corporation; Seth Ravin, an individual, Defendants-Appellants.",
+  "name_abbreviation": "Oracle United States, Inc. v. Rimini St., Inc.",
+  "decision_date": "2019-04-16",
+  "docket_number": "Nos. 16-16832; 16-16905",
+  "first_page": "879",
+  "last_page": "880",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "922 F.3d 879"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "9th Cir.",
+    "id": 18869,
+    "name": "United States Court of Appeals for the Ninth"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "139 S. Ct. 873",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12624590
+      ],
+      "weight": 4,
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "881"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/0873-01"
+      ]
+    },
+    {
+      "cite": "201 L.Ed.2d 1130",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12623272,
+        12623273,
+        12623274,
+        12623271
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "parenthetical": "mem"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/0052-03",
+        "/s-ct/139/0052-04",
+        "/s-ct/139/0052-05",
+        "/s-ct/139/0052-02"
+      ]
+    },
+    {
+      "cite": "139 S. Ct. 52",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12623270,
+        12623271,
+        12623272,
+        12623273,
+        12623274,
+        12623275
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "parenthetical": "mem"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/0052-01",
+        "/s-ct/139/0052-02",
+        "/s-ct/139/0052-03",
+        "/s-ct/139/0052-04",
+        "/s-ct/139/0052-05",
+        "/s-ct/139/0052-06"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1920",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "17 U.S.C. \u00a7 505",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "879 F.3d 948",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12266268
+      ],
+      "weight": 4,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "965-66"
+        },
+        {
+          "page": "965-66"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/879/0948-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 149,
+    "char_count": 2061,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.259289055076184
+    },
+    "sha256": "7c52fe479057362617126870033d00d43269152f47b2fb218d27a1e7d82e3bb2",
+    "simhash": "1:d145c3a2cfb5177d",
+    "word_count": 317
+  },
+  "last_updated": "2024-02-27T18:46:53.504629+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "ORACLE USA, INC., a Colorado corporation; Oracle America, Inc., a Delaware corporation; Oracle International Corporation, a California corporation, Plaintiffs-Appellees,\nv.\nRIMINI STREET, INC., a Nevada corporation; Seth Ravin, an individual, Defendants-Appellants."
+    ],
+    "opinions": [
+      {
+        "text": "In Oracle USA, Inc. v. Rimini Street, Inc. , 879 F.3d 948 (9th Cir. 2018), we affirmed in part, reversed in part, and vacated in part the district court's judgment in favor of Plaintiffs Oracle USA, Inc. and related entities on claims alleging, among other things, copyright violations by Defendants Rimini Street, Inc. and Seth Ravin. Pertinent here, we held that the district court properly awarded Oracle approximately $12.8 million in non-taxable costs pursuant to 17 U.S.C. \u00a7 505. Oracle , 879 F.3d at 965-66. We rejected, as foreclosed by binding circuit precedent, Defendants' argument that the district court was limited, when assessing costs, to the types of costs specified in the general costs statute, 28 U.S.C. \u00a7 1920. Oracle , 879 F.3d at 965-66. We therefore affirmed the portion of the district court's judgment awarding non-taxable costs. Id.\nThe Supreme Court granted certiorari, Rimini Street, Inc. v. Oracle USA, Inc. , --- U.S. ----, 139 S. Ct. 52, 201 L.Ed.2d 1130 (2018) (mem), and held that our circuit precedent was erroneous, --- U.S. ----, 139 S. Ct. 873, 203 L.Ed.2d 180 (2019). The Court held that the Copyright Act authorizes district courts to award only those \"costs specified in the general costs statute, [ 28 U.S.C.] \u00a7\u00a7 1821 and 1920.\" Id. at 881. The Court remanded the case for further proceedings. Id.\nPursuant to the Supreme Court's decision, we vacate the portion of the district court's judgment awarding Oracle $12.8 million in non-taxable costs, and we remand the case to the district court for further proceedings consistent with this order and the Supreme Court's opinion.\nVACATED in part and REMANDED. The parties shall bear their own costs on appeal.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "ORACLE USA, INC., a Colorado corporation; Oracle America, Inc., a Delaware corporation; Oracle International Corporation, a California corporation, Plaintiffs-Appellees,\nv.\nRIMINI STREET, INC., a Nevada corporation; Seth Ravin, an individual, Defendants-Appellants.\nNos. 16-16832\n16-16905\nUnited States Court of Appeals, Ninth Circuit.\nFiled April 16, 2019\nORDER"
+  },
+  "file_name": "0879-01",
+  "first_page_order": 879,
+  "last_page_order": 880
+}

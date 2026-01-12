@@ -1,0 +1,98 @@
+{
+  "id": 12199565,
+  "name": "United States v. Bormes",
+  "name_abbreviation": "United States v. Bormes",
+  "decision_date": "2012-04-02",
+  "docket_number": "No. 11-192",
+  "first_page": "919",
+  "last_page": "919",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 919"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "565 U. S. 1153",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12242274,
+        12446019,
+        12446020,
+        12242279,
+        12446029,
+        12446030,
+        12446031,
+        12446032,
+        12446033,
+        12242259,
+        12242264,
+        12242265,
+        12242267,
+        12242270
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/565/1153-06",
+        "/l-ed-2d/181/0806-01",
+        "/l-ed-2d/181/0806-02",
+        "/us/565/1153-07",
+        "/l-ed-2d/181/0973-01",
+        "/l-ed-2d/181/0973-02",
+        "/l-ed-2d/181/0973-03",
+        "/l-ed-2d/181/0973-04",
+        "/l-ed-2d/181/0973-05",
+        "/us/565/1153-01",
+        "/us/565/1153-02",
+        "/us/565/1153-03",
+        "/us/565/1153-04",
+        "/us/565/1153-05"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 27,
+    "char_count": 177,
+    "ocr_confidence": 0.589,
+    "sha256": "c0c23aa142e6ad133147ae5eb0fc09ae6b9922f9bcea205cdb1e7f98b10707dc",
+    "simhash": "1:79f2e4460ea1f66b",
+    "word_count": 29
+  },
+  "last_updated": "2024-02-27T23:45:15.365324+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "United States v. Bormes."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. Fed. Cir. [Certiorari granted, 565 U. S. 1153.] Motion of the Solicitor General to dispense with printing the joint appendix granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-192.\nUnited States v. Bormes."
+  },
+  "file_name": "0919-06",
+  "first_page_order": 795,
+  "last_page_order": 795
+}

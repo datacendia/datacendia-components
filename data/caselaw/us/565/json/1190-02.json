@@ -1,0 +1,59 @@
+{
+  "id": 12245346,
+  "name": "Flores v. Holder, Attorney General",
+  "name_abbreviation": "Flores v. Holder",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-7665",
+  "first_page": "1190",
+  "last_page": "1190",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1190"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 32,
+    "char_count": 204,
+    "ocr_confidence": 0.645,
+    "sha256": "de60ebf27c9b12d0c88526cf24e3e8d1b18238111cdc45692e83f4aacf520abc",
+    "simhash": "1:6381558940742506",
+    "word_count": 33
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Flores v. Holder, Attorney General."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. D. C. Cir. Motion of petitioner for leave to proceed in forma pauperis denied, and certiorari before judgment dismissed. See this Court\u2019s Rule 39.8.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7665.\nFlores v. Holder, Attorney General."
+  },
+  "file_name": "1190-02",
+  "first_page_order": 1272,
+  "last_page_order": 1272
+}

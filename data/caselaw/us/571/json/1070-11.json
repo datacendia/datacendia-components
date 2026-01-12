@@ -1,0 +1,68 @@
+{
+  "id": 12699549,
+  "name": "In re Diane JENKINS, petitioner.",
+  "name_abbreviation": "In re Jenkins",
+  "decision_date": "2013-12-02",
+  "docket_number": "No. 13\u20136561.",
+  "first_page": "1070",
+  "last_page": "1070",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 1070"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 579"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 695"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 23,
+    "char_count": 153,
+    "sha256": "67cc1ce9cf92759f2e5bcc1dc4cce40122c370cc28f5f93e45d7d9fd49de53c8",
+    "simhash": "1:78e3506433516036",
+    "word_count": 24
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Diane JENKINS, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of mandamus and/or prohibition denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re Diane JENKINS, petitioner.\nNo. 13-6561.\nSupreme Court of the United States\nDec. 2, 2013.\nPetition for writ of mandamus and/or prohibition denied."
+  },
+  "file_name": "1070-11",
+  "first_page_order": 1070,
+  "last_page_order": 1070
+}

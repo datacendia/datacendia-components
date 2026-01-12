@@ -1,0 +1,59 @@
+{
+  "id": 12193056,
+  "name": "Kivisto v. Attorney Registration and Disciplinary Commission of the Supreme Court of Illinois",
+  "name_abbreviation": "Kivisto v. Attorney Registration & Disciplinary Commission of the Supreme Court of Illinois",
+  "decision_date": "2012-03-26",
+  "docket_number": "No. 11-1043",
+  "first_page": "907",
+  "last_page": "907",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 907"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 19,
+    "char_count": 141,
+    "ocr_confidence": 0.478,
+    "sha256": "8f4d24680909e15035f2fcb335ed9264607826ebf06241f2704e24182b28342e",
+    "simhash": "1:19d0f4d77495934a",
+    "word_count": 20
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kivisto v. Attorney Registration and Disciplinary Commission of the Supreme Court of Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ill. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1043.\nKivisto v. Attorney Registration and Disciplinary Commission of the Supreme Court of Illinois."
+  },
+  "file_name": "0907-04",
+  "first_page_order": 783,
+  "last_page_order": 783
+}

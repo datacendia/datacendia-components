@@ -1,0 +1,169 @@
+{
+  "id": 12520453,
+  "name": "UNITED STATES of America, Plaintiff - Appellant, v. Stirling Michael HEATON, Defendant - Appellee.",
+  "name_abbreviation": "U.S. v. Heaton",
+  "decision_date": "2019-03-20",
+  "docket_number": "No. 17-3314",
+  "first_page": "598",
+  "last_page": "601",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "918 F.3d 598"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "8th Cir.",
+    "id": 8821,
+    "name": "United States Court of Appeals for the Eighth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "852 F.3d 1329",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12277992
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1342-43",
+          "parenthetical": "Rosenbaum, J., concurring"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/852/1329-01"
+      ]
+    },
+    {
+      "cite": "868 F.3d 875",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12266290
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "881"
+        },
+        {
+          "page": "883-84",
+          "parenthetical": "McKeown, J., dissenting"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/868/0875-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3582",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "(c)(2)"
+        },
+        {
+          "page": "(c)(2)"
+        },
+        {
+          "page": "(c)(2)"
+        },
+        {
+          "page": "(c)(2)"
+        },
+        {
+          "page": "(c)(2)"
+        },
+        {
+          "page": "(c)(2)",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3553",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "891 F.3d 740",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517138
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "742-43"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/891/0740-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 361,
+    "char_count": 7065,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25922708235113323
+    },
+    "sha256": "7b6f158aa8f78f85493acb3c5914c44cbea754aef2afecaef188ac191981805a",
+    "simhash": "1:799855d67317e977",
+    "word_count": 1151
+  },
+  "last_updated": "2024-02-27T18:46:20.843221+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before WOLLMAN, COLLOTON, and BENTON, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff - Appellant,\nv.\nStirling Michael HEATON, Defendant - Appellee."
+    ],
+    "opinions": [
+      {
+        "text": "COLLOTON, Circuit Judge.\nThe government appeals an order of the district court reducing Stirling Heaton's term of imprisonment in light of Amendment 782 to the United States Sentencing Guidelines. Consistent with United States v. Helm , 891 F.3d 740 (8th Cir. 2018), we conclude that the district court impermissibly reduced Heaton's sentence below his amended guideline range, so we reverse and remand for resentencing.\nHeaton pleaded guilty in 2012 to a conspiracy to participate in racketeering activity, and the district court sentenced him to 115 months' imprisonment. The court arrived at the sentence by first calculating an advisory guideline range of 130 to 162 months' imprisonment, based on a total offense level of 28 and a criminal history category V, and choosing a sentence of 136 months within that range. Applying USSG \u00a7 5G1.3(b)(1), the court then adjusted the sentence downward by 18 months, based on time that Heaton had served in state custody on an undischarged term of imprisonment for an offense that was relevant conduct to the federal offense. The court reduced the term by another three months under 18 U.S.C. \u00a7 3553(a) to account for \"good time credit\" that Heaton could have earned in federal custody for the 18 months served in state custody. Accordingly, the court imposed a final sentence of 115 months' imprisonment.\nIn 2014, the Sentencing Commission promulgated Amendment 782, which reduced the offense level for many drug-related offenses. See USSG App. C, Amend. 782 (2014). Because the underlying offenses for Heaton's racketeering conspiracy involved drug trafficking, and thus triggered application of the drug trafficking guideline, see USSG \u00a7 1B1.2(a), the amendment reduced Heaton's base offense level by two, from 26 to 24, and his total offense level from 28 to 26. Compare USSG \u00a7 2D1.1(c)(7) (2011), with USSG \u00a7 2D1.1(c)(8) (2014).\nHeaton then moved to reduce his sentence under 18 U.S.C. \u00a7 3582(c)(2). That provision allows a court to reduce a defendant's term of imprisonment based on a retroactive amendment to the guidelines, if the reduction is \"consistent with applicable policy statements issued by the Sentencing Commission.\" 18 U.S.C. \u00a7 3582(c)(2). One such policy statement forbids a court (with an exception not applicable here) to \"reduce the defendant's term of imprisonment under 18 U.S.C. \u00a7 3582(c)(2) and this policy statement to a term that is less than the minimum of the amended guideline range .\" USSG \u00a7 1B1.10(b)(2)(A) (emphasis added).\nThe district court granted Heaton's motion and reduced his sentence to 98 months' imprisonment. The court reasoned that Heaton's \"amended Guidelines range\" was 92 to 119 months. The court calculated an \"initial Guidelines range\" of 110 to 137 months, based on a new total offense level of 26 and criminal history category V, and then subtracted the 18-month adjustment under USSG \u00a7 5G1.3(b)(1) for time served in state custody. After considering the factors set forth in 18 U.S.C. \u00a7 3553(a), the court arrived at a sentence of 98 months.\nThe government argues on appeal that the \"amended guideline range\" for Heaton was 110 to 137 months' imprisonment, and that the court erred by reducing Heaton's term below 110 months. For reasons explained in Helm , we agree. The guideline range corresponds to the defendant's offense level and criminal history category. Section 5G1.3(b) does not enter into the calculation of an amended guideline range. 891 F.3d at 742-43. Therefore, Heaton's \"amended guideline range\" was 110 to 137 months' imprisonment. Any reduction below 110 months was inconsistent with the policy statement in USSG \u00a7 1B1.10(b)(2)(A) and thus unauthorized by 18 U.S.C. \u00a7 3582(c)(2).\nHeaton argues that the sentence was consistent with \u00a7 1B1.10, because his \"term of imprisonment\" includes the 18 months that he served in state custody. On that view, his term was not 98 months, but 116 months. See United States v. Brito , 868 F.3d 875, 881 (9th Cir. 2017). In our view, the text of \u00a7 1B1.10(b)(2)(A) cannot bear this interpretation. See id. at 883-84 (McKeown, J., dissenting). The phrase \"term of imprisonment\" in \u00a7 1B1.10(b)(2)(A) refers to the same phrase in 18 U.S.C. \u00a7 3582(c)(2). Section 3582(c)(2), in turn, applies to \"the case of a defendant who has been sentenced to a term of imprisonment based on a sentencing range that has subsequently been lowered by the Sentencing Commission,\" and allows the federal court to reduce that \"term of imprisonment.\" 18 U.S.C. \u00a7 3582(c)(2) (emphasis added). The phrase \"term of imprisonment\" does not include time served in state custody. A defendant in federal court has not \"been sentenced to\" a term in state custody \"based on a sentencing range\" under the federal sentencing guidelines. A federal district court does not impose state sentences or reduce state terms of imprisonment.\nHeaton argues alternatively that \u00a7 1B1.10 is unconstitutional if it limits a sentence reduction to the bottom of the amended guideline range. He asserts that it is irrational for the guidelines to permit a \"full\" reduction under \u00a7 3582(c) for a defendant who serves concurrent sentences in federal custody, but to deny the same reduction to a defendant who served some of his time in state custody. We are not convinced that the Commission's guideline lacks any rational basis. The Commission has observed that prohibiting a reduction below the amended guideline range \"promotes conformity with the amended guideline range and avoids undue complexity and litigation.\" USSG App. C, Amend. 759 (2011). Line-drawing problems are inevitable under the guidelines. As we noted in Helm , for example, the policy statement has the effect of treating discharged and undischarged sentences alike in \u00a7 3582(c) proceedings, whereas Heaton's approach has prompted objections to a distinction in treatment on that score. See United States v. Gonzalez-Murillo , 852 F.3d 1329, 1342-43 (11th Cir. 2017) (Rosenbaum, J., concurring). The Commission might have chosen a more complex system of reductions under which a district court could account for adjustments under \u00a7 5G1.3, or even for variances based on hypothetical \"good time credit\" for time served in state custody. But it is not irrational for the Commission to avoid \"undue complexity and litigation\" by adopting a uniform limitation tied to the amended guideline range.\nFor the foregoing reasons, we vacate Heaton's sentence and remand for a resentencing consistent with the limitation that the sentence must not be less than the 110-month minimum of the amended guideline range.",
+        "type": "majority",
+        "author": "COLLOTON, Circuit Judge."
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff - Appellant,\nv.\nStirling Michael HEATON, Defendant - Appellee.\nNo. 17-3314\nUnited States Court of Appeals, Eighth Circuit.\nSubmitted: October 15, 2018\nFiled: March 20, 2019\nCounsel who represented the appellant was Michael L. Cheever, AUSA, of Minneapolis, MN.\nCounsel who represented the appellee was Robert H. Meyers, Research and Writing Attorney, Federal Public Defender's Office, Minneapolis, MN.\nBefore WOLLMAN, COLLOTON, and BENTON, Circuit Judges."
+  },
+  "file_name": "0598-01",
+  "first_page_order": 598,
+  "last_page_order": 601
+}

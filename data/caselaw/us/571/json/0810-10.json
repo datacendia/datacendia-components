@@ -1,0 +1,68 @@
+{
+  "id": 12702099,
+  "name": "In re Daniel Eric COBBLE, petitioner.",
+  "name_abbreviation": "In re Cobble",
+  "decision_date": "2013-10-07",
+  "docket_number": "No. 12\u20139529.",
+  "first_page": "810",
+  "last_page": "810",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 810"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 16"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 376"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 28,
+    "char_count": 202,
+    "sha256": "c1404f0647618806c18a136809d6f7bff298b9afb94c70aca605b88bec795804",
+    "simhash": "1:62f53c5c400ebb3a",
+    "word_count": 32
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Daniel Eric COBBLE, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Motion of petitioner for reconsideration of order denying leave to proceed in forma pauperis denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re Daniel Eric COBBLE, petitioner.\nNo. 12-9529.\nSupreme Court of the United States\nOct. 7, 2013.\nMotion of petitioner for reconsideration of order denying leave to proceed in forma pauperis denied."
+  },
+  "file_name": "0810-10",
+  "first_page_order": 810,
+  "last_page_order": 810
+}

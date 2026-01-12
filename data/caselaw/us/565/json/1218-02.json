@@ -1,0 +1,59 @@
+{
+  "id": 12247720,
+  "name": "Diaz-Devia v. United States",
+  "name_abbreviation": "Diaz-Devia v. United States",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-8038",
+  "first_page": "1218",
+  "last_page": "1218",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1218"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.713,
+    "sha256": "1244f77a66611145ee25df2b518c0335f9ed69d25c2adcad8156927d22c61994",
+    "simhash": "1:879a57018b060028",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Diaz-Devia v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8038.\nDiaz-Devia v. United States."
+  },
+  "file_name": "1218-02",
+  "first_page_order": 1300,
+  "last_page_order": 1300
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12414625,
+  "name": "Griffin v. Bauman, Warden",
+  "name_abbreviation": "Griffin v. Bauman",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10979",
+  "first_page": "872",
+  "last_page": "872",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 872"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.614,
+    "sha256": "838d3d0a3dc2d41178a7293ea9700a910d5ad785c69bf3cf4bf99a77dcc6ae63",
+    "simhash": "1:e7be03a8dadf18c4",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Griffin v. Bauman, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10979.\nGriffin v. Bauman, Warden."
+  },
+  "file_name": "0872-07",
+  "first_page_order": 948,
+  "last_page_order": 948
+}

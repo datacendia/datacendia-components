@@ -1,0 +1,192 @@
+{
+  "id": 12520250,
+  "name": "Barton ROBERTS, Plaintiff - Appellant v. Sergeant KOPEL, et al., Defendants - Appellees",
+  "name_abbreviation": "Roberts v. Kopel",
+  "decision_date": "2019-03-07",
+  "docket_number": "No. 17-3579",
+  "first_page": "1039",
+  "last_page": "1043",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "917 F.3d 1039"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "8th Cir.",
+    "id": 8821,
+    "name": "United States Court of Appeals for the Eighth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "560 F. App'x 271",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        3592878
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "274"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/560/0271-01"
+      ]
+    },
+    {
+      "cite": "623 F.3d 608",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3791088
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "614"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/623/0608-01"
+      ]
+    },
+    {
+      "cite": "686 F.3d 644",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6051754
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "651"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/686/0644-01"
+      ]
+    },
+    {
+      "cite": "49 F.3d 461",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7415835
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "465"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/49/0461-01"
+      ]
+    },
+    {
+      "cite": "198 F.3d 645",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        654222
+      ],
+      "weight": 2,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "647"
+        },
+        {
+          "page": "648",
+          "parenthetical": "quotation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/198/0645-01"
+      ]
+    },
+    {
+      "cite": "891 F.3d 721",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517135
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "727",
+          "parenthetical": "standard of review"
+        },
+        {
+          "page": "726"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/891/0721-01"
+      ]
+    },
+    {
+      "cite": "42 U.S.C. \u00a7 1983",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 537,
+    "char_count": 9595,
+    "pagerank": {
+      "raw": 6.770845263994211e-08,
+      "percentile": 0.4148666582491875
+    },
+    "sha256": "bc81a7cab2cf733be9744ee67a3b97cf3a543b3e02d08395d51e140863b86418",
+    "simhash": "1:e3c686116d70c61d",
+    "word_count": 1477
+  },
+  "last_updated": "2024-02-27T18:46:27.088999+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before SMITH, Chief Judge, LOKEN and GRUENDER, Circuit Judges."
+    ],
+    "parties": [
+      "Barton ROBERTS, Plaintiff - Appellant\nv.\nSergeant KOPEL, et al., Defendants - Appellees"
+    ],
+    "opinions": [
+      {
+        "text": "LOKEN, Circuit Judge.\nBarton Roberts appeals the district court's grant of summary judgment dismissing his 42 U.S.C. \u00a7 1983 claims that officers at the Minnesota Correctional Facility in St. Cloud, Minnesota (\"MCF\"), were deliberately indifferent to his serious medical needs after he suffered a stroke. Reviewing summary judgment de novo and the facts in the light most favorable to Roberts, we affirm. A.H. v. St. Louis Cty., Mo., 891 F.3d 721, 727 (8th Cir. 2018) (standard of review).\nWhile an inmate at MCF, Roberts fell ill the night of Friday, September 25, 2015, vomiting in his cell and experiencing dizziness, headaches, and numbness. The symptoms continued or worsened through Sunday, September 27. Roberts did not leave his cell and was unable to eat anything those two days. He reported severe illness to unidentified corrections officers on multiple occasions but received no assistance or medical treatment. The three named defendants were not at work during the weekend of September 26 and 27.\nOn Monday, September 28, Roberts's vomiting subsided, and he was able to stand and leave his cell. He asked another inmate to tell corrections officers he was too ill to report for work. He did not ask to be signed up for sick call, nor did he request medical attention by submitting a \"kite\" to a corrections officer. Roberts's name appeared on the sick call list requesting non-emergency dental treatment. He testified that he spoke separately to the three named defendants that day, telling each he needed medical attention; two told him MCF Health Services had been notified. Roberts did not receive medical attention on September 28. The defendants do not recall communicating with Roberts that day.\nOn Tuesday morning, September 29, Roberts traveled to Washington County for a scheduled court appearance. Upon arrival, he told a Washington County examining nurse the \"same thing\" he had been telling the corrections officers -- that he was experiencing vertigo, was dizzy, had been throwing up, and was extremely hot and sweating. The nurse's report states that Roberts denied vomiting, nausea, headaches, sweating, blurry vision, light sensitivity, and fainting episodes. The nurse instructed Roberts to drink water and keep an eye on himself.\nRoberts returned to MCF on Thursday, October 1, where he described his medical condition and symptoms to an intake nurse who brought him to see the on-duty physician. Roberts described his symptoms to the physician, who \"kept talking\" to Roberts \"about the flu.\" Roberts testified the physician's report accurately described his symptoms back to the night of September 25. The physician attributed his vertigo to an abscessed tooth, and Roberts consented to having the tooth surgically removed, which went well. However, at approximately 5:00 p.m. that afternoon, Roberts told defendant Craig Gondeck that he needed to see medical services because he was experiencing numbness in his face. Gondeck immediately requested emergency assistance. Medical staff arrived promptly, examined Roberts, and called an ambulance. He was transported to a nearby hospital and diagnosed with having suffered a stroke.\nRoberts filed this action in March 2016, alleging that defendants' deliberate indifference to his serious medical needs violated his Eighth and Fourteenth Amendment rights. After his claims against other defendants were resolved, the three named corrections officer defendants moved for summary judgment. Roberts does not contend that these corrections officers, or any medical professional, were deliberately indifferent in diagnosing and treating his October 1, 2015 stroke. Rather, supported by an expert witness who opined that Roberts suffered an earlier stroke the night of September 25, Roberts alleges that these defendants were deliberately indifferent to his need for medical treatment following the earlier stroke.\nThe district court concluded that these corrections officers could not be liable for what happened over the weekend of September 26 and 27 because they were not on duty. The court further concluded that Roberts failed to establish that these defendants were deliberately indifferent to his need for medical attention on Monday, September 28, because \"Roberts cannot expect a layperson such as a corrections officer to recognize symptoms when a medical professional to whom those same symptoms are recounted does not,\" and because Roberts's expert did not establish that medical treatment on September 28, more than two days after the alleged initial stroke, would have prevented or reduced the risk of the second stroke.\nTo prevail on an Eighth Amendment claim of deliberate indifference to serious medical needs, Roberts \"must prove that he suffered from one or more objectively serious medical needs, and that prison officials actually knew of but deliberately disregarded those needs.\" Roberson v. Bradshaw, 198 F.3d 645, 647 (8th Cir. 1999). Roberts must show the corrections officer defendants actually knew that he faced a substantial risk of serious harm and did not respond reasonably to that risk. A.H., 891 F.3d at 726. Proof of deliberate indifference requires a showing of a mental state \"akin to criminal recklessness.\" Id (quotation omitted).\nAn objectively serious medical need is one that is \"either obvious to the layperson or supported by medical evidence, like a physician's diagnosis.\" Roberson, 198 F.3d at 648 (quotation omitted). Here, Roberts argues that \"on Monday, September 28, he was still suffering from symptoms that a jury could reasonably find should have been obvious to [the three corrections officers] as evidencing a serious medical condition that needed medical attention.\" At his deposition, Roberts could not recall his conversations with the three defendants that day. He testified that he told many corrections officers, \"I was sick .... I needed attention .... I was having a heart attack.\" The response by officers who passed by or stopped at his cell \"is always we've already contacted medical, and they've given us their answer, which was drink water.\" While Roberts contends he requested medical attention from the named defendants, he did not sign up for sick call nor pass a \"kite\" to a corrections officer seeking medical attention. The defendants do not remember any interaction with Roberts on Monday. It is undisputed that his vomiting had subsided by Monday and he was able to stand and walk outside his cell.\nIt is also undisputed that Roberts was seen by trained health care professionals on Tuesday, September 29 -- the intake nurse in Washington County -- and on Thursday, October 1 -- the on-duty physician at MCF in St. Cloud. Roberts described to these medical professionals the same symptoms that began the night of Friday, September 25, he had previously described to numerous corrections officers. It is well-established that, \"[i]f trained health care officials could not find a serious medical need in these circumstances, then we decline to hold that a reasonable lay person should have done so.\" Aswegan v. Henry, 49 F.3d 461, 465 (8th Cir. 1995) ; see Carpenter v. Gage, 686 F.3d 644, 651 (8th Cir. 2012) ; Christian v. Wagner, 623 F.3d 608, 614 (8th Cir. 2010).\nRoberts argues these cases do not apply because the medical professionals' opinions came before the alleged deliberate indifference, whereas in this case the nurse and physician saw Roberts after the corrections officers' alleged deliberate indifference. However, the operative principle is that lay corrections officers cannot be expected to recognize a serious medical need when a trained health care professional is unable to do so in the same circumstances. Though Roberts's condition had improved somewhat when the medical professionals saw him, there is no evidence suggesting that their medical diagnoses would have been different had they observed Roberts on September 28, rather than examining Roberts and hearing his symptoms described in full a day or two later.\nAfter examining Roberts and hearing how his symptoms had progressed, both medical professionals directed Roberts to \"drink water.\" The physician talked about the flu and suggested non-emergency dental surgery, to which Roberts acquiesced. In these circumstances, we agree with the district court that Roberts failed to present sufficient evidence the three defendant corrections officers were deliberately indifferent to an objectively obvious serious medical need for immediate medical attention on Monday, September 28. While the record suggests they were less than sympathetic to Roberts's continuing illness, a corrections officer who disregards visible and self-reported symptoms that medical professionals believe to be consistent with the flu may be negligent, but he is not deliberately indifferent to an obvious need for immediate medical attention that is sufficient to establish a cognizable claim under the Eighth Amendment. See Estate of Cheney v. Collier, 560 F. App'x 271, 274 (5th Cir. 2014).\nThe judgment of the district court is affirmed.\nThe Honorable Paul A. Magnuson, United States District Judge for the District of Minnesota.",
+        "type": "majority",
+        "author": "LOKEN, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Vincent J. Moccio, BENNEROTTE & ASSOCIATES, Eagan, MN, for Plaintiff-Appellant.",
+      "Jason Marisam, Assistant Attorney General, ATTORNEY GENERAL'S OFFICE, Saint Paul, MN, for Defendants-Appellees."
+    ],
+    "corrections": "",
+    "head_matter": "Barton ROBERTS, Plaintiff - Appellant\nv.\nSergeant KOPEL, et al., Defendants - Appellees\nNo. 17-3579\nUnited States Court of Appeals, Eighth Circuit.\nSubmitted: October 18, 2018\nFiled: March 7, 2019\nVincent J. Moccio, BENNEROTTE & ASSOCIATES, Eagan, MN, for Plaintiff-Appellant.\nJason Marisam, Assistant Attorney General, ATTORNEY GENERAL'S OFFICE, Saint Paul, MN, for Defendants-Appellees.\nBefore SMITH, Chief Judge, LOKEN and GRUENDER, Circuit Judges."
+  },
+  "file_name": "1039-01",
+  "first_page_order": 1039,
+  "last_page_order": 1043
+}

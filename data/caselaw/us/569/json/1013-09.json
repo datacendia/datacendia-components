@@ -1,0 +1,68 @@
+{
+  "id": 12696658,
+  "name": "Detroit HINES, petitioner, v. UNITED STATES.",
+  "name_abbreviation": "Hines v. United States",
+  "decision_date": "2013-05-28",
+  "docket_number": "No. 12\u20139937.",
+  "first_page": "1013",
+  "last_page": "1013",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "569 U.S. 1013"
+    },
+    {
+      "type": "parallel",
+      "cite": "186 L. Ed. 2d 209"
+    },
+    {
+      "type": "parallel",
+      "cite": "133 S. Ct. 2752"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 33,
+    "char_count": 285,
+    "sha256": "c560014852a28cd184454b73577d7a530ec3770e06411c11edb029bf5004d083",
+    "simhash": "1:d9eef6c6318c42cc",
+    "word_count": 47
+  },
+  "last_updated": "2021-09-08T21:16:17.237805+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Detroit HINES, petitioner,\nv.\nUNITED STATES."
+    ],
+    "opinions": [
+      {
+        "text": "Justice KAGAN took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": "Justice KAGAN took no part in the consideration or decision of this petition."
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of certiorari to the United States Court of Appeals for the Fifth Circuit denied."
+    ],
+    "corrections": "",
+    "head_matter": "Detroit HINES, petitioner,\nv.\nUNITED STATES.\nNo. 12-9937.\nSupreme Court of the United States\nMay 28, 2013.\nPetition for writ of certiorari to the United States Court of Appeals for the Fifth Circuit denied."
+  },
+  "file_name": "1013-09",
+  "first_page_order": 1013,
+  "last_page_order": 1013
+}

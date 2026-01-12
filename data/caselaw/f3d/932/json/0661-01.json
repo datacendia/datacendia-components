@@ -1,0 +1,202 @@
+{
+  "id": 12522192,
+  "name": "UNITED STATES of America Plaintiff - Appellee v. Hardy Andrew KOCHER Defendant - Appellant",
+  "name_abbreviation": "United States v. Kocher",
+  "decision_date": "2019-07-30",
+  "docket_number": "No. 18-1410",
+  "first_page": "661",
+  "last_page": "664",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "932 F.3d 661"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "8th Cir.",
+    "id": 8821,
+    "name": "United States Court of Appeals for the Eighth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "572 F.3d 455",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3670730
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "464",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/572/0455-01"
+      ]
+    },
+    {
+      "cite": "552 U.S. 38",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3675664
+      ],
+      "weight": 3,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "50"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/552/0038-01"
+      ]
+    },
+    {
+      "cite": "343 F. App'x 149",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        5764210
+      ],
+      "weight": 2,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "152"
+        },
+        {
+          "page": "151"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/343/0149-01"
+      ]
+    },
+    {
+      "cite": "668 F. App'x 114",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        12387963
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "115",
+          "parenthetical": "the district court \"spoke of 'punishment[ ]' ... as a shorthand way of referring to the penalty that Rodriguez was to receive for having violated the terms of [supervised release]\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/668/0114-01"
+      ]
+    },
+    {
+      "cite": "453 F.3d 1004",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3335438
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "1006"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/453/1004-01"
+      ]
+    },
+    {
+      "cite": "883 F.3d 1018",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516029
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1020"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/883/1018-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3583",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(e)(3)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3553",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 547,
+    "char_count": 9301,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.259482309586389
+    },
+    "sha256": "98c9bfe992e731d116a51ec367a1d383c0b88ef061426eba4e43bf7c55403783",
+    "simhash": "1:80aa8ef66997dd29",
+    "word_count": 1452
+  },
+  "last_updated": "2024-02-27T18:47:21.734938+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before LOKEN, COLLOTON, and KELLY, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America Plaintiff - Appellee\nv.\nHardy Andrew KOCHER Defendant - Appellant"
+    ],
+    "opinions": [
+      {
+        "text": "LOKEN, Circuit Judge.\nIn this appeal of a 24-month supervised release revocation sentence, Hardy Andrew Kocher argues the sentence is substantively unreasonable and greater than necessary because the district court varied upward based on inappropriate speculation that Kocher might have committed an uncharged crime, and did not appropriately consider the relevant 18 U.S.C. \u00a7 3553(a) sentencing factors. After thorough review of the sentencing record, we disagree and therefore affirm.\nI.\nKocher pleaded guilty to possession of child pornography in 2007 and was sentenced in January 2008 to 27 months in prison and 10 years of supervised release. He began the term of supervised release in January 2010. His conditions of supervision included participation in sex offender treatment and no computer use or access to on-line service without prior approval of the Probation Office.\nIn the next eight years, Kocher frequently violated conditions of his supervised release. The district court modified the conditions in 2012 and 2013 due to Kocher's persistent refusal to attend and participate in sex offender treatment. In March 2014, Kocher was unsuccessfully discharged from the treatment program; the court ordered that he be placed in a residential reentry center for 180 days and participate in location monitoring until he completed sex offender treatment. In December 2015, Kocher was found in possession of explicit images, contrary to treatment rules, and an external hard-drive was found at his residence. The court added a special condition that he \"not possess, view, access, or otherwise use child pornography or any material that is sexually stimulating or sexually oriented deemed to be inappropriate by [his] Probation Officer in consultation with the treatment provider.\"\nThroughout this period, Kocher was employed at Kinder Morgan as a terminal mall operator. In July 2016, the Probation Office approved Kocher's use of employer computers and Internet system for employment purposes only. In August 2017, Kocher was terminated after Kinder Morgan discovered that he used its computer outside scheduled hours to access sexually explicit websites. The next day, he was discharged from the sex offender treatment program. An FBI forensic exam of two computers that Kocher used at work revealed over 200 searches for the word \"teen,\" pornographic images of young adults that were not confirmed to be child pornography, and downloading of images to USB drives that were not recovered. The Probation Office filed a Third Amended Petition on Supervised Release alleging Kocher violated three special conditions.\nThe district court held a revocation hearing on February 16, 2018. At the outset, Kocher admitted violating two terms of supervised release: \"Shall participate in sex offender treatment,\" and \" Shall not possess, view, or access any material that is sexually stimulating.\" The advisory Guidelines provide that these are Grade C violations. See USSG \u00a7 7B1.1(a)(3)(B). As Kocher's underlying child pornography offense was a Class C felony and he was in Criminal History Category I, his maximum revocation sentence was 2 years in prison, see 18 U.S.C. \u00a7 3583(e)(3), and his advisory guidelines sentencing range was 3 to 9 months, see USSG \u00a7 7B1.4(a). Defense counsel urged the court to impose a nine-month sentence, acknowledging the \"aggravated nature\" of Kocher's Grade C violations but emphasizing \"that child pornography was not discovered on any of the submitted computers,\" that Kocher's criminal history involved no \"touching offenses\" or physical sexual misconduct, and that he is a decorated war veteran with a strong work history.\nThe government urged a 24-month revocation sentence based on Kocher's sustained failure to complete sex offender treatment and his accessing pornography on his employer's computers. The government questioned whether there was no evidence Kocher accessed child pornography: \"We just don't know, because we don't have access to those [unrecovered] devices.\" The district court responded, \"That's true. But at the same token, I think we have to look at the charge that's involved here.\" In reply, defense counsel asserted, without objection by the government: \"There's no dispute between the Government and the Defense that there's no evidence of child pornography.\" The district court then announced its ruling:\nWell, Mr. Kocher, no means no. And that means no viewing of pornography. That means when you're restricted from the internet, you're restricted from the internet.\nIt just is a case that all these years the underlying thing has not been resolved, but crime is committed. And that's wrong.\nIt's for that reason that the Court is of a mind and does believe that upward departure is appropriate. And I'm going to grant that upward departure and sentence you to the custody of the Bureau of Prisons for a period of 24 months.\nII.\nThe crux of this appeal is Kocher's contention that the district court's statement, \"crime is committed,\" establishes that the court based its decision to impose a substantial upward departure or variance on a finding of fact not supported by the record -- that Kocher committed a \"crime,\" viewing child pornography, not merely the supervised release \"violation\" of viewing adult pornography on his employer's computers. The legal principle is sound: \"it is a procedural error for a district court to impose a sentence based on a clearly erroneous fact.\" United States v. Ryser, 883 F.3d 1018, 1020 (8th Cir. 2018). But it does not apply in this case.\nFirst, the assertion that the district court found that Kocher committed the crime of viewing child pornography is directly contradicted by the record. At the revocation hearing, when government counsel noted there might have been child pornography on the unrecovered devices, the district court stated, \"we have to look at the charge that's involved here.\" Both attorneys then agreed, \"there's no evidence of child pornography.\" After this exchange, it defies logic to argue the district court's reference to \"crime\" reflected an unstated finding the court knew the record would not support. Of course, defense counsel could have asked the court for clarification; having failed to do so, the argument for an illogical interpretation is forfeited.\nSecond, viewed in context, the district court's statement, \"crime is committed,\" either meant \"a violation is committed,\" referring to the admitted supervised release violations, or referred to a string of facts well established by the record -- Kocher's initial child pornography offense, his persistent refusal to comply with a legal obligation to participate in and complete sex offender treatment, and his repeated violations of conditions limiting his access to computers and pornographic websites. The court was simply explaining why the revocation evidence \"support[ed] the view that a [revocation] sentence higher than the guidelines suggested was necessary to deter and incapacitate this offender.\" United States v. Nelson, 453 F.3d 1004, 1006 (8th Cir. 2006) ; see United States v. Rodriguez, 668 F. App'x 114, 115 (5th Cir. 2016) (the district court \"spoke of 'punishment[ ]' ... as a shorthand way of referring to the penalty that Rodriguez was to receive for having violated the terms of [supervised release]\"). Thus, as in United States v. Malloy, \"the record shows that the court did not rely on [a] new law violation,\" viewing child pornography, in imposing the 24-month sentence. 343 F. App'x 149, 152 (8th Cir. 2009). For these reasons, we conclude the district court did not commit plain procedural error by basing its sentence on a fact not supported by the record.\nKocher additionally argues the district court did not adequately explain its chosen sentence, did not adequately consider mitigating factors, and imposed an unduly harsh penalty. We disagree. On this extensive record of repeated supervised release violations, the district court's brief explanation was more than sufficient \"to allow for meaningful appellate review and to promote the perception of fair sentencing.\" Gall v. United States, 552 U.S. 38, 50, 128 S.Ct. 586, 169 L.Ed.2d 445 (2007). We have frequently upheld revocation sentences that varied upward from the advisory guidelines range because defendant was a \"recidivist violator\" of supervised release conditions. Malloy, 343 F. App'x at 151. This is not \"the unusual case when we reverse a district court sentence -- whether within, above, or below the applicable Guidelines range -- as substantively unreasonable.\" United States v. Feemster, 572 F.3d 455, 464 (8th Cir. 2009) (en banc). There was no abuse of the district court's substantial sentencing discretion.\nWe affirm the Amended Judgment in a Criminal Case dated February 16, 2018.\nThe Honorable Paul A. Magnuson, United States District Judge for the District of Minnesota.",
+        "type": "majority",
+        "author": "LOKEN, Circuit Judge."
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America Plaintiff - Appellee\nv.\nHardy Andrew KOCHER Defendant - Appellant\nNo. 18-1410\nUnited States Court of Appeals, Eighth Circuit.\nSubmitted: February 11, 2019\nFiled: July 30, 2019\nCounsel who represented the appellant was Keala C. Ede, AFPD, of Minneapolis, MN.\nCounsel who represented the appellee was Lisa D. Kirkpatrick, AUSA, of Saint Paul, MN.\nBefore LOKEN, COLLOTON, and KELLY, Circuit Judges."
+  },
+  "file_name": "0661-01",
+  "first_page_order": 661,
+  "last_page_order": 664
+}

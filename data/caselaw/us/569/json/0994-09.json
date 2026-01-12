@@ -1,0 +1,68 @@
+{
+  "id": 12698384,
+  "name": "In re Application for SEARCH WARRANT.",
+  "name_abbreviation": "In re Search Warrant",
+  "decision_date": "2013-05-20",
+  "docket_number": "No. 12\u20131115.",
+  "first_page": "994",
+  "last_page": "994",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "569 U.S. 994"
+    },
+    {
+      "type": "parallel",
+      "cite": "185 L. Ed. 2d 1104"
+    },
+    {
+      "type": "parallel",
+      "cite": "133 S. Ct. 2391"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 23,
+    "char_count": 173,
+    "sha256": "eee17ec907dcb04a33fcd13d26525792be27f4e6aaac07a5b3aca79c9e1638f1",
+    "simhash": "1:626f1404788040bf",
+    "word_count": 29
+  },
+  "last_updated": "2021-09-08T21:16:17.237805+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Application for SEARCH WARRANT."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of certiorari to the Supreme Court of Vermont denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re Application for SEARCH WARRANT.\nNo. 12-1115.\nSupreme Court of the United States\nMay 20, 2013.\nPetition for writ of certiorari to the Supreme Court of Vermont denied."
+  },
+  "file_name": "0994-09",
+  "first_page_order": 994,
+  "last_page_order": 994
+}

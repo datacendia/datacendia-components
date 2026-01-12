@@ -1,0 +1,641 @@
+{
+  "id": 2333844,
+  "name": "Carl Straffus et al v. Ray Barclay et ux.",
+  "name_abbreviation": "Straffus v. Barclay",
+  "decision_date": "1949-03-30",
+  "docket_number": "No. A-1981",
+  "first_page": "600",
+  "last_page": "608",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "147 Tex. 600"
+    },
+    {
+      "type": "parallel",
+      "cite": "219 S.W.2d 65"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "89 Utah 115",
+      "category": "reporters:state",
+      "reporter": "Utah",
+      "case_ids": [
+        8870162
+      ],
+      "weight": 2,
+      "opinion_index": -1,
+      "case_paths": [
+        "/utah/89/0115-01"
+      ]
+    },
+    {
+      "cite": "271 S. W. 705",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "168 Ark. 836",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        8725637
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/ark/168/0836-01"
+      ]
+    },
+    {
+      "cite": "192 S. W. (2d) 791",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10205033
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/192/0791-01"
+      ]
+    },
+    {
+      "cite": "76 S. W. (2d) 474",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2300410,
+        10249079
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/124/0131-01",
+        "/sw2d/76/0474-01"
+      ]
+    },
+    {
+      "cite": "122 S. W. (2d) 1063",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10254032,
+        2322449
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/122/1063-01",
+        "/tex/132/0336-01"
+      ]
+    },
+    {
+      "cite": "132 Texas 336",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2322449
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/132/0336-01"
+      ]
+    },
+    {
+      "cite": "176 Pac. 326",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "2 A. L. R. 883",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "103 Kan. 599",
+      "category": "reporters:state",
+      "reporter": "Kan.",
+      "case_ids": [
+        249741
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/kan/103/0599-01"
+      ]
+    },
+    {
+      "cite": "181 N. W. 739",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "18 A. L. R. 362",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "193 N. E. 2",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "288 Mass. 354",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        485903
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/288/0354-01"
+      ]
+    },
+    {
+      "cite": "178 N. E. 553",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "257 N. Y. 344",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1998307
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/257/0344-01"
+      ]
+    },
+    {
+      "cite": "154 N. W. 310",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "171 Iowa 606",
+      "category": "reporters:state",
+      "reporter": "Iowa",
+      "case_ids": [
+        2217100
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/iowa/171/0606-01"
+      ]
+    },
+    {
+      "cite": "180 S. W. 841",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "167 Ky. 499",
+      "category": "reporters:state",
+      "reporter": "Ky.",
+      "case_ids": [
+        4441793
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ky/167/0499-01"
+      ]
+    },
+    {
+      "cite": "14 Pac. (2d) 697",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "169 Wash. 617",
+      "category": "reporters:state",
+      "reporter": "Wash.",
+      "case_ids": [
+        853667
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wash/169/0617-01"
+      ]
+    },
+    {
+      "cite": "215 N. W. 450",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "194 Wis. 12",
+      "category": "reporters:state",
+      "reporter": "Wis.",
+      "case_ids": [
+        8684693
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wis/194/0012-01"
+      ]
+    },
+    {
+      "cite": "80 A. L. R. 280",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "158 Atl. 166",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "305 Pa. 479",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        1134604
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/pa/305/0479-01"
+      ]
+    },
+    {
+      "cite": "109 A. L. R. 105",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "pin_cites": [
+        {
+          "page": "108"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "158 S. W. (2d) 989",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10226688,
+        2313726
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/158/0989-01",
+        "/tex/138/0295-01"
+      ]
+    },
+    {
+      "cite": "138 Texas 295",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2313726
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/138/0295-01"
+      ]
+    },
+    {
+      "cite": "144 S. W. (2d) 408",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10226927
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/144/0408-01"
+      ]
+    },
+    {
+      "cite": "124 Texas 131",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2300410
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/124/0131-01"
+      ]
+    },
+    {
+      "cite": "60 S. W. (2d) 187",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10235960
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/60/0187-01"
+      ]
+    },
+    {
+      "cite": "264 Mo. 889",
+      "category": "reporters:state",
+      "reporter": "Mo.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "120 Atl. 62",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 R. I. 103",
+      "category": "reporters:state",
+      "reporter": "R.I.",
+      "case_ids": [
+        4955403
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ri/45/0103-01"
+      ]
+    },
+    {
+      "cite": "101 So. 49",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "case_ids": [
+        8491806
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ala/211/0516-01"
+      ]
+    },
+    {
+      "cite": "211 Atl. 516",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "242 Pac. 131",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "120 Kan. 77",
+      "category": "reporters:state",
+      "reporter": "Kan.",
+      "case_ids": [
+        1179630
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/kan/120/0077-01"
+      ]
+    },
+    {
+      "cite": "105 S. W. (2d) 195",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10246592,
+        2291473
+      ],
+      "pin_cites": [
+        {
+          "page": "198"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/105/0195-01",
+        "/tex/129/0396-01"
+      ]
+    },
+    {
+      "cite": "129 Texas 396",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2291473
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/129/0396-01"
+      ]
+    },
+    {
+      "cite": "112 N. E. 652",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "224 Mass. 269",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        44367
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/224/0269-01"
+      ]
+    },
+    {
+      "cite": "113 S. C. 45",
+      "category": "reporters:state",
+      "reporter": "S.C.",
+      "case_ids": [
+        8714870
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sc/113/0045-01"
+      ]
+    },
+    {
+      "cite": "92 S. E. 270",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "173 N. C. 452",
+      "category": "reporters:state",
+      "reporter": "N.C.",
+      "case_ids": [
+        11270454
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nc/173/0452-01"
+      ]
+    },
+    {
+      "cite": "178 Atl. 53",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "119 Conn. 563",
+      "category": "reporters:state",
+      "reporter": "Conn.",
+      "case_ids": [
+        1624803
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/conn/119/0563-01"
+      ]
+    },
+    {
+      "cite": "166 S. W. (2d) 116",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2310189,
+        10201845
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/140/0093-01",
+        "/sw2d/166/0116-01"
+      ]
+    },
+    {
+      "cite": "140 Texas 93",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2310189
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/140/0093-01"
+      ]
+    },
+    {
+      "cite": "214 S. W. (2d) 826",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10226986
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/214/0826-01"
+      ]
+    },
+    {
+      "cite": "89 Utah 115",
+      "category": "reporters:state",
+      "reporter": "Utah",
+      "case_ids": [
+        8870162
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/utah/89/0115-01"
+      ]
+    },
+    {
+      "cite": "271 S. W. 705",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "168 Ark. 836",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        8725637
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/168/0836-01"
+      ]
+    },
+    {
+      "cite": "76 S. W. (2d) 474",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2300410,
+        10249079
+      ],
+      "pin_cites": [
+        {
+          "page": "476"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/124/0131-01",
+        "/sw2d/76/0474-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 948,
+    "char_count": 18587,
+    "ocr_confidence": 0.585,
+    "pagerank": {
+      "raw": 7.528137476074439e-07,
+      "percentile": 0.9702227813281779
+    },
+    "sha256": "16d029401cfd8aa9aefe1abd7cc8e41d6e82688316d6880e109490bebaf4e7d6",
+    "simhash": "1:e77c8c664930c547",
+    "word_count": 3343
+  },
+  "last_updated": "2024-02-27T21:30:02.118491+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Carl Straffus et al v. Ray Barclay et ux."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Garwood\ndelivered the opinion of the Court.\nThis is an automobile collision case in which plaintiffs Barclay and wife, respondents here, had judgment in the trial court for personal injuries and damages to their car against petitioners Carl Straffus, age 82, who owned the other car and was riding therein at the time of the collision, and Hilda Straffus, age 45, who is the daughter of Carl and was driving the Straffus car. The judgment was affirmed by the Court of Civil Appeals. 214 S. W. (2d) 826. We granted the writ of error to review the question of liability of petitioner Carl Straffus. The parties are hereinafter referred to by their respective trial court designations.\nJust prior to the collision, which occurred November 8, 1947, about 7:30 P. M., on a paved highway, the car of plaintiffs Barclay and wife was going north and that of the defendants going south. The impact occurred when the Straffus car turned across the road to the left or eastwardly in the path of plaintiffs\u2019 car in order to enter a driveway located on the east side of the highway and leading to the Straffus home. Upon proper pleadings and in answer to special issues the jury found defendant Hilda Straffus guilty of various acts of negligence, proximately causing the collision and relating to the time and manner in which she made the turn, including failure to keep a proper lookout or properly signal her intentions, failure to wait for the plaintiffs\u2019 car to pass, etc. The jury acquitted plaintiffs of alleged contributory negligence. No issues were requested or submitted nor any findings made by the court with respect to negligence on the part of defendant Carl Straffus, who was sitting beside Hilda on the front seat, nor with respect to any other matter whatever which might link him as codriver, party to a joint enterprise, or otherwise, with the negligent acts of his daughter, although plaintiffs\u2019 pleadings did alleged that Hilda was driving both for her father and for herself, that the former was present and acquiesced with the way she operated the car and that both defendants did the acts which the jury specifically found were done by Hilda. The answer of the defendants was joint, omitting any special exceptions, but containing a general denial and, following the latter, specific pleas of contributory-negligence and a cross action for the damages sustained by each. These affirmative pleadings of the defendants made various general references to the operation of the Straffus car as if it were under the physical control of both defendants at the time of the collision, but in the light of the general denial cannot be considered as a judicial admission of such joint operation, even if they were specific enough to be otherwise treated as such. Dallas Ry & Terminal Co. v. Hendricks, 140 Texas 93, 166 S. W. (2d) 116, Rules 84 and 92, T. R. C. P.\nThe evidence conclusively establishes that the two defendants lived together at the home of defendant Carl Straffus who was a widower, Hilda keeping house and doing the cooking for both; that at the time of the collision they were returning home from a trip to the nearby town of Vega to which they had gone together in the early afternoon of the same day; that, while in Vega, the daughter had purchased some groceries and both parties had been to the church to which Hilda \u2014 and presumably her father also \u2014 belonged, where Hilda cleaned the church, while her father assisted her by moving around a few benches. The evidence does not directly disclose that cleaning the church or any other particular purpose of either or both defendants was the primary object of the trip, but does show that members of the church took turns cleaning it, and that Hilda \u2014 if not both defendants \u2014 was at the church pursuant to this arrangement. It is clearly established, furthermore, that Hilda was at the wheel and in exclusive physical control of the car at and prior to the accident with Carl sitting beside her; that, just before Hilda made the turn, both parties, after first looking behind, saw a light of some kind on the road ahead of them, and that Carl Straffus asked what kind of light it was and received a reply from Hilda. With respect to this latter point of time, and in answer to a question as to what Hilda then did about trying to cross the road, Carl Straffus testified, \u2018Well, we considered it perfectly safe to make that crossing because we only had twenty-two feet to go and we was on the west side and had half of the pavement to cross. We were about out of the way.\u201d And in answer to a double question as to whether he did not tell Hilda he saw a light ahead and ask, \u201cHave we got time enough to get across before that light gets here\u201d, he said \u201cI don\u2019t exactly know. We decided that there was all kinds of time to cross there and she crossed over. I think I told her, if I remember, \u2018We have twenty-two feet to cross over.\u2019 There we was on the west side of the pavement and half of the pavement to cross.\u201d It is also undisputed that Carl Straffus had more or less ceased to do active work; that, while possessing a driver\u2019s license, he did not actually drive his car when he could get his daughter or someone else to do it for him; and that Hilda usually did the driving when the two were together.\nThe foregoing is in substance all the evidence on which the liability of Carl Straffus, as distinguished from that of his daughter, may be rested. Much of it consists of admissions by Carl himself. These evidently establish, beyond the ability of reasonable minds to differ, that, just prior to Hilda\u2019s negligent turn, Carl, as well as Hilda, knew and commented on the presence of a traffic problem, consisting of a possibly approaching vehicle, that Carl then considered it proper to make the turn and somehow communicated this view to Hilda. His words \u201cwe considered * * *\u201d and \u201cwe decided * * *\u201d do not necessarily imply that he attempted to direct or even affirmatively suggest that the turn be made, but, considering their character of an an admission, must in our opinion be taken as establishing at least a communication to Hilda of his conclusion, with the knowledge that she might act on it.\nWith regard to the absence of findings or requested issues bearing on the relationship of defendant Carl Straffus to the accident, it is complained on his behalf that such absence leaves the judgment against him without support. On behalf of the plaintiffs it is contended that, even though the evidence be not conclusive as to Carl\u2019s responsibility for Hilda\u2019s negligent acts, the necessary fact findings will be presumed in support of the plaintiffs\u2019 judgment, and that in any event the evidence does establish Carl\u2019s responsibility as a matter of law. If this last contention is correct, the absence of requested issues and findings, of course, becomes immaterial. Rule 279, T. R. C. P. We have concluded that it is correct and will therefore pass to our reasons for this conclusion.\nThe evidence strongly suggests that aside from the matter of Hilda\u2019s agency, Carl Straffus was by ideas and word of mouth himself actually engaged in the operation of his car with Hilda in the same sense as if he had had a hand on the wheel or, by mutual understanding between the two, was performing the duty of lookout or signalman, so that a verdict based on that theory could be sustained under decisions such as Reetz v. Mansfield, 119 Conn. 563, 178 Atl. 53; Johnson v. Newman, 168 Ark. 836, 271 S. W. 705; Williams v. Blue, 173 N. C. 452, 92 S. E. 270; Langley v. Southern Ry Co. 113 S. C. 45, 101 S. E. 286; and Hutchings v. Vacca, 224 Mass. 269, 112 N. E. 652. It seems also true that a verdict against Carl would have been readily sustainable under the rule prevailing in this state that the mere presence of a car owner in his own car driven by another is evidence that the driver is then acting as his servant or agent. Rankin v. Nash-Texas Co. 129 Texas 396, 105 S. W. (2d) 195, 198. But it is on the theory of joint enterprise \u2014 and on that theory alone \u2014 that we can and must find Carl Straffus responsible as a matter of law.\nSince the theory of joint enterprise is to make each party thereto the agent of the other and thereby to hold each responsible for the negligent acts of the other, it may have the effect of making a passenger liable to a third person not a party to the enterprise as well as barring his recovery against a third person on the ground of contributory negligence. Howard v. Zimmerman, 120 Kan. 77, 242 Pac. 131; Cresent Motor Co. v. Stone, 211 Atl. 516, 101 So. 49; Lucey v. John Hope & Sons Engraving & Mfg. Co., 45 R. I. 103, 120 Atl. 62; Ahlstedt v. Smith, 130 Nebr. 372, 264 Mo. 889. The contributory negligence type of case is therefore in point here. In El Paso Electric Co. v. Leeper (Tex. Com. App.), 60 S. W. (2d) 187, which has been cited with evident approval by this court (see Ford Motor Co. v. Maddin, 124 Texas 131, 76 S. W. (2d) 474, 476; Rankin v. Nash-Texas Co., supra), a joint enterprise was held to exist as a matter of law as between the young lady plaintiff and her escort, who was driving her and himself in a car belonging to the young lady\u2019s mother, who in turn had let the couple use it to go to a dance. The court holds the enterprise to exist where there is \u201cnot only a joint interest in the object and purpose of the enterprise, but also an equal right, express or implied, to direct and control the conduct of each other in the operation of the conveyance.\u201d It is evidently considered the dance to be the joint object of the trip and held that the additional requirement as to joint right of control of the car\u2019s operation to be satisfied by the fact the plaintiff\u2019s mother had \u201cloaned the car to her and to her escort\u201d. In Garrett, et al v. Brock, Civ. App. 144 S. W. (2d) 408, wr. dism. cor. judg., the court sustained a jury finding of jpint enterprise under circumstances where the plaintiff was a passenger in her own automobile driven by the husband of a friend who was also present, the object of the trip being a church social in a nearby city which all three were to attend. The original plan w-as for the three to go in a car owned by the married couple, but mechanical trouble developed with that car, and plaintiff\u2019s car was substituted, the plaintiff delivering the keys to the other lady\u2019s husband with the understanding that he was to drive, as he proceeded to do. In that case the joint object was obviously the church social. As to the equal right of control, the right of the driver must have been due to the implied preference or suggestion of the car owner that he should drive, while the right of the owner must have flowed from her very ownership, as there was nothing in the nature of the trip itself or any fact other than those stated to imply right of control on the part of either one. The issues involved on the appeal were such that the dismissal of the writ by this court strongly suggests an approval of the holding of the Court of Civil Appeals on the joint enterprise question.\nBy analogy to the two cases just discussed, Carl Straff us as the car owner, present and advising with the driver, Hilda, must have had at least an equal right of control with her. If, in the El Paso Electric Co. case, the girl passenger herself, instead of her mother, had owned the car, surely the court would not have held that she had any less right of control than she had as a mere borrower. The only difference between Garrett v. Brock and the instant case is that there is no evidence like the surrender of the car keys and there is the evidence of advice or assistance to the driver on Carl\u2019s part. It is true that a different result was reached by this court in the rather similar case of Ener v. Gandy, 138 Texas 295, 158 S. W. (2d) 989, involving a collision between the car in which the plaintiff was riding and a car driven by the minor son of the defendants, Mr. and Mrs. Gandy; Mr. Gandy not being present, but Mrs. Gandy being in the car with the son and several other boys en route to a football game in which the boys were to play and which evidently Mrs. Gandy was to attend. It was held that there was no evidence on which to base an issue of joint enterprise. The court does not discuss the matter of a joint object in the trip on the part of Mrs. Gandy and her son, but does hold that there was not sufficient evidence of her right of equal control, despite the fact that the car was apparently community property. The decision is evidently rested on the testimony of the Gandys themselves to the effect that Mr. Gandy had loaned the car to the son for the trip and that the son had invited his mother to come affing as his guest. There was also testimony by Mrs. Gandy that she would not under any circumstances have interfered with her son\u2019s manner of driving the car. In the instant case there was no evidence tending to establish a loan of the car to Hilda Straffus or an understanding that Carl was not to have any right of control, though such facts, if existing, were peculiarly within their own knowledge. In fact Carl\u2019s admitted conduct in giving Hilda the benefit of his attention to the road and of his views about turning across it, is affirmative evidence from the best source that he had not relinquished all right of control. His advanced years and the fact that Hilda customarily did the driving, while perhaps indicating of itself a relationship of principal and agent, does not militate against Carl\u2019s right of equal control, should he elect to exercise it. If there were any evidence at all inconsistent with that right we would doubtless treat the matter as a question for the jury but, as stated, the only relevant evidence, aside from his undisputed ownership of the automobile and presence in it, is his own admission that he was in effect assisting and advising in its actual operation. That part of Rankin v. Nash-Texas Co., supra, which held that the evidence there involved fell short of estalishing equal power of control as a matter of law was based on facts considerably different from those here in question, but that case decided that the mere presence of the owner in her car was evidence of the right of control over the driver, even though the latter was the paid servant of another.\nThere remains the question of whether the object of the trip was a common object of both defendants, as under the rule of the El Paso Electric Company case, this is a matter separate from that of equal right of control the vehicle but likewise indispensable to establish a joint enterprise. One might indeed imagine instances in which the nature of the enterprise itself, including its joint object, would result in the parties having an equal right of control, but evidently the joint character of the object does not follow from the joint right of control, or, under our decisions at least, become immaterial once equal right of control is established. Compare Fox v. Lavender, 89 Utah 115, 56 Pac. (2d) 1049, 109 A. L. R. 105, 108. In any case, we think the common object is also established as a matter of law. What the parties did at Vega \u2014 cleaning the church and buying groceries \u2014 must be taken as the object of going there, as they did nothing else, and it was admittedly someone\u2019s turn in the St'rauffus family to clean the church. The realization of these objects was participated in by Carl Straffus, who helped clean the church and presumably had an interest also in the groceries. The objects were therefore his objects as well as Hilda\u2019s. The inherent likelihood that, because of the difference in their, respective ages, Hilda\u2019s interest and responsibility in the objects were greater than Carl\u2019s, does not alter their joint character. One may suspect that Carl\u2019s basic motive for the trip was to escape spending the afternoon at home by himself, but two people may well have a true joint object, although their motives for having it are different. If we go to deeply into motives, there would be few cases of joint object ever. Certainly between Carl and Hilda there was an object to clean the church and buy the groceries. The mere suspicion as to Carl\u2019s deeper motive is the only basis for a conclusion that this object was her\u2019s rather than his, and it is not a sufficient basis.\nWe realize that this holding is probably in conflict with some decisions from other jurisdictions. See, for example, Rodgers v. Saxton, 305 Pa. 479, 158 Atl. 166, 80 A. L. R. 280; Smalley v. Simkins, 194 Wis. 12, 215 N. W. 450. On the other hand there are cases from other states which tend to support our view. Strong v. Ernst, 169 Wash. 617, 14 Pac. (2d) 697; Louisville Lozier Co. v. Sallee, 167 Ky. 499, 180 S. W. 841; Crawford v. McElhinney, 171 Iowa 606, 154 N. W. 310, Ann. Cas. 1917E, 221; Gochee v. Wagner, 257 N. Y. 344, 178 N. E. 553; Foley v. Hurley, 288 Mass. 354, 193 N. E. 2. There is no little divergence and even confusion in the decisions generally with regard to cases of this type. We have accordingly relied largely on our own precedents.\nThe application for the writ also complains of adverse rulings on alleged jury misconduct, insufficiency of the evidence to support certain findings against contributory negeligence and the submission of various issues related to the negligence of' Hilda Straffus, but we find all these questions to have been likewise disposed of properly by the Court of Civil Appeals. The judgments of that court and of the trial court are accordingly affirmed.\nOpinion delivered March 30, 1949.\nNo motion for rehearing on file.",
+        "type": "majority",
+        "author": "Mr. Justice Garwood"
+      }
+    ],
+    "attorneys": [
+      "H. H. Cooper, of Amarillo, and W. D. Wilson, of Lubbock, for petitioners.",
+      "John D. AiJcin and James W. Witherspoon, both of Hereford, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "Carl Straffus et al v. Ray Barclay et ux.\nNo. A-1981.\nDecided March 30, 1949.\n(219 S. W., 2d Series, 65.)\nH. H. Cooper, of Amarillo, and W. D. Wilson, of Lubbock, for petitioners.\nThe Court of Civil Appeals erred in rendering judgment against Carl Straffus, and in holding as a matter of law that any negligence of Hilda Straffus in the manner in which she drove and operated the automobile was imputable to Carl Straffus, in the absence of any fact or facts constituting a basis therefor. Reiter v. Grober, 173 Wisc. 493, 18 A. L. R. 362, 181 N. W. 739; Zeeb v. Bahnmajer, 103 Kan. 599, 2 A. L. R. 883, 176 Pac. 326; Seisheimer v. Burkhart, 132 Texas 336, 122 S. W. (2d) 1063; Ford Motor Co. v. Maddin, 76 S. W. (2d) 474.\nJohn D. AiJcin and James W. Witherspoon, both of Hereford, for respondents.\nThe Court of Civil Appeals properly affirmed the judgment of the trial court.\nBigelow v. Rupp, 192 S. W. (2d) 791; Johnson v. Newman, 168 Ark. 836, 271 S. W. 705; Fox v. Lavender, 89 Utah 115, 56 Pac. (2d) 1049."
+  },
+  "file_name": "0600-01",
+  "first_page_order": 616,
+  "last_page_order": 624
+}

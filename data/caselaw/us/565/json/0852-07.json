@@ -1,0 +1,59 @@
+{
+  "id": 12206435,
+  "name": "Alvarez v. United States",
+  "name_abbreviation": "Alvarez v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10835",
+  "first_page": "852",
+  "last_page": "852",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 852"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.635,
+    "sha256": "e898b0f201fed14a31b08dfc1c0cb7d98dc61487ce2b0b9f688a943fd5c5a0d0",
+    "simhash": "1:8c6b0bc322ad945a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Alvarez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10835.\nAlvarez v. United States."
+  },
+  "file_name": "0852-07",
+  "first_page_order": 934,
+  "last_page_order": 934
+}

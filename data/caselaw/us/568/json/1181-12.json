@@ -1,0 +1,59 @@
+{
+  "id": 12431478,
+  "name": "Preston v. United States",
+  "name_abbreviation": "Preston v. United States",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-8066",
+  "first_page": "1181",
+  "last_page": "1181",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1181"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.666,
+    "sha256": "3b4ecec1bbb3475e1049e436835782afa83eeef4ce40f18e138988b54d4af4f4",
+    "simhash": "1:95db8b930b163c58",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Preston v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8066.\nPreston v. United States."
+  },
+  "file_name": "1181-12",
+  "first_page_order": 1257,
+  "last_page_order": 1257
+}

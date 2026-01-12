@@ -1,0 +1,76 @@
+{
+  "id": 12419967,
+  "name": "Elashi et al. v. United States; and El-Mezain v. United States",
+  "name_abbreviation": "Elashi v. United States",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 11-1390; No. 11-10437",
+  "first_page": "977",
+  "last_page": "977",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 977"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "664 F. 3d 467",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3859113
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/664/0467-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 23,
+    "char_count": 156,
+    "ocr_confidence": 0.638,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2562062498624437
+    },
+    "sha256": "f0f03857638c64aaa5cd300632a1613c41558799edf06457003e164d6b3547ee",
+    "simhash": "1:250a93012a24542a",
+    "word_count": 27
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Elashi et al. v. United States; and El-Mezain v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied. Reported below: 664 F. 3d 467.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1390.\nNo. 11-10437.\nElashi et al. v. United States; and El-Mezain v. United States."
+  },
+  "file_name": "0977-09",
+  "first_page_order": 1053,
+  "last_page_order": 1053
+}

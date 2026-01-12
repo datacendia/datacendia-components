@@ -1,0 +1,59 @@
+{
+  "id": 5972180,
+  "name": "Curtis v. California",
+  "name_abbreviation": "Curtis v. California",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11013",
+  "first_page": "858",
+  "last_page": "858",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 858"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 84,
+    "ocr_confidence": 0.569,
+    "sha256": "ee440f5b948ad14c824ef6262c0ee0dfc641c39767b02338bfe8c4fd869e3050",
+    "simhash": "1:8805f78001c30a43",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Curtis v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 2d App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11013.\nCurtis v. California."
+  },
+  "file_name": "0858-14",
+  "first_page_order": 880,
+  "last_page_order": 880
+}

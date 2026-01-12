@@ -1,0 +1,84 @@
+{
+  "id": 12221883,
+  "name": "Loyola v. Donahoe, Postmaster General",
+  "name_abbreviation": "Loyola v. Donahoe",
+  "decision_date": "2012-05-29",
+  "docket_number": "No. 11-8636",
+  "first_page": "1020",
+  "last_page": "1020",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1020"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "565 U. S. 1258",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12251269,
+        12251334,
+        12251335,
+        12251305,
+        12251280,
+        12251319,
+        12251292
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/565/1258-01",
+        "/us/565/1258-06",
+        "/us/565/1258-07",
+        "/us/565/1258-04",
+        "/us/565/1258-02",
+        "/us/565/1258-05",
+        "/us/565/1258-03"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 29,
+    "char_count": 185,
+    "ocr_confidence": 0.546,
+    "sha256": "6460fea0932cc08ba5f2fd4437e4038a70d52e352631d89eb21eef0e9c31c889",
+    "simhash": "1:47877f50255cbf99",
+    "word_count": 30
+  },
+  "last_updated": "2024-02-27T23:45:15.365324+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Loyola v. Donahoe, Postmaster General."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Motion of petitioner for reconsideration of order denying leave to proceed in forma pauperis [565 U. S. 1258] denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8636.\nLoyola v. Donahoe, Postmaster General."
+  },
+  "file_name": "1020-07",
+  "first_page_order": 896,
+  "last_page_order": 896
+}

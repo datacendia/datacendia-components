@@ -1,0 +1,59 @@
+{
+  "id": 12231976,
+  "name": "Tolliver v. United States",
+  "name_abbreviation": "Tolliver v. United States",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-6635",
+  "first_page": "993",
+  "last_page": "993",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 993"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.697,
+    "sha256": "03b08bc07712ff2832898f10865ec6aed8989bf2f839397298cca4b6cf423fef",
+    "simhash": "1:f78aa2424a3b1c26",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Tolliver v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6635.\nTolliver v. United States."
+  },
+  "file_name": "0993-09",
+  "first_page_order": 1075,
+  "last_page_order": 1075
+}

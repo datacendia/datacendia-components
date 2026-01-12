@@ -1,0 +1,64 @@
+{
+  "id": 12702176,
+  "name": "In re Derrick Anthony POLLY, petitioner.",
+  "name_abbreviation": "In re Polly",
+  "decision_date": "2013-10-07",
+  "docket_number": "No. 13\u20135748.",
+  "first_page": "814",
+  "last_page": "814",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 814"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 333"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 23,
+    "char_count": 147,
+    "sha256": "3111f4fade5bb7ad903ee9a4d1db2dbcb285e94632da870e8da3a7998e10139c",
+    "simhash": "1:eaff442bbff9860f",
+    "word_count": 24
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Derrick Anthony POLLY, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of habeas corpus denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re Derrick Anthony POLLY, petitioner.\nNo. 13-5748.\nSupreme Court of the United States\nOct. 7, 2013.\nPetition for writ of habeas corpus denied."
+  },
+  "file_name": "0814-08",
+  "first_page_order": 814,
+  "last_page_order": 814
+}

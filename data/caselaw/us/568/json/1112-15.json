@@ -1,0 +1,59 @@
+{
+  "id": 12428960,
+  "name": "Aslan v. United States",
+  "name_abbreviation": "Aslan v. United States",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-7529",
+  "first_page": "1112",
+  "last_page": "1112",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1112"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.664,
+    "sha256": "20f9cee53af8529c4510c3ec6cd9c3d2290e18b714a0ee172fa4259fe214dfd1",
+    "simhash": "1:03808289ce959018",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Aslan v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7529.\nAslan v. United States."
+  },
+  "file_name": "1112-15",
+  "first_page_order": 1188,
+  "last_page_order": 1188
+}

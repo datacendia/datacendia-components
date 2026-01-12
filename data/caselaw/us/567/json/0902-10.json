@@ -1,0 +1,86 @@
+{
+  "id": 12407582,
+  "name": "In re Disbarment of Peel",
+  "name_abbreviation": "In re Disbarment of Peel",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. D-2639",
+  "first_page": "902",
+  "last_page": "902",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 902"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "566 U. S. 932",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12202976,
+        12202945,
+        12203011,
+        12202958,
+        12202992,
+        12203089,
+        12203065,
+        12203036
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/566/0932-03",
+        "/us/566/0932-01",
+        "/us/566/0932-05",
+        "/us/566/0932-02",
+        "/us/566/0932-04",
+        "/us/566/0932-08",
+        "/us/566/0932-07",
+        "/us/566/0932-06"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 105,
+    "ocr_confidence": 0.646,
+    "sha256": "03706e0984637055c86f5a4c4665b32ced7fe01075d7b0b6bacaea62441d74ef",
+    "simhash": "1:f839fda3fb025ae7",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:46:21.325002+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Peel."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see 566 U. S. 932.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2639.\nIn re Disbarment of Peel."
+  },
+  "file_name": "0902-10",
+  "first_page_order": 806,
+  "last_page_order": 806
+}

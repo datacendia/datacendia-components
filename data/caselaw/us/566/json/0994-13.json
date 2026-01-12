@@ -1,0 +1,59 @@
+{
+  "id": 12217123,
+  "name": "Gamage v. Mississippi",
+  "name_abbreviation": "Gamage v. Mississippi",
+  "decision_date": "2012-05-14",
+  "docket_number": "No. 11-9189",
+  "first_page": "994",
+  "last_page": "994",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 994"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 71,
+    "ocr_confidence": 0.602,
+    "sha256": "2b7769fc05c9dca22807cfc237e1148607f1e0b70ad4f5a120ca41629d7d333a",
+    "simhash": "1:9800014118ec898c",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gamage v. Mississippi."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Miss. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9189.\nGamage v. Mississippi."
+  },
+  "file_name": "0994-13",
+  "first_page_order": 870,
+  "last_page_order": 870
+}

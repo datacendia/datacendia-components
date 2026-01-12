@@ -1,0 +1,59 @@
+{
+  "id": 5899362,
+  "name": "Watson v. Georgia",
+  "name_abbreviation": "Watson v. Georgia",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5618",
+  "first_page": "932",
+  "last_page": "932",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 932"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 64,
+    "ocr_confidence": 0.58,
+    "sha256": "9896137a2736e47c1f2e252aac63731a17b620d1c24c1de8a8614fbc5f84544a",
+    "simhash": "1:924078d6540ed82f",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Watson v. Georgia."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ga. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5618.\nWatson v. Georgia."
+  },
+  "file_name": "0932-02",
+  "first_page_order": 954,
+  "last_page_order": 954
+}

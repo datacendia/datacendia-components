@@ -1,0 +1,59 @@
+{
+  "id": 5918579,
+  "name": "Harris v. City of Augusta, Georgia, et al.",
+  "name_abbreviation": "Harris v. City of Augusta",
+  "decision_date": "2011-06-06",
+  "docket_number": "No. 10-9812",
+  "first_page": "1036",
+  "last_page": "1036",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1036"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 91,
+    "ocr_confidence": 0.505,
+    "sha256": "5821a010a568614920139b21d091c46903d715e1e24bb7c53597baf6638627f6",
+    "simhash": "1:98e89da0128fb2bb",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Harris v. City of Augusta, Georgia, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9812.\nHarris v. City of Augusta, Georgia, et al."
+  },
+  "file_name": "1036-10",
+  "first_page_order": 1062,
+  "last_page_order": 1062
+}

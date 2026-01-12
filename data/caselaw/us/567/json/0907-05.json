@@ -1,0 +1,59 @@
+{
+  "id": 12408175,
+  "name": "Armstrong v. Florida",
+  "name_abbreviation": "Armstrong v. Florida",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. 11-8885",
+  "first_page": "907",
+  "last_page": "907",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 907"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 69,
+    "ocr_confidence": 0.578,
+    "sha256": "f3dc7f938a4b824d450bd12d4f2060124fa5c6fdcced804957092f97a240bf6d",
+    "simhash": "1:86dcd34070c73d36",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Armstrong v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8885.\nArmstrong v. Florida."
+  },
+  "file_name": "0907-05",
+  "first_page_order": 811,
+  "last_page_order": 811
+}

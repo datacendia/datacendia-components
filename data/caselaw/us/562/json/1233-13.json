@@ -1,0 +1,59 @@
+{
+  "id": 5960827,
+  "name": "Bowie v. California",
+  "name_abbreviation": "Bowie v. California",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8067",
+  "first_page": "1233",
+  "last_page": "1233",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1233"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 67,
+    "ocr_confidence": 0.669,
+    "sha256": "18a0a32807834ba1b38185df688f5f7853b2d2e0af041f481b54b410b09ce0ed",
+    "simhash": "1:8e2b13f3ce66956e",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bowie v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8067.\nBowie v. California."
+  },
+  "file_name": "1233-13",
+  "first_page_order": 1255,
+  "last_page_order": 1255
+}

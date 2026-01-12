@@ -1,0 +1,59 @@
+{
+  "id": 5992540,
+  "name": "Nichols v. United States",
+  "name_abbreviation": "Nichols v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5145",
+  "first_page": "906",
+  "last_page": "906",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 906"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.584,
+    "sha256": "6750909ce712399bef3f2525113653c8cfd9918c4fbf8da692f8754ab1fe3085",
+    "simhash": "1:870adf824b1f165a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Nichols v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5145.\nNichols v. United States."
+  },
+  "file_name": "0906-05",
+  "first_page_order": 928,
+  "last_page_order": 928
+}

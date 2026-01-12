@@ -1,0 +1,59 @@
+{
+  "id": 12428686,
+  "name": "Brown v. Gray, Commandant, United States Disciplinary Barracks, Fort Leavenworth",
+  "name_abbreviation": "Brown v. Gray",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-7257",
+  "first_page": "1107",
+  "last_page": "1107",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1107"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 18,
+    "char_count": 130,
+    "ocr_confidence": 0.582,
+    "sha256": "1da30a0f835b2be9b26ef4524d02883f9cc54ddd630e8aa1ff24970a1a3ea474",
+    "simhash": "1:9f85f1775337783e",
+    "word_count": 18
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Brown v. Gray, Commandant, United States Disciplinary Barracks, Fort Leavenworth."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7257.\nBrown v. Gray, Commandant, United States Disciplinary Barracks, Fort Leavenworth."
+  },
+  "file_name": "1107-02",
+  "first_page_order": 1183,
+  "last_page_order": 1183
+}

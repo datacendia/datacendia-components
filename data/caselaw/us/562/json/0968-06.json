@@ -1,0 +1,59 @@
+{
+  "id": 6029411,
+  "name": "Taylor v. Yates, Warden",
+  "name_abbreviation": "Taylor v. Yates",
+  "decision_date": "2010-10-12",
+  "docket_number": "No. 10-5824",
+  "first_page": "968",
+  "last_page": "968",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 968"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.593,
+    "sha256": "304038e5721b932f9ca3943adc9abbe910754df577464d031f9c4248f7bde88d",
+    "simhash": "1:93b2a7b929ef6176",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Taylor v. Yates, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5824.\nTaylor v. Yates, Warden."
+  },
+  "file_name": "0968-06",
+  "first_page_order": 990,
+  "last_page_order": 990
+}

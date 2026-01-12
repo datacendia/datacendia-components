@@ -1,0 +1,59 @@
+{
+  "id": 12433492,
+  "name": "Stinson v. United States",
+  "name_abbreviation": "Stinson v. United States",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-8551",
+  "first_page": "1239",
+  "last_page": "1239",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1239"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.673,
+    "sha256": "22d88cf63327ccdbcd64a91983bcc521b3a24f230a933810de07213b288d8657",
+    "simhash": "1:0580c112c8d7c708",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Stinson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8551.\nStinson v. United States."
+  },
+  "file_name": "1239-06",
+  "first_page_order": 1315,
+  "last_page_order": 1315
+}

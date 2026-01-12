@@ -1,0 +1,59 @@
+{
+  "id": 4225052,
+  "name": "Garcia-Lawson v. Lawson",
+  "name_abbreviation": "Garcia-Lawson v. Lawson",
+  "decision_date": "2011-05-02",
+  "docket_number": "No. 10-1159",
+  "first_page": "975",
+  "last_page": "975",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 975"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 73,
+    "ocr_confidence": 0.645,
+    "sha256": "e9f3c6503c4544f61064567e30616090b91d562bb68e50237ad77fd623ec7cf4",
+    "simhash": "1:0ad8cae3038e98f4",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Garcia-Lawson v. Lawson."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1159.\nGarcia-Lawson v. Lawson."
+  },
+  "file_name": "0975-11",
+  "first_page_order": 1001,
+  "last_page_order": 1001
+}

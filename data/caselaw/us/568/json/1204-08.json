@@ -1,0 +1,59 @@
+{
+  "id": 12432347,
+  "name": "Saint-Surin, aka St. Surin v. United States",
+  "name_abbreviation": "Saint-Surin v. United States",
+  "decision_date": "2013-02-25",
+  "docket_number": "No. 12-8406",
+  "first_page": "1204",
+  "last_page": "1204",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1204"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 93,
+    "ocr_confidence": 0.623,
+    "sha256": "19f4c0be99754a5c0703c575233db590ca663f683120020334b9a903b8673dce",
+    "simhash": "1:cd4ade27cc8fd4cc",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Saint-Surin, aka St. Surin v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8406.\nSaint-Surin, aka St. Surin v. United States."
+  },
+  "file_name": "1204-08",
+  "first_page_order": 1280,
+  "last_page_order": 1280
+}

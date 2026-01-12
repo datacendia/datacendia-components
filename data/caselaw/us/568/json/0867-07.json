@@ -1,0 +1,59 @@
+{
+  "id": 12414461,
+  "name": "Rivera-Velez v. United States",
+  "name_abbreviation": "Rivera-Velez v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10884",
+  "first_page": "867",
+  "last_page": "867",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 867"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 78,
+    "ocr_confidence": 0.683,
+    "sha256": "0b3fb45bbd4a570284a5f606f086777c970dd68146ef8b02e0a9f86784f566b3",
+    "simhash": "1:c788ad024c14a062",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rivera-Velez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10884.\nRivera-Velez v. United States."
+  },
+  "file_name": "0867-07",
+  "first_page_order": 943,
+  "last_page_order": 943
+}

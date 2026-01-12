@@ -1,0 +1,464 @@
+{
+  "id": 2339313,
+  "name": "Joe S. Wooten et al v. The State of Texas",
+  "name_abbreviation": "Wooten v. State",
+  "decision_date": "1944-01-12",
+  "docket_number": "No. 8155",
+  "first_page": "238",
+  "last_page": "243",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "142 Tex. 238"
+    },
+    {
+      "type": "parallel",
+      "cite": "177 S.W.2d 56"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "163 S. W. (2d) 383",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": -1
+    },
+    {
+      "cite": "139 Texas 426",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2311485
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/139/0426-01"
+      ]
+    },
+    {
+      "cite": "234 S. W. 97",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "293 S. W. 693",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "87 S. W. (2d) 703",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10264985,
+        2296237
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/87/0703-01",
+        "/tex/126/0353-01"
+      ]
+    },
+    {
+      "cite": "126 Texas 357",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "51 Texas 609",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2148978
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/51/0609-01"
+      ]
+    },
+    {
+      "cite": "19 S. W. 519",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "84 Texas 336",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "175 S. W. (2d) 664",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10218338
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/175/0664-01"
+      ]
+    },
+    {
+      "cite": "42 S. W. 1037",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "76 Am. Dec. 109",
+      "category": "reporters:federal",
+      "reporter": "Am. Dec.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "24 Texas 345",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2112084
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/24/0345-01"
+      ]
+    },
+    {
+      "cite": "45 Texas 396",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2160588
+      ],
+      "pin_cites": [
+        {
+          "page": "398"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/45/0396-01"
+      ]
+    },
+    {
+      "cite": "60 Texas 630",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2170964
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/60/0630-01"
+      ]
+    },
+    {
+      "cite": "90 S. W. (2d) 572",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10255946
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/90/0572-01"
+      ]
+    },
+    {
+      "cite": "114 S. W. (2d) 226",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2319484,
+        10245397,
+        2324559,
+        10245239
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/134/0332-01",
+        "/sw2d/114/0226-02",
+        "/tex/131/0163-01",
+        "/sw2d/114/0226-01"
+      ]
+    },
+    {
+      "cite": "134 Texas 332",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2319484
+      ],
+      "pin_cites": [
+        {
+          "page": "347"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/134/0332-01"
+      ]
+    },
+    {
+      "cite": "192 S. W. 537",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8253048
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/192/0537-01"
+      ]
+    },
+    {
+      "cite": "108 Texas 283",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2249326
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/108/0283-01"
+      ]
+    },
+    {
+      "cite": "234 S. W. 91",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8262736
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/234/0091-01"
+      ]
+    },
+    {
+      "cite": "184 S. W. 1065",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8255247
+      ],
+      "pin_cites": [
+        {
+          "page": "1067"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/184/1065-01"
+      ]
+    },
+    {
+      "cite": "275 S. W. 494",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10300156
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/275/0494-01"
+      ]
+    },
+    {
+      "cite": "87 S. W. (2d) 508",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10258616
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/87/0508-01"
+      ]
+    },
+    {
+      "cite": "131 S. W. (2d) 801",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10239610
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/131/0801-01"
+      ]
+    },
+    {
+      "cite": "163 S. W. (2d) 380",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2311485,
+        10213686
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/139/0426-01",
+        "/sw2d/163/0380-01"
+      ]
+    },
+    {
+      "cite": "126 Texas 353",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2296237
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/126/0353-01"
+      ]
+    },
+    {
+      "cite": "24 S. W. 263",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "23 S. W. 979",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "86 Texas 314",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2206285
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/86/0314-01"
+      ]
+    },
+    {
+      "cite": "48 S. W. (2d) 737",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10252403
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/48/0737-01"
+      ]
+    },
+    {
+      "cite": "84 Texas 333",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2209993
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/84/0333-01"
+      ]
+    },
+    {
+      "cite": "139 Texas 426",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2311485
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/139/0426-01"
+      ]
+    },
+    {
+      "cite": "87 S. W. (2d) 703",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10264985,
+        2296237
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/87/0703-01",
+        "/tex/126/0353-01"
+      ]
+    },
+    {
+      "cite": "51 Texas 609",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2148978
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/51/0609-01"
+      ]
+    },
+    {
+      "cite": "19 S. W. 519",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 531,
+    "char_count": 10174,
+    "ocr_confidence": 0.606,
+    "pagerank": {
+      "raw": 5.088639328685426e-07,
+      "percentile": 0.9380328737312484
+    },
+    "sha256": "94039aa9a6cf0121ff1253825c4afe02644f85cce786ca3f6ff99f54ed684f53",
+    "simhash": "1:556d772350d6ba3c",
+    "word_count": 1827
+  },
+  "last_updated": "2024-02-27T17:54:29.127269+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Joe S. Wooten et al v. The State of Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Judge Smedley,\nof the Commission of Appeals delivered the opinion for the Court.\nThis is a proceeding instituted by the State of Texas, respondent, against petitioners, Joe S. Wooten and wife, for the condemnation of two tracts of land in Brewster County, to be used as a part of Big Bend National Park created by legislative enactment in 1939. Acts Regular Session, 46th Legislature, pp. 520-525. Judgment rendered by the county court condemning the land and assessing petitioner\u2019s damages for the land taken at $400.00 was affirmed by the Court of Civil Appeals. The opinion of that court has not been published.\nThe principal question presented is as to the sufficiency of th\u00e9 description of the land sought to be taken. In the statement in writing filed with the County Judge which is the petition for condemnation (Art. 3264, Revised Civil Statutes of 1925), in the decision and award mad\u00e9 by the commissioners and in the judgment rendered by the county court, the two tracts of land are thus described:\n\u201cSituated in Brewster County, Texas, and described as follows: The North part of Tract No. 10, Section 13, Block G-17, H. P. Melton Survey, containing 60 acres of land, more or less, and the North end of Tract No. 10, Section 11, Block G-17, Thos. F. Main Survey, containing 140 acres of land, more or less, aggregating the total sum of 200 acres of land, more or less.\u201d\nPetitioners contend that because this description wholly fails to identify the land sought to be condemned, neither the commissioners nor the county court acquired jurisdiction in the proceeding.\nSection 1 of Article 3264 of the Revised Civil Statutes- of 1925, as amended (Vernon\u2019s Annotated Civil Statutes, Article 3264, Sec. 1), provides that the statement in writing required to be filed by the party desiring to condemn real estate \u201cshall describe the land sought to be condemned.\u201d It has been held that \u201cif this be not so done as to identify the land to be taken the jurisdiction of the tribunal having power to condemn never attaches.\u201d Parker v. Fort Worth & D. C. Ry. Co., 84 Texas 333, 19 S. W. 519. It is held further in that case that the certainty required in the description of the land in a condemnation proceeding \u201cis of the same nature as that required in conveyances of land, so that a surveyor could go upon the land and mark out the land designated.\u201d See also Roberts v. County of Robertson, 48 S. W. (2d) 737, application for writ of error refused.\nThe rule as to the description in a deed, often quoted, is thus stated in Norris v. Hunt, 51 Texas 609, 614: \u201cThe true rule, as deduced from the authorities, seems to be that the description should be so definite and certain upon the face of the instrument itself, or by other writing referred to, that the land can be identified with reasonable certainty.\u201d In Harris v. Shafer, 86 Texas 314, 23 S. W. 979, 24 S. W. 263, the order of confirmation and the deed in an administrator\u2019s sale described in the land sold as \u201c1800 acres of land, it being the upper part of the survey.\u201d The court held that the sale was void because the description in the order of confirmation and in the deed was \u201cwholly insufficient and in fact no description, furnishing no means by which the land intended to be conveyed can be located at any particular place in the survey.\u201d Similarly, in Smith v. Sorelle, 126 Texas 353, 87 S. W. (2d) 703, a mineral deed was held void for uncertainty in description. It described the land by quantity and as being a part of a larger tract and contained nothing to identify the specific portion of the larger tract intended to be conveyed. See also Maupin v. Chaney, 139 Texas 426, 163 S. W. (2d) 380; Brown v. Gaines, 131 S. W. (2d) 801, application for writ of error refused.\nThe petition, the commissioners\u2019 award, and the judgment in this case contain no descriptive data for identification of the land sought to be condemned save that above quoted. The one tract is described as the north part of Tract 10, Section 13, Block G-17, H. P. Melton survey, containing 60 acres of land, more or less; and the description given of the other tract is that it is the north end of Tract 10, Section 11, Block G-17, Thos. F. Main survey, containing 140 acres of land, more or less.\nRespondent disregards the words \u201cmore or less\u201d used in the description of the two tracts and treats the descriptions as if they read: \u201cThe north part of Tract No. 10, Sec. 13, etc. containing 60 acres of land,\u201d and \u201cthe north end of Tract No. 10, Sec. 11, etc., containing 140 acres of land.\u201d It is argued that these descriptions are sufficiently definite because a surveyor could go upon the ground and mark off the north 60 acres of Tract No. 10 in Section 13, and the north 140 acres of Tract No. 10 in Section 11'. The authorities upon which respondent relies are cases that have held sufficient such descriptions as \u201c50 acres on the east end\u201d of a designated larger tract; 58.7 acres out of the southeast end of the 228.7 acre tract,\u201d which latter tract is described by metes and bounds; \u201c420 acres out of the northeast part of the Robert Hill survey\u201d; \u201cthe south 10 acres out of 30 acres in the northeast corner of survey No. 62.\u201d Clayborn v. Gambill, 87 S. W. (2d) 508 (application for writ of error refused); Porch v. Rooney, 275 S. W. 494 (application for writ of error refused); Diffie v. White, 184 S. W. 1065, 1067; Long v. Martin, 234 S. W. 91. See also Pruett v. Robison, 108 Texas 283, 192 S. W. 537; Simonds v. Stanolind Oil & Gas Co., 134 Texas 332, 347, 114 S. W. (2d) 226; Wiggins v. Hensley, 90 S. W. (2d) 572. In none of the foregoing cases was the specification of the number of acres intended to be conveyed qualified by the words \u201cmore or less.\u201d It should be noted also that in most, if not all, of the cases last cited, the survey or larger tract out of which the smaller tract was to be taken was a square or a parallelogram, so that the designated acreage could be construed as a square or a parallelogram by lines drawn parallel to the line or lines of the larger tract. The statement of facts in the instant case contains no evidence showing the configuration of the larger tracts out of which the acreage attempted to be condemned is to be taken.\nIt is unnecessary, however, to decide in this case whether the description would be sufficient but for the use of the words \u201cmore or less.\u201d These words were used as a part of the description and they are not to be ignored. The instruments do riot designated the land as the north 60 acres of Tract No. 10, Section 10, Section 13, and the north 140 acres of Tract No. 10, Section 11, but as the north part of Tract No. 10, Section 13, containing 60 acres, more or less, and the north end of Tract No. 10, Section 11, containing 140 acres, more or less.\nUsually the words \u201cmore or less\u201d in a deed are added to an estimate of the quantity of the land following a particular description. So used they are a part of the description, qualifying the statement of quantity, and they contribute little or nothing toward identifying the land. Weir v. McGee, 25 Texas Sup. 21; Troy v. Ellis, 60 Texas 630. But the words \u201cmore or less\u201d thus used in a deed are not without legal import. If inserted without fraud or mistake, they are taken as prima facie evidence that the parties intended to risk a not unreasonable gain or loss in the estimated quantity. Rich v. Ferguson, 45 Texas 396, 398; Smith v. Fly, 24 Texas 345, 76 Am. Dec. 109; Watson v. Cline, 42 S. W. 1037.\nIn the instant case, however, the words \u201cmore or less\u201d are not attached to an estimate of quantity following a particular description of the land; and since there is no particular description the acreage, or quantity, becomes important in ascertaining what land is intended to be condemned. There is nothing to identify or define the north part of one tract and the north end of the other tract except the statement of the acreage, and that statement is qualified, made indefinite and uncertain by the addition of the words, \u201cmore or less.\u201d The use of these words destroys the value of the statements of the acreage for the purpose of description. The substance of the description is: 60 acres, more or less, off the north end or part of one tract, and 140 acres, more or less, off the north end or part of the other tract. Is it 60 (and 140) acres or more than 60 (and 140) acres or less than 60 (and 140) acres? If more, how much more? If less, how much less? In our opinion, the description of the land contained in the petition for condemnation, in the award and in the judgment, is so indefinite and uncertain that the land cannot be identified with reasonable certainty. It follows that neither the commissioners nor the county court acquired jurisdiction.\nOther questions presented by the application for writ of error were decided in Schooler v. State, 175 S. W. (2d) 664, in which application for writ of error was \u201crefused for want of merit.\u201d\nThe judgments of the Court of Civil Appeals and the county court are reversed and the condemnation proceeding is dismissed.\nOpinion adopted by the Supreme Court January 12, 1944.\nRehearing overruled February 9, 1944.",
+        "type": "majority",
+        "author": "Mr. Judge Smedley,"
+      }
+    ],
+    "attorneys": [
+      "Frank 0. Ray, of Alpine, and Thomas B. Greenwood, of Austin, for petitioners.",
+      "Gerald! C. Mmm, Attorney General, Frederick B. Isely, Assistant Attorney General, and Edward B. Johnson, of Brownwood, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "Joe S. Wooten et al v. The State of Texas.\nNo. 8155.\nDecided January 12, 1944.\nRehearing overruled February 9, 1944.\n(177 S. W., 2d Series, 56.)\nFrank 0. Ray, of Alpine, and Thomas B. Greenwood, of Austin, for petitioners.\nIn condemnation proceedings the petition should describe the land to be condemned with such certainty as to identity it. Parker v. Fort Worth & D. C. Ry. Co., 84 Texas 336; 19 S. W. 519; Norris v. Hunt, 51 Texas 609; Smith v. Sorrelle, 126 Texas 357, 87 S. W. (2d) 703; Lewis on Eminent Domain, 350.\nGerald! C. Mmm, Attorney General, Frederick B. Isely, Assistant Attorney General, and Edward B. Johnson, of Brownwood, for respondent.\nWhere the description in the deed specifies a property intended to be conveyed, and the instrument furnishes other sufficient means of determining the particular property conveyed thereby, the description is legally sufficient. 14 Texas Jur. 988; Easterling v. Simmons, 293 S. W. 693; Long v. Martin, 234 S. W. 97; Maupin v. Chaney, 139 Texas 426, 163 S. W. (2d) 383."
+  },
+  "file_name": "0238-01",
+  "first_page_order": 256,
+  "last_page_order": 261
+}

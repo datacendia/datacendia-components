@@ -1,0 +1,59 @@
+{
+  "id": 12430247,
+  "name": "Quiller v. United States",
+  "name_abbreviation": "Quiller v. United States",
+  "decision_date": "2013-01-22",
+  "docket_number": "No. 12-7875",
+  "first_page": "1149",
+  "last_page": "1149",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1149"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.696,
+    "sha256": "393eb093fc9d693f2841fd848851d66af15912c9906feedcdaeba865551cca9c",
+    "simhash": "1:b48a085bde97b911",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Quiller v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7875.\nQuiller v. United States."
+  },
+  "file_name": "1149-14",
+  "first_page_order": 1225,
+  "last_page_order": 1225
+}

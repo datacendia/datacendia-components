@@ -1,0 +1,59 @@
+{
+  "id": 12428846,
+  "name": "Astacio v. United States",
+  "name_abbreviation": "Astacio v. United States",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-7414",
+  "first_page": "1110",
+  "last_page": "1110",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1110"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.655,
+    "sha256": "219f46c41606d3f19878279da3466a48c6821c71764105175442171cac574b23",
+    "simhash": "1:84a2888a4ad09808",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Astacio v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7414.\nAstacio v. United States."
+  },
+  "file_name": "1110-09",
+  "first_page_order": 1186,
+  "last_page_order": 1186
+}

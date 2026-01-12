@@ -1,0 +1,59 @@
+{
+  "id": 5990171,
+  "name": "Bucci v. United States",
+  "name_abbreviation": "Bucci v. United States",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7778",
+  "first_page": "1161",
+  "last_page": "1161",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1161"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.636,
+    "sha256": "0530d4f1918c2b5b73d13723d3f086bf02531d44853997c91ae6077f4ad9b6ff",
+    "simhash": "1:058a8ec32b909b08",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bucci v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7778.\nBucci v. United States."
+  },
+  "file_name": "1161-04",
+  "first_page_order": 1183,
+  "last_page_order": 1183
+}

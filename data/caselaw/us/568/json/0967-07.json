@@ -1,0 +1,59 @@
+{
+  "id": 12419654,
+  "name": "Esteen v. California",
+  "name_abbreviation": "Esteen v. California",
+  "decision_date": "2012-10-15",
+  "docket_number": "No. 12-5957",
+  "first_page": "967",
+  "last_page": "967",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 967"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 84,
+    "ocr_confidence": 0.721,
+    "sha256": "c9170c06a82541161914bdd218675413bcd134fb7984add01d6aa78ee9206ced",
+    "simhash": "1:648052c030834a01",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Esteen v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 1st App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5957.\nEsteen v. California."
+  },
+  "file_name": "0967-07",
+  "first_page_order": 1043,
+  "last_page_order": 1043
+}

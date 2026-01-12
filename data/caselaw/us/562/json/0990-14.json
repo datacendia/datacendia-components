@@ -1,0 +1,59 @@
+{
+  "id": 6029547,
+  "name": "Ray v. United States",
+  "name_abbreviation": "Ray v. United States",
+  "decision_date": "2010-10-18",
+  "docket_number": "No. 10-6546",
+  "first_page": "990",
+  "last_page": "990",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 990"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 69,
+    "ocr_confidence": 0.614,
+    "sha256": "48ffdeb2f734c3adb1badd7d106d8be9cb57300662326e433d53561e66f66ab0",
+    "simhash": "1:05ca92d1cf99b904",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ray v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6546.\nRay v. United States."
+  },
+  "file_name": "0990-14",
+  "first_page_order": 1012,
+  "last_page_order": 1012
+}

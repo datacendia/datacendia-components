@@ -1,0 +1,59 @@
+{
+  "id": 12206953,
+  "name": "Jordan v. Virginia",
+  "name_abbreviation": "Jordan v. Virginia",
+  "decision_date": "2012-04-16",
+  "docket_number": "No. 11-9117",
+  "first_page": "949",
+  "last_page": "949",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 949"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 65,
+    "ocr_confidence": 0.575,
+    "sha256": "32c03af58d0f05d7e4ff53d017599af10984a8f0beb648bb5eaccfe71939ae90",
+    "simhash": "1:eaf762cd0e5c7e98",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jordan v. Virginia."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Va. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9117.\nJordan v. Virginia."
+  },
+  "file_name": "0949-11",
+  "first_page_order": 825,
+  "last_page_order": 825
+}

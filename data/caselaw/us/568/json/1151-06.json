@@ -1,0 +1,86 @@
+{
+  "id": 12430295,
+  "name": "Millbrook v. United States",
+  "name_abbreviation": "Millbrook v. United States",
+  "decision_date": "2013-02-15",
+  "docket_number": "No. 11-10362",
+  "first_page": "1151",
+  "last_page": "1151",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1151"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "567 U. S. 968",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12413251,
+        12413255,
+        12413259,
+        12413260,
+        12413265,
+        12413239,
+        12413241,
+        12413247
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/567/0968-04",
+        "/us/567/0968-05",
+        "/us/567/0968-06",
+        "/us/567/0968-07",
+        "/us/567/0968-08",
+        "/us/567/0968-01",
+        "/us/567/0968-02",
+        "/us/567/0968-03"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 155,
+    "ocr_confidence": 0.597,
+    "sha256": "4f9822a88944de37068275e350ccc6c488b04f4b112f33aee29fadfdd2ad7f7c",
+    "simhash": "1:8a04c241ec37167c",
+    "word_count": 25
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Millbrook v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. [Certiorari granted, 567 U. S. 968.] Motion of the Solicitor General for divided argument granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10362.\nMillbrook v. United States."
+  },
+  "file_name": "1151-06",
+  "first_page_order": 1227,
+  "last_page_order": 1227
+}

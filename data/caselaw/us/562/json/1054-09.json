@@ -1,0 +1,61 @@
+{
+  "id": 6023317,
+  "name": "Harrison v. International Business Machines (IBM) Corp.",
+  "name_abbreviation": "Harrison v. International Business Machines (IBM) Corp.",
+  "decision_date": "2010-11-15",
+  "docket_number": "No. 10-6986",
+  "first_page": "1054",
+  "last_page": "1054",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1054"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 27,
+    "char_count": 183,
+    "ocr_confidence": 0.627,
+    "sha256": "f3b0382f0a319713ac617dacbf03c52dac1049ab2d896f55bf731416e88bd4ff",
+    "simhash": "1:9cf34aa1f36eb4f6",
+    "word_count": 28
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Breyer took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Harrison v. International Business Machines (IBM) Corp."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.\nJustice Breyer took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6986.\nHarrison v. International Business Machines (IBM) Corp."
+  },
+  "file_name": "1054-09",
+  "first_page_order": 1076,
+  "last_page_order": 1076
+}

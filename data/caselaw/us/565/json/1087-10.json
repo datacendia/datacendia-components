@@ -1,0 +1,61 @@
+{
+  "id": 12237644,
+  "name": "Iglesias v. United States",
+  "name_abbreviation": "Iglesias v. United States",
+  "decision_date": "2011-12-05",
+  "docket_number": "No. 11-7150",
+  "first_page": "1087",
+  "last_page": "1087",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1087"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 151,
+    "ocr_confidence": 0.687,
+    "sha256": "a27e086f09441fae3cb63ae936d7ace7d98c3929df27ca5d1ee3c4ec9e108f5b",
+    "simhash": "1:0d10fb82662cf846",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Iglesias v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7150.\nIglesias v. United States."
+  },
+  "file_name": "1087-10",
+  "first_page_order": 1169,
+  "last_page_order": 1169
+}

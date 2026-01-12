@@ -1,0 +1,59 @@
+{
+  "id": 12422953,
+  "name": "Whitmore v. Parker, Warden",
+  "name_abbreviation": "Whitmore v. Parker",
+  "decision_date": "2012-11-13",
+  "docket_number": "No. 12-6235",
+  "first_page": "1015",
+  "last_page": "1015",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1015"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.651,
+    "sha256": "73ad04e0f726803924bab75c9e152fe71367c88cac56d347bfe6358340baaded",
+    "simhash": "1:9695d139fe775a76",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Whitmore v. Parker, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6235.\nWhitmore v. Parker, Warden."
+  },
+  "file_name": "1015-02",
+  "first_page_order": 1091,
+  "last_page_order": 1091
+}

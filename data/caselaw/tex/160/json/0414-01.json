@@ -1,0 +1,89 @@
+{
+  "id": 2259057,
+  "name": "The State of Texas Ex Rel Raymond T. Yelkin, Et Al v. Thomas E. Hand, Jr., Et Al.",
+  "name_abbreviation": "State ex rel. Yelkin v. Hand",
+  "decision_date": "1960-02-26",
+  "docket_number": "No. A-7735",
+  "first_page": "414",
+  "last_page": "415",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "160 Tex. 414"
+    },
+    {
+      "type": "parallel",
+      "cite": "333 S.W.2d 108"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "333 S.W. 2d 109",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10152784,
+        10152826,
+        2259002,
+        2259006
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/333/0109-01",
+        "/sw2d/333/0109-02",
+        "/tex/160/0415-01",
+        "/tex/160/0445-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 140,
+    "char_count": 1372,
+    "ocr_confidence": 0.595,
+    "pagerank": {
+      "raw": 4.6922169990516086e-08,
+      "percentile": 0.2949990520682866
+    },
+    "sha256": "5617e5b127c001965d9126b32b9ef7374fedb6af1aa2cb98ddf3904032051497",
+    "simhash": "1:9d619e94d7d25e06",
+    "word_count": 236
+  },
+  "last_updated": "2024-02-27T22:54:30.640255+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "The State of Texas Ex Rel Raymond T. Yelkin, Et Al v. Thomas E. Hand, Jr., Et Al."
+    ],
+    "opinions": [
+      {
+        "text": "Court en banc in chambers.\nIt is the order of this Court that Respondents Thomas E. Hand, Jr., J. Ed. Eisemann, III, J. R. Strickland, Wylie W. Vale, Donald V. Weber, W. W. Hand, Alvin A. Cherry, and E. T. Criddel, II, their agents and' employees; are temporarily enjoined from taking or causing to be taken, either directly or indirectly, any action for the calling or holding of any election of corporate officers or directors of Columbia General Life Insurance Company or from holding, participating in, or being a candidate for election in any such corporate election, pending a final determination of the applications for writs of error now pending in this Court and until the further order of this Court.*\nOrder issued February 26, 1960.\n* Applications refused, no reversible error, March 4, 1960, this vol. below, 333 S.W. 2d 109.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Joseph G. Resweber, County Attorney Harris County, Barrow, Bland & Rehmet and David Bland, all of Houston, M. K. Woodward, Graves, Dougherty and Gee and J. Chrys Dougherty, for the State and ex rel Yelkin.",
+      "Butler, Binion, Rice & Cook and Fletcher H. Etheridge, Bell & Singleton and Charles W. Bell, all of Houston, Hart and Hart James P. Hart, all of Austin,, for Hand et al."
+    ],
+    "corrections": "",
+    "head_matter": "The State of Texas Ex Rel Raymond T. Yelkin, Et Al v. Thomas E. Hand, Jr., Et Al.\nNo. A-7735.\nDecided in Chambers February 26, 1960.\n(333 S.W. 2d Series 108)\nJoseph G. Resweber, County Attorney Harris County, Barrow, Bland & Rehmet and David Bland, all of Houston, M. K. Woodward, Graves, Dougherty and Gee and J. Chrys Dougherty, for the State and ex rel Yelkin.\nButler, Binion, Rice & Cook and Fletcher H. Etheridge, Bell & Singleton and Charles W. Bell, all of Houston, Hart and Hart James P. Hart, all of Austin,, for Hand et al."
+  },
+  "file_name": "0414-01",
+  "first_page_order": 428,
+  "last_page_order": 429
+}

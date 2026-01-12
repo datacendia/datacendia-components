@@ -1,0 +1,59 @@
+{
+  "id": 6000427,
+  "name": "Velasquez-Torrez v. United States",
+  "name_abbreviation": "Velasquez-Torrez v. United States",
+  "decision_date": "2010-10-18",
+  "docket_number": "No. 10-6557",
+  "first_page": "990",
+  "last_page": "990",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 990"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 82,
+    "ocr_confidence": 0.657,
+    "sha256": "a5cffc436a4ac202762d348b321e62f9bb667051dbc47546a250a7b2b621211c",
+    "simhash": "1:052ad1830982982f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Velasquez-Torrez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6557.\nVelasquez-Torrez v. United States."
+  },
+  "file_name": "0990-16",
+  "first_page_order": 1012,
+  "last_page_order": 1012
+}

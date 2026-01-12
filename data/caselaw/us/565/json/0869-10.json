@@ -1,0 +1,59 @@
+{
+  "id": 12211178,
+  "name": "Kavel v. Marshall, Warden",
+  "name_abbreviation": "Kavel v. Marshall",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11142",
+  "first_page": "869",
+  "last_page": "869",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 869"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.669,
+    "sha256": "65008e48835908431296c44a1ad0d8cb66796806e2d75d1eb90d1ab8159b1246",
+    "simhash": "1:be9c5366dfe393e2",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kavel v. Marshall, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11142.\nKavel v. Marshall, Warden."
+  },
+  "file_name": "0869-10",
+  "first_page_order": 951,
+  "last_page_order": 951
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5900494,
+  "name": "Caldwell v. United States",
+  "name_abbreviation": "Caldwell v. United States",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 10-7216",
+  "first_page": "1076",
+  "last_page": "1076",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1076"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.603,
+    "sha256": "51263c58e670312c168ec4207e031db72819f4fb4a775999f3cd4220cf75753b",
+    "simhash": "1:06bbe2830fb5855e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Caldwell v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7216.\nCaldwell v. United States."
+  },
+  "file_name": "1076-04",
+  "first_page_order": 1098,
+  "last_page_order": 1098
+}

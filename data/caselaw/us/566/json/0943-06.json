@@ -1,0 +1,59 @@
+{
+  "id": 12205191,
+  "name": "Voisin v. Rader, Warden",
+  "name_abbreviation": "Voisin v. Rader",
+  "decision_date": "2012-04-16",
+  "docket_number": "No. 11-8736",
+  "first_page": "943",
+  "last_page": "943",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 943"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.555,
+    "sha256": "057212a1f16213355f2364e22abc15fe1df8910d6ad872a8030768aefc970fae",
+    "simhash": "1:e048db92f90a8a22",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Voisin v. Rader, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8736.\nVoisin v. Rader, Warden."
+  },
+  "file_name": "0943-06",
+  "first_page_order": 819,
+  "last_page_order": 819
+}

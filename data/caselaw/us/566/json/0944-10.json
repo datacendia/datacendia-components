@@ -1,0 +1,59 @@
+{
+  "id": 12205555,
+  "name": "Frame v. Pennsylvania",
+  "name_abbreviation": "Frame v. Pennsylvania",
+  "decision_date": "2012-04-16",
+  "docket_number": "No. 11-8783",
+  "first_page": "944",
+  "last_page": "944",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 944"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 70,
+    "ocr_confidence": 0.589,
+    "sha256": "9b9c614094316f1186cfe8c3da772bd3d18094864d1737040670af4adacf5c3b",
+    "simhash": "1:7e1c024134889ce2",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Frame v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Commw. Ct. Pa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8783.\nFrame v. Pennsylvania."
+  },
+  "file_name": "0944-10",
+  "first_page_order": 820,
+  "last_page_order": 820
+}

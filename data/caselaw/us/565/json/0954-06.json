@@ -1,0 +1,59 @@
+{
+  "id": 12228146,
+  "name": "Moore v. Nevada",
+  "name_abbreviation": "Moore v. Nevada",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-6089",
+  "first_page": "954",
+  "last_page": "954",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 954"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 63,
+    "ocr_confidence": 0.696,
+    "sha256": "f8a7dd7862f891b4dec372c8fc31507fb4e57a52786943841463fad38e2adecd",
+    "simhash": "1:89f686272d87ffc0",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Moore v. Nevada."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Nev. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6089.\nMoore v. Nevada."
+  },
+  "file_name": "0954-06",
+  "first_page_order": 1036,
+  "last_page_order": 1036
+}

@@ -1,0 +1,59 @@
+{
+  "id": 4335517,
+  "name": "Williams v. United States",
+  "name_abbreviation": "Williams v. United States",
+  "decision_date": "2011-06-28",
+  "docket_number": "No. 10-8337",
+  "first_page": "1053",
+  "last_page": "1053",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1053"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.519,
+    "sha256": "3c25892a13388867a608f0af74c74910db54688ba35aa018f04220ab50e17406",
+    "simhash": "1:840aeea18ea5b82e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8337.\nWilliams v. United States."
+  },
+  "file_name": "1053-04",
+  "first_page_order": 1047,
+  "last_page_order": 1047
+}

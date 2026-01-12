@@ -1,0 +1,61 @@
+{
+  "id": 5951346,
+  "name": "Montejo v. Louisiana",
+  "name_abbreviation": "Montejo v. Louisiana",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 10-416",
+  "first_page": "1082",
+  "last_page": "1082",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1082"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 22,
+    "char_count": 144,
+    "ocr_confidence": 0.561,
+    "sha256": "56759d9435679d8beca5f3d6bc52ebdacbcce4e9993651ea61975ec02eec1fe4",
+    "simhash": "1:19247b82606ef852",
+    "word_count": 23
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Montejo v. Louisiana."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. La. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-416.\nMontejo v. Louisiana."
+  },
+  "file_name": "1082-07",
+  "first_page_order": 1104,
+  "last_page_order": 1104
+}

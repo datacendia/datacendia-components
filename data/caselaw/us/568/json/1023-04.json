@@ -1,0 +1,92 @@
+{
+  "id": 12423687,
+  "name": "In re Disbarment of Mahler",
+  "name_abbreviation": "In re Disbarment of Mahler",
+  "decision_date": "2012-11-26",
+  "docket_number": "No. D-2686",
+  "first_page": "1023",
+  "last_page": "1023",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1023"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "567 U. S. 959",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12413056,
+        12413025,
+        12413032,
+        12413064,
+        12413070,
+        12413039,
+        12413075,
+        12413015,
+        12413048,
+        12413081,
+        12413051
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/567/0959-07",
+        "/us/567/0959-02",
+        "/us/567/0959-03",
+        "/us/567/0959-08",
+        "/us/567/0959-09",
+        "/us/567/0959-04",
+        "/us/567/0959-10",
+        "/us/567/0959-01",
+        "/us/567/0959-05",
+        "/us/567/0959-11",
+        "/us/567/0959-06"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 107,
+    "ocr_confidence": 0.634,
+    "sha256": "99fb9d7d773bc147b9ebaf86494a4b2549605cd850902a8f4f6bb056f2c2b960",
+    "simhash": "1:9ab8548ffa923be8",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Mahler."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2686.\nIn re Disbarment of Mahler.\n[For earlier order herein, see 567 U. S. 959.]"
+  },
+  "file_name": "1023-04",
+  "first_page_order": 1099,
+  "last_page_order": 1099
+}

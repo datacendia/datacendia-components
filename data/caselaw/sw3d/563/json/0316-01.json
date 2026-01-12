@@ -1,0 +1,456 @@
+{
+  "id": 12658367,
+  "name": "Andy GONZALEZ, Appellant v. The STATE of Texas, Appellee",
+  "name_abbreviation": "Gonzalez v. State",
+  "decision_date": "2018-08-16",
+  "docket_number": "NO. 01-17-00134-CR",
+  "first_page": "316",
+  "last_page": "325",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 S.W.3d 316"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex. App. Ct.",
+    "id": 30166,
+    "name": "Court of Appeals of Texas, Houston (1st Dist.)"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "Tex. Health & Safety Code Ann. \u00a7\u00a7 481.115",
+      "category": "laws:leg_statute",
+      "reporter": "Tex. Code Ann.",
+      "pin_cites": [
+        {
+          "page": "(d)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "85 S.W.3d 817",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11362371,
+        11362255
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "819"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/85/0817-02",
+        "/sw3d/85/0817-01"
+      ]
+    },
+    {
+      "cite": "152 S.W.3d 72",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9040170
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "79-80",
+          "parenthetical": "holding term \"arrest\" includes \"detention\" purposes of Article 14.03(g)(1) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/152/0072-01"
+      ]
+    },
+    {
+      "cite": "123 S.W.3d 401",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9060403
+      ],
+      "weight": 2,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "405",
+          "parenthetical": "noting Ector County Deputy Sheriff's geographic jurisdiction was Ector County"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/123/0401-01"
+      ]
+    },
+    {
+      "cite": "510 S.W.3d 918",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12374610
+      ],
+      "weight": 8,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "923",
+          "parenthetical": "quoting Gonzales , 369 S.W.3d at 855 "
+        },
+        {
+          "page": "923"
+        },
+        {
+          "page": "922-23",
+          "parenthetical": "stating appellate courts defer to trial court's implied determination of facts when evaluating whether officer's exercise of community caretaking function is proper"
+        },
+        {
+          "page": "925"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/510/0918-01"
+      ]
+    },
+    {
+      "cite": "369 S.W.3d 851",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7315986
+      ],
+      "weight": 6,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "854-55"
+        },
+        {
+          "page": "855",
+          "parenthetical": "deferring to trial court's determination of officer's primary motivation for community-caretaking stop when it was supported by record because issue \"depends so much on credibility and demeanor\""
+        },
+        {
+          "page": "855"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/369/0851-01"
+      ]
+    },
+    {
+      "cite": "85 S.W.3d 272",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11349717
+      ],
+      "weight": 2,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "276-77"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/85/0272-01"
+      ]
+    },
+    {
+      "cite": "7 S.W.3d 148",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11496214
+      ],
+      "weight": 5,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "151",
+          "parenthetical": "citations omitted"
+        },
+        {
+          "page": "152"
+        },
+        {
+          "page": "152"
+        },
+        {
+          "page": "152"
+        },
+        {
+          "page": "152"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/7/0148-01"
+      ]
+    },
+    {
+      "cite": "413 U.S. 433",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11341150
+      ],
+      "weight": 3,
+      "year": 1973,
+      "pin_cites": [
+        {
+          "page": "441"
+        },
+        {
+          "page": "2528"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/413/0433-01"
+      ]
+    },
+    {
+      "cite": "126 S.W.3d 79",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9283457
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "84-85"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/126/0079-01"
+      ]
+    },
+    {
+      "cite": "926 S.W.2d 782",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10022808
+      ],
+      "pin_cites": [
+        {
+          "page": "783"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/926/0782-01"
+      ]
+    },
+    {
+      "cite": "593 S.W.2d 709",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9947777
+      ],
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "714",
+          "parenthetical": "concluding that defendant forfeited claim that trial court should have suppressed physical evidence of narcotics because defendant had not objected at trial to officer's testimony about finding narcotics"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/593/0709-01"
+      ]
+    },
+    {
+      "cite": "145 S.W.3d 649",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9150051
+      ],
+      "weight": 3,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/145/0649-01"
+      ]
+    },
+    {
+      "cite": "113 S.W.3d 496",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9096938
+      ],
+      "weight": 2,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "500"
+        },
+        {
+          "page": "500"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/113/0496-01"
+      ]
+    },
+    {
+      "cite": "319 S.W.3d 68",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7321545
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "72"
+        },
+        {
+          "page": "72"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/319/0068-01"
+      ]
+    },
+    {
+      "cite": "320 S.W.3d 857",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7326235
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "860"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/320/0857-01"
+      ]
+    },
+    {
+      "cite": "678 S.W.2d 491",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9941943
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "493"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/678/0491-01"
+      ]
+    },
+    {
+      "cite": "93 S.W.3d 102",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9374050
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "107"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/93/0102-01"
+      ]
+    },
+    {
+      "cite": "214 S.W.3d 17",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8330016
+      ],
+      "weight": 2,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "24-25"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/214/0017-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 928,
+    "char_count": 22499,
+    "pagerank": {
+      "raw": 4.5330875625009783e-08,
+      "percentile": 0.2845075137585241
+    },
+    "sha256": "46764e1a88493128918760ec2b136a4e72359fc706b37d553909300f05790a58",
+    "simhash": "1:99c95694d245f3d6",
+    "word_count": 3588
+  },
+  "last_updated": "2024-02-27T16:26:54.855377+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Panel consists of Justices Bland, Lloyd, and Caughey."
+    ],
+    "parties": [
+      "Andy GONZALEZ, Appellant\nv.\nThe STATE of Texas, Appellee"
+    ],
+    "opinions": [
+      {
+        "text": "Russell Lloyd, Justice A jury convicted appellant Andy Gonzalez of the felony offense of possession of a controlled substance, namely, cocaine. The trial court assessed appellant's punishment at ten years' confinement in the Institutional Division of the Texas Department of Justice, suspended for ten years' community supervision, and a fine of $1,500. In a single issue on appeal, appellant argues that the trial court erred in denying his motion to suppress evidence because the cocaine was seized without a warrant and outside the officer's jurisdiction.\nWe affirm the trial court's judgment.\nBackground\nJ. Amstutz, a deputy with Montgomery County Precinct 4 Constable's Office, was on patrol when he spotted appellant's vehicle at 2:30 a.m. in the parking lot of a body shop that straddles the Harris County/Montgomery County line. The deputy, whose patrol jurisdiction is limited to Montgomery County, had briefly driven over into Harris County, and was circling back towards Montgomery County when he noticed appellant's vehicle which was occupying two parking spaces and had two blown tires, some degree of body damage, and its headlights and taillights on. The vehicle was parked on the Harris County side of the parking lot.\nDeputy Amstutz testified that he approached appellant's vehicle and that his primary purpose for approaching the parked vehicle \"was to check the welfare of anybody who possibly could have been in it,\" but that he also decided to stop and investigate because there had been several recent burglaries in the area and he considered appellant's vehicle to be \"suspicious.\" The deputy explained that he parked behind appellant's vehicle and saw appellant seated in the driver's seat of the damaged vehicle, unmoving, and slumped over with his head against the window. The deputy testified that he believed that the car had been involved in a motor vehicle accident.\nAfter he approached the vehicle on foot, Deputy Amstutz knocked on the passenger side window and shined his flashlight into the vehicle to wake up appellant. Deputy Amstutz testified that at this point, he observed a reddish-colored transparent plastic baggie containing a white substance on the vehicle's floorboard. According to Deputy Amstutz, he could see the baggie in plain view by appellant's feet when appellant was still seated in the vehicle.\nAppellant awoke and attempted to start the vehicle, but the keys were not in the ignition. Then appellant began turning dials on the radio. The deputy's body camera began recording at this point. Deputy Amstutz loudly instructed appellant to open the car door. He then walked over to the driver's side and instructed appellant to step outside the car. Appellant exited the vehicle. After he saw appellant make \"furtive\" gestures, Deputy Amstutz identified himself as law enforcement and handcuffed appellant.\nAfter appellant had exited the vehicle, Deputy Amstutz observed a plastic baggie containing a white substance in the driver's seat where appellant had been sitting. The deputy also located another baggie containing a white substance inside appellant's wallet when he frisked appellant for weapons.\nAlthough appellant did not have any visible injuries, Deputy Amstutz requested emergency medical services (EMS) because there was a strong odor of alcohol on appellant's person and it appeared that he had been involved in a motor vehicle accident. Deputy Amstutz also noted that appellant was unable to answer simple questions after he awoke.\nThe EMS paramedic who arrived at the scene testified that appellant did not appear to have any injuries and he did not require urgent care, and that the extent of the vehicle's damage appeared to be limited to the tires. The paramedics transported appellant to a nearby hospital, where he refused to be assessed by medical personnel and left of his own accord.\nDeputy Amstutz returned to the office and tested the substances in the baggies that he had seized from appellant. The substances, which tested positive for cocaine, were sent out for further testing. The additional testing confirmed that the baggies contained 4.63 grams cocaine, including adulterants and dilutants.\nMotion to Suppress\nAppellant filed a pretrial motion to suppress the evidence of his detention. On appeal, appellant argues that the trial court erred in denying his motion to suppress evidence because the cocaine was seized without a warrant and outside the officer's geographic jurisdiction.\nA. Standard of Review\nWe apply a bifurcated review to a trial court's ruling on a motion to suppress evidence; almost complete deference is given to the trial court's determination of historical facts and the trial court's application of search and seizure law is reviewed de novo. Wiede v. State , 214 S.W.3d 17, 24-25 (Tex. Crim. App. 2007). Where, as here, the trial court does not enter findings of fact, the evidence is viewed in the light most favorable to the trial court's ruling and it is assumed that the trial court made implicit findings of fact in support of its ruling, as long as those findings are supported by the record. Id. If the ruling is reasonably supported by the record and is correct under any theory of law applicable to the case, the ruling must be upheld. State v. Steelman , 93 S.W.3d 102, 107 (Tex. Crim. App. 2002).\nB. Preservation of Error\nThe State argues that appellant waived his challenge to the trial court's admission of the cocaine because appellant did not object until after the jury had heard substantial testimony regarding the allegedly illegally seized evidence.\nTo preserve error about the illegal seizure of evidence, a defendant must either file a motion to suppress and obtain a ruling on the motion or timely object when the State offers the evidence at trial. See TEX. R. APP. P. 33.1(a) ; TEX. R. EVID. 103(a)(1) ; Ross v. State , 678 S.W.2d 491, 493 (Tex. Crim. App. 1984) ; Ratliff v. State , 320 S.W.3d 857, 860 (Tex. App.-Fort Worth 2010, pet. ref'd).\nWhen a trial court does not rule on a motion to suppress, but carries it with the trial, the defendant must object each time any evidence subject to the motion is offered in order to preserve error. Palacios v. State , 319 S.W.3d 68, 72 (Tex. App.-San Antonio 2010, pet. ref'd). In that case, the motion to suppress must be urged when the ground for objection becomes apparent or else the error is waived. Coleman v. State , 113 S.W.3d 496, 500 (Tex. App.-Houston [1st Dist.] 2003), aff'd , 145 S.W.3d 649 (Tex. Crim. App. 2004). The ground for objection generally becomes apparent when the item is offered into evidence. Id. However, the complaining party must object \"before substantial testimony is given regarding the alleged illegally seized item.\" See id. (emphasis added) (holding that defendant waived error in admission of evidence of narcotics seized from his home where he waited until after officers and crime laboratory chemist had testified extensively about seized items); see also Marini v. State , 593 S.W.2d 709, 714 (Tex. Crim. App. 1980) (concluding that defendant forfeited claim that trial court should have suppressed physical evidence of narcotics because defendant had not objected at trial to officer's testimony about finding narcotics); Laurant v. State , 926 S.W.2d 782, 783 (Tex. App.-Houston [1st Dist.] 1996, writ ref'd).\nNoncompliance with this rule is excused when the trial court makes specific pretrial comments that \"essentially [direct the defendant] to wait until all the evidence [is] presented\" before seeking a ruling from the court on the motion to suppress and has told the defendant that it would \"make no ruling until all the testimony had been presented.\" Garza v. State , 126 S.W.3d 79, 84-85 (Tex. Crim. App. 2004).\nBecause the trial court ordered the motion to be carried with the trial and did not direct defense counsel to wait until all the evidence was presented before seeking a ruling on the motion to suppress, appellant was required to object each time any evidence subject to the motion was offered in order to preserve error. Palacios , 319 S.W.3d at 72.\nIn this case, Deputy Amstutz testified extensively, without objection, regarding the narcotics he seized from appellant's vehicle and his wallet. Specifically, Deputy Amstutz testified that he seized two plastic baggies containing a white substance from appellant's vehicle, and he found a third baggie inside appellant's wallet. He further testified that the substances, which he tested when he returned to the office, tested positive for narcotics and weighed approximately six grams. When the State offered photographs of the three baggies with a \"white crystalized substance\" that Deputy Amstutz seized, defense counsel stated, \"no objection.\"\nThe court recessed after Deputy Amstutz's direct examination, during which time defense counsel informed the trial court:\nCOUNSEL: So during the testimony so far, some photographs were exhibited of controlled substances; and whether they were seized from the defendant-all right. An objection wasn't made in front of the jury because it's not for them to consider the Motion to Suppress that the Court, you know, would be ruling on. But I just wanted to make it clear that we're in no way waiving, you know, our suppression issues here.\nTHE COURT: It's noted.\nCOUNSEL: I'm sorry?\nTHE COURT: The court reporter is taking it down, what you were just saying. All right?\nCOUNSEL: And is that-am I making myself clear, Your Honor?\nTHE COURT: I understood what you said, yes.\nCOUNSEL: Okay. And so we have the Motion to Suppress on file. Any evidence-anything admitted, you know, as far as still-we still have that motion pending. I just wanted to make sure that the Court is clear on that.\nTHE COURT: I understand that you have the motion pending.\nCOUNSEL: The actual controlled substances themselves, however, have not been admitted.\nTHE COURT: Yes.\nCOUNSEL: The items seized from the defendant.\nTHE COURT: Yes.\nThe forensic scientist who conducted further testing of the seized substances, later testified, without objection, that her analysis revealed that the baggies contained cocaine. Defense counsel did not object, based on his motion to suppress, until the forensic scientist was asked about the aggregate weight of the cocaine. At that point, appellant obtained a running objection \"to all the following testimony pursuant\" to his pending motion. When the State later offered the cocaine into evidence, defense counsel objected and urged his motion to suppress at that time. After a suppression hearing was held outside the presence of the jury, the trial court denied appellant's motion.\nBecause appellant did not object and urge his motion to suppress until after Deputy Amstutz and others had given substantial testimony regarding the alleged illegally seized items, appellant's objection and the ruling on his motion to suppress were untimely. See Ratliff , 320 S.W.3d at 860 ; see also Coleman , 113 S.W.3d at 500. Therefore, appellant has not preserved this issue for appellate review.\nC. Community Caretaking Doctrine\nEven if appellant had preserved this issue for our review, the trial court did not err by admitting the physical evidence because it was seized pursuant to Deputy Amstutz's exercise of his community caretaking function.\n1. Applicable Law\nLocal police officers frequently engage in \"community caretaking functions,\" which are \"totally divorced from the detection, investigation, and acquisition of evidence relating to the violation of a criminal statute.\" Cady v. Dombrowski , 413 U.S. 433, 441, 93 S.Ct. 2523, 2528, 37 L.Ed.2d 706 (1973). \"As part of his duty to 'serve and protect,' a police officer may stop and assist an individual whom a reasonable person-given the totality of the circumstances-would believe is in need of help.\" Wright v. State , 7 S.W.3d 148, 151 (Tex. Crim. App. 1999) (citations omitted). However, because the reasonableness of a community caretaking seizure sprouts from its dissociation from the competitive enterprise of ferreting out crime, \"a police officer may not properly invoke his community caretaking function if he is primarily motivated by a non-community caretaking purpose.\" Corbin v. State , 85 S.W.3d 272, 276-77 (Tex. Crim. App. 2002). Determining whether an officer may properly invoke his community caretaking function is thus \"a two-step inquiry: (1) whether the officer was primarily motivated by a community-caretaking purpose; and (2) whether the officer's belief that the individual need[ed] help was reasonable.\" Gonzales v. State , 369 S.W.3d 851, 854-55 (Tex. Crim. App. 2012).\nIn analyzing whether an officer reasonably believes that a person needs help, courts look to four non-exclusive factors: (1) the nature and level of the distress exhibited by the individual; (2) the individual's location; (3) whether the individual was alone and/or had access to assistance other than that offered by the officer; and (4) to what extent the individual, if not assisted, presented a danger to himself or others. Wright , 7 S.W.3d at 152. These factors are \"merely considerations that may be useful for determining what is reasonable under the totality of the circumstances, and are not 'the elements of reasonableness.' \"\nByram v. State , 510 S.W.3d 918, 923 (Tex. Crim. App. 2017) (quoting Gonzales , 369 S.W.3d at 855 ).\nWe defer to the trial court's implied determination of the facts constituting the circumstances facing Deputy Amstutz with respect to his encounter with appellant. See Byram , 510 S.W.3d at 923.\n2. Analysis\nWhether Deputy Amstutz was primarily motivated by a community caretaking purpose is a factual question that turns on his credibility. Id. at 922 ; see also Gonzales , 369 S.W.3d at 855 (deferring to trial court's determination of officer's primary motivation for community-caretaking stop when it was supported by record because issue \"depends so much on credibility and demeanor\"). In this case, Deputy Amstutz testified that his primary purpose for approaching appellant's parked vehicle \"was to check the welfare of anybody who possibly could have been in it. But this area also had a rash of burglaries at that time, so I was checking to make sure that nobody was burglarizing the business.\" The deputy later explained that he initially decided to stop and investigate because he considered appellant's vehicle to be \"suspicious,\" and that the stop \"turned into a welfare check, when [he] physically saw [appellant] in the vehicle.\" According to Deputy Amstutz, appellant was slumped over in the driver's seat and unresponsive.\nAppellant argues that Deputy Amstutz's testimony that he was exercising his community caretaking function is contradicted by the body camera video. Any alleged conflict in the evidence, however, goes to Deputy Amstutz's credibility and by denying appellant's motion to suppress, the trial court implicitly found that Deputy Amstutz's testimony was credible. The trial court also implicitly found, based on his testimony, that Deputy Amstutz's primary motivation was to assist appellant. We defer to these implied findings. See Byram , 510 S.W.3d at 922-23 (stating appellate courts defer to trial court's implied determination of facts when evaluating whether officer's exercise of community caretaking function is proper).\nWe must now determine whether Deputy Amstutz's belief that appellant needed help was reasonable. The first, second, and third Wright factors concern the nature and level of the distress exhibited by the individual, the individual's location, and whether the individual was alone or had access to assistance other than that offered by the officer. Wright , 7 S.W.3d at 152. The first Wright factor, the nature and level of the distress exhibited by the individual, is entitled to the most weight, though it is not always dispositive. Byram , 510 S.W.3d at 923 (citing Gonzales , 369 S.W.3d at 855 ). \"A particular level of exhibited distress may be seen as more or less serious\" when considered in context with the other factors. Gonzales , 369 S.W.3d at 855 (quoting Corbin , 85 S.W.3d at 277 ).\nIn this case, the record reflects that appellant's vehicle had two blown tires, some degree of body damage, its headlights and taillights were on, and the vehicle was erratically parked in front of a closed business at 2:30 a.m. Appellant, who was alone in the car, was slumped over in the driver's seat and appeared to be unconscious. These facts support the conclusion that appellant's vehicle had been involved in a motor vehicle accident, and when combined with appellant's motionless state and the fact that he was sitting in a car in front of a closed business in the early morning hours, suggest that he was in distress and needed assistance. Although the body shop where appellant was parked ran a 24-hour wrecking service, there is no evidence that anyone who could have assisted appellant was at the body shop or in the parking lot before Deputy Amstutz arrived at 2:30 in the morning. These facts also suggest that appellant was not likely to receive assistance without the deputy's intervention. Reviewing the evidence in the light most favorable to the trial court's ruling, and deferring to the trial court's implicit findings of fact, we conclude that the first, second, and third Wright factors-the nature and level of the distress exhibited by the individual, the individual's location, and whether the individual was alone or had access to assistance other than that offered by the officer-weigh in favor of the reasonableness of Deputy Amstutz's belief that appellant needed help. See Wright , 7 S.W.3d at 152.\nThe fourth Wright factor concerns the extent the individual, if not assisted, presented a danger to himself or others. Wright , 7 S.W.3d at 152. This factor should be \"afforded little weight when it is not applicable to the unique facts of a particular case.\" Byram , 510 S.W.3d at 925 (citing Gonzales , 369 S.W.3d at 856-57 ). In this case, appellant was unconscious, or possibly asleep, in a damaged vehicle that had two blown tires and was parked out of the roadway. He was not actively endangering himself or others. Therefore, this factor appears to be inapplicable to the facts of this case and we afford it little weight. See Byram , 510 S.W.3d at 925. We further note that \"[t]he fact that [appellant] was not actively endangering [himself] or others-or moving at all, for that matter-does not alleviate the distress [he] was exhibiting.\" Id.\nBased on the totality of the evidence, we conclude that it was not unreasonable for Deputy Amstutz to believe that appellant may have been injured in a motor vehicle accident and needed help.\n3. Officer's Geographic Jurisdiction\nAppellant also argues that the trial court erred by denying his motion to suppress because the detention occurred in Harris County, and Deputy Amstutz's jurisdiction to exercise his community caretaking function was limited to Montgomery County, and that Deputy Amstutz was not authorized to arrest him under Code of Criminal Procedure article 14.03 because appellant had not committed any offense within the deputy's presence or view prior to that time. See TEX. CODE CRIM. PROC. ANN. art. 14.03 (West Supp. 2017).\nAs a deputy with the Montgomery County Precinct 4 Constable's Office, Deputy Amstutz's geographic jurisdiction is limited to Montgomery County. See, e.g. , TEX. CODE CRIM. PROC. ANN. art. 2.17 (West Supp. 2017) (\"Each sheriff shall be a conservator of the peace in his county....\"); Armendariz v. State , 123 S.W.3d 401, 405 (Tex. Crim. App. 2003) (noting Ector County Deputy Sheriff's geographic jurisdiction was Ector County). Article 14.03 of the Code of Criminal Procedure, however, authorizes peace officers to make warrantless arrests outside their jurisdiction under limited circumstances. TEX. CODE CRIM. PROC. ANN. art. 14.03.\nArticle 14.03 provides:\n(d) A peace officer who is outside his jurisdiction may arrest, without warrant, a person who commits an offense within the officer's presence or view, if the offense is a felony, a violation of Chapter 42 or 49, Penal Code, or a breach of the peace.\n.......\n(g)(1) A peace officer listed in Subdivision (1), (2), or (5), Article 2.12, who is licensed under Chapter 1701, Occupations Code, and is outside of the officer's jurisdiction may arrest without a warrant a person who commits any offense within the officer's presence or view, other than a violation of Subtitle C, Title 7, Transportation Code.\nTEX. CODE CRIM. PROC. ANN. art. 14.03(d), (g)(1). The term \"peace officer\" includes deputy constables. See id. art. 2.12(2) (West Supp. 2017). A peace officer's authority under article 14.03(g)(1) to make arrests outside his jurisdiction also extends to investigative detentions. See State v. Kurtz , 152 S.W.3d 72, 79-80 (Tex. Crim. App. 2004) (holding term \"arrest\" includes \"detention\" purposes of Article 14.03(g)(1) ). Investigative detentions and arrests are seizures for purposes of the Fourth Amendment. See State v. Perez , 85 S.W.3d 817, 819 (Tex. Crim. App. 2002).\nAs the State points out, article 14.03(d) and (g)(1) apply to an officer's authority to arrest a person outside of his jurisdiction and appellant has not directed the court to any authority expressly holding that an officer may not conduct a welfare check outside of his jurisdiction. The plain language of article 14.03 does not prohibit an officer from exercising his community caretaking function outside of his jurisdiction. Any such limitation on an officer's ability to perform a welfare check outside of his geographic jurisdiction would run counter to the officer's duty to protect and serve the public and could lead to absurd results, especially in a case like this in which the officer spotted someone in need of assistance, who was only steps outside of the officer's jurisdiction.\nWe overrule appellant's sole issue.\nConclusion\nWe affirm the trial court's judgment.\nSee Tex. Health & Safety Code Ann. \u00a7\u00a7 481.115(d), 481.102(3)(D) (West Supp. 2017).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Sarah Beth Landau, Assistant Public Defender, 1201 Franklin, 13th Floor, Houston, TX 77002, for Appellant.",
+      "Kim Ogg, Harris County District Attorney, Heather A. Hudson, Assistant District Attorney, 1201 Franklin, Suite 600, Houston, TX 77002, for Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "Andy GONZALEZ, Appellant\nv.\nThe STATE of Texas, Appellee\nNO. 01-17-00134-CR\nCourt of Appeals of Texas, Houston (1st Dist.).\nOpinion issued August 16, 2018\nSarah Beth Landau, Assistant Public Defender, 1201 Franklin, 13th Floor, Houston, TX 77002, for Appellant.\nKim Ogg, Harris County District Attorney, Heather A. Hudson, Assistant District Attorney, 1201 Franklin, Suite 600, Houston, TX 77002, for Appellee.\nPanel consists of Justices Bland, Lloyd, and Caughey."
+  },
+  "file_name": "0316-01",
+  "first_page_order": 316,
+  "last_page_order": 325
+}

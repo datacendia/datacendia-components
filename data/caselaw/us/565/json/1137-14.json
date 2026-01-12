@@ -1,0 +1,59 @@
+{
+  "id": 12242004,
+  "name": "Cooper, aka Jones v. United States",
+  "name_abbreviation": "Cooper v. United States",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-7681",
+  "first_page": "1137",
+  "last_page": "1137",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1137"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 83,
+    "ocr_confidence": 0.588,
+    "sha256": "e43b34074bcb3610f45346d0cc7b39751162ea790f7957e6d5c5768d9a69a5bc",
+    "simhash": "1:16afd661de87b03c",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cooper, aka Jones v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7681.\nCooper, aka Jones v. United States."
+  },
+  "file_name": "1137-14",
+  "first_page_order": 1219,
+  "last_page_order": 1219
+}

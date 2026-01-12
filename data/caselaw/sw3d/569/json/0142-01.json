@@ -1,0 +1,783 @@
+{
+  "id": 12659077,
+  "name": "The STATE of Texas v. Joel GARCIA, Appellee",
+  "name_abbreviation": "State v. Garcia",
+  "decision_date": "2018-12-12",
+  "docket_number": "NO. PD-0344-17",
+  "first_page": "142",
+  "last_page": "163",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "569 S.W.3d 142"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex. Crim. App. Ct.",
+    "id": 30109,
+    "name": "Court of Criminal Appeals of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "466 U.S. 740",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6205546
+      ],
+      "weight": 3,
+      "year": 1984,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/466/0740-01"
+      ]
+    },
+    {
+      "cite": "384 U.S. 757",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12047531
+      ],
+      "weight": 7,
+      "year": 1966,
+      "pin_cites": [
+        {
+          "page": "758"
+        },
+        {
+          "page": "772"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/384/0757-01"
+      ]
+    },
+    {
+      "cite": "945 S.W.2d 115",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        11981745
+      ],
+      "weight": 2,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "118"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/945/0115-01"
+      ]
+    },
+    {
+      "cite": "762 S.W.2d 591",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10007929
+      ],
+      "year": 1988,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/762/0591-01"
+      ]
+    },
+    {
+      "cite": "724 S.W.2d 24",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        11291233
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "35",
+          "parenthetical": "\"[W]here the facts adduced at a suppression hearing are in dispute, 'the trial judge is the trier of the facts and can accept or reject the testimony of the witnesses ... in determining the issues' before him or her.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/724/0024-01"
+      ]
+    },
+    {
+      "cite": "547 U.S. 103",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3275967
+      ],
+      "weight": 3,
+      "year": 2006,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/547/0103-01"
+      ]
+    },
+    {
+      "cite": "481 S.W.2d 106",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9928117
+      ],
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "112",
+          "parenthetical": "citations omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/481/0106-01"
+      ]
+    },
+    {
+      "cite": "437 U.S. 385",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6180644
+      ],
+      "weight": 8,
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "394"
+        },
+        {
+          "page": "393"
+        },
+        {
+          "page": "394"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/437/0385-01"
+      ]
+    },
+    {
+      "cite": "204 S.W.3d 808",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8449538
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "818",
+          "parenthetical": "citations omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/204/0808-01"
+      ]
+    },
+    {
+      "cite": "93 L.Ed. 1879",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "year": 1949,
+      "opinion_index": 0
+    },
+    {
+      "cite": "338 U.S. 160",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3943769
+      ],
+      "weight": 2,
+      "year": 1949,
+      "pin_cites": [
+        {
+          "page": "175"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/338/0160-01"
+      ]
+    },
+    {
+      "cite": "470 U.S. 675",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11300009
+      ],
+      "weight": 3,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "682"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/470/0675-01"
+      ]
+    },
+    {
+      "cite": "918 S.W.2d 466",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10016824
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "493",
+          "parenthetical": "Campbell, J., dissenting on orig. subm."
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/918/0466-01"
+      ]
+    },
+    {
+      "cite": "206 S.W.3d 593",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8447406
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "601",
+          "parenthetical": "explaining that \"an officer, in the heat of the moment, will use all facts available to him\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/206/0593-01"
+      ]
+    },
+    {
+      "cite": "392 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6167798
+      ],
+      "weight": 9,
+      "year": 1968,
+      "pin_cites": [
+        {
+          "page": "21-22"
+        },
+        {
+          "parenthetical": "\"And in making that assessment it is imperative that the facts be judged against an objective standard: would the facts available to the officer at the moment of ... the search 'warrant a man of reasonable caution in the belief' that the action taken was appropriate?\""
+        },
+        {
+          "parenthetical": "\"And in making that assessment it is imperative that the facts be judged against an objective standard: would the facts available to the officer at the moment of ... the search 'warrant a man of reasonable caution in the belief' that the action taken was appropriate?\""
+        },
+        {
+          "page": "22"
+        },
+        {
+          "page": "27"
+        },
+        {
+          "page": "25-26"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/392/0001-01"
+      ]
+    },
+    {
+      "cite": "396 S.W.3d 563",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7093693
+      ],
+      "weight": 7,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "572"
+        },
+        {
+          "page": "571"
+        },
+        {
+          "page": "566"
+        },
+        {
+          "page": "566-67"
+        },
+        {
+          "page": "572"
+        },
+        {
+          "page": "571"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/396/0563-01"
+      ]
+    },
+    {
+      "cite": "28 S.W.3d 538",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11224302
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "542",
+          "parenthetical": "footnotes and citations omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/28/0538-01"
+      ]
+    },
+    {
+      "cite": "529 U.S. 334",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9508481
+      ],
+      "weight": 5,
+      "year": 2000,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/529/0334-01"
+      ]
+    },
+    {
+      "cite": "547 U.S. 398",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3275413
+      ],
+      "weight": 12,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "404"
+        },
+        {
+          "page": "405"
+        },
+        {
+          "page": "404"
+        },
+        {
+          "page": "404"
+        },
+        {
+          "page": "405"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/547/0398-01"
+      ]
+    },
+    {
+      "cite": "490 S.W.3d 918",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6797967
+      ],
+      "weight": 5,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "924-26",
+          "parenthetical": "same"
+        },
+        {
+          "page": "923",
+          "parenthetical": "same"
+        },
+        {
+          "page": "926-27"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/490/0918-01"
+      ]
+    },
+    {
+      "cite": "493 S.W.3d 574",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6784893
+      ],
+      "weight": 4,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "580-82",
+          "parenthetical": "taking time-and-duration considerations into account in deciding whether exigent circumstances objectively prevented law enforcement from obtaining a warrant"
+        },
+        {
+          "page": "580",
+          "parenthetical": "footnotes, citations, and internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/493/0574-01"
+      ]
+    },
+    {
+      "cite": "935 S.W.2d 134",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10009609
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "139",
+          "parenthetical": "McCormick, P.J., concurring"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/935/0134-01"
+      ]
+    },
+    {
+      "cite": "152 S.W.3d 54",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9040066
+      ],
+      "weight": 3,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "62-63"
+        },
+        {
+          "page": "62-63"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/152/0054-01"
+      ]
+    },
+    {
+      "cite": "955 S.W.2d 85",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        11890717
+      ],
+      "weight": 8,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "89"
+        },
+        {
+          "page": "89"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "89"
+        },
+        {
+          "page": "87, 89"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/955/0085-01"
+      ]
+    },
+    {
+      "cite": "195 S.W.3d 696",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8412285
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "699-700"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/195/0696-01"
+      ]
+    },
+    {
+      "cite": "93 L.Ed. 153",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "year": 1948,
+      "opinion_index": 0
+    },
+    {
+      "cite": "335 U.S. 451",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6159793
+      ],
+      "weight": 2,
+      "year": 1948,
+      "pin_cites": [
+        {
+          "page": "456"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/335/0451-01"
+      ]
+    },
+    {
+      "cite": "2017 WL 728367",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 9,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "*1-4",
+          "parenthetical": "not designated for publication"
+        },
+        {
+          "page": "*7"
+        },
+        {
+          "page": "*12"
+        },
+        {
+          "page": "*12"
+        },
+        {
+          "page": "*7"
+        },
+        {
+          "page": "*12"
+        },
+        {
+          "page": "*9"
+        },
+        {
+          "page": "*4"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "490 U.S. 386",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        605535
+      ],
+      "weight": 3,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "396-97"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/490/0386-01"
+      ]
+    },
+    {
+      "cite": "563 U.S. 452",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5911971,
+        12458997
+      ],
+      "weight": 6,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "466"
+        },
+        {
+          "page": "460"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/563/0452-01",
+        "/l-ed-2d/179/0865-01"
+      ]
+    },
+    {
+      "cite": "475 S.W.3d 784",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6837797
+      ],
+      "weight": 4,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "848",
+          "parenthetical": "Yeary, J., dissenting to dismissal of State's motion for rehearing"
+        },
+        {
+          "page": "858",
+          "parenthetical": "Yeary, J., dissenting"
+        },
+        {
+          "page": "856-58",
+          "parenthetical": "Yeary, J., dissenting"
+        },
+        {
+          "page": "856-57"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/475/0784-01"
+      ]
+    },
+    {
+      "cite": "569 U.S. 141",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12697040
+      ],
+      "weight": 41,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "156"
+        },
+        {
+          "page": "148-51"
+        },
+        {
+          "page": "148"
+        },
+        {
+          "page": "148-49"
+        },
+        {
+          "page": "156"
+        },
+        {
+          "page": "148-150"
+        },
+        {
+          "page": "152"
+        },
+        {
+          "page": "150"
+        },
+        {
+          "page": "152"
+        },
+        {
+          "page": "151"
+        },
+        {
+          "page": "153"
+        },
+        {
+          "page": "153"
+        },
+        {
+          "page": "152"
+        },
+        {
+          "page": "158"
+        },
+        {
+          "page": "151"
+        },
+        {
+          "page": "159"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/569/0141-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1962,
+    "char_count": 65269,
+    "pagerank": {
+      "raw": 4.719567370958748e-08,
+      "percentile": 0.2969955005098753
+    },
+    "sha256": "ea69e65f0a7d2ffc65ecf696b222d5db2bddb8114fd251dc85322807a458e0e2",
+    "simhash": "1:9c78b4a06083a6d7",
+    "word_count": 10520
+  },
+  "last_updated": "2024-02-27T16:12:16.727939+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "The STATE of Texas\nv.\nJoel GARCIA, Appellee"
+    ],
+    "opinions": [
+      {
+        "text": "Keasler, J., delivered the opinion of the Court, in which Hervey, Alcala, Richardson, Newell, and Walker, JJ., joined.\nFollowing a catastrophic car crash, Appellee Joel Garcia was taken to a nearby hospital. Law-enforcement officers, suspecting that Garcia was intoxicated and concerned that he might soon receive an intravenous treatment, took a sample of his blood without a warrant. The State claimed that this action was necessitated by \"exigent circumstances,\" but the trial judge disagreed, suppressing the blood evidence. Deferring to the trial judge's findings of fact, we hold that he did not abuse his discretion in so ruling.\nI. FACTS\nThe court of appeals' recitation of the facts was thorough and well expressed. With few exceptions, we adopt it for the purposes of this opinion, and we restate only those facts that are essential to understanding our holding.\nIn the early morning hours of Christmas Eve, 2014, El Paso police and emergency medical responders were dispatched to the scene of a \"serious\" car accident. The circumstances were \"hectic-officers were trying to control traffic, two cars were on fire, and people were walking around the entire area.\" Three people would ultimately die as a result of the crash. The lead investigating officer, Andres Rodriguez, arrived on-scene at approximately 1:52 a.m. While there, Rodriguez discovered that Garcia was the driver of one of the wrecked vehicles-a fact that Garcia initially tried to deny. Rodriguez also began to suspect that Garcia was under the influence of alcohol. So when Garcia refused Rodriguez's request to provide a sample of breath or blood, Rodriguez left the scene between 2:40 and 2:45 a.m. to begin preparing a search warrant.\nAs he was getting ready to leave, Rodriguez learned that emergency medical responders were taking Garcia to nearby Del Sol Hospital. Rodriguez instructed Officer Steven Torres to accompany Garcia to the hospital. Rodriguez told Torres that \"if they start to medicate him or put ... I.V.s or anything on him, let me know and ... I'll break from wherever I am and then I'll go out there and I'll assist you[.]\" Rodriguez explained that, based on his training and experience, it was his understanding that some intravenous (I.V.) treatments can dilute a person's blood-alcohol concentration. Rodriguez arrived at the nearest police substation at 2:53 a.m. and immediately began preparing a warrant.\nTorres and Garcia arrived at Del Sol at 3:01 a.m., and Garcia was admitted into the emergency room (E.R.) within minutes. When they entered the E.R., a nurse was \"already near the curtain by [Garcia's] bed, waiting with equipment to begin\" hooking Garcia up to an I.V. drip. Torres made contact with Officer Raul Lom, a recently retired El Paso policeman who was working security at Del Sol on the morning of the crash. Lom assisted Torres by relaying information by phone from the hospital to Rodriguez back at the station while Torres stayed near Garcia's hospital bed.\nShortly after Garcia arrived in the E.R., Dr. Gary Kavonian came to Garcia's bed to begin examining him. When Kavonian arrived, Garcia was already surrounded by medical personnel, including the nurse holding the I.V. equipment. Kavonian described Garcia as \"uncooperative,\" and remembered Garcia combatively telling the nurses that \"he didn't want to have an I.V.\" Kavonian ordered the medical staff not to place an I.V. on Garcia, and they complied. Ultimately, Garcia never received an I.V. while at Del Sol Hospital.\nBut Lom, who testified that he was standing too far from Kavonian to hear him cancel the I.V., was \"very certain that [at] any moment\" Garcia \"would be injected with an I.V.\" From his vantage, Lom could see the nurse holding the I.V. bag in front of Garcia and Garcia shaking his head in the negative. Torres, standing \"five to six feet\" from Garcia, was close enough to the medical personnel to at least hear that they were having \"[m]ultiple conversations\" about him. But just like Lom, Torres claimed that he never heard Kavonian tell the nurse to hold off on the I.V. Torres also claimed that, at the time, he believed an I.V. was imminent. Accordingly, both Lom and Torres testified that they believed \"exigent circumstances\" justified their immediate, warrantless action. At 3:10 a.m., Lom called Rodriguez to relay his concerns about the I.V., and Rodriguez told Lom to get a sample of Garcia's blood without waiting for a warrant. Lom conveyed Rodriguez's orders to Torres, and together they sought out a phlebotomist to perform the blood draw.\nPhlebotomist Adriana Gandara had been paged by hospital staff earlier that morning to report to Garcia's bed for the purpose of performing a medical blood draw. When Gandara got to Garcia's bed, Dr. Kavonian was already there, so she decided not to take any of Garcia's blood until she received an order from Kavonian to do so. As Gandara waited, Lom and Torres approached and told her that they needed her to draw Garcia's blood. Gandara testified that she intended to comply with the officers' request after Kavonian finished his examination, but the officers told her \"that they didn't have the paperwork\" yet, and asked her to wait \"for them to get that.\" She waited with them for a few minutes, until finally the officers allowed her to return to her regular duties. Eventually, the officers paged Gandara back to the E.R., and at 3:17 a.m., she took two vials of Garcia's blood.\nAn analysis of Garcia's blood showed that he had a blood-alcohol concentration of 0.268 at the time of the draw. The analysis also detected the presence of \"Benzoylecgonine,\" a cocaine metabolite, in Garcia's blood.\nA. The Trial Judge's Findings\nGarcia, charged with three counts of intoxication manslaughter, filed a motion to suppress the evidence gathered from the officers' warrantless blood draw. After an extensive hearing on Garcia's motion, the trial judge suppressed the blood evidence, making two sets of oral findings and conclusions and one written set of findings and conclusions. As relevant here, the trial judge found that the historical facts unfolded as follows. First, Garcia arrived at the hospital at 3:01 a.m. and was brought into the emergency room \"a little shortly thereafter, about 3:05, 3:07 in the morning.\" Second, he was approached by multiple medical caregivers, including a nurse holding I.V. equipment. Third, Garcia refused treatment, and Dr. Kavonian ordered the medical staff to withhold the I.V. Fourth, as Kavonian and the medical staff were leaving the area, Officers Lom and Torres approached Gandara, the phlebotomist. The officers told Gandara that they needed her assistance drawing Garcia's blood, but that they needed to obtain some \"paperwork\" before that could happen. Fifth, as much as \"10 to 20 minutes later,\" the officers contacted Gandara again and ordered her to draw Garcia's blood.\nWithout qualification, the trial judge found all of the medical and fire-department personnel credible in their accounts. He made several qualified statements about the credibility of the police officers. The trial judge found the officers credible \"with regard to the establishment of factors in being able to make a determination whether the defendant was intoxicated, therefore enabling them and providing sufficient evidence to justify a blood warrant.\" But he found them \"not credible in making a determination in their minds that there were exigent circumstances to justify a warrantless blood draw.\" He similarly found that the officers' \"belief\" and \"assessment\" that exigent circumstances existed \"[was] not credible.\" The trial judge would not say whether he thought the officers were \"lying or not,\" but he nevertheless concluded that \"Officer Lom's and Officer Torres'[s] testimony is not credible with regards to their assessment and the reasonableness of their conclusion that exigent circumstances existed.\"\nB. Appeal and Discretionary Review\nThe State appealed, positing several arguments as to why the trial judge abused his discretion in suppressing the blood evidence. The court of appeals disagreed with most of these arguments. The court first disagreed with the State that \"the delay in investigating and controlling the accident scene\" and \"the severity of the accident\" contributed in creating an exigency. It also concluded that \"Garcia's attempts to convince Rodriguez\" that he was not the driver \"took a minimal amount of time, at best.\" And it agreed with the trial judge that the warrant procedures in place at the time of the search were sufficiently technologically developed to allow the police to obtain a warrant in a reasonably timely fashion.\nBut \"the crux of the case,\" according to the court of appeals, was whether the possibility of medical treatment at the hospital presented \"a truly 'now or never' scenario\" that excused the officers from the normally time-consuming obligation of obtaining a search warrant. The court of appeals thought that it did:\nGarcia's accident resulted in three deaths, several cars afire, and the necessity of numerous officers on the scene.... [H]is intoxication was induced by alcohol and cocaine metabolites[.] ... Introducing intravenous saline or other medication, particularly narcotic medication, would likely compromise the blood sample by impeding the ability to determine the rate of dissipation.\nThe court of appeals reversed the trial judge's ruling on these bases.\nGarcia petitioned this Court to review the court of appeals' decision, complaining that the court of appeals had failed to discuss, much less defer to, the trial judge's extensive findings of fact. He also argued that the court of appeals erred to take into consideration that Garcia's blood contained cocaine metabolites-a fact the police were not privy to at the time they ordered the draw. We granted review on both grounds.\nII. LAW\nA warrantless search is per se unreasonable under the Fourth Amendment unless it falls within a recognized exception to the warrant requirement. The well-established \"exigent circumstances\" exception applies when \"the exigencies of the situation make the needs of law enforcement so compelling that a warrantless search is objectively reasonable under the Fourth Amendment.\" Under this exception, a law-enforcement officer may be justified in conducting a warrantless search \"to prevent the imminent destruction of evidence.\"\nIn drunk-driving cases in particular, \"the natural dissipation of alcohol in the blood may support a finding of exigency in a specific case\"-but \"it does not do so categorically.\" Instead, any exigent-circumstances review should be informed by the totality of the facts and circumstances available to the officer and analyzed under an objective standard of reasonableness. And, \"where police officers can reasonably obtain a warrant before a blood sample can be drawn without significantly undermining the efficacy of the search, the Fourth Amendment mandates that they do so.\"\nWhen the defendant files a motion to suppress evidence on Fourth-Amendment grounds, he has the initial burden of proving that a warrantless search occurred; if he succeeds, the burden shifts to the State to prove that a warrant-requirement exception applies. In ruling on the motion, and upon request of the losing party, the trial judge is required to make findings of fact and conclusions of law expressing the basis for his ruling. Reviewing courts should afford \"almost total deference\" to the trial judge's findings on matters of historical fact, especially when those findings \"are based on an evaluation of credibility and demeanor.\" But \"application[s] of law to fact\" or \"mixed questions of law and fact\" are entitled to deference only if they \"turn[ ] on an evaluation of credibility and demeanor.\" Otherwise, they are reviewed de novo .\nThis appeal mostly centers around the following interrelated issues: (1) On a claim of exigent circumstances, which of the trial judge's findings and conclusions are entitled to deference; (2) which of the trial judge's findings and conclusions are reviewable de novo ; and (3) which of the trial judge's findings and conclusions are relevant to determining whether the warrantless search was objectively reasonable under the Fourth Amendment? These issues are likely to re-emerge any time an exigency issue presents itself. In the interest of providing guidance to lower courts in settling future claims of exigent circumstances, we will lay out some of the factors that informed the trial judge's decision in this case and attempt to describe, item by item, both the deference owed to the trial judge in that regard and the relevance each item should have in determining whether an exigency existed.\nA. Pure historical facts.\nWe have long held that a trial judge's findings of historical fact, as long as they find support within the record, are entitled to deference. This is because, on matters of historical fact, the trial judge is in \"an appreciably better position than the appellate court\" to settle disputes. Such findings are also typically considered to be highly relevant to deciding Fourth-Amendment issues. For example, in this case, the trial judge made various findings as to time and place-Garcia was transported from the scene of the crash at 2:35-2:40 a.m., arrived at the hospital at 3:01 a.m., and was subjected to a warrantless blood draw at 3:17 a.m. Findings of this nature clearly and properly informed the trial judge's determination of whether there was time to secure a warrant under an exigent-circumstances analysis.\nBy the same token, findings of fact as to purely historical events such as these are not always dispositive of an exigent-circumstances analysis. For instance, it may be that the officer's awareness of the facts differs from the objective facts. Again, this case provides a ready example. The trial judge found, as a matter of historical fact, that the medical staff at Del Sol never administered an I.V. to Garcia. This finding is certainly supported by the record and is therefore entitled to deference. But the State's position is that, based on the limited historical facts available to the officers, it was reasonable for them to infer that an I.V. was imminent. And, if it was reasonable for them to infer an I.V. was imminent, it was reasonable for them to fear that important evidence was at risk of destruction. If the facts support it, this argument is plausible on its face. So, whether an exigency justifies a warrantless search must depend, at least in some measure, upon what facts were actually \"available\" to the officer at the time he conducts the search.\nB. Which facts were available to the officer.\nThe Supreme Court of the United States has consistently rejected the idea that, in ruling upon the reasonableness of official action under the Fourth Amendment, it is the role of the trial judge to \"discern[ ] what is in the mind of the individual officer conducting the search.\" That is because \"the issue is not [the officer's] state of mind, but the objective effect of his actions.\" As a result, the Supreme Court has declared that an individual officer's \"subjective motivation\" is, as far as the Fourth Amendment is concerned, \"irrelevant.\" Our precedents have largely adhered to this instruction.\nBut this should be carefully distinguished from the commonsense notion that, in executing their duties, law-enforcement officers are usually aware of some historical facts and unaware of others. We have previously held that whether an officer was aware of a fact is itself essentially a matter of fact, both subject to deference and crucially relevant to a Fourth-Amendment reasonableness inquiry. It is a matter of fact because \"facts\" often include \"not just tangible things, actual occurrences, and relationships, but also states of mind[.]\" It is entitled to deference because the trial judge will usually be in an \"appreciably better position than the appellate court\" to settle a dispute about what facts the officer was aware of. And it is crucially relevant because both the Supreme Court and this Court have said, time and again, that a Fourth-Amendment reasonableness inquiry should be informed by the facts that were \"available\" to the officer when he conducted the contested search.\nC. Whether the officer actually drew a particular inference from the totality of facts known to him.\nUnder the definition of \"fact\" stated above, whether an officer actually drew a particular inference from the facts known to him should arguably also be considered a matter of fact. A reviewing court will usually be in no \"appreciably better position than\" the trial judge to resolve what inferences the officer did or did not make before he initiated the contested search. Furthermore, findings of this sort will almost always turn on credibility determinations-the officer testifies that he reached conclusion X based on facts A, B, and C, and the trial judge either credits this testimony or he does not.\nAlthough findings such as these are entitled to deference in the sense that the reviewing court should almost never seek to contradict the trial judge on matters of record-supported fact, the reviewing court should nevertheless disregard such findings for the purposes of reaching an ultimate legal ruling on exigent circumstances. This is because whether an officer actually inferred one conclusion or another from the facts goes to his subjective motivations. This, as we have seen, is \"irrelevant\" for Fourth-Amendment purposes. So it does not matter if the officer did not actually infer that he was faced with an exigency; if the known facts objectively support the existence of an exigency, the search should be upheld. Likewise, it does not matter if the officer subjectively and in good faith inferred that he was faced with an exigency if the known facts objectively counter that inference. Once the historical facts are determined and any disputes as to the officer's awareness of historical facts are settled, the question becomes one of objective reasonableness, not subjective processes of thought.\nD. The reasonableness of an inference based on the facts known to the officer.\nThe Supreme Court has said that, in assessing the reasonableness of an officer's actions, a reviewing court should take into account not only the facts known to the officer, but also the \"specific reasonable inferences which he is entitled to draw from the facts in light of his experience.\" This would seem to necessitate an inquiry into whether a particular inference was, or was not, \"reasonable\" under the circumstances. This case provides yet another example: The police officers testified that they saw a nurse approaching Garcia with an I.V. bag and Garcia shaking his head in the negative. The trial judge's findings suggest that he did not think it was reasonable for the officers to infer from these facts that an I.V. was imminent. To what extent is this finding entitled to deference? To what extent is it relevant to the exigent-circumstances analysis?\nThe answer to the first of these questions is: The trial judge's finding in this regard is not entitled to deference. Indeed, it should not be thought of as a \"finding\" at all, but rather a legal conclusion. For, \"[d]espite its fact-sensitive analysis, 'reasonableness' is ultimately a question of substantive Fourth-Amendment law.\" To be sure, in this as in other law-enforcement contexts, \"reasonableness\" should be informed by the \"practical considerations of everyday life on which reasonable and prudent men, not legal technicians, act.\" But the appellate court is in just as good a position as the trial judge, once the facts are settled, to decide this issue. In light of this, the trial judge's determination that a particular law-enforcement inference was, or was not, reasonable under the circumstances should be reviewed de novo .\nFurthermore, whether a particular inference is reasonable, or whether a reasonable law-enforcement inference was available on particular facts, is often highly relevant to resolving Fourth-Amendment issues. In this case, if the court of appeals were to look solely at the historical facts available to the officers and did not take into account the reasonable inferences they might have drawn from those facts, it would probably have to conclude that there is nothing inherently exigent about a nurse standing next to a suspect holding I.V. equipment. The exigency, if any, arises only from the dual inferences that, based on these facts, (1) the nurse was about to infuse a substance into Garcia's bloodstream, and (2) this infusion might adversely affect the integrity of the blood evidence. If reasonable, these inferences should be considered in determining whether, as a matter of law, the officers faced an objective exigency relieving them of the obligation to obtain a warrant.\nE. Whether the totality of facts available to the officer, and reasonable inferences therefrom, objectively suffice to establish an exigency.\nOnce the preceding matters are settled, the trial judge should finally decide whether, in light of the known facts and reasonable inferences therefrom, an objectively reasonable officer would conclude that in the time it would take to secure a warrant the efficacy of the search would be \"significantly undermin[ed].\" This is a Fourth-Amendment \"reasonableness\" inquiry, so it is reviewed de novo . And, because it constitutes essentially the determinative Fourth-Amendment question in a drunk-driving, exigent-circumstances warrantless blood draw, it is obviously fundamentally relevant to the trial judge's and reviewing court's ultimate rulings. This inquiry should take into account, not only the well-known \"natural dissipation\" of alcohol in the body, but also \"the procedures in place for obtaining a warrant, the availability of a magistrate judge, and the practical problems of obtaining a warrant within a timeframe that still preserves ... reliable evidence.\"\nIII. ANALYSIS\nThe court of appeals gave three reasons why, in its view, the trial judge erred in suppressing the blood evidence. Keeping in mind that exigent-circumstances review should be informed by the \"totality of circumstances,\" not turning on any one factor to the exclusion of others, we address each consideration in turn. In so doing, we are mindful of the following principles. First, \"[i]n reviewing a trial court's ruling on a motion to suppress, an appellate court must view the evidence in the light most favorable to the trial court's ruling.\" When, as in this case, the trial court \"makes explicit fact findings, the appellate court determines whether the evidence (viewed in the light most favorable to the trial court's ruling) supports these fact findings.\" The reviewing court \"must defer to a trial judge's factual findings which, when ... read in their totality, reasonably support his legal conclusion\"-even if \"viewed piecemeal and in isolation\" they might be considered \"ambiguous.\" We give the same \"non-technical, common-sense deference\" to the trial judge's individual factual findings as we do \"to the totality of those findings.\"\nA. Severity of the accident and El Paso County's warrant processes .\nIn support of its conclusion that the blood draw was justified by exigent circumstances, the court of appeals noted that \"Garcia's accident resulted in three deaths, several cars afire, and the necessity of numerous officers on the scene.\" Yet earlier in its opinion, it seemingly rejected the State's argument that \"the delay in investigating and controlling the accident scene or the severity of the accident contributed in creating an exigency.\" These conclusions appear to be in tension.\nFortunately, we need not resolve this tension. The United States Supreme Court has expressly \"decline[d] to hold that the seriousness of the offense under investigation itself creates exigent circumstances of the kind that under the Fourth Amendment justify a warrantless search.\" And, insofar as the severity of the accident might have adversely affected the officers' ability to apply for a warrant-which sometimes occurs because the manpower necessary to begin the warrant process is fully invested in controlling a chaotic crime scene-under the trial judge's findings, no such concern was present in this case. As the court of appeals noted, Officer Rodriguez was able to depart the crime scene less than an hour after his arrival to begin drafting a warrant affidavit. This demonstrates a reasonable police judgment that, at least at the time the warrant process was initiated, the delay inherent in obtaining a warrant did not pose a significant risk of undermining the efficacy of a blood draw. It also undermines the State's argument that El Paso's underdeveloped warrant-application processes reasonably contributed to the officers' decision to dispense with a warrant.\nOf course, a reasonable officer might legitimately claim, as the State does in this case, that although there may have been sufficient time to procure a warrant at the beginning of the warrant-application process, some intervening cause made it so that any further delay was objectively impractical. The State posits the possibility of medical intervention at the hospital as one such cause. Before we turn to that argument, we briefly address the court of appeals' reference to cocaine metabolites.\nB. Cocaine metabolites.\nThe court of appeals noted that, in this case, Garcia's intoxication was induced by both \"alcohol and cocaine metabolites.\" According to the court of appeals, this meant that the officers' need for contemporaneous blood evidence was extraordinarily high, because cocaine and other narcotics are eliminated at an unknown rate. Thus, unlike the typical situation in which \"experts can work backwards to calculate blood-alcohol content at an earlier\" time, these officers faced a situation in which, minute-by-minute, evidence was being metabolized \"without the ability to know ... how much evidence [they were] losing as time passed.\"\nWe do not disagree with this reasoning in principle, but it must be supported by the facts. Here, it is not. The officers' testimony was uniformly to the effect that they suspected Garcia of alcohol-induced intoxication. There is nothing in the record to show how or why the officers might reasonably have suspected that Garcia was also using cocaine.\nA search cannot be justified by what it uncovers. Accordingly, we will not consider evidence that Garcia was under the influence of cocaine in reviewing de novo the reasonableness of the officers' search.\nC. The possibility of medical treatment.\nWe come now to what the court of appeals aptly characterized as the \"crux of the case\" -whether the imminent administration of an I.V. served as an intervening exigent circumstance relieving the officers of the obligation to obtain a warrant in this case.\nWe agree with the State that the dilemma faced by an officer attempting to obtain blood from a patient in need of medical treatment is more like a \"now or never\" situation than it is like a \"natural dissipation\" situation. Indeed, in some respects, it is an even more difficult position than the prototypical \"now or never\" situation, \"in which the suspect has control over easily disposable evidence.\" For, at least in the latter situation, the officer is not encumbered with the additional duty not to interfere with a person's medical care. In the emergency-room setting, the officer faces an impossible choice between (1) delaying a potentially life-saving treatment to obtain the best possible evidence or (2) allowing that evidence to be spoiled so that a suspect's life might be saved. With these concerns in mind, we do not believe the Fourth Amendment requires police officers to wait until an I.V. needle is inches away from the suspect's arm before they may legally intervene-at which time, paradoxically, they might be duty-bound not to intervene. We do not hesitate to say that, if an officer is actually aware of facts from which an objectively reasonable officer could conclude that an evidence-destroying medical treatment is imminent, the Fourth Amendment allows the officer to take any reasonable steps to preserve the integrity of the imperiled evidence.\nBut in this case, the trial judge's record-supported findings show that these officers were not faced with any such dilemma. The trial judge repeatedly emphasized his finding that, as a matter of historical fact, at the time the officers ordered the phlebotomist to take a sample of Garcia's blood, all medical treatment of Garcia had stopped. By itself, this finding would probably not suffice to dispose of the exigency issue. The trial judge would also have to make a finding as to whether the officers were aware of this historical fact at the time they initiated the search. What the State fails to appreciate, and what the court of appeals failed to address, is that the trial judge did make such a finding.\nAfter the trial judge orally found that, at the time of the blood draw, the medical personnel had \"concluded\" their treatment of Garcia and \"no one was going to mess with\" his blood, the prosecutor interjected that the \"officers didn't know that, nobody communicated with these officers.\" The trial judge expressly responded: \"At the time that the blood [was] drawn, the officers knew all that.\" This finding pertains to the historical facts the officers were aware of at the time they ordered a search. So if this finding is supported by the record-and there is ample reason to conclude that it is-it is entitled to deference.\nIn this case, there were a number of disputes about whether the officers were in position to see or hear what they claimed to have seen and heard. For example, there was a dispute about whether the curtain surrounding Garcia's bed was open or closed. There was a dispute about whether the officers were inside the curtained area or outside. There was a dispute about how close the officers were to Garcia in the E.R. There was a dispute about whether conversations between medical staff members were audible to the officers. There was a dispute about how much, if any, information was conveyed to the officers as Garcia was being treated. There was even a dispute about whether Garcia was speaking in English or Spanish.\nThe trial judge was at liberty to accept or reject some, all, or none of each witness's testimony in resolving each of these disputes. And each resolution properly informed the trial judge's findings as to which historical facts the officers were aware of at the time they decided to conduct a warrantless search. For instance, the trial judge as the trier of fact would not have abused his discretion to find Officer Torres credible when he testified that he was inside the curtained area, five to six feet from Garcia, and could overhear the medical staff's conversations about Garcia. And, although Torres testified that he did not specifically hear Dr. Kavonian telling the nurse to cease placing an I.V. on Garcia, the trial judge was at liberty to disbelieve the officer in this limited but critical regard. Indeed, this appears to have been the trial judge's very assessment of the facts on the ground; in his written findings of fact, the trial judge explicitly refused to \"attach any believability or any weight to\" Torres's testimony \"[t]hat he could not hear or see what was going on between the defendant, ER Doctor and hospital staff.\"\nThe totality of circumstances in this case also includes the trial judge's finding that, after the officers asked the phlebotomist, Adriana Gandara, for her assistance in drawing Garcia's blood, they released her to her normal duties for an extended period of time. Then, as much as \"twenty minutes later,\" they paged her back to the E.R. to conduct a blood draw. This timeline is supported in part by Gandara's testimony, which the trial judge expressly found credible.\nThe State appears to argue that the trial judge was inescapably bound to reject Gandara's testimonial timeline because it does not match time-stamped events in the medical records. But Gandara made it abundantly clear through her testimony that she was approximating the amount of time that passed between the events she described. Her inability to recall the passage of time with timestamp-like exactitude did not make that portion of her testimony incredible in its entirety. Specifically, the trial judge would not have abused his discretion to credit her testimony at least insofar as she asserted that some noticeable amount of time passed between the officers' (1) requesting her assistance in drawing Garcia's blood, (2) releasing her to her regular duties while they secured the appropriate \"paperwork,\" and then (3) re-summoning her to carry out the draw. And once again, affording the trial judge's findings a non-technical, common-sense deference, that appears to be precisely the trial judge's assessment of Gandara's testimony.\nIf we add to Gandara's estimated timeline of events the trial judge's record-supported finding that, at the time of the search, the officers were aware that all medical treatment had stopped, we begin to understand the trial judge's rationale for suppressing the evidence. An objectively reasonable officer, knowing that all medical care had ceased, and having waited several minutes after all care had ceased to finally conduct a blood draw, would not have concluded that he was in a \"now or never\" situation. Such an officer would understand, particularly with another officer back at the station actively preparing a warrant, that further delay for the purpose of finalizing the already-begun warrant process would not \"significantly undermin[e]\" the probativity of the blood results. Under the trial judge's findings, the only diminution in evidentiary value the officers risked at that point was the natural dissipation of alcohol in Garcia's system. And, by virtue of the fact that they had already begun the warrant process knowing that it would take some time, the officers signaled a reasonable law-enforcement judgment that this risk was not significant in light of the time it would take to complete the process.\nThat is why, even considering this medical-treatment evidence in conjunction with the severity of the accident and the supposedly underdeveloped warrant processes in El Paso County, we conclude that the trial judge's record-supported findings weigh against the existence of an exigency in this case. If obtaining a warrant was reasonably feasible at the beginning of the application process, and the trial judge rejected the factual basis of the only plausible intervening cause that could make that process impractical to complete, then abandoning the already-begun warrant-application process and instead conducting a warrantless blood draw was objectively unreasonable.\nOur holding is not based on the trial judge's difficult-to-comprehend finding that the officers' \"assessment\" that exigent circumstances existed \"[was] not credible.\" This finding can only be understood in one of two ways, neither of which is particularly helpful in this context. To the extent that, through this finding, the trial judge was trying to communicate that he considered the officers' assessment of the facts to have been unreasonable under the circumstances, that is a legal conclusion to which we owe no deference. To the extent that the judge was indicating that he simply did not credit the officers' testimony that they believed in good faith that they were faced with an exigency, such a finding is irrelevant to the objective Fourth-Amendment inquiry. We disregard all of the trial judge's various \"finding[s]\" to this effect.\nInstead, our holding is based on the sensible notion that \"a warrantless search must be strictly circumscribed by the exigencies which justify its initiation.\" Or, as the trial judge rather succinctly put it, \"[o]nce the exigency ends, it ends.\" The trial judge acted within his discretion to find that, at the time of the search, Rodriguez, Lom, and Torres were collectively aware of facts that would lead an objectively reasonable officer to conclude that any exigency presented by the possibility of medical care had passed. Although we might well have dissected the officers' awareness of historical facts differently were we in the trial judge's position, \"[t]he trial judge decides that fact. The court of appeals does not. We do not. And appellate courts must view the trial judge's factual findings in the light most favorable to his ultimate conclusion.\"\nIV. COUNTER-ARGUMENTS\nThe dissent matter-of-factly maintains that the officers in this case \"waited for a lull in the treatment, marveled at their great good fortune that no evidence-compromising procedure had yet occurred, and extracted the evidence in a manner that did not adversely impact the on-going medical evaluation and treatment.\" Perhaps that is the accounting of historical facts that the dissent would have adopted were it in the institutional position of a trial judge carefully weighing the testimony given in this case. But it is not the accounting that this trial judge actually adopted. This trial judge found that, when Garcia's blood was drawn at 3:17 a.m., the officers were aware that the medical staff had decided to comply with Garcia's request that he not receive an I.V. At that time, Garcia's treatment was not in a \"momentary lull\"-at least not from the officers' perspective. From the officers' perspective, at 3:17 a.m., Garcia was not receiving any treatment, nor was he yet scheduled to receive any further treatment.\nAs the dissent concedes in a footnote, Garcia's CT scan was not ordered until 3:18 (or possibly even 3:19) a.m. This fact was not lost on the trial judge. With no pressing or forthcoming exigency, at 3:17 a.m., a reasonable officer would not have abandoned the warrant process-not until some articulable, emergent reason to do so presented itself. Of course, with the benefit of hindsight we now know that Garcia received a CT scan several minutes after his blood was drawn. But we cannot simply graft knowledge of, or concern about, a procedure that was not even ordered until 3:18 a.m. onto the officers' awareness of historical facts at 3:17 a.m. Assessing police conduct with the advantage of hindsight is inconsistent with the Fourth Amendment's idea of \"reasonableness.\"\nKnowing this, the dissent proposes a different way of resolving this matter. The dissent would have us adopt a per se rule that, any time a person suspected of committing a serious drunk-driving offense is taken to a hospital for medical treatment, the Fourth Amendment will indiscriminately tolerate the warrantless seizure of that person's blood. According to the dissent, resolving suppression issues the traditional way-presenting evidence, weighing testimony, and carefully assessing credibility on-the-spot-is \"hardly worth the effort\" when facts such as these are present. For a number of reasons, we respectfully disagree.\nThere is no reason why all of the hectic facts attendant to an emergency-room visit cannot be considered, in conjunction with all of the other facts and circumstances surrounding a search, under the traditional totality-of-circumstances test. For \"[n]umerous police actions are judged [by] fact-intensive, totality of the circumstances analyses rather than according to categorical rules, including in situations that are more likely to require police officers to make difficult split-second judgments.\" The dissent suggests that the setting of an emergency room is so \"inherent[ly]\" exigent that the careful case-by-case approach endorsed by McNeely is \"inadequate.\" But Schmerber itself demonstrates that the case-by-case approach, if imperfect, is certainly not \"inadequate\" to account for the possibility that a hospitalized drunk-driving suspect will receive medical care.\nIn Schmerber v. California , the defendant crashed his car into a tree, and both he and his passenger were \"taken to a hospital for treatment.\" While he was there \"receiving treatment,\" a police officer arrested him for drunk driving and ordered a blood test over his objection. While the Schmerber Court ultimately decided that that search was reasonable, it took special pains to point out that it \"reach[ed] th[at] judgment only on the facts of the present record\" -not as a function of a per se rule that, anytime a drunk-driving suspect is hospitalized, his blood is fair game without a warrant. The McNeely majority described Schmerber as fitting \"comfortably\" within the settled scheme of analyzing exigencies on a case-by-case, totality-of-circumstances basis. The plurality cited Schmerber in support of the proposition that \"medically drawn blood tests\" can be considered reasonable \"in appropriate circumstances\" -not categorically so.\nIt is true that the totality-of-circumstances test will sometimes ultimately \"pivot[ ]\" on what we might consider to be inscrutable fact findings from a trial judge. But in dealing with Fourth-Amendment reasonableness inquiries, it has always been that way-and, unless we adopt a per se rule that all warrantless searches are reasonable, or all are unreasonable, it always will be. Dealing with the fact-bound intricacies of every case as it comes to us may be a \"tedious, hair-splitting\" endeavor; it may occasionally produce \"bottom line\" outcomes that we find unpalatable. But it is our duty as judges to earnestly grapple with the facts as settled in the courts below-and, having done so, to let the chips fall where they may.\nV. CONCLUSION\nWe agree with the State that if an officer holds an objectively reasonable belief that an evidence-destroying medical treatment is about to take place, the Fourth Amendment does not command him to wait until the treatment is mere moments away before he may act. In such a situation, an officer is permitted to take all reasonable measures, up to and including initiating a warrantless blood draw, to preserve the integrity of important evidence. We simply hold that the trial judge's extensive, record-supported findings foreclose any conclusion that this was an objectively reasonable concern in this case. The court of appeals erred to hold otherwise, and its judgment is therefore reversed.\nYeary, J., filed a dissenting opinion.\nKeller, P.J., and Keel, J., concurred.\nDISSENTING OPINION\nYeary, J., filed a dissenting opinion.\nThe Court's analysis today proceeds upon an assumption that a determination whether exigent circumstances justify a warrantless blood draw must invariably be undertaken on a case-by-case basis, with a view to the totality of circumstances, and that categorical rules in this context are-categorically-unacceptable. This assumption derives from the United States Supreme Court's opinion in Missouri v. McNeely , 569 U.S. 141, 133 S.Ct. 1552, 185 L.Ed.2d 696 (2013). There, the Supreme Court held that, \"while the natural dissipation of alcohol in the blood may support a finding of exigency in a specific case, ... it does not do so categorically.\" Id. at 156, 133 S.Ct. 1552. As I have explained before, I do not interpret McNeely to prohibit any and all recognition of per se rules of exigency: \"The Supreme Court in McNeely did not have to ... ask itself whether any particular set of circumstances beyond the brute fact of [natural alcohol] evidence-dissipation [from the blood] might reasonably support an exemption from the general warrant requirement.\" State v. Villarreal , 475 S.W.3d 784, 848 (Tex. Crim. App. 2015) (Yeary, J., dissenting to dismissal of State's motion for rehearing). As far as I am concerned, that question-whether other per se exigency exceptions to the warrant requirement may be recognized by the courts-remains an open one.\nIn my view, the facts of the instant case present particular (and particularly compelling) circumstances that coalesce to justify a categorical exemption from the general warrant requirement based on practical exigencies. With probable cause to believe that Appellee, while driving drunk, had caused a collision resulting in multiple deaths, police officers had every incentive to obtain the best evidence possible to establish very serious offenses. Knowing that some types of routine medical procedures, such as the intravenous introduction of a saline solution into the bloodstream, will have the effect of altering the blood-alcohol concentration, the officers had a legitimate concern to gather that evidence before any such procedure was initiated, so long as it was possible to do so without compromising the medical treatment. Determining the right time to take a blood sample in the often-chaotic context of a busy hospital emergency room is a difficult call. It may sometimes be the case that a warrant can be obtained before medical intervention contaminates the blood-alcohol level. But it will undoubtedly prove at least as likely, if not more so, that evidence-compromising medical treatment will, by necessity, occur before it is ever possible for the police to obtain a search warrant.\nIt strikes me that the police officers in this case acted in the most reasonable way possible under these unruly circumstances: They waited for a lull in the treatment, marveled at their great good fortune that no evidence-compromising procedure had yet occurred, and extracted the evidence in a manner that did not adversely impact the on-going medical evaluation and treatment. We should not conclude in such circumstances that they acted unreasonably. Instead, we should fashion a rule that endorses, rather than condemns, such reasonable police conduct.\nThe Court's contrary holding today pivots on the deference it pays to the trial court. Specifically, the Court relies upon the trial court's finding of historical fact that, as of the time they ordered the blood draw, Officers Torres and Lom were aware that the medical treatment had come to an end-that there was no longer an objectively reasonable basis to believe that Appellee's blood would be diluted before a warrant could be obtained to extract it. Entertaining the presumption that categorical rules are categorically unacceptable, it is ordinarily appropriate for the Court thus to defer. Even so, the evidence developed at the evidentiary hearing in this case amply illustrates why such a case-by-case approach is problematic at the outset.\nIt is not my purpose to denigrate our typical deference to a trial court's findings of historical fact. Nevertheless, it is well worth noting that the officers themselves in this case emphatically denied having had any awareness that Appellee's treatment had come to an end. And there is very good reason, even on a cold record, to credit their denials.\nOne of the triage nurses testified without contradiction that an IV was \"routine\" and that she was looking for an opportunity to administer it when she was told it would not be needed. The treating physician acknowledged that it was \"common\" for a triage nurse to administer an IV without being specifically instructed. It was only because Appellee was being \"a little bit uncooperative\" and resisting the IV that the physician directed the triage nurse not to administer it-at least, not \"at that time.\" He agreed that a saline-solution IV would, in fact, dilute the blood-alcohol concentration. In lieu of any other treatment, he ordered a CT scan. It was apparently during the subsequent wait for the CT scan that the police officers took the opportunity to extract the blood sample. It is even possible that, before the blood was extracted, a second nurse-Lom testified that he did not think it was the same triage nurse who testified, but a different, unidentified nurse-attempted to persuade Appellee to submit to an IV. In any event, Officer Rodriguez testified that, after he arrived at the hospital and discovered that Appellee's blood had already been drawn, a nurse told him that Appellee was about to be taken for a CT scan and that, \"if there's any internal injury, we're going to give him [an IV].\" After the CT scan, the treating physician returned to evaluate Appellee further. Whatever the police officers might have actually inferred from whichever of these circumstances they knew of, it seems clear to me-from the entirety of the record-that Appellee's evaluation and treatment, including at least the possibility of an IV, remained on-going, if in a momentary lull, at the time of the blood draw.\nWhat is more, all of the testifying police officers and medical personnel uniformly agreed that, so long as medical treatment is being administered, it would be unacceptable for the police to interfere in order to extract Appellee's blood. (Presumably this would be true even if the officers had a valid search warrant!) The trial court determined that, as soon as the medical treatment reached a hiatus, the police officers could not extract the blood without a warrant. This determination places the attending officers in an impossible Catch-22 situation: They may not extract blood dur ing medical treatment, and they may not extract blood (at least, without a warrant) during any break in the medical treatment, regardless of the likely duration of the break.\nThe Court would undoubtedly respond that I am missing the point. It would likely say that the trial court simply did not find as a matter of historical fact that the medical treatment had merely been put on hold; it found that the medical treatment (or, at least any medical treatment that might include an IV) had come to an end , and that the officers knew it had come to an end. In a regime in which we are to make every exigency determination on a case-by-case basis, I might agree that deference to this fact-finding, dubious as it strikes me (and may strike the Court as well, judging by its coda), should dictate the result here. But the evidence in this very case persuades me that such a case-by-case approach is inadequate to account for the exigencies that seem inherent to the situation.\nThe pre-trial hearing in this case spanned a full month, from June 23rd to July 23rd of 2015. Over that time, the trial court conducted three full days of witness testimony, a lengthy and contentious final argument involving apparently heated exchanges between the trial court and the parties, and extensive oral findings of fact and conclusions of law, later punctuated by written findings and conclusions. This extensive fact development eventually resulted in one critical resolution of historical fact: that the attending officers were aware that all medical treatment had come to a full stop, leaving them with no objective basis to believe that Appellee's medical treatment was still on-going when they extracted his blood. This bottom line seems not just dubious, but-more to the point-hardly worth the effort.\nI would adopt a per se rule to obviate the whole process. The following exigencies are evident from the testimony in this record:\n\u2022 The police had probable cause to believe that Appellee, while driving in a state of intoxication, caused a fiery collision in which several persons were killed.\n\u2022 Evidence of blood-alcohol concentration naturally diminishes in the body over time.\n\u2022 Appellee was taken to the hospital for medical evaluation and possible treatment-not by the police, but by emergency medical personnel.\n\u2022 Hospital emergency rooms are chaotic places, and it is not a top priority for medical personnel to keep attending police officers informed of the nature and progress of a DWI suspect's treatment.\n\u2022 It is routine for persons so evaluated to be subjected to intravenous saline solutions, which dilutes blood-alcohol concentration.\n\u2022 The police may not (or at least all the witnesses agreed they do not, and I think we can all agree they should not) extract blood evidence while medical personnel are actively treating patients.\nAt least in any case that presents this constellation of facts, I would hold that it is reasonable-for Fourth Amendment purposes-for police officers, without a warrant, to take any available opportunity to extract a sample of blood for evidentiary uses, so long as this can be accomplished without compromising medical evaluation or treatment. As I recognized in Villarreal , \"[t]he calculus of reasonableness must embody allowance for the fact that police officers are often forced to make split-second judgments-in circumstances that are tense, uncertain, and rapidly evolving.\" 475 S.W.3d at 858 (Yeary, J., dissenting) (quoting Kentucky v. King , 563 U.S. 452, 466, 131 S.Ct. 1849, 179 L.Ed.2d 865 (2011), which in turn quotes Graham v. Connor , 490 U.S. 386, 396-97, 109 S.Ct. 1865, 104 L.Ed.2d 443 (1989) ). I would not engage in the tedious, hair-splitting enterprise of trying to ascertain whether the police might have been aware that all medical evaluation and treatment had come to a complete stop, such that the possibility of blood-evidence contamination is no longer an \"objectively reasonable concern\" in the particular case. See Majority Opinion at ----.\nOn this basis, I most respectfully dissent.\nSee Missouri v. McNeely , 569 U.S. 141, 148-51, 133 S.Ct. 1552, 185 L.Ed.2d 696 (2013).\nSee State v. Garcia , No. 08-15-00264-CR, 2017 WL 728367, at *1-4 (Tex. App.-El Paso Feb. 24, 2017) (not designated for publication).\nId. at *1.\nId.\nSee 7 RR at 100-07.\nGarcia , 2017 WL 728367, at *7.\nId. at *7-8.\nId. at *8.\nId. at *9.\nId. at *12.\nSee, e.g. , McNeely , 569 U.S. at 148, 133 S.Ct. 1552.\nId. at 148-49, 133 S.Ct. 1552 (quoting Kentucky v. King , 563 U.S. 452, 460, 131 S.Ct. 1849, 179 L.Ed.2d 865 (2011) ).\nId. at 149, 133 S.Ct. 1552 (citations omitted).\nId. at 156, 133 S.Ct. 1552.\nId. at 148-150, 133 S.Ct. 1552.\nId. at 152, 133 S.Ct. 1552 (citing McDonald v. United States , 335 U.S. 451, 456, 69 S.Ct. 191, 93 L.Ed. 153 (1948) ).\nSee 43 George E. Dix & John M. Schmolesky, Texas Practice-Criminal Practice and Procedure \u00a7 18:20 (3d ed. 2011).\nE.g. , State v. Cullen , 195 S.W.3d 696, 699-700 (Tex. Crim. App. 2006).\nGuzman v. State , 955 S.W.2d 85, 89 (Tex. Crim. App. 1997).\nId.\nSee Kothe v. State , 152 S.W.3d 54, 62-63 (Tex. Crim. App. 2004).\nE.g. , Guzman , 955 S.W.2d at 89.\nSee id. (internal quotation marks omitted) (quoting Villarreal v. State , 935 S.W.2d 134, 139 (Tex. Crim. App. 1996) (McCormick, P.J., concurring) ).\nE.g. , McNeely , 569 U.S. at 150, 133 S.Ct. 1552 (\"[T]he fact-specific nature of the reasonableness inquiry ... demands that we evaluate each case of alleged exigency based on its own facts and circumstances.\") (citations and internal quotation marks omitted).\nSee Weems v. State , 493 S.W.3d 574, 580-82 (Tex. Crim. App. 2016) (taking time-and-duration considerations into account in deciding whether exigent circumstances objectively prevented law enforcement from obtaining a warrant); Cole v. State , 490 S.W.3d 918, 924-26 (Tex. Crim. App. 2016) (same).\nSee Weems , 493 S.W.3d at 579 (citing Brigham City, Utah v. Stuart , 547 U.S. 398, 404, 126 S.Ct. 1943, 164 L.Ed.2d 650 (2006) ); Cole , 490 S.W.3d at 923 (same).\nE.g. , Brigham City, Utah v. Stuart , 547 U.S. 398, 405, 126 S.Ct. 1943, 164 L.Ed.2d 650 (2006).\nBond v. United States , 529 U.S. 334, 338 n.2, 120 S.Ct. 1462, 146 L.Ed.2d 365 (2000).\nBrigham , 547 U.S. at 404, 126 S.Ct. 1943 (citing Bond , 529 U.S. at 338 n.2, 120 S.Ct. 1462 ).\nE.g. , Walter v. State , 28 S.W.3d 538, 542 (Tex. Crim. App. 2000) (footnotes and citations omitted) (\"[A] police officer's subjective motive will never invalidate objectively justifiable behavior under the Fourth Amendment.\").\nSee, e.g. , State v. Duran , 396 S.W.3d 563, 572 (Tex. Crim. App. 2013) (\"The question of whether an officer has reasonable suspicion to detain an individual for further investigation is determined from the facts and circumstances actually known to the officer at the time of the detention-what he saw, heard, smelled, tasted, touched, or felt-not what that officer could have or should have known.\") (emphasis in original).\nFacts , Black's Law Dictionary (10th ed. 2014).\nSee Guzman , 955 S.W.2d at 89 ; cf. also Duran , 396 S.W.3d at 571.\nCf. Terry v. Ohio , 392 U.S. 1, 21-22, 88 S.Ct. 1868, 20 L.Ed.2d 889 (1968) (\"And in making that assessment it is imperative that the facts be judged against an objective standard: would the facts available to the officer at the moment of ... the search 'warrant a man of reasonable caution in the belief' that the action taken was appropriate?\") (citations omitted); Weems , 493 S.W.3d at 579 ; Cole , 490 S.W.3d at 923 ; Parker v. State , 206 S.W.3d 593, 601 (Tex. Crim. App. 2006) (explaining that \"an officer, in the heat of the moment, will use all facts available to him\").\nSee supra note 32.\nGuzman , 955 S.W.2d at 89.\nId.\nBrigham , 547 U.S. at 404, 126 S.Ct. 1943.\nSee id. at 405, 126 S.Ct. 1943.\nCf. Terry , 392 U.S. at 22, 88 S.Ct. 1868 (\"If subjective good faith alone were the test, the protections of the Fourth Amendment would evaporate[.]\") (citations omitted).\nCf. Brimage v. State , 918 S.W.2d 466, 493 (Tex. Crim. App. 1994) (Campbell, J., dissenting on orig. subm.).\nTerry , 392 U.S. at 27, 88 S.Ct. 1868 (citations omitted).\nKothe , 152 S.W.3d at 62 (citing United States v. Sharpe , 470 U.S. 675, 682, 105 S.Ct. 1568, 84 L.Ed.2d 605 (1985) ).\nCf. Brinegar v. United States , 338 U.S. 160, 175, 69 S.Ct. 1302, 93 L.Ed. 1879 (1949).\nSee Guzman , 955 S.W.2d at 87, 89.\nMcNeely , 569 U.S. at 152, 133 S.Ct. 1552.\nSee Kothe , at 152 S.W.3d at 62-63.\nWeems , 493 S.W.3d at 580 (footnotes, citations, and internal quotation marks omitted).\nGarcia , 2017 WL 728367, at *12.\nMcNeely , 569 U.S. at 151, 133 S.Ct. 1552.\nE.g. , State v. Kelly , 204 S.W.3d 808, 818 (Tex. Crim. App. 2006) (citations omitted).\nId.\nDuran , 396 S.W.3d at 566.\nId. at 566-67.\nGarcia , 2017 WL 728367, at *12.\nId. at *7.\nMincey v. Arizona , 437 U.S. 385, 394, 98 S.Ct. 2408, 57 L.Ed.2d 290 (1978).\nGarcia , 2017 WL 728367, at *7.\nCf. McNeely , 569 U.S. at 158 n.7, 133 S.Ct. 1552 (plurality opinion) (\"[B]ecause the police are presumably familiar with the mechanics and time involved in the warrant process in their particular jurisdiction ... we expect that officers can make reasonable judgments about whether the warrant process would produce unacceptable delay under the circumstances.\") (internal quotation marks and citations omitted).\nGarcia , 2017 WL 728367, at *12.\nId. at *11 (citing Cole , 490 S.W.3d at 926-27 ).\nSee, e.g. , Cole , 490 S.W.3d at 926-27.\nBrown v. State , 481 S.W.2d 106, 112 (Tex. Crim. App. 1972) (citations omitted).\nGarcia , 2017 WL 728367, at *9.\nSee McNeely , 569 U.S. at 153, 133 S.Ct. 1552 (citing Georgia v. Randolph , 547 U.S. 103, 116 n.6, 126 S.Ct. 1515, 164 L.Ed.2d 208 (2006) ).\nCf. Garcia , 2017 WL 728367, at *4 (noting Lom's testimony that, \"if a suspect was being medically treated, 'there's no power in the face of the earth' that permitted an officer to instruct medical personnel to cease treatment until the officer obtained a search warrant\").\nSee Duran , 396 S.W.3d at 572 (\"The standard is not what an omniscient officer would have seen, but rather what a reasonable officer would have done with what he actually did see.\") (citations omitted).\nSee, e.g. , Sawyers v. State , 724 S.W.2d 24, 35 (Tex. Crim. App. 1986) (\"[W]here the facts adduced at a suppression hearing are in dispute, 'the trial judge is the trier of the facts and can accept or reject the testimony of the witnesses ... in determining the issues' before him or her.\") (citations omitted), overruled on other grounds by Watson v. State , 762 S.W.2d 591 (Tex. Crim. App. 1988).\nSee also 7 RR at 15 (wherein the trial judge orally finds, \"There was no treatment being afforded at that time. [The phlebotomist] was even leaving at that point. And that was in front of Officer Lom and Torres. They saw that.\").\nE.g. , 5 RR at 98 (\"They asked me to wait for a little bit for them to get the paperwork. I waited approximately ten minutes. I don't know exactly the time. And then afterward they told me they didn't want to make me wait longer. If it was okay, if they could page me once they had the paperwork, and that's when I left.\").\n7 RR at 106-07 (\"[E]ven though the Court is not making a finding as to how long it was before she was called to [take] the blood, she testified it was anywhere from 10 to 20 minutes before she was called back to do the blood draw, after she had initially been instructed to. The Court still finds that at the time that the phlebotomist was stopped and directed by the officers to take the blood, that there was no exigent circumstances present[.]\").\nSee McNeely , 569 U.S. at 153, 133 S.Ct. 1552 (citations omitted).\nCf. id. at 152, 133 S.Ct. 1552 (citations omitted).\nSee Mincey , 437 U.S. at 393, 98 S.Ct. 2408 (citing Terry , 392 U.S. at 25-26, 88 S.Ct. 1868 ).\nCf. Duran , 396 S.W.3d at 571.\nDissenting Opinion at ----.\nSee id. at ---- n.1.\nSee 3 RR at 11.\nSee, e.g. , Rhodes v. State , 945 S.W.2d 115, 118 (Tex. Crim. App. 1997).\nSee Dissenting Opinion at ---- - ----.\nSee id. at ----.\nMcNeely , 569 U.S. at 158, 133 S.Ct. 1552 (plurality opinion) (citations omitted).\nDissenting Opinion at ----.\nSchmerber v. California , 384 U.S. 757, 758 n.2, 86 S.Ct. 1826, 16 L.Ed.2d 908 (1966).\nId. at 758, 86 S.Ct. 1826.\nId. at 772, 86 S.Ct. 1826.\nMcNeely , 569 U.S. at 151, 133 S.Ct. 1552.\nId. at 159, 133 S.Ct. 1552 (plurality opinion).\nSee Dissenting Opinion at ----.\nId. at ----.\nSee id. at ---- - ----.\nThe record establishes, without material variance, that Appellee arrived at the hospital at approximately 3:01 a.m., and triage began. By 3:06, he had been taken to a curtained-off portion of the emergency room where assessment and treatment continued, including chest and pelvic X-rays. Officer Lom called Officer Rodriguez at 3:10 to inform him that he believed an IV was imminent, and Lom called Rodriguez again at 3:13 to let Rodriguez know they lacked a blood-draw kit. Nevertheless, Appellee's blood was extracted by at least 3:17, immediately after which Rodriguez arrived. The doctor's testimony confirmed a notation in the hospital records that he ordered the CT scan at about 3:19. Appellee was taken for the CT scan at 3:28, and returned to the ER at 3:38. (Only Officer Torres tentatively remembered that the CT scan came before the blood draw-but, of course, the trial judge found Torres's testimony generally unworthy of belief.) Appellee later submitted to an X-ray of his ankle before he was ultimately discharged. The trial judge made no specific written finding of fact with respect to whether the blood draw preceded the CT scan, but several remarks he made during the course of argument and oral announcement of his findings make clear that he did indeed believe that the CT scan came only after the blood draw. He made no specific finding with respect to whether he believed Rodriguez's testimony that a nurse told him Appellee may well be subjected to an IV depending upon the results of the CT scan.\nSee Majority Opinion at ---- (\"We agree with the State that if an officer holds an objectively reasonable belief that an evidence-destroying medical treatment is about to take place, the Fourth Amendment does not command him to wait until the treatment is moments away before he may act. * * * We simply hold that the trial judge's extensive, record-supported findings foreclose any conclusion that this was an objectively reasonable concern in this case.\").\nI have already made known my view that the gravity of the offense should be regarded as a factor in any exigent-circumstances determination. See Villarreal , 475 S.W.3d at 856-58 (Yeary, J., dissenting) (arguing that the more serious the offense, the greater the State's need for the best evidence available). This view is not in tension with Mincey v. Arizona , 437 U.S. 385, 394, 98 S.Ct. 2408, 57 L.Ed.2d 290 (1978), in which the United States Supreme Court \"decline[d] to hold that the seriousness of the offense under investigation creates exigent circumstances of the kind that under the Fourth Amendment justify a warrantless search.\" In Mincey , the State argued that the serious nature of the offense was sufficient, alone , to justify the warrantless search. As I said in Villarreal :\nI do not mean to suggest that the seriousness of an offense, by itself, should ever amount to an exigent circumstance sufficient to exclude the need for a warrant; far from it. Such a holding would largely eviscerate the warrant requirement. But when there is a realistic danger that evidence may be lost, and the balance of interests between the State and the suspect is otherwise in equipoise, the degree of seriousness that the State has attributed to a particular offense may serve, as it did in Welsh [v. Wisconsin , 466 U.S. 740, 104 S.Ct. 2091, 80 L.Ed.2d 732 (1984) ], to tip the exigency scale.\n475 S.W.3d at 856-57. The seriousness of the offense may thus serve, as it should here, as one among many factors in determining whether the real possibility that the best evidence may be lost justifies conducting a search without a warrant.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "The STATE of Texas\nv.\nJoel GARCIA, Appellee\nNO. PD-0344-17\nCourt of Criminal Appeals of Texas.\nDelivered: December 12, 2018\nRehearing Denied March 6, 2019"
+  },
+  "file_name": "0142-01",
+  "first_page_order": 142,
+  "last_page_order": 163
+}

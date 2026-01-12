@@ -1,0 +1,59 @@
+{
+  "id": 6030061,
+  "name": "Thomas v. United States Disciplinary Barracks",
+  "name_abbreviation": "Thomas v. United States Disciplinary Barracks",
+  "decision_date": "2011-03-21",
+  "docket_number": "No. 10-9025",
+  "first_page": "1300",
+  "last_page": "1300",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1300"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 95,
+    "ocr_confidence": 0.549,
+    "sha256": "d94156df56c88a20d2302fd0df1e532b8366202736c5a4511a0ec70b21b80d11",
+    "simhash": "1:1fc9f0750b67d332",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Thomas v. United States Disciplinary Barracks."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9025.\nThomas v. United States Disciplinary Barracks."
+  },
+  "file_name": "1300-09",
+  "first_page_order": 1322,
+  "last_page_order": 1322
+}

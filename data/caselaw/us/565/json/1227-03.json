@@ -1,0 +1,59 @@
+{
+  "id": 12248873,
+  "name": "McQueen v. United States",
+  "name_abbreviation": "McQueen v. United States",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-8442",
+  "first_page": "1227",
+  "last_page": "1227",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1227"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.686,
+    "sha256": "a5a4f1174173b486074cdb77b0d4455ab370ee15b0551735607702507760ee15",
+    "simhash": "1:b79bef652ae23754",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McQueen v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. D. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8442.\nMcQueen v. United States."
+  },
+  "file_name": "1227-03",
+  "first_page_order": 1309,
+  "last_page_order": 1309
+}

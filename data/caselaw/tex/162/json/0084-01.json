@@ -1,0 +1,788 @@
+{
+  "id": 2261844,
+  "name": "James G. Brown Et Al v. Martha Lundell Et Al",
+  "name_abbreviation": "Brown v. Lundell",
+  "decision_date": "1961-02-22",
+  "docket_number": "No. A-7870",
+  "first_page": "84",
+  "last_page": "103",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "162 Tex. 84"
+    },
+    {
+      "type": "parallel",
+      "cite": "344 S.W.2d 863"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "328 S.W. 2d 434",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10169640,
+        10169810,
+        2258981,
+        2259046
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/328/0434-01",
+        "/sw2d/328/0434-02",
+        "/tex/160/0182-01",
+        "/tex/160/0182-02"
+      ]
+    },
+    {
+      "cite": "160 Texas 182",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2258981,
+        2259046
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/160/0182-01",
+        "/tex/160/0182-02"
+      ]
+    },
+    {
+      "cite": "295 S.W. 2d 901",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2252434,
+        10181355
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/156/0455-01",
+        "/sw2d/295/0901-01"
+      ]
+    },
+    {
+      "cite": "156 Texas 455",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2252434
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/156/0455-01"
+      ]
+    },
+    {
+      "cite": "291 S.W. 2d 792",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10181705
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/291/0792-01"
+      ]
+    },
+    {
+      "cite": "252 S.W. 2d 575",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10215518
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/252/0575-01"
+      ]
+    },
+    {
+      "cite": "151 Texas 562",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2244746
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/151/0562-01"
+      ]
+    },
+    {
+      "cite": "96 S.W. 2d 221",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2293192,
+        10241716
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/128/0155-01",
+        "/sw2d/96/0221-01"
+      ]
+    },
+    {
+      "cite": "128 Texas 155",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2293192
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/128/0155-01"
+      ]
+    },
+    {
+      "cite": "60 Texas 168",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2170902
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/60/0168-01"
+      ]
+    },
+    {
+      "cite": "258 S.W. 2d 60",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2246282,
+        10193830
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/152/0354-01",
+        "/sw2d/258/0060-01"
+      ]
+    },
+    {
+      "cite": "152 Texas 354",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2246282
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/152/0354-01"
+      ]
+    },
+    {
+      "cite": "246 S.W. 2d 607",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10212888,
+        2244757
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/246/0607-01",
+        "/tex/151/0116-01"
+      ]
+    },
+    {
+      "cite": "151 Texas 116",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2244757
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/151/0116-01"
+      ]
+    },
+    {
+      "cite": "317 S.W. 2d 528",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10169545,
+        2257114
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/317/0528-01",
+        "/tex/159/0178-01"
+      ]
+    },
+    {
+      "cite": "159 Texas 178",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2257114
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/159/0178-01"
+      ]
+    },
+    {
+      "cite": "120 CCA 65",
+      "category": "reporters:federal",
+      "reporter": "C.C.A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "201 Fed. 637",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        58614
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/201/0637-01"
+      ]
+    },
+    {
+      "cite": "132 S.W. 119",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8244315
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/132/0119-01"
+      ]
+    },
+    {
+      "cite": "103 Tex. 594",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2259263
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/103/0594-01"
+      ]
+    },
+    {
+      "cite": "96 S.W. 2d 292",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10243936
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/96/0292-01"
+      ]
+    },
+    {
+      "cite": "84 S.W. 2d 288",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10238914
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/84/0288-01"
+      ]
+    },
+    {
+      "cite": "212 S.W. 656",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8264675
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/212/0656-01"
+      ]
+    },
+    {
+      "cite": "61 Texas 3",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2169057
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/61/0003-01"
+      ]
+    },
+    {
+      "cite": "298 S.W. 554",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10297759
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/298/0554-01"
+      ]
+    },
+    {
+      "cite": "1 S.W. 2d 575",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10296649
+      ],
+      "pin_cites": [
+        {
+          "page": "576"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/1/0575-01"
+      ]
+    },
+    {
+      "cite": "64 A.L.R. 730",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 S.W. 2d 527",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10296556
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/16/0527-01"
+      ]
+    },
+    {
+      "cite": "1917 F, 989",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "176 S.W. 717",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8272715
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/176/0717-01"
+      ]
+    },
+    {
+      "cite": "107 Texas 226",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2251580
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/107/0226-01"
+      ]
+    },
+    {
+      "cite": "258 S.W. 2d 160",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10197052
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/258/0160-01"
+      ]
+    },
+    {
+      "cite": "191 S.W. 2d 484",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10194293
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/191/0484-01"
+      ]
+    },
+    {
+      "cite": "286 S.W. 1083",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10325591
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/286/1083-01"
+      ]
+    },
+    {
+      "cite": "271 S.W. 2d 410",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10190489
+      ],
+      "pin_cites": [
+        {
+          "page": "412"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/271/0410-01"
+      ]
+    },
+    {
+      "cite": "153 Texas 465",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2247958
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/153/0465-01"
+      ]
+    },
+    {
+      "cite": "65 A.L.R. 2d 1352",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "304 S.W. 2d 362",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2254003,
+        10164910
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/157/0479-01",
+        "/sw2d/304/0362-01"
+      ]
+    },
+    {
+      "cite": "157 Texas 479",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2254003
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/157/0479-01"
+      ]
+    },
+    {
+      "cite": "334 S.W. 2d 616",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10164441
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/334/0616-01"
+      ]
+    },
+    {
+      "cite": "38 S.W. 162",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "pin_cites": [
+        {
+          "page": "163"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "90 Texas 223",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2241887
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/90/0223-01"
+      ]
+    },
+    {
+      "cite": "324 S.W. 2d 201",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2257108,
+        10160046
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/159/0552-01",
+        "/sw2d/324/0201-01"
+      ]
+    },
+    {
+      "cite": "159 Texas 552",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2257108
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/159/0552-01"
+      ]
+    },
+    {
+      "cite": "128 Texas 156",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "year": 1936,
+      "opinion_index": 1
+    },
+    {
+      "cite": "295 S.W. 2d 901",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2252434,
+        10181355
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/156/0455-01",
+        "/sw2d/295/0901-01"
+      ]
+    },
+    {
+      "cite": "156 Texas 455",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2252434
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/156/0455-01"
+      ]
+    },
+    {
+      "cite": "291 S.W. 2d 792",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10181705
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/291/0792-01"
+      ]
+    },
+    {
+      "cite": "252 S.W. 2d 575",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10215518
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/252/0575-01"
+      ]
+    },
+    {
+      "cite": "151 Texas 562",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2244746
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/151/0562-01"
+      ]
+    },
+    {
+      "cite": "96 S.W. 2d 221",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2293192,
+        10241716
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/128/0155-01",
+        "/sw2d/96/0221-01"
+      ]
+    },
+    {
+      "cite": "317 S.W. 2d 528",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10169545,
+        2257114
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/317/0528-01",
+        "/tex/159/0178-01"
+      ]
+    },
+    {
+      "cite": "159 Texas 178",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2257114
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/159/0178-01"
+      ]
+    },
+    {
+      "cite": "212 S.W. 656",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8264675
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw/212/0656-01"
+      ]
+    },
+    {
+      "cite": "271 S.W. 2d 410",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10190489
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/271/0410-01"
+      ]
+    },
+    {
+      "cite": "153 Texas 465",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2247958
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/153/0465-01"
+      ]
+    },
+    {
+      "cite": "65 A.L.R. 2d 1352",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R. 2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "304 S.W. 2d 362",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2254003,
+        10164910
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/157/0479-01",
+        "/sw2d/304/0362-01"
+      ]
+    },
+    {
+      "cite": "157 Texas 479",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2254003
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/157/0479-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1486,
+    "char_count": 46525,
+    "ocr_confidence": 0.605,
+    "pagerank": {
+      "raw": 5.58047524123155e-07,
+      "percentile": 0.9475979101484295
+    },
+    "sha256": "b4ef67410f4f14dc6a73c019afe0e035055d27398bee8a147ce624a5c5a3bccb",
+    "simhash": "1:ba070572eece19cc",
+    "word_count": 8123
+  },
+  "last_updated": "2024-02-27T23:04:29.645629+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "James G. Brown Et Al v. Martha Lundell Et Al"
+    ],
+    "opinions": [
+      {
+        "text": "MR. JUSTICE CULVER\ndelivered the opinion of the Court.\nThe petitioners, James G. Brown et al., are the owners and operators of a producing oil and gas lease on lands owned by the respondent-lessor, Martha Lundell. The respondents in this suit allege that Brown disposed of the salt water produced from their well into an open pit and negligently allowed the same to percolate and seep into the subsurface stratum so as to pollute the underground water supply, thus permanently impairing the value of the land.\nThe jury found that Brown was negligent in permitting the salt water to escape from the disposal pit and in failing to protect the fresh water stratum and that such negligence was the proximate cause of the pollution complained of. The jury further found that the pollution is permanent. Judgment on the verdict was rendered in favor of lessor in the amount of the difference between the before and after values. The Court of Civil Appeals has affirmed. 334 S.W. 2d 616. We conclude that this judgment should not be disturbed.\nIt is Brown's position that the owner and operator of an oil and gas lease has the right to use so much of the premises and in such manner as is reasonably necessary to comply with the terms and purposes of the lease; that the use made of the premises was so confined and thus he had breached no duty to the lessor. Brown insists (1) that he had the right to produce and necessarily separate the oil from the water and dispose of the salt water in the earthen pit without incurring the burdensome expense of furnishing and using steel tanks or drilling a deep imput well; (2) that he had specially bought from the respondent landowner the right to use the land for the maintenance of the pit into which the salt water was deposited; and lessor had consented to let the premises for that use and was therefore precluded from recovering damages; (3) that he had disposed of the salt water in accordance with the uniform custom in that field and there was no proof that the custom itself was negligence; (4) that there was no proof of negligence or foreseeability.\nFirst of all Brown complains that the Court of Civil Appeals sustained the judgment of the trial court on the theory that he was guilty of wanton conduct in the disposal of the salt water and the resultant damage.\nWhile that court does attempt to differentiate between intentional and wilful on the one hand and wanton acts on the other and seems to predicate liability on that character of conduct, actually the case was pleaded and founded on negligence and not on the theory that the conduct of Brown was intentional, wilful or wanton. The jury found that Brown was negligent in the disposal of the salt water and judgment was rendered accordingly. The effect of the decision of the Court of Civil Appeals, regardless of what was said in the opinion, could only be an affirmance of the judgment rendered below predicated on negligent conduct.\nWe agree that the owner-operator of the lease has the right to use so much of the land, both surface and subsurface, as is reasonably necessary to comply with the terms of the lease contract and to carry out the purposes and intentions of the parties. Warren Petroleum Corp. v. Monzingo, 157 Texas 479, 304 S.W. 2d 362, 65 A.L.R. 2d 1352. It does not follow, however, that the operator may use either the surface or the subsurface in a negligent manner so as to damage the landowner. The lessor does not here seek to be paid for the use of more land than was necessary but rather her claim is predicated on the negligent use of the land.\nWhile we did say in Warren Petroleum Corp. v. Martin, 153 Texas 465, 271 S.W. 2d 410, at 412, that the only duty owed by the lessee to the lessor was not to intentionally, wilfully or wantony injure his cattle, that rule is not applicable to the facts in the case before us. Some oil had escaped from the oil-well pump and accumuated in two small pools within five feet of the well. Lessor\u2019s cattle died as a result of drinking the oil. We said in that case that, \u201cthe mere fact that petitioner permitted oil to escape and [collect on the ground within a few] feet of the well, without any showing as to the manner in which the lease was being operated at the time, could not form the basis for a legal inference that such conduct constituted negligence.\u201d\nWe further held that since the lessee was the owner of the dominant estate he had the right to use so much of the premises as was reasonably necessary to the exclusion of the lessor in order to carry out the purposes of the mineral grant, but even so that right must be reasonably exercised with due regard to the rights of the owner of the surface.\nHence the decision in Warren v. Martin was based on two theories, (1) there was no proof of negligence; (2) the lessee was under no duty to exclude the cattle from the vicinity of the well and therefore the lessee owed no duty to the lessor except to refrain from intentional or wanton injury to his livestock. This case cannot be construed to hold that the operator is not liable for negligence in the disposal of salt water or that he is only liable for wilful and wanton pollution.\nThe right of the lessee in exploring for and producing oil and gas embraces only the doing of those things expressly granted or necessarily implied in the lease as necessarily incidental thereto. All property rights not granted are reserved in the lessor. The rights of the lessor and lessee are reciprocal and distinct. If either party exceeds those rights he becomes a trespasser. Gregg v. Caldwell-Guadalupe Pick Up Stations, Tex. Comm. App., 286 S.W. 1083. Thus, if the lessee negligently and unnecessarily damages the lessor\u2019s land, either surface or subsurface, his liability to the lessor is no different from what it would be under the same circumstances to an adjoining landowner. The jury impliedly found that by taking reasonable precautions to dispose of the salt water that was accumulated as a necessary incident to the production of oil the operator could have avoided the pollution of the water. The operator did not obtain the right to permit the salt to drain and seep down into the subsoil and the resultant damage. The use of the lessor\u2019s land is limited. In other words the lessor has granted and leased to the lessee only so much of his land as will be reasonably necessary to effectuate the purpose of the lease, and to be used in a non-negligent manner.\nBrown cites other cases such as Sinclair Prairie Oil Co. v. Perry, Tex. Civ. App., 191 S.W. 2d 484, and Trinity Produce Co. v. Bennett, Tex. Civ. App., 258 S.W. 2d 160, where damages were sought for the loss of cattle resulting from drinking oily water around the oil well. Each of these cases hold that the operator is under no legal duty to fence off the well area where the oil and water had accumulated and that, so long as he uses the premises in the usual and customary manner consistent with the purposes and provisions of the lease, he would not be liable in damages merely because he failed to prevent the entry of the livestock on the premises. The import of those decisions is that even though the operator negligently allowed oil to accumulate on the ground around the well, he would not be liable in such a ease. Brown here argues that the rule is applicable to the facts of his case, namely, that he used the premises in the usual and customary manner and cannot be held in damages for negligence in allowing the salt water to percolate and pollute the subterranean waters; that he is no more liable for negligence in this case than he would be in a suit brought for damages where cattle had wandered in upon the premises and had drunk the salt water in the disposal pit.\nWe think the analogy is not sound. Rather the situation we have here is no different to the case where a lessee had negligently permitted the salt water to escape from his pit and flow over the lessor\u2019s fields and damage the land and the growing crops. The distinction is that the lessee is entitled to use the land immediately surrounding the well reasonably necessary for his operations including such installations as tanks and slush pits. It was necessarily incident to production operations here that the salt water be separated from the oil and that it be disposed of, but the seepage of the salt into the fresh water stratum could have been prevented and constituted a negligent use of the premises.\nIn this connection lessee cites Texas Company v. Daugherty, 107 Texas 226, 176 S.W. 717, L.R.A. 1917 F, 989, and Guffey v. Stroud, 16 S.W. 2d 527, 64 A.L.R. 730 Comm. App. opinion adopted, for the proposition that lessee\u2019s right of user extends to the entire premises. He quotes from Daugherty as follows:\n\u201cFor the purpose of making the exploration and producing all the oil, gas and other minerals that might be within the ground, and the erection of all structures necessary thereto, as well as their storing and transportation, the possession of the land itself is likewise granted, with no limitation upon the number of wells or shafts that the grantee might sink, or the extent of its operations in that connection, and consequently no qualification of its right of possession to all such parts of the surface, except that no well should be drilled nearer than 200 feet from the house or barn on the premises without the consent of both parties, as might be necessary to its full use by the grantee for the purposes named.\u201d\nIn that case the only point decided is that an oil and gas lease constitutes property subject to taxation. However, the court is not saying in the quoted paragraph that the possession of all the land leased is necessarily granted to the lessee to the exclusion of the lessor, but merely that the lessee has the exclusive right of possession and use of all or any part of the land necessary for exploration and production of oil and gas.\nGuffey employs this language:\n\u201cThe grant of the oil carried with it a grant of the way, surface, soil, water, gas and the like essential to the enjoyment of the actual grant of the oil.\u201d\nThus, says the lessee, his right of user extends to the subsurface water. We do not question that proposition but the right to use does not imply the right to damage negligently or unnecessarily.\nBrown offered proof that he had disposed of the salt water water in the earthen pit in accordance with the uniform practice and custom of the operators in that field. On the trial he requested an issue as to that fact and also one inquiring as to whether that custom was negligent. He complains of the trial court\u2019s refusal to include those issues in the charge. He contends that where it is shown that he conducted his business in accordance with a uniform custom the lessor, in order to recover damages, must prove that the custom was negligent.\nThe trial judge, as to that matter, gave the following instruction to the jury:\n\u201cIn connection with this definition of \u2018negligence\u2019 and \u2018ordinary care,\u2019 you are instructed that while compliance with a custom or conformity with usual and ordinary practices is not an absolute test of freedom from negligence, you may nevertheless properly consider the usual and customary practices of other operators engaged in the same or similar business and whether the defendant complied therewith, m determining whether the defendant was guilty of negligence.\u201d\nThis sufficiently called the jury\u2019s attention to the evidence on that score and the lessee could legitimately demand no more. The ultimate issue was whether Brown was negligent in the way and manner in which he disposed of the salt water, while the questions as to what was the custom, whether Brown had complied therewith and whether the custom itself was negligent, are only evidentiary as to the negligence of the operator. We are aware of no authorities to the contrary. In passing upon the admissibility of certain \u201ccustom\u201d evidence, Hubb Diggs Co. v. Bell, Tex. Comm. App., 1 S.W. 2d 575, 576, holds as follows: \u201cWhenever that kind of evidence is competent, conformity with the usage is some proof of due care, etc., and non-conformity, perforce, has an equal quantum of proof of negligence.\u201d Admittedly custom is not an absolute test of negligence for the custom itself may be negligent. Evidence of custom is pertinent as an aid merely in determining the fact issue of negligence vel non on the part of the operator and to enable the Court or the jury to evaluate the operator\u2019s conduct as compared to that of an ordinarily prudent operator. Comanche Duke Oil Co. v. Texas Pacific Coal & Oil Co., Texas Comm. App., 298 S.W. 554; Gulf C. & S. F. Ry. Co. v. Evansich, 61 Texas 3.\nIn support of his contention that the trial court should have submitted to the jury an issue inquiring as to whether or not the custom itself was negligent, Brown cites Taylor v. White, 212 S.W. 656, Texas Comm. App. (opinion adopted); Houston & T. C. R. Co. v. Werline, Tex. Civ. App., 84 S.W. 2d 288, wr. er. dism., and Chisos Mining Co. v. Hernandez, Tex. Civ. App., 96 S.W. 2d 292, wr. er. dism. In our opinion these decisions do not stand for that proposition. In the first case the trial court directed a verdict for the defendant. The negligence alleged consisted in the failure of the defendant to fix a guard rail around a certain machine and in placing a wrench on the floor over which the plaintiff stumbled and fell against the machine. The Commission of Appeals affirmed on the ground that the evidence was not sufficient to show that the defendant was guilty of negligence in failing to provide a guard rail, holding:\n\u201cThe evidence without controversy shows that exciters of like kind were in general use throughout the country, and that no guard rails were provided in any of the plants using these machines to protect the employees. The custom of others engaged in like business is not the absolute test of negligence, but where the undisputed evidence shows affirmatively, as it does in this case, that the defendant was conducting his business in accordance with the uniform custom of persons engaged in like business, it devolves upon the plaintiff, before he can recover, to produce evidence showing that such custom is negligent. In the absence of such testimony, the legal presumption is that those engaged in like business were reasonably prudent in the conduct of their business, and that they discharged their legal obligations for the safety of their servants. Houston & T. C. Railway Co. v. Alexander, 103 Tex. 594, 132 S.W. 119; Canadian Northern Railway Co. v. Senske, 201 Fed. 637, 120 CCA 65.\u201d\nThe court is not saying that the proper jury issue should have been one inquiring as to whether the custom was negligent but that since there was no evidence that the custom was negligent the defendant was guilty of no negligence. The court further observed that the wrench was placed on the floor by a fellow servant of plaintiff who was assisting him in his work and he could not recover therefor since he assumed the risk caused by the negligence of his fellow servants.\nHouston & T. C. R. Co. v. Werline is generally to the same effect. In this case the plaintiff as a result of a seizure of some kind fell to the floor of the car unconscious and was burned as a result of her leg coming in contact with heated pipes under the forward seat. The basis of the reversal was that the situation was unanticipated and the resultant injury could not have been reasonably foreseen.\nIn Chisos Mining Co. v. Hernandez, the plaintiff pleaded negligence bn the part of his employer in failing to provide him with a safe place to work. The Court of Civil Appeals reversed and remanded on the ground that while the employer must exercise ordinary care to furnish his employee with a reasonably safe place to work that rule does not apply where the place, in this case, a mining shaft, becomes unsafe during the progress of the work. The comment we have made on the Taylor v. White opinion is applicable to this case.\nBrown also cites our recent opinion in Texas & Pacific Ry. Co. v. Van Zandt, 159 Texas 178, 317 S.W. 2d 528. In that case the railroad company admitted negligence and defended solely on the contention that the plaintiff under the circujmstances did not and could not have sustained any personal injury whatever. So that there was submitted to the jury only the question of damages. While impliedly the inquiry as to injury was included in the damages issue, we said that under the circumstances the trial court should have submitted the sole defensive issue to the jury independently. This holding has no application here. The vital defense in our case was \u201cno negligence\u201d on the part of the operator. That issue was submitted.\nFor another reason Brown maintains that the lessor cannot recover. This contention is grounded upon payment of consideration to the lessor for the use of her land in the construction and maintenance of the earthen pit for the disposal of salt water. Lessee claims that the acceptance of the consideration and the written consent for the earthen pit forecloses her recovery and states the applicable rule to be \u201cit is a well recognized maxim of the law that a person cannot recover for the consequences of an act which he himself has procured or consented to,\u201d citing 1 C. J. 971, \u00a7 65. (1 C.J.S., Actions, \u00a7 23). Worded somewhat differently in 1 Am. Jur. \u00a7 17, p. 415: \u201cIt is a general rule that one cannot maintain an action for a wrong occasioned by an act to which he has consented, under the familiar maxim, \u2018volenti non fit injuria,\u2019 * *\nThe operator says that, since the lessor consented to the construction of the earthen pit, knowing that the salt water and other waste would be deposited in it and accepted payment for that use of the premises, she cannot recover and the operator is not to be held guilty of negligence in exercising the right that was granted. This argument, like the disposal pit, will not hold water. What Brown failed to allege and prove is that the lessor had reason to know or to be aware that the salt water would probably percolate downward and pollute the fresh water supply. If that had been shown as a fact then equitable estoppel might be employed against her claim for damages and the foregoing rule brought into play. We think that the fact that Brown paid for the privilege of constructing and using an earthen pit will avail him nothing. Under the rule that he had the right to use so much of the land as was reasonably necessary in the production of oil and since the production of oil necessarily involved its separation from the salt water, he would have had the right, ordinarily under the implied terms of the lease, to use the land for that purpose without paying any additional compensation.\nBrown invokes the familiar maxim of \u201cvolenti non fit injuria\u201d and seeks to apply the rule to the present situation. This doctrine can have no application to the facts developed in this case. The lessor did know that the salt water would be deposited in the earthen tank and consented thereto. It does not follow, however, that she thereby gave her consent for the salt water to percolate into the subterranean fresh water stratum. For the doctrine of \u201cvolenti non fit injuria\u201d to apply she must not only have known that the salt water would be deposited in the pit but also that such a great quantity of salt and salt waiter disposed of in the pit would probably pollute and contaminate the underground water. It is not shown that she had any such knowledge. Brown did request an issue as to whether the lessor had consented to the disposal of salt water in the disposal or burning pit, and complains of the trial court\u2019s refusal of that issue. This ruling was not erroneous. We think unquestionably she did so consent but no further issue was requested as to whether she was aware of the probable pollution. The doctrine of \u201cvolenti non fit injuria\u201d presupposes a knowledge of the facts so that the actor has a choice. Schiller v. Rice, 151 Texas 116, 246 S.W. 2d 607. In this case it cannot be said that the lessor assumed a known and appreciated risk. See also Triangle Motors of Dallas v. Richmond, 152 Texas 354, 258 S.W. 2d 60.\nMcCue v. Klein, 60 Texas 168, in speaking of this maxim, says it presupposes that the party is capable of giving assent to his own injury, and \u201cIf he is divested of the power of refusal by reason of total or partial want of mental faculties, the damage cannot be excused on the ground of consent given.\u201d The court goes on to say that lack of knowledge of the danger will not afford excusable consent.\nThe correspondence in regard to this cash payment to lessor clearly shows that it was given in consideration for the use of land around the well on the acreage basis, being one and one-half acres at $600.00 per acre. Additionally, the lessor was paid $400.00 \u201cto cover anticipated surface damage for ground slush pit.\u201d This does not afford any inference that Brown bought the right to permit the salt and salt water to escape from the pit and damage either the surface or the subsurface of lessor\u2019s land.\nWe cannot agree with petitioner that the record discloses no evidence of negligence on his part or no evidence of foreseeability. Within the space of 15 months after production was obtained lessee poured some 3,000,000 gallons of salt water into this earthen tank. The analysis showed that this volume of water contained a total of nearly 4,000 tons of salt exclusive of other solids. It was undisputed that seepage of this salt water caused the pollution complained of. When complaint of this pollution was made by the landowner the petitioner proimptly converted one of his smaller producing wells into an \u201cinput\u201d well and injected the salt water back into its original stratum. The petitioner himsef testified that if he had thought seriously about the possibility of pollution he would have tried to devise another system of disposal. He knew or should have known of the amount of water that was being placed in the pit and of its salt content ; that in an open, unsealed tank that some of the water would evaporate, some would normally percolate and seep into the ground. He knew that no salt deposits had ever been removed from the pit. There was testimony indicating that there had been complaint of salt water pollution from open disposal pits in other sections of this general area and other producers had switched to the reinjection method previously. Brown knew that a fresh water formation underlay this farm and that this water was used for irrigation and farming purposes. The cubic dimensions of this disposal pit are not shown in the record so far as we know, but from photographs taken presumably after cessation of its use, the jury could reach some approximation of its capacity and size.\nThe lessee says there is no evidence in this case establishing negligence \u201cin the usual sense\u201d and that proof of specific acts of negligence is required as a basis for pollution damages caused by oil and gas production wastes. In support of that proposition he cites our holding in Turner v. Big Lake Oil Co., 128 Texas 155, 96 S.W. 2d 221, namely that the mere fact, that salt water had escaped from disposal pits and contaminated the adjoining land, was not in itself proof of negligence, but in order for plaintiffs to recover they must allege and prove some specific acts of negligence. The question presented in that case was whether or not the operator was to be held as an insurer or whether the cause of action must be predicated on negligence. Four issues of negligence were submitted to the jury, all being found adversely to the landowner. The holding of the court, simply stated, is that the lessee may not be held liable in damages for injury to property occasioned by the escape of salt water from pits constructed and used by him in the operation of his oil wells without proof of negligence on his part. From what is said in the opinion it is not unreasonable to conclude that but for the unfavorable findings of the jury the landowner would have been entitled to a recovery. We do not understand that lessee either in the Court of Civil Appeals or here has complained of the form of the issues submitted by the trial court.\nIn Pickens v. Harrison, 151 Texas 562, 252 S.W. 2d 575, the facts seem to be no more compelling as to negligence and foreseeability than they are here. In that case the operator had disposed of some 200,000 gallons of salt water into a pit about 25 x 25 feet square and 13 feet deep during the ten days of its use and yet the \u201cno evidence\u201d assignments were overruled. See also Gulf Oil Corp. v. Bob Alexander, 291 S.W. 2d 792, wr. ref. n.r.e., 156 Texas 455, 295 S.W. 2d 901.\nThe last point urged by petitioner relates to the refusal of the court of a motion for discovery and inspection under Rule 167, Rules of Civil Procedure. By this motion he sought authority to drill a water well on the eastern part of respondent\u2019s land to test the water under that portion of the property. He contends that the driling of such a well would have proved beyond any doubt that good water could be had on that portion of the farm and thus would materially affect the market value of the property. This well could have been drilled and the water tested within a period of two weeks. It was the position of the lessor that a well drilled in the eastern portion of the farm at that time would show that the water was not contaminated but that after a period of excessive pumping it might possibly become polluted from the salt water theretofore disposed of in the pit. It appears that this suit was filed on February 14, 1958. The motion was filed January 20, 1959. It was presented and overruled on the 24th day of January, 1959. The case went to trial on February 10, 1959.\nThe lessor\u2019s expert witness, a ground water engineer and geologist, testified on the trial that a water well drilled at that time in the northeastern portion of lessor\u2019s property would not show polluted water and even though pumped would not draw in any contaminated water for a considerable length of time. Thus it would seem that lessor substantially admitted everything that the operator sought to prove by the drilling of a well. The action of the trial court upon this motion was within his sound discretion and is to be overturned only upon a showing of an abuse of that discretion. Crane v. Tunks, 160 Texas 182, 328 S.W. 2d 434. In View of the circumstances there is shown no abuse of discretion on the part of the trial court.\nThe judgments of the Court of Civil Appeals and district court are both affirmed.\nSteakley, Judge, not sitting.\nNo application for writ of error applied for in either case.\nThe lease provides: \u201cLessee shall pay to Martha Lundell individually the sum of $600.00 per acre for each acre of said land used by lessee for his operations hereunder, including the acreage used by roads, tanks, drill sites, or for any other purpose.\u201d",
+        "type": "majority",
+        "author": "MR. JUSTICE CULVER"
+      },
+      {
+        "text": "MR. JUSTICE SMITH\njoined by JUSTICE HAMILTON dissenting.\nI respectfully dissent. This case involves the question of the right of a lessee under an oil and gas lease to dispose of the salt water in an earthen pit located on the lease, free from liability to the lessors for resultant damages to the same lease premises. This is not a suit such as Pickens v. Harrison, 151 Texas 562, 252 S.W. 2d 575. That case involved a claim for damages against a defendant who had been operating a well or wells on neighboring property.\nThere is no evidence of negligence in this case. It is true, the respondents alleged negligence in their pleadings. There was no pleading that petitioners had used more land than reasonably necessary or that they had been guilty of any intentional, wilful, or wanton act. There were no issues submitted inquiring whether petitioners had used more of the property than reasonably necessary, neither were there any issues submitted inquiring whether petitioners had acted in an intentional or wilful manner or in a wanton manner.\nThis record will not support the judgment based on affirmative answers to the two negligence issues submitted. The judgment against petitioners cannot stand on either the finding that the petitioners were negligent in permitting salt water to escape from the salt water pit, and that such negligence was a proximate cause of the pollution of the irrigation well, or the finding that petitioners negligently failed to protect the fresh water strata from pollution, and that such negligence was a proximate cause.\nThe Court of Civil Appeals held that the only duty owed by petitioners was not to intentionally, wilfully or wantonly injure respondents\u2019 water strata. However, the court then said that petitioners had reason to anticipate injury, and since they had failed to perform the duty arising on account of that anticipation such conduct was wanton. It was obviously upon that conviction of wantonness that the Court of Civil Appeals affirmed the judgment of the trial court.\nThis court admits that liability cannot be predicated on that \u201ccharacter of conduct,\u201d yet affirms the judgment on the theory that the plaintiff pleaded and proved negligence and proximate cause, and obtained favorable jury findings thereon.\nUnder the authorities, as I interpret them, the oil and gas lessee has the right to take without paying damages a part of the surface of the land for drilling operations, and the lessee is not liable to the lessor or his tenant for a negligent use of that land so long as he takes no more than is reasonably necessary. The lessee\u2019s only liability, admitting that the part of the premises taken is reasonably necessary, is for wilful, intentional or wanton destruction of the lessor\u2019s property. There appear to be no cases involving the rights of the parties relatives to the use of the subsurface. However, I can draw no distinction and see no plausible reason why the same rules should not govern in both instances, that is, the surface and the subsurface.\nIn the present case, the oil and gas lease gave the lessee the right to enter upon and use the premises to remove, treat, and market the oil and gas in the manner consistent with the usual and proper oil field practices. That was the manner of use in this case. The lessee had the dominant estate and the right to use the entire premises from the surface to and through the fresh water sands and salt water sands down to and including the deepest formation from which production could be obtained. In other words, an oil and gas operator has the same rights to the use of the subsurface as reasonably necessary for his operations as he has to the use of the surface for such operations.\nIf this proposition is sound, and I think it is, then it is clear, just as in many surface cases, that the landowner or tenant of the landowner has no right to recover for appropriation of or damage to the subsurface strata resulting from oil and gas operations unless he alleges and proves by competent testimony and the jury finds, that the oil and gas lessee has taken more land than is reasonably necessary for his operations. The lessors-respondents have wholly failed to try this case upon this, the only theory of recovery. There has been no determination, either by express or implied finding, that the lessee has taken more land than was reasonably necessary. Of course, the lessee does not have the right to destroy underground fresh water merely because he is a lessee or at his pleasure. The fact remains, however, that in a suit such as this, the burden rests with the lessor to establish that the appropriation of the underground fresh water is not reasonably necessary to the lease operations. The cases recognize the right of the lessee to exclusive possession of so much of the land as is reasonably necessary for his operations. See Warren Petroleum Corp. v. Martin 153 Texas 465, 271 S.W. 2d 410. Since there is no evidence showing the boundaries of the area, either on, above, or below the surface which the lessee is entitled to use to the exclusion of the lessor, how can it be said with any degree of certainty that the salt water has escaped beyond the area which the lessee had the right to use? The rules of common law negligence cannot be applied until this controlling issue has been determined. Therefore, respondents stand before this court without the necessary findings upon which to rest a judgment in their favor.\nThis rule does not apply and did not control in Pickens v. Harrison, supra. In that suit there was no privity of estate between the adjoining land and the lessee or operator of an oil and gas lease on neighboring property. That was strictly a common law negligence case.\nIn the case of Gulf Oil Corporation v. Alexander, Tex. Civ. App., 291 S.W. 2d 792, wr. ref. n.r.e., at 156 Texas 455, 295 S. W. 2d 901 (1956), another adjoining property damage case, the Court of Civil Appeals opinion placed liability on violation of Railroad Commission Rule 20. The Court of Civil Appeals holding was just another way of imposing a strict liability without fault under the doctrine of Rylands v. Fletcher, which has been rejected in a number of cases, including Turner v. Big Lake Oil Company, 128 Texas 156, 96 S.W. 2d 221 (1936).\nWhat I have said thus far applies with equal force to the issue which inquired whether the failure to protect the fresh water strata from pollution was negligence.\nThis court refers to the case of Warren Petroleum Corp. v. Monzingo, 157 Texas 479, 304 S.W. 2d 362, 65 A.L.R. 2d 1352, (1957). That case was a suit by a surface owner against an oil and gas lessee for location damages resulting from abandonment of a test well as a dry hole, leaving unfilled slush pits, ruts, and a roadwajr on the surface of the land. The court held that the lessee had the right to use so much of the premises and in such manner as reasonably necessary to effectuate the lease and hence the lessee was under no implied obligation to restore the surface of the land to its original condition after abandonment of operations. The court here admits that this case correctly states the law, yet the majority here is willing to assess damages against petitioner without requiring a finding that more land was used than was reasonably necessary. The court has by implication held that the jury findings of negligence are the equivalent of findings that the petitioners used more land than was reasonably necessary. I cannot agree that the situation in our case is the same as where a lessee has negligently permitted salt water to escape from his pit and flow over a lessor\u2019s field, etc. The two situations would be identical only if the lessor proved in each instance that the lessee used more land than was reasonably necessary. It was necessary for repondents to plead and prove that the petitioners used more land than was necessary. This is always necessary in a case such as this where there is no evidence that the petitioners intentionally permitted the salt water to percolate downward into the fresh water strata. See Warren Petroleum Corp. v. Martin, supra. I contend that a jury finding that salt water was allowed to percolate below the surface does not establish negligence in a suit between lessor and leesee, and I further contend that such jury finding does not establish that the lessee used more land or more of the subsurface than was reasonably necessary. In this connection, it was prejudicial error for the trial court to admit in evidence over the strenuous objection of the petitioners, Rule 20 of the Railroad Commission of Texas. The rule reads:\n\u201cFresh water, whether above or below the surface, shall be protected from pollution whether in drilling, plugging, or disposing of salt water already produced.\u201d (Adopted by the Railroad Commission effective October 17, 1933.)\nThis is not a suit between oil operators and the owners of either surface or underground water. It is strictly a suit between the lessor and lessee of an oil and gas lease. The Railroad Commission has no authority, statutory or constitutional, to determine, as between the lessors and the lessee, either liability or negligence for permitting escape of the salt water from the permanent burning pit. The introduction of the rule was prejudicial and, no doubt, led the jury to believe that the Railroad Commission Order No. 20 fixed a standard of care for a lease operator on its own lease premises, and, therefore, the fact that salt water percolated below the surface and into the fresh water strata constituted negligence per se. I contend that the petitioners\u2019 objections should have been sustained. The Bill of Exceptions is too lengthy to copy into this opinion, but the views herein expressed as to the admission of Rule 20 conform to the objections urged. This question has been properly preserved on appeal, both in the Court of Civil Appeals and in this court. Petitioners preserve the error in connection with their points of \u201cno evidence.\u201d It is argued under these points that there was no evidence establishing negligence in the usual sense, and that Rule 20 was used to impose negligence, whereas, most jurisdictions require proof of specific negligence as a basis of liability. The Railroad Commission\u2019s Rule 20 had no place in this record. Petitioners argue that the Rule is no proof of negligence, and is no proof of foreseeability, that is, proximate cause. The Court of Civil Appeals did not squarely meet this issue, and this court has declined to mention the contention. There must be something more than the wording of Rule 20 itself to impose both negligence and foreseeability upon the lessees.\nThis court, in the case of Gulf Oil Corporation v. Alexander, supra, refused the application for writ of error, n.r.e., with the notation that \u201cThis order must not be taken as indicating either approval or disapproval of the views expressed by the Court of Civil Appeals as to the legal effect of Rule 20 promulgated by the Railroad Commission of Texas.\u201d By this action, the Supreme Court expressly reserved its opinion on the effect of Rule 20. I feel that the issue is squarely presented here, and should be determined.\nI cannot conceive of this court holding that Rule 20, which simply says- \u2014 \u201cThou shalt not pollute,\u201d can be treated as establishing negligence, much less proximate cause. There was no evidence that other landowners in the area had suffered pollution or that the landowners or lessees could have foreseen or should have foreseen the pollution. As this court said in the case of Rudes v. Gottschalk, 159 Texas 552, 324 S.W. 2d 201, 205: \u201cAnd even while accepting a statutory standard of negligence in lieu of that of the ordinary prudent man, we still retain the test of foreseeability of harm before liability is imposed under the doctrine of negligence per se.\u201d (Emphasis added.)\nIn Texas & Pacific Ry. Co. v. Bigham, 90 Texas 223, 38 S.W. 162, 163, this court said: \u201c* * * It would seem that there is neither a legal nor a moral obligation to guard against that which cannot be foreseen, and under such circumstances the duty of foresight should not be arbitrarily imputed.\u201d (Emphasis added.)\nDean Page Keeton and Mr. Lee Jones, Jr., both eminent authorities on the question of Tort Liability and the Oil and Gas Industry, summed up the situation in an article in 35 Texas Law Review where it is said:\n\u201cIf it develops that damage was sustained by or upon the leased premises, the principle employed by the courts as a starting point for discussion of the problem is that the mineral lease creates and vests in the lessee the dominant estate in the surface of the land for the purposes of the lease. As the holder of the dominant estate, the mineral lessee is permitted to occupy such space and do such damage as is reasonably necessary to conduct the operations permitted by the lease. This simply means that the lessor has, through the mineral lease, authorized by implication such conduct of the lessee, and of course there can be no recovery by him for damage resulting from authorized conduct on his property.\u201d\nThe court, in reality, is holding that the mere happening of the salt water percolating downward and polluting the fresh water strata is sufficient to convict the petitioners of negligent acts against the public policy of the state, and that the findings of the jury support the judgment. It is my position that under the record in this case, the respondents cannot recover. The respondents cannot recover because, assuming negligence, they are just as negligent as the petitioners. They authorized by special contract the very act for which they now attempt to collect damages. The respondents should be held equally liable in damages to owners of neighboring land as the petitioners in the event such third parties prove the polluted fresh water strata is located under their land.\nThe construction of salt water pits for the storage of salt water was within the contemplation of the parties to the oil and gas lease here involved. The petitioners acted clearly within the rights granted under the terms of the lease to construct the salt water disposal pit and to use this pit for the storage of the salt water produced along with the oil. The court is attempting to invoke the doctrine of absolute liability. In the case of Turner v. Big Lake Oil Co., supra, the principle was the same as here. The only difference in the facts being that in Turner, the salt water overflowed, whereas here it penetrated downward. In each instance the salt water escaped from the pits. In each instance the pit was constructed in the usual and customary manner. The respondents in the present case knew that the \u201cpermanent burning pit\u201d (the salt water pit) was to be an earthen pit; that it was located near the tank battery. There is no evidence that petitioners knew any more than lessors that the salt water would percolate downward into the subsurface strata of water. There is no evidence that petitioners intentionally permitted the salt water to escape. Consent to the use of the permanent burning pit was undisputed.\nIn Turner v. Big Lake, supra, this court declared that an oil operator has the legal right to store or dispose of oil or waste water on its own lease premises, and the mere fact that such oil or like waste escaped was not proof of negligence. In so holding, this court said: -\n\u201cAgain in England there are no oil wells, no necessity for using surface storage facilities for impounding and evaporating salt waters therefrom. In Texas the situation is different. Texas has many great oil fields, tens of thousands of wells in almost every part of the State. Producing oil is one of our toiajor industries. One of the by-products of oil production is salt water, which must be disposed of without injury to property or the pollution of streams. The construction of basins or ponds to hold this salt water is a necessary part of the oil business. In Texas much of our land was granted without mineral reservation to the State, and where minerals were reserved, provision has usually been made for leasing and operating. It follows, therefore, that as to these grants and leases the right to mine in the usual and appropriate way, as, for example, by the construction and maintenance of salt water pools such as here involved, incident to the production of oil, was contemplated by the State and all its grantees and mineral lessees, that being a use of the surface incident and necessary to the right to produce oil.\u201d\nThere are two other reasons why this judgment cannot stand. Both are interrelated with the question of no evidence. The first requires a rendition, the second requires a rendition or at least a remand to the trial court. The judgment should be reversed and rendered in favor of petitioners for the reason that respondents specially contracted for a valuable consideration for the construction of the permanent burning pit, and they knew that salt water and other waste would be there deposited. In fact, they surveyed out the area for the pit, and one of the respondents wrote a letter in regard to the pits to be dug, stating that in the event such pits (different than the permanent burning pit) were insufficient to retain the slush and mud used m the drilling of the wells, \u201cthen such excess shall be pumped in a line into the permanent burning pit to be dug now and used alongside of and with the tank batteries.\u201d (Emphasis added.) The license to use the land for the construction of an earthen pit (not steel) for the disposal of the salt water and other waste material was for a consideration paid by petitioners in addition to the consideration for the oil and gas lease. The respondents knew the pit would not \u201chold water.\u201d The other reason for rendition is that the disposal of the salt water in the earthen burning disposal was in accordance with the uniform custom of such operations in the area, and there was no proof that such custom was itself negligent. The customs of others engaged in like business is not the absolute test of negligence, but where the undisputed evidence shows affirmatively, as it does here, that the petitioners were conducting their business in accordance with the uniform custom of persons engaged in like business, it devolved upon the respondents, before they could recover, to produce evidence showing that such custom was negligent. Tex. Com. App., 212 S.W. 656.\nThe petitioners were, to say the least, entitled to have their requested issues 1, 2, and 2a on this question submitted to the jury. This was a vital defensive issue. I think it was established as a matter of law. If not, it was error for the trial court to refuse the submission of the requested defensive issues. See Texas & Pacific Railway Co. v. Van Zandt, 159 Texas 178, 317 S.W. 2d 528. It can well be argued that this error was reasonably calculated to cause and probably did cause the rendition of an improper judgment. The case should be reversed and rendered in favor of petitioners on the principal question here discussed. At most, this court should reverse and remand the case because of prejudicial procedural errors herein discussed.\nASSOCIATE JUSTICE STEAKLEY not sitting.",
+        "type": "dissent",
+        "author": "MR. JUSTICE SMITH"
+      }
+    ],
+    "attorneys": [
+      "Stubbeman, McRae, Sealy & Laughlin, Midland, Durward D. Mahon, of above firm, Lubbock, for petitioners.",
+      "Allison & Allison, Levelland, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "James G. Brown Et Al v. Martha Lundell Et Al\nNo. A-7870.\nDecided February 22, 1961\nRehearing overruled April 12, 1961\n(344 S. W. 2d Series 863)\nStubbeman, McRae, Sealy & Laughlin, Midland, Durward D. Mahon, of above firm, Lubbock, for petitioners.\nAllison & Allison, Levelland, for respondents."
+  },
+  "file_name": "0084-01",
+  "first_page_order": 92,
+  "last_page_order": 111
+}

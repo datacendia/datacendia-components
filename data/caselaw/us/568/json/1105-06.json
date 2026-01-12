@@ -1,0 +1,59 @@
+{
+  "id": 12428606,
+  "name": "Turner v. Florida",
+  "name_abbreviation": "Turner v. Florida",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-7136",
+  "first_page": "1105",
+  "last_page": "1105",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1105"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 65,
+    "ocr_confidence": 0.691,
+    "sha256": "77ebc976fd704efc62dc14e05368d2c49fd7df14404a3503c6835ec58c5aabeb",
+    "simhash": "1:274af642647426b6",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Turner v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7136.\nTurner v. Florida."
+  },
+  "file_name": "1105-06",
+  "first_page_order": 1181,
+  "last_page_order": 1181
+}

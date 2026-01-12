@@ -1,0 +1,59 @@
+{
+  "id": 12422410,
+  "name": "Smith v. Florida",
+  "name_abbreviation": "Smith v. Florida",
+  "decision_date": "2012-11-13",
+  "docket_number": "No. 12-6120",
+  "first_page": "1009",
+  "last_page": "1009",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1009"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 47,
+    "char_count": 319,
+    "ocr_confidence": 0.63,
+    "sha256": "67cbd28f589fadf72866689c6a81a3c6fc5c799b7ad8111a278a01dcec0bf0c7",
+    "simhash": "1:b2a514ac480f3fd1",
+    "word_count": 57
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Smith v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": ".Dist. Ct. App. Fla., 3d Dist. Motion of petitioner for leave to proceed in forma pauperis denied. Petitioner is allowed until December 4, 2012, within which to pay the docketing fee required by Rule 38(a) and to submit a petition in compliance with Rule 33.1 of the Rules of this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6120.\nSmith v. Florida."
+  },
+  "file_name": "1009-02",
+  "first_page_order": 1085,
+  "last_page_order": 1085
+}

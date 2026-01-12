@@ -1,0 +1,59 @@
+{
+  "id": 12224659,
+  "name": "Sayre v. United States",
+  "name_abbreviation": "Sayre v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5866",
+  "first_page": "923",
+  "last_page": "923",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 923"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.697,
+    "sha256": "95f8613f6ffc361ab2535a14807ca6bf76841fd8250ccaeded10b0aad8cc3057",
+    "simhash": "1:41209ceb66915918",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sayre v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5866.\nSayre v. United States."
+  },
+  "file_name": "0923-16",
+  "first_page_order": 1005,
+  "last_page_order": 1005
+}

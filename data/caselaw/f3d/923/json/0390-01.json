@@ -1,0 +1,968 @@
+{
+  "id": 12521055,
+  "name": "UNITED STATES of America, Plaintiff-Appellee v. Michael BAKER, Defendant-Appellant",
+  "name_abbreviation": "United States v. Baker",
+  "decision_date": "2019-04-26",
+  "docket_number": "No. 17-51034",
+  "first_page": "390",
+  "last_page": "407",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "923 F.3d 390"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "5th Cir.",
+    "id": 8820,
+    "name": "United States Court of Appeals for the Fifth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "982 F.2d 156",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        36452
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "159",
+          "parenthetical": "\" 'Reckless indifference' has been held sufficient to satisfy \u00a7 1001's scienter requirement so that a defendant who deliberately avoids learning the truth cannot circumvent criminal sanctions.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/982/0156-01"
+      ]
+    },
+    {
+      "cite": "467 F.3d 889",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3806104
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "901"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/467/0889-01"
+      ]
+    },
+    {
+      "cite": "578 F. App'x 114",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        4230892
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "parenthetical": "\"Since we find the evidence sufficient to convict [the defendant] under a Pinkerton theory of vicarious liability, we need not decide whether there was sufficient evidence of [the defendant's] advance knowledge under Rosemond .\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/578/0114-01"
+      ]
+    },
+    {
+      "cite": "196 L.Ed.2d 173",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12606176,
+        12606177,
+        12606115,
+        12606116,
+        12606117,
+        12607109,
+        12606173,
+        12606174
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/137/0224-04",
+        "/s-ct/137/0224-05",
+        "/s-ct/137/0223-05",
+        "/s-ct/137/0223-06",
+        "/s-ct/137/0223-07",
+        "/s-ct/137/0285-01",
+        "/s-ct/137/0224-01",
+        "/s-ct/137/0224-02"
+      ]
+    },
+    {
+      "cite": "137 S.Ct. 224",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12606176,
+        12606177,
+        12606178,
+        12606173,
+        12606174,
+        12606175
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/137/0224-04",
+        "/s-ct/137/0224-05",
+        "/s-ct/137/0224-06",
+        "/s-ct/137/0224-01",
+        "/s-ct/137/0224-02",
+        "/s-ct/137/0224-03"
+      ]
+    },
+    {
+      "cite": "820 F.3d 93",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4256790
+      ],
+      "pin_cites": [
+        {
+          "page": "105"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/820/0093-01"
+      ]
+    },
+    {
+      "cite": "605 F. App'x 285",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        4215971
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "288-89"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/605/0285-01"
+      ]
+    },
+    {
+      "cite": "726 F.3d 586",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4074162
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "614",
+          "parenthetical": "quotation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/726/0586-01"
+      ]
+    },
+    {
+      "cite": "328 U.S. 640",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        377314
+      ],
+      "weight": 3,
+      "year": 1946,
+      "pin_cites": [
+        {
+          "page": "647-48"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/328/0640-01"
+      ]
+    },
+    {
+      "cite": "841 F.3d 339",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12174255
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "parenthetical": "quoting Pinkerton v. United States , 328 U.S. 640, 647-48, 66 S.Ct. 1180, 90 L.Ed. 1489 (1946) "
+        },
+        {
+          "page": "351-53"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/841/0339-01"
+      ]
+    },
+    {
+      "cite": "600 F.3d 434",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4224465
+      ],
+      "weight": 3,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "449"
+        },
+        {
+          "page": "449"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/600/0434-01"
+      ]
+    },
+    {
+      "cite": "404 F.3d 157",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9012734
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "162",
+          "parenthetical": "\"The fact that the Hobbs Act and the mail and wire fraud statutes contain the word 'obtain' does not necessitate imposing [a] construction of a wholly separate statute onto this Court's pre-existing construction of the mail fraud statute.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/404/0157-01"
+      ]
+    },
+    {
+      "cite": "137 S.Ct. 1626",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12604669
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1630"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/137/1626-01"
+      ]
+    },
+    {
+      "cite": "570 U.S. 729",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12698481
+      ],
+      "weight": 3,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "736"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/570/0729-01"
+      ]
+    },
+    {
+      "cite": "850 F.3d 94",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12277153
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "105-07"
+        },
+        {
+          "page": "107",
+          "parenthetical": "\"[I]n contrast to the Hobbs Act extortion provision, the mail and wire fraud statutes do not require a defendant to obtain or seek to obtain property....\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/850/0094-01"
+      ]
+    },
+    {
+      "cite": "392 F.3d 580",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9189231
+      ],
+      "weight": 3,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "601"
+        },
+        {
+          "page": "601-02"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/392/0580-01"
+      ]
+    },
+    {
+      "cite": "130 S.Ct. 2896",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        3644193,
+        12455283,
+        3815903
+      ],
+      "year": 2010,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/561/0358-01",
+        "/l-ed-2d/177/0619-01",
+        "/br/430/2896-01"
+      ]
+    },
+    {
+      "cite": "561 U.S. 358",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3644193,
+        12455283
+      ],
+      "weight": 3,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "400"
+        },
+        {
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/561/0358-01",
+        "/l-ed-2d/177/0619-01"
+      ]
+    },
+    {
+      "cite": "359 F.3d 738",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9285730
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "742"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/359/0738-01"
+      ]
+    },
+    {
+      "cite": "740 F.3d 956",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3825988
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "964"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/740/0956-01"
+      ]
+    },
+    {
+      "cite": "761 F.2d 380",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        29536
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "385"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/761/0380-01"
+      ]
+    },
+    {
+      "cite": "837 F.2d 1287",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1773197
+      ],
+      "weight": 2,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "1292",
+          "parenthetical": "quoting United States v. Feldman , 761 F.2d 380, 385 (7th Cir. 1985) "
+        },
+        {
+          "page": "1293",
+          "parenthetical": "although the DOJ and the former party in a civil action had \"similar status in their respective claims, we find that the trial strategies were not sufficiently similar\" for admission under Rule 804(b)(1) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/837/1287-01"
+      ]
+    },
+    {
+      "cite": "2017 WL 1316999",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "*6",
+          "parenthetical": "\"In contrast [to Sklena ,] the SEC and DOJ are independent executive agencies and there is no indication whatsoever that they coordinated their investigations here.\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "76 F.2d 939",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        958188
+      ],
+      "year": 1935,
+      "pin_cites": [
+        {
+          "page": "940"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/76/0939-01"
+      ]
+    },
+    {
+      "cite": "472 F.3d 851",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5199800
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "855",
+          "parenthetical": "not addressing the \"same party\" issue and instead addressing only whether the SEC and the DOJ had similar motives"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/472/0851-01"
+      ]
+    },
+    {
+      "cite": "555 F. App'x 98",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        4019044
+      ],
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "103",
+          "parenthetical": "summary order"
+        },
+        {
+          "page": "103"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/555/0098-01"
+      ]
+    },
+    {
+      "cite": "15 F.3d 54",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1527450
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "55"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/15/0054-01"
+      ]
+    },
+    {
+      "cite": "894 F.3d 173",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517471
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "186"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/894/0173-01"
+      ]
+    },
+    {
+      "cite": "324 F.3d 330",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        2160884
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "348-49"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/324/0330-01"
+      ]
+    },
+    {
+      "cite": "574 F. App'x 350",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        4170645
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "356",
+          "parenthetical": "\"[The summary witness] only succinctly referenced patients' and doctors' testimony to remind the jury which witnesses the documentary evidence related to and said virtually nothing about the testimony of the government's principal trial witnesses.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/574/0350-01"
+      ]
+    },
+    {
+      "cite": "77 F.3d 1480",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7647267
+      ],
+      "weight": 2,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "1499",
+          "parenthetical": "\"[T]he witness may testify to facts that were 'personally experienced' by him, even though this testimony 'bolsters' the government's other evidence.\""
+        },
+        {
+          "page": "1499-1500"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/77/1480-01"
+      ]
+    },
+    {
+      "cite": "264 F.3d 535",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9484100
+      ],
+      "weight": 5,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "547"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/264/0535-01"
+      ]
+    },
+    {
+      "cite": "342 F.3d 409",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9099996
+      ],
+      "weight": 4,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "414"
+        },
+        {
+          "page": "412-13"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/342/0409-01"
+      ]
+    },
+    {
+      "cite": "504 F.3d 561",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        2947114
+      ],
+      "weight": 2,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "572"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/504/0561-01"
+      ]
+    },
+    {
+      "cite": "442 F.3d 367",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1063977
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "375"
+        },
+        {
+          "page": "385"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/442/0367-01"
+      ]
+    },
+    {
+      "cite": "619 F.3d 380",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3777727
+      ],
+      "weight": 3,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "383"
+        },
+        {
+          "page": "385"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/619/0380-01"
+      ]
+    },
+    {
+      "cite": "831 F.3d 608",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4349568
+      ],
+      "weight": 3,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "611-12",
+          "parenthetical": "amended opinion on petition for panel rehearing"
+        },
+        {
+          "page": "610"
+        },
+        {
+          "page": "611-612"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/831/0608-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 2",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "107 S.Ct. 2875",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        28213
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/483/0350-01"
+      ]
+    },
+    {
+      "cite": "531 U.S. 12",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9505346
+      ],
+      "weight": 5,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "15"
+        },
+        {
+          "page": "26"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/531/0012-01"
+      ]
+    },
+    {
+      "cite": "484 U.S. 19",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        601099
+      ],
+      "weight": 3,
+      "year": 1987,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/484/0019-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 1343",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "2014 WL 5361977",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 4,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "*4"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "617 F.2d 435",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1386770
+      ],
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "436"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/617/0435-01"
+      ]
+    },
+    {
+      "cite": "692 F.3d 725",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3514620
+      ],
+      "weight": 6,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "730-32"
+        },
+        {
+          "page": "731",
+          "parenthetical": "\"There is very little law on the question whether two government agencies, or as in this case the United States and a subsidiary agency, should be considered as different parties for litigation purposes, or if they are both merely agents of the United States.\""
+        },
+        {
+          "page": "732"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/692/0725-01"
+      ]
+    },
+    {
+      "cite": "134 S.Ct. 1240",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12707001,
+        12578373
+      ],
+      "weight": 2,
+      "year": 2014,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/572/0065-01",
+        "/s-ct/134/1240-01"
+      ]
+    },
+    {
+      "cite": "572 U.S. 65",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12707001
+      ],
+      "year": 2014,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/572/0065-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1840,
+    "char_count": 52027,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25929754977992925
+    },
+    "sha256": "5b0177e2c39204c1151126cc3f997b1d08e3be3011d8e1fe6850e08ee2b9b20f",
+    "simhash": "1:bb14f0742aad5239",
+    "word_count": 8125
+  },
+  "last_updated": "2024-02-27T18:46:40.961150+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before WIENER, SOUTHWICK, and COSTA, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee\nv.\nMichael BAKER, Defendant-Appellant"
+    ],
+    "opinions": [
+      {
+        "text": "WIENER, Circuit Judge:\nTreating the petition for rehearing en banc as a petition for panel rehearing, the petition for rehearing en banc is DENIED. The following is substituted in place of our opinion.\nDefendant-Appellant Michael Baker was the Chief Executive Officer of ArthroCare, a publicly traded medical-device company. Baker, along with the company's other senior executives, engaged in a \"channel-stuffing\" scheme that involved sending excess products to a distributor that did not need those products. ArthroCare reported those shipments as legitimate sales, which inflated the company's revenue numbers in its financial reports. Baker hid this scheme from ArthroCare's board and auditors, and he made false statements to the SEC and to investors about the company's business model and relationships with its distributors. When it was uncovered that the statements were false and that some of these sales were not legitimate, ArthroCare restated its earnings and revenues, causing its stock price to drop.\nThis is the second time Baker has been convicted. He was first convicted in 2014, but this court vacated that conviction based on erroneous evidentiary rulings. At the second trial, after seven days of testimony-including from the other ArthroCare executives involved in the scheme-a jury convicted Baker on charges of wire fraud, securities fraud, making false statements to the SEC, and conspiracy to commit wire fraud and securities fraud.\nBaker appealed, raising challenges to the district court's evidentiary rulings and jury instructions. Finding no reversible error, we AFFIRM.\nI. FACTS AND PROCEEDINGS\nA. Factual Background\nMichael Baker was the CEO of ArthroCare, a publicly traded medical-device company based in Austin, Texas. ArthroCare's products used a technology that allowed doctors to cut, seal, and remove tissue at a low temperature and in a minimally invasive manner. ArthroCare sold its products to hospitals and surgery centers through sales representatives, sales agents, and, relevant here, distributors. As CEO, Baker was involved in ArthroCare's day-to-day operations. He worked closely with other senior executives, including Michael Gluk, the Chief Financial Officer, John Raffle, the Senior Vice President of Operations, David Applegate, the Vice President of the \"spine division,\" and Steve Oliver, the Senior Director of Financial Planning.\nBaker set growth targets for the company and oversaw a \"channel-stuffing\" operation to inflate ArthroCare's revenue numbers. Baker, as well as Gluk, Raffle, and Applegate, hid the fraudulent nature of this operation from ArthroCare's board of directors, audit committee, and auditors. They also made false statements to investors about the company's revenue projections and relationships with its distributors. When all this was uncovered, ArthroCare restated its past earnings and revenue, causing its stock price to drop and its investors to sustain significant losses.\nThis court previously described the basic structure of the channel-stuffing scheme between ArthroCare and one of its distributors, DiscoCare; Baker's false statements to investors about that relationship; and how the fraud was uncovered:\n\"Channel stuffing\" is a fraudulent scheme companies sometimes attempt, in an effort to smooth out uneven earnings-typically to meet Wall Street earnings expectations. Specifically, a company that anticipates missing its earnings goals will agree to sell products to a coconspirator. The company will book those sales as revenue for the current quarter, increasing reported earnings. In the following quarter, the coconspirator returns the products, decreasing the company's reported earnings in that quarter. Effectively, the company fraudulently \"borrows\" earnings from the future quarter to meet earnings expectations in the present. Thus, in the second quarter, the company must have enough genuine revenue to make up for the \"borrowed\" earnings and to meet that quarter's earnings expectations. If the company does not meet expectations in the second quarter, it might \"borrow\" ever-larger amounts of money from future quarters, until the amounts become so large that they can no longer be hidden and the fraud is revealed.\nArthroCare carried out exactly this fraud, with DiscoCare playing the role of coconspirator. Over several years, ArthroCare fraudulently \"borrowed\" around $ 26 million from DiscoCare. This \"borrowing\" occurred by directing DiscoCare to buy products from ArthroCare on credit, with the agreement that ArthroCare would be paid only when DiscoCare could sell those products. Although this can be a legitimate sales strategy, it was fraudulent here because DiscoCare purchased medical devices that it knew it could not sell reasonably soon for the sole purpose of propping up ArthroCare's quarterly earnings. This fraud was carried out under the day-to-day supervision of John Raffle, the Vice President of Strategic Business Units, and of David Applegate, another [ArthroCare] executive.\nDiscoCare's business model (apart from the accounting fraud) was potentially wrongful, though no charges were brought. DiscoCare provided a medical device for which most insurers refused reimbursement. To sell its device, DiscoCare reached agreements with plaintiffs' attorneys in civil actions for personal injuries. These agreements resulted in the majority of DiscoCare's sales. Under this agreement, DiscoCare would treat clients of the attorneys. The plaintiffs' attorneys would then cite the expense of their clients' treatment as a reason for defendants to settle personal injury lawsuits. DiscoCare also allegedly illegally coached doctors on which billing codes to use, in an effort to increase insurance reimbursements. This practice allegedly went as far as instructing doctors to perform an unnecessary surgical incision to classify the treatment as a surgery. No charges were filed on any of this conduct.\nArthroCare subsequently purchased DiscoCare for $ 25 million, a price that far exceeded its true value (DiscoCare had no employees at the time). During this purchase, the fraud began to unravel, with media reports alleging accounting improprieties. To reassure investors, Gluk and Baker made several false statements during a series of conference calls. As evidence mounted, the audit committee of ArthroCare's board of directors commissioned an independent investigation by forensic accountants and the law firm Latham & Watkins. As a result of this investigation, the board determined that Raffle and Applegate had committed fraud and that Gluk and Baker had not adequately supervised them. The board restated earnings, resulting in a significant drop in the value of ArthroCare stock. The board fired Raffle and Applegate for their roles in the fraud. The board also fired Gluk, determining that he had been remiss in not detecting the fraud earlier. Finally, the board fired Baker, determining that he should have implemented better internal controls.\nAfter the Securities and Exchange Commission (\"SEC\") and the Department of Justice (\"DOJ\") investigated, a grand jury indicted Baker and Gluk on charges for wire fraud, securities fraud, making false statements to the SEC, and conspiracy to commit wire fraud and securities fraud.\nB. Procedural Background\nBaker has been convicted twice for his conduct relating to the fraud at ArthroCare. At the first trial in June 2014, a jury convicted Baker and Gluk on all counts. On appeal, this court vacated Baker's and Gluk's convictions on evidentiary grounds and remanded for a new trial.\nOn remand, Gluk admitted that he had participated in the fraud, agreed to cooperate and testify against Baker, and pleaded guilty to conspiracy to commit wire fraud and securities fraud. The government retried Baker, this time with Gluk as a witness. The facts established at the second trial largely track the facts in the first trial, as this court set them out in the previous appeal. The government put on thirteen witnesses, including: Gluk, Raffle, Applegate, Oliver, ArthroCare's Chief Medical Officer and Audit Committee chairman, and several analysts and investors who testified to their reliance on Baker's statements.\nAt trial, Baker's counsel conceded that a fraud had occurred at ArthroCare, but the defense was that Gluk, Raffle, and Applegate had orchestrated it without Baker's knowledge. Baker's counsel attempted to show that although Baker was generally aware of the nature of DiscoCare's business, he did not have specific knowledge about the fraudulent details, or he learned about them too late. Baker's counsel also sought to undermine Gluk's, Raffle's, and Applegate's credibility based on their plea deals with the government and their own participation in the DiscoCare scheme. Baker did not testify or present witnesses, but his counsel did introduce exhibits, including the SEC memoranda that this court had held were admissible.\nThe jury convicted Baker on twelve counts and acquitted him on two of the wire fraud counts and one false statement count. The trial court then (1) sentenced him to a 240-month term of imprisonment and five years of supervised release; (2) imposed a $ 1 million fine; and (3) ordered that he forfeit $ 12.7 million.\nBaker timely appealed.\nII. ANALYSIS\nBaker challenges his conviction on four grounds. First, he contends that the FBI case agent's testimony was improper \"summary witness\" testimony. Second, he asserts that the district court should have admitted the SEC deposition testimony of Brian Simmons, ArthroCare's former controller who invoked the Fifth Amendment and did not testify at Baker's trial. Third, he challenges the district court's jury instruction on wire fraud, insisting that it did not require the government to prove the \"obtain money or property\" element of that offense. Finally, he maintains that the district court erred by refusing to instruct the jury on \"advance knowledge\" for accomplice liability under Rosemond v. United States , 572 U.S. 65, 134 S.Ct. 1240, 188 L.Ed.2d 248 (2014). We address each issue in turn.\nA. Summary Witness Testimony\n1. Background\nFBI Special Agent Steven Callender was the case agent. He reviewed many of the documents admitted into evidence and testified at trial. Baker contends that Agent Callender's testimony was impermissible \"summary witness\" testimony.\nBaker objected at trial to Agent Callender's testimony. The district court overruled his objection and allowed Agent Callender to testify, but stated that its ruling did not stop Baker's counsel \"from making an objection if [the testimony] gets into substantive evidence. If he's just talking about his research of documents, that's tangible, then he can go into the summary. But if he gets into any other testimony, feel free to object.\"\nWhen the prosecutor asked Agent Callender to explain his summary charts setting out the exhibits that corresponded to each count in the indictment, Baker's counsel objected to the witness \"being asked whether or not these are the exhibits that correspond to those counts in the indictment.\" The district court overruled that objection, stating \"I think this is a very complicated case.\" The court then gave the jury a limiting instruction about the use of demonstratives and summary witnesses:\n[L]et me remind you, a demonstrative evidence is really not evidence. When he moves to introduce it, he's just giving notice that he's got a [sic] demonstrative evidence. If we had a great big blackboard or bulletin board while he presents a witness, he could have the witness-or he can draw on it with regard to the witness' testimony. So this is not evidence. It is merely an illustration because they're going to use this FBI agent as a summary witness, and you'll give it whatever substance that you think it deserves, if any.\nAgent Callender then testified. His testimony consisted primarily of reading and explaining (1) exhibits that had already been admitted at the trial and (2) new exhibits that were being admitted through his testimony. The exhibits he testified about included audio clips, transcripts of conference calls, documents showing ArthroCare's organizational charts, board presentations, payroll information, emails between Baker and other executives, and SEC filings.\n2. Analysis\nWe review \"the admission of evidence, including summaries and summary testimony, for abuse of discretion.\" \"If there is error, it is 'excused unless it had a substantial and injurious effect or influence in determining the jury's verdict.' \"\nWe \"allow[ ] summary witness testimony in 'limited circumstances' in complex cases,\" but have \"repeatedly warned of its dangers.\" \"While such witnesses may be appropriate for summarizing voluminous records, as contemplated by Rule 1006, rebuttal testimony by an advocate summarizing and organizing the case for the jury constitutes a very different phenomenon, not justified by the Federal Rules of Evidence or our precedent.\" \"In particular, 'summary witnesses are not to be used as a substitute for, or a supplement to, closing argument.' \"\n\"To minimize the danger of abuse, summary testimony 'must have an adequate foundation in evidence that is already admitted, and should be accompanied by a cautionary jury instruction.' \" \"Moreover, '[f]ull cross-examination and admonitions to the jury minimize the risk of prejudice.' \"\ni. Summary Witnesses in General\nBaker claims that, in general, summary witness testimony is inadmissible. He argues that summary witnesses lack personal knowledge of the matter to which they are testifying, so Rule 602 of the Federal Rules of Evidence prohibits that type of testimony. He also contends that, because Rule 1006, which governs summaries, is located within Article X of the Rules that govern \"writings and recordings\"-and not \"witnesses\"-Rule 1006 does not allow live summary witnesses.\nRegrettably, Baker does not cite United States v. Armstrong , the key Fifth Circuit case that refutes these arguments. Contrary to Baker's contention that summary witnesses are inadmissible, this circuit expressly allows summary witnesses to summarize voluminous records in complex cases.\nii. Agent Callender's Testimony\nThe next issue is whether Agent Callender's testimony permissibly summarized the voluminous evidence, or impermissibly \"organiz[ed] the case for the jury\" or served as a \"substitute\" for closing argument.\nBaker contends that Agent Callender's testimony was \"wholly argumentative,\" drew inferences for the jury, and impermissibly summarized the prosecutor's closing argument. Baker flags several parts of Agent Callender's testimony as objectionable: (1) Agent Callender read an email in which Raffle indicates that Baker had approved adding DiscoCare employees to the ArthroCare payroll; (2) the prosecutor asked Agent Callender whether a letter in an employee's file was \"consistent or inconsistent\" with ArthroCare's organizational charts; (3) testimony about a conference call at which Gluk discussed a \"small success fee\" paid to DiscoCare and subsequent emails showing a related $ 10 million payment to DiscoCare; (4) Agent Callender's discussion of emails that Baker had sent to himself containing his monthly stock portfolio; and (5) Agent Callender's testimony about particular exhibits that corresponded to the counts listed on a demonstrative chart. Baker describes this testimony as \"highlight[ing] key pieces of prosecution evidence,\" \"walk[ing] through the charges count by count,\" and \"indistinguishable from a closing argument.\"\nThe government counters that most of Agent Callender's testimony was not \"summary witness\" testimony, but rather was about exhibits that were being admitted during his testimony. The government also argues that the large number of documents and the complexity of the case justified the use of a summary witness.\nWhen Agent Callender began testifying, the government introduced twenty-one new exhibits, each of which was admitted. Much of his testimony consisted of reading the contents of those exhibits aloud. Baker's specific objections are primarily to the parts of Agent Callender's testimony that introduced those new exhibits. But, this type of testimony is not summary testimony.\nIn contrast, Agent Callender's testimony that tied specific, already-admitted exhibits to the substantive indictment counts listed on a demonstrative chart is summary testimony. Such testimony is permissible in complex cases with voluminous evidence. Contrary to Baker's contention that this was not a complex case, channel stuffing is a relatively complicated type of fraud. The jury heard seven days of testimony; there were 15 charges; and the district court stated that it was \"a very complicated case.\" The evidence was also voluminous. The government introduced 193 exhibits and Baker introduced 87. Agent Callender gave a \"rough estimate\" that the investigation involved \"between three and seven million\" documents.\nA review of the testimony shows that, although Agent Callender highlighted some key pieces of evidence, the testimony did not draw inferences for the jury, was not \"wholly argumentative,\" and did not serve as a substitute for closing argument. Rather, the testimony consisted of reading the contents of exhibits and sorting through the evidence to show how the documents related to each other and to the charges in the indictment. This type of testimony is different from the testimony that this circuit has excluded, such as allowing a case agent \"to recap a significant portion of the testimony already introduced by the Government\" during a rebuttal case, putting on a summary witness \"before there [was] any evidence admitted for the witness to summarize,\" or using a summary witness to \"merely [ ] repeat or paraphrase the in-court testimony of another as to ordinary, observable facts....\" We conclude that Agent Callender's testimony was permissible.\nTo the extent that Agent Callender's testimony went too far, all three curatives were present: (1) the testimony had an adequate foundation in the evidence already admitted; (2) the district court gave the jury a limiting instruction about summary evidence generally; and (3) Baker's counsel cross-examined Agent Callender. These minimized the risk of prejudice, so any error was harmless.\nB. Brian Simmons's SEC Deposition Testimony\nIn 2010, the SEC deposed Brian Simmons, ArthroCare's former controller, in its civil investigation of the company. At the first trial, Baker sought to subpoena Simmons, but Simmons refused to testify, asserting his Fifth Amendment right against self-incrimination. Baker and Gluk sought to admit Simmons's SEC deposition testimony under Rule 804(b)(1). In a written order, the district court excluded the testimony.\nAt the second trial, after Raffle, Applegate, and Gluk testified that Simmons had participated in the fraud at ArthroCare, Baker again subpoenaed Simmons. But Simmons refused to testify on Fifth Amendment grounds, and Baker again sought to admit excerpts of Simmons's SEC deposition testimony. Baker proffered excerpts of that testimony, in which Simmons (1) denied wrongdoing and awareness of improper activities at ArthroCare and (2) stated that ArthroCare's audit committee and outside auditor, PricewaterhouseCoopers, were aware of a \"bill-and-hold\" practice for ArthroCare's sales to DiscoCare. The district court, referencing its order in the first trial, again excluded the testimony.\nRule 804(b)(1) provides exceptions to the rule against hearsay for \"former testimony\" of witnesses who are unavailable. It provides:\n(b) ...\n(1) Former Testimony. Testimony that:\n(A) was given as a witness at a trial, hearing, or lawful deposition, whether given during the current proceeding or a different one; and\n(B) is now offered against a party who had-or, in a civil case, whose predecessor in interest had-an opportunity and similar motive to develop it by direct, cross-, or redirect examination.\nSimmons's deposition testimony contains hearsay and his invocation of the Fifth Amendment made him unavailable. The issues therefore are (1) whether the DOJ and the SEC are the \"same party\" or \"predecessors in interest,\" and (2) if so, whether the SEC, in its civil investigation of ArthroCare, had both the opportunity and a similar motive to the DOJ in developing Simmons's testimony.\nWe review the district court's exclusion of the testimony for abuse of discretion. We conclude that the SEC and the DOJ were not the same party for 804(b) purposes under these circumstances. But even if the agencies were the same party, they did not have sufficiently similar motives in developing Simmons's testimony.\n1. Same Party\nThis court has not decided whether the SEC and the DOJ are the same party for 804(b) purposes. The case law on this issue is limited, and no court has expressly held that the SEC and the DOJ are the same party. Courts sometimes proceed directly to the \"similar motive\" inquiry.\nBaker contends that the two agencies are the same party because they are both Executive Branch agencies. He relies primarily on United States v. Sklena , 692 F.3d 725, 730-32 (7th Cir. 2012), which held that the Commodity Futures Trading Commission (\"CFTC\") and the DOJ were the same party for 804(b) purposes. He also relies on Boone v. Kurtz , 617 F.2d 435, 436 (5th Cir. 1980), in which we held that different government agencies were the same party for res judicata purposes.\nIn response, the government cites United States v. Martoma , 12-Cr. 973, 2014 WL 5361977, at *3-5 & n.5 (S.D.N.Y. Jan. 8, 2014), in which the district court considered whether an unavailable co-conspirator's prior SEC deposition was admissible at a later criminal trial. The Martoma court held that the SEC and DOJ were not the same party for 804(b) purposes.\nIn Sklena , the Seventh Circuit relied on the significant control that the DOJ exercised over the CFTC, including the CFTC's statutory mandate to report to the DOJ. The court reasoned that the \"statutory control mechanism suggests to us that, had the Department wished, it could have ensured that the CFTC lawyers included questions of interest to the United States when they deposed [the non-testifying codefendant].\" The court's holding also relied on the agencies' \"closely coordinated roles on behalf of the United States in the overall enforcement of a single statutory scheme.\" The Sklena court concluded that \"[f]unctionally, the United States is acting in the present case through both its attorneys in the Department and one of its agencies, and we find this to be enough to satisfy the 'same party' requirement of Rule 804(b)(1).\"\nHere, the district court determined that the SEC and the DOJ were not the same party because the SEC conducted an independent investigation of ArthroCare and its employees and independently pursued its own criminal and civil actions. On appeal, Baker disagrees with that conclusion. He points to several emails between prosecutors and SEC investigators describing telephone calls, meetings, and \"working together.\" According to Baker, these show that the SEC \"was functionally working as part of the prosecution team.\"\nIn response, the government points out that (1) the SEC did not participate in any interviews conducted by the DOJ; (2) the DOJ was not present at any of the SEC's depositions; (3) an SEC attorney was not cross-designated or assigned to the prosecution team; and (4) the DOJ did not provide the SEC with materials from its investigation. In an order denying the designation of the SEC as part of the prosecution team at the first trial, the district court concluded that \"[w]hile the SEC provided some material to the Government-which the Government, in turn, has provided to Defendants-the SEC's investigation pre-dated and was independent from the Government's investigation, and there was no overlap of personnel or direction.\" The government also notes that when the DOJ formally requested information from the SEC, the SEC faced restrictions responding to that request and limited the information it provided to the DOJ.\nAlthough there was some cooperation between the two agencies, it was not extensive enough for the SEC and the DOJ to be deemed the same party. Baker's contention that the SEC and the DOJ coordinated closely is undermined by (1) the telephone calls and meetings Baker cites occurred after Simmons's February 2010 deposition and (2) the district court's specific findings that the SEC had been uncooperative and limited the information it provided to the DOJ.\nSklena does not mandate a different result. Unlike the CFTC, the SEC is not statutorily required to report to the DOJ, nor must the two agencies cooperate to enforce the same statutory scheme. The SEC is an independent agency with its own litigating authority.\n2. Opportunity and Similar Motive\nEven if the SEC and the DOJ were deemed to be the same party, they did not share a sufficiently similar motive in developing Simmons's testimony. When, as here, testimony in a prior civil proceeding is being offered against the government in a subsequent criminal proceeding, this court considers \"(1) the type of proceeding in which the testimony is given, (2) trial strategy, (3) the potential penalties or financial stakes, and (4) the number of issues and parties.\"\nAt the first trial, the district court excluded the testimony, ruling that the SEC and the DOJ did not have sufficiently similar motives. At the second trial, the district court referenced its previous order and again excluded Simmons's testimony. The court added that there was \"no question\" that Simmons was \"involved in a conspiracy if there was a conspiracy,\" and that he would have had \"to be deaf, blind and dumb in his position not to see it.\" The court concluded that (1) \"the SEC ha[d] been totally noncooperative in this criminal case from the beginning, declined to share any information to the Department of Justice [or] counsel in this case for the defense\" and would not \"provide its investigators to cooperate in any way\"; (2) The SEC's civil investigation of ArthroCare was \"totally different from a criminal trial\"; and (3) the court's review of the SEC deposition testimony showed no \"basis for any cross-examination.\"\nEven if we assumed that the SEC and the DOJ are the same party, the agencies did not have sufficiently similar motives. First, the stakes and burdens of proof were different: The SEC was in the discovery phase in relation to potential civil enforcement actions, whereas the DOJ was investigating for potential criminal involvement after a grand jury indictment. Second, the focuses and motivations of the investigations were different: The SEC was likely developing a factual background regarding wrongdoing at the company generally, whereas the DOJ would have been gathering evidence to convict specific individuals. Third, the lack of cross-examination shows the agencies' different trial strategies: The SEC deposition excerpts show no sign of cross-examination or additional follow-up questions after Simmons denied his involvement and that he had any conversations with Baker. In contrast, for the reasons we have already explained, the agencies were not coordinating their activity to a degree that would have led the SEC lawyer to cross-examine Simmons like a criminal prosecutor would have.\nThe district court did not abuse its discretion in excluding Simmons's deposition testimony.\nC. The \"Obtain Money or Property\" Element of Wire Fraud\nBaker next contends that the term \"obtain money or property\" in the wire fraud statute, 18 U.S.C. \u00a7 1343, requires the government to plead and prove that Baker \"intended to obtain money or property from deceived investors.\" This challenge to the jury instructions presents a question of statutory interpretation, so we review it de novo. We also review de novo Baker's contention that the indictment did not charge the elements of the offense.\nBaker asked for a jury instruction defining a \"scheme to defraud\" as one \"intended to obtain money or property from the victim by fraudulent means,\" and requiring that the defendant intended to \"acquire[ ] some money or property that the victim gives up.\" The district court denied that request. Instead, the district court's jury instructions on wire fraud required, in relevant part:\nThat the defendant knowingly devised, or intended to devise, any scheme to defraud, that is to deceive investors about ArthroCare Corporation's financial condition[.]\n...\nA \"scheme to defraud\" means any plan, pattern, or course of action intended to deprive another of money or property, or bring about some financial gain to the person engaged in the scheme .\nAfter the jury convicted Baker, he moved for a judgment of acquittal. He reasserted his objection to the definition of a \"scheme to defraud,\" focusing on the \"or bring about some financial gain to the person engaged in the scheme\" language. The district court denied the motion, concluding that \"the focus\" of a scheme to defraud is on \"depriving the victim of property for some benefit\" and that there is \"no requirement that a defendant must directly gain or possess [the victim's] property.\" The court explained that \"substantial evidence was presented to show the misleading and fraudulent statements made by Baker induced investment in ArthroCare,\" and that \"a rational trier of fact could have found the goal of the scheme ... was to deprive investors of money they otherwise would have possessed.\"\nOn appeal, Baker challenges this instruction on two grounds. First, he contends that the wire fraud statute imposes a \"mirror image\" requirement. For support, he relies on the Supreme Court's decision in Skilling v. United States , which states that under \"traditional\" fraud, \"the victim's loss of money or property supplied the defendant's gain, with one the mirror image of the other.'\"\nAlthough Baker describes that statement from Skilling as its holding, a review of the case proves otherwise. In context, the Court was comparing \"traditional\" fraud with honest-services fraud:\nUnlike fraud in which the victim's loss of money or property supplied the defendant's gain, with one the mirror image of the other , ... the honest-services theory targeted corruption that lacked similar symmetry. While the offender profited, the betrayed party suffered no deprivation of money or property; instead, a third party, who had not been deceived, provided the enrichment.\nSkilling did not impose a \"mirror image\" requirement for wire fraud. As the district court explained, \" Skilling merely commented that traditional fraud features a bilateral relationship-one between the offender and the victim-while the honest-services theory concerns a trilateral relationship between bribe-giver, bribe-recipient, and betrayed party.... Skilling did not interpret wire fraud or securities fraud to require proof the defendant sought to personally acquire money or property from the victim.\" Moreover, no court has held that a \"mirror image\" transaction is necessary.\nBaker next points to the language of \u00a7 1343, which provides:\nWhoever, having devised or intending to devise any scheme or artifice to defraud, or for obtaining money or property by means of false or fraudulent pretenses, ... transmits or causes to be transmitted by means of wire, ... any writings, signs, signals, pictures, or sounds for the purpose of executing such scheme or artifice, shall be fined ... or imprisoned not more than 20 years, or both.\nBaker compares the statute's \"obtaining money or property\" language with the jury instruction's definition of a \"scheme to defraud\" that required that the scheme intended to \"bring about some financial gain to the person engaged in the scheme.\" According to Baker, the instruction did not require the government to prove that he intended to obtain property from a victim, but instead allowed for a conviction based on a scheme that was only intended to bring about a financial gain to Baker.\nBaker relies on Sekhar v. United States , a case interpreting the Hobbs Act, which held that \"a defendant must pursue something of value from the victim that can be exercised, transferred, or sold....\" However, \"[u]nlike the mail fraud statute, the Hobbs Act expressly requires the Government to prove that the defendant 'obtain[ed] property from another.' \"\nHe also relies on Honeycutt v. United States , a case interpreting the federal forfeiture statute, which held that a defendant may not \"be held jointly and severally liable for property that his co-conspirator derived from a crime but that the defendant himself did not acquire.\" But Honeycutt did not consider the wire fraud statute and therefore did not broaden the Court's interpretation of that offense.\nSection 1343 does not require an intent to obtain property directly from a victim. In United States v. Hedaithy , the Third Circuit considered a similar assertion. There, the defendants argued that a scheme must be \"designed to actually 'obtain' the victim's property.\" The court rejected that argument on several grounds:\nWe reject [that argument], primarily because it is inconsistent with the Supreme Court's decision in Carpenter [v. United States , 484 U.S. 19 [108 S.Ct. 316, 98 L.Ed.2d 275] (1987) ]. Although the defendants in Carpenter clearly \"obtained\" the Journal's confidential business information, this was not the conduct, according to the Court, that constituted the mail fraud violation. Rather, the conduct on which the Court focused was the act of fraudulently depriving the Journal of the exclusive use of its information.\nFurthermore, Defendants' argument misconstrues the language of other relevant decisions. For example, they rely upon the Supreme Court's statement in Cleveland [v. United States ] that \"[i]t does not suffice, we clarify, that the object of the fraud may become property in the recipient's hands; for purposes of the mail fraud statute, the thing obtained must be property in the hands of the victim.\" [ 531 U.S. 12, 15 [121 S.Ct. 365, 148 L.Ed.2d 221] (2000) ]. The context in which this statement was written, however, clarifies that the Court was not setting out a requirement that a mail fraud scheme must be designed to \"obtain\" property. Rather, this language reflects the Court's conclusion that a victim has been defrauded of \"property,\" within the meaning of the mail fraud statute, only if that which the victim was defrauded of is something that constitutes \"property\" in the hands of the victim.\nDefendants also insist that their interpretation of the mail fraud statute is supported by the Supreme Court's holdings, in McNally and Cleveland , that \u00a7 1341's second clause-\"or for obtaining money or property by means of false or fraudulent promises\"-\"simply modifies\" the first clause-\"any scheme or artifice to defraud.\" McNally , 483 U.S. at 359, 107 S.Ct. 2875 ; Cleveland , 531 U.S. at 26, 121 S.Ct. 365. Defendants construe this language as meaning that any violation of the mail fraud statute must involve a scheme for obtaining the victim's property. We do not read McNally or Cleveland as providing any such requirement.... In neither case, ... did the Court hold that a mail fraud violation requires that the second clause of \u00a7 1341 be satisfied.\nIn addition to the Third Circuit's persuasive rejection of the argument that Baker advances, this court, in United States v. McMillan , held that an indictment sufficiently charged mail fraud in the context of a scheme to \"defraud the victim insofar as victims were left without money that they otherwise would have possessed.\" This court also explained that the \"issue is whether the victims' property rights were affected by the misrepresentations.\"\nThe jury instructions here allowed for a conviction if Baker intended to deceive the victims out of their money for his own financial benefit. The evidence at trial showed that Baker did just that: (1) He made false statements to investors and potential investors to induce them to hold onto or buy ArthroCare stock; (2) he knew the statements did not accurately reflect ArthroCare's business model or revenue projections; and (3) the scheme was intended to benefit Baker via bonuses and appreciation of his own stock options. By inducing investments in ArthroCare, the scheme affected the victims' property rights by wrongfully leaving them \"without money that they otherwise would have possessed.\"\nThe jury instructions were not erroneous.\nD. Accomplice and Co-conspirator Liability\nBaker was charged as both a principal and an aider or abettor under 18 U.S.C. \u00a7 2 for the wire and securities fraud charges. The district court's jury instructions on \"Aiding and Abetting (Agency)\" included some general language about accomplice liability, then stated:\nYou must be convinced that the Government has proved each of the following beyond a reasonable doubt:\nFirst: That the offenses alleged in Counts Two through Twelve were committed by some person;\nSecond: That the defendant associated with the criminal venture;\nThird: That the defendant purposefully participated in the criminal venture; and\nFourth: That the defendant sought by action to make that venture successful.\n\"To associate with the criminal venture\" means that the defendant shared the criminal intent of the principal. This element cannot be established if the defendant had no knowledge of the principal's criminal venture.\n\"To participate in the criminal venture\" means that the defendant engaged in some affirmative conduct designed to aid the venture or assist the principal of the crime.\nThis instruction tracked the Fifth Circuit Pattern Instruction on accomplice liability. Baker challenges this instruction as lacking an express \"advance knowledge\" instruction based on Rosemond , a Supreme Court decision addressing the federal aiding and abetting statute's mens rea requirements.\nAlthough Baker preserved that objection and briefed the Rosemond issue on appeal, we need not address it because the jury also convicted Baker as a co-conspirator. In addition to the charges for aiding and abetting wire and securities fraud, Baker was also charged with and convicted of \"Conspiracy to Commit Wire Fraud and Securities Fraud.\"\n\"In Pinkerton , the Supreme Court held that conspirators are criminally liable for substantive crimes committed by other conspirators in furtherance of the conspiracy, unless the crime 'did not fall within the scope of the unlawful project, or was merely a part of the ramifications of the plan which could not be reasonably foreseen as a necessary or natural consequence of the unlawful agreement.' \" \"A substantive conviction cannot be upheld solely under Pinkerton unless the jury was given a Pinkerton instruction.\"\nHere, the jury (1) was properly instructed on the Pinkerton theory of co-conspirator liability and (2) convicted Baker on a separate charge for conspiracy to commit wire and securities fraud. The evidence at trial showed that Baker instructed others to participate in the channel-stuffing scheme and approved the statements covering it up. The substantial evidence of Baker's involvement establishes that the fraudulent acts were reasonably foreseeable by him and done in furtherance of the conspiracy. We therefore affirm Baker's conviction on the wire and securities fraud charges under the Pinkerton theory of co-conspirator liability and do not address Baker's challenge to the jury instructions under Rosemond .\nE. Baker's \"Other\" Objections\nBaker contends that, in addition to the purported Rosemond error, the jury instructions were flawed in several other ways. Baker did not object to these issues in the district court, so they are reviewed for plain error. None of these challenges has merit under the plain-error test.\nFirst, Baker challenges the instruction that: \"If another person is acting under the direction of the defendant or if the defendant joins another person and performs acts with the intent to commit a crime, then the law holds the defendant responsible for the acts and conduct of such other persons just as though the defendant had committed the acts or engaged in such conduct.\" Baker contends that this statement \"is no longer legally accurate after Rosemond ,\" and that the instruction implied that he could be liable for the crimes of ArthroCare's employees who were \"acting under\" his direction.\nThis instruction prefaced the formal elements of accomplice liability. Given that context, the instruction simply set out the basic principle of accomplice liability and was followed by a formal four-part definition. This instruction was not erroneous.\nNext, Baker contends that the Pinkerton instruction was improper, noting that Pinkerton is controversial and has been criticized by courts. He also contends that \"there was no evidentiary basis\" for the Pinkerton instruction. But this circuit has repeatedly applied Pinkerton , and the evidence at trial-including testimony from three co-conspirators-provided a sufficient basis for the instruction.\nFinally, Baker argues that the court's \"reckless indifference\" instruction was improper because it conflicted with the wire fraud statute's required \"specific intent to defraud.\" But we have approved such instructions. The \"reckless indifference\" instruction was not erroneous.\nIII. CONCLUSION\nBaker's conviction is, in all respects, AFFIRMED.\nRaffle described Baker's \"inner circle\" at the company and testified that he did not \"believe anyone held anything back from this group when we were there.... [I]t was a small company, we were working together to achieve a goal, and we talked about everything.\" Gluk testified to the executives' \"informal\" \"open-door\" working environment and that he and Baker would talk \"at least once a day.\"\nUnited States v. Gluk , 831 F.3d 608, 611-12 (5th Cir. 2016) (amended opinion on petition for panel rehearing).\nId. at 610.\nSee id. at 611-612.\nGluk testified that he \"conspired with Mike Baker, John Raffle, David Applegate and others to misrepresent the accounts of ArthroCare Corporation, to engage in channel stuffing and hide the nature of the relationship between DiscoCare and ArthroCare, and as a result of all that, [ ] filed incorrect statements with the Securities and Exchange Commission.\"\nRaffles testified that he had \"an agreement\" with Baker to engage in channel stuffing to \"manipulate ArthroCare's earnings and revenue numbers.\"\nApplegate testified that he had an agreement with Baker \"[n]ot to disclose DiscoCare and particularly not to disclose the personal injury aspect of DiscoCare.\"\nOliver testified that he participated in a scheme with Baker to \"manipulate revenue and income in order to achieve targets that were in alignment with what the expectation[ ] of the analyst community were.\"\nUnited States v. Armstrong , 619 F.3d 380, 383 (5th Cir. 2010).\nId. (quoting United States v. Harms , 442 F.3d 367, 375 (5th Cir. 2006) ).\nId. at 385 (quoting United States v. Nguyen , 504 F.3d 561, 572 (5th Cir. 2007) ).\nId. (quoting United States v. Fullwood , 342 F.3d 409, 414 (5th Cir. 2003) ).\nId.\nId. (quoting United States v. Bishop , 264 F.3d 535, 547 (5th Cir. 2001) ).\nId. (quoting Bishop , 264 F.3d at 547 ).\nId.\nSee id.\nSee United States v. Castillo , 77 F.3d 1480, 1499 (5th Cir. 1996) (\"[T]he witness may testify to facts that were 'personally experienced' by him, even though this testimony 'bolsters' the government's other evidence.\").\nSee United States v. Echols , 574 F. App'x 350, 356 (5th Cir. 2014) (\"[The summary witness] only succinctly referenced patients' and doctors' testimony to remind the jury which witnesses the documentary evidence related to and said virtually nothing about the testimony of the government's principal trial witnesses.\").\nHere is one representative example:\nQ. Can we take a look at Count 5? Can you tell the jury about what government exhibits relate to Count 5?\nA. Count 5 relates to an email from Mike Gluk to Mike Baker, who were both in Texas, and it was routed through ArthroCare's servers in California. And the e-mail was sent March 20, 2008. It's Exhibit 379.\nQ. All right. And that's been put into evidence, correct?\nA. It has.\nFullwood , 342 F.3d at 412-13.\nUnited States v. Griffin , 324 F.3d 330, 348-49 (5th Cir. 2003).\nCastillo , 77 F.3d at 1499-1500.\nArmstrong , 619 F.3d at 385.\nSee United States v. Spalding , 894 F.3d 173, 186 (5th Cir. 2018).\nSimmons was an unindicted co-conspirator.\nFed. R. Evid. 804(b)(1).\nId. R. 804(a)(1).\nUnited States v. Kimball , 15 F.3d 54, 55 (5th Cir. 1994).\nNeither party contends that the SEC was the DOJ's \"predecessor in interest\" at Simmons's deposition.\nSee United States v. Sklena , 692 F.3d 725, 731 (7th Cir. 2012) (\"There is very little law on the question whether two government agencies, or as in this case the United States and a subsidiary agency, should be considered as different parties for litigation purposes, or if they are both merely agents of the United States.\").\nSee, e.g. , United States v. Whitman , 555 F. App'x 98, 103 (2d Cir. 2014) (summary order) (\"Assuming arguendo that the SEC lawyers and the trial prosecutors can be treated as the same party, the district court reasonably concluded that they had differing motivations to develop testimony by cross-examination.\"); see also United States v. Kennard , 472 F.3d 851, 855 (11th Cir. 2006) (not addressing the \"same party\" issue and instead addressing only whether the SEC and the DOJ had similar motives).\nUnited States v. Martoma , 12-Cr. 973, 2014 WL 5361977, at *3-5 & n.5 (S.D.N.Y. Jan. 8, 2014).\n692 F.3d at 731-32 (citing 7 U.S.C. \u00a7 13a-1(a), (f) -(g) ).\nId. at 732.\nId.\nId.\nIn contrast to the CFTC, \"the SEC has 'complete autonomy in civil prosecutions' and is not required to report on its activities to the USAO.\" Martoma , 2014 WL 5361977, at *4 & n.5 (quoting SEC v. Robert Collier & Co. Inc. , 76 F.2d 939, 940 (2d Cir. 1935) ); see United States v. Klein , 16-cr-422, 2017 WL 1316999, at *6 (E.D.N.Y. Feb. 2, 2017) (\"In contrast [to Sklena ,] the SEC and DOJ are independent executive agencies and there is no indication whatsoever that they coordinated their investigations here.\"); see also 15 U.S.C. \u00a7 77t (\"Whenever it shall appear to the Commission that any person is engaged or about to engage in any acts or practices which constitute or will constitute a violation of the provisions of this subchapter, ... the Commission may, in its discretion, bring an action in any district court of the United States....\").\nUnited States v. McDonald , 837 F.2d 1287, 1292 (1988) (quoting United States v. Feldman , 761 F.2d 380, 385 (7th Cir. 1985) ); see also Wright & Miller, 30B Fed. Prac. & Proc. \u00a7 6974 (2018 ed.) (\"The 'similar motive' sentiment can be boiled down to a call for trial courts to analyze: (i) the issue or issues to which the testimony was addressed, (ii) the degree to which those issues mattered to the ultimate resolution of the proceeding; and then (iii) compare those variables across the two proceedings.\").\nSee Martoma , 2014 WL 5361977, at *4 (\"[T]he purpose of a deposition in a civil case or an administrative investigation is to develop investigative leads and to 'freeze the witness['s] ... story.' ... The SEC lawyers taking [the co-conspirator's] deposition were not attempting to persuade a jury to convict, or even attempting to persuade a grand jury to indict. Instead, the [co-conspirator's SEC deposition] was part of an effort to 'develop the facts to determine if an [enforcement action] was warranted.' \" (quoting DiNapoli , 8 F.3d at 913 )).\nSee Whitman , 555 F. App'x at 103 (\"The rest of the examination consisted of general inquiries about his relationship to [the defendant] and his work at [the company], many of which elicited long, descriptive answers from [the unavailable co-conspirator] that, unsurprisingly, asserted innocence. A prosecutor seeking to rebut a trial defense would have pressed the witness, but the SEC examiner rarely did, for the most part allowing [the co-conspirator]'s testimony to stand unquestioned.\"); McDonald , 837 F.2d at 1293 (although the DOJ and the former party in a civil action had \"similar status in their respective claims, we find that the trial strategies were not sufficiently similar\" for admission under Rule 804(b)(1) ).\nUnited States v. Harris , 740 F.3d 956, 964 (5th Cir. 2014).\nUnited States v. Kay , 359 F.3d 738, 742 (5th Cir. 2004).\nSkilling v. United States , 561 U.S. 358, 400, 130 S.Ct. 2896, 177 L.Ed.2d 619 (2010).\nId. (emphasis added).\nUnited States v. Hedaithy , 392 F.3d 580, 601 (3d Cir. 2004) ; see United States v. Finazzo , 850 F.3d 94, 105-07 (2d Cir. 2017).\n18 U.S.C. \u00a7 1343.\n570 U.S. 729, 736, 133 S.Ct. 2720, 186 L.Ed.2d 794 (2013).\nHedaithy , 392 F.3d at 602 n.21 ; see Finazzo , 850 F.3d at 107 (\"[I]n contrast to the Hobbs Act extortion provision, the mail and wire fraud statutes do not require a defendant to obtain or seek to obtain property....\").\nHoneycutt v. United States , --- U.S. ----, 137 S.Ct. 1626, 1630, 198 L.Ed.2d 73 (2017).\nSee Porcelli v. United States , 404 F.3d 157, 162 (2d Cir. 2005) (\"The fact that the Hobbs Act and the mail and wire fraud statutes contain the word 'obtain' does not necessitate imposing [a] construction of a wholly separate statute onto this Court's pre-existing construction of the mail fraud statute.\").\nHedaithy , 392 F.3d at 601-02.\n600 F.3d 434, 449 (5th Cir. 2010).\nId.\nMcMillan , 600 F.3d at 449.\nFifth Circuit Pattern Crim. Jury Instructions \u00a7 2.4.\nROA.3885.\nUnited States v. Gonzales , 841 F.3d 339, 344 n.4 (5th Cir. 2016) (quoting Pinkerton v. United States , 328 U.S. 640, 647-48, 66 S.Ct. 1180, 90 L.Ed. 1489 (1946) ).\nUnited States v. Alaniz , 726 F.3d 586, 614 (5th Cir. 2013) (quotation omitted).\nROA.3875-76.\nSee United States v. Saunders , 605 F. App'x 285, 288-89 (5th Cir. 2015) (\"We will assume that the jury charge on aiding and abetting is inadequate under Rosemond . [The defendant's] rights, however, were not affected because the jury was given a correct Pinkerton instruction.... Given the copious evidence under the Pinkerton theory, any inadequacy in the district court's aiding and abetting instruction did not affect [the defendant's] substantial rights.\"); see also United States v. Hare , 820 F.3d 93, 105 (4th Cir.), cert. denied , --- U.S. ----, 137 S.Ct. 224, 196 L.Ed.2d 173 (2016) (same); United States v. Stubbs , 578 F. App'x 114, 118 n.6 (3d Cir. 2014) (\"Since we find the evidence sufficient to convict [the defendant] under a Pinkerton theory of vicarious liability, we need not decide whether there was sufficient evidence of [the defendant's] advance knowledge under Rosemond .\").\nUnited States v. Fuchs , 467 F.3d 889, 901 (5th Cir. 2006).\nSee Kay , 513 F.3d at 463 (\"When reviewing the jury's understanding of the charge, we look to the total context of the trial, with the benefit of arguments by all counsel.\").\nE.g. , Gonzales , 841 F.3d at 351-53.\nThe district court instructed the jury that a representation is false if it \"is made with reckless indifference as to its truth or falsity\" and that \"[r]eckless indifference means the omission or misrepresentation was so obvious that the defendant must have been aware of it.\"\nSee United States v. Puente , 982 F.2d 156, 159 (5th Cir. 1993) (\" 'Reckless indifference' has been held sufficient to satisfy \u00a7 1001's scienter requirement so that a defendant who deliberately avoids learning the truth cannot circumvent criminal sanctions.\").",
+        "type": "majority",
+        "author": "WIENER, Circuit Judge:"
+      }
+    ],
+    "attorneys": [
+      "John Alexander Romano, Esq., Trial Attorney, U.S. Department of Justice, Criminal Division, Ellen R. Meltzer, Esq., Special Counsel, U.S. Department of Justice, Washington, DC, for Plaintiff-Appellee.",
+      "Dennis P. Riordan, Riordan & Horgan, San Francisco, CA, Theodore David Sampsell-Jones, William Mitchell College of Law, Minneapolis, MN, for Defendant-Appellant."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee\nv.\nMichael BAKER, Defendant-Appellant\nNo. 17-51034\nUnited States Court of Appeals, Fifth Circuit.\nFILED April 26, 2019\nJohn Alexander Romano, Esq., Trial Attorney, U.S. Department of Justice, Criminal Division, Ellen R. Meltzer, Esq., Special Counsel, U.S. Department of Justice, Washington, DC, for Plaintiff-Appellee.\nDennis P. Riordan, Riordan & Horgan, San Francisco, CA, Theodore David Sampsell-Jones, William Mitchell College of Law, Minneapolis, MN, for Defendant-Appellant.\nBefore WIENER, SOUTHWICK, and COSTA, Circuit Judges."
+  },
+  "file_name": "0390-01",
+  "first_page_order": 390,
+  "last_page_order": 407
+}

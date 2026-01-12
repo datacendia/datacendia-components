@@ -1,0 +1,59 @@
+{
+  "id": 6008313,
+  "name": "Ober v. Miller et al.",
+  "name_abbreviation": "Ober v. Miller",
+  "decision_date": "2011-03-21",
+  "docket_number": "No. 10-903",
+  "first_page": "1287",
+  "last_page": "1287",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1287"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 67,
+    "ocr_confidence": 0.57,
+    "sha256": "94f9358958b15eb37d261c63819fd21157704b5b66dccd48cf61ed0d5bd4a9a6",
+    "simhash": "1:488c68a9d9209432",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ober v. Miller et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-903.\nOber v. Miller et al."
+  },
+  "file_name": "1287-10",
+  "first_page_order": 1309,
+  "last_page_order": 1309
+}

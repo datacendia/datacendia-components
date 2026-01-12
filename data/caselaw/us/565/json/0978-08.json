@@ -1,0 +1,59 @@
+{
+  "id": 12230330,
+  "name": "Leon v. United States",
+  "name_abbreviation": "Leon v. United States",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-276",
+  "first_page": "978",
+  "last_page": "978",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 978"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.621,
+    "sha256": "a9802143541f14536407139ba5d27d4bd0abe6c5646f23b2a395cc4f911fc224",
+    "simhash": "1:822b9d130980dd0a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Leon v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-276.\nLeon v. United States."
+  },
+  "file_name": "0978-08",
+  "first_page_order": 1060,
+  "last_page_order": 1060
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12411288,
+  "name": "Hooker v. California",
+  "name_abbreviation": "Hooker v. California",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10051",
+  "first_page": "831",
+  "last_page": "831",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 831"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 84,
+    "ocr_confidence": 0.667,
+    "sha256": "fb052725ab9e7c4faeff865b236744bbc85a2175ca16e539f3118411c6b2e5e4",
+    "simhash": "1:4204528031236a65",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hooker v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 2d App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10051.\nHooker v. California."
+  },
+  "file_name": "0831-13",
+  "first_page_order": 907,
+  "last_page_order": 907
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12195285,
+  "name": "Noto v. Florida",
+  "name_abbreviation": "Noto v. Florida",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-1423",
+  "first_page": "820",
+  "last_page": "820",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 820"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 80,
+    "ocr_confidence": 0.732,
+    "sha256": "6e1bf04586c79f1a4fec4cf635e37ee388f1b08a363e03b763c495e5c45f19bf",
+    "simhash": "1:8118d51266c1ea3a",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Noto v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 4th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1423.\nNoto v. Florida."
+  },
+  "file_name": "0820-12",
+  "first_page_order": 902,
+  "last_page_order": 902
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12231135,
+  "name": "Sanjari v. Gratzol",
+  "name_abbreviation": "Sanjari v. Gratzol",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-6155",
+  "first_page": "986",
+  "last_page": "986",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 986"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 67,
+    "ocr_confidence": 0.67,
+    "sha256": "f9a2d983df3df4ff9aa4a0c2fd47e7d4f0dc9c1906be27f006e5bdd796484039",
+    "simhash": "1:a4778ea7104310ab",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sanjari v. Gratzol."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ind. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6155.\nSanjari v. Gratzol."
+  },
+  "file_name": "0986-04",
+  "first_page_order": 1068,
+  "last_page_order": 1068
+}

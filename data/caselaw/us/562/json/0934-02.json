@@ -1,0 +1,59 @@
+{
+  "id": 6031662,
+  "name": "Ruhbayan v. United States",
+  "name_abbreviation": "Ruhbayan v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5667",
+  "first_page": "934",
+  "last_page": "934",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 934"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.597,
+    "sha256": "5ba4bf5f64e1145a04f9cab9d63fb10b01f6908e443b43f47cd2f597f326057b",
+    "simhash": "1:b5839a11ceacb735",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ruhbayan v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5667.\nRuhbayan v. United States."
+  },
+  "file_name": "0934-02",
+  "first_page_order": 956,
+  "last_page_order": 956
+}

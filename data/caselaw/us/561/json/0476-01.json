@@ -1,0 +1,82 @@
+{
+  "id": 3644245,
+  "name": "WEYHRAUCH v. UNITED STATES",
+  "name_abbreviation": "Weyhrauch v. United States",
+  "decision_date": "2010-06-24",
+  "docket_number": "No. 08-1196",
+  "first_page": "476",
+  "last_page": "476",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "561 U.S. 476"
+    },
+    {
+      "type": "parallel",
+      "cite": "177 L. Ed. 2d 705"
+    },
+    {
+      "type": "parallel",
+      "cite": "130 S. Ct. 2971"
+    },
+    {
+      "type": "vendor",
+      "cite": "2010 U.S. LEXIS 5254"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2009-094"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 94,
+    "char_count": 826,
+    "ocr_confidence": 0.593,
+    "pagerank": {
+      "raw": 3.124381552672092e-07,
+      "percentile": 0.856458264315313
+    },
+    "sha256": "98be6ccaf3205cc7f03a25ce9227836feb81c1a18eb8907078ea57bddbbe17ca",
+    "simhash": "1:f30df166abaa0e2a",
+    "word_count": 138
+  },
+  "last_updated": "2023-07-14T20:22:39.778815+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "WEYHRAUCH v. UNITED STATES"
+    ],
+    "opinions": [
+      {
+        "text": "Per Curiam.\nThe judgment is vacated, and the case is remanded to the United States Court of Appeals for the Ninth Circuit for further consideration in light of Skilling v. United States, ante, p. 358.",
+        "type": "majority",
+        "author": "Per Curiam."
+      }
+    ],
+    "attorneys": [
+      "Donald B. Ayer argued the cause for petitioner. With him on the briefs were Douglas. Pope, Brian J. Murray, and Nicole C. H. Massey.",
+      "Deputy Solicitor General Dreeben argued the cause for the United States. With him on the brief were Solicitor General Kagan, Assistant Attorney General Breuer, and Anthony A. Yang."
+    ],
+    "corrections": "",
+    "head_matter": "WEYHRAUCH v. UNITED STATES\nNo. 08-1196.\nArgued December 8, 2009\nDecided June 24, 2010\nDonald B. Ayer argued the cause for petitioner. With him on the briefs were Douglas. Pope, Brian J. Murray, and Nicole C. H. Massey.\nDeputy Solicitor General Dreeben argued the cause for the United States. With him on the brief were Solicitor General Kagan, Assistant Attorney General Breuer, and Anthony A. Yang.\nAbbe David Lowell, Paul M. Thompson, and Jeffrey W. Mikoni filed a brief for the National Association of Criminal Defense Lawyers as amicus curiae urging reversal.\nAlbert W. Alschuler, pro se, filed a brief as amicus curiae."
+  },
+  "file_name": "0476-01",
+  "first_page_order": 526,
+  "last_page_order": 526
+}

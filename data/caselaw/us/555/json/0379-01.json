@@ -1,0 +1,1363 @@
+{
+  "id": 3679608,
+  "name": "CARCIERI, GOVERNOR OF RHODE ISLAND, et al. v. SALAZAR, SECRETARY OF THE INTERIOR, et al.",
+  "name_abbreviation": "Carcieri v. Salazar",
+  "decision_date": "2009-02-24",
+  "docket_number": "No. 07-526",
+  "first_page": "379",
+  "last_page": "414",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "555 U.S. 379"
+    },
+    {
+      "type": "parallel",
+      "cite": "172 L. Ed. 2d 791"
+    },
+    {
+      "type": "parallel",
+      "cite": "129 S. Ct. 1058"
+    },
+    {
+      "type": "vendor",
+      "cite": "2009 U.S. LEXIS 1633"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2008-023"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "442 U. S. 330",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1531959
+      ],
+      "weight": 3,
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "339"
+        },
+        {
+          "page": "339"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/442/0330-01"
+      ]
+    },
+    {
+      "cite": "508 U. S. 129",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12096
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "131-132"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/508/0129-01"
+      ]
+    },
+    {
+      "cite": "505 U. S. 469",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1480888
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "476"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/505/0469-01"
+      ]
+    },
+    {
+      "cite": "534 U. S. 438",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9108314
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "452",
+          "parenthetical": "\"[W]hen Congress includes particular language in one section of a statute but omits it in another section of the same Act, it is generally presumed that Congress acts intentionally and purposely in the disparate inclusion or exclusion\" (internal quotation marks omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/534/0438-01"
+      ]
+    },
+    {
+      "cite": "25 U. S. C. \u00a7468",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "parenthetical": "referring to \"the geographic boundaries of any Indian reservation now existing or established hereafter\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "366 U. S. 308",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1285543
+      ],
+      "year": 1961,
+      "pin_cites": [
+        {
+          "page": "310-311",
+          "parenthetical": "interpreting a statute granting citizenship status to foreign-born \"children of persons who now are, or have been, citizens of the United States\" (internal quotation marks omitted; emphasis added and deleted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/366/0308-01"
+      ]
+    },
+    {
+      "cite": "6 Pet. 141",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        1439712
+      ],
+      "year": 1832,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/31/0141-01"
+      ]
+    },
+    {
+      "cite": "216 U. S. 559",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8290736
+      ],
+      "year": 1910,
+      "pin_cites": [
+        {
+          "page": "568-569",
+          "parenthetical": "interpreting a federal criminal statute to have \"adopted such punishment as the laws of the State in which such place is situated now provide for the like offense\" (citing United States v. Paul, 6 Pet. 141 (1832); internal quotation marks omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/216/0559-01"
+      ]
+    },
+    {
+      "cite": "498 U. S. 103",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6219942
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "108-109"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/498/0103-01"
+      ]
+    },
+    {
+      "cite": "512 U. S. 267",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        39915
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "272"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/512/0267-01"
+      ]
+    },
+    {
+      "cite": "242 U. S. 470",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3934939
+      ],
+      "year": 1917,
+      "pin_cites": [
+        {
+          "page": "485"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/242/0470-01"
+      ]
+    },
+    {
+      "cite": "530 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9413069
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "6"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/530/0001-01"
+      ]
+    },
+    {
+      "cite": "540 U. S. 526",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8897517
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "534"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/540/0526-01"
+      ]
+    },
+    {
+      "cite": "545 U. S. 353",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8209230
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "359"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/545/0353-01"
+      ]
+    },
+    {
+      "cite": "520 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11650897
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "4"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/520/0001-01"
+      ]
+    },
+    {
+      "cite": "552 U. S. 1229",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 2008,
+      "opinion_index": 0
+    },
+    {
+      "cite": "467 U. S. 837",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6209106
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "843"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/467/0837-01"
+      ]
+    },
+    {
+      "cite": "25 U. S. C. \u00a7 472",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "497 F. 3d 15",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3615977
+      ],
+      "weight": 9,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "26"
+        },
+        {
+          "page": "26-27"
+        },
+        {
+          "page": "27"
+        },
+        {
+          "page": "27-28"
+        },
+        {
+          "page": "28"
+        },
+        {
+          "page": "30"
+        },
+        {
+          "page": "30-34"
+        },
+        {
+          "page": "34"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/497/0015-01"
+      ]
+    },
+    {
+      "cite": "423 F. 3d 45",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "year": 2005,
+      "opinion_index": 0
+    },
+    {
+      "cite": "290 F. Supp. 2d 167",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        9048419
+      ],
+      "weight": 3,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "179-181"
+        },
+        {
+          "page": "181"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/290/0167-01"
+      ]
+    },
+    {
+      "cite": "25 U. S. C. \u00a7 479",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 U. S. C. \u00a7 702",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 1151",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "89 F. 3d 908",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9045607
+      ],
+      "weight": 2,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "911-912"
+        },
+        {
+          "page": "913-922"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/89/0908-01"
+      ]
+    },
+    {
+      "cite": "25 CFR \u00a7 83.2",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "year": 2008,
+      "pin_cites": [
+        {
+          "parenthetical": "providing that federal recognition is needed before an Indian tribe may seek \"the protection, services, and benefits of the Federal government\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 U. S. C. \u00a7 1701",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "92 Stat. 813",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 U. S. C. \u00a7 177",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "158 F. 3d 1335",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        2338955,
+        11679447
+      ],
+      "weight": 3,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "1336"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/332/0429-01",
+        "/f3d/158/1335-01"
+      ]
+    },
+    {
+      "cite": "48 Fed. Reg. 6177",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "weight": 6,
+      "year": 1983,
+      "pin_cites": [
+        {
+          "parenthetical": "hereinafter Final Determination"
+        },
+        {
+          "page": "6178"
+        },
+        {
+          "page": "6178"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 U. S. C. \u00a7465",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 5,
+      "opinion_index": 0
+    },
+    {
+      "cite": "48 Stat. 985",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "430 U. S. 787",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12127943
+      ],
+      "weight": 2,
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "798"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/430/0787-01"
+      ]
+    },
+    {
+      "cite": "479 U. S. 85",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6211149
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "88-89",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/479/0085-01"
+      ]
+    },
+    {
+      "cite": "92 Stat. 813,25",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "529 U. S. 576",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9508888
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "587",
+          "parenthetical": "explaining that an Executive Branch statutory interpretation that lacks the force of law is \"entitled to respect... to the extent that those interpretations have the 'power to persuade' \" (some internal quotation marks omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/529/0576-01"
+      ]
+    },
+    {
+      "cite": "463 U. S. 206",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6193185
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "221, n. 21"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/463/0206-01"
+      ]
+    },
+    {
+      "cite": "449 F. 3d 16",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7348939,
+        5409516
+      ],
+      "year": 2006,
+      "opinion_index": 0,
+      "case_paths": [
+        "/am-tribal-law/6/0016-02",
+        "/f3d/449/0016-01"
+      ]
+    },
+    {
+      "cite": "19 F. 3d 685",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10510212
+      ],
+      "year": 1994,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/19/0685-01"
+      ]
+    },
+    {
+      "cite": "48 Fed. Reg. 6178",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "296 U. S. 497",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5727771
+      ],
+      "year": 1936,
+      "pin_cites": [
+        {
+          "page": "503"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/296/0497-01"
+      ]
+    },
+    {
+      "cite": "417 U. S. 535",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1519969
+      ],
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "551"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/417/0535-01"
+      ]
+    },
+    {
+      "cite": "538 U. S. 254",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9030705
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "273",
+          "parenthetical": "plurality opinion"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/538/0254-01"
+      ]
+    },
+    {
+      "cite": "96 Stat. 2517",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 U. S. C. \u00a7 2202",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "503 U. S. 249",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6225793
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "253-254"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/503/0249-01"
+      ]
+    },
+    {
+      "cite": "532 U. S. 645",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9301856
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "650, n. 1"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/532/0645-01"
+      ]
+    },
+    {
+      "cite": "25 CFR \u00a7\u00a7 151.2",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "pin_cites": [
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "366 U. S. 308",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1285543
+      ],
+      "year": 1961,
+      "pin_cites": [
+        {
+          "page": "311-312",
+          "parenthetical": "\"now\" refers to time of statutory enactment"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/366/0308-01"
+      ]
+    },
+    {
+      "cite": "467 U. S. 837",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6209106
+      ],
+      "year": 1984,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/467/0837-01"
+      ]
+    },
+    {
+      "cite": "25 U. S. C. \u00a7 479",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "45 Fed. Reg. 19321",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 1980,
+      "opinion_index": 1
+    },
+    {
+      "cite": "369 F. 3d 960",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9248041,
+        7345474
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "961"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/369/0960-01",
+        "/am-tribal-law/5/0960-01"
+      ]
+    },
+    {
+      "cite": "34 Am. J. Legal Hist. 331",
+      "category": "journals:journal",
+      "reporter": "Am. J. Legal Hist.",
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "356-359"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "533 U. S. 218",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9313070
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "227, 229-230"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/533/0218-01"
+      ]
+    },
+    {
+      "cite": "323 U. S. 134",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1229682
+      ],
+      "year": 1944,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/323/0134-01"
+      ]
+    },
+    {
+      "cite": "9 A. 2d 363",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "year": 1939,
+      "pin_cites": [
+        {
+          "page": "365",
+          "parenthetical": "property \"now\" owned refers to property owned when a will becomes operative"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "336 Pa. 465",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        1195637
+      ],
+      "year": 1939,
+      "pin_cites": [
+        {
+          "page": "467-468",
+          "parenthetical": "property \"now\" owned refers to property owned when a will becomes operative"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/pa/336/0465-01"
+      ]
+    },
+    {
+      "cite": "910 F. 2d 1316",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10540702
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "1320",
+          "parenthetical": "\"now\" refers to time of exercise of delegated authority"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/910/1316-01"
+      ]
+    },
+    {
+      "cite": "25 U. S. C. \u00a7 479",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "25 U. S. C. \u00a7 1701",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "25 U. S. C. \u00a72",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 3
+    },
+    {
+      "cite": "25 CFR \u00a7 83",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 3
+    },
+    {
+      "cite": "411 U. S. 145",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        10182
+      ],
+      "year": 1973,
+      "pin_cites": [
+        {
+          "page": "152",
+          "parenthetical": "quoting H. R. Rep. No. 1804, 73d Cong., 2d Sess., 6 (1934)"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/411/0145-01"
+      ]
+    },
+    {
+      "cite": "4 Stat. 730",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 3
+    },
+    {
+      "cite": "6 Pet. 515",
+      "category": "reporters:scotus_early",
+      "reporter": "Pet.",
+      "case_ids": [
+        1439675
+      ],
+      "year": 1832,
+      "pin_cites": [
+        {
+          "page": "559"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/31/0515-01"
+      ]
+    },
+    {
+      "cite": "490 U. S. 163",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        604915
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "192"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/490/0163-01"
+      ]
+    },
+    {
+      "cite": "471 U. S. 759",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6208461
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "767-768"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/471/0759-01"
+      ]
+    },
+    {
+      "cite": "502 U. S. 251",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6224802
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "269",
+          "parenthetical": "quoting Montana v. Blackfeet Tribe, 471 U. S. 759, 767-768 (1985)"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/502/0251-01"
+      ]
+    },
+    {
+      "cite": "231 U. S. 28",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3671359
+      ],
+      "year": 1913,
+      "pin_cites": [
+        {
+          "page": "46"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/231/0028-01"
+      ]
+    },
+    {
+      "cite": "503 U. S. 318",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6227709
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "323"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/503/0318-01"
+      ]
+    },
+    {
+      "cite": "25 CFR \u00a7 83.7",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(b)"
+        },
+        {
+          "page": "(e)"
+        }
+      ],
+      "opinion_index": 3
+    },
+    {
+      "cite": "529 U. S. 120",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9508268
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "132"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/529/0120-01"
+      ]
+    },
+    {
+      "cite": "62 Fed. Reg. 45864",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 1997,
+      "pin_cites": [
+        {
+          "parenthetical": "recognizing the Snoqualmie as an Indian tribe"
+        }
+      ],
+      "opinion_index": 3
+    },
+    {
+      "cite": "71 Fed. Reg. 5067",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "opinion_index": 3
+    },
+    {
+      "cite": "25 U. S. C. \u00a7 479",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "opinion_index": 3
+    },
+    {
+      "cite": "25 CFR \u00a7 83.2",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "year": 2008,
+      "pin_cites": [
+        {
+          "parenthetical": "stating that recognition \"is a prerequisite to the protection, services, and benefits of the Federal government available to Indian tribes by virtue of their status as tribes\""
+        }
+      ],
+      "opinion_index": 3
+    },
+    {
+      "cite": "25 U. S. C. \u00a7 177",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 3
+    },
+    {
+      "cite": "48 Fed. Reg. 6177",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "weight": 2,
+      "year": 1983,
+      "opinion_index": 3
+    },
+    {
+      "cite": "25 U. S. C. \u00a7465",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 6,
+      "pin_cites": [
+        {
+          "parenthetical": "\"Title to any lands or rights acquired pursuant to this Act . . . shall be taken in the name of the United States in trust for the Indian tribe or individual Indian for which the land is acquired\" (emphasis added)"
+        },
+        {
+          "page": "2763"
+        },
+        {
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "16"
+        }
+      ],
+      "opinion_index": 3
+    },
+    {
+      "cite": "46 Fed. Reg. 38411",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 1981,
+      "opinion_index": 3
+    },
+    {
+      "cite": "49 Fed. Reg. 2025",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 1984,
+      "pin_cites": [
+        {
+          "parenthetical": "setting aside a 12.5-acre parcel as reservation land for the Tribe's exclusive use"
+        }
+      ],
+      "opinion_index": 3
+    },
+    {
+      "cite": "45 Fed. Reg. 19322",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 1984,
+      "pin_cites": [
+        {
+          "parenthetical": "setting aside a 12.5-acre parcel as reservation land for the Tribe's exclusive use"
+        }
+      ],
+      "opinion_index": 3
+    },
+    {
+      "cite": "45 Fed. Reg. 62034",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "opinion_index": 3
+    },
+    {
+      "cite": "25 CFR \u00a7 151",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 3
+    },
+    {
+      "cite": "25 U. S. C. \u00a7 471",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "parenthetical": "offering loans to Indian students for tuition at vocational and trade schools"
+        }
+      ],
+      "opinion_index": 3
+    },
+    {
+      "cite": "25 U. S. C. \u00a7 461",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 3
+    },
+    {
+      "cite": "92 Stat. 813,25",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 3
+    },
+    {
+      "cite": "48 Fed. Reg. 6178",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "opinion_index": 3
+    },
+    {
+      "cite": "417 U. S. 535",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1519969
+      ],
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "542"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/417/0535-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 2206,
+    "char_count": 71114,
+    "ocr_confidence": 0.689,
+    "pagerank": {
+      "raw": 1.4478412459735046e-06,
+      "percentile": 0.9912267085841684
+    },
+    "sha256": "b3c7a3dc7a88eabd4b3272504e4bc20a828d7d49f4aa1627e944b85d40250f0c",
+    "simhash": "1:ba8c84d4c40ee75b",
+    "word_count": 11582
+  },
+  "last_updated": "2024-02-27T16:45:54.330906+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Thomas, J., delivered the opinion of the Court, in which Roberts, C. J., and Scalia, Kennedy, Breyer, and Alito, JJ., joined. Breyer, J., filed a concurring opinion, post, p. 396. Souter, J., filed an opinion concurring in part and dissenting in part, in which Ginsburg, J., joined, post, p. 400. Stevens, J., filed a dissenting opinion, post, p. 401."
+    ],
+    "parties": [
+      "CARCIERI, GOVERNOR OF RHODE ISLAND, et al. v. SALAZAR, SECRETARY OF THE INTERIOR, et al."
+    ],
+    "opinions": [
+      {
+        "text": "Justice Thomas\ndelivered the opinion of the Court.\nThe Indian Reorganization Act (IRA or Act) authorizes the Secretary of the Interior, a respondent in this case, to acquire land and hold it in trust \u201cfor the purpose of providing land for Indians.\u201d \u00a75, 48 Stat. 985, 25 U. S. C. \u00a7465. The IRA defines the term \u201cIndian\u201d to \u201cinclude all persons of Indian descent who are members of any recognized Indian tribe now under Federal jurisdiction.\u201d \u00a7479. The Secretary notified petitioners \u2014 the State of Rhode Island, its Governor, and the town of Charlestown, Rhode Island \u2014 that he intended to accept in trust a parcel of land for use by the Narragansett Indian Tribe in accordance with his claimed authority under the statute. In proceedings before the Interior Board of Indian Appeals (IBIA), the District Court, and the Court of Appeals for the First Circuit, petitioners unsuccessfully challenged the Secretary\u2019s authority to take the parcel into trust.\nIn reviewing the determination of the Court of Appeals, we are asked to interpret the statutory phrase \u201cnow under Federal jurisdiction\u201d in \u00a7479. Petitioners contend that the term \u201cnow\u201d refers to the time of the statute\u2019s enactment, and permits the Secretary to take land into trust for members of recognized tribes that were \u201cunder Federal jurisdiction\u201d in 1934. Respondents argue that the word \u201cnow\u201d is an ambiguous term that can reasonably be construed to authorize the Secretary to take land into trust for members of tribes that are \u201cunder Federal jurisdiction\u201d at the time that the land is accepted into trust.\nWe agree with petitioners and hold that, for purposes of \u00a7 479, the phrase \u201cnow under Federal jurisdiction\u201d refers to a tribe that was under federal jurisdiction at the time of the statute\u2019s enactment. As a result, \u00a7479 limits the Secretary\u2019s authority to taking land into trust for the purpose of providing land to members of a tribe that was under federal jurisdiction when the IRA was enacted in June 1934. Because the record in this case establishes that the Narragansett Tribe was not under federal jurisdiction when the IRA was enacted, the Secretary does not have the authority to take the parcel at issue into trust. We reverse the judgment of the Court of Appeals.\nI\nAt the time of colonial settlement, the Narragansett Indian Tribe was the indigenous occupant of much of what is now the State of Rhode Island. See Final Determination for Federal Acknowledgement of Narragansett Indian Tribe of Rhode Island, 48 Fed. Reg. 6177 (1983) (hereinafter Final Determination). Initial relations between colonial settlers, the Narragansett Tribe, and the other Indian tribes in the region were peaceful, but relations deteriorated in the late 17th century. The hostilities peaked in 1675 and 1676 during the 2-year armed conflict known as King Philip\u2019s War. Hundreds of colonists and thousands of Indians died. See E. Schultz & M. Tougias, King Philip\u2019s War 5 (1999). The Narragansett Tribe, having been decimated, was placed under formal guardianship by the Colony of Rhode Island in 1709. 48 Fed. Reg. 6177, 6178.\nNot quite two centuries later, in 1880, the State of Rhode Island convinced the Narragansett Tribe to relinquish its tribal authority as part of an effort to assimilate tribal members into the local population. See Narragansett Indian Tribe v. National Indian Gaming Comm\u2019n, 158 F. 3d 1335, 1336 (CADC 1998). The Tribe also agreed to sell all but two acres of its remaining reservation land for $5,000. Ibid. Almost immediately, the Tribe regretted its decisions and embarked on a campaign to regain its land and tribal status. Ibid. In the early 20th century, members of the Tribe sought economic support and other assistance from the Federal Government. But, in correspondence spanning a 10-year period from 1927 to 1937, federal officials declined their request, noting that the Tribe was, and always had been, under the jurisdiction of the New England States, rather than the Federal Government.\nHaving failed to gain recognition or assistance from the United States or from the State of Rhode Island, the Tribe filed suit in the 1970\u2019s to recover its ancestral land, claiming that the State had misappropriated its territory in violation of the Indian Non-Intercourse Act, 25 U. S. C. \u00a7 177. The claims were resolved in 1978 by enactment of the Rhode Island Indian Claims Settlement Act, 92 Stat. 813, 25 U. S. C. \u00a7 1701 et seq. Under the agreement codified by the Settlement Act, the Tribe received title to 1,800 acres of land in Charlestown, Rhode Island, in exchange for relinquishing its past and future claims to land based on aboriginal title. The Tribe also agreed that the 1,800 acres of land received under the Settlement Act \u201cshall be subject to the civil and criminal laws and jurisdiction of the State of Rhode Island.\u201d \u00a7 1708(a); see also \u00a7 1712(a).\nThe Narragansett Tribe\u2019s ongoing efforts to gain recognition from the United States Government finally succeeded in 1983. 48 Fed. Reg. 6177. In granting formal recognition, the Bureau of Indian Affairs (BIA) determined that \u201cthe Narragansett community and its predecessors have existed autonomously since first contact, despite undergoing many modifications.\u201d Id., at 6178. The BIA referred to the Tribe\u2019s \u201cdocumented history dating from 1614\u201d and noted that \u201call of the current membership are believed to be able to trace to at least one ancestor on the membership lists of the Narragansett community prepared after the 1880 Rhode Island \u2018detribalization\u2019 act.\u201d Ibid. After obtaining federal recognition, the Tribe began urging the Secretary to accept a deed of trust to the 1,800 acres conveyed to it under the Rhode Island Indian Claims Settlement Act. 25 CFR \u00a7 83.2 (2008) (providing that federal recognition is needed before an Indian tribe may seek \u201cthe protection, services, and benefits of the Federal government\u201d). The Secretary acceded to the Tribe\u2019s request in 1988. See Charlestown v. Eastern Area Director, Bur. of Indian Affairs, 18 IBIA 67,69 (1989).\nIn 1991, the Tribe\u2019s housing authority purchased an additional 31 acres of land in the town of Charlestown adjacent to the Tribe\u2019s 1,800 acres of settlement lands. Soon thereafter, a dispute arose about whether the Tribe\u2019s planned construction of housing on that parcel had to comply with local regulations. Narragansett Indian Tribe v. Narragansett Elec. Co., 89 F. 3d 908, 911-912 (CA1 1996). The Tribe\u2019s primary argument for noncompliance \u2014 that its ownership of the parcel made it a \u201cdependent Indian community\u201d and thus \u201cIndian country\u201d under 18 U. S. C. \u00a7 1151 \u2014 ultimately failed. 89 F. 3d, at 913-922. But, while the litigation was pending, the Tribe sought an alternative solution to free itself from compliance with local regulations: It asked the Secretary to accept the 31-acre parcel into trust for the Tribe pursuant to 25 U. S. C. \u00a7 465. By letter dated March 6, 1998, the Secretary notified petitioners of his acceptance of the Tribe\u2019s land into trust. Petitioners appealed the Secretary\u2019s decision to the IBIA, which upheld the Secretary\u2019s decision. See Charlestown v. Eastern Area Director, Bureau of Indian Affairs, 35 IBIA 93 (2000).\nPetitioners sought review of the IBIA decision pursuant to the Administrative Procedure Act, 5 U. S. C. \u00a7 702. The District Court granted summary judgment in favor of the Secretary and other Department of Interior officials. As relevant here, the District Court determined that the plain language of 25 U. S. C. \u00a7 479 defines \u201cIndian\u201d to include members of all tribes in existence in 1934, but does not require a tribe to have been federally recognized on that date. Carcieri v. Norton, 290 F. Supp. 2d 167, 179-181 (RI 2003). According to the District Court, because it is currently \u201cfederally-recognized\u201d and \u201cexisted at the time of the enactment of the IRA,\u201d the Narragansett Tribe qualifies \u201cas an \u2018Indian tribe\u2019 within the meaning of \u00a7479.\u201d Id., at 181. As a result, \u201cthe secretary possesses authority under \u00a7 465 to accept lands into trust for the benefit of the Narragansetts.\u201d Ibid.\nThe Court of Appeals for the First Circuit affirmed, first in a panel decision, Carcieri v. Norton, 423 F. 3d 45 (2005), and then sitting en banc, 497 F. 3d 15 (2007). Although the Court of Appeals acknowledged that \u201c[o]ne might have an initial instinct to read the word \u2018now\u2019 [in \u00a7 479] ... to mean the date of [the] enactment of the statute, June 18,1934,\u201d the court concluded that there was \u201cambiguity as to whether to view the term ... as operating at the moment Congress enacted it or at the moment the Secretary invokes it.\u201d Id., at 26. The Court of Appeals noted that Congress has used the word \u201cnow\u201d in other statutes to refer to the time of the statute\u2019s application, not its enactment. Id., at 26-27. The Court of Appeals also found that the particular statutory context of \u00a7479 did not clarify the meaning of \u201cnow.\u201d On one hand, the Court of Appeals noted that another provision within the IRA, 25 U. S. C. \u00a7 472, uses the term \u201cnow or hereafter,\u201d which supports petitioners\u2019 argument that \u201cnow,\u201d by itself, does not refer to future events. But on the other hand, \u00a7479 contains the particular application date of \u201cJune 18, 1934,\u201d suggesting that if Congress had wanted to refer to the date of enactment, it could have done so more specifically. 497 F. 3d, at 27. The Court of Appeals further reasoned that both interpretations of \u201cnow\u201d are supported by reasonable policy explanations, id., at 27-28, and it found that the legislative history failed to \u201cclearly resolve the issue,\u201d id., at 28.\nHaving found the statute ambiguous, the Court of Appeals applied the principles set forth in Chevron U S. A. Inc. v. Natural Resources Defense Council, Inc., 467 U. S. 837, 843 (1984), and deferred to the Secretary\u2019s construction of the provision. 497 F. 3d, at 30. The court rejected petitioners\u2019 arguments that the Secretary\u2019s interpretation was an impermissible construction of the statute. Id., at 30-34. It also held that petitioners had failed to demonstrate that the Secretary\u2019s interpretation was inconsistent with earlier practices of the Department of the Interior. Furthermore, the court determined that even if the interpretation were a departure from the Department\u2019s prior practices, the decision should be affirmed based on the Secretary\u2019s \u201creasoned explanation for his interpretation.\u201d Id., at 34.\nWe granted certiorari, 552 U. S. 1229 (2008), and now reverse.\nII\nThis case requires us to apply settled principles of statutory construction under which we must first determine whether the statutory text is plain and unambiguous. United States v. Gonzales, 520 U. S. 1, 4 (1997). If it is, we must apply the statute according to its terms. See, e. g., Dodd v. United States, 545 U. S. 353, 359 (2005); Lamie v. United States Trustee, 540 U. S. 526, 534 (2004); Hartford Underwriters Ins. Co. v. Union Planters Bank, N. A., 530 U. S. 1, 6 (2000); Caminetti v. United States, 242 U. S. 470, 485 (1917).\nThe Secretary may accept land into trust only for \u201cthe purpose of providing land for Indians.\u201d 25 U. S. C. \u00a7465. \u201cIndian\u201d is defined by statute as follows:\n\u201cThe term \u2018Indian\u2019 as used in this Act shall include all persons of Indian descent who are members of any recognized Indian tribe now under Federal jurisdiction, and all persons who are descendants of such members who were, on June 1, 1934, residing within the present boundaries of any Indian reservation, and shall further include all other persons of one-half or more Indian blood. . . . The term \u2018tribe\u2019 wherever used in this Act shall be construed to refer to any Indian tribe, organized band, pueblo, or the Indians residing on one reservation. ...\u201d \u00a7 479 (emphasis added).\nThe parties are in agreement, as are we, that the Secretary\u2019s authority to take the parcel in question into trust depends on whether the Narragansetts are members of a \u201crecognized Indian Tribe now under Federal jurisdiction.\u201d Ibid. That question, in turn, requires us to decide whether the word \u201cnow under Federal jurisdiction\u201d refers to 1998, when the Secretary accepted the 31-acre parcel into trust, or 1934, when Congress enacted the IRA.\nWe begin with the ordinary meaning of the word \u201cnow,\u201d as understood when the IRA was enacted. Director, Office of Workers\u2019 Compensation Programs v. Greenwich Collieries, 512 U. S. 267, 272 (1994); Moskal v. United States, 498 U. S. 103, 108-109 (1990). At that time, the primary definition of \u201cnow\u201d was \u201c[a]t the present time; at this moment; at the time of speaking.\u201d Webster\u2019s New International Dictionary 1671 (2d ed. 1934); see also Black\u2019s Law Dictionary 1262 (3d ed. 1933) (defining \u201cnow\u201d to mean \u201c[a]t this time, or at the present moment,\u201d and noting that \u201c \u2018[n]ow\u2019 as used in a statute ordinarily refers to the date of its taking effect . . . \u201d (emphasis added)). This definition is consistent with interpretations given to the word \u201cnow\u201d by this Court, both before and after passage of the IRA, with respect to its use in other statutes. See, e. g., Franklin v. United States, 216 U. S. 559, 568-569 (1910) (interpreting a federal criminal statute to have \u201cadopted such punishment as the laws of the State in which such place is situated now provide for the like offense\u201d (citing United States v. Paul, 6 Pet. 141 (1832); internal quotation marks omitted)); Montana v. Kennedy, 366 U. S. 308, 310-311 (1961) (interpreting a statute granting citizenship status to foreign-born \u201cchildren of persons who now are, or have been, citizens of the United States\u201d (internal quotation marks omitted; emphasis added and deleted)).\nIt also aligns with the natural reading of the word within the context of the IRA. For example, in the original version of 25 U. S. C. \u00a7 465, which provided the same authority to the Secretary to accept land into trust for \u201cthe purpose of providing land for Indians,\u201d Congress explicitly referred to current events, stating \u201c[tjhat no part of such funds shall be used to acquire additional land outside of the exterior boundaries of [the] Navajo Indian Reservation ... in the event that the proposed Navajo boundary extension measures now pending in Congress . . . become law.\u201d IRA, \u00a75, 48 Stat. 985 (emphasis added). In addition, elsewhere in the IRA, Congress expressly drew into the statute contemporaneous and future events by using the phrase \u201cnow or hereafter.\u201d See 25 U. S. C. \u00a7468 (referring to \u201cthe geographic boundaries of any Indian reservation now existing or established hereafter\u201d); \u00a7472 (referring to \u201cIndians who may be appointed ... to the various positions maintained, now or hereafter, by the Indian Office\u201d). Congress\u2019 use of the word \u201cnow\u201d in this provision, without the accompanying phrase \u201cor hereafter,\u201d thus provides further textual support for the conclusion that the term refers solely to events contemporaneous with the Act\u2019s enactment. See Barnhart v. Sigmon Coal Co., 534 U. S. 438, 452 (2002) (\u201c[W]hen Congress includes particular language in one section of a statute but omits it in another section of the same Act, it is generally presumed that Congress acts intentionally and purposely in the disparate inclusion or exclusion\u201d (internal quotation marks omitted)).\nFurthermore, the Secretary\u2019s current interpretation is at odds with the Executive Branch\u2019s construction of this provision at the time of enactment. In correspondence with those who would assist him in implementing the IRA, the Commissioner of Indian Affairs, John Collier, explained:\n\u201cSection 19 of the Indian Reorganization Act of June 18, 1934 (48 Stat. L., 988), provides, in effect, that the term \u2018Indian\u2019 as used therein shall include \u2014 (1) all persons of Indian descent who are members of any recognized tribe that was under Federal jurisdiction at the date of the Act . . . .\u201d Letter from John Collier, Commissioner, to Superintendents (Mar. 7,1936), Lodging of Respondents (emphasis added).\nThus, although we do not defer to Commissioner Collier\u2019s interpretation of this unambiguous statute, see Estate of Cowart v. Nicklos Drilling Co., 505 U. S. 469, 476 (1992), we agree with his conclusion that the word \u201cnow\u201d in \u00a7 479 limits the definition of \u201cIndian,\u201d and therefore limits the exercise of the Secretary\u2019s trust authority under \u00a7 465 to those members of tribes that were under federal jurisdiction at the time the IRA was enacted.\nThe Secretary makes two other arguments in support of his contention that the term \u201cnow\u201d as used in \u00a7 479 is ambiguous. We reject them both. First, the Secretary argues that although the \u201cuse of \u2018now\u2019 can refer to the time of enactment\u201d in the abstract, \u201cit can also refer to the time of the statute\u2019s application.\u201d Brief for Respondents 18. But the susceptibility of the word \u201cnow\u201d to alternative meanings \u201cdoes not render the word . . . whenever it is used, ambiguous,\u201d particularly where \u201call but one of the meanings is ordinarily eliminated by context.\u201d Deal v. United States, 508 U. S. 129, 131-132 (1993). Here, the statutory context makes clear that \u201cnow\u201d does not mean \u201cnow or hereafter\u201d or \u201cat the time of application.\u201d Had Congress intended to legislate such a definition, it could have done so explicitly, as it did in \u00a7\u00a7468 and 472, or it could have omitted the word \u201cnow\u201d altogether. Instead, Congress limited the statute by the word \u201cnow\u201d and \u201cwe are obliged to give effect, if possible, to every word Congress used.\u201d Reiter v. Sonotone Corp., 442 U. S. 330, 339 (1979).\nSecond, the Secretary argues that \u00a7 479 left a gap for the agency to fill by using the phrase \u201cshall include\u201d in its introductory clause. Brief for Respondents 26-27. The Secretary, in turn, claims to have permissibly filled that gap by defining \u201c\u2018Tribe\u2019\u201d and \u201c\u2018Individual Indian\u2019\u201d without reference to the date of the statute\u2019s enactment. Id., at 28 (citing 25 CFR \u00a7\u00a7 151.2(b), (c)(1) (2008)). But, as explained above, Congress left no gap in 25 U. S. C. \u00a7 479 for the agency to fill. Rather, it explicitly and comprehensively defined the term by including only three discrete definitions: \u201c[1] members of any recognized Indian tribe now under Federal jurisdiction, and [2] all persons who are descendants of such members who were, on June 1, 1934, residing within the present boundaries of any Indian reservation, and ... [3] all other persons of one-half or more Indian blood.\u201d Ibid. In other statutory provisions, Congress chose to expand the Secretary\u2019s authority to particular Indian tribes not necessarily encompassed within the definitions of \u201cIndian\u201d set forth in \u00a7 479. Had it understood the word \u201cinclude\u201d in \u00a7 479 to encompass tribes other than those satisfying one of the three \u00a7479 definitions, Congress would have not needed to enact these additional statutory references to specific Tribes.\nThe Secretary and his amici also go beyond the statutory text to argue that Congress had no policy justification for limiting the Secretary\u2019s trust authority to those tribes under federal jurisdiction in 1934, because the IRA was intended to strengthen Indian communities as a whole, regardless of their status in 1934. Petitioners counter that the main purpose of \u00a7 465 was to reverse the loss of lands that Indians sustained under the General Allotment Act, see Atkinson Trading Co. v. Shirley, 532 U. S. 645, 650, n. 1 (2001), so the statute was limited to tribes under federal jurisdiction at that time because they were the tribes who lost their lands. We need not consider these competing policy views, because Congress\u2019 use of the word \u201cnow\u201d in \u00a7479 speaks for itself and \u201ccourts must presume that a legislature says in a statute what it means and means in a statute what it says there.\u201d Connecticut Nat. Bank v. Germain, 503 U. S. 249, 253-254 (1992).\nIll\nThe Secretary and his supporting amici also offer two alternative arguments that rely on statutory provisions other than the definition of \u201cIndian\u201d in \u00a7 479 to support the Secretary\u2019s decision to take this parcel into trust for the Narragansett Tribe. We reject both arguments.\nFirst, the Secretary and several amici argue that the definition of \u201cIndian\u201d in \u00a7 479 is rendered irrelevant by the broader definition of \u201ctribe\u201d in \u00a7479 and by the fact that the statute authorizes the Secretary to take title to lands \u201cin the name of the United States in trust for the Indian tribe or individual Indian for which the land is acquired.\u201d \u00a7465 (emphasis added); Brief for Respondents 12-14. But the definition of \u201ctribe\u201d in \u00a7479 itself refers to \u201cany Indian tribe\u201d (emphasis added), and therefore is limited by the temporal restrictions that apply to \u00a7479\u2019s definition of \u201cIndian.\u201d See \u00a7 479 (\u201cThe term \u2018tribe\u2019 wherever used in this Act shall be construed to refer to any Indian tribe, organized band, pueblo, or the Indians residing on one reservation\u201d (emphasis added)). And, although \u00a7465 authorizes the United States to take land in trust for an Indian tribe, \u00a7 465 limits the Secretary\u2019s exercise of that authority \u201cfor the purpose of providing land for Indians.\u201d There simply is no legitimate way to circumvent the definition of \u201cIndian\u201d in delineating the Secretary\u2019s authority under \u00a7\u00a7465 and 479.\nSecond, amicus National Congress of American Indians (NCAI) argues that 25 U. S. C. \u00a7 2202, which was enacted as part of the Indian Land Consolidation Act (ILCA), Title II, 96 Stat. 2517, overcomes the limitations set forth in \u00a7479 and, in turn, authorizes the Secretary\u2019s action. Section 2202 provides:\n\u201cThe provisions of section 465 of this title shall apply to all tribes notwithstanding the provisions of section 478 of this title: Provided, That nothing in this section is intended to supersede any other provision of Federal law which authorizes, prohibits, or restricts the acquisition of land for Indians with respect to any specific tribe, reservation, or state(s).\u201d\nNCAI argues that the \u201cILCA independently grants authority under Section 465 for the Secretary to execute the challenged trust acquisition.\u201d NCAI Brief 8. We do not agree.\nThe plain language of \u00a72202 does not expand the power set forth in \u00a7 465, which requires that the Secretary take land into trust only \u201cfor the purpose of providing land for Indians.\u201d Nor does \u00a72202 alter the definition of \u201cIndian\u201d in \u00a7 479, which is limited to members of tribes that were under federal jurisdiction in 1934. See supra, at 387-393. Rather, \u00a72202 by its terms simply ensures that tribes may benefit from \u00a7465 even if they opted out of the IRA pursuant to \u00a7478, which allowed tribal members to reject the application of the IRA to their tribe. \u00a7 478 (\u201cThis Act shall not apply to any reservation wherein a majority of the adult Indians ... shall vote against its application\u201d). As a result, there is no conflict between \u00a72202 and the limitation on the Secretary\u2019s authority to take lands contained in \u00a7465. Rather, \u00a7 2202 provides additional protections to those who satisfied the definition of \u201cIndian\u201d in \u00a7 479 at the time of the statute\u2019s enactment, but opted out of the IRA shortly thereafter.\nNCAI\u2019s reading of \u00a72202 also would nullify the plain meaning of the definition of \u201cIndian\u201d set forth in \u00a7 479 and incorporated into \u00a7465. Consistent with our obligation to give effect to every provision of the statute, Reiter, 442 U. S., at 339, we will not assume that Congress repealed the plain and unambiguous restrictions on the Secretary\u2019s exercise of trust authority in \u00a7\u00a7465 and 479 when it enacted \u00a72202. \u201cWe have repeatedly stated . . . that absent \u2018a clearly expressed congressional intention,\u2019. .. [a]n implied repeal will only be found where provisions in two statutes are in \u2018irreconcilable conflict,\u2019 or where the latter Act covers the whole subject of the earlier one and \u2018is clearly intended as a substitute.\u2019 \u201d Branch v. Smith, 538 U. S. 254, 273 (2003) (plurality opinion) (quoting Morton v. Mancari, 417 U. S. 535, 551 (1974), and Posadas v. National City Bank, 296 U. S. 497, 503 (1936)).\nIV\nWe hold that the term \u201cnow under Federal jurisdiction\u201d in \u00a7479 unambiguously refers to those tribes that were under the federal jurisdiction of the United States when the IRA was enacted in 1934. None of the parties or amici, including the Narragansett Tribe itself, has argued that the Tribe was under federal jurisdiction in 1934. And the evidence in the record is to the contrary. 48 Fed. Reg. 6177. Moreover, the petition for writ of certiorari filed in this case specifically represented that \u201c[i]n 1934, the Narragansett Indian Tribe . . . was neither federally recognized nor under the jurisdiction of the federal government.\u201d Pet. for Cert. 6. Respondents\u2019 brief in opposition declined to contest this assertion. See Brief in Opposition 2-7. Under our rules, that alone is reason to accept this as fact for purposes of our decision in this case. See this Court\u2019s Rule 15.2. We therefore reverse the judgment of the Court of Appeals.\nIt is so ordered.\nThe Narragansett Tribe recognized today is the successor to two tribes, the Narragansett and the Niantic Tribes. The two predecessor Tribes shared territory and cultural traditions at the time of European settlement and effectively merged in the aftermath of King Philip\u2019s War. See Final Determination, 48 Fed. Reg. 6178.\nTitle 25 U. S. C. \u00a7 177 provides, in pertinent part, that \u201c[n]o purchase, grant, lease, or other conveyance of lands, or of any title or claim thereto, from any Indian nation or tribe of Indians, shall be of any validity in law or equity, unless the same be made by treaty or convention entered into pursuant to the Constitution.\u201d\nThe Tribe, the town, and the Secretary previously litigated issues relating to the Secretary\u2019s acceptance of these 1,800 acres, and that matter is not presently before this Court. See generally Charlestown, 18 IBIA 67; Rhode Island v. Narragansett Indian Tribe, 19 F. 3d 685 (CA1 1994); Narragansett Indian Tribe v. Rhode Island, 449 F. 3d 16 (CA1 2006).\nThe current version of \u00a7465 provides \u201c[tjhat no part of such funds shall be used to acquire additional land outside of the exterior boundaries of Navajo Indian Reservation ... in the event that legislation to define the exterior boundaries of the Navajo Indian Reservation in New Mexico, and for other purposes, or similar legislation, becomes law.\u201d\nIn addition to serving as Commissioner of Indian Affairs, John Collier was \u201ca principal author of the [IRA].\u201d United States v. Mitchell, 463 U. S. 206, 221, n. 21 (1983). And, as both parties note, he appears to have been responsible for the insertion of the words \u201cnow under Federal jurisdiction\u201d into what is now 25 U. S. C. \u00a7 479. See Hearings on S. 2755 et al.: A Bill to Grant to Indians Living Under Federal Tutelage the Freedom to Organize for Purposes of Local Self-Government and Economic Enterprise, before the Senate Committee on Indian Affairs, 73d Cong., 2d Sess., pt. 2, p. 266 (1934). Also, the record contains a 1937 letter from Commissioner Collier in which, even after the passage of the IRA, he stated that the Federal Government still lacked any jurisdiction over the Narragansett Tribe. App. 23a-24a. Commissioner Collier\u2019s responsibilities related to implementing the IRA make him an unusually persuasive source as to the meaning of the relevant statutory language and the Tribe\u2019s status under it. See Christensen v. Harris County, 529 U. S. 576, 587 (2000) (explaining that an Executive Branch statutory interpretation that lacks the force of law is \u201centitled to respect... to the extent that those interpretations have the \u2018power to persuade\u2019 \u201d (some internal quotation marks omitted)).\nSee, e. g., 25 U. S. C. \u00a7473a (\u201cSections ... 465 ... and 479 of this title shall after May 1,1936, apply to the Territory of Alaska\u201d); \u00a7 1041e(a) (\u201cThe [Shawnee] Tribe shall be eligible to have land acquired in trust for its benefit pursuant to section 465 of this title ... \u201d); \u00a7 1300b-14(a) (\u201c[Sections 465 and 479 of this title are] hereby made applicable to the [Texas] Band [of Kickapoo Indians] . . . \u201d); \u00a7 1300g-2(a) (\u201c[Sections 465 and 479] shall apply to the members of the [Ysleta del Ser Pueblo] tribe, the tribe, and the reservation\u201d).\nBecause we conclude that the language of \u00a7465 unambiguously precludes the Secretary\u2019s action with respect to the parcel of land at issue in this ease, we do not address petitioners\u2019 alternative argument that the Rhode Island Indian Claims Settlement Act, 92 Stat. 813,25 U. S. C. \u00a7 1701 et seq., precludes the Secretary from exercising his authority under \u00a7 465.\nFor this reason, we disagree with the argument made by Justice Stevens that the term \u201cIndians\u201d in \u00a7465 has a different meaning than the definition of \u201cIndian\u201d provided in \u00a7479, and that the term\u2019s meaning in \u00a7465 is controlled by later-enacted regulations governing the Secretary\u2019s recognition of tribes like the Narragansetts. See post, at 404-406, 409-411 (dissenting opinion). When Congress has enacted a definition with \u201cdetailed and unyielding provisions,\u201d as it has in \u00a7479, this Court must give effect to that definition even when \u201cfit could be argued that the line should have been drawn at a different point.\u2019\u201d INS v. Hector, 479 U. S. 85, 88-89 (1986) (per curiam) (quoting Fiallo v. Bell, 430 U. S. 787, 798 (1977)).\nNCAI notes that the ILCA\u2019s definition of \u201ctribe\u201d \u201cmeans any Indian tribe, band, group, pueblo, or community for which, or for the members of which, the United States holds lands in trust.\u201d \u00a7 2201. But \u00a7 2201 is, by its express terms, applicable only to Chapter 24 of Title 25 of the United States Code. Ibid. The IRA is codified in Chapter 14 of Title 25. See \u00a7 465. Section 2201, therefore, does not itself alter the authority granted to the Secretary by \u00a7 465.",
+        "type": "majority",
+        "author": "Justice Thomas"
+      },
+      {
+        "text": "Justice Breyer,\nconcurring.\nI join the Court\u2019s opinion with three qualifications. First, I cannot say that the statute\u2019s language by itself is determinative. Linguistically speaking, the word \u201cnow\u201d in the phrase \u201cnow under Federal jurisdiction,\u201d 25 U. S. C. \u00a7479, may refer to a tribe\u2019s jurisdictional status as of 1934. But one could also read it to refer to the time the Secretary of the Interior exercises his authority to take land \u201cfor Indians.\u201d \u00a7465. Compare Montana v. Kennedy, 366 U. S. 308, 311-312 (1961) (\u201cnow\u201d refers to time of statutory enactment), with Difford v. Secretary of Health and Human Servs., 910 F. 2d 1316, 1320 (CA6 1990) (\u201cnow\u201d refers to time of exercise of delegated authority); In re Lusk's Estate, 336 Pa. 465,467-468, 9 A. 2d 363, 365 (1939) (property \u201cnow\u201d owned refers to property owned when a will becomes operative). I also concede that the Court owes the Interior Department the kind of interpretive respect that reflects an agency\u2019s greater knowledge of the circumstances in which a statute was enacted, cf. Skidmore v. Swift & Co., 323 U. S. 134 (1944). Yet because the Department then favored the Court\u2019s present interpretation, see infra, at 397, that respect cannot help the Department here.\nNeither can Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc., 467 U. S. 837 (1984), help the Department. The scope of the word \u201cnow\u201d raises an interpretive question of considerable importance; the provision\u2019s legislative history makes clear that Congress focused directly upon that language, believing it definitively resolved a specific underlying difficulty; and nothing in that history indicates that Congress believed departmental expertise should subsequently play a role in fixing the temporal reference of the word \u201cnow.\u201d These circumstances indicate that Congress did not intend to delegate interpretive authority to the Department. Consequently, its interpretation is not entitled to Chevron deference, despite linguistic ambiguity. See United States v. Mead Corp., 533 U. S. 218, 227, 229-230 (2001).\nSecond, I am persuaded that \u201cnow\u201d means \u201cin 1934\u201d not only for the reasons the Court gives but also because an examination of the provision\u2019s legislative history convinces me that Congress so intended. As I read that history, it shows that Congress expected the phrase would make clear that the Secretary could employ \u00a7465\u2019s power to take land into trust in favor only of those tribes in respect to which the Federal Government already had the kinds of obligations that the words \u201cunder Federal jurisdiction\u201d imply. See Hearings on S. 2755 et al.: A Bill to Grant to Indians Living Under Federal Tutelage the Freedom to Organize for Purposes of Local Self-Government and Economic Enterprise, before the Senate Committee on Indian Affairs, 73d Cong., 2d Sess., pt. 2, pp. 263-266 (1934). Indeed, the very Department official who suggested the phrase to Congress during the relevant legislative hearings subsequently explained its meaning in terms that the Court now adopts. See Letter from John Collier, Commissioner, to Superintendents (Mar. 7, 1936), Lodging of Respondents (explaining that \u00a7479 included \u201cpersons of Indian descent who are members of any recognized tribe that was under Federal jurisdiction at the date of the Act\u201d).\nThird, an interpretation that reads \u201cnow\u201d as meaning \u201cin 1934\u201d may prove somewhat less restrictive than it at first appears. That is because a tribe may have been \u201cunder Federal jurisdiction\u201d in 1934 even though the Federal Government did not believe so at the time. We know, for exam-pie, that following the Indian Reorganization Act\u2019s enactment, the Department compiled a list of 258 Tribes covered by the Act; and we also know that it wrongly left certain tribes off the list. See Brief for Law Professors Specializing in Federal Indian Law as Amicus Curiae 22-24; Quinn, Federal Acknowledgment of American Indian Tribes: Historical Development of a Legal Concept, 34 Am. J. Legal Hist. 331, 356-359 (1990). The Department later recognized some of those Tribes on grounds that showed that it should have recognized them in 1934 even though it did not. And the Department has sometimes considered that circumstance sufficient to show that a tribe was \u201cunder Federal jurisdiction\u201d in 1934 \u2014 even though the Department did not know it at the time.\nThe statute, after all, imposes no time limit upon recognition. See \u00a7 479 (\u201cThe term \u2018Indian\u2019... shall include all persons of Indian descent who are members of any recognized Indian tribe now under Federal jurisdiction ...\u201d (emphasis added)). And administrative practice suggests that the Department has accepted this possibility. The Department, for example, did not recognize the Stillaguamish Tribe until 1976, but its reasons for recognition in 1976 included the fact that the Tribe had maintained treaty rights against the United States since 1855. Consequently, the Department concluded that land could be taken into trust for the Tribe. See Memorandum from Associate Solicitor, Indian Affairs, to Assistant Secretary, Indian Affairs, Request for Reconsideration of Decision Not to Take Land in Trust for the Stillaguamish Tribe (Oct. 1, 1980), Lodging of Respondents 6-7. Similarly, in 1934 the Department thought that the Grand Traverse Band of Ottawa and Chippewa Indians had long since been dissolved. Grand Traverse Band of Ottawa & Chippewa Indians v. Office of U. S. Attorney for Western Dist. of Mich., 369 F. 3d 960, 961, and n. 2 (CA6 2004). But later the Department recognized the Tribe, considering it to have existed continuously since 1675. 45 Fed. Reg. 19321 (1980). Further, the Department in the 1930\u2019s thought that an anthropological study showed that the Mole Lake Tribe no longer existed. But the Department later decided that the study was wrong, and it then recognized the Tribe. See Memorandum from the Solicitor to the Commissioner of Indian Affairs 2758, 2762-2763 (Feb. 8, 1937) (recognizing the Mole Lake Indians as a separate Tribe).\nIn my view, this possibility \u2014 that later recognition reflects earlier \u201cFederal jurisdiction\u201d \u2014 explains some of the instances of early Department administrative practice to which Justice Stevens refers. I would explain the other instances to which Justice Stevens refers as involving the taking of land \u201cfor\u201d a tribe with members who fall under that portion of the statute that defines \u201cIndians\u201d to include \u201cpersons of one-half or more Indian blood,\u201d \u00a7479. See 1 Dept. of Interior, Opinions of the Solicitor Relating to Indian Affairs, 1917-1974, pp. 706-707 (Shoshone Indians), 724-725 (St. Croix Chippewas), 747-748 (Nahma and Beaver Indians) (1979).\nNeither the Narragansett Tribe nor the Secretary has argued that the Tribe was under federal jurisdiction in 1934. Nor have they claimed that any member of the Narragansett Tribe satisfies the \u201cone-haF or more Indian blood\u201d requirement. And I have found nothing in the briefs that suggests the Narragansett Tribe could prevail on either theory. Each of the administrative decisions just discussed involved post-1934 recognition on grounds that implied a 1934 relationship between the Tribe and Federal Government that could be described as jurisdictional, for example, a treaty with the United States (in effect in 1934), a (pre-1934) congressional appropriation, or enrollment (as of 1934) with the Indian Office. I can find no similar indication of 1934 federal jurisdiction here. Instead, both the State and Federal Government considered the Narragansett Tribe as under state, but not under federal, jurisdiction in 1934. And until the 1970\u2019s there was \u201clittle Federal contact with the Narragansetts as a group.\u201d Memorandum from Deputy Assistant Secretary \u2014 Indian Affairs (Operations) to Assistant Secretary \u2014 Indian Affairs, Recommendation and Summary of Evidence for Proposed Finding for Federal Acknowledgment of Narragansett Indian Tribe of Rhode Island Pursuant to 25 CFR 83, p. 8 (July 29,1982). Because I see no realistic possibility that the Narragansett Tribe could prevail on the basis of a theory alternative to the theories argued here, I would not remand this case.\nWith the qualifications here expressed, I join the Court\u2019s opinion and its judgment.",
+        "type": "concurrence",
+        "author": "Justice Breyer,"
+      },
+      {
+        "text": "Justice Souter,\nwith whom Justice Ginsburg joins, concurring in part and dissenting in part.\nSave as to one point, I agree with Justice Breyer\u2019s concurring opinion, which in turn concurs with the opinion of the Court, subject to the three qualifications Justice Breyer explains. I have, however, a further reservation that puts me in the dissenting column.\nThe disposition of the case turns on the construction of the language from 25 U. S. C. \u00a7 479, \u201cany recognized Indian tribe now under Federal jurisdiction.\u201d Nothing in the majority opinion forecloses the possibility that the two concepts, recognition and jurisdiction, may be given separate content. As Justice Breyer makes clear in his concurrence, the statute imposes no time limit upon recognition, and in the past, the Department of the Interior has stated that the fact that the United States Government was ignorant of a tribe in 1934 does not preclude that tribe from having been under federal jurisdiction at that time. See Memorandum from Associate Solicitor, Indian Affairs, to Assistant Secretary, Indian Affairs, Request for Reconsideration of Decision Not to Take Land in Trust for the Stillaguamish Tribe (Oct. 1, 1980), Lodging of Respondents 7. And giving each phrase its own meaning would be consistent with established principles of statutory interpretation.\nDuring oral argument, however, respondents explained that the Secretary\u2019s more recent interpretation of this statutory language had \u201cunderstood recognition and under Federal jurisdiction at least with respect to tribes to be one and the same.\u201d Tr. of Oral Arg. 42. Given the Secretary\u2019s position, it is not surprising that neither he nor the Tribe raised a claim that the Tribe was under federal jurisdiction in 1934: they simply failed to address an issue that no party understood to be present. The error was shared equally all around, and there is no equitable demand that one side be penalized when both sides nodded.\nI can agree with Justice Breyer that the current record raises no particular reason to expect that the Tribe might be shown to have been under federal jurisdiction in 1934, but I would not stop there. The very notion of jurisdiction as a distinct statutory condition was ignored in this litigation, and I know of no body of precedent or history of practice giving content to the condition sufficient for gauging the Tribe\u2019s chances of satisfying it. So I see no reason to deny the Secretary and the Narragansett Tribe an opportunity to advocate a construction of the \u201cjurisdiction\u201d phrase that might favor their position here.\nI would therefore reverse opportunity for respondents to pursue a \u201cjurisdiction\u201d claim and respectfully dissent from the Court\u2019s straight reversal.\nDepending on the outcome of proceedings on remand, it might be necessary to address the second potential issue in this case, going to the significance of the Rhode Island Indian Claims Settlement Act, 25 U. S. C. \u00a7 1701 et seq. There is no utility in confronting it now.",
+        "type": "concurring-in-part-and-dissenting-in-part",
+        "author": "Justice Souter,"
+      },
+      {
+        "text": "Justice Stevens,\ndissenting.\nCongress has used the term \u201cIndian\u201d in the Indian Reorganization Act of 1934 to describe those individuals who are entitled to special protections and benefits under federal Indian law. The Act specifies that benefits shall be available to individuals who qualify as Indian either as a result of blood quantum or as descendants of members of \u201cany recognized Indian tribe now under Federal jurisdiction.\u201d 25 U. S. C. \u00a7 479. In contesting the Secretary of the Interior\u2019s acquisition of trust land for the Narragansett Tribe of Rhode Island, the parties have focused on the meaning of \u201cnow\u201d in the Act\u2019s definition of \u201cIndian.\u201d Yet to my mind, whether \u201cnow\u201d means 1934 (as the Court holds) or the present time (as respondents would have it) sheds no light on the question whether the Secretary\u2019s actions on behalf of the Narragansett were permitted under the statute. The plain text of the Act clearly authorizes the Secretary to take land into trust for Indian tribes as well as individual Indians, and it places no temporal limitation on the definition of \u201cIndian tribe.\u201d Because the Narragansett Tribe is an Indian tribe within the meaning of the Act, I would affirm the judgment of the Court of Appeals.\nI\nThis case involves a challenge to the Secretary of the Interior\u2019s acquisition of a 31-acre parcel of land in Charlestown, Rhode Island, to be held in trust for the Narragansett Tribe. That Tribe has existed as a continuous political entity since the early 17th century. Although it was once one of the most powerful tribes in New England, a series of wars, epidemics, and difficult relations with the State of Rhode Island sharply reduced the Tribe\u2019s ancestral landholdings.\nTwo blows, delivered centuries apart, exacted a particularly high toll on the Tribe. First, in 1675, King Philip\u2019s War essentially destroyed the Tribe, forcing it to accept the Crown as sovereign and to submit to the guardianship of the Colony of Rhode Island. Then, in 1880, the State of Rhode Island passed a \u201cdetribalization\u201d law that abolished tribal authority, ended the State\u2019s guardianship of the Tribe, and attempted to sell all tribal lands. The Narragansett originally assented to detribalization and ceded all but two acres of its ancestral land. In return, the Tribe received $5,000. See Memorandum from Deputy Assistant Secretary-Indian Affairs (Operations) to Assistant Seeretary-Indian Affairs (Operations) 4 (July 29, 1982) (Recommendation for Acknowledgment).\nRecognizing that its consent to detribalization was a mistake, the Tribe embarked on a century-long campaign to recoup its losses. Obtaining federal recognition was critical to this effort. The Secretary officially recognized the Narragansett as an Indian tribe in 1983, Final Determination for Federal Acknowledgement of Narragansett Indian Tribe of Rhode Island, 48 Fed. Reg. 6177, and with that recognition the Tribe qualified for the bundle of federal benefits established in the Indian Reorganization Act of 1934 (IRA or Act), 25 U. S. C. \u00a7 461 et seq. The Tribe\u2019s attempt to exercise one of those rights, the ability to petition the Secretary to take land into trust for the Tribe\u2019s benefit, is now vigorously contested in this litigation.\nII\nThe Secretary\u2019s trust authority is located in 25 U. S. C. \u00a7465. That provision grants the Secretary power to take \u201cin trust for [an] Indian tribe or individual Indian\u201d \u201cany interest in lands ... for the purpose of providing land for Indians.\u201d The Act\u2019s language could not be clearer: To effectuate the Act\u2019s broad mandate to revitalize tribal development and cultural self-determination, the Secretary can take land into trust for a tribe or he can take land into trust for an individual Indian.\nThough Congress outlined the Secretary\u2019s trust authority in \u00a7465, it specified which entities would be considered \u201ctribes\u201d and which individuals would qualify as \u201cIndian\u201d in \u00a7 479. An individual Indian, \u00a7 479 tells us, \u201cshall include all persons of Indian descent who are members of any recognized Indian tribe now under Federal jurisdiction\u201d as well as \u201call other persons of one-half or more Indian blood.\u201d A tribe, \u00a7 479 goes on to state, \u201cshall be construed to refer to any Indian tribe, organized band, pueblo, or the Indians residing on one reservation.\u201d Because federal recognition is generally required before a tribe can receive federal benefits, the Secretary has interpreted this definition of \u201ctribe\u201d to refer only to recognized tribes. See 25 CFR \u00a783.2 (2008) (stating that recognition \u201cis a prerequisite to the protection, services, and benefits of the Federal government available to Indian tribes by virtue of their status as tribes\u201d); \u00a7 151.2 (defining \u201ctribe\u201d for the purposes of land acquisition to mean \u201cany Indian tribe, band, nation, pueblo, community, rancher\u00eda, colony, or other group of Indians, . . . which is recognized by the Secretary as eligible for the special programs and services from the Bureau of Indian Affairs\u201d).\nHaving separate definitions for \u201cIndian\u201d and \u201ctribe\u201d is essential for the administration of IRA benefits. The statute reflects Congress\u2019 intent to extend certain benefits to individual Indians, e. g., 25 U. S. C. \u00a7 471 (offering loans to Indian students for tuition at vocational and trade schools); \u00a7472 (granting hiring preferences to Indians seeking federal employment related to Indian affairs), while directing other benefits to tribes, e. g., \u00a7476 (allowing tribes to adopt constitutions and bylaws); \u00a7470 (giving loans to Indian-chartered corporations).\nSection 465, by giving the Secretary discretion to steer benefits to tribes and individuals alike, is therefore unique. But establishing this broad benefit scheme was undoubtedly intentional: The original draft of the IRA presented to Congress directed the Secretary to take land into trust only for entities such as tribes. Compare H. R. 7902, 78d Cong., 2d Sess., 30 (1934) (\u201cTitle to any land acquired pursuant to the provisions of this section shall be taken in the name of the United States in trust for the Indian tribe or community for whom the land is acquired\u201d (emphasis added)), with 25 U. S. C. \u00a7 465 (\u201cTitle to any lands or rights acquired pursuant to this Act . . . shall be taken in the name of the United States in trust for the Indian tribe or individual Indian for which the land is acquired\u201d (emphasis added)).\nThe Secretary has long exercised his \u00a7465 trust authority in accordance with this design. In the years immediately following the adoption of the IRA, the Solicitor of the Department of the Interior repeatedly advised that the Secretary could take land into trust for federally recognized tribes and for individual Indians who qualified for federal benefits by lineage or blood quantum.\nFor example, in 1937, when evaluating whether the Secretary could purchase approximately 2,100 acres of land for the Mole Lake Chippewa Indians of Wisconsin, the Solicitor instructed that the purchase could not be \u201ccompleted until it is determined whether the beneficiary of the trust title should be designated as a band or whether the title should be taken for the individual Indians in the vicinity of Mole Lake who are of one half or more Indian blood.\u201d Memorandum from Solicitor to Commissioner of Indian Affairs 2758 (Feb. 8, 1937). Because the Mole Lake Chippewa was not yet recognized by the Federal Government as an Indian tribe, the Solicitor determined that the Secretary had two options: \u201cEither the Department should provide recognition of this group, or title to the purchased land should be taken on behalf of the individuals who are of one half or more Indian blood.\u201d Id., at 2763.\nThe tribal trust and individual trust options were similarly outlined in other post-1934 opinion letters, including those dealing with the Shoshone Indians of Nevada, the St. Croix Chippewa Indians of Wisconsin, and the Nahma and Beaver Island Indians of Michigan. See 1 Dept. of Interior, Opinions of the Solicitor Relating to Indian Affairs, 1917-1974, pp. 706-707, 724-725, 747-748 (1979). Unless and until a tribe was formally recognized by the Federal Government and therefore eligible for trust land, the Secretary would take land into trust for individual Indians who met the blood quantum threshold.\nModern administrative practice has followed this well-trodden path. Absent a specific statute recognizing a tribe and authorizing a trust land acquisition, the Secretary has exercised his trust authority \u2014 now governed by regulations promulgated in 1980 after notice-and-comment rulemaking, 25 CFR \u00a7 151 et seq.; 45 Fed. Reg. 62034 \u2014 to acquire land for federally recognized Indian tribes like the Narragansett. The Grand Traverse Band of Ottowa and Chippewa Indians, although denied federal recognition in 1934 and 1943, see Dept. of Interior, Office of Federal Acknowledgement, Memorandum from Acting Deputy Commissioner to Assistant Secretary 4 (Oct. 3, 1979) (GTB-V001-D002), was the first Tribe the Secretary recognized under the 1980 regulations, see 45 Fed. Reg. 19322. Since then, the Secretary has used his trust authority to expand the Tribe\u2019s land base. See, e. g., 49 Fed. Reg. 2025-2026 (1984) (setting aside a 12.5-acre parcel as reservation land for the Tribe\u2019s exclusive use). The Tunica-Biloxi Tribe of Louisiana has similarly benefited from administrative recognition, 46 Fed. Reg. 38411 (1981), followed by tribal trust acquisition. And in 2006, the Secretary took land into trust for the Snoqualmie Tribe which, although unrecognized as an Indian tribe in the 1950\u2019s, regained federal recognition in 1999. See 71 Fed. Reg. 5067 (taking land into trust for the Tribe); 62 Fed. Reg. 45864 (1997) (recognizing the Snoqualmie as an Indian tribe).\nThis brief history of \u00a7 465 places the case before us into proper context. Federal recognition, regardless of when it is conferred, is the necessary condition that triggers a tribe\u2019s eligibility to receive trust land. No party has disputed that the Narragansett Tribe was properly recognized as an Indian tribe in 1983. See 48 Fed. Reg. 6177. Indeed, given that the Tribe has a documented history that stretches back to 1614 and has met the rigorous criteria for administrative recognition, Recommendation for Acknowledgment 1, 7-18, it would be difficult to sustain an objection to the Tribe\u2019s status. With this in mind, and in light of the Secretary\u2019s longstanding authority under the plain text of the IRA to acquire tribal trust land, it is perfectly clear that the Secretary\u2019s land acquisition for the Narragansett was entirely proper.\nIII\nDespite the clear text of the IRA and historical pedigree of the Secretary\u2019s actions on behalf of the Narragansett, the majority holds that one word (\u201cnow\u201d) nestled in one clause in one of \u00a7479\u2019s several definitions demonstrates that the Secretary acted outside his statutory authority in this case. The consequences of the majority\u2019s reading are both curious and harsh: curious because it turns \u201cnow\u201d into the most important word in the IRA, limiting not only some individuals\u2019 eligibility for federal benefits but also a tribe\u2019s; harsh because it would result in the unsupportable conclusion that, despite its 1983 administrative recognition, the Narragansett Tribe is not an Indian tribe under the IRA.\nIn the Court\u2019s telling, when Congress granted the Secretary power to acquire trust land \u201cfor the purpose of providing land for Indians,\u201d 25 U. S. C. \u00a7465 (emphasis added), it meant to permit land acquisitions for those persons whose tribal membership qualify them as \u201cIndian\u201d as defined by \u00a7 479. In other words, the argument runs, the Secretary can acquire trust land for \u201cpersons of Indian descent who are members of any recognized Indian tribe now under Federal jurisdiction.\u201d \u00a7479. This strained construction, advanced by petitioners, explains the majority\u2019s laserlike focus on the meaning of \u201cnow\u201d: If the Narragansett Tribe was not recognized or under federal jurisdiction in 1934, the Tribe\u2019s members do not belong to an Indian tribe \u201cnow under Federal jurisdiction\u201d and would therefore not be \u201cIndians\u201d under \u00a7 465 by virtue of their tribal membership.\nPetitioners\u2019 argument works only if one reads \u201cIndians\u201d (in the phrase in \u00a7 465 \u201cproviding land for Indians\u201d) to refer to individuals, not an Indian tribe. To petitioners, this reading is obvious; the alternative, they insist, would be \u201cnonsensical.\u201d Reply Brief for Petitioner State of Rhode Island 3. This they argue despite the clear evidence of Congress\u2019 intent to provide the Secretary with the option of acquiring either tribal trusts or individual trusts in service of \u201cproviding land for Indians.\u201d And they ignore unambiguous evidence that Congress used \u201cIndian tribe\u201d and \u201cIndians\u201d interchangeably in other parts of the 'IRA. See \u00a7 475 (discussing \u201cany claim or suit of any Indian tribe against the United States\u201d in the first sentence and \u201cany claim of such Indians against the United States\u201d in the last sentence (emphasis added)).\nIn any event, this much must be admitted: Without the benefit of context, a reasonable person could conclude that \u201cIndians\u201d refers to multiple individuals who each qualify as \u201cIndian\u201d under the IRA. An equally reasonable person could also conclude that \u201cIndians\u201d is meant to refer to a collective, namely, an Indian tribe. Because \u201c[t]he meaning\u2014 or ambiguity \u2014 of certain words or phrases may only become evident when placed in context,\u201d FDA v. Brown & Williamson Tobacco Corp., 529 U. S. 120, 132 (2000), the proper course of action is to widen the interpretive lens and look to the rest of the statute for clarity. Doing so would lead to \u00a7 465\u2019s last sentence, which specifies that the Secretary is to hold land in trust \u201cfor the Indian tribe or individual Indian for which the land is acquired.\u201d Put simply, in \u00a7465 Congress used the term \u201cIndians\u201d to refer both to tribes and individuals.\nThe majority nevertheless dismisses this reading of the statute. The Court notes that even if the Secretary has authority to take land into trust for a tribe, it must be an \u201cIndian tribe,\u201d with \u00a7 479\u2019s definition of \u201cIndian\u201d determining a tribe\u2019s eligibility. The statute\u2019s definition of \u201ctribe,\u201d the majority goes on to state, itself makes reference to \u201cIndian tribe.\u201d Thus, the Court concludes, \u201c[t]here simply is no legitimate way to circumvent the definition of \u2018Indian\u2019 in delineating the Secretary\u2019s authority under . . . \u00a7479.\u201d Ante, at 393.\nThe majority bypasses a straightforward explanation on its way to a circular one. Requiring that a tribe be an \u201cIndian tribe\u201d does not demand immediate reference to the definition of \u201cIndian\u201d; instead, it simply reflects the requirement that the tribe in question be formally recognized as an Indian tribe. As explained above, the Secretary has limited benefits under federal Indian law \u2014 including the acquisition of trust land \u2014 to recognized tribes. Recognition, then, is the central requirement for being considered an \u201cIndian tribe\u201d for purposes of the Act. If a tribe satisfies the stringent criteria established by the Secretary to qualify for federal recognition, including the requirement that the tribe prove that it \u201chas existed as a community from historical times until the present,\u201d 25 CFR \u00a7 83.7(b), it is a fortiori an \u201cIndian tribe\u201d as a matter of law.\nThe Narragansett Tribe is no different. In 1983, upon meeting the criteria for recognition, the Secretary gave notice that \u201cthe Narragansett Indian Tribe . . . exists as an Indian tribe.\u201d 48 Fed. Reg. 6178 (emphasis added). How the Narragansett could be an Indian tribe in 1983 and yet not be an Indian tribe today is a proposition the majority cannot explain.\nThe majority\u2019s retort, that because \u201ctribe\u201d refers to \u201cIndian,\u201d the definition of \u201cIndian\u201d must control which groups can be considered a \u201ctribe,\u201d is entirely circular. Yes, the word \u201ctribe\u201d is defined in part by reference to \u201cIndian tribe.\u201d But the word \u201cIndian\u201d is also defined in part by reference to \u201cIndian tribe.\u201d Relying on one definition to provide content to the other is thus \u201ccompletely circular and explains nothing.\u201d Nationwide Mut. Ins. Co. v. Darden, 503 U. S. 318, 323 (1992).\nThe Governor of Rhode Island, for his part, adopts this circular logic and offers two examples of why reading the statute any other way would be implausible. He first argues that if \u00a7479\u2019s definition of \u201cIndian\u201d does not determine a tribe\u2019s eligibility, the Secretary would have authority to take land into trust \u201cfor the benefit of any group that he deems, at his whim and fancy, to be an \u2018Indian tribe.\u2019 \u201d Reply Brief for Petitioner Carcieri 7. The Governor caricatures the Secretary\u2019s discretion. This Court has long made clear that Congress \u2014 and therefore the Secretary \u2014 lacks constitutional authority to \u201cbring a community or body of people within [federal jurisdiction] by arbitrarily calling them an Indian tribe.\u201d United States v. Sandoval, 231 U. S. 28, 46 (1913). The Governor\u2019s next objection, that condoning the acquisition of trust land for the Narragansett Tribe would allow the Secretary to acquire land for an Indian tribe that lacks Indians, is equally unpersuasive. As a general matter, to obtain federal recognition, a tribe must demonstrate that its \u201cmembership consists of individuals who descend from a historical Indian tribe or from historical Indian tribes which combined and functioned as a single autonomous political entity.\u201d 25 CFR \u00a7 83.7(e). If the Governor suspects that the Narragansett is not an Indian tribe because it may lack members who are blood quantum Indians, he should have challenged the Secretary\u2019s decision to recognize the Tribe in 1983 when such an objection could have been properly received.\nIn sum, petitioners\u2019 arguments \u2014 and the Court\u2019s conclusion \u2014 are based on a misreading of the statute. \u201c[N]ow,\u201d the temporal limitation in the definition of \u201cIndian,\u201d only affects an individual\u2019s ability to qualify for federal benefits under the IRA. If this case were about the Secretary\u2019s decision to take land into trust for an individual who was incapable of proving her eligibility by lineage or blood quantum, I would have no trouble concluding that such an action was contrary to the IRA. But that is not the case before us. By taking land into trust for a validly recognized Indian Tribe, the Secretary acted well within his statutory authority.\nIV\nThe Court today adopts a cramped reading of a statute Congress intended to be \u201csweeping\u201d in scope. Morton v. Mancari, 417 U. S. 535, 542 (1974). In so doing, the Court ignores the \u201cprinciple deeply rooted in [our] Indian jurisprudence\u201d that \u201c \u2018statutes are to be construed liberally in favor of the Indians.\u2019 \u201d County of Yakima v. Confederated Tribes and Bands of Yakima Nation, 502 U. S. 251,269 (1992) (quoting Montana v. Blackfeet Tribe, 471 U. S. 759, 767-768 (1985)); see also Cohen \u00a72.02[1], p. 119 (\u201cThe basic Indian law canons of construction require that treaties, agreements, statutes, and executive orders be liberally construed in favor of the Indians\u201d).\nGiven that the IRA plainly authorizes the Secretary to take land into trust for an Indian tribe, and in light of the Narragansett\u2019s status as such, the Court\u2019s decision can be best understood as protecting one sovereign (the State) from encroachment from another (the Tribe). Yet in matters of Indian law, the political branches have been entrusted to mark the proper boundaries between tribal and state jurisdiction. See U. S. Const., Art. I, \u00a7 8, cl. 3; Cotton Petroleum Corp. v. New Mexico, 490 U. S. 163, 192 (1989); Worcester v. Georgia, 6 Pet. 515, 559 (1832). With the IRA, Congress drew the boundary in a manner that favors the Narragansett. I respectfully dissent.\nIn 25 U. S. C. \u00a7 479, Congress defined both \u201cIndian\u201d and \u201ctribe.\u201d Section 479 states, in relevant part:\n\u201cThe term \u2018Indian\u2019 as used in this Act shall include all persons of Indian descent who are members of any recognized Indian tribe now under Federal jurisdiction, and all persons who are descendants of such members who were, on June 1, 1934, residing within the present boundaries of any Indian reservation, and shall further include all other persons of one-half or more Indian blood.... The term \u2018tribe\u2019 wherever used in this Act shall be construed to refer to any Indian tribe, organized band, pueblo, or the Indians residing on one reservation.\u201d\nNotably the word \u201cnow,\u201d which is used to define one of the categories of Indians, does not appear in the definition of \u201ctribe.\u201d\nIn 1991, the Narragansett Tribe purchased the 31-acre parcel in fee simple from a private developer. In 1998, the Bureau of Indian Affairs notified the State of the Secretary\u2019s decision to take the land into unreserved trust for the Tribe. The Tribe \u201cacquired [the land] for the express purpose of building much needed low-income Indian Housing via a contract between the Narragansett Indian Wetuomuek Housing Authority (NIWHA) and the Department of Housing and Urban Development (HUD).\u201d App. 46a.\nIndeed, this litigation stems in part from the Tribe\u2019s suit against (and subsequent settlement with) Rhode Island and private landowners on the ground that the 1880 sale violated the Indian Non-Intercourse Act of June 30, 1834, \u00a7 12, 4 Stat. 730, 25 U. S. C. \u00a7 177, which prohibited sales of tribal land without \u201ctreaty or convention entered into pursuant to the Constitution.\u201d\nThe IRA was the cornerstone of the Indian New Deal. \u201cThe intent and purpose of the [IRA] was \u2018to rehabilitate the Indian\u2019s economic life and to give him a chance to develop the initiative destroyed by a century of oppression and paternalism.\u2019\u201d Mescalero Apache Tribe v. Jones, 411 U. S. 145, 152 (1973) (quoting H. R. Rep. No. 1804, 73d Cong., 2d Sess., 6 (1934)). See generally F. Cohen, Handbook of Federal Indian Law \u00a7 1.05 (2005) (hereinafter Cohen); G. Taylor, The New Deal and American Indian Tribalism: The Administration of the Indian Reorganization Act, 1934-45 (1980).\nSection 465 reads more fully:\n\u201cThe Secretary of the Interior is authorized, in his discretion, to acquire, through purchase, relinquishment, gift, exchange, or assignment, any interest in lands, water rights, or surface rights to lands, within or without existing reservations, including trust or otherwise restricted allotments whether the allottee be living or deceased, for the purpose of providing land for Indians.\n\u201cTitle to any lands or rights acquired pursuant to this Act. .. shall be taken in the name of the United States in trust for the Indian tribe or individual Indian for which the land is acquired, and such lands or rights shall be exempt from State and local taxation.\u201d\nThe regulations that govern the tribal recognition process, 25 CFR \u00a7 83 et seq. (2008), were promulgated pursuant to the President\u2019s general mandate established in the early 1830\u2019s to manage \u201call Indian affairs and . . . all matters arising out of Indian relations,\u201d 25 U. S. C. \u00a72, and to \u201cprescribe such regulations as he may think fit for carrying into effect the various provisions of any act relating to Indian affairs,\u201d \u00a7 9. Thus, contrary to the argument pressed by the Governor of Rhode Island before this Court, see Reply Brief for Petitioner Carcieri 9, the requirement that a tribe be federally recognized before it is eligible for trust land does not stem from the IRA.\nAlthough Congress has passed specific statutes granting the Secretary-authority to take land into trust for certain tribes, it would be a mistake to conclude that the Secretary lacks residual authority to take land into trust under \u00a75 of the IRA, 25 U. S. C. \u00a7465. Some of these statutes place explicit limits on the Secretary\u2019s trust authority and can be properly read as establishing the outer limit of the Secretary\u2019s trust authority with respect to the specified tribes. See, e. g., \u00a7 1724(d) (authorizing trust land for the Houlton Band of Maliseet Indians, the Passamaquoddy Tribe of Maine, and the Penobscot Tribe of Maine). Other statutes, while identifying certain parcels the Secretary will take into trust for a tribe, do not purport to diminish the Secretary\u2019s residual authority under \u00a7 465. See, e. g., \u00a7 1775e(a) (Mohegan Tribe); \u00a7 1771d (Wampanoag Tribe); \u00a7 1747(a) (Miccosukee Tribe). Indeed, the Secretary has invoked his \u00a7465 authority to take additional land into trust for the Miccosukee Tribe despite the existence of a statute authorizing and directing him to acquire certain land for the Tribe. See Post-Argument En Banc Brief for National Congress of American Indians et al. as Amici Curiae 7 and App. 9 in No. 03-2647 (CA1).\nThe majority continues to insist, quite incorrectly, that Congress meant the term \u201cIndians\u201d in \u00a7465 to have the same meaning as the term \u201cIndian\u201d in \u00a7479. That the text of the statute tells a different story appears to be an inconvenience the Court would rather ignore.\nThe Department of the Interior found \u201ca high degree of retention of [Narragansett] family lines\u201d between 1880 and 1980, and remarked that \u201c[t]he close intermarriage and the stability of composition, plus the geographic stability of the group, reflect the maintenance of a socially distinct community.\u201d Recommendation for Acknowledgment 10. It also noted that the Narragansett \u201crequire applicants for full voting membership to trace their Narragansett Indian bloodlines back to the \u2018Detribalization Rolls of 1880-84.\u2019 \u201d Id., at 16. The record in this case does not tell us how many members of the Narragansett currently qualify as \u201cIndian\u201d by meeting the individual blood quantum requirement. Indeed, it is possible that a significant number of the Narragansett are blood quantum Indians. Accordingly, nothing the Court decides today prevents the Secretary from taking land into trust for those members of the Tribe who independently qualify as \u201cIndian\u201d under 25 U. S. C. \u00a7479.\nAlthough the record does not demonstrate how many members of the Narragansett qualify as blood quantum Indians, Justice Breyer nevertheless assumes that no member of the Tribe is a blood quantum Indian. Ante, at 399 (concurring opinion). This assumption is misguided for two reasons. To start, the record\u2019s silence on this matter is to be expected; the parties have consistently focused on the Secretary\u2019s authority to take land into trust for the Tribe, not for individual members of the Tribe. There is thus no legitimate basis for interpreting the lack of record evidence as affirmative proof that none of the Tribe\u2019s members are \u201cIndian.\u201d Second, neither the statute nor the relevant regulations mandate that a tribe have a threshold amount of blood quantum Indians as members in order to receive trust land. Justice Breyer\u2019s unwarranted assumption about the Narragansett\u2019s membership, even if true, would therefore also be irrelevant to whether the Secretary\u2019s actions were proper.\nPetitioners advance the additional argument that the Secretary lacks authority to take land into trust for the Narragansett because the Rhode Island Indian Claims Settlement Act, 92 Stat. 813,25 U. S. C. \u00a7 1701 et seq., implicitly repealed the Secretary\u2019s \u00a7465 trust authority as applied to lands in Rhode Island. This claim plainly fails. While the Tribe agreed to subject the 1,800 acres it obtained in the Settlement Act to the State\u2019s civil and criminal laws, \u00a7 1708(a), the 31-acre parcel of land at issue here was not part of the settlement lands. And, critically, nothing in the text of the Settlement Act suggests that Congress intended to prevent the Secretary from acquiring additional parcels of land in Rhode Island that would be exempt from the State\u2019s jurisdiction.",
+        "type": "dissent",
+        "author": "Justice Stevens,"
+      }
+    ],
+    "attorneys": [
+      "Theodore B. Olson argued the cause for petitioners. With him on the briefs for petitioner Carcieri, Governor of Rhode Island, were Matthew D. McGill, Amir C. Tayrani, and Claire J. Richards. Patrick C. Lynch, Attorney General of Rhode Island, and Neil F. X. Kelly, Assistant Attorney General, filed briefs for petitioner State of Rhode Island. Joseph S. Larisa, Jr., filed briefs for petitioner Town of Charlestown, Rhode Island.",
+      "Deanne E. Maynard argued the cause for respondents. With her on the brief were former Solicitor General Garre, Assistant Attorney General Tenpas, Deputy Solicitor General Kneedler, William B. Lazarus, and Elizabeth Ann Peterson."
+    ],
+    "corrections": "",
+    "head_matter": "CARCIERI, GOVERNOR OF RHODE ISLAND, et al. v. SALAZAR, SECRETARY OF THE INTERIOR, et al.\nNo. 07-526.\nArgued November 3, 2008\nDecided February 24, 2009\nThomas, J., delivered the opinion of the Court, in which Roberts, C. J., and Scalia, Kennedy, Breyer, and Alito, JJ., joined. Breyer, J., filed a concurring opinion, post, p. 396. Souter, J., filed an opinion concurring in part and dissenting in part, in which Ginsburg, J., joined, post, p. 400. Stevens, J., filed a dissenting opinion, post, p. 401.\nTheodore B. Olson argued the cause for petitioners. With him on the briefs for petitioner Carcieri, Governor of Rhode Island, were Matthew D. McGill, Amir C. Tayrani, and Claire J. Richards. Patrick C. Lynch, Attorney General of Rhode Island, and Neil F. X. Kelly, Assistant Attorney General, filed briefs for petitioner State of Rhode Island. Joseph S. Larisa, Jr., filed briefs for petitioner Town of Charlestown, Rhode Island.\nDeanne E. Maynard argued the cause for respondents. With her on the brief were former Solicitor General Garre, Assistant Attorney General Tenpas, Deputy Solicitor General Kneedler, William B. Lazarus, and Elizabeth Ann Peterson.\nBriefs of amici curiae urging reversal were filed for the State of Alabama et al. by Richard Blumenthal, Attorney General of Connecticut, and Robert J. Deichert, Assistant Attorney General, and by the Attorneys General for their respective States as follows: Troy King of Alabama, Talis J. Colberg of Alaska, Dustin McDaniel of Arkansas, Bill McCollum of Florida, Lisa Madigan of Illinois, Tom Miller of Iowa, Stephen N. Six of Kansas, James D. Caldwell of Louisiana, Martha Coakley of Massachusetts, Jim Hood of Mississippi, Jeremiah W. (Jay) Nixon of Missouri, Jon C. Bruning of Nebraska, Anne Milgram of New Jersey, Wayne Stenehjem of North Dakota, Nancy H. Rogers of Ohio, W. A. Drew Edmondson of Oklahoma, Thomas W. Corbett, Jr., of Pennsylvania, Lawrence E. Long of South Dakota, Greg Abbott of Texas, and Mark L. Shurtleff of Utah; for the Citizens Equal Rights Foundation et al. by John Benjamin Carroll and Bruce N. Goodsell; and for the Council of State Governments et al. by Richard Ruda and Dan M. Kahan.\nBriefs of amici curiae urging affirmance were filed for Law Professors Specializing in Federal Indian Law by Richard A. Guest, Colette Routel, and Robert T. Anderson, pro se; for the Narragansett Indian Tribe by Thomas C. Goldstein, Patricia A. Millett, and John F. Killoy, Jr.; for the National Congress of American Indians by Ian Heath Gershengorn, Sam Hirsch, and Riyaz A. Kanji; for the Standing Rock Sioux Tribe et al. by Douglas B. L. Endreson and William R. Perry; and for Frederick E. Hoxie et al. by David T. Goldberg and Sean H. Donahue."
+  },
+  "file_name": "0379-01",
+  "first_page_order": 577,
+  "last_page_order": 612
+}

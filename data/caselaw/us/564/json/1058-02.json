@@ -1,0 +1,59 @@
+{
+  "id": 4332232,
+  "name": "In re Dubin",
+  "name_abbreviation": "In re Dubin",
+  "decision_date": "2011-08-15",
+  "docket_number": "No. 10A1185",
+  "first_page": "1058",
+  "last_page": "1058",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1058"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 111,
+    "ocr_confidence": 0.579,
+    "sha256": "aa62d7b62867566b59134eed2dd03aea78720f982f94b2181bc38e82b4008931",
+    "simhash": "1:02d87c1875c9f8e6",
+    "word_count": 18
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Dubin."
+    ],
+    "opinions": [
+      {
+        "text": "Application for stay, addressed to Justice Thomas and referred to the Court, denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10A1185.\nIn re Dubin."
+  },
+  "file_name": "1058-02",
+  "first_page_order": 1052,
+  "last_page_order": 1052
+}

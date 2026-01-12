@@ -1,0 +1,59 @@
+{
+  "id": 12244399,
+  "name": "In re Bourn",
+  "name_abbreviation": "In re Bourn",
+  "decision_date": "2012-01-23",
+  "docket_number": "No. 11-7532",
+  "first_page": "1177",
+  "last_page": "1177",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1177"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 64,
+    "ocr_confidence": 0.615,
+    "sha256": "537fcf945759328d9217a9024362a559352d20ac0a9d9d5ac842afea07a7fff6",
+    "simhash": "1:ce0302f0a7511031",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Bourn."
+    ],
+    "opinions": [
+      {
+        "text": "Petition for writ of mandamus denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7532.\nIn re Bourn."
+  },
+  "file_name": "1177-02",
+  "first_page_order": 1259,
+  "last_page_order": 1259
+}

@@ -1,0 +1,1135 @@
+{
+  "id": 12521871,
+  "name": "SRI INTERNATIONAL, INC., Plaintiff-Appellee v. CISCO SYSTEMS, INC., Defendant-Appellant",
+  "name_abbreviation": "Sri Int'l, Inc. v. Cisco Sys., Inc.",
+  "decision_date": "2019-03-20",
+  "docket_number": "2017-2223",
+  "first_page": "1295",
+  "last_page": "1313",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "930 F.3d 1295"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Fed. Cir.",
+    "id": 8955,
+    "name": "United States Court of Appeals for the Federal Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "61 F.3d 1313",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11322967
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "1318"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/61/1313-01"
+      ]
+    },
+    {
+      "cite": "111 F.3d 1515",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11917070
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "1521"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/111/1515-01"
+      ]
+    },
+    {
+      "cite": "189 F.3d 1338",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1733489
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "1344",
+          "parenthetical": "citing Wolfgang v. Mid-Am. Motorsports, Inc. , 111 F.3d 1515, 1521 (10th Cir. 1997) ; Rekhi v. Wildwood Indus., Inc. , 61 F.3d 1313, 1318 (7th Cir. 1995) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/189/1338-01"
+      ]
+    },
+    {
+      "cite": "401 F. App'x 530",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        3490625,
+        3488534
+      ],
+      "year": 2010,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/401/0530-01",
+        "/f-appx/401/0530-02"
+      ]
+    },
+    {
+      "cite": "694 F.3d 10",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3523131
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "35"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/694/0010-01"
+      ]
+    },
+    {
+      "cite": "461 U.S. 424",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11298707
+      ],
+      "weight": 3,
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "434"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/461/0424-01"
+      ]
+    },
+    {
+      "cite": "150 F.3d 1374",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1540702
+      ],
+      "weight": 2,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "1377"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/150/1374-01"
+      ]
+    },
+    {
+      "cite": "851 F.3d 1302",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12277886
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1306",
+          "parenthetical": "citing Mentor Graphics Corp. v. Quickturn Design Sys., Inc. , 150 F.3d 1374, 1377 (Fed. Cir. 1998) "
+        },
+        {
+          "page": "1306"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/851/1302-01"
+      ]
+    },
+    {
+      "cite": "134 S.Ct. 1744",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12579873,
+        12706998
+      ],
+      "weight": 3,
+      "year": 2014,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/134/1744-01",
+        "/us/572/0559-01"
+      ]
+    },
+    {
+      "cite": "572 U.S. 559",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12706998
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "564"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/572/0559-01"
+      ]
+    },
+    {
+      "cite": "134 S.Ct. 1749",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12579874,
+        12706997
+      ],
+      "weight": 3,
+      "year": 2014,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/134/1749-01",
+        "/us/572/0545-01"
+      ]
+    },
+    {
+      "cite": "572 U.S. 545",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12706997
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "554"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/572/0545-01"
+      ]
+    },
+    {
+      "cite": "202 L.Ed.2d 34",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12618048,
+        12618049,
+        12618757,
+        12618758,
+        12618825,
+        12619020,
+        12619021,
+        12619023
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/0126-04",
+        "/s-ct/139/0126-05",
+        "/s-ct/139/0137-05",
+        "/s-ct/139/0137-06",
+        "/s-ct/139/0138-03",
+        "/s-ct/139/0143-03",
+        "/s-ct/139/0143-04",
+        "/s-ct/139/0143-06"
+      ]
+    },
+    {
+      "cite": "139 S. Ct. 143",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12619018,
+        12619019,
+        12619020,
+        12619021,
+        12619022,
+        12619023
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/0143-01",
+        "/s-ct/139/0143-02",
+        "/s-ct/139/0143-03",
+        "/s-ct/139/0143-04",
+        "/s-ct/139/0143-05",
+        "/s-ct/139/0143-06"
+      ]
+    },
+    {
+      "cite": "829 F.3d 1317",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4339368
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1326"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/829/1317-01"
+      ]
+    },
+    {
+      "cite": "876 F.3d 1350",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12267284
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1358"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/876/1350-01"
+      ]
+    },
+    {
+      "cite": "35 U.S.C. \u00a7 298",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "136 S. Ct. 1923",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12597516
+      ],
+      "weight": 6,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1932"
+        },
+        {
+          "page": "1936",
+          "parenthetical": "Breyer, J., concurring"
+        },
+        {
+          "page": "1934"
+        },
+        {
+          "page": "1933"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/136/1923-01"
+      ]
+    },
+    {
+      "cite": "473 F.3d 532",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        2539432
+      ],
+      "year": 2007,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/473/0532-01"
+      ]
+    },
+    {
+      "cite": "497 F.3d 286",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3617521
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "300",
+          "parenthetical": "quoting Moyer v. United Dominion Indus., Inc. , 473 F.3d 532, 545 n.8 (3d Cir. 2007) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/497/0286-01"
+      ]
+    },
+    {
+      "cite": "71 F.3d 1079",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7415796
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "1083"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/71/1079-01"
+      ]
+    },
+    {
+      "cite": "436 F.3d 397",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        939922
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "404"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/436/0397-01"
+      ]
+    },
+    {
+      "cite": "561 F.3d 199",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3480653
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "211",
+          "parenthetical": "citing Monteiro v. City of Elizabeth , 436 F.3d 397, 404 (3d Cir. 2006) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/561/0199-01"
+      ]
+    },
+    {
+      "cite": "697 F.3d 1342",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3623250
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "1350"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/697/1342-01"
+      ]
+    },
+    {
+      "cite": "477 U.S. 317",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6207800
+      ],
+      "weight": 3,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "326"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/477/0317-01"
+      ]
+    },
+    {
+      "cite": "355 F.3d 215",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9058468
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "222",
+          "parenthetical": "quoting Celotex Corp. v. Catrett , 477 U.S. 317, 326, 106 S.Ct. 2548, 91 L.Ed.2d 265 (1986) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/355/0215-01"
+      ]
+    },
+    {
+      "cite": "814 F.2d 628",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1684420
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "631"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/814/0628-01"
+      ]
+    },
+    {
+      "cite": "477 U.S. 242",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6206897
+      ],
+      "weight": 3,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "255"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/477/0242-01"
+      ]
+    },
+    {
+      "cite": "678 F.3d 254",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3874578
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "257"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/678/0254-01"
+      ]
+    },
+    {
+      "cite": "816 F.3d 1374",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4174921
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1376"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/816/1374-01"
+      ]
+    },
+    {
+      "cite": "667 F.3d 1261",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3716175
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "1267",
+          "parenthetical": "applying prosecution history disclaimer from reexamination proceedings"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/667/1261-01"
+      ]
+    },
+    {
+      "cite": "305 F.3d 1303",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11394170
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "1316"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/305/1303-01"
+      ]
+    },
+    {
+      "cite": "347 F.3d 1314",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9054015
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "1326",
+          "parenthetical": "quoting Eagle Comtronics, Inc. v. Arrow Commc'n Labs., Inc. , 305 F.3d 1303, 1316 (Fed. Cir. 2002) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/347/1314-01"
+      ]
+    },
+    {
+      "cite": "2015 WL 2265756",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "*1-2"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "90 F.3d 1576",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9051592
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "1582"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/90/1576-01"
+      ]
+    },
+    {
+      "cite": "415 F.3d 1303",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8948489
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1312-14",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/415/1303-01"
+      ]
+    },
+    {
+      "cite": "190 L.Ed.2d 719",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "year": 2015,
+      "opinion_index": 0
+    },
+    {
+      "cite": "135 S. Ct. 831",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12594237
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "841"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/135/0831-01"
+      ]
+    },
+    {
+      "cite": "654 F.3d 1366",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3824818
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1371"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/654/1366-01"
+      ]
+    },
+    {
+      "cite": "838 F.3d 1307",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12175116
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1318"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/838/1307-01"
+      ]
+    },
+    {
+      "cite": "830 F.3d 1350",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4349286
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1354"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/830/1350-01"
+      ]
+    },
+    {
+      "cite": "773 F.3d 1245",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6055750
+      ],
+      "weight": 3,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1257"
+        },
+        {
+          "page": "1258"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/773/1245-01"
+      ]
+    },
+    {
+      "cite": "822 F.3d 1327",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4282681
+      ],
+      "weight": 7,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1337"
+        },
+        {
+          "page": "1335-36"
+        },
+        {
+          "page": "1336"
+        },
+        {
+          "page": "1339"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/822/1327-01"
+      ]
+    },
+    {
+      "cite": "134 S.Ct. 2347",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12581589
+      ],
+      "weight": 5,
+      "year": 2014,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/134/2347-01"
+      ]
+    },
+    {
+      "cite": "573 U.S. 208",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "217"
+        },
+        {
+          "page": "222-23"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "450 U.S. 175",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6183273
+      ],
+      "weight": 3,
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "185"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/450/0175-01"
+      ]
+    },
+    {
+      "cite": "566 U.S. 66",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12188353
+      ],
+      "weight": 7,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "70-71"
+        },
+        {
+          "page": "79"
+        },
+        {
+          "page": "72"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/566/0066-01"
+      ]
+    },
+    {
+      "cite": "35 U.S.C. \u00a7 101",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "850 F.3d 1332",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12277932
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1338"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/850/1332-01"
+      ]
+    },
+    {
+      "cite": "881 F.3d 1360",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275489
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1365",
+          "parenthetical": "citing Intellectual Ventures I LLC v. Capital One Fin. Corp. , 850 F.3d 1332, 1338 (Fed. Cir. 2017) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/881/1360-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1295",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "254 F. Supp. 3d 680",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        12273885
+      ],
+      "weight": 9,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "717",
+          "parenthetical": "\" Post-Trial Motions Op. \""
+        },
+        {
+          "page": "723"
+        },
+        {
+          "page": "717"
+        },
+        {
+          "page": "722"
+        },
+        {
+          "page": "723",
+          "parenthetical": "footnotes omitted"
+        },
+        {
+          "page": "722"
+        },
+        {
+          "page": "723"
+        },
+        {
+          "page": "724"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/254/0680-01"
+      ]
+    },
+    {
+      "cite": "179 F. Supp. 3d 339",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        12171104
+      ],
+      "weight": 6,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "parenthetical": "\" Summary Judgment Op. \""
+        },
+        {
+          "page": "369"
+        },
+        {
+          "page": "363"
+        },
+        {
+          "page": "358"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/179/0339-01"
+      ]
+    },
+    {
+      "cite": "35 U.S.C. \u00a7 102",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "647 F. Supp. 2d 323",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        4190825
+      ],
+      "weight": 3,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "334"
+        },
+        {
+          "page": "350"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/647/0323-01"
+      ]
+    },
+    {
+      "cite": "830 F.3d 1350",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4349286
+      ],
+      "weight": 11,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1355"
+        },
+        {
+          "page": "1351-52"
+        },
+        {
+          "page": "1351"
+        },
+        {
+          "page": "1353"
+        },
+        {
+          "page": "1354"
+        },
+        {
+          "page": "1355"
+        },
+        {
+          "page": "1355"
+        },
+        {
+          "page": "1356"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/830/1350-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1858,
+    "char_count": 50963,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25942419809031336
+    },
+    "sha256": "2b387619e3d23dd15c16e64f31c1d8cfc5ab1448097320c5e7bf11eadbcb3c1d",
+    "simhash": "1:1e4fea643b1b1e83",
+    "word_count": 7920
+  },
+  "last_updated": "2024-02-27T18:47:03.658527+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Lourie, O'Malley, and Stoll, Circuit Judges."
+    ],
+    "parties": [
+      "SRI INTERNATIONAL, INC., Plaintiff-Appellee\nv.\nCISCO SYSTEMS, INC., Defendant-Appellant"
+    ],
+    "opinions": [
+      {
+        "text": "Dissenting opinion filed by Circuit Judge Lourie.\nStoll, Circuit Judge.\nThis is an appeal from a final judgment in a patent case. Cisco Systems, Inc. (\"Cisco\") appeals the district court's (1) denial of Cisco's motion for summary judgment of patent ineligibility under \u00a7 101, (2) construction of the claim term \"network traffic data,\" (3) grant of summary judgment of no anticipation, and (4) denial of judgment as a matter of law of no willful infringement. Cisco also appeals the district court's grant of enhanced damages, attorneys' fees, and ongoing royalties.\nWe affirm the district court's denial of summary judgment of ineligibility, adopt its construction of \"network traffic data,\" and affirm its summary judgment of no anticipation. We vacate and remand the district court's denial of judgment as a matter of law of no willful infringement, and therefore vacate and remand the district court's enhancement of damages and award of attorneys' fees. Finally, we affirm the district court's award of ongoing royalties on post-verdict sales of products that were actually found to infringe or are not colorably different. Accordingly, we affirm-in-part, vacate-in-part, and remand for further proceedings consistent with this opinion.\nBACKGROUND\nI\nWhile the interconnectivity of computer networks facilitates access for authorized users, it also increases a network's susceptibility to attacks from hackers, malware, and other security threats. Some of these security threats can only be detected with information from multiple sources. For instance, a hacker may try logging in to several computers or monitors in a network. The number of login attempts for each computer may be below the threshold to trigger an alert, making it difficult to detect such an attack by looking at only a single monitor location in the network. In an attempt to solve this problem, SRI developed the inventions claimed in U.S. Patent Nos. 6,484,203 and 6,711,615. The '615 patent (titled \"Network Surveillance\") is a continuation of the '203 patent (titled \"Hierarchical Event Monitoring and Analysis\").\nII\nSRI had performed considerable research and development on network intrusion detection prior to filing the patents-in-suit. In fact, SRI's Event Monitoring Enabling Responses to Anomalous Live Disturbances (\"EMERALD\") project had attracted considerable attention in this field. The Department of Defense's Defense Advanced Research Projects Agency, which helped fund EMERALD, called it a \"gem in the world of cyber defense\" and \"a quantum leap improvement over\" previous technology. J.A. 1272-73 at 272:16-17, 273:7-9. In October 1997, SRI presented a paper entitled \"EMERALD: Event Monitoring Enabling Responses to Anomalous Live Disturbances\" (\"EMERALD 1997\") at the 20th National Information Systems Security Conference.\nEMERALD 1997 is a conceptual overview of the EMERALD system. It describes in detail SRI's early research in intrusion detection technology and outlines the development of next generation technology for detecting network anomalies. SRI Int'l Inc. v. Internet Sec. Sys., Inc. , 647 F. Supp. 2d 323, 334 (D. Del. 2009). The parties do not dispute that EMERALD 1997 constitutes prior art under 35 U.S.C. \u00a7 102(b). EMERALD 1997 is listed as a reference on the face of the '615 patent.\nIII\nThe patents share a nearly identical specification and a priority date of November 9, 1998. At the summary judgment stage, SRI asserted claims 1-4, 14-16, and 18 of the '615 patent and claims 1-4, 12-15, and 17 of the '203 patent. By the time of trial, SRI had narrowed the asserted claims to claims 1, 2, 12, and 13 of the '203 patent and claims 1, 2, 13, and 14 of the '615 patent. The jury considered only this narrower set of claims.\nThe parties identify different representative claims. Cisco proposes claim 1 of the '203 patent, while SRI proposes claim 1 of the '615 patent. The claims are substantially similar, as the minor differences between them are not material to any issue on appeal. As such, we adopt SRI's proposal and use '615 patent claim 1 as the representative claim. It reads:\n1. A computer-automated method of hierarchical event monitoring and analysis within an enterprise network comprising:\ndeploying a plurality of network monitors in the enterprise network;\ndetecting, by the network monitors, suspicious network activity based on analysis of network traffic data selected from one or more of the following categories: {network packet data transfer commands, network packet data transfer errors, network packet data volume, network connection requests, network connection denials, error codes included in a network packet, network connection acknowledgements, and network packets indicative of well-known network-service protocols};\ngenerating, by the monitors, reports of said suspicious activity; and\nautomatically receiving and integrating the reports of suspicious activity, by one or more hierarchical monitors.\n'615 patent col. 15 ll. 2-21.\nAfter SRI sued Cisco for infringement of the '615 patent and the '203 patent, Cisco unsuccessfully moved for summary judgment on several issues, including that the claims are ineligible and that the EMERALD 1997 reference anticipates the claims.\nSRI Int'l, Inc. v. Cisco Sys., Inc. , 179 F. Supp. 3d 339 (D. Del. Apr. 11, 2016) (\" Summary Judgment Op. \"). The district court denied Cisco's motions and instead sua sponte granted summary judgment of no anticipation in SRI's favor. Id. at 369.\nThe court then held a jury trial on infringement, validity, and willful infringement of claims 1, 2, 13, and 14 of the '615 patent and claims 1, 2, 12, and 13 of the '203 patent, as well as damages. The jury found that Cisco intrusion protection system (\"IPS\") products, Cisco remote management services, Cisco IPS services, Sourcefire IPS products, and Sourcefire professional services directly and indirectly infringed the asserted claims. The jury awarded SRI a 3.5% reasonable royalty for a total of $23,660,000 in compensatory damages. The jury also found by clear and convincing evidence that Cisco's infringement was willful.\nAfter post-trial briefing, the district court denied Cisco's renewed motion for JMOL of no willfulness. SRI Int'l, Inc. v. Cisco Sys., Inc. , 254 F. Supp. 3d 680, 717 (D. Del. 2017) (\" Post-Trial Motions Op. \"). Based on the willfulness verdict, the district court determined that \"some enhancement is appropriate given Cisco's litigation conduct,\" the \"fact that Cisco lost on all issues during summary judgment,\" and \"its apparent disdain for SRI and its business model.\" Id. at 723. The court then doubled the damages award. It also granted SRI's motion for attorneys' fees, compulsory license, and prejudgment interest.\nCisco appeals the district court's claim construction and denial of summary judgment of ineligibility, as well as its grant of summary judgment of no anticipation, enhanced damages, attorneys' fees, and ongoing royalties. We have jurisdiction under 28 U.S.C. \u00a7 1295(a)(1).\nDISCUSSION\nI\nWe review de novo whether a claim is drawn to patent-eligible subject matter. Berkheimer v. HP Inc. , 881 F.3d 1360, 1365 (Fed. Cir. 2018) (citing Intellectual Ventures I LLC v. Capital One Fin. Corp. , 850 F.3d 1332, 1338 (Fed. Cir. 2017) ). Section 101 defines patent-eligible subject matter as \"any new and useful process, machine, manufacture, or composition of matter, or any new and useful improvement thereof.\" 35 U.S.C. \u00a7 101. Laws of nature, natural phenomena, and abstract ideas, however, are not patentable. See Mayo Collaborative Servs. v. Prometheus Labs., Inc. , 566 U.S. 66, 70-71, 132 S.Ct. 1289, 182 L.Ed.2d 321 (2012)\n(citing Diamond v. Diehr , 450 U.S. 175, 185, 101 S.Ct. 1048, 67 L.Ed.2d 155 (1981) ).\nTo determine whether a patent claims ineligible subject matter, the Supreme Court has established a two-step framework. First, we must determine whether the claims at issue are directed to a patent-ineligible concept such as an abstract idea. Alice Corp. v. CLS Bank Int'l , 573 U.S. 208, 217, 134 S.Ct. 2347, 189 L.Ed.2d 296 (2014). Second, if the claims are directed to an abstract idea, we must \"consider the elements of each claim both individually and 'as an ordered combination' to determine whether the additional elements 'transform the nature of the claim' into a patent-eligible application.\" Id. (quoting Mayo , 566 U.S. at 79, 132 S.Ct. 1289 ). To transform an abstract idea into a patent-eligible application, the claims must do \"more than simply stat[e] the abstract idea while adding the words 'apply it.' \" Id. at 221, 134 S.Ct. 2347 (quoting Mayo , 566 U.S. at 72, 132 S.Ct. 1289 (internal alterations omitted)).\nWe resolve the eligibility issue at Alice step one and conclude that claim 1 is not directed to an abstract idea. See Enfish, LLC v. Microsoft Corp. , 822 F.3d 1327, 1337 (Fed. Cir. 2016). The district court concluded that the claims are more complex than merely reciting the performance of a known business practice on the Internet and are better understood as being necessarily rooted in computer technology in order to solve a specific problem in the realm of computer networks. Summary Judgment Op. , 179 F. Supp. 3d at 353-54 (citing '203 patent col. 1 ll. 37-40; DDR Holdings, LLC v. Hotels.com, L.P. , 773 F.3d 1245, 1257 (Fed. Cir. 2014) ). We agree. The claims are directed to using a specific technique-using a plurality of network monitors that each analyze specific types of data on the network and integrating reports from the monitors-to solve a technological problem arising in computer networks: identifying hackers or potential intruders into the network.\nContrary to Cisco's assertion, the claims are not directed to just analyzing data from multiple sources to detect suspicious activity. Instead, the claims are directed to an improvement in computer network technology. Indeed, representative claim 1 recites using network monitors to detect suspicious network activity based on analysis of network traffic data, generating reports of that suspicious activity, and integrating those reports using hierarchical monitors. '615 patent col. 15 ll. 2-21. The \"focus of the claims is on the specific asserted improvement in computer capabilities\"-that is, providing a network defense system that monitors network traffic in real-time to automatically detect large-scale attacks. Enfish , 822 F.3d at 1335-36.\nThe specification bolsters our conclusion that the claims are directed to a technological solution to a technological problem. The specification explains that, while computer networks \"offer users ease and efficiency in exchanging information,\" '615 patent col. 1 ll. 28-29, \"the very interoperability and sophisticated integration of technology that make networks such valuable assets also make them vulnerable to attack, and make dependence on networks a potential liability.\" Id. at col. 1 ll. 36-39. The specification further teaches that, in conventional networks, seemingly localized triggering events can have globally disastrous effects on widely distributed systems-like the 1980 ARPAnet collapse and the 1990 AT&T collapse. See id. at col. 1 ll. 43-47. The specification explains that the claimed invention is directed to solving these weaknesses in conventional networks and provides \"a framework for the recognition of more global threats to interdomain connectivity, including coordinated attempts to infiltrate or destroy connectivity across an entire network enterprise.\" Id. at col. 3 ll. 44-48.\nCisco argues that the claims are directed to an abstract idea for three primary reasons. First, Cisco argues that the claims are analogous to those in Electric Power Group, LLC v. Alstom S.A. , 830 F.3d 1350 (Fed. Cir. 2016), and are simply directed to generic steps required to collect and analyze data. We disagree. The Electric Power claims were drawn to using computers as tools to solve a power grid problem, rather than improving the functionality of computers and computer networks themselves. Id. at 1354. We conclude that the claims are more like the patent-eligible claims in DDR Holdings . In DDR , we emphasized that the claims were directed to more than an abstract idea that merely required a \"computer network operating in its normal, expected manner.\" 773 F.3d at 1258. Here, the claims actually prevent the normal, expected operation of a conventional computer network. Like the claims in DDR , the claimed technology \"overrides the routine and conventional sequence of events\" by detecting suspicious network activity, generating reports of suspicious activity, and receiving and integrating the reports using one or more hierarchical monitors. Id.\nSecond, Cisco argues that the invention does not involve \"an improvement to computer functionality itself.\" Enfish , 822 F.3d at 1336. In Alice , the Supreme Court advised that claims directed to independently abstract ideas that use computers as tools are still abstract. 573 U.S. at 222-23, 134 S.Ct. 2347. However, the claims here are not directed to using a computer as a tool-that is, automating a conventional idea on a computer. Rather, the representative claim improves the technical functioning of the computer and computer networks by reciting a specific technique for improving computer network security.\nCisco also submits that the asserted claims are so general that they encompass steps that people can \"go through in their minds,\" allegedly confirming that they are directed to an abstract concept. Appellant Br. 27-28 (citing Capital One , 850 F.3d at 1340 ; Intellectual Ventures I LLC v. Symantec Corp. , 838 F.3d 1307, 1318 (Fed. Cir. 2016) ; CyberSource Corp. v. Retail Decisions, Inc. , 654 F.3d 1366, 1371 (Fed. Cir. 2011) ). We disagree. This is not the type of human activity that \u00a7 101 is meant to exclude. Indeed, we tend to agree with SRI that the human mind is not equipped to detect suspicious activity by using network monitors and analyzing network packets as recited by the claims.\nBecause we conclude that the claims are not directed to an abstract idea under step one of the Alice analysis, we need not reach step two. See Enfish , 822 F.3d at 1339. Accordingly, we affirm the district court's summary judgment that the claims are patent-eligible.\nII\nA district court's claim construction based solely on intrinsic evidence is a legal question that we review de novo. See Teva Pharm. USA, Inc. v. Sandoz, Inc. , --- U.S. ----, 135 S. Ct. 831, 841, 190 L.Ed.2d 719 (2015). Claim construction seeks to ascribe the \"ordinary and customary meaning\" to claim terms as a person of ordinary skill in the art would have understood them at the time of invention. Phillips v. AWH Corp. , 415 F.3d 1303, 1312-14 (Fed. Cir. 2005) (en banc) (quoting Vitronics Corp. v. Conceptronic, Inc. , 90 F.3d 1576, 1582 (Fed. Cir. 1996) ). \"[T]he claims themselves provide substantial guidance as to the meaning of particular claim terms.\" Id. at 1314. In addition, \"the person of ordinary skill in the art is deemed to read the claim term not only in the context of the particular claim in which the disputed term appears, but in the context of the entire patent, including the specification.\" Id. at 1313.\nThe district court construed \"[n]etwork traffic data\" to mean \"data obtained from direct examination of network packets.\" SRI Int'l, Inc. v. Dell Inc. , No. CV13-1534-SLR, 2015 WL 2265756, at *1-2 (D. Del. May 14, 2015). After reviewing the parties' pleadings on summary judgment, the district court determined that its construction would benefit from clarification. The district court explained that \"[t]o say that the data 'is obtained from direct examination of network packets' means to differentiate the original source of the data, not how or where the data is analyzed. ... The fact that the data may be stored before analysis is performed on the data does not detract from its lineage.\" Summary Judgment Op. , 179 F. Supp. 3d at 363. The district court explicitly rejected the opinion of Cisco's expert, Dr. Clark, that the court's claim construction should require that the analysis of data obtained from network packets take place without any further manipulation whatsoever. Id.\nOn appeal, Cisco offers a more nuanced construction, asserting that term should instead be construed as \"detecting suspicious network activity based on 'direct examination of network packets,' where such 'direct examination' does not include merely examining data that has been obtained, generated, or gleaned from network packets.\" Appellant Br. 42. According to Cisco, based on SRI's express prosecution disclaimer during reexamination, the claims require detecting suspicious activity based on \"direct examination\" of network packets, not data \"generated\" or \"gleaned\" from packets. Cisco would thus construe the term to exclude a process that decodes the network packet.\nWe conclude that Cisco's proposed construction goes too far in limiting the amount of preprocessing encompassed by the claim. The specification shows that preprocessing is a contemplated and expected part of the claimed invention. Indeed, the specification specifically mentions different forms of preprocessing network packets prior to examination, including decryption ( '615 patent col. 3 ll. 61-63), parsing (id. at col. 8 ll. 10-12), and decoding (id. at col. 8 ll. 7-9).\nCisco's argument that SRI disclaimed preprocessing during reexamination of its patents is also not persuasive. To invoke argument-based estoppel, \"the prosecution history must evince a 'clear and unmistakable surrender' \" of this kind of preprocessing. Deering Precision Instruments v. Vector Distrib. Sys. , 347 F.3d 1314, 1326 (Fed. Cir. 2003) (quoting Eagle Comtronics, Inc. v. Arrow Commc'n Labs., Inc. , 305 F.3d 1303, 1316 (Fed. Cir. 2002) ); see also Krippelz v. Ford Motor Co. , 667 F.3d 1261, 1267 (Fed. Cir. 2012) (applying prosecution history disclaimer from reexamination proceedings). Here, SRI's statements during reexamination reflect that SRI drew the line between what does and does not comprise \"direct examination\" by excluding information derived from network packet data (for example, network traffic measures and network traffic statistics). At the same time, SRI explained that \"direct examination\" includes the data from which the network traffic measures and network traffic statistics are derived (that is, the data in the network packets). For example, SRI explained that the specification:\n[D]emonstrates that the term \"network traffic data\" requires information obtained by direct packet examination by using the distinctly different terms \"network traffic measures\" and \"network traffic statistics\" when discussing information derived from network traffic observation, as compared to the data from which the measures and statistics are derived.\nBrief for the Patentee on Appeal at 7, In re Porras , Reexam No. 90/008,125 (B.P.A.I. Jan. 14, 2010) (citing '203 patent col. 4 ll. 55-60 (discussing \"network traffic statistics\") and col. 5 ll. 28-30 (discussing \"network traffic measures\")).\nWe read SRI's statements during reexamination as simply explaining that \"network traffic statistics,\" such as number of packets and number of kilobytes transferred, are statistics derived from the network packet data-not the underlying data itself. SRI did not argue that the actual data underlying the measures and statistics-the data in the network packets-could not be subject to direct examination. Nor did SRI take the position that \"direct examination\" must take place before any or all processing. SRI did not mention processing at all during reexamination. Moreover, as the specification makes clear, the system may need to decrypt, parse, or decode the data packets-all forms of preprocessing-in order to directly examine the network packet data underlying the network traffic statistics.\nWe hold that SRI's statements in the prosecution history do not invoke a clear and unmistakable surrender of all preprocessing, including decryption, decoding, and parsing. Accordingly, we agree with the district court's construction of \"network traffic data\" to mean \"data obtained from direct examination of network packets.\"\nIII\nWe also hold that the district court did not err in granting summary judgment that the asserted claims are not anticipated by SRI's own EMERALD 1997 reference. We review the district court's summary judgment of no anticipation under regional circuit law. See MAG Aerospace Indus., Inc. v. B/E Aerospace, Inc. , 816 F.3d 1374, 1376 (Fed. Cir. 2016). The Third Circuit reviews a grant of summary judgment de novo, applying the same standard as the district court. See Gonzalez v. Sec'y of Dep't of Homeland Sec. , 678 F.3d 254, 257 (3d Cir. 2012). Summary judgment is appropriate when, drawing all justifiable inferences in the nonmovant's favor, there exists no genuine issue of material fact and the movant is entitled to judgment as a matter of law. Fed. R. Civ. P. 56(a) ; see also Anderson v. Liberty Lobby, Inc. , 477 U.S. 242, 255, 106 S.Ct. 2505, 91 L.Ed.2d 202 (1986). Anticipation requires that a single prior art reference disclose each and every limitation of the claimed invention, either expressly or inherently. See Verdegaal Bros. v. Union Oil Co. of Cal. , 814 F.2d 628, 631 (Fed. Cir. 1987).\nEMERALD 1997 discloses a tool for tracking malicious activity across large networks. The question before us is whether the district court erred in concluding on summary judgment that EMERALD 1997 does not disclose detection of any of the network traffic data categories listed in claim 1 of the '203 and '615 patents. The Patent Office considered EMERALD 1997 during the original examination of the '615 patent, and the patentability of the claims over the reference was confirmed in multiple reexamination and litigation proceedings. Indeed, during reexamination, the Patent Office accepted SRI's argument that the claim limitation requires detecting suspicious activity based on \"direct examination\" of network packets to distinguish EMERALD 1997. J.A. 26402 (\"[T]he closest prior art of record, Emerald 1997, fails to teach direct examination of packet data.\"); J.A. 27101 (same).\nEMERALD 1997 describes detecting a DNS/NFS attack in \"real-time.\" J.A. 5004. To achieve this, EMERALD 1997 explains:\nThe subscription list field is an important facility for gaining visibility into malicious or anomalous activity outside the immediate environment of an EMERALD monitor. The most obvious examples where relationships are important involve interdependencies among network services that make local policy decisions. Consider, for example, the interdependencies between access checks performed during network file system [\"NFS\"] mounting and the IP mapping of the DNS service. An unexpected mount monitored by the network file system service may be responded to differently if the DNS monitor informs the network file system monitor of suspicious updates to the mount requester's DNS mapping.\nJ.A. 5008. EMERALD 1997 further explains that:\nAbove the service layer, signature engines scan the aggregate of intrusion reports from service monitors in an attempt to detect more global coordinated attack scenarios or scenarios that exploit interdependencies among network services. The DNS/NFS attack discussed [above] is one such example of an aggregate attack scenario.\nJ.A. 5010.\nCisco's expert submitted a report concluding that a person of ordinary skill in the art would understand from this disclosure that \"monitoring specific network services, such as HTTP, FTP, network file systems, finger, Kerberos, and SNMP would require detecting and analyzing packets indicative of those well-known network service protocols, one of the enumerated categories in claim 1 of the '615 patent.\" J.A. 30347 (emphasis added). During deposition, however, Cisco's expert retreated from this position, admitting that a person of ordinary skill reading EMERALD 1997 would have understood that it was not necessary to directly examine the packets, although that would be \"one very good way\" to prevent attacks. J.A. 50040 at 159:12-21.\nOn this record, we conclude that summary judgment was appropriate. EMERALD 1997 does not expressly disclose directly examining network packets as required by the claims-especially not to obtain data about network connection requests. Nor does Cisco's expert testimony create a genuine issue of fact on this issue. Rather, we agree with the district court that Cisco's expert's testimony is both inconsistent and \"based on [ ] multiple layers of supposition.\" Summary Judgment Op. , 179 F. Supp. 3d at 358. Because the evidence does not support express or inherent disclosure of direct examination of packet data, we conclude that the district court did not err in holding that there was no genuine issue of fact regarding whether EMERALD 1997 disclosed analyzing the specific enumerated types of network traffic data recited in the claims.\nCisco next argues that the district court erred by granting summary judgment for SRI sua sponte despite SRI's failure to move for such relief. We disagree. Under Third Circuit law, a district court may properly enter summary judgment sua sponte \"so long as the losing party was on notice that she had to come forward with all of her evidence.\" Gibson v. Mayor & Council of City of Wilmington , 355 F.3d 215, 222 (3d Cir. 2004) (quoting Celotex Corp. v. Catrett , 477 U.S. 317, 326, 106 S.Ct. 2548, 91 L.Ed.2d 265 (1986) ). By filing its own motion for summary judgment, Cisco was on notice that anticipation was before the court, and Cisco had the opportunity to put forth its best evidence. Additionally, SRI did argue, in opposition to Cisco's summary judgment motion, that the district court should outright reject Cisco's assertion of invalidity. J.A.\n31650 (\"Cisco's assertion of invalidity should be rejected ....\"). Indeed, SRI expressly took the position that EMERALD 1997 \"does not anticipate any claim of the '203 or '615 patents.\" J.A. 31678. Thus, any notice requirement was satisfied because Cisco itself indicated that the issue was ripe for summary adjudication and SRI took the position that the claims were not anticipated. Accordingly, we see no error in the sua sponte nature of the district court's order and we affirm the summary judgment of no anticipation.\nIV\nCisco also appeals the district court's denial of JMOL that it did not willfully infringe the asserted patents because the jury's willfulness finding is not supported by substantial evidence. We agree that the jury's finding that Cisco willfully infringed the patents-in-suit prior to receiving notice thereof is not supported by substantial evidence and therefore vacate and remand.\nWe review decisions on motions for JMOL under the law of the regional circuit. Energy Transp. Grp. Inc. v. William Demant Holding A/S , 697 F.3d 1342, 1350 (Fed. Cir. 2012). The Third Circuit reviews district court decisions on such motions de novo. Acumed LLC v. Adv. Surgical Servs., Inc. , 561 F.3d 199, 211 (3d Cir. 2009) (citing Monteiro v. City of Elizabeth , 436 F.3d 397, 404 (3d Cir. 2006) ). In the Third Circuit, a \"court may grant a judgment as a matter of law contrary to the verdict only if 'the record is critically deficient of the minimum quantum of evidence' to sustain the verdict.\" Id. (citing Gomez v. Allegheny Health Servs., Inc. , 71 F.3d 1079, 1083 (3d Cir. 1995) ). The court should grant JMOL \"sparingly\" and \"only if, viewing the evidence in the light most favorable to the nonmovant and giving it the advantage of every fair and reasonable inference, there is insufficient evidence from which a jury reasonably could find liability.\" Marra v. Phila. Hous. Auth. , 497 F.3d 286, 300 (3d Cir. 2007) (quoting Moyer v. United Dominion Indus., Inc. , 473 F.3d 532, 545 n.8 (3d Cir. 2007) ).\nAs the Supreme Court stated in Halo , \"[t]he sort of conduct warranting enhanced damages has been variously described in our cases as willful, wanton, malicious, bad-faith, deliberate, consciously wrongful, flagrant, or-indeed-characteristic of a pirate.\" Halo Elecs., Inc. v. Pulse Elecs., Inc. , --- U.S. ----, 136 S. Ct. 1923, 1932, 195 L.Ed.2d 278 (2016). While district courts have discretion in deciding whether or not behavior rises to that standard, such findings \"are generally reserved for egregious cases of culpable behavior.\" Id. Indeed, as Justice Breyer emphasized in his concurrence, it is the circumstances that transform simple \"intentional or knowing\" infringement into egregious, sanctionable behavior, and that makes all the difference. Id. at 1936 (Breyer, J., concurring). A patentee need only show by a preponderance of the evidence the facts that support a finding of willful infringement. Id. at 1934.\nIn denying Cisco's motion for JMOL on willfulness, the district court concluded that the jury's willfulness determination was supported by two evidentiary bases. First, the court identified evidence that \"key Cisco employees did not read the patents-in-suit until their depositions.\" Post-Trial Motions Op. , 254 F. Supp. 3d at 717. Second, the court identified evidence that Cisco designed the products and services in an infringing manner and that Cisco instructed its customers to use the products and services in an infringing manner. Based on these two facts, the district court denied Cisco's renewed motion for JMOL on willfulness, stating that \"[v]iewing the record in the light most favorable to SRI, substantial evidence supports the jury's subjective willfulness verdict.\" Id.\nOn appeal, SRI identifies additional evidence that purportedly supports the jury's willfulness verdict. Specifically, SRI presented evidence that Cisco expressed interest in the patented technology and met with SRI's inventor in 2000 before developing its infringing products. J.A. 1484-86; J.A. 5027. Additionally, SRI submitted evidence that Cisco received a notice letter from SRI's licensing consultant on May 8, 2012, informing Cisco of the asserted patents (a year before SRI filed the complaint). Finally, like the district court, SRI makes much of the fact that \"key engineers\" did not look at SRI's patents until SRI took their depositions during this litigation. In particular, Cisco engineers Martin Roesch and James Kasper did not look at the patent until their depositions in 2015.\nEven accepting this evidence as true and weighing all inferences in SRI's favor, we conclude that the record is insufficient to establish that Cisco's conduct rose to the level of wanton, malicious, and bad-faith behavior required for willful infringement. First, it is undisputed that the Cisco employees who did not read the patents-in-suit until their depositions were engineers without legal training. Given Cisco's size and resources, it was unremarkable that the engineers-as opposed to Cisco's in-house or outside counsel-did not analyze the patents-in-suit themselves. The other rationale offered by the district court-that Cisco designed the products and services in an infringing manner and that Cisco instructed its customers to use the products and services in an infringing manner-is nothing more than proof that Cisco directly infringed and induced others to infringe the patents-in-suit.\nIt is undisputed that Cisco did not know of SRI's patent until May 8, 2012, when SRI sent its notice letter to Cisco. Oral Arg. at 23:46, available at http://oralarguments.cafc.uscourts.gov/default.aspx?fl=2017-2223.mp3. It is also undisputed that this notice letter was sent years after Cisco independently developed the accused systems and first sold them in 2005 (Cisco) and 2007 (Sourcefire). As SRI admits, the patents had not issued when the parties met in May 2000. Indeed, the patent application for the parent '203 patent was not even filed until several months after the parties met. Thus, Cisco could not have been aware of the patent application.\nWhile the jury heard evidence that Cisco was aware of the patents in May 2012, before filing of the lawsuit, we do not see how the record supports a willfulness finding going back to 2000. As the Supreme Court recently observed, \"culpability is generally measured against the knowledge of the actor at the time of the challenged conduct.\" Halo , 136 S. Ct. at 1933. Similarly, Cisco's allegedly aggressive litigation tactics cannot support a finding of willful infringement going back to 2000, especially when the litigation did not start until 2012. Finally, Cisco's decision not to seek an advice-of-counsel defense is legally irrelevant under 35 U.S.C. \u00a7 298.\nViewing the record in the light most favorable to SRI, the jury's verdict of willful infringement before May 8, 2012 is not supported by substantial evidence. Given the general verdict form, we presume the jury also found that Cisco willfully infringed after May 8, 2012. When reviewing a denial of JMOL, \"where there is a black box jury verdict, as is the case here, we presume the jury resolved underlying factual disputes in favor of the verdict winner and leave those presumed findings undisturbed if supported by substantial evidence.\"\nArctic Cat Inc. v. Bombardier Recreational Prods. Inc. , 876 F.3d 1350, 1358 (Fed. Cir. 2017), (citing WBIP, LLC v. Kohler Co. , 829 F.3d 1317, 1326 (Fed. Cir. 2016) ), cert. denied , --- U.S. ----, 139 S. Ct. 143, 202 L.Ed.2d 34 (2018). We leave it to the district court to decide in the first instance whether the jury's presumed finding of willful infringement after May 8, 2012 is supported by substantial evidence. In so doing, the court should bear in mind the standard for willful infringement, as well as the above analysis regarding SRI's evidence of willfulness. Accordingly, we vacate and remand the district court's denial of Cisco's renewed motion for JMOL of no willful infringement.\nCisco also argues that the district court abused its discretion by doubling damages. Enhanced damages under \u00a7 284 are predicated on a finding of willful infringement. Because we conclude that the jury's finding of willfulness before 2012 was not supported by substantial evidence, we do not reach the propriety of the district court's award of enhanced damages. Instead, we vacate the award of enhanced damages and remand for further consideration along with willfulness.\nV\nWe next turn to the district court's award of attorneys' fees under \u00a7 285, which we vacate and remand for further consideration. Under \u00a7 285, a \"court in exceptional cases may award reasonable attorney fees to the prevailing party.\" An \"exceptional\" case under \u00a7 285 is \"one that stands out from others with respect to the substantive strength of a party's litigating position (considering both the governing law and the facts of the case) or the unreasonable manner in which the case was litigated.\" Octane Fitness, LLC v. ICON Health & Fitness, Inc. , 572 U.S. 545, 554, 134 S.Ct. 1749, 188 L.Ed.2d 816 (2014). The party seeking fees must prove that the case is exceptional by a preponderance of the evidence, and the district court makes the exceptional case determination on a case-by-case basis considering the totality of the circumstances. See id. at 554, 557, 134 S.Ct. 1749.\nWe review a district court's grant or denial of attorneys' fees for an abuse of discretion, which is a highly deferential standard of review. Highmark Inc. v. Allcare Health Mgmt. Sys., Inc. , 572 U.S. 559, 564, 134 S.Ct. 1744, 188 L.Ed.2d 829 (2014) ; Bayer CropScience AG v. Dow AgroSciences LLC , 851 F.3d 1302, 1306 (Fed. Cir. 2017) (citing Mentor Graphics Corp. v. Quickturn Design Sys., Inc. , 150 F.3d 1374, 1377 (Fed. Cir. 1998) ). To meet the abuse-of-discretion standard, the appellant must show that the district court made \"a clear error of judgment in weighing relevant factors or in basing its decision on an error of law or on clearly erroneous factual findings.\" Bayer , 851 F.3d at 1306 (quoting Mentor Graphics , 150 F.3d at 1377 ); see also Highmark , 572 U.S. at 563 n.2, 134 S.Ct. 1744.\nWe see no such error in the district court's determination that this was an exceptional case. The district court found:\nThere can be no doubt from even a cursory review of the record that Cisco pursued litigation about as aggressively as the court has seen in its judicial experience. While defending a client aggressively is understandable, if not laudable, in the case at bar, Cisco crossed the line in several regards.\nPost-Trial Motions Op. , 254 F. Supp. 3d at 722.\nThe district court further explained that \"Cisco's litigation strategies in the case at bar created a substantial amount of work for both SRI and the court, much of which work was needlessly repetitive or irrelevant or frivolous.\" Id. at 723 (footnotes omitted). Indeed, the district court inventoried Cisco's aggressive tactics, including maintaining nineteen invalidity theories until the eve of trial but only presenting two at trial and pursuing defenses at trial that were contrary to the court's rulings or Cisco's internal documents. Id. at 722. Nevertheless, the district court relied in part on the fact that the jury found that Cisco's infringement was willful in its determination to exercise its discretion pursuant to \u00a7 285 to award SRI its attorneys' fees and costs. Id. at 723. Accordingly, we vacate the district court's award of attorneys' fees and remand for further consideration along with willfulness.\nWe take no issue with the district court's award of attorneys' fees at the attorneys' billing rates without adjusting them to Delaware rates. At the same time, however, the district court erred in granting all of SRI's fees. Section 285 permits a prevailing party to recover reasonable attorneys' fees, but not fees for hours expended by counsel that were \"excessive, redundant, or otherwise unnecessary.\" Hensley v. Eckerhart , 461 U.S. 424, 434, 103 S.Ct. 1933, 76 L.Ed.2d 40 (1983). We accordingly conclude that the district court should have reduced SRI's total hours to eliminate clear mistakes. For example, one billing entry reads \"DON'T RELEASE, CLIENT MATTER NEEDS TO BE CHANGED.\" J.A. 32384. Accordingly, should the district court award attorneys' fees on remand, it must remove attorney hours clearly included by mistake in its calculation of reasonable attorneys' fees.\nVI\nWe review for abuse of discretion a district court's grant of an ongoing royalty. Whitserve, LLC v. Comput. Packages, Inc. , 694 F.3d 10, 35 (Fed. Cir. 2012). Here, the district court did not abuse its discretion in awarding \"a 3.5% compulsory license for all post-verdict sales.\" Post-Trial Motions Op. , 254 F. Supp. 3d at 724. The district court's ongoing royalty rate equals the rate found by the jury and the base is limited to the \"accused products and services.\" J.A. 182.\nOn appeal, Cisco argues that the district court abused its discretion in awarding the 3.5% ongoing royalty on \"all post-verdict sales\" without considering Cisco's design-arounds. According to Cisco, the court was obligated to assess whether Cisco's redesigned products and services were more than colorably different from those products and services adjudicated at trial, and if not, whether those redesigned products and services infringe. To this end, Cisco moved to supplement its post-trial briefing with declarations describing its redesign efforts. Cisco argues that the district court abused its discretion by denying its motion to supplement. We disagree. The district court properly exercised its discretion in denying Cisco's motion to supplement the record regarding alleged post-verdict design-around activity. Cisco did not redesign its products until after trial, and Cisco did not file its motion to supplement until after completion of post-trial briefing. Given the stage of the proceedings and SRI's opposition, the trial court acted within its discretion when denying Cisco's motion to supplement.\nTo the extent the district court's order is unclear-and we think it is not-we reconfirm that the ongoing royalty on post-verdict sales is limited to products that were actually found to infringe and products that are not colorably different. We discern no error in the district court's determination that Cisco's submissions were untimely. Nevertheless, we acknowledge that the district court has not yet determined whether products and services that were not accused (that is, changed after the jury verdict) are colorably different for purposes of ongoing royalty calculations. Such an issue could be resolved in a future proceeding.\nCONCLUSION\nFor the reasons above, we affirm the district court's denial of summary judgment that the asserted claims are patent-ineligible. We also agree with the district court's construction of \"network traffic data\" and affirm the district court's grant of summary judgment of no anticipation. We vacate and remand the district court's denial of Cisco's renewed motion for judgment as a matter of law that Cisco did not willfully infringe the asserted claims. Accordingly, we vacate and remand the district court's awards of enhanced damages and attorneys' fees. Finally, we affirm the district court's orders granting enhanced damages and ongoing royalties.\nAFFIRMED-IN-PART, VACATED-IN-PART, AND REMANDED\nCOSTS\nNo costs.\nThe minor differences between the two claims are in the detecting clause-claim 1 of the '615 patent allows for network traffic data selected from \"one or more of \" the enumerated categories, and includes two extra categories in its list: \"network connection acknowledgements\" and \"network packets indicative of well-known network-service protocols.\" Compare '203 patent col. 14 ll. 19-35 (claim 1), with '615 patent col. 15 ll. 2-21 (claim 1).\nThe patents previously survived multiple anticipation challenges based on the EMERALD 1997 reference. The Patent Office considered EMERALD 1997 during the original prosecution and issued the patents over it. J.A. 32734 \u00b6 47; J.A. 32814-15 \u00b6 207. In addition, during the two reexaminations, the Patent Office again considered the validity of the asserted claims over EMERALD 1997 and again found the claims valid. J.A. 32734 \u00b6 47. Additionally, in SRI International Inc. v. Internet Security Systems, Inc. , a jury found the patents not anticipated by EMERALD 1997. 647 F. Supp. 2d at 350. The district court denied JMOL, concluding that the verdict was supported by expert testimony that EMERALD 1997 failed to disclose the claim limitation at issue. Id. We affirmed without opinion. SRI Int'l Inc. v. Internet Sec. Sys., Inc. , 401 F. App'x 530 (Fed. Cir. 2010).\nThe parties disputed only whether EMERALD 1997 discloses detection of any of the network traffic data categories listed in claim 1 of the '203 and '615 patents and whether EMERALD 1997 is enabled. One of the claimed categories of network traffic is \"network connection requests,\" which Cisco asserts is disclosed by EMERALD 1997.\n\"Sourcefire\" is a network security company that Cisco acquired in 2013. J.A. 2467-68. Cisco now markets network security products and services under the Sourcefire name.\nWe may review this denial of summary judgment because \"a denial of a motion for summary judgment may be appealed, even after a final judgment at trial, if the motion involved a purely legal question and the factual disputes resolved at trial do not affect the resolution of that legal question.\" United Techs. Corp. v. Chromalloy Gas Turbine Corp. , 189 F.3d 1338, 1344 (Fed. Cir. 1999) (citing Wolfgang v. Mid-Am. Motorsports, Inc. , 111 F.3d 1515, 1521 (10th Cir. 1997) ; Rekhi v. Wildwood Indus., Inc. , 61 F.3d 1313, 1318 (7th Cir. 1995) ). Neither party contends that fact issues arise in the patent-eligibility analysis in this case. Therefore, we may review the purely legal question of patent eligibility.\nWe recognize that, ideally, it should not fall to the district court to determine when, if ever, willful infringement began through the mechanism of JMOL. Rather, the question of when willful infringement began is a fact issue that would have been best presented to the jury in a special verdict form with appropriate jury instructions. Better yet, perhaps SRI could have recognized the shortcomings in its case and presented a more limited case of willful infringement from 2012 onwards. Or perhaps Cisco could have filed a motion for summary judgment of no willful infringement prior to May 8, 2012.\nFinally, Cisco argues that, in the same order in which the court stated that \"[t]here are no post-verdict royalties,\" the court awarded a post-verdict royalty-an internal inconsistency. J.A. 175. We do not ascribe weight to the apparent clerical error creating the inconsistency. The district court's final judgment order is clear that \"Cisco shall pay a 3.5% compulsory license on all post-verdict sales of the accused products and services.\" J.A. 182. To the extent that clear statement conflicts with the single sentence in the memorandum opinion, we think the court made its intentions clear in its final judgment and we see no error by the district court.",
+        "type": "majority",
+        "author": "Dissenting opinion filed by Circuit Judge Lourie."
+      },
+      {
+        "text": "Lourie, Circuit Judge, dissenting.\nI respectfully dissent from the majority's decision upholding the eligibility of the claims. In my view, they are clearly abstract. In fact, they differ very little from the claims in Electric Power Group, LLC v. Alstom S.A. , 830 F.3d 1350, 1355 (Fed. Cir. 2016), where we found the claims to be abstract.\nThe majority opinion focuses on claim 1 of U.S. Patent 6,711,615 (\"the '615 patent\"), which recites:\n1. A computer-automated method of hierarchical event monitoring and analysis within an enterprise network comprising:\ndeploying a plurality of network monitors in the enterprise network;\ndetecting, by the network monitors, suspicious network activity based on analysis of network traffic data selected from one or more of the following categories: {network packet data transfer commands, network packet data transfer errors, network packet data volume, network connection requests, network connection denials, error codes included in a network packet, network connection acknowledgements, and network packets indicative of well-known network-service protocols};\ngenerating, by the monitors, reports of said suspicious activity; and\nautomatically receiving and integrating the reports of suspicious activity, by one or more hierarchical monitors.\nSimilarly, the claim we reviewed in Electric Power Group recited \"[a] method of detecting events on an interconnected electric power grid in real time over a wide area and automatically analyzing the events on the interconnected electric power grid,\" with the method comprising eight steps, including \"receiving data,\" \"detecting and analyzing events in real time,\" \"displaying the event analysis results and diagnoses of events,\" \"accumulating and updating measurements,\" and \"deriving a composite indicator of reliability.\" 830 F.3d at 1351-52.\nWhile that claim was lengthy, with eight steps, it merely described selecting information by content or source for collection, analysis, and display. Id. at 1351. In finding the claim directed to an abstract idea, we reasoned that \"collecting information, including when limited to particular content (which does not change its character as information)\" was an abstract idea. Id. at 1353. Limiting the claim to a particular technological environment-power-grid monitoring-was insufficient to transform it into a patent-eligible application of the abstract idea at its core. Id. at 1354. The claim was rooted in computer technology only to the extent that the broadly-recited steps required a computer. At step two, we noted that the claim did not require an \"inventive set of components or methods ... that would generate new data,\" and did not \"invoke any assertedly inventive programming.\" Id. at 1355.\nThis case is hardly distinguishable from Electric Power Group. The claims in that case are said in the majority opinion to only be drawn to using computers as tools to solve a problem, rather than improving the functionality of computers and computer networks.\nThe claims here recite nothing more than deploying network monitors, detecting suspicious network activity, and generating and handling reports. The detecting of the suspicious activity is based on \"analysis\" of traffic data, but the claims add nothing concerning specific means for doing so. The claims only recite the moving of information. The computer is used as a tool, and no improvement in computer technology is shown or claimed. There is no specific technique described for improving computer network security.\nI would find the claims directed to the abstract idea of monitoring network security and proceed to step two of Alice . As in Electric Power Group , however, \"[n]othing in the claims, understood in light of the specification, requires anything other than off-the-shelf, conventional computer, network, and display technology ....\" 830 F.3d at 1355. The claims recite \"types of information and information sources,\" id. , but such selection of information by content or source does not provide an inventive concept. Id. The specification further makes clear that the claims only rely on generic computer components, including a computer, memory, processor, and mass storage device. See '615 patent, col. 14 ll. 50-57. Indeed, the specification even deems the relevant memory bus and peripheral bus \"customary components.\" Id. col. 14 l. 55.\nFinally, the majority opinion quotes from and paraphrases language from the specification that only recites results, not means for accomplishing them. See, e.g., Majority Op. at 1303-04. The claims as written, however, do not recite a specific way of enabling a computer to monitor network activity. As we noted in Electric Power Group , result-focused, functional claims that effectively cover any solution to an identified problem, like those at issue here, frequently run afoul of Alice. 830 F.3d at 1356.\nThus, I would find the claims to be directed to an abstract idea at Alice step one, without an inventive concept at step two, and reverse the district court's finding of eligibility. Because I would find the claims at issue to be ineligible, I would not reach the remaining issues in the case.",
+        "type": "dissent",
+        "author": "Lourie, Circuit Judge, dissenting."
+      }
+    ],
+    "attorneys": [
+      "Frank Scherkenbach, Fish & Richardson, PC, Boston, MA, argued for plaintiff-appellee. Also represented by Proshanto Mukherji; David Michael Hoffman, Austin, TX; Howard G. Pollack, Redwood City, CA; Francis J. Albert, John Winston Thornburgh, San Diego, CA.",
+      "William F. Lee, Wilmer Cutler Pickering Hale and Dorr LLP, Boston, MA, argued for defendant-appellant. Also represented by Andrew J. Danford, Lauren B. Fletcher, Louis W. Tompros."
+    ],
+    "corrections": "",
+    "head_matter": "SRI INTERNATIONAL, INC., Plaintiff-Appellee\nv.\nCISCO SYSTEMS, INC., Defendant-Appellant\n2017-2223\nUnited States Court of Appeals, Federal Circuit.\nOpinion Issued: March 20, 2019\nOpinion Modified: July 12, 2019\nFrank Scherkenbach, Fish & Richardson, PC, Boston, MA, argued for plaintiff-appellee. Also represented by Proshanto Mukherji; David Michael Hoffman, Austin, TX; Howard G. Pollack, Redwood City, CA; Francis J. Albert, John Winston Thornburgh, San Diego, CA.\nWilliam F. Lee, Wilmer Cutler Pickering Hale and Dorr LLP, Boston, MA, argued for defendant-appellant. Also represented by Andrew J. Danford, Lauren B. Fletcher, Louis W. Tompros.\nBefore Lourie, O'Malley, and Stoll, Circuit Judges.\nThis opinion has been modified and reissued following a petition for rehearing filed by Defendant-Appellant."
+  },
+  "file_name": "1295-01",
+  "first_page_order": 1295,
+  "last_page_order": 1313
+}

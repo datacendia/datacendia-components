@@ -1,0 +1,59 @@
+{
+  "id": 12218329,
+  "name": "Caylor v. Florida",
+  "name_abbreviation": "Caylor v. Florida",
+  "decision_date": "2012-05-14",
+  "docket_number": "No. 11-9648",
+  "first_page": "1000",
+  "last_page": "1000",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1000"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 65,
+    "ocr_confidence": 0.593,
+    "sha256": "18802f4a1f0ef0de3d9d82b6e03c401e742c1b6d697d02343d247661f6591707",
+    "simhash": "1:06de9e44f1ad7237",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Caylor v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9648.\nCaylor v. Florida."
+  },
+  "file_name": "1000-04",
+  "first_page_order": 876,
+  "last_page_order": 876
+}

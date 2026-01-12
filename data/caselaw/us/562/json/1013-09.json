@@ -1,0 +1,59 @@
+{
+  "id": 5989351,
+  "name": "Goodrum v. Brown, Attorney General of California, et al.",
+  "name_abbreviation": "Goodrum v. Brown",
+  "decision_date": "2010-11-01",
+  "docket_number": "No. 10-6251",
+  "first_page": "1013",
+  "last_page": "1013",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1013"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 104,
+    "ocr_confidence": 0.62,
+    "sha256": "28142ef8e65849623eaecaec45db710c8202ab02d4aab1572ce2249c83240e8c",
+    "simhash": "1:40632161098df03f",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Goodrum v. Brown, Attorney General of California, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6251.\nGoodrum v. Brown, Attorney General of California, et al."
+  },
+  "file_name": "1013-09",
+  "first_page_order": 1035,
+  "last_page_order": 1035
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12234496,
+  "name": "Rodriguez-Quiros v. United States",
+  "name_abbreviation": "Rodriguez-Quiros v. United States",
+  "decision_date": "2011-11-14",
+  "docket_number": "No. 11-6940",
+  "first_page": "1045",
+  "last_page": "1045",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1045"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 82,
+    "ocr_confidence": 0.717,
+    "sha256": "f32e4151a109f9866a0424e14c05996bbaebcb8f89d84732dce6bd31c17675cb",
+    "simhash": "1:16818603298d800e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rodriguez-Quiros v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6940.\nRodriguez-Quiros v. United States."
+  },
+  "file_name": "1045-04",
+  "first_page_order": 1127,
+  "last_page_order": 1127
+}

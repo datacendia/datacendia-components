@@ -1,0 +1,59 @@
+{
+  "id": 12229318,
+  "name": "White v. Smereka et al.",
+  "name_abbreviation": "White v. Smereka",
+  "decision_date": "2011-10-17",
+  "docket_number": "No. 11-5898",
+  "first_page": "966",
+  "last_page": "966",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 966"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 72,
+    "ocr_confidence": 0.696,
+    "sha256": "b59a9e2c8ac7e27e0cfde0231bdf71c8a560a2fc58de6f7c15eab1338c382965",
+    "simhash": "1:a8c89ae8dc85b1bd",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "White v. Smereka et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5898.\nWhite v. Smereka et al."
+  },
+  "file_name": "0966-04",
+  "first_page_order": 1048,
+  "last_page_order": 1048
+}

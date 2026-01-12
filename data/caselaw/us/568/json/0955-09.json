@@ -1,0 +1,59 @@
+{
+  "id": 12418876,
+  "name": "Miles v. United States",
+  "name_abbreviation": "Miles v. United States",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-6074",
+  "first_page": "955",
+  "last_page": "955",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 955"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.662,
+    "sha256": "86639cc17922b7a740bc18514b9ee48ab42596fe1efc8341036ebdf9bc4efb86",
+    "simhash": "1:2788b983eaa59938",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Miles v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6074.\nMiles v. United States."
+  },
+  "file_name": "0955-09",
+  "first_page_order": 1031,
+  "last_page_order": 1031
+}

@@ -1,0 +1,716 @@
+{
+  "id": 3159083,
+  "name": "LUIS J. CACHO et al., Plaintiffs and Appellants, v. LOUIS J. BOUDREAU et al., Defendants and Respondents",
+  "name_abbreviation": "Cacho v. Boudreau",
+  "decision_date": "2007-01-11",
+  "docket_number": "No. S133378",
+  "first_page": "341",
+  "last_page": "359",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "40 Cal. 4th 341"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal.",
+    "id": 9021,
+    "name": "Supreme Court of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "207 Cal.Rptr. 652",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "161 Cal.App.3d 382",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2165582
+      ],
+      "pin_cites": [
+        {
+          "page": "390-391"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/161/0382-01"
+      ]
+    },
+    {
+      "cite": "207 Cal.Rptr. 532",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1984,
+      "opinion_index": 0
+    },
+    {
+      "cite": "161 Cal.App.3d 583",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2165563
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "586"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/161/0583-01"
+      ]
+    },
+    {
+      "cite": "2 Cal.Rptr.2d 581",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "1 Cal.App.4th 1066",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1177136
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/1/1066-01"
+      ]
+    },
+    {
+      "cite": "971 P.2d 986",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "82 Cal.Rptr.2d 610",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 Cal.4th 23",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        829713
+      ],
+      "pin_cites": [
+        {
+          "page": "41-42"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/20/0023-01"
+      ]
+    },
+    {
+      "cite": "1 Cal.Rptr.2d 808",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1999,
+      "opinion_index": 0
+    },
+    {
+      "cite": "1 Cal.App.4th 52",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1177141
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "58"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/1/0052-01"
+      ]
+    },
+    {
+      "cite": "93 P.3d 1020",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1991,
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 Cal.Rptr.3d 76",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1991,
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 Cal.4th 653",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        493349
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "660"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/33/0653-01"
+      ]
+    },
+    {
+      "cite": "26 Cal.Rptr.3d 248",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "127 Cal.App.4th 1177",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        18603
+      ],
+      "pin_cites": [
+        {
+          "page": "1187"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/127/1177-01"
+      ]
+    },
+    {
+      "cite": "802 P.2d 317",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2005,
+      "opinion_index": 0
+    },
+    {
+      "cite": "277 Cal.Rptr. 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 2005,
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Cal.3d 531",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2375153
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "540-541"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/52/0531-01"
+      ]
+    },
+    {
+      "cite": "990 P.2d 539",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "91 Cal.Rptr.2d 659",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "22 Cal.4th 147",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        158024
+      ],
+      "pin_cites": [
+        {
+          "page": "167-168"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/22/0147-01"
+      ]
+    },
+    {
+      "cite": "889 P.2d 1019",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 Cal.Rptr.2d 699",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "9 Cal.4th 763",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1989418
+      ],
+      "pin_cites": [
+        {
+          "page": "778-779"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/9/0763-01"
+      ]
+    },
+    {
+      "cite": "74 P.3d 166",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1995,
+      "opinion_index": 0
+    },
+    {
+      "cite": "3 Cal.Rptr.3d 390",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1995,
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Cal.4th 657",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        17353
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "663"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/31/0657-01"
+      ]
+    },
+    {
+      "cite": "672 P.2d 1297",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "197 Cal.Rptr. 284",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.3d 184",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4471317
+      ],
+      "pin_cites": [
+        {
+          "page": "188, fn. 2, 193-194"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/35/0184-01"
+      ]
+    },
+    {
+      "cite": "968 P.2d 993",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "81 Cal.Rptr.2d 93",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 Cal.4th 952",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1709346
+      ],
+      "pin_cites": [
+        {
+          "page": "962-964"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/19/0952-01"
+      ]
+    },
+    {
+      "cite": "16 P.3d 130",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "103 Cal.Rptr.2d 711",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "24 Cal.4th 1003",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1180102
+      ],
+      "pin_cites": [
+        {
+          "page": "1010"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/24/1003-01"
+      ]
+    },
+    {
+      "cite": "42 Cal.Rptr.2d 723",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Cal.App.4th 698",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4883980
+      ],
+      "pin_cites": [
+        {
+          "page": "702, 707"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/36/0698-01"
+      ]
+    },
+    {
+      "cite": "94 Cal.Rptr.2d 801",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "79 Cal.App.4th 1318",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        131851
+      ],
+      "pin_cites": [
+        {
+          "page": "1323"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/79/1318-01"
+      ]
+    },
+    {
+      "cite": "126 Cal.Rptr. 505",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.App.3d 621",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4485751
+      ],
+      "pin_cites": [
+        {
+          "page": "626"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/53/0621-01"
+      ]
+    },
+    {
+      "cite": "33 Cal.Rptr.2d 838",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.App.4th 888",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4591731
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/28/0888-01"
+      ]
+    },
+    {
+      "cite": "34 Cal.Rptr. 291",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "34 Cal.Rptr.2d 291",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.App.4th 1506",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4592373
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1513"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/28/1506-01"
+      ]
+    },
+    {
+      "cite": "114 Cal.Rptr.2d 412",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "94 Cal.App.4th 587",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        171347
+      ],
+      "pin_cites": [
+        {
+          "page": "598"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/94/0587-01"
+      ]
+    },
+    {
+      "cite": "13 P.2d 668",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "216 Cal. 243",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2215002
+      ],
+      "pin_cites": [
+        {
+          "page": "246"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/216/0243-01"
+      ]
+    },
+    {
+      "cite": "844 P.2d 534",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 Cal.Rptr.2d 215",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "4 Cal.4th 893",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        2001485
+      ],
+      "pin_cites": [
+        {
+          "page": "897"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/4/0893-01"
+      ]
+    },
+    {
+      "cite": "44 P.3d 120",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1993,
+      "opinion_index": 0
+    },
+    {
+      "cite": "118 Cal.Rptr.2d 746",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1993,
+      "opinion_index": 0
+    },
+    {
+      "cite": "27 Cal.4th 853",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1103378
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "860"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/27/0853-01"
+      ]
+    },
+    {
+      "cite": "494 P.2d 681",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2002,
+      "opinion_index": 0
+    },
+    {
+      "cite": "100 Cal.Rptr. 609",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 2002,
+      "opinion_index": 0
+    },
+    {
+      "cite": "6 Cal.3d 805",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2274650
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "807-808"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/6/0805-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1379,
+    "char_count": 40586,
+    "ocr_confidence": 0.927,
+    "pagerank": {
+      "raw": 8.759830247122375e-08,
+      "percentile": 0.4951323416925079
+    },
+    "sha256": "e2fff28b35a74c1df59f597a73012f625dd3578c037f5b4d788a215f15e5a4b7",
+    "simhash": "1:2233e31b5c5661c5",
+    "word_count": 6422
+  },
+  "last_updated": "2024-02-27T23:38:15.410825+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "LUIS J. CACHO et al., Plaintiffs and Appellants, v. LOUIS J. BOUDREAU et al., Defendants and Respondents."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nKENNARD, J.\nThe state Mobilehome Residency Law (Civ. Code, \u00a7 798 et seq.) regulates relations between the owners and the residents of mobile-home parks. Three of its provisions are at issue here. The first provision states: \u201cA homeowner shall not be charged a fee for other than rent, utilities, and incidental reasonable charges for services actually rendered.\u201d (\u00a7 798.31.) Under the second provision, which applies only in parks subject to local rent control laws, a local agency that administers a rent control law must allow a park owner to separately charge park residents for certain government-imposed fees, assessments, and other charges (\u00a7 798.49, subd. (a)), but this provision expressly does not apply to property taxes (\u00a7 798.49, subd. (d)(4)). Under the third provision, which applies when a park resident is the prevailing party in a civil action to enforce rights granted by the Mobilehome Residency Law, the trial court is vested with discretion to impose on the park owner a civil penalty not exceeding $2,000 for each \u201cwillful violation\u201d of that law. (\u00a7 798.86.)\nWe granted review here to address these issues: Does the state Mobilehome Residency Law preempt a local rent control ordinance that allows a mobile-home park owner to separately charge park residents for property taxes imposed on the land on which the park is situated? If a park owner, relying on such an ordinance and the assurances of local officials charged with administering local law, separately charges park residents for property taxes, and the ordinance is thereafter held to be preempted, has the owner committed a \u201cwillful\u201d violation of the Mobilehome Residency Law so as to justify imposition of civil penalties? If so, does the imposition of civil penalties violate the park owner\u2019s constitutional right to due process of law?\nWe conclude that the state Mobilehome Residency Law does not preempt local rent control ordinances insofar as they allow mobilehome park owners to separately charge park residents for property taxes imposed on park land. This conclusion renders the other two issues moot, and we do not address them.\nI. Facts and Procedural Background\nLuis J. Cacho and three of his children (Luis A. Cacho, Daniel Cacho, and Elizabeth Cacho) own a 129-space mobilehome park known as Don Luis Estates. The park is located in the City of Chula Vista (in San Diego County), which has a rent control ordinance regulating the space rent that mobilehome park owners like the Cachos may charge the residents in their mobilehome parks. (Chula Vista Mun. Code, ch. 9.50.)\nUntil 1994, Luis J. Cache\u2019s mother had also been a part owner of Don Luis Estates, but she died during that year. Because of the change in ownership resulting from her death, the county assessor reassessed the mobilehome park property, and the property taxes increased by $18,676.57.\nAt that time, Chula Vista\u2019s rent control ordinance defined \u201cspace rent\u201d as \u201cthe consideration . . . demanded or received in connection with the use and occupancy of the mobilehome space . . . exclusive of . . . allowable pass-throughs . . . .\u201d (Chula Vista Mun. Code, ch. 9.50, former \u00a7 9.50.030, subd. (A), italics added.) One of the passthroughs that the ordinance then allowed, and excluded from the definition of \u201cspace rent,\u201d was \u201cgovernmental assessments such as real property taxes . . . .\u201d (Id., former \u00a7 9.50.030, subd. (H).) The ordinance also listed \u201c[property or other taxes\u201d as one component of the owner expense factor that the mobilehome rent review commission was to consider in fixing space rent through the hearing process. (Id., former \u00a7 9.50.073, subd. (A)(1)(a).)\nIn April 1998, the Cachos consulted Juan Arroyo, a senior official with the housing division of the Chula Vista Community Development Department, to determine whether they could \u201cpass through\u201d their property tax increase to the park residents without following the administrative procedure required to obtain a space rent increase. In a letter dated October 26, 1998, Arroyo told them that the proposed passthrough of the property tax increase would not violate Chula Vista\u2019s rent control ordinance. Although he acknowledged that the state Mobilehome Residency Law, in section 798.49, \u201ccontains language which could preclude the automatic pass-through of increased property taxes as a separately stated amount,\u201d he asserted that \u201cwhere a City\u2019s rent control ordinance specifically allows the pass-through of increased property taxes, such pass-through does not violate the State Law.\u201d Arroyo added this caution: \u201cAs we have stated in past discussions, the City Attorney cannot be your legal counsel. Our conclusions are for the benefit of the City. You should consult with your own attorney regarding the legal interpretation of Section 798.49.\u201d In the letter, Arroyo also requested that the passthrough \u201cnot be included in the space rent\u201d and instead that it be \u201cbilled as a separate item to avoid confusion and to ensure that such pass-through is not included in any calculation of the increase in the rent.\u201d\nThe leases for the rental spaces contained a provision stating that the rent could be changed upon 90 days\u2019 notice under the state Mobilehome Residency Law and that any rental increase would be governed by the City of Chula Vista. In November 1998, to implement the property tax passthrough, the Cachos sent the residents a 90-day notice of a rental increase in the amount of $12.31 per month per space. Thereafter, the Cachos began including this amount as part of the \u201cmonthly rent\u201d specified in lease agreements for park spaces and in the monthly rental invoices sent to park residents. The Cachos increased the passthrough amount to $12.56 in 2000 and to $12.81 in 2001. On the invoices, the amount was variously listed as \u201crent tax,\u201d \u201crent adj,\u201d \u201cadj,\u201d \u201cother,\u201d and \u201cCVMC9.50.030H.\u201d\nIn 2001, some of the park residents filed individual small claims actions against the Cachos alleging that the property tax passthrough was invalid because it violated the state Mobilehome Residency Law. In September 2001, the Cachos filed a complaint for declaratory relief in superior court, naming as defendants the same park residents who had brought the small claims actions. Those residents dismissed their small claims actions and instead cross-complained' against the Cachos, seeking injunctive and declaratory relief, damages, statutory penalties, and attorney fees. In April 2002, in overruling the Cachos\u2019 demurrer to the residents\u2019 cross-complaint, the superior court issued an interlocutory ruling that the passthrough provisions of Chula Vista\u2019s rent control ordinance, which allowed a property tax charge that was separate from and in addition to space rent, were preempted by sections 798.31 and 798.49.\nWhile this litigation was proceeding, the Cachos applied for an increase in space rent as a substitute for the disputed property tax passthrough. In May 2002, the Chula Vista Mobilehome Rent Review Commission approved the Cachos\u2019 request for a rent increase to compensate for the property tax increase, at the same time directing that the Cachos \u201cshould no longer bill residents for this increase in property tax.\u201d By this means, the Cachos continued to obtain reimbursement for the added expense caused by the property tax increase, albeit in the form of a discretionary rent increase rather than a passthrough of the property taxes as a separately stated item on the monthly rent invoices. The residents have apparently not challenged the validity of that rent increase.\nThe litigation proceeded. In March 2003, the parties filed cross-motions for summary judgment or summary adjudication. The superior court granted summary judgment in favor of the residents, and it awarded damages of $10,067, civil penalties of $23,000, attorney fees of $87,321, and litigation costs of $9,230. The court treated the Cachos\u2019 reliance on the city\u2019s advice about the legality of the passthrough as a mitigating factor in fixing the amount of the statutory penalty. The judgment was filed in February 2004, and the Cachos appealed.\nThe Court of Appeal affirmed the judgment. It agreed with the superior court that the Chula Vista ordinance that formerly had permitted mobilehome park owners to pass through property taxes to park residents conflicted directly with, and was preempted by, the state Mobilehome Residency Law, and that the Cachos\u2019 violation of that state law was willful. It also concluded that the superior court had not abused its discretion in awarding civil penalties in the amount of $23,000.\nII. Preemption\n\u201cA county or city may make and enforce within its limits all local, police, sanitary, and other ordinances and regulations not in conflict with general laws.\u201d (Cal. Const., art. XI, \u00a7 7.) A local law conflicts with state law, and is therefore preempted and invalid, if it \u201cduplicates [citations], contradicts [citation], or enters an area fully occupied by general law, either expressly or by legislative implication [citations].\u201d (Lancaster v. Municipal Court (1972) 6 Cal.3d 805, 807-808 [100 Cal.Rptr. 609, 494 P.2d 681]; accord, Great Western Shows, Inc. v. County of Los Angeles (2002) 27 Cal.4th 853, 860 [118 Cal.Rptr.2d 746, 44 P.3d 120]; Sherwin-Williams Co. v. City of Los Angeles (1993) 4 Cal.4th 893, 897 [16 Cal.Rptr.2d 215, 844 P.2d 534].)\nState law, in section 798.31, prohibits mobilehome park owners from imposing on their residents any fee \u201cfor other than rent, utilities, and incidental reasonable charges for services actually rendered.\u201d A charge for real property taxes is neither a charge for utilities nor a charge for services actually rendered by the mobilehome park owner to the park residents. Thus, under state law, a mobilehome park owner may not charge residents a fee for real property taxes unless that charge constitutes \u201crent\u201d within the meaning of that term in section 798.31. Under Chula Vista\u2019s rent control ordinance during the time at issue here, however, real property taxes were an allowable separate charge, or passthrough, that was excluded from the ordinance\u2019s definition of \u201cspace rent.\u201d Did this constitute an actual and irreconcilable conflict between state and local law, as the Court of Appeal concluded, or was it just an immaterial difference in terminology, as the Cachos argue?\nTo answer that question, we begin by inquiring into the purpose of the state law.\nThe state Mobilehome Residency Law does not define the term \u201crent.\u201d In the absence of a statutory definition, we assume that the Legislature intended that \u201crent\u201d would have its ordinary meaning, which is compensation for the use of land (Shintaffer v. Bank of Italy etc. Assn. (1932) 216 Cal. 243, 246 [13 P.2d 668]) and the means by which landlords make a profit on their property (Action Apartment Assn. v. Santa Monica Rent Control Bd. (2001) 94 Cal.App.4th 587, 598 [114 Cal.Rptr.2d 412]). In a mobilehome park, rent is compensation not only for the use of the resident\u2019s individual space but also for use of common areas. (Robinson v. City of Yucaipa (1994) 28 Cal.App.4th 1506, 1513 [34 Cal.Rptr.2d 291, 34 Cal.Rptr. 291] (Robinson).) The terms of the lease for the rented space will normally determine the amount of the agreed-upon rent.\nIn Dills v. Redwoods Associates, Ltd. (1994) 28 Cal.App.4th 888 [33 Cal.Rptr.2d 838] (Dills), the Court of Appeal traced the history of section 798.31: \u201cWhen first enacted in 1971, the predecessor to section 798.31 simply provided, \u2018The owner of a mobilehome park . . . shall not charge any fees to tenants other than charges for rent, utilities, or incidental reasonable service charges.\u2019 (Stats. 1971, ch. 1143, \u00a7 2, p. 2165.) In 1975, the Legislature amended the statute, prescribing that any service charges be for services actually rendered, that the rental agreement disclose any services (and the charges associated with them), and that no services and fees could be assessed against current tenants without notice of 60 days. The Legislature also added a proscription against service charges for pets, short-term guests, per-person charges (if the persons are immediate family members), and enforcement of park rules. (Stats. 1975, ch. 613, \u00a7 1, pp. 1342-1343; id., ch. 1092, \u00a7 2, pp. 2659-2660.) In 1978, the Legislature transferred the substance of the former statute to current section 789.15, subdivision (f)\u2014 governing the contents of rental agreements\u2014and sections 798.31 through 798.36 (the article concerning fees and charges) \u2018without substantive change.\u2019 (4 Stats. 1978 (Reg. Sess.) Summary Dig., p. 280.)\u201d (Dills, supra, at pp. 892-893; see also People v. Mel Mack Co. (1975) 53 Cal.App.3d 621, 626 [126 Cal.Rptr. 505].)\nThe Dills Court of Appeal drew this conclusion: \u201cAs this progression demonstrates, the focus of the Legislature was the prevention of a proliferation of service charges above and beyond rent or utilities. The unscrupulous park owner could lure mobilehome owners with a competitive rent, then \u2018nickle-and-dime\u2019 this relatively captive market with an array of unanticipated charges which when aggregated could render the tenant unable to afford to continue the tenancy.\u201d (Dills, supra, 28 Cal.App.4th at p. 893, fn. omitted.) What the legislative history does not show is any concern about whether park owners structure space rent as a lump sum, rather than breaking it down into separate components, or any concern about park owners passing on to park residents the expense of property taxes.\nDespite its various limitations on allowable fees, the state Mobile-home Residency Law does not restrict the amount of rent that a mobilehome park owner may charge park residents; it is not a rent control law. (Griffith v. County of Santa Cruz (2000) 79 Cal.App.4th 1318, 1323 [94 Cal.Rptr.2d 801] (Griffith), Vance v. Villa Park Mobilehome Estates (1995) 36 Cal.App.4th 698, 702, 707 [42 Cal.Rptr.2d 723] (Vance).)\nIn the absence of a state law imposing rent control in mobilehome parks, many California cities, including Chula Vista, have enacted mobilehome park rent control ordinances. (See Galland v. City of Clovis (2001) 24 Cal.4th 1003, 1010 [103 Cal.Rptr.2d 711, 16 P.3d 130].) The state Mobilehome Residency Law does not prohibit local governments from imposing rent control in mobilehome parks. (Griffith, supra, 79 Cal.App.4th at p. 1323; Robinson, supra, 28 Cal.App.4th at p. 1513.) To be constitutionally valid, however, a rent control law must permit the landlord to earn a fair return on investment and thereby not be confiscatory. (Galland v. City of Clovis, supra, at p. 1021; see also Santa Monica Beach, Ltd. v. Superior Court (1999) 19 Cal.4th 952, 962-964 [81 Cal.Rptr.2d 93, 968 P.2d 993].) Typically, rent control laws contain a list of factors for the regulator to consider in setting the maximum allowable rent, including typical business costs. One of the typical business costs commonly included as a consideration in fixing allowable rents is property taxes. (See Galland v. City of Clovis, supra, at p. 1010; Carson Mobilehome Park Owners\u2019 Assn. v. City of Carson (1983) 35 Cal.3d 184, 188, fn. 2, 193-194 [197 Cal.Rptr. 284, 672 P.2d 1297].) In this sense, property taxes have commonly been treated as a component of rent.\nTo determine the proper meaning of the term \u201crent\u201d in section 798.31 (which prohibits mobilehome park owners from imposing on their residents any fee \u201cfor other than rent, utilities, and incidental reasonable charges for services actually rendered\u201d), and whether that section prohibits passthroughs of business expenses like property taxes, it is helpful to consider that section in relation to another provision of the state Mobilehome Residency Law at issue here, section 798.49. Two subdivisions of section 798.49\u2014subdivisions (a) and (d)\u2014are relevant here.\nSubdivision (a) of section 798.49 states: \u201cExcept as provided in subdivision (d), the local agency of any city, including a charter city, county, or city and county, which administers an ordinance, rule, regulation, or initiative measure that establishes a maximum amount that management may charge a tenant for rent shall permit the management to separately charge a homeowner for any of the following: [f] (1) The amount of any fee, assessment or other charge first imposed by a city, including a charter city, a county, a city and county, the state, or the federal government on or after January 1, 1995, upon the space rented by the homeowner. H] (2) The amount of any increase on or after January 1, 1995, in an existing fee, assessment or other charge imposed by any governmental entity upon the space rented by the homeowner. H] (3) The amount of any fee, assessment or other charge upon the space first imposed or increased on or after January 1, 1993, pursuant to any state or locally mandated program relating to housing contained in the Health and Safety Code.\u201d Thus, subdivision (a) mandates a passthrough of certain mobilehome park business expenses\u2014the specified government fees and assessments\u2014to the park residents.\nThe government fees and assessments listed in subdivision (a) of section 798.49 do not include property taxes. To prevent any possible confusion on this point, subdivision (d) of section 798.49 states that the section \u201cshall not apply\u201d to property taxes. That means only that local rent control agencies are not required to allow park owners to separately charge park residents for property taxes; it does not mean that local rent control agencies are prohibited from doing so.\nAlthough the passthrough mandated by subdivision (a) of section 798.49 does not include property taxes, it is nonetheless significant in determining the meaning of the term \u201crent\u201d in section 798.31, and, more specifically whether rent includes otherwise lawful passthroughs of business expenses like property taxes.\nOn its face, section 798.49, subdivision (a), appears inconsistent with section 798.31. Under section 798.31, a mobilehome park owner may not charge the park residents for anything other than rent, utilities, or \u201cincidental reasonable charges for services actually rendered,\u201d but under section 798.49, subdivision (a), a local rent control agency must allow a mobilehome park owner to \u201cseparately charge\u201d the residents for new or increased governmental fees or assessments imposed on the rented spaces. Under accepted rules of statutory construction, we must harmonize these provisions, if possible, giving full effect to each. (Mejia v. Reed (2003) 31 Cal.4th 657, 663 [3 Cal.Rptr.3d 390, 74 P.3d 166]; DeVita v. County of Napa (1995) 9 Cal.4th 763, 778-779 [38 Cal.Rptr.2d 699, 889 P.2d 1019].)\nWe may resolve the inconsistency between these statutory provisions in either of two ways. Section 798.49, subdivision (a), might be construed as establishing an implied exception to section 798.31. Under that construction, the charges that a mobilehome park owner is permitted to impose on park residents fall into four categories: (1) rent, (2) utilities, (3) \u201cincidental reasonable charges for services actually rendered,\u201d and (4) the governmental fees and assessments listed in subdivision (a) of section 798.49. There is a serious objection to that construction, however, because under general rules of statutory interpretation \u201camendments by implication\u201d and \u201cexceptions by implication\u201d are generally disfavored and are accepted only in the absence of another rational way to harmonize the statutory provisions. (See Peatros v. Bank of America (2000) 22 Cal.4th 147, 167-168 [91 Cal.Rptr.2d 659, 990 P.2d 539] (plur. opn. of Mosk, J.); Lesher Communications, Inc. v. City of Walnut Creek (1990) 52 Cal.3d 531, 540-541 [277 Cal.Rptr. 1, 802 P.2d 317]; In re Sean W. (2005) 127 Cal.App.4th 1177, 1187 [26 Cal.Rptr.3d 248].)\nAs previously mentioned, there is another way to reconcile the two provisions. Unlike the construction just mentioned, this interpretation does not treat subdivision (a) of section 798.49 as establishing an implied exception to section 798.31. Rather, the separate charges for governmental assessments and fees allowed under subdivision (a) of section 798.49 may be included as a component of rent within the meaning of that term in section 798.31. Under this construction, the charges that a mobilehome park owner is permitted to impose on park residents are limited to three categories: (1) rent (which may include separate charges for governmental fees and assessments listed in subdivision (a) of section 798.49), (2) utilities, and (3) \u201cincidental reasonable charges for services actually rendered.\u201d Because it fully harmonizes the two provisions, this construction is favored under the rules of statutory construction. To satisfy ourselves that it is not inconsistent with legislative intent, we consider the legislative history of section 798.49.\nEnacted in 1992 as Senate Bill No. 1365 (Stats. 1992, ch. 338, \u00a7 3, pp. 1306-1307), section 798.49 was proposed by the Western Mobilehome Association (WMA). A legislative committee analysis summarized the argument in favor of the legislation in these words: \u201cWMA asserts that several rent control ordinances in California contain provisions which place an unfair burden on mobilehome park owners. One of the most onerous requirements is the imposition of additional government mandated costs without the ability to offset or pass through those new costs in rent control jurisdictions. In a number of local jurisdictions, the local ordinance provides a set formula for the maximum permissible yearly rent increase. Some local ordinances, however, do not allow any additional offset or price increase for added costs that may be imposed by a state or local mandate, e.g., new fees for local program. SB 1365 would enable the park owner to separately bill and charge the park tenant for any new or increased fees imposed upon the park space by the local government or by a state or locally mandated program relating to housing health and safety standards.\u201d (Sen. Rules Com., Off. of Sen. Floor Analyses, 3d reading analysis of Sen. Bill No. 1365 (1991-1992 Reg. Sess.) as amended June 25, 1992, pp. 2-3.) The same legislative committee analysis gives this explanation of the legislation\u2019s purpose: \u201cThe purpose of this bill is to enable mobilehome park owners to pass-through the costs of any new government fee or program to the park tenants in rent control jurisdictions.\u201d (Id. at p. 2.)\nThus, the aim of the legislation was to enable park owners to pass through to park residents the costs of new or increased fees and assessments imposed on the rented spaces. In the absence of local rent control, the park owners would accomplish this through a rent increase, but some local rent control agencies did not allow rent adjustments for this purpose, with the result that park owners had to bear this \u201cunfair burden.\u201d To prevent this perceived inequity, section 798.49 mandates that local rent control agencies allow park owners to separately bill and charge the tenants for the new or increased fees. Although the separate charge is thereby exempted from the restrictions on rent increases in rent control jurisdictions, it may be considered \u201crent\u201d within the meaning of section 798.31. Nothing in section 798.49 prohibits park owners from structuring their leases for park spaces to include the separate charge as a component of rent. The separate charge is compensation for the use of the rented space and common areas of the park, and thus within the common definition of \u201crent.\u201d Because nothing other than the renting of the space is required to trigger the charge, it is unlike the service charges for pets and short-term guests that the Legislature has expressly prohibited. Moreover, the government fees and assessments passed through to the tenants are a category of business expense that owners of mobilehome parks and other rental property have traditionally recovered from their tenants through the amount charged as rent.\nWith this understanding in mind, we may now harmonize section 798.49, subdivision (a), with section 798.31, under which a mobilehome park owner may not charge the park residents for anything other than rent, utilities, or reasonable service charges. We conclude that these two provisions are best harmonized by construing the separate charges for governmental assessments and fees under section 798.49, subdivision (a), as a permissible component of the total rent. Accordingly, section 798.49 demonstrates that the state Mobile-home Residency Law does not prohibit park owners from separately charging park residents, as a component of the total rent, for governmental fees and assessments.\nThis conclusion is not inconsistent with subdivision (d) of section 798.49, which states that the section \u201cshall not apply\u201d to property taxes. As we have explained, this means only that local rent control agencies are not required to allow park owners to separately charge park residents for property taxes; it does not mean that local rent control agencies are prohibited from doing so. The effect of the exclusion is to preserve the authority of local rent control agencies to deal with property taxes as a passthrough item, like the assessments and fees listed in subdivision (a) of section 798.49, as a factor to be considered in periodic discretionary adjustments of base rent, or as both (as did the former provisions of the Chula Vista ordinance at issue here).\nOur review of the text and history of sections 798.31 and 798.49 leads us to conclude that the state Mobilehome Residency Law does not preempt local rent control ordinances that permit mobilehome park owners to pass through property taxes to park residents as a separately stated item. Exclusion of the property tax passthrough from the definition of \u201cspace rent\u201d under the local ordinance is not inconsistent with the inclusion of the property tax passthrough within the meaning of \u201crent\u201d as that term is used in section 798.31. A single term (here, \u201crent\u201d) may have different meanings in different legal contexts. (See, e.g., People v. American Contractors Indemnity Co. (2004) 33 Cal.4th 653, 660 [16 Cal.Rptr.3d 76, 93 P.3d 1020] [noting that the term \u201cjurisdiction\u201d has various meanings]; Grissom v. Vons Companies, Inc. (1991) 1 Cal.App.4th 52, 58 [1 Cal.Rptr.2d 808] [same for term \u201cnecessary\u201d]; see also Delaney v. Baker (1999) 20 Cal.4th 23, 41-42 [82 Cal.Rptr.2d 610, 971 P.2d 986] [a term is not presumed to have the same meaning when it appears in different statutory schemes with distinct objectives].) Here, the ordinance does not purport to define the term \u201crent\u201d under the state Mobilehome Residency Law or as used in the leases subject to the ordinance. It merely defines and uses the term \u201cspace rent\u201d as a way of specifying the charges that the ordinance regulates. In recognizing other charges that the ordinance refers to as \u201callowable pass-throughs\u201d and that the ordinance excludes from its own definition of \u201cspace rent,\u201d the ordinance does not prohibit the parties from including those other charges as rent in their leases, as the parties did here.\nWhen it has been included within the overall rental charge specified in the lease for the rented space, a property tax passthrough is appropriately characterized as rent under section 798.31 because nothing other than use of the rented space and common areas is required to trigger the charge, because it is compensation for the use of the rented space and common areas of the park, and because property taxes are a business expense that owners of mobilehome parks and other rental property have traditionally recovered from their tenants through the amount charged as rent. This conclusion means, of course, that a property tax passthrough, because it is rent, is subject to provisions of the state Mobilehome Residency Law regulating rent, such as the requirement that the park management give the resident at least 90 days\u2019 notice of any increase in the rent. (\u00a7 798.30.)\nThis conclusion is consistent with the Court of Appeal decisions in Dills, supra, 28 Cal.App.4th 888, and Robinson, supra, 28 Cal.App.4th 1506, but inconsistent with the decision in Karrin v. Ocean-Aire Mobile Home Estates (1991) 1 Cal.App.4th 1066 [2 Cal.Rptr.2d 581] (Karrin).\nIn Karrin, the City of Oxnard enacted a rent control ordinance for mobilehome parks. (Karrin, supra, 1 Cal.App.4th at p. 1068.) The ordinance allowed park owners to \u201c \u2018segregate and separately bill the actual cost for any mobilehome ordinance assessment . . . and pass on any increase in such charges as they occur\u2019 \u201d (ibid..), and it expressly excluded from the definition of \u201cspace rent\u201d \u201c \u2018[p]assthrough items, including but not limited to mobile-home ordinance assessments], . . . and capital improvements\u2019 \u201d (id. at pp. 1068-1069). Following the procedure set forth in the ordinance, a mobilehome park owner held an election for the park residents to determine whether they should assess themselves $7.35 per month for repaving roads within the park. (Id. at p. 1069.) After obtaining the residents\u2019 approval through the election, the park owner began charging the assessment. (Ibid.)\nOne of the park residents sued the owner, alleging that the capital improvement assessment imposed under the local ordinance violated the state Mobilehome Residency Law. (Karrin, supra, 1 Cal.App.4th at p. 1069.) The trial court upheld the election and the assessment, but after the resident appealed, the Court of Appeal reversed the trial court\u2019s judgment. The court noted that the park owner could have (but had not) applied for a discretionary rent increase based on the capital improvement costs. (Id. at p. 1072.) Rejecting the argument that the assessment could be considered a form of rent, the Court of Appeal observed that the ordinance \u201cexpressly distinguishes between rent and assessments for pass-through items . . . .\u201d (Id. at p. 1073.) The court declined to consider a city council resolution declaring that the assessment \u201c \u2018is and was part of the rent\u2019 \u201d on the ground that it could not consider it because it had occurred after the trial court had entered judgment. (Id. at p. 1070.)\nIn Dills, however, another Court of Appeal took a somewhat different view. There, a lease for a mobilehome park space provided for \u201cbase rent\u201d in a specified amount and subject to annual increases according to a specified formula, with property taxes and utility charges to be added to the base rent when they exceeded certain threshold levels. (Dills, supra, 28 Cal.App.4th at p. 890.) Finally, the lease provided for a passthrough of the costs of capital improvements to the park, to be amortized over five years, describing the passthrough amount \u201c \u2018as a component separate from the base rent.\u2019 \u201d (Ibid.) When the park owner added a $15 charge to the monthly rent bills to cover the cost of road repairs within the park, two of the residents sued for declaratory and injunctive relief, as well as damages. (Id. at p. 891.) They maintained that the capital improvement passthrough violated section 798.31 of the state Mobilehome. Residency Law as a charge for other than rent, utilities, or services actually rendered. (28 Cal.App.4th at p. 891.) The trial court sustained the park owner\u2019s demurrer to the complaint, and the residents appealed from the resulting judgment of dismissal. (Id. at p. 889.)\nThe Court of Appeal affirmed the judgment. It concluded that \u201cthe breakdown of rent into separately calculated base-rent and capital-improvement components does not invalidate the capital component.\u201d (Dills, supra, 28 Cal.App.4th at p. 892.) The court observed that the parties had proposed conflicting definitions of \u201crent\u201d: \u201cBoth parties have cited authority that either \u2018rent is what you call it\u2019 or \u2018rent is defined by function.\u2019 (E.g., Cal-American Income Property Fund IV v. Ho (1984) 161 Cal.App.3d 583, 586 [207 Cal.Rptr. 532] [unlawful detainer action; certain charges that could have been charged as \u2018rent\u2019 categorized otherwise in lease, so not rent]; Granberry v. Islay Investments (1984) 161 Cal.App.3d 382, 390-391 [207 Cal.Rptr. 652] [in distinguishing security deposits from rent, \u2018merely calling an item \u201crent\u201d does not make it so\u2019]; cf. Shakespeare, Romeo and Juliet, act II, scene 2, lines 43-44 [roses].)\u201d (Ibid.) To determine the meaning of \u201crent\u201d in section 798.31, the Dills court reviewed the historical context of that provision\u2019s enactment and amendment. It concluded: \u201cNeither the original enactment nor its amendments signaled in any way a concern with limiting a mobilehome park owner\u2019s recovery of capital expenditures. Since capital expenditures have otherwise been a traditionally recoverable component of rent, even under rent control ordinances, there is nothing in the statute which precludes a park owner from structuring its rent in the manner of the defendants.\u201d (Dills, supra, at p. 893, fn. omitted; accord, Vance, supra, 36 Cal.App.4th at pp. 705-706.)\nThe Dills court added that allowing park owners to pass through the costs of capital improvements by means of assessments \u201cinures to the benefit of tenants\u201d because they pay \u201conly for actual costs as incurred.\u201d (Dills, supra, 28 Cal.App.4th at p. 893.) Otherwise, park owners would be forced to guess at future capital costs over the course of a lease, and likely would set the rent high enough to cover any possible expenditures. (Ibid.) The court acknowledged that its reasoning was not consistent with that of the Court of Appeal in Karrin, supra, 1 Cal.App.4th 1066, and it \u201crespectfully part[ed] company from Karrin\u201d to the extent it implied \u201cthat any effort to recover capital costs explicitly as opposed to an implicit component of rent run[s] afoul of\u2019 section 798.31. (Dills, supra, at p. 893.)\nIn Robinson, the owner of a mobilehome park in the City of Yucaipa resurfaced the park streets and in 1989 began to obtain reimbursement from the park residents through normal rent increases. (Robinson, supra, 28 Cal.App.4th at p. 1510.) The City Council of Yucaipa then adopted a mobilehome park rent control ordinance that rolled back rents to those in effect on December 31, 1988. (Id. at pp. 1510-1511.) The park owner applied for and obtained a capital improvement rent increase under the ordinance to recover the cost of the park road resurfacing, in the amount of $9.63 per month per space for a duration of 156 months. (Id. at pp. 1511-1512.) Two park residents challenged the decision by petitioning the superior court for a writ of mandate, contending that the ordinance was preempted by section 798.31 insofar as it allowed capital improvement rent increases. (28 Cal.App.4th at p. 1512.) The trial court denied the petition, and the Court of Appeal afiirmed. (Id. at pp. 1512, 1518.)\nThe Court of Appeal in Robinson noted that Yucaipa\u2019s rent control ordinance was in some respects similar to the Oxnard ordinance at issue in Karrin, supra, 1 Cal.App.4th 1066. The Yucaipa ordinance stated \u201cthat capital improvement increases \u2018shall not be included as part of the monthly space rent.\u2019 \u201d (Robinson, supra, 28 Cal.App.4th at p. 1514.) But the court found reasons to depart from Karrin's conclusion: \u201c[O]ther parts of the City\u2019s ordinance do not distinguish between rent and assessments for capital improvements, but rather treat capital improvement adjustments as one of the components of the rental rate formula. [Citation.] Moreover, as noted above, the City\u2019s ordinance defines rent to include the consideration paid not only for use of a space on which to place a mobile home but also for related housing services. [Citation.]\u201d (Robinson, supra, at p. 1514.) The court concluded that under the ordinance, \u201ca capital improvement adjustment is a rent adjustment, not a fee\u201d and therefore section 798.31 did not preempt the ordinance. (Robinson, supra, at p. 1514.)\nThe Robinson court rejected the residents\u2019 contention \u201cthat any ordinance that permits rent to be fragmented into a number of separate assessments is void as contrary to public policy,\u201d with this explanation: \u201cResidents concede that a general discretionary rent increase is valid, but [they argue that] a separate charge based on only one factor is not. Residents make a distinction without a difference. So long as an increase is a rent increase, rather than a separate fee or assessment, it is permissible under the Mobilehome Residency Law.\u201d (Robinson, supra, 28 Cal.App.4th at pp. 1514-1515.)\nThe reasoning of Dills and Robinson supports the conclusion here that the former property-tax passthrough provisions of the Chula Vista mobilehome park rent control ordinance upon which the Cachos relied are not preempted by section 798.31 of the state Mobilehome Residency Law. Although the reasoning of those decisions was addressed specifically to capital improvement passthroughs, much of that reasoning applies also to property tax passthroughs. Because both capital improvement costs and property tax expenditures have traditionally been recoverable components of rent, even under rent control ordinances, section 798.31 does not prohibit a park owner, or a local rent control ordinance, from structuring mobilehome park space rent to allow passthroughs for capital expenditures and property taxes as charges separate from a base rent. (Dills, supra, 28 Cal.App.4th at p. 893.)\nJust as the Yucaipa ordinance at issue in Robinson treated capital improvement costs as a component of the rental rate formula (Robinson, supra, 28 Cal.App.4th at p. 1514), so also the Chula Vista ordinance at issue here treats property taxes as a component of the rental rate formula, supporting the conclusion that a property tax passthrough is a rental charge, not a fee prohibited by section 798.31. Just as a discretionary rent increase to compensate for increased capital expenses does not differ in substance from a separately itemized passthrough of those same expenses (Robinson, supra, 28 Cal.App.4th at pp. 1514\u20141515), so also a discretionary rent increase to compensate for increased property taxes and a separately itemized passthrough of those same property tax increases do not differ in any way that is relevant to the discemable purposes of the Mobilehome Residency Law.\nIII. Disposition\nThe Court of Appeal\u2019s judgment is reversed.\nGeorge, C. J., Baxter, J., Werdegar, J., Chin, J., Moreno, J., and Corrigan, J., concurred.\nUnless otherwise stated, all further statutory references are to the Civil Code.\nIn leases for the calendar year 1999, and again for the year 2001, the monthly rent was broken down into two components, one of which was the property tax passthrough. In leases for the year 2000, the monthly rent was stated as a single amount, but that amount included the passthrough.\nAround the same time, in July 2002, the Chula Vista City Council repealed the passthrough provisions of the city\u2019s rent control ordinance, instead amending the ordinance\u2019s definition of \u201crent\u201d to exclude \u201cany separate charge for those fees, assessments or costs which may be charged to mobilehome residents pursuant to the California Civil Code.\u201d (Chula Vista Mun. Code, ch. 9.50, \u00a7 9.50.010, subd. (G).)\nTo the extent it is inconsistent with our holding here, Karrin v. Ocean-Aire Mobile Home Estates, supra, 1 Cal.App.4th 1066, is disapproved.",
+        "type": "majority",
+        "author": "KENNARD, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Bruce Comblum; Walters & Ward, R. Michael Walters; Bien & Summers, Elliot L. Bien and E. Elizabeth Summers for Plaintiffs and Appellants.",
+      "Berger & Kahn and Arthur Grebow for California Mobilehome Parkowners Alliance as Amicus Curiae on behalf of Plaintiffs and Appellants.",
+      "Law Offices of Ron A. Stormoen, Stormoen & Associates, Ron A. Stormoen and Lori L. Krupa for Defendants and Respondents.",
+      "Barbara A. Jones, Susan Ann Silverstein and Michael Schuster for AARP and National Consumer Law Center as Amici Curiae on behalf of Defendants and Respondents.",
+      "Law Office of Bruce E. Stanton and Bruce E. Stanton for California Mobile-home Resource and Action Association, Inc., as Amicus Curiae on behalf of Defendants and Respondents.",
+      "Maurice A. Priest for Golden State Manufactured-Home Owners League, Inc., as Amicus Curiae on behalf of Defendants and Respondents.",
+      "Richard I. Singer Law Offices and Elvi J. Olesen for County Mobilehome Positive Action Committee, Inc., Santee Mobilehome Owners Action Committee, San Marcos Mobilehome Residents Association, Escondido Mobile/Manufactured Home Positive Action Committee, Inc., and Oceanside Manufactured Homeowners Alliance as Amici Curiae on behalf of Defendants and Respondents."
+    ],
+    "corrections": "",
+    "head_matter": "[No. S133378.\nJan. 11, 2007.]\nLUIS J. CACHO et al., Plaintiffs and Appellants, v. LOUIS J. BOUDREAU et al., Defendants and Respondents.\nCounsel\nBruce Comblum; Walters & Ward, R. Michael Walters; Bien & Summers, Elliot L. Bien and E. Elizabeth Summers for Plaintiffs and Appellants.\nBerger & Kahn and Arthur Grebow for California Mobilehome Parkowners Alliance as Amicus Curiae on behalf of Plaintiffs and Appellants.\nLaw Offices of Ron A. Stormoen, Stormoen & Associates, Ron A. Stormoen and Lori L. Krupa for Defendants and Respondents.\nBarbara A. Jones, Susan Ann Silverstein and Michael Schuster for AARP and National Consumer Law Center as Amici Curiae on behalf of Defendants and Respondents.\nLaw Office of Bruce E. Stanton and Bruce E. Stanton for California Mobile-home Resource and Action Association, Inc., as Amicus Curiae on behalf of Defendants and Respondents.\nMaurice A. Priest for Golden State Manufactured-Home Owners League, Inc., as Amicus Curiae on behalf of Defendants and Respondents.\nRichard I. Singer Law Offices and Elvi J. Olesen for County Mobilehome Positive Action Committee, Inc., Santee Mobilehome Owners Action Committee, San Marcos Mobilehome Residents Association, Escondido Mobile/Manufactured Home Positive Action Committee, Inc., and Oceanside Manufactured Homeowners Alliance as Amici Curiae on behalf of Defendants and Respondents."
+  },
+  "file_name": "0341-01",
+  "first_page_order": 379,
+  "last_page_order": 397
+}

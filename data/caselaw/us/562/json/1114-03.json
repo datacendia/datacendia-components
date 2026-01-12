@@ -1,0 +1,59 @@
+{
+  "id": 6034289,
+  "name": "Moore v. Jones et al.",
+  "name_abbreviation": "Moore v. Jones",
+  "decision_date": "2010-12-13",
+  "docket_number": "No. 10-7032",
+  "first_page": "1114",
+  "last_page": "1114",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1114"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 70,
+    "ocr_confidence": 0.604,
+    "sha256": "4624e85f99b85dc548a3ca6335903be8d379e9b4437d1b6092ca0d03f81a25e2",
+    "simhash": "1:d2cfd1a21d49feea",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Moore v. Jones et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7032.\nMoore v. Jones et al."
+  },
+  "file_name": "1114-03",
+  "first_page_order": 1136,
+  "last_page_order": 1136
+}

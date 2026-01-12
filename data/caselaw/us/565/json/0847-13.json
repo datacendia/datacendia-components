@@ -1,0 +1,59 @@
+{
+  "id": 12205208,
+  "name": "Givens v. Randolph et al.",
+  "name_abbreviation": "Givens v. Randolph",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10751",
+  "first_page": "847",
+  "last_page": "847",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 847"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 74,
+    "ocr_confidence": 0.681,
+    "sha256": "598f3c9aada59c634b4f9e54645239b20cb06a6656da512147f844a939d8cd5d",
+    "simhash": "1:b3c24ca0558e9031",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Givens v. Randolph et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10751.\nGivens v. Randolph et al."
+  },
+  "file_name": "0847-13",
+  "first_page_order": 929,
+  "last_page_order": 929
+}

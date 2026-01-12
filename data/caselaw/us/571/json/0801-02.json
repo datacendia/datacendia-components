@@ -1,0 +1,87 @@
+{
+  "id": 12702003,
+  "name": "Edwin SANCHEZ, petitioner, v. UNITED STATES.",
+  "name_abbreviation": "Sanchez v. United States",
+  "decision_date": "2013-10-07",
+  "docket_number": "No. 12\u201310639.",
+  "first_page": "801",
+  "last_page": "801",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 801"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 2"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 146"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "133 S.Ct. 2072",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12697059
+      ],
+      "weight": 2,
+      "year": 2013,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/569/0530-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 47,
+    "char_count": 526,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.26654720024217626
+    },
+    "sha256": "17488ebbb0f6e1e14c26640d8a91f53115540d57df257b12edf6464022075315",
+    "simhash": "1:c3ad60442f660219",
+    "word_count": 85
+  },
+  "last_updated": "2024-02-27T18:46:20.843173+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Edwin SANCHEZ, petitioner,\nv.\nUNITED STATES."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "On petition for writ of certiorari to the United States Court of Appeals for the Seventh Circuit. Motion of petitioner for leave to proceed in forma pauperis and petition for writ of certiorari granted. Judgment vacated, and case remanded to the United States Court of Appeals for the Seventh Circuit for further consideration in light of Peugh v. United States, --- U.S. ----, 133 S.Ct. 2072, 186 L.Ed.2d 84 (2013)."
+    ],
+    "corrections": "",
+    "head_matter": "Edwin SANCHEZ, petitioner,\nv.\nUNITED STATES.\nNo. 12-10639.\nSupreme Court of the United States\nOct. 7, 2013.\nOn petition for writ of certiorari to the United States Court of Appeals for the Seventh Circuit. Motion of petitioner for leave to proceed in forma pauperis and petition for writ of certiorari granted. Judgment vacated, and case remanded to the United States Court of Appeals for the Seventh Circuit for further consideration in light of Peugh v. United States, --- U.S. ----, 133 S.Ct. 2072, 186 L.Ed.2d 84 (2013)."
+  },
+  "file_name": "0801-02",
+  "first_page_order": 801,
+  "last_page_order": 801
+}

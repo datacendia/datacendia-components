@@ -1,0 +1,59 @@
+{
+  "id": 12420109,
+  "name": "Ord v. District of Columbia",
+  "name_abbreviation": "Ord v. District of Columbia",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-288",
+  "first_page": "980",
+  "last_page": "980",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 980"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 77,
+    "ocr_confidence": 0.65,
+    "sha256": "7de9885544e008219c6290506a46301dea9d098416eded530a6d25fb194b8b1a",
+    "simhash": "1:91d31720425d8264",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ord v. District of Columbia."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. D. C. Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-288.\nOrd v. District of Columbia."
+  },
+  "file_name": "0980-01",
+  "first_page_order": 1056,
+  "last_page_order": 1056
+}

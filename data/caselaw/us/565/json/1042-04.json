@@ -1,0 +1,59 @@
+{
+  "id": 12234149,
+  "name": "Bernard v. Davis",
+  "name_abbreviation": "Bernard v. Davis",
+  "decision_date": "2011-11-14",
+  "docket_number": "No. 11-6770",
+  "first_page": "1042",
+  "last_page": "1042",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1042"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 65,
+    "ocr_confidence": 0.678,
+    "sha256": "5a255fb021fabbed2e47c3321d5bdc26b0925e7534fe43dc56a7fb2799b1d3cb",
+    "simhash": "1:32db26784b80c046",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bernard v. Davis."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6770.\nBernard v. Davis."
+  },
+  "file_name": "1042-04",
+  "first_page_order": 1124,
+  "last_page_order": 1124
+}

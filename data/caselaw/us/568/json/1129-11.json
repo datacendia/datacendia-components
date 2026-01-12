@@ -1,0 +1,59 @@
+{
+  "id": 12429470,
+  "name": "Martinez v. California",
+  "name_abbreviation": "Martinez v. California",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-7243",
+  "first_page": "1129",
+  "last_page": "1129",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1129"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 86,
+    "ocr_confidence": 0.672,
+    "sha256": "26ca8d65d22fcb6e3e6b9e6303e02ced246cb0ca8897dfb4112a0940a9738f93",
+    "simhash": "1:088124200f904045",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Martinez v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 6th App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7243.\nMartinez v. California."
+  },
+  "file_name": "1129-11",
+  "first_page_order": 1205,
+  "last_page_order": 1205
+}

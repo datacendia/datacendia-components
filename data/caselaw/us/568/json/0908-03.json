@@ -1,0 +1,59 @@
+{
+  "id": 12415742,
+  "name": "Toney v. United States",
+  "name_abbreviation": "Toney v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5345",
+  "first_page": "908",
+  "last_page": "908",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 908"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.647,
+    "sha256": "ee8bb422b5c864496ca376aadac929ced567e12320e3666eaf6ddb088eff29a6",
+    "simhash": "1:0c689b734685901a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Toney v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5345.\nToney v. United States."
+  },
+  "file_name": "0908-03",
+  "first_page_order": 984,
+  "last_page_order": 984
+}

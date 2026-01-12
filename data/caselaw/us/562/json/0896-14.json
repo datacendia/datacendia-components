@@ -1,0 +1,59 @@
+{
+  "id": 5925706,
+  "name": "Kemal v. Holder, Attorney General",
+  "name_abbreviation": "Kemal v. Holder",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-191",
+  "first_page": "896",
+  "last_page": "896",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 896"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 81,
+    "ocr_confidence": 0.612,
+    "sha256": "92bc1300ee4601f393115a5571595eda77b9847f1cc9ba14c72ae453f7aa8b0e",
+    "simhash": "1:500164b869ed705e",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kemal v. Holder, Attorney General."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-191.\nKemal v. Holder, Attorney General."
+  },
+  "file_name": "0896-14",
+  "first_page_order": 918,
+  "last_page_order": 918
+}

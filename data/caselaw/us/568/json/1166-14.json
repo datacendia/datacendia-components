@@ -1,0 +1,59 @@
+{
+  "id": 12430823,
+  "name": "Williams v. McCann et al.",
+  "name_abbreviation": "Williams v. McCann",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-7503",
+  "first_page": "1166",
+  "last_page": "1166",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1166"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 73,
+    "ocr_confidence": 0.663,
+    "sha256": "32281cbba65b8bc4da1d8cc79a1205adbf742021c626ff5388cff2d7684db9b7",
+    "simhash": "1:2b4a40a86d499002",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. McCann et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7503.\nWilliams v. McCann et al."
+  },
+  "file_name": "1166-14",
+  "first_page_order": 1242,
+  "last_page_order": 1242
+}

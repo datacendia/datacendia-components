@@ -1,0 +1,68 @@
+{
+  "id": 12700125,
+  "name": "In re George WHITEHEAD, petitioner.",
+  "name_abbreviation": "In re Whitehead",
+  "decision_date": "2013-12-16",
+  "docket_number": "No. 13\u20137488.",
+  "first_page": "1109",
+  "last_page": "1109",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 1109"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 694"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 835"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 22,
+    "char_count": 143,
+    "sha256": "f498c2510222c89a63a424363da7666f233aefd7af2a0011213b1cca341fb954",
+    "simhash": "1:68d2441c77994710",
+    "word_count": 23
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re George WHITEHEAD, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of habeas corpus denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re George WHITEHEAD, petitioner.\nNo. 13-7488.\nSupreme Court of the United States\nDec. 16, 2013.\nPetition for writ of habeas corpus denied."
+  },
+  "file_name": "1109-09",
+  "first_page_order": 1109,
+  "last_page_order": 1109
+}

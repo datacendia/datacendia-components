@@ -1,0 +1,82 @@
+{
+  "id": 12656912,
+  "name": "John M. GRIFFIN, Appellant, v. STATE of Missouri, Respondent.",
+  "name_abbreviation": "Griffin v. State",
+  "decision_date": "2018-07-10",
+  "docket_number": "WD 80461",
+  "first_page": "584",
+  "last_page": "585",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "550 S.W.3d 584"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mo. App. Ct.",
+    "id": 30098,
+    "name": "Missouri Court of Appeals, Western District"
+  },
+  "jurisdiction": {
+    "id": 37,
+    "name_long": "Missouri",
+    "name": "Mo."
+  },
+  "cites_to": [
+    {
+      "cite": "464 S.W.3d 576",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6860660,
+        6860653
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "parenthetical": "mem. "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/464/0576-02",
+        "/sw3d/464/0576-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 123,
+    "char_count": 1105,
+    "sha256": "edd1cb05cac08f9266957c8ac22e1f871350c0883177b9407cb969a577e2b09f",
+    "simhash": "1:4560518c131ed69e",
+    "word_count": 170
+  },
+  "last_updated": "2024-02-27T16:16:05.631967+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "John M. GRIFFIN, Appellant,\nv.\nSTATE of Missouri, Respondent."
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM:\nAppellant John Griffin was found guilty of driving while intoxicated and driving while revoked following a jury trial in the Circuit Court of Jackson County. After we affirmed his convictions on direct appeal, State v. Griffin , 464 S.W.3d 576 (Mo. App. W.D. 2015) (mem. ), Griffin filed a motion for post-conviction relief under Supreme Court Rule 29.15. The circuit court denied relief following an evidentiary hearing. Griffin appeals, arguing that his trial counsel was ineffective for failing to object to certain statements made by the prosecution during closing argument. We affirm. Because a published opinion would have no precedential value, we have provided the parties an unpublished memorandum setting forth the reasons for this order. Rule 84.16(b).",
+        "type": "majority",
+        "author": "PER CURIAM:"
+      }
+    ],
+    "attorneys": [
+      "Natalie H. Hoge, Kansas City, for appellant.",
+      "Richard A. Starnes, Jefferson City, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "John M. GRIFFIN, Appellant,\nv.\nSTATE of Missouri, Respondent.\nWD 80461\nMissouri Court of Appeals, Western District.\nFiled: July 10, 2018\nNatalie H. Hoge, Kansas City, for appellant.\nRichard A. Starnes, Jefferson City, for respondent.\nBefore Division Two: Karen King Mitchell, C.J., and Alok Ahuja and Edward R. Ardini, JJ.\nORDER"
+  },
+  "file_name": "0584-01",
+  "first_page_order": 584,
+  "last_page_order": 585
+}

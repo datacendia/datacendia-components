@@ -1,0 +1,97 @@
+{
+  "id": 2250940,
+  "name": "City of Killeen v. John Ben Shepperd, Attorney General",
+  "name_abbreviation": "City of Killeen v. Shepperd",
+  "decision_date": "1953-10-07",
+  "docket_number": "No. A-4187",
+  "first_page": "13",
+  "last_page": "14",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "155 Tex. 13"
+    },
+    {
+      "type": "parallel",
+      "cite": "291 S.W.2d 728"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "66 S.W. 2d 655",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10251155,
+        2302455
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/66/0655-01",
+        "/tex/123/0035-01"
+      ]
+    },
+    {
+      "cite": "123 Texas 35",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2302455
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/123/0035-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 118,
+    "char_count": 1380,
+    "ocr_confidence": 0.578,
+    "pagerank": {
+      "raw": 5.2999008925178e-08,
+      "percentile": 0.33494597561479456
+    },
+    "sha256": "dc233ab4bc93f863a40f058fb08f575d3ef2569a1eee183cf2af300090330ceb",
+    "simhash": "1:b1289a61ca1efab1",
+    "word_count": 228
+  },
+  "last_updated": "2024-02-27T17:06:22.463837+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "City of Killeen v. John Ben Shepperd, Attorney General"
+    ],
+    "opinions": [
+      {
+        "text": "Per Curiam:\nThis is an original proceeding by mandamus to compel\u00ed the Attorney General to certify the validity of an issue of City of Killeen Waterworks and Sewer System Junior Lien Revenue Bonds. The Attorney General raises the lack of necessary parties in that holders of first lien revenue bonds are not parties. The questions raised involve the power and the right of the City to issue Junior Lien Bonds and these in turn involve the question of whether or not Junior Lien Bonds would impair contractual provisions of the first issue. The Case of the City of Houston v. Allred, 123 Texas 35, 66 S.W. 2d 655, determines that the holders of the first bonds are necessary parties to the adjudication of these questions. Therefore without passing upon the merits of the other questions raised, the petition for mandamus will be dismissed unless holders of the first issue (or a sufficient number of them to represent their class) are made parties.\nThe clerk will issue the proper notice.\nOpinion delivered October 7, 1953.\nCause dismissed October 28, 1953.",
+        "type": "majority",
+        "author": "Per Curiam:"
+      }
+    ],
+    "attorneys": [
+      "McCall, Pcutkhurst & Crowe and Millard Parkhurst, all of Dallas, for petitioner.",
+      "John Ben Shepperd, Attorney General, Geo. W. Sparks, Assistant Attorney General, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "City of Killeen v. John Ben Shepperd, Attorney General\nNo. A-4187.\nDecided October 7, 1953\nDismissed October 28, 1953.\n(291 S. W. 2d Series 728)\nMcCall, Pcutkhurst & Crowe and Millard Parkhurst, all of Dallas, for petitioner.\nJohn Ben Shepperd, Attorney General, Geo. W. Sparks, Assistant Attorney General, for respondent."
+  },
+  "file_name": "0013-01",
+  "first_page_order": 27,
+  "last_page_order": 28
+}

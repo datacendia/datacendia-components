@@ -1,0 +1,59 @@
+{
+  "id": 5969539,
+  "name": "Patel v. Testpak, Inc.",
+  "name_abbreviation": "Patel v. Testpak, Inc.",
+  "decision_date": "2010-11-01",
+  "docket_number": "No. 10-6127",
+  "first_page": "1010",
+  "last_page": "1010",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1010"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 83,
+    "ocr_confidence": 0.649,
+    "sha256": "f6222901c45bba2fde41f3ab121e159bfdf93a8ab45938bdb10792301c71c366",
+    "simhash": "1:a8eff738dee0a0b5",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Patel v. Testpak, Inc."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. N. J., App. Div. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6127.\nPatel v. Testpak, Inc."
+  },
+  "file_name": "1010-01",
+  "first_page_order": 1032,
+  "last_page_order": 1032
+}

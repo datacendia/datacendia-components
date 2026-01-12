@@ -1,0 +1,59 @@
+{
+  "id": 12407712,
+  "name": "In re Discipline of Mahoney",
+  "name_abbreviation": "In re Discipline of Mahoney",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. D-2724",
+  "first_page": "903",
+  "last_page": "903",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 903"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 40,
+    "char_count": 285,
+    "ocr_confidence": 0.655,
+    "sha256": "7ad179404454db55ec536b107e576be52505e4382b6222274c3a0da2fd13f74a",
+    "simhash": "1:768a33b6bfde37ea",
+    "word_count": 52
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Mahoney."
+    ],
+    "opinions": [
+      {
+        "text": "Anthony M. Mahoney, of Woodbridge, N. J., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2724.\nIn re Discipline of Mahoney."
+  },
+  "file_name": "0903-12",
+  "first_page_order": 807,
+  "last_page_order": 807
+}

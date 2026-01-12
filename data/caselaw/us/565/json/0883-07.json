@@ -1,0 +1,59 @@
+{
+  "id": 12214801,
+  "name": "Bagley et al. v. Blagojevich et al.",
+  "name_abbreviation": "Bagley v. Blagojevich",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-136",
+  "first_page": "883",
+  "last_page": "883",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 883"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 82,
+    "ocr_confidence": 0.648,
+    "sha256": "383d65e14eedf8abc0fd0d909bc2b16ddc75ec88780dbac58e5374bcae826a91",
+    "simhash": "1:8358300041015000",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bagley et al. v. Blagojevich et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-136.\nBagley et al. v. Blagojevich et al."
+  },
+  "file_name": "0883-07",
+  "first_page_order": 965,
+  "last_page_order": 965
+}

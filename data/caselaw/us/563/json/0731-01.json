@@ -1,0 +1,1294 @@
+{
+  "id": 5924024,
+  "name": "ASHCROFT v. al-KIDD",
+  "name_abbreviation": "Ashcroft v. al-Kidd",
+  "decision_date": "2011-05-31",
+  "docket_number": "No. 10-98",
+  "first_page": "731",
+  "last_page": "753",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 731"
+    },
+    {
+      "type": "parallel",
+      "cite": "179 L. Ed. 2d 1149"
+    },
+    {
+      "type": "parallel",
+      "cite": "131 S. Ct. 2074"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2010-052"
+    },
+    {
+      "type": "vendor",
+      "cite": "2011 U.S. LEXIS 4021"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "532 U. S. 67",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9300726
+      ],
+      "weight": 2,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "77, n. 10"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/532/0067-01"
+      ]
+    },
+    {
+      "cite": "379 U. S. 476",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11731294
+      ],
+      "weight": 2,
+      "year": 1965,
+      "pin_cites": [
+        {
+          "page": "481-485"
+        },
+        {
+          "page": "485"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/379/0476-01"
+      ]
+    },
+    {
+      "cite": "533 U. S. 194",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9313023
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "201-202"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/533/0194-01"
+      ]
+    },
+    {
+      "cite": "497 U. S. 227",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6215013
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "236"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/497/0227-01"
+      ]
+    },
+    {
+      "cite": "543 U. S. 194",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5925704
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "198-199",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/543/0194-01"
+      ]
+    },
+    {
+      "cite": "526 U. S. 603",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11133554
+      ],
+      "weight": 4,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "617"
+        },
+        {
+          "page": "615"
+        },
+        {
+          "page": "615"
+        },
+        {
+          "page": "618"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/526/0603-01"
+      ]
+    },
+    {
+      "cite": "202 F. Supp. 2d 55",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        9425963
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "77, n. 28"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/202/0055-01"
+      ]
+    },
+    {
+      "cite": "475 U. S. 335",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6202676
+      ],
+      "weight": 2,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "341"
+        },
+        {
+          "page": "341"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/475/0335-01"
+      ]
+    },
+    {
+      "cite": "483 U. S. 635",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        28199
+      ],
+      "weight": 2,
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "640"
+        },
+        {
+          "page": "639-640"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/483/0635-01"
+      ]
+    },
+    {
+      "cite": "392 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6167798
+      ],
+      "year": 1968,
+      "pin_cites": [
+        {
+          "page": "21-22"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/392/0001-01"
+      ]
+    },
+    {
+      "cite": "428 U. S. 543",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6178901
+      ],
+      "year": 1976,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/428/0543-01"
+      ]
+    },
+    {
+      "cite": "496 U. S. 444",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12123840
+      ],
+      "year": 1990,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/496/0444-01"
+      ]
+    },
+    {
+      "cite": "440 U. S. 648",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6187389
+      ],
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "663"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/440/0648-01"
+      ]
+    },
+    {
+      "cite": "547 U. S. 398",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3275413
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "404"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/547/0398-01"
+      ]
+    },
+    {
+      "cite": "387 U. S. 523",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11338823
+      ],
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "535-538"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/387/0523-01"
+      ]
+    },
+    {
+      "cite": "464 U. S. 287",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6198339
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "294",
+          "parenthetical": "plurality opinion"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/464/0287-01"
+      ]
+    },
+    {
+      "cite": "489 U. S. 602",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12032926
+      ],
+      "year": 1989,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/489/0602-01"
+      ]
+    },
+    {
+      "cite": "515 U. S. 646",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1564392
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "653",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/515/0646-01"
+      ]
+    },
+    {
+      "cite": "534 U. S. 112",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9108037
+      ],
+      "weight": 2,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "122",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "121-122"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/534/0112-01"
+      ]
+    },
+    {
+      "cite": "543 U. S. 146",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5916678
+      ],
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "153-154"
+        },
+        {
+          "page": "153"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/543/0146-01"
+      ]
+    },
+    {
+      "cite": "529 U. S. 334",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9508481
+      ],
+      "weight": 2,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "338, n. 2"
+        },
+        {
+          "page": "335-336, 338, n. 2"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/529/0334-01"
+      ]
+    },
+    {
+      "cite": "517 U. S. 806",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11746960
+      ],
+      "weight": 9,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "814"
+        },
+        {
+          "page": "811-812"
+        },
+        {
+          "page": "813"
+        },
+        {
+          "page": "810, 813"
+        },
+        {
+          "page": "811"
+        },
+        {
+          "page": "812-815"
+        },
+        {
+          "page": "811-812"
+        },
+        {
+          "page": "812"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/517/0806-01"
+      ]
+    },
+    {
+      "cite": "436 U. S. 128",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1490215
+      ],
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "138"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/436/0128-01"
+      ]
+    },
+    {
+      "cite": "531 U. S. 32",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9505377
+      ],
+      "weight": 7,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "47"
+        },
+        {
+          "page": "44"
+        },
+        {
+          "page": "47"
+        },
+        {
+          "page": "45-46",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "47"
+        },
+        {
+          "page": "47"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/531/0032-01"
+      ]
+    },
+    {
+      "cite": "442 U. S. 200",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1531819
+      ],
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "207-208"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/442/0200-01"
+      ]
+    },
+    {
+      "cite": "555 U. S. 223",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3679212
+      ],
+      "weight": 3,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "236"
+        },
+        {
+          "page": "236-237"
+        },
+        {
+          "page": "237-242"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/555/0223-01"
+      ]
+    },
+    {
+      "cite": "457 U. S. 800",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6194865
+      ],
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "818"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/457/0800-01"
+      ]
+    },
+    {
+      "cite": "562 U. S. 980",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5988288,
+        6010401,
+        5960417,
+        5990531,
+        6006115,
+        12438273,
+        12438274,
+        6029223,
+        12438275,
+        12438094,
+        12438095,
+        12438096,
+        12438097,
+        12438098,
+        12438099,
+        12438100,
+        6013817
+      ],
+      "year": 2010,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/562/0980-06",
+        "/us/562/0980-07",
+        "/us/562/0980-04",
+        "/us/562/0980-05",
+        "/us/562/0980-02",
+        "/l-ed-2d/178/0345-03",
+        "/l-ed-2d/178/0345-04",
+        "/us/562/0980-03",
+        "/l-ed-2d/178/0345-05",
+        "/l-ed-2d/178/0320-05",
+        "/l-ed-2d/178/0320-06",
+        "/l-ed-2d/178/0320-07",
+        "/l-ed-2d/178/0321-01",
+        "/l-ed-2d/178/0321-02",
+        "/l-ed-2d/178/0321-03",
+        "/l-ed-2d/178/0321-04",
+        "/us/562/0980-01"
+      ]
+    },
+    {
+      "cite": "598 F. 3d 1129",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4222838
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "1137, 1142"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/598/1129-01"
+      ]
+    },
+    {
+      "cite": "580 F. 3d 949",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4056441
+      ],
+      "weight": 6,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "981"
+        },
+        {
+          "page": "968"
+        },
+        {
+          "page": "972-973",
+          "parenthetical": "internal quotation marks omitted; emphasis added"
+        },
+        {
+          "page": "971"
+        },
+        {
+          "page": "972"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/580/0949-01"
+      ]
+    },
+    {
+      "cite": "403 U. S. 388",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12027206
+      ],
+      "year": 1971,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/403/0397-01"
+      ]
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 3144",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "556 U. S. 662",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653744
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "685"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/556/0662-01"
+      ]
+    },
+    {
+      "cite": "520 U. S. 259",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11651497
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "271"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/520/0259-01"
+      ]
+    },
+    {
+      "cite": "468 U. S. 183",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11337565
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "195"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/468/0183-01"
+      ]
+    },
+    {
+      "cite": "472 U. S. 511",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1512327
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "525"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/472/0511-01"
+      ]
+    },
+    {
+      "cite": "423 U. S. 411",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6177768
+      ],
+      "year": 1976,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/423/0411-01"
+      ]
+    },
+    {
+      "cite": "526 U. S. 603",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11133554
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "617"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/526/0603-01"
+      ]
+    },
+    {
+      "cite": "483 U. S. 635",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        28199
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "639-640"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/483/0635-01"
+      ]
+    },
+    {
+      "cite": "580 F. 3d 949",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4056441
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "972-973"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/580/0949-01"
+      ]
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 3144",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 1
+    },
+    {
+      "cite": "452 U. S. 692",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1313927
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "699, n. 9",
+          "parenthetical": "\"police executing a search warrant at a tavern could not . . . frisk a patron unless the officers had individualized suspicion that the patron might be armed or dangerous\""
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/452/0692-01"
+      ]
+    },
+    {
+      "cite": "469 U. S. 325",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11959437
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "342, n. 8",
+          "parenthetical": "\"the search of T. L. O.'s purse was based upon an individualized suspicion that she had violated school rules\""
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/469/0325-01"
+      ]
+    },
+    {
+      "cite": "473 U. S. 531",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6203102
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "538",
+          "parenthetical": "\"Automotive travelers may be stopped at fixed checkpoints near the border without individualized suspicion....\""
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/473/0531-01"
+      ]
+    },
+    {
+      "cite": "480 U. S. 709",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1131361
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "726",
+          "parenthetical": "\"petitioners had an 'individualized suspicion' of misconduct by Dr. Ortega\""
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/480/0709-01"
+      ]
+    },
+    {
+      "cite": "489 U. S. 656",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12032996
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "668",
+          "parenthetical": "\"[I]n certain limited circumstances, the Government's need to discover . . . latent or hidden conditions, or to prevent their development, is sufficiently compelling to justify [search that intrudes"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/489/0656-01"
+      ]
+    },
+    {
+      "cite": "494 U. S. 325",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5456
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "334-335, n. 2",
+          "parenthetical": "\"Terry [v. Ohio, 392 U. S. 1 (1968),] requires reasonable, individualized suspicion before a frisk for weapons can be conducted.\""
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/494/0325-01"
+      ]
+    },
+    {
+      "cite": "536 U. S. 822",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1254855
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "830",
+          "parenthetical": "\"finding of individualized suspicion may not be necessary when a school conducts drug testing\""
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/536/0822-01"
+      ]
+    },
+    {
+      "cite": "520 U. S. 305",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11651779
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "313",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/520/0305-01"
+      ]
+    },
+    {
+      "cite": "540 U. S. 419",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8897260
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "424-425"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/540/0419-01"
+      ]
+    },
+    {
+      "cite": "441 U. S. 520",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1780223
+      ],
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "539, n. 20"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/441/0520-01"
+      ]
+    },
+    {
+      "cite": "392 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6167798
+      ],
+      "year": 1968,
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/392/0001-01"
+      ]
+    },
+    {
+      "cite": "496 U. S. 444",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12123840
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "451",
+          "parenthetical": "\"Detention of particular motorists for more extensive field sobriety testing may require satisfaction of an individualized suspicion standard.\""
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/496/0444-01"
+      ]
+    },
+    {
+      "cite": "547 U. S. 398",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3275413
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "405",
+          "parenthetical": "referring to \"programmatic searches conducted without individualized suspicion - such as checkpoints to combat drunk driving or drug trafficking\""
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/547/0398-01"
+      ]
+    },
+    {
+      "cite": "517 U. S. 806",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11746960
+      ],
+      "weight": 2,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "817-818",
+          "parenthetical": "observed traffic violations give rise to individualized suspicion"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/517/0806-01"
+      ]
+    },
+    {
+      "cite": "531 U. S. 32",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9505377
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "37",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/531/0032-01"
+      ]
+    },
+    {
+      "cite": "555 U. S. 223",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3679212
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "236-237"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/555/0223-01"
+      ]
+    },
+    {
+      "cite": "403 U. S. 388",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12027206
+      ],
+      "year": 1971,
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/403/0397-01"
+      ]
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 3144",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 2
+    },
+    {
+      "cite": "438 U. S. 154",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1769234
+      ],
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "155-156"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/438/0154-01"
+      ]
+    },
+    {
+      "cite": "529 U. S. 334",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9508481
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "338, n. 2"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/529/0334-01"
+      ]
+    },
+    {
+      "cite": "555 U. S. 223",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3679212
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "237"
+        }
+      ],
+      "opinion_index": 3,
+      "case_paths": [
+        "/us/555/0223-01"
+      ]
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 3144",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 3
+    }
+  ],
+  "analysis": {
+    "cardinality": 1761,
+    "char_count": 43293,
+    "ocr_confidence": 0.59,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.17189419151464042
+    },
+    "sha256": "8e13173a42a47011290e4265ef1f09da286dc8314b2d7882c282a30b7eb3bcba",
+    "simhash": "1:a0aba6cbadf73272",
+    "word_count": 6833
+  },
+  "last_updated": "2024-02-27T23:44:09.189648+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Scalia, J., delivered the opinion of the Court, in which Roberts, C. J., and Kennedy, Thomas, and Alito, JJ., joined. Kennedy, J, filed a concurring opinion, in which Ginsburg, Breyer, and Sotomayor, JJ., joined as to Part I, post, p. 744. Ginsburg, J., filed an opinion concurring in the judgment, in which Breyer and Sotomayor, JJ., joined, post, p. 747. Sotomayor, J, filed an opinion concurring in the judgment, in which Ginsburg and Breyer, JJ., joined, post, p. 751. Kagan, J., took no part in the consideration or decision of the case.",
+      "Justice Kagan took no part in the consideration or decision of this case."
+    ],
+    "parties": [
+      "ASHCROFT v. al-KIDD"
+    ],
+    "opinions": [
+      {
+        "text": "Justice Scalia\ndelivered the opinion of the Court.\nWe decide whether a former Attorney General enjoys immunity from suit for allegedly authorizing federal prosecutors to obtain valid material-witness warrants for detention of terrorism suspects whom they would otherwise lack probable cause to arrest.\nI\nThe federal material-witness statute authorizes judges to \u201corder the arrest of [a] person\u201d whose testimony \u201cis material in a criminal proceeding ... if it is shown that it may become impracticable to secure the presence of the person by subpoena.\u201d 18 U. S. C. \u00a7 3144. Material witnesses enjoy the same constitutional right to pretrial release as other federal detainees, and federal law requires release if their testimony \u201ccan adequately be secured by deposition, and if further detention is not necessary to prevent a failure of justice.\u201d Ibid.\nBecause this case arises from a motion to dismiss, we accept as true the factual allegations in Abdullah al-Kidd\u2019s complaint. The complaint alleges that, in the aftermath of the September 11th terrorist attacks, then-Attorney General John Ashcroft authorized federal prosecutors and law enforcement officials to use the material-witness statute to detain individuals with suspected ties to terrorist organizations. It is alleged that federal officials had no intention of calling most of these individuals as witnesses, and that they were detained, at Ashcroft\u2019s direction, because federal officials suspected them of supporting terrorism but lacked sufficient evidence to charge them with a crime.\nIt is alleged that this pretextual detention policy led to the material-witness arrest of al-Kidd, a native-born United States citizen. FBI agents apprehended him in March 2003 as he checked in for a flight to Saudi Arabia. Two days earlier, federal officials had informed a Magistrate Judge that, if al-Kidd boarded his flight, they believed information \u201ccrucial\u201d to the prosecution of Sami Omar al-Hussayen would be lost. App. 64. Al-Kidd remained in federal custody for 16 days and on supervised release until al-Hussayen\u2019s trial concluded 14 months later. Prosecutors never called him as a witness.\nIn March 2005, al-Kidd filed this Bivens action, see Bivens v. Six Unknown Fed. Narcotics Agents, 403 U. S. 388 (1971), to challenge the constitutionality of Ashcroft\u2019s alleged policy; he also asserted several other claims not relevant here against Ashcroft and others. Ashcroft filed a motion to dismiss based on absolute and qualified immunity, which the District Court denied. A divided panel of the United States Court of Appeals for the Ninth Circuit affirmed, holding that the Fourth Amendment prohibits pretextual arrests absent probable cause of criminal wrongdoing, and that Ashcroft could not claim qualified or absolute immunity. See 580 F. 3d 949 (2009).\nJudge Bea dissented, id., at 981, and eight judges dissented from the denial of rehearing en banc, see 598 F. 3d 1129, 1137, 1142 (2010). We granted certiorari, 562 U. S. 980 (2010).\nII\nQualified immunity shields federal and state officials from money damages unless a plaintiff pleads facts showing (1) that the official violated a statutory or constitutional right, and (2) that the right was \u201cclearly established\u201d at the time of the challenged conduct. Harlow v. Fitzgerald, 457 U. S. 800, 818 (1982). We recently reaffirmed that lower courts have discretion to decide which of the two prongs of qualified-immunity analysis to tackle first. See Pearson v. Callahan, 555 U. S. 223, 236 (2009).\nCourts should think carefully before expending \u201cscarce judicial resources\u201d to resolve difficult and novel questions of constitutional or statutory interpretation that will \u201chave no effect on the outcome of the case.\u201d Id., at 236-237; see id., at 237-242. When, however, a court of appeals does address both prongs of qualified-immunity analysis, we have discretion to correct its errors at each step. Although not necessary to reverse an erroneous judgment, doing so ensures that courts do not insulate constitutional decisions at the frontiers of the law from our review or inadvertently undermine the values qualified immunity seeks to promote. The former occurs when the constitutional-law question is wrongly decided; the latter when what is not clearly established is held to be so. In this case, the Court of Appeals\u2019 analysis at both steps of the qualified-immunity inquiry needs correction.\nA\nThe Fourth Amendment protects \u201c[t]he right of the people to be secure in their persons, houses, papers, and effects, against unreasonable searches and seizures.\u201d An arrest, of course, qualifies as a \u201cseizure\u201d of a \u201cperson\u201d under this provision, Dunaway v. New York, 442 U. S. 200, 207-208 (1979), and so must be reasonable under the circumstances. Al-Kidd does not assert that Government officials would have acted unreasonably if they had used a material-witness warrant to arrest him for the purpose of securing his testimony for trial. See Brief for Respondent 16-17; Tr. of Oral Arg. 20-22. He contests, however (and the Court of Appeals here rejected), the reasonableness of using the warrant to detain him as a suspected criminal.\nFourth Amendment reasonableness \u201cis predominantly an objective inquiry.\u201d Indianapolis v. Edmond, 531 U. S. 32, 47 (2000). We ask whether \u201cthe circumstances, viewed objectively, justify [the challenged] action.\u201d Scott v. United States, 436 U. S. 128, 138 (1978). If so, that action was reasonable \u201cwhatever the subjective intent\u201d motivating the relevant officials. Whren v. United States, 517 U. S. 806, 814 (1996). This approach recognizes that the Fourth Amendment regulates conduct rather than thoughts, Bond v. United States, 529 U. S. 334, 338, n. 2 (2000); and it promotes evenhanded, uniform enforcement of the law, Devenpeck v. Alford, 543 U. S. 146, 153-154 (2004).\nTwo \u201climited exception[s]\u201d to this rule are our special-needs and administrative-search cases, where \u201cactual motivations\u201d do matter. United States v. Knights, 534 U. S. 112, 122 (2001) (internal quotation marks omitted). A judicial warrant and probable cause are not needed where the search or seizure is justified by \"special needs, beyond the normal need for law enforcement,\u201d such as the need to deter drug use in public schools, Vernonia School Dist. 47J v. Acton, 515 U. S. 646, 653 (1995) (internal quotation marks omitted), or the need to ensure that railroad employees engaged in train operations are not under the influence of drugs or alcohol, Skinner v. Railway Labor Executives\u2019 Assn., 489 U. S. 602 (1989); and where the search or seizure is in execution of an administrative warrant authorizing, for example, an inspection of fire-damaged premises to determine the cause, Michigan v. Clifford, 464 U. S. 287, 294 (1984) (plurality opinion), or an inspection of residential premises to ensure compliance with a housing code, Camara v. Municipal Court of City and County of San Francisco, 387 U. S. 523, 535-538 (1967). But those exceptions do not apply where the officer\u2019s purpose is not to attend to the special needs or to the investigation for which the administrative inspection is justified. See Whren, supra, at 811-812. The Government seeks to justify the present arrest on the basis of a properly issued judicial warrant \u2014 so that the special-needs and administrative-inspection cases cannot be the basis for a purpose inquiry here.\nApart from those cases, we have almost uniformly rejected invitations to probe subjective intent. See Brigham City v. Stuart, 547 U. S. 398, 404 (2006). There is one category of exception, upon which the Court of Appeals principally relied. In Edmond, supra, we held that the Fourth Amendment could not condone suspieionless vehicle checkpoints set up for the purpose of detecting illegal narcotics. Although we had previously approved vehicle checkpoints set up for the purpose of keeping off the road unlicensed drivers, Delaware v. Prouse, 440 U. S. 648, 663 (1979), or alcohol-impaired drivers, Michigan Dept of State Police v. Sitz, 496 U. S. 444 (1990); and for the purpose of interdicting those who illegally cross the border, United States v. Martinez-Fuerte, 428 U. S. 543 (1976); we found the drug-detection purpose in Edmond invalidating because it was \u201cultimately indistinguishable from the general interest in crime control,\u201d 531 U. S., at 44. In the Court of Appeals\u2019 view, Edmond established that \u201c 'programmatic purpose\u2019 is relevant to Fourth Amendment analysis of programs of seizures without probable cause.\u201d 580 F. 3d, at 968.\nThat was mistaken. It was not the absence of probable cause that triggered the invalidating-purpose inquiry in Edmond. To the contrary, Edmond explicitly said that it would approve checkpoint stops for \u201cgeneral crime control purposes\u201d that were based upon merely \u201csome quantum of individualized suspicion.\u201d 531 U. S., at 47. Purpose was relevant in Edmond because \u201cprogrammatic purposes may be relevant to the validity of Fourth Amendment intrusions undertaken pursuant to a general scheme without individualized suspicion\u201d id., at 45-46 (emphasis added).\nNeedless to say, warrantless, \u201csuspicionless intrusions pursuant to a general scheme,\u201d id., at 47, are far removed from the facts of this case. A warrant issued by a neutral Magistrate Judge authorized al-Kidd\u2019s arrest. The affidavit accompanying the warrant application (as al-Kidd concedes) gave individualized reasons to believe that he was a material witness and that he would soon disappear. The existence of a judicial warrant based on individualized suspicion takes this case outside the domain of not only our special-needs and administrative-search cases, but of Edmond as well.\nA warrant based on individualized suspicion in fact grants more protection against the malevolent and the incompetent than existed in most of our cases eschewing inquiries into intent. In Whren, supra, at 813, and Devenpeck, supra, at 153, we declined to probe the motives behind seizures supported by probable cause but lacking a warrant approved by a detached magistrate. Terry v. Ohio, 392 U. S. 1, 21-22 (1968), and Knights, 534 U. S., at 121-122, applied an objective standard to warrantless searches justified by a lesser showing of reasonable suspicion. We review even some suspicionless searches for objective reasonableness. See Bond, 529 U. S., at 335-336, 338, n. 2. If concerns about improper motives and pretext do not justify subjective inquiries in those less protective contexts, we see no reason to adopt that inquiry here.\nAl-Kidd would read our cases more narrowly. He asserts that Whren establishes that we ignore subjective intent only when there exists \u201cprobable cause to believe that a violation of law has occurred,\u201d 517 U. S., at 811 \u2014 which was not the case here. That is a distortion of Whren. Our unanimous opinion held that we would not look behind an objectively reasonable traffic stop to determine whether racial profiling or a desire to investigate other potential crimes was the real motive. See id., at 810, 813. In the course of our analysis, we dismissed Whren\u2019s reliance on our inventory-search and administrative-inspection cases by explaining that those cases do not \u201cendors[e] the principle that ulterior motives can invalidate police conduct that is justifiable on the basis of probable cause to believe that a violation of law has occurred,\u201d id., at 811. But to say that ulterior motives do not invalidate a search that is legitimate because of probable cause to believe a crime has occurred is not to say that it does invalidate all searches that are legitimate for other reasons.\n\u201c[OJnly an undiscerning reader,\u201d ibid., would think otherwise. We referred to probable cause to believe that a violation of law had occurred because that was the legitimating factor in the case at hand. But the analysis of our opinion swept broadly to reject inquiries into motive generally. See id., at 812-815. We remarked that our special-needs and administrative-inspection eases are unusual in their concern for pretext, and do nothing more than \u201cexplain that the exemption from the need for probable cause (and warrant), which is accorded to searches made for the purpose of inventory or administrative regulation, is not accorded to searches that are not made for those purposes,\u201d id., at 811-812. And our opinion emphasized that we had at that time (prior to Edmond) rejected every request to examine subjective intent outside the narrow context of special needs and administrative inspections. See 517 U. S., at 812. Thus, al-Kidd\u2019s approach adds an \u201conly\u201d to a sentence plucked from the Whren opinion, and then elevates that sentence (as so revised) over the remainder of the opinion, and over the consistent holdings of our other cases.\nBecause al-Kidd concedes that individualized suspicion supported the issuance of the material-witness arrest warrant; and does not assert that his arrest would have been unconstitutional absent the alleged pretextual use of the warrant; we find no Fourth Amendment violation. Efficient and evenhanded application of the law demands that we look to whether the arrest is objectively justified, rather than to the motive of the arresting officer.\nB\nA Government official\u2019s conduct violates clearly established law when, at the time of the challenged conduct, \u201c[t]he contours of [a] right [are] sufficiently clear\u201d that every \u201creasonable official would [have understood] that what he is doing violates that right.\u201d Anderson v. Creighton, 483 U. S. 635, 640 (1987). We do not require a case directly on point, but existing precedent must have placed the statutory or constitutional question beyond debate. See ibid.; Malley v. Briggs, 475 U. S. 335, 341 (1986). The constitutional question in this case falls far short of that threshold.\nAt the time of al-Kidd\u2019s arrest, not a single judicial opinion had held that pretext could render an objectively reasonable arrest pursuant to a material-witness warrant unconstitutional. A district-court opinion had suggested, in a footnoted dictum devoid of supporting citation, that using such a warrant for preventive detention of suspects \u201cis an illegitimate use of the statute\u201d \u2014 implying (we accept for the sake of argument) that the detention would therefore be unconstitutional. United States v. Awadallah, 202 F. Supp. 2d 55, 77, n. 28 (SDNY 2002). The Court of Appeals thought nothing could \u201chave given John Ashcroft fair[er] warning\u201d that his conduct violated the Fourth Amendment, because the footnoted dictum \u201ccall[ed] out Ashcroft by name\u201d! 580 F. 3d, at 972-973 (internal quotation marks omitted; emphasis added). We will indulge the assumption (though it does not seem to us realistic) that Justice Department lawyers bring to the Attorney General\u2019s personal attention all district judges\u2019 footnoted speculations that boldly \u201ccall him out by name.\u201d On that assumption, would it prove that for him (and for him only?) it became clearly established that pretextual use of the material-witness statute rendered the arrest unconstitutional? An extraordinary proposition. Even a district judge\u2019s ipse dixit of a holding is not \u201ccontrolling authority\u201d in any jurisdiction, much less in the entire United States; and his ipse dixit of a footnoted dictum falls far short of what is necessary absent controlling authority: a robust \u201cconsensus of cases of persuasive authority.\u201d Wilson v. Layne, 526 U. S. 603, 617 (1999).\nThe Court of Appeals\u2019 other cases \u201cclearly establishing\u201d the constitutional violation are, of course, those we rejected as irrelevant in our discussion of whether there was any constitutional violation at all. And the Court of Appeals\u2019 reference to those cases here makes the same error of assuming that purpose is only disregarded when there is probable cause to suspect a violation of law.\nThe Court of Appeals also found clearly established law lurking in the broad \u201chistory and purposes of the Fourth Amendment.\u201d 580 F. 3d, at 971. We have repeatedly told courts \u2014 and the Ninth Circuit in particular, see Brosseau v. Haugen, 543 U. S. 194, 198-199 (2004) (per curiam) \u2014 not to define clearly established law at a high level of generality. See also, e. g., Wilson, supra, at 615; Anderson, supra, at 639-640; cf. Sawyer v. Smith, 497 U. S. 227, 236 (1990). The general proposition, for example, that an unreasonable search or seizure violates the Fourth Amendment is of little help in determining whether the violative nature of particular conduct is clearly established. See Saucier v. Katz, 533 U. S. 194, 201-202 (2001); Wilson, supra, at 615.\nThe same is true of the Court of Appeals\u2019 broad historical assertions. The Fourth Amendment was a response to the English Crown\u2019s use of general warrants, which often allowed royal officials to search and seize whatever and whomever they pleased while investigating crimes or affronts to the Crown. See Stanford v. Texas, 379 U. S. 476, 481-485 (1965). According to the Court of Appeals, Ashcroft should have seen that a pretextual warrant similarly \u201cgut[s] the substantive protections of the Fourth Amendmen[t]\u201d and allows the State \u201cto arrest upon the executive\u2019s mere suspicion.\" 580 F. 3d, at 972.\nAshcroft must be forgiven for missing the parallel, which escapes us as well. The principal evil of the general warrant was addressed by the Fourth Amendment\u2019s particularity requirement, Stanford, supra, at 485, which Ashcroft\u2019s alleged policy made no effort to evade. The warrant authorizing al-Kidd\u2019s arrest named al-Kidd and only al-Kidd. It might be argued, perhaps, that when, in response to the English abuses,, the Fourth Amendment said that warrants could only issue \u201con probable cause\u201d it meant only probable cause to suspect a violation of law, and not probable cause to believe that the individual named in the warrant was a material witness. But that would make all arrests pursuant to material-witness warrants unconstitutional, whether pretextual or not \u2014 and that is not the position taken by al-Kidd in this case.\nWhile featuring a District Court\u2019s footnoted dictum, the Court of Appeals made no mention of this Court\u2019s affirmation in Edmond of the \u201cpredominant] \u201d rule that reasonableness is an objective inquiry, 531 U. S., at 47. Nor did it mention Whren\u2019s and Knights\u2019 statements that subjective intent mattered in a very limited subset of our Fourth Amendment cases; or Terry\u2019s objective evaluation of investigatory searches premised on reasonable suspicion rather than probable cause; or Bond\u2019s objective evaluation of a suspicionless investigatory search. The Court of Appeals seems to have cherry-picked the aspects of our opinions that gave colorable support to the proposition that the unconstitutionality of the action here was clearly established.\nQualified immunity gives government officials breathing room to make reasonable but mistaken judgments about open legal questions. When properly applied, it protects \u201call but the plainly incompetent or those who knowingly violate the law.\u201d Malley, supra, at 341. Ashcroft deserves neither label, not least because eight Court of Appeals judges agreed with his judgment in a case of first impression. See Wilson, supra, at 618. He deserves qualified immunity even assuming \u2014 contrafactually\u2014that his alleged detention policy violated the Fourth Amendment.\n* * *\nWe hold that an objectively reasonable arrest and detention of a material witness pursuant to a validly obtained warrant cannot be challenged as unconstitutional on the basis of allegations that the arresting authority had an improper motive. Because Ashcroft did not violate clearly established law, we need not address the more difficult question whether he enjoys absolute immunity. The judgment of the Court of Appeals is reversed, and the case is remanded for further proceedings consistent with this opinion.\nIt is so ordered.\nJustice Kagan took no part in the consideration or decision of this case.\nThe Court of Appeals also relied upon Ferguson v. Charleston, 532 U. S. 67 (2001), which held unconstitutional a program of mandatory drug testing of maternity patients. Like Edmond, that ease involved a general scheme of searches without individualized suspicion. 532 U. S., at 77, n. 10.\nJustice Ginsburg suggests that our use of the word \u201csuspicion\u201d is peculiar because that word \u201cordinarily\u201d means \u201cthat the person suspected has engaged in wrongdoing.\u201d Post, at 749, n, 3 (opinion concurring in judgment). We disagree. No usage of the word is more common and idiomatic than a statement such as \u201cI have a suspicion he knows something about the crime,\u201d or even \u201cI have a suspicion she is throwing me a surprise birthday party.\u201d The many cases cited by Justice Ginsburg, post, at 749-750, n. 3, which use the neutral word \u201csuspicion\u201d in connection with wrongdoing, prove nothing except that searches and seizures for reasons other than suspected wrongdoing are rare.\nThe concerns of Justices Ginsburg and Sotomayor about the validity of the warrant in this case are beside the point. See post, at 748-749\n(Ginsburg, J., concurring in judgment); post, at 752 (Sotomayor, J., concurring in judgment). The validity of the warrant is not our \u201copening assumption,\u201d post, at 749 (Ginsburg, J., concurring in judgment); it is the premise of al-Kidd\u2019s argument. Al-Kidd does not claim that Ashcroft is liable because the FBI agents failed to obtain a valid warrant. He takes the validity of the warrant as a given, and argues that his arrest nevertheless violated the Constitution because it was motivated by an illegitimate purpose. His separate Fourth Amendment and statutory claims against the FBI agents who sought the material-witness warrant, which are the focus of both concurrences, are not before us.\nWe may note in passing that al-Kidd alleges that the Attorney General authorized the use of material-witness warrants for detention of suspected terrorists, but not that he forbade the use of those warrants to detain material witnesses. Which means that if al-Kidd\u2019s inquiry into actual motive is accepted, mere determination that the Attorney General promulgated the alleged policy would not alone decide the case. Al-Kidd would also have to prove that the officials who sought his material-arrest warrant were motivated by Ashcroft\u2019s policy, not by a desire to call al-Kidd as a witness.",
+        "type": "majority",
+        "author": "Justice Scalia"
+      },
+      {
+        "text": "Justice Kennedy,\nwith whom Justice Ginsburg, Justice Breyer, and Justice Sotomayor join as to Part I, concurring.\nI join the opinion of the Court in full. In holding that the Attorney General could be liable for damages based on an unprecedented constitutional rule, the Court of Appeals for the Ninth Circuit disregarded the purposes of the doctrine of qualified immunity. This concurring opinion makes two additional observations.\nI\nThe Court\u2019s holding is limited to the arguments presented by the parties and leaves unresolved whether the Government\u2019s use of the material-witness statute in this case was lawful. See ante, at 740 (noting that al-Kidd \u201cdoes not assert that his arrest would have been unconstitutional absent the alleged pretextual use of the warrant\u201d). Under the statute, a magistrate judge may issue a warrant to arrest someone as a material witness upon a showing by affidavit that \u201cthe testimony of a person is material in a criminal proceeding\u201d and \u201cthat it may become impracticable to secure the presence of the person by subpoena.\u201d 18 U. S. C. \u00a73144. The scope of the statute\u2019s lawful authorization is uncertain. For example, a law-abiding citizen might observe a crime during the days or weeks before a scheduled flight abroad. It is unclear whether those facts alone might allow police to obtain a material witness warrant on the ground that it \u201cmay become impracticable\u201d to secure the person\u2019s presence by subpoena. Ibid. The question becomes more difficult if one further assumes the traveler would be willing to testify if asked; and more difficult still if one supposes that authorities delay obtaining or executing the warrant until the traveler has arrived at the airport. These possibilities resemble the facts in this case. See ante, at 734.\nIn considering these issues, it is important to bear in mind that the material-witness statute might not provide for the issuance of warrants within the meaning of the Fourth Amendment\u2019s Warrant Clause. The typical arrest warrant is based on probable cause that the arrestee has committed a crime; but that is not the standard for the issuance of warrants under the material-witness statute. See ante, at 743 (reserving the possibility that probable cause for purposes of the Fourth Amendment\u2019s Warrant Clause means \u201conly probable cause to suspect a violation of law\u201d). If material witness warrants do not qualify as \u201cWarrants\u201d under the Fourth Amendment, then material witness arrests might still be governed by the Fourth Amendment\u2019s separate reasonableness requirement for seizures of the person. See United States v. Watson, 423 U. S. 411 (1976). Given the difficulty of these issues, the Court is correct to address only the legal theory put before it, without further exploring when material witness arrests might be consistent with statutory and constitutional requirements.\nII\nThe fact that the Attorney General holds a high office in the Government must inform what law is clearly established for the purposes of this case. Mitchell v. Forsyth, 472 U. S. 511, 525 (1985). Some federal officers perform their functions in a single jurisdiction, say, within the confines of one State or one federal judicial district. They \u201creasonably can anticipate when their conduct may give rise to liability for damages\u201d and so are expected to adjust their behavior in accordance with local precedent. Davis v. Scherer, 468 U. S. 183, 195 (1984); see also Anderson v. Creighton, 483 U. S. 635, 639-640 (1987). In contrast the Attorney General occupies a national office and so sets policies implemented in many jurisdictions throughout the country. The official with responsibilities in many jurisdictions may face ambiguous and sometimes inconsistent sources of decisional law. While it may be clear that one court of appeals has approved a certain course of conduct, other courts of appeals may have disapproved it, or at least reserved the issue.\nWhen faced with inconsistent legal rules in different jurisdictions, national officeholders should be given some deference for qualified immunity purposes, at least if they implement policies consistent with the governing law of the jurisdiction where the action is taken. As we have explained, qualified immunity is lost when plaintiffs point either to \u201ccases of controlling authority in their jurisdiction at the time of the incident\u201d or to \u201ca consensus of cases of persuasive authority such that a reasonable officer could not have believed that his actions were lawful.\u201d Wilson v. Layne, 526 U. S. 603, 617 (1999); see also ante, at 741-742. These standards ensure the officer has \u201cfair and clear warning\u201d of what the Constitution requires. United States v. Lanier, 520 U. S. 259, 271 (1997).\nA national officeholder intent on retaining qualified immunity need not abide by the most stringent standard adopted anywhere in the United States. And the national officeholder need not guess at when a relatively small set of appellate precedents have established a binding legal rule. If national officeholders were subject to personal liability whenever they confronted disagreement among appellate courts, those officers would be deterred from full use of their legal authority. The consequences of that deterrence must counsel caution by the Judicial Branch, particularly in the area of national security. See Ashcroft v. Iqbal, 556 U. S. 662, 685 (2009). Furthermore, too expansive a view of \u201cclearly established law\u201d would risk giving local judicial determinations the effect of rules with de facto national significance, contrary to the normal process of ordered appellate review.\nThe proceedings in this case illustrate these concerns. The Court of Appeals for the Ninth Circuit appears to have reasoned that a Federal District Court sitting in New York had authority to establish a legal rule binding on the Attorney General and, therefore, on federal law enforcement operations conducted nationwide. See 580 F. 3d 949, 972-973 (2009). Indeed, this case involves a material witness warrant issued in Boise, Idaho, and an arrest near Washington, D. C. Of course, district court decisions are not precedential to this extent. Ante, at 741-742. But nationwide security operations should not have to grind to a halt even when an appellate court finds those operations unconstitutional. The doctrine of qualified immunity does not so constrain national officeholders entrusted with urgent responsibilities.",
+        "type": "concurrence",
+        "author": "Justice Kennedy,"
+      },
+      {
+        "text": "Justice Ginsburg,\nwith whom Justice Breyer and Justice Sotomayor join, concurring in the judgment.\nIs a former U. S. Attorney General subject to a suit for damages on a claim that he instructed subordinates to use the material-witness statute, 18 U. S. C. \u00a73144, as a pretext to detain terrorist suspects preventively? Given Whren v. United States, 517 U. S. 806 (1996), I agree with the Court that no \u201cclearly established law\u201d renders Ashcroft answerable in damages for the abuse of authority al-Kidd charged. Ante, at 744. But I join Justice Sotomayor in objecting to the Court\u2019s disposition of al-Kidd\u2019s Fourth Amendment claim on the merits; as she observes, post, at 751 (opinion concurring in judgment), that claim involves novel and trying questions that will \u201chave no effect on the outcome of th[is] case.\u201d Pearson v. Callahan, 555 U. S. 223, 236-237 (2009).\nIn addressing al-Kidd\u2019s Fourth Amendment claim against Ashcroft, the Court assumes at the outset the existence of a validly obtained material witness warrant. Ante, at 733, 744. That characterization is puzzling. See post, at 752 (opinion of Sotomayor, J.). Is a warrant \u201cvalidly obtained\u201d when the affidavit on which it is based fails to inform the issuing Magistrate Judge that \u201cthe Government has no intention of using [al-Kidd as a witness] at [another\u2019s] trial,\u201d post, at 751, and does not disclose that al-Kidd had cooperated with FBI agents each of the several times they had asked to interview him, App. 26?\nCasting further doubt on the assumption that the warrant was validly obtained, the Magistrate Judge was not told that al-Kidd\u2019s parents, wife, and children were all citizens and residents of the United States. In addition, the affidavit misrepresented that al-Kidd was about to take a one-way flight to Saudi Arabia, with a first-class ticket costing approximately $5,000; in fact, al-Kidd had a round-trip, coach-class ticket that cost $1,700. Given these omissions and misrepresentations, there is strong cause to question the Court\u2019s opening assumption \u2014 a valid material witness warrant \u2014 and equally strong reason to conclude that a merits determination was neither necessary nor proper.\nI also agree with Justice Kennedy that al-Kidd\u2019s treatment presents serious questions, unaddressed by the Court, concerning \u201cthe [legality of] the Government\u2019s use of the material-witness statute in this case.\u201d Ante, at 744 (concurring opinion). In addition to the questions Justice Kennedy poses, and even if the initial material witness classification had been proper, what even arguably legitimate basis could there be for the harsh custodial conditions to which al-Kidd was subjected: Ostensibly held only to secure his testimony, al-Kidd was confined in three different detention centers during his 16 days\u2019 incarceration, kept in high-security cells lit 24 hours a day, strip-searched and subjected to body-cavity inspections on more than one occasion, and handcuffed and shackled about his wrists, legs, and waist. App. 29-36; cf. Bell v. Wolfish, 441 U. S. 520, 539, n. 20 (1979) (\u201c[L]oading a detainee with chains and shackles and throwing him in a dungeon may ensure his presence at trial and preserve the security of the institution. But it would be difficult to conceive of a situation where conditions so harsh, employed to achieve objectives that could be accomplished in so many alternative and less harsh methods, would not support a conclusion that the purpose for which they were imposed was to punish.\u201d).\nHowever circumscribed al-Kidd\u2019s Bivens claim against Ashcroft may have been, see Bivens v. Six Unknown Fed. Narcotics Agents, 403 U. S. 388 (1971); ante, at 740 (majority opinion); ante, at 744 (Kennedy, J., concurring), his remaining claims against the FBI agents who apprehended him invite consideration of the issues Justice Kennedy identified. His challenges to the brutal conditions of his confinement have been settled. But his ordeal is a grim reminder of the need to install safeguards against disrespect for human dignity, constraints that will control officialdom even in perilous times.\nNowhere in al-Kidd\u2019s complaint is there any concession that the warrant gained by the FBI agents was validly obtained. But ef. ante, at 740, n. 3 (majority opinion).\nJudicial officers asked to issue material witness warrants must determine whether the affidavit supporting the application shows that \u201cthe testimony of a person is material in a criminal proceeding\u201d and that \u201cit may become impracticable to secure the presence of the person by subpoena.\u201d 18 U. S. C. \u00a73144. Even if these conditions are met, issuance of the warrant is discretionary. Ibid, (\"judicial officer may order the arrest of the person\u201d (emphasis added)). Al-Kidd\u2019s experience illustrates the importance of vigilant exercise of this checking role by the judicial officer to whom the warrant application is presented.\nThe affidavit used to secure al-Kidd\u2019s detention was spare; it did not state with particularity the information al-Kidd purportedly possessed, nor did it specify how al-Kidd\u2019s knowledge would be material to Sami Omar al-Hussayen\u2019s prosecution. As to impracticability, the affidavit contained only this unelaborated statement: \u201cIt is believed that if Al-Kidd travels to Saudi Arabia, the United States Government will be unable to secure his presence at trial via subpoena.\u201d App. 64. Had the Magistrate Judge insisted on more concrete showings of materiality and impracticability, al-Kidd might have been spared the entire ordeal.\nThe Court thrice states that the material witness warrant for al-Kidd\u2019s arrest was \u201cbased on individualized suspicion.\u201d Ante, at 738, 740. The word \u201csuspicion,\u201d however, ordinarily indicates that the person suspected has engaged in wrongdoing. See Black\u2019s Law Dictionary 1585 (9th ed. 2009) (defining \u201creasonable suspicion\u201d to mean \u201c[a] particularized and objective basis, supported by specific and articulable facts, for suspecting a person of criminal activity\u201d). Material witness status does not \u201cinvolv[e] suspicion, or lack of suspicion,\u201d of the individual so identified. See Illinois v. Lidster, 540 U. S. 419, 424-425 (2004).\nThis Court\u2019s decisions, until today, have uniformly used the term \u201cindividualized suspicion\u201d to mean \u201cindividualized suspicion of wrongdoing.\u201d See Indianapolis v. Edmond, 531 U. S. 32, 37 (2000) (emphasis added); Chandler v. Miller, 520 U. S. 305, 313 (1997) (same). See also, e. g., Brigham City v. Stuart, 547 U. S. 398, 405 (2006) (referring to \u201cprogrammatic searches conducted without individualized suspicion \u2014 such as checkpoints to combat drunk driving or drug trafficking\u201d); Board of Ed. of Independent School Dist. No. 92 of Pottawatomie Cty. v. Earls, 536 U. S. 822, 830 (2002) (\u201cfinding of individualized suspicion may not be necessary when a school conducts drug testing\u201d); Whren v. United States, 517 U. S. 806, 817-818 (1996) (observed traffic violations give rise to individualized suspicion); Michigan Dept. of State Police v. Sitz, 496 U. S. 444, 451 (1990) (\u201cDetention of particular motorists for more extensive field sobriety testing may require satisfaction of an individualized suspicion standard.\u201d); Maryland v. Buie, 494 U. S. 325, 334-335, n. 2 (1990) (\u201cTerry [v. Ohio, 392 U. S. 1 (1968),] requires reasonable, individualized suspicion before a frisk for weapons can be conducted.\u201d); Treasury Employees v. Von Raab, 489 U. S. 656, 668 (1989) (\u201c[I]n certain limited circumstances, the Government\u2019s need to discover . . . latent or hidden conditions, or to prevent their development, is sufficiently compelling to justify [search that intrudes) on privacy ... without any measure of individualized suspicion.\u201d); O\u2019Connor v. Ortega, 480 U. S. 709, 726 (1987) (\u201cpetitioners had an \u2018individualized suspicion\u2019 of misconduct by Dr. Ortega\u201d); United States v. Montoya de Hernandez, 473 U. S. 531, 538 (1985) (\u201cAutomotive travelers may be stopped at fixed checkpoints near the border without individualized suspicion....\u201d); New Jersey v. T L. O., 469 U. S. 325, 342, n. 8 (1985) (\u201cthe search of T. L. O.\u2019s purse was based upon an individualized suspicion that she had violated school rules\u201d); Michigan v. Summers, 452 U. S. 692, 699, n. 9 (1981) (\u201cpolice executing a search warrant at a tavern could not . . . frisk a patron unless the officers had individualized suspicion that the patron might be armed or dangerous\u201d).\nThe Court\u2019s suggestion that the term \u201cindividualized suspicion\u201d is more commonly associated with \u201cknowfing] something about [a] crime\u201d or \u201cthrowing ... a surprise birthday party\u201d than with criminal suspects, ante, at 738, n. 2 (internal quotation marks omitted), is hardly credible. The import of the term in legal argot is not genuinely debatable. When the evening news reports that a murder \u201csuspect\u201d is on the loose, the viewer is meant to be on the lookout for the perpetrator, not the witness. Ashcroft understood the term as lawyers commonly do: He spoke of detaining material witnesses as a means to \u201ctak[e] suspected terrorists off the street.\u201d App. 41 (internal quotation marks omitted).\nThe District Court determined that al-Kidd\u2019s factual allegations against FBI agents regarding their \u201cmisrepresentations and omissions in the warrant application, if true, would negate the possibility of qualified immunity [for those agents].\u201d Memorandum Order in No. cv:05-093 (D Idaho, Sept. 27, 2006), p. 18. The agents took no appeal from this threshold denial of their qualified immunity plea.",
+        "type": "concurrence",
+        "author": "Justice Ginsburg,"
+      },
+      {
+        "text": "Justice Sotomayor,\nwith whom Justice Ginsburg and Justice Breyer join, concurring in the judgment.\nI concur in the Court\u2019s judgment reversing the Court of Appeals because I agree with the majority\u2019s conclusion that Ashcroft did not violate clearly established law. I cannot join the majority\u2019s opinion, however, because it unnecessarily \u201cresolve[s] [a] difficult and novel questio[n] of constitutional ... interpretation that will \u2018have no effect on the outcome of the case.\u2019 \u201d Ante, at 735 (quoting Pearson v. Callahan, 555 U. S. 223, 237 (2009)).\nWhether the Fourth Amendment permits the pretextual use of a material witness warrant for preventive detention of an individual whom the Government has no intention of using at trial is, in my view, a closer question than the majority\u2019s opinion suggests. Although the majority is correct that a government official\u2019s subjective intent is generally \u201cirrelevant in determining whether that officer\u2019s actions violate the Fourth Amendment,\u201d Bond v. United States, 529 U. S. 334, 338, n. 2 (2000), none of our prior cases recognizing that principle involved prolonged detention of an individual without probable cause to believe he had committed any criminal offense. We have never considered whether an official\u2019s subjective intent matters for purposes of the Fourth Amendment in that novel context, and we need not and should not resolve that question in this case. All Members of the Court agree that, whatever the merits of the underlying Fourth Amendment question, Ashcroft did not violate clearly established law.\nThe majority\u2019s constitutional ruling is a narrow one premised on the existence of a \u201cvalid material-witness warrant],\u201d ante, at 733 \u2014 a premise that, at the very least, is questionable in light of the allegations set forth in al-Kidd\u2019s complaint. Based on those allegations, it is not at all clear that it would have been \u201cimpracticable to secure [al-Kidd\u2019s] presence ... by subpoena\u201d or that his testimony could not \u201cadequately be secured by deposition.\u201d 18 U. S. C. \u00a73144; see First Amended Complaint in No. 05-093-EJL, \u00b6 55, App. 26 (\u201cMr. al-Kidd would have complied with a subpoena had he been issued one or agreed to a deposition\u201d). Nor is it clear that the affidavit supporting the warrant was sufficient; its failure to disclose that the Government had no intention of using al-Kidd as a witness at trial may very well have rendered the affidavit deliberately false and misleading. Cf. Franks v. Delaware, 438 U. S. 154, 155-156 (1978). The majority assumes away these factual difficulties, but in my view, they point to the artificiality of the way the Fourth Amendment question has been presented to this Court and provide further reason to avoid rendering an unnecessary holding on the constitutional question.\nI also join Part I of Justice Kennedy\u2019s concurring opinion. As that opinion makes clear, this case does not present an occasion to address the proper scope of the material witness statute or its constitutionality as applied in this case. Indeed, nothing in the majority\u2019s opinion today should be read as placing this Court\u2019s imprimatur on the actions taken by the Government against al-Kidd. Ante, at 744 (Kennedy, J., concurring) (\u201cThe Court's holding is limited to the arguments presented by the parties and leaves unresolved whether the Government\u2019s use of the material-witness statute in this case was lawful\u201d).",
+        "type": "concurrence",
+        "author": "Justice Sotomayor,"
+      }
+    ],
+    "attorneys": [
+      "Acting Solicitor General Katyal argued the cause for petitioner. With him on the briefs were Assistant Attorney General West, Acting Deputy Solicitor General Kruger, Eric D. Miller, and Matthew M, Collette.",
+      "Lee Gelernt argued the cause for respondent. With him on the brief were Steven R. Shapiro, Lucas Guttentag, Michael J. Wishnie, and Cynthia J. Woolley"
+    ],
+    "corrections": "",
+    "head_matter": "ASHCROFT v. al-KIDD\nNo. 10-98.\nArgued March 2, 2011 \u2014\nDecided May 31, 2011\nScalia, J., delivered the opinion of the Court, in which Roberts, C. J., and Kennedy, Thomas, and Alito, JJ., joined. Kennedy, J, filed a concurring opinion, in which Ginsburg, Breyer, and Sotomayor, JJ., joined as to Part I, post, p. 744. Ginsburg, J., filed an opinion concurring in the judgment, in which Breyer and Sotomayor, JJ., joined, post, p. 747. Sotomayor, J, filed an opinion concurring in the judgment, in which Ginsburg and Breyer, JJ., joined, post, p. 751. Kagan, J., took no part in the consideration or decision of the case.\nActing Solicitor General Katyal argued the cause for petitioner. With him on the briefs were Assistant Attorney General West, Acting Deputy Solicitor General Kruger, Eric D. Miller, and Matthew M, Collette.\nLee Gelernt argued the cause for respondent. With him on the brief were Steven R. Shapiro, Lucas Guttentag, Michael J. Wishnie, and Cynthia J. Woolley\nBriefs of amici curiae urging reversal were filed for William P. Barr et al. by Daniel J. Popeo and Richard A. Samp; and for Wesley MaeNeil Oliver by Mr. Oliver, pro se.\nBriefs of amici curiae urging affirmance were filed for the Center for Justice and Accountability by Jonathan C. Drimmer and Kathryn J. Gainey; for Former Federal Prosecutors by Aaron R. Marcu; for Human Rights Watch et al. by Joseph F. Tringali and Jeffrey L. Fisher; for Legal History and Criminal Procedure Law Professors by Stephanos Bibas and Peter C. Meier; and for Legal Scholars by Kevin K. Russell and Amy Howe.\nChristopher T. Handman and Sharon Bradford Franklin filed a brief for the Constitution Project as amicus curiae."
+  },
+  "file_name": "0731-01",
+  "first_page_order": 813,
+  "last_page_order": 835
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5958912,
+  "name": "Roos v. Roos",
+  "name_abbreviation": "Roos v. Roos",
+  "decision_date": "2011-01-24",
+  "docket_number": "No. 10-707",
+  "first_page": "1201",
+  "last_page": "1201",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1201"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 75,
+    "ocr_confidence": 0.648,
+    "sha256": "c1bc2a1ef1dde185f03b94ef2522ac067f9350793b62d43133439392ce503f80",
+    "simhash": "1:97cd22ad3cce2ac3",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Roos v. Roos."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 2d App. Dist. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-707.\nRoos v. Roos."
+  },
+  "file_name": "1201-06",
+  "first_page_order": 1223,
+  "last_page_order": 1223
+}

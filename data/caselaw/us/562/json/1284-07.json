@@ -1,0 +1,59 @@
+{
+  "id": 6029323,
+  "name": "Juvenile Male v. United States",
+  "name_abbreviation": "Juvenile Male v. United States",
+  "decision_date": "2011-03-21",
+  "docket_number": "No. 10M87",
+  "first_page": "1284",
+  "last_page": "1284",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1284"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 22,
+    "char_count": 147,
+    "ocr_confidence": 0.582,
+    "sha256": "af31aeb18e104c88027033ea8c9a7345d7068ba4b05eb74064f29609820697c9",
+    "simhash": "1:c62f98337be9451c",
+    "word_count": 23
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Juvenile Male v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "Motion for leave to file petition for writ of certiorari with supplemental appendix under seal granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10M87.\nJuvenile Male v. United States."
+  },
+  "file_name": "1284-07",
+  "first_page_order": 1306,
+  "last_page_order": 1306
+}

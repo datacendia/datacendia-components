@@ -1,0 +1,59 @@
+{
+  "id": 6001161,
+  "name": "Bajala v. Holder, Attorney General",
+  "name_abbreviation": "Bajala v. Holder, Attorney General",
+  "decision_date": "2010-12-13",
+  "docket_number": "No. 10-149",
+  "first_page": "1108",
+  "last_page": "1108",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1108"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 82,
+    "ocr_confidence": 0.561,
+    "sha256": "63a29783d231c69425868c1262e7668092cb32749489b316b7aaf3407d70bfae",
+    "simhash": "1:413106b82dad6444",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bajala v. Holder, Attorney General."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-149.\nBajala v. Holder, Attorney General."
+  },
+  "file_name": "1108-06",
+  "first_page_order": 1130,
+  "last_page_order": 1130
+}

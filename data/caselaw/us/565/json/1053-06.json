@@ -1,0 +1,59 @@
+{
+  "id": 12234743,
+  "name": "In re Discipline of Harman",
+  "name_abbreviation": "In re Discipline of Harman",
+  "decision_date": "2011-11-28",
+  "docket_number": "No. D-2613",
+  "first_page": "1053",
+  "last_page": "1053",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1053"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 41,
+    "char_count": 283,
+    "ocr_confidence": 0.589,
+    "sha256": "0f68400d2bdee16d0c9683a745af5bf20e248128f286256b72110d267f9cfa59",
+    "simhash": "1:7e8a372637fca7e4",
+    "word_count": 52
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Harman."
+    ],
+    "opinions": [
+      {
+        "text": "Sara Davis Har-man, of Glen Allen, Va., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring her to show cause why she should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2613.\nIn re Discipline of Harman."
+  },
+  "file_name": "1053-06",
+  "first_page_order": 1135,
+  "last_page_order": 1135
+}

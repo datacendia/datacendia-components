@@ -1,0 +1,59 @@
+{
+  "id": 12412710,
+  "name": "Langley v. Louisiana",
+  "name_abbreviation": "Langley v. Louisiana",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10367",
+  "first_page": "841",
+  "last_page": "841",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 841"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.625,
+    "sha256": "d283618c622cb5a7aae73baaaf0a4f594f850419eaaacfc7e72a485930c3304c",
+    "simhash": "1:2c736af9446cf23c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Langley v. Louisiana."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. La., 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10367.\nLangley v. Louisiana."
+  },
+  "file_name": "0841-10",
+  "first_page_order": 917,
+  "last_page_order": 917
+}

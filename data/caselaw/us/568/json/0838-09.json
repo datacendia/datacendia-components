@@ -1,0 +1,59 @@
+{
+  "id": 12412335,
+  "name": "McKnight v. Texas",
+  "name_abbreviation": "McKnight v. Texas",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10275",
+  "first_page": "838",
+  "last_page": "838",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 838"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.693,
+    "sha256": "dcebcea596b6e0b8907bd0ffcf63655874f29bb3d7f7674a1a3813c18f00fe45",
+    "simhash": "1:9101cb9326e9e60c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McKnight v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Tex., 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10275.\nMcKnight v. Texas."
+  },
+  "file_name": "0838-09",
+  "first_page_order": 914,
+  "last_page_order": 914
+}

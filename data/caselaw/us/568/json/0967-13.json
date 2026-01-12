@@ -1,0 +1,59 @@
+{
+  "id": 12419678,
+  "name": "Williams v. Lewis, Acting Warden",
+  "name_abbreviation": "Williams v. Lewis",
+  "decision_date": "2012-10-15",
+  "docket_number": "No. 12-6055",
+  "first_page": "967",
+  "last_page": "967",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 967"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 81,
+    "ocr_confidence": 0.627,
+    "sha256": "11758b61f72fb88732b161300d3934f946da41717676ee766dd9ec2715325136",
+    "simhash": "1:11efa3910b8a4876",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. Lewis, Acting Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6055.\nWilliams v. Lewis, Acting Warden."
+  },
+  "file_name": "0967-13",
+  "first_page_order": 1043,
+  "last_page_order": 1043
+}

@@ -1,0 +1,974 @@
+{
+  "id": 12520881,
+  "name": "UNITED STATES of America, Plaintiff - Appellee, v. Leonard ARAGON, Defendant - Appellant.",
+  "name_abbreviation": "U.S. v. Aragon",
+  "decision_date": "2019-04-29",
+  "docket_number": "No. 18-1121",
+  "first_page": "1102",
+  "last_page": "1117",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "922 F.3d 1102"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "10th Cir.",
+    "id": 8771,
+    "name": "United States Court of Appeals for the Tenth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "796 F.3d 1206",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5768961
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "parenthetical": "declining to address claims withdrawn before oral argument"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/796/1206-01"
+      ]
+    },
+    {
+      "cite": "785 F.2d 777",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1565256
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "780"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/785/0777-01"
+      ]
+    },
+    {
+      "cite": "80 F.3d 1433",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7644227
+      ],
+      "weight": 2,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "1448"
+        },
+        {
+          "page": "1450"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/80/1433-01"
+      ]
+    },
+    {
+      "cite": "780 F.3d 1018",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4073297
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1022",
+          "parenthetical": "declining to address sufficiency of mitigation evidence when remanding because of erroneous jury instruction, observing, \"The sufficiency of the evidence entails a fact-intensive inquiry, and the mitigation evidence may be different on remand.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/780/1018-01"
+      ]
+    },
+    {
+      "cite": "437 F.3d 960",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        969495
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "963"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/437/0960-01"
+      ]
+    },
+    {
+      "cite": "749 F.3d 1302",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4064384
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1315-16"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/749/1302-01"
+      ]
+    },
+    {
+      "cite": "1992 WL 379411",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "*4"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "981 F.2d 1260",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "year": 1992,
+      "opinion_index": 0
+    },
+    {
+      "cite": "696 F.Supp. 336",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        7398835
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "parenthetical": "\"[T]here was a great disparity between the gross (23.45 grams) and net (.037 gram) weight of the drugs ....\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/696/0336-01"
+      ]
+    },
+    {
+      "cite": "2006 WL 2670977",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "*4",
+          "parenthetical": "\"The approximate gross weight was 27.3 grams. Lab tests were conclusive for the presence of cocaine base with a net weight of 2.0 grams.\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "1993 WL 12667",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "*2",
+          "parenthetical": "\"28.2 gross grams of heroin were involved in the unindicted transaction and ... analysis of the heroin reflected a net weight of 3.8 grams.\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "986 F.2d 1431",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "year": 1993,
+      "pin_cites": [
+        {
+          "parenthetical": "\"28.2 gross grams of heroin were involved in the unindicted transaction and ... analysis of the heroin reflected a net weight of 3.8 grams.\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "910 P.2d 695",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "case_ids": [
+        12261638
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "730"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/haw/80/0382-01"
+      ]
+    },
+    {
+      "cite": "282 F.3d 1261",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9475886
+      ],
+      "weight": 2,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "1279-81"
+        },
+        {
+          "page": "1281"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/282/1261-01"
+      ]
+    },
+    {
+      "cite": "993 F.2d 204",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10511872
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "208"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/993/0204-01"
+      ]
+    },
+    {
+      "cite": "27 F.3d 465",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10527022
+      ],
+      "weight": 3,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "469"
+        },
+        {
+          "page": "469"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/27/0465-01"
+      ]
+    },
+    {
+      "cite": "409 F.3d 1247",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8960740
+      ],
+      "weight": 3,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1251"
+        },
+        {
+          "page": "1251"
+        },
+        {
+          "page": "1251"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/409/1247-01"
+      ]
+    },
+    {
+      "cite": "515 F.3d 1128",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3645436
+      ],
+      "weight": 2,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "1135"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/515/1128-01"
+      ]
+    },
+    {
+      "cite": "93 F.3d 1469",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7640069
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "1485"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/93/1469-01"
+      ]
+    },
+    {
+      "cite": "435 F.3d 1252",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        936295
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "1258"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/435/1252-01"
+      ]
+    },
+    {
+      "cite": "488 F.3d 1298",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6045824
+      ],
+      "weight": 2,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "1308"
+        },
+        {
+          "page": "1308"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/488/1298-01"
+      ]
+    },
+    {
+      "cite": "78 F.3d 1457",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        94754
+      ],
+      "weight": 3,
+      "year": 1996,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/78/1457-01"
+      ]
+    },
+    {
+      "cite": "529 F.3d 1290",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3627859
+      ],
+      "weight": 3,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "1298"
+        },
+        {
+          "page": "1299"
+        },
+        {
+          "page": "1299"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/529/1290-01"
+      ]
+    },
+    {
+      "cite": "29 F.3d 572",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1840506
+      ],
+      "weight": 3,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "580"
+        },
+        {
+          "page": "580"
+        },
+        {
+          "page": "578"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/29/0572-01"
+      ]
+    },
+    {
+      "cite": "437 F.3d 1050",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        969605
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "1054"
+        },
+        {
+          "page": "1055"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/437/1050-01"
+      ]
+    },
+    {
+      "cite": "21 U.S.C. \u00a7 841",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)(1) and (b)(1)(C)"
+        },
+        {
+          "page": "(b)(1)(A)(i)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "516 F.3d 702",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3640327
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "704",
+          "parenthetical": "\"Courts are not obligated to accept [Rule 11(c)(1)(C) ] plea agreements and have discretion to reject those which are deemed involuntary or unfair.\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/516/0702-01"
+      ]
+    },
+    {
+      "cite": "564 U.S. 522",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12450497,
+        5925227
+      ],
+      "weight": 3,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "529",
+          "parenthetical": "plurality opinion"
+        },
+        {
+          "parenthetical": "plurality opinion"
+        },
+        {
+          "parenthetical": "plurality opinion"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/l-ed-2d/180/0519-01",
+        "/us/564/0522-01"
+      ]
+    },
+    {
+      "cite": "765 F.3d 1240",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4184466
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1248",
+          "parenthetical": "\"Rule 11(c)(1)(C"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/765/1240-01"
+      ]
+    },
+    {
+      "cite": "771 F.3d 84",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4290200
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "86",
+          "parenthetical": "\"[A]ttorneys, as officers of the court, remain bound by their ... duty to provide full and accurate information about the offense and the offender to the sentencing court.\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/771/0084-01"
+      ]
+    },
+    {
+      "cite": "231 F.3d 26",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11174153,
+        3675139
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "38",
+          "parenthetical": "\"At [the] sentencing hearing, the Government had a duty to provide relevant information about whether [the defendant] obstructed justice, even though it had agreed not to take a stand on whether he should receive a sentence enhancement.\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/231/0026-01",
+        "/us-app-dc/343/0392-01"
+      ]
+    },
+    {
+      "cite": "199 L.Ed.2d 135",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12612808,
+        12612809,
+        12612810,
+        12612811,
+        12612812,
+        12612813,
+        12612782,
+        12612783
+      ],
+      "year": 2017,
+      "opinion_index": 1,
+      "case_paths": [
+        "/s-ct/138/0205-01",
+        "/s-ct/138/0205-02",
+        "/s-ct/138/0205-03",
+        "/s-ct/138/0205-04",
+        "/s-ct/138/0205-05",
+        "/s-ct/138/0205-06",
+        "/s-ct/138/0204-05",
+        "/s-ct/138/0204-06"
+      ]
+    },
+    {
+      "cite": "138 S. Ct. 205",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12612808,
+        12612809,
+        12612810,
+        12612811,
+        12612812,
+        12612813
+      ],
+      "year": 2017,
+      "opinion_index": 1,
+      "case_paths": [
+        "/s-ct/138/0205-01",
+        "/s-ct/138/0205-02",
+        "/s-ct/138/0205-03",
+        "/s-ct/138/0205-04",
+        "/s-ct/138/0205-05",
+        "/s-ct/138/0205-06"
+      ]
+    },
+    {
+      "cite": "660 F.2d 1086",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        390820
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "1092"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/660/1086-01"
+      ]
+    },
+    {
+      "cite": "853 F.3d 215",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12276978
+      ],
+      "pin_cites": [
+        {
+          "page": "218"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/853/0215-01"
+      ]
+    },
+    {
+      "cite": "928 F.2d 356",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1138327
+      ],
+      "weight": 2,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "363"
+        },
+        {
+          "page": "363"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/928/0356-01"
+      ]
+    },
+    {
+      "cite": "973 F.2d 857",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10517822
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "860"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/973/0857-01"
+      ]
+    },
+    {
+      "cite": "786 F.3d 1322",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4191084
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1332",
+          "parenthetical": "Ebel, J., sitting by designation"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/786/1322-01"
+      ]
+    },
+    {
+      "cite": "348 F.3d 147",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9061920
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "149"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/348/0147-01"
+      ]
+    },
+    {
+      "cite": "515 U.S. 389",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1563793
+      ],
+      "weight": 3,
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "393"
+        },
+        {
+          "parenthetical": "\"Under the Sentencing Guidelines, the sentencing range for a particular offense is determined on the basis of all 'relevant conduct' in which the defendant was engaged and not just with regard to the conduct underlying the offense of conviction.\" (quoting U.S.S.G. \u00a7 1B1.3 "
+        },
+        {
+          "parenthetical": "\"Under the Sentencing Guidelines, the sentencing range for a particular offense is determined on the basis of all 'relevant conduct' in which the defendant was engaged and not just with regard to the conduct underlying the offense of conviction.\" (quoting U.S.S.G. \u00a7 1B1.3 )"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/515/0389-01"
+      ]
+    },
+    {
+      "cite": "136 S.Ct. 1338",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12595701
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1345",
+          "parenthetical": "\"The Court has made clear that the Guidelines are to be the sentencing court's 'starting point and ... initial benchmark.' \" (omission in original) (quoting Gall , 552 U.S. at 49, 128 S.Ct. 586 )"
+        },
+        {
+          "parenthetical": "\"The Court has made clear that the Guidelines are to be the sentencing court's 'starting point and ... initial benchmark.' \" (omission in original) (quoting Gall , 552 U.S. at 49, 128 S.Ct. 586 )"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/s-ct/136/1338-01"
+      ]
+    },
+    {
+      "cite": "468 U.S. 559",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11339284
+      ],
+      "weight": 3,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "563",
+          "parenthetical": "\"The sentencing court ... must be permitted to consider any and all information that reasonably might bear on the proper sentence for the particular defendant ....\""
+        },
+        {
+          "parenthetical": "\"The sentencing court ... must be permitted to consider any and all information that reasonably might bear on the proper sentence for the particular defendant ....\""
+        },
+        {
+          "parenthetical": "\"The sentencing court ... must be permitted to consider any and all information that reasonably might bear on the proper sentence for the particular defendant ....\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/468/0559-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3661",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "parenthetical": "\"No limitation shall be placed on the information concerning the background, character, and conduct of a person convicted of an offense which a court of the United States may receive and consider for the purpose of imposing an appropriate sentence.\""
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "312 F.3d 984",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "993",
+          "parenthetical": "noting that the government \"provid[ed] information to the Probation Department regarding\" a defendant's arguably relevant conduct \"while recommending successfully to the district court that it not rely on that information in sentencing\""
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "366 F.3d 667",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9257683
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "671",
+          "parenthetical": "\"[T]he sentencing guidelines require the district court independently to evaluate the evidence when imposing a sentence.\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/366/0667-01"
+      ]
+    },
+    {
+      "cite": "552 U.S. 38",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3675664
+      ],
+      "weight": 7,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "49",
+          "parenthetical": "\"[A] district court should begin all sentencing proceedings by correctly calculating the applicable Guidelines range.\""
+        },
+        {
+          "parenthetical": "\"[A] district court should begin all sentencing proceedings by correctly calculating the applicable Guidelines range.\""
+        },
+        {
+          "parenthetical": "\"[A] district court should begin all sentencing proceedings by correctly calculating the applicable Guidelines range.\""
+        },
+        {
+          "page": "49-50"
+        },
+        {
+          "page": "49"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/552/0038-01"
+      ]
+    },
+    {
+      "cite": "796 F.3d 1206",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5768961
+      ],
+      "year": 2015,
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/796/1206-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1603,
+    "char_count": 41799,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.259274768528976
+    },
+    "sha256": "76c808512d6e19995d94889b96436b2f82e9312aa733a010a65b5c7c85099a3b",
+    "simhash": "1:ab6cef246807160a",
+    "word_count": 6740
+  },
+  "last_updated": "2024-02-27T18:46:53.504629+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before HOLMES, McKAY, and KELLY, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff - Appellee,\nv.\nLeonard ARAGON, Defendant - Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "McKAY, Circuit Judge.\nLeonard Aragon was sentenced to 48 months' imprisonment after pleading guilty to one count of possession with intent to distribute controlled substances in violation of 21 U.S.C. \u00a7 841(a)(1) and (b)(1)(C). He now appeals that sentence. On appeal, Mr. Aragon argues the district court erred in finding that two packages found in his car contained 28.5 grams of methamphetamine and 11 grams of heroin, respectively. He also contends \"the judge abused his discretion by sua sponte presenting his own evidence in support of a higher sentence.\" (Appellant's Br. at 1.) Finally, Mr. Aragon requests that his case be assigned to a different judge for resentencing on remand.\nI.\nIn March and April 2017, the Federal Bureau of Investigation made two controlled buys of heroin from Mr. Aragon. On the first occasion, the FBI purchased two packages of heroin that weighed approximately 25 grams apiece when field-tested. The heroin purchased on the second occasion weighed 24.8 grams when field-tested. Laboratory testing confirmed that the three packages in fact contained heroin with net weights of 23.67, 24.07, and 24.16 grams, respectively. In September 2017, Mr. Aragon was indicted on two counts of distributing heroin. Three months later, he agreed to plead guilty to one count of possession with intent to distribute.\nThe district court held a change of plea hearing in December 2017. The judge began the hearing by asking the parties why, pursuant to the plea agreement, they had both agreed to ask for a sentence at the high end of the advisory guideline range. Defense counsel responded that the parties had \"limited the relevant conduct in terms of [their] stipulation of facts\" and \"the base-offense level would have been higher\" had they included \"everything that could be included from the discovery.\" (Appellant's App. Vol. III at 10.) When the judge asked why relevant conduct was excluded, defense counsel stated that the prosecutor understood Mr. Aragon to be \"closer to the bottom\" of his drug-distribution organization and thus the parties considered it \"fair\" to disregard \"some uncharged conduct that could have been either charged or used as relevant conduct.\" (Id. at 10-11.) Upon further prompting by the judge, defense counsel identified the uncharged conduct as \"a number of items of contraband [found] in [Mr. Aragon's] car\" when he was arrested. (Id. at 11.)\nLater in the hearing, the judge raised the issue of whether Mr. Aragon could subsequently be charged with the other conduct. The parties both acknowledged that the plea agreement did not contain any terms relating to the uncharged conduct but also stated that they understood the government had no intention of so charging him. Because of this, the judge reset the change of plea hearing, instructing the parties to \"write a Plea Agreement that doesn't hide things from me; that tells me what is going on[,] what is agreed to and what is not agreed to.\" (Id. at 19.) The judge also stated, \"[T]he odds on a presentence investigation just went up dramatically.\" (Id. )\nThe parties returned that afternoon, and the judge started the hearing over from the beginning. The revised plea agreement provided that the government would \"not pursue additional charges or a sentencing increase based on items found in a vehicle at the time of the defendant's arrest.\" (Appellant's App. Vol. I at 18.) In reviewing the portion of the plea agreement regarding the parties both again asking for a sentence at the high end of the guidelines range-37 months based on a total offense level of 17-the judge noted \"the mystery question of what this other stuff found in the car was, and whether or not it's relevant conduct.\" (Appellant's App. Vol. III at 34-35.) At the hearing's conclusion, the judge requested, \"[c]ontrary to [his] ordinary practice,\" \"that the probation department conduct an independent factual investigation of the offense conduct in this matter.\" (Id. at 48.)\nIn March 2018, the district court issued a minute order stating that the court was \"concerned about the facts and relevant conduct in this case\" and directing the government to \"have the case agent present at sentencing\" and to furnish the court with \"copies of all documents and reports relating to Mr. Aragon's arrest and the discovery of drugs in his car (in the possession of law enforcement and/or the U.S. Attorney's Office).\" (Appellant's App. Vol. I at 25.) When the government sent the court a binder containing these documents but excluding portions of a police report relating to jail phone calls, the court issued a minute order directing the government to provide the missing pages of the police report. In response to this second order, the government also gave the court a report regarding the contents of Mr. Aragon's cell phone.\nThese additional documents reveal that law enforcement obtained and executed a search warrant for Mr. Aragon's car in September 2017. The search was conducted by Task Force Officer Jeremy Mathews. Officer Mathews' inventory of the property found in the car includes a cell phone, pills, bullets, almost $ 3,000 in cash, a digital scale, and a number of packages containing suspected heroin, methamphetamine, and cocaine. The record contains numerous photographs of Mr. Aragon's car and its contents.\nThe presentence investigation report indicates that \"[t]he case agent, Andrew Cohen, reported the drugs recovered from the defendant's vehicle yielded the following packaged weights[:] heroin (11.5 grams), cocaine (6.7 grams), methamphetamine (29 grams), and 3 pills of oxycodone.\" (Appellant's App. Vol. II at 13.) Agent Cohen also reported that none of these drugs had been sent to the laboratory for testing. The PSR calculated the marijuana equivalency of the drugs from the controlled buys and from Mr. Aragon's car, totaling 145.44 kilograms of marijuana and resulting in a base offense level of 24. The PSR also found that Mr. Aragon was entitled to a 3-level reduction for acceptance of responsibility, yielding a total offense level of 21. With Mr. Aragon's criminal history category of III, the PSR identified the guideline sentencing range as 46 to 57 months and recommended a sentence of 46 months' imprisonment.\nMr. Aragon filed objections to the PSR, primarily contesting its consideration of the substances found in his car. Specifically, Mr. Aragon stated that he \"disputes that he possessed any controlled substances at [the time of his arrest], let alone these specific controlled substances and quantities.\" (Id. at 7.) He also pointed out that the substances found in his car were not laboratory-tested.\nThe government's sentencing position asked the district court to sentence Mr. Aragon to 37 months' imprisonment, \"the high end of the advisory guideline range as calculated by the parties in the Plea Agreement.\" (Id. at 34.) The government observed that the substances found in Mr. Aragon's car, unlike the heroin from the controlled buys, \"w[ere] not field tested and w[ere] not sent to the laboratory for formal testing.\" (Id. ) Moreover, the government explained that the substances found in the car were not laboratory tested because Mr. Aragon had quickly indicated his intent to resolve the case, which prompted the government to cease its investigation.\nThe district court began the March 2018 sentencing hearing by reviewing the history of the case as to how the court learned about the additional drugs and how Mr. Aragon's case fit in with others from the same investigation. Upon prompting by the court, defense counsel clarified that Mr. Aragon's objection to the PSR was \"a legal objection based upon the ... sufficiency of the evidence.\" (Appellant's App. Vol. III at 69.)\nThe district court overruled the objection, citing the PSR's conclusion that there was heroin and methamphetamine in the car; the case agent's statement to the probation department that there were additional drugs in the car; the photographs of the suspected drugs, cash, and digital scale; Mr. Aragon's criminal history involving heroin; and the records of Mr. Aragon's jail phone calls in which he stated, \"I had some perks, a little bit of soft ready, B, and like a zip of clear and hard.\" (Id. at 74.) The judge then went on to address the quantities of the drugs, acknowledging that the weights given were gross weights and deducting half a gram for the packaging of the heroin and the methamphetamine.\nAccordingly, the district court concluded that Mr. Aragon was responsible for 24.8 and 49.8 grams of heroin from the two controlled buys, plus 11 grams of heroin and 28.5 grams of methamphetamine found in the car. The judge calculated this as having a marijuana equivalency of 142.6 grams, making Mr. Aragon's offense level 24. The judge also stated, \"[E]ven if these drugs were in a hefty bag, you would still be in the same guideline range, because we're basically 40 kilograms of marijuana above the floor.\" (Id. at 76.) Defense counsel objected to \"the process\" the court used here, including relying on the photographs to determine the identity of the substances and how much they and their packaging weighed. (Id. at 77.)\nUltimately, the district court sentenced Mr. Aragon to 48 months' imprisonment after finding that his total offense level was 21. Mr. Aragon appealed.\nII.\n\"[I]n considering the district court's application of the Guidelines, we review factual findings for clear error and legal determinations de novo.\" United States v. Kristl , 437 F.3d 1050, 1054 (10th Cir. 2006). \"A sentence cannot ... be considered reasonable if the manner in which it was determined was unreasonable, i.e., if it was based on an improper determination of the applicable Guidelines range.\" Id. at 1055. \"The government has the burden of proof and production during the sentencing hearing to establish the amounts and types of controlled substances related to the offense ... by a preponderance of the evidence.\" United States v. Deninno , 29 F.3d 572, 580 (10th Cir. 1994).\nWe begin by addressing Mr. Aragon's contention that the district court improperly presented evidence at sentencing. Mr. Aragon acknowledges that a sentencing judge may call witnesses and elicit testimony \"as part of [his] obligation to gather information relevant to the sentencing determination,\" United States v. Scott , 529 F.3d 1290, 1298 (10th Cir. 2008). As we have previously recognized, \"[t]he [sentencing] judge remains ultimately responsible for determining the facts and must establish the relevant facts even if all the parties argue to the contrary.\" United States v. Garcia , 78 F.3d 1457, 1462 n.6 (10th Cir. 1996). The district court's exercise of its power to elicit and establish the relevant facts at sentencing is nevertheless subject to abuse-of-discretion review. Scott , 529 F.3d at 1299.\nMr. Aragon makes three arguments in support of his assertion that the district court abused its discretion here. First, he claims that \"the judge's actions in this case rested upon an arbitrary or clearly erroneous understanding of the conduct of counsel for the parties,\" specifically the judge's belief that the parties had intentionally concealed the additional drugs in order to predetermine the guideline range. (Appellant's Br. at 50.) Even were we to agree that the judge clearly erred in his understanding of the parties' actions, Mr. Aragon has identified no authority indicating that a judge abuses his discretion to gather additional evidence when the judge believes such evidence is necessary for the wrong reason. The sentencing judge \"must establish the relevant facts,\" Garcia , 78 F.3d at 1462 n.6, and we see no reason to second-guess the district court's determination that additional evidence was needed to do so in this case.\nSecond, Mr. Aragon argues that \"taking action sua sponte is only appropriate when the right result is 'certain' rather than 'debatable.' \" (Appellant's Br. at 50 (quoting United States v. Holly , 488 F.3d 1298, 1308 (10th Cir. 2007) ).) The \"certain\" versus \"debatable\" language from Holly was used in the dissimilar context of the appellate court's analysis of whether to engage in harmless error review sua sponte on appeal. See 488 F.3d at 1308. The only other case Mr. Aragon has cited as considering this distinction is Fogle v. Pierson , 435 F.3d 1252, 1258 (10th Cir. 2006), which addressed the district court's ability to dismiss a complaint sua sponte based on an affirmative defense such as the statute of limitations. He has identified no authority for extending any certain-versus-debatable principle to a judge's ability to elicit his own evidence at sentencing. Nor would such a rule make sense. Mr. Aragon conflates the issue of eliciting evidence with that of accepting its sufficiency. A judge who sua sponte gathers and elicits additional evidence may very well not know what that evidence will show until it has been produced.\nThird, Mr. Aragon contends that \"the particular actions of the judge in this particular case posed an unacceptable risk that Mr. Aragon would perceive him as an advocate, rather than as an impartial arbiter.\" (Appellant's Br. at 51.) We agree with Mr. Aragon that a judge who elicits his own evidence \" 'must take care not to create the appearance that he or she is less than totally impartial,' \" Scott , 529 F.3d at 1299 (quoting United States v. Albers , 93 F.3d 1469, 1485 (10th Cir. 1996) ). In analyzing this issue, however, we again believe it is necessary to distinguish the issue of how the judge elicits the evidence from that of whether the judge correctly concluded the evidence presented was sufficient. A judge's acceptance of evidence as sufficient proof may constitute error, but it does not of necessity demonstrate partiality.\nOn the issue of partiality, Mr. Aragon states that \"the judge made comments at sentencing that an objective observer might view as suggesting a special solicitude toward law enforcement,\" (Appellant's Br. at 51), pointing to the judge's quotation of a statement made by \"an individual, whom [he'd] known for years, whom [he] respect[ed] tremendously, and whom [he] trust[ed] implicitly,\" about \"hell ... coming to breakfast\" for people who \"bring poison and violence into the community,\" (Appellant's App. Vol. III at 58-59). Mr. Aragon also claims that \"the judge evinced not just objective disagreement with, but personal hostility to, defense counsel's position,\" citing several statements by the judge expressing his disagreement and frustration. (Appellant's Br. at 52.) Finally, Mr. Aragon asserts that \"the sentencing transcript reveals that the judge's sua sponte conduct was so extensive that the majority of the hearing consisted of the judge berating counsel, presenting and explaining evidence that he had presented, and making his own arguments against the disposition to which the parties agreed.\" (Id. at 53.)\nThese contentions are largely tangential to the judge's authority and decision to elicit his own evidence at sentencing. The government points out that the quoted \"individual\" whom the judge said he \"trust[ed] implicitly\" was not identified as anyone connected with the case. Moreover, it is clear from the context that the judge quoted this individual only to make a rhetorical point, not for any evidentiary purpose. Furthermore, the judge did not abuse his discretion to elicit his own evidence by expressing his frustration with what he perceived to be the parties' attempt at \"artificially causing the guidelines to come out to a particular place where they th[ought] the sentence should be and withholding ... information that suggests a different guideline outcome,\" (Appellant's App. Vol. III at 55). Nor did the judge abuse his discretion by explaining why he was giving a sentence within the guideline range he concluded the evidence supported as opposed to the 37 months the parties requested.\nWe additionally note that the judge made multiple statements to Mr. Aragon reassuring him that the manner in which the additional evidence was uncovered would not impact his sentence. Specifically, when the judge reset the change of plea hearing because the initial agreement had not indicated whether the government could later charge Mr. Aragon for the contraband found in his car, the judge told Mr. Aragon, \"I have no animosity towards you and nothing going on here is being viewed as something negative as to you. I just think that there's more going on than I'm being told, and I insist on being told what's going on.\" (Id. at 19.) Also, before issuing the sentence, the judge stated, \"[T]he discussion that we've had previously, about how the matter ultimately c[a]me to be presented to me, has no impact, whatsoever, on anything that I'm going to do by way of a sentence.\" (Id. at 96.) In the end, the sentencing judge is \"responsible for determining the facts and must establish the relevant facts even if all the parties argue to the contrary.\" Garcia , 78 F.3d at 1462 n.6. We cannot conclude in this case that the judge abused his discretion to elicit his own evidence at sentencing.\nWe turn now to whether the district court's conclusions as to the identity and weight of the substances found in Mr. Aragon's car were supported by sufficient evidence, beginning with the court's quantity findings. We review the court's \"determination of the quantity of drugs for which the defendant is held accountable under the Guidelines for clear error.\" United States v. Todd , 515 F.3d 1128, 1135 (10th Cir. 2008). \"Drug quantities employed by the district court to calculate the applicable Guidelines range may be said to be clearly erroneous only when 'the district court's finding was without factual support in the record or we are left with the definite and firm conviction that a mistake has been made.' \" Id. (quoting United States v. Dalton , 409 F.3d 1247, 1251 (10th Cir. 2005) ). Although estimates are not forbidden, \"the 'need to estimate drug quantities at times is not a license to calculate drug quantities by guesswork.' \" Dalton , 409 F.3d at 1251 (quoting United States v. Richards , 27 F.3d 465, 469 (10th Cir. 1994) ). Moreover, \" 'when choosing between a number of plausible estimates of drug quantity, none of which is more likely than not the correct quantity, a court must err on the side of caution.' \" Richards , 27 F.3d at 469 (quoting United States v. Ortiz , 993 F.2d 204, 208 (10th Cir. 1993) ) (alteration omitted).\nHere, the district court had two pieces of evidence speaking to the weight of the substances found in Mr. Aragon's car: (1) Officer Mathews' inventory of the car's contents listing the packaged weights of the suspected drugs, and (2) the photographs of the suspected drugs in their packaging, which the judge initialed to assist us in our review. The record contains additional photographs of these drugs, two of which appear to show that one was originally found in additional packaging not present in the photograph the judge initialed. Nothing in the record indicates whether any packaging was removed prior to the substance being weighed.\nMr. Aragon first questions the reliability of the packaged weights reported by Officer Mathews in his inventory of the car's contents, questioning whether a scale was used at all and, if one was used, whether it was properly calibrated and whether it measured the weight in grams or some other unit necessitating conversion. Here, Mr. Aragon cites to United States v. Higgins , 282 F.3d 1261, 1279-81 (10th Cir. 2002), in which we found unreliable a chemist's conclusion about how much methamphetamine could have been produced when \"[a]n unidentified officer on the scene had estimated that one coffee filter contained about 100 grams and the other about 150 grams\" of pseudoephedrine. We, however, find Higgins distinguishable. As the government points out, the precise weights listed in Officer Mathews' inventory indicate that he in fact weighed the substances using a scale. Additionally, although Mr. Aragon's concerns about calibration and units could perhaps create reasonable doubt at trial, the sentencing judge was only required to find the weights by a preponderance of the evidence. See Deninno , 29 F.3d at 580. Their packaged weights were so proven.\nMr. Aragon next argues the district court's conclusion that the packaging weighed half a gram was clearly erroneous. He points out that there was no testimony as to the weight of plastic baggies, citing to State v. Wallace , 910 P.2d 695, 730 (Haw. 1996), in which an officer testified that in his experience ziplock baggies weighed between 3 and 5 grams. Mr. Aragon also notes that the record does not show whether the substances were weighed in their full packaging or in the lighter packaging shown in the photographs the judge initialed. Finally, Mr. Aragon contends that the photographs show \"plastic wrapping ... so thick that it is impossible to tell how much of what was weighed represents the suspected drugs and how much represents the packaging material.\" (Appellant's Br. at 36.)\nIn Dalton , we observed that \"the 'need to estimate drug quantities at times is not a license to calculate drug quantities by guesswork.' \" 409 F.3d at 1251 (quoting Richards , 27 F.3d at 469 ). Guesswork seems an apt description of the district court's half-a-gram figure here. Furthermore, we agree with Mr. Aragon that the photographs in this case provide a poor basis for determining how much of the gross weights is attributable to the substances themselves and how much is attributable to the packaging. As in Higgins , \"there was no scientific basis for estimating quantity from appearance.\" 282 F.3d at 1281.\nOn appeal, the government makes a harmless-error argument that Mr. Aragon would still have had a base offense level of 24 even if the packaging of the heroin and methamphetamine found in his car weighed 11 grams each. Mr. Aragon responds by citing to several cases in which the difference between gross and net weight was dramatic. See, e.g. , United States v. Padilla , No. 92-2023, 986 F.2d 1431, 1993 WL 12667, at *2 (10th Cir. Jan. 20, 1993) (\"28.2 gross grams of heroin were involved in the unindicted transaction and ... analysis of the heroin reflected a net weight of 3.8 grams.\"); United States v. Davis , Nos. H-01-867 & H-05-1147, 2006 WL 2670977, at *4 (S.D. Tex. Sept. 15, 2006) (\"The approximate gross weight was 27.3 grams. Lab tests were conclusive for the presence of cocaine base with a net weight of 2.0 grams.\"); United States v. One 1985 BMW 318i, VIN WBAAC8401F0685314 , 696 F.Supp. 336, 338 n.8 (N.D. Ill. 1988) (\"[T]here was a great disparity between the gross (23.45 grams) and net (.037 gram) weight of the drugs ....\"). He also argues that the white substance cannot be seen clearly through the packaging in the photographs and \"[t]here is no way to tell whether ... the drugs were additionally wrapped in aluminum foil, beneath the plastic-which is a common way that drugs are packaged.\" (Appellant's Reply Br. at 16 n.7 (citing to United States v. Rzeslawski , No. 91-50866, 981 F.2d 1260, 1992 WL 379411, at *4 (9th Cir. Dec. 17, 1992) ).)\nWe agree that the government has not shown harmless error. Although the suspected heroin appears to be wrapped in light packaging, the same cannot be said for the suspected methamphetamine. Even adding all 11.5 grams of heroin to the amounts from the controlled buys would require more than 7 grams of methamphetamine to make Mr. Aragon's offense level 24 as the district court found. See 21 U.S.C. \u00a7 841(b)(1)(A)(i), (vii), (viii) ; U.S.S.G. \u00a7 2D1.1(c)(8). In light of the great disparities between gross and net weights in other cases, however, we cannot conclude that the photographs here provided even \"a minimum indicia of reliability,\" Deninno , 29 F.3d at 578, that the net weights would necessarily put Mr. Aragon above the threshold for base offense level 24.\nWe note that nothing in our opinion should be construed as creating a rule of law that drugs must be weighed by a laboratory in order to be used at sentencing. For example, testimony about the weight of commonly used packages, when combined with testimony as to the types and quantities of packaging materials used in a specific instance, would arguably constitute a sufficiently reliable means for estimating a substance's net weight from its packaged weight. Of course, the best evidence of net weight is net weight itself, but we are not here suggesting that packaged weight can never be used to estimate net weight. We only hold that the evidence in this case was insufficient to support the district court's sentencing decision.\nMr. Aragon requests that we remand for resentencing based on the existing record, citing United States v. Thomas , 749 F.3d 1302, 1315-16 (10th Cir. 2014). \"[A] remand for resentencing generally allows the district court to conduct de novo review,\" but we have discretion to order resentencing on the existing record. United States v. Forsythe , 437 F.3d 960, 963 (10th Cir. 2005). We decline to exercise that discretion here. Under the particular circumstances of this case, we see no need to foreclose evidentiary development on remand. Moreover, because remand is warranted on the drug quantity issue, we need not address Mr. Aragon's argument that there was also insufficient evidence to establish that the substances found in his car were in fact methamphetamine and heroin. Given that the record may be more fully developed on remand, we decline to address whether the substances could be identified merely by their appearance in conjunction with Mr. Aragon's criminal history and jail phone calls. See E.E.O.C. v. Beverage Distribs. Co., LLC , 780 F.3d 1018, 1022 (10th Cir. 2015) (declining to address sufficiency of mitigation evidence when remanding because of erroneous jury instruction, observing, \"The sufficiency of the evidence entails a fact-intensive inquiry, and the mitigation evidence may be different on remand.\").\nLastly, Mr. Aragon requests that we direct reassignment to a different judge on remand. \"Respectful of the extraordinary nature of such a request, we will remand with instructions for assignment of a different judge only when there is proof of personal bias or under extreme circumstances.\" Mitchell v. Maynard , 80 F.3d 1433, 1448 (10th Cir. 1996). \"[I]n the absence of personal bias,\" the necessity for reassignment depends upon consideration of three factors:\n'(1) whether the original judge would reasonably be expected upon remand to have substantial difficulty in putting out of his or her mind previously-expressed views or findings determined to be erroneous or based on evidence that must be rejected, (2) whether reassignment is advisable to preserve the appearance of justice, and (3) whether reassignment would entail waste and duplication out of proportion to any gain in preserving the appearance of fairness.'\nId. at 1450 (quoting United States v. Sears, Roebuck & Co., Inc. , 785 F.2d 777, 780 (9th Cir. 1986) ).\nMr. Aragon does not contend that the sentencing judge had any personal bias against him, but he does assert that \"the circumstances suggest a reasonable likelihood that the judge would have difficulty on remand putting out of his mind his firm views that counsel had deceived him and that Mr. Aragon should be sentenced based on the suspected drugs found in his car.\" (Appellant's Br. at 54.) We are not so convinced. The judge gave defense counsel the opportunity to make a record of Mr. Aragon's objection to the court's calculation of the base offense level and even initialed the photographs on which he relied so that they would \"be available for the Circuit for [its] review.\" (Appellant's App. Vol. III at 81.) As noted earlier, the judge also made a point of emphasizing that he would not let the way in which he learned about the additional drugs affect his sentencing decision. Nothing in the record suggests that the judge would be unable or unwilling to set aside the additional drugs in accordance with our conclusion that their net weights were not proven by a preponderance of the evidence. We therefore decline to reassign the case on remand.\nIII.\nFor the foregoing reasons, we VACATE Mr. Aragon's sentence and REMAND his case to the district court for resentencing consistent with this opinion.\nAlthough Mr. Aragon's opening brief on appeal also challenged his sentence under Rule 11(c)(1)(C) of the Federal Rules of Criminal Procedure, Mr. Aragon expressly withdrew that argument in his reply brief. Therefore, we do not address it. See United States v. Camick , 796 F.3d 1206, 1213 n.4 (10th Cir. 2015) (declining to address claims withdrawn before oral argument).\nThe district court disregarded the pills and cocaine as being \"more consistent ... with personal-use quantities than with distribution quantities.\" (Appellant's App. Vol. III at 76.) The court also appears to have disregarded a much smaller package of suspected methamphetamine listed in Officer Mathews' inventory.\nThe substance in this package was white, as were other substances found in Mr. Aragon's car. We note that, although the white substance in the photograph the judge initialed appears to be in crystalline form, nothing in the photograph clearly identifies it as the large package of methamphetamine as opposed to the smaller package of methamphetamine the judge disregarded or one of the packages of cocaine.",
+        "type": "majority",
+        "author": "McKAY, Circuit Judge."
+      },
+      {
+        "text": "HOLMES, J., concurring.\nI join in full the principal opinion but write separately to underscore the legal and ethical impropriety of the form of plea bargaining that the district court perceived (correctly or not) to be at work in this case.\nAs I understand the principal opinion, it resolves the case in part by assuming that the district court clearly erred in finding that the parties-in order to arrive at what they viewed as a fair sentence-intentionally concealed from the court, as part of their plea bargain, a quantity of drugs that reasonably could be deemed to qualify as relevant conduct. See Op. at 1109 (\"Even were we to agree that the judge clearly erred in his understanding of the parties' actions ....\"). After granting Mr. Aragon that assumption, the principal opinion concludes that his allegations that the district court abused its discretion in gathering evidence are nevertheless without merit. Id.\nI am content with that assumption and will not opine here on whether the parties in fact struck a plea bargain that involved intentionally concealing evidence. But I write to emphatically underscore that any such agreement would be improper; such an agreement would undercut the district court's ability to perform its role in the sentencing framework contemplated by the United States Sentencing Commission Guidelines (hereinafter \"Guidelines\" or \"U.S.S.G.\") and would also violate counsel's ethical duty of candor to the tribunal.\nMore specifically, it is the district court's role to properly calculate a Guidelines range, with the ultimate goal of crafting a fair sentence. See, e.g. , Gall v. United States , 552 U.S. 38, 49, 128 S.Ct. 586, 169 L.Ed.2d 445 (2007) (\"[A] district court should begin all sentencing proceedings by correctly calculating the applicable Guidelines range.\"); United States v. DeWitt , 366 F.3d 667, 671 (8th Cir. 2004) (\"[T]he sentencing guidelines require the district court independently to evaluate the evidence when imposing a sentence.\"). It is thus not for the parties to determine what Guidelines range should govern a case and what sentence is fair.\nTo be sure, with respect to the category of plea agreement at issue here, parties may enter into stipulations reflecting their understanding of certain factual matters or the applicability (or lack thereof) of certain Guidelines criteria. See FED. R. CRIM. P. 11(c)(1)(B). Significantly, however, those stipulations are not binding on the sentencing court. U.S.S.G. \u00a7 6B1.4(d), p.s. (2016) (\"The court is not bound by [a] stipulation, but may with the aid of the presentence report, determine the facts relevant to sentencing.\").\nMore broadly, parties may freely offer their views on a just and fair sentence and advocate for that view. See, e.g. , Gall , 552 U.S. at 49-50, 128 S.Ct. 586 (instructing that district courts should \"giv[e] both parties an opportunity to argue for whatever sentence they deem appropriate\"). In particular, as relevant here, the government, the defense, or both, may argue in a given case that certain evidence that might reasonably appear to qualify as relevant conduct does not so qualify upon closer analysis. See, e.g. , United States v. Franco-Lopez , 312 F.3d 984, 993 (9th Cir. 2002) (noting that the government \"provid[ed] information to the Probation Department regarding\" a defendant's arguably relevant conduct \"while recommending successfully to the district court that it not rely on that information in sentencing\"); see also U.S.S.G. \u00a7 6B1.4, p.s., cmt. (\"[T]he parties should fully disclose the actual facts and then explain to the court the reasons why the disposition of the case should differ from that which such facts ordinarily would require under the guidelines.\").\nBut none of this alters the bottom line: it is the district court's job (in the first instance)-not the parties'-to determine the proper Guidelines range for a particular defendant and to relatedly determine what sentence is fair. See U.S.S.G. \u00a7 6B introductory cmt. (\"These policy statements [concerning plea agreements] make clear that sentencing is a judicial function and that the appropriate sentence in a guilty plea case is to be determined by the judge.\"); see also 18 U.S.C. \u00a7 3661 (\"No limitation shall be placed on the information concerning the background, character, and conduct of a person convicted of an offense which a court of the United States may receive and consider for the purpose of imposing an appropriate sentence.\"); Wasman v. United States , 468 U.S. 559, 563, 104 S.Ct. 3217, 82 L.Ed.2d 424 (1984) (\"The sentencing court ... must be permitted to consider any and all information that reasonably might bear on the proper sentence for the particular defendant ....\").\nAnd relevant conduct is a critical, foundational component of the computation of a proper Guidelines range-and, consequently, of a fair sentence. See, e.g. , Molina-Martinez v. United States , 578 U.S. ----, 136 S.Ct. 1338, 1345, 194 L.Ed.2d 444 (2016) (\"The Court has made clear that the Guidelines are to be the sentencing court's 'starting point and ... initial benchmark.' \" (omission in original) (quoting Gall , 552 U.S. at 49, 128 S.Ct. 586 )); Witte v. United States , 515 U.S. 389, 393, 115 S.Ct. 2199, 132 L.Ed.2d 351 (1995) (\"Under the Sentencing Guidelines, the sentencing range for a particular offense is determined on the basis of all 'relevant conduct' in which the defendant was engaged and not just with regard to the conduct underlying the offense of conviction.\" (quoting U.S.S.G. \u00a7 1B1.3 )); see also United States v. Gill , 348 F.3d 147, 149 (6th Cir. 2003) (\"A key ingredient of the sentencing formula in drug cases is the quantity of a controlled substance for which a convicted defendant will be held accountable. A defendant is responsible for all drug quantities that are included within the scope of his 'relevant conduct,' as that term is defined by the United States Sentencing Guidelines Manual.\"). Thus, it ineluctably follows that a sentencing court cannot perform its job of computing a proper Guidelines range and determining a fair sentence without an accurate picture of relevant conduct. See United States v. Siegelman , 786 F.3d 1322, 1332 (11th Cir. 2015) (Ebel, J., sitting by designation) (\"[A] district court's sentencing range is not accurate unless its relevant-conduct findings are also accurate.\").\nParties therefore improperly undercut the sentencing court's role under the Guidelines when, in order to artificially produce a desired Guidelines range and reach a sentence they perceive to be fair, they agree to intentionally withhold from the court's consideration evidence that reasonably could be deemed to qualify as relevant conduct. See United States v. Johnson , 973 F.2d 857, 860 (10th Cir. 1992) (\"[A]n agreement to keep the judge ignorant of pertinent information cannot be enforceable, because a sentencing court 'must be permitted to consider any and all information that might reasonably bear on the proper sentence for the particular defendant, given the crime committed.' \" (quoting United States v. Jimenez , 928 F.2d 356, 363 (10th Cir. 1991) )); U.S.S.G. \u00a7 6B1.4, p.s., cmt. (\"[I]t is not appropriate for the parties to stipulate to misleading or non-existent facts, even when both parties are willing to assume the existence of such 'facts' for purposes of the litigation.\"); see also United States v. Casillas , 853 F.3d 215, 218 (5th Cir.) (\"[T]he Government does not have a right ... to withhold relevant factual information from the court.\" (quoting United States v. Block , 660 F.2d 1086, 1092 (5th Cir. 1981) )), cert. denied , --- U.S. ----, 138 S. Ct. 205, 199 L.Ed.2d 135 (2017) ; United States v. Ahn , 231 F.3d 26, 38 (D.C. Cir. 2000) (\"At [the] sentencing hearing, the Government had a duty to provide relevant information about whether [the defendant] obstructed justice, even though it had agreed not to take a stand on whether he should receive a sentence enhancement.\"); cf. U.S. Dep't of Justice, JUSTICE MANUAL \u00a7 9-27.710 (2019) (\"During the sentencing phase of a federal criminal case, the attorney for the government should assist the sentencing court by ... [a]ttempting to ensure that the relevant facts and sentencing factors, as applied to the facts, are brought to the court's attention fully and accurately ....\" (emphasis added)).\nAnd, in crafting such an artificial Guidelines outcome, the parties also would be violating their ethical obligation of candor to the sentencing tribunal, which relies on the accuracy of relevant conduct in fashioning a proper Guidelines sentence. See Jimenez , 928 F.2d at 363 (\"It is clear that the fact that a plea agreement has been entered into between the government and a defendant cannot alone prohibit the government from bringing relevant information to the attention of the trial judge at the time of sentencing. In fact, the prosecutor has an ethical duty to disclose such information ....\" (emphasis added) (citation omitted)); see also United States v. Almonte-Nunez , 771 F.3d 84, 86 (1st Cir. 2014) (\"[A]ttorneys, as officers of the court, remain bound by their ... duty to provide full and accurate information about the offense and the offender to the sentencing court.\"); cf. MODEL RULES OF PROF'L CONDUCT r. 3.3(a)(1) ( AM. BAR ASS'N 2015) (\"A lawyer shall not knowingly ... make a false statement of fact or law to a tribunal or fail to correct a false statement of material fact or law previously made to the tribunal by the lawyer ....\"); id . cmt. 3 (\"There are circumstances where failure to make a disclosure is the equivalent of an affirmative misrepresentation .\" (emphasis added)).\nIn conclusion, I reiterate that I do not opine on the propriety of counsel's actions in this case. Rather, I am content to accept the principal opinion's assumption that the district court was clearly erroneous in finding that the parties, in reaching their plea bargain, intentionally concealed from the court a quantity of drugs that reasonably could be viewed as relevant conduct in order to arrive at what the parties perceived to be a fair sentence. I write simply to state without equivocation-but hypothetically-that if counsel were to participate in such a plea bargain, they would be engaging in legally and ethically improper conduct. On this basis, I respectfully concur.\nThe Probation Office used the 2016 edition of the Guidelines in calculating Mr. Aragon's sentence. Neither party questions this choice on appeal; therefore, I also rely on the 2016 edition where the Guidelines are relevant to my analysis herein.\nIndeed, even when-unlike here-parties enter into the sort of plea agreement that ordinarily binds the court to a specific sentence or sentencing range, the court is bound only after it accepts the agreement. And, upon presentation, the court has broad discretion to reject such a plea agreement if (among other things) the court considers the agreement to be unfair. See Fed. R. Crim. P. 11(c)(1)(C), (c)(5) ; see also Fed. R. Crim. P. 11(e) advisory committee's note to 1999 amendment (noting as to (in material respects) substantively identical text of a precursor of Rule 11(c) that \"the court retains absolute discretion whether to accept a plea agreement\"); United States v. White , 765 F.3d 1240, 1248 (10th Cir. 2014) (\"Rule 11(c)(1)(C) permits the defendant and the prosecutor to agree that a specific sentence is appropriate, but that agreement does not discharge the district court's independent obligation to exercise its discretion.\" (quoting Freeman v. United States , 564 U.S. 522, 529, 131 S.Ct. 2685, 180 L.Ed.2d 519 (2011) (plurality opinion))); United States v. Kling , 516 F.3d 702, 704 (8th Cir. 2008) (\"Courts are not obligated to accept [Rule 11(c)(1)(C) ] plea agreements and have discretion to reject those which are deemed involuntary or unfair.\").",
+        "type": "concurrence",
+        "author": "HOLMES, J., concurring."
+      }
+    ],
+    "attorneys": [
+      "Josh Lee, Assistant Federal Public Defender (Virginia L. Grady, Federal Public Defender, with him on the briefs), Denver, Colorado, for Defendant-Appellant.",
+      "Michael C. Johnson, Assistant United States Attorney (Robert C. Troyer, United States Attorney, with him on the brief), Denver, Colorado, for Plaintiff-Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff - Appellee,\nv.\nLeonard ARAGON, Defendant - Appellant.\nNo. 18-1121\nUnited States Court of Appeals, Tenth Circuit.\nFILED April 29, 2019\nJosh Lee, Assistant Federal Public Defender (Virginia L. Grady, Federal Public Defender, with him on the briefs), Denver, Colorado, for Defendant-Appellant.\nMichael C. Johnson, Assistant United States Attorney (Robert C. Troyer, United States Attorney, with him on the brief), Denver, Colorado, for Plaintiff-Appellee.\nBefore HOLMES, McKAY, and KELLY, Circuit Judges."
+  },
+  "file_name": "1102-01",
+  "first_page_order": 1102,
+  "last_page_order": 1117
+}

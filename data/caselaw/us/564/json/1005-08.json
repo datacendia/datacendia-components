@@ -1,0 +1,59 @@
+{
+  "id": 4337583,
+  "name": "Hoffman, aka Alamo v. United States",
+  "name_abbreviation": "Hoffman v. United States",
+  "decision_date": "2011-06-13",
+  "docket_number": "No. 10-1386",
+  "first_page": "1005",
+  "last_page": "1005",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1005"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 84,
+    "ocr_confidence": 0.545,
+    "sha256": "5193f0738652dceb966fad6669d3850a31c24639c7788a724254038fcd5adbeb",
+    "simhash": "1:04abe635873d10cb",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hoffman, aka Alamo v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1386.\nHoffman, aka Alamo v. United States."
+  },
+  "file_name": "1005-08",
+  "first_page_order": 999,
+  "last_page_order": 999
+}

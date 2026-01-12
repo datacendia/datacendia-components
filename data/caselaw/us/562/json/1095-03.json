@@ -1,0 +1,59 @@
+{
+  "id": 5996844,
+  "name": "Hall v. Maryland",
+  "name_abbreviation": "Hall v. Maryland",
+  "decision_date": "2010-12-06",
+  "docket_number": "No. 10-7150",
+  "first_page": "1095",
+  "last_page": "1095",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1095"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 68,
+    "ocr_confidence": 0.502,
+    "sha256": "c7857eb0ca395e2f88d85967a18d34ac58a35a1c6453e75fd62a337acd715c8b",
+    "simhash": "1:410241db5845f2fe",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hall v. Maryland."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Sp. App. Md. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7150.\nHall v. Maryland."
+  },
+  "file_name": "1095-03",
+  "first_page_order": 1117,
+  "last_page_order": 1117
+}

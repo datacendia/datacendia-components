@@ -1,0 +1,59 @@
+{
+  "id": 12414393,
+  "name": "Holton v. United States",
+  "name_abbreviation": "Holton v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10864",
+  "first_page": "866",
+  "last_page": "866",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 866"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.74,
+    "sha256": "1cecbf678b1d791772034bba80ec31d4d13230b3318c3afe56fd0f2fb247d7a3",
+    "simhash": "1:91eaeb51ce9f385d",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Holton v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10864.\nHolton v. United States."
+  },
+  "file_name": "0866-04",
+  "first_page_order": 942,
+  "last_page_order": 942
+}

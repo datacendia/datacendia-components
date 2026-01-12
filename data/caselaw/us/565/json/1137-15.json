@@ -1,0 +1,59 @@
+{
+  "id": 12242017,
+  "name": "Parisi v. United States",
+  "name_abbreviation": "Parisi v. United States",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-7684",
+  "first_page": "1137",
+  "last_page": "1137",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1137"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.671,
+    "sha256": "d2be2d7d76f1c66fb7dbaadb5a024934d345759e093197588b918a576978cd5b",
+    "simhash": "1:440bae42669f947c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Parisi v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7684.\nParisi v. United States."
+  },
+  "file_name": "1137-15",
+  "first_page_order": 1219,
+  "last_page_order": 1219
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12414859,
+  "name": "Bowell v. California",
+  "name_abbreviation": "Bowell v. California",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-11129",
+  "first_page": "881",
+  "last_page": "881",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 881"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 70,
+    "ocr_confidence": 0.71,
+    "sha256": "8ad12d470fb4b65e1d3f1982a690966971daf66d493a39a0ad596b0c62f9d3a7",
+    "simhash": "1:980f1d420c0b51ea",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bowell v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-11129.\nBowell v. California."
+  },
+  "file_name": "0881-01",
+  "first_page_order": 957,
+  "last_page_order": 957
+}

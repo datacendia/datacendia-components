@@ -1,0 +1,238 @@
+{
+  "id": 4332160,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. SHERMAN REDD, Defendant and Appellant",
+  "name_abbreviation": "People v. Redd",
+  "decision_date": "2014-07-28",
+  "docket_number": "No. F065225",
+  "first_page": "449",
+  "last_page": "464",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "228 Cal. App. 4th 449"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "384 U.S. 436",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12046400
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "444-445"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/384/0436-01"
+      ]
+    },
+    {
+      "cite": "345 P.2d 513",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "175 Cal.App.2d 8",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        6036699
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/175/0008-01"
+      ]
+    },
+    {
+      "cite": "216 P.2d 859",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.2d 49",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4400441
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "59-60"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/35/0049-01"
+      ]
+    },
+    {
+      "cite": "621 P.2d 837",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "170 Cal.Rptr. 798",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.3d 739",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2259725
+      ],
+      "pin_cites": [
+        {
+          "page": "748"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/28/0739-01"
+      ]
+    },
+    {
+      "cite": "975 P.2d 1071",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "84 Cal.Rptr.2d 665",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 Cal.4th 403",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        829694
+      ],
+      "pin_cites": [
+        {
+          "page": "416"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/20/0403-01"
+      ]
+    },
+    {
+      "cite": "170 Cal.Rptr.3d 763",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "225 Cal.App.4th 979",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6054840
+      ],
+      "pin_cites": [
+        {
+          "page": "990"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/225/0979-01"
+      ]
+    },
+    {
+      "cite": "5 P.3d 68",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "99 Cal.Rptr.2d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "23 Cal.4th 978",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        277025
+      ],
+      "pin_cites": [
+        {
+          "page": "1053"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/23/0978-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1208,
+    "char_count": 33148,
+    "ocr_confidence": 0.902,
+    "pagerank": {
+      "raw": 5.4033266686372354e-08,
+      "percentile": 0.33989896708263684
+    },
+    "sha256": "f3209c242e9a2fc3f8a8b6a6552ac5ef752c1e800aa8e2f9d125ef0b431607d4",
+    "simhash": "1:bdea90d0bf143ce1",
+    "word_count": 5484
+  },
+  "last_updated": "2024-02-27T19:58:27.199147+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. SHERMAN REDD, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nKANE, J.\nA jury found prison inmate Sherman Redd guilty of conspiracy to commit the crime of communicating with a prisoner without permission (Pen. Code, \u00a7\u00a7 182, subd. (a)(1), 4570) and conspiracy to pervert or obstruct justice (\u00a7 182, subd. (a)(5)).\nOn appeal, Redd contends there was insufficient evidence to support either of the conspiracy convictions. He further contends the conviction for conspiracy to pervert or obstruct justice must be reversed because the alleged conspiracy was a \u201cnon-crime.\u201d\nWe agree there was insufficient evidence to support the conviction for conspiracy to pervert or obstruct justice based on attempting to bring tobacco into a state prison. We reverse the conviction for count 2 and affirm in all other respects.\nFACTS AND PROCEDURAL HISTORY\nOn September 9, 2011, Avenal State Prison received an anonymous tip that a cook was going to smuggle in cell phones and narcotics for an inmate the next day. On September 10, 2011, prison cook Alcadio Comil was stopped as he was entering the prison, and cellophane-wrapped bindles containing cell phones and tobacco were found on his person and in his belongings. Comil said the items were for Redd.\nOn September 12, 2011, the District Attorney of Kings County filed a six-count criminal complaint against Redd and Cornil. Cornil and the district attorney reached a plea agreement and, in November 2011, Cornil entered a guilty plea to one count of conspiracy to communicate with a prisoner without permission (\u00a7\u00a7 182, subd. (a)(1), 4570) and one count of bribery (\u00a7 68). The parties agreed Cornil would receive a two-year prison term and the remaining charges would be dismissed.\nSubsequently, a three-count amended information was filed against Redd only. In count 1, Redd was charged with conspiring to commit the crime of communicating with any state prison inmate or bringing into a state prison any letter, writing, literature, or reading matter to any prisoner without permission (\u00a7\u00a7 182, subd. (a)(1), 4570). The following overt acts were alleged:\n\u201c[(1)] [\u00b6] Prior to September 8, 2011, . . . Redd asked Alcadio Comil to furnish him with cell phones.\n\u201c[(2)] HD On September 8, 2011, Alcadio Comil met an unknown co-conspirator at the Kettleman City McDonald\u2019s to pick up cell phones.\n\u201c[(3)] HD On September 8, 2011, Alcadio Comil received $1200 from this unknown co-conspirator ... as payment to smuggle the cell phones into Avenal State Prison.\n\u201c[(4)] [\u00b6] On September 10, 2011, Alcadio Comil entered the grounds of Avenal State Prison with 4 cell phones, 4 cell phone chargers, and one micro SD adapter concealed on his person and within his personal belongings.\u201d\nIn count 2, Redd was charged with conspiring to pervert and obstmct justice, and the due administration of the laws, to wit, possession of tobacco by a state prison inmate (\u00a7 182, subd. (a)(5); Cal. Code Regs., tit. 15, \u00a7 3006, subd. (c)(18)). The following overt acts were alleged:\n\u201c[(1)] HD Prior to September 10, 2011, . . . Redd asked Alcadio Comil to furnish him with tobacco.\n\u201c[(2)] On September 10, 2011, Alcadio Cornil entered the grounds of Avenal State Prison with .19 pounds of tobacco, concealed on his person and packaged in two separate cellophane wrapped bindles.\n\u201c[(3)] HQ On September 10, 2011, Aleadlo Comil intended to deliver the tobacco to . . . Redd while he worked with . . . Redd in a kitchen located at Avenal State Prison.\u201d\nIn count 3, it was alleged that, on or about September 10, 2011, Redd unlawfully gave or offered to a state employee a bribe valued at greater than $950 (\u00a7 67.5, subd. (b)). It was further alleged that Redd had two prior serious or violent felony convictions (\u00a7\u00a7 667, subds. (b)-(i), 1170.12, subds. (a)-(d)).\nA jury trial began on May 8, 2012.\nRobert Amaro is a correctional sergeant at Avenal State Prison assigned to the investigative services unit (ISU). He testified that on Friday, September 9, 2011, he received a telephone call from an unidentified woman. The caller reported that, earlier that day, the cook who worked in facility 5 (Facility 5) during the morning shift on Fridays and Saturdays brought in cell phones and narcotics and delivered them to a Black inmate called \u201cSherm.\u201d She also told Amaro that the cook would be bringing in more cell phones and narcotics on Saturday. Amaro asked the caller her name and how she knew this information, but she declined to identify herself or explain how she knew about the alleged smuggling activity.\nAmaro looked up the 20 inmates who worked in the Facility 5 kitchen during that day\u2019s morning shift and noticed Redd because his first name was Sherman. Amaro then identified Comil as the cook who worked that day\u2019s morning shift and who generally worked the morning shift on Fridays and Saturdays at Facility 5.\nAround 3:30 a.m. the next day, Amaro and his supervisor, Lieutenant Robert Reifschneider, met Comil at the front entrance of the prison. Amaro identified himself as the investigative sergeant, and Comil \u201cbecame visibly shaken, literally shaking.\u201d Amaro and Reifschneider escorted Comil to an office, and Amaro told Comil they had reason to believe he was attempting to introduce cell phones and narcotics into the prison. Comil immediately responded, \u201c T give up. I surrender,\u2019 \u201d and placed his personal cell phone on the table.\nAmaro asked Comil to empty his pockets. From his pants pockets, Comil removed two cellophane-wrapped bindles \u2014 each containing two cell phones \u2014 and two \u201ctennis ball sized\u201d cellophane-wrapped bindles that contained tobacco. From his lunch bag, Comil produced four cell phone chargers, two earbuds, four cables for the cell phone chargers, an HDMI cable, and a micro SD adapter. These items were also packaged in cellophane. Taped to one of the chargers was a piece of paper on which the letter S was handwritten, and the micro SD adapter was similarly labeled. One of the cell phones had a piece of paper taped to it that read \u201cS\u201d and \u201cFontana, California. No sim.\u201d\nAmaro advised Cornil of his Miranda rights, and Amaro and Reifschneider conducted a recorded interview with Comil. A redacted recording of the interview was played for the jury, and a transcript of the interview was provided to the jury and is part of the record on appeal.\nIn the interview, Comil acknowledged that when he had been taken aside for an inspection of his belongings, he said he wanted to surrender. Comil told the officers the cell phones, chargers, and tobacco were intended to be delivered to Redd, an inmate who worked in the Facility 5 kitchen. Comil said that on the previous day he delivered a screen to Redd. Asked if anybody was working with Redd, Comil responded, \u201cI have no idea. I just, he\u2019s just the one I talked to.\u201d Comil explained that Redd sent someone to Kettleman City the previous Thursday to meet with Comil at McDonald\u2019s. Cornil described the person as a Black man. The man said Redd sent him and gave Cornil a plastic bag. The man also gave Cornil $1,200 in cash, $300 for each cell phone.\nAmaro searched Comil\u2019s car and did not find anything that linked Redd to Comil. Amaro also had a correctional officer confiscate Redd\u2019s property from his assigned bunk area and locker. No pay/owe sheets were found in Redd\u2019s confiscated property.\nAmaro testified that inmates are not allowed to possess tobacco or cell phones under the Department of Corrections and Rehabilitation\u2019s regulations. He thought the \u201cgoing rate\u201d (that is, the amount an inmate would pay in prison) for a standard cell phone without Internet access was about $300 or $400. The phones confiscated from Comil had Internet capability, and Amaro opined that each one could be worth over $1,000 in prison.\nOn cross-examination, Amaro agreed that this case was the first time he had testified in court about tobacco or cell phones. He had testified in administrative hearings about tobacco.\nComil was called as a witness by the People, but he did not want to testify and stated he just wanted to \u201cdo [his] time and go home.\u201d His response to many questions was that he forgot or he did not know. He testified that he had been diagnosed with a mental health problem. Although he remembered being interviewed by ISU officers, Comil claimed he did not remember what was said during the interview. He explained, \u201cThat day I got busted I just took two pills of Vicodin and I don\u2019t know what else I was saying.\u201d He admitted that the cell phones were intended for an inmate he worked with, but when specifically asked whether the cell phones were for Redd, Comil replied that he did not remember.\nMichael Gonzales was a culinary officer in the Facility 5 kitchen in September 2011. His duties were to process inmates into work and supervise them. He supervised Redd, who worked as a recycle technician, dumping trash. Gonzales testified that he heard other inmates call Redd \u201cSherm,\u201d a nickname, short for Sherman. Gonzales also worked with Comil, who worked as a correctional supervising cook. Gonzales never saw Redd and Comil speak to each other.\nCorrectional officer Earl Parks, who worked in the ISU, examined Redd\u2019s confiscated property. He found an envelope addressed to Redd that contained two micro SD cards, one card had a one-gigabyte capacity and the other had an eight-gigabyte capacity. Parks explained that smart phones are \u201cbasically small computers\u201d and an SD card is a storage device that can be used with a smart phone. When an SD card is placed in a smart phone and formatted for that phone, files are created on the card.\nParks conducted a forensic examination of the two micro SD cards found in Redd\u2019s property. The cards were formatted and associated with a cell phone number; both cards were associated with the same cell phone number. The service provider for that number was Verizon, and the name on the account was Annabelle Sauni. Sauni\u2019s husband was an Avenal State Prison inmate and, in September 2011, he was housed in the same housing unit as Redd. The micro SD cards also were associated with an email address, Bluesherml37@aol.com. The cards contained movies, videos, and photographs, including photographs of Redd.\nIn addition, Parks examined the cell phones that were found with Comil on September 10, 2011. One of the phones, a Droid 3 smart phone, had a micro SD card, which Parks analyzed. The card contained movies, a refinance agreement for a loan, and financial documents. It also contained photographs, including photos of a woman and an Avenal State Prison inmate that had been taken in the prison visiting room. The inmate in the photos was Kevin Murphy, who was housed in the same housing unit as Redd in September 2011.\nOn Comil\u2019s personal cell phone, Parks found telephone numbers for \u201cLuxy\u201d and \u201cSimon\u201d stored as contacts. Parks did not find any text messages between Comil and Redd on Comil\u2019s phone.\nParks subpoenaed from Verizon the cell phone records for Sauni. Sauni\u2019s Verizon account was associated with seven different cell phone numbers, including the cell phone number associated with Redd\u2019s micro SD cards. Among Sauni\u2019s other telephone numbers were the numbers for Luxy and Simon from Comil\u2019s contacts. It also appeared that the cell phone number associated with Redd\u2019s two micro SD cards had logged calls and texts from two women who were listed as Redd\u2019s visitors.\nOn cross-examination, Parks testified that he found, among Redd\u2019s confiscated things, paper with handwritten numbers, letters, and names, which appeared to be related to fantasy football. There were lists of \u201cRB,\u201d \u201cWR,\u201d and \u201cTE,\u201d likely referring to running backs, wide receivers, and tight ends, along with names, such as Johnson and Moss, and abbreviations such as \u201cTen\u201d and \u201cWas,\u201d presumably referring to players and teams respectively.\nCorrectional officer Todd Denham testified about an incident that occurred on June 22, 2008. During the 12:45 a.m. count, he observed Redd sleeping on his bunk. Denham saw a light coming from Redd\u2019s stomach and realized it was a cell phone. Denham confiscated the phone, a Samsung Verizon flip phone.\nOn May 15, 2012, the jury began deliberating, and Redd brought a motion pursuant to section 1118.1. With respect to count 1, his attorney argued that mere possession of cell phones was not communication; it was a means of communication. With respect to count 2, he asserted that section 182, subdivision (a)(5), conspiracy to pervert or obstmct justice, is not a \u201ccatch-all type of charge,\u201d but is generally limited to conduct of an officer in connection with the administration of his or her public duties.\nThe same day, Redd admitted he had one prior strike conviction. The People moved to strike the second allegation of a prior strike conviction due to insufficient evidence, and the trial court granted the motion. The jury reached a verdict on counts 1 and 2, finding Redd guilty of both counts, but deadlocked on count 3. The court declared a mistrial as to count 3.\nOn June 19, 2012, the trial court held a sentencing hearing. The court denied Redd\u2019s section 1118.1 motion. The People moved to dismiss count 3 in the interest of justice, and the court dismissed the count as requested. The court sentenced Redd to six years (upper term of three years, doubled) for count 1 and one year four months (one-third the middle term of two years, doubled) for count 2 for a total term of seven years four months in state prison. The same day, Redd filed a notice of appeal.\nDISCUSSION\nRedd contends the evidence was insufficient to prove either of his conspiracy convictions. For count 2, he argues that bringing tobacco into a state prison and possession of tobacco by an inmate do not constitute obstruction of justice.\nI. Standard of review\nIn deciding a challenge to the sufficiency of the evidence, we \u201cexamine the whole record in the light most favorable to the judgment to determine whether it discloses substantial evidence \u2014 evidence that is reasonable, credible and of solid value \u2014 such that a reasonable trier of fact could find the defendant guilty beyond a reasonable doubt.\u201d (People v. Kraft (2000) 23 Cal.4th 978, 1053 [99 Cal.Rptr.2d 1, 5 P.3d 68].) We \u201cpresume[] in support of the judgment the existence of every fact the trier could reasonably deduce from the evidence. [Citations.] The same standard applies when the conviction rests primarily on circumstantial evidence. [Citation.]\u201d (Ibid.)\nTo the extent Redd\u2019s contention requires us to interpret a statute and determine its applicability to a given set of facts, these are questions of law, which we decide independently. (People v. Superior Court (Martinez) (2014) 225 Cal.App.4th 979, 990 [170 Cal.Rptr.3d 763].)\nII. Count 1 \u2014 conspiracy to violate section 4570\n\u201cPursuant to section 182, subdivision (a)(1), a conspiracy consists of two or more persons conspiring to commit any crime.\u201d (People v. Morante (1999) 20 Cal.4th 403, 416 [84 Cal.Rptr.2d 665, 975 P.2d 1071], fn. omitted.) A conviction for conspiracy under section 182, subdivision (a)(1) \u201crequires proof that the defendant and another person had the specific intent to agree or conspire to commit an offense, as well as the specific intent to commit the elements of that offense, together with proof of the commission of an overt act \u2018by one or more of the parties to such agreement\u2019 in furtherance of the conspiracy.\u201d (People v. Morante, supra, at p. 416.)\nIn count 1, Redd was convicted of conspiracy to violate section 4570, unauthorized communication with any prisoner. Section 4570 provides: \u201cEvery person who, without the permission of the warden or other officer in charge of any State prison . . . communicates with any prisoner or person detained therein, or brings therein or takes therefrom any letter, writing, literature, or reading matter to or from any prisoner or person confined therein, is guilty of a misdemeanor.\u201d\nRedd asserts that the language of section 4570 is unambiguous, and it prohibits unauthorized communication with any prisoner but does not prohibit providing a means of facilitating communication \u2014 such as a cell phone \u2014 to an inmate. The Attorney General does not dispute this.\nIn this case, the jury was instructed on section 4570:\n\u201cThe elements of a violation of unauthorized communication with a state prison inmate are defined as follows;\n\u201c![.] Any person who willfully, without permission of the warden, communicates with a prisoner who was committed to and confined in a California State Prison.\n\u201cOR\n\u201c2[.j A person willfully brought or assisted in bringing into a California State Prison or onto the grounds thereof or take therefrom, any letter, writing, literature or reading matter to or from any prisoner.\n\u201cCommunication means actual communication with an inmate, but does not specify the means by which communication occurs[.]\u201d\nThus, assuming without deciding that Redd is correct and providing a means of facilitating communication, by itself, is not a violation of section 4570, the jury was properly instructed on the law; it was told that communication means \u201cactual communication.\u201d\nRedd acknowledges that he \u201ccould nevertheless be convicted of conspiring to violate Penal Code section 4570 if there was substantial evidence that the objective of the conspiracy was not merely to provide cell phones to an inmate but to use the cell phones to communicate with an inmate.\u201d He argues, however, \u201cthe evidence showed the cell phones were \u2018most likely provided to sell\u2019 or used for \u2018fantasy football,\u2019 rather than to facilitate communication between any of [Redd\u2019s] fellow inmates.\u201d We are not persuaded. Redd does not explain the basis for his assertion that the cell phones were most likely intended for sale or for use in fantasy football. Even if there was evidence from which the jury could determine that one or more of the cell phones was intended for sale or for use in fantasy football, this would not preclude a finding that Redd also intended one or more of the cell phones to be used for unauthorized communication with any prisoner. Here, the evidence showed that one of the cell phones Comil intended to deliver to Redd \u2014 the Droid 3 \u2014 contained movies, financial documents, and photographs of Murphy, an inmate housed in Redd\u2019s housing unit. The jury reasonably could deduce from this evidence that Redd intended to deliver the Droid 3 to Murphy. The delivery of the Droid 3 to inmate Murphy, in turn, would be a violation of section 4570 because the phone itself contained \u201cwriting\u201d and \u201creading matter\u201d in the form of financial documents. Accordingly, there was sufficient evidence to support a finding that Redd intended to \u201cbring[] . . . [into a state prison] any letter, writing, literature, or reading matter to . . . any prisoner.\u201d (\u00a7 4570.) In addition, two micro SD cards were found in Redd\u2019s belongings. These cards were associated with a cell phone number and an e-mail address. The jury reasonably could infer that Redd intended to use at least one of the cell phones found with Comil for unauthorized communication by e-mail, text, or telephone calls.\nRedd next claims there was insufficient evidence of a conspiracy because there was no evidence that Comil intended that the cell phones be used for unauthorized communication with any inmate. He asserts: \u201c[V]iewed in the light most favorable to the prosecution, the evidence shows only that Comil agreed to deliver the cell phones into the prison. It does not show that he had any knowledge as to his reason for doing so or that he had any intent to achieve any objective beyond the mere delivery of the items.\u201d We disagree. Comil testified that he pied guilty to conspiracy to communicate with any prisoner. A guilty plea is \u201ca judicial admission of every element of the offense charged.\u201d (People v. Chadd (1981) 28 Cal.3d 739, 748 [170 Cal.Rptr. 798, 621 P.2d 837].) Given that the jury was informed of Cornil\u2019s guilty plea, it cannot be said there was no evidence of his intent to commit the crime of unauthorized communication with any prisoner.\nIII. Count 2 \u2014 conspiracy to pervert or obstruct justice\nUnder section 182, subdivision (a)(5), it is a crime for two or more persons to conspire to commit any act \u201cto pervert or obstruct justice, or the due administration of the laws.\u201d\nIn count 2, Redd was convicted of conspiracy to pervert or obstruct justice based on the allegations that Redd asked Cornil to bring him tobacco and Cornil subsequently entered the prison with tobacco wrapped in cellophane, intending to deliver it to Redd. Redd contends that count 2 was \u201cunfounded as it misapplied and improperly criminalized possession of tobacco by a state prison inmate.\u201d Essentially, Redd\u2019s argument is that bringing tobacco into a state prison does not pervert or obstruct justice or the due administration of the laws.\nIn 1950, the California Supreme Court explained the meaning of an act that perverts or obstructs justice, or the due administration of the laws:\n\u201cGenerally speaking, conduct which constitutes an offense against public justice, or the administration of law includes both malfeasance and nonfeasance by an officer in connection with the administration of his public duties, and also anything done by a person in hindering or obstructing an officer in the performance of his official obligations. Such an offense was recognized at common law and generally punishable as a misdemeanor. Now, quite generally, it has been made a statutory crime and, under some circumstances, a felony. [Citation.]\n\u201cIn California, the statutes relating to \u2018Crimes Against Public Justice\u2019 are found in part I, title [7], of the Penal Code. Bribery, escapes, rescues, perjury, falsifying evidence, and other acts which would have been considered offenses against the administration of justice at common law are made criminal by legislative enactment. Section 182, subdivision 5,[] is a more general section making punishable a conspiracy to commit any offense against public justice. The meaning of the words \u2018to pervert or obstruct justice, or the due administration of the laws\u2019 is easily ascertained by reference either to the common law or to the more specific crimes enumerated in part I, title [7]. A conspiracy with or among public officials not to perform their official duty to enforce criminal laws is an obstruction of justice and an indictable offense at common law. [Citation.] In the same category is a conspiracy to obtain the release of a person charged with a felony by presenting a worthless and void bail bond. Such a conspiracy has been held to be a perversion of the due administration of the law, and an offense within the meaning of subdivision [(a)]5 of section 182 of the Penal Code. [Citation.]\u201d (Lorenson v. Superior Court (1950) 35 Cal.2d 49, 59-60 [216 P.2d 859], italics added (Lorenson).)\nIn Lorenson, the defendant was a police captain in the Los Angeles Police Department indicted for conspiracy to commit robbery, to commit assault with a deadly weapon, and to pervert or obstruct justice. (Lorenson, supra, 35 Cal.2d at pp. 50-51.) In rejecting a claim of insufficient evidence to support the indictment, the court concluded that one could infer from the evidence that there was agreement among the defendant, other members of the police department, and criminal associates of Mickey Cohen to assault and rob the victim, Pearson. The court further noted that there was evidence from which one could infer that the defendant and other police officers \u201cwere to furnish protection to the participants in the conspiracy by refusing to disclose the identity of Pearson\u2019s attackers, if they were arrested, and to effect their release from custody.\u201d (Id. at p. 57.) After the robbery and assault, Cohen\u2019s associates were arrested (apparently by officers not involved in the conspiracy), but they were immediately released from the police station before Pearson could arrive to identify any of them, and the arresting officers were instructed not to talk about the incident. (Id. at p. 54.) Lorenson is an example of \u201c[a] conspiracy with or among public officials not to perform their official duty to enforce criminal laws,\u201d an indictable offense at common law. (Id. at pp. 59-60.)\nHere, as Redd points out, nothing in part 1, title 7 of the Penal Code deals with bringing tobacco into a prison or possession of tobacco by a state prisoner, and we also observe that the People did not claim that smuggling tobacco into a prison or possession of tobacco by a prisoner was an indictable offense at common law.\nThe Attorney General responds that bringing tobacco into a state prison is unlawful and therefore conspiring to do so perverts and obstructs justice and the due administration of the laws. She offers no authority, however, for the proposition that section 182, subdivision (a)(5), is so expansive that it criminalizes any conspiracy to commit any unlawful act.\nThe Attorney General relies on Davis v. Superior Court (1959) 175 Cal.App.2d 8 [345 P.2d 513] (Davis), in which the Court of Appeal expanded upon Lorenson. In Lorenson, the Supreme Court explained that the meaning of the words \u201c \u2018to pervert or obstruct justice, or the due administration of the laws\u2019 \u201d could easily be ascertained by reference either to the common law or to the more specific \u201c \u2018Crimes Against Public Justice,\u2019 \u201d found in part 1, title 7 of the Penal Code. (Lorenson, supra, 35 Cal.2d at p. 59.)\nIn Davis, the Court of Appeal held that conduct that perverts or obstructs justice is not necessarily limited to crimes listed in part 1, title 7 of the Penal Code, nor are all crimes in that title necessarily crimes that pervert or obstruct justice;\n\u201cThe reference [in Lorenson] to \u2018Crimes Against Public Justice\u2019 does not necessarily exclude a crime not defined within the four comers of that part 1, title [7], of the Penal Code .... The court\u2019s reference to such crimes was illustrative, rather than exclusionary; the type of conduct with which title [7] principally deals falls within the category of acts \u2018to pervert or obstmct justice.\u2019\n\u201cThus the [Lorenson] court did not, for example, mean to exclude from the category of acts \u2018to pervert or obstmct justice\u2019 corrupt conduct of attorneys formerly prohibited by sections 160 and 161 of title [7] but now proscribed by sections 6128 and 6129 of the Business and Professions Code, a part of the State Bar Act. Nor do we believe that the court meant thereby to include as acts \u2018to pervert or obstmct justice\u2019 the illegal sale of liquor within certain distances of the several educational institutions proscribed in sections 172, 172a and 172d under title [7].\u201d (Davis, supra, 175 Cal.App.2d at p. 16, italics added.)\nIn Davis, the defendant was charged with conspiracy to pervert and obstmct justice by means of violation of section 4570. (Davis, supra, 175 Cal.App.2d at p. 11.) The court observed that section 4570 had been contained in title 7 until 1941, and the statute was moved \u201conly for inclusion under a more appropriate heading.\u201d (Davis, supra, at p. 16.) Moreover, the court noted that title 7 did include a prohibition against communication similar to section 4570 but applied to reformatories. The court concluded, \u201cWe cannot find that the inhibition as to the writing at a reformatory constitutes a public crime while that applicable to a prison does not.\u201d (Davis, supra, at p. 16.)\nFrom Davis, the Attorney General relies on the sentence, \u201cThe court\u2019s reference to such crimes [found in part 1, title 7 of the Penal Code] was illustrative, rather than exclusionary; the type of conduct with which title [7] principally deals falls within the category of acts \u2018to pervert or obstruct justice.\u2019 \u201d (Davis, supra, 175 Cal.App.2d at p. 16.) This may be so, but the Attorney General does not explain why possession of tobacco must be included in the set of crimes that are \u201cCrimes Against Public Justice\u201d for purposes of section 182, subdivision (a)(5). The Davis court certainly did not hold that committing any unlawful act is necessarily a perversion or obstruction of justice. To the contrary, the court opined that even certain title 7 crimes would not amount to a perversion or obstruction of justice. (Davis, supra, at p. 16 [noting, in dicta, that the illegal sale of liquor within certain distances of the several educational institutions would not constitute a \u201c \u2018Crime[] Against Public Justice\u2019 \u201d].)\nFurthermore, the Davis court observed, \u201csection 182 subdivision [(a)(5)] \u2018is no narrowly drawn statute,\u2019 and if it is not to \u2018run afoul of the Due Process Clause because it fails to give adequate guidance to those who would be law-abiding, to advise defendants of the nature of the offense with which they are charged, or to guide courts in trying those who are accused\u2019 [citation], it must be given content by the cases.\u201d (Davis, supra, 175 Cal.App.2d at p. 14.) The Davis court recognized that the constitutionality of the statute rested upon cases, including Lorenson, supra, 35 Cal.2d 49, that \u201chave charted boundaries to its otherwise limitless sea of criminality.\u201d (Davis, supra, at p. 14.) As interpreted by the courts, section 182, subdivision (a)(5), \u201cis not limitless but contracted.\u201d (Davis, supra, at p. 16.)\nGiven that section 182, subdivision (a)(5), is limited, it is incumbent upon the Attorney General to explain why the allegations against Redd \u2014 conspiring to bring tobacco into a state prison \u2014 constitute a perversion or obstruction of justice or the due administration of the laws. It is not enough to show that the object of the conspiracy was not lawful. We note that the Attorney General does not claim, for example, that Comil was a public official and smuggling tobacco to an inmate was a failure to perform his official duty to enforce criminal laws. (Cf. Lorenson, supra, 35 Cal.2d at pp. 59-60 [\u201cA conspiracy with or among public officials not to perform their official duty to enforce criminal laws is an obstruction of justice and an indictable offense at common law.\u201d].) Nor does the Attorney General point to any evidence in the record showing that Comil\u2019s duties as a correctional supervising cook included enforcement of the law.\nThe alleged conspiracy to bring tobacco into a state prison does not violate a statute found in part 1, title 7 of the Penal Code, nor is there any claim that the allegations would have been a crime under common law. Because the Attorney General has not demonstrated how the alleged conspiracy perverts or obstructs justice or the due administration of the laws, there was insufficient evidence to support Redd\u2019s conviction for count 2. We need not consider Redd\u2019s remaining claim that the alleged conspiracy was a \u201cnon-crime.\u201d\nDISPOSITION\nThe conviction for count 2, conspiracy to pervert or obstruct justice, or due administration of laws, is reversed. The trial court is directed to forward the amended abstract of judgment, omitting the conviction, to appropriate prison authorities. The judgment is affirmed in all other respects.\nHill, P. J., and Gomes, J., concurred.\nUnless otherwise indicated, all further statutory citations are to the Penal Code.\nDuring his testimony, Amaro identified the items he found on Cornil, and it appears he confiscated five chargers, four charger cables, two earbuds, two HDMI cables, and one micro SD adapter from Comil.\nMiranda v. Arizona (1966) 384 U.S. 436, 444-445 [16 L.Ed.2d 694, 86 S.Ct. 1602],\nWe note that section 4576, subdivision (a) now makes it a misdemeanor to deliver a cell phone or memory storage device to an inmate and subdivision (c) of section 4576 provides that \u201c[a]ny inmate who is found to be in possession of a wireless communication device shall be subject to time credit denial or loss of up to 90 days.\u201d Section 4576, however, does not apply to the current case because it became effective October 6, 2011, after Comil was apprehended. (Stats. 2011, ch. 500, \u00a7 1.)\nSection 182, subdivision (a)(5) also makes it a crime to conspire \u201c[t]o commit any act injurious to the public health, to public morals,\u201d but this language was not used in the amended information, and no argument was made that Redd\u2019s conduct was injurious to public health or morals.\nRedd points out that, although inmates are not allowed to possess tobacco under the Department of Corrections and Rehabilitation\u2019s rules and regulations, possession of tobacco is classified as an administrative rule violation, not a serious rule violation. (Cal. Code Regs., tit. 15, \u00a7\u00a7 3006, subd. (c)(18), 3314, subd. (a)(3)(A), 3315.) Therefore, he asserts, the allegations of count 2 constitute \u201can administrative level offense and not a criminal offense.\u201d\nFormer section 182, subdivision (5), was renumbered as section 182, subdivision (a)(5), in 1989 without any change to the language. (Stats. 1989, ch. 897, \u00a7 15, p. 3062.)",
+        "type": "majority",
+        "author": "KANE, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Daniel G. Koryn, under appointment by the Court of Appeal, for Defendant and Appellant.",
+      "Kamala D. Harris, Attorney General, Dane R. Gillette, Chief Assistant Attorney General, Michael P. Farrell, Assistant Attorney General, Catherine Chatman and Larenda R. Delaini, Deputy Attorneys General, for Plaintiff and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. F065225.\nFifth Dist.\nJuly 28, 2014.]\nTHE PEOPLE, Plaintiff and Respondent, v. SHERMAN REDD, Defendant and Appellant.\nCounsel\nDaniel G. Koryn, under appointment by the Court of Appeal, for Defendant and Appellant.\nKamala D. Harris, Attorney General, Dane R. Gillette, Chief Assistant Attorney General, Michael P. Farrell, Assistant Attorney General, Catherine Chatman and Larenda R. Delaini, Deputy Attorneys General, for Plaintiff and Respondent."
+  },
+  "file_name": "0449-01",
+  "first_page_order": 395,
+  "last_page_order": 410
+}

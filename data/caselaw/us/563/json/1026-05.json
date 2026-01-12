@@ -1,0 +1,59 @@
+{
+  "id": 5939437,
+  "name": "Armwood v. New Jersey",
+  "name_abbreviation": "Armwood v. New Jersey",
+  "decision_date": "2011-05-31",
+  "docket_number": "No. 10-10084",
+  "first_page": "1026",
+  "last_page": "1026",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1026"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 84,
+    "ocr_confidence": 0.657,
+    "sha256": "00a7bdf6833f3d929b486133860e8f5c73d8372627919adee401ca60dbcd7d61",
+    "simhash": "1:7aedbf5c0aad93bf",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Armwood v. New Jersey."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. N. J., App. Div. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10084.\nArmwood v. New Jersey."
+  },
+  "file_name": "1026-05",
+  "first_page_order": 1052,
+  "last_page_order": 1052
+}

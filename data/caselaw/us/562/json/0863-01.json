@@ -1,0 +1,59 @@
+{
+  "id": 5911171,
+  "name": "Crear v. Harry, Warden",
+  "name_abbreviation": "Crear v. Harry",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11125",
+  "first_page": "863",
+  "last_page": "863",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 863"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.547,
+    "sha256": "9fcc86dbdd7fe96e3ad2363250f7eec63062cd3ef0fb719e54ef912442550639",
+    "simhash": "1:f3b812e28e6f1056",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Crear v. Harry, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11125.\nCrear v. Harry, Warden."
+  },
+  "file_name": "0863-01",
+  "first_page_order": 885,
+  "last_page_order": 885
+}

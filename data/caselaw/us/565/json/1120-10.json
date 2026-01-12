@@ -1,0 +1,59 @@
+{
+  "id": 12239979,
+  "name": "Gottschalk v. State Bar of California",
+  "name_abbreviation": "Gottschalk v. State Bar of California",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-6982",
+  "first_page": "1120",
+  "last_page": "1120",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1120"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 85,
+    "ocr_confidence": 0.666,
+    "sha256": "08ef1edfa18579bca27f9e892c9f1d8553978821082f47996eab6b58d789b780",
+    "simhash": "1:ac2b1ff09a0428e0",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gottschalk v. State Bar of California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6982.\nGottschalk v. State Bar of California."
+  },
+  "file_name": "1120-10",
+  "first_page_order": 1202,
+  "last_page_order": 1202
+}

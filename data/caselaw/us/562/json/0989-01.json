@@ -1,0 +1,59 @@
+{
+  "id": 5922586,
+  "name": "Metcalf v. United States",
+  "name_abbreviation": "Metcalf v. United States",
+  "decision_date": "2010-10-18",
+  "docket_number": "No. 10-6452",
+  "first_page": "989",
+  "last_page": "989",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 989"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.611,
+    "sha256": "f344256575c9ff8b54f200ba30426c8974616adc0a6e2f3dff2a8c4671437434",
+    "simhash": "1:878a92036ebd9d4e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Metcalf v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6452.\nMetcalf v. United States."
+  },
+  "file_name": "0989-01",
+  "first_page_order": 1011,
+  "last_page_order": 1011
+}

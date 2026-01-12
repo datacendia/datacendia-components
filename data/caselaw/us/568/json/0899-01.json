@@ -1,0 +1,59 @@
+{
+  "id": 12415409,
+  "name": "Holz v. McFadden et al.",
+  "name_abbreviation": "Holz v. McFadden",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5177",
+  "first_page": "899",
+  "last_page": "899",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 899"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 72,
+    "ocr_confidence": 0.682,
+    "sha256": "79f714d596a044114a78649cef555030dba6fa4cd1c7c2a247cdcb3f4f62560a",
+    "simhash": "1:d0693ce9ff854abd",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Holz v. McFadden et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5177.\nHolz v. McFadden et al."
+  },
+  "file_name": "0899-01",
+  "first_page_order": 975,
+  "last_page_order": 975
+}

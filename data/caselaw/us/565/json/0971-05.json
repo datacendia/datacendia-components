@@ -1,0 +1,59 @@
+{
+  "id": 12229908,
+  "name": "Loyd v. Georgia",
+  "name_abbreviation": "Loyd v. Georgia",
+  "decision_date": "2011-10-20",
+  "docket_number": "No. 11-6057",
+  "first_page": "971",
+  "last_page": "971",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 971"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 18,
+    "char_count": 111,
+    "ocr_confidence": 0.693,
+    "sha256": "28cdb55484fbf6d309054948970df19e2542170f3e93d21da7c29aaef4f3ecb5",
+    "simhash": "1:c3ab06fd0ecc0e36",
+    "word_count": 18
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Loyd v. Georgia."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ga. Certiorari dismissed under this Court\u2019s Rule 46.1.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "October 20, 2011\nNo. 11-6057.\nLoyd v. Georgia."
+  },
+  "file_name": "0971-05",
+  "first_page_order": 1053,
+  "last_page_order": 1053
+}

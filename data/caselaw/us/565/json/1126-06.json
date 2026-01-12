@@ -1,0 +1,59 @@
+{
+  "id": 12240598,
+  "name": "Sullivan v. Stovall, Warden",
+  "name_abbreviation": "Sullivan v. Stovall",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-7197",
+  "first_page": "1126",
+  "last_page": "1126",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1126"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.633,
+    "sha256": "cc0ed7586626752fd4c283248cfb274d8f3a2dc4a71bbc9ab84928a4812d663e",
+    "simhash": "1:b68a72228a3bd076",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sullivan v. Stovall, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7197.\nSullivan v. Stovall, Warden."
+  },
+  "file_name": "1126-06",
+  "first_page_order": 1208,
+  "last_page_order": 1208
+}

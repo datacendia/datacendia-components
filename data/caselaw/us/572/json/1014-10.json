@@ -1,0 +1,68 @@
+{
+  "id": 12704999,
+  "name": "In re Michael DAVIS, petitioner.",
+  "name_abbreviation": "In re Davis",
+  "decision_date": "2014-03-24",
+  "docket_number": "No. 13\u20138901.",
+  "first_page": "1014",
+  "last_page": "1014",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "572 U.S. 1014"
+    },
+    {
+      "type": "parallel",
+      "cite": "188 L. Ed. 2d 582"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 1572"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 22,
+    "char_count": 141,
+    "sha256": "5a2e6f744d873ba2b6c53350d67f16ce25239c0081e46905c1b2a3779cbf59d7",
+    "simhash": "1:786b14589bb14149",
+    "word_count": 23
+  },
+  "last_updated": "2021-08-27T20:44:00.426858+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Michael DAVIS, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of habeas corpus denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re Michael DAVIS, petitioner.\nNo. 13-8901.\nSupreme Court of the United States\nMarch 24, 2014.\nPetition for writ of habeas corpus denied."
+  },
+  "file_name": "1014-10",
+  "first_page_order": 1014,
+  "last_page_order": 1014
+}

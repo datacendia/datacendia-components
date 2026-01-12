@@ -1,0 +1,59 @@
+{
+  "id": 12432874,
+  "name": "Green v. Florida",
+  "name_abbreviation": "Green v. Florida",
+  "decision_date": "2013-03-04",
+  "docket_number": "No. 12-8602",
+  "first_page": "1221",
+  "last_page": "1221",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1221"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 81,
+    "ocr_confidence": 0.644,
+    "sha256": "852cf95abd980e46a9a043bb638d678e7ec95be54865e2f52233c3d7a7fd8982",
+    "simhash": "1:991c5313f4c1cf1a",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Green v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 4th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8602.\nGreen v. Florida."
+  },
+  "file_name": "1221-05",
+  "first_page_order": 1297,
+  "last_page_order": 1297
+}

@@ -1,0 +1,875 @@
+{
+  "id": 2244736,
+  "name": "Dallas Railway & Terminal Company v. Sarah Jane Bailey",
+  "name_abbreviation": "Dallas Railway & Terminal Co. v. Bailey",
+  "decision_date": "1952-06-18",
+  "docket_number": "No. A-3553",
+  "first_page": "359",
+  "last_page": "370",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "151 Tex. 359"
+    },
+    {
+      "type": "parallel",
+      "cite": "250 S.W.2d 379"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "229 S.W. 2d 192",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10191723
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/229/0192-01"
+      ]
+    },
+    {
+      "cite": "87 S.W. 2d 537",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10260195
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/87/0537-01"
+      ]
+    },
+    {
+      "cite": "194 S.W. 1103",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8262409
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw/194/1103-01"
+      ]
+    },
+    {
+      "cite": "108 Texas 413",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2249300
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/108/0413-01"
+      ]
+    },
+    {
+      "cite": "118 S. W. 2d 456",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10233798
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/118/0456-01"
+      ]
+    },
+    {
+      "cite": "78 S.W. 2d 714",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10255867
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/78/0714-01"
+      ]
+    },
+    {
+      "cite": "24 S.W. 2d 18",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10260314
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/24/0018-01"
+      ]
+    },
+    {
+      "cite": "210 S.W. 2d 147",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10188745,
+        8716980
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/210/0147-01",
+        "/tex/146/0569-01"
+      ]
+    },
+    {
+      "cite": "146 Texas 569",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        8716980
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/146/0569-01"
+      ]
+    },
+    {
+      "cite": "173 S.W. 2d 206",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10200232,
+        10200359
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/173/0206-01",
+        "/sw2d/173/0206-02"
+      ]
+    },
+    {
+      "cite": "151 S.W. 2d 794",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2316466,
+        10225300
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/136/0405-01",
+        "/sw2d/151/0794-01"
+      ]
+    },
+    {
+      "cite": "136 Texas 405",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2316466
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/136/0405-01"
+      ]
+    },
+    {
+      "cite": "115 S.W. 2d 401",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2324568,
+        10249055
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/131/0466-01",
+        "/sw2d/115/0401-01"
+      ]
+    },
+    {
+      "cite": "131 Texas 466",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2324568
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/131/0466-01"
+      ]
+    },
+    {
+      "cite": "95 S.W. 2d 956",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10271386
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/95/0956-01"
+      ]
+    },
+    {
+      "cite": "128 Texas 82",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2293211
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/128/0082-01"
+      ]
+    },
+    {
+      "cite": "121 S.W. 2d 323",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2322473,
+        10231707
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/132/0077-01",
+        "/sw2d/121/0323-01"
+      ]
+    },
+    {
+      "cite": "132 Texas 77",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2322473
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/132/0077-01"
+      ]
+    },
+    {
+      "cite": "91 S.W. 2d 326",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10246660,
+        2296215
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/91/0326-01",
+        "/tex/126/0596-01"
+      ]
+    },
+    {
+      "cite": "126 Texas 596",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2296215
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/126/0596-01"
+      ]
+    },
+    {
+      "cite": "101 S.W. 2d 809",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2293220,
+        10261828
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/128/0638-01",
+        "/sw2d/101/0809-01"
+      ]
+    },
+    {
+      "cite": "128 Texas 638",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2293220
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/128/0638-01"
+      ]
+    },
+    {
+      "cite": "81 S.W. 2d 60",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2298353,
+        10235674
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/125/0069-01",
+        "/sw2d/81/0060-01"
+      ]
+    },
+    {
+      "cite": "125 Texas 69",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2298353
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/125/0069-01"
+      ]
+    },
+    {
+      "cite": "106 S.W. 2d 660",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10265274,
+        2290139
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/106/0660-01",
+        "/tex/130/0096-01"
+      ]
+    },
+    {
+      "cite": "130 Texas 96",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2290139
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/130/0096-01"
+      ]
+    },
+    {
+      "cite": "177 S.W. 2d 951",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10223584,
+        2339037
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/177/0951-01",
+        "/tex/142/0332-01"
+      ]
+    },
+    {
+      "cite": "142 Texas 332",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2339037
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/142/0332-01"
+      ]
+    },
+    {
+      "cite": "86 S.W. 2d 633",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10248378,
+        2296246
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/86/0633-01",
+        "/tex/126/0109-01"
+      ]
+    },
+    {
+      "cite": "126 Texas 109",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2296246
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/126/0109-01"
+      ]
+    },
+    {
+      "cite": "2 S.W. 2d 276",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10291562
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/2/0276-01"
+      ]
+    },
+    {
+      "cite": "238 S.W. 908",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8264413
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/238/0908-01"
+      ]
+    },
+    {
+      "cite": "63 S.W. 534",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "94 Texas 510",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2233500
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/94/0510-01"
+      ]
+    },
+    {
+      "cite": "151 S.W. 2d 790",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10225269,
+        2316471
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/151/0790-01",
+        "/tex/136/0399-01"
+      ]
+    },
+    {
+      "cite": "136 Texas 399",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2316471
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/136/0399-01"
+      ]
+    },
+    {
+      "cite": "177 S.W. 2d 938",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10223457,
+        2339897
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/177/0938-01",
+        "/tex/142/0308-01"
+      ]
+    },
+    {
+      "cite": "142 Texas 308",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2339897
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/142/0308-01"
+      ]
+    },
+    {
+      "cite": "90 S.W. 2d 241",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10243464,
+        2294850
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/90/0241-01",
+        "/tex/127/0037-01"
+      ]
+    },
+    {
+      "cite": "127 Texas 37",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2294850
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/127/0037-01"
+      ]
+    },
+    {
+      "cite": "37 S.W. 2d 145",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10250699
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/37/0145-01"
+      ]
+    },
+    {
+      "cite": "25 S.W. 2d 813",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10283556
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/25/0813-01"
+      ]
+    },
+    {
+      "cite": "33 L.R.A.N.S. 103",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.N.S.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "133 S.W. 417",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10316169
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/133/0417-01"
+      ]
+    },
+    {
+      "cite": "104 Texas 41",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "157 S.W. 2d 955",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10226336
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/157/0955-01"
+      ]
+    },
+    {
+      "cite": "34 S.W. 2d 364",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10261586
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/34/0364-01"
+      ]
+    },
+    {
+      "cite": "222 S.W. 682",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8267428
+      ],
+      "pin_cites": [
+        {
+          "page": "684"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/222/0682-01"
+      ]
+    },
+    {
+      "cite": "13 S.W. 613",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "77 Texas 1",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2223090
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/77/0001-01"
+      ]
+    },
+    {
+      "cite": "8 S.W. 321",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "70 Texas 620",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2194303
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/70/0620-01"
+      ]
+    },
+    {
+      "cite": "3 S.W. 2d 535",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10284820
+      ],
+      "pin_cites": [
+        {
+          "page": "538"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/3/0535-01"
+      ]
+    },
+    {
+      "cite": "11 S.W. 127",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "pin_cites": [
+        {
+          "page": "130"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "72 Texas 643",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2190719
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/72/0643-01"
+      ]
+    },
+    {
+      "cite": "97 ALR 546",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "87 ALR 900",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "58 ALR 1493",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 ALR 1403",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "245 S.W. 2d 275",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10195668
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/245/0275-01"
+      ]
+    },
+    {
+      "cite": "78 S.W. 2d 714",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10255867
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/78/0714-01"
+      ]
+    },
+    {
+      "cite": "24 S.W. 2d 18",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10260314
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/24/0018-01"
+      ]
+    },
+    {
+      "cite": "142 Texas 309",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "163 S.W. 2d 1062",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10225337,
+        2311450
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/163/1062-01",
+        "/tex/139/0170-01"
+      ]
+    },
+    {
+      "cite": "139 Texas 170",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2311450
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/139/0170-01"
+      ]
+    },
+    {
+      "cite": "114 S.W. 2d 859",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10270509,
+        2324558
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/114/0859-01",
+        "/tex/131/0319-01"
+      ]
+    },
+    {
+      "cite": "131 Texas 319",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2324558
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/131/0319-01"
+      ]
+    },
+    {
+      "cite": "177 S.W. 2d 938",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10223457,
+        2339897
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/177/0938-01",
+        "/tex/142/0308-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 940,
+    "char_count": 22355,
+    "ocr_confidence": 0.632,
+    "pagerank": {
+      "raw": 1.8675623210586027e-06,
+      "percentile": 0.9943664669252917
+    },
+    "sha256": "26b8232c2c7848b14d87a8c92df13b0c4b92db5d5b3f514f6b252eedc650f044",
+    "simhash": "1:bf4f2c636326798e",
+    "word_count": 3975
+  },
+  "last_updated": "2024-02-27T19:52:08.570687+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dallas Railway & Terminal Company v. Sarah Jane Bailey."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Calvert\ndelivered the opinion of the Court.\nMrs. Sarah Jane Bailey, a widow, was injured when an automobile in which she was riding as a guest collided with the . rear end of a bus owned by Dallas Railway & Terminal Company. In the trial court, Mrs. Bailey recovered a judgment of damages against the Railway & Terminal Company, but the judgment was reversed and the cause remanded for retrial by the Court of Civil Appeals. 245 S.W. 2d 275. Both parties applied for writ of error, the application of the Railway & Terminal Company being based upon its point that certain conduct of Mrs. Bailey was contributory negligence as a matter of law which was a proximate cause of her injuries and that the Court of Civil Appeals therefore erred in not rendering judgment for the Railway & Terminal Company. The application was granted and because of the granting of such application Mrs. Bailey\u2019s application asserting that the Court of Civil Appeals erred in reversing and remanding the cause because of the admission of certain evidence, to be noticed later, was also granted. The parties will be referred to in this opinion as plaintiff and defendant.\nA fairly detailed statement of the factual background of the suit is contained in the opinion of the Court of Civil Appeals and only a brief statement of the facts necessary to a proper understanding and determination of the questions presented will be made here.\nIn the early morning of January 18, 1949, the defendant\u2019s bus was stopped and receiving passengers on the south side of Ft. Worth Avenue, a four-lane highway, at its intersection with Jacqueline Place in the Western outskirts of the City of Dallas. The bus was headed in an easterly direction and it is admitted by the defendant that the bus was at least partially on the paved portion of the highway. While the bus was so stopped the automobile in which plaintiff was riding, owned and operated by her son, ran into the rear end thereof.\nThe evidence reflects that during the preceding night the automobile in which plaintiff was riding had been exposed to snow, sleet and freezing rain and that on the morning, of the collision the windshield was coated over with ice, sleet and snow. The evidence further reflects that the automobile was equipped with a heater, windshield wipers and defrosters. The testimony of the plaintiff is that before attempting to use the automobile on the morning of the accident the motor was allowed to run for ten or fifteen minutes until the ice on the windshield had melted and that they did not start their trip until the windshield was clear; that her son stopped the automobile after driving approximately two blocks and cleaned off his side of the windshield before proceeding to the place of the collision, just a few blocks further. With respect to the condition of the windshield after they had stopped the plaintiff testified as follows:\n\u201cQ. When you started up then was the windshield clear?\n\u201cA. Yes.\n\u201cQ. In front of Buster?\n\u201cA. In front of Buster it was perfect.\n\u201cQ. How was it on your side?\n\u201cA. On my side, it was still melting. You see he didn\u2019t clean it off on my side.\n\u201cQ. Could you see out?\n\u201cA. Yes, but not as clearly as he could.\u201d\nBased principally upon the testimony of the plaintiff that her visibility was limited to fifteen or twenty feet and the testimony of her son that when he first saw the bus it was only eighteen to twenty feet away at which time he was driving at a rate of speed of fifteen to twenty miles per hour, the son admitting that allowing for ordinary reaction time his brakes could not effectively have been applied within the eighteen or twenty feet, defendant asserts that the record shows contributory negligence as a matter of law.\n1 It has been held in some jurisdictions to be negligence as a matter of law to drive an automobile at such a rate of speed as that it cannot be stopped by the driver within his range of vision. On the other hand the courts of some jurisdictions have rejected this theory. For cases in support of both views, see 28 Tex. Law. Rev. 120 and annotations in 44 ALR 1403, 58 ALR 1493, 87 ALR 900 and 97 ALR 546. But whichever may be the sounder view, a matter which we find it unnecessary to decide, the rule can have no application to the facts in this case. If the son were the plaintiff here there might be occasion to invoke that rule. But he is not the plaintiff and his negligence cannot be imputed to his mother. Galveston, H. & S.A.R. Co. v. Kutac, 72 Texas 643, 11 S.W. 127, 130; Jacobe v. Goings, Texas Civ. App., 3 S.W. 2d 535, 538 (writ dism.). The fact that the driver of the automobile may have been guilty of negligence as a matter of law in driving at such rate of speed as that he could not stop within the range of his vision does not convict the plaintiff of the same negligence. Whether the plaintiff was guilty of negligence must be determined by viewing the situation through her eyes.\nThe testimony of the plaintiff presents evidence that she had no knowledge that the driver\u2019s range of vision was limited to eighteen or twenty feet. Her testimony is fairly subject to the interpretation that while her own range of vision was limited to fifteen or twenty feet, she thought the range of vision of the driver was much greater. In the light of this testimony it cannot be said that the fact that the plaintiff continued to ride with her son at a rate of speed of fifteen or twenty miles per hour without protest or warming to him was contributory negligence as a matter of law.\nThe jury in answer to a series of issues absolved the plaintiff of negligence based on her failure to request her son to slow down the speed of the car, her failure to warn her son of the presence of the bus and her failure to caution her son to look out for traffic on the highway and particularly for defendant\u2019s bus. Under the evidence these were facts issues and they are foreclosed against the defendant by the jury\u2019s findings.\nWe are not unmindful of the rules of conduct prescribed for a guest by the cases of Texas Mexican Ry. Co. v. Hoy, Tex. Com. App., 24 S.W. 2d 18, Kypfer et al v. Texas & P. Ry. Co., Tex. Civ. App., 78 S.W. 2d 714 (no writ history), cited by defendant. Those cases may be distinguished from the instant case, however, in that in each of those cases the driver of the automobile was proceeding toward a railroad crossing with which the guest was familiar, a place known to the guest to be a place of danger, at such a rate of speed as that it was also known to the guest that under the existing conditions of poor visibility the automobile could not be stopped in time to avoid a collision if the crossing was blocked by a train. In the instant case we have neither the element of the known place of danger nor the element of knowledge on the part of the guest that the range of vision of the driver was as limited as was the range of vision of the plaintiff. The cited cases are not controlling.\n2 As has been indicated, the trial court\u2019s judgment in favor of plaintiff was reversed by the Court of Civil Appeals because of the error of the trial court in admitting, over the defendant\u2019s objection, testimony of plaintiff\u2019s witness Hardy, for ten and one-half years a bus operator, to the effect that it was not \u201csafe\u201d to stop a bus on the highway before day-light and when the highway was covered with ice, and that it was not \u201csafe\u201d to stop a bus or any vehicle in the traffic lane of a highway at night and under icy conditions.\nWe agree with the view of the Court of Civil Appeals that the matter inquired about did not lie within the field properly subject to expert opinion testimony and that the testimony of the witness was a pure conclusion that should have been excluded. Ample support for that holding is found in the cases cited by the Court of Civil Appeals. Moreover, the testimony was not made admissible by the fact that defendant\u2019s witness, Doss, the driver of the bus involved in the collision, had theretofore testified, without objection by plaintiff, that he drove the bus as far to the right as he \u201cthought practical and safely (sic) to the public and his passengers and everybody else concerned.\u201d The fact that inadmissible testimony of one party is admitted without objection does not authorize the other party, by way of rebuttal, to put in inadmissible testimony over timely and proper objection. Dolsen v. De Ganahl, 70 Texas 620, 8 S.W. 321; Shiner v. Abbie, 77 Texas 1, 13 S.W. 613; Massey v. Allen, Tex. Civ. App., 222 S.W. 682, 684 (no writ history); Smith v. Burroughs, Tex. Civ. App., 34 S.W. 2d 364 (writ dism.,) ; Phelps v. State, Tex. Civ. App., 157 S.W. 2d 955 (no writ history). Nor did the cross-examination of the witness as to the testimony improperly admitted over defendant\u2019s objection, waive the right of the defendant to complain of the error. Cathey v. Missouri K. & T. Ry. Co. of Texas, 104 Texas 41, 133 S.W. 417, 33 L.R.A.N.S. 103; Hidalgo Co. Water Control and Imp. Dist. No. 1 v. Goodwin, Tex. Com. App., 25 S.W. 2d 813; Stinnell v. Paramount-Famous Laskey Corp. of N.Y., Tex. Com. App., 37 S.W. 2d 145.\n3 But the plaintiff says that even if the trial court erred in admitting the testimony the error was harmless within the meaning of Rules 434 and 503, Texas Rules of Civil Procedure, which direct that the Courts of Civil Appeals and this Court shall not reverse judgments for errors of law committed on the trial unless they \u201cshall be of the opinion that the error complained of amounted to such a denial of the rights of the appellant as was reasonably calculated to cause and probably did cause the rendition of an improper judgment in the case * * We must consider and pass on this contention in the light of the facts reflected by the entire record. So considered, we are not convinced that but for the improper admission of the testimony the jury would probably have reached a different verdict. An examination of the statement of facts reflects that the same witness, on cross-examination, testified extensively and repeatedly that it was not safe to drive or ride in an automobile under the conditions and circumstances shown by the evidence to have surrounded the driving of the automobile in which plaintiff was riding. We are unwilling to hold that the jury disregarded the opinion of the witness in deciding that plaintiff was not negligent, as it must have done, and yet that it probably gave controlling effect to the opinion of the witness in deciding that defendant was negligent. Furthermore the statement of facts reflects that the driver of defendant\u2019s bus, defendant\u2019s own principal witness, testified, without objection, that the reason he drove the bus partially off of the paved portion of the highway was because he \u201cknew it was dangerous stopping on the highway.\u201d With defendant\u2019s own witness testifying that it \u201cwas dangerous stopping on the highway\u201d it hardly seems probable that the testimony of plaintiff\u2019s witness that it was not \u201csafe\u201d to stop the bus on the highway was the controlling factor in the jury\u2019s verdict.\n4 Having held that the Court of Civil Appeals erred in reversing and remanding the cause on the point just discussed, we look to defendant\u2019s brief in the Court of Civil Appeals to see if that court had before it any other point of error upon which its judgment should be affirmed. Jordan v. Morten Inv. Co., 127 Texas 37, 90 S.W. 2d 241.\nOther than points asserting the insufficiency of the evidence to sustain the jury\u2019s findings in favor of the plaintiff on issues of contributory negligence and the subsidiary issues of proximate cause, points beyond our jurisdiction to consider or to decide, defendant had before the Court of Civil Appeals three points of error as follows: (1) That the trial court\u2019s definition of \u201cunavoidable accident\u201d was defective; (2) That the burden of proof on an issue of new and independent cause was erroneously placed upon the defendant, and (3) That special issue 3, 4 and 5 were repetitous of special issues 1 and 2. We shall dispose of these contentions in the order listed.\n5 (1) Unavoidable accident was defined in the charge of the trial court as \u201can event which happens without having been proximately caused by any party to it.\u201d The burden of defendant\u2019s criticism of this definition is that as to the parties to the suit the collision was an unavoidable accident if it resulted solely from some negligent act of plaintiff\u2019s son, but that the jury was not permitted to so find. This precise contention was before this Court and was overruled in the case of Texas Textile Mills et al v. Gregory, 142 Texas 308, 177 S.W. 2d 938. See also Hicks et al v. Brown, 136 Texas 399, 151 S.W. 2d 790 where the same question was presented and where the court said: \u201cBecause of the uncertain state of the authorities upon the question, we have had a full conference with a free discussion of the question, and have decided to hold * * * that if the evidence does not raise the issue that something other than the negligence of one of the parties (to the event) caused the injuries, then it does not raise the issue of unavoidable accident.\u201d\n6 (2) Special Issue No. 28, submitted to the jury, reads as follows: \u201cDo you find from a preponderance of the evidence that the act of the driver of the automobile in which the plaintiff was riding at the time and on the occasion in question in running into and against the rear of defendant\u2019s bus, was a new and independent cause, as that term is herein defined, of the collision in question?\u201d Defendant objected to the submission of this issue on the ground that it erroneously placed upon the defendant the burden of securing an affirmative answer to the issue. Obviously the issue did place the burden of proof upon the defendant but we do not find it necessary to decide whether this was error. The erroneous wording of the issue does not require a reversal of the trial court\u2019s judgment if the defendant was not entitled to have the issue submitted.\n7 The theory of new and independent cause is not an affirmative defense; it is but an element to be considered by the jury in determining the existence or non-existence of proximate cause. In this respect it does not lie in the same field as issu\u00e9s of unavoidable accident and sole proximate cause which issues are not defined in the court\u2019s charge as elements of proximate cause and which issues this court has held, in many cases, must be submitted separately when raised by the evidence. See Galveston, H. & S.A. Ry. Co. v. Washington, 94 Texas 510, 63 S.W. 534; Colorado & S. Ry. Co. v. Rowe, Tex. Com. App., 238 S.W. 908; Montrief & Montrief v. Bragg et al, Tex. Com. App., 2 S.W. 2d 276; Dixie Motor Coach Corp. v. Galvan et ux, 126 Texas 109, 86 S.W. 2d 633; Schumacher Co. v. Holcomb et al, 142 Texas 332, 177 S.W. 2d 951. On the contrary, it is governed by the rule expressed by this court in the case of City of Panhandle v. Byrd, 130 Texas 96, 106 S.W. 2d 660. In that case an issue was submitted to the jury inquiring whether a certain negligent act on the part of the defendant was a proximate cause of the plaintiff\u2019s injuries. At the defendant\u2019s request the court also submitted an issue inquiring whether the plaintiff\u2019s injuries were something \u201cwhich a person of ordinary prudence should have reasonably foreseen beforehand as likely to occur\u201d from the defendant\u2019s negligent act. Although required to reverse the trial court\u2019s judgment because of the jury\u2019s conflicting answers to these questions, the court said: \u201cThe Court should not have submitted the requested issue. It comprehended but one element of the ultimate issue of proximate cause, which had been submitted in the main charge.\u201d\n8 This court has held time and again that where there is pleading and evidence raising the issue of new and independent cause the trial court\u2019s definition of proximate cause must include the element of new and independent cause and that the phrase \u201cnew and independent cause\u201d must iself be defined. Phoenix Refining Co. v. Tips, 125 Texas 69, 81 S.W. 2d 60; Young v. Massey, et al, 128 Texas 638, 101 S.W. 2d 809; Southland Greyhound Lines v. Cotten, 126 Texas 596, 91 S.W. 2d 326; Texas Motor Coaches v. Palmer, 132 Texas 77, 121 S.W. 2d 323; Southern Ice & Utilities Co. v. Richardson, 128 Texas 82, 95 S.W. 2d 956; Tarry Warehouse & Storage Co. v. Duvall, 131 Texas 466, 115 S.W. 2d 401; Jackson v. Edmondson, 136 Texas 405, 151 S.W. 2d 794. But unless it be in the case of Mercer et al v. Evans, Tex. Civ. App., 173 S.W. 2d 206 (writ refused) a case in which the refusal of writ of error appears to have been improvident, so far as we have been able to discover this court has never held that a defendant was entitled to have an additional submission of this element of proximate cause in a separate issue. The trial court in this case having included the element of new and independent cause in its definition of proximate cause and having then defined new and independent cause should not have submitted the separate issue on new and independent cause. It follows that the erroneous misplacing of the burden of proof in the issue is no ground for reversing the trial court\u2019s judgment.\n9 (3) By special issues 1 and 2 the trial court inquired of the jury whether the operator of defendant\u2019s bus was negligent in stopping the bus on the paved portion of the highway \u201cwhere the same was stopped\u201d and whether such negligence was a proximate cause of the collision. By special issues 3, 4 and 5 the court inquired whether the operator could have stopped the bus completely off of the paved portion of the highway, whether the failure to so stop it was negligence and whether such negligence was a proximate cause of the collision. Defendant complains that this portion of the court\u2019s charge amounted to a double submission of the same matter, and that it gave undue emphasis to that particular matter and therefore amounted to a comment on the weight of the evidence. The cases cited by defendant which do indeed tend to support his position were all decided before the adoption of Rules 434 and 503 of the Texas Rules of Civil Procedure. In the light of the construction given those rules we are unable to say that the error complained of, if any, was calculated to cause and probably did cause the jury to render a verdict different from that which it would have rendered but for the error. We find nothing in the record to indicate that the giving of the two sets of issues probably influenced the jury to answer the issues in the manner they did answer them. Texas Employers Ins. Assn. v. McKay, 146 Texas 569, 210 S.W. 2d 147.\nThe judgment of the Court of Civil Appeals is reversed and the cause is remanded to that court in order that it may pass on the defendant\u2019s points of error challenging the sufficiency of the evidence to support the answers of the jury to the issues on contributory negligence and the subsidiary issues of proximate cause.\nOpinion delivered June 18, 1952.",
+        "type": "majority",
+        "author": "Mr. Justice Calvert"
+      },
+      {
+        "text": "ON REHEARING.\nMr. Justice Calvert\ndelivered the opinion of the court.\nBoth parties have filed motions for rehearing.\n10 There is no new matter in the defendant\u2019s motion. In connection with our discussion of the trial court\u2019s definition of unavoidable accident, the defendant suggests, and we agree, that notice should be taken of the apparent conflict in the holdings of this court in the cases of Dallas Railway & Terminal Co. v. Price, 131 Texas 319, 114 S.W. 2d 859, and Houston Electric Co. v. McLeroy, 139 Texas 170, 163 S.W. 2d 1062, on the one hand, and in the case of Texas Textile Mills, et al v. Gregory 142 Texas 309, 177 S.W. 2d 938 and the instant case on the other hand. In so far as the holdings in the Price and McLeroy cases are in conflict with the holding here, and to that extent only, those cases are overruled. Unavoidable accident should be defined as an event not proximately caused by the negligence of any party to it. If it is the position of a defendant in any case that he is entitled to be absolved of liability because the event was caused by the negligence of a co-defendant or of a party to the event who is not a party to the suit, he may, and usually does protect himself through pleadings, proof and findings that the negligence of such person was the sole proximate cause of the event.\n11 In her motion for rehearing the plaintiff urges that we were in error in remanding this case to the Court of Civil Appeals for consideration by that court of the defendant\u2019s points of error challenging the sufficiency of the evidence to sustain the negative findings of the jury to issues on contributory negligence. She says that assignments of error in a motion for new trial were a prerequisite to points of error in the Court of Civil Appeals and that in the defendant\u2019s motion for new trial filed in the trial court there were no assignments challenging the sufficiency of the evidence to support the findings of the jury. A re-examination of the record substantiates this contention.\nAccordingly, that portion of our judgment remanding this cause to the Court of Civil Appeals for further consideration is set aside and the judgment of the trial court is affirmed. In all other respects both motions are overruled.\nOpinion delivered July 23, 1952.",
+        "type": "rehearing",
+        "author": "Mr. Justice Calvert"
+      }
+    ],
+    "attorneys": [
+      "Burford, Rybum, Hincks & Ford, Logan Ford and Robert E. Bums, all of Dallas, for petitioner, Dallas Railway & Terminal Company.",
+      "Mullinax, Wells & Ball and Otto B. Mullinax, all of Dallas, for respondent, Sarah Jane Bailey."
+    ],
+    "corrections": "",
+    "head_matter": "Dallas Railway & Terminal Company v. Sarah Jane Bailey.\nNo. A-3553.\nDecided June 18, 1952.\nRehearing modified and overruled July 23, 1952.\n(250 S. W., 2d Series, 379.)\nBurford, Rybum, Hincks & Ford, Logan Ford and Robert E. Bums, all of Dallas, for petitioner, Dallas Railway & Terminal Company.\nThe Court of Civil Appeals erred in failing to reverse and render the judgment of the trial court on the ground that respondent was contributorily negligence as a matter of law under the undisputed facts in the cause. Texas Mexican Ry. Co. v. Hoy, 24 S.W. 2d 18; Wichita Valley Ry. Co. v. Fite, 78 S.W. 2d 714; Standard Paving Co. v. Webb, 118 S. W. 2d 456.\nMullinax, Wells & Ball and Otto B. Mullinax, all of Dallas, for respondent, Sarah Jane Bailey.\nThe Court of Civil Appeals erred in holding that the testimony of witnesses that it was not safe to stop a bus on the highway under certain conditions was prejudicial error and not waived by bus company. Slayden v. Palmo, 108 Texas 413, 194 S.W. 1103; Franklin Fire Ins. Co. v. Coleman, 87 S.W. 2d 537; Cole v. City of Dallas, 229 S.W. 2d 192"
+  },
+  "file_name": "0359-01",
+  "first_page_order": 375,
+  "last_page_order": 386
+}

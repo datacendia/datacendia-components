@@ -1,0 +1,59 @@
+{
+  "id": 12210174,
+  "name": "Johnston v. Texas",
+  "name_abbreviation": "Johnston v. Texas",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11083",
+  "first_page": "866",
+  "last_page": "866",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 866"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 73,
+    "ocr_confidence": 0.685,
+    "sha256": "160b8d4db8563754e0030eeb0dbf806861e4bbec2aeacc9624d152059942cbe8",
+    "simhash": "1:8be3f8d63e9ef0d0",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Johnston v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tex. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11083.\nJohnston v. Texas."
+  },
+  "file_name": "0866-04",
+  "first_page_order": 948,
+  "last_page_order": 948
+}

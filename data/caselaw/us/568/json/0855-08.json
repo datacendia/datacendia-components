@@ -1,0 +1,59 @@
+{
+  "id": 12413742,
+  "name": "Folkes v. Lee, Warden",
+  "name_abbreviation": "Folkes v. Lee",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10673",
+  "first_page": "855",
+  "last_page": "855",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 855"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.758,
+    "sha256": "6d17cfc7dedabe494ce163c803a4e456016aa0b9f0fd354ec9f4a1c78133d0ed",
+    "simhash": "1:80c42b9a88171320",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Folkes v. Lee, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10673.\nFolkes v. Lee, Warden."
+  },
+  "file_name": "0855-08",
+  "first_page_order": 931,
+  "last_page_order": 931
+}

@@ -1,0 +1,59 @@
+{
+  "id": 6020069,
+  "name": "Martinez Santana v. United States",
+  "name_abbreviation": "Martinez Santana v. United States",
+  "decision_date": "2010-11-01",
+  "docket_number": "No. 10-6653",
+  "first_page": "1017",
+  "last_page": "1017",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1017"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 82,
+    "ocr_confidence": 0.585,
+    "sha256": "1326935f33f834d5d418f05d21f4f39978b1a081ed7fc0a8f40f08b8823bf6bc",
+    "simhash": "1:b6aa961906851009",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Martinez Santana v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6653.\nMartinez Santana v. United States."
+  },
+  "file_name": "1017-10",
+  "first_page_order": 1039,
+  "last_page_order": 1039
+}

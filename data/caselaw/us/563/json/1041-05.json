@@ -1,0 +1,59 @@
+{
+  "id": 5919761,
+  "name": "De La Cruz v. United States",
+  "name_abbreviation": "De La Cruz v. United States",
+  "decision_date": "2011-06-06",
+  "docket_number": "No. 10-10396",
+  "first_page": "1041",
+  "last_page": "1041",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1041"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 76,
+    "ocr_confidence": 0.588,
+    "sha256": "024c18211919f1599607e55e498533445310e7fefb3d9b08a25c6dafd7f6ffe1",
+    "simhash": "1:155f81bb021a9558",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "De La Cruz v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10396.\nDe La Cruz v. United States."
+  },
+  "file_name": "1041-05",
+  "first_page_order": 1067,
+  "last_page_order": 1067
+}

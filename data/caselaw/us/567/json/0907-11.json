@@ -1,0 +1,59 @@
+{
+  "id": 12408235,
+  "name": "Timm v. Illinois",
+  "name_abbreviation": "Timm v. Illinois",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. 11-9683",
+  "first_page": "907",
+  "last_page": "907",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 907"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.705,
+    "sha256": "21024876bbfcadde41505acdd83cfdaffa7be3cad5e56410f1e7c22341e57daf",
+    "simhash": "1:c3af9f4d54003c51",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Timm v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 4th Dist. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9683.\nTimm v. Illinois."
+  },
+  "file_name": "0907-11",
+  "first_page_order": 811,
+  "last_page_order": 811
+}

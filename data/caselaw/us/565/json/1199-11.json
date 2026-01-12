@@ -1,0 +1,59 @@
+{
+  "id": 12245817,
+  "name": "Thompson v. Georgia",
+  "name_abbreviation": "Thompson v. Georgia",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-735",
+  "first_page": "1199",
+  "last_page": "1199",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1199"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 65,
+    "ocr_confidence": 0.638,
+    "sha256": "8245550183f3b9e96981813d20a6fd44db7a50056086c3c049977770d171a790",
+    "simhash": "1:58d070d4b05cf0cd",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Thompson v. Georgia."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ga. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-735.\nThompson v. Georgia."
+  },
+  "file_name": "1199-11",
+  "first_page_order": 1281,
+  "last_page_order": 1281
+}

@@ -1,0 +1,61 @@
+{
+  "id": 12421642,
+  "name": "Lawson v. United States",
+  "name_abbreviation": "Lawson v. United States",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-6573",
+  "first_page": "996",
+  "last_page": "996",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 996"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 151,
+    "ocr_confidence": 0.625,
+    "sha256": "eeaa03d6a95e0c1238ab316bde50b182c1d38d6d77de82c4e6cfd1f8c57a8b1d",
+    "simhash": "1:9d33db83278e904a",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Lawson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6573.\nLawson v. United States."
+  },
+  "file_name": "0996-03",
+  "first_page_order": 1072,
+  "last_page_order": 1072
+}

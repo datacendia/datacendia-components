@@ -1,0 +1,59 @@
+{
+  "id": 5997296,
+  "name": "Manko v. Mannor et al.",
+  "name_abbreviation": "Manko v. Mannor",
+  "decision_date": "2010-10-12",
+  "docket_number": "No. 10-5853",
+  "first_page": "968",
+  "last_page": "968",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 968"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 70,
+    "ocr_confidence": 0.644,
+    "sha256": "0104b2a19cab80e30d96bed4c81e67c0905da64fa9425880f562d3462c7066c1",
+    "simhash": "1:acf5944985210295",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Manko v. Mannor et al."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. N. Y. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5853.\nManko v. Mannor et al."
+  },
+  "file_name": "0968-12",
+  "first_page_order": 990,
+  "last_page_order": 990
+}

@@ -1,0 +1,68 @@
+{
+  "id": 12702167,
+  "name": "In re Gary HUNT, petitioner.",
+  "name_abbreviation": "In re Hunt",
+  "decision_date": "2013-10-07",
+  "docket_number": "No. 13\u20135008.",
+  "first_page": "813",
+  "last_page": "813",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 813"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 266"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 214"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 22,
+    "char_count": 135,
+    "sha256": "5a478078f7a391cdb4949ac3b51104c202c74cf35867ff3709df37e3b28ca01f",
+    "simhash": "1:60ef447a9bd0c029",
+    "word_count": 23
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Gary HUNT, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of habeas corpus denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re Gary HUNT, petitioner.\nNo. 13-5008.\nSupreme Court of the United States\nOct. 7, 2013.\nPetition for writ of habeas corpus denied."
+  },
+  "file_name": "0813-26",
+  "first_page_order": 813,
+  "last_page_order": 813
+}

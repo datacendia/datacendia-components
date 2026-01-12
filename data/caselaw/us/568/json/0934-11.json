@@ -1,0 +1,61 @@
+{
+  "id": 12417423,
+  "name": "Woodberry v. United States",
+  "name_abbreviation": "Woodberry v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5720",
+  "first_page": "934",
+  "last_page": "934",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 934"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 153,
+    "ocr_confidence": 0.665,
+    "sha256": "3a1788fe89a187a78280240069e9e133ae45e82cb563b2e36e3a2e4bc8b2dcbf",
+    "simhash": "1:9b03ea824e8fb84a",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Woodberry v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5720.\nWoodberry v. United States."
+  },
+  "file_name": "0934-11",
+  "first_page_order": 1010,
+  "last_page_order": 1010
+}

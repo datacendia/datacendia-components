@@ -1,0 +1,59 @@
+{
+  "id": 12231480,
+  "name": "Yaacov v. Tibbals, Warden",
+  "name_abbreviation": "Yaacov v. Tibbals",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-6418",
+  "first_page": "989",
+  "last_page": "989",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 989"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.666,
+    "sha256": "27dad4e73e2769ed0a304782709f16d3ce7aca287d554b8667898490767e4609",
+    "simhash": "1:e6082adf2e7db854",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Yaacov v. Tibbals, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6418.\nYaacov v. Tibbals, Warden."
+  },
+  "file_name": "0989-07",
+  "first_page_order": 1071,
+  "last_page_order": 1071
+}

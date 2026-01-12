@@ -1,0 +1,240 @@
+{
+  "id": 12659814,
+  "name": "Allen CLAGGETT, Appellant v. STATE of Arkansas, Appellee",
+  "name_abbreviation": "Claggett v. State",
+  "decision_date": "2019-04-10",
+  "docket_number": "No. CR-18-964",
+  "first_page": "169",
+  "last_page": "174",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "575 S.W.3d 169"
+    },
+    {
+      "type": "parallel",
+      "cite": "2019 Ark. App. 208"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Ark. App. Ct.",
+    "id": 30086,
+    "name": "Court of Appeals of Arkansas, DIVISION IV"
+  },
+  "jurisdiction": {
+    "id": 34,
+    "name_long": "Arkansas",
+    "name": "Ark."
+  },
+  "cites_to": [
+    {
+      "cite": "2014 WL 1092601",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "opinion_index": 0
+    },
+    {
+      "cite": "2014 Ark. App. 190",
+      "category": "reporters:state",
+      "reporter": "Ark. App.",
+      "pin_cites": [
+        {
+          "page": "2"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2012 WL 5451806",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "opinion_index": 0
+    },
+    {
+      "cite": "2012 Ark. App. 647",
+      "category": "reporters:state",
+      "reporter": "Ark. App.",
+      "pin_cites": [
+        {
+          "page": "1-2"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "Ark. Code Ann. \u00a7 5-2-205",
+      "category": "laws:leg_statute",
+      "reporter": "Ark. Code Ann.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "2015 Ark. App. 520",
+      "category": "reporters:state",
+      "reporter": "Ark. App.",
+      "case_ids": [
+        6837543
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/472/0490-01"
+      ]
+    },
+    {
+      "cite": "305 Ark. 244",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1916842
+      ],
+      "weight": 2,
+      "year": 1991,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/305/0244-01"
+      ]
+    },
+    {
+      "cite": "372 Ark. 307",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        3508666
+      ],
+      "weight": 2,
+      "year": 2008,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/372/0307-01"
+      ]
+    },
+    {
+      "cite": "2011 Ark. 461",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        7094591
+      ],
+      "weight": 5,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "5"
+        },
+        {
+          "page": "5"
+        },
+        {
+          "page": "218-19"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/385/0214-01"
+      ]
+    },
+    {
+      "cite": "2019 Ark. App. 11",
+      "category": "reporters:state",
+      "reporter": "Ark. App.",
+      "case_ids": [
+        12658956
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/568/0300-01"
+      ]
+    },
+    {
+      "cite": "Ark. Code Ann. \u00a7 5-10-103",
+      "category": "laws:leg_statute",
+      "reporter": "Ark. Code Ann.",
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "(a)(2)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2017 Ark. App. 35",
+      "category": "reporters:state",
+      "reporter": "Ark. App.",
+      "case_ids": [
+        12372457
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/511/0355-01"
+      ]
+    },
+    {
+      "cite": "2017 Ark. App. 331",
+      "category": "reporters:state",
+      "reporter": "Ark. App.",
+      "case_ids": [
+        12386576
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/522/0844-01"
+      ]
+    },
+    {
+      "cite": "2019 Ark. App. 57",
+      "category": "reporters:state",
+      "reporter": "Ark. App.",
+      "case_ids": [
+        12659038
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/568/0788-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 657,
+    "char_count": 12327,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2651256887949838
+    },
+    "sha256": "8dcbf380e9da0883094a3b6981db79dcaafd42a6b61e41b476d9b52dce4e3785",
+    "simhash": "1:e1c3cc78f1c8e3c5",
+    "word_count": 2004
+  },
+  "last_updated": "2024-02-27T19:43:17.042952+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Allen CLAGGETT, Appellant\nv.\nSTATE of Arkansas, Appellee"
+    ],
+    "opinions": [
+      {
+        "text": "PHILLIP T. WHITEAKER, Judge\nAppellant Allen Claggett was convicted by a Jefferson County jury of one count of second-degree murder and one count of third-degree domestic battery. He was sentenced to sixty years in the Arkansas Department of Correction and ordered to pay a $ 15,000 fine for the murder conviction; he was sentenced to one year in the Jefferson County jail for the battery conviction. On appeal, he contends that the circuit court should have granted his motion for directed verdict on the murder charge. Because substantial evidence supports Claggett's conviction, we affirm.\nA motion for a directed verdict is a challenge to the sufficiency of the evidence. Carter v. State , 2019 Ark. App. 57, 568 S.W.3d 788. In reviewing a challenge to the sufficiency of the evidence, we view the evidence in the light most favorable to the State and consider only the evidence that supports the verdict. Taylor v. State , 2017 Ark. App. 331, 522 S.W.3d 844 ; Ealy v. State , 2017 Ark. App. 35, 511 S.W.3d 355. We affirm a conviction if substantial evidence exists to support it. Taylor, supra. Substantial evidence is that which is of sufficient force and character that it will, with reasonable certainty, compel a conclusion one way or the other, without resorting to speculation or conjecture. Id.\nWe therefore review the evidence that was presented at trial, examining it in the light most favorable to the State. In the early morning hours of June 2, 2017, Claggett's sister, Nancy Claggett, was at her home with her boyfriend, Henry Johnson, the victim in this case. Claggett arrived at Nancy's house and began arguing with Nancy. During the argument, Claggett hit Nancy in the eye. Nancy tried to prevent Claggett from striking Johnson because Johnson was partially disabled from a previous stroke and was unable to defend himself. Claggett began hitting Johnson repeatedly, knocking him onto the bed and then onto the floor. Once Johnson was on the floor, Claggett began \"stomping\" on Johnson. Nancy ran from the house, but she could still hear Claggett hitting and stomping on Johnson as she did. Shortly thereafter, at about one o'clock in the morning, Claggett called Nancy to come back inside where she discovered Johnson in distress, vomiting, and apparently unconscious. Nancy attempted to call an ambulance, but Claggett had her phone. As a result, Nancy was unable to call for medical attention until noon on June 2.\nIn response to Nancy's call, EMS first responders ascertained the nature of Johnson's injuries. Because of the severity of his head injuries, Johnson was taken to UAMS in Little Rock, where a CT scan revealed the presence of a subdural hematoma, or bleeding underneath the fibrous covering of the brain. Surgeons performed a craniotomy on Johnson. Unfortunately, this procedure was not successful, and blood reaccumulated in the area, necessitating a second surgery within hours to drain the epidural hematoma that developed. Postoperatively, doctors determined that Johnson had suffered a significant infarction, or lack of blood flow, to the right side of his brain, resulting in that part of his brain beginning to die. On June 8, 2017, Johnson was taken to hospice care, where he subsequently died of pneumonia on June 13. While pneumonia and surgical complications contributed to Johnson's death, Dr. Stephen Erickson, the deputy chief medical examiner at the Arkansas State Crime Laboratory, testified that Johnson's neurological injury was caused by a traumatic head injury. Ultimately, Dr. Erickson opined that Johnson had died as a result of receiving head trauma or secondary to the traumatic head injury.\nBased on this evidence, Claggett was convicted of second-degree murder. A person commits murder in the second degree if, with the purpose of causing serious physical injury to another person, the person causes the death of any person. Ark. Code Ann. \u00a7 5-10-103(a)(2) (Repl. 2013). On appeal from his conviction for this offense, Claggett argues that there was insufficient evidence to show that he acted with purposeful conduct that resulted in Johnson's death. He also argues that the jury had to resort to speculation and conjecture to determine that his actions were the cause of Johnson's death.\nWe are unable to reach Claggett's purposeful-conduct argument. At trial, Claggett moved for directed verdict as follows:\nI would move for a directed verdict. The State showed-there has been proof that there was a fight between the defendant and the decedent that resulted in the decedent having to have brain surgery. And there were complications from the brain surgery that led to his death. It was not caused immediately by the defendant. And there has been a death of the defendant [sic ], there was a fight, but there's been no evidence that the fight caused the death.\nIt is readily apparent from Claggett's directed-verdict motion that he did not argue that the State failed to prove that he acted with purposeful conduct. Arguments not raised below are waived, and parties cannot change the grounds for an objection on appeal but are bound by the scope and nature of the objections and arguments presented at trial. Goins v. State , 2019 Ark. App. 11, 568 S.W.3d 300. Because Claggett did not argue to the circuit court that there was insufficient evidence of his purposeful state of mind, we cannot address the merits of this specific argument.\nWe turn then to Claggett's second argument, which is that the evidence was insufficient to show that his conduct was the cause of Johnson's death. With respect to causation, Arkansas Code Annotated section 5-2-205 (Repl. 2013) provides as follows:\nCausation may be found when the result would not have occurred but for the conduct of the defendant operating either alone or concurrently with another cause unless:\n(1) The concurrent cause was clearly sufficient to produce the result; and\n(2) The conduct of the defendant was clearly insufficient to produce the result.\nOur supreme court has interpreted this statute to mean that when there are concurrent causes of death, conduct that hastens or contributes to a person's death is a cause of death. Anderson v. State , 2011 Ark. 461, at 5, 385 S.W.3d 214, 218 ; see also Jefferson v. State , 372 Ark. 307, 276 S.W.3d 214 (2008) ;\nCox v. State , 305 Ark. 244, 808 S.W.2d 306 (1991) ; Rollf v. State , 2015 Ark. App. 520, 472 S.W.3d 490.\nFor example, in Anderson, supra , police officers fired their guns on both Anderson and the victim while Anderson was repeatedly stabbing the victim. The autopsy report reflected that the victim sustained 27 stab wounds, including one to her common iliac artery that would have caused her to bleed out and die within minutes, as well as a gunshot wound to the head. On appeal, Anderson argued that the victim's immediate cause of death was the gunshot wound ; thus, the jury had to speculate as to what would have happened had she not been shot. The supreme court disagreed, noting that Anderson's actions in stabbing the victim brought about the police officers' use of deadly force that killed the victim. Citing the medical examiner's testimony that the victim would not have survived the wound to her iliac artery, the supreme court held that \"[t]he concurrent cause-the gunshot wound-was clearly sufficient to cause [the victim's] death, but Anderson's conduct-stabbing [the victim]-was not clearly insufficient to cause [her] death.\" Anderson , 2011 Ark. 461, at 5, 385 S.W.3d at 218-19.\nOn appeal in the instant case, Claggett concedes that it was clear that Johnson died from injuries sustained in his home. He suggests, however, that it was \"possible that Henry Johnson suffered his injury when, after being struck by [Claggett], he hit the bed, got up, and fell over.... It is entirely possible that the care by the doctors at UAMS over the following eleven days could have caused, or at least contributed to, the death.\" He also notes that Dr. Erickson admitted during his testimony that he did not know whether Johnson's death would have occurred without the complications from the surgeries. He therefore contends, as did the appellant in Anderson , that the jury had to \"rely on conjecture and speculation as to whether [his] actions were the cause of the death.\"\nWe cannot agree. Here, the State presented evidence that Johnson received a very serious head injury, a subdural hematoma. Based on his examination of Johnson's body during the autopsy, Dr. Erickson opined that the hematoma was consistent with a significant assault having taken place. Dr. Erickson described a subdural hematoma as being caused by a \"significant snapping-type rotation of the brain\" that can occur, for example, when a person falls off a horse, hits a tree while skiing, or when \"someone hits, kicks, or elbows you in the head.\" He testified that the subdural hematoma was not initially from a direct blow but was instead \"from a rapid rotational movement of the head during an impact\" that \"breaks small veins between that thick fibrous membrane and veins and the brain.\" When those small veins start bleeding, Dr. Erickson explained, there is very little room inside the skull for the blood to go, and the pressure of the blood underneath Johnson's skull caused his brain fissures to flatten out, which was why the doctors at UAMS performed the craniotomy. Dr. Erickson acknowledged that the postsurgical bleeding that Johnson experienced was a known and unfortunate complication of the craniotomy procedure, but he concluded that Johnson would not have required surgery if he had not experienced the significant head trauma.\nWe conclude that sufficient evidence exists to support Claggett's conviction. While the concurrent causes-the surgical complications, ensuing epidural hematoma, and pneumonia-may have contributed to Johnson's death, Claggett's conduct in beating and kicking Johnson in the head, thereby causing the initial subdural hematoma, was the cause of Johnson's death. Dr. Erickson unambiguously testified that Johnson would not have required surgery if he had not had significant trauma to his head and that he died as a result of the traumatic head injury. That trauma was caused by Claggett's actions. Stated another way, Johnson's death \"would not have occurred but for the conduct of the defendant operating either alone or concurrently with another cause.\" Ark. Code Ann. \u00a7 5-2-205 ; see also Rollf , supra (holding that although expert testimony left open possible concurrent causes for the victim's death, the skull injury caused by appellant clearly contributed to the death). Accordingly, we affirm Claggett's conviction for second-degree murder.\nAffirmed.\nHarrison and Murphy, JJ., agree.\nAs an initial matter, we note that in several places, the State cites directly to the record. This is in contravention of Arkansas Supreme Court Rule 4-2, which requires parties to refer to the appropriate page number of the abstract when citing testimony or other abstracted material. See Russell v. Russell , 2012 Ark. App. 647, at 1-2, 2012 WL 5451806. The State acknowledges that in Holley v. State , 2014 Ark. App. 190, at 2, 2014 WL 1092601, we held that \"[i]f the State identifies deficiencies in an appellant's abstract or addendum, then it should place the information before this court in a manner prescribed by Rule 4-2 if it wants the omitted information considered, or the State may simply rely on the material the appellant's brief provides.\" Despite this acknowledgment, the State suggests that it may nonetheless cite the record because this court \"may go to the record to affirm.\" We caution the State that its practice of citing directly to the record, instead of providing its own supplemental abstract or addendum if it feels the appellant's abstract is insufficient, is forbidden by our rules.\nJohnson had obtained a one-year order of protection against Claggett in July 2016.\nThis procedure involved removing a portion of Johnson's skull to relieve the pressure from the blood building up on his brain.",
+        "type": "majority",
+        "author": "PHILLIP T. WHITEAKER, Judge"
+      }
+    ],
+    "attorneys": [
+      "Potts Law Office, by: Gary W. Potts, Monticello, for appellant.",
+      "Leslie Rutledge, Att'y Gen., by: Chris R. Warthen, Ass't Att'y Gen., for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "Allen CLAGGETT, Appellant\nv.\nSTATE of Arkansas, Appellee\nNo. CR-18-964\nCourt of Appeals of Arkansas, DIVISION IV.\nOpinion Delivered April 10, 2019\nPotts Law Office, by: Gary W. Potts, Monticello, for appellant.\nLeslie Rutledge, Att'y Gen., by: Chris R. Warthen, Ass't Att'y Gen., for appellee."
+  },
+  "file_name": "0169-01",
+  "first_page_order": 169,
+  "last_page_order": 174
+}

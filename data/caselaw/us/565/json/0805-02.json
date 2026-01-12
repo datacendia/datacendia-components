@@ -1,0 +1,59 @@
+{
+  "id": 12188517,
+  "name": "Taylor v. Texas",
+  "name_abbreviation": "Taylor v. Texas",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11056",
+  "first_page": "805",
+  "last_page": "805",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 805"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 28,
+    "char_count": 173,
+    "ocr_confidence": 0.62,
+    "sha256": "860b66638186354efde520e8e4fe3324a1ab909cf8d5e52bd2d6a5a583cf27a2",
+    "simhash": "1:edb359c14fec2192",
+    "word_count": 28
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Taylor v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tex. Motion of petitioner for leave to proceed in forma pauperis denied, and certiorari dismissed. See this Court\u2019s Rule 39.8.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11056.\nTaylor v. Texas."
+  },
+  "file_name": "0805-02",
+  "first_page_order": 887,
+  "last_page_order": 887
+}

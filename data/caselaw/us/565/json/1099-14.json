@@ -1,0 +1,59 @@
+{
+  "id": 12238531,
+  "name": "Cegledi v. United States",
+  "name_abbreviation": "Cegledi v. United States",
+  "decision_date": "2011-12-12",
+  "docket_number": "No. 11-7291",
+  "first_page": "1099",
+  "last_page": "1099",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1099"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.671,
+    "sha256": "04d9716ceb4c5518666b80e3a0aefbca6234c00a3313c3553f0693e9ff7a53e3",
+    "simhash": "1:08089f92fa959212",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cegledi v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7291.\nCegledi v. United States."
+  },
+  "file_name": "1099-14",
+  "first_page_order": 1181,
+  "last_page_order": 1181
+}

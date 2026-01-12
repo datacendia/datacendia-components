@@ -1,0 +1,59 @@
+{
+  "id": 12231941,
+  "name": "Gathrite v. United States",
+  "name_abbreviation": "Gathrite v. United States",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-6603",
+  "first_page": "993",
+  "last_page": "993",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 993"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.664,
+    "sha256": "8c0fa96e465404416df870592cd6c872b2ca95d28802e163e3467d72ecb61c04",
+    "simhash": "1:856adb82093a951f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gathrite v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6603.\nGathrite v. United States."
+  },
+  "file_name": "0993-02",
+  "first_page_order": 1075,
+  "last_page_order": 1075
+}

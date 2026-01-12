@@ -1,0 +1,59 @@
+{
+  "id": 12217901,
+  "name": "Pulliam v. Uribe, Warden",
+  "name_abbreviation": "Pulliam v. Uribe",
+  "decision_date": "2012-05-14",
+  "docket_number": "No. 11-9362",
+  "first_page": "998",
+  "last_page": "998",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 998"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.543,
+    "sha256": "3371f50406803741115296980bfcf29529a144f088fde2b4ede1bf9dd8d36883",
+    "simhash": "1:109363b13d9b046e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pulliam v. Uribe, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9362.\nPulliam v. Uribe, Warden."
+  },
+  "file_name": "0998-03",
+  "first_page_order": 874,
+  "last_page_order": 874
+}

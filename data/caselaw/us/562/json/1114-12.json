@@ -1,0 +1,59 @@
+{
+  "id": 5912288,
+  "name": "Morse v. United States",
+  "name_abbreviation": "Morse v. United States",
+  "decision_date": "2010-12-13",
+  "docket_number": "No. 10-7198",
+  "first_page": "1114",
+  "last_page": "1114",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1114"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.615,
+    "sha256": "0d8fc7a980f800c03a6034530c1bb551c6b2b83fb9312834d6d4667b5f5a8774",
+    "simhash": "1:80baba7b4a31111b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Morse v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7198.\nMorse v. United States."
+  },
+  "file_name": "1114-12",
+  "first_page_order": 1136,
+  "last_page_order": 1136
+}

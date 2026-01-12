@@ -1,0 +1,59 @@
+{
+  "id": 5947952,
+  "name": "Purcell v. California",
+  "name_abbreviation": "Purcell v. California",
+  "decision_date": "2011-05-16",
+  "docket_number": "No. 10-8030",
+  "first_page": "991",
+  "last_page": "991",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 991"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 84,
+    "ocr_confidence": 0.557,
+    "sha256": "2bc056b20b8e6ba853b5ca8156a85c04d9bbb9162133c930cb2bf627603edd3a",
+    "simhash": "1:320556a005836a43",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Purcell v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 2d App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8030.\nPurcell v. California."
+  },
+  "file_name": "0991-03",
+  "first_page_order": 1017,
+  "last_page_order": 1017
+}

@@ -1,0 +1,88 @@
+{
+  "id": 6025964,
+  "name": "Matrixx Initiatives, Inc., et al. v. Siracusano et al.",
+  "name_abbreviation": "Matrixx Initiatives, Inc. v. Siracusano",
+  "decision_date": "2010-12-06",
+  "docket_number": "No. 09-1156",
+  "first_page": "1090",
+  "last_page": "1090",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1090"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "560 U. S. 964",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12455248,
+        12455249,
+        12455250,
+        12455034,
+        12455035,
+        12455036,
+        12455037,
+        12455038,
+        12455039
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/177/0350-05",
+        "/l-ed-2d/177/0350-06",
+        "/l-ed-2d/177/0350-07",
+        "/l-ed-2d/177/0322-05",
+        "/l-ed-2d/177/0322-06",
+        "/l-ed-2d/177/0323-01",
+        "/l-ed-2d/177/0323-02",
+        "/l-ed-2d/177/0323-03",
+        "/l-ed-2d/177/0323-04"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 37,
+    "char_count": 252,
+    "ocr_confidence": 0.552,
+    "sha256": "859cc80d93dc48980935369716bdd9a6a66809ad7d1685ed715af56d0fbb6e69",
+    "simhash": "1:b00420a1e885cc14",
+    "word_count": 42
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Matrixx Initiatives, Inc., et al. v. Siracusano et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. [Certiorari granted, 560 U. S. 964.] Motion of the Acting Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-1156.\nMatrixx Initiatives, Inc., et al. v. Siracusano et al."
+  },
+  "file_name": "1090-04",
+  "first_page_order": 1112,
+  "last_page_order": 1112
+}

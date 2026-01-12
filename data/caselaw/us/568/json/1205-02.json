@@ -1,0 +1,59 @@
+{
+  "id": 12432377,
+  "name": "Paxson v. United States",
+  "name_abbreviation": "Paxson v. United States",
+  "decision_date": "2013-02-25",
+  "docket_number": "No. 12-8441",
+  "first_page": "1205",
+  "last_page": "1205",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1205"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.594,
+    "sha256": "5315dc79da3dba689f3d9363da3d8b836a9a8b58e6737d609295efde9a796665",
+    "simhash": "1:01089f0b8ac09e32",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Paxson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8441.\nPaxson v. United States."
+  },
+  "file_name": "1205-02",
+  "first_page_order": 1281,
+  "last_page_order": 1281
+}

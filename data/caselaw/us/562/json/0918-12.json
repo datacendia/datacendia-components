@@ -1,0 +1,59 @@
+{
+  "id": 5904652,
+  "name": "Pittman v. Michigan",
+  "name_abbreviation": "Pittman v. Michigan",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5381",
+  "first_page": "918",
+  "last_page": "918",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 918"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 82,
+    "ocr_confidence": 0.542,
+    "sha256": "722a7beb1c8cbc358b642be791e9e11d83f50681c688f6a20f559e8e8db01eba",
+    "simhash": "1:73b0c3b89af79cf4",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pittman v. Michigan."
+    ],
+    "opinions": [
+      {
+        "text": "Cir. Ct. Wayne County, Mich. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5381.\nPittman v. Michigan."
+  },
+  "file_name": "0918-12",
+  "first_page_order": 940,
+  "last_page_order": 940
+}

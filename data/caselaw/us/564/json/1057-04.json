@@ -1,0 +1,59 @@
+{
+  "id": 5924956,
+  "name": "Jackson v. Delaware",
+  "name_abbreviation": "Jackson v. Delaware",
+  "decision_date": "2011-07-28",
+  "docket_number": "No. 11-5506 (11A123)",
+  "first_page": "1057",
+  "last_page": "1057",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1057"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 28,
+    "char_count": 202,
+    "ocr_confidence": 0.519,
+    "sha256": "53fb5301622e3b98168af77945159909c37ba658c5caa65c86612e6adc32d52b",
+    "simhash": "1:b44bdc7c172513d8",
+    "word_count": 32
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jackson v. Delaware."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Del. Application for stay of execution of sentence of death, presented to Justice Alito, and by him referred to the Court, denied. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5506 (11A123).\nJackson v. Delaware."
+  },
+  "file_name": "1057-04",
+  "first_page_order": 1051,
+  "last_page_order": 1051
+}

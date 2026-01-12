@@ -1,0 +1,112 @@
+{
+  "id": 5925838,
+  "name": "Throckmorton v. United States",
+  "name_abbreviation": "Throckmorton v. United States",
+  "decision_date": "2011-05-02",
+  "docket_number": "No. 10-8444",
+  "first_page": "973",
+  "last_page": "973",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 973"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "562 U. S. 1214",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5903899,
+        5951392,
+        5913248,
+        5932196,
+        5960488,
+        5959482,
+        5956413,
+        12457291,
+        12457292,
+        12457293,
+        12457294,
+        12457295,
+        12457296,
+        12457297,
+        12457298,
+        12457299,
+        12457301,
+        12457303,
+        12457304,
+        12457305,
+        5999091
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/562/1214-06",
+        "/us/562/1214-02",
+        "/us/562/1214-04",
+        "/us/562/1214-08",
+        "/us/562/1214-03",
+        "/us/562/1214-01",
+        "/us/562/1214-07",
+        "/l-ed-2d/179/0296-06",
+        "/l-ed-2d/179/0296-07",
+        "/l-ed-2d/179/0297-01",
+        "/l-ed-2d/179/0297-02",
+        "/l-ed-2d/179/0297-03",
+        "/l-ed-2d/179/0297-04",
+        "/l-ed-2d/179/0297-05",
+        "/l-ed-2d/179/0297-06",
+        "/l-ed-2d/179/0297-07",
+        "/l-ed-2d/179/0298-01",
+        "/l-ed-2d/179/0298-03",
+        "/l-ed-2d/179/0298-04",
+        "/l-ed-2d/179/0298-05",
+        "/us/562/1214-05"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 28,
+    "char_count": 176,
+    "ocr_confidence": 0.624,
+    "sha256": "664cad4f718cc26d088b1874df3170bdb0503d4eaf4b1d34969f407152132d36",
+    "simhash": "1:442c081a4180ba9a",
+    "word_count": 29
+  },
+  "last_updated": "2024-02-27T23:44:09.189648+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Throckmorton v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Motion of petitioner for reconsideration of order denying leave to proceed in forma pauperis [562 U. S. 1214] denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8444.\nThrockmorton v. United States."
+  },
+  "file_name": "0973-02",
+  "first_page_order": 999,
+  "last_page_order": 999
+}

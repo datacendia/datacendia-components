@@ -1,0 +1,59 @@
+{
+  "id": 12245515,
+  "name": "Cannella v. Florida",
+  "name_abbreviation": "Cannella v. Florida",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-278",
+  "first_page": "1195",
+  "last_page": "1195",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1195"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 83,
+    "ocr_confidence": 0.686,
+    "sha256": "307aa0bae5fb7a52e5e107d1164af27f92951ce2eeed100a9a075a9fb508e712",
+    "simhash": "1:8018c4d206694a10",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cannella v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-278.\nCannella v. Florida."
+  },
+  "file_name": "1195-09",
+  "first_page_order": 1277,
+  "last_page_order": 1277
+}

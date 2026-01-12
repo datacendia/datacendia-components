@@ -1,0 +1,340 @@
+{
+  "id": 12658386,
+  "name": "EX PARTE CITY OF EL PASO",
+  "name_abbreviation": "Ex parte City of El Paso",
+  "decision_date": "2018-11-07",
+  "docket_number": "NO. 03-17-00566-CV",
+  "first_page": "517",
+  "last_page": "529",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 S.W.3d 517"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex. App. Ct.",
+    "id": 30135,
+    "name": "Court of Appeals of Texas, Austin"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "632 S.W.2d 146",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9930830
+      ],
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "149",
+          "parenthetical": "noting that legislative purpose in enacting EDJA was to stop age-old practice of allowing one disgruntled person to stop entire bond issue by simply filing suit"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/632/0146-01"
+      ]
+    },
+    {
+      "cite": "307 S.W.3d 299",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7324408
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "307-08",
+          "parenthetical": "orig. proceeding"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/307/0299-01"
+      ]
+    },
+    {
+      "cite": "199 S.W.3d 279",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8467079
+      ],
+      "weight": 7,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "284",
+          "parenthetical": "\"[W]hen possible, we discern [intent] from the plain meaning of the words chosen.\""
+        },
+        {
+          "page": "287"
+        },
+        {
+          "page": "284",
+          "parenthetical": "\"[W]hen possible, we discern [intent] from the plain meaning of the words chosen.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/199/0279-01"
+      ]
+    },
+    {
+      "cite": "246 S.W.3d 621",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8388870
+      ],
+      "weight": 2,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "625",
+          "parenthetical": "noting that courts must \"construe the statute's words according to their plain and common meaning\" unless definitions are provided"
+        },
+        {
+          "page": "625"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/246/0621-01"
+      ]
+    },
+    {
+      "cite": "395 U.S. 298",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1771665
+      ],
+      "weight": 3,
+      "year": 1969,
+      "pin_cites": [
+        {
+          "parenthetical": "explaining that \"place of entertainment\" includes both those \"establishments where patrons are entertained as spectators or listeners\" and \"those where entertainment takes the form of direct participation in some sport or activity\""
+        },
+        {
+          "parenthetical": "explaining that \"place of entertainment\" includes both those \"establishments where patrons are entertained as spectators or listeners\" and \"those where entertainment takes the form of direct participation in some sport or activity\""
+        },
+        {
+          "parenthetical": "explaining that \"place of entertainment\" includes both those \"establishments where patrons are entertained as spectators or listeners\" and \"those where entertainment takes the form of direct participation in some sport or activity\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/395/0298-01"
+      ]
+    },
+    {
+      "cite": "462 S.W.3d 25",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6861728
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "28",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/462/0025-01"
+      ]
+    },
+    {
+      "cite": "262 S.W.3d 799",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8361630
+      ],
+      "weight": 2,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "802"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/262/0799-01"
+      ]
+    },
+    {
+      "cite": "381 S.W.3d 430",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7125728
+      ],
+      "weight": 4,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "452"
+        },
+        {
+          "page": "520"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/381/0430-01"
+      ]
+    },
+    {
+      "cite": "340 S.W.3d 432",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7319877
+      ],
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "439"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/340/0432-01"
+      ]
+    },
+    {
+      "cite": "92 S.W.3d 424",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9378233
+      ],
+      "weight": 2,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "430"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/92/0424-01"
+      ]
+    },
+    {
+      "cite": "487 S.W.3d 154",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6802189
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "164",
+          "parenthetical": "citing Board of Adjustment v. Wende , 92 S.W.3d 424, 430 (Tex. 2002) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/487/0154-01"
+      ]
+    },
+    {
+      "cite": "670 S.W.2d 399",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9940190
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "401"
+        },
+        {
+          "page": "401",
+          "parenthetical": "\"The total thrust of [the EDJA] is to dispose of public securities validation litigation with dispatch.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/670/0399-01"
+      ]
+    },
+    {
+      "cite": "339 S.W.3d 809",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7320295
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "814"
+        },
+        {
+          "page": "814",
+          "parenthetical": "\"The Legislature enacted the EDJA to provide issuers of public securities ... a method of quickly and efficiently adjudicating the validity of public securities and acts affecting those public securities.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/339/0809-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1199,
+    "char_count": 34524,
+    "pagerank": {
+      "raw": 4.548627546539126e-08,
+      "percentile": 0.28552263085608465
+    },
+    "sha256": "d43b6c78f29e30eb2f917abb9fd4f8dcd1641899321cbc9621f42a8236fee3eb",
+    "simhash": "1:1262d2611913bb8d",
+    "word_count": 5360
+  },
+  "last_updated": "2024-02-27T16:26:54.855377+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Filed: November 7, 2018\nRehearing and Rehearing En Banc Denied November 28, 2018"
+    ],
+    "parties": [
+      "EX PARTE CITY OF EL PASO"
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Jerome W. Wesevich, El Paso, Ms. Veronica Carbajal, Ms. Carmen E. Rodriguez, Mr. Robert W. Doggett, Austin, Ms. Cassandra McCrae, for Appellee Morales, Antonia Flores, Garcia, Candalaria, Lopez, Olga, Gardea, Emily Saenz.\nThe Honorable Harriet O'Neill, Ms. Lisa Bowlin Hobbs, Austin, Mr. Francis S. Ainsa Jr., El Paso, for Appellee Grossman, Max.\nMs. Yolanda Chavez Leyva, pro se.\nMs. Veronica Carbajal, for Appellee Leyva, Yolanda Chavez.\nMr. Ken Slavin, El Paso, Ms. Jennifer Stagen, Mr. Brett Kutnick, Dallas, Mr. Mark N. Osborn, El Paso, Ms. Deborah Trejo, The Honorable Deborah G. Hankinson, Dallas, for Appellant Goodman, III, Leonard Tripper\".\nMr. Norlynn B. Price, Mr. Paul A. Braden, Dallas, Ms. Rachel A. Ekery, Mr. Patrick C. Bernal, San Antonio, Ms. Maria Guadalupe Martinez, Ms. Alexandra W. Albright, The Honorable Wallace B. Jefferson, Austin, Mr. Lowell F. Denton, San Antonio, Mr. Michael Scott Incerto, for Appellant City of El Paso.\nMr. Joshua Godbey, for The Attorney General of Texas.\nBefore Chief Justice Rose, Justices Pemberton and Field\nOPINION\nJeff Rose, Chief Justice\nThis appeal arises from a bond-validation proceeding brought by the City of El Paso under Chapter 1205 of the Government Code. El Paso voters approved the issuance of the underlying bonds to finance various \"quality of life\" projects, including a \"multipurpose performing arts and entertainment facility\" located in downtown El Paso. The district court validated the bond election, the bonds, and the City's authority to use bond proceeds to finance the design and construction of the various projects, but limited the scope of the \"multipurpose performing arts and entertainment facility\" by prohibiting the City from making that facility \"suitable for a sports arena.\" Based on our conclusion that the plain language of the ordinance does not prohibit sports uses, we will reverse and render in part and affirm in part.\nBackground\nIn 2012, the City of El Paso adopted an ordinance ordering an election on, among matters, a proposed bond issue for various \"quality of life\" projects, including-\nMUSEUM, CULTURAL, PERFORMING ARTS, AND LIBRARY FACILITIES PROPOSITION\n\"SHALL the City Council of the City of El Paso, Texas, be authorized to issue general obligation bonds of the City in the principal amount of $228,250,000 for permanent public improvements and public purposes, to wit: acquiring, constructing, improving, renovating and equipping new and existing library, museum, cultural and performing arts facilities and improvements, including the acquisition of land and rights-of-way for such projects, and acquiring and installing public art related to and being a part of some or all of the foregoing; such projects to include the following:\nMuseum\nChildren's Museum;\nDigital wall at History Museum;\nImprovements to existing City museum facilities;\nCultural\nHispanic Cultural Center;\nArts & Entertainment\nMultipurpose performing arts and entertainment facility located in Downtown El Paso;\nLibrary\nImprovements at [various El Paso branch libraries];\nNew Bookmobile;\nTechnology Mobile; Library Materials;\nand in providing for the above public improvements, the City Council shall have the option to utilize other funds available for such purposes and, after making due provision for the improvements listed above, the City Council may, in its discretion, use any excess funds for acquiring, constructing, improving, equipping and renovating other library, museum, cultural and performing arts facilities, and/or to benefit or promote the cultural and performing arts, libraries, and/or museums, and the acquisition of land and rights-of way for such projects; ...?\"\n(\"Ordinance\"). Voters approved the proposition.\nThe City thereafter began taking steps to create the \"Multipurpose performing arts and entertainment facility\" (\"Facility\"), including issuing bonds, identifying a site for the Facility, and beginning to acquire the site property. The City also issued \"requests for qualifications\" (RFQs)-the first step in soliciting bids for the Facility-from entities interested in undertaking various aspects of the Facility's design, construction, and operation. The City's RFQs proposed the development and construction of a \"Multipurpose Cultural and Performing Arts Center,\" describing the project as \"a mid-sized arena anticipated to have between 12,000 and 15,000 seats\" and noting that the City's objective was to build \"a first-class, sustainable arena that provides a flexible and usable sports and entertainment venue to the public.\"\nConcerned about possible opposition to the Facility, the City filed the underlying suit in Travis County District Court under Chapter 1205 of the Government Code. See generally Tex. Gov't Code \u00a7\u00a7 1205.001 -.152 (titled \"Public Security Declaratory Judgment Actions,\" but often referred to as the \"Expedited Declaratory Judgments Act\" or \"EDJA\"). The EDJA creates an \"in rem\" and \"class action\" proceeding that allows an \"issuer\" of \"public securities\"-here, the City of El Paso-to obtain declarations establishing the \"legality\" or \"validity\" of the securities and certain related official proceedings (termed \"public security authorizations\") through an expedited process in which the Attorney General is presumptively the only other party participating personally. See id. \u00a7\u00a7 1205.021, .023, .041-.44, .062-.063, .065; Hotze v. City of Houston , 339 S.W.3d 809, 814 (Tex. App.-Austin 2011, no pet.) (citing Rio Grande Valley Sugar Growers, Inc. v. Attorney Gen. , 670 S.W.2d 399, 401 (Tex. App.-Austin 1984, writ ref'd n.r.e.) (describing EDJA) ). In its EDJA suit, the City asserted, among other matters, that there was opposition to the construction of a Facility that could accommodate sports because, according to the opponents, sports was not specifically identified as a form of entertainment in the Ordinance. In connection with the sports-use issue, the City asked the district court to declare that the proposed Facility could be used for sports and sporting events.\nAlthough, as noted, the Attorney General is the only other party specifically involved in such a suit, the EDJA prescribes publication notice directed to four categories of unidentified \"interested parties,\" whose members, potentially subject to a bond requirement, may appear personally in the lawsuit, and regardless are deemed to comprise a \"class\" that is bound by the judgment. See Tex. Gov't Code. \u00a7\u00a7 1205.023, .044, .062, .101-.104, 151(b). Here, several \"interested parties\" appeared personally to challenge the City's suit, including-\n\u2022 Appellee Max Grossman, who asserted that the Ordinance did not authorize the type of facility contemplated by the City because, Grossman contends, the Ordinance authorized a facility for \"performing arts,\" not for \"sports,\" while the Facility as proposed by the City was for sports;\n\u2022 Appellees Antonio Flores Morales, Candelaria Garcia, Emily Saenz Gardea, and Olga Lopez (collectively, \"Morales\"), who argued that the City could use bond funds only to improve an existing facility, not to build a new facility; that the failure to specify the downtown location on the ballot was fraudulent; and that the Facility could host only \"cultural and performing arts,\" not sports;\n(sometimes collectively, \"Opponents\"). Additionally, appellant Leonard \"Tripper\" Goodman, III, appeared in support of the City's suit.\nThe Attorney General filed an answer that declined to either admit or deny the City's allegations. See id. \u00a7 1205.063 (requiring Attorney General to challenge proceeding if Attorney General questions validity of public security, its authorization, or related expenditure). At trial, however, the Attorney General announced that it was his position that the Facility was authorized under the Ordinance \"if it includes performing arts events and entertainment events, which would include sports.\"\nThe case was tried to the bench in Travis County District Court. At the end of the proceedings, the district court announced that it would find in favor of the City regarding the validity and legality of the Ordinance and bond expenditures, but that it had concluded that the expenditure of funds on a sports arena was not allowed under the terms of the Ordinance. The parties set a date for a hearing for rendition of judgment, but before that hearing and the rendition of a final judgment, Grossman filed a suit in El Paso County against the City, alleging that certain of the City's actions in developing the Facility were inconsistent with an Antiquities Code provision requiring notice to the Texas Historical Commission before beginning projects on public land, see Tex. Nat. Res. Code \u00a7 191.0525(a), and seeking injunctive relief prohibiting the City from, among other things, entering into contracts to purchase the property for the Facility and beginning demolition of structures at the Facility site. In response, the City asked the district court in the underlying case to enjoin Grossman's El Paso suit under the EDJA or under the court's equitable power to issue an anti-suit injunction. See Tex. Gov't Code \u00a7 1205.061 (EDJA provision authorizing trial court to enjoin \"proceeding\" that \"contests the validity of ... an action or expenditure of money relating to the public securities\"). The district court denied the City's request to enjoin Grossman's El Paso suit.\nIn its final judgment, the district court declared that, stated generally, the Ordinance and its approval by voters were legal and valid, and that the City was authorized to issue bonds to finance the Facility. But the district court's final judgment prohibits the City from constructing a Facility that would be \"suitable for a sports arena\" and from using funding from other sources to make the Facility suitable for a sports arena because that would not comport with the Ordinance. Regarding Grossman's El Paso suit, the final judgment noted that lawsuit was proper in El Paso County and that the district court's final judgment in this case \"does not adjudicate or affect the claims asserted\" in the El Paso suit. The district court also issued findings of fact and conclusions of law at the request of the parties.\nThe City, Grossman, and Morales each filed motions to modify the judgment, but the district court denied these motions. Of relevance to this appeal, Morales asked the district court to modify its judgment in connection with the Ordinance's authorization of a Hispanic Cultural Center, arguing that the Ordinance mandated that the City build a cultural center before it could build the Facility. The district court denied Morales's motion.\nThe City of El Paso and Morales appeal.\nThe City of El Paso's Appeal\nThe City raises four issues on appeal, arguing that district court erred (1) by prohibiting the City from building a facility that can accommodate sports; (2) by prohibiting the City from using \"funding from other resources\" to modify, complete, or enhance the Facility for sports uses; and (3) by refusing to enjoin the El Paso suit under the EDJA or under its authority to issue anti-suit injunctions.\nThe Facility\nThe district court interpreted the Ordinance to allow the City to spend bond proceeds to build a facility that is suitable for \"various performing arts ... and similar entertainment,\" but to not allow the City to construct a facility that can accommodate or be suitable for sports. On appeal, the City argues that it was error for the district court to interpret the Ordinance to prohibit the City from building a Facility that can accommodate sports. We agree.\nWe apply rules of statutory construction to construe municipal ordinances. Houston Belt & Terminal Ry. Co. v. City of Houston , 487 S.W.3d 154, 164 (Tex. 2016) (citing Board of Adjustment v. Wende , 92 S.W.3d 424, 430 (Tex. 2002) ). Our primary objective in construing the Ordinance is to ascertain and give effect to the enacting body's intent. Id. (citing TGS-NOPEC Geophysical Co. v. Combs , 340 S.W.3d 432, 439 (Tex. 2011) ). To discern that intent, we start with the plain and ordinary meaning of the Ordinance's words, using any definitions provided by the enacting body. Id. (citing Texas Mut. Ins. Co. v. Ruttiger , 381 S.W.3d 430, 452 (Tex. 2012) ). We read the Ordinance as a whole, presuming the enacting body purposefully included each word, id. (citing In re M.N. , 262 S.W.3d 799, 802 (Tex. 2008) ), and construing the Ordinance to avoid rendering any word or provision meaningless, id. (citing Kallinen v. City of Houston , 462 S.W.3d 25, 28 (Tex. 2015) (per curiam) ). When clear, the text is determinative of the enacting body's intent unless the plain meaning produces an absurd result. Id. at 164-65 (citing Ruttiger , 381 S.W.3d at 452 ).\nWe agree with the City that under a plain-meaning review of the Ordinance, the City may use bond proceeds to build a Facility that accommodates sports. The Ordinance authorizes the City to expend bond proceeds on the construction of a \"[m]ultipurpose performing arts and entertainment facility.\" The word \"facility\" is the focus of the sentence, but it is modified by the adjective \"multipurpose\" and by the adjectival phrase \"performing arts and entertainment.\" \"Multipurpose\" means, of course, \"[s]erving, or intended to serve, many purposes; performing many duties.\" Compact Oxford English Dictionary 1132 (2d. ed. 1989). \"Performing arts\" are \"arts, such as dance, drama, and music, that are performed before an audience.\" American Heritage Dictionary of the English Language 1310 (5th ed. 2011). And \"entertainment,\" in this context, means something that \"affords interest or amusement\" especially \"a public performance or exhibition intended to interest or amuse.\" Id. at 520; see Webster's Third New Int'l Dictionary 1862 (2002) (\"Something that diverts, amuses, or occupies the attention agreeably.\"). Thus, the Ordinance authorizes a facility that can accommodate multiple \"performing arts and entertainment\" uses.\nSport is a type of entertainment. See, e.g. , Daniel v. Paul , 395 U.S. 298, 306 & n.7, 89 S.Ct. 1697, 23 L.Ed.2d 318 (1969) (explaining that \"place of entertainment\" includes both those \"establishments where patrons are entertained as spectators or listeners\" and \"those where entertainment takes the form of direct participation in some sport or activity\"). In fact, \"sport\" is often defined as \"entertainment.\" See Compact Oxford English Dictionary at 1862 (defining \"sport\" as \"[p]leasant pastime; entertainment or amusement; recreation, diversion\"). Accordingly, the plain language of the Ordinance authorizes the City to expend bond proceeds on a facility that serves several performing-arts and entertainment purposes, including sports. See, e.g. , City of Rockwall v. Hughes , 246 S.W.3d 621, 625 (Tex. 2008) (noting that courts must \"construe the statute's words according to their plain and common meaning\" unless definitions are provided); State v. Shumake , 199 S.W.3d 279, 284 (Tex. 2006) (\"[W]hen possible, we discern [intent] from the plain meaning of the words chosen.\"), see also Tex. Gov't Code \u00a7 311.011 (\"Words and phrases shall be read in context and construed according to the rules of grammar and common usage,\" but \"[w]ords and phrases that have acquired a technical or particular meaning, whether by legislative definition or otherwise, shall be construed accordingly.\").\nOn appeal, Grossman argues that our focus must be on the factual sufficiency of the district court's findings that the City intends to build a facility that functions as a sports arena. According to Grossman, the issue on appeal is not whether a \"multipurpose performing arts and entertainment facility\" can include sports and sporting events, but is whether a facility designed to function as a \"sports arena,\" as the district court found, conforms with the language of the Ordinance. But the City's intent is not the issue in this EDJA case; rather, the issue is whether the district court erred in issuing a judgment declaring that the Ordinance prohibits the City from building a facility that can accommodate sports.\nRegarding the construction of the Ordinance, Grossman and the other opponents agree generally to the common meaning of the separate words, but argue that, as the district court concluded, the phrase \"multipurpose performing arts and entertainment facility\" means a facility that can be used for several performing arts purposes such as drama, dance, and music and other entertaining shows and purposes. \"Entertainment,\" they argue, is not all types of \"entertainment,\" but only that entertainment that can be characterized as performing arts. In support of this construction, the Opponents (and the district court in its conclusions of law) emphasize, among other things, that the Ordinance's subtitle-\"Museum, Cultural, Performing Arts, and Library Facilities Proposition\"-and other relevant parts of the Ordinance reference only performing arts and not entertainment. Relatedly, they point to the Ordinance's description of a \"library, museum, cultural and performing arts facilities and improvements\" and use of the phrase \"such projects to include\" following that description to conclude that \"multipurpose performing arts and entertainment facility\" must be limited to \"performing arts facilities and improvements.\"\nFirst, we note that while the Ordinance's heading may give some indication of intent, such a heading cannot limit or expand the Ordinance's meaning. See In re United Servs. Auto Ass'n , 307 S.W.3d 299, 307-08 (Tex. 2010) (orig. proceeding) (citing Tex. Gov't Code \u00a7 311.024 (\"The heading of a title, chapter, subchapter, or section does not limit or expand the meaning of a statute.\") ). And in any event, the headings here are not helpful on this issue: the first relevant subheading is \"Museum, Cultural, Performing Arts, and Library Facilities,\" but the sub-subheading that is used directly in reference to the \"multipurpose performing arts and entertainment facility\" at issue here is \"Arts & Entertainment.\"\nSecond, the Ordinance's use of the phrase \"such projects to include\" following a list of projects in the preamble does not limit the specific and plain language of the phrase \"multipurpose performing arts and entertainment facility.\" As the City notes, \"include\" is a term of enlargement, not limitation, see Tex. Gov't Code \u00a7 311.005(13), and there is no textual reason for reading it as a term of limitation here.\nThe district court's construction of the Ordinance, as shown in its following conclusion of law, assumes that \"multipurpose\" modifies not facility, but \"performing arts\":\n11. A \"multipurpose performing arts and entertainment facility\" means one that is \"built for [the] specific purpose\" of housing the performing arts and intended for use by various types of the performing arts, such as dance, music and theatre, as opposed to single-purpose facilities like a concert hall, opera house or theatre. The subtitle under which the phrase appears-\"Arts & Entertainment\"-comports with this meaning.\nBut if \"performing arts\" is a purpose, as the district court concluded, a \"multipurpose\" facility must have uses beyond the performing arts. And in fact, the Ordinance identifies another purpose-i.e., \"entertainment\"-so by reading the Ordinance to authorize only performing-arts purposes, the district court improperly disregarded the word \"entertainment.\" See Shumake , 199 S.W.3d at 287. Further, if \"multipurpose\" means that the Facility was meant to house multiple performing arts rather than be a \"single-purpose facilit[y] like a concert hall, opera house or theater,\" there is no need to use \"multipurpose\" because the plain meaning of the phrase \"performing arts\" encompasses all performing arts, not just, for example, opera. And again, this construction renders the word \"entertainment\" surplusage. See id.\nThe Opponents also argue that, regardless of whether the word \"entertainment\" is commonly used with reference to sports, the Ordinance does not allow a Facility that accommodates sports because, as the district court concluded, \"nowhere in the Ordinance is a sports purpose expressed or implied.\" However, as the City points out, the Ordinance does in fact express a possible sports purpose by its use of the word \"entertainment.\"\nThe only grammatically correct reading of the Ordinance and the only reading that gives effect to every word used in the Ordinance is that, for the reasons explained above, the City has the authority to build a facility that is suitable for multiple performing arts and entertainment purposes, including sports. Accordingly, we sustain the City's first issue on appeal.\nOther funding\nIn its second issue, the City asserts that the district court erred by declaring in its judgment that the City is prohibited from using \"funding from other resources\" to modify, complete, or enhance the Facility for sports uses. Specifically, the City argues that this declaration exceeds the limited scope of the district court's authority in an EDJA suit. We agree.\nInitially, we note that this declaration was improper, and thus in error, because it is based on the district court's erroneous conclusion that the Ordinance prohibits construction of a facility that accommodates sports. Stated differently, because we have determined that the Ordinance does not prohibit a Facility that accommodates sports, it was error for the district court to issue a declaration prohibiting the City from spending future funds to equip the Facility to accommodate sports. But even if the Opponents' construction of the Ordinance were correct, the district court lacked the authority under the EDJA to issue a declaration prohibiting the City from using funding from other resources on the Facility. The EDJA, as noted above, authorizes an \"issuer\" of public securities to bring a declaratory-judgment action involving the legality or validity of the bonds, bond expenditures, bond authorizations, and the issuer's authority to issue the bonds. See Tex. Gov't Code \u00a7 1205.021. It does not authorize a declaration regarding hypothetical future spending of unknown resources.\nWe sustain the City's second issue.\nInjunction\nIn its third and final issue, the City challenges the district court's refusal to grant it the injunctive relief it requested. Specifically, the City asserts that the district court erred by refusing to enjoin Grossman's El Paso suit and by including injunctive language in its judgment that does not conform to the EDJA's specifications. We will address the second part of this issue-i.e., the judgment's injunctive language-first.\nInjunctive nature of the judgment\nThe EDJA specifies that a final judgment in a bond-validation proceeding acts as an injunction \"against the filing by any person of any proceeding contesting the validity of ... any adjudicated matter and any matter that could have been raised in the action. \" Id. \u00a7 1205.151(c) (emphasis added). Here, the district court's judgment provides that it is a permanent injunction against \"any matter adjudicated by this Final Judgment,\" but it omits the statutory phrase \"that could have been raised in the action.\" On appeal, the City argues that this constitutes error. We agree. Because section 1205.151 specifies the injunctive parameters of an EDJA judgment, the district court's judgment should have ordered injunctive relief that complies with those parameters.\nGrossman's El Paso suit\nNear the end of the trial proceedings in this case, Grossman filed a lawsuit in El Paso County alleging that the City's plans for construction of the Facility in downtown El Paso were in violation of an Antiquities Code provision requiring notice to the Texas Historical Commission before ground is broken on a project taking place on state or local public land. See Tex. Nat. Res. Code \u00a7 191.0525(a). As relief, Grossman asked the El Paso County district court to (1) order the City to provide the required notification; (2) stop the City from entering into new contracts regarding the land for the Facility; (3) stop the City from issuing permits to authorize demolition of the structures of properties in the area; and (4) stop the City from authorizing actions to dispossess or incentivize the removal of persons or property from the area. In response, the City asked the Travis County District Court in this proceeding to enjoin Grossman's El Paso suit pursuant to its injunctive authority under the EDJA. The district court declined to do so, instead ruling in its final judgment that venue over the El Paso suit was proper in El Paso County and that the district court's judgment does not adjudicate or affect the claims in that suit.\nOn appeal, the City asserts that it was error for the district court to refuse to enjoin Grossman's El Paso case under the EDJA. We agree. The EDJA grants a trial court broad authority to enjoin related proceedings. See Tex. Gov't Code \u00a7 1205.061(a). Specifically relevant here, it authorizes a trial court to \"enjoin the commencement, prosecution, or maintenance of any proceeding by any person that contests the validity of ... an action or expenditure of money relating to the public securities, a proposed action or expenditure, or both....\" Id. \u00a7 1205.061(a)(4). Because the EDJA does not provide definitions for most of these words, see id. \u00a7 1205.001 (defining only \"issuer,\" \"public security,\" and \"public security authorization\"), we must rely on their common and ordinary meanings, see, e.g. , Hughes , 246 S.W.3d 621 at 625 (noting that courts must \"construe the statute's words according to their plain and common meaning\" unless definitions are provided); Shumake , 199 S.W.3d at 284 (\"[W]hen possible, we discern [intent] from the plain meaning of the words chosen.\"). Relevant here, \"proceeding\" means either \"a course of action; a procedure\" or in its legal sense a \"[l]egal action; litigation.\" American Heritage Dictionary of the English Language 1404 (5th ed. 2011); see also Proceeding , Black's Law Dictionary (10th ed. 2014) (\"Any procedural means for seeking redress from a tribunal or agency.\"). The phrase \"contests the validity\" means to dispute or challenge the justness, legality, or effectiveness. See American Heritage at 1912 (defining \"valid\" as \"well grounded; just\" and \"[h]aving legal force; effective or binding\"; and \"contest\" as \"[t]o call into question and take an active stand against; dispute or challenge\"). Finally, \"action\" means a \"[s]omething that is done or accomplished,\" and \"related\" is a broad term that simply means \"[b]eing connected; associated.\" Id. at 17 (\"action\"), 1482 (\"related\"); see Black's ( defining action as \"process of doing something; conduct or behavior,\" and \"related\" as \"[c]onnected in some way; having relationship to or with something else.\"). Thus, under the plain language of the EDJA, the district court may enjoin a legal action that disputes or challenges the justness or legality of something done in connection with the public security.\nGrossman's El Paso lawsuit against the City falls under this plain language. His proceeding seeks to stop the City from taking certain actions in connection with the development and construction of the Facility funded by the bond proceeds-specifically, from entering into contracts to purchase the land where the Facility will be located and to issue demolition permits and remove persons or property from that land in preparation for the construction of the Facility-on the grounds that the City has violated the Antiquities Code's notice provision. The \"actions\" sought to be enjoined \"relat[e]\" to the \"public securities\" and to the \"expenditure of money relating to the public securities\" because the actions are taken in connection with the development and construction of the Facility using proceeds from the public securities.\nGrossman argues that we lack jurisdiction to review the district court's decision because section 1205.061 provides that an \"interlocutory order issued under this section is final and may not be appealed.\" Tex. Gov't Code \u00a7 1205.061(c). But as the City emphasizes, it is seeking review of the district court's final judgment, not an \"interlocutory order.\" As to the merits of this issue, Grossman argues that the district court did not have the authority to enjoin his El Paso suit because that suit \"has no relation to the expenditure of bond funds.\" But the standard under the EDJA is not whether the El Paso suit relates to the expenditure of bond funds, it is whether, as we noted and discussed above, his El Paso lawsuit \"contests the validity\" of \"an action or expenditure of money relating to the public securities, a proposed action or expenditure, or both.\" Id. \u00a7 1205.061(a).\nBecause Grossman's El Paso suit is a proceeding that \"contests the validity of ... an action or expenditure of money relating to the public securities, a proposed action or expenditure, or both,\" the district court was authorized to enjoin the prosecution or maintenance of the suit. See id. \u00a7 1205.061(a)(4). The district court's failure to do so was an abuse of discretion because Grossman's El Paso suit prevents final resolution of all matters subject to the City's EDJA lawsuit. See Buckholts Indep. Sch. Dist. v. Glaser , 632 S.W.2d 146, 149 (Tex. 1982) (noting that legislative purpose in enacting EDJA was to stop age-old practice of allowing one disgruntled person to stop entire bond issue by simply filing suit); Hotze , 339 S.W.3d at 814 (\"The Legislature enacted the EDJA to provide issuers of public securities ... a method of quickly and efficiently adjudicating the validity of public securities and acts affecting those public securities.\"); Rio Grande Valley Sugar Growers , 670 S.W.2d at 401 (\"The total thrust of [the EDJA] is to dispose of public securities validation litigation with dispatch.\").\nWe sustain the City's third issue.\nMorales's Appeal\nMorales raises one issue on cross-appeal, arguing that the district court erred by not requiring the City to fully fund a Hispanic Cultural Center before funding the Facility. Morales asserted this prioritization argument in a motion to modify the district court's judgment, arguing that the district court needed to clarify its judgment whether the City could \"construct a new Facility when doing so would prevent completion of a project [the Hispanic Cultural Center] that was specifically promised to voters.\" According to Morales, the Ordinance's text mandates that the Hispanic Cultural Center have priority over the Facility because it (1) authorizes a \"new ... cultural heritage center\"; (2) does not authorize a Facility that is \"new\"; and (3) the Ordinance specifies that discretionary projects may be funded only \"after making due provisions for the improvements listed above,\" including the Hispanic Cultural Center. The district court declined to modify its judgment, and on cross-appeal Morales asks us to reform the judgment to enjoin the City from \"advanc[ing] construction of a new Facility prior to committing sufficient bond proceeds to ensure completion of\" the Hispanic Cultural Center and other specified projects. We decline to do so as the plain language of the Ordinance does not mandate a particular prioritization of authorized projects.\nFirst, the Ordinance does not authorize only a \"new\" cultural center. It authorizes \"new and existing library, museum, cultural and performing arts facilities and improvements,\" including the Facility at issue here. Further, although the Ordinance describes twenty discrete projects for which bond proceeds may be used, nothing in the text of the Ordinance requires the City to build every named project, nor is there any language that prioritizes the listed projects. In fact, the only Ordinance-based limitation on the City's discretion is that it may not spend bond proceeds on unlisted projects until after it proceeds with listed improvements:\n... the City Council shall have the option to utilize other funds available for such purposes [the museum, cultural, arts and entertainment, and library projects] and, after making due provision for the improvements listed above [again, the museum, cultural, arts and entertainment, and library projects], the City may, in its discretion, use any excess funds for acquiring, constructing, improving, equipping and renovating other library, museum, cultural and performing arts facilities....\nIn sum, the plain language of the Ordinance does not support Morales's construction here. Accordingly, we overrule Morales's cross-issue.\nConclusion\nHaving sustained the City's appellate issues, we reverse the district court's judgment in part and render judgment as to those parts as follows:\n\u2022 Paragraphs 5 and 6 of the district court's judgment are deleted;\n\u2022 The following paragraph is added as a declaration to the judgment:\nThe City may lawfully expend proceeds generated from the sale of the Bonds to acquire land, design, construct, improve, renovate, and equip a multipurpose performing arts and entertainment facility located in downtown El Paso. The term \"multipurpose performing arts and entertainment,\" as a matter of law, includes sports and sporting events, but the Facility may not be designed, constructed, improved, renovated, or equipped exclusively for sports and sporting events;\n\u2022 in paragraph 7 of the district court's judgment, the phrase \"Subject to paragraphs 5 and 6 above\" is deleted;\n\u2022 paragraph 9 of the district court's judgment is deleted; and\n\u2022 the second full paragraph on page 4 of the district court's judgment (page 1587 of the clerk's record) is replaced with the following:\nIT IS FURTHER ORDERED that, as specified by Texas Government Code section 1205.151, this Final Judgment is a permanent injunction against the filing by any person or entity of any proceeding contesting the validity of the bonds, the authorization of the bonds, the expenditure of money relating to the bonds in conformity with this judgment, the provisions made for payment of the bonds or of interest thereon, any matter adjudicated by this Final Judgment, and any matter that could have been raised in these proceedings.\nThe remainder of the district court's judgment is affirmed.\nJustice Pemberton not participating\nAs noted above, we use \"Morales\" collectively to refer to appellees/cross-appellants Antonio Flores Morales, Candelaria Garcia, Emily Saenz Gardea, and Olga Lopez.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "EX PARTE CITY OF EL PASO\nNO. 03-17-00566-CV\nCourt of Appeals of Texas, Austin.\nFiled: November 7, 2018\nRehearing and Rehearing En Banc Denied November 28, 2018"
+  },
+  "file_name": "0517-01",
+  "first_page_order": 517,
+  "last_page_order": 529
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12207284,
+  "name": "Starnes v. California",
+  "name_abbreviation": "Starnes v. California",
+  "decision_date": "2012-04-16",
+  "docket_number": "No. 11-9159",
+  "first_page": "950",
+  "last_page": "950",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 950"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 84,
+    "ocr_confidence": 0.636,
+    "sha256": "20a5dccb21c4906e598a0810b5e3433817f0a3cb3b9a77ec9ca0ef96449c1f54",
+    "simhash": "1:6e25538011237241",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Starnes v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 2d App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9159.\nStarnes v. California."
+  },
+  "file_name": "0950-13",
+  "first_page_order": 826,
+  "last_page_order": 826
+}

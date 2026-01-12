@@ -1,0 +1,59 @@
+{
+  "id": 12427529,
+  "name": "Eastwood v. United States",
+  "name_abbreviation": "Eastwood v. United States",
+  "decision_date": "2012-12-10",
+  "docket_number": "No. 12-7097",
+  "first_page": "1074",
+  "last_page": "1074",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1074"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.724,
+    "sha256": "2e5692bbee3f5d27fb531b90b9a29c3bd0b7f4912d052320ebe4ecbf0f332e5a",
+    "simhash": "1:869b928f0e1f1d3a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Eastwood v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7097.\nEastwood v. United States."
+  },
+  "file_name": "1074-03",
+  "first_page_order": 1150,
+  "last_page_order": 1150
+}

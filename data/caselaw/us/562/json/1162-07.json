@@ -1,0 +1,59 @@
+{
+  "id": 5965517,
+  "name": "Ali Jaber v. United States",
+  "name_abbreviation": "Ali Jaber v. United States",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7836",
+  "first_page": "1162",
+  "last_page": "1162",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1162"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 75,
+    "ocr_confidence": 0.579,
+    "sha256": "6a1aa717233a3b7ac748737fb74ff85a8b5810df3b8763b61d82acf75327b447",
+    "simhash": "1:140b83036db9016a",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ali Jaber v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7836.\nAli Jaber v. United States."
+  },
+  "file_name": "1162-07",
+  "first_page_order": 1184,
+  "last_page_order": 1184
+}

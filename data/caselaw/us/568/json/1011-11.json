@@ -1,0 +1,59 @@
+{
+  "id": 12422614,
+  "name": "Kelley v. United States",
+  "name_abbreviation": "Kelley v. United States",
+  "decision_date": "2012-11-13",
+  "docket_number": "No. 12-5036",
+  "first_page": "1011",
+  "last_page": "1011",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1011"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.67,
+    "sha256": "3919d30455483887cba4b83acbe7a9bdea157e95acae68e39de2879bd1430035",
+    "simhash": "1:976aca33878f903a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kelley v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5036.\nKelley v. United States."
+  },
+  "file_name": "1011-11",
+  "first_page_order": 1087,
+  "last_page_order": 1087
+}

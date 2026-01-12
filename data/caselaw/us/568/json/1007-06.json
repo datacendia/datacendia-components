@@ -1,0 +1,84 @@
+{
+  "id": 12422371,
+  "name": "Young v. Madison et al.",
+  "name_abbreviation": "Young v. Madison",
+  "decision_date": "2012-11-13",
+  "docket_number": "No. 12-6236",
+  "first_page": "1007",
+  "last_page": "1008",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1007"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "506 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11924825
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/506/0001-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 79,
+    "char_count": 646,
+    "ocr_confidence": 0.599,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.256246406643785
+    },
+    "sha256": "5aacefc77b91001bbe09bbdd2eed5dfcd369be465ca7c35411d672fb3d8e41ba",
+    "simhash": "1:6d223d8e056cdfee",
+    "word_count": 109
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor and Justice Kagan took no part in the consideration or decision of this motion and this petition."
+    ],
+    "parties": [
+      "Young v. Madison et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Motion of petitioner for leave to proceed in forma pauperis denied, and certiorari dismissed. See this Court\u2019s Rule 39.8. As petitioner has repeatedly abused this Court\u2019s process, the Clerk is directed not to accept any further petitions in noncriminal matters from petitioner unless the docketing fee required by Rule 38(a) is paid and the petition is submitted in compliance with Rule 33.1. See Martin v. District of Columbia Court of Appeals, 506 U. S. 1 (1992) (per curiam).\nJustice Sotomayor and Justice Kagan took no part in the consideration or decision of this motion and this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6236.\nYoung v. Madison et al."
+  },
+  "file_name": "1007-06",
+  "first_page_order": 1083,
+  "last_page_order": 1084
+}

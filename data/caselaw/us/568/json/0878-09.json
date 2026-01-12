@@ -1,0 +1,59 @@
+{
+  "id": 12414765,
+  "name": "Marti v. Fairman, Warden",
+  "name_abbreviation": "Marti v. Fairman",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-11087",
+  "first_page": "878",
+  "last_page": "878",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 878"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.56,
+    "sha256": "1ff5c8dec6bca0f0f917f766206137a0c7f41d73c82d40fe6af6d2e1150f6287",
+    "simhash": "1:4da9a5a3391a30be",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Marti v. Fairman, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-11087.\nMarti v. Fairman, Warden."
+  },
+  "file_name": "0878-09",
+  "first_page_order": 954,
+  "last_page_order": 954
+}

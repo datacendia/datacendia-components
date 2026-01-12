@@ -1,0 +1,59 @@
+{
+  "id": 5941320,
+  "name": "Diamond v. United States",
+  "name_abbreviation": "Diamond v. United States",
+  "decision_date": "2011-03-21",
+  "docket_number": "No. 10-922",
+  "first_page": "1288",
+  "last_page": "1288",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1288"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.608,
+    "sha256": "20b2228a1f2e6c55fa81e934dbb326b6cac3d85ded307483c2b91df871a3e0fb",
+    "simhash": "1:1e2adf126497d119",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Diamond v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. Armed Forces. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-922.\nDiamond v. United States."
+  },
+  "file_name": "1288-05",
+  "first_page_order": 1310,
+  "last_page_order": 1310
+}

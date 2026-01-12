@@ -1,0 +1,130 @@
+{
+  "id": 5941654,
+  "name": "In re Disbarment of Ponds",
+  "name_abbreviation": "In re Disbarment of Ponds",
+  "decision_date": "2011-06-06",
+  "docket_number": "No. D-2575",
+  "first_page": "1031",
+  "last_page": "1031",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1031"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "562 U. S. 819",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5914782,
+        12435768,
+        12437808,
+        12435764,
+        12435765,
+        12435766,
+        12435767,
+        6000696,
+        12435769,
+        12435770,
+        12435771,
+        12435772,
+        12435773,
+        12435774,
+        12435775,
+        12435776,
+        12435777,
+        12435778,
+        12435781,
+        12435782,
+        12435783,
+        12435784,
+        12435785,
+        12435786,
+        12435788,
+        12435790,
+        12435791,
+        12435793,
+        12435794,
+        12435797
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/562/0819-01",
+        "/l-ed-2d/178/0010-04",
+        "/l-ed-2d/178/0275-05",
+        "/l-ed-2d/178/0009-05",
+        "/l-ed-2d/178/0010-01",
+        "/l-ed-2d/178/0010-02",
+        "/l-ed-2d/178/0010-03",
+        "/us/562/0819-02",
+        "/l-ed-2d/178/0010-05",
+        "/l-ed-2d/178/0010-06",
+        "/l-ed-2d/178/0010-07",
+        "/l-ed-2d/178/0010-08",
+        "/l-ed-2d/178/0011-01",
+        "/l-ed-2d/178/0011-02",
+        "/l-ed-2d/178/0011-03",
+        "/l-ed-2d/178/0011-04",
+        "/l-ed-2d/178/0011-05",
+        "/l-ed-2d/178/0011-06",
+        "/l-ed-2d/178/0012-01",
+        "/l-ed-2d/178/0012-02",
+        "/l-ed-2d/178/0012-03",
+        "/l-ed-2d/178/0012-04",
+        "/l-ed-2d/178/0012-05",
+        "/l-ed-2d/178/0012-06",
+        "/l-ed-2d/178/0012-08",
+        "/l-ed-2d/178/0013-02",
+        "/l-ed-2d/178/0013-03",
+        "/l-ed-2d/178/0013-05",
+        "/l-ed-2d/178/0013-06",
+        "/l-ed-2d/178/0014-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 106,
+    "ocr_confidence": 0.622,
+    "sha256": "2cc9143af8c92ebfa3a85ef69d6218510e613119d5d7fee42db61d0cb8373957",
+    "simhash": "1:38b89e22cb94f8cf",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:44:09.189648+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Ponds."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see 562 U. S. 819.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2575.\nIn re Disbarment of Ponds."
+  },
+  "file_name": "1031-07",
+  "first_page_order": 1057,
+  "last_page_order": 1057
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5995710,
+  "name": "Gregory v. Pennsylvania",
+  "name_abbreviation": "Gregory v. Pennsylvania",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8458",
+  "first_page": "1245",
+  "last_page": "1245",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1245"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 72,
+    "ocr_confidence": 0.579,
+    "sha256": "2b0eab972afb357dbd4c9d4f500f15534fd6363446c342c47ac8dcb5d886e5ca",
+    "simhash": "1:ea6e871031eaa9d0",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gregory v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Pa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8458.\nGregory v. Pennsylvania."
+  },
+  "file_name": "1245-15",
+  "first_page_order": 1267,
+  "last_page_order": 1267
+}

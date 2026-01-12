@@ -1,0 +1,59 @@
+{
+  "id": 12218108,
+  "name": "Felder v. Indiana",
+  "name_abbreviation": "Felder v. Indiana",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5216",
+  "first_page": "895",
+  "last_page": "895",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 895"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 65,
+    "ocr_confidence": 0.678,
+    "sha256": "706bd3ed862442fb17ecc0ce518ad9f704549b7bec40ad9d77f0537e39546da7",
+    "simhash": "1:8c93c13c281b1caf",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Felder v. Indiana."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ind. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5216.\nFelder v. Indiana."
+  },
+  "file_name": "0895-11",
+  "first_page_order": 977,
+  "last_page_order": 977
+}

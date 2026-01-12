@@ -1,0 +1,59 @@
+{
+  "id": 6000224,
+  "name": "Jones v. United States",
+  "name_abbreviation": "Jones v. United States",
+  "decision_date": "2010-12-13",
+  "docket_number": "No. 10-5512",
+  "first_page": "1111",
+  "last_page": "1111",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1111"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.564,
+    "sha256": "ee898e666a089861328fb872535fd1c493d123eab5cddc8d9cf579d438267491",
+    "simhash": "1:850a8f1bcb808c28",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jones v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5512.\nJones v. United States."
+  },
+  "file_name": "1111-05",
+  "first_page_order": 1133,
+  "last_page_order": 1133
+}

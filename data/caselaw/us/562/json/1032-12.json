@@ -1,0 +1,59 @@
+{
+  "id": 6018721,
+  "name": "Towers v. Illinois",
+  "name_abbreviation": "Towers v. Illinois",
+  "decision_date": "2010-11-08",
+  "docket_number": "No. 10-6451",
+  "first_page": "1032",
+  "last_page": "1032",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1032"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.665,
+    "sha256": "43b396fb326892f5cd72dab26e5cd30fa701347b7905ef28998b5014bf6b3165",
+    "simhash": "1:619192c13521e366",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Towers v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6451.\nTowers v. Illinois."
+  },
+  "file_name": "1032-12",
+  "first_page_order": 1054,
+  "last_page_order": 1054
+}

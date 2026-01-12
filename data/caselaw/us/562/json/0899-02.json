@@ -1,0 +1,59 @@
+{
+  "id": 5988728,
+  "name": "Claycomb v. United States",
+  "name_abbreviation": "Claycomb v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5014",
+  "first_page": "899",
+  "last_page": "899",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 899"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.631,
+    "sha256": "e292848b25ff55e1165a44e189c726edc24e8e511575bd41fab567924bf9bc34",
+    "simhash": "1:9799f181b6a6983c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Claycomb v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5014.\nClaycomb v. United States."
+  },
+  "file_name": "0899-02",
+  "first_page_order": 921,
+  "last_page_order": 921
+}

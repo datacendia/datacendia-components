@@ -1,0 +1,59 @@
+{
+  "id": 12203852,
+  "name": "McKenna et al. v. City of Philadelphia, Pennsylvania",
+  "name_abbreviation": "McKenna v. City of Philadelphia",
+  "decision_date": "2012-04-16",
+  "docket_number": "No. 11-995",
+  "first_page": "938",
+  "last_page": "938",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 938"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 99,
+    "ocr_confidence": 0.555,
+    "sha256": "8988f7a12b457a47c3ac5de241a999c6f725d3bd09593325e2c6684ab5d33030",
+    "simhash": "1:0c8cec84026e3524",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McKenna et al. v. City of Philadelphia, Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-995.\nMcKenna et al. v. City of Philadelphia, Pennsylvania."
+  },
+  "file_name": "0938-08",
+  "first_page_order": 814,
+  "last_page_order": 814
+}

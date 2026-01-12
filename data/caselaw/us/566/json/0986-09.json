@@ -1,0 +1,76 @@
+{
+  "id": 12215045,
+  "name": "Tellechea v. United States; and Bradley et al. v. United States",
+  "name_abbreviation": "Tellechea v. United States",
+  "decision_date": "2012-05-14",
+  "docket_number": "No. 11-844; No. 11-862",
+  "first_page": "986",
+  "last_page": "986",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 986"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "644 F. 3d 1213",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5647884
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/644/1213-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 23,
+    "char_count": 156,
+    "ocr_confidence": 0.575,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.24764802890052665
+    },
+    "sha256": "19734e836f9e1570a4e4655df8182cfbafb3d2425c404254fa22bc9071e7c782",
+    "simhash": "1:979937030f24162a",
+    "word_count": 27
+  },
+  "last_updated": "2024-02-27T23:45:15.365324+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Tellechea v. United States; and Bradley et al. v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. llth Cir. Certiorari denied. Reported below: 644 F. 3d 1213.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-844.\nNo. 11-862.\nTellechea v. United States; and Bradley et al. v. United States."
+  },
+  "file_name": "0986-09",
+  "first_page_order": 862,
+  "last_page_order": 862
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12412288,
+  "name": "Stevens v. Martel, Acting Warden",
+  "name_abbreviation": "Stevens v. Martel",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10267",
+  "first_page": "838",
+  "last_page": "838",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 838"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 82,
+    "ocr_confidence": 0.668,
+    "sha256": "df974b5e7d60f4f24e77670bcf1a21acae6dcda86f0a264314442dba6128ae1a",
+    "simhash": "1:12f123b1019d0466",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Stevens v. Martel, Acting Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10267.\nStevens v. Martel, Acting Warden."
+  },
+  "file_name": "0838-04",
+  "first_page_order": 914,
+  "last_page_order": 914
+}

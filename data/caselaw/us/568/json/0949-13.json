@@ -1,0 +1,59 @@
+{
+  "id": 12418420,
+  "name": "Parham v. Warren, Warden",
+  "name_abbreviation": "Parham v. Warren",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-5698",
+  "first_page": "949",
+  "last_page": "949",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 949"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.671,
+    "sha256": "8614de658412e53598be2a3357f1df38fa29b090f69fd472eeda722da1072bb9",
+    "simhash": "1:a38f96c7af7f9404",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Parham v. Warren, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5698.\nParham v. Warren, Warden."
+  },
+  "file_name": "0949-13",
+  "first_page_order": 1025,
+  "last_page_order": 1025
+}

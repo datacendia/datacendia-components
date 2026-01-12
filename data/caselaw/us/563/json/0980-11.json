@@ -1,0 +1,59 @@
+{
+  "id": 5936911,
+  "name": "Sandoval v. Toledo Correctional Institution et al.",
+  "name_abbreviation": "Sandoval v. Toledo Correctional Institution",
+  "decision_date": "2011-05-02",
+  "docket_number": "No. 10-9701",
+  "first_page": "980",
+  "last_page": "980",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 980"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 98,
+    "ocr_confidence": 0.597,
+    "sha256": "98ab060b668346c850542d9fa288a26220478a3e5617e64313b222e3ea17d660",
+    "simhash": "1:935a3288323f9d20",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sandoval v. Toledo Correctional Institution et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9701.\nSandoval v. Toledo Correctional Institution et al."
+  },
+  "file_name": "0980-11",
+  "first_page_order": 1006,
+  "last_page_order": 1006
+}

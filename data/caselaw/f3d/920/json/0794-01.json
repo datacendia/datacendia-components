@@ -1,0 +1,680 @@
+{
+  "id": 12520728,
+  "name": "AFGE LOCAL 3599, Petitioner v. EQUAL EMPLOYMENT OPPORTUNITY COMMISSION, Respondent",
+  "name_abbreviation": "Afge Local 3599 v. E.E.O.C.",
+  "decision_date": "2019-03-29",
+  "docket_number": "2018-1888",
+  "first_page": "794",
+  "last_page": "801",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "920 F.3d 794"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Fed. Cir.",
+    "id": 8955,
+    "name": "United States Court of Appeals for the Federal Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "471 U.S. 808",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6209946
+      ],
+      "weight": 3,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "815-16"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/471/0808-01"
+      ]
+    },
+    {
+      "cite": "49 F.3d 483",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7415894
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "485"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/49/0483-01"
+      ]
+    },
+    {
+      "cite": "130 F.3d 568",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11890052
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "572"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/130/0568-01"
+      ]
+    },
+    {
+      "cite": "200 F.3d 995",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4233563
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "997"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/200/0995-01"
+      ]
+    },
+    {
+      "cite": "371 F.3d 613",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9229368
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "618",
+          "parenthetical": "\"[I]t is well-established that the government can 'waive waiver' implicitly by failing to assert it.\" (internal quotations omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/371/0613-01"
+      ]
+    },
+    {
+      "cite": "735 F.2d 558",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        580887
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "562"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/735/0558-01"
+      ]
+    },
+    {
+      "cite": "808 F.2d 1456",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1369069
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "1461",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/808/1456-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 2412",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(d)"
+        },
+        {
+          "page": "(d)(1)(A)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 U.S.C. \u00a7 504",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        },
+        {
+          "page": "(b)(1)(C)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "314 F.3d 1362",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9388263
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "1364"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/314/1362-01"
+      ]
+    },
+    {
+      "cite": "640 F.3d 1255",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4205080,
+        4152258
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1261",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/640/1255-01",
+        "/vet-app/24/1255-01"
+      ]
+    },
+    {
+      "cite": "818 F.3d 704",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4249938,
+        4251469
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "710",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/fed-cl/126/0704-01",
+        "/f3d/818/0704-01"
+      ]
+    },
+    {
+      "cite": "461 U.S. 424",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11298707
+      ],
+      "weight": 3,
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "437"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/461/0424-01"
+      ]
+    },
+    {
+      "cite": "412 F.2d 867",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2187882,
+        747959
+      ],
+      "year": 1969,
+      "pin_cites": [
+        {
+          "page": "873-74",
+          "parenthetical": "\"If an administrative conclusion is affirmed because of the existence of evidence which might support a ground not set forth, a court runs the danger of upholding a decision never in fact made.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/412/0867-01",
+        "/us-ct-cl/188/0631-01"
+      ]
+    },
+    {
+      "cite": "535 F.2d 1197",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1062284
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "1200",
+          "parenthetical": "\"The statement of reasons need not include detailed findings of fact but must inform the court and the petitioner of the grounds of decision and the essential facts upon which the administrative decision was based.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/535/1197-01"
+      ]
+    },
+    {
+      "cite": "238 F.3d 1324",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        521357,
+        11148582
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "1338",
+          "parenthetical": "\"[E]ven if the agency is not obligated to provide reasons, a court may nonetheless order the agency to provide explanation if such an explanation is required for meaningful judicial review.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/fed-cl/48/1324-01",
+        "/f3d/238/1324-01"
+      ]
+    },
+    {
+      "cite": "715 F.2d 653",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        3788048,
+        1882309
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "660-61",
+          "parenthetical": "\"If there is reasoned decisionmaking lurking behind such agency behavior, it is yet to be articulated. For agency action to be upheld, it must not only be explainable; it must be explained.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/230/0179-01",
+        "/f2d/715/0653-01"
+      ]
+    },
+    {
+      "cite": "904 F.3d 980",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518723
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "994",
+          "parenthetical": "quoting Sierra Club v. Gorsuch , 715 F.2d 653, 660-61 (D.C. Cir. 1983) (\"If there is reasoned decisionmaking lurking behind such agency behavior, it is yet to be articulated. For agency action to be upheld, it must not only be explainable; it must be explained.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/904/0980-01"
+      ]
+    },
+    {
+      "cite": "470 U.S. 729",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11300062
+      ],
+      "weight": 3,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "744",
+          "parenthetical": "\"[I]f the reviewing court simply cannot evaluate the challenged agency action on the basis of the record before it, the proper course, except in rare circumstances, is to remand to the agency for additional investigation or explanation.\""
+        },
+        {
+          "parenthetical": "\"[I]f the reviewing court simply cannot evaluate the challenged agency action on the basis of the record before it, the proper course, except in rare circumstances, is to remand to the agency for additional investigation or explanation.\""
+        },
+        {
+          "parenthetical": "\"[I]f the reviewing court simply cannot evaluate the challenged agency action on the basis of the record before it, the proper course, except in rare circumstances, is to remand to the agency for additional investigation or explanation.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/470/0729-01"
+      ]
+    },
+    {
+      "cite": "5 U.S.C. \u00a7 554",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)(2)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 U.S.C. \u00a7\u00a7 556",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "67 S.Ct. 1760",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "year": 1947,
+      "pin_cites": [
+        {
+          "parenthetical": "\"It will not do for a court to be compelled to guess at the theory underlying the agency's action ....\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "332 U.S. 194",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        365064
+      ],
+      "weight": 2,
+      "year": 1947,
+      "pin_cites": [
+        {
+          "page": "196-97",
+          "parenthetical": "\"It will not do for a court to be compelled to guess at the theory underlying the agency's action ....\""
+        },
+        {
+          "parenthetical": "\"It will not do for a court to be compelled to guess at the theory underlying the agency's action ....\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/332/0194-01"
+      ]
+    },
+    {
+      "cite": "419 U.S. 281",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6174525
+      ],
+      "weight": 3,
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "286"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/419/0281-01"
+      ]
+    },
+    {
+      "cite": "371 U.S. 156",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        451399
+      ],
+      "weight": 3,
+      "year": 1962,
+      "pin_cites": [
+        {
+          "page": "168"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/371/0156-01"
+      ]
+    },
+    {
+      "cite": "463 U.S. 29",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6190630
+      ],
+      "weight": 5,
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "43",
+          "parenthetical": "quoting Burlington Truck Lines, Inc. v. United States , 371 U.S. 156, 168, 83 S.Ct. 239, 9 L.Ed.2d 207 (1962) "
+        },
+        {
+          "parenthetical": "quoting Burlington Truck Lines, Inc. v. United States , 371 U.S. 156, 168, 83 S.Ct. 239, 9 L.Ed.2d 207 (1962) "
+        },
+        {
+          "parenthetical": "quoting Burlington Truck Lines, Inc. v. United States , 371 U.S. 156, 168, 83 S.Ct. 239, 9 L.Ed.2d 207 (1962) "
+        },
+        {
+          "page": "43"
+        },
+        {
+          "parenthetical": "\"It will not do for a court to be compelled to guess at the theory underlying the agency's action ....\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/463/0029-01"
+      ]
+    },
+    {
+      "cite": "398 F.3d 1322",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9033611
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1325",
+          "parenthetical": "quoting Allen , 2 M.S.P.R. at 434 "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/398/1322-01"
+      ]
+    },
+    {
+      "cite": "423 F.3d 1366",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8933515
+      ],
+      "weight": 4,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1370"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/423/1366-01"
+      ]
+    },
+    {
+      "cite": "746 F.2d 1454",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        648852
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "1456"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/746/1454-01"
+      ]
+    },
+    {
+      "cite": "2 M.S.P.R. 420",
+      "category": "reporters:specialty",
+      "reporter": "M.S.P.R.",
+      "weight": 2,
+      "year": 1980,
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 U.S.C. \u00a7 7703",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "98 F.3d 1308",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7652032
+      ],
+      "weight": 2,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "1311"
+        },
+        {
+          "page": "1311"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/98/1308-01"
+      ]
+    },
+    {
+      "cite": "5 U.S.C. \u00a7 7701",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(g)"
+        },
+        {
+          "page": "(g)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 U.S.C. \u00a7 7121",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(e)(1)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 994,
+    "char_count": 21186,
+    "pagerank": {
+      "raw": 4.621887471290392e-08,
+      "percentile": 0.2903474295219528
+    },
+    "sha256": "406e9fba9fe09b78db9cd1af8abe84db561ea9feaa58d332843bc3f4367679f0",
+    "simhash": "1:81df73e5be749016",
+    "word_count": 3484
+  },
+  "last_updated": "2024-02-27T18:46:47.899627+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Taranto, Bryson, and Stoll, Circuit Judges."
+    ],
+    "parties": [
+      "AFGE LOCAL 3599, Petitioner\nv.\nEQUAL EMPLOYMENT OPPORTUNITY COMMISSION, Respondent"
+    ],
+    "opinions": [
+      {
+        "text": "Bryson, Circuit Judge.\nIn 2017, the Equal Employment Opportunity Commission (\"EEOC\") removed David Hamilton from his position as an agency mediator. Mr. Hamilton's union filed a grievance challenging the removal. Pursuant to the collective bargaining agreement with the agency, Mr. Hamilton elected to have the challenge to his removal heard by an arbitrator rather than by the Merit Systems Protection Board. Following a hearing, the arbitrator overturned Mr. Hamilton's removal, but denied the union's request for an award of attorney fees. Mr. Hamilton's union, AFGE Local 3599, has petitioned for review of the denial of attorney fees. We vacate the arbitrator's denial of attorney fees and remand for further proceedings on that issue.\nI\nMr. Hamilton has been employed by the EEOC for 20 years. In 2014, he was promoted to the position of mediator. The record reflects that during the period of his employment Mr. Hamilton had no disciplinary problems, with the exception of one day in 2016.\nOn that day, November 29, 2016, Mr. Hamilton was engaged in a mediation when he suddenly began to act erratically. Witnesses later testified that Mr. Hamilton began using racial epithets and engaging in physical violence toward the parties in the mediation, mistreated his co-workers, and refused to follow orders from management officials. Based on his conduct on that day, the EEOC proposed Mr. Hamilton's removal. Following Mr. Hamilton's response, the agency removed him from federal service on May 3, 2017. The union filed a grievance, which led to the union taking the case to arbitration.\nThe arbitrator, appointed by the Federal Mediation and Conciliation Service, conducted a two-day hearing. The EEOC called 11 witnesses at the hearing, and the union called Mr. Hamilton.\nAlthough the arbitrator found that certain aspects of the EEOC's case had not been proved, the arbitrator credited the testimony of several of the EEOC witnesses to the effect that Mr. Hamilton engaged in bizarre behavior that led the arbitrator to conclude that Mr. Hamilton \"had a major physical and/or mental breakdown during the late stage of the November 29, 2016, mediation session.\" Noting that Mr. Hamilton denied that he lost control of himself or took any of the actions he was charged with, the arbitrator concluded that Mr. Hamilton \"did not remember or ... even recall his actions that day.\"\nThe arbitrator found that Mr. Hamilton's behavior on November 29, 2016, was a one-time event and that he otherwise had \"an unblemished 19 year record as a Federal employee.\" The arbitrator further concluded that the EEOC had not shown that Mr. Hamilton's behavior had any negative effect on the agency's reputation, and that the agency had failed to consider that Mr. Hamilton's unusual behavior \"was caused by his obvious medical condition.\" Accordingly, the arbitrator determined that the agency had not established that it had just cause to remove Mr. Hamilton.\nAs a remedy, the arbitrator directed that Mr. Hamilton's removal be set aside and that he be reinstated in his position with back pay and benefits. However, the arbitrator denied the union's request that the agency be held responsible for the union's arbitration costs and attorney fees.\nBoth parties petitioned the arbitrator for reconsideration of the decision. The EEOC requested that the arbitrator reconsider reinstating Mr. Hamilton, and the union asked that the arbitrator reconsider the portion of the award denying the union's request for attorney fees. In response, the arbitrator reaffirmed the award, including the denial of attorney fees. The union then filed this petition for review, challenging the arbitrator's failure to award attorney fees for the arbitration proceeding. The EEOC did not seek review of the arbitrator's decision reinstating Mr. Hamilton.\nII\nWhen arbitration is provided for in a government agency's collective bargaining agreement, an affected employee has the option to invoke arbitration in place of an appeal to the Merit Systems Protection Board. 5 U.S.C. \u00a7 7121(e)(1). Such an arbitration proceeding is governed by the same standard of proof as a proceeding before the Board. Id. \u00a7 7121(e)(2). A fee award following an arbitration is available to a prevailing employee under the same circumstances that it would be available to such an employee following a successful appeal to the Merit Systems Protection Board, and is awarded in accordance with standards established under 5 U.S.C. \u00a7 7701(g). Id. \u00a7 5596(b)(1)(A)(ii). This court has jurisdiction over appeals from arbitration awards, as it does over appeals from the Merit Systems Protection Board. Id. \u00a7\u00a7 7121(f), 7703.\nWe review an arbitrator's decision in the same manner as decisions of the Merit Systems Protection Board. Dunn v. Dep't of Veterans Affairs , 98 F.3d 1308, 1311 (Fed. Cir. 1996). We will therefore uphold an arbitrator's denial of attorney fees unless the arbitrator's decision was arbitrary, capricious, an abuse of discretion, or otherwise unlawful, procedurally deficient, or unsupported by substantial evidence. 5 U.S.C. \u00a7 7703(c). We afford \"great deference to the Board (or an arbitrator standing in the place of the Board) on questions of entitlement to attorney fees.\" Dunn , 98 F.3d at 1311.\nThe governing statute for fee awards in this context, 5 U.S.C. \u00a7 7701(g), provides that an adjudicator may require an agency to pay the employee's reasonable attorney fees if the employee is the prevailing party and the adjudicator determines that payment by the agency \"is warranted in the interest of justice.\" This court has identified five non-exclusive factors that the Board (or an arbitrator) may consider in determining whether a fee award is in the interest of justice. Those factors, first identified by the Board in Allen v. U.S. Postal Service , 2 M.S.P.R. 420 (1980), and known ever since as the Allen factors, are the following:\n1. Where the agency engaged in a \"prohibited personnel practice\" ( \u00a7 7701(g)(1) );\n2. Where the agency's action was \"clearly without merit\" ( \u00a7 7701(g)(1) ), or was \"wholly unfounded,\" or the employee is \"substantially innocent\" of the charges brought by the agency;\n3. Where the agency initiated the action against the employee in \"bad faith,\" including:\na. Where the agency's action was brought to \"harass\" the employee;\nb. Where the agency's action was brought to \"exert improper pressure on the employee to act in certain ways\";\n4. Where the agency committed a \"gross procedural error\" which \"prolonged the proceeding\" or \"severely prejudiced\" the employee;\n5. Where the agency \"knew or should have known that it would not prevail on the merits\" when it brought the proceeding.\nYorkshire v. Merit Sys. Prot. Bd. , 746 F.2d 1454, 1456 (Fed. Cir. 1984).\nIn challenging the arbitrator's decision denying the request for fees, the union makes essentially three arguments. First, the union contends that under the applicable standards, the arbitrator was required to award fees. Second, the union contends that the arbitrator improperly failed to apply the findings he made in his decision on the merits to the question whether to award fees. And third, the union argues that the arbitrator's failure to provide reasons for his decision to deny attorney fees requires that the decision be reversed. The court will address the three arguments in the order presented above.\n1. In light of the fact that the arbitrator made no findings as to the reasons for denying the fee application, the union's first argument in effect asks us to hold that regardless of any findings that the arbitrator might have made on that issue, the record compels us to hold that the arbitrator abused his discretion by denying a fee award. Put another way, in order to reverse outright and hold that the arbitrator abused his discretion in denying fees, we would have to conclude that any application of the Allen factors in this case would compel the conclusion that a fee award was required. While it may be that in some cases the record would point so strongly toward granting a fee award that we could reverse the adjudicator's denial even in the absence of any express findings by the adjudicator as to the Allen factors or other reasons to deny the award, this is not such a case. In his opinion, the arbitrator found that a number of the EEOC's allegations were supported by evidence, credited the testimony of those EEOC officials who testified at the hearing, and did not credit Mr. Hamilton's denials that any of the events set forth in the EEOC's charges had occurred. Nor does the record contain undisputed evidence that would have compelled an adjudicator to find that the Allen factors indisputably favored granting fees. This is therefore not a case in which we can say that no application of the Allen factors could reasonably lead to a conclusion that a fee award should be denied.\n2. As for the union's second argument, developed in the reply brief and at oral argument, we reject the contention that in determining whether to award fees, the arbitrator could not consider any facts other than those that were included in his opinion on the merits. The union argues that its position is supported by this court's decision in Morrison v. National Science Foundation , 423 F.3d 1366 (Fed. Cir. 2005), but we disagree.\nThe Morrison court criticized an arbitrator's decision to deny a fee award, because in deciding the attorney fee issue, the arbitrator \"retreated from his earlier position\" in his opinion on the merits regarding the agency's improper conduct. Id. at 1370. Focusing on the second Allen factor, the court said that the analysis of that factor \"must be determined by examining the arbitrator's decision, not the evidence and information available to the arbitrator.\" Id. That is, the court explained, \"the arbitrator may not revise the merits decision as a basis for denying attorney fees.\" Id. The court did not hold that the arbitrator's decision as to the fee award is limited to those factual findings and conclusions set forth in the opinion on the merits; the only prohibition set out by the court was that the arbitrator may not \"revise the merits decision,\" i.e., make findings contrary to the merits decision, in determining whether to award fees.\nSeveral of the Allen factors involve issues that would not ordinarily be discussed in an opinion on the merits of the agency action against the employee. It would thus make no sense for the arbitrator to be limited to the four corners of the merits opinion in determining whether to award fees. There is no indication that the arbitrator acted contrary to the directive in Morrison , properly interpreted, so the court rejects the union's argument on that issue.\n3. The union's third argument-that the arbitrator erred by failing to provide an explanation for his decision not to award fees-has more force.\nThis court has held that \"[t]he principal constraint upon the Board's section 7701(g) discretion to determine when an award is warranted arises from the Board's duty to exercise that discretion reasonably, which necessarily includes the duty to articulate a rational explanation for each award.\" Price v. Soc. Sec. Admin. , 398 F.3d 1322, 1325 (Fed. Cir. 2005) (quoting Allen , 2 M.S.P.R. at 434 ).\nThat principle decides this case. In order for this court to be able to conduct its reviewing responsibility, even on a matter as to which the adjudicator is given broad deference, it is ordinarily necessary for the adjudicator to provide some sort of explanation for its action. That is a principle frequently reiterated in administrative law decisions in various contexts. As the Supreme Court explained in Motor Vehicle Manufacturers Ass'n v. State Farm Mutual Automobile Insurance Co. , 463 U.S. 29, 43, 103 S.Ct. 2856, 77 L.Ed.2d 443 (1983) (quoting Burlington Truck Lines, Inc. v. United States , 371 U.S. 156, 168, 83 S.Ct. 239, 9 L.Ed.2d 207 (1962) ), \"[t]he scope of review under the 'arbitrary and capricious' standard is narrow and a court is not to substitute its judgment for that of the agency. Nevertheless, the agency must examine the relevant data and articulate a satisfactory explanation for its action including a 'rational connection between the facts found and the choice made.' \"\nTo be sure, a court will \"uphold a decision of less than ideal clarity if the agency's path may reasonably be discerned.\" Bowman Transp., Inc. v. Arkansas-Best Freight Sys., Inc. , 419 U.S. 281, 286, 95 S.Ct. 438, 42 L.Ed.2d 447 (1974). But a reviewing court \"may not supply a reasoned basis for the agency's action that the agency itself has not given.\" Motor Vehicle Mfrs. , 463 U.S. at 43, 103 S.Ct. 2856 ; see also SEC v. Chenery Corp. , 332 U.S. 194, 196-97, 67 S.Ct. 1760, 91 L.Ed. 1995 (1947) (\"It will not do for a court to be compelled to guess at the theory underlying the agency's action ....\").\nAlthough the procedural requirements governing adjudicative hearings under the Administrative Procedure Act, 5 U.S.C. \u00a7\u00a7 556, 557, do not apply to Merit Systems Protection Board and parallel arbitration proceedings, see 5 U.S.C. \u00a7 554(a)(2), it is nonetheless instructive that the Act, which sets forth principles broadly applicable to federal administrative proceedings, provides that all decisions by adjudicators in cases in which a hearing is required to be held \"shall include a statement of ... findings and conclusion, and the reasons or basis therefor, on all material issues of fact, law, or discretion presented on the record.\" Id. \u00a7 557(c)(3).\nThis court and others have made the same point in different contexts. See, e.g. , Fla. Power & Light Co. v. Lorion , 470 U.S. 729, 744, 105 S.Ct. 1598, 84 L.Ed.2d 643 (1985) (\"[I]f the reviewing court simply cannot evaluate the challenged agency action on the basis of the record before it, the proper course, except in rare circumstances, is to remand to the agency for additional investigation or explanation.\");\nPalantir USG, Inc. v. United States , 904 F.3d 980, 994 (Fed. Cir. 2018) (quoting Sierra Club v. Gorsuch , 715 F.2d 653, 660-61 (D.C. Cir. 1983) (\"If there is reasoned decisionmaking lurking behind such agency behavior, it is yet to be articulated. For agency action to be upheld, it must not only be explainable; it must be explained.\"); Impresa Construzioni Geom. Domenico Garufi v. United States, 238 F.3d 1324, 1338 (Fed. Cir. 2001) (\"[E]ven if the agency is not obligated to provide reasons, a court may nonetheless order the agency to provide explanation if such an explanation is required for meaningful judicial review.\"); Kitchens v. Dep't of the Treasury , 535 F.2d 1197, 1200 (9th Cir. 1976) (\"The statement of reasons need not include detailed findings of fact but must inform the court and the petitioner of the grounds of decision and the essential facts upon which the administrative decision was based.\"); Kowal v. United States , 412 F.2d 867, 873-74 (Ct. Cl. 1969) (\"If an administrative conclusion is affirmed because of the existence of evidence which might support a ground not set forth, a court runs the danger of upholding a decision never in fact made.\").\nThat principle has been applied repeatedly in the context of attorney fee awards. Although such awards are typically reviewed for an abuse of discretion, courts have been careful to insist that the adjudicators responsible for considering attorney fee awards provide a sufficient explanation for their decisions to facilitate appellate review. See, e.g. , Hensley v. Eckerhart , 461 U.S. 424, 437, 103 S.Ct. 1933, 76 L.Ed.2d 40 (1983) (\"We reemphasize that the district court has discretion in determining the amount of a fee award. This is appropriate in view of the district court's superior understanding of the litigation and the desirability of avoiding frequent appellate review of what essentially are factual matters. It remains important, however, for the district court to provide a concise but clear explanation of its reasons for the fee award.\"); Biery v. United States , 818 F.3d 704, 710 (Fed. Cir. 2016) (same); Wagner v. Shinseki , 640 F.3d 1255, 1261 (Fed. Cir. 2011) (same); Libas, Ltd. v. United States , 314 F.3d 1362, 1364 (Fed. Cir. 2003) (reversing denial of fee award where trial court did not \"sufficiently explain its basis for denying the EAJA petition for attorneys' fees and expenses\"; holding that trial court's discretion over attorney fee award \"is not without limits and the abuse of discretion standard does not dilute our meaningful examination of the trial court's decision\").\nIn some instances, the matter may be so clear that the failure of the adjudicator to provide an explanation for its action will be harmless error, so that this court can enter judgment in accordance with the ruling below despite the absence of an explanation for that ruling. But this is not such a case. In fact, the circumstances of this case illustrate why an explanation of the reasons for a ruling such as the denial of fees is typically critical to judicial review of that ruling.\nWhen the union sought reconsideration of its request for fees, the EEOC argued to the arbitrator that fees should be denied for two reasons: (1) because an award of fees was not warranted in the interest of justice; and (2) because the parties' collective bargaining agreement provided that \"fees and expenses shall be borne equally by both parties,\" and that the union's request for attorney fees \"violate[s] the expressed purpose of the Arbitration clause contained in the parties' contract.\"\nThe EEOC did not defend that second ground for denying fees in its brief, and at oral argument the EEOC disclaimed the argument, and properly so. The contract provision to which the EEOC referred in its opposition to the union's motion for reconsideration provides that \"[t]he Arbitrator's fees and expenses shall be borne equally by the Parties.\" That provision does not provide for each party to be responsible for its own attorney fees, as the EEOC argued to the arbitrator. While that argument is plainly invalid, the arbitrator's failure to provide a reason for his decision denying fees leaves us with no assurance that the arbitrator rejected that argument. Because the EEOC invited the arbitrator to deny fees on that ground, the agency is not well situated to argue that the arbitrator must have denied fees based on a valid ground, rather than on the invalid ground that the agency itself proposed.\nAccordingly, we vacate the arbitrator's award as to the fees issue and remand for the arbitrator to reconsider the issue of fees and to include a statement of reasons for whatever decision the arbitrator reaches on that issue.\nCosts to the petitioner.\nVACATED AND REMANDED\nIn its opening brief, the union argued at several points that the Equal Access to Justice Act, 5 U.S.C. \u00a7 504 ; 28 U.S.C. \u00a7 2412(d), governs the attorney fee award in this case. The union did not press that argument in its reply brief or at oral argument, and it is clear that it is unavailing. The Equal Access to Justice Act applies only to a \"civil action,\" 28 U.S.C. \u00a7 2412(d)(1)(A), or an \"adversary adjudication,\" 5 U.S.C. \u00a7 504(a)(1). The latter term is defined to exclude adjudications involving \"the selection or tenure of an employee,\" 5 U.S.C. \u00a7 504(b)(1)(C) ; id. \u00a7 554(a)(2). See Gavette v. Office of Pers. Mgmt. , 808 F.2d 1456, 1461 (Fed. Cir. 1986) (en banc) (\"Here, 5 U.S.C. \u00a7 504... does not apply to the board proceedings because the case does involve tenure. Also inapplicable is section 2412(d)(3) of 28 U.S.C.... because the present case is not an 'action for judicial review of an adversary adjudication.' \"); Olsen v. Dep't of Commerce, Census Bureau , 735 F.2d 558, 562 (Fed. Cir. 1984).\nAs the union acknowledged at oral argument, it did not make this argument to the arbitrator in its motion for reconsideration of the denial of the fee award. However, the EEOC failed to argue waiver of the issue in its brief in this court or at oral argument. Instead, the EEOC addressed the issue on the merits. EEOC Br. 18-19. Under these circumstances, we exercise our discretion to hold that the union did not forfeit its opportunity to raise the issue on appeal. See Tokatly v. Ashcroft , 371 F.3d 613, 618 (9th Cir. 2004) (\"[I]t is well-established that the government can 'waive waiver' implicitly by failing to assert it.\" (internal quotations omitted)); Hernandez v. Cowan , 200 F.3d 995, 997 (7th Cir. 2000) ; Williams v. Runyon , 130 F.3d 568, 572 (3d Cir. 1997) ; United States v. Schlesinger , 49 F.3d 483, 485 (9th Cir. 1994) ; see generally City of Oklahoma City v. Tuttle , 471 U.S. 808, 815-16, 105 S.Ct. 2427, 85 L.Ed.2d 791 (1985).",
+        "type": "majority",
+        "author": "Bryson, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Barbara B. Hutchinson, Washington, DC, argued for petitioner.",
+      "Erin Murdock-Park, Commercial Litigation Branch, Civil Division, United States Department of Justice, Washington, DC, argued for respondent. Also represented by Joseph H. Hunt, Allison Kidd-Miller, Robert Edward Kirschman, Jr."
+    ],
+    "corrections": "",
+    "head_matter": "AFGE LOCAL 3599, Petitioner\nv.\nEQUAL EMPLOYMENT OPPORTUNITY COMMISSION, Respondent\n2018-1888\nUnited States Court of Appeals, Federal Circuit.\nDecided: March 29, 2019\nBarbara B. Hutchinson, Washington, DC, argued for petitioner.\nErin Murdock-Park, Commercial Litigation Branch, Civil Division, United States Department of Justice, Washington, DC, argued for respondent. Also represented by Joseph H. Hunt, Allison Kidd-Miller, Robert Edward Kirschman, Jr.\nBefore Taranto, Bryson, and Stoll, Circuit Judges."
+  },
+  "file_name": "0794-01",
+  "first_page_order": 794,
+  "last_page_order": 801
+}

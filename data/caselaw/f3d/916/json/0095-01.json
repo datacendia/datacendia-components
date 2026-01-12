@@ -1,0 +1,136 @@
+{
+  "id": 12520238,
+  "name": "Brendan KELLY, Plaintiff, Appellant, v. LIBERTY INSURANCE CORPORATION, D/B/A Liberty Mutual, Defendant, Appellee.",
+  "name_abbreviation": "Kelly v. Liberty Ins. Corp.",
+  "decision_date": "2019-02-22",
+  "docket_number": "No. 18-1614",
+  "first_page": "95",
+  "last_page": "98",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "916 F.3d 95"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "1st Cir.",
+    "id": 8809,
+    "name": "United States Court of Appeals for the First Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "888 A.2d 405",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "416"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "152 N.H. 762",
+      "category": "reporters:state",
+      "reporter": "N.H.",
+      "case_ids": [
+        8422617
+      ],
+      "year": 2005,
+      "opinion_index": 0,
+      "case_paths": [
+        "/nh/152/0762-01"
+      ]
+    },
+    {
+      "cite": "111 N.M. 154",
+      "category": "reporters:state",
+      "reporter": "N.M.",
+      "case_ids": [
+        715228
+      ],
+      "weight": 2,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "244"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nm/111/0154-01"
+      ]
+    },
+    {
+      "cite": "176 A.3d 196",
+      "category": "reporters:state_regional",
+      "reporter": "A.3d",
+      "case_ids": [
+        12491912
+      ],
+      "weight": 4,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "200"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/a3d/176-2/0196-01"
+      ]
+    },
+    {
+      "cite": "170 N.H. 424",
+      "category": "reporters:state",
+      "reporter": "N.H.",
+      "year": 2017,
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 521,
+    "char_count": 8467,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2592037219158337
+    },
+    "sha256": "96bc57c7d461ac4853c3164555d9fb594964a105cde2a623cdcd02a37e0052c5",
+    "simhash": "1:4a1ca89fc70bb446",
+    "word_count": 1359
+  },
+  "last_updated": "2024-02-27T16:21:04.146489+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Brendan KELLY, Plaintiff, Appellant,\nv.\nLIBERTY INSURANCE CORPORATION, D/B/A Liberty Mutual, Defendant, Appellee."
+    ],
+    "opinions": [
+      {
+        "text": "SOUTER, Associate Justice.\nIn this diversity case, Brendan Kelly sought a declaratory judgment against Liberty Mutual Insurance Corporation, on his claim that Liberty was bound to provide uninsured (or underinsured) motorist coverage for his benefit. See N.H. RSA 259:117. The insurance contract in question was an umbrella policy issued to Plum Creek Timber Company, Kelly's employer and the named insured. The District Court granted summary judgment for Liberty Mutual. We affirm.\nThe policy was issued in New Hampshire, whose law controls. Thus the insurer bears the burden of proof, N.H. RSA 491:22-a, and policy language is to be construed as a reasonable person would understand it upon more than a casual reading of the policy as a whole, Russell v. NGM Ins. Co., 170 N.H. 424, 176 A.3d 196, 200 (2017).\nLiberty's policy was one of two issued to Plum Creek that provided benefits to its employees as additional insureds when acting within the scope of employment, as Liberty recognizes that Kelly was doing when injured in a two-party highway collision while driving a Plum Creek truck. Terms of the umbrella policy, like those of the underlying basic policy, were regulated by RSA 264:15, which included the following mandate relevant here:\n\"[U]mbrella or excess policies ... shall also provide uninsured motorist coverage equal to the limits of liability purchased, unless the named insured rejects such coverage in writing. Rejection of such coverage by a named insured shall constitute a rejection of coverage by all insureds ....\"\nThere is no dispute that Plum Creek, the named insured, did reject uninsured motorist coverage and did so in writing. The writing itself, however, was not incorporated into the policy. It was not attached to the other policy papers, nor was it mentioned in the text of the policy or in any incorporated attachment. It is this absence from the policy materials of an express mention of the rejection that is the point on which Kelly's coverage claim turns: Kelly claims that the want of an explicit reference to Plum Creek's written rejection renders the rejection inoperative against an additional insured like Kelly, with the consequence that RSA 264:15 requires provision of uninsured motorist coverage under the statute's general rule.\nThe apparently fatal flaw undermining this position is the absence from RSA 264:15 of any requirement that the policy materials explicitly speak of the rejection of uninsured motorist coverage. Rather, it is the requirement that the rejection be \"in writing\" that ostensibly regulates the contractual relationship between the insurer and the named insured and, derivatively, an additional insured. Thus, the apparent statutory objective is protection against an act of rejection that is not well considered and a failure of the insurer to provide the coverage that the named insured has reason to expect. See Angela Spradling, Hearing on SB 38 Before the S. Comm. on Commerce, Labor, and Consumer Protection (Comm. Print 2007) (statement of Sen. Lou D'Allesandro).\nBecause the statute does not contain an explicit reference requirement, Kelly is left to argue that his position is implicit in the statute, on the ground that its object is also to protect additional insureds who need to know whether they should procure insurance independently in order to obtain adequate protection against uninsured motorists. But even assuming that the statute implicitly protects additional insureds, the statute does not support Kelly's argument because the additional insureds are not left in the dark under this umbrella policy as it is. This is clear from three policy provisions that a reasonable and attentive reader would find:\n1. \"This policy contains all the agreements between you and us concerning the insurance afforded. This policy's terms can be amended or waived only by endorsement issued by us and made a part of this policy.\" Umbrella Policy \u00a7 IV.15.\n2. \"We will pay those sums ... that the insured becomes legally obligated to pay as damages because of: (1) 'Bodily injury'; (2) 'Property damage'; or (3) 'Personal and advertising injury'; to which this insurance applies.\" Id. \u00a7 I.1.a.\n3. \"This insurance does not apply to: ... [a]ny loss, cost or expense payable under or resulting from a[n] ... uninsured or underinsured motorist law, except to the extent coverage is specifically provided by endorsement to this policy.\"Id. \u00a7\u00a7 I.2, I.2.f.2.\nThese provisions amount to a belt-and-suspenders approach to omission of uninsured motorist coverage in the Plum Creek policy. The integration clause (1) says clearly that there are no relevant agreements outside the policy. The statement of basic coverage (2) describes the policy's scope as covering sums that \"the insured becomes legally obligated to pay.\" Id. \u00a7 I.1.a. That is, it describes what insureds are liable to pay to someone else for damage insureds caused or are responsible for, not what insureds could claim as recompense for harm inflicted on them by someone else, which uninsured motorist coverage provides. We have been directed to no policy language that could be construed to provide the latter. And finally, lest there be any doubt about it in the mind of the reasonable reader, the statement of exclusions (3) expressly indicates that the policy does not cover any \"loss, cost or expense payable under or resulting from a[n] ... uninsured or underinsured motorist law, except to the extent coverage is specifically provided by endorsement to this policy.\" Id. \u00a7 I.2.f.2.\nIt is the certain impact of these policy terms in providing no uninsured motorist coverage and, for good measure, expressly excluding it, that answers Kelly's arguments for looking beyond the fact that the statute does not require a coverage rejection to be incorporated into the policy. If Plum Creek employees, who are additional insureds, wish to assess the extent of their protection against an uninsured or underinsured driver under the umbrella policy, all they have to do is read it. If they have any reason to suspect some failure to satisfy the statutory written rejection requirement, they can ask the named insured or the insurer for a copy of the written instrument. While it is true that a state whose law does require the rejection to be made part of the policy as such would save him the trouble, see Romero v. Dairyland Ins. Co., 111 N.M. 154, 803 P.2d 243, 244 (1990), that possible convenience is a far cry from any statutory ambiguity or a clear implication requiring judicial expansion of the plain statutory text.\nIn particular we see no such implication in the integration clause, quoted above, providing that the policy states the complete agreement of the insurer and named insured. \"Agreement\" is readily understood as referring to the substance or content of the parties' contract, and on the point at issue in this case we have already seen that the policy incorporates the agreement that the policy provides no uninsured motorist coverage. Indeed, on a straightforward reading of the integration clause, the \"policy's terms\" can be modified only by an \"endorsement issued by [the insurer] and made a part of this policy.\" Umbrella Policy \u00a7 IV.15.\nThus, Kelly's position must be seen as a request for judicial action to add to the statute an optional provision that the legislature was satisfied to omit. New Hampshire law forbids this. See Carlisle v. Frisbie Memorial Hosp., 152 N.H. 762, 888 A.2d 405, 416 (2005). The judgment is accordingly affirmed.\nThough not on point here, this provision is elsewhere limited. A different provision of the policy states: \"This insurance does not apply to: ... '[b]odily injury' or 'property damage' arising out of the ownership, maintenance, use or entrustment to others ... of any 'auto.' \" Umbrella Policy \u00a7\u00a7 I.2, I.2.f.1.",
+        "type": "majority",
+        "author": "SOUTER, Associate Justice."
+      }
+    ],
+    "attorneys": [
+      "Robert A. Stein, with whom Diane L. Perin and The Stein Law Firm, PLLC, Concord, NH, were on briefs, for appellant.",
+      "Nancy D. Adams, with whom Lavinia M. Weizel and Mintz, Levin, Cohn, Ferris, Glovsky and Popeo, P.C., Boston, MA, were on brief, for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "Brendan KELLY, Plaintiff, Appellant,\nv.\nLIBERTY INSURANCE CORPORATION, D/B/A Liberty Mutual, Defendant, Appellee.\nNo. 18-1614\nUnited States Court of Appeals, First Circuit.\nFebruary 22, 2019\nRobert A. Stein, with whom Diane L. Perin and The Stein Law Firm, PLLC, Concord, NH, were on briefs, for appellant.\nNancy D. Adams, with whom Lavinia M. Weizel and Mintz, Levin, Cohn, Ferris, Glovsky and Popeo, P.C., Boston, MA, were on brief, for appellee.\nBefore Kayatta, Circuit Judge, Souter, Associate Justice, and Selya, Circuit Judge.\nHon. David H. Souter, Associate Justice (Ret.) of the Supreme Court of the United States, sitting by designation."
+  },
+  "file_name": "0095-01",
+  "first_page_order": 95,
+  "last_page_order": 98
+}

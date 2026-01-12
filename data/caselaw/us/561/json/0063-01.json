@@ -1,0 +1,809 @@
+{
+  "id": 3644316,
+  "name": "RENT-A-CENTER, WEST, INC. v. JACKSON",
+  "name_abbreviation": "Rent-A-Center, West, Inc. v. Jackson",
+  "decision_date": "2010-06-21",
+  "docket_number": "No. 09-497",
+  "first_page": "63",
+  "last_page": "88",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "561 U.S. 63"
+    },
+    {
+      "type": "parallel",
+      "cite": "177 L. Ed. 2d 403"
+    },
+    {
+      "type": "parallel",
+      "cite": "130 S. Ct. 2772"
+    },
+    {
+      "type": "vendor",
+      "cite": "2010 U.S. LEXIS 4981"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2009-078"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "9 U. S. C. \u00a7\u00a7 1-16",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 U. S. C. \u00a7 1981",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "9 U. S. C. \u00a7 3",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "34"
+        },
+        {
+          "page": "40"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "537 U. S. 79",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9190679
+      ],
+      "weight": 3,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "83"
+        },
+        {
+          "page": "83-85"
+        },
+        {
+          "page": "83"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/537/0079-01"
+      ]
+    },
+    {
+      "cite": "546 U. S. 440",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5962007
+      ],
+      "weight": 7,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "444-445"
+        },
+        {
+          "page": "444"
+        },
+        {
+          "page": "445"
+        },
+        {
+          "page": "447"
+        },
+        {
+          "page": "444, n. 1"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/546/0440-01"
+      ]
+    },
+    {
+      "cite": "581 F. 3d 912",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5755870
+      ],
+      "weight": 6,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "917"
+        },
+        {
+          "page": "919-921"
+        },
+        {
+          "page": "921"
+        },
+        {
+          "page": "919"
+        },
+        {
+          "page": "917"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/581/0912-01"
+      ]
+    },
+    {
+      "cite": "558 U. S. 1142",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 2010,
+      "opinion_index": 0
+    },
+    {
+      "cite": "460 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6188858
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "24"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/460/0001-01"
+      ]
+    },
+    {
+      "cite": "9 U. S. C. \u00a72",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "489 U. S. 468",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12032439
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "478"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/489/0468-01"
+      ]
+    },
+    {
+      "cite": "517 U. S. 681",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11746265
+      ],
+      "weight": 2,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "687"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/517/0681-01"
+      ]
+    },
+    {
+      "cite": "539 U. S. 444",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8898136
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "452",
+          "parenthetical": "plurality opinion"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/539/0444-01"
+      ]
+    },
+    {
+      "cite": "514 U. S. 938",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1339246
+      ],
+      "weight": 2,
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "943"
+        },
+        {
+          "page": "944"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/514/0938-01"
+      ]
+    },
+    {
+      "cite": "388 U. S. 395",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6168709
+      ],
+      "weight": 5,
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "403-404"
+        },
+        {
+          "page": "403-404"
+        },
+        {
+          "page": "404, n. 12"
+        },
+        {
+          "page": "400, 402-403"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/388/0395-01"
+      ]
+    },
+    {
+      "cite": "552 U. S. 346",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3675616
+      ],
+      "weight": 2,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "353-354"
+        },
+        {
+          "page": "352"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/552/0346-01"
+      ]
+    },
+    {
+      "cite": "552 U. S. 576",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3675932
+      ],
+      "weight": 3,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "583-584"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/552/0576-01"
+      ]
+    },
+    {
+      "cite": "556 U. S. 247",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653276
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "273-274"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/556/0247-01"
+      ]
+    },
+    {
+      "cite": "475 U. S. 643",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6206747
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "649"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/475/0643-01"
+      ]
+    },
+    {
+      "cite": "465 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11334479
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "10-14"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/465/0001-01"
+      ]
+    },
+    {
+      "cite": "513 U. S. 265",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1331547
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "270-273"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/513/0265-01"
+      ]
+    },
+    {
+      "cite": "9 U. S. C. \u00a7\u00a7 1-16",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "9 U. S. C. \u00a7 3",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "537 U. S. 79",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9190679
+      ],
+      "weight": 4,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "83"
+        },
+        {
+          "page": "83"
+        },
+        {
+          "page": "84"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/537/0079-01"
+      ]
+    },
+    {
+      "cite": "546 U. S. 440",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5962007
+      ],
+      "weight": 9,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "446"
+        },
+        {
+          "page": "444"
+        },
+        {
+          "page": "444-445"
+        },
+        {
+          "page": "445-446"
+        },
+        {
+          "page": "446"
+        },
+        {
+          "page": "449"
+        },
+        {
+          "page": "442"
+        },
+        {
+          "page": "444"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/546/0440-01"
+      ]
+    },
+    {
+      "cite": "581 F. 3d 912",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5755870
+      ],
+      "weight": 3,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "917",
+          "parenthetical": "\"[W]e hold that where, as here, a party challenges an arbitration agreement as unconscionable, and thus asserts that he could not meaningfully assent to the agreement, the threshold question of unconscionability is for the court\""
+        },
+        {
+          "page": "917"
+        },
+        {
+          "page": "917"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/581/0912-01"
+      ]
+    },
+    {
+      "cite": "9 U. S. C. \u00a72",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 1
+    },
+    {
+      "cite": "517 U. S. 681",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11746265
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "687"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/517/0681-01"
+      ]
+    },
+    {
+      "cite": "539 U. S. 444",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8898136
+      ],
+      "weight": 2,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "452",
+          "parenthetical": "plurality opinion"
+        },
+        {
+          "page": "452",
+          "parenthetical": "plurality opinion"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/539/0444-01"
+      ]
+    },
+    {
+      "cite": "514 U. S. 938",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1339246
+      ],
+      "weight": 7,
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "943"
+        },
+        {
+          "page": "947"
+        },
+        {
+          "page": "944"
+        },
+        {
+          "page": "945"
+        },
+        {
+          "page": "946"
+        },
+        {
+          "page": "944-945"
+        },
+        {
+          "page": "946-947"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/514/0938-01"
+      ]
+    },
+    {
+      "cite": "388 U. S. 395",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6168709
+      ],
+      "weight": 14,
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "404"
+        },
+        {
+          "page": "403-404"
+        },
+        {
+          "page": "407",
+          "parenthetical": "Black, J., dissenting"
+        },
+        {
+          "page": "398"
+        },
+        {
+          "page": "403",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "406"
+        },
+        {
+          "page": "403"
+        },
+        {
+          "page": "404"
+        },
+        {
+          "page": "403-404"
+        },
+        {
+          "page": "407",
+          "parenthetical": "Black, J., dissenting"
+        },
+        {
+          "page": "407",
+          "parenthetical": "dissenting opinion"
+        },
+        {
+          "page": "412"
+        },
+        {
+          "page": "413-416"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/388/0395-01"
+      ]
+    },
+    {
+      "cite": "552 U. S. 346",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3675616
+      ],
+      "weight": 3,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "354"
+        },
+        {
+          "page": "353"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/552/0346-01"
+      ]
+    },
+    {
+      "cite": "475 U. S. 643",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6206747
+      ],
+      "weight": 2,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "649"
+        },
+        {
+          "page": "649"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/475/0643-01"
+      ]
+    },
+    {
+      "cite": "513 U. S. 219",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1333903
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "249",
+          "parenthetical": "O'Connor, J., concurring in judgment and dissenting in part"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/513/0219-01"
+      ]
+    },
+    {
+      "cite": "482 U. S. 483",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6216454
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "492, n. 9"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/482/0483-01"
+      ]
+    },
+    {
+      "cite": "120 Nev. 549",
+      "category": "reporters:state",
+      "reporter": "Nev.",
+      "case_ids": [
+        8410775
+      ],
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "553-554",
+          "parenthetical": "per curiam"
+        },
+        {
+          "page": "1162",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/nev/120/0549-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1458,
+    "char_count": 50008,
+    "ocr_confidence": 0.61,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.10506500572041072
+    },
+    "sha256": "c555862a6b0f8f5ac481ca16dece47206f875cccd03af47f749f2aa00da81a3f",
+    "simhash": "1:df2a759c0b4f137a",
+    "word_count": 7997
+  },
+  "last_updated": "2024-02-27T21:47:26.985116+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Scalia, J., delivered the opinion of the Court, in which Roberts, C. J., and Kennedy, Thomas, and Alito, JJ., joined. Stevens, J., filed a dissenting opinion, in which Ginsburg, Breyer, and Sotomayor, JJ., joined, post, p. 76.",
+      "Justice Ginsburg, Justice Breyer, and Justice Sotomayor join, dissenting."
+    ],
+    "parties": [
+      "RENT-A-CENTER, WEST, INC. v. JACKSON"
+    ],
+    "opinions": [
+      {
+        "text": "Justice Scalia\ndelivered the opinion of the Court.\nWe consider whether, under the Federal Arbitration Act (FAA or Act), 9 U. S. C. \u00a7\u00a7 1-16, a district court may decide a claim that an arbitration agreement is unconscionable, where the agreement explicitly assigns that decision to the arbitrator.\nI\nOn February 1, 2007, the respondent here, Antonio Jackson, filed an employment-discrimination suit under Rev. Stat. \u00a7 1977, 42 U. S. C. \u00a7 1981, against his former employer in the United States District Court for the District of Nevada. The defendant and petitioner here, Rent-A-Center, West, Inc., filed a motion under the FAA to dismiss or stay the proceedings, 9 U. S. C. \u00a7 3, and to compel arbitration, \u00a7 4. Rent-A-Center argued that the Mutual Agreement to Arbitrate Claims (Agreement), which Jackson signed on February 24, 2003, as a condition of his employment there, precluded Jackson from pursuing his claims in court. The Agreement provided for arbitration of all \u201cpast, present or future\u201d disputes arising out of Jackson\u2019s employment with Rent-A-Center, including \u201cclaims for discrimination\u201d and \u201cclaims for violation of any federal . . . law.\u201d App. 29-30. It also provided that \u201c[t]he Arbitrator, and not any federal, state, or local court or agency, shall have exclusive authority to resolve any dispute relating to the interpretation, applicability, enforceability or formation of this Agreement including, but not limited to any claim that all or any part of this Agreement is void or voidable.\u201d Id., at 34.\nJackson opposed the motion on the ground that \u201cthe arbitration agreement in question is clearly unenforceable in that it is unconscionable\u201d under Nevada law. Id., at 40. Rent-A-Center responded that Jackson\u2019s unconscionability claim was not properly before the court because Jackson had expressly agreed that the arbitrator would have exclusive authority to resolve any dispute about the enforceability of the Agreement. It also disputed the merits of Jackson\u2019s unconscionability claims.\nThe District Court granted Rent-A-Center\u2019s motion to dismiss the proceedings and to compel arbitration. The court found that the Agreement \u201c'\u201cclearly and unmistakenly [sic]\u201d\u2019\u201d gives the arbitrator exclusive authority to decide whether the Agreement is enforceable, App. to Pet. for Cert. 4a (quoting Howsam v. Dean Witter Reynolds, Inc., 537 U. S. 79, 83 (2002)), and, because Jackson challenged the validity of the Agreement as a whole, the issue was for the arbitrator, App. to Pet. for Cert. 4a (citing Buckeye Check Cashing, Inc. v. Cardegna, 546 U. S. 440, 444-445 (2006)). The court noted that even if it were to examine the merits of Jackson\u2019s unconscionability claims, it would have rejected the claim that the agreement to split arbitration fees was substantively unconscionable under Nevada law. It did not address Jackson\u2019s procedural or other substantive unconscionability arguments.\nWithout oral argument, a divided panel of the Court of Appeals for the Ninth Circuit reversed in part, affirmed in part, and remanded. 581 F. 3d 912 (2009). The court reversed on the question of who (the court or arbitrator) had the authority to decide whether the Agreement is enforceable. It noted that \u201cJackson does not dispute that the language of the Agreement clearly assigns the arbitrability determination to the arbitrator,\u201d but held that where \u201ca party challenges an arbitration agreement as unconscionable, and thus asserts that he could not meaningfully assent to the agreement, the threshold question of unconscionability is for the court.\u201d Id., at 917. The Ninth Circuit affirmed the District Court\u2019s alternative conclusion that the fee-sharing provision was not substantively unconscionable and remanded for consideration of Jackson\u2019s other unconscionability arguments. Id., at 919-921, and n. 3. Judge Hall dissented on the ground that \u201cthe question of the arbitration agreement\u2019s validity should have gone to the arbitrator, as the parties 'clearly and unmistakably provide[d]\u2019 in their agreement.\u201d Id., at 921.\nWe granted certiorari, 558 U. S. 1142 (2010).\nII\nA\nThe FAA reflects the fundamental principle that arbitration is a matter of contract. Section 2, the \u201cprimary substantive provision of the Act,\u201d Moses H. Cone Memorial Hospital v. Mercury Constr. Corp., 460 U. S. 1, 24 (1983), provides:\n\u201cA written provision in ... a contract evidencing a transaction involving commerce to settle by arbitration a controversy thereafter arising out of such contract... shall be valid, irrevocable, and enforceable, save upon such grounds as exist at law or in equity for the revocation of any contract.\u201d 9 U. S. C. \u00a72.\nThe FAA thereby places arbitration agreements on an equal footing with other contracts, Buckeye, supra, at 443, and requires courts to enforce them according to their terms, Volt Information Sciences, Inc. v. Board of Trustees of Le land, Stanford Junior Univ., 489 U. S. 468, 478 (1989). Like other contracts, however, they may be invalidated by \u201cgenerally applicable contract defenses, such as fraud, duress, or unconscionability.\u201d Doctor\u2019s Associates, Inc. v. Casarotto, 517 U. S. 681, 687 (1996).\nThe Act also establishes procedures by which federal courts implement \u00a7 2\u2019s substantive rule. Under \u00a7 3, a party may apply to a federal court for a stay of the trial of an action \u201cupon any issue referable to arbitration under an agreement in writing for such arbitration.\u201d Under \u00a74, a party \u201caggrieved\u201d by the failure of another party \u201cto arbitrate under a written agreement for arbitration\u201d may petition a federal court \u201cfor an order directing that such arbitration proceed in the manner provided for in such agreement.\u201d The court \u201cshall\u201d order arbitration \u201cupon being satisfied that the making of the agreement for arbitration or the failure to comply therewith is not in issue.\u201d Ibid.\nThe Agreement here contains multiple \u201cwritten provisiones]\u201d to \u201csettle by arbitration a controversy,\u201d \u00a72. Two are relevant to our discussion. First, the section titled \u201cClaims Covered By The Agreement\u201d provides for arbitration of all \u201cpast, present or future\u201d disputes arising out of Jackson\u2019s employment with Rent-A-Center. App. 29. Second, the section titled \u201cArbitration Procedures\u201d provides that \u201c[t]he Arbitrator . . . shall have exclusive authority to resolve any dispute relating to the . . . enforceability ... of this Agreement including, but not limited to any claim that all or any part of this Agreement is void or voidable.\u201d Id., at 32, 34. The current \u201ccontroversy\u201d between the parties is whether the Agreement is unconscionable. It is the second provision, which delegates resolution of that controversy to the arbitrator, that Rent-A-Center seeks to enforce. Adopting the terminology used by the parties, we will refer to it as the delegation provision.\nThe delegation provision is an agreement to arbitrate threshold issues concerning the arbitration agreement. We have recognized that parties can agree to arbitrate \u201cgateway\u201d questions of \u201carbitrability,\u201d such as whether the parties have agreed to arbitrate or whether their agreement covers a particular controversy. See, e. g., Howsam, 537 U. S., at 83-85; Green Tree Financial Corp. v. Bazzle, 539 U. S. 444, 452 (2003) (plurality opinion). This line of cases merely reflects the principle that arbitration is a matter of contract. See First Options of Chicago, Inc. v. Kaplan, 514 U. S. 938, 943 (1995). An agreement to arbitrate a gateway issue is simply an additional, antecedent agreement the party seeking arbitration asks the federal court to enforce, and the FAA operates on this additional arbitration agreement just as it does on any other. The additional agreement is valid under \u00a72 \u201csave upon such grounds as exist at law or in equity for the revocation of any contract,\u201d and federal courts can enforce the agreement by staying federal litigation under \u00a73 and compelling arbitration under \u00a74. The question before us, then, is whether the delegation provision is valid under \u00a7 2.\nB\nThere are two types of validity challenges under \u00a7 2: \u201cOne type challenges specifically the validity of the agreement to arbitrate,\u201d and \u201c[t]he other challenges the contract as a whole, either on a ground that directly affects the entire agreement (e. g., the agreement was fraudulently induced), or on the ground that the illegality of one of the contract\u2019s provisions renders the whole contract invalid.\u201d Buckeye, 546 U. S., at 444. In a line of cases neither party has asked us to overrule, we held that only the first type of challenge is relevant to a court\u2019s determination whether the arbitration agreement at issue is enforceable. See Prima Paint Corp. v. Flood & Conklin Mfg. Co., 388 U. S. 395, 403-404 (1967); Buckeye, supra, at 444-446; Preston v. Ferrer, 552 U. S. 346, 353-354 (2008). That is because \u00a72 states that a \u201cwritten provision\u201d \u201cto settle by arbitration a controversy\u201d is \u201cvalid, irrevocable, and enforceable\u201d without mention of the validity of the contract in which it is contained. Thus, a party\u2019s challenge to another provision of the contract, or to the contract as a whole, does not prevent a court from enforcing a specific agreement to arbitrate. \u201c[A]s a matter of substantive federal arbitration law, an arbitration provision is severable from the remainder of the contract.\u201d Buckeye, 546 U. S., at 445; see also id., at 447 (the severability rule is based on \u00a7 2).\nBut that agreements to arbitrate are severable does not mean that they are unassailable. If a party challenges the validity under \u00a72 of the precise agreement to arbitrate at issue, the federal court must consider the challenge before ordering compliance with that agreement under \u00a74. In Prima Paint, for example, if the claim had been \u201cfraud in the inducement of the arbitration clause itself,\u201d then the court would have considered it. 388 U. S., at 403-404. \u201cTo immunize an arbitration agreement from judicial challenge on the ground of fraud in the inducement would be to elevate it over other forms of contract,\u201d id., at 404, n. 12. In some cases the claimed basis of invalidity for the contract as a whole will be much easier to establish than the same basis as applied only to the severable agreement to arbitrate. Thus, in an employment contract many elements of alleged unconscionability applicable to the entire contract (outrageously low wages, for example) would not affect the agreement to arbitrate alone. But even where that is not the case \u2014 as in Prima Paint itself, where the alleged fraud that induced the whole contract equally induced the agreement to arbitrate which was part of that contract \u2014 we nonetheless require the basis of challenge to be directed specifically to the agreement to arbitrate before the court will intervene.\nHere, the \u201cwritten provision ... to settle by arbitration a controversy,\u201d 9 U. S. C. \u00a7 2, that Rent-A-Center asks us to enforce is the delegation provision \u2014 the provision that gave the arbitrator \u201cexclusive authority to resolve any dispute relating to the . .. enforceability ... of this Agreement,\u201d App. 34. The \u201cremainder of the contract,\u201d Buckeye, supra, at 445, is the rest of the agreement to arbitrate claims arising out of Jackson\u2019s employment with Rent-A-Center. To be sure this case differs from Prima Paint, Buckeye, and Pres ton, in that the arbitration provisions sought to be enforced in those cases were contained in contracts unrelated to arbitration \u2014 contracts for consulting services, see Prima Paint, supra, at 397, check-cashing services, see Buckeye, supra, at 442, and \u201cpersonal management\u201d or \u201ctalent agent\u201d services, see Preston, supra, at 352. In this case, the underlying contract is itself an arbitration agreement. But that makes no difference. Application of the severability rule does not depend on the substance of the remainder of the contract. Section 2 operates on the specific \u201cwritten provision\u201d to \u201csettle by arbitration a controversy\u201d that the party seeks to enforce. Accordingly, unless Jackson challenged the delegation provision specifically, we must treat it as valid under \u00a7 2, and must enforce it under \u00a7\u00a7 3 and 4, leaving any challenge to the validity of the Agreement as a whole for the arbitrator.\nC\nThe District Court correctly concluded that Jackson challenged only the validity of the contract as a whole. Nowhere in his opposition to Rent-A-Center\u2019s motion to compel arbitration did he even mention the delegation provision. See App. 39-47. Rent-A-Center noted this fact in its reply: \u201c[Jackson\u2019s response] fails to rebut or otherwise address in any way [Rent-A-Center\u2019s] argument that the Arbitrator must decide [Jackson\u2019s] challenge to the enforceability of the Agreement. Thus, [Rent-A-Center\u2019s] argument is uncontested.\u201d Id., at 50 (emphasis in original).\nThe arguments Jackson made in his response to Rent-A-Center\u2019s motion to compel arbitration support this conclusion. Jackson stated that \u201cthe entire agreement seems drawn to provide [Rent-A-Center] with undue advantages should an employment-related dispute arise.\u201d Id., at 44 (emphasis added). At one point, he argued that the limitations on discovery \u201cfurther suppor[t] [his] contention that the arbitration agreement as a whole is substantively unconscionable.\u201d Ibid, (emphasis added). And before this Court, Jackson describes his challenge in the District Court as follows: He \u201copposed the motion to compel on the ground that the entire arbitration agreement, including the delegation clause, was unconscionable.\u201d Brief for Respondent 55 (emphasis added). That is an accurate description of his filings.\nAs required to make out a claim of unconscionability under Nevada law, see 581 F. 3d, at 919, he contended that the Agreement was both procedurally and substantively unconscionable. It was procedurally unconscionable, he argued, because it \u201cwas imposed as a condition of employment and was non-negotiable.\u201d App. 41. But we need not consider that claim because none of Jackson\u2019s substantive unconscionability challenges was specific to the delegation provision. First, he argued that the Agreement\u2019s coverage was one sided in that it required arbitration of claims an employee was likely to bring \u2014 contract, tort, discrimination, and statutory claims \u2014 but did not require arbitration of claims Rent-A-Center was likely to bring \u2014 intellectual property, unfair competition, and trade secrets claims. Id., at 42-43. This one-sided-coverage argument clearly did not go to the validity of the delegation provision.\nJackson\u2019s other two substantive unconscionability arguments assailed arbitration procedures called for by the contract \u2014 the fee-splitting arrangement and the limitations on discovery \u2014 procedures that were to be used during arbitration under both the agreement to arbitrate employment-related disputes and the delegation provision. It may be that had Jackson challenged the delegation provision by arguing that these common procedures as applied to the delegation provision rendered that provision unconscionable, the challenge should have been considered by the court. To make such a claim based on the discovery procedures, Jackson would have had to argue that the limitation upon the number of depositions causes the arbitration of his claim that the Agreement is unenforceable to be unconscionable. That would be, of course, a much more difficult argument to sustain than the argument that the same limitation renders arbitration of his factbound employment-discrimination claim unconscionable. Likewise, the unfairness of the fee-splitting arrangement may be more difficult to establish for the arbitration of enforceability than for arbitration of more complex and fact-related aspects of the alleged employment discrimination. Jackson, however, did not make any arguments specific to the delegation provision; he argued that the fee-sharing and discovery procedures rendered the entire Agreement invalid.\nJackson\u2019s appeal to the Ninth Circuit confirms that he did not contest the validity of the delegation provision in particular. His brief noted the existence of the delegation provision, Brief for Appellant in No. 07-16164, p. 3, but his unconscionability arguments made no mention of it, id., at 3-7. He also repeated the arguments he had made before the District Court, see supra, at 73, that the \u201centire agreement\u201d favors Rent-A-Center and that the limitations on discovery further his \u201ccontention that the arbitration agreement as a whole is substantively unconscionable,\u201d Brief for Appellant 7-8. Finally, he repeated the argument made in his District Court filings, that under state law the unconscionable clauses could not be severed from the arbitration agreement, see id., at 8-9. The point of this argument, of course, is that the Agreement as a whole is unconscionable under state law.\nJackson repeated that argument before this Court. At oral argument, counsel stated: \u201cThere are certain elements of the arbitration agreement that are unconscionable and, under Nevada law, which would render the entire arbitration agreement unconscionable.\u201d Tr. of Oral Arg. 43 (emphasis added). And again, he stated, \u201cwe\u2019ve got both certain provisions that are unconscionable, that under Nevada law render the entire agreement unconscionable . . . , and that\u2019s what the Court is to rely on.\u201d Id., at 43-44 (emphasis added).\nIn his brief to this Court, Jackson made the contention, not mentioned below, that the delegation provision itself is substantively unconscionable because the quid pro quo he was supposed to receive for it \u2014 that \u201cin exchange for initially allowing an arbitrator to decide certain gateway questions,\u201d he would receive \u201cplenary post-arbitration judicial review\u201d\u2014 was eliminated by the Court\u2019s subsequent holding in Hall Street Associates, L. L. C. v. Mattel, Inc., 552 U. S. 576 (2008), that the nonplenary grounds for judicial review in \u00a7 10 of the FAA are exclusive. Brief for Respondent 59-60. He brought this challenge to the delegation provision too late, and we will not consider it. See 14 Penn Plaza LLC v. Pyett, 556 U. S. 247, 273-274 (2009).\nWe reverse the judgment of the Court of Appeals for the Ninth Circuit.\nIt is so ordered.\nThere is one caveat. First Options of Chicago, Inc. v. Kaplan, 514 U. S. 938, 944 (1995), held that \u201c[ejourts should not assume that the parties agreed to arbitrate arbitrability unless there is \u2018clea[r] and unmistakablfe]\u2019 evidence that they did so.\u201d The parties agree the heightened standard applies here. See Brief for Petitioner 21; Brief for Respondent 54. The District Court concluded the \u201cAgreement to Arbitrate clearly and unmistakenly [sic] provides the arbitrator with the exclusive authority to decide whether the Agreement to Arbitrate is enforceable.\u201d App. to Pet. for Cert. 4a. The Ninth Circuit noted that Jackson did not dispute that the text of the Agreement was clear and unmistakable on this point. 581 F. 3d 912, 917 (2009). He also does not dispute it here. What he argues now, however, is that it is not \u201cclear and unmistakable\u201d that his agreement to that text was valid, because of the unconscionability claims he raises. See Brief for Respondent 54-55. The dissent makes the same argument. See post, at 80-82 (opinion of Stevens, J.).\nThis mistakes the subject of the First Options \u201cclear and unmistakable\u201d requirement. It pertains to the parties\u2019 manifestation of intent, not the agreement\u2019s validity. As explained in Howsam v. Dean Witter Reynolds, Inc., 537 U. S. 79, 83 (2002), it is an \u201cinterpretive rule,\u201d based on an assumption about the parties\u2019 expectations. In \u201ccircumstance[s] where contracting parties would likely have expected a court to have decided the gateway matter,\u201d ibid., we assume that is what they agreed to. Thus, \u201c[u]nless the parties clearly and unmistakably provide otherwise, the question of whether the parties agreed to arbitrate is to be decided by the court, not the arbitrator.\u201d AT&T Technologies, Inc. v. Communications Workers, 475 U. S. 643, 649 (1986).\nThe validity of a written agreement to arbitrate (whether it is legally binding, as opposed to whether it was in fact agreed to \u2014 including, of course, whether it was void for unconscionability) is governed by \u00a72\u2019s provision that it shall be valid \u201csave upon such grounds as exist at law or in equity for the revocation of any contract.\u201d Those grounds do not include, of course, any requirement that its lack of unconscionability must be \u201cclear and unmistakable.\u201d And they are not grounds that First Options added for agreements to arbitrate gateway issues; \u00a7 2 applies to all written agreements to arbitrate.\nThe issue of the agreement\u2019s \u201cvalidity\u201d is different from the issue whether any agreement between the parties \u201cwas ever concluded,\u201d and, as in Buckeye Check Cashing, Inc. v. Cardegna, 546 U. S. 440 (2006), we address only the former. Id., at 444, n. 1.\nThe dissent calls this a \u201cbreezy assertion,\u201d post, at 77, but it seems to us self-evident. When the dissent comes to discussing the point, post, at 85-86, it gives no logical reason why an agreement to arbitrate one controversy (an employment-discrimination claim) is not severable from an agreement to arbitrate a different controversy (enforceability). There is none. Since the dissent accepts that the invalidity of one provision within an arbitration agreement does not necessarily invalidate its other provisions, post, at 81-82, n. 7, it cannot believe in some sort of magic bond between arbitration provisions that prevents them from being severed from each other. According to the dissent, it is fine to sever an invalid provision within an arbitration agreement when severability is a matter of state law, but severability is not allowed when it comes to applying Prima Paint Corp. v. Flood & Conklin Mfg. Co., 388 U. S. 395 (1967).\nJackson\u2019s argument fails. The severability rule is a \u201cmatter of substantive federal arbitration law,\u201d and we have repeatedly \u201crejected the view that the question of \u2018severability\u2019 was one of state law, so that if state law held the arbitration provision not to be severable a challenge to the contract as a whole would be decided by the court.\u201d Buckeye, 546 U. S., at 445 (citing Prima Paint, 388 U. S., at 400, 402-403; Southland Corp. v. Keating, 465 U. S. 1, 10-14 (1984); Allied-Bruce Terminix Cos. v. Dobson, 513 U. S. 265, 270-273 (1995)). For the same reason, the Agreement\u2019s statement that its provisions are severable, see App. 37, does not affect our analysis.\nHall Street Associates, L. L. C. v. Mattel, Inc., 552 U. S. 576 (2008), was decided after Jackson submitted his brief to the Ninth Circuit, but that does not change our conclusion that he forfeited the argument. Jackson could have submitted a supplemental brief during the year and a half between this Court\u2019s decision of Hall Street on March 25, 2008, and the Ninth Circuit\u2019s judgment on September 9, 2009. Moreover, Hall Street affirmed a rule that had been in place in the Ninth Circuit since 2003. Id., at 583-584, and n. 5.",
+        "type": "majority",
+        "author": "Justice Scalia"
+      },
+      {
+        "text": "Justice Stevens,\nwith whom\nJustice Ginsburg, Justice Breyer, and Justice Sotomayor join, dissenting.\nNeither petitioner nor respondent has urged us to adopt the rule the Court does today: Even when a litigant has specifically challenged the validity of an agreement to arbitrate he must submit that challenge to the arbitrator unless he has lodged an objection to the particular line in the agreement that purports to assign such challenges to the arbitrator\u2014 the so-called \u201cdelegation clause.\u201d\nThe Court asserts that its holding flows logically from Prima Paint Corp. v. Flood & Conklin Mfg. Co., 388 U. S. 395 (1967), in which the Court held that consideration of a contract revocation defense is generally a matter for the arbitrator, unless the defense is specifically directed at the arbitration clause, id., at 404. We have treated this holding as a severability rule: When a party challenges a contract, \u201cbut not specifically its arbitration provisions, those provisions are enforceable apart from the remainder of the contract.\u201d Buckeye Check Cashing, Inc. v. Cardegna, 546 U. S. 440, 446 (2006). The Court\u2019s decision today goes beyond Prima Paint. Its breezy assertion that the subject matter of the contract at issue \u2014 in this case, an arbitration agreement and nothing more \u2014 \u201cmakes no difference,\u201d ante, at 72, is simply wrong. This written arbitration agreement is but one part of a broader employment agreement between the parties, just as the arbitration clause in Prima Paint was but one part of a broader contract for services between those parties. Thus, that the subject matter of the agreement is exclusively arbitration makes all the difference in the Prima Paint analysis.\nI\nUnder the Federal Arbitration Act (FAA), 9 U. S. C. \u00a7\u00a7 1-16, parties generally have substantial leeway to define the terms and scope of their agreement to settle disputes in an arbitral forum. \u201c[A]rbitration is,\u201d after all, \u201csimply a matter of contract between the parties; it is a way to resolve those disputes \u2014 but only those disputes \u2014 that the parties have agreed to submit to arbitration.\u201d First Options of Chicago, Inc. v. Kaplan, 514 U. S. 938, 943 (1995). The FAA, therefore, envisions a limited role for courts asked to stay litigation and refer disputes to arbitration.\nCertain issues \u2014 the kind that \u201ccontracting parties would likely have expected a court to have decided\u201d \u2014 remain within the province of judicial review. Howsam v. Dean Witter Reynolds, Inc., 537 U. S. 79, 83 (2002); see also Green Tree Financial Corp. v. Bazzle, 539 U. S. 444, 452 (2003) (plurality opinion); AT&T Technologies, Inc. v. Communications Workers, 475 U. S. 643, 649 (1986). These issues are \u201cgateway matter[s]\u201d because they are necessary antecedents to enforcement of an arbitration agreement; they raise questions the parties \u201care not likely to have thought that they had agreed that an arbitrator would\u201d decide. Howsam, 537 U. S., at 83. Quintessential gateway matters include \u201cwhether the parties have a valid arbitration agreement at all,\u201d Bazzle, 539 U. S., at 452 (plurality opinion); \u201cwhether the parties are bound by a given arbitration clause,\u201d How sam, 537 U. S., at 84; and \u201cwhether an arbitration clause in a eoncededly binding contract applies to a particular type of controversy,\u201d ibid. It would be bizarre to send these types of gateway matters to the arbitrator as a matter of course, because they raise a \u201c 'question of arbitrability.\u2019 \u201d See, e. g., ibid.; First Options, 514 U. S., at 947.\n\u201c[Q]uestion[s] of arbitrability\u201d thus include questions regarding the existence of a legally binding and valid arbitration agreement, as well as questions regarding the scope of a eoncededly binding arbitration agreement. In this case we are concerned with the first of these categories: whether the parties have a valid arbitration agreement. This is an issue the FAA assigns to the courts. Section 2 of the FAA dictates that covered arbitration agreements \u201cshall be valid, irrevocable, and enforceable, save upon such grounds as exist at law or in equity for the revocation of any contract.\u201d 9 U. S. C. \u00a72. \u201c[S]uch grounds,\u201d which relate to contract validity and formation, include the claim at issue in this case, unconscionability. See Doctor\u2019s Associates, Inc. v. Casarotto, 517 U. S. 681, 687 (1996).\nTwo different lines of cases bear on the issue of who decides a question of arbitrability respecting validity, such as whether an arbitration agreement is unconscionable. Although this issue, as a gateway matter, is typically for the court, we have explained that such an issue can be delegated to the arbitrator in some circumstances. When the parties have purportedly done so, courts must examine two distinct rules to decide whether the delegation is valid.\nThe first line of cases looks to the parties\u2019 intent. In AT&T Technologies, we stated that \u201cquestion[s] of arbitrability\u201d may be delegated to the arbitrator, so long as the delegation is clear and unmistakable. 475 U. S., at 649. We reaffirmed this rule, and added some nuance, in First Options. Against the background presumption that questions of arbitrability go to the court, we stated that federal courts should \u201cgenerally\u201d apply \u201cordinary state-law principles that govern the formation of contracts\u201d to assess \u201cwhether the parties agreed to arbitrate a certain matter (including arbitrability).\u201d 514 U. S., at 944. But, we added, a more rigorous standard applies when the inquiry is whether the parties have \u201cagreed to arbitrate arbitrability\u201d: \u201cCourts should not assume that the parties agreed to arbitrate arbitrability unless there is clear and unmistakable evidence that they did so.\u201d Ibid, (internal quotation marks and brackets omitted). Justice Breyer\u2019s unanimous opinion for the Court described this standard as a type of \u201creversje]\u201d \u201cpresumption\u201d \u2014 one in favor of a judicial, rather than an arbitral, forum. Id., at 945. Clear and unmistakable \u201cevidence\u201d of agreement to arbitrate arbitrability might include, as was urged in First Options, a course of conduct demonstrating assent, id., at 946, or, as is urged in this case, an express agreement to do so. In any event, whether such evidence exists is a matter for the court to determine.\nThe second line of cases bearing on who decides the validity of an arbitration agreement, as the Court explains, involves the Prima Paint rule. See ante, at 71. That rule recognizes two types of validity challenges. One type challenges the validity of the arbitration agreement itself, on a ground arising from an infirmity in that agreement. The other challenges the validity of the arbitration agreement tangentially \u2014 via a claim that the entire contract (of which the arbitration agreement is but a part) is invalid for some reason. See Buckeye, 546 U. S., at 444. Under Prima Paint, a challenge of the first type goes to the court; a challenge of the second type goes to the arbitrator. See 388 U. S., at 403-404; see also Buckeye, 546 U. S., at 444-445. The Prima Paint rule is akin to a pleading standard, whereby a party seeking to challenge the validity of an arbitration agreement must expressly say so in order to get his dispute into court.\nIn sum, questions related to the validity of an arbitration agreement are usually matters for a court to resolve before it refers a dispute to arbitration. But questions of arbitrability may go to the arbitrator in two instances: (1) when the parties have demonstrated, clearly and unmistakably, that it is their intent to do so; or (2) when the validity of an arbitration agreement depends exclusively on the validity of the substantive contract of which it is a part.\nII\nWe might have resolved this case by simply applying the First Options rule: Does the arbitration agreement at issue \u201cclearly and unmistakably\u201d evince petitioner\u2019s and respondent\u2019s intent to submit questions of arbitrability to the arbitrator? The answer to that question is no. Respondent\u2019s claim that the arbitration agreement is unconscionable undermines any suggestion that he \u201cclearly\u201d and \u201cunmistakably\u201d assented to submit questions of arbitrability to the arbitrator. See Restatement (Second) of Contracts \u00a7208, Comment d (1979) (\u201c[Gjross inequality of bargaining power, together with terms unreasonably favorable to the stronger party, may confirm indications that the transaction involved elements of deception or compulsion, or may show that the weaker party had no meaningful choice, no real alternative, or did not in fact assent or appear to assent to the unfair terms\u201d); American Airlines, Inc. v. Wolens, 513 U. S. 219, 249 (1995) (O\u2019Connor, J., concurring in judgment and dissenting in part) (\u201c[A] determination that a contract is 'unconscionable\u2019 may in fact be a determination that one party did not intend to agree to the terms of the contract\u201d). The fact that the agreement\u2019s \u201cdelegation\u201d provision suggests assent is beside the point, because the gravamen of respondent\u2019s claim is that he never consented to the terms in his agreement.\nIn other words, when a party raises a good-faith validity challenge to the arbitration agreement itself, that issue must be resolved before a court can say that he clearly and unmistakably intended to arbitrate that very validity question. This case well illustrates the point: If respondent\u2019s unconscionability claim is correct \u2014 i. e., if the terms of the agreement are so one-sided and the process of its making so unfair \u2014 it would contravene the existence of clear and unmistakable assent to arbitrate the very question petitioner now seeks to arbitrate. Accordingly, it is necessary for the court to resolve the merits of respondent\u2019s unconscionability claim in order to decide whether the parties have a valid arbitration agreement under \u00a72. Otherwise, that section\u2019s preservation of revocation issues for the Court would be meaningless.\nThis is, in essence, how I understand the Court of Appeals to have decided the issue below. See 581 F. 3d 912, 917 (CA9 2009) (\u201c[W]e hold that where, as here, a party challenges an arbitration agreement as unconscionable, and thus asserts that he could not meaningfully assent to the agreement, the threshold question of unconscionability is for the court\u201d). I would therefore affirm its judgment, leaving, as it did, the merits of respondent\u2019s unconscionability claim for the District Court to resolve on remand.\nIII\nRather than apply First Options, the Court takes us down a different path, one neither briefed by the parties nor relied upon by the Court of Appeals. In applying Prima Paint, the Court has unwisely extended a \u201cfantastic\u201d and likely erroneous decision. 388 U. S., at 407 (Black, J., dissenting).\nAs explained at the outset, see supra, at 78-82, this case lies at a seeming crossroads in our arbitration jurisprudence. It implicates cases such as First Options, which address whether the parties intended to delegate questions of arbitrability, and also those cases, such as Prima Paint, which address the severability of a presumptively valid arbitration agreement from a potentially invalid contract. The question of \u201cWho decides?\u201d \u2014 arbitrator or court \u2014 animates both lines of cases, but they are driven by different concerns. In cases like First Options, we are concerned with the parties\u2019 intentions. In cases like Prima Paint, we are concerned with how the parties challenge the validity of the agreement.\nUnder the Prima Paint inquiry, recall, we consider whether the parties are actually challenging the validity of the arbitration agreement, or whether they are challenging, more generally, the contract within which an arbitration clause is nested. In the latter circumstance, we assume there is no infirmity per se with the arbitration agreement, i. e., there are no grounds for revocation of the arbitration agreement itself under \u00a72 of the FAA. Accordingly, we commit the parties\u2019 general contract dispute to the arbitrator, as agreed.\nThe claim in Prima Paint was that one party would not have agreed to contract with the other for services had it known the second party was insolvent (a fact known but not disclosed at the time of contracting). 388 U. S., at 398. There was, therefore, allegedly fraud in the inducement of the contract \u2014 a contract which also delegated disputes to an arbitrator. Despite the fact that the claim raised would have, if successful, rendered the embedded arbitration clause void, the Court held that the merits of the dispute were for the arbitrator, so long as the claim of \u201cfraud in the inducement\u201d did not go to validity o\u00ed \u201cthe arbitration clause itself.\u201d Id., at 403 (emphasis added). Because, in Prima Paint, \u201cno claim ha[d] been advanced by Prima Paint that [respondent] fraudulently induced it to enter into the agreement to arbitrate,\u201d and because the arbitration agreement was broad enough to cover the dispute, the arbitration agreement was enforceable with respect to the controversy at hand. Id., at 406.\nThe Prima Paint rule has been denominated, as one related to severability. Our opinion in Buckeye set out these guidelines:\n\u201cFirst, as a matter of substantive federal arbitration law, an arbitration provision is severable from the remainder of the contract. Second, unless the challenge is to the arbitration clause itself, the issue of the contract\u2019s validity is considered by the arbitrator in the first instance.\u201d 546 U. S., at 445-446.\nWhether the general contract defense renders the entire agreement void or voidable is irrelevant. Id., at 446. All that matters is whether the party seeking to present the issue to a court has brought a \u201cdiscrete challenge,\u201d Preston v. Ferrer, 552 U. S. 346, 354 (2008), \u201cto the validity of the . . . arbitration clause.\u201d Buckeye, 546 U. S., at 449.\nPrima Paint and its progeny allow a court to pluck from a potentially invalid contract a potentially valid arbitration agreement. Today the Court adds a new layer of severability \u2014 something akin to Russian nesting dolls \u2014 into the mix: Courts may now pluck from a potentially invalid arbitration agreement even narrower provisions that refer particular arbitrability disputes to an arbitrator. See ante, at 71-72. I do not think an agreement to arbitrate can ever manifest a clear and unmistakable intent to arbitrate its own validity. But even assuming otherwise, I certainly would not hold that the Prima Paint rule extends this far.\nIn my view, a general revocation challenge to a standalone arbitration agreement is, invariably, a challenge to the \u201c \u2018making\u2019 \u201d of the arbitration agreement itself, Prima Paint, 388 U. S., at 403, and therefore, under Prima Paint, must be decided by the court. A claim of procedural unconscionability aims to undermine the formation of the arbitration agreement, much like a claim of unconscionability aims to undermine the clear-and-unmistakable-intent requirement necessary for a valid delegation of a \u201cdiscrete\u201d challenge to the validity of the arbitration agreement itself, Preston, 552 U. S., at 354. Moreover, because we are dealing in this case with a challenge to an independently executed arbitration agreement \u2014 rather than a clause contained in a contract related to another subject matter \u2014 any challenge to the contract itself is also, necessarily, a challenge to the arbitration agreement. They are one and the same.\nThe Court, however, reads the delegation clause as a distinct mini-arbitration agreement divisible from the contract in which it resides \u2014 which just so happens also to be an arbitration agreement. Ante, at 71-72. Although the Court simply declares that it \u201cmakes no difference\u201d that the underlying subject matter of the agreement is itself an arbitration agreement, ante, at 72, that proposition does not follow from \u2014 rather it is at odds with \u2014 Prima Paint\u2019s severability rule.\nHad the parties in this case executed only one contract, on two sheets of paper \u2014 one sheet with employment terms, and a second with arbitration terms \u2014 the contract would look much like the one in Buckeye. There would be some substantive terms, followed by some arbitration terms, including what we now call a delegation clause \u2014 i. e., a sentence or two assigning to the arbitrator any disputes related to the validity of the arbitration provision. See Buckeye, 546 U. S., at 442. If respondent then came into court claiming that the contract was illegal as a whole for some reason unrelated to the arbitration provision, the Prima Paint rule would apply, and such a general challenge to the subject matter of the contract would go to the arbitrator. Such a challenge would not call into question the making of the arbitration agreement or its invalidity per se.\nBefore today, however, if respondent instead raised a challenge specific to \u201cthe validity of the agreement to arbitrate\u201d \u2014 for example, that the agreement to arbitrate was void under state law \u2014 the challenge would have gone to the court. That is what Buckeye says. See 546 U. S., at 444. But the Court now declares that Prima Paint\u2019s pleading rule requires more: A party must lodge a challenge with even greater specificity than what would have satisfied the Prima Paint Court. A claim that an entire arbitration agreement is invalid will not go to the court unless the party challenges the particular sentences that delegate such claims to the arbitrator, on some contract ground that is particular and unique to those sentences. See ante, at 71-73.\nIt would seem the Court reads Prima Paint to require, as a matter of course, infinite layers of severability: We must always pluck from an arbitration agreement the specific delegation mechanism that would \u2014 but for present judicial review \u2014 commend the matter to arbitration, even if this delegation clause is but one sentence within one paragraph within a standalone agreement. And, most importantly, the party must identify this one sentence and lodge a specific challenge to its validity. Otherwise, he will be bound to pursue his validity claim in arbitration.\nEven if limited to separately executed arbitration agreements, however, such an infinite severability rule is divorced from the underlying rationale of Prima Paint. The notion that a party may be bound by an arbitration clause in a contract that is nevertheless invalid may be difficult for any lawyer \u2014 or any person \u2014 to accept, but this is the law of Prima Paint. It reflects a judgment that the \u201c \u2018national policy favoring arbitration,' \u201d Preston, 552 U. S., at 353, outweighs the interest in preserving a judicial forum for questions of arbitrability \u2014 but only when questions of arbitrability are bound up in an underlying dispute. Prima Paint, 388 U. S., at 404. When the two are so bound up, there is actually no gateway matter at all: The question \u201cWho decides\u201d is the entire ball game. Were a court to decide the fraudulent inducement question in Prima Paint, in order to decide the antecedent question of the validity of the included arbitration agreement, then it would also, necessarily, decide the merits of the underlying dispute. Same, too, for the question of illegality in Buckeye; on its way to deciding the arbitration agreement\u2019s validity, the court would have to decide whether the contract was illegal, and in so doing, it would decide the merits of the entire dispute.\nIn this case, however, resolution of the unconscionability question will have no bearing on the merits of the underlying employment dispute. It will only, as a preliminary matter, resolve who should decide the merits of that dispute. Resolution of the unconscionability question will, however, decide whether the arbitration agreement itself is \u201cvalid\u201d under \u201csuch grounds as exist at law or in equity for the revocation of any contract.\u201d 9 U. S. C. \u00a72. As Prima Paint recognizes, the FAA commits those gateway matters, specific to the arbitration agreement, to the court. 388 U. S., at 403-404. Indeed, it is clear that the present controversy over whether the arbitration agreement is unconscionable is itself severable from the merits of the underlying dispute, which involves a claim of employment discrimination. This is true for all gateway matters, and for this reason Prima Paint has no application in this case.\nIV\nWhile I may have to accept the \u201cfantastic\u201d holding in Prima Paint, id., at 407 (Black, J., dissenting), I most certainly do not accept the Court\u2019s even more fantastic reasoning today. I would affirm the judgment of the Court of Appeals, and therefore respectfully dissent.\nAlthough it is not clear from our precedents, I understand \u201cgateway matters\u201d and \u201cquestions of arbitrability\u201d to be roughly synonymous, if not exactly so. At the very least, the former includes all of the latter.\nGateway issues involving the scope of an otherwise valid arbitration agreement also have a statutory origin. Section 3 of the FAA provides that \u201cupon being satisfied that the issue involved in such suit... is referable to arbitration under such an agreement,\u201d a court \u201cshall. . . stay the trial of the action until such arbitration has been had.\u201d 9 U. S. C. \u00a7 3.\nWe have not expressly decided whether the First Options delegation principle would apply to questions of arbitrability that implicate \u00a72 concerns, i. e., grounds for contract revocation. I do not need to weigh in on this issue in order to resolve the present case.\nIt is a \u201creversfe]\u201d presumption because it is counter to the presumption we usually apply in favor of arbitration when the question concerns whether a particular dispute falls within the scope of a eoncededly binding arbitration agreement. First Options, 514 U. S., at 944-945.\nIn First Options we found no clear and unmistakable assent to delegate to the arbitrator questions of arbitrability, given the parties\u2019 conduct. Respondents in that case had participated in the arbitration, but only to object to proceeding in arbitration and to challenge the arbitrators\u2019 jurisdiction. That kind of participation \u2014 in protest, to preserve legal claims\u2014 did not constitute unmistakable assent to be bound by the result. Id., at 946-947.\nRespondent has challenged whether he \u201cmeaningfully agreed to the terms of the form Agreement to Arbitrate, which he contends is procedurally and substantively unconscionable.\u201d 581 F. 3d 912, 917 (CA9 2009). Even if First Options relates only to \u201cmanifestation of intent,\u201d as the Court states, see ante, at 69, n. 1 (emphasis deleted), whether there has been meaningful agreement surely bears some relation to whether onparty has manifested intent to be bound to an agreement.\nThe question of uneonscionability in this case is one of state law. See, e. g., Perry v. Thomas, 482 U. S. 483, 492, n. 9 (1987). Under Nevada law, uneonscionability requires a showing of \u201c \u2018both procedural and substantive uneonscionability,\u2019 \u201d but \u201cless evidence of substantive uneonscionability is required in cases involving great procedural uneonscionability.\u201d D. R. Horton, Inc. v. Green, 120 Nev. 549, 553-554, 96 P. 3d 1159, 1162 (2004) (per curiam). I understand respondent to have claimed, in accord with Nevada law, that the arbitration agreement contained substantively unconscionable provisions, and was also the product of procedural unconscionability as a whole. See Brief for Respondent 3 (\u201c[Respondent] argued that the clause is proeedurally unconscionable because he was in a position of unequal bargaining power when it was imposed as a condition of employment\u201d); id., at 3-4 (identifying three distinct provisions of the agreement that were substantively unconscionable); accord, 581 F. 3d, at 917.\nSome of respondent\u2019s arguments, however, could be understood as attacks not on the enforceability of the agreement as a whole but merely on the fairness of individual contract terms. Such term-specific challenges would generally be for the arbitrator to resolve (at least so long as they do not go to the identity of the arbitrator or the ability of a party to initiate arbitration). Cf. Restatement (Second) of Contracts \u00a7208 (1979) (providing that \u201ca contract or term thereof [may be] unconscionable\u201d and that in the latter case \u201cthe remainder of the contract without the unconscionable term\u201d may be enforced).\nJustice Black quite reasonably characterized the Court\u2019s holding in Prima Paint as \u201cfantastic,\u201d 388 U. S., at 407 (dissenting opinion), because the holding was, in his view, inconsistent with the text of \u00a72 of the FAA, id., at 412, as well as the intent of the draftsmen of the legislation, id., at 413-416. Nevertheless, the narrow holding in that ease has been followed numerous times, see Buckeye Check Cashing, Inc. v. Cardegna, 546 U. S. 440 (2006), and Preston v. Ferrer, 552 U. S. 346 (2008), and, as the Court correctly notes today, neither party has asked us to revisit those cases, ante, at 70.\nAs respondent asserted in his opposition to petitioner\u2019s motion to compel arbitration, \u201cthe lack of mutuality regarding the type of claims that must be arbitrated, the fee provision, and the discovery provision, so permeate the Defendant\u2019s arbitration agreement that it would be impossible to sever the offending provisions.\u201d App. 45.",
+        "type": "dissent",
+        "author": "Justice Stevens,"
+      }
+    ],
+    "attorneys": [
+      "Robert F. Friedman argued the cause for petitioner. With him on the briefs were Edward F. Berbarie, Henry D. Lederman, Carter G. Phillips, Michael T. Garone, Ronald D. DeMoss, Andrew Trusevich, and Mary Harokopus.",
+      "Ian E. Silverberg argued the cause for respondent. With him on the brief were Del Hardy, Scott L. Nelson, Deepak Gupta, F. Paul Bland, Jr., Matthew Wessler, Amy Radon, Arthur H. Bryant, Leslie A. Bailey, and Leslie A. Brueckner"
+    ],
+    "corrections": "",
+    "head_matter": "RENT-A-CENTER, WEST, INC. v. JACKSON\nNo. 09-497.\nArgued April 26, 2010\nDecided June 21, 2010\nScalia, J., delivered the opinion of the Court, in which Roberts, C. J., and Kennedy, Thomas, and Alito, JJ., joined. Stevens, J., filed a dissenting opinion, in which Ginsburg, Breyer, and Sotomayor, JJ., joined, post, p. 76.\nRobert F. Friedman argued the cause for petitioner. With him on the briefs were Edward F. Berbarie, Henry D. Lederman, Carter G. Phillips, Michael T. Garone, Ronald D. DeMoss, Andrew Trusevich, and Mary Harokopus.\nIan E. Silverberg argued the cause for respondent. With him on the brief were Del Hardy, Scott L. Nelson, Deepak Gupta, F. Paul Bland, Jr., Matthew Wessler, Amy Radon, Arthur H. Bryant, Leslie A. Bailey, and Leslie A. Brueckner\nBriefs of amici curiae urging reversal were filed for the Chamber of Commerce of the United States of America by Donald M. Falk, Archis A. Parasharami, Robin S. Conrad, and Shane Brennan Kawka; for the Equal Employment Advisory Council by Rae T. Vann and Ann Elizabeth Reesman; and for the Pacific Legal Foundation by Deborah J. La Fetra and Timothy Sandefur.\nBriefs of amici curiae urging affirmance were filed for the American Association for Justice et al. by Jeffrey R. White and Julie Nepveu; for the American Federation of Labor and Congress of Industrial Organizations by Lynn K. Rhinehart, James B. Coppess, and Laurence S. Gold; for the Lawyers\u2019 Committee for Civil Rights Under Law et al. by Michael L. Foreman, Sarah C. Crawford, Vincent A Eng, Elizabeth B. Wydra, and Dina Lassow; for the National Association of Consumer Advocates by Michael J. Quirk and Ira Rheingold; for the National Consumer Law Center et al. by Stuart T Rossman and Patricia T. Sturdevant; for Professional Arbitrator Roger I. Abrams et al. by Kevin K. Russell; and for the Service Employees International Union et al. by Michael Rubin, Shelley A. Gregory, Rebecca M. Hamburg, Cliff Palefsky, Catherine Ruckelshaus, and Terisa E. Chaw."
+  },
+  "file_name": "0063-01",
+  "first_page_order": 113,
+  "last_page_order": 138
+}

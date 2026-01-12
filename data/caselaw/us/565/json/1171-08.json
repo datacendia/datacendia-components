@@ -1,0 +1,59 @@
+{
+  "id": 12244004,
+  "name": "Hinds v. United States",
+  "name_abbreviation": "Hinds v. United States",
+  "decision_date": "2012-01-17",
+  "docket_number": "No. 11-7840",
+  "first_page": "1171",
+  "last_page": "1171",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1171"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.667,
+    "sha256": "3b9f02d11a041e0f2707aabbcb845fed80047befca2b4946a8e89d69ac3b9e70",
+    "simhash": "1:0608dabb9ec1901a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hinds v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7840.\nHinds v. United States."
+  },
+  "file_name": "1171-08",
+  "first_page_order": 1253,
+  "last_page_order": 1253
+}

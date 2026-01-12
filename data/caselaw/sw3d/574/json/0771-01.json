@@ -1,0 +1,925 @@
+{
+  "id": 12659780,
+  "name": "SOUTHSIDE VENTURES, LLC, Respondent, v. LA CROSSE LUMBER CO., Appellant.",
+  "name_abbreviation": "Southside Ventures, LLC v. La Crosse Lumber Co.",
+  "decision_date": "2019-05-07",
+  "docket_number": "WD 81668",
+  "first_page": "771",
+  "last_page": "788",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "574 S.W.3d 771"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mo. App. Ct.",
+    "id": 30098,
+    "name": "Missouri Court of Appeals, Western District"
+  },
+  "jurisdiction": {
+    "id": 37,
+    "name_long": "Missouri",
+    "name": "Mo."
+  },
+  "cites_to": [
+    {
+      "cite": "472 S.W.3d 219",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6835998
+      ],
+      "year": 2015,
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw3d/472/0219-01"
+      ]
+    },
+    {
+      "cite": "491 S.W.3d 636",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6794124
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "parenthetical": "quoting Powell v. City of Kansas City , 472 S.W.3d 219, 225 n.9 (Mo. App. W.D. 2015) "
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw3d/491/0636-01"
+      ]
+    },
+    {
+      "cite": "439 S.W.3d 189",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6916869
+      ],
+      "weight": 2,
+      "year": 2014,
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw3d/439/0189-01"
+      ]
+    },
+    {
+      "cite": "524 S.W.3d 68",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12385118
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "72"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw3d/524/0068-01"
+      ]
+    },
+    {
+      "cite": "304 S.W.3d 112",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7296113
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "118"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw3d/304/0112-01"
+      ]
+    },
+    {
+      "cite": "151 S.W.3d 838",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9172509
+      ],
+      "weight": 3,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "841"
+        },
+        {
+          "page": "841"
+        },
+        {
+          "page": "842"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw3d/151/0838-01"
+      ]
+    },
+    {
+      "cite": "62 S.W.3d 509",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9456201
+      ],
+      "weight": 2,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "528"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw3d/62/0509-01"
+      ]
+    },
+    {
+      "cite": "246 S.W.3d 928",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8390506
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "930"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw3d/246/0928-01"
+      ]
+    },
+    {
+      "cite": "67 S.W.3d 613",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9396083
+      ],
+      "weight": 2,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "618"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw3d/67/0613-01"
+      ]
+    },
+    {
+      "cite": "561 S.W.3d 876",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12658219
+      ],
+      "weight": 3,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "879"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw3d/561/0876-01"
+      ]
+    },
+    {
+      "cite": "536 S.W.2d 30",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10120440
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "32"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/536/0030-01"
+      ]
+    },
+    {
+      "cite": "356 Mo. 194",
+      "category": "reporters:state",
+      "reporter": "Mo.",
+      "case_ids": [
+        1403884
+      ],
+      "weight": 2,
+      "year": 1947,
+      "pin_cites": [
+        {
+          "page": "315"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/mo/356/0194-01"
+      ]
+    },
+    {
+      "cite": "109 S.W.3d 258",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9107720
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "271",
+          "parenthetical": "determining that an appeal from a judgment that was subsequently amended could be treated as a premature notice of appeal of the amended judgment under Rule 81.05(b)"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw3d/109/0258-01"
+      ]
+    },
+    {
+      "cite": "139 S.W.3d 643",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9198338
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "658"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw3d/139/0643-01"
+      ]
+    },
+    {
+      "cite": "738 S.W.2d 440",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9974120
+      ],
+      "weight": 2,
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "443"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/738/0440-01"
+      ]
+    },
+    {
+      "cite": "908 S.W.2d 349",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10010354
+      ],
+      "weight": 5,
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "351",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "351"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/908/0349-01"
+      ]
+    },
+    {
+      "cite": "493 S.W.3d 397",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6783881
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "402"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw3d/493/0397-01"
+      ]
+    },
+    {
+      "cite": "539 S.W.3d 841",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12655654
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "847",
+          "parenthetical": "quoting State ex rel. Koster v. ConocoPhillips Co. , 493 S.W.3d 397, 402 (Mo. banc 2016) "
+        },
+        {
+          "page": "847"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw3d/539/0841-01"
+      ]
+    },
+    {
+      "cite": "57 S.W.3d 875",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9472271
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "877"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw3d/57/0875-01"
+      ]
+    },
+    {
+      "cite": "173 S.W.3d 639",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8909548
+      ],
+      "weight": 2,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "640"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw3d/173/0639-01"
+      ]
+    },
+    {
+      "cite": "336 S.W.3d 466",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7320476
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "471",
+          "parenthetical": "quoting Berger v. Cameron Mut. Ins. Co. , 173 S.W.3d 639, 640 (Mo. banc 2005) "
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw3d/336/0466-01"
+      ]
+    },
+    {
+      "cite": "316 S.W.3d 375",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7322546
+      ],
+      "weight": 2,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "384"
+        },
+        {
+          "page": "384"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw3d/316/0375-01"
+      ]
+    },
+    {
+      "cite": "481 S.W.3d 855",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6822457
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "861",
+          "parenthetical": "\"A single motion may qualify as a motion for rehearing, a motion to amend the judgment or both.\""
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw3d/481/0855-01"
+      ]
+    },
+    {
+      "cite": "152 S.W.3d 420",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9042066
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "425"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw3d/152/0420-01"
+      ]
+    },
+    {
+      "cite": "554 S.W.3d 389",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12657333
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "393",
+          "parenthetical": "quoting Rule 81.04(a)"
+        }
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw3d/554/0389-01"
+      ]
+    },
+    {
+      "cite": "429 S.W.2d 266",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10131390
+      ],
+      "year": 1968,
+      "pin_cites": [
+        {
+          "page": "269"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/429/0266-01"
+      ]
+    },
+    {
+      "cite": "370 S.W.3d 562",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7315199
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "574",
+          "parenthetical": "holding that the appellant \"waived any such argument [that the trial court's findings were insufficient] by failing to file a post-trial motion to amend the judgment.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/370/0562-01"
+      ]
+    },
+    {
+      "cite": "339 S.W.3d 578",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7319789
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "584"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/339/0578-01"
+      ]
+    },
+    {
+      "cite": "452 S.W.3d 257",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6888118
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "263",
+          "parenthetical": "quoting Gerlt v. State , 339 S.W.3d 578, 584 (Mo. App. W.D. 2011) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/452/0257-01"
+      ]
+    },
+    {
+      "cite": "813 S.W.2d 31",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9964937
+      ],
+      "weight": 2,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "32"
+        },
+        {
+          "page": "33"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/813/0031-01"
+      ]
+    },
+    {
+      "cite": "235 S.W.2d 130",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "year": 1950,
+      "pin_cites": [
+        {
+          "page": "136"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "424 S.W.2d 729",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        12058893
+      ],
+      "year": 1968,
+      "pin_cites": [
+        {
+          "page": "740"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/424/0729-01"
+      ]
+    },
+    {
+      "cite": "354 Mo. 729",
+      "category": "reporters:state",
+      "reporter": "Mo.",
+      "case_ids": [
+        1910787
+      ],
+      "weight": 2,
+      "year": 1945,
+      "pin_cites": [
+        {
+          "page": "899"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mo/354/0729-01"
+      ]
+    },
+    {
+      "cite": "941 S.W.2d 801",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        11919596
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "805"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/941/0801-01"
+      ]
+    },
+    {
+      "cite": "567 S.W.3d 266",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12658817
+      ],
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "272",
+          "parenthetical": "\"An adverse possessor does not recognize the authority of the record titleholder to permit or to prevent his continued use of the property claimed.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/567/0266-01"
+      ]
+    },
+    {
+      "cite": "3 S.W.3d 811",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11559433
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "817"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/3/0811-01"
+      ]
+    },
+    {
+      "cite": "851 S.W.2d 504",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10006216
+      ],
+      "weight": 7,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "508"
+        },
+        {
+          "page": "509"
+        },
+        {
+          "page": "509"
+        },
+        {
+          "page": "508",
+          "parenthetical": "\"The claimant of an easement claims only the right to make certain use of the land and does not claim to possess the whole title and exclude the owner from it for all purposes.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/851/0504-01"
+      ]
+    },
+    {
+      "cite": "129 S.W.3d 486",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9274934
+      ],
+      "weight": 5,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "489"
+        },
+        {
+          "page": "587"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/129/0486-01"
+      ]
+    },
+    {
+      "cite": "201 S.W.3d 582",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8466139
+      ],
+      "weight": 6,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "587"
+        },
+        {
+          "page": "587"
+        },
+        {
+          "page": "588",
+          "parenthetical": "holding that \"the Smiths' attempt to buy or lease the property did not eliminate the prescriptive easement, which had already been established by adverse use for more than ten years\""
+        },
+        {
+          "page": "588"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/201/0582-01"
+      ]
+    },
+    {
+      "cite": "524 S.W.3d 68",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12385118
+      ],
+      "weight": 5,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "72"
+        },
+        {
+          "page": "74"
+        },
+        {
+          "page": "74"
+        },
+        {
+          "page": "75",
+          "parenthetical": "\"The 14th Street and Highway 65 entrances over the [defendant's] property were a 'public way' only in the sense that the public, like all the witnesses, used the entrances to access the businesses in the [plaintiff's] building. That does not 'destroy' a claim for prescriptive easement.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/524/0068-01"
+      ]
+    },
+    {
+      "cite": "304 S.W.3d 112",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7296113
+      ],
+      "year": 2010,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/304/0112-01"
+      ]
+    },
+    {
+      "cite": "316 S.W.3d 375",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7322546
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "382"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/316/0375-01"
+      ]
+    },
+    {
+      "cite": "554 S.W.3d 389",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12657333
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "394"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/554/0389-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1463,
+    "char_count": 45977,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2651210553202136
+    },
+    "sha256": "e305f744a78e1d72a384a47e8363b4c1f05c7f49bdc2489b19732d27f63a0695",
+    "simhash": "1:bbdeaba4516c1773",
+    "word_count": 7576
+  },
+  "last_updated": "2024-02-27T16:05:00.629633+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "SOUTHSIDE VENTURES, LLC, Respondent,\nv.\nLA CROSSE LUMBER CO., Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "\"For a use to be continuous, a constant use is not required, but the essential attitude about the use must be continuous.\" Smith v. Chamblin Props., LLC , 201 S.W.3d 582, 587 (Mo. App. W.D. 2006). \"In considering whether or not a use was uninterrupted, the courts look only at the actions of the party against whom the prescriptive right is claimed-i.e., the owner of the servient estate.\" Id. (quoting Tuf Flight Indus., Inc. v. Harris , 129 S.W.3d 486, 489 (Mo. App. W.D. 2004) ). \"Thus, the owner of the property must interrupt the adverse use during the ten-year time period to destroy the prescriptive easement.\" Id.\nLa Crosse's argument improperly requires us to ignore the trial court's factual finding that, during the one-to-two-year period at issue, \"the use decreased,\" but it was not \"stopped or ... abandoned,\" and \"the essential attitude about the use was continuous as required by Smith [, 201 S.W.3d at 587 ].\" \"Whether the use of the land establishes a prescriptive easement is a fact question to be inferred from the circumstances and the nature and character of the use.\" Wertz-Black , 524 S.W.3d at 72 (quoting Whittom v. Alexander-Richardson P'ship , 851 S.W.2d 504, 508 (Mo. banc 1993) ). And \"[w]e defer to the factual findings of the trial judge, who is in a superior position to assess credibility.\" Id. (quoting Custom Muffler & Shocks, Inc. v. Gordon P'ship , 3 S.W.3d 811, 817 (Mo. App. W.D. 1999) ).\nRegarding La Crosse's claim that Southside's use was insufficiently visible, La Crosse does not specify, other than the vacant tenancy argument above, how Southside failed to establish visibility.\n\"Where the use is open 'so that any reasonable person would have discovered its existence,' the use is visible.\" Smith , 201 S.W.3d at 587 (quoting Tuf Flight Indus. , 129 S.W.3d at 490 ). \"The key is not whether the owner knew about the use, but whether the use was open so that it could reasonably be discovered.\" Id. \"[A]ctual knowledge is not required.\" Id. at 587.\nAs La Crosse does not claim that the use could not reasonably be discovered-indeed, as the trial court found, \"La Crosse readily admitted that it was aware of the use\"-we reject its challenge to the trial court's finding on visibility of Southside's use.\nPoint V is denied.\nLa Crosse's third and fourth points on appeal challenge the trial court's finding that Southside's use of the property was adverse.\n\"In the context of prescriptive easements, for the use to be 'adverse' it is not necessary that the user intend to violate the owner's rights; rather, 'it is necessary only for the use to proceed without recognition of the owner's authority to permit or prohibit the use.' \" Wertz-Black , 524 S.W.3d at 74 (quoting Whittom , 851 S.W.2d at 508 ). \"In the context of prescriptive easements, satisfaction of the prerequisite for adversity is commonly inferred, rather than directly proved.\" Whittom , 851 S.W.2d at 509. Indeed, \"[p]roof that a particular use of another's land has in fact occurred normally justifies a finding that the use has been adverse.\" Id. \"Consequently, where there has been a long and continuous use of that property, there is a presumption in favor of the party asserting a prescriptive easement that its use of the property is adverse and under a claim of right.\" Wertz-Black , 524 S.W.3d at 74. \"The presumption places the burden on the landowner to demonstrate that the use was permissive and not adverse.\" Id. And, \"[i]f the defendants did not interfere with plaintiffs' use, and if plaintiffs' use of the roadway was in a manner clearly indicating that plaintiffs claimed a nonexclusive right to use the property without the need to obtain defendants' permission, then the requirement for adversity would be satisfied.\" Whittom , 851 S.W.2d at 509.\nIn its third point on appeal, La Crosse argues that, by requesting an easement from La Crosse in both 2009 and 2016, Southside acknowledged La Crosse's superior title and thereby defeated any claim of adversity of use. But, in making this argument, La Crosse relies on cases involving adverse possession, rather than prescriptive easements. \"There is a difference between adverse possession and a prescriptive easement. Acquiring title by adverse possession and acquiring use rights through an easement by prescription are different theories that require proof of different elements.\" Orla Holman Cemetery , 304 S.W.3d at 118 n.13 (emphasis in original). Though such acknowledgement might defeat a claim of \"hostility\" in a case involving adverse possession, it does not necessarily defeat a claim of \"adversity\" for a prescriptive easement. Compare Scott v. Hicks , 567 S.W.3d 266, 272 (Mo. App. S.D. 2019) (\"An adverse possessor does not recognize the authority of the record titleholder to permit or to prevent his continued use of the property claimed.\") (quoting Weaver v. Helm , 941 S.W.2d 801, 805 (Mo. App. S.D. 1997) ), with Whittom , 851 S.W.2d at 508 (\"The claimant of an easement claims only the right to make certain use of the land and does not claim to possess the whole title and exclude the owner from it for all purposes.\").\n\"Once a prescriptive easement has been established by adverse use, actions that normally would be evidence against the prescriptive easement, such as asking permission to use the property, have no legal effect.\" Smith , 201 S.W.3d at 588 (holding that \"the Smiths' attempt to buy or lease the property did not eliminate the prescriptive easement, which had already been established by adverse use for more than ten years\"). Here, Southside's requested easement in 2016 was well outside the ten-year period and, thus, had no effect. Though 2009 was within the ten-year period, the trial court found that \"the evidence [wa]s unclear as to whether this was merely a discussion of the cut-through traffic or whether there was an inquiry about La Crosse granting an easement.\" But, even if the conversations included a requested easement, under the facts of this case, the request and subsequent denial actually support Southside's claim of adversity. Southside had already been using the land for ingress and egress for approximately seven years before allegedly seeking an easement in 2009. Thus, any request for an easement would have evidenced Southside's recognition that its prior use was adverse to La Crosse's property interest. And Southside's continued use of the land despite La Crosse's emphatic denial of permission demonstrates that Southside intended to continue its adverse usage regardless of La Crosse's property interest.\nAs such, Point III is denied.\nIn its fourth point, La Crosse argues that, because the land at issue is subject to an existing easement in favor of others, La Crosse did not have the ability to block Southside's access and would not have done so as a matter of \"neighborly courtesy.\"\nThe trial court found that, because \"there has been a long and continuous use for a period of at least ten years and arguably fifteen years,\" the presumption of adversity applied. The trial court further determined that \"La Crosse failed to counter the presumption by proving that permission was given for the use. La Crosse's testimony that it meant to be 'neighborly' does not render the use permissive.\" The trial court further found that \"the letters sent by La Crosse's lawyer made clear that La Crosse never granted permission for the disputed use.\" (Emphasis added.) We agree.\nLa Crosse argues that the trial court should not have applied the presumption of adversity because La Crosse was precluded from blocking Southside's access by La Crosse's obligations under the existing easement in favor of the other nearby property owners. Though we agree that La Crosse was precluded from physically blocking the roadway, the fact of the matter is that La Crosse took no action whatsoever to stop Southside from using the access point. It could have erected signs indicating that the use was limited or it could have sought an injunction to preclude Southside from using the land. But La Crosse did nothing to curtail Southside's usage.\nIn any event, we agree with the trial court's determination that, even absent the presumption of adversity, \"the fact that La Crosse never sought legal aid to stop the use of its land within the applicable time period constitutes acquiescence to the use.\" \" '[A]cquiescence' does not mean an active permission or a license but means 'quiescence' and is a circumstance indicative of adverse use.\" Jacobs v. Brewster , 354 Mo. 729, 190 S.W.2d 894, 899 (Mo. 1945). And, \"[i]f the owner does not seek legal aid to stop the use of the land within the time period, he acquiesces to the use.\" Smith , 201 S.W.3d at 588.\nIn short, it was La Crosse's burden to prove that Southside's use was permissive, and it failed to meet that burden. As such, Point IV is denied.\nIn its sixth point on appeal, La Crosse argues that \"[t]he judgment misapplies the law [in stating] that public use of property claimed by prescriptive easement may be used by [Southside] to support its claim for prescriptive easement.\" We disagree.\nIn Benson v. Fekete , 424 S.W.2d 729, 740 (Mo. banc 1968), the Missouri Supreme Court rejected this very same claim, holding that \"[t]here is no merit in defendants' contention that evidence of use by the public cannot be utilized to prove the acquisition of a private easement by prescription by plaintiffs.\" See also Wertz-Black , 524 S.W.3d at 75 (\"The 14th Street and Highway 65 entrances over the [defendant's] property were a 'public way' only in the sense that the public, like all the witnesses, used the entrances to access the businesses in the [plaintiff's] building. That does not 'destroy' a claim for prescriptive easement.\").\nPoint VI is denied.\nFinally, in its second point on appeal, La Crosse argues that \"[a] necessary element of [a] judgement [granting a prescriptive easement] is the inclusion of a legal description for the property over which the plaintiff seeks an easement.\" It then argues that Southside failed to offer a legal description for the property it sought via prescriptive easement, and thereby failed to prove its case in chief. We disagree with La Crosse's challenge to the sufficiency of the evidence and hold that La Crosse waived its right to challenge the description in the judgment as insufficient.\nContrary to La Crosse's argument, there is nothing that required Southside to either plead or prove the location of the claimed prescriptive easement by metes and bounds. Rather, \"[w]here one seeks a decree establishing an easement in his favor in the lands of another the [petition] ... [need only] use such descriptive terms as would enable a person going upon the land to find and identify the way by reference to such terms.\" Meyer v. Everett , 235 S.W.2d 130, 136 (Mo. App. 1950). And, in proving one's right to a prescriptive easement, all that is required is \"[e]vidence [that] will enable the easement to be located.\" Dillon v. Norfleet , 813 S.W.2d 31, 32 (Mo. App. W.D. 1991). For example, in Dillon , this court held that the \"plaintiffs' evidence was sufficient to establish the boundaries of the alleyway [claimed by prescriptive easement]\" where\n[s]everal witnesses estimated the width of the alley to be 12 feet[; o]ne of the plaintiffs by actual measure had found the length of the alleyway ... to be 301.6 feet, although only the south 200 feet of the alleyway was on defendants' property[; t]he south boundary of the alleyway was testified to be 33rd Street[; and t]he alleyway was described in the testimony as running along the back of plaintiffs' properties, and as being located on defendants' land along the entire 200-foot north-south length thereof.\nId. at 33.\nHere, all of the evidence indicated that the easement sought was the existing paved roadway beginning at the second Grindstone Parkway access point in La Crosse's parking lot and travelling along the existing easement to Southside's parking lot. As such, the evidence was sufficient to establish the boundaries of the proposed easement.\nWith respect to La Crosse's argument that the judgment lacks certainty regarding the location of the easement, we hold that La Crosse waived this claim by failing to raise it below.\nIn its brief, La Crosse argues that \"[t]he description provided [in the amended judgment] fails to place with certainty the position of [Southside]'s easement on [La Crosse]'s parking lot, or to define the parameters of such easement on the lots (i.e. Lots 7, 8, 9, or 10) which it touches and/or encumbers.\" But La Crosse did not raise this challenge below.\nRule 78.07(c) directs that, \"[i]n all cases, allegations of error relating to the form or language of the judgment ... must be raised in a motion to amend the judgment in order to be preserved for appellate review.\" (Emphasis added.) \"The purpose of Rule 78.07(c) is to ensure that complaints about the form and language of judgments are brought to the attention of the trial court where they can be easily corrected, alleviating needless appeals, reversals, and rehearings.\" Dunlap v. State , 452 S.W.3d 257, 263 (Mo. App. W.D. 2015) (quoting Gerlt v. State , 339 S.W.3d 578, 584 (Mo. App. W.D. 2011) ). Accordingly, the failure to file a Rule 78.07(c) motion constitutes a waiver of any subsequent argument challenging the form or language of the judgment. Sneil, LLC v. Tybe Learning Ctr., Inc. , 370 S.W.3d 562, 574 (Mo. banc 2012) (holding that the appellant \"waived any such argument [that the trial court's findings were insufficient] by failing to file a post-trial motion to amend the judgment.\").\nHere, as discussed above, though La Crosse filed a motion to amend the original judgment, it never filed a motion to amend the amended judgment. Rule 78.07(d) provides that, \"[u]nless an amended judgment shall otherwise specify, an amended judgment shall be deemed a new judgment for all purposes.\" These purposes include \"the time from which a party can file an authorized post-trial motion from the amended judgment.\" Mo. Parks Ass'n , 316 S.W.3d at 382. Because the amended judgment was a \"new judgment for all purposes,\" La Crosse had an additional thirty days in which to file a motion to amend the amended judgment, wherein it could raise its challenge to the language of the judgment describing the property at issue. Heifetz , 554 S.W.3d at 394. But, because it failed to do so, its challenge-raised for the first time on appeal-is waived.\nPoint II is denied.\nConclusion\nThe trial court did not err in granting Southside a prescriptive easement. Its judgment is affirmed.\nThomas N. Chapman, Judge, and Cory Atkins, Special Judge, concur.\nSee also Speer v. Carr , 429 S.W.2d 266, 269 (Mo. 1968) (\"[I]t is a general rule that an easement, once established, is not divested by the acts of the owner of the easement in seeking and obtaining permission or license from the owner of the servient estate to make the same use of the latter's premises as could be made under the existing servitude.\" (quoting 25 Am.Jur.2d, Easements and Licenses, \u00a7 109, p. 513) ).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "David G. Brown, Columbia, MO, Attorney for Respondent.",
+      "Ryan J. McDaniels, Jefferson City, MO, Attorney for Appellant.",
+      "Karen King Mitchell, Chief Judge La Crosse Lumber Company appeals, following a bench trial, from a judgment granting Southside Ventures, LLC, a prescriptive easement over a portion of La Crosse's property for purposes of ingress and egress. La Crosse raises six points on appeal, all challenging the trial court's legal determinations below. Finding no error, we affirm.",
+      "On August 31, 1989, La Crosse purchased the property it currently owns in Boone County near the intersection of Highway 63 and Grindstone Parkway. This property abuts the property that currently belongs to Southside on the east, and it abuts two other lots in the Chalet Subdivision, which is flanked by Ponderosa Street on the west. When La Crosse purchased its property, the only point of ingress and egress was through the parking lot and across the property that currently belongs to Southside; thus, when purchasing its lots, La Crosse also obtained a perpetual easement across a portion of what is now Southside's parking lot. A perpetual easement over both La Crosse's property and Southside's property was obtained at the same time in favor of current and future owners of the lots in the Chalet Subdivision to the west of La Crosse to ensure ingress and egress from those lots to the only access point for Grindstone Parkway through what is now Southside's parking lot. Part of the easement running through both La Crosse's property and Southside's property included a strip of pavement, present since at least 1994, connecting the two properties. Neither Southside nor its predecessors in interest ever obtained an express easement over La Crosse's property.",
+      "From 1995 to 2007, the Ice Chalet Antique Mall operated in a building on what is now Southside's property. As mentioned above, initially, the only access point between Grindstone Parkway and the properties belonging to La Crosse, the Chalet Subdivision, and the Ice Chalet Antique Mall was through the parking lot belonging to Southside's predecessor in interest, and anyone needing access to any of those properties had to travel across what is now Southside's property. Sometime before 2002, a second access point for Grindstone Parkway was created on the west side of La Crosse's property, across from Bluff Creek Drive; at first, traffic was regulated by a stop sign, but the City of Columbia later installed a traffic signal for the intersection. After the second access point was created, people working at the Ice Chalet Antique Mall began to traverse La Crosse's property to use the new access point, as the original one had become hazardous and difficult to use due to increasing traffic on Grindstone Parkway. In fact, the former manager of the Ice Chalet Antique Mall directed people to use the new access point for safety reasons, as did the owner of a subsequent business in the same building. The former manager indicated that, on a daily basis-even on a slow day, there were at least one hundred visitors to the Ice Chalet Antique Mall.",
+      "While the Ice Chalet Antique Mall was in operation, there was also a restaurant, Gibson Girls Caf\u00e9, and a rental car business operating in the same building. Though the antique mall closed in 2007, the caf\u00e9 and the rental car business continued to operate through at least 2008. After the antique mall closed, the owners of the property put it on the market, and they were approached by some individuals seeking to open a family fun center. The owners agreed and leased the property for that purpose, so the new tenants began making renovations to the property in preparation for opening the new fun center in 2010. From 2010 to 2012, Galactic Fun Zone operated in the building on Southside's property. And, in 2012, Lazer Lanes took over; since then, the number of visitors has been estimated around one thousand every week day and four or five thousand on weekends. Evidence suggested that at least one-third to one-half of all visitors to Southside's property used the second Grindstone access point and drove through La Crosse's property to reach the building on Southside's property.",
+      "In 2009, following conversations between the owners of La Crosse and Southside about the cut-through traffic using the second access point, an attorney for La Crosse sent a letter to Southside advising that Southside \"had no business ... on the La Crosse property.\" In 2016, Southside approached La Crosse and sought an easement over La Crosse's property, and again Southside received a letter from an attorney for La Crosse advising that Southside had \"no business ... on the La Crosse property.\" Despite these letters, La Crosse never took any steps to stop people from crossing their parking lot to gain access to Southside's property from the traffic signal at the second Grindstone Parkway access point. And people associated with Southside and the businesses in its building continued to use the paved connector between the traffic signal and Southside's property.",
+      "On October 20, 2016, Southside's predecessor in interest filed a petition against La Crosse to obtain a prescriptive easement over a portion of La Crosse's property for the purposes of ingress and egress. The petition alleged that, \"[s]ometime before January 1, 2003, a roadway access ... was constructed connecting the parking lot of the Servient Tenement [La Crosse's property] to Grindstone Parkway.\" It further alleged that Southside's predecessors in interest \"used the Roadway Access and the parking lot of the Servient Tenement for more than ten years to provide an access from the parking lot of the Dominant Tenement [Southside's property] to Grindstone Parkway for the purpose of ingress and egress,\" and that their use was \"visible, adverse, under claim of right, hostile, open and notorious, and continuous and uninterrupted.\" In response, La Crosse asserted the affirmative defenses of estoppel, laches, and waiver, arguing that Southside's predecessor in interest was either estopped from asserting or waived its right to assert a claim for prescriptive easement because it had sought to purchase an easement from La Crosse, and it further argued that too much time had passed before Southside's predecessor in interest sought the prescriptive easement.",
+      "On February 22, 2018, La Crosse filed a \"Motion for New Trial or for Amended Judgment,\" invoking Rules 73.01(d), 75.01, and 78.01. In that motion, La Crosse argued, among other claims, that the judgment's description of the easement granted was overbroad insofar as it included portions of La Crosse's property that were not subject to the prescriptive easement; specifically, the description in the original judgment included an unpaved portion west of the second Grindstone Parkway access point that had not been subject to any use by Southside. On April 9, 2018, the trial court held a hearing on La Crosse's motion. The following day-April 10, 2018-Southside filed a \"Post-Hearing Response to [La Crosse's] Motion for New Trial,\" wherein Southside conceded that the judgment contained an overbroad description of the property subject to the prescriptive easement and suggested changes to the judgment to accurately reflect the description of the property subject to the easement. On April 11, 2018, the trial court entered the following order:",
+      "The Court, having reviewed the pleadings, including [Southside's] Post-Hearing Response to [La Crosse's] motion for new trial, and having heard oral argument, hereby denies [La Crosse's] motion for new trial. The Court, however, orders that paragraphs 6, 9 and A of the January 25, 2018 judgment shall be amended in accordance with [Southside's] Post-Hearing Response. [Southside] shall submit a proposed Amended Judgment to the Court in its entirety by May 11, 2018, incorporating the proposed amendments set forth in the Post-Hearing Response. [Southside] shall amend the January 25, 2018 judgment and not the proposed judgment submitted by [Southside] on or about December 20, 2017. RJH/II (ss)",
+      "On April 16, 2018, La Crosse filed a notice of appeal from the original judgment, noting that a post-trial motion was filed on February 22, 2018, and ruled on April 11, 2018. On April 18, 2018, the trial court entered an amended judgment in conformity with the amendments suggested by Southside's Post-Hearing Response to La Crosse's Motion for New Trial or for Amended Judgment. The amended judgment provided the following description of the easement: \"the thirty-foot wide strip of hard-paved road surface that exists along the northern edge of the La Crosse Parking Lot pursuant to an existing easement recorded in Book 739, Page 600, Records of Boone County, Missouri.\" La Crosse did not file a notice of appeal from the amended judgment. Instead, it separately filed the amended judgment on May 11, 2018. In correspondence accompanying the amended judgment, La Crosse indicated:",
+      "The Amended Judgment is being provided to the Court out of an abundance of caution. The Amended Judgment was entered on April 18, 2018, seven days after the final post-trial motion in that case was denied and two days after La Crosse Lumber Co. filed its Notice of Appeal. It is La Crosse's position that the Amended Judgment was entered without jurisdiction or authority, but to the extent the Court deems otherwise, La Crosse is providing the Amended Judgment to the Court for inclusion with the previously filed Notice of Appeal.",
+      "La Crosse did not file a motion for new trial after the amended judgment was entered.",
+      "La Crosse brings six points on appeal. In its first point, La Crosse attacks the description of the easement as presented in the original judgment, arguing that it was overbroad insofar as it included unpaved property that Southside had never used. In its second point, La Crosse argues that, regardless of which judgment is considered, the property description of the prescriptive easement is insufficient insofar as the description lacks certainty. In its third point, La Crosse argues that Southside was not entitled to a prescriptive easement insofar as Southside acknowledged La Crosse's superior title to the property when Southside actively sought to acquire an easement from La Crosse in both 2009 and 2016. In its fourth point, La Crosse argues that the trial court erred in determining that Southside's use was adverse because La Crosse was unable to legally block access to the paved roadway in light of the fact that it was subject to an existing easement in favor of other individuals, and La Crosse never sought to block it because it was being \"neighborly.\" The fifth point challenges the trial court's determination that Southside's use of the property was sufficiently continuous and visible for the entire ten-year period as being both against the weight of the evidence and lacking in substantial evidence. La Crosse's final claim argues that the trial court erred in considering use by the general public in granting a private easement.",
+      "In its motion to dismiss, Southside contends that the amended judgment is the final operative judgment for purposes of appeal and that, by failing to appeal from that judgment, La Crosse failed to invoke this court's jurisdiction over the matter. La Crosse contends that the original judgment became the final operative judgment on April 11, 2018, when the trial court denied La Crosse's request for a new trial. La Crosse contends that the amended judgment is a nullity because the trial court lacked authority to enter it in response to Southside's post-hearing response to La Crosse's post-trial motion. Thus, we must determine which judgment is the operative final judgment for purposes of invoking appellate jurisdiction.",
+      "\"Rule 81.04(a) requires the notice of appeal to be filed no later than 10 days 'after the judgment, decree, or order appealed from becomes final.' \" Heifetz v. Apex Clayton, Inc. , 554 S.W.3d 389, 393 (Mo. banc 2018) (quoting Rule 81.04(a)). Under Rule 81.05(a), \"when a judgment becomes final for purposes of filing a notice of appeal depends, in part, on whether an authorized after-trial motion was filed.\" Id. Here, La Crosse timely filed a \"Motion for New Trial or for Amended Judgment\" on February 22, 2018, which was within thirty days of the original judgment. Both \"a motion to amend and a motion for new trial are authorized after-trial motions.\" Blue Ridge Bank & Tr. Co. v. Hart , 152 S.W.3d 420, 425 (Mo. App. W.D. 2005).",
+      "La Crosse argues that, once the trial court denied its motion for new trial on April 11, 2018, the original judgment became final under Rule 81.05(a)(2)(B) because La Crosse's motion was the only timely filed authorized post-trial motion. In making this argument, however, La Crosse overlooks the fact that, though filed in a single document, La Crosse actually filed two alternative post-trial motions: a motion for new trial and a motion to amend the judgment. See In Re Bell , 481 S.W.3d 855, 861 (Mo. App. S.D. 2016) (\"A single motion may qualify as a motion for rehearing, a motion to amend the judgment or both.\"). As such, the trial court's denial of La Crosse's motion for new trial did not, in itself, dispose of all timely filed authorized post-trial motions; La Crosse's alternative motion to amend was still pending, meaning that the trial court retained jurisdiction under Rule 81.05(a)(2) to amend its original judgment until either it ruled on the motion to amend or the ninety-day window for ruling elapsed.",
+      "The ninety-day window for purposes of Rule 81.05 began to run on February 22, 2018, when La Crosse filed its post-trial motion. Ninety days from February 22, 2018, would have been May 23, 2018, which is well outside the date the amended judgment was entered. Accordingly, if-as La Crosse seems to argue-the trial court ruled solely on La Crosse's motion for new trial on April 11, 2018, then it had until the earlier of either ruling on the motion to amend or May 23, 2018 (when the motion would have been deemed denied), to enter the amended judgment. Because the amended judgment was entered within this time frame, the trial court had jurisdiction.",
+      "To begin, Southside's response was an express concession of certain claims raised in La Crosse's motion to amend; specifically, Southside conceded-as La Crosse argued-that the property description in the original judgment was overbroad in the sense that it described more property than was properly subject to the prescriptive easement. And Southside proposed curative amendments to the judgment to resolve the problem. Though the trial court's order of April 11, 2018, did not expressly invoke La Crosse's motion to amend, under these circumstances, this is a distinction without a difference. In sum, the amended judgment is the operative final judgment for purposes of appeal, as it was entered under the authority granted the trial court by Rule 81.05(a).",
+      "La Crosse argues that, even if the amended judgment is the operative judgment, its notice of appeal is sufficient under Rule 81.05(b), which allows for prematurely filed notices of appeal to be deemed \"filed immediately after the time the judgment becomes final for the purpose of appeal.\"",
+      "The applicable rules have changed significantly since the L.J.B. decision. In L.J.B. , the Court held that \"the amendment of the judgment as authorized by Rule 73.01(a)(5) is not the entry of an entirely new judgment.\" Id. (emphasis added). At that time, Rule 73.01(a)(5) (1995) provided: \"Unless the amended judgment shall otherwise specify, an amended judgment or opinion shall be deemed a final judgment for all purposes as of the day it is entered of record.\" But the language of Rule 73.01(a)(5) as it existed in 1995 has since been moved to Rule 78.07(d) and substantially altered to provide: \"Unless an amended judgment shall otherwise specify, an amended judgment shall be deemed a new judgment for all purposes.\" Rule 78.07(d) (emphasis added). This provision is directly at odds with L.J.B. 's holding that such an amended judgment \"is not the entry of an entirely new judgment.\" L.J.B. , 908 S.W.2d at 351. As such, L.J.B. is no longer controlling under the current rules, and best practices suggest that, any time a trial court enters an amended judgment, a party seeking to appeal should file a new notice of appeal from the amended judgment rather than relying on a notice of appeal filed pursuant to an original judgment. Then, the appealing party may either dismiss the original appeal or seek permission from the appellate court to consolidate the two appeals, thereby allowing the court to resolve any question regarding which of the judgments constitutes the final judgment for purposes of appellate jurisdiction.",
+      "In its first point on appeal, La Crosse attacks solely the original January 25, 2018 judgment. As discussed above, the original judgment is not the operative judgment in this case. When a trial court enters an amended judgment, the original judgment is vacated in its entirety and becomes a nullity. Mo. Parks Ass'n , 316 S.W.3d at 384. Because La Crosse's first point on appeal is directed to a judgment that has since been vacated, there is nothing for us to review with respect to La Crosse's first point on appeal. As such, it is denied.",
+      "Despite the breadth of each of these points, La Crosse's arguments in support fail to address each of the challenges raised. \"A contention raised in the point relied on must be developed in the argument section of the brief.\" Wright v. Barr , 62 S.W.3d 509, 528 (Mo. App. W.D. 2001). \"Arguments raised in the points relied on that are not supported by argument in the argument portion of the brief are deemed abandoned and present nothing for appellate review.\" Id.",
+      "Our review of La Crosse's brief reveals that the only claims before us are as follows: (1) Point II presents solely a misapplication-of-law challenge with respect to whether the petition and judgment must contain a legal description of the property at issue; (2) Point III presents solely a misapplication-of-law challenge with respect to whether Southside's efforts to obtain an easement directly from La Crosse precluded its ability to obtain a prescriptive easement; (3) Point IV presents solely a misapplication-of-law challenge with respect to whether the trial court was entitled to use a presumption that Southside's use was adverse under the facts presented; (4) Point V presents solely a challenge to the sufficiency of the evidence to support the trial court's finding that Southside's use was sufficiently continuous and visible for the entire prescriptive period; and (5)",
+      "\"To establish a prescriptive easement over another's property, a party must show that its use of the property has been continuous, uninterrupted, visible and adverse for a period of ten years.\" Brick House Cafe & Pub, L.L.C. v. Callahan , 151 S.W.3d 838, 841 (Mo. App. W.D. 2004) ; see also Orla Holman Cemetery, Inc. v. Robert W. Plaster Tr. , 304 S.W.3d 112, 118 (Mo. banc 2010). \"The law does not favor the creation of prescriptive easements.\" Brick House , 151 S.W.3d at 841. \"Therefore, the party seeking to acquire the prescriptive easement must establish each of these elements by clear and convincing evidence.\" Id. at 842. \"In reviewing a court-tried case to determine whether the judgment is supported by sufficient evidence, we must act with caution and will reverse only upon a firm belief that the judgment is wrong.\" Wertz-Black v. Guesa USA, LLC , 524 S.W.3d 68, 72 (Mo. App. W.D. 2017).",
+      "In its fifth point on appeal, La Crosse argues that the evidence was insufficient to support the trial court's finding that Southside's use was sufficiently continuous and visible for the entire prescriptive period. More specifically, with respect to the continuous nature of the use, La Crosse argues \"that for a one to two year stretch within the ten-year period upon which [Southside] bases its claim for prescriptive easement, [Southside's] property sat without a tenant, and the use of the property in question in this case, was minimal or non-existent.\""
+    ],
+    "corrections": "",
+    "head_matter": "SOUTHSIDE VENTURES, LLC, Respondent,\nv.\nLA CROSSE LUMBER CO., Appellant.\nWD 81668\nMissouri Court of Appeals, Western District.\nOPINION FILED: May 7, 2019\nDavid G. Brown, Columbia, MO, Attorney for Respondent.\nRyan J. McDaniels, Jefferson City, MO, Attorney for Appellant.\nBefore Division Four: Karen King Mitchell, Chief Judge, Thomas N. Chapman, Judge, and Cory Atkins, Special Judge\nKaren King Mitchell, Chief Judge La Crosse Lumber Company appeals, following a bench trial, from a judgment granting Southside Ventures, LLC, a prescriptive easement over a portion of La Crosse's property for purposes of ingress and egress. La Crosse raises six points on appeal, all challenging the trial court's legal determinations below. Finding no error, we affirm.\nBackground\nOn August 31, 1989, La Crosse purchased the property it currently owns in Boone County near the intersection of Highway 63 and Grindstone Parkway. This property abuts the property that currently belongs to Southside on the east, and it abuts two other lots in the Chalet Subdivision, which is flanked by Ponderosa Street on the west. When La Crosse purchased its property, the only point of ingress and egress was through the parking lot and across the property that currently belongs to Southside; thus, when purchasing its lots, La Crosse also obtained a perpetual easement across a portion of what is now Southside's parking lot. A perpetual easement over both La Crosse's property and Southside's property was obtained at the same time in favor of current and future owners of the lots in the Chalet Subdivision to the west of La Crosse to ensure ingress and egress from those lots to the only access point for Grindstone Parkway through what is now Southside's parking lot. Part of the easement running through both La Crosse's property and Southside's property included a strip of pavement, present since at least 1994, connecting the two properties. Neither Southside nor its predecessors in interest ever obtained an express easement over La Crosse's property.\nFrom 1995 to 2007, the Ice Chalet Antique Mall operated in a building on what is now Southside's property. As mentioned above, initially, the only access point between Grindstone Parkway and the properties belonging to La Crosse, the Chalet Subdivision, and the Ice Chalet Antique Mall was through the parking lot belonging to Southside's predecessor in interest, and anyone needing access to any of those properties had to travel across what is now Southside's property. Sometime before 2002, a second access point for Grindstone Parkway was created on the west side of La Crosse's property, across from Bluff Creek Drive; at first, traffic was regulated by a stop sign, but the City of Columbia later installed a traffic signal for the intersection. After the second access point was created, people working at the Ice Chalet Antique Mall began to traverse La Crosse's property to use the new access point, as the original one had become hazardous and difficult to use due to increasing traffic on Grindstone Parkway. In fact, the former manager of the Ice Chalet Antique Mall directed people to use the new access point for safety reasons, as did the owner of a subsequent business in the same building. The former manager indicated that, on a daily basis-even on a slow day, there were at least one hundred visitors to the Ice Chalet Antique Mall.\nWhile the Ice Chalet Antique Mall was in operation, there was also a restaurant, Gibson Girls Caf\u00e9, and a rental car business operating in the same building. Though the antique mall closed in 2007, the caf\u00e9 and the rental car business continued to operate through at least 2008. After the antique mall closed, the owners of the property put it on the market, and they were approached by some individuals seeking to open a family fun center. The owners agreed and leased the property for that purpose, so the new tenants began making renovations to the property in preparation for opening the new fun center in 2010. From 2010 to 2012, Galactic Fun Zone operated in the building on Southside's property. And, in 2012, Lazer Lanes took over; since then, the number of visitors has been estimated around one thousand every week day and four or five thousand on weekends. Evidence suggested that at least one-third to one-half of all visitors to Southside's property used the second Grindstone access point and drove through La Crosse's property to reach the building on Southside's property.\nIn 2009, following conversations between the owners of La Crosse and Southside about the cut-through traffic using the second access point, an attorney for La Crosse sent a letter to Southside advising that Southside \"had no business ... on the La Crosse property.\" In 2016, Southside approached La Crosse and sought an easement over La Crosse's property, and again Southside received a letter from an attorney for La Crosse advising that Southside had \"no business ... on the La Crosse property.\" Despite these letters, La Crosse never took any steps to stop people from crossing their parking lot to gain access to Southside's property from the traffic signal at the second Grindstone Parkway access point. And people associated with Southside and the businesses in its building continued to use the paved connector between the traffic signal and Southside's property.\nOn October 20, 2016, Southside's predecessor in interest filed a petition against La Crosse to obtain a prescriptive easement over a portion of La Crosse's property for the purposes of ingress and egress. The petition alleged that, \"[s]ometime before January 1, 2003, a roadway access ... was constructed connecting the parking lot of the Servient Tenement [La Crosse's property] to Grindstone Parkway.\" It further alleged that Southside's predecessors in interest \"used the Roadway Access and the parking lot of the Servient Tenement for more than ten years to provide an access from the parking lot of the Dominant Tenement [Southside's property] to Grindstone Parkway for the purpose of ingress and egress,\" and that their use was \"visible, adverse, under claim of right, hostile, open and notorious, and continuous and uninterrupted.\" In response, La Crosse asserted the affirmative defenses of estoppel, laches, and waiver, arguing that Southside's predecessor in interest was either estopped from asserting or waived its right to assert a claim for prescriptive easement because it had sought to purchase an easement from La Crosse, and it further argued that too much time had passed before Southside's predecessor in interest sought the prescriptive easement.\nThe case proceeded to bench trial. At trial, the court received evidence that there was an existing easement in favor of landowners in a nearby subdivision over the land upon which Southside sought the prescriptive easement. And Southside's owner testified that Southside was seeking a matching easement to traverse La Crosse's parking lot and use the traffic signal connecting to Grindstone Parkway. Following the trial, the court entered judgment in Southside's favor on January 25, 2018 (\"original judgment\"). The original judgment described the easement as \"the thirty-foot wide strip of hard-paved road surface that exists and is required to be maintained along the northern edge of the La Crosse Parking Lot pursuant to an existing easement recorded in Book 739, Page 600, Records of Boone County, Missouri.\"\nThe original judgment more particularly described the easement as follows:\nStarting at a point where the East line of Lot Nine (9) intersects the South line of the right-of-way of East U.S. Highway Business Route, then South Thirty (30) feet with said East line to a point, then West parallel to the North line of Lots Nine (9) and Ten (10) to the Center line of Lot Ten (10), then along said Center line of Lot Ten (10) North to the North line of Lot Ten (10), then East along the North line of Lots Ten (10) and Nine (9) to the point of beginning.\nOn February 22, 2018, La Crosse filed a \"Motion for New Trial or for Amended Judgment,\" invoking Rules 73.01(d), 75.01, and 78.01. In that motion, La Crosse argued, among other claims, that the judgment's description of the easement granted was overbroad insofar as it included portions of La Crosse's property that were not subject to the prescriptive easement; specifically, the description in the original judgment included an unpaved portion west of the second Grindstone Parkway access point that had not been subject to any use by Southside. On April 9, 2018, the trial court held a hearing on La Crosse's motion. The following day-April 10, 2018-Southside filed a \"Post-Hearing Response to [La Crosse's] Motion for New Trial,\" wherein Southside conceded that the judgment contained an overbroad description of the property subject to the prescriptive easement and suggested changes to the judgment to accurately reflect the description of the property subject to the easement. On April 11, 2018, the trial court entered the following order:\nThe Court, having reviewed the pleadings, including [Southside's] Post-Hearing Response to [La Crosse's] motion for new trial, and having heard oral argument, hereby denies [La Crosse's] motion for new trial. The Court, however, orders that paragraphs 6, 9 and A of the January 25, 2018 judgment shall be amended in accordance with [Southside's] Post-Hearing Response. [Southside] shall submit a proposed Amended Judgment to the Court in its entirety by May 11, 2018, incorporating the proposed amendments set forth in the Post-Hearing Response. [Southside] shall amend the January 25, 2018 judgment and not the proposed judgment submitted by [Southside] on or about December 20, 2017. RJH/II (ss)\nOn April 16, 2018, La Crosse filed a notice of appeal from the original judgment, noting that a post-trial motion was filed on February 22, 2018, and ruled on April 11, 2018. On April 18, 2018, the trial court entered an amended judgment in conformity with the amendments suggested by Southside's Post-Hearing Response to La Crosse's Motion for New Trial or for Amended Judgment. The amended judgment provided the following description of the easement: \"the thirty-foot wide strip of hard-paved road surface that exists along the northern edge of the La Crosse Parking Lot pursuant to an existing easement recorded in Book 739, Page 600, Records of Boone County, Missouri.\" La Crosse did not file a notice of appeal from the amended judgment. Instead, it separately filed the amended judgment on May 11, 2018. In correspondence accompanying the amended judgment, La Crosse indicated:\nThe Amended Judgment is being provided to the Court out of an abundance of caution. The Amended Judgment was entered on April 18, 2018, seven days after the final post-trial motion in that case was denied and two days after La Crosse Lumber Co. filed its Notice of Appeal. It is La Crosse's position that the Amended Judgment was entered without jurisdiction or authority, but to the extent the Court deems otherwise, La Crosse is providing the Amended Judgment to the Court for inclusion with the previously filed Notice of Appeal.\nLa Crosse did not file a motion for new trial after the amended judgment was entered.\nOn September 21, 2018, Southside filed a motion to dismiss this appeal, arguing that La Crosse appealed from a moot judgment (the original judgment) and failed to appeal from the only final judgment in the case (the amended judgment). La Crosse filed suggestions in opposition, arguing that the original judgment was the only final judgment in the case and, alternatively, that, even if the amended judgment were the operative judgment, La Crosse's notice of appeal could be treated simply as a premature filing under Rule 81.05.\nAnalysis\nLa Crosse brings six points on appeal. In its first point, La Crosse attacks the description of the easement as presented in the original judgment, arguing that it was overbroad insofar as it included unpaved property that Southside had never used. In its second point, La Crosse argues that, regardless of which judgment is considered, the property description of the prescriptive easement is insufficient insofar as the description lacks certainty. In its third point, La Crosse argues that Southside was not entitled to a prescriptive easement insofar as Southside acknowledged La Crosse's superior title to the property when Southside actively sought to acquire an easement from La Crosse in both 2009 and 2016. In its fourth point, La Crosse argues that the trial court erred in determining that Southside's use was adverse because La Crosse was unable to legally block access to the paved roadway in light of the fact that it was subject to an existing easement in favor of other individuals, and La Crosse never sought to block it because it was being \"neighborly.\" The fifth point challenges the trial court's determination that Southside's use of the property was sufficiently continuous and visible for the entire ten-year period as being both against the weight of the evidence and lacking in substantial evidence. La Crosse's final claim argues that the trial court erred in considering use by the general public in granting a private easement.\nA. Southside's motion to dismiss the appeal is denied.\nIn its motion to dismiss, Southside contends that the amended judgment is the final operative judgment for purposes of appeal and that, by failing to appeal from that judgment, La Crosse failed to invoke this court's jurisdiction over the matter. La Crosse contends that the original judgment became the final operative judgment on April 11, 2018, when the trial court denied La Crosse's request for a new trial. La Crosse contends that the amended judgment is a nullity because the trial court lacked authority to enter it in response to Southside's post-hearing response to La Crosse's post-trial motion. Thus, we must determine which judgment is the operative final judgment for purposes of invoking appellate jurisdiction.\n\"Rule 81.04(a) requires the notice of appeal to be filed no later than 10 days 'after the judgment, decree, or order appealed from becomes final.' \" Heifetz v. Apex Clayton, Inc. , 554 S.W.3d 389, 393 (Mo. banc 2018) (quoting Rule 81.04(a)). Under Rule 81.05(a), \"when a judgment becomes final for purposes of filing a notice of appeal depends, in part, on whether an authorized after-trial motion was filed.\" Id. Here, La Crosse timely filed a \"Motion for New Trial or for Amended Judgment\" on February 22, 2018, which was within thirty days of the original judgment. Both \"a motion to amend and a motion for new trial are authorized after-trial motions.\" Blue Ridge Bank & Tr. Co. v. Hart , 152 S.W.3d 420, 425 (Mo. App. W.D. 2005).\nIf a party timely files an authorized after-trial motion, the judgment becomes final at the earlier of the following:\n(A) Ninety days from the date the last timely motion was filed, on which date all motions not ruled shall be deemed overruled; or\n(B) If all motions have been ruled, then the date of ruling of the last motion to be ruled or thirty days after entry of judgment, whichever is later.\nRule 81.05(a)(2).\nLa Crosse argues that, once the trial court denied its motion for new trial on April 11, 2018, the original judgment became final under Rule 81.05(a)(2)(B) because La Crosse's motion was the only timely filed authorized post-trial motion. In making this argument, however, La Crosse overlooks the fact that, though filed in a single document, La Crosse actually filed two alternative post-trial motions: a motion for new trial and a motion to amend the judgment. See In Re Bell , 481 S.W.3d 855, 861 (Mo. App. S.D. 2016) (\"A single motion may qualify as a motion for rehearing, a motion to amend the judgment or both.\"). As such, the trial court's denial of La Crosse's motion for new trial did not, in itself, dispose of all timely filed authorized post-trial motions; La Crosse's alternative motion to amend was still pending, meaning that the trial court retained jurisdiction under Rule 81.05(a)(2) to amend its original judgment until either it ruled on the motion to amend or the ninety-day window for ruling elapsed.\nThe ninety-day window for purposes of Rule 81.05 began to run on February 22, 2018, when La Crosse filed its post-trial motion. Ninety days from February 22, 2018, would have been May 23, 2018, which is well outside the date the amended judgment was entered. Accordingly, if-as La Crosse seems to argue-the trial court ruled solely on La Crosse's motion for new trial on April 11, 2018, then it had until the earlier of either ruling on the motion to amend or May 23, 2018 (when the motion would have been deemed denied), to enter the amended judgment. Because the amended judgment was entered within this time frame, the trial court had jurisdiction.\nLa Crosse argues that, in amending the judgment, the trial court was acting not on La Crosse's motion to amend but instead on Southside's post-hearing response to La Crosse's motion to amend. La Crosse argues that, because Southside's post-hearing response was not a timely authorized post-trial motion, the trial court lacked authority to amend the judgment on this basis. La Crosse's argument is without merit.\nTo begin, Southside's response was an express concession of certain claims raised in La Crosse's motion to amend; specifically, Southside conceded-as La Crosse argued-that the property description in the original judgment was overbroad in the sense that it described more property than was properly subject to the prescriptive easement. And Southside proposed curative amendments to the judgment to resolve the problem. Though the trial court's order of April 11, 2018, did not expressly invoke La Crosse's motion to amend, under these circumstances, this is a distinction without a difference. In sum, the amended judgment is the operative final judgment for purposes of appeal, as it was entered under the authority granted the trial court by Rule 81.05(a).\nAs noted above, La Crosse never filed a notice of appeal from the amended judgment, and the notice of appeal it did file challenged only the original judgment. Under the current rules, however, when a trial court enters an amended judgment, the original judgment is vacated in its entirety and becomes a nullity. State ex rel. Mo. Parks Ass'n v. Mo. Dep't of Nat. Res. , 316 S.W.3d 375, 384 (Mo. App. W.D. 2010). As such, Southside argues that La Crosse's failure to challenge the amended judgment in a timely filed notice of appeal deprives our court of jurisdiction over the appeal. We disagree.\n\"Timely filing of a notice of appeal is jurisdictional.\" Spicer v. Donald N. Spicer Revocable Living Tr. , 336 S.W.3d 466, 471 (Mo. banc 2011) (quoting Berger v. Cameron Mut. Ins. Co. , 173 S.W.3d 639, 640 (Mo. banc 2005) ). \"No such appeal shall be effective unless the notice of appeal shall be filed not later than ten days after the judgment or order appealed from becomes final.\" Id. (quoting \u00a7 512.050, RSMo 2000 (emphasis added)). \"If a notice of appeal is untimely, the appellate court is without jurisdiction and must dismiss the appeal.\" Id. at 471-72 (quoting Popular Leasing USA, Inc. v. Universal Art Corp. of New York , 57 S.W.3d 875, 877 (Mo. App. E.D. 2001) ).\nRule 81.04(a) requires the notice of appeal, itself, to \"specify the ... judgment, decree, or order appealed from.\" \"The purpose of requiring an appellant to 'specify ... the judgment or order appealed from' in the notice of appeal is so that the appellant can demonstrate the right to appeal.\" Chastain v. Geary , 539 S.W.3d 841, 847 (Mo. App. W.D. 2017) (quoting State ex rel. Koster v. ConocoPhillips Co. , 493 S.W.3d 397, 402 (Mo. banc 2016) ). \"A notice may be held sufficient, however, where an appellant in good faith attempts to appeal from the proper judgment.\" Id.\nLa Crosse argues that, even if the amended judgment is the operative judgment, its notice of appeal is sufficient under Rule 81.05(b), which allows for prematurely filed notices of appeal to be deemed \"filed immediately after the time the judgment becomes final for the purpose of appeal.\"\nIn making this argument, La Crosse relies on a 1995 opinion from the Missouri Supreme Court in L.J.B. v. L.W.B. , 908 S.W.2d 349 (Mo. banc 1995), wherein the Court held: \"Where the trial court has entered a judgment appearing to dispose of all issues in the case, giving the appearance of a judgment under Rule 74.01, followed by a limited reopening of evidence under Rule 78.01, the amendment of the judgment as authorized by Rule 73.01(a)(5) is not the entry of an entirely new judgment. \" Id. at 351 (emphasis added). As such, \"[u]nder Rule 81.05(b), the notice of appeal filed after the original judgment but before the amended judgment is deemed filed immediately after the amended judgment is entered.\" Id. (citing Rule 73.01(a)(5)).\nThe applicable rules have changed significantly since the L.J.B. decision. In L.J.B. , the Court held that \"the amendment of the judgment as authorized by Rule 73.01(a)(5) is not the entry of an entirely new judgment.\" Id. (emphasis added). At that time, Rule 73.01(a)(5) (1995) provided: \"Unless the amended judgment shall otherwise specify, an amended judgment or opinion shall be deemed a final judgment for all purposes as of the day it is entered of record.\" But the language of Rule 73.01(a)(5) as it existed in 1995 has since been moved to Rule 78.07(d) and substantially altered to provide: \"Unless an amended judgment shall otherwise specify, an amended judgment shall be deemed a new judgment for all purposes.\" Rule 78.07(d) (emphasis added). This provision is directly at odds with L.J.B. 's holding that such an amended judgment \"is not the entry of an entirely new judgment.\" L.J.B. , 908 S.W.2d at 351. As such, L.J.B. is no longer controlling under the current rules, and best practices suggest that, any time a trial court enters an amended judgment, a party seeking to appeal should file a new notice of appeal from the amended judgment rather than relying on a notice of appeal filed pursuant to an original judgment. Then, the appealing party may either dismiss the original appeal or seek permission from the appellate court to consolidate the two appeals, thereby allowing the court to resolve any question regarding which of the judgments constitutes the final judgment for purposes of appellate jurisdiction.\nThough we agree with Southside that La Crosse should have filed a notice of appeal from the amended judgment, rather than simply filing it separately with a letter seeking its \"inclusion with the previously filed Notice of Appeal,\" it has long been held that \"[f]ormal averments contained in a notice of appeal are to be liberally construed in order to permit appellate review so long as the opposing party has not been misled to his irreparable harm.\" Chastain , 539 S.W.3d at 847 (quoting Allison v. Sverdrup & Parcel & Assocs., Inc. , 738 S.W.2d 440, 443 (Mo. App. E.D. 1987) ). In other words, \"[t]echnical adherence to the formal averments of a notice of appeal is not jurisdictional,\" and \"it is the duty of an appellate court freely to exercise its jurisdiction to provide a review on the merits in every instance that it may properly do so.\" Id. (quoting Wills v. Whitlock , 139 S.W.3d 643, 658 (Mo. App. W.D. 2004) ). And, despite the change in Rule 78.07(d), our courts have continued to apply a liberal construction to Rule 81.05(b). See, e.g., Reynolds v. Reynolds , 109 S.W.3d 258, 271 (Mo. App. W.D. 2003) (determining that an appeal from a judgment that was subsequently amended could be treated as a premature notice of appeal of the amended judgment under Rule 81.05(b)).\nIn short, because the spirit of the rules is \"to sustain an appeal which is actually an attempt in good faith to appeal from a final judgment even though some other unappealable order is inadvertently designated therein,\" Woods v. Cantrell , 356 Mo. 194, 201 S.W.2d 311, 315 (Mo. 1947), and because Southside has not suffered any irreparable harm from La Crosse's error, we deny Southside's motion to dismiss the appeal.\nB. La Crosse's first point on appeal is moot.\nIn its first point on appeal, La Crosse attacks solely the original January 25, 2018 judgment. As discussed above, the original judgment is not the operative judgment in this case. When a trial court enters an amended judgment, the original judgment is vacated in its entirety and becomes a nullity. Mo. Parks Ass'n , 316 S.W.3d at 384. Because La Crosse's first point on appeal is directed to a judgment that has since been vacated, there is nothing for us to review with respect to La Crosse's first point on appeal. As such, it is denied.\nC. Standard of Review\n\"Appellate review of the circuit court's decision following [a] bench trial is governed by Murphy v. Carron , 536 S.W.2d 30, 32 (Mo. banc 1976).\" B.K. v. Mo. State Highway Patrol , 561 S.W.3d 876, 879 (Mo. App. W.D. 2018). \"Under Murphy , the circuit court's decision will be affirmed unless there is no substantial evidence to support it, it is against the weight of the evidence, it erroneously declares the law, or it erroneously applies the law.\" Id. \"For factual disputes, the evidence and all reasonable inferences from the evidence are 'viewed in the light most favorable to the trial court's judgment, and all contrary evidence and inferences must be disregarded.' \" Id. (quoting Miller v. Gammon & Sons, Inc. , 67 S.W.3d 613, 618 (Mo. App. W.D. 2001) ). \"Statutory interpretation is an issue of law that this Court reviews de novo.\" Id. (quoting Finnegan v. Old Republic Title Co. of St. Louis, Inc. , 246 S.W.3d 928, 930 (Mo. banc 2008) ).\nD. Abandoned claims\nIn Points II-IV and VI, La Crosse argues that the trial court's judgment \"lacks the support of substantial evidence, is against the weight of the evidence and misapplies the law.\" And its Point V argues that the trial court's judgment both \"lacks the support of substantial evidence and is against the weight of the evidence.\"\nDespite the breadth of each of these points, La Crosse's arguments in support fail to address each of the challenges raised. \"A contention raised in the point relied on must be developed in the argument section of the brief.\" Wright v. Barr , 62 S.W.3d 509, 528 (Mo. App. W.D. 2001). \"Arguments raised in the points relied on that are not supported by argument in the argument portion of the brief are deemed abandoned and present nothing for appellate review.\" Id.\nOur review of La Crosse's brief reveals that the only claims before us are as follows: (1) Point II presents solely a misapplication-of-law challenge with respect to whether the petition and judgment must contain a legal description of the property at issue; (2) Point III presents solely a misapplication-of-law challenge with respect to whether Southside's efforts to obtain an easement directly from La Crosse precluded its ability to obtain a prescriptive easement; (3) Point IV presents solely a misapplication-of-law challenge with respect to whether the trial court was entitled to use a presumption that Southside's use was adverse under the facts presented; (4) Point V presents solely a challenge to the sufficiency of the evidence to support the trial court's finding that Southside's use was sufficiently continuous and visible for the entire prescriptive period; and (5)\nPoint VI presents solely a misapplication-of-law challenge with respect to whether the trial court could consider use by the general public to support Southside's claim of private easement by prescription. All other claims raised in La Crosse's points relied on are unsupported in the argument portion of its brief and are deemed abandoned. For ease of discussion, we will address the remaining claims out of order.\nE. The evidence was sufficient to support the trial court's judgment.\n\"To establish a prescriptive easement over another's property, a party must show that its use of the property has been continuous, uninterrupted, visible and adverse for a period of ten years.\" Brick House Cafe & Pub, L.L.C. v. Callahan , 151 S.W.3d 838, 841 (Mo. App. W.D. 2004) ; see also Orla Holman Cemetery, Inc. v. Robert W. Plaster Tr. , 304 S.W.3d 112, 118 (Mo. banc 2010). \"The law does not favor the creation of prescriptive easements.\" Brick House , 151 S.W.3d at 841. \"Therefore, the party seeking to acquire the prescriptive easement must establish each of these elements by clear and convincing evidence.\" Id. at 842. \"In reviewing a court-tried case to determine whether the judgment is supported by sufficient evidence, we must act with caution and will reverse only upon a firm belief that the judgment is wrong.\" Wertz-Black v. Guesa USA, LLC , 524 S.W.3d 68, 72 (Mo. App. W.D. 2017).\nIn its fifth point on appeal, La Crosse argues that the evidence was insufficient to support the trial court's finding that Southside's use was sufficiently continuous and visible for the entire prescriptive period. More specifically, with respect to the continuous nature of the use, La Crosse argues \"that for a one to two year stretch within the ten-year period upon which [Southside] bases its claim for prescriptive easement, [Southside's] property sat without a tenant, and the use of the property in question in this case, was minimal or non-existent.\"\nAll Rule references are to the Missouri Supreme Court Rules (2017), unless otherwise noted.\nRule 78.04 requires that \"[a]ny motion for new trial and any motion to amend the judgment or opinion shall be filed not later than thirty days after the entry of judgment.\"\nThere are good policy reasons to require a new notice of appeal, rather than simply treating one filed in relation to a previously-filed-but-subsequently-vacated judgment as premature. Because an amended judgment is a new judgment for all purposes, unless otherwise indicated, the parties have a new thirty-day window in which to file authorized post-trial motions, which could very well affect the new judgment. See, e.g., discussion of Point II, infra.\n\"[A] substantial-evidence challenge, a misapplication-of-law challenge, and an against-the-weight-of-the-evidence challenge ... are distinct claims.\" Ivie v. Smith , 439 S.W.3d 189, 199 n.11 (Mo. banc 2014). \"They must appear in separate points relied on in the appellant's brief to be preserved for appellate review.\" Id.\nDespite La Crosse's briefing deficiencies, our preference is to resolve cases on the merits. \"To the extent we are 'able to understand the nature of the claim[s] presented,' and the [respondent] was 'able to understand and effectively address those claim[s] in its responsive brief, we exercise our discretion to review [the appellant's] claims ex gratia.' \" C.S. v. Mo. Dep't of Soc. Servs. , 491 S.W.3d 636, 644 n.9 (Mo. App. W.D. 2016) (quoting Powell v. City of Kansas City , 472 S.W.3d 219, 225 n.9 (Mo. App. W.D. 2015) )."
+  },
+  "file_name": "0771-01",
+  "first_page_order": 771,
+  "last_page_order": 788
+}

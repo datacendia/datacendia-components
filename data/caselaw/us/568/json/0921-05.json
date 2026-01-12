@@ -1,0 +1,59 @@
+{
+  "id": 12416524,
+  "name": "Gunter v. United States",
+  "name_abbreviation": "Gunter v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5683",
+  "first_page": "921",
+  "last_page": "921",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 921"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.666,
+    "sha256": "cd53344cdc73afeeda6c281c6aab4f3521206d88ba0f0596f916ab0a2b0141c4",
+    "simhash": "1:b5ca5e134ca49156",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gunter v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5683.\nGunter v. United States."
+  },
+  "file_name": "0921-05",
+  "first_page_order": 997,
+  "last_page_order": 997
+}

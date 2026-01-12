@@ -1,0 +1,59 @@
+{
+  "id": 12197058,
+  "name": "McMenamin v. McMenamin",
+  "name_abbreviation": "McMenamin v. McMenamin",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-1470",
+  "first_page": "823",
+  "last_page": "823",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 823"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 9,
+    "char_count": 70,
+    "ocr_confidence": 0.701,
+    "sha256": "493ed2a7e13c61334e8a26fa01fafacd6adbd0a0c58eb39c76dea83ab23a0bed",
+    "simhash": "1:de61a78b6083000e",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McMenamin v. McMenamin."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ore. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1470.\nMcMenamin v. McMenamin."
+  },
+  "file_name": "0823-07",
+  "first_page_order": 905,
+  "last_page_order": 905
+}

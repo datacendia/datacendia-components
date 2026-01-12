@@ -1,0 +1,59 @@
+{
+  "id": 6021009,
+  "name": "Taylor v. California",
+  "name_abbreviation": "Taylor v. California",
+  "decision_date": "2010-11-01",
+  "docket_number": "No. 10-6299",
+  "first_page": "1013",
+  "last_page": "1013",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1013"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 69,
+    "ocr_confidence": 0.468,
+    "sha256": "1bb7230aba5bd96fd3e5f8398f25aac784cf1cdab4827f131f649111e12aec1d",
+    "simhash": "1:080f1d76890a403a",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Taylor v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6299.\nTaylor v. California."
+  },
+  "file_name": "1013-13",
+  "first_page_order": 1035,
+  "last_page_order": 1035
+}

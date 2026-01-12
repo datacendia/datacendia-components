@@ -1,0 +1,59 @@
+{
+  "id": 12429185,
+  "name": "Cluck v. Union Pacific Railroad Co.",
+  "name_abbreviation": "Cluck v. Union Pacific Railroad",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-410",
+  "first_page": "1122",
+  "last_page": "1122",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1122"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 80,
+    "ocr_confidence": 0.627,
+    "sha256": "7a39459d04cf4e69618875bf93c7e00caa90b1052b8b351682a6b20321fd8567",
+    "simhash": "1:6d19c0a25e00ac03",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cluck v. Union Pacific Railroad Co."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Mo. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-410.\nCluck v. Union Pacific Railroad Co."
+  },
+  "file_name": "1122-10",
+  "first_page_order": 1198,
+  "last_page_order": 1198
+}

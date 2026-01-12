@@ -1,0 +1,59 @@
+{
+  "id": 12242952,
+  "name": "Parker v. Tim Lally Chevrolet",
+  "name_abbreviation": "Parker v. Tim Lally Chevrolet",
+  "decision_date": "2012-01-17",
+  "docket_number": "No. 11-7282",
+  "first_page": "1162",
+  "last_page": "1162",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1162"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 78,
+    "ocr_confidence": 0.615,
+    "sha256": "73691759ca5e0e7c7c7707fe04741f1e8dd41b33677553e1d39ef31501cf8b50",
+    "simhash": "1:aa0b12114a2c8020",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Parker v. Tim Lally Chevrolet."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7282.\nParker v. Tim Lally Chevrolet."
+  },
+  "file_name": "1162-05",
+  "first_page_order": 1244,
+  "last_page_order": 1244
+}

@@ -1,0 +1,86 @@
+{
+  "id": 5943488,
+  "name": "In re Disbarment of Mittendorff",
+  "name_abbreviation": "In re Disbarment of Mittendorff",
+  "decision_date": "2010-11-01",
+  "docket_number": "No. D-2485",
+  "first_page": "999",
+  "last_page": "999",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 999"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "561 U. S. 1045",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12455905,
+        12455906,
+        12455907,
+        12455908,
+        12455909,
+        12455910,
+        12455911,
+        12455912
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/177/1132-01",
+        "/l-ed-2d/177/1132-02",
+        "/l-ed-2d/177/1132-03",
+        "/l-ed-2d/177/1132-04",
+        "/l-ed-2d/177/1132-05",
+        "/l-ed-2d/177/1132-06",
+        "/l-ed-2d/177/1133-01",
+        "/l-ed-2d/177/1133-02"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 113,
+    "ocr_confidence": 0.592,
+    "sha256": "ce84a04368c076c6d5bab9fb369784ea6178eebacb7aacec60d5086f2b021ca4",
+    "simhash": "1:b6bcd802cb168276",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Mittendorff."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see 561 U. S. 1045.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2485.\nIn re Disbarment of Mittendorff."
+  },
+  "file_name": "0999-07",
+  "first_page_order": 1021,
+  "last_page_order": 1021
+}

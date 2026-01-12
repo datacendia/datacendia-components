@@ -1,0 +1,59 @@
+{
+  "id": 5986606,
+  "name": "Herndon v. United States",
+  "name_abbreviation": "Herndon v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5352",
+  "first_page": "916",
+  "last_page": "916",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 916"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.546,
+    "sha256": "215ff0964961e2b296f6931b30da994e0a5a288b2b6e98f3601afbe38909af7c",
+    "simhash": "1:917975ea2aeabf57",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Herndon v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. D. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5352.\nHerndon v. United States."
+  },
+  "file_name": "0916-14",
+  "first_page_order": 938,
+  "last_page_order": 938
+}

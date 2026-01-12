@@ -1,0 +1,59 @@
+{
+  "id": 12218533,
+  "name": "Eras-Machado v. United States",
+  "name_abbreviation": "Eras-Machado v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5254",
+  "first_page": "897",
+  "last_page": "897",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 897"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 78,
+    "ocr_confidence": 0.709,
+    "sha256": "381b6074a1cc1ec39818c522da38c83f8114d233e8d9d126f2582f53a1956d4e",
+    "simhash": "1:57138480059c495a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Eras-Machado v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5254.\nEras-Machado v. United States."
+  },
+  "file_name": "0897-10",
+  "first_page_order": 979,
+  "last_page_order": 979
+}

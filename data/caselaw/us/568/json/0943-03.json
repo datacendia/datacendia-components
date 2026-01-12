@@ -1,0 +1,59 @@
+{
+  "id": 12417895,
+  "name": "George v. United States et al.",
+  "name_abbreviation": "George v. United States",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-156",
+  "first_page": "943",
+  "last_page": "943",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 943"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 78,
+    "ocr_confidence": 0.674,
+    "sha256": "0db2aefd8a498903cbcda8cb3857ecde47503912d0c018bfdce6cb8ebc3cd949",
+    "simhash": "1:cbca75a97727d3bc",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "George v. United States et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-156.\nGeorge v. United States et al."
+  },
+  "file_name": "0943-03",
+  "first_page_order": 1019,
+  "last_page_order": 1019
+}

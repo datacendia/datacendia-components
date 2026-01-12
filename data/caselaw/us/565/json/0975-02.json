@@ -1,0 +1,98 @@
+{
+  "id": 12230029,
+  "name": "In re Disbarment of Bryant",
+  "name_abbreviation": "In re Disbarment of Bryant",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. D-2598",
+  "first_page": "975",
+  "last_page": "975",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 975"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "564 U. S. 1033",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12450912,
+        12450913,
+        12450914,
+        12450915,
+        12450916,
+        4333770,
+        5928911,
+        5922800,
+        5929809,
+        12451090,
+        4336308,
+        12450909,
+        5929758,
+        12450911
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/l-ed-2d/180/0882-01",
+        "/l-ed-2d/180/0882-02",
+        "/l-ed-2d/180/0882-03",
+        "/l-ed-2d/180/0882-04",
+        "/l-ed-2d/180/0883-01",
+        "/us/564/1033-04",
+        "/us/564/1033-03",
+        "/us/564/1033-01",
+        "/us/564/1033-05",
+        "/l-ed-2d/180/0908-03",
+        "/us/564/1033-06",
+        "/l-ed-2d/180/0881-03",
+        "/us/564/1033-02",
+        "/l-ed-2d/180/0881-05"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 108,
+    "ocr_confidence": 0.667,
+    "sha256": "7fc70d7c75da3ead3fddc62c470fd2ebeb3fc6a3b0bfa6ba13a6887170700dfc",
+    "simhash": "1:f878046be3daba67",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Bryant."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2598.\nIn re Disbarment of Bryant.\n[For earlier order herein, see 564 U. S. 1033.]"
+  },
+  "file_name": "0975-02",
+  "first_page_order": 1057,
+  "last_page_order": 1057
+}

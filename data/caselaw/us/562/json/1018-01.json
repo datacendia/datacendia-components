@@ -1,0 +1,59 @@
+{
+  "id": 5942252,
+  "name": "Gross v. United States",
+  "name_abbreviation": "Gross v. United States",
+  "decision_date": "2010-11-01",
+  "docket_number": "No. 10-6675",
+  "first_page": "1018",
+  "last_page": "1018",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1018"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.605,
+    "sha256": "c889bba935455e0f5c5dbd28150500bb906d70796d901febee9fe3c4f87dac4b",
+    "simhash": "1:1028aa416fa57958",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gross v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6675.\nGross v. United States."
+  },
+  "file_name": "1018-01",
+  "first_page_order": 1040,
+  "last_page_order": 1040
+}

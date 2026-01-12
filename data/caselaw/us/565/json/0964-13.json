@@ -1,0 +1,59 @@
+{
+  "id": 12229180,
+  "name": "Robinson v. Easterling, Warden",
+  "name_abbreviation": "Robinson v. Easterling",
+  "decision_date": "2011-10-17",
+  "docket_number": "No. 11-5811",
+  "first_page": "964",
+  "last_page": "964",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 964"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.701,
+    "sha256": "86b01f9936a2387e929456b9a49db704a04752563312e47770a3c22b0ff5d331",
+    "simhash": "1:a4881608aa2b08f7",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Robinson v. Easterling, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5811.\nRobinson v. Easterling, Warden."
+  },
+  "file_name": "0964-13",
+  "first_page_order": 1046,
+  "last_page_order": 1046
+}

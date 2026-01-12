@@ -1,0 +1,59 @@
+{
+  "id": 12200834,
+  "name": "Wheaton v. McDaniel, Warden",
+  "name_abbreviation": "Wheaton v. McDaniel",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10261",
+  "first_page": "832",
+  "last_page": "832",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 832"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.732,
+    "sha256": "f9bd759d388078198db05bc350316b01fb48cb6f801d5666d961420df4708afa",
+    "simhash": "1:d29386e28d9e70c6",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wheaton v. McDaniel, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10261.\nWheaton v. McDaniel, Warden."
+  },
+  "file_name": "0832-09",
+  "first_page_order": 914,
+  "last_page_order": 914
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12427558,
+  "name": "Master v. United States",
+  "name_abbreviation": "Master v. United States",
+  "decision_date": "2012-12-10",
+  "docket_number": "No. 12-7123",
+  "first_page": "1074",
+  "last_page": "1074",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1074"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.618,
+    "sha256": "e99ad8a414b64a275a045e2d09d9cd1e8346f59115035db0dfa6dafbe1843c7e",
+    "simhash": "1:b58ab6064ebfd818",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Master v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7123.\nMaster v. United States."
+  },
+  "file_name": "1074-12",
+  "first_page_order": 1150,
+  "last_page_order": 1150
+}

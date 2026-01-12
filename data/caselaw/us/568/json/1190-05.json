@@ -1,0 +1,59 @@
+{
+  "id": 12431791,
+  "name": "Davis v. United States",
+  "name_abbreviation": "Davis v. United States",
+  "decision_date": "2013-02-25",
+  "docket_number": "No. 11-9422",
+  "first_page": "1190",
+  "last_page": "1190",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1190"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 34,
+    "char_count": 256,
+    "ocr_confidence": 0.622,
+    "sha256": "175fe7cc2f8af7e6ac2598f864a4dfd5f6a3d9d4289997d18b829b36bb39667b",
+    "simhash": "1:e70ae9028c83ae9e",
+    "word_count": 40
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Davis v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Motion of petitioner for leave to proceed informa pauperis granted. Certiorari granted, judgment vacated, and case remanded for further consideration in light of Henderson v. United States, ante, p. 266.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9422.\nDavis v. United States."
+  },
+  "file_name": "1190-05",
+  "first_page_order": 1266,
+  "last_page_order": 1266
+}

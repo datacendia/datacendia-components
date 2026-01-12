@@ -1,0 +1,59 @@
+{
+  "id": 12218575,
+  "name": "Crane-Horton v. United States",
+  "name_abbreviation": "Crane-Horton v. United States",
+  "decision_date": "2012-05-14",
+  "docket_number": "No. 11-9688",
+  "first_page": "1001",
+  "last_page": "1001",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1001"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 78,
+    "ocr_confidence": 0.648,
+    "sha256": "0fdd427b63200d39ec249b7e53b6aa2b0297636a1b12905b5cc83ee9be67d673",
+    "simhash": "1:2438c2238e211002",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Crane-Horton v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9688.\nCrane-Horton v. United States."
+  },
+  "file_name": "1001-02",
+  "first_page_order": 877,
+  "last_page_order": 877
+}

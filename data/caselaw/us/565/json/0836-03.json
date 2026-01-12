@@ -1,0 +1,59 @@
+{
+  "id": 12201980,
+  "name": "Johnson v. Donahue, Warden",
+  "name_abbreviation": "Johnson v. Donahue",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10410",
+  "first_page": "836",
+  "last_page": "836",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 836"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 74,
+    "ocr_confidence": 0.691,
+    "sha256": "9327d5cc9462852d27d69beed22cffdf1c68f8091c99c7f0ce99d097c075b392",
+    "simhash": "1:44926428809148ca",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Johnson v. Donahue, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ky. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10410.\nJohnson v. Donahue, Warden."
+  },
+  "file_name": "0836-03",
+  "first_page_order": 918,
+  "last_page_order": 918
+}

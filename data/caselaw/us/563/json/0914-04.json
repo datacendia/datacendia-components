@@ -1,0 +1,59 @@
+{
+  "id": 4225218,
+  "name": "Boyd v. Alabama",
+  "name_abbreviation": "Boyd v. Alabama",
+  "decision_date": "2011-03-31",
+  "docket_number": "No. 10-9774 (10A957)",
+  "first_page": "914",
+  "last_page": "914",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 914"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 31,
+    "char_count": 214,
+    "ocr_confidence": 0.591,
+    "sha256": "aecef9da17ba3c03da904de8d08b3419cc92989a42a1d7d9148f325722cd8a85",
+    "simhash": "1:5443a87037a518c0",
+    "word_count": 35
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Boyd v. Alabama."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ala. Application for stay of execution of sentence of death, presented to Justice Thomas, and by him referred to the Court, denied. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "March 31, 2011\nNo. 10-9774 (10A957).\nBoyd v. Alabama."
+  },
+  "file_name": "0914-04",
+  "first_page_order": 940,
+  "last_page_order": 940
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12244637,
+  "name": "Kempf v. Hansen",
+  "name_abbreviation": "Kempf v. Hansen",
+  "decision_date": "2012-01-23",
+  "docket_number": "No. 11-7481",
+  "first_page": "1180",
+  "last_page": "1180",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1180"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 65,
+    "ocr_confidence": 0.705,
+    "sha256": "61b561893e4dd438f516fa12a8ee2ee812b26d8e25cd0b27a7555900f41c9d19",
+    "simhash": "1:039760a5e2a79022",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kempf v. Hansen."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7481.\nKempf v. Hansen."
+  },
+  "file_name": "1180-04",
+  "first_page_order": 1262,
+  "last_page_order": 1262
+}

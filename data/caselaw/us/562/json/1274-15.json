@@ -1,0 +1,59 @@
+{
+  "id": 6019688,
+  "name": "Banks v. Mississippi et al.",
+  "name_abbreviation": "Banks v. Mississippi",
+  "decision_date": "2011-03-07",
+  "docket_number": "No. 10-8208",
+  "first_page": "1274",
+  "last_page": "1274",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1274"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 75,
+    "ocr_confidence": 0.618,
+    "sha256": "61a8e1fba26447e9a58ae12e3ee80c6f17bf4fc9dd37846f41040ac40abba852",
+    "simhash": "1:90d851a009288476",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Banks v. Mississippi et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8208.\nBanks v. Mississippi et al."
+  },
+  "file_name": "1274-15",
+  "first_page_order": 1296,
+  "last_page_order": 1296
+}

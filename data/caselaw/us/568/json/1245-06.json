@@ -1,0 +1,61 @@
+{
+  "id": 12433762,
+  "name": "Castro v. United States",
+  "name_abbreviation": "Castro v. United States",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-8646",
+  "first_page": "1245",
+  "last_page": "1245",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1245"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 154,
+    "ocr_confidence": 0.677,
+    "sha256": "fd381679e5da41181f3240884af73647486b0e1cd5f106b0de88a69f51a1a194",
+    "simhash": "1:09bafa8acfbef648",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Castro v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Cer-tiorari denied.\nJustice Sotomayor took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8646.\nCastro v. United States."
+  },
+  "file_name": "1245-06",
+  "first_page_order": 1321,
+  "last_page_order": 1321
+}

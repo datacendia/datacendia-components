@@ -1,0 +1,59 @@
+{
+  "id": 12242335,
+  "name": "Derry v. Florida",
+  "name_abbreviation": "Derry v. Florida",
+  "decision_date": "2012-01-17",
+  "docket_number": "No. 10-1488",
+  "first_page": "1155",
+  "last_page": "1155",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1155"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 80,
+    "ocr_confidence": 0.669,
+    "sha256": "72d32e729f4843aa5044087becbcec1ac56fc4d91dc98482f382488fdc9be991",
+    "simhash": "1:a1206132e2614e18",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Derry v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 2d Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1488.\nDerry v. Florida."
+  },
+  "file_name": "1155-07",
+  "first_page_order": 1237,
+  "last_page_order": 1237
+}

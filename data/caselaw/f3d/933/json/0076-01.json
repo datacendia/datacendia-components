@@ -1,0 +1,771 @@
+{
+  "id": 12522320,
+  "name": "UNITED STATES of America, Appellee, v. Steven NYGREN, Defendant, Appellant.",
+  "name_abbreviation": "United States v. Nygren",
+  "decision_date": "2019-08-06",
+  "docket_number": "No. 18-1548",
+  "first_page": "76",
+  "last_page": "89",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "933 F.3d 76"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "1st Cir.",
+    "id": 8809,
+    "name": "United States Court of Appeals for the First Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "953 F.2d 17",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10516264
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "21"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/953/0017-01"
+      ]
+    },
+    {
+      "cite": "752 F.3d 1",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4308004
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "6"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/752/0001-01"
+      ]
+    },
+    {
+      "cite": "991 F.2d 1",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10508000
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "4"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/991/0001-01"
+      ]
+    },
+    {
+      "cite": "230 F.3d 405",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1094310
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "408",
+          "parenthetical": "quoting United States v. Ocasio-Rivera, 991 F.2d 1, 4 (1st Cir. 1993) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/230/0405-01"
+      ]
+    },
+    {
+      "cite": "335 F.3d 1314",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1533961
+      ],
+      "weight": 2,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "1319",
+          "parenthetical": "holding that inquiry into relevant conduct \"requires the sentencing judge to assess the defendant's intent for committing the additional crime\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/335/1314-01"
+      ]
+    },
+    {
+      "cite": "83 F.3d 9",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11639662
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "13"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/83/0009-01"
+      ]
+    },
+    {
+      "cite": "9 F.3d 204",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10507794
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "205"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/9/0204-01"
+      ]
+    },
+    {
+      "cite": "132 F. App'x 89",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        1124982
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "93",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/132/0089-01"
+      ]
+    },
+    {
+      "cite": "778 F.3d 682",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5745636
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "684-85"
+        },
+        {
+          "page": "684",
+          "parenthetical": "\"[S]uccess is not a requirement for imposing an enhancement for obstruction of justice - an attempt will do as well.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/778/0682-01"
+      ]
+    },
+    {
+      "cite": "872 F.3d 1045",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12266861
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1046-47",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/872/1045-01"
+      ]
+    },
+    {
+      "cite": "337 F.3d 1317",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9109185
+      ],
+      "weight": 4,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "1320, 1325",
+          "parenthetical": "affirming application of enhancement based on feigned incompetency when defendant exaggerated symptoms after car accident"
+        },
+        {
+          "page": "1325"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/337/1317-01"
+      ]
+    },
+    {
+      "cite": "362 U.S. 402",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6164747
+      ],
+      "weight": 3,
+      "year": 1960,
+      "pin_cites": [
+        {
+          "page": "402",
+          "parenthetical": "per curiam"
+        },
+        {
+          "parenthetical": "per curiam"
+        },
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/362/0402-01"
+      ]
+    },
+    {
+      "cite": "713 F.3d 676",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3557887
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "684",
+          "parenthetical": "quoting Dusky v. United States, 362 U.S. 402, 402, 80 S.Ct. 788, 4 L.Ed.2d 824 (1960) (per curiam)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/713/0676-01"
+      ]
+    },
+    {
+      "cite": "332 F. App'x 905",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        4257694
+      ],
+      "weight": 2,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "910-11"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/332/0905-01"
+      ]
+    },
+    {
+      "cite": "69 F.3d 156",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7409737
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "164",
+          "parenthetical": "upholding district court's imposition of enhancement when defendant, inter alia, \"most assuredly facilitated the conveying of false information to the court through his counsel\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/69/0156-01"
+      ]
+    },
+    {
+      "cite": "588 F.3d 538",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3495847
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "544",
+          "parenthetical": "citing USSG \u00a7 3C1.1 cmt. n.3"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/588/0538-01"
+      ]
+    },
+    {
+      "cite": "225 F.3d 766",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11233250,
+        3675262
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "771",
+          "parenthetical": "noting that \"egregious as well as non-egregious conduct\" alike appear within the covered conduct list"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/225/0766-01",
+        "/us-app-dc/343/0250-01"
+      ]
+    },
+    {
+      "cite": "99 F.3d 37",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7649677
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "46",
+          "parenthetical": "stating that the \"Application Notes are plain that a wide range of conduct will suffice to properly enhance a sentence for obstruction of justice\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/99/0037-01"
+      ]
+    },
+    {
+      "cite": "897 F.3d 349",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517843
+      ],
+      "weight": 7,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "354"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/897/0349-01"
+      ]
+    },
+    {
+      "cite": "947 F.2d 7",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10520850
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "10"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/947/0007-01"
+      ]
+    },
+    {
+      "cite": "357 F.3d 136",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9056472
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "141"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/357/0136-01"
+      ]
+    },
+    {
+      "cite": "740 F.3d 1015",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3826898
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1021",
+          "parenthetical": "finding no clear error when district court relied on expert report concluding defendant had feigned incompetency, despite contrary expert testimony"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/740/1015-01"
+      ]
+    },
+    {
+      "cite": "483 F.3d 193",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5742739
+      ],
+      "weight": 5,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "195",
+          "parenthetical": "concluding that district court did not clearly err in finding feigned incompetency where defendant underwent five examinations, the first of which found him incompetent"
+        },
+        {
+          "page": "195-96",
+          "parenthetical": "affirming district court's feigned incompetency finding when defendant intentionally did not take medication \"to increase his chances of being found incompetent\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/483/0193-01"
+      ]
+    },
+    {
+      "cite": "509 U.S. 579",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        355769
+      ],
+      "weight": 3,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "592-93"
+        },
+        {
+          "parenthetical": "holding that Fed. R. Evid. 702 authorizes a \"preliminary assessment of whether the reasoning or methodology underlying the testimony [of an expert] is scientifically valid and of whether that reasoning or methodology properly can be applied to the facts in issue\""
+        },
+        {
+          "parenthetical": "holding that Fed. R. Evid. 702 authorizes a \"preliminary assessment of whether the reasoning or methodology underlying the testimony [of an expert] is scientifically valid and of whether that reasoning or methodology properly can be applied to the facts in issue\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/509/0579-01"
+      ]
+    },
+    {
+      "cite": "905 F.2d 499",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1806775
+      ],
+      "weight": 2,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "505",
+          "parenthetical": "\"The witness'[s] credibility [i]s for the talesman - not for an appellate court.\""
+        },
+        {
+          "page": "508"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/905/0499-01"
+      ]
+    },
+    {
+      "cite": "92 L.Ed. 746",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "year": 1948,
+      "opinion_index": 0
+    },
+    {
+      "cite": "333 U.S. 364",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6157998
+      ],
+      "weight": 2,
+      "year": 1948,
+      "pin_cites": [
+        {
+          "page": "395"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/333/0364-01"
+      ]
+    },
+    {
+      "cite": "158 F.3d 228",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11667275
+      ],
+      "weight": 12,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "237"
+        },
+        {
+          "page": "235"
+        },
+        {
+          "page": "235"
+        },
+        {
+          "page": "238"
+        },
+        {
+          "page": "237"
+        },
+        {
+          "page": "237"
+        },
+        {
+          "page": "235"
+        },
+        {
+          "page": "235"
+        },
+        {
+          "page": "235"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/158/0228-01"
+      ]
+    },
+    {
+      "cite": "714 F.3d 77",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5867577
+      ],
+      "weight": 2,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "79"
+        },
+        {
+          "page": "79-80"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/714/0077-01"
+      ]
+    },
+    {
+      "cite": "507 U.S. 87",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6222836
+      ],
+      "weight": 3,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "97"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/507/0087-01"
+      ]
+    },
+    {
+      "cite": "991 F.2d 907",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10515756
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "912",
+          "parenthetical": "alteration in original"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/991/0907-01"
+      ]
+    },
+    {
+      "cite": "706 F.3d 16",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3662504
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "20"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/706/0016-01"
+      ]
+    },
+    {
+      "cite": "744 F.3d 229",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4120674
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "232"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/744/0229-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 4241",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(d)"
+        },
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 U.S.C. \u00a7 7201",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 1344",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(2)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1523,
+    "char_count": 35568,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2595058630831373
+    },
+    "sha256": "c155ec45cf44eedbbcae6ca11a3ee8375652ce68ce93d3028e6b9e4752b2473a",
+    "simhash": "1:32c2f268ab0b07e9",
+    "word_count": 5451
+  },
+  "last_updated": "2024-02-27T18:36:46.175025+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Torruella, Selya, and Kayatta, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Appellee,\nv.\nSteven NYGREN, Defendant, Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "SELYA, Circuit Judge.\nThis sentencing appeal poses a question of first impression in this circuit: may feigned incompetency comprise the basis for an obstruction-of-justice enhancement and, thus, support an upward offense-level adjustment under USSG \u00a7 3C1.1 ? We answer this question in the affirmative, reject the defendant's other assignments of error, and affirm his sentence.\nI. BACKGROUND\nWe start by rehearsing the relevant facts and travel of the case. During the summer of 2014, defendant-appellant Steven Nygren was hired as the chief financial officer of Brooklin Boat Yard (the Boatyard), a closely held corporation located in Brooklin, Maine. Almost immediately, he began fleecing his new employer: in little more than a year, he forged at least 63 checks, totaling over $732,000, and deposited the proceeds into an account that he controlled. During the same time span, he also racked up more than $83,000 in unauthorized purchases on the Boatyard's credit cards. Some of the money was spent on personal expenses and the rest was invested in a store owned by the defendant.\nDiscovering that the Boatyard's coffers had been depleted, the Boatyard's owner notified authorities of his suspicion that the defendant had been forging checks. In a surreptitiously recorded conversation with the owner on September 13, 2015, the defendant admitted to stealing money. The defendant then went on the offensive, circulating a letter at his store, which stated that \"there are at least 2 sides to every story\" and that \"nothing is ever as it seems.\" The letter also accused the Boatyard's management of misspending and of paying \"hush up money\" to women.\nThree days after the surreptitiously recorded conversation, law enforcement officers executed both arrest and search warrants at the defendant's home. In due course, a federal grand jury sitting in the District of Maine charged the defendant with 63 counts of bank fraud, see 18 U.S.C. \u00a7 1344(2), one count of use of an unauthorized device, see id. \u00a7 1029(a)(2), and one count of tax evasion, see 26 U.S.C. \u00a7 7201. The tax evasion count was based upon the defendant's history of filing false or incomplete tax returns (or sometimes, no tax return at all).\nOn August 25, 2016, the defendant - who had suffered a stroke four months earlier - appeared before a magistrate judge for initial presentment. Noting that the defendant's medical condition and motion to obtain a competency evaluation combined to raise a question of competency, the magistrate judge deferred the matter for 60 days. At his postponed arraignment on October 24, 2016, the defendant pleaded not guilty to all counts and indicated that he planned to file a motion for a competency hearing. See 18 U.S.C. \u00a7 4241(a) - (c). That motion was filed two weeks later, accompanied by a letter from the defendant's treating neurologist and a forensic competency report prepared by a retained expert. The neurologist's letter noted that the defendant's stroke had caused \"profound deficits\" affecting his cognition and memory that could last \"several months, but will slowly improve over time.\" The retained expert who prepared the competency report had reviewed the defendant's medical records, examined the defendant, and interviewed the defendant and his wife. He concluded that - at the time - the defendant was not legally competent to stand trial.\nThe government objected to the motion for a competency hearing. It pointed out, among other things, that the defendant had performed poorly on two tests administered by the defendant's expert to detect malingering: the test of memory malingering (TOMM) and the validity indicator profile (VIP), the latter being \"designed to identify valid and invalid responding.\" Based on his extremely low scores on these tests, the expert's report warned that the defendant might have been exaggerating his memory difficulties. The district court nonetheless overruled the government's objection and granted the defendant's motion for a competency hearing. The court ordered, though, that the defendant continue his rehabilitation and undergo a second competency evaluation at a government facility.\nThe second competency evaluation was conducted at a federal Bureau of Prisons (BOP) facility in February and March of 2017. The BOP evaluator concluded that the defendant was legally competent to stand trial - a conclusion based in part on her assessment that the defendant had applied insufficient effort during the examination process, resulting in feigned or exaggerated cognitive limitations consistent with malingering. The evaluator began by administering the Minnesota Multiphasic Personality Inventory - Second Edition, a test which includes \"validity scales designed to detect random responding as well as attempts by an examinee to distort results in a positive or negative direction.\" The defendant's results on these validity scales, she concluded, were consistent with the exaggeration of brain injury, cognitive dysfunction, and disability. Then - after the defendant had once again failed the same two malingering tests earlier administered by his own retained expert - the BOP evaluator terminated her examination, stating that the defendant's results on those three tests \"would serve to invalidate any measures of cognitive functioning.\" With respect to the TOMM, the evaluator specifically found that the defendant's \"scores were significantly below those that would be expected even of individuals presenting with the most severe effects of traumatic brain injury.\" She also specifically found that the defendant's self-described memory deficits surrounding the circumstances of his alleged crimes were \"inconsistent with any known memory functions.\" The defendant was then re-examined by his own expert, who concurred with the conclusion that the defendant was legally competent.\nIn the wake of these reports, the defendant sought to withdraw his request for a competency hearing and to change his plea. The district court, unwilling to accept the defendant's stipulation to his competency, said that it would conduct a colloquy and make findings on the defendant's competency before considering the defendant's proposed change of plea. At a combined competency and change-of-plea hearing, see Fed. R. Crim. P. 11, the court found the defendant legally competent and accepted his guilty plea to all counts.\nBut that was not the end of the brouhaha over competency. In the initial presentence investigation report (PSI Report), the probation officer recommended a two-level enhancement for obstruction of justice, see USSG \u00a7 3C1.1, premised on the defendant's \"systematic, sustained, and intentional under performance on objective testing as part of his evaluations in an effort to present as incompetent to avoid legal culpability.\" Employing similar reasoning, the probation officer recommended against an offense-level reduction for acceptance of responsibility. See USSG \u00a7 3E1.1. Even though the defendant objected to these recommendations, both were maintained in the final version of the PSI Report.\nAt a presentence conference, the defendant reiterated his objections to the PSI Report and apprised the district court of his desire to offer expert testimony at the disposition hearing. The government responded that it would present its own expert testimony and chronicled additional conduct of the defendant that it viewed as relevant to the disputed recommendations (including circulating the letter at the store). Following the conference, the government filed a sentencing memorandum and the defendant filed a rejoinder.\nThe district court convened the disposition hearing on May 25, 2018. After hearing the proffered expert testimony and reviewing the relevant materials, the court found that the government had shown by preponderant evidence that the defendant had attempted to obstruct justice through his efforts \"to manipulate consciously and deliberately the psychological evaluations in order to skew the justice system in his favor.\" Accordingly, the court concluded that an obstruction-of-justice enhancement was appropriate. Then, citing the strong inverse relationship between obstruction of justice and acceptance of responsibility, the court found that the defendant had not carried his burden of showing that he qualified for an acceptance-of-responsibility credit. It added that, in any event, the defendant's distribution of the letter (which denied responsibility for the charged crimes and tried to shift the blame to the Boatyard's owner) was inconsistent with acceptance of responsibility.\nThe applicable guideline sentencing range (GSR), calculated with an enhancement for obstruction of justice and without a credit for acceptance of responsibility, was 87-108 months. The district court proceeded to sentence the defendant to 95-month incarcerative terms on each of the 63 bank-fraud counts and 60-month incarcerative terms on the two remaining counts, with all sentences to run concurrently. The court also ordered the defendant to pay restitution in the amount of $815,496.27. This timely appeal followed.\nII. ANALYSIS\nIn this venue, the defendant asserts that his sentence was procedurally flawed due to two errors in the calculation of his GSR. \"Federal criminal sentences imposed under the advisory guidelines regime are reviewed for abuse of discretion.\" United States v. Santiago-Rivera, 744 F.3d 229, 232 (1st Cir. 2014). Within this rubric, we consider claims of procedural error by \"assay[ing] the district court's factfinding for clear error and afford[ing] de novo consideration to its interpretation and application of the sentencing guidelines.\" United States v. Flores-Machicote, 706 F.3d 16, 20 (1st Cir. 2013).\nA. Obstruction of Justice.\nThe defendant's principal plaint concerns the district court's determination that an offense-level enhancement for obstruction of justice was warranted. This determination was premised upon the court's finding that the defendant feigned incompetency. The defendant challenges that finding both as a matter of fact and as a matter of law.\n\"[T]he obstruction-of-justice enhancement rests on the rationale that 'a defendant who commits a crime and then ... [makes] an unlawful attempt to avoid responsibility is more threatening to society and less deserving of leniency than a defendant who does not so defy' the criminal justice process.\" United States v. Emery, 991 F.2d 907, 912 (1st Cir. 1993) (alteration in original) (quoting United States v. Dunnigan, 507 U.S. 87, 97, 113 S.Ct. 1111, 122 L.Ed.2d 445 (1993) ). The applicable guideline provision instructs:\nIf (1) the defendant willfully obstructed or impeded, or attempted to obstruct or impede, the administration of justice with respect to the investigation, prosecution, or sentencing of the instant offense of conviction, and (2) the obstructive conduct related to (A) the defendant's offense of conviction and any relevant conduct; or (B) a closely related offense, [the sentencing court should] increase the offense level by 2 levels.\nUSSG \u00a7 3C1.1. The government must prove the applicability of this enhancement by a preponderance of the evidence. See United States v. Quirion, 714 F.3d 77, 79 (1st Cir. 2013).\nIt is a common-sense proposition that \"a defendant who feigns incompetency misrepresents his psychiatric condition to his examiners, intending that they will believe him and convey their inaccurate impressions to the court.\" United States v. Greer, 158 F.3d 228, 237 (5th Cir. 1998). We review a factual finding of feigned incompetency only for clear error, and we will disturb such a finding \"only if a review of the record leaves us 'with the definite and firm conviction that a mistake has been committed.' \" Quirion, 714 F.3d at 79-80 (quoting United States v. U.S. Gypsum Co., 333 U.S. 364, 395, 68 S.Ct. 525, 92 L.Ed. 746 (1948) ).\nHere, the district court specifically found that the defendant had feigned incompetency, engaging in a pattern of malingering \"in order to skew the justice system in his favor.\" In making this finding, the district court acknowledged that the defendant suffered a significant medical episode that temporarily diminished his competency. But even though the defendant exerted effort in his rehabilitation process, initial examination by the defendant's own expert raised a substantial question of malingering, documented by the results of the TOMM and VIP tests. Noting this question, the district court wisely ordered further testing, which yielded similar - but more definitive - results. The court then heard testimony at the disposition hearing from both experts, who elaborated upon their earlier conclusions: the defendant's expert conceded that malingering was at least a possible explanation for the defendant's test scores, and the BOP expert cogently explained her conclusion that the defendant had malingered during both of his competency evaluations.\nThe district court implicitly found these experts credible. The defendant has pointed to nothing that would permit us to second-guess either this credibility determination or the feigned incompetency finding that flowed from it. See id. at 81 (\"Credibility determinations made at sentencing are peculiarly within the province of the district court and will rarely be disturbed on appeal.\"); United States v. Ruiz, 905 F.2d 499, 505 (1st Cir. 1990) (\"The witness'[s] credibility [i]s for the talesman - not for an appellate court.\"). Nor did the defendant challenge the validity of the malingering tests administered by the competency experts either through a request for a Daubert hearing, see Daubert v. Merrell Dow Pharm., Inc., 509 U.S. 579, 592-93, 113 S.Ct. 2786, 125 L.Ed.2d 469 (1993) (holding that Fed. R. Evid. 702 authorizes a \"preliminary assessment of whether the reasoning or methodology underlying the testimony [of an expert] is scientifically valid and of whether that reasoning or methodology properly can be applied to the facts in issue\"), or through arguments to the court.\nWe note, moreover, that the district court specifically rejected the defendant's argument that malingering was inconsistent with the defendant's concerted rehabilitation efforts. The court found it not at all implausible that a defendant would attempt to improve his condition through rehabilitation while simultaneously underperforming on tests relevant to his capacity to stand trial. So, too, the court was unswayed by the defendant's suggestion that his selective memory loss was not indicative of malingering but, rather, was indicative of a concern that information shared would be used against him (which the defendant now imaginatively recharacterizes as an unannounced invocation of this Fifth Amendment privilege against self-incrimination). These supportable findings come well within the district court's proper province.\nTo sum up, we discern no clear error in the district court's actual finding of feigned incompetency. See United States v. Batista, 483 F.3d 193, 195 (3d Cir. 2007) (concluding that district court did not clearly err in finding feigned incompetency where defendant underwent five examinations, the first of which found him incompetent); United States v. Aldawsari, 740 F.3d 1015, 1021 (5th Cir. 2014) (finding no clear error when district court relied on expert report concluding defendant had feigned incompetency, despite contrary expert testimony). \"[I]f there are two plausible views of the record, the sentencing court's choice between them cannot be clearly erroneous.\" United States v. Santos, 357 F.3d 136, 141 (1st Cir. 2004) ; accord Ruiz, 905 F.2d at 508.\nEven though we uphold the district court's factual finding of feigned incompetency, we still have some unfinished business. The court's use of that finding as the foundation of an obstruction-of-justice enhancement raises an important question, as yet unresolved in this circuit: may feigned incompetency comprise the basis for an obstruction-of-justice enhancement and, thus, support an upward offense-level adjustment under USSG \u00a7 3C1.1 ? This is a question of law, engendering de novo review. See United States v. Moreno, 947 F.2d 7, 10 (1st Cir. 1991).\nAlthough this is a question of first impression, we do not approach it without some guidance. The commentary to the sentencing guidelines, \"which we generally treat as authoritative unless it conflicts with federal law,\" United States v. Cates, 897 F.3d 349, 354 (1st Cir. 2018), is instructive. That commentary is circumspect as to the scope of what it means to obstruct the administration of justice, stating generally that \"the conduct to which th[e] adjustment applies is not subject to precise definition\" and adding that \"[o]bstructive conduct can vary widely in nature, degree of planning, and seriousness.\" USSG \u00a7 3C1.1 cmt. n.3.\nThe commentary does, however, describe some limitations to the enhancement's application. For instance, a defendant's choice to exercise a constitutional right does not constitute obstruction of justice. See id. cmt. n.2. Nor do inaccurate testimony or statements that \"result from confusion, mistake, or faulty memory.\" Id.\nThe application notes (part of the commentary) do supply a non-exhaustive list of examples of obstructive conduct. See id. cmt. n.4. That conduct includes, inter alia, \"threatening, intimidating, or otherwise unlawfully influencing a co-defendant, witness, or juror, directly or indirectly, or attempting to do so\"; \"producing or attempting to produce a false, altered, or counterfeit document or record during an official investigation or judicial proceeding\"; \"providing materially false information to a judge or magistrate judge\"; \"providing a materially false statement to a law enforcement officer that significantly obstructed or impeded the official investigation or prosecution of the instant offense\"; and \"providing materially false information to a probation officer in respect to a presentence or other investigation for the court.\" Id. This list can be compared with its inverse - a list entitled \"Examples of Conduct Ordinarily not Covered.\" Id. cmt. n.5. Pertinently, this list includes \"making false statements, not under oath, to law enforcement officers,\" unless such statements significantly obstructed or impeded the official investigation or prosecution of the instant offense, and \"providing incomplete or misleading information, not amounting to a material falsehood, in respect to a presentence investigation.\" Id. Feigning incompetency does not appear on either list.\nWe think the application notes make pellucid that obstruction of justice is capacious enough to encompass a broad swathe of conduct. See United States v. Voccola, 99 F.3d 37, 46 (1st Cir. 1996) (stating that the \"Application Notes are plain that a wide range of conduct will suffice to properly enhance a sentence for obstruction of justice\"); see also United States v. Maccado, 225 F.3d 766, 771 (D.C. Cir. 2000) (noting that \"egregious as well as non-egregious conduct\" alike appear within the covered conduct list). And in keeping with the tenor of those application notes, our determination must be tethered to considerations such as the nature and gravity of the defendant's conduct and the likelihood that such conduct will interfere with the administration of justice. See United States v. Wahlstrom, 588 F.3d 538, 544 (8th Cir. 2009) (citing USSG \u00a7 3C1.1 cmt. n.3); Greer, 158 F.3d at 235.\nAgainst this backdrop, we turn to the case at hand. At the outset, we note that the type of conduct involved in feigning incompetency closely resembles several of the listed examples of obstructive conduct (including attempting to produce a false record and providing materially false information to a judge or probation officer). And since a defendant \"is accountable for [his] own conduct and for conduct that [he] ... counseled, commanded, induced, procured, or willfully caused,\" USSG \u00a7 3C1.1 cmt. n.9, it seems logical that he should be held responsible for erroneous conclusions that he has caused another to reach. See United States v. Owolabi, 69 F.3d 156, 164 (7th Cir. 1995) (upholding district court's imposition of enhancement when defendant, inter alia, \"most assuredly facilitated the conveying of false information to the court through his counsel\"). Seen in this light, feigned incompetency fits neatly within the listed examples of obstructing conduct. See United States v. Cline, 332 F. App'x 905, 910-11 (4th Cir. 2009) ; Greer, 158 F.3d at 235.\nIn all events, the guideline commentary strongly suggests that the obstruction-of-justice enhancement should be construed to encompass feigned incompetency. Such conduct is \"serious[ ],\" USSG \u00a7 3C1.1 cmt. n.3, as criminal proceedings are stalled while a defendant is deemed incompetent to stand trial, see 18 U.S.C. \u00a7 4241(d). In addition, feigning incompetency in order to secure protections put in place for those who are actually unfit to stand trial threatens to undermine those protections. Thus, such opprobrious conduct has the potential not only to evade justice in the individual case but also to disrupt the administration of justice more broadly.\nThere is more. Regardless of whether a defendant's pretense of incompetency is successful, a serious risk exists that his efforts will significantly impede or at least delay the progress of his case. After all, a court confronted with a question of legal competency must tread carefully and determine whether the defendant has \"sufficient present ability to consult with his lawyer ... [and] a rational as well as factual understanding of the proceedings against him.\" Rosenthal v. O'Brien, 713 F.3d 676, 684 (1st Cir. 2013) (quoting Dusky v. United States, 362 U.S. 402, 402, 80 S.Ct. 788, 4 L.Ed.2d 824 (1960) (per curiam)); see 18 U.S.C. \u00a7 4241(a). This is often a painstaking, drawn-out process. Consequently, even if the court ultimately finds the defendant competent, substantial time and resources will likely have gone down the drain due to the defendant's malingering.\nThis reasoning applies with equal force when a defendant has not spun a fictitious illness from whole cloth but, rather, has willfully exaggerated the symptoms of a genuine illness in a manner intended to influence a competency assessment. See Batista, 483 F.3d at 195-96 (affirming district court's feigned incompetency finding when defendant intentionally did not take medication \"to increase his chances of being found incompetent\"); United States v. Patti, 337 F.3d 1317, 1320, 1325 (11th Cir. 2003) (affirming application of enhancement based on feigned incompetency when defendant exaggerated symptoms after car accident). After all, \"even if there is sufficient evidence to justify a competency hearing absent the defendant's machinations, feigning incompetency during a psychiatric evaluation would always seem to increase the risk that the defendant will erroneously be found incompetent.\" Greer, 158 F.3d at 238.\nOf course, a criminal defendant should not have to fear that raising a genuine question of competency will adversely affect his case. But we are confident that imposing an obstruction-of-justice enhancement on a defendant who deliberately feigns incompetency in order either to avoid or delay his trial (and, thus, his punishment) will not subject his right to request a competency hearing to an unconstitutional chilling effect. Accord United States v. Bonnett, 872 F.3d 1045, 1046-47 (9th Cir. 2017) (per curiam); Batista, 483 F.3d at 197-98 ; Patti, 337 F.3d at 1325 ; Greer, 158 F.3d at 237. \"While a criminal defendant possesses a constitutional right to a competency hearing if a bona fide doubt exists as to his competency, he surely does not have the right to create a doubt as to his competency or to increase the chances that he will be found incompetent by feigning mental illness.\" Greer, 158 F.3d at 237. We add, moreover, that interpreting the obstruction-of-justice enhancement to encompass feigned incompetency serves to bolster the constitutional rights of those who are legally incompetent by discouraging imposters. After all, without this means of deterrence, judges no doubt would feel obligated to approach any invocation of those rights with greater skepticism. We hold, therefore, that feigned incompetency may comprise the basis for an obstruction-of-justice enhancement. This holding aligns our court with all of our sister circuits that have spoken to the issue. See Bonnett, 872 F.3d at 1047 ; United States v. Wilbourn, 778 F.3d 682, 684-85 (7th Cir. 2015) ; Cline, 332 F. App'x at 909 ; Batista, 483 F.3d at 197 ; United States v. Binion, 132 F. App'x 89, 93 (8th Cir. 2005) (per curiam); Patti, 337 F.3d at 1325 ; Greer, 158 F.3d at 235.\nThe defendant struggles to deflect this holding. He argues that his efforts to feign incompetency were not material, that they were not related to any relevant conduct, and that, in any event, his malingering did not significantly obstruct or impede the investigation or prosecution of the charged crimes. These arguments lack force.\nThe first component of the defendant's asservational array rests on a problematic premise. He posits that his false statements to competency evaluators must cross a materiality threshold before triggering the enhancement. This argument sweeps too broadly: although materiality is mentioned in the application notes and is defined as \"evidence, fact, statement, or information that, if believed, would tend to influence or affect the issue under determination,\" USSG \u00a7 3C1.1 cmt. n.6, the application notes do not uniformly demand a finding of materiality. Only a handful of the examples (those related to providing materially false information or statements) contain such a requirement. See id. cmt. n.4.\nHere, however, we need not decide whether the materiality requirement applies beyond those delineated examples. Ordinarily, \"materiality is a case-by-case issue,\" United States v. Biyaga, 9 F.3d 204, 205 (1st Cir. 1993), and we review a district court's finding of materiality for clear error, see United States v. Feldman, 83 F.3d 9, 13 (1st Cir. 1996). Having discerned no clear error in the district court's finding that the defendant engaged in a pattern of malingering that amounted to feigned incompetency, we can safely say that if a materiality requirement pertains here, it would be satisfied. As the Fifth Circuit has observed, \"a criminal defendant's sanity is always material: If he succeeds at convincing the court of his incompetency, he does not only increase his chances at acquittal, as he would if he committed perjury or falsified a record; he makes it impossible to even try him.\" Greer, 158 F.3d at 235. It follows, we think, that a finding of feigned incompetency will usually jump any hurdle posed by a materiality requirement.\nNext, the defendant argues that his obstructive conduct was not related to any relevant conduct. This argument draws its essence from the requirement that obstructive conduct must be \"related to ... the defendant's offense of conviction and any relevant conduct.\" USSG \u00a7 3C1.1. In turn, the guidelines define \"relevant conduct\" as \"all acts and omissions committed, aided, abetted, counseled, commanded, induced, procured, or willfully caused by the defendant ... that occurred during the commission of the offense of conviction, in preparation for that offense, or in the course of attempting to avoid detention or responsibility for that offense.\" Id. \u00a7 1B1.3(a)(1).\nThe defendant submits that his actions did not comprise an attempt to avoid responsibility for his crimes because he did not possess the requisite intent. See United States v. White, 335 F.3d 1314, 1319 (11th Cir. 2003) (holding that inquiry into relevant conduct \"requires the sentencing judge to assess the defendant's intent for committing the additional crime\"). Effectively, then, the defendant invites us to retrace his steps to determine whether he participated in good faith in the serial competency evaluations. We decline his invitation: we already have determined that the district court did not commit clear error in finding that the defendant feigned incompetency \"in order to skew the justice system in his favor,\" and this finding implicitly incorporates a subsidiary finding that the defendant acted with the intent to avoid responsibility for his crimes. His conduct was, therefore, undeniably \"relevant.\"\nThe defendant's final sally fares no better. He contends that feigned incompetency may comprise obstruction of justice only when it \"significantly obstructed or impeded the official investigation or prosecution of the instant offense.\" This language is derived from one (and only one) of the examples of covered conduct in the application notes: \"providing a materially false statement to a law enforcement officer.\" USSG \u00a7 3C1.1 cmt. n.4(G). But that cherry-picked example can be contrasted with two other examples, which specify, respectively, that an obstruction-of-justice enhancement may lie when a defendant provides \"materially false information to a judge or magistrate judge\" or \"to a probation officer in respect to a presentence or other investigation for the court.\" Id. cmt. n.4(F), (H). These latter examples carry no requirement that the conduct must have \"significantly obstructed or impeded\" the case. And since attempted conduct may ground the enhancement, see USSG \u00a7 3C1.1 ; see also Wilbourn, 778 F.3d at 684 (\"[S]uccess is not a requirement for imposing an enhancement for obstruction of justice - an attempt will do as well.\"), it is plain that the offending conduct need not have had any effect on the case.\nIn an effort to turn the tide, the defendant counters that the statements at issue here were provided \"to someone other than a court officer\" and, thus, his conduct bears a closer resemblance to providing false information to a law enforcement officer. So, he says, his conduct could not comprise obstruction of justice within the purview of the enhancement unless it impeded the progress of the case. This construction elevates hope over reason.\nStripped to its essence, the defendant's conduct is more similar to providing materially false information to a probation officer than to a law enforcement officer. Like the role of a probation officer, the role of a competency evaluator is to furnish relevant information to the court. Necessarily, then, statements to a competency evaluator are made with the defendant's full knowledge that they are likely to impact his court case. In contrast, communications to law enforcement officers face a higher bar because such communications are often \"made on the spur of the moment and [may] reflect panic, confusion, or mistake.\" Greer, 158 F.3d at 235. We deem it implausible that the extra precautions surrounding obstructive conduct occurring in interactions with law enforcement officers were intended to extend to a context in which no similar concerns arise. Thus, we reject the defendant's argument and conclude that in order to impose the enhancement, a sentencing court is not required to find that an incompetency-feigning defendant has, in the process, significantly obstructed or impeded the official investigation or prosecution of the crimes charged.\nThat ends this aspect of the matter. We discern no error in the district court's application of the obstruction-of-justice enhancement on the basis of the defendant's feigned incompetency.\nB. Acceptance of Responsibility .\nThe defendant has another string to his bow: he takes aim at the district court's refusal to grant him an offense-level reduction for acceptance of responsibility. See USSG \u00a7 3E1.1. The defendant's arrow misses his target.\nA reduction for acceptance of responsibility is available \"[i]f the defendant clearly demonstrates acceptance of responsibility for his offense.\" Id. A \"defendant has the burden of proving his entitlement to an acceptance-of-responsibility credit, and the sentencing court's determination to withhold the reduction will be overturned only if it is clearly erroneous.\" United States v. Franky-Ortiz, 230 F.3d 405, 408 (1st Cir. 2000) (quoting United States v. Ocasio-Rivera, 991 F.2d 1, 4 (1st Cir. 1993) ).\nOur determination that the sentencing court did not err in imposing an obstruction-of-justice enhancement goes a long way toward defeating the defendant's quest for an acceptance-of-responsibility credit. Barring some extraordinary circumstance or set of circumstances, a defendant who has received an obstruction-of-justice enhancement normally is ineligible for an acceptance-of-responsibility credit. See USSG \u00a7 3E1.1 cmt. n.4. The instances in which the two may go hand in hand are \"hen's-teeth rare.\" United States v. Maguire, 752 F.3d 1, 6 (1st Cir. 2014).\nThere are no hen's teeth to be found here. The district court explicitly found that \"the case [wa]s not extraordinary,\" remarking that the defendant's pretended incompetency went \"to the very heart of the judicial process.\" The defendant identifies no error in this finding, instead reiterating his arguments against the court's application of the obstruction-of-justice enhancement in the first place. In any event, this finding easily passes muster under clear-error review and, therefore, the court's refusal to shrink the defendant's offense level for acceptance of responsibility is unimpugnable.\nIII. CONCLUSION\nWe need go no further. For the reasons elucidated above, the judgment of the district court is\nAffirmed.\nWithout regard for its earlier commitment to allow the presentation of expert testimony at the disposition hearing, the district court issued a written sentencing order on April 10, 2018. After the defendant objected, the court vacated the written sentencing order. Because that order is a nullity, we do not discuss it further.\nOf course, a sentencing court may take any such impediment (or the absence thereof) into account when determining whether to impose the obstruction-of-justice enhancement. See Batista, 483 F.3d at 197 ; Patti, 337 F.3d at 1325. Although we cannot know precisely how the defendant's case would have unfolded absent his malingering, in part due to the legitimate question of competency raised by his stroke, it is crystal clear that his conduct delayed proceedings by at least several months. So viewed, the district court had ample reason to find that this delay supported application of the enhancement.\nThis supportable finding makes it unnecessary for us to address the defendant's attack on the district court's alternative finding that the defendant's circulation of the blame-shifting letter at his store indicated that he had not accepted responsibility for his crimes. For the sake of completeness, though, we note that the defendant's argument - that conduct preceding the filing of federal charges cannot be considered when assessing acceptance of responsibility - was not aired below. Since \"legal theories not raised squarely in the lower court cannot be broached for the first time on appeal,\" Teamsters Union, Local No. 59 v. Superline Transp. Co., 953 F.2d 17, 21 (1st Cir. 1992), the argument is waived.",
+        "type": "majority",
+        "author": "SELYA, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Heather Clark, New Haven, CT, with whom Clark Law Office was on brief, for appellant.",
+      "Benjamin M. Block, Assistant United States Attorney, with whom Halsey B. Frank, United States Attorney, was on brief, for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Appellee,\nv.\nSteven NYGREN, Defendant, Appellant.\nNo. 18-1548\nUnited States Court of Appeals, First Circuit.\nAugust 6, 2019\nHeather Clark, New Haven, CT, with whom Clark Law Office was on brief, for appellant.\nBenjamin M. Block, Assistant United States Attorney, with whom Halsey B. Frank, United States Attorney, was on brief, for appellee.\nBefore Torruella, Selya, and Kayatta, Circuit Judges."
+  },
+  "file_name": "0076-01",
+  "first_page_order": 76,
+  "last_page_order": 89
+}

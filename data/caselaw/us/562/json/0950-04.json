@@ -1,0 +1,61 @@
+{
+  "id": 5942641,
+  "name": "Chavez-Silva v. United States",
+  "name_abbreviation": "Chavez-Silva v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10531",
+  "first_page": "950",
+  "last_page": "950",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 950"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 157,
+    "ocr_confidence": 0.549,
+    "sha256": "c763b52d7af0db7ea261a15df2e4458e26219412735127952020001b8e4d1785",
+    "simhash": "1:9db3f38a2b86c84e",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Chavez-Silva v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10531.\nChavez-Silva v. United States."
+  },
+  "file_name": "0950-04",
+  "first_page_order": 972,
+  "last_page_order": 972
+}

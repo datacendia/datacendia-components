@@ -1,0 +1,59 @@
+{
+  "id": 5926496,
+  "name": "Williams v. Cain, Warden",
+  "name_abbreviation": "Williams v. Cain",
+  "decision_date": "2011-05-23",
+  "docket_number": "No. 10-9558",
+  "first_page": "1010",
+  "last_page": "1010",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1010"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.57,
+    "sha256": "9e75c98a0072f03030aacb02a2fdf06b4918e1cd7a7f66cb34cbdc9a3915f08b",
+    "simhash": "1:ec9c9b824948b66f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. Cain, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9558.\nWilliams v. Cain, Warden."
+  },
+  "file_name": "1010-08",
+  "first_page_order": 1036,
+  "last_page_order": 1036
+}

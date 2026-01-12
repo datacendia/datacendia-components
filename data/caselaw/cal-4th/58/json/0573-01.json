@@ -1,0 +1,638 @@
+{
+  "id": 4001111,
+  "name": "In re JOHNNY LIRA on Habeas Corpus",
+  "name_abbreviation": "In re Lira",
+  "decision_date": "2014-02-03",
+  "docket_number": "No. S204582",
+  "first_page": "573",
+  "last_page": "586",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "58 Cal. 4th 573"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal.",
+    "id": 9021,
+    "name": "Supreme Court of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "193 Cal.Rptr. 65",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "144 Cal.App.3d 927",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2103857
+      ],
+      "pin_cites": [
+        {
+          "page": "930, fn. 1"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/144/0927-01"
+      ]
+    },
+    {
+      "cite": "86 Cal.Rptr.3d 250",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "168 Cal.App.4th 1270",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5730839
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/168/1270-01"
+      ]
+    },
+    {
+      "cite": "442 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1532158
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "7"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/442/0001-01"
+      ]
+    },
+    {
+      "cite": "178 L.Ed.2d 732",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12439792,
+        6021024
+      ],
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "736"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/178/0732-01",
+        "/us/562/0216-01"
+      ]
+    },
+    {
+      "cite": "562 U.S. 216",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6021024,
+        12439792
+      ],
+      "weight": 2,
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "862"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/562/0216-01",
+        "/l-ed-2d/178/0732-01"
+      ]
+    },
+    {
+      "cite": "104 P.3d 783",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2011,
+      "opinion_index": 0
+    },
+    {
+      "cite": "23 Cal.Rptr.3d 417",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2011,
+      "opinion_index": 0
+    },
+    {
+      "cite": "34 Cal.4th 1061",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        633006
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1097"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/34/1061-01"
+      ]
+    },
+    {
+      "cite": "952 P.2d 1139",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "72 Cal.Rptr.2d 871",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "17 Cal.4th 932",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1550675
+      ],
+      "pin_cites": [
+        {
+          "page": "940"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/17/0932-01"
+      ]
+    },
+    {
+      "cite": "117 S.Ct. 2302",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "521 U.S. 702",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        916123
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "721"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/521/0702-01"
+      ]
+    },
+    {
+      "cite": "507 U.S. 292",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6228898
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "302"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/507/0292-01"
+      ]
+    },
+    {
+      "cite": "483 P.2d 1206",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "94 Cal.Rptr. 254",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "4 Cal.3d 613",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2319629
+      ],
+      "pin_cites": [
+        {
+          "page": "619"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/4/0613-01"
+      ]
+    },
+    {
+      "cite": "3 Cal.Rptr.2d 821",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "2 Cal.App.4th 1363",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        2304451
+      ],
+      "pin_cites": [
+        {
+          "page": "1368-1369"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/2/1363-01"
+      ]
+    },
+    {
+      "cite": "118 Cal.Rptr.3d 900",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "190 Cal.App.4th 1291",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4227277
+      ],
+      "pin_cites": [
+        {
+          "page": "1310"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/190/1291-01"
+      ]
+    },
+    {
+      "cite": "90 Cal.Rptr.3d 678",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "172 Cal.App.4th 32",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3964500
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/172/0032-01"
+      ]
+    },
+    {
+      "cite": "217 Cal.Rptr. 535",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "171 Cal.App.3d 638",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2152135
+      ],
+      "pin_cites": [
+        {
+          "page": "642"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/171/0638-01"
+      ]
+    },
+    {
+      "cite": "244 Cal.Rptr. 648",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1985,
+      "opinion_index": 0
+    },
+    {
+      "cite": "199 Cal.App.3d 271",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4403019
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "273"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/199/0271-01"
+      ]
+    },
+    {
+      "cite": "171 Cal.Rptr. 459",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1988,
+      "opinion_index": 0
+    },
+    {
+      "cite": "115 Cal.App.3d 647",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        6043778
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "650"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/115/0647-01"
+      ]
+    },
+    {
+      "cite": "186 Cal.Rptr. 269",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1981,
+      "opinion_index": 0
+    },
+    {
+      "cite": "136 Cal.App.3d 472",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2094834
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "476"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/136/0472-01"
+      ]
+    },
+    {
+      "cite": "263 Cal.Rptr. 768",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1982,
+      "opinion_index": 0
+    },
+    {
+      "cite": "215 Cal.App.3d 790",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4448097
+      ],
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "795"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/215/0790-01"
+      ]
+    },
+    {
+      "cite": "118 Cal.Rptr.3d 399",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "190 Cal.App.4th 447",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4227316
+      ],
+      "pin_cites": [
+        {
+          "page": "473-474"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/190/0447-01"
+      ]
+    },
+    {
+      "cite": "234 P.3d 541",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "112 Cal.Rptr.3d 291",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "50 Cal.4th 238",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3910241
+      ],
+      "pin_cites": [
+        {
+          "page": "257, fn. 12"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/50/0238-01"
+      ]
+    },
+    {
+      "cite": "74 Cal.Rptr.3d 256",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "161 Cal.App.4th 133",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3995864
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/161/0133-01"
+      ]
+    },
+    {
+      "cite": "45 Cal.Rptr.2d 34",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 Cal.App.4th 209",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6045307
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/38/0209-01"
+      ]
+    },
+    {
+      "cite": "59 P.3d 174",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "128 Cal.Rptr.2d 104",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Cal.4th 616",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        777217
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "677"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/29/0616-01"
+      ]
+    },
+    {
+      "cite": "190 P.3d 535",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2002,
+      "opinion_index": 0
+    },
+    {
+      "cite": "82 Cal.Rptr.3d 169",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2002,
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.4th 1181",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3887927
+      ],
+      "weight": 2,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "1220-1221"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/44/1181-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1112,
+    "char_count": 27085,
+    "ocr_confidence": 0.876,
+    "pagerank": {
+      "raw": 1.1036827036048728e-07,
+      "percentile": 0.5689937907576851
+    },
+    "sha256": "63d24ed79b7cc26126cf9a778ea93a5e6b5796bfd5305d8c7c64d158a8c0a442",
+    "simhash": "1:f97c612e076485e0",
+    "word_count": 4289
+  },
+  "last_updated": "2024-02-27T23:07:49.858399+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re JOHNNY LIRA on Habeas Corpus."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nWERDEGAR, J.\nA life inmate is found suitable for parole and given a parole date by the Board of Parole Hearings (the Board). The Governor reverses the grant of parole, the inmate challenges the reversal by petition for writ of habeas corpus, and while the petition is pending the Board again finds the inmate suitable and sets another parole date. The Governor does not review the second decision, and the inmate is released from prison, subject to a maximum five-year parole term under the applicable statute. If the court subsequently grants relief on the inmate\u2019s habeas corpus petition and overturns the Governor\u2019s earlier reversal for want of supporting evidence, is the inmate entitled to credit against his parole term for the time he spent in prison between the erroneous reversal and his eventual release? We conclude he is not.\nI. FACTUAL AND PROCEDURAL BACKGROUND\nBecause the circumstances of the underlying offense are not relevant to the issue before us, we summarize them only briefly. Johnny Lira was convicted of second degree murder for the 1980 shooting death of his estranged wife. He was sentenced in 1981 to an indeterminate term of 15 years to life in prison, consecutive to a two-year firearm-use enhancement, and was subject to a parole term not to exceed five years upon his release. (Pen. Code, former \u00a7\u00a7 3000, subd. (b), 3001, subd. (b); Stats. 1978, ch. 582, \u00a7\u00a7 1, 2, pp. 2002-2004.)\nIn December 2005, the Board denied Lira parole for the ninth time, a denial Lira successfully challenged by filing a petition for writ of habeas corpus in superior court. The superior court, in an order affirmed on appeal, ordered a new parole hearing, which the Board conducted in November 2008. At the new hearing the Board found Lira suitable for parole, a decision then Governor Schwarzenegger reversed in April 2009. Lira challenged the Governor\u2019s reversal by filing a second habeas corpus petition in superior court. While that petition was pending, at a regularly scheduled parole hearing on November 3, 2009, the Board again found Lira suitable for parole, a decision the Governor declined to review. Lira was paroled on April 8, 2010.\nLira then filed a supplemental habeas corpus petition, arguing that his release did not moot the pending petition challenging the Governor\u2019s reversal of the Board\u2019s 2008 finding of suitability, and seeking credit against his parole term for all the time he spent in prison after the Board\u2019s deficient 2005 unsuitability finding. The superior court granted relief, finding the Board and the Governor had each acted unlawfully in denying Lira parole and ordering that he receive credit against his parole term for the period spanning the date on which a favorable 2005 parole decision by the Board would have been effective to the date of Lira\u2019s actual release from prison. The Attorney General, on behalf of respondent, appealed.\nThe Court of Appeal rejected Lira\u2019s argument that he was entitled to credit for the entire period he spent in prison following the Board\u2019s deficient 2005 suitability finding, but affirmed the superior court\u2019s conclusion that the Governor\u2019s reversal of the Board\u2019s 2008 parole grant was not supported by \u201csome evidence\u201d as required by law. (See In re Lawrence (2008) 44 Cal.4th 1181, 1220-1221 [82 Cal.Rptr.3d 169, 190 P.3d 535]; In re Rosenkrantz (2002) 29 Cal.4th 616, 677 [128 Cal.Rptr.2d 104, 59 P.3d 174].) The court modified the order granting relief to provide credit only for the yearlong period between the Governor\u2019s 2009 reversal and Lira\u2019s actual 2010 release on parole.\nWe granted the Attorney General\u2019s petition for review, which raised only the credit issue.\nII. DISCUSSION\nNo statute governing sentence credit specifically authorizes credit against a parole term under the present set of facts, but Lira argues sections 2900 and 2900.5 together provide the foundation for his claim. Section 2900, subdivision (c), provides that all time served in custody is to be credited as service of the term of imprisonment, which in turn is defined in section 2900.5, subdivision (c), to include any period of imprisonment and parole. Lira argues his confinement beyond the date on which the Board\u2019s suitability decision would have become effective, but for the Governor\u2019s reversal, was unlawful and, as such, should be credited not against his term of imprisonment but against his term of parole.\nThe Attorney General contends there was nothing unlawful about Lira\u2019s confinement, and that all of the time he spent in custody was properly credited to his life term of imprisonment. The Attorney General argues, as well, that recognition of a credit against Lira\u2019s parole period would conflict with former section 3001, subdivision (b), which she contends should be read as providing that the period of parole begins only after release from prison and not on some theoretical retrospective date, such as the date the Board\u2019s decision would have taken effect.\nWe first summarize the statutes that are most relevant to the issues presented in this case.\nSections 3000 and 3001, in the Penal Code chapter entitled Length of Term of Imprisonment and Paroles, set forth the general requirement of a period of parole and its length, respectively. At the time of Lira\u2019s crime and thus as applicable here, section 3000 provided in pertinent part: \u201cThe Legislature finds and declares that the period immediately following incarceration is critical to successful reintegration of the offender into society and to positive citizenship. It is in the interest of public safety for the state to provide for the supervision of and surveillance of parolees and to provide educational, vocational, family and personal counseling necessary to assist parolees in the transition between imprisonment and discharge. A sentence pursuant to Section 1168 [providing for indeterminate sentencing] . . . shall include a period of parole, unless waived, as provided in this section.\u201d Subdivision (b) of section 3000 provided for a maximum parole period of five years for an inmate, like Lira, who was imprisoned for second degree murder committed before 1983. (Stats. 1978, ch. 582, \u00a7 1, pp. 2002, 2003.)\nSection 3001, subdivision (b), at the time of Lira\u2019s crime and as relevant here, provided: \u201cNotwithstanding any other provision of law, when any person referred to in subdivision (b) of Section 3000 has been released on parole from the state prison, and has been on parole continuously for three years since release from confinement, the board shall, within 30 days, discharge such person from parole, unless the board, for good cause, determines that such person will be retained on parole.\u201d (Stats. 1978, ch. 582, \u00a7 2, p. 2004.) Thus, although the maximum period of parole under the version of section 3000 applicable here is five years, a parolee will be discharged after service of three years\u2019 continuous parole unless the Board makes the requisite good cause finding. (See Cal. Code Regs., tit. 15, \u00a7 2535 et seq. [timing of and criteria to be employed in Board\u2019s parole discharge review]; see generally In re Carr (1995) 38 Cal.App.4th 209 [45 Cal.Rptr.2d 34].)\nSections 2900 and 2900.5, comprising part of article 1, Commencement of Term, in the chapter entitled Execution of Sentences of Imprisonment, require that time served in custody be credited against the sentence fixed by the judgment in a criminal action. Subdivision (c) of section 2900 states that, with exceptions not relevant here, \u201call time served in an institution designated by the Director of Corrections shall be credited as service of the term of imprisonment.\u201d Section 2900.5, subdivision (a), provides in relevant part: \u201cIn all felony . . . convictions, . . . when the defendant has been in custody, including, but not limited to, any time spent in a . . . prison . . . , all days of custody of the defendant. . . shall be credited upon his or her term of imprisonment . . . .\u201d Subdivision (c) of section 2900.5 in turn provides: \u201cFor the purposes of this section, \u2018term of imprisonment\u2019 includes any period of imprisonment imposed as a condition of probation or otherwise ordered by a court in imposing or suspending the imposition of any sentence, and also includes any term of imprisonment, including any period of imprisonment prior to release on parole and any period of imprisonment and parole, prior to discharge . . . .\u201d\nLira contends the Court of Appeal correctly concluded that his term of imprisonment properly ended on the date when he would have been released pursuant to the Board\u2019s 2008 parole grant but for the Governor\u2019s unsupported reversal, that the days he spent in custody between that date and the date of his eventual release constituted unlawful imprisonment, and that this period of assertedly unlawful imprisonment must be credited against his parole term under sections 2900 and 2900.5. In support, he cites In re Bush (2008) 161 Cal.App.4th 133 [74 Cal.Rptr.3d 256] (Bush), but that case does not assist him.\nIn Bush, a life prisoner claimed he was entitled to have his parole period reduced by time he spent in custody in excess of the base term ultimately set by the Board. In rejecting the claim, the court observed that the \u201cCalifornia Code of Regulations provides that a prisoner who has served more time in custody than the base term is entitled to immediate release,\u201d but is silent regarding any credit against the inmate\u2019s parole term. (Bush, supra, 161 Cal.App.4th at p. 142; see Cal. Code Regs., tit. 15, \u00a7 2289.) Contrary to the prisoner\u2019s argument, the court held that California Code of Regulations, title 15, section 2345, providing that \u201c \u2018[i]f any custody credit remains after deducting it from the offense to which it applies, the remaining credit shall be deducted from the parole period,\u2019 \u201d did not dictate recognition of such credit in the case of a life prisoner. (Bush, supra, at p. 143.) That section, the court reasoned, applies to determinate term prisoners whose presentence custody credit exceeds the sentence imposed, and results not only in the prisoners\u2019 not having to serve any prison time but in reduction of the parole period. (Ibid.) For life prisoners, the court noted, \u201cpreprison credits\u201d are \u201ctaken into account when the Board sets the base term,\u201d being applied to the base term itself to reduce its length. (Ibid., citing Cal. Code Regs., tit. 15, \u00a7 2289.)\nThe Bush court further rejected the prisoner\u2019s contention that section 2900.5, subdivision (c)\u2019s definition of \u201cterm of imprisonment,\u201d relating to the term against which custody must be credited, should be understood as limited to the base term ultimately set by the Board. The court construed section 2900.5, subdivision (c) to mean \u201c \u2018any period of imprisonment lawfully served,\u2019 \u201d including the time a prisoner \u201clawfully spends in prison custody awaiting a determination of suitability for parole, a construction of the statute that is consistent with the statutory scheme and promotes public policy.\u201d (Bush, supra, 161 Cal.App.4th at p. 143.) True, as Lira argues, the superior court in Bush had ordered that the prisoner receive credit against his parole period for time spent in prison custody after the last date he could have been lawfully held (the date his suitability determination became final), a four-month period attributable to the Governor\u2019s belated and ineffective request for en banc review of the Board\u2019s suitability determination. (Id. at pp. 139, 143, fn. 4.) But because the Attorney General did not challenge that order, the Court of Appeal had no occasion to address its propriety; Bush therefore is not authority for the proposition that a parolee is entitled to credit against his or her parole term for excess time in custody.\nLira nevertheless focuses on the Bush court\u2019s reference to the time a prisoner lawfully spends in prison custody as being credited against the prisoner\u2019s term of imprisonment, inferring that time unlawfully spent in custody must be credited against the parole period. He contends the period at issue in the present case was time unlawfully spent in custody because a court later determined the Governor\u2019s reversal was unsupported.\nLira\u2019s argument overlooks the significance of the Governor\u2019s independent constitutional authority to review parole suitability determinations. (Cal. Const., art. V, \u00a7 8, subd. (b); see Pen. Code, \u00a7 3041.2.) \u201cThe Governor has the authority to weigh suitability factors differently from the Board: \u2018Although \u201cthe Governor\u2019s decision must be based upon the same factors that restrict the Board in rendering its parole decision\u201d [citation], the Governor undertakes an independent, de novo review of the inmate\u2019s suitability for parole. [Citation.] Accordingly, the Governor has discretion to be \u201cmore stringent or cautious\u201d in determining whether a defendant poses an unreasonable risk to public safety.\u2019 [Citation.]\u201d (In re Prather (2010) 50 Cal.4th 238, 257, fn. 12 [112 Cal.Rptr.3d 291, 234 P.3d 541] (Prather).) The Governor\u2019s suitability review process takes time and, like other official duties, is presumed to be correctly carried out unless the contrary is established in appropriate proceedings. (Evid. Code, \u00a7 664.) The normal functioning of the Board\u2019s periodic parole hearing process likewise takes time. Moreover, even when a court determines that a gubernatorial reversal of a parole decision is unsupported, the remedy is not an order for the inmate\u2019s immediate release; rather, the court vacates the Governor\u2019s reversal, reinstates the Board\u2019s grant of parole, and directs the Board to conduct its usual proceedings for a release on parole. This allows the Board to account for any recent developments reflecting on the inmate\u2019s suitability for parole, and to rescind its grant if appropriate. (In re Twinn (2010) 190 Cal.App.4th 447, 473-474 [118 Cal.Rptr.3d 399]; cf. Prather, supra, at p. 258.) There is, thus, little room for Lira to argue that the Governor\u2019s reversal, later judicially determined to be unsupported, somehow retroactively rendered unlawful the period of his continued incarceration during the pendency of these processes.\nWe therefore agree with the Attorney General that Lira was lawfully imprisoned during this period until the day he was released, and that he received credit against his term of life imprisonment for all such days and is not entitled to any credit against his parole term.\nLira relies on certain decisions in which courts ordered that credits be applied to shorten the inmate\u2019s parole term. Those cases are distinguishable as involving ministerial application of various types of sentence credits earned by determinate term prisoners, not discretionary decisions by the executive branch regarding parole of life prisoners. (E.g., In re Randolph (1989) 215 Cal.App.3d 790, 795 [263 Cal.Rptr. 768] [credits for time \u201cout-to-court\u201d]; In re Anderson (1982) 136 Cal.App.3d 472, 476 [186 Cal.Rptr. 269] [presentence custody and conduct credits]; In re Ballard (1981) 115 Cal.App.3d 647, 650 [171 Cal.Rptr. 459] [same]; In re Carter (1988) 199 Cal.App.3d 271, 273 [244 Cal.Rptr. 648] [worktime credits]; In re Reina (1985) 171 Cal.App.3d 638, 642 [217 Cal.Rptr. 535] [day-for-day custody credits].) The considerations informing the sentence credit decisions Lira cites are inapplicable here. For the reasons previously discussed (see ante, at pp. 580-581), Lira\u2019s reliance on Bush, supra, 161 Cal.App.4th at page 143, footnote 4, is likewise misplaced.\nLira\u2019s effort to shorten his parole term based on the asserted unlawfulness of the portion of his term of imprisonment that followed the Governor\u2019s 2009 reversal also runs afoul of the rule that a parole term begins only after release from prison. In In re Chaudhary (2009) 172 Cal.App.4th 32 [90 Cal.Rptr.3d 678], a life prisoner sentenced after 1983 was subject under section 3000.1 to a lifetime parole term, with eligibility for discharge \u201c \u2018when [he] has been released on parole from the state prison, and has been on parole continuously for . . . five years . . . since release from confinement ....\u2019\u201d (In re Chaudhary, supra, at p. 37, quoting \u00a7 3000.1, subd. (b).) As in this case, the prisoner\u2019s release was delayed while the Governor\u2019s reversal of the parole grant was being litigated; the reversal was eventually set aside on appeal, leading to the prisoner\u2019s release on parole. The prisoner claimed credit against his parole term for the period between when his parole grant would have taken effect and his actual release date. The Court of Appeal rejected the claim, noting that \u201c[sjection 3000.1\u2019s five-year parole discharge eligibility requirement is expressly limited to the period of time after the parolee \u2018has been released on parole\u2019 and requires that the parolee serve five continuous years on parole \u2018since [the parolee\u2019s] release from confinement\u2019 \u201d {In re Chaudhary, supra, at p. 37.) The court added: \u201cBy placing these explicit limitations on the parole discharge eligibility requirement, the Legislature made unmistakably clear that a parolee must first have \u2018been released on parole\u2019 and must then complete five continuous years on parole after the parolee\u2019s \u2018release from confinement.\u2019 This intent explicitly precludes the application of any time spent in custody prior to release to satisfy any part of section 3000.1\u2019s five-year parole discharge eligibility requirement.\u201d (Ibid.', see In re Gomez (2010) 190 Cal.App.4th 1291, 1310 [118 Cal.Rptr.3d 900].)\nAlthough this case does not involve section 3000.1\u2019s five-year minimum parole discharge eligibility requirement in the context of a potential lifetime parole period, the language of the portion of former section 3001, subdivision (b) pertinent to this case is similar, and the Chaudhary court\u2019s analysis is therefore relevant and persuasive. In our view, Lira\u2019s argument (that a court\u2019s subsequent decision that the Governor\u2019s reversal was unsupported by some evidence rendered unlawful his custody during the intervening period, retroactively necessitating a credit against his parole term) would undermine the Legislature\u2019s intent in requiring the service of three continuous years of parole after release from confinement and therefore must be rejected. (Former \u00a7 3001, subd. (b).)\nLira also overlooks the significant separation of powers issues the rule he asks us to adopt would raise. \u201c \u2018The separation of powers principle is embodied in the California Constitution, which provides as follows in article III, section 3: \u201cThe powers of state government are legislative, executive, and judicial. Persons charged with the exercise of one power may not exercise either of the others except as permitted by this Constitution.\u201d \u201c \u2018The separation of powers doctrine limits the authority of one of the three branches of government to arrogate to itself the core functions of another branch. [Citations.]\u2019 [Citation.]\u201d [Citation.] Although the doctrine is not intended to prohibit one branch from taking action that might affect those of another branch, the doctrine is violated when the actions of one branch \u201cdefeat or materially impair the inherent functions of another branch. [Citation.]\u201d [Citation.] Intrusions by the judiciary into the executive branch\u2019s realm of parole matters may violate the separation of powers.\u2019 \u201d (Prather, supra, 50 Cal.4th at pp. 254-255.)\nAs the applicable statutes make clear, whether a period of parole is to be required and, if so, its duration and conditions are matters for the Board. (\u00a7\u00a7 3000, 3001, subd. (b); see People v. McMillion (1992) 2 Cal.App.4th 1363, 1368-1369 [3 Cal.Rptr.2d 821].) The Legislature has decreed that \u201cthe period immediately following incarceration is critical to successful reintegration of the offender into society and to positive citizenship.\u201d (\u00a7 3000, subd. (a)(1).) This remains true even when the Governor\u2019s reversal of a Board decision is unsupported and delays the prisoner\u2019s release from prison. Such circumstances, while unfortunate, do not diminish the Board\u2019s responsibility to decide, based on the factors it has identified as relevant, whether to retain a parolee on parole for as long as the law permits. (See Cal. Code Regs., tit. 15, \u00a7 2535, subd. (d) [retention criteria include nature of commitment offense, institutional adjustment, parole adjustment, whether the parolee has been returned to custody for controlled substance or psychiatric treatment, and special need for continued supervision for the safety of the parolee or the public].) A court\u2019s general authority, on habeas corpus, to craft a remedy \u201c \u2018as the justice of the case may require\u2019 \u201d (In re Crow (1971) 4 Cal.3d 613, 619 [94 Cal.Rptr. 254, 483 P.2d 1206], quoting \u00a7 1484) cannot license it to interfere with the Board\u2019s control over the length of a prisoner\u2019s parole term in the absence of specific statutory authorization not present here.\nLira contends he is entitled to the credit he seeks as a matter of fundamental fairness, founded in substantive due process. He points to language in In re Lawrence, supra, 44 Cal.4th 1181, and In re Rosenkrantz, supra, 29 Cal.4th 616, acknowledging that, in light of the constitutional liberty interest at stake, a court\u2019s review of parole suitability decisions encompasses more than \u201ca purely procedural standard of review,\u201d and is \u201csufficiently robust to reveal and remedy any evident deprivation of constitutional rights.\u201d (In re Lawrence, supra, at p. 1211, citing In re Rosenkrantz, supra, at p. 664.) In that context, we held that, \u201cwhen a court reviews a decision of the Board or the Governor, the relevant inquiry is whether some evidence supports the decision of the Board or the Governor that the inmate constitutes a current threat to public safety, and not merely whether some evidence confirms the existence of certain factual findings.\u201d (In re Lawrence, supra, at p. 1212, italics omitted.) But nothing in our disavowal of a purely formal or procedural standard of review of executive parole suitability decisions can be extrapolated to the present context to support a remedy that would effectively impose judicial control over the length of a parole term based on a parolee\u2019s claim that a suitability decision later judicially determined to be unsupported somehow rendered his confinement retroactively unlawful.\nAs the Attorney General correctly observes, the United States Supreme Court\u2019s substantive due process jurisprudence \u201cforbids the government to infringe certain \u2018fundamental\u2019 liberty interests at all, no matter what process is provided, unless the infringement is narrowly tailored to serve a compelling state interest.\u201d (Reno v. Flores (1993) 507 U.S. 292, 302 [123 L.Ed.2d 1, 113 S.Ct. 1439].) Substantive due process analysis begins with a \u201c \u2018careful description\u2019 of the asserted fundamental liberty interest.\u201d (Washington v. Glucksberg (1997) 521 U.S. 702, 721 [138 L.Ed.2d 772, 117 S.Ct. 2258, 117 S.Ct. 2302].) This \u201c \u2018careful description\u2019 \u201d must be concrete and particularized, rather than abstract and general. (Dawn D. v. Superior Court (1998) 17 Cal.4th 932, 940 [72 Cal.Rptr.2d 871, 952 P.2d 1139].)\nLira fails to propose such a description of the interest he asserts here. A life prisoner \u201c \u2018 \u201chas no \u2018vested right\u2019 to have his sentence fixed at the term first prescribed by the [parole authority] \u2018or any other period less than the maximum sentence provided by statute.\u2019 \u201d \u2019 \u201d (In re Dannenberg (2005) 34 Cal.4th 1061, 1097 [23 Cal.Rptr.3d 417, 104 P.3d 783]; see Swarthout v. Cooke (2011) 562 U.S. 216 [178 L.Ed.2d 732, 736, 131 S.Ct. 859, 862] [there is no right under the federal Const, to conditional release before the expiration of a valid sentence]; Greenholtz v. Nebraska Penal Inmates (1979) 442 U.S. 1, 7 [60 L.Ed.2d 668, 99 S.Ct. 2100].) While a life prisoner like Lira surely has a right to parole proceedings that comply with procedural due process, to a factually supported suitability decision, and to timely release from imprisonment upon a final determination of suitability, Lira fails to show he has a fundamental right to credit against a legislatively prescribed period of parole supervision as a judicial remedy for a temporary infringement of his right to a factually supported suitability decision by the executive branch. (Cf. \u00a7 3000.1, subd. (a)(1) [life parole period for persons convicted of first or second degree murder]; In re Chaudhary, supra, 172 Cal.App.4th at p. 38 [\u201cThere is no way to apply \u2018credits\u2019 to a lifetime parole period.\u201d].)\nIII. DISPOSITION\nThe judgment of the Court of Appeal is reversed, and the matter is remanded to that court with directions to order the superior court to vacate its judgment, discharge the order to show cause, and deny the petition for habeas corpus.\nCantil-Sakauye, C. J., Kennard, J., Baxter, J., Chin, J., Corrigan, J., and Liu, J., concurred.\nFurther undesignated statutory references are to the Penal Code.\nThe Attorney General does not challenge the Court of Appeal\u2019s determination that the Governor\u2019s April 2009 reversal of the Board\u2019s parole decision violated applicable law because it was unsupported by some evidence. We therefore do not address that determination.\nA decision of the Board finding an inmate suitable for parole becomes final as to the Board within 120 days of the date of the hearing. (\u00a7 3041, subd. (b).) The Governor then has 30 days within which to review the Board\u2019s decision. (\u00a7 3041.2, subd. (a); see In re Tokhmanian (2008) 168 Cal.App.4th 1270 [86 Cal.Rptr.3d 250].)\nThe final sentence of section 3000, subdivision (a)(1) currently provides: \u201cA sentence resulting in imprisonment in the state prison pursuant to Section 1168 or 1170 shall include a period of parole supervision or postrelease community supervision, unless waived, or as otherwise provided in this article.\u201d\nSection 3000.1 now provides for a possible lifetime period of parole for a person convicted of second degree murder, with discharge after five continuous years on parole unless the Board, for good cause, decides to retain the person on parole. (\u00a7 3000.1, subds. (a)(1), (b).) The requirement of a lifetime parole term is not retroactive and thus does not apply to this case. (In re Carabes (1983) 144 Cal.App.3d 927, 930, fn. 1 [193 Cal.Rptr. 65].)\nWe reject any suggestion that Lira is entitled to credit against his parole term based on his assertion that the Governor, in reversing the Board\u2019s 2008 decision finding him suitable for parole, violated or ignored prior court rulings in his case. The assertion finds no support in the record.",
+        "type": "majority",
+        "author": "WERDEGAR, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Steve M. Defilippis, under appointment by the Supreme Court, for Petitioner Johnny Lira.",
+      "Edmund G. Brown, Jr., and Kamala D. Harris, Attorneys General, Dane R. Gillette, Chief Assistant Attorney General, Susan Duncan Lee, Acting State Solicitor General, Donald E. de Nicola, Deputy State Solicitor General, Julie L. Garland and Jennifer A. Neill, Assistant Attorneys General, Anya M. Binsacca, Jessica N. Blonien, Phillip J. Lindsay and Brian C. Kinney, Deputy Attorneys General, for Respondent the People."
+    ],
+    "corrections": "",
+    "head_matter": "[No. S204582.\nFeb. 3, 2014.]\nIn re JOHNNY LIRA on Habeas Corpus.\nCounsel\nSteve M. Defilippis, under appointment by the Supreme Court, for Petitioner Johnny Lira.\nEdmund G. Brown, Jr., and Kamala D. Harris, Attorneys General, Dane R. Gillette, Chief Assistant Attorney General, Susan Duncan Lee, Acting State Solicitor General, Donald E. de Nicola, Deputy State Solicitor General, Julie L. Garland and Jennifer A. Neill, Assistant Attorneys General, Anya M. Binsacca, Jessica N. Blonien, Phillip J. Lindsay and Brian C. Kinney, Deputy Attorneys General, for Respondent the People."
+  },
+  "file_name": "0573-01",
+  "first_page_order": 611,
+  "last_page_order": 624
+}

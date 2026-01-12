@@ -1,0 +1,904 @@
+{
+  "id": 4219204,
+  "name": "LOS ANGELES MEMORIAL COLISEUM COMMISSION et al., Plaintiffs and Appellants, v. INSOMNIAC, INC., et al., Defendants and Respondents",
+  "name_abbreviation": "Los Angeles Memorial Coliseum Commission v. Insomniac, Inc.",
+  "decision_date": "2015-01-27",
+  "docket_number": "No. B252838",
+  "first_page": "803",
+  "last_page": "837",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "233 Cal. App. 4th 803"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "132 Cal.Rptr.2d 165",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "107 Cal.App.4th 534",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        204749
+      ],
+      "pin_cites": [
+        {
+          "page": "538"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/107/0534-01"
+      ]
+    },
+    {
+      "cite": "107 Cal.Rptr.2d 710",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "89 Cal.App.4th 793",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        703580
+      ],
+      "pin_cites": [
+        {
+          "page": "797, fn. 1"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/89/0793-01"
+      ]
+    },
+    {
+      "cite": "529 U.S. 765",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9509149
+      ],
+      "weight": 3,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "768, fn. 1"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/529/0765-01"
+      ]
+    },
+    {
+      "cite": "314 F.3d 995",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9385819,
+        9385855
+      ],
+      "pin_cites": [
+        {
+          "page": "997, fn. 1"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/314/0995-01",
+        "/f3d/314/0995-02"
+      ]
+    },
+    {
+      "cite": "6 Cal.Rptr.3d 574",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "113 Cal.App.4th 597",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        2225975
+      ],
+      "pin_cites": [
+        {
+          "page": "603"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/113/0597-01"
+      ]
+    },
+    {
+      "cite": "292 P.3d 871",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "151 Cal.Rptr.3d 827",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "55 Cal.4th 1185",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3932153
+      ],
+      "pin_cites": [
+        {
+          "page": "1196"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/55/1185-01"
+      ]
+    },
+    {
+      "cite": "304 P.3d 181",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "159 Cal.Rptr.3d 693",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 Cal.4th 390",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6054027
+      ],
+      "pin_cites": [
+        {
+          "page": "394"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/57/0390-01"
+      ]
+    },
+    {
+      "cite": "304 P.3d 163",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "159 Cal.Rptr.3d 672",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 Cal.4th 364",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6053978
+      ],
+      "pin_cites": [
+        {
+          "page": "370-371"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/57/0364-01"
+      ]
+    },
+    {
+      "cite": "99 Cal.Rptr.2d 665",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "83 Cal.App.4th 409",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        525242
+      ],
+      "pin_cites": [
+        {
+          "page": "421"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/83/0409-01"
+      ]
+    },
+    {
+      "cite": "130 Cal.Rptr.2d 860",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "107 Cal.App.4th 25",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        204700
+      ],
+      "pin_cites": [
+        {
+          "page": "29-30"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/107/0025-01"
+      ]
+    },
+    {
+      "cite": "192 Cal.Rptr. 732",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "144 Cal.App.3d 648",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2103828
+      ],
+      "pin_cites": [
+        {
+          "page": "654"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/144/0648-01"
+      ]
+    },
+    {
+      "cite": "63 Cal.Rptr.2d 894",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1983,
+      "opinion_index": 0
+    },
+    {
+      "cite": "55 Cal.App.4th 128",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "141"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "71 P.2d 220",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1997,
+      "opinion_index": 0
+    },
+    {
+      "cite": "9 Cal.2d 409",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2249572
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "483"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/9/0409-01"
+      ]
+    },
+    {
+      "cite": "673 P.2d 660",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "197 Cal.Rptr. 783",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.3d 197",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4471375
+      ],
+      "pin_cites": [
+        {
+          "page": "221"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/35/0197-01"
+      ]
+    },
+    {
+      "cite": "816 P.2d 892",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "286 Cal.Rptr. 40",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.3d 476",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1946364
+      ],
+      "pin_cites": [
+        {
+          "page": "483"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/54/0476-01"
+      ]
+    },
+    {
+      "cite": "869 P.2d 454",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.Rptr.2d 475",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "7 Cal.4th 503",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1981823
+      ],
+      "pin_cites": [
+        {
+          "page": "510-511"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/7/0503-01"
+      ]
+    },
+    {
+      "cite": "226 Cal.Rptr. 509",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "181 Cal.App.3d 646",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2193033
+      ],
+      "pin_cites": [
+        {
+          "page": "651"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/181/0646-01"
+      ]
+    },
+    {
+      "cite": "60 Cal.Rptr.2d 539",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1986,
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Cal.App.4th 326",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        452958
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "336"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/52/0326-01"
+      ]
+    },
+    {
+      "cite": "68 Cal.Rptr.3d 828",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "157 Cal.App.4th 835",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4101947
+      ],
+      "pin_cites": [
+        {
+          "page": "845"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/157/0835-01"
+      ]
+    },
+    {
+      "cite": "135 Cal.Rptr.3d 69",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "201 Cal.App.4th 368",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4243610
+      ],
+      "pin_cites": [
+        {
+          "page": "375"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/201/0368-01"
+      ]
+    },
+    {
+      "cite": "65 P.3d 1255",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "132 Cal.Rptr.2d 490",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal.4th 167",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        269734
+      ],
+      "pin_cites": [
+        {
+          "page": "173"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/30/0167-01"
+      ]
+    },
+    {
+      "cite": "102 P.3d 268",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "22 Cal.Rptr.3d 352",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "34 Cal.4th 979",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        633010
+      ],
+      "pin_cites": [
+        {
+          "page": "992"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/34/0979-01"
+      ]
+    },
+    {
+      "cite": "994 P.2d 975",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "93 Cal.Rptr.2d 703",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "22 Cal.4th 550",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        157747
+      ],
+      "pin_cites": [
+        {
+          "page": "559"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/22/0550-01"
+      ]
+    },
+    {
+      "cite": "957 P.2d 1313",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "76 Cal.Rptr.2d 479",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 Cal.4th 604",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        344166
+      ],
+      "pin_cites": [
+        {
+          "page": "614"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/18/0604-01"
+      ]
+    },
+    {
+      "cite": "36 P.3d 11",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "114 Cal.Rptr.2d 470",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 Cal.4th 1200",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        456778
+      ],
+      "pin_cites": [
+        {
+          "page": "1205"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/26/1200-01"
+      ]
+    },
+    {
+      "cite": "68 Cal.Rptr.3d 704",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "157 Cal.App.4th 469",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4100491
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/157/0469-01"
+      ]
+    },
+    {
+      "cite": "699 P.2d 316",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "214 Cal.Rptr. 139",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 Cal.3d 633",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1977059
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/38/0633-01"
+      ]
+    },
+    {
+      "cite": "69 Cal.Rptr.3d 848",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "158 Cal.App.4th 533",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3835221
+      ],
+      "weight": 8,
+      "pin_cites": [
+        {
+          "page": "549-550"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/158/0533-01"
+      ]
+    },
+    {
+      "cite": "44 Cal.Rptr.3d 881",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "140 Cal.App.4th 1323",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5754410
+      ],
+      "weight": 10,
+      "pin_cites": [
+        {
+          "page": "1329-1330"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/140/1323-01"
+      ]
+    },
+    {
+      "cite": "117 Cal.Rptr.3d 430",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "189 Cal.App.4th 688",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4225243
+      ],
+      "pin_cites": [
+        {
+          "page": "694, fn. 3"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/189/0688-01"
+      ]
+    },
+    {
+      "cite": "141 P.3d 256",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "48 Cal.Rptr.3d 144",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal.4th 1220",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3582945
+      ],
+      "pin_cites": [
+        {
+          "page": "1227"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/39/1220-01"
+      ]
+    },
+    {
+      "cite": "703 P.2d 58",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "216 Cal.Rptr. 718",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal.3d 311",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2011359
+      ],
+      "pin_cites": [
+        {
+          "page": "318"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/39/0311-01"
+      ]
+    },
+    {
+      "cite": "224 P.3d 920",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "105 Cal.Rptr.3d 181",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "48 Cal.4th 32",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6050528
+      ],
+      "pin_cites": [
+        {
+          "page": "42"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/48/0032-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 2061,
+    "char_count": 81033,
+    "ocr_confidence": 0.902,
+    "pagerank": {
+      "raw": 9.9853711188718e-08,
+      "percentile": 0.538225587669397
+    },
+    "sha256": "8d4f6252ed0b45ffe6a8d6bfb5ee81a18db061bb0b023bf9457f123857f0d1b9",
+    "simhash": "1:2d77d22a7322d67c",
+    "word_count": 12737
+  },
+  "last_updated": "2024-02-27T16:06:26.432486+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "LOS ANGELES MEMORIAL COLISEUM COMMISSION et al., Plaintiffs and Appellants, v. INSOMNIAC, INC., et al., Defendants and Respondents."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nMOSK, J.\nINTRODUCTION\nPlaintiffs and appellants Los Angeles Memorial Coliseum Commission (Commission) and Los Angeles Memorial Coliseum Association (Association) appeal from a judgment and order of dismissal entered following the sustaining without leave to amend of demurrers by defendants and respondents Insomniac, Inc. (Insomniac), Pasquale Rotella (Rotella), Go Ventures, Inc. (Ventures), and Reza Gerami (Gerami). According to plaintiffs, the judgment and order of dismissal should be reversed because each of the causes of action as to which the demurrers were sustained stated facts sufficient to constitute a cause of action against defendants. Plaintiffs alleged that defendants, which or who promoted and staged music events at the Coliseum and other related venues, paid an employee of the Commission for services related to those music events and that such payments were inappropriate and not disclosed to plaintiffs. Plaintiffs\u2019 causes of action related to these undisclosed arrangements between defendants and the employee.\nBased on our de nova review of the operative complaints, we conclude that plaintiffs adequately stated causes of action under the conflicts of interest prohibition in Government Code section 1090 (section 1090) and for conspiracy to defraud, violation of the unfair competition law (UCL), and accounting. We further conclude that the trial court properly sustained without leave to amend defendants\u2019 demurrers to the causes of action for violation of the False Claims Act, fraud, and negligence. We therefore reverse the judgment and order of dismissal and remand the matter with instructions.\nFACTUAL BACKGROUND\nWe set forth below the allegations of the complaints in issue.\nA. First Amended Complaint\n1. General Allegations\nPatrick Lynch was the general manager of the Commission and an officer of the Association. For years, he profited personally by abusing his position of trust and responsibility, receiving more than his substantial lawful wages and benefits from the Commission.\nTodd DeStefano was an employee of the Commission who worked as an event coordinator, senior event and sales manager, director of events, and assistant general manager of events. For years, DeStefano and his wife Carisse profited personally by improperly diverting revenue to themselves and related entities that should have been paid to plaintiffs by, inter alla, Insomniac and Ventures, including money from various promotions, electronic music festivals, film productions, and other events. Insomniac and Ventures manipulated contract terms and accountings of events, thereby diverting material revenue from the services provided by plaintiffs, which revenue Insomniac and Ventures kept for themselves.\nSince 1998, the Coliseum and Sports Arena hosted 37 electronic music festivals, with more than one million attendees, pursuant to contracts with Insomniac and Ventures. Plaintiffs worked with Insomniac and Ventures on these events and grossed a significant percentage of revenue from them. Despite the rapid growth in popularity of these festivals beginning in or about 2006 and 2007, and continuing to 2010, DeStefano did not maximize rent or other revenue from them. Instead, he used the growing popularity and increased revenue from these events to benefit himself. Between 2006 and 2010, DeStefano approved contractual arrangements in which he and his wife had a financial interest with Insomniac and Ventures, both of which had information that DeStefano was plaintiffs\u2019 employee and public servant.\nBetween October 2005 and December 2010, Ventures entered into 17 contracts with one or both plaintiffs, the purpose of which was to hold music festivals. Between August 2005 and June 2010, Insomniac entered into seven contracts with one or both plaintiffs, the purpose of which was to hold music festivals.\nDuring the three-year period prior to February 2012, Lynch, DeStefano, and others, including promoters, made or caused cash payments of $955,000 to be paid to a union shop steward of a theatrical stage employees local in connection with events held at plaintiffs\u2019 public facilities. The purposes of those cash payments included wage payments to the shop steward and stagehands, which payments were outside the ordinary and usual employment compensation practices of plaintiffs and the union.\nPlaintiffs identified $557,710 in cash payments made in connection with events promoted by Ventures and $209,581 in cash payments made in connection with events promoted by Insomniac. The practice of paying cash wages resulted in Insomniac and Ventures paying approximately 29 percent less for employee-related costs and, as a result of the effect of all payroll taxes and federal and state withholding taxes, exposed plaintiffs to liability in an amount of 60 percent more than the cash paid.\n2. First Cause of Action for Violation of the False Claims Act\nIn the first cause of action of the first amended complaint for violation of the False Claims Act, as to which the trial court sustained the demurrers of Insomniac and Ventures without leave to amend, plaintiffs alleged that between 2006 and 2010, Insomniac and Ventures, among others, submitted or conspired to submit claims for money for services or work relating to plaintiffs. In the course of such conduct, and in violation of the False Claims Act, Insomniac and Ventures submitted or conspired to submit false claims for payment (i) that they presented to an officer, employee, or agent of plaintiffs or (ii) that they made to a contractor, grantee, or recipient, when the money claimed was to be spent or used on a program or interest of plaintiffs from funds provided by plaintiffs or from funds that plaintiffs would use to reimburse others.\nB. Fourth Amended Complaint\n1. General Allegations\nIn the general allegations of the fourth amended complaint, plaintiffs named as individual defendants Rotella and Gerami in addition to Insomniac and Ventures. The general allegations were similar to those in the first amended complaint set forth above, but incorporated as exhibits copies of the rental agreements entered into between plaintiffs, on the one hand, and Insomniac and Ventures, on the other hand. In addition, plaintiffs alleged that the contracts between plaintiffs and Insomniac and Ventures were entered into by and through the efforts of Rotella and Gerami, each of whom, on behalf of Insomniac and Ventures, communicated with officers, employees, or agents of plaintiffs or conspired with Lynch and DeStefano to enter into those contracts.\n2. Fifth Cause of Action for Violation of Section 1090\nIn support of the fifth cause of action for violation of section 1090, as to which the trial court sustained defendants\u2019 demurrers without leave to amend, plaintiffs alleged that Lynch and DeStefano, as public employees, participated in making the contracts with Insomniac and Ventures. Insomniac and Ventures knew that DeStefano had structured his business arrangements with them so that he was financially interested in their contracts with plaintiffs and that DeStefano\u2019s companies, LAC Events and Private Event Management, were receiving money from public contracting activity. Both Lynch and DeStefano knew that DeStefano and his companies would receive money arising out of public contracts.\nDeStefano, his wife, his companies, and Lynch participated in making the contracts with Insomniac and Ventures and had a financial interest in those contracts. Revenues received by plaintiffs from events held at their public facilities were public funds that were subject to a final accounting and, for each such event, a settlement statement prepared by plaintiffs\u2019 employees and provided to the promoter and licensee of the event. The compensation paid to plaintiffs\u2019 employees, including managers, event coordinators, stage hands, and other reasonable and necessary personnel working at the events was paid with public funds. Insomniac and Ventures received payments directly and indirectly under their contracts from public funds of plaintiffs and from the millions of dollars in revenue and profits derived from the contracts with plaintiffs.\nInsomniac and Ventures received substantial public funds through their use of plaintiffs\u2019 public facilities, generated revenue and earned profits on their music festivals, and saved costs through cash payments to union workers who were employees of plaintiffs on the dates of events, thereby deriving additional excessive net proceeds from the public funds generated by the event. Insomniac and Ventures gave DeStefano \u201ckickbacks\u201d for allowing them to enter into their contracts with plaintiffs and as quid pro quo for their receipt of public funds from plaintiffs.\nInsomniac\u2019s and Ventures\u2019s records showed that Insomniac unlawfully received at least $400,000 from plaintiffs\u2019 public funds in connection with the Electric Daisy Carnival in June 2009, and that Ventures received plaintiffs\u2019 public funds from the following events: $170,000 in connection with Monster Massive in October 2008; $10,000 in connection with the Love Festival in August 2009; $20,970 in connection with Monster Massive in October 2009; and $171,200 in connection with Together As One in December 2009.\nVentures paid at least $716,680 of diverted public funds to DeStefano by making at least 10 payments to him through his companies from January 2009 through April 2010. Insomniac paid at least $1,175,000 of diverted public funds to DeStefano by making at least five payments to him through his companies from August 2008 through September 2010. In addition, plaintiffs identified cash payroll payments of $557,710 made in connection with events promoted by Ventures and at least $209,581 made in connection with events promoted by Insomniac.\n3. Tenth Cause of Action for Negligence\nIn support of the tenth cause of action in the fourth amended complaint for negligence, as to which the trial court sustained the demurrers of Insomniac and Ventures without leave to amend, plaintiffs alleged that Insomniac and Ventures foreseeably induced plaintiffs into believing that Insomniac and Ventures would perform their duties under the contracts with plaintiffs and carry out their actions in furtherance of the contracts in a lawful manner. Plaintiffs reasonably expected that Insomniac and Ventures would do so because those entities knew at the time of the making of the contracts that plaintiffs were public entities. Insomniac and Ventures breached their duty of care owed to plaintiffs by engaging in the acts alleged in the fourth amended complaint, including entering into public contracts with public officials who would receive a financial benefit from those contracts, causing public officials to violate their duties as public employees, and making cash payments to a union shop steward and stagehands that were outside the ordinary and usual employment compensation practices of plaintiffs.\nC. Fifth Amended Complaint\n1. General Allegations\nIn the fifth amended complaint, plaintiffs included general allegations that were substantially similar to the general allegations of the first and fourth amended complaints set forth above.\n2. Third Cause of Action for Conspiracy to Defraud\nIn the third cause of action for conspiracy to defraud in the fifth amended complaint, as to which the trial court sustained defendants\u2019 demurrers without leave to amend, plaintiffs repeated certain of the general allegations and specifically alleged that DeStefano committed fraud, did not make basic policy decisions as an officer or employee of plaintiffs, and acted in furtherance of the conspiracy to defraud plaintiffs when he entered into an agreement with Insomniac and Ventures through his company, LAC Events, Inc.\nIn or about June 2008, DeStefano, Insomniac, Rotella, Ventures, and Gerami entered into a plan, conspiracy, and design to pay at least 10 percent of gross ticket sales to DeStefano through his alter ego, LAC Events, in exchange for Insomniac\u2019s and Ventures\u2019 use of plaintiffs\u2019 public facilities and DeStefano\u2019s commitment to keep building expenses limited. DeStefano kept the stated rent in the contractual documentation at a falsely stated flat fee to deceive plaintiffs into believing that the rent was a flat fee. Plaintiffs and plaintiffs\u2019 management employee, Lynch, did not know and could not have known that the stated rent in the contracts was false, nor did they know, nor could they have known, that DeStefano and his alter ego had entered into the plan, conspiracy and design with Insomniac, Rotella, Ventures, and Gerami. Those defendants knew that the plan to which they agreed included payments to an employee of a governmental organization in exchange and as a quid pro quo for the \u201ccorruption\u201d of his loyalty to his employer and the unlawful diversion of public funds to defendants.\nAn executive producer for Insomniac and Rotella testified under immunity to the Los Angeles County Grand Jury that DeStefano\u2019s job involved politicking and lobbying for the benefit of defendants. DeStefano\u2019s politicking and lobbying took place without plaintiffs\u2019 knowledge. In that role, in planning sessions for events, and during and after events, DeStefano spoke on behalf of the interests of Insomniac, Rotella, Ventures, and Gerami to Los Angeles Police Department personnel, Los Angeles Fire Department personnel, private security company personnel, off-duty police officers, emergency medical technicians and medical personnel, and plaintiffs\u2019 employees, without those persons knowing that DeStefano owed allegiance to the promoters and was being paid by them to support their interests when he spoke.\nRepresentatives of Insomniac and Ventures gave DeStefano advice and direction regarding how to represent facts to authorities. DeStefano in his role for defendants also limited expenses at electronic music festivals for private security, off-duty police, and medical personnel, to the detriment of plaintiffs\u2019 interests. He also provided defendants with confidential information that they were not entitled to know, including attorney-client information and internal communications by plaintiffs and their representatives. DeStefano\u2019s wife knew that he received improper payments from Insomniac and Ventures for their use of the facilities of DeStefano\u2019s governmental employer in conflict with his duties, to that employer, and she received payments for her assistance in the continuing plan through DeStefano\u2019s alter egos, LAC Events and Private Events Management. During the relevant periods of time, DeStefano approved contractual arrangements in which he and his wife had a financial interest with Insomniac and Ventures with the knowledge of defendants. Insomniac and Ventures also knew that DeStefano was an employee and public servant of plaintiffs.\nThe plan and conspiracy continued for more than two years, as shown by documents that explained the means by which DeStefano appropriated to himself through the company he owned, LAC Events, a consulting fee, representing 10 percent of gross ticket sales and other compensation that should have been paid to or retained by plaintiffs. Some of the consulting fee paid to DeStefano through LAC Events explicitly was noted as \u201cvenue rent\u201d on checks issued by Ventures and as a \u201cvenue use fee\u201d and a \u201cvenue fee\u201d on a check and documentation of a wire transfer, respectively, by Insomniac, pursuant to the unlawful agreement.\nLynch learned of DeStefano\u2019s conflicting use of a company DeStefano owned and controlled to make money unlawfully performing plaintiffs\u2019 event coordinator business for DeStefano\u2019s personal gain. Specifically, DeStefano told Lynch in early 2010 that DeStefano had set up a company to work with promoters on his own time and that DeStefano\u2019s work would have no financial impact on the Commission or the Coliseum or the Sports Arena. DeStefano did not disclose to Lynch that DeStefano had been paid to that date at least $999,000 by Insomniac and Ventures, DeStefano\u2019s work had financially affected plaintiffs, and DeStefano\u2019s work for defendants directly related to the events being held at plaintiffs\u2019 public facilities. Lynch, despite knowing that DeStefano as a public employee could not serve two masters, condoned the continuation of the conflicting and unlawful conduct by DeStefano and did not stop DeStefano from profiting from it, thereby unlawfully aiding in the plan and conspiracy with knowledge of its unlawful purpose. Lynch did not inform any of the Commission\u2019s commissioners, or anyone else, regarding DeStefano\u2019s conflicting work as an event coordinator for defendants until January 2011. On January 19, 2011, the conflict was terminated at the direction of the commissioners when DeStefano chose to resign from the Commission and work solely for the promoters. DeStefano\u2019s wife knew in 2009 that DeStefano was taking unlawful advantage of his public employment and breaching his fiduciary duties to plaintiffs for the benefit of DeStefano and his wife by engaging in conduct for their personal gain, and she knowingly received payments and proceeds of the unlawful activity from LAC Events in 2009 and from LAC Events and Private Event Management in 2010, thereby unlawfully aiding in the plan and conspiracy with knowledge of its unlawful purpose.\nPlaintiffs were induced to pay from their public funds Insomniac\u2019s and Ventures\u2019s net proceeds for events from 2008 into 2010 that were excessive due to (i) the building-related expenses kept to a minimum by DeStefano to the detriment of plaintiffs, and (ii) the difference between the stated false fixed rent in the written agreements and the rental or use fees based on gross receipts that Insomniac and Ventures subsequently paid to the DeStefanos through LAC Events and Private Event Management.\n3. Fourth Cause of Action for Fraud-\nIn the fourth cause of action for fraud in the fifth amended complaint, as to which the trial court sustained defendants\u2019 demurrers without leave to amend, plaintiffs alleged facts substantially similar to those alleged in support of the third cause of action for conspiracy to defraud. In addition, plaintiffs alleged that defendants Insomniac, Rotella, Ventures, and Gerami deceived plaintiffs by concealing their agreement with DeStefano and by paying DeStefano\u2019s companies money to use plaintiffs\u2019 public facilities, which monies defendants knew should have been paid to plaintiffs and retained by plaintiffs in the public funds generated by the events at the public facilities. In furtherance of their fraud, defendants kept the stated rent in the contractual documentation at a falsely stated flat fee to deceive plaintiffs into a continuing belief that the rent was a flat fee, thereby concealing defendants\u2019 fraudulent dealings with DeStefano. Plaintiffs and plaintiffs\u2019 management employee, Lynch, did not know and could not have known that the stated rent in the contracts was false, nor did they know, nor could they have known, that DeStefano and his alter ego had an agreement with Insomniac, Rotella, Ventures, and Gerami. Defendants\u2019 payments to an employee of a governmental organization and his alter ego company were in exchange and as a quid pro quo for the corruption of his loyalty to his employer and the unlawful diversion of public funds to defendants.\nDefendants represented in each contractual document that the rent for their events was a flat fee when in truth the rent was being calculated based on a percentage of gross receipts that was taken from the public funds generated by the events and distributed to defendants for subsequent payoffs to DeStefano and his wife through DeStefano\u2019s companies. Defendants concealed their fraudulent activity \u2014 including that defendants entered into an agreement with DeStefano to pay him through his companies money that should have been paid to plaintiffs and retained by plaintiffs in the public funds generated by the events at the public facilities \u2014 with the intent that plaintiffs would proceed with the events by defendants to take place at plaintiffs\u2019 venues \u2014 thereby enriching defendants. Defendants knew that their events would not have been held if plaintiffs knew that defendants had \u201cbribed\u201d plaintiffs\u2019 public employee. Defendants knew plaintiffs were unaware of their fraudulent activity, including that defendants entered into an agreement with DeStefano to pay him through his companies money that should have been paid to plaintiffs and retained by plaintiffs in the public funds generated by the events at the public facilities, and that the truth was not readily accessible to plaintiffs.\n4. Sixth Cause of Action for Violation of the UCL\nIn their sixth cause of action for violation of the UCL in the fifth amended complaint, as to which the trial court sustained defendants\u2019 demurrers without leave to amend, plaintiffs alleged that Insomniac and Ventures entered into an agreement with DeStefano under which they would pay less than market value for the rent of plaintiffs\u2019 public venues. Although DeStefano could have charged rent on a receipts basis, he instead provided for Insomniac and Ventures to pay rent on a flat fee basis, which provision resulted in less than fair market value rent being paid to the Commission. Insomniac\u2019s and Venture\u2019s conduct was anticompetitive and injured the public because defendants obtained use of plaintiffs\u2019 public facilities on a preferential basis and at less than market value. As a result, others who were unwilling to pay a kickback to a public official could not obtain the right to use plaintiffs\u2019 public facilities on the same terms enjoyed by Insomniac and Ventures.\n5. Ninth Cause of Action for an Accounting\nIn their ninth cause of action for an accounting in the fifth amended complaint, as to which the trial court sustained defendants\u2019 demurrers without leave to amend, plaintiffs alleged that Insomniac and Ventures misappropriated and misused funds that were held in trust by them or paid to them for a specific purpose. Each of the defendants was either a fiduciary or acted in concert with a fiduciary in breaching their obligations to plaintiffs as alleged in the other causes of action in the fifth amended complaint. The exact amount of money misappropriated was unknown to plaintiffs and could only be determined by an accounting. There were both unliquidated and unascertained sums owed by Insomniac and Ventures to plaintiffs. Insomniac and Ventures remained in possession of public funds.\nPROCEDURAL BACKGROUND\nPlaintiffs filed an original complaint in this action, asserting 12 causes of action against eight defendants, including Insomniac and Ventures. As to Insomniac and Ventures, plaintiffs alleged causes of action for violation of the False Claims Act, violation of section 1090, violation of the UCL, breach of the implied covenant of good faith and fair dealing, accounting, and negligence.\nIn response to demurrers filed by Insomniac, Ventures, and others, plaintiffs filed a first amended complaint. It asserted the same causes of action against the same defendants. Insomniac, Ventures, and others filed demurrers to the first amended complaint. After argument, the trial court, Judge Gregory Alarcon, sustained the demurrers of Insomniac and Ventures with leave to amend each claim, except the False Claims Act cause of action, as to which the trial court sustained the demurrers without leave to amend.\nIn their second amended complaint, plaintiffs alleged the same causes of action against Insomniac and Ventures as they had in the first amended complaint. Plaintiffs attached as exhibits the rental agreements with Insomniac and Ventures and the consulting agreement with DeStefano. In response to the second amended complaint, Insomniac and Ventures filed demurrers. Plaintiffs then moved for leave to file a third amended complaint, which motion the trial court granted\nIn a third amended complaint, plaintiffs named Rotella and Gerami as defendants. In addition to asserting all of the causes of action that had been asserted against Insomniac and Ventures in the second amended complaint, plaintiffs added causes of action for fraud and conspiracy to defraud against defendants. The trial court sustained defendants\u2019 demurrers as to all causes of action with leave to amend, except as to the False Claims Act cause of action as to which the court sustained the demurrer without leave to amend.\nPlaintiffs filed a fourth amended complaint against defendants and others. As against defendants, plaintiffs alleged all of their prior causes of action, except their False Claims Act cause of action. The trial court, Judge Terry Green, sustained without leave to amend defendants\u2019 demurrers to the causes of action for violation of section 1090, negligence, and breach of the implied covenant of good faith and fair dealing. The trial court granted leave to amend the remaining causes of action against defendants for conspiracy to defraud and fraud and against Insomniac and Ventures for violation of the UCL and an accounting.\nPlaintiffs filed a fifth amended complaint asserting the causes of action as to which the trial court had granted leave to amend \u2014 conspiracy to defraud, fraud, violation of the UCL, and an accounting. The trial court sustained defendants\u2019 demurrers to the fifth amended complaint without leave to amend. The trial court thereafter entered a judgment and order of dismissal in favor of defendants. Plaintiffs filed a timely appeal.\nDISCUSSION\nA. Standard of Review\nOn review of a trial court\u2019s order sustaining a demurrer, we examine the complaint de nova to determine if it states a cause of action. (Committee for Green Foothills v. Santa Clara County Bd. of Supervisors (2010) 48 Cal.4th 32, 42 [105 Cal.Rptr.3d 181, 224 P.3d 920].) As the Supreme Court has observed, \u201cIn reviewing the sufficiency of a complaint against a general demurrer, we are guided by long-settled rules. \u2018We treat the demurrer as admitting all material facts properly pleaded, but not contentions, deductions or conclusions of fact or law. [Citation.] We also consider matters which may be judicially noticed.\u2019 [Citation.] Further, we give the complaint a reasonable interpretation, reading it as a whole and its parts in their context. [Citation.] When a demurrer is sustained, we determine whether the complaint states facts sufficient to constitute a cause of action. [Citation.] And when it is sustained without leave to amend, we decide whether there is a reasonable possibility that the defect can be cured by amendment: if it can be, the trial court has abused its discretion and we reverse; if not, there has been no abuse of discretion and we affirm. [Citations.] The burden of proving such reasonable possibility is squarely on the plaintiff. [Citation.]\u201d (Blank v. Kirwan (1985) 39 Cal.3d 311, 318 [216 Cal.Rptr. 718, 703 P.2d 58].)\nB. Cause of Action for Violation of False Claims Act\nIn sustaining defendants\u2019 demurrers to the cause of action for violation of the False Claims Act, the trial court ruled that plaintiffs lacked standing to sue under the act because Government Code section 12652 provides that claims under the act can only be brought by the Attorney General, the prosecuting authority of a political subdivision, or a private party in a qui tam action. The trial court concluded that plaintiffs, who sued in their own names and were represented by private counsel and did not file a qui tam action, were not authorized under the False Claims Act to maintain the action for its violation.\n1. Background\nIn the operative first amended complaint, plaintiffs alleged that the Coliseum was \u201ca public entity organized and operating under the California Joint Exercise of Powers Act\u201d and that the Association was \u201ca California non-profit public benefit corporation, which was created by the Commission, and is controlled by and under the direction of the Commission. It is operated as a public entity . . . .\u201d Plaintiffs did not allege that either the Coliseum or the Association was a \u201cprosecuting authority\u201d or \u201cperson\u201d for purposes of being a qui tam plaintiff, as those terms are used in Government Code section 12652 discussed below.\nAt the hearing on the demurrer to the first amended complaint, plaintiffs argued that they had standing to bring an action under the False Claims Act because Government Code section 12651, subdivision (a) created an implied right of action in any public entity harmed by the submission of a false claim, which right of action was independent of and in addition to the rights of action created in the Attorney General, a prosecuting authority, and a qui tam plaintiff under Government Code section 12652. Plaintiffs also stipulated on the record that neither the Coliseum nor the Association was \u201cbringing a qui tam action now or ever regarding these facts in this lawsuit.\u201d Specifically, plaintiffs conceded that the Association did not have standing to assert a claim as a qui tam plaintiff because it was operated as a public entity. Similarly, plaintiffs emphasized that \u201cthere is no requirement for [plaintiffs] to go under a qui tam statute ... for a claim [plaintiffs themselves] have. There\u2019s no requirement for [plaintiffs] to have original source information. That\u2019s a qui tam standard. Those are qui tam procedures. This is not that kind of case. It was never said to be. [Plaintiffs] stipulated that it\u2019s not. It\u2019s not a qui tam case. [cj[] [Plaintiffs] are directly able to collect monies that were either defrauded from [them] by one means or another as charged under the False Claims Act . . . .\u201d\n2. Analysis\nPlaintiffs contend that the trial court misconstrued Government Code section 12652. According to plaintiffs, Government Code section 12651, subdivision (a) expresses a clear legislative intent \u201cto have \u2018persons\u2019 held liable to the state or political subdivision for acts in violation of the [False Claims Act].\u201d Therefore, plaintiffs argue, the act does not limit them to using only prosecutorial authorities to pursue their claims.\nUnder the False Claims Act, any person who submits a false claim to the state or a political subdivision may be sued for damages and civil penalties. (Gov. Code, \u00a7 12651, subd. (a); State ex rel. Harris v. PricewaterhouseCoopers, LLP (2006) 39 Cal.4th 1220, 1227 [48 Cal.Rptr.3d 144, 141 P.3d 256].) Government Code section 12652, however, provides, in pertinent part: \u201c(a) (1) The Attorney General shall diligently investigate violations under Section 12651 involving state funds. If the Attorney General finds that a person has violated or is violating Section 12651, the Attorney General may bring a civil action under this section against that person. [\u00b6]... [\u00b6] (b) (1) The prosecuting authority^[] of a political subdivision shall diligently investigate violations under Section 12651 involving political subdivision funds. If the prosecuting authority finds that a person has violated or is violating Section 12651, the prosecuting authority may bring a civil action under this section against that person. [\u00b6]... [][] (c) (1) A person may bring a civil action for a violation of this article for the person and either for the State of California in the name of the state, if any state funds are involved, or for a political subdivision in the name of the political subdivision, if political subdivision funds are exclusively involved. The person bringing the action shall be referred to as the qui tarn plaintiff. . . .\u201d (Italics added.)\nIt is undisputed that this action was not brought by either the Attorney General or a prosecuting authority, such as county counsel or the city attorney, nor do the allegations of the operative first amended complaint suggest or imply that either the Coliseum or the Association were otherwise \u201ccharged with investigating, filing, and conducting civil legal proceedings on behalf of, or in the name of, a particular political subdivision.\u201d (Gov. Code, \u00a7 12650, subd. (b)(8).) Moreover, plaintiffs stipulated that the action was not brought by a \u201cperson\u201d as a qui tarn action. We therefore agree with the trial court that because plaintiffs were not alleged to be among the governmental persons or entities specifically authorized to bring suit under the False Claims Act, plaintiffs lacked standing to prosecute a cause of action against defendants for violation of that law. Accordingly, the trial court did not err in sustaining defendants\u2019 demurrers to that cause of action.\nPlaintiffs, in their reply brief, argue that the trial court should have granted them leave to amend their complaint to cure the standing defect. It does not appear, however, that plaintiffs requested such leave from the trial court or that they specified for the trial court the amendment they proposed. Similarly, they have not proposed a specific amendment on appeal, if one could even be made. Moreover, because plaintiffs raised the amendment issue for the first time in their reply brief, we may reject it on that basis. (See Shimmon v. Franchise Tax Bd. (2010) 189 Cal.App.4th 688, 694, fn. 3 [117 Cal.Rptr.3d 430].)\nC. Cause of Action for Violation of Section 1090\nIn their cause of action for violation of section 1090, plaintiffs contend that the trial court \u201cmade a fundamental error by ruling that Insomniac and Ventures must have received \u2018public funds\u2019 in order to be reached by the conflict of interest statutes at issue here.\u201d According to plaintiffs, \u201ccase law dictates that persons who receive any benefit flowing from a contract that was gained through bribing a public official must disgorge those profits.\u201d As explained below, we agree that the trial court erred in sustaining defendants\u2019 demurrers to plaintiffs\u2019 cause of action for violation of section 1090.\n1. Legal Principies\nAs stated by the court in Carson Redevelopment Agency v. Padilla (2006) 140 Cal.App.4th 1323, 1329-1330 [44 Cal.Rptr.3d 881] (Carson), \u201c[T]here has long been a common law proscription against public officials having a financial interest in contracts created by them in their official capacities. [Citation.] In 1951, the Legislature codified the proscription when it enacted section 1090 to curb conflicts of interest with respect to contracts, purchases and sales made by public officials. [Citation.] Section 1090 is triggered when a public official has a direct financial interest in a contract. Even when a public official\u2019s financial interest is indirect, section 1090 will still apply unless the interest is too remote and speculative. [Citation.]\u201d\nThe court in County of San Bernardino v. Walsh (2007) 158 Cal.App.4th 533, 549-550 [69 Cal.Rptr.3d 848] (San Bernardino), further explained the purpose and application of section 1090 as follows: \u201cIn order to fulfill the fundamental public policy underlying section 1090, the County may obtain a forfeiture of the proceeds of a tainted contract, even when the proceeds were received from a third party rather than the public entity itself [(J[] Section 1090 prohibits public officials from being financially interested in any contract made by them in their official capacity. [Citation.] Section 1090 embodies the principle that the duties of public office demand the absolute loyalty and undivided allegiance of the individual who holds the office. [Citations.] More basically, section 1090 applies \u2018[t]he truism that a person cannot serve two masters simultaneously.\u2019 [Citations.] [\u00b6] Section 1090 has been interpreted liberally to prohibit any form of self-dealing. [Citations.] The statute cannot be given \u2018a narrow and technical interpretation that would limit [its] scope and defeat the legislative purpose.\u2019 [Citations.] Section 1090 is triggered when a public official receives any profit from a public contract and includes the acceptance of a bribe in return for influencing the public entity to enter into a particular contract. [Citations.]\u201d (Italics added.)\nThe court in San Bernardino, supra, 158 Cal.App.4th 533 added, \u201c[c]ourts also have liberally interpreted the remedies available for a violation of section 1090 to permit the public entity to recover compensation without restoring the benefits it received under the contract. [Citations.] Because contracts in violation of section 1090 are against fundamental public policy, parties who participate in the unlawful making of the contract should forfeit all interest flowing from the contract to avoid the prospect of unjust enrichment. [Citations.] An actual loss to the public entity is not necessary. [Citations.] [\u00b6]... [][] . . . As with the principle of unjust enrichment, section 1090 focuses on the wrongdoer rather than the victim. Disgorgement of profits is a logical extension of the rationale of section 1090 that public officials cannot profit by a breach of their duty or take advantage of their own wrongdoing, [\u00b6] In Thomson [v. Call (1985) 38 Cal.3d 633 [214 Cal.Rptr. 139, 699 P.2d 316]], the Supreme Court stated that the facts of that case \u2018represent but one of endless permutations generated by the basic conflict-of-interest situation, and a different remedy could be tailored for each.\u2019 (Thomson v. Call, supra, 38 Cal.3d at p. 652.) The court emphasized that there must be a policy of strict enforcement to create \u2018a strong disincentive for those officers who might be tempted to take personal advantage of their public offices.\u2019 (Ibid,.)\u201d (Id. at pp. 550-551, italics added.)\n2. Analysis\nPlaintiffs alleged that their employee, DeStefano \u2014 in his official capacity\u2014 negotiated on their behalf the rental agreements with Insomniac and Ventures that are at issue in this action. Plaintiffs also alleged that, by virtue of DeStefano\u2019s consulting agreement with Insomniac and Ventures \u2014 under which DeStefano would receive 10 percent of the revenues from the events held pursuant to the rental agreements \u2014 DeStefano had a financial interest in the rental agreements. Plaintiffs therefore adequately pleaded a violation of section 1090.\nThe issue on appeal is whether the violation of section 1090 entitled plaintiffs to void the rental agreements under Government Code section 1092 (section 1092) and to compel Insomniac and Ventures to disgorge the profits that they earned on events held under the rental agreements. Referring to, inter alla, Thomson v. Call, supra, 38 Cal.3d 633 (Thomson), San Bernardino, supra, 158 Cal.App.4th 533, and Carson, supra, 140 Cal.App.4th 1323, plaintiffs contend that sections 1090 and 1092 are not limited in scope to transactions in which a private party defendant received public funds directly from a plaintiff that is a public entity. Based on these authorities, plaintiffs argue that they are entitled to recover from Insomniac and Ventures any and all benefits those defendants derived from the rental agreements because the agreements were made by DeStefano, a public employee, in his official capacity while he had a financial interest in them, i.e., the agreements were tainted with corruption in violation of section 1090. As our analysis of plaintiffs\u2019 authorities demonstrates, plaintiffs\u2019 construction of sections 1090 and 1092 is correct.\nIn Thomson, supra, 38 Cal.3d 633, the defendant city council member sold a parcel of land to an intermediary, which thereafter sold the parcel to the city. (Id. at p. 637.) The plaintiffs filed a taxpayers suit challenging the validity of the transaction. (Ibid.) The trial court found, inter alla, that the city council member was interested in the transaction in violation of section 1090, that the city council member was liable to the city for the purchase price, and that the city was entitled to retain title to the parcel. (Thomson, supra, 38 Cal.3d at p. 637.) In affirming the trial court\u2019s judgment, the Supreme Court in Thomson explained that \u201cthe trial court\u2019s remedy \u2014 allowing the city to keep the land and imposing a money judgment against the [the city council member] \u2014 is consistent with California law and with the primary policy concern that every public officer be guided solely by the public interest, rather than by personal interest, when dealing with contracts in an official capacity. Resulting in a substantial forfeiture, this remedy provides public officials with a strong incentive to avoid conflict-of-interest situations scrupulously.\u201d (Id. at p. 650.)\nIn San Bernardino, supra, 158 Cal.App.4th 533, the defendants, a corporation and its owner, entered into a lease transaction with the plaintiff county granting them a leasehold interest in billboard sites along certain county highways and requiring them to complete construction of billboards on the sites within 12 months. (Id. at p. 548.) After three extensions of the 12-month construction time limit, the defendants completed 12 billboards at a cost to them of $600,000. (Ibid.) The defendants thereafter agreed to assign the lease and sell five of the billboards to a third party for $4.4 million, which assignment required the approval of the county. (Ibid.) In return for a $20,000 bribe from the defendants, the county\u2019s chief administrative officer expedited the issuance of the county\u2019s consent to the assignment of the lease. (Ibid.) The defendants received $4.4 million as a result of the assignment, $3.8 million of which was profit. (Ibid.) The county sued the defendants for, inter alla, violation of section 1090. (San Bernardino, supra, 158 Cal.App.4th at p. 549.) Following a trial, the trial court found the defendants liable for violation of section 1090 and awarded the county $3.8 million in damages representing the proceeds from the lease assignment to the third party, less the cost of constructing the billboards. (San Bernardino, supra, 158 Cal.App.4th at p. 549.)\nIn affirming the trial court\u2019s mling on the cause of action for violation of section 1090, the court in San Bernardino, supra, 158 Cal.App.4th 533 concluded that \u201cunder the circumstances of this case, an award of damages representing the price paid by a third party to obtain benefits under a contract that violates section 1090 is warranted. Such a remedy is consistent with the purpose of section 1090 to prevent an offending party from benefiting from a contract that involves self-dealing by a public official. (See Carson. . ., supra, 140 Cal.App.4th at pp. 1335-1336.) [\u00b6]... ['ll] This is not a situation where the County bought something and could be made whole by a judgment requiring defendant to return the money paid by the County. Under the facts of the instant case, the goal of the statute cannot be achieved with a lesser remedy that would provide no disincentive to the misconduct. As the trial court stated, the absence of a judgment requiring [the defendants] to disgorge the profits [they] received from [the third party assignee of the lease] would leave \u2018a powerful incentive to pay small bribes for big public contracts.\u2019 [|] The only remedy that would redress the injury to the people of the County is to unravel the deceit and require [the defendants] to pay the County the profit from their and [the chief administrative officer\u2019s] misdeeds. (See Carson . .., supra, 140 Cal.App.4th at pp. 1335-1336.)\u201d (Id. at pp. 550-551.)\nIn Carson, supra, 140 Cal.App.4th 1323, the defendants, owners of a senior housing complex, entered into an agreement with a municipal redevelopment agency under which the defendants would receive rental assistance. (Id. at p. 1327.) When the defendants thereafter requested an extension of the agreement and an increase in the rental assistance, the agency proposed instead making a low-interest loan to the defendants that would be used by them to pay down the mortgage on their senior housing complex. (Id. at pp. 1327-1328.) The defendants were told by a city official \u2014 the mayor \u2014 that they would need to pay him $50,000 if they wanted the city council to approve the loan. (Id. at p. 1328.) The defendants paid the mayor $50,000 for city council approval, plus another $25,000 to have the agency sign the agreement. (Ibid.)\nThe municipal redevelopment agency sued the defendants to void the loan agreement pursuant to sections 1090 and 1092. (Carson, supra, 140 Cal.App.4th at p. 1328.) The trial court granted summary adjudication in favor of the agency and entered a judgment requiring the defendants to pay the agency the entire amount of the loan proceeds. (Ibid.)\nIn affirming the trial court\u2019s ruling on the cause of action for violation of section 1090, the court in Carson, supra, 140 Cal.App.4th 1323 reviewed the authorities on the appropriate remedy for a violation of section 1090 and concluded that the disgorgement remedy was \u201cautomatic.\u201d (140 Cal.App.4th at pp. 1335-1336.) According to the court, \u201cOur holding sends a message. If a corrupt public official demands an extortion payment in exchange for a public contract, the victim should not pay. Instead, the victim should report the corrupt public official to local, state or federal law enforcement. If the victim pays and the extortion is discovered, the victim will not be permitted to retain any consideration received. The reason is simple. A public contract obtained through an extortion payment is not valid, and no one should believe that it is valid. A bright-line rule is required.\u201d (Id. at p. 1337, italics added.)\nThese authorities suggest that the equitable remedy for a violation of section 1090 is not limited to cases in which the defendant receives public funds directly from the plaintiff public entity. As the Supreme Court in Thomson, supra, 38 Cal.3d 633 emphasized, the policy goals underlying section 1090 mandate strict enforcement of the conflict of interest statutes and justify harsh remedies, such as the result in that case \u2014 forfeiture to the city of the title to the city council member\u2019s parcel of land and disgorgement of the purchase price. (Thomson, supra, 38 Cal.3d at p. 652 [\u201cbecause of the significant public policy goals which mandate strict enforcement of conflict-of-interest statutes such as section 1090, we conclude that the remedy applied by the trial court was justified, supported by both California case law and public policy\u201d].)\nMoreover, the Court of Appeal in San Bernardino, supra, 158 Cal.App.4th 533 explicitly rejected the \u201cpublic funds\u201d limitation on the remedy for a violation of section 1090 when it affirmed the remedy imposed by the trial court there \u2014 disgorgement of the profits the defendants had derived from the lease assignment, which assignment was tainted by the bribery of a public official. As the court in that case observed, \u201cThe remedy fashioned by the trial court is an equitable form of forfeiture that is utilitarian in its design and serves the community by strongly discouraging the avarice of corrupt politicians and the burden of contracts tainted by conflicts of interest. [Citation.] The damages may reflect money paid by [the third party assignee of the lease] and not from the County treasury, but the County\u2019s residents were harmed by the corruption and self-dealing and, in a broader sense, the lease and lease assignment were made \u2018at the expense\u2019 of those residents.\u201d (San Bernardino, supra, 158 Cal.App.4th at pp. 551-552, italics added.)\nIn addition, the court in Carson, supra, 140 Cal.App.4th 1323 left no doubt about whether disgorgement for a violation of section 1090 was an appropriate remedy. According to the court in that case, once a violation of section 1090 is shown to have occurred, disgorgement is \u201cautomatic\u201d because, \u201cas a policy matter, it is the most effective way to give section 1090 all the teeth that it needs.\u201d (Carson, supra, 140 Cal.App.4th at p. 1336.)\nHere, as in San Bernardino, supra, 158 Cal.App.4th 533, Insomniac and Ventures entered into agreements with plaintiffs to use public property for commercial purposes, and they derived significant profits from that use. Because plaintiffs adequately alleged that DeStefano, a public official, had violated section 1090 by making those contracts with Insomniac and Ventures when he held an economic interest in them, the contracts were tainted with the alleged bribery scheme. Therefore, under the reasoning of San Bernardino, it does not matter that the profits to be disgorged came from ticket sales to the public, as opposed to the \u201cpublic funds\u201d of plaintiffs. In either case, disgorgement of profits made from the tainted agreements is necessary and appropriate to serve the policies underlying sections 1090 and 1092, including deterring the corruption of public officials and avoiding the appearance of impropriety.\nInsomniac nevertheless maintains that the disgorgement remedy for violations of section 1090 is only triggered if a defendant who has contracted with a public entity has received \u201cpublic funds\u201d under the contract. According to Insomniac, because the profits it made from the events it staged under its rental agreements with plaintiffs were paid by private ticket purchasers, the disgorgement remedy sought by plaintiffs was not available. In a related argument, Ventures contends that the profits it made from events held under the rental agreements were not the product of those agreements. Rather, Ventures argues, its profits were derived solely from its promotional, planning, and staging efforts.\nIn support of its contention, Insomniac relies on the decision in Klistoff v. Superior Court (2007) 157 Cal.App.4th 469 [68 Cal.Rptr.3d 704] (Klistoff). In that case, the complaint alleged that Michael Klistoff and his company, All City Services, bribed a city official in exchange for the official\u2019s efforts to ensure that another company in which Klistoff was vice president and manager, Klistoff & Sons, obtained a lucrative, long-term franchise agreement from the city to provide refuse collection and recycling services. (157 Cal.App.4th at p. 474.) The city\u2019s complaint alleged in the first cause of action that Klistoff had violated section 1090 because he had a financial interest in and received benefits from the contract between the city and Klistoff & Sons. (Klistoff, supra, 157 Cal.App.4th at p. 476.) In the second cause of action, the city alleged that Klistoff and his shell company, All City Services, conspired to violate section 1090. (Klistoff, supra, 157 Cal.App.4th at p. 476.)\nWhen the trial court overruled the demurrers of Klistoff and All City Services to the second cause of action for conspiracy to violate section 1090, those defendants filed a petition for writ of mandate directing the trial court to enter a new order sustaining the demurrer. (Klistoff, supra, 157 Cal.App.4th at pp. 477-478.) The Court of Appeal in Klistoff granted the petition on the grounds that (i) Klistoff and All City Services were not legally capable of violating section 1090 because they were not public officials or employees and, therefore, could not be liable for conspiracy to violate that section (Klistoff, supra, 157 Cal.App.4th at p. 479), and (ii) the remedy in section 1092, avoidance of the tainted contract, did not apply to Klistoff and All City Services because they were not parties to the agreement and did not receive payments from the city under the agreement. (Klistoff, supra, 157 Cal.App.4th at p. 481.)\nAlthough the decision in Klistoff, supra, 157 Cal.App.4th 469 made references to the receipt of \u201cpublic funds\u201d in analyzing the conspiracy theory before it, that case did not state or imply that when a private party to an agreement made in violation of section 1090 does not receive public funds under the contract directly from a public entity, disgorgement is not available. Rather, because in that case the benefit derived from the tainted franchise agreement \u2014 the \u201csubstantial sums\u201d (157 Cal.App.4th at p. 476) paid by the city under it to a separate entity \u2014 came from public funds, the court analyzed the issue within that framework. Thus, the proposition for which Insomniac claims Klistoff stands was not even before the court, i.e., the court was not called upon to decide whether profits from a tainted contract could be disgorged when they were paid to the defendant from a private source. Because the facts in Klistoffdid not require the court to decide the issue, Klistoff does not support Insomniac\u2019s \u201cpublic funds\u201d limitation on the disgorgement remedy under sections 1090 and 1092.\nVentures\u2019 related argument \u2014 that its profits from events held under the rental agreements were unrelated to those agreements \u2014 fares no better than Insomniac\u2019s \u201cpublic funds\u201d contention. Ventures\u2019 profits, like the profit the defendants received from the tainted lease assignment in San Bernardino, supra, 158 Cal.App.4th 533, were the direct result of Ventures\u2019 use of plaintiffs\u2019 public property under the tainted rental agreements. To the extent Ventures expended time and effort promoting, planning, and staging its events, the costs related thereto \u2014 like the $600,000 billboard construction cost incurred by the defendants in San Bernardino \u2014 would not be included in the profits to be disgorged under sections 1090 and 1092.\nD. Cause of Action for Negligence\nPlaintiffs contend that Insomniac and Ventures were aware that DeStefano was a Commission employee at the time they made cash payments to a union shop steward and at the time they entered into the consulting agreement with DeStefano. According to plaintiffs, it was reasonably foreseeable that their cash payments and performance under the consulting agreement could damage plaintiffs. Plaintiffs therefore conclude that they adequately pleaded all the necessary elements of a negligence cause of action, including duty of care.\n\u201cIn order to establish liability on a negligence theory, a plaintiff must prove duty, breach, causation and damages. [Citations.]\u201d (Ortega v. Kmart Corp. (2001) 26 Cal.4th 1200, 1205 [114 Cal.Rptr.2d 470, 36 P.3d 11].) \u201c \u2018The threshold element of a cause of action for negligence is the existence of a duty to use due care toward an interest of another that enjoys legal protection against unintentional invasion. [Citations.] Whether this essential prerequisite to a negligence cause of action has been satisfied in a particular case is a question of law to be resolved by the court.\u2019 [Citations.]\u201d (Artiglio v. Corning Inc. (1998) 18 Cal.4th 604, 614 [76 Cal.Rptr.2d 479, 957 P.2d 1313].) \u201c \u2018To say that someone owes another a duty of care \u201c \u2018is a shorthand statement of a conclusion, rather than an aid to analysis in itself. . . . \u201c[D]uty\u201d is not sacrosanct in itself, but only an expression of the sum total of those considerations of policy which lead the law to say that the particular plaintiff is entitled to protection.\u2019 [Citation.]\u201d [Citation.] \u201c[L]egal duties are not discoverable facts of nature, but merely conclusory expressions that, in cases of a particular type, liability should be imposed for damage done.\u201d [Citation.]\u2019 [Citation.]\u201d (Paz v. State of California (2000) 22 Cal.4th 550, 559 [93 Cal.Rptr.2d 703, 994 P.2d 975].)\nThe operative complaint alleged commercial agreements to rent public facilities for private use, but did not allege specific facts or circumstances that might give rise to a duty of care based on the relationship arising out of those agreements. Thus, the facts pleaded by plaintiffs were not sufficient to give rise to a duty of care. Although Insomniac and Ventures allegedly knew DeStefano was employed by the Commission, that fact, by itself, did not expand the parties\u2019 contractual relationship and impose duties on Insomniac and Ventures beyond those voluntarily assumed in the rental agreements. (See Robinson Helicopter Co., Inc. v. Dana Corp. (2004) 34 Cal.4th 979, 992 [22 Cal.Rptr.3d 352, 102 P.3d 268] [\u201c \u2018 \u201c[c]ourts should be careful to apply tort remedies only when the conduct in question is so clear in its deviation from socially useful business practices that the effect of enforcing such tort duties will be ... to aid rather than discourage commerce\u201d \u2019 \u201d].) Thus, the trial court correctly concluded that plaintiffs had not stated a negligence cause of action.\nE. Fraud-based Causes of Action\n1. Fraud\nPlaintiffs contend that they adequately pleaded common law fraud causes of action against defendants. According to plaintiffs, defendants misrepresented in the rental agreements that the rent would be a flat fee when, in fact, the rent included the additional 10 percent of gross revenues paid to DeStefano under the consulting agreement. Therefore, plaintiffs argue, that allegation was sufficient to state a fraud cause of action based on an affirmative misrepresentation. Also, plaintiffs assert that their allegation that defendants \u201chid\u201d their consulting agreement with DeStefano from plaintiffs was sufficient to state a fraud cause of action based on concealment.\n\u201c \u2018 \u201cThe elements of fraud, which give[] rise to the tort action for deceit, are (a) misrepresentation (false representation, concealment, or nondisclosure); (b) knowledge of falsity (or \u2018scienter\u2019); (c) intent to defraud, i.e., to induce reliance; (d) justifiable reliance; and (e) resulting damage.\u201d \u2019 [Citation.]\u201d (Small v. Fritz Companies, Inc. (2003) 30 Cal.4th 167, 173 [132 Cal.Rptr.2d 490, 65 P.3d 1255].) To allege fraud based on an affirmative misrepresentation, a plaintiff must allege a misrepresentation \u2014 normally an affirmation of fact. (Lonely Maiden Productions, LLC v. GoldenTree Asset Management, LP (2011) 201 Cal.App.4th 368, 375 [135 Cal.Rptr.3d 69].)\nTo maintain a cause of action for fraud through nondisclosure or concealment of facts, there must be allegations demonstrating that the defendant was under a legal duty to disclose those facts. (OCM Principal Opportunities Fund, L.P. v. CIBC World Markets Corp. (2007) 157 Cal.App.4th 835, 845 [68 Cal.Rptr.3d 828].) \u201c \u2018There are \u201cfour circumstances in which nondisclosure or concealment may constitute actionable fraud: (1) when the defendant is in a fiduciary relationship with the plaintiff; (2) when the defendant had exclusive knowledge of material facts not known to the plaintiff; (3) when the defendant actively conceals a material fact from the plaintiff; and (4) when the defendant makes partial representations but also suppresses some material facts. [Citation.]\u201d \u2019 (LiMandri v. Judkins (1997) 52 Cal.App.4th 326, 336 [60 Cal.Rptr.2d 539], quoting Heliotis v. Schuman (1986) 181 Cal.App.3d 646, 651 [226 Cal.Rptr. 509].) Where . . . there is no fiduciary relationship, the duty to disclose generally presupposes a relationship grounded in \u2018some sort of transaction between the parties. [Citations.] Thus, a duty to disclose may arise from the relationship between seller and buyer, employer and prospective employee, doctor and patient, or parties entering into any kind of contractual agreement. [Citation.]\u2019 (LiMandri, at p. 337, fn. omitted.)\u201d (Id. at p. 859.)\nThe affirmative representation upon which plaintiffs rely was stated in the rental agreements, each of which was approved by Lynch \u2014 the general manager of Coliseum \u2014 who presumably gave such approval in reliance on the amount of rent stated. Plaintiffs did not allege that the flat fee rent amount was the result of the tainted consulting agreement with DeStefano or that it was otherwise below market value for similar venues and facilities. Therefore, that stated amount was not, on its face, false or misleading. Insomniac and Ventures represented that they would pay that stated amount and, presumably, they performed in accordance with that representation. According to defendants, that amount only became a misrepresentation by virtue of the additional fact that defendants had agreed to pay DeStefano 10 percent of the gross revenues from events held pursuant to the rental agreements \u2014 a fact that defendants failed to disclose to plaintiffs. Thus, the facts pleaded by plaintiffs do not state a fraud claim based on an affirmative misrepresentation, but rather are intended to state a claim for fraud by concealment.\nIn order to state a claim based on concealment, plaintiffs were required to allege facts that showed defendants were under an affirmative duty to disclose the concealed fact to plaintiffs. As discussed above, ordinarily, such a duty arises only from fiduciary or fiduciary-lilce relationships. The facts alleged here, however, show only a commercial relationship between Insomniac and Ventures, on the one hand, and plaintiffs, on the other hand, without more. Because there is nothing alleged about that relationship that would give rise to fiduciary-like duties, plaintiffs have failed to state a claim against defendants for fraud by concealment. Accordingly, the trial court did not err by sustaining the demurrers to plaintiffs\u2019 fraud causes of action against defendants.\n2. Conspiracy to Defraud\nIn support of plaintiffs\u2019 cause of action against defendants for conspiracy to defraud, plaintiffs alleged the same essential facts as they alleged in support of their fraud claims. In addition, they alleged that defendants conspired with DeStefano to defraud plaintiffs by agreeing to conceal DeStefano\u2019s consulting agreement with Insomniac and Ventures. According to plaintiffs, those facts were sufficient to state a theory of liability against defendants based on conspiracy.\nThe California Supreme Court has stated, \u201cConspiracy is not a cause of action, but a legal doctrine that imposes liability on persons who, although not actually committing a tort themselves, share with the immediate tortfeasors a common plan or design in its perpetration. [Citation.] By participation in a civil conspiracy, a coconspirator effectively adopts as his or her own the torts of other coconspirators within the ambit of the conspiracy. [Citation.] In this way, a coconspirator incurs tort liability co-equal with the immediate tortfeasors, [\u00b6] Standing alone, a conspiracy does no harm and engenders no tort liability. It must be activated by the commission of an actual tort. \u2018 \u201cA civil conspiracy, however atrocious, does not per se give rise to a cause of action unless a civil wrong has been committed resulting in damage.\u201d \u2019 [Citation.] \u2018A bare agreement among two or more persons to harm a third person cannot injure the latter unless and until acts are actually performed pursuant to the agreement. Therefore, it is the acts done and not the conspiracy to do them which should be regarded as the essence of the civil action.\u2019 [Citation.] [][] We have summarized the elements and significance of a civil conspiracy; 1 \u201cThe elements of an action for civil conspiracy are the formation and operation of the conspiracy and damage resulting to plaintiff from an act or acts done in furtherance of the common design. ... In such an action the major significance of the conspiracy lies in the fact that it renders each participant in the wrongful act responsible as a joint tortfeasor for all damages ensuing from the wrong, irrespective of whether or not he was a direct actor and regardless of the degree of his activity.\u201d \u2019 [Citation.]\u201d (Applied Equipment Corp. v. Litton Saudi Arabia Ltd. (1994) 7 Cal.4th 503, 510-511 [28 Cal.Rptr.2d 475, 869 P.2d 454].)\nUnlike Insomniac and Ventures, who were only in a contractual relationship with plaintiffs, DeStefano \u2014 as an employee and agent of plaintiffs \u2014 was in an employment and agency relationship with them. Thus, the issue becomes whether his relationship with plaintiffs was the type that would give rise to an affirmative duty to disclose material facts. (See Weiner v. Fleischman (1991) 54 Cal.3d 476, 483 [286 Cal.Rptr. 40, 816 P.2d 892] [to show fraud by concealment, the plaintiff \u201chad to establish the existence of some type of legal relationship giving rise to a duty to disclose. \u2018Although material facts are known to one party and not to the other, failure to disclose them is ordinarily not actionable fraud unless there is some fiduciary relationship giving rise to a duty to disclose.\u2019 \u201d].)\nIn negotiating the rental agreements with defendants, DeStefano was acting on behalf of plaintiffs as their authorized agent, a relationship that can give rise to fiduciary responsibilities. \u201c[B]efore a person can be charged with a fiduciary obligation, he must either knowingly undertake to act on behalf and for the benefit of another, or must enter into a relationship which imposes that undertaking as a matter of law.\u201d (Committee on Children\u2019s Television, Inc. v. General Foods Corp. (1983) 35 Cal.3d 197, 221 [197 Cal.Rptr. 783, 673 P.2d 660].) \u201cA fiduciary relationship is \u2018 \u201cany relation existing between parties to a transaction wherein one of the parties is in duty bound to act with the utmost good faith for the benefit of the other party. Such a relation ordinarily arises where a confidence is reposed by one person in the integrity of another, and in such a relation the party in whom the confidence is reposed, if he voluntarily accepts or assumes to accept the confidence, can take no advantage from his acts relating to the interest of the other party without the latter\u2019s knowledge or consent. . . .\u201d \u2019 (Herbert v. Lankershim (1937) 9 Cal.2d 409, 483 [71 P.2d 220]; In re Marriage of Varner (1997) 55 Cal.App.4th 128, 141 [63 Cal.Rptr.2d 894]; see also Rickel v. Schwinn Bicycle Co. (1983) 144 Cal.App.3d 648, 654 [192 Cal.Rptr. 732] [\u2018 \u201cA \u2018fiduciary relation\u2019 in law is ordinarily synonymous with a \u2018confidential relation.\u2019 It is . . . founded upon the trust or confidence reposed by one person in the integrity and fidelity of another, and likewise precludes the idea of profit or advantage resulting from the dealings of the parties and the person in whom the confidence is reposed.\u201d \u2019].)\u201d (Wolf v. Superior Court (2003) 107 Cal.App.4th 25, 29-30 [130 Cal.Rptr.2d 860].)\nA \u201c[traditional\u201d example of a fiduciary relationship in the commercial context is one of an agent and principal. (Wolf v. Superior Court, supra, 107 Cal.App.4th at p. 30.) Moreover, officers of corporations who participate in the management of the corporation are considered fiduciaries as a matter of law. (See GAB Business Services, Inc. v. Lindsey & Newsom Claim Services, Inc. (2000) 83 Cal.App.4th 409, 421 [99 Cal.Rptr.2d 665].)\nDeStefano\u2019s employment and agency relationship with plaintiffs was fiduciary in nature because he had voluntarily undertaken to act on their behalf and for their benefit in negotiating the rental agreements with defendants. Based on that relationship, he was required to disclose to his principals the consulting agreement with Insomniac and Ventures, and his alleged failure to do so was sufficient to state a fraud by concealment as to him.\nGiven that the alleged facts showed the commission of an underlying tort by one of the alleged coconspirators, the allegations that defendants conspired with DeStefano to conceal the existence of the consulting agreement from plaintiffs were sufficient to state a cause of action against defendants for fraud based on a conspiracy theory of liability. Thus, the trial court erred by sustaining the demurrers to the conspiracy to defraud claim against defendants.\nF. Cause of Action for Violation of the UCL\nPlaintiffs maintain that they adequately stated facts constituting violations of the UCL by alleging that Insomniac and Ventures made cash payments to a union shop steward for employee wages without paying payroll taxes in violation of state and federal law, and that Insomniac and Ventures engaged in a fraud and a conspiracy to defraud.\nThe California Supreme Court has said, \u201cThe UCL defines \u2018unfair competition\u2019 as \u2018any unlawful, unfair or fraudulent business act or practice and unfair, deceptive, untrue or misleading advertising.\u2019 (Bus. & Prof. Code, \u00a7 17200.) By proscribing \u2018any unlawful\u2019 business act or practice {ibid.), the UCL \u2018 \u201cborrows\u201d \u2019 rules set out in other laws and makes violations of those rules independently actionable. [Citation.] However, a practice may violate the UCL even if it is not prohibited by another statute. Unfair and fraudulent practices are alternate grounds for relief. [Citation.] . . . [\u00b6] We have made it clear that \u2018an action under the UCL \u201cis not an all-purpose substitute for a tort or contract action.\u201d [Citation.] Instead, the act provides an equitable means through which both public prosecutors and private individuals can bring suit to prevent unfair business practices and restore money or property to victims of these practices. As we have said, the \u201coverarching legislative concern [was] to provide a streamlined procedure for the prevention of ongoing or threatened acts of unfair competition.\u201d [Citation.] Because of this objective, the remedies provided are limited.\u2019 [Citation.] Accordingly, while UCL remedies are \u2018cumulative ... to the remedies or penalties available under all other laws of this state\u2019 (Bus. & Prof. Code, \u00a7 17205), they are narrow in scope.\u201d (Zhang v. Superior Court (2013) 57 Cal.4th 364, 370-371 [159 Cal.Rptr.3d 672, 304 P.3d 163].) The Supreme Court has also explained that \u201c[violations of federal statutes, including those governing the financial industry, may serve as the predicate for a UCL cause of action. [Citations.]\u201d (Rose v. Bank of America (2013) 57 Cal.4th 390, 394 [159 Cal.Rptr.3d 693, 304 P.3d 181].) \u201c[U]nder the unlawful prong, the UCL \u201c \u2018borrows\u2019 violations of other laws and treats them as unlawful practices\u201d that the unfair competition law makes independently actionable.\u2019 [Citation.] Depending upon which prong is invoked, a UCL claim may most closely resemble, in terms of the right asserted, an action for misrepresentation [citation] . . . , or any of countless other common law and statutory claims.\u201c (Aryeh v. Canon Business Solutions, Inc. (2013) 55 Cal.4th 1185, 1196 [151 Cal.Rptr.3d 827, 292 P.3d 871].)\nPlaintiff\u2019s allegations that Insomniac and Ventures made cash payments of wages without paying the payroll taxes associated with those wages were sufficient to state a violation of the UCL under the unlawful prong of that statutory scheme. Those allegations, when fairly construed, describe a violation of an underlying federal law, i.e., 26 United States Code sections 3101 and 3102, which violation can serve as a predicate for a UCL cause of action seeking restitution of the amount of unpaid tax liability to which plaintiffs were allegedly exposed. Similarly, because we have concluded that plaintiffs have adequately alleged that defendants engaged in a conspiracy to defraud, plaintiffs have also adequately alleged a cause of action for violation of the UCL under the fraud prong seeking restitution of the amounts Insomniac and Ventures paid to DeStefano under the undisclosed consulting agreement.\nG. Cause of Action for Accounting\nThe parties agree that because plaintiffs\u2019 accounting cause of action is derivative of their other causes of action, the viability of that claim is dependent upon whether plaintiffs have adequately pleaded one or more of their other claims. Therefore, we conclude that plaintiffs accounting cause of action is adequately stated as to the causes of action that were adequately pleaded, i.e., the causes of action for violation of section 1090, conspiracy to defraud, and violation of the UCL.\nH. Proposed Cause of Action for Inducing Breach of Fiduciary Duties\nAlthough plaintiffs did not plead a cause of action for inducing a breach of fiduciary duties, they argue that they alleged sufficient facts to support such a claim. Because we are reversing the judgment of dismissal and remanding the matter to the trial court, we do not need to resolve this issue. (See Genesis Environmental Services v. San Joaquin Valley Unified Air Pollution Control Dist. (2003) 113 Cal.App.4th 597, 603 [6 Cal.Rptr.3d 574] [in ruling on a demurrer, \u201cour inquiry ends and reversal is required once we determine a complaint has stated a cause of action under any legal theory\u201d].) Instead, the issue should be raised with the trial court in a motion for leave to amend the operative complaint to state a cause of action for inducing a breach of fiduciary duties.\nDISPOSITION\nThe judgment of dismissal in favor of defendants is reversed, and the matter is remanded to the trial court with instructions to enter new orders overruling defendants\u2019 demurrers as to the causes of action for violation of section 1090, conspiracy to defraud, violation of the UCL, and an accounting. The orders sustaining without leave to amend defendants\u2019 demurrers to the causes of actions for violation of the False Claims Act, negligence, and fraud are affirmed. No costs are awarded on appeal.\nTurner, P. J, and Goodman, J., concurred.\nThe Commission operates the Los Angeles Memorial Coliseum (Coliseum) and, apparently, the Los Angeles Sports Arena (Sports Arena). Commission and Association are sometimes collectively referred to as plaintiffs.\nInsomniac, Rotella, Ventures, and Gerami are sometimes collectively referred to as defendants.\nBusiness and Professions Code section 17200 et seq.\nGovernment Code section 12650 et seq.\nAs explained in detail below, defendants\u2019 demurrers were sustained without leave to amend as to certain causes of action in the first, fourth, and fifth amended complaints. Therefore, the factual allegations relevant to each order sustaining the demurrers without leave to amend are taken from the pleadings to which the orders were applied.\nAs discussed below, Rotella and Gerami were originally named in the third amended complaint.\nDeStefano deleted his agreement with Insomniac and Ventures from his office computer\u2019s hard drive before January 19, 2011.\nPlaintiffs filed a petition for a writ of mandate challenging the ruling on their False Claims Act cause of action, which petition this court denied because plaintiffs had an adequate remedy at law.\nRotella and Gerami were only named in the causes of action for violation of the False Claims Act, conspiracy to defraud, and fraud.\nNotwithstanding the trial court\u2019s prior ruling on their False Claims Act cause of action, plaintiffs realleged it in the third amended complaint.\nRotella and Gerami were only named in the causes of action for conspiracy to defraud and fraud.\n\u201cA qui tam action has been defined as follows, \u2018An action brought under a statute that allows a private person to sue for a penalty, part of which the government or some specified public institution will receive.\u2019 (Black\u2019s Law Dict. (7th ed. 1999) p. 1262, col. 1; United States ex rel. Aflatooni v. Kitsap Physicians Service (9th Cir. 2002) 314 F.3d 995, 997, fn. 1.) The term \u2018qui tam\u2019 comes from the Latin expression \u2018qui tam pro domino rege quam pro se ipso in hac parte sequitur,\u2019 which means, \u2018 \u201cwho pursues this action on our Lord the King\u2019s behalf as well as his own.\u201d \u2019 (Vermont Agency of Natural Resources v. United States ex rel. Stevens (2001) 529 U.S. 765, 768, fn. 1 [146 L.Ed.2d 836, 120 S.Ct. 1858], italics omitted; City of Pomona v. Superior Court (2001) 89 Cal.App.4th 793, 797, fn. 1 [107 Cal.Rptr.2d 710].)\u201d (People ex rel. Allstate Ins. Co. v. Weitzman (2003) 107 Cal.App.4th 534, 538 [132 Cal.Rptr.2d 165].)\nGovernment Code section 12651, subdivision (a) provides: \u201c(a) Any person who commits any of the following enumerated acts in this subdivision shall have violated this article and shall be liable to the state or to the political subdivision for three times the amount of damages that the state or political subdivision sustains because of the act of that person. A person who commits any of the following enumerated acts shall also be liable to the state or to the political subdivision for the costs of a civil action brought to recover any of those penalties or damages, and shall be liable to the state or political subdivision for a civil penalty of not less than five thousand five hundred dollars ($5,500) and not more than eleven thousand dollars ($11,000) for each violation: [\u00b6] (1) Knowingly presents or causes to be presented a false or fraudulent claim for payment or approval, [\u00b6] (2) Knowingly malees, uses, or causes to be made or used a false record or statement material to a false or fraudulent claim. [\u00b6] (3) Conspires to commit a violation of this subdivision. [|] (4) Has possession, custody, or control of public property or money used or to be used by the state or by any political subdivision and knowingly delivers or causes to be delivered less than all of that property. [][] (5) Is authorized to make or deliver a document certifying receipt of property used or to be used by the state or by any political subdivision and knowingly makes or delivers a receipt that falsely represents the property used or to be used. [$] (6) Knowingly buys, or receives as a pledge of an obligation or debt, public property from any person who lawfully may not sell or pledge the property, [\u00b6] (7) Knowingly makes, uses, or causes to be made or used a false record or statement material to an obligation to pay or transmit money or property to the state or to any political subdivision, or knowingly conceals or knowingly and improperly avoids, or decreases an obligation to pay or transmit money or property to the state or to any political subdivision. [][] (8) Is a beneficiary of an inadvertent submission of a false claim, subsequently discovers the falsity of the claim, and fails to disclose the false claim to the state or the political subdivision within a reasonable time after discovery of the false claim.\u201d\nIn Government Code section 12650, subdivision (b)(8), a \u201c \u2018prosecuting authority\u2019 \u201d is defined as \u201cthe county counsel, city attorney, or other local government official charged with investigating, filing, and conducting civil legal proceedings on behalf of, or in the name of, a particular political subdivision.\u201d\nWe do not have to deal with whether attorneys working in a government agency or subdivision are or can be \u201ccharged with investigating, filing, and conducting civil legal proceeding\u201d (Gov. Code, \u00a7 12650, subd. (b)(8)) on behalf of or in the name of such a government agency or subdivision for purposes of the False Claims Act because that is not what occurred here.\nSection 1090, subdivision (a) provides, in pertinent part, \u201cMembers of the Legislature, state, county, district, judicial district, and city officers or employees shall not be financially interested in any contract made by them in their official capacity, or by any body or board of which they are members. Nor shall state, county, district, judicial district, and city officers or employees be purchasers at any sale or vendors at any purchase made by them in their official capacity.\u201d\nSection 1092, subdivision (a) provides, in pertinent part, \u201cEvery contract made in violation of any of the provisions of Section 1090 may be avoided at the instance of any party except the officer interested therein. No such contract may be avoided because of the interest of an officer therein unless the contract is made in the official capacity of the officer, or by a board or body of which he or she is a member.\u201d\nActually, the ticket sale proceeds went to the Coliseum or Sports Arena and then, after an accounting, a portion of those proceeds was remitted to Insomniac and Ventures.\nThe franchise agreement had a contract value of $48 million over a 10-year period, and between 2002 and 2005, the city paid Klistoff & Sons \u201csubstantial sums\u201d under the agreement. (Klistoff, supra, 157 Cal.App.4th at p. 476.)\nAs noted, Klistoff & Sons was the party to the agreement with the city.\nAccording to the operative complaint, Insomniac and Ventures were in a contractual relationship with plaintiffs. Individual defendants Rotella and Gerami had no cognizable legal relationship with plaintiffs, making the fraud by concealment claim against them even more attenuated than the claim against Insomniac and Ventures.\nSection 3101(a) of title 26 of the United States Code provides in pertinent part, \u201cOld-age, survivors, and disability insurance. In addition to other taxes, there is hereby imposed on the income of every individual a tax equal to the following percentages of the wages (as defined in section 3121(a)) received by him with respect to employment (as defined in section 3121(b)) . . . .\u201d Section 3102(a) provides in pertinent part: \u201cThe tax imposed by section 3101 shall be collected by the employer of the taxpayer, by deducting the amount of the tax from the wages as and when paid.\u201d\nDefendants do not contend that the pleadings fail to state adequately what amounts are subject to restitution based on the alleged violation of federal law.\nJudge of the Los Angeles Superior Court, assigned by the Chief Justice pursuant to article VI, section 6 of the California Constitution.",
+        "type": "majority",
+        "author": "MOSK, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Burke, Williams & Sorensen, Charles E. Slyngstad and Brian S. Ginter for Plaintiffs and Appellants.",
+      "The Kaufman Law Group, Gary J. Kaufman, Colin A. Hardacre and Natasha L. Hill for Defendants and Respondents Insomniac, Inc., and Pasquale Rotella.",
+      "Mennemeier Glassman and Eric J. Glassman for Defendants and Respondents Go Ventures, Inc., and Reza Gerami."
+    ],
+    "corrections": "",
+    "head_matter": "[No. B252838.\nSecond Dist., Div. Five.\nJan. 27, 2015.]\nLOS ANGELES MEMORIAL COLISEUM COMMISSION et al., Plaintiffs and Appellants, v. INSOMNIAC, INC., et al., Defendants and Respondents.\nCounsel\nBurke, Williams & Sorensen, Charles E. Slyngstad and Brian S. Ginter for Plaintiffs and Appellants.\nThe Kaufman Law Group, Gary J. Kaufman, Colin A. Hardacre and Natasha L. Hill for Defendants and Respondents Insomniac, Inc., and Pasquale Rotella.\nMennemeier Glassman and Eric J. Glassman for Defendants and Respondents Go Ventures, Inc., and Reza Gerami."
+  },
+  "file_name": "0803-01",
+  "first_page_order": 749,
+  "last_page_order": 783
+}

@@ -1,0 +1,813 @@
+{
+  "id": 3884266,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. WESLEY DAVID FRENCH, Defendant and Appellant",
+  "name_abbreviation": "People v. French",
+  "decision_date": "2008-03-27",
+  "docket_number": "No. S148845",
+  "first_page": "36",
+  "last_page": "55",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "43 Cal. 4th 36"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal.",
+    "id": 9021,
+    "name": "Supreme Court of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "719 N.W.2d 644",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "case_ids": [
+        8404341
+      ],
+      "pin_cites": [
+        {
+          "page": "650-651"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nw2d/719/0644-01"
+      ]
+    },
+    {
+      "cite": "133 P.3d 1190",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "case_ids": [
+        8426354
+      ],
+      "year": 2006,
+      "opinion_index": 0,
+      "case_paths": [
+        "/p3d/133/1190-01"
+      ]
+    },
+    {
+      "cite": "212 Ariz. 225",
+      "category": "reporters:state",
+      "reporter": "Ariz.",
+      "case_ids": [
+        3237708
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "952-953"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ariz/212/0225-01"
+      ]
+    },
+    {
+      "cite": "31 Cal.Rptr.3d 891",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "131 Cal.App.4th 1089",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5529325
+      ],
+      "pin_cites": [
+        {
+          "page": "1103"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/131/1089-01"
+      ]
+    },
+    {
+      "cite": "27 P.3d 739",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "109 Cal.Rptr.2d 851",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 Cal.4th 316",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        456861
+      ],
+      "pin_cites": [
+        {
+          "page": "327"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/26/0316-01"
+      ]
+    },
+    {
+      "cite": "530 U.S. 466",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9413911
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/530/0466-01"
+      ]
+    },
+    {
+      "cite": "41 Cal.Rptr.3d 480",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "138 Cal.App.4th 445",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3954039
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/138/0445-01"
+      ]
+    },
+    {
+      "cite": "18 P.3d 2",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "104 Cal.Rptr.2d 572",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Cal.4th 19",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        265454
+      ],
+      "pin_cites": [
+        {
+          "page": "29-30"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/25/0019-01"
+      ]
+    },
+    {
+      "cite": "527 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1248184
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "15"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/527/0001-01"
+      ]
+    },
+    {
+      "cite": "386 U.S. 18",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6168882
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/386/0018-01"
+      ]
+    },
+    {
+      "cite": "548 U.S. 212",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3500415
+      ],
+      "weight": 7,
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "222"
+        },
+        {
+          "page": "2553"
+        },
+        {
+          "page": "221-222"
+        },
+        {
+          "page": "2553"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/548/0212-01"
+      ]
+    },
+    {
+      "cite": "93 P.3d 1037",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 Cal.Rptr.3d 96",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 Cal.4th 738",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        493354
+      ],
+      "pin_cites": [
+        {
+          "page": "749-750"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/33/0738-01"
+      ]
+    },
+    {
+      "cite": "136 Cal.Rptr. 496",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "67 Cal.App.3d 173",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2029301
+      ],
+      "pin_cites": [
+        {
+          "page": "178"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/67/0173-01"
+      ]
+    },
+    {
+      "cite": "84 P.3d 366",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "9 Cal.Rptr.3d 678",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Cal.4th 432",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        801080
+      ],
+      "pin_cites": [
+        {
+          "page": "440-442"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/32/0432-01"
+      ]
+    },
+    {
+      "cite": "718 P.2d 94",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "226 Cal.Rptr. 107",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Cal.3d 837",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4543058
+      ],
+      "pin_cites": [
+        {
+          "page": "842-843"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/41/0837-01"
+      ]
+    },
+    {
+      "cite": "992 P.2d 569",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "92 Cal.Rptr.2d 641",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "22 Cal.4th 290",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        157764
+      ],
+      "pin_cites": [
+        {
+          "page": "295"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/22/0290-01"
+      ]
+    },
+    {
+      "cite": "899 P.2d 896",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.Rptr.2d 827",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "10 Cal.4th 1170",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1992334
+      ],
+      "pin_cites": [
+        {
+          "page": "1177"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/10/1170-01"
+      ]
+    },
+    {
+      "cite": "881 P.2d 298",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "34 Cal.Rptr.2d 238",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "8 Cal.4th 441",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1985988
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "449"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/8/0441-01"
+      ]
+    },
+    {
+      "cite": "353 P.2d 583",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 Cal.Rptr. 871",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.2d 442",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2342464
+      ],
+      "pin_cites": [
+        {
+          "page": "443-444"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/54/0442-01"
+      ]
+    },
+    {
+      "cite": "115 P.3d 472",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Cal.Rptr.3d 160",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Cal.4th 595",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3122362
+      ],
+      "pin_cites": [
+        {
+          "page": "612"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/36/0595-01"
+      ]
+    },
+    {
+      "cite": "934 P.2d 1279",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "62 Cal.Rptr.2d 754",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 Cal.4th 269",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1006043
+      ],
+      "pin_cites": [
+        {
+          "page": "276"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/15/0269-01"
+      ]
+    },
+    {
+      "cite": "853 P.2d 1093",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 Cal.Rptr.2d 638",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 Cal.4th 580",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1998525
+      ],
+      "pin_cites": [
+        {
+          "page": "589-590"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/5/0580-01"
+      ]
+    },
+    {
+      "cite": "161 P.3d 1146",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "62 Cal.Rptr.3d 588",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Cal.4th 825",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3818842
+      ],
+      "pin_cites": [
+        {
+          "page": "836-837"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/41/0825-01"
+      ]
+    },
+    {
+      "cite": "69 P.3d 420",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "134 Cal.Rptr.2d 571",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal.4th 773",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        269736
+      ],
+      "pin_cites": [
+        {
+          "page": "790-791"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/30/0773-01"
+      ]
+    },
+    {
+      "cite": "426 P.2d 881",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "58 Cal.Rptr. 313",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "66 Cal.2d 571",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2331152
+      ],
+      "pin_cites": [
+        {
+          "page": "574"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/66/0571-01"
+      ]
+    },
+    {
+      "cite": "125 P.3d 290",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Cal.Rptr.3d 354",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Cal.4th 759",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3772043
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/37/0759-01"
+      ]
+    },
+    {
+      "cite": "913 P.2d 1061",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 Cal.Rptr.2d 851",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "13 Cal.4th 68",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1965927
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/13/0068-01"
+      ]
+    },
+    {
+      "cite": "161 P.3d 1130",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "62 Cal.Rptr.3d 569",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Cal.4th 799",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3818824
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/41/0799-01"
+      ]
+    },
+    {
+      "cite": "113 P.3d 534",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Cal.Rptr.3d 740",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.4th 1238",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        873206
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/35/1238-01"
+      ]
+    },
+    {
+      "cite": "542 U.S. 296",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5868041
+      ],
+      "weight": 6,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/542/0296-01"
+      ]
+    },
+    {
+      "cite": "549 U.S. 270",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3553669
+      ],
+      "weight": 13,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/549/0270-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1323,
+    "char_count": 43981,
+    "ocr_confidence": 0.936,
+    "pagerank": {
+      "raw": 3.217741175987548e-07,
+      "percentile": 0.8669024719201776
+    },
+    "sha256": "a434629d0122770efee2e255aa66661ca979e13d457250895fb82379786cd77d",
+    "simhash": "1:926b42a867079974",
+    "word_count": 7153
+  },
+  "last_updated": "2024-02-27T22:20:00.784373+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. WESLEY DAVID FRENCH, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nGEORGE, C. J.\nDefendant pleaded no contest to six counts of lewd and lascivious conduct with a child (Pen. Code, \u00a7 288, subd. (a)) pursuant to a plea agreement under which six additional counts alleging that offense, as well as a sentencing enhancement allegation (\u00a7 667.61, subd. (b)), were dismissed. The trial court sentenced him to the upper term of eight years on one count and one-third the middle term on the other five counts, for a total sentence of 18 years, the maximum term available under the plea agreement. Defendant contends imposition of the upper term violated his Sixth Amendment right to a jury trial as established in Cunningham v. California (2007) 549 U.S. 270 [166 L.Ed.2d 856, 127 S.Ct. 856] (Cunningham). We granted review to address issues involving the application of Cunningham to cases in which the defendant has pleaded guilty or no contest.\nAfter defendant\u2019s plea was entered, but before he was sentenced, the United States Supreme Court issued its decision in Blakely v. Washington (2004) 542 U.S. 296 [159 L.Ed.2d 403, 124 S.Ct. 2531] (Blakely), holding that a criminal defendant\u2019s Sixth Amendment right to jury trial was violated in a case in which a Washington State trial court imposed \u201c \u2018an exceptional sentence\u2019 \u201d beyond the \u201c \u2018standard range\u2019 \u201d under Washington\u2019s sentencing reform act, based upon facts neither proved to a jury beyond a reasonable doubt, nor admitted by the defendant. (Blakely, at pp. 303-304.) Subsequently, we concluded that Blakely did not apply to California\u2019s determinate sentencing law. (People v. Black (2005) 35 Cal.4th 1238 [29 Cal.Rptr.3d 740, 113 P.3d 534] (Black 7).) We held that \u201cthe judicial factfinding that occurs when a judge exercises discretion to impose an upper term sentence . . . under California law does not implicate a defendant\u2019s Sixth Amendment right to a jury trial.\u201d (Black I, supra, 35 Cal.4th at p. 1244.) On appeal, defendant claimed that the upper term here was imposed in violation of his Sixth Amendment rights. The Court of Appeal rejected that contention, relying upon our decision in Black I. The appellate court also concluded that \u201c[wjhere, as here, a defendant agrees [as part of a plea agreement] that the court has the authority to sentence that defendant to an upper term, he is deemed to have admitted that his conduct, as a matter of fact, can support that term.\u201d\nWhile defendant\u2019s petition for review was pending in this court, the United States Supreme Court issued its decision in Cunningham, supra, 549 U.S. 270 [127 S.Ct. 856]. As we recently explained in People v. Black (2007) 41 Cal.4th 799 [62 Cal.Rptr.3d 569, 161 P.3d 1130] (Black II), the high court disagreed with our decision in Black I and \u201cheld that California\u2019s determinate sentencing law (DSL) violates a defendant\u2019s federal constitutional right to a jury trial under the Sixth and Fourteenth Amendments to the United States Constitution by assigning to the trial judge, rather than the jury, the authority to make the factual findings that subject a defendant to the possibility of an upper term sentence.\u201d {Black II, at p. 805.) We conclude that (1) defendant was not required to obtain a certificate of probable cause in order to raise his claim of Cunningham error on appeal, because that claim implicates his sentence only and does not constitute a challenge to the plea agreement; (2) defendant did not forfeit his Cunningham claim by failing to raise it in the trial court because, under the circumstances of this case, an express waiver of jury trial on aggravating circumstances was required and no such waiver occurred; (3) in pleading no contest pursuant to a plea agreement providing for a sentence not to exceed a stipulated maximum and further stipulating to a factual basis for the plea, defendant neither waived his right to a jury trial on aggravating circumstances nor admitted facts that established an aggravating circumstance; and (4) imposition of the upper term sentence violated defendant\u2019s Sixth Amendment right to a jury trial, and the constitutional error was not harmless beyond a reasonable doubt.\nI.\nDefendant was charged with 12 counts of lewd and lascivious conduct with a child under the age of 14 years, involving three victims. That offense is punishable by imprisonment for a term of three, six, or eight years. (\u00a7 288, subd. (a).) The information alleged that defendant committed the offenses against more than one victim, within the meaning of section 667.61, subdivisions (b) and (e), an allegation which, if found true, would increase the punishment for each offense to a term of imprisonment of 15 years to life.\nOn June 8, 2004, defendant pleaded no contest to six of these counts, under an agreement whereby he would receive a sentence of no more than 18 years in prison and the remaining six counts and the section 667.61 allegation would be dismissed. At the hearing at which defendant\u2019s plea was entered, the prosecutor stated that the maximum sentence defendant could receive were he to be convicted on all 12 counts was imprisonment for 180 years to life. The court explained that if defendant accepted the prosecutor\u2019s offer the sentence would not exceed 18 years \u201cunder any circumstances,\u201d and that the prosecution was recommending that the full 18-year term be imposed. Defense counsel stated she had explained to defendant the elements of the charged offenses, the possible defenses he might have, and the consequences of the plea. Defendant pleaded no contest to counts 1 and 2 (involving victim Brandon B.), counts 9 and 10 (involving victim Brittany R), and counts 11 and 12 (involving victim Zachary L.).\nThe prosecutor set forth the factual basis for the plea by briefly describing the acts underlying these six counts. When the court inquired of defense counsel whether she believed there was a sufficient factual basis for the plea, counsel stated, \u201cI believe the People have witnesses lined up for this trial that will support what the D.A. read in terms of the factual basis . . . .\u201d The court informed defendant that the alternate sentences provided for these offenses are three, six, or eight years and that the court had agreed to a sentence of no more than 18 years. Defendant said he understood. After the court inquired whether defendant also understood and waived his right to a speedy and public jury trial, defendant, after consulting with counsel, said he did. The court explained, and defendant relinquished, his rights to cross-examine witnesses, to remain silent, and to present a defense. The court accepted defendant\u2019s plea of no contest and found defendant guilty on the six counts to which he had entered that plea.\nA presentence report, based upon police reports, indicated that the victims had been charges at an in-home daycare center run by defendant\u2019s daughter, whom defendant sometimes assisted in the operation of the center. When interviewed by the probation officer who prepared the report, defendant denied committing the offenses. Defendant\u2019s only prior criminal convictions were two misdemeanor offenses for which he had been placed on three years\u2019 probation, a condition of which was that he serve 50 days in county jail.\nThe presentence report identified three circumstances in aggravation: the manner in which the offenses were carried out indicated planning (Cal. Rules of Court, rule 4.421(a)(8)); defendant took advantage of a position of trust or confidence (id., rule 4.421(a)(ll)); and the crime involved multiple acts against multiple victims (id., rule 4.408). The report identified one circumstance in mitigation: defendant\u2019s prior record did not involve significant criminal conduct. (Id., rule 4.423(b)(1).)\nAt the sentencing hearing, defendant\u2019s wife testified on his behalf and a number of defendant\u2019s friends submitted letters that were read and considered by the trial court. The mother of victim Brandon B. made a statement explaining the impact of the offenses upon her son. The district attorney asked the court to impose a sentence of 18 years, based upon the circumstances of the offenses, including what was related in the statement of Brandon\u2019s mother. The trial court sentenced defendant to the upper term of eight years on count 1 (involving Brandon B.) and one-third of the six-year midterm on each of the other five counts, with all terms to be served consecutively, for a total term of 18 years. The trial court selected the upper term because \u201c[defendant took advantage of a position of trust and confidence to commit the crime pursuant to Rule 4.421(a)(ll),\u201d and imposed consecutive terms because the crimes were committed on different occasions or at separate locations. (Cal. Rules of Court, rule 4.425(a)(3).)\nn.\nA. Certificate of Probable Cause\nThe Attorney General contends this appeal must be dismissed because the trial court did not issue a certificate of probable cause for appeal. Such a certificate was not required.\nSection 1237.5 provides that an appeal may not be taken after a plea of guilty or no contest unless the defendant has filed a statement showing reasonable grounds for appeal and the trial court has executed and filed a certificate of probable cause. This requirement does not apply, however, if the appeal is based upon grounds that arose after entry of the plea and that do not affect the validity of the plea. (Cal. Rules of Court, rule 8.304(b)(4)(B).) In People v. Panizzon (1996) 13 Cal.4th 68 [51 Cal.Rptr.2d 851, 913 P.2d 1061] (Panizzon), we held that a certificate of probable cause was required in a case in which the defendant claimed on appeal that his negotiated sentence constituted cruel and unusual punishment. In Panizzon, the defendant had agreed to plead no contest to certain charges, and further agreed to a sentence of life imprisonment with the possibility of parole plus 12 years, in exchange for the dismissal of additional charges. On appeal, the defendant asserted that this sentence violated state and federal prohibitions against cruel and unusual punishment, but the Attorney General argued that the appeal should be dismissed because the defendant had not complied with the requirements of section 1237.5.\nWe explained: \u201cIn determining whether section 1237.5 applies to a challenge of a sentence imposed after a plea of guilty or no contest, courts must look to the substance of the appeal: \u2018the crucial issue is what the defendant is challenging, not the time or manner in which the challenge is made.\u2019 [Citation.] Hence, the critical inquiry is whether a challenge to the sentence is in substance a challenge to the validity of the plea, thus rendering the appeal subject to the requirements of section 1237.5.\u201d (Panizzon, supra, 13 Cal.4th at p. 76.) Although the defendant in Panizzon purported not to contest the validity of his negotiated plea, we concluded that his challenge to the sentence to which he had agreed was an attack upon \u201can integral part of the plea\u201d and \u201cin substance, a challenge to the validity of the plea, which requires compliance with the probable cause certificate requirements of section 1237.5 and rule [8.304(b)].\u201d (Panizzon, supra, 13 Cal.4th at p. 73.)\nIn People v. Shelton (2006) 37 Cal.4th 759 [37 Cal.Rptr.3d 354, 125 P.3d 290] (Shelton), we held that a defendant\u2019s claim\u2014that the sentence imposed by the trial court, which was within the agreed-upon maximum term, violated the multiple punishment prohibition of section 654\u2014constituted an attack upon the validity of the plea and required a certificate of probable cause. The defendant in Shelton had pleaded guilty to two of the charged counts and agreed to a maximum sentence of three years eight months in exchange for dismissal of three other counts, reserving the right to argue for a sentence lower than the maximum but not reserving the right to argue that the agreed-upon maximum was an unauthorized sentence. The trial court sentenced the defendant to the maximum term of three years eight months, imposing the upper term on one count and a consecutive term on the other count. In challenging his sentence pursuant to section 654, the defendant argued that the trial court lacked authority to impose the agreed-upon maximum term. We explained that \u201cinclusion of a sentence lid [in a plea agreement] implies a mutual understanding and agreement that the trial court has authority to impose the specified maximum sentence and preserves only the defendant\u2019s right to urge that the trial court should or must exercise its discretion in favor of a shorter term. Accordingly, a challenge to the trial court\u2019s authority to impose the lid sentence is a challenge to the validity of the plea requiring a certificate of probable cause.\u201d (37 Cal.4th at p. 763.)\nOn ttie other hand, we have held that the certificate requirement does not apply when the defendant \u201cassert[s] only that errors occurred in the . . . adversary hearings conducted by the trial court for the purpose of determining the degree of the crime and the penalty to be imposed.\u201d (People v. Ward (1967) 66 Cal.2d 571, 574 [58 Cal.Rptr. 313, 426 P.2d 881].) Accordingly, \u201ca certificate of probable cause is not required to challenge the exercise of individualized sentencing discretion within an agreed maximum sentence. Such an agreement, by its nature, contemplates that the court will choose from among a range of permissible sentences within the maximum, and that abuses of this discretionary sentencing authority will be reviewable on appeal, as they would otherwise be. Accordingly, such appellate claims do not constitute an attack on the validity of the plea, for which a certificate is necessary.\u201d (People v. Buttram (2003) 30 Cal.4th 773, 790-791 [134 Cal.Rptr.2d 571, 69 P.3d 420].)\nA certificate of probable cause is not required in the present case, because defendant\u2019s claim does not constitute an attack upon the validity of the plea agreement. In contrast to a case in which the maximum term under the plea agreement would be unlawful under section 654, the Sixth Amendment would not render an upper term unlawful for defendant\u2019s crimes under all circumstances. Whether an upper term sentence was permissible for defendant\u2019s offenses depended upon whether aggravating factors were established at the sentencing hearing, and not upon the facts of the offenses themselves. Even without a jury trial on aggravating circumstances, the upper term would have been authorized if the prosecution had established an aggravating factor at the sentencing hearing based upon defendant\u2019s prior convictions or upon his admissions. (See People v. Sandoval (2007) 41 Cal.4th 825, 836-837 [62 Cal.Rptr.3d 588, 161 P.3d 1146] (Sandoval).) Defendant\u2019s claim is that the upper term was not authorized because the prosecution failed to establish an aggravating circumstance at the sentencing hearing in the manner required by the Sixth Amendment. Such a claim does not affect the validity of the plea agreement.\nFurthermore, we held in Sandoval, supra, 41 Cal.4th at pages 845-852, that a defendant who has established prejudicial Sixth Amendment error under Cunningham, supra, 549 U.S. 270 [127 S.Ct. 856], is entitled to be resentenced under a scheme in which the trial court has full discretion to impose the upper, middle, or lower term, unconstrained by the requirement that the upper term may not be imposed unless an aggravating circumstance is established. Under our holding in Sandoval, if a defendant is successful in establishing Cunningham error on appeal, the trial court is not precluded from imposing the upper term upon remand for resentencing. The defendant is entitled only to be resentenced under a constitutional scheme and is afforded the opportunity to attempt to persuade the trial court to exercise its discretion to impose a lesser sentence. In contrast to the claims raised in Panizzon and Shelton (Panizzon, supra, 13 Cal.4th 68; Shelton, supra, 37 Cal.4th 759), defendant\u2019s claim, if successful, would not deprive the People of the benefit of the plea agreement, because they still would have the opportunity to convince the trial court that the full 18-year term should be imposed. Accordingly, defendant is entitled to have his Cunningham claim addressed on appeal.\nB. Forfeiture of Sixth Amendment Claim by Failure to Object\nThe Attorney General contends that defendant has forfeited his Sixth Amendment claim because he failed to raise it at the sentencing hearing, which was conducted two weeks after the United States Supreme Court issued its opinion in Blakely, supra, 542 U.S. 296. Ordinarily, an appellate court will not consider a claim of error if an objection could have been, but was not, made in the lower court. (People v. Saunders (1993) 5 Cal.4th 580, 589-590 [20 Cal.Rptr.2d 638, 853 P.2d 1093] (Saunders).) The reason for this rule is that \u201c[i]t is both unfair and inefficient to permit a claim of error on appeal that, if timely brought to the attention of the trial court, could have been easily corrected or avoided.\u201d (People v. Vera (1997) 15 Cal.4th 269, 276 [62 Cal.Rptr.2d 754, 934 P.2d 1279] (Vera); see Saunders, supra, 5 Cal.4th at p. 590.) \u201c[T]he forfeiture rule ensures that the opposing party is given an opportunity to address the objection, and it prevents a party from engaging in gamesmanship by choosing not to object, awaiting die outcome, and then claiming error.\u201d (People v. Kennedy (2005) 36 Cal.4th 595, 612 [31 Cal.Rptr.3d 160, 115 P.3d 472].)\nWe also have recognized, however, that a \u201c[d]efendant\u2019s failure to object also would not preclude his asserting on appeal that he was denied his constitutional right to a jury trial. (Cal. Const., art. I, \u00a7 16; People v. Holmes (1960) 54 Cal.2d 442, 443-444 [5 Cal.Rptr. 871, 353 P.2d 583].)\u201d (Saunders, supra, 5 Cal.4th at p. 589, fn. 5.) Our state Constitution requires that waiver of jury trial in a criminal case be made \u201cby the consent of both parties expressed in open court by the defendant and the defendant\u2019s counsel.\u201d (Cal. Const., art. I, \u00a7 16.)\nThe requirement of an express waiver applies to the constitutional right to a jury trial, but not to jury trial rights that are established only by statute. (Vera, supra, 15 Cal.4th at p. 278; Saunders, supra, 5 Cal.4th at p. 589, fn. 5.) In Vera, after the defendant was found guilty of the charged offenses, the trial court, under the belief that the defendant wished to waive his right to a jury trial on allegations that he had served prior prison terms, dismissed the jury and decided those allegations at the subsequent sentencing hearing. We held that the defendant forfeited his right to a jury trial on those allegations when he failed to object to the trial court\u2019s dismissal of the jury. We explained that \u201c[t]he right to have a jury determine the troth of a prior conviction allegation does not flow from the jury trial provision of article I, section 16 of the California Constitution or the Sixth Amendment of the United States Constitution. It is derived from statute.\u201d (Vera, supra, 15 Cal.4th at p. 277.) Therefore, the failure to obtain an express waiver of the right to a jury trial did not violate the state constitutional mandate that the waiver of the right to jury trial be made \u201cby the consent of both parties expressed in open court by the defendant and the defendant\u2019s counsel.\u201d (Cal. Const., art. I, \u00a716.)\nAlthough we held in Vera that the defendant had forfeited his statutory right to a jury trial on prior-prison-term allegations by failing to object, we clearly implied that an express waiver would have been required if the right to a jury trial on those allegations had been based upon the state or federal Constitution. (See Vera, supra, 15 Cal.4th at p. 278.) In contrast to the statutory right to a jury trial at issue in Vera, the jury trial right at issue in the present case is one that is guaranteed by the federal Constitution. When the constitutional right to jury trial is involved, we have required an express waiver even in cases in which the circumstances make it apparent that all involved\u2014the trial'court, the prosecutor, defense counsel, and the defendant\u2014assumed that the defendant had waived or intended to waive the right to a jury trial. (See, e.g., People v. Ernst (1994) 8 Cal.4th 441 [34 Cal.Rptr.2d 238, 881 P.2d 298] [no valid waiver when counsel stated the defense was prepared to waive trial by jury and, at a subsequent proceeding, counsel indicated that the right to a jury had been waived, but defendant never expressly waived that right]; People v. Holmes, supra, 54 Cal.2d at pp. 443-444 [no valid waiver when counsel informed the court that trial would be by the court, the court explained defendant\u2019s rights to him, and defendant stated he understood those rights but never said he waived his right to a jury trial].)\nAt the time that defendant entered his plea of no contest, he expressly waived his right to a jury trial on the substantive offenses, but this waiver did not encompass his right to a jury trial on any aggravating circumstances. The absence of such an explicit waiver is not surprising. When defendant entered his plea, Blakely had not yet been decided, and prior to that decision \u201cit was widely assumed that for the purposes of the rule established in Apprendi, the maximum term authorized by the jury\u2019s verdict was the upper term.\u201d (Black II, supra, 41 Cal.4th at p. 811.) Defendant pleaded no contest only to the offenses charged and did not admit any sentencing factors. Defendant\u2019s waiver of jury trial on the offenses in connection with his no contest plea cannot reasonably be interpreted to extend to proof of aggravating circumstances when, at the time of the plea, no right to a jury trial on such circumstances had been recognized. Defendant did not forfeit his Sixth Amendment right by failing to request a jury trial on the aggravating circumstances, and his claim must be addressed on the merits.\nC. Establishment of Aggravating Circumstances by Defendant\u2019s Admissions\n1. Plea Agreement\nContrary to the conclusion reached by the Court of Appeal in the present case, we hold that defendant, by entering into a plea agreement that included the upper term as the maximum sentence, did not implicitly admit that his conduct could support that term. The determinate sentencing law contemplates that issues related to the trial court\u2019s decision whether to impose the upper, middle, or lower term will be litigated at a posttrial (or postplea) sentencing hearing. (See \u00a7 1170, subd. (b).) The defendant must be provided with notice of potential aggravating and mitigating circumstances prior to the hearing, by means of the probation report. (\u00a7 1203.72.) Any statement in aggravation filed by the prosecution, the victim, or the victim\u2019s family must be submitted four days prior to the hearing. (\u00a7 1170, subd. (b).) In imposing sentence, the trial court may consider those documents as well as any additional evidence introduced at the sentencing hearing. (Ibid.) A defendant who enters into an agreement to plead guilty or no contest, with a sentence to be imposed within a specified maximum, reasonably expects to have the opportunity to litigate any matters related to the trial court\u2019s choice of sentence\u2014including the existence of aggravating and mitigating circumstances\u2014at the sentencing hearing.\nThe trial court in the present case directed the probation department to prepare a presentence report after defendant entered his plea of no contest. A date was set for imposition of judgment and sentence, at which time the trial court stated it would hear argument by the attorneys as to the appropriate sentence in this case. The record does not contain any suggestion that either party understood that defendant, by pleading no contest, thereby admitted any factual issue relevant to imposition of sentence. In Blakely, the defendant pleaded guilty in the trial court but the United States Supreme Court concluded that the facts supporting the exceptional sentence he received were not admitted by his guilty plea, because under Washington law the reasons used to justify an exceptional sentence must take into account factors other than those used in computing the standard sentence range for the offense. (Blakely, supra, 542 U.S. at pp. 303-304.) California law is analogous to Washington law in that it requires that an aggravating circumstance be based upon a fact other than an element of the crime. (Cal. Rules of Court, rule 4.420(d).) Although defendant\u2019s no contest plea on six counts constituted an admission to all the elements of those offenses (see People v. Hoffard (1995) 10 Cal.4th 1170, 1177 [43 Cal.Rptr.2d 827, 899 P.2d 896]), it did not constitute an admission to any aggravating circumstance.\nThe three cases upon which the Court of Appeal relied to support its conclusion that defendant\u2019s plea constituted an admission to the existence of aggravating circumstances do not support that proposition. People v. Hester (2000) 22 Cal.4th 290, 295 [92 Cal.Rptr.2d 641, 992 P.2d 569], held that a defendant\u2019s acceptance of a plea agreement that includes a specified sentence constitutes an implicit waiver of his or her right to contend that the sentence imposed violates section 654. A sentencing agreement pursuant to which the defendant pleads guilty or no contest with the understanding that he or she will receive a sentence within an agreed-upon maximum term, by contrast, \u201ccontemplates that the court will choose from among a range of permissible sentences within the maximum . . . .\u201d (People v. Buttram, supra, 30 Cal.4th at pp. 790-791.) In the present case, defendant did not agree that a specified sentence would be imposed; his plea agreement contemplated that the trial court would have discretion to impose any appropriate sentence up to the maximum of 18 years\u2019 imprisonment. Our decision in People v. Thomas (1986) 41 Cal.3d 837, 842-843 [226 Cal.Rptr. 107, 718 P.2d 94], held that the defendant\u2019s admission he previously had been convicted of a serious felony (burglary) was legally sufficient even without a specific admission of the facts that would render the burglary conviction a serious felony (such as burglary of a residence, inflicting great bodily injury, or use of a firearm or deadly weapon). Thomas establishes that a defendant\u2019s admission of an alleged enhancement is valid even if it does not include specific admissions of every factual element required to establish the enhancement. The present case is distinguishable because defendant did not admit to the existence of any aggravating factor, either generally or specifically. Finally, People v. Hoffard, supra, 10 Cal.4th at pages 1181-1182, is not on point. That case held merely that the trial court has no duty to inquire into the factual basis of a guilty plea when the defendant pleads guilty to the charged offenses unconditionally, as opposed to when the plea is entered pursuant to a plea agreement.\n2. Stipulation to Factual Basis\nDecisions of the United States Supreme Court acknowledge that a defendant\u2019s sentence may be increased above the statutory maximum based upon \u201c facts . . . admitted.by the defendant.\u2019 \u201d (Cunningham, supra, 549 U.S. at p. 283 [127 S.Ct. at p. 865], quoting Blakely, supra, 542 U.S. at p. 303.) As discussed above, defendant\u2019s plea of no contest constituted an admission to the elements of the charged offenses only, and not to any additional aggravating circumstances. The Attorney General contends, however, that defendant\u2019s stipulation to the factual basis for the plea as described by the prosecutor constituted an admission to the aggravating circumstance that defendant took advantage of a position of trust in committing the offense. We disagree.\nBefore accepting a guilty or no contest plea pursuant to a plea agreement in a felony case, the trial court is required to determine that a factual basis for the plea exists. (\u00a7 1192.5; People v. Holmes (2004) 32 Cal.4th 432, 440-442 [9 Cal.Rptr.3d 678, 84 P.3d 366].) \u201cThe purpose of the requirement is to protect against the situation where the defendant, although he realizes what he has done, is not sufficiently skilled in law to recognize that his acts do not constitute the offense with which he is charged. [Citation.] Inquiry into the factual basis for the plea ensures that the defendant actually committed a crime at least as serious as the one to which he is willing to plead.\u201d (People v. Watts (1977) 67 Cal.App.3d 173, 178 [136 Cal.Rptr. 496].) A defendant is not required to personally admit the truth of the factual basis of the plea, which may be established by defense counsel\u2019s stipulation to a particular document, such as a police report or a preliminary hearing transcript. (People v. Holmes, supra, 32 Cal.4th at p. 436.)\nThe factual basis as stated by the prosecutor does not clearly establish an aggravating circumstance in the present case. The prosecutor indicated that defendant committed the offenses against Brandon B.\u2014including the count on which defendant received the upper term sentence\u2014when he took the victim to a bathroom located in a park. The prosecutor did not state that Brandon B. had been entrusted to defendant\u2019s care. The prosecutor did state regarding victim Zachary L. that the offenses occurred \u201cwhile Zachary was in [defendant\u2019s] daughter\u2019s care at the daycare,\u201d but defendant did not receive an upper term sentence on the counts involving Zachary L. and, in any event, the prosecutor did not specify what defendant\u2019s role was in relation to his daughter\u2019s daycare operation.\nFurthermore, nothing in the record indicates that defendant, either personally or through his counsel, admitted the truth of the facts as recited by the prosecutor. Defense counsel stated that she had discussed the facts of the case at length with defendant and that she had allowed defendant to view a portion of the tapes of interviews of the victims, which had been provided to the defense in discovery. As noted earlier, when asked by the trial court whether she believed there was a sufficient factual basis for the no contest pleas, defense counsel stated, \u201cI believe the People have witnesses lined up for this trial that will support what the D.A. read in terms of the factual basis, and that\u2019s what they\u2019ll testify to.\u201d Indeed, counsel was careful to state that she agreed that witnesses would testify to the facts as recited by the prosecutor; she did not stipulate that the prosecutor\u2019s statements were correct. Under the circumstances of this case, defense counsel\u2019s stipulation to the factual basis cannot reasonably be construed as an admission by defendant sufficient to satisfy the Sixth Amendment requirements established in Cunningham, supra, 549 U.S. 270 [127 S.Ct. 856].\nThe Attorney General contends that People v. Wallace (2004) 33 Cal.4th 738, 749-750 [16 Cal.Rptr.3d 96, 93 P.3d 1037], stands for the proposition that a defendant who has pleaded guilty or no contest may not contest the version of events presented in the factual basis recited for the plea. In Wallace, a magistrate dismissed a charge of willful discharge of a firearm after the preliminary hearing, finding the evidence was insufficient. Subsequently, the charge was refiled and the defendant pleaded no contest. In a later prosecution, the defendant\u2019s prior conviction for discharging a firearm was alleged as a strike under the \u201cThree Strikes\u201d law. The trial court dismissed the strike allegation based upon the magistrate\u2019s conclusion in the prior case that the evidence presented at the preliminary hearing had been insufficient to support the charge. We held that the trial court erred in viewing the defendant\u2019s conviction as one \u201c \u2018in form rather than in substance\u2019 \u201d and in dismissing the allegation of the prior conviction under the Three Strikes law. (33 Cal.4th at p. 749.) We explained: \u201cIn light of defendant\u2019s express stipulation as to the factual basis of his plea and his acknowledgement that his offenses constituted strikes, the trial court was not free to look beyond defendant\u2019s no contest plea . . . nor could the trial court properly give dispositive weight to the magistrate\u2019s evaluation of the evidence at some earlier period in the prior proceeding.\u201d (Id. at p. 750.) We did not hold that such a stipulation would be dispositive in all circumstances, and indeed explicitly declined to decide whether a trial court could strike a prior-conviction allegation \u201cbased upon proof of factual innocence of the prior offense, and if so, what types of evidence the court may consider for this purpose.\u201d (Wallace, supra, 33 Cal.4th at p. 754, fn. 3.) Wallace does not stand for the broad proposition asserted by the Attorney General; namely, that a defendant\u2019s stipulation to a factual basis constitutes a binding admission for all purposes.\nD. Harmless Error Analysis\nBecause the aggravating circumstance upon which the trial court relied was neither admitted by defendant nor established by a jury verdict, defendant\u2019s Sixth Amendment right to a jury trial was violated by his sentence to the upper term on count 1. \u201cFailure to submit a sentencing factor to the jury, like failure to submit an element [of the crime] to the jury, is not structural error.\u201d (Recuenco, supra, 548 U.S. 212, 222 [165 L.Ed.2d 466, 126 S.Ct. 2546, 2553].) Such an error does not require reversal if the reviewing court determines it was harmless beyond a reasonable doubt, applying the test set forth in Chapman v. California (1967) 386 U.S. 18 [17 L.Ed.2d 705, 87 S.Ct. 824]. (Neder v. United States (1999) 527 U.S. 1, 15 [144 L.Ed.2d 35, 119 S.Ct. 1827] (Neder).) In the context of Cunningham error, that test requires us to determine \u201cwhether, if the question of the existence of an aggravating circumstance or circumstances had been submitted to the jury, the jury\u2019s verdict would have authorized the upper term sentence.\u201d (Sandoval, supra, 41 Cal.4th at p. 838.) If we conclude, beyond a reasonable doubt, that a \u201cjury, applying the beyond-a-reasonable-doubt standard, unquestionably would have found true at least a single aggravating circumstance had it been submitted to the jury, the Sixth Amendment error properly may be found harmless.\u201d (Id. at p. 839.) The failure to submit a sentencing factor to a jury may be found harmless if the evidence supporting that factor is overwhelming and uncontested, and there is no \u201cevidence that could rationally lead to a contrary finding.\u201d (Neder, supra, 527 U.S. at p. 19; see also People v. Epps (2001) 25 Cal.4th 19, 29-30 [104 Cal.Rptr.2d 572, 18 P.3d 2] [denial of defendant\u2019s statutory right to jury trial on prior-conviction allegations was harmless under the state harmless error standard, where defendant did not contest the issue at trial and the records of prior convictions before the court presumptively established that they had occurred].)\nDefendant contends automatic reversal is required because in the present case\u2014unlike Recuenco, Neder, and Sandoval\u2014there was no jury trial and, consequently, there is no trial evidence that may be subjected to harmless-error analysis. We need not decide whether Cunningham error ever can be found harmless in a case in which the defendant pleads guilty or no contest, because we conclude that the record in defendant\u2019s case does not support the conclusion that the error was harmless beyond a reasonable doubt.\nIn Sandoval, we noted that even when there has been a jury trial, a prejudice assessment of Cunningham error would be problematic because \u201cthe reviewing court cannot necessarily assume that the record reflects all of the evidence that would have been presented had aggravating circumstances been submitted to the jury.\u201d (Sandoval, supra, 41 Cal.4th at p. 839.) The defendant in Sandoval received a jury trial on the charged offenses, but the aggravating circumstances were not directly at issue during the trial. (Ibid.) \u201cFurthermore, although defendant did have an incentive and opportunity at the sentencing hearing to contest any aggravating circumstances mentioned in the probation report or in the prosecutor\u2019s statement in aggravation, that incentive and opportunity were not necessarily the same as they would have been had the aggravating circumstances been tried to a jury. First, the standard of proof at the sentencing hearing was lower; the trial court was required to make a finding of one or more aggravating circumstances only by a preponderance of the evidence. (Cal. Rules of Court, rule 4.420(b).) Second, because the trial court had broad discretion in imposing sentence, a finding by the court concerning whether or not any particular aggravating circumstance existed reasonably might have been viewed by defense counsel as less significant than the court\u2019s overall assessment of defendant\u2019s history and conduct. Counsel\u2019s strategy might have been different had the aggravating circumstances been tried under a beyond-a-reasonable-doubt standard of proof to a trier of fact that was responsible only for determining whether such circumstances were proved (and not for making the ultimate sentencing decision). Accordingly, a reviewing court cannot always be confident that the factual record would have been the same had aggravating circumstances been charged and tried to the jury.\u201d (Sandoval, supra, 41 Cal.4th at pp. 839-840.)\nWhen a defendant pleads guilty or no contest, a prejudice assessment is even more problematic, because the record generally does not contain a full presentation of evidence concerning the circumstances of the offense. The statutory scheme that governs a sentencing proceeding does not require an evidentiary hearing; rather, it permits the trial court to base its sentencing decision on \u201cthe record in the case, the probation officer\u2019s report, other reports . . . and statements in aggravation or mitigation submitted by the prosecution, the defendant, or the victim, and any further evidence introduced at the sentencing hearing.\u201d (\u00a7 1170, subd. (b).)\nAlthough defendant did not specifically contest that he abused a position of trust, we cannot say the evidence on that point was overwhelming. The aggravating circumstance that defendant took advantage of a position of trust could have been established by evidence that defendant committed these offenses when taking care of victim Brandon B. at his daughter\u2019s daycare business. The record, however, contains no evidence of the type that would have been admissible had the issue been tried to a jury. Because there was no preliminary hearing, the record does not reflect how witnesses might have testified had there been a trial. The probation report recited the facts of the offenses based upon multiple hearsay: it contained information obtained from the police reports, which indicated that the mother of victim Brandon B. told the authorities that her child was under the supervision of an at-home daycare center operated by defendant\u2019s daughter, Lisa, and that the offenses occurred when defendant was helping to care for the children. Brandon B.\u2019s mother spoke at the sentencing hearing concerning the impact of the molestation upon her son and stated her view that he now was being punished \u201cfor trusting a person that was supposed to help take care of him,\u201d but she gave no specific facts regarding defendant\u2019s role. Furthermore, she did not testify under oath and was not subject to cross-examination. On the record before us, we cannot conclude that the Sixth Amendment error was harmless beyond a reasonable doubt.\nIII.\nFor the reasons stated above, we reverse the decision of the Court of Appeal insofar as it affirmed defendant\u2019s sentence, and remand to the Court of Appeal with directions to remand the case to the trial court for resentencing in accordance with this opinion and Sandoval, supra, 41 Cal.4th at pages 843-857.\nKennard, J., Baxter, J., Werdegar, J., Chin, J., Moreno, J., and Corrigan, J., concurred.\nOn April 23, 2008, the opinion was modified to read as printed above.\nAll further statutory references are to the Penal Code unless otherwise indicated.\nTo the extent that People v. Bobbit (2006) 138 Cal.App.4th 445 [41 Cal.Rptr.3d 480], is inconsistent with this opinion, we disapprove it.\nBecause we decided Vera before the United States Supreme Court issued its decision in Apprendi v. New Jersey (2000) 530 U.S. 466 [147 L.Ed.2d 435, 120 S.Ct. 2348] (Apprendi), we concluded at that time that there was \u201cno. Sixth Amendment right to jury trial on sentence enhancement allegations.\u201d (Vera, supra, 15 Cal.4th at p. 281.)\nThe Attorney General contends that the rule requiring an express waiver of the right to jury trial applies only to a total failure to provide a jury trial on all the elements of the offenses and that the right to a jury trial on aggravating circumstances may be forfeited without an express waiver. He cites no case that has so held. To support this argument, the Attorney General relies upon cases holding that Apprendi or Blakely error is subject to harmless error review. (See Washington v. Recuenco (2006) 548 U.S. 212, 221-222 [165 L.Ed.2d 466, 126 S.Ct. 2546, 2553] (Recuenco); People v. Sengpadychith (2001) 26 Cal.4th 316, 327 [109 Cal.Rptr.2d 851, 27 P.3d 739].) These cases are inapposite to the question of whether the error can be forfeited by a defendant\u2019s failure to object.\nTo the extent that People v. Hill (2005) 131 Cal.App.4th 1089, 1103 [31 Cal.Rptr.3d 891], is inconsistent with this opinion, we disapprove it.\nUnder circumstances, like those in the present case, in which the law is in a state of flux and the scope of the defendant\u2019s Sixth Amendment rights is unclear, the People are not without means to avoid the risk of error even if the defendant does not object to imposition of the upper term in the trial court. Any potential constitutional error arising out of the application of Blakely to the California sentencing scheme could have been eliminated had the People sought and obtained an explicit waiver of defendant\u2019s right to jury trial on aggravating circumstances or an admission of aggravating facts.\nDefendant also contends that a defendant\u2019s admission cannot be used to establish an aggravating circumstance under Blakely and Cunningham unless the defendant knowingly, voluntarily, and intelligently waives his or her right to a jury trial on the facts admitted. Cases from several other jurisdictions have so held. (See, e.g., State v. Brown (2006) 212 Ariz. 225 [129 P.3d 947, 952-953]; People v. Isaacks (Colo. 2006) 133 P.3d 1190; State v. Dettman (Minn. 2006) 719 N.W.2d 644, 650-651.) In light of our conclusion that no admission occurred in the present case, we need not reach the question whether (or under what circumstances) a knowing and intelligent waiver is required before a defendant\u2019s admission can be used to satisfy Sixth Amendment requirements under Cunningham.\nWe previously have concluded that the denial of a defendant\u2019s constitutional right to jury trial on a charged offense constitutes structural error that requires reversal without consideration of the strength of the evidence. (See, e.g., People v. Ernst, supra, 8 Cal.4th 441, 449.) Nonetheless, the high court made clear in Recuenco, supra, 548 U.S. at pages 221-222 [126 S.Ct. at page 2553], that the denial of the Sixth Amendment right to a jury trial on sentencing factors is subject to harmless error analysis. (See Sandoval, supra, 41 Cal.4th at p. 838.)",
+        "type": "majority",
+        "author": "GEORGE, C. J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "William J. Arzbaecher III, under appointment by the Supreme Court, and Gregory Marshall, under appointment by the Court of Appeal, for Defendant and Appellant.",
+      "Bill Lockyer and Edmund G. Brown, Jr., Attorneys General, Robert R. Anderson and Dane R. Gillette, Chief Assistant Attorneys General, Mary Jo Graves and Michael P. Farrell, Assistant Attorneys General, Janis Shank McLean, David A. Rhodes, Lawrence M. Daniels, Clayton S. Tanaka and Jeffrey M. Laurence, Deputy Attorneys General, for Plaintiff and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. S148845.\nMar. 27, 2008.]\nTHE PEOPLE, Plaintiff and Respondent, v. WESLEY DAVID FRENCH, Defendant and Appellant.\nCounsel\nWilliam J. Arzbaecher III, under appointment by the Supreme Court, and Gregory Marshall, under appointment by the Court of Appeal, for Defendant and Appellant.\nBill Lockyer and Edmund G. Brown, Jr., Attorneys General, Robert R. Anderson and Dane R. Gillette, Chief Assistant Attorneys General, Mary Jo Graves and Michael P. Farrell, Assistant Attorneys General, Janis Shank McLean, David A. Rhodes, Lawrence M. Daniels, Clayton S. Tanaka and Jeffrey M. Laurence, Deputy Attorneys General, for Plaintiff and Respondent."
+  },
+  "file_name": "0036-01",
+  "first_page_order": 74,
+  "last_page_order": 93
+}

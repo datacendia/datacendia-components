@@ -1,0 +1,59 @@
+{
+  "id": 12252498,
+  "name": "Hoxter v. Pennsylvania",
+  "name_abbreviation": "Hoxter v. Pennsylvania",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. 11-8654",
+  "first_page": "1270",
+  "last_page": "1270",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1270"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 71,
+    "ocr_confidence": 0.647,
+    "sha256": "555e8463bc2214dc4a0e43d7bb703ebc7bf113a4a59b79baf71af7a558f0c829",
+    "simhash": "1:a76c2bd0b16dddf0",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hoxter v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Pa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8654.\nHoxter v. Pennsylvania."
+  },
+  "file_name": "1270-07",
+  "first_page_order": 1352,
+  "last_page_order": 1352
+}

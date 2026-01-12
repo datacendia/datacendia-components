@@ -1,0 +1,59 @@
+{
+  "id": 12408880,
+  "name": "Flint v. Beshear, Governor of Kentucky",
+  "name_abbreviation": "Flint v. Beshear",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-1305",
+  "first_page": "815",
+  "last_page": "815",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 815"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 87,
+    "ocr_confidence": 0.657,
+    "sha256": "a2815c2001856019274e09672d7d0aa183bc3c18558fd5916b89f4d697e92587",
+    "simhash": "1:d5aa36c5820f1904",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Flint v. Beshear, Governor of Kentucky."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1305.\nFlint v. Beshear, Governor of Kentucky."
+  },
+  "file_name": "0815-07",
+  "first_page_order": 891,
+  "last_page_order": 891
+}

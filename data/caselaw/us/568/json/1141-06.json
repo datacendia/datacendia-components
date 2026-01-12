@@ -1,0 +1,59 @@
+{
+  "id": 12429916,
+  "name": "In re Disbarment of Kirshenbaum",
+  "name_abbreviation": "In re Disbarment of Kirshenbaum",
+  "decision_date": "2013-01-22",
+  "docket_number": "No. D-2693",
+  "first_page": "1141",
+  "last_page": "1141",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1141"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 111,
+    "ocr_confidence": 0.607,
+    "sha256": "2afbed79565491de0e20f2300866646990a3d96973b231dbd288a41e96651853",
+    "simhash": "1:b8b8daabcb10724f",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Kirshenbaum."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see ante, p. 938.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2693.\nIn re Disbarment of Kirshenbaum."
+  },
+  "file_name": "1141-06",
+  "first_page_order": 1217,
+  "last_page_order": 1217
+}

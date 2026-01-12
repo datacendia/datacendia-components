@@ -1,0 +1,61 @@
+{
+  "id": 12409270,
+  "name": "Corbett v. United States",
+  "name_abbreviation": "Corbett v. United States",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. 11-10309",
+  "first_page": "914",
+  "last_page": "914",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 914"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 152,
+    "ocr_confidence": 0.693,
+    "sha256": "133390d8a03c9923641dcbfef5c453b24e5d5f0b94ea210f96f18967a0c329d4",
+    "simhash": "1:09b3ea8044849848",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Corbett v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10309.\nCorbett v. United States."
+  },
+  "file_name": "0914-04",
+  "first_page_order": 818,
+  "last_page_order": 818
+}

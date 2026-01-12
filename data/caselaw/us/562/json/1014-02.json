@@ -1,0 +1,59 @@
+{
+  "id": 5937821,
+  "name": "McClenton v. Minnesota",
+  "name_abbreviation": "McClenton v. Minnesota",
+  "decision_date": "2010-11-01",
+  "docket_number": "No. 10-6327",
+  "first_page": "1014",
+  "last_page": "1014",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1014"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 71,
+    "ocr_confidence": 0.675,
+    "sha256": "2b05394126f824aff9d0504f8ae8465a2db578fe02e973bd658a8a1eb0781cb2",
+    "simhash": "1:e666699a9ecda5e9",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McClenton v. Minnesota."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Minn. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6327.\nMcClenton v. Minnesota."
+  },
+  "file_name": "1014-02",
+  "first_page_order": 1036,
+  "last_page_order": 1036
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12420690,
+  "name": "Clack v. Arizona",
+  "name_abbreviation": "Clack v. Arizona",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-6020",
+  "first_page": "985",
+  "last_page": "985",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 985"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 65,
+    "ocr_confidence": 0.641,
+    "sha256": "0da4dfc7c35c8d004124baab868996f9f505512c7c59ff187a1de70fa9a6a0b6",
+    "simhash": "1:329db10721e4759a",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Clack v. Arizona."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ariz. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6020.\nClack v. Arizona."
+  },
+  "file_name": "0985-13",
+  "first_page_order": 1061,
+  "last_page_order": 1061
+}

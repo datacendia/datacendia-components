@@ -1,0 +1,59 @@
+{
+  "id": 12251737,
+  "name": "Rhoades v. Pennsylvania",
+  "name_abbreviation": "Rhoades v. Pennsylvania",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. 11-8173",
+  "first_page": "1263",
+  "last_page": "1263",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1263"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 72,
+    "ocr_confidence": 0.684,
+    "sha256": "366e9885c9802c2c3e313e984e5bbd1efccb7901e913e8c297c84c91a263cf00",
+    "simhash": "1:6ae62179b16d84d0",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rhoades v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Pa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8173.\nRhoades v. Pennsylvania."
+  },
+  "file_name": "1263-14",
+  "first_page_order": 1345,
+  "last_page_order": 1345
+}

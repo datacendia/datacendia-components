@@ -1,0 +1,59 @@
+{
+  "id": 12248017,
+  "name": "Rodriguez-Rodriguez v. United States",
+  "name_abbreviation": "Rodriguez-Rodriguez v. United States",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-8125",
+  "first_page": "1220",
+  "last_page": "1220",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1220"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 85,
+    "ocr_confidence": 0.683,
+    "sha256": "67c410e3d73af77b20ef09788aaa5ce0717aef7adda95fc13533a83491baebbc",
+    "simhash": "1:859a9e034f901468",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rodriguez-Rodriguez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8125.\nRodriguez-Rodriguez v. United States."
+  },
+  "file_name": "1220-08",
+  "first_page_order": 1302,
+  "last_page_order": 1302
+}

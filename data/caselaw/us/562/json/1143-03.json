@@ -1,0 +1,59 @@
+{
+  "id": 5906485,
+  "name": "Neyens v. Iowa",
+  "name_abbreviation": "Neyens v. Iowa",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-6960",
+  "first_page": "1143",
+  "last_page": "1143",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1143"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 9,
+    "char_count": 63,
+    "ocr_confidence": 0.655,
+    "sha256": "009a778daa120b8e059843bb7fa9c2a2773116e60a8fcf8cd1a2afa05a325afd",
+    "simhash": "1:f37bc809cb1ce1ca",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Neyens v. Iowa."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Iowa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6960.\nNeyens v. Iowa."
+  },
+  "file_name": "1143-03",
+  "first_page_order": 1165,
+  "last_page_order": 1165
+}

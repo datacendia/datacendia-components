@@ -1,0 +1,59 @@
+{
+  "id": 12204810,
+  "name": "Hardy v. Jones, Warden",
+  "name_abbreviation": "Hardy v. Jones",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10728",
+  "first_page": "846",
+  "last_page": "846",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 846"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.668,
+    "sha256": "1bc9d79fd8ecf361fb7cbb26a2e5af6b0762581caa12b898d47d3badc350ce10",
+    "simhash": "1:93ed06ccde6b2044",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hardy v. Jones, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10728.\nHardy v. Jones, Warden."
+  },
+  "file_name": "0846-10",
+  "first_page_order": 928,
+  "last_page_order": 928
+}

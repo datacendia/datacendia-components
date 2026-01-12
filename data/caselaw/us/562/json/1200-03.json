@@ -1,0 +1,59 @@
+{
+  "id": 6032927,
+  "name": "Terry v. Tyson Farms, Inc.",
+  "name_abbreviation": "Terry v. Tyson Farms, Inc.",
+  "decision_date": "2011-01-24",
+  "docket_number": "No. 10-542",
+  "first_page": "1200",
+  "last_page": "1200",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1200"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 73,
+    "ocr_confidence": 0.617,
+    "sha256": "324f32587118e59990fddb33384b19c994ad24b0675032d7569e0e219429ee74",
+    "simhash": "1:821a92226e081000",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Terry v. Tyson Farms, Inc."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-542.\nTerry v. Tyson Farms, Inc."
+  },
+  "file_name": "1200-03",
+  "first_page_order": 1222,
+  "last_page_order": 1222
+}

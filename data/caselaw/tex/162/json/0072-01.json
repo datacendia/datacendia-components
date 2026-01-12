@@ -1,0 +1,138 @@
+{
+  "id": 2261876,
+  "name": "James A. Bland, Individually and as Independent Executor v. J. W. Free",
+  "name_abbreviation": "Bland v. Free",
+  "decision_date": "1961-03-08",
+  "docket_number": "No. A-8079",
+  "first_page": "72",
+  "last_page": "72",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "162 Tex. 72"
+    },
+    {
+      "type": "parallel",
+      "cite": "344 S.W.2d 435"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "342 S.W. 2d 565",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2260367,
+        10161007
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/161/0569-01",
+        "/sw2d/342/0565-01"
+      ]
+    },
+    {
+      "cite": "161 Texas 569",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2260367
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/161/0569-01"
+      ]
+    },
+    {
+      "cite": "318 S.W. 2d 439",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2257137,
+        10165626
+      ],
+      "year": 1958,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/159/0280-01",
+        "/sw2d/318/0439-01"
+      ]
+    },
+    {
+      "cite": "159 Texas 280",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2257137
+      ],
+      "year": 1958,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/159/0280-01"
+      ]
+    },
+    {
+      "cite": "337 S.W. 2d 805",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10165988
+      ],
+      "year": 1958,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/337/0805-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 117,
+    "char_count": 1218,
+    "ocr_confidence": 0.577,
+    "pagerank": {
+      "raw": 1.3874929043976853e-07,
+      "percentile": 0.6417395377104997
+    },
+    "sha256": "b1f8e185bd36df46040cdea3c2bf67697e110b24bebb08e48245940397e713ae",
+    "simhash": "1:436bef300c8f8592",
+    "word_count": 219
+  },
+  "last_updated": "2024-02-27T23:04:29.645629+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "James A. Bland, Individually and as Independent Executor v. J. W. Free"
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM.\nThe opinion of the Court of Civil Appeals, reported in 337 S.W. 2d 805, followed our holding in the case of Ricks v. Smith, 159 Texas 280, 318 S.W. 2d 439 (1958).\nOur action on this application for writ of error was held in abeyance until the case of Hilley v. Hilley should be decided because that case woud determine our holding in this cause. Prior to our action on this application for writ of error we decided the case of Hilley v. Hilley, 161 Texas 569, 342 S.W. 2d 565, (Vol. 4, The Texas Supreme Court Journal, p. 213, Jan. 28,1961) in which the case of Ricks v. Smith was overruled. The decision of the Court of Civil Appeals in the present case is in conflict with our opinion in the Hilley case.\nUnder the discretion given us by Rule 483, Texas Rules of Civil Procedure, we reverse the judgment of the Court of Civil Appeals in this case and affirm the judgment of the trial court.",
+        "type": "majority",
+        "author": "PER CURIAM."
+      }
+    ],
+    "attorneys": [
+      "Olin P. McWhirter, of Greenville, and Florence, Garrison & Holt, of Gilmer, for petitioner .",
+      "Fulton, Hancock & McClain, of Gilmer, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "James A. Bland, Individually and as Independent Executor v. J. W. Free\nNo. A-8079.\nDecided March 8, 1961\nRehearing overruled April 5, 1961\n(344 S. W. 2d Series 435)\nOlin P. McWhirter, of Greenville, and Florence, Garrison & Holt, of Gilmer, for petitioner .\nFulton, Hancock & McClain, of Gilmer, for respondents."
+  },
+  "file_name": "0072-01",
+  "first_page_order": 80,
+  "last_page_order": 80
+}

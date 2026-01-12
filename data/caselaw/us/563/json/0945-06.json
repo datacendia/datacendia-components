@@ -1,0 +1,59 @@
+{
+  "id": 4223687,
+  "name": "Bull v. Small, Warden",
+  "name_abbreviation": "Bull v. Small",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-9066",
+  "first_page": "945",
+  "last_page": "945",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 945"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.616,
+    "sha256": "34c81fd1ad79018c8985f4cc88db5d5ff5afd483269f2fec99a7f0815a17af0d",
+    "simhash": "1:b033b2b26dabe06e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bull v. Small, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9066.\nBull v. Small, Warden."
+  },
+  "file_name": "0945-06",
+  "first_page_order": 971,
+  "last_page_order": 971
+}

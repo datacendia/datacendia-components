@@ -1,0 +1,59 @@
+{
+  "id": 12242259,
+  "name": "United States v. Bormes",
+  "name_abbreviation": "United States v. Bormes",
+  "decision_date": "2012-01-13",
+  "docket_number": "No. 11-192",
+  "first_page": "1153",
+  "last_page": "1153",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1153"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.685,
+    "sha256": "9d0db8fea457a8841dfdabc3bb9712d5d265c705fb03ff9969dacaa2b7bd6b81",
+    "simhash": "1:38f2d4545da56acb",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "United States v. Bormes."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. Fed. Cir. Cer-tiorari granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-192.\nUnited States v. Bormes."
+  },
+  "file_name": "1153-01",
+  "first_page_order": 1235,
+  "last_page_order": 1235
+}

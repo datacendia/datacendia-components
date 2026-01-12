@@ -1,0 +1,59 @@
+{
+  "id": 12419502,
+  "name": "Ramsey v. McCall, Warden",
+  "name_abbreviation": "Ramsey v. McCall",
+  "decision_date": "2012-10-15",
+  "docket_number": "No. 12-5774",
+  "first_page": "965",
+  "last_page": "965",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 965"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.617,
+    "sha256": "4094de46cc61b3efdfae87fba690d48f9236408fdd9477b75c511c03a93e8015",
+    "simhash": "1:b3aa0a59d7cd3a07",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ramsey v. McCall, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5774.\nRamsey v. McCall, Warden."
+  },
+  "file_name": "0965-03",
+  "first_page_order": 1041,
+  "last_page_order": 1041
+}

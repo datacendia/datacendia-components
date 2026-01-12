@@ -1,0 +1,59 @@
+{
+  "id": 12199007,
+  "name": "Jallali v. Florida et al.",
+  "name_abbreviation": "Jallali v. Florida",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-1539",
+  "first_page": "827",
+  "last_page": "827",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 827"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 75,
+    "ocr_confidence": 0.635,
+    "sha256": "b7f2a8e3b81ea40e90e841041085e62f031bce18d3fe24c7af8267f5e17a4536",
+    "simhash": "1:3a78bbbaf85f9072",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jallali v. Florida et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1539.\nJallali v. Florida et al."
+  },
+  "file_name": "0827-06",
+  "first_page_order": 909,
+  "last_page_order": 909
+}

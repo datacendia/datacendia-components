@@ -1,0 +1,59 @@
+{
+  "id": 6023250,
+  "name": "Kim v. United States",
+  "name_abbreviation": "Kim v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5173",
+  "first_page": "907",
+  "last_page": "907",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 907"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 69,
+    "ocr_confidence": 0.652,
+    "sha256": "e872c3e72dce057b3501e0a13c36982de7c1375be615e5fff23cc575175a8a3e",
+    "simhash": "1:543bc6802d974d46",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kim v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5173.\nKim v. United States."
+  },
+  "file_name": "0907-12",
+  "first_page_order": 929,
+  "last_page_order": 929
+}

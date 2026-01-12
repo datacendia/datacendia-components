@@ -1,0 +1,59 @@
+{
+  "id": 12227963,
+  "name": "Von Sevrence v. Nevada",
+  "name_abbreviation": "Von Sevrence v. Nevada",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-5897",
+  "first_page": "952",
+  "last_page": "952",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 952"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 71,
+    "ocr_confidence": 0.643,
+    "sha256": "064f34d7333587c47e20dbf9180f7ec3aeda25e42b72a560b29cf87dce435b78",
+    "simhash": "1:0b26a68e1a82f3fb",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Von Sevrence v. Nevada."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Nev. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5897.\nVon Sevrence v. Nevada."
+  },
+  "file_name": "0952-08",
+  "first_page_order": 1034,
+  "last_page_order": 1034
+}

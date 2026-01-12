@@ -1,0 +1,61 @@
+{
+  "id": 5939787,
+  "name": "In re Honken; and In re Watkins",
+  "name_abbreviation": "In re Honken",
+  "decision_date": "2011-05-16",
+  "docket_number": "No. 10-8924; No. 10-9916",
+  "first_page": "987",
+  "last_page": "987",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 987"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 23,
+    "char_count": 179,
+    "ocr_confidence": 0.601,
+    "sha256": "e97880dca8d6d6973bdb844a8d7bdbf989e87113433dc30ae04307fad599697f",
+    "simhash": "1:d9309882f58ce812",
+    "word_count": 30
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of these petitions."
+    ],
+    "parties": [
+      "In re Honken; and In re Watkins."
+    ],
+    "opinions": [
+      {
+        "text": "Petitions for writs of mandamus denied.\nJustice Kagan took no part in the consideration or decision of these petitions.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8924.\nNo. 10-9916.\nIn re Honken; and In re Watkins."
+  },
+  "file_name": "0987-01",
+  "first_page_order": 1013,
+  "last_page_order": 1013
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12412833,
+  "name": "Gary v. Florida",
+  "name_abbreviation": "Gary v. Florida",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10410",
+  "first_page": "842",
+  "last_page": "842",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 842"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 81,
+    "ocr_confidence": 0.688,
+    "sha256": "ed76d781a20135d405b0d5dc5345617bc713591ed449269aa99ede01d26bc305",
+    "simhash": "1:521884d24465ea18",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gary v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10410.\nGary v. Florida."
+  },
+  "file_name": "0842-12",
+  "first_page_order": 918,
+  "last_page_order": 918
+}

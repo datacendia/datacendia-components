@@ -1,0 +1,68 @@
+{
+  "id": 12704129,
+  "name": "In re Antonio COLBERT, petitioner.",
+  "name_abbreviation": "In re Colbert",
+  "decision_date": "2013-10-15",
+  "docket_number": "No. 13\u20135765.",
+  "first_page": "950",
+  "last_page": "950",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 950"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 313"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 436"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 23,
+    "char_count": 156,
+    "sha256": "999c2fb4f33317acd8673a57672a770b67797e37427855e55aee8bd5b27cdcae",
+    "simhash": "1:e824200cbc90240e",
+    "word_count": 24
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Antonio COLBERT, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of mandamus and/or prohibition denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re Antonio COLBERT, petitioner.\nNo. 13-5765.\nSupreme Court of the United States\nOct. 15, 2013.\nPetition for writ of mandamus and/or prohibition denied."
+  },
+  "file_name": "0950-04",
+  "first_page_order": 950,
+  "last_page_order": 950
+}

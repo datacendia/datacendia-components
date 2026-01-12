@@ -1,0 +1,59 @@
+{
+  "id": 12197262,
+  "name": "Arnold v. Toole, Warden",
+  "name_abbreviation": "Arnold v. Toole",
+  "decision_date": "2012-03-26",
+  "docket_number": "No. 11-8804",
+  "first_page": "913",
+  "last_page": "913",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 913"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 88,
+    "ocr_confidence": 0.663,
+    "sha256": "26f82aed75f1adb826ca3d26ecd2b282ab7f89774694eff68ad3de9991493771",
+    "simhash": "1:3b9a2d071f88c6b0",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Arnold v. Toole, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Ga., Wilcox County. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8804.\nArnold v. Toole, Warden."
+  },
+  "file_name": "0913-09",
+  "first_page_order": 789,
+  "last_page_order": 789
+}

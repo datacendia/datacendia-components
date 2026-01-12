@@ -1,0 +1,59 @@
+{
+  "id": 12425326,
+  "name": "Ervin v. United States",
+  "name_abbreviation": "Ervin v. United States",
+  "decision_date": "2012-11-26",
+  "docket_number": "No. 12-6829",
+  "first_page": "1037",
+  "last_page": "1037",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1037"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.634,
+    "sha256": "57749eb181e3edd1f85e6d9d2ac27a03c48885bbabdeb68366c1e8b8accbc64b",
+    "simhash": "1:8108d98a8b889822",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ervin v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Cer-tiorari. denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6829.\nErvin v. United States."
+  },
+  "file_name": "1037-02",
+  "first_page_order": 1113,
+  "last_page_order": 1113
+}

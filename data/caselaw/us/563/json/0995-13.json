@@ -1,0 +1,59 @@
+{
+  "id": 5948307,
+  "name": "Konopko v. Westfield Police Department",
+  "name_abbreviation": "Konopko v. Westfield Police Department",
+  "decision_date": "2011-05-16",
+  "docket_number": "No. 10-9507",
+  "first_page": "995",
+  "last_page": "995",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 995"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 87,
+    "ocr_confidence": 0.679,
+    "sha256": "c28f30afa84189571798715550b83ff53a513ff96b9929c48e9228a9660cb002",
+    "simhash": "1:bd1b1ea254f3ae04",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Konopko v. Westfield Police Department."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9507.\nKonopko v. Westfield Police Department."
+  },
+  "file_name": "0995-13",
+  "first_page_order": 1021,
+  "last_page_order": 1021
+}

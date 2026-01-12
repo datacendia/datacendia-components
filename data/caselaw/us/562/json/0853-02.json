@@ -1,0 +1,59 @@
+{
+  "id": 6026739,
+  "name": "Gooden v. Iowa",
+  "name_abbreviation": "Gooden v. Iowa",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10814",
+  "first_page": "853",
+  "last_page": "853",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 853"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 9,
+    "char_count": 64,
+    "ocr_confidence": 0.66,
+    "sha256": "340eaa3984903f079c040b6a7ea28ad359d8d265b93beec23d5b788d6cc99e8c",
+    "simhash": "1:a7b3dc27df922b96",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gooden v. Iowa."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Iowa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10814.\nGooden v. Iowa."
+  },
+  "file_name": "0853-02",
+  "first_page_order": 875,
+  "last_page_order": 875
+}

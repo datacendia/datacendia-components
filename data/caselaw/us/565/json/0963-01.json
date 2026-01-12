@@ -1,0 +1,77 @@
+{
+  "id": 12229011,
+  "name": "Mason v. New York; and Rabb v. New York",
+  "name_abbreviation": "Mason v. New York",
+  "decision_date": "2011-10-17",
+  "docket_number": "No. 10-10544; No. 10-10944",
+  "first_page": "963",
+  "last_page": "963",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 963"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "16 N. Y. 3d 145",
+      "category": "reporters:state",
+      "reporter": "N.Y.3d",
+      "case_ids": [
+        3747205
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny3d/16/0145-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 155,
+    "ocr_confidence": 0.733,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.24765092482225798
+    },
+    "sha256": "feca314c66d66196997c0c89af3b2aaabfee1b533e97ed00115bb5a252bd903e",
+    "simhash": "1:5f65196c85432b42",
+    "word_count": 31
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mason v. New York; and Rabb v. New York."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. N. Y. Certio-rari denied. Reported below: 16 N. Y. 3d 145, 945 N. E. 2d 447.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10544.\nNo. 10-10944.\nMason v. New York; and Rabb v. New York."
+  },
+  "file_name": "0963-01",
+  "first_page_order": 1045,
+  "last_page_order": 1045
+}

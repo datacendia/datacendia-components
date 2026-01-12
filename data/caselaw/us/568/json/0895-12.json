@@ -1,0 +1,59 @@
+{
+  "id": 12415282,
+  "name": "Hope v. United States",
+  "name_abbreviation": "Hope v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5113",
+  "first_page": "895",
+  "last_page": "895",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 895"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.668,
+    "sha256": "3a79759c063930bca604dd7c8f17938f3aaf8bd8b938f8754a677c3ad23f7caa",
+    "simhash": "1:040a9a1b8a81911a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hope v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5113.\nHope v. United States."
+  },
+  "file_name": "0895-12",
+  "first_page_order": 971,
+  "last_page_order": 971
+}

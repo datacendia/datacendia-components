@@ -1,0 +1,59 @@
+{
+  "id": 12242265,
+  "name": "Johnson v. Bodison, Warden",
+  "name_abbreviation": "Johnson v. Bodison",
+  "decision_date": "2012-01-17",
+  "docket_number": "No. 10-9236",
+  "first_page": "1153",
+  "last_page": "1153",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1153"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 38,
+    "char_count": 270,
+    "ocr_confidence": 0.623,
+    "sha256": "8c54cf5c46ded9b69612aa8aec0bd2b99285869d241ac95ae826c2c852fee956",
+    "simhash": "1:658228c48486a2d9",
+    "word_count": 43
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Johnson v. Bodison, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Motion of petitioner for leave to proceed in forma pauperis granted. Certiorari granted, judgment vacated, and case remanded for further consideration in light of Gonzalez v. Thaler, ante, p. 134.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "January 17, 2012\nNo. 10-9236.\nJohnson v. Bodison, Warden."
+  },
+  "file_name": "1153-03",
+  "first_page_order": 1235,
+  "last_page_order": 1235
+}

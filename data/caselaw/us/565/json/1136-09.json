@@ -1,0 +1,59 @@
+{
+  "id": 12241818,
+  "name": "Riesselman v. United States",
+  "name_abbreviation": "Riesselman v. United States",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-7617",
+  "first_page": "1136",
+  "last_page": "1136",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1136"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.692,
+    "sha256": "2b99975c3d13effb16c1d9f8a5cf6785e8d414a1c0d15bb9af122f14fefaa96d",
+    "simhash": "1:95abe7230c3516cb",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Riesselman v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7617.\nRiesselman v. United States."
+  },
+  "file_name": "1136-09",
+  "first_page_order": 1218,
+  "last_page_order": 1218
+}

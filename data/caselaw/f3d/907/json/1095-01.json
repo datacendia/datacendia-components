@@ -1,0 +1,127 @@
+{
+  "id": 12518984,
+  "name": "UNITED STATES of America, Plaintiff - Appellee v. Aaron Michael HARRIS, Defendant - Appellant",
+  "name_abbreviation": "United States v. Harris",
+  "decision_date": "2018-11-05",
+  "docket_number": "No. 17-2868",
+  "first_page": "1095",
+  "last_page": "1096",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "907 F.3d 1095"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "8th Cir.",
+    "id": 8821,
+    "name": "United States Court of Appeals for the Eighth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "905 F.3d 1088",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518735
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1095",
+          "parenthetical": "holding that ordinary recklessness does not satisfy the mental-state requirement of generic aggravated assault"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/905/1088-01"
+      ]
+    },
+    {
+      "cite": "638 F.3d 895",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4199444
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "903"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/638/0895-01"
+      ]
+    },
+    {
+      "cite": "863 F.3d 1012",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12276064
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1014-15"
+        },
+        {
+          "page": "1015-16"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/863/1012-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 280,
+    "char_count": 4405,
+    "pagerank": {
+      "raw": 6.665651525889828e-08,
+      "percentile": 0.4059827426232186
+    },
+    "sha256": "377bc6b3a81ad7d13263bb057017d91c735a1d9e7339166469eaeb8ee49ebb96",
+    "simhash": "1:ec70f754a9a0a6a8",
+    "word_count": 675
+  },
+  "last_updated": "2024-02-27T18:46:00.884768+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before WOLLMAN, KELLY, and ERICKSON, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff - Appellee\nv.\nAaron Michael HARRIS, Defendant - Appellant"
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM.\nAaron Michael Harris pleaded guilty to one count of being a felon in possession of a firearm. At sentencing, the district court concluded that Harris's 2013 second-degree domestic assault conviction in Missouri state court was a crime of violence under the United States Sentencing Guidelines, and it increased Harris's recommended Guidelines range as a result. See USSG \u00a7 2K2.1(a)(4)(A). It then sentenced Harris to 46 months of imprisonment, at the bottom of the recommended Guidelines range. On appeal, Harris renews his argument that his prior conviction does not qualify as a crime of violence.\nThe Guidelines' force clause defines a crime of violence as any offense under federal or state law punishable by imprisonment for more than one year that \"has as an element the use, attempted use, or threatened use of physical force against the person of another.\" USSG \u00a7 4B1.2(a)(1). The parties agree that to determine whether Harris's prior conviction meets this definition, we use a modified categorical approach, examining the elements of Harris's offense of conviction, rather than his actual conduct. See Schneider, 905 F.3d at 1089-1092. If the statutory elements of Harris's offense of conviction do not require physical force, then the conviction cannot satisfy the force clause. See id. The parties also agree that Harris was convicted under Missouri Revised Statutes section 565.073.1(2). When Harris was convicted in 2013, that section provided, \"A person commits the crime of domestic assault in the second degree if the act involves a family or household member ... and he or she ... [r]ecklessly causes serious physical injury to such family or household member.\"\nWe previously explained that a statute that criminalizes reckless driving cannot satisfy the force clause, as reckless driving does not require physical force. See Schneider, 905 F.3d at 1091-92 ; United States v. Fields, 863 F.3d 1012, 1014-15 (8th Cir. 2017) ; United States v. Ossana, 638 F.3d 895, 903 (8th Cir. 2011). And we previously determined that Missouri's second-degree assault statute effective in 2003, section 565.060.1(3), criminalizes reckless driving and is therefore not a crime of violence under the force clause. Fields, 863 F.3d at 1015-16. Missouri's second-degree domestic assault statute contains identical language; the only difference between the two statutes is the victim. Compare \u00a7 565.060.1(3) (2003) (\"A person commits the crime of assault in the second degree if he ... [r]ecklessly causes serious physical injury to another person....\"), with \u00a7 565.073.1(2) (2013) (\"A person commits the crime of domestic assault in the second degree if the act involves a family or household member ... and he or she ... [r]ecklessly causes serious physical injury to such family or household member....\"). Therefore, Missouri's second-degree domestic assault statute also criminalizes reckless driving and is not a crime of violence under the Guidelines. Thus, we reverse and remand for resentencing consistent with this opinion.\nA second clause, known as the enumerated-offenses clause, provides that \"murder, voluntary manslaughter, kidnapping, aggravated assault, a forcible sex offense, robbery, arson, extortion, or the use or unlawful possession of a firearm ... or explosive material\" are all crimes of violence, too. USSG \u00a7 4B1.2(a)(2). The government waived its argument that Harris's prior conviction falls within the enumerated-offenses clause, because it did not raise this argument before the district court. Regardless, the government's argument would fail. See United States v. Schneider, 905 F.3d 1088, 1095 (8th Cir. 2018) (holding that ordinary recklessness does not satisfy the mental-state requirement of generic aggravated assault).",
+        "type": "majority",
+        "author": "PER CURIAM."
+      }
+    ],
+    "attorneys": [
+      "Celeste K. Johns, Research and Writing Atty., Office of the Fed. Public Defender, Springfield, MO (Laine Cardarella, Fed. Public Defender, Kansas City, MO, on the brief), for appellant.",
+      "Philip M. Koppe, Asst. U.S. Atty., Kansas City, MO, Patrick A. N. Carney, Asst. U.S. Atty., Springfield, MO (Thomas M. Larson, Acting U.S. Atty., Kansas City, MO, on the brief), for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff - Appellee\nv.\nAaron Michael HARRIS, Defendant - Appellant\nNo. 17-2868\nUnited States Court of Appeals, Eighth Circuit.\nSubmitted: September 24, 2018\nFiled: November 5, 2018\nCeleste K. Johns, Research and Writing Atty., Office of the Fed. Public Defender, Springfield, MO (Laine Cardarella, Fed. Public Defender, Kansas City, MO, on the brief), for appellant.\nPhilip M. Koppe, Asst. U.S. Atty., Kansas City, MO, Patrick A. N. Carney, Asst. U.S. Atty., Springfield, MO (Thomas M. Larson, Acting U.S. Atty., Kansas City, MO, on the brief), for appellee.\nBefore WOLLMAN, KELLY, and ERICKSON, Circuit Judges."
+  },
+  "file_name": "1095-01",
+  "first_page_order": 1095,
+  "last_page_order": 1096
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12429719,
+  "name": "Murphy v. United States",
+  "name_abbreviation": "Murphy v. United States",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-7664",
+  "first_page": "1135",
+  "last_page": "1135",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1135"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.624,
+    "sha256": "38f39852d3387258d0b778b6e017312f890ed67d680e225c9280660ca39b7b4f",
+    "simhash": "1:070ac2b303dbd81a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Murphy v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7664.\nMurphy v. United States."
+  },
+  "file_name": "1135-06",
+  "first_page_order": 1211,
+  "last_page_order": 1211
+}

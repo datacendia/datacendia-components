@@ -1,0 +1,59 @@
+{
+  "id": 12193288,
+  "name": "Newbold v. North Carolina",
+  "name_abbreviation": "Newbold v. North Carolina",
+  "decision_date": "2012-03-26",
+  "docket_number": "No. 11-6624",
+  "first_page": "907",
+  "last_page": "907",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 907"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 18,
+    "char_count": 117,
+    "ocr_confidence": 0.651,
+    "sha256": "ad9fb25ac7ee2113830980b2405a038b017520b896bdca505d0db65cbb666012",
+    "simhash": "1:d253444f4d371606",
+    "word_count": 18
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Newbold v. North Carolina."
+    ],
+    "opinions": [
+      {
+        "text": "Gen. Ct. Justice, Super. Ct. Div., Guilford County, N. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6624.\nNewbold v. North Carolina."
+  },
+  "file_name": "0907-10",
+  "first_page_order": 783,
+  "last_page_order": 783
+}

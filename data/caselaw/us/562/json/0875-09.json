@@ -1,0 +1,59 @@
+{
+  "id": 5969799,
+  "name": "Fonseca v. United States",
+  "name_abbreviation": "Fonseca v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11350",
+  "first_page": "875",
+  "last_page": "875",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 875"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.589,
+    "sha256": "8951a973c61342e90f6ed257cd5735e576f9e51c97d41bbc2aec23c125d77ebb",
+    "simhash": "1:94bbe22b2bbd001a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Fonseca v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11350.\nFonseca v. United States."
+  },
+  "file_name": "0875-09",
+  "first_page_order": 897,
+  "last_page_order": 897
+}

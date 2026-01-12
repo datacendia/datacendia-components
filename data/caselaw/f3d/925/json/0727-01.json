@@ -1,0 +1,832 @@
+{
+  "id": 12521330,
+  "name": "Kevin LAMPKIN; Stephen Miller, individually and on behalf of all others similarly situated; Joe Brown; Frank Gittess; Terry Nelson; Dianne Swiber; Robert Ferrell, Plaintiffs-Appellants v. UBS FINANCIAL SERVICES, INCORPORATED, formerly known as UBS PaineWebber, Incorporated; UBS Securities, L.L.C., formerly known as UBS Warburg, L.L.C., Defendants-Appellees",
+  "name_abbreviation": "Lampkin v. UBS Fin. Servs., Inc.",
+  "decision_date": "2019-05-24",
+  "docket_number": "No. 17-20608",
+  "first_page": "727",
+  "last_page": "741",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "925 F.3d 727"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "5th Cir.",
+    "id": 8820,
+    "name": "United States Court of Appeals for the Fifth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "110 F.3d 253",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        694892
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "257"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/110/0253-01"
+      ]
+    },
+    {
+      "cite": "440 F.3d 278",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        81975
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "289"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/440/0278-01"
+      ]
+    },
+    {
+      "cite": "406 U.S. 128",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6169688
+      ],
+      "weight": 7,
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "152-53"
+        },
+        {
+          "page": "153"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/406/0128-01"
+      ]
+    },
+    {
+      "cite": "564 U.S. 135",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12450137,
+        4333233
+      ],
+      "weight": 4,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "145-46",
+          "parenthetical": "\"declin[ing] th[e] invitation to disregard the corporate form\" where it was \"undisputed that the corporate formalities were observed\" and entities remained legally separate"
+        },
+        {
+          "parenthetical": "\"declin[ing] th[e] invitation to disregard the corporate form\" where it was \"undisputed that the corporate formalities were observed\" and entities remained legally separate"
+        },
+        {
+          "parenthetical": "\"declin[ing] th[e] invitation to disregard the corporate form\" where it was \"undisputed that the corporate formalities were observed\" and entities remained legally separate"
+        },
+        {
+          "page": "284"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/180/0166-01",
+        "/us/564/0135-01"
+      ]
+    },
+    {
+      "cite": "1994 WL 148271",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "parenthetical": "finding no joint venture where agreement between parties did not contemplate loss sharing"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "141 So. 2d 809",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        9879989
+      ],
+      "year": 1962,
+      "pin_cites": [
+        {
+          "page": "810-11"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/141/0809-01"
+      ]
+    },
+    {
+      "cite": "414 A.2d 507",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "case_ids": [
+        11290188
+      ],
+      "weight": 2,
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "509",
+          "parenthetical": "quoting Kilgore Seed Co. v. Lewin , 141 So. 2d 809, 810-11 (Fla. App. 1962) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/a2d/414/0507-01"
+      ]
+    },
+    {
+      "cite": "202 L.Ed.2d 123",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12620238,
+        12620239,
+        12620240,
+        12620241,
+        12620244,
+        12620245,
+        12620252,
+        12620253
+      ],
+      "weight": 2,
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/0197-06",
+        "/s-ct/139/0198-01",
+        "/s-ct/139/0198-02",
+        "/s-ct/139/0198-03",
+        "/s-ct/139/0198-06",
+        "/s-ct/139/0199-01",
+        "/s-ct/139/0200-01",
+        "/s-ct/139/0200-02"
+      ]
+    },
+    {
+      "cite": "139 S. Ct. 199",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12620245,
+        12620246,
+        12620247,
+        12620248,
+        12620249,
+        12620250
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/0199-01",
+        "/s-ct/139/0199-02",
+        "/s-ct/139/0199-03",
+        "/s-ct/139/0199-04",
+        "/s-ct/139/0199-05",
+        "/s-ct/139/0199-06"
+      ]
+    },
+    {
+      "cite": "725 F. App'x 278",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "weight": 11,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "parenthetical": "unpublished"
+        },
+        {
+          "page": "284"
+        },
+        {
+          "page": "286"
+        },
+        {
+          "page": "283-84",
+          "parenthetical": "\"None of the allegations allude to profit sharing, or loss sharing.\""
+        },
+        {
+          "page": "284"
+        },
+        {
+          "page": "285"
+        },
+        {
+          "page": "286"
+        },
+        {
+          "page": "287-88"
+        },
+        {
+          "page": "288"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "544 U.S. 336",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5891157
+      ],
+      "weight": 3,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "341-42",
+          "parenthetical": "internal citations omitted"
+        },
+        {
+          "parenthetical": "internal citations omitted"
+        },
+        {
+          "parenthetical": "internal citations omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/544/0336-01"
+      ]
+    },
+    {
+      "cite": "488 U.S. 204",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1494999
+      ],
+      "weight": 3,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "208",
+          "parenthetical": "\"[A]dministrative rules will not be construed to have retroactive effect unless their language requires this result.\""
+        },
+        {
+          "parenthetical": "\"[A]dministrative rules will not be construed to have retroactive effect unless their language requires this result.\""
+        },
+        {
+          "parenthetical": "\"[A]dministrative rules will not be construed to have retroactive effect unless their language requires this result.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/488/0204-01"
+      ]
+    },
+    {
+      "cite": "17 C.F.R. \u00a7 230.701",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(b)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "571 F. Supp. 1054",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        3596215
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "1064"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/571/1054-01"
+      ]
+    },
+    {
+      "cite": "688 F. Supp. 1357",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        3998782
+      ],
+      "weight": 2,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "1363"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/688/1357-01"
+      ]
+    },
+    {
+      "cite": "855 F.3d 459",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12270578,
+        12276835
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "469"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/568/0459-01",
+        "/f3d/855/0459-01"
+      ]
+    },
+    {
+      "cite": "81 F. Supp. 2d 550",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        11483303
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "parenthetical": "internal citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/81/0550-01"
+      ]
+    },
+    {
+      "cite": "76 F. Supp. 2d 539",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        11501023
+      ],
+      "weight": 2,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "544-45",
+          "parenthetical": "\"[C]ourts apply the SEC's 'no sale' doctrine when an employee's plan is found to be compulsory and noncontributory. This reasoning has been extended to employee stock option plans.\""
+        },
+        {
+          "page": "545"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/76/0539-01"
+      ]
+    },
+    {
+      "cite": "2001 WL 811033",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "*10",
+          "parenthetical": "\"As discussed earlier, Sarnoff would give employees Interests or options to acquire Interests at no cost, and would receive no cash, property, services, or surrender of a legal right in exchange for the Interests or options (including upon exercise of the options"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "1981 WL 36298",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 1981,
+      "opinion_index": 0
+    },
+    {
+      "cite": "328 U.S. 293",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        377246
+      ],
+      "weight": 4,
+      "year": 1946,
+      "pin_cites": [
+        {
+          "page": "300"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/328/0293-01"
+      ]
+    },
+    {
+      "cite": "439 U.S. 551",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11331374
+      ],
+      "weight": 8,
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "558",
+          "parenthetical": "citing SEC v. W.J. Howey Co. , 328 U.S. 293, 300, 66 S.Ct. 1100, 90 L.Ed. 1244 (1946) "
+        },
+        {
+          "parenthetical": "citing SEC v. W.J. Howey Co. , 328 U.S. 293, 300, 66 S.Ct. 1100, 90 L.Ed. 1244 (1946) "
+        },
+        {
+          "parenthetical": "citing SEC v. W.J. Howey Co. , 328 U.S. 293, 300, 66 S.Ct. 1100, 90 L.Ed. 1244 (1946) "
+        },
+        {
+          "page": "559"
+        },
+        {
+          "page": "569"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/439/0551-01"
+      ]
+    },
+    {
+      "cite": "421 U.S. 723",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        541651
+      ],
+      "weight": 3,
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "736",
+          "parenthetical": "\"\u00a7 11(a) of the 1933 Act confines the cause of action it grants to 'any person acquiring such security' while the remedy granted by \u00a7 12 of that Act is limited to the 'person purchasing such security.' \""
+        },
+        {
+          "parenthetical": "\"\u00a7 11(a) of the 1933 Act confines the cause of action it grants to 'any person acquiring such security' while the remedy granted by \u00a7 12 of that Act is limited to the 'person purchasing such security.' \""
+        },
+        {
+          "parenthetical": "\"\u00a7 11(a) of the 1933 Act confines the cause of action it grants to 'any person acquiring such security' while the remedy granted by \u00a7 12 of that Act is limited to the 'person purchasing such security.' \""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/421/0723-01"
+      ]
+    },
+    {
+      "cite": "315 F.3d 533",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9375572
+      ],
+      "weight": 3,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "535"
+        },
+        {
+          "page": "535"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/315/0533-01"
+      ]
+    },
+    {
+      "cite": "602 F.3d 363",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3921200
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "368"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/602/0363-01"
+      ]
+    },
+    {
+      "cite": "732 F.3d 454",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3710030
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "456",
+          "parenthetical": "citing Wilson v. Bruks-Klockner, Inc. , 602 F.3d 363, 368 (5th Cir. 2010) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/732/0454-01"
+      ]
+    },
+    {
+      "cite": "291 F.3d 336",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9430542
+      ],
+      "weight": 2,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "349"
+        },
+        {
+          "page": "362"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/291/0336-01"
+      ]
+    },
+    {
+      "cite": "365 F.3d 353",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9253033
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "parenthetical": "quoting ABC Arbitrage Plaintiffs Grp. v. Tchuruk , 291 F.3d 336, 349 (5th Cir. 2002) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/365/0353-01"
+      ]
+    },
+    {
+      "cite": "553 F.3d 869",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3717963
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "872",
+          "parenthetical": "quoting Fed. R. Civ. P. 9(b) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/553/0869-01"
+      ]
+    },
+    {
+      "cite": "550 U.S. 544",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3556136
+      ],
+      "weight": 7,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "570"
+        },
+        {
+          "page": "556"
+        },
+        {
+          "page": "555"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/550/0544-01"
+      ]
+    },
+    {
+      "cite": "556 U.S. 662",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653744
+      ],
+      "weight": 3,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "678",
+          "parenthetical": "quoting Bell Atl. Corp. v. Twombly , 550 U.S. 544, 570, 127 S.Ct. 1955, 167 L.Ed.2d 929 (2007) "
+        },
+        {
+          "parenthetical": "quoting Bell Atl. Corp. v. Twombly , 550 U.S. 544, 570, 127 S.Ct. 1955, 167 L.Ed.2d 929 (2007) "
+        },
+        {
+          "parenthetical": "quoting Bell Atl. Corp. v. Twombly , 550 U.S. 544, 570, 127 S.Ct. 1955, 167 L.Ed.2d 929 (2007) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/556/0662-01"
+      ]
+    },
+    {
+      "cite": "498 F.3d 483",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3629162
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "484"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/498/0483-01"
+      ]
+    },
+    {
+      "cite": "571 F.3d 412",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3668947
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "417",
+          "parenthetical": "quoting Stokes v. Gann , 498 F.3d 483, 484 (5th Cir. 2007) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/571/0412-01"
+      ]
+    },
+    {
+      "cite": "552 U.S. 148",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3675633
+      ],
+      "weight": 3,
+      "year": 2008,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/552/0148-01"
+      ]
+    },
+    {
+      "cite": "482 F.3d 372",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3865960
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "377"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/482/0372-01"
+      ]
+    },
+    {
+      "cite": "17 C.F.R. \u00a7 240",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "394 F.3d 285",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9166245
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "288",
+          "parenthetical": "\"Documents that a defendant attaches to a motion to dismiss are considered part of the pleadings if they are referred to in the plaintiff's complaint and are central to her claim.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/394/0285-01"
+      ]
+    },
+    {
+      "cite": "188 F.Supp.2d 684",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        9508929
+      ],
+      "year": 2002,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/188/0684-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1715,
+    "char_count": 43850,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25933558288533426
+    },
+    "sha256": "6ab5b7eff53571538dd6219621249b8156b4bdb8cfa8c7eb7d76133c7a14f40a",
+    "simhash": "1:03c3eb7a6ec0b3d2",
+    "word_count": 6862
+  },
+  "last_updated": "2024-02-27T18:46:49.974673+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before HIGGINBOTHAM, SMITH, and GRAVES, Circuit Judges."
+    ],
+    "parties": [
+      "Kevin LAMPKIN; Stephen Miller, individually and on behalf of all others similarly situated; Joe Brown; Frank Gittess; Terry Nelson; Dianne Swiber; Robert Ferrell, Plaintiffs-Appellants\nv.\nUBS FINANCIAL SERVICES, INCORPORATED, formerly known as UBS PaineWebber, Incorporated; UBS Securities, L.L.C., formerly known as UBS Warburg, L.L.C., Defendants-Appellees"
+    ],
+    "opinions": [
+      {
+        "text": "PATRICK E. HIGGINBOTHAM, Circuit Judge:\nThis is another appeal arising out of the collapse of Enron. Plaintiffs are individual retail-brokerage customers of PaineWebber who purchased Enron securities and Enron employees who acquired employee stock options. Plaintiffs brought this action against subsidiaries of UBS, alleging violations of the securities laws for their role as a broker of Enron's employee stock option plan and for failure to disclose material information about Enron's financial manipulations to its retail investors. The case was initially consolidated into the Enron MDL until the plaintiffs elected to proceed on their own complaint. After a lengthy stay and multiple amendments to their original pleading, the district court dismissed the complaint for failure to state a claim. We affirm.\nI.\nPlaintiffs-Appellants bring this putative class action alleging violations of the securities laws against Defendants-Appellees UBS Financial Services, Inc. (formerly UBS PaineWebber (\"PaineWebber\")) and UBS Securities LLC\n(formerly UBS Warburg LLC (\"Warburg\")). During the relevant time period, PaineWebber and Warburg were separate legal entities and subsidiaries of UBS AG.\nPlaintiffs fall into two groups: (1) individual retail-brokerage customers of PaineWebber who purchased Enron securities in a PaineWebber brokerage account between November 5, 2000 and December 2, 2001 and (2) Enron employees who acquired Enron stock option securities through their employment between October 19, 1998 and November 19, 2001, which they allege that PaineWebber underwrote (\u00a7 11 claims) and sold (\u00a7 12 claims). PaineWebber provided retail brokerage services to individuals and was acquired by UBS in July 2000. Warburg provided investment-banking services to institutional clients.\nUntil its collapse in late 2001, Enron was the seventh largest corporation in the world. Enron began as a traditional energy production and transmission company, concentrating in natural gas pipelines, but quickly grew into an \"industry leader in the purchase, transportation, marketing, and sale of natural gas and electricity\" and related financial instruments. Enron's rapid expansion made it a large consumer of cash and the company considered its credit ratings critical to its success. According to the complaint, Enron began to \"seriously manipulate [its] financials\" to conceal the negative effects of its accounting practices on public financial statements. After a series of financial disclosures and restatements events spiraled: the company's CFO, Andrew Fastow, was placed on a leave of absence, the Board of Directors formed a special committee to investigate the financial disclosures, and eventually, Enron filed for bankruptcy.\nPlaintiffs allege that UBS and Enron maintained a \"mutually self-serving relationship that took precedence over and conflicted with the interests of UBS's retail customers.\" They claim that PaineWebber provided millions of retail investors to whom Enron securities could be funneled, transferring Enron's risk into the marketplace and, in return, Enron chose PaineWebber as the administrator of its Enron Employee Stock Option Plans, giving UBS the \"first bite at capturing Enron employee wealth to generate retail fees and income.\" Enron granted stock option plans to its employees in 1991, 1994, and 1999. Under the terms of the plans, an Enron board committee had the sole authority to designate participants in the stock plan and determine the types of awards to be granted to a participant, which were granted \"for no cash consideration or for such minimal cash consideration as may be required by law.\" PaineWebber contracted to provide brokerage services for those plans, agreeing to serve as the \"exclusive broker for stock option exercises of all [Enron's] publicly traded securities.\" While Enron granted the options, PaineWebber was tasked with facilitating the option exercises and providing record-keeping services related to the exercise of options. On the basis of those allegations, plaintiffs claim violations under Sections 11 and 12 of the Securities Act of 1933 (the \"Securities Act\"). Plaintiffs claim that PaineWebber violated the Securities Act by acting as a \"seller\" and \"underwriter\" of Enron securities within the meaning of that statute, making PaineWebber liable for \"materially false statements contained in the Enron prospectuses and registration statements\" for Enron stock.\nPlaintiffs also allege that UBS had knowledge of Enron's \"financial chicanery\" because of its \"long standing banking history with Enron.\" Emphasizing that UBS is a single, integrated business venture, plaintiffs allege that UBS positioned itself between its retail brokerage clients and Enron, its corporate client, making it impossible for UBS to fulfill its legal obligations to both groups. They claim UBS had material nonpublic information about Enron's financial manipulations and a duty to disclose that information to its retail-brokerage customers. Plaintiffs highlight several transactions UBS participated in that they allege evidence UBS's knowledge of material information: (1) 1999 and 2000 amendments of equity-forward contracts, (2) participation in Osprey and Yosemite IV financial structures, and (3) participation in the Enron E-Next Generation Loan. According to plaintiffs, those transactions were devices and schemes designed to inflate the appearance of Enron's financial status.\nEquity-forward contracts were financial instruments through which Enron was contractually obligated to purchase a specific number of Enron shares at a specific price from UBS and UBS had to deliver to Enron a specific number of shares at a specific price. The complaint alleges that those instruments were, in substance, undocumented and undisclosed loans to Enron to support Enron's hedge transactions used to manage its income. It documents two restructurings in 1999 and 2000 through which UBS increased the forward contract price, allowing Enron to extract the value from the shares in the amount of the difference between the initial forward contract price and the increased market value of the shares. Plaintiffs allege that these restructurings provided Enron hedges for assets that could not be hedged as well as seed money for elicit accounting and that UBS had \"institutional knowledge of their fraudulent nature.\"\nWith respect to its participation in the Osprey and Yosemite IV transactions, plaintiffs allege that UBS participated in a follow-on offering of notes issued in connection with Enron's Osprey structure and purchased Enron credit-linked notes offered as part of Enron's Yosemite IV structure. Plaintiffs claim that UBS relied on other firms' diligence and failed to undertake its own due diligence in contravention of \"relevant industry standards and UBS's own internal policies.\" By failing to conduct its own due diligence, plaintiffs claim UBS acted recklessly in failing to learn that \"Enron used the Osprey structure to generate income by parking overvalued, non-performing assets in the structure.\" Similarly, plaintiffs allege UBS\neither knew, or was reckless in not knowing, that Enron used the Yosemite IV transactions to obtain disguised loans.\nFinally, plaintiffs allege that E-Next Generation is \"the best documented example of UBS participating in a materially false public presentation of Enron's financial appearance.\" They claim that UBS created an off-balance sheet loan to allow Enron to finance \"the construction of its US electric generating build out and then, once the construction was complete, bring the project onto Enron's balance sheet\" after it started generating revenues. Plaintiffs allege that the existence of the loan and its structure to avoid public disclosure were material facts to investors.\nOn the basis of those allegations, plaintiffs claim violations of Section 10(b) of the Securities Exchange Act of 1934 (the \"Exchange Act\") and Rule 10b-5 thereunder. They claim UBS violated Section 10(b) of the Exchange Act and Rule 10b-5 thereunder by failing to disclose the conflicts under which it operated its brokerage business and the information and knowledge it possessed during the class period concerning the manipulation of Enron's public financial appearance. Plaintiffs contend that defendants' acts, practices, and course of business combined to operate a fraud upon the plaintiffs, deceiving them \"into believing the price at which they purchased or held their Enron securities was determined by the natural interplay of supply and demand.\"\nThis case was initially filed in March 2002 and has a long procedural history. Plaintiffs filed a second amended complaint in June 2002 and, in November of that year, this case was coordinated with a multi-district litigation under the lead case Newby v. Enron Corp. , 188 F.Supp.2d 684 (S.D. Tex. 2002) In November 2003, the district court denied defendants' motion to dismiss the second amended complaint and the case proceeded to discovery. In July 2006, the district court ordered all MDL plaintiffs who wanted to proceed under their own complaints to give notice of that intent, which plaintiffs did, opting to \"proceed under their own independent complaint, as finally amended.\" The operative third amended complaint was filed the next month and defendants filed a timely motion to dismiss. Shortly thereafter, this court decertified the Newby class and the Supreme Court granted certiorari on a case concerning the scope of liability under Section 10(b) of the Exchange Act. The district court stayed this case pending resolution of Stoneridge by the Supreme Court. Two years after the Supreme Court's decision came down, plaintiffs moved to lift the stay and, a year later, the district court lifted that stay. Plaintiffs moved to amend their complaint a fourth time and the district court denied plaintiffs' motion as untimely. In February 2017, five and a half years after the stay was lifted, the district court granted defendants' motion to dismiss and denied plaintiffs' subsequent motion for reconsideration. This appeal followed.\nII.\n\"This court reviews de novo a district court's grant or denial of a Rule 12(b)(6) motion to dismiss, 'accepting all well-pleaded facts as true and viewing those facts in the light most favorable to the plaintiff[.]' \" \"To survive a motion to dismiss, a complaint must contain sufficient factual matter, accepted as true, to 'state a claim to relief that is plausible on its face.' \" \"A claim has facial plausibility when the plaintiff pleads factual content that allows the court to draw the reasonable inference that the defendant is liable for the misconduct alleged.\" However, \"the tenet that a court must accept as true all of the allegations contained in a complaint is inapplicable to legal conclusions\" or \"[t]hreadbare recitals of the elements of a cause of action, supported by mere conclusory statements.\" Where a plaintiff alleges fraud, Fed. R. Civ. P. 9(b)\"creates a heightened pleading requirement that 'the circumstances constituting fraud or mistake shall be stated with particularity.' \" To meet that heightened pleading standard, \"the who, what, when, and where must be laid out before access to the discovery process is granted.\" Securities fraud claims under Section 10(b) are subject to Rule 9(b)'s heightened pleading standards.\nThis court reviews a district court's decision denying a motion for leave to amend for abuse of discretion. Fed. R. Civ. P. 16(b) governs amendments to pleadings after a scheduling order has been entered by the district court and provides that a scheduling order \"may be modified only for good cause and with the judge's consent.\"\nIII.\nPlaintiffs bring claims against PaineWebber in its capacity as \"the exclusive broker and stock option plan administrator for Enron,\" contending that PaineWebber is liable for false statements in Enron's prospectuses and registration statements. Under Section 11, an underwriter can be liable to a person who acquires a security where the registration statement \"contained an untrue statement of a material fact or omitted to state a material fact required to be stated therein.\" Under Section 12, any person who \"offers or sells a security,\" with a prospectus or oral communication \"which includes an untrue statement of a material fact or omits to state a material fact necessary in order to make such statements, in the light of the circumstances under which they were made, not misleading,\" is liable to the person \"purchasing such security from him.\"\nThe parties dispute whether the Enron employee stock option plans amounted to a sale of securities within the meaning of the statute. The district court held that the stock option plans did not constitute a sale as a matter of law because \"there is no investment of money in a common enterprise with profits to come solely from the efforts of others, for which the plan participants expect a profit and ... because Enron's stock option plans are noncontributory and compulsory for its employees.\" Plaintiffs contend that the district court erred by conflating employee stock ownership plans and employee stock option plans. While an employee benefit plan requires a court to determine whether the beneficiary interest is a security, plaintiffs assert that the stock options here are securities under the statutory definition, meaning the Daniel test to determine whether the interest is a security is inapplicable. Relying on the same distinction, plaintiffs maintain that the SEC's \"no-sale doctrine\" for employee benefit plans does not apply to employee stock option plans. Plaintiffs contend that there was a \"sale\" here because the grant of the Enron options was \"for value\"-the provision of services through employment.\nSections 11 and 12 expressly limit liability to \"purchasers or sellers of securities.\" The Securities Act defines a sale as \"every contract of sale or disposition of a security or interest in a security, for value.\" In Daniel , the Supreme Court determined that an employee's \"participation in a noncontributory, compulsory pension plan\" is not the equivalent of purchasing a security. To determine whether a transaction \"constitutes an investment contract, '[t]he test is whether the scheme involves an investment of money in a common enterprise with profits to come solely from the efforts of others.' \" The Court noted that for the employees participating in the pension plan, the \"purported investment is a relatively insignificant part\" of the employee's total compensation, and the decision to accept and retain employment likely had only an attenuated relationship to the investment. For that reason, participation in the noncontributory, compulsory pension plan was unlike other cases where the Court recognized \"the presence of a 'security' under the Securities Acts\"-in those cases the investor gave up a specific consideration in return for a \"separable financial interest with the characteristics of a security.\"\nShortly after Daniel , the SEC issued a release to \"resolve the uncertainty\" surrounding Daniel 's application to \"many types of employee benefit plans not covered by the decision.\" In that release, the SEC clarified that \"for the registration and antifraud provisions of the 1933 Act to be applicable, there must be an offer or sale of a security.\" The SEC went on to explain that although \"plans under which an employer awards shares of its stock to covered employees at no direct cost to the employees\" do award securities, \"there is no 'sale' in the 1933 Act sense to employees, since such persons do not individually bargain to contribute cash or other tangible or definable consideration to such plans.\" The following year, the SEC released a second interpretive release to supplement the 1980 release and \"provide further guidance and assistance to employers and plan participants in complying with the Act.\" The SEC clarified the definition of voluntary and contributory plans, noting \"it is the staff's view that the determination of whether a plan is a voluntary contributory one rests solely on whether the participating employees can decide at some point whether or not to contribute their own funds to the plan.\" In an interpretive release on Regulation D exemptions, the SEC noted \"[i]n a typical plan, the grant of the options will not be deemed a sale of a security for purposes of the Securities Act.\" PaineWebber also points to a number of \"No Action Letters\" sent by the SEC that support the conclusion that the SEC does not consider a compulsory option grant a \"sale\" under the Securities Act.\nConsistent with the interpretations of the SEC, courts have extended Daniel to compulsory and involuntary employee stock option plans. \"A hallmark of a 'voluntary' plan is the ability of the employee to make an 'investment decision' to acquire the stock options.\" The central question of Daniel is \"whether employees made an investment decision that could be influenced by fraud or manipulation.\" Where employees' participation is an \"incident of employment,\" there is no bargained-for exchange that requires an affirmative investment decision -under Daniel , the \"exchange of labor\" is insufficient.\nPlaintiffs assert that the cases extending the no-sale doctrine to employee stock option plans are a pernicious \"disease\" infecting the federal jurisprudence-they maintain that the doctrine is limited to ERISA employee benefit plans like the employee pension plan at issue in Daniel and certain employee stock ownership plans. But as the district court correctly recognized, the grant of options to employees here was not a sale. The employees did not bargain for the options and they were granted for no cash consideration. Plaintiffs attempt to distinguish option grants by pointing out that the employees would be forced to make an affirmative investment decision after the grants were made-at that point, employees would decide whether to exercise the option or allow it to expire unexercised. However, plaintiffs expressly disclaim reliance on the exercise of the options. Indeed they repeatedly emphasize that \"[t]he Options Plaintiffs' claims in no way depend upon the exercise of a stock option to purchase the underlying stock.\" Their claim is based entirely on the grant of the options-an action which required no affirmative investment decision by the plaintiffs. Their theory that option grants fall outside the purview of the no-sale doctrine is contradictory: the affirmative investment decision is made when the employees decide whether to exercise their options, but their claims are explicitly based only on the grant of the options.\nFinding no caselaw to support their position, plaintiffs rely heavily on an SEC proceeding against Google, Inc. and David Drummond, Google's general counsel. The SEC instituted cease-and-desist proceedings against Google and Drummond for failing to comply with Rule 701, which provides certain Securities Act exemptions to securities issuers who are not subject to the Exchange Act's reporting requirements. Rule 701 is designed to \"allow[ ] privately-held companies to compensate their employees with securities without incurring the obligations of public registration and reporting.\" The SEC determined that Google-a privately-held company to whom Rule 701 applied-and Drummond violated or caused the company to violate its reporting requirements by exceeding the $ 5 million threshold set out by Rule 701. Plaintiffs contend that the proceedings \"confirm\" that granting stock options involves a sale within the meaning of the Securities Act. Plaintiffs overread those proceedings. While their interpretation is a plausible extension of the Google decision, the SEC did not address the no-sale doctrine and made its decision in the context of concluding which exemptions a private company could take advantage of. We are not persuaded that the SEC's decision in Google indicates a wholesale rejection of the no-sale doctrine in the context of employee option grants. Finally, even if the Google decision did represent a change in the SEC's stance-and we conclude it does not-plaintiffs fail to show how that 2005 decision could be applied retroactively to PaineWebber's actions between 1998 and 2001.\nAt base, plaintiffs Securities Act claims fail because their participation in the Employee Stock Option Plan was compulsory and employees furnished no value, or tangible and definable consideration in exchange for the option grants. The Court in Daniel rejected the idea that the exchange of labor was sufficient consideration in the context of a compulsory, non-contributory pension plan-the same logic applies to the option plan at issue here. Plaintiffs made no investment decision in the grant of the options, the Enron plans were compulsory and non-contributory. The fact that plaintiffs would eventually make an affirmative investment decision-whether to exercise the option or let it expire-at some point in the future is of no consequence. Plaintiffs' claims are based explicitly on the grant of the option, not the exercise of that option. Because plaintiffs have not overcome the most fundamental hurdle to their Securities Act claims, we need not consider UBS's alternative arguments that (1) PaineWebber was not an underwriter or seller; (2) plaintiffs failed to allege that any false prospectus or registration statement covered the Enron options; and (3) that plaintiffs failed to plead damages. Plaintiffs' Securities Act claims require a sale-plaintiffs have failed to demonstrate that the grant of Enron options amounted to the sale of a security. For those reasons, the district court correctly dismissed plaintiffs' Section 11 and Section 12 claims.\nIV.\nIn their second set of claims, the retail-brokerage customer plaintiffs contend that UBS violated Section 10(b) of the Exchange Act and Rule 10b-5 thereunder by failing to disclose information and knowledge regarding \"the manipulation of Enron's public financial appearance\" in the face of a duty to do so. To state a claim for securities fraud under Section 10(b) of the Exchange Act, a plaintiff must adequately allege \"(1) a material misrepresentation (or omission); (2) scienter, i.e., a wrongful state of mind; (3) a connection with the purchase or sale of a security; (4) reliance ...; (5) economic loss; and (6) loss causation, i.e., a causal connection between the material misrepresentation and the loss.\" Plaintiffs' claims are based on UBS's alleged silence in violation of a duty to disclose. The crux of plaintiffs' claim is that PaineWebber and Warburg united in a joint venture named UBS, that that joint venture owed a duty to its retail brokerage clients stemming from the security industry's self-regulatory organization rules and UBS's \"special relationship\" with plaintiffs, and that UBS failed to disclose information that \"Enron manipulated and materially misstated its financial results to the public.\"\nThe district court concluded that plaintiffs failed to plead sufficient facts to support a plausible claim that Warburg and PaineWebber functioned as a single entity, did not establish that defendants acted with scienter, and did not establish that Warburg or UBS AG, which were not parties to the contract between Enron and PaineWebber, owed a duty to plaintiffs. Essentially, the district court determined that plaintiffs had not shown that Warburg owed a duty to disclose information it possessed to clients of PaineWebber by virtue of any \"joint venture\" between Warburg and PaineWebber and, in fact, that Warburg could not share information with PaineWebber because of \"federally required Chinese Walls\" between PaineWebber and Warburg, in its capacity as an investment bank.\nAfter the parties submitted their briefing in this case, another panel of this court issued an unpublished decision in a related case, affirming the same district court's dismissal of similar Exchange Act claims brought by PaineWebber customers who had bought Enron bonds or other debt instruments. In their response to defendants' 28(j) letter, plaintiffs attempt to distinguish Giancarlo by stating that the panel \"simply found the [appellate] briefing submitted by the Giancarlo plaintiffs' insufficient to demonstrate a \u00a7 10(b) claim\" and based its decision on those deficiencies rather than \"perceived deficiencies in their pleading in the trial court.\" Plaintiffs assert that the panel's decision \"is not a decision on the merits of the \u00a7 10(b) claim asserted by the Plaintiffs in the Lampkin case.\" That characterization is inconsistent with the panel opinion, which held that plaintiffs had not adequately established the existence of a joint venture, nor put forth any other theory that permitted aggregation of the actions and knowledge of the defendant entities, and had failed to establish that any one defendant had material non-public knowledge and a duty to disclose that knowledge to the plaintiffs. The panel concluded, therefore, that \"the district court properly dismissed Plaintiffs' amended complaint.\" Although we are not bound by an unpublished decision, we find the reasoning in Giancarlo persuasive and adopt it here.\nFirst, plaintiffs contend that they adequately alleged that PaineWebber and Warburg united to form a joint venture named UBS. Plaintiffs urge that because PaineWebber and Warburg were incorporated under Delaware law, the court looks to the Delaware standard for establishing that a joint venture exists: where there is (1) a community of interest in the performance of a common purpose, (2) joint control or right of control, (3) a joint proprietary interest in the subject matter, (4) a right to share in the profits, (5) a duty to share in the losses which must be sustained. Plaintiffs point to allegations that UBS made public admissions in media releases describing itself as an \"integrated\" bank and predicted in a press release after PaineWebber's acquisition that PaineWebber would become \"an integral part of UBS Warburg.\" However, like the plaintiffs in Giancarlo , plaintiffs here do not explain how the allegations they point to support a finding that defendants shared profits or losses or establish that defendants had joint control or right of control over the joint venture. The press releases described by plaintiffs support a shared interest but are insufficient to support joint venture liability under Delaware law-as this court in Giancarlo emphasized, \"vague corporate platitudes about integration as a firm\" are insufficient to support a finding of joint venture liability. Beyond plaintiffs' conclusory statements that UBS was a single, integrated entity, plaintiffs have not established the existence of a joint venture and, as in Giancarlo , \"have not put forth any other theory that permits us to aggregate the actions and knowledge of the defendant entities for purposes of assessing liability.\"\nWith respect to duty, plaintiffs contend that defendants had knowledge of material nonpublic information concerning Enron and that they owed a duty to disclose that information. Plaintiffs assert that a duty to disclose arose through UBS's retail brokerage relationship with plaintiffs and through UBS's \"special relationship\" as a entity between its retail client and its issuer client. Because, as we discussed, plaintiffs have not adequately pled that Warburg and PaineWebber formed a joint venture, they must demonstrate that the entity that possessed the material, nonpublic information-according to plaintiffs allegations, Warburg or UBS AG-had the duty to disclose that information.\nPlaintiffs emphasize that a duty to disclose can arise without the existence of a fiduciary duty, and point to two sources of the alleged duty here. First, they contend that the security industry's self-regulation rules give rise to actionable duties under the Exchange Act. According to plaintiffs, the integration of a retail brokerage business (PaineWebber) into the joint venture brought with it duties placed on broker-dealers by the rules of two self-regulatory organizations (\"SROs\"), the NASD and NYSE. Plaintiffs claim that the NASD and NYSE \"establish obligatory standards\" and \"obligated UBS to speak.\" Plaintiffs' complaint cites to NASD Rule 2210(d) which governs \"[a]ll member communications with the public\" and mandates that \"[n]o material fact or qualification may be omitted if the omission ... would cause the communications to be misleading.\" This theory of duty falls with plaintiffs' theory of joint venture liability. The SRO rules depend on a communication-but as in Giancarlo , PaineWebber was the entity that communicated with the retail brokerage customer plaintiffs but plaintiffs fail to allege that PaineWebber had knowledge of Enron's financial misrepresentations. The defendant with the duty was not the defendant with the knowledge. Simply labeling the offending entity \"UBS\" does not rescue plaintiffs from this fatal flaw.\nPlaintiffs also point to a second source of defendants' alleged duty, the alleged \"special relationship\" between UBS and plaintiffs. Essentially, plaintiffs claim that UBS stood between Enron and its retail brokerage customers and that special relationship obligated its disclosure about Enron's financial manipulations. In support of this alleged duty, plaintiffs rely on Affiliated Ute Citizens of Utah v. United States . In Affiliated Ute , a bank that was acting as a transfer agent for Ute tribe members bought the plaintiffs' restricted stock without disclosing that they had created a secondary market for the stock where they could sell it for a profit. The Court held that the \"sellers had the right to know that the defendants were in a position to gain financially from their sales and that their shares were selling for a higher price in that market.\" Plaintiffs have not alleged an analogous relationship between themselves and the entity that sold them securities, PaineWebber. Furthermore, plaintiffs do not suggest that PaineWebber was the entity that had knowledge of the Enron securities market. PaineWebber was the broker for the retail-brokerage customers while UBS AG and Warburg were the entities that played a role in the particular transactions identified in the complaint purporting to evidence the material knowledge of Enron's financial manipulations-again, plaintiffs' use of the grouping \"UBS\" does not cure the fact of those entities' separate legal statuses.\nPlaintiffs fundamentally fail to establish that either defendant had material, nonpublic knowledge to disclose and a duty to disclose. They attempt to circumvent this requirement by arguing that UBS operated as a \"single, fully integrated entity,\" meaning that any material, nonpublic information known to UBS AG or Warburg had to be disclosed by PaineWebber. Because they have not adequately pled that defendants formed a joint venture, the lack of particularized allegations that any defendant entity possessed material information about Enron's finances and a duty of disclosure are fatal to their claim.\nV.\nPlaintiffs contend that, even if their third amended complaint was properly dismissed by the district court, the court abused its discretion in denying them the opportunity to file an amended complaint.\nWhile Fed. R. Civ. P. 15(a) provides that leave to amend shall be \"freely\" given, where a plaintiff seeks to amend its complaint after a scheduling order has been entered, Fed. R. Civ. P. 16(b) governs. Under that rule, a scheduling order \"may be modified only for good cause and with the judge's consent.\" The court must consider four factors in determining whether there was good cause for the delay: (1) the explanation for the failure to timely move for leave to amend, (2) the importance of the amendment, (3) the potential prejudice the other party would suffer if the amendment was allowed, and (4) the availability of a continuance to cure that prejudice.\nPlaintiffs explain their failure to seek timely amendment, pointing to depositions of Enron's former CFO and UBS's expert, which were taken after the amendment deadline, and UBS's \"unforeseeable denial\" of facts admitted to in its SEC filings. As this court recognized in Giancarlo , which proceeded under a similar schedule, Enron's CFO was deposed eight months before this action was stayed, during which time plaintiffs failed to seek to amend their complaint. Plaintiffs waited a full two years after Stoneridge was decided before moving to lift the stay. Plaintiffs' suggestion that they could not have predicted that defendants would argue that Warburg and PaineWebber are separate legal entities is implausible given the reference to different entities in different allegations of the operative complaint. Plaintiffs also submit that the proposed amendment was \"clearly\" important given the dismissal in the case. Again, as in Giancarlo , that conclusory statement does not tell this court which new allegations would cure the deficiencies highlighted by the district court. Specifically, plaintiffs have not made clear how their revised allegations would support their theory that PaineWebber and Warburg participated in a joint venture. Even taking plaintiffs at their word that defendants would not have been overly prejudiced by the proposed amendment, the first two factors in the analysis are determinative here. The district court did not abuse its discretion in refusing to grant leave to amend.\nVI.\nBecause plaintiffs failed to state a claim under the Securities Act or the Exchange Act and the district court did not abuse its discretion in denying plaintiffs an additional chance to amend their complaint, we affirm the district court's dismissal.\nThroughout the complaint, plaintiffs refer generally to \"UBS.\" Plaintiffs state at the outset that \"P[aine]W[ebber], Warburg, and UBS AG may be collectively referred to herein as 'UBS.' \" When describing allegations in the complaint, we use the language of the complaint with respect to which defendant was responsible for each alleged action. Defendants reject the notion that they can be viewed as a \"joint venture\" for purposes of assessing liability under the securities laws, and that argument is discussed infra , Section III.\nDefendants attached copies of the 1999 Enron Stock Plan, and the \"letter agreement\" through which PaineWebber agreed to provide broker financing to Enron for the execution of employee stock options, to its motion to dismiss before the district court. Those documents are properly considered here. Causey v. Sewell Cadillac-Chevrolet, Inc. , 394 F.3d 285, 288 (5th Cir. 2004) (\"Documents that a defendant attaches to a motion to dismiss are considered part of the pleadings if they are referred to in the plaintiff's complaint and are central to her claim.\").\n\"Committee\" is defined as \"a committee of the Board of Directors of the Company designated by such Board to administer the Plan and composed of not less than two outside directors.\"\n15 U.S.C. \u00a7\u00a7 77k, 77l.\n15 U.S.C. \u00a7 78j(b).\n17 C.F.R. \u00a7 240.10b-5.\nRegents of Univ. of Cal. v. Credit Suisse First Bos. , 482 F.3d 372, 377 (5th Cir. 2007).\nStoneridge Inv. Partners, LLC v. Scientific-Atlanta, Inc. , 552 U.S. 148, 128 S.Ct. 761, 169 L.Ed.2d 627 (2008).\nTrue v. Robles , 571 F.3d 412, 417 (5th Cir. 2009) (quoting Stokes v. Gann , 498 F.3d 483, 484 (5th Cir. 2007) ).\nAshcroft v. Iqbal , 556 U.S. 662, 678, 129 S.Ct. 1937, 173 L.Ed.2d 868 (2009) (quoting Bell Atl. Corp. v. Twombly , 550 U.S. 544, 570, 127 S.Ct. 1955, 167 L.Ed.2d 929 (2007) ).\nId . (citing Twombly , 550 U.S. at 556, 127 S.Ct. 1955 ).\nId . (citing Twombly , 550 U.S. at 555, 127 S.Ct. 1955 ).\nUnited States ex rel. Rafizadeh v. Cont'l Common, Inc. , 553 F.3d 869, 872 (5th Cir. 2008) (quoting Fed. R. Civ. P. 9(b) ).\nSouthland Secs. Corp. v. Inspire Ins. Sols., Inc. , 365 F.3d 353 (5th Cir. 2004) (quoting ABC Arbitrage Plaintiffs Grp. v. Tchuruk , 291 F.3d 336, 349 (5th Cir. 2002) ).\nId. at 362\nMoore v. Manns , 732 F.3d 454, 456 (5th Cir. 2013) (citing Wilson v. Bruks-Klockner, Inc. , 602 F.3d 363, 368 (5th Cir. 2010) ).\nS&W Enters., LLC v. SouthTrust Bank of Ala., NA , 315 F.3d 533, 535 (5th Cir. 2003).\nFed. R. Civ. P. 16(b)(4).\n15 U.S.C. \u00a7 77k(a)(5).\n15 U.S.C. \u00a7 77l (a)(2).\nBlue Chip Stamps v. Manor Drug Stores , 421 U.S. 723, 736, 95 S.Ct. 1917, 44 L.Ed.2d 539 (1975) (\"\u00a7 11(a) of the 1933 Act confines the cause of action it grants to 'any person acquiring such security' while the remedy granted by \u00a7 12 of that Act is limited to the 'person purchasing such security.' \").\n15 U.S.C. \u00a7 77b(a)(3).\nInt'l Brotherhood of Teamsters v. Daniel , 439 U.S. 551, 558, 99 S.Ct. 790, 58 L.Ed.2d 808 (1979) (citing SEC v. W.J. Howey Co. , 328 U.S. 293, 300, 66 S.Ct. 1100, 90 L.Ed. 1244 (1946) ).\nId.\nId. at 560, 99 S.Ct. 790.\nId. at 559, 99 S.Ct. 790.\nSEC Release No. 33-6188, 45 F.R. 8960 (Feb. 1, 1980).\nId. at 8962.\nId. at 8968.\nSEC Release No. 33-6281, 1981 WL 36298 (Jan. 15, 1981).\nId. at *2.\nSEC Release No. 33-6455, 48 F.R. 10045, 10054 (March 10, 1983). Plaintiffs take pains to minimize this statement, correctly noting that it was made in the context of defining the scope of Regulation D exemptions for an employee stock option plan for key employees. Id. While they are correct about the context, the statement did not explicitly limit its no-sale determination to that narrower context. While not determinative on its own, the statement further supports PaineWebber's position that the compulsory option grants were not a sale under the meaning of the Securities Act.\nSee e.g. , Sarnoff Corp. , SEC No-Action Letter, 2001 WL 811033, at *10 (July 16, 2001) (\"As discussed earlier, Sarnoff would give employees Interests or options to acquire Interests at no cost, and would receive no cash, property, services, or surrender of a legal right in exchange for the Interests or options (including upon exercise of the options). Rather, Sarnoff employees would be fully, fairly, and completely compensated for their employment activities on behalf of Sarnoff through Sarnoff's standard salary, bonuses, and similar compensation. Hence, the Program would not involve the 'sale,' 'offer for sale,' or 'solicitation of an offer to buy' securities and no registration therefore should be required under the Securities Act.\").\nSee e.g. , In re Cendant Corp. Sec. Litig. , 76 F. Supp. 2d 539, 544-45 (D.N.J. 1999) (\"[C]ourts apply the SEC's 'no sale' doctrine when an employee's plan is found to be compulsory and noncontributory. This reasoning has been extended to employee stock option plans.\") (internal citation omitted).\nIn re Cendant Corp. Sec. Litig. , 81 F. Supp. 2d 550 (D.N.J. 2000) (internal citation omitted).\nIn re Lehman Bros. Holdings Inc. , 855 F.3d 459, 469 (2d Cir. 2017).\nIn re Cendant Corp. , 76 F. Supp. 2d at 545 (quoting Childers v. Northwest Airlines, Inc. , 688 F. Supp. 1357, 1363 (D. Minn. 1988) ).\nId. (quoting Bauman v. Bish , 571 F. Supp. 1054, 1064 (N.D.W. Va. 1983) ).\nIn the Matter of Google, Inc. and David C. Drummond , SEC Admin. Proc. No. 3-11795, Rel. No. 8523 (Jan. 13, 2005).\nId. at *2; 17 C.F.R. \u00a7 230.701(b)(1).\nId.\nId.\nIn addition to Rule 701, the SEC considered whether the Google option grants qualified under Section 4(2), which exempts certain private security offerings and Rule 506, which provides an exemption for options issued to certain accredited investors. Id.\nBowen v. Georgetown Univ. Hosp. , 488 U.S. 204, 208, 109 S.Ct. 468, 102 L.Ed.2d 493 (1988) (\"[A]dministrative rules will not be construed to have retroactive effect unless their language requires this result.\").\nDaniel , 439 U.S. at 569, 99 S.Ct. 790.\nDura Pharmaceuticals, Inc. v. Broudo , 544 U.S. 336, 341-42, 125 S.Ct. 1627, 161 L.Ed.2d 577 (2005) (internal citations omitted).\nGiancarlo v. UBS Fin. Servs., Inc. , 725 F. App'x 278 (5th Cir. 2018) (unpublished), cert denied , --- U.S. ----, 139 S. Ct. 199, 202 L.Ed.2d 123 (2018). As defendants note in their 28(j) letter to this court, Giancarlo was litigated in parallel with the instant action by the same counsel before the same district court. See Feb. 28, 2018 28(j) Letter.\nMarch 6, 2018 Response to 28(j) Letter.\nId.\nGiancarlo , 725 F. App'x at 284.\nId. at 286.\nId.\nWarren v. Goldinger Bros., Inc. , 414 A.2d 507, 509 (Del. 1980) (quoting Kilgore Seed Co. v. Lewin , 141 So. 2d 809, 810-11 (Fla. App. 1962) ).\nGiancarlo , 725 F. App'x at 283-84 (\"None of the allegations allude to profit sharing, or loss sharing.\") (citing N.S.N. Int'l Indus., N.V. v. E.I. DuPont De Nemours & Co., C.A. , No. 12902, 1994 WL 148271 (Del. Ch. Mar. 31, 1994) (finding no joint venture where agreement between parties did not contemplate loss sharing)).\nId. (citing Warren , 414 A.2d at 509 ); see also Janus Cap. Grp., Inc. v. First Derivative Traders , 564 U.S. 135, 145-46, 131 S.Ct. 2296, 180 L.Ed.2d 166 (2011) (\"declin[ing] th[e] invitation to disregard the corporate form\" where it was \"undisputed that the corporate formalities were observed\" and entities remained legally separate).\nId. at 284.\nGiancarlo , 725 F. App'x at 284 (\"Moreover, even a searching review of the relevant documents supports, at most, that Warburg and UBS AG had some insider knowledge of Enron's financial situation, as those are the defendants that participated in the transactions identified by Plaintiffs. Thus, Plaintiffs must show that Warburg or UBS AG owed them a duty of disclosure.\").\nGiancarlo , 725 F. App'x at 285 (\"The only defendant alleged to have 'communicated' with Plaintiffs is PaineWebber, and Plaintiffs have not sufficiently alleged that any person at PaineWebber had knowledge concerning Enron's financial manipulations. Thus, even if we accepted Plaintiffs' invitation to hold that NASD rules can impose a duty of disclosure for purposes of \u00a7 10(b) liability, Plaintiffs have not shown that any defendant violated such rules.\") (internal citations omitted).\n406 U.S. 128, 92 S.Ct. 1456, 31 L.Ed.2d 741 (1972).\nAffiliated Ute , 406 U.S. at 152-53, 92 S.Ct. 1456.\nId. at 153, 92 S.Ct. 1456.\nSee e.g. , Giancarlo , 725 F. App'x at 286 (\"Documents attached to the pleadings discuss the role of 'UBS Warburg AG' in several transactions and indicate that that 'UBS Warburg' was the 'joint lead manager of Credit Linked Notes for Enron.' Plaintiffs specify that their brokers were employees of PaineWebber. Plaintiffs do not argue that PaineWebber had any special knowledge of the market for Enron debt securities, and UBS AG's and Warburg's dealings with Enron cannot support that PaineWebber had a duty of disclosure.\").\nId. at 284 (citing Fin. Acquisition Partners LP v. Blackwell , 440 F.3d 278, 289 (5th Cir. 2006) ).\nFed. R. Civ. P. 15(a).\nS&W Enters. , 315 F.3d at 535.\nFed. R. Civ. P. 16(b)(4).\nS&W Enters. , 315 F.3d at 536 (citing Reliance Ins. Co. v. La. Land & Exploration Co. , 110 F.3d 253, 257 (5th Cir. 1997) ).\nGiancarlo , 725 F. App'x at 287-88.\nId. at 288.",
+        "type": "majority",
+        "author": "PATRICK E. HIGGINBOTHAM, Circuit Judge:"
+      }
+    ],
+    "attorneys": [
+      "Andy Tindel, Andy Tindel, Attorney & Counselor at Law, P.C., Tyler, TX, David Augustus, Dawn Renee Meade, Bonnie Spencer, Spencer Law Firm, Houston, TX, for Plaintiffs-Appellants.",
+      "Robert J. Giuffra, Jr., Esq., William Henry Wagener, Esq., Sullivan & Cromwell, L.L.P., New York, NY, Charles Rodney Acker, Ellen Bush Sessions, Norton Rose Fulbright US, L.L.P., Dallas, TX, Brendan Peter Cullen, Sullivan & Cromwell, L.L.P., Palo Alto, CA, for Defendants-Appellees."
+    ],
+    "corrections": "",
+    "head_matter": "Kevin LAMPKIN; Stephen Miller, individually and on behalf of all others similarly situated; Joe Brown; Frank Gittess; Terry Nelson; Dianne Swiber; Robert Ferrell, Plaintiffs-Appellants\nv.\nUBS FINANCIAL SERVICES, INCORPORATED, formerly known as UBS PaineWebber, Incorporated; UBS Securities, L.L.C., formerly known as UBS Warburg, L.L.C., Defendants-Appellees\nNo. 17-20608\nUnited States Court of Appeals, Fifth Circuit.\nFILED May 24, 2019\nAndy Tindel, Andy Tindel, Attorney & Counselor at Law, P.C., Tyler, TX, David Augustus, Dawn Renee Meade, Bonnie Spencer, Spencer Law Firm, Houston, TX, for Plaintiffs-Appellants.\nRobert J. Giuffra, Jr., Esq., William Henry Wagener, Esq., Sullivan & Cromwell, L.L.P., New York, NY, Charles Rodney Acker, Ellen Bush Sessions, Norton Rose Fulbright US, L.L.P., Dallas, TX, Brendan Peter Cullen, Sullivan & Cromwell, L.L.P., Palo Alto, CA, for Defendants-Appellees.\nBefore HIGGINBOTHAM, SMITH, and GRAVES, Circuit Judges."
+  },
+  "file_name": "0727-01",
+  "first_page_order": 727,
+  "last_page_order": 741
+}

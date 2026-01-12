@@ -1,0 +1,59 @@
+{
+  "id": 6017585,
+  "name": "McFadden v. United States",
+  "name_abbreviation": "McFadden v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5862",
+  "first_page": "940",
+  "last_page": "940",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 940"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.597,
+    "sha256": "34dc86168c362652dceb072ae7e2ef9226aea7ddeee14721cba3d7805086cd36",
+    "simhash": "1:05f3eaa32f95094e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McFadden v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5862.\nMcFadden v. United States."
+  },
+  "file_name": "0940-01",
+  "first_page_order": 962,
+  "last_page_order": 962
+}

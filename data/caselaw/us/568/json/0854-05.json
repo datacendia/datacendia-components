@@ -1,0 +1,59 @@
+{
+  "id": 12413657,
+  "name": "Walker v. United States",
+  "name_abbreviation": "Walker v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10653",
+  "first_page": "854",
+  "last_page": "854",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 854"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.732,
+    "sha256": "7ebfbf22e9c9f051075033c7c2df033c686cda8e36401371960fd7630aa257c4",
+    "simhash": "1:27eae2c14f81b11b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Walker v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10653.\nWalker v. United States."
+  },
+  "file_name": "0854-05",
+  "first_page_order": 930,
+  "last_page_order": 930
+}

@@ -1,0 +1,803 @@
+{
+  "id": 12518721,
+  "name": "POWER INTEGRATIONS, INC., Plaintiff-Appellee v. FAIRCHILD SEMICONDUCTOR INTERNATIONAL, INC., Fairchild Semiconductor Corporation, Fairchild (Taiwan) Corporation, Defendants-Appellants",
+  "name_abbreviation": "Power Integrations, Inc. v. Fairchild Semiconductor Int'l, Inc.",
+  "decision_date": "2018-07-03",
+  "docket_number": "2016-2691, 2017-1875",
+  "first_page": "965",
+  "last_page": "980",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "904 F.3d 965"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Fed. Cir.",
+    "id": 8955,
+    "name": "United States Court of Appeals for the Federal Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "358 F.3d 1371",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9298670
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1374"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/358/1371-01"
+      ]
+    },
+    {
+      "cite": "2017 WL 6550613",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2017,
+      "opinion_index": 0
+    },
+    {
+      "cite": "2018 WL 4503365",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2018,
+      "opinion_index": 0
+    },
+    {
+      "cite": "2017 WL 6550895",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2017,
+      "opinion_index": 0
+    },
+    {
+      "cite": "U.S. Patent No. 5,747,977",
+      "category": "laws:admin_filing",
+      "reporter": "U.S. Patent",
+      "opinion_index": 0
+    },
+    {
+      "cite": "843 F.3d 1315",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12174489
+      ],
+      "year": 2016,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/843/1315-01"
+      ]
+    },
+    {
+      "cite": "717 F.3d 1255",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3574780
+      ],
+      "weight": 2,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "1268"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/717/1255-01"
+      ]
+    },
+    {
+      "cite": "809 F.3d 1295",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4060184
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1301-02"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/809/1295-01"
+      ]
+    },
+    {
+      "cite": "107 F.3d 1543",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7646679
+      ],
+      "weight": 2,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "1552-53"
+        },
+        {
+          "page": "1552-53"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/107/0-41-01"
+      ]
+    },
+    {
+      "cite": "192 F.3d 1353",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11574572
+      ],
+      "weight": 2,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "1362"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/192/1353-01"
+      ]
+    },
+    {
+      "cite": "274 F.3d 1354",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9460762
+      ],
+      "weight": 2,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "1361"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/274/1354-01"
+      ]
+    },
+    {
+      "cite": "782 F.3d 1324",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6054332
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1338-40"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/782/1324-01"
+      ]
+    },
+    {
+      "cite": "56 F.3d 1538",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11344589
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "1549",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/56/1538-01"
+      ]
+    },
+    {
+      "cite": "694 F.3d 51",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3523807
+      ],
+      "weight": 10,
+      "pin_cites": [
+        {
+          "page": "67"
+        },
+        {
+          "page": "68"
+        },
+        {
+          "page": "68"
+        },
+        {
+          "page": "67"
+        },
+        {
+          "page": "69"
+        },
+        {
+          "page": "68"
+        },
+        {
+          "page": "68"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/694/0051-01"
+      ]
+    },
+    {
+      "cite": "235 U.S. 641",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3674038
+      ],
+      "weight": 3,
+      "year": 1915,
+      "pin_cites": [
+        {
+          "page": "648"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/235/0641-01"
+      ]
+    },
+    {
+      "cite": "35 U.S.C. \u00a7 284",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "580 F.3d 1301",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4057798
+      ],
+      "weight": 2,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "1336-37"
+        },
+        {
+          "page": "1336"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/580/1301-01"
+      ]
+    },
+    {
+      "cite": "632 F.3d 1292",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4087770
+      ],
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1318"
+        },
+        {
+          "page": "1320"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/632/1292-01"
+      ]
+    },
+    {
+      "cite": "773 F.3d 1201",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4316311
+      ],
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1226-27"
+        },
+        {
+          "page": "1226"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/773/1201-01"
+      ]
+    },
+    {
+      "cite": "111 U.S. 120",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3507364
+      ],
+      "weight": 3,
+      "year": 1884,
+      "pin_cites": [
+        {
+          "page": "121"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/111/0120-01"
+      ]
+    },
+    {
+      "cite": "122 F.3d 1019",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        302541
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "1027",
+          "parenthetical": "\"[S]tatements in the parent application must be confined to their proper context and properly acknowledge the distinctions between ... [the] claims.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/122/1019-01"
+      ]
+    },
+    {
+      "cite": "789 F.3d 1335",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4232454
+      ],
+      "year": 2015,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/789/1335-01"
+      ]
+    },
+    {
+      "cite": "138 F.3d 1448",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        256947
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "1457"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/138/1448-01"
+      ]
+    },
+    {
+      "cite": "U.S. Patent No. 6,462,971",
+      "category": "laws:admin_filing",
+      "reporter": "U.S. Patent",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "parenthetical": "\"the '971 patent\""
+        },
+        {
+          "parenthetical": "emphases in original"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "822 F.3d 1355",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4282646
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1365"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/822/1355-01"
+      ]
+    },
+    {
+      "cite": "460 F.3d 1349",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3674084
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "1363"
+        },
+        {
+          "page": "1364"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/460/1349-01"
+      ]
+    },
+    {
+      "cite": "122 S.Ct. 1831",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        156783
+      ],
+      "year": 2002,
+      "opinion_index": 0,
+      "case_paths": [
+        "/fed-cl/52/1831-01"
+      ]
+    },
+    {
+      "cite": "535 U.S. 722",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        355200
+      ],
+      "weight": 2,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "733-34"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/535/0722-01"
+      ]
+    },
+    {
+      "cite": "742 F.3d 998",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4072523
+      ],
+      "weight": 6,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1003"
+        },
+        {
+          "page": "1003-04"
+        },
+        {
+          "page": "1004"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/742/0998-01"
+      ]
+    },
+    {
+      "cite": "340 F.3d 1314",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9103004
+      ],
+      "weight": 2,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "1320"
+        },
+        {
+          "page": "1320"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/340/1314-01"
+      ]
+    },
+    {
+      "cite": "543 F.3d 683",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3824458
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "694"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/543/0683-01"
+      ]
+    },
+    {
+      "cite": "628 F.3d 1359",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4075547
+      ],
+      "weight": 2,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "1376"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/628/1359-01"
+      ]
+    },
+    {
+      "cite": "381 F.3d 1371",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9205535
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1381"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/381/1371-01"
+      ]
+    },
+    {
+      "cite": "778 F.3d 1255",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6051487
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1266"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/778/1255-01"
+      ]
+    },
+    {
+      "cite": "844 F.3d 945",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12177247
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "950"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/844/0945-01"
+      ]
+    },
+    {
+      "cite": "521 F.3d 1351",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3736972
+      ],
+      "weight": 2,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "1359"
+        },
+        {
+          "page": "1359"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/521/1351-01"
+      ]
+    },
+    {
+      "cite": "569 F.3d 1335",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3661243
+      ],
+      "weight": 2,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "1345",
+          "parenthetical": "finding that where claim language permits an operable construction, the inoperable construction is wrong"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/569/1335-01"
+      ]
+    },
+    {
+      "cite": "135 S.Ct. 831",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12594237
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "841"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/135/0831-01"
+      ]
+    },
+    {
+      "cite": "415 F.3d 1303",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8948489
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1312-13",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/415/1303-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1295",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "767 F.3d 1308",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4203704
+      ],
+      "weight": 8,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1329"
+        },
+        {
+          "page": "1327"
+        },
+        {
+          "page": "1329"
+        },
+        {
+          "page": "1326"
+        },
+        {
+          "page": "1326"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/767/1308-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1400,
+    "char_count": 42785,
+    "pagerank": {
+      "raw": 5.530310538206097e-08,
+      "percentile": 0.34873538959221173
+    },
+    "sha256": "e444b4978e84c6b746ec1d80d6f105c52bcae130a2ca931a1090a8c366868892",
+    "simhash": "1:9a68e3376dbd5550",
+    "word_count": 6615
+  },
+  "last_updated": "2024-02-27T18:45:53.632327+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Dyk, Clevenger, and Chen, Circuit Judges."
+    ],
+    "parties": [
+      "POWER INTEGRATIONS, INC., Plaintiff-Appellee\nv.\nFAIRCHILD SEMICONDUCTOR INTERNATIONAL, INC., Fairchild Semiconductor Corporation, Fairchild (Taiwan) Corporation, Defendants-Appellants"
+    ],
+    "opinions": [
+      {
+        "text": "Dyk, Circuit Judge.\nPower Integrations, Inc. owns U.S. Patent Nos. 6,212,079 (\"the '079 patent\") and 6,538,908 (\"the '908 patent\"). Power Integrations sued Fairchild Semiconductor Corporation and Fairchild (Taiwan) Corporation (collectively \"Fairchild\") for infringement. A jury found Fairchild literally infringed claims 31, 34, 38, and 42 of the '079 patent and infringed claims 26 and 27 of the '908 patent under the doctrine of equivalents. In a second trial, a jury awarded damages of roughly $140 million, finding that the entire market value rule applied in calculating damages for infringement of the '079 patent. The district court denied Fairchild's motions for judgment as a matter of law. Fairchild appeals.\nWe affirm the district court's judgments of infringement. We conclude that the entire market value rule cannot be used here to calculate damages. We vacate the damages award and remand for further proceedings.\nBACKGROUND\nI\nPower Integrations and Fairchild are both manufacturers of power supply controller chips. Power supply controller chips are integrated circuits used in power supplies, such as chargers for electronic devices. These power supplies transform alternating current (\"AC\") electricity, which comes from an AC outlet, into direct current (\"DC\") electricity, which is needed to power cell phones, laptops, and other electronic devices.\nAfter AC electricity has been converted to DC electricity, a switching regulator directs the transistor in the circuit when to turn on and off in order to provide the desired amount of power to the electronic device. The electronic device is referred to as the \"DC output\" because it receives the DC current. The transistor turns on and off at defined intervals. For example, if there is a need for power at the DC output, the switching regulator will direct the transistor to stay \"on\" for a longer period of time so more power will flow to the DC output.\nThe controversy here involves the '079 and '908 patents owned by Power Integrations. The asserted claims of the '079 patent cover switching regulators. Prior-art switching regulators were inefficient during periods when the DC output required little power. During these low power periods, prior-art switching regulators would skip on/off cycles to decrease the DC power provided; the power remained off during the skipped cycle. However, skipping cycles created loud noise and delivered power in an intermittent fashion. The '079 patent addressed this problem by reducing the frequency of on/off cycles rather than by skipping cycles altogether. The frequency of on/off cycles is determined by feedback signals. Thus, the switching frequency varies based on the feedback signal. However, for a certain range of feedback signals, the frequency of the on/off cycles does not change. Each of the asserted claims requires a \"fixed switching frequency for a first range of feedback signals.\"\nThe '908 patent covers a \"power supply controller,\" which is an integrated circuit that can perform a variety of power-regulation functions. '908 pat., col. 1, ll. 32-33, 52-60. Each of the asserted claims requires a power supply controller comprising \"a multi-function circuit coupled to receive a signal at a multi-function terminal for adjusting a current limit of a power switch.\" Id ., col. 25, l. 63-col. 26, l. 14. The current limit is a value of current that can be used by the circuit to turn off the power switch when the amount of current passing through the power switch reaches the threshold value.\nII\nPower Integrations filed suit against Fairchild, alleging infringement of various claims of the '079 patent and the '908 patent. In February and March 2014, the district court held a sixteen-day jury trial. The jury found Fairchild literally infringed claims 31, 34, 38, and 42 of the '079 patent and infringed claims 26 and 27 of the '908 patent under the doctrine of equivalents. The jury awarded Power Integrations $105 million in reasonable royalty damages. Fairchild sought judgment as a matter of law that it did not infringe claims of the '079 or '908 patents, or in the alternative a new trial, which the district court denied.\nSix months after the jury verdict, and while the case was still pending in the district court, our court decided VirnetX, Inc. v. Cisco Systems, Inc. , 767 F.3d 1308, 1329 (Fed. Cir. 2014), which concerned the general rule that a patentee seeking damages based on an infringing product with both patented and unpatented features must \"apportion damages only to the patented features.\" VirnetX explained that simply identifying the smallest salable unit is not necessarily sufficient to satisfy a patentee's obligation to apportion for multi-component products with significant unpatented features. Id. Because Power Integrations' royalty calculation in the first trial did not apportion beyond the \"smallest salable unit\" and Power Integrations had disclaimed reliance on the entire market value rule, the district court granted a new trial on the issue of damages in light of VirnetX .\nThe district court held a second damages trial in December 2015. The district court granted a Daubert motion to exclude Power Integrations' expert testimony based on apportionment, but allowed its expert to present testimony based on the entire market value rule. The jury awarded $139.8 million in damages, based on damages testimony that relied solely on the entire market value rule. Fairchild then moved for judgment as a matter of law, or in the alternative a new trial, arguing that the damages award was not supported by substantial evidence and that the use of the entire market value rule was improper. The district court denied this motion.\nFairchild now appeals the determination of literal infringement of the '079 patent, the determination of infringement under doctrine of equivalents of the '908 patent, and the damages award. We have jurisdiction pursuant to 28 U.S.C. \u00a7 1295(a)(1).\nDISCUSSION\nI\nWe first address infringement of the '079 patent. The key issue here is whether the accused products have a \"fixed switching frequency for a first range of feedback signal values.\" On appeal, Fairchild does not dispute that the other claim limitations were satisfied. The jury found that all accused products infringed the asserted claims, and the district court denied judgment as a matter of law of no infringement. We review the denial of a motion for judgment as a matter of law de novo. We review a jury determination of infringement for substantial evidence.\nIn a Markman order, the district court construed \"fixed switching frequency\" to mean \"[a] non-varying number of switching cycles per second.\" J.A. 2142. On appeal, Fairchild disputes: (1) whether all accused products include a \"fixed\" switching frequency because the frequency varies due to operating conditions, and (2) whether a particular subset of accused products, known as \"frequency-hopping\" products, has a \"fixed\" frequency. This second issue turns primarily on claim construction-whether the district court properly construed \"fixed frequency\" to include a per second limitation. But Fairchild contends that even if the claim construction were correct, there was not substantial evidence to support the jury verdict.\nClaim terms are given their ordinary and customary meaning, which is the meaning the term would have to a person of ordinary skill in the art at the time of the invention. Phillips v. AWH Corp. , 415 F.3d 1303, 1312-13 (Fed. Cir. 2005) (en banc). We review claim construction de novo, except for subsidiary facts based on extrinsic evidence, which we review for clear error. Teva Pharms. USA, Inc. v. Sandoz, Inc. , --- U.S. ----, 135 S.Ct. 831, 841, --- L.Ed.2d ---- (2015).\nA\nFairchild argues that the jury verdict is not supported by substantial evidence because none of the Fairchild products has a \"fixed switching frequency\" according to the language of the claims or a \"non-varying frequency\" under the district court's claim construction, because even during \"fixed\" frequency mode, the products operate with 5% to 15% variance in frequency. This variance is due to operating conditions, such as temperature and input voltage. The question is whether this variability renders the products non-infringing.\nFairchild argues that the term \"fixed\" under the district court's construction of \"non-varying number of switching cycles per second\" requires an absolutely fixed frequency with no variance, even due to operating conditions. The district court, Fairchild asserts, rejected a construction of \"fixed\" frequency that permits natural variation when it rejected Power Integration's proposed construction of \"fixed switching frequency\" as \"the target switching frequency is intended to be substantially fixed.\" J.A. 2125. Rather, the court adopted \"fixed\" as meaning \"non-varying.\" J.A. 2142.\nFairchild's argument is unpersuasive. The district court's construction of \"fixed switching frequency\" as \"non-varying\" does not exclude the possibility of natural variation because doing so would impermissibly render the claims inoperable. See Ecolab, Inc. v. FMC Corp. , 569 F.3d 1335, 1345 (Fed. Cir. 2009) (finding that where claim language permits an operable construction, the inoperable construction is wrong). Here, the parties offered expert testimony to address the knowledge of persons of ordinary skill in the art. The expert testimony demonstrated that no real-world power supply controllers could operate with an absolutely fixed, or non-varying, frequency. Indeed, Fairchild seems to concede that there is always some variation in frequency due to operating conditions. Moreover, technical marketing documents from products sold by Fairchild, Power Integrations, and third parties label these controllers as \"fixed frequency\" products despite the undisputed, minor variations in frequency. Since the term \"fixed\" is not unambiguously defined in the claims, the fact that power supply controllers cannot operate without any variation supports that the plain and ordinary meaning of \"fixed\" encompasses minor environmental variations.\nThus, the jury could have properly concluded that the terms \"fixed frequency\" and \"non-varying\" left open the possibility for minor frequency variations due to operating conditions. A reasonable jury could have found that the accused products have a \"fixed\" or \"non-varying\" frequency despite slight variance due to operating conditions.\nB\nFairchild alternatively argues that there was no basis for finding that the \"fixed\" frequency limitation was satisfied for a subset of the accused products because the Fairchild \"frequency-hopping\" products intentionally vary frequency in order to reduce electromagnetic interference. The intentional varying of frequency is referred to as \"jittering.\" For example, one Fairchild frequency-hopping product jittered its switching frequency from 62 kilohertz to 68 kilohertz, around a center frequency of 65 kilohertz. Even though the frequency varies in any given microsecond interval, the average number of cycles per second is 65,000.\nOn appeal, Fairchild argues that the district court erred in construing \"fixed switching frequency\" as a \"non-varying number of switching cycles per second \" rather than looking to overall variation.\nThe district court construed claim terms in a series of Markman orders in 2011 and 2012-two years before trial. Power Integrations proposed that \"fixed switching frequency\" be construed to mean \"the target switching frequency is intended to be substantially fixed; but does not preclude the presence of a frequency jittering circuit.\" J.A. 2125. Fairchild proposed that: \"the switching frequency does not vary.\" Id. The district court then construed the term to mean a \"non-varying number of switching cycles per second,\" even though neither party requested the \"per second\" limitation. J.A. 2142.\nAlthough Fairchild later proposed further construction for other claim terms, Fairchild never objected to the \"per second\" construction and did not seek rehearing or supplemental construction. At trial, Fairchild did not object to the district court's instructing the jury using the \"per second\" language. Even in its post-trial motion, Fairchild did not argue that the court's construction was incorrect. The claim construction issue is argued for the first time on appeal.\nPower Integrations argues that because Fairchild did not seek additional claim construction at the district court and chose to litigate this issue as a factual dispute about infringement, Fairchild has waived its \"per second\" claim construction argument. Fairchild responds that it did not waive its claim construction argument because the claim construction it proposes now is the same as the claim construction it proposed during the Markman hearing, which did not contain the \"per second\" limitation.\nWe have held that a party does not waive a claim construction argument by failing to object during trial when the construction proposed on appeal is the same as the construction proposed in a Markman hearing. O2 Micro Int'l Ltd. v. Beyond Innovation Tech. Co. , 521 F.3d 1351, 1359 (Fed. Cir. 2008) ; see also D'Agostino v. Mastercard Int'l Inc. , 844 F.3d 945, 950 (Fed. Cir. 2016) ; In re Pabst Licensing Dig. Camera Patent Litig. , 778 F.3d 1255, 1266 (Fed. Cir. 2015). \"When the claim construction is resolved pre-trial, and the patentee presented the same position in the Markman proceeding as is now pressed, a further objection to the district court's pre-trial ruling may indeed have been not only futile, but unnecessary.\" Cardiac Pacemakers, Inc. v. St. Jude Med. , Inc. , 381 F.3d 1371, 1381 (Fed. Cir. 2004). However, this rule only applies when \"issues were fully litigated and decided at the Markman stage of the litigation.\" O2 Micro , 521 F.3d at 1359.\nThe problem for Fairchild is that the issue of the appropriate time interval over which to measure frequency was not fully litigated-or even raised as an issue in dispute-at the Markman stage of this proceeding. During the Markman proceedings, there was no dispute about the time interval. Neither Fairchild nor Power Integrations proposed a construction with the \"per second\" limitation. The district court added this limitation to the construction on its own without providing a clear explanation. Because the district court had not specifically addressed this issue in its claim construction order, in order to preserve an objection to the district court's claim construction, Fairchild was required to raise the issue before submission to the jury. Yet even when this dispute arose at trial, Fairchild did not ask the district court to modify or clarify its claim construction with regard to \"per second,\" nor did it object to the jury instructions. Instead, Fairchild waited until this appeal to argue that the district court's claim construction was erroneous.\nIt is well-settled that a party cannot reserve a new claim-construction argument for the post-trial motion stage of litigation. Lazare Kaplan Int'l, Inc. v. Photoscribe Techs., Inc. , 628 F.3d 1359, 1376 (Fed. Cir. 2010) ; Broadcom Corp. v. Qualcomm Inc. , 543 F.3d 683, 694 (Fed. Cir. 2008) ; Hewlett-Packard Co. v. Mustek Sys., Inc. , 340 F.3d 1314, 1320 (Fed. Cir. 2003).\nThe present situation is similar to Solvay S.A. v. Honeywell International, Inc. , 742 F.3d 998 (Fed. Cir. 2014). In that case, the district court construed a claim term \"isolating\" to require removing two chemicals, HFC-245fa and HCl, from a chemical reaction. Id. at 1003. During claim construction, the parties did not raise and the district court did not address the issue of whether the two chemicals could return to the reactor after initially being removed. Id. at 1003-04. However, during the trial, a disagreement arose between the parties as to whether the chemicals had to be permanently removed. The parties argued the issue at trial, and the district court allowed jury instructions that did not necessarily require permanent removal. Id. at 1004. When the patentee argued on appeal that the proper claim construction required the chemicals to be permanently removed, we held that \"[b]ecause [the patentee] failed to object to the court's construction or jury instruction with respect to the term 'isolating,' it waived the issue and cannot now raise novel arguments to redefine the scope of [the] claim.\" Id. In particular, we noted that the patentee \"did not ask the district court to modify the claim construction or accompanying jury instruction.\" Id. By failing either to request that the district court modify or clarify its claim construction earlier in the litigation proceedings or to object to the jury instructions, Fairchild has waived this new claim-construction argument.\nBecause Fairchild has waived its \"per second\" claim-construction objection, we only review whether substantial evidence supported the jury verdict under the court's construction. See Lazare , 628 F.3d at 1376 ; Hewlett-Packard , 340 F.3d at 1320. Power Integrations' expert, Dr. Kelley, testified that the accused products operate with a non-varying number of cycles per second for a range of operation. Dr. Kelley testified that the frequency-hopping products meet the limitation of a \"non-varying number of switching cycles per second \" because even though the frequency varies over microsecond intervals, the aggregate number of pulses would not vary over each one-second interval. Based on this testimony, a reasonable jury could have concluded that the accused products operate with a \"fixed switching frequency\" for a certain range of feedback signals under the district court's construction. Thus, substantial evidence supports the jury's verdict of infringement of the '079 patent for all of the accused products.\nII\nNext, we address infringement of the '908 patent under the doctrine of equivalents. The '908 patent is directed towards a power supply controller, where an integrated circuit can perform multiple functions within a single terminal. Claim 26 requires:\n26. A power supply controller circuit, comprising:\na multi-function circuit coupled to receive a signal at a multi-function terminal for adjusting a current limit of a power switch, the multi-function circuit to generate a current limit adjustment signal in response to the signal; and\na control circuit coupled to receive the current limit adjustment signal, the control circuit coupled to adjust the current limit of a current through the power switch in response to the current limit adjustment signal.\n'908 patent, col. 25 l. 63-col. 26, l. 7 (emphasis added). Claim 27, the only other asserted claim, depends from claim 26.\nThe dispute focuses on the \"current limit\" term. There is no dispute about claim construction. The district court construed \"current limit\" as \"a value of current that can be used by the control circuit to turn off the power switch when the amount of current passing through the power switch reaches the threshold.\" J.A. 2155.\nThe accused products use a value of voltage, rather than a value of current, as the signal to implement the current limit, so there could not be literal infringement of this limitation. Fairchild moved in limine to preclude Power Integrations from arguing infringement under the doctrine of equivalents based on prosecution-history estoppel. Fairchild argued that prosecution-history estoppel existed because during prosecution of a related patent, Power Integrations explicitly distinguished voltage from current and therefore could not now assert voltage as an equivalent. The district court denied the motion in limine because the prosecution history was for a different term in a different patent, allowing Power Integrations to argue voltage as an equivalent for monitoring current.\nAt trial, Power Integrations' expert testified that a value of voltage qualifies as a \"value of current\" because under Ohm's Law, current is equal to voltage divided by resistance. J.A. 572-73, 901. The jury then found infringement under the doctrine of equivalents, and the district court denied judgment as a matter of law. On appeal, Fairchild argues that Power Integrations' equivalents theory is barred by prosecution-history estoppel.\nProsecution-history estoppel limits the application of the doctrine of equivalents. If a patentee surrenders certain subject matter during prosecution, the patentee is then barred from using the doctrine of equivalents to recover for infringement based on that same subject matter. Festo Corp. v. Shoketsu Kinzoku Kogyo Kabushiki Co. , 535 U.S. 722, 733-34, 122 S.Ct. 1831, 152 L.Ed.2d 944 (2002). Prosecution-history estoppel can occur either when the patentee makes a narrowing amendment to the claim or surrenders claim scope through argument to the patent examiner. Conoco, Inc. v. Energy & Envtl. Int'l, L.C. , 460 F.3d 1349, 1363 (Fed. Cir. 2006). Here there was no claim amendment, so Fairchild relies on argument-based estoppel. To invoke argument-based estoppel, the prosecution history must evince a \"clear and unmistakable surrender of the subject matter.\" Id . at 1364. The application of prosecution-history estoppel is a question of law that we review de novo. Intendis GMBH v. Glenmark Pharm. Inc., USA , 822 F.3d 1355, 1365 (Fed. Cir. 2016).\nFairchild argues for argument-based estoppel based on a statement that Power Integrations made during prosecution of U.S. Patent No. 6,462,971 (\"the '971 patent\"), which is the parent to the '908 patent and shares a specification. The relevant claim of the '971 patent is directed to:\n[a] power supply controller circuit, comprising a current input circuit coupled to receive a current representative of an input voltage, the current input circuit to generate an enable/disable signal when the current crosses a threshold having a hysteresis of greater than or equal to zero, the power supply controller to activate and deactivate the power supply in response to the enable/disable signal.\n'971 pat., col. 23, ll. 30-36 (emphasis added).\nThe examiner rejected the claims based on the Agiman reference. In an effort to overcome the rejection, Power Integrations argued that \"Agiman's circuit monitors voltage rather than current.\" J.A. 2283 (emphasis in original). Power Integrations then urged that \"Agiman fails to disclose ... a current input circuit coupled to receive a current representative of an input voltage, the current input circuit to generate an enable/disable signal when the current crosses a threshold.\" Id. (emphases in original). Fairchild argues that this distinction also applies to the \"current limit\" term of the '908 patent.\nTo determine whether prosecution-history estoppel applies, \"the relevant inquiry is whether a competitor would reasonably believe that the applicant surrendered the relevant subject matter.\" Conoco , 460 F.3d at 1364 (quoting Cybor Corp. v. FAS Techs., Inc. , 138 F.3d 1448, 1457 (Fed. Cir. 1998), abrogated on other grounds by Teva Pharms. USA, Inc. v. Sandoz, Inc. , 789 F.3d 1335 (Fed. Cir. 2015) ). When considering the prosecution history of a parent application to construe claim terms, we consider differences in the language and context of different claims. See Abtox, Inc. v. Exitron Corp. , 122 F.3d 1019, 1027 (Fed. Cir. 1997) (\"[S]tatements in the parent application must be confined to their proper context and properly acknowledge the distinctions between ... [the] claims.\").\nHere, the claim language on its face is different than the language of the claims to which the prosecution argument was directed. Claim 26 of the '908 patent covers \"a multi-function circuit coupled to receive a signal at a multi-function terminal for adjusting a current limit of a power switch, the multi-function circuit to generate a current limit adjustment signal in response to the signal.\" '908 pat., col. 25 l. 63-col. 26, l. 7 (emphasis added). The current limit in the '908 patent is externally adjustable and helps prevent a power switch from overloading due to excessive current flow. The '971 patent, on the other hand, claims a \"current input circuit coupled to receive a current representative of an input voltage, the current input circuit to generate an enable/disable signal when the current crosses a threshold.\" '971 pat., col. 23, ll. 30-33 (emphasis added). The functions performed in the two patents are related but different. The '908 patent claims receiving a signal to adjust the current limit, which in turn determines when to turn the power supply on and off. The '971 patent claims receiving a signal that directly turns the power supply on and off. Importantly, the claim in the '971 patent specifically distinguishes voltage from current, claiming \"a current representative of an input voltage.\" The '908 claim, in contrast, does not distinguish between current and voltage within the claim. It merely describes a \"signal\" to adjust the current limit.\nOn appeal, Fairchild provides only a cursory argument of why the statement in the '971 patent prosecution history should apply the embodiments claimed in the '908 patent. Fairchild failed to establish that the prosecution history is sufficiently clear as to create an estoppel. We conclude that the district court correctly determined that prosecution-history estoppel does not apply, and affirm the finding of infringement as to the asserted claims of the '908 patent.\nIII\nLastly, we address damages. The jury awarded Power Integrations $139.8 million in the form of a reasonable royalty. The jury's reasonable royalty covered the three types of losses Power Integrations' damages expert Dr. Putnam testified the parties would anticipate during a hypothetical negotiation: lost sales, reduction in price due to competition, and lost licensing fees. The district court denied Fairchild's motion for judgment as a matter of law or in the alternative a new trial with respect to damages. We agree with Fairchild that the district court should have granted the new trial motion.\nA patentee is only entitled to a reasonable royalty attributable to the infringing features. The patentee \"must in every case give evidence tending to separate or apportion the defendant's profits and the patentee's damages between the patented feature and the unpatented features.\" Garretson v. Clark , 111 U.S. 120, 121, 4 S.Ct. 291, 28 L.Ed. 371 (1884). In accordance with Garretson , we have required that royalties be apportioned between the infringing and non-infringing features of the product. Ericsson, Inc. v. D-Link Sys., Inc. , 773 F.3d 1201, 1226-27 (Fed. Cir. 2014) ; VirnetX , 767 F.3d at 1326 ; Uniloc USA, Inc. v. Microsoft Corp. , 632 F.3d 1292, 1318 (Fed. Cir. 2011) ; Lucent Techs., Inc. v. Gateway, Inc. , 580 F.3d 1301, 1336-37 (Fed. Cir. 2009). \"As a substantive matter, it is the 'value of what was taken' that measures a 'reasonable royalty' under 35 U.S.C. \u00a7 284.\" Ericsson , 773 F.3d at 1226 (quoting Dowagiac Mfg. v. Minn. Moline Plow Co. , 235 U.S. 641, 648, 35 S.Ct. 221, 59 L.Ed. 398 (1915) ). And in the context of a utility patent, it is only the patented technology that is taken from the owner, so the value to be determined is only the value that the infringing features contribute to the value of an accused product. Id .\nUndertaking an apportionment analysis where reasonable royalties are sought generally requires a determination of the royalty base to which the royalty rate will be applied. We have articulated that, where multi-component products are accused of infringement, the royalty base should not be larger than the smallest salable unit embodying the patented invention. We have cautioned against reliance on use of the entire market value of a multi-component product that includes a patented component because it \"cannot help but skew the damages horizon for the jury, regardless of the contribution of the patented component to this revenue.\" Uniloc , 632 F.3d at 1320. \"Where small elements of multi-component products are accused of infringement, calculating a royalty on the entire product carries a considerable risk that the patentee will be improperly compensated for non-infringing components of that product.\" LaserDynamics v. Quanta Computer, Inc. , 694 F.3d 51, 67 (C.A.Fed.2012). Admission of evidence of the entire market value \"only serve[s] to make a patentee's proffered damages amount appear modest by comparison, and to artificially inflate the jury's damages calculation beyond that which is 'adequate to compensate for the infringement.' \" Id. at 68 (quoting 35 U.S.C. \u00a7 284 ). Even when a damages theory relies on the smallest salable unit as the basis for calculating the royalty, the patentee must estimate what portion of that smallest salable unit is attributable to the patented technology when the smallest salable unit itself contains several non-infringing features. VirnetX , 767 F.3d at 1327.\nThe damages verdict here rests on Power Integrations' reliance on a demanding alternative to our general rule of apportionment, the entire market value rule.\nId .\"The entire market value rule allows for the recovery of damages based on the value of an entire apparatus containing several features, when the feature patented constitutes the basis for consumer demand.\" Lucent Techs., Inc. v. Gateway, Inc. , 580 F.3d 1301, 1336 (Fed. Cir. 2009) ; see also Rite-Hite Corp. v. Kelley Co. , 56 F.3d 1538, 1549 (Fed. Cir. 1995) (en banc). As we have explained, \"[t]he law requires patentees to apportion the royalty down to a reasonable estimate of the value of its claimed technology,\" unless it can \"establish that its patented technology drove demand for the entire product.\" VirnetX , 767 F.3d at 1329. \"[S]trict requirements limiting the entire market value exception ensure that a reasonable royalty 'does not overreach and encompass components not covered by the patent.' \" Id. at 1326 (quoting LaserDynamics , 694 F.3d at 70 ).\nIf the product has other valuable features that also contribute to driving consumer demand-patented or unpatented-then the damages for patent infringement must be apportioned to reflect only the value of the patented feature. This is so whenever the claimed feature does not define the entirety of the commercial product. In some circumstances, for example, where the other features are simply generic and/or conventional and hence of little distinguishing character, such as the color of a particular product, it may be appropriate to use the entire value of the product because the patented feature accounts for almost all of the value of the product as a whole. See AstraZeneca AB v. Apotex Corp. , 782 F.3d 1324, 1338-40 (Fed. Cir. 2015).\nPower Integrations' royalty rate is premised on the '079 patent 's frequency reduction feature as driving consumer demand for Fairchild's controller chips. To support this contention, Power Integrations provided evidence that the '079 patent ed frequency reduction feature was essential to many customers, as it allowed the products to meet the federal government's Energy Star program. In addition, Power Integrations provided evidence that some customers asked for the '079 feature, that products with the '079 feature outsold other products, and that technical marketing materials promoted the '079 feature. Both parties, however, agreed that the accused products contained other valuable features as well. Power Integrations presented no evidence about the effect of those features on consumer demand or the extent to which those features were responsible for the products' value. Power Integrations did not seek a separate jury determination as to damages for infringement of the asserted claims of the '908 patent, and it is clear that the jury calculated damages only for the '079 patent.\nIn its JMOL motion, Fairchild argued that the evidence presented by Power Integrations was insufficient as a matter of law to invoke the entire market value rule, pointing to our decision in LaserDynamics . The district court noted that three prior cases relied on evidence that \" LaserDynamics ... arguably would find inadequate to support EMVR,\" and that the evidence presented by Power Integrations was comparable to the evidence in the prior cases. J.A. 26; see Bose Corp. v. JBL, Inc. , 274 F.3d 1354, 1361 (Fed. Cir. 2001) ; Tec Air, Inc. v. Denso Mfg. Mich. Inc. , 192 F.3d 1353, 1362 (Fed. Cir. 1999) ; Fonar Corp. v. Gen. Elec. Co. , 107 F.3d 1543, 1552-53 (Fed. Cir. 1997).\nDespite the district court's suggestion to the contrary, there is no conflict between LaserDynamics and these earlier cases, and subsequent cases have relied on LaserDynamics . See VirnetX , 767 F.3d at 1326-27 ; Commonwealth Sci. & Indus. Research Org. v. Cisco Sys., Inc. , 809 F.3d 1295, 1301-02 (Fed. Cir. 2015) ;\nVersata Software, Inc. v. SAP Am., Inc. , 717 F.3d 1255, 1268 (Fed. Cir. 2013). LaserDynamics discussed how a patentee can prove that a patented feature forms the basis for consumer demand in the context of multi-component products. There we explained that \"[i]t is not enough to merely show that the [patented feature] is viewed as valuable, important, or even essential to the use of the [infringing product].\" LaserDynamics, 694 F.3d at 68. Moreover, \"proof that consumers ... choose the [infringing product] having the [patented] functionality says nothing as to whether the presence of that functionality is what motivates customers to buy [an infringing product] in the first place.\" Id. None of the earlier cases that the district court cited discussed other valuable features that made the application of the entire market value rule inappropriate. See Bose , 274 F.3d at 1361 ; Tec Air , 192 F.3d at 1362 ; Fonar , 107 F.3d at 1552-53. These cases merely considered whether a patented feature formed the basis for consumer demand and do not conflict with the legal test articulated in LaserDynamics , which is binding.\nAs LaserDynamics, Versata, and VirnetX held, the entire market value rule is appropriate only when the patented feature is the sole driver of customer demand or substantially creates the value of the component parts. LaserDynamics , 694 F.3d at 67 ; Versata , 717 F.3d at 1268 ; VirnetX , 767 F.3d at 1326. The burden of proof in this respect is on the patent holder. LaserDynamics , 694 F.3d at 67. The question is whether the accused product, compared to other products in the same field, has features that would cause consumers to purchase the products beyond the patented feature, i.e., valuable features. Where the accused infringer presents evidence that its accused product has other valuable features beyond the patented feature, the patent holder must establish that these features do not cause consumers to purchase the product. A patentee may do this by showing that the patented feature \"alone motivates customers to purchase [the infringing product]\" in the first place. See id. at 69. But when the product contains multiple valuable features, it is not enough to merely show that the patented feature is viewed as essential, that a product would not be commercially viable without the patented feature, or that consumers would not purchase the product without the patented feature. Id. at 68. When the product contains other valuable features, the patentee must prove that those other features do not cause consumers to purchase the product.\nHere, the power supply controllers had other valuable features, such as jittering. The district court noted that \"there is evidence in the record that other features are important and are highlighted by the respective parties\" and that \"there is no question that ... there are other valuable features.\" J.A. 1764. In fact, Power Integrations sought infringement damages from Fairchild on the jittering feature in these same products in a separate lawsuit based on different patents, and we affirmed the judgment of infringement. See Power Integrations, Inc. v. Fairchild Semiconductor Int'l, Inc. , 843 F.3d 1315 (Fed. Cir. 2016). Moreover, many of Fairchild's technical marketing documents specifically mention the jittering feature and other features in addition to the '079 patent ed feature. There is no proof that these features, including jittering, did not affect consumer demand. Without such proof, Power Integrations did not meet its burden to show that the patented feature was the sole driver of consumer demand, i.e., that it alone motivated consumers to buy the accused products.\nBecause the evidence presented by Power Integrations was insufficient as a matter of law to invoke the entire market value rule, we vacate the award of damages and remand for a new trial. In light of this disposition, we need not address Fairchild's other arguments about the sufficiency of the reasonable-royalty evidence.\nCONCLUSION\nWe affirm the judgment of infringement of the asserted claims of the '079 and the '908 patents. We vacate the damages award and remand for further proceedings consistent with this opinion.\nAFFIRMED-IN-PART, VACATED-IN-PART, REMANDED\nCOSTS\nCosts to neither party.\nFairchild counterclaimed for infringement of U.S. Patent No. 5,747,977. The jury found that Power Integrations did not infringe this patent, and the district court entered judgment consistent with the jury verdict. This aspect of the judgment has not been appealed.\nAll of the asserted claims in this proceeding have been found unpatentable in two IPR proceedings. Those proceedings are currently pending on appeal to this court. See Semiconductor Components Indus., LLC v. Power Integrations, Inc. , IPR No. 2016-00809, 2017 WL 6550895 (P.T.A.B. Dec. 22, 2017), appeal filed No. 18-1607, 2018 WL 4503365 (Fed. Cir. Feb. 26, 2018) ; Semiconductor Components Indus., LLC v. Power Integrations, Inc. , IPR No. 2016-00995, 2017 WL 6550613 (P.T.A.B. Dec. 21, 2017), appeal filed No. 18-1602 (Fed. Cir. Feb. 23, 2018).\nClaim 31, which is representative, reads in full:\n31. A switching regulator, comprising: a power switch coupled between first and second terminals, the first terminal to be coupled to an energy transfer element of a power supply and the second terminal to be coupled to a supply rail of the power supply, and\na control circuit coupled to a third terminal and the power Switch, the third terminal to be coupled to an output of the power supply, the control circuit coupled to generate a feedback signal responsive to the output of the power supply, the control circuit coupled to switch the power switch in response to the feedback signal, the control circuit coupled to switch the power switch at a fixed switching frequency for a first range of feedback signal values, the control circuit coupled to vary a switching frequency of the power switch without skipping cycles in response to the feedback signal for a second range of feedback signal values, wherein the control circuit comprises:\na feedback signal circuit coupled to the third terminal, the feedback signal circuit coupled to generate the feedback signal; and\na pulse width modulator circuit coupled to switch the power switch in response to the feedback signal, wherein the first and second ranges of the feedback signal correspond to first and second ranges of on-time values of a drive signal generated by the pulse width modulator circuit to switch the power switch.\n'079 patent, Ex Parte Reexamination Certificate, col. 2, ll. 4-32.\nFairchild also argues that the term \"fixed\" cannot include any variations due to operating conditions based on statements made by Power Integrations during the reexamination about a particular prior art reference, the Zhou reference. However, this argument is waived because Fairchild did not raise the prosecution history concerning the Zhou prior art as a claim construction argument before the district court. Moreover, the Zhou reference did not disclose holding frequency constant over a range of feedback signals but instead varied frequency over the entire range of operation. Therefore, the prosecution history statement describing Zhou as not containing a \"fixed\" frequency was not directed to determining whether the switching frequency has been fixed when environmental variations occur while holding a fixed frequency over a certain range of signals.\nThis case is unlike that in Chef America, Inc. v. Lamb-Weston, Inc. , where the claims were unambiguously written in a manner that rendered them inoperable. 358 F.3d 1371, 1374 (Fed. Cir. 2004).\nMoreover, in an order denying a permanent injunction, the district court noted that the circuits \"contain numerous features aside from the patented features.\" J.A. 2293.\nPower Integrations provided testimony that the patented feature drove demand for the purchase of some products. This evidence almost entirely concerned Power Integrations' own products, TOPSwitch-Fx and TOPSwitch-Gx, not Fairchild's. Power Integrations contends that the only difference between the older TOPSwitch-Fx and the newer TOPSwitch-Gx controller chips is the frequency reduction feature covered by the '079 patent, and that the frequency reduction feature was the reason why its customers would buy the Gx product over the Fx product. We, however, explained in LaserDynamics that such a comparator, without more, is not enough to prove that the frequency reduction feature alone drives consumer demand for power supply controller chips. 694 F.3d at 68 (\"Put another way, if given a choice between two otherwise equivalent laptop computers, only one of which practices optical disc discrimination, proof that consumers would choose the laptop computer having the disc discrimination functionality says nothing as to whether the presence of that functionality is what motivates consumers to buy a laptop computer in the first place. It is this latter and higher degree of proof that must exist to support an entire market value rule theory.\"). Moreover, this evidence does not address the other valuable features in Fairchild's products.",
+        "type": "majority",
+        "author": "Dyk, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Frank Scherkenbach, Fish & Richardson, PC, Boston, MA, argued for plaintiff-appellee. Also represented by Craig E. Countryman, John Winston Thornburgh, San Diego, CA; Michael R. Headley, Howard G. Pollack, Redwood City, CA.",
+      "Kathleen M. Sullivan, Quinn Emanuel Urquhart & Sullivan, LLP, New York, NY, argued for defendants-appellants. Also represented by Kevin Alexander Smith, San Francisco, CA; Blair Martin Jacobs, Stephen Blake Kinnaird, Christina Ann Ondrick, Patrick Stafford, Paul Hastings LLP, Washington, DC."
+    ],
+    "corrections": "",
+    "head_matter": "POWER INTEGRATIONS, INC., Plaintiff-Appellee\nv.\nFAIRCHILD SEMICONDUCTOR INTERNATIONAL, INC., Fairchild Semiconductor Corporation, Fairchild (Taiwan) Corporation, Defendants-Appellants\n2016-2691, 2017-1875\nUnited States Court of Appeals, Federal Circuit.\nOpinion Issued: July 3, 2018\nOpinion Modified: September 20, 2018\nFrank Scherkenbach, Fish & Richardson, PC, Boston, MA, argued for plaintiff-appellee. Also represented by Craig E. Countryman, John Winston Thornburgh, San Diego, CA; Michael R. Headley, Howard G. Pollack, Redwood City, CA.\nKathleen M. Sullivan, Quinn Emanuel Urquhart & Sullivan, LLP, New York, NY, argued for defendants-appellants. Also represented by Kevin Alexander Smith, San Francisco, CA; Blair Martin Jacobs, Stephen Blake Kinnaird, Christina Ann Ondrick, Patrick Stafford, Paul Hastings LLP, Washington, DC.\nBefore Dyk, Clevenger, and Chen, Circuit Judges."
+  },
+  "file_name": "0965-01",
+  "first_page_order": 965,
+  "last_page_order": 980
+}

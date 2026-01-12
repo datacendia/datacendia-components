@@ -1,0 +1,59 @@
+{
+  "id": 12243737,
+  "name": "Capshaw v. United States",
+  "name_abbreviation": "Capshaw v. United States",
+  "decision_date": "2012-01-17",
+  "docket_number": "No. 11-7757",
+  "first_page": "1169",
+  "last_page": "1169",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1169"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.704,
+    "sha256": "de7161fc168e54c465e9612a6c62dfe075fb0d6c6e59dc649433ddcf1a6e198e",
+    "simhash": "1:1e2bcb03e38fd41c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Capshaw v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7757.\nCapshaw v. United States."
+  },
+  "file_name": "1169-06",
+  "first_page_order": 1251,
+  "last_page_order": 1251
+}

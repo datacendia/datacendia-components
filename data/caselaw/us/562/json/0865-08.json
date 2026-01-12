@@ -1,0 +1,59 @@
+{
+  "id": 5924620,
+  "name": "Rucker v. Hamlet, Warden",
+  "name_abbreviation": "Rucker v. Hamlet",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11170",
+  "first_page": "865",
+  "last_page": "865",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 865"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.599,
+    "sha256": "cc40a66483cd6277e012c95c65734be4a2c380bfd9d0324cb53a2e93db74716f",
+    "simhash": "1:16a307c029bb6172",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rucker v. Hamlet, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11170.\nRucker v. Hamlet, Warden."
+  },
+  "file_name": "0865-08",
+  "first_page_order": 887,
+  "last_page_order": 887
+}

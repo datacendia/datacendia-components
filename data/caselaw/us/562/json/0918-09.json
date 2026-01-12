@@ -1,0 +1,59 @@
+{
+  "id": 5953653,
+  "name": "Chavez-Suarez v. United States",
+  "name_abbreviation": "Chavez-Suarez v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5378",
+  "first_page": "918",
+  "last_page": "918",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 918"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 80,
+    "ocr_confidence": 0.507,
+    "sha256": "46a43d76973356f598e1904fd8483d53fe4a4e22dc5472c923f64a9c2ebaa86e",
+    "simhash": "1:978a5007c3870230",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Chavez-Suarez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5378.\nChavez-Suarez v. United States."
+  },
+  "file_name": "0918-09",
+  "first_page_order": 940,
+  "last_page_order": 940
+}

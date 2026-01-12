@@ -1,0 +1,59 @@
+{
+  "id": 12239093,
+  "name": "Williams v. District of Columbia Court of Appeals",
+  "name_abbreviation": "Williams v. District of Columbia Court of Appeals",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-476",
+  "first_page": "1112",
+  "last_page": "1112",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1112"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 97,
+    "ocr_confidence": 0.59,
+    "sha256": "21d58ff36e39e3b133a1b8e356fd607c53d499723684793def603923700007eb",
+    "simhash": "1:bd54746925b087c0",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. District of Columbia Court of Appeals."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. D. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-476.\nWilliams v. District of Columbia Court of Appeals."
+  },
+  "file_name": "1112-05",
+  "first_page_order": 1194,
+  "last_page_order": 1194
+}

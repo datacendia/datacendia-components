@@ -1,0 +1,59 @@
+{
+  "id": 12240369,
+  "name": "Broome v. Hunter et al.",
+  "name_abbreviation": "Broome v. Hunter",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-7116",
+  "first_page": "1124",
+  "last_page": "1124",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1124"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 72,
+    "ocr_confidence": 0.669,
+    "sha256": "e03c8eb2b3a0ae74c896b1d916a40b07b28a6336866dfeb2d6dc7792fb47c147",
+    "simhash": "1:a1c938a9dbc4d139",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Broome v. Hunter et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7116.\nBroome v. Hunter et al."
+  },
+  "file_name": "1124-05",
+  "first_page_order": 1206,
+  "last_page_order": 1206
+}

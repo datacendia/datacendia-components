@@ -1,0 +1,1003 @@
+{
+  "id": 3653760,
+  "name": "ENTERGY CORP. v. RIVERKEEPER, INC., et al.",
+  "name_abbreviation": "Entergy Corp. v. Riverkeeper, Inc.",
+  "decision_date": "2009-04-01",
+  "docket_number": "No. 07-588",
+  "first_page": "208",
+  "last_page": "246",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "556 U.S. 208"
+    },
+    {
+      "type": "parallel",
+      "cite": "173 L. Ed. 2d 369"
+    },
+    {
+      "type": "parallel",
+      "cite": "129 S. Ct. 1498"
+    },
+    {
+      "type": "vendor",
+      "cite": "2009 U.S. LEXIS 2498"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2008-040"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "68 Fed. Reg. 13541",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 2003,
+      "opinion_index": 0
+    },
+    {
+      "cite": "66 Fed. Reg. 65282",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 2001,
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 U. S. C. \u00a7 1314",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(4)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "71 Fed. Reg. 35006",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 2006,
+      "opinion_index": 0
+    },
+    {
+      "cite": "69 Fed. Reg. 41601",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 2004,
+      "opinion_index": 0
+    },
+    {
+      "cite": "597 F. 2d 306",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        385912
+      ],
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "311",
+          "parenthetical": "rejecting challenge to an EPA permit decision that was based in part on the agency's determination that further restrictions would be \"'wholly disproportionate to any environmental benefit' \""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/597/0306-01"
+      ]
+    },
+    {
+      "cite": "1 E. A. D. 332",
+      "category": "reporters:federal",
+      "reporter": "E.A.D.",
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "340"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "535 U. S. 212",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        354957
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "219-220"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/535/0212-01"
+      ]
+    },
+    {
+      "cite": "540 U. S. 461",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8897419
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "487"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/540/0461-01"
+      ]
+    },
+    {
+      "cite": "69 Fed. Reg. 41666",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "452 U. S. 490",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1313963
+      ],
+      "weight": 2,
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "510-512"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/452/0490-01"
+      ]
+    },
+    {
+      "cite": "531 U. S. 457",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9505769
+      ],
+      "weight": 3,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "471"
+        },
+        {
+          "page": "467-468"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/531/0457-01"
+      ]
+    },
+    {
+      "cite": "449 U. S. 64",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11715434
+      ],
+      "weight": 2,
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "69-70"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/449/0064-01"
+      ]
+    },
+    {
+      "cite": "33 U. S. C. \u00a7 1362",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(14)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "40 CFR \u00a7 125.83",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "pin_cites": [
+        {
+          "parenthetical": "defining \"minimize\" for purposes of the Phase I regulations as \"reducing] to the smallest amount, extent, or degree reasonably possible\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "467 U. S. 837",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6209106
+      ],
+      "weight": 2,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "843-844"
+        },
+        {
+          "page": "842"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/467/0837-01"
+      ]
+    },
+    {
+      "cite": "69 Fed. Reg. 41626",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "552 U. S. 1309",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 2008,
+      "opinion_index": 0
+    },
+    {
+      "cite": "72 Fed. Reg. 37107",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 2007,
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 U. S. C. \u00a7 1326",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "69 Fed. Reg. 41599",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "weight": 9,
+      "pin_cites": [
+        {
+          "page": "41602"
+        },
+        {
+          "page": "41601"
+        },
+        {
+          "page": "41605"
+        },
+        {
+          "page": "41601",
+          "parenthetical": "compared to the Phase II targets of 80 to 95 percent impingement reduction"
+        },
+        {
+          "page": "41605"
+        },
+        {
+          "page": "41666"
+        },
+        {
+          "page": "41605"
+        },
+        {
+          "page": "41606"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "40 CFR \u00a7 125.94",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(b)(1)"
+        },
+        {
+          "page": "(a)(5)(i)"
+        },
+        {
+          "page": "(a)(5)(h)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "358 F. 3d 174",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9292602
+      ],
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "194, n. 22"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/358/0174-01"
+      ]
+    },
+    {
+      "cite": "40 CFR \u00a7\u00a7 125.80",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "66 Fed. Reg. 65256",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 2001,
+      "pin_cites": [
+        {
+          "parenthetical": "Phase I rules"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2001 WL 1505497",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "*1"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "69 Fed. Reg. 41584",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Fed. Reg. 32956",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 1979,
+      "opinion_index": 0
+    },
+    {
+      "cite": "566 F. 2d 451",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        902080
+      ],
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "457"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/566/0451-01"
+      ]
+    },
+    {
+      "cite": "33 U. S. C. \u00a7 1251",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "et seq."
+        },
+        {
+          "page": "(f)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "69 Fed. Reg. 41586",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "475 F. 3d 83",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3753816
+      ],
+      "weight": 13,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "99-100"
+        },
+        {
+          "page": "99-100"
+        },
+        {
+          "page": "98"
+        },
+        {
+          "page": "98"
+        },
+        {
+          "page": "100"
+        },
+        {
+          "page": "114"
+        },
+        {
+          "page": "104-105"
+        },
+        {
+          "page": "99-100"
+        },
+        {
+          "page": "98"
+        },
+        {
+          "page": "99"
+        },
+        {
+          "page": "114"
+        },
+        {
+          "page": "104-105"
+        },
+        {
+          "page": "108, 110, 113, 115, 117, 120"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/475/0083-01"
+      ]
+    },
+    {
+      "cite": "69 Fed. Reg. 41576",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "weight": 3,
+      "year": 2004,
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 U.S.C. \u00a7 1326",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 U.S.C. \u00a7 1311",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(b)(2)(E)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "464 U. S. 16",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6193045
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "23",
+          "parenthetical": "\"[W]here Congress includes particular language in one section of a statute but omits it in another . . . , it is generally presumed that Congress acts intentionally and purposely in the disparate inclusion or exclusion\" (internal quotation marks omitted)"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/464/0016-01"
+      ]
+    },
+    {
+      "cite": "553 U. S. 662",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3674118
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "671"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/553/0662-01"
+      ]
+    },
+    {
+      "cite": "42 U. S. C. \u00a7 7409",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "512 U. S. 504",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        39585
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "524, n. 3",
+          "parenthetical": "Thomas, J., dissenting"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/512/0504-01"
+      ]
+    },
+    {
+      "cite": "545 U. S. 967",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8210237
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "981"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/545/0967-01"
+      ]
+    },
+    {
+      "cite": "468 U. S. 29",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "42-43"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "69 Fed. Reg. 41661",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 2004,
+      "opinion_index": 1
+    },
+    {
+      "cite": "1 E. A. D. 455",
+      "category": "reporters:federal",
+      "reporter": "E.A.D.",
+      "year": 1978,
+      "pin_cites": [
+        {
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "572 F. 2d 872",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1234670
+      ],
+      "year": 1978,
+      "pin_cites": [
+        {
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/572/0872-01"
+      ]
+    },
+    {
+      "cite": "86 Stat. 851",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "86 Stat. 845",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "pin_cites": [
+        {
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "33 U. S. C. \u00a7\u00a7 1311",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(b)(1)(A)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "86 Stat. 844",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "68 Fed. Reg. 13541",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 2003,
+      "pin_cites": [
+        {
+          "parenthetical": "proposed rule"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "69 Fed. Reg. 41601",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "41601"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "1 E. A. D. 332",
+      "category": "reporters:federal",
+      "reporter": "E.A.D.",
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "340"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "535 U. S. 212",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        354957
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "220"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/535/0212-01"
+      ]
+    },
+    {
+      "cite": "452 U. S. 490",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1313963
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "510"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/452/0490-01"
+      ]
+    },
+    {
+      "cite": "531 U. S. 457",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9505769
+      ],
+      "weight": 4,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "468"
+        },
+        {
+          "page": "467"
+        },
+        {
+          "page": "469"
+        },
+        {
+          "page": "468"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/531/0457-01"
+      ]
+    },
+    {
+      "cite": "449 U. S. 64",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11715434
+      ],
+      "weight": 2,
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "79"
+        },
+        {
+          "page": "71",
+          "parenthetical": "\"Similar directions are given the Administrator for determining effluent reductions attainable from the BAT except that in assessing BAT total cost is no longer to be considered in comparison to effluent reduction benefits\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/449/0064-01"
+      ]
+    },
+    {
+      "cite": "467 U. S. 837",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6209106
+      ],
+      "weight": 6,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "844"
+        },
+        {
+          "page": "842-843"
+        },
+        {
+          "page": "843"
+        },
+        {
+          "page": "842"
+        },
+        {
+          "page": "843"
+        },
+        {
+          "page": "842"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/467/0837-01"
+      ]
+    },
+    {
+      "cite": "33 U. S. C. \u00a7 1326",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(b)"
+        },
+        {
+          "page": "(b)",
+          "parenthetical": "2006 ed."
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "40 CFR \u00a7 125.94",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(a)(5)(ii)"
+        },
+        {
+          "page": "(a)(5)(ii)"
+        },
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "358 F. 3d 174",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9292602
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "182, n. 5"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/358/0174-01"
+      ]
+    },
+    {
+      "cite": "69 Fed. Reg. 41586",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "41661"
+        },
+        {
+          "page": "41666"
+        },
+        {
+          "page": "41660"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "475 F. 3d 83",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3753816
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "89"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/475/0083-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 2223,
+    "char_count": 72232,
+    "ocr_confidence": 0.677,
+    "pagerank": {
+      "raw": 1.3333960746914222e-06,
+      "percentile": 0.9898349286000844
+    },
+    "sha256": "3db1b5a38ef4c57d473ba4dc595cafb88ec1fe7765210bbc998e859c4fa3ad72",
+    "simhash": "1:18c806a2eb1f155b",
+    "word_count": 11278
+  },
+  "last_updated": "2024-02-27T20:53:05.274471+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Stevens, with whom Justice Souter and Justice Ginsburg join, dissenting."
+    ],
+    "parties": [
+      "ENTERGY CORP. v. RIVERKEEPER, INC., et al."
+    ],
+    "opinions": [
+      {
+        "text": "Justice Scalia\ndelivered the opinion of the Court.\nThese cases concern a set of regulations adopted by the Environmental Protection Agency (EPA or agency) under \u00a7 316(b) of the Clean Water Act, 33 U.S.C. \u00a7 1326(b). 69 Fed. Reg. 41576 (2004). Respondents \u2014 environmental groups and various States \u2014 challenged those regulations, and the Second Circuit set them aside. Riverkeeper, Inc. v. EPA, 475 F. 3d 83, 99-100 (2007). The issue for our decision is whether, as the Second Circuit held, the EPA is not permitted to use cost-benefit analysis in determining the content of regulations promulgated under \u00a7 1326(b).\nI\nPetitioners operate \u2014 or represent those who operate\u2014 large powerplants. In the course of generating power, those plants also generate large amounts of heat. To cool their facilities, petitioners employ \u201ccooling water intake structures\u201d that extract water from nearby water sources. These structures pose various threats to the environment, chief among them the squashing against intake screens (elegantly called \u201cimpingement\u201d) or suction into the cooling system (\u201centrainment\u201d) of aquatic organisms that live in the affected water sources. See 69 Fed. Reg. 41586. Accordingly, the facilities are subject to regulation under the Clean Water Act, 33 U. S. C. \u00a7 1251 et seq., which mandates:\n\u201cAny standard established pursuant to section 1311 of this title or section 1316 of this title and applicable to a point source shall require that the location, design, construction, and capacity of cooling water intake structures reflect the best technology available for minimizing adverse environmental impact.\u201d \u00a7 1326(b).\nSections 1311 and 1316, in turn, employ a variety of \u201cbest technology\u201d standards to regulate the discharge of effluents into the Nation\u2019s waters.\nThe \u00a7 1326(b) regulations at issue here were promulgated by the EPA after nearly three decades in which the determination of the \u201cbest technology available for minimizing [cooling water intake structures\u2019] adverse environmental impact\u201d was made by permit-issuing authorities on a case-by-case basis, without benefit of a governing regulation. The EPA\u2019s initial attempt at such a regulation came to nought when the Fourth Circuit determined that the agency had failed to adhere to the procedural requirements of the Administrative Procedure Act. Appalachian Power Co. v. Train, 566 F. 2d 451, 457 (1977). The EPA withdrew the regulation, 44 Fed. Reg. 32956 (1979), and instead published \u201cdraft guidance\u201d for use in implementing \u00a7 1326(b)\u2019s requirements via site-specific permit decisions under \u00a71342. See EPA, Office of Water Enforcement Permits Div., {Draft} Guidance for Evaluating the Adverse Impact of Cooling Water Intake Structures on the Aquatic Environment: Section 316(b) P. L. 92-500 (May 1, 1977), online at http:// www.epa.gov/waterscience/316b/files/1977AEIguid.pdf (all Internet materials as visited Mar. 30, 2009, and available in Clerk of Court\u2019s case file); 69 Fed. Reg. 41584 (describing system of case-by-case permits under the draft guidance).\nIn 1995, the EPA entered into a consent decree which, as subsequently amended, set a multiphase timetable for the EPA to promulgate regulations under \u00a7 1326(b). See Riverkeeper, Inc. v. Whitman, No. 93 Civ. 0314 (AGS), 2001 WL 1505497, *1 (SDNY, Nov. 27, 2001). In the first phase the EPA adopted regulations governing certain new, large cooling water intake structures. 66 Fed. Reg. 65256 (2001) (Phase I rules); see 40 CFR \u00a7\u00a7 125.80(a), 125.81(a) (2008). Those rules require new facilities with water-intake flow greater than 10 million gallons per day to, among other things, restrict their inflow \u201cto a level commensurate with that which can be attained by a closed-cycle recirculating cooling water system.\u201d \u00a7 125.84(b)(1). New facilities with water-intake flow between 2 million and 10 million gallons per day may alternatively comply by, among other things, reducing the volume and velocity of water removal to certain levels. \u00a7 125.84(c). And all facilities may alternatively comply by demonstrating, among other things, \u201cthat the technologies employed will reduce the level of adverse environmental impact... to a comparable level\u201d to what would be achieved by using a closed-cycle cooling system. \u00a7 125.84(d). These regulations were upheld in large part by the Second Circuit in Riverkeeper, Inc. v. EPA, 358 F. 3d 174 (2004).\nThe EPA then adopted the so-called \u201cPhase II\u201d rules at issue here. 69 Fed. Reg. 41576. They apply to existing facilities that are point sources, whose primary activity is the generation and transmission (or sale for transmission) of electricity, and whose water-intake flow is more than 50 million gallons of water per day, at least 25 percent of which is used for cooling purposes. Ibid. Over 500 facilities, accounting for approximately 53 percent of the Nation\u2019s electric-power generating capacity, fall within Phase II\u2019s ambit. See EPA, Economic and Benefits Analysis for the Final Section 316(b) Phase II Existing Facilities Rule, p. A3-13 (Table A3-4, Feb. 2004), online at http://www. epa.gov/waterscience/316b/phase2/econbenefits/final/a3. pdf. Those facilities remove on average more than 214 billion gallons of water per day, causing impingement and entrainment of over 3.4 billion aquatic organisms per year. 69 Fed. Reg. 41586.\nTo address those environmental impacts, the EPA set \u201cnational performance standards,\u201d requiring Phase II facilities (with some exceptions) to reduce \u201cimpingement mortality for all life stages of fish and shellfish by 80 to 95 percent from the calculation baseline\u201d; a subset of facilities must also reduce entrainment of such aquatic organisms by \u201c60 to 90 percent from the calculation baseline.\u201d 40 CFR \u00a7 125.94(b)(1), (2); see \u00a7 125.93 (defining \u201ccalculation baseline\u201d). Those targets are based on the environmental improvements achievable through deployment of a mix of remedial technologies, 69 Fed. Reg. 41599, which the EPA determined were \u201ccommercially available and economically practicable,\u201d id., at 41602.\nIn its Phase II rules, however, the EPA expressly declined to mandate adoption of closed-cycle cooling systems or equivalent reductions in impingement and entrainment, as it had done for new facilities subject to the Phase I rules. Id., at 41601. It refused to take that step in part because of the \u201cgenerally high costs\u201d of converting existing facilities to closed-cycle operation, and because \u201cother technologies approach the performance of this option.\u201d Id., at 41605. Thus, while closed-cycle cooling systems could reduce impingement and entrainment mortality by up to 98 percent, id., at 41601 (compared to the Phase II targets of 80 to 95 percent impingement reduction), the cost of rendering all Phase II facilities closed-cycle-compliant would be approximately $3.5 billion per year, id., at 41605, nine times the estimated cost of compliance with the Phase II performance standards, id., at 41666. Moreover, Phase II facilities compelled to convert to closed-cycle cooling systems \u201cwould produce 2.4 percent to 4.0 percent less electricity even while burning the same amount of coal,\u201d possibly requiring the construction of \u201c20 additional 400-MW plants ... to replace the generating capacity lost.\u201d Id., at 41605. The EPA thus concluded that \u201c[although not identical, the ranges of impingement and entrainment reduction are similar under both options .... [Benefits of compliance with the Phase II rules] can approach those of closed-cycle recirculating systems at less cost with fewer implementation problems.\u201d Id., at 41606.\nThe regulations permit the issuance of site-specific variances from the national performance standards if a facility can demonstrate either that the costs of compliance are \u201csignificantly greater than\u201d the costs considered by the agency in setting the standards, 40 CFR \u00a7 125.94(a)(5)(i), or that the costs of compliance \u201cwould be significantly greater than the benefits of complying with the applicable performance standards,\u201d \u00a7 125.94(a)(5)(h). Where a variance is warranted, the permit-issuing authority must impose remedial measures that yield results \u201cas close as practicable to the applicable performance standards.\u201d \u00a7 125.94(a)(5)(i), (ii).\nRespondents challenged the EPA\u2019s Phase II regulations, and the Second Circuit granted their petition for review and remanded the regulations to the EPA. The Second Circuit identified two ways in which the EPA could permissibly consider costs under 33 U. S. C. \u00a7 1326(b): (1) in determining whether the costs of remediation \u201ccan be \u2018reasonably borne\u2019 by the industry,\u201d and (2) in determining which remedial technologies are the most cost effective, that is, the technologies that reach a specified level of benefit at the lowest cost. 475 F. 3d, at 99-100. See also id., at 98, and n. 10. It concluded, however, that cost-benefit analysis, which \u201ccompares the costs and benefits of various ends, and chooses the end with the best net benefits,\u201d id., at 98, is impermissible under \u00a7 1326(b), id., at 100.\nThe Court of Appeals held the site-specific cost-benefit variance provision to be unlawful. Id., at 114. Finding it unclear whether the EPA had relied on cost-benefit analysis in setting the national performance standards, or had only used cost-effectiveness analysis, it remanded to the agency for clarification of that point. Id., at 104-105. (The remand was also based on other grounds which are not at issue here.) The EPA suspended operation of the Phase II rules pending further rulemaking. 72 Fed. Reg. 37107 (2007). We then granted certiorari limited to the following question: \u201cWhether [\u00a7 1326(b)] . . . authorizes the [EPA] to compare costs with benefits in determining \u2018the best technology available for minimizing adverse environmental impact\u2019 at cooling water intake structures.\u201d 552 U. S. 1309 (2008).\nII\nIn setting the Phase II national performance standards and providing for site-specific cost-benefit variances, the EPA relied on its view that \u00a71326(b)\u2019s \u201cbest technology available\u201d standard permits consideration of the technology\u2019s costs, 69 Fed. Reg. 41626, and of the relationship between those costs and the environmental benefits produced, id., at 41603. That view governs if it is a reasonable interpretation of the statute \u2014 not necessarily the only possible interpretation, nor even the interpretation deemed most reasonable by the courts. Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc., 467 U. S. 837, 843-844 (1984).\nAs we have described, \u00a7 1326(b) instructs the EPA to set standards for cooling water intake structures that reflect \u201cthe best technology available for minimizing adverse environmental impact.\u201d The Second Circuit took that language to mean the technology that achieves the greatest reduction in adverse environmental impacts at a cost that can reasonably be borne by the industry. 475 F. 3d, at 99-100. That is certainly a plausible interpretation of the statute. The \u201cbest\u201d technology \u2014 that which is \u201cmost advantageous,\u201d Webster\u2019s New International Dictionary 258 (2d ed. 1953) \u2014 may well be the one that produces the most of some good, here a reduction in adverse environmental impact. But \u201cbest technology\u201d may also describe the technology that most efficiently produces some good. In common parlance one could certainly use the phrase \u201cbest technology\u201d to refer to that which produces a good at the lowest per-unit cost, even if it produces a lesser quantity of that good than other available technologies.\nRespondents contend that this latter reading is precluded by the statute\u2019s use of the phrase \u201cfor minimizing adverse environmental impact.\u201d Minimizing, they argue, means reducing to the smallest amount possible, and the \u201cbest technology available for minimizing adverse environmental impacts\u201d must be the economically feasible technology that achieves the greatest possible reduction in environmental harm. Brief for Respondent Riverkeeper, Inc., et al. 25-26. But \u201cminimize\u201d is a term that admits of degree and is not necessarily used to refer exclusively to the \u201cgreatest possible reduction.\u201d For example, elsewhere in the Clean Water Act, Congress declared that the procedures implementing the Act \u201cshall encourage the drastic minimization of paperwork and interagency decision procedures.\u201d 33 U. S. C. \u00a7 1251(f). If respondents\u2019 definition of the term \u201cminimize\u201d is correct, the statute\u2019s use of the modifier \u201cdrastic\u201d is superfluous.\nOther provisions in the Clean Water Act also suggest the agency\u2019s interpretation. When Congress wished to mandate the greatest feasible reduction in water pollution, it did so in plain language: The provision governing the discharge of toxic pollutants into the Nation\u2019s waters requires the EPA to set \u201ceffluent limitations [which] shall require the elimination of discharges of all pollutants if the Administrator finds ... that such elimination is technologically and economically achievable,\u201d \u00a7 1311(b)(2)(A) (emphasis added). See also \u00a7 1316(a)(1) (mandating \u201cwhere practicable, a standard [for new point sources] permitting no discharge of pollutants\u201d (emphasis added)). Section 1326(b)\u2019s use of the less ambitious goal of \u201cminimizing adverse environmental impact\u201d suggests, we think, that the agency retains some discretion to determine the extent of reduction that is warranted under the circumstances. That determination could plausibly involve a consideration of the benefits derived from reductions and the costs of achieving them. Cf. 40 CFR \u00a7 125.83 (defining \u201cminimize\u201d for purposes of the Phase I regulations as \u201creducing] to the smallest amount, extent, or degree reasonably possible\u201d). It seems to us, therefore, that the phrase \u201cbest technology available,\u201d even with the added specification \u201cfor minimizing adverse environmental impact,\u201d does not unambiguously preclude cost-benefit analysis.\nRespondents\u2019 alternative (and, alas, also more complex) argument rests upon the structure of the Clean Water Act. The Act provided that during its initial implementation period existing \u201cpoint sources\u201d \u2014 discrete conveyances from which pollutants are or may be discharged, 33 U. S. C. \u00a7 1362(14) \u2014 were subject to \u201ceffluent limitations . . . which shall require the application of the best practicable control technology currently available.\u201d \u00a7 1311(b)(1)(A) (emphasis added). (We shall call this the \u201cBPT\u201d test.) Following that transition period, the Act initially mandated adoption, by July 1, 1983 (later extended to March 31, 1989), of stricter effluent limitations requiring \u201capplication of the best available technology economically achievable for such category or class, which will result in reasonable further progress toward the national goal of eliminating the discharge of all pollutants.\u201d \u00a7 1311(b)(2)(A) (emphasis added); see EPA v. National Crushed Stone Assn., 449 U. S. 64, 69-70 (1980). (We shall call this the \u201cBATEA\u201d test.) Subsequent amendment limited application of this standard to toxic and noneonventional pollutants, and for the remainder established a (presumably laxer) test of \u201cbest conventional-pollutant control technology.\u201d \u00a7 1311(b)(2)(E). (We shall call this \u201cBCT.\u201d) Finally, \u00a71316 subjected certain categories of new point sources to \u201cthe greatest degree of effluent reduction which the Administrator determines to be achievable through application of the best available demonstrated control technology. \u201d \u00a7 1316(a)(1) (emphasis added); \u00a7 1316(b)(1)(B). (We shall call this the \u201cBADT\u201d test.) The provision at issue here, applicable not to effluents but to cooling water intake structures, requires, as we have described, \u201cthe best technology available for minimizing adverse environmental impact,\u201d \u00a7 1326(b) (emphasis added). (We shall call this the \u201cBTA\u201d test.)\nThe first four of these tests are elucidated by statutory factor lists that guide their implementation. To take the standards in (presumed) order of increasing stringency, see Crushed Stone, supra, at 69-70: In applying the BPT test the EPA is instructed to consider, among other factors, \u201cthe total cost of application of technology in relation to the effluent reduction benefits to be achieved.\u201d \u00a7 1314(b)(1)(B). In applying the BCT test it is instructed to consider \u201cthe reasonableness of the relationship between the costs of attaining a reduction in effluents and the effluent reduction benefits derived.\u201d \u00a7 1314(b)(4)(B) (emphasis added). And in applying the BATEA and BADT tests the EPA is instructed to consider the \u201ccost of achieving such effluent reduction.\u201d \u00a7\u00a7 1314(b)(2)(B), 1316(b)(1)(B). There is no such elucidating language applicable to the BTA test at issue here. To facilitate comparison, the texts of these five tests, the clarifying factors applicable to them, and the entities to which they apply are set forth in the Appendix, infra.\nThe Second Circuit, in rejecting the EPA\u2019s use of cost-benefit analysis, relied in part on the propositions that (1) cost-benefit analysis is precluded under the BATEA and BADT tests; and (2) that, insofar as the permissibility of cost-benefit analysis is concerned, the BTA test (the one at issue here) is to be treated the same as those two. See 475 F. 3d, at 98. It is not obvious to us that the first of these propositions is correct, but we need not pursue that point, since we assuredly do not agree with the second. It is certainly reasonable for the agency to conclude that the BTA test need not be interpreted to permit only what those other two tests permit. Its text is not identical to theirs. It has the relatively modest goal of \u201cminimizing adverse environmental impact\u201d as compared with the BATE A's goal of \u201celiminating the discharge of all pollutants.\u201d And it is unencumbered by specified statutory factors of the sort provided for those other two tests, which omission can reasonably be interpreted to suggest that the EPA is accorded greater discretion in determining its precise content.\nRespondents and the dissent argue that the mere fact that \u00a7 1326(b) does not expressly authorize cost-benefit analysis for the BTA test, though it does so for two of the other tests, displays an intent to forbid its use. This surely proves too much. For while it is true that two of the other tests authorize cost-benefit analysis, it is also true that all four of the other tests expressly authorize some consideration of costs. Thus, if respondents\u2019 and the dissent\u2019s conclusion regarding the import of \u00a7 1326(b)\u2019s silence is correct, it is a fortiori true that the BTA test permits no consideration of cost whatsoever, not even the \u201ccost-effectiveness\u201d and \u201cfeasibility\u201d analysis that the Second Circuit approved, see supra, at 217, that the dissent would approve, post, at 237, and that respondents acknowledge. The inference that respondents and the dissent would draw from the silence is, in any event, implausible, as \u00a7 1326(b) is silent not only with respect to cost-benefit analysis but with respect to all potentially relevant factors. If silence here implies prohibition, then the EPA could not consider any factors in implementing \u00a7 1326(b) \u2014 an obvious logical impossibility. It is eminently reasonable to conclude that \u00a71326(b)\u2019s silence is meant to convey nothing more than a refusal to tie the agency\u2019s hands as to whether cost-benefit analysis should be used, and if so to what degree.\nContrary to the dissent\u2019s suggestion, see post, at 238-240, our decisions in Whitman v. American Trucking Assns., Inc., 531 U. S. 457 (2001), and American Textile Mfrs. Institute, Inc. v. Donovan, 452 U. S. 490 (1981), do not undermine this conclusion. In American Trucking, we held that the text of \u00a7 109 of the Clean Air Act, \u201cinterpreted in its statutory and historical context . . . , unambiguously bars cost considerations\u201d in setting air quality standards under that provision. 531 U. S., at 471. The relevant \u201cstatutory context\u201d included other provisions in the Clean Air Act that expressly authorized consideration of costs, whereas \u00a7109 did not. Id., at 467-468. American Trucking thus stands for the rather unremarkable proposition that sometimes statutory silence, when viewed in context, is best interpreted as limiting agency discretion. For the reasons discussed earlier, \u00a7 1326(b)\u2019s silence cannot bear that interpretation.\nIn American Textile, the Court relied in part on a statute\u2019s failure to mention cost-benefit analysis in holding that the relevant agency was not required to engage in cost-benefit analysis in setting certain health and safety standards. 452 U. S., at 510-512. But under Chevron, that an agency is not required to do so does not mean that an agency is not permitted to do so.\nThis extended consideration of the text of \u00a7 1326(b), and comparison of that with the text and statutory factors applicable to four parallel provisions of the Clean Water Act, lead us to the conclusion that it was well within the bounds of reasonable interpretation for the EPA to conclude that cost-benefit analysis is not categorically forbidden. Other arguments may be available to preclude such a rigorous form of cost-benefit analysis as that which was prescribed under the statute\u2019s former BPT standard, which required weighing \u201cthe total cost of application of technology\u201d against \u201cthe ... benefits to be achieved.\u201d See supra, at 221. But that question is not before us.\nIn the Phase II requirements challenged here the EPA sought only to avoid extreme disparities between costs and benefits. The agency limited variances from the Phase II \u201cnational performance standards\u201d to circumstances where the costs are \u201csignificantly greater than the benefits\u201d of compliance. 40 CFR \u00a7 125.94(a)(5)(h). In defining the \u201cnational performance standards\u201d themselves the EPA assumed the application of technologies whose benefits \u201capproach those estimated\u201d for closed-cycle cooling systems at a fraction of the cost: $889 million per year, 69 Fed. Reg. 41666, as compared with (1) at least $3.5 billion per year to operate compliant closed-cycle cooling systems, id., at 41605 (or $1 billion per year to impose similar requirements on a subset of Phase II facilities, id., at 41606), and (2) significant reduction in the energy output of the altered facilities, id., at 41605. And finally, the EPA\u2019s assessment of the relatively meager financial benefits of the Phase II regulations that it adopted\u2014 reduced impingement and entrainment of 1.4 billion aquatic organisms, id., at 41661, Exh. XII-6, with annualized use benefits of $83 million, id., at 41662, and nonuse benefits of indeterminate value, id., at 41660-41661 \u2014 when compared to annual costs of $389 million, demonstrates quite clearly that the agency did not select the Phase II regulatory requirements because their benefits equaled their costs.\nWhile not conclusive, it surely tends to show that the EPA\u2019s current practice is a reasonable and hence legitimate exercise of its discretion to weigh benefits against costs that the agency has been proceeding in essentially this fashion for over 30 years. See Alaska Dept. of Environmental Conservation v. EPA, 540 U. S. 461, 487 (2004); Barnhart v. Walton, 535 U. S. 212, 219-220 (2002). As early as 1977, the agency determined that, while \u00a7 1326(b) does not require cost-benefit analysis, it is also not reasonable to \u201cinterpret Section [1326(b)] as requiring use of technology whose cost is wholly disproportionate to the environmental benefit to be gained.\u201d In re Public Service Co. of New Hampshire, 1 E. A. D. 332, 340 (1977). See also In re Central Hudson Gas and Electric Corp., EPA General Counsel Opinions, NPDES Permits, No. 63, pp. 371, 381 (July 29, 1977) (\u201cEPA ultimately must demonstrate that the present value of the cumulative annual cost of modifications to cooling water intake structures is not wholly out of proportion to the magnitude of the estimated environmental gains\u201d); Seacoast Anti-Pollution League v. Costle, 597 F. 2d 306, 311 (CA1 1979) (rejecting challenge to an EPA permit decision that was based in part on the agency\u2019s determination that further restrictions would be \u201c\u2018wholly disproportionate to any environmental benefit\u2019 \u201d). While the EPA\u2019s prior \u201cwholly disproportionate\u201d standard may be somewhat different from its current \u201csignificantly greater than\u201d standard, there is nothing in the statute that would indicate that the former is a permissible interpretation while the latter is not.\nIndeed, in its review of the EPA\u2019s Phase I regulations, the Second Circuit seemed to recognize that \u00a7 1326(b) permits some form of cost-benefit analysis. In considering a challenge to the EPA\u2019s rejection of dry cooling systems as the \u201cbest technology available\u201d for Phase I facilities, the Second Circuit noted that \u201cwhile it certainly sounds substantial that dry cooling is 95 percent more effective than closed-cycle cooling, it is undeniably relevant that that difference represents a relatively small improvement over closed-cycle cooling at a very significant cost.\u201d Riverkeeper, 358 F. 3d, at 194, n. 22. And in the decision below rejecting the use of cost-benefit analysis in the Phase II regulations, the Second Circuit nonetheless interpreted \u201cbest technology available\u201d as mandating only those technologies that can \u201cbe reasonably borne by the industry.\u201d 475 F. 3d, at 99. But whether it is \u201creasonable\u201d to bear a particular cost may well depend on the resulting benefits; if the only relevant factor was the feasibility of the costs, their reasonableness would be irrelevant.\nIn the last analysis, even respondents ultimately recognize that some form of cost-benefit analysis is permissible. They acknowledge that the statute\u2019s language is \u201cplainly not so constricted as to require EPA to require industry petitioners to spend billions to save one more fish or plankton.\u201d Brief for Respondent Riverkeeper, Inc., et al. 29. This concedes the principle \u2014 the permissibility of at least some cost-benefit analysis \u2014 and we see no statutory basis for limiting its use to situations where the benefits are de minimis rather than significantly disproportionate.\n* * *\nWe conclude that the EPA permissibly relied on cost-benefit analysis in setting the national performance standards and in providing for cost-benefit variances from those standards as part of the Phase II regulations. The Court of Appeals\u2019 reliance in part on the agency\u2019s use of cost-benefit analysis in invalidating the site-specific cost-benefit variance provision, 475 F. 3d, at 114, was therefore in error, as was its remand of the national performance standards for clarification of whether cost-benefit analysis was impermissibly used, id., at 104-105. We of course express no view on the remaining bases for the Second Circuit\u2019s remand which did not depend on the permissibility of cost-benefit analysis. See id., at 108, 110, 113, 115, 117, 120. The judgment of the Court of Appeals is reversed, and the cases are remanded for further proceedings consistent with this opinion.\nIt is so ordered.\nAPPENDIX\nThe EPA and its Administrator appeared as respondents in support of petitioners. See Brief for Federal Parties as Respondents Supporting Petitioners. References to \u201crespondents\u201d throughout the opinion refer only to those parties challenging the EPA rules at issue in these cases.\nClosed-cycle cooling systems recirculate the water used to cool the facility, and consequently extract less water from the adjacent waterway, proportionately reducing impingement and entrainment. Riverkeeper, Inc. v. EPA, 358 F. Bd 174, 182, n. 5 (CA2 2004); 69 Fed. Reg. 41601, and n. 44 (2004).\nThe EPA has also adopted Phase III rules for facilities not subject to the Phase I and Phase II regulations. 71 Fed. Reg. 35006 (2006). A challenge to those regulations is currently before the Fifth Circuit, where proceedings have been stayed pending disposition of these cases. See ConocoPhillips Co. v. EPA, No. 06-60662.\nThe dissent finds it \u201cpuzzling\u201d that we invoke this proposition (that a reasonable agency interpretation prevails) at the \u201coutset,\u201d omitting the supposedly prior inquiry of\u2018\u201cwhether Congress has directly spoken to the precise question at issue.\u2019\u201d Post, at 241, n. 5 (opinion of Stevens, J.) (quoting Chevron, 467 U. S., at 842). But surely if Congress has directly spoken to an issue then any agency interpretation contradicting what Congress has said would be unreasonable.\nWhat is truly \u201cpuzzling\u201d is the dissent\u2019s accompanying charge that the Court\u2019s failure to conduct the Chevron step-one inquiry at the outset \u201creflects [its] reluctance to consider the possibility ... that Congress\u2019 silence may have meant to foreclose cost-benefit analysis.\u201d Post, at 241, n. 5. Our discussion of that issue, infra, at 222-223, speaks for itself\nRespondents concede that the term \u201cavailable\u201d is ambiguous, as it could mean either technologically feasible or economically feasible. But any ambiguity in the term \u201cavailable\u201d is largely irrelevant. Regardless of the criteria that render a technology \u201cavailable,\u201d the EPA would still have to determine which available technology is the \u201cbest\u201d one. And as discussed above, that determination may well involve consideration of the technology\u2019s relative costs and benefits.\nThe statute does not contain a hyphen between the words \u201cconventional\u201d and \u201cpollutant.\u201d \u201cConventional pollutant\u201d is a statutory term, however, see 33 U. S. C. \u00a7 1314(a)(4), and it is clear that in \u00a7 1311(b)(2)(E) the adjective modifies \u201cpollutant\u201d rather than \u201ccontrol technology.\u201d The hyphen makes that clear.\nDry cooling systems use air drafts to remove heat, and accordingly remove little or no water from surrounding water sources. See 66 Fed. Reg. 65282 (2001).\nJustice Breyer would remand for the additional reason of what he regards as the agency\u2019s inadequate explanation of the change in its criterion for variances \u2014 from a relationship of costs to benefits that is \u201c \u2018wholly disproportionate\u2019\u201d to one that is \u201c\u2018significantly greater.\u2019\u201d Post, at 236 (opinion concurring in part and dissenting in part). That question can have no bearing upon whether the EPA can use cost-benefit analysis, which is the only question presented here. It seems to us, in any case, that the EPA\u2019s explanation was ample. It explained that the \u201cwholly out of proportion\u201d standard was inappropriate for the existing facilities subject to the Phase II rules because those facilities lack \u201cthe greater flexibility available to new facilities for selecting the location of their intakes and installing technologies at lower costs relative to the costs associated with retrofitting existing facilities,\u201d and because \u201ceconomically impracticable impacts on energy prices, production costs, and energy production . . . could occur if large numbers of Phase II existing facilities incurred costs that were more than \u2018significantly greater\u2019 than but not \u2018wholly out of proportion\u2019 to the costs in the EPA\u2019s record.\u201d 68 Fed. Reg. 13541 (2003).",
+        "type": "majority",
+        "author": "Justice Scalia"
+      },
+      {
+        "text": "Justice Breyer,\nconcurring in part and dissenting in part.\nI agree with the Court that the relevant statutory language authorizes the Environmental Protection Agency (EPA or Agency) to compare costs and benefits. Ante, at 217-223. Nonetheless the drafting history and legislative history of related provisions, Pub. L. 92-500, \u00a7\u00a7301, 304, 86 Stat. 844, 850, as amended, 33 U. S. C. \u00a7\u00a7 1311, 1314, make clear that those who sponsored the legislation intended the law\u2019s text to be read as restricting, though not forbidding, the use of cost-benefit comparisons. And I would apply that text accordingly.\nI\nSection 301 provides that, not later than 1977, effluent limitations for point sources shall require the application of \u201cbest practicable control technology,\u201d \u00a7 301(b)(1)(A), 86 Stat. 845 (emphasis added); and that, not later than 1983 (later extended to 1989), effluent limitations for categories and classes of point sources shall require application of the \u201cbest available technology economically achievable,\u201d \u00a7 301(b) (2)(A), ibid, (emphasis added). Section 304(b), in turn, identifies the factors that the Agency shall take into account in determining (1) \u201cbest practicable control technology\u201d and (2) \u201cbest available technology.\u201d 86 Stat. 851 (emphasis added).\nWith respect to the first, the statute provides that the factors taken into account by the Agency \u201cshall include consideration of the total cost of application of technology in relation to the effluent reduction benefits to be achieved from such application... and such other factors as the Administrator deems appropriate.\u201d \u00a7 304(b)(1)(B), ibid With respect to the second, the statute says that the Agency \u201cshall take into account... the cost of achieving such effluent reduction\u201d and \u201csuch other factors as the Administrator deems appropriate.\u201d \u00a7 304(b)(2)(B), ibid.\nThe drafting history makes clear that the statute reflects a compromise. In the House version of the legislation, the Agency was to consider \u201cthe cost and the economic, social, and environmental impact of achieving such effluent reduction\u201d when determining both \u201cbest practicable\u201d and \u201cbest available\u201d technology. H. R. 11896, 92d Cong., 2d Sess., \u00a7\u00a7 304(b)(1)(B), (b)(2)(B) (1972) (as reported from Committee). The House Report explained that the \u201cbest available technology\u201d standard was needed \u2014 as opposed to mandating the elimination of discharge of pollutants \u2014 because \u201cthe difference in the cost of 100 percent elimination of pollutants as compared to the cost of removal of 97-99 percent of the pollutants in an effluent can far exceed any reasonable benefit to be achieved. In most cases, the cost of removal of the last few percentage points increases expo[n]entially.\u201d H. R. Rep. No. 92-911, p. 103 (1972).\nIn the Senate version, the Agency was to consider \u201cthe cost of achieving such effluent reduction\u201d when determining both \u201cbest practicable\u201d and \u201cbest available\u201d technology. S. 2770, 92d Cong., 1st Sess., \u00a7\u00a7 304(b)(1)(B), (b)(2)(B) (1971) (as reported from Committee). The Senate Report explains that \u201cthe technology must be available at a cost . . . which the Administrator determines to be reasonable.\u201d S. Rep. No. 92-414, p. 52 (1971) (hereinafter S. Rep.). But it said nothing about comparing costs and benefits.\nThe final statute reflects a modification of the House\u2019s language with respect to \u201cbest practicable,\u201d and an adoption of the Senate\u2019s language with respect to \u201cbest available\u201d S. Conf. Rep. No. 92-1236, pp. 124-125 (1972). The final statute does not require the Agency to compare costs to benefits when determining \u201cbest available technology,\u201d but neither does it expressly forbid such a comparison.\nThe strongest evidence in the legislative history supporting the respondents\u2019 position \u2014 namely, that Congress intended to forbid comparisons of costs and benefits when determining the \u201cbest available technology\u201d \u2014 can be found in a written discussion of the Act\u2019s provisions distributed to the Senate by Senator Edmund Muskie, the Act\u2019s principal sponsor, when he submitted the Conference Report for the Senate\u2019s consideration. 118 Cong. Rec. 33693 (1972). The relevant part of that discussion points out that, as to \u201cbest practicable technology,\u201d the statute requires application of a \u201cbalancing test between total cost and effluent reduction benefits.\u201d Id., at 33696; see \u00a7 304(b)(1)(B). But as to \u201cbest available technology,\u201d it states: \u201cWhile cost should be a factor in the Administrator\u2019s judgment, no balancing test will be required.\u201d Ibid.; see \u00a7 304(b)(2)(B). And Senator Muskie\u2019s discussion later speaks of the Agency \u201cevaluating] . . . what needs to be done\u201d to eliminate pollutant discharge and \u201cwhat is achievable,\u201d both \u201cwithout regard to cost.\u201d Ibid.\nAs this language suggests, the Act\u2019s sponsors had reasons for minimizing the EPA\u2019s investigation of, and reliance upon, cost-benefit comparisons. The preparation of formal cost-benefit analyses can take too much time, thereby delaying regulation. And the sponsors feared that such analyses would emphasize easily quantifiable factors over more qualitative factors (particularly environmental factors, for example, the value of preserving nonmarketable species of fish). See S. Rep., at 47. Above all, they hoped that minimizing the use of cost-benefit comparisons would force the development of cheaper control technologies; and doing so, whatever the initial inefficiencies, would eventually mean cheaper, more effective cleanup. See id., at 50-51.\nNonetheless, neither the sponsors\u2019 language nor the underlying rationale requires the Act to be read in a way that would forbid cost-benefit comparisons. Any such total prohibition would be difficult to enforce, for every real choice requires a decisionmaker to weigh advantages against disadvantages, and disadvantages can be seen in terms of (often quantifiable) costs. Moreover, an absolute prohibition would bring about irrational results. As the respondents themselves say, it would make no sense to require plants to \u201cspend billions to save one more fish or plankton.\u201d Brief for Respondent Riverkeeper, Ine., et al. 29. That is so even if the industry might somehow afford those billions. And it is particularly so in an age of limited resources available to deal with grave environmental problems, where too much wasteful expenditure devoted to one problem may well mean considerably fewer resources available to deal effectively with other (perhaps more serious) problems.\nThus Senator Muskie used nuanced language, which one can read as leaving to the Agency a degree of authority to make cost-benefit comparisons in a manner that is sensitive both to the need for such comparisons and to the concerns that the law\u2019s sponsors expressed. The relevant statement begins by listing various factors that the statute requires the Administrator to take into account when applying the phrase \u201cpracticable\u201d to \u201cclasses and categories.\u201d 118 Cong. Rec. 33696. It states that, when doing so, the Administrator must apply (as the statute specifies) a \u201cbalancing test between total cost and effluent reduction benefits.\u201d Ibid. At the same time, it seeks to reduce the likelihood that the Administrator will place too much weight upon high costs by adding that the balancing test \u201cis intended to limit the application of technology only where the additional degree of effluent reduction is wholly out of proportion to the costs of achieving\u201d a \u201cmarginal level of reduction.\u201d Ibid.\nSenator Muskie\u2019s statement then considers the \u201cdifferent test\u201d that the statute requires the Administrator to apply when determining the \u201c\u2018best available\u2019\u201d technology. Ibid. (emphasis added). Under that test, the Administrator \u201cmay consider a broader range of technological alternatives.\u201d Ibid. And in determining what is \u201c\u2018best available\u2019 for a category or class, the Administrator is expected to apply the same principles involved in making the determination of \u2018best practicable\u2019 . . . except as to cost-benefit analysis.\u201d Ibid, (emphasis added). That is, \u201c[w]hile cost should be a factor... no balancing test will be required.\u201d Ibid, (emphasis added). Rather, \u201c[t]he Administrator will be bound by a test of reasonableness\u201d Ibid, (emphasis added). The statement adds that the \u201c \u2018best available\u2019 \u201d standard \u201cis intended to reflect the need to press toward increasingly higher levels of control.\u201d Ibid, (emphasis added). And \u201cthe reasonableness of what is \u2018economically achievable\u2019 should reflect an evaluation of what needs to be done to move toward the elimination of the discharge of pollutants and what is achievable through the application of available technology \u2014 without regard to cost.\u201d Ibid, (emphasis added).\nI believe, as I said, that this language is deliberately nuanced. The statement says that where the statute uses the term \u201cbest practicable,\u201d the statute requires comparisons of costs and benefits; but where the statute uses the term \u201cbest available,\u201d such comparisons are not \u201crequired\u201d Ibid, (emphasis added). Senator Muskie does not say that all efforts to compare costs and benefits are forbidden.\nMoreover, the statement points out that where the statute uses the term \u201cbest available,\u201d the Administrator \u201cwill be bound by a test of reasonableness.\u201d Ibid, (emphasis added). It adds that the Administrator should apply this test in a way that reflects its ideal objective, moving as closely as is technologically possible to the elimination of pollution. It thereby says the Administrator should consider, i. e., take into account, how much pollution would still remain if the best available technology were to be applied everywhere\u2014 \u201cwithout regard to cost.\u201d Ibid. It does not say that the Administrator must set the standard based solely on the result of that determination. (It would be difficult to reconcile the alternative, more absolute reading of this language with the Senator\u2019s earlier \u201ctest of reasonableness.\u201d)\nI say that one may, not that one must, read Senator Muskie\u2019s statement this way. But to read it differently would put the Agency in conflict with the test of reasonableness by threatening to impose massive costs far in excess of any benefit. For 30 years the EPA has read the statute and its history in this way. The EPA has thought that it would not be \u201creasonable to interpret Section 316(b) as requiring use of technology whose cost is wholly disproportionate to the environmental benefit to be gained.\u201d In re Pub. Serv. Co. of N. H. (Seabrook Station, Units 1 and 2), 1 E. A. D. 332, 340 (1977), remanded on other grounds, Seacoast Anti-Pollution League v. Costle, 572 F. 2d 872 (CA1 1978) (emphasis added); see also In re Central Hudson Gas & Elec. Corp., EPA General Counsel Opinions, NPDES Permits, No. 63, p. 371 (July 29, 1977) (also applying a \u201cwholly disproportionate\u201d test); In re Pub. Serv. Co. of N. U., 1 E. A. D. 455 (1978) (same). \u201c[TJhis Court will normally accord particular deference to an agency interpretation of \u2018longstanding\u2019 duration.\u201d Barnhart v. Walton, 535 U. S. 212, 220 (2002). And for the last 30 years, the EPA has given the statute a permissive reading without suggesting that in doing so it was ignoring or thwarting the intent of the Congress that wrote the statute.\nThe EPA\u2019s reading of the statute would seem to permit it to describe environmental benefits in non-monetized terms and to evaluate both costs and benefits in accordance with its expert judgment and scientific knowledge. The Agency can thereby avoid lengthy formal cost-benefit proceedings and futile attempts at comprehensive monetization, see 69 Fed. Reg. 41661-41662 (2004); take account of Congress\u2019 technology-forcing objectives; and still prevent results that are absurd or unreasonable in light of extreme disparities between costs and benefits. This approach, in my view, rests upon a \u201creasonable interpretation\u201d of the statute\u2014 legislative history included. Hence it is lawful. Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc., 467 U. S. 837, 844 (1984). Most of what the majority says is consistent with this view, and to that extent I agree with its opinion.\nII\nThe eases before us, however, present an additional problem. We here consider a rule that permits variances from national standards if a facility demonstrates that its costs would be \u201csignificantly greater than the benefits of complying.\u201d 40 CFR \u00a7 125.94(a)(5)(ii) (2008). The words \u201csignificantly greater\u201d differ from the words the EPA has traditionally used to describe its standard, namely, \u201cwholly disproportionate.\u201d Perhaps the EPA does not mean to make much of that difference. But if it means the new words to set forth a new and different test, the EPA must adequately explain why it has changed its standard. Motor Vehicle Mfrs. Assn. of United States, Inc. v. State Farm Mut. Automobile Ins. Co., 468 U. S. 29, 42-43 (1983); National Cable & Telecommunications Assn. v. Brand X Internet Services, 545 U. S. 967, 981 (2005); Thomas Jefferson Univ. v. Shalala, 512 U. S. 504, 524, n. 3 (1994) (Thomas, J., dissenting).\nI am not convinced the EPA has successfully explained the basis for the change. It has referred to the fact that existing facilities have less flexibility than new facilities with respect to installing new technologies, and it has pointed to special, energy-related impacts of regulation. 68 Fed. Reg. 13541 (2003) (proposed rule). But it has not explained why the traditional \u201cwholly disproportionate\u201d standard cannot do the job now, when the EPA has used that standard (for existing facilities and otherwise) with apparent success in the past. See, e. g., Central Hudson, supra.\nConsequently, like the majority, I would remand these cases to the Court of Appeals. But unlike the majority I would permit that court to remand the cases to the EPA so that the EPA can either apply its traditional \u201cwholly disproportionate\u201d standard or provide an adequately reasoned explanation for the change.\nJustice Stevens, with whom Justice Souter and Justice Ginsburg join, dissenting.\nSection 316(b) of the Clean Water Act (CWA), 33 U. S. C. \u00a7 1326(b), which governs industrial powerplant water intake structures, provides that the Environmental Protection Agency (EPA or Agency) \u201cshall require\u201d that such structures \u201creflect the best technology available for minimizing adverse environmental impact.\u201d The EPA has interpreted that mandate to authorize the use of cost-benefit analysis in promulgating regulations under \u00a7 316(b). For instance, under the Agency\u2019s interpretation, technology that would otherwise qualify as the best available need not be used if its costs are \u201csignificantly greater than the benefits\u201d of compliance. 40 CFR \u00a7 125.94(a)(5)(ii) (2008).\nLike the Court of Appeals, I am convinced that the EPA has misinterpreted the plain text of \u00a7 316(b). Unless costs are so high that the best technology is not \u201cavailable,\u201d Congress has decided that they are outweighed by the benefits of minimizing adverse environmental impact. Section 316(b) neither expressly nor implicitly authorizes the EPA to use cost-benefit analysis when setting regulatory standards; fairly read, it prohibits such use.\nI\nAs typically performed by the EPA, cost-benefit analysis requires the Agency to first monetize the costs and benefits of a regulation, balance the results, and then choose the regulation with the greatest net benefits. The process is particularly controversial in the environmental context in which a regulation\u2019s financial costs are often more obvious and easier to quantify than its environmental benefits. And cost-benefit analysis often, if not always, yields a result that does not maximize environmental protection.\nFor instance, although the EPA estimated that water intake structures kill 3.4 billion fish and shellfish each year, see 69 Fed. Reg. 41586 (2004), the Agency struggled to calculate the value of the aquatic life that would be protected under its \u00a7 316(b) regulations, id., at 41661. To compensate, the EPA took a shortcut: Instead of monetizing all aquatic life, the Agency counted only those species that are commercially or recreationally harvested, a tiny slice (1.8 percent to be precise) of all impacted fish and shellfish. This narrow focus in turn skewed the Agency\u2019s calculation of benefits. When the EPA attempted to value all aquatic life, the benefits measured $735 million.* But when the EPA decided to give zero value to the 98.2 percent of fish not commercially or recreationally harvested, the benefits calculation dropped dramatically \u2014 to $83 million. Id., at 41666. The Agency acknowledged that its failure to monetize the other 98.2 percent of affected species \u201c \u2018could result in serious misalloeation of resources,\u2019\u201d id., at 41660, because its \u201ccomparison of complete costs and incomplete benefits does not provide an accurate picture of net benefits to society.\u201d\nBecause benefits can be more accurately monetized in some industries than in others, Congress typically decides whether it is appropriate for an agency to use cost-benefit analysis in crafting regulations. Indeed, this Court has recognized that \u201c[w]hen Congress has intended that an agency engage in cost-benefit analysis, it has clearly indicated such intent on the face of the statute.\u201d American Textile Mfrs. Institute, Inc. v. Donovan, 452 U. S. 490, 510 (1981). Accordingly, we should not treat a provision\u2019s silence as an implicit source of cost-benefit authority, particularly when such authority is elsewhere expressly granted and it has the potential to fundamentally alter an agency\u2019s approach to regulation. Congress, we have noted, \u201cdoes not alter the fundamental details of a regulatory scheme in vague terms or ancillary provisions \u2014 it does not, one might say, hide elephants in mouseholes.\u201d Whitman v. American Trucking Assns., Inc., 531 U. S. 457, 468 (2001).\nWhen interpreting statutory silence in the past, we have sought guidance from a statute\u2019s other provisions. Evidence that Congress confronted an issue in some parts of a statute, while leaving it unaddressed in others, can demonstrate that Congress meant its silence to be decisive. We concluded as much in American Trucking. In that case, the Court reviewed a claim that \u00a7 109 of the Clean Air Act (CAA), 42 U. S. C. \u00a7 7409(a) (2000 ed.), authorized the EPA to consider implementation costs in setting ambient air quality standards. We read \u00a7 109, which was silent on the matter, to prohibit Agency reliance on cost considerations. After examining other provisions in which Congress had given the Agency authority to consider costs, the Court \u201crefused to find implicit in ambiguous sections of the CAA an authorization to consider costs that has elsewhere, and so often, been expressly granted.\u201d 531 U. S., at 467. Studied silence, we thus concluded, can be as much a prohibition as an explicit \u201cno.\u201d\nFurther motivating the Court in American Trucking was the fact that incorporating implementation costs into the Agency\u2019s calculus risked countermanding Congress\u2019 decision to protect public health. The cost of implementation, we said, \u201cis both so indirectly related to public health and so full of potential for canceling the conclusions drawn from direct health effects that it would surely have been expressly mentioned in [the text] had Congress meant it to be considered.\u201d Id., at 469.\nAmerican Trucking\u2019s approach should have guided the Court\u2019s reading of \u00a7 316(b). Nowhere in the text of \u00a7 316(b) does Congress explicitly authorize the use of cost-benefit analysis as it does elsewhere in the CWA. And the use of cost-benefit analysis, like the consideration of implementation costs in American Trucking, \u201cpad[s]\u201d \u00a7316(b)\u2019s environmental mandate with tangential economic efficiency concerns. Id., at 468. Yet the majority fails to follow American Trucking despite that case\u2019s obvious relevance to our inquiry.\nII\nIn 1972, Congress amended the CWA to strike a careful balance between the country\u2019s energy demands and its desire to protect the environment. The Act required industry to adopt increasingly advanced technology capable of mitigating its detrimental environmental impact. Not all point sources were subject to strict rules at once. Existing plants were granted time to retrofit with the best technology while new plants were required to incorporate such technology as a matter of design. Although Congress realized that technology standards would necessarily put some firms out of business, see EPA v. National Crushed Stone Assn., 449 U. S. 64, 79 (1980), the statute\u2019s steady march was toward stricter rules and potentially higher costs.\nSection 316(b) was an integral part of the statutory scheme. The provision instructs that \u201c[a]ny standard established pursuant to section 1311 of this title or section 1316 of this title and applicable to a point source shall require that the location, design, construction, and capacity of cooling water intake structures reflect the best technology available for minimizing adverse environmental impact.\u201d 33 U. S. C. \u00a7 1326(b) (2006 ed.) (emphasis added). The \u201cbest technology available,\u201d or \u201cBTA,\u201d standard delivers a clear command: To minimize the adverse environmental impact of water intake structures, the EPA must require industry to adopt the best technology available.\nBased largely on the observation that \u00a7 316(b)\u2019s text offers little guidance and therefore delegates some amount of gap-filling authority to the EPA, the Court concludes that the Agency has discretion to rely on cost-benefit analysis. See ante, at 222-223. The Court assumes that, by not specifying how the EPA is to determine BTA, Congress intended to give considerable discretion to the EPA to decide how to proceed. Silence, in the majority\u2019s view, represents ambiguity and an invitation for the Agency to decide for itself which factors should govern its regulatory approach.\nThe appropriate analysis requires full consideration of the CWA\u2019s structure and legislative history to determine whether Congress contemplated cost-benefit analysis and, if so, under what circumstances it directed the EPA to utilize it. This approach reveals that Congress granted the EPA authority to use cost-benefit analysis in some contexts but not others, and that Congress intended to control, not delegate, when cost-benefit analysis should be used. See Chevron U. S. A. Inc. v. Natural Resources Defense Council, Inc., 467 U. S. 837, 842-843 (1984).\nPowerful evidence of Congress\u2019 decision not to authorize cost-benefit analysis in the BTA standard lies in the series of standards adopted to regulate the outflow, or effluent, from industrial powerplants. Passed at the same time as the BTA standard at issue here, the effluent limitation standards imposed increasingly strict technology requirements on industry. In each effluent limitation provision, Congress distinguished its willingness to allow the EPA to consider costs from its willingness to allow the Agency to conduct a cost-benefit analysis. And to the extent Congress permitted cost-benefit analysis, its use was intended to be temporary and exceptional.\nThe first tier of technology standards applied to existing plants \u2014 facilities for which retrofitting would be particularly costly. Congress required these plants to adopt \u201ceffluent limitations ... which shall require the application of the best practicable control technology currently available.\u201d 33 U. S. C. \u00a7 1311(b)(1)(A). Because this \u201cbest practicable,\u201d or \u201cBPT,\u201d standard was meant to ease industry\u2019s transition to the new technology-based regime, Congress gave BPT two unique features: First, it would be temporary, remaining in effect only until July 1,1983. Second, it specified that the EPA was to conduct a cost-benefit analysis in setting BPT requirements by considering \u201cthe total cost of application of technology in relation to the effluent reduction benefits to be achieved from such application.\u201d \u00a7 1314(b)(1)(B). Permitting cost-benefit analysis in BPT gave the EPA the ability to cushion the new technology requirement. For a limited time, a technology with costs that exceeded its benefits would not be considered \u201cbest.\u201d\nThe second tier of technology standards required existing powerplants to adopt the \u201cbest available technology economically achievable\u201d to advance \u201cthe national goal of eliminating the discharge of all pollutants.\u201d \u00a7 1311(b)(2)(A). In setting this \u201cbest available technology,\u201d or \u201cBAT,\u201d standard, Congress gave the EPA a notably different command for deciding what technology would qualify as \u201cbest\u201d: The EPA was to consider, among other factors, \u201cthe cost of achieving such effluent reduction,\u201d but Congress did not grant it authority to balance costs with the benefits of stricter regulation. \u00a7 1314(b)(2)(B). Indeed, in Crushed Stone this Court explained that the difference between BPT and BAT was the existence of cost-benefit authority in the first and the absence of that authority in the second. See 449 U. S., at 71 (\u201cSimilar directions are given the Administrator for determining effluent reductions attainable from the BAT except that in assessing BAT total cost is no longer to be considered in comparison to effluent reduction benefits\u201d).\nThe BAT standard\u2019s legislative history strongly supports the view that Congress purposefully withheld cost-benefit authority for this tier of regulation. See ibid., n. 10. The House of Representatives and the Senate split over the role cost-benefit analysis would pl\u00e1y in the BAT provision. The House favored the tool, see H. R. Rep. No. 92-911, p. 107 (1972), 1 Leg. Hist. 794, while the Senate rejected it, see 2 id., at 1183; id., at 1132. The Senate view ultimately prevailed in the final legislation, resulting in a BAT standard that was \u201cnot subject to any test of cost in relation to effluent reduction benefits or any form of cost/benefit analysis.\u201d 3 Legislative History of the Clean Water Act of 1977: A Continuation of the Legislative History of the Federal Water Pollution Control Act (Committee Print compiled for the\nSenate Committee on Environment and Public Works by the Library of Congress), Ser. No. 95-14, p. 427 (1978).\nThe third and strictest regulatory tier was reserved for new point sources \u2014 facilities that could incorporate technology improvements into their initial design. These new facilities were required to adopt \u201cthe best available demonstrated control technology,\u201d or \u201cBADT,\u201d which Congress described as \u201ca standard . . . which reflects] the greatest degree of effluent reduction.\u201d \u00a7 1316(a)(1). In administering BADT, Congress directed the EPA to consider \u201cthe cost of achieving such effluent reduction.\u201d \u00a7 1316(b)(1)(B). But because BADT was meant to be the most stringent standard of all, Congress made no mention of cost-benefit analysis. Again, the silence was intentional. The House\u2019s version of BADT originally contained an exemption for point sources for which \u201cthe economic, social, and environmental costs bear no reasonable relationship to the economic, social, and environmental benefit to be obtained.\u201d 1 Leg. Hist. 798. That this exemption did not appear in the final legislation demonstrates that Congress considered, and rejected, reliance on cost-benefit analysis for BADT.\nIt is in this light that the BTA standard regulating water intake structures must be viewed. The use of cost-benefit analysis was a critical component of the CWA\u2019s structure and a key concern in the legislative process. We should therefore conclude that Congress intended to forbid cost-benefit analysis in one provision of the Act in which it was silent on the matter when it expressly authorized its use in another. See, e. g., Allison Engine Co. v. United States ex rel. Sanders, 553 U. S. 662, 671 (2008); Russello v. United States, 464 U. S. 16, 23 (1983) (\u201c[W]here Congress includes particular language in one section of a statute but omits it in another . . . , it is generally presumed that Congress acts intentionally and purposely in the disparate inclusion or exclusion\u201d (internal quotation marks omitted)). This is particularly true given Congress\u2019 decision that cost-benefit analysis would play a temporary and exceptional role in the CWA to help existing plants transition to the Act\u2019s ambitious environmental standards. Allowing cost-benefit analysis in the BTA standard, a permanent mandate applicable to all power-plants, serves no such purpose and instead fundamentally weakens the provision\u2019s mandate.\nAccordingly, I would hold that the EPA is without authority to perform cost-benefit analysis in setting BTA standards. To the extent the EPA relied on cost-benefit analysis in establishing its BTA regulations, that action was contrary to law, for Congress directly foreclosed such reliance in the statute itself. Chevron, 467 U. S., at 843. Because we granted certiorari to decide only whether the EPA has authority to conduct cost-benefit analysis, there is no need to define the universe of considerations upon which the EPA can properly rely in administering the BTA standard. I would leave it to the Agency to decide how to proceed in the first instance.\nIll\nBecause the Court unsettles the scheme Congress established, I respectfully dissent.\nTo produce energy, industrial powerplants withdraw billions of gallons of water daily from our Nation\u2019s waterways. Thermoelectric powerplants alone demand 39 percent of all freshwater withdrawn nationwide. See Dept, of Energy, Addressing the Critical Link Between Fossil Energy and Water 2 (Oct. 2005), http://www.netl.doe.gov/technologies/coalpower/ewr/ pubs/NETL_Water_Paper_Final_Oct.2005.pdf (all Internet materials as visited Mar. 18,2009, and available in Clerk of Court\u2019s case file). The fish and shellfish are killed by \u201cimpingement\u201d or \u201centrainment.\u201d Impingement occurs when aquatic organisms are trapped against the screens and grills of water intake structures. Entrainment occurs when these organisms are drawn into the intake structures. See Riverkeeper, Inc. v. EPA, 475 F. 3d 83, 89 (CA2 2007); 69 Fed. Reg. 41586 (2004).\nEPA, Economic and Benefits Analysis for the Proposed Section 316(b) Phase II Existing Facilities Rule, p. Dl-4 (EPA-821-R-02-001, Feb. 2002), http://www.epa.gov/waterscience/316b/phase2/econbenefits.\nEPA, Economic and Benefits Analysis for the Final Section 316(b) Phase II Existing Facilities Rule, p. Dl-5 (EPA-821-R-04-005, Feb. 2004), http://www.epa.gov/waterscience/316b/phase2/econbenefits/final.htm.\nThe two cross-referenced provisions, \u00a7\u00a71311 and 1316, also establish \u201cbest technology\u201d standards, the first applicable to existing point sources and the second to new facilities. The reference to these provisions in \u00a7 316(b) merely requires any rule promulgated under those provisions, when applied to a point source with a water intake structure, to incorporate \u00a7 316(b) standards.\nThe majority announces at the outset that the EPA\u2019s reading of the BTA standard \u201cgoverns if it is a reasonable interpretation of the statute\u2014 not necessarily the only possible interpretation, nor even the interpretation deemed most reasonable by the courts.\u201d Ante, at 218. This observation is puzzling in light of the commonly understood practice that, as a first step, we ask \u201cwhether Congress has directly spoken to the precise question at issue.\u201d Chevron, 467 U. S., at 842. Only later, if Congress\u2019 intent is not clear, do we consider the reasonableness of the agency\u2019s action. Id., at 843. Assuming ambiguity and moving to the second step reflects the Court\u2019s reluctance to consider the possibility, which it later laments is \u201cmore complex,\u201d ante, at 220, that Congress\u2019 silence may have meant to foreclose cost-benefit analysis.\nCongress later extended the deadline to March 31,1989.\nSenator Muskie, the Senate sponsor of the legislation, described the cost-benefit analysis permitted under BPT as decidedly narrow, asserting that \u201c[t]he balancing test between total cost and effluent reduction benefits is intended to limit the application of technology only where the additional degree of effluent reduction is wholly out of proportion to the costs of achieving such marginal level of reduction for any class or category of sources.\u201d 1 Legislative History of the Water Pollution Control Act Amendments of 1972 (Committee Print compiled for the Senate Committee on Public Works by the Library of Congress), Ser. No. 93-1, p. 170 (1973) (hereinafter Leg. Hist.)\nAlthough the majority calls this \u201cBATEA,\u201d the parties refer to the provision as \u201cBAT,\u201d and for simplicity, so will I.\nThe Court argues that, if silence in \u00a7 316(b) signals the prohibition of cost-benefit analysis, it must also foreclose the consideration of all other potentially relevant discretionary factors in setting BTA standards. Ante, at 222. This all-or-nothing reasoning rests on the deeply flawed assumption that Congress treated cost-benefit analysis as just one among many factors upon which the EPA could potentially rely to establish BTA. Yet, as explained above, the structure and legislative history of the CWA demonstrate that Congress viewed cost-benefit analysis with special skepticism and controlled its use accordingly. The Court\u2019s assumption of equivalence is thus plainly incorrect. Properly read, Congress\u2019 silence in \u00a7 316(b) forbids reliance on the cost-benefit tool but does not foreclose reliance on all other considerations, such as a determination whether a technology is so costly that it is not \u201cavailable\u201d for industry to adopt.\nIn 1977, Congress established an additional technology-based standard, commonly referred to as \u201cbest conventional pollutant control technology,\u201d or \u201cBCT,\u201d to govern conventional pollutants previously covered by the BAT standard. See 33 U.S.C. \u00a7 1311(b)(2)(E). The BCT standard required the EPA to consider, among other factors, \u201cthe relationship between the costs of attaining a reduction in effluents and the effluent reduction benefits derived.\u201d \u00a7 1314(b)(4)(B). That Congress expressly authorized cost-benefit analysis in BCT further confirms that Congress treated cost-benefit analysis as exceptional and reserved for itself the authority to decide when it would be used in the Act.\nThe Court attempts to cabin its holding by suggesting that a \u201crigorous form of cost-benefit analysis,\u201d such as the form \u201cprescribed under the statute\u2019s former BPT standard,\u201d may not be permitted for setting BTA regulations. Ante, at 223. Thus the Court has effectively instructed the Agency that it can perform a cost-benefit analysis so long as it does not resemble the kind of cost-benefit analysis Congress elsewhere authorized in the CWA. The majority\u2019s suggested limit on the Agency\u2019s discretion can only be read as a concession that cost-benefit analysis, as typically performed, may be inconsistent with the BTA mandate.\nThe \u201cnational performance standards\u201d the EPA adopted were shaped by economic efficiency concerns at the expense of finding the technology that best minimizes adverse environmental impact. In its final rule-making, the Agency declined to require industrial plants to adopt closed-cycle cooling technology, which by recirculating cooling-water requires less water to be withdrawn and thus fewer aquatic organisms to be killed. Riverkeeper, Inc. v. EPA, 358 F. 3d 174, 182, n. 5 (CA2 2004); 69 Fed. Reg. 41601, and n. 44. This the Agency decided despite its acknowledgment that \u201cclosed-cycle, recirculating cooling systems ... can reduce mortality from impingement by up to 98 percent and entrainment by up to 98 percent.\u201d Id., at 41601. The EPA instead permitted individual plants to resort to a \u201csuite\u201d of options so long as the method used reduced impingement and entrainment by the more modest amounts of 80 and 60 percent, respectively. See 40 CFR \u00a7 125.94(b) (2008). The Agency also permitted individual plants to obtain a site-specific variance from the national performance standards if they could prove (1) that compliance costs would be \u201csignificantly greater than\u201d those the Agency considered when establishing the standards, or (2) that compliance costs \u201cwould be significantly greater than the benefits of complying with the applicable performance standards,\u201d \u00a7 125.94(a)(5).\nThus, the Agency\u2019s past reliance on a \u201cwholly disproportionate\u201d standard, a mild variant of cost-benefit analysis, is irrelevant. See ante, at 224-225 (majority opinion). Because \u201cCongress has directly spoken to the precise question at issue,\u201d Chevron, 467 U. S., at 842, longstanding yet impermissible agency practice cannot ripen into permissible agency practice.",
+        "type": "concurring-in-part-and-dissenting-in-part",
+        "author": "Justice Breyer,"
+      }
+    ],
+    "attorneys": [
+      "Maureen E. Mahoney argued the cause for petitioners. With her on the briefs for petitioners Entergy Corp. et al. were J. Scott Ballenger, Cassandra S. Bernstein, Elise N. Zoli, Kevin P. Martin, Abigail Hemani, Chuck D. Barlow, and John G. Valeri, Jr. Kristy A. N. Bulleit filed briefs for petitioner Utility Water Act Group.",
+      "Deputy Solicitor General Joseffer argued the cause for the federal parties as respondents under this Court\u2019s Rule 12.6 in support of petitioners. With him on the briefs were former Solicitor General Garre, Assistant Attorney General Tenpas, Deputy Solicitor General Kneedler, Cynthia J. Morris, and Jessica O'Donnell.",
+      "Richard J. Lazarus argued the cause for respondents. With him on the brief for respondents Riverkeeper, Inc., et al. were Reed W. Super, Edward Lloyd, and P. Kent Cor rell. A brief for respondents State of Rhode Island et al. was filed by Patrick C. Lynch, Attorney General of Rhode Island, and Trida O\u2019Hare Jedele, Special Assistant Attorney General, Richard Blumenthal, Attorney General of Connecticut, and Kimberly Massicotte and Matthew Levine, Assistant Attorneys General, Martha Coakley, Attorney General of Massachusetts, and Andrew Goldberg, Assistant Attorney General, Andrew M. Cuomo, Attorney General of New York, Barbara D. Underwood, Solicitor General, Andy D. Bing, Deputy Solicitor General, Denise A. Hartman, Assistant Solicitor General, and Maureen F. Leary, Assistant Attorney General, Joseph R. Biden III, Attorney General of Delaware, and Kevin Maloney, Deputy Attorney General, Anne Mil-gram, Attorney General of New Jersey, and Ellen Barney Balint, Deputy Attorney General."
+    ],
+    "corrections": "",
+    "head_matter": "ENTERGY CORP. v. RIVERKEEPER, INC., et al.\nNo. 07-588.\nArgued December 2, 2008\nDecided April 1, 2009\nMaureen E. Mahoney argued the cause for petitioners. With her on the briefs for petitioners Entergy Corp. et al. were J. Scott Ballenger, Cassandra S. Bernstein, Elise N. Zoli, Kevin P. Martin, Abigail Hemani, Chuck D. Barlow, and John G. Valeri, Jr. Kristy A. N. Bulleit filed briefs for petitioner Utility Water Act Group.\nDeputy Solicitor General Joseffer argued the cause for the federal parties as respondents under this Court\u2019s Rule 12.6 in support of petitioners. With him on the briefs were former Solicitor General Garre, Assistant Attorney General Tenpas, Deputy Solicitor General Kneedler, Cynthia J. Morris, and Jessica O'Donnell.\nRichard J. Lazarus argued the cause for respondents. With him on the brief for respondents Riverkeeper, Inc., et al. were Reed W. Super, Edward Lloyd, and P. Kent Cor rell. A brief for respondents State of Rhode Island et al. was filed by Patrick C. Lynch, Attorney General of Rhode Island, and Trida O\u2019Hare Jedele, Special Assistant Attorney General, Richard Blumenthal, Attorney General of Connecticut, and Kimberly Massicotte and Matthew Levine, Assistant Attorneys General, Martha Coakley, Attorney General of Massachusetts, and Andrew Goldberg, Assistant Attorney General, Andrew M. Cuomo, Attorney General of New York, Barbara D. Underwood, Solicitor General, Andy D. Bing, Deputy Solicitor General, Denise A. Hartman, Assistant Solicitor General, and Maureen F. Leary, Assistant Attorney General, Joseph R. Biden III, Attorney General of Delaware, and Kevin Maloney, Deputy Attorney General, Anne Mil-gram, Attorney General of New Jersey, and Ellen Barney Balint, Deputy Attorney General.\nTogether with No. 07-589, PSEG Fossil LLC et al. v. Riverkeeper, Inc., et al., and No. 07-597, Utility Water Act Group v. Riverkeeper, Inc., et al., also on certiorari to the same court.\nBriefs of amici curiae urging reversal were filed for the State of Nebraska et al. by Jon Bruning, Attorney General of Nebraska, and David D. Cookson, Chief Deputy Attorney General, and by the Attorneys General and other officials for their respective States as follows: Troy King, Attorney General of Alabama, Dustin McDaniel, Attorney General of Arkansas, John W. Suthers, Attorney General of Colorado, Bill McCollum, Attorney General of Florida, Steve Carter, Attorney General of Indiana, Stephen N. Six, Attorney General of Kansas, and Jared S. Maag, Deputy Solicitor General, Jack Conway, Attorney General of Kentucky, James D. Caldwell, Attorney General of Louisiana, Michael A. Cox, Attorney General of Michigan, Jeremiah W. (Jay) Nixon, Attorney General of Missouri, Gary K. King, Attorney General of New Mexico, Wayne Stenehjem, Attorney General of North Dakota, Henry McMaster, Attorney General of South Carolina, Robert E. Cooper, Jr., Attorney General of Tennessee, Greg Abbott, Attorney General of Texas, and Robert F. McDonnell, Attorney General of Virginia, and William E. Thro, State Solicitor General; for the American Chemistry Council et al. by Russell S. Frye, Leslie A. Hulse, Richard S. Wasserstrom, Robin S. Conrad, Amar D. Sarwal, Jan S. Amundson, and Quentin Riegel; for the American Petroleum Institute by Daniel P. Albers, David T. Ballard, Harry Ng, and Michael See; for the California Council for Environmental and Economic Balance by Kevin M. Fong; for the National Association of Home Builders by Messrs. Albers and Ballard, Duane J. Desiderio, and Thomas J. Ward; for the Nuclear Energy Institute by Seth P. Waxman, Edward C. DuMont, Brian M. Boynton, and Ellen C. Ginsberg; and for the Pacific Legal Foundation by M. Reed Hopper and Steven Geoffrey Gieseler.\nBriefs of amici curiae urging affirmance were filed for the State of Illinois et al. by Lisa Madigan, Attorney General of Illinois, Michael A Scodro, Solicitor General, and Jane Elinor Notz, Deputy Solicitor General, by Roberto J. S\u00e1nchez-Ramos, Secretary of Justice of Puerto Rico, by Susan Shinkman and Richard P. Mather, and by the Attorneys General for their respective States as follows: Tom Miller of Iowa, Douglas F. Gansler of Maryland, Mike McGrath of Montana, Nancy H. Rogers of Ohio, and W. A. Drew Edmondson of Oklahoma; for Commercial Fishermen of America, et al., by Elizabeth J. Hubertz and Stephanie Tai; for Environment America et al. by Christopher J. Wright and Timothy J. Simeone; for Environmental Law Professors by Jared A. Goldstein; for the National Wildlife Federation et al. by David K. Mears; for OMB Watch by Amy Sinden; and for Voices of the Wetlands et al. by Deborah A Sivas and Leah J. Russin.\nBriefs of amici curiae were filed for the AEI Center for Regulatory and Market Studies et al. by Robert E. Litan; for the Clean Air Task Force et al. by Ann Brewster Weeks; and for Frank Ackerman et al. by David M. Driesen and Douglas A. Kysar."
+  },
+  "file_name": "0208-01",
+  "first_page_order": 308,
+  "last_page_order": 346
+}

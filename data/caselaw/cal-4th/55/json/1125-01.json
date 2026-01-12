@@ -1,0 +1,641 @@
+{
+  "id": 3932424,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. JOE RODRIGUEZ, JR., Defendant and Appellant",
+  "name_abbreviation": "People v. Rodriguez",
+  "decision_date": "2012-12-27",
+  "docket_number": "No. S187680",
+  "first_page": "1125",
+  "last_page": "1147",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "55 Cal. 4th 1125"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal.",
+    "id": 9021,
+    "name": "Supreme Court of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "238 Cal.Rptr. 678",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "193 Cal.App.3d 969",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4231819
+      ],
+      "pin_cites": [
+        {
+          "page": "978, fn. 13"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/193/0969-01"
+      ]
+    },
+    {
+      "cite": "3 P.3d 278",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "97 Cal.Rptr.2d 906",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "244 P.3d 1062",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2000,
+      "opinion_index": 0
+    },
+    {
+      "cite": "119 Cal.Rptr.3d 415",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2000,
+      "opinion_index": 0
+    },
+    {
+      "cite": "960 P.2d 513",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "77 Cal.Rptr.2d 709",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 Cal.4th 26",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1709349
+      ],
+      "pin_cites": [
+        {
+          "page": "46, fn. 9"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/19/0026-01"
+      ]
+    },
+    {
+      "cite": "5 P.3d 839",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1998,
+      "opinion_index": 0
+    },
+    {
+      "cite": "99 Cal.Rptr.2d 278",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1998,
+      "opinion_index": 0
+    },
+    {
+      "cite": "24 Cal.4th 39",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1180116
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "47, fn. 6"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/24/0039-01"
+      ]
+    },
+    {
+      "cite": "101 Cal.Rptr.3d 639",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "179 Cal.App.4th 1297",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4211259
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/179/1297-01"
+      ]
+    },
+    {
+      "cite": "56 Cal.Rptr.3d 912",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "149 Cal.App.4th 356",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3624206
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/149/0356-01"
+      ]
+    },
+    {
+      "cite": "277 P.3d 743",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "142 Cal.Rptr.3d 2",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.4th 191",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        5721161
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/54/0191-01"
+      ]
+    },
+    {
+      "cite": "23 Cal.4th 743",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        277032
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/23/0743-01"
+      ]
+    },
+    {
+      "cite": "367 U.S. 203",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1785554
+      ],
+      "weight": 5,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/367/0203-01"
+      ]
+    },
+    {
+      "cite": "105 Cal.Rptr.2d 837",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "88 Cal.App.4th 432",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        203583
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "436"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/88/0432-01"
+      ]
+    },
+    {
+      "cite": "278 Cal.Rptr. 140",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "227 Cal.App.3d 692",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2332565
+      ],
+      "pin_cites": [
+        {
+          "page": "699"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/227/0692-01"
+      ]
+    },
+    {
+      "cite": "51 Cal.4th 47",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3915029
+      ],
+      "weight": 9,
+      "pin_cites": [
+        {
+          "page": "p. 55"
+        },
+        {
+          "page": "p. 55"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/51/0047-01"
+      ]
+    },
+    {
+      "cite": "230 P.3d 1117",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "109 Cal.Rptr.3d 329",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 Cal.4th 12",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6050888
+      ],
+      "pin_cites": [
+        {
+          "page": "27"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/49/0012-01"
+      ]
+    },
+    {
+      "cite": "981 P.2d 52",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "87 Cal.Rptr.2d 423",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 Cal.4th 310",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        884916
+      ],
+      "pin_cites": [
+        {
+          "page": "330"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/21/0310-01"
+      ]
+    },
+    {
+      "cite": "257 P3d 81",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "128 Cal.Rptr.3d 658",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Cal.4th 499",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3919550
+      ],
+      "pin_cites": [
+        {
+          "page": "519"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/52/0499-01"
+      ]
+    },
+    {
+      "cite": "169 P.3d 102",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "67 Cal.Rptr.3d 179",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.4th 516",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3673439
+      ],
+      "pin_cites": [
+        {
+          "page": "523"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/42/0516-01"
+      ]
+    },
+    {
+      "cite": "927 P.2d 713",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 Cal.Rptr.2d 356",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "14 Cal.4th 605",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        341437
+      ],
+      "pin_cites": [
+        {
+          "page": "609"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/14/0605-01"
+      ]
+    },
+    {
+      "cite": "3 P.3d 278",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 2
+    },
+    {
+      "cite": "97 Cal.Rptr.2d 906",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 2
+    },
+    {
+      "cite": "244 P.3d 1062",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2000,
+      "opinion_index": 2
+    },
+    {
+      "cite": "119 Cal.Rptr.3d 415",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2000,
+      "opinion_index": 2
+    },
+    {
+      "cite": "101 Cal.Rptr.3d 639",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 2
+    },
+    {
+      "cite": "179 Cal.App.4th 1297",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4211259
+      ],
+      "pin_cites": [
+        {
+          "page": "1308"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/cal-app-4th/179/1297-01"
+      ]
+    },
+    {
+      "cite": "56 Cal.Rptr.3d 912",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 2
+    },
+    {
+      "cite": "149 Cal.App.4th 356",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3624206
+      ],
+      "pin_cites": [
+        {
+          "page": "368"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/cal-app-4th/149/0356-01"
+      ]
+    },
+    {
+      "cite": "23 Cal.4th 743",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        277032
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "749-752"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/cal-4th/23/0743-01"
+      ]
+    },
+    {
+      "cite": "367 U.S. 203",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1785554
+      ],
+      "weight": 9,
+      "pin_cites": [
+        {
+          "page": "228"
+        },
+        {
+          "page": "p. 205"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/367/0203-01"
+      ]
+    },
+    {
+      "cite": "105 Cal.Rptr.2d 837",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 2
+    },
+    {
+      "cite": "88 Cal.App.4th 432",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        203583
+      ],
+      "pin_cites": [
+        {
+          "page": "436"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/cal-app-4th/88/0432-01"
+      ]
+    },
+    {
+      "cite": "51 Cal.4th 47",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3915029
+      ],
+      "pin_cites": [
+        {
+          "page": "55-56"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/cal-4th/51/0047-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1496,
+    "char_count": 55560,
+    "ocr_confidence": 0.907,
+    "pagerank": {
+      "raw": 4.3750490403000656e-07,
+      "percentile": 0.9191078321554654
+    },
+    "sha256": "fc91ff68444007e7ffcd06ac394039bffe6f9749e3d6f4804fa881505bebab22",
+    "simhash": "1:faa3fea53c717a39",
+    "word_count": 8820
+  },
+  "last_updated": "2024-02-27T22:39:10.663413+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. JOE RODRIGUEZ, JR., Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nCORRIGAN, J.\nWe are again called upon to construe Penal Code section 186.22, the California Street Terrorism Enforcement and Prevention Act (the STEP Act) (\u00a7 186.20 et seq.), involving the activity of criminal street gangs. At issue here is section 186.22, subdivision (a) (section 186.22(a)): \u201cAny person who actively participates in any criminal street gang with knowledge that its members engage in or have engaged in a pattern of criminal gang activity, and who willfully promotes, furthers, or assists in any felonious criminal conduct by members of that gang, shall be punished . . . .\u201d (Italics added.)\nWe granted review to resolve a conflict in the Courts of Appeal. Under the language of the italicized phrase, does a gang member violate section 186.22(a) if he commits a felony, but acts alone? The Court of Appeal below concluded that he does not. We agree and affirm the judgment of the Court of Appeal.\nBACKGROUND\nDefendant was a Norte\u00f1o gang member from Woodland whose girlfriend lived in Marysville. On May 10, 2007, around 10:30 p.m., Stanley Olsen stepped out of his truck in Marysville. Someone behind him spoke. Olsen turned and saw defendant approaching him. Olsen asked defendant whether Olsen knew him. Defendant responded with a racial epithet and threatened to kill Olsen.\nDefendant moved so close to Olsen that the chests of the two men were touching. Defendant demanded Olsen\u2019s money and again threatened him. When Olsen told defendant to go away, defendant punched him in the jaw. The men fell to the ground and defendant continued to beat Olsen. Olsen was ultimately able to get up and run. Eventually, police found defendant in his girlfriend\u2019s nearby apartment, hiding under a bed.\nTwo gang experts testified that robbery was a primary activity of the Norte\u00f1o gang and both opined that the attempted robbery of Olsen was committed for the benefit of the gang. There was no evidence that defendant acted with anyone else.\nThe jury convicted defendant of attempted robbery and the separate felony of gang participation. It also found true the enhancement allegation that defendant committed the attempted robbery for the benefit of the gang. The court found that defendant had suffered a prior strike conviction and served a prior prison term.\nBefore sentencing, the trial court granted defendant\u2019s new trial motion as to the gang enhancement allegation under section 186.22, subdivision (b)(1) (section 186.22(b)(1)) for lack of substantial supporting evidence. The prosecution did not seek to retry the allegation, and the court imposed a prison term of eight years four months.\nA divided Court of Appeal reversed defendant\u2019s conviction for the separate count of gang participation under section 186.22(a). Over a dissent, the majority concluded that defendant\u2019s commission of the attempted robbery while acting alone did not fall within the statute. We granted the Attorney General\u2019s petition for review and now affirm.\nDISCUSSION\n\u201cUnderlying the STEP Act was the Legislature\u2019s recognition that \u2018California is in a state of crisis which has been caused by violent street gangs whose members threaten, terrorize, and commit a multitude of crimes against the peaceful citizens of their neighborhoods.\u2019 (Pen. Code, \u00a7 186.21.) The act\u2019s express purpose was \u2018to seek the eradication of criminal activity by street gangs.\u2019 (Ibid.)\u201d (People v. Gardeley (1996) 14 Cal.4th 605, 609 [59 Cal.Rptr.2d 356, 927 P.2d 713] (Gardeley).) In pursuit of this goal, the STEP Act focuses upon \u201cpatterns of criminal gang activity and upon the organized nature of street gangs, which together, are the chief source of terror created by street gangs.\u201d (\u00a7 186.21.)\nIn addressing the problem, the STEP Act created a substantive offense, section 186.22(a), which punishes \u201c[a]ny person who actively participates in any criminal street gang with knowledge that its members engage in or have engaged in a pattern of criminal gang activity, and who willfully promotes, furthers, or assists in any felonious criminal conduct by members of that gang\nThe elements of the gang participation offense in section 186.22(a) are: First, active participation in a criminal street gang, in the sense of participation that is more than nominal or passive; second, knowledge that the gang\u2019s members engage in or have engaged in a pattern of criminal gang activity; and third, the willful promotion, furtherance, or assistance in any felonious criminal conduct by members of that gang. (People v. Lamas (2007) 42 Cal.4th 516, 523 [67 Cal.Rptr.3d 179, 169 P.3d 102] (Lamas).) A person who is not a member of a gang, but who actively participates in the gang, can be guilty of violating section 186.22(a). (\u00a7 186.22, subd. (i).) The offense is punishable as a felony with a state prison term of 16 months, two years, or three years, or as a misdemeanor. (\u00a7 186.22(a).)\nMere active and knowing participation in a criminal street gang is not a crime. Applying the third element of section 186.22(a), a defendant may be convicted of the crime of gang participation only if he also willfully does an act that \u201cpromotes, furthers, or assists in any felonious criminal conduct by members of that gang.\u201d (\u00a7 186.22(a).) This case concerns that third element. Specifically, we must determine whether the third element is satisfied when a gang member commits a felony while acting alone.\nThe parties frame their disagreement around the meaning of the words \u201cpromotes, furthers, or assists\u201d in the third element of section 186.22(a). The Attorney General argues the words \u201cpromote\u201d and \u201cfurther\u201d apply to perpetrators of felonious criminal conduct as well as aiders and abettors, and encompass the perpetrator who acts alone. Defendant argues the words \u201cpromotes, furthers, or assists\u201d are confined to the action of aiding and abetting, and thus require the involvement of more than one gang member. As we shall explain, it is significant that the offense requires a defendant to promote, further, or assist members of the gang.\n\u201cWhen interpreting statutes, we begin with the plain, commonsense meaning of the language used by the Legislature. [Citation.] If the language is unambiguous, the plain meaning controls.\u201d (Voices of the Wetlands v. State Water Resources Control Bd. (2011) 52 Cal.4th 499, 519 [128 Cal.Rptr.3d 658, 257 P3d 81].) \u201c[W]henever possible, significance must be given to every word [in a statute] in pursuing the legislative purpose, and the court should avoid a construction that makes some words surplusage.\u201d (Agnew v. State Bd. of Equalization (1999) 21 Cal.4th 310, 330 [87 Cal.Rptr.2d 423, 981 P.2d 52].) \u201c[W]e may reject a literal construction that is contrary .to the legislative intent apparent in the statute or that would lead to absurd results . . . .\u201d (Simpson Strong-Tie Co., Inc. v. Gore (2010) 49 Cal.4th 12, 27 [109 Cal.Rptr.3d 329, 230 P.3d 1117].)\nThis statute has been the object of much appellate parsing. As a result, certain words and phrases in the third element of section 186.22(a) have already been judicially construed. In People v. Albillar, supra, 51 Cal.4th 47 (Albillar), we considered whether the phrase \u201cany felonious criminal conduct\u201d includes an unwritten requirement that the \u201c \u2018felonious criminal conduct\u2019 ... be gang related.\u201d (Id. at p. 51.) We concluded that it does not. The plain, unambiguous language of the statute targets any felonious criminal conduct, not felonious gang-related conduct. (Id. at p. 55.)\nAs to the phrase \u201cby members of that gang\u201d in section 186.22(a), the Court of Appeal in People v. Green (1991) 227 Cal.App.3d 692, 699 [278 Cal.Rptr. 140] (Green) observed that \u201c \u2018[m]ember\u2019 and \u2018membership\u2019 are terms of ordinary meaning, and require no further definition.\u201d Neither the Attorney General nor defendant argues that \u201cmembers of that gang\u201d connotes anything other than its ordinary meaning. Additionally, \u201cthat gang\u201d clearly refers back to the gang in which the defendant is an active participant.\nAs to the words \u201cpromotes, furthers, or assists,\u201d neither party disputes their usual and ordinary meaning. The Attorney General cites People v. Ngoun (2001) 88 Cal.App.4th 432, 436 [105 Cal.Rptr.2d 837] (Ngoun), in which the Court of Appeal stated: \u201cIn common usage, \u2018promote\u2019 means to contribute to the progress or growth of; \u2018further\u2019 means to help the progress of; and \u2018assist\u2019 means to give aid or support. (Webster\u2019s New College Diet. (1995) pp. 885, 454, 68.)\u201d\nThe Attorney General argues that a gang member satisfies the third element of section 186.22(a) when he commits a felony alone. She observes the statute does not require that one promote, further, or assist other gang members. This argument overlooks the language and grammatical structure of the statute. Section 186.22(a) speaks of \u201ccriminal conduct by members of that gang.\u201d (Italics added.) \u201c[M]embers\u201d is a plural noun. The words \u201cpromotes, furthers, or assists\u201d are the verbs describing the defendant\u2019s acts, which must be performed willfully. The phrase \u201cany felonious criminal conduct\u201d is the direct object of these verbs. The prepositional phrase \u201cby members of that gang\u201d indicates who performs the felonious criminal conduct. Therefore, to satisfy the third element, a defendant must willfully advance, encourage, contribute to, or help members of his gang commit felonious criminal conduct. The plain meaning of section 186.22(a) requires that felonious criminal conduct be committed by at least two gang members, one of whom can include the defendant if he is a gang member. (See \u00a7 186.22, subd. (i).)\nThe Attorney General acknowledges that section 186.22(a) employs the plural noun \u201cmembers\u201d and concedes that to \u201cassist[]\u201d in felonious criminal conduct \u201cby members of that gang\u201d requires the participation of more than one person in the criminal act at issue. However, the Attorney General points to section 7, which states in part that \u201cthe singular number includes the plural . . . ,\u201d and argues that a gang member may \u201cpromoted\u201d or \u201cfurther[]\u201d the felonious conduct of a member of the gang, namely, the gang member himself, by simply committing the underlying felony alone. In other words, while conceding that a person cannot \u201cassist\u201d himself in committing a crime, the Attorney General urges that a person may \u201cpromote\u201d or \u201cfurther\u201d his own conduct.\nSection 7 also cautions, however, that \u201c[w]ords and phrases must be construed according to the context . . . .\u201d (\u00a7 7, subd. 16.) If the Legislature had intended to criminalize any felonious criminal conduct committed by any active and knowing participant, including one acting alone, the phrase \u201cby members of that gang\u201d would be superfluous. The Legislature could simply have omitted that phrase and said, \u201cAny person who actively participates in any criminal street gang, with knowledge that its members have engaged in a pattern of criminal street gang activity, and who willfully promotes, furthers, or assists in any felonious criminal conduct, shall be punished . . . .\u201d But that is not what the statute says. We give significance to every word in the statute actually enacted to implement the legislative purpose and avoid a construction that makes some words surplusage. (Agnew v. State Bd. of Equalization, supra, 21 Cal.4th at p. 330.) Because under section 186.22(a) the felonious conduct that is willfully promoted, furthered, or assisted need not be gang related (Albillar, supra, 51 Cal.4th at p. 55), it appears the Legislature purposefully used the phrase \u201cby members of that gang\u201d to qualify the scope of the statute. As we stated in Albillar. \u201c[T]here is nothing absurd in targeting the scourge of gang members committing any crimes together and not merely those that are gang related. Gang members tend to protect and avenge their associates. Crimes committed by gang members, whether or not they are gang related or committed for the benefit of the gang, thus pose dangers to the public and difficulties for law enforcement not generally present when a crime is committed by someone with no gang affiliation. \u2018These activities, both individually and collectively, present a clear and present danger to public order and safety . . . .\u2019 (Pen. Code, \u00a7 186.21.)\u201d (Albillar, supra, at p. 55.)\nFurther, this understanding of section 186.22(a) reflects the Legislature\u2019s attempt to avoid any potential due process concerns that might be raised by punishing mere gang membership. In Scales v. United States (1961) 367 U.S. 203 [6 L.Ed.2d 782, 81 S.Ct. 1469] (Scales), the United States Supreme Court addressed the constitutionality of the membership clause of the Smith Act, which criminalized membership in any organization advocating the overthrow of the government by force or violence. In addressing a due process challenge to this provision, Scales stated: \u201cIn our jurisprudence guilt is personal, and when the imposition of punishment on a status or on conduct can only be justified by reference to the relationship of that status or conduct to other concededly criminal activity (here advocacy of violent overthrow), that relationship must be sufficiently substantial to satisfy the concept of personal guilt in order to withstand attack under the Due Process Clause of the Fifth Amendment.\u201d (Scales at pp. 224-225, italics added.) The court concluded that, without more, mere membership in an organization engaged in illegal conduct is not sufficient to establish the required relationship between that membership status and criminal activity. Scales ultimately held the statute passed constitutional muster when it was interpreted \u201cto reach only \u2018active\u2019 members having also a guilty knowledge and intent, and which therefore prevents a conviction on what otherwise might be regarded as merely an expression of sympathy with the alleged criminal enterprise, unaccompanied by any significant action in its support or any commitment to undertake such action.\u201d (Id. at p. 228.)\nWe discussed Scales\u2019 s application to section 186.22(a) in People v. Castenada, supra, 23 Cal.4th 743 (Castenada). There we considered the first element of section 186.22(a) and resolved what constitutes active gang participation. In particular, we concluded that one who \u201c \u2018actively participates in any criminal street gang\u2019 \u201d need not be a leader in that gang as long as the person\u2019s involvement \u201cis more than nominal or passive.\u201d (Castenada, at p. 747.) Castenada observed: \u201cWhen our Legislature enacted section 186.22(a), which is at issue here, it was fully cognizant of the guilty knowledge and intent requirements the high court had articulated in Scales.\u201d (Id. at p. 749.) With Scales in mind, the Legislature limited \u201cliability to those who promote, further, or assist a specific felony committed by gang members and who know of the gang\u2019s pattern of criminal gang activity. Thus, a person who violates section 186.22(a) has also aided and abetted a separate felony offense committed by gang members . . . .\u201d (Castenada, at p. 749.) Castenada noted that \u201c[t]hese statutory elements necessary to prove a violation of section 186.22(a) exceed the due process requirement of personal guilt that the United States Supreme Court articulated in Scales . . . .\u201d (Ibid.) We thus rejected the defendant\u2019s claim that section 186.22(a) criminalized lawful association since the statute required that \u201ca defendant \u2018actively participate[]\u2019 in a criminal street gang while also aiding and abetting a felony offense committed by the gang\u2019s members.\u201d (Castenada, at p. 751.)\nThe Legislature thus sought to avoid punishing mere gang membership in section 186.22(a) by requiring that a person commit an underlying felony with at least one other gang member. Scales found the membership provision of the Smith Act constitutional because it criminalized \u201cactive\u201d membership coupled with knowledge of the organization\u2019s criminal goals and the specific intent that such goals be furthered. In this context, Scales stated, \u201cwe can perceive no reason why one who actively and knowingly works in the ranks of that organization, intending to contribute to the success of those specifically illegal activities, should be any more immune from prosecution than he to whom the organization has assigned the task of carrying out the substantive criminal act.\u201d (Scales, supra, 361 U.S. at pp. 226-227.) As we observed in Albillar, however, section 186.22(a), unlike the gang enhancement in section 186.22(b)(1), does not require a specific intent to further or promote the gang (only knowledge of the gang\u2019s pattern of criminal activity). (Albillar, supra, 51 Cal.4th at p. 56.) Further, as previously noted, Albillar concluded section 186.22(a) does not require that the underlying felony be gang related. (Albillar, supra, 51 Cal.4th at p. 55.)\nIt is established, then, that one need not have the specific intent to promote, further, or benefit the gang to violate section 186.22(a), nor must one commit a gang-related felony. As we recently observed in People v. Mesa (2012) 54 Cal.4th 191 [142 Cal.Rptr.3d 2, 277 P.3d 743] (Mesa), in considering the STEP Act, \u201cthe Legislature was careful to observe that \u2018mere membership [in a gang] is not punishable under the bill. The United States Supreme Court has held that mere association with a group cannot be punished unless there is proof that the defendant knows of and intends to further its illegal aims. [Citation.] This bill imposes sanctions on active participation in the gang only when the defendant knows about and specifically intends to further the criminal activity; or where he knows of the criminal activity and willfully promotes, furthers, or assists it.\u2019 \u201d (Mesa, supra, 54 Cal.4th at pp. 196-197, citing Scales, supra, 367 U.S. at p. 229.) The Legislature thus recognized the constitutional prohibition against punishing mere gang membership, and its use of the plural \u201cmembers\u201d in section 186.22(a) reflected the Legislature\u2019s attempt to provide a nexus between the felonious conduct and gang activity that avoided the concerns raised in Scales. (Cf. Green, supra, 227 Cal.App.3d at pp. 703-704 [rejecting a due process challenge against the third element of \u00a7 186.22(a) where the Attorney General conceded that one \u201cwould also have to be criminally liable as an aider and abettor to any specific crime committed by a member or members of a criminal street gang\u201d].) The Attorney General\u2019s interpretation that a gang member may satisfy the statute simply by committing a felony alone reads out of the statute the nexus between defendant\u2019s conduct and gang activity that the Legislature put in the statute by requiring that one act with another gang member.\nThe Attorney General and the dissenting opinion below relied upon three Court of Appeal cases to support their position. The court in Ngoun, supra, 88 Cal.App.4th 432, rejected the defendant\u2019s claim that he could not be convicted under section 186.22(a) because he directly perpetrated the underlying felonies rather than aided and abetted another in the commission of those felonies. Ngoun reasoned in part: \u201cAn active gang member who directly perpetrates a gang-related offense \u2018contributes\u2019 to the accomplishment of the offense no less than does an active gang member who aids and abets or who is otherwise connected to such conduct. Faced with the words the legislators chose, we cannot rationally ascribe to them the intention to deter criminal gang activity by the palpably irrational means of excluding the more culpable and including the less culpable participant in such activity.\u201d (Ngoun at p. 436.) Ngoun's reasoning on this point is uncontroversial. Nothing in the language of section 186.22(a) would suggest that one may not promote, further, or assist \u201cin any felonious criminal conduct by members of that gang\u201d by either aiding and abetting other gang members in committing a felony or by directly committing a felony with other gang members. Ngoun did not address the present issue of whether one committing a felony alone may violate section 186.22(a).\nNgoun was, nevertheless, interpreted to cover that situation in People v. Salcido (2007) 149 Cal.App.4th 356 [56 Cal.Rptr.3d 912] (Salcido). Salcido challenged the trial court\u2019s instruction that the third element of section 186.22(a) would be satisfied if the jury concluded he \u201c \u2018willfully promoted, furthered or assisted by either directly and actively committing a felony offense or aiding and abetting felonious criminal conduct by members of that gang.\u2019 \u201d (Salcido, supra, 149 Cal.App.4th at p. 366.) Salcido reasoned, in relevant part; \u201c[The defendant] contends Ngoun stands for the proposition that a \u2018[principal] who commits a crime jointly with other gang members is equally liable under section 186.22, subdivision (a).\u2019 Salcido asserts that subdivision (a) imposes liability on perpetrators only if they commit the crime in concert with other gang members. In Ngoun, however, we placed no limitation on our holding. To the contrary, we concluded that the subdivision \u2018applies to the perpetrator of felonious gang-related criminal conduct as well as to the aider and abettor.\u2019 [Citation.]\u201d (Id. at p. 368, italics added, quoting Ngoun, supra, 88 Cal.App.4th at p. 436.) In People v. Sanchez (2009) 179 Cal.App.4th 1297 [101 Cal.Rptr.3d 639] (Sanchez), the court held that the defendant forfeited the claim that section 186.22(a) required he commit the underlying felony with other gang members, but suggested, \u201cEven if [that claim] had been raised, however, we would reject it on the authority of Salcido.\u201d (Sanchez, supra, 179 Cal.App.4th at p. 1308.)\nSalcido\u2019s extension of Ngoun\u2019s reasoning, to suggest that one who commits a felony alone may satisfy the third element of section 186.22(a), and Sanchez\u2019s endorsement thereof in dictum, are undermined by Albillar, which postdated all three decisions. Salcido relied upon a suggestion in Ngoun that section 186.22(a) \u201capplies to the perpetrator of felonious gang-related criminal conduct as well as to the aider and abettor.\u201d (Ngoun, supra, 88 Cal.App.4th at p. 436, italics added.) Ngoun further reasoned that \u201c[a]n active gang member who directly perpetrates a gang-related offense \u2018contributes\u2019 to the accomplishment of the offense no less than does an active gang member who aids and abets or who is otherwise connected to such conduct.\u201d {Ibid., italics added.) Ngoun\u2019s characterization of section 186.22(a) as requiring a \u201cgang-related\u201d offense had little bearing on the issue before it, but that erroneous characterization would change the analysis here. Had section 186.22(a) required the commission of a \u201cgang-related felony,\u201d then, as Salcido suggests, there would be little question that due process principles would not preclude a lone perpetrator\u2019s conviction under that provision. However, as we concluded in Albillar, section 186.22(a) does not require the commission of a gang-related felony. That conclusion fatally undermined Salcido's reasoning.\nAlthough the Attorney General does not so argue, the dissenting opinion concludes a lone perpetrator may satisfy the third element of section 186.22(a), not because his or her commission of a felony furthers or promotes his or her own conduct, but rather because the commission of the felony emboldens fellow gang members to commit other, unspecified crimes in the future and, thus, \u201cadvances the gang\u2019s overall felonious purpose.\u201d (Dis. opn., post, at p. 1143, italics omitted.) Initially, that suggestion seems inconsistent with our prior characterization of section 186.22(a) as requiring the promotion or furtherance of specific conduct of gang members and not inchoate future conduct. (See Castenada, supra, 23 Cal.4th at p. 749 [\u201csection 186.22(a) limits liability to those who promote, further, or assist a specific felony committed by gang members and who know of the gang\u2019s pattern of criminal gang activity\u201d (italics added)]; see also Lamas, supra, 42 Cal.4th at p. 526 [quoting Castenada on this point].) More fundamentally, such an interpretation would upset the balance chosen by the Legislature because it eliminates the nexus between a defendant\u2019s felonious conduct and gang activity that the Legislature has placed in section 186.22(a). Under the dissent\u2019s view, all that would be required to satisfy the third element of section 186.22(a) would be expert testimony that commission of a felony by a gang member would embolden other gang members to commit felonies. However, it could be maintained that every time a gang member commits a felony, other members of the gang would be emboldened to commit felonies as well. Such testimony does little more than assert that the defendant is a gang member and that gangs, by definition, commit crimes as part of their primary activities. (See \u00a7 186.22, subd. (f).)\nThe dissent\u2019s view blurs the distinction between section 186.22(a) and the enhancement under section 186.22(b)(1). Although the dissent acknowledges that section 186.22(a) \u201cdoes not require that the felony committed by the defendant be for the gang\u2019s benefit,\u201d the dissent asserts that \u201csurely that statute is violated by a felony that is for the gang\u2019s benefit.\u201d (Dis. opn., post, at pp. 1144\u20141145, original italics.) However, once one recognizes that gang relatedness is not an element of the offense under section 186.22(a), it is unclear how evidence that a felony is gang related, or that one commits a felony with the intent to benefit the gang, in any way satisfies the requirements of section 186.22(a). In short, the dissent reads into section 186.22(a) a requirement of gang relatedness that we expressly held in Albillar did not exist. (Albillar, supra, 51 Cal.4th at p. 56 [\u201cThe Legislature clearly knew how to draft language limiting the nature of the criminal conduct promoted, furthered, or assisted and could have included such language had it desired to so limit the reach of section 186.22(a).\u201d].)\nSection 186.22(a) and section 186.22(b)(1) strike at different things. The enhancement under section 186.22(b)(1) punishes gang-related conduct, i.e., felonies committed with the specific intent to benefit, further, or promote the gang. (See Gardeley, supra, 14 Cal.4th at p. 622.) However, \u201c[n]ot every crime committed by gang members is related to a gang.\u201d (Albillar, supra, 51 Cal.4th at p. 60.) As such, with section 186.22(a), the Legislature sought to punish gang members who acted in concert with other gang members in committing a felony regardless of whether such felony was gang related. {Albillar, supra, at p. 55 [\u201cthere is nothing absurd in targeting the scourge of gang members committing any crimes together and not merely those that are gang related\u201d (italics omitted)].)\nThe Attorney General argues that excluding a lone perpetrator within the scope of section 186.22(a) would be \u201cabsurd.\u201d To illustrate, she posits a scenario in which a gang leader plans to shoot rival gang members. The gang leader tells his plan to an active participant in his gang and asks the participant to provide the gun. The Attorney General complains that if the gang leader then shoots several rival gang members, he would not be guilty of violating section 186.22(a). She states that the active participant, who was merely the gang leader\u2019s aider and abettor, would be guilty of violating section 186.22(a).\nThe Attorney General\u2019s hypothetical is wrong in several respects. If the active participant is not a gang member, he would be no more guilty of violating section 186.22(a) than the gang leader because only one member of the gang\u2014the gang leader\u2014committed the shootings. If, on the other hand, the active participant is a gang member, then both the gang leader and the participant are guilty of violating section 186.22(a) as well as crimes relating to the shootings. The active participant, who aided and abetted the shooting by providing the gun, is treated under the law as a principal. (\u00a731.) The shootings would have been committed by both principals\u2014the gang leader and the active participant.\nContrary to the Attorney General\u2019s suggestion, our conclusion does not lead to absurd results. A lone gang member who commits a felony will not go unpunished; he or she will be convicted of the underlying felony. Further, such a gang member would not be protected from having that felony enhanced by section 186.22(b)(1), which applies to \u201cany person who is convicted of a felony committed for the benefit of, at the direction of, or in association with any criminal street gang, with the specific intent to promote, further, or assist in any criminal conduct by gang members . . . .\u201d Because the gang enhancement under section 186.22(b)(1) requires both that the felony be gang related and that the defendant act with a specific intent to promote, further, or assist the gang, these requirements provide a nexus to gang activity sufficient to alleviate due process concerns. (See Albillar, supra, 51 Cal.4th at p. 56 [noting differences between \u00a7\u00a7 186.22(a) and 186.22(b)(1)].) Furthermore, we note that the lone perpetrator\u2019s punishment under the sentencing enhancement would be more substantial than that imposed for a defendant who violates section 186.22(a).\nIn sum, the Attorney General argues for an expansive interpretation of section 186.22(a) that is not supported by the statutory language. Although the People might prefer a different statute, section 186.22(a) reflects the Legislature\u2019s carefully structured endeavor to punish active participants for commission of criminal acts done collectively with gang members. Defendant here acted alone in committing the attempted robbery. Thus, he did not also violate section 186.22(a).\nDISPOSITION\nWe affirm the judgment of the Court of Appeal.\nWerdegar, J., and Liu, J., concurred.\nFurther statutory references are to the Penal Code, unless otherwise noted.\nFor convenience, we will sometimes refer to section 186.22(a) as the \u201cgang participation\u201d offense.\nSections 664, 211; section 186.22, subdivisions (a), (b)(1); sections 667, subdivisions (a)-(d), 1170.12, subdivisions (b), (c); and section 667.5, subdivision (b).\nDefendant seeks judicial notice of various legislative materials concerning section 186.22. Exhibits A through C, which counsel obtained from the Legislative Intent Service, reflect statements made by the author of the bill that would become section 186.22. Exhibit A is a copy of a letter written by the author to a committee chairperson, exhibit B reflects the author\u2019s statements to the Senate, and exhibit C shows the author\u2019s statements to the Senate Judiciary Committee. We deny judicial notice as to these items, which, \u201calthough bearing a Legislative Intent Service stamp, are not certified copies.\u201d (In re Marriage of Pendleton & Fireman (2000) 24 Cal.4th 39, 47, fn. 6 [99 Cal.Rptr.2d 278, 5 P.3d 839]; see Quelimane Co. v. Stewart Title Guaranty Co. (1998) 19 Cal.4th 26, 46, fn. 9 [77 Cal.Rptr.2d 709, 960 P.2d 513] (Quelimane Co.); Evid. Code, \u00a7\u00a7 1401, 1530.) Further, \u201cthe views of individual legislators as to the meaning of a statute rarely, if ever, are relevant. . . .\u201d (Quelimane Co., at pp. 45-46, fn. 9.)\nExhibits D, E, and G are copies of Legislative Counsel\u2019s summary digests of the Senate and Assembly versions of the bill and the final versions enacted by the Legislature. \u201cA request for judicial notice of published material is unnecessary.\u201d (Quelimane Co., supra, 19 Cal.4th at pp. 45-46, fn. 9.) We considered similar materials in People v. Albillar (2010) 51 Cal.4th 47 [119 Cal.Rptr.3d 415, 244 P.3d 1062] and People v. Castenada (2000) 23 Cal.4th 743 [97 Cal.Rptr.2d 906, 3 P.3d 278] with respect to section 186.22 without talcing judicial notice of them. (See Albillar, at pp. 56-57; Castenada, at pp. 749-750.) \u201cWe therefore consider the request for judicial notice as a citation to those materials that are published.\u201d (Quelimane Co., at pp. 45-46, fn. 9.)\nFinally, exhibit F is a copy of a report dated September 27, 1988, from the Legislative Counsel to the Governor regarding the enrolled bill. As we have verified the authenticity of this item from legislative history materials in our possession, we grant defendant\u2019s judicial notice request as to exhibit F only. (See Hisel v. County of Los Angeles (1987) 193 Cal.App.3d 969, 978, fn. 13 [238 Cal.Rptr. 678] [noting that the Legislative Counsel\u2019s report to the Governor regarding an enrolled bill is judicially noticeable].)\nThe STEP Act also created a sentencing enhancement. Section 186.22(b)(1) imposes additional penalties for \u201cany person who is convicted of a felony committed for the benefit of, at the direction of, or in association with any criminal street gang, with the specific intent to promote, further, or assist in any criminal conduct by gang members . . . .\u201d Unlike the substantive offense, the enhancement does not require proof of participation in a gang. It is further distinguished from the substantive offense by applying only to gang-related offenses and by requiring the defendant to act with the specific intent to promote, further, or assist any criminal conduct by gang members.\nDefendant relies on the Oxford English Dictionary for similar definitions. \u201cTo assist is \u2018[t]o help, aid: a. a person in doing something\u2019 or \u2018c. an action, process, or result.\u2019 (1 The Oxford English Diet. (2d. ed. 1989) p. 715, col. 2.).\u201d \u201cTo promote means to \u2018[f]urther the growth, development, progress, or establishment of (anything); to help forward (a process or result); to further, advance, encourage.\u2019 12 The Oxford English Diet., supra, p. 616, col. 3.) To further means \u2018[t]o help forward, assist (usually things; less frequently persons); to promote, favour (an action or movement.)\u2019 (6 The Oxford English Dict., supra, p. 285, col. 2.)\u201d As these definitions make clear, they are largely tautological.\nWe discuss due process principles only to illuminate the Legislature\u2019s choice in requiring the participation of more than one gang member in order to support a conviction under section 186.22(a).\nWe disapprove of People v. Salcido, supra, 149 Cal.App.4th 356, and People v. Sanchez, supra, 179 Cal.App.4th 1297, to the extent they are inconsistent with this opinion.\nFor example, under section 186.22(b)(1)(A), a defendant receives an additional term of two, three, or four years at the court\u2019s discretion. If the underlying offense is a serious felony, as defined in section 1192.7, subdivision (c), the additional term is five years. (\u00a7 186.22(b)(1)(B).) If the offense is a violent felony, as defined in section 667.5, subdivision (c), the additional term is 10 years. (\u00a7 186.22(b)(1)(C).)\nA gang member who is convicted of a violation of section 186.22(a), on the other hand, would presumably be sentenced for the underlying felony as well as the separate conviction under section 186.22(a). The maximum punishment for a violation of section 186.22(a) is three years. Applying section 1170.1, subdivision (a), the defendant would receive, at most, an additional eight-month sentence for the gang offense. We need not consider whether imposition of such a term would be barred by section 654. (See Mesa, supra, 54 Cal.4th at pp. 195-200.)",
+        "type": "majority",
+        "author": "CORRIGAN, J."
+      },
+      {
+        "text": "BAXTER, J., Concurring.\nI concur fully in Justice Corrigan\u2019s determination that defendant\u2019s conviction under Penal Code section 186.22, subdivision (a) (section 186.22(a)) must be reversed. As she explains, an active gang participant only violates section 186.22(a) if he commits the requisite felony collectively with one or more \u201cmembers of that gang,\u201d rather than while acting alone, as defendant did here. However, unlike Justice Corrigan, I base my conclusion solely on the plain meaning of the express statutory language. Indeed, I find Justice Corrigan\u2019s analysis persuasive in this regard. Because there is no need to consider the constitutional implications of a contrary construction, as Justice Corrigan does, I write separately to summarize my views.\nTwo of the three elements of the gang offense in section 186.22(a) are not in issue here: (1) active participation in a criminal street gang, and (2) knowledge that gang members engage in, or have engaged in, a pattern of criminal gang activity.\nCritical here is the third element that the knowing and active gang participant \u201cwillfully promote[], further[], or assist[] in any felonious criminal conduct by members of that gang.\u201d (\u00a7 186.22(a), italics added.) By using a plural construction, the ordinary meaning of which is clear, the gang offense requires felonious criminal conduct committed by at least two \u201c[gang] members,\u201d including any defendant who is a member of \u201cthat gang.\u201d (Ibid.) As Justice Corrigan notes, if the Legislature had intended simply to make it a separate offense for an active, knowing gang participant to engage in crime, it could have omitted the relevant language, and said that any such person \u201cwho willfully [commits,] promotes, furthers, or assists in any felonious criminal conduct . . . shall be punished\u201d as prescribed by statute. In that case, no purpose would be served by the tagline \u201cmembers of that gang.\u201d I join Justice Corrigan in avoiding such surplusage.\nIn a related vein, I also agree with Justice Corrigan that, as a matter of statutory construction, lone actors are punishable under section 186.22(a) insofar as their criminal sentences can be enhanced under subdivision (b)(1) of the statute (section 186.22(b)(1)). This sentencing provision applies to \u201cany person who is convicted of a felony committed for the benefit of, at the direction of, or in association with any criminal street gang, with the specific intent to promote, further, or assist in any criminal conduct by gang members.\u201d (Ibid.)\nI recognize, of course, that a seemingly similar reference to gang \u201cmembers\u201d appears in both section 186.22(a) and section 186.22(b)(1). However, small but significant differences in grammar and context make clear that the enhancement provision lacks the same multiple-actor condition as the gang offense.\nFirst, section 186.22(b)(1), unlike section 186.22(a), applies where the defendant, even if acting alone, \u201cspecific[ally] inten[ds]\u201d by his felonious action to promote, further, or assist in any criminal conduct by gang members. Section 186.22(b)(1)\u2019s reference to promoting, furthering, or assisting gang members thus merely describes a culpable mental state. By contrast, the gravamen of section 186.22(a) is that the defendant\u2019s own criminal conduct must itself directly promote, further, or assist felonious criminal conduct by members of the gang. Thus, section 186.22(a) implies joint criminal action with other gang members\u2014an implication that does not necessarily arise in section 186.22(b)(1). This difference suggests we need not construe gang \u201cmembers\u201d in each provision the same way.\nThe relevant two subdivisions also treat criminal conduct by gang \u201cmembers\u201d differently. As noted, section 186.22(a) plainly requires felonious criminal conduct committed in tandem by at least two gang members, one of whom may be the defendant. In contrast, nothing in section 186.22(b)(1) states or implies that the criminal conduct by gang members which the defendant intends to promote, further, or assist is the same criminal conduct underlying the felony conviction subject to enhancement. For this reason too, the direct and specific link between criminal conduct committed by the defendant and that committed by other gang members set forth in the gang offense (\u00a7 186.22(a)) is not present in the gang enhancement (\u00a7 186.22(b)(1)).\nAccordingly, I agree with Justice Corrigan that the gang offense in section 186.22(a), unlike the gang enhancement in section 186.22(b)(1), does not extend to defendants who commit the requisite criminal conduct on their own. No reference to other principles, authorities, or theories, including due process, is necessary to reach this conclusion. I therefore take no position on such matters.",
+        "type": "concurrence",
+        "author": "BAXTER, J., Concurring."
+      },
+      {
+        "text": "KENNARD, J., Dissenting.\nIs the crime of criminal street gang participation (Pen. Code, \u00a7 186.22, subd. (a)) committed when a lone gang member\u2019s felonious conduct benefits the gang as a whole? In my view, it is. The lead opinion reaches the opposite conclusion.\nI\nOn the evening of May 10, 2007, in the northern California town of Marysville, defendant, who was an active Norte\u00f1o gang member, approached Stanley Olsen. Using a racial epithet, defendant demanded Olsen\u2019s money and threatened to kill him. Defendant then punched Olsen in the jaw and continued to beat him after Olsen fell to the ground. Olsen eventually escaped. When police officers arrested defendant that same night at a nearby apartment, they saw that the words \u201cnorthern\u201d and \u201cwarrior\u201d were tattooed on his arms, and that he was wearing shoes with red laces.\nAt defendant\u2019s trial, two criminal street gang experts testified for the prosecution: Sergeant Allan Garza of the Yuba County Sheriff\u2019s Department testified that robbery was a primary activity of the Norte\u00f1o gang in Yuba County; Sergeant Christian Sachs of the Marysville Police Department confirmed that robbery was a primary activity of the gang, and he discussed the gang\u2019s presence in Marysville. These experts identified defendant\u2019s tattoos and red shoelaces as symbols of Norte\u00f1o gang membership, and they expressed the view that defendant\u2019s attempt to rob Olsen was for the benefit of the gang. They explained that the crime benefitted the gang by intimidating the community, making it easier for gang members to commit crimes in the community, and making it less likely that witnesses of gang crimes would testify against gang members.\nA jury convicted defendant of attempted robbery (\u00a7\u00a7211, 664) and, as relevant here, criminal street gang participation (\u00a7 186.22, subd. (a)). In a two-to-one decision, the Court of Appeal reversed the gang participation conviction, concluding that the statute could not be violated by an individual acting alone. We granted the Attorney General\u2019s petition for review.\nII\nSection 186.22\u2019s subdivision (a), which defines the offense of gang participation, is a part of the California Street Terrorism Enforcement and Prevention Act (\u00a7 186.20 et seq.) (STEP Act). In enacting the STEP Act, the Legislature made this finding: \u201c[T]he State of California is in a state of crisis which has been caused by violent street gangs whose members threaten, terrorize, and commit a multitude of crimes against the peaceful citizens of their neighborhoods. These activities, both individually and collectively, present a clear and present danger to public order and safety and are not constitutionally protected.\u201d (\u00a7 186.21.) The Legislature then expressed its intent \u201cto seek the eradication of criminal activity by street gangs by focusing on patterns of criminal gang activity . . . .\u201d (Ibid.) That purpose is furthered by applying the criminal street gang participation statute here: Defendant attempted a crime that fit the Norte\u00f1o street gang\u2019s pattern of criminal activity (robbery while displaying symbols of gang membership), thereby advancing the gang\u2019s goal of terrorizing the residents of Marysville.\nSection 186.22\u2019s subdivision (a) imposes punishment on \u201c[a]ny person who [1] actively participates in any criminal street gang [2] with knowledge that its members engage in or have engaged in a pattern of criminal gang activity, and [3] who willfully promotes, furthers, or assists in any felonious criminal conduct by members of that gang.\u201d (\u00a7 186.22, subd. (a).) The statute\u2019s third requirement is at issue here. As explained below, it can be satisfied in at least three ways.\nFirst, an offender \u201cwillfully promotes, furthers, or assists\u201d the \u201cfelonious criminal conduct\u201d of gang \u201cmembers\u201d if the offender, aided and abetted by other gang members, commits any felony, whether or not the felony is committed for the gang\u2019s benefit. (See People v. Albillar (2010) 51 Cal.4th 47, 55-56 [119 Cal.Rptr.3d 415, 244 P.3d 1062].)\nSecond, an offender \u201cwillfully promotes, furthers, or assists\u201d the \u201cfelonious criminal conduct\u201d of gang \u201cmembers\u201d if the offender aids and abets another gang member in committing any felony. (People v. Castenada (2000) 23 Cal.4th 743, 749-752 [97 Cal.Rptr.2d 906, 3 P.3d 278] (Castenada).)\nThird, the offender \u201cwillfully promotes, furthers, or assists\u201d the \u201cfelonious criminal conduct\u201d of gang \u201cmembers\u201d if the offender, acting alone, willfully commits a felony that, by its nature and circumstances, advances the gang\u2019s overall felonious purpose. (See People v. Sanchez (2009) 179 Cal.App.4th 1297, 1308 [101 Cal.Rptr.3d 639] (Sanchez); People v. Salcido (2007) 149 Cal.App.4th 356, 368 [56 Cal.Rptr.3d 912] (Salcido); People v. Ngoun (2001) 88 Cal.App.4th 432, 436 [105 Cal.Rptr.2d 837] (Ngoun).) The cited Court of Appeal decisions all conclude that a lone gang member who perpetrates a gang-related felony violates the gang participation statute if the felony in question promotes the gang\u2019s general purpose. As the court in Ngoun said in upholding a gang participation conviction, \u201c[t]he evidence supports a reasonable inference that the [felonies appellant committed] were intended by appellant to promote, further and assist the gang in its primary activities\u2014the commission of criminal acts and the maintenance of gang respect.\u201d (Ngoun, at p. 437, italics added.)\nIf the Legislature had intended to restrict the crime of criminal street gang participation to the first two groups of offenders discussed above\u2014those who act together with other gang members\u2014it could simply have said, \u201cpromotes, furthers, or assists in any felony by members of that gang,\u201d instead of the statute\u2019s current language of \u201cpromotes, furthers, or assists in any felonious criminal conduct by members of that gang.\u201d (\u00a7 186.22, subd. (a), italics added.) Unlike the word \u201cfelony,\u201d the broader phrase \u201cfelonious criminal conduct\u201d need not refer to a specific felony; rather, it might refer more generally to the gang\u2019s overall felonious enterprise, which can be promoted or furthered by a lone gang member\u2019s felony. That point is overlooked by the lead opinion.\nIn concluding that the gang participation statute cannot be violated by a gang member acting alone, the lead opinion focuses on the word \u201cmembers\u201d in that statute. The pertinent statutory phrase requires that the offender \u201cwillfully promote[], further[], or assist[] in any felonious criminal conduct by members of th[e] gang.\u201d (\u00a7 186.22, subd. (a), italics added.) According to the lead opinion, a gang member (singular) cannot \u201cpromote[], further[], or assist[]\u201d the felonious conduct of gang members (plural) unless the gang member joins with at least one other gang member in committing a felony. (Lead opn., ante, at p. 1132.)\nRelying on section 7\u2014which states that the use of the plural in the Penal Code includes the singular\u2014the Attorney General argues that the plural word \u201cmembers\u201d includes the singular word \u201cmember,\u201d and that a gang member can therefore violate the gang participation statute by \u201cpromoting] [or] furthering]\u201d the member\u2019s own (solitary) felonious conduct. In rejecting that argument, the lead opinion points out that the felonious conduct need not be conduct that benefits the gang. As the lead opinion notes, one can violate the gang participation statute by aiding and abetting another gang member in, for instance, an act of spousal abuse, or by committing some other felony unrelated to the gang\u2019s primary activities. (See People v. Albillar, supra, 51 Cal.4th at pp. 55-56.) The lead opinion reasons that if promoting or furthering one\u2019s own felonious conduct satisfies the requirement of the gang participation statute, then one can be found guilty of gang participation merely for being a gang member and committing some felony, regardless of whether the felony benefitted the gang in any way. That, in the lead opinion\u2019s view, would potentially violate the federal Constitution because it would result in an additional serious felony conviction for the mere act of being a gang member while committing a non-gang-related felony. (See Scales v. United States (1961) 367 U.S. 203, 228 [6 L.Ed.2d 782, 81 S.Ct. 1469] (Scales).) The lead opinion asserts that the Legislature imposed the requirement of two or more gang members acting together because it sought to avoid the potential federal constitutional problem associated with applying the statute at issue here to someone acting alone. (Lead opn., ante, at pp. 1133-1135.)\nAlthough the lead opinion is correct that section 186.22\u2019s subdivision (a) does not require that the felony committed by the defendant be for the gang\u2019s benefit (lead opn., ante, at pp. 1134-1135), surely that statute is violated by a felony that is for the gang\u2019s benefit. And, as I noted earlier (see pp. 1143-1144, ante), a person can violate the gang participation statute while acting alone if the person willfully commits a felony that, by its nature and circumstances, advances the gang\u2019s overall felonious purpose. (See Sanchez, supra, 179 Cal.App.4th at p. 1308; Salcido, supra, 149 Cal.App.4th at p. 368; Ngoun, supra, 88 Cal.App.4th at p. 436.) If, for example, a gang\u2019s primary purpose is to terrorize and control a specific neighborhood by committing robberies in that neighborhood, then a lone gang member who, displaying symbols of gang membership, commits a robbery in the relevant neighborhood meets, in my view, the requirement of section 186.22\u2019s subdivision (a) of \u201cpromot[ing], further[ing], or assisting] in . . . felonious criminal conduct by members of th[e] gang.\u201d\nMoreover, convicting a person of criminal street gang participation under those circumstances would not violate the federal constitutional constraints that the United States Supreme Court set forth in Scales, supra, 367 U.S. 203. That case concerned the constitutionality of the Smith Act, which criminalized membership in an organization advocating the forceful or violent overthrow of the federal government. (Scales, supra, at p. 205.) In upholding the constitutionality of the Smith Act, the high court interpreted that act \u201cto reach only [1] \u2018active\u2019 members having also a [2] guilty knowledge and [3] intent . . . .\u201d (Scales, at p. 228, italics added.) Those three requirements, the high court said, \u201cpreventf] a conviction on what otherwise might be regarded as merely an expression of sympathy with the alleged criminal enterprise, unaccompanied by any significant action in its support or any commitment to undertake such action.\u201d (Ibid.)\nIn crafting California\u2019s criminal street gang participation offense (\u00a7 186.22, subd. (a)), the Legislature satisfied the high court\u2019s test in Scales, supra, 367 U.S. 203, by requiring that the offender (1) \u201cactively participate[]\u201d in the gang, (2) have \u201cknowledge\u201d of the criminal activity of the gang\u2019s members, and (3) \u201cwillfully promote[], further[], or assist[] in any felonious criminal conduct by members of that gang.\u201d (\u00a7 186.22, subd. (a).) When a lone gang member willfully commits a felony that, by its nature and circumstances, advances the gang\u2019s overall felonious purpose, the third requirement is satisfied. Moreover, construing section 186.22\u2019s subdivision (a) to apply in that circumstance would not violate the federal Constitution because it would not impose criminal liability for the mere act of being a gang member; rather, it would impose criminal liability for being a gang member and actively advancing the gang\u2019s overall felonious purpose. Nothing in the high court\u2019s opinion in Scales precludes such a result. Therefore, the lead opinion errs when it suggests that a requirement of more than one gang member acting together is constitutionally necessary to ensure a \u201cnexus between defendant\u2019s conduct and gang activity.\u201d (Lead opn., ante, at p. 1135.) Rather, the nexus can, as here (see p. 1145, ante), be established by the nature and circumstances of the defendant\u2019s crime.\nIn support of its construction of the gang participation statute, the lead opinion quotes this court\u2019s statement in Castenada, supra, 23 Cal.4th at page 749, that one who violates the statute \u201c \u2018has also aided and abetted a separate felony offense committed by gang members ....\u2019\u201d (Lead opn., ante, at p. 1134.) This statement should be read in context, however.\nAt issue in Castenada, supra, 23 Cal.4th 743, was the requirement that one who violates section 186.22\u2019s subdivision (a) must have \u201cactively participate[d]\u201d in the gang. The defendant there contended that holding a leadership position in the gang was necessary to qualify a person as one who \u201cactively participate^]\u201d in the gang. Otherwise, the defendant in Castenada asserted, the statute would be unconstitutional under the high court\u2019s holding in Scales, supra, 367 U.S. 203. (See Castenada, at pp. 747-748.) In rejecting that argument, Castenada relied on the statutory requirement that the offender \u201cwillfully promote[], further[], or assist[] in any felonious criminal conduct by members of that gang.\u201d (\u00a7 186.22, subd. (a).) That requirement, Castenada reasoned, ensured a level of active participation that was \u201cmore than nominal or passive\u201d (Castenada, at p. 752), and therefore an additional requirement of leadership in the gang was constitutionally unnecessary. (Id. at pp. 749-752.) It was in that context that Castenada said that \u201ca person who violates section 186.22(a) has also aided and abetted a separate felony offense committed by gang members . . . .\u201d (Castenada, at p. 749; see id. at pp. 750-752.)\nIn emphasizing that under section 186.22\u2019s subdivision (a), an offender\u2019s participation in a criminal street gang must, by definition, be \u201cmore than nominal or passive\u201d (Castenada, supra, 23 Cal.4th at p. 752), Castenada only needed to mention the minimum way an offender could participate in a street gang and still violate the statute\u2014that is, by aiding and abetting gang members. No need existed in Castenada to consider more direct forms of active gang participation, such as that at issue here.\nHere, the prosecution\u2019s evidence established that robbery was a primary activity of the Norte\u00f1o criminal street gang; that the gang was active in Marysville, where defendant committed the attempted robbery; and that defendant displayed symbols of gang membership during his commission of that crime. Under those circumstances, I conclude, as did the dissenting justice in the Court of Appeal, that defendant came within the language of the criminal street gang participation statute by \u201cwillfully promoting] [or] furthering] . . . felonious criminal conduct by members of th[e] gang.\u201d (\u00a7 186.22, subd. (a).) Accordingly, I would reverse the judgment of the Court of Appeal and remand the matter to that court with directions to uphold defendant\u2019s conviction under section 186.22\u2019s subdivision (a).\nCantil-Sakauye, C. J., and Chin, J., concurred.\nAll further statutory references are to the Penal Code.",
+        "type": "dissent",
+        "author": "KENNARD, J., Dissenting."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Diane Nichols, under appointment by the Supreme Court, and Grace Lidia Suarez, under appointment by the Court of Appeal, for Defendant and Appellant.",
+      "Frank Ospino, Public Defender (Orange), Jean Wilkinson, Chief Public Defender, Mark S. Brown, Assistant Public Defender, Martin F. Schwarz and Adam Vining, Deputy Public Defenders, for Orange County Public Defender\u2019s Office as Amicus Curiae on behalf of Defendant and Appellant.",
+      "Edmund G. Brown, Jr., and Kamala D. Harris, Attorneys General, Dane R. Gillette, Chief Assistant Attorney General, Michael P. Farrell, Assistant Attorney General, Charles A. French and Brook A. Bennigson, Deputy Attorneys General, for Plaintiff and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. S187680.\nDec. 27, 2012.]\nTHE PEOPLE, Plaintiff and Respondent, v. JOE RODRIGUEZ, JR., Defendant and Appellant.\nCounsel\nDiane Nichols, under appointment by the Supreme Court, and Grace Lidia Suarez, under appointment by the Court of Appeal, for Defendant and Appellant.\nFrank Ospino, Public Defender (Orange), Jean Wilkinson, Chief Public Defender, Mark S. Brown, Assistant Public Defender, Martin F. Schwarz and Adam Vining, Deputy Public Defenders, for Orange County Public Defender\u2019s Office as Amicus Curiae on behalf of Defendant and Appellant.\nEdmund G. Brown, Jr., and Kamala D. Harris, Attorneys General, Dane R. Gillette, Chief Assistant Attorney General, Michael P. Farrell, Assistant Attorney General, Charles A. French and Brook A. Bennigson, Deputy Attorneys General, for Plaintiff and Respondent."
+  },
+  "file_name": "1125-01",
+  "first_page_order": 1165,
+  "last_page_order": 1187
+}

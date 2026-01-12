@@ -1,0 +1,59 @@
+{
+  "id": 5984940,
+  "name": "Burk v. United States",
+  "name_abbreviation": "Burk v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5055",
+  "first_page": "901",
+  "last_page": "901",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 901"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.623,
+    "sha256": "784ef0b5d79c5f97b8a9d14a9cd3ecce17671449d75e0f3e912c8a1008acd9f2",
+    "simhash": "1:97d8ffa112a50b3a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Burk v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5055.\nBurk v. United States."
+  },
+  "file_name": "0901-04",
+  "first_page_order": 923,
+  "last_page_order": 923
+}

@@ -1,0 +1,94 @@
+{
+  "id": 12417544,
+  "name": "In re Disbarment of Weber",
+  "name_abbreviation": "In re Disbarment of Weber",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. D-2679",
+  "first_page": "938",
+  "last_page": "938",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 938"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "567 U. S. 931",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12410850,
+        12410724,
+        12410756,
+        12410790,
+        12410822,
+        12410800,
+        12410737,
+        12410770,
+        12410839,
+        12410810,
+        12410780,
+        12410746
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/567/0931-12",
+        "/us/567/0931-01",
+        "/us/567/0931-04",
+        "/us/567/0931-07",
+        "/us/567/0931-10",
+        "/us/567/0931-08",
+        "/us/567/0931-02",
+        "/us/567/0931-05",
+        "/us/567/0931-11",
+        "/us/567/0931-09",
+        "/us/567/0931-06",
+        "/us/567/0931-03"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 106,
+    "ocr_confidence": 0.743,
+    "sha256": "8faa308205c41e35f53d306c9af11aa2253160724f0844c6aab5895705d0c289",
+    "simhash": "1:ebbc5cabbb92f264",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Weber."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2679.\nIn re Disbarment of Weber.\n[For earlier order herein, see 567 U. S. 931.]"
+  },
+  "file_name": "0938-02",
+  "first_page_order": 1014,
+  "last_page_order": 1014
+}

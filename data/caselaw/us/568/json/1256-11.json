@@ -1,0 +1,59 @@
+{
+  "id": 12434141,
+  "name": "Ramirez-Medina v. United States",
+  "name_abbreviation": "Ramirez-Medina v. United States",
+  "decision_date": "2013-03-25",
+  "docket_number": "No. 12-8826",
+  "first_page": "1256",
+  "last_page": "1256",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1256"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 80,
+    "ocr_confidence": 0.614,
+    "sha256": "e72d43d8874541d68fbcf3fa883c1310eb075cf5776c682713457740bc05bba6",
+    "simhash": "1:072ad3024a2c924f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ramirez-Medina v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8826.\nRamirez-Medina v. United States."
+  },
+  "file_name": "1256-11",
+  "first_page_order": 1332,
+  "last_page_order": 1332
+}

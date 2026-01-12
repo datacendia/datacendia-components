@@ -1,0 +1,59 @@
+{
+  "id": 12433156,
+  "name": "Artz v. State Bar of California",
+  "name_abbreviation": "Artz v. State Bar of California",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-931",
+  "first_page": "1231",
+  "last_page": "1231",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1231"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 78,
+    "ocr_confidence": 0.582,
+    "sha256": "f0c9c0449ecd044280ff52206f1acc65958fbec568d981d66e22672cd99c1212",
+    "simhash": "1:880b1370be140161",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Artz v. State Bar of California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-931.\nArtz v. State Bar of California."
+  },
+  "file_name": "1231-08",
+  "first_page_order": 1307,
+  "last_page_order": 1307
+}

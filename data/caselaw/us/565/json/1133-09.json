@@ -1,0 +1,59 @@
+{
+  "id": 12241442,
+  "name": "Allen v. United States",
+  "name_abbreviation": "Allen v. United States",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-7516",
+  "first_page": "1133",
+  "last_page": "1133",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1133"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.702,
+    "sha256": "86dbc643d3c9077ddf5a90247b08b71f7ec684a0587f4fb6b72809a190e29b97",
+    "simhash": "1:80aaa2538d311129",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Allen v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7516.\nAllen v. United States."
+  },
+  "file_name": "1133-09",
+  "first_page_order": 1215,
+  "last_page_order": 1215
+}

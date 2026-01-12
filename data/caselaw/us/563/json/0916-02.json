@@ -1,0 +1,104 @@
+{
+  "id": 5923786,
+  "name": "Microsoft Corp. v. i4i Limited Partnership et al.",
+  "name_abbreviation": "Microsoft Corp. v. i4i Ltd. Partnership",
+  "decision_date": "2011-04-04",
+  "docket_number": "No. 10-290",
+  "first_page": "916",
+  "last_page": "916",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 916"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "562 U. S. 1060",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12439010,
+        12439011,
+        5987684,
+        5922429,
+        6010629,
+        12439012,
+        5990408,
+        12439013,
+        6002218,
+        12439014,
+        5994028,
+        12439015,
+        12439307,
+        12439308,
+        5989399,
+        5982237
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/178/0475-05",
+        "/l-ed-2d/178/0476-01",
+        "/us/562/1060-01",
+        "/us/562/1060-02",
+        "/us/562/1060-06",
+        "/l-ed-2d/178/0476-02",
+        "/us/562/1060-08",
+        "/l-ed-2d/178/0476-03",
+        "/us/562/1060-03",
+        "/l-ed-2d/178/0476-04",
+        "/us/562/1060-05",
+        "/l-ed-2d/178/0476-05",
+        "/l-ed-2d/178/0517-05",
+        "/l-ed-2d/178/0517-06",
+        "/us/562/1060-04",
+        "/us/562/1060-07"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 46,
+    "char_count": 328,
+    "ocr_confidence": 0.571,
+    "sha256": "7895f4afd5067ad4132d25e8294323459e78767ba2504c78adacbb86cec843f9",
+    "simhash": "1:b118a0c1f3e7de5d",
+    "word_count": 55
+  },
+  "last_updated": "2024-02-27T23:44:09.189648+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "The Chief Justice took no part in the consideration or decision of this motion."
+    ],
+    "parties": [
+      "Microsoft Corp. v. i4i Limited Partnership et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. Fed. Cir. [Certiorari granted, 562 U. S. 1060.] Motion of the Acting Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument granted.\nThe Chief Justice took no part in the consideration or decision of this motion.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-290.\nMicrosoft Corp. v. i4i Limited Partnership et al."
+  },
+  "file_name": "0916-02",
+  "first_page_order": 942,
+  "last_page_order": 942
+}

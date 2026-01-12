@@ -1,0 +1,626 @@
+{
+  "id": 12520555,
+  "name": "UNITED STATES of America, Plaintiff-Appellant, v. Charles EASON, Defendant-Appellee.",
+  "name_abbreviation": "U.S. v. Eason",
+  "decision_date": "2019-03-22",
+  "docket_number": "No. 18-5387",
+  "first_page": "385",
+  "last_page": "393",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "919 F.3d 385"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "6th Cir.",
+    "id": 21296,
+    "name": "United States Court of Appeals for the Six Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "1995 WL 244069",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "*2",
+          "parenthetical": "accepting government's concession that convictions for \"illegal processing of drug documents\" were not serious drug offenses, where defendant did not intend to distribute the pills for which he possessed forged prescriptions"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 F.3d 332",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "13 F. App'x 233",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        658310
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "242",
+          "parenthetical": "holding, without discussion, that \"an attempt narcotics conviction 'involves' narcotics\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/13/0233-01"
+      ]
+    },
+    {
+      "cite": "520 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11650897
+      ],
+      "weight": 3,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "6"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/520/0001-01"
+      ]
+    },
+    {
+      "cite": "407 F.3d 703",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8973227
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "708"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/407/0703-01"
+      ]
+    },
+    {
+      "cite": "544 U.S. 13",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5879404
+      ],
+      "weight": 3,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "16"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/544/0013-01"
+      ]
+    },
+    {
+      "cite": "500 U.S. 453",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6226195
+      ],
+      "weight": 4,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "463",
+          "parenthetical": "citations omitted"
+        },
+        {
+          "parenthetical": "citations omitted"
+        },
+        {
+          "parenthetical": "citations omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/500/0453-01"
+      ]
+    },
+    {
+      "cite": "404 U.S. 336",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6173129
+      ],
+      "weight": 3,
+      "year": 1971,
+      "pin_cites": [
+        {
+          "page": "348"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/404/0336-01"
+      ]
+    },
+    {
+      "cite": "21 U.S.C. \u00a7 802",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(15)",
+          "parenthetical": "defining manufacturing"
+        },
+        {
+          "page": "(15)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "565 F.3d 1005",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3643088
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "1007-08"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/565/1005-01"
+      ]
+    },
+    {
+      "cite": "293 F.Supp.3d 1242",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        12523652
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1248-49"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/293/1242-01"
+      ]
+    },
+    {
+      "cite": "2017 WL 4544596",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "*2-3"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2018 WL 1618335",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "*4"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "450 F.3d 39",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3087148
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "43"
+        },
+        {
+          "page": "45"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/450/0039-01"
+      ]
+    },
+    {
+      "cite": "325 F.3d 110",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9344064
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "113-114",
+          "parenthetical": "\"[I]nvolving has expansive connotations ... encompassing ... offenses that are related to or connected with [distributing, manufacturing, or possessing.]\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/325/0110-01"
+      ]
+    },
+    {
+      "cite": "331 F.3d 116",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9110882,
+        3719662
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "131",
+          "parenthetical": "citing \"related to or connected with\" language"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/331/0116-01",
+        "/us-app-dc/356/0299-01"
+      ]
+    },
+    {
+      "cite": "540 F.3d 356",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4234183
+      ],
+      "weight": 2,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "365",
+          "parenthetical": "\"[I]nvolving means related to or connected with.\" (citation and internal quotation marks omitted)"
+        },
+        {
+          "page": "365-66"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/540/0356-01"
+      ]
+    },
+    {
+      "cite": "656 F.3d 180",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3831286
+      ],
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "185",
+          "parenthetical": "\"In adopting this position, we conform with all courts of appeals that have addressed the scope of the definition of a serious drug offense.\""
+        },
+        {
+          "page": "184",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/656/0180-01"
+      ]
+    },
+    {
+      "cite": "669 F.3d 880",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3724090
+      ],
+      "weight": 2,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "886",
+          "parenthetical": "internal quotation omitted"
+        },
+        {
+          "page": "886",
+          "parenthetical": "quoting United States v. Vickers , 540 F.3d 356, 365-66 (5th Cir. 2008) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/669/0880-01"
+      ]
+    },
+    {
+      "cite": "775 F.3d 1262",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6055275
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1267",
+          "parenthetical": "\"No element of mens rea with respect to the illicit nature of the controlled substance is expressed or implied by [ \u00a7 924(e)(2)(A)(ii) ]\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/775/1262-01"
+      ]
+    },
+    {
+      "cite": "569 U.S. 184",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12697041
+      ],
+      "weight": 3,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "190-91"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/569/0184-01"
+      ]
+    },
+    {
+      "cite": "136 S.Ct. 2243",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12598042
+      ],
+      "weight": 8,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "2256"
+        },
+        {
+          "page": "2256-57"
+        },
+        {
+          "page": "2256"
+        },
+        {
+          "page": "2257"
+        },
+        {
+          "page": "2256"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/136/2243-01"
+      ]
+    },
+    {
+      "cite": "570 U.S. 254",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12698469
+      ],
+      "weight": 9,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "257"
+        },
+        {
+          "page": "272"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/570/0254-01"
+      ]
+    },
+    {
+      "cite": "495 U.S. 575",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        634101
+      ],
+      "weight": 3,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "600"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/495/0575-01"
+      ]
+    },
+    {
+      "cite": "906 F.3d 390",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518901
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "393"
+        },
+        {
+          "page": "394"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/906/0390-01"
+      ]
+    },
+    {
+      "cite": "721 F.3d 380",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5756334
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "395-96"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/721/0380-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 924",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "(a)(2)"
+        },
+        {
+          "page": "(e)(1)"
+        },
+        {
+          "page": "(e)(2)(A)(ii)"
+        },
+        {
+          "page": "(e)(2)(A)(ii)"
+        },
+        {
+          "page": "(e)(2)(A)(ii)"
+        },
+        {
+          "page": "(e)(2)(A)(ii)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "Tenn. Code Ann. \u00a7 39-17-433",
+      "category": "laws:leg_statute",
+      "reporter": "Tenn. Code Ann.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 922",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(g)"
+        },
+        {
+          "page": "(g)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 905,
+    "char_count": 20529,
+    "pagerank": {
+      "raw": 5.676830387708631e-08,
+      "percentile": 0.35739612618341843
+    },
+    "sha256": "6252c38d5c80377954fe965152524fbcab0696eb24a8b1588360f784c14c0e01",
+    "simhash": "1:e2fef2052b4162e9",
+    "word_count": 3220
+  },
+  "last_updated": "2024-02-27T18:46:33.646602+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before: SILER, COOK, and BUSH, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellant,\nv.\nCharles EASON, Defendant-Appellee."
+    ],
+    "opinions": [
+      {
+        "text": "SILER, Circuit Judge.\nThe United States appeals a 46-month sentence imposed on Charles Eason by the Western District of Tennessee following his guilty plea to being a felon in possession of a firearm, in violation of 18 U.S.C. \u00a7 922(g). The United States argues the district court erred in finding that Eason was not an armed career criminal, given his five prior Tennessee convictions for promotion of methamphetamine manufacture. See Tenn. Code Ann. \u00a7 39-17-433. Since these convictions are serious drug offenses under the Armed Career Criminal Act (ACCA), we REVERSE Eason's sentence and REMAND for resentencing.\nFACTUAL AND PROCEDURAL HISTORY\nIn 2017, Eason pleaded guilty to being a felon in possession of a firearm, in violation of 18 U.S.C. \u00a7 922(g). The default statutory range for such a violation is zero to 10 years' imprisonment. 18 U.S.C. \u00a7 924(a)(2). However, under the ACCA, a defendant convicted under \u00a7 922(g) who has three prior convictions for violent felonies or serious drug offenses is subject to an enhanced mandatory minimum sentence of 180 months. 18 U.S.C. \u00a7 924(e)(1).\nThe Pre-Sentence Report recommended that Eason be sentenced under the ACCA due to his five prior Tennessee felony convictions for promotion of methamphetamine manufacture. Eason objected. He pointed out that an ACCA \"serious drug offense\" is defined, in relevant part, as \"an offense under State law, involving manufacturing, distributing, or possessing with intent to manufacture or distribute, a controlled substance ....\" 18 U.S.C. \u00a7 924(e)(2)(A)(ii). Eason argued that, under the Tennessee statute, his prior offenses could have been based on no more than the purchase of an ingredient that can be used to produce methamphetamine with reckless disregard of its intended use. This, he argued, was too attenuated from the manufacture of methamphetamine to involve it for ACCA purposes.\nThe government countered, and continues to argue, that the Tennessee statute \"involves\" the manufacture of methamphetamine because it targets those who gather the necessary ingredients. And under the ACCA's definition of serious drug offense, there is no explicit mens rea requirement for the underlying state crimes-rather, the ACCA requires only that the predicate offenses involve certain activities related to controlled substances.\nThe district court agreed with Eason. It explained that, while \"involving\" is an expansive term under the ACCA, purchasing an ingredient with reckless disregard of its intended use does not relate or connect closely enough with manufacturing so as to involve it. Without the ACCA enhancement, Eason was sentenced to 46 months' imprisonment, the top of the guideline range.\nSTANDARD OF REVIEW\nWe review a district court's interpretation and application of the ACCA de novo. United States v. Stafford , 721 F.3d 380, 395-96 (6th Cir. 2013). This includes review of whether a prior conviction constitutes a \"serious drug offense.\" United States v. Goldston , 906 F.3d 390, 393 (6th Cir. 2018).\nDISCUSSION\nTo determine whether a prior conviction meets this definition, courts use \"a formal categorical approach, looking only to the statutory definitions of the prior offenses, and not to the particular facts underlying those convictions.\" Taylor v. United States , 495 U.S. 575, 600, 110 S.Ct. 2143, 109 L.Ed.2d 607 (1990). When a state statute includes multiple, alternative elements, not all of which meet the ACCA's definition for a predicate offense, a modified categorical approach may be employed. See Descamps v. United States , 570 U.S. 254, 257, 133 S.Ct. 2276, 186 L.Ed.2d 438 (2013). The modified approach allows a court to consult a limited class of documents, \"to determine which alternative formed the basis of the defendant's prior conviction,\" and then compare the elements of the conviction to the elements of the generic predicate crime, id. , or, in this case, the definition supplied by Congress. If the elements of the conviction are the same or narrower, it constitutes a predicate offense under the ACCA. Id.\nI. Eason's Prior Convictions\nThe first inquiry, then, is to determine the elements of Eason's prior convictions. Mathis v. United States , --- U.S. ----, 136 S.Ct. 2243, 2256, 195 L.Ed.2d 604 (2016). Under Tennessee law, a person promotes methamphetamine manufacture when he:\n(1) Sells, purchases, acquires, or delivers any chemical, drug, ingredient, or apparatus that can be used to produce methamphetamine, knowing that it will be used to produce methamphetamine, or with reckless disregard of its intended use;\n(2) Purchases or possesses more than nine (9) grams of an immediate methamphetamine precursor with the intent to manufacture methamphetamine or deliver the precursor to another person whom they know intends to manufacture methamphetamine, or with reckless disregard of the person's intent; or (3) Permits a person to use any structure or real property that the defendant owns or has control of, knowing that the person intends to use the structure to manufacture methamphetamine, or with reckless disregard of the person's intent.\nTenn. Code Ann. \u00a7 39-17-433(a).\nBoth parties agree that this statute is divisible since it lists multiple alternative elements under which Eason could have been convicted. It is also undisputed that the indictments show each of Eason's convictions was under section (a)(1) of the statute. It is less clear whether section (a)(1) is further divisible-whether the alternative phrases listed throughout the section are means to satisfying one element, or are individual elements themselves. See Mathis , 136 S.Ct. at 2256-57. The importance of the distinction being: if they are elements, the court should proceed with the modified categorical approach to determine which element was included in Eason's convictions, but if they are means, \"the court has no call to decide which of the statutory alternatives was at issue in the earlier prosecution.\" Id. at 2256.\nTennessee law provides no answer. When state law fails to provide a clear answer regarding elements or means, \"federal judges have another place to look: the record of a prior conviction itself.\" Id. ; see also Descamps , 570 U.S. at 264 n.2, 133 S.Ct. 2276. Here, the indictments charged Eason with the \"purchase [of] an ingredient that could be used to produce methamphetamine, knowing that the ingredient would be used to produce methamphetamine, or with reckless disregard of its intended use.\"\nSince the indictment lists \"purchase\" and \"ingredient\" to the exclusion of their alternative terms, these are elements of Eason's crimes. Mathis , 136 S.Ct. at 2257 ; see also Descamps , 570 U.S. at 272, 133 S.Ct. 2276 (\"A prosecutor charging a violation of a divisible statute must generally select the relevant element from its list of alternatives\"). However, the indictment retains both mens rea alternatives from the original statute, indicating that knowledge or reckless disregard are both possible means for satisfying a single mens rea element, but neither of which is an element by itself (i.e. it must be proven to a jury beyond a reasonable doubt for conviction). Mathis , 136 S.Ct. at 2257. The categorical approach does not allow the court to venture into the facts of Eason's conduct to determine the means by which he violated the mens rea element of Tennessee's statute. Id. at 2256.\nThus, Eason's prior offenses, for ACCA purposes, could have been based on no more than the purchase of an ingredient that could be used to produce methamphetamine with reckless disregard of its intended use. The court must determine whether such a crime involves the manufacture of methamphetamine under the ACCA. See Moncrieffe v. Holder , 569 U.S. 184, 190-91, 133 S.Ct. 1678, 185 L.Ed.2d 727 (2013) (\"Because we examine what the state conviction necessarily involved, not the facts underlying the case, we must presume that the conviction rested upon [nothing] more than th[e] least of the acts criminalized, and then determine whether even those acts are encompassed by the generic federal offense.\" (internal quotations omitted)) (alteration in original).\nII. Whether Eason's Prior Convictions Are ACCA Predicate Offenses\nA \"serious drug offense\" under the ACCA includes:\n[A]n offense under State law, involving manufacturing, distributing, or possessing with intent to manufacture or distribute, a controlled substance ... for which a maximum term of imprisonment of ten years or more is prescribed by law[.]\n18 U.S.C. \u00a7 924(e)(2)(A)(ii).\nApart from \"possessing with intent to manufacture or distribute,\" this definition does not require the underlying state conviction to contain a specific mens rea . See, e.g. , United States v. Smith , 775 F.3d 1262, 1267 (11th Cir. 2014) (\"No element of mens rea with respect to the illicit nature of the controlled substance is expressed or implied by [ \u00a7 924(e)(2)(A)(ii) ]\"). Congress did not attach a mens rea requirement to manufacturing. And it is clear that Congress could have done so, since it did for convictions involving possession of a controlled substance. Thus, to the extent the district court's opinion rests on a belief that the ACCA requires proof that Eason intended to engage in a serious drug offense, this is error.\nBut the level of culpability required for Eason's state convictions remains relevant. As already detailed, the categorical approach requires courts to compare the elements of the state crime to the definition of a serious drug offense under the ACCA. Mens rea is an element of each of Eason's convictions. The district court was correct, then, to point out that the degree of culpability required of the statute-indeed, the type of conduct it prohibits-may affect whether a conviction under it involves manufacturing of a controlled substance. 18 U.S.C. \u00a7 924(e)(2)(A)(ii).\na. The legal landscape of \"involving\"\nThere is little Sixth Circuit caselaw addressing the \"involving\" element of the serious drug offense definition. Most other circuits have interpreted it as an \"expansive term,\" which goes beyond the enumerated offenses and \"requires only that the conviction be related to or connected with drug manufacture, distribution, or possession, as opposed to including those acts as an element of the offense.\" United States v. Bynum , 669 F.3d 880, 886 (8th Cir. 2012) (internal quotation omitted);\nUnited States v. Gibbs , 656 F.3d 180, 185 (3d Cir. 2011) (\"In adopting this position, we conform with all courts of appeals that have addressed the scope of the definition of a serious drug offense.\"); United States v. Vickers , 540 F.3d 356, 365 (5th Cir. 2008) (\"[I]nvolving means related to or connected with.\" (citation and internal quotation marks omitted)); United States v. Alexander , 331 F.3d 116, 131 (D.C. Cir. 2003) (citing \"related to or connected with\" language); United States v. King , 325 F.3d 110, 113-114 (2d Cir. 2003) (\"[I]nvolving has expansive connotations ... encompassing ... offenses that are related to or connected with [distributing, manufacturing, or possessing.]\").\nEason responds that the connection cannot be too tangential or remote, and that the plain meaning of \"involve\" is \"to relate closely \" or to \"connect closely .\" Gibbs , 656 F.3d at 184 (emphasis added) (citing United States v. McKenney , 450 F.3d 39, 43 (1st Cir. 2006) ). In McKenney , the First Circuit, after agreeing that \"involving\" was to be read \"expansively\" and encompassed offenses that were \"related to or connected with\" the enumerated conduct of \u00a7 924(e)(2)(A)(ii), gave a word of caution:\n[W]hile the term \"involving\" under 18 U.S.C. \u00a7 924(e)(2)(A)(ii) is not to be too narrowly read, it also is not to be too broadly read. Not all offenses bearing any sort of relationship with drug manufacturing, distribution, or possession with intent to manufacture or distribute will qualify as predicate offenses under the ACCA. The relationship must not be too remote or tangential. We need not decide today where the line is ....\nMcKenney , 450 F.3d at 45.\nNo circuit appears to have considered whether purchasing an ingredient that could be used to manufacture methamphetamine with a reckless disregard of its intended use involves the manufacture of a controlled substance. While the government cites two district court opinions ruling that methamphetamine promotion statutes qualify as serious drug offenses, they are inapposite, since the prior convictions in those cases specifically involved the intent to manufacture, rather than a reckless disregard for the ingredient's use. See Jones v. United States , No. 1:11-cr-10004, 2018 WL 1618335, at *4 (W.D. Ark. Apr. 4, 2018) ; United States v. Sage , No. 1:13-cr-00100, 2017 WL 4544596, at *2-3 (D. Or. Oct. 11, 2017). The district court opinion relied on by Eason also sheds little light on the issue before us. The court in Ernst v. United States , 293 F.Supp.3d 1242 (D. Or. 2017), determined that an Oregon statute making it \"unlawful for any person to manufacture or deliver a controlled substance,\" was not a serious drug offense. But the court held so because the willingness of Oregon state courts to include solicitation as part of the statute's prohibition on delivery, even in the absence of possession, intent to possess, payment, or specific terms regarding the controlled substance. Id. at 1248-49. Neither solicitation, nor the meaning of delivery, is involved in the Tennessee statute.\nb. Our case\nHere, the conduct prohibited by Tennessee Code \u00a7 39-17-433(a)(1) relates to and is connected with the manufacture of methamphetamine. Methamphetamine can be made largely from products purchased over the counter. See, e.g. , United States v. Roberge , 565 F.3d 1005, 1007-08 (6th Cir. 2009). Thus, the purchase of those ingredients is often an essential first step to the drug's manufacture. And to ensure that the statute criminalizes only those purchases that relate to manufacture-for our purposes, that they are not too tangential from manufacture-the Tennessee legislature requires more: a person must purchase the ingredient with knowledge that it will be used to produce methamphetamine, or with a \"reckless disregard of [the ingredient's] intended use.\" Tenn. Code Ann. \u00a7 39-17-433(a)(1).\nThat Eason could have done the latter does not attenuate the conduct from manufacturing. While true that, as culpability diminishes, so too does the connection to manufacturing, Tennessee's recklessness standard does not create a gap too far. To be convicted under \u00a7 39-17-433(a)(1), a purchaser of ingredients would have to be \"aware of but consciously disregard[ ] a substantial and unjustifiable risk\" of the ingredient's intended use. Tenn. Code. \u00a7 39-11-302(c). Purchasing ingredients needed to make methamphetamine, and consciously disregarding an unjustifiable risk regarding how those products will be used, \"indirectly,\" if not \"directly,\" connects with methamphetamine's \"production, preparation, propagation, compounding or processing.\" 21 U.S.C. \u00a7 802(15) (defining manufacturing). Indeed, recklessly purchasing prerequisite ingredients, many of which are otherwise restricted, takes them out of the store and into the public, increasing the potential supply from which the drug can be made. Thus, Eason's convictions involve the manufacture of methamphetamine under the ACCA.\nAnd this reading is consistent with Tennessee's enforcement of the statute. That the Tennessee legislature meant to target a first step in methamphetamine manufacture is clear, since the statute was enacted as part of the Meth-Free Tennessee Act of 2005, the preamble of which explicitly recognized \"that the clandestine manufacture of the illegal drug methamphetamine is a clear and present danger to the health and well being of the State of Tennessee.\" Meth-Free Tennessee Act of 2005, 2005 Tenn. Pub. Acts, c.18. Eason references no state court cases in his briefing, much less identifies convictions under \u00a7 39-17-433(a)(1) that would not involve the manufacture of methamphetamine for purposes of the ACCA.\nFinally, the rule of lenity does not prohibit application of the ACCA in this case. It is true that, \"where there is ambiguity in a criminal statute, doubts are resolved in favor of the defendant.\" United States v. Bass , 404 U.S. 336, 348, 92 S.Ct. 515, 30 L.Ed.2d 488 (1971). But the rule of lenity is inapplicable unless ambiguity is left after the court has \"seize[d] every thing from which aid can be derived.\" Chapman v. United States , 500 U.S. 453, 463, 111 S.Ct. 1919, 114 L.Ed.2d 524 (1991) (citations omitted). Here, the categorical approach provides the process, and the ACCA's definitions provide the substance by which the court can readily determine if Eason's convictions are predicate offenses-there is no \"grievous ambiguity or uncertainty in the language and structure of the Act\" required to invoke the rule of lenity. Id. (internal quotation marks omitted).\nCONCLUSION\nSince Eason's convictions are serious drug offenses under the Armed Career Criminal Act, we REVERSE his sentence and REMAND for resentencing consistent with this opinion.\nA court is \"generally limited to examining the statutory definition, charging document, written plea agreement, transcript of plea colloquy, and any explicit factual finding by the trial judge to which the defendant assented.\" Shepard v. United States , 544 U.S. 13, 16, 125 S.Ct. 1254, 161 L.Ed.2d 205 (2005).\nThe ACCA's definition of serious drug offense incorporates the definitions of 21 U.S.C. \u00a7 802. See, e.g. , Goldston , 906 F.3d at 394. Under that statute, the term \"manufacture\" means:\n[T]he production, preparation, propagation, compounding, or processing of a drug or other substance, either directly or indirectly or by extraction from substances of natural origin, or independently by means of chemical synthesis or by a combination of extraction and chemical synthesis, and includes any packaging or repackaging of such substance or labeling or relabeling of its container ....\n21 U.S.C. \u00a7 802(15).\nEason points to the legislative history, and a few other circuit courts, for the proposition that Congress was targeting those who \"intentionally enter the highly dangerous drug distribution world\" when enacting the ACCA. United States v. Bynum , 669 F.3d 880, 886 (8th Cir. 2012) (quoting United States v. Vickers , 540 F.3d 356, 365-66 (5th Cir. 2008) ). While Congress certainly meant for the ACCA to apply to those defendants, \u00a7 924(e)(2)(A)(ii) is unambiguous, e.g. , United States v. Winbush , 407 F.3d 703, 708 (5th Cir. 2005), and the words used do not establish a minimum mens rea requirement in order for the underlying state convictions to relate to manufacturing. Given the straightforward statutory command, there is no reason to resort to the legislative history on this issue. United States v. Gonzales , 520 U.S. 1, 6, 117 S.Ct. 1032, 137 L.Ed.2d 132 (1997).\nSee United States v. Thomas , 13 F. App'x 233, 242 (6th Cir. Apr. 3, 2001) (holding, without discussion, that \"an attempt narcotics conviction 'involves' narcotics\"); see also United States v. White , 53 F.3d 332 (Table), 1995 WL 244069 at *2 (6th Cir. Apr. 26, 1995) (accepting government's concession that convictions for \"illegal processing of drug documents\" were not serious drug offenses, where defendant did not intend to distribute the pills for which he possessed forged prescriptions).\nEason argues his convictions support the finding that someone other than himself had the intent to manufacture methamphetamine, and that he recklessly disregarded that person's intent. This argument in no way attenuates the elements of conviction from manufacturing. That a person would have been aware of, but consciously disregarded a substantial and unjustifiable risk that the ingredients they purchased were intended to be manufactured into methamphetamine by another, only seems to put the convictions closer to manufacture.",
+        "type": "majority",
+        "author": "SILER, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "ARGUED: Kevin G. Ritz, UNITED STATES ATTORNEY'S OFFICE, Memphis, Tennessee, for Appellant. Unam Peter Oh, FEDERAL PUBLIC DEFENDER, Memphis, Tennessee, for Appellee. ON BRIEF: Kevin G. Ritz, Bryce Phillips, UNITED STATES ATTORNEY'S OFFICE, Memphis, Tennessee, for Appellant. Unam Peter Oh, FEDERAL PUBLIC DEFENDER, Memphis, Tennessee, for Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellant,\nv.\nCharles EASON, Defendant-Appellee.\nNo. 18-5387\nUnited States Court of Appeals, Sixth Circuit.\nArgued: January 30, 2019\nDecided and Filed: March 22, 2019\nRehearing En Banc Denied May 28, 2019\nARGUED: Kevin G. Ritz, UNITED STATES ATTORNEY'S OFFICE, Memphis, Tennessee, for Appellant. Unam Peter Oh, FEDERAL PUBLIC DEFENDER, Memphis, Tennessee, for Appellee. ON BRIEF: Kevin G. Ritz, Bryce Phillips, UNITED STATES ATTORNEY'S OFFICE, Memphis, Tennessee, for Appellant. Unam Peter Oh, FEDERAL PUBLIC DEFENDER, Memphis, Tennessee, for Appellee.\nBefore: SILER, COOK, and BUSH, Circuit Judges."
+  },
+  "file_name": "0385-01",
+  "first_page_order": 385,
+  "last_page_order": 393
+}

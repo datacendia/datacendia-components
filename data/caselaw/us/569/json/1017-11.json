@@ -1,0 +1,68 @@
+{
+  "id": 12696704,
+  "name": "UNITED STATES, petitioner, v. John Dennis APEL",
+  "name_abbreviation": "United States v. Apel",
+  "decision_date": "2013-06-03",
+  "docket_number": "12\u20131038",
+  "first_page": "1017",
+  "last_page": "1017",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "569 U.S. 1017"
+    },
+    {
+      "type": "parallel",
+      "cite": "186 L. Ed. 2d 218"
+    },
+    {
+      "type": "parallel",
+      "cite": "133 S. Ct. 2767"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 206,
+    "sha256": "60e19a0489ddfd1f72010703a9e4984523b9c0cea8b0b138bfba5c955c3cf54d",
+    "simhash": "1:72aee6cc3787770e",
+    "word_count": 34
+  },
+  "last_updated": "2021-08-27T21:08:28.003473+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "UNITED STATES, petitioner,\nv.\nJohn Dennis APEL"
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of certiorari to the United States Court of Appeals for the Ninth Circuit granted."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES, petitioner,\nv.\nJohn Dennis APEL\n12-1038\nSupreme Court of the United States\nJune 3, 2013.\nPetition for writ of certiorari to the United States Court of Appeals for the Ninth Circuit granted."
+  },
+  "file_name": "1017-11",
+  "first_page_order": 1017,
+  "last_page_order": 1017
+}

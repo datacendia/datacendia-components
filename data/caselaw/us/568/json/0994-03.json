@@ -1,0 +1,59 @@
+{
+  "id": 12421466,
+  "name": "Ernst v. United States",
+  "name_abbreviation": "Ernst v. United States",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-6515",
+  "first_page": "994",
+  "last_page": "994",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 994"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.632,
+    "sha256": "dab9d536df3959f28f9aa21cb09545819c5bc0b1dd824d6a0734197bafffafaf",
+    "simhash": "1:018a926bca855149",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ernst v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6515.\nErnst v. United States."
+  },
+  "file_name": "0994-03",
+  "first_page_order": 1070,
+  "last_page_order": 1070
+}

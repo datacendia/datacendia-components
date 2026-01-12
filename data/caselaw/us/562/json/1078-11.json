@@ -1,0 +1,61 @@
+{
+  "id": 5989210,
+  "name": "Squirewell v. United States",
+  "name_abbreviation": "Squirewell v. United States",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 09-8567",
+  "first_page": "1078",
+  "last_page": "1078",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1078"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 154,
+    "ocr_confidence": 0.593,
+    "sha256": "3fc9ac0d3c71eb56a345d6a18dde056aebb259807c0ed1a8f38a307dd4c06ec1",
+    "simhash": "1:9da3ca82270eb848",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Squirewell v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-8567.\nSquirewell v. United States."
+  },
+  "file_name": "1078-11",
+  "first_page_order": 1100,
+  "last_page_order": 1100
+}

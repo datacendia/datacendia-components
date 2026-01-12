@@ -1,0 +1,59 @@
+{
+  "id": 12230843,
+  "name": "Espie v. Rivard, Warden",
+  "name_abbreviation": "Espie v. Rivard",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-6059",
+  "first_page": "983",
+  "last_page": "983",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 983"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.714,
+    "sha256": "59e5f0e85aa7ffb0289e81f7538e9fe9dd8d7de890bd3536869330e2e1b6b68d",
+    "simhash": "1:f08a2a83da161099",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Espie v. Rivard, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6059.\nEspie v. Rivard, Warden."
+  },
+  "file_name": "0983-06",
+  "first_page_order": 1065,
+  "last_page_order": 1065
+}

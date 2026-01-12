@@ -1,0 +1,79 @@
+{
+  "id": 12234666,
+  "name": "Fuller v. United States",
+  "name_abbreviation": "Fuller v. United States",
+  "decision_date": "2011-11-28",
+  "docket_number": "No. 10-11113",
+  "first_page": "1050",
+  "last_page": "1050",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1050"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "564 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        4335985,
+        12450132
+      ],
+      "year": 2011,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/564/0001-01",
+        "/l-ed-2d/180/0060-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 38,
+    "char_count": 279,
+    "ocr_confidence": 0.656,
+    "pagerank": {
+      "raw": 4.688403287882615e-08,
+      "percentile": 0.2524537496968637
+    },
+    "sha256": "9a5148128dd3c095f567291a47186d719381bb867dbdd38022e3e24e9399957c",
+    "simhash": "1:e782798685308a98",
+    "word_count": 46
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Fuller v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Motion of petitioner for leave to proceed in forma pauperis granted. Certiorari granted, judgment vacated, and case remanded for further consideration in light of Sykes v. United States, 564 U. S. 1 (2011).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "November 28, 2011\nNo. 10-11113.\nFuller v. United States."
+  },
+  "file_name": "1050-06",
+  "first_page_order": 1132,
+  "last_page_order": 1132
+}

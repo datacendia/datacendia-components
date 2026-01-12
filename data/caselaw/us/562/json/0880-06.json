@@ -1,0 +1,59 @@
+{
+  "id": 5913292,
+  "name": "Angiano v. Lopez, Warden",
+  "name_abbreviation": "Angiano v. Lopez",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11431",
+  "first_page": "880",
+  "last_page": "880",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 880"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.599,
+    "sha256": "813c5ce1a2e9ccba47a181ebb48a0ca14a5de52d9c0b11724ec470f8da9024b4",
+    "simhash": "1:903324a32c3f7377",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Angiano v. Lopez, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11431.\nAngiano v. Lopez, Warden."
+  },
+  "file_name": "0880-06",
+  "first_page_order": 902,
+  "last_page_order": 902
+}

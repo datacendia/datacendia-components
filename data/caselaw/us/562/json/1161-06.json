@@ -1,0 +1,59 @@
+{
+  "id": 5967261,
+  "name": "Hardin v. Illinois",
+  "name_abbreviation": "Hardin v. Illinois",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7780",
+  "first_page": "1161",
+  "last_page": "1161",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1161"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 66,
+    "ocr_confidence": 0.594,
+    "sha256": "aa6e0d9448c13138033b4d041a4577b9411698da5e50a30e58e91f6d244f65b8",
+    "simhash": "1:20f2319f9971c3f5",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hardin v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ill. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7780.\nHardin v. Illinois."
+  },
+  "file_name": "1161-06",
+  "first_page_order": 1183,
+  "last_page_order": 1183
+}

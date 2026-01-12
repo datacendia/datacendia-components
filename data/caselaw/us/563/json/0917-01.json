@@ -1,0 +1,59 @@
+{
+  "id": 5911807,
+  "name": "In re Hill; and In re Pennick",
+  "name_abbreviation": "In re Hill",
+  "decision_date": "2011-04-04",
+  "docket_number": "No. 10-9404; No. 10-9461",
+  "first_page": "917",
+  "last_page": "917",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 917"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 102,
+    "ocr_confidence": 0.542,
+    "sha256": "721b5331b89dda46d96d895eb3f9f5189d48c7e14a24c70141fd0a340cbdc389",
+    "simhash": "1:534cb309535b4c25",
+    "word_count": 18
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Hill; and In re Pennick."
+    ],
+    "opinions": [
+      {
+        "text": "Petitions for writs of habeas corpus denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9404.\nNo. 10-9461.\nIn re Hill; and In re Pennick."
+  },
+  "file_name": "0917-01",
+  "first_page_order": 943,
+  "last_page_order": 943
+}

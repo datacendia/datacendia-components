@@ -1,0 +1,59 @@
+{
+  "id": 12407751,
+  "name": "Galvez v. Internal Revenue Service",
+  "name_abbreviation": "Galvez v. Internal Revenue Service",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. 11M115",
+  "first_page": "904",
+  "last_page": "904",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 904"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 21,
+    "char_count": 135,
+    "ocr_confidence": 0.68,
+    "sha256": "1ae9c015b1f3ae667cb9813811edc478742a7255594cd02d63218822e1ed648d",
+    "simhash": "1:4ec7021683d1a0b9",
+    "word_count": 23
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Galvez v. Internal Revenue Service."
+    ],
+    "opinions": [
+      {
+        "text": "Motion to direct the Clerk to file petition for writ of certiorari out of time denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11M115.\nGalvez v. Internal Revenue Service."
+  },
+  "file_name": "0904-02",
+  "first_page_order": 808,
+  "last_page_order": 808
+}

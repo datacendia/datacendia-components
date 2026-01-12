@@ -1,0 +1,59 @@
+{
+  "id": 6023271,
+  "name": "Sparkman v. United States",
+  "name_abbreviation": "Sparkman v. United States",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 10-7096",
+  "first_page": "1073",
+  "last_page": "1073",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1073"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.568,
+    "sha256": "cf7e8a037bba718543b03026a2b6e97c20748f1b7a3c2757e45b780171ab75f6",
+    "simhash": "1:043a93820f4d9c2e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sparkman v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7096.\nSparkman v. United States."
+  },
+  "file_name": "1073-12",
+  "first_page_order": 1095,
+  "last_page_order": 1095
+}

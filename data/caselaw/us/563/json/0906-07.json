@@ -1,0 +1,59 @@
+{
+  "id": 5956656,
+  "name": "Judd v. New Mexico",
+  "name_abbreviation": "Judd v. New Mexico",
+  "decision_date": "2011-03-28",
+  "docket_number": "No. 10-8518",
+  "first_page": "906",
+  "last_page": "906",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 906"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 67,
+    "ocr_confidence": 0.633,
+    "sha256": "a61dd4c08ad7ff526742ef4173a9a481722c2c8c988e447996ae621af7c4d0ef",
+    "simhash": "1:993f806ed2676baa",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Judd v. New Mexico."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. N. M. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8518.\nJudd v. New Mexico."
+  },
+  "file_name": "0906-07",
+  "first_page_order": 932,
+  "last_page_order": 932
+}

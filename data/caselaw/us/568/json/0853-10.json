@@ -1,0 +1,59 @@
+{
+  "id": 12413615,
+  "name": "Hall v. Brunsman, Warden",
+  "name_abbreviation": "Hall v. Brunsman",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10643",
+  "first_page": "853",
+  "last_page": "853",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 853"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.616,
+    "sha256": "08d646088fcd862b3008b4c6b1ae372a4c51b227f50cf73574c5f8928524bb57",
+    "simhash": "1:a51b12c3ee0b48e6",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hall v. Brunsman, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10643.\nHall v. Brunsman, Warden."
+  },
+  "file_name": "0853-10",
+  "first_page_order": 929,
+  "last_page_order": 929
+}

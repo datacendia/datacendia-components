@@ -1,0 +1,68 @@
+{
+  "id": 12696517,
+  "name": "In re Terence One BOYD, petitioner.",
+  "name_abbreviation": "In re Boyd",
+  "decision_date": "2013-05-28",
+  "docket_number": "No. 12\u201310033.",
+  "first_page": "1003",
+  "last_page": "1003",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "569 U.S. 1003"
+    },
+    {
+      "type": "parallel",
+      "cite": "186 L. Ed. 2d 210"
+    },
+    {
+      "type": "parallel",
+      "cite": "133 S. Ct. 2756"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 23,
+    "char_count": 143,
+    "sha256": "5eb49228759bf31c8e48b5c6d9b9c0be85dd5bbf879a9b455c241e0932fb2ae7",
+    "simhash": "1:58c7529efed9c75b",
+    "word_count": 24
+  },
+  "last_updated": "2021-08-27T21:08:28.003473+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Terence One BOYD, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of habeas corpus denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re Terence One BOYD, petitioner.\nNo. 12-10033.\nSupreme Court of the United States\nMay 28, 2013.\nPetition for writ of habeas corpus denied."
+  },
+  "file_name": "1003-12",
+  "first_page_order": 1003,
+  "last_page_order": 1003
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12429766,
+  "name": "Leonard v. United States",
+  "name_abbreviation": "Leonard v. United States",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-7703",
+  "first_page": "1136",
+  "last_page": "1136",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1136"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.646,
+    "sha256": "63ac7acbf2042b7726efcb56a6d066c469d1658e8b9353fb151aeb14aa15df17",
+    "simhash": "1:b7cbcef3cb9db519",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Leonard v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7703.\nLeonard v. United States."
+  },
+  "file_name": "1136-08",
+  "first_page_order": 1212,
+  "last_page_order": 1212
+}

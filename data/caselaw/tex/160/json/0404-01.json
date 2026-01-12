@@ -1,0 +1,466 @@
+{
+  "id": 2258987,
+  "name": "The State of Texas Ex. Rel. Hamp Edwards Et Al v. E. B. Reyna Et Al.",
+  "name_abbreviation": "State ex rel. Edwards v. Reyna",
+  "decision_date": "1960-02-24",
+  "docket_number": "No. A-7141",
+  "first_page": "404",
+  "last_page": "414",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "160 Tex. 404"
+    },
+    {
+      "type": "parallel",
+      "cite": "333 S.W.2d 832"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "14 S.W. 663",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "78 Texas 387",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2221169
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/78/0387-01"
+      ]
+    },
+    {
+      "cite": "100 S.W. 766",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "100 Texas 420",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2265357
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/100/0420-01"
+      ]
+    },
+    {
+      "cite": "181 S.W. 2d 570",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2340233,
+        10213836
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/142/0704-01",
+        "/sw2d/181/0570-01"
+      ]
+    },
+    {
+      "cite": "142 Texas 704",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2340233
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/142/0704-01"
+      ]
+    },
+    {
+      "cite": "54 S.W. 2d 110",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10232954,
+        5209690
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/54/0110-01",
+        "/tex-crim/122/0134-01"
+      ]
+    },
+    {
+      "cite": "122 Texas Crim. Rep. 134",
+      "category": "reporters:state",
+      "reporter": "Tex. Crim.",
+      "case_ids": [
+        5209690
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex-crim/122/0134-01"
+      ]
+    },
+    {
+      "cite": "138 S.W. 2d 637",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10235100
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/138/0637-01"
+      ]
+    },
+    {
+      "cite": "109 S.W. 2d 251",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10249773
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/109/0251-01"
+      ]
+    },
+    {
+      "cite": "74 S.W. 2d 146",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10239291
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/74/0146-01"
+      ]
+    },
+    {
+      "cite": "249 S.W. 80",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "265 S.W. 2d 805",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2247939,
+        10204260
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/153/0183-01",
+        "/sw2d/265/0805-01"
+      ]
+    },
+    {
+      "cite": "153 Texas 183",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2247939
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/153/0183-01"
+      ]
+    },
+    {
+      "cite": "154 S.W. 1197",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8297516
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/154/1197-01"
+      ]
+    },
+    {
+      "cite": "69 Texas Cr. Rep. 582",
+      "category": "reporters:state",
+      "reporter": "Tex. Crim.",
+      "case_ids": [
+        4658450
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex-crim/69/0582-01"
+      ]
+    },
+    {
+      "cite": "11 S.W. 630",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "27 Texas Cr. Rep. 513",
+      "category": "reporters:state",
+      "reporter": "Tex. Crim.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "267 S.W. 2d 285",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10187879
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/267/0285-01"
+      ]
+    },
+    {
+      "cite": "285 S.W. 2d 191",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10170170,
+        2250942
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/285/0191-01",
+        "/tex/155/0261-01"
+      ]
+    },
+    {
+      "cite": "155 Texas 261",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2250942
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/155/0261-01"
+      ]
+    },
+    {
+      "cite": "228 S.W. 2d 499",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2330550,
+        10200918
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/149/0087-01",
+        "/sw2d/228/0499-01"
+      ]
+    },
+    {
+      "cite": "149 Texas 87",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2330550
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/149/0087-01"
+      ]
+    },
+    {
+      "cite": "55 S.W. 160",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 S.W. 2d 921",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10285595
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/28/0921-01"
+      ]
+    },
+    {
+      "cite": "109 S.W. 2d 244",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10249656
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/109/0244-01"
+      ]
+    },
+    {
+      "cite": "9 S.W. (2d) 478",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10289882
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/9/0478-01"
+      ]
+    },
+    {
+      "cite": "258 S.W. 577",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10316111
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/258/0577-01"
+      ]
+    },
+    {
+      "cite": "98 S.W. 411",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "311 S.W. 2d 872",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10180617
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/311/0872-01"
+      ]
+    },
+    {
+      "cite": "249 S.W. 2d 80",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10194034
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/249/0080-01"
+      ]
+    },
+    {
+      "cite": "319 S.W. 2d 28",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10155511
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/319/0028-01"
+      ]
+    },
+    {
+      "cite": "14 S.W. 663",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "78 Texas 387",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2221169
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/78/0387-01"
+      ]
+    },
+    {
+      "cite": "181 S.W. 2d 570",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2340233,
+        10213836
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/142/0704-01",
+        "/sw2d/181/0570-01"
+      ]
+    },
+    {
+      "cite": "142 Texas 704",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2340233
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/142/0704-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1041,
+    "char_count": 22923,
+    "ocr_confidence": 0.577,
+    "pagerank": {
+      "raw": 4.090467151709262e-07,
+      "percentile": 0.9092281055768117
+    },
+    "sha256": "4ce2154bdac7cbb73a18a6b3afae24936aaa1832bdba74001430adb11c4dffec",
+    "simhash": "1:58ed5ce3652dc4de",
+    "word_count": 3961
+  },
+  "last_updated": "2024-02-27T22:54:30.640255+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "The State of Texas Ex. Rel. Hamp Edwards Et Al v. E. B. Reyna Et Al."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Norvell\ndelivered the opinion of the Court.\nThis is an ouster suit based upon alleged official misconduct of school trustees growing out of an election held on April 5, 1958. The trial court ousted E. B. Reyna, Margarito Reyna and Ramiro Cardenas from office but this judgment was reversed by the Court of Civil Appeals. Reyna v. State ex rel. Hamp Edwards, 319 S.W. 2d 28.\nThis Court was of the tentative opinion that as the defendant trustees had assumed to prepare the official ballot for the election mentioned, they were subject to removal from office in failing to carry out such duty in a fair and impartial manner, and that the evidence in the case supported the jury\u2019s finding that the defendant trustees had acted wilfully and in disregard of the laws of the State of Texas and the rights of Mr. Hamp Edwards in failing to place his name upon the official ballot for the school trustee election of April 5, 1958. Accordingly, writ of error was granted. From the standpoint of preservation of democratic government, any wrongful action tending to thwart the public will by interfering with a free expression thereof through the medium of a public election is admittedly a matter of serious concern. However, the conduct of elections is primarily a matter for legislative regulation and control. In view of this principle and after plenary hearing, we have concluded that the Court of Civil Appeals\u2019 approach to an analysis of the controlling question in this case is correct and that its judgment should be affirmed.\nThe controlling facts may be briefly stated as follows:\nOn February 4, 1958, the Board of Trustees of Tabasco Consolidated Independent School District entered an order calling for an election to be held on April 5th for the purpose of electing three members to the Board of Trustees of said district. This order provided, \u201cThat all requests by candidates to have their names placed upon the ballot for the above mentioned election shall be in writing and filed with A. Zamora at the office of the Secretary not later than March 5, 1958 at 5:00 P.M. * * *. The manner of holding said election shall be governed, as near as may be, by the Election Code of this State, and this Board of Trustees will furnish all necessary ballots and other election supplies requisite to said election.\u201d\nWe may here interpolate that there is no provision of the Election Code which specifically relates to a candidate\u2019s application for a place upon a ballot in a school trustee election. Applications for places upon a ballot in various elections generally require that the age, citizenship, length of residence in the county or state be stated and that the application be sworn to or acknowledged.\nMr. Hamp Edwards\u2019 application for a place on the ballot was in the form of a three-line letter addressed to the Secretary of the Board. It was not sworn to or acknowledged. Neither was it accompanied by a loyalty affidavit as required by Article 58 of the 1951 Election Code, Article 6.02, Vernon\u2019s Texas Election Code. The application read as follows:\n\u201cBox 214 Mission, Texas Feb. 14, 1958\n\u201cMr. Alejandro Zamora Sect. Board of Education Tabasco Ind. School District La Joya, Texas\nDear Sir:\nI hereby make request that my name be placed on the ballot as a candidate for Trustee of said School Districts. Election to be held on April 5, 1958.\nVery cordially (Signed) Hamp Edwards\nReceived on 2-15-58 at 9:51 A.M.\u201d\nThe applications of the other candidates to have their names placed upon the ballot were upon substantially the same form as that used by Felix Flores (apparently a member of the same political faction as Edwards) which application was as follows:\n\u201cTABASCO CONSOLIDATED INDEPENDENT SCHOOL DISTRICT\nLa Joya, Texas February 22, 1958\nTo: Board of Trustees, Tabasco Consolidated Independent School District, La Joya, Texas.\nGentlemen:\nI, Felix Flores, do hereby make application to have my name placed upon the Official Ballot of the Eelection for Trustees of Tabasco Consolidated Independent School District to be held in said District on April 5, 1958.\nI have been a Resident of the State of Texas for more than one year and of Tabasco Consolidated Independent School District\u2019 for more than six 'months. I ah\u00ed a property taxpayer in said district and am otherwise a qualified voter in said district.\nMy Loyalty affidavit as required by Article 58 of the Election Code (House Bill No. 6, 52nd Legislature, 1951) is attached hereto and made a part thereof.\nFelix Flores\nThe State of Texas I County of Hidalgo j\nBefore me, the undersigned authority, a Notary Public in and for Hidalgo County, Texas, on this day personally appeared Felix Flores who upon oath deposes and says:\nI, Felix Flores, of the County of Hidalgo, State of Texas, being a candidate for the office of Trustee of Tabasco Consolidated Independent School District, do solemnly swear that I believe in and approve of our present representative form of government, and if elected I will support and defend our present representative form of government and will resist any effort or movement from any source which seeks to subvert or destroy the same or any part thereof, and I will suport and defend the Constitution and laws of the United States and of the State of Texas.\nFelix Flores\nSubscribed and sworn to before me, the undersigned authority, this 22nd day of February, 1958.\nAlejandro Zamora\nAlejandro Zamora, Notary Public in and for Hidalgo County, Texas.\nMy Commission Expires June 1, 1959.\nSigned and filed at 11:58 A.M. on 2-22-58.\u201d\nThe application of Armando Marcado, who was also a member of the Edwards\u2019 party or faction, contained the additional statement that \u201cI read and write the English language understandably.\u201d\nOn March 6th, Edwards filed a loyalty affidavit but made no further amendment of his application. In this connection see, McWaters v. Tucker, Texas Civ. App., 249 S.W. 2d 80, no writ history.\nThe Board held that Edwards\u2019 application was defective and refused to place his name upon the ballot, whereupon he secured a writ of mandamus from the 92nd District Court of Hidalgo County, Texas ordering the Board to place his name upon the ballot. The Board appealed from this order and filed a supersedeas bond. The election was held before the appeal could be heard by the appellate court and the mandamus action was dismissed as moot. 311 S.W. 2d 872.\nThe issue in this case is not whether the district judge was correct in granting the writ of mandamus. The question is whether or not the respondent trustees were guilty of acts which under the law would work a forfeiture of the offices to which they were elected. The petitioners are without direct case authority supporting their assignments upon which the writ of error was granted. As pointed out by the Court of Civil Appeals, this Court held in 1890 that the ouster statute is \u201cpenal in character, and must be construed as though it were one defining a crime and prescribing its punishment.\u201d State ex rel. Hickman v. Alcorn, 78 Texas 387, 14 S.W. 663.\nThis rule seems to have been consistently followed. Considering the length of time the ouster statute has been on the books, resort thereto has been comparatively rare. The rule of strict construction may account for this circumstance. It appears from an examination of the reported cases that all those officials who have been ousted from office had clearly violated or disregarded some duty enjoined by law, generally a standard of conduct established by the legislative branch of government rather than some judicial notion of what is fair or impartial.\nIn Perry v. State ex rel Horn, Texas Civ. App., 98 S.W. 411, wr. ref., a county judge was removed from office upon being found guilty of conspiring to prevent the collection of state and county taxes. The county judge is a member of the Board of Equalization and a violation of a statutory duty was clearly involved.\nIn Reeves v. State, Texas Civ. App., 258 S.W. 577, no writ history, a sheriff was charged with violation of the prohibition laws and removed from office. Again violations of statutory enactments were involved.\nIn McDaniel v. State, Texas Civ. App., 9 S.W. (2d) 478, wr. ref., a sheriff was removed from office for violating the statutes relating to the collection of fees in felony cases.\nIn Jones v. State, Texas Civ. App., 109 S.W. 2d 244, no writ history, a constable was removed from office for the commission of acts contrary to legislative enactments and prohibited by both the constitution of Texas and that of the United States in that he was guilty of holding persons in arrest contrary to the provisions of the penal code and under circumsances which amounted to false imprisonment.\nIn State ex rel. Glenn v. Jordan, Texas Civ. App., 28 S.W. 2d 921, wr. dism. a final judgment of ouster was not shown. The Court of Civil Appeals reversed a judgment for a county judge based upon an instructed verdict. Here again, however, the breach of statutory regulations controlling the appointment of auditors and the paying out of county funds was involved.\nSimilarly in Cornutt v. State ex rel. Alexander, Texas Civ. App., 55 S.W. 160, wr. dism., a judgment of ouster was reversed because of the giving of an incorrect charge to the jury. Here again the unlawful payment of county funds was involved. The manner and method of paying out such funds is regulated by statute.\nSee also, Fitzgerald v. Panhandle Publishing Co., 149 Texas 87, 228 S.W. 2d 499; Garcia v. Laughlin, 155 Texas 261, 285 S.W. 2d 191; Lamb v. State ex rel Johnson, Texas Civ. App., 267 S.W. 2d 285, no writ history.\nThe Court of Criminal Appeals is occasionally called upon to construe the meaning of the phrase \u201cofficial misconduct\u201d in connection with the constitutional clause which vests the district court with jurisdiction \u201cof all misdemeanors involving official misconduct.\u201d Article 5, Sec. 8, Texas Constitution. All cases considered by that court necessarily involve violations of penal statutes. Brackenridge v. State, 27 Texas Cr. Rep. 513, 11 S.W. 630; Bolton v. State, 69 Texas Cr. Rep. 582, 154 S.W. 1197.\nIt should be noted that Articles 5970, 5972 and 5973, Vernon\u2019s Ann. Texas Stats, contain no wording comparable to Article 15, Sec. 6 of the Texas Constitution which authorizes this Court to remove a district judge who is \u201cguilty of partiality, or oppression.\u201d However, in the leading case under this constitutional provision, In re Laughlin, District Judge, 153 Texas 183, 265 S.W. 2d 805, it appears that the action upon which an ouster was based was the judge\u2019s discharge of a grand jury without lawful authority.\nNone of the cases which have come to our attention support the proposition that a duly elected public official may be removed from office except for the violation of some rule established by a legislature or some comparable legal authority. It seems that invariably some clearly defined statutory duty or obligation is involved.\nReturning to the facts of this particular case, it should be pointed out that the original application filed by Hamp Edwards wholly failed to comply with any statutory provision relating to making an application for a place upon a ballot. To hold his application sufficient it is necessary to say that none of the statutory requirements contained in the election code are applicable. When this is done, it logically follows that no violation of a statute is involved. Further, despite the fact that the election code expressly states that, \u201cno person ineligible to hold office shall ever have his name placed upon the ballot at any general or special election, * * Mr. Edwards\u2019 application failed to show that he was eligible to hold the office he sought under the constitution and laws of this state. Art. 1.05, Vernon\u2019s Texas Election Code. On the other hand, the applications of the other candidates disclosed eligibility.\nIn the dispute and litigation concerning the sufficiency of Mr. Edwards\u2019 application, the Board of Trustees employed an attorney to represent them and followed his advice. As above pointed out, Mr. Edwards filed the loyalty affidavit required by Article 1.05 some time after his application for a place on the ballot had been delivered to the secretary of the board. He did not, however, amend his application so as to state facts showing that he was eligible to hold the office of school trustee of the Tabasco district. It may be that everyone in this particular district knew Mr. Edwards and his qualifications; in fact unon the trial such qualifications were conceded, but Article 1.05 is intended to apply to all candidates in all districts and election units. From the standpoint of the attorney advising the board and in view of the statutory proscription above quoted (from Article 1.05), it does not seem wholly untenable to conclude that the application should have set forth the essential facts showing that the applicant was eligible to hold the office which he sought. Even after the district judge\u2019s decision in the mandamus case, the correctness of which is not at issue here, the attorney for the trustees said that he believed the trial court\u2019s judgment was wrong and would be reversed. In the absence of direct authority on the question and the existence of such authorities as Burroughs v. Lyles, 142 Texas 704, 181 S.W. 2d 570 and McWaters v. Tucker, Texas Civ. App., 249 S.W. 80, no writ history, which apply a rather strict rule of construction to our election laws, it is difficult to conclude that the attorney was acting in bad faith in giving advice and that the board of trustees was acting in bad faith in accepting it. And this is true regardless of the attitude of mind held by the trustees as individuals against those who they evidently regarded as their political opponents. As long as the statutes of this state allow appeals from trial court judgments and permit the filing of supersedeas bonds, a lawyer\u2019s action in so informing his clients can hardly constitute bad faith. Nor can a lack of bona fides be inferred from disagreement with a trial court\u2019s decision. The question in this ouster proceeding is not whether the district judge or the school district\u2019s attorney were correct in their respective views of the law applicable to the mandamus case, but whether there was a reasonable and legitimate difference of legal opinion upon the disputed point. It hardly seems within a jury\u2019s province to decide whether a legitimate legal controversy exists or not. If the strict construction of the ouster statute heretofore adopted be applied to the present case, an affirmance of the Court of Civil Appeals\u2019 judgment is clearly indicated.\nWe must decline to accept the broad and to us untenable construction of the statute urged by petitioners. One test of the validity of a legal doctrine is the extent and scope with which it may be safely applied. The basic proposition upon which reversal is urged omits all consideration of statutory enactments designed to control and govern the actions of public officials. Prior rules established by the judiciary would likewise go by the board. An elective office would be subject to forfeiture should a public official, individually or as a member of a public board assume an undertaking such as the holding of an election, the allocating of public funds between various areas or departments of the district and its schools, or the adopting of a pupil placement program, and then in the opinion of a district judge or a district court jury, fail to carry out the plan or program in a fair and impartial manner. This is another way of saying that if any program be attacked as being unfair, partial or inequitable, an elected public official may be removed from office upon a judge\u2019s or jury\u2019s opinion that the charges made are true. As to such matters, the law does not purport to substitute the judgment of judge or jury for that of duly elected school officials, and in the absence of a clear mandate, the judiciary should not interfere in the operation of school districts or other local governmental agencies by removing elected public officials from office. Actual or supposed deficiencies in our school laws, election code, or jurisdictional regulations governing appeals in civil cases will not justify a court\u2019s excursion beyond its proper sphere in order to plug a hole or cure a supposed defect in the legislative scheme of things. Such a course could well result in handing to those engaged in local political squabbles another battle weapon which, when used, would embroil the judiciary in contests essentially political in nature and hence better left to other authorities, entities, or to the electorate itself.\nIn view of the opinion of the Court of Civil Appeals, a discussion of points other than those upon which the writ was granted is unnecessary.\nThe judgment of the Court of Civil Appeals is affirmed. State v. O\u2019Meara, Texas Civ. App., 74 S.W. 2d 146, no writ history.\nAssociate Justices Calvert, Smith and Greenhill dissenting.\nOpinion delivered February 24,1960.\n. \u2014Article 5973, Vernon\u2019s Ann. Texas Stats. \u201cOfficial Misconduct.\u201d\nBy \u201cofficial misconduct,\u201d as used herein with reference to county officers, is meant any unlawful behavior in relation to the duties of his office, wilful in its character, of any officer intrusted in any manner with the administration of justice, or the execution of the law; and includes any wilful or corrupt failure, refusal or neglect of an officer to perform any duty enjoined on him by law.\n. \u2014In addition to the parties ousted from office, Eustolio Garcia, Nieves Garcia and Saragoza Salinas were originally defendants in the trial court. Eustolio Garcia was elected in the election of April 5th and the other two were defeated. All three were dismissed from the suit by the trial court. Prom the records now before us, it appears that of the members who were in office prior to April 5, 1958, only E. B. Reyna is at present a member of the Board.\n. \u2014 See Vernon\u2019s Texas Election Code, Art. 4.10 \u2014 Vacancy: Application to get on ballot. Art. 13.12 \u2014 Request to go on ballot (primary election). Art. 13.50 \u2014 Nonpartisan and Independent Candidates. Art. 13.53 \u2014 Independent candidates at county, city or town election.\n. \u2014 The attorney for the school district regarded Edwards\u2019 application as being defective. With reference to his advice to the school trustees after the mandamus suit had resulted in an adverse judgment, the attorney testified as follows:\n\u201cThe School Board wanted to know what their rights were in the matter and if they had any and just what their duties and obligations under the law was. I think one of the first questions that was asked me at that meeting was, did I think that the judge\u2019s ruling was correct and I advised them that I didn\u2019t agree with him, but he was a Judge and I wasn\u2019t a Judge and that unless they appealed the case they were bound by his judgment of what the law was, even though it be incorrect. I then was asked what would be the effect of the situation if no appeal was taken. I said, \u2018Well, if no appeal is taken you must put Mr. Edwards\u2019 name on the ballot. You have to conform to the orders of the Court. For if you don\u2019t conform to the orders of the Court, you will be guilty of contempt of Court and you can be punished by being fined and by being kept in Jail unil you do abide by the Court ruling.\u2019 Some members of the School Board then asked me, in my opinion whether or not the case could be won on appeal. I explained to the School Board that in my opinion that X thought that it could, that I disagreed with the -Court\u2019s ruling in the matter and that I thought that the Court had made a mistake as to what the law was and the laws of Texas, the Constitution, provided and gave everybody a right to appeal from a lower Court\u2019s decision and to take it up to a 'higher Court for them to pass on the correctness or incorrectness. I told the School Board that I could not guarantee them that they would win the case on appeal. That in my opinion there was no such a thing as a sure thing or a cinch in a lawsuit. I told them that I felt that the law was with them. That they had about seven chances out of ten of winning the case on appeal and that if they appealed the case it would not be necessary for them to have to place Mr. Edwards\u2019 name on the ballot. That they could supersede the judgment of the Court, of the District Court here by filing a bond, but they would have to wait until after the bond was filed to print the ballots. \u2018Now, we discussed the matter at length and at the same time I told the Board than I can only advise you as to what your legal rights are and to what in my opinion your chances are of over-turning the trial court in the Appellate Court. I can not tell you whether or not it is wise or practical for you to appeal the case. I don\u2019t know whether you should appeal the case or not. That is something for you to determine. I am not going to tell you to appeal the case. All I can do is tell you that in my opinion I believe the Judge has erred and I believe that the Appellate Court will correct it.\u2019 Further, at that time no question was asked me about whether the case was moot or would become moot in the Court of Civil Appeals. My advice to the School Board was not in any measure based upon the fact that the case might or could become moot in the Court of Civil Appeals.\u201d\nThe members of the board of trustees who testified stated that they decided to appeal because their attorney thought the district judge\u2019s decision was wrong; that there was a good chance it would be reversed upon appeal and that the law gave them the right to appeal.",
+        "type": "majority",
+        "author": "Mr. Justice Norvell"
+      }
+    ],
+    "attorneys": [
+      "R. S. (Bob) Lattimore, District Attorney, of Edinburg, for' State of Texas, R. M. Bounds, Edward Idar, Jr., Magus F. Smith, all of McAllen, for petitioners."
+    ],
+    "corrections": "",
+    "head_matter": "The State of Texas Ex. Rel. Hamp Edwards Et Al v. E. B. Reyna Et Al.\nNo. A-7141.\nDecided February 24, 1960.\n(333 S.W. 2d Series 832)\nR. S. (Bob) Lattimore, District Attorney, of Edinburg, for' State of Texas, R. M. Bounds, Edward Idar, Jr., Magus F. Smith, all of McAllen, for petitioners.\nThe Court of Civil Appeals erred in failing to hold that the appellants, having assumed to prepare such official ballot, failed to exercise their powers in a fair and impartial manner, and that such was official misconduct as defined by Article 5973 of the revised Civil Statutes. Said Court also erred in ignoring the finding of the jury, which was supported by the evidence, to the effect that the action of the appellants were willful and that the supposed advice of an attorney was merely an excuse. Jones v. State, 109 S.W. 2d 251; Pearless Oil & Gas Co. v. Teas, 138 S.W. 2d 637; Punchard v. State, 122 Texas Crim. Rep. 134, 54 S.W. 2d 110.\nRankin, Cherry and Martinez and Hollis Rankin, Kelley, Looney, McLean & Littleton and Jackson Littleton, all of Edinburg, for respondents. In response to petitions contentions cited Burroughs v. Lyles, 142 Texas 704, 181 S.W. 2d 570; Missouri, K. & T. Ry. Co. v. State, 100 Texas 420, 100 S.W. 766; State v. Alcorn, 78 Texas 387, 14 S.W. 663."
+  },
+  "file_name": "0404-01",
+  "first_page_order": 418,
+  "last_page_order": 428
+}

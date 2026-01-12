@@ -1,0 +1,59 @@
+{
+  "id": 5984717,
+  "name": "Fitzgerald v. United States",
+  "name_abbreviation": "Fitzgerald v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5442",
+  "first_page": "922",
+  "last_page": "922",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 922"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.611,
+    "sha256": "0e68fdafac955cd829096c5963cf547716cd21d93c9ac1c45a6fc37cab14fe61",
+    "simhash": "1:1e39da23478b905c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Fitzgerald v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5442.\nFitzgerald v. United States."
+  },
+  "file_name": "0922-06",
+  "first_page_order": 944,
+  "last_page_order": 944
+}

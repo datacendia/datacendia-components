@@ -1,0 +1,59 @@
+{
+  "id": 5965797,
+  "name": "In re Davis",
+  "name_abbreviation": "In re Davis",
+  "decision_date": "2011-06-06",
+  "docket_number": "No. 10-9913",
+  "first_page": "1032",
+  "last_page": "1032",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1032"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 166,
+    "ocr_confidence": 0.533,
+    "sha256": "e0e2d4cf55839d62062f0a3a2c0300dea8c4a764c56b3edc71b89618a4569e31",
+    "simhash": "1:eb894cdd0077257a",
+    "word_count": 27
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Davis."
+    ],
+    "opinions": [
+      {
+        "text": "Motion of petitioner for leave to proceed informa pauperis denied, and petition for writ of mandamus dismissed. See this Court\u2019s Rule 39.8.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9913.\nIn re Davis."
+  },
+  "file_name": "1032-01",
+  "first_page_order": 1058,
+  "last_page_order": 1058
+}

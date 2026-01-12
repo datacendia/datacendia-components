@@ -1,0 +1,59 @@
+{
+  "id": 12205000,
+  "name": "Peterka v. Tucker, Secretary, Florida Department of Corrections",
+  "name_abbreviation": "Peterka v. Tucker",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10740",
+  "first_page": "847",
+  "last_page": "847",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 847"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 112,
+    "ocr_confidence": 0.642,
+    "sha256": "0d5078800c4a84cd97efa788d01529f3aba529f282a079fac7e9b4824cc4084d",
+    "simhash": "1:754f02728971b82c",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Peterka v. Tucker, Secretary, Florida Department of Corrections."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10740.\nPeterka v. Tucker, Secretary, Florida Department of Corrections."
+  },
+  "file_name": "0847-04",
+  "first_page_order": 929,
+  "last_page_order": 929
+}

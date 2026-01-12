@@ -1,0 +1,59 @@
+{
+  "id": 6017847,
+  "name": "Colombo v. Suffolk County, New York",
+  "name_abbreviation": "Colombo v. Suffolk County",
+  "decision_date": "2011-03-21",
+  "docket_number": "No. 10-998",
+  "first_page": "1289",
+  "last_page": "1289",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1289"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 82,
+    "ocr_confidence": 0.606,
+    "sha256": "99ca5ace93965f05bf57e0c8fc8fa4fb1f8a0da5fabe2e485b5e23a4ee4bc3d3",
+    "simhash": "1:3dcacbd80311a8c3",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Colombo v. Suffolk County, New York."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-998.\nColombo v. Suffolk County, New York."
+  },
+  "file_name": "1289-03",
+  "first_page_order": 1311,
+  "last_page_order": 1311
+}

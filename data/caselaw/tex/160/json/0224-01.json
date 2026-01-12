@@ -1,0 +1,619 @@
+{
+  "id": 2259050,
+  "name": "Exparte John R. Coffee and A. L. Holley",
+  "name_abbreviation": "Ex parte Coffee",
+  "decision_date": "1959-10-07",
+  "docket_number": "No. A-7439",
+  "first_page": "224",
+  "last_page": "239",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "160 Tex. 224"
+    },
+    {
+      "type": "parallel",
+      "cite": "328 S.W.2d 283"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "59 S.W. 2d 927",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10267019
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/59/0927-01"
+      ]
+    },
+    {
+      "cite": "196 S.W. 330",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10312273
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/196/0330-01"
+      ]
+    },
+    {
+      "cite": "107 S.W. 2d 891",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10266665
+      ],
+      "pin_cites": [
+        {
+          "page": "892"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/107/0891-01"
+      ]
+    },
+    {
+      "cite": "74 S.W. 2d 136",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10238895
+      ],
+      "pin_cites": [
+        {
+          "page": "138"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/74/0136-01"
+      ]
+    },
+    {
+      "cite": "291 S.W. 2d 303",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10167561,
+        2250910
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/291/0303-01",
+        "/tex/155/0528-01"
+      ]
+    },
+    {
+      "cite": "155 Texas 528",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2250910
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/155/0528-01"
+      ]
+    },
+    {
+      "cite": "327 S.W. 2d 428",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10164328,
+        2259056
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/327/0428-01",
+        "/tex/160/0148-01"
+      ]
+    },
+    {
+      "cite": "160 Texas 148",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2259056
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/160/0148-01"
+      ]
+    },
+    {
+      "cite": "276 S.W. 2d 876",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10185321
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/276/0876-01"
+      ]
+    },
+    {
+      "cite": "9 S.W. 2d 143",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10288893
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/9/0143-01"
+      ]
+    },
+    {
+      "cite": "90 S.W. 634",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "68 A.L.R. 377",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "300 S.W. 31",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10289553
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/300/0031-01"
+      ]
+    },
+    {
+      "cite": "64 Texas 314",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2163896
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/64/0314-01"
+      ]
+    },
+    {
+      "cite": "182 S.W. 287",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8246544
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/182/0287-01"
+      ]
+    },
+    {
+      "cite": "107 Texas 566",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2251582
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/107/0566-01"
+      ]
+    },
+    {
+      "cite": "163 S.W. 579",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8277290
+      ],
+      "pin_cites": [
+        {
+          "page": "580"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/163/0579-01"
+      ]
+    },
+    {
+      "cite": "106 Texas 197",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2253249
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/106/0197-01"
+      ]
+    },
+    {
+      "cite": "71 S.W. 14",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "pin_cites": [
+        {
+          "page": "15"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "96 Texas 154",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2229278
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/96/0154-01"
+      ]
+    },
+    {
+      "cite": "248 S.W. 2d 777",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 S.W. 2d 980",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "216 S.W. 225",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8261998
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/216/0225-01"
+      ]
+    },
+    {
+      "cite": "154 S.W. 2d 671",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "248 S.W. 2d 775",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10213884
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/248/0775-01"
+      ]
+    },
+    {
+      "cite": "43 S.W. 2d 979",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10280754
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/43/0979-01"
+      ]
+    },
+    {
+      "cite": "216 S.W. 222",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8261944
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/216/0222-01"
+      ]
+    },
+    {
+      "cite": "267 S.W. 688",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10313099
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/267/0688-01"
+      ]
+    },
+    {
+      "cite": "262 S.W. 736",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10321714
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/262/0736-01"
+      ]
+    },
+    {
+      "cite": "154 S.W. 2d 669",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10223092
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/154/0669-01"
+      ]
+    },
+    {
+      "cite": "306 S.W. 2d 706",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2254016,
+        10176657
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/157/0607-01",
+        "/sw2d/306/0706-01"
+      ]
+    },
+    {
+      "cite": "157 Texas 607",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2254016
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/157/0607-01"
+      ]
+    },
+    {
+      "cite": "327 S.W. 2d 417",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2259018,
+        10164059
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/160/0104-01",
+        "/sw2d/327/0417-01"
+      ]
+    },
+    {
+      "cite": "160 Texas 104",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2259018
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/160/0104-01"
+      ]
+    },
+    {
+      "cite": "222 S.W. 531",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8265648,
+        2286412,
+        8265671
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/222/0531-01",
+        "/tex/110/0590-01",
+        "/sw/222/0531-02"
+      ]
+    },
+    {
+      "cite": "110 Texas 587",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2286428
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/110/0587-01"
+      ]
+    },
+    {
+      "cite": "7 S.W. 381",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "68 Texas 163",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2198788
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/68/0163-01"
+      ]
+    },
+    {
+      "cite": "85 S.W. 2d 650",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10243257,
+        10243127
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/85/0650-02",
+        "/sw2d/85/0650-01"
+      ]
+    },
+    {
+      "cite": "20 S.W. 2d 221",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10264786
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/20/0221-01"
+      ]
+    },
+    {
+      "cite": "286 S.W. 572",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10304494
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw/286/0572-01"
+      ]
+    },
+    {
+      "cite": "155 S.W. 350",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8284333
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw/155/0350-01"
+      ]
+    },
+    {
+      "cite": "107 S.W. 2d 891",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10266665
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/107/0891-01"
+      ]
+    },
+    {
+      "cite": "74 S.W. 2d 136",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10238895
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/74/0136-01"
+      ]
+    },
+    {
+      "cite": "71 S.W. 14",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "96 Texas 154",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2229278
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/96/0154-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1115,
+    "char_count": 35694,
+    "ocr_confidence": 0.596,
+    "pagerank": {
+      "raw": 6.723047947998542e-07,
+      "percentile": 0.9630518999370233
+    },
+    "sha256": "77bfe180e24adb97e29f097487a8b63d73ae812d22b7d694a3d565e93af9bb78",
+    "simhash": "1:d12d3c2d050e73f5",
+    "word_count": 6123
+  },
+  "last_updated": "2024-02-27T22:54:30.640255+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Exparte John R. Coffee and A. L. Holley."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Calvert\ndelivered the opinion of the Court.\nThis is an original habeas corpus proceeding filed in this court by relators to relieve themselves of penalties imposed by a judgment of contempt entered by the District Court of the 51st Judicial District. The judgment of contempt and imposition of penalties grew out of a violation by relators of a temporary injunction granted by the court in the following fact situation.\nOn May 29, 1959 R. L. Damron, a resident of Crane County, and Wm. W. Gruber, a resident of Tom Green County, presented to the judge of the aforesaid court at his chambers in Tom Green County their petition in which they sought injunctive relief against Kathleen Amberson, a resident of Dallas County, and John Coffee, G. L. Holley and Louis Bankston, all residents of Howard County. It was alleged that plaintiffs were the owners of an interest in leasehold estates owned by Amberson Petroleum Company in certain lands located in Sterling County, which estates were subject to a deed of trust lien given to secure an indebtedness in favor of Mrs. Amberson; that the indebtedness was not due until September 10, 1959, but that the defendant, John Coffee, as substitute trustee, had posted notices of his intention to sell the property on June 2nd under power of sale contained in the deed of trust and unless restrained and enjoined from so doing would make the sale, to the plaintiffs irreparable injury. They prayed for a restraining order, for a temporary injunction and for a permanent injunction until the debt should become due.\nUpon presentation of the petition to the District Judge a restraining order was issued restraining the defendant, John Coffee, from selling the property pending a hearing to be held on the prayer for a temporary injunction, which hearing was set at 10 o\u2019clock a.m., June 8th, in the courtroom of the District Court in the courthouse at Sterling City, Sterling County, within the 51st Judicial District. The issuance of the restraining order was conditioned upon the filing by Damron and Gruber of a bond in the penal sum of $7,500.00, conditioned as required by law. A bond in that sum, conditioned that Damron and Gruber would abide the decision in the case and would pay all sums of money and costs which might be adjudged against them if \u201cthe restraining order\u201d should be dissolved, in whole or in part, was approved and filed by the Clerk of the District Court, Sterling County, on June 2, and the sale advertised for that date was avoided.\nAt the conclusion of the hearing on June 8th the court granted a temporary injunction restraining and enjoining all defendants from selling the property at trustee\u2019s sale under the deed of trust pending final hearing and determination of the cause or until September 10, 1959, whichever was earlier in time. The- judgment contained the following order: \u201cAnd the bond heretofore filed with the Clerk upon issuance of the restraining order herein be, and is hereby continued in full force and effect as a temporary injunction bond.\u201d\nOn July 15th the District Judge, sitting in Sterling County, pursuant to a show cause order and after hearing, determined that on July 7th relators, Coffee and Holley, did, in violation of' the temporary injunction and in contempt of the court, sell and cause to be sold the property at trustee\u2019s sale to relator 'Holley, and that Coffee, as substitute trustee, executed a deed \u2022conveying the property to Holley, which deed had been filed for record and recorded in Sterling County. The court assessed a fine of $100.00 against each of the defendants and ordered them confined in jail for twenty-four hours and thereafter until the fines and costs were paid and until they should purge themselves of their contempt by executing and filing of record a re-conveyance of the property to Amberson Petroleum Company without prejudice to the rights, titles, etc. of lienholders or other persons as the same existed prior to the trustee\u2019s sale. It is from these penalties that relators seek relief in this proceeding.\nRelators recognize the collateral nature of the attack they make on the trial court\u2019s judgment and that they are entitled to relief in this proceeding only if the judgment is void. They assert that the judgment is void for two reasons: because the trial court had no power, authority or jurisdiction to grant the temporary injunction, and because no bond was required or filed as a condition precedent to the issuance of the writ of temporary injunction as required by Rule 684, Texas Rules of Civil Procedure. If the order granting the writ of temporary injunction and the writ itself were void, then the judgment of contempt is also void. Ex parte Coward, 110 Texas 587, 222 S.W. 531.\nRelator\u2019s contention that the order granting the injunction was void because the court was without power or jurisdiction to grant it is based upon the failure of the trial judge to comply with Articles 4643 and 4656, Vernon\u2019s Annotated Texas Civil Statutes.\nArticle 4643 relates to the granting of writs of injunction by nonresident judges and reads as follows:\n\u201cNo district judge shall grant a writ of injunction returnable to any other court than his own except in the following cases:\n\u201c1. Where the resident judge cannot hear and act upon the application by reason of his absence, sickness, inability, inaccessibility, disqualification or refusal to act, when such facts are fully set out in the application or in an affidavit accompanying same, and if such judge refuses to act, such refusal shall be indorsed by said judge on such writ with his reasons therefor. In such case no district judge shall grant the writ when the application therefor has once been acted upon by another district judge of this state.\n\u201c2. To stay execution, or to restrain foreclosure, sales under deeds of trust, trespasses, the removal of property, or acts injurious to or impairing riparian or easement rights, when satisfactory proof is made to such non-resident judge that it is impracticable for the applicant to reach the resident judge and procure his action in time to effectuate the purpose of the application.\n\u201c3. When the resident judge cannot be reached by the ordinary and available means of travel and communication in sufficient time to effectuate the purpose of the writ sought. In such case the applicant or his attorney seeking a writ on the ground of such inaccessibility shall attach to his application an affidavit fully stating the facts of' such inaccessibility and his efforts made to reach and communicate with said judge, and the result thereof, and unless such efforts appear to have been fair and reasonable the application shall not be heard. Such injunction may be subsequently dissolved upon it being shown that the petitioner did not first make reasonable efforts to procure a hearing upon said application before the resident judge.\u201d\nArticle 4656 reads as follows:\n\u201cWrits of injunction granted to stay proceedings in a suit, or execution on a judgment, shall be returnable to and tried in the court where such suit is pending, or such judgment was rendered; writs of injunction for other causes, if the party against whom it is granted be an inhabitant of the State, shall be returnable to and tried in the district or county court of the county in which such party has his domicile, according as the amount or matter in controversy comes within the jurisdiction of either of said courts. If there be more than one party against whom a writ is granted, it may be returned and tried in the proper court of the county where either may have his domicile.\u201d\n1 It is settled that Art. 4656 only applies to and governs the issuance and return of writs and trial in cases in which the relief sought is purely or primarily injunctive. Southwest Weather Research, Inc. v. Jones, 160 Texas 104, 327 S.W. 2d 417; Brown v. Gulf Television Co., 157 Texas 607, 306 S.W. 2d 706. In that type of suit Article 4643 directs that no district judge shall issue a writ returnable to any court other than his own except in specified emergency situations and upon adequate proof of the emergency, and if one of the emergency situations arises which authorizes the granting of emergency restraint by a nonresident judge, Art. 4656 directs, with the two exceptions set out in the opening clause, that the writ be made returnable to the county of residence of the defendant or of one of the defendants if there be more than one.\nThe petition presented to the Judge of the District Court of the 51st Judicial District in chambers in Tom Green County shows on its face that Damron and Gruber sought injunctive relief only. It also shows on its face that one of the defendants was a resident of Dallas County and the other three were residents of Howard County. We take judicial notice that neither Dallas nor Howard County is in the 51st Judicial District. It further shows on its face that the restraint sought was not to stay proceedings in a suit or execution on a judgment, but was to restrain a sale under a deed of trust. With those facts before him the District Judge, without requiring an affidavit or proof that it was impracticable to reach the District Judge of Howard County or one of the District Judges of Dallas County and procure action from one of them in time to halt the sale, granted a temporary restraining order returnable to his own court in Sterling County and there tried the right of the plaintiffs to and granted a temporary writ of injunction. The order granting the writ did not direct to what court the writ was returnable and the writ, if one was actually issued, is not in the record. We may assume, however, that the writ was returnable and returned to the court from which it was issued from the fact that the contempt hearing was held in that court.\nIn asserting that the proceedings are void relators rely on Bridges v. Williams, Texas Civ. App., 154 S.W. 2d 669, no writ history; Uvalde Asphalt Co. v. Asphalt Belt Ry. Co., Texas Com. App., 262 S.W. 736, reversed on rehearing, 267 S.W. 688, and City of Dallas v. Armour, Texas Civ. App., 216 S.W. 222. To that list of cases affording seeming support for relators\u2019 position may be added Box v. Oliver, Texas Civ. App., 43 S.W. 2d 979, no writ history, and Anderson v. Southwestern Presbyterian Home, Texas Civ. App., 248 S.W. 2d 775, writ dismissed.\nIn Bridges v. Williams, a suit solely for injunctive relief filed in the 77th Judicial District in and for Limestone County, the District Judge granted an ex parte writ of temporary injunction against a resident of Caldwell County, which was not within the 77th Judicial District, and made the writ returnable to his own court. On appeal the Court of Civil Appeals reversed the judgment of the trial court, dissolved the writ of injunction and ordered the suit dismissed. In the course of its opinion the court pointed out that plaintiff\u2019s petition showed on its face that the defendant was a resident of Caldwell County, and said: \u201cThe petition shows upon its face that the judge of the 77th Judicial District of Texas was without statutory right or power to issue the temporary writ of injunction, as well as without authority to make the same returnable to his court.\u201d 154 S.W. 2d 671. In support of its conclusion the court cited City of Dallas v. Armour, supra, and Box v. Oliver, supra.\nIn City of Dallas v. Armour, the plaintiffs in a suit against residents of Dallas County to cancel a contract performable in Dallas County and to enjoin its performance pendente lite presented their petition to the District Judge of the 66th Judicial District, Hill County, and, upon the theory that the District Judges of Dallas County were disqualified to act, secured an ex parte writ of temporary injunction returnable to the District Court of the 14th Judicial District of Dallas County, where the suit was directed to be filed. On appeal, the Court of Civil Appeals held the District Judges of Dallas County to be qualified to act and, citing Article 4643, said: \u201c* * * the nonresident judge who issued the writ, was without authority to do so, since he acted and assumed to act only on the basis that the Dallas county judges were disqualified, and, being without authority, his act is void.\u2019\u2019 216 S.W. 225.\nIn Box v. Oliver, the Judge of the District Court of the 77th Judicial District granted an ex parte writ of injunction, pending further order of the court, against the sheriff of Robertson County, a county not within the 77th Judicial District. On appeal the Court of Civil Appeals, citing Articles 4643 and 4656, dissolved the injunction, holding that \u201cthe court was without authority to make the order\u201d of restraint. 43 S.W. 2d 980.\nIn Anderson v. Southwestern Presbyterian Home, etc. the plaintiff filed suit in the District Court of the 66th Judicial District, Hill County, seeking purely injunctive relief against a resident of Tarrant County, a county not within the 66th Judicial District. After hearing, the court overruled the defendants\u2019 plea of privilege and by separate order granted a temporary injunction. On appeal the Court of Civil Appeals held both orders to be erroneous and reversed and ordered the cause transferred to one of the District Courts of Tarrant County. With reference to the order granting the writ of temporary injunction, the court said that the trial court \u201cwas without the statutory right or power to issue the temporary writ of injunction against the defendant in Tarrant County and that it was likewise ivithout authority to make the writ returnable to the district court of Hill County.\u201d 248 S.W. 2d 777.\nIn the four cases analyzed it was unnecessary to the decisions of the Courts of Civil Appeals that the validity or invalidity of the injunction orders be adjudicated, and any statements in the oninions that the orders were void or indicating that the respective trial courts were without jurisdictional povrer to enter them may be treated as dicta. Each of the cases was before the respective Courts of Civil Appeals by appeal from the trial court\u2019s order, and dissolution of the various orders of restraint was proper on the ground that they were irregularly and erroneously granted. The cases analyzed are therefore not regarded as controlling or as particularly persuasive.\nArticle 4643 was originally enacted in 1907 as a proviso to Article 2989 of the Revised Civil Statutes of 1895. Acts of Regular Session, 30th Leg. ch. 107, p. 206. As thus amended Art. 2989 was codified as Art. 4643 of the Revised Civil Statutes of 1911. In the codification of 1925 the first part of Art. 4643 of the 1911 statutes was carried forward as Art. 4642 and the proviso was carried forward as Art. 4643. In the process of codification the language of the proviso was materially altered. We need note only a few of the pertinent alterations. In the original Act and in the 1911 statute it was provided that a nonresident district judge should have no power to grant a writ of injunction returnable to any other court than his own, unless the resident judge was absent from his district, or was sick and unable to hear and act on the application, or was inaccessible, or had refused to act, or was disqualified; and the applicant was required to set out the facts of, and relating to, the resident judge\u2019s absence, sickness, inability to act, inaccessibility or disqualification in his application or in an accompanying affidavit. If the basis for seeking action by a nonresident judge was inaccessibility of the resident judge the applicant was required to file with his application an affidavit showing the efforts made to reach and communicate with the resident judge, and it was provided that a nonresident judge should have no power to grant relief unless it appeared from the affidavit that a fair and reasonable effort had been made to secure relief from the resident judge. But while providing that a nonresident judge would have no-power to grant relief because of inaccessibility of the resident judge unless the required affidavit showed fair and reasonable efforts to obtain relief from the resident judge,' the statute did not declare violative action by the nonresident judge void. Instead, it declared that a violative injunction should be dissolved upon a showing that a reaonable effort had not been made to procure a hearing before the resident judge. In the present statute there is no express reference to a want of power in a nonresident judge to act; a want of power can only be implied from the opening words of the Article: \u201cNo district judge shall grant a writ of injunction- returnable to any other court than his own except * * * .\u201d Moreover, the Article still nrovides for dissolution of an injunction granted by a nonresident judge upon proof that the applicant \u201cdid not first make reasonable efforts to procure a hearing upon said application before the resident judge.\u201d In the original Act -and in the 1911 statute a \u201cresident judge\u201d was defined as one \u201cin whose district the suit is, or is to be brought,\u201d and we will ascribe to the term that meaning even though the definition was' eliminated in the 1925 codification. We interpret the words \u201cin whose district the suit is * * * to be brought\u201d to mean the district in which venue properly lies as shdwn' on' the face \u00f3f the petition. Conversely, a nonresident judge is one in whose district the suit is not filed or in whose district venue, as shown on the face of an unfiled petition, does not properly lie. Paragraphs 2 and 3 of Art. 4643 are interrelated and must be construed as overlapping.\n2 Article 4656, with a few minor and unimportant changes in verbiage, is derived from what may be termed the first comprehensive practice act governing judicial proceedings in the State of Texas. It was enacted by the First Legislature of the State of Texas in 1846. Gammel\u2019s Laws of Texas, Vol. 2, pp. 1669, 1711-1712.\nArticles 4643 and 4656 are but two of a series of Articles in Title 76 of the Revised Civil Statutes of 1925 dealing with injunctions. As written they formed a logical procedural whole applicable to our practice before adoption of the Rules of Civil Procedure in 1941. They contemplated that a trial judge could, upon presentation of a sworn petition therefor and before the filing of suit, grant a writ of temporary injunction without a hearing, Arts. 4647 and 4648, effective upon the filing of bond, Art. 4649, whereupon the party to whom the writ was granted would file his petition and the court\u2019s order with the clerk of the proper court, Art. 4650, the clerk would issue the writ, Art. 4652, and it would be served by an officer and returned to the court from which it issued, Art. 4653, or to the court to which it was made returnable. Art. 4656\u00cd Restraint under a temporary writ continued, unless dissolved, until the case was finally disposed of. Riggins v. Thompson, 96 Texas 154, 71 S.W. 14, 15; Ex Parte Zuccaro, 106 Texas 197, 163 S.W. 579, 580. Relief from the restraint of a temporary writ was obtainable through a motion to dissolve. Art. 4658. Under our present Rules of Civil Procedure no writ of temporary injunction may be issued without notice and hearing. Rule 681. Under the Rules of Civil Procedure the purpose once served by an ex parte temporary injunction in obtaining immediate restraint is now served exclusively by an ex parte restraining order. Rule 680, but it will be noted that Arts. 4643 and 4656 nowhere expressly mention or purport to govern issuance, service or return of restraining orders. However, a restraining order is one type of injunction, Riggs v. Thompson, supra; Ex Parte Zuccaro, supra, and inasmuch as restraining orders serve the same purpose under the Rules as was theretofore served, in part, by temporary injunctions, and in order to bring the statutes and the Rules into a harmonious whole, we interpret the term \u201cwrit of injunction\u201d as used in Arts. 4643 and 4656 to include \u201ctemporary restraining orders\u201d as provided for in Rule 680. It is under that interpretation that we test the validity of the proceedings in the trial court in this case.\nThe proceedings leading up to the judgment of contempt against relators were undoubtedly irregular and erroneous. Upon presentation of the petition to the District Judge it was his duty to make any restraining order granted by him returnable to a District Court of Dallas or Howard County, and he was authorized to grant it in the first instance only upon the filing of an affidavit showing the inaccessibility of the district judges of those counties and that fair and reasonable efforts had been made by the plaintiffs to reach such judges but that it was impracticable to reach them and to obtain action from one of them in time to halt the sale. Not only were the proceedings in the granting and return of the restraining order irregular and erroneous, but the proceedings in trying in Sterling County the right of the applicants to a temporary writ and in making it returnable to the District Court of the 51st Judicial District Court were also irregular and erroneous. But the important question here is not whether the proceedings were irregular and erroneous, but whether they were wholly void. We hold that they were not.\n3 The only types of suits in which the return of a writ as required by Article 4656 has been held jurisdictional are those to stay proceedings in a suit or execution on a judgment, Baker v. Crosbyton Southplains R. Co., 107 Texas 566, 182 S.W. 287; Seligson & Co. v. Collins, 64 Texas 314; Switzer v. Smith, Com. App., 300 S.W. 31, 68 A.L.R. 377, and even in suits of that character it has been held by the Court of Criminal Appeals that failure to make the writ returnable as directed by the statute does not justify violation of the injunction or relieve a violator from punishment for contempt. Ex parte Breeding, 90 S.W. 634. Since the instant suit is not one of that character it is unnecessary for us to decide whether we would follow that decision. There is far less reason for holding void a writ of injunction made returnable to the court issuing it in other types of suits. As to such other types of suits our courts have recognized that the statute is primarily a venue statute. Brown v. Gulf Television Co., 157 Texas 607, 306 S.W. 2d 706; Uvalde Rock Asphalt Co. v. Asphalt Belt Ry. Co., Com. App., 262 S.W. 736, on rehearing, 267 S.W. 688; Perry v. daggers, Texas Civ. App., 9 S.W. 2d 143, writ dismissed; Pipe Line Workers Local No. 38 v. H. B. Zachry Co., Texas Civ. App., 276 S.W. 2d 876, writ refused, n.r.e. Whereas in the two types of suits designated in the first clause of the statute any injunction granted, if not made returnable to the court where the suit is pending or the judgment was rendered, would bring about an immediate conflict between two courts, often of coordinate jurisdiction, that would not be true with respect to the issuance, return and trial of the right to an injunction in other types of suits, particularly when, as in this case, the injunctive relief is sought and granted before suit is filed. Our specific holding is that when a suit is one for purely injunctive relief other than to stay proceedings in a suit or execution on a judgment, and the relief is sought and granted before the filing of suit, the order granting the relief is not void for failure to make the restraining order returnable to the county of residence of the defendant or of one of them, nor is a writ of temporary injunction thereafter granted by the court issuing the restraining order, void.\n4 ' We also hold that orders entered by a nonresident judge granting a temporary restraining order and a temporary writ of injunction without requiring the filing- of the statutory affidavit and the making of statutory proof of the inaccessibility of and efforts made to reach a resident judge, as provided by Art.' 4643, are not void. If the Legislature had intended that such orders should be void, there would have been no point in providing in the Article for a dissolution of writs granted in the absence of such affidavit and proof, with the burden placed on the person enjoined to prove facts entitling him to dissolution. Moreover, significance may be attached to legislative elimination from the article in the 1925 codification of all express language indicating that in the absence of the required affidavit a.nonresident judge would have no power to act.\n5 The requirement of Article 4643 for affidavit and proof before a nonresident judge is authorized to grant a writ and the requirement of Article 4656 for making writs returnable to and triable in the county of residence of the defendant are procedural and not jurisdictional requirements. Violation of the requirements of the two statutes may be corrected at very little expense and in a very brief time through orderly channels of procedure. There is no showing in the record before us that relators sought to have the restraining order dissolved or opposed the granting of the writ of temporary injunction on the ground that the granting of such relief was violative of Arts. 4643 and 4656. Judgments which are rendered without observance of statutory requirements which are purely procedural are not void, however irregular or erroneous they may be. 25 Texas Jur. 809-812, Judgments, section 308; Freeman v. Freeman, 160 Texas 148, 327 S.W. 2d 428.\n6 Neither was the order granting the writ of temporary injunction void because no new bond was required of or filed by Damron and Gruber. We recognize the rule to be that a writ of temporary injunction is void when no bond is required and filed as required by Rule 684, Texas Rules of Civil Procedure. Lancaster v. Lancaster, 155 Texas 528, 291 S.W. 2d 303. This' is not such a case. A bond was required and filed as a prerequisite to the granting of the restraining order. The order granting the writ of temporary injunction continued the restraining order bond in full force and effect as a temporary injunction bond.\nIn asserting that the order and the writ were void relators rely on San Felipe Ind. School Dist. v. Nelson, Texas Civ. App., 74 S.W. 2d 136, 138, no writ history, in which the San Antonio Court of Civil Appeals expressly stated that a restraining order bond could not be substituted for the bond required by law for the issuance of a writ of temporary injunction. On the other hand, the Dallas Court of Civil Appeals has held that when a restraining order is continued in force, even in part, the restraining order bond remains in force and effect as a temporary injunction bond. Porter v. Guggenheim, 107 S.W. 2d 891, 892, writ dismissed. Rule 684 requires that a restraining order or temporary injunction bond be conditioned \u201cthat the applicant will abide the decision which may be made in the cause, and that he will pay all sums of money and costs which may be adjudged against him if the restraining order or temporary injunction shall be dissolved in whole or in part.\u201d In the restraining order bond the signers obligated themselves \u201cto abide the decision\u201d which might be made in the suit, and that was a continuing obligation until the suit was finally disposed of. Their other obligation was to pay all sums of money and costs which might be adjudged against them if the restraining order should be dissolved in whole or in part. In granting a writ of temporary injunction upon expiration of the restraining order, the trial court should have required a new bond with new contractual obligations, but we know of no reason why, with the signers of a restraining order bond before it and agreeing, the court could not extend the bond and the second obligation of its signers to comply with Rule 684. There is nothing in the record before us to show that that did not occur. In support of the validity of the court\u2019s order and the writ we will presume it did occur. 25 Texas Jur. 830, Judgments, section 319. If the written terms of the bond on file did not then truly reflect the full statutory obligations of the signers, the bond could have been amended or corrected, upon motion, to afford relators full protection. Mansfield v. Ramsey, Texas Civ. App. 196 S.W. 330, no writ history; Lindley v. Easley, Texas Civ. App., 59 S.W. 2d 927, no writ history. In the latter case the court said that \u201cthe failure to require a bond in a sufficient amount would not render the injunction void and authorize its disobedience with impunity.\u201d The same may be said of the failure of the bond to correctly express one of the obligations of the signers. See also 24-A Texas Jur. 255, Injunctions, section 160.\nThe relators are remanded to the custody of the sheriff of Sterling County there to remain until discharged according to the terms of the trial court\u2019s judgment.\nOpinion delivered October 7, 1959.\n. \u2014 Emphasis ours throughout.",
+        "type": "majority",
+        "author": "Mr. Justice Calvert"
+      },
+      {
+        "text": "Mr. Justice Griffin,\njoined by Justice Hamilton, dissenting.\nI agree with the result reached in the majority opinion that the temporary injunction issued by Judge Mays was not void, but voidable and irregular. This was a matter that could have been corrected by a prompt appeal under the provisions of Art. 4662, Vernon\u2019s Ann. Texas Civ. Stats.\nI disagree that the injunction was not void by virtue of the fact that the order of the judge did not require a bond to be given and no amount was fixed for the bond.\nIt is not disputed that the only bond in the record is the bond given to secure the temporary restraining order. It contains no provisions that secure the issuance of a temporary injunction, or protect anyone by virtue of the issuance of a temporary injunction. In fact, it was issued ten days prior to the hearing on the issuance of a temporary injunction.\nI do not believe that it can be questioned that the order of May 29, 1959 issued only a temporary restraining order. The life of that restraining order is specifically stated to be \u201coperative until and pending the hearing below ordered.\u201d The hearing was ordered for 10:00 a.m. on June 8, 1959 in the District Courtroom of Sterling County, Texas in Sterling City. The court ordered a bond given before the District Clerk should issue the restraining order. By virtue of its own provisions and also by Rule 680, Texas Rules Civ. Proc., and innumerable cases, this restraining order expired June 8, 1959 and was of no further force and effect. Fort Worth Street Railway Company v. Rose-dale Street Railway Company, 1887, 68 Texas 163, 7 S.W. 381; Riggins v. Thompson, 1902, 96 Texas 154, 71 S.W. 14; Cole v. Forto, Texas Civ. App. 1913, 155 S.W. 350, no writ history; City of Jacksonville v. Devereux, Texas Civ. App. 1926, 286 S.W. 572, no writ history; Wood v. Bird, Texas Civ. App. 1929, 20 S.W. 2d 221 (1), no writ history; Dunlap v. Rotge, Texas Civ. App., 1935, 85 S.W. 2d 650 (2, 3), no writ history; 24-A Texas Jur. 24.\nIt is true, as declared by the majority, that a temporary restraining order is a species of injunction. The above authorities and others hold that it is a separate and distinct order from either a temporary injunction or a permanent and perpetual injunction. The Rules of Civil Procedure recognize that fact for Rule 680 deals only with such restraining order.\nRule 684 also recognizes such fact. That rule provides that \u201cin the order granting any temporary restraining order or temporary injunction, the court shall fix the amount of security to be given by the applicant * * *; before the issuance of the temporary restraining order or temporary injunction * * *; if the restraining order or temporary injunction shall be dissolved * * *; where the temporary restraining order or temporary injunction is against the state * * * the liability of the applicant shall be for its face amount if the restraining order or temporary injunction shall be dissolved * * (Emphasis added) It is apparent from the above wording in Rule 684 that the two species of injunction are separate and distinct.\nRule 685 continues this distinction between the two types of injunctive relief by using the following language: \u201cUpon the granting of a temporary restraining order or an order fixing a time for hearing upon an application for a temporary injunction * * *.\u201d Rule 686 further carries forward this distinction. This Rule makes a difference in the form of citations to be issued in the temporary restraining order and temporary injunction. Rule 688 also recognizes this difference.\nThe order entered June 18, 1959 reciting a hearing and judgment of June 8, 1959 nowhere continues the restraining order, nor does it mention the restarining order except where the court provides the restraining order bond shall be extended to cover the temporary injunction. I say the court had no right to so order. The temporary restraining order expired and was of no further force and effect. Riggins v. Thompson, supra, and other authorities therein cited. When the restraining order expired the bond expired with\" it. The only case in Texas which I have been able to find in point holds that a temporary restraining order, bond cannot be continued as a bond for a temporary injunction. San Felipe Independent School Dist. v. Nelson, Texas Civ. App. 1934, 74 S.W. 2d 136, no writ history. In that case the San Antonio Court of Civil Appeals had held in their original opinion that such bond could be continued in force and effect. On rehearing they changed their holding and said:\n\u201cWe wish to expressly state that we were in error in our original disposition of this cause wherein we held that the bond given in connection with the issuing of the temporary restraining order might be substituted for the bond required by law for the issuing of a temporary injunction. This, of course, cannot be done.\u201d\nThe case of Porter v. Guggenheim, Texas Civ. App. 1937, 107 S.W. 2d 891, wr. dism., is not in point on the question here before us. In that case the trial court had continued the restraining order in part. The Dallas Court of Civil Appeals rested its holding that the bond could be used as a bond for the temporary injunction. That court said, \u201con the hearing for temporary injunction the court continued the restraining order, in part at least, as a temporary injunction, and the bond likewise continued in force and effect.\u201d (2), 2nd. col., p. 892. In our case, as pointed out above, the judge made no such order. He did not mention the temporary restraining order at all, except as to the bond.\nThe effect of the majority opinion is to subject the surety on the temporary restraining order bond to new and additional liabilities for which it did not contract when signing the original\" bond. It also overloks the plain provision of the first sentence of Rule 684 \u201cin the order granting any temporary restraining order or temporary injunction, the court shall fix the amount of security to be given by the applicant.\u201d (Emphasis added). The trial court did not comply with this provision as no bond was set or given for the temporary injunction. No surety nor sureties have bound themselves for liability under the temporary injunction; nor does the record show any agreement on the part of the sureties on the restraining order bond to be bound for the temporary injunction.\nI believe the trial court had no right or authority to make the surety liable for more than it contracted in its original undertaking, and, therefore, I believe the temporary injunction is absolutely void. I would discharge relators.\nOpinion delivered October 7,1959.\nRehearing overruled November 11, 1959.",
+        "type": "dissent",
+        "author": "Mr. Justice Griffin,"
+      }
+    ],
+    "attorneys": [
+      "George T. Thomas and John A. Coffee, both of Big Springs, for relators."
+    ],
+    "corrections": "",
+    "head_matter": "Exparte John R. Coffee and A. L. Holley.\nNo. A-7439.\nDecided October 7, 1959.\nRehearing- Overruled November 11, 1959.\n(328 S.W. 2d Series 283)\nGeorge T. Thomas and John A. Coffee, both of Big Springs, for relators."
+  },
+  "file_name": "0224-01",
+  "first_page_order": 238,
+  "last_page_order": 253
+}

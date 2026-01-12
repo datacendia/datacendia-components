@@ -1,0 +1,59 @@
+{
+  "id": 5918617,
+  "name": "Summers v. Denney, Warden",
+  "name_abbreviation": "Summers v. Denney",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11412",
+  "first_page": "879",
+  "last_page": "879",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 879"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 73,
+    "ocr_confidence": 0.591,
+    "sha256": "f741355d2fb8d0a35aeabb41f04f8c1170c820eeb2f341d3c6c7266503865255",
+    "simhash": "1:ac180981224ef124",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Summers v. Denney, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Mo. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11412.\nSummers v. Denney, Warden."
+  },
+  "file_name": "0879-03",
+  "first_page_order": 901,
+  "last_page_order": 901
+}

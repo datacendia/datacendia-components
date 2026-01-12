@@ -1,0 +1,61 @@
+{
+  "id": 12425818,
+  "name": "DeGlace v. Jarvis, Warden",
+  "name_abbreviation": "DeGlace v. Jarvis",
+  "decision_date": "2012-11-26",
+  "docket_number": "No. 12-6894",
+  "first_page": "1042",
+  "last_page": "1042",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1042"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 153,
+    "ocr_confidence": 0.647,
+    "sha256": "f493186c52b95976c0c86abdd52126904d0a55b913ab2087a57bec98ab629034",
+    "simhash": "1:9c234a026b0ef2c2",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "DeGlace v. Jarvis, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6894.\nDeGlace v. Jarvis, Warden."
+  },
+  "file_name": "1042-06",
+  "first_page_order": 1118,
+  "last_page_order": 1118
+}

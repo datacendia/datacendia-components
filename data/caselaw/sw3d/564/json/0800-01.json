@@ -1,0 +1,550 @@
+{
+  "id": 12658565,
+  "name": "Dorothy SMITH, Appellant, v. CAPITAL REGION MEDICAL CENTER, et al., Respondents.",
+  "name_abbreviation": "Smith v. Capital Region Med. Ctr.",
+  "decision_date": "2018-12-18",
+  "docket_number": "WD 81273",
+  "first_page": "800",
+  "last_page": "807",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 S.W.3d 800"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mo. App. Ct.",
+    "id": 30098,
+    "name": "Missouri Court of Appeals, Western District"
+  },
+  "jurisdiction": {
+    "id": 37,
+    "name_long": "Missouri",
+    "name": "Mo."
+  },
+  "cites_to": [
+    {
+      "cite": "122 S.W.3d 92",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9294637
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "96"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/122/0092-01"
+      ]
+    },
+    {
+      "cite": "533 S.W.2d 567",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10133008
+      ],
+      "year": 1976,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/533/0567-01"
+      ]
+    },
+    {
+      "cite": "689 S.W.2d 82",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9959155
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "85",
+          "parenthetical": "citing State ex rel. Stanhope v. Pratt , 533 S.W.2d 567 (Mo. banc 1976) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/689/0082-01"
+      ]
+    },
+    {
+      "cite": "870 S.W.2d 843",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10017820
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "850"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/870/0843-01"
+      ]
+    },
+    {
+      "cite": "300 S.W.3d 242",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7297513
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "246"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/300/0242-01"
+      ]
+    },
+    {
+      "cite": "727 S.W.2d 925",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9989352
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "927"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/727/0925-01"
+      ]
+    },
+    {
+      "cite": "520 S.W.3d 443",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12382330
+      ],
+      "year": 2017,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/520/0443-01"
+      ]
+    },
+    {
+      "cite": "550 S.W.3d 474",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12656884
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "parenthetical": "quoting Kirk v. State , 520 S.W.3d 443, 450 n.3 (Mo. banc 2017) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/550/0474-01"
+      ]
+    },
+    {
+      "cite": "412 S.W.3d 252",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7087602
+      ],
+      "weight": 3,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "parenthetical": "hereinafter \"Smith I \""
+        },
+        {
+          "page": "262"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/412/0252-01"
+      ]
+    },
+    {
+      "cite": "400 S.W.3d 364",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7093248
+      ],
+      "weight": 3,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "369"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/400/0364-01"
+      ]
+    },
+    {
+      "cite": "284 S.W.3d 666",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7302509
+      ],
+      "weight": 3,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "669"
+        },
+        {
+          "parenthetical": "quoting section 287.500"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/284/0666-01"
+      ]
+    },
+    {
+      "cite": "437 S.W.3d 321",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6925803,
+        6925820
+      ],
+      "weight": 5,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "326"
+        },
+        {
+          "page": "325-26"
+        },
+        {
+          "page": "325-26"
+        },
+        {
+          "page": "325"
+        },
+        {
+          "page": "325"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/437/0321-01",
+        "/sw3d/437/0321-02"
+      ]
+    },
+    {
+      "cite": "534 S.W.2d 819",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10141202
+      ],
+      "weight": 2,
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "821"
+        },
+        {
+          "page": "821"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/534/0819-01"
+      ]
+    },
+    {
+      "cite": "240 S.W.2d 193",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "weight": 2,
+      "year": 1951,
+      "pin_cites": [
+        {
+          "page": "200"
+        },
+        {
+          "page": "200"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "829 S.W.2d 581",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "weight": 3,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "583"
+        },
+        {
+          "page": "584",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "584"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "313 S.W.3d 124",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7322260
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "130"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/313/0124-01"
+      ]
+    },
+    {
+      "cite": "383 S.W.3d 105",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7085560
+      ],
+      "weight": 2,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "112",
+          "parenthetical": "citing Smith v. Pace , 313 S.W.3d 124, 130 (Mo. banc 2010) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/383/0105-01"
+      ]
+    },
+    {
+      "cite": "465 S.W.3d 471",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6857988
+      ],
+      "weight": 5,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "476"
+        },
+        {
+          "page": "476"
+        },
+        {
+          "page": "477"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/465/0471-01"
+      ]
+    },
+    {
+      "cite": "8 S.W.3d 585",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11492067
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "590",
+          "parenthetical": "both overruled on other grounds by Hampton v. Big Boy Steel Erection , 121 S.W.3d 220 (Mo. banc 2003) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/8/0585-01"
+      ]
+    },
+    {
+      "cite": "890 S.W.2d 372",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10006464
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "377"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/890/0372-01"
+      ]
+    },
+    {
+      "cite": "121 S.W.3d 220",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9296912
+      ],
+      "weight": 2,
+      "year": 2003,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/121/0220-01"
+      ]
+    },
+    {
+      "cite": "37 S.W.3d 803",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11139163,
+        11139196
+      ],
+      "weight": 2,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "807-08",
+          "parenthetical": "overruled on other grounds by Hampton v. Big Boy Steel Erection , 121 S.W.3d 220 (Mo. banc 2003) "
+        },
+        {
+          "page": "808"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/37/0803-01",
+        "/sw3d/37/0803-02"
+      ]
+    },
+    {
+      "cite": "389 S.W.3d 168",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7094296
+      ],
+      "weight": 3,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "171"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/389/0168-01"
+      ]
+    },
+    {
+      "cite": "548 S.W.3d 263",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12656628
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "267"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/548/0263-01"
+      ]
+    },
+    {
+      "cite": "458 S.W.3d 406",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6875308
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "parenthetical": "hereinafter \" Smith II \""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/458/0406-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 813,
+    "char_count": 18823,
+    "pagerank": {
+      "raw": 5.676830387708631e-08,
+      "percentile": 0.357437634394901
+    },
+    "sha256": "766081b63f64e2cd54767c0d48dda5f8ccf4e7241a6c2c70c3d9210c114b7d04",
+    "simhash": "1:03e84e3457cff518",
+    "word_count": 3040
+  },
+  "last_updated": "2024-02-27T19:35:19.974449+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dorothy SMITH, Appellant,\nv.\nCAPITAL REGION MEDICAL CENTER, et al., Respondents."
+    ],
+    "opinions": [
+      {
+        "text": "Cynthia L. Martin, Judge\nDorothy Smith (\"Smith\") appeals from a trial court judgment dismissing with prejudice her petition which sought to hold Capital Region Medical Center (\"Capital Region\") in contempt for failing to pay interest on a workers' compensation award. Because civil contempt does not lie to compel the payment of a money judgment, we find no error, and affirm the trial court's judgment.\nFactual and Procedural Background\nOn November 13, 2013, the Missouri Department of Labor and Industrial Relations Commission (the \"Commission\") awarded Smith temporary total disability benefits, death benefits, funeral expenses, and interest as provided by law following a workers' compensation claim arising from the death of her husband. Capital Region appealed the Commission's award. We affirmed the Commission's award in Smith v. Capital Region Medical Center , 458 S.W.3d 406 (Mo. App. W.D. 2014) (hereinafter \" Smith II \"), and our mandate issued on May 1, 2015.\nOn May 28, 2015, Capital Region paid Smith a sum representing awarded benefits that had accrued through the time of Capital Region's appeal in Smith II . However, Capital Region did not pay Smith interest on the benefit payments that had accrued through the time of Capital Region's appeal.\nOn July 27, 2015, Smith filed a petition in the Jackson County Circuit Court which sought to hold Capital Region in civil contempt for failing to pay interest as required by the workers' compensation award. The case was thereafter transferred to the Cole County Circuit Court.\nCapital Region filed a motion to dismiss Smith's petition, arguing that civil contempt is not an appropriate procedure to seek to enforce or collect a money judgment, and further arguing that the trial court lacked jurisdiction to entertain the petition because the determination of whether interest was owed was a matter over which the Commission possessed exclusive jurisdiction pursuant to section 287.120.\nOn October 24, 2017, the trial court entered its judgment granting Capital Region's motion to dismiss Smith's petition with prejudice (\"Judgment\"). The Judgment concluded that Smith was not entitled to judgment as a matter of law because civil contempt does not lie to compel the payment of money.\nSmith appeals.\nStandard of Review\n\"This Court reviews the grant of a motion to dismiss de novo. \" Jackson v. Barton , 548 S.W.3d 263, 267 (Mo. banc 2018). \"This Court ... assumes all facts alleged in the petition are true and construes all reasonable inferences in favor of the plaintiff.\" Id. \"In determining the appropriateness of the trial court's dismissal of a petition, an appellate court reviews the grounds raised in the defendant's motion to dismiss.\" In re Estate of Austin , 389 S.W.3d 168, 171 (Mo. banc 2013). \"The appellate court reviews the petition to determine whether facts alleged by the plaintiff meet the elements of a recognized cause of action or of a cause of action that might be adopted in that case.\" Id. \"If the motion to dismiss cannot be sustained on any ground alleged in the motion, the trial court's ruling will be reversed.\" Id.\nAnalysis\nIn Smith's sole point on appeal, she argues that the trial court erred in granting Capital Region's motion to dismiss because her petition sufficiently stated a claim for civil contempt based on her statutory right to recover interest on the workers' compensation award. Smith's point effectively argues that the trial court's grant of Capital Region's motion to dismiss cannot be sustained on either ground raised in the motion.\nThe Judgment dismissed Smith's petition with prejudice on the ground that civil contempt cannot be used to enforce the payment of money. The Judgment was silent on whether the Commission possessed exclusive jurisdiction to determine whether interest was owed, the additional ground for dismissal raised in Capital Region's motion to dismiss. We begin our analysis with Capital Region's exclusive jurisdiction argument. If the motion to dismiss can be sustained on that ground, then the trial court's ruling on the use of civil contempt to enforce the payment of money would be rendered superfluous.\nCapital Region argues that the trial court did not have jurisdiction to consider Smith's petition because \"whether interest is due and the amount ... remains indeterminate and 'open'.\" [Respondent's Brief, p. 9]. Capital Region argues that as a result, the Commission retains exclusive jurisdiction pursuant to section 287.120 to determine whether and in what amount interest is owed to Smith. We disagree.\nThe Commission awarded Smith interest on her award. Specifically, the Commission held that \"any past due compensation shall bear interest as provided by law.\" It is settled that \"such language constitutes an award of interest pursuant to section 287.160.3.\" Sutton v. Vee Jay Cement Contracting Co. , 37 S.W.3d 803, 807-08 (Mo. App. E.D. 2000) (overruled on other grounds by Hampton v. Big Boy Steel Erection , 121 S.W.3d 220 (Mo. banc 2003) ). There is no indeterminate issue, therefore, regarding \"whether\" interest was awarded. Plainly, it was.\nIt is true that the Commission's award did not calculate the amount of interest owed. It did not state when interest would begin to accrue, or at what rate. However, that does not render the award of interest indeterminate or open. The \"amount\" of interest awarded on past due compensation owed Smith was \"as provided by law.\" The phrase \"shall bear interest as provided by law\" is \"susceptible to only one interpretation: interest shall be calculated pursuant to [section] 287.160.3.\" Miller v. Wefelmeyer , 890 S.W.2d 372, 377 (Mo. E.D. 1994) ; Tidwell v. Kloster Co. , 8 S.W.3d 585, 590 (Mo. App. E.D. 1999) (both overruled on other grounds by Hampton v. Big Boy Steel Erection , 121 S.W.3d 220 (Mo. banc 2003) ). Thus, where the Commission awards interest \"as provided by law,\" the amount of interest awarded is not indeterminate and open because it \"can be determined from an examination of the record and the applicable statute.\" Sutton , 37 S.W.3d at 808. Assuming the matter was otherwise properly before the trial court, the trial court would have had the authority to calculate interest due Smith based on application of section 287.160.3 to the record.\nCapital Region cites no authority to the contrary addressing the calculation of interest awarded \"as provided by law.\" Instead, it relies by analogy on State ex rel. ISP Minerals, Inc. v. Labor and Industrial Relations Commission , 465 S.W.3d 471 (Mo. banc 2015), where the Supreme Court found that a settlement remained subject to the Commission's exclusive jurisdiction to review claims pursuant to section 287.801 because the settlement \"left the issue of Employee's entitlement to compensation for future medical care indeterminate and 'open.' \" Id. at 476. In effect, the settlement was a \"partial award,\" that left the Commission with jurisdiction over the claim for purposes of future adjustments. Id.\nState ex rel. ISP Minerals, Inc. is distinguishable from the instant case. The Commission's November 13, 2013 award was a final award. It did not leave any claim for benefits undetermined. Interest was awarded as provided by law. Calculation of the exact amount of interest owed is not an open claim that remained subject to the Commission's exclusive jurisdiction.\nThe trial court's grant of Capital Region's motion to dismiss cannot be affirmed on this basis that the Commission possessed exclusive jurisdiction over the calculation of interest owed to Smith.\nWe therefore turn to the second ground for dismissal raised in Capital Region's motion to dismiss - the ground expressly relied on by the trial court to grant the motion. The trial court found that civil contempt \"does not lie merely to compel the payment of money.\" Though Smith argues to the contrary, Missouri law on this point is clear and settled.\n\"Civil contempt is intended to benefit a party for whom relief is granted by coercing compliance with the relief granted.\" State ex rel. Koster v. Cain , 383 S.W.3d 105, 112 (Mo App. W.D. 2012) (citing Smith v. Pace , 313 S.W.3d 124, 130 (Mo. banc 2010) ). \"The power to enforce judgments by contempt resides in the circuit court.\" Div. of Classification and Treatment v. Wheat , 829 S.W.2d 581, 583 (Mo. App. W.D. 1992). Thus, a judgment may be enforced by contempt if \"the court has (1) jurisdiction of the parties and subject matter; (2) the court has jurisdiction to render the particular judgment in the case before it; and (3) the judgment specifically requires some affirmative action other than the payment of money .\" Wheat, 829 S.W.2d at 584 (emphasis added). Consistently, section 511.340 provides:\nWhen a judgment requires the performance of any other act than the payment of money , a certified copy of the judgment may be served upon the party against whom it is given, and his obedience thereto required. If he neglect or refuse, he may be punished by the court as for a contempt , by fine or imprisonment, or both, and, if necessary, by sequestration of property.\n(emphasis added). Our courts have long held that Section 511.340 prohibits the use of civil contempt to enforce the mere payment of money. White v. Hutton , 240 S.W.2d 193, 200 (Mo. App. 1951) ; State ex rel. City of Pacific v. Buford , 534 S.W.2d 819, 821 (Mo. App. 1976). This case offers no reason to depart from that settled principle.\nUndeterred, Smith relies on Deane v. Mo. Employers Mutual Ins. Co. , 437 S.W.3d 321, 326 (Mo. App. W.D. 2014). Smith's reliance on Deane is unavailing. In Deane , this court affirmed a trial court's dismissal of a workers' compensation claimant's petition asserting a claim of negligence because the employer's insurer had not complied with the terms of a workers' compensation award. Id. at 325-26. We noted that there is no recognized cause of action in tort for failure to comply with a final workers' compensation award. Id. at 325-26. We observed that because the Commission lacks the authority to enforce a workers' compensation award, if an award is not performed as required, \" 'an action must be filed under section 287.500 in order to compel compliance.' \" Id. at 325 (quoting Cochran v. Travelers Ins. Co. , 284 S.W.3d 666, 669 (Mo. App. S.D. 2009) ). If such an action is filed, section 287.500 requires the circuit court to render judgment in accordance with the award. Id. Then, \"[s]uch judgment shall have the same effect and all proceedings in relation thereto shall thereafter be the same as though said judgment were a final judgment which had been rendered in a suit duly heard and determined by said court.\" Id. (quoting section 287.500).\nIt was in this context that Deane observed that \"[c]ourts have inherent power to enforce their own judgments.\" Id. at 326 (quoting Schumacher v. Austin , 400 S.W.3d 364, 369 (Mo. App. W.D. 2013) ). Deane generally observed that \"civil contempt represents a non-exclusive means by which a judgment creditor can seek the court's assistance in encouraging a judgment debtor to comply with an existing judgment.\" Id. (quoting State ex rel. Koster , 383 S.W.3d at 112 ). Deane did not hold, however, that civil contempt is a proper vehicle to enforce the mere payment of money. Though Deane observed that \"[u]nder the facts asserted by [the workers' compensation claimant], civil contempt would seem to be the most appropriate enforcement vehicle available,\" those facts included that the insurer's nonperformance involved the failure \"to provide a van or the cost of a van ... though ... medically necessary,\" and the failure to \"provide medical care to cure and relieve the effects of his injury, including but not limited to, shoulder surgery and the necessary aftercare required.\" Id. at 323, 326. The compensation award in Deane was not a mere money judgment, and instead imposed an obligation to perform or facilitate acts required by the award. As we have already explained, section 511.340 expressly authorizes the use of contempt to enforce judgments requiring the performance of acts other than the payment of money.\nThe Commission's November 2013 award, to the extent unperformed as claimed by Smith, involves nothing more than the payment of money - that is, accrued interest. Civil contempt is not a permissible means to enforce the Commission's November 2013 award of interest. The trial court did not err when it dismissed Smith's petition because civil contempt does not lie to enforce the payment of a mere money judgment.\nConclusions\nThe trial court's Judgment is affirmed.\nAll concur\nThe judgment dismissing Smith's petition did so with respect to two defendants -- Capital Region and its workers' compensation carrier. However, Smith's notice of appeal and her brief on appeal indicate that appeal was taken only from the judgment dismissing Smith's petition against Capital Region.\nThe basis for Smith's workers' compensation claim is more fully described in Smith v. Capital Region Medical Center , 412 S.W.3d 252 (Mo. App. W.D. 2013) (hereinafter \"Smith I \"). In Smith I , we reversed the Commission's denial of benefits, finding that the medical evidence established a probability of causation between Mr. Smith's working conditions and his death from hepatitis C. Id. at 262. We remanded the matter to the Commission to reconsider the evidence employing the proper burden of proof. Id.\nAmong other payments required under the Commission's November 2013 award, Capital Region paid Smith $290,830.11 in accrued weekly death benefits for the period commencing on her husband's death, and $9,348.83 in accrued weekly temporary total disability benefits for the period between her husband's disability and death. The total of these accrued weekly benefit payments was $300,178.94.\nAll statutory references are to RSMo 2000 as supplemented through the date of the events giving rise to Smith's workers' compensation claim, unless otherwise indicated.\nSmith's point on appeal is thus multifarious as it argues two distinct bases for finding the trial court's grant of Capital Region's motion to dismiss to be erroneous. \" 'Multifarious points relied on are noncompliant with Rule 84.04(d) and preserve nothing for review.' \" Griffitts v. Old Republic Ins. Co. , 550 S.W.3d 474, 478 n.6 (Mo. banc 2018) (quoting Kirk v. State , 520 S.W.3d 443, 450 n.3 (Mo. banc 2017) ). However, because it is our preference to decide cases on the merits where an appellant's arguments are readily understandable, we elect to exercise our discretion to review the merits of both arguments raised in Smith's single point relied on.\nSection 287.160.3 is not recited here, but its terms plainly describe the amount of interest that will accrue on weekly benefit payments, and the date or event after which interest will accrue.\nSee footnote 11, infra.\n\"[S]ection 287.500 authorizes a circuit court to enter a judgment on a final workers' compensation award as if it were an original judgment of the court, [though] the statue affords no discretion to the court in entering the judgment.\" State ex rel. ISP Minerals, Inc. v. Labor and Industrial Relations Commission , 465 S.W.3d 471, 476 (Mo. banc 2015). \"A section 287.500 action is purely ministerial as it does not involve the merits of the award and the court does not determine any outstanding factual issues.\" Id. at 477. The calculation of interest awarded \"as provided by law\" is not an outstanding factual issue, and instead will require no more than application of section 287.160.3 to the record.\nCapital Region cited no case law possessing precedential value in its motion to dismiss, or in its brief, to support the proposition that a mere money judgment may not be enforced by a civil contempt action, despite the many expressions of our courts upholding the principle. See e.g. Div. of Classification and Treatment v. Wheat , 829 S.W.2d 581, 584 (Mo. App. W.D. 1992) ; White v. Hutton , 240 S.W.2d 193, 200 (K.C. Ct. App. 1951) ; State ex rel. City of Pacific v. Buford , 534 S.W.2d 819, 821 (Mo. App. S.L. 1976) ; In re Estate of Dothage , 727 S.W.2d 925, 927 (Mo. App. W.D. 1987) ; In re Estate of Downs , 300 S.W.3d 242, 246 (Mo. App. W.D. 2009) ; International Motor Co., Inc. v. Boghosian Motor Co., Inc. , 870 S.W.2d 843, 850 (Mo. App. E.D. 1993). Instead, Capital Region cited to a Per Curium Order issued by this court pursuant to Rule 84.16, and from the memorandum that accompanied the order. Pursuant to Rule 84.16, this court's per curium orders and supporting memoranda \"shall not constitute a formal opinion of the court ... and shall not be cited or otherwise used in any case before any court.\"\nIn contrast, our courts have recognized that certain judgments requiring the payment of money associated with an ordered obligation to divide assets in a marital estate, or to provide spousal or child support are enforceable through civil contempt because those judgments represent \"something more than an ordinary debt or judgment for money.\" Wisdom v. Wisdom , 689 S.W.2d 82, 85 (Mo. App. W.D. 1985) (citing State ex rel. Stanhope v. Pratt , 533 S.W.2d 567 (Mo. banc 1976) ).\nThough not alleged as a ground to dismiss in Capital Region's motion to dismiss, we note that the record is void of any indication that Smith availed herself of section 287.500. As such, we question whether the Commission's November 13, 2013 award has yet been made a judgment pursuant to section 287.500. Smith's petition for civil contempt does not seek this relief, and does not even refer to section 287.500. If the Commission's award has not yet been made a judgment pursuant to section 287.500, then as a matter of law, the trial court would have had no authority to enforce the Commission's award through any means, as section 287.500 \"provides the means by which a final Commission award becomes enforceable.\" Deane , 437 S.W.3d at 325 (quoting Baxi v. United Techs. Auto. Corp. , 122 S.W.3d 92, 96 (Mo. App. E.D. 2003) ). Thus, even if civil contempt could lie to enforce the payment of money (which it cannot), it is axiomatic that the trial court's inherent power to use civil contempt as a tool to encourage enforcement of its judgments would depend, in the first instance, on the existence of a judgment issued by the trial court. Id. at 326 (\"Courts have inherent power to enforce their own judgments ....\") (quoting Schumacher , 400 S.W.3d at 369 ) (emphasis added).",
+        "type": "majority",
+        "author": "Cynthia L. Martin, Judge"
+      }
+    ],
+    "attorneys": [
+      "Jason J. Iezzi and John B. Boyd, Independence, MO, for appellant.",
+      "Alex L. Wulff and Richard L. Montgomery, Jr., Columbia, MO, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "Dorothy SMITH, Appellant,\nv.\nCAPITAL REGION MEDICAL CENTER, et al., Respondents.\nWD 81273\nMissouri Court of Appeals, Western District.\nOPINION FILED: December 18, 2018\nJason J. Iezzi and John B. Boyd, Independence, MO, for appellant.\nAlex L. Wulff and Richard L. Montgomery, Jr., Columbia, MO, for respondents.\nBefore Division Three: Gary D. Witt, Presiding Judge, Cynthia L. Martin, Judge and Anthony Rex Gabbert, Judge"
+  },
+  "file_name": "0800-01",
+  "first_page_order": 800,
+  "last_page_order": 807
+}

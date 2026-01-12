@@ -1,0 +1,621 @@
+{
+  "id": 12660112,
+  "name": "Robert BURTON, Appellant v. Wayman L. PRINCE, Nafisa Yaqoob, Independent Management & Investment LLC and Leawood Homeowners Association, Inc., Appellees",
+  "name_abbreviation": "Burton v. Prince",
+  "decision_date": "2019-03-07",
+  "docket_number": "NO. 14-17-00181-CV",
+  "first_page": "280",
+  "last_page": "293",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "577 S.W.3d 280"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex. App. Ct.",
+    "id": 30078,
+    "name": "Court of Appeals of Texas, Houston (14th Dist.)"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "2011 WL 1576352",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "*1, 5",
+          "parenthetical": "granting summary judgment because undisputed evidence established each element of liability under section 12.002 "
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "755 F.3d 748",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4065030
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "751",
+          "parenthetical": "affirming dismissal of section 12.002 claim because it was \"not plausible\" that defendant \"knowingly made or presented a document with a false interest or claim against real property\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/755/0748-01"
+      ]
+    },
+    {
+      "cite": "352 S.W.3d 32",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7316325
+      ],
+      "pin_cites": [
+        {
+          "page": "46"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/352/0032-01"
+      ]
+    },
+    {
+      "cite": "2012 WL 1454485",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "pin_cites": [
+        {
+          "page": "*5"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "406 S.W.3d 399",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7090828
+      ],
+      "pin_cites": [
+        {
+          "page": "403-04"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/406/0399-01"
+      ]
+    },
+    {
+      "cite": "2013 WL 441749",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "pin_cites": [
+        {
+          "page": "*4"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2016 WL 900205",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "pin_cites": [
+        {
+          "page": "*1"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2016 WL 2967826",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "pin_cites": [
+        {
+          "page": "*3"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "541 S.W.3d 251",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12655832
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "260-61"
+        },
+        {
+          "page": "260-61"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/541/0251-01"
+      ]
+    },
+    {
+      "cite": "271 S.W.3d 928",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8172313
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "931-32"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/271/0928-01"
+      ]
+    },
+    {
+      "cite": "2018 WL 4869484",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "pin_cites": [
+        {
+          "page": "*2"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "504 S.W.3d 428",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12135040
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "452"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/504/0428-01"
+      ]
+    },
+    {
+      "cite": "815 S.W.2d 327",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9973341
+      ],
+      "pin_cites": [
+        {
+          "page": "332"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/815/0327-01"
+      ]
+    },
+    {
+      "cite": "2006 WL 2106959",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "pin_cites": [
+        {
+          "page": "*2"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "203 S.W.3d 414",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8461483,
+        8461460
+      ],
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "424"
+        },
+        {
+          "page": "424-25"
+        },
+        {
+          "page": "425",
+          "parenthetical": "holding that negotiations over repurchase of home after foreclosure did not qualify as a consumer transaction under the DTPA"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/203/0414-02",
+        "/sw3d/203/0414-01"
+      ]
+    },
+    {
+      "cite": "2011 WL 4825893",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "pin_cites": [
+        {
+          "page": "*2"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2017 WL 7663041",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "pin_cites": [
+        {
+          "page": "*15"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "574 S.W.3d 406",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12659742
+      ],
+      "pin_cites": [
+        {
+          "page": "431-32"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/574/0406-01"
+      ]
+    },
+    {
+      "cite": "907 S.W.2d 472",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10011890
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "478",
+          "parenthetical": "citing Tex. Bus. & Com. Code \u00a7 17.50(a)(1) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/907/0472-01"
+      ]
+    },
+    {
+      "cite": "298 S.W.3d 321",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7298864
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/298/0321-01"
+      ]
+    },
+    {
+      "cite": "936 S.W.2d 654",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10022854
+      ],
+      "pin_cites": [
+        {
+          "page": "660"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/936/0654-01"
+      ]
+    },
+    {
+      "cite": "44 S.W.3d 121",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11100230
+      ],
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "135"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/44/0121-01"
+      ]
+    },
+    {
+      "cite": "708 S.W.2d 432",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9971925
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "434"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/708/0432-01"
+      ]
+    },
+    {
+      "cite": "2018 WL 1935576",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 5,
+      "opinion_index": 0
+    },
+    {
+      "cite": "2017 WL 5759379",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 3,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "*3, 5"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "543 S.W.3d 723",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12656118
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "744"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/543/0723-01"
+      ]
+    },
+    {
+      "cite": "2016 WL 750293",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "pin_cites": [
+        {
+          "page": "*5"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "301 S.W.3d 741",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7300055
+      ],
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "746"
+        },
+        {
+          "page": "746"
+        },
+        {
+          "page": "746"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/301/0741-01"
+      ]
+    },
+    {
+      "cite": "46 S.W.3d 237",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11089209
+      ],
+      "weight": 3,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "241"
+        },
+        {
+          "page": "241"
+        },
+        {
+          "page": "241"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/46/0237-01"
+      ]
+    },
+    {
+      "cite": "168 S.W.3d 802",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8943104
+      ],
+      "weight": 2,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "822"
+        },
+        {
+          "page": "827"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/168/0802-01"
+      ]
+    },
+    {
+      "cite": "881 S.W.2d 295",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10001530
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "297"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/881/0295-01"
+      ]
+    },
+    {
+      "cite": "669 S.W.2d 716",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9950586
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "717"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/669/0716-01"
+      ]
+    },
+    {
+      "cite": "83 S.W.3d 789",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11433901
+      ],
+      "weight": 2,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "795"
+        },
+        {
+          "page": "795"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/83/0789-01"
+      ]
+    },
+    {
+      "cite": "218 S.W.3d 109",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8317999
+      ],
+      "pin_cites": [
+        {
+          "page": "122"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/218/0109-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1179,
+    "char_count": 33811,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.26516816231371015
+    },
+    "sha256": "48a31e88ab079ae76ac7e17f83bec17010a687e44eec7749bc83f229622f1ade",
+    "simhash": "1:ad483116d05b19b0",
+    "word_count": 5431
+  },
+  "last_updated": "2024-02-27T16:25:07.692717+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Panel consists of Chief Justice Frost and Justices Christopher and Bourliot."
+    ],
+    "parties": [
+      "Robert BURTON, Appellant\nv.\nWayman L. PRINCE, Nafisa Yaqoob, Independent Management & Investment LLC and Leawood Homeowners Association, Inc., Appellees"
+    ],
+    "opinions": [
+      {
+        "text": "Frances Bourliot, Justice This is a wrongful foreclosure case. After a bench trial, the trial court rendered declaratory judgment in favor of Robert Burton and set aside foreclosures on six condominium units (the Property) that Burton owned. But the trial court found against Burton on various other claims he brought against his homeowners' association, Leawood Homeowners Association, Inc. (the Association), the Association's attorney and trustee, Wayman L. Prince, property manager Nafisa Yaqoob, and property management company Independent Management & Investment LLC (collectively, Leawood). Burton appeals the trial court's judgment against him as to his claims for fraud under Civil Practice & Remedies Code section 12.002, for unfair debt collections practices, and for deceptive trade practices. Burton also challenges the trial court's findings on \"other claims denied in the final judgment.\" He further contends the trial court should have awarded him prejudgment interest. We affirm.\nBackground\nWhen Burton fell behind on his Association dues, the Association filed suit against him in justice court. Burton was served with that lawsuit through his property manager, Shannon Havard. The justice court rendered judgment against Burton for the outstanding dues plus court costs, attorney's fees, and post-judgment interest.\nPrince subsequently served Burton with notices of sale for the Property and a demand for delinquent amounts owed. Burton alleged that the notices of sale did not comply with requirements in the Texas Property Code. Prince purchased the Property at the foreclosure sales on behalf of the Association on credit. No money exchanged hands. Burton contended that the foreclosures were improperly conducted and that the trustee's deeds to the Property that were executed after foreclosure were void. Despite this, Burton requested information regarding the amount he owed to redeem the Property and received a deficiency letter. Burton asserted that the amount referenced in the deficiency letter was excessive. Burton tendered his estimate of what was owed, which the Association rejected.\nBurton brought the following claims against Leawood: (1) fraud in various forms, (2) unfair debt collection practices, (3) deceptive trade practices, (4) removal of cloud on title, (5) trespass to try title, and (6) tortious interference with contract. Burton also sought a declaratory judgment that the foreclosures were improper, setting aside the trustee's deeds as void, and declaring that Leawood \"deliberately and fraudulently prevented Burton from exercising his [r]ight of [r]edemption.\" After a bench trial, the trial court rendered judgment declaring that (1) the foreclosure sales \"were improper and ... a nullity,\" (2) Prince had no lawful power to sell the Property at the foreclosure sales, and (3) the trustee's deeds were void. The trial court awarded Burton attorney's fees and post-judgment interest, ordered that his claims for removal of cloud on title and trespass to try title were denied as moot, and denied relief as to his other claims.\nDiscussion\nOn appeal, Burton contends in nine issues that the trial court erred in finding against him on his fraud claims under section 12.002, unfair debt collection practices and deceptive trade practices claims, and \"other claims denied in the final judgment.\" Burton also complains of the trial court's failure to award him prejudgment interest.\nBurton relies on evidence presented at trial to support his arguments that the trial court should have found in his favor. Construing Burton's appellate brief liberally, we interpret these complaints as legal and factual sufficiency challenges. See Tello v. Bank One, N.A. , 218 S.W.3d 109, 122 (Tex. App.-Houston [14th Dist.] 2007, no pet.) (acknowledging that courts of appeals must construe appellate briefs reasonably and liberally).\nWhen, as here, a trial court does not make findings of fact and conclusions of law to support its ruling after a bench trial, we infer all findings necessary to support the judgment. See BMC Software Belg., N.V. v. Marchand , 83 S.W.3d 789, 795 (Tex. 2002). The judgment of the trial court must be affirmed if it can be upheld on any legal theory that is supported by the evidence. In re W.E.R. , 669 S.W.2d 716, 717 (Tex. 1984).\nBecause the appellate record includes the reporter's and clerk's records, the trial court's 'implied findings are not conclusive and may be challenged for legal and factual sufficiency. See BMC Software Belg. , 83 S.W.3d at 795. We review the trial court's decision for legal sufficiency of the evidence using the same standards applied in reviewing the evidence supporting a jury's finding. Catalina v. Blasdel , 881 S.W.2d 295, 297 (Tex. 1994). We review the evidence in the light most favorable to the challenged finding and indulge every reasonable inference that would support it. City of Keller v. Wilson , 168 S.W.3d 802, 822 (Tex. 2005). We credit favorable evidence if a reasonable factfinder could do so and disregard contrary evidence unless a reasonable factfinder could not. Id. at 827. A party attacking the legal sufficiency of an adverse finding on an issue on which he had the burden of proof must demonstrate that the evidence conclusively establishes all vital facts in support of the issue. Dow Chem. Co. v. Francis , 46 S.W.3d 237, 241 (Tex. 2001).\nIn reviewing factual sufficiency, we examine the entire record, considering both the evidence in favor of and contrary to the challenged findings. 2900 Smith, Ltd. v. Constellation NewEnergy, Inc. , 301 S.W.3d 741, 746 (Tex. App.-Houston [14th Dist.] 2009, no pet.). When a party attacks the factual sufficiency of an adverse finding on which he bore the burden of proof, he must establish that the finding is against the great weight and preponderance of the evidence. In re Estate of Parrimore , No. 14-14-00820-CV, 2016 WL 750293, at *5 (Tex. App.-Houston [14th Dist.] Feb. 25, 2016, no pet.) (mem. op.). We may not pass judgment upon the witnesses' credibility or substitute our judgment for that of the factfinder, even if the evidence would support a different result. 2900 Smith , 301 S.W.3d at 746. If we determine the evidence is factually insufficient, we must detail the evidence relevant to the issue and state in what regard the contrary evidence greatly outweighs the evidence supporting the trial court's judgment; we need not do so when affirming the judgment. Id.\nI. Deference to Factfinder Required as to Intent\nIn five issues, Burton argues the trial court should have awarded him damages against Leawood for filing or presenting the following purportedly fraudulent documents: trustee's deeds, redemption statements, and notices of sale. Burton contends that such actions violated section 12.002 of the Civil Practice and Remedies Code, which creates a private cause of action against a person who makes, presents, or uses \"a document or other record with ... knowledge that the document or other record is a fraudulent court record or a fraudulent lien or claim against real or personal property or an interest in real or personal property.\" Tex. Civ. Prac. & Rem. Code \u00a7 12.002 (a)(1). We conclude that Burton did not meet his burden on appeal to establish conclusively that Leawood violated every element of section 12.002 or that the trial court's findings were against the great weight and preponderance of the evidence.\nA. Finding on Intent in Filing Trustee's Deeds Was Reasonable\nIn his first through third issues, Burton argues the trial court should have awarded him damages against Leawood for filing fraudulent trustee's deeds. According to Burton, the trustee's deeds are fraudulent documents that were filed in violation of section 12.002.\nTo establish that the trial court's finding against Burton was not supported by legally sufficient evidence, Burton was required to conclusively establish that Leawood not only made, presented, or used fraudulent trustee's deeds but also (1) knew they amounted to fraudulent claims against real property or an interest in real property; (2) intended for the fraudulent trustee's deeds to be given the same legal effect as documents evidencing valid claims against real property or an interest in real property; and (3) intended to cause financial injury, mental anguish, or emotional distress to Burton. See id. \u00a7 12.002(a); Lance v. Robinson , 543 S.W.3d 723, 744 (Tex. 2018). As to his factual sufficiency challenge, Burton was required to establish that the trial court's finding is against the great weight and preponderance of the evidence.\nBurton argues he met these burdens by presenting evidence that Prince \"knowingly filed [trustee's deeds] with false statements in them\" that the Association had paid the purchase price at the foreclosure sales. Burton contends these are false statements because no money changed hands. Burton relies on Prince's admission that he purchased the Property on credit on behalf of the Association. Burton also relies on testimony from the Association's board president and the property manager that they knew the Association purchased the Property on credit.\nWe recognize that the trial court as factfinder might conclude this was some circumstantial evidence of intent under the statute because the Association did not pay the purchase price at the foreclosure sales in cash, but we must defer to the factfinder even when the evidence might support a different result. See 2900 Smith , 301 S.W.3d at 746. On appeal, Burton was required to demonstrate he presented the trial court with conclusive proof of intent to cause Burton financial injury, mental anguish, or emotional distress. See Dow Chem. Co. , 46 S.W.3d at 241.\nLeawood argues that Burton failed to establish intent under the statute because the Association never sought to sell the Property but instead urged Burton to redeem the Property or pay the arrearages on the Association dues. The trustee's deeds state that at the foreclosure sales, Prince, as trustee for the Association, acquired the Property \"in consideration of\" certain dollar amounts for each condominium unit. At trial, Prince conceded that he did not receive cash at the foreclosure sales but testified that he received \"consideration\" in the form of a credit. Prince further stated:\nThe [A]ssociation's goal in any foreclosure is never to take anyone's property from them, but to try as best as they can to be equitable and fair to get them to pay the amount that they owe. The object and the goal of [the Association] at all times was from day one to have ... Burton become current on his assessments. That's always been the goal and still is the goal. We never wanted it and we still don't want [the P]roperty.\nIn finding against Burton on his section 12.002 claims, the trial court implicitly found that Leawood did not intend to cause financial injury, mental anguish, or emotional distress to Burton. However, the trial court concluded that the foreclosure sales were improperly conducted. Based on the evidence presented, the trial court, as the sole judge of credibility of the witnesses and the weight to be given their testimony, reasonably could have concluded that despite the fact that the foreclosure sales were not conducted properly, the Association was seeking only payment from Burton for delinquent dues and fees and did not intend to cause Burton financial injury, mental anguish, or emotional distress. The trial evidence does not conclusively prove all of the required elements to establish a section 12.002 claim. See Dow Chem. Co. , 46 S.W.3d at 241. Our review of the entire record similarly demonstrates that the trial court's implied findings are not against the great weight and preponderance of the evidence.\nWe accordingly conclude that the trial court did not err in finding against Burton on his section 12.002 claims. We overrule issues one through three.\nB. Finding on Intent in Serving Erroneous Redemption Statements Was Reasonable\nBurton argues in his fourth issue that the trial court also should have awarded him damages under section 12.002 because he contends Leawood presented him with redemption payoff statements for the Property that included inflated payoff amounts exceeding the amounts he was required to pay under the Property Code. To redeem each condominium unit that the Association purchased at a foreclosure sale, Burton had to pay the Association the following amounts no later than the ninetieth day after the date of the foreclosure sale:\n\u2022 all amounts due the Association at the time of the foreclosure sale;\n\u2022 interest from the date of the foreclosure sale to the date of redemption;\n\u2022 reasonable attorney's fees and costs incurred by the Association in foreclosing the lien;\n\u2022 any assessment levied against the unit by the Association after the foreclosure sale; and\n\u2022 any reasonable cost incurred by the Association as owner of the unit, including costs of maintenance and leasing.\nSee Tex. Prop. Code \u00a7 82.113(g) (setting forth redemption requirements as to condominium units).\nBurton complains that the redemption statements served by the Association totaled $203,479, which he contends improperly included (1) the purchase price for the Property because it was purchased on credit, (2) attorney's fees the Association paid to a New York attorney in another lawsuit filed by Burton, (3) fees for labor purportedly done on the units, and (4) \"numerous other false claims.\" Burton contends this evidence \"conclusively documented\" that Leawood \"made, used and/or presented\" false redemption statements. Burton also contends that Leawood filed the redemption statements as an exhibit in support of its counterclaims against Burton in this lawsuit and in so doing, also violated section 12.002.\nBurton relies on an opinion issued by our sister court that was withdrawn because the parties settled their dispute after Burton filed his appellate brief. See 402 Lone Star Prop., L.L.C. v. Bradford , No. 04-16-00721-CV, 2017 WL 5759379 (Tex. App.-San Antonio Nov. 29, 2017), opinion withdrawn and superseded sub nom. 402 Lone Star Prop., LLC v. Bradford , No. 04-16-00721-CV, 2018 WL 1935576 (Tex. App.-San Antonio Apr. 25, 2018, no pet.). In that case, the plaintiff presented evidence of the amounts required to redeem his home as set forth in the Property Code. Id. at *5 (citing Tex. Prop. Code \u00a7 209.011(e) (listing amounts to redeem residential property \"purchased at the foreclosure sale by a person other than the property owners' association, the lot owner or lienholder\") ). The redemption statement exceeded that amount, particularly as to \"taxable costs\" referenced in the statute. Id. The defendant's representative testified that he did not know that \"taxable costs\" in the statute referred only to taxable court costs. Id. In concluding that the jury could have disbelieved this testimony from the representative, the court of appeals noted that \"[i]ntent is a fact question uniquely within the realm of the trier of fact because it so depends upon the credibility of the witnesses and the weight to be given to their testimony.\" Id. (quoting Spoljaric v. Percival Tours, Inc. , 708 S.W.2d 432, 434 (Tex. 1986) ).\nWe presume without deciding that each redemption statement the Association sent to Burton is a court record, lien, or claim against real property or an interest in real property for section 12.002 purposes. See Tex. Civ. Prac. & Rem. Code \u00a7 12.002(a)(1). We turn to the evidence presented.\nPrince testified at trial that there was a 90-day deadline to redeem the property and that he sent the redemption statements a few hours before the deadline. He also admitted that the redemption statements included amounts for which the Association purportedly purchased the Property based on credit bids. The trial court asked him how the Association could charge this amount when the Association had not paid it. Prince responded,\nBurton was not being required to pay [the purchase amount], but there had to be a total breakdown of the total cost per unit associated with it ... even if the [A]ssociation had not in cash paid for [the particular unit].... Because of these other ... costs in there, that's what the goal was, to attempt to get that money back.\nThe trial court then asked Prince, \"So your position is he would have had to pay the money and then you would have turned around and given the money back?\" to which Prince responded, \"It would have been refunded.\"\nPrince conceded at several points that he did not recall or did not know how some of the amounts in the redemption statements were calculated. He testified that he relied on financial transaction reports and events reported to him from the Association for the itemized amounts. He also could not remember whether he gave Burton a credit for rent received by the Association, which the Association was required to do. Prince agreed that he, as the trustee on the deeds of trust, was required to \"act with absolute impartiality and with fairness to all concerned in conducting [the] foreclosure[s].\" He testified that he did so \"[u]nequivocally and absolutely.\" He \"tr[ied] to be impartial and fair at all times\" when handling the redemption.\nPrince agreed that he did not receive the purchase price for the Property from the Association at the foreclosure sales. He also admitted that attorney's fees in the New York lawsuit had not been awarded to the Association. He further conceded that some fees were erroneously included in the redemption statements because they pertained to a foreclosed unit that did not belong to Burton.\nDuring her testimony, Yaqoob conceded that labor fees for work done on only three units were divided equally among all six units. She also testified that the work was done after hours by the Association's maintenance person. Burton's counsel cross-examined Yaqoob thoroughly about the work that was done and how it was billed. Yaqoob testified that if Burton wanted to redeem only certain units, he \"probably\" would not have been required to pay for repairs not made to those units.\nAs discussed, the trial court found that the foreclosure sales were improperly conducted and set them aside, along with the trustee's deeds, but implicitly concluded that Leawood did not intend to cause financial injury, mental anguish, or emotional distress to Burton. We emphasize-consistent with our sister court-that the factfinder is the sole judge of credibility of the witnesses and the weight to be given their testimony. See 402 Lone Star Prop. , 2017 WL 5759379, at *3, 5.\nWith these principles in mind, we conclude that based on the evidence presented, the trial court, as the sole judge of credibility of the witnesses and the weight to be given their testimony, reasonably could have concluded that Leawood was negligent in its preparation of the redemption statements but did not intend to cause financial injury, mental anguish, or emotional distress to Burton. Burton thus did not conclusively establish that Leawood, by presenting him with erroneous redemption statements, intended to injure him. Our review of the entire record similarly demonstrates that the trial court's finding is not against the great weight and preponderance of the evidence. We accordingly overrule issue four.\nC. Finding on Intent in Serving Erroneous Notices of Sale Was Reasonable\nBurton argues in issue five that the trial court should have awarded him damages under section 12.002 because in serving Burton with notices of the foreclosure sale, Leawood \"sought to recover for a second time upon claims ... that [the Association] had previously ... reduced to judgment\" in the justice court. The trial court agreed during trial that \"given the fact that the notice of foreclosure embeds in it costs that were awarded per the judgment, we have got some blending of the two. And so I have to say I am perplexed.\" As discussed, the trial court set aside the foreclosure sales and trustee's deeds, but as the factfinder, it was entitled to decide the fact question of intent. The trial court thus could have concluded that although the notices of sale improperly included costs that were awarded and reduced to judgment in another lawsuit, Leawood nevertheless did not intend to cause financial injury, mental anguish, or emotional distress to Burton in serving the notices. We accordingly overrule issue five.\nII. Wrongful Debt Collection Not Established\nBurton challenges the trial court's finding against him on his claims for violations of the Texas Debt Collection Act (TDCA) in issue eight. See Tex. Fin. Code \u00a7\u00a7 392.001 -.404. In this issue, Burton asserts only that Leawood violated the TDCA by knowingly filing false trustee's deeds to transfer ownership of the Property to the Association and by serving erroneous redemption statements.\nThe TDCA provides remedies for wrongful debt collection practices used by a debt collector in debt collection. See id. ; Ford v. City State Bank of Palacios , 44 S.W.3d 121, 135 (Tex. App.-Corpus Christi 2001, no pet.). Debt collection under the TDCA is \"an action, conduct, or practice in collecting, or in soliciting for collection, consumer debts that are due or alleged to be due a creditor.\" Tex. Fin. Code \u00a7 392.001(5). A consumer is \"an individual who has a consumer debt.\" Id. \u00a7 392.001(1). Consumer debt is \"an obligation, or an alleged obligation, primarily for personal, family, or household purposes and arising from a transaction or alleged transaction.\" Id. \u00a7 392.001(2). A creditor is \"a party, other than a consumer, to a transaction or alleged transaction involving one or more consumers.\" Id. \u00a7 392.001(3). And, a debt collector is \"a person who directly or indirectly engages in debt collection.\" Id. \u00a7 392.001(6). The TDCA also applies to entities attempting to collect their own debts. Monroe v. Frank , 936 S.W.2d 654, 660 (Tex. App.-Dallas 1996, writ dism'd w.o.j.).\nThe Association filed trustee's deeds after foreclosure and, at Burton's request, served him with the redemption statements. Prince testified that the Association did not want to take the Property and merely intended to collect the outstanding balance. Burton has not shown on this record how the filing of the trustee's deeds or the serving of the redemption statements was done during \"debt collection\" as defined in the TDCA.\nBurton's assertions that Leawood violated the TDCA are based on the filing of the trustee's deeds and on service of the erroneous redemption statements. Burton has not asserted that Leawood violated the TDCA in any other way. See Robinson v. Alief Indep. Sch. Dist. , 298 S.W.3d 321, 326 n.2 (Tex. App.-Houston [14th Dist.] 2009, pet. denied) (noting appellate court will not address an issue that is not raised on appeal by an appellant). Burton has failed to establish conclusively that the trial court erred in finding against him on his TDCA claims. Furthermore, the trial court's finding is not against the great weight and preponderance of the evidence. We overrule Burton's eighth issue.\nIII. Burton Not a \"Consumer\" under Deceptive Trade Practices Act\nBurton complains in his seventh issue of the trial court's finding against him on his Texas Deceptive Trade Practices Act (DTPA) claim. See Tex. Bus. & Com. Code \u00a7\u00a7 17.41 -.63. Leawood counters that Burton is not a consumer, and thus he lacks standing to bring suit under the DTPA.\nIn his live petition, Burton alleged that Leawood violated the DTPA by (1) engaging in an unconscionable action by \"demanding payment for improper charges, fees, expenses and attorney's fees\", and (2) violating two tie-in statutes to the DTPA-the TDCA and section 27.01 of the Texas Business & Commerce Code (\"Fraud in Real Estate and Stock Transactions\"). See id. \u00a7\u00a7 17.50(a), 27.015(b) (\"A violation of [s]ection 27.01 that relates to the transfer of title to real estate is a false, misleading, or deceptive act or practice as defined by [s]ection 17.46(b) [of the DTPA].\"); Tex. Fin. Code \u00a7 392.404(a) (\"A violation of this chapter is a deceptive trade practice under [the DTPA].\"). These DTPA claims required Burton to establish, among other things, that he is a consumer. See Doe v. Boys Clubs of Greater Dallas, Inc. , 907 S.W.2d 472, 478 (Tex. 1995) (citing Tex. Bus. & Com. Code \u00a7 17.50(a)(1) ); see also Hunt v. City of Diboll , No. 12-17-00001-CV. 574 S.W.3d 406, 431-32, 2017 WL 7663041, at *15 (Tex. App.-Tyler Nov. 8, 2017, pet. filed) (holding that one must be a consumer to maintain a cause of action for violations of tie-in statutes actionable under the DTPA); Dodeka, L.L.C. v. Garcia , No. 04-11-00016-CV, 2011 WL 4825893, at *2 (Tex. App.-San Antonio Oct. 12, 2011, no pet.) (mem. op.) (\"[T]he DTPA 'tie-in' statute does not exempt a plaintiff from proving consumer status.\").\nWhether a party is a consumer is a question of law. Ortiz v. Collins , 203 S.W.3d 414, 424 (Tex. App.-Houston [14th Dist.] 2006, no pet.). To be a consumer, the claimant must have sought or acquired goods or services by purchase or lease, and those goods or services must form the basis of the complaint. Id. Consumer status depends on the plaintiff's relationship to the transaction, not the contractual relationship between the parties. Id. Therefore, the plaintiff must show that the defendant's deceptive conduct occurred in connection with a consumer transaction. Id. at 424-25.\nAccordingly, at trial, Burton was required to establish that he sought or acquired goods or services from Leawood by purchase or lease and that such goods or services form the basis of this lawsuit. Burton asserts on appeal that \"the DTPA includes real estate related claims\" and his \"real estate relationships with [Leawood] 'form the basis of' his ... DTPA claims.\" Generally, a wrongful foreclosure claim does not qualify as a consumer transaction under the DTPA. See, e.g., Everson v. Mineola Cmty. Bank , No. 12-05-00334-CV, 2006 WL 2106959, at *2 (Tex. App.-Tyler July 31, 2006, pet. denied) (mem. op.) (holding that homeowners were not consumers on the basis of their forced purchase of private mortgage insurance when their DTPA claim had nothing to do with the insurance itself but rather an allegedly wrongful foreclosure); Ortiz , 203 S.W.3d at 425 (holding that negotiations over repurchase of home after foreclosure did not qualify as a consumer transaction under the DTPA). Burton complains about conduct relating to the foreclosures and his attempted redemption of the Property but has not alleged a violation of the DTPA emanating from his purchase of the Property. Accordingly, he is not a consumer under the DTPA. See Resolution Tr. Corp. v. Westridge Court Joint Venture , 815 S.W.2d 327, 332 (Tex. App.-Houston [1st Dist.] 1991, writ denied) (holding parties that were not purchasers at foreclosure sale were not consumers under the DTPA and lacked standing to complain of conduct relating to foreclosure). We overrule issue seven.\nIV. Waiver of Remaining Issues\nBurton argues in his sixth issue that the trial court should have awarded him prejudgment interest \"in accordance with [this court's] decision in\" Garden Ridge, L.P. v. Clear Lake Center, L.P. , 504 S.W.3d 428 (Tex. App.-Houston [14th Dist.] 2016, no pet.). In that case, the defendant conceded on appeal that the plaintiff was entitled to prejudgment interest, and we noted that a successful claimant is entitled to prejudgment interest on \"a breach of contract claim that accrues before suit is filed.\" Id. at 452.\nHere, Burton did not bring a breach-of-contract claim and presents no argument for why he is entitled to prejudgment interest other than to cite our Garden Ridge opinion. Although we construe briefs liberally and require only substantial compliance with briefing rules, see Texas Rule of Appellate Procedure 38.9, if an appellant's issues are unsupported by clear and concise legal argument with appropriate citations to authorities, the appellant waives error. Bentley v. Peck , No. 14-17-00561-CV, 2018 WL 4869484, at *2 (Tex. App.-Houston [14th Dist.] Oct. 9, 2018, pet. denied) (mem. op.); Canton-Carter v. Baylor Coll. of Med. , 271 S.W.3d 928, 931-32 (Tex. App.-Houston [14th Dist.] 2008, no pet.). It is not our duty to fashion a legal argument for a party. See Canton-Carter , 271 S.W.3d at 931-32 ; see also Smith v. Smith , 541 S.W.3d 251, 260-61 (Tex. App.-Houston [14th Dist.] 2017, no pet.). A party must not only cite relevant authority and the record but must also provide substantive legal analysis. Smith , 541 S.W.3d at 260-61. Burton failed to do so. This issue is waived.\nIn his ninth and final issue, Burton argues that the case should be remanded for reconsideration \"of all other claims denied\" in the final judgment and of the DTPA claim. This issue is similarly waived because Burton did not cite any authority or the record in support of his argument and did not include any analysis. See id. We overrule issues six and nine.\nConclusion\nHaving construed Burton's appellate brief liberally as a legal-and-factual-sufficiency challenge to the trial court's findings, we conclude that Burton failed to establish that the trial court's findings are not supported by legally sufficient evidence. We also conclude that Burton has not shown that the trial court's findings are against the great weight and preponderance of the evidence such that they would not be supported by factually sufficient evidence. We further conclude as a matter of law that Burton is not a consumer for purposes of the DTPA with regard to the foreclosure sales. Burton's remaining issues are waived. Accordingly, we affirm the judgment of the trial court.\nBurton alleges that lawsuit was brought by Leawood HOA, Inc., \"an entity that does not exist.\" Prince testified that the Association and Leawood HOA, Inc. are the same entity.\nSee Tex. Prop. Code \u00a7\u00a7 51.0001 -.016.\nBurton did not raise a sufficiency challenge below, but he was not required to do so to preserve error after a bench trial. See Tex. R. App. P. 33.1(d).\nBurton does not allege that Leawood intended to cause him physical injury. See Tex. Civ. Prac. & Rem. Code \u00a7 12.002(a)(3)(A).\nBurton cites numerous cases in support of his argument, but none of them involve sufficiency challenges on issues for which the party attacking the finding had the burden of proof. See Pitre v. Sharp , No. 05-15-00173-CV, 2016 WL 2967826, at *3 (Tex. App.-Dallas May 13, 2016, no pet.) (mem. op.) (affirming summary judgment involving deemed admissions that party who filed deed did not have a legal interest in the subject property); Roberts v. Dixon , No. 12-15-00181-CV, 2016 WL 900205, at *1 (Tex. App.-Tyler Mar. 9, 2016, no pet.) (mem. op.) (overruling factual sufficiency challenge to trial court's finding that fraudulent lien was filed); Bernard v. Bank of Am., N.A. , No. 04-12-00088-CV, 2013 WL 441749, at *4 (Tex. App.-San Antonio Feb. 6, 2013, no pet.) (mem. op.) (affirming summary judgment in which fraudulent \"Substitution of Trustee\" document was filed to prevent bank from foreclosing); Brewer v. Green Lizard Holdings, L.L.C. Series SR , 406 S.W.3d 399, 403-04 (Tex. App.-Fort Worth 2013, no pet.) (affirming summary judgment when plaintiff presented evidence of fraudulent filing and defendant did not present evidence showing a legitimate interest in property); Gray v. Entis Mech. Servs., LLC , No. 01-11-00129-CV, 2012 WL 1454485, at *5 (Tex. App.-Houston [1st Dist.] Apr. 26, 2012, no pet.) (mem. op.) (overruling legal-sufficiency challenge to trial court's finding that defendant filed affidavit he knew was false); Gordon v. W. Houston Trees, Ltd. , 352 S.W.3d 32, 46 (Tex. App.-Houston [1st Dist.] 2011, no pet.) (holding trial court erred in granting summary judgment because plaintiff failed to prove \"as a matter of law\" that defendant knew filed documents were fraudulent). See also L'Amoreaux v. Wells Fargo Bank, N.A. , 755 F.3d 748, 751 (5th Cir. 2014) (affirming dismissal of section 12.002 claim because it was \"not plausible\" that defendant \"knowingly made or presented a document with a false interest or claim against real property\"); Downs v. BAC Home Loans Servicing, LP , No. 4:10-CV-096-A, 2011 WL 1576352, at *1, 5 (N.D. Tex. Apr. 26, 2011) (granting summary judgment because undisputed evidence established each element of liability under section 12.002 ).\nBurton also argues Leawood violated two Penal Code sections in filing the trustee's deeds. See Tex. Penal Code \u00a7\u00a7 31.03 (theft), and 32.45(b) (misapplication of fiduciary property). We note that each of these sections includes an intent element, which is within the province of the factfinder to determine. See id. Neither of these criminal offenses has the same elements as Burton's section 12.002 claims.\nProperty manager Yaqoob admitted at trial that work was not done on all six units. She testified that the fees for the work on three units were divided up among the six units. Burton also challenges the amount of work that was purportedly done on the units.\nLeawood argues that Burton failed to challenge the justice court judgment. The enforceability of that judgment is not at issue in this case. Leawood seems to be complaining that Burton did not challenge the trial court's findings as to Burton's claims for removal of cloud on title and trespass to try title. Burton was not required to challenge these findings to challenge the trial court's findings on his other claims.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Robert Burton, New York, NY, pro se.",
+      "Neil Hugh McLaurin IV, Houston, TX, for Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "Robert BURTON, Appellant\nv.\nWayman L. PRINCE, Nafisa Yaqoob, Independent Management & Investment LLC and Leawood Homeowners Association, Inc., Appellees\nNO. 14-17-00181-CV\nCourt of Appeals of Texas, Houston (14th Dist.).\nOpinion filed March 7, 2019\nRobert Burton, New York, NY, pro se.\nNeil Hugh McLaurin IV, Houston, TX, for Appellee.\nPanel consists of Chief Justice Frost and Justices Christopher and Bourliot."
+  },
+  "file_name": "0280-01",
+  "first_page_order": 280,
+  "last_page_order": 293
+}

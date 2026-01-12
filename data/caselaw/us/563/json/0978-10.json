@@ -1,0 +1,59 @@
+{
+  "id": 5957416,
+  "name": "Johnson v. Hedgpeth, Warden",
+  "name_abbreviation": "Johnson v. Hedgpeth",
+  "decision_date": "2011-05-02",
+  "docket_number": "No. 10-9294",
+  "first_page": "978",
+  "last_page": "978",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 978"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.582,
+    "sha256": "2f94e504513bd0fbb114890cfafde0553e871f73ed0f8182ed6de103bd2508d7",
+    "simhash": "1:15f5a5a10eaf6466",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Johnson v. Hedgpeth, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9294.\nJohnson v. Hedgpeth, Warden."
+  },
+  "file_name": "0978-10",
+  "first_page_order": 1004,
+  "last_page_order": 1004
+}

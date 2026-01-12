@@ -1,0 +1,59 @@
+{
+  "id": 5941979,
+  "name": "Winfield v. Missouri",
+  "name_abbreviation": "Winfield v. Missouri",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-9062",
+  "first_page": "945",
+  "last_page": "945",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 945"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 67,
+    "ocr_confidence": 0.602,
+    "sha256": "244c33f74d03be09610cbf58a96d13dcedb865c11608c013e5307e20efede66d",
+    "simhash": "1:d43092703c6ad164",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Winfield v. Missouri."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Mo. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9062.\nWinfield v. Missouri."
+  },
+  "file_name": "0945-04",
+  "first_page_order": 971,
+  "last_page_order": 971
+}

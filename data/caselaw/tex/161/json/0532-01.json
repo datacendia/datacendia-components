@@ -1,0 +1,346 @@
+{
+  "id": 2260349,
+  "name": "Clinton W. Turner et al v. Donald Wayne Pruitt",
+  "name_abbreviation": "Turner v. Pruitt",
+  "decision_date": "1961-01-25",
+  "docket_number": "No. A-7980",
+  "first_page": "532",
+  "last_page": "535",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "161 Tex. 532"
+    },
+    {
+      "type": "parallel",
+      "cite": "342 S.W.2d 422"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "173 A.L.R. 806",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "13 A.L.R. 1348",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 Texas 561",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2119148
+      ],
+      "pin_cites": [
+        {
+          "page": "568"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/21/0561-01"
+      ]
+    },
+    {
+      "cite": "329 S.W. 2d 853",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10179690,
+        2259047
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/329/0853-01",
+        "/tex/160/0295-01"
+      ]
+    },
+    {
+      "cite": "160 Texas 295",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2259047
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/160/0295-01"
+      ]
+    },
+    {
+      "cite": "196 S.W. 2d 632",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2335023,
+        10194015
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/145/0200-01",
+        "/sw2d/196/0632-01"
+      ]
+    },
+    {
+      "cite": "145 Texas 200",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2335023
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/145/0200-01"
+      ]
+    },
+    {
+      "cite": "86 S.W. 2d 731",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2296208,
+        10252508
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/126/0118-01",
+        "/sw2d/86/0731-01"
+      ]
+    },
+    {
+      "cite": "126 Texas 118",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2296208
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/126/0118-01"
+      ]
+    },
+    {
+      "cite": "328 S.W. 2d 434",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10169640,
+        10169810,
+        2258981,
+        2259046
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/328/0434-01",
+        "/sw2d/328/0434-02",
+        "/tex/160/0182-01",
+        "/tex/160/0182-02"
+      ]
+    },
+    {
+      "cite": "160 Texas 182",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2258981,
+        2259046
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/160/0182-01",
+        "/tex/160/0182-02"
+      ]
+    },
+    {
+      "cite": "315 S.W. 2d 279",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2255811,
+        10165799
+      ],
+      "pin_cites": [
+        {
+          "page": "286"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/158/0612-01",
+        "/sw2d/315/0279-01"
+      ]
+    },
+    {
+      "cite": "158 Texas 612",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2255811
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/158/0612-01"
+      ]
+    },
+    {
+      "cite": "308 S.W. 2d 846",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2255806,
+        10179263
+      ],
+      "pin_cites": [
+        {
+          "page": "848"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/158/0083-01",
+        "/sw2d/308/0846-01"
+      ]
+    },
+    {
+      "cite": "158 Texas 83",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2255806
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/158/0083-01"
+      ]
+    },
+    {
+      "cite": "152 S.W. 2d 327",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10217426,
+        2314958
+      ],
+      "pin_cites": [
+        {
+          "page": "331"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/152/0327-01",
+        "/tex/137/0021-01"
+      ]
+    },
+    {
+      "cite": "137 Texas 21",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2314958
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/137/0021-01"
+      ]
+    },
+    {
+      "cite": "128 S.W. 2d 1138",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        6802961,
+        2321123
+      ],
+      "pin_cites": [
+        {
+          "page": "1150, 1151"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/128/1138-01",
+        "/tex/133/0255-01"
+      ]
+    },
+    {
+      "cite": "133 Texas 255",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2321123
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/133/0255-01"
+      ]
+    },
+    {
+      "cite": "336 S.W. 2d 440",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10159982
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/336/0440-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 360,
+    "char_count": 5511,
+    "ocr_confidence": 0.57,
+    "pagerank": {
+      "raw": 5.20557657939026e-07,
+      "percentile": 0.9404735565664253
+    },
+    "sha256": "bfba75612b1e77357551d0c86be5238458874a4917404cb6d883c1b973d47ec9",
+    "simhash": "1:d6d846a6660e6544",
+    "word_count": 942
+  },
+  "last_updated": "2024-02-27T18:05:23.850581+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Clinton W. Turner et al v. Donald Wayne Pruitt."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Chief Justice Calvert\ndelivered the opinion of the Court.\nThe question in this case is this: Is a Justice of the Peace subject to tort liability for improperly denying a jury trial to a defendant pleading \u201cnot guilty\u201d in a criminal case? The Court of Civil Appeals has answered the question in the affirmative, with one Justice dissenting. 336 S.W. 2d 440. We answer the question in the negative.\nA criminal case against respondent, Pruitt, was pending before petitioner Turner, a Justice of the Peace. Pruitt pleaded \u201cnot guilty\u201d and demanded a jury. On advice of the County Attorney, Turner refused to empanel a jury unless Pruitt deposited a jury fee. Pruitt, declining to deposit the fee, was tried and convicted by Turner, and appealed to the County Court. Thereafter, Pruitt filed this suit in the County Court seeking a recovery of damages from Turner and the surety on his official bond. The County Judge dismissed the suit and Pruitt appealed. The Court of Civil Appeals reversed the judgment of the County Court and rendered judgment in favor of Pruitt for one dollar and costs.\nAlthough the case originated in a county court, we have jurisdiction to review it under subdivision 1 of Article 1728, V.A.C.S. We reverse the judgment of the Court of Civil Appeals and affirm the judment of the trial court.\nThere is no question but that the Justice of the Peace Court over which Turner presides had jurisdiction of the criminal case pending against Pruitt. Neither is there any question but that Pruitt was entitled to jury trial without depositing a jury fee. Art. 1, Sec. 10, Vernon\u2019s Constitution of Texas; Art. 892, Vernon\u2019s Annotated Code of Criminal Procedure; Art. 1059, Vernon\u2019s Annotated Code of Criminal Procedure. In the absence of a waiver by Pruitt, Turner was under a mandatory duty to empanel a jury; he had no discretion in the matter.\nThe majority of the Court of Civil Appeals were moved to hold Turner subject to tort liability because his duty to empanel a jury was a ministerial rather than a judicial duty, i.e., he had no discretion in the matter. That conclusion of the majority is understandable inasmuch as it is supported by expressions in opinions of this court and in legal encyclopedias, some of which are quoted in the majority opinion. However that may be, we are convinced it is an unsound conclusion inasmuch as the duty Turner refused to perform was one arising in the course of a judicial proceeding over which he had jurisdiction. We need go no further.\nAs a basis for rejecting the majority\u2019s conclusion there is little of value which can be added to the dissenting opinion filed by Associate Justice Wilson of the Court of Civil Ape\u00e1is. We approve that opinion.\nTort liability of a judge for acts or conduct in the course of a judicial proceeding in which he has jurisdiction cannot turn on whether he could be compelled by writ of mandamus to perform a particular duty or refrain from doing an unauthorized act. Writs of mandamus issue to control the conduct of an officer of government, judicial or administrative, only when the duty to do the act commanded is clear and definite and involves the exercise of no discretion \u2014 that is, when the act is ministerial. Wortham v. Walker, 133 Texas 255, 128 S.W. 2d 1138,1150, 1151; United Production Corp. v. Hughes, 137 Texas 21, 152 S.W. 2d 327, 331; State Board of Insurance v. Betts, 158 Texas 83, 308 S.W. 2d 846, 848. It is unthinkable that a judge would be subject to tort liability in the many cases in which writs of mandamus have issued from this court requiring or compelling the doing of a particular act because the duty of the judge was clear and ministerial and did not involve the exercise of discretion. See State Board of Insurance v. Betts, 158 Texas 612, 315 S.W. 2d 279, 286 (District Judge required to expunge orders from docket) ; Crane v. Tunks, 160 Texas 182, 328 S.W. 2d 434 (District Judge required to amend order of discovery) ; Southland Greyhound Lines v. Richardson, 126 Texas 118, 86 S.W. 2d 731 (Requiring entry of judgment) ; Polk v. Davidson, 145 Texas 200, 196 S.W. 2d 632 (Requiring dismissal of case); Coastal States Gas Producing Co. v. Miller, 160 Texas 295, 329 S.W. 2d 853 (Requiring judge to fix bond and permit entry on land). These cases could be multiplied many times over.\nThe same reasons underlying immunity of district judges from tort liability for acts performed or not performed in judicial proceedings require a conclusion that justices of the peace should enjoy a like immunity when acting in the course of judicial proceedings of which they have jurisdiction. Bumpus v. Fisher, 21 Texas 561, 568; 13 A.L.R. 1348; 173 A.L.R. 806. The mere fact that in the course of such a proceeding a justice of the peace may refuse, but by writ of mandamus be compelled, to perform a clear legal duty, involving the exercise of no discretion, will not subject him to tort liability.\nThe judgment of the Court of Civil Appeals is reversed and the judgment of the trial court is affirmed.\nAssociate Justice Steakley not sitting.\nOpinion delivered January 25, 1961.\nRehearing overruled February 15, 1961.",
+        "type": "majority",
+        "author": "Mr. Chief Justice Calvert"
+      }
+    ],
+    "attorneys": [
+      "Beard, Kultgen & Beard and Pat Beard, of Waco, for Southwestern Indemnity Co., Surety for Turner, and Byron L. McClellan, of Gatesville, for Clinton W. Turner, Petitioners.",
+      "Harry W. Flentge, of Gatesville, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "Clinton W. Turner et al v. Donald Wayne Pruitt.\nNo. A-7980.\nDecided January 25, 1961.\nRehearing Overruled February 15, 1961.\n(342 S.W. 2d Series 422)\nBeard, Kultgen & Beard and Pat Beard, of Waco, for Southwestern Indemnity Co., Surety for Turner, and Byron L. McClellan, of Gatesville, for Clinton W. Turner, Petitioners.\nHarry W. Flentge, of Gatesville, for respondent."
+  },
+  "file_name": "0532-01",
+  "first_page_order": 546,
+  "last_page_order": 549
+}

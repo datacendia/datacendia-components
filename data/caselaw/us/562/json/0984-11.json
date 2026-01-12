@@ -1,0 +1,59 @@
+{
+  "id": 6028260,
+  "name": "Hyde v. Valdez",
+  "name_abbreviation": "Hyde v. Valdez",
+  "decision_date": "2010-10-18",
+  "docket_number": "No. 10-5969",
+  "first_page": "984",
+  "last_page": "984",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 984"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 64,
+    "ocr_confidence": 0.62,
+    "sha256": "70953f3d449f985cd4f2022759c3305431cca5a1a1d593bde6c4a2c32f1209f5",
+    "simhash": "1:6b5ac97848c2a006",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hyde v. Valdez."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Idaho. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5969.\nHyde v. Valdez."
+  },
+  "file_name": "0984-11",
+  "first_page_order": 1006,
+  "last_page_order": 1006
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12231821,
+  "name": "Wisecarver v. United States",
+  "name_abbreviation": "Wisecarver v. United States",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-6562",
+  "first_page": "992",
+  "last_page": "992",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 992"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.694,
+    "sha256": "c66af6f37bf4962c1147ec3f4810cc4f0a6b4df1410e946cf98d1d030a714bed",
+    "simhash": "1:27bae7330dfd166d",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wisecarver v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6562.\nWisecarver v. United States."
+  },
+  "file_name": "0992-02",
+  "first_page_order": 1074,
+  "last_page_order": 1074
+}

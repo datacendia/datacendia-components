@@ -1,0 +1,59 @@
+{
+  "id": 12251132,
+  "name": "Stevens v. United States",
+  "name_abbreviation": "Stevens v. United States",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. 11-5981",
+  "first_page": "1255",
+  "last_page": "1255",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1255"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 37,
+    "char_count": 273,
+    "ocr_confidence": 0.647,
+    "sha256": "6aaa4def12b74cdd28e1dc6a7d60afcb47b8a5a8567d4981b14e048159e8c1d1",
+    "simhash": "1:e722e99784829e1e",
+    "word_count": 44
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Stevens v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Motion of petitioner for leave to proceed in forma pauperis granted. Certiorari granted, judgment vacated, and ease remanded for further consideration in light of Reynolds v. United States, ante, p. 432.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "March 19, 2012\nNo. 11-5981.\nStevens v. United States."
+  },
+  "file_name": "1255-03",
+  "first_page_order": 1337,
+  "last_page_order": 1337
+}

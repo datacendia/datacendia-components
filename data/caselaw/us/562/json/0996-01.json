@@ -1,0 +1,65 @@
+{
+  "id": 5949327,
+  "name": "Bowersox v. Nunley",
+  "name_abbreviation": "Bowersox v. Nunley",
+  "decision_date": "2010-10-19",
+  "docket_number": "No. 10A393",
+  "first_page": "996",
+  "last_page": "996",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 996"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 38,
+    "char_count": 359,
+    "ocr_confidence": 0.559,
+    "pagerank": {
+      "raw": 2.1995933875888662e-07,
+      "percentile": 0.7701201570220623
+    },
+    "sha256": "a19c6846271e6346cbf26eea84ca1c13b1c16ec5cbb959cd2bf2162624a4cdc0",
+    "simhash": "1:753fda7bd489df43",
+    "word_count": 59
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Scalia would grant the application to vacate the stay of execution."
+    ],
+    "parties": [
+      "Bowersox v. Nunley."
+    ],
+    "opinions": [
+      {
+        "text": "Application to vacate stay of execution of sentence of death, entered by the United States District Court for the Western District of Missouri on October 18, 2010, presented to Justice Alito, and by him referred to the Court, denied.\nJustice Scalia would grant the application to vacate the stay of execution.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "October 19, 2010\nNo. 10A393.\nBowersox v. Nunley."
+  },
+  "file_name": "0996-01",
+  "first_page_order": 1018,
+  "last_page_order": 1018
+}

@@ -1,0 +1,59 @@
+{
+  "id": 6018359,
+  "name": "Flippo v. McBride, Warden",
+  "name_abbreviation": "Flippo v. McBride",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-7793",
+  "first_page": "1227",
+  "last_page": "1227",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1227"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.653,
+    "sha256": "44af01a0f23a0453cef7e16a3f43d151d972a42a3ad1c4340c51e95ab8a36395",
+    "simhash": "1:36860af0aa4fb05f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Flippo v. McBride, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7793.\nFlippo v. McBride, Warden."
+  },
+  "file_name": "1227-02",
+  "first_page_order": 1249,
+  "last_page_order": 1249
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12242666,
+  "name": "Bruns v. United States",
+  "name_abbreviation": "Bruns v. United States",
+  "decision_date": "2012-01-17",
+  "docket_number": "No. 11-5858",
+  "first_page": "1159",
+  "last_page": "1159",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1159"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.7,
+    "sha256": "78bcd820bc2c452eb2ba2be6c2ec17072f2b3ed4e07fd4bac6c64952ebd02924",
+    "simhash": "1:c5ab9721061e8160",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bruns v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. D. C. Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5858.\nBruns v. United States."
+  },
+  "file_name": "1159-10",
+  "first_page_order": 1241,
+  "last_page_order": 1241
+}

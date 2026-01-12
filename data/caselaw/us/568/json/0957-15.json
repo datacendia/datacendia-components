@@ -1,0 +1,59 @@
+{
+  "id": 12419114,
+  "name": "Rodriguez-Favela v. United States",
+  "name_abbreviation": "Rodriguez-Favela v. United States",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-6180",
+  "first_page": "957",
+  "last_page": "957",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 957"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 82,
+    "ocr_confidence": 0.653,
+    "sha256": "9fe2c051353fb9a8d79213342d6142ef50641dac9d0c8e358967df4a72bbca51",
+    "simhash": "1:072ac382499c984e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rodriguez-Favela v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6180.\nRodriguez-Favela v. United States."
+  },
+  "file_name": "0957-15",
+  "first_page_order": 1033,
+  "last_page_order": 1033
+}

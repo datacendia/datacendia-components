@@ -1,0 +1,59 @@
+{
+  "id": 12205339,
+  "name": "Fisher v. Holinka, Warden",
+  "name_abbreviation": "Fisher v. Holinka",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10761",
+  "first_page": "848",
+  "last_page": "848",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 848"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.647,
+    "sha256": "53bbc055912e02a05591a84687377393fa909667c3f02cf4f541150595e1ecfd",
+    "simhash": "1:264b52bbbf535aa7",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Fisher v. Holinka, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10761.\nFisher v. Holinka, Warden."
+  },
+  "file_name": "0848-08",
+  "first_page_order": 930,
+  "last_page_order": 930
+}

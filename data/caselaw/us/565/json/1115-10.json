@@ -1,0 +1,59 @@
+{
+  "id": 12239424,
+  "name": "Manning v. Illinois",
+  "name_abbreviation": "Manning v. Illinois",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-5006",
+  "first_page": "1115",
+  "last_page": "1115",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1115"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 67,
+    "ocr_confidence": 0.718,
+    "sha256": "5618e630072fb345d30deff8e33166b7ced4f547b8ad1dadfe6b8b20eaa92e92",
+    "simhash": "1:b172d51f0ad2d721",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Manning v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ill. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5006.\nManning v. Illinois."
+  },
+  "file_name": "1115-10",
+  "first_page_order": 1197,
+  "last_page_order": 1197
+}

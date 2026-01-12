@@ -1,0 +1,59 @@
+{
+  "id": 12429744,
+  "name": "Wiggins v. United States",
+  "name_abbreviation": "Wiggins v. United States",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-7686",
+  "first_page": "1135",
+  "last_page": "1135",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1135"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.602,
+    "sha256": "69dc0a805cc50da29b82ad4408bc823cb686c3950b1a7f915744d36492cc53e3",
+    "simhash": "1:c50bd60a2e3f9c06",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wiggins v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7686.\nWiggins v. United States."
+  },
+  "file_name": "1135-15",
+  "first_page_order": 1211,
+  "last_page_order": 1211
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12418572,
+  "name": "DeWitt v. District of Columbia et al.",
+  "name_abbreviation": "DeWitt v. District of Columbia",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-5835",
+  "first_page": "951",
+  "last_page": "951",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 951"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 85,
+    "ocr_confidence": 0.619,
+    "sha256": "29a25e4eb5e216afe0b4ce50dff24177074c9add977eda55bae89b6b033f32a4",
+    "simhash": "1:605b44581a208756",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "DeWitt v. District of Columbia et al."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. D. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5835.\nDeWitt v. District of Columbia et al."
+  },
+  "file_name": "0951-12",
+  "first_page_order": 1027,
+  "last_page_order": 1027
+}

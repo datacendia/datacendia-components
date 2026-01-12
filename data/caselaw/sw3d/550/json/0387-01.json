@@ -1,0 +1,802 @@
+{
+  "id": 12656871,
+  "name": "Edward Darnell ROGERS, Appellant v. STATE of Arkansas, Appellee",
+  "name_abbreviation": "Rogers v. State",
+  "decision_date": "2018-07-12",
+  "docket_number": "No. CR-17-916",
+  "first_page": "387",
+  "last_page": "399",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "550 S.W.3d 387"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Ark.",
+    "id": 8808,
+    "name": "Arkansas Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 34,
+    "name_long": "Arkansas",
+    "name": "Ark."
+  },
+  "cites_to": [
+    {
+      "cite": "362 Ark. 408",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        3558824
+      ],
+      "weight": 2,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "409"
+        },
+        {
+          "page": "760"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/362/0408-01"
+      ]
+    },
+    {
+      "cite": "426 S.W.3d 900",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6948125,
+        6948062
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "905"
+        },
+        {
+          "page": "905"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/426/0900-01",
+        "/sw3d/426/0868-01"
+      ]
+    },
+    {
+      "cite": "2013 Ark. 163",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        6948125
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "9"
+        },
+        {
+          "page": "9"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/426/0900-01"
+      ]
+    },
+    {
+      "cite": "368 Ark. 87",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        3799116
+      ],
+      "weight": 4,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "91",
+          "parenthetical": "finding harmless error when the court erroneously allowed a child-abuse expert to testify as to the victim's credibility in a rape trial"
+        },
+        {
+          "page": "303-04",
+          "parenthetical": "finding harmless error when the court erroneously allowed a child-abuse expert to testify as to the victim's credibility in a rape trial"
+        },
+        {
+          "page": "91"
+        },
+        {
+          "page": "303"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/368/0087-01"
+      ]
+    },
+    {
+      "cite": "2009 Ark. 389",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        7321505
+      ],
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "21"
+        },
+        {
+          "page": "384"
+        },
+        {
+          "page": "20"
+        },
+        {
+          "page": "383"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/327/0373-01"
+      ]
+    },
+    {
+      "cite": "2014 Ark. 110",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        6944851
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "8"
+        },
+        {
+          "page": "899"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/431/0895-01"
+      ]
+    },
+    {
+      "cite": "2014 Ark. 433",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        6910242
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "5"
+        },
+        {
+          "page": "866"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/444/0863-01"
+      ]
+    },
+    {
+      "cite": "293 Ark. 342",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1869807
+      ],
+      "weight": 2,
+      "year": 1987,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/293/0342-01"
+      ]
+    },
+    {
+      "cite": "347 Ark. 826",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        683307
+      ],
+      "weight": 2,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "parenthetical": "citing congressional commentary to Fed. R. Evid. 609(a), which is identical to our rule"
+        },
+        {
+          "parenthetical": "citing congressional commentary to Fed. R. Evid. 609(a), which is identical to our rule"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/347/0826-01"
+      ]
+    },
+    {
+      "cite": "267 Ark. 278",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1719810
+      ],
+      "weight": 2,
+      "year": 1979,
+      "pin_cites": [
+        {
+          "parenthetical": "holding that convictions for larceny and burglary were indicative of dishonesty under Rule 609(a) "
+        },
+        {
+          "parenthetical": "holding that convictions for larceny and burglary were indicative of dishonesty under Rule 609(a) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/267/0278-01"
+      ]
+    },
+    {
+      "cite": "274 Ark. 162",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1754958
+      ],
+      "weight": 2,
+      "year": 1981,
+      "pin_cites": [
+        {
+          "parenthetical": "stating that prior convictions for theft, grand larceny, and forgery all involved dishonesty"
+        },
+        {
+          "parenthetical": "stating that prior convictions for theft, grand larceny, and forgery all involved dishonesty"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/274/0162-01"
+      ]
+    },
+    {
+      "cite": "278 Ark. 86",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1748221
+      ],
+      "weight": 2,
+      "year": 1982,
+      "pin_cites": [
+        {
+          "parenthetical": "holding that conviction for theft was admissible for impeachment because it is a crime of dishonesty"
+        },
+        {
+          "parenthetical": "holding that conviction for theft was admissible for impeachment because it is a crime of dishonesty"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/278/0086-01"
+      ]
+    },
+    {
+      "cite": "284 Ark. 206",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1878575
+      ],
+      "weight": 2,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "parenthetical": "stating that grand larceny involves dishonesty"
+        },
+        {
+          "parenthetical": "stating that grand larceny involves dishonesty"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/284/0206-01"
+      ]
+    },
+    {
+      "cite": "Ark. Code Ann. \u00a7 5-36-103",
+      "category": "laws:leg_statute",
+      "reporter": "Ark. Code Ann.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2010 Ark. 398",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        7314247
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/370/0250-01"
+      ]
+    },
+    {
+      "cite": "2013 Ark. 221",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        6960044
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/427/0663-01"
+      ]
+    },
+    {
+      "cite": "357 Ark. 43",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        5403926
+      ],
+      "weight": 2,
+      "year": 2004,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/357/0043-01"
+      ]
+    },
+    {
+      "cite": "356 Ark. 516",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        5369181
+      ],
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "525"
+        },
+        {
+          "page": "187"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/356/0516-01"
+      ]
+    },
+    {
+      "cite": "2014 Ark. 239",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        6935568
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "3"
+        },
+        {
+          "page": "893"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/434/0889-01"
+      ]
+    },
+    {
+      "cite": "2017 Ark. 204",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        12382798
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/520/0670-01"
+      ]
+    },
+    {
+      "cite": "2017 Ark. App. 521",
+      "category": "reporters:state",
+      "reporter": "Ark. App.",
+      "case_ids": [
+        12408340
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/536/0128-01"
+      ]
+    },
+    {
+      "cite": "276 Ark. 203",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1751554
+      ],
+      "weight": 4,
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "210"
+        },
+        {
+          "page": "111"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ark/276/0203-01"
+      ]
+    },
+    {
+      "cite": "27 Ark. App. 49",
+      "category": "reporters:state",
+      "reporter": "Ark. App.",
+      "case_ids": [
+        6136911
+      ],
+      "weight": 6,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "52"
+        },
+        {
+          "page": "24"
+        },
+        {
+          "page": "53"
+        },
+        {
+          "page": "24"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ark-app/27/0049-01"
+      ]
+    },
+    {
+      "cite": "267 Ark. 278",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1719810
+      ],
+      "weight": 5,
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "288-89"
+        },
+        {
+          "page": "859"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ark/267/0278-01"
+      ]
+    },
+    {
+      "cite": "Ark. Code Ann. \u00a7 5-36-103",
+      "category": "laws:leg_statute",
+      "reporter": "Ark. Code Ann.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "2016 Ark. 7",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        6820358
+      ],
+      "weight": 2,
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw3d/479/0001-01"
+      ]
+    },
+    {
+      "cite": "415 U.S. 308",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6174956
+      ],
+      "weight": 8,
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "315-316"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/415/0308-01"
+      ]
+    },
+    {
+      "cite": "480 U.S. 39",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1131144
+      ],
+      "weight": 3,
+      "year": 1987,
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/480/0039-01"
+      ]
+    },
+    {
+      "cite": "474 U.S. 15",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6196542
+      ],
+      "weight": 3,
+      "year": 1985,
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/474/0015-01"
+      ]
+    },
+    {
+      "cite": "475 U.S. 673",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6207521
+      ],
+      "weight": 5,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "684"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/475/0673-01"
+      ]
+    },
+    {
+      "cite": "131 Harv. L. Rev. 2117",
+      "category": "journals:journal",
+      "reporter": "Harv. L. Rev.",
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "2125"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "362 Ark. 408",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        3558824
+      ],
+      "weight": 5,
+      "year": 2005,
+      "opinion_index": 2,
+      "case_paths": [
+        "/ark/362/0408-01"
+      ]
+    },
+    {
+      "cite": "426 S.W.3d 900",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6948125,
+        6948062
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "905"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw3d/426/0900-01",
+        "/sw3d/426/0868-01"
+      ]
+    },
+    {
+      "cite": "2013 Ark. 163",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        6948125
+      ],
+      "weight": 2,
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw3d/426/0900-01"
+      ]
+    },
+    {
+      "cite": "2009 Ark. 389",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        7321505
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "20"
+        },
+        {
+          "page": "383"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw3d/327/0373-01"
+      ]
+    },
+    {
+      "cite": "2014 Ark. 110",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        6944851
+      ],
+      "pin_cites": [
+        {
+          "page": "899"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw3d/431/0895-01"
+      ]
+    },
+    {
+      "cite": "2014 Ark. 433",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        6910242
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "4-5"
+        },
+        {
+          "page": "865-66"
+        },
+        {
+          "page": "7-8"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw3d/444/0863-01"
+      ]
+    },
+    {
+      "cite": "293 Ark. 342",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1869807
+      ],
+      "weight": 9,
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "343-44"
+        },
+        {
+          "page": "393-94"
+        },
+        {
+          "page": "344"
+        },
+        {
+          "page": "394"
+        },
+        {
+          "page": "350-51"
+        },
+        {
+          "page": "395"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/ark/293/0342-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1522,
+    "char_count": 42083,
+    "pagerank": {
+      "raw": 5.3683675466506657e-08,
+      "percentile": 0.33679260837214836
+    },
+    "sha256": "4c7f1e842349d86c44b4536944b232769e0c2e10538b9801ea1db19d4f9b98f3",
+    "simhash": "1:7ecacb26e509c29a",
+    "word_count": 6797
+  },
+  "last_updated": "2024-02-27T16:16:05.631967+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Edward Darnell ROGERS, Appellant\nv.\nSTATE of Arkansas, Appellee"
+    ],
+    "opinions": [
+      {
+        "text": "RHONDA K. WOOD, Associate Justice\nA Pulaski County jury convicted Edward Rogers of three counts of rape. On appeal, he challenges the sufficiency of the evidence, and he alleges the circuit court erroneously prohibited him from cross-examining one of the victims about her misdemeanor conviction for theft of property. We hold that the State presented evidence sufficient to convict Rogers of all three rapes. However, we find that the circuit court erred when it precluded Rogers's cross-examination of one victim's prior conviction. Nevertheless, we affirm because this error was harmless.\nI. Facts\nThe State charged Rogers with the rape of four sisters, TB, MiB, MaB, and LW, who were all under eighteen at the time of the alleged offenses. For years, Rogers, who had a romantic relationship with their mother, lived with the girls. At trial, each sister testified about their specific sexual contacts with Rogers.\nFirst, TB and MiB, seventeen-year-old twins, testified that Rogers acted like a father to them and that they called him \"Daddy.\" They had known him since he began dating their mother when they were approximately five years old. At trial, they described how Rogers had raped them separately when they were thirteen, and they detailed his continued sexual contact with them. Both girls explained that the sexual contact primarily occurred when he had them alone, usually on a blow-up mattress, on the couch in the living room, or in his car. TB testified that Rogers used a \"gold condom.\" She also testified that she witnessed Rogers sexually abusing her three sisters. MiB ultimately told her mother about the rape. MiB had behavioral problems and had run away from home. She told her mother that the reason for her behavior was that Rogers had raped her and her sisters.\nMaB was sixteen years old at the time of trial. She testified that Rogers first touched her inappropriately when she was twelve years old in their living room. A few days later, when no one else was home, he raped her. She testified that he had used a condom with a gold wrapper. MaB testified that Rogers had raped her at least five times, either in the living room, her bedroom, or in his car. She also testified that she had loved Rogers and called him \"Daddy\" prior to the abuse.\nThe oldest sister, LW, was twenty-one years old at the time of trial. She also testified that she thought of Rogers as a father. She stated that when she was fourteen, Rogers raped her in her bedroom after school when no one else was home. Approximately one month later, he raped her again on the couch in the living room. LW testified that in total, Rogers had raped her five or six times. All four sisters testified that Rogers insinuated their mother would be harmed if they told her, and three of the sisters testified that Rogers threatened to kill himself should they inform their mother of his conduct.\nThe girls' mother also testified at Rogers's trial. She stated that Rogers was heavily involved in caring for the girls and that he acted as a father. In 2013, MiB told her that Rogers had touched MiB and TB inappropriately. At that time, neither of the girls disclosed that they had been raped. When the mother confronted Rogers, he told her that he had made a mistake and that it would not happen again. He moved out of the house, but the family continued to have contact with him. In November 2014, MiB disclosed to her mother that Rogers had raped her and her sisters. The mother stated that she talked to each of the girls individually and that they all confirmed the abuse. She again confronted Rogers. He told her that he had been abused as a boy, and he threatened to commit suicide. Although the mother admitted that the family struggled financially after Rogers moved out, she denied having encouraged her daughters to fabricate the allegations.\nRogers testified in his defense. He stated that he was the girls' father figure, but he denied ever touching them inappropriately. Rogers claimed that the mother had the girls manufacture the rape charges because she was mad at him.\nA jury convicted Rogers of the rapes of MaB, MiB, and LW. The jury acquitted him of the rape of TB. He was sentenced to forty years' imprisonment for the rape of MaB and to two twenty-year terms of imprisonment for the rapes of MiB and LW. The jury recommended that the sentences run concurrently, and the circuit court accepted that recommendation. Rogers appealed to the court of appeals, and it reversed. Rogers v. State , 2017 Ark. App. 521, 536 S.W.3d 128. The State filed a petition for review, and we accepted review under Rule 1-2(e) of the Rules of the Arkansas Supreme Court. On review, we treat the case as if it had been originally filed in our court. Kilgore v. Mullenax , 2017 Ark. 204, 520 S.W.3d 670.\nII. Sufficiency of the Evidence\nRogers's first point on appeal challenges the sufficiency of the evidence. He contends that the victims were not credible and that the prosecution presented no physical evidence of rape. The test for determining the sufficiency of the evidence is \"whether the verdict is supported by substantial evidence, direct or circumstantial.\" Jeffries v. State , 2014 Ark. 239, 3, 434 S.W.3d 889, 893. We view the evidence in the light most favorable to the verdict, only considering that evidence which supports the verdict. Id. Testimony of a rape victim alone constitutes sufficient evidence to support a conviction. Hanlin v. State , 356 Ark. 516, 525, 157 S.W.3d 181, 187 (2004).\nAt Rogers's trial, all three sisters of whom he was convicted of raping testified that Rogers had sexual intercourse with them when they were minors. Specifically, MaB testified that Rogers began touching her inappropriately when she was twelve years old and had sexual intercourse with her just days after her thirteenth birthday. MiB testified that Rogers had forced sexual contact with her when she was thirteen, and later had sexual intercourse with her on several occasions. Finally, LW testified that she was fourteen years old when Rogers first raped her and that it occurred repeatedly.\nHere, each victim's testimony, in isolation, constitutes sufficient evidence to support the corresponding conviction. However, in this case, there was more evidence than just the victims' isolated testimony. Rogers exhibited similar behaviors in each rape. Indeed, all four girls were roughly the same age when Rogers began sexually abusing them. Two of the four girls testified that Rogers used a gold condom during intercourse. Two of the girls testified that Rogers drove them to a dead-end street to have intercourse in the back of his car. All four girls shared similar sexual encounters with Rogers in their family living room, and each girl testified that Rogers instructed them not to tell their mother what he had done. Three of the girls testified that Rogers threatened to \"kill himself\" if they told.\nMoreover, all three convictions are corroborated by eyewitness testimony. MaB testified that Rogers performed oral sex on her and MiB while they laid in the same bed. MiB testified to witnessing Rogers engage in penetrative intercourse with MaB. TB, the fourth sister, witnessed Rogers engaging in oral sex on MaB, having intercourse with MiB, and testified to watching a video of Rogers having intercourse with LW.\nViewing all the evidence in the light most favorable to the verdict, and only considering evidence which supports the verdict, we hold that Rogers's conviction is supported by substantial evidence.\nIII. Cross-Examination on Theft of Property Conviction\nRogers next argues that the circuit court erred in prohibiting his counsel from cross-examining LW about her misdemeanor conviction for theft of property under Arkansas Rule of Evidence 609(a) (2017) which provides that\n[f]or the purpose of attacking the credibility of a witness, evidence that he has been convicted of a crime shall be admitted but only if the crime (1) was punishable by death or imprisonment in excess of one [1] year under the law under which he was convicted, and the court determines that the probative value of admitting this evidence outweighs its prejudicial effect to a party or a witness, or (2) involved dishonesty or false statement, regardless of the punishment.\nThe admission or rejection of evidence is left to the sound discretion of the circuit court, and we will not reverse absent an abuse of discretion. Benson v. State , 357 Ark. 43, 160 S.W.3d 341 (2004).\nDuring the cross-examination of LW, Roger's counsel approached the bench and explained that he intended to impeach LW. At that time, the following colloquy occurred:\nDEFENSE COUNSEL : She has a misdemeanor conviction out of 2014 for theft of property. Before I impeach her for that, I want to make sure are y'all objecting on that?\nPROSECUTOR : Yes. It's a misdemeanor, and it's over-I mean, it's over a year old.\nDEFENSE COUNSEL : It's a misdemeanor, but it's in the matter that deals with truthfulness.\nPROSECUTOR : Actually theft is not. If it was a forgery, or filing a false police report or something like that.\nCOURT : I agree.\nRogers argues this ruling was an abuse of discretion because a conviction of theft of property is a crime involving dishonesty and is therefore always admissible under Rule 609(a). In response, the State argues that the issue is not preserved because Rogers failed to proffer the facts underlying the conviction and failed to establish that the theft involved \"dishonesty or false statement.\" We conclude that the circuit court erred.\nThis court has consistently held that theft crimes involve dishonesty, regardless of the facts underlying the particular offense. See, e.g. , State v. Cassell , 2013 Ark. 221, 427 S.W.3d 663 (stating that the crime was infamous because it was a theft offense, which involves dishonesty); Edwards v. Campbell , 2010 Ark. 398, 370 S.W.3d 250 (holding that misdemeanor theft of property, as defined in Ark. Code Ann. \u00a7 5-36-103(a), is a crime of dishonesty); Webster v. State , 284 Ark. 206, 680 S.W.2d 906 (1984) (stating that grand larceny involves dishonesty); Floyd v. State , 278 Ark. 86, 643 S.W.2d 555 (1982) (holding that conviction for theft was admissible for impeachment because it is a crime of dishonesty); James v. State , 274 Ark. 162, 622 S.W.2d 669 (1981) (stating that prior convictions for theft, grand larceny, and forgery all involved dishonesty); Gustafson v. State , 267 Ark. 278, 590 S.W.2d 853 (1979) (holding that convictions for larceny and burglary were indicative of dishonesty under Rule 609(a) ). Further, under Rule 609(a)(2), when considering the admissibility of a crime involving dishonesty, courts are not required to compare the weight of the probative value to the prejudicial effect, and we have held that these crimes are automatically admissible. Wal-Mart Stores, Inc. v. Regions Bank Tr. Dep't , 347 Ark. 826, 69 S.W.3d 20 (2002) (citing congressional commentary to Fed. R. Evid. 609(a), which is identical to our rule).\nHere, Rogers sought to impeach LW with her prior misdemeanor-theft conviction. Because this court holds that theft crimes involve dishonesty and are automatically admissible pursuant to Rule 609(a), it was unnecessary for Rogers to proffer the factual circumstances underlying the conviction. See Edwards , 2010 Ark. 398, 370 S.W.3d 250. Accordingly, not only is this issue preserved for our review, but we conclude that the circuit court abused its discretion by refusing to admit this evidence under Rule 609(a).\nHowever, our analysis does not end there. After we determine that a defendant was denied the opportunity to impeach a witness's credibility, we must next consider whether that error was harmless. Winfrey v. State , 293 Ark. 342, 738 S.W.2d 391 (1987). This court has previously found harmless error in rape-conviction appeals. Pigg v. State , 2014 Ark. 433, at 5, 444 S.W.3d 863, 866 (holding on appeal that the court need not determine whether it was error to deny defendant the opportunity to question the victim's credibility when the alleged error would be harmless); Johnston v. State , 2014 Ark. 110, at 8, 431 S.W.3d 895, 899 (holding that erroneous admission of incestuous and pornographic pictures was harmless error in a rape conviction); Kelley v. State , 2009 Ark. 389, at 21, 327 S.W.3d 373, 384 (determining error was harmless in admitting two prior convictions involving indecency with a minor in a rape conviction); Buford v. State , 368 Ark. 87, 91, 243 S.W.3d 300, 303-04 (2006) (finding harmless error when the court erroneously allowed a child-abuse expert to testify as to the victim's credibility in a rape trial). But see Scamardo v. State , 2013 Ark. 163, at 9, 426 S.W.3d 900, 905 (denying a harmless-error argument when the circuit court refused to allow questioning regarding the victim's inconsistent statement as to whether the rape occurred). Here, the circuit court's error fits the harmless-error mold.\nAn error is harmless when the evidence of guilt is overwhelming and the error is slight. Scamardo , 2013 Ark. 163, at 9, 426 S.W.3d at 905. In Buford , the court found evidence of guilt overwhelming when the trial testimony included graphic detail of the rape, the victim testified to the rape, and another witness testified to witnessing the rape. Buford , 368 Ark. at 91, 243 S.W.3d at 303. Here, the evidence that Rogers raped LW is overwhelming. LW testified in specific detail to multiple occurrences of rape. TB testified that she observed a video of Rogers engaged in sex with LW. Moreover, all four victims described what this court emphasized in Kelley when affirming for harmless error as \"remarkably similar conduct on the part of [the defendant].\" Kelley , 2009 Ark. 389, at 20, 327 S.W.3d at 383. The girls similarly described their sexual encounters with Rogers, including the color of the condom, the dead-end road where he took two of them, and Rogers's suicide threats.\nAdditionally, if Rogers experienced any prejudice, it was slight. Whether an error is slight hinges on the degree to which the defendant was prejudiced. Id. The proposed impeachment testimony of LW, unlike the victim's testimony in Scamardo , did not directly relate to the allegation at hand. Thus, although there was error, it was harmless.\nAffirmed; court of appeals decision vacated.\nWomack, J., concurs.\nKemp, C.J., and Baker and Hart, JJ., dissent.\nOn appeal, Rogers did not make a confrontation-clause argument under the Sixth Amendment, nor did he make that challenge at trial. This court will not address an argument, even a Sixth Amendment constitutional one, that has not been preserved. Roston v. State , 362 Ark. 408, 409, 208 S.W.3d 759, 760 (2005). His argument is limited to the admissibility under Rule 609.",
+        "type": "majority",
+        "author": "RHONDA K. WOOD, Associate Justice"
+      },
+      {
+        "text": "Shawn A. Womack, Justice, concurring.\nI join the majority opinion in full. It faithfully applies this court's established precedent that theft of property is a crime necessarily \"involv[ing] dishonesty or false statement\" for the purposes of Arkansas Rule of Evidence 609(a)(2). Further, the majority correctly determines that any error made by the trial court related to that issue was harmless in this case. I write separately to suggest that this court's classification of theft as a crime of dishonesty per se, longstanding though it may be, rests on thin reasoning and merits reexamination.\nThis court's current classification of theft of property goes back nearly four decades to Gustafson v. State , 267 Ark. 278, 590 S.W.2d 853 (1979). There, the court acknowledged that elements of Arkansas Rules of Evidence 608 and 609 are concerned with the distinction between crimes that involve dishonesty per se (e.g., \"forgery, perjury, bribery, false pretense and embezzlement\") and crimes that do not involve dishonesty per se (e.g., \"murder, manslaughter or assault\"). Id. at 288-89, 590 S.W.2d at 859. So far, so good. Without analysis, however, the court then reached the abrupt conclusion that \"theft, as it is defined in the Arkansas Criminal Code, involves dishonesty.\" Id.\nThen, just as now, the theft statute did not obviously support such a blanket conclusion. The current theft statute has remained substantively identical to the version cited in Gustafson. It identifies two methods of committing theft of property: \"(1) tak[ing] or exercis[ing] unauthorized control over or mak[ing] an unauthorized transfer of an interest in the property of another person with the purpose of depriving the owner of the property; or (2) obtain[ing] the property of another person by deception or by threat with the purpose of depriving the owner of the property.\" Ark. Code Ann. \u00a7 5-36-103(a) (Repl. 2013). While the second method clearly concerns conduct that is dishonest per se, it is not at all clear that the first does. Consistently treating the first as the second, as we seem to do with theft, would require allowing the exception contained in 609(a)(2) to swallow the rule. The General Assembly's inclusion of deception as an element of the crime in section (2) while excluding it from section (1) should not be ignored. Furthermore, common sense tells us that there are many ways to commit theft that do not involve dishonesty in any direct way. For instance, the ne'er-do-well who snatches grandma's purse has behaved dishonorably , but not necessarily dishonestly.\nReviewing the typical application of Rule 609(a)(2), it becomes apparent that our treatment of theft is the outlier. West v. State , 27 Ark. App. 49, 766 S.W.2d 22 (1989), provides a useful example. The court of appeals noted that the offense at issue in that case-hindering apprehension-\"may be committed in six different ways\" of which \"[o]nly one involves giving false information.\" Id. at 52, 766 S.W.2d at 24. Because only some instances of hindering apprehension would fall into the Rule 609(a)(2) exception, the party seeking to use the conviction for impeachment purposes was required to make an \"offer of proof as to the factual circumstances involved\" in the offense. Id. at 53, 766 S.W.2d at 24. We should consider whether attempts to impeach witnesses with testimony about their theft convictions should require this same minimal factual development. Rule 609(a)(2) is a cabined exception. It does away with both the severity requirements and the balancing of probative value against prejudicial effect typically required to admit convictions for impeachment purposes under Rule 609(a)(1). If a conviction falls under Rule 609(a)(2), it is automatically admissible to impeach credibility; this more permissive standard can be justified only if those convictions genuinely concern the witness's honesty.\nFinally, I note that this court has accounted for the concerns I highlight above in its jurisprudence on Arkansas Rule of Evidence 608(b), creating a puzzling tension between two consecutive rules. Rule 608(b) concerns the introduction of instances of conduct \"other than conviction of crime as provided in Rule 609\" to demonstrate a witness's \"character for truthfulness or untruthfulness.\" In Rhodes v. State , 276 Ark. 203, 634 S.W.2d 107 (1982), and subsequent cases, we have expressly limited Gustafson 's reach in the Rule 608(b) context. In Rhodes , we prohibited the introduction of past instances of shoplifting that did not result in convictions, reasoning that \"while an absence of respect for the property rights of others is an undesirable trait, it does not directly indicate an impairment of the trait of truthfulness.\" Id. at 210, 634 S.W.2d at 111. This results in an uneasy status quo. Theft resulting in a conviction is treated as per se dishonest, and it is therefore admissible under Rule 609(a). Acts of theft not resulting in conviction are not considered probative of truthfulness, and they are therefore not admissible under Rule 608(b). Clever lawyering might construct a compelling difference between truthfulness and honesty, but the apparent strain is more than a plain reading of the rules can comfortably bear.\nBecause of the sparse development of this issue below and the results of the harmless-error analysis, I am reluctant to use this case as a vehicle to revise our longstanding categorization of theft of property as a crime necessarily involving dishonesty. I believe that the brief discussion above, however, indicates that our case law in this area deserves careful reexamination upon the arrival of an appropriate opportunity.",
+        "type": "concurrence",
+        "author": "Shawn A. Womack, Justice, concurring."
+      },
+      {
+        "text": "Karen R. Baker, Justice, dissenting.\nBecause Rogers was prejudiced by the circuit court's erroneous ruling in refusing to allow Rogers to impeach LW with her prior theft conviction, I dissent from the majority opinion and would reverse and remand the matter for a new trial. Here, the majority holds that the circuit court's ruling was harmless because the evidence of guilt was overwhelming:\n[T]he circuit court's error fits the harmless-error mold.... Here, the evidence that Rogers raped LW is overwhelming. LW testified in specific detail to multiple occurrences of rape. TB testified that she observed a video of Rogers engaged in sex with LW. Moreover, all four victims described what this court emphasized in Kelley when affirming for harmless error as \"remarkably similar conduct on the part of [the defendant].\" Kelley , 2009 Ark. 389, at 20, 327 S.W.3d at 383. The girls similarly described their sexual encounters with Rogers, including the color of the condom, the dead-end road where he took two of them, and Rogers's suicide threats.\nAdditionally, if Rogers experienced any prejudice, it was slight. Whether an error is slight hinges on the degree to which the defendant was prejudiced. Id. The proposed impeachment testimony of LW, unlike the victim's testimony in Scamardo , did not directly relate to the allegation at hand. Thus, although there was error, it was harmless.\nThis position is not supported by the record. The State's case in this matter hinged upon one thing-the credibility of the victims, including LW. There is no other evidence in this case. Simply put, it was a \"he said she said\" battle between Rogers, his family and neighbors on one side and the victims and their mother on the other. Yet, the majority holds that the evidence is overwhelming as to Rogers's guilt even though Rogers was erroneously prevented from impeaching LW with her prior theft conviction. The impeachment evidence Rogers sought to introduce concerning LW directly relates to her credibility and LW's credibility was critical to the question before the jury. Therefore, to say that either the error was slight or that the evidence was overwhelming is simply wrong.\nFurther, the error cannot be slight because the circuit court's ruling tainted the entire trial. The circumstances of this case and the testimony of the victims are intertwined as is demonstrated by the record. Rogers's defense was based on the premise that the four girls, along with Bryant, had conspired to concoct their rape allegations against him. He claimed that they had hatched the plan and made up the charges to get even with him for moving out of the home and ending the relationship with Bryant. In the State's closing argument, the State acknowledged the defense's theory of the case when the prosecutor stated: \"The Defendant wants you to believe the victims colluded and planned their stories in order to frame him because [Bryant] was mad.\" Because all of the girls' allegations were intertwined, the circuit court's error in excluding the evidence cannot be considered slight, this particularly true since the only evidence to support Rogers's conviction was the victims' testimony. Thus, the victims' credibility was presumably a major consideration for the jury. See Scamardo v. State , 2013 Ark. 163, 426 S.W.3d 900. Therefore, the error was not harmless. Finally, I must note that in holding the error here was harmless, the majority seems to expand the breadth of harmless error and avoid addressing the constitutional violations. The \"harmless error doctrine has been called a '[c]onstitutional [s]neak [t]hief' for the way it enables courts to take away with one hand what they have given with the other.... Recognizing that harmless error is inexorably tied up with the way constitutional rights are defined makes visible how judges can deploy harmless error doctrine to expand, contract, or even eliminate constitutional rights. And thus it avoids sweeping difficult normative questions under the rug.\" Daniel Epps, Harmless Errors and Substantial Rights , 131 Harv. L. Rev. 2117, 2125 (2018).\nKemp, C.J., and Hart, J., join.\nJosephine Linker Hart, Justice, dissenting.\nThe majority's decision to excuse the circuit court's erroneous evidentiary ruling as \"harmless\" is not grounded in either law or fact. It ignores clear precedent from the Supreme Court of the United States that this court is required to follow. Further, the decision is unsupported by the very cases that it claims to rely on, and it fails to consider all of the evidence in arriving at its remarkable conclusion that the evidence was \"overwhelming.\" Mr. Rogers was denied a fair trial and proper consideration of his appeal.\nDenying Mr. Rogers his right to use LW's conviction for a crime involving dishonesty impaired his rights under the Confrontation Clause to fully challenge her credibility. The State presented no corroborating physical or scientific evidence. Accordingly, the issue of whether a complaining witness was credible was of pivotal importance in this case.\nI am mindful that the Supreme Court has not foreclosed finding harmless error in cases such as the one before us where a criminal defendant was denied his full right of cross-examination. In Delaware v. Van Arsdall , 475 U.S. 673, 106 S.Ct. 1431, 89 L.Ed.2d 674 (1986), the Supreme Court rejected a per se reversal rule in cases where a criminal defendant was denied an opportunity to impeach a witness. The Van Arsdall Court held that a reviewing court could find that the error was harmless beyond a reasonable doubt based on a review of factors that include\nthe importance of the witness' testimony in the prosecution's case, whether the testimony was cumulative, the presence or absence of evidence corroborating or contradicting the testimony of the witness on material points, the extent of cross-examination otherwise permitted, and, of course, the overall strength of the prosecution's case.\n475 U.S. at 684, 106 S.Ct. 1431. However, the majority has not undertaken this analysis. This court is bound by the law to follow and apply Supreme Court precedent.\nHad the majority faithfully undertaken its duty to apply Supreme Court precedent, it could only have concluded that LW's testimony was crucially important-without her testimony, the State could not have presented evidence regarding all the elements of the charges that involved Mr. Rogers's alleged sexual conduct with her. As previously mentioned, there was no physical or scientific evidence to corroborate LW's testimony.\nFurther, there were significant conflicts and inconsistencies in the testimony. For instance, TB testified that she saw a video of Mr. Rogers having sex with LW, yet LW did not mention any videotaping. Finally, regarding the strength of the State's case, the testimony was weak, uncorroborated, lacking in significant detail, and substantially different from the reports that the witnesses made to police. Significantly, the jury acquitted Mr. Rogers of the charges that involved TB; so obviously, the jury found her testimony not credible. Conversely, the defense case presented consistent proof that the alleged victims' mother, Tia Bryant, had orchestrated the accusations to punish Mr. Rogers for leaving her and breaking his promise to help support her and the girls.\nNot surprisingly, none of the cases cited by the majority actually support its decision. In Scamardo v. State , 2013 Ark. 163, 426 S.W.3d 900, this court held that an erroneous decision to exclude impeachment evidence was not harmless when \"the main evidence supporting [a] conviction was the victim's testimony,\" which makes the victim's credibility \"presumably a major consideration for the jury.\" Accordingly, the error cannot be considered \"slight.\" Id. at 9, 426 S.W.3d at 905.\nLikewise, in Winfrey v. State , 293 Ark. 342, 738 S.W.2d 391 (1987), this court refused to find harmless a circuit court's erroneous decision to prohibit a criminal defendant from using for cross-examination prior inconsistent statements by the victims. The statements were contained in reports generated by members of the prosecution's staff after they had interviewed the alleged victims, and the circuit court excluded the evidence as \"work product.\" The Winfrey court held that the circuit court erred because prosecutor work product was not privileged material that could be excluded from being used at trial and that the error was not harmless because the ruling impaired the defendant's ability to cross-examine the victims, which violated the Confrontation Clause.\nCiting Delaware v. Fensterer , 474 U.S. 15, 106 S.Ct. 292, 88 L.Ed.2d 15 (1985), Pennsylvania v. Ritchie , 480 U.S. 39, 107 S.Ct. 989, 94 L.Ed.2d 40 (1987), and Davis v. Alaska , 415 U.S. 308, 94 S.Ct. 1105, 39 L.Ed.2d 347 (1974), the Winfrey court held that an exclusion of evidence that is useful in cross-examination is an error of constitutional dimension. Winfrey , 293 Ark. at 343-44, 738 S.W.2d at 393-94. It noted further that \"the main and essential purpose of confrontation is to secure for the opponent the opportunity of cross-examination.\" Id. at 344, 738 S.W.2d at 394 (quoting Davis , 415 U.S. at 315-316, 94 S.Ct. 1105 ).\nWinfrey , like the case before us, turned on whether the jury found credible the testimony of an alleged victim. The Winfrey court analyzed the harmless-error issue as follows:\nHere, the State could not make its case without the testimony of the victims. Their credibility was the key factor in the determinations of guilt. Yet, the trial court, by ruling that appellant's attorney was prohibited from using the prior inconsistent statements for impeachment purposes, prevented appellant from questioning the witnesses' credibility. Accordingly, we cannot say the error was harmless beyond a reasonable doubt.\n293 Ark. at 350-51, 738 S.W.2d at 395. Here, as in Winfrey , the State could not make its case without LW's testimony. Denying Mr. Rogers the use of impeachment evidence was therefore not harmless.\nAmong the other cases cited by the majority, Pigg , Buford , Johnston , and Kelley , only Pigg involved the exclusion that a criminal defendant sought to have admitted. In Pigg , the defendant challenged a pretrial ruling under the rape-shield statute, so the issue is not analogous. Id. However, it is worth noting that the Pigg court did illustrate what might be considered \"overwhelming\" evidence:\n[The victim's] testimony, in detail, revealed that Pigg had sexual relations with her for five to six years beginning when she was eleven years old. Pigg's daughter and W.S. witnessed some of the sexual activity, which they described in their testimony. In addition, expert testimony disclosed that [the victim] had a deep notch in her hymen, which was suggestive of sexual abuse or penetrating trauma. Moreover, the jury heard the testimony of Pigg's niece who said that Pigg had molested her when she was eight years old.\n2014 Ark. 433, at 4-5, 444 S.W.3d at 865-66.\nFor obvious reasons, the case before us differs substantially from Pigg. As previously mentioned, Pigg involved the rape-shield statute, and the case before us is simply an obvious evidentiary error. The testimony was clear and directly corroborated in Pigg , while in the case before us the evidence is conflicting and uncorroborated. Moreover, physical evidence corroborated the rape allegations in Pigg. No physical evidence was introduced in Mr. Rogers's trial. In fact, the State's witnesses, including Detective Ashley Noel and Arkansas Children's Hospital physician Dr. Kristen Long admitted that they did not even attempt to collect physical evidence.\nNone of the remaining cases cited by the majority concerned the exclusion of impeachment evidence or the denial of the right of cross-examination regarding this evidence. Johnston , Buford , and Kelley involved evidence admitted in the State's case-in-chief that was unnecessary to prove the specific elements of the charges. The issue in those cases was whether erroneously admitted evidence was so prejudicial as to require a new trial.\nIn Johnston , the victim was raped by her father. The evidentiary error at issue was the admission of pornographic images found on Johnson's laptop computer. While all of the images were obtained from incest-themed websites, not all of the females in the images were actually minors. As in Pigg , the court did not hold that there was a clear evidentiary error, but concluded that the evidence against Johnson was \"overwhelming.\" Id. In addition to the victim's \"detailed testimony recounting the many years of rapes by her father,\" Johnson's semen that was found on the crotch area of five pairs of the victim's underwear, including the pair that she had worn home following the visitation, during which Johnson had raped her three times, a vaginal swab from the sexual-assault exam performed the next day that tested positive for sperm, and medical testimony that the child-victim had a \"major tear\" in her hymen, which was consistent with sexual abuse involving penetration, 2014 Ark. 433, at 7-8, 431 S.W.3d at 899. Conversely, in Mr. Rogers's trial, the State introduced no physical or scientific evidence whatsoever.\nBuford involved a circuit court's erroneous decision to allow an \"expert\" to opine as to whether the victim was telling the truth. The Buford court found that the error was harmless because there was \"overwhelming\" evidence; the victim provided \"graphic details\" of the rape, which was independently corroborated by three witnesses who observed the rape through a window, and testimony from the arresting officer that when the defendant was found with the victim in his vehicle, he gave a false name and falsely identified the victim as his nephew. In the case before us, the only \"graphic detail\" that the majority cites as being remarkable is that Rogers allegedly used a gold-colored condom. While I must defer to the majority's conclusion that gold is an unusual color for a condom, it is not a fact worthy of judicial notice.\nFinally, in Kelley , during the guilt phase of the trial, the circuit court erroneously admitted certified copies of out-of-state convictions for sexual indecency with a child. \"Overwhelming\" evidence consisted of two victims who testified to \"remarkably similar conduct,\" and a recording of a phone call made at the jail in which the defendant tried to arrange for one of the victims to be unavailable to testify at trial. In the case before us, testimony by the alleged victims was anything but \"remarkably similar.\" For instance, all the alleged victims admitted that their statements to police were different than their trial testimony. In Mr. Rogers's case, the testimony was remarkably inconsistent. The alleged victims' trial testimony did not even match the statements that they gave to police. Additionally, the Kelley court found that the error was \"slight\" because the certified copies of the convictions would have been admissible during the penalty phase.\nNot only is the majority's decision unsupported by the law, but also the trial transcript supports even less the majority's finding that the evidence was \"overwhelming.\" As noted previously, the State introduced no physical or scientific evidence. Furthermore, the victims' testimony included few details, and accounts differed from the statements that they gave to police.\nUnlike the victims in Kelley, whose testimony was \"remarkably similar,\" the alleged victims in Mr. Rogers's case did not corroborate each other's stories. For example, the majority finds significance in TB's testimony that she viewed a video of Rogers having sex with LW. However, LW did not testify about being videoed. It is also noteworthy that the State did not produce the video at trial. Similarly, TB claimed that one morning, she heard a \"clapping noise\" and found Rogers having sex with MiB. MiB did not recall the incident in her testimony. Finally, it is significant that Rogers was acquitted of the rape of TB. If TB's testimony was worthy of belief, the jury necessarily should have convicted Rogers of raping her.\nThe other witnesses' credibility was also impugned. MiB admitted in court that she \"would lie whenever she felt like it.\" LW's testimony that Rogers was harassing her at work was contradicted by a coworker, Cleo Hackett, who testified that Rogers helped LW get her job and approached LW at work only to use her employee-discount card. Nonetheless, the jury was not allowed to know that LW had committed a crime involving dishonesty.\nFurther, it must be noted that most of the alleged sexual activity supposedly took place in a 1000-square-foot house while the alleged victims' mother occupied a room just a few feet away. Logic suggests that discovery of this activity by Tia Bryant had to approach certainty. In fact, contrary to the representations made by the majority, this circumstance was a substantial part of Mr. Rogers's factual predicate for his challenge to the sufficiency of the evidence. He asserted that because of this circumstance, the victims' testimony had to be rejected on appeal because it was \"inherently improbable, physically impossible, or so clearly unbelievable\" that reasonable minds could not accept it as worthy of belief. While this argument may not have compelled the overturning of a jury verdict, it remains part of the evidence that must be considered before concluding that the evidence of guilt was overwhelming.\nThe evidence adduced at trial also included the testimony of Tia Bryant. The defense's theory of the case was that Bryant concocted the allegations against Mr. Rogers because he had left her for another woman. It was proved that Bryant went to the North Little Rock police with her allegations only after she caught Mr. Rogers \"hugged up\" with another woman at a neighborhood barbecue. Further, much of Bryant's testimony was exposed as half-truths, evasions, and likely outright fabrications.\nMr. Rogers also testified and denied all of the allegations. His testimony was corroborated by neighbors, friends, and relatives. Bryant's testimony was not similarly corroborated and was contradicted in several important respects. Accordingly, it is disingenuous to call the evidence \"overwhelming.\"\nIt is apparent that the majority has confounded the sufficiency-of-the-evidence standard of review with what is required to establish \"overwhelming\" evidence in a harmless-error analysis. In reviewing the sufficiency of the evidence, we do not consider evidence that does not support the verdict. Conway v. State , 2016 Ark. 7, 479 S.W.3d 1. Accordingly, under the majority's reasoning, if there is substantial evidence to support a verdict, all evidentiary errors would be harmless. However, suffice it to say that reviewing a case for \"overwhelming\" evidence necessarily requires consideration of all the evidence, even evidence that does not support the verdict.\nOur system of justice depends on adversary proceedings in which both sides must be allowed to test the evidence in accordance with the limits set by our rules of evidence. When one side is prevented from fully presenting its case, we cannot have confidence in the outcome of the trial. This is not \"slight\" error. It is not disputed that the circuit court failed to follow Rule 609 of the Arkansas Rules of Evidence, and the Supreme Court of the United States has given this court clear guidance on how to conduct harmless-error review. The majority has utterly failed to follow the Supreme Court's guidance. Mr. Rogers deserves a new trial.\nI respectfully dissent.\nThe majority's footnote to the effect that Mr. Rogers argument that he was denied his right to fully cross-examine LW did not apprise the circuit court-or this court of the constitutional dimension of this error is puzzling. The right to cross-examine a witness is synonymous with the most important guarantees found in the Confrontation Clause of the Sixth Amendment. Davis v. Alaska , 415 U.S. 308, 94 S.Ct. 1105, 39 L.Ed.2d 347 (1974). Furthermore, the majority's reliance on Roston v. State , 362 Ark. 408, 208 S.W.3d 759 (2005) as support for this proposition is dubious at best. The Roston court merely held that a hearsay objection does not preserve a Confrontation-Clause argument for appeal. Id.\nThe majority should be aware of the requirements of Van Arsdall as they are recited in Roston v. State , 362 Ark. 408, 208 S.W.3d 759 (2005), a case relied on by the majority.\nAccording to the arresting officer, all of the approximately 2200 images on Johnson's computer had been downloaded in a nineteen-minute time span on June 2, 2011. Police prepared a report containing about 188 of these images watermarked with names such as \"whole family incest,\" \"dads permindaughters,\" \"home incest videos,\" \"daughterdestruction.com,\" \"tryincest.com,\" and \"incestsexcite.net.\" The arresting officer conceded that the images did not necessarily feature underage females, although many of the actors were dressed or posed in such a manner as to appear young.\nInterestingly, the majority has failed to address the sufficiency-of-the-evidence argument that Mr. Rogers actually makes. It has instead substituted its own straw-man argument, one that it can succinctly dispose of. However, because I believe that Mr. Rogers's argument is without merit, I accept the majority's disposition of this issue.",
+        "type": "dissent",
+        "author": "Karen R. Baker, Justice, dissenting."
+      }
+    ],
+    "attorneys": [
+      "Hancock Law Firm, by: Sharon Kiel, Little Rock, for appellant.",
+      "Leslie Rutledge, Att'y Gen., by: Adam Jackson, Ass't Att'y Gen., for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "Edward Darnell ROGERS, Appellant\nv.\nSTATE of Arkansas, Appellee\nNo. CR-17-916\nSupreme Court of Arkansas.\nOpinion Delivered: July 12, 2018\nHancock Law Firm, by: Sharon Kiel, Little Rock, for appellant.\nLeslie Rutledge, Att'y Gen., by: Adam Jackson, Ass't Att'y Gen., for appellee."
+  },
+  "file_name": "0387-01",
+  "first_page_order": 387,
+  "last_page_order": 399
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5943392,
+  "name": "In re Beaty",
+  "name_abbreviation": "In re Beaty",
+  "decision_date": "2011-05-25",
+  "docket_number": "No. 10-10338 (10A1137)",
+  "first_page": "1018",
+  "last_page": "1018",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1018"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 28,
+    "char_count": 208,
+    "ocr_confidence": 0.576,
+    "sha256": "9e73016516a5fef1da94c09eab62949d9dc111dd2e4b6a37dd474ed3d399ad38",
+    "simhash": "1:484daab95f110951",
+    "word_count": 34
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Beaty."
+    ],
+    "opinions": [
+      {
+        "text": "Application for stay of execution of sentence of death, presented to Justice Kennedy, and by him referred to the Court, denied. Petition for writ of habeas corpus denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10338 (10A1137).\nIn re Beaty."
+  },
+  "file_name": "1018-01",
+  "first_page_order": 1044,
+  "last_page_order": 1044
+}

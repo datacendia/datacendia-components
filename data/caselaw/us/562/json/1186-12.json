@@ -1,0 +1,59 @@
+{
+  "id": 6020616,
+  "name": "Presley v. Mississippi et al.",
+  "name_abbreviation": "Presley v. Mississippi",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-7553",
+  "first_page": "1186",
+  "last_page": "1186",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1186"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 77,
+    "ocr_confidence": 0.558,
+    "sha256": "1ba0d4f8a69bc0d8ac0c2906e4e8bd2635b93d880db7337f31aaec5c324b0955",
+    "simhash": "1:5888f1aa991db066",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Presley v. Mississippi et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7553.\nPresley v. Mississippi et al."
+  },
+  "file_name": "1186-12",
+  "first_page_order": 1208,
+  "last_page_order": 1208
+}

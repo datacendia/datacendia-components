@@ -1,0 +1,5512 @@
+[
+  {
+    "id": 23,
+    "slug": "ala",
+    "name": "Ala.",
+    "name_long": "Alabama",
+    "reporters": [
+      {
+        "id": 296,
+        "full_name": "Alabama Reports",
+        "short_name": "Ala.",
+        "start_year": 1840,
+        "end_year": 1976,
+        "harvard_hollis_id": [],
+        "slug": "ala"
+      },
+      {
+        "id": 297,
+        "full_name": "Alabama Appellate Courts Reports",
+        "short_name": "Ala. App.",
+        "start_year": 1911,
+        "end_year": 1976,
+        "harvard_hollis_id": [
+          "000120772"
+        ],
+        "slug": "ala-app"
+      },
+      {
+        "id": 581,
+        "full_name": "Minor",
+        "short_name": "Minor",
+        "start_year": 1820,
+        "end_year": 1826,
+        "harvard_hollis_id": [
+          "003113057"
+        ],
+        "slug": "minor"
+      },
+      {
+        "id": 584,
+        "full_name": "Porter",
+        "short_name": "Port.",
+        "start_year": 1834,
+        "end_year": 1839,
+        "harvard_hollis_id": [
+          "003116538"
+        ],
+        "slug": "port"
+      },
+      {
+        "id": 1027,
+        "full_name": "Southern Reporter",
+        "short_name": "So.",
+        "start_year": 1924,
+        "end_year": 1941,
+        "harvard_hollis_id": [
+          "005571596"
+        ],
+        "slug": "so"
+      },
+      {
+        "id": 1026,
+        "full_name": "Southern Reporter, Second Series",
+        "short_name": "So.2d",
+        "start_year": 1923,
+        "end_year": 2009,
+        "harvard_hollis_id": [
+          "005563868"
+        ],
+        "slug": "so2d"
+      },
+      {
+        "id": 1025,
+        "full_name": "Southern Reporter, Third Series",
+        "short_name": "So.3d",
+        "start_year": 2000,
+        "end_year": 2019,
+        "harvard_hollis_id": [],
+        "slug": "so3d"
+      },
+      {
+        "id": 582,
+        "full_name": "Stewart",
+        "short_name": "Stew.",
+        "start_year": 1827,
+        "end_year": 1831,
+        "harvard_hollis_id": [
+          "003870978"
+        ],
+        "slug": "stew"
+      },
+      {
+        "id": 583,
+        "full_name": "Stewart and Porter",
+        "short_name": "Stew. & P.",
+        "start_year": 1831,
+        "end_year": 1834,
+        "harvard_hollis_id": [
+          "003117104"
+        ],
+        "slug": "stew-p"
+      }
+    ],
+    "case_count": 133318,
+    "volume_count": 1362,
+    "reporter_count": 10,
+    "page_count": 567700
+  },
+  {
+    "id": 53,
+    "slug": "alaska",
+    "name": "Alaska",
+    "name_long": "Alaska",
+    "reporters": [
+      {
+        "id": 596,
+        "full_name": "Alaska Reports",
+        "short_name": "Alaska",
+        "start_year": 1887,
+        "end_year": 1959,
+        "harvard_hollis_id": [
+          "003883790"
+        ],
+        "slug": "alaska"
+      },
+      {
+        "id": 972,
+        "full_name": "Pacific Reporter 2d",
+        "short_name": "P.2d",
+        "start_year": 1939,
+        "end_year": 2000,
+        "harvard_hollis_id": [
+          "005402106"
+        ],
+        "slug": "p2d"
+      },
+      {
+        "id": 894,
+        "full_name": "Pacific Reporter 3d",
+        "short_name": "P.3d",
+        "start_year": 1976,
+        "end_year": 2019,
+        "harvard_hollis_id": [
+          "000632011"
+        ],
+        "slug": "p3d"
+      }
+    ],
+    "case_count": 10749,
+    "volume_count": 1096,
+    "reporter_count": 4,
+    "page_count": 81884
+  },
+  {
+    "id": 58,
+    "slug": "am-samoa",
+    "name": "Am. Samoa",
+    "name_long": "American Samoa",
+    "reporters": [
+      {
+        "id": 951,
+        "full_name": "American Samoa Reports",
+        "short_name": "Am. Samoa",
+        "start_year": 1900,
+        "end_year": 1975,
+        "harvard_hollis_id": [
+          "003870988"
+        ],
+        "slug": "am-samoa"
+      },
+      {
+        "id": 753,
+        "full_name": "American Samoa Reports 2d",
+        "short_name": "Am. Samoa 2d",
+        "start_year": 1978,
+        "end_year": 1999,
+        "harvard_hollis_id": [
+          "000162328"
+        ],
+        "slug": "am-samoa-2d"
+      },
+      {
+        "id": 754,
+        "full_name": "American Samoa Reports 3d",
+        "short_name": "Am. Samoa 3d",
+        "start_year": 1993,
+        "end_year": 2005,
+        "harvard_hollis_id": [
+          "000134432"
+        ],
+        "slug": "am-samoa-3d"
+      }
+    ],
+    "case_count": 2171,
+    "volume_count": 45,
+    "reporter_count": 3,
+    "page_count": 11844
+  },
+  {
+    "id": 21,
+    "slug": "ariz",
+    "name": "Ariz.",
+    "name_long": "Arizona",
+    "reporters": [
+      {
+        "id": 291,
+        "full_name": "Arizona Reports",
+        "short_name": "Ariz.",
+        "start_year": 1817,
+        "end_year": 2017,
+        "harvard_hollis_id": [],
+        "slug": "ariz"
+      },
+      {
+        "id": 290,
+        "full_name": "Arizona Appeals Reports",
+        "short_name": "Ariz. App.",
+        "start_year": 1965,
+        "end_year": 1977,
+        "harvard_hollis_id": [],
+        "slug": "ariz-app"
+      }
+    ],
+    "case_count": 28481,
+    "volume_count": 307,
+    "reporter_count": 4,
+    "page_count": 173478
+  },
+  {
+    "id": 34,
+    "slug": "ark",
+    "name": "Ark.",
+    "name_long": "Arkansas",
+    "reporters": [
+      {
+        "id": 368,
+        "full_name": "Arkansas Reports",
+        "short_name": "Ark.",
+        "start_year": 1837,
+        "end_year": 2009,
+        "harvard_hollis_id": [
+          "001603973"
+        ],
+        "slug": "ark"
+      },
+      {
+        "id": 996,
+        "full_name": "Arkansas Appellate Reports",
+        "short_name": "Ark. App.",
+        "start_year": 1981,
+        "end_year": 2009,
+        "harvard_hollis_id": [
+          "005643310"
+        ],
+        "slug": "ark-app"
+      },
+      {
+        "id": 677,
+        "full_name": "Reports of Cases Argued and Determined in the United States Superior Court for the Territory of Arkansas, from 1820 to 1836",
+        "short_name": "Ark. Terr. Rep.",
+        "start_year": 1820,
+        "end_year": 1855,
+        "harvard_hollis_id": [
+          "005964854"
+        ],
+        "slug": "ark-terr-rep"
+      },
+      {
+        "id": 611,
+        "full_name": "South Western Reporter Second Series",
+        "short_name": "S.W.2d",
+        "start_year": 1920,
+        "end_year": 1999,
+        "harvard_hollis_id": [
+          "004095776"
+        ],
+        "slug": "sw2d"
+      },
+      {
+        "id": 612,
+        "full_name": "South Western Reporter Third Series",
+        "short_name": "S.W.3d",
+        "start_year": 1993,
+        "end_year": 2019,
+        "harvard_hollis_id": [
+          "005545018"
+        ],
+        "slug": "sw3d"
+      }
+    ],
+    "case_count": 60582,
+    "volume_count": 787,
+    "reporter_count": 6,
+    "page_count": 390915
+  },
+  {
+    "id": 30,
+    "slug": "cal",
+    "name": "Cal.",
+    "name_long": "California",
+    "reporters": [
+      {
+        "id": 414,
+        "full_name": "California Reports",
+        "short_name": "Cal.",
+        "start_year": 1803,
+        "end_year": 2006,
+        "harvard_hollis_id": [],
+        "slug": "cal"
+      },
+      {
+        "id": 417,
+        "full_name": "California Reports",
+        "short_name": "Cal. 2d",
+        "start_year": 1930,
+        "end_year": 1969,
+        "harvard_hollis_id": [],
+        "slug": "cal-2d"
+      },
+      {
+        "id": 418,
+        "full_name": "California Reports",
+        "short_name": "Cal. 3d",
+        "start_year": 1969,
+        "end_year": 1991,
+        "harvard_hollis_id": [],
+        "slug": "cal-3d"
+      },
+      {
+        "id": 419,
+        "full_name": "California Reports",
+        "short_name": "Cal. 4th",
+        "start_year": 1991,
+        "end_year": 2016,
+        "harvard_hollis_id": [],
+        "slug": "cal-4th"
+      },
+      {
+        "id": 1082,
+        "full_name": "Reports of Cases Determined in the Supreme Court of the State of California",
+        "short_name": "Cal. 5th",
+        "start_year": 2016,
+        "end_year": 2016,
+        "harvard_hollis_id": [],
+        "slug": "cal-5th"
+      },
+      {
+        "id": 327,
+        "full_name": "California Appellate Reports",
+        "short_name": "Cal. App.",
+        "start_year": 1897,
+        "end_year": 1983,
+        "harvard_hollis_id": [],
+        "slug": "cal-app"
+      },
+      {
+        "id": 329,
+        "full_name": "California Appellate Reports, Second Series",
+        "short_name": "Cal. App. 2d",
+        "start_year": 1837,
+        "end_year": 1969,
+        "harvard_hollis_id": [],
+        "slug": "cal-app-2d"
+      },
+      {
+        "id": 332,
+        "full_name": "California Appellate Reports, Third Series",
+        "short_name": "Cal. App. 3d",
+        "start_year": 1969,
+        "end_year": 1991,
+        "harvard_hollis_id": [],
+        "slug": "cal-app-3d"
+      },
+      {
+        "id": 334,
+        "full_name": "California Appellate Reports, Fourth Series",
+        "short_name": "Cal. App. 4th",
+        "start_year": 1933,
+        "end_year": 2016,
+        "harvard_hollis_id": [],
+        "slug": "cal-app-4th"
+      },
+      {
+        "id": 1078,
+        "full_name": "California Appellate Reports, Fifth Series",
+        "short_name": "Cal. App. 5th",
+        "start_year": 2015,
+        "end_year": 2017,
+        "harvard_hollis_id": [
+          "003937895"
+        ],
+        "slug": "cal-app-5th"
+      },
+      {
+        "id": 678,
+        "full_name": "Reports of Cases Determined in the District Courts of the State of California",
+        "short_name": "Cal. Dist. Ct.",
+        "start_year": 1854,
+        "end_year": 1858,
+        "harvard_hollis_id": [
+          "003884829"
+        ],
+        "slug": "cal-dist-ct"
+      },
+      {
+        "id": 1089,
+        "full_name": "West's California Reporter",
+        "short_name": "Cal. Rptr. 3d",
+        "start_year": 2012,
+        "end_year": 2019,
+        "harvard_hollis_id": [],
+        "slug": "cal-rptr-3d"
+      },
+      {
+        "id": 679,
+        "full_name": "California Superior Court Decisions:  Notable Cases",
+        "short_name": "Cal. Super. Ct.",
+        "start_year": 1921,
+        "end_year": 1926,
+        "harvard_hollis_id": [
+          "005859965"
+        ],
+        "slug": "cal-super-ct"
+      },
+      {
+        "id": 565,
+        "full_name": "California Unreported Cases",
+        "short_name": "Cal. Unrep.",
+        "start_year": 1855,
+        "end_year": 1910,
+        "harvard_hollis_id": [],
+        "slug": "cal-unrep"
+      },
+      {
+        "id": 567,
+        "full_name": "Reports of Decisions in Probate, by James V. Coffey, Judge of the Superior Court in and for the City and County of San Francisco, State of California. Reported and Annotated by Peter V. Ross and Jeremiah V. Coffey",
+        "short_name": "Coffey",
+        "start_year": 1880,
+        "end_year": 1915,
+        "harvard_hollis_id": [
+          "000097348"
+        ],
+        "slug": "coffey"
+      },
+      {
+        "id": 566,
+        "full_name": "Reports of Cases in the Probate Court of the City and County of San Francisco, from January 1, 1872, to December 31, 1879, Milton H. Myrick, Probate Judge",
+        "short_name": "Myrick",
+        "start_year": 1872,
+        "end_year": 1879,
+        "harvard_hollis_id": [
+          "000097348"
+        ],
+        "slug": "myrick"
+      }
+    ],
+    "case_count": 144162,
+    "volume_count": 1398,
+    "reporter_count": 19,
+    "page_count": 1337352
+  },
+  {
+    "id": 31,
+    "slug": "colo",
+    "name": "Colo.",
+    "name_long": "Colorado",
+    "reporters": [
+      {
+        "id": 344,
+        "full_name": "Colorado Reports",
+        "short_name": "Colo.",
+        "start_year": 1864,
+        "end_year": 1980,
+        "harvard_hollis_id": [],
+        "slug": "colo"
+      },
+      {
+        "id": 600,
+        "full_name": "Colorado Court of Appeals Reports",
+        "short_name": "Colo. App.",
+        "start_year": 1891,
+        "end_year": 1915,
+        "harvard_hollis_id": [
+          "005651126"
+        ],
+        "slug": "colo-app"
+      },
+      {
+        "id": 675,
+        "full_name": "Colorado Law Reporter",
+        "short_name": "Colo. L. Rep.",
+        "start_year": 1880,
+        "end_year": 1884,
+        "harvard_hollis_id": [
+          "000114163"
+        ],
+        "slug": "colo-l-rep"
+      },
+      {
+        "id": 681,
+        "full_name": "Colorado Nisi Prius Decisions",
+        "short_name": "Colo. N. P.",
+        "start_year": 1898,
+        "end_year": 1902,
+        "harvard_hollis_id": [
+          "001960516"
+        ],
+        "slug": "colo-n-p"
+      },
+      {
+        "id": 972,
+        "full_name": "Pacific Reporter 2d",
+        "short_name": "P.2d",
+        "start_year": 1939,
+        "end_year": 2000,
+        "harvard_hollis_id": [
+          "005402106"
+        ],
+        "slug": "p2d"
+      },
+      {
+        "id": 894,
+        "full_name": "Pacific Reporter 3d",
+        "short_name": "P.3d",
+        "start_year": 1976,
+        "end_year": 2019,
+        "harvard_hollis_id": [
+          "000632011"
+        ],
+        "slug": "p3d"
+      }
+    ],
+    "case_count": 40897,
+    "volume_count": 1064,
+    "reporter_count": 6,
+    "page_count": 260938
+  },
+  {
+    "id": 2,
+    "slug": "conn",
+    "name": "Conn.",
+    "name_long": "Connecticut",
+    "reporters": [
+      {
+        "id": 178,
+        "full_name": "Connecticut Reports",
+        "short_name": "Conn.",
+        "start_year": 1814,
+        "end_year": 2012,
+        "harvard_hollis_id": [],
+        "slug": "conn"
+      },
+      {
+        "id": 515,
+        "full_name": "Connecticut Appellate Reports",
+        "short_name": "Conn. App.",
+        "start_year": 1916,
+        "end_year": 2014,
+        "harvard_hollis_id": [
+          "007175607"
+        ],
+        "slug": "conn-app"
+      },
+      {
+        "id": 636,
+        "full_name": "Connecticut Circuit Court Reports",
+        "short_name": "Conn. Cir. Ct.",
+        "start_year": 1961,
+        "end_year": 1974,
+        "harvard_hollis_id": [
+          "000131342"
+        ],
+        "slug": "conn-cir-ct"
+      },
+      {
+        "id": 348,
+        "full_name": "Connecticut Supplement",
+        "short_name": "Conn. Supp.",
+        "start_year": 1935,
+        "end_year": 2014,
+        "harvard_hollis_id": [],
+        "slug": "conn-supp"
+      },
+      {
+        "id": 177,
+        "full_name": "Day's Reports",
+        "short_name": "Day",
+        "start_year": 1802,
+        "end_year": 1813,
+        "harvard_hollis_id": [
+          "005651358"
+        ],
+        "slug": "day"
+      },
+      {
+        "id": 635,
+        "full_name": "Connecticut Reports",
+        "short_name": "Kirby",
+        "start_year": 1785,
+        "end_year": 1789,
+        "harvard_hollis_id": [
+          "005649477"
+        ],
+        "slug": "kirby"
+      },
+      {
+        "id": 633,
+        "full_name": "Connecticut Reports",
+        "short_name": "Root",
+        "start_year": 1764,
+        "end_year": 1795,
+        "harvard_hollis_id": [
+          "001784700"
+        ],
+        "slug": "root"
+      }
+    ],
+    "case_count": 57564,
+    "volume_count": 596,
+    "reporter_count": 9,
+    "page_count": 446088
+  },
+  {
+    "id": 55,
+    "slug": "dakota-territory",
+    "name": "Dakota Territory",
+    "name_long": "Dakota Territory",
+    "reporters": [
+      {
+        "id": 668,
+        "full_name": "Dakota Reports",
+        "short_name": "Dakota",
+        "start_year": 1867,
+        "end_year": 1889,
+        "harvard_hollis_id": [
+          "006263530"
+        ],
+        "slug": "dakota"
+      }
+    ],
+    "case_count": 310,
+    "volume_count": 6,
+    "reporter_count": 1,
+    "page_count": 3372
+  },
+  {
+    "id": 8,
+    "slug": "del",
+    "name": "Del.",
+    "name_long": "Delaware",
+    "reporters": [
+      {
+        "id": 210,
+        "full_name": "West's Atlantic Reporter, Second Series",
+        "short_name": "A.2d",
+        "start_year": 1942,
+        "end_year": 2010,
+        "harvard_hollis_id": [],
+        "slug": "a2d"
+      },
+      {
+        "id": 964,
+        "full_name": "West's Atlantic Reporter, Third Series",
+        "short_name": "A.3d",
+        "start_year": 2004,
+        "end_year": 2019,
+        "harvard_hollis_id": [
+          "001603965"
+        ],
+        "slug": "a3d"
+      },
+      {
+        "id": 198,
+        "full_name": "Delaware Reports",
+        "short_name": "Del.",
+        "start_year": 1832,
+        "end_year": 1966,
+        "harvard_hollis_id": [
+          "004076231"
+        ],
+        "slug": "del"
+      },
+      {
+        "id": 199,
+        "full_name": "Delaware Cases",
+        "short_name": "Del. Cas.",
+        "start_year": 1770,
+        "end_year": 1832,
+        "harvard_hollis_id": [
+          "000114119"
+        ],
+        "slug": "del-cas"
+      },
+      {
+        "id": 200,
+        "full_name": "Delaware Chancery Reports",
+        "short_name": "Del. Ch.",
+        "start_year": 1814,
+        "end_year": 1968,
+        "harvard_hollis_id": [
+          "000114119"
+        ],
+        "slug": "del-ch"
+      }
+    ],
+    "case_count": 17657,
+    "volume_count": 1041,
+    "reporter_count": 7,
+    "page_count": 123754
+  },
+  {
+    "id": 56,
+    "slug": "dc",
+    "name": "D.C.",
+    "name_long": "District of Columbia",
+    "reporters": [
+      {
+        "id": 210,
+        "full_name": "West's Atlantic Reporter, Second Series",
+        "short_name": "A.2d",
+        "start_year": 1942,
+        "end_year": 2010,
+        "harvard_hollis_id": [],
+        "slug": "a2d"
+      },
+      {
+        "id": 964,
+        "full_name": "West's Atlantic Reporter, Third Series",
+        "short_name": "A.3d",
+        "start_year": 2004,
+        "end_year": 2019,
+        "harvard_hollis_id": [
+          "001603965"
+        ],
+        "slug": "a3d"
+      },
+      {
+        "id": 684,
+        "full_name": "Reports of Cases Adjudged in the Court of Appeals of the District of Columbia",
+        "short_name": "App. D.C.",
+        "start_year": 1893,
+        "end_year": 1995,
+        "harvard_hollis_id": [
+          "005965461"
+        ],
+        "slug": "app-dc"
+      },
+      {
+        "id": 693,
+        "full_name": "Reports of cases arising upon applications for letters-patent for inventions determined in the Circuit and Supreme Court of the District of Columbia (MacArthur's Patent Cases)",
+        "short_name": "D.C. (patent)",
+        "start_year": 1841,
+        "end_year": 1859,
+        "harvard_hollis_id": [],
+        "slug": "dc-patent"
+      },
+      {
+        "id": 1001,
+        "full_name": "Reports of cases, civil and criminal, argued and adjudged in the Circuit court of the District of Columbia for the county of Washington",
+        "short_name": "Hay. & Haz.",
+        "start_year": 1840,
+        "end_year": 1882,
+        "harvard_hollis_id": [
+          "005932451"
+        ],
+        "slug": "hay-haz"
+      },
+      {
+        "id": 694,
+        "full_name": "Supreme Court of the District of Columbia Reports",
+        "short_name": "S.C.D.C. (N.S.)",
+        "start_year": 1933,
+        "end_year": 1935,
+        "harvard_hollis_id": [
+          "003757429"
+        ],
+        "slug": "scdc-ns"
+      },
+      {
+        "id": 1038,
+        "full_name": "United States Court of Appeals for the District of Columbia Circuit",
+        "short_name": "U.S. App. D.C.",
+        "start_year": 1972,
+        "end_year": 2016,
+        "harvard_hollis_id": [],
+        "slug": "us-app-dc"
+      }
+    ],
+    "case_count": 33226,
+    "volume_count": 1564,
+    "reporter_count": 13,
+    "page_count": 261977
+  },
+  {
+    "id": 28,
+    "slug": "fla",
+    "name": "Fla.",
+    "name_long": "Florida",
+    "reporters": [
+      {
+        "id": 391,
+        "full_name": "Florida Reports",
+        "short_name": "Fla.",
+        "start_year": 1825,
+        "end_year": 1948,
+        "harvard_hollis_id": [
+          "005354424"
+        ],
+        "slug": "fla"
+      },
+      {
+        "id": 309,
+        "full_name": "Florida Supplement",
+        "short_name": "Fla. Supp.",
+        "start_year": 1946,
+        "end_year": 1979,
+        "harvard_hollis_id": [],
+        "slug": "fla-supp"
+      },
+      {
+        "id": 312,
+        "full_name": "Florida Supplement Second",
+        "short_name": "Fla. Supp. 2d",
+        "start_year": 1974,
+        "end_year": 1991,
+        "harvard_hollis_id": [
+          "005524992"
+        ],
+        "slug": "fla-supp-2d"
+      },
+      {
+        "id": 1027,
+        "full_name": "Southern Reporter",
+        "short_name": "So.",
+        "start_year": 1924,
+        "end_year": 1941,
+        "harvard_hollis_id": [
+          "005571596"
+        ],
+        "slug": "so"
+      },
+      {
+        "id": 1026,
+        "full_name": "Southern Reporter, Second Series",
+        "short_name": "So.2d",
+        "start_year": 1923,
+        "end_year": 2009,
+        "harvard_hollis_id": [
+          "005563868"
+        ],
+        "slug": "so2d"
+      },
+      {
+        "id": 1025,
+        "full_name": "Southern Reporter, Third Series",
+        "short_name": "So.3d",
+        "start_year": 2000,
+        "end_year": 2019,
+        "harvard_hollis_id": [],
+        "slug": "so3d"
+      }
+    ],
+    "case_count": 329447,
+    "volume_count": 1476,
+    "reporter_count": 7,
+    "page_count": 883822
+  },
+  {
+    "id": 3,
+    "slug": "ga",
+    "name": "Ga.",
+    "name_long": "Georgia",
+    "reporters": [
+      {
+        "id": 637,
+        "full_name": "Reports of Decisions Made in the Superior Courts of the Eastern District of Georgia",
+        "short_name": "Charlton",
+        "start_year": 1811,
+        "end_year": 1837,
+        "harvard_hollis_id": [
+          "000139219"
+        ],
+        "slug": "charlton"
+      },
+      {
+        "id": 180,
+        "full_name": "Charlton's Reports",
+        "short_name": "Charlton Rep.",
+        "start_year": 1805,
+        "end_year": 1824,
+        "harvard_hollis_id": [
+          "005360107"
+        ],
+        "slug": "charlton-rep"
+      },
+      {
+        "id": 179,
+        "full_name": "Dudley's Georgia Reports",
+        "short_name": "Dudley Rep.",
+        "start_year": 1830,
+        "end_year": 1833,
+        "harvard_hollis_id": [
+          "005374729"
+        ],
+        "slug": "dudley-rep"
+      },
+      {
+        "id": 360,
+        "full_name": "Georgia Reports",
+        "short_name": "Ga.",
+        "start_year": 1808,
+        "end_year": 2018,
+        "harvard_hollis_id": [],
+        "slug": "ga"
+      },
+      {
+        "id": 519,
+        "full_name": "Georgia Appeals Reports",
+        "short_name": "Ga. App.",
+        "start_year": 1906,
+        "end_year": 2017,
+        "harvard_hollis_id": [
+          "004272642"
+        ],
+        "slug": "ga-app"
+      },
+      {
+        "id": 639,
+        "full_name": "Georgia Law Reporter",
+        "short_name": "Ga. L. Rep.",
+        "start_year": 1885,
+        "end_year": 1886,
+        "harvard_hollis_id": [
+          "005663385"
+        ],
+        "slug": "ga-l-rep"
+      },
+      {
+        "id": 181,
+        "full_name": "Decisions of the Superior Courts of the State of Georgia",
+        "short_name": "Georgia Decisions",
+        "start_year": 1841,
+        "end_year": 1843,
+        "harvard_hollis_id": [
+          "000115191"
+        ],
+        "slug": "georgia-decisions"
+      }
+    ],
+    "case_count": 172343,
+    "volume_count": 742,
+    "reporter_count": 10,
+    "page_count": 705482
+  },
+  {
+    "id": 60,
+    "slug": "guam",
+    "name": "Guam",
+    "name_long": "Guam",
+    "reporters": [
+      {
+        "id": 973,
+        "full_name": "Guam Reports",
+        "short_name": "Guam",
+        "start_year": 1955,
+        "end_year": 1980,
+        "harvard_hollis_id": [
+          "000114132"
+        ],
+        "slug": "guam"
+      }
+    ],
+    "case_count": 278,
+    "volume_count": 2,
+    "reporter_count": 1,
+    "page_count": 1009
+  },
+  {
+    "id": 40,
+    "slug": "haw",
+    "name": "Haw.",
+    "name_long": "Hawaii",
+    "reporters": [
+      {
+        "id": 423,
+        "full_name": "Hawaii Reports",
+        "short_name": "Haw.",
+        "start_year": 1847,
+        "end_year": 2017,
+        "harvard_hollis_id": [],
+        "slug": "haw"
+      },
+      {
+        "id": 439,
+        "full_name": "Hawaii Appellate Reports",
+        "short_name": "Haw. App.",
+        "start_year": 1980,
+        "end_year": 1994,
+        "harvard_hollis_id": [
+          "003822031"
+        ],
+        "slug": "haw-app"
+      },
+      {
+        "id": 972,
+        "full_name": "Pacific Reporter 2d",
+        "short_name": "P.2d",
+        "start_year": 1939,
+        "end_year": 2000,
+        "harvard_hollis_id": [
+          "005402106"
+        ],
+        "slug": "p2d"
+      }
+    ],
+    "case_count": 18848,
+    "volume_count": 186,
+    "reporter_count": 4,
+    "page_count": 107704
+  },
+  {
+    "id": 27,
+    "slug": "idaho",
+    "name": "Idaho",
+    "name_long": "Idaho",
+    "reporters": [
+      {
+        "id": 306,
+        "full_name": "Idaho Reports",
+        "short_name": "Idaho",
+        "start_year": 1866,
+        "end_year": 2017,
+        "harvard_hollis_id": [],
+        "slug": "idaho"
+      }
+    ],
+    "case_count": 19402,
+    "volume_count": 195,
+    "reporter_count": 2,
+    "page_count": 150381
+  },
+  {
+    "id": 29,
+    "slug": "ill",
+    "name": "Ill.",
+    "name_long": "Illinois",
+    "reporters": [
+      {
+        "id": 528,
+        "full_name": "Illinois Reports",
+        "short_name": "Ill.",
+        "start_year": 1819,
+        "end_year": 1953,
+        "harvard_hollis_id": [],
+        "slug": "ill"
+      },
+      {
+        "id": 529,
+        "full_name": "Illinois Reports, Second Series",
+        "short_name": "Ill. 2d",
+        "start_year": 1953,
+        "end_year": 2011,
+        "harvard_hollis_id": [],
+        "slug": "ill-2d"
+      },
+      {
+        "id": 315,
+        "full_name": "Illinois Appellate Court Reports",
+        "short_name": "Ill. App.",
+        "start_year": 1855,
+        "end_year": 1953,
+        "harvard_hollis_id": [],
+        "slug": "ill-app"
+      },
+      {
+        "id": 319,
+        "full_name": "Illinois Appellate Court Reports, Second Series",
+        "short_name": "Ill. App. 2d",
+        "start_year": 1951,
+        "end_year": 1971,
+        "harvard_hollis_id": [],
+        "slug": "ill-app-2d"
+      },
+      {
+        "id": 322,
+        "full_name": "Illinois Appellate Court Reports, Third Series",
+        "short_name": "Ill. App. 3d",
+        "start_year": 1771,
+        "end_year": 2011,
+        "harvard_hollis_id": [],
+        "slug": "ill-app-3d"
+      },
+      {
+        "id": 652,
+        "full_name": "Illinois Circuit Court Reports",
+        "short_name": "Ill. Cir. Ct. Rep.",
+        "start_year": 1866,
+        "end_year": 1908,
+        "harvard_hollis_id": [
+          "003884943"
+        ],
+        "slug": "ill-cir-ct-rep"
+      },
+      {
+        "id": 532,
+        "full_name": "Illinois Court of Claims Reports",
+        "short_name": "Ill. Ct. Cl.",
+        "start_year": 1889,
+        "end_year": 2001,
+        "harvard_hollis_id": [
+          "003831042"
+        ],
+        "slug": "ill-ct-cl"
+      }
+    ],
+    "case_count": 186586,
+    "volume_count": 1620,
+    "reporter_count": 10,
+    "page_count": 1272136
+  },
+  {
+    "id": 14,
+    "slug": "ind",
+    "name": "Ind.",
+    "name_long": "Indiana",
+    "reporters": [
+      {
+        "id": 643,
+        "full_name": "Blackford",
+        "short_name": "Blackf.",
+        "start_year": 1817,
+        "end_year": 1848,
+        "harvard_hollis_id": [
+          "003116713"
+        ],
+        "slug": "blackf"
+      },
+      {
+        "id": 272,
+        "full_name": "Indiana Reports",
+        "short_name": "Ind.",
+        "start_year": 1848,
+        "end_year": 1981,
+        "harvard_hollis_id": [],
+        "slug": "ind"
+      },
+      {
+        "id": 436,
+        "full_name": "Indiana Court of Appeals Reports",
+        "short_name": "Ind. App.",
+        "start_year": 1885,
+        "end_year": 1979,
+        "harvard_hollis_id": [
+          "002685699"
+        ],
+        "slug": "ind-app"
+      },
+      {
+        "id": 646,
+        "full_name": "Indiana Law Reporter",
+        "short_name": "Ind. L. Rep.",
+        "start_year": 1871,
+        "end_year": 1884,
+        "harvard_hollis_id": [
+          "003884342"
+        ],
+        "slug": "ind-l-rep"
+      },
+      {
+        "id": 971,
+        "full_name": "North Eastern Reporter 2d",
+        "short_name": "N.E.2d",
+        "start_year": 1978,
+        "end_year": 2014,
+        "harvard_hollis_id": [
+          "005681309"
+        ],
+        "slug": "ne2d"
+      },
+      {
+        "id": 890,
+        "full_name": "North Eastern Reporter 3d",
+        "short_name": "N.E.3d",
+        "start_year": 2000,
+        "end_year": 2019,
+        "harvard_hollis_id": [
+          "008939061"
+        ],
+        "slug": "ne3d"
+      },
+      {
+        "id": 647,
+        "full_name": "Reports of Cases Argued and Determined in the Superior Court at Indianapolis",
+        "short_name": "Wilson",
+        "start_year": 1871,
+        "end_year": 1874,
+        "harvard_hollis_id": [
+          "003876600"
+        ],
+        "slug": "wilson"
+      }
+    ],
+    "case_count": 93619,
+    "volume_count": 1214,
+    "reporter_count": 8,
+    "page_count": 568251
+  },
+  {
+    "id": 45,
+    "slug": "iowa",
+    "name": "Iowa",
+    "name_long": "Iowa",
+    "reporters": [
+      {
+        "id": 640,
+        "full_name": "Reports of the Decisions of the Supreme Court of Iowa",
+        "short_name": "Bradf.",
+        "start_year": 1839,
+        "end_year": 1841,
+        "harvard_hollis_id": [
+          "005964707"
+        ],
+        "slug": "bradf"
+      },
+      {
+        "id": 642,
+        "full_name": "Reports of Cases in Law and Equity, Determined in the Supreme Court of the State of Iowa",
+        "short_name": "Greene",
+        "start_year": 1847,
+        "end_year": 1854,
+        "harvard_hollis_id": [
+          "003883924"
+        ],
+        "slug": "greene"
+      },
+      {
+        "id": 474,
+        "full_name": "Iowa Reports",
+        "short_name": "Iowa",
+        "start_year": 1855,
+        "end_year": 1968,
+        "harvard_hollis_id": [],
+        "slug": "iowa"
+      },
+      {
+        "id": 641,
+        "full_name": "Reports of cases argued and Determined in the Supreme Court of Iowa",
+        "short_name": "Morris",
+        "start_year": 1839,
+        "end_year": 1846,
+        "harvard_hollis_id": [
+          "003883786"
+        ],
+        "slug": "morris"
+      },
+      {
+        "id": 892,
+        "full_name": "North Western Reporter 2d",
+        "short_name": "N.W.2d",
+        "start_year": 1952,
+        "end_year": 2019,
+        "harvard_hollis_id": [
+          "005700759"
+        ],
+        "slug": "nw2d"
+      }
+    ],
+    "case_count": 57776,
+    "volume_count": 1044,
+    "reporter_count": 6,
+    "page_count": 369357
+  },
+  {
+    "id": 43,
+    "slug": "kan",
+    "name": "Kan.",
+    "name_long": "Kansas",
+    "reporters": [
+      {
+        "id": 476,
+        "full_name": "Kansas Reports",
+        "short_name": "Kan.",
+        "start_year": 1858,
+        "end_year": 2016,
+        "harvard_hollis_id": [],
+        "slug": "kan"
+      },
+      {
+        "id": 700,
+        "full_name": "Reports of cases decided in the Courts of Appeals of the state of Kansas",
+        "short_name": "Kan. App.",
+        "start_year": 1895,
+        "end_year": 1901,
+        "harvard_hollis_id": [
+          "002704003"
+        ],
+        "slug": "kan-app"
+      },
+      {
+        "id": 472,
+        "full_name": "Kansas Court of Appeals Reports",
+        "short_name": "Kan. App. 2d",
+        "start_year": 1977,
+        "end_year": 2017,
+        "harvard_hollis_id": [],
+        "slug": "kan-app-2d"
+      },
+      {
+        "id": 699,
+        "full_name": "Reports of cases determined in the Supreme court of the territory of Kansas (McCahon)",
+        "short_name": "McCahon",
+        "start_year": 1858,
+        "end_year": 1868,
+        "harvard_hollis_id": [
+          "003116994"
+        ],
+        "slug": "mccahon"
+      },
+      {
+        "id": 611,
+        "full_name": "South Western Reporter Second Series",
+        "short_name": "S.W.2d",
+        "start_year": 1920,
+        "end_year": 1999,
+        "harvard_hollis_id": [
+          "004095776"
+        ],
+        "slug": "sw2d"
+      }
+    ],
+    "case_count": 50182,
+    "volume_count": 413,
+    "reporter_count": 8,
+    "page_count": 341313
+  },
+  {
+    "id": 26,
+    "slug": "ky",
+    "name": "Ky.",
+    "name_long": "Kentucky",
+    "reporters": [
+      {
+        "id": 305,
+        "full_name": "Kentucky Reports",
+        "short_name": "Ky.",
+        "start_year": 1718,
+        "end_year": 1951,
+        "harvard_hollis_id": [],
+        "slug": "ky"
+      },
+      {
+        "id": 713,
+        "full_name": "Kentucky Opinions, containing the unreported opinions of the Court of Appeals",
+        "short_name": "Ky. Op.",
+        "start_year": 1861,
+        "end_year": 1886,
+        "harvard_hollis_id": [
+          "003900157"
+        ],
+        "slug": "ky-op"
+      },
+      {
+        "id": 611,
+        "full_name": "South Western Reporter Second Series",
+        "short_name": "S.W.2d",
+        "start_year": 1920,
+        "end_year": 1999,
+        "harvard_hollis_id": [
+          "004095776"
+        ],
+        "slug": "sw2d"
+      },
+      {
+        "id": 612,
+        "full_name": "South Western Reporter Third Series",
+        "short_name": "S.W.3d",
+        "start_year": 1993,
+        "end_year": 2019,
+        "harvard_hollis_id": [
+          "005545018"
+        ],
+        "slug": "sw3d"
+      }
+    ],
+    "case_count": 79574,
+    "volume_count": 1668,
+    "reporter_count": 6,
+    "page_count": 402890
+  },
+  {
+    "id": 10,
+    "slug": "la",
+    "name": "La.",
+    "name_long": "Louisiana",
+    "reporters": [
+      {
+        "id": 725,
+        "full_name": "Legal points decided by the Second circuit court of Louisiana (Gunby's Reports)",
+        "short_name": "Gunby",
+        "start_year": 1885,
+        "end_year": 1885,
+        "harvard_hollis_id": [
+          "003901290"
+        ],
+        "slug": "gunby"
+      },
+      {
+        "id": 339,
+        "full_name": "Louisiana Reports",
+        "short_name": "La.",
+        "start_year": 1830,
+        "end_year": 1972,
+        "harvard_hollis_id": [
+          "000114235"
+        ],
+        "slug": "la"
+      },
+      {
+        "id": 998,
+        "full_name": "Louisiana Annual Reports",
+        "short_name": "La. Ann.",
+        "start_year": 1846,
+        "end_year": 1900,
+        "harvard_hollis_id": [
+          "005917105"
+        ],
+        "slug": "la-ann"
+      },
+      {
+        "id": 343,
+        "full_name": "Louisiana Court of Appeals Reports",
+        "short_name": "La. App.",
+        "start_year": 1920,
+        "end_year": 1932,
+        "harvard_hollis_id": [],
+        "slug": "la-app"
+      },
+      {
+        "id": 726,
+        "full_name": "Unreported cases heard and determined by the Supreme Court of Louisiana, from January 8, 1877, to April, 1880",
+        "short_name": "Mann. Unrep. Cas.",
+        "start_year": 1880,
+        "end_year": 1880,
+        "harvard_hollis_id": [
+          "004124281"
+        ],
+        "slug": "mann-unrep-cas"
+      },
+      {
+        "id": 993,
+        "full_name": "Martin (Louisiana Term Reports)",
+        "short_name": "Mart. (n.s.)",
+        "start_year": 1821,
+        "end_year": 1830,
+        "harvard_hollis_id": [
+          "005540512"
+        ],
+        "slug": "mart-ns"
+      },
+      {
+        "id": 992,
+        "full_name": "Martin (Louisiana Term Reports)",
+        "short_name": "Mart. (o.s.)",
+        "start_year": 1809,
+        "end_year": 1830,
+        "harvard_hollis_id": [
+          "000114813"
+        ],
+        "slug": "mart-os"
+      },
+      {
+        "id": 721,
+        "full_name": "Reports of cases argued and determined in the various Courts of Appeal of the state of Louisiana (McGloin)",
+        "short_name": "McGl.",
+        "start_year": 1881,
+        "end_year": 1884,
+        "harvard_hollis_id": [
+          "003900151"
+        ],
+        "slug": "mcgl"
+      },
+      {
+        "id": 723,
+        "full_name": "Peltier's decisions, Court of Appeal, Parish of Orleans (Peltier)",
+        "short_name": "Pelt.",
+        "start_year": 1916,
+        "end_year": 1928,
+        "harvard_hollis_id": [
+          "003900659"
+        ],
+        "slug": "pelt"
+      },
+      {
+        "id": 997,
+        "full_name": "Robinson",
+        "short_name": "Rob.",
+        "start_year": 1841,
+        "end_year": 1846,
+        "harvard_hollis_id": [
+          "005459119"
+        ],
+        "slug": "rob"
+      },
+      {
+        "id": 1027,
+        "full_name": "Southern Reporter",
+        "short_name": "So.",
+        "start_year": 1924,
+        "end_year": 1941,
+        "harvard_hollis_id": [
+          "005571596"
+        ],
+        "slug": "so"
+      },
+      {
+        "id": 1026,
+        "full_name": "Southern Reporter, Second Series",
+        "short_name": "So.2d",
+        "start_year": 1923,
+        "end_year": 2009,
+        "harvard_hollis_id": [
+          "005563868"
+        ],
+        "slug": "so2d"
+      },
+      {
+        "id": 1025,
+        "full_name": "Southern Reporter, Third Series",
+        "short_name": "So.3d",
+        "start_year": 2000,
+        "end_year": 2019,
+        "harvard_hollis_id": [],
+        "slug": "so3d"
+      },
+      {
+        "id": 724,
+        "full_name": "Decisions, Court of Appeal, parish of Orleans (Teissier)",
+        "short_name": "Teiss.",
+        "start_year": 1903,
+        "end_year": 1917,
+        "harvard_hollis_id": [
+          "003901407"
+        ],
+        "slug": "teiss"
+      }
+    ],
+    "case_count": 314588,
+    "volume_count": 1654,
+    "reporter_count": 16,
+    "page_count": 1161482
+  },
+  {
+    "id": 42,
+    "slug": "me",
+    "name": "Me.",
+    "name_long": "Maine",
+    "reporters": [
+      {
+        "id": 210,
+        "full_name": "West's Atlantic Reporter, Second Series",
+        "short_name": "A.2d",
+        "start_year": 1942,
+        "end_year": 2010,
+        "harvard_hollis_id": [],
+        "slug": "a2d"
+      },
+      {
+        "id": 964,
+        "full_name": "West's Atlantic Reporter, Third Series",
+        "short_name": "A.3d",
+        "start_year": 2004,
+        "end_year": 2019,
+        "harvard_hollis_id": [
+          "001603965"
+        ],
+        "slug": "a3d"
+      },
+      {
+        "id": 467,
+        "full_name": "Maine Reports",
+        "short_name": "Me.",
+        "start_year": 1820,
+        "end_year": 1965,
+        "harvard_hollis_id": [
+          "005512370"
+        ],
+        "slug": "me"
+      }
+    ],
+    "case_count": 27935,
+    "volume_count": 1128,
+    "reporter_count": 4,
+    "page_count": 152218
+  },
+  {
+    "id": 50,
+    "slug": "md",
+    "name": "Md.",
+    "name_long": "Maryland",
+    "reporters": [
+      {
+        "id": 735,
+        "full_name": "Baltimore city reports, comprising opinions of the various courts of Baltimore city since 1888...",
+        "short_name": "Balt. C. Rep.",
+        "start_year": 1805,
+        "end_year": 1994,
+        "harvard_hollis_id": [
+          "003901409"
+        ],
+        "slug": "balt-c-rep"
+      },
+      {
+        "id": 734,
+        "full_name": "Reports of cases decided in the High court of chancery of Maryland. [1811-1832]",
+        "short_name": "Bland",
+        "start_year": 1797,
+        "end_year": 1832,
+        "harvard_hollis_id": [
+          "003900154"
+        ],
+        "slug": "bland"
+      },
+      {
+        "id": 728,
+        "full_name": "Reports of cases argued and determined in the Court of Appeals of Maryland",
+        "short_name": "G. & J.",
+        "start_year": 1827,
+        "end_year": 1842,
+        "harvard_hollis_id": [
+          "003017255"
+        ],
+        "slug": "g-j"
+      },
+      {
+        "id": 727,
+        "full_name": "Reports of cases argued and determined in the Court of Appeals of Maryland",
+        "short_name": "Gill",
+        "start_year": 1842,
+        "end_year": 1851,
+        "harvard_hollis_id": [
+          "003900613"
+        ],
+        "slug": "gill"
+      },
+      {
+        "id": 729,
+        "full_name": "Harris and Gill",
+        "short_name": "H. & G.",
+        "start_year": 1826,
+        "end_year": 1829,
+        "harvard_hollis_id": [
+          "003900619"
+        ],
+        "slug": "h-g"
+      },
+      {
+        "id": 731,
+        "full_name": "Reports of cases argued and determined in the General Court and Court of Appeals of the State of Maryland, form 1800 ... [to 1826]",
+        "short_name": "H. & J.",
+        "start_year": 1800,
+        "end_year": 1826,
+        "harvard_hollis_id": [
+          "003900156"
+        ],
+        "slug": "h-j"
+      },
+      {
+        "id": 732,
+        "full_name": "Maryland reports, being a series of the most important law cases argued and determined in the Provincial Court and Court of Appeals of the then province of Maryland, from the year 1700 [i.e. 1658] down to the [end of 1799]",
+        "short_name": "H. & McH.",
+        "start_year": 1658,
+        "end_year": 1799,
+        "harvard_hollis_id": [],
+        "slug": "h-mch"
+      },
+      {
+        "id": 524,
+        "full_name": "Maryland Reports",
+        "short_name": "Md.",
+        "start_year": 1851,
+        "end_year": 2017,
+        "harvard_hollis_id": [],
+        "slug": "md"
+      },
+      {
+        "id": 521,
+        "full_name": "Maryland Appellate Reports",
+        "short_name": "Md. App.",
+        "start_year": 1967,
+        "end_year": 2017,
+        "harvard_hollis_id": [
+          "004016056"
+        ],
+        "slug": "md-app"
+      },
+      {
+        "id": 733,
+        "full_name": "Reports of cases decided in the High Court of Chancery of Maryland : containing cases from the year 1847 to [1854]",
+        "short_name": "Md. Ch.",
+        "start_year": 1841,
+        "end_year": 1853,
+        "harvard_hollis_id": [],
+        "slug": "md-ch"
+      }
+    ],
+    "case_count": 45746,
+    "volume_count": 812,
+    "reporter_count": 12,
+    "page_count": 547871
+  },
+  {
+    "id": 4,
+    "slug": "mass",
+    "name": "Mass.",
+    "name_long": "Massachusetts",
+    "reporters": [
+      {
+        "id": 743,
+        "full_name": "Massachusetts Land Court decisions, 1898-1908",
+        "short_name": "Davis L. Ct. Cas.",
+        "start_year": 1898,
+        "end_year": 1927,
+        "harvard_hollis_id": [
+          "000455589"
+        ],
+        "slug": "davis-l-ct-cas"
+      },
+      {
+        "id": 478,
+        "full_name": "Massachusetts Reports",
+        "short_name": "Mass.",
+        "start_year": 1768,
+        "end_year": 2017,
+        "harvard_hollis_id": [],
+        "slug": "mass"
+      },
+      {
+        "id": 568,
+        "full_name": "Massachusetts Appeals Court Reports",
+        "short_name": "Mass. App. Ct.",
+        "start_year": 1972,
+        "end_year": 2017,
+        "harvard_hollis_id": [
+          "005417888"
+        ],
+        "slug": "mass-app-ct"
+      },
+      {
+        "id": 579,
+        "full_name": "Massachusetts Appellate Decisions",
+        "short_name": "Mass. App. Dec.",
+        "start_year": 1934,
+        "end_year": 1977,
+        "harvard_hollis_id": [
+          "009971209"
+        ],
+        "slug": "mass-app-dec"
+      },
+      {
+        "id": 576,
+        "full_name": "Reports of Massachusetts Appellate Division",
+        "short_name": "Mass. App. Div.",
+        "start_year": 1936,
+        "end_year": 1950,
+        "harvard_hollis_id": [
+          "003851512"
+        ],
+        "slug": "mass-app-div"
+      },
+      {
+        "id": 580,
+        "full_name": "Reports of Massachusetts Appellate Division (Annual)",
+        "short_name": "Mass. App. Div.",
+        "start_year": 1980,
+        "end_year": 2015,
+        "harvard_hollis_id": [
+          "004061971"
+        ],
+        "slug": "mass-app-div-annual"
+      },
+      {
+        "id": 1074,
+        "full_name": "The Massachusetts law reporter.",
+        "short_name": "Mass. L. Rptr.",
+        "start_year": 1960,
+        "end_year": 2017,
+        "harvard_hollis_id": [
+          "003937627"
+        ],
+        "slug": "mass-l-rptr"
+      },
+      {
+        "id": 578,
+        "full_name": "Massachusetts Reports Supplement",
+        "short_name": "Mass. Supp.",
+        "start_year": 1979,
+        "end_year": 1983,
+        "harvard_hollis_id": [
+          "004061455"
+        ],
+        "slug": "mass-supp"
+      },
+      {
+        "id": 742,
+        "full_name": "Records of the Suffolk county court, 1671-1680",
+        "short_name": "Rec. Co. Ct.",
+        "start_year": 1671,
+        "end_year": 1680,
+        "harvard_hollis_id": [
+          "003757687"
+        ],
+        "slug": "rec-co-ct"
+      },
+      {
+        "id": 738,
+        "full_name": "Reports of controverted elections in the House of representatives, of the commonwealth of Massachusetts...",
+        "short_name": "Rep. Cont. El.",
+        "start_year": 1781,
+        "end_year": 1852,
+        "harvard_hollis_id": [
+          "000117448"
+        ],
+        "slug": "rep-cont-el"
+      },
+      {
+        "id": 739,
+        "full_name": "Reports of contested election cases in the Senate and House of Representatives of the commonwealth of Massachusetts for the year 1886-1897",
+        "short_name": "Rep. Cont. Elect. Case.",
+        "start_year": 1886,
+        "end_year": 1897,
+        "harvard_hollis_id": [
+          "003908366"
+        ],
+        "slug": "rep-cont-elect-case"
+      },
+      {
+        "id": 736,
+        "full_name": "Reports of cases argued and adjudged in the Superior Court of Judicature of the Province of Massachusetts Bay, between 1761 and 1772",
+        "short_name": "Super. Ct. Jud.",
+        "start_year": 1761,
+        "end_year": 1776,
+        "harvard_hollis_id": [
+          "003901470"
+        ],
+        "slug": "super-ct-jud"
+      }
+    ],
+    "case_count": 93274,
+    "volume_count": 774,
+    "reporter_count": 15,
+    "page_count": 513787
+  },
+  {
+    "id": 49,
+    "slug": "mich",
+    "name": "Mich.",
+    "name_long": "Michigan",
+    "reporters": [
+      {
+        "id": 746,
+        "full_name": "Transactions of the Supreme Court of the territory of Michigan",
+        "short_name": "Blume Sup. Ct. Trans.",
+        "start_year": 1805,
+        "end_year": 1938,
+        "harvard_hollis_id": [
+          "001758418"
+        ],
+        "slug": "blume-sup-ct-trans"
+      },
+      {
+        "id": 745,
+        "full_name": "Unreported opinions of the Supreme court of Michigan, 1836-1843, edited by William Wirt Blume",
+        "short_name": "Blume Unrep. Op.",
+        "start_year": 1838,
+        "end_year": 1842,
+        "harvard_hollis_id": [
+          "002752311"
+        ],
+        "slug": "blume-unrep-op"
+      },
+      {
+        "id": 744,
+        "full_name": "Reports of cases argued and determined in the Supreme Court of the state of Michigan",
+        "short_name": "Doug.",
+        "start_year": 1843,
+        "end_year": 1847,
+        "harvard_hollis_id": [
+          "000469731"
+        ],
+        "slug": "doug"
+      },
+      {
+        "id": 763,
+        "full_name": "Reports of Cases Determined in the Court of Chancery of the State of Michigan",
+        "short_name": "Harr. Ch.",
+        "start_year": 1839,
+        "end_year": 1841,
+        "harvard_hollis_id": [
+          "002710764"
+        ],
+        "slug": "harr-ch"
+      },
+      {
+        "id": 760,
+        "full_name": "Michigan nisi prius cases, decided by the state and federal courts in Michigan",
+        "short_name": "Howell N.P.",
+        "start_year": 1868,
+        "end_year": 1884,
+        "harvard_hollis_id": [
+          "003928650"
+        ],
+        "slug": "howell-np"
+      },
+      {
+        "id": 759,
+        "full_name": "Mandamus cases decided in the Supreme court of Michigan",
+        "short_name": "McGrath",
+        "start_year": 1843,
+        "end_year": 1898,
+        "harvard_hollis_id": [
+          "003937898"
+        ],
+        "slug": "mcgrath"
+      },
+      {
+        "id": 520,
+        "full_name": "Michigan Reports",
+        "short_name": "Mich.",
+        "start_year": 1841,
+        "end_year": 2016,
+        "harvard_hollis_id": [],
+        "slug": "mich"
+      },
+      {
+        "id": 747,
+        "full_name": "Michigan appeals reports; cases decided in the Michigan Court of Appeals.",
+        "short_name": "Mich. App.",
+        "start_year": 1888,
+        "end_year": 2016,
+        "harvard_hollis_id": [
+          "003535595"
+        ],
+        "slug": "mich-app"
+      },
+      {
+        "id": 762,
+        "full_name": "The Michigan Nisi Prius Reports",
+        "short_name": "Mich. N.P. R.",
+        "start_year": 1864,
+        "end_year": 1871,
+        "harvard_hollis_id": [
+          "003504967"
+        ],
+        "slug": "mich-np-r"
+      },
+      {
+        "id": 749,
+        "full_name": "Practice reports. Cases decided in the Supreme court of Michigan in 1896, in which written opinions were not filed.",
+        "short_name": "Mich. Pr.",
+        "start_year": 1896,
+        "end_year": 1896,
+        "harvard_hollis_id": [
+          "008793249"
+        ],
+        "slug": "mich-pr"
+      },
+      {
+        "id": 761,
+        "full_name": "Reports of cases argued and determined in the court of chancery of the state of michigan",
+        "short_name": "Walk. Ch.",
+        "start_year": 1842,
+        "end_year": 1845,
+        "harvard_hollis_id": [
+          "014080816"
+        ],
+        "slug": "walk-ch"
+      }
+    ],
+    "case_count": 83027,
+    "volume_count": 857,
+    "reporter_count": 13,
+    "page_count": 630198
+  },
+  {
+    "id": 36,
+    "slug": "minn",
+    "name": "Minn.",
+    "name_long": "Minnesota",
+    "reporters": [
+      {
+        "id": 394,
+        "full_name": "Minnesota Reports",
+        "short_name": "Minn.",
+        "start_year": 1830,
+        "end_year": 1982,
+        "harvard_hollis_id": [],
+        "slug": "minn"
+      },
+      {
+        "id": 892,
+        "full_name": "North Western Reporter 2d",
+        "short_name": "N.W.2d",
+        "start_year": 1952,
+        "end_year": 2019,
+        "harvard_hollis_id": [
+          "005700759"
+        ],
+        "slug": "nw2d"
+      }
+    ],
+    "case_count": 56091,
+    "volume_count": 997,
+    "reporter_count": 3,
+    "page_count": 320716
+  },
+  {
+    "id": 16,
+    "slug": "miss",
+    "name": "Miss.",
+    "name_long": "Mississippi",
+    "reporters": [
+      {
+        "id": 765,
+        "full_name": "Reports of cases decided in the Superior Court of Chancery of the state of Mississippi",
+        "short_name": "Freem. Ch.",
+        "start_year": 1844,
+        "end_year": 1844,
+        "harvard_hollis_id": [
+          "003876738"
+        ],
+        "slug": "freem-ch"
+      },
+      {
+        "id": 283,
+        "full_name": "Mississippi Reports",
+        "short_name": "Miss.",
+        "start_year": 1818,
+        "end_year": 1966,
+        "harvard_hollis_id": [],
+        "slug": "miss"
+      },
+      {
+        "id": 767,
+        "full_name": "Mississippi Decisions: containing the unreported opinions of the Supreme Court of Mississippi",
+        "short_name": "Miss. Dec.",
+        "start_year": 1861,
+        "end_year": 1887,
+        "harvard_hollis_id": [
+          "001758709"
+        ],
+        "slug": "miss-dec"
+      },
+      {
+        "id": 764,
+        "full_name": "Reports of cases argued and determined in the superior court of chancery of the state of mississippi",
+        "short_name": "Miss. (S. & M. Ch.)",
+        "start_year": 1840,
+        "end_year": 1844,
+        "harvard_hollis_id": [
+          "000097348"
+        ],
+        "slug": "miss-s-m-ch"
+      },
+      {
+        "id": 766,
+        "full_name": "Mississippi State Cases; being criminal cases decided in the High court of errors and appeals",
+        "short_name": "Mor. St. Cas.",
+        "start_year": 1872,
+        "end_year": 1872,
+        "harvard_hollis_id": [
+          "002989697"
+        ],
+        "slug": "mor-st-cas"
+      },
+      {
+        "id": 1027,
+        "full_name": "Southern Reporter",
+        "short_name": "So.",
+        "start_year": 1924,
+        "end_year": 1941,
+        "harvard_hollis_id": [
+          "005571596"
+        ],
+        "slug": "so"
+      },
+      {
+        "id": 1026,
+        "full_name": "Southern Reporter, Second Series",
+        "short_name": "So.2d",
+        "start_year": 1923,
+        "end_year": 2009,
+        "harvard_hollis_id": [
+          "005563868"
+        ],
+        "slug": "so2d"
+      },
+      {
+        "id": 1025,
+        "full_name": "Southern Reporter, Third Series",
+        "short_name": "So.3d",
+        "start_year": 2000,
+        "end_year": 2019,
+        "harvard_hollis_id": [],
+        "slug": "so3d"
+      },
+      {
+        "id": 611,
+        "full_name": "South Western Reporter Second Series",
+        "short_name": "S.W.2d",
+        "start_year": 1920,
+        "end_year": 1999,
+        "harvard_hollis_id": [
+          "004095776"
+        ],
+        "slug": "sw2d"
+      },
+      {
+        "id": 612,
+        "full_name": "South Western Reporter Third Series",
+        "short_name": "S.W.3d",
+        "start_year": 1993,
+        "end_year": 2019,
+        "harvard_hollis_id": [
+          "005545018"
+        ],
+        "slug": "sw3d"
+      }
+    ],
+    "case_count": 60608,
+    "volume_count": 1355,
+    "reporter_count": 10,
+    "page_count": 422510
+  },
+  {
+    "id": 37,
+    "slug": "mo",
+    "name": "Mo.",
+    "name_long": "Missouri",
+    "reporters": [
+      {
+        "id": 673,
+        "full_name": "Missouri Reports",
+        "short_name": "Mo.",
+        "start_year": 1821,
+        "end_year": 1956,
+        "harvard_hollis_id": [
+          "000115815"
+        ],
+        "slug": "mo"
+      },
+      {
+        "id": 398,
+        "full_name": "Missouri Appeal Reports",
+        "short_name": "Mo. App.",
+        "start_year": 1876,
+        "end_year": 1994,
+        "harvard_hollis_id": [
+          "004120574"
+        ],
+        "slug": "mo-app"
+      },
+      {
+        "id": 611,
+        "full_name": "South Western Reporter Second Series",
+        "short_name": "S.W.2d",
+        "start_year": 1920,
+        "end_year": 1999,
+        "harvard_hollis_id": [
+          "004095776"
+        ],
+        "slug": "sw2d"
+      },
+      {
+        "id": 612,
+        "full_name": "South Western Reporter Third Series",
+        "short_name": "S.W.3d",
+        "start_year": 1993,
+        "end_year": 2019,
+        "harvard_hollis_id": [
+          "005545018"
+        ],
+        "slug": "sw3d"
+      }
+    ],
+    "case_count": 139635,
+    "volume_count": 1923,
+    "reporter_count": 4,
+    "page_count": 889209
+  },
+  {
+    "id": 20,
+    "slug": "mont",
+    "name": "Mont.",
+    "name_long": "Montana",
+    "reporters": [
+      {
+        "id": 289,
+        "full_name": "Montana Reports",
+        "short_name": "Mont.",
+        "start_year": 1868,
+        "end_year": 2017,
+        "harvard_hollis_id": [
+          "001559417"
+        ],
+        "slug": "mont"
+      }
+    ],
+    "case_count": 28503,
+    "volume_count": 425,
+    "reporter_count": 2,
+    "page_count": 230060
+  },
+  {
+    "id": 41,
+    "slug": "navajo-nation",
+    "name": "Navajo Nation",
+    "name_long": "Navajo Nation",
+    "reporters": [
+      {
+        "id": 453,
+        "full_name": "Navajo Reporter",
+        "short_name": "Navajo Rptr.",
+        "start_year": 1969,
+        "end_year": 2006,
+        "harvard_hollis_id": [
+          "004159753"
+        ],
+        "slug": "navajo-rptr"
+      }
+    ],
+    "case_count": 966,
+    "volume_count": 21,
+    "reporter_count": 2,
+    "page_count": 5237
+  },
+  {
+    "id": 51,
+    "slug": "neb",
+    "name": "Neb.",
+    "name_long": "Nebraska",
+    "reporters": [
+      {
+        "id": 539,
+        "full_name": "Nebraska Reports",
+        "short_name": "Neb.",
+        "start_year": 1871,
+        "end_year": 2008,
+        "harvard_hollis_id": [],
+        "slug": "neb"
+      },
+      {
+        "id": 672,
+        "full_name": "Nebraska Court of Appeals Reports",
+        "short_name": "Neb. App.",
+        "start_year": 1992,
+        "end_year": 2007,
+        "harvard_hollis_id": [
+          "000114839"
+        ],
+        "slug": "neb-app"
+      }
+    ],
+    "case_count": 38910,
+    "volume_count": 315,
+    "reporter_count": 4,
+    "page_count": 286593
+  },
+  {
+    "id": 48,
+    "slug": "nev",
+    "name": "Nev.",
+    "name_long": "Nevada",
+    "reporters": [
+      {
+        "id": 518,
+        "full_name": "Nevada Reports",
+        "short_name": "Nev.",
+        "start_year": 1865,
+        "end_year": 2013,
+        "harvard_hollis_id": [
+          "004016060"
+        ],
+        "slug": "nev"
+      }
+    ],
+    "case_count": 13707,
+    "volume_count": 179,
+    "reporter_count": 3,
+    "page_count": 92680
+  },
+  {
+    "id": 47,
+    "slug": "nh",
+    "name": "N.H.",
+    "name_long": "New Hampshire",
+    "reporters": [
+      {
+        "id": 489,
+        "full_name": "New Hampshire Reports",
+        "short_name": "N.H.",
+        "start_year": 1816,
+        "end_year": 2017,
+        "harvard_hollis_id": [
+          "003753043"
+        ],
+        "slug": "nh"
+      },
+      {
+        "id": 671,
+        "full_name": "Decisions of the Superior and Supreme Courts of New Hampshire, from 1802 to 1809, and from 1813 to 1816.",
+        "short_name": "Smith (N. H.)",
+        "start_year": 1796,
+        "end_year": 1815,
+        "harvard_hollis_id": [
+          "003884418"
+        ],
+        "slug": "smith-n-h"
+      }
+    ],
+    "case_count": 21540,
+    "volume_count": 230,
+    "reporter_count": 4,
+    "page_count": 126934
+  },
+  {
+    "id": 24,
+    "slug": "nj",
+    "name": "N.J.",
+    "name_long": "New Jersey",
+    "reporters": [
+      {
+        "id": 558,
+        "full_name": "New Jersey Reports",
+        "short_name": "N.J.",
+        "start_year": 1878,
+        "end_year": 2018,
+        "harvard_hollis_id": [
+          "005912803"
+        ],
+        "slug": "nj"
+      },
+      {
+        "id": 559,
+        "full_name": "New Jersey Equity Reports",
+        "short_name": "N.J. Eq.",
+        "start_year": 1830,
+        "end_year": 1948,
+        "harvard_hollis_id": [
+          "003851508"
+        ],
+        "slug": "nj-eq"
+      },
+      {
+        "id": 669,
+        "full_name": "Cases Adjudged in the Supreme Court of New-Jersey Relative to the Manumission of Negroes and Others Holden in Bondage",
+        "short_name": "N.J. (Manumission)",
+        "start_year": 1775,
+        "end_year": 1793,
+        "harvard_hollis_id": [
+          "004092224"
+        ],
+        "slug": "nj-manumission"
+      },
+      {
+        "id": 324,
+        "full_name": "New Jersey Miscellaneous Reports",
+        "short_name": "N.J. Misc.",
+        "start_year": 1908,
+        "end_year": 1949,
+        "harvard_hollis_id": [],
+        "slug": "nj-misc"
+      },
+      {
+        "id": 299,
+        "full_name": "New Jersey Superior Court Reports",
+        "short_name": "N.J. Super.",
+        "start_year": 1944,
+        "end_year": 2018,
+        "harvard_hollis_id": [
+          "007043893"
+        ],
+        "slug": "nj-super"
+      },
+      {
+        "id": 550,
+        "full_name": "New Jersey Tax Court Reports",
+        "short_name": "N.J. Tax",
+        "start_year": 1979,
+        "end_year": 2015,
+        "harvard_hollis_id": [
+          "003840164"
+        ],
+        "slug": "nj-tax"
+      },
+      {
+        "id": 551,
+        "full_name": "New Jersey Law Reports",
+        "short_name": "N.J.L.",
+        "start_year": 1789,
+        "end_year": 1948,
+        "harvard_hollis_id": [
+          "003106969"
+        ],
+        "slug": "njl"
+      }
+    ],
+    "case_count": 116256,
+    "volume_count": 1077,
+    "reporter_count": 9,
+    "page_count": 712323
+  },
+  {
+    "id": 52,
+    "slug": "nm",
+    "name": "N.M.",
+    "name_long": "New Mexico",
+    "reporters": [
+      {
+        "id": 554,
+        "full_name": "New Mexico Reports",
+        "short_name": "N.M.",
+        "start_year": 1852,
+        "end_year": 2011,
+        "harvard_hollis_id": [
+          "003852707"
+        ],
+        "slug": "nm"
+      },
+      {
+        "id": 1028,
+        "full_name": "New Mexico Appellate Reports",
+        "short_name": "N.M. App.",
+        "start_year": 2011,
+        "end_year": 2016,
+        "harvard_hollis_id": [
+          "005571606"
+        ],
+        "slug": "nm-app"
+      }
+    ],
+    "case_count": 18469,
+    "volume_count": 189,
+    "reporter_count": 3,
+    "page_count": 126584
+  },
+  {
+    "id": 1,
+    "slug": "ny",
+    "name": "N.Y.",
+    "name_long": "New York",
+    "reporters": [
+      {
+        "id": 137,
+        "full_name": "Abbott's Court of Appeals Decisions",
+        "short_name": "Abb. Ct. App.",
+        "start_year": 1807,
+        "end_year": 1869,
+        "harvard_hollis_id": [],
+        "slug": "abb-ct-app"
+      },
+      {
+        "id": 29,
+        "full_name": "Abbott's Practice Reports",
+        "short_name": "Abb. Pr.",
+        "start_year": 1847,
+        "end_year": 1868,
+        "harvard_hollis_id": [],
+        "slug": "abb-pr"
+      },
+      {
+        "id": 989,
+        "full_name": "Abbott's Practice Reports",
+        "short_name": "Abb. Pr. (n.s.)",
+        "start_year": 1856,
+        "end_year": 1875,
+        "harvard_hollis_id": [
+          "000114402"
+        ],
+        "slug": "abb-pr-ns"
+      },
+      {
+        "id": 23,
+        "full_name": "Abbott's New Cases",
+        "short_name": "Abb.N. Cas.",
+        "start_year": 1870,
+        "end_year": 1894,
+        "harvard_hollis_id": [
+          "003709112"
+        ],
+        "slug": "abbn-cas"
+      },
+      {
+        "id": 107,
+        "full_name": "Appellate Division Reports",
+        "short_name": "A.D.",
+        "start_year": 1714,
+        "end_year": 1991,
+        "harvard_hollis_id": [
+          "003871136"
+        ],
+        "slug": "ad"
+      },
+      {
+        "id": 108,
+        "full_name": "Appellate Division Reports",
+        "short_name": "A.D.2d",
+        "start_year": 1939,
+        "end_year": 2003,
+        "harvard_hollis_id": [
+          "002333484"
+        ],
+        "slug": "ad2d"
+      },
+      {
+        "id": 109,
+        "full_name": "Appellate Division Reports",
+        "short_name": "A.D.3d",
+        "start_year": 2002,
+        "end_year": 2018,
+        "harvard_hollis_id": [
+          "000412315"
+        ],
+        "slug": "ad3d"
+      },
+      {
+        "id": 119,
+        "full_name": "Anthon's Nisi Prius Cases",
+        "short_name": "Ant. N.P. Cas.",
+        "start_year": 1807,
+        "end_year": 1851,
+        "harvard_hollis_id": [],
+        "slug": "ant-np-cas"
+      },
+      {
+        "id": 135,
+        "full_name": "Armstrong's Contested Election Cases in New York",
+        "short_name": "Armstrong. Election Cases",
+        "start_year": 1778,
+        "end_year": 1871,
+        "harvard_hollis_id": [],
+        "slug": "armstrong-election-cases"
+      },
+      {
+        "id": 112,
+        "full_name": "Barbour's Supreme Court Reports",
+        "short_name": "Barb.",
+        "start_year": 1847,
+        "end_year": 1885,
+        "harvard_hollis_id": [
+          "003504877"
+        ],
+        "slug": "barb"
+      },
+      {
+        "id": 2,
+        "full_name": "Barbour's Chancery Reports",
+        "short_name": "Barb. Ch.",
+        "start_year": 1845,
+        "end_year": 1848,
+        "harvard_hollis_id": [
+          "003876484"
+        ],
+        "slug": "barb-ch"
+      },
+      {
+        "id": 131,
+        "full_name": "Bradford's Reports",
+        "short_name": "Brad.",
+        "start_year": 1849,
+        "end_year": 1857,
+        "harvard_hollis_id": [],
+        "slug": "brad"
+      },
+      {
+        "id": 123,
+        "full_name": "Caines' Reports",
+        "short_name": "Cai.",
+        "start_year": 1803,
+        "end_year": 1805,
+        "harvard_hollis_id": [],
+        "slug": "cai"
+      },
+      {
+        "id": 124,
+        "full_name": "Caines' Cases",
+        "short_name": "Cai. Cas.",
+        "start_year": 1796,
+        "end_year": 1805,
+        "harvard_hollis_id": [],
+        "slug": "cai-cas"
+      },
+      {
+        "id": 6,
+        "full_name": "Clarke's Chancery Reports",
+        "short_name": "Cl. Ch.",
+        "start_year": 1839,
+        "end_year": 1841,
+        "harvard_hollis_id": [
+          "003876667"
+        ],
+        "slug": "cl-ch"
+      },
+      {
+        "id": 125,
+        "full_name": "Coleman & Caines' Cases",
+        "short_name": "Cole. & Cai. Cas.",
+        "start_year": 1794,
+        "end_year": 1805,
+        "harvard_hollis_id": [],
+        "slug": "cole-cai-cas"
+      },
+      {
+        "id": 127,
+        "full_name": "Coleman's Cases",
+        "short_name": "Cole. Cas.",
+        "start_year": 1794,
+        "end_year": 1800,
+        "harvard_hollis_id": [],
+        "slug": "cole-cas"
+      },
+      {
+        "id": 148,
+        "full_name": "Connoly's Surrogate's Reports",
+        "short_name": "Connoly Sur. Rep.",
+        "start_year": 1888,
+        "end_year": 1891,
+        "harvard_hollis_id": [],
+        "slug": "connoly-sur-rep"
+      },
+      {
+        "id": 121,
+        "full_name": "Cowen's Reports",
+        "short_name": "Cow.",
+        "start_year": 1821,
+        "end_year": 1829,
+        "harvard_hollis_id": [
+          "003733776"
+        ],
+        "slug": "cow"
+      },
+      {
+        "id": 166,
+        "full_name": "Daly's Common Pleas Reports",
+        "short_name": "Daly (N.Y.)",
+        "start_year": 1848,
+        "end_year": 1891,
+        "harvard_hollis_id": [],
+        "slug": "daly-ny"
+      },
+      {
+        "id": 147,
+        "full_name": "Demarest's Surrogate's Reports",
+        "short_name": "Dem. Sur.",
+        "start_year": 1879,
+        "end_year": 1888,
+        "harvard_hollis_id": [],
+        "slug": "dem-sur"
+      },
+      {
+        "id": 114,
+        "full_name": "Denio's Reports",
+        "short_name": "Denio",
+        "start_year": 1845,
+        "end_year": 1848,
+        "harvard_hollis_id": [],
+        "slug": "denio"
+      },
+      {
+        "id": 167,
+        "full_name": "E.D. Smith's Common Pleas Reports",
+        "short_name": "E.D. Smith",
+        "start_year": 1850,
+        "end_year": 1862,
+        "harvard_hollis_id": [],
+        "slug": "ed-smith"
+      },
+      {
+        "id": 117,
+        "full_name": "Edmond's Select Cases",
+        "short_name": "Edm. Sel. Cas.",
+        "start_year": 1834,
+        "end_year": 1853,
+        "harvard_hollis_id": [],
+        "slug": "edm-sel-cas"
+      },
+      {
+        "id": 1,
+        "full_name": "Edwards' Chancery Reports",
+        "short_name": "Edw. Ch.",
+        "start_year": 1831,
+        "end_year": 1850,
+        "harvard_hollis_id": [
+          "003774562"
+        ],
+        "slug": "edw-ch"
+      },
+      {
+        "id": 149,
+        "full_name": "Gibbons' Surrogate's Reports",
+        "short_name": "Gibb. Surr.",
+        "start_year": 1893,
+        "end_year": 1898,
+        "harvard_hollis_id": [],
+        "slug": "gibb-surr"
+      },
+      {
+        "id": 116,
+        "full_name": "Hill's Reports",
+        "short_name": "Hill",
+        "start_year": 1841,
+        "end_year": 1941,
+        "harvard_hollis_id": [],
+        "slug": "hill"
+      },
+      {
+        "id": 115,
+        "full_name": "Hill and Denio Supplement (Labor)",
+        "short_name": "Hill & Den.",
+        "start_year": 1842,
+        "end_year": 1852,
+        "harvard_hollis_id": [],
+        "slug": "hill-den"
+      },
+      {
+        "id": 168,
+        "full_name": "Hilton's Common Pleas Reports",
+        "short_name": "Hilt.",
+        "start_year": 1855,
+        "end_year": 1860,
+        "harvard_hollis_id": [],
+        "slug": "hilt"
+      },
+      {
+        "id": 7,
+        "full_name": "Hoffman's Chancery Reports",
+        "short_name": "Hoff. Ch.",
+        "start_year": 1839,
+        "end_year": 1840,
+        "harvard_hollis_id": [
+          "003871362"
+        ],
+        "slug": "hoff-ch"
+      },
+      {
+        "id": 8,
+        "full_name": "Hopkins' Chancery Reports",
+        "short_name": "Hopk. Ch.",
+        "start_year": 1823,
+        "end_year": 1826,
+        "harvard_hollis_id": [
+          "003876323"
+        ],
+        "slug": "hopk-ch"
+      },
+      {
+        "id": 136,
+        "full_name": "Howard's Appeal Cases",
+        "short_name": "How. App. Cas.",
+        "start_year": 1847,
+        "end_year": 1848,
+        "harvard_hollis_id": [],
+        "slug": "how-app-cas"
+      },
+      {
+        "id": 35,
+        "full_name": "Howard's Practice Reports",
+        "short_name": "How. Pr.",
+        "start_year": 1819,
+        "end_year": 1973,
+        "harvard_hollis_id": [
+          "007570389"
+        ],
+        "slug": "how-pr"
+      },
+      {
+        "id": 991,
+        "full_name": "Howard's Practice Reports",
+        "short_name": "How. Pr. (n.s.)",
+        "start_year": 1855,
+        "end_year": 1886,
+        "harvard_hollis_id": [
+          "005563794"
+        ],
+        "slug": "how-pr-ns"
+      },
+      {
+        "id": 122,
+        "full_name": "Johnson's Reports",
+        "short_name": "Johns.",
+        "start_year": 1806,
+        "end_year": 1823,
+        "harvard_hollis_id": [
+          "007165936"
+        ],
+        "slug": "johns"
+      },
+      {
+        "id": 126,
+        "full_name": "Johnson's Cases",
+        "short_name": "Johns. Cas.",
+        "start_year": 1798,
+        "end_year": 1810,
+        "harvard_hollis_id": [],
+        "slug": "johns-cas"
+      },
+      {
+        "id": 10,
+        "full_name": "Johnson's Chancery Reports",
+        "short_name": "Johns. Ch.",
+        "start_year": 1814,
+        "end_year": 1823,
+        "harvard_hollis_id": [
+          "003816923"
+        ],
+        "slug": "johns-ch"
+      },
+      {
+        "id": 139,
+        "full_name": "Keyes' Reports",
+        "short_name": "Keyes",
+        "start_year": 1863,
+        "end_year": 1868,
+        "harvard_hollis_id": [],
+        "slug": "keyes"
+      },
+      {
+        "id": 111,
+        "full_name": "Lansing's Reports",
+        "short_name": "Lans.",
+        "start_year": 1867,
+        "end_year": 1873,
+        "harvard_hollis_id": [
+          "003937993"
+        ],
+        "slug": "lans"
+      },
+      {
+        "id": 9,
+        "full_name": "Lansing's Chancery Reports",
+        "short_name": "Lans. Ch.",
+        "start_year": 1824,
+        "end_year": 1826,
+        "harvard_hollis_id": [
+          "003876663"
+        ],
+        "slug": "lans-ch"
+      },
+      {
+        "id": 152,
+        "full_name": "Liquor Tax Law Reports",
+        "short_name": "Liquor Tax Rep.",
+        "start_year": 1896,
+        "end_year": 1905,
+        "harvard_hollis_id": [],
+        "slug": "liquor-tax-rep"
+      },
+      {
+        "id": 113,
+        "full_name": "Lockwood's Reversed Cases",
+        "short_name": "Lock. Rev. Cas.",
+        "start_year": 1799,
+        "end_year": 1836,
+        "harvard_hollis_id": [
+          "003870840"
+        ],
+        "slug": "lock-rev-cas"
+      },
+      {
+        "id": 150,
+        "full_name": "Mills' Surrogate's Reports",
+        "short_name": "Mills Surr.",
+        "start_year": 1890,
+        "end_year": 1917,
+        "harvard_hollis_id": [],
+        "slug": "mills-surr"
+      },
+      {
+        "id": 65,
+        "full_name": "New York Miscellaneous Reports",
+        "short_name": "Misc.",
+        "start_year": 1808,
+        "end_year": 1955,
+        "harvard_hollis_id": [
+          "003723282"
+        ],
+        "slug": "misc"
+      },
+      {
+        "id": 77,
+        "full_name": "New York Miscellaneous Reports",
+        "short_name": "Misc.2d",
+        "start_year": 1878,
+        "end_year": 2003,
+        "harvard_hollis_id": [
+          "003871885"
+        ],
+        "slug": "misc2d"
+      },
+      {
+        "id": 83,
+        "full_name": "New York Miscellaneous Reports",
+        "short_name": "Misc.3d",
+        "start_year": 2002,
+        "end_year": 2017,
+        "harvard_hollis_id": [],
+        "slug": "misc3d"
+      },
+      {
+        "id": 20,
+        "full_name": "New York Reports",
+        "short_name": "N.Y.",
+        "start_year": 1800,
+        "end_year": 1997,
+        "harvard_hollis_id": [],
+        "slug": "ny"
+      },
+      {
+        "id": 21,
+        "full_name": "New York Reports",
+        "short_name": "N.Y. 2d",
+        "start_year": 1956,
+        "end_year": 2003,
+        "harvard_hollis_id": [],
+        "slug": "ny-2d"
+      },
+      {
+        "id": 169,
+        "full_name": "City Court Reports",
+        "short_name": "N.Y. City Ct. Rep.",
+        "start_year": 1864,
+        "end_year": 1889,
+        "harvard_hollis_id": [],
+        "slug": "ny-city-ct-rep"
+      },
+      {
+        "id": 143,
+        "full_name": "New York Criminal Reports",
+        "short_name": "N.Y. Crim.",
+        "start_year": 1810,
+        "end_year": 1924,
+        "harvard_hollis_id": [],
+        "slug": "ny-crim"
+      },
+      {
+        "id": 970,
+        "full_name": "Proceedings of the General Court of Assizes held in the city of New York, October 6,1680, to October 6, 1682",
+        "short_name": "N.Y. Proc. Ct. Ass.",
+        "start_year": 1682,
+        "end_year": 1682,
+        "harvard_hollis_id": [
+          "005681290"
+        ],
+        "slug": "ny-proc-ct-ass"
+      },
+      {
+        "id": 160,
+        "full_name": "New York State Reporter",
+        "short_name": "N.Y. St. Rep.",
+        "start_year": 1833,
+        "end_year": 1898,
+        "harvard_hollis_id": [],
+        "slug": "ny-st-rep"
+      },
+      {
+        "id": 110,
+        "full_name": "Supreme Court Reports (Hun)",
+        "short_name": "N.Y. Sup. Ct.",
+        "start_year": 1873,
+        "end_year": 1895,
+        "harvard_hollis_id": [
+          "004195772"
+        ],
+        "slug": "ny-sup-ct"
+      },
+      {
+        "id": 1088,
+        "full_name": "Reports of cases argued and determined in the Superior Court of the city of New York",
+        "short_name": "N.Y. Super. Ct.",
+        "start_year": 1819,
+        "end_year": 1892,
+        "harvard_hollis_id": [],
+        "slug": "ny-super-ct"
+      },
+      {
+        "id": 22,
+        "full_name": "New York Reports",
+        "short_name": "N.Y.3d",
+        "start_year": 2003,
+        "end_year": 2017,
+        "harvard_hollis_id": [],
+        "slug": "ny3d"
+      },
+      {
+        "id": 89,
+        "full_name": "West's New York Supplement",
+        "short_name": "N.Y.S.",
+        "start_year": 1832,
+        "end_year": 1990,
+        "harvard_hollis_id": [
+          "003811966"
+        ],
+        "slug": "nys"
+      },
+      {
+        "id": 5,
+        "full_name": "Paige's Chancery Reports",
+        "short_name": "Paige Ch.",
+        "start_year": 1828,
+        "end_year": 1845,
+        "harvard_hollis_id": [
+          "003875890"
+        ],
+        "slug": "paige-ch"
+      },
+      {
+        "id": 129,
+        "full_name": "Parker's Criminal Reports",
+        "short_name": "Park. Crim. Rep.",
+        "start_year": 1823,
+        "end_year": 1868,
+        "harvard_hollis_id": [],
+        "slug": "park-crim-rep"
+      },
+      {
+        "id": 151,
+        "full_name": "Power's Surrogate's Reports",
+        "short_name": "Pow. Surr.",
+        "start_year": 1890,
+        "end_year": 1894,
+        "harvard_hollis_id": [],
+        "slug": "pow-surr"
+      },
+      {
+        "id": 130,
+        "full_name": "Redfield's Reports",
+        "short_name": "Redf.",
+        "start_year": 1846,
+        "end_year": 1882,
+        "harvard_hollis_id": [],
+        "slug": "redf"
+      },
+      {
+        "id": 3,
+        "full_name": "Sandford's Chancery Reports",
+        "short_name": "Sand. Ch.",
+        "start_year": 1843,
+        "end_year": 1847,
+        "harvard_hollis_id": [
+          "003875740"
+        ],
+        "slug": "sand-ch"
+      },
+      {
+        "id": 4,
+        "full_name": "Saratoga Chancery Sentinel",
+        "short_name": "Sarat. Ch. Sent.",
+        "start_year": 1841,
+        "end_year": 1847,
+        "harvard_hollis_id": [
+          "003895780"
+        ],
+        "slug": "sarat-ch-sent"
+      },
+      {
+        "id": 138,
+        "full_name": "Selden's Notes of Cases",
+        "short_name": "Seld. Notes",
+        "start_year": 1852,
+        "end_year": 1854,
+        "harvard_hollis_id": [],
+        "slug": "seld-notes"
+      },
+      {
+        "id": 141,
+        "full_name": "Silvernail's Court of Appeals Reports",
+        "short_name": "Silv. Ct. App.",
+        "start_year": 1886,
+        "end_year": 1892,
+        "harvard_hollis_id": [],
+        "slug": "silv-ct-app"
+      },
+      {
+        "id": 142,
+        "full_name": "Silvernail's Supreme Court Reports",
+        "short_name": "Silv. Sup.",
+        "start_year": 1884,
+        "end_year": 1890,
+        "harvard_hollis_id": [],
+        "slug": "silv-sup"
+      },
+      {
+        "id": 134,
+        "full_name": "Thompson & Cook's Supreme Court Reports",
+        "short_name": "Thomp. & Cook",
+        "start_year": 1873,
+        "end_year": 1875,
+        "harvard_hollis_id": [],
+        "slug": "thomp-cook"
+      },
+      {
+        "id": 140,
+        "full_name": "Transcript Appeals",
+        "short_name": "Trans. App.",
+        "start_year": 1867,
+        "end_year": 1868,
+        "harvard_hollis_id": [],
+        "slug": "trans-app"
+      },
+      {
+        "id": 146,
+        "full_name": "Tucker's Surrogate's Reports",
+        "short_name": "Tuck. Surr.",
+        "start_year": 1870,
+        "end_year": 1870,
+        "harvard_hollis_id": [],
+        "slug": "tuck-surr"
+      },
+      {
+        "id": 120,
+        "full_name": "Wendell's Reports",
+        "short_name": "Wend.",
+        "start_year": 1824,
+        "end_year": 1841,
+        "harvard_hollis_id": [
+          "005402476"
+        ],
+        "slug": "wend"
+      },
+      {
+        "id": 145,
+        "full_name": "Wheeler's Criminal Cases",
+        "short_name": "Wheel. Cr. Cas.",
+        "start_year": 1791,
+        "end_year": 1825,
+        "harvard_hollis_id": [],
+        "slug": "wheel-cr-cas"
+      }
+    ],
+    "case_count": 1109433,
+    "volume_count": 2544,
+    "reporter_count": 75,
+    "page_count": 3045639
+  },
+  {
+    "id": 5,
+    "slug": "nc",
+    "name": "N.C.",
+    "name_long": "North Carolina",
+    "reporters": [
+      {
+        "id": 549,
+        "full_name": "North Carolina Reports",
+        "short_name": "N.C.",
+        "start_year": 1778,
+        "end_year": 2017,
+        "harvard_hollis_id": [
+          "003840006"
+        ],
+        "slug": "nc"
+      },
+      {
+        "id": 365,
+        "full_name": "North Carolina Court of Appeals Reports",
+        "short_name": "N.C. App.",
+        "start_year": 1963,
+        "end_year": 2014,
+        "harvard_hollis_id": [
+          "005936180"
+        ],
+        "slug": "nc-app"
+      }
+    ],
+    "case_count": 118446,
+    "volume_count": 757,
+    "reporter_count": 6,
+    "page_count": 546518
+  },
+  {
+    "id": 18,
+    "slug": "nd",
+    "name": "N.D.",
+    "name_long": "North Dakota",
+    "reporters": [
+      {
+        "id": 286,
+        "full_name": "North Dakota Reports",
+        "short_name": "N.D.",
+        "start_year": 1807,
+        "end_year": 1953,
+        "harvard_hollis_id": [],
+        "slug": "nd"
+      },
+      {
+        "id": 892,
+        "full_name": "North Western Reporter 2d",
+        "short_name": "N.W.2d",
+        "start_year": 1952,
+        "end_year": 2019,
+        "harvard_hollis_id": [
+          "005700759"
+        ],
+        "slug": "nw2d"
+      }
+    ],
+    "case_count": 17017,
+    "volume_count": 944,
+    "reporter_count": 2,
+    "page_count": 131604
+  },
+  {
+    "id": 57,
+    "slug": "n-mar-i",
+    "name": "N. Mar. I.",
+    "name_long": "Northern Mariana Islands",
+    "reporters": [
+      {
+        "id": 1031,
+        "full_name": "Northern Mariana Islands Reporter",
+        "short_name": "N. Mar. I.",
+        "start_year": 1989,
+        "end_year": 1999,
+        "harvard_hollis_id": [
+          "005571744"
+        ],
+        "slug": "n-mar-i"
+      }
+    ],
+    "case_count": 395,
+    "volume_count": 8,
+    "reporter_count": 2,
+    "page_count": 3821
+  },
+  {
+    "id": 22,
+    "slug": "ohio",
+    "name": "Ohio",
+    "name_long": "Ohio",
+    "reporters": [
+      {
+        "id": 784,
+        "full_name": "The Cincinnati Superior court reporter",
+        "short_name": "Cin. Sup. Ct. Rep.",
+        "start_year": 1868,
+        "end_year": 1873,
+        "harvard_hollis_id": [
+          "003117759"
+        ],
+        "slug": "cin-sup-ct-rep"
+      },
+      {
+        "id": 778,
+        "full_name": "Reports of cases adjudged in the Superior Court of Cincinnati at special and general terms (Disney)",
+        "short_name": "Disney (Ohio)",
+        "start_year": 1853,
+        "end_year": 1859,
+        "harvard_hollis_id": [
+          "001361678"
+        ],
+        "slug": "disney-ohio"
+      },
+      {
+        "id": 783,
+        "full_name": "Reports of select cases argued and determined in the Probate court of Hamilton county, Ohio",
+        "short_name": "Goebel",
+        "start_year": 1885,
+        "end_year": 1890,
+        "harvard_hollis_id": [
+          "000139219"
+        ],
+        "slug": "goebel"
+      },
+      {
+        "id": 779,
+        "full_name": "Reports of cases argued and adjudged in the Superior Court of Cincinnati",
+        "short_name": "Handy",
+        "start_year": 1854,
+        "end_year": 1855,
+        "harvard_hollis_id": [
+          "003901287"
+        ],
+        "slug": "handy"
+      },
+      {
+        "id": 774,
+        "full_name": "Cincinnati Superior Court Decisions (Hosea)",
+        "short_name": "Hosea's Rep.",
+        "start_year": 1907,
+        "end_year": 1907,
+        "harvard_hollis_id": [
+          "005965515"
+        ],
+        "slug": "hoseas-rep"
+      },
+      {
+        "id": 781,
+        "full_name": "Cases decided in the supreme court of ohio : upon the circuit at the special sessions in Columbus",
+        "short_name": "Ohio",
+        "start_year": 1821,
+        "end_year": 1851,
+        "harvard_hollis_id": [
+          "005963534"
+        ],
+        "slug": "ohio"
+      },
+      {
+        "id": 397,
+        "full_name": "Ohio Appellate Reports",
+        "short_name": "Ohio App.",
+        "start_year": 1913,
+        "end_year": 1964,
+        "harvard_hollis_id": [
+          "005687716"
+        ],
+        "slug": "ohio-app"
+      },
+      {
+        "id": 400,
+        "full_name": "Ohio Appellate Reports, Second Series",
+        "short_name": "Ohio App. 2d",
+        "start_year": 1960,
+        "end_year": 1981,
+        "harvard_hollis_id": [
+          "005683746"
+        ],
+        "slug": "ohio-app-2d"
+      },
+      {
+        "id": 985,
+        "full_name": "Ohio Appellate Reports, Third Series",
+        "short_name": "Ohio App. 3d",
+        "start_year": 1979,
+        "end_year": 2012,
+        "harvard_hollis_id": [],
+        "slug": "ohio-app-3d"
+      },
+      {
+        "id": 772,
+        "full_name": "Anderson's Unreported Ohio Appellate Cases:  cases argued and determined in the Ohio courts of appeal",
+        "short_name": "Ohio App. Unrep.",
+        "start_year": 1990,
+        "end_year": 1991,
+        "harvard_hollis_id": [
+          "003881683"
+        ],
+        "slug": "ohio-app-unrep"
+      },
+      {
+        "id": 1039,
+        "full_name": "Ohio Court of Appeals Reports",
+        "short_name": "Ohio C.A.",
+        "start_year": 1906,
+        "end_year": 1923,
+        "harvard_hollis_id": [
+          "008939061"
+        ],
+        "slug": "ohio-ca"
+      },
+      {
+        "id": 780,
+        "full_name": "Reports of cases argued and determined in the circuit courts of Ohio",
+        "short_name": "Ohio C.C.",
+        "start_year": 1869,
+        "end_year": 1901,
+        "harvard_hollis_id": [
+          "003900605"
+        ],
+        "slug": "ohio-cc"
+      },
+      {
+        "id": 1071,
+        "full_name": "Ohio Circuit Court Decisions",
+        "short_name": "Ohio C.C. Dec.",
+        "start_year": 1891,
+        "end_year": 1923,
+        "harvard_hollis_id": [
+          "003938681"
+        ],
+        "slug": "ohio-cc-dec"
+      },
+      {
+        "id": 775,
+        "full_name": "Ohio Circuit Court Reports (new series)",
+        "short_name": "Ohio C.C. (N.S.)",
+        "start_year": 1892,
+        "end_year": 1917,
+        "harvard_hollis_id": [
+          "005928315"
+        ],
+        "slug": "ohio-cc-ns"
+      },
+      {
+        "id": 782,
+        "full_name": "Reports of cases at law and in chancery Ohio",
+        "short_name": "Ohio Ch.",
+        "start_year": 1831,
+        "end_year": 1834,
+        "harvard_hollis_id": [
+          "000131342"
+        ],
+        "slug": "ohio-ch"
+      },
+      {
+        "id": 1072,
+        "full_name": "Ohio Circuit Decisions",
+        "short_name": "Ohio Cir. Dec.",
+        "start_year": 1879,
+        "end_year": 1909,
+        "harvard_hollis_id": [
+          "003938681"
+        ],
+        "slug": "ohio-cir-dec"
+      },
+      {
+        "id": 953,
+        "full_name": "The Ohio Law Abstract",
+        "short_name": "Ohio Law Abs.",
+        "start_year": 1846,
+        "end_year": 1964,
+        "harvard_hollis_id": [
+          "004085590"
+        ],
+        "slug": "ohio-law-abs"
+      },
+      {
+        "id": 954,
+        "full_name": "The Ohio Law Reporter; a weekly journal published in the interest of the legal profession in the state of Ohio",
+        "short_name": "Ohio L.R.",
+        "start_year": 1903,
+        "end_year": 1965,
+        "harvard_hollis_id": [
+          "003870995"
+        ],
+        "slug": "ohio-lr"
+      },
+      {
+        "id": 294,
+        "full_name": "Ohio Miscellaneous Reports",
+        "short_name": "Ohio Misc.",
+        "start_year": 1943,
+        "end_year": 1982,
+        "harvard_hollis_id": [],
+        "slug": "ohio-misc"
+      },
+      {
+        "id": 986,
+        "full_name": "Ohio Miscellaneous Reports, Second Series",
+        "short_name": "Ohio Misc. 2d",
+        "start_year": 1981,
+        "end_year": 2012,
+        "harvard_hollis_id": [],
+        "slug": "ohio-misc-2d"
+      },
+      {
+        "id": 776,
+        "full_name": "Ohio nisi prius and general term reports",
+        "short_name": "Ohio N.P.",
+        "start_year": 1881,
+        "end_year": 1908,
+        "harvard_hollis_id": [
+          "001361450"
+        ],
+        "slug": "ohio-np"
+      },
+      {
+        "id": 777,
+        "full_name": "Ohio nisi prius and general term reports (new series)",
+        "short_name": "Ohio N.P. (n.s.)",
+        "start_year": 1894,
+        "end_year": 1934,
+        "harvard_hollis_id": [
+          "000114138"
+        ],
+        "slug": "ohio-np-ns"
+      },
+      {
+        "id": 544,
+        "full_name": "Ohio State Reports, New Service",
+        "short_name": "Ohio St.",
+        "start_year": 1852,
+        "end_year": 1964,
+        "harvard_hollis_id": [
+          "003839423"
+        ],
+        "slug": "ohio-st"
+      },
+      {
+        "id": 545,
+        "full_name": "Ohio State Reports, Second Series",
+        "short_name": "Ohio St. 2d",
+        "start_year": 1964,
+        "end_year": 1982,
+        "harvard_hollis_id": [
+          "003734328"
+        ],
+        "slug": "ohio-st-2d"
+      },
+      {
+        "id": 546,
+        "full_name": "Ohio State Reports, Third Service",
+        "short_name": "Ohio St. 3d",
+        "start_year": 1982,
+        "end_year": 2018,
+        "harvard_hollis_id": [
+          "003839203"
+        ],
+        "slug": "ohio-st-3d"
+      },
+      {
+        "id": 773,
+        "full_name": "Cases decided in the Courts of common pleas, in the Fifth circuit of the state of Ohio [1816-1819] (Tappan)",
+        "short_name": "Tapp. Rep.",
+        "start_year": 1816,
+        "end_year": 1819,
+        "harvard_hollis_id": [
+          "003693811"
+        ],
+        "slug": "tapp-rep"
+      },
+      {
+        "id": 751,
+        "full_name": "Reports of cases at law and in chancery, decided by the Supreme court of Ohio, during the years 1831, 1832, 1833, 1834.",
+        "short_name": "Wright",
+        "start_year": 1831,
+        "end_year": 1883,
+        "harvard_hollis_id": [
+          "002439731"
+        ],
+        "slug": "wright"
+      }
+    ],
+    "case_count": 154247,
+    "volume_count": 1330,
+    "reporter_count": 32,
+    "page_count": 716296
+  },
+  {
+    "id": 13,
+    "slug": "okla",
+    "name": "Okla.",
+    "name_long": "Oklahoma",
+    "reporters": [
+      {
+        "id": 1069,
+        "full_name": "Indian Territory Reports",
+        "short_name": "Indian Terr.",
+        "start_year": 1895,
+        "end_year": 1907,
+        "harvard_hollis_id": [
+          "003937767"
+        ],
+        "slug": "indian-terr"
+      },
+      {
+        "id": 270,
+        "full_name": "Oklahoma Reports",
+        "short_name": "Okla.",
+        "start_year": 1890,
+        "end_year": 1953,
+        "harvard_hollis_id": [
+          "002653202"
+        ],
+        "slug": "okla"
+      },
+      {
+        "id": 523,
+        "full_name": "Oklahoma Criminal Reports",
+        "short_name": "Okla. Crim.",
+        "start_year": 1908,
+        "end_year": 1953,
+        "harvard_hollis_id": [
+          "003826111"
+        ],
+        "slug": "okla-crim"
+      },
+      {
+        "id": 972,
+        "full_name": "Pacific Reporter 2d",
+        "short_name": "P.2d",
+        "start_year": 1939,
+        "end_year": 2000,
+        "harvard_hollis_id": [
+          "005402106"
+        ],
+        "slug": "p2d"
+      },
+      {
+        "id": 894,
+        "full_name": "Pacific Reporter 3d",
+        "short_name": "P.3d",
+        "start_year": 1976,
+        "end_year": 2019,
+        "harvard_hollis_id": [
+          "000632011"
+        ],
+        "slug": "p3d"
+      }
+    ],
+    "case_count": 67134,
+    "volume_count": 1502,
+    "reporter_count": 5,
+    "page_count": 323448
+  },
+  {
+    "id": 19,
+    "slug": "or",
+    "name": "Or.",
+    "name_long": "Oregon",
+    "reporters": [
+      {
+        "id": 288,
+        "full_name": "Oregon Reports",
+        "short_name": "Or.",
+        "start_year": 1847,
+        "end_year": 2017,
+        "harvard_hollis_id": [],
+        "slug": "or"
+      },
+      {
+        "id": 411,
+        "full_name": "Oregon Reports, Court of Appeals",
+        "short_name": "Or. App.",
+        "start_year": 1969,
+        "end_year": 2017,
+        "harvard_hollis_id": [],
+        "slug": "or-app"
+      },
+      {
+        "id": 362,
+        "full_name": "Oregon Tax Reports",
+        "short_name": "Or. Tax",
+        "start_year": 1962,
+        "end_year": 2006,
+        "harvard_hollis_id": [
+          "003880141"
+        ],
+        "slug": "or-tax"
+      }
+    ],
+    "case_count": 59660,
+    "volume_count": 704,
+    "reporter_count": 4,
+    "page_count": 477696
+  },
+  {
+    "id": 6,
+    "slug": "pa",
+    "name": "Pa.",
+    "name_long": "Pennsylvania",
+    "reporters": [
+      {
+        "id": 210,
+        "full_name": "West's Atlantic Reporter, Second Series",
+        "short_name": "A.2d",
+        "start_year": 1942,
+        "end_year": 2010,
+        "harvard_hollis_id": [],
+        "slug": "a2d"
+      },
+      {
+        "id": 964,
+        "full_name": "West's Atlantic Reporter, Third Series",
+        "short_name": "A.3d",
+        "start_year": 2004,
+        "end_year": 2019,
+        "harvard_hollis_id": [
+          "001603965"
+        ],
+        "slug": "a3d"
+      },
+      {
+        "id": 188,
+        "full_name": "Addison",
+        "short_name": "Add.",
+        "start_year": 1791,
+        "end_year": 1799,
+        "harvard_hollis_id": [
+          "000129760"
+        ],
+        "slug": "add"
+      },
+      {
+        "id": 835,
+        "full_name": "Reports of cases adjudged in the Supreme Court of Pennsylvania (Binney)",
+        "short_name": "Binn.",
+        "start_year": 1799,
+        "end_year": 1814,
+        "harvard_hollis_id": [
+          "005388130"
+        ],
+        "slug": "binn"
+      },
+      {
+        "id": 843,
+        "full_name": "Reports of cases decided by the judges of the supreme court of Pennsylvania, in the court of nisi prius",
+        "short_name": "Brightly",
+        "start_year": 1809,
+        "end_year": 1851,
+        "harvard_hollis_id": [
+          "000627021"
+        ],
+        "slug": "brightly"
+      },
+      {
+        "id": 187,
+        "full_name": "Dallas",
+        "short_name": "Dall.",
+        "start_year": 1759,
+        "end_year": 1789,
+        "harvard_hollis_id": [],
+        "slug": "dall"
+      },
+      {
+        "id": 955,
+        "full_name": "Legal Chronicle reports of Cases decided in the Supreme Court of Pennsylvania (Foster)",
+        "short_name": "Foster",
+        "start_year": 1870,
+        "end_year": 1875,
+        "harvard_hollis_id": [
+          "003870985"
+        ],
+        "slug": "foster"
+      },
+      {
+        "id": 841,
+        "full_name": "Reports of cases argued and adjudged in the Supreme Court of Pennsylvania (Grant)",
+        "short_name": "Grant",
+        "start_year": 1814,
+        "end_year": 1864,
+        "harvard_hollis_id": [
+          "000114138"
+        ],
+        "slug": "grant"
+      },
+      {
+        "id": 956,
+        "full_name": "Law Times (New Series)",
+        "short_name": "Law Times (N.S.)",
+        "start_year": 1876,
+        "end_year": 1879,
+        "harvard_hollis_id": [
+          "003870993"
+        ],
+        "slug": "law-times-ns"
+      },
+      {
+        "id": 846,
+        "full_name": "Reports of cases determined in the district court for the city and county of Philadelphia",
+        "short_name": "Miles",
+        "start_year": 1825,
+        "end_year": 1842,
+        "harvard_hollis_id": [
+          "003908800"
+        ],
+        "slug": "miles"
+      },
+      {
+        "id": 790,
+        "full_name": "Cases in the Supreme Court of Pennsylvania; being those cases not designated to be reported",
+        "short_name": "Monaghan",
+        "start_year": 1853,
+        "end_year": 1891,
+        "harvard_hollis_id": [
+          "001007266"
+        ],
+        "slug": "monaghan"
+      },
+      {
+        "id": 409,
+        "full_name": "Pennsylvania State Reports",
+        "short_name": "Pa.",
+        "start_year": 1845,
+        "end_year": 2017,
+        "harvard_hollis_id": [],
+        "slug": "pa"
+      },
+      {
+        "id": 813,
+        "full_name": "Judgements in the Admiralty of Pennsylvania in four suits, brought as for maritime hypothecations",
+        "short_name": "Pa. (Admiralty)",
+        "start_year": 1783,
+        "end_year": 1788,
+        "harvard_hollis_id": [
+          "000412206"
+        ],
+        "slug": "pa-admiralty"
+      },
+      {
+        "id": 538,
+        "full_name": "Pennsylvania Commonwealth Court Reports",
+        "short_name": "Pa. Commw.",
+        "start_year": 1933,
+        "end_year": 1998,
+        "harvard_hollis_id": [
+          "003839708"
+        ],
+        "slug": "pa-commw"
+      },
+      {
+        "id": 385,
+        "full_name": "Pennsylvania District and County Reports",
+        "short_name": "Pa. D. & C.",
+        "start_year": 1918,
+        "end_year": 1954,
+        "harvard_hollis_id": [
+          "000166602"
+        ],
+        "slug": "pa-d-c"
+      },
+      {
+        "id": 389,
+        "full_name": "Pennsylvania District and County Reports",
+        "short_name": "Pa. D. & C.2d",
+        "start_year": 1933,
+        "end_year": 1977,
+        "harvard_hollis_id": [
+          "003712555"
+        ],
+        "slug": "pa-d-c2d"
+      },
+      {
+        "id": 390,
+        "full_name": "Pennsylvania District and County Reports",
+        "short_name": "Pa. D. & C.3d",
+        "start_year": 1966,
+        "end_year": 1989,
+        "harvard_hollis_id": [
+          "005326092"
+        ],
+        "slug": "pa-d-c3d"
+      },
+      {
+        "id": 392,
+        "full_name": "Pennsylvania District and County Reports",
+        "short_name": "Pa. D. & C.4th",
+        "start_year": 1986,
+        "end_year": 2007,
+        "harvard_hollis_id": [
+          "004116897"
+        ],
+        "slug": "pa-d-c4th"
+      },
+      {
+        "id": 794,
+        "full_name": "Pennsylvania District and County Reports",
+        "short_name": "Pa. D. & C.5th",
+        "start_year": 2005,
+        "end_year": 2015,
+        "harvard_hollis_id": [
+          "007367680"
+        ],
+        "slug": "pa-d-c5th"
+      },
+      {
+        "id": 823,
+        "full_name": "Pennsylvania Fiduciary Reporter",
+        "short_name": "Pa. Fid.",
+        "start_year": 1977,
+        "end_year": 1981,
+        "harvard_hollis_id": [
+          "005571744"
+        ],
+        "slug": "pa-fid"
+      },
+      {
+        "id": 825,
+        "full_name": "Pennsylvania Justices' Law Reporter",
+        "short_name": "Pa. Just. L. Rep.",
+        "start_year": 1900,
+        "end_year": 1903,
+        "harvard_hollis_id": [
+          "005572109"
+        ],
+        "slug": "pa-just-l-rep"
+      },
+      {
+        "id": 357,
+        "full_name": "Pennsylvania Superior Court Reports",
+        "short_name": "Pa. Super.",
+        "start_year": 1895,
+        "end_year": 1998,
+        "harvard_hollis_id": [],
+        "slug": "pa-super"
+      },
+      {
+        "id": 960,
+        "full_name": "Select cases in equity and at law",
+        "short_name": "Parsons",
+        "start_year": 1841,
+        "end_year": 1850,
+        "harvard_hollis_id": [
+          "003870992"
+        ],
+        "slug": "parsons"
+      },
+      {
+        "id": 808,
+        "full_name": "Decisions of the Honorable John J. Pearson, judge of the twelvth judicial district",
+        "short_name": "Pears.",
+        "start_year": 1851,
+        "end_year": 1869,
+        "harvard_hollis_id": [
+          "000114146"
+        ],
+        "slug": "pears"
+      },
+      {
+        "id": 839,
+        "full_name": "Reports of cases adjudged in the Supreme Court of Pennsylvania (Penrose & Watts)",
+        "short_name": "Pen. & W.",
+        "start_year": 1829,
+        "end_year": 1832,
+        "harvard_hollis_id": [
+          "007165954"
+        ],
+        "slug": "pen-w"
+      },
+      {
+        "id": 828,
+        "full_name": "Pennsylvania Supreme Court Reports (Pennypacker)",
+        "short_name": "Pennyp.",
+        "start_year": 1880,
+        "end_year": 1884,
+        "harvard_hollis_id": [
+          "003876664"
+        ],
+        "slug": "pennyp"
+      },
+      {
+        "id": 838,
+        "full_name": "Reports of cases adjudged in the Supreme Court of Pennsylvania (Rawle)",
+        "short_name": "Rawle",
+        "start_year": 1821,
+        "end_year": 1835,
+        "harvard_hollis_id": [
+          "007165950"
+        ],
+        "slug": "rawle"
+      },
+      {
+        "id": 803,
+        "full_name": "Cases in the Supreme Court of Pennsylvania; being those cases not designated to be reported\u00c9",
+        "short_name": "Sadler",
+        "start_year": 1885,
+        "end_year": 1888,
+        "harvard_hollis_id": [
+          "000099789"
+        ],
+        "slug": "sadler"
+      },
+      {
+        "id": 836,
+        "full_name": "Reports of cases adjudged in the Supreme Court of Pennsylvania (Sergeant & Rawle)",
+        "short_name": "Serg. & Rawl.",
+        "start_year": 1813,
+        "end_year": 1835,
+        "harvard_hollis_id": [
+          "005387937"
+        ],
+        "slug": "serg-rawl"
+      },
+      {
+        "id": 959,
+        "full_name": "Reports of some of the criminal cases on primary hearing, before Richard Vaux, recorder of the city of Philadelphia",
+        "short_name": "Vaux",
+        "start_year": 1846,
+        "end_year": 1846,
+        "harvard_hollis_id": [
+          "003870990"
+        ],
+        "slug": "vaux"
+      },
+      {
+        "id": 844,
+        "full_name": "Reports of cases decided by the supreme court of pennsylvania which have been omitted from the regular reports",
+        "short_name": "Walker",
+        "start_year": 1849,
+        "end_year": 1887,
+        "harvard_hollis_id": [
+          "001600048"
+        ],
+        "slug": "walker"
+      },
+      {
+        "id": 842,
+        "full_name": "Reports of cases argued and determined in the Supreme Court of Pennsylvania",
+        "short_name": "Watts",
+        "start_year": 1832,
+        "end_year": 1840,
+        "harvard_hollis_id": [
+          "005458465"
+        ],
+        "slug": "watts"
+      },
+      {
+        "id": 837,
+        "full_name": "Reports of cases adjudged in the Supreme Court of Pennsylvania (Watts & Sergeant)",
+        "short_name": "Watts & Serg.",
+        "start_year": 1841,
+        "end_year": 1845,
+        "harvard_hollis_id": [
+          "000114172"
+        ],
+        "slug": "watts-serg"
+      },
+      {
+        "id": 840,
+        "full_name": "Reports of cases adjudged in the Supreme Court of Pennsylvania (Wharton)",
+        "short_name": "Whart.",
+        "start_year": 1826,
+        "end_year": 1841,
+        "harvard_hollis_id": [
+          "001361450"
+        ],
+        "slug": "whart"
+      },
+      {
+        "id": 834,
+        "full_name": "Reports of cases adjudged in the Supreme Court of Pennsylvania (Yeates)",
+        "short_name": "Yeates",
+        "start_year": 1791,
+        "end_year": 1808,
+        "harvard_hollis_id": [
+          "005388220"
+        ],
+        "slug": "yeates"
+      }
+    ],
+    "case_count": 248710,
+    "volume_count": 2329,
+    "reporter_count": 40,
+    "page_count": 1453989
+  },
+  {
+    "id": 25,
+    "slug": "pr",
+    "name": "P.R.",
+    "name_long": "Puerto Rico",
+    "reporters": [
+      {
+        "id": 304,
+        "full_name": "Puerto Rico Reports",
+        "short_name": "P.R.",
+        "start_year": 1894,
+        "end_year": 1972,
+        "harvard_hollis_id": [],
+        "slug": "pr"
+      },
+      {
+        "id": 975,
+        "full_name": "Decisiones de Puerto Rico",
+        "short_name": "P.R. Dec.",
+        "start_year": 1901,
+        "end_year": 2017,
+        "harvard_hollis_id": [],
+        "slug": "pr-dec"
+      },
+      {
+        "id": 786,
+        "full_name": "Fallos y sentencias del Tribunal Supremo de Puerto Rico",
+        "short_name": "P.R. Sent.",
+        "start_year": 1899,
+        "end_year": 1902,
+        "harvard_hollis_id": [
+          "012190683"
+        ],
+        "slug": "pr-sent"
+      },
+      {
+        "id": 785,
+        "full_name": "Decisiones del Tribunal de Circuito de Apelaciones de Puerto Rico",
+        "short_name": "T.C.A.",
+        "start_year": 1988,
+        "end_year": 2010,
+        "harvard_hollis_id": [
+          "006816145"
+        ],
+        "slug": "tca"
+      }
+    ],
+    "case_count": 45682,
+    "volume_count": 318,
+    "reporter_count": 4,
+    "page_count": 317492
+  },
+  {
+    "id": 9,
+    "slug": "regional",
+    "name": "Regional",
+    "name_long": "Regional",
+    "reporters": [
+      {
+        "id": 210,
+        "full_name": "West's Atlantic Reporter, Second Series",
+        "short_name": "A.2d",
+        "start_year": 1942,
+        "end_year": 2010,
+        "harvard_hollis_id": [],
+        "slug": "a2d"
+      },
+      {
+        "id": 964,
+        "full_name": "West's Atlantic Reporter, Third Series",
+        "short_name": "A.3d",
+        "start_year": 2004,
+        "end_year": 2019,
+        "harvard_hollis_id": [
+          "001603965"
+        ],
+        "slug": "a3d"
+      },
+      {
+        "id": 971,
+        "full_name": "North Eastern Reporter 2d",
+        "short_name": "N.E.2d",
+        "start_year": 1978,
+        "end_year": 2014,
+        "harvard_hollis_id": [
+          "005681309"
+        ],
+        "slug": "ne2d"
+      },
+      {
+        "id": 890,
+        "full_name": "North Eastern Reporter 3d",
+        "short_name": "N.E.3d",
+        "start_year": 2000,
+        "end_year": 2019,
+        "harvard_hollis_id": [
+          "008939061"
+        ],
+        "slug": "ne3d"
+      },
+      {
+        "id": 892,
+        "full_name": "North Western Reporter 2d",
+        "short_name": "N.W.2d",
+        "start_year": 1952,
+        "end_year": 2019,
+        "harvard_hollis_id": [
+          "005700759"
+        ],
+        "slug": "nw2d"
+      },
+      {
+        "id": 972,
+        "full_name": "Pacific Reporter 2d",
+        "short_name": "P.2d",
+        "start_year": 1939,
+        "end_year": 2000,
+        "harvard_hollis_id": [
+          "005402106"
+        ],
+        "slug": "p2d"
+      },
+      {
+        "id": 894,
+        "full_name": "Pacific Reporter 3d",
+        "short_name": "P.3d",
+        "start_year": 1976,
+        "end_year": 2019,
+        "harvard_hollis_id": [
+          "000632011"
+        ],
+        "slug": "p3d"
+      },
+      {
+        "id": 1027,
+        "full_name": "Southern Reporter",
+        "short_name": "So.",
+        "start_year": 1924,
+        "end_year": 1941,
+        "harvard_hollis_id": [
+          "005571596"
+        ],
+        "slug": "so"
+      },
+      {
+        "id": 1026,
+        "full_name": "Southern Reporter, Second Series",
+        "short_name": "So.2d",
+        "start_year": 1923,
+        "end_year": 2009,
+        "harvard_hollis_id": [
+          "005563868"
+        ],
+        "slug": "so2d"
+      },
+      {
+        "id": 1025,
+        "full_name": "Southern Reporter, Third Series",
+        "short_name": "So.3d",
+        "start_year": 2000,
+        "end_year": 2019,
+        "harvard_hollis_id": [],
+        "slug": "so3d"
+      },
+      {
+        "id": 610,
+        "full_name": "South Western Reporter",
+        "short_name": "S.W.",
+        "start_year": 1900,
+        "end_year": 1927,
+        "harvard_hollis_id": [
+          "000115750"
+        ],
+        "slug": "sw"
+      },
+      {
+        "id": 611,
+        "full_name": "South Western Reporter Second Series",
+        "short_name": "S.W.2d",
+        "start_year": 1920,
+        "end_year": 1999,
+        "harvard_hollis_id": [
+          "004095776"
+        ],
+        "slug": "sw2d"
+      },
+      {
+        "id": 612,
+        "full_name": "South Western Reporter Third Series",
+        "short_name": "S.W.3d",
+        "start_year": 1993,
+        "end_year": 2019,
+        "harvard_hollis_id": [
+          "005545018"
+        ],
+        "slug": "sw3d"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "slug": "ri",
+    "name": "R.I.",
+    "name_long": "Rhode Island",
+    "reporters": [
+      {
+        "id": 210,
+        "full_name": "West's Atlantic Reporter, Second Series",
+        "short_name": "A.2d",
+        "start_year": 1942,
+        "end_year": 2010,
+        "harvard_hollis_id": [],
+        "slug": "a2d"
+      },
+      {
+        "id": 964,
+        "full_name": "West's Atlantic Reporter, Third Series",
+        "short_name": "A.3d",
+        "start_year": 2004,
+        "end_year": 2019,
+        "harvard_hollis_id": [
+          "001603965"
+        ],
+        "slug": "a3d"
+      },
+      {
+        "id": 885,
+        "full_name": "Records of the Vice-Admiralty Court of Rhode Island, 1716-1752",
+        "short_name": "Rec. V.A. Ct. (R.I.)",
+        "start_year": 1716,
+        "end_year": 1752,
+        "harvard_hollis_id": [
+          "005698948"
+        ],
+        "slug": "rec-va-ct-ri"
+      },
+      {
+        "id": 276,
+        "full_name": "Rhode Island Reports",
+        "short_name": "R.I.",
+        "start_year": 1828,
+        "end_year": 1981,
+        "harvard_hollis_id": [
+          "007281227"
+        ],
+        "slug": "ri"
+      },
+      {
+        "id": 887,
+        "full_name": "Rhode Island Decisions",
+        "short_name": "R.I. Dec.",
+        "start_year": 1923,
+        "end_year": 1936,
+        "harvard_hollis_id": [
+          "000114567"
+        ],
+        "slug": "ri-dec"
+      },
+      {
+        "id": 888,
+        "full_name": "Rhode Island Superior Court Rescripts",
+        "short_name": "Super. Ct. (R.I.)",
+        "start_year": 1917,
+        "end_year": 1919,
+        "harvard_hollis_id": [
+          "005372524"
+        ],
+        "slug": "super-ct-ri"
+      }
+    ],
+    "case_count": 26689,
+    "volume_count": 867,
+    "reporter_count": 6,
+    "page_count": 137732
+  },
+  {
+    "id": 59,
+    "slug": "sc",
+    "name": "S.C.",
+    "name_long": "South Carolina",
+    "reporters": [
+      {
+        "id": 902,
+        "full_name": "Records of the court of Chancery of South Carolina, 1671-1779",
+        "short_name": "Rec. Co. Ch. (S.C.)",
+        "start_year": 1700,
+        "end_year": 1779,
+        "harvard_hollis_id": [
+          "007467276"
+        ],
+        "slug": "rec-co-ch-sc"
+      },
+      {
+        "id": 282,
+        "full_name": "South Carolina Reports",
+        "short_name": "S.C.",
+        "start_year": 1868,
+        "end_year": 2017,
+        "harvard_hollis_id": [],
+        "slug": "sc"
+      },
+      {
+        "id": 1085,
+        "full_name": "South Carolina Equity Reports",
+        "short_name": "S.C. Eq.",
+        "start_year": 1784,
+        "end_year": 1868,
+        "harvard_hollis_id": [],
+        "slug": "sc-eq"
+      },
+      {
+        "id": 1084,
+        "full_name": "South Carolina Law Reports",
+        "short_name": "S.C.L.",
+        "start_year": 1783,
+        "end_year": 1868,
+        "harvard_hollis_id": [],
+        "slug": "scl"
+      }
+    ],
+    "case_count": 41875,
+    "volume_count": 559,
+    "reporter_count": 7,
+    "page_count": 321013
+  },
+  {
+    "id": 54,
+    "slug": "sd",
+    "name": "S.D.",
+    "name_long": "South Dakota",
+    "reporters": [
+      {
+        "id": 892,
+        "full_name": "North Western Reporter 2d",
+        "short_name": "N.W.2d",
+        "start_year": 1952,
+        "end_year": 2019,
+        "harvard_hollis_id": [
+          "005700759"
+        ],
+        "slug": "nw2d"
+      },
+      {
+        "id": 667,
+        "full_name": "South Dakota Reports",
+        "short_name": "S.D.",
+        "start_year": 1890,
+        "end_year": 1976,
+        "harvard_hollis_id": [
+          "000115188"
+        ],
+        "slug": "sd"
+      }
+    ],
+    "case_count": 16782,
+    "volume_count": 784,
+    "reporter_count": 2,
+    "page_count": 111855
+  },
+  {
+    "id": 11,
+    "slug": "tenn",
+    "name": "Tenn.",
+    "name_long": "Tennessee",
+    "reporters": [
+      {
+        "id": 927,
+        "full_name": "Tennessee Cases with Notes and Annotations",
+        "short_name": "Shan. Cas.",
+        "start_year": 1847,
+        "end_year": 1894,
+        "harvard_hollis_id": [
+          "005520463"
+        ],
+        "slug": "shan-cas"
+      },
+      {
+        "id": 611,
+        "full_name": "South Western Reporter Second Series",
+        "short_name": "S.W.2d",
+        "start_year": 1920,
+        "end_year": 1999,
+        "harvard_hollis_id": [
+          "004095776"
+        ],
+        "slug": "sw2d"
+      },
+      {
+        "id": 612,
+        "full_name": "South Western Reporter Third Series",
+        "short_name": "S.W.3d",
+        "start_year": 1993,
+        "end_year": 2019,
+        "harvard_hollis_id": [
+          "005545018"
+        ],
+        "slug": "sw3d"
+      },
+      {
+        "id": 277,
+        "full_name": "Tennessee Reports",
+        "short_name": "Tenn.",
+        "start_year": 1791,
+        "end_year": 1972,
+        "harvard_hollis_id": [],
+        "slug": "tenn"
+      },
+      {
+        "id": 268,
+        "full_name": "Tennessee Appeals Reports",
+        "short_name": "Tenn. App.",
+        "start_year": 1925,
+        "end_year": 1972,
+        "harvard_hollis_id": [],
+        "slug": "tenn-app"
+      },
+      {
+        "id": 928,
+        "full_name": "Tennessee Chancery Reports",
+        "short_name": "Tenn. Ch. R.",
+        "start_year": 1872,
+        "end_year": 1878,
+        "harvard_hollis_id": [
+          "000115025"
+        ],
+        "slug": "tenn-ch-r"
+      },
+      {
+        "id": 925,
+        "full_name": "Reports of cases argued and determined in the court of criminal appeals of Tennessee",
+        "short_name": "Tenn. Crim. App.",
+        "start_year": 1967,
+        "end_year": 1971,
+        "harvard_hollis_id": [
+          "005524858"
+        ],
+        "slug": "tenn-crim-app"
+      },
+      {
+        "id": 926,
+        "full_name": "Unreported Tennessee Cases",
+        "short_name": "Unrep. Tenn. Cas.",
+        "start_year": 1847,
+        "end_year": 1869,
+        "harvard_hollis_id": [
+          "005524794"
+        ],
+        "slug": "unrep-tenn-cas"
+      }
+    ],
+    "case_count": 38545,
+    "volume_count": 1401,
+    "reporter_count": 8,
+    "page_count": 311481
+  },
+  {
+    "id": 32,
+    "slug": "tex",
+    "name": "Tex.",
+    "name_long": "Texas",
+    "reporters": [
+      {
+        "id": 929,
+        "full_name": "A Digest of the Laws of Texas:  containing a full and complete compilation of the land laws; together with opinions of the Supreme court [1840-1844]",
+        "short_name": "Dallam",
+        "start_year": 1840,
+        "end_year": 1844,
+        "harvard_hollis_id": [],
+        "slug": "dallam"
+      },
+      {
+        "id": 592,
+        "full_name": "Texas Unreported Cases (Posey)",
+        "short_name": "Posey",
+        "start_year": 1879,
+        "end_year": 1885,
+        "harvard_hollis_id": [
+          "007873799"
+        ],
+        "slug": "posey"
+      },
+      {
+        "id": 595,
+        "full_name": "Synopses of the Decisions of the Supreme Court of the State of Texas: rendered, upon applications for writs of habeas corpus, original and on appeal, arising from restraints by conscript and other military authorities, during the terms in 1862, 1863, 1864,",
+        "short_name": "Robards",
+        "start_year": 1862,
+        "end_year": 1865,
+        "harvard_hollis_id": [
+          "003883766"
+        ],
+        "slug": "robards"
+      },
+      {
+        "id": 610,
+        "full_name": "South Western Reporter",
+        "short_name": "S.W.",
+        "start_year": 1900,
+        "end_year": 1927,
+        "harvard_hollis_id": [
+          "000115750"
+        ],
+        "slug": "sw"
+      },
+      {
+        "id": 611,
+        "full_name": "South Western Reporter Second Series",
+        "short_name": "S.W.2d",
+        "start_year": 1920,
+        "end_year": 1999,
+        "harvard_hollis_id": [
+          "004095776"
+        ],
+        "slug": "sw2d"
+      },
+      {
+        "id": 612,
+        "full_name": "South Western Reporter Third Series",
+        "short_name": "S.W.3d",
+        "start_year": 1993,
+        "end_year": 2019,
+        "harvard_hollis_id": [
+          "005545018"
+        ],
+        "slug": "sw3d"
+      },
+      {
+        "id": 347,
+        "full_name": "Texas Reports",
+        "short_name": "Tex.",
+        "start_year": 1846,
+        "end_year": 1964,
+        "harvard_hollis_id": [],
+        "slug": "tex"
+      },
+      {
+        "id": 590,
+        "full_name": "Texas Civil Appeals Reports",
+        "short_name": "Tex. Civ. App.",
+        "start_year": 1889,
+        "end_year": 1912,
+        "harvard_hollis_id": [
+          "005616351"
+        ],
+        "slug": "tex-civ-app"
+      },
+      {
+        "id": 588,
+        "full_name": "Texas Criminal Reports",
+        "short_name": "Tex. Crim.",
+        "start_year": 1892,
+        "end_year": 1967,
+        "harvard_hollis_id": [
+          "003881567"
+        ],
+        "slug": "tex-crim"
+      },
+      {
+        "id": 586,
+        "full_name": "Texas Court of Appeals Reports",
+        "short_name": "Tex. Ct. App.",
+        "start_year": 1876,
+        "end_year": 1892,
+        "harvard_hollis_id": [
+          "003883787"
+        ],
+        "slug": "tex-ct-app"
+      },
+      {
+        "id": 593,
+        "full_name": "Texas Law Reporter",
+        "short_name": "Tex. L. R.",
+        "start_year": 1844,
+        "end_year": 1885,
+        "harvard_hollis_id": [
+          "003884307"
+        ],
+        "slug": "tex-l-r"
+      },
+      {
+        "id": 591,
+        "full_name": "Condensed Reports of Decisions in Civil Causes in the Court of Appeals (White & Wilson)",
+        "short_name": "White & W.",
+        "start_year": 1876,
+        "end_year": 1883,
+        "harvard_hollis_id": [
+          "003883791"
+        ],
+        "slug": "white-w"
+      },
+      {
+        "id": 1073,
+        "full_name": "Condensed Reports of Decisions in Civil Causes in the Court of Appeals",
+        "short_name": "Willson",
+        "start_year": 1883,
+        "end_year": 1892,
+        "harvard_hollis_id": [
+          "003937768"
+        ],
+        "slug": "willson"
+      }
+    ],
+    "case_count": 250659,
+    "volume_count": 2159,
+    "reporter_count": 15,
+    "page_count": 1261205
+  },
+  {
+    "id": 62,
+    "slug": "tribal",
+    "name": "Tribal",
+    "name_long": "Tribal Jurisdictions",
+    "reporters": [
+      {
+        "id": 1068,
+        "full_name": "West's American Tribal Law Reporter",
+        "short_name": "Am. Tribal Law",
+        "start_year": 1997,
+        "end_year": 2017,
+        "harvard_hollis_id": [
+          "007194024"
+        ],
+        "slug": "am-tribal-law"
+      }
+    ],
+    "case_count": 1402,
+    "volume_count": 13,
+    "reporter_count": 1,
+    "page_count": 6621
+  },
+  {
+    "id": 39,
+    "slug": "us",
+    "name": "U.S.",
+    "name_long": "United States",
+    "reporters": [
+      {
+        "id": 210,
+        "full_name": "West's Atlantic Reporter, Second Series",
+        "short_name": "A.2d",
+        "start_year": 1942,
+        "end_year": 2010,
+        "harvard_hollis_id": [],
+        "slug": "a2d"
+      },
+      {
+        "id": 964,
+        "full_name": "West's Atlantic Reporter, Third Series",
+        "short_name": "A.3d",
+        "start_year": 2004,
+        "end_year": 2019,
+        "harvard_hollis_id": [
+          "001603965"
+        ],
+        "slug": "a3d"
+      },
+      {
+        "id": 597,
+        "full_name": "Alaska Federal Reports",
+        "short_name": "Alaska Fed.",
+        "start_year": 1869,
+        "end_year": 1937,
+        "harvard_hollis_id": [
+          "003883916"
+        ],
+        "slug": "alaska-fed"
+      },
+      {
+        "id": 935,
+        "full_name": "West's Bankruptcy Reporter",
+        "short_name": "B.R.",
+        "start_year": 1975,
+        "end_year": 2019,
+        "harvard_hollis_id": [
+          "008892060"
+        ],
+        "slug": "br"
+      },
+      {
+        "id": 944,
+        "full_name": "Reports of the United States Board of Tax Appeals",
+        "short_name": "B.T.A.",
+        "start_year": 1920,
+        "end_year": 1942,
+        "harvard_hollis_id": [
+          "002216737"
+        ],
+        "slug": "bta"
+      },
+      {
+        "id": 978,
+        "full_name": "Court of Customs and Patent Appeals Reports",
+        "short_name": "C.C.P.A.",
+        "start_year": 1924,
+        "end_year": 1982,
+        "harvard_hollis_id": [
+          "005512872"
+        ],
+        "slug": "ccpa"
+      },
+      {
+        "id": 939,
+        "full_name": "United States Claims Court Reporter",
+        "short_name": "Cl. Ct.",
+        "start_year": 1982,
+        "end_year": 1992,
+        "harvard_hollis_id": [
+          "003937767"
+        ],
+        "slug": "cl-ct"
+      },
+      {
+        "id": 931,
+        "full_name": "Decisions of the United States Court of Military Appeals",
+        "short_name": "C.M.A.",
+        "start_year": 1951,
+        "end_year": 1975,
+        "harvard_hollis_id": [
+          "000114412"
+        ],
+        "slug": "cma"
+      },
+      {
+        "id": 930,
+        "full_name": "Court of Customs Appeals reports",
+        "short_name": "Ct. Cust.",
+        "start_year": 1910,
+        "end_year": 1929,
+        "harvard_hollis_id": [
+          "005466699"
+        ],
+        "slug": "ct-cust"
+      },
+      {
+        "id": 940,
+        "full_name": "United States Court of International Trade Reports",
+        "short_name": "Ct. Int'l Trade",
+        "start_year": 1980,
+        "end_year": 2010,
+        "harvard_hollis_id": [
+          "003937768"
+        ],
+        "slug": "ct-intl-trade"
+      },
+      {
+        "id": 941,
+        "full_name": "United States Customs Court Reports",
+        "short_name": "Cust. Ct.",
+        "start_year": 1928,
+        "end_year": 1980,
+        "harvard_hollis_id": [
+          "003937992"
+        ],
+        "slug": "cust-ct"
+      },
+      {
+        "id": 697,
+        "full_name": "Reports of causes determined in the United States District Court for the District of Hawaii.",
+        "short_name": "D. Haw.",
+        "start_year": 1900,
+        "end_year": 1916,
+        "harvard_hollis_id": [
+          "003118043"
+        ],
+        "slug": "d-haw"
+      },
+      {
+        "id": 755,
+        "full_name": "Reports of cases argued and determined in the Supreme Court of the District of Columbia (District of Columbia - reported by Mackey)",
+        "short_name": "D.C.",
+        "start_year": 1801,
+        "end_year": 1893,
+        "harvard_hollis_id": [
+          "000460909"
+        ],
+        "slug": "dc"
+      },
+      {
+        "id": 788,
+        "full_name": "Cadwalader's cases, being decisions of the Hon. John Cadwalader",
+        "short_name": "E.D. Pa.",
+        "start_year": 1858,
+        "end_year": 1864,
+        "harvard_hollis_id": [
+          "000114133"
+        ],
+        "slug": "ed-pa"
+      },
+      {
+        "id": 943,
+        "full_name": "Federal Reporter",
+        "short_name": "F.",
+        "start_year": 1802,
+        "end_year": 1932,
+        "harvard_hollis_id": [
+          "007194024"
+        ],
+        "slug": "f"
+      },
+      {
+        "id": 936,
+        "full_name": "West's Federal Appendix",
+        "short_name": "F. App'x",
+        "start_year": 1996,
+        "end_year": 2018,
+        "harvard_hollis_id": [
+          "008892055"
+        ],
+        "slug": "f-appx"
+      },
+      {
+        "id": 942,
+        "full_name": "Federal Cases",
+        "short_name": "F. Cas.",
+        "start_year": 1779,
+        "end_year": 1894,
+        "harvard_hollis_id": [
+          "003938680"
+        ],
+        "slug": "f-cas"
+      },
+      {
+        "id": 982,
+        "full_name": "Federal Supplement",
+        "short_name": "F. Supp.",
+        "start_year": 1839,
+        "end_year": 1998,
+        "harvard_hollis_id": [
+          "005417822"
+        ],
+        "slug": "f-supp"
+      },
+      {
+        "id": 934,
+        "full_name": "Federal Supplement 2d",
+        "short_name": "F. Supp. 2d",
+        "start_year": 1982,
+        "end_year": 2014,
+        "harvard_hollis_id": [
+          "001598799"
+        ],
+        "slug": "f-supp-2d"
+      },
+      {
+        "id": 999,
+        "full_name": "Federal Supplement 3d",
+        "short_name": "F. Supp. 3d",
+        "start_year": 1968,
+        "end_year": 2019,
+        "harvard_hollis_id": [
+          "005466718"
+        ],
+        "slug": "f-supp-3d"
+      },
+      {
+        "id": 980,
+        "full_name": "Federal Reporter 2d Series",
+        "short_name": "F.2d",
+        "start_year": 1910,
+        "end_year": 1993,
+        "harvard_hollis_id": [
+          "005417847"
+        ],
+        "slug": "f2d"
+      },
+      {
+        "id": 933,
+        "full_name": "Federal Reporter 3d Series",
+        "short_name": "F.3d",
+        "start_year": 1990,
+        "end_year": 2019,
+        "harvard_hollis_id": [
+          "000114226"
+        ],
+        "slug": "f3d"
+      },
+      {
+        "id": 932,
+        "full_name": "Federal Claims Reporter",
+        "short_name": "Fed. Cl.",
+        "start_year": 1991,
+        "end_year": 2018,
+        "harvard_hollis_id": [
+          "008090850"
+        ],
+        "slug": "fed-cl"
+      },
+      {
+        "id": 981,
+        "full_name": "Federal Rules Decisions",
+        "short_name": "F.R.D.",
+        "start_year": 1842,
+        "end_year": 2017,
+        "harvard_hollis_id": [
+          "005417870"
+        ],
+        "slug": "frd"
+      },
+      {
+        "id": 1081,
+        "full_name": "United States Supreme Court Reports, Lawyers' Edition",
+        "short_name": "L. Ed. 2d",
+        "start_year": 2010,
+        "end_year": 2012,
+        "harvard_hollis_id": [],
+        "slug": "l-ed-2d"
+      },
+      {
+        "id": 937,
+        "full_name": "West's Military Justice Reporter",
+        "short_name": "M.J.",
+        "start_year": 1974,
+        "end_year": 2017,
+        "harvard_hollis_id": [
+          "000116207"
+        ],
+        "slug": "mj"
+      },
+      {
+        "id": 974,
+        "full_name": "Northern Mariana Islands Commonwealth Reporter",
+        "short_name": "N. Mar. I. Commw.",
+        "start_year": 1979,
+        "end_year": 1989,
+        "harvard_hollis_id": [
+          "000115842"
+        ],
+        "slug": "n-mar-i-commw"
+      },
+      {
+        "id": 1077,
+        "full_name": "Porto Rico Federal Reports",
+        "short_name": "P.R. Fed.",
+        "start_year": 1900,
+        "end_year": 1924,
+        "harvard_hollis_id": [
+          "005687445"
+        ],
+        "slug": "pr-fed"
+      },
+      {
+        "id": 1091,
+        "full_name": "Supreme Court Reporter",
+        "short_name": "S. Ct.",
+        "start_year": 2013,
+        "end_year": 2020,
+        "harvard_hollis_id": [],
+        "slug": "s-ct"
+      },
+      {
+        "id": 612,
+        "full_name": "South Western Reporter Third Series",
+        "short_name": "S.W.3d",
+        "start_year": 1993,
+        "end_year": 2019,
+        "harvard_hollis_id": [
+          "005545018"
+        ],
+        "slug": "sw3d"
+      },
+      {
+        "id": 984,
+        "full_name": "Reports of the Tax Court of the United States",
+        "short_name": "T.C.",
+        "start_year": 1942,
+        "end_year": 2015,
+        "harvard_hollis_id": [
+          "003884222"
+        ],
+        "slug": "tc"
+      },
+      {
+        "id": 983,
+        "full_name": "United States Reports",
+        "short_name": "U.S.",
+        "start_year": 1754,
+        "end_year": 2014,
+        "harvard_hollis_id": [
+          "006283204"
+        ],
+        "slug": "us"
+      },
+      {
+        "id": 415,
+        "full_name": "United States Court of Claims Reports",
+        "short_name": "Ct. Cl.",
+        "start_year": 1853,
+        "end_year": 1982,
+        "harvard_hollis_id": [],
+        "slug": "us-ct-cl"
+      },
+      {
+        "id": 938,
+        "full_name": "West's Veterans Appeals Reporter",
+        "short_name": "Vet. App.",
+        "start_year": 1989,
+        "end_year": 2017,
+        "harvard_hollis_id": [
+          "003937627"
+        ],
+        "slug": "vet-app"
+      }
+    ],
+    "case_count": 1842424,
+    "volume_count": 8118,
+    "reporter_count": 69,
+    "page_count": 10409520
+  },
+  {
+    "id": 12,
+    "slug": "utah",
+    "name": "Utah",
+    "name_long": "Utah",
+    "reporters": [
+      {
+        "id": 972,
+        "full_name": "Pacific Reporter 2d",
+        "short_name": "P.2d",
+        "start_year": 1939,
+        "end_year": 2000,
+        "harvard_hollis_id": [
+          "005402106"
+        ],
+        "slug": "p2d"
+      },
+      {
+        "id": 894,
+        "full_name": "Pacific Reporter 3d",
+        "short_name": "P.3d",
+        "start_year": 1976,
+        "end_year": 2019,
+        "harvard_hollis_id": [
+          "000632011"
+        ],
+        "slug": "p3d"
+      },
+      {
+        "id": 269,
+        "full_name": "Utah Reports",
+        "short_name": "Utah",
+        "start_year": 1861,
+        "end_year": 1953,
+        "harvard_hollis_id": [],
+        "slug": "utah"
+      },
+      {
+        "id": 271,
+        "full_name": "Utah Reports, Second Series",
+        "short_name": "Utah 2d",
+        "start_year": 1953,
+        "end_year": 1974,
+        "harvard_hollis_id": [],
+        "slug": "utah-2d"
+      }
+    ],
+    "case_count": 22904,
+    "volume_count": 1053,
+    "reporter_count": 6,
+    "page_count": 174199
+  },
+  {
+    "id": 17,
+    "slug": "vt",
+    "name": "Vt.",
+    "name_long": "Vermont",
+    "reporters": [
+      {
+        "id": 210,
+        "full_name": "West's Atlantic Reporter, Second Series",
+        "short_name": "A.2d",
+        "start_year": 1942,
+        "end_year": 2010,
+        "harvard_hollis_id": [],
+        "slug": "a2d"
+      },
+      {
+        "id": 661,
+        "full_name": "Aikens",
+        "short_name": "Aik.",
+        "start_year": 1825,
+        "end_year": 1828,
+        "harvard_hollis_id": [
+          "000115495"
+        ],
+        "slug": "aik"
+      },
+      {
+        "id": 663,
+        "full_name": "Brayton",
+        "short_name": "Brayt.",
+        "start_year": 1815,
+        "end_year": 1820,
+        "harvard_hollis_id": [
+          "000115784"
+        ],
+        "slug": "brayt"
+      },
+      {
+        "id": 662,
+        "full_name": "Chipman, D.",
+        "short_name": "D. Chip.",
+        "start_year": 1789,
+        "end_year": 1825,
+        "harvard_hollis_id": [
+          "000114616"
+        ],
+        "slug": "d-chip"
+      },
+      {
+        "id": 665,
+        "full_name": "Chipman, N.",
+        "short_name": "N. Chip.",
+        "start_year": 1780,
+        "end_year": 1791,
+        "harvard_hollis_id": [
+          "000115694"
+        ],
+        "slug": "n-chip"
+      },
+      {
+        "id": 664,
+        "full_name": "Tyler",
+        "short_name": "Tyl.",
+        "start_year": 1800,
+        "end_year": 1803,
+        "harvard_hollis_id": [
+          "000114741"
+        ],
+        "slug": "tyl"
+      },
+      {
+        "id": 284,
+        "full_name": "Vermont Reports",
+        "short_name": "Vt.",
+        "start_year": 1826,
+        "end_year": 2016,
+        "harvard_hollis_id": [
+          "005459085"
+        ],
+        "slug": "vt"
+      }
+    ],
+    "case_count": 22745,
+    "volume_count": 272,
+    "reporter_count": 8,
+    "page_count": 146242
+  },
+  {
+    "id": 44,
+    "slug": "vi",
+    "name": "V.I.",
+    "name_long": "Virgin Islands",
+    "reporters": [
+      {
+        "id": 473,
+        "full_name": "Virgin Islands Reports",
+        "short_name": "V.I.",
+        "start_year": 1918,
+        "end_year": 2017,
+        "harvard_hollis_id": [],
+        "slug": "vi"
+      }
+    ],
+    "case_count": 3474,
+    "volume_count": 70,
+    "reporter_count": 2,
+    "page_count": 39374
+  },
+  {
+    "id": 7,
+    "slug": "va",
+    "name": "Va.",
+    "name_long": "Virginia",
+    "reporters": [
+      {
+        "id": 660,
+        "full_name": "Reports of Criminal Trials in the Circuit, State and United States Courts, held in Richmond, Virginia",
+        "short_name": "Howison",
+        "start_year": 1850,
+        "end_year": 1851,
+        "harvard_hollis_id": [
+          "000115187"
+        ],
+        "slug": "howison"
+      },
+      {
+        "id": 190,
+        "full_name": "Jefferson",
+        "short_name": "Jeff.",
+        "start_year": 1730,
+        "end_year": 1772,
+        "harvard_hollis_id": [
+          "005457606"
+        ],
+        "slug": "jeff"
+      },
+      {
+        "id": 534,
+        "full_name": "Virginia Reports",
+        "short_name": "Va.",
+        "start_year": 1779,
+        "end_year": 2004,
+        "harvard_hollis_id": [
+          "005432316"
+        ],
+        "slug": "va"
+      },
+      {
+        "id": 383,
+        "full_name": "Virginia Court of Appeals Courts",
+        "short_name": "Va. App.",
+        "start_year": 1985,
+        "end_year": 2017,
+        "harvard_hollis_id": [
+          "000446671"
+        ],
+        "slug": "va-app"
+      },
+      {
+        "id": 946,
+        "full_name": "Decisions of the Cases in Virginia, by the High Court of Chancery (Wythe)",
+        "short_name": "Va. Ch. Dec.",
+        "start_year": 1788,
+        "end_year": 1799,
+        "harvard_hollis_id": [],
+        "slug": "va-ch-dec"
+      },
+      {
+        "id": 948,
+        "full_name": "Virginia Circuit Court Opinions",
+        "short_name": "Va. Cir.",
+        "start_year": 1856,
+        "end_year": 2016,
+        "harvard_hollis_id": [
+          "003870978"
+        ],
+        "slug": "va-cir"
+      },
+      {
+        "id": 949,
+        "full_name": "Virginia Colonial Decisions",
+        "short_name": "Va. Col. Dec.",
+        "start_year": 1729,
+        "end_year": 1741,
+        "harvard_hollis_id": [
+          "007242568"
+        ],
+        "slug": "va-col-dec"
+      },
+      {
+        "id": 950,
+        "full_name": "Virginia Decisions",
+        "short_name": "Va. Dec.",
+        "start_year": 1871,
+        "end_year": 1900,
+        "harvard_hollis_id": [
+          "004085535"
+        ],
+        "slug": "va-dec"
+      },
+      {
+        "id": 945,
+        "full_name": "Virginia Reports",
+        "short_name": "Va. (Patt. & Heath)",
+        "start_year": 1855,
+        "end_year": 1857,
+        "harvard_hollis_id": [
+          "002423308"
+        ],
+        "slug": "va-patt-heath"
+      }
+    ],
+    "case_count": 40707,
+    "volume_count": 553,
+    "reporter_count": 12,
+    "page_count": 299600
+  },
+  {
+    "id": 38,
+    "slug": "wash",
+    "name": "Wash.",
+    "name_long": "Washington",
+    "reporters": [
+      {
+        "id": 405,
+        "full_name": "Washington Reports",
+        "short_name": "Wash.",
+        "start_year": 1889,
+        "end_year": 1981,
+        "harvard_hollis_id": [],
+        "slug": "wash"
+      },
+      {
+        "id": 410,
+        "full_name": "Washington Reports",
+        "short_name": "Wash. 2d",
+        "start_year": 1939,
+        "end_year": 2017,
+        "harvard_hollis_id": [],
+        "slug": "wash-2d"
+      },
+      {
+        "id": 477,
+        "full_name": "Washington Appellate Reports",
+        "short_name": "Wash. App.",
+        "start_year": 1969,
+        "end_year": 2017,
+        "harvard_hollis_id": [],
+        "slug": "wash-app"
+      },
+      {
+        "id": 658,
+        "full_name": "Washington Territory Reports",
+        "short_name": "Wash. Terr.",
+        "start_year": 1854,
+        "end_year": 1888,
+        "harvard_hollis_id": [
+          "003883921"
+        ],
+        "slug": "wash-terr"
+      }
+    ],
+    "case_count": 106177,
+    "volume_count": 629,
+    "reporter_count": 7,
+    "page_count": 581403
+  },
+  {
+    "id": 35,
+    "slug": "w-va",
+    "name": "W. Va.",
+    "name_long": "West Virginia",
+    "reporters": [
+      {
+        "id": 370,
+        "full_name": "West Virginia Supreme Court",
+        "short_name": "W. Va.",
+        "start_year": 1864,
+        "end_year": 2017,
+        "harvard_hollis_id": [],
+        "slug": "w-va"
+      },
+      {
+        "id": 657,
+        "full_name": "Report of the West Virginia Court of Claims",
+        "short_name": "Ct. Cl.",
+        "start_year": 1941,
+        "end_year": 2011,
+        "harvard_hollis_id": [
+          "003884709"
+        ],
+        "slug": "wv-ct-cl"
+      }
+    ],
+    "case_count": 27661,
+    "volume_count": 269,
+    "reporter_count": 3,
+    "page_count": 214178
+  },
+  {
+    "id": 46,
+    "slug": "wis",
+    "name": "Wis.",
+    "name_long": "Wisconsin",
+    "reporters": [
+      {
+        "id": 1070,
+        "full_name": "Burnett",
+        "short_name": "Bur.",
+        "start_year": 1842,
+        "end_year": 1843,
+        "harvard_hollis_id": [
+          "005687445"
+        ],
+        "slug": "bur"
+      },
+      {
+        "id": 654,
+        "full_name": "Chandler",
+        "short_name": "Chand.",
+        "start_year": 1849,
+        "end_year": 1850,
+        "harvard_hollis_id": [
+          "003883919"
+        ],
+        "slug": "chand"
+      },
+      {
+        "id": 892,
+        "full_name": "North Western Reporter 2d",
+        "short_name": "N.W.2d",
+        "start_year": 1952,
+        "end_year": 2019,
+        "harvard_hollis_id": [
+          "005700759"
+        ],
+        "slug": "nw2d"
+      },
+      {
+        "id": 653,
+        "full_name": "Pinney",
+        "short_name": "Pin.",
+        "start_year": 1839,
+        "end_year": 1852,
+        "harvard_hollis_id": [
+          "003883785"
+        ],
+        "slug": "pin"
+      },
+      {
+        "id": 483,
+        "full_name": "Wisconsin Reports",
+        "short_name": "Wis.",
+        "start_year": 1853,
+        "end_year": 1957,
+        "harvard_hollis_id": [
+          "003757196"
+        ],
+        "slug": "wis"
+      },
+      {
+        "id": 485,
+        "full_name": "Wisconsin Reports Second",
+        "short_name": "Wis. 2d",
+        "start_year": 1957,
+        "end_year": 2017,
+        "harvard_hollis_id": [
+          "003915824"
+        ],
+        "slug": "wis-2d"
+      }
+    ],
+    "case_count": 50470,
+    "volume_count": 690,
+    "reporter_count": 7,
+    "page_count": 502214
+  },
+  {
+    "id": 33,
+    "slug": "wyo",
+    "name": "Wyo.",
+    "name_long": "Wyoming",
+    "reporters": [
+      {
+        "id": 972,
+        "full_name": "Pacific Reporter 2d",
+        "short_name": "P.2d",
+        "start_year": 1939,
+        "end_year": 2000,
+        "harvard_hollis_id": [
+          "005402106"
+        ],
+        "slug": "p2d"
+      },
+      {
+        "id": 894,
+        "full_name": "Pacific Reporter 3d",
+        "short_name": "P.3d",
+        "start_year": 1976,
+        "end_year": 2019,
+        "harvard_hollis_id": [
+          "000632011"
+        ],
+        "slug": "p3d"
+      },
+      {
+        "id": 361,
+        "full_name": "Wyoming Reports",
+        "short_name": "Wyo.",
+        "start_year": 1870,
+        "end_year": 1959,
+        "harvard_hollis_id": [],
+        "slug": "wyo"
+      }
+    ],
+    "case_count": 10931,
+    "volume_count": 1184,
+    "reporter_count": 3,
+    "page_count": 106617
+  }
+]

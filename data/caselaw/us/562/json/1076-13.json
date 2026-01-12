@@ -1,0 +1,59 @@
+{
+  "id": 5931523,
+  "name": "Marshall v. United States",
+  "name_abbreviation": "Marshall v. United States",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 10-7248",
+  "first_page": "1076",
+  "last_page": "1076",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1076"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.517,
+    "sha256": "f0641cc6d40777d868ef12e3ee802aab0456e9a1665f67e12a2d6e6592b00138",
+    "simhash": "1:824bde830fef1c22",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Marshall v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7248.\nMarshall v. United States."
+  },
+  "file_name": "1076-13",
+  "first_page_order": 1098,
+  "last_page_order": 1098
+}

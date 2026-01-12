@@ -316,6 +316,14 @@ const trustLayerFeatures = [
     description: 'Adversarial Stress Testing - Attack decisions with simulated threats',
     merged: ['RedTeam', 'Echo', 'Apotheosis'],
   },
+  {
+    id: 'regulators-receipt',
+    label: "Regulator's Receipt",
+    icon: '📜',
+    path: '/cortex/trust/regulators-receipt',
+    description: 'Audit-Safe Proof - Show regulators exactly why, how, and who approved each decision',
+    merged: ['Ledger Export', 'Evidence Bundle', 'Chronos Replay', 'Policy Mapping'],
+  },
 ];
 
 // =============================================================================

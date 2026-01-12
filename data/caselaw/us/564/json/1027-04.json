@@ -1,0 +1,59 @@
+{
+  "id": 4334095,
+  "name": "Johnson v. Upton, Warden",
+  "name_abbreviation": "Johnson v. Upton",
+  "decision_date": "2011-06-20",
+  "docket_number": "No. 10-10542",
+  "first_page": "1027",
+  "last_page": "1027",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1027"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.563,
+    "sha256": "660e37d6cb2eb4c598e096300faba70e10258add95abe621f81c815d721e6a01",
+    "simhash": "1:bfe1ce33920f92b6",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Johnson v. Upton, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10542.\nJohnson v. Upton, Warden."
+  },
+  "file_name": "1027-04",
+  "first_page_order": 1021,
+  "last_page_order": 1021
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12414603,
+  "name": "Bowers v. Call",
+  "name_abbreviation": "Bowers v. Call",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10956",
+  "first_page": "871",
+  "last_page": "871",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 871"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 64,
+    "ocr_confidence": 0.616,
+    "sha256": "b3cbdefb51bfe4a7b50d8f4ce7c840618181cdab658584454b25f931ff9c1b9e",
+    "simhash": "1:dc267a899e8757e4",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bowers v. Call."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Utah. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10956.\nBowers v. Call."
+  },
+  "file_name": "0871-05",
+  "first_page_order": 947,
+  "last_page_order": 947
+}

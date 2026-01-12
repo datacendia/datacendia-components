@@ -1,0 +1,59 @@
+{
+  "id": 12212745,
+  "name": "Jaensch v. United States",
+  "name_abbreviation": "Jaensch v. United States",
+  "decision_date": "2012-04-30",
+  "docket_number": "No. 11-1202",
+  "first_page": "975",
+  "last_page": "975",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 975"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.596,
+    "sha256": "24be38441d30a0c911674716ce703e046e3deed81b15bd8d53a3ac258f82f274",
+    "simhash": "1:b78bea914fc49417",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jaensch v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1202.\nJaensch v. United States."
+  },
+  "file_name": "0975-11",
+  "first_page_order": 851,
+  "last_page_order": 851
+}

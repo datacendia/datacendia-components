@@ -1,0 +1,59 @@
+{
+  "id": 12413094,
+  "name": "Ravenel v. Baden, Warden",
+  "name_abbreviation": "Ravenel v. Baden",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10472",
+  "first_page": "845",
+  "last_page": "845",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 845"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 90,
+    "ocr_confidence": 0.684,
+    "sha256": "86d7da305f4f8c030cfb04311f7225c36ee07e6ce1b93c13531935fc86825d93",
+    "simhash": "1:657d8897d9cf2c17",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ravenel v. Baden, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Bar-tow County, Ga. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10472.\nRavenel v. Baden, Warden."
+  },
+  "file_name": "0845-08",
+  "first_page_order": 921,
+  "last_page_order": 921
+}

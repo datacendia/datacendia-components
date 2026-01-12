@@ -1,0 +1,997 @@
+{
+  "id": 6054298,
+  "name": "In re the Marriage of JOHN and ANNETTE PETERSON. JOHN PETERSON, Respondent, v. ANNETTE PETERSON, Appellant",
+  "name_abbreviation": "Peterson v. Peterson",
+  "decision_date": "2016-01-11",
+  "docket_number": "No. B259322",
+  "first_page": "923",
+  "last_page": "939",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "243 Cal. App. 4th 923"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "171 Cal.Rptr.3d 762",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "226 Cal.App.4th 92",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4271303
+      ],
+      "pin_cites": [
+        {
+          "page": "100"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/226/0092-01"
+      ]
+    },
+    {
+      "cite": "66 Cal.Rptr.3d 87",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "155 Cal.App.4th 504",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3650961
+      ],
+      "pin_cites": [
+        {
+          "page": "514"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/155/0504-01"
+      ]
+    },
+    {
+      "cite": "267 Cal.Rptr. 350",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "218 Cal.App.3d 626",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4424811
+      ],
+      "pin_cites": [
+        {
+          "page": "634-636"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/218/0626-01"
+      ]
+    },
+    {
+      "cite": "73 Cal.Rptr.3d 71",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "160 Cal.App.4th 574",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3918639
+      ],
+      "pin_cites": [
+        {
+          "page": "580"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/160/0574-01"
+      ]
+    },
+    {
+      "cite": "16 Cal.Rptr.2d 575",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "13 Cal.App.4th 81",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6042662
+      ],
+      "pin_cites": [
+        {
+          "page": "87"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/13/0081-01"
+      ]
+    },
+    {
+      "cite": "113 Ariz. 130",
+      "category": "reporters:state",
+      "reporter": "Ariz.",
+      "case_ids": [
+        586889
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "133"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ariz/113/0130-01"
+      ]
+    },
+    {
+      "cite": "198 Ariz. 307",
+      "category": "reporters:state",
+      "reporter": "Ariz.",
+      "case_ids": [
+        274420
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ariz/198/0307-01"
+      ]
+    },
+    {
+      "cite": "397 Pa.Super. 421",
+      "category": "reporters:state",
+      "reporter": "Pa. Super.",
+      "case_ids": [
+        884272
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/pa-super/397/0421-01"
+      ]
+    },
+    {
+      "cite": "170 P.3d 572",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "141 Wn.App. 235",
+      "category": "reporters:state",
+      "reporter": "Wash. App.",
+      "case_ids": [
+        3856968
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wash-app/141/0235-01"
+      ]
+    },
+    {
+      "cite": "952 P.2d 1124",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "72 Cal.Rptr.2d 856",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "17 Cal.4th 907",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1550674
+      ],
+      "pin_cites": [
+        {
+          "page": "924"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/17/0907-01"
+      ]
+    },
+    {
+      "cite": "196 Vt. 38",
+      "category": "reporters:state",
+      "reporter": "Vt.",
+      "case_ids": [
+        4218011
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "45"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/vt/196/0038-01"
+      ]
+    },
+    {
+      "cite": "271 Neb. 788",
+      "category": "reporters:state",
+      "reporter": "Neb.",
+      "case_ids": [
+        4087605
+      ],
+      "weight": 2,
+      "year": 2014,
+      "opinion_index": 0,
+      "case_paths": [
+        "/neb/271/0788-01"
+      ]
+    },
+    {
+      "cite": "882 P.2d 909",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "case_ids": [
+        10351435
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "920"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/p2d/882/0909-01"
+      ]
+    },
+    {
+      "cite": "813 N.E.2d 198",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 1994,
+      "opinion_index": 0
+    },
+    {
+      "cite": "286 Ill.Dec. 141",
+      "category": "reporters:state",
+      "reporter": "Ill. Dec.",
+      "year": 1994,
+      "opinion_index": 0
+    },
+    {
+      "cite": "211 Ill.2d 437",
+      "category": "reporters:state",
+      "reporter": "Ill. 2d",
+      "case_ids": [
+        8451597
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "451"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ill-2d/211/0437-01"
+      ]
+    },
+    {
+      "cite": "112 Nev. 1355",
+      "category": "reporters:state",
+      "reporter": "Nev.",
+      "case_ids": [
+        11824957
+      ],
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1363"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nev/112-2/1355-01"
+      ]
+    },
+    {
+      "cite": "814 N.E.2d 105",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "158 Ohio App.3d 121",
+      "category": "reporters:state",
+      "reporter": "Ohio App. 3d",
+      "case_ids": [
+        421462
+      ],
+      "pin_cites": [
+        {
+          "page": "125"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ohio-app-3d/158/0121-01"
+      ]
+    },
+    {
+      "cite": "538 N.W.2d 293",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "case_ids": [
+        10700763
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "293-294"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nw2d/538/0293-01"
+      ]
+    },
+    {
+      "cite": "681 N.E.2d 852",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 1995,
+      "opinion_index": 0
+    },
+    {
+      "cite": "425 Mass. 441",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        274509
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "446"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/425/0441-01"
+      ]
+    },
+    {
+      "cite": "978 P.2d 498",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1997,
+      "opinion_index": 0
+    },
+    {
+      "cite": "138 Wn.2d 213",
+      "category": "reporters:state",
+      "reporter": "Wash. 2d",
+      "case_ids": [
+        887378
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "223"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wash-2d/138/0213-01"
+      ]
+    },
+    {
+      "cite": "2006 ME 25",
+      "category": "reporters:neutral",
+      "reporter": "ME",
+      "case_ids": [
+        8986325
+      ],
+      "weight": 2,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "1002"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/a2d/893/0995-01"
+      ]
+    },
+    {
+      "cite": "2007 SD 56",
+      "category": "reporters:state",
+      "reporter": "SD",
+      "case_ids": [
+        8309033
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "808"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nw2d/734/0801-01"
+      ]
+    },
+    {
+      "cite": "355 Ore. 104",
+      "category": "reporters:state",
+      "reporter": "Or.",
+      "case_ids": [
+        3959526
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "119-120"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/or/355/0104-01"
+      ]
+    },
+    {
+      "cite": "2015 MT 256",
+      "category": "reporters:neutral",
+      "reporter": "MT",
+      "case_ids": [
+        4357389
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "\u00b6 19"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mont/381/0001-01"
+      ]
+    },
+    {
+      "cite": "128 Cal.Rptr.2d 31",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "103 Cal.App.4th 1409",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        747496
+      ],
+      "pin_cites": [
+        {
+          "page": "1422"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/103/1409-01"
+      ]
+    },
+    {
+      "cite": "181 Cal.Rptr. 910",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 2002,
+      "opinion_index": 0
+    },
+    {
+      "cite": "130 Cal.App.3d 426",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2082772
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "436-440"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/130/0426-01"
+      ]
+    },
+    {
+      "cite": "618 P.2d 208",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1982,
+      "opinion_index": 0
+    },
+    {
+      "cite": "168 Cal.Rptr. 662",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1982,
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.3d 366",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2259781
+      ],
+      "weight": 2,
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "371-372"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/28/0366-01"
+      ]
+    },
+    {
+      "cite": "26 U.S.C. \u00a7 7202",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 U.S.C. \u00a7 231",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "167 Cal.Rptr. 240",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "109 Cal.App.3d 334",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4722597
+      ],
+      "pin_cites": [
+        {
+          "page": "341"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/109/0334-01"
+      ]
+    },
+    {
+      "cite": "134 Cal.Rptr. 259",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "64 Cal.App.3d 82",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        6040795
+      ],
+      "pin_cites": [
+        {
+          "page": "96"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/64/0082-01"
+      ]
+    },
+    {
+      "cite": "42 U.S.C. \u00a7 659",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(i)(3)(B)(ii)"
+        },
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "537 U.S. 371",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9191134
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "375"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/537/0371-01"
+      ]
+    },
+    {
+      "cite": "42 U.S.C. \u00a7 401",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 Stat. 622",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "162 P.3d 569",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Cal.Rptr.3d 50",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Cal.4th 929",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3819341
+      ],
+      "pin_cites": [
+        {
+          "page": "935"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/41/0929-01"
+      ]
+    },
+    {
+      "cite": "302 P.3d 562",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "158 Cal.Rptr.3d 247",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "56 Cal.4th 1130",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        4224752
+      ],
+      "pin_cites": [
+        {
+          "page": "1134"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/56/1130-01"
+      ]
+    },
+    {
+      "cite": "225 P.3d 546",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "105 Cal.Rptr.3d 414",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "48 Cal.4th 118",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6050583
+      ],
+      "pin_cites": [
+        {
+          "page": "125"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/48/0118-01"
+      ]
+    },
+    {
+      "cite": "566 P.2d 249",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "139 Cal.Rptr. 615",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 Cal.3d 679",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2291145
+      ],
+      "pin_cites": [
+        {
+          "page": "686"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/19/0679-01"
+      ]
+    },
+    {
+      "cite": "955 P.2d 451",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "74 Cal.Rptr.2d 825",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 Cal.4th 169",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        344183
+      ],
+      "pin_cites": [
+        {
+          "page": "179"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/18/0169-01"
+      ]
+    },
+    {
+      "cite": "544 P.2d 561",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "126 Cal.Rptr. 633",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 Cal.3d 838",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2272274
+      ],
+      "pin_cites": [
+        {
+          "page": "845"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/15/0838-01"
+      ]
+    },
+    {
+      "cite": "150 Cal.Rptr.3d 699",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "211 Cal.App.4th 1284",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4261541
+      ],
+      "pin_cites": [
+        {
+          "page": "1290"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/211/1284-01"
+      ]
+    },
+    {
+      "cite": "191 Cal.Rptr.3d 330",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2012,
+      "opinion_index": 0
+    },
+    {
+      "cite": "239 Cal.App.4th 944",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4363514
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "953"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/239/0944-01"
+      ]
+    },
+    {
+      "cite": "164 Cal.Rptr. 672",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "105 Cal.App.3d 836",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        1975184
+      ],
+      "pin_cites": [
+        {
+          "page": "843"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/105/0836-01"
+      ]
+    },
+    {
+      "cite": "439 U.S. 572",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11331576
+      ],
+      "weight": 6,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/439/0572-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1312,
+    "char_count": 35743,
+    "ocr_confidence": 0.873,
+    "pagerank": {
+      "raw": 5.171900444807593e-08,
+      "percentile": 0.325158725470095
+    },
+    "sha256": "46452a4a7119d61aed3c68e48dd51a3c65e474adc818c27cb236b18396dea659",
+    "simhash": "1:23a6e5206ec602be",
+    "word_count": 5619
+  },
+  "last_updated": "2024-02-27T18:06:56.333935+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Willhite, Acting P. J., and Manella, J., concurred."
+    ],
+    "parties": [
+      "In re the Marriage of JOHN and ANNETTE PETERSON. JOHN PETERSON, Respondent, v. ANNETTE PETERSON, Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nCOLLINS, J.\u2014\nINTRODUCTION\nThe parties present a legal question that has divided states across the country: When one spouse contributes to Social Security, which according to federal law is a spouse\u2019s separate property, and the other spouse participates in a state or local pension plan in lieu of Social Security, which according to state law is community property, how should a state court divide the parties\u2019 retirement benefits?\nThe trial court held that because the husband\u2019s Social Security benefits are separate property and the wife\u2019s county retirement benefits are community property, the Social Security benefits may not be considered and the county benefits must be divided equally between the parties. We agree and affirm.\nFACTUAL AND PROCEDURAL BACKGROUND\nJohn and Annette Peterson were married on March 12, 1994, and they separated on February 17, 2010. John is an attorney who works in private practice. Throughout the marriage, John contributed to Social Security through mandatory payroll deductions.\nAnnette, also an attorney, began working for the County of Los Angeles as a deputy district attorney in September 1994, and remained employed with the county throughout the marriage. Through her employment Annette became a member of the Los Angeles County Employees Retirement Association (LACERA) plan E, which is a defined-benefit retirement plan. LACERA members do not contribute to the plan; only the county, Annette\u2019s employer, contributes. The amount of a LACERA member\u2019s benefits is determined by the member\u2019s age at retirement, amount of service credits, and final compensation. Annette began accumulating LACERA service credits as soon as she began working for the county. At the time of trial, she had more than 14 years of service credits under LACERA\u2019s plan E.\nLACERA members are barred from contributing to Social Security. Under the windfall elimination provision of the Social Security Act, 42 United States Code section 415(a)(7), and the government pension offset, 20 Code of Federal Regulations part 404.408a(a) (2015), Annette is barred from receiving Social Security benefits, both individually and as the spouse of someone who contributed to Social Security.\nAnnette and John separated on February 17, 2010, and filed for divorce. They entered into stipulated judgments regarding the custody of their children and division of the community estate, with the exception of their retirement benefits. They agreed that under existing law, John\u2019s Social Security is separate property and Annette\u2019s LACERA benefits are community property. As a result of this classification, John is entitled to keep 100 percent of his Social Security benefits and half of Annette\u2019s LACERA benefits, while Annette is entitled to none of John\u2019s Social Security benefits and only half of her LACERA benefits. Annette argued below that the trial court should fashion an equitable division of the LACERA benefits to account for this disparity, while John argued that the trial court was compelled by federal law and Family Code section 2550 to divide the LACERA benefits equally.\nThe court below conducted a short trial to address how to divide the retirement benefits. Annette stated that the present value of her LACERA benefits is approximately $210,000 to $216,000, and the present value of John\u2019s Social Security benefits is $228,000. Annette also used an online calculator available from the Social Security Web site to estimate the amount of Social Security benefits she would be entitled to receive had she participated in Social Security. She also presented evidence showing the amounts John and his employer contributed to his Social Security during the marriage. John does not dispute these facts.\nIn its order following trial, the court acknowledged the parties\u2019 agreement that John\u2019s Social Security benefits are separate property and Annette\u2019s LACERA benefits are community property. The trial court rejected Annette\u2019s argument that the court should fashion an equitable division of the LACERA benefits by either (a) requiring John to reimburse the community estate for the amount of Social Security contributions withheld from John\u2019s pay, and then dividing the assets, (b) allocating a portion of the LACERA benefits to Annette as separate property based on the present value of the Social Security benefits Annette would have accumulated had she been a Social Security participant, or (c) considering the present value of John\u2019s Social Security benefits when dividing the LACERA benefits to ensure the parties received roughly equal retirement benefits. The court held that considering John\u2019s Social Security benefits in dividing the LACERA benefits would amount to a \u201csetoff\u2019 of John\u2019s Social Security, which is barred by federal law. Relying on Hisquierdo v. Hisquierdo (1979) 439 U.S. 572 [59 L.Ed.2d 1, 99 S.Ct. 802] (Hisquierdo) and In re Marriage of Cohen (1980) 105 Cal.App.3d 836, 843 [164 Cal.Rptr. 672] (Cohen), the trial court concluded that because John\u2019s Social Security benefits were his separate property and the LACERA benefits were community property, the \u201cLACERA retirement benefits accumulated during marriage are subject to the mandate for equal division of Section 2550.\u201d The court added, \u201cThus, whether the result is inequitable or not, this court cannot adjust the division of [Annette\u2019s] LACERA benefits or deviate from the requirement of equal division.\u201d\nAnnette timely appealed.\nSTANDARD OF REVIEW\nBecause the parties have reached stipulated judgments as to the marital estate aside from the parties\u2019 retirement benefits, the only question before the court is how to divide the retirement benefits. Annette urges us to find that the trial court may divide the LACERA benefits in a manner that is not technically equal, in order to account for John\u2019s separate Social Security benefits. Because Annette has presented a question of law based on undisputed facts, we exercise de novo review. (In re Marriage of Siegel (2015) 239 Cal.App.4th 944, 953 [191 Cal.Rptr.3d 330]; Estate of Wilson (2012) 211 Cal.App.4th 1284, 1290 [150 Cal.Rptr.3d 699] [\u201cThe applicability of a statutory standard to undisputed facts and questions of statutory interpretation are questions of law that are reviewed de novo.\u201d].)\nDISCUSSION\nAnnette asks us to consider equitable ways to divide the parties\u2019 retirement benefits so that John does not receive 150 percent of the parties\u2019 collective retirement (all of the Social Security and half of the LACERA benefits) while Annette receives no Social Security and just half of the LACERA benefits. She suggests three alternative remedies, as she did in the court below. First, Annette argues that the Social Security withholdings from John\u2019s income should be reimbursed to the community and divided along with the LACERA benefits. Second, Annette suggests that a portion of the LACERA benefits, equal to what she would have contributed to Social Security had she been a participant, be attributed to her as her separate property, just as John\u2019s Social Security is John\u2019s separate property. Third, Annette suggests that we order the trial court to determine the value of John\u2019s Social Security benefits as of the date of separation, assign an equal value of the LACERA benefits to Annette as separate property, and divide the remainder as a community asset.\nJohn, on the other hand, argues that California and federal law are clear: Social Security is separate property under federal law, non-Social Security pensions are community property under California law, and California law requires community assets to be divided equally. As a result, John argues, his Social Security withholdings and benefits should not be considered, and the LACERA benefits should be divided equally. We agree that existing law compels this result, and affirm.\nA. Pension benefits are community property under California law\nIn California, pension benefits are viewed as \u201ca form of deferred compensation for services rendered,\u201d and \u201can employee acquires a property right to pension benefits when he enters upon the performance of his employment contract.\u201d (In re Marriage of Brown (1976) 15 Cal.3d 838, 845 [126 Cal.Rptr. 633, 544 P.2d 561].) \u201c[I]f the right to retirement benefits accrues, in some part, during marriage before separation, it is a community asset and is therefore owned by the community in which the nonemployee spouse as well as the employee spouse owns an interest.\u201d (In re Marriage of Lehman (1998) 18 Cal.4th 169, 179 [74 Cal.Rptr.2d 825, 955 P.2d 451].)\nNon-financial contributions to pension benefits, such as the service credits Annette has accumulated under LACERA plan E, are also community assets. \u201cThe service credit (and the pension component of the retirement allowance) are more correctly described as \u2018 \u201ca form of deferred compensation for services rendered.\u2019 \u201d (In re Marriage of Skaden (1977) 19 Cal.3d 679, 686 [139 Cal.Rptr. 615, 566 P.2d 249].)\u201d (In re Marriage of Sonne (2010) 48 Cal.4th 118, 125 [105 Cal.Rptr.3d 414, 225 P.3d 546].) \u201cTo the extent that such a right derives from service during marriage before separation, it is a community asset.\u201d (In re Marriage of Green (2013) 56 Cal.4th 1130, 1134 [158 Cal.Rptr.3d 247, 302 P.3d 562].)\nThe parties agree that under existing law, Annette\u2019s LACERA benefits that accumulated during the marriage are a community asset.\nB. Social Security benefits are separate property under federal law\n1. Social Security is separate property under federal law\nAlthough retirement benefits are generally community property under California law, federal law mandates that Social Security is separate property. \u201cThe supremacy clause of the United States Constitution establishes a constitutional choice-of-law rule, makes federal law paramount, and vests Congress with the power to preempt state law.\u201d (Viva! Internal Voice for Animals v. Adidas Promotional Retail Operations, Inc. (2007) 41 Cal.4th 929, 935 [63 Cal.Rptr.3d 50, 162 P.3d 569].) California law on this issue is\npreempted.\nThe federal Social Security Act, \u201cTitle II, 49 Stat. 622, as amended, 42 U.S.C. \u00a7 401 et seq., is the Old-Age, Survivors, and Disability Insurance (OASDI) plan of benefits for elderly and disabled workers, and their survivors and dependents.\u201d (Washington State Dept. of Social and Health Servs. v. Guardianship Estate of Keffeler (2003) 537 U.S. 371, 375 [154 L.Ed.2d 972, 123 S.Ct. 1017] (Keffeler).) The act\u2019s anti-attachment provision, 42 United States Code \u00a7 407(a)), states in full, \u201cThe right of any person to any future payment under this subchapter shall not be transferable or assignable, at law or in equity, and none of the moneys paid or payable or rights existing under this subchapter shall be subject to execution, levy, attachment, garnishment, or other legal process, or to the operation of any bankruptcy or insolvency law.\u201d \u201cThese legal terms of art refer to formal procedures by which one person gains a degree of control over property otherwise subject to the control of another, and generally involve some form of judicial authorization.\u201d (Keffeler, supra, 537 U.S. at p. 383.) The Social Security Act therefore expressly limits the ability of courts to assign Social Security benefits in a legal proceeding.\nIn implementing various revisions to the Social Security Act, Congress has continued to specifically exempt it from state community property laws. For example, Social Security benefits are subject to state law obligations to pay child support or alimony (42 U.S.C. \u00a7 659(a)), so long as \u201calimony\u201d does not include \u201cany payment or transfer of property or its value by an individual to the spouse or a former spouse of the individual in compliance with any community property settlement, equitable distribution of property, or other division of property between spouses or former spouses.\u201d (42 U.S.C. \u00a7 659(i)(3)(B)(ii), italics added.)\nCourts are in agreement that the anti-attachment provision bars Social Security benefits from being characterized as community property and divided in a dissolution proceeding. As this court held in 1980, \u201c[S]ocial security benefits [are] not an asset of the community, [are] not subject to division, and cannot be recognized by any alternative provision employing a setoff. . . .\u201d (Cohen, supra, 105 Cal.App.3d at p. 843; see also In re Marriage of Kelley (1976) 64 Cal.App.3d 82, 96 [134 Cal.Rptr. 259] [\u201cThe scope and nature of OASDI benefits both preclude their characterization as deferred compensation and disclose a federal statutory scheme in conflict with state court action exercising jurisdiction to award benefits from or employee \u2018contributions\u2019 to OASDI as community property in dissolution of marriage.\u201d]; In re Marriage of Hillerman (1980) 109 Cal.App.3d 334, 341 [167 Cal.Rptr. 240] [in creating Old-Age, Survivors, and Disability Insurance benefit scheme Congress intended \u201cto create a federal retirement benefit which is immune from division by state courts in marital dissolution proceedings\u201d].)\nThe parties recognize this limitation, and Annette is making no direct claims to John\u2019s present or future Social Security benefits.\n2. Federal law does not allow an \"offset\u201d of Social Security benefits\nOne of Annette\u2019s proposed solutions for reaching an equitable division of the retirement benefits in this case is to characterize John\u2019s Social Security income withholdings as a community asset: \u201c[T]he funds expended during the marriage from earnings, used to acquire [the] right to Social Security benefits, should be reimbursed to the community and proportionately offset against the . . . LACERA Benefits. . . .\u201d John argues that \u201cAnnette\u2019s attempt to seek \u2018reimbursement\u2019 for contributions to the Social Security system is a direct infringement of the federal supremacy clause.\u201d We agree that classifying the income that John contributed to Social Security as community property would amount to an offset against John\u2019s Social Security benefits, which is barred by federal law.\nA 1979 United States Supreme Court case, Hisquierdo, supra, 439 U.S. 572, addressed the concept of offsets to account for disparities between spouses in federal retirement benefits. Hisquierdo, which originated as a California dissolution case, involved retirement and disability benefits for those in the railroad industry under the federal Railroad Retirement Act of 1974 (45 U.S.C. \u00a7 231 et seq.). (Hisquierdo, at p. 573.) The husband worked in the railroad industry for over 30 years and was eligible for retirement benefits under the Railroad Retirement Act of 1974. (Hisquierdo, at p. 579.) The wife worked in a different industry and was entitled to Social Security. (Ibid.) In the dissolution proceeding, the wife argued that based on the duration of the marriage, she was entitled to about 20 percent of the husband\u2019s retirement benefits. (Ibid.) A provision of the Railroad Retirement Act of 1974, similar to the anti-attachment provision of the Social Security Act, stated that benefits were not subject to \u201c \u2018garnishment, attachment, or other legal process under any circumstances whatsoever ....\u2019\u201d (Hisquierdo, at p. 576, citing 45 U.S.C. \u00a7 231m.)\nThe California Supreme Court followed California community property law and held that because the husband\u2019s retirement benefits resulted from his employment during marriage, the benefits were community property and should be divided as such. (Hisquierdo, supra, 439 U.S. at p. 580.) The United States Supreme Court reversed, holding that federal law preempted state community property law with respect to those benefits. Drawing parallels between the Railroad Retirement Act of 1974 and Social Security, the court held that \u201cCongress carefully targeted the benefits created by the Railroad Retirement Act\u201d (Hisquierdo, at p. 584) by determining the amount \u201cappropriate to support an employee\u2019s old age and to encourage the employee to retire\u201d (id. at p. 585). If a state awarded those retirement benefits to a spouse, the court held, it would \u201creverse the flow of incentives Congress originally intended.\u201d {Ibid.) The court noted that Congress could have written a community property exception into the statute if it had desired, referencing the 1977 amendments to the Social Security Act that \u201cfacilitate garnishment for claims based on spousal support.\u201d (Hisquierdo, at p. 587; see also 42 U.S.C. \u00a7 659(a).) Because there was no such exception in the Railroad Retirement Act of 1974, the court would not read such a limitation into the statute.\nThe wife in Hisquierdo suggested that even if she were not entitled to receive the husband\u2019s Railroad Retirement Act of 1974 benefits directly, she could nonetheless get \u201can offsetting award of presently available community property to compensate her for her interest in [the husband\u2019s] expected benefits.\u201d (Hisquierdo, supra, 439 U.S. at p. 588.) The court rejected this approach, because awarding the equivalent of a share of the husband\u2019s benefits would have the same effect as awarding the benefits themselves. \u201cAn offsetting award . . . would upset the statutory balance and impair [the husband\u2019s] economic security just as surely as would a regular deduction from his benefit check.\u201d (Ibid.) Moreover, there were practical concerns with this approach, since the wife was only seeking a share of expected retirement benefits. If she were to receive those expected benefits in a divorce and then the husband were to die before retirement, the husband\u2019s \u201cheirs or beneficiaries [would] suffer to the extent that the offset exceeds the lump-sum death benefits the Act provides.\u201d (Id. at p. 589.) The court also noted that because Railroad Retirement Act of 1974 benefits were not \u201canticipate[d]\u201d because they were not payable until a certain date, Congress could change the terms of the policy before the husband retired, resulting in a \u201cmultiple penalty on future recipients.\u201d (Hisquierdo, at p. 589.) \u201cBy barring lump-sum community property settlements based on mere expectations, the prohibition against anticipation prevents such an obvious frustration of congressional purpose.\u201d (Ibid.)\nAnnette argues that John\u2019s contributions to Social Security were the equivalent of using community assets (income) to contribute to the improvement of individual property (Social Security benefits), and it is \u201cunfair and inequitable to allow community funds to be used for the economic benefit solely of John.\u201d Social Security withholdings from income, however, are not optional and were never available to the community \u2014 they were removed from John\u2019s pay before he ever received it. Employers are required by federal law to collect and pay such taxes. (See, e.g., 26 U.S.C. \u00a7 7202.) Because federal law mandated the withholdings that were intended to fund the Social Security system, and the marital estate never had the option of receiving John\u2019s Social Security withholdings as a result of federal law, we conclude that characterizing the withholdings as community property to which Annette is entitled would have the same effect as the offset barred by Hisquierdo. (See also Cohen, supra, 105 Cal.App.3d at p. 843 [under Hisquierdo, \u201c[S]ocial [S]ecurity benefits . . . cannot be recognized by any alternative provision employing a setoff\u2019].)\nCalifornia law also does not support Annette\u2019s argument. Annette analogizes the situation to one in which community income is used to improve separate property. She cites In re Marriage of Moore (1980) 28 Cal.3d 366, 371-372 [168 Cal.Rptr. 662, 618 P.2d 208], In re Marriage of Marsden (1982) 130 Cal.App.3d 426, 436-440 [181 Cal.Rptr. 910], and Bono v. Clark (2002) 103 Cal.App.4th 1409, 1422 [128 Cal.Rptr.2d 31], which hold that community contributions to the maintenance or improvement of separate real property are reimbursable to the community. Her argument falters, however, on the assumption that John\u2019s Social Security withholdings are community assets. Community assets are \u201call property, real or personal . . . acquired by a married person during the marriage.\u201d (\u00a7 760.) Here, the parties never had the option to spend John\u2019s Social Security withholdings in any way other than on Social Security contributions because they were withheld directly from John\u2019s income as required by federal law. John therefore never \u201cacquired\u201d those funds, and they never became community property.\nIn addition, section 2640 states that \u201c \u2018[contributions to the acquisition of property\u2019 \u201d specifically do not include \u201cpayments made for maintenance, insurance, or taxation of the property.\u201d (\u00a7 2640, subd. (a).) In re Marriage of Moore, supra, 28 Cal.3d 366, upon which Annette relies, specifically held that tax obligations on property should not be included in the determination of the community assets and debts: \u201cUpon dissolution, it is the court\u2019s duty to account for and divide the assets and the debts of the community. Payments previously made for interest, taxes and insurance are neither.\u201d (28 Cal.3d at p. 372.) We see no basis for treating federally mandated Social Security withholdings differently than other taxes.\nWe therefore will not consider John\u2019s Social Security withholdings as community property because such a characterization contravenes both federal and state law.\nWe recognize that many other jurisdictions have struggled with the issue of whether mere \u201cconsideration\u201d of Social Security benefits in dividing a marital estate is preempted under the reasoning of Hisquierdo. The majority of jurisdictions allows some consideration of Social Security benefits in fashioning an equitable division of a marital estate. (See, e.g., Smith v. Smith (2015) 2015 MT 256, \u00b6 19; In re Marriage of Herald & Steadman (2014) 355 Ore. 104, 119-120 [322 P.3d 546] (Herald); Johnson v. Johnson (2007) 2007 SD 56 [734 N.W.2d 801, 808]; Depot v. Depot (2006) 2006 ME 25 [893 A.2d 995, 1002]; In re Marriage of Zahm (1999) 138 Wn.2d 213, 223 [978 P.2d 498]; Mahoney v. Mahoney (1997) 425 Mass. 441, 446 [681 N.E.2d 852]; In re Marriage of Boyer (Iowa 1995) 538 N.W.2d 293, 293-294; Harshbarger v. Harshbarger (2004) 158 Ohio App.3d 121, 125 [814 N.E.2d 105].) A minority of jurisdictions bars all consideration of Social Security benefits. (See, e.g., Wolff v. Wolff (1996) 112 Nev. 1355, 1363 [929 P.2d 916]; In re Marriage of Crook (2004) 211 Ill.2d 437, 451 [286 Ill.Dec. 141, 813 N.E.2d 198]; Cox v. Cox (Alaska 1994) 882 P.2d 909, 920; Webster v. Webster (2006) 271 Neb. 788 [716 N.W.2d 47]; Manning v. Schultz (2014) 196 Vt. 38, 45 [93 A.3d 566].)\nWe need not address that issue here because, as discussed below, California law mandates the outcome in this case without regard to any consideration of John\u2019s Social Security benefits.\nC. California law requires that community property be divided equally\nAnnette argues that the court could have fashioned a more equitable award in two additional ways. First, Annette determined the amount she would have contributed to Social Security had she been a participant, and she argues that the court could have designated an equivalent portion of the LACERA benefits as her separate property. Second, Annette argues that an amount of LACERA benefits equal to the present value of John\u2019s Social Security benefits could have been awarded to Annette as separate property, and the remainder of her LACERA benefits then divided as a community asset.\nAnnette\u2019s suggestions are not supported by California law. The Family Code does not allow courts to make unequal awards of community assets. Because the LACERA benefits are community assets, the court was required to divide the benefits equally.\nAs a general rule, section 2550 requires courts to divide a marital estate equally: \u201cExcept upon the written agreement of the parties, or on oral stipulation of the parties in open court, or as otherwise provided in this division, in a proceeding for dissolution of marriage or for legal separation of the parties, the court shall, either in its judgment of dissolution of the marriage, in its judgment of legal separation of the parties, or at a later time if it expressly reserves jurisdiction to make such a property division, divide the community estate of the parties equally.\u201d \u201cIn satisfying this mandate, \u2018the court must distribute both the assets and the obligations of the community so that the residual assets awarded to each party after the deduction of the obligations are equal.\u2019 [Citations.]\u201d (In re Marriage of Walrath (1998) 17 Cal.4th 907, 924 [72 Cal.Rptr.2d 856, 952 P.2d 1124].)\nAnnette cites a variety of cases from other states to support her position that the court may fashion equitable solutions. For example, in Herald, the Supreme Court of Oregon affirmed the trial court\u2019s division of assets where the wife was part of the Civil Service Retirement System (CSRS) and did not participate in Social Security, and the husband participated in Social Security. \u201cThe [trial] court concluded that it would be unjust for husband to receive half of the value of wife\u2019s CSRS pension at her retirement and, at the same time, enjoy his own full share of Social Security benefits. The evidence showed that, if wife had used marital assets to pay into the Social Security system during the parties\u2019 marriage, she likely would have received a monthly Social Security benefit of $391.41, if she retired at age 62. Based on that evidence, the court provided in the judgment that, when wife reaches 62, husband\u2019s portion of wife\u2019s monthly CSRS annuity benefit will be reduced by that amount.\u201d (Herald, supra, 322 P.3d at p. 549.) The Supreme Court of Oregon affirmed this division of assets, holding that \u201ca court does not per se violate 42 USC section 407(a) by considering Social Security benefits in fashioning a just and proper property division.\u201d (Herald, supra, 322 P.3d at p. 556, italics omitted.)\nSimilarly, in In re Marriage of Rockwell (2007) 141 Wn.App. 235 [170 P.3d 572] (Rockwell), the wife participated in CSRS and the husband contributed to Social Security. The trial court determined the value of Social Security the wife would have received had she also participated in Social Security, and ruled that the CSRS pension was 8 percent the wife\u2019s separate property and 92 percent community property. (Rockwell, supra, 170 P.3d at p. 575.) The Court of Appeals of Washington held that \u201cthe trial court properly considered and compensated for the social security benefits that [the wife] would have received, but for her federal pension.\u201d (Id. at p. 578.)\nAnnette also cites Cornbleth v. Cornbleth (1990) 397 Pa.Super. 421 [580 A.2d 369], where the husband participated in CSRS and the wife participated in Social Security. The Superior Court of Pennsylvania said that \u201cto the extent part of [a] pension might figuratively be considered \u2018in lieu of\u2019 a Social Security benefit we believe that portion should be exempted from the marital estate.\u201d (Cornbleth, supra, 580 A.2d at p. 371.) The court found that, \u201cTo facilitate a process of equating CSRS participants and Social Security participants we believe it will be necessary to compute the present value of a Social Security benefit had the CSRS participant been participating in the Social Security system.\u201d (Id. at p. 372.) Many other jurisdictions have fashioned various solutions to compensate a spouse who does not participate in Social Security, thereby preventing an unequal award resulting from the federal mandate that Social Security be deemed separate property. (See, e.g., Kelly v. Kelly (2000) 198 Ariz. 307 [9 P.3d 1046] (Kelly); cases cited, ante, at p. 934.)\nThe laws of other states, however, are distinguishable. Washington, for example, is a community property state, but the Court of Appeals in Rockwell noted that under Washington law, \u201cthe court is not required to divide community property equally.\u201d (Rockwell, supra, 170 P.3d at p. 576.) Arizona, another community property state, requires equal divisions of assets but allows for some variance: \u201cThe statute [Ariz.Rev.Stat. \u00a7 25-318A] requires a substantially equal distribution of community assets in the absence of a compelling reason to the contrary. See Hatch v. Hatch, 113 Ariz. 130, 133 [547 P.2d 1044].\u201d (Kelly, supra, 9 P.3d at p. 1048.) Another community property state, Louisiana, has addressed the issue in a statute: \u201cWhen federal law or the provisions of a statutory pension or retirement plan, state or federal, preempt or preclude community classification of property that would have been classified as community property under the principles of the Civil Code, the spouse of the person entitled to such property shall be allocated or assigned the ownership of community property equal in value to such property prior to the division of the rest of the community property.\u201d (La.Rev.Stat.Ann. \u00a7 9:2801.1.)\nCalifornia, on the other hand, is unique in its approach to community property because it strictly limits trial court discretion. \u201c[U]nlike virtually every other state, California has restricted judicial authority by requiring trial courts to divide the community estate equally between the parties, except for limited circumstances . . . which are inapplicable here.\u201d (In re Marriage of Cream (1993) 13 Cal.App.4th 81, 87 [16 Cal.Rptr.2d 575].) \u201c[T]he court possesses no authority to divide the community estate between the parties other than equally . . . .\u201d (Id. at p. 88.) Therefore, \u201cexcept as otherwise agreed by the parties or specifically provided by statute, no trial court has discretion to divide the community estate unequally and if it does so, the trial court errs as a matter of law. (Fam. Code, \u00a7 2550.)\u201d (In re Marriage of Cooper (2008) 160 Cal.App.4th 574, 580 [73 Cal.Rptr.3d 71].) California law does not allow for the exercise of discretion Annette seeks.\nMoreover, Annette\u2019s suggestions contravene the present ownership interests inherent in community property. \u201cThe respective interests of each spouse in community property during continuance of the marriage relation are present, existing, and equal interests.\u201d (\u00a7751.) Annette\u2019s proposals that we provide a portion of the LACERA benefits to her as her separate property fail to account for the fact that John has a present, existing, equal interest in those benefits. The trial court did not have authority to convert John\u2019s \u201cpresent, existing, and equal\u201d interest in the LACERA benefits to Annette\u2019s separate property based on equitable considerations not supported by California law.\nWe sympathize with Annette\u2019s situation, and recognize that the result of California\u2019s strict policies on the division of property, intended to protect spouses (see \u00a7 2580), did not produce an equitable result in the situation before us. But it is not our role to change or defy California law. To do so would contradict the main purpose of California\u2019s community property principles: \u201c[T]he spouse \u2018should not be dependent on the discretion of the court ... to provide [him] with the equivalent of what should be [his] as a matter of absolute right.\u2019 [Citation.]\u201d (In re Marriage of Brown, supra, 15 Cal.3d at p. 848.)\nWe also note that our Legislature is free to craft a statute similar to Louisiana\u2019s Revised Annotated Statutes section 9:2801.1, which directs courts to assign a portion of community assets to one spouse when the other spouse\u2019s retirement plan is classified as separate property under federal law. In addition, members of Congress have introduced many versions of a \u201cSocial Security Fairness Act\u201d intended to amend the government pension offset and windfall elimination provision, which bars Annette from receiving any Social Security as a result of her government pension plan. (See, e.g., Sen. No. 484, 111th Cong., 1st Sess. (2009) [introduced Feb. 25, 2009]; Sen. No. 2010, 112th Cong., 1st Sess. (2011) [introduced Dec. 2011]; H.R. No. 1332, 112th Cong., 1st Sess. (2011) [introduced Apr. 1, 2011]; H.R. No. 1795, 113th Cong., 1st Sess. (2013) [introduced Apr. 26, 2013]; H.R. No. 973, 114th Cong., 1st Sess. (2015) [introduced Feb. 13, 2015].) Whether California or federal law should be changed to address the challenges presented here is a legislative policy decision that is beyond the purview of this court.\nFinally, it is within the parties\u2019 power to create a more equitable solution\u2014 even if the court may not do so. (See \u00a7 2550 [allowing for an unequal division \u201cupon the written agreement of the parties, or on oral stipulation of the parties in open court\u201d].)\nDISPOSITION\nWe affirm the trial court\u2019s ruling. Because John\u2019s Social Security is separate property under federal law and Annette\u2019s LACERA benefits are a community asset under California law, the trial court was correct in holding that it must divide the LACERA benefits equally. The parties are to bear their own costs on appeal.\nWillhite, Acting P. J., and Manella, J., concurred.\nFollowing the parties\u2019 practice in their respective briefs, we refer to the parties by their first names and intend no disrespect.\nAll further statutory references are to the Family Code unless otherwise indicated.\nSee, e.g., Social Security Administration Web site <https://www.ssa.gov/planners/benefit calculators.html> [as of Jan. 11, 2015].\nJohn argues that section 2610 also requires the LACERA benefits to be split equally. This statute provides that once a court determines each party\u2019s \u201ccommunity property share in any retirement plan,\u201d the court then has the power to make all \u201cnecessary or appropriate\u201d orders to ensure that the party receives the full share awarded. (\u00a7 2610, subd. (a).) The law was intended only to empower courts to ensure that benefits reached their intended recipients. (See In re Marriage of Powers (1990) 218 Cal.App.3d 626, 634-636 [267 Cal.Rptr. 350].) The law has no bearing on how retirement assets are to be divided, and in cases involving multiple community assets, courts have broad discretion in how to award individual assets to effect a substantially equal division of the community estate. (\u00a7 2601.) Section 2610 therefore does not support John\u2019s argument that retirement benefits must be divided equally.\nThis is not to say that a court must divide all community assets in kind in every case. When multiple assets are at issue, the court has broad discretion to fashion an apportionment of interests that is equitable under the circumstances of the case as long as it effects an equal division. (In re Marriage of Gray (2007) 155 Cal.App.4th 504, 514 [66 Cal.Rptr.3d 87]; \u00a7 2550.) With respect to pension rights, a court may usually exercise its discretion by determining the present value of community property rights in the pension \u201cand award them to one spouse with offsetting community or other assets to the other (commonly called the cash out method), or it may divide the community interest in kind between the spouses, reserving jurisdiction to supervise future payments to each spouse.\u201d (In re Marriage of Moore (2014) 226 Cal.App.4th 92, 100 [171 Cal.Rptr.3d 762].) Here, because only a single community asset is at issue, the court\u2019s discretion to fashion alternative methods of division is limited.\nOn July 16, 2015, the California Legislature passed Senate Joint Resolution No. 1 (2015-2016 Reg. Sess.), stating in part, \u201cthe Legislature of the State of California requests the Congress of the United States to pass legislation repealing the Government Pension Offset and the Windfall Elimination Provision from the Social Security Act . . . .\u201d (Sen.J.Res. No. 1 (2015-2016 Reg. Sess.), res. ch. 92.)",
+        "type": "majority",
+        "author": "COLLINS, J.\u2014"
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Law Office of James T. Neavitt, James T. Neavitt, Cecilia Jimenez and Andrew L. Fowler for Appellant.",
+      "Brian M. Moore for Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. B259322.\nSecond Dist., Div. Four.\nJan. 11, 2016.]\nIn re the Marriage of JOHN and ANNETTE PETERSON. JOHN PETERSON, Respondent, v. ANNETTE PETERSON, Appellant.\nCounsel\nLaw Office of James T. Neavitt, James T. Neavitt, Cecilia Jimenez and Andrew L. Fowler for Appellant.\nBrian M. Moore for Respondent."
+  },
+  "file_name": "0923-01",
+  "first_page_order": 819,
+  "last_page_order": 835
+}

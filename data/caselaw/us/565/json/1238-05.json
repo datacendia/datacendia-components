@@ -1,0 +1,59 @@
+{
+  "id": 12249579,
+  "name": "Jackson v. Florida",
+  "name_abbreviation": "Jackson v. Florida",
+  "decision_date": "2012-02-27",
+  "docket_number": "No. 11-8090",
+  "first_page": "1238",
+  "last_page": "1238",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1238"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 83,
+    "ocr_confidence": 0.672,
+    "sha256": "0354f32d91383930bec8bc8818725fdf460ca467bc29b46a285668caf4756bf3",
+    "simhash": "1:a1098132e641eb1a",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jackson v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 4th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8090.\nJackson v. Florida."
+  },
+  "file_name": "1238-05",
+  "first_page_order": 1320,
+  "last_page_order": 1320
+}

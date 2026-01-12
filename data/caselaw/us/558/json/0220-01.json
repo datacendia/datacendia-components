@@ -1,0 +1,448 @@
+{
+  "id": 3639010,
+  "name": "WELLONS v. HALL, WARDEN",
+  "name_abbreviation": "Wellons v. Hall",
+  "decision_date": "2010-01-19",
+  "docket_number": "No. 09-5731",
+  "first_page": "220",
+  "last_page": "232",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "558 U.S. 220"
+    },
+    {
+      "type": "parallel",
+      "cite": "175 L. Ed. 2d 684"
+    },
+    {
+      "type": "parallel",
+      "cite": "130 S. Ct. 727"
+    },
+    {
+      "type": "vendor",
+      "cite": "2010 U.S. LEXIS 762"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2009-016"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "556 U. S. 449",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653509
+      ],
+      "weight": 4,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "466-467"
+        },
+        {
+          "page": "466-467"
+        },
+        {
+          "page": "466"
+        },
+        {
+          "page": "466-467"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/556/0449-01"
+      ]
+    },
+    {
+      "cite": "554 F. 3d 923",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3684323
+      ],
+      "weight": 14,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "930"
+        },
+        {
+          "page": "932"
+        },
+        {
+          "page": "933"
+        },
+        {
+          "page": "935"
+        },
+        {
+          "page": "935"
+        },
+        {
+          "page": "936",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "937"
+        },
+        {
+          "page": "937"
+        },
+        {
+          "page": "934-935"
+        },
+        {
+          "page": "935"
+        },
+        {
+          "page": "937"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/554/0923-01"
+      ]
+    },
+    {
+      "cite": "266 Ga. 77",
+      "category": "reporters:state",
+      "reporter": "Ga.",
+      "case_ids": [
+        1245693
+      ],
+      "weight": 2,
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "88"
+        },
+        {
+          "page": "880"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ga/266/0077-01"
+      ]
+    },
+    {
+      "cite": "516 U. S. 163",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        323202
+      ],
+      "weight": 2,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "167",
+          "parenthetical": "per curiam"
+        },
+        {
+          "page": "167"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/516/0163-01"
+      ]
+    },
+    {
+      "cite": "529 U. S. 420",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9508670
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "442",
+          "parenthetical": "holding that several \"omissions as a whole disclose the need for an evidentiary hearing\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/529/0420-01"
+      ]
+    },
+    {
+      "cite": "455 U. S. 209",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11304618
+      ],
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "215",
+          "parenthetical": "\"This Court has long held that the remedy for allegations of juror partiality is a hearing in which the defendant has the opportunity to prove actual bias\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/455/0209-01"
+      ]
+    },
+    {
+      "cite": "556 U. S. 449",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653509
+      ],
+      "weight": 2,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "466-467"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/556/0449-01"
+      ]
+    },
+    {
+      "cite": "554 F. 3d 923",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3684323
+      ],
+      "weight": 2,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "936"
+        },
+        {
+          "page": "936-938"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/554/0923-01"
+      ]
+    },
+    {
+      "cite": "516 U. S. 163",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        323202
+      ],
+      "weight": 3,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "167",
+          "parenthetical": "per curiam"
+        },
+        {
+          "page": "190-191",
+          "parenthetical": "Scalia, J., dissenting"
+        },
+        {
+          "page": "190",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/516/0163-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a72254",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "568 F. 3d 894",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3656157
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "915, n. 23"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/568/0894-01"
+      ]
+    },
+    {
+      "cite": "519 U. S. 919",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11659408
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "921",
+          "parenthetical": "Scalia, J., dissenting"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/519/0919-01"
+      ]
+    },
+    {
+      "cite": "547 U. S. 867",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3275893
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "872",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/547/0867-01"
+      ]
+    },
+    {
+      "cite": "556 U. S. 449",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653509
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "466-467"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/556/0449-01"
+      ]
+    },
+    {
+      "cite": "554 F. 3d 923",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3684323
+      ],
+      "weight": 4,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "936"
+        },
+        {
+          "page": "937-938",
+          "parenthetical": "\"[E]ven if these claims were properly before us on habeas review, we would not disturb the Georgia Supreme Court's conclusion on the merits of these claims\""
+        },
+        {
+          "page": "936",
+          "parenthetical": "\"Even if we assume that Wellons's misconduct claims are not procedurally barred, they do not entitle Wellons to habeas relief\""
+        },
+        {
+          "page": "935"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/f3d/554/0923-01"
+      ]
+    },
+    {
+      "cite": "550 U. S. 465",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3556121
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "474"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/550/0465-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1023,
+    "char_count": 26424,
+    "ocr_confidence": 0.603,
+    "pagerank": {
+      "raw": 1.89733746690756e-07,
+      "percentile": 0.7298437090347738
+    },
+    "sha256": "e075e5b25bbb9061fd61317427f54a612e154c396832336fe1c24198acf8f168",
+    "simhash": "1:f0228a552f3b076f",
+    "word_count": 4378
+  },
+  "last_updated": "2024-02-27T16:51:48.879996+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "WELLONS v. HALL, WARDEN"
+    ],
+    "opinions": [
+      {
+        "text": "Per Curiam.\nFrom beginning to end, judicial proceedings conducted for the purpose of deciding whether a defendant shall be put to death must be conducted with dignity and respect. The disturbing facts of this case raise serious questions concerning the conduct of the trial, and this petition raises a serious question about whether the Court of Appeals carefully reviewed those facts before addressing petitioner\u2019s constitutional claims. We know that the Court of Appeals committed the same procedural error that we corrected in Cone v. Bell, 556 U. S. 449, 466-467 (2009). We do not know how the court would have ruled if it had the benefit of our decision in that case.\nPetitioner Marcus Wellons was convicted in Georgia state court of rape and murder and sentenced to death. Although the trial looked typical, there were unusual events going on behind the scenes. Only after the trial did defense counsel learn that there had been unreported ex parte contacts between the jury and the judge, that jurors and a bailiff had planned a reunion, and that \u201ceither during or immediately following the penalty phase, some jury members gave the trial judge chocolate shaped as male genitalia and the bailiff chocolate shaped as female breasts,\u201d 554 F. 3d 923, 930 (CA11 2009). The judge had not reported any of this to the defense.\nNeither Wellons nor any court has ascertained exactly what went on at this capital trial or what prompted such \u201cgifts.\u201d Wellons has repeatedly tried, in both state and federal court, to find out what occurred, but he has found himself caught in a procedural morass: He raised the issue on direct appeal but was constrained by the nonexistent record, and the State Supreme Court affirmed his conviction and sentence. Wellons v. State, 266 Ga. 77, 88, 463 S. E. 2d 868, 880 (1995). He sought state habeas relief and moved to develop evidence. But the court held that the matter had been decided on appeal and thus was res judicata. See 554 F. 3d, at 932. He raised the issue again in his federal habeas petition, seeking discovery and an evidentiary hearing. But the District Court \u201cconcluded that Wellons\u2019s claims ... were procedurally barred, and accordingly denied his motion for an evidentiary hearing on these claims.\u201d Id., at 933. Before the Eleventh Circuit, Wellons \u201cargue[d] that the district court erred in denying his motions for discovery and an evidentiary hearing to develop his judge, juror, and bailiff misconduct claims because they are not procedurally barred.\u201d Id., at 935. The court disagreed, holding that Wellons\u2019 claims were procedurally barred. Ibid.\nAs our dissenting colleagues acknowledge, post, at 226-227 (opinion of Scalia, J.); post, at 229 (opinion of Alito, J.), the Eleventh Circuit\u2019s holding was an error under Cone, 556 U. S., at 466-467. \u201cWhen a state court declines to review the merits of a petitioner\u2019s claim on the ground that it has done so already, it creates no bar to federal habeas review.\u201d Id., at 466. Both dissenting opinions assume that \u201cthe issue on which Cone throws light does not affect the outcome\u201d because \u201cthe Eleventh Circuit . .. also decided that petitioner was not entitled to habeas relief on the merits.\u201d Post, at 227 (opinion of Scalia, J.). Having found a procedural bar, however, the Eleventh Circuit had no need to address whether petitioner was otherwise entitled to an evidentiary hearing and gave this question, at most, perfunctory consideration that may well have turned on the District Court\u2019s finding of a procedural bar.\nAlthough Wellons appealed the denial of \u201chis motions for discovery and an evidentiary hearing,\u201d 554 F. 3d, at 935, the Eleventh Circuit did not purport to address the merits of that issue at all. The court stated only that \u201c[e]ven if we assume that Wellons\u2019s misconduct claims are not procedurally barred, they do not entitle Wellons to habeas relief\u201d Id., at 936 (emphasis added). This opaque statement appears to address only whether petitioner was entitled to ultimate relief in the form of a new trial, not whether petitioner\u2019s allegations, combined with the facts he had learned, entitled him to the discovery and evidentiary hearing that he sought.\nThe Eleventh Circuit\u2019s reasoning does not suggest otherwise. The court observed that Wellons\u2019 claims of misconduct were \u201cgrounded in his speculation as to the meaning underlying the jurors\u2019 chocolate \u2018gifts\u2019\u201d and \u201cthe surmise attached to their passive receipt of these gifts.\u201d Ibid. This statement likewise indicates only that on the existing record, habeas relief was inappropriate, not that an evidentiary hearing should be denied. After all, had there been discovery or an evidentiary hearing, Wellons may have been able to present more than \u201cspeculation\u201d and \u201csurmise.\u201d The Eleventh Circuit also pointed to the state court\u2019s decision on direct appeal, see id., at 937, and reviewed that decision \u201c[i]n light of the evidence presented before the Georgia Supreme Court,\u201d ibid. This, too, is typical of a court reviewing the denial of habeas relief, not the denial of discovery or an evidentiary hearing.\nMoreover, even assuming that the Eleventh Circuit intended to address Wellons\u2019 motions for discovery and an evidentiary hearing, we cannot be sure that its reasoning really was independent of the Cone error. The fact that his claims rested on \u201cspeculation\u201d and \u201csurmise\u201d was due to the absence of a record, which was in part based on the Cone error. And as the Eleventh Circuit\u2019s reasoning turned on \u201cthe evidence presented before the Georgia Supreme Court,\u201d 554 F. 3d, at 937, there is serious doubt about whether it necessarily relied on the very holes in the record that Wellons was trying to fill.\nOur dissenting colleagues allege that the Court is \u201cdegrading] ... our traditional requirements for a GVR.\u201d Post, at 228 (opinion of Scalia, J.); see post, at 232 (opinion of Alito, J.). But the standard for an order granting certiorari, vacating the judgment below, and remanding the ease (GVR) remains as it always has been: A GVR is appropriate when \u201cintervening developments ... reveal a reasonable probability that the decision below rests upon a premise that the lower court would reject if given the opportunity for further consideration, and where it appears that such a redetermination may determine the ultimate outcome\u201d of the matter. Lawrence v. Chater, 516 U. S. 163, 167 (1996) (per curiam). As already discussed, there is, at least, a \u201creasonable probability,\u201d ibid., that the denial of discovery and an evidentiary hearing rested in part on the Cone error. And in light of the unusual facts of the case, a \u201credetermination may determine the ultimate outcome,\u201d 516 U. S., at 167; cf. Williams v. Taylor, 529 U. S. 420, 442 (2000) (holding that several \u201comissions as a whole disclose the need for an evidentiary hearing\u201d); Smith v. Phillips, 455 U. S. 209, 215 (1982) (\u201cThis Court has long held that the remedy for allegations of juror partiality is a hearing in which the defendant has the opportunity to prove actual bias\u201d). The Eleventh Circuit\u2019s opinion is ambiguous in significant respects. It would be highly inappropriate to assume away that ambiguity in respondent\u2019s favor. That is especially so in a case in which petitioner\u2019s allegations and the unusual facts raise a serious question about the fairness of a capital trial.\nBoth dissenting opinions suggest that if there is a strong case for discovery and an evidentiary hearing, then the Court \u201cshould summarily reverse or set the case for argument.\u201d Post, at 227 (opinion of Scalia, J.); see also post, at 232 (opinion of Alito, J.). But as we have explained, \u201ca GVR order conserves the scarce resources of this Court,\u201d \u201cassists the court below by flagging a particular issue that it does not appear to have fully considered,\u201d and \u201cassists this Court by procuring the benefit of the lower court\u2019s insight before we rule on the merits.\u201d Lawrence, supra, at 167.\nUnlike Justice Scalia, post, at 228, we do not believe that a \u201cself-respecting\u201d court of appeals would or should respond to our remand order with a \u201csummary reissuance\u201d of essentially the same opinion, absent the procedural default discussion. To the contrary, in light of our decision in Cone, we assume the court will consider, on the merits, whether petitioner\u2019s allegations, together with the undisputed facts, warrant discovery and an evidentiary hearing.\nThe petition for writ of certiorari to the United States Court of Appeals for the Eleventh Circuit and the motion of petitioner for leave to proceed in forma pauperis are granted. The judgment is vacated, and the case is remanded to the Eleventh Circuit for further consideration in light of Cone, 556 U. S., at 466-467.\nIt is so ordered.\nAlthough the District Court found most of petitioner\u2019s claims to be proeedurally barred, it alternatively declined to permit an evidentiary hearing because Wellons did not have enough evidence of bias or misconduct. Justice Altto wrongly suggests that the District Court reached that conclusion by reviewing a proffer that Wellons' attorneys assembled by \u201ccontacting all but 1 of the jurors,\u201d many of whom \u201cspoke freely.\u201d Post, at 230 (dissenting opinion). Even apart from the fact that these interviews were informal and unsworn, they shed almost no light on what had occurred. The juror who allegedly \u201cgave the penis to the judge,\u201d App. C to Pet. for Cert. 36, was \u201chostile and refused to talk,\u201d id., at 37; one \u201crefused to talk about the trial,\u201d id., at 36; another \u201cdid not want to talk about the case,\u201d id., at 37; and one \u201cconferr[ed]\u201d with his wife who then \u201cslammed and bolted the door,\u201d ibid. Of those jurors who were willing to talk at all, one admitted to being \u201cconcerned that she might say something that would be used for a mistrial,\u201d id., at 35, and none admitted to knowing how or why the jury selected its \u201cgifts,\u201d see id., at 35-37. (Implausibly, Justice Auto suggests that Wellons\u2019 lawyers may not have asked how or why the jury selected its \u201cgifts,\u201d post, at 230-231, though he bases that speculation only on the fact that no questions appeared in the proffer of facts.) Rather, the jurors discussed other matters and did so in the briefest of terms. All told, \u201ceverything that Petitioner ... learned,\u201d App. C to Pet. for Cert. 38, filled only a few sheets of paper, see id., at 35-37.\nMoreover, the subjects that the jurors did discuss may very well support Wellons\u2019 view that his trial was tainted by bias or misconduct. For example, one interviewee \u201cwas surprised\u201d that a fellow juror had been allowed to serve on a capital trial, given that her sister had been murdered by a man after he completed serving a life sentence. Id., at 36.\nAs Justice Auto explains at some length, see post, at 229-232, the District Court did discuss the merits of that issue, but the District Court\u2019s analysis has little relevance on whether the Court of Appeals made an alternative holding or rather affirmed the District Court\u2019s decision on the ground that petitioner\u2019s claim was procedurally barred.\nJustice Auto asserts that the Eleventh Circuit \u201cstated in unequivocal terms that its holding on the merits of petitioner\u2019s claim was independent of its holding on the question of procedural default.\u201d Post, at 229. But that does not address the question: The merits of what? The question whether to grant habeas relief or whether to permit discovery and an evidentiary hearing?\nContrary to our dissenting colleagues, post, at 281-232 (opinion of Auto, J.), we do not find it dispositive that the section of the Eleventh Circuit\u2019s opinion about judge, juror, and bailiff misconduct began with a full page statement of the standard of review, which in turn included a sentence about the circumstances under which an evidentiary hearing is warranted. See 554 F. 3d, at 934-935. Immediately following the standard of review that Justice Auto quotes, the panel explained that \u201c\u2018if the record ... precludes habeas relief, a district court is not required to hold an evidentiary hearing,\u201d\u2019 and that \u201cthe record reveals that [Wellons\u2019] claims ... are procedurally barred.\u201d Id., at 935.\nMoreover, the allegedly \u201cunequivocal\u201d holding that Justice Auto quotes was preceded by a discussion of the deference owed under the Antiterrorism and Effective Death Penalty Act of 1996 (AEDPA) to the \u201cGeorgia Supreme Court\u2019s judgment as to the substance and effect of the ex parte communication.\u201d Id., at 937. This is the classic formulation of a decision whether to grant habeas relief. Indeed, it would be bizarre if a federal court had to defer to state-court factual findings, made without any evidentiary record, in order to decide whether it could create an evidentiary record to decide whether the factual findings were erroneous. If that were the case, then almost no habeas petitioner could ever get an evidentiary hearing: So long as the state court found a fact that the petitioner was trying to disprove through the presentation of evidence, then there could be no hearing. AEDPA does not require such a crabbed and illogical approach to habeas procedures, and there is no reason to believe that the Eleventh Circuit thought otherwise.",
+        "type": "majority",
+        "author": "Per Curiam."
+      },
+      {
+        "text": "Justice Scalia,\nwith whom Justice Thomas joins, dissenting.\nPetitioner Marcus Wellons was convicted in Georgia state court of capital murder and sentenced to death. After exhausting direct appeal and state posteonvietion review, he filed a petition for habeas corpus in federal court under 28 U. S. C. \u00a72254. Wellons claims, among other things, that misconduct on the part of the trial judge, jurors, and court bailiff deprived him of a fair trial. The District Court denied relief, and the Eleventh Circuit affirmed.\nToday the Court grants Wellons\u2019 petition for certiorari, vacates the judgment of the Eleventh Circuit, and remands (GVRs) in light of Cone v. Bell, 556 U. S. 449 (2009). The Eleventh Circuit concluded that Wellons\u2019 claims were procedurally barred because the state postconviction court, noting that the State Supreme Court had rejected them on direct appeal, held the claims were res judicata. See 554 F. 3d 923, 936, and n. 6 (2009). This was error under Cone, see 556 U. S., at 466-467, as respondent recognizes; indeed, the Eleventh Circuit has already recognized the abrogation of the opinion below on this point, see Owen v. Secretary for Dept. of Corrections, 568 F. 3d 894, 915, n. 23 (2009). But, as Justice Alito\u2019s dissent demonstrates, post, p. 228, the Eleventh Circuit (like the District Court) also decided that petitioner was not entitled to habeas relief on the merits. 554 F. 3d, at 936-938. Thus the Court GVRs in light of Cone even though the issue on which Cone throws light does not affect the outcome.\nThe Court has previously asserted a power to GVR whenever there is \u201ca reasonable probability that the decision below rests upon a premise that the lower court would reject if given the opportunity for further consideration, and where it appears that such a redetermination may determine the ultimate outcome of the litigation.\u201d Lawrence v. Chater, 516 U. S. 163, 167 (1996) (per curiam). I have protested even that flabby standard, see id., at 190-191 (Scalia, J., dissenting), but today the Court outdoes itself. It GVRs where the decision below does not \u201crest upon\u201d the objectionable faulty premise, but is independently supported by other grounds\u2014 so that redetermination of the faulty ground will assuredly not \u201cdetermine the ultimate outcome of the litigation.\u201d The power to \u201crevise and correct for error,\u201d which the Court has already turned into \u201ca power to void for suspicion,\u201d id., at 190 (same) (internal quotation marks and alteration omitted), has now become the power to send back for a redo. We have no authority to decree that. If the Court thinks that the Eleventh Circuit\u2019s merits holding is wrong, then it should summarily reverse or set the case for argument; otherwise, the judgment below must stand. The same is true if (as the Court evidently believes) the Court of Appeals should have required an evidentiary hearing before resolving the merits question. If they erred in that regard their judgment should be reversed rather than remanded \u201cin light of Cone v. Bell\u201d \u2014 a disposition providing no hint that what we really want them to do (as the Court believes) is to consider an evidentiary hearing.\nThe systematic degradation of our traditional requirements for a GVR has spawned a series of unusual dispositions, including the GVR so the Government can try a less extravagant argument on remand, see Department of Interior v. South Dakota, 519 U. S. 919, 921 (1996) (Scalia, J., dissenting), the GVR in light of nothing, see Youngblood v. West Virginia, 547 U. S. 867, 872 (2006) (same), and the newly minted Summary Remand for More Extensive Opinion than Petitioner Requested (SRMEOPR), see Webster v. Cooper, post, at 1042 (Scalia, J., dissenting). Today the Court adds another beast to our growing menagerie: the SRIE, Summary Remand for Inconsequential Error \u2014 or, as the Court would have it, the SRTAEH, Summary Remand to Think About an Evidentiary Hearing.\nIt disrespects the judges of the courts of appeals, who are appointed and confirmed as we are, to vacate and send back their authorized judgments for inconsequential imperfection of opinion \u2014 as though we were schoolmasters grading their homework. An appropriately self-respecting response to today\u2019s summary vacatur would be summary reissuance of the same opinion, minus the discussion of Cone. That would also serve the purpose of minimizing the delay of justice that today\u2019s GVR achieves (Wellons has already outlived his victim by 20 years; he committed his murder in 1989).",
+        "type": "dissent",
+        "author": "Justice Scalia,"
+      },
+      {
+        "text": "Justice Alito,\nwith whom The Chief Justice joins, dissenting.\nThe Court\u2019s disposition of this case represents a misuse of our authority to grant, vacate, and remand (GVR). The decision of the Court of Appeals plainly rests on two independent grounds: first, that petitioner procedurally defaulted his claim that the judge, bailiff, and jurors had an inappropriate relationship that impaired his right to a fair trial and, second, that petitioner\u2019s claim failed on the merits. See 554 F. 3d 923, 936 (CA11 2009). While it is true that the first of these grounds is inconsistent with Cone v. Bell, 556 U. S. 449, 466-467 (2009), there is no basis for vacating the decision below unless some recent authority or development provides a basis for reconsideration of the second ground as well. But the per curiam identifies no such authority. Instead, the per curiam uses Cone as a vehicle for suggesting that the Court of Appeals should reconsider its decision on the merits of petitioner\u2019s claim.\nIn order to defend this disposition, the per curiam refuses to credit the Court of Appeals\u2019 explanation of the basis of its decision. The Court of Appeals twice stated in unequivocal terms that its holding on the merits of petitioner\u2019s claim was independent of its holding on the question of procedural default. See 554 F. 3d, at 937-938 (\u201c[E]ven if these claims were properly before us on habeas review, we would not disturb the Georgia Supreme Court\u2019s conclusion on the merits of these claims\u201d); id., at 936 (\u201cEven if we assume that Wellons\u2019s misconduct claims are not procedurally barred, they do not entitle Wellons to habeas relief\u201d). But the per curiam states that the Court of Appeals\u2019 consideration of the merits \u201cmay well have turned on the District Court\u2019s finding of a procedural bar\u201d and that \u201cwe cannot be sure that [the panel\u2019s] reasoning really was independent of the Cone error.\u201d Ante, at 222, 224.\nEven worse, the per curiam unjustifiably suggests that the Court of Appeals gave at most only \u201cperfunctory consideration\u201d to petitioner\u2019s claim that he was entitled to an evidentiary hearing and may not have \u201ccarefully reviewed\u201d the relevant facts. Ante, at 220,222. The majority may not be satisfied with the Court of Appeals\u2019 discussion, but the majority has no good reason for suggesting that the lower court did not give the issue careful consideration.\nThe District Court refused petitioner\u2019s discovery request on the ground that petitioner did not make a sufficient showing to warrant interrogation of the jurors. As the detailed opinion of the District Court reveals, the state habeas judge allowed petitioner\u2019s attorneys to contact all of the jurors and relevant court personnel; the attorneys succeeded in contacting all but 1 of the jurors; 6 of the 11 jurors who were contacted, as well as the bailiffs and court reporter, were interviewed; and the attorneys made a proffer of the information provided by these interviewees. There is no suggestion that the attorneys were restricted in the questions that they were permitted to ask the interviewees, and it appears that the jurors who were interviewed spoke freely, even discussing their understanding of the judge\u2019s instructions on the law and the jury\u2019s deliberations. Cf. Fed. Rule Evid. 606(b). Interestingly, the proffer does not reflect that the attorneys asked any of the jurors what would appear to be the most critical question, namely, why the strange gifts were given to the judge or the bailiff. See App. C to Pet. for Cert. 34-38. If any such questions had been asked and answers favorable to petitioner\u2019s position had been provided, one would expect that information to appear in the proffer.\nAfter examining the proffer made by petitioner\u2019s attorneys, the District Court concluded that this submission did not justify formal discovery. With respect to what the per curiam describes as the \u201cunreported ex parte contacts between the jury and the judge,\u201d ante, at 221 \u2014 which apparently consisted of a brief exchange of words that occurred when the judge entered the room in a restaurant where the jurors were dining \u2014 the District Court concluded that \u201cnothing that Petitioner has presented provides even the slightest indication that anything more than a simple greeting occurred,\u201d App. C to Pet. for Cert. 43.\nWith respect to the gifts that were given to the judge and a bailiff after the trial ended, the District Court stressed that they were \u201cinappropriate\u201d and represented \u201can unusual display of poor taste in the context of a proceeding so grave as a capital trial,\u201d ibid., but the court noted that petitioner had not proffered any evidence that any of the jurors or court personnel who were interviewed had said anything that substantiated the assertion that \u201can inappropriate relationship existed between the judge, the bailiff, and the jury,\u201d id., at 44.\nA fair reading of the Court of Appeals\u2019 opinion is that that court likewise held that petitioner was not entitled to the discovery he sought because that discovery was unlikely to yield evidence substantiating his claim. See 554 F. 3d, at 935 (\u201cWhen deciding whether to grant a federal habeas petitioner\u2019s request for an evidentiary hearing, \u2018a federal court must consider whether such a hearing could enable an applicant to prove the petition\u2019s factual allegations, which, if true, would entitle the applicant to federal habeas relief\u2019 \u201d (quoting Schriro v. Landrigan, 550 U. S. 465, 474 (2007))).\nI agree with the Court that the strange and tasteless gifts that were given to the trial judge and bailiff are facially troubling, and I am certainly not prepared at this point to say that the decision below on the discovery issue was correct. But unlike the Court, I do not think it is proper for us to use a GVR to address this matter. The lower courts have decided the discovery issue, and now this Court has two options. First, if we wish to review the question whether petitioner made a sufficient showing to justify interrogation of the jurors, we should grant the petition for a writ of certiorari and decide that question. Second, if we do not wish to tackle that fact-bound question, we should deny review or GVR in light of a recent authority or development that casts doubt on the judgment of the court below. What the Court has done \u2014 using a GVR as a vehicle for urging the Court of Appeals to reconsider its holding on a question that is entirely independent of the ground for the GVR \u2014 is extraordinary and, in my view, improper.\nAs the District Court observed, \u201c[p]etitioner\u2019s state habeas corpus counsel contacted all but one of the jurors seeking their comments.\u201d App. C to Pet. for Cert. 34. The proffer shows that six jurors were interviewed: DeArmond, id., at 35, Henry, ibid., Givhan, id., at 36, Humphrey, id., at 37, Moore, ibid., and Smith, ibid. The Court\u2019s description of some of the matters that the jurors mentioned during the interview confirms that these jurors \u201c 'spoke freely.\u2019 \u201d See ante, at 221-222, n. 1.\nThe per curiam assumes that the jurors who were interviewed must have spoken only \u201cin the briefest of terms\u201d because '\u201ceverything that Petitioner... learned\u2019 \u201d \u201cfilled only a few sheets of paper.\u201d Ante, at 222, n. 1. The mere fact that the unsworn proffer submitted by petitioner\u2019s state habeas counsel consisted of four pages, see App. C to Pet. for Cert. 35-38, does not seem to me to provide a sufficient basis for concluding that the jurors interviewed spoke only \u201cin the briefest of terms.\u201d The length of the proffer is equally consistent with the possibility that the jurors interviewed spoke at length but did not supply information that petitioner\u2019s counsel deemed helpful to his case.\nThe main reason for the interviews was to inquire about the gifts, and the proffer shows that the jurors who were interviewed discussed this matter. See, e. g., id., at 35 (a juror \u201cstated that \u201cwe,\u2019 the jurors gave a pair of chocolate breasts to the bailiff and the chocolate penis just followed\u201d); ibid, (a juror \u201cstated that some of the jurors decided to send a pair of edible chocolate breasts to one of the female bailiffs and an edible chocolate penis to the trial judge\u201d); id., at 37 (a juror \u201cremembered discussion about giving a chocolate penis to the judge\u201d). Nevertheless, petitioner\u2019s proffer includes no information as to why the gifts were given \u2014 not even a statement to the effect that the jurors interviewed were asked this question and said that they did not know. Cf. id., at 35 (noting that a particular juror \u201cdid not know whose idea it was to send the chocolate penis to the judge,\u201d but not including any representation as to her understanding of why the gifts may have been given (emphasis added)).",
+        "type": "dissent",
+        "author": "Justice Alito,"
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "WELLONS v. HALL, WARDEN\nNo. 09-5731.\nDecided January 19, 2010"
+  },
+  "file_name": "0220-01",
+  "first_page_order": 382,
+  "last_page_order": 394
+}

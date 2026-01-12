@@ -1,0 +1,881 @@
+{
+  "id": 12520756,
+  "name": "NATIONAL LIFELINE ASSOCIATION, et al., Petitioners v. FEDERAL COMMUNICATIONS COMMISSION and United States of America, Respondents Oceti Sakowin Tribal Utility Authority, Intervenor",
+  "name_abbreviation": "Nat Lifeline Association v. FCC",
+  "decision_date": "2019-02-01",
+  "docket_number": "No. 18-1026; C/w 18-1080",
+  "first_page": "1102",
+  "last_page": "1118",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "921 F.3d 1102"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "D.C. Cir.",
+    "id": 11448,
+    "name": "Court of Appeals of the District of Columbia"
+  },
+  "jurisdiction": {
+    "id": 56,
+    "name_long": "District of Columbia",
+    "name": "D.C."
+  },
+  "cites_to": [
+    {
+      "cite": "23 FCC Rcd. 14267",
+      "category": "reporters:federal",
+      "reporter": "FCC Rcd",
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "\u00b6 11"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 FCC Rcd. 9336",
+      "category": "reporters:federal",
+      "reporter": "FCC Rcd",
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "\u00b6\u00b6 42-43"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 FCC Rcd. 8968",
+      "category": "reporters:federal",
+      "reporter": "FCC Rcd",
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "\u00b6 15"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 FCC Rcd. 10947",
+      "category": "reporters:federal",
+      "reporter": "FCC Rcd",
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "\u00b6 28"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "83 Fed. Reg. 2075",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 2016,
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 FCC Rcd. 10475",
+      "category": "reporters:federal",
+      "reporter": "FCC Rcd",
+      "year": 2017,
+      "pin_cites": [
+        {
+          "parenthetical": "\"2017 Lifeline Order \""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 FCC Rcd. 3962",
+      "category": "reporters:federal",
+      "reporter": "FCC Rcd",
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "\u00b6\u00b6 205-11",
+          "parenthetical": "\"2016 Lifeline Modernization Order \""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 FCC Rcd. 7818",
+      "category": "reporters:federal",
+      "reporter": "FCC Rcd",
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "7824",
+          "parenthetical": "\"2015 Lifeline Second FNPRM \""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "27 FCC Rcd. 6656",
+      "category": "reporters:federal",
+      "reporter": "FCC Rcd",
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "\u00b6 368",
+          "parenthetical": "\"2012 Lifeline Reform Order \""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 FCC Rcd. 8784",
+      "category": "reporters:federal",
+      "reporter": "FCC Rcd",
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "\u00b6 7"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "24 FCC Rcd. 3381",
+      "category": "reporters:federal",
+      "reporter": "FCC Rcd",
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "\u00b6\u00b6 19-21"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 FCC Rcd. 15095",
+      "category": "reporters:federal",
+      "reporter": "FCC Rcd",
+      "year": 2005,
+      "pin_cites": [
+        {
+          "parenthetical": "\"2005 Forbearance Order \""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 C.F.R. \u00a7 54.201",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "pin_cites": [
+        {
+          "page": "(i)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 FCC Rcd. 4078",
+      "category": "reporters:federal",
+      "reporter": "FCC Rcd",
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "4080",
+          "parenthetical": "\"Tribal Policy Statement \""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 FCC Rcd. 12208",
+      "category": "reporters:federal",
+      "reporter": "FCC Rcd",
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "\u00b6\u00b6 5, 13",
+          "parenthetical": "\"2000 Tribal Lifeline Order \""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "12 FCC Rcd. 8776",
+      "category": "reporters:federal",
+      "reporter": "FCC Rcd",
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "\u00b6\u00b6 346, 406",
+          "parenthetical": "\"1997 Order \""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "50 Fed. Reg. 939",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 1985,
+      "pin_cites": [
+        {
+          "parenthetical": "\"1985 Order \""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "746 F.3d 1102",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4240928,
+        5900386
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1110"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/746/1102-01",
+        "/us-app-dc/409/0133-01"
+      ]
+    },
+    {
+      "cite": "652 F.3d 431",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3759465
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "453"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/652/0431-01"
+      ]
+    },
+    {
+      "cite": "737 F.2d 1193",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        3801220,
+        669756
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "1201"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/238/0046-01",
+        "/f2d/737/1193-01"
+      ]
+    },
+    {
+      "cite": "584 F.3d 1076",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3545952,
+        4066321
+      ],
+      "weight": 2,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "1083"
+        },
+        {
+          "page": "1083"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/388/0244-01",
+        "/f3d/584/1076-01"
+      ]
+    },
+    {
+      "cite": "5 U.S.C. \u00a7 551",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(12)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 C.F.R. \u00a7 1.1",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "906 F.2d 713",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1812043,
+        3483644
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "717"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/906/0713-01",
+        "/us-app-dc/285/0019-01"
+      ]
+    },
+    {
+      "cite": "450 F.3d 528",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3087923,
+        3454828
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "548"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/450/0528-01",
+        "/us-app-dc/371/0283-01"
+      ]
+    },
+    {
+      "cite": "78 F.3d 620",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        94578,
+        3691155
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "631"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/78/0620-01",
+        "/us-app-dc/316/0259-01"
+      ]
+    },
+    {
+      "cite": "846 F.2d 765",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        4333816,
+        1788466
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "771"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/269/0377-01",
+        "/f2d/846/0765-01"
+      ]
+    },
+    {
+      "cite": "754 F.3d 1002",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4329249,
+        4280149
+      ],
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1020-21"
+        },
+        {
+          "page": "1020-21"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/754/1002-01",
+        "/us-app-dc/410/0210-01"
+      ]
+    },
+    {
+      "cite": "841 F.3d 497",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12174549
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "502",
+          "parenthetical": "quoting State Farm , 463 U.S. at 43, 103 S.Ct. 2856 "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/841/0497-01"
+      ]
+    },
+    {
+      "cite": "412 F.3d 133",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3441466,
+        8968117
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "144-45"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/366/0351-01",
+        "/f3d/412/0133-01"
+      ]
+    },
+    {
+      "cite": "240 F.3d 1126",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11140689,
+        3677668
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "1133"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/240/1126-01",
+        "/us-app-dc/345/0186-01"
+      ]
+    },
+    {
+      "cite": "579 F.3d 1",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3545692,
+        4052847
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "5, 7"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/388/0102-01",
+        "/f3d/579/0001-01"
+      ]
+    },
+    {
+      "cite": "744 F.3d 1334",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4120512,
+        4324138
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "1342"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/744/1334-01",
+        "/us-app-dc/408/0397-01"
+      ]
+    },
+    {
+      "cite": "734 F.2d 1486",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        3797708,
+        416814
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "1500"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/236/0203-01",
+        "/f2d/734/1486-01"
+      ]
+    },
+    {
+      "cite": "556 U.S. 502",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653713
+      ],
+      "weight": 10,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "513",
+          "parenthetical": "quoting State Farm , 463 U.S. at 43, 103 S.Ct. 2856 "
+        },
+        {
+          "parenthetical": "quoting State Farm , 463 U.S. at 43, 103 S.Ct. 2856 "
+        },
+        {
+          "parenthetical": "quoting State Farm , 463 U.S. at 43, 103 S.Ct. 2856 "
+        },
+        {
+          "page": "515-16"
+        },
+        {
+          "page": "516"
+        },
+        {
+          "page": "515"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/556/0502-01"
+      ]
+    },
+    {
+      "cite": "545 U.S. 967",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8210237
+      ],
+      "weight": 3,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "981-82"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/545/0967-01"
+      ]
+    },
+    {
+      "cite": "136 S.Ct. 2117",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12597950
+      ],
+      "weight": 3,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "2125",
+          "parenthetical": "citing Nat'l Cable & Telecomms. Ass'n v. Brand X Internet Servs. , 545 U.S. 967, 981-82, 125 S.Ct. 2688, 162 L.Ed.2d 820 (2005) "
+        },
+        {
+          "parenthetical": "citing Nat'l Cable & Telecomms. Ass'n v. Brand X Internet Servs. , 545 U.S. 967, 981-82, 125 S.Ct. 2688, 162 L.Ed.2d 820 (2005) "
+        },
+        {
+          "page": "2126"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/136/2117-01"
+      ]
+    },
+    {
+      "cite": "463 U.S. 29",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6190630
+      ],
+      "weight": 13,
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "43"
+        },
+        {
+          "page": "43"
+        },
+        {
+          "page": "43"
+        },
+        {
+          "page": "43"
+        },
+        {
+          "page": "43"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/463/0029-01"
+      ]
+    },
+    {
+      "cite": "5 U.S.C. \u00a7 706",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(2)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 C.F.R. \u00a7 54.505",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(b)(3)"
+        },
+        {
+          "page": "\u00b6 9"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 C.F.R. \u00a7 1.1200",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "\u00b6 26"
+        },
+        {
+          "page": "\u00b6 27"
+        },
+        {
+          "page": "\u00b6 3"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 U.S.C. \u00a7 160",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 11,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "\u00b6 24"
+        },
+        {
+          "page": "\u00b6 23"
+        },
+        {
+          "page": "\u00b6 1"
+        },
+        {
+          "page": "\u00b6 4"
+        },
+        {
+          "page": "\u00b6\u00b6 169-70"
+        },
+        {
+          "page": "\u00b6 12"
+        },
+        {
+          "page": "\u00b6 205"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 U.S.C. \u00a7 214",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "(e)(2)"
+        },
+        {
+          "page": "(e)(1)"
+        },
+        {
+          "page": "(e)(1)(A)"
+        },
+        {
+          "page": "(e)(1)(A)"
+        },
+        {
+          "page": "(e)(1)(A)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 C.F.R. \u00a7 54.403",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 8,
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        },
+        {
+          "page": "(a)(1)"
+        },
+        {
+          "page": "(a)(3)"
+        },
+        {
+          "page": "\u00b6\u00b6 5, 26"
+        },
+        {
+          "page": "\u00b6 23"
+        },
+        {
+          "page": "\u00b6 44"
+        },
+        {
+          "page": "\u00b6\u00b6 52-58"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 U.S.C. \u00a7 254",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 10,
+      "pin_cites": [
+        {
+          "page": "(b)(1)"
+        },
+        {
+          "page": "(b)(1)"
+        },
+        {
+          "page": "\u00b6\u00b6 52-55"
+        },
+        {
+          "page": "\u00b6 44"
+        },
+        {
+          "page": "\u00b6 23"
+        },
+        {
+          "page": "\u00b6\u00b6 13, 24"
+        },
+        {
+          "page": "\u00b6 12"
+        },
+        {
+          "page": "\u00b6 15"
+        },
+        {
+          "page": "\u00b6 68"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 U.S.C. \u00a7 151",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1594,
+    "char_count": 47791,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25925913055162675
+    },
+    "sha256": "6f0340334b985d9914ecd07f6b01f79d7919e67790e82262f56f3ef7464a3007",
+    "simhash": "1:8b958a89eec728b0",
+    "word_count": 7135
+  },
+  "last_updated": "2024-02-27T18:46:36.196324+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before: Rogers and Griffith, Circuit Judges, and Randolph, Senior Circuit Judge."
+    ],
+    "parties": [
+      "NATIONAL LIFELINE ASSOCIATION, et al., Petitioners\nv.\nFEDERAL COMMUNICATIONS COMMISSION and United States of America, Respondents"
+    ],
+    "opinions": [
+      {
+        "text": "Rogers, Circuit Judge:\nResponding to Congressional directives, the Federal Communications Commission has adopted programs to make voice and broadband services more available and affordable for low-income consumers by providing a discount on these services through its Lifeline program. Since 1985, eligible low-income consumers may receive a monthly discount of $9.25 on qualifying services, and since 2000, low-income consumers living on Tribal lands may receive an additional $25 per month for these services through the Tribal Lifeline program in recognition of the additional hurdles to affordable telecommunications service on Tribal lands. In 2017, however, the Commission adopted two limitations that petitioners challenge: First, it limited this enhanced Tribal Lifeline subsidy to services provided by eligible telecommunications carriers that utilize their own fixed or mobile wireless facilities, excluding carriers that resell services provided over other carriers' facilities (\"Tribal Facilities Requirement\"). Second, it limited the enhanced Tribal Lifeline subsidy to residents of \"rural\" areas on Tribal lands (\"Tribal Rural Limitation\").\nFor the following reasons, we grant the petitions for review. The Commission's adoption of these two limitations was arbitrary and capricious by not providing a reasoned explanation for its change of policy that is supported by record evidence. In adopting the Tribal Facilities Requirement, the Commission's decision evinces no consideration of the exodus of facilities-based providers from the Tribal Lifeline program. Neither does it point to evidence that banning resellers from the Tribal Lifeline program would promote network buildout. Nor does it analyze the impact of the facilities requirement on Tribal residents who currently rely on wireless resellers. Further, the Commission ignored that its decision is a fundamental change that adversely affects the access and affordability of service for residents of Tribal lands. Similarly, in adopting the Tribal Rural Limitation, the Commission's decision evinces no consideration of the impact on service access and affordability. Its decision does not examine wireless deployment data related to services to which most Tribal Lifeline recipients subscribe.\nVarious non-harmless procedural deficiencies exist as well. The Commission failed to provide an adequate opportunity for comment on the proposed limitations. For instance, the 2017 supplemental notice of proposed rulemaking lacked key information needed for interested persons to anticipate that small towns below 10,000 in population would be excluded. Because the Commission stated that it intended to address remaining Tribal issues in a future rulemaking, petitioners reasonably did not submit current data on abandonment of the Lifeline program by facilities-based providers. Two weeks' notice in the form of an unpublished draft order was inadequate.\nI.\nIn the Communications Act of 1934, Congress stated its goal was to \"make available, so far as possible, to all the people of the United States ... a rapid, efficient, Nation-wide, and world-wide wire and radio communication service with adequate facilities at reasonable charges.\" 47 U.S.C. \u00a7 151. Congress reinforced this universal service goal in the Telecommunications Act of 1996, providing that \"[q]uality services should be available at just, reasonable, and affordable rates\" and that \"[c]onsumers in all regions of the Nation, including low-income consumers ... should have access to telecommunications and information services.\" 47 U.S.C. \u00a7 254(b)(1), (3) (\"1996 Act\"). The Commission has responded, as relevant here, by adopting various iterations of the Lifeline program. Some background is required to place petitioners' current challenges in context.\nIn 1985, the Commission created the Lifeline program to ensure that low-income consumers had access to affordable, landline telephone service following the divesture of AT&T. Recognizing that \"[a]ccess to telephone service has become crucial to full participation in our society and economy\" and that \"an increase in fixed charges for telephone service\" could \"cause a significant number of subscribers to cancel service,\" the Commission provided an offset of subscriber line charges for low-income households. See 1985 Order , note 1, at 941-42. In 1997, still concerned \"over the low subscribership levels among low-income consumers,\" the Commission, in response to \u00a7 254 of the 1996 Act, transformed the Lifeline program into a stand-alone universal service program \"designed to make residential service more affordable for low-income consumers.\"\nThe Lifeline program thus offers each eligible low-income household a baseline monthly discount of $9.25 to offset the costs of a wireline or wireless voice and broadband service plan. 47 C.F.R. \u00a7 54.403(a)(1). Lifeline service may be provided only by eligible telecommunications carriers (\"ETCs\"), which are either certified by state public service commissions or designated by the Commission. 47 U.S.C. \u00a7 214(e)(2), (6). The discount is provided as a subsidy to these ETCs, which in turn pass through the subsidy to provide their services to low-income consumers at reduced costs. 47 C.F.R. \u00a7 54.403(a)(1). The ETCs may allow eligible low-income consumers, as defined by \u00a7 54.409, to apply their discount to any service plan meeting certain minimum service standards. Id . \u00a7 54.401(b).\nIn 2000, the Commission established the Tribal Lifeline program to provide an enhanced monthly subsidy of $25 for residents of federally recognized Tribal lands. See 47 C.F.R. \u00a7 54.403(a)(3). There was a \"need for immediate Commission action to promote the deployment of telecommunications facilities in tribal areas and to provide the support necessary to increase subscribership ... for the benefit of those living on\" Tribal lands. 2000 Tribal Lifeline Order , note 3, \u00b6 5. At that time, statistics showed that households on reservations and other Tribal lands had the lowest reported telephone subscribership levels in the nation. Id. \u00b6\u00b6 5, 26. The Commission recognized that the critical lack of access to telecommunications services on Tribal lands threatened Tribes' access to no less than \"education, commerce, government, and public services\" and therefore their \"tribal sovereignty and self-governance.\" Id. \u00b6 23.\nThe Commission's \"primary goal\" in adopting the enhanced subsidy was to \"reduce the monthly cost of telecommunications services for qualifying low-income individuals on tribal lands, so as to encourage those without service to initiate service and better enable those currently subscribed to maintain service.\" Id. \u00b6 44. It determined that a \"substantial additional amount of support\" was necessary to increase subscribership in view of \"(1) the extraordinarily low average per capita and household incomes in tribal areas, (2) the excessive toll charges that many subscribers incur as a result of limited local calling areas on tribal lands, (3) the disproportionately low subscribership levels in tribal areas, and (4) the apparent limited awareness of, and participation in, the existing Lifeline program.\" Id. Three secondary benefits of the enhanced Tribal subsidy were: (1) encouraging deployment of telecommunications facilities on Tribal lands that currently lack such facilities, (2) spurring competition from new entrants offering alternative technologies, and (3) reducing barriers to increased penetration that are caused by limited local calling areas. Id. \u00b6\u00b6 52-58.\nPrior to adopting the enhanced Tribal subsidy, the Commission had consulted various Tribal leaders in formal field hearings, Commissioner-level meetings, and informal meetings. The Commission then \"reaffirm[ed] ... principles of Tribal Sovereignty and the Federal Trust Responsibility,\" and committed going forward, \"to the extent practicable, [to] consult with Tribal governments prior to implementing any regulatory action or policy that will significantly or uniquely affect Tribal governments, their land and resources.\" The Commission also agreed to streamline processes and procedures placing \"undue burdens\" on Indian Tribes. Tribal Policy Statement , note 4, at 4082 \u00b6 4.\nTo keep pace with various market forces resulting in the phase out by major carriers from the Lifeline program, the Commission decided to allow non-facilities-based providers (or \"wireless resellers\") to provide Lifeline services, beginning in 2005. Under the 1996 Act, an ETC must \"offer the services that are supported by Federal universal service support mechanisms\" \"either using its own facilities or a combination of its own facilities and resale of another carrier's services.\" 47 U.S.C. \u00a7 214(e)(1). Since 1997, the Commission had interpreted \"own facilities\" to mean that non-facilities-based providers, who purchased telecommunications service wholesale from other carriers that owned the facilities and then resold it to consumers, were ineligible for Lifeline support. Otherwise, wireline resellers would be able to \"double recover,\" once through the universal service subsidy and again through subsidized wholesale rates. See 1997 Order , note 2, \u00b6 161. In 2005, the Commission concluded the \"own facilities\" requirement met the 1996 Act's criteria for forbearance, and excused TracFone, a non-facilities-based provider, from this requirement. Addressing the three forbearance factors in 47 U.S.C. \u00a7 160(a), the Commission found (1) the \"own facilities\" requirement was unnecessary to achieve the Lifeline program's purposes because there is no double recovery as wireless resellers' rates are not subsidized, 2005 Forbearance Order , note 5, \u00b6\u00b6 11-12 ; (2) the requirement was unnecessary to protect consumers, and forbearance would benefit consumers by offering them previously unavailable choice of providers, id. \u00b6 15 ; and (3) forbearance was in the public interest because it would expand eligible participation in the program, id. \u00b6 24. The Commission observed that only \"one-third of [Lifeline-eligible] households\" subscribed to Lifeline services and predicted that allowing non-facilities-based providers like TracFone to participate \"should expand participation of qualifying consumers.\" Id.\nThe Commission used the same rationale to extend \"own facilities\" forbearance to other ETCs. And in 2012, the Commission adopted forbearance from the \"own facilities\" requirement for all non-facilities-based providers. Consequently, as a result of the Commission's blanket forbearance, resellers play a critical role in the Lifeline program: by 2015, approximately two-thirds of eligible low-income consumers on Tribal lands relied on non-facilities-based providers for their Lifeline services.\nBeginning in 2012, the Commission also emphasized the need to comprehensively improve and modernize Lifeline operations. 2012 Lifeline Reform Order , note 7, \u00b6 2. Expenditures for the Lifeline program had increased substantially, from $582 million in 1998 to $2.4 billion in 2012. Id. \u00b6 23. To \"constrain the growth of the program in order to reduce the burden on all who contribute to the Universal Service Fund,\" id. \u00b6 1, the Commission adopted reforms to eliminate waste, fraud, and abuse in the program, establishing, among other things, national eligibility criteria, certification requirements, and independent audit requirements on certain larger carriers. Id. \u00b6 4.\nThen, on June 22, 2015, the Commission initiated a proceeding to achieve \"a fundamental, comprehensive restructuring of the program.\" The Commission sought comment on proposals to change the Lifeline and Tribal Lifeline programs, including whether to \"limit enhanced Tribal Lifeline and Link Up support only to those Lifeline providers who have facilities,\" 2015 Lifeline Second FNPRM , note 8, \u00b6 167, and whether to \"focus enhanced Tribal support to those Tribal areas with lower population densities,\" id. \u00b6\u00b6 169-70. The Commission made substantial changes to the Lifeline program in April 2016 but did not change the Tribal Lifeline program. For example, the Commission established minimum service standards for broadband and mobile voice services, created a National Verifier program to ensure only eligible subscribers may enroll in Lifeline support, and encouraged the entry of new broadband providers into the Lifeline program. 2016 Lifeline Modernization Order , note 9, \u00b6\u00b6 6-8. The Commission recognized that like telephone service in previous generations, broadband Internet service \"has evolved into the essential communications medium of the digital economy.\" Id. \u00b6 12. It decided to \"maintain the current set of Tribal-specific eligibility programs,\" \"agree[ing] with commenters\" that \"there is much more progress to be made in increasing penetration and adoption of Lifeline services.\" Id. \u00b6 205. Of significance, the Commission also stated that certain Tribal Lifeline eligibility issues it had raised in the 2015 Lifeline Second FNPRM , including the proposed facilities requirement and rural limitation, would \"remain open for consideration in a future proceeding more comprehensively focused on advancing broadband deployment on Tribal lands.\" Id. \u00b6 211 & nn. 570-71.\nOn October 26, 2017, the Commission released a draft order adopting a facilities requirement and rural limitation for the Tribal Lifeline program. Some comments were submitted to the Commission. A public notice of November 9, 2017 announced the beginning of the Sunshine Period and prohibited interested persons from lobbying the Commission. See 47 C.F.R. \u00a7 1.1200. A week later, on November 16, 2017, the Commission voted 3-2 in favor of the draft 2017 Order with some modifications. In the 2017 Lifeline Order , the Commission adopted two limitations that petitioners challenge.\nFirst, the Tribal Facilities Requirement limits enhanced Tribal Lifeline support to \"fixed or mobile wireless facilities-based Lifeline service provided on Tribal lands with wireless network facilities covering all or a portion of the relevant Lifeline ETC's service area on Tribal lands.\" 2017 Lifeline Order , note 11, \u00b6 24. To possess \"facilities\" for purposes of the enhanced subsidy, \"a mobile wireless provider must hold usage rights under a spectrum license or a long-term spectrum leasing arrangement along with wireless network facilities that can be used to provide wireless voice and broadband services.\" Id. \"If an ETC offers service using its own as well as others' facilities in its service area on rural Tribal lands, it may only receive enhanced support for the customers it serves using its own last-mile facilities.\" Id. \u00b6 26. The Commission stated that the Tribal Facilities Requirement \"will focus the enhanced support toward those providers directly investing in voice- and broadband-capable networks\" on Tribal lands, ensuring that Tribal Lifeline payments \"will be reinvested in the 'provision, maintenance, and upgrading' of facilities\" in Tribal areas. Id. \u00b6 27.\nSecond, the Tribal Rural Limitation limits enhanced Tribal Lifeline support to residents of \"rural\" areas on Tribal lands. Id. \u00b6 3. It adopts the definitions of \"rural\" and \"urban\" used in the Commission's Schools and Libraries Program (\"E-Rate\"), which defines \"urban\" as \"an urbanized area or urban cluster area with a population equal to or greater than 25,000,\" and \"rural\" as any area that is not \"urban,\" 47 C.F.R. \u00a7 54.505(b)(3). 2017 Lifeline Order , note 11, \u00b6 5. The Commission stated that providing enhanced Lifeline support in \"more densely populated Tribal lands\" was \"inconsistent with the Commission's primary purpose of the enhanced support,\" observing approximately 98% of people living in urban areas in the United States have access to fixed broadband Internet. Id. \u00b6 9.\nTimely petitions for review were filed. Following denial of a stay by the Commission, the court granted petitioners' motion for a judicial stay, concluding \"[p]etitioners have demonstrated a likelihood of success on the merits of their arguments that the facilities-based and rural areas limitations ... are arbitrary and capricious.\" Nos. 18-1026, 18-1080, Order, at 2 (D.C. Cir. Aug. 10, 2018).\nII.\nPetitioners challenge the 2017 Lifeline Order , contending that both the Tribal Facilities Requirement and Tribal Rural Limitation are arbitrary and capricious because the Commission failed to consider several key issues, such as the impact of its action on service access and affordability. Petitioners also contend the Commission failed to provide sufficient notice of the proposed changes, and to initiate, as it stated it would, a new notice-and-comment rulemaking before adopting these changes to the Tribal Lifeline program. Petitioners further contend the Commission violated its own procedural requirements by failing to consult Indian tribes in advance.\nUnder the Administrative Procedure Act, the reviewing court \"shall ... hold unlawful and set aside agency action ... found to be ... arbitrary, capricious, an abuse of discretion, or otherwise not in accordance with law.\" 5 U.S.C. \u00a7 706(2). The agency must \"articulate a satisfactory explanation for its action including a rational connection between the facts found and the choice made.\" Motor Vehicle Mfrs. Ass'n v. State Farm Mut. Auto. Ins. Co., 463 U.S. 29, 43, 103 S.Ct. 2856, 77 L.Ed.2d 443 (1983). Agency action is arbitrary and capricious if the agency \"has relied on factors which Congress has not intended it to consider, entirely failed to consider an important aspect of the problem, offered an explanation for its decision that runs counter to the evidence before the agency, or is so implausible that it could not be ascribed to a difference in view or the product of agency expertise.\" Id. Of course, \"[a]gencies are free to change their existing policies as long as they provide a reasoned explanation for the change.\"\nEncino Motorcars, LLC v. Navarro , --- U.S. ----, 136 S.Ct. 2117, 2125, 195 L.Ed.2d 382 (2016) (citing Nat'l Cable & Telecomms. Ass'n v. Brand X Internet Servs. , 545 U.S. 967, 981-82, 125 S.Ct. 2688, 162 L.Ed.2d 820 (2005) ).\nAlthough the court's review entails a \"narrow\" standard of review, \"an agency [must] 'examine the relevant data and articulate a satisfactory explanation for its action.' \" FCC v. Fox Television Stations, Inc. , 556 U.S. 502, 513, 129 S.Ct. 1800, 173 L.Ed.2d 738 (2009) (quoting State Farm , 463 U.S. at 43, 103 S.Ct. 2856 ). This same standard applies when an agency changes its prior policy. See id. But the new policy must be permissible under the statute, and the agency must acknowledge it is changing its policy and show that \"there are good reasons\" for the new policy and \"that the agency believes it to be better, which the conscious change of course adequately indicates.\" Id . at 515, 129 S.Ct. 1800. An agency cannot ignore its prior factual findings that contradict its new policy nor ignore reliance interests. Id. at 515-16, 129 S.Ct. 1800. \"[A] reasoned explanation is needed for disregarding facts and circumstances that underlay or were engendered by the prior policy.\" Id. at 516, 129 S.Ct. 1800. This court has thus understood its role to be confined \"to ensur[ing] that the [agency] engaged in reasoned decisionmaking,\" Farmers Union Cent. Exch., Inc. v. FERC , 734 F.2d 1486, 1500 (D.C. Cir. 1984), after a \"searching and careful inquiry\" of the record, Mississippi v. EPA , 744 F.3d 1334, 1342 (D.C. Cir. 2013). The agency's substantive decision must be supported by \"substantial evidence\" in the administrative record. Comcast Corp. v. FCC , 579 F.3d 1, 5, 7 (D.C. Cir. 2009).\nA.\nCongress established in the 1996 Act the principles underlying the universal service program as making \"[q]uality services\" \"available at just, reasonable, and affordable rates.\" 47 U.S.C. \u00a7 254(b)(1). Since at least 2000, the Commission has articulated the \"primary goal\" of the enhanced Tribal subsidy as \"reduc[ing] the monthly cost of telecommunications services for qualifying low-income individuals on tribal lands, so as to encourage those without service to initiate service and better enable those currently subscribed to maintain service.\" 2000 Tribal Lifeline Order , note 3, \u00b6 44. Although the Commission has recognized the importance of encouraging infrastructure development, id. \u00b6\u00b6 52-55, the Commission's long-stated primary tenets for the program are availability and affordability. The Commission adopted the enhanced Tribal subsidy specifically for the purpose of increasing \"subscribership\" in view of the financial obstacles facing Tribal participation. See id. \u00b6 44. The Commission reaffirmed this understanding of Tribal Lifeline's purpose in 2012, stating that the Tribal Lifeline program was a \"direct response to the disproportionately low subscribership to telecommunications services among Tribal communities at the time.\" 2012 LifelineReform Order , note 7, \u00b6 150. Yet in 2017, the Commission ignored the substantial impact of these changes on affordability and access. See, e.g. , 2017 Lifeline Order , note 11, \u00b6 24. While acknowledging that Lifeline funds disbursed to resellers \"w[ould] still lower the cost of the consumer's service,\" id. \u00b6 23, the Commission explained the Tribal Facilities Requirement on the basis that these funds \"cannot directly support the provider's network because the provider does not have one,\" id. This fails to consider the impact of the change on the Lifeline subsidy's \"primary purpose\" or otherwise explain how it is compatible with that purpose.\nThe Commission also failed to justify its fundamental policy reversal on forbearing the \"own facilities\" requirement in light of its previous findings regarding the important role of non-facilities-based providers in promoting affordable telecommunications service. For thirteen years, the Commission forbore from enforcing the \"own facilities\" requirement based on finding that \"the facilities requirement impedes greater utilization of Lifeline-supported services provided by a pure wireless reseller,\" 2005 Forbearance Order , note 5, \u00b6 9, and that making non-facilities-based providers eligible would increase access to affordable services, id. \u00b6\u00b6 13, 24. The Commission had found that because Lifeline support to wireless carriers is customer-specific, its previous concern that resellers might receive a double recovery did not apply. Id. \u00b6 12. The Commission also found that forbearance would \"benefit consumers\" because low-income consumers would have \"a choice of providers not available to such consumers today for accessing telecommunications services.\" Id. \u00b6 15. Yet in 2017, the Commission rescinded its policy of forbearance as to the Tribal Lifeline program without conducting a new forbearance analysis or providing any reasoned explanation for its reversal. See generally 2017 Lifeline Order , note 11, \u00b6\u00b6 21-30. Even on appeal, the Commission does not acknowledge the policy reversal on the enhanced subsidy, which made reselling attractive economically, instead maintaining that non-facilities-based providers can still participate as Lifeline providers; they are just limited to the baseline monthly subsidy of $9.25. Resp't's Br. 54. The Commission never explained why its previous forbearance findings no longer applied. Although the Commission sought comment on whether it should reverse the forbearance findings, it made no new findings with regard to forbearance of the \"own facilities\" requirement for the enhanced subsidy. 2017 Lifeline Order , note 11, \u00b6\u00b6 69-79. Its reference in its notice of proposed rulemaking to major Commission actions for \"waste, fraud, and abuse\" against resellers, see id. \u00b6 68, can provide no justification for the Tribal Facilities Requirement absent evidence that a substantial portion of the two-thirds of services supplied by non-facilities-based providers are, in fact, fraudulent or wasteful, and the Commission pointed to none.\nThe Commission also \"failed to consider ... important aspect[s] of the problem\" in adopting the Tribal Facilities Requirement. State Farm , 463 U.S. at 43, 103 S.Ct. 2856. First, the Commission's decision does not indicate consideration of facilities-based providers' unwillingness to offer Tribal Lifeline services. Numerous commenters explained that the major facilities-based providers - AT&T, T-Mobile, and Verizon - have relinquished their Lifeline eligibility altogether, and despite maintaining Lifeline eligibility, Sprint also does not offer any Tribal Lifeline services. The statement of a dissenting Commission Member also makes clear the Commission knew that the major facilities-based providers were uninterested in providing Tribal Lifeline services yet failed to address the problem that would be created as a result of changing its policy. For thirteen years, the Commission had justified forbearance in part based on the ability of non-facilities-based providers to offer minimum services at competitive rates by purchasing facilities-based providers' services wholesale and then reselling them. See 2012 Lifeline Reform Order , note 7, \u00b6 371. By 2015, the Commission reported \"two-thirds of enhanced Tribal support goes to non-facilities-based providers, and it is unclear whether the support is being used to deploy facilities in Tribal areas,\" still thereby suggesting that eligible consumers relied on non-facilities-based providers for their telecommunications services. 2017 Lifeline Order , note 11, \u00b6 23. This reliance exists because non-facilities-based providers can efficiently reach the low-income population with targeted service plans and because the largest facilities-based providers are unwilling to participate in a program that is unprofitable for them.\nSecond, the Commission's decision does not indicate that it considered the effect of eliminating the enhanced subsidy for non-facilities-based providers, namely that many low-income consumers on Tribal lands will lose access to affordable telecommunications service. Commenters explained that because certain areas have no facilities-based provider willing to provide Lifeline service, removing the enhanced subsidy from non-facilities-based providers will make those services unavailable to consumers. The Commission was aware that two-thirds of enhanced Tribal support goes to non-facilities-based providers, see 2017 Lifeline Order , note 11, \u00b6 23, yet never appears to address what would happen to these consumers when the subsidy was removed. Instead, the Commission summarily \"conclude[d] that providing the enhanced support to Lifeline providers deploying, building, and maintaining critical last mile infrastructure is a more appropriate way to support the expansion of voice- and broadband-capable networks on Tribal lands.\" Id. \u00b6 28. Although the court must \"give appropriate deference to predictive judgments\" by an agency where supported by \"[s]ubstantial evidence,\" Time Warner Entm't Co. v. FCC , 240 F.3d 1126, 1133 (D.C. Cir. 2001), the Commission referred to no evidence that facilities-based providers will make up the gap in services when non-facilities-based providers are ineligible to receive the enhanced Tribal subsidy.\nThird, the Commission pointed to no record evidence that directing the enhanced Tribal subsidy solely to facilities-based providers would incentivize them to deploy additional facilities and networks, reduce prices, or offer new service plans for low-income consumers. See 2017 Lifeline Order , note 11, \u00b6 27. Comments that the Commission points to in its brief on appeal, see Resp't's Br. 49-50, do not show how limiting the enhanced subsidy to facilities-based providers will increase network buildout, much less do so in areas where there is no facilities-based provider participating in the Tribal Lifeline program that could receive the enhanced subsidy. Further, the Commission did not meaningfully address comments and evidence that undercut its conclusion, such as economic analysis in the record indicating that subsidizing non-facilities-based subscribership also supports network buildout. Commenters noted that \"[f]acilities-based and non-facilities-based carriers ... operate symbiotically\" and that \"[t]he result of this relationship is enhanced capacity utilization and hence more investment than would happen in the absence of [non-facilities-based carriers].\" The Commission has recognized in other contexts that facilities-based providers may contract with resellers \"when the [wireless reseller] has better access to some market segments than the host facilities-based service provider\" and when the reseller \"can better target specific market segments, such as low-income consumers or consumers with lower data-usage needs.\"\nFourth, the Commission ignored \"serious reliance interests\" engendered by its policy of forbearance. See Fox Television , 556 U.S. at 515, 129 S.Ct. 1800. As in Encino Motorcars , 136 S.Ct. at 2126, the Commission's decision does not take into account the reliance interests of both the non-facilities-based providers that had crafted business models and invested significant resources into providing Lifeline service, and the two-thirds of subscribers relying on non-facilities-based providers for their telecommunications service. The Commission neither attempted to estimate the number of consumers who would be unable to afford service without the enhanced subsidy or would lose access to service altogether when non-facilities-based providers discontinued their plans, nor did it consider alternatives to ensure coverage for these consumers or respond to these objections. The dissenting Commissioner raised these concerns, and an agency has an obligation to consider an alternative or objection raised by a dissenting Commissioner that was \"neither frivolous nor out of bounds.\" Chamber of Commerce v. SEC , 412 F.3d 133, 144-45 (D.C. Cir. 2005). After the draft 2017 Order was released, ETCs filed data showing that approximately 75% of Tribal Lifeline customers could not afford to pay the additional $25 per month. Comments also indicated that non-facilities-based providers have developed a business model based on \"buying large blocks of minutes from the major carriers and then reselling those minutes as Lifeline packages,\" thereby depending upon the enhanced subsidy to enable significant numbers of low-income consumers to subscribe to their prepaid or minimal service plans. See Navajo Nation Comments, note 12, at 10.\nBy departing from its prior forbearance policy without reasoned explanation and failing to consider key aspects of the program - e.g., facilities-based providers' unwillingness to offer Tribal Lifeline services, the effect of eliminating the enhanced Tribal subsidy on access and affordability, the effect of directing the subsidy only to facilities-based providers on network buildout, and the reliance interests of these carriers and their consumers - the Commission's adoption of the Tribal Facilities Requirement was arbitrary and capricious. See State Farm , 463 U.S. at 43, 103 S.Ct. 2856. In view of these failures by the Commission, the court need not address petitioners' contentions that the Tribal Facilities Requirement violates sections 10, 214, and 254 of the 1996 Act.\nB.\nThe Commission also did not consider the impact of its Tribal Rural Limitation on service access and affordability. Although referring to the general disparity between urban and rural areas in the United States in terms of telecommunications infrastructure, see 2017 Lifeline Order , note 11, \u00b6 3, the Commission pointed to no record evidence that telecommunications services are more available or more affordable for low-income consumers on urban Tribal lands than on rural Tribal lands, such that the enhanced subsidy would be less necessary in urban areas for furthering the Lifeline program's primary goals of access and affordability. See id. \u00b6\u00b6 3-9. Even with a developed infrastructure of network services in urban areas, low-income consumers may still be unable to afford those services without the enhanced Tribal subsidy. The Commission failed to refer to any data considering the relevant impacts on service access and affordability.\nThe Commission also failed to refer to data considering the impact of its Tribal Rural Limitation on incentivizing infrastructure deployment. The Commission referred to the deployment data only for fixed voice and broadband service. See 2017 Lifeline Order , note 11, \u00b6 9. It did not show that it examined deployment data for the wireless services, to which the vast majority of Tribal Lifeline recipients subscribe. See id. \u00b6 23. The Commission's conclusion that limiting the enhanced Tribal subsidy to rural lands will incentivize deployment is thus speculative. By failing to \"examine the relevant data,\" the Commission's adoption of the Tribal Rural Limitation was arbitrary and capricious. NTCH, Inc. v. FCC , 841 F.3d 497, 502 (D.C. Cir. 2016) (quoting State Farm , 463 U.S. at 43, 103 S.Ct. 2856 ).\nIII.\nPetitioners challenge the 2017 Lifeline Order on procedural grounds as well. An agency's substantive rules are subject to the requirements of notice-and-comment rulemaking under the APA. Mendoza v. Perez , 754 F.3d 1002, 1020-21 (D.C. Cir. 2014). To meet the rulemaking requirements of section 553 of the APA, an agency \"must provide sufficient factual detail and rationale for the rule to permit interested parties to comment meaningfully.\" Florida Power & Light Co. v. United States , 846 F.2d 765, 771 (D.C. Cir. 1988). After publishing notice in the Federal Register of \"the terms or substance of the proposed rule or a description of the subjects and issues involved,\" the agency \"shall give interested persons an opportunity to participate in the rule making through submission of written data, views, or arguments.\" 5 U.S.C \u00a7 553(b), (c). For notice to be sufficient, the final rule must be \"a logical outgrowth\" of the proposed rule in the sense that the original notice must \"adequately frame the subjects for discussion.\" Omnipoint Corp. v. FCC , 78 F.3d 620, 631 (D.C. Cir. 1996). Put otherwise, \"the affected party 'should have anticipated' the agency's final course in light of the initial notice.\" Covad Commc'ns Co. v. FCC , 450 F.3d 528, 548 (D.C. Cir. 2006). A reviewing court is to take \"due account ... of the rule of prejudicial error.\" 5 U.S.C. \u00a7 706.\nA.\nPetitioners maintain that the Tribal Rural Limitation is not a \"logical outgrowth\" of the Commission's proposal in the 2015 Lifeline Second FNPRM . That proposal called for using the Department of Agriculture's rule excluding towns or cities with populations greater than 10,000. The final rule excludes \"urbanized areas\" and \"urban clusters\" with populations greater than 25,000; in effect, this definition can and does exclude some small towns of significantly less than 25,000 or even 10,000 people (despite contrary terms in the proposed rule). The Commission sought comment on several population-density-based definitions for \"rural\" lands, but neither the adopted E-Rate definition nor the \"urban cluster\" methodology was mentioned in the notice.\nAlthough agency notice need not predict \"the exact result reached after a notice and comment rulemaking,\" Pub. Serv. Comm'n v. FCC , 906 F.2d 713, 717 (D.C. Cir. 1990), comments on the draft 2017 Order indicated the Commission's proposed and final rules were unclear in scope. The Commission failed to provide the searchable maps or digital \"shapefiles,\" so that at least affected persons could determine the impact of the rule, until after the final rule was published. See 2017 Lifeline Order , note 11, \u00b6 15. Insofar as the maps were necessary to appreciate that even some towns with populations under 10,000 people (contrary to the Commission's original proposal of excluding towns above 10,000 people) would be excluded from the enhanced subsidy under the \"urban cluster\" methodology, the 2015 Lifeline Second FNPRM was inadequate to enable sufficient comment on the proposed rule, much less allow an understanding of the effect of the final rule.\nB.\nThe Commission also improperly adopted the two challenged limitations without commencing a new notice-and-comment-rulemaking proceeding as it had promised. The Commission does not contest that the Tribal Facilities Requirement and Tribal Rural Limitation are substantive changes in the regulations that required a new notice-and-comment-rulemaking proceeding. Mendoza , 754 F.3d at 1020-21. Instead, it maintains that it provided all the proceeding it had promised when it proposed the changes in 2015 and kept the docket open for comments after issuing the 2016 Lifeline Modernization Order . See Resp't's Br. 30-31.\nAlthough an agency may be able to issue multiple orders based on a single notice-and-comment rulemaking, the Commission stated it would address any remaining Tribal issues in a \"future proceeding more comprehensively focused on advancing broadband deployment on Tribal lands.\" 2016 Lifeline Modernization Order , note 9, \u00b6 211. This statement signaled to interested persons that until a new notice-and-comment rulemaking was commenced, there was no reason to submit further comment regarding a facilities requirement and a rural limitation in response to the 2015 Lifeline Second FNPRM . By referring to a \"proceeding\" and a \"more comprehensive[ ] focus,\" the Commission gave interested persons every reason to conclude the old docket was closed and additional comments on these proposed limitations could be submitted at a later time as part of a new rulemaking proceeding. This interpretation is consistent with the Commission's own definition of \"proceeding\" as a process for \"obtaining information,\" 47 C.F.R. \u00a7 1.1, as well as the Commission's past practice of referring to a new notice-and-comment-rulemaking proceeding when it promised a \"future proceeding.\" It is also consonant with the APA's definition of a \"proceeding\" as a rulemaking, an adjudication, or a licensing, 5 U.S.C. \u00a7 551(12) ; see id. \u00a7 551(5), (7), (9), as the latter were not being considered.\nThe Commission's procedural error is not harmless; petitioners have additional information that is directly on point - including comments on the geographic maps delineating \"urban\" versus \"rural\" areas, data about the cost of services to consumers, updated information about facilities-based providers' relinquishment of eligibility, and econometric studies. See CSX Transp. v. Surface Transp. Bd. , 584 F.3d 1076, 1083 (D.C. Cir. 2009). The two-week period between issuance of the unpublished draft 2017 Order on October 26 and the public notice on November 9 cutting off lobbying was not an adequate period for eliciting meaningful comments.\nWhen substantial rule changes are proposed, a 30-day comment period is generally the shortest time period sufficient for interested persons to meaningfully review a proposed rule and provide informed comment. Petry v. Block , 737 F.2d 1193, 1201 (D.C. Cir. 1984) ; see Prometheus Radio Project v. FCC , 652 F.3d 431, 453 (3d Cir. 2011). Here, comments on the draft 2017 Order reflect the inability to comment meaningfully within this brief time. See Allina Health Servs. v. Sebelius, 746 F.3d 1102, 1110 (D.C. Cir. 2014). Petitioners' new data and information demonstrate that inviting another round of comments on these Tribal rural issues would allow the Commission to act on the basis of up-to-date, more comprehensive, and specifically targeted information. New information was presented as well in the course of seeking a stay of the challenged order from the Commission once the Commission made population maps available and better defined \"rural.\" The Commission's promise of a new rulemaking proceeding effectively lulled interested persons into concluding that they did not need to quickly submit additional evidence to the Commission or request additional time. See CSX Transp. , 584 F.3d at 1083. In view of the need for a new notice-and-comment-rulemaking proceeding as promised, the court need not address petitioners' contention that the Commission failed to follow its Tribal consultation policy.\nAccordingly, because the Commission's adoption of the Tribal Facilities Requirement and Tribal Rural Limitation was arbitrary and capricious, the court grants the petitions and vacates the 2017 Lifeline Order as challenged in the petitions, and remands the matter to the Commission for a new notice-and-comment rulemaking proceeding.\nMTS and WATS Market Structure; and Establishment of a Joint Board; Amendment , Report and Order, 50 Fed. Reg. 939 (Jan. 8, 1985) (\"1985 Order \").\nFederal-State Joint Board on Universal Service , Report and Order, 12 FCC Rcd. 8776, \u00b6\u00b6 346, 406 (1997) (\"1997 Order \").\nFederal-State Joint Board on Universal Service et al. , Twelfth Report and Order, 15 FCC Rcd. 12208, \u00b6\u00b6 5, 13 (2000) (\"2000 Tribal Lifeline Order \").\nStatement of Policy on Establishing a Government-to-Government Relationship with Indian Tribes , Policy Statement, 16 FCC Rcd. 4078, 4080, 4081 \u00b6 2 (2000) (\"Tribal Policy Statement \").\nPetition of TracFone Wireless, Inc. for Forbearance from 47 U.S.C. \u00a7 214(e)(1)(A) and 47 C.F.R. \u00a7 54.201(i) , Order, 20 FCC Rcd. 15095, 15100 \u00b6 9 (2005) (\"2005 Forbearance Order \").\nSee Virgin Mobile USA, L.P. Petition for Forbearance from 47 U.S.C. \u00a7 214(e)(1)(A) et al. , Order, 24 FCC Rcd. 3381, \u00b6\u00b6 19-21 (2009) ; i-Wireless, LLC Petition for Forbearance from 47 U.S.C. \u00a7 214(e)(1)(A) et al. , Order, 25 FCC Rcd. 8784, \u00b6 7 (2010).\nLifeline and Link Up Reform and Modernization et al. , Report and Order and Further Notice of Proposed Rulemaking, 27 FCC Rcd. 6656, \u00b6 368 (2012) (\"2012 Lifeline Reform Order \").\nLifeline and Link Up Reform and Modernization et al. , Second Further Notice of Proposed Rulemaking, Order on Reconsideration, Second Report and Order, and Memorandum Opinion and Order, 30 FCC Rcd. 7818, 7824 (2015) (\"2015 Lifeline Second FNPRM \").\nLifeline and Link Up Reform and Modernization et al. , Third Report and Order, Further Report and Order, and Order on Reconsideration, 31 FCC Rcd. 3962, \u00b6\u00b6 205-11 (2016) (\"2016 Lifeline Modernization Order \").\nSee FCC Fact Sheet: Bridging the Digital Divide for Low-Income Consumers, Fourth Report and Order, Order on Reconsideration, Memorandum Opinion and Order, Notice of Proposed Rulemaking, and Notice of Inquiry, FCC-CIRC 1711-05 (Oct. 26, 2017).\nBridging the Digital Divide for Low-Income Consumers et al. , Fourth Report and Order, Order on Reconsideration, Memorandum Opinion and Order, Notice of Proposed Rulemaking, and Notice of Inquiry, 32 FCC Rcd. 10475 (released Dec. 1, 2017) (\"2017 Lifeline Order \"), 83 Fed. Reg. 2075 (Jan. 16, 2016).\nSee, e.g. , Lifeline and Link Up Reform and Modernization et al. , Comments of Navajo Nation Telecommunications Regulatory Commission, 10 (Aug. 28, 2015) (\"Navajo Nation Comments\"); Lifeline and Link Up Reform and Modernization et al. , Comments of Assist Wireless, LLC & Easy Telephone Services Co., 18-19 (Aug. 31, 2015); Lifeline and Link Up Reform and Modernization et al. , Comments of AT&T, 5-6 & n.10 (Aug. 31, 2015); Lifeline and Link Up Reform and Modernization et al. , Comments of the Oglala Sioux Tribe Utility Commission, Attachment, 3 (Aug. 31, 2015); Lifeline and Link Up Reform and Modernization et al. , Crow Creek Sioux Tribal Resolution, 1 (June 1, 2017); Lifeline and Link Up Reform and Modernization et al. , Assist Wireless, LLC, Boomerang Wireless, LLC, and Easy Telephone Services Co. Written Ex Parte Presentation, 5 (Nov. 9, 2017) (\"Assist Ex Parte \").\nSee Implementation of Section 6002(b) of the Omnibus Budget Reconciliation Act of 1993 et al. , Eleventh Report, 21 FCC Rcd. 10947, \u00b6 28 (2006) ; Lifeline and Link Up Reform and Modernization et al. , Reply Comments of Boomerang Wireless, LLC, 4 (Sept. 30, 2015) (\"Boomerang Reply Comments\"); Bridging the Digital Divide for Low-Income Consumers et al. , Letter from CTIA to FCC, 3-4 (Nov. 8, 2017).\nSee, e.g. , Boomerang Reply Comments, note 13, at 6; Assist Ex Parte , note 12, at 5.\nSee Assist Ex Parte , note 12, at 8-9; see also Bridging the Digital Divide for Low-Income Consumers et al. , Comments of CTIA, 15 (Feb. 21, 2018) (\"CTIA Comments\").\nCTIA Comments, Declaration of John Mayo, \u00b6 7 (Feb. 19, 2018).\nImplementation of Section 6002(b) of the Omnibus Budget Reconciliation Act of 1993 et al. , Twentieth Report, 32 FCC Rcd. 8968, \u00b6 15 (2017).\nSee also, e.g. , Lifeline and Link Up Reform and Modernization et al ., Comments of Assist Wireless, LLC and Easy Telephone Service Co., 2 (Aug. 31, 2015); Lifeline and Link Up Reform and Modernization et al. , Comments of Boomerang Wireless, LLC, 6-9 (Aug. 31, 2015).\nSee Shapefile of Rural Tribal Lands, https://www.usac.org/li/tools/reference-area.aspx.\nSee, e.g ., Improvements to Benchmarks and Related Requirements Governing Hearing Aid-Compatible Mobile Handsets , Report and Order, 31 FCC Rcd. 9336, \u00b6\u00b6 42-43 (2016) ; An Inquiry Into the Commission's Policies and Rules Regarding AM Radio Service Directional Antenna Performance Verification , Second Report and Order and Second Further Notice of Proposed Rulemaking, 23 FCC Rcd. 14267, \u00b6 11 (2008).\nBridging the Digital Divide for Low-Income Consumers et al. , Ex Parte Letter of Native Public Media, 1-2 (Nov. 7, 2017); Bridging the Digital Divide for Low-Income Consumers et al. , Ex Parte Letter of Lifeline Connects Coalition, National Lifeline Association, Boomerang Wireless, LLC and Easy Telephone Services Co., 2-3 (Nov. 9, 2017); Bridging the Digital Divide for Low-Income Consumers et al. , Ex Parte Letter of Lifeline Connects Coalition, National Lifeline Association, Boomerang Wireless, LLC and Easy Telephone Services Co., 3-5 (Nov. 13, 2017). Assist, Boomerang, and Easy commented that without population maps it was not possible to identify the boundaries of the \"rural\" area contemplated in the draft 2017 Order. Assist Ex Parte , note 12, at 7 n.22.\nSee 2017 Lifeline Order , note 11, Notice of Inquiry \u00b6\u00b6 123, 125; Bridging the Digital Divide for Low-Income Consumers et al. , Comments of the National Lifeline Association, 9-11, 57-62, 106-08 (Feb. 21, 2018); 2017 Lifeline Order , note 11, Dissenting Statement of Commissioner Mignon L. Clyburn, 32 FCC Rcd. at 10,558.\nSee Bridging the Digital Divide for Low-Income Consumers et al. , Joint Petition for Stay of Fourth Report and Order Pending Judicial Review, Declarations of David Dorwat, Joe Fernandez, Joseph G. Wildcat, Jason Schlender, Phyliss J. Anderson, Sarah Stahelin.",
+        "type": "majority",
+        "author": "Rogers, Circuit Judge:"
+      }
+    ],
+    "attorneys": [
+      "John J. Heitmann, Washington, DC, argued the cause and filed the briefs for petitioners National Lifeline Association, et al.",
+      "V. Shiva Goel, Washington, DC, argued the cause for petitioner Crow Creek Sioux Tribe and intervenor Oceti Sakowin Tribal Utility Authority. With him on the joint briefs were Christopher J. Wright and John T. Nakahata, Washington, DC.",
+      "Thaila K. Sundaresan, Counsel, Federal Communications Commission, argued the cause for respondents. With her on the brief were Robert B. Nicholson and Frances E. Marshall, Attorneys, U.S. Department of Justice, Thomas M. Johnson Jr., General Counsel, Federal Communications Commission, David M. Gossett, Deputy General Counsel, and Jacob M. Lewis, Associate General Counsel. Richard K. Welch, Deputy Assistant General Counsel, Federal Communications Commission and William T. Shaw, Attorney Advisor, U.S. Department of Justice, entered appearances."
+    ],
+    "corrections": "",
+    "head_matter": "NATIONAL LIFELINE ASSOCIATION, et al., Petitioners\nv.\nFEDERAL COMMUNICATIONS COMMISSION and United States of America, Respondents\nOceti Sakowin Tribal Utility Authority, Intervenor\nNo. 18-1026\nC/w 18-1080\nUnited States Court of Appeals, District of Columbia Circuit.\nArgued October 25, 2018\nDecided February 1, 2019\nAmended April 10, 2019\nJohn J. Heitmann, Washington, DC, argued the cause and filed the briefs for petitioners National Lifeline Association, et al.\nV. Shiva Goel, Washington, DC, argued the cause for petitioner Crow Creek Sioux Tribe and intervenor Oceti Sakowin Tribal Utility Authority. With him on the joint briefs were Christopher J. Wright and John T. Nakahata, Washington, DC.\nThaila K. Sundaresan, Counsel, Federal Communications Commission, argued the cause for respondents. With her on the brief were Robert B. Nicholson and Frances E. Marshall, Attorneys, U.S. Department of Justice, Thomas M. Johnson Jr., General Counsel, Federal Communications Commission, David M. Gossett, Deputy General Counsel, and Jacob M. Lewis, Associate General Counsel. Richard K. Welch, Deputy Assistant General Counsel, Federal Communications Commission and William T. Shaw, Attorney Advisor, U.S. Department of Justice, entered appearances.\nBefore: Rogers and Griffith, Circuit Judges, and Randolph, Senior Circuit Judge."
+  },
+  "file_name": "1102-01",
+  "first_page_order": 1102,
+  "last_page_order": 1118
+}

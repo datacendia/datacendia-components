@@ -1,0 +1,788 @@
+{
+  "id": 3932402,
+  "name": "HOPE DiCAMPLI-MINTZ, Plaintiff and Appellant, v. COUNTY OF SANTA CLARA et al., Defendants and Respondents",
+  "name_abbreviation": "DiCampli-Mintz v. County of Santa Clara",
+  "decision_date": "2012-12-06",
+  "docket_number": "No. S194501",
+  "first_page": "983",
+  "last_page": "998",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "55 Cal. 4th 983"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal.",
+    "id": 9021,
+    "name": "Supreme Court of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "250 N.W.2d 686",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "case_ids": [
+        10692704
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nw2d/250/0686-01"
+      ]
+    },
+    {
+      "cite": "1997 SD 89",
+      "category": "reporters:state",
+      "reporter": "SD",
+      "case_ids": [
+        11963309
+      ],
+      "weight": 2,
+      "year": 1977,
+      "opinion_index": 0,
+      "case_paths": [
+        "/nw2d/566/0470-01"
+      ]
+    },
+    {
+      "cite": "741 So.2d 216",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        11568120
+      ],
+      "year": 1997,
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/741/0216-01"
+      ]
+    },
+    {
+      "cite": "99 S.W.3d 57",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9350658
+      ],
+      "year": 1999,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/99/0057-01"
+      ]
+    },
+    {
+      "cite": "304 Minn. 328",
+      "category": "reporters:state",
+      "reporter": "Minn.",
+      "case_ids": [
+        894929
+      ],
+      "weight": 2,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "276"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/minn/304/0328-01"
+      ]
+    },
+    {
+      "cite": "193 Md.App. 80",
+      "category": "reporters:state",
+      "reporter": "Md. App.",
+      "case_ids": [
+        5740044
+      ],
+      "weight": 2,
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "891"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/md-app/193/0080-01"
+      ]
+    },
+    {
+      "cite": "529 A.2d 1357",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "case_ids": [
+        12042035
+      ],
+      "year": 2010,
+      "opinion_index": 0,
+      "case_paths": [
+        "/a2d/529/1357-01"
+      ]
+    },
+    {
+      "cite": "79 P.3d 1253",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "case_ids": [
+        9054520
+      ],
+      "year": 1987,
+      "opinion_index": 0,
+      "case_paths": [
+        "/p3d/79/1253-01"
+      ]
+    },
+    {
+      "cite": "293 Ore. 645",
+      "category": "reporters:state",
+      "reporter": "Or.",
+      "case_ids": [
+        8642188
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "784"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/or/293/0645-01"
+      ]
+    },
+    {
+      "cite": "515 N.W.2d 348",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "case_ids": [
+        10594353
+      ],
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "350"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nw2d/515/0348-01"
+      ]
+    },
+    {
+      "cite": "418 N.E.2d 1201",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "case_ids": [
+        11064621
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "1206, fn. 3"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ne2d/418/1201-01"
+      ]
+    },
+    {
+      "cite": "392 A.2d 1008",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "case_ids": [
+        8018113
+      ],
+      "year": 1981,
+      "opinion_index": 0,
+      "case_paths": [
+        "/a2d/392/1008-01"
+      ]
+    },
+    {
+      "cite": "141 P.2d 46",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "60 Cal.App.2d 478",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        4675896
+      ],
+      "pin_cites": [
+        {
+          "page": "486"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/60/0478-01"
+      ]
+    },
+    {
+      "cite": "305 P.2d 176",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1943,
+      "opinion_index": 0
+    },
+    {
+      "cite": "147 Cal.App.2d 172",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2181090
+      ],
+      "year": 1943,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/147/0172-01"
+      ]
+    },
+    {
+      "cite": "260 P.2d 55",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1956,
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Cal.2d 419",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        12128873
+      ],
+      "year": 1956,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/41/0419-01"
+      ]
+    },
+    {
+      "cite": "198 Cal.Rptr. 66",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 2008,
+      "opinion_index": 0
+    },
+    {
+      "cite": "150 Cal.App.3d 541",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2158091
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "547"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/150/0541-01"
+      ]
+    },
+    {
+      "cite": "13 Cal.Rptr.2d 437",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "10 Cal.App.4th 1526",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        2326681
+      ],
+      "pin_cites": [
+        {
+          "page": "1533"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/10/1526-01"
+      ]
+    },
+    {
+      "cite": "135 Cal.Rptr. 621",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1992,
+      "opinion_index": 0
+    },
+    {
+      "cite": "68 Cal.App.3d 70",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2009815
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "75"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/68/0070-01"
+      ]
+    },
+    {
+      "cite": "255 P.3d 958",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "128 Cal.Rptr.3d 283",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Cal.4th 241",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3919270
+      ],
+      "pin_cites": [
+        {
+          "page": "246"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/52/0241-01"
+      ]
+    },
+    {
+      "cite": "237 F.2d 28",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        427046
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "29-30"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/237/0028-01"
+      ]
+    },
+    {
+      "cite": "99 U.S. App.D.C. 32",
+      "category": "reporters:state",
+      "reporter": "U.S. App. D.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "255 N.E.2d 225",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "weight": 2,
+      "year": 1956,
+      "opinion_index": 0
+    },
+    {
+      "cite": "253 Ind. 472",
+      "category": "reporters:state",
+      "reporter": "Ind.",
+      "case_ids": [
+        1790638
+      ],
+      "year": 1956,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ind/253/0472-01"
+      ]
+    },
+    {
+      "cite": "2 Cal.Rptr. 174",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "111 Cal.App.2d 501",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "pin_cites": [
+        {
+          "page": "503-504"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "58 Cal.Rptr. 763",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "250 Cal.App.2d 856",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2194018
+      ],
+      "pin_cites": [
+        {
+          "page": "858-860"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/250/0856-01"
+      ]
+    },
+    {
+      "cite": "107 Cal.Rptr. 496",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Cal.App.3d 513",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        104838
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/31/0513-01"
+      ]
+    },
+    {
+      "cite": "902 P.2d 297",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.Rptr.2d 279",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "11 Cal.4th 342",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1960666
+      ],
+      "pin_cites": [
+        {
+          "page": "349"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/11/0342-01"
+      ]
+    },
+    {
+      "cite": "194 Cal.Rptr. 722",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "147 Cal.App.3d 11",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        99609
+      ],
+      "pin_cites": [
+        {
+          "page": "18"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/147/0011-01"
+      ]
+    },
+    {
+      "cite": "280 Cal.Rptr. 368",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1983,
+      "opinion_index": 0
+    },
+    {
+      "cite": "229 Cal.App.3d 847",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4398059
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "858"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/229/0847-01"
+      ]
+    },
+    {
+      "cite": "138 P.3d 713",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.Rptr.3d 380",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal.4th 374",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3583186
+      ],
+      "pin_cites": [
+        {
+          "page": "379"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/39/0374-01"
+      ]
+    },
+    {
+      "cite": "278 Cal.Rptr. 196",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "227 Cal.App.3d 894",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2332539
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "901"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/227/0894-01"
+      ]
+    },
+    {
+      "cite": "90 P.3d 116",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "13 Cal.Rptr.3d 534",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Cal.4th 1234",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        801082
+      ],
+      "pin_cites": [
+        {
+          "page": "1242-1243"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/32/1234-01"
+      ]
+    },
+    {
+      "cite": "39 Cal.Rptr.2d 860",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 2004,
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 Cal.App.4th 1767",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6045425
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1776"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/33/1767-01"
+      ]
+    },
+    {
+      "cite": "164 P.3d 630",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "64 Cal.Rptr.3d 210",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.4th 201",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3673325
+      ],
+      "pin_cites": [
+        {
+          "page": "209"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/42/0201-01"
+      ]
+    },
+    {
+      "cite": "115 Cal.Rptr.2d 705",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "95 Cal.App.4th 761",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1021168
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "767"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/95/0761-01"
+      ]
+    },
+    {
+      "cite": "171 P.3d 20",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "68 Cal.Rptr.3d 295",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.4th 730",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3673548
+      ],
+      "pin_cites": [
+        {
+          "page": "737-738"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/42/0730-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1392,
+    "char_count": 34923,
+    "ocr_confidence": 0.902,
+    "pagerank": {
+      "raw": 1.8116404467998838e-07,
+      "percentile": 0.7178729339046408
+    },
+    "sha256": "228d3ddb0bb65d5690582412e8002e72bfdde0c4c1fe558e0464685d93ad0bd7",
+    "simhash": "1:fbb3bf0a74dbc308",
+    "word_count": 5582
+  },
+  "last_updated": "2024-02-27T22:39:10.663413+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "HOPE DiCAMPLI-MINTZ, Plaintiff and Appellant, v. COUNTY OF SANTA CLARA et al., Defendants and Respondents."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nCORRIGAN, J.\nGovernment Code section 915, subdivision (a) (section 915(a)), establishes the manner of delivery of a claim against the government. It requires that a claim be presented to a local public entity by \u201c[delivering it to the clerk, secretary or auditor,\u201d or by mailing it to one of these officials \u201cor to the governing body.\u201d Section 915, subdivision (e) (section 915(e)), further provides that a misdirected claim \u201cshall be deemed to have been presented in compliance\u201d with section 915 if \u201c[i]t is actually received by the clerk, secretary, auditor or board of the local public entity.\u201d (\u00a7 915(e)(1), italics added.)\nHere, the Court of Appeal held that \u201ca claim may substantially comply with the act, notwithstanding failure to deliver or mail it to one of the specified recipients, if it is given to a person or department whose functions include the management or defense of claims against the defendant entity.\u201d We reject this judicial expansion of the statutory requirements and affirm that a claim must satisfy the express delivery provisions language of the statute.\nI. BACKGROUND\nOn April 4, 2006, Dr. Bao-Thuong Bui and Dr. Abraham SHar performed surgery on plaintiff Hope DiCampli-Mintz at Santa Clara Valley Medical Center (VMC), a hospital owned and operated by the County of Santa Clara (the County). In the recovery room, plaintiff complained of pain in her left leg, which appeared bluish and cold to the touch. An emergency tomography disclosed that her \u201cleft iliac artery\u201d was \u201ccompletely interrupted.\u201d Plaintiff was returned to surgery and ultimately discharged.\nLater that year, plaintiff went to VMC\u2019s emergency department \u201cin a great deal of pain.\u201d An emergency room physician told her that another procedure was required because blood vessels had been damaged in the first surgery.\nPlaintiff retained counsel who prepared a letter for transmission to VMC, Dr. Bui, and Dr. Sklar, giving \u201cnotice, in accordance with Section 364 of the Code of Civil Procedure, that Hope DiCampli-Mintz will file suit against you for damages resulting from the personal injury of Hope DiCampli-Mintz.\u201d Code of Civil Procedure section 364 requires that a plaintiff give notice of an intent to sue to a health care provider 90 days before filing a negligence action. The letter stated that defendants negligently performed surgery, interrupting blood flow to plaintiff\u2019s leg, then failed to repair the problem.\nOn April 3, 2007, plaintiff\u2019s counsel personally delivered copies of the letter to an employee of the medical staffing office in the hospital\u2019s administration building. The letters were addressed to the Risk Management Department at VMC, Dr. Bui, and Dr. Sklar. While the letter included a request that it be forwarded to the recipient\u2019s insurance carrier, it did not request that it be forwarded to any of the statutorily designated recipients denoted in section 915.\nIt is undisputed that the letter was never personally served or presented, nor was it mailed to the county clerk or the clerk of the board. The parties likewise agree that plaintiff knew VMC was owned and operated by the County. The letter was later received by the Santa Clara County Risk Management Department by April 6, 2007. On April 23, 2007, Dave Schoendaler at the County\u2019s Risk Management Department spoke with plaintiff\u2019s counsel by telephone. According to plaintiff\u2019s counsel, Schoendaler acknowledged receipt of the letter; orally opined that service on VMC required a tort claim which was late; questioned whether a tort claim was required as to Dr. Sklar and Dr. Bui and indicated that he would look into that; stated that plaintiff had an interesting case; mentioned a physical condition that put plaintiff at risk; and provided the name of the attorney handling the County\u2019s defense. Schoendaler did not mention that the letter failed to satisfy section 915\u2019s delivery requirements. Plaintiff never received written notice that her claim was untimely or presented to the wrong party.\nOn July 2, 2007, plaintiff filed a complaint naming Dr. Bui, Dr. Sklar, and VMC as defendants. As described by the Court of Appeal, \u201cThe complaint acknowledged that \u2018Plaintiff was required to comply with . . . [government claims statutes],\u2019 but asserted she was \u2018excused\u2019 from doing so because defendants \u2018failed to provide notice to Plaintiff as required by Government Code \u00a7\u00a7 910.8, 911, 911.3, and therefore waived any defenses they may have had to the sufficiency of Plaintiff\u2019s claim (Notice of Intention to Commence Action) as presented.\u2019 \u201d\nOn August 29, 2007, the County filed an answer denying plaintiff\u2019s allegations and asserting affirmative defenses, including that plaintiff \u201cfailed to comply with the provisions of the California [Government] Claims Act,\u201d and that her claims were \u201cbarred by the provisions of Government Code \u00a7\u00a7 810 through 1000, inclusive.\u201d\nThe County filed a motion for summary judgment, alleging that plaintiff failed to comply with the Government Claims Act because her claim was never presented to or received by a statutorily designated recipient as required by section 915. In opposition, plaintiff argued that she had \u201csubstantially complied\u201d with the Government Claims Act on April 3, 2007, by delivering the letter of intent to the Risk Management Department at VMC. She also alleged that the letter was received by the Santa Clara County Risk Management Department by April 6, 2007, and that this department was the county department most directly involved with the processing and defense of tort claims against the County.\nThe trial court granted the County\u2019s summary judgment motion. It held that the County made a sufficient showing of noncompliance, and that plaintiff could not avoid summary judgment because she failed to \u201craise a reasonable inference that her claim was actually received by the clerk, secretary, auditor or board of the local public entity within the time prescribed for presentation thereof\u2019 and she also failed to \u201cestablish waiver and/or equitable estoppel.\u201d\nThe Court of Appeal reversed. It found that plaintiff had \u201csubstantially complied\u201d with the presentation requirements of the Government Claims Act. The Court of Appeal rejected other Court of Appeal cases holding that compliance is deemed satisfied only by actual receipt by the statutorily designated persons, under section 915(e)(1).\nII. DISCUSSION\nA. The Government Claims Act\nSuits for money or damages filed against a public entity are regulated by statutes contained in division 3.6 of the Government Code, commonly referred to as the Government Claims Act. We have previously noted that \u201c[s]ection 905 requires the presentation of \u2018all claims for money or damages against local public entities,\u2019 subject to exceptions not relevant here. Claims for personal injury and property damage must be presented within six months after accrual; all other claims must be presented within a year. (\u00a7 911.2.) \u2018[N]o suit for money or damages may be brought against a public entity on a cause of action for which a claim is required to be presented . . . until a written claim therefor has been presented to the public entity and has been acted upon ... or has been deemed to have been rejected ....\u2019(\u00a7 945.4.) \u2018Thus, under these statutes, failure to timely present a claim for money or damages to a public entity bars a plaintiff from filing a lawsuit against that entity.\u2019 [Citation.]\u201d (City of Stockton v. Superior Court (2007) 42 Cal.4th 730, 737-738 [68 Cal.Rptr.3d 295, 171 P.3d 20] (City of Stockton).)\nSection 905 requires that, subject to exceptions not present here, \u201call claims for money or damages against local public entities\u201d must be \u201cpresented in accordance with Chapter 1 (commencing with Section 900) and Chapter 2 (commencing with Section 910)\u201d of the Government Code. \u201c \u2018Local public entity\u2019 includes a county, city, district, public authority, public agency, and any other political subdivision or public corporation in the State____\u201d (\u00a7 900.4.)\nSection 915(a) provides, \u201cA claim . . . shall be presented to a local public .entity by either of the following means: [][] (1) Delivering it to the clerk, secretary or auditor thereof, [f] (2) Mailing it to the clerk, secretary, auditor, or to the governing body at its principal office.\u201d Section 915(e)(1) clearly and narrowly sets forth how actual receipt may meet the presentation requirement: \u201cA claim . . . shall be deemed to have been presented in compliance with this section even though it is not delivered or mailed as provided in this section if within the time prescribed for presentation thereof, any of the following apply; [][] (1) It is actually received by the clerk, secretary, auditor or board of the local public entity.\u201d (Italics added.)\nEven if the public entity has actual knowledge of facts that might support a claim, the claims statutes still must be satisfied. (City of Stockton, supra, 42 Cal.4th at p. 738.) \u201cThe filing of a claim is a condition precedent to the maintenance of any cause of action against the public entity and is therefore an element that a plaintiff is required to prove in order to prevail.\u201d (Del Real v. City of Riverside (2002) 95 Cal.App.4th 761, 767 [115 Cal.Rptr.2d 705] (Del Real), italics added; see Shirk v. Vista Unified School Dist. (2007) 42 Cal.4th 201, 209 [64 Cal.Rptr.3d 210, 164 P.3d 630] (Shirk).)\nA goal of the Government Claims Act is to eliminate confusion and uncertainty resulting from different claims procedures. (Recommendation Relating to Sovereign Immunity (Jan. 1963) 4 Cal. Law Revision Com. Rep. (1963) p. 1008.) As we pointed out in City of Stockton, supra, 42 Cal.4th at page 738, \u201c[t]he purpose of the claims statutes is not to prevent surprise, but \u2018to provide the public entity sufficient information to enable it to adequately investigate claims and to settle them, if appropriate, without the expense of litigation. [Citations.] It is well-settled that claims statutes must be satisfied even In face of the public entity\u2019s actual knowledge of the circumstances surrounding the claim.\u2019 [Citation.] The claims statutes also \u2018enable the public entity to engage in fiscal planning for potential liabilities and to avoid similar liabilities in the future.\u2019 [Citations.]\u201d\nMoreover, the intent of the Government Claims Act is \u201cnot to expand the rights of plaintiffs against government entities. Rather, the intent of the act is to confine potential governmental liability to rigidly delineated circumstances.\u201d (Munoz v. State of California (1995) 33 Cal.App.4th 1767, 1776 [39 Cal.Rptr.2d 860]; see State of California v. Superior Court (2004) 32 Cal.4th 1234, 1242-1243 [13 Cal.Rptr.3d 534, 90 P.3d 116].) The claimant bears the burden of ensuring that the claim is presented to the appropriate public entity. (Life v. County of Los Angeles (1991) 227 Cal.App.3d 894, 901 [278 Cal.Rptr. 196] (Life).)\nB. Application of the Government Claims Statute\nSeveral points are important here. The County does not dispute that the content of the letter is sufficient to serve as a valid claim, nor does it dispute its timeliness. Plaintiff does not dispute that the County was the proper public entity where her claim should have been presented under section 915(a). The case stands or falls on whether presentation of plaintiff\u2019s letter of intention to someone other than the statute\u2019s designated recipients or the actual receipt of notice by a proper recipient, satisfies the prefiling claim requirement.\nIt is uncontested that the claim was never delivered or mailed to the \u201cclerk, secretary or auditor\u201d as required by section 915(a). Likewise, the \u201cclerk, secretary, auditor or board\u201d never actually received the claim. (\u00a7 915(e)(1).) Thus, neither section 915(a)\u2019s specific requirements for compliance, nor section 915(e)(l)\u2019s provision deeming actual receipt to constitute compliance, were satisfied. Nevertheless, the Court of Appeal held that there was \u201csubstantial compliance.\u201d This was error.\nThe proper construction of section 915 is dispositive. \u201cIn construing any statute, we first look to its language. [Citation.] \u2018Words used in a statute . . . should be given the meaning they bear in ordinary use. [Citations.] If the language is clear and unambiguous there is no need for construction, nor is it necessary to resort to indicia of the intent of the Legislature . . . .\u2019 [Citation.] \u2018If the language permits more than one reasonable interpretation, however, the court looks \u201cto a variety of extrinsic aids, including the ostensible objects to be achieved, the evils to be remedied, the legislative history, public policy, contemporaneous administrative construction, and the statutory scheme of which the statute is a part.\u201d [Citation.]\u2019 [Citation.]\u201d (S. B. Beach Properties v. Berti (2006) 39 Cal.4th 374, 379 [46 Cal.Rptr.3d 380, 138 P.3d 713].) Also, a statute \u201c \u2018must be given a reasonable and common sense interpretation consistent with the apparent purpose and intention of the lawmakers, practical rather than technical in nature, which upon application will result in wise policy rather than mischief or absurdity.\u2019 \u201d (City of Poway v. City of San Diego (1991) 229 Cal.App.3d 847, 858 [280 Cal.Rptr. 368], quoting DeYoung v. City of San Diego (1983) 147 Cal.App.3d 11, 18 [194 Cal.Rptr. 722].) A court may not, \u201cunder the guise of construction, rewrite the law or give the words an effect different from the plain and direct import of the terms used.\u201d (California Fed. Savings & Loan Assn. v. City of Los Angeles (1995) 11 Cal.4th 342, 349 [45 Cal.Rptr.2d 279, 902 P.2d 297].) Further, \u201c \u2018[w]e must assume that the Legislature knew how to create an exception if it wished to do so . . . .\u2019 [Citation.]\u201d (Ibid.)\nThe Court of Appeal erred by failing to adhere to the plain language of section 915. Instead, it rewrote the statute to read as the court believed it should provide.\nSection 915(a)(1) reflects the Legislature\u2019s intent to precisely identify those who may receive claims on behalf of a local public entity. Section 915(e)(1) reflects the Legislature\u2019s intent that a misdirected claim will satisfy the presentation requirement if the claim is \u201cactually received\u201d by a statutorily designated recipient. Thus, compliance with section 915(e)(1) requires actual receipt of the misdirected claim by one of the designated recipients. If an appropriate public employee or board never, receives the claim, an undelivered or misdirected claim fails to comply with the statute. (Life, supra, 227 Cal.App.3d at p. 901.) This straightforward construction honors the statutory language and is consistent with the purpose of the claims statutes.\nWhile resort to extrinsic sources is unnecessary, our conclusion is consistent with the legislative history. In 1959, the California Law Revision Commission\u2019s (Commission) report found that there were conflicting claim presentation requirements for public entities throughout the state. The Commission urged that specificity and uniformity were necessary and recommended adoption of uniform procedures for certain claims against public entities. (See Recommendation and Study Relating to The Presentation of Claims Against Public Entities (Jan. 1959) 2 Cal. Law Revision Com. Rep. (1959) pp. A-57 to A-62, A-122 (1959 Study).) The Commission reported, \u201cMuch unnecessary litigation has been devoted to resolution of technical issues relating to allegedly improper presentation of claims. ... [A recurring question is] whether presentation to the wrong official satisfies the statute. Avoidance of these problems can be achieved in part by clear identification of the officer to whom such claims are required to be presented and by express authorization of mailed notice. In order to avoid doubts and to preclude such purely technical issues from interfering with expeditious handling of claims, however, it is recommended that express provision be made to cure minor defects in the manner of service which do not prejudice the public entity.\u201d (Id. at p. A-122, fns. omitted.)\nThe Commission also referred to a New York law providing that, \u201c \u2018[I]f service of such notice . . . [is] not in compliance with the provisions of this subdivision, such service shall be deemed valid if such notice is actually received by such person ....\u2019\u201d (1959 Study, supra, 2 Cal. Law Revision Com. Rep., at p. A-122, italics added.) In 1959, the Legislature acted on the Commission\u2019s recommendation and added section 714, the predecessor of section 915. (Stats. 1959, ch. 1724, \u00a7 1, pp. 4133, 4136.) \u201cThe scheme in effect today was established in 1963, when the Legislature combined the requirements for claims against local entities with those for claims against the state in part 3 of division 3.6 of title 1 of the Government Code. (Stats. 1963, ch. 1715, pp. 3369, 3372 et seq.)\u201d (City of Stockton, supra, 42 Cal.4th at p. 739, fn. 4.)\nIt is logical to provide that actual receipt satisfies the claim presentation requirement. The goals of the claims statutes are to provide entities with sufficient information to investigate and appropriately resolve claims and to plan for potential liabilities. These goals are satisfied when an adequate claim is actually received by an appropriate entity representative. The Legislature retains authority to determine which representatives are appropriate. The Court of Appeal cannot override that determination simply because it concludes receipt by others should be considered sufficient.\nThe Court of Appeal placed substantial reliance on Jamison v. State of California (1973) 31 Cal.App.3d 513 [107 Cal.Rptr. 496] (Jamison). Jamison proves too slender a reed to support the weight of the Court of Appeal\u2019s expansion. The Jamison holding was later repudiated by its own panel and is in conflict with more recent authority.\nJamison was injured in a traffic collision with a truck owned by the California Department of Water Resources. His lawyer filed a claim with the Department of Water Resources before filing suit. (Jamison, supra, 31 Cal.App.3d at p. 515.) The trial court dismissed the action for failure to comply with the Government Claims Act. (Jamison, at p. 515.) At the time, section 915, subdivision (c), a prior version of section 915(e), required that notice be filed with the State Board of Control and Jamison had failed to do so. (Jamison, at pp. 515-516.) The Court of Appeal concluded Jamison had substantially complied with the existing statute. It noted that most claim statute cases dealt with \u201csubstantial compliance\u201d in disputes over whether the contents or form of the claim was adequate, not whether the filing was properly presented. (Id. at p. 516.) It then reviewed the few California cases involving \u201cthe question of filing a proper claim with the wrong governmental department or agency.\u201d (Ibid.)\nThe Jamison court drew several conclusions: (1) The statutory requirement is not met when a claim is filed with the wrong entity. (Jamison, supra, 31 Cal.App.3d at p. 517.) That principle is reflected in Jackson v. Board of Education (1967) 250 Cal.App.2d 856, 858-860 [58 Cal.Rptr. 763], which held that a requirement to serve a local board of education is not satisfied by serving the municipality. (2) If a claim is filed with the proper entity but with the wrong statutory official of that entity, the statute is satisfied if the claim is actually received by the statutory officer. (3) A complete failure to serve any responsible officer of the entity will not constitute substantial compliance. (Jamison, supra, 31 Cal.App.3d at p. 517.) As stated in Redwood v. State of California (1960) 111 Cal.App.2d 501, 503-504 [2 Cal.Rptr. 174]: \u201cIt has been repeatedly held that where the claims statute provides for the person upon whom the claim is to be served . . . service upon another is insufficient.\u201d\nThe Jamison court went on to draw a fourth conclusion that it phrased as follows: \u201cService upon any responsible official of the entity, but not the statutory officer, is sufficient if the party served has the duty to notify the statutory agent.\u201d (Jamison, supra, 31 Cal.App.3d at p. 517.) Jamison cited no California authority for this proposition, referring instead to cases from Indiana (Galbreath v. City of Indianapolis (1970) 253 Ind. 472 [255 N.E.2d 225]) and the District of Columbia (Stone v. District of Columbia (D.C. Cir. 1956) 99 U.S. App.D.C. 32 [237 F.2d 28] [applying D.C. law]). (Jamison, supra, 31 Cal.App.3d at p. 517.) The Jamison opinion does not reveal whether the statutes at issue in those cases bore any similarity to the California statutory scheme.\nAs justification for importing its fourth conclusion into California law, the Jamison court stated, \u201cCertainly, any responsible officer or employee of a major state agency knows, or should know, that if a substantial claim for damages is presented that it should be forwarded to the Board of Control. In the event the officer or employee actually receiving the claim does not know the proper agency, then a simply [sic] inquiry to the Attorney General\u2019s office would result in advice as to the proper agency.\u201d (Jamison, supra, 31 Cal.App.3d at p. 518.) The court cited no statutory authority supporting the duty it created. Other California appellate courts have refused to follow it. (Del Real, supra, 95 Cal.App.4th 761; Life, supra, 227 Cal.App.3d 894.)\nIn Life, supra, 227 Cal.App.3d 894, the plaintiff was involved in an automobile accident. He was treated by medical staff at the county medical center that allegedly committed negligence. The plaintiff retained counsel who sent a personal injury claim to the medical center\u2019s legal department. (Id. at p. 897.) The legal department was not the proper body to receive the plaintiff\u2019s claim. The plaintiff later retained new counsel who filed a late claim with the county board of supervisors. (Ibid.)\nAfter the county denied the claim as untimely and his application for leave to present a late claim was also denied, Life filed a complaint against the county alleging medical negligence. (Life, supra, 227 Cal.App.3d at p. 897.) The county moved for summary judgment on the ground that Life had failed to timely present a claim. (Id. at p. 898.) The Court of Appeal affirmed, holding that Life\u2019s presentation of the claim to the hospital\u2019s legal department was insufficient. Compliance with section 915 would have occurred only if the misdirected claim was \u201c \u2018actually received by the clerk, secretary, auditor or board of the local public entity ....\u2019\u201d (Life, at p. 900.)\nThe Life court found Jamison unpersuasive because it failed to follow the statutory requirement that a misdirected claim be \u201cactually received\u201d by the designated party. (Life, supra, 227 Cal.App.3d at p. 901.) The court also remarked that \u201cJamison\u2019s reliance on a public entity\u2019s internal transmittal of a claim conflicts with section 915, which requires the claimant to file with the appropriate official or board.\u201d (Ibid.) The court persuasively concluded that \u201c[b]y focusing on the duty of a public employee in receipt of a claim to forward the claim to the proper agency, Jamison inappropriately shifts responsibility for filing a claim with the proper official or body from the claimant to the public entity.\u201d (Ibid.)\nIn Del Real, supra, 95 Cal.App.4th at page 764, the claim arose from an automobile accident with a Riverside police officer, Eric Charrette. Del Real\u2019s attorney wrote to Charrette seeking his account of the accident and requesting that the letter be forwarded to Charrette\u2019s insurance company. The city attorney responded to the letter, informing counsel that it represented Charrette and that he would not provide a statement. The letter also stated that any further contact with Charrette should be made through the city attorney\u2019s office. (Ibid.) Del Real later sued Charrette and the City of Riverside. Defendants moved for summary judgment alleging Del Real failed to satisfy the Government claims statutes. Del Real urged in reply that her letter to Charrette constituted a timely claim. She argued that \u201ceven if the letter was not actually received by the appropriate person or body, it should have been,\u201d citing Jamison for the proposition that Charrette had a duty to transmit the letter to the appropriate recipient. (Del Real, at p. 770.)\nIn addition to holding that the letter did not contain the contents of a proper claim, the Court of Appeal held that because the letter was not properly directed it failed to comply with section 915. (Del Real, supra, 95 Cal.App.4th at p. 770.) In rejecting Del Real\u2019s argument, the Fourth District Court of Appeal stated, \u201cwe have reconsidered our earlier decision in Jamison and, as did the court in Life v. County of Los Angeles, supra, 227 Cal.App.3d at pages 900-901, we find that it is at odds with section 915, subdivision (c). We therefore decline to follow it.\u201d (Ibid.) We agree with the holdings in Life and Del Real. Their application of the compliance doctrine is consistent with the language of section 915(e)(1) requiring actual receipt by the statutorily designated recipient. Jamison is unpersuasive because it fails to follow the statutory language specifically identifying who must actually receive a claim. Finding compliance when any agency employee is served exponentially expands the scope of the statute. By placing a duty on a public employee who receives a misdirected claim to forward it to the proper agency, Jamison improperly shifted the responsibility for presenting a claim from the claimant to the public entity. (See \u00a7\u00a7 910, 915.)\nMoreover, the County argues persuasively that, in addition to contravening section 915\u2019s plain language, the Jamison rule creates uncertainty about how and where claims must be delivered. Misdirected claims may be received by various departments or employees and forwarded to multiple people and places, making it difficult to determine whether the claims were actually delivered to, or received by, a department or employee charged with the overall management of claims against the county. The question of when a claim is actually received and whether a specific department or employee managed claims against a public entity would also be fodder for litigation. This result is contrary to the Government Claims Act\u2019s goal of eliminating uncertainty in the claims presentation requirements. Accordingly, we disapprove Jamison v. State of California, supra, 31 Cal.App.3d 513.\nThe Court of Appeal below further relied on cases decided before the enactment of section 915 or its predecessor, section 714. When these cases were decided, claims against the state, local, and municipal governments were governed by numerous state statutes and local ordinances. Recognizing this Byzantine claims system, the Legislature standardized the procedure by enacting the Government Claims Act. In doing so, it replaced more than 150 separate procedures for directing claims against local governmental entities. (Ardon v. City of Los Angeles (2011) 52 Cal.4th 241, 246 [128 Cal.Rptr.3d 283, 255 P.3d 958].) Because of this comprehensive change in the statutory procedures, the early cases cited by the Court of Appeal are inapposite.\nThe Court of Appeal also erred by relying on Elias v. San Bernardino County Flood Control Dist. (1977) 68 Cal.App.3d 70, 75 [135 Cal.Rptr. 621], and Carlino v. Los Angeles County Flood Control Dist. (1992) 10 Cal.App.4th 1526, 1533 [13 Cal.Rptr.2d 437]. These cases hold that when the governing body of one public entity is also the governing body of another public entity, a claim against the subordinate entity that is delivered to the governing body constitutes substantial compliance with the claims statute. (Elias, supra, 68 Cal.App.3d at pp. 75-77; Carlino, supra, 10 Cal.App.4th at pp. 1533-1534.) That is not the case here.\nIII. DISPOSITION\nThe judgment of the Court of Appeal is reversed.\nCantil-Sakauye, C. J., Kennard, J., Baxter, J., Werdegar, J., Chin, J., and Liu, J., concurred.\nAll further unspecified statutory references are to the Government Code.\nCode of Civil Procedure section 364 is not part of the Government Claims Act (\u00a7810 et seq.). The notice of intent it mandates is a separate requirement.\nPlaintiffs counsel also sent duplicate letters by certified mail.\nAccording to the County, the letters were addressed to the \u201cRisk Management Department at the Valley Health Center Clinic at VMC.\u201d Plaintiff did not dispute this and added that the letter was also received by the \u201cSanta Clara County Risk Management Department.\u201d At oral argument it was clarified that the \u201cSanta Clara County Risk Management Department\u201d and the \u201cRisk Management Department at the Valley Health Center Clinic at VMC\u201d are different entities.\nThe \u201cSanta Clara County Risk Management Department\u201d is a department within the County\u2019s Employee Services Agency and deals with legal claims against the County. The \u201cRisk Management Department at the Valley Health Center Clinic at VMC\u201d is responsible for such things as the hospital\u2019s quality assurance and its compliance with regulatory matters. For reasons set forth below, any differences are irrelevant because plaintiff failed to properly present her letter to a statutorily designated person, nor did any such designee actually receive the letter. (\u00a7 915(a) & (e).)\nSection 910.8 requires the board of a public entity, or its designee, to give a claimant notice of a defective claim. Section 911 provides if the board fails to provide a notice of insufficiency as required by section 910.8, the defect is waived. Section 911.3, subdivisions (a) and (b) require that the board, or its designee give written notice to the claimant that a claim was untimely. Failure to do so waives a timeliness defense. As later discussed, because plaintiff\u2019s claim was not presented to or actually received by the board or a person designated by it, sections 910.8, 911 and 911.3 are not applicable. (See post, pp. 992-994.)\nThe Court of Appeal noted that the complaint was never amended to name the County as the proper defendant, although the parties have acted throughout the proceedings as if it were. The Court of Appeal treated this mistake as a harmless misnomer. (See Plumlee v. Poag (1984) 150 Cal.App.3d 541, 547 [198 Cal.Rptr. 66]; see also 4 Witkin, Cal. Procedure (5th ed. 2008) Pleading, \u00a7 477, pp. 605-606; 5 Witkin, Cal. Procedure, supra, Pleading, \u00a7 1219, p. 654.) The parties do not dispute this issue and we need not address it.\nAt some point, the parties stipulated to the dismissal of the suit against Dr. Bui and Dr. Sldar, agreeing that at all relevant times they acted within the course and scope of their County employment.\nIn Shirk, supra, 42 Cal.4th at page 213, we summarized the public policies supporting strict application of the claims presentation requirements: \u201cRequiring a [claimant] ... to first present a claim to the entity, before seeking redress in court, affords the entity an opportunity to promptly remedy the condition giving rise to the injury, thus minimizing the risk of similar harm to others. [Citations.] [It] also permits the public entity to investigate while tangible evidence is still available, memories are fresh, and witnesses can be located. [Citations.] Fresh notice of a claim permits early assessment by the public entity, allows its governing board to settle meritorious disputes without incurring the added cost of litigation, and gives it time to engage in appropriate budgetary planning. [Citations.] The notice requirement. . . thus is based on a recognition of the special status of public entities, according them greater protections than nonpublic entity defendants, because . . . public entities . . . will incur costs that must ultimately be borne by the taxpayers.\u201d\nWe need not determine whether section 915\u2019s use of the term \u201cclerk\u201d refers to the county clerk or the clerk of the board of supervisors. It is undisputed that the claim was not mailed, delivered to, or received by either clerk.\nFormer section 714 provided, \u201cA claim may be presented to a local public entity (1) by delivering the claim to the clerk, secretary or auditor thereof within the period of time prescribed by Section 715 or (2) by mailing the claim to such clerk, secretary or auditor or to the governing body at its principal office not later than the last day of such period. A claim shall be deemed to have been presented in compliance with this section even though it is not delivered or mailed as provided herein if it is actually received by the clerk, secretary, auditor or governing body within the time prescribed.\u201d (Stats. 1959, ch. 1724, \u00a7 1, pp. 4133, 4136, italics added.)\nPeters v. City & County of San Francisco (1953) 41 Cal.2d 419 [260 P.2d 55]; Insolo v. Imperial Irr. Dist. (1956) 147 Cal.App.2d 172 [305 P.2d 176]; and L. A. Brick etc. Co. v. City of Los Angeles (1943) 60 Cal.App.2d 478, 486 [141 P.2d 46],\nThe Court of Appeal additionally relied on out-of-state cases. (Shehyn v. District of Columbia (D.C. 1978) 392 A.2d 1008; Stone v. District of Columbia, supra, 237 F.2d 28, 29-30 [applying D.C. law]; Galbreath v. City of Indianapolis, supra, 255 N.E.2d 225; Coghill v. Badger (Ind.Ct.App. 1981) 418 N.E.2d 1201, 1206, fn. 3; Hawkeye Bank v. State (Iowa 1994) 515 N.W.2d 348, 350; Webb v. Highway Division of Oregon State Dept, of Transportation (1982) 293 Ore. 645 [652 P.2d 783, 784].)\nPlaintiff also cites numerous out-of-state cases. (Finnie v. Jefferson County School Dist. (Colo. 2003) 79 P.3d 1253; Robinson v. Washington County (Me. 1987) 529 A.2d 1357; Hansen v. City of Laurel (2010) 193 Md.App. 80 [996 A.2d 882, 891]; Kelly v. City of Rochester (1975) 304 Minn. 328 [231 N.W.2d 275, 276]; Kirkpatrick v. City of Glendale (Mo.Ct.App. 2003) 99 S.W.3d 57; Ferrer v. Jackson County Bd. of Supervisors (Miss. 1999) 741 So.2d 216; Myears v. Charles Mix County (1997) 1997 SD 89 [566 N.W.2d 470]; Mount v. City of Vermillion (S.D. 1977) 250 N.W.2d 686.)\nWe find these authorities unpersuasive. Neither the Court of Appeal nor plaintiff explains how the claim statutes at issue in these cases were consistent with California\u2019s Government Claims Act.",
+        "type": "majority",
+        "author": "CORRIGAN, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Campbell, Warburton, Fitzsimmons, Smith, Mendell & Pastore, J. Michael Fitzsimmons and Lisa Jeong Cummins for Plaintiff and Appellant.",
+      "Cheong, Denove, Rowell & Bennett and John D. Rowell for Consumer Attorneys of California as Amicus Curiae on behalf of Plaintiff and Appellant.",
+      "Miguel Marquez, County Counsel, Lori E. Pegg, Acting County Counsel, Marcy L. Berkman and Melissa R. Kiniyalocts, Deputy County Counsel, for Defendants and Respondents.",
+      "Stephen D. Underwood; Michael M. Youngd\u00e1hl and Jordan Sheinbaum for CSAC Excess Insurance Authority, California League of Cities and California State Association of Counties as Amici Curiae on behalf of Defendants and Respondents."
+    ],
+    "corrections": "",
+    "head_matter": "[No. S194501.\nDec. 6, 2012.]\nHOPE DiCAMPLI-MINTZ, Plaintiff and Appellant, v. COUNTY OF SANTA CLARA et al., Defendants and Respondents.\nCounsel\nCampbell, Warburton, Fitzsimmons, Smith, Mendell & Pastore, J. Michael Fitzsimmons and Lisa Jeong Cummins for Plaintiff and Appellant.\nCheong, Denove, Rowell & Bennett and John D. Rowell for Consumer Attorneys of California as Amicus Curiae on behalf of Plaintiff and Appellant.\nMiguel Marquez, County Counsel, Lori E. Pegg, Acting County Counsel, Marcy L. Berkman and Melissa R. Kiniyalocts, Deputy County Counsel, for Defendants and Respondents.\nStephen D. Underwood; Michael M. Youngd\u00e1hl and Jordan Sheinbaum for CSAC Excess Insurance Authority, California League of Cities and California State Association of Counties as Amici Curiae on behalf of Defendants and Respondents."
+  },
+  "file_name": "0983-01",
+  "first_page_order": 1023,
+  "last_page_order": 1038
+}

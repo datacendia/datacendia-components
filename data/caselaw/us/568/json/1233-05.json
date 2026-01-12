@@ -1,0 +1,59 @@
+{
+  "id": 12433232,
+  "name": "Williams v. Clarke, Director, Virginia Department of Corrections",
+  "name_abbreviation": "Williams v. Clarke",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-7997",
+  "first_page": "1233",
+  "last_page": "1233",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1233"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 113,
+    "ocr_confidence": 0.666,
+    "sha256": "c5a7f960c4ffbf40cabf87fb9441b802bca0db8932003763405502fff1e8a74d",
+    "simhash": "1:33e26821cf0b9061",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. Clarke, Director, Virginia Department of Corrections."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7997.\nWilliams v. Clarke, Director, Virginia Department of Corrections."
+  },
+  "file_name": "1233-05",
+  "first_page_order": 1309,
+  "last_page_order": 1309
+}

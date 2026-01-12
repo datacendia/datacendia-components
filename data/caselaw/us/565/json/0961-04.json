@@ -1,0 +1,59 @@
+{
+  "id": 12228906,
+  "name": "McFadden v. United States",
+  "name_abbreviation": "McFadden v. United States",
+  "decision_date": "2011-10-17",
+  "docket_number": "No. 11M36",
+  "first_page": "961",
+  "last_page": "961",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 961"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 20,
+    "char_count": 125,
+    "ocr_confidence": 0.686,
+    "sha256": "eabd5ce6696ad7747f160af1748ad9454891a17d181a7fee6801218ffe7dadbe",
+    "simhash": "1:4a458207c1c102b8",
+    "word_count": 22
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McFadden v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "Motion to direct the Clerk to file petition for writ of certiorari out of time denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11M36.\nMcFadden v. United States."
+  },
+  "file_name": "0961-04",
+  "first_page_order": 1043,
+  "last_page_order": 1043
+}

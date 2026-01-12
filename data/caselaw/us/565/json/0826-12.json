@@ -1,0 +1,59 @@
+{
+  "id": 12198841,
+  "name": "Harding v. Maryland",
+  "name_abbreviation": "Harding v. Maryland",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-1530",
+  "first_page": "826",
+  "last_page": "826",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 826"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 70,
+    "ocr_confidence": 0.675,
+    "sha256": "26e7ed50c24a1b0b4f8a81f4833c8506f9ce47d41dc27b0e201066362c6e47fb",
+    "simhash": "1:5590400a501054f0",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Harding v. Maryland."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Sp. App. Md. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1530.\nHarding v. Maryland."
+  },
+  "file_name": "0826-12",
+  "first_page_order": 908,
+  "last_page_order": 908
+}

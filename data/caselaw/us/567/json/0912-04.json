@@ -1,0 +1,59 @@
+{
+  "id": 12408972,
+  "name": "Arriola-Perez v. United States",
+  "name_abbreviation": "Arriola-Perez v. United States",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. 11-10258",
+  "first_page": "912",
+  "last_page": "912",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 912"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 81,
+    "ocr_confidence": 0.724,
+    "sha256": "fb5a1b3c159986586c9d79ed07ec0c8ae12f21206fa8768fffa6d9938381446c",
+    "simhash": "1:079990230347816c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Arriola-Perez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10258.\nArriola-Perez v. United States."
+  },
+  "file_name": "0912-04",
+  "first_page_order": 816,
+  "last_page_order": 816
+}

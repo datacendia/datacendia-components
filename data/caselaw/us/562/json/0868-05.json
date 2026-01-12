@@ -1,0 +1,59 @@
+{
+  "id": 5934039,
+  "name": "Mathews v. United States",
+  "name_abbreviation": "Mathews v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11222",
+  "first_page": "868",
+  "last_page": "868",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 868"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.608,
+    "sha256": "7f66bf3447f2ac3b083b45f6d9995767e6696b548d11957247aa0e12ca8b0eed",
+    "simhash": "1:850ae2a3afb5146b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mathews v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11222.\nMathews v. United States."
+  },
+  "file_name": "0868-05",
+  "first_page_order": 890,
+  "last_page_order": 890
+}

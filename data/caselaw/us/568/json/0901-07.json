@@ -1,0 +1,59 @@
+{
+  "id": 12415504,
+  "name": "Gonzalez v. Hedgpeth, Warden",
+  "name_abbreviation": "Gonzalez v. Hedgpeth",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5220",
+  "first_page": "901",
+  "last_page": "901",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 901"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.667,
+    "sha256": "045d57650e60f0bbed767eec0de46e726ded1a25bd3c2747e6251fad85eaa499",
+    "simhash": "1:19f1a3a12fbf60f6",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gonzalez v. Hedgpeth, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5220.\nGonzalez v. Hedgpeth, Warden."
+  },
+  "file_name": "0901-07",
+  "first_page_order": 977,
+  "last_page_order": 977
+}

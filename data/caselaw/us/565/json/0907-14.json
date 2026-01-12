@@ -1,0 +1,59 @@
+{
+  "id": 12220779,
+  "name": "Porter v. Goord et al.",
+  "name_abbreviation": "Porter v. Goord",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5443",
+  "first_page": "907",
+  "last_page": "907",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 907"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 70,
+    "ocr_confidence": 0.657,
+    "sha256": "9e69daf3274adda1ef8f49b079342a60c656ea2feb0aeb99cc845f24f6922e5b",
+    "simhash": "1:d1c538a35509d71e",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Porter v. Goord et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5443.\nPorter v. Goord et al."
+  },
+  "file_name": "0907-14",
+  "first_page_order": 989,
+  "last_page_order": 989
+}

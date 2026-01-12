@@ -1,0 +1,59 @@
+{
+  "id": 12420010,
+  "name": "Martinez-Tavera v. United States",
+  "name_abbreviation": "Martinez-Tavera v. United States",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 11-11061",
+  "first_page": "978",
+  "last_page": "978",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 978"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 82,
+    "ocr_confidence": 0.666,
+    "sha256": "fe4486894ef45ee71646d6e4eaf880891e3037d35e5f571ae238e1192810480c",
+    "simhash": "1:160ac38209081448",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Martinez-Tavera v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-11061.\nMartinez-Tavera v. United States."
+  },
+  "file_name": "0978-08",
+  "first_page_order": 1054,
+  "last_page_order": 1054
+}

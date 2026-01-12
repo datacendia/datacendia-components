@@ -1,0 +1,59 @@
+{
+  "id": 5955126,
+  "name": "Wong v. San Martin et al.",
+  "name_abbreviation": "Wong v. San Martin",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5461",
+  "first_page": "923",
+  "last_page": "923",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 923"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 19,
+    "char_count": 99,
+    "ocr_confidence": 0.602,
+    "sha256": "904b141ed3c4580fcca26a22f87e9274fdcfe6ce5c9aa75cde171f3e0b37ae20",
+    "simhash": "1:2670896539115140",
+    "word_count": 19
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wong v. San Martin et al."
+    ],
+    "opinions": [
+      {
+        "text": "App. Div., Sup. Ct. N. Y., 2d Jud. Dept. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5461.\nWong v. San Martin et al."
+  },
+  "file_name": "0923-06",
+  "first_page_order": 945,
+  "last_page_order": 945
+}

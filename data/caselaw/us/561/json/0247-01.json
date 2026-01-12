@@ -1,0 +1,1826 @@
+{
+  "id": 3644388,
+  "name": "MORRISON et al. v. NATIONAL AUSTRALIA BANK LTD. et al.",
+  "name_abbreviation": "Morrison v. National Australia Bank Ltd.",
+  "decision_date": "2010-06-24",
+  "docket_number": "No. 08-1191",
+  "first_page": "247",
+  "last_page": "286",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "561 U.S. 247"
+    },
+    {
+      "type": "parallel",
+      "cite": "177 L. Ed. 2d 535"
+    },
+    {
+      "type": "parallel",
+      "cite": "130 S. Ct. 2869"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2009-082"
+    },
+    {
+      "type": "vendor",
+      "cite": "2010 U.S. LEXIS 5257"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "547 F. 3d 167",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6052075
+      ],
+      "weight": 7,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "168"
+        },
+        {
+          "page": "169"
+        },
+        {
+          "page": "175-176"
+        },
+        {
+          "page": "177"
+        },
+        {
+          "page": "170",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "170, n. 3",
+          "parenthetical": "ease below"
+        },
+        {
+          "page": "176, n. 7"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/547/0167-01"
+      ]
+    },
+    {
+      "cite": "48 Stat. 891,15",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "17 CFR \u00a7240",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "2006 WL 3844465",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "*8"
+        },
+        {
+          "page": "*9"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "558 U. S. 1047",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "405 F. 2d 200",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1211872
+      ],
+      "year": 1968,
+      "pin_cites": [
+        {
+          "page": "208"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/405/0200-01"
+      ]
+    },
+    {
+      "cite": "405 F. 2d 215",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1211912
+      ],
+      "year": 1968,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/405/0215-01"
+      ]
+    },
+    {
+      "cite": "578 F. 3d 1306",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4048366
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "1313"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/578/1306-01"
+      ]
+    },
+    {
+      "cite": "592 F. 2d 409",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        53126
+      ],
+      "weight": 2,
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "421"
+        },
+        {
+          "page": "421-422"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/592/0409-01"
+      ]
+    },
+    {
+      "cite": "558 U. S. 67",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3639103
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "81",
+          "parenthetical": "quoting Arbaugh v. Y & H Corp., 546 U. S. 500, 514 (2006), in turn quoting United States v. Cotton, 535 U. S. 625, 630 (2002)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/558/0067-01"
+      ]
+    },
+    {
+      "cite": "546 U. S. 500",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5937941
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "514"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/546/0500-01"
+      ]
+    },
+    {
+      "cite": "535 U. S. 625",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        353467
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "630"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/535/0625-01"
+      ]
+    },
+    {
+      "cite": "327 U. S. 678",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        414062
+      ],
+      "year": 1946,
+      "pin_cites": [
+        {
+          "page": "682"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/327/0678-01"
+      ]
+    },
+    {
+      "cite": "358 U. S. 354",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3652963
+      ],
+      "year": 1959,
+      "pin_cites": [
+        {
+          "page": "359, 381-384"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/358/0354-01"
+      ]
+    },
+    {
+      "cite": "499 U. S. 244",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11318695
+      ],
+      "weight": 8,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "248",
+          "parenthetical": "Aramco"
+        },
+        {
+          "page": "251"
+        },
+        {
+          "page": "251-252",
+          "parenthetical": "discussing cases"
+        },
+        {
+          "page": "247"
+        },
+        {
+          "page": "255"
+        },
+        {
+          "page": "256"
+        },
+        {
+          "page": "260",
+          "parenthetical": "Scalia, J., concurring in part and concurring in judgment"
+        },
+        {
+          "page": "252",
+          "parenthetical": "quoting 15 U. S. C. \u00a7 1127"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/499/0244-01"
+      ]
+    },
+    {
+      "cite": "336 U. S. 281",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3936304
+      ],
+      "weight": 2,
+      "year": 1949,
+      "pin_cites": [
+        {
+          "page": "285"
+        },
+        {
+          "page": "283, 285-286"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/336/0281-01"
+      ]
+    },
+    {
+      "cite": "284 U. S. 421",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5718752
+      ],
+      "year": 1932,
+      "pin_cites": [
+        {
+          "page": "437"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/284/0421-01"
+      ]
+    },
+    {
+      "cite": "507 U. S. 197",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6225788
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "204, n. 5"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/507/0197-01"
+      ]
+    },
+    {
+      "cite": "509 U. S. 155",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        355876
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "173-174"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/509/0155-01"
+      ]
+    },
+    {
+      "cite": "268 F. Supp. 385",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        1571850
+      ],
+      "weight": 2,
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "392",
+          "parenthetical": "citing Ferraioli v. Cantor, CCH Fed. Sec. L. Rep. \u00b6 91615 (SDNY 1965), and Kook v. Crang, 182 F. Supp. 388, 390 (SDNY I960)"
+        },
+        {
+          "page": "391-392, 393-394"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/268/0385-01"
+      ]
+    },
+    {
+      "cite": "Fed. Sec. L. Rep. \u00b6 91615",
+      "category": "reporters:specialty",
+      "reporter": "Fed. Sec. L. Rep. (CCH)",
+      "year": 1965,
+      "opinion_index": 0
+    },
+    {
+      "cite": "182 F. Supp. 388",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        1451718
+      ],
+      "pin_cites": [
+        {
+          "page": "390"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/182/0388-01"
+      ]
+    },
+    {
+      "cite": "468 F. 2d 1326",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        247454
+      ],
+      "weight": 3,
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "1334"
+        },
+        {
+          "page": "1334-1337"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/468/1326-01"
+      ]
+    },
+    {
+      "cite": "519 F. 2d 974",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        435738
+      ],
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "985"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/519/0974-01"
+      ]
+    },
+    {
+      "cite": "519 F. 2d 1001",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        435841
+      ],
+      "weight": 2,
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "1017-1018"
+        },
+        {
+          "page": "1017-1018"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/519/1001-01"
+      ]
+    },
+    {
+      "cite": "322 F. 3d 187",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9368555
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "192-193"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/322/0187-01"
+      ]
+    },
+    {
+      "cite": "54 F. 3d 118",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7408818
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "122"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/54/0118-01"
+      ]
+    },
+    {
+      "cite": "23 F. Supp. 2d 425",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        1622003
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "432",
+          "parenthetical": "quoting Europe & Overseas Commodity Traders, S. A. v. Banque Paribas London, 147 F. 3d 118, 129 (CA2 1998)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/23/0425-01"
+      ]
+    },
+    {
+      "cite": "147 F. 3d 118",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1358935
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "129"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/147/0118-01"
+      ]
+    },
+    {
+      "cite": "15 U. S. C. \u00a7 1127",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "406 F. Supp. 2d 346",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        904274
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "366-385"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/406/0346-01"
+      ]
+    },
+    {
+      "cite": "619 F. 2d 909",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1376594
+      ],
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "918",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/619/0909-01"
+      ]
+    },
+    {
+      "cite": "548 F. 2d 109",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        993302
+      ],
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "116"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/548/0109-01"
+      ]
+    },
+    {
+      "cite": "712 F. 2d 421",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1878086
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "424-425"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/712/0421-01"
+      ]
+    },
+    {
+      "cite": "149 F. 3d 659",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1362680
+      ],
+      "weight": 3,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "667"
+        },
+        {
+          "page": "665"
+        },
+        {
+          "page": "665-667",
+          "parenthetical": "describing the approaches of the various Circuits and adopting yet another variation"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/149/0659-01"
+      ]
+    },
+    {
+      "cite": "824 F. 2d 27",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        4331158,
+        1730470
+      ],
+      "weight": 3,
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "32",
+          "parenthetical": "Bork, J."
+        },
+        {
+          "page": "31-32"
+        },
+        {
+          "page": "32"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/262/0300-01",
+        "/f2d/824/0027-01"
+      ]
+    },
+    {
+      "cite": "117 F. 3d 900",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11971958
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "906-907",
+          "parenthetical": "expressing agreement with Zoelsch's criticism of the emphasis on policy considerations in some of the cases"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/117/0900-01"
+      ]
+    },
+    {
+      "cite": "2009 Wis. L. Rev. 465",
+      "category": "journals:journal",
+      "reporter": "Wis. L. Rev.",
+      "pin_cites": [
+        {
+          "page": "467-468"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Colum. J. Transnat'l L. 677",
+      "category": "journals:journal",
+      "reporter": "Colum. J. Transnat'l L.",
+      "year": 1990,
+      "pin_cites": [
+        {
+          "parenthetical": "arguing that Congress considered, but rejected, applying the Exchange Act to transactions abroad"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Law & Pol'y Int'l Bus. 477",
+      "category": "journals:journal",
+      "reporter": "Law & Pol'y Int'l Bus.",
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "492-493"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "521 U. S. 642",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        915949
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "651"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/521/0642-01"
+      ]
+    },
+    {
+      "cite": "550 U. S. 437",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3556164
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "455-456"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/550/0437-01"
+      ]
+    },
+    {
+      "cite": "535 U. S. 813",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        352191
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "820"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/535/0813-01"
+      ]
+    },
+    {
+      "cite": "404 U. S. 6",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6169542
+      ],
+      "weight": 2,
+      "year": 1971,
+      "pin_cites": [
+        {
+          "page": "12"
+        },
+        {
+          "page": "10"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/404/0006-01"
+      ]
+    },
+    {
+      "cite": "425 U. S. 185",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6175010
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "195"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/425/0185-01"
+      ]
+    },
+    {
+      "cite": "48 Stat. 881",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "48 Stat. 74",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "511 U. S. 164",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1146992
+      ],
+      "weight": 2,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "170-171"
+        },
+        {
+          "page": "173"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/511/0164-01"
+      ]
+    },
+    {
+      "cite": "17 CFR \u00a7 230.901",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Colum. J. Transnat'l L. 14",
+      "category": "journals:journal",
+      "reporter": "Colum. J. Transnat'l L.",
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "38-41"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "544 U. S. 349",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5907297
+      ],
+      "weight": 3,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "353, 371"
+        },
+        {
+          "page": "371"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/544/0349-01"
+      ]
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 1343",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "8 S. E. C. Docket 75",
+      "category": "reporters:specialty",
+      "reporter": "SEC Docket",
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "77, 78, n. 15"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "48 Stat. 899",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "421 U. S. 723",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        541651
+      ],
+      "weight": 3,
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "737"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/421/0723-01"
+      ]
+    },
+    {
+      "cite": "508 U. S. 286",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12007
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "294"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/508/0286-01"
+      ]
+    },
+    {
+      "cite": "105 Stat. 1077",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "370 U. S. 690",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6169981
+      ],
+      "year": 1962,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/370/0690-01"
+      ]
+    },
+    {
+      "cite": "274 U. S. 268",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        81146
+      ],
+      "weight": 2,
+      "year": 1927,
+      "pin_cites": [
+        {
+          "page": "274-276"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/274/0268-01"
+      ]
+    },
+    {
+      "cite": "243 U. S. 66",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3692433
+      ],
+      "weight": 2,
+      "year": 1917,
+      "pin_cites": [
+        {
+          "page": "88"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/243/0066-01"
+      ]
+    },
+    {
+      "cite": "228 U. S. 87",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        4841115,
+        3668038
+      ],
+      "weight": 2,
+      "year": 1913,
+      "pin_cites": [
+        {
+          "page": "105-106"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/alaska-fed/4/0087-01",
+        "/us/228/0087-01"
+      ]
+    },
+    {
+      "cite": "213 U. S. 347",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8289427
+      ],
+      "year": 1909,
+      "pin_cites": [
+        {
+          "page": "357"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/213/0347-01"
+      ]
+    },
+    {
+      "cite": "493 U. S. 400",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11331985
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "407-408"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/493/0400-01"
+      ]
+    },
+    {
+      "cite": "344 U. S. 280",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11299726
+      ],
+      "year": 1952,
+      "pin_cites": [
+        {
+          "page": "287-288"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/344/0280-01"
+      ]
+    },
+    {
+      "cite": "18 U. S. C. \u00a71341",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "parenthetical": "mail fraud"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "17 CFR \u00a7240",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "547 F. 3d 167",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6052075
+      ],
+      "weight": 6,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "170",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "171"
+        },
+        {
+          "page": "175"
+        },
+        {
+          "page": "171"
+        },
+        {
+          "page": "175"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/f3d/547/0167-01"
+      ]
+    },
+    {
+      "cite": "405 F. 2d 200",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1211872
+      ],
+      "weight": 2,
+      "year": 1968,
+      "pin_cites": [
+        {
+          "parenthetical": "en banc"
+        },
+        {
+          "parenthetical": "en bane"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/f2d/405/0200-01"
+      ]
+    },
+    {
+      "cite": "405 F. 2d 215",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1211912
+      ],
+      "weight": 2,
+      "year": 1968,
+      "pin_cites": [
+        {
+          "parenthetical": "en banc"
+        },
+        {
+          "parenthetical": "en bane"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/f2d/405/0215-01"
+      ]
+    },
+    {
+      "cite": "499 U. S. 244",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11318695
+      ],
+      "weight": 4,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "parenthetical": "Aramco"
+        },
+        {
+          "page": "258",
+          "parenthetical": "\"Congress' awareness of the need to make a clear statement that a statute applies overseas is amply demonstrated by the numerous occasions on which it has expressly legislated the extraterritorial application of a statute\""
+        },
+        {
+          "page": "261",
+          "parenthetical": "\"[Cjontrary to what one would conclude from the majority's analysis, this canon is not a 'clear statement' rule, the application of which relieves a court of the duty to give effect to all available indicia of the legislative will\""
+        },
+        {
+          "page": "248-255",
+          "parenthetical": "majority opinion"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/499/0244-01"
+      ]
+    },
+    {
+      "cite": "336 U. S. 281",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3936304
+      ],
+      "weight": 2,
+      "year": 1949,
+      "pin_cites": [
+        {
+          "page": "285"
+        },
+        {
+          "page": "285"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/336/0281-01"
+      ]
+    },
+    {
+      "cite": "507 U. S. 197",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6225788
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "201-204",
+          "parenthetical": "opinion for the Court by Rehnquist, C. J."
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/507/0197-01"
+      ]
+    },
+    {
+      "cite": "509 U. S. 155",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        355876
+      ],
+      "weight": 2,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "177",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "188"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/509/0155-01"
+      ]
+    },
+    {
+      "cite": "468 F. 2d 1326",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        247454
+      ],
+      "weight": 3,
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "1336",
+          "parenthetical": "Friendly, J."
+        },
+        {
+          "page": "1334-1339"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/f2d/468/1326-01"
+      ]
+    },
+    {
+      "cite": "519 F. 2d 974",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        435738
+      ],
+      "year": 1975,
+      "opinion_index": 2,
+      "case_paths": [
+        "/f2d/519/0974-01"
+      ]
+    },
+    {
+      "cite": "519 F. 2d 1001",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        435841
+      ],
+      "year": 1975,
+      "opinion_index": 2,
+      "case_paths": [
+        "/f2d/519/1001-01"
+      ]
+    },
+    {
+      "cite": "322 F. 3d 187",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9368555
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "193",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/f3d/322/0187-01"
+      ]
+    },
+    {
+      "cite": "54 F. 3d 118",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7408818
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "122"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/f3d/54/0118-01"
+      ]
+    },
+    {
+      "cite": "147 F. 3d 118",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1358935
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "125",
+          "parenthetical": "citing H. R. Rep. No. 1838, 73d Cong., 2d Sess., 32-33 (1934)"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/f3d/147/0118-01"
+      ]
+    },
+    {
+      "cite": "619 F. 2d 909",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1376594
+      ],
+      "year": 1980,
+      "opinion_index": 2,
+      "case_paths": [
+        "/f2d/619/0909-01"
+      ]
+    },
+    {
+      "cite": "550 U. S. 437",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3556164
+      ],
+      "weight": 2,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "455-456"
+        },
+        {
+          "page": "455"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/550/0437-01"
+      ]
+    },
+    {
+      "cite": "425 U. S. 185",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6175010
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "195",
+          "parenthetical": "\"The 1934 Act was intended principally to protect investors . . . \""
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/425/0185-01"
+      ]
+    },
+    {
+      "cite": "511 U. S. 164",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1146992
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "173"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/511/0164-01"
+      ]
+    },
+    {
+      "cite": "46 Colum. J. Transnat'l L. 14",
+      "category": "journals:journal",
+      "reporter": "Colum. J. Transnat'l L.",
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "19"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "421 U. S. 723",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        541651
+      ],
+      "weight": 4,
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "737"
+        },
+        {
+          "page": "762",
+          "parenthetical": "Blackmun, J., dissenting"
+        },
+        {
+          "page": "737"
+        },
+        {
+          "page": "733"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/421/0723-01"
+      ]
+    },
+    {
+      "cite": "508 U. S. 286",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12007
+      ],
+      "weight": 4,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "294",
+          "parenthetical": "inferring from recent legislation Congress' desire to \"acknowledge\" the Rule 10b-5 action without \"entangling\" itself in the precise formulation thereof"
+        },
+        {
+          "page": "293, 294"
+        },
+        {
+          "page": "292",
+          "parenthetical": "noting with approval that \"federal courts have accepted and exercised the principal responsibility for the continuing elaboration of the scope of the 10b-5 right and the definition of the duties it imposes\""
+        },
+        {
+          "page": "294"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/508/0286-01"
+      ]
+    },
+    {
+      "cite": "105 Stat. 1077",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "pin_cites": [
+        {
+          "parenthetical": "repudiating Aramco"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "370 U. S. 690",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6169981
+      ],
+      "year": 1962,
+      "pin_cites": [
+        {
+          "page": "705",
+          "parenthetical": "presumption against extraterritoriality not controlling \"[s]inee the activities of the defendants had an impact within the United States and upon its foreign trade\""
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/370/0690-01"
+      ]
+    },
+    {
+      "cite": "552 U. S. 148",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3675633
+      ],
+      "weight": 2,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "163"
+        },
+        {
+          "page": "175",
+          "parenthetical": "Stevens, J., dissenting"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/552/0148-01"
+      ]
+    },
+    {
+      "cite": "542 U. S. 155",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5857349
+      ],
+      "weight": 3,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "164"
+        },
+        {
+          "page": "164"
+        },
+        {
+          "page": "171"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/542/0155-01"
+      ]
+    },
+    {
+      "cite": "986 F. 2d 528",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        3812347,
+        662014
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "531"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us-app-dc/300/0065-01",
+        "/f2d/986/0528-01"
+      ]
+    },
+    {
+      "cite": "544 U. S. 385",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5914041
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "400",
+          "parenthetical": "Thomas, J., joined by Scalia and Kennedy, JJ., dissenting"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/544/0385-01"
+      ]
+    },
+    {
+      "cite": "485 U. S. 224",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        14213
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "230",
+          "parenthetical": "\"The 1934 Act was designed to protect investors against manipulation of stock prices\" (citing S. Rep. No. 792, 73d Cong., 2d Sess., 1-5 (1934))"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/485/0224-01"
+      ]
+    },
+    {
+      "cite": "99 Harv. L. Rev. 1722",
+      "category": "journals:journal",
+      "reporter": "Harv. L. Rev.",
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "1723"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "417 U. S. 506",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1519355
+      ],
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "529-530",
+          "parenthetical": "Douglas, J., joined by Brennan, White, and Marshall, JJ., dissenting"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/417/0506-01"
+      ]
+    },
+    {
+      "cite": "509 U. S. 764",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 1993,
+      "pin_cites": [
+        {
+          "parenthetical": "declining to apply presumption in assessing question of Sherman Act extraterritoriality"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "16 Berkeley J. Int'l L. 85",
+      "category": "journals:journal",
+      "reporter": "Berkeley J. Int'l L.",
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "110",
+          "parenthetical": "explaining that lower courts \"have been unanimous in concluding that the presumption against extraterritoriality is not a clear statement rule\""
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "547 P. 3d 167",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "171"
+        }
+      ],
+      "opinion_index": 2
+    }
+  ],
+  "analysis": {
+    "cardinality": 2652,
+    "char_count": 78109,
+    "ocr_confidence": 0.62,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.10506886694938586
+    },
+    "sha256": "7d0a5d30bc49e0e748def87588e1d2ab92330095181e3a41dd32bcc52d2b9280",
+    "simhash": "1:adbbf5054fcff38e",
+    "word_count": 12594
+  },
+  "last_updated": "2024-02-27T21:47:26.985116+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Scalia, J., delivered the opinion of the Court, in which Roberts, C. J., and Kennedy, Thomas, and Alito, JJ., joined. Breyer, J., filed an opinion concurring in part and concurring in the judgment, post, p. 273. Stevens, J., filed an opinion concurring in the judgment, in which Ginsberg, J., joined, post, p. 274. Sotomayor, J., took no part in the consideration . or decision of the case.",
+      "Justice Sotomayor took no part in the consideration or decision of this case.",
+      "Justice Ginsburg joins, concurring in the judgment."
+    ],
+    "parties": [
+      "MORRISON et al. v. NATIONAL AUSTRALIA BANK LTD. et al."
+    ],
+    "opinions": [
+      {
+        "text": "Justice Scalia\ndelivered the opinion of the Court.\nWe decide whether \u00a7 10(b) of the Securities Exchange Act of 1934 provides a cause of action to foreign plaintiffs suing foreign and American defendants for misconduct in connection with securities traded on foreign exchanges.\nI\nRespondent National Australia Bank Limited (National) was, during the relevant time, the largest bank in Australia. Its Ordinary Shares \u2014 what in America would be called \u201ccommon stock\u201d \u2014 are traded on the Australian Stock Exchange Limited and on other foreign securities exchanges, but not on any exchange in the United States. There are listed on the New York Stock Exchange, however, National\u2019s American Depositary Receipts (ADRs), which represent the right to receive a specified number of National\u2019s Ordinary Shares. 547 F. 3d 167, 168, and n. 1 (CA2 2008).\nThe complaint alleges the following facts, which we accept as true. In February 1998, National bought respondent HomeSide Lending, Inc., a mortgage-servicing company headquartered in Florida. HomeSide\u2019s business was to receive fees for servicing mortgages (essentially the administrative tasks associated with collecting mortgage payments, see J. Rosenberg, Dictionary of Banking and Financial Services 600 (2d ed. 1985)). The rights to receive those fees, so-called mortgage-servicing rights, can provide a valuable income stream. See 2 The New Palgrave Dictionary of Money and Finance 817 (P. Newman, M. Milgate, & J. Eatwell eds. 1992). How valuable each of the rights is depends, in part, on the likelihood that the mortgage to which it applies will be fully repaid before it is due, terminating the need for servicing. HomeSide calculated the present value of its mortgage-servicing rights by using valuation models designed to take this likelihood into account. It recorded the value of its assets, and the numbers appeared in National\u2019s financial statements.\nFrom 1998 until 2001, National\u2019s annual reports and other public documents touted the success of HomeSide\u2019s business, and respondents Frank Cicutto (National\u2019s managing director and chief executive officer), Kevin Race (HomeSide\u2019s chief operating officer), and Hugh Harris (HomeSide\u2019s chief executive officer) did the same in public statements. But on July 5, 2001, National announced that it was writing down the value of HomeSide\u2019s assets by $450 million; and then again on September 3, by another $1.75 billion. The prices of both Ordinary Shares and ADRs slumped. After downplaying the July writedown, National explained the September writedown as the result of a failure to anticipate the lowering of prevailing interest rates (lower interest rates lead to more refinancings, i. e., more early repayments of mortgages), other mistaken assumptions in the financial models, and the loss of goodwill. According to the complaint, however, HomeSide, Race, Harris, and another Home-Side senior executive who is also a respondent here had manipulated HomeSide\u2019s financial models to make the rates of early repayment unrealistically low in order to cause the mortgage-servicing rights to appear more valuable than they really were. The complaint also alleges that National and Cicutto were aware of this deception by July 2000, but did nothing about it.\nAs relevant here, petitioners Russell Leslie Owen and Brian and Geraldine Silverlock, all Australians, purchased National\u2019s Ordinary Shares in 2000 and 2001, before the writedowns. They sued National, HomeSide, Cicutto, and the three HomeSide executives in the United States District Court for the Southern District of New York for alleged violations of \u00a7\u00a7 10(b) and 20(a) of the Securities Exchange Act of 1934,48 Stat. 891,15 U. S. C. \u00a7\u00a7 78j(b) and 78t(a), and Securities and Exchange Commission (SEC) Rule 10b-5, 17 CFR \u00a7240.10b-5 (2009), promulgated pursuant to \u00a7 10(b). They sought to represent a class of foreign purchasers of National\u2019s Ordinary Shares during a specified period up to the September writedown. 547 F. 3d, at 169.\nRespondents moved to dismiss for lack of subject-matter jurisdiction under Federal Rule of Civil Procedure 12(b)(1) and for failure to state a claim under Rule 12(b)(6). The District Court granted the motion on the former ground, finding no jurisdiction because the acts in this country were, \u201cat most, a link in the chain of an alleged overall securities fraud scheme that culminated abroad.\u201d In re National Australia Bank Securities Litigation, No. 03 Civ. 6537 (BSJ), 2006 WL 3844465, *8 (SDNY, Oct. 25, 2006). The Court of Appeals for the Second Circuit affirmed on similar grounds. The acts performed in the United States did not \u201ccompris[e] the heart of the alleged fraud.\u201d 547 F. 3d, at 175-176. We granted certiorari, 558 U. S. 1047 (2009).\nII\nBefore addressing the question presented, we must correct a threshold error in the Second Circuit\u2019s analysis. It considered the extraterritorial reach of \u00a7 10(b) to raise a question of subject-matter jurisdiction, wherefore it affirmed the District Court\u2019s dismissal under Rule 12(b)(1). See 547 F. 3d, at 177. In this regard it was following Circuit precedent, see Schoenbaum v. Firstbrook, 405 F. 2d 200, 208, modified on other grounds en banc, 405 F. 2d 215 (1968). The Second Circuit is hardly alone in taking this position, see, e. g., In re CP Ships Ltd. Securities Litigation, 578 F. 3d 1306, 1313 (CA11 2009); Continental Grain (Australia) Pty. Ltd. v. Pacific Oilseeds, Inc., 592 F. 2d 409, 421 (CA8 1979).\nBut to ask what conduct \u00a7 10(b) reaches is to ask what conduct \u00a7 10(b) prohibits, which is a merits question. Subject-matter jurisdiction, by contrast, \u201crefers to a tribunal\u2019s \u2018 \u201cpower to hear a case.\u201d \u2019 \u201d Union Pacific R. Co. v. Locomotive Engineers, 558 U. S. 67, 81 (2009) (quoting Arbaugh v. Y & H Corp., 546 U. S. 500, 514 (2006), in turn quoting United States v. Cotton, 535 U. S. 625, 630 (2002)). It presents an issue quite separate from the question whether the allegations the plaintiff makes entitle him to relief. See Bell v. Hood, 327 U. S. 678, 682 (1946). The District Court here had jurisdiction under 15 U. S. C. \u00a7 78aa to adjudicate the question whether \u00a7 10(b) applies to National\u2019s conduct.\nIn view of this error, which the parties do not dispute, petitioners ask us to remand. We think that unnecessary. Since nothing in the analysis of the .courts below turned on the mistake, a remand would only require a new Rule 12(b)(6) label for the same Rule 12(b)(1) conclusion. As we have done before in situations like this, see, e. g., Romero v. International Terminal Operating Co., 358 U. S. 354, 359, 381-384 (1959), we proceed to address whether petitioners\u2019 allegations state a claim.\nIII\nA\nIt is a \u201clongstanding principle of American law 'that legislation of Congress, unless a contrary intent appears, is meant to apply only within the territorial jurisdiction of the United States.\u2019 \u201d EEOC v. Arabian American Oil Co., 499 U. S. 244, 248 (1991) (Aramco) (quoting Foley Bros., Inc. v. Filardo, 336 U. S. 281, 285 (1949)). This principle represents a canon of construction, or a presumption about a statute\u2019s meaning, rather than a limit upon Congress\u2019s power to legislate, see Blackmer v. United States, 284 U. S. 421, 437 (1932). It rests on the perception that Congress ordinarily legislates with respect to domestic, not foreign, matters. Smith v. United States, 507 U. S. 197, 204, n. 5 (1993). Thus, \u201cunless there is the affirmative intention of the Congress clearly expressed\u201d to give a statute extraterritorial effect, \u201cwe must presume it is primarily concerned with domestic conditions.\u201d Aramco, supra, at 248 (internal quotation marks omitted). The canon or presumption applies regardless of whether there is a risk of conflict between the American statute and a foreign law, see Sale v. Haitian Centers Council, Inc., 509 U. S. 155, 173-174 (1993). When a statute gives no clear indication of an extraterritorial application, it has none.\nDespite this principle of interpretation, long and often recited in our opinions, the Second Circuit believed that, because the Exchange Act is silent as to the extraterritorial application of \u00a7 10(b), it was left to the court to \u201cdiscern\u201d whether Congress would have wanted the statute to apply. See 547 F. 3d, at 170 (internal quotation marks omitted). This disregard of the presumption against extraterritoriality did not originate with the Court of Appeals panel in this case. It has been repeated over many decades by various Courts of Appeals in determining the application of the Exchange Act, and \u00a7 10(b) in particular, to fraudulent schemes that involve conduct and effects abroad. That has produced a collection of tests for divining what Congress would have wanted, complex in formulation and unpredictable in application.\nAs of 1967, District Courts at least in the Southern District of New York had consistently concluded that, by reason of the presumption against extraterritoriality, \u00a7 10(b) did not apply when the stock transactions underlying the violation occurred abroad. See Schoenbaum v. Firstbrook, 268 F. Supp. 385, 392 (1967) (citing Ferraioli v. Cantor, CCH Fed. Sec. L. Rep. \u00b6 91615 (SDNY 1965), and Kook v. Crang, 182 F. Supp. 388, 390 (SDNY I960)). Schoenbaum involved the sale in Canada of the treasury shares of a Canadian corporation whose publicly traded shares (but not, of course, its treasury shares) were listed on both the American Stock Exchange and the Toronto Stock Exchange. Invoking the presumption against extraterritoriality, the court held that \u00a7 10(b) was inapplicable (though it incorrectly viewed the defect as jurisdictional). 268 F. Supp., at 391-392, 393-394. The decision in Schoenbaum was reversed, however, by a Second Circuit opinion which held that \u201cneither the usual presumption against extraterritorial application of legislation nor the specific language of [\u00a7] 30(b) show Congressional intent to preclude application of the Exchange Act to transactions regarding stocks traded in the United States which are effected outside the United States . . . .\u201d Schoenbaum, 405 F. 2d, at 206. It sufficed to apply \u00a7 10(b) that, although the transactions in treasury shares took place in Canada, they affected the value of the common shares publicly traded in the United States. See id., at 208-209. Application of \u00a7 10(b), the Second Circuit found, was \u201cnecessary to protect American investors,\u201d id., at 206.\nThe Second Circuit took another step with Leasco Data Processing Equip. Corp. v. Maxwell, 468 F. 2d 1326 (1972), which involved an American company that had been fraudulently induced to buy securities in England. There, unlike in Schoenbaum, some of the deceptive conduct had occurred in the United States but the corporation whose securities were traded (abroad) was not listed on any domestic exchange. Leasco said that the presumption against extraterritoriality applies only to matters over which the United States would not have prescriptive jurisdiction, 468 F. 2d, at 1334. Congress had prescriptive jurisdiction to regulate the deceptive conduct in this country, the language of the Act could be read to cover that conduct, and the court concluded that \u201cif Congress had thought about the point,\u201d it would have wanted \u00a7 10(b) to apply. Id., at 1334-1337.\nWith Schoenbaum and Leasco on the books, the Second Circuit had excised the presumption against extraterritoriality from the jurisprudence of \u00a7 10(b) and replaced it with the inquiry whether it would be reasonable (and hence what Congress would have wanted) to apply the statute to a given situation. As long as there was prescriptive jurisdiction to regulate, the Second Circuit explained, whether to apply \u00a7 10(b) even to \u201cpredominantly foreign\u201d transactions became a matter of whether a court thought Congress \u201cwished the precious resources of United States courts and law enforcement agencies to be devoted to them rather than leave the problem to foreign countries.\u201d Bersch v. Drexel Firestone, Inc., 519 F. 2d 974, 985 (1975); see also IIT v. Vencap, Ltd., 519 F. 2d 1001, 1017-1018 (CA2 1975).\nThe Second Circuit had thus established that application of \u00a7 10(b) could be premised upon either some effect on American securities markets or investors (Schoenbaum) or significant conduct in the United States (Leasco). It later formalized these two applications into (1) an \u201ceffects test,\u201d \u201cwhether the wrongful conduct had a substantial effect in the United States or upon United States citizens,\u201d and (2) a \u201cconduct test,\u201d \u201cwhether the wrongful conduct occurred in the United States.\u201d SEC v. Berger, 322 F. 3d 187, 192-193 (CA2 2003). These became the north star of the Second Circuit's \u00a7 10(b) jurisprudence, pointing the way to what Congress would have wished. Indeed, the Second Circuit declined to keep its two tests distinct on the ground that \u201can admixture or combination of the two often gives a better picture of whether there is sufficient United States involvement to justify the exercise of jurisdiction by an American court.\u201d Itoba Ltd. v. Lep Group PLC, 54 F. 3d 118, 122 (1995). The Second Circuit never put forward a textual or even extratextual basis for these tests. As early as Bersch, it confessed that \u201cif we were asked to point to language in the statutes, or even in the legislative history, that compelled these conclusions, we would be unable to respond,\u201d 519 F. 2d, at 993.\nAs they developed, these tests were not easy to administer. The conduct test was held to apply differently depending on whether the harmed investors were Americans or foreigners: When the alleged damages consisted of losses to American investors abroad, it was enough that acts \u201cof material importance\u201d performed in the United States \u201csignificantly contributed\u201d to that result; whereas those acts must have \u201cdirectly caused\u201d the result when losses to foreigners abroad were at issue. See ibid. And \u201cmerely preparatory activities in the United States\u201d did not suffice \u201cto trigger application of the securities laws for injury to foreigners located abroad.\u201d Id., at 992. This required the court to distinguish between mere preparation and using the United States as a \u201cbase\u201d for fraudulent activities in other countries. Vencap, supra, at 1017-1018. But merely satisfying the conduct test was sometimes insufficient without \u201c\u2018some additional factor tipping the scales\u2019 \u201d in favor of the application of American law. Interbrew v. Edperbrascan Corp., 23 F. Supp. 2d 425, 432 (SDNY 1998) (quoting Europe & Overseas Commodity Traders, S. A. v. Banque Paribas London, 147 F. 3d 118, 129 (CA2 1998)). District Courts have noted the difficulty of applying such vague formulations. See, e. g., In re Alstom SA, 406 F. Supp. 2d 346, 366-385 (SDNY 2005). There is no more damning indictment of the \u201cconduct\u201d and \u201ceffects\u201d tests than the Second Circuit\u2019s own declaration that \u201cthe presence or absence of any single factor which was considered significant in other cases ... is not necessarily dispositive in future cases.\u201d IIT v. Cornfeld, 619 F. 2d 909, 918 (1980) (internal quotation marks omitted).\nOther Circuits embraced the Second Circuit\u2019s approach, though not its precise application. Like the Second Circuit, they described their decisions regarding the extraterritorial application of \u00a7 10(b) as essentially resolving matters of policy. See, e. g., SEC v. Kasser, 548 F. 2d 109,116 (CA3 1977); Continental Grain, 592 F. 2d, at 421-422; Grunenthal GmbH v. Hotz, 712 F. 2d 421, 424-425 (CA9 1983); Kauthar SDN BHD v. Sternberg, 149 F. 3d 659, 667 (CA7 1998). While applying the same fundamental methodology of balancing interests and arriving at what seemed the best policy, they produced a proliferation of vaguely related variations on the \u201cconduct\u201d and \u201ceffects\u201d tests. As described in a leading Seventh Circuit opinion: \u201cAlthough the circuits . . . seem to agree that there are some transnational situations to which the antifraud provisions of the securities laws are applicable, agreement appears to end at that point.\u201d Id., at 665. See also id., at 665-667 (describing the approaches of the various Circuits and adopting yet another variation).\nAt least one Court of Appeals has criticized this line of cases and the interpretive assumption that underlies it. In Zoelsch v. Arthur Andersen & Co., 824 F. 2d 27, 32 (1987) (Bork, J.), the District of Columbia Circuit observed that rather than courts\u2019 \u201cdivining what \u2018Congress would have wished\u2019 if it had addressed the problem[, a] more natural inquiry might be what jurisdiction Congress in fact thought about and conferred.\u201d Although tempted to apply the presumption against extraterritoriality and be done with it, see id., at 31-32, that court deferred to the Second Circuit because of its \u201cpreeminence in the field of securities law,\u201d id., at 32. See also Robinson v. TCI/US West Communications Inc., 117 F. 3d 900, 906-907 (CA5 1997) (expressing agreement with Zoelsch\u2019s criticism of the emphasis on policy considerations in some of the cases).\nCommentators have criticized the unpredictable and inconsistent application of \u00a7 10(b) to transnational cases. See, e. g., Choi & Silberman, Transnational Litigation and Global Securities Class-Action Lawsuits, 2009 Wis. L. Rev. 465,467-468; Chang, Multinational Enforcement of U. S. Securities Laws: The Need for the Clear and Restrained Scope of Extraterritorial Subject-Matter Jurisdiction, 9 Ford. J. Corp. & Fin. L. 89,106-108,115-116 (2004); Langevoort, Schoenbaum Revisited: Limiting the Scope of Antifraud Protection in an Internationalized Securities Marketplace, 55 Law & Con-temp. Prob. 241, 244-248 (1992). Some have challenged the premise underlying the Courts of Appeals\u2019 approach, namely, that Congress did not consider the extraterritorial application of \u00a7 10(b) (thereby leaving it open to the courts, supposedly, to determine what Congress would have wanted). See, e. g., Sachs, The International Reach of Rule 10b-5: The Myth of Congressional Silence, 28 Colum. J. Transnat\u2019l L. 677 (1990) (arguing that Congress considered, but rejected, applying the Exchange Act to transactions abroad). Others, more fundamentally, have noted that using congressional silence as a justification for judge-made rules violates the traditional principle that silence means no extraterritorial application. See, e. g., Note, Let There Be Fraud (Abroad): A Proposal for a New U. S. Jurisprudence with Regard to the Extraterritorial Application of the Anti-Fraud Provisions of the 1933 and 1934 Securities Acts, 28 Law & Pol\u2019y Int\u2019l Bus. 477, 492-493 (1997).\nThe criticisms seem to us justified. The results of judicial-speculation-made-law \u2014 divining what Congress would have wanted if it had thought of the situation before the court \u2014 demonstrate the wisdom of the presumption against extraterritoriality. Rather than guess anew in each case, we apply the presumption in all cases, preserving a stable background against which Congress can legislate with predictable effects.\nB\nRule 10b-5, the regulation under which petitioners have brought suit, was promulgated under \u00a7 10(b), and \u201cdoes not extend beyond conduct encompassed by \u00a710(b)\u2019s prohibition.\u201d United States v. O\u2019Hagan, 521 U. S. 642, 651 (1997). Therefore, if \u00a7 10(b) is not extraterritorial, neither is Rule 10b-5.\nOn its face, \u00a7 10(b) contains nothing to suggest it applies abroad:\n\u201cIt shall be unlawful for any person, directly or indirectly, by the use of any means or instrumentality of interstate commerce or of the mails, or of any facility of any national securities exchange\u2014\n\u201c[t]o use or employ, in connection with the purchase or sale of any security registered on a national securities exchange or any security not so registered,. . . any manipulative or deceptive device or contrivance in contravention of such rules and regulations as the [Securities and Exchange] Commission may prescribe . . . .\u201d 15 U. S. C. 78j(b).\nPetitioners and the Solicitor General contend, however, that three things indicate that \u00a7 10(b) or the Exchange Act in general has at least some extraterritorial application.\nFirst, they point to the definition of \u201cinterstate commerce,\u201d a term used in \u00a7 10(b), which includes \u201ctrade, commerce, transportation, or communication . . . between any foreign country and any State.\u201d 15 U. S. C. \u00a778c(a)(17). But \u201cwe have repeatedly held that even statutes that contain broad language in their definitions of bommeree\u2019 that expressly refer to \u2018foreign commerce\u2019 do not apply abroad.\u201d Aramco, 499 U. S., at 251; see id., at 251-252 (discussing cases). The general reference to foreign commerce in the definition of \u201cinterstate commerce\u201d does not defeat the presumption against extraterritoriality.\nPetitioners and the Solicitor General next point out that Congress, in describing the purposes of the Exchange Act, observed that the \u201cprices established and offered in such transactions are generally disseminated and quoted throughout the United States and foreign countries.\u201d 15 U. S. C. \u00a7 78b(2). The antecedent of \u201csuch transactions,\u201d however, is found in the first sentence of the section, which declares that \u201ctransactions in securities as commonly conducted upon securities exchanges and over-the-counter markets are affected with a national public interest.\u201d \u00a778b. Nothing suggests that this national public interest pertains to transactions conducted upon foreign exchanges and markets. The fleeting reference to the dissemination and quotation abroad of the prices of securities traded in domestic exchanges and markets cannot overcome the presumption against extraterritoriality.\nFinally, there is \u00a7 30(b) of the Exchange Act, 15 U. S. C. \u00a778dd(b), which does mention the Act\u2019s extraterritorial application: \u201cThe provisions of [the Exchange Act] or of any rule or regulation thereunder shall not apply to any person insofar as he transacts a business in securities without the jurisdiction of the United States,\u201d unless he does so in violation of regulations promulgated by the Securities and Exchange Commission \u201cto prevent . . . evasion of [the Act].\u201d (The parties have pointed us to no regulation promulgated pursuant to \u00a7 30(b).) The Solicitor General argues that \u201c[this] exemption would have no function if the Act did not apply in the first instance to securities transactions that occur abroad.\u201d Brief for United States as Amicus Curiae 14.\nWe are not convinced. In the first place, it would be odd for Congress to indicate the extraterritorial application of the whole Exchange Act by means of a provision imposing a condition precedent to its application abroad. And if the whole Act applied abroad, why would the Commission\u2019s enabling regulations be limited to those preventing \u201cevasion\u201d of the Act, rather than all those preventing \u201cviolation\u201d? The provision seems to us directed at actions abroad that might conceal a domestic violation, or might cause what would otherwise be a domestic violation to escape on a technicality. At most, the Solicitor General\u2019s proposed inference is possible; but possible interpretations of statutory language do not override the presumption against extraterritoriality. See Aramco, supra, at 253.\nThe Solicitor General also fails to account for \u00a7 30(a), which reads in relevant part as follows:\n\u201cIt shall be unlawful for any broker or dealer ... to make use of the mails or of any means or instrumentality of interstate commerce for the purpose of effecting on an exchange not within or subject to the jurisdiction of the United States, any transaction in any security the issuer of which is a resident of, or is organized under the laws of, or has its principal place of business in, a place within or subject to the jurisdiction of the United States, in contravention of such rules and regulations as the Commission may prescribe . . . .\u201d 15 U. S. C. \u00a7 78dd(a).\nSubsection 30(a) contains what \u00a7 10(b) lacks: a clear statement of extraterritorial effect. Its explicit provision for a specific extraterritorial application would be quite superfluous if the rest of the Exchange Act already applied to transactions on foreign exchanges \u2014 and its limitation of that application to securities of domestic issuers would be inoperative. Even if that were not true, when a statute provides for some extraterritorial application, the presumption against extraterritoriality operates to limit that provision to its terms. See Microsoft Corp. v. AT&T Corp., 550 U. S. 437, 455-456 (2007). No one claims that \u00a7 30(a) applies here.\nThe concurrence claims we have impermissibly narrowed the inquiry in evaluating whether a statute applies abroad, citing for that point the dissent in Aramco, see post, at 278-279. But we do not say, as the concurrence seems to think, that the presumption against extraterritoriality is a \u201cclear statement rule,\u201d post, at 278, if by that is meant a requirement that a statute say \u201cthis law applies abroad.\u201d Assuredly context can be consulted as well. But whatever sources of statutory meaning one consults to give \u201cthe most faithful reading\u201d of the text, post, at 280, there is no clear indication of extraterritoriality here. The concurrence does not even try to refute that conclusion, but merely puts forward the same (at best) uncertain indications relied upon by petitioners and the Solicitor General. As the opinion for the Court in Aramco (which we prefer to the dissent) shows, those uncertain indications do not suffice.\nIn short, there is no affirmative indication in the Exchange Act that \u00a7 10(b) applies extraterritorially, and we therefore conclude that it does not.\nIV\nA\nPetitioners argue that the conclusion that \u00a7 10(b) does not apply extraterritorially does not resolve this case. They contend that they seek no more than domestic application anyway, since Florida is where HomeSide and its senior executives engaged in the deceptive conduct of manipulating HomeSide\u2019s financial models; their complaint also alleged that Race and Hughes made misleading public statements there. This is less an answer to the presumption against extraterritorial application than it is an assertion \u2014 a quite valid assertion \u2014 that that presumption here (as often) is not self-evidently dispositive, but its application requires further analysis. For it is a rare case of prohibited extraterritorial application that lacks all contact with the territory of the United States. But the presumption against extraterritorial application would be a craven watchdog indeed if it retreated to its kennel whenever some domestic activity is involved in the case. The concurrence seems to imagine just such a timid sentinel, see post, at 280-281, but our cases are to the contrary. In Aramco, for example, the Title VII plaintiff had been hired in Houston, and was an American citizen. See 499 U. S., at 247. The Court concluded, however, that neither that territorial event nor that relationship was the \u201cfocus\u201d of congressional concern, id., at 255, but rather domestic employment. See also Foley Bros., 336 U. S., at 283, 285-286.\nApplying the same mode of analysis here, we think that the focus of the Exchange Act is not upon the place where the deception originated, but upon purchases and sales of securities in the United States. Section 10(b) does not punish deceptive conduct, but only deceptive conduct \u201cin connection with the purchase or sale of any security registered on a national securities exchange or any security not so registered.\u201d 15 U. S. C. \u00a7 78j(b). See SEC v. Zandford, 535 U. S. 813, 820 (2002). Those purehase-and-sale transactions are the objects of the statute\u2019s solicitude. It is those transactions that the statute seeks to \u201cregulate,\u201d see Superintendent of Ins. of N. Y. v. Bankers Life & Casualty Co., 404 U. S. 6,12 (1971); it is parties or prospective parties to those transactions that the statute seeks to \u201cprotee[t],\u201d id., at 10. See also Ernst & Ernst v. Hochfelder, 425 U. S. 185, 195 (1976). And it is in our view only transactions in securities listed on domestic exchanges, and domestic transactions in other securities, to which \u00a7 10(b) applies.\nThe primacy of the domestic exchange is suggested by the very prologue of the Exchange Act, which sets forth as its object \u201c[t]o provide for the regulation of securities exchanges . . . operating in interstate and foreign commerce and-through the mails, to prevent inequitable and unfair practices on such exchanges . . . .\u201d 48 Stat. 881. We know of no one who thought that the Act was intended to \u201cregulat[e]\u201d foreign securities exchanges \u2014 or indeed who even believed that under established principles of international law Congress had the power to do so. The Act\u2019s registration requirements apply only to securities listed on national securities exchanges. 15 U. S. C. \u00a7 78\u00a3(a).\nWith regard to securities not registered on domestic exchanges, the exclusive focus on domestic purchases and sales is strongly confirmed by \u00a7 30(a) and (b), discussed earlier. The former extends the normal scope of the Exchange Act\u2019s prohibitions to acts effecting, in violation of rules prescribed by the Commission, a \u201ctransaction\u201d in a United States security \u201con an exchange not within or subject to the jurisdiction of the United States.\u201d \u00a778dd(a). And the latter specifies that the Act does not apply to \u201cany person insofar as he transacts a business in securities without the jurisdiction of the United States,\u201d unless he does so in violation of regulations promulgated by the Commission \u201cto prevent the evasion [of the Act].\u201d \u00a7 78dd(b). Under both provisions it is the foreign location of the transaction that establishes (or reflects the presumption of) the Act\u2019s inapplicability, absent regulations by the Commission.\nThe same focus on domestic transactions is evident in the Securities Act of 1933, 48 Stat. 74, enacted by the same Congress as the Exchange Act, and forming part of the same comprehensive regulation of securities trading. See Central Bank of Denver, N. A. v. First Interstate Bank of Denver, N. A., 511 U. S. 164, 170-171 (1994). That legislation makes it unlawful to sell a security, through a prospectus or otherwise, making use of \u201cany means or instruments of transportation or communication in interstate commerce or of the mails,\u201d unless a registration statement is in effect. 15 U. S. C. \u00a7 77e(a)(l). The Commission has interpreted that requirement \u201cnot to include . . . sales that occur outside the United States.\u201d 17 CFR \u00a7 230.901 (2009).\nFinally, we reject the notion that the Exchange Act reaches conduct in this country affecting exchanges or transactions abroad for the same reason that Aramco rejected overseas application of Title YII to all domestically concluded employment contracts or all employment contracts with American employers: The probability of incompatibility with the applicable laws of other countries is so obvious that if Congress intended such foreign application \u201cit would have addressed the subject of conflicts with foreign laws and procedures.\u201d 499 U. S., at 256. Like the United States, foreign countries regulate their domestic securities exchanges and securities transactions occurring within their territorial jurisdiction. And the regulation of other countries often differs from ours as to what constitutes fraud, what disclosures must be made, what damages are recoverable, what discovery is available in litigation, what individual actions may be joined in a single suit, what attorney\u2019s fees are recoverable, and many other matters. See, e. g., Brief for United Kingdom of Great Britain and Northern Ireland as Amicus Curiae 16-21. The Commonwealth of Australia, the United Kingdom of Great Britain and Northern Ireland, and the Republic of France have filed amicus briefs in this case. So have (separately or jointly) such international and foreign organizations as the International Chamber of Commerce, the Swiss Bankers Association, the Federation of German Industries, the French Business Confederation, the Institute of International Bankers, the European Banking Federation, the Australian Bankers\u2019 Association, and the Association Frangaise des Entreprises Priv\u00e9es. They all complain of the interference with foreign securities regulation that application of \u00a7 10(b) abroad would produce, and urge the adoption of a clear test that will avoid that consequence. The transactional test we have adopted \u2014 whether the purchase or sale is made in the United States, or involves a security listed on a domestic exchange \u2014 meets that requirement.\nB\nThe Solicitor General suggests a different test, which petitioners also endorse: \u201c[A] transnational securities fraud violates [\u00a7] 10(b) when the fraud involves significant conduct in the United States that is material to the fraud\u2019s success.\u201d Brief for United States as Amicus Curiae 16; see Brief for Petitioners 26. Neither the Solicitor General nor petitioners provide any textual support for this test. The Solicitor General sets forth a number of purposes such a test would serve: achieving a high standard of business ethics in the securities industry, ensuring honest securities markets and thereby promoting investor confidence, and preventing the United States from becoming a \u201cBarbary Coast\u201d for malefactors perpetrating frauds in foreign markets. Brief for United States as Amicus Curiae 16-17. But it provides no textual support for the last of these purposes, or for the first two as applied to the foreign securities industry and securities markets abroad. It is our function to give the statute the effect its language suggests, however modest that may be; not to extend it to admirable purposes it might be used to achieve.\nIf, moreover, one is to be attracted by the desirable consequences of the \u201csignificant and material conduct\u201d test, one should also be repulsed by its adverse consequences. While there is no reason to believe that the United States has become the Barbary Coast for those perpetrating frauds on foreign securities markets, some fear that it has become the Shangri-La of class-action litigation for lawyers representing those allegedly cheated in foreign securities markets. See Brief for Infineon Technologies AG as Amicus Curiae 1-2, 22-25; Brief for European Aeronautic Defence & Space Co. N. V. et al. as Amici Curiae 2-4; Brief for Securities Industry and Financial Markets Association et al. as Amici Curiae 10-16; Coffee, Securities Policeman to the World? The Cost of Global Class Actions, N. Y. L. J. 5 (2008); S. Grant & D. Zilka, The Current Role of Foreign Investors in Federal Securities Class Actions, PLI Corporate Law and Practice Handbook Series, PLI Order No. 11072, pp. 15-16 (Sept.-Oct. 2007); Buxbaum, Multinational Class Actions Under Federal Securities Law: Managing Jurisdictional Conflict, 46 Colum. J. Transnat\u2019l L. 14, 38-41 (2007).\nAs case support for the \u201csignificant and material conduct\u201d test, the Solicitor General relies primarily on Pasquantino v. United States, 544 U. S. 349 (2005). In that case we concluded that the wire-fraud statute, 18 U. S. C. \u00a7 1343 (2000 ed., Supp. II), was violated by defendants who ordered liquor over the phone from a store in Maryland with the intent to -smuggle it into Canada and deprive the Canadian Government of revenue. 544 U. S., at 353, 371. Section 1343 prohibits \u201cany scheme or artifice to defraud,\u201d \u2014 fraud simplic iter, without any requirement that it be \u201cin connection with\u201d any particular transaction or event. The Pasquantino Court said that the petitioners\u2019 \u201coffense was complete the moment they executed the scheme inside the United States,\u201d and that it was \u201c[t]his domestic element of petitioners\u2019 conduct [that] the Government is punishing.\u201d Id., at 371. Section 10(b), by contrast, punishes not all acts of deception, but only such acts \u201cin connection with the purchase or sale of any security registered on a national securities exchange or any security not so registered.\u201d Not deception alone, but deception with respect to certain purchases or sales is necessary for a violation of the statute.\nThe Solicitor General points out that the \u201csignificant and material conduct\u201d test is in accord with prevailing notions of international comity. If so, that proves that if the United States asserted prescriptive jurisdiction pursuant to the \u201csignificant and material conduct\u201d test it would not violate customary international law; but it in no way tends to prove that that is what Congress has done.\nFinally, the Solicitor General argues that the Commission has adopted an interpretation similar to the \u201csignificant and material conduct\u201d test, and that we should defer to that. In the two adjudications the Solicitor General cites, however, the Commission did not purport to be providing its own interpretation of the statute, but relied on decisions of federal courts \u2014 mainly Court of Appeals decisions that in turn relied on the Schoenbaum and Leasco decisions of the Second Circuit that we discussed earlier. See In re U S. Securities Clearing Corp., 52 S. E. C. 92, 95, n. 14, 96, n. 16 (1994); In re Robert F. Lynch, Exchange Act Release No. 11737, 8 S. E. C. Docket 75, 77, 78, n. 15 (1975). We need \u201caccept only those agency interpretations that are reasonable in light of the principles of construction courts normally employ.\u201d Aramco, 499 U. S., at 260 (Scalia, J., concurring in part and concurring in judgment). Since the Commission\u2019s interpretations relied on cases we disapprove, which ignored or discarded the presumption against extraterritoriality, we owe them no deference.\n* * *\nSection 10(b) reaches the use of a manipulative or deceptive device or contrivance only in connection with the purchase or sale of a security listed on an American stock exchange, and the purchase or sale of any other security in the United States. This case involves no securities listed on a domestic exchange, and all aspects of the purchases complained of by those petitioners who still have live claims occurred outside the United States. Petitioners have therefore failed to state a claim on which relief can be granted. We affirm the dismissal of petitioners\u2019 complaint on this ground.\nIt is so ordered.\nJustice Sotomayor took no part in the consideration or decision of this case.\nRobert Morrison, an American investor in National\u2019s ADRs, also brought suit, but his claims were dismissed by the District Court because he failed to allege damages. In re National Australia Bank Securities Litigation, No. 03 Civ. 6537 (BSJ), 2006 WL 3844465, *9 (SDNY, Oct. 25, 2006). Petitioners did not appeal that decision, 547 F. 3d 167, 170, n. 3 (CA2 2008) (ease below), and it is not before us. Inexplicably, Morrison continued to be listed as a petitioner in the Court of Appeals and here.\nThe relevant text of \u00a7 10(b) and SEC Rule 10b-5 are set forth later in this opinion. Section 20(a), 48 Stat. 899, provides:\n\u201cEvery person who, directly or indirectly, controls any person liable under any provision of [the Exchange Act] or of any rule or regulation thereunder shall also be hable jointly and severally with and to the same extent as such controlled person to any person to whom such controlled person is liable, unless the controlling person acted in good faith and did not directly or indirectly induce the act or acts constituting the violation or cause of action.\u201d\nLiability under \u00a7 20(a) is obviously derivative of liability under some other provision of the Exchange Act; \u00a7 10(b) is the only basis petitioners asserted.\nSection 78aa provides:\n\u201cThe district courts of the United States ... shall have exclusive jurisdiction of violations of [the Exchange Act] or the rules and regulations thereunder, and of all suits in equity and actions at law brought to enforce any liability or duty created by [the Exchange Act] or the rules and regulations thereunder.\u201d\nThe principal concurrence (see post, p. 274 (Stevens, J., concurring in judgment) (hereinafter concurrence)) disputes this characterization, launching into a Homeric simile which takes as its point of departure (and mistakes for praise rather than condemnation) then-Justice Rehnquist\u2019s statement in Blue Chip Stamps v. Manor Drug Stores, 421 U. S. 723, 737 (1975), that \u201c \u2018[w]hen we deal with private actions under Rule 10b-5, ... we deal with a judicial oak which has grown from little more than a legislative acorn.\u2019 \u201d Post, at 276. The concurrence seemingly believes that the Courts of Appeals have carefully trimmed and sculpted this \u201cjudicial oak\u201d into a cohesive canopy, under the watchful eye of Judge Henry Friendly, the \u201cmaster arborist,\u201d ibid. See post, at 274-276. Even if one thinks that the \u201cconduct\u201d and \u201ceffects\u201d tests are numbered among Judge Friendly\u2019s many fine contributions to the law, his successors, though perhaps under the impression that they nurture the same mighty oak, are in reality tending each its own botanically distinct tree. It is telling that the concurrence never attempts its own synthesis of the various balancing tests the Circuits have adopted.\nThe concurrence urges us to cast aside our inhibitions and join in the judicial lawmaking, because \u201c[t]his entire area of law is replete with judge-made rules,\u201d post, at 276. It is doubtless true that, because the implied private cause of action under \u00a7 10(b) and Rule 10b-5 is a thing of our own creation, we have also defined its contours. See, e. g., Blue Chip Stamps, supra. But when it comes to \u201cthe scope of [the] conduct prohibited by [Rule 10b-5 and] \u00a7 10(b), the text of the statute controls our decision.\u201d Central Bank of Denver, N. A. v. First Interstate Bank of Denver, N. A, 511 U. S. 164, 173 (1994). It is only with respect to the additional \u201celements of the 10b-5 private liability scheme\u201d that we \u201chave had \u2018to infer how the 1934 Congress would have addressed the issue[s] had the 10b-5 action been included as an express provision in the 1934 Act.\u2019\u201d Ibid, (quoting Musick, Peeler & Garrett v. Employers Ins. of Wausau, 508 U. S. 286, 294 (1993)).\nRule 10b-5 makes it unlawful:\n\u201cfor any person, directly or indirectly, by the use of any means or instrumentality of interstate commerce, or of the mails or of any facility of any national securities exchange,\n\u201c(a) To employ any device, scheme, or artifice to defraud,\n\u201c(b) To make any untrue statement of a material fact or to omit to state a material fact necessary in order to make the statements made, in the light of the circumstances under which they were made, not misleading, or\n\u201c(c) To engage in any act, practice, or course of business which operates or would operate as a fraud or deceit upon any person, in connection with the purchase or sale of any security.\u201d 17 CFR \u00a7 240.10b-5 (2009).\nThe Second Circuit considered petitioners\u2019 appeal to raise only a claim under Rule 10b-5(b), since it found their claims under subsections (a) and (c) to be forfeited. 547 F. 3d, at 176, n. 7. We do likewise.\nThis conclusion does not render meaningless the inclusion of \u201ctrade, commerce, transportation, or communication . . . between any foreign country and any State\u201d in the definition of \u201cinterstate commerce.\u201d 15 U. S. C. \u00a7 78c(a)(17). For example, an issuer based abroad, whose executives approve the publication in the United States of misleading information affecting the price of the issuer\u2019s securities traded on the New York Stock Exchange, probably will make use of some instrumentality of \u201ccommunication . .. between [a] foreign country and [a] State.\u201d\nThe concurrence notes that, post-Aramco, Congress provided explicitly for extraterritorial application of Title VII, the statute at issue in Aramco. Post, at 279, n. 6. All this shows is that Congress knows how to give a statute explicit extraterritorial effect \u2014 and how to limit that effect to particular applications, which is what the cited amendment did. See Civil Rights Act of 1991, \u00a7 109, 105 Stat. 1077.\nThe concurrence seems to think this test has little to do with our conclusion in Part III, supra, that \u00a7 10(b) does not apply extraterritorially. See post, at 284-285. That is not so. If \u00a7 10(b) did apply abroad, we would not need to determine which transnational frauds it applied to; it would apply to all of them (barring some other limitation). Thus, although it is true, as we have said, that our threshold conclusion that \u00a7 10(b) has no extraterritorial effect does not resolve this ease, it is a necessary first step in the analysis.\nThe concurrence also makes the curious criticism that our evaluation of where a putative violation occurs is based on the text of \u00a7 10(b) rather than the doctrine in the Courts of Appeals. Post, at 274-275. Although it concedes that our test is textually plausible, post, at 274, it does not (and cannot) make the same claim for the Court-of-Appeals doctrine it endorses. That is enough to make our test the better one.\nThat is in our view the meaning which the presumption against extraterritorial application requires for the words \u201cpurchase or sale of... any security not so registered\u201d in \u00a7 10(b)\u2019s phrase \u201cin connection with the purchase or sale of any security registered on a national securities exchange or any security not so registered.\u201d (Emphasis added.) Even without the presumption against extraterritorial application, the only alternative to that reading makes nonsense of the phrase, causing it to eover all purchases and sales of registered securities, and all purchases and sales of nonregistered securities \u2014 a thought which, if intended, would surely have been expressed by the simpler phrase \u201call purchases and sales of securities.\u201d\nDiscussed in Brief for United States as Amicus Curiae 22-23. The Solicitor General also cites, without description, a number of antitrust cases to support the proposition that domestic conduct with consequences abroad can be covered even by a statute that does not apply extraterritorially: Continental Ore Co. v. Union Carbide & Carbon Corp., 370 U. S. 690 (1962); United States v. Sisal Sales Corp., 274 U. S. 268 (1927); Thomsen v. Cay ser, 243 U. S. 66 (1917); United States v. Pacific & Arctic R. & Nav. Co., 228 U. S. 87 (1913). These are no longer of relevance to the point (if they ever were), since Continental Ore overruled the holding of American Banana Co. v. United Fruit Co., 213 U. S. 347, 357 (1909), that the antitrust laws do not apply extraterritorially. See W. S. Kirkpatrick & Co. v. Environmental Tectonics Corp., Int'l, 493 U. S. 400, 407-408 (1990). Moreover, the pre-Continental Ore cases all involved conspiracies to restrain trade in the United States, see Sisal Sales, supra, at 274-276; Thomsen, supra, at 88; Pacific & Arctic, supra, at 105-106. And although a final case cited by the Solicitor General, Steele v. Bulova Watch Co., 344 U. S. 280, 287-288 (1952), might be read to permit application of a nonextraterritorial statute whenever conduct in the United States contributes to a violation abroad, we have since read it as interpreting the statute at issue \u2014 the Lanham Act \u2014 to have extraterritorial effect, Aramco, 499 U. S. 244, 252 (1991) (quoting 15 U. S. C. \u00a7 1127).",
+        "type": "majority",
+        "author": "Justice Scalia"
+      },
+      {
+        "text": "Justice Breyer,\nconcurring in part and concurring in the judgment.\nSection 10(b) of the Securities Exchange Act of 1934 applies to fraud \u201cin connection with\u201d two categories of transactions: (1) \u201cthe purchase or sale of any security registered on a national securities exchange\u201d or (2) \u201cthe purchase or sale of . . . any security not so registered.\u201d 15 U. S. C. \u00a778j(b). In this case, the purchased securities are listed only on a few foreign exchanges, none of which has registered with the Securities and Exchange Commission as a \u201cnational securities exchange.\u201d See \u00a7 78f. The first category therefore does not apply. Further, the relevant purchases of these unregistered securities took place entirely in Australia and involved only Australian investors. And in accordance with the presumption against extraterritoriality, I do not read the second category to include such transactions. Thus, while state law or other federal fraud statutes, see, e. g., 18 U. S. C. \u00a71341 (mail fraud), \u00a71343 (wire fraud), may apply to the fraudulent activity alleged here to have occurred in the United States, I believe that \u00a7 10(b) does not. This case does not require us to consider other circumstances.\nTo the extent the Court\u2019s opinion is consistent with these views, I join it.",
+        "type": "concurrence",
+        "author": "Justice Breyer,"
+      },
+      {
+        "text": "Justice Stevens,\nwith whom\nJustice Ginsburg joins, concurring in the judgment.\nWhile I agree that petitioners have failed to state a claim on which relief can be granted, my reasoning differs from the Court\u2019s. I would adhere to the general approach that has been the law in the Second Circuit, and most of the rest of the country, for nearly four decades.\nI\nToday the Court announces a new \u201ctransactional test,\u201d ante, at 269, for defining the reach of \u00a7 10(b) of the Securities Exchange Act of 1934 (Exchange Act), 15 U. S. C. \u00a778j(b), and SEC Rule 10b-5, 17 CFR \u00a7 240.10b-5(b) (2009): Henceforth, those provisions will extend only to \u201ctransactions in securities listed on domestic exchange^] and domestic transactions in other securities,\u201d ante, at 267. If one confines one\u2019s gaze to the statutory text, the Court\u2019s conclusion is a plausible one. But the federal courts have been construing \u00a7 10(b) in a different manner for a long time, and the Court\u2019s textual analysis is not nearly so compelling, in my view, as to warrant the abandonment of their doctrine.\nThe text and history of \u00a7 10(b) are famously opaque on the question of when, exactly, transnational securities frauds fall within the statute\u2019s compass. As those types of frauds became more common in the latter half of the 20th century, the federal courts were increasingly called upon to wrestle with that question. The Court of Appeals for the Second Circuit, located in the Nation\u2019s financial center, led the effort. Beginning in earnest with Schoenbaum v. Firstbrook, 405 F. 2d 200, rev\u2019d on rehearing on other grounds, 405 F. 2d 215 (1968) (en banc), that court strove, over an extended series of cases, to \u201cdiscern\u201d under what circumstances \u201cCongress would have wished the precious resources of the United States courts and law enforcement agencies to be devoted to [transnational] transactions,\u201d 547 F. 3d 167, 170 (2008) (internal quotation marks omitted). Relying on opinions by Judge Henry Friendly, the Second Circuit eventually settled on a conduct-and-effects test. This test asks \u201c(1) whether the wrongful conduct occurred in the United States, and (2) whether the wrongful conduct had a substantial effect in the United States or upon United States citizens.\u201d Id., at 171. Numerous cases flesh out the proper application of each prong.\nThe Second Circuit\u2019s test became the \u201cnorth star\u201d of \u00a7 10(b) jurisprudence, ante, at 257, not just regionally but nationally as well. With minor variations, other courts converged on the same basic approach. See Brief for United States as Amicus Curiae 15 (\u201cThe courts have uniformly agreed that Section 10(b) can apply to a transnational securities fraud either when fraudulent conduct has effects in the United States or when sufficient conduct relevant to the fraud occurs in the United States\u201d); see also 1 Restatement (Third) of Foreign Relations Law of the United States \u00a7 416 (1986) (setting forth conduct-and-effects test). Neither Congress nor the Securities and Exchange Commission acted to change the law. To the contrary, the Commission largely adopted the Second Circuit\u2019s position in its own adjudications. See ante, at 272.\nIn light of this history, the Court\u2019s critique of the decision below for applying \u201cjudge-made rules\u201d is quite misplaced. Ante, at 261. This entire area of law is replete with judge-made rules, which give concrete meaning to Congress\u2019 general commands. \u201cWhen we deal with private actions under Rule 10b-5,\u201d then-Justice Rehnquist wrote many years ago, \u201cwe deal with a judicial oak which has grown from little more than a legislative acorn.\u201d Blue Chip Stamps v. Manor Drug Stores, 421 U. S. 723, 737 (1975). The \u201c'Mother Court\u2019\u201d of securities law tended to that oak. Id., at 762 (Blackmun, J., dissenting) (describing the Second Circuit). One of our greatest jurists \u2014 the judge who, \u201cwithout a doubt, did more to shape the law of securities regulation than any [other] in the country\u201d \u2014 was its master arborist.\nThe development of \u00a7 10(b) law was hardly an instance of judicial usurpation. Congress invited an expansive role for judicial elaboration when it crafted such an open-ended statute in 1934. And both Congress and the Commission subsequently affirmed that role when they left intact the relevant statutory and regulatory language, respectively, throughout all the years that followed. See Brief for Alecta pensionsforsakring, omsesidigt et al. as Amici Curiae 31-33; cf. Musick, Peeler & Garrett v. Employers Ins. of Wausau, 508 U. S. 286, 294 (1993) (inferring from recent legislation Congress\u2019 desire to \u201cacknowledge\u201d the Rule 10b-5 action without \u201centangling\u201d itself in the precise formulation thereof). Unlike certain other domains of securities law, this is \u201ca case in which Congress has enacted a regulatory-statute and then has accepted, over a long period of time, broad judicial authority to define substantive standards of conduct and liability,\u201d and much else besides. Stoneridge Investment Partners, LLC v. Scientific-Atlanta, Inc., 552 U. S. 148, 163 (2008).\nThis Court has not shied away from acknowledging that authority. We have consistently confirmed that, in applying \u00a7 10(b) and Rule 10b-5, courts may need \u201cto flesh out the portions of the law with respect to which neither the congressional enactment nor the administrative regulations offer conclusive guidance.\u201d Blue Chip, 421 U. S., at 737. And we have unanimously \u201crecogniz[ed] a judicial authority to shape . . . the 10b-5 cause of action,\u201d for that is a task \u201cCongress has left to us.\u201d Musick, Peeler, 508 U. S., at 293, 294; see also id., at 292 (noting with approval that \u201cfederal courts have accepted and exercised the principal responsibility for the continuing elaboration of the scope of the 10b-5 right and the definition of the duties it imposes\u201d). Indeed, we have unanimously endorsed the Second Circuit\u2019s basic interpretive approach to \u00a7 10(b) \u2014 ridiculed by the Court today \u2014 of striving to \u201cdivinje] what Congress would have wanted,\u201d ante, at 261. \u201cOur task,\u201d we have said, is \u201cto attempt to infer how the 1934 Congress would have addressed the issue.\u201d Mustek, Peeler, 508 U. S., at 294.\nThus, while the Court devotes a considerable amount of attention to the development of the case law, ante, at 255-260, it draws the wrong conclusions. The Second Circuit refined its test over several decades and dozens of cases, with the tacit approval of Congress and the Commission and with the general assent of its sister Circuits. That history is a reason we should give additional weight to the Second Circuit\u2019s \u201cjudge-made\u201d doctrine, not a reason to denigrate it. \u201cThe longstanding acceptance by the courts, coupled with Congress\u2019 failure to reject [its] reasonable interpretation of the wording of \u00a7 10(b), . . . argues significantly in favor of acceptance of the [Second Circuit] rule by this Court.\u201d Blue Chip, 421 U. S., at 733.\nII\nThe Court\u2019s other main critique of the Second Circuit\u2019s approach \u2014 apart from what the Court views as its excessive reliance on functional considerations and reconstructed congressional intent \u2014 is that the Second Circuit has \u201cdisregarded] \u201d the presumption against extraterritoriality. Ante, at 255. It is the Court, however, that misapplies the presumption, in two main respects.\nFirst, the Court seeks to transform the presumption from a flexible rule of thumb into something more like a clear statement rule. We have been here before. In the case on which the Court primarily relies, EEOC v. Arabian American Oil Co., 499 U. S. 244 (1991) (Aramco), Chief Justice Rehnquist\u2019s majority opinion included a sentence that appeared to make the same move. See id., at 258 (\u201cCongress\u2019 awareness of the need to make a clear statement that a statute applies overseas is amply demonstrated by the numerous occasions on which it has expressly legislated the extraterritorial application of a statute\u201d). Justice Marshall, in dissent, vigorously objected. See id., at 261 (\u201c[Cjontrary to what one would conclude from the majority\u2019s analysis, this canon is not a \u2018clear statement\u2019 rule, the application of which relieves a court of the duty to give effect to all available indicia of the legislative will\u201d).\nYet even Aramco \u2014 surely the most extreme application of the presumption against extraterritoriality in my time on the Court \u2014 contained numerous passages suggesting that the presumption may be overcome without a clear directive. See id., at 248-255 (majority opinion) (repeatedly identifying congressional \u201cintent\u201d as the touchstone of the presumption). And our cases both before and after Aramco make perfectly clear that the Court continues to give effect to \u201call available evidence about the meaning\u201d of a provision when considering its extraterritorial application, lest we defy Congress\u2019 will. Sale v. Haitian Centers Council, Inc., 509 U. S. 155, 177 (1993) (emphasis added). Contrary to Justice Scalia\u2019s personal view of statutory interpretation, that evidence legitimately encompasses more than the enacted text. Hence, while the Court\u2019s dictum that \u201c[w]hen a statute gives no clear indication of an extraterritorial application, it has none,\u201d ante, at 255, makes for a nice catchphrase, the point is overstated. The presumption against extraterritoriality can be useful as a theory of congressional purpose, a tool for managing international conflict, a background norm, a tiebreaker. It does not relieve courts of their duty to give statutes the most faithful reading possible.\nSecond, and more fundamentally, the Court errs in suggesting that the presumption against extraterritoriality is fatal to the Second Circuit\u2019s test. For even if the presumption really were a clear statement (or \u201cclear indication,\u201d ante, at 255, 265) rule, it would have only marginal relevance to this case.\nIt is true, of course, that \u201cthis Court ordinarily construes ambiguous statutes to avoid unreasonable interference with the sovereign authority of other nations,\u201d F. Hoffmann-La Roche Ltd v. Empagran S. A., 542 U. S. 155, 164 (2004), and that, absent contrary evidence, we presume \u201cCongress is primarily concerned with domestic conditions,\u201d Foley Bros., Inc. v. Filardo, 336 U. S. 281, 285 (1949). Accordingly, the presumption against extraterritoriality \u201cprovides a sound basis for concluding that Section 10(b) does not apply when a securities fraud with no effects in the United States is hatched and executed entirely outside this country.\u201d Brief for United States as Amicus Curiae 22. But that is just about all it provides a sound basis for concluding. And the conclusion is not very illuminating, because no party to the litigation disputes it. No one contends that \u00a7 10(b) applies to wholly foreign frauds.\nRather, the real question in this case is how much, and what kinds of, domestic contacts are sufficient to trigger application of \u00a7 10(b). In developing its conduct-and-effects test, the Second Circuit endeavored to derive a solution from the Exchange Act\u2019s text, structure, history, and purpose. Judge Friendly and his colleagues were well aware that United States courts \u201ccannot and should not expend [their] resources resolving cases that do not affect Americans or involve fraud emanating from America.\u201d 547 F. 3d, at 175; see also id., at 171 (overriding concern is \u201c \u2018whether there is sufficient United States involvement\u2019 \u201d (quoting Itoba Ltd. v. Lep Group PLC, 54 F. 3d 118, 122 (CA2 1995))).\nThe question just stated does not admit of an easy answer. The text of the Exchange Act indicates that \u00a7 10(b) extends to at least some activities with an international component, but, again, it is not pellucid as to which ones. The Second Circuit draws the line as follows: Section 10(b) extends to transnational frauds \u201conly when substantial acts in furtherance of the fraud were committed within the United States,\u201d SEC v. Berger, 322 F. 3d 187, 193 (CA2 2003) (internal quotation marks omitted), or when the fraud was \u201c'intended to produce\u2019 \u201d and did produce \u201c 'detrimental effects within\u2019 \u201d the United States, Schoenbaum, 405 F. 2d, at 206.\nThis approach is consistent with the understanding shared by most scholars that Congress, in passing the Exchange Act, \u201cexpected U. S. securities laws to apply to certain international transactions or conduct.\u201d Buxbaum, Multinational Class Actions Under Federal Securities Law: Managing Jurisdictional Conflict, 46 Colum. J. Transnat\u2019l L. 14, 19 (2007); see also Leasco Data Processing Equip. Corp. v. Maxwell, 468 F. 2d 1326, 1336 (CA2 1972) (Friendly, J.) (detailing evidence that Congress \u201cmeant \u00a7 10(b) to protect against fraud in the sale or purchase of securities whether or not these were traded on organized United States markets\u201d). It is also consistent with the traditional understanding, regnant in the 1930\u2019s as it is now, that the presumption against extraterritoriality does not apply \u201cwhen the conduct [at issue] occurs within the United States,\u201d and has lesser force when \u201cthe failure to extend the scope of the statute to a foreign setting will result in adverse effects within the United States.\u201d Environmental Defense Fund, Inc. v. Massey, 986 F. 2d 528, 531 (CADC 1993); accord, Restatement (Second) of Foreign Relations Law of the United States \u00a7 38 (1964-1965); cf. Small v. United States, 544 U. S. 385, 400 (2005) (Thomas, J., joined by Scalia and Kennedy, JJ., dissenting) (presumption against extraterritoriality \u201clend[s] no support\u201d to a \u201crule restricting a federal statute from reaching conduct within U. S. borders\u201d)) Continental Ore Co. v. Union Carbide & Carbon Corp., 370 U. S. 690, 705 (1962) (presumption against extraterritoriality not controlling \u201c[s]inee the activities of the defendants had an impact within the United States and upon its foreign trade\u201d). And it strikes a reasonable balance between the goals of \u201cpreventing the export of fraud from America,\u201d protecting shareholders, enhancing investor confidence, and deterring corporate misconduct, on the one hand, and conserving United States resources and limiting conflict with foreign law, on the other. 547 F. 3d, at 175.\nThus, while \u00a7 10(b) may not give any \u201cclear indication\u201d on its face as to how it should apply to transnational securities frauds, ante, at 255, 265, it does give strong clues that it should cover at least some of them, see n. 9, supra. And in my view, the Second Circuit has done the best job of discerning what sorts of transnational frauds Congress meant in 1934\u2014 and still means today \u2014 to regulate. I do not take issue with the Court for beginning its inquiry with the statutory text, rather than the doctrine in the Courts of Appeals. Cf. ante, at 267, n. 9. I take issue with the Court for beginning and ending its inquiry with the statutory text, when the text does not speak with geographic precision, and for dismissing the long pedigree of, and the persuasive account of congressional intent embodied in, the Second Circuit\u2019s rule.\nRepudiating the Second Circuit\u2019s approach in its entirety, the Court establishes a novel rule that will foreclose private parties from bringing \u00a7 10(b) actions whenever the relevant securities were purchased or sold abroad and are not listed on a domestic exchange. The real motor of the Court\u2019s opinion, it seems, is not the presumption against extraterritoriality but rather the Court\u2019s belief that transactions on domestic exchanges are \u201cthe focus of the Exchange Act\u201d and \u201cthe objects of [its] solicitude. \u201d Ante, at 266,267. In reality, however, it is the \u201cpublic interest\u201d and \u201cthe interests of investors\u201d that are the objects of the statute\u2019s solicitude. Europe & Overseas Commodity Traders, S. A. v. Banque Paribas London, 147 F. 3d 118, 125 (CA2 1998) (citing H. R. Rep. No. 1838, 73d Cong., 2d Sess., 32-33 (1934)); see also Basic Inc. v. Levinson, 485 U. S. 224, 230 (1988) (\u201cThe 1934 Act was designed to protect investors against manipulation of stock prices\u201d (citing S. Rep. No. 792, 73d Cong., 2d Sess., 1-5 (1934))); Ernst & Ernst v. Hochfelder, 425 U. S. 185, 195 (1976) (\u201cThe 1934 Act was intended principally to protect investors . . . \u201d); S. Rep. No. 1455, 73d Cong., 2d Sess., 68 (1934) (\u201cThe Securities Exchange Act of 1934 aims to protect the interests of the public against the predatory operations of directors, officers, and principal stockholders of corporations . . . \u201d)\u2022 And while the clarity and simplicity of the Court\u2019s test may have some salutary consequences, like all bright-line rules it also has drawbacks.\nImagine, for example, an American investor who buys shares in a company listed only on an overseas exchange. That company has a major American subsidiary with executives based in New York City; and it was in New York City that the executives masterminded and implemented a massive deception which artificially inflated the stock price \u2014 and which will, upon its disclosure, cause the price to plummet. Or, imagine that those same executives go knocking on doors in Manhattan and convince an unsophisticated retiree, on the basis of material misrepresentations, to invest her life savings in the company\u2019s doomed securities. Both of these investors would, under the Court\u2019s new test, be barred from seeking relief under \u00a7 10(b).\nThe oddity of that result should give pause. For in walling off such individuals from \u00a7 10(b), the Court narrows the provision\u2019s reach to a degree that would surprise and alarm generations of American investors \u2014 and, I am convinced, the Congress that passed the Exchange Act. Indeed, the Court\u2019s rule turns \u00a7 10(b) jurisprudence (and the presumption against extraterritoriality) on its head, by withdrawing the statute\u2019s application from cases in which there is both substantial wrongful conduct that occurred in the United States and a substantial injurious effect on United States markets and citizens.\nIll\nIn my judgment, if petitioners\u2019 allegations of fraudulent misconduct that took place in Florida are true, then respondents may have violated \u00a7 10(b), and could potentially be held accountable in an enforcement proceeding brought by the Commission. But it does not follow that shareholders who have failed to allege that the bulk or the heart of the fraud occurred in the United States, or that the fraud had an adverse impact on American investors or markets, may maintain a private action to recover damages they suffered abroad. Some cases involving foreign securities transactions have extensive links to, and ramifications for, this country; this case has Australia written all over it. Accordingly, for essentially the reasons stated in the Court of Appeals\u2019 opinion, I would affirm its judgment.\nThe Court instead elects to upend a significant area of securities law based on a plausible, but hardly decisive, construction of the statutory text. In so doing, it pays short shrift to the United States\u2019 interest in remedying frauds that transpire on American soil or harm American citizens, as well as to the accumulated wisdom and experience of the lower courts. I happen to agree with the result the Court reaches in this case. But \u201cI respectfully dissent,\u201d once again, \u201cfrom the Court\u2019s continuing campaign to render the private cause of action under \u00a7 10(b) toothless.\u201d Stoneridge, 552 U. S., at 175 (Stevens, J., dissenting).\nSee, e. g., IIT, Int\u2019l Inv. Trust v. Cornfeld, 619 F. 2d 909 (CA2 1980); IIT v. Vencap, Ltd., 519 F. 2d 1001 (CA2 1975); Bersch v. Drexel Firestone, Inc., 519 F. 2d 974 (CA2 1975); Leasco Data Processing Equip. Corp. v. Maxwell, 468 F. 2d 1326 (CA2 1972).\n1 acknowledge that the Courts of Appeals have differed in their applications of the conduct-and-effects test, with the consequence that their respective rulings are not perfectly \u201ccohesive.\u201d Ante, at 259, n. 4. It is nevertheless significant that the other Courts of Appeals, along with the other branches of Government, have \u201cembraced the Second Circuit\u2019s approach,\u201d ante, at 259. If this Court were to do likewise, as I would have us do, the lower courts would of course cohere even more tightly around the Second Circuit\u2019s rule.\nIt is true that \u201cwhen it comes to \u2018the scope of [the] conduct prohibited by [Rule 10b-5 and] \u00a7 10(b), the text of the statute [has] controlled] our deeision[s].\u201d\u2019 Ante, at 261, n. 5 (quoting Central Bank of Denver, N. A. v. First Interstate Bank of Denver, N. A., 511 U. S. 164, 173 (1994); some brackets in original). The problem, when it comes to transnational securities frauds, is that the text of the statute does not provide a great deal of control. As with any broadly phrased, longstanding statute, courts have had to fill in the gaps.\nLoss, In Memoriam: Henry J. Friendly, 99 Harv. L. Rev. 1722, 1723 (1986).\nEven as the Court repeatedly declined to grant certiorari on cases raising the issue, individual Justices went further and endorsed the Second Circuit\u2019s basic approach to determining the transnational reach of \u00a7 10(b). See, e. g., Scherk v. Alberto-Culver Co., 417 U. S. 506, 529-530 (1974) (Douglas, J., joined by Brennan, White, and Marshall, JJ., dissenting) (\u201cIt has been recognized that the 1934 Act, including the protections of Rule 10b-5, applies when foreign defendants have defrauded American investors, particularly when . . . they have profited by virtue of proscribed conduct within our boundaries. This is true even when the defendant is organized under the laws of a foreign country, is conducting much of its activity outside the United States, and is therefore governed largely by foreign law\u201d (citing, inter alia, Leasco, 468 F. 2d, at 1334-1339, and Sehoenbaum v. Firstbrook, 405 F. 2d 200, rev\u2019d on rehearing on other grounds, 405 F. 2d 215 (CA2 1968) (en bane))).\nAnd also one of the most short lived. See Civil Rights Act of 1991, \u00a7 109, 105 Stat. 1077 (repudiating Aramco).\nSee also, e. g., Hartford Fire Ins. Co. v. California, 509 U. S. 764 (1993) (declining to apply presumption in assessing question of Sherman Act extraterritoriality); Smith v. United States, 507 U. S. 197, 201-204 (1993) (opinion for the Court by Rehnquist, C. J.) (considering presumption \u201c[ljastly,\u201d to resolve \u201cany lingering doubt,\u201d after considering structure, legislative history, and judicial interpretations of Federal Tort Claims Act); cf. Sale, 509 U. S., at 188 (stating that presumption \u201chas special force when we are construing treaty and statutory provisions that,\u201d unlike \u00a7 10(b), \u201cmay involve foreign and military affairs for which the President has unique responsibility\u201d); Dodge, Understanding the Presumption Against Extraterritoriality, 16 Berkeley J. Int\u2019l L. 85,110 (1998) (explaining that lower courts \u201chave been unanimous in concluding that the presumption against extraterritoriality is not a clear statement rule\u201d). The Court also relies on Microsoft Corp. v. AT&T Corp., 550 U. S. 437, 455-456 (2007). Ante, at 265. Yet Microsoft\u2019s articulation of the presumption is a far cry from the Court\u2019s rigid theory. \u201cAs a principle of general application,\u201d Microsoft innocuously observed, \u201cwe have stated that courts should \u2018assume that legislators take account of the legitimate sovereign interests of other nations when they write American laws.\u2019 \u201d 550 U. S., at 455 (quoting F. Hoffmann-La Roche Ltd v. Empagran S. A., 542 U. S. 155, 164 (2004)).\nCf. Dodge, 16 Berkeley J. Int\u2019l L., at 88, n. 25 (regardless of whether one frames question as \u201cwhether the presumption against extraterritoriality should apply [or] whether the regulation is extraterritorial,\u201d \u201cone must ultimately grapple with the basic issue of what connection to the United States is sufficient to justify the assumption that Congress would want its laws to be applied\u201d).\nBy its terms, \u00a7 10(b) regulates \u201cinterstate commerce,\u201d 15 U. S. C. \u00a7 78j, which the Exchange Act defines to include \u201ctrade, commerce, transportation, or communication... between any foreign country and any State, or between any State and any place or ship outside thereof.\u201d \u00a778e(a)(17). Other provisions of the Exchange Act make clear that Congress contemplated some amount of transnational application. See, e. g., \u00a7 78b(2) (stating, in explaining necessity for regulation, that \u201c[t]he prices established and offered in [securities] transactions are generally disseminated and quoted throughout the United States and foreign countries and constitute a basis for determining and establishing the prices at which securities are bought and sold\u201d); \u00a7 78dd(b) (exempting from regulation foreign parties \u201cunless\u201d they transact business in securities \u201cin contravention of such rules and regulations as the Commission may prescribe as necessary or appropriate to prevent the evasion of this chapter\u201d (emphasis added)); see also Schoenbaum, 405 F. 2d, at 206-208 (reviewing statutory text and legislative history). The Court finds these textual references insufficient to overcome the presumption against extraterritoriality, ante, at 262-264, but as explained in the main text, that finding rests upon the Court\u2019s misapplication of the presumption.\nThe Government submits that a \u201ctransnational securities fraud violates Section 10(b) if significant conduct material to the fraud\u2019s success occurs in the United States.\u201d Brief for United States as Amicus Curiae 6. I understand the Government\u2019s submission to be largely a repackaging of the \u201cconduct\u201d prong of the Second Circuit\u2019s test. The Government expresses no view on that test\u2019s \u201ceffects\u201d prong, as the decision below considered only respondents\u2019 conduct. See id., at 15, n. 2; 547 P. 3d 167, 171 (CA2 2008).\nGiven its focus on \u201cdomestic conditions,\u201d Foley Bros., Inc. v. Filardo, 336 U. S. 281, 285 (1949), I expect that virtually all \u201c\u2018foreign-cubed\u2019\u201d actions \u2014 actions in which \u201c(1) foreign plaintiffs [are] suing (2) a foreign issuer in an American court for violations of American securities laws based on securities transactions in (3) foreign countries,\u201d 547 F. 3d, at 172\u2014 would fail the Second Circuit\u2019s test. As they generally should. Under these circumstances, the odds of the fraud having a substantial connection to the United States are low. In recognition of the Exchange Act\u2019s focus on American investors and the novelty of foreign-cubed lawsuits, and in the interest of promoting clarity, it might have been appropriate to incorporate one bright line into the Second Circuit\u2019s test, by categorically excluding such lawsuits from \u00a7 10(b)\u2019s ambit.\nThe Court\u2019s opinion does not, however, foreclose the Commission from bringing enforcement actions in'additional circumstances, as no issue concerning the Commission\u2019s authority is presented by this case. The Commission\u2019s enforcement proceedings not only differ from private \u00a7 10(b) actions in numerous potentially relevant respects, see Brief for United States as Amicus Curiae 12-13, but they also pose a lesser threat to international comity, id., at 26-27; cf. Empagran, 542 U. S., at 171 (\u2018\u201c[P]rivate plaintiffs often are unwilling to exercise the degree of self-restraint and consideration of foreign governmental sensibilities generally exercised by the U. S. Government\u2019 \u201d (quoting Griffin, Extraterritoriality in U. S. and EU Antitrust Enforcement, 67 Antitrust L. J. 159, 194 (1999); alteration in original)).",
+        "type": "concurrence",
+        "author": "Justice Stevens,"
+      }
+    ],
+    "attorneys": [
+      "Thomas A. Dubbs argued the cause for petitioners. With him on the briefs were James W. Johnson, Barry M. Okun, and Samuel Issacharoff.",
+      "George T. Conway III argued the cause for respondents. With him on the briefs were John F Lynch, Carrie M. Reilly, Eric Seiler, and A. Graham Allen.",
+      "Matthew D. Roberts argued the cause for the United States as amicus curiae in support of respondents. With him on the brief were Solicitor General Kagan, Deputy Solicitor General Stewart, David M. Becker, Mark D. Cohn, Jacob H. Stillman, Mark Pennington, and William K. Shirey."
+    ],
+    "corrections": "",
+    "head_matter": "MORRISON et al. v. NATIONAL AUSTRALIA BANK LTD. et al.\nNo. 08-1191.\nArgued March 29, 2010\nDecided June 24, 2010\nScalia, J., delivered the opinion of the Court, in which Roberts, C. J., and Kennedy, Thomas, and Alito, JJ., joined. Breyer, J., filed an opinion concurring in part and concurring in the judgment, post, p. 273. Stevens, J., filed an opinion concurring in the judgment, in which Ginsberg, J., joined, post, p. 274. Sotomayor, J., took no part in the consideration . or decision of the case.\nThomas A. Dubbs argued the cause for petitioners. With him on the briefs were James W. Johnson, Barry M. Okun, and Samuel Issacharoff.\nGeorge T. Conway III argued the cause for respondents. With him on the briefs were John F Lynch, Carrie M. Reilly, Eric Seiler, and A. Graham Allen.\nMatthew D. Roberts argued the cause for the United States as amicus curiae in support of respondents. With him on the brief were Solicitor General Kagan, Deputy Solicitor General Stewart, David M. Becker, Mark D. Cohn, Jacob H. Stillman, Mark Pennington, and William K. Shirey.\nBriefs of amici curiae urging reversal were filed for Aleeta pensionsforsakring, omsesidigt et al. by Max W. Berger; and for Mn Services Vermogensbeheer B. V. et al. by Eric Alan Isaacson and Randi D. Bandman.\nBriefs of amici curiae urging affirmance were filed for the Competitive Enterprise Institute by Sam Kazman; for the European Aeronautic Defence & Space Co. N. Y. et al. by Ira M. Feinberg and John A. Redmon; for the Government of the Commonwealth of Australia by Donald I. Baker and W. Todd Miller; for Infineon Technologies AG by Deanne E. Maynard and Brian R. Matsui; for the Institute of International Bankers et al. by Paul A. Engelmayer, Louis R. Cohen, and Ali M. Stoeppelwerth; for the International Chamber of Commerce et al. by Andrew J. Pincus and Alex C. Lakatos; for Law Professor Richard W. Painter et al. by Douglas W. Dunham and Ellen P. Quackenbos; for NYSE Euronext by Richard A. Martin, Patryk J. Chudy, Warrington Parker, and Holly K. Kulka; for Professors and Students of the Yale Law School Capital Markets and Financial Instruments Clinic by Jonathan R. Macey; for the Republic of France by Stephen J. Marzen and Wendy E. Ackerman; for the Securities Industry and Financial Markets Association et al. by Deborah M. Buell, Meredith Hotter, Lauren L. Peacock, and Jorge G. Tenreiro; for the United Kingdom of Great Britain and Northern Ireland by John E. Beerbower; and for the Washington Legal Foundation by Nicholas I. Porritt, Daniel J. Popeo, and Cory L. Andrews.\nBriefs of amici curiae were filed for the Australian Shareholders\u2019 Association et al. by Allyn Z. Lite and Joseph J. DePalma; and for the Organization for International Investment by David M. Rice, Matthew J. Kemner, and Troy M. Yoshino."
+  },
+  "file_name": "0247-01",
+  "first_page_order": 297,
+  "last_page_order": 336
+}

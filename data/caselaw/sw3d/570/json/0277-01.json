@@ -1,0 +1,123 @@
+{
+  "id": 12659212,
+  "name": "EX PARTE Darrel Don BENEDICT, Applicant",
+  "name_abbreviation": "Ex parte Benedict",
+  "decision_date": "2019-02-27",
+  "docket_number": "NO. WR-89,524-01",
+  "first_page": "277",
+  "last_page": "278",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "570 S.W.3d 277"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex. Crim. App. Ct.",
+    "id": 30109,
+    "name": "Court of Criminal Appeals of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "2019 WL 949387",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "opinion_index": -1
+    },
+    {
+      "cite": "542 S.W.3d 561",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12656000
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "562-67",
+          "parenthetical": "Yeary, J., dissenting"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/542/0561-01"
+      ]
+    },
+    {
+      "cite": "473 S.W.3d 789",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6839235
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "800-05",
+          "parenthetical": "Yeary, J., dissenting"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/473/0789-01"
+      ]
+    },
+    {
+      "cite": "424 S.W.3d 10",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6951634
+      ],
+      "year": 2013,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/424/0010-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 210,
+    "char_count": 2271,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2650405486960823
+    },
+    "sha256": "2c3d9e4eb9e838556ba8451ba611d3ea1ae445a9b12e36219077e03813485d78",
+    "simhash": "1:393338f718cf4fd4",
+    "word_count": 362
+  },
+  "last_updated": "2024-02-27T19:41:39.424162+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "EX PARTE Darrel Don BENEDICT, Applicant"
+    ],
+    "opinions": [
+      {
+        "text": "Yeary, J., filed a dissenting opinion in which Slaughter, J., joined.\nToday, the Court grants relief to another applicant on the basis that the statute he was convicted under- TEX. PEN. CODE \u00a7 33.021(b) -was held to be facially unconstitutional in Ex parte Lo, 424 S.W.3d 10 (Tex. Crim. App. 2013). The indictment charged Applicant with online solicitation of a minor, specifically stating that Applicant sent a picture of a penis over the internet to a minor, or to someone whom Applicant believed was a minor. Applicant pled guilty. He was sentenced to confinement for two years in state jail, and fined $ 500.00. His sentence was suspended, however, and he was placed on community supervision for five years. Later, his community supervision was revoked, and he was sentenced to confinement for twelve months in state jail.\nI dissent to the Court's order granting Applicant post-conviction relief in this case for the reasons stated in my dissenting opinions in Ex parte Fournier and Ex parte Mitcham . See Ex parte Fournier , 473 S.W.3d 789, 800-05 (Tex. Crim. App. 2015) (Yeary, J., dissenting) (\"The windfall that inevitably flows from judicially declaring an overbroad penal provision to be facially unconstitutional need not extend so far as to apply retroactively to grant habeas corpus relief to applicants who have suffered no First Amendment infraction themselves.\"); Ex parte Mitcham , 542 S.W.3d 561, 562-67 (Tex. Crim. App. 2018) (Yeary, J., dissenting) (\"The Court in [Ex parte ] Lo seems to have discounted to an important degree, the language in Section 33.021(b) which focused on the intentional involvement of minors in the 'arous[al] or gratif[ication] of sexual desires' by way of the delivery to them of sexually explicit materials, and chose to focus instead simply on the content of the speech at issue.\").",
+        "type": "majority",
+        "author": "Yeary, J., filed a dissenting opinion in which Slaughter, J., joined."
+      }
+    ],
+    "attorneys": [
+      "Mark W. Bennett, 917 Franklin Street, Fourth Floor, Houston, Texas 77002, for Applicant.",
+      "Matthew J. Whitten, Assistant Criminal District Attorney, 1450 East McKinney Street, Suite 3100 Denton, Texas 76209, Stacey Soule, State's Attorney, Austin, for the State."
+    ],
+    "corrections": "",
+    "head_matter": "EX PARTE Darrel Don BENEDICT, Applicant\nNO. WR-89,524-01\nCourt of Criminal Appeals of Texas.\nFILED: February 27, 2019\nFor majority opinion, see 2019 WL 949387\nMark W. Bennett, 917 Franklin Street, Fourth Floor, Houston, Texas 77002, for Applicant.\nMatthew J. Whitten, Assistant Criminal District Attorney, 1450 East McKinney Street, Suite 3100 Denton, Texas 76209, Stacey Soule, State's Attorney, Austin, for the State.\nDISSENTING OPINION"
+  },
+  "file_name": "0277-01",
+  "first_page_order": 277,
+  "last_page_order": 278
+}

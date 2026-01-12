@@ -1,0 +1,59 @@
+{
+  "id": 12416043,
+  "name": "Stewart v. Parris",
+  "name_abbreviation": "Stewart v. Parris",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5475",
+  "first_page": "914",
+  "last_page": "914",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 914"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 81,
+    "ocr_confidence": 0.695,
+    "sha256": "60ae1b4e7c28edbd5146cd07e90fe860a00a59503104524f3c632748f76287ed",
+    "simhash": "1:07b892ae21c25b43",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Stewart v. Parris."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 1st App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5475.\nStewart v. Parris."
+  },
+  "file_name": "0914-10",
+  "first_page_order": 990,
+  "last_page_order": 990
+}

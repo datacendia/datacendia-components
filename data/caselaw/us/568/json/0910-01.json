@@ -1,0 +1,59 @@
+{
+  "id": 12415793,
+  "name": "Anaya v. United States",
+  "name_abbreviation": "Anaya v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5384",
+  "first_page": "910",
+  "last_page": "910",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 910"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.638,
+    "sha256": "240ea31e701e696f29423a719f9d741ff96de5fbeabb6eccb8362bf55d519634",
+    "simhash": "1:412a9d404ad41c60",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Anaya v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5384.\nAnaya v. United States."
+  },
+  "file_name": "0910-01",
+  "first_page_order": 986,
+  "last_page_order": 986
+}

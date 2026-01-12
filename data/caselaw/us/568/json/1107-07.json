@@ -1,0 +1,59 @@
+{
+  "id": 12428702,
+  "name": "Morris v. United States",
+  "name_abbreviation": "Morris v. United States",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-7273",
+  "first_page": "1107",
+  "last_page": "1107",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1107"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.611,
+    "sha256": "de74ab8d9cc9eb54d7a64f4139c6a10f2d4e3cea36e6b38d930a645eddb2a7e4",
+    "simhash": "1:c7a8b21eca341818",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Morris v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7273.\nMorris v. United States."
+  },
+  "file_name": "1107-07",
+  "first_page_order": 1183,
+  "last_page_order": 1183
+}

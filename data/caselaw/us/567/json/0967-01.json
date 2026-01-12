@@ -1,0 +1,59 @@
+{
+  "id": 12413216,
+  "name": "Harris v. Texas",
+  "name_abbreviation": "Harris v. Texas",
+  "decision_date": "2012-09-20",
+  "docket_number": "No. 12-6197 (12A247)",
+  "first_page": "967",
+  "last_page": "967",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 967"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 29,
+    "char_count": 205,
+    "ocr_confidence": 0.683,
+    "sha256": "cd62e30b67fd58a10ac88fcbe0a09c433dce12549eac9411caca24070b33d36f",
+    "simhash": "1:400bd870578707d0",
+    "word_count": 33
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Harris v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tex. Application for stay of execution of sentence of death, presented to Justice Scalia, and by him referred to the Court, denied. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6197 (12A247).\nHarris v. Texas."
+  },
+  "file_name": "0967-01",
+  "first_page_order": 871,
+  "last_page_order": 871
+}

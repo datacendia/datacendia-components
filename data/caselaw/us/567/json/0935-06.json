@@ -1,0 +1,59 @@
+{
+  "id": 12411234,
+  "name": "Cahill v. Securities and Exchange Commission",
+  "name_abbreviation": "Cahill v. Securities & Exchange Commission",
+  "decision_date": "2012-06-25",
+  "docket_number": "No. 11-1161",
+  "first_page": "935",
+  "last_page": "935",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 935"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 95,
+    "ocr_confidence": 0.677,
+    "sha256": "8391df47acc5b6f51e403c6155e46a7c2b3d661d0fcb1bbfc7b61fe628b2791f",
+    "simhash": "1:81c31201eb7e8264",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cahill v. Securities and Exchange Commission."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. D. C. Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1161.\nCahill v. Securities and Exchange Commission."
+  },
+  "file_name": "0935-06",
+  "first_page_order": 839,
+  "last_page_order": 839
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5985888,
+  "name": "Macon v. Ohio Department of Job and Family Services",
+  "name_abbreviation": "Macon v. Ohio Department of Job & Family Services",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-25",
+  "first_page": "890",
+  "last_page": "890",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 890"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 115,
+    "ocr_confidence": 0.635,
+    "sha256": "6433baa911c1cd87747911269146b2e32159c92c739249d0a4d320501a73d0a6",
+    "simhash": "1:ab8a0d060de4ebf3",
+    "word_count": 18
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Macon v. Ohio Department of Job and Family Services."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ohio, Franklin County. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-25.\nMacon v. Ohio Department of Job and Family Services."
+  },
+  "file_name": "0890-05",
+  "first_page_order": 912,
+  "last_page_order": 912
+}

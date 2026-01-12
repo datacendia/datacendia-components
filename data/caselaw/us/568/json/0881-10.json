@@ -1,0 +1,59 @@
+{
+  "id": 12414890,
+  "name": "Graves v. United States",
+  "name_abbreviation": "Graves v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-11140",
+  "first_page": "881",
+  "last_page": "881",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 881"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.679,
+    "sha256": "cd69276cbd798b40dae55486ce3f4da88b72ea74d02d75eef6c6909b8b69e60c",
+    "simhash": "1:09880b9288151f1a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Graves v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-11140.\nGraves v. United States."
+  },
+  "file_name": "0881-10",
+  "first_page_order": 957,
+  "last_page_order": 957
+}

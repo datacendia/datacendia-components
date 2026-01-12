@@ -1,0 +1,59 @@
+{
+  "id": 12213407,
+  "name": "Riley v. United States",
+  "name_abbreviation": "Riley v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11296",
+  "first_page": "877",
+  "last_page": "877",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 877"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.728,
+    "sha256": "9594ca1b3b1ad3d8ab9c0b24ad10321b7e53e5e28357005cb894fb91b871053a",
+    "simhash": "1:a1c3935b86859138",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Riley v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11296.\nRiley v. United States."
+  },
+  "file_name": "0877-11",
+  "first_page_order": 959,
+  "last_page_order": 959
+}

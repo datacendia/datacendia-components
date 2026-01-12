@@ -1,0 +1,59 @@
+{
+  "id": 12430679,
+  "name": "Stewart v. Louisiana",
+  "name_abbreviation": "Stewart v. Louisiana",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-5895",
+  "first_page": "1163",
+  "last_page": "1163",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1163"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.652,
+    "sha256": "1ac967b3b81968f265ac765d7f6dd06cc492fc66a5dab6f2f38dfb4a8b3af0a9",
+    "simhash": "1:a762eaf1c00f7626",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Stewart v. Louisiana."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. La., 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5895.\nStewart v. Louisiana."
+  },
+  "file_name": "1163-09",
+  "first_page_order": 1239,
+  "last_page_order": 1239
+}

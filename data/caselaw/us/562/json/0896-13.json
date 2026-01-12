@@ -1,0 +1,59 @@
+{
+  "id": 6021879,
+  "name": "Holcombe v. US Airways, Inc.",
+  "name_abbreviation": "Holcombe v. US Airways, Inc.",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-187",
+  "first_page": "896",
+  "last_page": "896",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 896"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 75,
+    "ocr_confidence": 0.579,
+    "sha256": "ac6e99578c2c09ec3de1a514b54e2d5098faf1891c7818664853c9d583a9f292",
+    "simhash": "1:a2930880640c3400",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Holcombe v. US Airways, Inc."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-187.\nHolcombe v. US Airways, Inc."
+  },
+  "file_name": "0896-13",
+  "first_page_order": 918,
+  "last_page_order": 918
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12420663,
+  "name": "Washington v. Illinois",
+  "name_abbreviation": "Washington v. Illinois",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-6009",
+  "first_page": "985",
+  "last_page": "985",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 985"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 71,
+    "ocr_confidence": 0.753,
+    "sha256": "e375ea1273dde307ef55677e9ae46f3f3116abc1e622a0debc4815b9e246b1bd",
+    "simhash": "1:10008d4d0d5bc422",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Washington v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ill. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6009.\nWashington v. Illinois."
+  },
+  "file_name": "0985-09",
+  "first_page_order": 1061,
+  "last_page_order": 1061
+}

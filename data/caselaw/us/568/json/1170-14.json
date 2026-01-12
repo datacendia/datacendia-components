@@ -1,0 +1,59 @@
+{
+  "id": 12430994,
+  "name": "Brown v. Florida",
+  "name_abbreviation": "Brown v. Florida",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-7700",
+  "first_page": "1170",
+  "last_page": "1170",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1170"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 80,
+    "ocr_confidence": 0.554,
+    "sha256": "78ba91d6aca4e0c4d15943997b1a333dbf3743bcbb40bd5ff99471629596fe70",
+    "simhash": "1:90a91142c661620b",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Brown v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 3d Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7700.\nBrown v. Florida."
+  },
+  "file_name": "1170-14",
+  "first_page_order": 1246,
+  "last_page_order": 1246
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12211749,
+  "name": "Baker v. LaValley, Superintendent, Great Meadow Correctional Facility",
+  "name_abbreviation": "Baker v. LaValley",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11178",
+  "first_page": "871",
+  "last_page": "871",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 871"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 118,
+    "ocr_confidence": 0.7,
+    "sha256": "42e6cf27417d73a22e54c98d69f3824cc94ec590294b9c543ef765b47e12decb",
+    "simhash": "1:995fd3f3631f34c0",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Baker v. LaValley, Superintendent, Great Meadow Correctional Facility."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11178.\nBaker v. LaValley, Superintendent, Great Meadow Correctional Facility."
+  },
+  "file_name": "0871-08",
+  "first_page_order": 953,
+  "last_page_order": 953
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12420346,
+  "name": "Timmons v. Richland County Sheriff's Office",
+  "name_abbreviation": "Timmons v. Richland County Sheriff's Office",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-5849",
+  "first_page": "982",
+  "last_page": "982",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 982"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 92,
+    "ocr_confidence": 0.656,
+    "sha256": "82dbdc2a76998dfaf57d24810c8c8bcc488432231dcc129ad12a5fd457941160",
+    "simhash": "1:07c67aa288edf828",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Timmons v. Richland County Sheriff\u2019s Office."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5849.\nTimmons v. Richland County Sheriff\u2019s Office."
+  },
+  "file_name": "0982-07",
+  "first_page_order": 1058,
+  "last_page_order": 1058
+}

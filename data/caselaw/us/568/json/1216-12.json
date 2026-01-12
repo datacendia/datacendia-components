@@ -1,0 +1,59 @@
+{
+  "id": 12432662,
+  "name": "Souza v. California",
+  "name_abbreviation": "Souza v. California",
+  "decision_date": "2013-03-04",
+  "docket_number": "No. 12-8108",
+  "first_page": "1216",
+  "last_page": "1216",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1216"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 67,
+    "ocr_confidence": 0.585,
+    "sha256": "bb189bf328b874b15d1ee99abb7f0bf3527fe1971a057de173ece34371164db3",
+    "simhash": "1:9e2b93f79e6e027e",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Souza v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8108.\nSouza v. California."
+  },
+  "file_name": "1216-12",
+  "first_page_order": 1292,
+  "last_page_order": 1292
+}

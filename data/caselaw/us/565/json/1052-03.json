@@ -1,0 +1,59 @@
+{
+  "id": 12234706,
+  "name": "Gargano v. Supreme Judicial Court of Massachussetts",
+  "name_abbreviation": "Gargano v. Supreme Judicial Court of Massachussetts",
+  "decision_date": "2011-11-28",
+  "docket_number": "No. 11A363",
+  "first_page": "1052",
+  "last_page": "1052",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1052"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 169,
+    "ocr_confidence": 0.657,
+    "sha256": "9109ac115de75b9af5f83146089ca0966eb4f75a5ad1c968c32414801b4f1d9f",
+    "simhash": "1:30d83d2df11229b2",
+    "word_count": 26
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gargano v. Supreme Judicial Court of Massachussets."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Jud. Ct. Mass. Application for stay, addressed to Justice Scalia and referred to the Court, denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11A363.\nGargano v. Supreme Judicial Court of Massachussets."
+  },
+  "file_name": "1052-03",
+  "first_page_order": 1134,
+  "last_page_order": 1134
+}

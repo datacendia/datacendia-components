@@ -1,0 +1,59 @@
+{
+  "id": 6010004,
+  "name": "Castor v. Knight, Superintendent, Plainfield Correctional Facility",
+  "name_abbreviation": "Castor v. Knight",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11477",
+  "first_page": "883",
+  "last_page": "883",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 883"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 116,
+    "ocr_confidence": 0.496,
+    "sha256": "57f33bf69faba5f16198bf88a649f37764c789d870096d36f60b2a8f1f9e3f9e",
+    "simhash": "1:226fc6ad821d5020",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Castor v. Knight, Superintendent, Plainfield Correctional Facility."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11477.\nCastor v. Knight, Superintendent, Plainfield Correctional Facility."
+  },
+  "file_name": "0883-03",
+  "first_page_order": 905,
+  "last_page_order": 905
+}

@@ -1,0 +1,507 @@
+{
+  "id": 2339110,
+  "name": "G. A. Roberts v. Texas and Pacific Railway Company",
+  "name_abbreviation": "Roberts v. Texas & Pacific Railway Co.",
+  "decision_date": "1944-05-17",
+  "docket_number": "No. A-57",
+  "first_page": "550",
+  "last_page": "559",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "142 Tex. 550"
+    },
+    {
+      "type": "parallel",
+      "cite": "180 S.W.2d 330"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "299 S. W. 639",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10300231
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw/299/0639-01"
+      ]
+    },
+    {
+      "cite": "125 S. W. 309",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "103 Texas 187",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2259192
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/103/0187-01"
+      ]
+    },
+    {
+      "cite": "129 S. W. 342",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "103 Texas 434",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2259231
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/103/0434-01"
+      ]
+    },
+    {
+      "cite": "115 S. W. (2d) 398",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10248916,
+        2324471
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/115/0398-01",
+        "/tex/131/0410-01"
+      ]
+    },
+    {
+      "cite": "131 Texas 410",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2324471
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/131/0410-01"
+      ]
+    },
+    {
+      "cite": "34 S. W. 95",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "89 Texas 168",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2243315
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/89/0168-01"
+      ]
+    },
+    {
+      "cite": "91 S. W. (2d) 1052",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10276772,
+        2294806
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/91/1052-01",
+        "/tex/127/0102-01"
+      ]
+    },
+    {
+      "cite": "127 Texas 102",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2294806
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/127/0102-01"
+      ]
+    },
+    {
+      "cite": "125 S. W. 3",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "103 Texas 173",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2259210
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/103/0173-01"
+      ]
+    },
+    {
+      "cite": "32 S. W. 548",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "144 S. W. (2d) 337",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "135 S. W. (2d) 142",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10229567
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/135/0142-01"
+      ]
+    },
+    {
+      "cite": "55 S. W. (2d) 901",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10260210
+      ],
+      "pin_cites": [
+        {
+          "page": "904"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/55/0901-01"
+      ]
+    },
+    {
+      "cite": "81 S. W. (2d) 659",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2298389,
+        10256029
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/125/0248-01",
+        "/sw2d/81/0659-01"
+      ]
+    },
+    {
+      "cite": "125 Texas 248",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2298389
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/125/0248-01"
+      ]
+    },
+    {
+      "cite": "72 A. L. R. 90",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "27 S. W. (2d) 116",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10272827
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/27/0116-01"
+      ]
+    },
+    {
+      "cite": "108 Texas 61",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2249323
+      ],
+      "pin_cites": [
+        {
+          "page": "184"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/108/0061-01"
+      ]
+    },
+    {
+      "cite": "167 S. W. (2d) 723",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2310132,
+        10219573
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/140/0353-01",
+        "/sw2d/167/0723-01"
+      ]
+    },
+    {
+      "cite": "140 Texas 353",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2310132
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/140/0353-01"
+      ]
+    },
+    {
+      "cite": "63 Texas 502",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2165457
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/63/0502-01"
+      ]
+    },
+    {
+      "cite": "62 Texas 323",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2167444
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/62/0323-01"
+      ]
+    },
+    {
+      "cite": "38 S. W. 764",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "90 Texas 314",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2241909
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/90/0314-01"
+      ]
+    },
+    {
+      "cite": "218 S. W. 1038",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8270428
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/218/1038-01"
+      ]
+    },
+    {
+      "cite": "177 S. W. (2d) 77",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10198485
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/177/0077-01"
+      ]
+    },
+    {
+      "cite": "125 S. W. 309",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "103 Texas 187",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2259192
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/103/0187-01"
+      ]
+    },
+    {
+      "cite": "129 S. W. 342",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "103 Texas 434",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2259231
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/103/0434-01"
+      ]
+    },
+    {
+      "cite": "115 S. W. (2d) 398",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10248916,
+        2324471
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/115/0398-01",
+        "/tex/131/0410-01"
+      ]
+    },
+    {
+      "cite": "131 Texas 410",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2324471
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/131/0410-01"
+      ]
+    },
+    {
+      "cite": "34 S. W. 95",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "89 Texas 168",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2243315
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/89/0168-01"
+      ]
+    },
+    {
+      "cite": "91 S. W. (2d) 1052",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10276772,
+        2294806
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/91/1052-01",
+        "/tex/127/0102-01"
+      ]
+    },
+    {
+      "cite": "127 Texas 102",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2294806
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/127/0102-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 804,
+    "char_count": 20157,
+    "ocr_confidence": 0.607,
+    "pagerank": {
+      "raw": 1.4966824466568978e-07,
+      "percentile": 0.6640101411317803
+    },
+    "sha256": "95f0d487ac0dcf8e065b5a260549fffa0706ecff93d7507ae881ec72868d8f09",
+    "simhash": "1:197de4d3a8368644",
+    "word_count": 3621
+  },
+  "last_updated": "2024-02-27T17:54:29.127269+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "G. A. Roberts v. Texas and Pacific Railway Company"
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Judge Taylor\nof the Commission of Appeals delivered the opinion for the Court.\nG. A. Roberts, a switchman of the T. & P. Railway Company, recovered a judgment for $1700 against the Company for alleged negligence on its part. The Court of Civil Appeals reversed and rendered in favor of the Company. 177 S. W. (2d) 77. Writ of error was granted upon all three of the points of error alleged by Roberts.\nIn view of the clear statement of the case made by the Court of Civil Appeals from the beginning of its opinion to the conclusion of its statement of the questions presented by the record, we adopt that portion thereof which is as follows:\n\u201cPlaintiff G. A. Roberts, the appellee here, was employed as a switchman on defendant\u2019s railroad. On the occasion in question he was sent to assist in the movement of eight or ten cars then standing in defendant\u2019s yards in the City of Fort Worth. One of the cars was an empty refrigerator car, which belonged to Armour & Co. At each corner of said car was an ice well. The opening of the well was on top of the car. For each of such openings there were two covers. The inside cover, referred to as a \u2018plug,\u2019 was approximately thirty by thirty-six inches in size, and about four inches thick. The outside cover was approximately the same size, but not as thick. On the occasion in question, the outside cover was in its proper place over the ice well, but the inside cover, instead of being in its proper place, was lying on top of the outside cover. Plaintiff went up on the car to release the hand brake. He then started toward the corner of the car in order to climb down a ladder to the ground. As he did so, he stepped on the inside hatch cover, or.plug. The plug skidded toward the edge of the car, and plaintiff fell off the car to the ground.\n\u201cThe jury found that defendant was negligent \u2018in allowing the ventilator plug to be in the position it was at the time of the occasion in question,\u2019 and that such negligence was a proximate cause of plaintiff\u2019s injury. The jury also found that defendant was negligent in failing to have the ventilator plug fastened, and that such negligence was a proximate cause of plaintiff\u2019s injury. The jury found in favor of plaintiff on the several issues of contributory negligence submitted to them.\n\u201cDefendant\u2019s points of error raise the following questions: Whether the undisputed evidence shows contributory negligence on the part of plaintiff as a matter of law. Whether there is any evidence of negligence on the part of defendant. Excessiveness of the verdict.\u201d\nWe also agree with the Court of Civil Appeals that the undisputed evidence did not show contributory negligence as a matter of law on the part of Roberts, and that the jury\u2019s finding on this question should not be set aside. We agree with the Court\u2019s reasoning upon this question and that its citation of authorities sustains its decision on this point. See also the addendum of the Supreme Court to Trochta v. Missouri, K. & T. Ry Co. (Com. App.), 218 S. W. 1038.\nThe Court of Civil Appeals recognizes as the more difficult question in the case, whether there was any evidence to show the Company was negligent in either of the two particulars in which the jury found negligence, referred to above; but found upon considering the evidence, that \u201cit did no more than show that a dangerous condition existed\u201d upon the car from which the switchman fell and that the evidence did not raise the issue that the Company was negligent 'with respect to such condition. We are not in accord with this conclusion aiid granted the writ of error upon petitioner\u2019s three points which, taken together, allege substantially that the Court of Civil Appeals erred in holding, in effect, that there was no evidence of negligence on the part of the Company to support the inference that it brought about the dangerous condition which existed; or, stating it another way, the circumstantial evidence relied upon as supporting an inference of negligence on the part of the Company in bringing about the dangerous condition was not legally sufficient to support the jury\u2019s findings of negligence.\nWe adhere to the view indicated in granting the writ and hold that the jury\u2019s finding that the Company was negligent \u201cin allowing the ventilator plug to be in the position it was\u201d at the time of the accident, finds support in the evidence. In other words we hold that since it appears there was evidence, in addition to Roberts\u2019 direct evidence, tending to prove that the car upon which Roberts was sent was in a dangerous condition which proximately caused him to fall therefrom, and it further appeared that the Company had had possession of the car for an undetermined length of time and offered no proof to explain the dangerous condition it was in, or to excuse itself from fault, the evidence was sufficient to raise an inference of the Company\u2019s negligence and to support the jury\u2019s finding that it was negligent \u201cin allowing the ventilator plug to be in the position it was\u201d at the time in question. Washington v. Missouri K. & T. Ry. Co. of Texas, 90 Texas 314, 38 S. W. 764; McCray v. Galveston H. & S. A. Ry. Co., 89 Texas 168, 34 S. W. 95; Texas & St. Louis v. Suggs, 62 Texas 323; Texas & N. O. Ry Co. v. Crowder, 63 Texas 502; Burlington & R. I. Railroad Co. v. Jack Ellison et al., 140 Texas 353, 167 S. W. (2d) 723; Missouri, K. & T. Co. v. Cassady, 108 Texas 61, 184, S. W. 180; Gulf C. & S. F. Ry. Co. v. Dunman, 27 S. W. (2d) 116; 72 A. L. R. 90; Wichita Falls Traction Co. v. Elliott, 125 Texas 248, 81 S. W. (2d) 659; Billingsley et al v. Texas & N. O. Ry. Co., 131 Texas 410, 115 S. W. (2d) 398; Houston Gas Co. v. Perry, 55 S. W. (2d) 901, 904, affd., 127 Texas 102, 91 S. W. (2d) 1052; Sims v. Dallas Ry. & Ter. Co., 135 S. W. (2d) 142; Penrod Drilling Co. v. Silvertooth, 144 S. W. (2d) 337, dis. cor. judg.; 30 Texas Jur., Negligence, sec. 132, p. 807.\nAs early in our judicial history as Chief Justice Gaines\u2019 opinion in Washington v. Missouri, K. & T. Ry. Co. (Supra), it was stated as a rule of law that \u201cwhere the particular thing causing the injury has been shown to be under the management of the defendant, * * *, and the accident is such as in the ordinary course of things does not happen if those who have the management use proper care, it affords reasonable evidence, in the absence of explanation, that the accident arose from want of care.\u201d Chief Justice Gaines in applying the rule in the Washington case in which the evidence of negligence on the part of the railway company was wholly circumstantial, said, \u201cBut while the naked fact that an accident has happened may be no evidence of negligence, yet the character of the accident and the circumstances in proof attending it may be such as to lead reasonably to the belief that, without negligence, it would not have occurred.\u201d In the very recent case of Burlington & R. I. Ry. Co. v. Ellison this Court speaking through Justice Critz, held that to hold that plaintiff is required to exclude the probability that the accident might have occurred some other way would impose upon him the burden of establishing his case beyond a reasonable doubt.\nIn the present case the car upon which the dangerous condition existed, and which caused Roberts to fall, had been standing in the Company\u2019s Lancaster yards at Fort Worth for an unstated length of time. It was a foreign car and had been received and placed upon its tracks from which the switching crew was later sent to move it. It was in the Company\u2019s possession and had theretofore been received by it. It was standing in its own yards with a number of other cars which were to be moved to Belt Junction. Roberts as one of the switching crew was sent on this mission. It was his duty to release the hand brakes from the entire string of cars and he went upon the car from which he fell for that purpose. He lived to tell how the accident occurred and what caused his fall; and established, as held by the courts below, by the jury\u2019s finding upon contributory negligence, that he, as he alleged, was not at fault, thus bringing the case within the rule quoted by Chief Justice Stay ton in the Crowder case, as well as within the McCray case and other similar cases cited supra, as will presently appear.\nThe car was a refrigerator car upon each corner of which was an ice well, or bunker, the openings thereto being on top. of the car. Inside of each well under the cover, when in proper place, was a plug,- 30 by 36 inches and four inches thick. Roberts testified that the plug was lying on top of the well\u2019s outside cover; that in passing from where he had just released a \u201e hand brake to the corner of the car to climb down he stepped on the plug which was lying in his path; that not being properly fastened it skidded under him and fell with him to the ground. He testified that it was lying on top of the hatch cover, and was supposed to be fastened with a chain or hinges; that it was necessary for him to go over the hatchway to get to his ladder; that it was in a place where from his past observation and experience he would expect it to be fastened; that he had been a switch-man or brakeman for about fifteen years and that in his years of railroading he had stepped on hundreds of them; that he stepped on the plug in order to get over to the corner of the car to climb down and that it caused him to fall by skidding under him. He said: \u201cI expected it to be fastened because all I ever noticed were fastened.\u201d Mr. Rugg, testifying as a witness called by the Company, when asked if he had had occasion \u201cto observe those ventilation plugs\u201d and whether they are \u201cfastened to the car in some other way,\u201d replied that they were, and further stated that they are usually fastened \u201cwith a chain.\u201d\nThe Company is in error in its contention that Roberts\u2019 recovery, if permitted to stand, is by virtue of applying the res ipsa loquitur doctrine rather than what is frequently referred to as the res ipsa evidence rule, which doctrine, he insists, cannot be invoked here. As was true in the Billingsley case, and as there stated, \u201cit is not necessary to determine whether, in view of plaintiff\u2019s pleadings, the rule of res ipsa loquitur is applicable. * * *. Regardless of whether the rule is invoked the evidence supports the verdict and judgment.\u201d In both the McCray case and the present case plaintiffs relied upon specific acts of negligence. As shown by the opinion of the Court of Civil Appeals in the McCray case, (32 S. W. 548) plaintiff alleged that the train was being run at a negligent rate of speed and that the rails directly in front of the car on which deceased was riding in performance of his duty were not securely fastened and that one of the rails fell and killed deceased and that his death was caused by the fast rate of speed \u201cand the negligent way in which the rail was placed and held on the car.\u201d Specific acts of negligence were there alleged and the decision of the case by this Court did not rest upon the doctrine of res ipsa loquitur, but, as pointed out by Chief Justice Phillips in Railway Company v. Cassady, rested upon the \u201crule * * * announced in McCray v. Railway Company, that circumstances of a particular accident may themselves furnish proof of negligence.\u201d The McCray case rule referred to is incorporated in the following excerpt from the opinion:\n\u201c * *. It is not that in every case negligence can be assumed from the mere fact of the accident and the injury, but in these cases the surrounding- circumstances, which are necessarily brought into view by showing how the accident occurred, contain, without further proof, sufficient evidence of the defendant\u2019s duty and of his negligence to perform it. The fact of the casualty and the attendant circumstances may themselves furnish all the' proof of negligence that the injured person is able to offer, or that it is necessary to offer.\u2019 * * *. It toas the duty of the railroad company to place the cars in the hands of its employes in a condition reasonably safe to be handled by them in the course of transportation. If the car was not in such condition, either from defects in the car itself or on account of improperly loading the rails thereon, and the injury to the deceased resulted from such unsafe condition, the defendant would be liable for damages occasioned by reason of the injury. This car was in the keeping and under the control of the defendant. The loading of the rails was done by it by its servants; and if the accident was such that it would not probably have occurred, in the ordinary course of transportation, if the ca/r had been properly loaded, the circumstances attending the accident would furnish sufficient evidence to authorim a verdict for the plaintiffs if no explanations ivere given by the defendant. If there be an explanation which would excuse the defendant, it has the means of making the proof, and should do so; and the plaintiffs should not be required to negative every circumstance which might possibly arise whereby the accident might have occurred. The district court * * * should have submitted the case to the jury, under proper instructions, to determine from the evidence whether or not the defendant had been guilty of negligence, and whether that negligence caused the death of Jesse McCray.\u201d (All italics in this opinion ours.)\nSpecific acts of negligence were pleaded by Roberts, which it was necessary for him to establish in order to make out his case, \u2014 among others the following:\n\u201c* * * that on the occasion in question the inside plug had been lifted out of the ventilator, and the outside cover had been lowered back into its place, thus closing the ventilator opening, and the inside plug or cover had been placed on top of the said outside cover which was then in its place closing the ventilator shaft; * * * that it was the customary practice for the defendant\u2019s employes who handled the said ventilator covers to have the inside plug fastened and held as aforesaid whenever it was out -of the ventilator shaft and was resting on top of the car, so that it would not skid or fall from the top of the car, and on the occasion of his injury he stepped on the said plug * * * on the assumption it was * * * fastened and held in place and would not skid or fall; and * * * that if it had been so fastened and held in place * * * it would not have skidded and slipped under his feet, and he would not have fallen * *\nIn addition to apprizing the Company of the foregoing facts intended to be proved, Roberts apprized it by his allegations of the specific acts inquired about in the two special issues submitted to the jury. The following excerpt of the findings upon which the trial court predicated the judgment in his favor disclose the nature the specific acts alleged:\n\u201cThe findings of the jury on which the court bases this judgment are in response to special issues 1 to 7 inclusive, the effect of which was to find that the plaintiff was injured as the proximate result of the defendant\u2019s negligence with respect to the position and situation of the elevator plug; and the findings in response to special issues numbers 8, 9, 12, 15 and 18, to the effect that plaintiff was not negligent in failing to avoid stepping on the plug, or in failing to keep a proper lookout for his own safety, or in stepping upon the plug, or in not moving the plug from his pathway. And the finding in response to special issue Number 21 that the. plaintiff\u2019s fall was not the result of an unavoidable accident.\u201d\nRoberts in no wise relied upon the. mere happening of the accident in making out his case. The evidence, in addition to .the occurrence of his fall from the car, is set out above. It raises the questions submitted to the jury and supports the findings upon which the trial court\u2019s judgment was based.\nIt is unnecessary, in view of the pleadings and a state of facts from which the jury could properly draw an inference of negligence, to discuss at any length the three Supreme Court cases relied upon by the Court of Civil Appeals to sustain its action in reversing the trial court\u2019s judgment because he submitted the negligence issues to the jury. This Court in distinguishing the facts of Billingsley v. Texas & N. O. Ry. Co. from those in Texas & Pac. Ry Co. v. Endsley, 103 Texas 434, 129 S. W. 342, (relied upon by the Court of Civil Appeals), did so in part upon the ground that the facts of the former showed more definitely than those of the latter how the accident occurred and what caused it, and cited the McCray case among others as upholding the distinction. The circumstances showing how the accident occurred and what caused it in the present case were not only definite but undisputed as well, as appears from the evidence. The same Justice wrote the opinions in both the McCray and Endsley cases, and found nothing in the Endsley case to invoke the settled rule above referred to which he applied in the McCray case. The failure to explain in such cases, as required by the rule, is but an added circumstance which tends to strengthen the inference of negligence raised by the evidence.\nThe case of Texas & P. Coal Co. v. Kowsikowsiki, 103 Texas 173, 125 S. W. 3, is not in point. The opinion in that case points out that it did not appear that the particular thing which caused the injury was in the exclusive management of the defendant. Nor is the case of Missouri, K. & T. Ry. Co. v. Jones, 103 Texas 187, 125 S. W. 309, controlling here for a similar reason. The Court (of which Justice Brown who wrote the opinions in the McCray and Endsley cases was still a member) was careful to distinguish the Jones case from both the McCray and Washington cases.\nThe Company in the present case in its brief in the Court of Civil Appeals urged other assignments of error all of which, save the assignment alleging excessiveness of the verdict, are disposed of by our conclusion that there was evidence to support the findings of the jury upon which the judgment was based. The question of excessiveness is likewise the only question not disposed of in effect by the opinion of the Court of Civil Appeals. We have no jurisdiction to pass upon the question of excessiveness and for this reason, instead of affirming the trial court\u2019s judgment upon our reversal of the judgment of the Court of Civil \u2022 Appeals, which is here ordered, we remand the case to that Court to pass upon the question of excessiveness.\nThe judgment of the Court of Civil Appeals is reversed and the cause is remanded to that Court for the purpose stated.\nOpinion adopted by the Supreme Court May 17,1944.",
+        "type": "majority",
+        "author": "Mr. Judge Taylor"
+      }
+    ],
+    "attorneys": [
+      "Marvin B. Simpson and Robt. Harrison, both of Fort Worth, for petitioner.",
+      "Samuels, Brown, Herman & Brown, of Fort Worth, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "G. A. Roberts v. Texas and Pacific Railway Company\nNo. A-57.\nDecided May 17, 1944.\n(180 S. W., 2d Series, 330.)\nMarvin B. Simpson and Robt. Harrison, both of Fort Worth, for petitioner.\nThe Court of Civil Appeals erred in its holding that there was no evidence to show negligence on the part of the railway company; and that it was the duty of plaintiff to establish by direct evidence the dangerous condition on top of the car where he was required to work. Houston Gas & Fuel Co. v. Perry, 127 Texas 102, 91 S. W. (2d) 1052; McCray v. Galveston, H. & S. Ry. Co. 89 Texas 168, 34 S. W. 95; Billingsley v. Texas & N. O. Ry. Co., 131 Texas 410, 115 S. W. (2d) 398.\nSamuels, Brown, Herman & Brown, of Fort Worth, for respondent.\nThere being no evidence to show that the defendant railway company had placed the hatch plug where it was on top of the car, or that it knew of its presence there, or that it had been there a sufficient length of time as that the railway company could in the exercise of ordinary care have known of its presence on the car in question, the Court of Civil Appeals made no error in holding that plaintiff had not shown negligence on the part of the defendant railway company. Neither did it err in holding that plaintiff by simply proving that he was injured discharge the burden of proving negligence on the part of the railway company. Texas & Pac. Ry Co. v Endsley, 103 Texas 434, 129 S. W. 342; Missouri, K. & T. Ry Co. v. Jones, 103 Texas 187, 125 S. W. 309; Texas & Pac. Ry. Co. v. Greene, 299 S. W. 639."
+  },
+  "file_name": "0550-01",
+  "first_page_order": 568,
+  "last_page_order": 577
+}

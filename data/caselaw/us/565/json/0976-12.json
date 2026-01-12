@@ -1,0 +1,59 @@
+{
+  "id": 12230172,
+  "name": "Stryker Corp. et al. v. Bausch",
+  "name_abbreviation": "Stryker Corp. v. Bausch",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-2",
+  "first_page": "976",
+  "last_page": "976",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 976"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 76,
+    "ocr_confidence": 0.615,
+    "sha256": "383140d6576c5c15ba1deeb14af5e2880508af4625ea433deaadc9ecfc7170ef",
+    "simhash": "1:0249c4b96f6e5c68",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Stryker Corp. et al. v. Bausch."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-2.\nStryker Corp. et al. v. Bausch."
+  },
+  "file_name": "0976-12",
+  "first_page_order": 1058,
+  "last_page_order": 1058
+}

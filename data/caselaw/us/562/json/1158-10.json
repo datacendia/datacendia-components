@@ -1,0 +1,59 @@
+{
+  "id": 5995370,
+  "name": "Salinas Bautista v. United States",
+  "name_abbreviation": "Salinas Bautista v. United States",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7685",
+  "first_page": "1158",
+  "last_page": "1158",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1158"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 82,
+    "ocr_confidence": 0.616,
+    "sha256": "ab11b12078b457d21daca4176587d59e19882dfeb7e647cd7d76db4ada8b4493",
+    "simhash": "1:0083a2232fa4a90c",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Salinas Bautista v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7685.\nSalinas Bautista v. United States."
+  },
+  "file_name": "1158-10",
+  "first_page_order": 1180,
+  "last_page_order": 1180
+}

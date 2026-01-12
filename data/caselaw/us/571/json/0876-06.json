@@ -1,0 +1,68 @@
+{
+  "id": 12703079,
+  "name": "In re GRAND JURY PROCEEDINGS.",
+  "name_abbreviation": "In re Proceedings",
+  "decision_date": "2013-10-07",
+  "docket_number": "No. 12\u201310921.",
+  "first_page": "876",
+  "last_page": "876",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 876"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 134"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 197"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 194,
+    "sha256": "9d4dd4c97fa7c34225ae8809d3423dd62ef5520a47f3a46c94d81bc10bea1782",
+    "simhash": "1:722f448c38250681",
+    "word_count": 33
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re GRAND JURY PROCEEDINGS."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of certiorari to the United States Court of Appeals for the First Circuit denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re GRAND JURY PROCEEDINGS.\nNo. 12-10921.\nSupreme Court of the United States\nOct. 7, 2013.\nPetition for writ of certiorari to the United States Court of Appeals for the First Circuit denied."
+  },
+  "file_name": "0876-06",
+  "first_page_order": 876,
+  "last_page_order": 876
+}

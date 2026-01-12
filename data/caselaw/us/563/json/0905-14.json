@@ -1,0 +1,59 @@
+{
+  "id": 5908868,
+  "name": "Gibbs v. Bostic et al.",
+  "name_abbreviation": "Gibbs v. Bostic",
+  "decision_date": "2011-03-28",
+  "docket_number": "No. 10-8461",
+  "first_page": "905",
+  "last_page": "905",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 905"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 70,
+    "ocr_confidence": 0.571,
+    "sha256": "000d60e1e604eed8bd01dc2caa776737e22da5734b73be1ece064bb03df9cc50",
+    "simhash": "1:9809ecf013790793",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gibbs v. Bostic et al."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. S. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8461.\nGibbs v. Bostic et al."
+  },
+  "file_name": "0905-14",
+  "first_page_order": 931,
+  "last_page_order": 931
+}

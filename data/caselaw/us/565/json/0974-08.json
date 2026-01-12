@@ -1,0 +1,98 @@
+{
+  "id": 12229990,
+  "name": "In re Disbarment of Losey",
+  "name_abbreviation": "In re Disbarment of Losey",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. D-2593",
+  "first_page": "974",
+  "last_page": "974",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 974"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "564 U. S. 1016",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5925185,
+        5932136,
+        4331498,
+        12450891,
+        12450892,
+        12450893,
+        12450894,
+        12450895,
+        12450896,
+        12450897,
+        5930771,
+        4337461,
+        5930230,
+        4332953
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/564/1016-07",
+        "/us/564/1016-03",
+        "/us/564/1016-06",
+        "/l-ed-2d/180/0869-01",
+        "/l-ed-2d/180/0869-02",
+        "/l-ed-2d/180/0869-03",
+        "/l-ed-2d/180/0869-04",
+        "/l-ed-2d/180/0869-05",
+        "/l-ed-2d/180/0869-06",
+        "/l-ed-2d/180/0869-07",
+        "/us/564/1016-01",
+        "/us/564/1016-05",
+        "/us/564/1016-04",
+        "/us/564/1016-02"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 107,
+    "ocr_confidence": 0.545,
+    "sha256": "041ad41328733ae2913be1ff1b4a1a34d6d0e07207ff9e07b02a8092e295e1dd",
+    "simhash": "1:bf3819afcfd0baa5",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Losey."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2593.\nIn re Disbarment of Losey.\n[For earlier order herein, see 564 U. S. 1016.]"
+  },
+  "file_name": "0974-08",
+  "first_page_order": 1056,
+  "last_page_order": 1056
+}

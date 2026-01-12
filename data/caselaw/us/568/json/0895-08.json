@@ -1,0 +1,59 @@
+{
+  "id": 12415272,
+  "name": "Jones v. CitiMortgage, Inc., et al.",
+  "name_abbreviation": "Jones v. CitiMortgage, Inc.",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5106",
+  "first_page": "895",
+  "last_page": "895",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 895"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 83,
+    "ocr_confidence": 0.611,
+    "sha256": "8fb94f5c0a1500f10774cc829df78c477d5c9fa2f2db9a07fa6e798ed8959785",
+    "simhash": "1:92c8d3e0790ab777",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jones v. CitiMortgage, Inc., et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5106.\nJones v. CitiMortgage, Inc., et al."
+  },
+  "file_name": "0895-08",
+  "first_page_order": 971,
+  "last_page_order": 971
+}

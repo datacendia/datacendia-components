@@ -1,0 +1,59 @@
+{
+  "id": 6033492,
+  "name": "Sheets, aka Walker v. Georgia",
+  "name_abbreviation": "Sheets v. Georgia",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-7552",
+  "first_page": "1186",
+  "last_page": "1186",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1186"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.589,
+    "sha256": "cb7e3bd1f40e7a9ff97e7ec027ce74c0f582b6993ec926b1c26db9b44fcdf53f",
+    "simhash": "1:4a147b9650c8e405",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sheets, aka Walker v. Georgia."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ga. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7552.\nSheets, aka Walker v. Georgia."
+  },
+  "file_name": "1186-11",
+  "first_page_order": 1208,
+  "last_page_order": 1208
+}

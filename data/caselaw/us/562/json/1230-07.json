@@ -1,0 +1,59 @@
+{
+  "id": 5947105,
+  "name": "Luke v. Alabama",
+  "name_abbreviation": "Luke v. Alabama",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-7953",
+  "first_page": "1230",
+  "last_page": "1230",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1230"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 69,
+    "ocr_confidence": 0.638,
+    "sha256": "8380a8d05b7f6e26f73aaa38b405bbd0de4982e624dfd4a23039752d7f849607",
+    "simhash": "1:0662015611ca8300",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Luke v. Alabama."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Ala. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7953.\nLuke v. Alabama."
+  },
+  "file_name": "1230-07",
+  "first_page_order": 1252,
+  "last_page_order": 1252
+}

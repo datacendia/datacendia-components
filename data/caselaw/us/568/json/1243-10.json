@@ -1,0 +1,59 @@
+{
+  "id": 12433694,
+  "name": "Santos v. United States",
+  "name_abbreviation": "Santos v. United States",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-8761",
+  "first_page": "1243",
+  "last_page": "1243",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1243"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.606,
+    "sha256": "84e330cb5fda6020cfccb42b689582789126bcd7596442622ac00f28bc7ba224",
+    "simhash": "1:862ad203c9da9d2f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Santos v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8761.\nSantos v. United States."
+  },
+  "file_name": "1243-10",
+  "first_page_order": 1319,
+  "last_page_order": 1319
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12428151,
+  "name": "Refine v. Illinois",
+  "name_abbreviation": "Refine v. Illinois",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-6649",
+  "first_page": "1094",
+  "last_page": "1094",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1094"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.643,
+    "sha256": "78ea4a4efc6a73030aad614bfea28a6104e890a50f36e28f873eaa553838867b",
+    "simhash": "1:41a5dffd7531bd7b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Refine v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 4th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6649.\nRefine v. Illinois."
+  },
+  "file_name": "1094-03",
+  "first_page_order": 1170,
+  "last_page_order": 1170
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12238334,
+  "name": "Simmons v. United States",
+  "name_abbreviation": "Simmons v. United States",
+  "decision_date": "2011-12-12",
+  "docket_number": "No. 11-7181",
+  "first_page": "1098",
+  "last_page": "1098",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1098"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.678,
+    "sha256": "379a6dee9e9e45339cd90b5ccac70fb2b9f87c4f8770e57b0543ddbd25185e57",
+    "simhash": "1:d78ad383094f9c67",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Simmons v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7181.\nSimmons v. United States."
+  },
+  "file_name": "1098-03",
+  "first_page_order": 1180,
+  "last_page_order": 1180
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12424532,
+  "name": "Nicolaison v. Minnesota",
+  "name_abbreviation": "Nicolaison v. Minnesota",
+  "decision_date": "2012-11-26",
+  "docket_number": "No. 12-5901",
+  "first_page": "1031",
+  "last_page": "1031",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1031"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 72,
+    "ocr_confidence": 0.719,
+    "sha256": "1010ed5f37364c63c0a5f400aada94bdec01bed4167a53dfc33fac92412f80c3",
+    "simhash": "1:7286329a9cc4b7bb",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Nicolaison v. Minnesota."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Minn. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5901.\nNicolaison v. Minnesota."
+  },
+  "file_name": "1031-01",
+  "first_page_order": 1107,
+  "last_page_order": 1107
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12434147,
+  "name": "H. O. S. v. United States",
+  "name_abbreviation": "H. O. S. v. United States",
+  "decision_date": "2013-03-25",
+  "docket_number": "No. 12-8841",
+  "first_page": "1256",
+  "last_page": "1256",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1256"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 75,
+    "ocr_confidence": 0.631,
+    "sha256": "0abf2e72fc68e3338c4f610a24c11583601960b836d57c533e60d1f34ed4b411",
+    "simhash": "1:0008a88a2f810118",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "H. O. S. v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8841.\nH. O. S. v. United States."
+  },
+  "file_name": "1256-13",
+  "first_page_order": 1332,
+  "last_page_order": 1332
+}

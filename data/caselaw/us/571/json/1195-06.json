@@ -1,0 +1,68 @@
+{
+  "id": 12701280,
+  "name": "In re James Bradley HAAG, petitioner.",
+  "name_abbreviation": "In re Haag",
+  "decision_date": "2014-02-24",
+  "docket_number": "No. 13\u20138235.",
+  "first_page": "1195",
+  "last_page": "1195",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 1195"
+    },
+    {
+      "type": "parallel",
+      "cite": "188 L. Ed. 2d 361"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 1347"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 23,
+    "char_count": 145,
+    "sha256": "54a7c6eda26f8b1e313f8af87c0937b3469cd18be4288332d8e883be065c61da",
+    "simhash": "1:7977345a1f934505",
+    "word_count": 24
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re James Bradley HAAG, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of habeas corpus denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re James Bradley HAAG, petitioner.\nNo. 13-8235.\nSupreme Court of the United States\nFeb. 24, 2014.\nPetition for writ of habeas corpus denied."
+  },
+  "file_name": "1195-06",
+  "first_page_order": 1195,
+  "last_page_order": 1195
+}

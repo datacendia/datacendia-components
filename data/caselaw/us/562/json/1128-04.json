@@ -1,0 +1,92 @@
+{
+  "id": 5929644,
+  "name": "Jackson v. United States; Beltran v. United States",
+  "name_abbreviation": "Jackson v. United States",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 09-9487; No. 10-5852",
+  "first_page": "1128",
+  "last_page": "1128",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1128"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "559 U. S. 133",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12446767,
+        3581927
+      ],
+      "year": 2010,
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/176/0001-01",
+        "/us/559/0133-01"
+      ]
+    },
+    {
+      "cite": "367 Fed. Appx. 984",
+      "category": "reporters:federal",
+      "reporter": "Fed. Appx.",
+      "year": 2010,
+      "opinion_index": 0
+    },
+    {
+      "cite": "355 Fed. Appx. 297",
+      "category": "reporters:federal",
+      "reporter": "Fed. Appx.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 49,
+    "char_count": 417,
+    "ocr_confidence": 0.632,
+    "pagerank": {
+      "raw": 4.688403287882615e-08,
+      "percentile": 0.17529087341333213
+    },
+    "sha256": "f0d236408903b43f6ec50bdeceb1693da080185ed01e6b38d5e78b0a7a0aa950",
+    "simhash": "1:e4009b1749a78018",
+    "word_count": 68
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jackson v. United States. Beltran v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Reported below: 355 Fed. Appx. 297; and\nC. A. 11th Cir. Reported below: 367 Fed. Appx. 984. Motions of petitioners for leave to proceed informa pauperis granted. Certiorari granted, judgments vacated, and cases remanded for further consideration in light of Johnson v. United States, 559 U. S. 133 (2010).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "January 10, 2011\nNo. 09-9487.\nNo. 10-5852.\nJackson v. United States. Beltran v. United States."
+  },
+  "file_name": "1128-04",
+  "first_page_order": 1150,
+  "last_page_order": 1150
+}

@@ -1,0 +1,986 @@
+{
+  "id": 12521363,
+  "name": "UNITED STATES of America, Plaintiff - Appellee v. Stephen GUSTUS, Defendant - Appellant",
+  "name_abbreviation": "United States v. Gustus",
+  "decision_date": "2019-06-14",
+  "docket_number": "No. 18-2303",
+  "first_page": "1037",
+  "last_page": "1044",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "926 F.3d 1037"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "8th Cir.",
+    "id": 8821,
+    "name": "United States Court of Appeals for the Eighth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "18 U.S.C. \u00a7 1114",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "792 F.3d 962",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4276048
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "973"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/792/0962-01"
+      ]
+    },
+    {
+      "cite": "715 F.3d 238",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3566312
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "247",
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/715/0238-01"
+      ]
+    },
+    {
+      "cite": "881 F.3d 629",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275225
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "633",
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/881/0629-01"
+      ]
+    },
+    {
+      "cite": "644 F.3d 646",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5647457
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "652"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/644/0646-01"
+      ]
+    },
+    {
+      "cite": "654 F.3d 794",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5875868
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "800",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/654/0794-01"
+      ]
+    },
+    {
+      "cite": "481 F.3d 1054",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3868824
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "1070"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/481/1054-01"
+      ]
+    },
+    {
+      "cite": "667 F.2d 695",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        463949
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "696",
+          "parenthetical": "\"Specific intent is an essential element of the crime of assaulting a federal officer in the performance of his duties.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/667/0695-01"
+      ]
+    },
+    {
+      "cite": "785 F.3d 282",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4182508
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "284"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/785/0282-01"
+      ]
+    },
+    {
+      "cite": "839 F.3d 701",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12176400
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "709",
+          "parenthetical": "\"We review the sufficiency of the evidence in a jury trial de novo, but examine the evidence in the light most favorable to the jury's verdict, resolving factual disputes and accepting all reasonable inferences in support of the verdict.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/839/0701-01"
+      ]
+    },
+    {
+      "cite": "613 F.3d 735",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3703984
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "744",
+          "parenthetical": "\"[W]hen the refusal of a proffered instruction ... denies a legal defense, the correct standard of review is de novo ....\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/613/0735-01"
+      ]
+    },
+    {
+      "cite": "618 F.2d 1261",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1380672
+      ],
+      "weight": 2,
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "1265"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/618/1261-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1291",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 111",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        },
+        {
+          "page": "(a)(1)"
+        },
+        {
+          "page": "(a)(1)"
+        },
+        {
+          "page": "(a)(1)"
+        },
+        {
+          "page": "(a)(1)"
+        },
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "500 F.3d 678",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3698678
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "684"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/500/0678-01"
+      ]
+    },
+    {
+      "cite": "633 F.2d 77",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1298062
+      ],
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "88",
+          "parenthetical": "explaining that assault with intent to commit rape requires the specific intent to commit rape"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/633/0077-01"
+      ]
+    },
+    {
+      "cite": "652 F.2d 220",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1251466
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "222-23",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/652/0220-01"
+      ]
+    },
+    {
+      "cite": "680 F.2d 378",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        548731
+      ],
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "381"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/680/0378-01"
+      ]
+    },
+    {
+      "cite": "931 F.2d 685",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1801886
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "687"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/931/0685-01"
+      ]
+    },
+    {
+      "cite": "553 F.2d 1073",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        970864
+      ],
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "1076",
+          "parenthetical": "taking opposite approach"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/553/1073-01"
+      ]
+    },
+    {
+      "cite": "865 F.2d 211",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10525484
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "214-15"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/865/0211-01"
+      ]
+    },
+    {
+      "cite": "27 F.3d 586",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5706377,
+        10528572
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "592"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us-app-dc/307/0136-01",
+        "/f3d/27/0586-01"
+      ]
+    },
+    {
+      "cite": "146 F.3d 492",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11810644
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "497"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/146/0492-01"
+      ]
+    },
+    {
+      "cite": "246 F.3d 800",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11110690
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "808"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/246/0800-01"
+      ]
+    },
+    {
+      "cite": "592 F. App'x 164",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        4345293
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "166",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f-appx/592/0164-01"
+      ]
+    },
+    {
+      "cite": "523 U.S. 224",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11503479
+      ],
+      "weight": 3,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "228"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/523/0224-01"
+      ]
+    },
+    {
+      "cite": "16 F.3d 850",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10530929
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "853",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/16/0850-01"
+      ]
+    },
+    {
+      "cite": "852 F.3d 778",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12277579
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "783",
+          "parenthetical": "approving similar instruction"
+        },
+        {
+          "page": "783"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/852/0778-01"
+      ]
+    },
+    {
+      "cite": "942 F.2d 1241",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10529043
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "1250"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/942/1241-01"
+      ]
+    },
+    {
+      "cite": "828 F.3d 705",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4337376
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "711"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/828/0705-01"
+      ]
+    },
+    {
+      "cite": "290 U.S. 389",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3921887
+      ],
+      "weight": 3,
+      "year": 1933,
+      "pin_cites": [
+        {
+          "page": "394"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/290/0389-01"
+      ]
+    },
+    {
+      "cite": "325 U.S. 91",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6155867
+      ],
+      "weight": 5,
+      "year": 1945,
+      "pin_cites": [
+        {
+          "page": "101",
+          "parenthetical": "quoting United States v. Murdock, 290 U.S. 389, 394, 54 S.Ct. 223, 78 L.Ed. 381 (1933) "
+        },
+        {
+          "parenthetical": "quoting United States v. Murdock, 290 U.S. 389, 394, 54 S.Ct. 223, 78 L.Ed. 381 (1933) "
+        },
+        {
+          "parenthetical": "quoting United States v. Murdock, 290 U.S. 389, 394, 54 S.Ct. 223, 78 L.Ed. 381 (1933) "
+        },
+        {
+          "page": "101"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/325/0091-01"
+      ]
+    },
+    {
+      "cite": "562 F.2d 601",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        885887
+      ],
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "606-07",
+          "parenthetical": "discussing, prior to Hanson, jury instructions requiring the defendant to act willfully"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/562/0601-01"
+      ]
+    },
+    {
+      "cite": "691 F.2d 1275",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1478123
+      ],
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "1280"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/691/1275-01"
+      ]
+    },
+    {
+      "cite": "10 F.3d 578",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10509843
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "580-81",
+          "parenthetical": "citing Potter v. United States, 691 F.2d 1275, 1280 (8th Cir. 1982) "
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/10/0578-01"
+      ]
+    },
+    {
+      "cite": "831 F.3d 1153",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6055871
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1156",
+          "parenthetical": "\"[C]ommon law assault is a specific intent crime ....\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/831/1153-01"
+      ]
+    },
+    {
+      "cite": "255 F.3d 907",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11089734
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "911-12"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/255/0907-01"
+      ]
+    },
+    {
+      "cite": "562 F.2d 563",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        885750
+      ],
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "564",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/562/0563-01"
+      ]
+    },
+    {
+      "cite": "304 F.3d 818",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11402370
+      ],
+      "weight": 2,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "821-23"
+        },
+        {
+          "page": "822"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/304/0818-01"
+      ]
+    },
+    {
+      "cite": "12 F.3d 1436",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10535332
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "1443",
+          "parenthetical": "citing Hanson, 618 F.2d at 1265, and Manelli, 667 F.2d at 696 "
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/12/1436-01"
+      ]
+    },
+    {
+      "cite": "420 U.S. 671",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11644460
+      ],
+      "weight": 4,
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "684"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/420/0671-01"
+      ]
+    },
+    {
+      "cite": "136 S. Ct. 2272",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12598062
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "2278"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/s-ct/136/2272-01"
+      ]
+    },
+    {
+      "cite": "444 U.S. 394",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11306594
+      ],
+      "weight": 3,
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "404-05"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/444/0394-01"
+      ]
+    },
+    {
+      "cite": "606 F.3d 943",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3679518
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "954",
+          "parenthetical": "cleaned up"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/606/0943-01"
+      ]
+    },
+    {
+      "cite": "654 F.3d 794",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5875868
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "800"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/654/0794-01"
+      ]
+    },
+    {
+      "cite": "481 F.3d 1054",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3868824
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "1070"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/481/1054-01"
+      ]
+    },
+    {
+      "cite": "667 F.2d 695",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        463949
+      ],
+      "weight": 2,
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "696"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/667/0695-01"
+      ]
+    },
+    {
+      "cite": "618 F.2d 1261",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1380672
+      ],
+      "weight": 6,
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "1265"
+        },
+        {
+          "page": "1265"
+        },
+        {
+          "page": "1265"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/618/1261-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 111",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 1
+    }
+  ],
+  "analysis": {
+    "cardinality": 1047,
+    "char_count": 21477,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2593404094215532
+    },
+    "sha256": "37829c789b2e3fc6db0bc531c419d479553c07b6e66bdac24d66de8633d8cbd8",
+    "simhash": "1:9b60ebe5e23f6222",
+    "word_count": 3479
+  },
+  "last_updated": "2024-02-27T18:46:44.951673+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before BENTON, MELLOY, and KELLY, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff - Appellee\nv.\nStephen GUSTUS, Defendant - Appellant"
+    ],
+    "opinions": [
+      {
+        "text": "MELLOY, Circuit Judge.\nFollowing a jury trial, Defendant Stephen Gustus appeals his conviction under 18 U.S.C. \u00a7 111(a)(1) for assaulting a United States Postal Service employee. Having jurisdiction under 28 U.S.C. \u00a7 1291, we affirm in part and reverse in part.\nI. Background\nThe following facts are presented in a light most favorable to the verdict. On December 21, 2016, a Postal Service employee named Julio Gonzalez was unexpectedly tackled from behind by a man wearing nothing but a pair of shoes and a bed comforter. The man was later identified as Gustus. Gonzalez fell to the ground, and Gustus jumped into Gonzalez's mail truck. Gonzalez got up and physically engaged Gustus in the truck, punching him three or four times before slipping and falling to the ground again. At some point after this second fall, Gonzalez grabbed hold of Gustus's comforter. Gustus jumped out of the truck and kicked Gonzalez in the arm until he released the comforter. Gustus then fled on foot. Gonzalez ran into a nearby field to keep an eye on Gustus and called 911. Gonzalez lost sight of Gustus, but a police officer was able to locate him soon thereafter.\nWhen the officer encountered Gustus, Gustus would not respond to the officer's commands. Instead, he merely stared up at the sky. After several unsuccessful attempts to get Gustus to sit down with hands behind his back, the officer threatened to use pepper spray. The officer observed Gustus clench his hands into fists as if \"he was getting ready to fight.\" The officer then sprayed a burst of pepper spray, hitting Gustus in the face. Gustus immediately sat down, and the officer placed him in handcuffs and called for medical personnel to take Gustus to a nearby healthcare facility.\nGustus was eventually charged with \"voluntarily and intentionally forcibly assault[ing], imped[ing] and interfer[ing] with an employee of the United States while the employee was engaged in and on account of the performance of official duties,\" a violation of 18 U.S.C. \u00a7 111(a)(1). Gustus pled not guilty to the offense and prepared to present a defense that he was voluntarily intoxicated and lacked the specific intent to assault Gonzalez. He proffered a jury instruction on intoxication to that effect. The government responded by filing a motion in limine, arguing that our opinion in United States v. Hanson, 618 F.2d 1261 (8th Cir. 1980), established that \u00a7 111(a)(1) assaults are general-intent crimes for which a voluntary-intoxication defense is unavailable. The district court granted the government's motion and prohibited Gustus from presenting a voluntary-intoxication defense.\nA two-day trial ensued. The government called several witnesses, including: Gonzalez; the 911 operator who fielded Gonzalez's call; the officer who apprehended Gustus; a postal inspector; medical personnel who treated Gonzalez; and Gonzalez's supervisor who visited Gonzalez at the site of the incident and took him to receive medical treatment. Gustus did not call any witnesses but moved for a judgment of acquittal. The district court denied the motion, and the jury found Gustus guilty of assaulting Gonzalez. The district court sentenced Gustus to time served followed by two years of supervised release. As part of the supervised release, the district court orally imposed the following special condition:\nHe'll have to participate, of course, in a substance abuse treatment program under the guidance and supervision of the probation office. And that might include drug testing, alcohol testing, outpatient counseling, residential treatment. He can't use any alcohol during those sessions.\n....\n... He can't use any alcohol during the program of alcohol testing and outpatient counseling. He must pay for the cost [at a rate of $ 10 per session, with a total cost not to exceed $ 40 a month based on ability to pay as determined by the probation office. If he can't afford that, the copayment will be waived].\nAnd he'll be required to disclose his substance abuse history to prescribing physicians and allow the probation office to verify disclosure. ...\nThe district court clarified that the alcohol restriction applied while Gustus was receiving both substance abuse and mental health treatment. The final, written version of the special condition (\"Special Condition 5\") read as follows:\nYou must participate in a substance abuse treatment program under the guidance and supervision of the probation office. The program may include drug and alcohol testing, outpatient counseling, and residential treatment. You must abstain from the use of alcohol during supervision. You must pay for the cost of treatment at the rate of $ 10 per session, with the total cost not to exceed $ 40 per month, based on ability to pay as determined by the probation office. If you are financially unable to pay for the cost of treatment, the co-pay requirement will be waived. You must disclose your substance abuse history to prescribing physicians and allow the probation office to verify disclosure.\nGustus timely filed a notice of appeal.\nII. Discussion\nGustus presents three arguments on appeal: (1) the district court erred in denying him the opportunity to present a voluntary-intoxication defense; (2) there was insufficient evidence to convict him of assaulting Gonzalez; and (3) Special Condition 5 was broader than the oral version of the condition and should be modified. We address each argument in turn. Regarding the voluntary-intoxication defense and sufficiency-of-the-evidence arguments, we review the district court's judgment de novo. See United States v. Young, 613 F.3d 735, 744 (8th Cir. 2010) (\"[W]hen the refusal of a proffered instruction ... denies a legal defense, the correct standard of review is de novo ....\"); United States v. DeFoggi, 839 F.3d 701, 709 (8th Cir. 2016) (\"We review the sufficiency of the evidence in a jury trial de novo, but examine the evidence in the light most favorable to the jury's verdict, resolving factual disputes and accepting all reasonable inferences in support of the verdict.\"). We review the \"terms and conditions of supervised release for abuse of discretion.\" United States v. Phillips, 785 F.3d 282, 284 (8th Cir. 2015).\nThe district court did not err in preventing Gustus from presenting a voluntary-intoxication defense. \"Such a defense is ... unavailable\" to defendants being charged with violating 18 U.S.C. \u00a7 111(a)(1) because assaulting a federal employee is a general-intent crime. Hanson, 618 F.2d at 1265. Gustus argues that we should disregard Hanson because later decisions contain language to the effect that assaulting a federal employee is a specific-intent crime. See, e.g., United States v. Manelli, 667 F.2d 695, 696 (8th Cir. 1981) (\"Specific intent is an essential element of the crime of assaulting a federal officer in the performance of his duties.\"). He further argues that voluntary intoxication is a defense to specific-intent crimes. See United States v. Kenyon, 481 F.3d 1054, 1070 (8th Cir. 2007). We are bound to follow Hanson as it is the earliest of the conflicting opinions and \"should have controlled the subsequent panels.\" Mader v. United States, 654 F.3d 794, 800 (8th Cir. 2011) (en banc) (citation omitted). Consequently, we hold that Gustus was not entitled to present a voluntary-intoxication defense.\nWe also hold that sufficient evidence supports Gustus's conviction. Section 111(a)(1) makes it a crime to \"forcibly assault[ ], resist[ ], oppose[ ], impede[ ], intimidate[ ], or interfere[ ] with [a federal employee] while engaged in or on account of the performance of official duties.\" 18 U.S.C. \u00a7 111(a)(1). The parties agree that the government proved all of the elements of a \u00a7 111(a)(1) violation beyond a reasonable doubt except for the mens rea element, which they agree is voluntary and intentional. See United States v. Drapeau, 644 F.3d 646, 652 (8th Cir. 2011). Gustus argues that because he was intoxicated, his actions could not have been voluntary or intentional. We reject this argument as indistinguishable from his argument above that the district court erred in preventing him from presenting a voluntary-intoxication defense.\nGustus also argues that portions of Gonzalez's testimony at trial were not credible, making the evidence as a whole insufficient. Gonzalez, for example, made seemingly inconsistent statements about: (1) whether he was attacked while he was getting into his mail truck or while he was getting out; and (2) whether he had his keys in his hands during the attack. The credibility of a witness is \"within the province of the jury and virtually unreviewable on appeal.\" United States v. Thompson, 881 F.3d 629, 633 (8th Cir. 2018) (citation omitted). We are to \"resolve any credibility issues in favor of the verdict.\" United States v. Polk, 715 F.3d 238, 247 (8th Cir. 2013) (citation omitted). We do so here and reject Gustus's argument. His conviction was supported by sufficient, credible evidence.\nFinally, we agree that Special Condition 5 is broader than the condition the district court imposed orally. However, it is not entirely clear from the sentencing transcript and other portions of the record exactly how long the district court intended the alcohol-prohibiting condition to apply or whether that issue is moot. We therefore reverse the district court's judgment as to Special Condition 5 and remand for the district court to determine if the special condition is moot, and if not, to clarify the alcohol-prohibiting special condition of supervised release. See United States v. James, 792 F.3d 962, 973 (8th Cir. 2015).\nIII. Conclusion\nFor the reasons stated above, we affirm Gustus's conviction under 18 U.S.C. \u00a7 111(a)(1). We reverse the district court's judgment as to Special Condition 5 and remand for the district court to determine if the special condition is moot, and if not, to clarify the alcohol-prohibiting special condition of supervised release.\nWe note that Gustus's criminal judgment indicates he was convicted of violating 18 U.S.C. \u00a7\u00a7 111(a)(1) and 1114. Section 111(a)(1) references \u00a7 1114 for the purpose of defining the victim of the \u00a7 111(a)(1) assault. Section 1114 itself is a homicide statute that defines the qualifying victim, in relevant part, as \"any officer or employee of the United States ... while such officer or employee is engaged in ... official duties.\" 18 U.S.C. \u00a7 1114. To be clear, Gustus was convicted of assault, not homicide, and the references in his case to \u00a7 1114 are merely definitional.\nA presentence investigation report (\"PSR\") prepared after trial reveals that, at the time of the offense, Gustus showed multiple signs of being intoxicated, including smelling of intoxicants, using slurred speech, and having blood-shot eyes and unstable footing. The PSR further reveals that, at the healthcare facility, Gustus admitted to drinking alcohol and tested positive for amphetamines, methamphetamines, and marijuana.\nWe note from the district court docket that Gustus's supervised release has been revoked for reasons unrelated to the alcohol condition. He has been sentenced to four months' imprisonment with no supervision to follow-likely making this issue moot.",
+        "type": "majority",
+        "author": "MELLOY, Circuit Judge."
+      },
+      {
+        "text": "KELLY, Circuit Judge, concurring.\nI concur in the court's decision because our earliest precedent, Hanson, 618 F.2d 1261, appears to foreclose Gustus from presenting an intoxication defense to his \u00a7 111(a)(1) charge. I write separately because we have issued conflicting decisions on whether assault under \u00a7 111(a)(1) requires specific or general intent, and the issue is one that warrants greater attention.\nAs the court notes, a defendant must be charged with a specific-intent crime to merit an intoxication defense. See Kenyon, 481 F.3d at 1070. Specific intent is usually defined as \"the intent to accomplish the precise criminal act that one is later charged with,\" as opposed to general intent, which is \"the intent to perform an act even though the actor does not desire the consequences that result.\" United States v. Robertson, 606 F.3d 943, 954 (8th Cir. 2010) (cleaned up). Specific intent loosely equates to the Model Penal Code's culpability standard of \"purposely.\" See United States v. Bailey, 444 U.S. 394, 404-05, 100 S.Ct. 624, 62 L.Ed.2d 575 (1980). A defendant is said to act purposely when it is the defendant's \"conscious object to engage in conduct of that nature or to cause such a result.\" Model Penal Code \u00a7 2.02(2)(a) (Am. Law Inst. 1985); see Voisine v. United States, --- U.S. ----, 136 S. Ct. 2272, 2278, 195 L.Ed.2d 736 (2016).\nSection 111(a) makes it a felony to assault a federal employee while the employee is engaged in official duties if the assault involved physical contact with the victim. The statute does not specify what culpability standard applies to its elements. In United States v. Feola, the Supreme Court addressed one element of the offense-the attendant circumstance of the victim's identity-and concluded that there is no requirement that the defendant \"be aware that his victim is a federal officer.\" 420 U.S. 671, 684, 95 S.Ct. 1255, 43 L.Ed.2d 541 (1975). \"All the statute requires is an intent to assault, not an intent to assault a federal officer.\" Id.\nFeola's use of the phrase \"an intent to assault\" generated significant confusion. In short succession, we issued \"conflicting ... decisions as to whether specific intent is an element of a \u00a7 111 violation.\" United States v. Oakie, 12 F.3d 1436, 1443 (8th Cir. 1993) (citing Hanson, 618 F.2d at 1265, and Manelli, 667 F.2d at 696 ). Hanson appears to hold that \u00a7 111 only requires a general intent to assault, 618 F.2d at 1265, whereas Manelli states that \"[s]pecific intent is an essential element of the crime,\" 667 F.2d at 696. This conflict is particularly curious because Hanson and Manelli were issued only a year apart, both decisions cite to the Supreme Court's decision in Feola in support of their respective positions, and one of the judges on the Hanson panel authored the later Manelli opinion. Notably, other circuits also appear divided on whether \u00a7 111 is a specific-intent or general-intent offense. Nonetheless, we are bound to follow Hanson, the earlier opinion, which indicates that \u00a7 111 is a general-intent offense. See Mader, 654 F.3d at 800.\nThere are compelling arguments for treating assault under \u00a7 111 as either a general-intent or specific-intent crime. On the one hand, we recognized in United States v. Yates that Congress imported into \u00a7 111 the common-law definition of simple assault. 304 F.3d 818, 821-23 (8th Cir. 2002). Assault at common law \"requires the showing of an offer or attempt by force or violence to do a corporal injury to another.\" Id. at 822 (quoting United States v. Bear Ribs, 562 F.2d 563, 564 (8th Cir. 1977) (per curiam)). Applying this definition, we have previously characterized common-law assault as a general-intent crime. See United States v. Ashley, 255 F.3d 907, 911-12 (8th Cir. 2001). This would support treating \u00a7 111 as a general-intent crime, although some of our sister circuits disagree with our reading of the common law. See, e.g., United States v. Lamott, 831 F.3d 1153, 1156 (9th Cir. 2016) (\"[C]ommon law assault is a specific intent crime ....\").\nOn the other hand, we have also held that an assault under \u00a7 111 must be \"willfully\" committed. United States v. Olunloyo, 10 F.3d 578, 580-81 (8th Cir. 1993) (citing Potter v. United States, 691 F.2d 1275, 1280 (8th Cir. 1982) ); see also United States v. Long Soldier, 562 F.2d 601, 606-07 (8th Cir. 1977) (discussing, prior to Hanson, jury instructions requiring the defendant to act willfully). When used in a criminal statute, willfully \"generally means an act done with a bad purpose.\" Screws v. United States, 325 U.S. 91, 101, 65 S.Ct. 1031, 89 L.Ed. 1495 (1945) (quoting United States v. Murdock, 290 U.S. 389, 394, 54 S.Ct. 223, 78 L.Ed. 381 (1933) ). We have therefore regularly interpreted the term as requiring specific intent. See, e.g., United States v. Boone, 828 F.3d 705, 711 (8th Cir. 2016) ; United States v. Bussey, 942 F.2d 1241, 1250 (8th Cir. 1991). It follows from these decisions that for an assault under \u00a7 111 to be \"willfully\" committed, the defendant must have acted with specific intent.\nOur pattern jury instructions on \u00a7 111 offenses are consistent with this latter view. The model instructions advise district courts to add the terms \"voluntarily and intentionally\" to \u00a7 111 's elements because \"[t]he assault must be intentional, even though the term 'willful' is not used in the statute.\" 8th Cir. Model Crim. Jury Instructions \u00a7 6.18.111 & n.4 (2017); see also United States v. Wallace, 852 F.3d 778, 783 (8th Cir. 2017) (approving similar instruction); United States v. Bettelyoun, 16 F.3d 850, 853 (8th Cir. 1994) (same). To satisfy a requirement that the assault be intentional, it would appear that the government would need to prove that the defendant committed the assault willfully, that is, with specific intent. See Screws, 325 U.S. at 101, 65 S.Ct. 1031.\nGustus's case illustrates the tension in our precedents. His indictment and jury instructions conformed to our model instructions and included the terms \"voluntarily and intentionally.\" Those terms usually require a showing of specific intent, and we ordinarily \"hold the government to the elements charged in its indictment.\" Wallace, 852 F.3d at 783. Yet Gustus was denied the opportunity to present an intoxication defense based on the conclusion that he was charged with a general-intent crime.\nWhether \u00a7 111 is a specific-intent or general-intent crime is a difficult question to which we have given conflicting answers, but one that only the court sitting en banc can resolve. I therefore concur fully in the court's opinion.\nThe offense is a misdemeanor if the assault \"constitute[d] only simple assault,\" but it becomes a felony if the assault \"involve[d] physical contact with the victim\" or if the defendant had \"the intent to commit another felony.\" 18 U.S.C. \u00a7 111(a). Gustus's conviction was treated as a felony, and the jury specifically found that he made physical contact with Gonzalez. It should be noted, however, that Gustus's indictment did not include the allegation that he made physical contact with the victim. The failure to include in the indictment a critical element that transforms an offense from a misdemeanor to a felony is reversible error. See Almendarez-Torres v. United States, 523 U.S. 224, 228, 118 S.Ct. 1219, 140 L.Ed.2d 350 (1998). Gustus has not raised this argument, so the issue is not before us on direct appeal.\nFive circuits have characterized the offense as one of general intent. United States v. Brown, 592 F. App'x 164, 166 (4th Cir. 2014) (per curiam); United States v. Kimes, 246 F.3d 800, 808 (6th Cir. 2001) ; United States v. Ricketts, 146 F.3d 492, 497 (7th Cir. 1998) ; United States v. Kleinbart, 27 F.3d 586, 592 (D.C. Cir. 1994) ; United States v. Jim, 865 F.2d 211, 214-15 (9th Cir. 1989). But see United States v. Staggs, 553 F.2d 1073, 1076 (7th Cir. 1977) (taking opposite approach). Three circuits have treated \u00a7 111 as a specific-intent crime. United States v. Simmonds, 931 F.2d 685, 687 (10th Cir. 1991) ; United States v. Taylor, 680 F.2d 378, 381 (5th Cir. 1982) ; United States v. Caruana, 652 F.2d 220, 222-23 (1st Cir. 1981) (per curiam).\nIt is debatable whether Hanson fully addressed the question presented here: Does \u00a7 111 require the defendant to commit the assault with specific intent? The defendants in Hanson conceded that assault is ordinarily a general-intent crime, but attempted to \"distinguish the crime of assault from that of assault on a federal officer\" by arguing that the latter offense requires specific intent. 618 F.2d at 1265. Citing Feola, we rejected that distinction because \u00a7 111 does not require the defendant to know the victim's identity. Id. Even if the court in fact adopted the concession that assault is a general-intent crime, that concession was immaterial to the outcome of the decision; the court noted, \"Even were we to agree that assault were a specific intent crime, it cannot be said that [the assault was] not done purposely and knowingly.\" Id.\nRegardless of whether the assault element of \u00a7 111(a) requires proof of specific intent, some formulations of the offense undoubtedly would. For example, charging the offense as a felony because the defendant had the \"intent to commit another felony\" unquestionably requires specific intent. See, e.g., United States v. Iron Shell, 633 F.2d 77, 88 (8th Cir. 1980) (explaining that assault with intent to commit rape requires the specific intent to commit rape).\n\"The model jury instructions are available for use by the district courts, but they are not binding.\" United States v. Sparkman, 500 F.3d 678, 684 (8th Cir. 2007).",
+        "type": "concurrence",
+        "author": "KELLY, Circuit Judge, concurring."
+      }
+    ],
+    "attorneys": [
+      "Angela Sue Jegley, Assistant U.S. Attorney, U.S. ATTORNEY'S OFFICE, Eastern District of Arkansas, Little Rock, AR, for Plaintiff-Appellee.",
+      "J. Blake Byrd, Nicole Lybrand, FEDERAL PUBLIC DEFENDER'S OFFICE, Little Rock, AR, for Defendant-Appellant."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff - Appellee\nv.\nStephen GUSTUS, Defendant - Appellant\nNo. 18-2303\nUnited States Court of Appeals, Eighth Circuit.\nSubmitted: January 17, 2019\nFiled: June 14, 2019\nRehearing and Rehearing En Banc Denied September 9, 2019\nAngela Sue Jegley, Assistant U.S. Attorney, U.S. ATTORNEY'S OFFICE, Eastern District of Arkansas, Little Rock, AR, for Plaintiff-Appellee.\nJ. Blake Byrd, Nicole Lybrand, FEDERAL PUBLIC DEFENDER'S OFFICE, Little Rock, AR, for Defendant-Appellant.\nBefore BENTON, MELLOY, and KELLY, Circuit Judges.\nJudge Kelly would grant the petition for rehearing en banc and the petition for panel rehearing."
+  },
+  "file_name": "1037-01",
+  "first_page_order": 1037,
+  "last_page_order": 1044
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12238891,
+  "name": "Caro v. United States",
+  "name_abbreviation": "Caro v. United States",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 10-8356",
+  "first_page": "1110",
+  "last_page": "1110",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1110"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.636,
+    "sha256": "9586584ba2ba8434a4f2543785366f86b183246eaaacf71319e2e4ecf404c68c",
+    "simhash": "1:058a924bce811169",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Caro v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8356.\nCaro v. United States."
+  },
+  "file_name": "1110-02",
+  "first_page_order": 1192,
+  "last_page_order": 1192
+}

@@ -1,0 +1,396 @@
+{
+  "id": 2254004,
+  "name": "The State of Texas v. C. V. Wynne Et Al.",
+  "name_abbreviation": "State v. Wynne",
+  "decision_date": "1957-04-10",
+  "docket_number": "No. A-6141",
+  "first_page": "200",
+  "last_page": "206",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "157 Tex. 200"
+    },
+    {
+      "type": "parallel",
+      "cite": "301 S.W.2d 76"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "266 S.W. 2d 272",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10189107
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/266/0272-01"
+      ]
+    },
+    {
+      "cite": "194 S.W. 631",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8255211
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/194/0631-01"
+      ]
+    },
+    {
+      "cite": "222 S.W. 2d 477",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10197766
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/222/0477-01"
+      ]
+    },
+    {
+      "cite": "77 S.W. 2d 900",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10266368
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/77/0900-01"
+      ]
+    },
+    {
+      "cite": "63 S.W. 2d 886",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10260360
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/63/0886-01"
+      ]
+    },
+    {
+      "cite": "118 S.W. 2d 333",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10231628
+      ],
+      "pin_cites": [
+        {
+          "page": "337"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/118/0333-01"
+      ]
+    },
+    {
+      "cite": "51 Texas 457",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2149029
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/51/0457-01"
+      ]
+    },
+    {
+      "cite": "12 Texas 175",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2052176
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/12/0175-01"
+      ]
+    },
+    {
+      "cite": "175 S.W. 2d 957",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2339480,
+        10221891
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/142/0029-01",
+        "/sw2d/175/0957-01"
+      ]
+    },
+    {
+      "cite": "142 Texas 29",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2339480
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/142/0029-01"
+      ]
+    },
+    {
+      "cite": "265 S.W. 378",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        2279757,
+        10305823
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/114/0164-01",
+        "/sw/265/0378-01"
+      ]
+    },
+    {
+      "cite": "114 Texas 164",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2279757
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/114/0164-01"
+      ]
+    },
+    {
+      "cite": "262 S.W. 733",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10321456,
+        2279825
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/262/0733-01",
+        "/tex/114/0079-01"
+      ]
+    },
+    {
+      "cite": "114 Texas 79",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2279825
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/114/0079-01"
+      ]
+    },
+    {
+      "cite": "247 S.W. 825",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10327701,
+        2283271
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/247/0825-01",
+        "/tex/112/0369-01"
+      ]
+    },
+    {
+      "cite": "112 Texas 369",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2283271
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/112/0369-01"
+      ]
+    },
+    {
+      "cite": "135 S.W. 2d 700",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10238416,
+        2319486
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/135/0700-01",
+        "/tex/134/0437-01"
+      ]
+    },
+    {
+      "cite": "134 Texas 437",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2319486
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/134/0437-01"
+      ]
+    },
+    {
+      "cite": "212 S.W. 2d 625",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10201521,
+        2333837
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/212/0625-01",
+        "/tex/147/0070-01"
+      ]
+    },
+    {
+      "cite": "147 Texas 70",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2333837
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/147/0070-01"
+      ]
+    },
+    {
+      "cite": "179 S.W. 2d 239",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2341444,
+        10200175
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/142/0444-01",
+        "/sw2d/179/0239-01"
+      ]
+    },
+    {
+      "cite": "142 Texas 444",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2341444
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/142/0444-01"
+      ]
+    },
+    {
+      "cite": "170 S.W. 1036",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8289810
+      ],
+      "year": 1911,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/170/1036-01"
+      ]
+    },
+    {
+      "cite": "106 Texas 472",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2253094
+      ],
+      "year": 1911,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/106/0472-01"
+      ]
+    },
+    {
+      "cite": "295 S.W. 2d 444",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10171385
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/295/0444-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 637,
+    "char_count": 13867,
+    "ocr_confidence": 0.611,
+    "pagerank": {
+      "raw": 6.076346288524525e-07,
+      "percentile": 0.9553004827694588
+    },
+    "sha256": "57a76f902f365adfe6fc43fe16a57151055d64bd5380a197b14026c850c29489",
+    "simhash": "1:e80ddca266a6975e",
+    "word_count": 2392
+  },
+  "last_updated": "2024-02-27T18:48:18.334778+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "The State of Texas v. C. V. Wynne Et Al."
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM.\nThe State\u2019s application for writ of error presents a question of this Court\u2019s jurisdiction under the 1953 amendment to Articles 1728 and 1821, Revised Statutes, 1925, Acts 1953, 53rd Legislature, p. 1026, ch. 424, Articles 1728 and 1821, Vernon\u2019s Ann. Texas Stats. An interlocutory order overruling a plea of privilege under Section 14 or Article 1995 is involved. The Court of Civil Appeals reversed the trial court\u2019s action and sustained the plea. Wynn v. State, 295 S.W. 2d 444. The State asserts that we have jurisdiction under Sections 2, 3 and 6 of Article 1728.\nArticle 1821 provides that, \u201cExcept as herein otherwise provided, the judgments of the Court of Civil Appeals shall be conclusive on the law and facts, nor shall a writ of error be allowed thereto from the Supreme Court in the following cases, to wit: * * * 5. In all appeals from interlocutory orders appointing receivers or trustees, or such other interlocutory appeals as may be allowed by law.\u201d This provision is conclusive as to Sections 3 and 6 of Article 1728, expressly so as to Section 6 and definitely settled by long-settled construction as to Section 3. While Article 1728 considered alone would support a construction that an order sustaining or overruling a plea of privilege would come within the jurisdiction of the Supreme Court when the construction or validity of a statute is material to the determination of the case, it has been the established rule since Cole v. State ex rel. Cobolini, 106 Texas 472, 170 S.W. 1036 that the definite and emphatic exemption from Supreme Court jurisdiction of the class of cases mentioned in Article 1821 (then Article 1591, R.S. 1911) controlled over the general and permissive language of the article relating to the Supreme Court writ of error jurisdiction. The same interpretation was placed upon Articles 1728 and 1821 after both were adopted as a part of the Act promulgating the 1925 Revised Civil Statutes, and thereafter amended as to terminology not here pertinent. Simpson v. McDonald 142 Texas 444, 179 S.W. 2d 239; Thomas v. Groebl, 147 Texas 70, 212 S.W. 2d 625. The 1953 amendments in no way affects this settled construction. For Supreme Court jurisdiction to attach in the absence of special statutory provision, it is not only necessary that a cause come within the authorizing clauses of Article 1728, but also that it be not precluded by the prohibitions of Article 1821. The substitution of the term \u201cappealable judgment\u201d for \u201cfinal judgment\u201d cannot be given effect to enlarge the jurisdiction of the Supreme Court so as to include appeals from interlocutory orders entered in cases where the construction or validity of statutes is deemed essential to a determination of the case.\nSupreme Court jurisdiction in this case, if supportable at all, must rest upon the theory of conflict in decisions, Section 2 of Article 1728, as the obvious purpose of the 1953 amendments is to allow the Supreme Court to dispose of causes by writ of error where a conflict of decisions is involved or a dissenting opinion is filed in the Court of Civil Appeals. Prior to this amendment there were certain classes of judgments, including interlocutory orders relating to pleas of privilege which were excluded from the writ of error jurisdiction by the Supreme Court by the negative provisions of Article 1821, despite the filing of a dissenting opinion or the existence of a conflict of decisions. In such cases it was necessary to employ the cumbersome process of mandamus to secure a Supreme Court ruling upon the conflict or point of dissent. To this end the word \u201cappealable\u201d was submitted for \u201cfinal\u201d in Article 1728 and the following proviso added to Article 1821, viz:\n\u201cIt is provided, however, that nothing contained herein shall be construed to deprive the Supreme Court of jurisdiction of any case brought to the Court of Civil Appeals from an appeal-able judgment of the trial court in which the judges of the Courts of Civil Appeals may disagree upon any question of law material to the decision, or in which one of the Courts of Civil Appeals holds differently from a prior decision of another Court of Civil Appeals or of the Supreme Court upon a question of law, as provided for in Subdivisions (1) and (2) of Article 1728.\nWhen a conflict of decisions is made the basis of Supreme Court jurisdiction it is essential that such conflict appear on the face of the opinions themselves and that the same be specifically pointed out in the application for writ of error. As stated by Mr. Justice Calvert in his discussion of The Application for writ of error, \u201cIf jurisdiction is asserted under subdivision 2, a more extended statement will be required. The application should briefly but pointedly show wherein the decisions are in conflict. In this connection, it should be kept in mind that jurisdiction does not attach because of conflict of decisions unless the rulings are \u2018so far upon the same state of facts that the decision of one case is necessarily conclusive of the decision in the other.\u2019 See Dockum v. Mercury Ins. Co., 134 Texas 437, 135 S.W. 2d 700. Generalized conflicting statements taken from two opinions do not create a jurisdictional conflict.\u201d [Rule 469] Part III, p. 406, Vernon\u2019s Ann. Texas Rules. See also Garitty v. Rainey, 112 Texas 369, 247 S.W. 825; Borchers v. Fly, 114 Texas 79, 262 S.W. 733; American National Bank of Wichita Falls v. Hall, 114 Texas 164, 265 S.W. 378; Davis v. National Casualty Co., 142 Texas 29, 175 S.W. 2d 957.\nWhile in the instant case the opinion of the Court of Civil Appeals discusses other sections of Article 1995 relating to venue, the holding which controls the disposition of the appeal is that the case was \u201cone affecting the title to land located in Maverick County, Texas, within the purview of subdivision 14 of Article 1995.\u201d This holding is in accordance with the position taken by respondents Lehman and wife (defendants in the trial court) in their amended plea of privilege upon which the hearing in the district court was had. In determining the jurisdiction of this Court we may therefore confine our inquiry to the venue clause relating to land suits.\nSection or subdivision 14 of Article 1995 reads as follows:\n\u201cLands. \u2014 Suits for the recovery of lands or damages thereto, or to remove incumbrances upon the title to land, or to quiet the title to land, or to prevent or stay waste on lands, must be brought in the county in which the land, or a part thereof, may lie.\u201d\nThe relief sought by the State is the cancellation of a contract for the sale of lands coupled with an offer to return such lands to the defendants in the trial court and a demand for reimbursement of the purchase price. As incidental to this demand is an assertion of a lien against the property to secure such repayment. The Court of Civil Appeals has held that this suit is comprehended by the terms of the venue provision above set out.\nThe State calls our attention to Morris v. Runnells, 12 Texas 175 and Lehmberg v. Biberstein, 51 Texas 457, both of which were decided before the adoption of the Revised Statutes of 1879. Borris v. Runnells, contains dicta to the effect that a suit for rescission of an executed contract for the sale of land was not a suit for the \u201crecovery of land, or damages thereto.\u201d In Lehmberg v. Biberstein, it was held that a suit to set aside a deed made for the purpose of hindering, delaying and defrauding creditors was not within the venue clause relating to land suits.\nWhile other grounds of distinction between the cited cases and the instant one may be found, the most obvious difference lies in the wording of the applicable statutory provisions. The cited cases were decided under Article 1423 of Paschal\u2019s Digest. The eleventh section or exception of the article reads as follows:\n\u201cEleventh, in cases where the recovery of land, or damages thereto, is the object of a suit in which cases suits must be instituted where the land or a part thereof is situated.\u201d\nSince the date of the decisions relied upon by the State, the words \u201cor to remove incumbrances upon the title to land, or to quiet title to land, or to prevent or stay waste on lands\u201d have been added to the exception. See thirteenth exception of Article 1198, R.S. 1879. As a result of this amendment it has generally been held that a suit by a vendor to cancel a deed and thus reinvest the vendor with title is in substance a suit to remove an incumbrance upon the title to land. In Jones v. Ford, 118 S.W. 2d 333, 337, the Fort Worth Court of Civil Appeals said:\n\u201c* * * Their suit is to cancel the deeds and leases and for general relief both in law and equity. The cancellation of such instruments by a court of competent jurisdiction would have the legal effect to remove the cloud and incumbrance from the title to their lands. * * *\u201d\nOther cases supporting this construction of Exception 14, Article 1995, are: Liles v. McDonald, Texas Civ. App., 63 S.W. 2d 886; Great Southern Life Ins. Co. v. Williams, Texas Civ. App., 77 S.W. 2d 900, and Galindo v. Garcia, Texas Civ. App., 222 S.W. 2d 477.\nThe converse situation is presented here. The State has tendered the lands back to the defendants in the district court and seeks cancellation in order to recover the purchase price paid for the lands. On this ground the present case may be distinguished from Jones v. Ford and similar cases, but this does not reach the jurisdictional question. The State has cited no case in which exception 14 of Article 1995 (or any similarly worded predecessor provision) has been construed in connection with a factual situation similar to that disclosed by the present record, e.g. a plaintiff offering reconveyance of lands and seeking a return of the purchase price. The question of the correctness of the construction placed upon the provision of Exception 14 of Article 1995 by the Court of Civil Appeals in this case is beside the point insofar as Supreme Court jurisdiction under Section 2 of Article 1728 is concerned. The application for writ of error obviously does not disclose a conflict of decisions within the rule of Garitty v. Rainey, 112 Texas 369, 247 S.W. 825 and Dockum v. Mercury Ins. Co., 134 Texas 437, 135 S.W. 2d 700.\nApplication for writ of error is dismissed for want of jurisdiction.\nOpinion delivered April 10, 1957.\nRehearing overruled May 8, 1957.\n\u25a0Unless otherwise indicated Article references are to Vernon\u2019s Ann. Texas Stats.\nArt. 1728. Appellate Jurisdiction.\n\u201cThe Supreme Court shall have appellate jurisdiction coextensive with the limits of the State, extending to all questions of law arising in the following cases when same have been brought to the Courts of Civil Appeals from appeal-able judgment of trial courts:\n\u201c1. Those in which the judges of the Courts of Civil Appeals may disagree upon any question of law material to the decision.\n\u201c2. Those in which one of the Courts of Civil Appeals holds differently from a prior decision of another Court of Civil Appeals, or of the Supreme Court upon any questin of law material to a decision of the case.\n\u201c3. Those involving the construction or validity of statutes necessary to a determination of the case.\n\u201c4. Those involving the revenues of the State.\n\u201c5. Those in which the Railroad Commission is a party.\n\u201c6. In any other case in which it is made to appear that an error of substantive law has been committed by the Court of Civil Appeals which affects the judgment, but excluding those cases in which the jurisdiction of the Court of Civil Appeals is made final by statute.\u201d\nThe entire article as amended in 1953 reads as follows:\nArt. 1821. Judgment conclusive on law.\n\u201cExcept as herein otherwise provided, the judgments of the Courts of Civil Appeals shall be conclusive on the law and facts, nor shall a writ of error be allowed thereto from the Supreme Court in the following cases, to wit:\n\u201c1. Any civil case appealed from the County Court or from a Dist: ict Court, when, under the Constitution a County Court would have had original or appellate jurisdiction to try it, except in probate matters and in cases involving the Revenue Laws of the State or the validity or construction of a Statute.\n\u201c2. All eases of slander.\n\u201c3. All cases of divorce.\n\u201c4. All cases of contested election of every character other than for State officers, except where the validity of a Statute is questioned by the decision.\n\u201c5. In all appeals from interlocutory orders appointing receivers or trustees, or such other intei locutory appeals as may be allowed by law.\n\"6. In all other cases as to law and facts except where appellate jurisdiction is given to the Supreme Court and not made final in said Courts of Civil Appeals.\n\u201cIt is provided, however, that nothing contained herein shall be construed to deprive the Supreme Court of jurisdiction of any case brought to the Court of Civil Appeals from an appealable judgment of the trial court in which the judges of the Courts of Civil Appeals may disagree upon any question of law material to the decision, or in which one of the Courts of Civil Appeals holds differently from a prior decision of another Court of Civil Appeals or of the Supreme Curt upon a question of law, as provided for in Subdivisions (1) and (2) of Article 1728.\u201d\nAs to suits to fix and foreclose liens in connection with Exception 12 of Article 1995; a permissive as distinguished from a mandatory section, see Holcomb v. Williams, Texas Civ. App., 194 S.W. 631 and Estes v. Texas Consolidated Oils, Texas Civ. App., 266 S.W. 2d 272.",
+        "type": "majority",
+        "author": "PER CURIAM."
+      }
+    ],
+    "attorneys": [
+      "John Ben Shepperd, Attorney General, Riley Eugene Fletcher, Joe McMinn, Lonny F. Zwiener and D. S. Meredith, Assistant Attorney General, for plaintiff.",
+      "F. L. Kuykendall, of Austin, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "The State of Texas v. C. V. Wynne Et Al.\nNo. A-6141.\nDecided April 10, 1957.\nRehearing overruled May 8, 1957.\n(301 S.W. 2d Series 76.)\nJohn Ben Shepperd, Attorney General, Riley Eugene Fletcher, Joe McMinn, Lonny F. Zwiener and D. S. Meredith, Assistant Attorney General, for plaintiff.\nF. L. Kuykendall, of Austin, for respondent."
+  },
+  "file_name": "0200-01",
+  "first_page_order": 216,
+  "last_page_order": 222
+}

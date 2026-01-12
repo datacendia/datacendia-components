@@ -1,0 +1,59 @@
+{
+  "id": 12207112,
+  "name": "Parham v. United States",
+  "name_abbreviation": "Parham v. United States",
+  "decision_date": "2012-04-16",
+  "docket_number": "No. 11-9134",
+  "first_page": "950",
+  "last_page": "950",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 950"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.563,
+    "sha256": "b22e5d89a358adf7e94e085a99e7105e380cd0babe34a8bc942d0e564aa0ecd8",
+    "simhash": "1:978bced19e89302f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Parham v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9134.\nParham v. United States."
+  },
+  "file_name": "0950-04",
+  "first_page_order": 826,
+  "last_page_order": 826
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12414624,
+  "name": "Garcia v. Illinois",
+  "name_abbreviation": "Garcia v. Illinois",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10978",
+  "first_page": "872",
+  "last_page": "872",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 872"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 78,
+    "ocr_confidence": 0.709,
+    "sha256": "7f4e272180195cc93f513d25d36646628bc2136b8605524251a4fa3c875a45b2",
+    "simhash": "1:40f1965735356f2e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Garcia v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10978.\nGarcia v. Illinois."
+  },
+  "file_name": "0872-06",
+  "first_page_order": 948,
+  "last_page_order": 948
+}

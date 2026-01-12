@@ -1,0 +1,59 @@
+{
+  "id": 12204145,
+  "name": "Mejia v. Curry, Warden",
+  "name_abbreviation": "Mejia v. Curry",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10679",
+  "first_page": "843",
+  "last_page": "843",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 843"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.666,
+    "sha256": "86ca634f85061a31f8d581625b22ffb4d3a9563f8f307797e69d54f6f27e31c6",
+    "simhash": "1:55b342993ddc09f3",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mejia v. Curry, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10679.\nMejia v. Curry, Warden."
+  },
+  "file_name": "0843-13",
+  "first_page_order": 925,
+  "last_page_order": 925
+}

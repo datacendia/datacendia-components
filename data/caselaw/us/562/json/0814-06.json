@@ -1,0 +1,59 @@
+{
+  "id": 5925526,
+  "name": "In re Discipline of Fox",
+  "name_abbreviation": "In re Discipline of Fox",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. D-2543",
+  "first_page": "814",
+  "last_page": "814",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 814"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 39,
+    "char_count": 279,
+    "ocr_confidence": 0.577,
+    "sha256": "65782aab354b6f7534e17525163739c9d7d136c82b994e1c0140d4e20eddcf6b",
+    "simhash": "1:758a71363ffaa7a2",
+    "word_count": 51
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Fox."
+    ],
+    "opinions": [
+      {
+        "text": "Mitchell Eric Fox, of Plantation, Fla., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2543.\nIn re Discipline of Fox."
+  },
+  "file_name": "0814-06",
+  "first_page_order": 836,
+  "last_page_order": 836
+}

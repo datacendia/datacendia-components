@@ -1,0 +1,59 @@
+{
+  "id": 5955393,
+  "name": "Correa v. Pennsylvania",
+  "name_abbreviation": "Correa v. Pennsylvania",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5069",
+  "first_page": "902",
+  "last_page": "902",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 902"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 71,
+    "ocr_confidence": 0.644,
+    "sha256": "f5b2cbfbe6347f938351e83bd13997bac2989c11d627de9c7e7b3b44e7bba139",
+    "simhash": "1:f2f604f1b0ec9edc",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Correa v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Pa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5069.\nCorrea v. Pennsylvania."
+  },
+  "file_name": "0902-02",
+  "first_page_order": 924,
+  "last_page_order": 924
+}

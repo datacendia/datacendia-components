@@ -1,0 +1,59 @@
+{
+  "id": 12251204,
+  "name": "In re Disbarment of Blau",
+  "name_abbreviation": "In re Disbarment of Blau",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. D-2616",
+  "first_page": "1257",
+  "last_page": "1257",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1257"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 105,
+    "ocr_confidence": 0.691,
+    "sha256": "f08250329eb4722aa442df443d8f6cf18854aec6179f42d08ef8d50d0e76e05b",
+    "simhash": "1:a83a9eaac1d092b4",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Blau."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see ante, p. 1054.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2616.\nIn re Disbarment of Blau."
+  },
+  "file_name": "1257-05",
+  "first_page_order": 1339,
+  "last_page_order": 1339
+}

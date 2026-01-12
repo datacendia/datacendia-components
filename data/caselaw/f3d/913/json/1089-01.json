@@ -1,0 +1,541 @@
+{
+  "id": 12519731,
+  "name": "Hanh DO, Petitioner v. DEPARTMENT OF HOUSING AND URBAN DEVELOPMENT, Respondent",
+  "name_abbreviation": "Do v. Dep't of Hous. & Urban Dev.",
+  "decision_date": "2019-01-14",
+  "docket_number": "2018-1147",
+  "first_page": "1089",
+  "last_page": "1098",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "913 F.3d 1089"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Fed. Cir.",
+    "id": 8955,
+    "name": "United States Court of Appeals for the Federal Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "727 F.2d 1535",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1934473
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "1538"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/727/1535-01"
+      ]
+    },
+    {
+      "cite": "486 U.S. 230",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6214098
+      ],
+      "weight": 3,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "242",
+          "parenthetical": "examining the \"importance of the private interest and the harm to this interest occasioned by [agency] delay\" in determining \"how long a delay is justified in affording a post-suspension hearing and decision\""
+        },
+        {
+          "parenthetical": "examining the \"importance of the private interest and the harm to this interest occasioned by [agency] delay\" in determining \"how long a delay is justified in affording a post-suspension hearing and decision\""
+        },
+        {
+          "parenthetical": "examining the \"importance of the private interest and the harm to this interest occasioned by [agency] delay\" in determining \"how long a delay is justified in affording a post-suspension hearing and decision\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/486/0230-01"
+      ]
+    },
+    {
+      "cite": "424 U.S. 319",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12026449
+      ],
+      "weight": 5,
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "335, 340-42"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/424/0319-01"
+      ]
+    },
+    {
+      "cite": "720 F.2d 1266",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1904095
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "1273-74",
+          "parenthetical": "citing Ryder , 585 F.2d 482 "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/720/1266-01"
+      ]
+    },
+    {
+      "cite": "735 F.2d 488",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        580921
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "496",
+          "parenthetical": "Nies, J., concurring"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/735/0488-01"
+      ]
+    },
+    {
+      "cite": "585 F.2d 482",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10811517,
+        845806
+      ],
+      "weight": 2,
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "487-88"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-ct-cl/218/0289-01",
+        "/f2d/585/0482-01"
+      ]
+    },
+    {
+      "cite": "684 F.2d 155",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        3633664,
+        529453
+      ],
+      "weight": 2,
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "157-58",
+          "parenthetical": "cited with approval in Licausi , 350 F.3d at 1363 "
+        },
+        {
+          "page": "157-58"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/221/0381-01",
+        "/f2d/684/0155-01"
+      ]
+    },
+    {
+      "cite": "350 F.3d 1359",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9057049
+      ],
+      "weight": 2,
+      "year": 2003,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/350/1307-01"
+      ]
+    },
+    {
+      "cite": "355 F.3d 1375",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9069288
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1378-79"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/355/1375-01"
+      ]
+    },
+    {
+      "cite": "999 F.2d 523",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        11957014
+      ],
+      "weight": 3,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "526-27"
+        },
+        {
+          "page": "526-27"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/999/0523-01"
+      ]
+    },
+    {
+      "cite": "147 F.3d 1367",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1358807
+      ],
+      "weight": 2,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "1371-72"
+        },
+        {
+          "page": "1371-72"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/147/1367-01"
+      ]
+    },
+    {
+      "cite": "318 F.3d 1310",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9343807
+      ],
+      "weight": 5,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "1315"
+        },
+        {
+          "page": "1315",
+          "parenthetical": "citations omitted"
+        },
+        {
+          "page": "1315"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/318/1310-01"
+      ]
+    },
+    {
+      "cite": "292 F.3d 307",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9415409
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "321",
+          "parenthetical": "holding \"that the process due [to the employee] was notice of the charges against him and the opportunity to be heard before demotion\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/292/0307-01"
+      ]
+    },
+    {
+      "cite": "114 F.3d 1144",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        405125
+      ],
+      "weight": 3,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "1148-49"
+        },
+        {
+          "page": "1148-49"
+        },
+        {
+          "page": "1148-49"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/114/1144-01"
+      ]
+    },
+    {
+      "cite": "737 F.3d 711",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3732337
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "718"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/737/0711-01"
+      ]
+    },
+    {
+      "cite": "520 U.S. 924",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11653435
+      ],
+      "weight": 3,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "933"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/520/0924-01"
+      ]
+    },
+    {
+      "cite": "706 F.3d 1372",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3662371
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "1377",
+          "parenthetical": "\"[A]n employee is entitled to notice of the charges against him, an explanation of the employer's evidence, and an opportunity to present his side of the story before termination.\" (citing Stone , 179 F.3d at 1376 ) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/706/1372-01"
+      ]
+    },
+    {
+      "cite": "179 F.3d 1368",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        844525
+      ],
+      "weight": 4,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "1374-76",
+          "parenthetical": "\"An employee is entitled to a certain amount of due process rights at each stage and, when these rights are undermined, the employee is entitled to relief regardless of the stage of the proceedings.\""
+        },
+        {
+          "page": "1376-77"
+        },
+        {
+          "page": "1373"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/179/1368-01"
+      ]
+    },
+    {
+      "cite": "470 U.S. 532",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11299646
+      ],
+      "weight": 11,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "538"
+        },
+        {
+          "page": "546"
+        },
+        {
+          "page": "542"
+        },
+        {
+          "page": "543"
+        },
+        {
+          "page": "546-47"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/470/0532-01"
+      ]
+    },
+    {
+      "cite": "247 F.3d 1225",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11111410
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "1228"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/247/1225-01"
+      ]
+    },
+    {
+      "cite": "634 F.3d 1274",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4093338
+      ],
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1278"
+        },
+        {
+          "page": "1278",
+          "parenthetical": "alteration in original"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/634/1274-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1295",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(9)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 U.S.C. \u00a7 7703",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(b)(1)"
+        },
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1079,
+    "char_count": 24406,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25915758022958096
+    },
+    "sha256": "609fe0fa342fbf8511c971fca9badc7cc81741de124dde74ffc17909bb5a19e3",
+    "simhash": "1:315fe24ea82aea03",
+    "word_count": 3965
+  },
+  "last_updated": "2024-02-27T18:46:17.308091+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Dyk, Reyna, and Chen, Circuit Judges."
+    ],
+    "parties": [
+      "Hanh DO, Petitioner\nv.\nDEPARTMENT OF HOUSING AND URBAN DEVELOPMENT, Respondent"
+    ],
+    "opinions": [
+      {
+        "text": "Dyk, Circuit Judge.\nHanh Do petitions for review of a decision of the Merit Systems Protection Board (\"Board\"). The Board sustained the Department of Housing and Urban Development's (\"HUD's\" or \"agency's\") action demoting and suspending Do. In its notice of proposed action, HUD charged Do with \"negligence of duty\" for hiring and later promoting an employee when Do knew that the employee did not have a college degree, which the agency viewed as a requirement. On appeal, the Board agreed with Do that a college degree was not required and that the employee could alternatively qualify for the positions by having a combination of education and experience. The Board, nonetheless, sustained the charge, concluding that Do was negligent because she failed to ensure that the employee met the alternative qualification requirements.\nWe hold that Do's due process rights were violated because the Board exceeded the scope of the agency's charge, relying on a new ground to sustain the discipline. We reverse and remand.\nBACKGROUND\nDo has been a government employee since 1990. From 1990 to 1998, Do worked as an auditor for the Internal Revenue Service. In 1998, HUD Office of Inspector General (\"OIG\") hired Do as auditor in the Information Systems Audit Division. She was promoted to Assistant Director of that division and then to Director in 2003 and 2005, respectively. She held the position of Director until she was demoted on November 27, 2016.\nIn November 2006, Do was responsible for selecting candidates for auditor positions in her division. Uyen Asuncion applied for a GS-11 auditor position in Do's division. At the time she applied, Asuncion was working as a GS-11 auditor at the Department of Justice (\"DOJ\"). Both on her resume and Questionnaire for Public Trust Positions, Asuncion claimed she had a college degree in accounting.\nIn December 2006, a pre-employment background investigation revealed that Asuncion did not have a degree in accounting. Do was informed of this discrepancy and questioned Asuncion about it. It turned out that Asuncion was never awarded her degree because, even though she had completed the required coursework, her grade point average was not high enough for the university to confer the degree. Apparently, Asuncion needed to take one additional course to raise her grade point average to meet the minimum and obtain the degree.\nAsuncion told Do that she had made an honest mistake and believed that she had completed the requirements for her degree when she applied. Asuncion promised to complete an additional college course to secure her degree. After conferring with her supervisor, Do approved Asuncion's selection for the auditor position. At the same time, Do urged Asuncion to complete her degree.\nOver the next few years, Asuncion was promoted to a GS-12 auditor position and then to a GS-13 auditor position. In 2009, Do posted two GS-14 auditor positions (one of which was created with Asuncion in mind). Asuncion applied for one of the positions, and human resources flagged Asuncion \"as a qualified candidate\" and included her on a list of \"eligible candidates\" for the position. J.A. 3. Do selected Asuncion for one of the positions. At that time, Do knew that Asuncion still did not have an accounting degree.\nIn 2013 or 2014, Do consulted with her supervisor regarding Asuncion's lack of degree. After consulting with human resources, Do's supervisor advised Do that Asuncion could continue as an auditor but must obtain her degree. Asuncion resigned in March 2016.\nOn July 20, 2016, HUD issued a notice of proposal to demote Do from the position of Director (GS-15) to Non-supervisory Senior Auditor (GS-14) and to suspend her for fourteen days for negligence of duty. The notice alleged that Do was negligent in hiring Asuncion in 2006 and promoting her in 2009 because a college degree was \"required for the position[s],\" and \"Asuncion ... admitted to [Do] that she did not have her degree.\" J.A. 367. Do responded both in writing and orally to the agency. On November 9, 2016, after considering Do's submitted replies, the HUD deciding official issued a formal written decision, concluding that \"demotion and suspension [we]re warranted and serve to promote the efficiency of the service.\" J.A. 355. Do was demoted and suspended effective November 27, 2016.\nDo timely appealed to the Board. After a hearing, the administrative judge sustained the agency's action. Do did not appeal to the full Board (which then lacked a quorum), and the administrative judge's decision became the final decision of the Board.\nDo petitioned for review in our court. We have jurisdiction under 5 U.S.C. \u00a7 7703(b)(1) and 28 U.S.C. \u00a7 1295(a)(9). In reviewing the Board's decision, we must affirm the decision unless it is \"(1) arbitrary, capricious, an abuse of discretion, or otherwise not in accordance with law; (2) obtained without procedures required by law, rule, or regulation having been followed; or (3) unsupported by substantial evidence.\" 5 U.S.C. \u00a7 7703(c) ; Ward v. U.S. Postal Serv. , 634 F.3d 1274, 1278 (Fed. Cir. 2011). \"We 'must reverse a decision of the Board if it ... is not in accordance with the requirements of the Due Process Clause of the Fifth Amendment.' \" Ward , 634 F.3d at 1278 (alteration in original) (quoting Blank v. Dep't of the Army , 247 F.3d 1225, 1228 (Fed. Cir. 2001) ).\nDISCUSSION\nI\nIn general, public employees possess a constitutionally protected property right in their employment and are entitled to pre-deprivation due process. See Cleveland Bd. of Educ. v. Loudermill , 470 U.S. 532, 538, 105 S.Ct. 1487, 84 L.Ed.2d 494 (1985) ; Stone v. Fed. Deposit Ins. Corp. , 179 F.3d 1368, 1374-76 (Fed. Cir. 1999) (\"An employee is entitled to a certain amount of due process rights at each stage and, when these rights are undermined, the employee is entitled to relief regardless of the stage of the proceedings.\"). \"The essential requirements of due process ... are notice and an opportunity to be heard.\" Loudermill , 470 U.S. at 546, 105 S.Ct. 1487. As the Supreme Court stated in Loudermill , due process \"requires some kind of hearing prior to the discharge of an employee.\" Id. at 542, 105 S.Ct. 1487 (quotation marks and citations omitted). Pre-termination due process is important because \"[e]ven where the facts are clear, the appropriateness or necessity of the discharge may not be; in such cases, the only meaningful opportunity to invoke the discretion of the decisionmaker is likely to be before the termination takes effect.\" Id. at 543, 105 S.Ct. 1487 ; see also Young v. Dep't of Housing & Urban Devel. , 706 F.3d 1372, 1377 (Fed. Cir. 2013) (\"[A]n employee is entitled to notice of the charges against him, an explanation of the employer's evidence, and an opportunity to present his side of the story before termination.\" (citing Stone , 179 F.3d at 1376 ) ); see also 2 Richard J. Pierce, Jr., Admin. Law Treatise \u00a7 9.5, p. 823 (5th ed. 2010)\n(\"Notice is one of the most important procedural safeguards.\").\nTo be sure, not every disciplinary action requires pre-deprivation notice and opportunity to be heard. For example, in Gilbert v. Homar , 520 U.S. 924, 933, 117 S.Ct. 1807, 138 L.Ed.2d 120 (1997), the Supreme Court held that a pre-disciplinary hearing was not required where the disciplinary action-suspension-was only temporary, and \"the State ha[d] a significant interest in immediately suspending\" an employee who had been arrested and charged with a felony.\nAlthough Do's case does not involve a termination, the government does not argue that demotions should be treated differently than terminations or that there was a need to take action quickly without advance notice and opportunity to be heard. In the past, this court has assumed in demotion cases that there is a right to pre-demotion notice and an opportunity to be heard. See, e.g. , Nguyen v. Dep't of Homeland Sec. , 737 F.3d 711, 718 (Fed. Cir. 2013) ; Pope v. U.S. Postal Serv. , 114 F.3d 1144, 1148-49 (Fed. Cir. 1997) ; see also Ciambriello v. Cty. of Nassau , 292 F.3d 307, 321 (2d Cir. 2002) (holding \"that the process due [to the employee] was notice of the charges against him and the opportunity to be heard before demotion\").\nIt is well-established that, in the civil service system, \"[o]nly the charge and specifications set out in the Notice may be used to justify punishment because due process requires that an employee be given notice of the charges against him in sufficient detail to allow the employee to make an informed reply.\" O'Keefe v. U.S. Postal Serv. , 318 F.3d 1310, 1315 (Fed. Cir. 2002) ; see Lachance v. Merit Sys. Prot. Bd. , 147 F.3d 1367, 1371-72 (Fed. Cir. 1998) ; Brook v. Corrado , 999 F.2d 523, 526-27 (Fed. Cir. 1993). When an agency relies on a charge not included in the notice, due process is violated because the notice does not fully inform the employee of the grounds for the proposed removal and deprives the employee of an opportunity to make an informed response before the agency takes disciplinary action. See Brook , 999 F.2d at 527 ; Pope , 114 F.3d at 1148-49.\nLikewise, the Board is limited to reviewing the grounds invoked by the agency and may not \"substitute what it considers to be a better basis for removal than what was identified by the agency.\" O'Keefe , 318 F.3d at 1315 (citations omitted); see James v. Dale , 355 F.3d 1375, 1378-79 (Fed. Cir. 2004) ; Licausi v. Office of Pers. Mgmt. , 350 F.3d 1359, 1363 n.1 (Fed. Cir. 2003) ; see also Horne v. Merit Sys. Prot. Bd. , 684 F.2d 155, 157-58 (D.C. Cir. 1982) (cited with approval in Licausi , 350 F.3d at 1363 ). \"Simply put, the Board should not be in the business of affirming administrative decisions based upon how an agency might have acted if it had followed proper procedures.\" Horne , 684 F.2d at 157-58.\nFor example, in O'Keefe , we held that the Board violated an employee's due process rights when it sustained a removal based on alleged misconduct that appeared nowhere in the notice of proposed removal. 318 F.3d at 1315. \"By accusing [the employee] of specific misdeeds that were not within the scope of the Notice of Proposed Removal, the Board ... exceeded the scope of its review of the agency's decision.\" Id.\nThus, as a general matter, when an agency disciplines an employee, it may do so based only on the charges in the notice of proposed action, and the Board, in turn, can affirm the disciplinary action based only on the charges actually noticed and relied on by the agency. The government does not dispute these general principles established by a long line of this court's cases.\nII\nThese due process requirements were violated here. Do was issued a notice of proposal to demote and suspend. The notice alleged a single charge of \"negligence of duty\" and stated as follows:\nCharge: Negligence of Duty\nSpecification #1: In 2006 you were made aware by security personnel at the Bureau of the Fiscal Service (formerly the Bureau of the Public Debt) that during a pre-employment background investigation for Uyen Asuncion attendance at the University of Colorado - Boulder was confirmed but there was no record that Ms. Asuncion had received her Bachelor of Science degree which was required for the position for which she was being considered. Ms. Asuncion also admitted to you that she did not have her degree; regardless she was hired for the position.\nSpecification #2: In 2009, you created a GS-14 auditor position within your division for Ms. Asuncion knowing that she did not possess a Bachelor of Science degree as required for auditor positions with HUD OIG.\nJ.A. 367 (emphases added). The notice further characterized the offense as \"serious\" because \"[t]he fact Ms. Asuncion did not have a [college] degree calls into question all of the work Ms. Asuncion has completed on behalf of HUD OIG.\" J.A. 368.\nThe Office of Personnel Management (\"OPM\") sets forth minimum qualification requirements for positions in the federal competitive service. Contrary to the notice, a college degree was not required for these positions in 2006 or 2009. Under the OPM standard, there were two ways an individual could qualify for a GS-11 or GS-14 auditor position: (1) by having a degree in accounting or related field, or (2) by having a specified combination of education and experience.\nA. THE AGENCY PROCEEDINGS\nAs HUD contends, Do argued in her responses to the agency that a degree was not required for the auditor positions; that there was an alternative way to qualify; and that she believed Asuncion qualified for the positions under this alternative. But Do was not on notice that she needed to defend against a charge of negligence for allegedly failing to investigate whether Asuncion was qualified based on a combination of education and experience. The central issue was not Do's belief but whether her actions were negligent.\nDo did not have a meaningful opportunity to address the unstated charge of negligence of duty in this respect (i.e., whether Do should have taken other actions to verify compliance under the alternative standard). The deciding official appeared not to have addressed the issue of negligence in failing to investigate the alternative qualifications. In her formal decision, the deciding official appeared to instead address Do's contention that she believed that Asuncion was qualified under the education and experience standard, ultimately concluding that demotion and suspension were warranted because Do believed a degree was required and knew that Asuncion did not have a degree. The deciding official stated:\nIn conclusion, the information in the case file shows you repeatedly emphasized Ms. Asuncion's need to obtain a college degree, beginning with your obtaining a promise from Ms. Asuncion around the time of her hire to complete that degree. Your emphasis on obtaining the degree demonstrates that you be lieved , on some level, Ms. Asuncion needed to possess a college degree to qualify for the auditor position, yet you allowed her to continue working in that position and even promoted her to a higher level auditor position knowing she did not possess the degree. You demonstrated poor judgment, which continued over a number of years, with regard to the hiring and subsequent promotion of Ms. Asuncion. Your actions directly led to Ms. Asuncion working and supervising audits for nearly a decade without possessing a college degree.\nJ.A. 337 (emphases added).\nB. THE BOARD PROCEEDINGS\nAlthough agreeing that a college degree was not required, the Board sustained the charge on a different ground than the ground relied on by the agency. The Board found that Asuncion did not meet OPM's requirements in 2006 or 2009 because she did not possess the requisite combination of education and experience that was an alternative basis for qualifying. The education and experience standard at issue here required that the applicant have (1) \"at least 4 years of experience in accounting or an equivalent combination of accounting experience, college-level education, and training that provided professional accounting knowledge\" and (2) \"[t]wenty-four semester hours in accounting or auditing courses of appropriate type and quality[,] [which] can include up to 6 hours of business law.\" J.A. 421. With respect to the 2006 hiring, the Board found that Asuncion did not have at least four years of accounting experience or the equivalent when she transferred from the DOJ to HUD OIG. Even if this requirement were met, the Board further found that Asuncion did not have twenty-four semester hours in accounting because her transcript reflected only twenty-one semester hours in accounting.\nWith respect to the 2009 promotion, the Board similarly rejected Do's arguments and found that Asuncion did not meet OPM's requirements in 2009 because, \"while she had more years of experience at the time of her promotion, she still lacked a college degree and it was not established that she completed 24 hours of coursework as required by OPM's qualifications.\" J.A. 12. Both for 2006 and 2009, the Board concluded that Do was guilty of \"negligence of duty\" because she did not determine that Asuncion met the required qualifications, and she could not rely on human resources or her supervisors without making an independent investigation.\nThe Board's decision is inconsistent with the agency's charge and supporting specifications. On appeal, the Board was required to limit its review to the grounds specified in the notice and relied on by the deciding official, namely, that a degree was required and that Do hired and later promoted Asuncion, knowing that Asuncion did not have a degree. See O'Keefe , 318 F.3d at 1315 ; Lachance , 147 F.3d at 1371-72 (Where an agency \"use[s] general charge labels such as 'unacceptable and inappropriate behavior' or 'misconduct,' \" it \"would be inconsistent with due process\" to allow \"an agency ... to prove any conduct generally relating to the conduct described in the specification, as long as that conduct could be characterized as 'inappropriate' or 'misconduct.' \"). But the Board sustained the disciplinary action because it concluded that Do negligently failed to investigate whether Asuncion met OPM's alternative requirements. The alternative theory relied on by the Board appears nowhere in the notice or in the deciding official's decision, and HUD conceded as much at oral argument.\nOf course, the magnitude of the procedural error is relevant to determining whether there has been a due process violation. As we have stated, not every \"procedural defect [is] so substantial and so likely to cause prejudice that it undermines the due process guarantee and entitles the claimant to an entirely new administrative proceeding.\" Stone , 179 F.3d at 1376-77. But this is not a case where the departures are minor. Rather, Do did not have the opportunity to meaningfully address negligence at the agency under the alternative standard for qualifying, and the Board's departure from the agency's decision was significant. Procedural due process guarantees are not met when the agency fails to give notice of and fails to consider the proper standard, and the Board, as it did here, departs significantly from the grounds relied on by the agency and substitutes its own alternative theory.\nIII\nHUD argues that, if there was a due process violation, it was at most harmless error. Even if we applied a harmless error test here, we are convinced that the error is harmful. We fail to see how the Board's error could have been harmless. There is certainly no showing that the Board would have reached the same result if it had considered only the agency's original charge since the Board agreed that a college degree was not required. With respect to the agency, the government argues that the deciding official testified that she would have reached the same result absent the error. HUD, however, has not proven by a preponderance of evidence that the deciding official would have reached the same result if Do had been charged with negligence in determining Asuncion's qualifications under the correct standard. The deciding official's testimony that she believes she would have arrived at the same conclusion and imposed the same penalty under proper procedures is not sufficient to show that the due process violation in this case was harmless because the test for harmlessness is an objective one, not a subjective one.\nIn Ryder v. United States , the government argued that the decision should be affirmed despite the procedural defect in the employee's firing because he would have been removed on the merits in the absence of the procedural defect. 585 F.2d 482, 487-88 (Ct. Cl. 1978), superseded by statute as recognized in Adams v. Dep't of Transp., F.A.A. , 735 F.2d 488, 496 (Fed. Cir. 1984) (Nies, J., concurring). The Court of Claims rejected this reasoning, stating:\n[W]here a serious procedural curtailment mars an adverse personnel action which deprives the employee of pay, the court has regularly taken the position that the defect divests the removal (or demotion) of legality .... In that situation, the merits of the adverse action are wholly disregarded.\nId. at 487-488. Similarly, in Sullivan v. Department of Navy , we rejected the government's argument that the due process violation \"was harmless error\" and \"made absolutely no difference in the case because ... the petitioner would have been removed in any event because of the evidence against him\" and held that the violation there \"tainted the investigation, voided the entire proceeding, and rendered [the] removal decision a nullity.\" 720 F.2d 1266, 1273-74 (Fed. Cir. 1983) (citing Ryder , 585 F.2d 482 ). We also rejected as irrelevant a similar argument in Stone , where the deciding official stated that he would have concluded that the employee should be removed \"whether or not\" the due process violation occurred. 179 F.3d at 1373.\nThus, there is no basis to conclude that the errors here were harmless.\nCONCLUSION\nBecause the Board violated Do's due process rights in sustaining her demotion and suspension, we reverse and remand.\nREVERSED AND REMANDED\nCOSTS\nCosts to the petitioner.\nDo had argued that Asuncion worked as a student trainee at HUD OIG's Denver, Colorado, office from March 2003 through January 2005, as an auditor at HUD OIG's Baltimore, Maryland, office from January 2005 through April 2006, and as an auditor at the DOJ from April 2006 until March 2007. Do argued that Asuncion's almost two years of experience working as a student trainee and her nearly two years of experience working as an auditor met the \"at least 4 years of experience in accounting or an equivalent combination of accounting experience, college-level education, and training .\"\nDo had argued that a course titled \"Accounting and Financial Analysis,\" which was worth four credits, was an accounting course on its face, and thus Asuncion had twenty-four semester hours in accounting courses. The Board acknowledged that, \"[i]f the course was applicable, Ms. Asuncion would have had 25 hours of applicable coursework.\" J.A. 7.\nThe Mathews v. Eldridge , 424 U.S. 319, 96 S.Ct. 893, 47 L.Ed.2d 18 (1976), balancing test takes account of the substantiality of the deprivation in determining whether an individual has been afforded procedural due process. 424 U.S. at 335, 340-42, 96 S.Ct. 893 ; Fed. Deposit Ins. Corp. v. Mallen , 486 U.S. 230, 242, 108 S.Ct. 1780, 100 L.Ed.2d 265 (1988) (examining the \"importance of the private interest and the harm to this interest occasioned by [agency] delay\" in determining \"how long a delay is justified in affording a post-suspension hearing and decision\"); Loudermill , 470 U.S. at 546-47, 105 S.Ct. 1487 (holding that a 9-month delay in final decision was not \"unconstitutionally lengthy per se \").\nSee, e.g. , Pope , 114 F.3d at 1148-49 (rejecting petitioner's argument \"that his due process rights were violated because the charges lacked specificity regarding dates, times, and places\" because \"[t]he notice given to Mr. Pope [wa]s quite detailed and clearly informed him of the charges as well as the evidence the Postal Service had in support\"); Brook , 999 F.2d at 526-27 (rejecting due process challenge where the notice did not explicitly state the nexus between the employee's misconduct and the proposed disciplinary action, but \"the notice fully informed Mr. Corrado of the grounds for the proposed removal [and] ... clearly identified the details of Mr. Corrado's arrest and conviction\"); Hayes v. Dep't of the Navy , 727 F.2d 1535, 1538 (Fed. Cir. 1984) (rejecting petitioner's due process challenge because, even though \"[t]he specific date of the offense charged appear[ed] to have been a little off target,\" the notice said \"on or about 22 January 1982\" and \"it [wa]s clear to us that petitioner knew what charge he had to defend\").",
+        "type": "majority",
+        "author": "Dyk, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Tamara Louise Miller, MillerMasciola, Washington, DC, argued for petitioner.",
+      "Sonia W. Murphy, Commercial Litigation Branch, Civil Division, United States Department of Justice, Washington, DC, argued for respondent. Also represented by Reta Emma Bezak, Reginald Thomas Blades, Jr., Robert Edward Kirschman, Jr., Joseph H. Hunt."
+    ],
+    "corrections": "",
+    "head_matter": "Hanh DO, Petitioner\nv.\nDEPARTMENT OF HOUSING AND URBAN DEVELOPMENT, Respondent\n2018-1147\nUnited States Court of Appeals, Federal Circuit.\nDecided: January 14, 2019\nTamara Louise Miller, MillerMasciola, Washington, DC, argued for petitioner.\nSonia W. Murphy, Commercial Litigation Branch, Civil Division, United States Department of Justice, Washington, DC, argued for respondent. Also represented by Reta Emma Bezak, Reginald Thomas Blades, Jr., Robert Edward Kirschman, Jr., Joseph H. Hunt.\nBefore Dyk, Reyna, and Chen, Circuit Judges."
+  },
+  "file_name": "1089-01",
+  "first_page_order": 1089,
+  "last_page_order": 1098
+}

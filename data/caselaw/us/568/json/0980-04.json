@@ -1,0 +1,76 @@
+{
+  "id": 12420130,
+  "name": "Smith v. United States; and Baker v. United States",
+  "name_abbreviation": "Smith v. United States",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-325; No. 12-6340",
+  "first_page": "980",
+  "last_page": "980",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 980"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "674 F. 3d 722",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3747461
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/674/0722-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 21,
+    "char_count": 143,
+    "ocr_confidence": 0.69,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25621223476735516
+    },
+    "sha256": "3b8d5051c2f156f5c71f52c7e9ab7e5951cc0761a64e3936b49c26818d35b0c5",
+    "simhash": "1:264aad8c4385d418",
+    "word_count": 25
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Smith v. United States; and Baker v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Cer-tiorari denied. Reported below: 674 F. 3d 722.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-325.\nNo. 12-6340.\nSmith v. United States; and Baker v. United States."
+  },
+  "file_name": "0980-04",
+  "first_page_order": 1056,
+  "last_page_order": 1056
+}

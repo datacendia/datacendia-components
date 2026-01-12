@@ -1,0 +1,59 @@
+{
+  "id": 5949393,
+  "name": "Sealed Appellant v. Sealed Appellee",
+  "name_abbreviation": "Sealed v. Sealed",
+  "decision_date": "2011-03-21",
+  "docket_number": "No. 10-9077",
+  "first_page": "1301",
+  "last_page": "1301",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1301"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 84,
+    "ocr_confidence": 0.554,
+    "sha256": "060eb9faba7ad6bdc8a220992bacaa3ba1b4f4a1f1075505226f6ef5c6d56787",
+    "simhash": "1:029cc396092812e7",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sealed Appellant v. Sealed Appellee."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9077.\nSealed Appellant v. Sealed Appellee."
+  },
+  "file_name": "1301-07",
+  "first_page_order": 1323,
+  "last_page_order": 1323
+}

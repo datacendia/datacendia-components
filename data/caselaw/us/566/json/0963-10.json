@@ -1,0 +1,59 @@
+{
+  "id": 12210102,
+  "name": "Zahn v. McHugh, Secretary of the Army",
+  "name_abbreviation": "Zahn v. McHugh",
+  "decision_date": "2012-04-23",
+  "docket_number": "No. 11-1129",
+  "first_page": "963",
+  "last_page": "963",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 963"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 86,
+    "ocr_confidence": 0.519,
+    "sha256": "6cd4f8df65edf3dca0c440e96306b526fbd3203c387306afb4454833a79311a1",
+    "simhash": "1:0113809a09878257",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Zahn v. McHugh, Secretary of the Army."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1129.\nZahn v. McHugh, Secretary of the Army."
+  },
+  "file_name": "0963-10",
+  "first_page_order": 839,
+  "last_page_order": 839
+}

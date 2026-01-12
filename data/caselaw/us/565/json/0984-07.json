@@ -1,0 +1,59 @@
+{
+  "id": 12230954,
+  "name": "Bivert v. California",
+  "name_abbreviation": "Bivert v. California",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-6098",
+  "first_page": "984",
+  "last_page": "984",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 984"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 69,
+    "ocr_confidence": 0.563,
+    "sha256": "8e79a436007e7d3008dc31c7aeb5a823aa9e34886eed5265e4db277e800b9e71",
+    "simhash": "1:8c0f15068609110a",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bivert v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6098.\nBivert v. California."
+  },
+  "file_name": "0984-07",
+  "first_page_order": 1066,
+  "last_page_order": 1066
+}

@@ -1,0 +1,113 @@
+{
+  "id": 12656919,
+  "name": "IN RE XEROX CORPORATION and Xerox State HealthCare, LLC, f/k/a ACS State HealthCare, LLC",
+  "name_abbreviation": "In re Xerox Corp.",
+  "decision_date": "2016-02-26",
+  "docket_number": "NO. 03\u201315\u201300401\u2013CV",
+  "first_page": "640",
+  "last_page": "642",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "550 S.W.3d 640"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex. App. Ct.",
+    "id": 30135,
+    "name": "Court of Appeals of Texas, Austin"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "497 S.W.3d 169",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12181643
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/497/0169-01"
+      ]
+    },
+    {
+      "cite": "361 S.W.3d 628",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7317007
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "630",
+          "parenthetical": "orig. proceeding"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/361/0628-01"
+      ]
+    },
+    {
+      "cite": "25 Tex. Admin. Code \u00a7 33.71",
+      "category": "laws:admin_compilation",
+      "reporter": "Tex. Admin. Code",
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "(a)",
+          "parenthetical": "Tex. Dep't of State Health Servs., Orthodontic Services and Prior Authorization"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 357,
+    "char_count": 5311,
+    "pagerank": {
+      "raw": 4.351389287593408e-08,
+      "percentile": 0.2736215509089526
+    },
+    "sha256": "f2e8a972b2243b6a5127ad55027fd346c8bceca127e72846ff128a7c29e045eb",
+    "simhash": "1:b10fc9f1298a1353",
+    "word_count": 833
+  },
+  "last_updated": "2024-02-27T16:16:05.631967+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Justices Puryear, Goodwin, and Bourland"
+    ],
+    "parties": [
+      "IN RE XEROX CORPORATION and Xerox State HealthCare, LLC, f/k/a ACS State HealthCare, LLC"
+    ],
+    "opinions": [
+      {
+        "text": "MEMORANDUM OPINION\nDavid Puryear, Justice The State brought an enforcement action against Xerox Corporation and Xerox State HealthCare, LLC, f/k/a ACS State HealthCare, LLC (\"Xerox\"), for alleged violations of the Texas Medicaid Fraud Prevention Act (the \"Act\"). See Tex. Hum. Res.Code \u00a7\u00a7 36.001 -.132; see also id. \u00a7\u00a7 36.007, .052 (setting out various civil penalties for violations of Act). During the time relevant to the underlying lawsuit, the Health and Human Services Commission hired Xerox to assist in processing Medicaid claims. As part of its responsibilities, Xerox was charged with reviewing prior-authorization requests for orthodontic services submitted by service providers. See 25 Tex. Admin. Code \u00a7 33.71(a) (2015) (Tex. Dep't of State Health Servs., Orthodontic Services and Prior Authorization) (providing that orthodontic treatment \"must be prior authorized\" in order for Medicaid to cover costs of orthodontic services). In its enforcement action, the State alleged that Xerox failed to adequately review the prior-authorization requests and that this failure resulted in Medicaid funds being improperly used to pay for services that were not allowed by law. In addition to the enforcement action that the State filed against Xerox, the State also filed a separate action against various service providers for alleged violations of the Act.\nAfter the State filed its suit against Xerox, Xerox filed a third-party petition against several service providers, including most of the service providers named in the State's related enforcement action, for contribution under chapter 33 of the Civil Practice and Remedies Code. See Tex. Civ. Prac. & Rem.Code \u00a7\u00a7 33.001 -.017 (providing that party to suit regarding tort claims may seek recovery from \"a defendant, settling person, or responsible third party\" who \"is found responsible for a percentage of the harm for which relief is sought\"); see also Tex. R. Civ. P. 38(a) (setting out circumstances in which \"[d]efendant [m]ay [b]ring in [t]hird [p]arty\"). In response, the State filed a motion to strike Xerox's third-party petition, and the district court granted the motion. After the district court made its ruling, Xerox filed a motion requesting the district court to allow Xerox to designate those service providers as responsible third parties. See Tex. Civ. Prac. & Rem. Code \u00a7 33.011(6) (defining \"[r]esponsible third party\" as \"any person who is alleged to have caused or contributed to causing in any way the harm for which recovery of damages is sought, whether by negligent act or omission, by any defective or unreasonably dangerous product, by other conduct or activity that violates an applicable legal standard, or by any combination of these\"). The State opposed the motion, and the district court denied Xerox's motion for leave to designate responsible third parties.\nSubsequent to the two rulings described above, Xerox filed a petition for writ of mandamus asking this Court to compel the district court to vacate its order striking Xerox's third-party petition and to grant Xerox's \"motion for leave to designate responsible third parties under Chapter 33.\" Having reviewed the petition and the responsive filings, we deny the petition for writ of mandamus. See Tex.R.App. P. 52.8(a) ; see also In re Frank Kent Motor Co., 361 S.W.3d 628, 630 (Tex. 2012) (orig. proceeding) (explaining that mandamus relief may be granted when trial court has clearly abused its discretion and \"when there is no adequate remedy by appeal\").\nThe State's enforcement action against several service providers is the subject of another proceeding before this Court. See Nazari v. State , 497 S.W.3d 169 (Tex.App.-Austin 2016, no pet. h.). In that proceeding, the service providers filed counterclaims against the State and filed third-party claims against Xerox. In response, the State filed a plea to the jurisdiction urging that the district court did not have jurisdiction over the counterclaims and filed a motion to dismiss the third-party claims against Xerox. The district court granted the plea and the motion to dismiss, and the service providers challenged both rulings. Contemporaneous with our ruling in this opinion regarding Xerox's petition for writ of mandamus, we issue an opinion in Nazari that affirms the district court's ruling on the State's plea to the jurisdiction and dismisses for want of jurisdiction the service providers' challenge to the granting of the State's motion to dismiss. See id.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Mr. Reynolds B. Brissenden, Mr. Raymond C. Winter, Assistant Attorney General, Chief, Civil Medicaid Fraud Section P. O. Box 12548, Austin, TX 78711-2548, for real party in interest.",
+      "Ms. Constance H. Pfeiffer, Beck Redden LLP, 1221 McKinney Street, Suite 4500, Houston, TX 77010, Mr. Robert C. Walters, 2100 McKinney Ave., Ste. 1100, Dallas, TX 75201-6912, Mr. Christopher Cowan, Mr. Eric J. R. Nichols, Ms. Gretchen S. Sween, Beck Redden LLP, 515 Congress Avenue, Suite 1900, Austin, TX 78701, Mr. C. Andrew Weber, Kelly Hart & Halman, LLP, 301 Congress Avenue, Suite 2000, Austin, TX 78701, for relator."
+    ],
+    "corrections": "",
+    "head_matter": "IN RE XEROX CORPORATION and Xerox State HealthCare, LLC, f/k/a ACS State HealthCare, LLC\nNO. 03-15-00401-CV\nCourt of Appeals of Texas, Austin.\nFiled: February 26, 2016\nMr. Reynolds B. Brissenden, Mr. Raymond C. Winter, Assistant Attorney General, Chief, Civil Medicaid Fraud Section P. O. Box 12548, Austin, TX 78711-2548, for real party in interest.\nMs. Constance H. Pfeiffer, Beck Redden LLP, 1221 McKinney Street, Suite 4500, Houston, TX 77010, Mr. Robert C. Walters, 2100 McKinney Ave., Ste. 1100, Dallas, TX 75201-6912, Mr. Christopher Cowan, Mr. Eric J. R. Nichols, Ms. Gretchen S. Sween, Beck Redden LLP, 515 Congress Avenue, Suite 1900, Austin, TX 78701, Mr. C. Andrew Weber, Kelly Hart & Halman, LLP, 301 Congress Avenue, Suite 2000, Austin, TX 78701, for relator.\nBefore Justices Puryear, Goodwin, and Bourland"
+  },
+  "file_name": "0640-01",
+  "first_page_order": 640,
+  "last_page_order": 642
+}

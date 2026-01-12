@@ -1,0 +1,59 @@
+{
+  "id": 12250507,
+  "name": "Reid v. New Jersey",
+  "name_abbreviation": "Reid v. New Jersey",
+  "decision_date": "2012-03-05",
+  "docket_number": "No. 11-8163",
+  "first_page": "1249",
+  "last_page": "1249",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1249"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 67,
+    "ocr_confidence": 0.743,
+    "sha256": "20f17c160aec162a97946271347ff0fbd5e3022afff0b36eb128817ae389eed1",
+    "simhash": "1:79e0b9dee948bb98",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Reid v. New Jersey."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. N. J. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8163.\nReid v. New Jersey."
+  },
+  "file_name": "1249-06",
+  "first_page_order": 1331,
+  "last_page_order": 1331
+}

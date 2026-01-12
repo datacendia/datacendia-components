@@ -1,0 +1,59 @@
+{
+  "id": 12229012,
+  "name": "Gentry v. Sinclair, Superintendent, Washington State Penitentiary",
+  "name_abbreviation": "Gentry v. Sinclair",
+  "decision_date": "2011-10-17",
+  "docket_number": "No. 10-10814",
+  "first_page": "963",
+  "last_page": "963",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 963"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 115,
+    "ocr_confidence": 0.659,
+    "sha256": "910171563716867278c76c1338310ddb5c6c94cdf446f78192847da8d0bb3967",
+    "simhash": "1:a89df0f6523bf01b",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gentry v. Sinclair, Superintendent, Washington State Penitentiary."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Wash. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10814.\nGentry v. Sinclair, Superintendent, Washington State Penitentiary."
+  },
+  "file_name": "0963-02",
+  "first_page_order": 1045,
+  "last_page_order": 1045
+}

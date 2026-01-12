@@ -1,0 +1,59 @@
+{
+  "id": 12431262,
+  "name": "De Oleo v. United States",
+  "name_abbreviation": "De Oleo v. United States",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-7911",
+  "first_page": "1177",
+  "last_page": "1177",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1177"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 73,
+    "ocr_confidence": 0.571,
+    "sha256": "31bebaac68e475102c61ecbb014dc5c78128fbd8c7ee2be9026245d0e08a4f73",
+    "simhash": "1:838b92024e35d80c",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "De Oleo v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7911.\nDe Oleo v. United States."
+  },
+  "file_name": "1177-01",
+  "first_page_order": 1253,
+  "last_page_order": 1253
+}

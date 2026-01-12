@@ -1,0 +1,206 @@
+{
+  "id": 12425649,
+  "name": "Delling v. Idaho",
+  "name_abbreviation": "Delling v. Idaho",
+  "decision_date": "2012-11-26",
+  "docket_number": "No. 11-1515",
+  "first_page": "1038",
+  "last_page": "1041",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1038"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "275 Kan. 456",
+      "category": "reporters:state",
+      "reporter": "Kan.",
+      "case_ids": [
+        861249
+      ],
+      "weight": 2,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "459"
+        },
+        {
+          "page": "843"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/kan/275/0456-01"
+      ]
+    },
+    {
+      "cite": "Idaho Code \u00a7 19-2523",
+      "category": "laws:leg_statute",
+      "reporter": "Idaho Code",
+      "year": 2004,
+      "opinion_index": 1
+    },
+    {
+      "cite": "121 Idaho 425",
+      "category": "reporters:state",
+      "reporter": "Idaho",
+      "case_ids": [
+        4454068
+      ],
+      "weight": 2,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "430"
+        },
+        {
+          "page": "1086"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/idaho/121/0425-01"
+      ]
+    },
+    {
+      "cite": "152 Idaho 122",
+      "category": "reporters:state",
+      "reporter": "Idaho",
+      "case_ids": [
+        6950178
+      ],
+      "weight": 4,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "125",
+          "parenthetical": "quoting State v. Card, 121 Idaho 425, 430, 825 P. 2d 1081, 1086 (1991)"
+        },
+        {
+          "page": "712",
+          "parenthetical": "quoting State v. Card, 121 Idaho 425, 430, 825 P. 2d 1081, 1086 (1991)"
+        },
+        {
+          "page": "125"
+        },
+        {
+          "page": "712"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/idaho/152/0122-01"
+      ]
+    },
+    {
+      "cite": "Idaho Code \u00a718-207",
+      "category": "laws:leg_statute",
+      "reporter": "Idaho Code",
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "(1)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "463 U. S. 354",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6195188
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "370"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/463/0354-01"
+      ]
+    },
+    {
+      "cite": "548 U. S. 735",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3500323
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "750-752",
+          "parenthetical": "noting that all but four States recognize some version of the insanity defense"
+        },
+        {
+          "page": "767-768",
+          "parenthetical": "offering a similar example of how mental illness may rebut mens rea"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/548/0735-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 399,
+    "char_count": 5398,
+    "ocr_confidence": 0.614,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25626629197300693
+    },
+    "sha256": "a3d794698c57d9bb17d6d4ba1aadaa970edb017304bf5366a80385cf033fd838",
+    "simhash": "1:021c52c754b5aa23",
+    "word_count": 899
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "with whom Justice Ginsburg and Justice Sotomayor join,"
+    ],
+    "parties": [
+      "Delling v. Idaho."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Idaho. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      },
+      {
+        "text": "Justice Breyer,\nwith whom Justice Ginsburg and Justice Sotomayor join,\ndissenting.\nThe law has long recognized that criminal punishment is not appropriate for those who, by reason of insanity, cannot tell right from wrong. See 4 W. Blackstone, Commentaries on the Laws of England 24-25 (1769); M\u2019Naghten\u2019s Case, 10 Cl. & Fin. 200, 8 Eng. Rep. 718 (1843). The insanity defense in nearly every State incorporates this principle. See Clark v. Arizona, 548 U. S. 735, 750-752 (2006) (noting that all but four States recognize some version of the insanity defense); R. Bonnie, A. Coughlin, J. Jef-fries, & P. Low, Criminal Law 604 (3d ed. 2010) (same). If a defendant establishes an insanity defense, he is not criminally liable, though the government may confine him civilly for as long as he continues to pose a danger to himself or to others by reason of his mental illness. Jones v. United States, 463 U. S. 354, 370 (1983).\nIdaho and a few other States have modified this traditional insanity defense. Indeed, Idaho provides that \u201c[mjental condition shall not be a defense to any charge of criminal conduct.\u201d Idaho Code \u00a718-207(1) (Lexis 2004). Another provision of the same statute provides, however, that the above restriction is not \u201cintended to prevent the admission of expert evidence on the issue of any state of mind which is an element of the offense.\u201d \u00a7 18-207(3). And the Idaho courts have made clear that prosecutors are \u201c\u2018still required to prove beyond a reasonable doubt that a defendant had the mental capacity to form the necessary intent.\u2019 \u201d 152 Idaho 122, 125, 267 P. 3d 709, 712 (2011) (quoting State v. Card, 121 Idaho 425, 430, 825 P. 2d 1081, 1086 (1991)). Thus, in Idaho, insanity remains relevant to criminal liability, but only in respect to intent. Insanity continues to have relevance at sentencing as well. A court must \u201creceivfej\u201d evidence of mental condition at sentencing and, if mental condition proves to be a \u201csignificant factor,\u201d must consider a string of issues deemed relevant to punishment, including, notably, \u201c[t]he capacity of the defendant to appreciate the wrongfulness of his conduct.\u201d Idaho Code \u00a7 19-2523 (Lexis 2004). In addition, if the court imposes a prison sentence on a person who \u201csuffers from any mental condition requiring treatment,\u201d Idaho law appears to mandate that \u201cthe defendant shall receive treatment\u201d in an appropriate facility. See \u00a7 18-207(2).\nStill, the step that Idaho has taken is significant. As that State\u2019s courts recognize, it \u201c \u2018may allow the conviction of persons who may be insane by some former insanity test or medical standard, but who nevertheless have the ability to form intent and to control their actions.\u2019 \u201d 152 Idaho, at 125, 267 P. 3d, at 712. That is, the difference between the traditional insanity defense and Idaho\u2019s standard is that the latter permits the conviction of an individual who knew what he was doing, but had no capacity to understand that it was wrong.\nTo illustrate with a very much simplified example: Idaho law would distinguish the following two cases. Case One: The defendant, due to insanity, believes that the victim is a wolf. He shoots and kills the victim. Case Two: The defendant, due to insanity, believes that a wolf, a supernatural figure, has ordered him to kill the victim. In Case One, the defendant does not know he has killed a human being, and his insanity negates a mental element necessary to commit the crime. Cf. Clark, supra, at 767-768 (offering a similar example of how mental illness may rebut mens rea). In Case Two, the defendant has intentionally killed a victim whom he knows is a human being; he possesses the necessary mens rea. In both cases the defendant is unable, due to insanity, to appreciate the true quality of his act, and therefore unable to perceive that it is wrong. But in Idaho, the defendant in Case One could defend the charge by arguing that he lacked the mens rea, whereas the defendant in Case Two would not be able to raise a defense based on his mental illness. Much the same outcome seems likely to occur in other States that have modified the insanity defense in similar ways. For example, in State v. Bethel, 275 Kan. 456, 459, 66 P. 3d 840, 843 (2003), the prosecution and defense agreed that under a similar Kansas statute, evidence that a schizophrenic defendant\u2019s \u201c \u2018mental state precluded him from understanding the difference between right and wrong or from understanding the consequences of his actions . . . does not constitute a defense to the charged crimes.\u2019\u201d\nThe American Psychiatric Association tells us that \u201csevere mental illness can seriously impair a sufferer\u2019s ability rationally to appreciate the wrongfulness of conduct.\u201d Brief for American Psychiatric Association et al. as Amici Curiae 15. And other amici tell us that those seriously mentally ill individuals often possess the kind of mental disease that Case Two describes\u2014that is to say, they know that the victim is a human being, but due to mental illness, such as a paranoid delusion, they wrongly believe the act is justified. Brief for 52 Criminal Law and Mental Health Law Professors 10. In view of these submissions, I would grant the petition for certiorari to consider whether Idaho\u2019s modification of the insanity defense is consistent with the Fourteenth Amendment\u2019s Due Process Clause.",
+        "type": "dissent",
+        "author": "Justice Breyer,"
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1515.\nDelling v. Idaho."
+  },
+  "file_name": "1038-16",
+  "first_page_order": 1114,
+  "last_page_order": 1117
+}

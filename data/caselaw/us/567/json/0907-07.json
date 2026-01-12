@@ -1,0 +1,59 @@
+{
+  "id": 12408199,
+  "name": "Morgan v. Columbia County Department of Social Services",
+  "name_abbreviation": "Morgan v. Columbia County Department of Social Services",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. 11-9153",
+  "first_page": "907",
+  "last_page": "907",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 907"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 103,
+    "ocr_confidence": 0.701,
+    "sha256": "07217e87974a7e479fa54d1868ce019d4fdc9e1acfbaa3290a188ca08ed81700",
+    "simhash": "1:bbc198c2471ff744",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Morgan v. Columbia County Department of Social Services."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9153.\nMorgan v. Columbia County Department of Social Services."
+  },
+  "file_name": "0907-07",
+  "first_page_order": 811,
+  "last_page_order": 811
+}

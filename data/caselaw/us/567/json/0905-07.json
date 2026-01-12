@@ -1,0 +1,76 @@
+{
+  "id": 12407911,
+  "name": "Morgan et al. v. Swanson et al.; and Swanson et al. v. Morgan et al.",
+  "name_abbreviation": "Morgan v. Swanson",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. 11-804; No. 11-941",
+  "first_page": "905",
+  "last_page": "905",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 905"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "659 F. 3d 359",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6050015
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/659/0359-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 21,
+    "char_count": 158,
+    "ocr_confidence": 0.669,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2554892196417629
+    },
+    "sha256": "af9f0bd979ee8b69f122d9dfa546693bd08776cb3c82f146afafc34e7a63aa84",
+    "simhash": "1:30cca11abb66867f",
+    "word_count": 31
+  },
+  "last_updated": "2024-02-27T23:46:21.325002+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Morgan et al. v. Swanson et al.; and Swanson et al. v. Morgan et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied. Reported below: 659 F. 3d 359.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-804.\nNo. 11-941.\nMorgan et al. v. Swanson et al.; and Swanson et al. v. Morgan et al."
+  },
+  "file_name": "0905-07",
+  "first_page_order": 809,
+  "last_page_order": 809
+}

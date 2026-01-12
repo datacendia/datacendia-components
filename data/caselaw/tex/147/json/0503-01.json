@@ -1,0 +1,101 @@
+{
+  "id": 2333802,
+  "name": "Texas Unemployment Compensation Commission v. General Engineering Corporation et al.",
+  "name_abbreviation": "Texas Unemployment Compensation Commission v. General Engineering Corp.",
+  "decision_date": "1949-02-02",
+  "docket_number": "No. A-1871",
+  "first_page": "503",
+  "last_page": "505",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "147 Tex. 503"
+    },
+    {
+      "type": "parallel",
+      "cite": "217 S.W.2d 659"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "147 Texas 495",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2333813
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/147/0495-01"
+      ]
+    },
+    {
+      "cite": "213 S. W. (2d) 151",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10188484
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/213/0151-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 244,
+    "char_count": 3224,
+    "ocr_confidence": 0.574,
+    "pagerank": {
+      "raw": 1.4520117304350403e-07,
+      "percentile": 0.6552567350451706
+    },
+    "sha256": "2c5c08e4106bda70aebd8a8ad25a65aaf82af153c8edf18bf17223512c362041",
+    "simhash": "1:93cf047d07cadf58",
+    "word_count": 509
+  },
+  "last_updated": "2024-02-27T21:30:02.118491+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Texas Unemployment Compensation Commission v. General Engineering Corporation et al."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Brewster\ndelivered the opinion of the Court.\nGeneral Engineering Corporation et ah, respondents, sued Texas Unemployment Compensation Commission et al, petitioners, in their official capacities, to recover unemployment compensation taxes under protest. A trial court judgment for respondents was affirmed by the Court of Civil Appeals. 213 S. W. (2d) 151.\nGeneral Engineering Company was a limited partnership doing an engineering and construction business and handling industrial materials and supplies. As the only general parner, one Sprekelmeyer was in exclusive control of its operations and business. Because of a favorable benefit wage ratio, and partnership enjoyed the minimum of T/z per cent, on its pay- - rolls as its unemployment compensation tax, under the provisions of Art. 5221b \u2014 5, V. A. C. S.\nOn January 9, 1946, General Engineering Corporation and General Industrial Supply Corporation, respondents, were incorporated, the former to take over the engineering business and the latter the supply business of the partnership, General Engineering Co. Both corporations remained under the active control and management of Sprekelmeyer. Each had more than eight employees, and that rendered each liable for unemployment compensation contributions, without regard to the provisions of Sec. 17(f) (4), of Art. 5221b, supra; so the Commission set up a separate account for each of them.\nHowever, the Commission fixed their rate at 2.7 per cent., in spite of their claim that they were entitled to the experience rate of ^ percent, formerly enjoyed by General Engineering Co., their predecessor. Respondents paid on the 2.7 per cent, rate under protest, and brought this suit to recover the difference between what they paid and what they would have paid under the claimed rate of per cent. The basis of their contention is that since the corporations operated under the unified control of Sprekelmyer, they should be held to be a single employing unit in successorship to General Engineering Co., under the provisions of subsection c (7), of Art. 5221b \u2014 -5, supra.\nIt is obvious that the question thus presented is identical with that this day decided in the State of Texas et al v. Dallas Liquor Warehouse No. 4 et al, 147 Texas 495, 217 S. W. (2d) 614. For the reasons there stated, we have concluded that respondents\u2019 proposition is not tenable.\nAccordingly, both judgments below are reversed and judgment is here rendered for petitioners.\nOpinion rendered February 2, 1949.",
+        "type": "majority",
+        "author": "Mr. Justice Brewster"
+      },
+      {
+        "text": "Mr. Justice S medley\ndissenting.\nI dissent from the opinion of the majority for the same reasons as those given in my dissenting opinion in State of Texas et al v. Dallas Liquor Warehouse No. 4 et al, No. A-1870.\nOpinion delivered February 2, 1949.\nRehearing overruled March 9, 1949.",
+        "type": "dissent",
+        "author": "Mr. Justice S medley"
+      }
+    ],
+    "attorneys": [
+      "Price Daniel, Attorney General, Robert 0. Koch and Charles P. Atkinson, Assistants Attorney General, Joe K. Wells and C. PL. Messer, of Austin, for petitioners.",
+      "Lattimore, Couch & Lattimore and J. 0. Terrell Couch, all of Fort Worth, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "Texas Unemployment Compensation Commission v. General Engineering Corporation et al.\nNo. A-1871.\nDecided February 2, 1949.\nRehearing overruled March 9,1949.\n(217 S. W., 2d Series, 659.)\nPrice Daniel, Attorney General, Robert 0. Koch and Charles P. Atkinson, Assistants Attorney General, Joe K. Wells and C. PL. Messer, of Austin, for petitioners.\nLattimore, Couch & Lattimore and J. 0. Terrell Couch, all of Fort Worth, for respondents."
+  },
+  "file_name": "0503-01",
+  "first_page_order": 519,
+  "last_page_order": 521
+}

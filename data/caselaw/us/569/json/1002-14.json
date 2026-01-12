@@ -1,0 +1,66 @@
+{
+  "id": 12696503,
+  "name": "In the Matter of Disbarment of George Z. PAPPAS.",
+  "name_abbreviation": "In re Pappas",
+  "decision_date": "2013-05-28",
+  "docket_number": "No. D\u20132701.",
+  "first_page": "1002",
+  "last_page": "1002",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "569 U.S. 1002"
+    },
+    {
+      "type": "parallel",
+      "cite": "186 L. Ed. 2d 212"
+    },
+    {
+      "type": "parallel",
+      "cite": "133 S. Ct. 2761"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 19,
+    "char_count": 137,
+    "sha256": "784018f9023754547c660c9aa6c9bb9fef9a9758ebe1ebfd838552dbddd1cb2b",
+    "simhash": "1:62224804fecc34e0",
+    "word_count": 23
+  },
+  "last_updated": "2021-08-27T21:08:28.003473+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In the Matter of Disbarment of George Z. PAPPAS."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "In the Matter of Disbarment of George Z. PAPPAS.\nNo. D-2701.\nSupreme Court of the United States\nMay 28, 2013.\nDisbarment order entered."
+  },
+  "file_name": "1002-14",
+  "first_page_order": 1002,
+  "last_page_order": 1002
+}

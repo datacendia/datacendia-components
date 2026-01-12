@@ -1,0 +1,832 @@
+{
+  "id": 12521038,
+  "name": "AMERICAN ASSOCIATION OF POLITICAL CONSULTANTS, INC.; Democratic Party of Oregon, Inc.; Public Policy Polling, LLC ; Washington State Democratic Central Committee, Plaintiffs - Appellants, and Tea Party Forward PAC, Plaintiff, v. FEDERAL COMMUNICATIONS COMMISSION; William P. Barr, in his official capacity as Attorney General of the United States, Defendants - Appellees.",
+  "name_abbreviation": "Am. Ass'n of Political Consultants, Inc. v. Fed. Commc'ns Comm'n",
+  "decision_date": "2019-04-24",
+  "docket_number": "No. 18-1588",
+  "first_page": "159",
+  "last_page": "172",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "923 F.3d 159"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "4th Cir.",
+    "id": 8954,
+    "name": "United States Court of Appeals for the Fourth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "522 F.3d 874",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3762211
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "886",
+          "parenthetical": "deciding severance issue on appeal because, inter alia, merits and severance were \"intimately tied\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/522/0874-01"
+      ]
+    },
+    {
+      "cite": "529 U.S. 803",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9509184
+      ],
+      "weight": 3,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "813",
+          "parenthetical": "explaining that First Amendment requires the use of less restrictive alternatives to content-based speech restrictions"
+        },
+        {
+          "parenthetical": "explaining that First Amendment requires the use of less restrictive alternatives to content-based speech restrictions"
+        },
+        {
+          "parenthetical": "explaining that First Amendment requires the use of less restrictive alternatives to content-based speech restrictions"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/529/0803-01"
+      ]
+    },
+    {
+      "cite": "785 F.3d 895",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4182254
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "923"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/785/0895-01"
+      ]
+    },
+    {
+      "cite": "856 F.3d 307",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12276739
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "316",
+          "parenthetical": "explaining that failure to properly develop appellate contention, or merely taking a \" 'passing shot' \" at it, waives the argument (quoting Brown v. Nucor Corp. , 785 F.3d 895, 923 (4th Cir. 2015) )"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/856/0307-01"
+      ]
+    },
+    {
+      "cite": "372 F.3d 261",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9231280
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "parenthetical": "explaining binding nature of judicial concessions"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/372/0261-01"
+      ]
+    },
+    {
+      "cite": "106 Stat. 4181",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "462 U.S. 919",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6196077
+      ],
+      "weight": 3,
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "932"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/462/0919-01"
+      ]
+    },
+    {
+      "cite": "107 S.Ct. 1476",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        1131466
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/480/0678-01"
+      ]
+    },
+    {
+      "cite": "47 U.S.C. \u00a7 608",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "472 U.S. 491",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1512350
+      ],
+      "weight": 3,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "504"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/472/0491-01"
+      ]
+    },
+    {
+      "cite": "561 U.S. 477",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3644210,
+        12455286
+      ],
+      "weight": 5,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "508",
+          "parenthetical": "quoting Brockett v. Spokane Arcades, Inc. , 472 U.S. 491, 504, 105 S.Ct. 2794, 86 L.Ed.2d 394 (1985) "
+        },
+        {
+          "parenthetical": "quoting Brockett v. Spokane Arcades, Inc. , 472 U.S. 491, 504, 105 S.Ct. 2794, 86 L.Ed.2d 394 (1985) "
+        },
+        {
+          "parenthetical": "quoting Brockett v. Spokane Arcades, Inc. , 472 U.S. 491, 504, 105 S.Ct. 2794, 86 L.Ed.2d 394 (1985) "
+        },
+        {
+          "page": "509"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/561/0477-01",
+        "/l-ed-2d/177/0706-01"
+      ]
+    },
+    {
+      "cite": "819 F.3d 715",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4253299
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "721-22",
+          "parenthetical": "recognizing that severance of a flawed portion of a statute prevents a court from nullifying too much of that enactment"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/819/0715-01"
+      ]
+    },
+    {
+      "cite": "546 U.S. 320",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6000164
+      ],
+      "weight": 3,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "328"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/546/0320-01"
+      ]
+    },
+    {
+      "cite": "567 U.S. 519",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12407356
+      ],
+      "weight": 3,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "587"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/567/0519-01"
+      ]
+    },
+    {
+      "cite": "564 U.S. 786",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        4334708,
+        12450503
+      ],
+      "weight": 3,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "802"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/564/0786-01",
+        "/l-ed-2d/180/0708-01"
+      ]
+    },
+    {
+      "cite": "536 U.S. 765",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1254601
+      ],
+      "weight": 5,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "780"
+        },
+        {
+          "page": "780"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/536/0765-01"
+      ]
+    },
+    {
+      "cite": "31 FCC Rcd. 9054",
+      "category": "reporters:federal",
+      "reporter": "FCC Rcd",
+      "year": 2016,
+      "pin_cites": [
+        {
+          "parenthetical": "emphasizing that emergency exemption \"will not promote the proliferation of unwanted\" calls"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "7 FCC Rcd. 2736",
+      "category": "reporters:federal",
+      "reporter": "FCC Rcd",
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "2738",
+          "parenthetical": "explaining that emergency calls are only made when \"it is in the public interest to convey information to consumers concerning health or safety\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "885 F.3d 687",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516351
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "714",
+          "parenthetical": "contrasting debt-collection calls with emergency calls"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/885/0687-01"
+      ]
+    },
+    {
+      "cite": "47 C.F.R. \u00a7 64.1200",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "pin_cites": [
+        {
+          "page": "(f)(4)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "641 F.3d 695",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4205548
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "699",
+          "parenthetical": "explaining that consent diminishes expectation of privacy in constitutional context"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/641/0695-01"
+      ]
+    },
+    {
+      "cite": "135 S.Ct. 1656",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12588820
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1668",
+          "parenthetical": "recognizing that speech restrictions with vast carveouts can undermine compelling governmental interest"
+        },
+        {
+          "parenthetical": "recognizing that speech restrictions with vast carveouts can undermine compelling governmental interest"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/135/1656-01"
+      ]
+    },
+    {
+      "cite": "31 FCC Rcd. 9074",
+      "category": "reporters:federal",
+      "reporter": "FCC Rcd",
+      "weight": 5,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "9077-78"
+        },
+        {
+          "page": "9077",
+          "parenthetical": "explaining that, in 2015, FCC received over 900,000 complaints about debt-collection calls"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "565 U.S. 368",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12186337,
+        12446023
+      ],
+      "weight": 3,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "372",
+          "parenthetical": "discussing congressional findings supporting TCPA prohibitions"
+        },
+        {
+          "parenthetical": "discussing congressional findings supporting TCPA prohibitions"
+        },
+        {
+          "parenthetical": "discussing congressional findings supporting TCPA prohibitions"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/565/0368-01",
+        "/l-ed-2d/181/0881-01"
+      ]
+    },
+    {
+      "cite": "796 F.3d 399",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5768818
+      ],
+      "weight": 4,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "405",
+          "parenthetical": "citations and internal quotation marks omitted"
+        },
+        {
+          "page": "405-06"
+        },
+        {
+          "page": "405"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/796/0399-01"
+      ]
+    },
+    {
+      "cite": "134 S.Ct. 1434",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12579115,
+        12706989
+      ],
+      "weight": 3,
+      "year": 2014,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/134/1434-01",
+        "/us/572/0185-01"
+      ]
+    },
+    {
+      "cite": "572 U.S. 185",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12706989
+      ],
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "199"
+        },
+        {
+          "page": "199"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/572/0185-01"
+      ]
+    },
+    {
+      "cite": "491 U.S. 781",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6219515
+      ],
+      "weight": 3,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "791"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/491/0781-01"
+      ]
+    },
+    {
+      "cite": "468 U.S. 641",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11339762
+      ],
+      "weight": 3,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "652-53"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/468/0641-01"
+      ]
+    },
+    {
+      "cite": "729 F.3d 370",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3700596
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "375"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/729/0370-01"
+      ]
+    },
+    {
+      "cite": "828 F.3d 239",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4336604
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "247",
+          "parenthetical": "citations and internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/828/0239-01"
+      ]
+    },
+    {
+      "cite": "760 F.3d 352",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4148058
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "370"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/760/0352-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1291",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "287 F.Supp.3d 920",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        12523149
+      ],
+      "weight": 4,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "927"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/287/0920-01"
+      ]
+    },
+    {
+      "cite": "135 S.Ct. 2218",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12590246
+      ],
+      "weight": 17,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "2226"
+        },
+        {
+          "page": "2227"
+        },
+        {
+          "page": "2231"
+        },
+        {
+          "page": "2227"
+        },
+        {
+          "page": "2228"
+        },
+        {
+          "page": "2227",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "2227"
+        },
+        {
+          "page": "2227"
+        },
+        {
+          "page": "2231"
+        },
+        {
+          "page": "2231"
+        },
+        {
+          "page": "2232"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/135/2218-01"
+      ]
+    },
+    {
+      "cite": "136 S.Ct. 663",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12601271
+      ],
+      "weight": 4,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "672",
+          "parenthetical": "\"The United States and its agencies, it is undisputed, are not subject to the TCPA's prohibitions.\""
+        },
+        {
+          "parenthetical": "\"The United States and its agencies, it is undisputed, are not subject to the TCPA's prohibitions.\""
+        },
+        {
+          "page": "672",
+          "parenthetical": "\"The United States and its agencies, it (Continued) is undisputed, are not subject to the TCPA's prohibitions.\""
+        },
+        {
+          "parenthetical": "\"The United States and its agencies, it (Continued) is undisputed, are not subject to the TCPA's prohibitions.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/136/0663-01"
+      ]
+    },
+    {
+      "cite": "129 Stat. 584",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 U.S.C. \u00a7 227",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 10,
+      "pin_cites": [
+        {
+          "page": "(b)(1)(A)"
+        },
+        {
+          "page": "(b)(1)(A)(iii)"
+        },
+        {
+          "page": "(b)(1)(A)(iii)"
+        },
+        {
+          "page": "(b)(1)(A)"
+        },
+        {
+          "page": "(b)(1)(A)"
+        },
+        {
+          "page": "(b)(2)(C)"
+        },
+        {
+          "page": "(b)(1)(A)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "323 F.Supp.3d 737",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        12526559
+      ],
+      "weight": 8,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "parenthetical": "the \"Opinion\""
+        },
+        {
+          "page": "742"
+        },
+        {
+          "page": "743"
+        },
+        {
+          "page": "743"
+        },
+        {
+          "page": "744"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/323/0737-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1353,
+    "char_count": 41129,
+    "pagerank": {
+      "raw": 5.869610463952464e-08,
+      "percentile": 0.3681349762090377
+    },
+    "sha256": "e99642563214a3150521fbc326c211f05c6e992312b24b3f96feb89291dbfd90",
+    "simhash": "1:39e6b1859f7e75f1",
+    "word_count": 6266
+  },
+  "last_updated": "2024-02-27T18:46:40.961150+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before KING, KEENAN, and QUATTLEBAUM, Circuit Judges."
+    ],
+    "parties": [
+      "AMERICAN ASSOCIATION OF POLITICAL CONSULTANTS, INC.; Democratic Party of Oregon, Inc.; Public Policy Polling, LLC ; Washington State Democratic Central Committee, Plaintiffs - Appellants,\nand\nTea Party Forward PAC, Plaintiff,\nv.\nFEDERAL COMMUNICATIONS COMMISSION; William P. Barr, in his official capacity as Attorney General of the United States, Defendants - Appellees."
+    ],
+    "opinions": [
+      {
+        "text": "KING, Circuit Judge:\nThe American Association of Political Consultants, Inc. and three other plaintiffs (hereinafter the \"Plaintiffs\") appeal from a summary judgment award made by the district court to the defendants, the Federal Communications Commission (the \"FCC\") and the Attorney General (collectively the \"Government\"). See Am. Ass'n of Political Consultants v. Sessions , 323 F.Supp.3d 737 (E.D.N.C. 2018) (the \"Opinion\"). The Plaintiffs initiated this litigation in May 2016 in the Eastern District of North Carolina, alleging that part of the Telephone Consumer Protection Act of 1991 (the \"TCPA\") contravenes the Free Speech Clause of the First Amendment. As pertinent here, the TCPA prohibits calls to cell phones by use of an automated dialing system or an artificial or prerecorded voice, subject to three statutory exemptions (the \"automated call ban\"). The Plaintiffs allege that one of the statutory exemptions to the automated call ban - created by a 2015 TCPA amendment - is facially unconstitutional under the Free Speech Clause. That exemption authorizes automated calls that relate to the collection of debts owed to or guaranteed by the federal government (the \"debt-collection exemption\"). According to the Plaintiffs, the free speech infirmity of the debt-collection exemption is not severable from the automated call ban and renders the entire ban unconstitutional.\nIn awarding summary judgment to the Government in March 2018, the Opinion rejected the free speech challenge interposed by the Plaintiffs. The district court applied strict scrutiny review to the debt-collection exemption and ruled that it does not violate the Free Speech Clause. As explained below, we agree that strict scrutiny review applies in this case but conclude that the debt-collection exemption does not satisfy such a review. As a result, we agree with the Plaintiffs that the debt-collection exemption contravenes the Free Speech Clause. In agreement with the Government, however, we are satisfied to sever the flawed exemption from the automated call ban. We therefore vacate the judgment and remand.\nI.\nA.\nEnacted in 1991, the TCPA was a response by Congress to the reactions of American consumers over intrusive and unwanted phone calls. As a result of congressional concern with automated phone calls, the automated call ban prohibits phone calls to cell phones that use \"any automatic telephone dialing system or an artificial or prerecorded voice.\" See 47 U.S.C. \u00a7 227(b)(1)(A). The automated call ban does not, however, reach and prohibit all calls made with those technologies. For example, the TCPA authorizes automated phone calls to cell phones if they satisfy one of the statutory exemptions specified in the automated call ban. When it was enacted in 1991, the TCPA created two statutory exemptions to the ban, both of which are yet in effect. Under the first exemption, if an automated call to a cell phone is initiated \"for emergency purposes,\" it does not contravene the automated call ban (the \"emergency exemption\"). See id. Pursuant to the second statutory exemption, an automated call made to a cell phone with \"the prior express consent of the called party\" likewise does not violate the ban (the \"consent exemption\"). See id.\nFor more than twenty years, the emergency and consent exemptions were the only statutory exemptions to the automated call ban. In 2015, however, Congress enacted the third statutory exemption - the debt-collection exemption - and therein excepted from the ban all calls to cell phones \"made solely to collect a debt owed to or guaranteed by the United States.\" See Bipartisan Budget Act of 2015, Pub. L. No. 114-74, \u00a7 301(a), 129 Stat. 584, 588 (2015) (amending 47 U.S.C. \u00a7 227(b)(1)(A)(iii) ). In addition to the statutory exemptions, automated calls made by the federal government itself are not barred by the automated call ban. See Campbell-Ewald Co. v. Gomez , --- U.S. ----, 136 S.Ct. 663, 672, 193 L.Ed.2d 571 (2016) (\"The United States and its agencies, it is undisputed, are not subject to the TCPA's prohibitions.\"). With the foregoing statutory framework in mind, we turn to the proceedings in the district court.\nB.\nIn May 2016, the Plaintiffs filed this lawsuit in the Eastern District of North Carolina, alleging, inter alia, that the debt-collection exemption to the automated call ban contravenes their free speech rights because it is a content-based restriction on speech that fails to satisfy strict scrutiny review. According to the complaint, the debt-collection exemption creates a regime that permits - and thereby unconstitutionally favors - a select group of otherwise prohibited automated calls to cell phones. The complaint also alleges that whether an automated phone call satisfies the debt-collection exemption, and thus escapes the prohibitions of the automated call ban, depends on the call's content. The Plaintiffs therefore allege that the debt-collection exemption to the ban contravenes the Free Speech Clause.\nIn 2017, the Plaintiffs and the Government each moved in the district court for summary judgment. By its Opinion of March 26, 2018, the court denied the summary judgment request of the Plaintiffs and awarded summary judgment to the Government. In so ruling, the court rejected the Free Speech Clause challenge of the Plaintiffs. At its outset, the Opinion correctly recognized that the Free Speech Clause prohibits a restriction on speech that is predicated on \" 'its message, its ideas, its subject matter, or its content.' \" See AAPC , 323 F.Supp.3d at 742 (quoting Reed v. Town of Gilbert , --- U.S. ----, 135 S.Ct. 2218, 2226, 192 L.Ed.2d 236 (2015) ). As the Opinion explained, such content-based speech restrictions \" 'are presumptively unconstitutional' \" and are only permissible if they satisfy strict scrutiny review. See id. (quoting Reed , 135 S.Ct. at 2226 ). That is, the Government must establish that content-based speech restrictions have been narrowly tailored to further a compelling governmental interest.\nAlthough the Opinion ruled that the debt-collection exemption to the automated call ban is constitutional, it initially recognized the exemption as a \"content-based speech restriction.\" See AAPC , 323 F.Supp.3d at 743. As the district court explained, the debt-collection exemption \"makes content distinctions on its face.\" Id. To support that proposition, the court drew on a decision from a California court and explained that whether an automated phone call to a cell phone qualifies for the exemption \"derives from the call's communicative content,\" and requires a court to review such content. Id. (citing Gallion v. Charter Commc'ns Inc. , 287 F.Supp.3d 920, 927 (C.D. Cal. 2018) ).\nIn accepting the proposition that the debt-collection exemption makes content-based distinctions, the Opinion rejected - for two reasons - the Government's contention that the exemption is based only on \"the relationship between a caller and a recipient,\" and not on the call's content. See AAPC , 323 F.Supp.3d at 743. First, the Opinion observed that the \" 'plain language of the [debt-collection exemption] makes no reference whatsoever to the relationship of the parties.' \" Id. (quoting Gallion , 287 F.Supp.3d at 927 ). Second, the district court explained that the Government sought to justify the exemption on the basis of the relationship between the federal government and the debtor, i.e., the call-recipient. As the Opinion recognized, however, the debt-collection exemption is not limited to calls from the federal government to the cell phones of debtors. The exemption also provides statutory protection for \" 'a third party [who] has no preexisting relationship with the debtor [call-recipient].' \" Id. (quoting Gallion , 287 F.Supp.3d at 927 ). As such, the court was satisfied that the debt-collection exemption is predicated on the subject matter of the phone call rather than on the caller's relationship to the recipient thereof.\nNotwithstanding the content-based restriction imposed by the debt-collection exemption, the Opinion ruled that it does not contravene the Free Speech Clause. The district court thus rejected the proposition advanced by the Plaintiffs that the exemption undermines the narrow tailoring of the automated call ban. In that regard, the court agreed with the Government that the exemption does not subvert the privacy interests furthered by the ban. The Opinion therefore concluded that the debt-collection exemption to the automated call ban satisfies strict scrutiny review. That is, the exemption does not hinder the automated call ban from furthering the compelling governmental interest of protecting \"the well-being, tranquility, and privacy\" of American consumers in a narrowly tailored fashion. See AAPC , 323 F.Supp.3d at 744.\nFinally, the district court rebuffed the argument of the Plaintiffs that less restrictive alternatives would equally advance the purposes of the automated call ban. The Opinion explained that alternatives proposed by the Plaintiffs - such as time-of-day limitations, mandatory caller identity disclosure, and do-not-call lists - would not further the privacy interests underlying the TCPA and were otherwise implausible. Because the court ruled that the debt-collection exemption to the automated call ban satisfies strict scrutiny and does not contravene the Free Speech Clause, it awarded summary judgment to the Government.\nThe Plaintiffs have noted a timely appeal, which has been briefed and argued. Being satisfied that the district court had subject matter jurisdiction and rendered a final decision, we possess appellate jurisdiction pursuant to 28 U.S.C. \u00a7 1291.\nII.\nWe review de novo legal rulings made by a district court in connection with a summary judgment award. See Bostic v. Schaefer , 760 F.3d 352, 370 (4th Cir. 2014). In so doing, we apply \"the same legal standards as the district court,\" under which summary judgment is appropriate where there is no genuine dispute of material fact, \"and the movant is entitled to judgment as a matter of law.\" See Lawson v. Union Cty. Clerk of Court , 828 F.3d 239, 247 (4th Cir. 2016) (citations and internal quotation marks omitted). Being confronted with a facial constitutional challenge to a statute, we review the various issues de novo. See Maryland v. Universal Elections, Inc. , 729 F.3d 370, 375 (4th Cir. 2013).\nIII.\nA.\n1.\nAlthough the Plaintiffs agree with the district court that the debt-collection exemption to the automated call ban constitutes a content-based restriction on speech, they challenge the court's ruling that the exemption satisfies strict scrutiny review. As support, they contend that the debt-collection exemption does not further any compelling governmental interest. Moreover, they maintain that, if a compelling governmental interest is furthered, the exemption does not do so in the least restrictive manner, as required under strict scrutiny review. According to the Plaintiffs, the debt-collection exemption to the automated call ban imposes an impermissible content-based restriction on speech, and the entire ban - not just the debt-collection exemption - must therefore be invalidated. In other words, the Plaintiffs maintain that severance of the exemption, if it is constitutionally flawed, is not a permissible remedy.\n2.\nIn order to properly assess and dispose of the Plaintiffs' Free Speech Clause challenge to the debt-collection exemption, we must address three issues. First, we must decide whether, on one hand, the debt-collection exemption is a content-based speech restriction subject to strict scrutiny review, or whether, on the other hand, it constitutes a content-neutral speech restriction subject to intermediate scrutiny analysis. See Reed v. Town of Gilbert , --- U.S. ----, 135 S.Ct. 2218, 2227, 192 L.Ed.2d 236 (2015). Second, we must evaluate whether the debt-collection exemption to the automated call ban survives the applicable level of scrutiny. See id. at 2231. Finally, if the debt-collection exemption impermissibly infringes on free speech rights, we must identify the appropriate remedy for that infringement. That is, we must then decide whether to strike the automated call ban in its entirety, or whether to simply sever the flawed exemption therefrom. See Regan v. Time, Inc. , 468 U.S. 641, 652-53, 104 S.Ct. 3262, 82 L.Ed.2d 487 (1984).\nB.\n1.\na.\nIn the First Amendment context, a statutory provision constitutes a content-based speech restriction if it \"applies to particular speech because of the topic discussed or the idea or message expressed.\" See Reed , 135 S.Ct. at 2227. Such a speech restriction is presumptively unconstitutional and can only be justified if it is narrowly tailored to further a compelling governmental interest. See id. To determine whether a statutory provision imposes a content-based speech restriction, the Supreme Court has identified a two-prong inquiry. As the Court explained in its Reed decision in 2015, the inquiry's first prong requires a reviewing court to decide whether the statute is content-based on its face - that is, whether the text thereof distinguishes between speech based on content or subject matter. See id. at 2228. If the statute is determined to be facially content-based, the court must conduct a strict scrutiny review. If the statute is facially content-neutral, however, it must satisfy the second prong of the Reed inquiry in order to be reviewed under intermediate scrutiny - a less demanding level of scrutiny that generally applies to content-neutral restrictions. Under Reed 's second prong, a statute constitutes a content-based restriction on speech if it \"cannot be justified without reference to the content of the regulated speech,\" or if it was adopted because the government disagrees with the message conveyed thereby. Id. at 2227 (internal quotation marks omitted) (quoting Ward v. Rock Against Racism , 491 U.S. 781, 791, 109 S.Ct. 2746, 105 L.Ed.2d 661 (1989) ).\nb.\nAnalyzed under Reed 's first prong, the debt-collection exemption to the automated call ban facially distinguishes between phone calls on the basis of their content. As that exemption specifies, otherwise prohibited automated calls made to cell phones \"solely to collect a debt owed to or guaranteed by the United States\" do not violate the automated call ban and are legally permissible. See 47 U.S.C. \u00a7 227(b)(1)(A)(iii). But automated calls made to cell phones that deal with other subjects - such as efforts to collect a debt neither owed to nor guaranteed by the United States - do not qualify for the debt-collection exemption and are prohibited by the automated call ban. A proper application of the debt-collection exemption therefore \"depend[s] entirely on the communicative content of the [call]\" and, as the district court ruled, constitutes a content-based speech restriction that is subject to strict scrutiny. See Reed , 135 S.Ct. at 2227.\nThe content-based nature of the debt-collection exemption is demonstrated by an illustrative example. As explained by the district court, a private debt collector could make two nearly identical automated calls to the same cell phone using prohibited technology, with the sole distinction being that the first call relates to a loan guaranteed by the federal government, while the second call concerns a commercial loan with no government guarantee. Although the first automated call would satisfy the debt-collection exemption and not be subject to the automated call ban, the second call would not satisfy the exemption and would be illegal. The legality of those phone calls, due solely to the debt-collection exemption, thus depends on their subject matter (i.e., their content).\nc.\nSeeking to avoid a judicial determination that the debt-collection exemption is a content-based speech restriction, the Government maintains on appeal that the exemption \"is premised principally on the relationship between the [federal] government and the person being called.\" See Br. of Appellees 6. That relationship, according to the Government, emanates from a loan or guarantee arrangement between the federal government and the debtor. Because the debt-collection exemption applies to automated phone calls that have a nexus with a government-debtor arrangement - and the relationship it creates - the applicability of the exemption turns on the debtor's relationship with the federal government. The Government therefore contends that whether an automated phone call is authorized by the debt-collection exemption, and thus not prohibited by the automated call ban, depends on the relationship of the parties thereto, and not on the content thereof.\nLike the district court, however, we are persuaded that the statutory text of the debt-collection exemption undercuts the Government's relationship-based contention. The text of the exemption makes no reference to the relationship between the caller and the recipient of the automated phone call. To be sure, a relationship is created when a debtor owes a debt that is guaranteed by the federal government. But the restriction imposed by the debt-collection exemption - and the carveout it creates - does not regulate on the basis of that relationship. Instead, the exemption regulates on the basis of the content of the phone call. Under the debt-collection exemption, the relationship between the federal government and the debtor is only relevant to the subject matter of the call. In other words, the debt-collection exemption applies to a phone call made to the debtor because the call is about the debt, not because of any relationship between the federal government and the debtor. And the Supreme Court has recognized that \"regulation of speech is content based if a law applies to particular speech because of the topic discussed.\" See Reed , 135 S.Ct. at 2227. In these circumstances, the debt-collection exemption to the automated call ban constitutes a content-based speech restriction.\n2.\na.\nBecause the debt-collection exemption is a content-based restriction on speech, it can only pass constitutional muster if it satisfies a strict scrutiny review. See Reed , 135 S.Ct. at 2231. Strict scrutiny is a rigorous standard of review that requires the speech restriction to advance a sufficiently important governmental objective - that is, an objective of the \"highest order.\" See id. at 2232 ; see also McCutcheon v. FEC , 572 U.S. 185, 199, 134 S.Ct. 1434, 188 L.Ed.2d 468 (2014). Any content-based restriction must also be narrowly tailored, that is, \"closely drawn,\" in order to fit that objective. See McCutcheon , 572 U.S. at 199, 134 S.Ct. 1434. Thus, in order to survive strict scrutiny, the Government must show that the debt-collection exemption has been narrowly tailored to further a compelling governmental interest. See Reed , 135 S.Ct. at 2231.\nIn conducting a strict scrutiny review, we are obliged to examine the speech restriction for an infirmity that is commonly referred to as \"underinclusiveness.\" See Reed , 135 S.Ct. at 2232. An \"underinclusive\" restriction is one that covers too little speech, thereby leaving \"appreciable damage to the government's interest unprohibited.\" See Cahaly v. Larosa , 796 F.3d 399, 405 (4th Cir. 2015) (citations and internal quotation marks omitted). An underinclusive restriction thus fails a strict scrutiny review. See id. at 405-06.\nPut succinctly, the debt-collection exemption fails strict scrutiny review. It is fatally underinclusive for two related reasons. First, by authorizing many of the intrusive calls that the automated call ban was enacted to prohibit, the debt-collection exemption subverts the privacy protections underlying the ban. Second, the impact of the exemption deviates from the purpose of the automated call ban and, as such, it is an outlier among the other statutory exemptions.\nb.\nIn seeking to justify the debt-collection exemption, the Government maintains that the automated call ban (including that exemption) furthers a compelling governmental interest by protecting personal and residential privacy. Relying on congressional findings supporting the TCPA, the Government argues that automated calls are \"the most intrusive\" type of phone calls. See Br. of Appellees 20. By \"generally preventing\" the use of such calls to cell phones, the Government contends that the automated call ban protects and shelters the privacy interests of American consumers. See id. It also argues that, as part of the automated call ban, the debt-collection exemption does not undermine the privacy protection efforts embodied in the ban. According to the Government, that exemption applies only to a \"narrow category of calls.\" See id. at 18. It therefore asserts that the debt-collection exemption does not \"appreciabl[y] damage\" the privacy interests underlying the automated call ban. See id.\nWe are unpersuaded by the Government's compelling interest argument. Again, the debt-collection exemption does not further the purpose of the automated call ban in a narrowly tailored fashion. Congress implemented the ban in order to protect privacy interests. See S. Rep. No. 102-178, at 1, 5 (1991) (explaining that purpose of TCPA is to protect \"privacy interests\"); see also Mims v. Arrow Fin. Servs., LLC , 565 U.S. 368, 372, 132 S.Ct. 740, 181 L.Ed.2d 881 (2012) (discussing congressional findings supporting TCPA prohibitions). The debt-collection exemption, however, undercuts those privacy protections. In fact, the exemption applies in a manner that runs counter to the privacy interests that Congress sought to safeguard.\nSignificantly, the potential reach of the debt-collection exemption belies the Government's asserted \"narrow\" framing of it. According to the FCC, the federal government, by the end of fiscal year 2016, had either guaranteed or was owed nearly eighty-percent of all outstanding student loan debt. See In re Rules & Regulations Implementing the TCPA , 31 FCC Rcd. 9074, 9077 n.28 (Aug. 11, 2016). An FCC report also revealed that more than 41 million borrowers owed over one trillion dollars in federal student loans. See id. Notably, student loan debt, which is generally handled through the Department of Education, is but one category of debt that is guaranteed by or owed to the federal government. See id. at 9077-78. Various other categories of such debt are handled through other departments, which include the Department of Agriculture, the Department of Housing and Urban Development, and the Department of Health and Human Services. See id. Thus, millions of debtors owe debts about which third parties can make otherwise prohibited calls under the debt-collection exemption. The exemption is not at all \"narrow\" when it is assessed in that context.\nBecause of the expansive reach of the debt-collection exemption, it is woefully underinclusive and does not serve the compelling governmental interest of protecting privacy in a narrow fashion. The exemption thus cannot be said to advance the purpose of privacy protection, in that it actually authorizes a broad swath of intrusive calls. In so doing, the debt-collection exemption exposes millions of American consumers to some of the most disruptive phone calls they receive. The exemption therefore erodes the privacy protections that the automated call ban was intended to further. See Williams-Yulee v. Florida Bar , --- U.S. ----, 135 S.Ct. 1656, 1668, 191 L.Ed.2d 570 (2015) (recognizing that speech restrictions with vast carveouts can undermine compelling governmental interest). Although theoretically limited by the number of debtors owing loans guaranteed by the federal government, the debt-collection exemption authorizes a nearly \"unlimited proliferation\" of disruptive and intrusive automated debt-collection efforts. See Reed , 135 S.Ct. at 2231.\nc.\nLikewise, a comparative analysis of the automated phone calls authorized under the debt-collection exemption with those permissible under the other statutory exemptions shows the detrimental effect of debt-collection calls on the privacy interests that underlie the automated call ban. For example, phone calls authorized under the consent exemption require \"the prior express consent of the called party.\" See 47 U.S.C. \u00a7 227(b)(1)(A). Because consent generally diminishes any expectation of privacy, phone calls that qualify for the consent exemption are less intrusive than other automated calls. See Norris v. Premier Integrity Sols., Inc. , 641 F.3d 695, 699 (6th Cir. 2011) (explaining that consent diminishes expectation of privacy in constitutional context). On the other hand, the FCC itself has acknowledged that debt-collection calls are among the most intrusive, disruptive, and complained of phone calls made to American consumers. In fact, the FCC receives more complaints about debt-collection phone calls than calls \"relating to ... any other industry.\" See In re Rules & Regulations Implementing the TCPA , 31 FCC Rcd. at 9077 (explaining that, in 2015, FCC received over 900,000 complaints about debt-collection calls).\nThe automated phone calls authorized under the emergency exemption also contrast sharply with debt-collection calls. In order to qualify for the emergency exemption, phone calls must be \"necessary in any situation affecting the health and safety\" of Americans. See 47 C.F.R. \u00a7 64.1200(f)(4). Emergency automated phone calls therefore differ from debt-collection calls in three important ways. First, emergency calls serve the vital purpose of protecting the safety and welfare of Americans, and the debt-collection calls lack any similarly important purpose. See ACA Int'l v. FCC , 885 F.3d 687, 714 (D.C. Cir. 2018) (contrasting debt-collection calls with emergency calls). Second, automated phone calls made under the emergency exemption are much less likely to negatively impact Americans' sense of privacy. See In re TCPA , 7 FCC Rcd. 2736, 2738 (Apr. 17, 1992) (explaining that emergency calls are only made when \"it is in the public interest to convey information to consumers concerning health or safety\"). Third, such emergency calls are generally made less often because they \"must be about a bona fide emergency that is relevant to the called party.\" See In re Rules & Regulations Implementing the TCPA , 31 FCC Rcd. 9054, 9063 n. 76 (Aug. 4, 2016) (emphasizing that emergency exemption \"will not promote the proliferation of unwanted\" calls).\nUnlike the consent and emergency exemptions, the debt-collection exemption impedes the privacy interests of the automated call ban. The debt-collection exemption is thus an outlier among the statutory exemptions. The divergence between the debt-collection exemption and the other two exemptions shows that the debt-collection exemption is incompatible with the privacy interests justifying the ban.\nd.\nAs the Supreme Court emphasized in its Reed decision, a \" 'law cannot be regarded as protecting an interest of the highest order, and therefore as justifying a restriction on truthful speech, when it leaves appreciable damage to that supposedly vital interest unprohibited.' \" See 135 S.Ct. at 2232 (quoting Republican Party of Minn. v. White , 536 U.S. 765, 780, 122 S.Ct. 2528, 153 L.Ed.2d 694 (2002) ). The content-based loophole created by the debt-collection exemption does what the Reed Court condemned. See Williams-Yulee , 135 S.Ct. at 1668 (explaining that underinclusive restrictions \"can raise 'doubts about whether the government is in fact pursuing the interest it invokes' \" (quoting Brown v. Entm't Merchs. Ass'n , 564 U.S. 786, 802, 131 S.Ct. 2729, 180 L.Ed.2d 708 (2011) )); White , 536 U.S. at 780, 122 S.Ct. 2528 (recognizing that a restriction on speech might permit so much of the objectionable speech as to \"render belief in that purpose a challenge to the credulous\"). In these circumstances, the debt-collection exemption fails to satisfy strict scrutiny, constitutes an unconstitutional content-based restriction on speech, and therefore violates the Free Speech Clause.\n3.\na.\nIn that the debt-collection exemption contravenes the Free Speech Clause, we must also consider and identify the impact of that ruling on the balance of the automated call ban. Because the district court ruled that the exemption satisfies strict scrutiny, it had no reason to address the question of severance. Anticipating that we might rule in favor of the Plaintiffs, however, the parties have addressed the severance issue on appeal. The Plaintiffs maintain in their appellate submissions that the constitutionally flawed debt-collection exemption invalidates the entirety of the automated call ban, rendering severance of the debt-collection exemption improper. The Government argues, however, that the controlling authorities require a severance of the exemption from the automated call ban.\nFor several reasons, we agree with the Government on the severance issue. First and foremost, the explicit directives of the Supreme Court and Congress strongly support a severance of the debt-collection exemption from the automated call ban. Furthermore, the ban can operate effectively in the absence of the debt-collection exemption, which is clearly an outlier among the statutory exemptions.\nb.\nIn circumstances such as these, the Supreme Court has recognized that severance is the preferred remedy. As the Chief Justice explained in the Court's NFIB v. Sebelius decision, if Congress wants the balance of a statute to stand when one aspect is constitutionally flawed, a reviewing court \"must leave the rest of the [statute] intact.\" See 567 U.S. 519, 587, 132 S.Ct. 2566, 183 L.Ed.2d 450 (2012). By severing the flawed portion of a statute, the court can limit the impact of its ruling of constitutional infirmity. See Ayotte v. Planned Parenthood of N. New Eng. , 546 U.S. 320, 328, 126 S.Ct. 961, 163 L.Ed.2d 812 (2006) ; United States v. Under Seal , 819 F.3d 715, 721-22 (4th Cir. 2016) (recognizing that severance of a flawed portion of a statute prevents a court from nullifying too much of that enactment). The general rule is thus \" 'that partial ... invalidation [of a statute] is the required course.' \" See Free Enter. Fund v. Pub. Co. Accounting Oversight Bd. , 561 U.S. 477, 508, 130 S.Ct. 3138, 177 L.Ed.2d 706 (2010) (quoting Brockett v. Spokane Arcades, Inc. , 472 U.S. 491, 504, 105 S.Ct. 2794, 86 L.Ed.2d 394 (1985) ).\nComplementing the Supreme Court's strong preference for a severance in these circumstances, Congress has explicitly mandated that, if a TCPA provision is determined to be constitutionally infirm, severance is the appropriate remedy. That is, Congress has directed that, if any part of the TCPA \"is held invalid, the remainder ... shall not be affected.\" See 47 U.S.C. \u00a7 608. That severability provision eases our inquiry on the severance issue and creates \"a presumption that Congress did not intend the validity of the statute in question to depend on the validity of the constitutionally offensive provision.\" See Alaska Airlines , 480 U.S. at 686, 107 S.Ct. 1476 (citing INS v. Chadha , 462 U.S. 919, 932, 103 S.Ct. 2764, 77 L.Ed.2d 317 (1983) ). As a result, severance of the debt-collection exemption from the balance of the automated call ban will comply with the explicit directive of Congress and with controlling Supreme Court precedent.\nWe are also satisfied that a severance of the debt-collection exemption will not undermine the automated call ban. For twenty-four years, from 1991 until 2015, the automated call ban was \"fully operative.\" Free Enter. Fund , 561 U.S. at 509, 130 S.Ct. 3138 (citations and internal quotation marks omitted). As a result, the Plaintiffs simply cannot show that excising the debt-collection exemption will hamper the function of the ban. See Alaska Airlines , 480 U.S. at 686, 107 S.Ct. 1476 (explaining that only \"strong evidence\" overcomes presumption created by severability clause). In these circumstances, we agree with the Government and direct the severance of the debt-collection exemption from the balance of the automated call ban.\nIV.\nPursuant to the foregoing, we vacate the district court's award of summary judgment to the Government. We also direct the severance of the debt-collection exemption from the balance of the automated call ban and remand for such further proceedings as may be appropriate.\nVACATED AND REMANDED\nIn addition to the American Association of Political Consultants, Inc., the appellants here are the Democratic Party of Oregon, Inc., Public Policy Polling, LLC, and the Washington State Democratic Central Committee. Those entities regularly engage in political activities, and many of those activities involve political communications and speech. By way of example, the Plaintiffs conduct political polls, seek to persuade and inform voters, solicit donations, and organize voter-turnout efforts and town hall events.\nAs reflected above, we use the term \"Government\" - with a capital \"G\" - to collectively refer to the two named defendants. On the other hand, we generally refer to the government of the United States by the generic term \"federal government.\"\nThe automated call ban, which is codified at \u00a7 227(b)(1)(A) of Title 47, provides, in pertinent part, that it shall be unlawful for a person:\nto make any call (other than a call made for emergency purposes or made with the prior express consent of the called party) using any automatic telephone dialing system or an artificial or prerecorded voice -\n....\n(iii) to any telephone number assigned to a ... cellular telephone service ... unless such call is made solely to collect a debt owed to or guaranteed by the United States ....\nSee 47 U.S.C. \u00a7 227(b)(1)(A). An \"automatic telephone dialing system\" is defined as equipment that \"has the capacity (A) to store or produce telephone numbers to be called, using a random or sequential number generator, and (B) to dial such numbers.\" See id. \u00a7 227(a)(1).\nIn 1992, a year after its enactment of the TCPA, Congress empowered the FCC to create regulatory exemptions to the automated call ban. See Telephone Disclosure & Dispute Resolution Act, Pub. L. No. 102-556, \u00a7 402, 106 Stat. 4181, 4194-95 (1992) (codified in 47 U.S.C. \u00a7 227(b)(2)(C) ). Utilizing that authority, the FCC has promulgated six regulatory exemptions, which were not challenged in the district court.\nIn ruling that strict scrutiny review applies to the Plaintiffs' free speech challenge, the Opinion rejected the Government's contention that the less demanding standard of intermediate scrutiny is the proper level of review.\nIn the district court, the Government moved to dismiss the complaint for lack of subject matter jurisdiction, interposing two contentions. First, the Government maintained that the Plaintiffs' claims were not within the jurisdiction of the district court because those claims also challenged the FCC's regulatory exemptions. Such a challenge, according to the Government, had to be initiated in the appropriate court of appeals. See 28 U.S.C \u00a7 2342. Second, the Government argued that the Plaintiffs lacked Article III standing to sue. In response to the dismissal motion, the Plaintiffs explicitly abandoned any challenge to the regulatory exemptions. The district court then rejected both jurisdictional contentions and ruled that it possessed subject matter jurisdiction. On appeal, the Government does not challenge either of the jurisdictional rulings.\nIn addition to their contention that the debt-collection exemption renders the automated call ban unconstitutional, the Plaintiffs seek in their appellate submissions to pursue two other arguments. First, they attempt to resurrect the proposition that the regulatory exemptions are content-based restrictions that fail strict scrutiny. In the district court, however, the Plaintiffs explicitly disclaimed any challenge to the regulatory exemptions. We are therefore unable to consider that abandoned contention. See Meyer v. Berkshire Life Ins. Co. , 372 F.3d 261, 265 n.2 (4th Cir. 2004) (explaining binding nature of judicial concessions). Second, the Plaintiffs appear to assert that the FCC's authority to promulgate regulatory exemptions to the automated call ban supports their contention that it is unconstitutional. The Plaintiffs, however, have not sufficiently briefed that contention. They mention it only in passing and thus have waived it. See Grayson O Co. v. Agadir Int'l LLC , 856 F.3d 307, 316 (4th Cir. 2017) (explaining that failure to properly develop appellate contention, or merely taking a \" 'passing shot' \" at it, waives the argument (quoting Brown v. Nucor Corp. , 785 F.3d 895, 923 (4th Cir. 2015) )). In these circumstances, we do not further address those issues.\nAs part of its relationship-based argument, the Government emphasizes that the TCPA does not apply to automated calls made by the federal government. See Campbell-Ewald Co. v. Gomez , --- U.S. ----, 136 S.Ct. 663, 672, 193 L.Ed.2d 571 (2016) (\"The United States and its agencies, it (Continued) is undisputed, are not subject to the TCPA's prohibitions.\"). It contends that the debt-collection exemption merely permits persons making calls on behalf of the federal government to \"use the same means\" that the United States or its agencies could use. See Br. of Appellees 6-7. We are not persuaded by that proposition.\nAlthough an \"underinclusive\" content-based restriction applies to too little speech, an impermissibly \"overinclusive\" restriction regulates too much speech and unnecessarily circumscribes protected expression. See Cahaly , 796 F.3d at 405. Because the debt-collection exemption to the automated call ban is fatally \"underinclusive,\" we need not assess any issue of \"overinclusiveness.\" See Reed , 135 S.Ct. at 2231-32 (examining only underinclusiveness of speech restriction).\nIn addition to contending that the automated call ban - including the debt-collection exemption - advances an interest in protecting privacy, the Government interposes another justification for the debt-collection exemption. It maintains that the exemption protects the public fisc by aiding in the collection of debts owed to the federal government, plus other debts for which the government is possibly on the hook. Assuming the debt-collection exemption furthers such an interest, however, it is not narrowly tailored to that end and must be rejected. That is, the federal government has less restrictive alternatives at its disposal to collect such debts. See United States v. Playboy Entm't Grp., Inc. , 529 U.S. 803, 813, 120 S.Ct. 1878, 146 L.Ed.2d 865 (2000) (explaining that First Amendment requires the use of less restrictive alternatives to content-based speech restrictions). And such alternatives could be used without running afoul of the automated call ban. First, the federal government could secure consent from the debtors to make debt-collection calls. See 47 U.S.C. \u00a7 227(b)(1)(A). Second, it could place the calls itself, in that the federal government is not subject to the automated call ban.\nBeyond its acknowledgement of the disruption caused by debt-collection calls, the FCC recognizes that the proliferation of automated phone calls under the debt-collection exemption could \"magnify consumer harms arising from debt collection calls.\" See In re Rules & Regulations Implementing the TCPA , 31 FCC Rcd. at 9077. For example, such phone calls render American consumers more susceptible to telephone scams. See id.\nAlthough we could remand the severance issue for resolution by the district court in the first instance, we will not do so. In these circumstances, the issue is straightforward, and we prefer to resolve it now. See Costco Wholesale Corp. v. Maleng , 522 F.3d 874, 886 (9th Cir. 2008) (deciding severance issue on appeal because, inter alia, merits and severance were \"intimately tied\").",
+        "type": "majority",
+        "author": "KING, Circuit Judge:"
+      }
+    ],
+    "attorneys": [
+      "ARGUED: William Edward Raney, I, COPILEVITZ & CANTER LLC, Kansas City, Missouri, for Appellants. Lindsey Powell, UNITED STATES DEPARTMENT OF JUSTICE, Washington, D.C., for Appellees. ON BRIEF: Kellie Mitchell Bubeck, COPILEVITZ & CANTER LLC, Kansas City, Missouri; Charles George, WYRICK ROBBINS YATES & PONTON LLP, Raleigh, North Carolina, for Appellants. Chad A. Readler, Acting Assistant Attorney General, Mark B. Stern, Michael S. Raab, Appellate Staff, Civil Division, UNITED STATES DEPARTMENT OF JUSTICE, Washington, D.C.; Robert J. Higdon, Jr., United States Attorney, OFFICE OF THE UNITED STATES ATTORNEY, Raleigh, North Carolina, for Appellees."
+    ],
+    "corrections": "",
+    "head_matter": "AMERICAN ASSOCIATION OF POLITICAL CONSULTANTS, INC.; Democratic Party of Oregon, Inc.; Public Policy Polling, LLC ; Washington State Democratic Central Committee, Plaintiffs - Appellants,\nand\nTea Party Forward PAC, Plaintiff,\nv.\nFEDERAL COMMUNICATIONS COMMISSION; William P. Barr, in his official capacity as Attorney General of the United States, Defendants - Appellees.\nNo. 18-1588\nUnited States Court of Appeals, Fourth Circuit.\nArgued: December 12, 2018\nDecided: April 24, 2019\nARGUED: William Edward Raney, I, COPILEVITZ & CANTER LLC, Kansas City, Missouri, for Appellants. Lindsey Powell, UNITED STATES DEPARTMENT OF JUSTICE, Washington, D.C., for Appellees. ON BRIEF: Kellie Mitchell Bubeck, COPILEVITZ & CANTER LLC, Kansas City, Missouri; Charles George, WYRICK ROBBINS YATES & PONTON LLP, Raleigh, North Carolina, for Appellants. Chad A. Readler, Acting Assistant Attorney General, Mark B. Stern, Michael S. Raab, Appellate Staff, Civil Division, UNITED STATES DEPARTMENT OF JUSTICE, Washington, D.C.; Robert J. Higdon, Jr., United States Attorney, OFFICE OF THE UNITED STATES ATTORNEY, Raleigh, North Carolina, for Appellees.\nBefore KING, KEENAN, and QUATTLEBAUM, Circuit Judges.\nVacated and remanded by published opinion. Judge King wrote the opinion, in which Judge Keenan and Judge Quattlebaum joined."
+  },
+  "file_name": "0159-01",
+  "first_page_order": 159,
+  "last_page_order": 172
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12239634,
+  "name": "Suarez v. California",
+  "name_abbreviation": "Suarez v. California",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-6805",
+  "first_page": "1117",
+  "last_page": "1117",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1117"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 84,
+    "ocr_confidence": 0.662,
+    "sha256": "8ddd91a6bd70edcf49c8aaf674736010b23d7cdb829e5ec16f1ccce1effa5744",
+    "simhash": "1:0c0df28521435a03",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Suarez v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 1st App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6805.\nSuarez v. California."
+  },
+  "file_name": "1117-10",
+  "first_page_order": 1199,
+  "last_page_order": 1199
+}

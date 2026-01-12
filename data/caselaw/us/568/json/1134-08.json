@@ -1,0 +1,59 @@
+{
+  "id": 12429677,
+  "name": "Hastings v. United States",
+  "name_abbreviation": "Hastings v. United States",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-7618",
+  "first_page": "1134",
+  "last_page": "1134",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1134"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.676,
+    "sha256": "f6d667c831d11b35dad4369e89f31d7355715b46dc9ea6a92c3e6d58e4aa62a1",
+    "simhash": "1:87abe6972f3c105b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hastings v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7618.\nHastings v. United States."
+  },
+  "file_name": "1134-08",
+  "first_page_order": 1210,
+  "last_page_order": 1210
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12232952,
+  "name": "Hernandez v. Arizona",
+  "name_abbreviation": "Hernandez v. Arizona",
+  "decision_date": "2011-11-07",
+  "docket_number": "No. 11-6756",
+  "first_page": "1020",
+  "last_page": "1020",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1020"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 70,
+    "ocr_confidence": 0.701,
+    "sha256": "3af1cfaa3c348fb6e1aa1accc146fd3b546ba442ab9e464575bbae279e97fb08",
+    "simhash": "1:899ad1c332a61120",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hernandez v. Arizona."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ariz. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6756.\nHernandez v. Arizona."
+  },
+  "file_name": "1020-02",
+  "first_page_order": 1102,
+  "last_page_order": 1102
+}

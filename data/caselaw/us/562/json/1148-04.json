@@ -1,0 +1,59 @@
+{
+  "id": 5956170,
+  "name": "Wagstaff v. Department of Education",
+  "name_abbreviation": "Wagstaff v. Department of Education",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7201",
+  "first_page": "1148",
+  "last_page": "1148",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1148"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 84,
+    "ocr_confidence": 0.541,
+    "sha256": "91c9e7216da957200ef21003dd3db886a587c41a782dbee03f8fddbbe9f46f35",
+    "simhash": "1:038cc28058cfb50b",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wagstaff v. Department of Education."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7201.\nWagstaff v. Department of Education."
+  },
+  "file_name": "1148-04",
+  "first_page_order": 1170,
+  "last_page_order": 1170
+}

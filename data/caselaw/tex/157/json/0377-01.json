@@ -1,0 +1,836 @@
+{
+  "id": 2254020,
+  "name": "American General Insurance Company v. Mrs. Irene E. Coleman Et Al.",
+  "name_abbreviation": "American General Insurance v. Coleman",
+  "decision_date": "1957-05-29",
+  "docket_number": "No. A-6199",
+  "first_page": "377",
+  "last_page": "387",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "157 Tex. 377"
+    },
+    {
+      "type": "parallel",
+      "cite": "303 S.W.2d 370"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "54 S.W. 2d 223",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10237349
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/54/0223-01"
+      ]
+    },
+    {
+      "cite": "55 S.W. 2d 868",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10258174
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/55/0868-01"
+      ]
+    },
+    {
+      "cite": "159 S.W. 2d 973",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10225631
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/159/0973-01"
+      ]
+    },
+    {
+      "cite": "243 S.W. 2d 469",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10205023
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/243/0469-01"
+      ]
+    },
+    {
+      "cite": "115 S.W. 2d 394",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2324483,
+        10248772
+      ],
+      "pin_cites": [
+        {
+          "page": "396"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/131/0404-01",
+        "/sw2d/115/0394-01"
+      ]
+    },
+    {
+      "cite": "131 Texas 404",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2324483
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/131/0404-01"
+      ]
+    },
+    {
+      "cite": "29 S.W. 2d 524",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10284025
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/29/0524-01"
+      ]
+    },
+    {
+      "cite": "215 Pac. 2d 736",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal. 2d 33",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4399615
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/35/0033-01"
+      ]
+    },
+    {
+      "cite": "239 S.W. 2d 1006",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10221402,
+        2328403
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/239/1006-01",
+        "/tex/150/0313-01"
+      ]
+    },
+    {
+      "cite": "150 Texas 313",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2328403
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/150/0313-01"
+      ]
+    },
+    {
+      "cite": "234 S.W. 2d 274",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10196771
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/234/0274-01"
+      ]
+    },
+    {
+      "cite": "223 S.W. 2d 286",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10195044
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/223/0286-01"
+      ]
+    },
+    {
+      "cite": "120 S.W. 2d 791",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10248406,
+        2322495
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/120/0791-01",
+        "/tex/132/0140-01"
+      ]
+    },
+    {
+      "cite": "132 Texas 140",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2322495
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/132/0140-01"
+      ]
+    },
+    {
+      "cite": "265 S.W. 128",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        2279760,
+        10296903
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/114/0172-01",
+        "/sw/265/0128-01"
+      ]
+    },
+    {
+      "cite": "114 Texas 172",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2279760
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/114/0172-01"
+      ]
+    },
+    {
+      "cite": "250 S.W. 1073",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10340287
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/250/1073-01"
+      ]
+    },
+    {
+      "cite": "114 S.W. 2d 236",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10245533,
+        2324550
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/114/0236-01",
+        "/tex/131/0165-01"
+      ]
+    },
+    {
+      "cite": "131 Texas 165",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2324550
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/131/0165-01"
+      ]
+    },
+    {
+      "cite": "211 S.W. 949",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8268266
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/211/0949-01"
+      ]
+    },
+    {
+      "cite": "208 S.W. 2d 867",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        8716402,
+        10211051
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "868-869"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/146/0347-01",
+        "/sw2d/208/0867-01"
+      ]
+    },
+    {
+      "cite": "146 Texas 347",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        8716402
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/146/0347-01"
+      ]
+    },
+    {
+      "cite": "136 S.W. 2d 210",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10229496,
+        2319474
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/136/0210-01",
+        "/tex/134/0374-01"
+      ]
+    },
+    {
+      "cite": "134 Texas 374",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2319474
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/134/0374-01"
+      ]
+    },
+    {
+      "cite": "105 S.W. 2d 192",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10246425,
+        2291500
+      ],
+      "pin_cites": [
+        {
+          "page": "193"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/105/0192-01",
+        "/tex/129/0573-01"
+      ]
+    },
+    {
+      "cite": "129 Texas 573",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2291500
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/129/0573-01"
+      ]
+    },
+    {
+      "cite": "265 S.W. 2d 250",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10188207
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/265/0250-01"
+      ]
+    },
+    {
+      "cite": "235 S.W. 2d 509",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10203718
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/235/0509-01"
+      ]
+    },
+    {
+      "cite": "244 S.W. 2d 197",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10192308,
+        2328350
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/244/0197-01",
+        "/tex/150/0557-01"
+      ]
+    },
+    {
+      "cite": "150 Texas 557",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2328350
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/150/0557-01"
+      ]
+    },
+    {
+      "cite": "236 S.W. 2d 836",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10218227
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/236/0836-01"
+      ]
+    },
+    {
+      "cite": "197 S.W. 2d 203",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10188586
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/197/0203-01"
+      ]
+    },
+    {
+      "cite": "91 S.W. 2d 787",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10269587
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/91/0787-01"
+      ]
+    },
+    {
+      "cite": "269 S.W. 2d 835",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10207027
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/269/0835-01"
+      ]
+    },
+    {
+      "cite": "83 S.W. 2d 1038",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10264388
+      ],
+      "pin_cites": [
+        {
+          "page": "1039"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/83/1038-01"
+      ]
+    },
+    {
+      "cite": "178 S.W. 2d 514",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10211592,
+        2341011
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "517"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/178/0514-01",
+        "/tex/142/0370-01"
+      ]
+    },
+    {
+      "cite": "142 Texas 370",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2341011
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/142/0370-01"
+      ]
+    },
+    {
+      "cite": "174 S.W. 2d 103",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10198686
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "105"
+        },
+        {
+          "page": "105"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/174/0103-01"
+      ]
+    },
+    {
+      "cite": "224 S.W. 2d 761",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10212201
+      ],
+      "pin_cites": [
+        {
+          "page": "763"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/224/0761-01"
+      ]
+    },
+    {
+      "cite": "199 S.W. 2d 293",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10189133
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "296"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/199/0293-01"
+      ]
+    },
+    {
+      "cite": "68 S.W. 2d 511",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10247632
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/68/0511-01"
+      ]
+    },
+    {
+      "cite": "71 S.W. 2d 328",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10237622
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/71/0328-01"
+      ]
+    },
+    {
+      "cite": "4 S.W. 2d 93",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10281284
+      ],
+      "pin_cites": [
+        {
+          "page": "95"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/4/0093-01"
+      ]
+    },
+    {
+      "cite": "3 S.W. 2d 414",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10283608
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/3/0414-01"
+      ]
+    },
+    {
+      "cite": "271 S.W. 929",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10322490
+      ],
+      "pin_cites": [
+        {
+          "page": "935"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/271/0929-01"
+      ]
+    },
+    {
+      "cite": "163 A.L.R. 15",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "pin_cites": [
+        {
+          "page": "198"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "150 A.L.R. 623",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "121 S.W. 2d 466",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10235527
+      ],
+      "pin_cites": [
+        {
+          "page": "469"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/121/0466-01"
+      ]
+    },
+    {
+      "cite": "170 S.W. 2d 794",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10221544
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/170/0794-01"
+      ]
+    },
+    {
+      "cite": "42 S.W. 2d 1086",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10283468
+      ],
+      "pin_cites": [
+        {
+          "page": "1087"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/42/1086-01"
+      ]
+    },
+    {
+      "cite": "91 S.W. 2d 756",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10268083
+      ],
+      "pin_cites": [
+        {
+          "page": "757"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/91/0756-01"
+      ]
+    },
+    {
+      "cite": "143 S.W. 2d 763",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10228058,
+        2317748
+      ],
+      "pin_cites": [
+        {
+          "page": "769"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/143/0763-01",
+        "/tex/135/0520-01"
+      ]
+    },
+    {
+      "cite": "135 Texas 520",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2317748
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/135/0520-01"
+      ]
+    },
+    {
+      "cite": "119 S.W. 2d 106",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10229818
+      ],
+      "pin_cites": [
+        {
+          "page": "108"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/119/0106-01"
+      ]
+    },
+    {
+      "cite": "297 S.W. 2d 333",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10174236
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/297/0333-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 930,
+    "char_count": 20776,
+    "ocr_confidence": 0.599,
+    "pagerank": {
+      "raw": 1.0462185545717765e-06,
+      "percentile": 0.9841174137951673
+    },
+    "sha256": "60aaaf840f1127b3f70aa87b131477b5ed89094155370f34834ea750685135a4",
+    "simhash": "1:5ccda88f61fe9e92",
+    "word_count": 3588
+  },
+  "last_updated": "2024-02-27T18:48:18.334778+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "American General Insurance Company v. Mrs. Irene E. Coleman Et Al."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Calvert\ndelivered the opinion of the Court.\nSuit was instituted by the surviving widow and child of Robert W. Coleman, deceased, as plaintiffs, for statutory death benefits under the Workmen\u2019s Compensation Act. Trial before a jury resulted in a verdict and judgment for the plaintiffs.\nThe Court of Civil Appeals reversed the judgment of the trial court and remanded the case for retrial. 297 S.W. 2d 333. Both parties applied for writ of error and both applications were granted.\nThe application of American General Insurance Company was granted on its points of error asserting that the Court of Civil Appeals erred in failing to render judgment that the plaintiffs take nothing. We have concluded that these points of error must be sustained, and accordingly we reverse the judgments of the Court of Civil Appeals and the trial court and here render judgment that the plaintiffs take nothing.\nThe facts are undisputed. Robert W. Coleman, husband and father of the plaintiffs, was a professional dragline operator who worked wherever employment was available. He had worked intermittently, but often, for the construction firm of Brown & Root, Inc. over a period of seven or eight years, during which period he had also worked for other construction companies.\nIn 1954 Brown & Root was engaged in construction work some seventeen miles from Jacksonville, Texas. The company maintained a warehouse in Houston, Texas in which city Mr. Coleman had his residence. For the convenience of those seeking employment Brown & Root\u2019s warehouse manager kept a list of persons who were available for construction employment and needed personnel was often obtained from the list. Mr. Coleman\u2019s name was on the list. In the early part of November 1954, Mr. Coleman was called by the manager of Brown & Root\u2019s warehouse and was advised that employment was available for a dragline operator on the Jacksonville job. He went to Jacksonville and was employed. He had worked on the same project for two or three weeks at an earlier date, following which he worked for another contractor for two or three weeks.\nMr. Coleman was the owner of a jeep automobile in which he traveled from his home to his place of work and which he used to make the trip to Jacksonville. He also used the jeep for traveling between Jacksonville and the work site. Coleman was the owner also of two large mechanical, jacks, a variety of mechanical tools, three or four five gallon cans and other equipment which he found useful in connection with his work and he had those items in the jeep when he left Houston for Jacksonville. While on the Jacksonville job he was furnished gasoline by Brown & Root to be used in starting the motor on the drag-line and in cleaning- his tools and he transported the gasoline to the job site in the cans owned by him. He completed his work on the Jacksonville job about 10:30 or 11:00 a.m. on December 5, 1954. The accident occurred on a highway between Jacksonville and Houston. At about 2:00 p.m. his jeep overturned and caught fire and Mr. Coleman sustained third degree burns. He was removed from the scene of the accident to a hospital in Livingston, Texas, where he died at about 9:00 p.m.\nWhile in the hospital at Livingston Mr. Coleman was attended by Dr. James H. Dameron. Over the objection of the defendant, and on the theory that it was a part of the res gestae, Dr. Dameron was permitted to testify to a conversation which he had with the deceased approximately one hour and fifteen minutes after the accident and after the deceased had been advised that his condition was very serious. Dr. Dameron related that in this conversation the deceased stated that \u201che was going from Jacksonville to Houston, that he was driving a Brown & Root jeep, and that he was being transferred, going to be transferred to another job,\u201d and that he gave him (the doctor) the telephone number of a person he identified as Brown & Root\u2019s foreman and asked that the foreman be notified of his accident.\nColeman was working seven days per week, ten hours per day, and his work week began on Sunday. His rate of pay was $2.25 per hour and time and a half for all hours worked in excess of 40 hours per week. He had been paid for 70 hours\u2019 work during- the week ending on Saturday, December 4th. At that time he still lacked a few hours\u2019 work of completing the job and he returned to work on Sunday morning at about 6:30 or 7:00 a.m. and completed the work, as heretofore indicated, at approximately 10:30 or 11:00 a.m. When he had completed his work Mr. Coleman was given a check for $22.05. It was shown on the face of the check that the payment represented gross earnings of $22.50 for 10 hours\u2019 work during the pay period ending December 11, 1954, less a tax deduction of 45 cents. At the time he was paid Coleman was furnished a Termination and Time Order showing that he had been discharged for reasons of reduction of force and containing the following words and figures:\n\u201cFor Hours and at Rate Shown during Pay Period\nEnding: 12-11-54\nDATE HOURS RATE AMOUNT\n10 2.25 22.50\n* * * *\nNET DUE 22.05.\u201d\nThe undisputed evidence is that Coleman had not worked more than four and one-half hours during the pay period beginning on December 5th and ending on December 11th, but the check and the Termination and Time Order both show that he was paid on the basis of ten hours\u2019 work. The superintendent of the Jacksonville project, F. E. Schoolcraft, testified that while Coleman had been paid for only ten hours\u2019 work each day of the preceding week he had actually worked more than ten hours each day; that no record of the additional time had been kept, and that he and Coleman had estimated that pay for a total of ten hours would compensate Coleman for the work done on the morning of December 5th and the additional work done the preceding week for which he had not been paid. The only other testimony which may be said, even remotely, to explain the discrepancy between the number of hours worked by Coleman during the week ending December 11th and the number of hours for which he was paid for that pay period was the testimony of Mrs. Coleman that when her husband was transferred by Brown & Root to jobs in Louisiana or other parts of Texas he was sometimes paid traveling time.\nMr. Schoolcraft testified that Coleman was discharged when he completed his work on the morning of the 5th, was no longer on the payroll, was not transferred to another job, was not told to report to the Houston office for reassignment, was free to go where he pleased and to take whatever route he chose and was no longer under his control.\nThe jury gave an affirmative answer to the single special issue submitted to them which was as follows: \u201cDo you find from a preponderance of the evidence that the injuries of Robert W. Coleman on December 5, 1954, were sustained by him in the course of his employment for Brown & Root, Inc?\u201d\nAmerican General\u2019s contention is that the evidence detailed shows conclusively that Coleman was not an employee of Brown & Root at the time of his injuries, his employment having terminated before he left Jacksonville, and, moreover, that the evidence shows conclusively that even if an employee Coleman was not injured in the course of any employment for Brown & Root. The plaintiffs seek to sustain the verdict of the jury on the ground that permissible inferences from the evidence will support a finding (1) that Coleman was being transferred by Brown & Root to another job, (2) that Coleman was on his way to Brown & Root\u2019s Houston office for reassignment, (3) that Coleman was rendering a service for Brown & Root by transporting gasoline and tools, and (4) that Coleman was paid travel time while en route to his home in Houston. The Court of Civil Appeals held the testimony of Dr. Dameron, heretofore noted, to be hearsay and inadmissible and rejected the first three inferences as impermissible. It held that the fourth inference was a permissible one and would, in law, support the jury\u2019s verdict. It reversed the judgment of the trial court because of procedural errors.\nWe agree with the holding of the Court of Civil Appeals that the testimony of Dr. Dameron was not admissible under the res gestae exception to the hearsay rule. Assuming, without deciding, that the setting of the declaration by Coleman \u2014 made within a comparatively short time after the accident and while he was in extreme bodily pain and emotional shock \u2014 was such as to clothe it with the probability of truth, it is yet lacking in the requirement that it tend to illuminate or explain the exciting event; it does not relate to happenings which were causative or descriptive of the accident. Declarations of this character made after the exciting event are not admissible. Lewis v. J. P. Word Transfer Co., Texas Civ. App., 119 S.W. 2d 106, 108, writ refused; Empire Gas & Fuel Co. v. Muegge, 135 Texas 520, 143 S.W. 2d 763, 769; Stokes Bros. v. Thornton, Texas Civ. App., 91 S.W. 2d 756, 757, a venue case; Webb-North Motor Co. v. Ross, Texas Civ. App., 42 S.W. 2d 1086, 1087, writ dismissed; Continental Casualty Co. v. Crabb, Texas Civ. App., 170 S.W. 2d 794, writ refused, want of merit; Alfano v. International Harvester Co., Texas Civ. App., 121 S.W. 2d 466, 469, writ dismissed; Texas Law of Evidence, 2nd Ed., Vol. 1, Sec. 918, p. 700. For cases from other jurisdictions to the same effect, see Annotations, 150 A.L.R. 623, 628 and 163 A.L.R. 15, 198. In the cited cases statements or declarations similar to the one attributed to Coleman, offered for the purpose of establishing that the declarant was an employee of another or at the time of the accident was acting in the course of his employment, were held inadmissible. In some of the cases additional reasons, such as that the declaration was not spontaneous or that agency may not be established by the statement, standing alone, of the purported agent, were given for holding the declarations inadmissible, but inherent in them also is the holding that the declarations were inadmissible because they were unrelated to the event which gave rise to the spontaneous reaction and declaration. The rule is otherwise when the declaration precedes the event, and a number of the cases cited by plaintiffs are in this category. Maryland Casualty Co. v. Kent, Texas Civ. App., 271 S.W. 929, 935, affirmed, Texas Com. App., 3 S.W. 2d 414; Royalty Indemnity Co. v. Hogan, Texas Civ. App., 4 S.W. 2d 93, 95, writ refused; Heaton v. Globe Indemnity Co., Texas Civ. App., 71 S.W. 2d 328, writ dismissed; Texas Employers\u2019 Ins. Ass\u2019n. v. White, Texas Civ. App., 68 S.W. 2d 511, writ dismissed; Hartford Accident & Indemnity Co. v. Bond, Texas Civ. App., 199 S.W. 2d 293, 296, writ refused, n.r.e.; Texas Employers\u2019 Ins. Ass\u2019n. v. Brumbaugh, Texas Civ. App., 224 S.W. 2d 761, 763, writ refused, n.r.e.; Liberty Mut. Ins. Co. v. Nelson. Texas Civ. App., 174 S.W. 2d 103, 105, holding approved, Liberty Mut. Ins. Co. v. Nelson, 142 Texas 370, 178 S.W. 2d 514, 517. With respect to such declarations it is said that they are admitted under the exception to the hearsay rule which permits proof of declarations to show intent or state of mind rather than under the res gestae exception. Prater v. Traders & General Ins. Co., Texas Civ. App., 83 S.W. 2d 1038, 1039, no writ history; Liberty Mut. Ins. Co. v. Nelson, Texas Civ. App., 174 S.W. 2d 103, 105; Texas Law of Evidence, 2nd Ed., Vol. 1, Sec. 868. p. 641. The declarations admitted in Texas Employers\u2019 Ins. Ass\u2019n. v. Noel, Texas Civ. App., 269 S.W. 2d 835, writ refused, n.r.e., Texas Employers\u2019 Ins. Ass\u2019n. v. Shifflette, Texas Civ. App., 91 S.W. 2d 787, no writ history; Texas Employers\u2019 Ins. Ass\u2019n. v. Wade, Texas Civ. App., 197 S.W. 2d 203, writ refused, n.r.e. (on subsequent appeal 236 S.W. 2d 836, judgment reversed, Wade v. Texas Employers\u2019 Ins. Ass\u2019n., 150 Texas 557, 244 S.W. 2d 197), Atkinson v. U. S. Fidelity & Guaranty Co., Texas Civ. App., 235 S.W. 2d 509, writ refused, n.r.e., and Gilmer v. Griffin, Texas Civ. App., 265 S.W. 2d 250, writ refused, n.r.e., cited by plaintiffs, were descriptive of the event and for that reason were held to be res gestae.\nThe testimony of Dr. Dameron at issue was not admissible. When it is excluded from consideration there is in the record no evidence from which may be drawn a reasonable inference that at the time of his accident Coleman was being transferred by Brown & Root to another job, or was on his way to Brown & Root\u2019s Houston office for reassignment, or was rendering a service for Brown & Root by transporting gasoline and tools.\nNeither do we believe that the trial court\u2019s judgment for the plaintiffs may be supported by an inference that Coleman was paid travel time while en route to his home in Houston. Even if the jury were at liberty to infer as a fact, as the Court of Civil Appeals has held, that the additional compensation paid to Coleman over and above his earnings for the week of December 11th was to compensate him for his time and expense in returning to Houston, that fact would not, in law, support a holding that in making the trip Coleman was an employee of Brown & Root and was in the course of his employment.\nThe general rule is well settled that an injury incurred in the use of public streets or highways in going to and returning from the place of employment is not a compensable injury because not incurred in the course of the employment as required by Article 8309, Vernon\u2019s Annotated Texas Statutes. Smith v. Texas Employers\u2019 Ins. Assn., 129 Texas 573, 105 S.W. 2d 192, 193; U.S. Fidelity & Guaranty Co. v. Flanagan, 134 Texas 374, 136 S.W. 2d 210; Texas Employers\u2019 Ins. Ass\u2019n. v. Inge, 146 Texas 347, 208 S.W. 2d 867, 868-869; American Indemnity Co. v. Dinkins, Texas Civ. App., 211 S.W. 949, writ refused. There are exceptions to the rule. An injury incurred in going to or returning from work is held to be in the course of a workman\u2019s employment where the means of transportation is furnished by the employer. Fritzmeier v. Texas Employers\u2019 Ins. Ass\u2019n., 131 Texas 165, 114 S.W. 2d 236; Jones v. Casualty Reciprocal Exchange, Texas Civ. App., 250 S.W. 1073, writ refused. So, also, where the employer pays another to transport the injured employee, Texas Employers\u2019 Ins. Ass\u2019n v. Inge, 146 Texas 347, 208 S.W. 2d 867. An injury is held to be in the course of a workman\u2019s employment if in going to or returning from his place of employment or his place of residence he undertakes a special mission at the direction of his employer, or performs a service in furtherance of his employer\u2019s business with the express or implied approval of his employer. Liberty Mutual Ins. Co. v. Nelson, 142 Texas 370, 178 S.W. 2d 514; Consolidated Underwriters v. Breedlove, 114 Texas 172, 265 S.W. 128; Federal Underwriters Exchange v. Lehers, 132 Texas 140, 120 S.W. 2d 791; Hartford Accident & Indemnity Co. v. Bond, Texas Civ. App., 199 S.W. 2d 293, writ refused, n.r.e.; Jones v. Texas Indemnity Ins. Co., 223 S.W. 2d 286, writ refused; Knipe v. Texas Emp. Ins. Ass\u2019n., Texas Civ. App., 234 S.W. 2d 274, affirmed, 150 Texas 313, 239 S.W. 2d 1006; Associated Indemnity Corp. v. Bush, C.C.A., 5th Circuit, 201 Fed. 2d 843. This exception to the general rule is well stated in the opinion of the Court in the case last cited, where it is said: \u201cIn Texas it is held that an accidental injury resulting from hazards of the public streets is compensable if the employee at the time of the injury is actually engaged in the performance of a duty required by his contract of employment, or is engaged upon some mission incidental to his employment, of substantial benefit to, and with the express or implied approval of, his employer.\u201d 201 Fed. 2d 844.\nPlaintiffs insist that this case falls within the exception last noted, but that insistence must fail in the light of our holding that the competent evidence does not support a reasonable inference that at the time of his injury the deceased was performing a service for Brown & Root.\nThe Court of Civil Appeals was of the opinion that if Brown & Root paid the deceased for his time in returning to Houston a holding that the injury was compensable was but a logical extension of the exception which allows compensation where the employer provides transportation for an employee in going to and returning from his place of employment, and relied, in large part, on Kobe v. Industrial Accident Commission, 35 Cal. 2d 33, 215 Pac. 2d 736. There are at least two important points of distinction between this case and the Kobe case. The Court of Civil Appeals noted that whereas in the Kobe case the injuries occurred while the employees were returning home from work during a continuing employment the injuries occurred in this case after final termination of the employment, but it did not regard that distinction as requiring a conclusion differing from the one reached by the California court. The second point of distinction is that in the Kobe case the contract of employment provided that the employees would be paid for time spent in traveling to and from work. There is no evidence in this case that Coleman\u2019s contract of employment expressly provided for pay for travel time and no evidence from which an agreement to pay therefor may be implied. The extra payment for the week ending December 11th can give rise, at best, to an inference that travel time was paid; it is not evidence of an express or implied agreement that it would be paid as a part of Coleman\u2019s compensation. Mrs. Coleman\u2019s testimony that sometimes her husband was paid for travel time when he was being transferred from one job to another adds nothing because there is no evidence that in this instance her husband was being transferred to another job. In the absence of such evidence the rule announced in Texas Employers\u2019 Ins. Ass\u2019n v. Herron, Texas Civ. App., 29 S.W. 2d 524, no writ history, does not apply.\nIf the evidence disclosed that the parties had agreed that upon completion of his work Mr. Coleman would be paid for time expended or consumed in returning to his home, or that it was customary for Brown & Root to pay therefor so that an agreement might be implied, we would be confronted with a much more difficult question. In the absence of such evidence, however, and even considering our long-standing policy of giving our Workmen\u2019s Compensation Act a liberal construction in favor of an injured workman, we hold that evidence which does nothing more than raise an inference that an employer has provided an employee with transportation to his home after final termination of the employer-employee relationship, or has paid him for time expended in so returning, does not and cannot, in the absence of proof that on the trip the employee was to perform some service for the employer, bring injuries sustained during the trip within the provisions of the statute. While the conduct of the parties may establish an implied agreement that pay for travel time is a part of the contract of employment, Maryland Casualty Co. v. Brown, 131 Texas 404, 115 S.W. 2d 394, 396, the evidence must show more than a single such payment. Under such circumstances the injured person is neither an employee of the employer, nor is he acting in the course of his employment.\nThe rule we have announced is in harmony with and supported by the following analogous decisions: Oefinger v. Texas Employers\u2019 Ins. Ass\u2019n., Texas Civ. App. 243 S.W. 2d 469, writ refused; Bozant v. Federal Underwriters Exchange, Texas Civ. App., 159 S.W. 2d 973, writ refused, want of merit; Travelers\u2019 Ins. Co. v. Santos, Texas Civ. App., 55 S.W. 2d 868, no writ history; Traders\u2019 & General Ins. Co. v. Ratcliff, Texas Civ. App., 54 S.W. 2d 223, writ refused. The cited cases stand for the proposition that the mere gratuitous furnishing of transportation by the employer to the employee as an accommodation, and not as an integral part of the contract of employment, does not bring the employee, when injured in the course of traveling on streets and highways, within the protection of the Workmen\u2019s Compensation Act.\nThe judgments of the Court of Civil Appeals and the district court are reversed and judgment is here rendered that the plaintiffs take nothing by their suit.\nAssociate Justice Garwood not sitting.\nOpinion delivered May 29, 1957.\nRehearing overruled July 10, 1957.",
+        "type": "majority",
+        "author": "Mr. Justice Calvert"
+      }
+    ],
+    "attorneys": [
+      "Collins, Garrison, Renfrow & Zeleskey and Henry H. Rogers, all of Lufkin, for petitioner, insurance company.",
+      "Bates, Cartwright, Miller & Gilley, Ralph K. Miller and Reagan Cartwright, all of Houston and J. S. Holleman, of Livingston, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "American General Insurance Company v. Mrs. Irene E. Coleman Et Al.\nNo. A-6199.\nDecided May 29, 1957.\nRehearing overruled July 10, 1957.\n(303 S.W. 2d Series 370.)\nCollins, Garrison, Renfrow & Zeleskey and Henry H. Rogers, all of Lufkin, for petitioner, insurance company.\nBates, Cartwright, Miller & Gilley, Ralph K. Miller and Reagan Cartwright, all of Houston and J. S. Holleman, of Livingston, for respondents."
+  },
+  "file_name": "0377-01",
+  "first_page_order": 393,
+  "last_page_order": 403
+}

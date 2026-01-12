@@ -1,0 +1,59 @@
+{
+  "id": 5992776,
+  "name": "Liggins v. Superior Court of California, Los Angeles County",
+  "name_abbreviation": "Liggins v. Superior Court of California",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-7706",
+  "first_page": "1225",
+  "last_page": "1225",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1225"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 18,
+    "char_count": 122,
+    "ocr_confidence": 0.589,
+    "sha256": "421af60c3f3e93e6a2eabfd6d74f785237fdc887509e0259361be68ac161b514",
+    "simhash": "1:6e0166817d024bc2",
+    "word_count": 19
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Liggins v. Superior Court of California, Los Angeles County."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 2d App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7706.\nLiggins v. Superior Court of California, Los Angeles County."
+  },
+  "file_name": "1225-08",
+  "first_page_order": 1247,
+  "last_page_order": 1247
+}

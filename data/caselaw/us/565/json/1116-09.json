@@ -1,0 +1,59 @@
+{
+  "id": 12239521,
+  "name": "Swichkow v. United States",
+  "name_abbreviation": "Swichkow v. United States",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-6153",
+  "first_page": "1116",
+  "last_page": "1116",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1116"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.706,
+    "sha256": "f98e56fc009023162493e9972222bf37b23895803541f6f406d133d0e0050b5f",
+    "simhash": "1:078acb1307cfb078",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Swichkow v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6153.\nSwichkow v. United States."
+  },
+  "file_name": "1116-09",
+  "first_page_order": 1198,
+  "last_page_order": 1198
+}

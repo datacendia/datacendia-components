@@ -1,0 +1,823 @@
+{
+  "id": 4000798,
+  "name": "RICHARD SANDER et al., Plaintiffs and Appellants, v. STATE BAR OF CALIFORNIA et al., Defendants and Respondents",
+  "name_abbreviation": "Sander v. State Bar",
+  "decision_date": "2013-12-19",
+  "docket_number": "No. S194951",
+  "first_page": "300",
+  "last_page": "328",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "58 Cal. 4th 300"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal.",
+    "id": 9021,
+    "name": "Supreme Court of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "435 U.S. 589",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        2497
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/435/0589-01"
+      ]
+    },
+    {
+      "cite": "42 Cal.L.Rev. 766",
+      "category": "journals:journal",
+      "reporter": "Cal. L. Rev.",
+      "pin_cites": [
+        {
+          "page": "775"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "505 F.Supp.2d 106",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        3649750
+      ],
+      "pin_cites": [
+        {
+          "page": "114"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/505/0106-01"
+      ]
+    },
+    {
+      "cite": "421 U.S. 132",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        541320
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "162"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/421/0132-01"
+      ]
+    },
+    {
+      "cite": "277 Cal.Rptr. 354",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "226 Cal.App.3d 1128",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2334676
+      ],
+      "pin_cites": [
+        {
+          "page": "1138"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/226/1128-01"
+      ]
+    },
+    {
+      "cite": "134 Cal.Rptr. 839",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1991,
+      "opinion_index": 0
+    },
+    {
+      "cite": "64 Cal.App.3d 825",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        6040996
+      ],
+      "pin_cites": [
+        {
+          "page": "830"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/64/0825-01"
+      ]
+    },
+    {
+      "cite": "533 P.2d 222",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "120 Cal.Rptr. 94",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "13 Cal.3d 757",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2317610
+      ],
+      "pin_cites": [
+        {
+          "page": "775"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/13/0757-01"
+      ]
+    },
+    {
+      "cite": "74 Cal.Rptr.2d 765",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "64 Cal.App.4th 24",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        505067
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/64/0024-01"
+      ]
+    },
+    {
+      "cite": "225 P.2d 905",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Cal.2d 538",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4409599
+      ],
+      "pin_cites": [
+        {
+          "page": "543"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/36/0538-01"
+      ]
+    },
+    {
+      "cite": "238 P.2d 581",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 Cal.2d 156",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4404987
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/38/0156-01"
+      ]
+    },
+    {
+      "cite": "88 Cal.Rptr.2d 552",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "74 Cal.App.4th 1008",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        245445
+      ],
+      "pin_cites": [
+        {
+          "page": "1018"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/74/1008-01"
+      ]
+    },
+    {
+      "cite": "5 U.S.C. \u00a7 552",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "510 U.S. 487",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        230545
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "495-496"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/510/0487-01"
+      ]
+    },
+    {
+      "cite": "65 Cal.Rptr.2d 738",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1994,
+      "opinion_index": 0
+    },
+    {
+      "cite": "56 Cal.App.4th 601",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1126487
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "616"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/56/0601-01"
+      ]
+    },
+    {
+      "cite": "165 P.3d 462",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "64 Cal.Rptr.3d 661",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.4th 278",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3673339
+      ],
+      "pin_cites": [
+        {
+          "page": "288, fn. 3"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/42/0278-01"
+      ]
+    },
+    {
+      "cite": "89 F.3d 897",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3694746,
+        9045558
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/319/0256-01",
+        "/f3d/89/0897-01"
+      ]
+    },
+    {
+      "cite": "319 U.S. App.D.C. 256",
+      "category": "reporters:state",
+      "reporter": "U.S. App. D.C.",
+      "case_ids": [
+        3694746
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/319/0256-01"
+      ]
+    },
+    {
+      "cite": "198 Cal.Rptr. 489",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "151 Cal.App.3d 258",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2121459
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/151/0258-01"
+      ]
+    },
+    {
+      "cite": "136 Cal.Rptr. 821",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "67 Cal.App.3d 777",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2029289
+      ],
+      "pin_cites": [
+        {
+          "page": "782"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/67/0777-01"
+      ]
+    },
+    {
+      "cite": "170 P. 653",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.App. 630",
+      "category": "reporters:state",
+      "reporter": "Cal. App.",
+      "case_ids": [
+        2025145
+      ],
+      "pin_cites": [
+        {
+          "page": "634"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app/35/0630-01"
+      ]
+    },
+    {
+      "cite": "11 P. 814",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "71 Cal. 43",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        4379316
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/71/0043-01"
+      ]
+    },
+    {
+      "cite": "79 P.2d 101",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1886,
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 Cal.App.2d 183",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        6041559
+      ],
+      "year": 1886,
+      "pin_cites": [
+        {
+          "page": "184"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/26/0183-01"
+      ]
+    },
+    {
+      "cite": "202 R 879",
+      "category": "reporters:state_regional",
+      "reporter": "R",
+      "opinion_index": 0
+    },
+    {
+      "cite": "187 Cal. 510",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2135414
+      ],
+      "pin_cites": [
+        {
+          "page": "519-520"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/187/0510-01"
+      ]
+    },
+    {
+      "cite": "21 Cal.Rptr. 896",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "204 Cal.App.2d 68",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2291745
+      ],
+      "pin_cites": [
+        {
+          "page": "75"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/204/0068-01"
+      ]
+    },
+    {
+      "cite": "46 P. 468",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "114 Cal. 548",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2330021
+      ],
+      "pin_cites": [
+        {
+          "page": "550"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/114/0548-01"
+      ]
+    },
+    {
+      "cite": "104 Mont. 490",
+      "category": "reporters:state",
+      "reporter": "Mont.",
+      "case_ids": [
+        5016870
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "841"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mont/104/0490-01"
+      ]
+    },
+    {
+      "cite": "354 P.2d 637",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "7 Cal.Rptr. 109",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.2d 548",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2342359
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "563"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/54/0548-01"
+      ]
+    },
+    {
+      "cite": "34 C.F.R. \u00a7 99.31",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "(b)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2002 WI 83",
+      "category": "reporters:neutral",
+      "reporter": "WI",
+      "case_ids": [
+        9334692
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "168, fn. 11"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wis-2d/254/0266-01"
+      ]
+    },
+    {
+      "cite": "7 Cal.Rptr.2d 841",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "6 Cal.App.4th 106",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        2315400
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/6/0106-01"
+      ]
+    },
+    {
+      "cite": "71 Cal.Rptr. 193",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "265 Cal.App.2d 216",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2204966
+      ],
+      "pin_cites": [
+        {
+          "page": "222"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/265/0216-01"
+      ]
+    },
+    {
+      "cite": "980 P.2d 337",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "86 Cal.Rptr.2d 778",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 Cal.4th 1178",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        829714
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/20/1178-01"
+      ]
+    },
+    {
+      "cite": "81 P.2d 935",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "11 Cal.2d 699",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2224881
+      ],
+      "pin_cites": [
+        {
+          "page": "701"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/11/0699-01"
+      ]
+    },
+    {
+      "cite": "171 P.2d 435",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1938,
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.2d 643",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2209240
+      ],
+      "year": 1938,
+      "pin_cites": [
+        {
+          "page": "650"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/28/0643-01"
+      ]
+    },
+    {
+      "cite": "905 P.2d 944",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.Rptr.2d 2",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "11 Cal.4th 975",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1960669
+      ],
+      "pin_cites": [
+        {
+          "page": "985"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/11/0975-01"
+      ]
+    },
+    {
+      "cite": "520 P.2d 991",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "113 Cal.Rptr. 175",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "11 Cal.3d 210",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2302338
+      ],
+      "pin_cites": [
+        {
+          "page": "224"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/11/0210-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 2230,
+    "char_count": 75548,
+    "ocr_confidence": 0.903,
+    "pagerank": {
+      "raw": 8.68693202128527e-08,
+      "percentile": 0.49277795732492513
+    },
+    "sha256": "07f6332c17aa3823b04fad3b5a45833ac7ca1dc387f54c66f1351673e77ae247",
+    "simhash": "1:be8eb075f1db1c6a",
+    "word_count": 11930
+  },
+  "last_updated": "2024-02-27T23:07:49.858399+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "RICHARD SANDER et al., Plaintiffs and Appellants, v. STATE BAR OF CALIFORNIA et al., Defendants and Respondents."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nCANTIL-SAKAUYE, C. J.\nPlaintiffs Richard Sander, Joe Hicks, and the First Amendment Coalition requested that the State Bar of California (State Bar) provide them access to information contained in its bar admissions database, including applicants\u2019 bar exam scores, law schools attended, grade point averages, Law School Admissions Test scores, and race or ethnicity. Plaintiff Sander sought this information in order to conduct research on racial and ethnic disparities in bar passage rates and law school grades.\nThe question presented is whether any law requires disclosure of the State Bar\u2019s admissions database on bar applicants. We conclude that under the common law right of public access, there is a sufficient public interest in the information contained in the admissions database such that the State Bar is required to provide access to it if the information can be provided in a form that protects the privacy of applicants and if no countervailing interest outweighs the public\u2019s interest in disclosure. Because the trial court concluded that there was no legal basis for requiring disclosure of the admissions database, the parties did not litigate, and the trial court did not decide, whether and how the admissions database might be redacted or otherwise modified to protect applicants\u2019 privacy and whether any countervailing interests weigh in favor of nondisclosure. Consequently, the Court of Appeal will be directed to remand the case to the trial court.\nI. Facts\nThe State Bar is a \u201cpublic corporation\u201d of which every person licensed to practice law in the state is a member. (Cal. Const., art. VI, \u00a7 9.) The State Bar serves \u201cas an administrative arm of this court for the purpose of assisting in matters of admission and discipline of attorneys.\u201d (Einslie v. State Bar (1974) 11 Cal.3d 210, 224 [113 Cal.Rptr. 175, 520 P.2d 991].) The State Bar\u2019s Committee of Bar Examiners administers the requirements for admission to the bar, including the bar examination and the assessment of applicants\u2019 moral character, and certifies to this court those applicants who satisfy the requirements. (In re Menna (1995) 11 Cal.4th 975, 985 [47 Cal.Rptr.2d 2, 905 P.2d 944]; Bus. & Prof. Code, \u00a7\u00a7 6046, 6064.) This court has the sole authority to grant or deny admission to practice law, but it accords great deference to the recommendation of the State Bar. (See Preston v. State Bar (1946) 28 Cal.2d 643, 650 [171 P.2d 435]; In re Petition of Lacey (1938) 11 Cal.2d 699, 701 [81 P.2d 935].)\nThe State Bar maintains an admissions database that includes information on approximately 246,000 applicants who applied to take the California bar examination from 1972 through 2007. The files in this database generally include information obtained from applicants through the admissions process\u2014including race or ethnicity, law school attended and year of graduation, and Law School Admissions Test (LSAT) score\u2014and information regarding the applicant\u2019s performance on the bar exam\u2014including whether the applicant applied for, took, passed or failed the bar exam, and the applicant\u2019s scores on the bar exam. Some of the files also include the applicant\u2019s law school grade point average, but the bar stopped collecting that data about 10 years before the request at issue here was made. All information concerning a particular applicant is identified by a file number that has no relationship to the applicant\u2019s name or personal information.\nMuch of the information contained in the admissions database is obtained through the application process. Every applicant signs a form authorizing any educational or other institutions to release to the State Bar all records or transcripts related to the applicant that the State Bar seeks in connection with the application, including his or her law school transcripts. It also authorizes the State Bar to transmit the applicant\u2019s scores on the bar exam to his or her law school. Applicants additionally complete an \u201cethnic survey.\u201d The survey form states that the information regarding the applicant\u2019s ethnicity is sought \u201cto assist in the continuing evaluation of the examination\u201d and that it \u201cwill be treated in a confidential manner and will be used only for research purposes. It will not be retained by the Committee as part of your application.\u201d\nThe State Bar regularly publishes the names of those who pass the bar exam. Using the admissions database, it also prepares and publishes a number of reports regarding the California bar exam. After each bar exam, it prepares a statistical analysis of the bar exam that reports the passage rates for various categories of applicants, including type of law school attended (such as ABA accredited or unaccredited), particular law school attended, first-time takers and repeaters, ethnic group, and sex. The State Bar also has undertaken and reported numerous studies on particular topics related to the bar exam, including the discrepancy in passage rates among racial/ethnic groups and whether bar exam scores are affected by law school admissions practices related to race and ethnicity. These reports are available to the public. Except through its reports, the State Bar has not made the information in its database available to any other entity without the consent of applicants, with one exception. At the request of the Chief Justice, in 1990 and 1992, it provided information identifying individual applicants and their bar exam scores and law schools to the Law School Admission Council for a national study on the relationship between law school performance and performance on the bar exam.\nIn 2006, Professor Richard Sander, of the University of California, Los Angeles School of Law, proposed to collaborate with the State Bar on research regarding racial disparities in bar passage rates and law school grades. Sander\u2019s hypothesis is that these asserted disparities might be affected by racial preferences in law school admissions that, according to his theory, result in a \u201cmismatch\u201d between a minority student\u2019s qualifications and the level of instruction at the law school attended. The State Bar\u2019s Committee of Bar Examiners rejected Sander\u2019s proposal and the Board of Governors confirmed that decision. Subsequently, Sander submitted to the State Bar a request for the release of records in the database regarding applicants\u2019 race, ethnicity, law school, year of law school graduation, whether the applicant was a transfer student, bar examination scores, whether the applicant passed the exam, law school grade point average (GPA), LSAT score, and undergraduate GPA. Sander sought the information with any identifying information about individual applicants redacted. The California First Amendment Coalition submitted a request to the State Bar to inspect or receive copies of the same data requested by Sander. The request was reviewed by the State Bar\u2019s Committee of Bar Examiners, which rejected it, citing, among other things, privacy concerns.\nSander, joined by the First Amendment Coalition, submitted a revised formal request for public information, citing article I of the California Constitution, the common law right of access to public records, and the California Public Records Act (Gov. Code, \u00a7 6250 et seq.). This request sought the same information, but proposed additional means for addressing the State Bar\u2019s privacy concerns. It proposed, among other things, that certain types of data be \u201cclustered\u201d to make it more difficult to combine the information in the database with information available from public sources to deduce an individual\u2019s identity. The proposal to \u201ccluster\u201d data addressed concerns that if there were a small number of individuals in a particular category or \u201ccell\u201d it would arguably be easy to identify them. \u201cFor example, suppose that a law school had only one Native American student in its 2001 graduating class. Disclosing an individual-level database that included information on law school, year of graduation, and detailed race (including \u2018Native American\u2019 as a category) would make it possible for a diligent member of the public to deduce this student\u2019s identity, and thereby know that the other information in the database applied to him or her.\u201d The revised request would reduce the likelihood of such identification by requiring the State Bar to cluster data so that individuals are associated with a category of law school rather than with a particular law school and with a range of years of graduation rather than a particular year. Race would be reported in only four broad categories\u2014White, Hispanic, Black, and other. Furthermore, if any \u201ccell\u201d contained fewer than five individuals, data would be further clustered. Sander offered to pay any reasonable costs incurred by the State Bar in complying with the request. The request was denied.\nBelieving that this court might have exclusive jurisdiction in the matter, Sander and the First Amendment Coalition (hereafter, collectively, plaintiffs) initially filed a petition for writ of mandamus with this court. We denied the petition without prejudice to refiling in an appropriate court. Plaintiffs then filed a petition for writ of mandate in the superior court, seeking to compel the State Bar to provide the records.\nII. Proceedings Below\nBy stipulation of the parties, proceedings in the superior court were divided into two phases. The first phase addressed whether the State Bar has any legal duty to produce the requested records. The second phase would address \u201cwhether provision of the requested records to [plaintiffs] would violate the privacy of any person and . . . whether the cost or burden of manipulation, reproduction, or disclosure of the requested records that may be entailed by [plaintiffs\u2019] request provide a basis for denying or limiting disclosure.\u201d After trial of the first phase based on declarations and stipulated facts, the trial court concluded that no law required the State Bar to disclose the records in the admissions database. It rejected plaintiffs\u2019 argument that disclosure was required under the state common law. The trial court concluded that the common law right of access to judicial branch records was limited to court records of adjudicatory proceedings, that is, to \u201cjudicial record[s]\u201d as defined in Code of Civil Procedure section 1904\u2014\u201cthe record or official entry of the proceedings in a court of justice, or of the official act of a judicial officer, in an action or special proceeding.\u201d\nThe trial court also rejected plaintiffs\u2019 argument that disclosure was required under Proposition 59, a 2004 ballot measure that amended the state Constitution to include a right of public access to \u201cthe writings of public officials.\u201d (Cal. Const., art. I, \u00a7 3, subd. (b)(1).) It concluded that Proposition 59 did not create any new substantive rights, but simply constitutionalized existing rights of access.\nIn light of these conclusions, the trial court did not reach the question whether plaintiffs were seeking the production of a \u201cnew\u201d record that was not required under public access laws. The trial court concluded it was unnecessary to resolve that issue, and in any event the record was insufficient. It recognized that \u201c[i]n the context of digital data, it does not make much sense to consider simply whether a document demand requires the creation of a \u2018new\u2019 document since every production of electronically stored data literally creates a \u2018new\u2019 document on screen, on paper, or in a \u2018new\u2019 digital file.\u201d To determine what constitutes the creation of a new file would require consideration of the complexity of the tasks required to produce the data requested, a matter that could not be determined without expert declarations. The trial court denied the petition without reaching the privacy issues that had been reserved for the second phase.\nThe Court of Appeal reversed, holding that the common law right of access to public records created a presumption that the records in the State Bar\u2019s admissions database must be disclosed, subject to a determination concerning whether the public\u2019s interest in disclosure is outweighed by the privacy interests implicated by disclosure or other countervailing public policy concerns. The Court of Appeal concluded that the common law right of public access, as applicable to the judicial branch, is not limited to court adjudicatory records. It recognized a \u201cparallel, but distinct\u201d right of access based on the First Amendment right to open trials, which is limited to records of adjudicatory proceedings. (See NBC Subsidiary (KNBC-TV), Inc. v. Superior Court (1999) 20 Cal.4th 1178, 1198-1209 & fn. 25 [86 Cal.Rptr.2d 778, 980 P.2d 337] (NBC Subsidiary).) It concluded, however, that California had long recognized a broader common law right of access that applies to all three branches of government and is not limited to adjudicatory records. Under the common law, the Court of Appeal concluded, \u201cwhere there is no contrary statute or countervailing public policy, the right to inspect public records must be freely allowed.\u201d (Craemer v. Superior Court (1968) 265 Cal.App.2d 216, 222 [71 Cal.Rptr. 193] (Craemer).) It held that because the \u201cBar is a public corporation and the records sought relate to its official function of administering the bar exam, a matter of legitimate public interest,\u201d the database was presumptively open to public access, \u201csubject to balancing against the private interests implicated by disclosure.\u201d In accordance with the parties\u2019 stipulation that the case would be tried in two phases, the Court of Appeal reversed and remanded for further proceedings in the trial court to consider and weigh any countervailing policy considerations against the presumption of public access. The Court of Appeal declined to decide whether providing the requested information would involve the creation of a new record because the trial court had concluded that the record was not adequate to resolve that question. We granted review.\nIII. Discussion\nAs explained below, no statute or rule resolves the question before us. We conclude, nevertheless, that under common law principles there is a public interest in access to the State Bar\u2019s admissions database that will require the State Bar to disclose the requested information if it can be applied in a form that does not violate the privacy of applicants and if other considerations do not warrant nondisclosure.\nA. Public Access Laws\nThe California Public Records Act (Gov. Code, \u00a7 6250 et seq.; CPRA), governs requests for the records of most public agencies, but it does not apply to the judicial branch. The definition of state agencies to which its provisions apply excludes \u201cthose agencies provided for in ... Article VI of the California Constitution.\u201d (Gov. Code, \u00a7 6252, subd. (f).) The CPRA requires those agencies provided for in article VI to make available to the public only \u201can itemized statement of the total expenditures and disbursement\u201d of the agency. (Gov. Code, \u00a7 6261.) Article VI of the state Constitution establishes the courts and the State Bar, as well as the Judicial Council, the Commission on Judicial Appointments, and the Commission on Judicial Performance. (Cal. Const., art. VI, \u00a7\u00a7 1-9.) Thus, these entities are exempt from most provisions of the CPRA.\nA variety of other authorities, however, address access to the records of judicial branch entities, including the courts and the State Bar. Article I, section 3, subdivision (b) of the state Constitution, adopted by initiative in 2004 (Prop. 59), addresses \u201cthe right of access to information concerning the conduct of the people\u2019s business.\u201d (Cal. Const., art. I, \u00a7 3, subd. (b)(1).) More specifically, access to court records is governed by long-standing common law principles as well as constitutional principles derived from the First Amendment right of public access to trials. (See NBC Subsidiary, supra, 20 Cal.4th at p. 1208, fn. 25; Copley Press, Inc. v. Superior Court (1992) 6 Cal.App.4th 106 [7 Cal.Rptr.2d 841] (Copley Press).) Recently adopted rules of court govern access to the administrative records of the courts, the Judicial Council, and the Administrative Office of the Courts. (See Cal. Rules of Court, rule 10.500(c)(3).) The State Bar is subject to the State Bar Act (Bus. & Prof. Code, \u00a7 6000 et seq.), which contains numerous statutes that make various of its activities and records public and others confidential. (See Bus. & Prof. Code, \u00a7 6000 et seq.) It is also subject to rules adopted by its governing body, which was, at the time that plaintiffs made their request, the Board of Governors and is now called the Board of Trustees (hereafter, the Board). The Board was authorized to, among other things, adopt rules \u201cnecessary or expedient\u201d for the carrying out of the State Bar\u2019s responsibilities. (Bus. & Prof. Code, \u00a7 6025.)\nB. Statutes and Rules Applicable to the State Bar\nAs a preliminary matter, we conclude that the statutes and rules specifically applicable to the State Bar neither demand nor prohibit the access to the State Bar\u2019s admissions database that plaintiffs seek, although they do confirm that members and applicants have some expectation of privacy in their records. Under the State Bar Act, the State Bar must make available to the public, in addition to the financial information specified in Government Code section 6261, part of the CPRA, \u201cthe classification and total annual compensation paid to each of its employees by name,\u201d as well as its policies regarding employee benefits and compensation. (Bus. & Prof. Code, \u00a7 6001.4.) The meetings of the Board are open to the public, with specified exceptions. (Bus. & Prof. Code, \u00a7 6026.5.) The bar must maintain official membership records. (Bus. & Prof. Code, \u00a7 6002.1, subd. (a).) An unsuccessful applicant has the right to inspect his or her examination papers, and the grading of those papers. (Bus. & Prof. Code, \u00a7 6065, subd. (a).)\nBar members have the right, however, to limit the disclosure of their information \u201cnot reasonably related to regulatory purposes.\u201d (Bus. & Prof. Code, \u00a7 6001.) The \u201cinvestigations or proceedings conducted by the State Bar concerning the moral character of an applicant shall be confidential unless the applicant, in writing, waives the confidentiality.\u201d (Bus. & Prof. Code, \u00a7 6060.2.) Any \u201cdemographic data collected\u201d by the State Bar about its members \u201cshall be used only for general purposes and shall not be identified to any individual member or his or her State Bar record.\u201d (Bus. & Prof. Code, \u00a7 6009.5.)\nRules adopted by the Board require public access to a number of State Bar records. For example, each member\u2019s name, bar number, current address, telephone number, e-mail address, date of admission in California and other jurisdictions, membership status, and date of any discipline imposed, is available to the public. (Rules of State Bar, tit. 2, rule 2.2.) The State Bar\u2019s Committee of Bar Examiners is authorized to \u201cpublish statistics for each examination in accordance with its policies.\u201d (Rules of State Bar, tit. 4, rule 4.7.)\nOnly one State Bar rule is arguably relevant here. The State Bar suggests that rule 4.4 prohibits public disclosure of its admissions database. Rule 4.4 makes the records of applicants for bar membership confidential \u201cunless required to be disclosed by law ... or authorized by the applicant in writing for release to others.\u201d (Rules of State Bar, tit. 4, rule 4.4, fn. omitted (hereafter rule 4.4).)\nThis rule does not require that plaintiffs\u2019 request for access to the database be denied. Rule 4.4 does not define \u201capplicant records.\u201d As noted above, the admissions database at issue in this case is an electronic record of information about each applicant\u2019s performance on the bar exam and data about each applicant obtained by the State Bar in the application process. Although the admissions database reasonably comes within the term \u201capplicant records,\u201d plaintiffs have requested the information in a \u201cde-identified\u201d form, that is, without applicant names or other information that could be used to identify an individual. Assuming, for purposes of discussion, that the records in the admissions database may effectively be de-identified, such de-identified records do not constitute \u201capplicant records\u201d to which public access would be prohibited under the rule. The apparent purposes of rule 4.4 are to protect applicants\u2019 privacy interests and the State Bar\u2019s ability to collect the information it needs to evaluate applicants, which it does under a promise of confidentiality. If the applicant cannot be identified, disclosure of information does not impair his or her privacy interests and the prospect of such disclosure is unlikely to affect the bar\u2019s ability to obtain the information it needs. (Cf. Osborn v. Bd. of Regents (2002) 2002 WI 83 [254 Wis.2d 266, 647 N.W.2d 158, 168, fn. 11] [under federal Family Educational Rights and Privacy Act, \u201conce personally identifiable information is deleted, by definition, a record is no longer an education record since it is no longer directly related to a student\u201d].) Indeed, as noted earlier, the State Bar itself regularly publishes statistical reports on bar exam passage rates, broken down by race, gender, and law school attended, in a form that does not identify individual applicants. Thus, in practice, the State Bar does not interpret its rule as requiring that de-identified information from applicant records be kept completely confidential. The most reasonable construction of rule 4.4 is that it preserves the confidentiality of applicant records that connect particular information about an applicant with the applicant\u2019s name or other identifying information.\nThis construction of rule 4.4 is consistent with the approach used in laws governing information similar to that sought here\u2014including LSAT scores and academic records\u2014in other contexts. A testing agency that administers tests used for purposes of admission to postsecondary educational institutions\u2014including the Law School Admission Council, which administers the LSAT\u2014may not disclose an individual\u2019s test score without the individual\u2019s authorization. (Ed. Code, \u00a7 99161, subd. (a).) Such an agency, however, \u201cmay release test scores and other information in a form which does not identify any individual test subject for purposes of research, studies, and reports primarily concerning the test itself.\u201d (Ed. Code, \u00a7 99161, subd. (b).)\nSimilarly, the records of elementary and secondary school pupils are confidential and may be released only in limited circumstances (Ed. Code, \u00a7 49076), but a school district is not prohibited \u201cfrom providing, in its discretion, statistical data from which no pupil may be identified to any public agency or entity or private nonprofit college, university, or educational research and development organization when such actions would be in the best educational interests of pupils.\u201d (Ed. Code, \u00a7 49074.)\nUnder the federal law applicable to educational institutions receiving federal funds (20 U.S.C. \u00a7 1232g), student records generally may not be disclosed without consent, but disclosure without consent is permitted \u201cafter the removal of all personally identifiable information provided that the educational agency or institution or other party has made a reasonable determination that a student\u2019s identity is not personally identifiable, whether through single or multiple releases, and taking into account other reasonably available information.\u201d (34 C.F.R. \u00a7 99.31(b)(1) (2013).)\nIf there were some doubt about whether rule 4.4 prohibits public access to the State Bar\u2019s database even in a de-identified form, we nevertheless must interpret the rule in light of article I, section 3, subdivision (b) of the California Constitution. That section provides; \u201c(1) The people have the right of access to information concerning the conduct of the people\u2019s business, and therefore ... the writings of public officials and agencies shall be open to public scrutiny, [f] (2) A statute, court rule, or other authority . . . shall be broadly construed if it furthers the people\u2019s right of access, and narrowly construed if it limits the right of access.\u201d (Ibid.) Although the State Bar contends that section 3, subdivision (b)(1) does not create any substantive rights of access and merely \u201cconstitutionalizes\u201d existing public access rights, it does not contend that the rule of interpretation contained in subdivision (b)(2) is inapplicable to its rules. Consequently, we are required to interpret rule 4.4 narrowly. Narrowly interpreted, rule 4.4 does not bar release of the de-identified information that plaintiffs seek.\nC. The Common Law Right of Access to Public Records\nAs demonstrated above, the statutes and rules applicable to the State Bar do not bar plaintiffs\u2019 request, but neither do they specifically require disclosure. We turn to the question of whether the common law, including cases interpreting contemporary statutory language, recognizes a right of public access to the records requested by plaintiffs. As discussed above, the Court of Appeal concluded that the common law establishes a presumptive right of access to the State Bar\u2019s admissions database \u201csubject to balancing against the private interests implicated by disclosure\u201d because the \u201cBar is a public corporation and the records sought relate to its official function of administering the bar exam, a matter of legitimate public interest.\u201d The State Bar does not dispute that a common law right of access to public records exists or that this right applies to the State Bar. (See Chronicle Pub. Co. v. Superior Court (1960) 54 Cal.2d 548, 563 [7 Cal.Rptr. 109, 354 P.2d 637] [State Bar and its officers are \u201cpublic officers\u201d].) However, the State Bar argues that the common law applicable to all public entities\u2014upon which the Court of Appeal relied\u2014applies only to records that officially memorialize or record government action. The State Bar contends that the Court of Appeal erred in concluding that under common law principles, there is a presumption of public access to any record maintained by a public entity that relates in some way to the public\u2019s business.\nThe State Bar interprets the common law right of public access too narrowly. Historically \u201c \u2018[a]t common law every person was entitled to the inspection, either personally or by his agent, of public records, including legislative, executive, and judicial records, provided he had an interest therein such as to enable him to maintain or defend an action for which the documents or records sought could furnish evidence or necessary information.\u2019 \u201d (Craemer, supra, 265 Cal.App.2d at p. 220, fn. 3, quoting State ex rel. Halloran v. McGrath (1937) 104 Mont. 490 [67 P.2d 838, 841].) In California, the right of public access was codified in 1872 in statutes that did not limit the right to those seeking access for the purpose of litigation. (See Code Civ. Proc., former \u00a7 1888 [enacted 1872]; former Pol. Code, \u00a7 1032 [enacted 1872].)\nThe State Bar is correct that under early California law, the term \u201cpublic records\u201d was generally used to refer to the official records of public entities. Code of Civil Procedure former section 1892 provided: \u201cEvery citizen has a right to inspect and take a copy of any public writing of this State, except as otherwise expressly provided by statute.\u201d (Enacted 1872, repealed by Stats. 1968, ch. 1473, \u00a7 25, p. 2945.) Public writings were defined in the 1872 Code of Civil Procedure as \u201c[t]he written acts or records of the acts of the sovereign authority, of official bodies and tribunals, and of public officers, legislative, judicial, and executive\u201d and \u201c[pjublic records, kept in this State, of private writings.\u201d (Code Civ. Proc., former \u00a7 1888, enacted 1872 and repealed by Stats. 1968, ch. 1473, \u00a7 24, p. 2945; see Craemer, supra, 265 Cal.App.2d at p. 220.)\nThe case law recognized, however, that the right of public access was not limited to \u201cpublic records\u201d as so defined. First, relevant statutory language contemplated disclosure of some \u201cother matters.\u201d (Former Pol. Code, \u00a7 1032.) Prior to the passage of the CPRA in 1968, both former Political Code section 1032 and its successor statute, Government Code former section 1227 provided: \u201cThe public records and other matters in the office of any officer are at all times, during office hours, open to the inspection of any citizen of this State.\u201d (Former Pol. Code, \u00a7 1032, repealed by Stats. 1951, ch. 655, \u00a7 37, p. 1864; Gov. Code, former \u00a7 1227, enacted by Stats. 1951, ch. 655, \u00a7 23, p. 1851 and repealed by Stats. 1968, ch. 1473, \u00a7 38, p. 2945, italics added; see post, pp. 315-316.) The term \u201cpublic records,\u201d as used in these statutes, was interpreted to mean the same as \u201cpublic writings,\u201d as defined in Code of Civil Procedure former section 1888. (Craemer, supra, 265 Cal.App.2d at p. 220.) As the quoted language shows, however, these statutes also permitted access to \u201cother matters\u201d in government offices.\nCase law interpreted the term \u201cother matters\u201d based upon fundamental public policy: \u201cThe \u2018other matters\u2019 referred to ... is matter which is \u2018public,\u2019 and in which the whole public may have an interest.\u201d (Whelan v. Superior Court (1896) 114 Cal. 548, 550 [46 P. 468] [holding that written instructions to a sheriff for carrying out a writ of execution on behalf of a creditor, although possessed by a public officer, were not subject to disclosure because the sheriff was acting as an agent of the creditor and not in his official capacity].) The scope of disclosure was not well defined: \u201cThere is no precise formula by which it can be determined whether a writing is such \u2018other matter\u2019; it depends in each instance upon the facts of the particular case. It is obvious that not every piece of correspondence or written statement lodged in the office of a public officer partakes of such a public interest as to be open to general inspection.\u201d (City Council v. Superior Court (1962) 204 Cal.App.2d 68, 75 [21 Cal.Rptr. 896].)\nIn Coldwell v. Board of Public Works (1921) 187 Cal. 510, 519-520 [202 R 879], this court concluded that preliminary plans and estimates related to a public works project held in the office of the city engineer were not \u201cpublic records\u201d as defined in Code of Civil Procedure former section 1888, because they had not yet been approved; nevertheless, they were \u201cother matters\u201d to which the public had a right of access under former Political Code section 1032. The public policy in favor of access to matters of public interest informed our interpretation of this statute. These plans represented steps in the completion of a large public project that was being undertaken by public employees at public expense. \u201cAs such they are matters which affect the public, and in which the public has an interest, if that interest is only to see that the city engineer is taking steps toward the completion of [the project].\u201d (Coldwell, supra, at pp. 520-521.)\nA number of Attorney General opinions addressing the right of public access under these former statutes expressed the view that particular documents in possession of government agencies were not subject to public disclosure because they were neither the \u201cwritten acts or records of the acts\u201d of public officials or bodies nor of sufficient public interest to qualify as \u201cother matters\u201d to which access was granted under Government Code former section 1227 or similarly worded predecessor statutes. (See, e.g., 31 Ops.Cal.Atty.Gen. 103, 104 (1958) [applications to the Real Estate Commissioner for various licenses are not public records because the information on these applications \u201cis not of sufficient interest to the public\u201d]; 18 Ops.Cal.Atty.Gen. 231 (1951) [reports on county hospitals required to be made by State Department of Public Health are subject to right of access, but investigative reports, data, and information upon which the report itself is based are not]; 11 Ops.Cal.Atty.Gen. 41, 45 (1948) [concluding that production reports submitted by mine operators to the Division of Mines for the purpose of assembling statistical data need not be disclosed because there is no public interest in the production figures of an individual mine operator, but noting that statutory clarification would be desirable because \u201cthe common law rule of inspection presents a nebulous and unsatisfactory standard\u201d].)\nCourts applying these former statutes recognized exceptions to the policy in favor of a right of access when other public policies favored nondisclosure.\nThey recognized that \u201cpublic policy demands that certain communications and documents shall be treated as confidential and therefore are not open to indiscriminate inspection, notwithstanding that they are in the custody of a public officer or board and are of a public nature.\u201d (Runyon v. Board etc. of Cal. (1938) 26 Cal.App.2d 183, 184 [79 P.2d 101] [holding that letters and communications voluntarily submitted to the parole board in connection with the determination of prisoners\u2019 applications for parole are confidential].) In Colnon v. Orr (1886) 71 Cal. 43 [11 P. 814], we denied a citizen\u2019s petition to inspect a letter filed with a state insane asylum that criticized its superintendent. \u201cIt is not every written charge made to a board of supervisors, a board of directors, or trustees of a college or other state institution, which, upon being filed in the office of their secretary or treasurer, or custodian of their records, becomes thereby a public record to which any citizen may have access at pleasure.\u201d (Id. at p. 44.) We concluded that such a document was not part of the public record. (Id. at pp. 44-45.)\nThus, prior to the adoption of the CPRA in 1968, case law applied the relevant statutes in light of a fundamental policy favoring access to records in which the public had a legitimate interest. Records maintained by a public entity were subject to a qualified right of public access if they were records that constituted the \u201cwritten acts or records of acts\u201d of the public entity, or if they constituted \u201cother matters\u201d of sufficient public interest to justify requiring public access, taking into account the facts of the particular case, unless other interests, including a need for confidentiality, weighed in favor of nondisclosure.\nThe State Bar cites Mushet v. Department of Pub. Service (1917) 35 Cal.App. 630, 634 [170 P. 653] (Mushet) as support for its argument that only records that officially memorialize or record government actions constitute public records under California common law. As we explain, however, we find Mushet consistent with the authorities discussed above, which recognize a qualified right of public access to records of government agencies that are of public interest, subject to countervailing public policy considerations.\nTo be sure, Mushet, supra, 35 Cal.App. at page 634, did recognize that \u201cpublic records,\u201d as defined in the statutes of the time, included the official records of government action. Mushet, however, did not limit the right of access to documents that came within this definition, but applied a more expansive common law rule to require disclosure. (Id. at pp. 636-639.) Mushet applied the public access right to books, accounts, and other records possessed by the city explaining items of expenditure, and anticipated expenditures, related to a project to expand the infrastructure of power generation in Los Angeles. (Id. at p. 634.) These documents were not technically \u201cpublic records\u201d within the meaning of applicable statutes because, under the law in effect at the time, the city was acting as a private\nutility corporation in conducting those activities and therefore the records at issue were not \u201cofficial.\u201d Nevertheless, the records reflected the use of public funds. The court concluded that voters and taxpayers had \u201ca great interest in the proper management of the business and matters pertaining to their county, and therefore are entitled to know whether the public officials whom they have selected to represent them have properly used, disbursed, and accounted for the public funds which under the law have been confided to their custody and administration.\u201d (Id. at p. 637.) The court explained that \u201c[t]he rules of the common law will be applied to those cases which come within their reason and equity, even when such cases seem to be outside the strict letter of such rules as they are ordinarily stated. . . .\u201d (Id. at p. 638.)\nThe state of the law of public access to the records of public entities prior to the 1968 adoption of the CPRA was succinctly summarized in an opinion of the California Attorney General as follows: \u201cThe phrase \u2018public records\u2019 in Political Code section 1032 was limited to those documents meeting the definitions of \u2018public writings\u2019 expressed in Code of Civil Procedure sections 1888 and 1894. To balance this restricted definition, the law also permitted public inspection of certain \u2018other matters\u2019 in the office of a public officer if they were matters which were \u2018public\u2019 and in which the whole public might have an interest. This \u2018other matters\u2019 area was also subject to further enlargement by resort to common law principles.\u201d (53 Ops.Cal.Atty.Gen. 136, 142 (1970).) The right was not limited, as the State Bar contends it should be, to the official records of government actions.\nD. Common Law Principles as Applied to Court Records\nThe State Bar contends that because it is a judicial branch entity, and because it acts as an \u201cadministrative arm\u201d of this court in connection with admissions, these general common law principles should not govern it. Rather, it argues, it should be subject to only the common law rules that are applicable specifically to court records. Public access to court records, the State Bar contends, is limited to those that \u201caccurately and officially reflects the work of the court.\u201d (Copley Press, supra, 6 Cal.App.4th at p. 113 [defining a judicial record as one that \u201caccurately and officially reflects the work of the court, such as its orders and judgments, its scheduling and administration of cases, its assignment of judicial officers and administrators\u201d].) Thus, it contends, public access to its records under the common law should be limited to those that accurately and officially reflect the work of the State Bar. As explained below, the general principles regarding public access to the records of public entities established in the statutes and case law discussed above continue to apply in the context of court records. Consequently, the right is not limited in the manner proposed by the State Bar.\nWhen the CPRA was adopted in 1968, Code of Civil Procedure sections 1888 and 1892 and Government Code section 1227, discussed above, which had codified the general right of access to public records, were repealed. (Stats. 1968, ch. 1473, \u00a7\u00a7 24\u201425, 38, p. 2945.) Nevertheless, both statute and case law continued to recognize this right of access. The Legislature declared that \u201caccess to information concerning the conduct of the people\u2019s business is a fundamental and necessary right of every citizen of this state.\u201d (Gov. Code, \u00a7 6250, enacted by Stats. 1968, ch. 1473, \u00a7 39, p. 2945.) The courts were made exempt from most provisions of the CPRA, but the Legislature explicitly preserved existing law regarding \u201cthe status of judicial records as it existed immediately prior to the effective date of this section.\u201d (Gov. Code, \u00a7 6260, enacted by Stats. 1968, ch. 1473, \u00a7 39, p. 2945.) The common law right of access continued to be applied and to develop in cases addressing court records, which recognized that \u201c[t]o prevent secrecy in public affairs public policy makes public records and documents available for public inspection by newsmen and members of the general public alike.\u201d (Estate of Hearst (1977) 67 Cal.App.3d 777, 782 [136 Cal.Rptr. 821].) \u201cAbsent strong countervailing reasons, the public has a legitimate interest and right of general access to court records . . . .\u201d (Id. at p. 784.)\nThe Court of Appeal in Copley Press, supra, 6 Cal.App.4th at pages 113-115, aptly summarized the principles governing public access to court records. It identified two categories of records typically used in the courts. The first included \u201cdocumentation which accurately and officially reflects the work of the court, such as its orders and judgments, its scheduling and administration of cases, its assignment of judicial officers and administrators[,] ... the official court minutes, all its written orders and dispositions, the official reports of oral proceedings, ... the master calendar[,] . . . [and] the various documents filed in or received by the court . . . and the evidence admitted in court proceedings.\u201d (Id. at p. 113.) These documents are \u201c \u2018judicial record[s]\u2019 \u201d that \u201crepresent and reflect the official work of the court, in which the public and press have a justifiable interest.\u201d (Ibid.) They are presumptively accessible to the public.\nThe second category of records identified in Copley Press includes informal and preliminary writings used by the courts, such as rough drafts, informal notes, memoranda, and other preliminary writings. (Copley Press, supra, 6 Cal.App.4th at p. 114.) Although such writings are used by judges in the course of judicial work, they are not subject to the right of public access. (Ibid.)-, see NBC Subsidiary, supra, 20 Cal.4th at p. 1212, fn. 29.) The reason is that public access to such documents is not generally in the public interest because they are \u201ctentative, often wrong, sometimes misleading . . . they do not speak for the court and do not constitute court action.\u201d (Copley Press, supra, at p. 114.) Furthermore, access to such preliminary writings \u201cwould severely hamper the users of the materials\u201d because their purpose is to \u201cextract raw and immature thoughts from the brain to paper, so they can be refined and corrected.\u201d (Ibid.) Knowing that such materials could be exposed to the public eye would inhibit their creation.\nCopley Press recognized, however, that not every document used and maintained by courts clearly falls into one of these two categories. It identified a third category of records that \u201care on the margin\u201d of these two categories. (Copley Press, supra, 6 Cal.App.4th at p. 115.) In Copley Press, members of the press sought access to the minute books of the clerks serving six superior court judges, in order to investigate whether gifts judges reported from certain attorneys may have influenced judicial conduct. The minute books are informal notes kept by the clerks as a precursor to the creation of the formal minutes of the court. The appellate court concluded that the clerk\u2019s rough minutes fall into this marginal category. They are not official records of the court and do not constitute court action, but \u201c[o]n the other hand, they do not partake of the discretionary and incomplete content that characterizes the judge\u2019s bench notes or the first drafts of various court documents.\u201d (Ibid.) The court concluded that the clerk\u2019s rough minutes should be disclosed to the public. The court noted that they are kept regularly by all clerks, they reflect ministerial actions by the clerk, and \u201cthe clerk\u2019s minute book presumptively contains only accurate, descriptive and non-discretionary information.\u201d (Ibid.) Significantly, the court pointed out that the minute book \u201cis the one repository of easy access which provides a continuous chronology of each court\u2019s daily activities.\u201d (Ibid.) Thus, in deciding whether documents that do not clearly fall into the category of public court records are subject to a right of access, Copley Press focused on the usefulness of the records and thereby on the public\u2019s interest in access to those records.\nPantos v. City and County of San Francisco (1984) 151 Cal.App.3d 258 [198 Cal.Rptr. 489] (Pantos) applied a similar approach. First, Pantos held that a court\u2019s master jury list of potential jurors qualified for service was a judicial record that must be disclosed to the public. (Id. at pp. 262-263.) The master list constituted an official list prepared by the jury commissioner that had historically been treated as a public document, and the Court of Appeal found no compelling reason for nondisclosure. (Id. at p. 263.) Second, Pantos held that questionnaires used by the jury commissioner to determine whether citizens were qualified for jury service did not have to be disclosed. Although the questionnaires were used and maintained by the court, they had not historically been disclosed to the public. The plaintiff in Pantos argued that access to the questionnaires would enhance the selection of a fair jury, but the court concluded that voir dire questioning was sufficient for that purpose. (Id. at pp. 263-265.) Furthermore, the questionnaire stated that the prospective juror is compelled by law to provide the information and that the questionnaire is confidential and will not be made public. (Id. at p. 264.) \u201cTo disclose this information under these conditions may negatively impact on the prospective juror\u2019s willingness to serve and thus interfere with efficient court administration. . . . Public interest in withholding such questionnaires outweighs the public\u2019s interest in disclosure.\u201d (Id. at pp. 264\u2014265.)\nThe approach to court records set forth in Copley Press and applied in Pantos is consistent with the general statutory and common law principles regarding the right of public access as applied in California before the adoption of the CPRA. As discussed above, the right applied to the \u201c 1 \u201cwritten acts or records of the acts\u201d \u2019 \u201d of government officials and entities and also to \u201cother matters\u201d that were of sufficient interest to the public to warrant disclosure, subject to countervailing public interests. (Coldwell v. Board of Public Works, supra, 187 Cal. at p. 518; accord, City Council v. Superior Court, supra, 204 Cal.App.2d at p. 73; see Mushet, supra, 35 Cal.App. at p. 638 [\u201cThe rules of the common law will be applied to those cases which come within their reason and equity, even when such cases seem to be outside the strict letter of such rules as they are ordinarily stated.\u201d].)\nThe State Bar claims support in Washington Legal Foundation v. United States Sentencing Com. (D.C. Cir. 1996) 319 U.S. App.D.C. 256 [89 F.3d 897] (Washington Legal Foundation) for its contention that the right of public access to judicial branch records is limited to those that officially and accurately reflect the work of the public agency. The court in Washington Legal Foundation applied the common law right of access to a judicial branch entity other than a court\u2014an advisory committee to the United States Sentencing Commission. The petitioner in Washington Legal Foundation, supra, 89 F.3d at page 899, sought \u201c \u2018internal documents and memoranda\u2019 \u201d relied upon by an advisory group in formulating its final public recommendations to the United States Sentencing Commission. The federal appellate court declared that under federal common law, a public record was \u201ca government document created and kept for the purpose of memorializing or recording an official action, decision, statement, or other matter of legal significance, broadly conceived.\u201d (Id. at p. 905.) It concluded that the public has a presumptive right of access to such records, subject to a balancing of public and private interests. (Ibid.) The court viewed this definition as allowing adequate public oversight of government agencies while avoiding \u201cthe necessity for judicial application of the second-step balancing test to documents that are preliminary, advisory, or ... do not eventuate in any official action or decision being taken.\u201d (Ibid.)\nThe court clarified that this definition would include records of governmental expenditures, records of real estate transactions, and a list of tax abatements passed by a local government. (Washington Legal Foundation, supra, 89 F.3d at p. 905.) In contrast, this definition \u201cwould not encompass the preliminary materials upon which an official relied in making a decision or other writings incidental to the decision itself\u2014for example, the report of a blood test provided in support of an application for a marriage license, the job application of a would-be government employee, a government auditor\u2019s preliminary notes used in the preparation of an official report, or a cover memorandum circulated with a copy of an official report or study.\u201d (Id. at pp. 905-906.) The court held that the advisory committee records sought by the petitioner were not public records because they were either \u201c \u2018predecisional\u2019 \u201d or incidental to the official actions, decisions, and statements of that commission. (Id. at p. 906.) Consequently, there was no presumptive right of public access and the court was not required to balance competing interests.\nWashington Legal Foundation\u2019s categories of records that must be disclosed and those that need not be disclosed are essentially the same two categories recognized in Copley Press, and its holding is consistent with Copley Press because the internal documents and memoranda of an advisory committee would fall into the category of records that are not disclosable under Copley Press. Unlike in Copley Press, however, the court in Washington Legal Foundation did not consider whether records might exist that did not clearly fall into either of these categories\u2014the \u201cmarginal\u201d category discussed in Copley Press. It had no need to do so, because the documents at issue clearly fell into the category that need not be disclosed. To the extent Washington Legal Foundation implicitly rejected the existence of such a category, and limited the right of public access to documents that memorialize or record government actions, it is not consistent with the California case law on the right of public access.\nThe State Bar suggests that if the common law right of access is not limited in the manner it proposes, it would create a level of access to judicial branch records that is equivalent to the level of access provided in the CPRA and thereby effectively eliminate the CPRA\u2019s exemption for the judicial branch. The CPRA applies to \u201cany writing containing information relating to the conduct of the public\u2019s business prepared, owned, used, or retained by any state or local agency regardless of physical form or characteristics\u201d (Gov. Code, \u00a7 6252, subd. (e)), unless a specific statutory exemption applies (Gov. Code, \u00a7 6255, subd. (a); see Gov. Code, \u00a7\u00a7 6254 et seq., 6276 et seq.). \u201cThis definition is intended to cover every conceivable kind of record that is involved in the governmental process .... Only purely personal information unrelated to \u2018the conduct of the public\u2019s business\u2019 could be considered exempt from this definition . . . .\u201d (Assem. Statewide Information Policy Com., Final Rep. (Mar. 1970) 1 Assem. J. (1970 Reg. Sess.) appen. p. 9; accord, Commission on Peace Officer Standards & Training v. Superior Court (2007) 42 Cal.4th 278, 288, fn. 3 [64 Cal.Rptr.3d 661, 165 P.3d 462].)\nThe State Bar is correct that, unlike the CPRA, the common law does not recognize a presumptive right of public access to every record in possession of a government agency that is in any way related to the public\u2019s affairs. Copley Press, supra, 6 Cal.App.4th at page 113, explicitly rejected the argument that \u201call writings created within the court premises by court personnel in connection with court business\u201d were public records under California common law. It noted that if that definition applied, \u201caccess to court documents would be virtually the same as access to any other governmental documents,\u201d as prescribed in the CPRA. (Ibid.; see City Council v. Superior Court, supra, 204 Cal.App.2d at p. 73 [\u201cthe mere fact that a writing is in the custody of a public agency does not make it a public record\u201d].)\nWe agree with the Copley Press court that the common law rule\u2014 although not limited in the manner proposed by the State Bar\u2014does differ\nA report to a legislative committee considering a predecessor bill to the bill that was later adopted as the CPRA identifies this difference between the way public records previously were defined and the way they would be defined under the proposed legislation. (Assem. Com. on Government Organization, Staff Rep., Cal.\u2019s Public Records Law and Proposed Revision, prepared for hearing Jan. 6 and 7, 1966, on Assem. Bill No. 3015 (1966 Reg. Sess.).) The pending bill, Assembly Bill No. 3015 (1966 Reg. Sess.), contained a definition of public records similar to the one contained in the current version of the CPRA. The report states that the definition of public records under existing law is \u201cbroad and provides little guidance in determining whether or not a specific document is a public record. Generally, the courts have taken a restrictive view in applying these sections. [f] In contrast, AB 3015 begins by making every document a public record. The only exceptions are those which are specifically recognized by the Legislature (either in the exemptions outlined in the bill or by specific statute). The significance of this change is twofold: (1) the burden for determining what is a public record is shifted; (2) it limits the authority of administrators to withhold records unless there is an expressed statutory right to do so.\u201d (Assem. Com. on Government Organization, Staff Rep., supra, at p. 6.)\nIn light of the differences between the common law approach to public records and the CPRA\u2019s approach, we see no conflict between the CPRA\u2019s exemption of judicial branch records and the recognition that a common law right of access continues to exist in records of those public entities not governed by the CPRA in which there is a legitimate public interest, if that interest is not outweighed by other interests.\nE. Application of Common Law Principles to the Admissions Database\n1. Public interest in the admissions database\nApplying the principles discussed above, the admissions database falls into the \u201cmarginal\u201d third category of records identified in Copley Press. The admissions database does not constitute an official record of the State Bar\u2019s actions and has not historically been treated as a public record. On the other hand, the admissions database does not fall into the category of preliminary, predecisional materials whose disclosure could undermine the purposes for which they were created and which could be misleading or inaccurate. The admissions database could be characterized as \u201cpreliminary\u201d in that it constitutes the rough data upon which the bar\u2019s published statistical reports and other studies are based. Unlike a rough draft or internal memo, however, we have no reason to believe that it is inaccurate or misleading, or that its disclosure would interfere with the State Bar\u2019s use of it for its own purposes.\nThe threshold consideration in determining whether these records are subject to public disclosure is the public interest that would be served by disclosure. In making that determination, the particular motive of the party seeking the information is not the relevant interest. (Connell v. Superior Court (1997) 56 Cal.App.4th 601, 616 [65 Cal.Rptr.2d 738] [applying exemption to CPRA for cases in which public interest in disclosure is outweighed by other interests]; see Department of Defense v. FLRA (1994) 510 U.S. 487, 495-496 [127 L.Ed.2d 325, 114 S.Ct. 1006] [applying exemption to Freedom of Information Act (5 U.S.C. \u00a7 552) applicable to cases in which public interest in disclosure is outweighed by other interests].) Rather, we focus on \u201cwhether disclosure would contribute significantly to public understanding of government activities.\u201d (City of San Jose v. Superior Court (1999) 74 Cal.App.4th 1008, 1018 [88 Cal.Rptr.2d 552]; accord, Department of Defense v. Federal Labor Relations Authority, supra, at pp. 495-496.) Thus, although plaintiff Sander\u2019s motive in seeking the information is to facilitate his research regarding law school admissions practices, we focus on the interest of the general public in the activities of the State Bar.\nThe public does have a legitimate interest in the activities of the State Bar in administering the bar exam and the admissions process. In particular, it seems beyond dispute that the public has a legitimate interest in whether different groups of applicants, based on race, sex or ethnicity, perform differently on the bar examination and whether any disparities in performance are the result of the admissions process or of other factors. Indeed, the State Bar uses the database to prepare a statistical analysis of the bar exam that reports the bar passage rates for various categories of applicants. Public access to the admissions database used by the State Bar to evaluate its admissions process would allow the public to independently ascertain and evaluate that process. Therefore, the public\u2019s interest in the information in the database would contribute to the public\u2019s understanding of the State Bar\u2019s admissions activities, and is sufficient to warrant further consideration of whether any countervailing consideration weighs against public access.\n2. Promise of confidentiality\nThe State Bar asserts that, notwithstanding any public interest in the admissions database, it is not subject to public disclosure because the information contained in it was obtained from applicants under a promise that it would remain confidential. Under longstanding common law and statutory principles, information obtained through a promise of confidentiality is not subject to the right of public access when the public interest would be furthered by maintaining confidentiality. (See Runyon v. Board etc. of Cal., supra, 26 Cal.App.2d at p. 185 [\u201cin order to impartially and intelligently discharge the functions of the state board of prison terms and paroles it is essential to secure all possible information bearing upon applicants for parole; and necessarily much of the information thus obtained can be had only upon the understanding that the persons furnishing the same will be protected and that the information will be treated as confidential\u201d]; Chronicle Pub. Co. v. Superior Court, supra, 54 Cal.2d 548 [complaints to State Bar not resulting in disciplinary action were privileged, where confidentiality furthered State Bar\u2019s interest in encouraging citizens to provide information and attorneys\u2019 interests in avoiding publication of unfounded complaints weighed against disclosure]; Pantos, supra, 151 Cal.App.3d at pp. 264-265 [access to the questionnaires used by a jury commissioner to determine the qualifications of potential jurors was denied, in part, because jurors were promised that their responses would be confidential].) This principle is currently reflected in Evidence Code section 1040, which provides a privilege to a public entity to refuse to disclose information acquired in confidence if \u201cthere is a necessity for preserving the confidentiality of the information that outweighs the necessity for disclosure.\u201d (Evid. Code, \u00a7 1040, subd. (b)(2).)\nAs we have alluded to earlier, however, this principle has not prevented public access to otherwise confidential, private information in the possession of a public entity that is not linked to the individual to which it pertains. (See, e.g., City & County of S. F. v. Superior Court (1951) 38 Cal.2d 156 [238 P.2d 581] [names of private employers who provided specific wage information to city civil service commission for purpose of determining prevailing wage rates were confidential, where information could not be obtained without promise of confidentiality and lists of wage rates obtained from employers was available to public in form that did not identify which employer submitted which wage list]; Franchise Tax Board v. Superior Court (1950) 36 Cal.2d 538, 543 [225 P.2d 905] [banks seeking right to inspect tax returns of nonfinancial corporations considered by Franchise Tax Board in fixing the tax rate for financial corporations were supplied with \u201cevery item of information requested by them . . . with the exception of the individual taxpayers\u2019 identity\u201d]; see also Zamudio v. Superior Court (1998) 64 Cal.App.4th 24 [74 Cal.Rptr.2d 765] [requiring release of juror questionnaires with personal identifying information redacted].) Because plaintiffs do not seek the information in a manner that would reveal the identities of individual applicants, the State Bar\u2019s promises of confidentiality do not necessarily preclude public access to the database.\nSimilarly, we cannot hold as a matter of law that bar applicants\u2019 constitutional rights of privacy preclude disclosure of the information in the database even in a de-identified form. (See Cal. Const., art. I, \u00a7 1.) The State Bar cites this court\u2019s statement in White v. Davis (1975) 13 Cal.3d 757, 775 [120 Cal.Rptr. 94, 533 P.2d 222], that the constitutional right to privacy is aimed at, among other things, \u201cthe improper use of information properly obtained for a specific purpose, for example, the use of it for another purpose or the disclosure of it to some third party.\u201d The cases cited by the State Bar that apply this principle, however, involve disclosure of information about a named individual. (See Porten v. University of San Francisco (1976) 64 Cal.App.3d 825, 830 [134 Cal.Rptr. 839] [complaint alleging that a university disclosed grades the plaintiff had earned at another university despite assurances that the grades would be used only for purposes of evaluating his application for admission stated a claim for violation of the right of privacy]; Urbaniak v. Newton (1991) 226 Cal.App.3d 1128, 1138 [277 Cal.Rptr. 354] [complaint alleging that doctor disclosed plaintiff\u2019s HIV status stated cause of action for invasion of privacy].) The State Bar\u2019s argument that disclosure of the requested data would violate applicants\u2019 privacy even if it cannot be connected to them as individuals is not supported by authority.\nThe parties disagree concerning whether the information at issue can be provided in a form that does not breach the State Bar\u2019s promises of confidentiality. The State Bar contends that \u201cthe commonly held assumption that any data can be successfully [deidentified] as suggested by [plaintiffs], so that it can be made available to the public without risk that individual people\u2019s information be revealed, has proved to be false.\u201d Plaintiffs counter that \u201c[disclosure of de-identified information regarding individuals obtained from government databases is commonplace. . . . The routine release of such data refutes the claim that such information cannot be disclosed without undue risk of \u2018re-identification\u2019 of those individuals.\u201d This issue involves disputed questions of fact that we are not currently in a position to decide. By the parties\u2019 stipulation, litigation of this issue was reserved for the second phase of trial and may be decided in the trial court upon remand.\nE Form in Which the Data Is Kept\nThe State Bar contends, as it did in the trial court, that in order to comply with plaintiffs\u2019 request without infringing bar applicants\u2019 privacy interests it would be required not only to redact personal information but also to create new categories of information by \u201cclustering\u201d categories of data\u2014a measure proposed by plaintiffs to make it more difficult to reidentify individuals. The State Bar concedes that if the admissions database is subject to the right of access it may be required to redact applicants\u2019 names, but contends that making the changes to the admissions database necessary to protect applicants\u2019 privacy would constitute the creation of a \u201cnew\u201d record and that creation of a new record is not required. (See, e.g., NLRB v. Sears, Roebuck & Co. (1975) 421 U.S. 132, 162 [44 L.Ed.2d 29, 95 S.Ct. 1504] [federal Freedom of Information Act does not require agency to create documents; it requires only \u201cdisclosure of certain documents which the law requires the agency to prepare or which the agency has decided for its own reasons to create\u201d]; Center for Public Integrity v. Federal Communications Com. (D.D.C. 2007) 505 F.Supp.2d 106, 114 [producing data in the form-requested would amount to creation of a new record, which is not required by Freedom of Information Act].)\nWe agree with the trial court that in the context of electronic records, and in particular electronic databases, to resolve this issue would require consideration of the complexity of the tasks required to produce the data in the form requested; consequently, it would be premature for us to attempt to resolve this issue. The parties have not yet litigated whether and how applicants\u2019 privacy interests could be protected if public access to the database were permitted. Therefore, we do not yet know what modifications would be necessary to protect these countervailing interests. Furthermore, by stipulation, the parties reserved for the second phase of trial the question whether disclosure would impose an undue burden on the State Bar.\nPlaintiffs have made clear that they would accept the data in its current form, without any modification other than the redaction of applicants\u2019 names. They have proposed additional modifications to the data, including the \u201cclustering\u201d of data, in order to satisfy the State Bar\u2019s concerns about bar applicants\u2019 privacy. In light of our holding recognizing the public\u2019s interest in the admissions database, the State Bar may choose to implement these proposals or may propose other measures that will satisfy the public\u2019s right of access while protecting applicants\u2019 privacy. If not, it will be necessary for the trial court to resolve whether and how a record that is responsive to plaintiffs\u2019 requests may be produced without identifying individual applicants or otherwise unduly burdening any legitimate competing interests.\nIV. Conclusion\nThe judgment of the Court of Appeal is affirmed. That court is directed to remand this case to the trial court for further proceedings consistent with this opinion.\nKennard, J., Baxter, J., Werdegar, J., Chin, J., Corrigan, J., and Liu, J., concurred.\nKlein and Bolus, Are Bar Exam Scores Affected by Law School Admissions Practices? (PR-88-2, Oct. 17, 1988); Klein and Bolus, Minority Group Performance on the California Bar Examination (PR-87-2, Dec. 3, 1987); Klein, An Analysis of the Relationships Between Bar Examination Scores and an Applicant\u2019s Law School, Admissions Test Scores, Grades, Sex, and Racial/Ethnic Group (79-IP, Aug. 1979).\nThe Law School Admission Council, a public nonprofit organization, administers the LSAT. It also conducts numerous studies related to the LSAT and to law school admissions policies.\nMost general laws prescribing procedures for state agencies do not apply to the State Bar. (Bus. & Prof. Code, \u00a7 6001 [\u201cNo law of this state restricting, or prescribing a mode of procedure for the exercise of powers of state public bodies or state agencies, . . . shall be applicable to the State Bar, unless the Legislature expressly so declares.\u201d].)\nLegislation adopted in 2011 changed the name of the governing board to the board of trustees and revised the size and makeup of the Board. (Bus. & Prof. Code, \u00a7 6001.2, added by Stats. 2011, ch. 417, \u00a7 28, enacting Sen. Bill No. 163 (2011-2012 Reg. Sess.).) That legislation also required the Board to ensure that its open meeting requirements are consistent with, and conform to, the Bagley-Keene Open Meeting Act (Gov. Code, \u00a7 11120 et seq.), the legislative scheme that applies to most other state agencies. (Bus. & Prof. Code, \u00a7 6026.7.)\nThe Code of Civil Procedure and the former Political Code (as well as the Civ. Code and Pen. Code) were enacted in 1872. \u201cThe four codes were not published as part of the Statutes of 1871-72 and were not given chapter numbers . . . .\u201d (Kleps, The Revision and Codification of California Statutes 1849-1953 (1954) 42 Cal.L.Rev. 766, 775.)\nThe federal courts have similarly recognized a common law right of public access to government documents, although the parameters of the right have not been clearly established. In Nixon v. Warner Communications, Inc. (1978) 435 U.S. 589 [55 L.Ed.2d 570, 98 S.Ct. 1306], the court observed that \u201cthe courts of this country recognize a general right to inspect and copy public records and documents, including judicial records and documents.\u201d (Id. at p. 597, fns. omitted.) \u201cIn contrast to the English practice, [citation], American decisions generally do not condition enforcement of this right on a proprietary interest in the document or upon a need for it as evidence in a lawsuit. The interest necessary to support the issuance of a writ compelling access has been found, for example, in the citizen\u2019s desire to keep a watchful eye on the workings of public agencies, [citations], and in a newspaper publisher\u2019s intention to publish information concerning the operation of government [citation].\u201d (Id. at pp. 597-598.) Admittedly, the sparse case law recognizing this common law right made it \u201cdifficult to distill ... a comprehensive definition\u201d or \u201cidentify all the factors to be weighed.\u201d (Id. at pp. 598-599.) The high court concluded that this process was best left to the \u201csound discretion of the trial court, a discretion to be exercised in light of the relevant facts and circumstances of the particular case.\u201d (Id. at p. 599.)\nCopley Press recognized that both the First Amendment to the United States Constitution and its state counterpart, article I, section 2, subdivision (a) of the California Constitution, \u201cprovide broad access rights to judicial hearings and records.\u201d (Copley Press, supra, 6 Cal.App.4th at p. 111; accord, NBC Subsidiaiy, supra, 20 Cal.4th at pp. 1208-1209 & fn. 25.) Under constitutional principles, records of civil and criminal adjudicatory proceedings must be disclosed to the public unless there is an overriding interest that supports sealing the record, there is a substantial probability that the interest will be prejudiced by disclosure, the sealing is narrowly tailored to serve the overriding interest, and there is no less restrictive means of achieving the overriding interest. (NBC Subsidiary, supra, at p. 1218; see Cal. Rules of Court, rule 2.550(d).) Because the State Bar\u2019s records are not records of adjudicatory proceedings, neither the First Amendment nor the counterpart state free speech provision is implicated in the present case.\nThe CPRA itself specifies many exceptions and cross-references other statutes that exempt particular records from disclosure. (Gov. Code, \u00a7\u00a7 6254-6254.29, 6276.02-6276.48.) The CPRA also includes a catch-all exemption that permits an agency to withhold a record if it can demonstrate that \u201con the facts of the particular case the public interest served by not disclosing the record clearly outweighs the public interest served by disclosure of the record.\u201d (Gov. Code, \u00a7 6255, subd. (a).) from the CPRA. The CPRA establishes a presumptive right of access to any record created or maintained by a public agency that relates in any way to the business of the public agency, and the record must be disclosed unless a statutory exception is shown. Under the common law, on the other hand, no such presumption exists. Although the official records of government actions have historically been treated as subject to public access and are readily categorized as \u201cpublic records,\u201d for other matters or types of records a determination must be made concerning whether the records at issue should be treated as public, taking into account the public\u2019s interest in disclosure as well as the competing interests involved.",
+        "type": "majority",
+        "author": "CANTIL-SAKAUYE, C. J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Sheppard, Mullin, Richter & Hampton, James M. Chadwick, Evgenia N. Fkiaras, David E. Snyder and Guylyn R. Cummins for Plaintiff and Appellant California First Amendment Coalition.",
+      "Jane Roberta Yakowitz; Bostwick & Jassy, Gary L. Bostwick, Jean-Paul Jassy and Kevin L. Vick for Plaintiffs and Appellants Richard Sander and Joe Hicks. Davis Wright Tremaine, Mary Duffy Carolan and John Rory Eastburg for Brentwood Press and Publishing Co., California Newspapers Partnership, Calistoga Tribune, Calaveras Enterprise, Champion Newspapers, Dailey Republic, Embarcadero Media Inc., Feather Publishing Co., Inc., Freedom Communications, Inc., Los Angeles Times Communications LLC, Malibu Times Inc., Marinscope Community Newspapers, Mission Viejo News, Inc., Random Lengths News, Sacramento Valley Mirror, Santa Maria Times, The Ark Newspaper, The Bakersfield Californian, The McClatchy Company, The Mountain Enterprise, The North County Times, The Press-Enterprise, The Viking, Valleywide Newspapers, Ventura County Reporter, ALM Media, LLC, The Associated Press, Atlantic Media, Inc., Bloomberg News, Cox Media Group, Inc., Dailey News, L.P., E.W. Scripps Company, Forbes, Inc., Gannett Co., Inc., Hearst Corporation, NBC Universal Media, LLC, Reuters America LLC, Stephens Media LLC, The Newsweek Daily Beast Company LLC, The New York Times Company, The Washington Post, American Society of News Editors, Association of Alternative Newsmedia, Californians Aware, California Newspaper Publishers Association, National Freedom of Information Coalition, the National Press Photographers Association, the Radio Television Digital News Association and the Reporters Committee for Freedom of the Press as Amici Curiae on behalf of Plaintiffs and Appellants.",
+      "Law Office of Judy Alexander and Judy Alexander for Vikram Amar, Jane Roberta Yakowitz and Mark Grady as Amici Curiae on behalf of Plaintiffs and Appellants.",
+      "Sharon L. Browne, Meriem L. Hubbard and Joshua P. Thompson for Pacific Legal Foundation as Amicus Curiae on behalf of Plaintiffs and Appellants.",
+      "Center for Constitutional Jurisprudence, John Eastman, Anthony T. Caso, Karen J. Lugo and David Llewellyn for Gerald Reynolds, Todd Gaziano, Gail Heriot, Peter Kirsanow and Ashley Taylor, Jr., as Amici Curiae on behalf of Plaintiffs and Appellants.",
+      "Joshua Koltun for Doug Williams as Amicus Curiae on behalf of Plaintiffs and Appellants.",
+      "Kerr Wagstaffe, James M. Wagstaffe, Michael John Von Loewenfeldt; Starr Babcock, Lawrence C. Yee and Rachel S. Grunberg for Defendants and Respondents.",
+      "Snell & Wilmer, Mary-Christine Sungaila and Harsh P. Parikh for Multicultural Bar Alliance as Amicus Curiae on behalf of Defendants and Respondents.",
+      "Reed Smith and Dennis Peter Maio for The Bar Association of San Francisco as Amicus Curiae on behalf of Defendants and Respondents. Eva Paterson, Allison S. Elgart and Fabian Renteria for Equal Justice Society as Amicus Curiae on behalf of Defendants and Respondents.",
+      "Perkins Coie, Vilma R. Palma-Solana, Sunita Bali; Lim, Ruger Kim, Bruce Iwasaki and Norma Nava for People of Color, Inc., as Amicus Curiae on behalf of Defendants and Respondents.",
+      "Bingham McCutchen, William F. Abrams, Patrick T. Weston and Audrey Lo for Dwight Aarons, George Acero, Daniel James Alexander II, Charlene Bellinger Honig, Nikki Brown, Peter L. Carr IV, Claudia J. Castillo, Eugene Clark-Herrera, Francisco Cortes, Kendra Fox Davis, Lisa Gilford, Marc-Tizoc Gonzalez, Rebecca Hall, Sara Jackson, Rasheda Kilpatrick, Parissh A. Knox, Andrea Luquetta, X\u00f3chitl Marquez, Letitia D. Moore, Shirin Soleman, Angela Crystelle Thomas-Taylor, Anthony J. Tolbert, Erika K. Woods and Doe 1 as Amici Curiae on behalf of Defendants and Respondents."
+    ],
+    "corrections": "",
+    "head_matter": "[No. S194951.\nDec. 19, 2013.]\nRICHARD SANDER et al., Plaintiffs and Appellants, v. STATE BAR OF CALIFORNIA et al., Defendants and Respondents.\nCounsel\nSheppard, Mullin, Richter & Hampton, James M. Chadwick, Evgenia N. Fkiaras, David E. Snyder and Guylyn R. Cummins for Plaintiff and Appellant California First Amendment Coalition.\nJane Roberta Yakowitz; Bostwick & Jassy, Gary L. Bostwick, Jean-Paul Jassy and Kevin L. Vick for Plaintiffs and Appellants Richard Sander and Joe Hicks. Davis Wright Tremaine, Mary Duffy Carolan and John Rory Eastburg for Brentwood Press and Publishing Co., California Newspapers Partnership, Calistoga Tribune, Calaveras Enterprise, Champion Newspapers, Dailey Republic, Embarcadero Media Inc., Feather Publishing Co., Inc., Freedom Communications, Inc., Los Angeles Times Communications LLC, Malibu Times Inc., Marinscope Community Newspapers, Mission Viejo News, Inc., Random Lengths News, Sacramento Valley Mirror, Santa Maria Times, The Ark Newspaper, The Bakersfield Californian, The McClatchy Company, The Mountain Enterprise, The North County Times, The Press-Enterprise, The Viking, Valleywide Newspapers, Ventura County Reporter, ALM Media, LLC, The Associated Press, Atlantic Media, Inc., Bloomberg News, Cox Media Group, Inc., Dailey News, L.P., E.W. Scripps Company, Forbes, Inc., Gannett Co., Inc., Hearst Corporation, NBC Universal Media, LLC, Reuters America LLC, Stephens Media LLC, The Newsweek Daily Beast Company LLC, The New York Times Company, The Washington Post, American Society of News Editors, Association of Alternative Newsmedia, Californians Aware, California Newspaper Publishers Association, National Freedom of Information Coalition, the National Press Photographers Association, the Radio Television Digital News Association and the Reporters Committee for Freedom of the Press as Amici Curiae on behalf of Plaintiffs and Appellants.\nLaw Office of Judy Alexander and Judy Alexander for Vikram Amar, Jane Roberta Yakowitz and Mark Grady as Amici Curiae on behalf of Plaintiffs and Appellants.\nSharon L. Browne, Meriem L. Hubbard and Joshua P. Thompson for Pacific Legal Foundation as Amicus Curiae on behalf of Plaintiffs and Appellants.\nCenter for Constitutional Jurisprudence, John Eastman, Anthony T. Caso, Karen J. Lugo and David Llewellyn for Gerald Reynolds, Todd Gaziano, Gail Heriot, Peter Kirsanow and Ashley Taylor, Jr., as Amici Curiae on behalf of Plaintiffs and Appellants.\nJoshua Koltun for Doug Williams as Amicus Curiae on behalf of Plaintiffs and Appellants.\nKerr Wagstaffe, James M. Wagstaffe, Michael John Von Loewenfeldt; Starr Babcock, Lawrence C. Yee and Rachel S. Grunberg for Defendants and Respondents.\nSnell & Wilmer, Mary-Christine Sungaila and Harsh P. Parikh for Multicultural Bar Alliance as Amicus Curiae on behalf of Defendants and Respondents.\nReed Smith and Dennis Peter Maio for The Bar Association of San Francisco as Amicus Curiae on behalf of Defendants and Respondents. Eva Paterson, Allison S. Elgart and Fabian Renteria for Equal Justice Society as Amicus Curiae on behalf of Defendants and Respondents.\nPerkins Coie, Vilma R. Palma-Solana, Sunita Bali; Lim, Ruger Kim, Bruce Iwasaki and Norma Nava for People of Color, Inc., as Amicus Curiae on behalf of Defendants and Respondents.\nBingham McCutchen, William F. Abrams, Patrick T. Weston and Audrey Lo for Dwight Aarons, George Acero, Daniel James Alexander II, Charlene Bellinger Honig, Nikki Brown, Peter L. Carr IV, Claudia J. Castillo, Eugene Clark-Herrera, Francisco Cortes, Kendra Fox Davis, Lisa Gilford, Marc-Tizoc Gonzalez, Rebecca Hall, Sara Jackson, Rasheda Kilpatrick, Parissh A. Knox, Andrea Luquetta, X\u00f3chitl Marquez, Letitia D. Moore, Shirin Soleman, Angela Crystelle Thomas-Taylor, Anthony J. Tolbert, Erika K. Woods and Doe 1 as Amici Curiae on behalf of Defendants and Respondents."
+  },
+  "file_name": "0300-01",
+  "first_page_order": 338,
+  "last_page_order": 366
+}

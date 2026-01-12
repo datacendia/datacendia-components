@@ -1,0 +1,59 @@
+{
+  "id": 12248411,
+  "name": "Hampton v. United States",
+  "name_abbreviation": "Hampton v. United States",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-8270",
+  "first_page": "1223",
+  "last_page": "1223",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1223"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.663,
+    "sha256": "9b29609a1d3a06a264fb1912273c33892a12c13ecb3f8510fbb39ce42ead3041",
+    "simhash": "1:e6aad303ae1fd85c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hampton v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8270.\nHampton v. United States."
+  },
+  "file_name": "1223-12",
+  "first_page_order": 1305,
+  "last_page_order": 1305
+}

@@ -1,0 +1,59 @@
+{
+  "id": 6027079,
+  "name": "Douglas v. United States",
+  "name_abbreviation": "Douglas v. United States",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-7886",
+  "first_page": "1190",
+  "last_page": "1190",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1190"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.614,
+    "sha256": "4d41747b21f80e3c9482b113f0054e81b72eda45e689b4042e324cac45db1884",
+    "simhash": "1:b56bca930a1d1508",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Douglas v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7886.\nDouglas v. United States."
+  },
+  "file_name": "1190-07",
+  "first_page_order": 1212,
+  "last_page_order": 1212
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12416644,
+  "name": "Pierce v. North Carolina",
+  "name_abbreviation": "Pierce v. North Carolina",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5732",
+  "first_page": "922",
+  "last_page": "922",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 922"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.66,
+    "sha256": "5960f81c70eab472979413f3d8105d29f2aaf0c9e47ebb25453e9ec8ce8397c1",
+    "simhash": "1:f1bb4c6c6b233f3a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pierce v. North Carolina."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. N. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5732.\nPierce v. North Carolina."
+  },
+  "file_name": "0922-10",
+  "first_page_order": 998,
+  "last_page_order": 998
+}

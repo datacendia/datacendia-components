@@ -1,0 +1,59 @@
+{
+  "id": 12420958,
+  "name": "Vann v. Gilbert et al.",
+  "name_abbreviation": "Vann v. Gilbert",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-6256",
+  "first_page": "988",
+  "last_page": "988",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 988"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 71,
+    "ocr_confidence": 0.676,
+    "sha256": "dd130762557b9fc6d0b6a9d4f55fa8c4e7c4e74de2c79f448ce521d181927a8d",
+    "simhash": "1:986e8deb990bffbe",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Vann v. Gilbert et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6256.\nVann v. Gilbert et al."
+  },
+  "file_name": "0988-10",
+  "first_page_order": 1064,
+  "last_page_order": 1064
+}

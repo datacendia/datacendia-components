@@ -1,0 +1,88 @@
+{
+  "id": 12413127,
+  "name": "Lozman v. City of Riviera Beach, Florida",
+  "name_abbreviation": "Lozman v. City of Riviera Beach",
+  "decision_date": "2012-08-14",
+  "docket_number": "No. 11-626",
+  "first_page": "962",
+  "last_page": "962",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 962"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "565 U. S. 1195",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12245509,
+        12245510,
+        12245479,
+        12245512,
+        12245515,
+        12245483,
+        12245488,
+        12245494,
+        12245501
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/565/1195-06",
+        "/us/565/1195-07",
+        "/us/565/1195-01",
+        "/us/565/1195-08",
+        "/us/565/1195-09",
+        "/us/565/1195-02",
+        "/us/565/1195-03",
+        "/us/565/1195-04",
+        "/us/565/1195-05"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 92,
+    "char_count": 769,
+    "ocr_confidence": 0.65,
+    "sha256": "cb1adbe6b87afacc473d58f45b236629eb79e25da78df56690031a5c6c875dd6",
+    "simhash": "1:941d4071901354e5",
+    "word_count": 126
+  },
+  "last_updated": "2024-02-27T23:46:21.325002+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lozman v. City of Riviera Beach, Florida."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. [Certiorari granted, 565 U. S. 1195.] Parties are directed, and the Solicitor General is invited, to file letter briefs addressing the following question: \u201cThe res in this putative in rem. admiralty proceeding was sold at a judicial auction in execution of the District Court\u2019s judgment on a maritime lien and a maritime trespass claim, App. to Brief for Petitioner 9a-10a, and subsequently destroyed, Brief for Petitioner 10-11. Does either the judicial auction or the subsequent destruction of the res render this case moot?\u201d Briefs, limited to 10 pages, are to be filed simultaneously with the Clerk and served upon opposing counsel on or before 2 p.m., Tuesday, August 28, 2012.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "August 14, 2012\nNo. 11-626.\nLozman v. City of Riviera Beach, Florida."
+  },
+  "file_name": "0962-01",
+  "first_page_order": 866,
+  "last_page_order": 866
+}

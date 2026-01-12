@@ -1,0 +1,59 @@
+{
+  "id": 12247915,
+  "name": "Laboy-Vega v. United States",
+  "name_abbreviation": "Laboy-Vega v. United States",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-8088",
+  "first_page": "1219",
+  "last_page": "1219",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1219"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.696,
+    "sha256": "0e5984de81f236595427dfcf0b8e82cd983cfdacb6cba939b4d8134351d570a8",
+    "simhash": "1:051adfc24e99183e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Laboy-Vega v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8088.\nLaboy-Vega v. United States."
+  },
+  "file_name": "1219-12",
+  "first_page_order": 1301,
+  "last_page_order": 1301
+}

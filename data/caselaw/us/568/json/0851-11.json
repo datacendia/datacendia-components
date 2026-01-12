@@ -1,0 +1,59 @@
+{
+  "id": 12413496,
+  "name": "Simms v. Virginia",
+  "name_abbreviation": "Simms v. Virginia",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10606",
+  "first_page": "851",
+  "last_page": "851",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 851"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 65,
+    "ocr_confidence": 0.586,
+    "sha256": "83b45d5cb6390934b4fe442b834e168bea485abcb4ff1e40946586edc77cbe51",
+    "simhash": "1:aacf20213e8c6dcb",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Simms v. Virginia."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Va. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10606.\nSimms v. Virginia."
+  },
+  "file_name": "0851-11",
+  "first_page_order": 927,
+  "last_page_order": 927
+}

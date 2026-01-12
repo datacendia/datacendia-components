@@ -1,0 +1,754 @@
+{
+  "id": 12520257,
+  "name": "UNITED STATES of America, Plaintiff-Appellant, v. Reginald ELMORE, aka Fat Reg; Esau Ferdinand, aka Sauce, Defendants, Barry Gilton, aka Prell; Adrian Gordon, aka Tit; Monzell Harding, Jr.; Charles Heard, aka Cheese; Lupe Mercado; Paul Robeson, aka P World ; Alfonzo Williams, aka Fonz, aka Relly; Jaquain Young, aka Loc, Defendants, and Antonio Gilton, aka TG, aka Tone, Defendant-Appellee.",
+  "name_abbreviation": "United States v. Elmore",
+  "decision_date": "2019-03-04",
+  "docket_number": "No. 16-10109",
+  "first_page": "1068",
+  "last_page": "1081",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "917 F.3d 1068"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "9th Cir.",
+    "id": 18869,
+    "name": "United States Court of Appeals for the Ninth"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "480 U.S. 340",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1131469
+      ],
+      "weight": 3,
+      "year": 1987,
+      "pin_cites": [
+        {
+          "parenthetical": "upholding the good faith exception where officers reasonably relied on a statute"
+        },
+        {
+          "parenthetical": "upholding the good faith exception where officers reasonably relied on a statute"
+        },
+        {
+          "parenthetical": "upholding the good faith exception where officers reasonably relied on a statute"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/480/0340-01"
+      ]
+    },
+    {
+      "cite": "131 S.Ct. 2419",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12450488,
+        5928256
+      ],
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "parenthetical": "upholding the good faith exception where officers reasonably relied on binding appellate precedent"
+        },
+        {
+          "parenthetical": "upholding the good faith exception where officers reasonably relied on binding appellate precedent"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/180/0285-01",
+        "/us/564/0229-01"
+      ]
+    },
+    {
+      "cite": "564 U.S. 229",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5928256,
+        12450488
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "parenthetical": "upholding the good faith exception where officers reasonably relied on binding appellate precedent"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/564/0229-01",
+        "/l-ed-2d/180/0285-01"
+      ]
+    },
+    {
+      "cite": "724 F.3d 600",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4068030
+      ],
+      "year": 2013,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/724/0600-01"
+      ]
+    },
+    {
+      "cite": "785 F.3d 498",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4183525
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/785/0498-01"
+      ]
+    },
+    {
+      "cite": "819 F.3d 880",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4253597
+      ],
+      "year": 2016,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/819/0880-01"
+      ]
+    },
+    {
+      "cite": "824 F.3d 421",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4323087
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/824/0421-01"
+      ]
+    },
+    {
+      "cite": "902 F.3d 411",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518439
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/902/0411-01"
+      ]
+    },
+    {
+      "cite": "864 F.3d 253",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275691
+      ],
+      "year": 2017,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/864/0253-01"
+      ]
+    },
+    {
+      "cite": "201 L.Ed.2d 1093",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "year": 2018,
+      "opinion_index": 0
+    },
+    {
+      "cite": "138 S.Ct. 2706",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12614038,
+        12614039,
+        12614040,
+        12614041,
+        12614042
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/2706-01",
+        "/s-ct/138/2706-02",
+        "/s-ct/138/2706-03",
+        "/s-ct/138/2706-04",
+        "/s-ct/138/2706-05"
+      ]
+    },
+    {
+      "cite": "866 F.3d 1149",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275715
+      ],
+      "year": 2017,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/866/1149-01"
+      ]
+    },
+    {
+      "cite": "442 U.S. 319",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1531855
+      ],
+      "weight": 3,
+      "year": 1979,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/442/0319-01"
+      ]
+    },
+    {
+      "cite": "422 U.S. 531",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9640
+      ],
+      "weight": 3,
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "539"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/422/0531-01"
+      ]
+    },
+    {
+      "cite": "428 U.S. 433",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6178423
+      ],
+      "weight": 3,
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "454"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/428/0433-01"
+      ]
+    },
+    {
+      "cite": "428 U.S. 465",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6178753
+      ],
+      "weight": 6,
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "540"
+        },
+        {
+          "parenthetical": "alteration in original"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/428/0465-01"
+      ]
+    },
+    {
+      "cite": "414 U.S. 338",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11715874
+      ],
+      "weight": 7,
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "354"
+        },
+        {
+          "page": "354"
+        },
+        {
+          "page": "348"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/414/0338-01"
+      ]
+    },
+    {
+      "cite": "682 F.3d 827",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3890237
+      ],
+      "weight": 10,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "836-37",
+          "parenthetical": "stating that an association \"through family ... affiliation\" is insufficient to establish probable cause"
+        },
+        {
+          "page": "836-41"
+        },
+        {
+          "page": "828"
+        },
+        {
+          "page": "832"
+        },
+        {
+          "page": "833"
+        },
+        {
+          "page": "833-34"
+        },
+        {
+          "page": "841",
+          "parenthetical": "quotation marks and citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/682/0827-01"
+      ]
+    },
+    {
+      "cite": "658 F.3d 1174",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3836099
+      ],
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1177"
+        },
+        {
+          "page": "1177"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/658/1174-01"
+      ]
+    },
+    {
+      "cite": "425 F.3d 1248",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1550570
+      ],
+      "weight": 2,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "parenthetical": "quotation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/425/1248-01"
+      ]
+    },
+    {
+      "cite": "388 F.3d 1199",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9152797
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1254"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/388/1199-01"
+      ]
+    },
+    {
+      "cite": "462 U.S. 213",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6187462
+      ],
+      "weight": 8,
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "238"
+        },
+        {
+          "page": "239"
+        },
+        {
+          "page": "223"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/462/0213-01"
+      ]
+    },
+    {
+      "cite": "138 S.Ct. 2206",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12612910
+      ],
+      "weight": 13,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "2217"
+        },
+        {
+          "page": "2221"
+        },
+        {
+          "page": "2211"
+        },
+        {
+          "page": "2211-12"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/2206-01"
+      ]
+    },
+    {
+      "cite": "468 U.S. 897",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11340969
+      ],
+      "weight": 34,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "923"
+        },
+        {
+          "page": "915"
+        },
+        {
+          "page": "906"
+        },
+        {
+          "page": "906"
+        },
+        {
+          "page": "918"
+        },
+        {
+          "page": "905"
+        },
+        {
+          "page": "919"
+        },
+        {
+          "page": "920-21"
+        },
+        {
+          "page": "922"
+        },
+        {
+          "page": "918"
+        },
+        {
+          "page": "923"
+        },
+        {
+          "page": "914, 923"
+        },
+        {
+          "page": "921"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/468/0897-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 2703",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(d)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "620 F.3d 304",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3782488
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "317"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/620/0304-01"
+      ]
+    },
+    {
+      "cite": "425 U.S. 435",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6178379
+      ],
+      "weight": 3,
+      "year": 1976,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/425/0435-01"
+      ]
+    },
+    {
+      "cite": "442 U.S. 735",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1532082
+      ],
+      "weight": 3,
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "743-44"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/442/0735-01"
+      ]
+    },
+    {
+      "cite": "422 U.S. 590",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9639
+      ],
+      "weight": 3,
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "611"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/422/0590-01"
+      ]
+    },
+    {
+      "cite": "131 S.Ct. 2419",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12450488,
+        5928256
+      ],
+      "weight": 2,
+      "year": 2011,
+      "opinion_index": 1,
+      "case_paths": [
+        "/l-ed-2d/180/0285-01",
+        "/us/564/0229-01"
+      ]
+    },
+    {
+      "cite": "564 U.S. 229",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5928256,
+        12450488
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "232"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/564/0229-01",
+        "/l-ed-2d/180/0285-01"
+      ]
+    },
+    {
+      "cite": "682 F.3d 827",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3890237
+      ],
+      "weight": 4,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "841"
+        },
+        {
+          "page": "836-37"
+        },
+        {
+          "page": "836"
+        },
+        {
+          "page": "841"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/682/0827-01"
+      ]
+    },
+    {
+      "cite": "138 S.Ct. 2206",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12612910
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "2217, 2221"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/s-ct/138/2206-01"
+      ]
+    },
+    {
+      "cite": "468 U.S. 897",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11340969
+      ],
+      "weight": 5,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "923"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/468/0897-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1379,
+    "char_count": 38065,
+    "pagerank": {
+      "raw": 4.4793276177203605e-08,
+      "percentile": 0.2810381995243738
+    },
+    "sha256": "3405498a797b3a843794d7e7ffbe626d4b3bea9e3baa2fbd65c2561068e84b52",
+    "simhash": "1:d00972136fe5da82",
+    "word_count": 6206
+  },
+  "last_updated": "2024-02-27T18:46:27.088999+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellant,\nv.\nReginald ELMORE, aka Fat Reg; Esau Ferdinand, aka Sauce, Defendants,"
+    ],
+    "opinions": [
+      {
+        "text": "BYBEE, Circuit Judge:\nFollowing the June 2012 murder of Calvin Sneed, police obtained a warrant authorizing the seizure of Antonio Gilton's historical cell-site location information. Gilton was subsequently charged with four counts relating to the murder of Sneed. He moved to suppress the location data, arguing that the warrant issued without probable cause and that the officers' reliance on the warrant was not in good faith. The district court granted Gilton's motion, concluding that the warrant was so deficient in indicia of probable cause that no officer could have relied on the warrant in good faith.\nAlthough we agree with the district court that the warrant authorizing the seizure of Gilton's location data was not supported by probable cause, we conclude that the deficiencies were not so stark as to render the officers' reliance on the warrant \"entirely unreasonable.\" See United States v. Leon , 468 U.S. 897, 923, 104 S.Ct. 3405, 82 L.Ed.2d 677 (1984). We reverse.\nI. FACTS AND PROCEEDINGS\nA\nAt approximately 2:00 a.m. on June 4, 2012, officers of the San Francisco Police Department responded to a report of shots fired in the area of Meade and Le Conte Avenues, San Francisco. When the officers arrived, they found Calvin Sneed slumped in the driver's seat of a crashed Toyota Camry with a gunshot wound to his head. Sneed was later pronounced dead.\nStanding distraught next to the car was Sneed's minor girlfriend, L.G. She told the police that approximately eight months before the shooting, she had moved from San Francisco to Los Angeles for a \"new start,\" and that she had been staying with her \"elder brother,\" Antonio Gilton (hereinafter \"Gilton\"). In Los Angeles, L.G. met and began dating Calvin Sneed. L.G. subsequently learned that Sneed was pimping young women for prostitution in the Los Angeles area, and she began to advertise herself on various prostitution websites.\nL.G.'s friends and family eventually discovered what she was doing, and L.G.'s mother traveled to Los Angeles on May 31, 2012, to persuade L.G. to return to San Francisco. L.G. did not return with her mother. Three days later, however, L.G. and Sneed traveled together to San Francisco, where Sneed dropped L.G. off at her parents' house around 4:00 p.m.\nL.G. stayed with her parents until approximately 12:15 a.m. on June 4, 2012, when she texted Sneed to come and pick her up. L.G. began to argue with her mother about returning to Los Angeles with Sneed, but her father merely told her \"you grown\" and instructed her \"before you leave, turn the lights off\" before he exited the room.\nAround 1:56 a.m., L.G. was waiting for Sneed outside her parents' home and noticed a silver SUV parked nearby with its lights on. As Sneed's car arrived, the silver SUV drove off, but as Sneed drove past where L.G. was standing and turned the corner, L.G. saw the SUV reappear and accelerate towards Sneed's vehicle. L.G. heard gunshots and saw a muzzle flash coming from the SUV. L.G. then heard a crash and ran to Sneed's car, where she found him \"slumped in the driver's seat with a gunshot wound to his head.\" L.G. cooperated with police and allowed them to search her cell phone. During the search, the police identified and L.G. confirmed cell phone numbers for her father, her mother, Gilton, and L.G.'s younger brother.\nLater that day, the police received confidential information implicating L.G.'s father, Barry Gilton, and a second, unidentified individual in the murder. As a result, the police obtained historical cell-site location information (\"CSLI\") data for Barry Gilton's phone pursuant to an exigent circumstances request to T-Mobile. Although Barry Gilton told police that he had been at home in bed after 12:15 a.m. on the night of the murder, the CSLI data indicated that between 12:49 a.m. and 2:19 a.m. that night, Barry Gilton's cell phone traveled from near his home to the Western Addition. The cell phone then returned to the vicinity of the Gilton home around the time of the murder before traveling towards the northern area of the Mission after the shooting. The police also obtained video surveillance from a camera near the site of the murder that showed a light colored mid-size SUV believed to be the vehicle used in the shooting.\nBased on all the information set forth above, San Francisco Police Department (SFPD) Sergeant Gary Watts submitted a fourteen-page affidavit in support of a state search warrant. The application sought CSLI data for two cell phone numbers, a phone associated with an unknown individual and the phone associated with Gilton. Sergeant Watts laid out in some detail what the police knew about the crime, Sneed's relationship with L.G., and information learned from the confidential informant. He related how L.G. was related to Gilton, that she had been staying with Gilton in Los Angeles (where she met Sneed and began engaging in prostitution), that Gilton's phone number was in her cell phone, and that the murder was likely committed by a family member or members. Watts averred that \"there appear[ed] to be probable cause to believe that the cell phone numbers provided [would] tend to show ... possible first-hand knowledge of those persons responsible for the shooting of ... Calvin Sneed\" and that \"the cell-site tower locations used on the date and times listed could possibly lead to the proper identity and the whereabouts of additional persons associated with this crime.\" Watts also stated that he had \"discussed the merits of the case with the District Attorney's Office.\"\nThat same day, June 6, 2012, a judge of the Superior Court of California, County of San Francisco issued a warrant to Sprint for the seizure of cell phone records for Gilton's phone number. The warrant identified three categories of information for seizure: (1) subscriber and billing information; (2) all incoming and outgoing calls and text messages from the period of May 1, 2012, to June 6, 2012; and (3) cell-site location information (CSLI). Only the third category-the CSLI data-is at issue in this appeal.\nB\nGilton was indicted by a federal grand jury in 2013, on four counts related to Sneed's murder. In 2015, Gilton filed a motion to suppress the CSLI obtained by the San Francisco police pursuant to the Sprint warrant. The district court granted Gilton's motion to suppress. The court concluded first that Gilton had a reasonable expectation of privacy in the historical CSLI he sought to suppress. Accordingly, the court determined that probable cause was required to obtain that CSLI from Sprint. The court concluded, however, that \"[t]he affidavit in support of the Sprint warrant plainly failed to provide a substantial basis for concluding that there was probable cause to search\" because the affidavit \"hardly mention[ed] Gilton\" and did not provide a substantial basis for inferring that Gilton was in the San Francisco area at the time of the shooting. Even assuming that the warrant supported an inference of a \"family-based attack,\" the district court concluded that the \"facts pointed to one particular family member being involved: [Barry] Gilton, not [Antonio] Gilton.\" Finally, the district court concluded that the \"good faith\" exception did not apply because \"it was entirely unreasonable to believe that the affidavit's passing, innocuous references to A. Gilton established probable cause to obtain his cell phone data.\"\nThe government appealed the district court's order granting the motion to suppress. We originally heard argument in March 2017, but then withdrew the case from submission pending the final decision of the Supreme Court in Carpenter v. United States , --- U.S. ----, 138 S.Ct. 2206, 201 L.Ed.2d 507 (2018). Following the Court's resolution of Carpenter , we requested supplemental briefing and heard reargument in January 2019. We agree with the district court that the police lacked probable cause to obtain Gilton's CSLI data, but we disagree with the district court's conclusion that the good faith exception does not apply. Accordingly, we reverse.\nII. ANALYSIS\nIn Carpenter , the Supreme Court held that \"an individual maintains a legitimate expectation of privacy in the record of his physical movements as captured through CSLI.\" 138 S.Ct. at 2217. Consequently, Fourth Amendment protections generally require the government to \"obtain a warrant supported by probable cause before acquiring [CSLI] records.\" Id. at 2221.\nHere, the government did in fact obtain a warrant authorizing the acquisition of Gilton's CSLI data. Our analysis is thus confined to the questions of whether that warrant was supported by probable cause, and, if not, whether the search should nevertheless be upheld on the basis of the officers' good faith reliance on the warrant.\nA\nWe turn first to the issue of whether the Sprint warrant was supported by probable cause. Probable cause exists where the totality of the circumstances indicates a \"fair probability that ... evidence of a crime will be found in a particular place.\" Illinois v. Gates , 462 U.S. 213, 238, 103 S.Ct. 2317, 76 L.Ed.2d 527 (1983). This standard does not require the affidavit to establish that the evidence is in fact in the place to be searched, or even that it is more likely than not to be there. United States v. Fernandez , 388 F.3d 1199, 1254 (9th Cir. 2004), modified 425 F.3d 1248 (9th Cir. 2005). Rather, the issuing judge \"need only conclude that it would be reasonable to seek the evidence in the place indicated in the affidavit.\" Id. (quotation omitted).\nIn general, the issuing judge's finding of probable cause is entitled to \"great deference.\" United States v. Krupa , 658 F.3d 1174, 1177 (9th Cir. 2011). \"[N]otwithstanding the deference that magistrates deserve,\" however, we may determine that a warrant was invalid where \"the magistrate's probable-cause determination reflected an improper analysis of the totality of the circumstances.\" Leon , 468 U.S. at 915, 104 S.Ct. 3405. In addition, the decision of the magistrate \"cannot be a mere ratification of the bare conclusions of others.\" Gates , 462 U.S. at 239, 103 S.Ct. 2317.\nHere, police sought a warrant to obtain subscriber and billing information, incoming and outgoing calls, incoming and outgoing texts, and CSLI information for phones belonging to Gilton and a second, unidentified person. The application was supported by a lengthy affidavit describing the results of interviews, video surveillance, and an exigent circumstances request to T-Mobile. The affidavit thus provided the magistrate with a basis for determining the existence of probable cause, see id. , and the magistrate's finding of probable cause is appropriately entitled to deference, see Krupa , 658 F.3d at 1177.\nAlthough the affidavit explained in some detail the need for the information from the unidentified person's phone, the affidavit mentions Gilton only three times. First, the affidavit records L.G.'s testimony that she \"was staying with her elder brother in L.A.\" Second, the affidavit indicates that one of the phone numbers discovered in L.G.'s phone belonged to Gilton. Third, the affidavit states that L.G. identified which number belonged to Gilton. As the district court pointed out, the affidavit does not indicate that police had reason to believe that Gilton \"was ... in or around San Francisco on or around June 4, 2012.\"\nThe affidavit's scant and innocuous references to Gilton do not establish a \"fair probability\" that evidence of the crime would be found in Gilton's location data. Rather, these facts merely indicate that L.G. had the phone number of a family member with whom she had lived in Los Angeles. Surely, it is common for an adolescent to store the phone number of the relative with whom she is living, and the mere existence of a familial connection between L.G. and Gilton is not sufficient to render it \"reasonable\" to search for evidence of the crime in Gilton's location data. See United States v. Grant , 682 F.3d 827, 836-37 (9th Cir. 2012) (stating that an association \"through family ... affiliation\" is insufficient to establish probable cause).\nThe government depends on two related inferences to support the finding of probable cause. First, the government contends that the totality of the circumstances supports an inference that \"[t]he murder of Calvin Sneed was a family solution to a family problem.\" Second, because Gilton is related to L.G. and because L.G. met Sneed while living with Gilton, the government asserts that the magistrate could reasonably infer that Gilton was well aware of Sneed's relationship with L.G., that Gilton had reason to be upset with Sneed, and that he had a motive to commit the crime. The government argues that these two inferences tie Gilton to the murder. We disagree.\nFirst, we agree with the district court that the affidavit \"pointed to one particular family member being involved in the attack: B. Gilton, not A. Gilton.\" Although the affidavit indicated that more than one person was likely involved in the shooting and that the second person might have been a family member, nothing in the affidavit suggested that the identity of the second person was Gilton. Nor do we agree with the government's contention that a magistrate could reasonably believe that Gilton was the accomplice because of his supposed motive. As the district court pointed out, there is no evidence in the affidavit that Gilton \"had communicated with family members (or anyone else) about [L.G.'s] relationship with Sneed,\" although that surely was one of the reasons police wanted Gilton's call and text records. There is thus no basis in the affidavit to support the inference that Gilton was upset with Sneed, that he had motive to commit the crime, and, importantly, that he was in the San Francisco area on the night of the murder. We conclude, as did the district court, that the affidavit's passing references to Gilton are insufficient to support a reasonable inference that evidence of a crime would be found in his CSLI data.\nB\nHaving determined that the warrant was not supported by probable cause, we turn now to the question of whether the officers nevertheless relied in good faith on the warrant they obtained. The Supreme Court has made quite clear that \"[t]he Fourth Amendment contains no provision expressly precluding the use of evidence obtained in violation of its commands.\" Leon , 468 U.S. at 906, 104 S.Ct. 3405. Because \"[t]he wrong condemned by the Amendment is 'fully accomplished' by the unlawful search or seizure itself, ... the exclusionary rule is neither intended nor able to 'cure the invasion of the defendant's rights which he has already suffered.' \" Id. (first quoting United States v. Calandra , 414 U.S. 338, 354, 94 S.Ct. 613, 38 L.Ed.2d 561 (1974) ; then quoting Stone v. Powell , 428 U.S. 465, 540, 96 S.Ct. 3037, 49 L.Ed.2d 1067 (1976) ). As a result, \"the use of fruits of a past unlawful search or seizure 'work[s] no new Fourth Amendment wrong.' \" Id. (alteration in original)\n(quoting Calandra , 414 U.S. at 354, 94 S.Ct. 613 ).\nThe exclusionary rule is thus not \"a personal constitutional right of the party aggrieved,\" but rather \"a judicially created remedy designed to safeguard Fourth Amendment rights generally through its deterrent effect.\" Calandra , 414 U.S. at 348, 94 S.Ct. 613. As such, the question of \"[w]hether the exclusionary sanction is appropriately imposed in a particular case\" is an entirely separate issue \"from the question whether the Fourth Amendment rights of the party seeking to invoke the rule were violated by police conduct.\" Leon , 468 U.S. at 906, 104 S.Ct. 3405 (quoting Gates , 462 U.S. at 223, 103 S.Ct. 2317 ). Thus, having determined that the SFPD's search of Gilton's CSLI data violated his Fourth Amendment rights, we must address separately the question of whether exclusion is an appropriate remedy.\nThe question of application of the exclusionary rule is answered by weighing \"[t]he substantial social costs exacted by the exclusionary rule\" with the benefit of increased deterrence of police misconduct. Id. at 906-07, 104 S.Ct. 3405. \"If ... the exclusionary rule does not result in appreciable deterrence\" of police misconduct, \"then, clearly, its use in the instant situation is unwarranted.\" United States v. Janis , 428 U.S. 433, 454, 96 S.Ct. 3021, 49 L.Ed.2d 1046 (1976). To have any appreciable deterrent benefit, the exclusion of evidence \"must alter the behavior of individual law enforcement officers or the policies of their departments.\" Leon , 468 U.S. at 918, 104 S.Ct. 3405.\nIn Leon , the Supreme Court took up the issue of whether the exclusionary rule should be applied in cases where the police seized evidence \"in reasonable, good-faith reliance on a search warrant that is subsequently held to be defective.\" Id. at 905, 104 S.Ct. 3405. The Court reasoned that \"[t]he deterrent purpose of the exclusionary rule necessarily assumes that the police have engaged in willful, or at the very least negligent, conduct which has deprived the defendant of some right,\" and that \"[w]here the official action was pursued in complete good faith ... the deterrence rationale loses much of its force.\" Id. at 919, 104 S.Ct. 3405 (quoting United States v. Peltier , 422 U.S. 531, 539, 95 S.Ct. 2313, 45 L.Ed.2d 374 (1975) ). In such cases, \"excluding the evidence will not further the ends of the exclusionary rule in any appreciable way.\" Id. at 920, 104 S.Ct. 3405 (quoting Stone , 428 U.S. at 539-40, 96 S.Ct. 3037 ).\nThe Court emphasized that \"[t]his is particularly true ... when an officer acting with objective good faith has obtained a search warrant from a judge or magistrate and acted within its scope.\" Id. Because \"[i]t is the magistrate's responsibility to determine whether the officer's allegations establish probable cause[,] ... [i]n the ordinary case, an officer cannot be expected to question the magistrate's probable cause determination.\" Id. at 921, 104 S.Ct. 3405. As a result, \"[i]n most such cases, there is no police illegality\" and \"[p]enalizing the officer for the magistrate's error, rather than his own, cannot logically contribute to the deterrence of Fourth Amendment violations.\" Id. at 920-21, 104 S.Ct. 3405. The Court concluded that \"the marginal or nonexistent benefits produced by suppressing evidence obtained in objectively reasonable reliance on a subsequently invalidated search warrant cannot justify the substantial costs of exclusion.\" Id. at 922, 104 S.Ct. 3405.\nThe existence of a search warrant does not automatically preclude application of the exclusionary rule, however. Rather, the Court instructed that we should conduct our analysis \"on a case-by-case basis,\"\nid. at 918, 104 S.Ct. 3405, and recognized four exceptions to the exception where suppression \"remains an appropriate remedy,\" id. at 923, 104 S.Ct. 3405. First, in cases where \"the magistrate or judge ... was misled by information in an affidavit that the affiant knew was false or would have known was false except for his reckless disregard of the truth.\" Id. Second, \"in cases where the issuing magistrate wholly abandoned his judicial role\" by acting as \"an adjunct law enforcement officer\" or mere \"rubber stamp\" for the police. Id. at 914, 923, 104 S.Ct. 3405 (citing Lo-Ji Sales, Inc. v. New York , 442 U.S. 319, 99 S.Ct. 2319, 60 L.Ed.2d 920 (1979) ). Third, in cases where \"an affidavit [is] so lacking in indicia of probable cause as to render official belief in its existence entirely unreasonable.\" Id. at 923, 104 S.Ct. 3405 (citation omitted). Finally, in cases where the warrant is \"so facially deficient-i.e., in failing to particularize the place to be searched or the things to be seized-that the executing officers cannot reasonably presume it to be valid.\" Id.\nHere, the parties do not urge and the evidence does not support a conclusion that the officers wilfully mislead the magistrate, that the magistrate wholly abdicated his role as a neutral and detached judicial officer, or that the warrant was facially deficient. Thus, the sole question before us is whether Officer Watts's affidavit was \"so lacking in indicia of probable cause\" that no reasonable officer would believe that probable cause existed to search Gilton's CSLI data. We conclude that the deficiencies in probable cause discussed in subpart II.A., supra , are not so stark as to render official belief in the existence of probable cause \"entirely unreasonable.\"\nFirst, we observe that the application for the warrant was issued only two days after the murder. Second, the affidavit in support of the application was lengthy and laid out for the magistrate what the police knew about the murder and how they had obtained the information they had, including the results of interviews with family members and witnesses, video surveillance from a camera on a house near the murder scene, information received from an anonymous caller who may have had first-hand facts, and cell phone information obtained on an emergency basis from the T-Mobile Law Enforcement Center. Third, the police suspected that both L.G.'s father, Barry Gilton, and a female family member had been involved in instigating Sneed's murder. The police also had reason to believe Barry Gilton and at least one other person were in the car when the shooting occurred. Fourth, the affidavit indicated that police had discussed the case with the District Attorney's office.\nFor the reasons we have previously explained, all of these facts did not add up to probable cause to obtain Gilton's CSLI data. The police likely had probable cause to obtain the other information they sought from Gilton's cellphone-his incoming and outgoing calls and texts-because L.G. had been living with Gilton in Los Angeles when she was dating Sneed, and Gilton may well have been in contact with L.G.'s family in San Francisco about Sneed. Gilton does not challenge the scope of the warrant with respect to his calls and texts, only his CSLI information. What the affidavit is missing is an explanation for why police thought Gilton's CSLI information was relevant, since there was no suggestion-other than the cryptic information that multiple family members were likely involved and that there was a second person in the car, who might or might not have been a family member-that Gilton was in San Francisco rather than home in Los Angeles. But we cannot say that no reasonable officer would have relied on the warrant obtained from the Superior Court just two days into their investigation.\nGilton points primarily to our holding in Grant to support his contention that the affidavit was so lacking in indicia of probable cause that no reasonable officer would depend on the warrant. See 682 F.3d at 836-41. In Grant , the police obtained a warrant to search Grant's home nine months after the homicide. Id. at 828. They had \"no evidence suggesting that Grant was involved.\" Id. at 832. Rather, the police suspected Grant's two sons. Police had no evidence that one of the boys had visited his father after the homicide, id. at 833, and only scant evidence that the second son had visited his father some six months after the murder (and two months prior to the search), id. at 833-34. There was no evidence that the murder weapon was in Grant's home. Id. In fact, the police found nothing in Grant's home related to the murder, but charged him with being a felon in possession of other firearms. Id. We concluded that there was no \"plausible connection between Grant's house and any evidence of the murder\" and determined that \"the magistrate so obviously erred in approving the warrant that the officers executing it could not have relied on it in good faith.\" Id. at 841 (quotation marks and citation omitted). Gilton argues that as in Grant , the affidavit's sparse references to him rendered the magistrate's error \"so obvious[ ]\" that the officers executing the warrant \"could not have relied on it in good faith.\" See id.\nGrant is distinguishable from this case. Here, Gilton was more closely connected to the suspected crime than the father in Grant . The affidavit here indicated that Gilton had contact with L.G. up until the day preceding the murder. The police suspected that the murder was family related, stemming from Sneed's promoting the prostitution of the under-aged L.G., and coordinated by at least two family members. Thus, rather than appearing as a last-ditch, needle-in-the-haystack effort-as the search in Grant did-the conclusion that Gilton might have been involved in the events leading to Sneed's murder was not at all far-fetched. To hold that the police could not have relied in good faith on the magistrate's determination here would be to \"[p]enaliz[e] the officer for the magistrate's error, rather than his own,\" and thus \"cannot logically contribute to the deterrence of Fourth Amendment violations.\" See Leon , 468 U.S. at 921, 104 S.Ct. 3405.\nThis is particularly true in light of the fact that in 2012, no circuit court had yet held the Fourth Amendment applicable to CSLI data. See United States v. Thompson , 866 F.3d 1149 (10th Cir. 2017), vacated --- U.S. ----, 138 S.Ct. 2706, 201 L.Ed.2d 1093 (2018) ; United States v. Stimler , 864 F.3d 253 (3d Cir. 2017), vacated in part by United States v. Goldstein , 902 F.3d 411 (3d Cir. 2018) ; United States v. Graham , 824 F.3d 421 (4th Cir. 2016) (en banc), abrogated by Carpenter, 138 S.Ct. 2206 (2018) ; United States v. Carpenter , 819 F.3d 880 (6th Cir. 2016), rev'd --- U.S. ----, 138 S.Ct. 2206, 201 L.Ed.2d 507 (2018) ; United States v. Davis , 785 F.3d 498 (11th Cir. 2015) (en banc), abrogated by Carpenter , 138 S.Ct. 2206 (2018) ; In re Application of U.S. for Historical Cell Site Data , 724 F.3d 600 (5th Cir. 2013), abrogated by Carpenter , 138 S.Ct. 2206 (2018). In light of the prevailing belief in 2012 that CSLI data was not protected by the Fourth Amendment, we conclude that there was no \"willful\" or \"grossly negligent\" error here where the officers nevertheless took the precautionary step of seeking a warrant and provided ample factual background by which the magistrate could reach his own determination of the existence of probable cause. Although we conclude that the magistrate's determination was erroneous, we hold that the police here were not required to second-guess the determination of a neutral and detached magistrate. As such, we conclude that application of the exclusionary rule to Gilton's CSLI data would have no \"appreciable deterrent\" effect and is thus unwarranted.\nIII. CONCLUSION\nWe REVERSE the district court's order granting Gilton's motion to suppress.\nOn appeal, Antonio Gilton informs us that he is actually L.G.'s cousin, not her older brother. All parties agree, however, that L.G. was referring to Antonio Gilton when she mentioned her \"elder brother.\"\nCell sites usually consist of a set of radio antennas mounted on a tower, although \"they can also be found on light posts, flagpoles, church steeples, or the sides of buildings.\" Carpenter v. United States , --- U.S. ----, 138 S.Ct. 2206, 2211, 201 L.Ed.2d 507 (2018). \"Each time [a] phone connects to a cell site, it generates a time-stamped record known as cell-site location information (CSLI).\" Id. This CSLI data indicates the general geographic area in which the cell phone user was located when his or her phone connected to the network. Because most smartphones tap into the wireless network \"several times a minute whenever their signal is on ... modern cell phones generate increasingly vast amounts of increasingly precise CSLI.\" Id. at 2211-12.\nHaving concluded that application of the good faith exception is warranted under Leon , we do not reach the government's arguments that the good faith exception is also warranted on the basis of Davis v. United States , 564 U.S. 229, 131 S.Ct. 2419, 180 L.Ed.2d 285 (2011) (upholding the good faith exception where officers reasonably relied on binding appellate precedent) or Illinois v. Krull , 480 U.S. 340, 107 S.Ct. 1160, 94 L.Ed.2d 364 (1987) (upholding the good faith exception where officers reasonably relied on a statute).",
+        "type": "majority",
+        "author": "BYBEE, Circuit Judge:"
+      },
+      {
+        "text": "MCKEOWN, J., dissenting\nI respectfully dissent. The warrant affidavit for Antonio Gilton's cell-site location information (\"CSLI\") so thoroughly lacked probable cause that it was objectively unreasonable for the officer to have relied on it. The affidavit's only statement vaguely implicating Antonio was a suggestion that a Gilton family member may have been involved in the murder. As any reasonable officer should have known, \"none of the facts in the affidavit, singly or en masse, provide a reasonable basis from which to infer that\" Gilton's CSLI connected him to the murder. United States v. Grant , 682 F.3d 827, 841 (9th Cir. 2012). Weak inferences from vague facts do not amount to probable cause as to specific individuals. These are precisely the circumstances where the good faith exception cannot save a defective warrant. Thus, I would affirm the district court's order granting Gilton's motion to suppress.\nI join the majority's analysis in Part II.A with respect to the absence of probable cause. As the majority and district court concluded, \"the [warrant] affidavit's passing references to Gilton are insufficient to support a reasonable inference that evidence of a crime would be found in his CSLI data.\" Maj. Op. at 1075. Taking a closer look at the warrant reveals why the good faith exception does not apply.\nThe warrant was issued as part of the San Francisco Police Department's investigation of the murder of Calvin Sneed. Sneed was shot and killed in San Francisco. His minor girlfriend, L.G., who was waiting at her parents' house for Sneed to pick her up, was found standing next to his car after the attack. L.G.'s mother had recently gone to Los Angeles to persuade her to move home because Sneed was pimping L.G. and other girls. In Los Angeles, L.G. lived with Antonio, whom she referred to as her \"brother,\" though he was a cousin. Police believed that someone in the family, most likely L.G.'s father, Barry Gilton, was responsible for the murder. In the affidavit, there are only three references to Antonio:\n\u2022 L.G. said she had been living with Antonio in Los Angeles.\n\u2022 One of the numbers in L.G.'s phone was Antonio's cell number.\n\u2022 L.G. identified the number as belonging to Antonio.\nThese unremarkable facts do nothing to tie Antonio to the murder-and they are even more benign when considering Antonio's familial relationship with L.G. Nothing indicates Antonio, who was living in Los Angeles, was in or near San Francisco at the time, that he had any connection to the home where L.G.'s parents lived, or that he had any connection to Sneed or knowledge of his pimping activities. The only link was that Antonio was a member of the extended Gilton family. Conspicuously absent was any statement by the officer that he believed that Antonio's CSLI would lead to information about the Sneed shooting.\nEven accepting the government's suggestion that the affidavit supported a reasonable inference about a family-based killing, that inference does not support any plausible connection to Antonio. In the course of their investigation, the police received confidential information indicating that two family members were involved in the shooting. That information implicated L.G.'s father, Barry Gilton, and indicated that the second family member was a woman . Nothing suggested two male family members were involved. Thus, when the warrant issued, any relationship between Antonio and the murder was purely speculative.\nThe flimsy basis for the warrant is central to analyzing the government's invocation of the good faith exception. The majority cites the appropriate standard under United States v. Leon , 468 U.S. 897, 104 S.Ct. 3405, 82 L.Ed.2d 677 (1984), but then gives it a rote application. Good faith reliance is the pivotal question. As Leon teaches, suppression \"remains an appropriate remedy\" when \"a warrant [is] based on an affidavit 'so lacking in indicia of probable cause as to render official belief in its existence entirely unreasonable.' \" Id. at 923, 104 S.Ct. 3405 (quoting Brown v. Illinois , 422 U.S. 590, 611, 95 S.Ct. 2254, 45 L.Ed.2d 416 (1975) ). Simply having a warrant is not a free pass or substitute for good faith.\nWe rejected good faith reliance in Grant because the target had no \"independent connection to the homicide\" and his limited association \"through family and gang affiliation\" provided an insufficient link to the crime. Grant , 682 F.3d at 836-37. In analyzing good faith, we circled back to the absence of probable cause, noting that Grant's link with another family member was \"so weak as to be unreasonable to rely on for probable cause.\" Id. at 836. This weak link fared no better under Leon 's analysis.\nAntonio's case is no different. Although Grant involved a warrant issued nine months after the murder, the timing of the Gilton warrant-two days after the murder-does nothing to buttress good faith. What matters is that the warrant included only the three innocuous facts about Antonio. As we know from Grant , \"[a] reasonable officer would know that probable cause is not supplied by stating everything one knows about a particular item one would like to find to solve a murder.\" Id. at 841. Grant fits Antonio's situation to a tee-the mere family connection, which is all that was present here, is simply not enough to justify applying the good faith exception.\nAn alternative ground for applying the good faith rule is \"when the police conduct a search in compliance with binding precedent that is later overruled.\" Davis v. United States , 564 U.S. 229, 232, 131 S.Ct. 2419, 180 L.Ed.2d 285 (2011). This relatively narrow expansion of the good faith exception has no bearing on this case and the majority explicitly notes it does not apply Davis. Maj. Op. at 1079, n.3.\nYet the majority blesses the officer's good faith reliance on the warrant based in part on Carpenter v. United States , which was handed down during this appeal. 138 S.Ct. 2206 (2018). In Carpenter , the Supreme Court held that acquiring CSLI is a search requiring a warrant supported by probable cause. Id. at 2217, 2221. In its use of Carpenter , the majority misses the point. Carpenter only affects a question not at issue here: the warrant requirement for CSLI. As we all agree, the police got a warrant for Antonio's cell data. What they did not do is rely in good faith on the probable cause determination. Carpenter did not alter that doctrine, and it is not relevant to our inquiry.\nEven under the Davis rule, Carpenter does not provide a relevant change in law permitting the application of the good faith exception. The notion that Carpenter put into play the Supreme Court's precedent that \"a person has no legitimate expectation of privacy in information he voluntarily turns over to third parties,\" Smith v. Maryland , 442 U.S. 735, 743-44, 99 S.Ct. 2577, 61 L.Ed.2d 220 (1979), was laid to rest by the Court's clear statement that \"[w]e ... decline to extend Smith and [ United States v. ] Miller [, 425 U.S. 435, 96 S.Ct. 1619, 48 L.Ed.2d 71 (1976) ] to the collection of CSLI.\" Carpenter , 138 S.Ct. at 2220. And it is surely not clear that cell phone customers \"voluntarily\" share their location data with their cellular provider \"in any meaningful way.\" In re Application of the U.S. for an Order Directing a Provider of Elec. Commc'n Serv. to Disclose Record to Gov't , 620 F.3d 304, 317 (3d Cir. 2010). The best the government can claim is lack of clarity; no appellate precedent has been overruled.\nNonetheless, the majority shoehorns Carpenter into a watered-down application of Davis ' good faith exception. The majority argues that, before Carpenter , many circuits thought acquiring CSLI did not require a warrant, so there is no significant error here because the police sought a warrant and then relied on the state of the law that did not protect CSLI. This bootstrapping ignores Davis ' requirement that officers conduct their searches in line with relevant, binding precedent. The majority dilutes that rule and expands the good faith exception beyond Davis ' narrow boundaries without providing a clear limiting principle. There was no change in precedent related to probable cause, which is the only precedent relevant here because the police already had gone the warrant route. Compounding the problem, the majority asserts that it does not rely on Davis . Maj. Op. at 1079, n.3. Thus, we are left to understand the majority's expansion of the good faith exception as unhinged from Davis , when in fact it erodes the narrow limits announced in that case.\nRecognizing the tough hurdle under Davis , the government falls back on the Stored Communications Act, which permits retrieval of phone data under relaxed standards. 18 U.S.C. \u00a7 2703(d). Never mind that the police did not seek or even allude to a Section 2703(d) order for Antonio's CSLI. Under the circumstances here, Leon 's good faith exception benchmarks the officer's good faith reliance on the actual warrant issued by the state court in San Francisco, not a hypothetical, alternative order that might have issued under a federal statute never referenced to the state court. Such an expansion of Leon is unsupported.\nI agree with the district court's grant of Antonio Gilton's motion to suppress the cell phone evidence. It was the right answer and one that faithfully enforces the purpose of deterrence with respect to an obviously defective warrant.",
+        "type": "dissent",
+        "author": "MCKEOWN, J., dissenting"
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellant,\nv.\nReginald ELMORE, aka Fat Reg; Esau Ferdinand, aka Sauce, Defendants,\nBarry Gilton, aka Prell; Adrian Gordon, aka Tit; Monzell Harding, Jr.; Charles Heard, aka Cheese; Lupe Mercado; Paul Robeson, aka P World ; Alfonzo Williams, aka Fonz, aka Relly; Jaquain Young, aka Loc, Defendants,\nand\nAntonio Gilton, aka TG, aka Tone, Defendant-Appellee.\nNo. 16-10109\nUnited States Court of Appeals, Ninth Circuit.\nArgued and Submitted January 7, 2019 San Diego, California\nFILED MARCH 04, 2019"
+  },
+  "file_name": "1068-01",
+  "first_page_order": 1068,
+  "last_page_order": 1081
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5912113,
+  "name": "Roble v. Minnesota",
+  "name_abbreviation": "Roble v. Minnesota",
+  "decision_date": "2011-05-23",
+  "docket_number": "No. 10-1247",
+  "first_page": "1008",
+  "last_page": "1008",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1008"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 67,
+    "ocr_confidence": 0.485,
+    "sha256": "86a2fd9d5614560486355ec60a2fea8d5943c7d07a4d6d4de9849628b563c73d",
+    "simhash": "1:f90ebb82cec8a5db",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Roble v. Minnesota."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Minn. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1247.\nRoble v. Minnesota."
+  },
+  "file_name": "1008-12",
+  "first_page_order": 1034,
+  "last_page_order": 1034
+}

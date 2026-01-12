@@ -1,0 +1,59 @@
+{
+  "id": 12207608,
+  "name": "Ornelas v. California",
+  "name_abbreviation": "Ornelas v. California",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10908",
+  "first_page": "856",
+  "last_page": "856",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 856"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 71,
+    "ocr_confidence": 0.661,
+    "sha256": "92ec8c927e3ccf40a21c0ebab129e15450c34da48e9b90586e3715cdc9109ac5",
+    "simhash": "1:04ea3b520a485912",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ornelas v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10908.\nOrnelas v. California."
+  },
+  "file_name": "0856-08",
+  "first_page_order": 938,
+  "last_page_order": 938
+}

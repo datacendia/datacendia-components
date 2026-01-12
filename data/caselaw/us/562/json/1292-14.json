@@ -1,0 +1,59 @@
+{
+  "id": 6026496,
+  "name": "Sturgeon v. Illinois",
+  "name_abbreviation": "Sturgeon v. Illinois",
+  "decision_date": "2011-03-21",
+  "docket_number": "No. 10-8396",
+  "first_page": "1292",
+  "last_page": "1292",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1292"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.663,
+    "sha256": "deef03134efce09af0bb7d20182b27880a810259ed2079b4b7f35999675a7044",
+    "simhash": "1:60d192db1125e726",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sturgeon v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8396.\nSturgeon v. Illinois."
+  },
+  "file_name": "1292-14",
+  "first_page_order": 1314,
+  "last_page_order": 1314
+}

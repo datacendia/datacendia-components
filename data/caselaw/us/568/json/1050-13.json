@@ -1,0 +1,59 @@
+{
+  "id": 12426573,
+  "name": "Hall v. Oregon Department of Corrections",
+  "name_abbreviation": "Hall v. Oregon Department of Corrections",
+  "decision_date": "2012-12-03",
+  "docket_number": "No. 12-6496",
+  "first_page": "1050",
+  "last_page": "1050",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1050"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 89,
+    "ocr_confidence": 0.645,
+    "sha256": "15764fd07ba1ac832eddfed37819f401d797483209f80c0daafb93a4633a4c62",
+    "simhash": "1:4dab60870dcc8052",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hall v. Oregon Department of Corrections."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6496.\nHall v. Oregon Department of Corrections."
+  },
+  "file_name": "1050-13",
+  "first_page_order": 1126,
+  "last_page_order": 1126
+}

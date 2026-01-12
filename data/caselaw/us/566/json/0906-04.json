@@ -1,0 +1,59 @@
+{
+  "id": 12192444,
+  "name": "Aster v. Aster",
+  "name_abbreviation": "Aster v. Aster",
+  "decision_date": "2012-03-26",
+  "docket_number": "No. 11-892",
+  "first_page": "906",
+  "last_page": "906",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 906"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 76,
+    "ocr_confidence": 0.601,
+    "sha256": "df690dfb7c2ee8f2aff7a06838253ad98e2bd6d6762137c31073c2ad79ce9ab6",
+    "simhash": "1:402100a1a38a5300",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Aster v. Aster."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal, 6th App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-892.\nAster v. Aster."
+  },
+  "file_name": "0906-04",
+  "first_page_order": 782,
+  "last_page_order": 782
+}

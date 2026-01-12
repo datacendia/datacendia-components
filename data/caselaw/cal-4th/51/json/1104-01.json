@@ -1,0 +1,3228 @@
+{
+  "id": 3914791,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. CHARLES EDWARD MOORE, Defendant and Appellant",
+  "name_abbreviation": "People v. Moore",
+  "decision_date": "2011-06-23",
+  "docket_number": "No. S075726",
+  "first_page": "1104",
+  "last_page": "1147",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "51 Cal. 4th 1104"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal.",
+    "id": 9021,
+    "name": "Supreme Court of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "18 U.S.C. \u00a7 3592",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "266 Cal.Rptr. 563",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "217 Cal.App.3d 1332",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4421333
+      ],
+      "pin_cites": [
+        {
+          "page": "1341"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/217/1332-01"
+      ]
+    },
+    {
+      "cite": "236 Cal.Rptr. 680",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "191 Cal.App.3d 819",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2210832
+      ],
+      "pin_cites": [
+        {
+          "page": "826"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/191/0819-01"
+      ]
+    },
+    {
+      "cite": "679 P.2d 433",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "201 Cal.Rptr. 782",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Cal.3d 36",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4467692
+      ],
+      "pin_cites": [
+        {
+          "page": "59"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/36/0036-01"
+      ]
+    },
+    {
+      "cite": "22 P.3d 392",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "106 Cal.Rptr.2d 629",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Cal.4th 610",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        265413
+      ],
+      "pin_cites": [
+        {
+          "page": "668"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/25/0610-01"
+      ]
+    },
+    {
+      "cite": "38 P.3d 461",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "115 Cal.Rptr.2d 614",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "27 Cal.4th 102",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1103393
+      ],
+      "pin_cites": [
+        {
+          "page": "147, fn. 18"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/27/0102-01"
+      ]
+    },
+    {
+      "cite": "546 U.S. 9",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5946590
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "10"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/546/0009-01"
+      ]
+    },
+    {
+      "cite": "913 F.2d 712",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10535929
+      ],
+      "pin_cites": [
+        {
+          "page": "717"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/913/0712-01"
+      ]
+    },
+    {
+      "cite": "718 F.2d 226",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1895121
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "231"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/718/0226-01"
+      ]
+    },
+    {
+      "cite": "844 F.2d 1",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10542274
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "5, fn. 1"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/844/0001-01"
+      ]
+    },
+    {
+      "cite": "907 F.2d 42",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10532916
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "44"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/907/0042-01"
+      ]
+    },
+    {
+      "cite": "84 F.3d 768",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1793487
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "769"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/84/0768-01"
+      ]
+    },
+    {
+      "cite": "375 F.3d 1041",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9376728
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "1052"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/375/1041-01"
+      ]
+    },
+    {
+      "cite": "767 F.2d 1443",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        349047
+      ],
+      "pin_cites": [
+        {
+          "page": "1445-1446"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/767/1443-01"
+      ]
+    },
+    {
+      "cite": "422 U.S. 806",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9431
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/422/0806-01"
+      ]
+    },
+    {
+      "cite": "767 P.2d 1109",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "255 Cal.Rptr. 631",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "48 Cal.3d 18",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4616317
+      ],
+      "pin_cites": [
+        {
+          "page": "51"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/48/0018-01"
+      ]
+    },
+    {
+      "cite": "158 P.3d 743",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 Cal.Rptr.3d 172",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Cal.4th 109",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3818975
+      ],
+      "pin_cites": [
+        {
+          "page": "135"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/41/0109-01"
+      ]
+    },
+    {
+      "cite": "729 P.2d 115",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "232 Cal.Rptr. 849",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.3d 1222",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4464286
+      ],
+      "pin_cites": [
+        {
+          "page": "1286-1287"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/42/1222-01"
+      ]
+    },
+    {
+      "cite": "842 P.2d 1",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1986,
+      "opinion_index": 0
+    },
+    {
+      "cite": "14 Cal.Rptr.2d 702",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1986,
+      "opinion_index": 0
+    },
+    {
+      "cite": "3 Cal.4th 1183",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        2008231
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "1242-1243"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/3/1183-01"
+      ]
+    },
+    {
+      "cite": "235 P.3d 873",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "113 Cal.Rptr.3d 190",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 Cal.4th 846",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6050669
+      ],
+      "pin_cites": [
+        {
+          "page": "938"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/49/0846-01"
+      ]
+    },
+    {
+      "cite": "34 P.3d 937",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "113 Cal.Rptr.2d 827",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 Cal.4th 1155",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        456736
+      ],
+      "pin_cites": [
+        {
+          "page": "1180"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/26/1155-01"
+      ]
+    },
+    {
+      "cite": "726 P.2d 113",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "230 Cal.Rptr. 667",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.3d 730",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4464588
+      ],
+      "pin_cites": [
+        {
+          "page": "777-779"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/42/0730-01"
+      ]
+    },
+    {
+      "cite": "771 P.2d 844",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1986,
+      "opinion_index": 0
+    },
+    {
+      "cite": "257 Cal.Rptr. 895",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1986,
+      "opinion_index": 0
+    },
+    {
+      "cite": "48 Cal.3d 757",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4615458
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "789-790"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/48/0757-01"
+      ]
+    },
+    {
+      "cite": "5 P.3d 130",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1989,
+      "opinion_index": 0
+    },
+    {
+      "cite": "99 Cal.Rptr.2d 69",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1989,
+      "opinion_index": 0
+    },
+    {
+      "cite": "23 Cal.4th 1153",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        277038
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "1216"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/23/1153-01"
+      ]
+    },
+    {
+      "cite": "68 P.3d 302",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "134 Cal.Rptr.2d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal.4th 581",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        269740
+      ],
+      "pin_cites": [
+        {
+          "page": "642"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/30/0581-01"
+      ]
+    },
+    {
+      "cite": "187 P.3d 56",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2003,
+      "opinion_index": 0
+    },
+    {
+      "cite": "79 Cal.Rptr.3d 334",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2003,
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.4th 386",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3888005
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "429"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/44/0386-01"
+      ]
+    },
+    {
+      "cite": "549 U.S. 270",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3553669
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/549/0270-01"
+      ]
+    },
+    {
+      "cite": "530 U.S. 466",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9413911
+      ],
+      "weight": 3,
+      "year": 2007,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/530/0466-01"
+      ]
+    },
+    {
+      "cite": "536 U.S. 584",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1254507
+      ],
+      "weight": 3,
+      "year": 2000,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/536/0584-01"
+      ]
+    },
+    {
+      "cite": "65 P.3d 749",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2002,
+      "opinion_index": 0
+    },
+    {
+      "cite": "132 Cal.Rptr.2d 271",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 2002,
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal.4th 43",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        269732
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "126"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/30/0043-01"
+      ]
+    },
+    {
+      "cite": "841 P.2d 118",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "14 Cal.Rptr.2d 133",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "4 Cal.4th 43",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        2001550
+      ],
+      "pin_cites": [
+        {
+          "page": "77"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/4/0043-01"
+      ]
+    },
+    {
+      "cite": "820 P.2d 559",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "2 Cal.Rptr.2d 335",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "1 Cal.4th 103",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1201314
+      ],
+      "pin_cites": [
+        {
+          "page": "134-135"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/1/0103-01"
+      ]
+    },
+    {
+      "cite": "58 P.3d 931",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1991,
+      "opinion_index": 0
+    },
+    {
+      "cite": "127 Cal.Rptr.2d 802",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1991,
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Cal.4th 515",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        777236
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "566"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/29/0515-01"
+      ]
+    },
+    {
+      "cite": "73 P.3d 433",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "2 Cal.Rptr.3d 554",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Cal.4th 240",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        18604
+      ],
+      "pin_cites": [
+        {
+          "page": "316"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/31/0240-01"
+      ]
+    },
+    {
+      "cite": "68 P.3d 1",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "133 Cal.Rptr.2d 561",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal.4th 342",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        269751
+      ],
+      "pin_cites": [
+        {
+          "page": "439"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/30/0342-01"
+      ]
+    },
+    {
+      "cite": "118 R3d 545",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 Cal.Rptr.3d 509",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Cal.4th 310",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3771918
+      ],
+      "pin_cites": [
+        {
+          "page": "365"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/37/0310-01"
+      ]
+    },
+    {
+      "cite": "137 P.3d 229",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.Rptr.3d 407",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal.4th 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3582872
+      ],
+      "pin_cites": [
+        {
+          "page": "43"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/39/0001-01"
+      ]
+    },
+    {
+      "cite": "913 P.2d 980",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 Cal.Rptr.2d 770",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "13 Cal.4th 92",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1965944
+      ],
+      "pin_cites": [
+        {
+          "page": "190"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/13/0092-01"
+      ]
+    },
+    {
+      "cite": "64 P.3d 762",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1996,
+      "opinion_index": 0
+    },
+    {
+      "cite": "131 Cal.Rptr.2d 468",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1996,
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Cal.4th 1229",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        777233
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "1267"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/29/1229-01"
+      ]
+    },
+    {
+      "cite": "759 R2d 490",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "250 Cal.Rptr. 855",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.3d 712",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1968798
+      ],
+      "pin_cites": [
+        {
+          "page": "734"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/46/0712-01"
+      ]
+    },
+    {
+      "cite": "940 P.2d 710",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1988,
+      "opinion_index": 0
+    },
+    {
+      "cite": "66 Cal.Rptr.2d 123",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1988,
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 Cal.4th 153",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1217919
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "276"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/16/0153-01"
+      ]
+    },
+    {
+      "cite": "69 R3d 446",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1997,
+      "opinion_index": 0
+    },
+    {
+      "cite": "134 Cal.Rptr.2d 602",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1997,
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal.4th 835",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        269746
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "874"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/30/0835-01"
+      ]
+    },
+    {
+      "cite": "995 P.2d 152",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "94 Cal.Rptr.2d 17",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "22 Cal.4th 596",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        157863
+      ],
+      "pin_cites": [
+        {
+          "page": "635"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/22/0596-01"
+      ]
+    },
+    {
+      "cite": "442 U.S. 95",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1532020
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "97"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/442/0095-01"
+      ]
+    },
+    {
+      "cite": "762 P.2d 1249",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1979,
+      "opinion_index": 0
+    },
+    {
+      "cite": "252 Cal.Rptr. 525",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1979,
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.3d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1971415
+      ],
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "58"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/47/0001-01"
+      ]
+    },
+    {
+      "cite": "108 P.3d 182",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 Cal.Rptr.3d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.4th 514",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        873219
+      ],
+      "pin_cites": [
+        {
+          "page": "571-572"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/35/0514-01"
+      ]
+    },
+    {
+      "cite": "753 P.2d 1",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "246 Cal.Rptr. 209",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.3d 26",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4529116
+      ],
+      "pin_cites": [
+        {
+          "page": "70"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/45/0026-01"
+      ]
+    },
+    {
+      "cite": "755 P.2d 310",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1988,
+      "opinion_index": 0
+    },
+    {
+      "cite": "248 Cal.Rptr. 126",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1988,
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.3d 744",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4528505
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "811-812"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/45/0744-01"
+      ]
+    },
+    {
+      "cite": "767 P.2d 1047",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "255 Cal.Rptr. 569",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.3d 1194",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1971412
+      ],
+      "pin_cites": [
+        {
+          "page": "1249"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/47/1194-01"
+      ]
+    },
+    {
+      "cite": "806 P.2d 1311",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1989,
+      "opinion_index": 0
+    },
+    {
+      "cite": "279 Cal.Rptr. 276",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1989,
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.3d 68",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2358803
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "111-112"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/53/0068-01"
+      ]
+    },
+    {
+      "cite": "51 P.3d 874",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1991,
+      "opinion_index": 0
+    },
+    {
+      "cite": "123 Cal.Rptr.2d 654",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1991,
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.4th 946",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        947619
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "1004-1005"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/28/0946-01"
+      ]
+    },
+    {
+      "cite": "73 P.3d 1137",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2002,
+      "opinion_index": 0
+    },
+    {
+      "cite": "3 Cal.Rptr.3d 145",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2002,
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Cal.4th 518",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        18455
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "562-563"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/31/0518-01"
+      ]
+    },
+    {
+      "cite": "954 P.2d 384",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "74 Cal.Rptr.2d 121",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "17 Cal.4th 1044",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1550679
+      ],
+      "pin_cites": [
+        {
+          "page": "1176-1177"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/17/1044-01"
+      ]
+    },
+    {
+      "cite": "810 P.2d 131",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1998,
+      "opinion_index": 0
+    },
+    {
+      "cite": "281 Cal.Rptr. 273",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1998,
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.3d 955",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2358698
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "978"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/53/0955-01"
+      ]
+    },
+    {
+      "cite": "186 P.3d 395",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1991,
+      "opinion_index": 0
+    },
+    {
+      "cite": "79 Cal.Rptr.3d 4",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1991,
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.4th 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3888558
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "55-58"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/44/0001-01"
+      ]
+    },
+    {
+      "cite": "821 P.2d 585",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "3 Cal.Rptr.2d 81",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "1 Cal.4th 281",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1201310
+      ],
+      "pin_cites": [
+        {
+          "page": "314-315"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/1/0281-01"
+      ]
+    },
+    {
+      "cite": "760 P2d 475",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "251 Cal.Rptr. 278",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.3d 963",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1968858
+      ],
+      "pin_cites": [
+        {
+          "page": "988"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/46/0963-01"
+      ]
+    },
+    {
+      "cite": "180 P.3d 224",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "74 Cal.Rptr.3d 454",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.4th 76",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3884198
+      ],
+      "pin_cites": [
+        {
+          "page": "149"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/43/0076-01"
+      ]
+    },
+    {
+      "cite": "136 P.3d 168",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.Rptr.3d 632",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 Cal.4th 1002",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3853083
+      ],
+      "pin_cites": [
+        {
+          "page": "1011-1012"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/38/1002-01"
+      ]
+    },
+    {
+      "cite": "209 P3d 596",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "95 Cal.Rptr.3d 376",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.4th 847",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3896116
+      ],
+      "pin_cites": [
+        {
+          "page": "872"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/46/0847-01"
+      ]
+    },
+    {
+      "cite": "185 P3d 727",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "78 Cal.Rptr.3d 295",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.4th 1269",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3884552
+      ],
+      "pin_cites": [
+        {
+          "page": "1311-1312"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/43/1269-01"
+      ]
+    },
+    {
+      "cite": "711 P2d 480",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "222 Cal.Rptr. 184",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Cal.3d 144",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4543601
+      ],
+      "pin_cites": [
+        {
+          "page": "202"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/41/0144-01"
+      ]
+    },
+    {
+      "cite": "749 P.2d 776",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1985,
+      "opinion_index": 0
+    },
+    {
+      "cite": "244 Cal.Rptr. 121",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1985,
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.3d 543",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4537675
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "577-579"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/44/0543-01"
+      ]
+    },
+    {
+      "cite": "914 P.2d 846",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "510 P.2d 33",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "108 Cal.Rptr. 89",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "9 Cal.3d 517",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2297534
+      ],
+      "pin_cites": [
+        {
+          "page": "521-522"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/9/0517-01"
+      ]
+    },
+    {
+      "cite": "70 P.3d 277",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "135 Cal.Rptr.2d 272",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal.4th 916",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        269759
+      ],
+      "pin_cites": [
+        {
+          "page": "973"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/30/0916-01"
+      ]
+    },
+    {
+      "cite": "623 P.2d 240",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2003,
+      "opinion_index": 0
+    },
+    {
+      "cite": "171 Cal.Rptr. 679",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 2003,
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.3d 935",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2259835
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "963"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/28/0935-01"
+      ]
+    },
+    {
+      "cite": "74 P.3d 748",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1981,
+      "opinion_index": 0
+    },
+    {
+      "cite": "3 Cal.Rptr.3d 648",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1981,
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Cal.4th 673",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        17441
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "697"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/31/0673-01"
+      ]
+    },
+    {
+      "cite": "824 P.2d 571",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "4 Cal.Rptr.2d 765",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "1 Cal.4th 865",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1201323
+      ],
+      "pin_cites": [
+        {
+          "page": "961"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/1/0865-01"
+      ]
+    },
+    {
+      "cite": "140 P.3d 775",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1992,
+      "opinion_index": 0
+    },
+    {
+      "cite": "180 P.3d 351",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "74 Cal.Rptr.3d 605",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.4th 268",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3884387
+      ],
+      "pin_cites": [
+        {
+          "page": "311"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/43/0268-01"
+      ]
+    },
+    {
+      "cite": "118 P.3d 451",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 Cal.Rptr.3d 397",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Cal.4th 240",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3772028
+      ],
+      "pin_cites": [
+        {
+          "page": "303"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/37/0240-01"
+      ]
+    },
+    {
+      "cite": "234 P.3d 501",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "112 Cal.Rptr.3d 244",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 Cal.4th 792",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6050876
+      ],
+      "pin_cites": [
+        {
+          "page": "826-827"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/49/0792-01"
+      ]
+    },
+    {
+      "cite": "26 P.3d 357",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "109 Cal.Rptr.2d 31",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 Cal.4th 81",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        456839
+      ],
+      "pin_cites": [
+        {
+          "page": "149"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/26/0081-01"
+      ]
+    },
+    {
+      "cite": "233 P.3d 1000",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "111 Cal.Rptr.3d 589",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 Cal.4th 405",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6050603
+      ],
+      "pin_cites": [
+        {
+          "page": "457"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/49/0405-01"
+      ]
+    },
+    {
+      "cite": "72 P.3d 1166",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "2 Cal.Rptr.3d 186",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Cal.4th 93",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        18662
+      ],
+      "pin_cites": [
+        {
+          "page": "131"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/31/0093-01"
+      ]
+    },
+    {
+      "cite": "184 P.3d 732",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2003,
+      "opinion_index": 0
+    },
+    {
+      "cite": "77 Cal.Rptr.3d 605",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2003,
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.4th 1132",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3884310
+      ],
+      "pin_cites": [
+        {
+          "page": "1138"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/43/1132-01"
+      ]
+    },
+    {
+      "cite": "202 P. 51",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.App. 333",
+      "category": "reporters:state",
+      "reporter": "Cal. App.",
+      "case_ids": [
+        2072666
+      ],
+      "pin_cites": [
+        {
+          "page": "346"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app/54/0333-01"
+      ]
+    },
+    {
+      "cite": "269 S.E.2d 125",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.2d",
+      "year": 1921,
+      "pin_cites": [
+        {
+          "page": "132"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "301 N.C. 18",
+      "category": "reporters:state",
+      "reporter": "N.C.",
+      "case_ids": [
+        8561039
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nc/301/0018-01"
+      ]
+    },
+    {
+      "cite": "162 U.S. 613",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6141160
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "619-620"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/162/0613-01"
+      ]
+    },
+    {
+      "cite": "500 U.S. 391",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6224653
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "402, fn. 7"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/500/0391-01"
+      ]
+    },
+    {
+      "cite": "471 U.S. 307",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6202354
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "313"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/471/0307-01"
+      ]
+    },
+    {
+      "cite": "70 P. 671",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "137 Cal. 562",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2083209
+      ],
+      "pin_cites": [
+        {
+          "page": "564"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/137/0562-01"
+      ]
+    },
+    {
+      "cite": "299 P.2d 243",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.2d 818",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4370142
+      ],
+      "pin_cites": [
+        {
+          "page": "836"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/46/0818-01"
+      ]
+    },
+    {
+      "cite": "96 P.3d 30",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "17 Cal.Rptr.3d 710",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "34 Cal.4th 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        633001
+      ],
+      "pin_cites": [
+        {
+          "page": "101"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/34/0001-01"
+      ]
+    },
+    {
+      "cite": "227 P.3d 342",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "106 Cal.Rptr.3d 771",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "48 Cal.4th 347",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6051005
+      ],
+      "pin_cites": [
+        {
+          "page": "375"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/48/0347-01"
+      ]
+    },
+    {
+      "cite": "66 P.3d 1123",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "133 Cal.Rptr.2d 18",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal.4th 226",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        269744
+      ],
+      "pin_cites": [
+        {
+          "page": "248-249"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/30/0226-01"
+      ]
+    },
+    {
+      "cite": "171 P.3d 548",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2003,
+      "opinion_index": 0
+    },
+    {
+      "cite": "68 Cal.Rptr.3d 531",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2003,
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.4th 763",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3673562
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "791"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/42/0763-01"
+      ]
+    },
+    {
+      "cite": "148 P. 928",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "170 Cal. 104",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2036981
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/170/0104-01"
+      ]
+    },
+    {
+      "cite": "668 P.2d 697",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1915,
+      "opinion_index": 0
+    },
+    {
+      "cite": "194 Cal.Rptr. 390",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1915,
+      "opinion_index": 0
+    },
+    {
+      "cite": "34 Cal.3d 441",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4553604
+      ],
+      "year": 1915,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/34/0441-01"
+      ]
+    },
+    {
+      "cite": "39 P.3d 432",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "116 Cal.Rptr.2d 401",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "27 Cal.4th 287",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1103404
+      ],
+      "pin_cites": [
+        {
+          "page": "369-370"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/27/0287-01"
+      ]
+    },
+    {
+      "cite": "170 P.3d 129",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "67 Cal.Rptr.3d 753",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.4th 593",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3673139
+      ],
+      "pin_cites": [
+        {
+          "page": "616-617"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/42/0593-01"
+      ]
+    },
+    {
+      "cite": "386 U.S. 18",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6168882
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/386/0018-01"
+      ]
+    },
+    {
+      "cite": "215 F.3d 1015",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11219637
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/215/1015-01"
+      ]
+    },
+    {
+      "cite": "880 F.2d 1040",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10537540
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1047"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/880/1040-01"
+      ]
+    },
+    {
+      "cite": "161 F.2d 1443",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "576 P.2d 93",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "144 Cal.Rptr. 610",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 Cal.3d 888",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2288542
+      ],
+      "pin_cites": [
+        {
+          "page": "892"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/20/0888-01"
+      ]
+    },
+    {
+      "cite": "441 U.S. 520",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1780223
+      ],
+      "weight": 3,
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "540"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/441/0520-01"
+      ]
+    },
+    {
+      "cite": "582 P.2d 117",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "148 Cal.Rptr. 30",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 Cal.3d 816",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2284156
+      ],
+      "pin_cites": [
+        {
+          "page": "821-822"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/21/0816-01"
+      ]
+    },
+    {
+      "cite": "997 P.2d 1044",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "95 Cal.Rptr.2d 377",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "22 Cal.4th 900",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        157998
+      ],
+      "pin_cites": [
+        {
+          "page": "1040"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/22/0900-01"
+      ]
+    },
+    {
+      "cite": "682 P.2d 360",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "204 Cal.Rptr. 165",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Cal.3d 307",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4468011
+      ],
+      "pin_cites": [
+        {
+          "page": "319-320"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/36/0307-01"
+      ]
+    },
+    {
+      "cite": "115 P.3d 1145",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1984,
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Cal.Rptr.3d 485",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1984,
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Cal.4th 686",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3122915
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "732"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/36/0686-01"
+      ]
+    },
+    {
+      "cite": "774 P.2d 730",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "259 Cal.Rptr. 701",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "48 Cal.3d 1142",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4614384
+      ],
+      "pin_cites": [
+        {
+          "page": "1162"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/48/1142-01"
+      ]
+    },
+    {
+      "cite": "456 P.2d 645",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "79 Cal.Rptr. 77",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "71 Cal.2d 566",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        8711995
+      ],
+      "pin_cites": [
+        {
+          "page": "578"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/71/0566-01"
+      ]
+    },
+    {
+      "cite": "980 P.2d 912",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "87 Cal.Rptr.2d 205",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 Cal.4th 226",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        884944
+      ],
+      "pin_cites": [
+        {
+          "page": "231"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/21/0226-01"
+      ]
+    },
+    {
+      "cite": "260 Cal.Rptr. 608",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "212 Cal.App.3d 505",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        6039208
+      ],
+      "pin_cites": [
+        {
+          "page": "511"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/212/0505-01"
+      ]
+    },
+    {
+      "cite": "596 P.2d 328",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "156 Cal.Rptr. 450",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "24 Cal.3d 514",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2265656
+      ],
+      "pin_cites": [
+        {
+          "page": "521"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/24/0514-01"
+      ]
+    },
+    {
+      "cite": "640 P.2d 108",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "180 Cal.Rptr. 489",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Cal.3d 424",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1980011
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/31/0424-01"
+      ]
+    },
+    {
+      "cite": "939 P.2d 259",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "65 Cal.Rptr.2d 145",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 Cal.4th 1229",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1005947
+      ],
+      "pin_cites": [
+        {
+          "page": "1369"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/15/1229-01"
+      ]
+    },
+    {
+      "cite": "336 P.2d 937",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 Cal.2d 111",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "pin_cites": [
+        {
+          "page": "797"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "774 P.2d 698",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "259 Cal.Rptr. 669",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "48 Cal.3d 1194",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4614802
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/48/1194-01"
+      ]
+    },
+    {
+      "cite": "833 P.2d 561",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "10 Cal.Rptr.2d 554",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "3 Cal.4th 41",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        2008273
+      ],
+      "pin_cites": [
+        {
+          "page": "111"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/3/0041-01"
+      ]
+    },
+    {
+      "cite": "96 P.3d 126",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1992,
+      "opinion_index": 0
+    },
+    {
+      "cite": "17 Cal.Rptr.3d 825",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1992,
+      "opinion_index": 0
+    },
+    {
+      "cite": "34 Cal.4th 131",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        633005
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "147, fn. 6"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/34/0131-01"
+      ]
+    },
+    {
+      "cite": "465 U.S. 168",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11335001
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "183"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/465/0168-01"
+      ]
+    },
+    {
+      "cite": "108 F.3d 261",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7628081
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/108/0261-01"
+      ]
+    },
+    {
+      "cite": "762 P.2d 1218",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "252 Cal.Rptr. 494",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.3d 63",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1971417
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/47/0063-01"
+      ]
+    },
+    {
+      "cite": "47 Cal.Rptr.3d 467",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1992,
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal.4th 970",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3583344
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "1053"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/39/0970-01"
+      ]
+    },
+    {
+      "cite": "753 P.2d 1052",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "247 Cal.Rptr. 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.3d 259",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4528423
+      ],
+      "pin_cites": [
+        {
+          "page": "291"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/45/0259-01"
+      ]
+    },
+    {
+      "cite": "700 P.2d 782",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "215 Cal.Rptr. 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 Cal.3d 762",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1977063
+      ],
+      "pin_cites": [
+        {
+          "page": "778"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/38/0762-01"
+      ]
+    },
+    {
+      "cite": "711 P.2d 423",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "222 Cal.Rptr. 127",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Cal.3d 29",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4542929
+      ],
+      "pin_cites": [
+        {
+          "page": "70"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/41/0029-01"
+      ]
+    },
+    {
+      "cite": "122 P.3d 765",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.Rptr.3d 644",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Cal.4th 428",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3771953
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "434-435"
+        },
+        {
+          "page": "434-435"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/37/0428-01"
+      ]
+    },
+    {
+      "cite": "916 P.2d 1000",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.Rptr.2d 301",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "13 Cal.4th 394",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1965923
+      ],
+      "pin_cites": [
+        {
+          "page": "428-429"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/13/0394-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 2948,
+    "char_count": 107519,
+    "ocr_confidence": 0.904,
+    "pagerank": {
+      "raw": 5.380040725990605e-07,
+      "percentile": 0.9439681618503627
+    },
+    "sha256": "8b132efd81ca976dc6e97b0a15a7118c082c1c70a30e757107a6d4823d685779",
+    "simhash": "1:8eead12a770c95d8",
+    "word_count": 17255
+  },
+  "last_updated": "2024-02-27T18:27:19.698038+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. CHARLES EDWARD MOORE, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nCHIN, J.\nDefendant Charles Edward Moore twice has been convicted and sentenced to death for robbing and murdering Robert and Marie Crumb in Long Beach, California in 1977. We affirmed his first conviction and sentence in 1988 (People v. Moore (1988) 47 Cal.3d 63 [252 Cal.Rptr. 494, 762 P.2d 1218] (Moore)), but that judgment was vacated in federal habeas corpus proceedings, when the federal court concluded defendant\u2019s right to represent himself at trial had been violated. (Moore v. Calderon (9th Cir. 1997) 108 F.3d 261.) After a second trial in 1998, the jury again convicted defendant of two counts of first degree murder (Pen. Code, \u00a7 187), two counts of robbery (\u00a7 211), and one count of burglary (\u00a7 459). It found true sentencing enhancements as to each count that defendant personally used a deadly and dangerous weapon, a knife (\u00a7 12202, subd. (b)), except with regard to the murder of Marie Crumb. It also found true sentencing enhancements as to each robbery count that defendant personally used a firearm (\u00a7 12022.5). The jury found true the special circumstances that, as to each murder, defendant committed the murder in the course of robbing the victims (former \u00a7 190.2, subd. (c)(3)(i)), in the course of committing a burglary (former \u00a7 190.2, subd. (c)(3)(v)), and found true the special circumstance that defendant committed multiple murders (former \u00a7 190.2, subd. (c)(5)). After a penalty trial, the jury returned a verdict of death. The trial court denied the automatic motion to modify the verdict (\u00a7 190.4, subd. (e)), and sentenced defendant to death and to a determinate term, stayed, on the noncapital offenses. This appeal is automatic. (\u00a7 1239, subd. (b).) We affirm the judgment in its entirety.\nI. Facts\nA. Guilt Phase\n1. Prosecution Evidence\nThe prosecution\u2019s case for the most part paralleled the evidence that was presented at defendant\u2019s first trial, and, as with that proceeding, relied primarily on the testimony of Terry Avery, an accomplice to the robberies and murders who received immunity from prosecution. (See Moore, supra, 47 Cal.3d at pp. 71-74.) Avery testified that in late November 1977, she lived with her parents in Denver, Colorado. She was 19 years old at the time. Avery met defendant through a friend, and then through defendant met Lee Edward Harris. Avery decided to accompany defendant and Harris to Lawrence, Kansas, and left Denver without taking any money or possessions with her. In Lawrence, defendant purchased clothes, a purse, and shoes for Avery. The shoes came in a yellow plastic bag, which Avery kept with her during the trip. The three of them drove from Lawrence to Kansas City, Kansas, and then traveled by bus to Los Angeles, arriving there on November 30, 1977. During the drive from Lawrence to Kansas City, defendant mentioned that he used to live in California; he said the managers of the apartment where he had lived had money and jewelry. During the bus ride to California, defendant and Harris discussed plans to rob the apartment managers.\nAfter spending the first night in Los Angeles, the next day, December 1, 1977, the three took a bus to Long Beach, where they rented two rooms at the Kona Hotel. Defendant and Avery stayed in one room and Harris stayed in an adjoining room; defendant told Avery he registered for the room as Mr. and Mrs. Charles Brown. That afternoon, defendant, Harris and Avery took a short walk to an apartment building where defendant previously had lived and where the apartment managers resided. The three then had dinner and returned to the hotel. Defendant and Harris left for a while, returning a short time later with a drugstore bag containing a roll of thick white cloth surgical tape. Defendant said he needed to cover his face so he would not be recognized, and used one of Avery\u2019s stockings to fashion a mask. Avery testified, however, that defendant was still recognizable when he wore the mask. After it became dark outside, defendant, Harris and Avery left the hotel to carry out the robbery. Defendant and Harris had the tape, defendant\u2019s mask, and two pistols with them.\nAvery testified that when they arrived at the apartment building, they could not go inside because the front door was locked. Defendant met a man dressed in women\u2019s clothing whom he knew, and they talked for a short while. When the man entered the building, defendant grabbed the door and held it open so he, Harris, and Avery could enter. The three then went up several flights of stairs to a door that had a \u201cManager\u201d sign on it. Avery knocked on the door and a woman (Marie Crumb) inside asked who it was. When Marie opened the door, defendant, wearing his mask, and Harris, both with guns drawn, pushed their way into the apartment. Avery followed them inside and saw defendant push Marie into a chair. Avery also saw a man (Robert Crumb) seated on the couch. Defendant demanded to know where the money was. Avery noticed that Marie Crumb seemed to recognize defendant, and that defendant and Harris appeared to have noticed that Marie had recognized him.\nDefendant then grabbed Robert Crumb and again demanded the money. Defendant struck Robert on the head with the butt of his gun. Marie repeatedly told defendant that they did not have the money because it had been taken to the bank earlier that day. Harris threw the woman onto the floor and told Avery to get him an item from a nearby clothes hamper. After she gave Harris a curtain or long rag from the hamper, Avery was told to go into the apartment\u2019s bedroom to look for the jewelry. In the bedroom, Avery found a number of jewelry boxes and display cases. Defendant then came into the bedroom and helped Avery force open the cases so she could get the jewelry out. She then placed a number of rings, necklaces, watches and other items, many of which were made of turquoise, into a pillowcase from the bed. Defendant and Harris told Avery to use rags when picking up items in the apartment so she would not leave any fingerprints.\nAvery next testified that when she came out of the bedroom back into the living room, Robert and Marie Crumb were in the same positions, except their arms were behind their backs, with their hands fastened together with the white surgical tape, and they did not appear to be moving or making any noise. Harris had wrapped the curtain or rag Avery gave him around the woman\u2019s mouth and neck and was choking her. Harris told Avery to go into the kitchen to get a knife. She went to the kitchen and found several knives, but did not take one to Harris. Harris then came into the kitchen and picked up a large butcher knife and returned to the living room. Avery returned to the bedroom, but then went to the door to the living room, and saw defendant stab Robert in the back. Robert began kicking, so Harris went over to hold his legs while defendant continued to stab him.\nAvery returned to the bedroom, but Harris called for her to come back into the living room. When she returned, Harris called her over to Marie Crumb, and told Avery to stab her with a pocketknife that was on a nearby coffee table. Avery did so, but Harris became angry because she did not do it hard enough. Harris told Avery to move, and then yelled at her when she touched the table, telling her to wipe it off so there would be no fingerprints. Avery then returned to the bedroom, and shortly thereafter picked up her purse and the pillowcase full of jewelry and left the apartment. After about 10 minutes, defendant and Harris came out of the apartment. The three of them then returned to the Kona Hotel.\nAvery testified that when they arrived back at the hotel, the three of them examined the jewelry that had been taken from the apartment. Avery noticed that some of the items were not items that she had taken from the bedroom. Each of them took several items; defendant took a watch, a belt buckle and two rings. The remaining jewelry was placed in the yellow plastic bag from the shoe store in Lawrence, Kansas. Later, Avery accompanied defendant to the beach where he threw the guns used in the robbery into the ocean. Avery told defendant she felt ill and needed to return to Denver. Defendant took her to the bus station and purchased a ticket for her trip.\nA number of days after she returned to Denver, Avery was called to meet with defendant and Harris at an apartment in a Denver suburb. They questioned her about whether she had told anyone about the crimes. After convincing them that she had not, Avery left and, because she was scared that defendant or Harris might harm her, told her parents, who then contacted the Denver police. Avery voluntarily surrendered to the police, and told them where they could find defendant and Harris. Denver area police officers testified that based on information supplied by Avery, the police went to an apartment in a suburb of Denver. Defendant was arrested after he climbed out of the bathroom window during the raid. He was wearing two rings. Harris was arrested in a bedroom in the apartment. On top of a dresser in the bedroom was a yellow plastic bag from a shoe store in Lawrence, Kansas, that contained numerous items of jewelry. A number of individuals testified that the jewelry seized during defendant\u2019s arrest in Colorado, including the rings defendant was wearing, belonged to the Crumbs, among them Avery, James Jones, a friend of the Crumbs, and the owner of the apartment building the Crumbs managed.\nThe owner of the apartment building testified that he met with Robert and Marie Crumb on the afternoon of December 1, 1977, and picked up the rent money they had collected so it could be deposited in the bank. He returned to the Crumbs\u2019 apartment on the afternoon of December 2 and found their bodies in the residence, which had been ransacked. The owner also gave the police a copy of a rental agreement showing that a Charles Moore had rented an apartment in Long Beach from him in March of 1977.\nThe testimony of James Jones from defendant\u2019s first trial was read into the record. In 1977, Jones lived in the apartment building managed by the Crumbs, was friends with them, and helped them with various chores. Jones had met defendant four or five times when defendant lived in Long Beach. On the night of December 1, 1977, Jones went to a nearby bar, dressed in \u201cdrag.\u201d After drinking several beers and becoming intoxicated, Jones returned to the apartment building. He testified, however, that he did not talk with anyone outside the building and did not recall seeing defendant, whom he would have recognized.\nThe police detective assigned to the Long Beach murder case testified that the victims, whose apartment was on the fourth floor of the building, had been stabbed multiple times. Their hands were fastened together behind their backs with white tape. Robert Crumb had a pillowcase over his head, while Marie had a cloth curtain twisted around her mouth and head. A butcher knife and a folding pocketknife with a dried red substance on them were found in the apartment. Numerous empty jewelry boxes and display cases were found in the apartment\u2019s bedroom. One of the pillowcases from the bed was missing.\nA medical examiner from the Los Angeles County Coroner\u2019s office testified from the victims\u2019 autopsy reports that Robert Crumb had been stabbed 10 times in the chest (not in his back, as Avery testified). The wounds were consistent with the butcher knife. There were also two lacerations on the back of his head, consistent with his having been hit on the head with an object such as a pistol. Marie Crumb had been stabbed six times; one of the stab wounds was only one-eighth of an inch deep and another was just under half an inch deep, while the remaining wounds were several inches deep. The three deepest wounds, including the two fatal wounds, were consistent with the butcher knife; the pocket knife could not have made those wounds. Marie also had a black eye and bruising on her forehead consistent with blunt force injury.\nThe detective also testified that he obtained registration cards from the Kona Hotel, which showed that \u201cSam Harris\u201d and \u201cCharles Moore and Wife\u201d stayed there on December 1, 1977. A handwriting expert testified that, in his opinion, the handwriting on the cards matched exemplars defendant and Harris had provided.\n2. Defense Evidence\nAfter the prosecution rested, defendant reasserted his right to represent himself, and his attorney was then reappointed as standby counsel. Defendant conducted the remainder of the trial himself. In so doing, he re-called the investigating detective and attempted to establish inconsistencies between Avery\u2019s descriptions of how many jewelry cases were located in the bedroom and how many the police found. By stipulation of the parties, portions of Avery\u2019s testimony at prior proceedings were read into the record; she had testified that defendant stabbed the man in the back, and Harris stabbed the woman twice, but defendant did not stab her. Her prior testimony concerning descriptions of some of the jewelry was also read into the record.\nB. Penalty Phase\n1. Prosecution Evidence\na. Other Criminal Activity\ni. Armed Robbery\nThe prosecution presented evidence that defendant was convicted in 1978 of armed robbery of a jewelry store in the Denver, Colorado area. Defendant committed the robbery on November 22, 1977, slightly over one week before the Long Beach murders.\nii. Norwood Murder\nAvery testified that when she, defendant, and Harris traveled to Lawrence, Kansas, from Denver, Colorado, in late November 1977, defendant and Harris kidnapped and murdered Sam Norwood, the manager of the local Woolworth\u2019s store, in an attempt to obtain money from the store. Defendant was the one who suggested robbing the store because he had previously worked there. Avery, defendant and Harris arrived at the store around 9:00 p.m. or 10:00 p.m., and Avery went inside to see who was there. When she returned to their car, Harris was returning with Norwood, held at gunpoint. After Norwood was placed in the car, defendant demanded the money from the store, but Norwood said the money had already been deposited in the bank. Defendant at one point hit Norwood in the head with a pistol. When Norwood said that he wanted to go home because his son was having a birthday party, defendant threatened that they could go get his son, too. Harris, following defendant\u2019s instructions, drove to a dark area about 10 minutes away from the store. Defendant pulled Norwood out of the car, and then Harris got out. Avery heard two guns firing and then defendant and Harris returned to the car. Harris asked defendant why he shot the victim \u201cso many times,\u201d and defendant laughed, saying \u201cto make sure he was dead.\u201d The prosecutor who tried the case arising from these incidents testified that the victim\u2019s hands were taped behind his back with athletic tape, and he had been shot four times in the back of the head. Defendant ultimately was convicted of kidnapping, aggravated robbery, and first degree murder.\niii. Escape and Aggravated Robbery\nIn 1979, after defendant was apprehended, prosecuted, and convicted of the jewelry store robbery in Colorado and was being transported to the Colorado trial court for a hearing concerning his request for a sentence reduction, he overpowered the deputy escorting him, took the deputy\u2019s firearm, and escaped. During his escape, defendant committed a carjacking using the deputy\u2019s weapon, but he was captured later that day. Defendant was convicted of escape, aggravated robbery, and being a habitual criminal as a result of this incident.\nb. Prison and Jail Incidents\nThree correctional officers from San Quentin State Prison testified that they each observed an incident in which defendant fought with another inmate. In two of the instances, the officers believed that defendant was the aggressor; the third officer did not see exactly how the fight began. A fourth correctional officer testified that when she was passing a food tray into defendant\u2019s cell, defendant threw the tray at her and the food \u201csplattered all over [her].\u201d\nTwo Los Angeles County Sheriff\u2019s deputies who worked at the jail where defendant was housed during the trial testified that they found prisoner-made knives, or \u201cshanks,\u201d in defendant\u2019s possession. One weapon was found on top of a conduit running at the top, and just outside, of the bars to defendant\u2019s cell. The shank was readily accessible only from inside the cell. Although it was possible that someone outside the cell could have climbed up on the bars to place the shank in that location, anyone doing so would have been clearly visible to the cameras monitoring the area. The second shank was found inside a folder of legal materials defendant was taking with him to a meeting with his attorney. The shank was a rod, sharpened to a point at one end, that had been removed from the typewriter defendant used in the jail\u2019s law library. Defendant admitted at a disciplinary hearing that he possessed this shank \u201cfor protection.\u201d Another deputy testified that when searching defendant before escorting him to the jail law library, the deputy found a plastic baggie filled with a yellow liquid that smelled like urine. The deputy testified that such items are known as \u201cpiss bombs,\u201d and inmates throw them at other inmates and jail staff.\n2. Defense Evidence\nSeveral of defendant\u2019s siblings testified about the difficult and abusive family circumstances in which they and defendant were raised. Their father was physically abusive towards the children. He forced them to work hauling trash and even to steal property to provide money for the family and for his gambling and alcohol consumption, often keeping them out of school to do so. He beat the children when they were disobedient and sexually abused one of defendant\u2019s sisters when she was nine years old. Defendant\u2019s mother was not a good parent either; she was afraid of her husband and therefore did little to stop his abuse of the children. Defendant\u2019s parents eventually separated, and most of the children, including defendant, stayed with their father, who continued to abuse them. Because defendant\u2019s father was African-American and his mother was Caucasian, defendant and his siblings had difficulties with other children in the neighborhood.\nRuth Tiger testified that she knew defendant through a Christian prison organization. She had corresponded and met with him for over 18 years, and defendant had frequently told her that he regretted his past and felt remorse for what he had done. Defendant had offered her and her family support when they had personal difficulties. Tiger\u2019s interactions with defendant had always been positive, loving and supportive.\nDr. Marshall Cherkas, a psychiatrist, reviewed defendant\u2019s background and offered opinions concerning the effect of his family history on his development and his current mental state. In Cherkas\u2019s opinion, the bad parenting defendant received during his childhood resulted in him having a \u201cpredilection towards antisocial behavior\u201d and excessive narcissism. Defendant also was a \u201cpseudo-independent man\u201d who had tried to make his own way, but was also a \u201cpassive person\u201d who did not express his feelings or trust others. Cherkas believed defendant felt vulnerable and endangered, and therefore had possessed the shanks in jail, but overall was not particularly violent, given the conditions he faced while in custody. Cherkas testified that people with personality disorders or maladaptive behaviors are not necessarily static, but can change based on their situation.\nII. Discussion\nA. Denial of Defendant\u2019s Requests for the Appointment of Cocounsel\nDefendant represented himself during the pretrial stages of the proceedings, but eventually chose to have an attorney represent him for part of the guilt phase of the trial. During the time defendant was representing himself before the trial, he repeatedly asked the trial court to appoint an attorney to serve as his \u201ccocounsel,\u201d who would help defendant prepare the defense case and assist in presenting the case to the jury. The trial court (four different judges) rejected the requests for cocounsel; however, the court did appoint advisory counsel to help defendant prepare the case and give him advice upon request, but not to actively participate in the trial itself. Defendant contends the denial of his requests for the appointment of cocounsel was an abuse of discretion under state law that also violated his federal constitutional rights to due process, effective assistance of counsel and a reliable trial, his statutory right to the appointment of second counsel in a capital case, and his constitutional right to equal protection of the laws. We are not persuaded.\nWe begin the analysis of defendant\u2019s claims with the long-standing rule that a defendant has no right, under either the federal or state Constitution, to \u201chybrid representation.\u201d Criminal defendants have the constitutional right to have an attorney represent them, and the right under the federal Constitution to represent themselves, but these rights are mutually exclusive. (McKaskle v. Wiggins (1984) 465 U.S. 168, 183 [79 L.Ed.2d 122, 104 S.Ct. 944] (McKaskle); People v. Marlow (2004) 34 Cal.4th 131, 147, fn. 6 [17 Cal.Rptr.3d 825, 96 P.3d 126]; People v. Clark (1992) 3 Cal.4th 41, 111 [10 Cal.Rptr.2d 554, 833 P.2d 561] (Clark); People v. Bloom (1989) 48 Cal.3d 1194 [259 Cal.Rptr. 669, 774 P.2d 698].) Indeed, we stated this rule in our opinion in defendant\u2019s first appeal, in which he raised a related hybrid representation claim when he asserted that his rights had been violated because the trial court denied his request to appear as cocounsel with his appointed counsel. (Moore, supra, 47 Cal.3d at p. 77 [\u201cA defendant has no absolute right to participate in the presentation of his case when he is represented by counsel.\u201d].) The circumstance that a defendant must choose between the exclusive rights of being represented by an attorney or representing himself or herself does not create a conflict of interest, as defendant claims. To the extent defendant contends that any of his constitutional rights (including his right to effective assistance of counsel and the right to represent himself) were violated solely by the absence of cocounsel at his trial, the claim fails.\nAlthough there is no constitutional right to hybrid representation, we have long recognized that trial courts retain the discretion to permit the sharing of responsibilities between a defendant and a defense attorney when the interests of justice support such an arrangement. (People v. Mattson (1959) 51 Cal.2d 111, 797 [336 P.2d 937].) Defendant contends the trial court\u2019s decision not to appoint cocounsel in his case was an abuse of the court\u2019s discretion. We disagree. As we previously stated regarding a challenge to the denial of hybrid representation, \u201cas with other matters requiring the exercise of discretion, \u2018as long as there exists a reasonable or even fairly debatable justification, under the law, for the action taken, such action will not be here set aside .... [Citations.]\u2019 \u201d (Clark, supra, 3 Cal.4th at p. 111.) Defendant failed to make any compelling showing that the appointment of cocounsel instead of advisory counsel was justified. All of the reasons defendant proffered for why he needed the assistance of cocounsel\u2014and not merely advisory counsel\u2014were circumstances related to his choice to represent himself, and defendant was warned of the possible difficulties he would face before he made that choice.\nFor example, defendant argued that the jail\u2019s law library facilities were inadequate, that the case was complex, and that cocounsel could \u201chelp if [he was not] articulate in front of the jury,\u201d could help ensure that the defense case was presented in an orderly manner, and could conduct defendant\u2019s examination if he chose to testify. These potential problems were tied to defendant\u2019s choice to represent himself, and the trial court was not required to appoint cocounsel. In addition, advisory counsel, as well as the investigator and legal runner the trial court had appointed on defendant\u2019s behalf, was available to assist defendant to some degree. Moreover, defendant had already participated in one trial on these very charges, and therefore had some familiarity with trial procedures and the very issues that were likely to come up in his second trial. For these reasons, we cannot conclude that the trial court abused its discretion in denying defendant\u2019s request. (See also People v. Bradford (1997) 15 Cal.4th 1229, 1369 [65 Cal.Rptr.2d 145, 939 P.2d 259] [\u201cThe court was well within its discretion in refusing to permit defendant both to represent himself and to have the benefit of professional representation.\u201d].)\nDefendant makes much of the circumstance that the trial court initially expressed some willingness to appoint cocounsel, and that discussion occurred at subsequent hearings concerning uncertainty regarding how much an attorney receiving such an appointment would be paid for his or her services under the trial court\u2019s contract for the appointment of attorneys for indigent defendants. The trial court ultimately found that the appointment of advisory counsel, which was expressly provided for in the contract, was the best way to ensure defendant received adequate assistance. Defendant contends the trial court\u2019s consideration of the possible financial arrangements for the appointment of cocounsel was improper. Because we have concluded the trial court did not abuse its discretion when it denied his request, we need not decide whether the trial court\u2019s consideration of the funding for such an appointment (to the extent that we might conclude the payment issue actually was a factor in the court\u2019s decision) was erroneous.\nWe therefore conclude the trial court did not abuse its discretion in denying defendant\u2019s request for the appointment of cocounsel. Because there was no abuse of discretion, defendant\u2019s contention that his various constitutional rights were violated is without merit.\nDefendant also contends the trial court\u2019s decision not to appoint cocounsel violated his state law right to the appointment of a second attorney in a capital case, under section 987 and our decision in Keenan v. Superior Court (1982) 31 Cal.3d 424 [180 Cal.Rptr. 489, 640 P.2d 108]. He is incorrect. Initially, we note that Keenan delineated the rights the statute established, which, we concluded, provided the authority in capital cases for trial courts to exercise the discretion to order the appointment of a second attorney. (Keenan, supra, 31 Cal.3d at p. 430.) After Keenan, and before defendant\u2019s retrial, the Legislature revised the statutes relating to the appointment of counsel for indigent defendants, and added subdivision (d) to section 987, an express provision for the appointment of second counsel in a capital case along the lines we set forth in Keenan. (See Stats. 1984, ch. 1109, \u00a7 4, p. 3736.) Therefore, our review of defendant\u2019s state law claim will focus on the determination of the rights the amended statute confers. (People v. Tanner (1979) 24 Cal.3d 514, 521 [156 Cal.Rptr. 450, 596 P.2d 328] [\u201cA specific provision relating to a particular subject will govern a general provision, even though the general provision standing alone would be broad enough to include the subject to which the specific provision relates.\u201d].)\nThe plain language of the statute forecloses defendant\u2019s claim that the trial court erred when it did not appoint \u201csecond\u201d counsel. In short, section 987, subdivision (d) does not apply when a defendant is proceeding in propria persona. Subdivision (d) provides, in relevant part, that \u201cIn a capital case, the court may appoint an additional attorney as a cocounsel upon a written request of the first attorney appointed. The request shall be supported by an affidavit of the first attorney setting forth in detail the reasons why a second attorney should be appointed.\u201d (\u00a7 987, subd. (d), italics added.) A defendant proceeding in propria persona simply is not \u201cthe first attorney appointed,\u201d despite the circumstance that by choosing self-representation, such a defendant takes on the duties that would otherwise fall on his or her attorney. (See Scott v. Superior Court (1989) 212 Cal.App.3d 505, 511 [260 Cal.Rptr. 608] (Scott).) There is no indication in the statute\u2014or anywhere else\u2014that the Legislature intended to create, in effect, a statutory right to hybrid representation, and we reject defendant\u2019s contention that we should interpret the statute\u2019s plain language to reach such a result. (People v. Birkett (1999) 21 Cal.4th 226, 231 [87 Cal.Rptr.2d 205, 980 P.2d 912] [\u201cWe must follow the statute\u2019s plain meaning, if such appears, unless doing so would lead to absurd results the Legislature could not have intended.\u201d].)\nDefendant next contends the denial of his requests for the appointment of cocounsel violated his federal and state constitutional rights to equal protection of the law. Defendant claims that the trial court\u2019s refusal to appoint cocounsel unfairly denied him a benefit bestowed upon other capital defendants. This contention is without merit because defendant has not demonstrated that he was subjected to unfavorable treatment compared to other defendants with whom he was similarly situated. (See Purdy & Fitzpatrick v. State of California (1969) 71 Cal.2d 566, 578 [79 Cal.Rptr. 77, 456 P.2d 645] [\u201cThe concept of the equal protection of the laws compels recognition of the proposition that persons similarly situated with respect to the legitimate purpose of the law receive like treatment.\u201d].)\nDefendant\u2019s equal protection claim proceeds from the faulty premise that, for purposes of the appointment of cocounsel, capital defendants who choose to represent themselves are similarly situated to those who choose representation by appointed counsel. Not so. As our cases make clear, a defendant who chooses to assert his or her Faretta right has no constitutional right whatsoever to have the assistance of an attorney. Similarly, as we discussed above, a self-represented defendant is not \u201cthe attorney first appointed\u201d for purposes of the statutory provision concerning the appointment of a second defense attorney. On a more practical level, although a defendant proceeding in propria persona adopts the duties of a defense attorney, he or she is not bound by the same ethical standards or expected to possess the same level of competence as an attorney. The implication behind defendant\u2019s claim\u2014that it would be no different for two attorneys to work together on a case than it would be for a defendant and an attorney to do so\u2014is incorrect. (See People v. Hamilton (1989) 48 Cal.3d 1142, 1162 [259 Cal.Rptr. 701, 774 P.2d 730] [\u201cUndesirable tactical conflicts, trial delays, and confusion often arise when a defendant who has chosen professional representation shares legal functions with his attorney.\u201d].) Those defendants who assert their constitutional right to represent themselves are not similarly situated to those who choose appointed counsel with respect to the appointment of cocounsel, nor have they been penalized for asserting their Faretta right, as defendant claims. Because defendant has not demonstrated any disparate treatment with regard to his request for the appointment of cocounsel, we conclude the court did not violate his constitutional right to equal protection. (See Scott, supra, 212 Cal.App.3d at pp. 511-512.)\nB. Denial of Motion to Reinstate In Propria Persona Privileges at the Jail\nSeveral days before the trial commenced, a deputy in the jail found in defendant\u2019s possession a sharpened rod that had been removed from the typewriter defendant had been using at the jail\u2019s law library. A disciplinary hearing was held at the jail, during which defendant admitted he possessed the rod, and that it was for his \u201cprotection.\u201d As a result of this incident, defendant\u2019s in propria persona privileges at the jail were revoked, primarily meaning he was not allowed to use the jail\u2019s law library. His phone access was also limited. Defendant asked the trial court to intervene and to order that the jail restore some of his privileges, by, for example, allowing him to use the law library when no other inmates were there, permitting a legal runner to bring him books from the library while he was confined in his cell, and increasing his access to the telephones.\nThe deputy who found the rod testified at a hearing before the trial court that defendant would have access to the telephone during his normal \u201ctier time,\u201d though it would be less than at the law library, and that a legal runner could provide him with legal materials during regular visiting hours. The deputy stated that the jail did not permit the removal of legal materials from the law library, in order to ensure that the materials would be available to other inmates using the library, and to prevent destruction of the materials. The trial court refused to order any changes to defendant\u2019s status, noting that defendant had been warned before exercising his right to represent himself that if he violated the jail\u2019s policies, he could lose his privileges. Defendant contends the trial court\u2019s decision not to order the jail to reinstate his privileges denied him a \u201cmeaningful opportunity to represent himself,\u201d in violation of the Fifth, Sixth and Fourteenth Amendments to the federal Constitution. No violation of his constitutional rights occurred.\nWe have held, as a general rule, that the federal and state constitutional provisions concerning the assistance of counsel for criminal defendants include the right to access \u201c \u2018reasonably necessary defense services.\u2019 \u201d (People v. Blair (2005) 36 Cal.4th 686, 732 [31 Cal.Rptr.3d 485, 115 P.3d 1145], quoting Corenevsky v. Superior Court (1984) 36 Cal.3d 307, 319-320 [204 Cal.Rptr. 165, 682 P.2d 360].) In addition, \u201cwe have recognized that depriving a self-represented defendant of \u2018all means of presenting a defense\u2019 violates the right of self-representation\u201d under the Sixth Amendment to the federal Constitution. (Blair, supra, 36 Cal.4th at p. 733, quoting People v. Jenkins (2000) 22 Cal.4th 900, 1040 [95 Cal.Rptr.2d 377, 997 P.2d 1044] (Jenkins).) \u201cThus, \u2018a defendant who is representing himself or herself may not be placed in the position of presenting a defense without access to a telephone, law library, runner, investigator, advisory counsel, or any other means of developing a defense.\u2019 \u201d (Blair, supra, 36 Cal.4th at p. 733.) But \u201cthe Sixth Amendment requires only that a self-represented defendant\u2019s access to the resources necessary to present a defense be reasonable under all the circumstances.\u201d (Blair, supra, 36 Cal.4th at p. 733, italics added.) In assessing the reasonableness of the access provided under all the circumstances, \u201c[institutional and security concerns of pretrial detention facilities may be considered in determining what means will be accorded to the defendant to prepare his or her defense.\u201d (Jenkins, supra, 22 Cal.4th at p. 1040.) We conclude that under the facts here, defendant was provided with reasonable resources to present a defense.\nFirst, we see nothing improper with the procedures by which defendant\u2019s in propria persona privileges were restricted. We set forth the applicable law in Wilson v. Superior Court (1978) 21 Cal.3d 816, 821-822 [148 Cal.Rptr. 30, 582 P.2d 117]: When a defendant has been granted in propria persona privileges, \u201cthe privileges initially granted him will not thereafter be restricted or terminated except for cause. We further conclude that violation of jail rules and/or a demonstrable necessity for administrative segregation of a defendant who would otherwise constitute a threat to jail security may justify such restriction or termination. We also conclude, however, that the nature of a defendant\u2019s interest in exercising those privileges is such that except in emergency situations, they may be restricted only after notice and hearing. Restrictions that are an incidental result of disciplinary sanctions should therefore follow only after a disciplinary proceeding; nonpunitive restrictions flowing from the sheriff\u2019s determination that institutional security requires segregation or other limitation on the movement of the defendant may be imposed only after a classification hearing to establish the existence of cause for the restriction. Although a court order is affected by restriction of pro. per. privileges, we do not think that due process requires the disciplinary and classification hearings to be held in court so long as provision is made for court review of the matter and for the defendant to appear and be heard at the time of such court review on the sheriff\u2019s application for modification of the order granting pro. per. privileges.\u201d (See also Bell v. Wolfish (1979) 441 U.S. 520, 540 [60 L.Ed.2d 447, 99 S.Ct. 1861] [interests in effective management of detention facilities can justify restrictions on the inmates\u2019 conditions of confinement]; Ferrel v. Superior Court (1978) 20 Cal.3d 888, 892 [144 Cal.Rptr. 610, 576 P.2d 93] [\u201cLimitations on or suspension of a defendant\u2019s pro. per. privileges . . . may be necessary in certain circumstances as a result of a defendant\u2019s misconduct in jail. [Fn. omitted.]\u201d].) In the present case, there was substantial evidence supporting a finding of cause for restricting defendant\u2019s privileges (his possession of a sharpened prisoner-made weapon constituted a threat to jail security); defendant was provided with notice and a hearing before disciplinary sanctions were imposed; and the trial court reviewed the matter when defendant asked the court to override the restrictions. Further, the trial court did not err in rejecting defendant\u2019s request to overrule the jail\u2019s policies that would not permit the special accommodations defendant requested.\nSecond, defendant was provided with other reasonable resources to present his defense, namely, his court-appointed advisory counsel, investigator and legal runner, who had the ability to provide him with legal materials and to make telephone calls on his behalf. Indeed, in Jenkins we stated the controlling principle: despite restrictions on the defendant\u2019s own access to defense resources, \u201c[w]hen the defendant has a lawyer acting as advisory counsel, his or her rights are adequately protected.\u201d (Jenkins, supra, 22 Cal.4th at p. 1040.) Although defendant alleges on appeal that he was not able to contact his appointed assistants, the record contains only defendant\u2019s unsworn statements to the trial court complaining that restrictions on his use of the telephones made it \u201cdifficult\u201d to communicate. Indeed, the record shows advisory counsel and the investigator were able to provide extensive pretrial assistance to defendant.\nTherefore, defendant was not denied reasonable resources necessary to present his defense under all the circumstances of this case,.nor, to the extent he claims so on appeal, can we conclude his decision to accept the appointment of counsel for part of the trial was the result of any unconstitutional interference with his Faretta right.\nThe three opinions of the United States Court of Appeals for the Ninth Circuit upon which defendant relies in arguing that he was not provided adequate resources to present his defense do not support a different conclusion. Advisory counsel, which, as we stated above, is recognized as a resource adequately protecting the defendant\u2019s rights, had not been appointed in either Milton, supra, 161 F.2d 1443, or Taylor, supra, 880 F.2d 1040. In addition, neither of those cases involved the restriction of the defendant\u2019s access to defense resources based upon disciplinary actions by the jail; both involved the unreasonable restriction of access without any apparent legitimate cause. (Milton, supra, 161 F.2d at p. 1445 [\u201cthe state not only affirmatively failed to provide defense resources, but also materially impeded use of the minimal tools for defense preparation which the trial court tried to ensure,\u201d and the state offered \u201cno justification, such as cost or security exigencies, for what occurred\u201d]; Taylor, supra, 880 F.2d at p. 1048 [a genuine issue of material fact existed when the prisoner alleged that jail personnel denied him access to court-appointed law clerks and runners, prevented a witness from testifying, and \u201cso completely hindered [his] ability to prepare a defense that his right to self-representation was denied,\u201d and the state offered no evidence that the actions were justified by security concerns].) The other case defendant relies upon, Bribiesca v. Galaza (9th Cir. 2000) 215 F.3d 1015, is factually inapplicable because it concerns the trial court\u2019s decision to deny the defendant\u2019s request to proceed in propria persona, not any interference with his access to resources. That case adds no support to defendant\u2019s claim, other than the court\u2019s recognition that the defendant had a right to access to resources as stated in Milton, and that \u201c[i]f the state had unconstitutionally denied [the defendant] such access, that denial would have been an independent basis for relief.\u201d (Bribiesca, supra, 215 F.3d at p. 1020.) As discussed above, however, defendant\u2019s access was not unconstitutionally denied.\nFor these reasons, defendant has not demonstrated that the restriction of his in propria persona privileges at the jail and the trial court\u2019s denial of his request to order their restoration violated his constitutional rights.\nC. Denial of Motion to Suppress Evidence\nAfter the Denver police took Avery into custody, she provided information about defendant\u2019s and Lee Harris\u2019s criminal activity in Kansas, and told the police where they could find the two men. After midnight the same evening, the police, acting on an existing Colorado arrest warrant, forcefully entered an apartment at the address Avery gave them, and arrested Harris in a bedroom. On top of a chest of drawers next to Harris was a yellow plastic bag. The bag was open and the arresting officer could see that it contained jewelry. Meanwhile, defendant had been arrested shortly after the police entered the same apartment and he had climbed out of the bathroom window. The police seized the bag and the jewelry inside it, two rings that defendant was wearing, and two rings that Harris was wearing. The bag was from the shoe store in Lawrence, Kansas, where defendant purchased a pair of shoes for Avery. The jewelry in the bag, as well as the rings defendant and Harris were wearing, was identified as having belonged to the Crumbs. The trial court denied defendant\u2019s motion to suppress this evidence after a hearing at which several witnesses testified. Defendant contends the trial court erred, and the admission of the jewelry in the bag seized inside the apartment violated his rights under the Fourth Amendment of the federal Constitution because the police entered the apartment pursuant to an arrest warrant rather than a search warrant. We conclude that, even assuming a violation of defendant\u2019s Fourth Amendment right, the admission of the challenged evidence was harmless beyond a reasonable doubt.\nThe bag and the jewelry it contained corroborated Avery\u2019s testimony regarding defendant\u2019s participation in the Crumbs\u2019 murders, testimony that clearly was the key evidence of defendant\u2019s guilt. But the bag and the jewelry found inside it were not the only, or even the most compelling, corroboration of Avery\u2019s testimony. For example, substantial evidence other than Avery\u2019s testimony supported finding that (1) defendant was the one who knew the victims, where they lived and that they likely would be in possession of money and jewelry on the date of the robbery, and (2) defendant, Avery and Harris, who all lived in Colorado, stayed in a hotel near the victims\u2019 apartment around the time of the murders. Most importantly, however, defendant himself was arrested while wearing jewelry-\u2014-the two rings-\u2014taken from the Crumbs, and defendant does not challenge the admission of that evidence. In addition, both Harris and Avery also were in possession of some pieces of the Crumbs\u2019 jewelry, aside from the jewelry in the yellow bag.\nThe primary issue during the trial was not whether defendant was involved in the crimes, but rather whether, as Avery testified, defendant personally participated in the robbery and murders. The fact that police found the robbery proceeds when they arrested defendant and Harris was not particularly strong corroboration of Avery\u2019s testimony about who actually committed the robbery and murders. From this evidence alone a jury might infer either that Harris and Avery committed the crimes without defendant, and Harris shared the proceeds with defendant (defendant\u2019s theory of the case), or that Harris, defendant and Avery committed the crimes and Harris and defendant shared the proceeds (as Avery testified). But defendant\u2019s possession of the Crumbs\u2019 rings when he was arrested provided essentially the same corroboration as the remaining jewelry\u2014except that it is stronger evidence of his connection to the crimes. We conclude that in light of Avery\u2019s testimony and the other corroborating evidence presented at trial (especially defendant\u2019s own possession of the Crumbs\u2019 rings), any error in denying the suppression motion was harmless beyond a reasonable doubt under Chapman v. California (1967) 386 U.S. 18 [17 L.Ed.2d 705, 87 S.Ct. 824],\nD. Assertedly Inadequate Notice of the Murder Charges and Lack of Trial Court Jurisdiction\nDefendant was charged with murdering the Crumbs willfully and unlawfully and with malice aforethought in violation of section 187. He was not specifically charged with first degree murder in violation of section 189\u2014that is, murder committed in the course of committing an enumerated felony. Defendant raises several claims related to the failure to separately charge him with felony murder pursuant to section 189, rather than only malice murder under section 187. We have previously rejected claims identical to defendant\u2019s, and he presents no reason for us to reconsider those decisions. (See People v. Morgan (2007) 42 Cal.4th 593, 616-617 [67 Cal.Rptr.3d 753, 170 P.3d 129] [stating \u201ca defendant may be convicted of first degree murder even though the indictment or information charged only murder with malice in violation of section 187\u201d and rejecting claims that trial court lacked jurisdiction and improperly instructed the jury on first degree murder theories, and that defendant received inadequate notice of prosecution\u2019s case theory]; People v. Hughes (2002) 27 Cal.4th 287, 369-370 [116 Cal.Rptr.2d 401, 39 P.3d 432] (Hughes) [rejecting claim that People v. Dillon (1983) 34 Cal.3d 441 [194 Cal.Rptr. 390, 668 P.2d 697] implicitly overruled People v. Witt (1915) 170 Cal. 104 [148 P. 928], which held that first degree murder and felony murder are not separate crimes].)\nE. Asserted Trial Court Error in Failing to Limit Jury Instruction Concerning Defendant\u2019s Possession of Stolen Items\nBecause defendant was found in possession of the victims\u2019 jewelry when he was arrested in Colorado, the trial court gave the jury the following instruction based on CALJIC No. 2.15: \u201cIf you find that the defendant was in conscious possession of recently stolen property, the fact of such possession is not by itself sufficient to permit an inference that the defendant is guilty of the crimes charged. Before guilt may be inferred, there must be corroborating evidence tending to prove defendant\u2019s guilt. However, this corroborating evidence need only be slight and need not by itself be sufficient to warrant an inference of guilt, [f] As corroboration, you may consider the attributes of possession, time, place, and manner, that the defendant had an opportunity to commit the crime charged, the defendant\u2019s conduct, and any other evidence which tends to connect the defendant with the crimes charged.\u201d\nDefendant contends giving this instruction constituted error because the trial court\u2019s references to the \u201ccrimes charged\u201d included the murder charges, and, accordingly, the scope of the instruction was not limited to the \u201ctheft-related\u201d charges. We assume defendant\u2019s failure to object to this instruction at trial did not forfeit his appellate claim. (See People v. Kelly (2007) 42 Cal.4th 763, 791 [68 Cal.Rptr.3d 531, 171 P.3d 548] [a claim that an instruction is not \u201ccorrect in law\u201d may be raised on appeal despite the failure to object below].) We held in People v. Prieto (2003) 30 Cal.4th 226, 248-249 [133 Cal.Rptr.2d 18, 66 P.3d 1123] (Prieto) that giving a nearly identical instruction in similar circumstances constituted error, and we decline the Attorney General\u2019s invitation to reconsider that decision. (See also People v. Gamache (2010) 48 Cal.4th 347, 375 [106 Cal.Rptr.3d 771, 227 P.3d 342] (Gamache); People v. Coffman and Marlow (2004) 34 Cal.4th 1, 101 [17 Cal.Rptr.3d 710, 96 P.3d 30] (Coffman).) As we did in Prieto, we conclude the error was harmless under the applicable standard. As we explain, contrary to defendant\u2019s arguments that the error is one of federal constitutional magnitude, we conclude the error is one of state law only, subject to the miscarriage of justice test under People v. Watson (1956) 46 Cal.2d 818, 836 [299 P.2d 243] (Watson)\u2014whether defendant has established there exists a reasonable probability he would have obtained a more favorable result if the error had not occurred. (Gamache, supra, 48 Cal.4th at p. 376.)\nInitially, we note that the majority of the instruction at issue is an entirely accurate statement of the law, even as related to charges of murder or other nontheft offenses. We have long held that possession of recently stolen property by itself is not sufficient to support a finding of guilt of any offense\u2014including theft-related offenses\u2014and, accordingly, there must be other corroborating evidence of the defendant\u2019s guilt. (People v. Boxer (1902) 137 Cal. 562, 564 [70 P. 671].) It is also accurate to inform the jury that the corroborating evidence need not be sufficient to prove guilt by itself (since it is combined with any additional inference of guilt the jury draws from the defendant\u2019s possession of the fruits of the crime). Also, the factors listed in the instruction may serve as corroboration of guilt if the jury so finds. (See Gamache, supra, 48 Cal.4th at p. 375 [\u201cCALJIC No. 2.15 is an instruction generally favorable to defendants; its purpose is to emphasize that possession of stolen property, alone, is insufficient to sustain a conviction for a theft-related crime.\u201d].) The difficulty in using this instruction in the context of nontheft offenses is the provision that the corroboration of the defendant\u2019s guilt \u201cneed only be slight.\u201d (CALJIC No. 2.15.) The error we recognized in Prieto is not including a nontheft crime in the instruction, but rather including the slight corroboration portion of the instruction when a nontheft offense is involved.\nWe have not held, however, that this error (instructing the jury it could infer defendant\u2019s guilt of murder based on his possessing recently stolen property with other slight corroboration of guilt) is of federal constitutional magnitude, and we reject defendant\u2019s three arguments to the contrary. First, informing the jury that it may infer defendant\u2019s guilt of murder in these circumstances did not allow it to convict defendant based on a \u201cfundamentally incorrect theory of culpability.\u201d The instruction in no way altered the trial court\u2019s proper instructions concerning the elements of murder that the prosecution was required to prove beyond a reasonable doubt. The jury was instructed it could draw merely \u201can inference of guilt\u201d from the fact of possession with slight corroboration, which any rational juror would understand meant he or she could consider this inference in deciding whether the prosecution has established the elements of murder (and the other offenses) elsewhere defined in the trial court\u2019s instructions. The instruction purported to explain to the jury its proper consideration of a particular item of circumstantial evidence in reaching a verdict on the charges; it did not alter the defining elements of those charges.\nIn addition, the instruction, although erroneous in applying the slight corroboration rule to the murder charge, did not create an improper permissive inference under the federal Constitution. The federal due process clause \u201cprohibits the State from using evidentiary presumptions in a jury charge that have the effect of relieving the State of its burden of persuasion beyond a reasonable doubt of every essential element of a crime.\u201d (Francis v. Franklin (1985) 471 U.S. 307, 313 [85 L.Ed.2d 344, 105 S.Ct. 1965].) Because permissive inferences, as opposed to mandatory inferences, do not require that the jury reach a certain finding based on a predicate fact, the prosecution\u2019s burden of persuasion is improperly diminished only if the permissive inference is irrational. (Yates v. Evatt (1991) 500 U.S. 391, 402, fn. 7 [114 L.Ed.2d 432, 111 S.Ct. 1884] [\u201cA permissive presumption merely allows an inference to be drawn and is constitutional so long as the inference would not be irrational.\u201d].)\nAlthough we concluded in Prieto that the connection between a defendant\u2019s guilt of nontheft offenses and his or her possession of property stolen in the crime is not sufficiently strong to warrant application of the slight corroboration rule, this does not mean that drawing a connection between possession and guilt is irrational. Indeed, the United States Supreme Court has acknowledged explicitly the logical connection between possession of the fruits of a crime and the possessor\u2019s guilt of that crime, even when the crime at issue is a nontheft offense. In Wilson v. United States (1896) 162 U.S. 613, 619-620 [40 L.Ed. 1090, 16 S.Ct. 895], the high court stated: \u201cPossession of the fruits of crime, recently after its commission, justifies the inference that the possession is guilty possession, and, though only prima facie evidence of guilt, may be of controlling weight, unless explained by the circumstances or accounted for in some way consistent with innocence. [Citation.] [A prior case] held that, on an indictment for arson, proof that property was in the house at the time it was burned, and was soon afterwards found in the possession of the prisoner, raises a probable presumption that he was present and concerned in the offence; and [another case held] that there is a like presumption in the case of murder accompanied by robbery. Proof that defendant had in his possession, soon after, articles apparently taken from the deceased at the time of his death is always admissible, and the fact, with its legitimate inference, is to be considered by the jury along with the other facts in the case in arriving at their verdict.\u201d (See also State v. Joyner (1980) 301 N.C. 18 [269 S.E.2d 125, 132] [defendant\u2019s recent possession of stolen property is circumstance tending to show defendant was present in the victim\u2019s apartment at the time the rape occurred, and a circumstance the jury could consider on question of defendant\u2019s guilt of larceny and rape]; People v. Peete (1921) 54 Cal.App. 333, 346 [202 P. 51] [defendant\u2019s possession, shortly after a homicidal death, of articles known to have belonged to decedent, under circumstances that would justify inference of larceny, is sufficient to establish defendant\u2019s guilt, especially when coupled with defendant\u2019s false statements as to the whereabouts of missing person (decedent)].)\nWe cannot say, therefore, that it would have been irrational for the jury here to draw an inference of defendant\u2019s guilt of the Crumb murders from his possessing their property soon after the murders when there was other slight corroboration of guilt, especially when it is likely the same person or persons who killed the victims also took their belongings. (Cf. People v. Najera (2008) 43 Cal.4th 1132, 1138 [77 Cal.Rptr.3d 605, 184 P.3d 732] [finding evidence of possession of recently stolen property is not alone sufficient to prove guilt \u201cdoes not derive from an extrinsic legal rule but, rather, is apparent from the general rule governing the jury\u2019s consideration of circumstantial evidence\u201d]; People v. Yeoman (2003) 31 Cal.4th 93, 131 [2 Cal.Rptr.3d 186, 72 P.3d 1166] [jury may consider evidence that is not alone sufficient to convict].)\nAs we concluded in Prieto, the instruction\u2019s reference to slight corroboration did not unconstitutionally lower the prosecution\u2019s burden of proving each element of the crimes beyond a reasonable doubt: the instruction \u201cdid not directly or indirectly address the burden of proof, and nothing in the instruction absolved the prosecution of its burden of establishing guilt beyond a reasonable doubt.\u201d (Prieto, supra, 30 Cal.4th at p. 248.) Other instructions also properly informed the jury of its duty to weigh the evidence, what evidence it may consider, how to weigh that evidence, and the burden of proof. We decline defendant\u2019s invitation to reconsider this conclusion. (See ibid.; see also Gamache, supra, 48 Cal.4th at p. 376.)\nWe apply the Watson standard in assessing the harmfulness of the instructional error, as we have done in Prieto, Coffman and Gamache. The key evidence in this case was Terry Avery\u2019s testimony regarding the crimes; if the jury believed her account, the evidence of defendant\u2019s guilt was overwhelming and the erroneous instruction could have had no effect on the jury\u2019s decision. In light of the jury\u2019s verdicts, including the true findings on the allegations that defendant personally used a firearm during the crimes (of which there was no evidence other than Avery\u2019s testimony) and the \u201cpanoply of other instructions that guided the jury\u2019s consideration of the evidence\u201d (Coffman, supra, 34 Cal.4th at p. 101), we conclude the instructional error was harmless (Watson, supra, 46 Cal.2d at p. 836).\nF. Asserted Trial Court Error in Instructing the Jury Not to Consider the Prosecution of Other Person\nThe trial court gave a modified version of CALJIC No. 2.11.5 as follows: \u201cThere\u2019s been evidence in this case indicating that a person other than defendant was or may have been involved in the crime for which the defendant is on trial. []Q There may be reasons why that person is not here on trial. Therefore, do not discuss or give any consideration as to why the other person is not being prosecuted in this trial or whether Lee Harris has been or will be prosecuted. Your sole duty is to decide whether the People have proved the guilt of the defendant on trial.\u201d Defendant contends this instruction was erroneous because it told the jury to ignore evidence concerning Terry Avery\u2019s possible motivation to implicate defendant in the crimes\u2014that she might have framed defendant for the crimes in order to shift blame from herself and to receive immunity from prosecution.\nInitially, we note that defendant forfeited his claim when he failed to object to this instruction at trial. (People v. Williams (2010) 49 Cal.4th 405, 457 [111 Cal.Rptr.3d 589, 233 P.3d 1000] [failure to request modification of CALJIC No. 2.11.5 where it properly applied to another witness forfeits appellate claim of error].) In any event, for the same reasons stated in Williams, we conclude there was no error. \u201c \u2018[T]he giving of CALJIC No. 2.11.5 is not error when it is given together with other instructions that assist the jury in assessing the credibility of witnesses. [Citation.] That occurred here, where the trial court instructed the jury it could consider any evidence of witness credibility, including the existence or nonexistence of a bias, interest, or other motive (CALJIC No. 2.20), and to consider the instructions as a whole (CALJIC No. 1.01).\u2019 \u201d (Williams, supra, at pp. 457-458.) We also observe that here, the likelihood the jury misinterpreted the instruction as applying to Avery is diminished because only Lee Harris was specifically mentioned, and all the other references were to a singular \u201cperson\u201d; i.e., the most likely interpretation of the instruction is that it applied only to Harris.\nG. Asserted Trial Court Error in Jury Instructions Concerning Direct and Circumstantial Evidence\nDefendant contends the trial court erred in instructing the jury with CALJIC No. 2.01\u2014which is a cautionary instruction concerning the jury\u2019s consideration of circumstantial evidence\u2014without modifying the instruction to inform the jury to apply those same cautionary principles to its consideration of direct evidence. Defendant forfeited his claim because he did not object to the instruction despite many opportunities to do so. (People v. Catlin (2001) 26 Cal.4th 81, 149 [109 Cal.Rptr.2d 31, 26 P.3d 357].) In any event, we recently rejected the identical claim, and discern no reason to revisit our conclusion. (People v. Solomon (2010) 49 Cal.4th 792, 826-827 [112 Cal.Rptr.3d 244, 234 P.3d 501].)\nH. Assertedly Erroneous Admission of Penalty Phase Aggravating Evidence\nDefendant raises several challenges to the admission of penalty phase evidence concerning his unadjudicated criminal activity during incarceration. He first challenges \u201cas a general matter\u201d the constitutionality of the admission of unadjudicated criminal activity. Assuming this perfunctory claim is properly raised under People v. Schmeck (2005) 37 Cal.4th 240, 303 [33 Cal.Rptr.3d 397, 118 P.3d 451], we have consistently held that the admission of unadjudicated criminal activity as aggravating evidence at the penalty phase is constitutional. (See, e.g., People v. Valencia (2008) 43 Cal.4th 268, 311 [74 Cal.Rptr.3d 605, 180 P.3d 351] (Valencia); People v. Avena (1996) 13 Cal.4th 394, 428-429 [53 Cal.Rptr.2d 301, 916 P.2d 1000].)\nDefendant next challenges the admission of several other crime incidents as improper under the state and federal Constitutions and state statutes because the evidence allegedly was \u201cmisleading, unreliable and inflammatory,\u201d and was insufficient as a matter of law. He did not object during the trial to the evidence as being misleading, unreliable and inflammatory, and therefore has forfeited that aspect of his claim. (People v. Partida (2005) 37 Cal.4th 428, 434-435 [35 Cal.Rptr.3d 644, 122 P.3d 765].) In any event, no reversible error occurred.\nBoth former and present section 190.3, factor (b) (factor (b)) provide that in making the penalty determination, the trier of fact is to consider, if relevant, \u201c \u2018The presence or absence of criminal activity by the defendant which involved the use or attempted use of force or violence or the expressed or implied threat' to use force or violence.\u2019 \u201d (People v. Phillips (1985) 41 Cal.3d 29, 70 [222 Cal.Rptr. 127, 711 P.2d 423] (plur. opn.).) As defendant points out, evidence admitted under this provision must establish that the conduct was prohibited by a criminal statute and satisfied the essential elements of the crime. (Id. at p. 72; People v. Boyd (1985) 38 Cal.3d 762, 778 [215 Cal.Rptr. 1, 700 P.2d 782].) The prosecution bears the burden of proving the factor (b) other crimes beyond a reasonable doubt. (Boyd, supra, 38 Cal.3d at p. 778.)\nDefendant contends the evidence regarding the incidents in which he fought with other inmates at San Quentin prison was insufficient to establish that he engaged in the \u201cwillful and unlawful use of force or violence upon the person of another\u201d; that is, that his acts constituted batteries in violation of section 242, or \u201can unlawful attempt, coupled with a present ability, to commit a violent injury on the person of another,\u201d that is, assaults in violation of section 240. He appears to argue that the evidence did not prove his actions were \u201cunlawful\u201d because he may have been provoked, acting in self-defense, or engaging in \u201chorseplay\u201d or mutually agreed upon combat with his foes. The evidence, however, did not raise any legal justification for defendant\u2019s actions, and, therefore the prosecution was not required to introduce evidence negating any possible justification for the activities. (People v. Lucky (1988) 45 Cal.3d 259, 291 [247 Cal.Rptr. 1, 753 P.2d 1052].) In addition, \u201c[voluntary mutual combat outside the rules of sport is a breach of the peace, mutual consent is no justification, and both participants are guilty of criminal assault. (See 1 Witkin, Cal. Crimes (1963) \u00a7 171, p. 163.) Thus, where the prosecution\u2019s evidence shows a jailhouse scuffle, the scene as witnessed does not suggest defendant may have been acting in self-defense, and defendant presents no evidence in mitigation, a finding of criminal assault is justified.\u201d (Lucky, supra, at p. 291.) The evidence concerning defendant\u2019s fights with other inmates was therefore properly admitted and sufficient to support the jury\u2019s consideration of those incidents as aggravating factors.\nDefendant also contends the incident in which he threw his food tray in San Quentin was not criminal, because he \u201cthrew his food tray at his cell bars and some food hit\u201d the correctional officer who was serving the food. Defendant\u2019s characterization of the evidence is inaccurate. The officer testified that defendant threw the tray at her, and that food \u201csplattered all over [her].\u201d This was sufficient evidence for the jury to conclude that defendant had committed an assault or a battery, and, therefore, the jury could consider this as aggravating evidence under factor (b). (People v. Lewis and Oliver (2006) 39 Cal.4th 970, 1053 [47 Cal.Rptr.3d 467, 140 P.3d 775] [jury could infer from act of throwing milk carton and hot coffee at a prison guard that the defendant had \u201ccommitted an unlawful and physically threatening act, i.e., an assault\u201d]; People v. Pinholster (1992) 1 Cal.4th 865, 961 [4 Cal.Rptr.2d 765, 824 P.2d 571] [\u201cthrowing a cup of urine in a person\u2019s face is a battery, since \u2018[a]ny harmful or offensive touching constitutes an unlawful use of force or violence\u2019 and thus a battery under section 243\u201d].)\nDefendant also contends the trial court erred in admitting evidence concerning the fact that he possessed two shanks in jail. He asserts that the fact that a shank was found on top of the conduit just above and outside the bars of his cell was insufficient to allow the jury to consider it as aggravating evidence because there was no proof\u2014only, \u201cbald speculation and conjecture\u201d\u2014that defendant was the one who put the item there. The deputy testified, however, that it would be difficult for anyone outside of the cell to reach the conduit, that anyone attempting to do so would be in plain view of the cameras monitoring the tier, that a person inside the cell could reach the shank with only his fingers being visible, and that the cell areas are searched before a new inmate is placed in a cell. The evidence therefore was sufficient for the jury to find that defendant possessed the shank.\nIn addition, defendant asserts that an inmate\u2019s mere possession of a shank when in custody, which violates section 4502, subdivision (a), does not involve violence or an actual or implied threat of force or violence, as factor (b) requires. He is mistaken. (People v. Martinez (2003) 31 Cal.4th 673, 697 [3 Cal.Rptr.3d 648, 74 P.3d 748] [\u201cmere possession of a potentially dangerous weapon in custody involves an implied threat of violence\u201d]; People v. Harris (1981) 28 Cal.3d 935, 963 [171 Cal.Rptr. 679, 623 P.2d 240] [possession of a wire garrote and a prison-made knife while in jail \u201cclearly involved an implied threat to use force or violence\u201d].) Defendant\u2019s reliance on People v. Cox (2003) 30 Cal.4th 916, 973 [135 Cal.Rptr.2d 272, 70 P.3d 277], which held that the trial court erred when it considered the defendant\u2019s possession of firearms under factor (b), is misplaced because Cox did not involve an inmate\u2019s illegal possession of weapons while in custody. (See Cox, at p. 955 [firearms in question were found during a search of the defendant\u2019s car].)\nDefendant next claims the trial court erred when it admitted testimony concerning defendant\u2019s possession of a plastic baggie containing a liquid that the deputy testified smelled like urine. He argues his possession of a baggie of urine was not a crime, and therefore was not \u201ccriminal activity\u201d as required under Phillips and factor (b). The Attorney General counters that there was no reasonable explanation for defendant\u2019s possession of the baggie other than he intended to use it as a weapon in committing a battery. The Attorney General does not, however, point to a Penal Code section that specifically prohibits possession of a baggie of urine in the manner that section 4502 prohibits an inmate\u2019s possession of specific weapons. Possession of an item that is not otherwise prohibited might be considered criminal when the person in possession has the intent to commit a battery and has the present ability to do so, that is, when he or she has committed an assault under section 240. To the extent the Attorney General\u2019s argument implies that defendant\u2019s possession of the baggie of urine constituted an attempt to commit an assault, no such crime exists. (In re James M. (1973) 9 Cal.3d 517, 521-522 [108 Cal.Rptr. 89, 510 P.2d 33].) Assuming for argument purposes that the evidence of defendant\u2019s possession of the baggie of urine was insufficient to prove beyond a reasonable doubt that he had the present ability to commit a battery, and was erroneously admitted because it was not \u201ccriminal activity\u201d under factor (b), we conclude any error was harmless beyond a reasonable doubt. The jury heard evidence of defendant\u2019s participation in three brutal murders, his conviction for the armed robbery of a jewelry store, his escape from custody by overpowering a deputy, taking his firearm and committing a carjacting with the weapon, and his fighting and possessing other dangerous weapons while in custody. We have no doubt that the jury would have reached the same verdict had the evidence of his possession of the baggie of urine not been admitted at trial.\nDefendant also challenges the admission of evidence regarding his convictions in Colorado for robbery and escape from custody, and in Kansas for murder, arguing this evidence did not come within the terms of the applicable 1977 death penalty statute. He claims that statute, which lacked a provision similar to the present day section 190.3, factor (c) regarding the admission of a defendant\u2019s prior felony convictions, did not permit the admission of the fact of a conviction as aggravating evidence. He also claims that the convictions at issue were improperly admitted because they occurred after the crimes against the Crumbs. Defendant, however, forfeited this claim by failing to object to the evidence at trial. (Evid. Code, \u00a7 353; People v. Partida (2005) 37 Cal.4th 428, 434-435 [35 Cal.Rptr.3d 644, 122 P.3d 765].) In any event, there was no error because the convictions were properly admitted under factor (b) of the 1977 law as evidence of defendant\u2019s criminal activity that \u201cinvolved the use or attempted use of force or violence or the expressed or implied threat to use force or violence.\u201d (Former \u00a7 190.3, factor (b).) As former Chief Justice George stated in his concurring opinion in People v. Ray, the language of section 190.3 in the 1977 death penalty law \u201cmade it clear that the prosecution could present evidence of criminal activity by the defendant involving the use or threat of force or violence even if that activity had not resulted in a conviction. At the same time, the Legislature implicitly confirmed that when the defendant had been convicted of a crime involving the use or threat of force or violence, the prosecution, of course, could rely upon that conviction to establish \u2018the presence ... of criminal activity\u2019 for purposes of section 190.3, factor (b).\u201d (People v. Ray (1996) 13 CalAth 313, 367 [52' Cal.Rptr.2d 296, 914 P.2d 846] (Ray) (cone. opn. of George, C. J., joined by Baxter, Werdegar, Lucas & Arabian, JJ.).) Interpreting the statute to prohibit the introduction of evidence of convictions of violent offenses \u201cwould fly in the face of past practice and would be quite impractical, compelling the prosecution to relitigate fully\u2014through the testimony of victims and witnesses and the presentation of physical and documentary evidence\u2014each violent crime of which the defendant already had been convicted, and, at the same time, prohibiting the prosecution from bringing to the jury\u2019s attention at the penalty phase other violent criminal activity of the defendant that had resulted in a conviction, whenever the physical evidence or witnesses presented in the earlier proceedings no longer were available.\u201d (Id. at pp. 367-368.) Accordingly, defendant\u2019s convictions for robbery, escape and murder were properly admitted under the then existing version of factor (b). In addition, because the factor (b) evidence was admissible to prove defendant\u2019s violent propensities, the fact that the convictions occurred after defendant participated in murdering the Crumbs was of no moment. (People v. Hovey (1988) 44 Cal.3d 543, 577-579 [244 Cal.Rptr. 121, 749 P.2d 776]; People v. Balderas (1985) 41 Cal.3d 144, 202 [222 Cal.Rptr. 184, 711 P2d 480].)\nDefendant also claims the trial court\u2019s instruction to the jury concerning the factor (b) evidence improperly removed from its consideration whether his acts constituted criminal activity, i.e., violated a criminal statute. To the extent that we may consider this claim under section 1259 despite defendant\u2019s failure to raise it below (see \u00a7 1259 [an \u201cappellate court may . . . review any instruction given, . . . even though no objection was made thereto in the lower court, if the substantial rights of the defendant were affected thereby\u201d]), we recently rejected the identical claim in People v. Harris (2008) 43 Cal.4th 1269, 1311-1312 [78 Cal.Rptr.3d 295, 185 P3d 727], and see no reason to reconsider that decision.\nDefendant further contends the trial court erred by not instructing the jury on its own motion that it must find the criminal activity admitted as aggravating evidence under factor (b) involved force or violence. To the contrary, this preliminary finding was a legal decision for the trial court, and the absence of an instruction did not violate defendant\u2019s statutory or constitutional rights. (People v. Butler (2009) 46 Cal.4th 847, 872 [95 Cal.Rptr.3d 376, 209 P3d 596].)\nI. Assertedly Erroneous Penalty Phase Instruction Concerning Jury Unanimity\nDefendant contends the trial court erred when it instructed the jury that it was not required to unanimously find the factor (b) other-crimes evidence proved beyond a reasonable doubt, because the court failed to also instruct the jury that it need not be unanimous in finding proof of any mitigating factors. Defendant forfeited the claim, however, because he failed to raise it at trial. (People v. Hudson (2006) 38 Cal.4th 1002, 1011-1012 [44 Cal.Rptr.3d 632, 136 P.3d 168] [\u201c \u2018Generally, a party may not complain on appeal that an instruction correct in law and responsive to the evidence was too general or incomplete unless the party has requested appropriate clarifying or amplifying language.\u2019 \u201d].) Even if we review the claim despite defendant\u2019s failure to preserve the issue, it is without merit.\n\u201cWhen we review challenges to a jury instruction as being incorrect or incomplete, we evaluate the instructions given as a whole, not in isolation. [Citation.] \u2018For ambiguous instructions, the test is whether there is a reasonable likelihood that the jury misunderstood and misapplied the instruction.\u2019 \u201d (People v. Rundle (2008) 43 Cal.4th 76, 149 [74 Cal.Rptr.3d 454, 180 P.3d 224].) There is no right to parity of jury instructions, as defendant appears to imply in his arguments; both parties simply have the right to instructions that properly explain the law. The nonunanimity instruction the trial court gave helped to avoid possible confusion regarding the sentencing factor that had a burden of proof, by telling the jury that, unlike at the guilt phase and despite the same beyond a reasonable doubt standard, unanimity was not required. (See also People v. Jennings (1988) 46 Cal.3d 963, 988 [251 Cal.Rptr. 278, 760 P2d 475] [trial court did not err by instructing the jury that unanimity was not required for factor (b) evidence].) That we concluded the trial court\u2019s refusal to give a similar instruction regarding mitigating evidence was not error in People v. Breaux (1991) 1 Cal.4th 281, 314-315 [3 Cal.Rptr.2d 81, 821 P.2d 585], does not mean the prosecution has unconstitutionally received preferential treatment. Moreover, in the present case there is no reasonable likelihood the jury misunderstood the court\u2019s instruction to mean that the jury was required to be unanimous regarding mitigating factors. Therefore, the absence of a nonunanimity instruction regarding mitigating evidence did not undermine defendant\u2019s constitutional rights.\nJ. Challenges to CALJIC No. 8.88\nDefendant raises several familiar challenges to CALJIC No. 8.88, by which the trial court instructed the jury on the process for reaching its penalty decision. Defendant contends the instruction (1) was vague and failed to properly describe the factors weighing process; (2) contradicted the statutory language regarding the relative weight of aggravating and mitigating factors that would justify a death verdict; (3) improperly told the jury that a single mitigating factor could not justify a life without the possibility of parole sentence; (4) failed to adequately describe the scope of mitigation; and (5) misled the jury regarding the meaning of a sentence of life without the possibility of parole. These alleged shortcomings, he asserts, violated his federal and state constitutional rights. Despite defendant\u2019s failure to object to the instruction at trial, we nonetheless may address the merits of his contentions under section 1259 to the extent he alleges his substantial rights were affected. As defendant acknowledges, however, we have previously rejected these claims. Although defendant asks us to revisit our prior decisions, he presents no compelling reason to do so, and we therefore reject his claims for the reasons stated in those decisions. (See, e.g., People v. Page (2008) 44 Cal.4th 1, 55-58 [79 Cal.Rptr.3d 4, 186 P.3d 395]; Valencia, supra, 43 Cal.4th at pp. 308-310; Hughes, supra, 27 Cal.4th at p. 405; People v. Duncan (1991) 53 Cal.3d 955, 978 [281 Cal.Rptr. 273, 810 P.2d 131]; see also People v. Barnett (1998) 17 Cal.4th 1044, 1176-1177 [74 Cal.Rptr.2d 121, 954 P.2d 384] [\u201cWe have also squarely held that the CALJIC instructions are adequate to inform the jurors of their sentencing responsibilities in compliance with federal and state constitutional standards.\u201d].)\nK. Accomplices\u2019 Case Dispositions\nIn the course of the trial, the jury learned that Avery had been granted immunity and would not be prosecuted for her involvement in the Crumb murders. In the same vein, defendant sought to introduce evidence that Harris had been convicted and sentenced to life without the possibility of parole for the Crumb murders, but the trial court excluded that evidence. The trial court also denied defendant\u2019s request for a special instruction informing the jury it could consider \u201cthe fact that the defendant\u2019s accomplice received a more [lenient] sentence as a mitigating factor.\u201d Defendant contends the trial court\u2019s rulings were erroneous under state law and violated his rights under the state and federal Constitutions to present mitigating evidence. We are not persuaded.\nWe have consistently held that evidence concerning coparticipants\u2019 sentences is properly excluded from the penalty phase of a capital trial because such evidence is irrelevant. (People v. Brown (2003) 31 Cal.4th 518, 562-563 [3 Cal.Rptr.3d 145, 73 P.3d 1137]; People v. McDermott (2002) 28 Cal.4th 946, 1004-1005 [123 Cal.Rptr.2d 654, 51 P.3d 874]; People v. Beardslee (1991) 53 Cal.3d 68, 111-112 [279 Cal.Rptr. 276, 806 P.2d 1311]; People v. Johnson (1989) 47 Cal.3d 1194, 1249 [255 Cal.Rptr. 569, 767 P.2d 1047].) Although defendant cites statutes of other jurisdictions providing for the jury\u2019s consideration of such evidence in mitigation, such as, for example, section 3592, subdivision (a)(4) of title 18 of the United States Code, decades ago we acknowledged that the Florida courts similarly had adopted a contrary view, but we found unpersuasive the reasoning supporting that position. (People v. Belmontes (1988) 45 Cal.3d 744, 811-812 [248 Cal.Rptr. 126, 755 P.2d 310].) As we stated in People v. Dyer (1988) 45 Cal.3d 26, 70 [246 Cal.Rptr. 209, 753 P.2d 1], \u201cthe fact that a different jury under different evidence, found that a different defendant should not be put to death is no more relevant than a finding that such a defendant should be sentenced to death. Such evidence provides nothing more than incomplete, extraneous, and confusing information to a jury, which is then left to speculate: \u2018Why did that jury do that? What was different in that case? What did that jury know that we do not know?\u2019 \u201d (Fn. omitted.) Any attempt to answer these questions is further stymied by the normative nature of a jury\u2019s penalty decision under California law. (See People v. Stitely (2005) 35 Cal.4th 514, 571-572 [26 Cal.Rptr.3d 1, 108 P.3d 182] (Stitely).) Accordingly, the exclusion of the irrelevant evidence of Harris\u2019s sentence and the refusal to give defendant\u2019s proposed instruction, which was incorrect as a matter of law, were not error and did not violate defendant\u2019s constitutional rights. (See Brown, supra, at pp. 562-563; Dyer, supra, at pp. 69-71.)\nWe further point out that defendant\u2019s proposed instruction would not have instructed the jury on its ability to consider the relative culpability of the participants in the Crumbs\u2019 murders, as defendant appears to imply by his citations to People v. Malone (1988) 47 Cal.3d 1, 58 [252 Cal.Rptr. 525, 762 P.2d 1249], and Green v. Georgia (1979) 442 U.S. 95, 97 [60 L.Ed.2d 738, 99 S.Ct. 2150]. The trial court did, in fact, instruct the jury, per the standard instruction, that the jury was permitted to consider \u201cwhether or not defendant was an accomplice to the offense and his participation in the commission of the offense was relatively minor.\u201d\nDefendant\u2019s attempt on appeal to reshape the proposed instruction into one concerning the credibility of Avery\u2019s testimony is similarly unavailing. The proposed instruction would have called the jury\u2019s attention to Avery\u2019s \u201cmore lenient\u201d sentence (that is, no sentence at all), and directed it to consider that as a mitigating factor in deciding defendant\u2019s sentence. Even if defendant at trial actually intended the proposed instruction to draw the jury\u2019s attention to the circumstance that Avery may have lied in order to receive a lenient sentence for herself, the trial court would have properly denied defendant\u2019s request because the language of his instruction would not have conveyed that meaning to the jury. The trial court also had instructed the jury at the guilt phase to consider a witness\u2019s \u201cinterest, or other motive\u201d in assessing his or her credibility and, specifically, to view accomplice testimony incriminating defendant with caution. The court instructed the jury at the penalty phase that it was to follow the guilt phase instructions, with an exception not relevant here. We therefore conclude that, even if defendant\u2019s instruction could be viewed as addressing Avery\u2019s credibility, the trial court was not required to give another instruction on the subject.\nL. Asserted Violation of Due Process in Prosecution\u2019s Assertedly Inconsistent Positions at Defendant\u2019s and Lee Harris\u2019s Trials\nDefendant contends the prosecutor violated his constitutional right to due process by arguing inconsistent theories of culpability during the penalty phases of Harris\u2019s and defendant\u2019s trials. According to defendant, at Harris\u2019s trial, the prosecutor essentially argued that Harris was the mastermind of the crimes, and he compelled defendant and Avery to participate, whereas at defendant\u2019s trial, the prosecutor argued defendant was a coequal participant in planning and carrying out the crimes. Notwithstanding defendant\u2019s arguments to the contrary, we reject his claim on appeal for the same reasons we stated in People v. Sakarias (2000) 22 Cal.4th 596, 635 [94 Cal.Rptr.2d 17, 995 P.2d 152]: \u201c[T]he asserted inconsistencies in prosecutorial theory were not the subject of any proceeding in the trial court and, hence, neither the inconsistencies nor any explanations the prosecutor may have been able to offer appear in the appellate record . . . .\u201d We also deny defendant\u2019s related motion requesting that we take judicial notice of the transcripts of Harris\u2019s trials. (Id. at p. 636 [\u201cto take notice under these circumstances and for the purpose requested would be to augment improperly the appellate record\u201d].) Defendant must raise his due process claim in a petition for a writ of habeas corpus, not in his appeal. (Id. at p. 635.)\nM. Absence of Jury Instruction Regarding Requirement of Corroboration of Terry Avery\u2019s Penalty Phase Testimony\nDefendant contends the trial court was required sua sponte to instruct the jury it was necessary that it find corroboration of Terry Avery\u2019s testimony regarding the details of the murder of Sam Norwood in Kansas. (See \u00a7 1111; CALJIC No. 3.11.) Defendant is wrong: because he already had been convicted of the Kansas crimes, it was not necessary to instruct the jury in this manner. (People v. Hernandez (2003) 30 Cal.4th 835, 874 [134 Cal.Rptr.2d 602, 69 R3d 446]; People v. Williams (1997) 16 Cal.4th 153, 276 [66 Cal.Rptr.2d 123, 940 P.2d 710]; People v. Easley (1988) 46 Cal.3d 712, 734 [250 Cal.Rptr. 855, 759 R2d 490] [giving corroboration instructions when jury necessarily must find sufficient corroboration because defendant already was convicted might result in jury focusing undue significance on fact that accomplice testimony was corroborated, rather than on penalty issue].)\nN. Absence of Jury Instruction Concerning Presumption of Life Imprisonment\nDefendant contends the trial court erred in failing to instruct the jury that there is a presumption that the appropriate sentence in a capital case is life without the possibility of parole. Defendant failed to request the instruction and therefore forfeited the claim. In any event, we have rejected this claim in the past, as defendant acknowledges, and do so again here. (People v. Jones (2003) 29 Cal.4th 1229, 1267 [131 Cal.Rptr.2d 468, 64 P.3d 762]; People v. Arias (1996) 13 Cal.4th 92, 190 [51 Cal.Rptr.2d 770, 913 P.2d 980] [\u201cIf a death penalty law properly limits death eligibility by requiring the finding of at least one aggravating circumstance beyond murder itself, the state may otherwise structure the penalty determination as it sees fit, so long as it satisfies the requirement of individualized sentencing by allowing the jury to consider all relevant mitigating evidence.\u201d].)\nO. Challenges to the Constitutionality of California\u2019s Death Penalty Statute\nDefendant raises a number of constitutional challenges to California\u2019s death penalty law that we have repeatedly rejected. He provides no persuasive reason why we should reexamine our prior decisions.\n\u201cCalifornia homicide law and the special circumstances listed in section 190.2 adequately narrow the class of murderers eligible for the death penalty . . . .\u201d (People v. Demetrulias (2006) 39 Cal.4th 1, 43 [45 Cal.Rptr.3d 407, 137 P.3d 229].)\nSection 190.3, factor (a), which directs the jury to consider in determining the penalty the \u201ccircumstances of the crime,\u201d is neither impermissibly vague nor overbroad, and it does not result in an arbitrary and capricious penalty determination. (People v. Harris (2005) 37 Cal.4th 310, 365 [33 Cal.Rptr.3d 509, 118 R3d 545] (Harris); Stitely, supra, 35 Cal.4th at p. 574; People v. Maury (2003) 30 Cal.4th 342, 439 [133 Cal.Rptr.2d 561, 68 P.3d 1] (Maury).) The use of the defendant\u2019s age as a potential aggravating factor under section 190.3, factor (i), is not unconstitutional due to vagueness. (Ray, supra, 13 Cal.4th at p. 358.)\nThe jury may consider unadjudicated offenses under factor (b) as aggravating factors without violating a defendant\u2019s rights to trial, confrontation, an impartial and unanimous jury, due process, or a reliable penalty determination, or the right not to be placed in double jeopardy. (People v. Sapp (2003) 31 Cal.4th 240, 316 [2 Cal.Rptr.3d 554, 73 P.3d 433] (Sapp); People v. Bolden (2002) 29 Cal.4th 515, 566 [127 Cal.Rptr.2d 802, 58 P.3d 931]; People v. Bacigalupo (1991) 1 Cal.4th 103, 134-135 [2 Cal.Rptr.2d 335, 820 P.2d 559].) Further, there is no constitutional infirmity in having the same jury that determined defendant\u2019s guilt also determine whether he committed other offenses admitted as aggravating evidence at the penalty phase. (People v. Hawthorne (1992) 4 Cal.4th 43, 77 [14 Cal.Rptr.2d 133, 841 P.2d 118].)\n\u201cThe statute is not invalid for failing to require (1) written findings or unanimity as to aggravating factors, (2) proof of all aggravating factors beyond a reasonable doubt, (3) findings that aggravation outweighs mitigation beyond a reasonable doubt, or (4) findings that death is the appropriate penalty beyond a reasonable doubt.\u201d (People v. Snow (2003) 30 Cal.4th 43, 126 [132 Cal.Rptr.2d 271, 65 P.3d 749].) The decisions in Ring v. Arizona (2002) 536 U.S. 584 [153 L.Ed.2d 556, 122 S.Ct. 2428], Apprendi v. New Jersey (2000) 530 U.S. 466 [147 L.Ed.2d 435, 120 S.Ct. 2348], and Cunningham v. California (2007) 549 U.S. 270 [166 L.Ed.2d 856, 127 S.Ct. 856] do not affect California\u2019s death penalty law. (People v. Romero (2008) 44 Cal.4th 386, 429 [79 Cal.Rptr.3d 334, 187 P.3d 56]; People v. Smith (2003) 30 Cal.4th 581, 642 [134 Cal.Rptr.2d 1, 68 P.3d 302].) \u201c \u2018Because the determination of penalty is essentially moral and normative [citation], and therefore different in kind from the determination of guilt,\u2019 the federal Constitution does not require the prosecution to bear the burden of proof or burden of persuasion at the penalty phase. [Citations.]\u201d (Sapp, supra, 31 Cal.4th at p. 317.)\nThe use of the terms \u201cextreme,\u201d \u201csubstantial,\u201d \u201creasonably believed,\u201d and \u201cat the time of the offense\u201d in the statutory list of potential mitigating factors does not impermissibly restrict the jury\u2019s consideration of evidence in mitigation or otherwise result in an arbitrary or capricious penalty determination. (Harris, supra, 37 Cal.4th at p. 365; Sapp, supra, 31 Cal.4th at p. 316; Maury, supra, 30 Cal.4th at p. 439.)\nTo the extent we may consider under section 1259 defendant\u2019s challenges to the penalty phase instructions even though he failed to object to the instructions, those challenges are without merit. With the exception of prior violent crimes under former section 190.3, factor (b), the court need not instruct on burden of proof at the penalty phase. (People v. Box (2000) 23 Cal.4th 1153, 1216 [99 Cal.Rptr.2d 69, 5 P.3d 130]; People v. Bonillas (1989) 48 Cal.3d 757, 789-790 [257 Cal.Rptr. 895, 771 P.2d 844]; People v. Rodriguez (1986) 42 Cal.3d 730, 777-779 [230 Cal.Rptr. 667, 726 P.2d 113].) Nor was the trial court required to designate which sentencing factors are mitigating and which are aggravating. (People v. Taylor (2001) 26 Cal.4th 1155, 1180 [113 Cal.Rptr.2d 827, 34 P.3d 937].) \u201cThe trial court need not omit from the instructions any mitigating factors that appear not to apply to the defendant\u2019s case.\u201d (People v. Alexander (2010) 49 Cal.4th 846, 938 [113 Cal.Rptr.3d 190, 235 P.3d 873].)\nDefendant also claims the court erred in failing to conduct intercase proportionality review when it examined the death verdict. We have consistently held, however, that there is no requirement that the trial court or this court engage in intercase proportionality review when examining a death verdict. (See, e.g., Sapp, supra, 31 Cal.4th at p. 317.)\nBecause capital defendants are not similarly situated to noncapital defendants, the absence in California\u2019s death penalty law of certain procedural rights provided to noncapital defendants does not violate equal protection. (People v. Johnson (1992) 3 Cal.4th 1183, 1242-1243 [14 Cal.Rptr.2d 702, 842 P.2d 1]; People v. Allen (1986) 42 Cal.3d 1222, 1286-1287 [232 Cal.Rptr. 849, 729 P.2d 115].)\n\u201c \u2018International law does not prohibit a sentence of death rendered in accordance with state and federal constitutional and statutory requirements.\u2019 [Citation.] Defendant\u2019s claim that the death penalty is imposed regularly as a form of punishment in this state \u2018is a variation on the familiar argument that California\u2019s death penalty law does not sufficiently narrow the class of death-eligible defendants to limit that class to the most serious offenders, a contention we have rejected in numerous decisions.\u2019 [Citations.]\u201d (People v. Carey (2007) 41 Cal.4th 109, 135 [59 Cal.Rptr.3d 172, 158 P.3d 743].)\nR Asserted Cumulative Error\nDefendant contends the cumulative effect of the asserted errors he has raised on appeal requires reversal of his conviction and sentence, even if none of the errors is prejudicial individually. We reject his claim. In those few instances in which we have found error or assumed the existence of error, we have concluded that any error was harmless. In combination, these errors do not compel the conclusion that defendant was denied a fair trial.\nIII. Conclusion\nWe affirm the judgment in its entirety.\nCantil-Sakauye, C. J., Kennard, J., Baxter, J., Werdegar, J., Corrigan, J., and Hull, J., concurred.\nDefendant represented himself during pretrial proceedings, part of the guilt phase, and the entire penalty phase and postverdict portions of the second trial.\nAll further statutory references are to the Penal Code unless otherwise indicated.\nBecause the crimes took place in December of 1977, defendant\u2019s case is governed by the death penalty law that was adopted by the Legislature earlier that year. (Stats. 1977, ch. 316, \u00a7\u00a7 4-14, pp. 1256-1262; People v. Robertson (1989) 48 Cal.3d 18, 51 [255 Cal.Rptr. 631, 767 P.2d 1109].) The death penalty statute was subsequently repealed and reenacted by voter initiative (Prop. 7) at the November 7, 1978 General Election.\nAs recounted in our opinion in defendant\u2019s first appeal, the guilt phase of defendant\u2019s first trial included the presentation of evidence concerning a murder that defendant and the third accomplice, Lee Edward Harris, committed in Lawrence, Kansas, before they committed the Crumb murders. (Moore, supra, 47 Cal.3d at pp. 71-72.) Pursuant to the stipulation of the parties, that murder was not mentioned until the penalty phase of defendant\u2019s second trial.\nJones died after the first trial.\nDefendant does not claim that his assertion of his right to represent himself under Faretta v. California (1975) 422 U.S. 806 [45 L.Ed.2d 562, 95 S.Ct. 2525], was invalid. Of course, the very reason defendant was being retried was the federal courts\u2019 earlier conclusion that defendant\u2019s Faretta right was violated at his first trial.\nBecause, as discussed below, we conclude that the denial of defendant\u2019s requests for cocounsel was not error, we do not consider whether defendant\u2019s later choice to give up his right to represent himself for part of the guilt phase of the trial affects his ability to challenge on appeal the denial of his prior requests for cocounsel.\nIn this case, by hybrid representation we mean one of three arrangements involving the presence of both a self-represented defendant and a defense attorney: (1) standby counsel, in which the attorney takes no active role in the defense, but attends the proceedings so as to be familiar with the case in the event that the defendant gives up or loses his or her right to self-representation; (2) advisory counsel, in which the attorney actively assists the defendant in preparing the defense case by performing tasks and providing advice pursuant to the defendant\u2019s requests, but does not participate on behalf of the defense in court proceedings; and (3) cocounsel, in which the attorney shares responsibilities with the defendant and actively participates in both the preparation of the defense case and its presentation to a degree acceptable to both the defendant and the attorney and permitted by the court. A second major category of hybrid representation, not at issue here, occurs when a criminal defendant who has chosen to accept the assistance of counsel is permitted to serve as cocounsel to his or her attorney. In such cases, the attorney retains control of the tactical choices to be made, and the defendant participates only to the extent permitted by counsel and the court.\nDefendant repeatedly makes note of the circumstance that his willingness to give up his Faretta right to the extent that he would permit cocounsel to participate in the trial would have eliminated the concern that his right to self-representation not be violated by the unwelcomed participation of counsel. (See McKaskle, supra, 465 U.S. at p. 182.) First, we cannot be sure that, had cocounsel been appointed in the present case, he or she would actually have acceded to defendant\u2019s strategic choices during the trial such that no infringement of defendant\u2019s Faretta right would have occurred, and therefore we do not believe his pretrial agreement, in the abstract, to sharing duties with an attorney necessarily carries much weight. Indeed, during the guilt phase of the trial, defendant became dissatisfied with the efforts of his appointed attorney and reasserted his Faretta right. Regardless, to the extent defendant implies that because he was agreeable to some partial waiver of his Faretta right, this somehow heightened the obligation of the trial court to grant the request for cocounsel, he is mistaken.\nThe contract apparently did not include express provisions dealing with the payment of cocounsel, as opposed to advisory or standby counsel, in a case in which the defendant proceeded in propria persona. The trial court and several attorneys who were potential candidates to serve as defendant\u2019s cocounsel contacted various people involved in the administration of the contract, and there was apparent difficulty in obtaining any definitive answer concerning how much cocounsel would be paid. As the Attorney General points out, the contract itself was never made part of the record.\nWe also note that we affirmed in defendant\u2019s first appeal the denial of his trial counsel\u2019s request for the appointment of a second attorney because defendant \u201cnever argued any specific or compelling reasons requiring the assistance of additional counsel.\u201d (Moore, supra, 47 Cal.3d at pp. 76-77.)\nIn stating this rule in Jenkins, we cited Milton v. Morris (9th Cir. 1985) 767 F.2d 1443, 1445-1446 (Milton). (Jenkins, supra, 22 Cal.4th at p. 1040; see also Taylor v. List (9th Cir. 1989) 880 F.2d 1040, 1047 (Taylor) [describing Milton as holding \u201cthat the Sixth Amendment right to self-representation recognized in Faretta includes a right of access to law books, witnesses, and other tools necessary to prepare a defense\u201d].) We note that other courts have reached conclusions seemingly at odds with Milton concerning the government\u2019s duty to provide resources for a defendant who has exercised his or her Faretta right. (See, e.g., U.S. v. Cooper (10th Cir. 2004) 375 F.3d 1041, 1052 [\u201cWhen a prisoner voluntarily, knowingly and intelligently waives his right to counsel in a criminal proceeding, he is not entitled to access to a law library or other legal materials.\u201d]; Degrate v. Godwin (5th Cir. 1996) 84 F.3d 768, 769; U.S. v. Smith (6th Cir. 1990) 907 F.2d 42, 44; U.S. v. Pina (1st Cir. 1988) 844 F.2d 1, 5, fn. 1; U.S. ex rel. George v. Lane (7th Cir. 1983) 718 F.2d 226, 231 [\u201cthe offer of court-appointed counsel to represent a defendant satisfies the constitutional obligation of a state to provide a defendant with legal assistance under the Sixth and Fourteenth Amendments\u201d]; see also U.S. v. Robinson (9th Cir. 1990) 913 F.2d 712, 717 [\u201cthere is nothing constitutionally offensive about requiring a defendant to choose between appointed counsel and access to legal materials; the Sixth Amendment is satisfied by the offer of professional representation alone\u201d].) The United States Supreme Court has recognized that the extent to which the government must provide publicly funded defense services to a self-represented criminal defendant is an open issue in that court\u2019s jurisprudence. (Kane v. Garcia Espitia (2005) 546 U.S. 9, 10 [163 L.Ed.2d 10, 126 S.Ct. 407] [noting split of authority in lower courts, and concluding that no clearly established federal law existed for purposes of federal habeas corpus review because \u201cFaretta says nothing about any specific legal aid that the State owes a pro se criminal defendant\u201d].) Even to the extent that we might be inclined to revisit our reliance on Milton, or to consider whether, if that reliance was misplaced, our state Constitution affords indigent self-represented defendants some higher level of protection than the federal Constitution, we do not do so here because, as discussed further below, defendant has not shown that he was denied reasonable resources necessary to present his defense. (See People v. Lawley (2002) 27 Cal.4th 102, 147, fn. 18 [115 Cal.Rptr.2d 614, 38 P.3d 461] [assuming for sake of argument that a self-represented defendant \u201cwho is assisted by advisory counsel is also entitled to access to a law library\u201d].)\nDefendant argues that Jenkins is not controlling because the defendant in that case was represented by counsel, while defendant was not. In Jenkins, however, the defendant was represented by counsel at the guilt phase only, and he represented himself at the penalty phase. (Jenkins, supra, 22 Cal.4th at p. 930.) We held that limitations on the resources available to the defendant during his preparations for the penalty phase did not violate his constitutional rights. (Id. at p. 1040.)\nAvery did not tell the authorities about the California murders until after she had been transported to Kansas.\nDefendant filed a motion to suppress this evidence in his first trial, which the trial court also denied. We rejected the claim raised in defendant\u2019s first appeal that his trial counsel was ineffective in pursuing that motion to suppress. (Moore, supra, 47 Cal.3d at pp. 82-83.) The trial court allowed defendant to relitigate the motion to suppress in the retrial proceedings because defendant\u2019s request to represent himself during the first trial, which the federal court had concluded was improperly denied, was made before the first suppression motion had been litigated.\nIt is possible, of course, that the jury could have considered defendant\u2019s possession of the stolen goods as corroboration of Avery\u2019s testimony, as was required by the trial court\u2019s instructions. (See CALJIC No. 3.11 [testimony of an accomplice must be corroborated by other evidence connecting the defendant to the offense].) This use of the evidence could not have been affected by the erroneous instruction at issue here.\nHad the trial court replaced in the instruction the first generic \u201ca person other than defendant\u201d with \u201cLee Harris,\u201d rather than the subsequent \u201che or she\u201d found in the pattern instruction, there would have been no possibility of the jury\u2019s having applied the instruction to its consideration of Avery\u2019s testimony.\nCALJIC No. 2.01 provided that \u201ca finding of guilt as to any crime may not be based on circumstantial evidence unless the proved circumstances are not only (1) consistent with the theory that the defendant is guilty of the crime, but (2) cannot be reconciled with any other rational conclusion. [B Further, each fact which is essential to complete a set of circumstances necessary to establish the defendant\u2019s guilt must be proved beyond a reasonable doubt. In other words, before an inference essential to establish guilt may be found to have been proved beyond a reasonable doubt, each fact or circumstance on which the inference necessarily rests must be proved beyond a reasonable doubt. [B Also, if the circumstantial evidence as to any particular count permits two reasonable interpretations, one of which points to the defendant\u2019s guilt and the other to his innocence, you must adopt that interpretation that points to the defendant\u2019s innocence, and reject that interpretation that points to his guilt. [B If, on the other hand, one interpretation1 of this evidence appears to you to be reasonable and the other interpretation to be unreasonable, you must accept the reasonable interpretation and reject the unreasonable.\u201d\nWe note that the trial court did not instruct the jury with the elements of the crimes implicated by defendant\u2019s conduct. Defendant did not request the instructions, and the trial court had no duty to so instruct on its own motion. (People v. Lewis (2001) 25 Cal.4th 610, 668 [106 Cal.Rptr.2d 629, 22 P.3d 392].)\nSection 4502, subdivision (a), in relevant part prohibits persons confined in a penal institution from possessing \u201cany dirk or dagger or sharp instrument.\u201d\nDefendant here challenges specifically the admission of the fact of his convictions, not other evidence regarding his having committed these offenses.\nSection 190.3, factor (c) provides: \u201cIn determining the penalty, the trier of fact shall take into account any of the following factors if relevant: HQ . . . HQ (c) The presence or absence of any prior felony conviction.\u201d\nHarris actually had been sentenced to death after his first trial, but we reversed that judgment due to a violation of Harris\u2019s right to have a jury that represented a fair cross-section of the community. (People v. Harris (1984) 36 Cal.3d 36, 59 [201 Cal.Rptr. 782, 679 P.2d 433].) Harris was retried, convicted and sentenced to life without the possibility of parole, but that judgment also was reversed, due to a violation of Harris\u2019s right to testify in his defense. (People v. Harris (1987) 191 Cal.App.3d 819, 826 [236 Cal.Rptr. 680].) The prosecution was barred from seeking the death penalty in the third trial. (People v. Superior Court (Harris) (1990) 217 Cal.App.3d 1332, 1341 [266 Cal.Rptr. 563].)\nThis statute sets forth the mitigating and aggravating factors to be considered in the penalty phase of a federal capital trial. Subdivision (a) provides, in relevant part, \u201cIn determining whether a sentence of death is to be imposed on a defendant, the finder of fact shall consider any mitigating factor, including the following: [U ... HQ Another defendant or defendants, equally culpable in the crime, will not be punished by death.\u201d (18 U.S.C. \u00a7 3592, subd. (a)(4).)\nfAssociate Justice of the Court of Appeal, Third Appellate District, assigned by the Chief Justice pursuant to article VI, section 6 of the California Constitution.",
+        "type": "majority",
+        "author": "CHIN, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Cynthia A. Thomas and Cliff Gardner, under appointments by the Supreme Court, for Defendant and Appellant.",
+      "Edmund G. Brown, Jr., and Kamala D. Harris, Attorneys General, Mary Jo Graves and Dane R. Gillette, Chief Assistant Attorneys General, Pamela C. Hamanaka, Assistant Attorney General, John R. Gorey, Sharlene A. Honnaka, Susan D. Martynec and Daniel C. Chang, Deputy Attorneys General, for Plaintiff and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. S075726.\nJune 23, 2011.]\nTHE PEOPLE, Plaintiff and Respondent, v. CHARLES EDWARD MOORE, Defendant and Appellant.\nCounsel\nCynthia A. Thomas and Cliff Gardner, under appointments by the Supreme Court, for Defendant and Appellant.\nEdmund G. Brown, Jr., and Kamala D. Harris, Attorneys General, Mary Jo Graves and Dane R. Gillette, Chief Assistant Attorneys General, Pamela C. Hamanaka, Assistant Attorney General, John R. Gorey, Sharlene A. Honnaka, Susan D. Martynec and Daniel C. Chang, Deputy Attorneys General, for Plaintiff and Respondent."
+  },
+  "file_name": "1104-01",
+  "first_page_order": 1142,
+  "last_page_order": 1185
+}

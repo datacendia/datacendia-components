@@ -1,0 +1,68 @@
+{
+  "id": 12701030,
+  "name": "In re Murray A. WOODWORTH, petitioner.",
+  "name_abbreviation": "In re Woodworth",
+  "decision_date": "2014-01-27",
+  "docket_number": "No. 13\u20138136.",
+  "first_page": "1174",
+  "last_page": "1174",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 1174"
+    },
+    {
+      "type": "parallel",
+      "cite": "188 L. Ed. 2d 139"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 1049"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 23,
+    "char_count": 146,
+    "sha256": "62e307a8f5997344d4a255bd42d8ba03cef6f5e1ddcde54b748ae10163b2b923",
+    "simhash": "1:78f35454bad1f105",
+    "word_count": 24
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Murray A. WOODWORTH, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of habeas corpus denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re Murray A. WOODWORTH, petitioner.\nNo. 13-8136.\nSupreme Court of the United States\nJan. 27, 2014.\nPetition for writ of habeas corpus denied."
+  },
+  "file_name": "1174-12",
+  "first_page_order": 1174,
+  "last_page_order": 1174
+}

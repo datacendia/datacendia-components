@@ -1,0 +1,59 @@
+{
+  "id": 5921697,
+  "name": "Patterson et al. v. United States",
+  "name_abbreviation": "Patterson v. United States",
+  "decision_date": "2011-05-02",
+  "docket_number": "No. 10-9854",
+  "first_page": "982",
+  "last_page": "982",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 982"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 82,
+    "ocr_confidence": 0.57,
+    "sha256": "c82cc687cfa9957cd08b2c35174564145a98b9235e530ed41083c9211f9c9526",
+    "simhash": "1:1148e211cea5380d",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Patterson et al. v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9854.\nPatterson et al. v. United States."
+  },
+  "file_name": "0982-12",
+  "first_page_order": 1008,
+  "last_page_order": 1008
+}

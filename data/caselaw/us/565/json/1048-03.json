@@ -1,0 +1,71 @@
+{
+  "id": 12234647,
+  "name": "Department of Health and Human Services et al. v. Florida et al.",
+  "name_abbreviation": "Department of Health & Human Services v. Florida",
+  "decision_date": "2011-11-18",
+  "docket_number": "No. 11-398",
+  "first_page": "1048",
+  "last_page": "1048",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1048"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "26 U. S. C. \u00a7 7421",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 62,
+    "char_count": 464,
+    "ocr_confidence": 0.627,
+    "sha256": "7d5fa339f6aa63c02ce2d84024c689b5576039cc39b3eae2af4f0597c7c5a993",
+    "simhash": "1:9adaa670c340709b",
+    "word_count": 84
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Department of Health and Human Services et al. v. Florida et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. [Certiorari granted, ante, p. 1034.] Robert A. Long, Esq., of Washington, D. C., is invited to brief and argue this case as amicus curiae in support of the position that the Anti-Injunction Act, 26 U. S. C. \u00a7 7421(a), bars the suit brought by respondents to challenge the minimum coverage provision of the Patient Protection and Affordable Care Act, 26 U. S. C. \u00a7 5000A.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-398.\nDepartment of Health and Human Services et al. v. Florida et al."
+  },
+  "file_name": "1048-03",
+  "first_page_order": 1130,
+  "last_page_order": 1130
+}

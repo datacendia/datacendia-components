@@ -1,0 +1,61 @@
+{
+  "id": 12224302,
+  "name": "Crim v. United States",
+  "name_abbreviation": "Crim v. United States",
+  "decision_date": "2012-05-29",
+  "docket_number": "No. 11-8948",
+  "first_page": "1031",
+  "last_page": "1031",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1031"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 147,
+    "ocr_confidence": 0.622,
+    "sha256": "1d54e815da7d20a0b5c6580f08ec8263053e91586fe984504d837c4eff526954",
+    "simhash": "1:8903da82660c8e4e",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Crim v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8948.\nCrim v. United States."
+  },
+  "file_name": "1031-02",
+  "first_page_order": 907,
+  "last_page_order": 907
+}

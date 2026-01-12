@@ -1,0 +1,59 @@
+{
+  "id": 5959584,
+  "name": "Murdoch v. Castro, Warden, et al.",
+  "name_abbreviation": "Murdoch v. Castro",
+  "decision_date": "2011-05-16",
+  "docket_number": "No. 10-809",
+  "first_page": "987",
+  "last_page": "987",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 987"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 80,
+    "ocr_confidence": 0.59,
+    "sha256": "67c948ee3d178dddcb1957c7cec5a3891a7720b78a7b1bf41c5492018ace6435",
+    "simhash": "1:5089a2b93999b50b",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Murdoch v. Castro, Warden, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-809.\nMurdoch v. Castro, Warden, et al."
+  },
+  "file_name": "0987-04",
+  "first_page_order": 1013,
+  "last_page_order": 1013
+}

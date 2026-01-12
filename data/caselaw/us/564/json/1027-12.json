@@ -1,0 +1,59 @@
+{
+  "id": 4333667,
+  "name": "Hawkins v. United States",
+  "name_abbreviation": "Hawkins v. United States",
+  "decision_date": "2011-06-20",
+  "docket_number": "No. 10-10559",
+  "first_page": "1027",
+  "last_page": "1027",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1027"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.506,
+    "sha256": "745bdf704de52c231a7f26e292cda610d409f611492029845713b8d8e851568d",
+    "simhash": "1:9488f6294a3bb026",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hawkins v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10559.\nHawkins v. United States."
+  },
+  "file_name": "1027-12",
+  "first_page_order": 1021,
+  "last_page_order": 1021
+}

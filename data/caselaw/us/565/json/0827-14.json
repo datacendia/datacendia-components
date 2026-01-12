@@ -1,0 +1,59 @@
+{
+  "id": 12199284,
+  "name": "Robinson v. United States",
+  "name_abbreviation": "Robinson v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-8146",
+  "first_page": "827",
+  "last_page": "827",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 827"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.655,
+    "sha256": "72e869b7fe92b96bf9b2208491c6e4cb7799f9ead6a4e5cbe23bc544afe8544e",
+    "simhash": "1:86bad78a0dae1c62",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Robinson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8146.\nRobinson v. United States."
+  },
+  "file_name": "0827-14",
+  "first_page_order": 909,
+  "last_page_order": 909
+}

@@ -1,0 +1,1343 @@
+{
+  "id": 3581999,
+  "name": "RENICO, WARDEN v. LETT",
+  "name_abbreviation": "Renico v. Lett",
+  "decision_date": "2010-05-03",
+  "docket_number": "No. 09-338",
+  "first_page": "766",
+  "last_page": "798",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "559 U.S. 766"
+    },
+    {
+      "type": "parallel",
+      "cite": "176 L. Ed. 2d 678"
+    },
+    {
+      "type": "parallel",
+      "cite": "130 S. Ct. 1855"
+    },
+    {
+      "type": "vendor",
+      "cite": "2010 U.S. LEXIS 3675"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2009-040"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "558 U. S. 1145",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "620 N. W. 2d 855",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "year": 2000,
+      "opinion_index": 0
+    },
+    {
+      "cite": "463 Mich. 939",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "year": 2000,
+      "opinion_index": 0
+    },
+    {
+      "cite": "555 U. S. 179",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3679478
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "194"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/555/0179-01"
+      ]
+    },
+    {
+      "cite": "556 U. S. 449",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653509
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "463, 472"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/556/0449-01"
+      ]
+    },
+    {
+      "cite": "558 U. S. 120",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3639161
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "132-133",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/558/0120-01"
+      ]
+    },
+    {
+      "cite": "558 U. S. 139",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3639127
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "142-143"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/558/0139-01"
+      ]
+    },
+    {
+      "cite": "558 U. S. 220",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3639010
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "223-224, n. 3",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/558/0220-01"
+      ]
+    },
+    {
+      "cite": "520 F. 3d 522",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3701889
+      ],
+      "year": 2008,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/520/0522-01"
+      ]
+    },
+    {
+      "cite": "556 U. S. 111",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653936
+      ],
+      "weight": 3,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "123"
+        },
+        {
+          "page": "128"
+        },
+        {
+          "page": "112, n. 2"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/556/0111-01"
+      ]
+    },
+    {
+      "cite": "541 U. S. 652",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5869197
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "664"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/541/0652-01"
+      ]
+    },
+    {
+      "cite": "452 U. S. 944",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1313874
+      ],
+      "pin_cites": [
+        {
+          "page": "947"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/452/0944-01"
+      ]
+    },
+    {
+      "cite": "336 U. S. 684",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3939222
+      ],
+      "year": 1949,
+      "pin_cites": [
+        {
+          "page": "691, 690"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/336/0684-01"
+      ]
+    },
+    {
+      "cite": "400 U. S. 470",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12047837
+      ],
+      "year": 1971,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/400/0470-01"
+      ]
+    },
+    {
+      "cite": "372 U. S. 734",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1765418
+      ],
+      "year": 1963,
+      "pin_cites": [
+        {
+          "page": "736",
+          "parenthetical": "deadlocked jury is the \"classic example\" of when the State may try the same defendant twice"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/372/0734-01"
+      ]
+    },
+    {
+      "cite": "367 U. S. 364",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1785585
+      ],
+      "year": 1961,
+      "pin_cites": [
+        {
+          "page": "368"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/367/0364-01"
+      ]
+    },
+    {
+      "cite": "410 U. S. 458",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11957586
+      ],
+      "weight": 3,
+      "year": 1973,
+      "pin_cites": [
+        {
+          "page": "462"
+        },
+        {
+          "page": "469"
+        },
+        {
+          "page": "462"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/410/0458-01"
+      ]
+    },
+    {
+      "cite": "537 U. S. 19",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9190478
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "24",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/537/0019-01"
+      ]
+    },
+    {
+      "cite": "521 U. S. 320",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        915758
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "333, n. 7"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/521/0320-01"
+      ]
+    },
+    {
+      "cite": "550 U. S. 465",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3556121
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "473"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/550/0465-01"
+      ]
+    },
+    {
+      "cite": "529 U. S. 362",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9508607
+      ],
+      "weight": 3,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "410"
+        },
+        {
+          "page": "411"
+        },
+        {
+          "page": "409"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/529/0362-01"
+      ]
+    },
+    {
+      "cite": "558 U. S. 1047",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "316 Fed. Appx. 421",
+      "category": "reporters:federal",
+      "reporter": "Fed. Appx.",
+      "weight": 8,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "427"
+        },
+        {
+          "page": "426-427"
+        },
+        {
+          "page": "427"
+        },
+        {
+          "page": "426"
+        },
+        {
+          "page": "428"
+        },
+        {
+          "page": "426"
+        },
+        {
+          "page": "427-428"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "507 F. Supp. 2d 777",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        3659603
+      ],
+      "year": 2007,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/507/0777-01"
+      ]
+    },
+    {
+      "cite": "434 U. S. 497",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6185127
+      ],
+      "weight": 12,
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "506-510"
+        },
+        {
+          "page": "506"
+        },
+        {
+          "page": "510"
+        },
+        {
+          "page": "509"
+        },
+        {
+          "page": "509"
+        },
+        {
+          "page": "510, n. 28"
+        },
+        {
+          "page": "510, 509"
+        },
+        {
+          "page": "510, n. 28"
+        },
+        {
+          "page": "517"
+        },
+        {
+          "page": "509"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/434/0497-01"
+      ]
+    },
+    {
+      "cite": "9 Wheat. 579",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "case_ids": [
+        1421261
+      ],
+      "weight": 6,
+      "year": 1824,
+      "pin_cites": [
+        {
+          "page": "580"
+        },
+        {
+          "page": "579-580"
+        },
+        {
+          "page": "580"
+        },
+        {
+          "page": "580"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/22/0579-01"
+      ]
+    },
+    {
+      "cite": "644 N. W. 2d 743",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "weight": 14,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "745"
+        },
+        {
+          "page": "745"
+        },
+        {
+          "page": "745, n. 1"
+        },
+        {
+          "page": "745, n. 2"
+        },
+        {
+          "page": "745"
+        },
+        {
+          "page": "745, n. 3"
+        },
+        {
+          "page": "746"
+        },
+        {
+          "page": "749"
+        },
+        {
+          "page": "750-752"
+        },
+        {
+          "page": "753"
+        },
+        {
+          "page": "749-752"
+        },
+        {
+          "page": "753"
+        },
+        {
+          "page": "745"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "466 Mich. 206",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1057221
+      ],
+      "weight": 4,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "208-209"
+        },
+        {
+          "page": "216-217"
+        },
+        {
+          "page": "218-222"
+        },
+        {
+          "page": "216-222"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/466/0206-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 2254",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(d)"
+        },
+        {
+          "page": "(d)(1)"
+        },
+        {
+          "page": "(d)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "538 U. S. 63",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9030374
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "76"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/538/0063-01"
+      ]
+    },
+    {
+      "cite": "539 U. S. 510",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8898384
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "520",
+          "parenthetical": "quoting Lockyer v. Andrade, 538 U. S. 63, 76 (2003)"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/539/0510-01"
+      ]
+    },
+    {
+      "cite": "2000 WL 33423221",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "*4",
+          "parenthetical": "per curiam"
+        },
+        {
+          "page": "*2"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "1 S.W. 2d 976",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "year": 1928,
+      "pin_cites": [
+        {
+          "page": "977"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "222 Ky. 510",
+      "category": "reporters:state",
+      "reporter": "Ky.",
+      "case_ids": [
+        4991156
+      ],
+      "year": 1928,
+      "pin_cites": [
+        {
+          "page": "513-514"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ky/222/0510-01"
+      ]
+    },
+    {
+      "cite": "4 Greene 32",
+      "category": "reporters:state",
+      "reporter": "Greene",
+      "case_ids": [
+        2266841
+      ],
+      "year": 1853,
+      "pin_cites": [
+        {
+          "page": "33"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/greene/4/0032-01"
+      ]
+    },
+    {
+      "cite": "157 A. 2d 65",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "year": 1959,
+      "pin_cites": [
+        {
+          "page": "69"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "398 Pa. 198",
+      "category": "reporters:state",
+      "reporter": "Pa.",
+      "case_ids": [
+        1289167
+      ],
+      "year": 1959,
+      "pin_cites": [
+        {
+          "page": "204-205"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/pa/398/0198-01"
+      ]
+    },
+    {
+      "cite": "297 N. W. 419",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "year": 1941,
+      "pin_cites": [
+        {
+          "page": "421"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "237 Wis. 537",
+      "category": "reporters:state",
+      "reporter": "Wis.",
+      "case_ids": [
+        8681378
+      ],
+      "year": 1941,
+      "pin_cites": [
+        {
+          "page": "540-541"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/wis/237/0537-01"
+      ]
+    },
+    {
+      "cite": "31 U. Chi. L. Rev. 386",
+      "category": "journals:journal",
+      "reporter": "U. Chi. L. Rev.",
+      "weight": 2,
+      "year": 1964,
+      "opinion_index": 1
+    },
+    {
+      "cite": "600 N. W. 2d 638",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "642"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "461 Mich. 219",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        491101
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "227"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/mich/461/0219-01"
+      ]
+    },
+    {
+      "cite": "144 U. S. 263",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3560080
+      ],
+      "year": 1892,
+      "pin_cites": [
+        {
+          "page": "298"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/144/0263-01"
+      ]
+    },
+    {
+      "cite": "355 U. S. 184",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6164126
+      ],
+      "year": 1957,
+      "pin_cites": [
+        {
+          "page": "187-188"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/355/0184-01"
+      ]
+    },
+    {
+      "cite": "541 U. S. 652",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5869197
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "664"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/541/0652-01"
+      ]
+    },
+    {
+      "cite": "336 U. S. 684",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3939222
+      ],
+      "year": 1949,
+      "pin_cites": [
+        {
+          "page": "689"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/336/0684-01"
+      ]
+    },
+    {
+      "cite": "400 U. S. 470",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12047837
+      ],
+      "weight": 10,
+      "year": 1971,
+      "pin_cites": [
+        {
+          "page": "485, 486",
+          "parenthetical": "plurality opinion"
+        },
+        {
+          "page": "485",
+          "parenthetical": "plurality opinion"
+        },
+        {
+          "page": "487",
+          "parenthetical": "plurality opinion"
+        },
+        {
+          "page": "486",
+          "parenthetical": "plurality opinion"
+        },
+        {
+          "page": "479",
+          "parenthetical": "plurality opinion"
+        },
+        {
+          "page": "486"
+        },
+        {
+          "page": "488",
+          "parenthetical": "statement concurring in judgment"
+        },
+        {
+          "page": "487",
+          "parenthetical": "plurality opinion"
+        },
+        {
+          "page": "485",
+          "parenthetical": "plurality opinion"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/400/0470-01"
+      ]
+    },
+    {
+      "cite": "372 U. S. 734",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1765418
+      ],
+      "weight": 5,
+      "year": 1963,
+      "pin_cites": [
+        {
+          "page": "736",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "738",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "736"
+        },
+        {
+          "page": "737"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/372/0734-01"
+      ]
+    },
+    {
+      "cite": "367 U. S. 364",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1785585
+      ],
+      "weight": 2,
+      "year": 1961,
+      "pin_cites": [
+        {
+          "page": "368",
+          "parenthetical": "Perez is \"authoritative starting point of our law in this field\""
+        },
+        {
+          "page": "369"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/367/0364-01"
+      ]
+    },
+    {
+      "cite": "410 U. S. 458",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11957586
+      ],
+      "weight": 7,
+      "year": 1973,
+      "pin_cites": [
+        {
+          "page": "461"
+        },
+        {
+          "page": "462"
+        },
+        {
+          "page": "471"
+        },
+        {
+          "page": "469",
+          "parenthetical": "characterizing Jorn judge's actions as \"erratic\""
+        },
+        {
+          "page": "469",
+          "parenthetical": "critiquing \"erratic\" mistrial inquiry"
+        },
+        {
+          "page": "462"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/410/0458-01"
+      ]
+    },
+    {
+      "cite": "529 U. S. 362",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9508607
+      ],
+      "weight": 5,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "413"
+        },
+        {
+          "page": "389",
+          "parenthetical": "opinion of Stevens, J."
+        },
+        {
+          "page": "386-387"
+        },
+        {
+          "page": "379",
+          "parenthetical": "opinion of Stevens, J."
+        },
+        {
+          "page": "413"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/529/0362-01"
+      ]
+    },
+    {
+      "cite": "316 Fed. Appx. 421",
+      "category": "reporters:federal",
+      "reporter": "Fed. Appx.",
+      "weight": 5,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "426"
+        },
+        {
+          "page": "428"
+        },
+        {
+          "page": "427",
+          "parenthetical": "quoting postconviction hearing transcript"
+        },
+        {
+          "page": "428",
+          "parenthetical": "\"At no point before the actual declaration of the mistrial was it even mentioned on the record as a potential course of action by the court. The summary nature of the trial court's actions . . . rendered an objection both unlikely and meaningless\" (internal quotation marks omitted)"
+        },
+        {
+          "page": "425"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "507 F. Supp. 2d 777",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        3659603
+      ],
+      "weight": 10,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "779, 785-786"
+        },
+        {
+          "page": "785",
+          "parenthetical": "discussing \"piecemeal fashion\" in which evidence was presented to the jury"
+        },
+        {
+          "page": "787"
+        },
+        {
+          "page": "787"
+        },
+        {
+          "page": "786"
+        },
+        {
+          "page": "786"
+        },
+        {
+          "page": "787"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f-supp-2d/507/0777-01"
+      ]
+    },
+    {
+      "cite": "434 U. S. 497",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6185127
+      ],
+      "weight": 15,
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "503"
+        },
+        {
+          "page": "503-505",
+          "parenthetical": "footnotes omitted"
+        },
+        {
+          "page": "505"
+        },
+        {
+          "page": "509"
+        },
+        {
+          "page": "506"
+        },
+        {
+          "page": "514-515, 516"
+        },
+        {
+          "page": "514"
+        },
+        {
+          "page": "510, n. 28"
+        },
+        {
+          "page": "517"
+        },
+        {
+          "page": "501, 515, 516"
+        },
+        {
+          "page": "515-516",
+          "parenthetical": "trial judge \"gave both defense counsel and the prosecutor full opportunity to explain their positions on the propriety of a mistrial\""
+        },
+        {
+          "page": "515, n. 34"
+        },
+        {
+          "page": "506"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/434/0497-01"
+      ]
+    },
+    {
+      "cite": "9 Wheat. 579",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "case_ids": [
+        1421261
+      ],
+      "weight": 4,
+      "year": 1824,
+      "pin_cites": [
+        {
+          "page": "580"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/22/0579-01"
+      ]
+    },
+    {
+      "cite": "644 N. W. 2d 743",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "weight": 10,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "755",
+          "parenthetical": "Cavanagh, J., dissenting"
+        },
+        {
+          "page": "755",
+          "parenthetical": "Cavanagh, J., dissenting"
+        },
+        {
+          "page": "751, n. 12"
+        },
+        {
+          "page": "750"
+        },
+        {
+          "page": "753"
+        },
+        {
+          "page": "753"
+        },
+        {
+          "page": "754",
+          "parenthetical": "trial court did not \"articulate a rationale on the record\""
+        },
+        {
+          "page": "751",
+          "parenthetical": "\"The issue is not whether this Court would have found manifest necessity\""
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "466 Mich. 206",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1057221
+      ],
+      "weight": 6,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "227",
+          "parenthetical": "Cavanagh, J., dissenting"
+        },
+        {
+          "page": "227-228"
+        },
+        {
+          "page": "221, n. 12"
+        },
+        {
+          "page": "218"
+        },
+        {
+          "page": "223"
+        },
+        {
+          "page": "225",
+          "parenthetical": "trial court did not \"articulate a rationale on the record\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/mich/466/0206-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 2254",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(d)(1)"
+        },
+        {
+          "page": "(e)(1)"
+        }
+      ],
+      "opinion_index": 1
+    }
+  ],
+  "analysis": {
+    "cardinality": 2111,
+    "char_count": 60962,
+    "ocr_confidence": 0.601,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.10164279847975692
+    },
+    "sha256": "6bb0c46ab504d38b67d521b39e0b733843d7ac56fab2151c311b67f36c515101",
+    "simhash": "1:071ef70c6a40f67e",
+    "word_count": 10102
+  },
+  "last_updated": "2024-02-27T16:02:41.844851+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Roberts, C. J., delivered the opinion of the Court, in which Scalia, Kennedy, Thomas, Ginsburg, and Auto, JJ., joined. Stevens, J., filed a dissenting opinion, in which Sotomayor, J., joined, and in which Breyer, J., joined as to Parts I and II, post, p. 780."
+    ],
+    "parties": [
+      "RENICO, WARDEN v. LETT"
+    ],
+    "opinions": [
+      {
+        "text": "Chief Justice Roberts\ndelivered the opinion of the Court.\nThis case requires us to review the grant of a writ of habeas corpus to a state prisoner under the Antiterrorism and Effective Death Penalty Act of 1996 (AEDPA), 28 U. S. C. \u00a7 2254(d). The District Court in this case issued the writ to respondent Reginald Lett on the ground that his Michigan murder conviction violated the Double Jeopardy Clause of the Constitution, and the U. S. Court of Appeals for the Sixth Circuit affirmed. In doing so, however, these courts misapplied AEDPA\u2019s deferential standard of review. Because we conclude that the Michigan Supreme Court\u2019s application of federal law was not unreasonable, we reverse.\nI\nOn August 29, 1996, an argument broke out in a Detroit liquor store. The antagonists included Adesoji Latona, a taxi driver; Charles Jones, a passenger who claimed he had been wrongfully ejected from Latona\u2019s cab; and Reginald Lett, a Mend of Jones\u2019s. After the argument began, Lett left the liquor store, retrieved a handgun from another friend outside in the parking lot, and returned to the store. He shot Latona twice, once in the head and once in the chest. Latona died from his wounds shortly thereafter. See People v. Lett, 466 Mich. 206, 208-209, 644 N. W. 2d 743, 745 (2002).\nMichigan prosecutors charged Lett with first-degree murder and possession of a firearm during the commission of a felony. His trial took place in June 1997. From jury selection to jury instructions the trial took less than nine hours, spread over six different days. Id., at 209, 644 N. W. 2d, at 745.\nThe jury\u2019s deliberations began on June 12, 1997, at 3:24 p.m., and ran that day until 4 p.m. Id., at 209, n. 1,644 N. W. 2d, at 745, n. 1. After resuming its work the next morning, the jury sent the trial court a note \u2014 one of seven it sent out in its two days of deliberations \u2014 stating that the jurors had \u201c \u2018a concern about our voice levels disturbing any other proceedings that might be going on.\u2019\u201d Id., at 209, n. 2, 644 N. W. 2d, at 745, n. 2. Later, the jury sent out another note, asking \u201c\u2018What if we can't agree? [M]istrial? [R]etrial? [W]hat?\u2019 \u201d Id., at 209, 644 N. W. 2d, at 745.\nThe trial transcript does not reveal whether the judge discussed the jury\u2019s query with counsel, off the record, upon receiving this last communication. Id., at 209, n. 3,644 N. W. 2d, at 745, n. 3. What is clear is that at 12:45 p.m. the judge called the jury back into the courtroom, along with the prosecutor and defense counsel. Once the jury was seated, the following exchange took place:\n\u201cTHE COURT: I received your note asking me what if you can\u2019t agree? And I have to conclude from that that that is your situation at this time. So, I\u2019d like to ask the foreperson to identify themselves, please?\n\u201cTHE FOREPERSON: [Identified herself.]\n\u201cTHE COURT: Okay, thank you. All right. I need to ask you if the jury is deadlocked; in other words, is there a disagreement as to the verdict?\n\u201cTHE FOREPERSON: Yes, there is.\n\u201cTHE COURT: All right. Do you believe that it is hopelessly deadlocked?\n\u201cTHE FOREPERSON: The majority of us don\u2019t believe that\u2014\n\u201cTHE COURT: (Interposing) Don\u2019t say what you\u2019re going to say, okay?\n\u201cTHE FOREPERSON: Oh, I\u2019m sorry.\n\u201cTHE COURT: I don\u2019t want to know what your verdict might be, or how the split is, or any of that. Thank you. Okay? Are you going to reach a unanimous verdict, or not?\n\u201cTHE FOREPERSON: (No response)\n\u201cTHE COURT: Yes or no?\n\u201cTHE FOREPERSON: No, Judge.\u201d Tr. in No. 96-08252 (Recorder\u2019s Court, Detroit, Mich.), pp. 319-320.\nThe judge then declared a mistrial, dismissed the jury, and scheduled a new trial for later that year. Neither the prosecutor nor Lett\u2019s attorney made any objection.\nLett\u2019s second trial was held before a different judge and jury in November 1997. This time, the jury was able to reach a unanimous verdict \u2014 that Lett was guilty of second-degree murder \u2014 after deliberating for only 3 hours and 15 minutes. Lett, supra, at 210, and n. 4, 644 N. W. 2d, at 746, and n. 4.\nLett appealed his conviction to the Michigan Court of Appeals. He argued that the judge in his first trial had announced a mistrial without any manifest necessity for doing so. Because the mistrial was an error, Lett maintained, the State was barred by the Double Jeopardy Clause of the U. S. Constitution from trying him a second time. The Michigan Court of Appeals agreed with Lett and reversed his conviction.\nThe State appealed to the Michigan Supreme Court, which reversed the Court of Appeals. The court explained that under our decision in United States v. Perez, 9 Wheat. 579 (1824), a defendant may be retried following the discharge of a deadlocked jury, even if the discharge occurs without the defendant\u2019s consent. Lett, 466 Mich., at 216-217, 644 N. W. 2d, at 749. There is no Double Jeopardy Clause violation in such circumstances, it noted, so long as the trial court exercised its \u201c \u2018sound discretion\u2019 \u201d in concluding that the jury was deadlocked and thus that there was a \u201c \u2018manifest necessity\u2019 \u201d for a mistrial. Ibid, (quoting Perez, supra, at 580; emphasis deleted). The court further observed that, under our decision in Arizona v. Washington, 434 U. S. 497, 506-510 (1978), an appellate court must generally defer to a trial judge's determination that a deadlock has been reached. 466 Mich., at 218-222, 644 N. W. 2d, at 750-752.\nAfter setting forth the applicable law, the Michigan Supreme Court determined that the judge at Lett's first trial had not abused her discretion in declaring the mistrial. Id., at 223, 644 N. W. 2d, at 753. The court cited the facts that the jury \u201chad deliberated for at least four hours following a relatively short, and far from complex, trial,\u201d that the jury had sent out several notes, \u201cincluding one that appears to indicate that its discussions may have been particularly heated,\u201d and \u2014 \u201c[m]ost important\u201d \u2014 \u201cthat the jury foreperson expressly stated that the jury was not going to reach a verdict.\u201d Ibid.\nLett petitioned for a federal writ of habeas corpus. Again he argued that the trial court's declaration of a mistrial constituted an abuse of discretion because there was no manifest necessity to cut short the jury's deliberations. He further contended that the Michigan Supreme Court's rejection of his double jeopardy claim amounted to \u201can unreasonable application of . . . clearly established Federal law, as determined by the Supreme Court of the United States,\u201d and thus that he was not barred by AEDPA, 28 U. S. C. \u00a7 2254(d)(1), from obtaining federal habeas relief. The District Court agreed and granted the writ. 507 F. Supp. 2d 777 (ED Mich. 2007). On appeal, a divided panel of the U. S. Court of Appeals for the Sixth Circuit affirmed. 316 Fed. Appx. 421 (2009). The State petitioned for review in our Court, and we granted certiorari. 558 U. S. 1047 (2009).\nII\nIt is important at the outset to define the question before us. That question is not whether the trial judge should have declared a mistrial. It is not even whether it was an abuse of discretion for her to have done so \u2014 the applicable standard on direct review. The question under AEDPA is instead whether the determination of the Michigan Supreme Court that there was no abuse of discretion was \u201can unreasonable application of . . . clearly established Federal law.\u201d \u00a72254(d)(1).\nWe have explained that \u201can unreasonable application of federal law is different from an incorrect application of federal law.\u201d Williams v. Taylor, 529 U. S. 362, 410 (2000). Indeed, \u201ca federal habeas court may not issue the writ simply because that court concludes in its independent judgment that the relevant state-court decision applied clearly established federal law erroneously or incorrectly.\u201d Id., at 411. Rather, that application must be \u201cobjectively unreasonable.\u201d Id., at 409. This distinction creates \u201ca substantially higher threshold\u201d for obtaining relief than de novo review. Schriro v. Landrigan, 550 U. S. 465, 473 (2007). AEDPA thus imposes a \u201chighly deferential standard for evaluating state-court rulings,\u201d Lindh v. Murphy, 521 U. S. 320, 333, n. 7 (1997), and \u201cdemands that state-court decisions be given the benefit of the doubt,\u201d Woodford v. Visciotti, 537 U. S. 19, 24 (2002) (per curiam).\nThe \u201cclearly established Federal law\u201d in this area is largely undisputed. In Perez, we held that when a judge discharges a jury on the grounds that the jury cannot reach a verdict, the Double Jeopardy Clause does not bar a new trial for the defendant before a new jury. 9 Wheat., at 579-580. We explained that trial judges may declare a mistrial \u201cwhenever, in their opinion, taking all the circumstances into consideration, there is a manifest necessity\u201d for doing so. Id., at 580. The decision to declare a mistrial is left to the \u201csound discretion\u201d of the judge, but \u201cthe power ought to be used with the greatest caution, under urgent circumstances, and for very plain and obvious causes.\u201d Ibid.\nSince Perez, we have clarified that the \u201cmanifest necessity\u201d standard \u201ccannot be interpreted literally,\u201d and that a mistrial is appropriate when there is a \u201c\u2018high degree\u2019\u201d of necessity. Washington, supra, at 506. The decision whether to grant a mistrial is reserved to the \u201cbroad discretion\u201d of the trial judge, a point that \u201chas been consistently reiterated in decisions of this Court.\u201d Illinois v. Somerville, 410 U. S. 458, 462 (1973). See also Gori v. United States, 367 U. S. 364, 368 (1961).\nIn particular, \u201c[t]he trial judge\u2019s decision to declare a mistrial when he considers the jury deadlocked is . . . accorded great deference by a reviewing court.\u201d Washington, 434 U. S., at 510. A \u201cmistrial premised upon the trial judge\u2019s belief that the jury is unable to reach a verdict [has been] long considered the classic basis for a proper mistrial.\u201d Id., at 509; see also Downturn v. United States, 372 U. S. 734, 736 (1963) (deadlocked jury is the \u201cclassic example\u201d of when the State may try the same defendant twice).\nThe reasons for \u201callowing the trial judge to exercise broad discretion\u201d are \u201cespecially compelling\u201d in eases involving a potentially deadlocked jury. Washington, 434 U. S., at 509. There, the justification for deference is that \u201cthe trial eourt is in the best position to assess all the factors which must be considered in making a necessarily discretionary determination whether the jury will be able to reach a just verdict if it continues to deliberate.\u201d Id., at 510, n. 28. In the absence of such deference, trial judges might otherwise \u201cemploy coercive means to break the apparent deadlock,\u201d thereby creating a \u201csignificant risk that a verdict may result from pressures inherent in the situation rather than the considered judgment of all the jurors.\u201d Id., at 510, 509.\nThis is not to say that we grant absolute deference to trial judges in this context. Perez itself noted that the judge\u2019s exercise of discretion must be \u201csound,\u201d 9 Wheat., at 580, and we have made clear that \u201c[i]f the record reveals that the trial judge has failed to exercise the \u2018sound discretion\u2019 entrusted to him, the reason for such deference by an appellate court disappears,\u201d Washington, 434 U. S., at 510, n. 28. Thus \u201cif the trial judge acts for reasons completely unrelated to the trial problem which purports to be the basis for the mistrial ruling, close appellate scrutiny is appropriate.\u201d Ibid. Similarly, \u201cif a trial judge acts irrationally or irresponsibly,. . . his aetion cannot be condoned.\u201d Id., at 514 (citing United States v. Jorn, 400 U. S. 470 (1971), and Somerville, supra, at 469).\nWe have expressly declined to require the \u201cmechanical application\u201d of any \u201crigid formula\u201d when trial judges decide whether jury deadlock warrants a mistrial. Wade v. Hunter, 336 U. S. 684, 691, 690 (1949). We have also explicitly held that a trial judge declaring a mistrial is not required to make explicit findings of \u201c \u2018manifest necessity\u2019 \u201d nor to \u201carticulate on the record all the factors which informed the deliberate exercise of his discretion.\u201d Washington, supra, at 517. And we have never required a trial judge, before declaring a mistrial based on jury deadlock, to force the jury to deliberate for a minimum period of time, to question the jurors individually, to consult with (or obtain the consent of) either the prosecutor or defense counsel, to issue a supplemental jury instruction, or to consider any other means of breaking the impasse. In 1981, then-justice Rehnquist noted that this Court had never \u201coverturned a trial court\u2019s declaration of a mistrial after a jury was unable to reach a verdict on the ground that the \u2018manifest necessity\u2019 standard had not been met.\u201d Winston v. Moore, 452 U. S. 944, 947 (opinion dissenting from denial of eertiorari). The same remains true today, nearly 30 years later.\nThe legal standard applied by the Michigan Supreme Court in this case was whether there was an abuse of the \u201cbroad discretion\u201d reserved to the trial judge. Somerville, supra, at 462; Washington, supra, at 509. This type of general standard triggers another consideration under AEDPA. When assessing whether a state court\u2019s application of federal law is unreasonable, \u201cthe range of reasonable judgment can depend in part on the nature of the relevant rule\u201d that the state court must apply. Yarborough v. Alvarado, 541 U. S. 652, 664 (2004). Because AEDPA authorizes federal courts to grant relief only when state courts act unreasonably, it follows that \u201c[t]he more general the rule\u201d at issue \u2014 and thus the greater the potential for reasoned disagreement among fair-minded judges \u2014 \u201cthe more leeway [state] courts have in reaching outcomes in case-by-case determinations.\u201d Ibid.) see also Knowles v. Mirzayance, 556 U. S. 111, 123 (2009).\nIII\nIn light of all the foregoing, the Michigan Supreme Court\u2019s decision in this case was not unreasonable under AEDPA, and the decision of the Court of Appeals to grant Lett a writ of habeas corpus must be reversed.\nThe Michigan Supreme Court\u2019s adjudication involved a straightforward application of our longstanding precedents to the facts of Lett\u2019s case. The court cited our own double jeopardy cases \u2014 from Perez to Washington \u2014 elaborating upon the \u201cmanifest necessity\u201d standard for granting a mistrial and noting the broad deference that appellate courts must give trial judges in deciding whether that standard has been met in any given case. Lett, 466 Mich., at 216-222,644 N. W. 2d, at 749-752. It then applied those precedents to the particular facts before it and found no abuse of discretion, especially in light of the length of deliberations after a short and uncomplicated trial, the jury notes suggesting heated discussions and asking what would happen \u201cif we can\u2019t agree,\u201d and \u2014 \u201c[m]ost important\u201d \u2014 \u201cthe fact that the jury foreperson expressly stated that the jury was not going to reach a verdict.\u201d Id., at 223, 644 N. W. 2d, at 753. In these circumstances, it was reasonable for the Michigan Supreme Court to determine that the trial judge had exercised sound discretion in declaring a mistrial.\nThe Court of Appeals for the Sixth Circuit concluded otherwise. It did not contest the Michigan Supreme Court's description of the objective facts, but disagreed with the inferences to be drawn from them. For example, it speculated that the trial judge may have misinterpreted the jury's notes as signs of discord and deadlock when, read literally, they expressly stated no such thing. 316 Fed. Appx., at 427. It further determined that the judge\u2019s brief colloquy with the foreperson may have wrongly implied a false equivalence between \u201cmere disagreement\u201d and \u201cgenuine deadlock,\u201d and may have given rise to \u201cinappropriate pressure\u201d on her to say that the jury would be unable to reach a verdict. Id., at 426-427. The trial judge\u2019s mistakes were so egregious, in the Court of Appeals\u2019 view, that the Michigan Supreme Court\u2019s opinion finding no abuse of discretion was not only wrong but objectively unreasonable. Id., at 427.\nThe Court of Appeals\u2019 interpretation of the trial record is not implausible. Nor, for that matter, is the more inventive (surely not \u201ccrude\u201d) speculation of the dissent. Post, at 789. After all, the jury only deliberated for four hours, its notes were arguably ambiguous, the trial judge\u2019s initial question to the foreperson was imprecise, and the judge neither asked for elaboration of the foreperson\u2019s answers nor took any other measures to confirm the foreperson\u2019s prediction that a unanimous verdict would not be reached.\nBut other reasonable interpretations of the record are also possible. Lett\u2019s trial was not complex, and there is no reason that the jury would necessarily have needed more than a few hours to deliberate over his guilt. The notes the jury sent to the judge e\u00e9rtainly could be read as reflecting substantial disagreement, even if they did not say so outright. Most important, the foreperson expressly told the judge\u2014 in response to her unambiguous question \u201cAre you going to reach a unanimous verdict, or not?\u201d \u2014 that the jury would be unable to agree. Lett, supra, at 210, 644 N. W. 2d, at 745.\nGiven the foregoing facts, the Michigan Supreme Court\u2019s decision upholding the trial judge\u2019s exercise of discretion\u2014 while not necessarily correct \u2014 was not objectively unreasonable. Not only are there a number of plausible ways to interpret the record of Lett\u2019s trial, but the standard applied by the Michigan Supreme Court \u2014 whether the judge exercised sound discretion \u2014 is a general one, to which there is no \u201cplainly correct or incorrect\u201d answer in this case. Yarborough, supra, at 664; see also Knowles, supra, at 128. The Court of Appeals\u2019 ruling in Lett\u2019s favor failed to grant the Michigan courts the dual layers of deference required by AEDPA and our double jeopardy precedents.\nThe Court of Appeals also erred in a second respect. It relied upon its own decision in Fulton v. Moore, 520 F. 3d 522 (CA6 2008), for the proposition \u201cthat Arizona v. Washington sets forth three factors that determine whether a judge has exercised sound discretion in declaring a mistrial: whether the judge (1) heard the opinions of the parties\u2019 counsel about the propriety of the mistrial; (2) considered the alternatives to a mistrial; and (3) acted deliberately, instead of abruptly.\u201d 316 Fed. Appx., at 426. It then cited Fulton\u2019s interpretation of Washington to buttress its conclusion that the Michigan Supreme Court erred in concluding that the trial judge had exercised sound discretion. 316 Fed. Appx., at 428.\nThe Fulton decision, however, does not constitute \u201cclearly established Federal law, as determined by the Supreme Court,\u201d \u00a72254(d)(1), so any failure to apply that decision cannot independently authorize habeas relief under AEDPA. Nor, as the dissent suggests, can Fulton be understood merely to \u201cilluminat[e]\u201d Washington. Post, at 796. Washington nowhere established these three factors as a constitutional test that \u201cdetermine^]\u201d whether a trial judge has exercised sound discretion in declaring a mistrial. 316 Fed. Appx., at 426.\nIn concluding that Lett is not entitled to a writ of habeas corpus, we do not deny that the trial judge could have been more thorough before declaring a mistrial. As the Court of Appeals pointed out, id., at 427-428, she could have asked the foreperson additional followup questions, granted additional time for further deliberations, or consulted with the prosecutor and defense counsel before acting. Any of these steps would have been appropriate under the circumstances. None, however, was required \u2014 either under our double jeopardy precedents or, by extension, under AEDPA.\n* *\nAEDPA prevents defendants \u2014 and federal courts \u2014 from using federal habeas corpus review as a vehicle to second-guess the reasonable decisions of state courts. Whether or not the Michigan Supreme Court\u2019s opinion reinstating Lett\u2019s conviction in this case was correct, it was clearly not unreasonable. The judgment of the Court of Appeals is reversed, and the case is remanded for further proceedings consistent with this opinion.\nIt is so ordered.\nThe dissent correctly points out that AEDPA itself \u201cnever uses the term \u2018deference.\u2019 \u201d Post, at 797 (opinion of Stevens, J.). But our cases have done so over and over again to describe the effect of the threshold restrictions in 28 U. S. C. \u00a7 2254(d) on granting federal habeas relief to state prisoners. See, e. g., Wellons v. Hall, 558 U. S. 220, 223-224, n. 3 (2010) (per curiam); Smith v. Spisak, 558 U. S. 139, 142-143 (2010); McDaniel v. Brown, 558 U. S. 120, 132-133 (2010) (per curiam); Cone v. Bell, 556 U. S. 449, 463, 472 (2009); Knowles v. Mirzayance, 556 U. S. 111, 112, n. 2 (2009); Waddington v. Sarausad, 555 U. S. 179, 194 (2009).\nWe do not think it reasonable, however, to contend that \u201cthe foreperson had no solid basis for estimating the likelihood of deadlock.\u201d Post, at 790. She had, after all, participated in the jury\u2019s deliberations.\nIt is not necessary for us to decide whether the Michigan Supreme Court\u2019s decision \u2014 or, for that matter, the trial judge\u2019s declaration of a mistrial \u2014 was right or wrong. The latter question, in particular, is a dose one. As Lett points out, at a hearing before the Michigan Court of Appeals, the state prosecutor expressed the view that the judge had in fact erred in dismissing the jury and declaring a mistrial. The Michigan Supreme Court declined to accept this confession of error, People v. Lett, 463 Mich. 939, 620 N. W. 2d 855 (2000), and in any event \u2014 for the reasons we have explained \u2014 whether the trial judge was right or wrong is not the pertinent question under AEDPA.",
+        "type": "majority",
+        "author": "Chief Justice Roberts"
+      },
+      {
+        "text": "Justice Stevens,\nwith whom Justice Sotomayor joins, and with whom Justice Breyer joins as to Parts I and II, dissenting.\nAt common law, courts went to great lengths to ensure the jury reached a verdict. Fourteenth-century English judges reportedly loaded hung juries into oxcarts and carried them from town to town until a judgment \u201c \u2018bounced out.' \u201d Less enterprising colleagues kept jurors as de facto \u201cprisoners\u201d until they achieved unanimity. The notion of a mistrial based on jury deadlock did not appear in Blackstone\u2019s Commentaries; it is no surprise, then, that colonial juries virtually always returned a verdict. Well into the 19th and even the 20th century, some American judges continued to coax unresolved juries toward consensus by threatening to deprive them of heat, sleep, or sustenance or to lock them in a room for a prolonged period of time.\nMercifully, our legal system has evolved, and such harsh measures are no longer tolerated. Yet what this history demonstrates \u2014 and what has not changed \u2014 is the respect owed \u201ca defendant\u2019s valued right to have his trial completed by a particular tribunal.\u201d Wade v. Hunter, 336 U. S. 684, 689 (1949). Our longstanding doctrine applying the Double Jeopardy Clause attests to the durability and fondamentality of this interest.\n\u201cThe reasons why this Valued right\u2019 merits constitutional protection are worthy of repetition.\u201d Arizona v. Washington, 434 U. S. 497, 503 (1978).\n\u201cEven if the first trial is not completed, a second prosecution may be grossly unfair. It increases the financial and emotional burden on the accused, prolongs the period in which he is stigmatized by an unresolved accusation of wrongdoing, and may even enhance the risk that an innocent defendant may be convicted. The danger of such unfairness to the defendant exists whenever a trial is aborted before it is completed. Consequently, as a general rule, the prosecutor is entitled to one, and only one, opportunity to require an accused to stand trial.\u201d Id., at 503-505 (footnotes omitted).\n\u201cThe underlying idea ... is that the State with all its resources and power should not be allowed to make repeated attempts to convict an individual for an alleged offense, thereby subjecting him to embarrassment, expense and ordeal and compelling him to live in a continuing state of anxiety and insecurity, as well as enhancing the possibility that even though innocent he may be found guilty.\u201d Green v. United States, 355 U. S. 184, 187-188 (1957).\nWe have come over the years to recognize that jury coercion poses a serious threat to jurors and defendants alike, and that the accused\u2019s interest in a single proceeding must sometimes yield \u201cto the public\u2019s interest in fair trials designed to end in just judgments,\u201d Wade, 386 U. S., at 689; and we have therefore carved out exceptions to the common-law rule. But the exceptions are narrow. For a mistrial to be granted at the prosecutor\u2019s request, \u201cthe prosecutor must shoulder the burden of justifying the mistrial if he is to avoid the double jeopardy bar. His burden is a heavy one.\u201d Washington, 434 U. S., at 505. A judge who acts sua sponte in declaring a mistrial must similarly make sure, and must enable a reviewing court to confirm, that there is a \u201c \u2018manifest necessity\u2019 \u201d to deprive the defendant of his valued right. Ibid.\nIn this case, the trial judge did not meet that burden. The record suggests that she discharged the jury without considering any less extreme courses of action, and the record makes quite clear that she did not fully appreciate the scope or significance of the ancient right at stake; The Michigan Supreme Court\u2019s decision rejecting Reginald Lett\u2019s double jeopardy claim was just as clearly in error.\nI\nNo one disputes that a \u201cgenuinely deadlocked jury\u201d is \u201cthe classic basis\u201d for declaring a mistrial or that such declaration, under our doctrine, does not preclude reprosecution, id., at 509; what is disputed in this ease is whether the trial judge took adequate care to ensure the jury was genuinely deadlocked. A long line of precedents from this Court establishes the \u201cgoverning legal principle[s],\u201d Williams v. Taylor, 529 U. S. 362, 413 (2000), for resolving this question. Although the Court acknowledges these precedents, ante, at 773-775, it minimizes the heavy burden we have placed on trial courts.\n\u201cThe fountainhead decision ... is United States v. Perez, 9 Wheat. 579 (1824).\u201d Illinois v. Somerville, 410 U. S. 458, 461 (1973). Writing for a unanimous Court, Justice Story articulated a \u201cmanifest necessity\u201d standard that continues to govern the double jeopardy analysis for mistrial orders:\n\u201cWe think, that in all cases of this nature, the law has invested Courts of justice with the authority to discharge a jury from giving any verdict, whenever, in their opinion, taking all the circumstances into consideration, there is a manifest necessity for the act, or the ends of public justice would otherwise be defeated. They are to exercise a sound discretion on the subject; and it is impossible to define all the circumstances, which would render it proper to interfere. To be sure, the power ought to be used with the greatest caution, under urgent circumstances, and for very plain and obvious causes; and, in capital cases especially, Courts should be extremely careful how they interfere with any of the chances of life, in favour of the prisoner. But, after all, they have the right to order the discharge; and the security which the public have for the faithful, sound, and conscientious exercise of this discretion, rests, in this, as in other cases, upon the responsibility of the Judges, under their oaths of office.\u201d United States v. Perez, 9 Wheat. 579, 580 (1824).\nThis passage, too, is worthy of repetition, because in it the Perez Court struck a careful balance. The Court established the authority of trial judges to discharge the jury prior to verdict, but in recognition of the novelty and potential injustice of the practice, the Court subjected that authority to several constraints: The judge may not declare a mistrial unless \u201cthere is a manifest necessity for the act\u201d or \u201cthe ends of public justice\u201d so require; and in determining whether such conditions exist, the judge must exercise \u201csound discretion,\u201d \u201cconscientiousness],\u201d and \u201cthe greatest caution,\u201d reserving the discharge power for \u201curgent circumstances\u201d and \u201cvery plain and obvious causes.\u201d Ibid. What exact circumstances and causes would meet that bar, the Court declined to specify. Recognizing that trial proceedings may raise innumerable complications, so that \u201cit is impossible to define\u201d in advance all of the possible grounds for \u201cinterference],\u201d the Court set forth general standards for judicial conduct rather than categorical rules for specific classes of situations. Ibid.\nThe seeds of our entire jurisprudence on the permissibility of retrial following an initial mistrial are packed into this one passage. Later Courts have fleshed out Perez, without making significant innovations or additions. Justice Story\u2019s formulation has been \u201cquoted over and over again to provide guidance in the decision of a wide variety of cases,\u201d Washington, 434 U. S., at 506, and it has been \u201cconsistently adhered to by this Court in subsequent decisions,\u201d Somerville, 410 U. S., at 462.\nThus, we have repeatedly reaffirmed that the power to discharge the jury prior to verdict should be reserved for \u201cextraordinary and striking circumstances,\u201d Downum v. United States, 372 U. S. 734, 736 (1963) (internal quotation marks omitted); that the trial judge may not take this \u201cweighty\u201d step, Somerville, 410 U. S., at 471, unless and until he has \u201cscrupulously]\u201d assessed the situation and \u201ctake[n] care to assure himself that [it] warrants action on his part foreclosing the defendant from a potentially favorable judgment by the tribunal,\u201d United States v. Jorn, 400 U. S. 470, 485, 486 (1971) (plurality opinion); that, to exercise sound discretion, the judge may not act \u201cirrationally,\u201d \u201cirresponsibly,\u201d or \u201cprecipitately\u201d but must instead act \u201cdeliberately\u201d and \u201ceareful[ly],\u201d Washington, 434 U. S., at 514-515, 516; and that, in view of \u201cthe elusive nature of the problem,\u201d mechanical rules are no substitute in the double jeopardy mistrial context for the sensitive application of general standards, Jorn, 400 U. S., at 485 (plurality opinion). The governing legal principles in this area are just that \u2014 principles \u2014 and their application to any particular set of facts entails an element of judgment.\nAs the Court emphasizes, we have also repeatedly reaffirmed that trial judges have considerable leeway in determining whether the jury is deadlocked, that they are not bound to use specific procedures or to make specific findings, and that reviewing courts must accord broad deference to their decisions. Ante, at 773-775. But the reviewing court still has an important role to play; the application of deference \u201cdoes not, of course, end the inquiry.\u201d Washington, 434 U. S., at 514. \u201cIn order to ensure that [the defendant\u2019s constitutional] interest is adequately protected, reviewing courts have an obligation to satisfy themselves that, in the words of Mr. Justice Story, the trial judge exercised \u2018sound discretion\u2019 in declaring a mistrial.\u201d Ibid. \u201cIf the record reveals that the trial judge has failed to exercise the \u2018sound discretion\u2019 entrusted to him, the reason for ... deference by an appellate court disappears.\u201d Id., at 510, n. 28. And while trial judges need not follow any . precise regimen to facilitate appellate review, they must at least take care to ensure that \u201c[t]he basis for [a] mistrial order is adequately disclosed by the record.\u201d Id., at 517.\nOur precedents contain examples of judicial action on both sides of the line. We have, for instance, allowed a second trial when the jurors in the first trial, after 40 hours of deliberation, \u201cannounced in open court that they were unable to agree,\u201d and no \u201cspecific and traversable fact[s]\u201d called their deadlock into question. Logan v. United States, 144 U. S. 263, 298 (1892). We have likewise permitted reprosecution when the initial judge heard \u201cextended argument\u201d from both parties on the mistrial motion, acted with evident \u201cconcern for the possible double jeopardy consequences of an erroneous ruling,\u201d and \u201caccorded careful consideration to [the defendant\u2019s] interest in having the trial concluded in a single proceeding.\u201d Washington, 434 U. S., at 501, 515, 516.\nOn the other hand, we have barred retrial when the first judge acted \u201cabruptly,\u201d cutting off the prosecutor \u201cin midstream\u201d and discharging the jury without giving the parties an opportunity to object. Jorn, 400 U. S., at 487 (plurality opinion); see also Somerville, 410 U. S., at 469 (characterizing Jorn judge\u2019s actions as \u201cerratic\u201d). And we have opined that, while trial judges have considerable leeway in deciding whether to discharge the jury, \u201c[w]e resolve any doubt in favor of the liberty of the citizen, rather than exercise what would be an unlimited, uncertain, and arbitrary judicial discretion.\u201d Downum, 372 U. S., at 738 (internal quotation marks omitted).\nII\nThe Court accurately describes the events leading up to this trial judge\u2019s declaration of mistrial, ante, at 770-771, but it glides too quickly over a number of details that, taken together, show her decisionmaking was neither careful nor well considered. If the \u201cmanifest necessity\u201d and \u201csound discretion\u201d standards are to have any force, we must demand more from our trial courts.\nIt is probably fair to say that this trial was not especially complex, ante, at 772, 777, but neither was it a trivial affair. Lett was charged with the most serious of crimes, first-degree murder, as well as possession of a firearm during the commission of a felony. He faced a potential sentence of life imprisonment if convicted. Seventeen witnesses provided testimony over the course of 10 calendar days. See 507 F. Supp. 2d 777, 779, 785-786 (ED Mich. 2007); see also id., at 785 (discussing \u201cpiecemeal fashion\u201d in which evidence was presented to the jury).\nThe jury\u2019s first period of deliberation on Thursday afternoon lasted less than 40 minutes. \u201cThe jury likely spent\u201d that brief session \u201cdoing little more than electing a foreperson.\u201d People v. Lett, 466 Mich. 206, 227, 644 N. W. 2d 743, 755 (2002) (Cavanagh, J., dissenting). The jury deliberated a few more hours on Friday morning prior to discharge. During that time, it sent the trial court seven notes. Most were inconsequential, routine queries. The first note on Friday morning raised \u201c'a concern about [the jurors\u2019] voice levels,\u2019 \u201d Letter from M. MeCowan to Clerk of Court (Mar. 4, 2010), p. 2, but nothing in the record relates this concern to the substance or tenor of their discussion. At 12:27 p.m., the jury sent the fateful missive, asking: \u201c*What if we can\u2019t agree? [M]istrial? [R]etrial? [W]hat?\u2019 \u201d Ibid. Seconds later, still at 12:27 p.m., the jury sent another note: \u201cWhat about lunch?\u2019\u201d Ibid.\nAt 12:45 p.m., the trial judge initiated a colloquy with the foreperson that concluded in the mistrial declaration. See ante, at 770-771 (reproducing transcript of colloquy). Even accounting for the imprecision of oral communication, the judge made an inordinate number of logical and legal missteps during this short exchange. Cf. Somerville, 410 U. S., at 469 (critiquing \u201cerratic\u201d mistrial inquiry). It does not take much exegetical skill to spot them.\nThe judge began by stating: \u201c \u2018I received your note asking me what if you can\u2019t agree? And I have to conclude from that that that is your situation at this time.\u2019\u201d Ante, at 770. This \u201c \u2018conclusion]\u2019 \u201d was a non sequitur. The note asked what would happen if the jury could not agree; it gave no indication that the jury had already reached an irrevocable impasse. The judge ignored the request for information that the note actually contained. Instead, she announced that deadlock was the jury\u2019s \u201c\u2018situation at this time,\u2019\u201d thereby prejudging the question she had ostensibly summoned the foreperson to probe: namely, whether the jury was in fact deadlocked.\nThe judge continued: \u201c\u2018I need to ask you if the jury is deadlocked; in other words, is there a disagreement as to the verdict?\u2019 \u201d Ibid. As the Federal Court of Appeals observed, this question \u201cimproperly conflated deadlock with mere disagreement.\u201d 316 Fed. Appx. 421, 426 (CA6 2009). Deadlock is a \u201ccondition or situation in which it is impossible to proceed or act; a complete standstill.\u201d 4 Oxford English Dictionary 290 (2d ed. 1989). Disagreement among jurors is perfectly normal and does not come close to approaching the \u201cimperious necessity\u201d we have required for their discharge. Downum, 372 U. S., at 736.\nThe trial judge then modulated her inquiry: \u201c \u2018Do you believe [the jury] is hopelessly deadlocked?\u2019\u201d Ante, at 770. The foreperson was in the midst of replying, \u201c \u2018The majority of us don\u2019t believe that \u2014 ,\u2019 \u201d when the judge appears to have cut her off. Ibid. One cannot \u201cfault the trial judge\u201d for wanting \u201cto preserve the secrecy of jury deliberations,\u201d 507 F. Supp. 2d, at 787, but two aspects of the foreperson\u2019s truncated reply are notable. First, it \u201ctends to show that the foreperson did not feel prepared to declare definitively that the jury was hopelessly deadlocked.\u201d Ibid. If she had been so prepared, then it is hard to see why she would begin her response with a descriptive account of the \u201c \u2018majority\u2019 \u201d viewpoint.\nSecond, the foreperson\u2019s reply suggests the jury may have been leaning toward acquittal. Admittedly, this is crude speculation, but it is entirely possible that the foreperson was in the process of saying, \u201cThe majority of us don\u2019t believe that he's guilty.\u201d Or: \u201cThe majority of us don\u2019t believe that there is sufficient evidence to prove one of the counts.\u201d (On retrial, Lett was convicted on both counts.) These possibilities are, I submit, linguistically more probable than something like the following: \u201cThe majority of us don\u2019t believe that Lett is guilty, whereas a minority of us believe that he is \u2014 and we are hopelessly deadlocked on the matter.\u201d And they are logically far more probable than something along the lines of, \u201cThe majority of us don\u2019t believe that we will ever be able to reach a verdict,\u201d as the foreperson had been given no opportunity to poll her colleagues on this point. Yet only such implausible endings could have supported a conclusion that it was manifestly necessary to discharge the jury.\nThe judge then steered the conversation back to the issue of deadlock, asking: \u201c \u2018Are you going to reach a unanimous verdict, or not?\u2019 \u201d Ante, at 771. After the foreperson hesitated, the judge persisted: \u201c\u2018Yes or no?\u2019\u201d Ibid. The foreperson replied: \u201c\u2018No, Judge.\u2019\u201d Ibid. Two aspects of this interchange are also notable. First, the judge\u2019s question, though \u201cvery direct,\u201d was \u201cactually rather ambiguous,\u201d because it gave the foreperson no temporal or legal context within which to understand what was being asked. 507 F. Supp. 2d, at 787. \u201cThe foreperson could have easily thought the judge meant, \u2018Are you going to reach a unanimous verdict in the next hour?\u2019 or \u2018before the lunch recess?\u2019 or \u2018by the end of the day?\u201d\u2019 Ibid, (emphasis deleted). Even if the foreperson assumed no time constraint, she could have easily thought the judge meant, \u201cAre you, in your estimation, more likely than not to reach a unanimous verdict?\u201d An affirmative answer to that question would likewise fall far short of manifest necessity.\nSecond, the foreperson\u2019s hesitation suggests a lack of confidence in her position. That alone ought to have called into question the propriety of a mistrial order. But the judge bore down and demanded an unqualified answer, \u201c\u2018Yes or no.\u2019 \u201d Most of the time when we worry about judicial coercion of juries, we worry about judges pressuring them, in the common-law manner, to keep deliberating until they return a verdict they may not otherwise have chosen. This judge exerted pressure so as to prevent the jury from reaching any verdict at all. In so doing, she cut off deliberations well before the point when it was clear they would no longer be fruitful. Recall that prior to summoning the foreperson for their colloquy, the trial judge gave her no opportunity to consult with the other jurors on the matter that would be discussed. So, the foreperson had no solid basis for estimating the likelihood of deadlock. Recall, as well, that almost immediately after sending the judge a note asking what would happen if they disagreed, the jury sent a note asking about lunch. Plainly, this was a group that was prepared to go on with its work.\nThe judge then declared a mistrial on the spot. Her entire exchange with the foreperson took three minutes, from 12:45 p.m. to 12:48 p.m. App. to Pet. for Cert. 93a-94a. The entire jury deliberations took roughly four hours. The judge gave the parties no opportunity to comment on the foreperson\u2019s remarks, much less on the question of mistrial. Cf. Washington, 434 U. S., at 515-516 (trial judge \u201cgave both defense counsel and the prosecutor full opportunity to explain their positions on the propriety of a mistrial\u201d); Fed. Rule Crim. Proc. 26.3 (\u201cBefore ordering a mistrial, the court must give eaeh defendant and the government an opportunity to comment on the propriety of the order, to state whether that party consents or objects, and to suggest alternatives\u201d). Just as soon as the judge declared a mistrial, she set a new pretrial date, discharged the jury, and concluded proceedings. By 12:50 p.m., everyone was free to take off for the weekend. App. to Pet. for Cert. 94a.\nIn addition to the remarkable \u201chast[e],\u201d Washington, 434 U. S., at 515, n. 34, and \u201cinexplicable] abrupt[ness],\u201d 316 Fed. Appx., at 428, with which she acted, it is remarkable what the trial judge did not do. \u201cNever did the trial judge consider alternatives or otherwise provide evidence that she exercised sound discretion. For example, the judge did not poll the jurors, give an instruction ordering further deliberations, query defense counsel about his thoughts on continued deliberations, or indicate on the record why a mistrial declaration was necessary.\u201d Lett, 466 Mich., at 227-228, 644 N. W. 2d, at 755 (Cavanagh, J., dissenting). Nor did the judge invite any argument or input from the prosecutor, make any findings of fact or provide any statements illuminating her thought process, follow up on the foreperson\u2019s final response, or give any evident consideration to the ends of public justice or the balance between the defendant\u2019s rights and the State\u2019s interests. The manner in which this discharge decision was made contravened standard trial-court guidelines. The judge may not have had a constitutional obligation to take any one of the aforementioned measures, but she did have an obligation to exercise sound discretion and thus to \u201cassure h[er]self that the situation warranted] action on h[er] part foreclosing the defendant from a potentially favorable judgment by the tribunal.\u201d Jorn, 400 U. S., at 486 (plurality opinion).\nAdd all these factors up, and I fail to see how the trial judge exercised anything resembling \u201csound discretion\u201d in declaring a mistrial, as we have defined that term. Indeed, I fail to see how a record could disclose much less evidence of sound decisionmaking. Within the realm of realistic, nonpretextual possibilities, this mistrial declaration was about as precipitate as one is liable to find. Despite the multitude of cases involving hung-jury mistrials that have arisen over the years, neither petitioner nor the Court has been able to identify any in which such abrupt judicial action has been upheld. See Tr. of Oral Arg. 12-15. Even the prosecutor felt compelled to acknowledge that the trial court\u2019s decision to discharge the jury \u201c \u2018clearly was error.\u2019 \u201d 316 Fed. Appx., at 427 (quoting postconviction hearing transcript).\nThe Michigan Supreme Court\u2019s contrary conclusion was unreasonable. The court suggested that an abuse of discretion should only be found \u201c \u2018when the result is \u201cso palpably and grossly violative of fact and logic that it evidences not the exercise of will but perversity of will, not the exercise of judgment but defiance thereof.\u2019\u201d\u201d Lett, 466 Mich., at 221, n. 12, 644 N. W. 2d, at 751, n. 12 (quoting Alken-Ziegler, Inc. v. Waterbury Headers Corp., 461 Mich. 219, 227, 600 N. W. 2d 638, 642 (1999)). Finding that the record in this case \u201cprovides sufficient justification for the mistrial declaration,\u201d Lett, 466 Mich., at 218, 644 N. W. 2d, at 750, the court concluded that the declaration constituted a permissible exercise of judicial discretion, id., at 223, 644 N. W. 2d, at 753. The court listed, without explaining, several reasons for this conclusion. The jury \u201chad deliberated for at least four hours following a relatively short, and far from complex, trial\u201d; it \u201chad sent out several notes over the course of its deliberations, including one that appears to indicate that its discussions may have been particularly heated\u201d; the parties did not object to the mistrial order; and, \u201c[m]ost important,\u201d \u201cthe jury foreperson expressly stated that the jury was not going to reach a verdict.\u201d Ibid.; see ante, at 777-778 (reprising this list).\nThese reasons do not suffice to justify the mistrial order. Four hours is not a long time for jury deliberations, particularly in a first-degree murder ease. Indeed, it would have been \u201cremarkable\u201d if the jurors \u201ccould review the testimony of all [the] witnesses in the time they were given, let alone conclude that they were deadlocked.\u201d 507 F. Supp. 2d, at 786. The jury\u2019s note pertaining to its volume level does not necessarily indicate anything about the \u201cheated[ness],\u201d Lett, 466 Mich., at 223, 644 N. W. 2d, at 753, of its discussion. \u201c[T]here is no other suggestion in the record that such was the case, and the trial judge did not draw that conclusion.\u201d 507 F. Supp. 2d, at 786. Although it would have been preferable if Lett had tried to lodge an objection, defense counsel was given no meaningful opportunity to do so \u2014 the judge discharged the jury simultaneously with her mistrial order, counsel received no advance notice of either action, and he may not even have been informed of the content of the jury\u2019s notes. See ante, at 771; 316 Fed. Appx., at 428 (\u201cAt no point before the actual declaration of the mistrial was it even mentioned on the record as a potential course of action by the court. The summary nature of the trial court\u2019s actions . . . rendered an objection both unlikely and meaningless\u201d (internal quotation marks omitted)). Counsel\u2019s failure to object is therefore legally irrelevant. And, as detailed above, the foreperson\u2019s remarks were far more equivocal and ambiguous, in context, than the Michigan Supreme Court allowed.\nThe Michigan Supreme Court\u2019s defense of the trial court's actions is thus weak on its own terms. It collapses entirely under the weight of the many defects in the trial court\u2019s process, virtually all of which the court either overlooked or discounted.\nThe unreasonableness of the Michigan Supreme Court\u2019s decision is highlighted by the decisions of the three other courts that have addressed Lett\u2019s double jeopardy claim, each of which ruled in his favor, as well as the dissent filed by two Michigan Supreme Court justices and the opinion of the State\u2019s own prosecutor. This Court\u2019s decision unfortunately compounds the deleterious consequences of the Michigan Supreme Court\u2019s ruling. \u201cAlthough the trial judge\u2019s decision is entitled to great deference, it is not the place of a reviewing court to extract factoids from the record in an attempt to salvage a bad decision.\u201d 507 F. Supp. 2d, at 787.\nIII\nThe Court does not really try to vindicate the Michigan Supreme Court on the merits, but instead ascribes today\u2019s outcome to the Antiterrorism and Effective Death Penalty Act of 1996 (AEDPA). The foregoing analysis shows why the Michigan Supreme Court\u2019s ruling cannot be saved by 28 U. S. C. \u00a7 2254(d)(1), however construed. That ruling was not only incorrect but also unreasonable by any fair measure. Three particular facets of the Court\u2019s AEDPA analysis require a brief comment.\nFirst, the fact that the substantive legal standard applied by the state court \u201cis a general one\u201d has no bearing on the standard of review. Ante, at 778. We have said that \u201c[t]he more general the rule, the more leeway courts have in reaching outcomes in case-by-case determinations.\u201d Yarborough v. Alvarado, 541 U. S. 652, 664 (2004). But this statement stands only for the unremarkable proposition that more broadly framed rules will tend to encompass a broader set of conforming applications. Regardless of the nature of the legal principle at issue, the task of a federal court remains the same under \u00a7 2254(d)(1): to determine whether the state court\u2019s decision \u201cwas contrary to, or involved an unreasonable application of, clearly established Federal law.\u201d General standards are no less binding law than discrete rules.\nSecond, I do not agree that the Federal Court of Appeals \u201cerred\u201d by \u201crel[ying] upon its own decision\u201d applying Arizona v. Washington. Ante, at 778. The Sixth Circuit was well aware that its own decision \u201cdoes not constitute \u2018clearly established Federal law, as determined by the Supreme Court.' \u201d Ante, at 779 (quoting \u00a7 2254(d)(1)). The panel expressly stated that it \u201creview[ed] the Michigan Supreme Court\u2019s decision to determine only whether it was objectively unreasonable in light of the holdings of the Supreme Court.\u201d 316 Fed. Appx., at 425. The panel examined its own precedents not as the relevant \u201cclearly established Federal law\u201d under AEDPA, but as a tool for illuminating the precise contours of that law Lower courts routinely look to circuit cases to \u201cprovide evidence that Supreme Court precedents ha[ve] clearly established a rule as of a particular time or [to] shed light on the \u2018reasonableness\u2019 of the state courts\u2019 application of existing Supreme Court precedents.\u201d 2 R. Hertz & J. Liebman, Federal Habeas Corpus Practice and Procedure \u00a732.3, p. 1585, n. 10 (5th ed. 2005) (hereinafter Hertz & Liebman). This is a healthy practice \u2014 indeed, a vital practice, considering how few cases this Court decides \u2014 and we have never disapproved it.\nFinally, I do not agree that AEDPA authorizes \u201cthe dual layers of deference\u201d the Court has utilized in this case. Ante, at 778. There is little doubt that AEDPA \u201cdirects federal courts to attend to every state-court judgment with utmost care.\u201d Williams, 529 U. S., at 389 (opinion of Stevens, J.). But the statute never uses the term \u201cdeference,\u201d and the legislative history makes clear that Congress meant to preserve robust federal-court review. Id., at 386-387; see also Hertz & Liebman \u00a7 32.3, at 1587-1589, n. 13 (summarizing congressional record and noting that \u201c[t]he aspect of prior practice that most troubled AEDPA\u2019s supporters was the federal court\u2019s inattention to, and lack of respect for, state court decisions that the federal court, if it only looked, would find to be legally correct\u201d). Any attempt to prevent federal courts from exercising independent review of habeas applications would have been a radical reform of dubious constitutionality, and Congress \u201cwould have spoken with much greater clarity\u201d if that had been its intent. Williams, 529 U. S., at 379 (opinion of Stevens, J.).\nSo on two levels, it is absolutely \u201cnecessary for us to decide whether the Michigan Supreme Court\u2019s decision . . . was right or wrong.\u201d Ante, at 778, n. 3. If a federal judge were firmly convinced that such a decision were wrong, then in my view not only would he have no statutory duty to uphold it, but he might also have a constitutional obligation to reverse it. And regardless of how one conceptualizes the distinction between an incorrect and an \u201cunreasonable\u201d state-court ruling under \u00a7 2254(d)(1), one must always determine whether the ruling was wrong to be able to test the magnitude of any error. Substantive and methodological considerations compel federal courts to give habeas claims a Ml, independent review \u2014 and then to decide for themselves. Even under AEDPA, there is no escaping the burden of judgment.\n\u2021 \u2021 *\nIn this case, Reginald Lett\u2019s constitutional rights were violated when the trial court terminated his first trial without adequate justification and he was subsequently prosecuted for the same offense. The majority does not appear to dispute this point, but it nevertheless denies Lett relief by applying a level of deference to the state court\u2019s ruling that effectively effaces the role of the federal courts. Nothing one will find in the United States Code or the United States Reports requires us to turn a blind eye to this manifestly unlawful conviction.\nI respeetMly dissent.\nComment, Deadlocked Juries and Dynamite: A Critical Look at the \u201cAllen Charge,\u201d 31 U. Chi. L. Rev. 386 (1964) (citing G. Crabb, A History of English Law 287 (1829)); see King v. Ledgingham, 1 Vent. 97, 86 Eng. Rep. 67 (K. B. 1670); 2 M. Hale, Pleas of the Crown 297 (1736).\nJ. Baker, An Introduction to English Legal History 75 (4th ed. 2002); see also 1 W. Holdsworth, A History of English Law 318-319 (rev. 7th ed. 1956).\n\u201cWhen the evidence on both sides is closed,\u201d Blackstone observed of criminal cases, \u201cthe jury cannot be discharged till they have given in their verdict.\u201d 4 Commentaries on the Laws of England 354 (1769).\nSee Thomas & Greenbaum, Justice Story Cuts the Gordian Knot of Hung Jury Instructions, 15 Wm. & Mary Bill Rights J. 893, 897 (2007). According to these scholars, \u201c[t]he first report of a mistrial for failure to reach a verdict in an American court was 1807.\u201d Ibid.\nSee, e.g., Mead v. Richland Center, 237 Wis. 537, 540-541, 297 N. W. 419, 421 (1941).\nSee, e. g., Commonwealth v. Moore, 398 Pa. 198, 204-205, 157 A. 2d 65, 69 (1959).\nSee, e. g., Cole v. Swan, 4 Greene 32, 33 (Iowa 1853).\nSee, e. g., Canterberry v. Commonwealth, 222 Ky. 510, 513-514, 1 S.W. 2d 976, 977 (1928).\nAs Justice Harlan observed, \u201c[a] power in government to subject the individual to repeated prosecutions for the same offense would cut deeply into the framework of procedural protections which the Constitution establishes for the conduct of a criminal trial.\u201d United States v. Jorn, 400 U. S. 470, 479 (1971) (plurality opinion).\nSee also Gori v. United States, 367 U. S. 364, 368 (1961) (Perez is \u201cauthoritative starting point of our law in this field\u201d).\nSee also Jorn, 400 U. S., at 486 (\u201c[I]n the final analysis, the judge must always temper the decision whether or not to abort the trial by considering the importance to the defendant of being able, once and for all, to conclude his confrontation with society through the verdict of a tribunal he might believe to be favorably disposed to his fate\u201d). Jorn was technically a plurality opinion, but in all relevant respects it was a majority product. Justices Black and Brennan believed the Court lacked jurisdiction over the appeal, and for that reason they withheld their full assent. Id., at 488 (statement concurring in judgment). \u201cHowever, in view of a decision by a majority of the Court to reach the merits, they join[ed] the judgment of the Court.\u201d Ibid. As petitioner acknowledges, Jorn broke no new ground: Its \u201cholding is consistent [with] and no broader than Perez.\u201d Reply Brief for Petitioner 18, n. 50.\nSee Brief for Petitioner 13-14,25, 32 (recognizing this \u201cconstitutional floor\u201d).\nAccord, Arizona v. Washington, 434 U. S. 497, 506 (1978); Illinois v. Somerville, 410 U. S. 458, 462 (1973); Downum v. United States, 372 U. S. 734, 737 (1963); Gori, 367 U. S., at 369.\nAnother reading of the foreperson\u2019s reply is available: Her statement, \u201c\u2018The majority of us don\u2019t believe that,\u2019\u201d may have been a complete sentence. In other words, she may have meant to convey, \u201cThe majority of us don\u2019t believe that we are hopelessly deadlocked.\u201d The trial-court transcript places an em dash rather than a period after the word \u201cthat,\u201d but this is hardly dispositive evidence of intonation or intent. However, the trial judge\u2019s contemporaneous reaction, the fact that the foreperson was not permitted to consult with the other jurors on the issue of deadlock, and respondent\u2019s failure to advance this reading undercut its plausibility.\nSee, e. g., ABA Standards for Criminal Justice, Discovery and Trial by Jury 15-5.4, pp. 256-257 (3d ed. 1996) (\"A trial judge should be able to send the jury back for further deliberations notwithstanding its indication that it has been unable to agree. The general view is that a court may send the jury back for additional deliberations even though the jury has indicated once, twice, or several times that it cannot agree or even after jurors have requested that they be discharged.. .. [I]t is believed that a jury should not be permitted to avoid a reasonable period of deliberation merely by repeated indications that it is unhappy over its inability to agree\u201d); Federal Judicial Center, Manual on Recurring Problems in Criminal Trials 162 (5th ed. 2001) (\"Before declaring a mistrial, a trial judge must consider all the procedural alternatives to a mistrial, and, after finding none of them to be adequate, make a finding of manifest necessity for the declaration of a mistrial\u201d); National Conference of State Trial Judges of the Judicial Administration Division of the American Bar Association and the National Judicial College, The Judge\u2019s Book 220 (2d ed. 1994) (\u201cThe jury should be given full opportunity to decide the case, considering the number of days of evidence it heard\u201d); State Justice Institute, National Center for State Courts & National Judicial College, Jury Trial Management for the 21st Century \u00a73, Module #3 (2009), online at http://www. icmelearning.com/jtm (as visited Apr. 30, 2010, and available in Clerk of Court\u2019s case file) (\u201c \u2018Deliberating jurors should be offered assistance when apparent impasse is reported\u2019 \u201d).\nLike the trial court before it, the Michigan Supreme Court did not make any factual findings to bolster its unreasonable legal conclusion. As the State Court of Appeals noted, the trial judge declared a mistrial as soon as she extracted a suggestive answer from the foreperson. She \u201cnever even found on the record that the jury was genuinely deadlocked.\u201d People v. Lett, No. 209513, 2000 WL 33423221, *4 (Apr. 21, 2000) (per curiam); see also People v. Lett, 466 Mich. 206, 225, 644 N. W. 2d 743, 754 (2002) (trial court did not \u201carticulate a rationale on the record\u201d). The Michigan Supreme Court expressly declined to commit to the position that the jury really was deadlocked or that manifest necessity really did exist. See, e. g., id., at 220, 644 N. W. 2d, at 751 (\u201cThe issue is not whether this Court would have found manifest necessity\u201d). Accordingly, even if 28 U. S. C. \u00a7 2254(e)(1) were to apply to this appeal, there were no \u201cdetermination[s] of a factual issue made by a State court\u201d that we would have to \u201cpresum[e] to be correct.\u201d In any event, none of the relevant facts in the case are disputed, and no argument concerning \u00a7 2254(e)(1) was properly raised in this Court or passed upon below.\nSee Jorn, 400 U. S., at 487 (plurality opinion) (\u201c[I]ndeed, the trial judge acted so abruptly in discharging the jury that, had the... defendant [been disposed] to object to the discharge of the jury, there would have been no opportunity to do so\u201d); see also Lett, 2000 WL 33423221, *2 (noting that failure to object to the jury\u2019s discharge does not constitute consent under Michigan law). While a defendant\u2019s affirmative request for or consent to a mistrial may be relevant to the double jeopardy inquiry, see, e. g., Jorn, 400 U. S., at 485 (plurality opinion), we have never suggested that defendants must object to such orders to preserve a claim, much less object to an order issued sua sponte and without any advance notice.\nIn recognition of this basic insight, our precedents \u201chave made clear\u201d that a state-court decision may be \u201cunreasonable\u201d within the meaning of \u00a7 2254(d)(1) when the \u201cstate court has misapplied a \u2018governing legal principle\u2019 to \u2018a set of facts different from those of the case in which the principle was announced.\u2019 \u201d Wiggins v. Smith, 539 U. S. 510, 520 (2003) (quoting Lockyer v. Andrade, 538 U. S. 63, 76 (2003)); see also Williams v. Taylor, 529 U. S. 362, 413 (2000). This is a critical feature of our AEDPA jurisprudence. Federal habeas review would be meaningless if, for relief to be granted, we required a perfect congruence between the facts that gave rise to our governing precedents and the facts that confronted the state court in any particular case.",
+        "type": "dissent",
+        "author": "Justice Stevens,"
+      }
+    ],
+    "attorneys": [
+      "Joel D. McGormley argued the cause for petitioner. With him on the briefs were Michael A. Cox, Attorney General of Michigan, B. Eric Restuccia, Solicitor General, and Laura L. Moody, First Assistant Attorney General.",
+      "Marla Rose McCowan, by appointment of the Court, 558 U. S. 1145, argued the cause for respondent. With her on the brief were Michael Mittlestat, Jeffrey T Green, and Sarah O\u2019Rourke Schrup."
+    ],
+    "corrections": "",
+    "head_matter": "RENICO, WARDEN v. LETT\nNo. 09-338.\nArgued March 29, 2010\nDecided May 3, 2010\nRoberts, C. J., delivered the opinion of the Court, in which Scalia, Kennedy, Thomas, Ginsburg, and Auto, JJ., joined. Stevens, J., filed a dissenting opinion, in which Sotomayor, J., joined, and in which Breyer, J., joined as to Parts I and II, post, p. 780.\nJoel D. McGormley argued the cause for petitioner. With him on the briefs were Michael A. Cox, Attorney General of Michigan, B. Eric Restuccia, Solicitor General, and Laura L. Moody, First Assistant Attorney General.\nMarla Rose McCowan, by appointment of the Court, 558 U. S. 1145, argued the cause for respondent. With her on the brief were Michael Mittlestat, Jeffrey T Green, and Sarah O\u2019Rourke Schrup."
+  },
+  "file_name": "0766-01",
+  "first_page_order": 866,
+  "last_page_order": 898
+}

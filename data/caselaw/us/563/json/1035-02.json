@@ -1,0 +1,59 @@
+{
+  "id": 5938890,
+  "name": "Marshall v. Florida",
+  "name_abbreviation": "Marshall v. Florida",
+  "decision_date": "2011-06-06",
+  "docket_number": "No. 10-8419",
+  "first_page": "1035",
+  "last_page": "1035",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1035"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 83,
+    "ocr_confidence": 0.562,
+    "sha256": "bae978e8bc59723c9befb0ecf4073aad564c6952cabaf08c04cafd6d2d5e7118",
+    "simhash": "1:21a10126a0452f19",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Marshall v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 3d Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8419.\nMarshall v. Florida."
+  },
+  "file_name": "1035-02",
+  "first_page_order": 1061,
+  "last_page_order": 1061
+}

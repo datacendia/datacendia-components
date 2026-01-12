@@ -1,0 +1,59 @@
+{
+  "id": 6032242,
+  "name": "Colvin v. Sheets, Warden",
+  "name_abbreviation": "Colvin v. Sheets",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5015",
+  "first_page": "899",
+  "last_page": "899",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 899"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.523,
+    "sha256": "2f06fb9dc0128480ee5c065deda74415c53cf7240f9390fc2abfef90a5b01c63",
+    "simhash": "1:b64e3200fe5d4074",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Colvin v. Sheets, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5015.\nColvin v. Sheets, Warden."
+  },
+  "file_name": "0899-03",
+  "first_page_order": 921,
+  "last_page_order": 921
+}

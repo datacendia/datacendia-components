@@ -1,0 +1,59 @@
+{
+  "id": 12234864,
+  "name": "In re Kissane; and In re Perry",
+  "name_abbreviation": "In re Kissane",
+  "decision_date": "2011-11-28",
+  "docket_number": "No. 11-7130; No. 11-7134",
+  "first_page": "1056",
+  "last_page": "1056",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1056"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 103,
+    "ocr_confidence": 0.58,
+    "sha256": "861c57c3bbf00efb3a898329c57ad7b9d3b4e2234ec7f5adbd370a2359f93620",
+    "simhash": "1:5ab6d0243b181304",
+    "word_count": 18
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Kissane; and In re Perry."
+    ],
+    "opinions": [
+      {
+        "text": "Petitions for writs of habeas corpus denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7130.\nNo. 11-7134.\nIn re Kissane; and In re Perry."
+  },
+  "file_name": "1056-03",
+  "first_page_order": 1138,
+  "last_page_order": 1138
+}

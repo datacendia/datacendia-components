@@ -1,0 +1,59 @@
+{
+  "id": 6017330,
+  "name": "Baze v. Thompson, Commissioner, Kentucky Department of Corrections",
+  "name_abbreviation": "Baze v. Thompson",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10806",
+  "first_page": "852",
+  "last_page": "852",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 852"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 114,
+    "ocr_confidence": 0.66,
+    "sha256": "b320c1deaaddcd75df01bad38c226cdcfa0dac126b08698f5cb0ed6894e3b583",
+    "simhash": "1:7d2800728af01c38",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Baze v. Thompson, Commissioner, Kentucky Department of Corrections."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ky. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10806.\nBaze v. Thompson, Commissioner, Kentucky Department of Corrections."
+  },
+  "file_name": "0852-13",
+  "first_page_order": 874,
+  "last_page_order": 874
+}

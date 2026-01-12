@@ -1,0 +1,59 @@
+{
+  "id": 12201103,
+  "name": "Weeks v. Tucker, Secretary, Florida Department of Corrections",
+  "name_abbreviation": "Weeks v. Tucker",
+  "decision_date": "2012-04-02",
+  "docket_number": "No. 11-8562",
+  "first_page": "924",
+  "last_page": "924",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 924"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 109,
+    "ocr_confidence": 0.661,
+    "sha256": "456bacb4e0ca82f1d7c4a8e51379bd413b74ba407bf737ef81f8ba47f4c172e4",
+    "simhash": "1:54ff80e208708834",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Weeks v. Tucker, Secretary, Florida Department of Corrections."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8562.\nWeeks v. Tucker, Secretary, Florida Department of Corrections."
+  },
+  "file_name": "0924-14",
+  "first_page_order": 800,
+  "last_page_order": 800
+}

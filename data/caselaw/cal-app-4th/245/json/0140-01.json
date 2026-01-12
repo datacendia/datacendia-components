@@ -1,0 +1,1269 @@
+{
+  "id": 6786929,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. WILBERT BROWN, Defendant and Appellant",
+  "name_abbreviation": "People v. Brown",
+  "decision_date": "2016-02-25",
+  "docket_number": "No. A141172",
+  "first_page": "140",
+  "last_page": "174",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "245 Cal. App. 4th 140"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "959 P.2d 360",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "77 Cal.Rptr.2d 202",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 Cal.4th 1057",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        344195
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/18/1057-01"
+      ]
+    },
+    {
+      "cite": "489 U.S. 378",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12032186
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/489/0378-01"
+      ]
+    },
+    {
+      "cite": "436 U.S. 658",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1490618
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "694"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/436/0658-01"
+      ]
+    },
+    {
+      "cite": "485 F.3d 463",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4077187
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "484"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/485/0463-01"
+      ]
+    },
+    {
+      "cite": "87 P.3d 1",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "11 Cal.Rptr.3d 692",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Cal.4th 820",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        801099
+      ],
+      "pin_cites": [
+        {
+          "page": "839-840"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/32/0820-01"
+      ]
+    },
+    {
+      "cite": "56 Vill. L.Rev. 363",
+      "category": "journals:journal",
+      "reporter": "Vill. L. Rev.",
+      "pin_cites": [
+        {
+          "page": "384-385"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "122 P.3d 765",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.Rptr.3d 644",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Cal.4th 428",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3771953
+      ],
+      "pin_cites": [
+        {
+          "page": "435"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/37/0428-01"
+      ]
+    },
+    {
+      "cite": "751 P.2d 395",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "245 Cal.Rptr. 336",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.3d 883",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4537291
+      ],
+      "pin_cites": [
+        {
+          "page": "907, fn. 6"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/44/0883-01"
+      ]
+    },
+    {
+      "cite": "380 F.3d 893",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9213541
+      ],
+      "pin_cites": [
+        {
+          "page": "908"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/380/0893-01"
+      ]
+    },
+    {
+      "cite": "25 F.3d 1342",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10516050
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/25/1342-01"
+      ]
+    },
+    {
+      "cite": "505 P.2d 193",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "106 Cal.Rptr. 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "8 Cal.3d 689",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2321906
+      ],
+      "pin_cites": [
+        {
+          "page": "702"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/8/0689-01"
+      ]
+    },
+    {
+      "cite": "121 Cal.Rptr.3d 787",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "192 Cal.App.4th 1091",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4229450
+      ],
+      "pin_cites": [
+        {
+          "page": "1110"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/192/1091-01"
+      ]
+    },
+    {
+      "cite": "394 F.3d 689",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9169332
+      ],
+      "pin_cites": [
+        {
+          "page": "701"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/394/0689-01"
+      ]
+    },
+    {
+      "cite": "141 Cal.Rptr.3d 553",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "206 Cal.App.4th 702",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4253215
+      ],
+      "pin_cites": [
+        {
+          "page": "712"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/206/0702-01"
+      ]
+    },
+    {
+      "cite": "522 P.2d 305",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "113 Cal.Rptr. 897",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "11 Cal.3d 531",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2302336
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/11/0531-01"
+      ]
+    },
+    {
+      "cite": "299 P.2d 243",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.2d 818",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4370142
+      ],
+      "pin_cites": [
+        {
+          "page": "836"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/46/0818-01"
+      ]
+    },
+    {
+      "cite": "386 U.S. 18",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6168882
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/386/0018-01"
+      ]
+    },
+    {
+      "cite": "305 P.3d 252",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "160 Cal.Rptr.3d 684",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 Cal.4th 622",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        4237369
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/57/0622-01"
+      ]
+    },
+    {
+      "cite": "16 Cal.Rptr.3d 521",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "120 Cal.App.4th 1077",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1109235
+      ],
+      "pin_cites": [
+        {
+          "page": "1103"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/120/1077-01"
+      ]
+    },
+    {
+      "cite": "550 F.2d 505",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        988766
+      ],
+      "pin_cites": [
+        {
+          "page": "512"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/550/0505-01"
+      ]
+    },
+    {
+      "cite": "82 Cal.Rptr.2d 162",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "69 Cal.App.4th 1155",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1662520
+      ],
+      "pin_cites": [
+        {
+          "page": "1178"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/69/1155-01"
+      ]
+    },
+    {
+      "cite": "441 U.S. 520",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1780223
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "559"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/441/0520-01"
+      ]
+    },
+    {
+      "cite": "54 Cal.Rptr.2d 772",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.App.4th 334",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4791199
+      ],
+      "pin_cites": [
+        {
+          "page": "343"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/47/0334-01"
+      ]
+    },
+    {
+      "cite": "142 Cal.Rptr.3d 782",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "207 Cal.App.4th 12",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6054965
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "14"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/207/0012-01"
+      ]
+    },
+    {
+      "cite": "250 Cal.Rptr. 836",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "203 Cal.App.3d 1468",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2380102
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/203/1468-01"
+      ]
+    },
+    {
+      "cite": "961 F.2d 359",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1863205
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/961/0359-01"
+      ]
+    },
+    {
+      "cite": "517 U.S. 806",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11746960
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "815-816"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/517/0806-01"
+      ]
+    },
+    {
+      "cite": "2000 WI 126",
+      "category": "reporters:neutral",
+      "reporter": "WI",
+      "case_ids": [
+        11092240
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/wis-2d/239/0595-01"
+      ]
+    },
+    {
+      "cite": "472 F.3d 444",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5198375
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/472/0444-01"
+      ]
+    },
+    {
+      "cite": "993 F.2d 374",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10513486
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/993/0374-01"
+      ]
+    },
+    {
+      "cite": "490 U.S. 386",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        605535
+      ],
+      "weight": 6,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/490/0386-01"
+      ]
+    },
+    {
+      "cite": "95 A.L.R.6th 641",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R. 6th",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "649"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "89 Cal.Rptr.3d 801",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "171 Cal.App.4th 516",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        12125944
+      ],
+      "pin_cites": [
+        {
+          "page": "527"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/171/0516-01"
+      ]
+    },
+    {
+      "cite": "84 Cal.Rptr.2d 157",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "71 Cal.App.4th 853",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        585048
+      ],
+      "pin_cites": [
+        {
+          "page": "865"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/71/0853-01"
+      ]
+    },
+    {
+      "cite": "39 Cal.Rptr.2d 103",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 Cal.App.4th 37",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        2410734
+      ],
+      "pin_cites": [
+        {
+          "page": "46"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/33/0037-01"
+      ]
+    },
+    {
+      "cite": "12 Cal.Rptr.3d 762",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "118 Cal.App.4th 179",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1377131
+      ],
+      "pin_cites": [
+        {
+          "page": "189"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/118/0179-01"
+      ]
+    },
+    {
+      "cite": "275 P.3d 496",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "140 Cal.Rptr.3d 383",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.4th 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        5721090
+      ],
+      "pin_cites": [
+        {
+          "page": "60"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/54/0001-01"
+      ]
+    },
+    {
+      "cite": "143 Cal.Rptr.3d 793",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "207 Cal.App.4th 755",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6054891
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "761"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/207/0755-01"
+      ]
+    },
+    {
+      "cite": "262 P.3d 581",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "132 Cal.Rptr.3d 373",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Cal.4th 1038",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3919405
+      ],
+      "pin_cites": [
+        {
+          "page": "1044"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/52/1038-01"
+      ]
+    },
+    {
+      "cite": "288 P.3d 1237",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "149 Cal.Rptr.3d 614",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "55 Cal.4th 747",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3932189
+      ],
+      "pin_cites": [
+        {
+          "page": "773"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/55/0747-01"
+      ]
+    },
+    {
+      "cite": "47 Cal.Rptr.3d 695",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "142 Cal.App.4th 175",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3499647
+      ],
+      "pin_cites": [
+        {
+          "page": "184"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/142/0175-01"
+      ]
+    },
+    {
+      "cite": "822 P.2d 385",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2006,
+      "opinion_index": 0
+    },
+    {
+      "cite": "3 Cal.Rptr.2d 677",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 2006,
+      "opinion_index": 0
+    },
+    {
+      "cite": "1 Cal.4th 495",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1201299
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "528"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/1/0495-01"
+      ]
+    },
+    {
+      "cite": "960 P.2d 1094",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "77 Cal.Rptr.2d 870",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 Cal.4th 142",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1709356
+      ],
+      "pin_cites": [
+        {
+          "page": "178, fn. 25"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/19/0142-01"
+      ]
+    },
+    {
+      "cite": "56 Cal.Rptr.3d 455",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "148 Cal.App.4th 1327",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6045867
+      ],
+      "pin_cites": [
+        {
+          "page": "1335"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/148/1327-01"
+      ]
+    },
+    {
+      "cite": "179 Cal.Rptr.3d 7",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "230 Cal.App.4th 848",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4084076
+      ],
+      "pin_cites": [
+        {
+          "page": "857"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/230/0848-01"
+      ]
+    },
+    {
+      "cite": "328 P.3d 69",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "174 Cal.Rptr.3d 82",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 Cal.4th 650",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        4263978
+      ],
+      "pin_cites": [
+        {
+          "page": "658"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/59/0650-01"
+      ]
+    },
+    {
+      "cite": "175 Cal.Rptr. 651",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "122 Cal.App.3d 138",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2066013
+      ],
+      "pin_cites": [
+        {
+          "page": "145"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/122/0138-01"
+      ]
+    },
+    {
+      "cite": "161 Cal.Rptr. 541",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1981,
+      "opinion_index": 0
+    },
+    {
+      "cite": "101 Cal.App.3d 161",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        1983833
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "168"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/101/0161-01"
+      ]
+    },
+    {
+      "cite": "906 P.2d 531",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.Rptr.2d 569",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "12 Cal.4th 186",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1957548
+      ],
+      "pin_cites": [
+        {
+          "page": "196"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/12/0186-01"
+      ]
+    },
+    {
+      "cite": "941 P.2d 880",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "66 Cal.Rptr.2d 701",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 Cal.4th 805",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1217903
+      ],
+      "pin_cites": [
+        {
+          "page": "817"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/16/0805-01"
+      ]
+    },
+    {
+      "cite": "960 P.2d 1073",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "77 Cal.Rptr.2d 848",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 Cal.4th 108",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1709353
+      ],
+      "pin_cites": [
+        {
+          "page": "117"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/19/0108-01"
+      ]
+    },
+    {
+      "cite": "182 Cal.Rptr.3d 491",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "233 Cal.App.4th 148",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4219453
+      ],
+      "pin_cites": [
+        {
+          "page": "158"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/233/0148-01"
+      ]
+    },
+    {
+      "cite": "29 P.3d 197",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "111 Cal.Rptr.2d 114",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 Cal.4th 779",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        456849
+      ],
+      "pin_cites": [
+        {
+          "page": "790"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/26/0779-01"
+      ]
+    },
+    {
+      "cite": "303 P.3d 368",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "159 Cal.Rptr.3d 57",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 Cal.4th 232",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6053910
+      ],
+      "pin_cites": [
+        {
+          "page": "240"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/57/0232-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 2690,
+    "char_count": 90574,
+    "ocr_confidence": 0.867,
+    "pagerank": {
+      "raw": 1.0455437588413913e-07,
+      "percentile": 0.5519707905750489
+    },
+    "sha256": "a2377c45abe90d072e00e3e5d66b1834f0b2f8531e100e694f9f127b6b03d536",
+    "simhash": "1:87f2e4027b9cd57b",
+    "word_count": 14773
+  },
+  "last_updated": "2024-02-27T19:06:56.454958+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Rivera, J., concurred."
+    ],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. WILBERT BROWN, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nSTREETER, J.\nI.\nINTRODUCTION\nIn November 2011, Wilbert Brown was riding his bicycle on a sidewalk one evening in Richmond when Officer Michael Ricchiuto ordered him to stop for wearing earphones while riding, and for not having a light. Brown, who was 67 years old at the time, attempted to flee, but Ricchiuto and a second officer, Officer James Moody, chased him down and arrested him. After a physical altercation during the arrest, the officers restrained Brown and found drugs in a baggie he had discarded during the chase. Charges arising out of this incident resulted in felony convictions for possession and transportation of cocaine and for using force or violence to resist an executive officer in the performance of his duty in violation of Penal Code section 69 (section 69). Brown appeals, seeking reversal of his conviction for violating section 69 on two grounds: (1) the failure to instruct the jury sua sponte regarding simple assault as a lesser necessarily included offense and (2) the erroneous admission of expert testimony regarding police standards for use of force. We agree with both contentions and shall conditionally reverse, finding that these errors, considered individually and cumulatively, require either a modification or reversal of Brown\u2019s conviction for resisting an officer by force or violence.\nII.\nSTATEMENT OF FACTS AND PROCEDURE\nA. Brown\u2019s Arrest on November 14, 2011: The Officers\u2019 Version Versus Brown\u2019s Version\nThe initial series of events leading to Brown\u2019s arrest was undisputed. Near dusk on November 14, 2011, Officer Ricchiuto was on patrol in his cruiser in the Iron Triangle area of Richmond, a neighborhood known for drug trafficking and gang activity, often involving young African-American men. He spotted Wilbert Brown, a 67-year-old African-American man, riding a bicycle on the sidewalk in violation of the Richmond Municipal Code, while wearing headphones and without a light in violation of the California Vehicle Code. Officer Ricchiuto yelled at Brown to stop, but Brown sped up and tried to flee, with Officer Ricchiuto in pursuit. Another officer, Officer Moody, who was backing up Ricchiuto in a second cruiser, joined in the chase and at one point wedged his car in front of Brown\u2019s path in an effort to cause a collision. Brown managed to steer around Moody\u2019s car, grazing it and breaking a side mirror as he passed. Both officers eventually left their vehicles and pursued Brown on foot. The officers cornered Brown in an abandoned parking lot, where they arrested him after a brief altercation. In the course of that altercation, Brown sustained a fractured rib and knots on his head, while Officer Ricchiuto sustained a \u201cboxer\u2019s fracture\u201d to the knuckle of his right hand. At the time of their encounter with Brown, both officers were several decades younger than Brown (Ricchiuto was in his \u201clate 20s\u201d and Moody was 38), and in excellent physical condition. They were also physically much bigger than Brown (Brown was five feet eight inches, 140 pounds, while the officers were six feet, 175 and 200 pounds, respectively).\nWhat happened in the parking lot when the officers caught Brown was a matter of some dispute.\nAccording to the officers, at that point they had no idea how old Brown was. To them, he was a man they had never seen before, who was wearing baggy clothes, and who, by this stage of the chase, was suspected of felony drug trafficking. Officer Moody caught up to Brown first, yelled at him repeatedly to stop, and then tackled him, throwing him off of his bicycle, and taking him to the ground. Brown \u201caggressively\u201d \u201cflipp[ed] back over\u201d into a \u201csitting position,\u201d and became combative, \u201cswinging his hands\u201d with a \u201cclenched fist.\u201d To get control of Brown and protect himself, Officer Moody used his fist to hit Brown in the torso area with a \u201ccompliance strike,\u201d but the punch had no effect and Brown continued to swing at him; at that point, Officer Ricchiuto came to Officer Moody\u2019s assistance, and, seeing Brown reach for something in his waistband, delivered three \u201ccompliance strikes,\u201d one with his knee to Brown\u2019s torso, and two with his fists to the side of Brown\u2019s head. These blows caused Brown to stop swinging and shield his head with his hands, a defensive move that finally brought him under control, since it allowed the officers to secure his hands and place him in handcuffs. Brown\u2019s account of the officers\u2019 actions was quite different. He testified that he fell off his bicycle in the parking lot after hitting a curb. He claimed that, without any kind of warning, and while he was facedown on the ground, not resisting and no longer fleeing, one of the officers dived on his back with enormous force, \u201clike Superman,\u201d pinning him down. That officer, angry and unprovoked, then proceeded to slug him in the head three times. In Brown\u2019s telling, all the second officer did was handcuff him after he had been pummeled by the first officer. Brown denied swinging at either officer. He testified, \u201cI wouldn\u2019t even try to \u2014 I couldn\u2019t win anyway, but no, I didn\u2019t.\u201d\nB. Expert Testimony\nThe prosecution presented the testimony of three experts to support its case, the first two to support the drug charges and the third to support the charge of resisting an executive officer with force or violence. Criminalist Richard Bowden testified as an expert in the area of analyzing controlled substances. Bowden was asked to examine a packet of 10 knot-tied plastic bags containing an off-white chunky substance that had been contained in the baggie Brown discarded. Bowden tested one of the bags and concluded it contained 0.219 grams of cocaine base. Bowden offered the opinion that the other packets, which contained substantially similar amounts of what appeared to be the same substance, were also cocaine. The total estimated net weight of the substance in all 10 bags was 1.799 grams.\nDetective Miguel Castillo of the Richmond Police Department (RPD) testified as an expert on the subject of possession of cocaine base for sale. Castillo opined that when a person is carrying narcotics for sale rather than for personal use, he holds the drugs in individual use packages in order to make speedy transactions, maximize profits, and avoid carrying a scale. A \u201cstreet-level dealer\u201d also avoids having to use \u201cpay/owe\u201d sheets by packaging narcotics in a single dose amount, which is approximately 0.2 grams. When asked about a hypothetical suspect who was in possession of the amount and type of substances that Ricchiuto found when chasing Brown, Castillo opined that the drugs belonged to a street-level dealer who sells useable amounts of cocaine base.\nUnder cross-examination, Castillo testified that a single dose of rock cocaine has an effect on the user for approximately 30 to 40 minutes and that the typical user may partake of this drug several times a day. In Castillo\u2019s experience, however, most users buy only one dose at a time, get high from it, and then go back to their suppliers for more, instead of simply buying several doses at one time. Castillo conceded that in the 15 cases in which he had testified as an expert regarding possession of cocaine for sale, the amount of drugs in question was never as small as 1.7 grams.\nAnother RPD officer, Sergeant Albert Walle, provided expert testimony on the subject of police officer \u201cdefensive tactics.\u201d The prosecutor began her examination of Walle by asking about the legal authority of the police to use reasonable force. Walle testified that Penal Code section 835 authorizes the police to \u201cuse reasonable force when necessary when a public offense has been committed in order to effect an arrest, prevent an escape or overcome resistance.\u201d Walle also explained that the concept of \u201creasonable force\u201d is defined in a 1989 Supreme Court case called Graham v. Connor. When asked for the \u201cgeneral gist\u201d of what reasonable force means, Walle stated: \u201cWhenever you\u2019re using force, try to look at the totality of the circumstances through the perspective of the officer at the time who was using force, keeping in mind that the situation is fluid, evolving, and there\u2019s also various factors that come in that as well, too.\u201d\nWalle testified that when officers have to use reasonable force, their primary objective is to subdue suspects by overcoming their resistance and detaining them safely. The main factor affecting the officer\u2019s decision about what force to use will be the suspect\u2019s \u201cresistance level\u201d because the officer is going to be responding to what the suspect is doing. To teach officers how to respond appropriately, RPD employs a \u201cuse of force continuum,\u201d which consists of a ladder of escalation of resistance on one side matched against a ladder of escalation of force by the officer on the other side. Officers are taught not to look at an altercation as a \u201cfair fight,\u201d but to employ a higher level of force than he or she faces: \u201cYou don\u2019t want to bring a baton to a knife fight, so you also want to be at least one level higher than what you\u2019re . . . encountering.\u201d\nWalle outlined other important considerations for an officer who faces resistance from a suspect, which include the need to react and take control as quickly as possible to avoid fatigue; the importance of gaining control of the suspect\u2019s hands because of their potential to injure the officer; and the need to be attuned to movements toward the waist area because it is common to keep a weapon there. Walle testified that an officer does not have \u201ccontrol\u201d of a suspect until he or she stops resisting. The \u201ctools\u201d officers carry, Walle testified, include a gun, handcuffs, pepper spray, a Taser, baton, and a flashlight. In addition, the officers are taught to use their \u201cpersonal weapons,\u201d which include hands, forearms, elbows, knees and feet. Different tools are appropriate for different levels of force. Using body parts or a baton is considered \u201clower level force,\u201d while a Taser is an \u201cintermediate\u201d level, and a firearm is the highest level of force.\nThe prosecutor asked Walle to address a hypothetical situation in which a suspect was using a closed fist to swing at and attempt to punch an officer. Walle characterized that hypothetical suspect as engaging in \u201cassaultive\u201d behavior. In that situation, officers are trained to use either personal body weapons, a Taser, baton or pepper spray. Officers are also trained to provide assistance to an officer dealing with assaultive behavior because it is usually easier to gain control when another officer assists, and gaining control quickly is important for the safety of the officers as well as the suspect. Walle testified that \u201c[m]ost use-of-force incidences happen within a matter of seconds, and they\u2019re constantly evolving and they\u2019re very dynamic, and an officer has to think on his feet very fast, and oftentimes doesn\u2019t have time \u2014 has to be very instinctive and a lot of it is responsive to training.\u201d\nC. Jury Verdict and Sentence\nThe jury was instructed on two felony dmg charges; possession for sale of cocaine base (Health & Saf. Code, \u00a7 11351.5) and transporting cocaine base (Health & Saf. Code, \u00a7 11352). It also received instruction regarding possession of cocaine base (Health & Saf. Code, \u00a7 11350), as a lesser offense of the possession for sale charge. The jury also was instructed on the charge that Brown violated section 69, the offense which is the subject of this appeal. Section 69, subdivision (a) states: \u201cEvery person who attempts, by means of any threat or violence, to deter or prevent an executive officer from performing any duty imposed upon the officer by law, or who knowingly resists, by the use of force or violence, the officer, in the performance of his or her duty, is punishable by a fine not exceeding ten thousand dollars ($10,000), or by imprisonment pursuant to subdivision (h) of Section 1170, or in a county jail not exceeding one year, or by both such fine and imprisonment.\u201d\nSection 69 can be violated in two separate ways. \u201c \u2018The first is attempting by threats or violence to deter or prevent an officer from performing a duty imposed by law; the second is resisting by force or violence an officer in the performance of his or her duty.\u2019 \u201d (People v. Smith (2013) 57 Cal.4th 232, 240 [159 Cal.Rptr.3d 57, 303 P.3d 368] (Smith).) In this case, the jury was instructed about the second type of section 69 violation which requires the prosecution to prove the defendant knowingly resisted the officer \u201c \u2018by the use of force or violence,\u2019 \u201d and \u201cthat the officer was acting lawfully at the time of the offense.\u201d {Smith, at p. 241.) At the request of both the prosecution and the defense, the jury was provided with the option of convicting Brown of misdemeanor resisting an officer during the lawful performance of his duties in violation of Penal Code section 148, subdivision (a) (section 148(a)), as a lesser included offense of the section 69 felony charge. The theory of Brown\u2019s defense to the section 69 charge was that the officers did not act lawfully when they arrested him because they used unreasonable and excessive force. The instructional guidance the jury received on this issue was CALCRIM No. 2670, which provides that \u201cA peace officer may use reasonable force to arrest or detain someone, to prevent escape, to overcome resistance, or in self-defense.\u201d\nOn October 4, 2013, the jury returned its verdicts, finding Brown not guilty of possession of cocaine base for sale, but guilty of the lesser included offense of possession of cocaine base; guilty of transportation of cocaine base; and guilty of using force or violence to resist an officer in the lawful performance of his duties in violation of section 69. Brown was sentenced in January 2014. The trial court granted a defense motion to dismiss the transportation conviction based on intervening legislation limiting that offense to transportation for sale. (See Health & Saf. Code, \u00a7 11352, subd. (c), added by Stats. 2013, ch. 504, \u00a7 1.) The court denied a defense motion to reduce the section 69 conviction to a misdemeanor, however, because Brown\u2019s decision to flee caused both property damage and personal injury (Brown\u2019s bike \u201cwiped out\u201d the mirror on the officer\u2019s patrol car, and the officer injured his hand because of the contact with Brown). After considering the relevant sentencing factors, the court placed Brown on three years\u2019 felony probation with a suspended 120-day jail term as a condition of probation.\nIII.\nDISCUSSION\nA. The Instructional Error\n1. Issue Presented\nFraming the case as a choice between two starkly different scenarios, one recounted by the officers, or the other recounted by Brown, the Attorney General contends the jury chose the first, resolving a simple credibility contest in favor of the officers. That may be so, Brown responds, but by failing to instruct the jury on the lesser included offense of simple assault, the court never gave the jury the option of finding that both versions of the facts were partly true. He points out, for example, that even if the jury believed he swung at the officers, the jury could have found the officers unnecessarily initiated the violence by jumping on him and beating him as he lay prone on the ground, prepared to surrender. Without commenting on which version of events here was the more persuasive, we conclude that Brown\u2019s assignment of instructional error has merit, that the jury should have been given the option of finding him guilty of simple assault, and that he was prejudiced by the error.\nAs noted above, a violation of section 69 can occur in two circumstances. Under that section, a defendant commits a violation by attempting to deter an officer\u2019s lawful duty by violence or threat of violence. Alternatively, section 69 is violated where a defendant knowingly resists an officer\u2019s execution of lawful duty by actually using force or violence. (Smith, supra, 57 Cal.4th at p. 240.) Because the second ground for section 69 liability was the sole theory the prosecutor pursued at trial, the jurors were instructed that they could convict for violation of section 69 only if they found actual use of force or violence. At the request of both Brown and the prosecutor, the instructions gave the jury the option of finding Brown guilty of misdemeanor resisting an officer during the lawful performance of his duties as a lesser included offense of the section 69 charge. Under this lesser charge, the jury could have convicted Brown had it found that Brown resisted the officers\u2019 lawful performance of their duties, even if he did not use force or violence to effectuate that resistance. (See \u00a7 148(a).) Brown contends on appeal that the jury should have been given an additional option \u2014 convicting him of misdemeanor simple assault as a lesser included offense to a section 69 violation.\nAn assault is \u201can unlawful attempt, coupled with a present ability, to commit a violent injury on the person of another.\u201d (Pen. Code, \u00a7 240 (section 240).) An \u201cassault does not require a specific intent to cause injury or a subjective awareness of the risk that an injury might occur. Rather, assault only requires an intentional act and actual knowledge of those facts sufficient to establish that the act by its nature will probably and directly result in the application of physical force against another.\u201d (People v. Williams (2001) 26 Cal.4th 779, 790 [111 Cal.Rptr.2d 114, 29 P.3d 197].) Brown asserts that a conviction for assault could have been supported by trial evidence that he used force to resist the officers under circumstances where the jury found the officers responded with excessive force, a factual scenario falling somewhere between the officers\u2019 version of events in the parking lot and that of Brown.\nBrown concedes that he did not request an assault instruction, but he contends that the trial court had a sua sponte duty to instruct on assault as a lesser included offense of the section 69 charge. \u201c \u2018California law has long provided that even absent a request, and over any party\u2019s objection, a trial court must instruct a criminal jury on any lesser offense \u201cnecessarily included\u201d in the charged offense, if there is substantial evidence that only the lesser crime was committed. This venerable instructional rule ensures that the jury may consider all supportable crimes necessarily included within the charge itself, thus encouraging the most accurate verdict permitted by the pleadings and the evidence.\u2019 [Citation.] \u2018[T]he rule prevents either party, whether by design or inadvertence, from forcing an all-or-nothing choice between conviction of the stated offense on the one hand, or complete acquittal on the other. Hence, the rule encourages a verdict, within the charge chosen by the prosecution, that is neither \u201charsher [n]or more lenient than the evidence merits.\u201d [Citations.]\u2019 [Citation.] Thus, \u2018a trial court errs if it fails to instruct, sua sponte, on all theories of a lesser included offense which find substantial support in the evidence. On the other hand, the court is not obliged to instruct on theories that have no such evidentiary support.\u2019 \u201d (Smith, supra, 57 Cal.4th at pp. 239-240.)\n\u201c \u2018 \u201cWe apply the independent or de novo standard of review to the failure by the trial court to instruct on an assertedly lesser included offense. [Citation.]\u201d \u2019 [Citation.]\u201d (People v. Campbell (2015) 233 Cal.App.4th 148, 158 [182 Cal.Rptr.3d 491].)\n2. Analysis\n\u201cUnder California law, a lesser offense is necessarily included in a greater offense if either the statutory elements of the greater offense, or the facts actually alleged in the accusatory pleading, include all the elements of the lesser offense, such that the greater cannot be committed without also committing the lesser.\u201d (People v. Birks (1998) 19 Cal.4th 108, 117 [77 Cal.Rptr.2d 848, 960 P.2d 1073] (Birks).)\nThe question whether assault is a lesser necessarily included offense of section 69 is somewhat complicated by the fact that section 69 can be violated in two separate ways, as we explained earlier. A person can commit this felony either by (1) attempting by threats or violence to deter or prevent an officer from performing a duty imposed by law or (2) by knowingly resisting through the actual use of force or violence against an officer in the performance of his or her duty. (Smith, supra, 57 Cal.4th at p. 240.) A person can violate section 69 in the first way without necessarily attempting to apply physical force. (See In re Manuel G. (1997) 16 Cal.4th 805, 817 [66 Cal.Rptr.2d 701, 941 P.2d 880] [defendant can commit first type of offense prohibited by \u00a7 69 by threatening an officer in an attempt to deter officer from future performance of a duty].) Under this formulation, a person can violate section 69 without also violating section 240, which defines an assault as \u201can unlawful attempt, coupled with a present ability, to commit a violent injury on the person of another.\u201d Therefore, as Brown concedes, section 240 is not a lesser included offense of section 69 under the statutory elements test.\nUnder the accusatory pleading test, however, we consider whether the facts alleged in the accusatory pleading include all the statutory elements of an assault. (Birks, supra, 19 Cal.4th at pp. 117-118.) Here, although the prosecutor\u2019s trial theory was that Brown committed the second type of section 69 violation, the first amended information was not so limited. It alleged that Brown violated section 69 not just by attempting to deter or prevent the officer from performing his duties (which can be accomplished without force), but also by knowingly resisting the officers with force and violence. Because the accusatory pleading used the conjunctive to charge Brown with both ways of violating section 69, and it is not possible to violate the statute in the second way without committing an assault, we conclude that assault was necessarily a lesser included offense of section 69 under the accusatory pleading test. (See Smith, supra, 57 Cal.4th at pp. 242-243 [\u00a7 148(a) was necessarily a lesser offense of \u00a7 69 when accusatory pleading charged the defendant with both ways of violating \u00a7 69].)\nThe Attorney General concedes \u201c[f]or purposes of this appeal . . . that section 240 was a necessarily included offense of section 69 as alleged in the amended information.\u201d But she nonetheless contends an assault instruction was not required in this case because there was no evidence that Brown\u2019s offense was less than the crime charged. \u201c[I]nstructions on lesser included offenses \u2018are required whenever evidence that the defendant is guilty only of the lesser offense is \u201csubstantial enough to merit consideration\u201d by the jury. [Citations.] \u201cSubstantial evidence\u201d in this context is \u201c \u2018evidence from which a jury composed of reasonable [persons] could . . . concluded \u201d that the lesser offense, but not the greater, was committed. [Citations.]\u2019 [Citation.] Instructions on lesser included offenses should be given \u2018when the evidence raises a question as to whether all of the elements of the charged offense were present [citation], but not when there is no evidence that the offense was less than that charged.\u2019 [Citation.]\u201d (People v. Campbell, supra, 233 Cal.App.4th at p. 162.)\nSpecifically, the Attorney General contends there was no evidence from which the jury could have concluded that Brown committed an assault without also violating section 69. She reasons that the jury was faced with a choice of either (1) crediting the prosecution evidence, which would establish that Brown forcibly resisted the officers and that the officers used reasonable force or (2) crediting Brown\u2019s story, which would have established that the officers used excessive force and Brown was \u201ccompletely unaggressive and defenseless.\u201d This reading of the record misconstrues the function of the jury in the truth seeking process. \u201c \u2018Our courts are not gambling halls but forums for the discovery of truth.\u2019 [Citation.] Truth may lie neither with the defendant\u2019s protestations of innocence nor with the prosecution\u2019s assertion that the defendant is guilty of the offense charged, but at a point between these two extremes: the evidence may show that the defendant is guilty of some intermediate offense included within, but lesser than, the crime charged.\u201d (People v. Barton (1995) 12 Cal.4th 186, 196 [47 Cal.Rptr.2d 569, 906 P.2d 531].) Thus, the jury was not required to choose and fully credit only one of the two versions of the November 2011 incident that were presented to it. For example, the jury could also have concluded that Brown used excessive force or violence to resist arrest only in response to the officers\u2019 unreasonable force. Under that scenario, Brown could have been found not guilty of the section 69 violation, but still guilty of the lesser crime of assault.\nAlternatively, the Attorney General argues that the trial evidence established that the officers used reasonable force as a matter of law. Reasoning that Sergeant Walle\u2019s testimony established that the officers were legally entitled to use a level of force that was more than one level above the level of force used by the suspect, respondent contends that there is no evidence \u201cin the record that would support a finding that the officers\u2019 conduct was anything more than one level above that employed by [Brown] or that it continued longer than necessary to gain control of [Brown].\u201d The premise of this argument \u2014 that Sergeant Walle\u2019s testimony was properly admitted \u2014 is incorrect for reasons we explain below, but even had the testimony been narrowly enough framed and appropriate for admission, the argument fundamentally misconceives the proper role of expert testimony in a case of this nature. Such testimony can never be used to define, as a matter of law, what constitutes objectively reasonable force or to decide whether it was used in a given case.\nAs we have posited, the jury could have, on the one hand, believed Brown\u2019s testimony that he did not resist the officers before he fell or was pushed off his bike and was then tackled and slugged by Officer Moody while facedown on the ground, unresisting and ready to surrender \u2014 a scenario that would have made the arrest unlawful due to excessive force. The jury could still, on the other hand, have accepted the officers\u2019 testimony that Brown wheeled and repeatedly swung at them, striking both officers. If the jury concluded that Brown\u2019s reaction was unreasonable, that would have supported an assault conviction. \u201c[W]hen excessive force is used by a defendant in response to excessive force by a police officer . . . defendant [may] be convicted, and then the crime may only be a violation of section 245, subdivision (a) or of a lesser necessarily included offense within that section,\u201d such as section 240. (People v. White (1980) 101 Cal.App.3d 161, 168 [161 Cal.Rptr. 541]; accord, People v. Castain (1981) 122 Cal.App.3d 138, 145 [175 Cal.Rptr. 651] [\u201ceven if the officer is not acting within the scope of his duties because of his use of excessive force, the defendant may still be guilty of simple battery if he responds with excessive force\u201d].) As Brown\u2019s counsel argued in his opening brief, if the jury found that Brown used unreasonable force in swinging at the officers it would have supported a conviction for \u201csimple assault rather than forcible resistance to lawful police conduct under section 69. That view of the facts \u2014 i.e., that there was improper or excessive use of force on both sides \u2014 -was frankly the most plausible interpretation of the evidence.\u201d Thus, we conclude that the trial court erred by failing to instruct the jury regarding assault as a lesser necessarily included offense of the section 69 charge.\n\u201c \u2018[T]he failure to instruct sua sponte on a lesser included offense in a noncapital case is, at most, an error of California law alone, and is thus subject only to state standards of reversibility.\u2019 [Citation.] Under the state standard, \u2018such misdirection of the jury is not subject to reversal unless an examination of the entire record establishes a reasonable probability that the error affected the outcome.\u2019 [Citations.] \u2018The Supreme Court has emphasized \u201cthat a \u2018probability\u2019 in this context does not mean more likely than not, but merely a reasonable chance, more than an abstract possibility. [Citations.]\u201d [Citation.]\u2019 \u201d (People v. Campbell, supra, 233 Cal.App.4th at p. 165.) Under this test, we find a reasonable probability the error affected the outcome of this case. The use of excessive force was a primary defense theory at trial and there was substantial evidence to support it. But the instructional error precluded the jury from finding that the officers used excessive force, while convicting Brown of assault for swinging at the officers in a manner that could have injured them, whether he intended to cause injury or not. A \u201cjury without an option to convict a defendant of a lesser included offense might be tempted to convict the defendant of an offense greater than that established by the evidence instead of rendering an acquittal.\u201d (People v. Eid (2014) 59 Cal.4th 650, 658 [174 Cal.Rptr.3d 82, 328 P.3d 69].)\nFurthermore, this jury showed a readiness to scrutinize the evidence, draw its own independent conclusions of Brown\u2019s level of culpability, and convict on lesser charges than the prosecutor requested. The jury convicted Brown of a lesser included offense on the drug charge, for example, which is an indication that it had doubts about the prosecution\u2019s case which might also have affected its resolution of the section 69 charge. (See People v. Mullendore (2014) 230 Cal.App.4th 848, 857 [179 Cal.Rptr.3d 7] [doubts leading jury to convict defendant of lesser offense of one charge could have led to a similar result on another charge for which it was not given that option].) Brown contends that the jury convicted him of simple possession rather than possession for sale because it had doubts about the credibility of the officers\u2019 story that Brown threw the bag of cocaine rocks under the parked car. Alternatively, that verdict may indicate that the jury drew different conclusions from expert evidence about possession of cocaine for sale than the prosecutor had intended. In any event, the jury could have had similar doubts about the section 69 charge. As discussed above, the defense argued that, even though Brown may have used force to resist arrest, the officers overreacted and administered a beating that was unreasonable and excessive. The instructional error precluded the jury from deciding whether to credit the substantial evidence supporting this theory.\nThe Attorney General\u2019s only harmless error argument is that the instructional error did not affect the outcome because \u201cin convicting [Brown] of violating section 69 the jury showed it rejected [Brown\u2019s] claim of excessive force and found that the level of force used by the officers was at all times reasonable.\u201d But in assessing prejudice, \u201cit does not matter that the jury chose to convict the defendant of the greater offense over acquittal or that the defendant was convicted of the greater offense on sufficient evidence.\u201d (People v. Racy (2007) 148 Cal.App.4th 1327, 1335 [56 Cal.Rptr.3d 455].) To hold otherwise would undermine the very purpose of the sua sponte rule. (People v. Breverman (1998) 19 Cal.4th 142, 178, fn. 25 [77 Cal.Rptr.2d 870, 960 P.2d 1094].) It does seem abundantly clear, however, as the Attorney General points out, that the jury found that Brown swung his fists at one or more of the officers during the course of the arrest. Whether these blows (or attempted blows) were effectual or not, we find substantial evidence to support an assault conviction. \u201cWhen a greater offense must be reversed, but a lesser included offense could be affirmed, we give the prosecutor the option of retrying the greater offense, or accepting a reduction to the lesser offense.\u201d (People v. Kelly (1992) 1 Cal.4th 495, 528 [3 Cal.Rptr.2d 677, 822 P.2d 385]; see People v. Hayes (2006) 142 Cal.App.4th 175, 184 [47 Cal.Rptr.3d 695].) On remand we will provide the prosecution with the option of retrying the section 69 charge along with a charge of simple assault, subject to the guidance provided below in part III.B.\nB. Admission of Expert Testimony on Police Use of Force\n1. Principles Governing Admission of Expert Testimony Generally\nWe review the trial court\u2019s ruling on the admissibility of expert testimony for abuse of discretion. (Sargon Enterprises, Inc. v. University of Southern California (2012) 55 Cal.4th 747, 773 [149 Cal.Rptr.3d 614, 288 P.3d 1237] (Sargon).) A ruling that constitutes an abuse of discretion has been described as one that is \u201c \u2018so irrational or arbitrary that no reasonable person could agree with it.\u2019 \u201d {Ibid.) But the trial court\u2019s discretion is not unlimited. \u201c \u2018The scope of discretion always resides in the particular law being applied, i.e., in the \u201clegal principles governing the subject of [the] action . . . .\u201d Action that transgresses the confines of the applicable principles of law is outside the scope of discretion and we call such action an \u201cabuse\u201d of discretion. [Citation.] . . . [\u00b6] The legal principles that govern the subject of discretionary action vary greatly with context. [Citation.] They are derived from the common law or statutes under which discretion is conferred.\u2019 [Citation.] To determine if a court abused its discretion, we must thus consider \u2018the legal principles and policies that should have guided the court\u2019s actions.\u2019 \u201d (Ibid.)\nThe principles of law governing admission of expert testimony are well settled. \u201c \u2018California law permits a person with \u201cspecial knowledge, skill, experience, training, or education\u201d in a particular field to qualify as an expert witness . . . and to give testimony in the form of an opinion.\u2019 \u201d (People v. Vang (2011) 52 Cal.4th 1038, 1044 [132 Cal.Rptr.3d 373, 262 P.3d 581], citation omitted; Evid. Code, \u00a7\u00a7 720, 801.) \u201c \u2018Generally, the opinion of an expert is admissible when it is \u201c[r]elated to a subject that is sufficiently beyond common experience that the opinion of an expert would assist the trier of fact\"'\" (Allgoewer v. City of Tracy (2012) 207 Cal.App.4th 755, 761 [143 Cal.Rptr.3d 793] (Allgoewer); see Evid. Code, \u00a7 801, subd. (a) [expert testimony must be \u201c[r]elated to a subject that is sufficiently beyond common experience that the opinion of an expert would assist the trier of fact\u201d].) However, \u201c \u2018 \u201c[w]here the jury is just as competent as the expert to consider and weigh the evidence and draw the necessary conclusions, then the need for expert testimony evaporates.\u201d \u2019 \u201d (Allgoewer, supra, at p. 762.) Expert testimony will be excluded \u201c \u2018 \u201cwhen it would add nothing at all to the jury\u2019s common fund of information, i.e., when \u2018the subject of inquiry is one of such common knowledge that men [and women] of ordinary education could reach a conclusion as intelligently as the witness.\u2019 \u201d \u2019 \u201d (People v. Jones (2012) 54 Cal.4th 1, 60 [140 Cal.Rptr.3d 383, 275 P.3d 496].)\nSome topics are categorically off-limits to expert testimony. (See Evid. Code, \u00a7\u00a7801, subd. (b) [caveat to admissibility where \u201cexpert is precluded by law from using such matter as a basis for his opinion\u201d], 802 [expert may state basis for opinion \u201cunless he is precluded by law from using such reasons or matter as a basis for his opinion\u201d].) For example, juries are competent to decide such things as witness credibility (People v. Wells (2004) 118 Cal.App.4th 179, 189 [12 Cal.Rptr.3d 762]), a defendant\u2019s guilt or innocence (People v. Torres (1995) 33 Cal.App.4th 37, 46 [39 Cal.Rptr.2d 103]), or whether a crime has been committed (id. at p. 47), without expert assistance in all circumstances. Similarly, topics such as the definition of a crime (id. at pp. 45-46), the meaning of a statute (id. at p. 46), or other matters of law even if disguised as opinions about ultimate facts (.Benavidez v. San Jose Police Dept. (1999) 71 Cal.App.4th 853, 865 [84 Cal.Rptr.2d 157]) always lie beyond the proper role of an expert.\n2. Civil Cases Addressing Expert Testimony on Excessive Force Issues\nThe use of excessive force by law enforcement officers is analyzed under the Fourth Amendment\u2019s objective reasonableness requirement for a seizure of the person (Graham, supra, 490 U.S. at pp. 388, 394-395; Brown v. Ransweiler (2009) 171 Cal.App.4th 516, 527 [89 Cal.Rptr.3d 801] (Brown)), and usually arises in one of two contexts: (1) defensively, as here, when an accused seeks to defend against a charge of resisting arrest or similar offense by contending the arrest was unlawful due to the officer\u2019s use of excessive force, and (2) offensively, when a person who claims to have been the victim of excessive force by law enforcement sues for damages under 42 United States Code section 1983 (section 1983), or similar state law remedy. The specific question of admissibility of expert testimony on use of force in the first of these situations has not been resolved in California. Rather, the few cases shedding any light on this question, in California and elsewhere, arise in the civil context, usually under section 1983. Because the rules of evidence governing expert testimony in California, in other states, and in the federal courts are broadly similar, at least insofar as is material here, it is worthwhile to preface our analysis of this issue of first impression with a review of the pertinent civil precedent decided by courts nationwide.\nSumming up the state of the law across the country, one commentator recently observed that, although some courts allow excessive force expert testimony, \u201ca larger number of courts have held that it is not required or not admissible.\u201d (Annot., Requirement for, and Admissibility of, Expert Testimony to Determine Whether Use of Particular Amount of Force in Course of Making Arrest Was Unreasonable (2015) 95 A.L.R.6th 641, 649; see id. at \u00a7\u00a7 3-10, pp. 652-705 [collecting cases].) Illustrative of the majority view, this commentator noted, is Allgoewer, supra, 207 Cal.App.4th 755, the leading California case to address expert testimony on issues of excessive force. Though not directly applicable here, Allgoewer serves as a helpful entry point to our analysis.\nIn Allgoewer, two police officers visited the home of the plaintiff Allgoewer to investigate a complaint from Allgoewer\u2019s former wife that he was keeping the couple\u2019s son in violation of a child custody order. (Allgoewer, supra, 207 Cal.App.4th at p. 758.) Allgoewer became agitated while talking to the officers in his yard, and refused to drop a hand rake that he had been using. (Ibid.) The officers forced him to the ground, \u201cTased\u201d him twice, and wrenched his arms behind his back while arresting him, breaking his wrist and tearing muscles in his shoulder and bicep. (Id. at pp. 758-759.) In Allgoewer\u2019s civil suit against the officers for excessive force, the defense argued that he was required to present expert testimony, drawing an analogy to medical malpractice cases. (Id. at pp. 759, 762.) The trial court found the argument persuasive and granted a nonsuit motion. (Id. at p. 760.) Reversing, the appellate court began with a brief discussion of Graham, supra, 490 U.S. 386, the leading United States Supreme Court excessive force case involving non-deadly force. \u201cUnder Graham, ... the question in a case such as this is whether the amount of force the officers used in making the arrest was objectively unreasonable given the circumstances they faced.\u201d (Allgoewer, supra, 207 Cal.App.4th at p. 763.) Finding no California precedent directly addressing \u201c[wjhether expert testimony is necessary to establish that a particular amount of force was objectively unreasonable\u201d (ibid.), the court canvassed pertinent out-of-state authority, focusing on three cases, Kopf v. Skyrm (4th Cir. 1993) 993 F.2d 374 (Kopf), Thompson v. City of Chicago (7th Cir. 2006) 472 F.3d 444 (Thompson), and Robinson v. City of West Allis (2000) 2000 WI 126 [239 Wis.2d 595, 619 N.W.2d 692] (Robinson). (Allgoewer, supra, at pp. 763-764.) From these cases, the court distilled the following: \u201c[E]xpert testimony can be admissible on the issue of reasonable force\u201d [Kopf], but is \u201cnot always admissible\u201d [Thompson], and is certainly not \u201crequired in an excessive force case\u201d [Robinson], (Allgoewer, supra, 207 Cal.App.4th at p. 764, original italics.)\nNotably, the precise legal question addressed in Allgoewer \u2014 whether expert testimony is required from the plaintiff in a civil excessive force case \u2014 turns on a standard that differs significantly from the standard governing whether such testimony is admissible. For expert testimony to be admissible, it is not necessary that the subject of the testimony lie wholly beyond the understanding of the average juror, but merely that, even if the average juror has some knowledge of the topic, the expert might improve upon or refine the jury\u2019s common fund of information. In cases where expert testimony is required, by contrast, the witness must have a degree of specialized knowledge that is peculiarly within the province of experts. Of the three out-of-state cases Allgoewer mentions, only Robinson addressed the question of whether expert testimony is required. Finding persuasive the Wisconsin Supreme Court\u2019s observation in Robinson that \u201c \u2018[w]e cannot at once emphasize the jury\u2019s responsibility for applying the standard of reasonableness and also claim that the issue is beyond the jury\u2019s comprehension,\u2019 \u201d Allgoewer rejected the argument that expert testimony is required in an excessive force case. (Allgoewer, supra, 207 Cal.App.4th at p. 765.) \u201c \u2018Requiring an expert as a prerequisite to a finding of use of excessive force,\u2019 \u201d the court reasoned, \u201c \u2018would essentially remove from the jury the task of applying standards of reasonableness and replace it with the task of evaluating the testimony of the parties\u2019 experts.\u2019 \u201d (Ibid.)\nAllgoewer and Robinson both involved force that was primarily physical in nature without the use of weapons or special law enforcement tools. The officers in Allgoewer threw the arrestee to the ground and wrenched his arms behind his back (Allgoewer, supra, 207 Cal.App.4th at pp. 758-759), and the officers in Robinson punched the arrestee and slammed his face and body to the ground (Robinson, supra, 619 N.W.2d at p. 696). Having rejected the notion that there is any per se rule requiring expert testimony, the courts in both cases went further and determined there was no case-specific \u201cneed\u201d for expert testimony on the facts presented. As the Wisconsin Supreme Court put it in Robinson, \u201cthere is no indication that the reasonableness of the officers\u2019 actions involves matters so complex as to necessitate an expert. One need not be an expert to determine whether a reasonable use of force in effectuating an arrest includes smashing an arrestee\u2019s face to the ground or landing a punch to the side of his head. . . . The difficulty a jury will have with this case lies not in applying the reasonableness standard to the facts as it finds them but in untangling the disputed facts presented by the parties.\u201d (Robinson, supra, 619 N.W.2d at pp. 700-701.) This secondary inquiry into whether excessive force expertise was \u201cneeded\u201d on the facts presented is roughly analogous to whether proffered expert testimony will add anything to the knowledge of the average juror, but because the root question in Allgoewer and Robinson\u2014 whether expert testimony should be mandatory versus whether it should be admissible \u2014 -differs from the one presented here, Thompson and Kopf, the other two cases discussed in Allgoewer, are more directly relevant to this case. Both Thompson and Kopf address admissibility.\nIn Thompson, two officers saw what they suspected was a drug buy take place between the driver of a parked black Mustang and a man who approached him. They tailed the Mustang for a few blocks and then tried to pull it over for a traffic stop. The Mustang at first pulled over, but then suddenly sped up and tried to get away, leading the officers and several others who joined them on a high-speed chase that ended with the Mustang crashing. Eventually, seven officers arrived at the scene of the crash, where the driver of the car, James Thompson, six feet two inches, 330 pounds, got out of the car and began aggressively resisting their efforts to arrest him, swinging at them with his fists. Thompson was tackled to the ground, and while on the ground facedown, one officer, Officer Hespe, sat on his back and placed him in a chokehold, while the other officers handcuffed him. The chokehold collapsed Thompson\u2019s air passages, and he suffocated to death. (Thompson, supra, 472 F.3d at pp. 447-448.) In the ensuing civil suit under section 1983 against the officers, only Officer Hespe remained as an individual defendant when the case went to trial, and the defense moved in limine prior to trial to exclude the testimony of two experts proffered by the plaintiffs. According to the plaintiffs\u2019 proffer, the experts would have opined that Officer Hespe did not adhere to his training and used a chokehold in violation of his department\u2019s use-of-force policy. (Thompson, at pp. 449-450.)\nThe trial court granted the motion in limine, and excluded the testimony. Affirming that ruling on appeal, the Seventh Circuit Court of Appeals noted that, under Graham, \u201cWhat constitutes \u2018reasonableness\u2019 with regard to an officer\u2019s actions in apprehending a suspect under the Fourth Amendment is \u2018 \u201cnot capable of precise definition or mechanical application\u201d but \u201crequires careful attention to the facts and circumstances of each particular case (Thompson, supra, 472 F.3d at p. 454, quoting Graham, supra, 490 U.S. at p. 396.) The court then looked to Whren v. United States (1996) 517 U.S. 806, 815-816 [135 L.Ed.2d 89, 116 S.Ct. 1769], where the United States Supreme Court rejected the use of police manuals and standard procedures to evaluate what a \u201creasonable officer\u201d would do under the Fourth Amendment in the context of a traffic stop. Summarizing Whren, Thompson observed that \u201cpolice rules, practices and regulations vary from place to place and from time to time,\u201d and as a result, \u201care an unreliable gauge by which to measure the objectivity and/or reasonableness of police conduct\u201d under the Fourth Amendment. (Thompson, supra, at p. 455.) Accordingly, Thompson concluded, \u201cIntroducing two experts to testify that Officer Hespe used excessive force would have induced the jurors to substitute their own independent conclusions for that of the experts.\u201d (Id. at p. 458.)\nKopf was another case involving the use of various forms of physical force, which included the use of a trained police dog. In that case, a man and a woman, Anthony Casella and Tammy Obloy, were suspects in the robbery of a pizza parlor. A team of police officers chased them, at first by car, and then, eventually, on foot, catching up to them in an area behind a garage, where the suspects tried to hide in a narrow passageway between two buildings. The officers released a police dog into the passageway, where it mauled both Casella and Obloy, despite cries from Obloy not to let the dog attack her because she was pregnant. The officers eventually dragged the suspects out of the passageway, with the dog continuing to bite at Casella. They testified that, once Cassella was freed from the passageway, he lunged at them. In response, an officer struck Casella multiple times in the head with a flashlight until it broke, and then with a slapjack. Casella suffered multiple lacerations from the dog bites and permanent brain injury from the blows to his head. (Kopf supra, 993 F.2d at pp. 375-376.) At the trial of a subsequent section 1983 case brought by Cassella\u2019s personal representative (he had since died in an unrelated incident), the officers testified that in making the arrests they simply followed their training. In rebuttal, the plaintiffs sought to offer the expert testimony of a use-of-force expert who proposed to testify that the officers, in fact, violated departmental use-of-force policy and did not follow their training. {Kopf at pp. 376-377.)\nThe trial court excluded the plaintiff\u2019s expert, and on appeal a panel of the Fourth Circuit Court of Appeals reversed. (Kopf supra, 993 F.2d at p. 375.) The court of appeals faulted the trial court for applying what appeared to be \u201ca blanket rule that expert testimony is generally inappropriate in excessive force cases . . . .\u201d (Id. at p. 378.) \u201cThe facts of every case will determine whether expert testimony w[ill] assist the jury. Where force is reduced to its most primitive form \u2014 the bare hands \u2014 expert testimony might not be helpful. Add handcuffs, a gun, a slapjack, mace, or some other tool, and the jury may start to ask itself: what is mace? what is an officer\u2019s training on using a gun? how much damage can a slapjack do? Answering these questions may often be assisted by expert testimony. [\u00b6] A dog is a more specialized tool than a gun or slapjack. How to train a poodle to sit or roll over is not everyday knowledge and could be explained by an expert in a case where it was relevant. How to train and use a police dog are even more obscure skills.\u201d (Id. at p. 379.) Looking with close scrutiny at each type of force used, the court found it was an abuse of discretion not to allow expert testimony concerning the officers\u2019 training and use of police dogs and slapjacks because these tools involved enough special knowledge to warrant expert explanation. (Ibid.)\nHygh v. Jacobs (2d Cir. 1992) 961 F.2d 359 (Hygh), another civil excessive force case involving physical blows to a suspect, is relevant here as well. There, in the course of an arrest for disorderly conduct, Officer Jacobs slugged William Hygh in the face, fracturing three cheekbones. Jacobs claimed he hit Hygh with his fist in self-defense. (Id. at p. 361.) At trial in a section 1983 case seeking damages for excessive use of force, Hygh presented a medical expert who opined, based on the extent of the injuries, that Jacobs struck Hygh with \u201ca blunt instrument of some sort.\u201d (Hygh, at p. 361.) Since Jacobs admitted he was carrying a flashlight that night, Hygh also presented a law enforcement expert who testified that if Jacobs used the flashlight to strike Hygh rather than a fist, the extent of force used was objectively unreasonable because the use of such a blunt instrument met the legal definition of \u201c \u2018deadly physical force.\u2019 \u201d (Id. at pp. 361-362.) On appeal from a jury verdict in favor of the plaintiff Hygh, the Second Circuit Court of Appeals held that it was error to permit the expert to address legal matters, even though he did not directly tell the jury how it should decide the case. \u201cEven if a jury were not misled into adopting outright a legal conclusion proffered by an expert witness,\u201d the court held, \u201cthe testimony would remain objectionable by communicating a legal standard- \u2014 explicit or implicit \u2014 to the jury. [Citations.] Whereas an expert may be uniquely qualified by experience to assist the trier of fact, he is not qualified to compete with the judge in the function of instructing the jury.\u201d (Id. at p. 364). In the end, however, the appellate court affirmed. After observing that the trial court had instructed the jury on the same matters Hygh\u2019s expert addressed, and that the difference between the expert\u2019s version of law and the trial court\u2019s was \u201cnot substantial\u201d (ibid.), the appellate court found the law enforcement expert\u2019s testimony was erroneously admitted, but was not prejudicial, although it did remark that the \u201cquestion is close\u201d (id. at pp. 364 \u2014 365).\nWhile some of these cases are more directly applicable than others, each of them is to some degree instructive. Broadly speaking, Allgoewer, Robinson, Thompson and Kopf all view the utility of expert testimony in civil excessive force cases through a common frame of reference. Within that frame, the correct analysis is case by case and very much dependent on the particular facts presented, but in general, where only bodily force is used, the less likely it will be that an excessive force expert will add something to the common store of knowledge that every jury brings to its task. Since the ultimate issue for a jury to decide under Graham is whether the challenged conduct is objectively reasonable, the training of particular officers \u2014 which focuses subjectively on how they were predisposed to handle the situation they faced \u2014 -is, at best, only marginally relevant. What counts is whether a reasonable officer, faced with the same set of circumstances, would have chosen the same course of action. Hygh adds the refinement that, even where an expert does not address the ultimate issue for decision by a jury, legal guidance on what constitutes objectively reasonable conduct must come from the trial judge, not from the expert.\n3. Analysis\na. The Threshold Issue of Form\nThe Attorney General acknowledged at oral argument that expert testimony from the prosecution on the issue of excessive force is \u201cunusual\u201d on a section 69 charge. It is indeed unusual, and was here, both for the substance offered and the way in which it was presented. In the course of his testimony, Sergeant Walle opined at one point that, taking the officers\u2019 version of events as true, Brown had engaged in \u201cassaultive\u201d conduct, justifying the force the officers used in response, but for the most part his testimony was presented as a general overview of the applicable law and the \u201cdefensive tactics\u201d course that he teaches to all officers in the RPD. The purpose of this tutorial was never made clear to the jury, but the prosecutor did explain to the court\u2014 though not to the jury \u2014 that she was concerned jurors could \u201cget the wrong impression\u201d about the aggressive tactics these officers employed to subdue a fleeing 67 year old: \u201c[Wjhen there\u2019s a struggle, especially with more than one officer, juries can get the wrong impression that . . . they\u2019re ganging up on him,\u201d and when \u201cthere\u2019s a knee strike to the ribs . . . which then is followed by a punch, which is essentially a distraction blow, can seem [\u00b6] . . . [\u00b6] excessive. But they are trained to use . . . these . . . tactics to get someone under control.\u201d\nThe Evidence Code presupposes the presentation of expert testimony in the form of reasoned opinions. That has the salutary effect of ensuring some degree of logical rigor, which not only allows the foundation for an expert\u2019s opinion to be properly screened for reliability (see Sargon, supra, 55 Cal.4th at p. 769 [\u201c[u]nder California law, trial courts have a substantial \u2018gatekeeping\u2019 responsibility\u201d to screen expert testimony for admissibility]), but once past that threshold screen, helps keep its presentation to the jury focused on subject matter circumscribed by its rationale for admission. The form of presentation here observed no such boundaries. Even assuming it was proper for the prosecution to present Sergeant Walle\u2019s testimony in the form we see here \u2014 -no objection having been interposed on that ground \u2014 the substance of the testimony should nevertheless have been excluded. Because Sergeant Walle\u2019s testimony (i) added nothing to the common fund of information that any juror would have brought to the jury room and (ii) inaccurately addressed the governing law, he, in essence, invited the jury to abdicate its duty to decide the issue of excessive force based on an erroneous understanding of the law. Brown\u2019s motion in limine seeking exclusion of the testimony should therefore have been granted.\nb. Specialized Knowledge\nFor the jury to sort out what happened here, specialized knowledge was not required. Because these officers used \u201cforce . . . reduced to its most primitive form \u2014 the bare hands\u201d (Kopfi supra, 993 F.2d at p. 379), this was not a case in which the proper handling of some specialized law enforcement tool (e.g., a gun, a dog, a Taser, Mace, pepper spray) had to be explained. It may be to these officers\u2019 credit that they chose to use only physical force, but an expert was not required to make that elementary point. Nor was it a matter of specialized knowledge that two officers are more effective than one; that a second officer may come to the aid of another officer who is having trouble subduing a suspect; or that, to gain control over a resisting suspect, law enforcement officers are permitted to use their hands, fists, knees, feet or other body parts. The question here was not whether two officers could join in the pursuit of Brown or use bodily force against him, but whether they went overboard when they caught him. On this crucial question of proportionality, technical jargon (\u201cpain compliance,\u201d \u201cpersonal weapons,\u201d \u201ccontrol techniques\u201d) and truisms about the amount of force officers may use (enough to ensure that their target cannot engage them in \u201ca fair fight\u201d) add nothing to the everyday understanding anyone would bring to the jury room.\nIn a different criminal context but one also raising the issue of the admissibility of expert testimony on matters for jury determination under a legal standard of objective reasonableness, the court excluded testimony from an expert in People v Czahara (1988) 203 Cal.App.3d 1468 [250 Cal.Rptr. 836] (Czahara). In that case, the defendant shot his ex-girlfriend and her new boyfriend, and was then convicted of multiple attempted murder convictions. (Id. at p. 1471.) Claiming that he reacted to provocation, the defendant called a psychiatrist as an expert witness who, according to an offer of proof, would have testified that \u201cthe ordinarily reasonable person in the same circumstances would also have acted in passion.\u201d (Id. at p. 1476.) This testimony, the defendant argued, was relevant to the objective, reasonable person component of his heat of passion defense. (Id. at p. 1477.) Affirming the trial court\u2019s exclusion of the testimony, the appellate court ruled that \u201cthe adequacy of provocation is not a subject sufficiently beyond common experience that the opinion of an expert would assist the trier of fact.\u201d (Id. at p. 1478.)\nThe Czahara court explained, \u201cthe reasonableness of [the defendant\u2019s] reaction is left to the jurors precisely so that they may bring their common experience and their own values to bear on the question of whether the provocation partially excused the violence. . . . While courts have frequently held certain categories of provocation adequate or inadequate as a matter of law, the modem tendency is to leave the jury free to apply community norms to the question. [Citation.] [\u00b6] Psychologists, psychiatrists or sociologists may have specialized empirical knowledge regarding the range of reactions to a given provocation, . . . [b]ut this information would not materially assist the jury in its task; the jury must determine not only if the reaction is ordinary but if it is reasonable . . . .\u201d (Czahara, supra, 203 Cal.App.3d at p. 1478.) The ultimate determination of reasonableness, the court held, \u201cdepends more on (perhaps unarticulated) community norms\u201d than on any empirical knowledge the expert could have supplied. (Ibid.; see Burton v. Sanner (2012) 207 Cal.App.4th 12, 14 [142 Cal.Rptr.3d 782] (Burton) [expert \u201cusurped the jury\u2019s role\u201d where \u201c[t]he test of reasonableness\u201d on an issue of self-defense was \u201can objective one for the jury\u201d and \u201cit is just as competent as the expert to evaluate the evidence and draw conclusions\u201d].)\nSimilarly, here, it was important for a jury to apply a reasonableness standard using its common knowledge. Once the jury determined that some use of force was appropriate in subduing Brown, its task was to determine whether these officers overreacted to the circumstances. To guide that assessment, Graham lays down a broad test highlighting certain factors for consideration, all to be viewed from the standpoint of the officer in the field. (Martinez v. County of Los Angeles (1996) 47 Cal.App.4th 334, 343 [54 Cal.Rptr.2d 772].) At the end of the day, however, \u201c \u2018[t]he test of reasonableness under the Fourth Amendment is not capable of precise definition or mechanical application ....\u2019\u201d (Graham, supra, 490 U.S. at p. 396, quoting Bell v. Wolfish (1979) 441 U.S. 520, 559 [60 L.Ed.2d 447, 99 S.Ct. 1861].) It is highly situational and fact specific, and in applying the test, the jury\u2019s task not only permitted but required it to apply its own independent sense of reasonableness, using whatever community norms jury members might bring to the issue.\nc. Expert Testimony on the Law\n\u201cThere are limits to expert testimony, not the least of which is the prohibition against admission of an expert\u2019s opinion on a question of law.\u201d (Summers v. A. L. Gilbert Co. (1999) 69 Cal.App.4th 1155, 1178 [82 Cal.Rptr.2d 162].) Embedded in Sergeant Walle\u2019s overview of his mandatory \u201cdefensive tactics\u201d training course was an explanation of the governing law. At the start of Sergeant Walle\u2019s examination, the prosecutor posed a series of direct questions about the law, asking him, \u201cWhat does the law state is a reason for an officer to use force?\u201d and \u201c[h]ow is reasonable force defined?\u201d Sergeant Walle responded that the legal authority for an officer\u2019s use of force is \u201c[835a] of the Penal Code\u201d and explained that all RPD officers are given training founded on Graham v. Connor.\nSergeant Walle then summarized his understanding of Graham for the jury, but provided a truncated explanation, partially mentioning only one of the three factors the Supreme Court held should be taken into account in assessing reasonableness \u2014 whether the suspect is actively resisting or fleeing \u2014 never mentioning that the test is an objective one, and repeatedly emphasizing \u201cthe law says you\u2019re supposed to put yourself in the shoe[s] of an officer at the time of the incident . . . because it is fluid and ever changing.\u201d The jury instructions in this case did not address Graham. As noted above, the court instructed the jury using CALCRIM No. 2670, which advised it that \u201cA peace officer may use reasonable force to arrest or detain someone, to prevent escape, to overcome resistance, or in self-defense,\u201d but beyond that, it gave no instruction explaining the criteria for the jury to use in distinguishing \u201creasonable\u201d from \u201cexcessive\u201d force. Sergeant Walle supplied the jury\u2019s only legal guidance on this crucial issue, and the two Graham factors he omitted \u2014 the severity of the crime for which the suspect was being sought, and the immediacy of the threat the suspect posed \u2014 were both potentially important here.\nThe Attorney General points out that Sergeant Walle discussed the law only briefly, by way of background explanation. The testimony may have been brief, but it was powerful. Clearly, the jury focused on it. Perhaps not surprisingly, since the jury had no other source of legal guidance on this key legal issue \u2014 by contrast to Hygh, where an expert merely echoed the trial court\u2019s instructions \u2014 it asked for a read-back during deliberations of the \u201ctestimony of [Sergeant] Walle regarding training of police officers, specifically regarding compliance strikes and reasonable vs excessive force . . . i.e. need his entire testimony other than his introduction.\u201d (Italics added.) Thus, even though Sergeant Walle did not in terms advise the jury how to decide the ultimate issue, he did manage to provide it with a legal standard for decision, thereby vesting himself with authority as a source of legal knowledge. Summing up the problem with expert testimony of this sort in Hygh, the Second Circuit Court of Appeals explained: \u201cThe danger is that the jury may think that the \u2018expert\u2019 in the particular branch of the law knows more than the judge \u2014 surely an inadmissible inference in our system of law.\u201d (Hygh, supra, 961 F.2d at p. 364, citing Marx & Co., Inc. v. Diners\u2019 Club Inc. (2d Cir. 1977) 550 F.2d 505, 512.)\nAs in Burton, supra, 207 Cal.App.4th 12, which also involved a police expert\u2019s testimony on use-of-force training (including such matters as \u201c \u2018pain compliance\u2019 \u201d and the \u201c \u2018use of force continuum\u2019 \u201d), \u201cthe court essentially allowed [Sergeant Walle] to instruct the jury on his view of applicable legal principles and standards, even though he is unqualified to do so . . . .\u201d (Id. at p. 23.) Like his counterpart in Burton, Sergeant Walle \u201chas impressive credentials as an educator and authority figure\u201d with RPD. (Id. at p. 24.) Indeed, in addition to training other officers on \u201cdefensive tactics,\u201d proper use of \u201cpain compliance\u201d techniques, and the like, Sergeant Walle was an investigator in the internal affairs unit and currently sits on RPD\u2019s use of force board, where he evaluates the reasonableness of RPD officers\u2019 actions on a day-to-day basis. In view of those credentials, the jury had every reason to look to him as a far better judge than they could be of the reasonableness of those officers\u2019 tactics.\nThe prosecutor was, of course, entitled to ensure the jury understood \u201c[t]here will virtually always be a range of conduct that is reasonable\u201d (Brown, supra, 171 Cal.App.4th at p. 537, original italics), and that \u201c \u2018 \u201c[t]he Supreme Court\u2019s definition of reasonableness is . . . \u2018comparatively generous to the police-\u2019 \u201d [Citation.]\u2019 \u2019\u2019 (Id. at p. 528, quoting Munoz v. City of Union City (2004) 120 Cal.App.4th 1077, 1103 [16 Cal.Rptr.3d 521] (Munoz), disapproved on other grounds in Hayes v. County of San Diego (2013) 57 Cal.4th 622 [160 Cal.Rptr.3d 684, 305 P.3d 252]), but if she wished to emphasize these points, she was fully entitled to do so by requesting a special jury instruction on the Graham factors and then elaborating on that instruction in closing argument. While counsel is expected to present argument anchored in the law, fairly read, the fact that an expert does so, and does so based on an inaccurate rendition of the law, is an indication he has improperly stepped outside his role as adjunct to the fact finder. (See Burton, supra, 207 Cal.App.4th at p. 24 [reversing and finding miscarriage of justice where an expert tried to do what an advocate could not and improperly testified that \u201che turns down most court cases offered to him, and he only takes a case if he \u2018wholeheartedly and truly believe[s] in the case itself\u2019 \u201d].)\nd. Invasion of the Province of the Jury\nEmphasizing that Officer Walle did not opine on the ultimate issue of reasonableness, the Attorney General points out that \u201cit was still up to the jury to decide whether the officers\u2019 actions in this case conformed to their training\u201d and that \u201c[t]he jury\u2019s verdict suggests ... it found that the officers\u2019 use of force was consistent with their training.\u201d Her framing of the issue is telling. Putting to one side that the defense never contested the officers were properly trained, this line of argument highlights why the testimony should have been excluded, not why it should have been admitted. It concedes the thrust of Brown\u2019s argument for exclusion \u2014 that the true purpose of Sergeant Walle\u2019s testimony was not to educate the jury about control techniques they would otherwise have had difficulty understanding, but instead to suggest that, because Officers Ricchiuto and Moody conducted themselves \u201cby the book,\u201d in accordance with legally sanctioned training, what they did was therefore within the bounds of the law. In effect, Brown argues, Sergeant Walle\u2019s testimony was an invitation to avoid the question of excessive force altogether by conflating it with whether the officers did as they were trained to do. He is correct, in our view.\nThe Attorney General also contends that the training testimony could have cut both ways, since \u201cif the jury found that the officers\u2019 actions were inconsistent with their training it would tend to support the argument that the force used was unreasonable.\u201d But the idea that RPD\u2019s training regimen can serve as a valid Fourth Amendment benchmark for reasonableness \u2014 available for either side to argue \u2014 rests on the premise that the officers\u2019 training itself is reasonable. We have no reason to doubt that premise as a matter of law enforcement policy, but by placing the issue before the jury, the court opened up a line of inquiry that was potentially distracting and confusing. As Brown\u2019s counsel put the issue in support of his motion in limine, \u201cWhether the officers are trained this way or not doesn\u2019t necessarily make physical action reasonable.\u201d Reasonableness for Fourth Amendment purposes was for the jury to decide based on the facts of Brown\u2019s encounter with Officers Moody and Ricchiuto, not by using the officers\u2019 training as a proxy for it. Presented with the same line of argument the Attorney General makes here, the Thompson court explained; \u201cIt may be that\u201d adherence to local training rules might be of interest to those \u201cmaking discipline, promotion or salary decisions,\u201d but \u201cthat information was immaterial\u201d in this trial. (Thompson, supra, 472 F.3d at p. 455.) Because introducing an expert to address the issue of training \u201cinduced the jurors to substitute their own independent conclusions for that of the expert[]\u201d (Thompson, supra, 472 F.3d at p. 458), the court excluded testimony about officer training as more time consumptive and confusing than probative under Federal Rules of Evidence, rule 403 (28 U.S.C.; the federal counterpart to Evid. Code, \u00a7 352) (Thompson, at p. 453).\nThe balance of probative value versus potential to confuse and distract illustrates a key difference between this case and the civil cases addressing the admissibility of testimony from a police training expert on excessive force issues. In general, the scope of relevant subject matter implicating issues of excessive force tends to be broader in civil cases than it is in criminal cases, and as a result, the probative value of testimony from an excessive force expert is typically stronger there. In section 1983 cases, for example, the contested issues may include an officer\u2019s good faith as part of a qualified immunity defense, agency liability based on alleged excessive use of force pursuant to official policy, or supervisorial liability under a deliberate indifference theory. And in connection with state law tort claims, which frequently accompany section 1983 claims, the scope of an officer\u2019s duty to the suspect or others or the statutory defenses of justification or immunity may also be at issue. Because the Fourth Amendment focuses more narrowly on the moment force is used than state tort law does (Hayes v. County of San Diego, supra, 57 Cal.4th at p. 638), placing less emphasis on matters preceding that instant than tort law does, officer training and tactics can potentially be relevant for purposes of tort liability, where it is not for Fourth Amendment purposes.\nHere, the perceptions of Officers Moody and Ricchiuto as to the circumstances they faced on the evening of November 14, 2011, were certainly in issue \u2014 and of course they testified at length about what they were seeing and thinking \u2014 but those perceptions and the officers\u2019 responses to the situation were to be evaluated in objective terms. While RPD\u2019s programmatic approach to training might have been relevant had Brown attacked the credibility of these two officers with charges of rogue conduct in violation of RPD rules or policy, the prosecution never argued that expert testimony was needed because Brown opened the door to it. Nor was there any basis to do so. Brown\u2019s defense, which focused on the \u201clawful performance\u201d element of the section 69 charge, framed the excessive force issue in purely Fourth Amendment terms. According to him, the applicable rule of conduct was constitutional, not one found in a policy manual or in the teachings of Sergeant Walle. As the court observed in Thompson, \u201cpolice rules, practices and regulations vary from place to place and from time to time,\u201d and as a result, \u201care an unreliable gauge by which to measure the objectivity and/or reasonableness of police conduct\u201d under the Fourth Amendment. (Thompson, supra, 472 F.3d at p. 455.)\ne. Prejudice\nThe erroneous admission of Sergeant Walle\u2019s testimony compounded the prejudicial effect of the court\u2019s failure to instruct on the lesser included offense of simple assault. The nub of the matter is that the jury could have found that this 67-year-old\u2019s behavior in struggling against arrest and swinging at these two officers, if that is what he did, was never a genuine threat to them. Had the jury undertaken a close examination of the facts, as the reasonableness standard under Graham required it to do \u2014 without the temptation to short-circuit its decisionmaking process by concluding that the officers simply did as they were trained to do \u2014 Brown had a materially stronger case for a more favorable outcome on the section 69 charge than he was able to muster with Sergeant Walle\u2019s testimony in the mix. Brown suggests that the distorting impact of Sergeant Walle\u2019s testimony so impaired the jury\u2019s independence as to violate his constitutional rights to a fair and impartial jury and to due process, justifying reversal under Chapman v. California (1967) 386 U.S. 18 [17 L.Ed.2d 705, 87 S.Ct. 824], but we see no need for such strong medicine. It suffices to say that, without the distraction of Sergeant Walle\u2019s testimony, there was a reasonable probability that he would have obtained a better result on the section 69 charge than he did. (People v. Watson (1956) 46 Cal.2d 818, 836 [299 P.2d 243].)\nThe law provides a generous mantle of protection to law enforcement officers accused of excessive force, but also contemplates that, where such questions are serious enough to be tried, juries will have a vital role in deciding what constitutes objectively reasonable force, bringing with them their independent sense of the values of the community in which they sit. Because Sergeant Walle\u2019s testimony failed to meet two fundamental requisites for expert testimony \u2014 that the expert must add something to the common fund of knowledge the jury brings to its task, and that the expert must not usurp the court\u2019s role in giving the jury guidance on the law \u2014 the admission of his testimony not only undercut the jury\u2019s ability to perform this vital role, but prejudiced Brown\u2019s ability to mount a defense to the section 69 charge.\nIV.\nCONCLUSION AND DISPOSITION\nThe judgment is affirmed with the exception of Brown\u2019s conviction for violating section 69, which is conditionally reversed pursuant to the procedure outlined in People v. Hayes, supra, 142 Cal.App.4th at page 184. If, after the filing of the remittitur in the trial court, the prosecutor does not retry Brown on the charged offense within the time limit of Penal Code section 1382, subdivision (a)(2), the trial court shall proceed as if the remittitur constituted a modification of the judgment to reflect a conviction of the lesser included offense of simple assault in violation of Penal Code section 240, and shall resentence Brown accordingly.\nRivera, J., concurred.\nBrown also seeks review of the denial of a pretrial motion for discovery of the personnel records of the officers involved in the incident pursuant to Pitchess v. Superior Court (1974) 11 Cal.3d 531 [113 Cal.Rptr. 897, 522 P.2d 305] (Pitchess). Having reviewed the withheld personnel records, we affirm the trial court\u2019s denial of Brown\u2019s Pitchess motion. On August 1, 2014, this court filed an order indicating that we had reviewed the sealed record of the Pitchess proceeding and found \u201cthat there are no discoverable documents under seal that should be produced to counsel.\u201d In his opening brief, appellant requests a second review be conducted with the \u201cbenefit\u201d of his factual summary and legal analysis. The disposition we reach reaffirms our August 1, 2014 order.\nBoth officers were wearing bullet-proof vests. Officer Moody testified that Brown never succeeded in hitting him. Officer Ricchiuto testified that Brown hit him twice. Neither suffered injuries from what Officer Moody described as Brown\u2019s \u201cflail[ing]\u201d at them.\nSee Graham v. Connor (1989) 490 U.S. 386 [104 L.Ed.2d 443, 109 S.Ct. 1865] (Graham).\nNeither party requested a special jury instruction giving the jury further guidance as to what constitutes \u201creasonable force\u201d under Graham. The CALCRIM No. 2670 instruction the jury received, however, did elaborate in another respect, providing guidance as to the lawfulness of an arrestee\u2019s conduct when confronted with unreasonable or excessive force by an officer. \u201cIf a peace officer uses unreasonable or excessive force while . . . arresting ... a person, that person may lawfully use reasonable force to defend himself or herself,\u201d which is in turn defined as \u201cthat degree of force he or she actually believes is reasonably necessary to protect himself or herself from the officer\u2019s use of unreasonable or excessive force\u201d and \u201cno more force than a reasonable person in the same situation would believe is necessary for his or her protection.\u201d (CALCRIM No. 2670.) But the criteria by which to evaluate objective reasonableness \u2014 whether from a reasonable officer\u2019s perspective or from the arrestee\u2019s \u2014 were, in this case, left to the jury.\nIn assessing reasonableness, the Graham test calls for consideration of at least three factors (which have come to be called the \u201cGraham factors\u201d in subsequent case law and academic commentary): (1) the severity of the offense for which the suspect was arrested, (2) the immediacy of the threat that the suspect posed to the officer or officers, and (3) whether the suspect was fleeing or actively resisting. (Graham, supra, 490 U.S. at p. 396.) \u201cThe most important of these is whether the suspect posed an immediate threat to the officers or others, as measured objectively under the circumstances.\u201d (Mendoza v. City of West Covina (2012) 206 Cal.App.4th 702, 712 [141 Cal.Rptr.3d 553] (Mendoza).) Other factors may be significant in a given case (Smith v. City of Hemet (9th Cir. 2005) 394 F.3d 689, 701), since the \u201cproper application [of the Fourth Amendment\u2019s reasonableness test] requires careful attention to the facts and circumstances of each particular case . . . .\u201d (Graham, supra, 490 U.S. at p. 396.) Overall, however, the court in Graham emphasized that the test of \u201c \u2018reasonableness\u2019 of a particular use of force must be judged from the perspective of a reasonable officer on the scene, rather than with the 20/20 vision of hindsight,\u201d for \u201c[t]he calculus of reasonableness must embody allowance for the fact that police officers are often forced to make split-second judgments \u2014 in circumstances that are tense, uncertain, and rapidly evolving . . . .\u201d (Id. at pp. 396-397.)\nPeople v. Dejourney (2011) 192 Cal.App.4th 1091, 1110 [121 Cal.Rptr.3d 787] (\u201cBecause admissibility of expert opinion is a question of degree, and a jury need not be wholly ignorant of the subject matter under the statutory rule, exclusion is only necessary where the opinion would add nothing at all to the jury\u2019s common fund of information.\u201d).\nMiller v. Los Angeles County Flood Control Dist. (1973) 8 Cal.3d 689, 702 [106 Cal.Rptr. 1, 505 P.2d 193] (\u201cIf the matter in issue is one within the knowledge of experts only and not within the common knowledge of laymen, it is necessary for the plaintiff to introduce expert opinion evidence in order to establish a prima facie case.\u201d (original italics)); see Allgoewer, supra, 207 Cal.App.4th at pages 761-762.\nSee Evidence Code section 801, subdivision (a) (\u201cIf a witness is testifying as an expert, his testimony in the form of an opinion is limited to such an opinion\u201d as is \u201csufficiently beyond common experience that the opinion of an expert would assist the trier of fact\u201d (italics added)); Evidence Code section 801, subdivision (b) (expert testimony must be based on matter \u201cthat is of a type that reasonably may be relied upon by an expert in forming an opinion upon the subject to which his testimony relates\u201d (italics added)); Evidence Code section 802 (\u201cA witness testifying in the form of an opinion may state on direct examination the reasons for his opinion and the matter . . . upon which it is based, unless he is precluded by law from using such reasons or matter as a basis for his opinion. The court in its discretion may require that a witness before testifying in the form of an opinion be first examined concerning the matter upon which his opinion is based.\u201d (italics added)).\nA pair of federal cases, both from the Sixth Circuit Court of Appeals, illustrate the importance of ensuring at the \u201cgatekeeping\u201d stage that proposed testimony from a police practices expert is specifically focused on matters within the expert\u2019s qualifications. In Berry v. City of Detroit (6th Cir. 1994) 25 F.3d 1342 (Berry), the plaintiff in a section 1983 excessive force case presented a retired police officer witness with expertise in police \u201cdefensive tactics.\u201d (Berry, at p. 1349.) The trial court found the witness qualified to testify as an expert, and on the strength of his testimony about what he described as deficient use-of-force training and disciplinary practices, a jury awarded a large damage verdict. (Id. at pp. 1343-1344, 1348-1349.) Reversing, the Sixth Circuit Court of Appeals held the expert\u2019s testimony should have been excluded as unreliable. (Id. at pp. 1348-1354.) \u201c[T]here is no such \u2018field\u2019 as \u2018police policies and practices.\u2019 . . . [TJhere was no foundation at all for discipline testimony, even though it would fall under the general label of \u2018police policies and practices[,]\u2019 ... [a phrase that] is so broad as to be devoid of meaning. It is like declaring an attorney an expert in the \u2018law.\u2019 \u201d (Id, at p. 1352.) More recently, the Sixth Circuit, in another section 1983 excessive force case, distinguished Berry, explaining, \u201cWe did not hold that an individual cannot ever testify as an expert about some aspect of police affairs. Rather, the holding in Berry reasoned that unqualified individuals could not broadly testify about an area in which they possessed no specialized knowledge.\u201d (Champion v. Outlook Nashville, Inc. (6th Cir. 2004) 380 F.3d 893, 908 (Champion)). Because the expert in Champion focused his testimony on a \u201cdiscrete area of police practices about which he had specialized knowledge,\u201d (id. at p. 909) the court found no abuse of discretion in the admission of the testimony of a police practices expert (id. at pp. 908-909).\nThe Attorney General argues that Brown failed to preserve any specific objection to Sergeant Walle\u2019s testimony about the law. But this is not a case in which the appeal raises \u201c \u2018a wholly different basis of exclusion\u2019 \u201d than the trial objections. (People v. Williams (1988) 44 Cal.3d 883, 907, fn. 6 [245 Cal.Rptr. 336, 751 P.2d 395].) Brown objected to Sergeant Walle\u2019s testimony in its entirety, and in support of that objection he argued that Sergeant Walle\u2019s testimony contained no specialized content and invaded the province of the jury. Because the prejudicial impact of admission of Sergeant Walle\u2019s testimony over these objections \u2014 both of which were well taken \u2014 was bound up with his testimony on the law, the grounds for objection asserted by Brown were sufficient to \u201cfairly inform the trial court... of the specific reason or reasons the objecting party believes the evidence should be excluded.\u201d (People v. Partida (2005) 37 Cal.4th 428, 435 [35 Cal.Rptr.3d 644, 122 P.3d 765].)\nMunoz, supra, 120 Cal.App.4th at p. 1110 (\u201cThe quotation directing the jury that the test of reasonableness \u2018is not one of 20/20 hindsight, but one which necessarily allows for the fact that police officers are often forced to make split-second decisions in circumstances that are tense, uncertain, and rapidly evolving with the amount of force which is necessary\u2019 was taken directly from case law [citation] and is a correct statement of law. Although not appropriate as an instruction from the court, there was nothing wrong with these statements as part of closing argument.\u201d).\nThis illustrates how the open-ended form of much of Sergeant Walle\u2019s testimony created other problems. Sergeant Walle obviously was not and could never have been qualified as an expert in the law. But because his testimony was not presented in a way that ensured he would address only a \u201cdiscrete area of police practices about which he had specialized knowledge\u201d (Champion, supra, 380 F.3d at p. 909; see fn. 9, ante), he managed to roam beyond his demonstrated area of expertise by folding his testimony on the law into his training course tutorial.\nIn closing argument, Brown\u2019s contention was not that Officers Moody and Ricchiuto were poorly trained or incompetent, but that they made a mistake when they perceived him as a threat, that they overreacted to the situation and beat him up in retaliation for his defiance, and that their testimony about him swinging at them was fabricated to cover up their mistake.\nBrown points out that in the wake of a series of high profile controversies involving use of force by police officers in different parts of the country, a number of law enforcement agencies have adopted reforms to their use-of-force training. (See Apuzzo, Police Rethink Long Tradition on Using Force, N.Y. Times (May 5, 2015) p. A1; see also Note, The Shocking Truth: Law Enforcement\u2019s Use and Abuse of Lasers and the Need for Reform (2011) 56 Vill. L.Rev. 363, 384-385 [pointing out that the Federal Law Enforcement Training Center (FLETC), the national training institute that developed the use-of-force continuum, has made clear that, because of the formulaic nature of the continuum, it \u201cdirectly conflicts with\u201d Graham\u2019s conception that \u201c \u2018reasonableness under the Fourth Amendment is not capable of precise definition or mechanical application\u2019 \u201d, and as a result, FLETC has \u201cdone away with the use-of-force continuum\u201d in its own training materials, although many law enforcement agencies around the country still use some form of the continuum in their training programs.].)\nVenegas v. County of Los Angeles (2004) 32 Cal.4th 820, 839-840 [11 Cal.Rptr.3d 692, 87 P.3d 1] (recognizing availability of qualified immunity defense to \u00a7 1983 claims asserted in the California courts); see Mendoza, supra, 206 Cal.App.4th at page 711; Martinez v. County of Los Angeles, supra, 47 Cal.App.4th at page 342 (Martinez).\nBlankenhorn v. City of Orange (9th Cir. 2007) 485 F.3d 463, 484 (Blankenhom) (\u201cBlankenhom seeks to hold the City liable for the arresting officers\u2019 alleged use of excessive force. The City may be held liable under section 1983 if its deliberate policy caused the constitutional violation alleged.\u201d); see Monell v. New York City Dept. of Social Services (1978) 436 U.S. 658, 694 [56 L.Ed.2d 611, 98 S.Ct. 2018] (agency liability under \u00a7 1983 where misconduct of individual officers was undertaken pursuant to official policy).\nBlankenhorn, supra, 485 F.3d at page 485 (\u201cBlankenhorn also seeks to hold Chief Romero liable for Nguyen\u2019s alleged use of excessive force in punching Blankenhom during the arrest. Chief Romero can be held liable in his individual capacity \u2018 \u201cfor his own culpable action or inaction in the training, supervision, or control of his subordinates; for his acquiescence in the constitutional deprivation^] or for conduct that showed a reckless or callous indifference to the rights of others.\u201d \u2019 \u201d); see Canton v. Harris (1989) 489 U.S. 378 [103 L.Ed.2d 412, 109 S.Ct. 1197] (respondeat superior liability under \u00a7 1983 where supervisor was deliberately indifferent to misconduct of individual officers under him).\nCalatayud v. State of California (1998) 18 Cal.4th 1057 [77 Cal.Rptr.2d 202, 959 P.2d 360] (officers brandishing shotguns while making an arrest owed no duty of care to fellow officer who was shot when one of the shotguns accidentally discharged).\nMartinez, supra, 47 Cal.App.4th at page 349 and footnote 8 (defenses of official justification under Pen. Code, \u00a7 196 and official immunity under Gov. Code, \u00a7 820.2 apply to wrongful death claim in civil excessive force suit against officers for shooting knife-wielding man who was high on PCP).\nThough the question is a close one, if the jury had been instructed on the lesser included offense of simple assault and had returned a guilty verdict on that count, we would not have reached the same conclusion as to the assault conviction. Because the section 69 element of lawful performance of duty is not an element of assault, the prejudice analysis would have been quite different. The issue of excessive force was potentially relevant to assault, but in a different way than it was to the section 69 charge. There is no evidence in the record to support a defense to assault that, in response to unreasonable or excessive force by the officers, Brown used a \u201cdegree of force\u201d that he \u201cactually believefd]\u201d was reasonably necessary to protect himself. (CALCRIM No. 2670.) Thus, we conclude there is no reasonable likelihood of outright acquittal for his conduct in the fracas leading to his arrest.",
+        "type": "majority",
+        "author": "STREETER, J."
+      },
+      {
+        "text": "RUVOLO, P. J.,\nConcurring. \u2014 I concur with the majority that the conviction for resisting an officer in the performance of lawful duties (Pen. Code, \u00a7 69) must be reversed because the trial court failed to instruct the jury on the lesser included offense of simple assault (Pen. Code, \u00a7 240), and there exists a reasonable probability that a different result would have occurred had the jury been given the omitted instruction.\nBecause this conviction must be reversed on this principal ground, there is no need to discuss the issue of the alleged erroneous admission of expert testimony posited as an alternative ground for reversal, let alone publish a discursive opinion on this legally and factually complex subject. Indeed, Brown\u2019s appellate counsel agreed at oral argument that if the Penal Code section 69 conviction were to be reversed based on the failure to instruct on the lesser offense of simple assault, there was no need to decide the alternative evidentiary ground for reversal.\nA petition for a rehearing was denied March 23, 2016, and the opinion was modified to read as printed above.",
+        "type": "concurrence",
+        "author": "RUVOLO, P. J.,"
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "J. Bradley O\u2019Connell, under appointment by the Court of Appeal, for Defendant and Appellant.",
+      "Kamala D. Harris, Attorney General, Jeffrey M. Laurence, Acting Assistant Attorney General, Gregg E. Zywicke and Bruce M. Slavin, Deputy Attorneys General, for Plaintiff and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. A141172.\nFirst Dist., Div. Four.\nFeb. 25, 2016.]\nTHE PEOPLE, Plaintiff and Respondent, v. WILBERT BROWN, Defendant and Appellant.\nCounsel\nJ. Bradley O\u2019Connell, under appointment by the Court of Appeal, for Defendant and Appellant.\nKamala D. Harris, Attorney General, Jeffrey M. Laurence, Acting Assistant Attorney General, Gregg E. Zywicke and Bruce M. Slavin, Deputy Attorneys General, for Plaintiff and Respondent."
+  },
+  "file_name": "0140-01",
+  "first_page_order": 130,
+  "last_page_order": 164
+}

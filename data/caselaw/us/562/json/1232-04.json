@@ -1,0 +1,59 @@
+{
+  "id": 6023003,
+  "name": "Stringer v. Fayram, Warden",
+  "name_abbreviation": "Stringer v. Fayram",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8021",
+  "first_page": "1232",
+  "last_page": "1232",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1232"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.608,
+    "sha256": "f779f72e67e4ef62cd2326e05084d957922ab4f02294cd4ddfb6b6e1e22489e1",
+    "simhash": "1:2fe942f7cc7f50e9",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Stringer v. Fayram, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8021.\nStringer v. Fayram, Warden."
+  },
+  "file_name": "1232-04",
+  "first_page_order": 1254,
+  "last_page_order": 1254
+}

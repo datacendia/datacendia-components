@@ -1,0 +1,102 @@
+{
+  "id": 5909805,
+  "name": "In re Disbarment of Gilland",
+  "name_abbreviation": "In re Disbarment of Gilland",
+  "decision_date": "2011-05-16",
+  "docket_number": "No. D-2516",
+  "first_page": "985",
+  "last_page": "985",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 985"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "562 U. S. 811",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6029216,
+        5970346,
+        5989963,
+        12437754,
+        6014831,
+        6021553,
+        5994643,
+        5900596,
+        12437749,
+        5938934,
+        12437751,
+        12437752,
+        12437753,
+        12437750,
+        12437755,
+        12437748
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/562/0811-07",
+        "/us/562/0811-03",
+        "/us/562/0811-08",
+        "/l-ed-2d/178/0266-07",
+        "/us/562/0811-01",
+        "/us/562/0811-02",
+        "/us/562/0811-06",
+        "/us/562/0811-04",
+        "/l-ed-2d/178/0266-02",
+        "/us/562/0811-05",
+        "/l-ed-2d/178/0266-04",
+        "/l-ed-2d/178/0266-05",
+        "/l-ed-2d/178/0266-06",
+        "/l-ed-2d/178/0266-03",
+        "/l-ed-2d/178/0267-01",
+        "/l-ed-2d/178/0266-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 108,
+    "ocr_confidence": 0.611,
+    "sha256": "6e66279c038188d10784cbd06ac8aed0deff1592792ede7514e5500de8edd06d",
+    "simhash": "1:68e8f8abdb849acd",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:44:09.189648+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Gilland."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see 562 U. S. 811.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2516.\nIn re Disbarment of Gilland."
+  },
+  "file_name": "0985-09",
+  "first_page_order": 1011,
+  "last_page_order": 1011
+}

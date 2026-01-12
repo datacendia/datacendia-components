@@ -1,0 +1,944 @@
+{
+  "id": 12519709,
+  "name": "Leslie Latrice COLEMAN, Plaintiff - Appellant, v. UNITED STATES of America, Defendant - Appellee.",
+  "name_abbreviation": "Coleman v. United States",
+  "decision_date": "2019-01-08",
+  "docket_number": "No. 17-51135",
+  "first_page": "824",
+  "last_page": "838",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "912 F.3d 824"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "5th Cir.",
+    "id": 8820,
+    "name": "United States Court of Appeals for the Fifth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "361 F. App'x 621",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        3858465
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "621",
+          "parenthetical": "unpublished"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/361/0621-01"
+      ]
+    },
+    {
+      "cite": "464 U.S. 154",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6196250
+      ],
+      "weight": 3,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "162"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/464/0154-01"
+      ]
+    },
+    {
+      "cite": "509 U.S. 579",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        355769
+      ],
+      "weight": 3,
+      "year": 1993,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/509/0579-01"
+      ]
+    },
+    {
+      "cite": "78 Stat. 241",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "88 Stat. 1896",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "60 Stat. 842",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "992 F.2d 1492",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        11969135
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "1502",
+          "parenthetical": "noting that the plain language of \u00a7 7316(f) means that the government is not immune under \u00a7 2680(h) from intentional tort claims arising out of medical care provided by the VA"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/992/1492-01"
+      ]
+    },
+    {
+      "cite": "38 U.S.C. \u00a7 7316",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(f)",
+          "parenthetical": "\"The exception provided in section 2680(h) of title 28 shall not apply to any claim arising out of a negligent or wrongful act or omission of any person described in subsection (a"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 2680",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(h)",
+          "parenthetical": "stating the United States' waiver of sovereign immunity under the FTCA shall not apply to \"[a]ny claim arising out of assault, battery ...\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "838 F.2d 418",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1309313
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "425"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/838/0418-01"
+      ]
+    },
+    {
+      "cite": "129 F.3d 519",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11896701
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "530"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/129/0519-01"
+      ]
+    },
+    {
+      "cite": "46 F.3d 66",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "*1-2",
+          "parenthetical": "unpublished"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "566 U.S. 284",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12189060
+      ],
+      "weight": 3,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "299"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/566/0284-01"
+      ]
+    },
+    {
+      "cite": "423 F.3d 512",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8926399
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "516"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/423/0512-01"
+      ]
+    },
+    {
+      "cite": "257 F.Supp.2d 37",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        9113779
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "45",
+          "parenthetical": "\"Unless plaintiff can establish a duty under District law to keep employee records such as security clearance application forms confidential, she cannot state a claim for negligence under the FTCA.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/257/0037-01"
+      ]
+    },
+    {
+      "cite": "964 F.Supp.2d 1268",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        4044768
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "1272-73",
+          "parenthetical": "\"Because plaintiff's Privacy Act claim is rooted in federal rather than state law, and because [the state] has no analogous law, plaintiff cannot allege a claim under the FTCA for negligent violation of the Privacy Act.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/964/1268-01"
+      ]
+    },
+    {
+      "cite": "753 F.2d 1151",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        3595368,
+        292654
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "1157-58",
+          "parenthetical": "explaining that the FTCA \"makes the United States liable in accordance with applicable local tort law. ... Duties set forth in federal law do not, therefore, automatically create duties cognizable under local tort law .\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/244/0001-01",
+        "/f2d/753/1151-01"
+      ]
+    },
+    {
+      "cite": "324 F.2d 622",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        104528
+      ],
+      "year": 1963,
+      "pin_cites": [
+        {
+          "page": "624-25"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/324/0622-01"
+      ]
+    },
+    {
+      "cite": "510 U.S. 471",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        230419
+      ],
+      "weight": 3,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "478"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/510/0471-01"
+      ]
+    },
+    {
+      "cite": "672 F. App'x 357",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        12390158
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "362",
+          "parenthetical": "unpublished"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/672/0357-01"
+      ]
+    },
+    {
+      "cite": "634 F.2d 199",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1304196
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "203-04",
+          "parenthetical": "\"The requirement of exhaustion of administrative review is a jurisdictional requisite to the filing of an action under the FTCA.... [It] cannot be waived. ... Section 2675 is more than a mere statement of procedural niceties.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/634/0199-01"
+      ]
+    },
+    {
+      "cite": "508 U.S. 106",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11989
+      ],
+      "weight": 3,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "109-13",
+          "parenthetical": "affirming a dismissal for lack of jurisdiction where the FTCA complainant had not satisfied administrative exhaustion requirements before filing the complaint"
+        },
+        {
+          "parenthetical": "affirming a dismissal for lack of jurisdiction where the FTCA complainant had not satisfied administrative exhaustion requirements before filing the complaint"
+        },
+        {
+          "parenthetical": "affirming a dismissal for lack of jurisdiction where the FTCA complainant had not satisfied administrative exhaustion requirements before filing the complaint"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/508/0106-01"
+      ]
+    },
+    {
+      "cite": "197 S.W.3d 303",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8409123
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "304-05"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/197/0303-01"
+      ]
+    },
+    {
+      "cite": "591 F.2d 1164",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        521666
+      ],
+      "year": 1979,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/591/1164-01"
+      ]
+    },
+    {
+      "cite": "540 F.2d 837",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        315465
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "839"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/540/0837-01"
+      ]
+    },
+    {
+      "cite": "304 U.S. 64",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        10687
+      ],
+      "weight": 3,
+      "year": 1938,
+      "pin_cites": [
+        {
+          "parenthetical": "holding that state law governs substantive issues and federal law governs procedural issues"
+        },
+        {
+          "parenthetical": "holding that state law governs substantive issues and federal law governs procedural issues"
+        },
+        {
+          "parenthetical": "holding that state law governs substantive issues and federal law governs procedural issues"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/304/0064-01"
+      ]
+    },
+    {
+      "cite": "725 F.2d 1024",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1924941
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "1030-31"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/725/1024-01"
+      ]
+    },
+    {
+      "cite": "302 F.3d 448",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11437089
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "459"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/302/0448-01"
+      ]
+    },
+    {
+      "cite": "571 F.3d 442",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3668897
+      ],
+      "year": 2009,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/571/0442-01"
+      ]
+    },
+    {
+      "cite": "782 F.2d 1254",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1552502
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "1262-63",
+          "parenthetical": "holding, without a discussion of Rule 601, that a state law prohibiting medical testimony from unlicensed physicians did not apply to a non-medical-malpractice tort claim heard in federal court under diversity jurisdiction"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/782/1254-01"
+      ]
+    },
+    {
+      "cite": "2006 WL 616908",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "*8"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "731 F.3d 850",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6048860
+      ],
+      "weight": 2,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "855-57",
+          "parenthetical": "all holding that Rule 601 incorporates state rules for expert qualification when determining the competency of expert witnesses offering testimony regarding medical malpractice claims that turn on substantive state law"
+        },
+        {
+          "page": "856"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/731/0850-01"
+      ]
+    },
+    {
+      "cite": "392 F.3d 1283",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9191531
+      ],
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1294-95"
+        },
+        {
+          "page": "1295"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/392/1283-01"
+      ]
+    },
+    {
+      "cite": "286 F.3d 286",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        940778
+      ],
+      "weight": 3,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "289-92"
+        },
+        {
+          "page": "292",
+          "parenthetical": "referencing Fed. R. Evid. 102"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/286/0286-01"
+      ]
+    },
+    {
+      "cite": "2012 WL 12138540",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "*1-3",
+          "parenthetical": "holding that Section 74.401 's expert witness requirements do not apply to FTCA medical malpractice claims originating in Texas"
+        },
+        {
+          "page": "*1"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2014 WL 4631620",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "*2",
+          "parenthetical": "holding that Section 74.401 's expert witness requirements apply to FTCA medical malpractice claims originating in Texas"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2015 WL 1058097",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "*13-14"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "Tex. Civ. Prac. & Rem. Code Ann. \u00a7 74.401",
+      "category": "laws:leg_statute",
+      "reporter": "Tex. Code Ann.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "554 S.W.2d 160",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        11944428
+      ],
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "165-66"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/554/0160-01"
+      ]
+    },
+    {
+      "cite": "523 F.3d 597",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3784372
+      ],
+      "weight": 2,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "601"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/523/0597-01"
+      ]
+    },
+    {
+      "cite": "750 F.2d 449",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        629019
+      ],
+      "year": 1985,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/750/0449-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1346",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(b)(1)"
+        },
+        {
+          "page": "(b)(1)"
+        },
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "468 F.3d 278",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8453158
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "279"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/468/0278-01"
+      ]
+    },
+    {
+      "cite": "477 U.S. 317",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6207800
+      ],
+      "weight": 3,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "322"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/477/0317-01"
+      ]
+    },
+    {
+      "cite": "903 F.3d 487",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518557
+      ],
+      "weight": 4,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "490"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/903/0487-01"
+      ]
+    },
+    {
+      "cite": "482 F.3d 347",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3865880
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "355"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/482/0347-01"
+      ]
+    },
+    {
+      "cite": "522 U.S. 136",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11471033
+      ],
+      "weight": 3,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "138-39"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/522/0136-01"
+      ]
+    },
+    {
+      "cite": "836 F.3d 467",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4353365
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "469"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/836/0467-01"
+      ]
+    },
+    {
+      "cite": "20 F.3d 651",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10509762
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "653"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/20/0651-01"
+      ]
+    },
+    {
+      "cite": "429 U.S. 97",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        7354
+      ],
+      "weight": 3,
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "106"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/429/0097-01"
+      ]
+    },
+    {
+      "cite": "551 U.S. 89",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3573451
+      ],
+      "weight": 3,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "94",
+          "parenthetical": "quoting Estelle v. Gamble , 429 U.S. 97, 106, 97 S.Ct. 285, 50 L.Ed.2d 251 (1976) "
+        },
+        {
+          "parenthetical": "quoting Estelle v. Gamble , 429 U.S. 97, 106, 97 S.Ct. 285, 50 L.Ed.2d 251 (1976) "
+        },
+        {
+          "parenthetical": "quoting Estelle v. Gamble , 429 U.S. 97, 106, 97 S.Ct. 285, 50 L.Ed.2d 251 (1976) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/551/0089-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1495,
+    "char_count": 43998,
+    "pagerank": {
+      "raw": 4.1999103047230975e-08,
+      "percentile": 0.2679206393886284
+    },
+    "sha256": "713809436eaf9742147da2d8c22042f3a0f87b999f429e7dae6e45e6f2a6333d",
+    "simhash": "1:fd6adb22f3999b03",
+    "word_count": 6984
+  },
+  "last_updated": "2024-02-27T18:46:08.625841+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before REAVLEY, ELROD, and HIGGINSON, Circuit Judges."
+    ],
+    "parties": [
+      "Leslie Latrice COLEMAN, Plaintiff - Appellant,\nv.\nUNITED STATES of America, Defendant - Appellee."
+    ],
+    "opinions": [
+      {
+        "text": "JENNIFER WALKER ELROD, Circuit Judge:\nLeslie Latrice Coleman, proceeding pro se , raises numerous arguments challenging the district court's grant of summary judgment on some of her claims and the dismissal of her other claims brought against the Department of Veterans Affairs (VA).\nA central issue of her appeal is whether Federal Rule of Evidence 601 requires federal courts to apply state rules of witness qualification when determining the competency of expert witnesses to testify regarding medical malpractice claims that turn on questions of state substantive law. Consistent with the conclusions of our sister circuits who have addressed the issue, we conclude that the district court was correct in determining that it does.\nHowever, due to the many other arguments raised in this appeal, we AFFIRM in part, AFFIRM as modified in part, VACATE in part, and REMAND for proceedings consistent with this opinion.\nI.\nColeman was in the Air Force from 1999 to 2005. In 2005, she had a laparoscopic gastric band (\"lap band\") inserted by a private medical facility. In April 2014, Coleman went to the Audie L. Murphy Memorial VA Hospital in San Antonio (VAH-SA), where she complained of daily vomiting and reflux. She requested removal of the lap band and a surgical revision to a sleeve gastrectomy. A lap band removal date was eventually scheduled for November 2015. However, in November 2015, a resident under the supervision of an attending physician performed an upper endoscopy and concluded that there was no evidence of the lap band slipping, so the lap band was left in place.\nColeman reported continuing symptoms, and, in February 2016, the VA referred Coleman to the San Antonio Military Medical Center (SAMMC), where another physician agreed to schedule Coleman for lap band removal and a possible sleeve gastrectomy. However, before those surgeries could be performed, Coleman returned to the VAH-SA, was diagnosed with a slipped lap band, and, in March 2016, a VAH-SA physician surgically removed the lap band. Coleman still requested to proceed with the sleeve gastrectomy. In May 2016, a SAMMC physician attempted to perform the sleeve gastrectomy, but aborted the procedure mid-surgery after concluding that the risk of post-operative complications was too high. In July 2016, Coleman went to a private medical facility where the sleeve gastrectomy was ultimately performed.\nFrom March 2016 through October 2016, Coleman filed at least a dozen administrative complaints with the VA. Those complaints alleged, inter alia , that the VA was negligent in treating her slipped lap band, negligent in approving her sleeve gastrectomy procedure, negligent in failing to refer her for a psychological evaluation, and negligent in prescribing her medications. She also alleged that the VA wrongfully disclosed her medical records, wrongfully recorded her phone calls, wrongfully operated on her without her consent, wrongfully inflicted emotional distress on her son, and wrongfully discriminated against her based on her race, gender, and disability. The VA denied all of those claims. When the VA mailed its denial letters to her, Coleman accused the VA of threatening, harassing, and oppressing her, as well as retaliating against her.\nOn August 17, 2016, Coleman filed her original complaint in federal district court. The next day she filed her first amended complaint. Less than a week later, she filed her second amended complaint. Then, on November 7, 2016, she filed her third amended complaint, which the district court determined to be the live pleading for its summary judgment determination. In that complaint, as liberally construed, she asserts numerous claims against the VA under the Federal Tort Claims Act (FTCA), including allegations of medical malpractice, violations of the Privacy Act, and discrimination in violation of the Civil Rights Act. She sought monetary damages. However, some of her administrative complaints were not yet denied by the VA at the time that she filed her third amended complaint.\nTo support some of her medical malpractice claims, Coleman offered reports from two medical experts, Dr. Saini and Dr. Flancbaum. The magistrate judge assigned to the case struck the testimony of Dr. Saini after determining that Coleman repeatedly failed to make him available for deposition, but allowed the testimony of Dr. Flancbaum over the government's objection that Texas law required medical experts in malpractice lawsuits to be \"practicing medicine.\" The magistrate judge concluded that Texas state requirements governing expert witness qualification were not applicable to FTCA claims brought in federal court, noting that \"whether a witness is qualified as an expert is a matter to which the Federal Rules of Evidence apply.\" The government objected to that conclusion. The district court then declined to adopt that recommendation of the magistrate judge and struck Dr. Flancbaum's testimony, reasoning that Federal Rule of Evidence 601 requires a federal court hearing a medical malpractice claim under the FTCA to apply state rules for determining the competency of proffered medical experts.\nOnce both of Coleman's proffered medical experts were stricken, the district court held that she could not meet her threshold burden for establishing the relevant standard of care, and consequently the court granted summary judgment to the government on Coleman's FTCA medical malpractice claim.\nAs to the privacy-related claims, the district court construed Coleman's pleadings as using violations of the federal Privacy Act as the basis for bringing claims under the FTCA. For the privacy-related claims that were not denied by the VA at the time Coleman filed her third amended complaint, the district court determined that they were not administratively exhausted under the FTCA and dismissed for lack of subject matter jurisdiction. For the privacy-related claims deemed to be exhausted, the district court determined that Coleman had not produced sufficient evidence that the alleged disclosures were harmful or willful. Consequently, the district court granted summary judgment to the government on those claims.\nThe district court then determined that to the extent Coleman had alleged claims of discrimination, infliction of emotional distress on her son, and assault and battery, she had failed to offer evidence in support of those claims sufficient to survive summary judgment. As to the assault and battery claim, the district court further held that even if Coleman had offered sufficient evidence, her intentional tort claims were jurisdictionally-barred under the FTCA. Thus, the district court held that \"summary judgment and/or dismissal\" was appropriate for all the remaining claims. Coleman's motion for reconsideration was denied. Coleman timely appeals.\nII.\nThe filings of a pro se litigant are \" 'to be liberally construed,' ... and 'a pro se complaint, however inartfully pleaded, must be held to less stringent standards than formal pleadings drafted by lawyers[.]' \" Erickson v. Pardus , 551 U.S. 89, 94, 127 S.Ct. 2197, 167 L.Ed.2d 1081 (2007) (quoting Estelle v. Gamble , 429 U.S. 97, 106, 97 S.Ct. 285, 50 L.Ed.2d 251 (1976) ). Nonetheless, \"pro se litigants, like all other parties, must abide by the Federal Rules of Appellate Procedure.\" United States v. Wilkes , 20 F.3d 651, 653 (5th Cir. 1994). In addition, \"pro se plaintiffs must still plead factual allegations that raise the right to relief above the speculative level.\" Chhim v. Univ. of Tex. at Austin , 836 F.3d 467, 469 (5th Cir. 2016).\nWe generally review a district court's ruling on the admissibility of expert testimony for abuse of discretion. Gen. Elec. Co. v. Joiner , 522 U.S. 136, 138-39, 118 S.Ct. 512, 139 L.Ed.2d 508 (1997). However, when the district court bases its ruling on a question of law, such as an interpretation of the Federal Rules of Civil Procedure or the Federal Rules of Evidence, this court reviews such interpretations de novo . See Knight v. Kirby Inland Marine Inc. , 482 F.3d 347, 355 (5th Cir. 2007).\nWe review a district court's decision to grant summary judgment on a claim de novo , applying the same standards as the district court. DeVoss v. Sw. Airlines Co. , 903 F.3d 487, 490 (5th Cir. 2018). Summary judgment is proper when there is no genuine dispute of material fact and the moving party is entitled to judgment as a matter of law. Celotex Corp. v. Catrett , 477 U.S. 317, 322, 106 S.Ct. 2548, 91 L.Ed.2d 265 (1986). Moreover, summary judgment is required \"after adequate time for discovery and upon motion, against a party who fails to make a showing sufficient to establish the existence of an element essential to that party's case, and on which that party will bear the burden of proof at trial.\" Id .\nWe review a district court's order dismissing a claim for failure to exhaust administrative remedies de novo . Johnson v. La. ex rel. La. Dep't of Pub. Safety and Corrs. , 468 F.3d 278, 279 (5th Cir. 2006).\nIII.\nOn appeal, Coleman raises many arguments challenging the district court's grant of summary judgment and/or dismissal of her claims. Liberally construed, she argues that the district court erred by: (1) applying Texas witness competency requirements to disqualify the proffered expert for her FTCA medical malpractice claim; (2) dismissing some of her privacy-related claims for failure to exhaust administrative remedies; (3) granting summary judgment on the remaining privacy-related claims; and (4) holding that her assault and battery claims were both unsupported and jurisdictionally-barred.\nA.\nColeman argues that the district court erred by applying a Texas state requirement governing expert witness qualification to disqualify the proffered testimony of Dr. Flancbaum in her malpractice claims brought under the FTCA. The FTCA is a limited waiver of the federal government's immunity from tort lawsuits, allowing plaintiffs to sue the federal government \"for money damages ... [for] personal injury or death caused by the negligent or wrongful act or omission of any employee of the Government while acting within the scope of his office or employment, under circumstances where the United States, if a private person, would be liable to the claimant in accordance with the law of the place where the act or omission occurred.\" 28 U.S.C. \u00a7 1346(b)(1).\nLiability for medical malpractice claims brought under the FTCA is determined by state law. Ayers v. United States , 750 F.2d 449, 452 n.1 (5th Cir. 1985). The medical malpractice alleged in this claim occurred in Texas. Under Texas law, a plaintiff alleging medical malpractice must establish, as a threshold issue, the standard of care that was breached. Hannah v. United States , 523 F.3d 597, 601 (5th Cir. 2008). Unless that standard of care is common knowledge or within the experience of laymen, testimony from a medical expert is required to satisfy the plaintiff's threshold burden of proof. Id. (citing Hood v. Phillips , 554 S.W.2d 160, 165-66 (Tex. 1977) ).\nIn Texas, a medical expert can be barred from testifying in medical malpractice lawsuits if the expert was not \"practicing medicine\" either at the time the testimony was given or at the time that the claim arose. Tex. Civ. Prac. & Rem. Code Ann. \u00a7 74.401(a)(1). Specifically, the Texas statute states in relevant part:\n(a) In a suit involving a health care liability claim against a physician for injury to or death of a patient, a person may qualify as an expert witness on the issue of whether the physician departed from accepted standards of medical care only if the person is a physician who:\n(1) is practicing medicine at the time such testimony is given or was practicing medicine at the time the claim arose;\n(2) has knowledge of accepted standards of medical care for the diagnosis, care, or treatment of the illness, injury, or condition involved in the claim; and\n(3) is qualified on the basis of training or experience to offer an expert opinion regarding those accepted standards of medical care.\n(b) For the purpose of this section, \"practicing medicine\" or \"medical practice\" includes, but is not limited to, training residents or students at an accredited school of medicine or osteopathy or serving as a consulting physician to other physicians who provide direct patient care, upon the request of such other physicians.\n....\n(d) The court shall apply the criteria specified in Subsections (a), (b), and (c) in determining whether an expert is qualified to offer expert testimony on the issue of whether the physician departed from accepted standards of medical care, but may depart from those criteria if, under the circumstances, the court determines that there is a good reason to admit the expert's testimony. The court shall state on the record the reason for admitting the testimony if the court departs from the criteria.\nId. \u00a7 74.401.\nThe magistrate judge in this case determined that Section 74.401(a) does not apply to FTCA claims, holding instead that the question of expert witness qualification in federal courts is determined solely by the Federal Rules of Evidence, and that Dr. Flancbaum was qualified as an expert witness under Federal Rule of Evidence 702. The district court, however, determined that Section 74.401(a) does apply to FTCA claims because of Federal Rule of Evidence 601, and that Dr. Flancbaum must therefore be qualified to act as an expert witness under both Texas law and Rule 702. The district court then stated it was \"undisputed\" that Dr. Flancbaum was not \"practicing medicine\" during the relevant time periods, and disqualified him as an expert witness under Section 74.401(a) without reaching the question of qualification under Rule 702. However, a review of the briefs and the record reflects that this point was indeed disputed-both before the district court and again on appeal.\nNow on appeal, Coleman disputes the district court's determination. Fundamentally, Coleman's argument is that Texas's expert witness qualification rule is purely procedural and therefore inapplicable to FTCA claims brought in federal courts. As such, she asserts that the district court erred, that the admissibility of Dr. Flancbaum's expert witness testimony should have been determined solely by applying Rule 702, and that interpreting Rule 601 to require the importation of Texas expert witness requirements into federal court would put Rule 601 into conflict with Rule 702. The government responds that Texas's expert witness qualification rule is at least partially substantive and must be applied by federal courts under Rule 601. As such, the government asserts that the district court correctly applied the relevant state requirements, and that Rule 601 's importation of state competency requirements is not in conflict with Rule 702 's admissibility requirements.\nDistrict courts within this circuit have split on the issue. Compare Muniz v. United States , 2015 WL 1058097, at *13-14 (S.D. Tex. Mar. 9, 2015), and Martikean v. United States , 2014 WL 4631620, at *2 (N.D. Tex. Sept. 16, 2014) (holding that Section 74.401 's expert witness requirements apply to FTCA medical malpractice claims originating in Texas), with Gerry v. United States , 2012 WL 12138540, at *1-3 (W.D. Tex. Dec. 6, 2012) (holding that Section 74.401 's expert witness requirements do not apply to FTCA medical malpractice claims originating in Texas).\nRule 601 has two parts. The first part expands the general scope of witness competency in federal courts (\"Every person is competent to be a witness unless these rules provide otherwise.\"); The second part restricts witness competency based on state law in certain cases where the state provides the substantive law (\"But in a civil case, state law governs the witness's competency regarding a claim or defense for which state law supplies the rule of decision.\"). The Federal Rules of Evidence do not define the term \"competency.\" However, commentators have observed that \"[c]ompetency under Rule 601 may be defined as the presence of those characteristics that qualify and the absence of those disabilities that disqualify a person from testifying.\" 27 Charles Wright & Victor Gold, Federal Practice & Procedure \u00a7 6003 (2d ed. 2007). See also Competency , Black's Law Dictionary (5th ed. 1979) (\"In the law of evidence, the presence of those characteristics, or the absence of those disabilities, which render a witness legally fit and qualified to give testimony in a court of justice. ...\").\nAs the district court in the instant case observed, we have not yet addressed the question of how, if at all, the second part of Rule 601 impacts the admissibility of expert witness testimony when a federal malpractice claim turns on a question of substantive state law. We now address that question, and we hold that Federal Rule of Evidence 601 requires federal courts to apply state rules for expert witness qualification when determining the competency of expert witnesses to testify regarding medical malpractice claims that turn on questions of state substantive law.\nIn reaching this conclusion, we join the three other circuits that have squarely addressed Rule 601 's applicability to medical malpractice lawsuits applying state substantive law in federal court. See Legg v. Chopra , 286 F.3d 286, 289-92 (6th Cir. 2002) ; McDowell v. Brown , 392 F.3d 1283, 1294-95 (11th Cir. 2004) ; Liebsack v. United States , 731 F.3d 850, 855-57 (9th Cir. 2013) (all holding that Rule 601 incorporates state rules for expert qualification when determining the competency of expert witnesses offering testimony regarding medical malpractice claims that turn on substantive state law).\nIn arguing to the contrary, Coleman relies heavily on the holding in Gerry , a case from the Western District of Texas, which held, without a discussion of Rule 601, that an expert witness's qualification is \"an evidentiary question, procedural in nature, and thus governed by the federal rules of evidence.\" 2012 WL 12138540, at *1 (quoting Rogers v. United States , 2006 WL 616908, at *8 (W.D. Tex. Mar. 8, 2006) ). Based on that reasoning, Gerry held that Rule 702 provides the sole basis upon which federal courts should determine the admissibility of expert testimony, \"even in an FTCA case where state substantive law applies.\" Id. at *2.\nTo be sure, we have held that as a general proposition, \"questions concerning the admissibility of evidence in federal court are governed by the Federal Rules of Evidence.\" See, e.g. , Dawsey v. Olin Corp. , 782 F.2d 1254, 1262-63 (5th Cir. 1986) (holding, without a discussion of Rule 601, that a state law prohibiting medical testimony from unlicensed physicians did not apply to a non-medical-malpractice tort claim heard in federal court under diversity jurisdiction); Huss v. Gayden , 571 F.3d 442, 452 & n.7 (5th Cir. 2009) (noting, without discussing Rule 601, that even where a state provides the substantive law in a medical malpractice case, \"the Federal Rules of Evidence control the admission of expert testimony[,]\" and \"[t]he parties' briefing of admissibility of expert testimony under [state] law is therefore not relevant\" (citing Mathis v. Exxon Corp ., 302 F.3d 448, 459 (5th Cir. 2002) ) ).\nHowever, both the appellant here and the court in Gerry fail to engage with the second sentence of Federal Rule of Evidence 601 (\"But in a civil case, state law governs the witness's competency regarding a claim or defense for which state law supplies the rule of decision.\").\nWhile it is true that cases like Dawsey and Huss stand for the proposition that evidentiary questions will be governed in the federal courts by the federal rules, Rule 601 is just that-a federal rule. State evidentiary rules become pertinent to the extent that the federal rules make them so. Morris v. LTV Corp ., 725 F.2d 1024, 1030-31 (5th Cir. 1984). Rule 601 does exactly that for state rules governing witness competency in certain claims-like the medical malpractice claims in the instant case-that turn on questions of state substantive law. As such, to the extent state competency rules are brought into the federal courts by and through Federal Rule of Evidence Rule 601, they are not in tension with the principle, pronounced in cases like Dawsey and Huss , that the Federal Rules of Evidence control the admission of expert testimony in federal courts.\nNonetheless, Coleman contends that reading Rule 601 to import state rules for expert witness competency would both undermine the Erie doctrine, see generally Erie R.R. Co. v. Tompkins , 304 U.S. 64, 58 S.Ct. 817, 82 L.Ed. 1188 (1938) (holding that state law governs substantive issues and federal law governs procedural issues), and cause Rule 601 to displace Rule 702. We disagree, and address both contentions in turn.\nIt is well-established that a state's evidentiary rules can have substantive aspects in certain types of cases. See Conway v. Chemical Leaman Tank Lines, Inc ., 540 F.2d 837, 839 (5th Cir. 1976) (\"[T]here are circumstances in which a question of admissibility of evidence is so intertwined with a state substantive rule that the state rule excluding the evidence will be followed in order to give full effect to the state's substantive policy.\" (quoting 9 Charles Wright & Arthur Miller, Federal Practice and Procedure: Civil \u00a7 2405, at 326-27 (1971) ) ). See also Woods v. Holy Cross Hospital , 591 F.2d 1164, 1168 n.6 (5th Cir. 1979). That is especially true in medical malpractice claims, where the substantive law of the state requires that the testimony of an expert witness, rather than the text of a statute, establish the relevant standard of care against which the defendant will be held. Thus, defining who is competent to offer the testimony that establishes the legally relevant standard of care is itself a substantive action. As the Ninth Circuit held in a very similar case: \"[T]he [state] statute here [governing expert witness competency for medical malpractice suits] is intertwined with the state's professional negligence law because it limits what kind of professional can testify to the standard of care. That limitation, in turn, affects the standard of care against which the defendant's conduct will be tested-an inherently substantive inquiry.\" Liebsack , 731 F.3d at 856. As such, reading Rule 601 to import state requirements for expert witness competency in this case incorporates rather than conflicts with the Erie doctrine, as the question of who can testify to the relevant standard of care is at least partially substantive in nature.\nMoreover, the question of competency under Rule 601 complements rather than displaces the question of admissibility under Rule 702. Commentators have observed that \" Rule 601 pertains specifically to the legal status to testify as a witness[,]\" and \"one key to establishing the scope of Rule 601 is to distinguish between competency and admissibility. ... [A] witness might be able to offer testimony that is admissible, but that witness still is prevented from taking the stand if [he is not competent to testify].\" 27 Charles Wright & Victor Gold, Federal Practice & Procedure \u00a7 6003 (2d ed. 2007). Thus, an expert's testimony might be admissible under Rule 702, yet the witness himself barred under Rule 601 when relevant state law deems him legally incompetent to testify on the matter. Conversely, an expert might be legally competent to testify under Rule 601, yet nonetheless offer testimony that is inadmissible under Rule 702. As the Sixth Circuit held: \"We therefore find no conflict between [Tennessee's expert witness statute, as applied through Rule 601,] and Fed.R.Evid. 702, since the first is directed at establishing the substantive issue in the case, and the second is a gatekeeping measure designed to ensure 'fairness in administration' of the case.\" Legg , 286 F.3d at 292 (referencing Fed. R. Evid. 102). See also McDowell , 392 F.3d at 1295 (\"[O]nce a witness is deemed competent to testify to the substantive issue of the case, his or her testimony should then be screened by Rule 702 to determine if it is otherwise admissible expert testimony.\" (quoting Legg , 286 F.3d at 292 ) ).\nAs such, the district court was correct in its conclusion that in order for Dr. Flancbaum's testimony to be admissible in this case, he had to satisfy both Rule 601 's competency requirements (which in the instant case incorporate the requirements of Texas's Section 74.401 ) and Rule 702 's expert witness admissibility requirements.\nNonetheless, we hold that the district court did err in its assertion that it was \"undisputed\" that Dr. Flancbaum was not \"practicing medicine\" as the term is used in Section 74.401. As already noted, Coleman explicitly disputed this point both before the district court and before us. Section 74.401(b) provides a non-exhaustive list of activities that constitute \"practicing medicine\" under state law, and, while Texas affords trial courts considerable discretion in determining whether an expert's activities constitute \"practicing medicine\" at the relevant times-see, e.g., Larson v. Downing , 197 S.W.3d 303, 304-05 (Tex. 2006) -the trial court cannot avoid making that determination here simply by calling the question undisputed. For example, this court can easily imagine a situation wherein a well-respected and recently retired surgeon would still be eligible to act as an expert witness in a medical malpractice case even if he was no longer performing surgeries. Thus, on remand the district court must consider whether Dr. Flancbaum performed activities that would be deemed to be \"practicing medicine\" under the non-exhaustive definition provided in Section 74.401(b) ; and alternatively, even if he was not \"practicing medicine\" as Texas defines the term, whether he is nonetheless competent to testify under Section 74.401(d), which permits departure from the \"practicing medicine\" requirement where there is \"good reason.\"\nConsequently, we VACATE the judgment of the district court deeming it to be undisputed that Dr. Flancbaum was not competent to testify as a medical expert, and REMAND for that dispute to be adjudicated in the first instance, as well as for further proceedings consistent with this opinion.\nB.\nColeman next argues that the district court erred by holding that she did not exhaust the administrative remedies for some of the privacy-related allegations possibly raised in her complaint.\nThe district court determined that only some of Coleman's privacy-related claims were administratively exhausted-those that had been denied by the VA on or before the date that she filed her third amended complaint. Those claims were allowed to proceed-and then disposed of by summary judgment, see infra Section III.C.-while any other privacy-related claims possibly raised by Coleman's complaint were dismissed for failure to exhaust administrative remedies.\nColeman's argument appears to be that the government waived its ability to raise failure to exhaust as an affirmative defense. The district court rejected this argument by holding exhaustion to be a jurisdictional prerequisite for FTCA claims that cannot be waived. We affirm this portion of the district court's judgment. See McNeil v. United States , 508 U.S. 106, 109-13, 113 S.Ct. 1980, 124 L.Ed.2d 21 (1993) (affirming a dismissal for lack of jurisdiction where the FTCA complainant had not satisfied administrative exhaustion requirements before filing the complaint); Gregory v. Mitchell , 634 F.2d 199, 203-04 (5th Cir. 1981) (\"The requirement of exhaustion of administrative review is a jurisdictional requisite to the filing of an action under the FTCA.... [It] cannot be waived. ... Section 2675 is more than a mere statement of procedural niceties.\"); Baker v. McHugh, 672 F. App'x 357, 362 (5th Cir. 2016) (unpublished).\nHowever, because the district court erred by analyzing these claims under a framework that viewed federal Privacy Act claims as capable of being brought under the FTCA, we modify the logic underlying the judgment. As such, this section of the opinion will proceed in two parts: first, we will address why the district court erred in analyzing Coleman's privacy-related allegations as federal Privacy Act claims brought under the FTCA; and second, we will address why the district court nonetheless did not err by dismissing these claims.\n1.\nThe district court appears to have construed Coleman's complaint as using the FTCA as the vehicle to redress alleged violations of the federal Privacy Act. However, as we shall explain, alleged violations of the federal Privacy Act cannot be the basis for FTCA claims.\nAs noted above, the FTCA waives the United States government's sovereign immunity only \"under circumstances where the United States, if a private person, would be liable to the claimant in accordance with the law of the place where the act or omission occurred.\" 28 U.S.C. \u00a7 1346(b)(1). The Supreme Court has \"consistently held that \u00a7 1346(b) 's reference to the 'law of the place' means law of the State-the source of substantive liability under the FTCA.\" F.D.I.C. v. Meyer , 510 U.S. 471, 478, 114 S.Ct. 996, 127 L.Ed.2d 308 (1994). As such, it is well-established that a federal agent's failure to fulfill duties imposed upon him solely by federal statute cannot stand alone as a basis for suit under the FTCA. See United States v. Smith , 324 F.2d 622, 624-25 (5th Cir. 1963) (noting that the FTCA \"simply cannot apply where the claimed negligence arises out of the failure of the United States to carry out a statutory duty ... [as] [t]he nature of the claim ... is simply not one which would be asserted against 'a private person' under the laws of the State\"); Art Metal-U.S.A., Inc. v. United States , 753 F.2d 1151, 1157-58 (D.C. Cir. 1985) (explaining that the FTCA \"makes the United States liable in accordance with applicable local tort law. ... Duties set forth in federal law do not, therefore, automatically create duties cognizable under local tort law .\").\nTherefore, when the FTCA is used as the vehicle for bringing invasion of privacy or wrongful disclosure allegations against agents of the United States, the pertinent inquiry is whether the federal agents violated applicable state tort laws-not whether the federal agents violated the elements of the federal Privacy Act. See Burroughs v. Abrahamson , 964 F.Supp.2d 1268, 1272-73 (D. Or. 2013) (\"Because plaintiff's Privacy Act claim is rooted in federal rather than state law, and because [the state] has no analogous law, plaintiff cannot allege a claim under the FTCA for negligent violation of the Privacy Act.\"); Tripp v. United States , 257 F.Supp.2d 37, 45 (D.D.C. 2003) (\"Unless plaintiff can establish a duty under District law to keep employee records such as security clearance application forms confidential, she cannot state a claim for negligence under the FTCA.\").\nConsequently, the district court erred to the extent that it framed its analysis as assessing federal Privacy Act claims brought through the vehicle of the FTCA.\nThere are only two permissible frameworks under which Coleman's privacy-related allegations could be analyzed: state tort claims brought under the FTCA (with the FTCA's attendant statutory exhaustion requirements), or federal Privacy Act claims brought directly under the Privacy Act (without the FTCA's statutory exhaustion requirements).\n2.\nHowever, notwithstanding the district court's use of an incorrect analytical framework, the district court did not err by dismissing any privacy-related claims possibly raised by Coleman's complaint that were not decided by summary judgment. Therefore, we AFFIRM as modified the portion of the district court's judgment dismissing any privacy-related claims raised by Coleman's third amended complaint that were not denied by the VA by the date that complaint was filed.\nC.\nColeman next argues that the district court erred by granting summary judgment for the government on the three privacy-related claims that it construed as Privacy Act claims and considered on the merits. However, we hold that the district court did not err in this regard.\nAs the district court correctly explained, in order for a plaintiff alleging federal Privacy Act violations to survive summary judgment, the plaintiff must present evidence that: (1) the information was a covered record; (2) the agency disclosed the record; (3) the disclosure had an adverse effect on the individual; and (4) the disclosure was willful. See Jacobs v. Nat'l Drug Intelligence Ctr. , 423 F.3d 512, 516 (5th Cir. 2005). The district court determined that even if it were to assume that Coleman had satisfied the first two requirements, she had not provided sufficient evidence of adverse effect or willfulness.\nIn order for Coleman to recover damages for Privacy Act claims brought against the United States government, Coleman was required to demonstrate \"proven pecuniary or economic harm.\" F.A.A. v. Cooper , 566 U.S. 284, 299, 132 S.Ct. 1441, 182 L.Ed.2d 497 (2012). The district court determined that Coleman did not offer any evidence of actual harm resulting from the purported privacy violations other than her own unsubstantiated allegations of emotional trauma. A review of the record confirms this. Accordingly, the district court did not err in granting summary judgment for the government on Coleman's Privacy Act claims.\nThose claims also fail because, as the district court correctly held, Coleman failed to present sufficient evidence that the VA acted with at least gross negligence in disclosing the information. See Carrington v. U.S. Dep't of Def. , 46 F.3d 66, at *1-2 (5th Cir. 1995) (unpublished); see also Pippinger v. Rubin , 129 F.3d 519, 530 (10th Cir. 1997) (holding that the willfulness requirement means \"action so patently egregious and unlawful that anyone undertaking the conduct should have known it unlawful, or conduct committed without grounds for believing it to be lawful[,] or action flagrantly disregarding others' rights under the Act\" (quoting Andrews v. Veterans Admin ., 838 F.2d 418, 425 (10th Cir. 1988) ) ).\nAs such, summary judgment for the government on these three privacy-related claims was appropriate, and we AFFIRM the district court's grant of summary judgment on these claims.\nD.\nFinally, Coleman argues that the district court erred by holding that her claim of assault and battery was both unsupported and jurisdictionally-barred. Coleman's claim is that the VA operated on her without her consent when a resident performed the upper endoscopy in November 2015. Coleman is correct that the district court erred by holding that it was jurisdictionally-barred from considering her allegations of assault and battery under the FTCA in this context; nevertheless, we hold that summary judgment was appropriate for this claim.\nThe district court based its determination that Coleman's assault and battery claim was jurisdictionally-barred on the exception to the FTCA codified in 28 U.S.C. \u00a7 2680(h) (stating the United States' waiver of sovereign immunity under the FTCA shall not apply to \"[a]ny claim arising out of assault, battery ...\"). However, there is a statutory exception to the exception for agents of the United States furnishing medical care in the course of their duties. See 38 U.S.C. \u00a7 7316(f) (\"The exception provided in section 2680(h) of title 28 shall not apply to any claim arising out of a negligent or wrongful act or omission of any person described in subsection (a) in furnishing medical care or treatment (including medical care or treatment furnished in the course of a clinical study or investigation) while in the exercise of such person's duties in or for the Administration.\"). See also Franklin v. United States , 992 F.2d 1492, 1502 (10th Cir. 1993) (noting that the plain language of \u00a7 7316(f) means that the government is not immune under \u00a7 2680(h) from intentional tort claims arising out of medical care provided by the VA).\nNonetheless, the district court did not err in its determination that Coleman's assault and battery claim was not supported by evidence and could therefore be dispensed with on summary judgment. As such, even though the claim was not jurisdictionally-barred, summary judgment was proper and we AFFIRM this portion of the district court's judgment.\n* * * *\nIn summary, the district court was correct in its determination that Federal Rule of Evidence 601 requires that Coleman's proffered expert witness must satisfy the state law standards for expert witness competency in addition to the Federal Rule of Evidence 702 standards for the admissibility of expert witness testimony. However, because the district court erred in its determination that it was undisputed that Coleman's proffered expert failed to meet those state law standards, and also failed to consider whether there was \"good reason\" for excusing that requirement, we VACATE and REMAND for further proceedings consistent with this opinion.\nThe district court's dismissal for non-exhaustion of any privacy-related claims raised in Coleman's complaint that were not denied by the VA by the date that the third amended complaint was filed is AFFIRMED as modified. The district court's summary judgment for the government on the three privacy-related claims that were reached on their merits is AFFIRMED. Finally, the district court's determination that summary judgment was appropriate on the assault and battery claim is AFFIRMED.\nUnlike a lap band procedure, which involves placing a band around the patient's stomach, a sleeve gastrectomy is the surgical removal of a portion of the patient's stomach. See Sleeve Gastrectomy , Mayo Clinic , https://www.mayoclinic.org/tests-procedures/sleevegastrectomy/about/pac-20385183 (last visited Oct. 29, 2018).\nFederal Tort Claims Act of 1946, 60 Stat. 842 (codified as amended at 28 U.S.C. \u00a7\u00a7 1346(b), 2671 -2680 ).\nPrivacy Act of 1974, Pub. L. No. 93-579, 88 Stat. 1896 (codified as amended at 5 U.S.C. \u00a7 552a ).\nCivil Rights Act of 1964, Pub. L. No. 88-352, 78 Stat. 241 (codified as amended at 42 U.S.C. \u00a7\u00a7 2000a et seq. ).\nA portion of Coleman's pro se brief also appears to insinuate that some of her medical malpractice claims should be dismissed for failure to exhaust rather than disposed of by summary judgment. However, even with the benefit of being liberally construed, the argument is difficult to follow and appears to be raising some allegations that were not even included in the complaint. As such, to the extent Coleman attempts to make such a claim, it is forfeited on appeal for failure to adequately brief. See DeVoss , 903 F.3d at 489 n.1 (noting that failure to adequately brief an argument forfeits the claim on appeal).\nRule 702. Testimony by Expert Witnesses\nA witness who is qualified as an expert by knowledge, skill, experience, training, or education may testify in the form of an opinion or otherwise if:\n(a) the expert's scientific, technical, or other specialized knowledge will help the trier of fact to understand the evidence or to determine a fact in issue;\n(b) the testimony is based on sufficient facts or data;\n(c) the testimony is the product of reliable principles and methods; and\n(d) the expert has reliably applied the principles and methods to the facts of the case.\nRule 601. Competency to Testify in General\nEvery person is competent to be a witness unless these rules provide otherwise. But in a civil case, state law governs the witness's competency regarding a claim or defense for which state law supplies the rule of decision.\nWitness competency is not the only context in which the Federal Rules of Evidence require the application of state evidentiary rules. See Fed. R. Evid. 302 (\"In a civil case, state law governs the effect of a presumption regarding a claim or defense for which state law supplies the rule of decision.\"); Fed. R. Evid. 501 (\"But in a civil case, state law governs privilege regarding a claim or defense for which state law supplies the rule of decision.\").\nMoreover, to the extent that it could be argued that Rule 702-as interpreted by Daubert v. Merrell Dow Pharms., Inc ., 509 U.S. 579, 113 S.Ct. 2786, 125 L.Ed.2d 469 (1993) -also provides some standards for determining the \"competence\" of expert witnesses, that argument does not undermine this holding. Congress retains the ability to enact additional rules of evidence specifying additional requirements for competency in designated cases, and that is precisely what it has done with the second sentence of Rule 601.\nColeman also makes the argument that the district court erred by declining to hold that the government was collaterally estopped from denying that it was negligent in offering her bariatric surgery. However, the type of nonmutual offensive collateral estoppel she asserts \"simply does not apply against the government.\" United States v. Mendoza , 464 U.S. 154, 162, 104 S.Ct. 568, 78 L.Ed.2d 379 (1984).\nThe claims held to be exhausted, and thus decided on their merits, included: (1) the allegation that VA attorneys or other personnel wrongfully reviewed her information when responding to her administrative claims; (2) the allegation that the VA wrongfully recorded her phone calls; and (3) the allegation that the VA wrongfully disclosed her own information to her when she filed a Freedom of Information Act (FOIA) request.\nBased on our review of the third amended complaint, as well as the briefs on appeal, it is unclear which, if any, privacy-related claims raised by Coleman are independent from the three that were deemed exhausted, and thus which, if any, specific privacy-related claims raised by Coleman were actually dismissed for failure to exhaust.\nColeman's briefs and pleadings are very unclear when it comes to explaining the cause of action by which she purports to be suing the federal government for alleged privacy violations. At various points, her pleadings before the district court and her briefs on appeal could be read to suggest that she is either: (a) trying to bring claims directly under the federal Privacy Act; (b) trying to bring state invasion of privacy claims through the FTCA; or (c) trying to bring federal Privacy Act claims through the FTCA. Given the confusion in the pleadings, it was reasonable for the district court to have construed her filings as attempting to do the latter. However, that is not a permissible application of the FTCA.\nTo the extent that Coleman's complaint could possibly be construed as raising any additional privacy-related claims as state tort claims brought under the vehicle of the FTCA, those claims would also be subject to, and fail, the FTCA's statutory administrative exhaustion requirement. Furthermore, her briefs on appeal do not identify which state tort laws were allegedly violated, let alone provide any structured argument applying the facts of this case to those laws. Therefore, any such argument is also held to be forfeited on appeal. See DeVoss , 903 F.3d at 489 n.1 (noting that failure to adequately brief an argument forfeits the claim on appeal).\nIn addition, to the extent Coleman's complaint could possibly be construed as raising additional privacy-related claims directly under the Privacy Act, her briefs on appeal do not identify those claims with any specificity, let alone adequately support them, and thus any such claims are held to be forfeited on appeal as well. See id. See also Toole v. Peak , 361 F. App'x 621, 621 (5th Cir. 2010) (unpublished) (\"[A] pro se appellant still must actually argue something that is susceptible of liberal construction.\").",
+        "type": "majority",
+        "author": "JENNIFER WALKER ELROD, Circuit Judge:"
+      }
+    ],
+    "attorneys": [
+      "Sean Bryan O'Connell, Assistant U.S. Attorney, U.S. Attorney's Office, San Antonio, TX, for Defendant-Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "Leslie Latrice COLEMAN, Plaintiff - Appellant,\nv.\nUNITED STATES of America, Defendant - Appellee.\nNo. 17-51135\nUnited States Court of Appeals, Fifth Circuit.\nFILED January 8, 2019\nLeslie Latrice Coleman, Pro Se.\nSean Bryan O'Connell, Assistant U.S. Attorney, U.S. Attorney's Office, San Antonio, TX, for Defendant-Appellee.\nBefore REAVLEY, ELROD, and HIGGINSON, Circuit Judges."
+  },
+  "file_name": "0824-01",
+  "first_page_order": 824,
+  "last_page_order": 838
+}

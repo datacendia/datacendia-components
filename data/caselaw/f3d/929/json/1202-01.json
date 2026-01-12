@@ -1,0 +1,471 @@
+{
+  "id": 12521734,
+  "name": "ENERGY WEST MINING COMPANY, Petitioner, v. Joann H. LYLE, ON BEHALF OF James E. LYLE; Department of Labor, Respondents.",
+  "name_abbreviation": "Energy W. Mining Co. v. Lyle ex rel. Lyle",
+  "decision_date": "2019-07-09",
+  "docket_number": "No. 18-9537",
+  "first_page": "1202",
+  "last_page": "1214",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "929 F.3d 1202"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "10th Cir.",
+    "id": 8771,
+    "name": "United States Court of Appeals for the Tenth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "601 F.3d 1013",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4225622
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "1021"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/601/1013-01"
+      ]
+    },
+    {
+      "cite": "91 Stat. 1290",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "898 F.3d 669",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517991
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/898/0669-01"
+      ]
+    },
+    {
+      "cite": "138 S. Ct. 2044",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12612807
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "2055"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/2044-01"
+      ]
+    },
+    {
+      "cite": "365 F.3d 1208",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9258099
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1218-20",
+          "parenthetical": "reversing the denial of Social Security benefits because the administrative law judge had erroneously regarded a physician's opinion as conclusory"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/365/1208-01"
+      ]
+    },
+    {
+      "cite": "859 F.2d 486",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10528547
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "490-91",
+          "parenthetical": "reversing because the administrative law judge erroneously regarded a physician's opinion on causation as equivocal"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/859/0486-01"
+      ]
+    },
+    {
+      "cite": "20 C.F.R. \u00a7 718.201",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)(1)"
+        },
+        {
+          "page": "302"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "389 F.3d 1074",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7345594,
+        9151204
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1087"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/am-tribal-law/5/1074-01",
+        "/f3d/389/1074-01"
+      ]
+    },
+    {
+      "cite": "77 Fed. Reg. 19456",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "19464",
+          "parenthetical": "\"A test that produces 'qualifying' values is deemed, in the absence of contrary evidence, indicative of a totally disabling respiratory or pulmonary impairment.\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 C.F.R. \u00a7 718.204",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(b)(1)"
+        },
+        {
+          "page": "(b)(2)"
+        },
+        {
+          "page": "(b)(2)(ii)"
+        },
+        {
+          "page": "(b)(2)(i)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 C.F.R. \u00a7 718.305",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(b)"
+        },
+        {
+          "page": "(d)"
+        },
+        {
+          "page": "(b)"
+        },
+        {
+          "page": "(d)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 U.S.C. \u00a7 921",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(c)(4)"
+        },
+        {
+          "page": "(c)(4)"
+        },
+        {
+          "page": "(c)(4)"
+        },
+        {
+          "page": "(c)(4)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "857 F.3d 817",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12276681
+      ],
+      "weight": 8,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "821"
+        },
+        {
+          "page": "821"
+        },
+        {
+          "page": "822"
+        },
+        {
+          "page": "821"
+        },
+        {
+          "page": "822",
+          "parenthetical": "noting that we review decisions of the Benefits Review Board de novo and focus on the administrative law judge's evaluation of the evidence"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/857/0817-01"
+      ]
+    },
+    {
+      "cite": "917 F.3d 1198",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12520269
+      ],
+      "weight": 7,
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "1214"
+        },
+        {
+          "page": "1209"
+        },
+        {
+          "page": "1218-19",
+          "parenthetical": "upholding the administrative law judge's decision to follow the applicable regulations over contrary medical testimony"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/917/1198-01"
+      ]
+    },
+    {
+      "cite": "743 F.3d 1331",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4117470
+      ],
+      "weight": 5,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1341"
+        },
+        {
+          "page": "1335"
+        },
+        {
+          "page": "1345-46"
+        },
+        {
+          "page": "1346"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/743/1331-01"
+      ]
+    },
+    {
+      "cite": "305 U.S. 197",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6139848
+      ],
+      "weight": 4,
+      "year": 1938,
+      "pin_cites": [
+        {
+          "page": "229"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/305/0197-01"
+      ]
+    },
+    {
+      "cite": "881 F.3d 1211",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275424
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1217"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/881/1211-01"
+      ]
+    },
+    {
+      "cite": "946 F.2d 118",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10521216
+      ],
+      "year": 1991,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/946/0118-01"
+      ]
+    },
+    {
+      "cite": "993 F.2d 1454",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10519114
+      ],
+      "year": 1993,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/993/1454-01"
+      ]
+    },
+    {
+      "cite": "924 F.3d 1317",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12521147
+      ],
+      "weight": 3,
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "1325-26",
+          "parenthetical": "holding that we lacked jurisdiction to consider an argument that the petitioner had not presented to the Benefits Review Board"
+        },
+        {
+          "page": "1325"
+        },
+        {
+          "page": "1326"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/924/1317-01"
+      ]
+    },
+    {
+      "cite": "2018 WL 8269864",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2018,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 U.S.C. \u00a7 901",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1028,
+    "char_count": 29732,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25939987234777007
+    },
+    "sha256": "d8ddad32b8bb9dde846e2e23a908f0f99d43739448ba810a3e8bbf454f4b5c8c",
+    "simhash": "1:489c6215cc04060f",
+    "word_count": 4575
+  },
+  "last_updated": "2024-02-27T18:47:08.079641+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before TYMKOVICH, Chief Judge, and BACHARACH and MORITZ, Circuit Judges."
+    ],
+    "parties": [
+      "ENERGY WEST MINING COMPANY, Petitioner,\nv.\nJoann H. LYLE, ON BEHALF OF James E. LYLE; Department of Labor, Respondents."
+    ],
+    "opinions": [
+      {
+        "text": "BACHARACH, Circuit Judge.\nMr. James Lyle worked as a coal miner for roughly 28 years. After retiring, he sought benefits under the Black Lung Benefits Act. See 30 U.S.C. \u00a7 901 et seq . An administrative law judge concluded that Mr. Lyle was entitled to benefits, and the U.S. Department of Labor's Benefits Review Board affirmed. Energy West has filed a petition for review of the Board's decision.\nWe reject most of Energy West's arguments but agree with its challenge to the administrative law judge's analysis of an opinion by Dr. Joseph Tomashefski, Jr. In this analysis, the judge discounted Dr. Tomashefski's medical opinion for a reason unsupported by the record. We thus vacate the award of benefits and remand to the Board for reconsideration of Dr. Tomashefski's opinion.\nI. Because Energy West did not invoke the Appointments Clause in proceedings before the Benefits Review Board, we lack jurisdiction to consider the validity of the administrative law judge's appointment.\nEnergy West argues that the administrative law judge lacked authority to award benefits because he\n\u2022 was subject to the Constitution's Appointments Clause and\n\u2022 was not properly appointed under this clause.\nBut Energy West admittedly did not present this challenge to the Benefits Review Board.\nEnergy West contends that the Benefits Review Board couldn't have remedied the problem by appointing an administrative law judge. But the Board could have remedied a violation of the Appointments Clause by vacating the administrative law judge's decision and remanding for reconsideration by a constitutionally appointed officer. See, e.g. , Miller v. Pine Branch Coal Sales, Inc. , BRB No. 18-0323 BLA, 2018 WL 8269864 (Oct. 22, 2018) (per curiam) (en banc) (granting this relief). Given the availability of a remedy, Energy West needed to present this challenge to the Benefits Review Board. Energy West didn't, precluding our exercise of jurisdiction over the issue. See Big Horn Coal Co. v. Sadler , 924 F.3d 1317, 1325-26 (10th Cir. 2019) (holding that we lacked jurisdiction to consider an argument that the petitioner had not presented to the Benefits Review Board); McConnell v. Dir., Office of Workers' Comp. Programs, U.S. Dep't of Labor , 993 F.2d 1454, 1460 n.8 (10th Cir. 1993) (concluding that the petitioner's \"failure to raise [an] argument with the [Benefits Review] Board 'constitutes failure to exhaust administrative remedies and deprives the Court of Appeals of jurisdiction to hear the matter' \" (quoting Rivera-Zurita v. I.N.S. , 946 F.2d 118, 120 n.2 (10th Cir. 1991) )).\nII. We reverse the administrative law judge's award of benefits based on an error in discounting Dr. Tomashefski's opinion.\nThe administrative law judge concluded that Mr. Lyle was entitled to benefits under the Black Lung Benefits Act. Energy West challenges this conclusion, arguing in part that the judge erroneously discounted Dr. Tomashefski's opinion on legal pneumoconiosis. We agree with this part of Energy West's argument but reject its other arguments.\nA. We engage in limited review of the agency's determination.\nThe Black Lung Benefits Act permits judicial review to determine whether\n\u2022 the legal conclusions of the agency are rational and consistent with the law and \u2022 substantial evidence supports the agency's factual findings.\nSpring Creek Coal Co. v. McLean , 881 F.3d 1211, 1217 (10th Cir. 2018). We engage in de novo review of the administrative law judge's legal conclusions and consider whether substantial evidentiary support exists for his factual findings. Id.\nEvidence is substantial if a reasonable person might view it \"as adequate to support a conclusion.\" Consol. Edison Co. of N.Y. v. N.L.R.B. , 305 U.S. 197, 229, 59 S.Ct. 206, 83 L.Ed. 126 (1938). We do not reweigh the evidence; we instead ask whether the administrative law judge's determination is supported by substantial evidence. Antelope Coal Co./Rio Tinto Energy Am. v. Goodin , 743 F.3d 1331, 1341 (10th Cir. 2014). The task of evaluating medical evidence lies solely with the administrative law judge, who is ideally positioned to assess credibility and balance conflicting evidence. Rockwood Cas. Ins. Co. v. Dir., Off. of Workers' Comp. Programs, U.S. Dep't of Labor , 917 F.3d 1198, 1214 (10th Cir. 2019).\nB. If a miner worked in a coal mine for at least fifteen years and becomes disabled from a respiratory or pulmonary impairment, a rebuttable presumption would support an award of benefits.\nThe Black Lung Benefits Act provides benefits to coal miners who become disabled from pneumoconiosis (commonly known as black-lung disease ) arising from coal-mine employment. Goodin , 743 F.3d at 1335. To be eligible for benefits, a miner must establish four elements:\n1. Disease : The miner suffers from pneumoconiosis.\n2. Disease causation : The pneumoconiosis arose out of coal-mine employment.\n3. Disability : The miner is totally disabled because of a respiratory or pulmonary impairment.\n4. Disability causation : The pneumoconiosis substantially contributes to the miner's total disability.\nEnergy West Mining Co. v. Estate of Blackburn , 857 F.3d 817, 821 (10th Cir. 2017).\nBut if a miner has worked in a coal mine for at least fifteen years and establishes the disability element, we would presume satisfaction of the remaining three elements. Id. at 822 ; see 30 U.S.C. \u00a7 921(c)(4) ; 20 C.F.R. \u00a7 718.305(b) - (c). The burden would then shift to the employer to rebut the presumption on at least one of the three remaining elements. Estate of Blackburn , 857 F.3d at 822 ; see 30 U.S.C. \u00a7 921(c)(4) ; 20 C.F.R. \u00a7 718.305(d).\nApplying this burden-shifting framework, the administrative law judge concluded that\n\u2022 the presumption applied because Mr. Lyle had worked in a coal mine for at least fifteen years and had established the disability element and\n\u2022 Energy West had not rebutted the presumption.\nEnergy West concedes that Mr. Lyle worked in a coal mine for at least fifteen years. But Energy West challenges the evidentiary support for the administrative law judge's findings regarding\n\u2022 a total disability from a respiratory or pulmonary impairment and\n\u2022 a failure to rebut the presumption of legal pneumoconiosis.\nC. The disability element: Substantial evidence supports the administrative law judge's finding of a total disability from a respiratory or pulmonary impairment.\nTo establish the disability element, a coal miner must prove a total disability from a respiratory or pulmonary impairment. Energy West Mining Co. v. Estate of Blackburn , 857 F.3d 817, 821 (10th Cir. 2017). Miners are considered \"totally disabled\" if the pulmonary or respiratory impairment prevents them from performing\n\u2022 their customary coal-mine work and\n\u2022 other jobs in the community that require skills resembling those used in the prior coal-mine work.\n20 C.F.R. \u00a7 718.204(b)(1).\n\"In the absence of contrary probative evidence,\" certain types of evidence \"shall\" establish the disability element. 20 C.F.R. \u00a7 718.204(b)(2). Such evidence includes\n\u2022 arterial blood-gas studies and\n\u2022 medical-opinion evidence regarding the impact of a pulmonary or respiratory impairment on a miner's employment.\n20 C.F.R. \u00a7 718.204(b)(2)(ii), (iv).\nArterial blood-gas studies gauge the lungs' ability to oxygenate the blood. Rockwood Cas. Ins. Co. v. Dir., Off. of Workers' Comp. Programs, U.S. Dep't of Labor , 917 F.3d 1198, 1209 (10th Cir. 2019). For an arterial blood-gas study to establish the disability element, the results must show that the blood's oxygen-pressure level dipped below the regulatory threshold. See 20 C.F.R. pt. 718, App. C.\nThe regulatory threshold varies based on\n\u2022 the altitude where the study is conducted and\n\u2022 the carbon-dioxide pressure level of the miner's blood.\nSee id. For example, if the study is conducted between 3,000 and 5,999 feet above sea level, a miner with a carbon-dioxide pressure level of 26 should have an oxygen-pressure level exceeding 69; if the oxygen-pressure level of the miner's blood is 69 or below, the oxygen-pressure level would be considered too low, indicating a \"total disability.\" Id.\nIf an arterial blood-gas study yields qualifying values, the administrative law judge must find a total disability \"in the absence of rebutting evidence.\" Id. ; see Regulations Implementing the Byrd Amendments to the Black Lung Benefits Act: Determining Coal Miners' and Survivors' Entitlement to Benefits, 77 Fed. Reg. 19456, 19464 (Mar. 30, 2012) (\"A test that produces 'qualifying' values is deemed, in the absence of contrary evidence, indicative of a totally disabling respiratory or pulmonary impairment.\").\nApplying the regulatory thresholds, the administrative law judge concluded that Mr. Lyle had established the disability element based on\n\u2022 arterial blood-gas studies in 2011 and 2012 and\n\u2022 a written report by Dr. Shane Gagon after examining Mr. Lyle.\nAs the judge explained, the arterial blood-gas studies in 2011 and 2012 showed qualifying values under the applicable regulations. In his report, Dr. Gagon opined that\n\u2022 Mr. Lyle had a mild-to-moderate respiratory or pulmonary impairment and\n\u2022 chronic bronchitis was the primary contributor to Mr. Lyle's impairment.\nIn arriving at these opinions, Dr. Gagon relied partly on the 2011 arterial blood-gas study. According to Dr. Gagon, this study showed \"abnormal blood gases.\" Joint App'x at 12.\nEnergy West argues that the administrative law judge\n\u2022 erroneously discounted three medical opinions stating that Mr. Lyle's level of oxygen pressure was normal,\n\u2022 mistakenly credited Dr. Gagon's written report over his deposition testimony,\n\u2022 failed to weigh the significance of a third arterial blood-gas study, and\n\u2022 erroneously discounted Dr. Robert Farney's opinion as to a total disability.\nWe reject these arguments.\nFollowing the applicable regulations over contrary medical opinions. At his deposition, Dr. Gagon testified that the 2011 arterial blood-gas study had yielded normal results. Similarly, Dr. Farney testified at his deposition that the 2012 arterial blood-gas study had shown \"blood gases\" within \"normal limits.\" Id. at 185. And Dr. Tomashefski opined in a written report that the 2011 and 2012 arterial blood-gas studies had shown oxygen pressure \"in the low normal range\" given the altitudes at the test sites. Id. at 100.\nThe administrative law judge rejected the doctors' opinions because the arterial blood-gas studies had shown that Mr. Lyle's oxygen-pressure level was too low under the applicable regulations. Energy West contends that the judge erred in rejecting the doctors' opinions. We disagree.\nAn agency must follow its own regulations. Cherokee Nation of Okla. v. Norton , 389 F.3d 1074, 1087 (10th Cir. 2004). The administrative law judge thus rejected inadequately supported medical opinions that conflicted with these regulations. See Rockwood Cas. Ins. Co. v. Dir., Off. of Workers' Comp. Programs, U.S. Dep't of Labor , 917 F.3d 1198, 1218-19 (10th Cir. 2019) (upholding the administrative law judge's decision to follow the applicable regulations over contrary medical testimony).\nEnergy West contends that the administrative law judge should have discounted the results under the regulations in light of the contrary opinions presented by Drs. Farney, Tomashefski, and Gagon. But the judge determined that these opinions were entitled to little probative weight, and this assessment was reasonable. Neither Dr. Gagon nor Dr. Tomashefski explained how he had assessed a normal oxygen-pressure level for Mr. Lyle. Dr. Farney was different, for he stated that he had relied on research by his colleagues. But Energy West did not submit this research to the agency or to us. And none of the three doctors explained why they had deviated from the applicable regulations.\nCrediting Dr. Gagon's written report and rejecting his deposition testimony. In his written report, Dr. Gagon opined that Mr. Lyle had a mild-to-moderate respiratory or pulmonary impairment primarily because of chronic bronchitis. See p. 9, above. But Dr. Gagon testified differently at his deposition, stating that Mr. Lyle had no pulmonary impairment that prevented a return to his most recent coal-mine work.\nThe administrative law judge credited Dr. Gagon's written report over his deposition testimony. Energy West contends that the administrative law judge failed to explain why he had credited the written report over the deposition testimony. We disagree.\nIn relying on the written report, the administrative law judge noted that Dr. Gagon had\n\u2022 examined Mr. Lyle before producing the report and\n\u2022 relied on \"objective medical evidence\" for his \"examination findings.\"\nJoint App'x at 293. In considering the deposition testimony, the administrative law judge stated that Dr. Gagon had\n\u2022 \"contradicted\" his own report without any explanation and\n\u2022 stated that the 2011 arterial blood-gas study had shown a normal oxygen-pressure level even though that level had fallen below the regulatory thresholds.\nId. With these statements, the administrative law judge adequately explained his decision to credit Dr. Gagon's written report over his contrary deposition testimony.\nFailure to weigh a third arterial blood-gas study . Energy West argues that the administrative law judge failed to weigh a third arterial blood-gas study. But Energy West concedes that it failed to present this argument to the Benefits Review Board. Energy West thus forfeited this argument, precluding our exercise of jurisdiction over this argument. See Part I, above.\nDiscounting Dr. Farney's opinion as to a total disability . Dr. Farney opined that Mr. Lyle was not totally disabled from a respiratory impairment, and the administrative law judge rejected this opinion. Energy West challenges this part of the decision. But Energy West did not present this challenge to the Benefits Review Board. We thus lack jurisdiction to consider the argument. See Part I, above.\n* * *\nThe administrative law judge found that Mr. Lyle was totally disabled from a respiratory or pulmonary impairment. In making this finding, the administrative law judge considered all of the evidence and explained his conclusion. This explanation is supported by substantial evidence, so we uphold the judge's finding of a total disability from a respiratory or pulmonary impairment.\nD. The disease element: When deciding whether Energy West had rebutted the presumption on the disease element, the administrative law judge erroneously discounted Dr. Tomashefski's opinion because of a perceived lack of explanation.\nBecause Mr. Lyle had established the disability element and worked in a coal mine for at least fifteen years, the administrative law judge presumed satisfaction of the three remaining elements for black-lung benefits (disease, disease causation, and disability causation). Energy West Mining Co. v. Estate of Blackburn , 857 F.3d 817, 822 (10th Cir. 2017) ; see 30 U.S.C. \u00a7 921(c)(4) ; 20 C.F.R. \u00a7 718.305(b) - (c). The burden then shifted to Energy West to rebut the presumption on at least one of the three remaining elements. See Estate of Blackburn , 857 F.3d at 822 ; 30 U.S.C. \u00a7 921(c)(4) ; 20 C.F.R. \u00a7 718.305(d). On appeal, Energy West focuses on the disease element.\nTo rebut the presumption on the disease element, an employer must show that a miner does not suffer from pneumoconiosis. See Estate of Blackburn , 857 F.3d at 821. The pneumoconiosis may be either \"clinical\" or \"legal.\" 20 C.F.R. \u00a7 718.201(a).\nThis case involves legal pneumoconiosis, which encompasses \"any chronic lung disease or impairment and its sequelae arising out of coal mine employment.\" Id. \u00a7 718.201(a)(2). Diseases \"arising out of coal mine employment\" include \"any chronic pulmonary disease or respiratory or pulmonary impairment significantly related to, or substantially aggravated by, dust exposure in coal mine employment.\" Id. \u00a7 718.201(b).\nGiven this definition, Drs. Farney and Tomashefski opined that Mr. Lyle did not have legal pneumoconiosis. The administrative law judge regarded the probative value of these opinions as minimal to none.\nEnergy West argues that the administrative law judge erred in discounting the opinions of Drs. Farney and Tomashefski. We disagree with Energy West's argument as to Dr. Farney and agree as to Dr. Tomashefski.\nDr. Farney's opinion on legal pneumoconiosis . The administrative law judge concluded that Dr. Farney's opinion on legal pneumoconiosis had no probative value. For this conclusion, the administrative law judge gave four reasons:\n1. Internal inconsistency : In his written report, Dr. Farney agreed with Dr. Fernando Rodriguez's assessment of a CT scan. Dr. Rodriguez had opined that this CT scan showed signs of obstructive pulmonary disease. But Dr. Farney opined that he could not diagnose Mr. Lyle with emphysema because of a lack of evidence involving obstructive pulmonary disease.\n2. Misunderstanding of Mr. Lyle's actual work : Dr. Farney based his opinion partly on a belief that Mr. Lyle had worked in mines primarily when coal was not being extracted. But Mr. Lyle had spent 23 of his 28 years working in mines while coal was being extracted.\n3. Infrequency of coal workers' pneumoconiosis in the western states : Dr. Farney based his opinion in part on a belief that coal workers' pneumoconiosis is relatively infrequent in the western United States. But data on the general prevalence of coal workers' pneumoconiosis did not explain whether Mr. Lyle was among the small group of western miners affected by exposure to coal dust.\n4. Failure to explain the preclusive effect of a diagnosis of usual interstitial pneumonia : At his deposition, Dr. Farney testified that he had not diagnosed pneumoconiosis because he believed that Mr. Lyle's symptoms were consistent with usual interstitial pneumonia, which is not caused by exposure to coal dust. But Dr. Farney did not explain why a diagnosis of usual interstitial pneumonia precluded a diagnosis of legal pneumoconiosis.\nEnergy West challenges the administrative law judge's first three reasons for discounting Dr. Farney's opinion on legal pneumoconiosis. We reject these challenges.\nFirst, Energy West argues that Dr. Farney's deposition testimony explained his reasoning concerning obstructive lung disease. But when Dr. Farney testified about the CT scan, he relied on Dr. Christopher Meyer's interpretation (rather than Dr. Rodriguez's). So Dr. Farney never explained the discrepancy between his opinions that\n\u2022 Mr. Lyle didn't have obstructive pulmonary disease and\n\u2022 the CT scan showed air trapping consistent with obstructive pulmonary disease.\nSecond, Energy West argues that the administrative law judge failed to consider the relevance of Mr. Lyle's history of working when coal wasn't being extracted. The judge did not conclude that this history was irrelevant; rather, he concluded that (1) Dr. Farney had misunderstood Mr. Lyle's employment history and (2) this misunderstanding had undercut Dr. Farney's opinion.\nEnergy West argues that Dr. Farney knew that Mr. Lyle (1) had worked as a coal miner for nearly three decades and (2) had worked most recently as a belt installer. For the sake of argument, let's assume that Energy West is correct. Even with this knowledge, Dr. Farney appears to have mistakenly thought that Mr. Lyle spent most of his mining career working when the coal was not being extracted.\nLastly, Energy West argues that the administrative law judge erred by discounting Dr. Farney's opinion based on his reliance on the prevalence of coal workers' pneumoconiosis in the western United States. In discounting this opinion, the administrative law judge relied on Antelope Coal Co./Rio Tinto Energy Am. v. Goodin , 743 F.3d 1331 (10th Cir. 2014). Energy West argues that this reliance was misguided. We disagree. Goodin is relevant and supports the administrative law judge's decision to discount Dr. Farney's opinion.\nIn Goodin , another administrative law judge discounted an opinion by Dr. Farney, reasoning that he had relied on \"statistical probabilities\" without explaining why a specific miner didn't suffer from legal pneumoconiosis. Goodin , 743 F.3d at 1345-46. We upheld the administrative law judge's reasoning for his decision to discount Dr. Farney's opinion. See id. at 1346.\nOur discussion in Goodin applies here. Dr. Farney has again relied on statistical probabilities. Under Goodin , the administrative law judge could reasonably fault Dr. Farney for failing to explain why Mr. Lyle wasn't among the miners in the western United States suffering legal pneumoconiosis from exposure to coal dust.\nDr. Tomashefski's opinion on legal pneumoconiosis . The administrative law judge concluded that Dr. Tomashefski's opinion was entitled to \"no probative value.\" Joint App'x at 303. Dr. Tomashefski acknowledged that Mr. Lyle suffered from constrictive bronchiolitis and interstitial fibrosis, but opined that these diseases were unconnected to Mr. Lyle's decades of coal-dust exposure. According to the administrative law judge, Dr. Tomashefski failed to explain why those diseases were unrelated to coal-dust exposure.\nAt his deposition, however, Dr. Tomashefski was asked why he believed that coal-dust exposure hadn't caused Mr. Lyle's constrictive bronchiolitis and interstitial fibrosis. Dr. Tomashefski answered:\nWell, let's start with the constrictive bronchiolitis. In the first place, coal dust, when it affects the small airways, produces what I refer to as a coal macule, not constrictive bronchiolitis. The changes of constrictive bronchiolitis are much different from the coal macule, and furthermore, there was no histologic evidence of dust deposition in those airways that were constricted.\nAnd then if we move to the interstitial fibrosis, it's the same thing, that the pattern of interstitial fibrosis did not qualify as pneumoconiosis, and although coal mine dust can cause interstitial fibrosis, to make that diagnosis, you need to see deposition of pigment and mineral particles significantly present in the areas of interstitial fibrosis. That was not seen here.\nId. at 151.\nIn finding that Dr. Tomashefski had not explained his conclusion that the diseases were unrelated to coal-dust exposure, the administrative law judge apparently overlooked this deposition testimony. In this excerpt, Dr. Tomashefski explained why he believed that exposure to coal dust hadn't contributed to Mr. Lyle's chronic bronchiolitis or interstitial fibrosis. The judge might have had reasons to disagree, but he couldn't simply deny the existence of any explanation. See Peabody Coal Co. v. Helms , 859 F.2d 486, 490-91 (7th Cir. 1988) (reversing because the administrative law judge erroneously regarded a physician's opinion on causation as equivocal); see also Hamlin v. Barnhart , 365 F.3d 1208, 1218-20 (10th Cir. 2004) (reversing the denial of Social Security benefits because the administrative law judge had erroneously regarded a physician's opinion as conclusory). By relying solely on the lack of any explanation, the administrative law judge erred.\n* * *\nThe administrative law judge discounted Dr. Tomashefski's opinion on legal pneumoconiosis for failing to explain why he had concluded that coal-dust exposure had not caused Mr. Lyle's respiratory or pulmonary disease. But Dr. Tomashefski did explain this opinion. Because the judge's explanation is unsupported, we grant Energy West's petition for review, vacate the administrative law judge's award of benefits, and remand the matter to the Benefits Review Board to reconsider Dr. Tomashefski's opinion on the cause of legal pneumoconiosis.\nDuring the pendency of this appeal, Mr. Lyle died, resulting in substitution of his surviving spouse as the respondent.\nUnder this clause, \"Officers of the United States\" must be appointed by the President, courts, or department heads. U.S. Const. art II, \u00a7 2, cl. 2. The Supreme Court has held that the SEC's administrative law judges are \"Officers of the United States\" subject to the clause. Lucia v. S.E.C. , --- U.S. ----, 138 S. Ct. 2044, 2055, 201 L.Ed.2d 464 (2018).\nFor this argument, Energy West relies on Jones Bros., Inc. v. Sec'y of Labor , 898 F.3d 669 (6th Cir. 2018), which addressed a provision specific to the Federal Mine Safety and Health Amendments Act of 1977, Pub. L. No. 95-164, 91 Stat. 1290. Our case does not concern that statute.\nIn Big Horn , we observed that \"[t]here may be some question about the long-term viability of McConnell describing the exhaustion requirement as jurisdictional in light of subsequent Supreme Court authority.\" 924 F.3d at 1325. But we added that McConnell remains binding precedent. Id. at 1326.\nEvidence establishing the disability element also includes\n\u2022 pulmonary function tests and\n\u2022 medical evidence of cor pulmonale with right-sided congestive heart failure.\n20 C.F.R. \u00a7 718.204(b)(2)(i), (iii).\nIn his report, Dr. Gagon also opined that the impairment had caused abnormal blood-gas levels and shortness of breath when Mr. Lyle walked less than half a mile.\nIn addition, Energy West argues that the administrative law judge erred in discounting Dr. Tomashefski's opinion on total disability. But this argument is not adequately developed. Energy West's discussion of Dr. Tomashefski's opinion focuses mostly on his opinion involving legal pneumoconiosis (rather than total disability). For example, Energy West does not discuss the administrative law judge's reasons for discounting Dr. Tomashefski's opinion as to the presence of a total disability. We thus decline to consider the administrative law judge's assessment of this opinion.\nEnergy West also argues that the Benefits Review Board erroneously added to the administrative law judge's justification for discounting Dr. Tomashefski's opinion as to a total disability. This argument does not support reversal. Our question is whether substantial evidence exists for the administrative law judge's decision, and evidence presented to the administrative law judge was either substantial or it wasn't. Our evaluation of that evidence is unaffected by the Benefits Review Board's additional justifications for the administrative law judge's decision. See Energy West Mining Co. v. Estate of Blackburn , 857 F.3d 817, 822 (10th Cir. 2017) (noting that we review decisions of the Benefits Review Board de novo and focus on the administrative law judge's evaluation of the evidence).\nAt oral argument, Energy West pointed to a document that allegedly cites the research. The citation, however, is not self-explanatory and does not substitute for the research itself.\nIn a footnote, the administrative law judge mentioned the results of the third study.\nThe administrative law judge concluded that Energy West had rebutted the presumption of clinical pneumoconiosis. None of the parties has questioned this conclusion.\nWhen discussing Dr. Tomashefski's opinion on legal pneumoconiosis, the administrative law judge referred once to the doctor's conclusion on clinical pneumoconiosis. The reference to clinical pneumoconiosis was apparently a mistake.\nEnergy West also argues that the administrative law judge erred in discounting Dr. Farney's opinion on clinical pneumoconiosis. But the administrative law judge concluded that Energy West had rebutted the presumption of clinical pneumoconiosis, and no party has challenged this conclusion. See note 10, above. Thus, even if we were to conclude that the administrative law judge had erred in discounting Dr. Farney's opinion on clinical pneumoconiosis, the error would have been harmless. See Gunderson v. U.S. Dep't of Labor , 601 F.3d 1013, 1021 (10th Cir. 2010).\nThe administrative law judge had earlier stated that Dr. Farney's opinion on legal pneumoconiosis was entitled to \"minimal probative value.\" Joint App'x at 301. Ultimately, however, the administrative law judge gave no weight to the opinion.\nCoal workers' pneumoconiosis is a type of clinical pneumoconiosis. 20 C.F.R. \u00a7 718.201(a)(1).\nEnergy West does not challenge the fourth reason on appeal and didn't do so in its appeal to the Benefits Review Board.\nDr. Farney stated:\nHis total years of work in the coal industry was almost 30 years, all of which was spent underground at or near the face. Based upon this duration he would appear to have a substantial risk for developing pulmonary disease related to coal dust exposure. However, his job was consistently performed during the \"down shift\" from 11:00 PM until 9:00 AM at which time coal extraction was not being performed. His duties involved repair and maintenance of equipment which may have created some dust exposure but this would be considerably less than during active mining.\nJoint App'x at 27. But the administrative law judge found that for 23 years, Mr. Lyle had worked \"during actual coal mine extraction.\" Id. at 302, 59 S.Ct. 206.\nOn remand, the Board has discretion to remand to an administrative law judge to reconsider Dr. Tomashefski's opinion.",
+        "type": "majority",
+        "author": "BACHARACH, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "William S. Mattingly, Jackson Kelly PLLC, Lexington, Kentucky, for Petitioner.",
+      "Victoria S. Herman (Joseph E. Wolfe, with her on the brief), Norton, Virginia, for Joann H. Lyle, Respondent.",
+      "Edward Waldman, Attorney, Department of Labor (Kate S. O'Scannlain, Solicitor of Labor; Kevin Lyskwoski, Acting Associate Solicitor; Gary K. Stearman, Counsel for Appellate Litigation; and Ann Marie Scarpino, Attorney, Department of Labor, on the brief), Washington, D.C., for Department of Labor, Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "ENERGY WEST MINING COMPANY, Petitioner,\nv.\nJoann H. LYLE, ON BEHALF OF James E. LYLE; Department of Labor, Respondents.\nNo. 18-9537\nUnited States Court of Appeals, Tenth Circuit.\nFILED July 9, 2019\nWilliam S. Mattingly, Jackson Kelly PLLC, Lexington, Kentucky, for Petitioner.\nVictoria S. Herman (Joseph E. Wolfe, with her on the brief), Norton, Virginia, for Joann H. Lyle, Respondent.\nEdward Waldman, Attorney, Department of Labor (Kate S. O'Scannlain, Solicitor of Labor; Kevin Lyskwoski, Acting Associate Solicitor; Gary K. Stearman, Counsel for Appellate Litigation; and Ann Marie Scarpino, Attorney, Department of Labor, on the brief), Washington, D.C., for Department of Labor, Respondent.\nBefore TYMKOVICH, Chief Judge, and BACHARACH and MORITZ, Circuit Judges."
+  },
+  "file_name": "1202-01",
+  "first_page_order": 1202,
+  "last_page_order": 1214
+}

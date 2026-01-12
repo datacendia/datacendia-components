@@ -1,0 +1,59 @@
+{
+  "id": 12434032,
+  "name": "MaGee v. Wright, Warden",
+  "name_abbreviation": "MaGee v. Wright",
+  "decision_date": "2013-03-25",
+  "docket_number": "No. 12-8366",
+  "first_page": "1254",
+  "last_page": "1254",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1254"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.595,
+    "sha256": "43147b1da8c7fab73b987b563aa4351a3f524fee371f3bf50d750284e0ba55af",
+    "simhash": "1:97a01f928d1b127b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "MaGee v. Wright, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8366.\nMaGee v. Wright, Warden."
+  },
+  "file_name": "1254-02",
+  "first_page_order": 1330,
+  "last_page_order": 1330
+}

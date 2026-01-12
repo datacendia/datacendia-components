@@ -1,0 +1,59 @@
+{
+  "id": 12434192,
+  "name": "Figueroa v. United States",
+  "name_abbreviation": "Figueroa v. United States",
+  "decision_date": "2013-03-25",
+  "docket_number": "No. 12-8897",
+  "first_page": "1257",
+  "last_page": "1257",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1257"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.629,
+    "sha256": "0a0fd6c1c29476317109a4cb7c1d74f6c56edf3ed91e92e83197ca4b05c2225d",
+    "simhash": "1:b7aace518fa4b574",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Figueroa v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8897.\nFigueroa v. United States."
+  },
+  "file_name": "1257-12",
+  "first_page_order": 1333,
+  "last_page_order": 1333
+}

@@ -1,0 +1,887 @@
+{
+  "id": 2332161,
+  "name": "L. H. Childre et ux v. William Casstevens",
+  "name_abbreviation": "Childre v. Casstevens",
+  "decision_date": "1949-11-23",
+  "docket_number": "No. A-2164",
+  "first_page": "297",
+  "last_page": "306",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "148 Tex. 297"
+    },
+    {
+      "type": "parallel",
+      "cite": "224 S.W.2d 461"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "78 S. W. (2d) 164",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10237425,
+        2300407,
+        2298345,
+        10237519
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/78/0164-01",
+        "/tex/124/0408-01",
+        "/tex/125/0193-01",
+        "/sw2d/78/0164-02"
+      ]
+    },
+    {
+      "cite": "125 Texas 193",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2298345
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/125/0193-01"
+      ]
+    },
+    {
+      "cite": "84 S. W. (2d) 327",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10239970
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/84/0327-01"
+      ]
+    },
+    {
+      "cite": "284 U. S. 604",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "215 S. W. (2d) 661",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10261445
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/215/0661-01"
+      ]
+    },
+    {
+      "cite": "81 S. W. (2d) 659",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2298389,
+        10256029
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/125/0248-01",
+        "/sw2d/81/0659-01"
+      ]
+    },
+    {
+      "cite": "125 Texas 248",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2298389
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/125/0248-01"
+      ]
+    },
+    {
+      "cite": "27 S. W. (2d) 116",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10272827
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/27/0116-01"
+      ]
+    },
+    {
+      "cite": "192 S. W. (2d) 884",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10208745,
+        2336673
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/192/0884-01",
+        "/tex/144/0594-01"
+      ]
+    },
+    {
+      "cite": "44 S. W., 69",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 S. W., 319",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 S. W., 247",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "159 S. W. (2d) 111",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10207141,
+        2313735
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/159/0111-01",
+        "/tex/138/0339-01"
+      ]
+    },
+    {
+      "cite": "1 S. W. (2d) 857",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10306248,
+        10306166
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/1/0857-02",
+        "/sw2d/1/0857-01"
+      ]
+    },
+    {
+      "cite": "217 S. W. (2d) 884",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10210247
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/217/0884-01"
+      ]
+    },
+    {
+      "cite": "218 S. W. 366",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8263256,
+        8263284,
+        8263310
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw/218/0366-01",
+        "/sw/218/0366-02",
+        "/sw/218/0366-03"
+      ]
+    },
+    {
+      "cite": "143 S. W. (2d) 583",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10227657,
+        2317757
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/143/0583-01",
+        "/tex/135/0486-01"
+      ]
+    },
+    {
+      "cite": "135 Texas 486",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2317757
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/135/0486-01"
+      ]
+    },
+    {
+      "cite": "218 S. W. 365",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8263235
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw/218/0365-01"
+      ]
+    },
+    {
+      "cite": "213 S. W. 612",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8264515
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw/213/0612-01"
+      ]
+    },
+    {
+      "cite": "110 Texas 230",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        8264515,
+        2286447
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "234-5"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw/213/0612-01",
+        "/tex/110/0230-01"
+      ]
+    },
+    {
+      "cite": "138 Texas 339",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2313735
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/138/0339-01"
+      ]
+    },
+    {
+      "cite": "144 Texas 594",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2336673
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/144/0594-01"
+      ]
+    },
+    {
+      "cite": "206 S. W. (2d) 232",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10192169,
+        8716310
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/206/0232-01",
+        "/tex/146/0308-01"
+      ]
+    },
+    {
+      "cite": "146 Texas 308",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        8716310
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/146/0308-01"
+      ]
+    },
+    {
+      "cite": "214 S. W. (2d) 614",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2333826,
+        10225727
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/147/0253-01",
+        "/sw2d/214/0614-01"
+      ]
+    },
+    {
+      "cite": "147 Texas 253",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2333826
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/147/0253-01"
+      ]
+    },
+    {
+      "cite": "1 S. W. 857",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "117 Texas 261",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2274827
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/117/0261-01"
+      ]
+    },
+    {
+      "cite": "171 S. W. (2d) 192",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10202874
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/171/0192-01"
+      ]
+    },
+    {
+      "cite": "60 S. W. (2d) 280",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10240836
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/60/0280-01"
+      ]
+    },
+    {
+      "cite": "715 S. W. 2d 323",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "182 S. W. 351",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8247599
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw/182/0351-01"
+      ]
+    },
+    {
+      "cite": "16 Texas 222",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2044296
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/16/0222-01"
+      ]
+    },
+    {
+      "cite": "167 S. W. (2d) 726",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "72 A. L. R. 90",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "212 S. W. 635",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8264409
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw/212/0635-01"
+      ]
+    },
+    {
+      "cite": "167 S. W. (2d) 723",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2310132,
+        10219573
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/140/0353-01",
+        "/sw2d/167/0723-01"
+      ]
+    },
+    {
+      "cite": "140 Texas 353",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2310132
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/140/0353-01"
+      ]
+    },
+    {
+      "cite": "192 S. W. (2d) 884",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10208745,
+        2336673
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/192/0884-01",
+        "/tex/144/0594-01"
+      ]
+    },
+    {
+      "cite": "159 S. W. (2d) 111",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10207141,
+        2313735
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/159/0111-01",
+        "/tex/138/0339-01"
+      ]
+    },
+    {
+      "cite": "27 S. W. (2d) 116",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10272827
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/27/0116-01"
+      ]
+    },
+    {
+      "cite": "91 Texas 406",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2239713
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/91/0406-01"
+      ]
+    },
+    {
+      "cite": "44 S. W. 69",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "weight": 2,
+      "opinion_index": 2
+    },
+    {
+      "cite": "91 Texas 409",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "40 S. W. 399",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "91 Texas 18",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2239677
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/91/0018-01"
+      ]
+    },
+    {
+      "cite": "218 S. W. 1030",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        2286409,
+        8270358
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/110/0235-01",
+        "/sw/218/1030-01"
+      ]
+    },
+    {
+      "cite": "110 Texas 234",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "222 S. W. 964",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        2284728,
+        8269903
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/111/0008-01",
+        "/sw/222/0964-01"
+      ]
+    },
+    {
+      "cite": "111 Texas 8",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2284728
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/111/0008-01"
+      ]
+    },
+    {
+      "cite": "228 S. W. 921",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10331156
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw/228/0921-01"
+      ]
+    },
+    {
+      "cite": "98 A. L. R. 1256",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "79 S. W. (2d) 835",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2298336,
+        10258709
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/125/0113-01",
+        "/sw2d/79/0835-01"
+      ]
+    },
+    {
+      "cite": "125 Texas 113",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2298336
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/125/0113-01"
+      ]
+    },
+    {
+      "cite": "60 S. W. (2d) 429",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10245826
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw2d/60/0429-01"
+      ]
+    },
+    {
+      "cite": "36 S. W. (2d) 985",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2304211,
+        10280429
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/122/0001-01",
+        "/sw2d/36/0985-01"
+      ]
+    },
+    {
+      "cite": "122 Texas 1",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2304211
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/122/0001-01"
+      ]
+    },
+    {
+      "cite": "260 S. W. 565",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10313006,
+        2281750
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw/260/0565-01",
+        "/tex/113/0507-01"
+      ]
+    },
+    {
+      "cite": "113 Texas 519",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "148 S. W. 295",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8279066
+      ],
+      "weight": 2,
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw/148/0295-01"
+      ]
+    },
+    {
+      "cite": "105 Texas 303",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2255366
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/105/0303-01"
+      ]
+    },
+    {
+      "cite": "177 S. W. 957",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8276109
+      ],
+      "weight": 2,
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw/177/0957-01"
+      ]
+    },
+    {
+      "cite": "166 S. W. 696",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8280163
+      ],
+      "weight": 2,
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw/166/0696-01"
+      ]
+    },
+    {
+      "cite": "107 Texas 247",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2251613
+      ],
+      "pin_cites": [
+        {
+          "page": "255"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/107/0247-01"
+      ]
+    },
+    {
+      "cite": "144 Texas 594",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2336673
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/144/0594-01"
+      ]
+    },
+    {
+      "cite": "117 Texas 261",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2274827
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/117/0261-01"
+      ]
+    },
+    {
+      "cite": "192 S. W. (2d) 884",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10208745,
+        2336673
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw2d/192/0884-01",
+        "/tex/144/0594-01"
+      ]
+    },
+    {
+      "cite": "1 S. W. (2d) 857",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10306248,
+        10306166
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw2d/1/0857-02",
+        "/sw2d/1/0857-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 869,
+    "char_count": 20813,
+    "ocr_confidence": 0.613,
+    "pagerank": {
+      "raw": 5.124041558719538e-07,
+      "percentile": 0.9387979762526696
+    },
+    "sha256": "25df3d40e1f29457bae9d653ef11d9ba90e99291927be9478323f9c7f036ddcf",
+    "simhash": "1:88e9e480652e05d9",
+    "word_count": 3721
+  },
+  "last_updated": "2024-02-27T18:26:46.107850+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "L. H. Childre et ux v. William Casstevens."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Brewster\ndelivered the opinion of the Court.\nPetitioners, L. H. Childre et ux., sued William Casstevens, respondent, for damages for the death of their son, Eston Childre, alleged to have been proximately caused by respondent\u2019s negligent operation of an automobile.\nWhile petitioners\u2019 son was walking on the highway north of Stephenville near midnight on November 29, 1947, he was struck and killed by an automobile driven by respondent. Petitioners alleged that their son\u2019s death was proximately caused by the negligence of respondent in driving his car on his left of the center of the highway, and in failing to keep a proper lookout. Following jury findings on those issues sustaining petitioners\u2019 allegations the trial court entered judgment in their favor. But the Court of Civil Appeals reversed it and rendered judgment for respondent. 217 S. W. (2d) 884.\nAs stated in that court\u2019s opinion, the question for decision there was Casstevens\u2019 contention that \u201cthe trial court erred in submitting the above grounds of negligence and proximate cause to the jury and in rendering judgment thereon because the evidence was not sufficient to support an affirmative finding on such issues.\u201d Then, after a review of some of the testimony on the issue of respondent\u2019s driving to his left of the center of the highway, the Court of Civil Appeals concluded, \u201cThe evidence is insufficient to support a finding that appellant was driving his car on his left side of the highway.\u201d On the issue of proper lookout the court said: \u201cThe only evidence as to the failure of appellant to keep a proper lookout is that it was a clear moonlight night; that the road was not obstructed, and that the head lights of his automobile were burning. The record is silent as to where the deceased was and what he was doing immediately prior to the collision. This is not sufficient to support the finding of the jury that appellant failed to keep a proper lookout.\u201d\nThe writ of error was granted on petitioners\u2019 point reciting, \u201cThe Court of Civil Appeals erred in reversing the trial court\u2019s judgment, and rendering judgment in this cause, for such is, in effect a holding there was no evidence to support the findings of the jury and the trial court\u2019s judgment rendered thereon.\u201d\nUnder the record in this case there are at least three reasons why the\" judgment of the Court of Civil Appeals does not amount to a holding of no evidence. In the first place, as of course that court knows, the question of no evidence and that of insufficient evidence are two entirely different concepts, the former presenting a question of law and the latter a question of fact. See Hall Music Co. v. Robinson et al., 117 Texas, 261, 1 S. W. (2d) 857. Again, in the light of that difference, the opinion very plainly says the evidence is \u201cinsufficient\u201d or \u201cnot sufficient\u201d to support petitioners\u2019 issues. If that court had meant \u201cno evidence\u201d it could easily have said so. Finally, after a careful study of the statement of facts we are convinced that there was at least some evidence in support of petitioners\u2019 pleaded issues; therefore we must assume that the Court of Civil Appeals was of the same mind, in the absence of a clear statement to the contrary.\nAs to that part of the order reversing the judgment of the trial court because of insufficiency of the evidence, we have no jurisdiction. Deen v. Birdville Independent School District, 138 Texas, 339, 159 S. W. (2d) 111. But that part of it which rendered judgment for respondent, as complained of by petitioners in their point of error above quoted, does present a question of law reviewable in this court.\nHaving concluded that the evidence was insufficient to support the jury\u2019s findings on petitioners\u2019 allegations of negligence, the Court of Civil Appeals was without authority to render judgment for respondent; the only order it had power to enter in that situation was to remand the cause to the district court for a new trial. There is an interesting illustration and discussion of this proposition in two appeals of Choate v. San Antonio & A. P. R. Co., 90 Texas, 82, 36 S. W., 247, 37 S. W., 319; 91 Texas, 406, 44 S. W., 69. And the principle was lately reviewed and reaffirmed by this court in Woods v. Townsend, 144 Texas, 594, 192 S. W. (2d) 884. So we need not discuss it further here.\nIt follows that the order of the Court of Civil Appeals reversing the judgment of the trial court is not disturbed. But its order rendering judgment for respondent is set aside and this cause is remanded to the district court for a new trial.\nReversed and remanded to the district court.\nOpinion delivered November 23, 1949.",
+        "type": "majority",
+        "author": "Mr. Justice Brewster"
+      },
+      {
+        "text": "Mr. Justice Taylor\ndissenting.\nBeing of opinion that the judgment of the trial court in favor of the parents of Eston Childre should be affirmed by this Court the minority (meaning herein the writer of this dissenting opinion) respectfully dissents from the action of the majority in reversing and remanding the cause to the district court for another trial. The trial court submitted (on ample evidence before the jury) special issues in response to which the jury found that Casstevens was driving on his left-hand side of the highway when the collision (admitted by him) between his car and Eston,occurred; and found also that his so driving was negligence proximately resulting in Eston's death.\nWith the testimony of the Texas Ranger and local officials investigating the matter less than an hour after the collision, showing on the trial that the boy\u2019s hair embedded in the crushed glass of the left door of Casstevens\u2019 car, its maroon colored paint on his clothing, and numerous other circumstances, all tending to .show the car was on the left side of the highway when the tragedy occurred, and that it was proper for the trial judge to submit the issues on which the findings were all made against Castevens, he did not testify, nor proffer any reason for failure to .do so or offer evidence of any character. He merely filed a motion in the trial court for an instructed verdict which, in the unanimous view of this Court, was properly denied.\nIt is contended here by Casstevens, and the Court of Civil Appeals held (and such, the minority thinks, is the effect of the majority action) that before a finding could properly be made that he was driving his car on his left side of the road when the collision occurred, it would be necessary for Eston\u2019s parents, in order to procure a judgment against Casstevens, to show it was not possible for the body to have been thrown from his right-hand side of the road to where it lay, by the blow received.\nThis is not a correct view of the law. Burlington Rock Island R. Co. v. Ellison et al., 140 Texas 353, 167 S. W. (2d) 723; Bock v. Fellman (Com. App.), 212 S. W. 635; Gulf C. & S. F. Ry. Co. v. Dunman (Com. App.), 27 S. W. (2d) 116, 72 A. L. R. 90. In the case first cited the Court states the established law as follows, citing the Bock case:\n\u201cThese plaintiffs were not required to exclude the probability that the accident might have occurred in some other way. To so hold would impose upon them the burden of establishing their ease beyond a reasonable doubt. They were only required to convince the jury by a fair preponderance of the evidence that the accident resulted from the negligence of the defendant.\u201d (Emphasis ours. (140 Tex. 353, 167 S. W. (2d) 726.)\n(Casstevens, when the collision occurred, was driving south and the boy was walking north, and a few minutes later his broken body was found lying at least twenty feet to the left of the center line of the road on its east gravel shoulder; and there is no evidence that Casstevens was then on his right side of the road, or at any place thereon other than where he would have to be in order to collide with the boy who, according to the evidence, was seen nowhere on the right of way, dead or alive, other than on the east gravel shoulder near where the occupants of the car felt the blow of the admitted collision, and near where the body lay. The assumption is indulged in making this statement that if there were such evidence the majority opinion would show it.)\nSince Casstevens was in possession of the facts, if there were any, to explain his driving on his left side consistent with ordinary care, it was correct for the jury to find, as it did, that inasmuch as he proffered no explanatory fact or counteracting testimony, the evidence so withheld, if he had given it, would have confirmed the facts as found, to the effect that he was negligent in driving on his left side of the road, and that this was a proximate cause of Eston\u2019s death, (the causal connection on proximate cause being the admission that Eston was killed by the collision). Bailey v. Hicks, 16 Texas 222; Texas Company v. Charles Clark & Co., Tex. Civ. App. 182 S. W. 351, wr. dism.; Atex Const. Co. v. Farrow, Texas Civ. App., 715 S. W. 2d 323, wr. ref.; American Gen. Ins. Co. v. Nance, Tex. Civ. App., 60 S. W. (2d) 280 (wr. ref.); Jeter v. State, Tex. Civ. App., 171 S. W. (2d) 192 (error ref. W. O. M.).\nThe action of the majority in remanding the cause to the district court for another trial is contrary to law and the established practice of this Court. Hall Music Co. v. Robinson, 117 Texas 261, 1 S. W. 857; Faulk et ux v. Futch et ux., 147 Texas 253, 214 S. W. (2d) 614, loc. cit. p. 617 (4) 5 A. L. R. (2) 963 and cases there cited. Liedecker et al v. Grossman et al., 146 Texas 308, 206 S. W. (2d) 232, loc. cit. p. 235 (5, 6) and cases there cited.\nThe majority apparently disregard as no longer valid the guidance laid down in the foregoing cases since, in silent disregard of such guidance, they merely point, without comment, to the recent cases of Woods v. Townsend, 144 Texas 594, 192 S. W. (2d) 884 and Dean v. Birdville Ind. School Dist., 138 Texas 339, 159 S. W. (2d) 111, respectively, as precedents for disposition of the present case. Both of these cases in the opinion of the minority were correctly decided under the facts of each respectively; but neither is a precedent for the action taken in remanding the present case for another trial when the errorless judgment of the trial court should be affirmed.\nIn the Woods case the cause was remanded by this Court to the Court of Civil Appeals because that Court had been improperly prevented from considering testimony in passing on the factual insufficiency of the evidence. Obviously this was correct. In the Dean case the trial court judgment was reversed and the cause remanded by the Court of Civil Appeals, which meant that its action was taken on the basis of insufficient evidence factually. This Court, in holding that it was without jurisdiction to revise the judgment of the Court of Civil Appeals, ther'e being evidence on which the trial court judgment was predicated, simply affirmed the judgment of the Court of Civil Appeals and cited the Hall Music Company and Ablon cases as authority for doing so. This also was obviously correct.\nSummarizing and pointing out additional authority, strictly procedual, which leads to the same result as the authorities cited above in treating the case. more on its merits than in a strictly procedural fashion, it is the minority opinion, expressed tersely, that the judgment entered by the trial court was error-less under the record before us, and the case cited, and should be affirmed by this Court, the Court of Civil Appeals having rendered judgment in favor of defendant Casstevens. Simmons et al v. Dickson, on rehearing, 110 Texas 230, 234-5, 213 S. W. 612, 218 S. W. 365; Texas Emp. Ins. Asso. v. Kennedy (Com. App.), 135 Texas 486, 143 S. W. (2d) 583. As stated by this Court on rehearing in the case first cited, referring to the trial court\u2019s judgment: (110 Tex. 230, 218 S. W. 366) :\n\u201cThat judgment being correct, it is entitled here to be affirmed. We would not be warranted in reversing a correct judgment to enable the losing party here to adduce proof which he should have offered in the first instance.\u201d (Emphasis ours.)\nOn the grounds above stated the minority respectfully dissents.\nOpinion delivered November 23, 1949.",
+        "type": "dissent",
+        "author": "Mr. Justice Taylor"
+      },
+      {
+        "text": "Mr. Justice Sharp\nalso dissenting.\nI disagree with the holding of the majority opinion in reversing and remanding this case without passing upon the record for any errors that might be presented. This Court has acquired jurisdiction of this case, and there is no divison of opinion in this Court that there is evidence to sustain the judgment of the trial court. The writ of error was granted upon this point. The Court of Civil Appeals under the law has the power to reverse and remand a case for insufficiency of evidence to support the judgment of the trial court, and if the Court of Civil Appeals had limited its order to that rule, this Court would not have had jurisdiction to grant a writ of error in this case.\nThe Court of Civil Appeals went beyond the power to reverse and remand the case for insufficiency of evidence to support the judgment, and held that the evidence in this case as a matter of law did not support the judgment of the trial court in favor of plaintiff, and reversed and rendered the case. That holding gave the Supreme Court the power to review the evidence and affirm the judgment of the trial court. Tweed v. Western Union Telegraph Co., 107 Texas 247, 255, 166 S. W. 696, 177 S. W. 957; Beck v. The Texas Company, 105 Texas 303, 148 S. W. 295; Marshburn v. Stewart, 113 Texas 519, 260 S. W. 565; Galveston H. & S. A. Ry. Co. et al. v. American Grocery Co. et al. 122 Texas 1, 36 S. W. (2d) 985; National Bond & Mortgage Corporation v. Davis, 60 S. W. (2d) 429; First State Bank v. Metropolitan Casualty Ins. Co., 125 Texas 113, 79 S. W. (2d) 835, 98 A. L. R. 1256; Walton v. Walton (Tex. Comm. App.), 228 S. W. 921; Cox v. St. Louis & San Francisco Ry. Co., 111 Texas 8, 222 S. W. 964.\nIf the Court of Civil Appeals had reversed and remamded the case on the insufficiency of the evidence, that ruling would have bound this Court to such holding. Marshburn v. Stewart, supra; Electric Express & Baggage Co. v. Ablon, 110 Texas 234, 218 S. W. 1030; Tweed v. Western Union Telegraph Co., supra; Wallace v. Southern Cotton-Oil Co., 91 Texas 18, 40 S. W. 399; Choate v. San Antonio & A. P. Ry. Co., 91 Texas 409, 44 S. W. 69.\nMr. Justice Greenwood in the case of Marshburn v.' Stewart, supra, clearly pointed out the distinction when the Court of Civil Appeals reverses and remands or reverses and renders a case. In speaking for this Court he said:\n\u201cThere is a difference in the authority of the Supreme Court in causes wherein the Court of Civil Appeals enters a final judgment by affirming that of the trial court or by rendering a different judgment, and in causes wherein the judgment of the trial court is reversed and the case remanded for a new trial. The distinction was stated with clearness and precision in Tweed v. Western Union Telegraph Company, 107 Texas, (247) 255, (166 S. W. 696,) 177 S. W. 957, as follows: \u2018With the Court of Civil Appeals invested with the full power of determining the facts of the cause, and setting aside the verdict of a jury on the facts, it must be assumed, . . . that in reaching a conclusion that the evidence showed as a matter of law that the plaintiff was not entitled to recover, and for that reason ordering that the cause be remanded, in the same case it would have held that the verdict was against the weight of the evidence. With a case thus remanded under the judgment of the Court of Civil Appeals, it would amount to a denial of its authority to determine the facts and set aside a verdict on the evidence for this court to assume the power of rendering the judgment because it differed with the conclusion reached by that court upon the effect of the evidence.\n\u201c \u2018Beck v. The Texas Company, 105 Texas, 303, 148 S. W., 295, furnishes no analogy. The distinction between that case and this one is manifest. There the court did not exercise the authority it possessed to set aside the verdict on the facts and remand the cause. It rendered judgment in favor of the defendant on the facts; and in doing so made no finding of fact which would defeat recovery. In differing with the Court of Civil Appeals upon the question of law as to the effect of the evidence, we were authorized to affirm the judgment of the lower court, since the Court of Civil Appeals had not sought to exercise its province of determining the facts and ordering the case remanded for another trial because of its difference with the jury on the facts, and in affirming the judgment we therefore in no wise trenched upon its authority. Had the Court of Civil Appeals there remanded the case instead of rendering judgment, we would have been compelled to respect its judgment to that extent and could not have affirmed the trial court judgment.\u2019 \u201d\nThe rule stated above has been followed by this Court for many years, as shown by the many decisions cited above. The cases cited clearly show that where the Court of Civil Appeals has reversed and rendered a case, this Court has taken jurisdiction and has reviewed the record, and if no errors were committed the judgment of the Court of Civil Appeals has been reversed and the judgment of the trial court has been affirmed.\nThe majority opinion cites Choate v. San Antonio & A. P. Ry. Co., 91 Texas 406, 44 S. W. 69, and Hall Music Co. v. Robinson et al., 117 Texas 261, 1 S. W. (2d) 857, as sustaining the ground for its holding. In the Choate case the Court of.Civil Appeals did not reverse and render the case, but reversed and remanded the case on the insufficiency of the evidence, and it was held that the Supreme Court did not have jurisdiction to grant a writ of error. The Hall Music Co. case involved a certified question relating to a special issue and the assignment of error presented to the Court of Civil Appeals. The opinion in which the certified question was answered briefly shows the issue, the assignment, and the condition of the record. The certified question in that case is not precisely the question involved here, but not the slightest suggestion was made in the opinion in that case that the rule announced by this Court in the prior cases above cited was overruled. Furthermore, since that opinion this Court has in many cases dealing with questions precisely similar to the one in this case cited with approval the cases cited above. In the case of Woods v. Townsend, 144 Texas 594, 192 S. W. (2d) 884, no reference is made to the cases cited above, and no suggestion is made that they were being overruled. If the rule announced in those cases is to be overruled, the cases should be specifically named, so that there will be no confusion about the rule in the future.\nThe policy of the law is to dispose of litigation without undue delay and without extra cost to litigants. By exercising the jurisdiction which this Court has already acquired in this case, the record can be examined for any errors that might have been committed. By refusing to do this, the case would start again on a circuitous route, which would take time and entail much expense; and the trial court would have no guide by which to retry the case, because all the proceedings had in the trial court as well as the proceedings on the appeal to the Court of Civil Appeals and this Court would be nullified. This Court is the last resort for litigants, and since we now have jurisdiction of the case, I see no sound reason for not exercising it. The record should be reviewed, and if no error has been committed, the judgment of the Court of Civil Appeals should be reversed and the judgment of the trial court affirmed.\nOpinion delivered November 23, 1949.\nNo motion for rehearing on file.",
+        "type": "dissent",
+        "author": "Mr. Justice Sharp"
+      }
+    ],
+    "attorneys": [
+      "Chas. Nor dyke, of Stephenville, for petitioners.",
+      "C. 0. McMillan, of Stephenville, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "L. H. Childre et ux v. William Casstevens.\nNo. A-2164.\nDecided November 23, 1949.\n(224 S. W., 2d Series, 461.)\nJustices Taylor and Sharp dissenting.\nChas. Nor dyke, of Stephenville, for petitioners.\nIt was error for the Court of Civil Appeals to reverse the judgment of the trial court and to render judgment, because in so doing that action was equivalent to a holding that there was no evidence to support the finding of the jury and amounted to a substitution of their finding of fact for those for the jury. Gulf, C. & S. F. Ry. Co. v. Dunman, 27 S. W. (2d) 116; Wichita Falls Trac. Co. v. Elliott, 125 Texas 248, 81 S. W. (2d) 659; Herzstein v. Bonner, 215 S. W. (2d) 661.\nC. 0. McMillan, of Stephenville, for respondent.\nOn the theory that the evidence was insufficient to support the findings of the jury and to authorize a finding against the defendant, respondents cite Atchison, T. & S. F. Ry. Co. v. Saxon, 284 U. S. 604, 50 Sup. Ct. Rept. 30; Universal Trans. & Distr. Co. v. Cantu, 84 S. W. (2d) 327; Texas & N. O. R. R. Co. v. Warden, 125 Texas 193, 78 S. W. (2d) 164."
+  },
+  "file_name": "0297-01",
+  "first_page_order": 313,
+  "last_page_order": 322
+}

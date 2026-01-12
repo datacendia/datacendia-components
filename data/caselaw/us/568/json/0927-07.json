@@ -1,0 +1,59 @@
+{
+  "id": 12417055,
+  "name": "Bugg v. United States",
+  "name_abbreviation": "Bugg v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5976",
+  "first_page": "927",
+  "last_page": "927",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 927"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.68,
+    "sha256": "534e85777ff48d5346763975b4bda528a62961925a042c0915a792ff20b2740b",
+    "simhash": "1:a3aa920aca948818",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bugg v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5976.\nBugg v. United States."
+  },
+  "file_name": "0927-07",
+  "first_page_order": 1003,
+  "last_page_order": 1003
+}

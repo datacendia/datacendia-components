@@ -1,0 +1,59 @@
+{
+  "id": 12216098,
+  "name": "Quy Nguyen v. Ho",
+  "name_abbreviation": "Quy Nguyen v. Ho",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5068",
+  "first_page": "888",
+  "last_page": "888",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 888"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 65,
+    "ocr_confidence": 0.687,
+    "sha256": "fcebc194a1c177e7e5b364c21cd604027aa43e00e483f8e162085416ca7f3c85",
+    "simhash": "1:a2e68391260d01c2",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Quy Nguyen v. Ho."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Pa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5068.\nQuy Nguyen v. Ho."
+  },
+  "file_name": "0888-05",
+  "first_page_order": 970,
+  "last_page_order": 970
+}

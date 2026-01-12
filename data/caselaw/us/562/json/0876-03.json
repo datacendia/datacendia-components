@@ -1,0 +1,59 @@
+{
+  "id": 6015125,
+  "name": "Smith v. Bradshaw, Warden",
+  "name_abbreviation": "Smith v. Bradshaw",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11359",
+  "first_page": "876",
+  "last_page": "876",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 876"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.488,
+    "sha256": "8ab7673fe51ecc99c64100e674fc5074398966ebd808045cbc6c22ffec9db46d",
+    "simhash": "1:befb3604ce3f142f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Smith v. Bradshaw, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11359.\nSmith v. Bradshaw, Warden."
+  },
+  "file_name": "0876-03",
+  "first_page_order": 898,
+  "last_page_order": 898
+}

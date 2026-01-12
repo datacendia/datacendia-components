@@ -1,0 +1,59 @@
+{
+  "id": 5943315,
+  "name": "Peterson v. United States",
+  "name_abbreviation": "Peterson v. United States",
+  "decision_date": "2011-06-06",
+  "docket_number": "No. 10-1309",
+  "first_page": "1034",
+  "last_page": "1034",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1034"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.588,
+    "sha256": "e38d116dfcd286770e391c7bc4efe5c606b3b3bc0c683ffe81777c292312c5ce",
+    "simhash": "1:a5ba83ab2f3913cc",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Peterson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1309.\nPeterson v. United States."
+  },
+  "file_name": "1034-01",
+  "first_page_order": 1060,
+  "last_page_order": 1060
+}

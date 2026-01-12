@@ -1,0 +1,59 @@
+{
+  "id": 12431835,
+  "name": "Smith v. United States",
+  "name_abbreviation": "Smith v. United States",
+  "decision_date": "2013-02-25",
+  "docket_number": "No. 11-9261",
+  "first_page": "1192",
+  "last_page": "1192",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1192"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.677,
+    "sha256": "79f3e23454e3092d56b750df4686f81b0a99a801f40953b818259c982cd9ea75",
+    "simhash": "1:024a9f378cc1903a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Smith v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9261.\nSmith v. United States."
+  },
+  "file_name": "1192-08",
+  "first_page_order": 1268,
+  "last_page_order": 1268
+}

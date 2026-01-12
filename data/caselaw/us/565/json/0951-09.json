@@ -1,0 +1,59 @@
+{
+  "id": 12227866,
+  "name": "Caldwell v. Idaho et al.",
+  "name_abbreviation": "Caldwell v. Idaho",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-5783",
+  "first_page": "951",
+  "last_page": "951",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 951"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 73,
+    "ocr_confidence": 0.62,
+    "sha256": "0ab509a8f5e2f9aa48528b991d5a93d51c018f82a429e5a1c4059492ae338434",
+    "simhash": "1:00f1a8eafbaed0b8",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Caldwell v. Idaho et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5783.\nCaldwell v. Idaho et al."
+  },
+  "file_name": "0951-09",
+  "first_page_order": 1033,
+  "last_page_order": 1033
+}

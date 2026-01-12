@@ -1,0 +1,59 @@
+{
+  "id": 12231705,
+  "name": "Avila v. Tucker, Secretary, Florida Department of Corrections",
+  "name_abbreviation": "Avila v. Tucker",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-6544",
+  "first_page": "991",
+  "last_page": "991",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 991"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 111,
+    "ocr_confidence": 0.722,
+    "sha256": "ed490db835b2844e343792cd714dd5c48b0828e452efbb7eec9cc4f789070f00",
+    "simhash": "1:17ff48bb834b907e",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Avila v. Tucker, Secretary, Florida Department of Corrections."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6544.\nAvila v. Tucker, Secretary, Florida Department of Corrections."
+  },
+  "file_name": "0991-07",
+  "first_page_order": 1073,
+  "last_page_order": 1073
+}

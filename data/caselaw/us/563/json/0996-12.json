@@ -1,0 +1,59 @@
+{
+  "id": 5929630,
+  "name": "Mosley v. White",
+  "name_abbreviation": "Mosley v. White",
+  "decision_date": "2011-05-16",
+  "docket_number": "No. 10-9655",
+  "first_page": "996",
+  "last_page": "996",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 996"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 64,
+    "ocr_confidence": 0.622,
+    "sha256": "4e396a18964badd18dc3dc7ceb6f9ee2e4041f81b8c7dc27384dab5aa4bde078",
+    "simhash": "1:84225002096ed667",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mosley v. White."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9655.\nMosley v. White."
+  },
+  "file_name": "0996-12",
+  "first_page_order": 1022,
+  "last_page_order": 1022
+}

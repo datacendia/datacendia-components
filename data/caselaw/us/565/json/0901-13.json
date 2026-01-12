@@ -1,0 +1,59 @@
+{
+  "id": 12219503,
+  "name": "Smith v. McWhirter et al.",
+  "name_abbreviation": "Smith v. McWhirter",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5327",
+  "first_page": "901",
+  "last_page": "901",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 901"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 73,
+    "ocr_confidence": 0.697,
+    "sha256": "293c18f39c3532766a061721dfa246aeadd8669eb38878560d914456672e0834",
+    "simhash": "1:90c86070ed083005",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Smith v. McWhirter et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5327.\nSmith v. McWhirter et al."
+  },
+  "file_name": "0901-13",
+  "first_page_order": 983,
+  "last_page_order": 983
+}

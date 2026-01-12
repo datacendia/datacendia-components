@@ -1,0 +1,59 @@
+{
+  "id": 5989464,
+  "name": "Parker v. Potter",
+  "name_abbreviation": "Parker v. Potter",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-5898",
+  "first_page": "1141",
+  "last_page": "1141",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1141"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 66,
+    "ocr_confidence": 0.561,
+    "sha256": "5f4b6593698b72c675f600eda8c8affa9570eed7cf3557d417373499a0effd8a",
+    "simhash": "1:0cab003a030bb858",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Parker v. Potter."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5898.\nParker v. Potter."
+  },
+  "file_name": "1141-04",
+  "first_page_order": 1163,
+  "last_page_order": 1163
+}

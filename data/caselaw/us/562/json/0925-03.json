@@ -1,0 +1,59 @@
+{
+  "id": 6004646,
+  "name": "Moore v. Ohio",
+  "name_abbreviation": "Moore v. Ohio",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5493",
+  "first_page": "925",
+  "last_page": "925",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 925"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 76,
+    "ocr_confidence": 0.63,
+    "sha256": "95cd9e3dce5b48d9dea4c91a09bcc23fcb6977eb1b5745e08633a9fcc21f81da",
+    "simhash": "1:b6db2dfe1e68faeb",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Moore v. Ohio."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ohio, Lucas County. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5493.\nMoore v. Ohio."
+  },
+  "file_name": "0925-03",
+  "first_page_order": 947,
+  "last_page_order": 947
+}

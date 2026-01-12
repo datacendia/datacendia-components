@@ -1,0 +1,59 @@
+{
+  "id": 12233909,
+  "name": "Ortega v. California",
+  "name_abbreviation": "Ortega v. California",
+  "decision_date": "2011-11-14",
+  "docket_number": "No. 11-6387",
+  "first_page": "1040",
+  "last_page": "1040",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1040"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 83,
+    "ocr_confidence": 0.617,
+    "sha256": "46c2724b0fb1b909fa42b7ad765f14fb50f608f4fc11b2e403434b3456a293d4",
+    "simhash": "1:6405d38038c32ac3",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ortega v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 2d App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6387.\nOrtega v. California."
+  },
+  "file_name": "1040-04",
+  "first_page_order": 1122,
+  "last_page_order": 1122
+}

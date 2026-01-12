@@ -1,0 +1,59 @@
+{
+  "id": 5915041,
+  "name": "Mullins v. Donat et al.",
+  "name_abbreviation": "Mullins v. Donat",
+  "decision_date": "2011-04-25",
+  "docket_number": "No. 10-9118",
+  "first_page": "963",
+  "last_page": "963",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 963"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 71,
+    "ocr_confidence": 0.477,
+    "sha256": "dcabf2ec7f2fadfd79dd47ebe85cd519a46e3cd274fc833361575fc156786d49",
+    "simhash": "1:9019608031b6d464",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mullins v. Donat et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9118.\nMullins v. Donat et al."
+  },
+  "file_name": "0963-06",
+  "first_page_order": 989,
+  "last_page_order": 989
+}

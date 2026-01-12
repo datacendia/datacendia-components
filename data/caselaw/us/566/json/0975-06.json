@@ -1,0 +1,59 @@
+{
+  "id": 12212644,
+  "name": "Mayfield v. United States",
+  "name_abbreviation": "Mayfield v. United States",
+  "decision_date": "2012-04-30",
+  "docket_number": "No. 11-1163",
+  "first_page": "975",
+  "last_page": "975",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 975"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.572,
+    "sha256": "d10af560858a0d177b630a63d45a0bffbb0c9b633993cb96bfccb91dd5b89d79",
+    "simhash": "1:97b8d3024a3d946f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mayfield v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1163.\nMayfield v. United States."
+  },
+  "file_name": "0975-06",
+  "first_page_order": 851,
+  "last_page_order": 851
+}

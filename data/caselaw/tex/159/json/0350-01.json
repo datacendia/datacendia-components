@@ -1,0 +1,616 @@
+{
+  "id": 2257085,
+  "name": "Ruby L. Wood v. Cleveland E. Wood",
+  "name_abbreviation": "Wood v. Wood",
+  "decision_date": "1959-01-28",
+  "docket_number": "No. A-7041",
+  "first_page": "350",
+  "last_page": "359",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "159 Tex. 350"
+    },
+    {
+      "type": "parallel",
+      "cite": "320 S.W.2d 807"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "157 A.L.R. 1366",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "325 U.S. 226",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6156053
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/325/0226-01"
+      ]
+    },
+    {
+      "cite": "143 A.L.R. 1273",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "317 U.S. 287",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        303872
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/317/0287-01"
+      ]
+    },
+    {
+      "cite": "321 S.W. 2d 323",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10164363,
+        10164476
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/321/0323-01",
+        "/sw2d/321/0323-02"
+      ]
+    },
+    {
+      "cite": "269 S.W. 418",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10304205,
+        2279766
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/269/0418-01",
+        "/tex/114/0390-01"
+      ]
+    },
+    {
+      "cite": "114 Texas 390",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2279766
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/114/0390-01"
+      ]
+    },
+    {
+      "cite": "144 S.W. 2d 533",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10227283,
+        2317747
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/144/0533-01",
+        "/tex/135/0410-01"
+      ]
+    },
+    {
+      "cite": "135 Texas 410",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2317747
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/135/0410-01"
+      ]
+    },
+    {
+      "cite": "168 S.W. 2d 660",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10218810,
+        2310151
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/168/0660-01",
+        "/tex/140/0391-01"
+      ]
+    },
+    {
+      "cite": "140 Texas 391",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2310151
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/140/0391-01"
+      ]
+    },
+    {
+      "cite": "173 S.W. 806",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "115 Texas 9",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2278404
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/115/0009-01"
+      ]
+    },
+    {
+      "cite": "267 S.W. 690",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10313196
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/267/0690-01"
+      ]
+    },
+    {
+      "cite": "270 S.W. 903",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10322341
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/270/0903-01"
+      ]
+    },
+    {
+      "cite": "158 S.W. 195",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8282156
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/158/0195-01"
+      ]
+    },
+    {
+      "cite": "16 S.W. 552",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "80 Texas 674",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "11 S.W. 539",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "73 Texas 522",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2189063
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/73/0522-01"
+      ]
+    },
+    {
+      "cite": "211 S.W. 835",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8266952
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/211/0835-01"
+      ]
+    },
+    {
+      "cite": "167 S.W. 2d 727",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2310209,
+        10219638
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/140/0322-01",
+        "/sw2d/167/0727-01"
+      ]
+    },
+    {
+      "cite": "140 Texas 322",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2310209
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/140/0322-01"
+      ]
+    },
+    {
+      "cite": "224 S.W. 2d 187",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2332178,
+        10191717
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/148/0356-01",
+        "/sw2d/224/0187-01"
+      ]
+    },
+    {
+      "cite": "148 Texas 356",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2332178
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/148/0356-01"
+      ]
+    },
+    {
+      "cite": "280 S.W. 2d 633",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10184216
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/280/0633-01"
+      ]
+    },
+    {
+      "cite": "57 Nev. 421",
+      "category": "reporters:state",
+      "reporter": "Nev.",
+      "case_ids": [
+        8555670
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/nev/57/0421-01"
+      ]
+    },
+    {
+      "cite": "51 Nev. 285",
+      "category": "reporters:state",
+      "reporter": "Nev.",
+      "case_ids": [
+        4987703
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/nev/51/0285-01"
+      ]
+    },
+    {
+      "cite": "96 L. Ed. 146",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "342 U.S. 126",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        641503
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/342/0126-01"
+      ]
+    },
+    {
+      "cite": "188 U.S. 14",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11725442
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/188/0014-01"
+      ]
+    },
+    {
+      "cite": "205 Ark. 373",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1488322
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/205/0373-01"
+      ]
+    },
+    {
+      "cite": "198 Ark. 231",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1459764
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/198/0231-01"
+      ]
+    },
+    {
+      "cite": "54 S.W. 2d 281",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "186 Ark. 511",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        8723394
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/186/0511-01"
+      ]
+    },
+    {
+      "cite": "129 N.Y.S. 2d 649",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "205 Misc. 838",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 S.E. 2d 685",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "195 Ga. 769",
+      "category": "reporters:state",
+      "reporter": "Ga.",
+      "case_ids": [
+        218490
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ga/195/0769-01"
+      ]
+    },
+    {
+      "cite": "58 N.M. 411",
+      "category": "reporters:state",
+      "reporter": "N.M.",
+      "case_ids": [
+        1587602
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/nm/58/0411-01"
+      ]
+    },
+    {
+      "cite": "63 N.M. 414",
+      "category": "reporters:state",
+      "reporter": "N.M.",
+      "case_ids": [
+        2776960
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/nm/63/0414-01"
+      ]
+    },
+    {
+      "cite": "58 N.M. 597",
+      "category": "reporters:state",
+      "reporter": "N.M.",
+      "case_ids": [
+        1587653
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/nm/58/0597-01"
+      ]
+    },
+    {
+      "cite": "175 Kan. 629",
+      "category": "reporters:state",
+      "reporter": "Kan.",
+      "case_ids": [
+        50473
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/kan/175/0629-01"
+      ]
+    },
+    {
+      "cite": "143 Kan. 624",
+      "category": "reporters:state",
+      "reporter": "Kan.",
+      "case_ids": [
+        535257
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/kan/143/0624-01"
+      ]
+    },
+    {
+      "cite": "183 S.W. 2d 830",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "150 S.W. 2d 1000",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2316477,
+        11614575
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/136/0370-01",
+        "/sw2d/150/1000-01"
+      ]
+    },
+    {
+      "cite": "136 Texas 370",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2316477
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/136/0370-01"
+      ]
+    },
+    {
+      "cite": "40 S.W. 2d 31",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2307416,
+        10246281
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/120/0383-01",
+        "/sw2d/40/0031-01"
+      ]
+    },
+    {
+      "cite": "120 Texas 383",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2307416
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/120/0383-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1031,
+    "char_count": 19148,
+    "ocr_confidence": 0.613,
+    "pagerank": {
+      "raw": 8.790848972077233e-07,
+      "percentile": 0.9778504461070896
+    },
+    "sha256": "6ded6908a5851971ea37b166aea095a1aa20889c9b9eb191b2ed329d7bf0c0a6",
+    "simhash": "1:8ad5de3334aab152",
+    "word_count": 3324
+  },
+  "last_updated": "2024-02-27T19:26:07.846026+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ruby L. Wood v. Cleveland E. Wood."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Culver\ndelivered the opinion of the Court.\nThe Fort Worth Court of Civil Appeals has certified to us for consideration two questions growing out of a judgment of divorce rendered in favor of the plaintiff, Cleveland E. Wood, on an appeal taken by the defendant wife, Ruby L. Wood.\nThe first is:\n\u201cDoes the amendment to Art. 4631, R.C.S. enacted in 1957 by the 55th Legislature, Regular Session, effected May 6, 1957, contravene Art. 3, Sec. 56 of the Constitution of Texas and/or the 14th amendment of the Constitution of the United States?\u201d\nThe amendment reads as follows:\n\u201cAny person serving in a military branch of the United States who was not previously a citizen of the State of Texas and who at the time of filing a Petition for divorce has been stationed in a military installation or installations in the State of Texas for a continuous period of twelve (12) months next and in the county where the suit is filed for a continuous period of six (6) months next preceding the filing of same, shall for the purposes hereof be deemed to be an actual bona fide inhabitant and resident respectively of the State of Texas and of the county where such military installation is located.\u201d\n\u201cSec. 2. The fact that many persons serving in the military service in Texas are presently unable to acquire residence for purposes of divorce creates an emergency and an imperative public necessity that the Constitutional Rule requiring bills to be read on three several days in each House be suspended, and this Rule is hereby suspended, and that this Act take effect and be in force from and after its passage, and it is so enacted.\u201d (Approved and effective May 6, 1957.)\nWe answer the foregoing question in the negative and approve what is said in respect thereto in the submitted tentative opinion.\nAppellant contends that the amendment constitutes a local or special law in violation of the constitutional inhibition.\nArticle 3, Section 56 of our State Constitution reads:\n\u201cThe Legislature shall not, except as otherwise provided in this Constitution, pass any local or special law authorizing\u201d among other actions, \u201cgranting divorces.\u201d This amendment cannot be regarded as a local law because it has universal application throughout the State of Texas, including, as it does, all who can qualify as members of the prescribed class. It is not a special act within the contemplation of the constitutional prohibition for the Legislature possesses broad power to make classifications for legislative purposes and to pass laws in application thereto. So long as there is a substantial basis for the classification and it is not unreasonable, arbitrary or capricious, the Legislature acts within the legitimate scope of its authority. Mumme v. Marrs, 120 Texas 383, 40 S.W. 2d 31; Miller v. El Paso County, 136 Texas 370, 150 S.W. 2d 1000; Fort Worth & D. C. R. Co. v. Welch, 183 S.W. 2d 830, er. ref.\nThe classification authorized by this amendment is by no means arbitrary or unreasonable. In this enactment the Legislature has merely faced up to the realities of the times, conditions and circumstances. As pointed out by the Court of Civil Appeals, members of the national armed forces are stationed at many military installations throughout the state for indefinite periods of time. Their movemeiits are restricted and they come and go at the will of the military command. A great many of these serve in the professional military establishment and can hardly be said to have a domicil anywhere, in the technical sense of the word, other than the one of origin. The Legislature has frankly recognized their plight under the hard and fast time-accepted domicil rule. The solution of their marital problems is one of general interest. While not citizens of Texas in a legal sense nevertheless they are an important segment of the residential population. Other states have heretofore dealt with this situation by the adoption of similar legislation, notably Kansas, New Mexico, Nebraska, Oklahoma, Georgia and possibly others. These statutes have been construed and upheld against similar constitutional attack. Craig v. Craig, 1936, 143 Kan. 624, 56 Pac. 2d 464; Schaeffer v. Schaeffer, 1954, 175 Kan. 629, 266 Pac. 2d 282; Crownover v. Crownover, 1954, 58 N.M. 597, 274 Pac. 2d 127; Wallace v. Wallace, 1958, 63 N.M. 414, 320 Pac. 2d 1020; Wilson v. Wilson, 58 N.M. 411, 272 Pac. 2d 319. Search has not revealed any contrary result reached except in Georgia where the act was held invalid on a narrow constitutional ground not to be found in our state constitution. Darbie v. Darbie, 195 Ga. 769, 25 S.E. 2d 685.\nWhat is contemplated actually by the constitutional inhibition against any special law anent the granting of divorces, we think, is a ban on legislative authority to grant that relief to individuals by a special act. The power of the Legislature to grant divorces, absent constitutional restriction, has been recognized generally, and formerly in some of the states was not uncommonly exercised. 27 C.J.S., Bivorce, Sec. 5.\nAppellant asserts that domicil within the state, as distinguished from residence, is a prerequisite to the maintenance of an action for divorce. She points to no such constitutional mandate, but quotes Restatement Conflicts of Laws, Sec. Ill, as follows: \u201cA state cannot exercise through its courts jurisdiction to dissolve a marriage when neither spouse is domiciled within the state.\u201d While this statement is supported by ample authority and reflects the traditional approach to this problem, it by no means can be taken literally especially so far as the validity of the divorce is concerned within the state where jurisdiction is asserted. For example, in New York the right of non-residents to prosecute suits for divorce where the parties were married in that state has been upheld. David-Zieseniss v. Zieseniss, 205 Misc. 838, 129 N.Y.S. 2d 649.\nIn Arkansas the statute only requires proof of \u201cactual residence\u201d for a period of three months before final judgment. The validity of the statute has been upheld by the courts of that state and construed to authorize the granting of a divorce even though the plaintiff has no intention of making Arkansas his permanent residence and establishing a domicil i nthat state. Actually only physical presence for the period of time is necessary. Squire v. Squire, 186 Ark. 511, 54 S.W. 2d 281; Carlson v. Carlson, 198 Ark. 231, 128 S.W. 2d 242; Brickey v. Brickey, 205 Ark. 373, 168 S.W. 2d 845.\nReally the point does not extend to or affect the internal validity of the divorce, but goes rather to the question of full \u201cfaith and credit\u201d to be given by other jurisdictions.\n\u201cThe right to apply for or obtain a divorce is not a natural one, but is accorded only by reason of statute, and the state has the right to determine who are entitled to use its courts for that purpose and upon what conditions they may do so.\u201d 17 Am. Jur., Divorce and Separation, Sec. 8.\nThe Constitution of the United States confers no power at all upon the United States government to regulate marriage or its dissolution within the several states. Andrews v. Andrews, 188 U.S. 14, 23 Sup. Ct. 237, 47 L. Ed. 366.\nThe United States Supreme Court has never held that a divorce decree has no internal validity unless it is entitled to full faith and credit elsewhere. Wallace v. Wallace, supra. Moreover, so far as the rights of this appellant are concerned having answered and contested the issue of jurisdiction she would be barred from attacking the decree collaterally in any other forum. Cook v. Cook, 342 U.S. 126, 96 L. Ed. 146, 72 Sup. Ct. 157.\nThe true basis of the result reached by the United States Supreme Court in the two cases of Williams v. North Carolina. seems to be that by the terms of the divorce statute of that state the Nevada courts acquire jurisdiction only of its domiciliaries and, in the absence of the fact of a bona fide domicile, the divorce decree is not valid in Nevada, much less is it entitled to recognition elsewhere. This decision is in full accord with the construction given to the statute by the courts of that state. Latterner v. Latterner, 51 Nev. 285, 274 Pac. 194; Lamb v. Lamb, 57 Nev. 421, 65 Pac. 2d 872.\nThe second Williams case does say that \u201cunder our system of divorce \u2014 jurisdiction, strictly speaking \u2014 is founded on domicile.\u201d This, for the reason, observes the court, that \u201cdomicile implies a nexus between person and place of such permanence as to control the creation of legal relations and responsibilities of the utmost significance. The domicile of one spouse within a state gives power to that state, we have held, to dissolve a marriage wheresoever contracted.\u201d North Carolina was thus permitted to inquire in a collateral proceeding as to the fact issue necessary to give jurisdiction to the Nevada courts, to determine whether the litigant was acting in good faith or whether the domiciliary claim was a pretense and a sham. But granting that no state can assert a legitimate jurisdictional concern over the marital problems of one spouse airplaning to that state on a roundtrip ticket for the purpose of obtaining a divorce with no intent other than to return to his home as soon as the mission is accomplished, yet that falls short of saying that domicile in a strict sense of the term is the \u201csine qua non\u201d of jurisdiction.\nThe State of Texas is hardly less concerned with the domestic relations of persons required to live in this state indefinitely under military orders, oftentimes for a period of years, with the protection and support of their children and their property interests, and the adjustment of their marital responsibilities at stake than it is with the similar problems of those who have acquired a domicil here in the orthodox sense. In many cases, if not in the majority, the courts of this state only can deal adequately with these problems and afford appropriate relief.\nMuch of the confusion has arisen on account of the divorce granted \u201cwhile-you-wait\u201d type of short residence period statutes that lead courts in other states to refuse \u201cfull faith and credit,\u201d being fully aware of the subterfuge oftentimes employed. The Amendment before us is not one that is suspect on that ground or lends itself to the quick and easy method attractive to divorce-minded people from other jurisdictions.\nThe problem of full faith and credit has been discussed in the New Mexico and Kansas cases, supra, and particularly in the exhaustive concurring opinion in Crownover v. Crownover, and while not vital to a decision of the question before us, we entertain little doubt but that a divorce judgment rendered in conformity with this amendment will be recognized elsewhere.\nThe appellant invokes Section 1 of the 14th amendment to the Constitution of the United States in that she says the amendment to Art. 4631 does not extend the rights and privileges to the spouse of the person in the military service and thus denies, in this case to the wife, the equal protection of the law. It may be noted that this point is not ruled upon in the decisions which have upheld similar statutes for obvious reasons. In Kansas the statute [60-1502] includes \u201cany person who has been a resident of any United States Post or Military Reservation\u201d while New Mexico statutes [5 22-7-4] makes special provision for the wife to the end that she may institute such action provided that her husband is qualified, so far as residency is concerned, to institute a similar action.\nWe do not agree that there is any denial of equal protection under this amendment. The general rule is that a wife\u2019s domicil follows that of her husband and before separation she may not acquire one of her own apart from him, though she is free to choose her own domicile thereafter. 28 C.J.S., Domicile, Sec. 12; Postle v. Postle, 280 S.W. 2d 633; Worden v. Worden, 148 Texas 356, 224 S.W. 2d 187.\nIt would be quite out of keeping with the fitness of things and entirely contrary to the spirit and intent of our divorce statutes were the amendment to be construed as not applying as well to the wife where she had resided with her husband for the statutory length of time in this state. We think the settled law in this and other jurisdictions to the effect that her domicile is that of her husband would be sufficient to embrace her within the terms of the statute, all other considerations aside.\nIn this case the appellant had never lived in Texas with her husband, but on the contrary the separation had taken place before the husband had been ordered by the military authorities to this state. She had returned to West Virginia, the state of her original domicile, where she was residing at the time of the institution of this suit.\nThe second question is as follows:\n\u201cIn so far as it purports to authorize Wichita County, Texas, to collect as costs, other than and in addition to the costs otherwise collectible, the amount of $5.00 in each divorce case filed in any District Court in Wichita County after the date on which it was provided to become effective, does Sec. 10 of Art. 5142a-2, R.C.S., (enacted in 1957 by the 55th Legislature, Regular Session) contravene Art. 3, Sec. 56 of the Constitution of Texas?\u201d\nIt is our view that the constitutionality of this section has not been properly raised either in the trial court or in the Court of Civil Appeals and therefore we decline to answer the question.\nThe judgment of the trial court granting this divorce concluded thus:\n\u201cIt is further ordered, adjudged and decreed that plaintiff, Cleveland E. Wood, do have and recover from the defendant, Ruby L. Wood, all costs to be taxed against the defendant, including the sum of $5.00 provided by Chap. 408 H.B. No. 930, Art. 5142a-2, Vernon\u2019s Ann. Civ. Stat. for maintaining the Wichita County child support oifice.\u201d\nThis specific inclusion of the $5.00 assessment as an item of costs is surplus and immaterial. The province of the court is to adjudge all the costs, whatever they may be, against the losing party, or for good cause shown to adjudge the costs otherwise. Rules 131 and 141, Texas Rules of Civil Procedure. Civil Procedure Rule 622 provides that the Clerk of the court \u201cshall tax the costs in every case in which a final judgment has been rendered and shall issue execution to enforce such judgment and collect such costs.\u201d\nIn her motion for new trial the appellant did complain of the taxation against her of this $5.00 charge for the reason that it was in violation of Art. 3, Sec. 56, Texas Constitution, but asserted that as a ground solely for setting aside the judgment and for a new trial. No motion in the trial court was made to retax the costs. Even if that item was not validly charged the recital of it in the judgment was not and could not be such an error as would warrant a setting aside of the divorce judgment and the granting of a new trial.\nIn the Court of Civil Appeals for the first time she moved to have the costs retaxed. Her point in that court was that the trial court erred in holding that Section 10 of the article is valid and constitutional. We think that the judgment rendered by the trial court is not subject to that construction.\nThe mention of the $5.00 charge as an item of costs actually had no more effect, so far as its legality is concerned, than if the reference to that charge had been omitted and the clause had merely read \u201call costs to be taxed against the defendant.\u201d If the decree had been so framed the only way that the matter could have been brought to the attention of the court at all was by motion to retax the costs on the theory that the clerk had included an illegal charge in the cost bill.\nMotion to retax costs should be filed in the court where the costs accrued. The taxing of costs is not an adjudication by the court of the correctness of the items taxed by the clerk. It is the ministerial act of the clerk. If erroneous it may be corrected by the court upon motion filed for that purpose. Reaugh v. McCollum Exploration Co., 140 Texas 322, 167 S.W. 2d 727. In George v. Thompson, 211 S.W. 835, the plaintiff in error did not move to retax the costs, but his motion for a new trial alleged error in that respect and the court overruled it as a ground for a new trial. The court offered to consider a motion to retax the costs, but that offer was declined. The Court of Civil Appeals properly held that inasmuch as the trial court did not consider the assignment except as a basis for a new trial the matter was not properly raised on appeal. See also Bridges v. Samuelson, 73 Texas 522, 11 S.W. 539; Clark v. Adams, 80 Texas 674, 16 S.W. 552; Dupont v. Texas & N. O. R. Co., 158 S.W. 195, er. ref., and Flenniken v. Foote, 270 S.W. 903 er. dism.\nThe appellant does not assert that she has paid this item of costs or that execution has been levied or any other action taken to enforce collection from her. The legality of the charge may be contested by her when a proper demand has been made for payment. She still has her remedy. Reaugh v. McCollum Exploration Co., supra.\nAlthough this distinction may seem to be refined and hypercritical, nonetheless it is a rule of general application that the constitutionality of a statute will be considered only when the question is properly raised and a decision becomes necessary and appropriate to the disposal of the case and no statute should be overruled without careful and mature consideration. Chapman v. Guaranty State Bank, 267 S.W. 690, Com. App., adopted 1927; Gohlman et al v. Whittle et al, 115 Texas 9, 173 S.W. 806.\nIt is to be observed here that in so far as this constitutional question is concerned, the parties were not adverse to each other. The appellant claimed that the section was unconstitutional. The appellee conceded the point and agreed. It was only by invitation of the Court of Civil Appeals that a representative of the affected county appeared as an amicus curiae in opposition. We further point out that neither appellant nor appellee have cited us to a single authority supporting their contention.\nThe question of the constitutionality of Section 10 not having been properly raised or briefed either in the Court of Civil Appears or in this court, it is thus immaterial to a decision of the case. Moreland v. Hawley Ind. School Dist., 140 Texas 391, 168 S.W. 2d 660; Uvalde Rock Asphalt Co. v. Hightower, 135 Texas 410, 144 S.W. 2d 533 and Owens v. Tedford, 114 Texas 390, 269 S.W. 418.\nThe answer to the first question is \u201cno\u201d and the certification of the second question will be dismissed.\nAssociate Justice Hamilton not sitting.\nOpinion delivered January 28, 1959.\nNote: Opinion of Court of Civil Appeals in Conformity with the above opinion is reported in 321 S.W. 2d 323.\n. \u2014 317 U.S. 287, 63 Sup. Ct. 207, 87 L. Ed 279, 143 A.L.R. 1273, and 325 U.S. 226, 65 Sup. Ct. 1092, 89 L. Ed. 1577, 157 A.L.R. 1366.",
+        "type": "majority",
+        "author": "Mr. Justice Culver"
+      }
+    ],
+    "attorneys": [
+      "Crompton & Crompton and Roger W. Crompton, all of Wichita Falls, for appellant.",
+      "Mitchell & Baxter, of Wichita Falls, for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "Ruby L. Wood v. Cleveland E. Wood.\nNo. A-7041.\nDecided January 28, 1959.\nRehearing overruled February 25, 1959.\n(320 S.W. 2d Series 807)\nCrompton & Crompton and Roger W. Crompton, all of Wichita Falls, for appellant.\nMitchell & Baxter, of Wichita Falls, for appellee."
+  },
+  "file_name": "0350-01",
+  "first_page_order": 364,
+  "last_page_order": 373
+}

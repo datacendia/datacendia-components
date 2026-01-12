@@ -1,0 +1,59 @@
+{
+  "id": 12212572,
+  "name": "Cotton v. Bryans Land Co., LLC",
+  "name_abbreviation": "Cotton v. Bryans Land Co.",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11245",
+  "first_page": "874",
+  "last_page": "874",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 874"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 81,
+    "ocr_confidence": 0.716,
+    "sha256": "d09b1a7b39beb7f287f7540239c4b16e2ce44b2babafa6ddd7db814c7ad71f20",
+    "simhash": "1:1ffbc22b0b2ef03a",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cotton v. Bryans Land Co., LLC."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11245.\nCotton v. Bryans Land Co., LLC."
+  },
+  "file_name": "0874-13",
+  "first_page_order": 956,
+  "last_page_order": 956
+}

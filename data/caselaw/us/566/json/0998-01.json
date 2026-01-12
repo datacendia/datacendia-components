@@ -1,0 +1,59 @@
+{
+  "id": 12217873,
+  "name": "Brooks v. Virginia et al.",
+  "name_abbreviation": "Brooks v. Virginia",
+  "decision_date": "2012-05-14",
+  "docket_number": "No. 11-9319",
+  "first_page": "998",
+  "last_page": "998",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 998"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 74,
+    "ocr_confidence": 0.545,
+    "sha256": "70740e1c9fbc036074638ec7f586712337f797c21c12b2c8d6447d135d0d1780",
+    "simhash": "1:29ca386bde80d1b1",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Brooks v. Virginia et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9319.\nBrooks v. Virginia et al."
+  },
+  "file_name": "0998-01",
+  "first_page_order": 874,
+  "last_page_order": 874
+}

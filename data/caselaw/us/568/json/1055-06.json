@@ -1,0 +1,59 @@
+{
+  "id": 12427154,
+  "name": "Heyward v. United States",
+  "name_abbreviation": "Heyward v. United States",
+  "decision_date": "2012-12-03",
+  "docket_number": "No. 12-6990",
+  "first_page": "1055",
+  "last_page": "1055",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1055"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.603,
+    "sha256": "0f1eb3539d9fd713c14b3c767c5ea6edea1c6b1f2a6d43b5163101805e2ed3a8",
+    "simhash": "1:b18adac14e8db54f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Heyward v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6990.\nHeyward v. United States."
+  },
+  "file_name": "1055-06",
+  "first_page_order": 1131,
+  "last_page_order": 1131
+}

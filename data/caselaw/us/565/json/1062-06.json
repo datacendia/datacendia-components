@@ -1,0 +1,59 @@
+{
+  "id": 12235286,
+  "name": "Benas v. Baca et al.",
+  "name_abbreviation": "Benas v. Baca",
+  "decision_date": "2011-11-28",
+  "docket_number": "No. 11-468",
+  "first_page": "1062",
+  "last_page": "1062",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1062"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 67,
+    "ocr_confidence": 0.67,
+    "sha256": "3269b21ba517f76662da18db32f38a4043f2797d22530321b3674b91b7bbb2f2",
+    "simhash": "1:909320a94905d1e2",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Benas v. Baca et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-468.\nBenas v. Baca et al."
+  },
+  "file_name": "1062-06",
+  "first_page_order": 1144,
+  "last_page_order": 1144
+}

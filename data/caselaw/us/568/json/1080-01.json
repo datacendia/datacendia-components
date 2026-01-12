@@ -1,0 +1,59 @@
+{
+  "id": 12427682,
+  "name": "Stork v. United States",
+  "name_abbreviation": "Stork v. United States",
+  "decision_date": "2013-01-02",
+  "docket_number": "No. 12-7348",
+  "first_page": "1080",
+  "last_page": "1080",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1080"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 102,
+    "ocr_confidence": 0.642,
+    "sha256": "a361d6235b5ffbdfa8b51a2de2ccdabf43ab9beeb89ca1d9922b5c48b04ba793",
+    "simhash": "1:020036cb468d4722",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Stork v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Cer-tiorari dismissed under this Court\u2019s Rule 46.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7348.\nStork v. United States."
+  },
+  "file_name": "1080-01",
+  "first_page_order": 1156,
+  "last_page_order": 1156
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5940591,
+  "name": "Bishawi v. United States",
+  "name_abbreviation": "Bishawi v. United States",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-7899",
+  "first_page": "1190",
+  "last_page": "1190",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1190"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.605,
+    "sha256": "166bdeea5c255a11c99ad7a9c28fbb8dc82774534caa147ea448a005d08eabc9",
+    "simhash": "1:078b87a30baf5808",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bishawi v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7899.\nBishawi v. United States."
+  },
+  "file_name": "1190-13",
+  "first_page_order": 1212,
+  "last_page_order": 1212
+}

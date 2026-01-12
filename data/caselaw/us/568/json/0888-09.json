@@ -1,0 +1,59 @@
+{
+  "id": 12415125,
+  "name": "Mussack v. Hawaii Board of Education",
+  "name_abbreviation": "Mussack v. Hawaii Board of Education",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-154",
+  "first_page": "888",
+  "last_page": "888",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 888"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 88,
+    "ocr_confidence": 0.669,
+    "sha256": "e0c8ef2218b48fcc18e06c2ba4a28e8542b96aaa5d183566bc74ba3f7e277ed4",
+    "simhash": "1:eed7694342fa8190",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mussack v. Hawaii Board of Education."
+    ],
+    "opinions": [
+      {
+        "text": "Int. Ct. App. Haw. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-154.\nMussack v. Hawaii Board of Education."
+  },
+  "file_name": "0888-09",
+  "first_page_order": 964,
+  "last_page_order": 964
+}

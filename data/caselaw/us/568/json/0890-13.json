@@ -1,0 +1,59 @@
+{
+  "id": 12415187,
+  "name": "Juarez v. Jacquez, Warden",
+  "name_abbreviation": "Juarez v. Jacquez",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5022",
+  "first_page": "890",
+  "last_page": "890",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 890"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.712,
+    "sha256": "8995043fb2be1539a77799fa1d6c3a89f977c351b2c678a6b8c3c7c4cf4700fe",
+    "simhash": "1:1da1a7b36daf4074",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Juarez v. Jacquez, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5022.\nJuarez v. Jacquez, Warden."
+  },
+  "file_name": "0890-13",
+  "first_page_order": 966,
+  "last_page_order": 966
+}

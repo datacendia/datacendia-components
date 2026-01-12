@@ -1,0 +1,61 @@
+{
+  "id": 5962480,
+  "name": "Feuer v. United States",
+  "name_abbreviation": "Feuer v. United States",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-9596",
+  "first_page": "956",
+  "last_page": "957",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 956"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 152,
+    "ocr_confidence": 0.504,
+    "sha256": "ea777bc779647e8a6465bbac421a8cc2d64c6ed314628430344609f50beafce4",
+    "simhash": "1:9db39a814b0ede48",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Feuer v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.\nJustice Sotomayor took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9596.\nFeuer v. United States."
+  },
+  "file_name": "0956-09",
+  "first_page_order": 982,
+  "last_page_order": 983
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12237563,
+  "name": "Gardner v. United States",
+  "name_abbreviation": "Gardner v. United States",
+  "decision_date": "2011-12-05",
+  "docket_number": "No. 11-7218",
+  "first_page": "1086",
+  "last_page": "1086",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1086"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.651,
+    "sha256": "a6f7c5a828bdb7c11d79f052368620275cd113c3332a171d5c23a15ec43b6746",
+    "simhash": "1:070a8e6b678fd01a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gardner v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7218.\nGardner v. United States."
+  },
+  "file_name": "1086-15",
+  "first_page_order": 1168,
+  "last_page_order": 1168
+}

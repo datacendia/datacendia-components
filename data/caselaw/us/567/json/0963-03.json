@@ -1,0 +1,59 @@
+{
+  "id": 12413144,
+  "name": "Lawrence v. United States",
+  "name_abbreviation": "Lawrence v. United States",
+  "decision_date": "2012-08-31",
+  "docket_number": "No. 11A1029",
+  "first_page": "963",
+  "last_page": "963",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 963"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 23,
+    "char_count": 166,
+    "ocr_confidence": 0.662,
+    "sha256": "67d0dc46ca598c789cc8a4249c7b4b67f5e21b2ee01781729262aa80d3a9a625",
+    "simhash": "1:30290e5d258c8013",
+    "word_count": 24
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lawrence v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "Application for certificate of appealability, addressed to Justice Kennedy and referred to the Court, denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "August 31, 2012\nNo. 11A1029.\nLawrence v. United States."
+  },
+  "file_name": "0963-03",
+  "first_page_order": 867,
+  "last_page_order": 867
+}

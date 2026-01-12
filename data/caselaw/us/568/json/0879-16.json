@@ -1,0 +1,59 @@
+{
+  "id": 12414812,
+  "name": "LaRose v. Schneider, Judge, Circuit Court of Missouri, St. Charles County",
+  "name_abbreviation": "LaRose v. Schneider",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-11111",
+  "first_page": "879",
+  "last_page": "879",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 879"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 18,
+    "char_count": 121,
+    "ocr_confidence": 0.619,
+    "sha256": "427a307ba73ee40567a134682730b76fcd5555c40a9844e699075a59ae7a3dac",
+    "simhash": "1:34b5976ac277f501",
+    "word_count": 18
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "LaRose v. Schneider, Judge, Circuit Court of Missouri, St. Charles County."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Mo. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-11111.\nLaRose v. Schneider, Judge, Circuit Court of Missouri, St. Charles County."
+  },
+  "file_name": "0879-16",
+  "first_page_order": 955,
+  "last_page_order": 955
+}

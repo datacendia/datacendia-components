@@ -1,0 +1,59 @@
+{
+  "id": 6021231,
+  "name": "In re Del Rio; and In re Shove",
+  "name_abbreviation": "In re Del Rio",
+  "decision_date": "2010-10-12",
+  "docket_number": "No. 10-5659; No. 10-5684",
+  "first_page": "960",
+  "last_page": "960",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 960"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 98,
+    "ocr_confidence": 0.516,
+    "sha256": "9e6cea52f4be5a983230a5efade07ab984ae045c8e4b88f30fd8b1049bfc9a9a",
+    "simhash": "1:44667833ef19753d",
+    "word_count": 18
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Del Rio; and In re Shove."
+    ],
+    "opinions": [
+      {
+        "text": "Petitions for writs of mandamus denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5659.\nNo. 10-5684.\nIn re Del Rio; and In re Shove."
+  },
+  "file_name": "0960-01",
+  "first_page_order": 982,
+  "last_page_order": 982
+}

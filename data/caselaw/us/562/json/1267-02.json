@@ -1,0 +1,59 @@
+{
+  "id": 5990048,
+  "name": "Allshouse v. Pennsylvania",
+  "name_abbreviation": "Allshouse v. Pennsylvania",
+  "decision_date": "2011-03-07",
+  "docket_number": "No. 09-1396",
+  "first_page": "1267",
+  "last_page": "1267",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1267"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 26,
+    "char_count": 181,
+    "ocr_confidence": 0.618,
+    "sha256": "0655008a50059b03f050148a73f08f1f45a478542d850d3fbe16fd86c27cbc4e",
+    "simhash": "1:650020e2900a0298",
+    "word_count": 27
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Allshouse v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Pa.\nCertiorari granted, judgment vacated, and case remanded for farther consideration in light of Michigan v. Bryant, ante, p. 344.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-1396.\nAllshouse v. Pennsylvania."
+  },
+  "file_name": "1267-02",
+  "first_page_order": 1289,
+  "last_page_order": 1289
+}

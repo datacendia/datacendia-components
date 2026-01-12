@@ -1,0 +1,59 @@
+{
+  "id": 5910065,
+  "name": "Nash v. United States",
+  "name_abbreviation": "Nash v. United States",
+  "decision_date": "2011-04-04",
+  "docket_number": "No. 10-9331",
+  "first_page": "927",
+  "last_page": "927",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 927"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.495,
+    "sha256": "8f5dfda0951aedcc2f34673b1a934da74b4c395ac1623c453a736adc6c41d519",
+    "simhash": "1:a5bbc7070f3d045b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Nash v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9331.\nNash v. United States."
+  },
+  "file_name": "0927-12",
+  "first_page_order": 953,
+  "last_page_order": 953
+}

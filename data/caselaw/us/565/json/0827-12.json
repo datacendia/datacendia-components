@@ -1,0 +1,59 @@
+{
+  "id": 12199220,
+  "name": "Shang v. Commissioner of Internal Revenue",
+  "name_abbreviation": "Shang v. Commissioner",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-1554",
+  "first_page": "827",
+  "last_page": "827",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 827"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 90,
+    "ocr_confidence": 0.64,
+    "sha256": "89ac6a1dcf65437cb110e8cedd6f2f25bd8adf0588028110139a53edb89d91ed",
+    "simhash": "1:1293f5a8232f543e",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Shang v. Commissioner of Internal Revenue."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1554.\nShang v. Commissioner of Internal Revenue."
+  },
+  "file_name": "0827-12",
+  "first_page_order": 909,
+  "last_page_order": 909
+}

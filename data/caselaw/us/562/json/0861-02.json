@@ -1,0 +1,59 @@
+{
+  "id": 6007923,
+  "name": "Winston v. Kelly, Warden",
+  "name_abbreviation": "Winston v. Kelly",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11068",
+  "first_page": "861",
+  "last_page": "861",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 861"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.629,
+    "sha256": "5a59a934fbd53fc39227826c8e29c8d694ed31a9b93188e04f9d10b3b47c44c0",
+    "simhash": "1:35b99ee8ba999175",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Winston v. Kelly, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11068.\nWinston v. Kelly, Warden."
+  },
+  "file_name": "0861-02",
+  "first_page_order": 883,
+  "last_page_order": 883
+}

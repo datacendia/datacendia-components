@@ -1,0 +1,59 @@
+{
+  "id": 5941452,
+  "name": "Damra v. United States",
+  "name_abbreviation": "Damra v. United States",
+  "decision_date": "2011-05-31",
+  "docket_number": "No. 10-937",
+  "first_page": "1021",
+  "last_page": "1021",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1021"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.611,
+    "sha256": "a13d79608c7e16640210f18926f8144a3f6cb2bcc30a67788c185797f3f9b0a6",
+    "simhash": "1:87ba12074e1f1d10",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Damra v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-937.\nDamra v. United States."
+  },
+  "file_name": "1021-02",
+  "first_page_order": 1047,
+  "last_page_order": 1047
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12213724,
+  "name": "Lucas v. Alabama",
+  "name_abbreviation": "Lucas v. Alabama",
+  "decision_date": "2012-04-30",
+  "docket_number": "No. 11-9298",
+  "first_page": "979",
+  "last_page": "979",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 979"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 71,
+    "ocr_confidence": 0.539,
+    "sha256": "855e384873ba98da3bc221dec87413b5ffb6949c5b1135369777e3c132ad8ec6",
+    "simhash": "1:0642313cfbc2d2f8",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lucas v. Alabama."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Ala. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9298.\nLucas v. Alabama."
+  },
+  "file_name": "0979-01",
+  "first_page_order": 855,
+  "last_page_order": 855
+}

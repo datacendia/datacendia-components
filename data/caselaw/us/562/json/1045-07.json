@@ -1,0 +1,59 @@
+{
+  "id": 6033237,
+  "name": "Urciuoli v. United States",
+  "name_abbreviation": "Urciuoli v. United States",
+  "decision_date": "2010-11-15",
+  "docket_number": "No. 10-500",
+  "first_page": "1045",
+  "last_page": "1045",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1045"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.557,
+    "sha256": "795bf5438178986a9a933b905ba85cc7b7abc25c803a3bab9b7ffd31f8df14a4",
+    "simhash": "1:c41bcec08cbc992c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Urciuoli v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-500.\nUrciuoli v. United States."
+  },
+  "file_name": "1045-07",
+  "first_page_order": 1067,
+  "last_page_order": 1067
+}

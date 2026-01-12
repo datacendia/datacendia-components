@@ -1,0 +1,59 @@
+{
+  "id": 12212312,
+  "name": "In re Jones",
+  "name_abbreviation": "In re Jones",
+  "decision_date": "2012-04-30",
+  "docket_number": "No. 11-9676",
+  "first_page": "973",
+  "last_page": "973",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 973"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 69,
+    "ocr_confidence": 0.506,
+    "sha256": "bbd6ddbb957086261a7e63b56fc34699ab743478d37405bd6a353dc3d1291094",
+    "simhash": "1:5f5b016a5978c159",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Jones."
+    ],
+    "opinions": [
+      {
+        "text": "Petition for writ of habeas corpus denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9676.\nIn re Jones."
+  },
+  "file_name": "0973-06",
+  "first_page_order": 849,
+  "last_page_order": 849
+}

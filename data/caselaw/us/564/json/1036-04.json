@@ -1,0 +1,59 @@
+{
+  "id": 5927720,
+  "name": "United States v. Jones",
+  "name_abbreviation": "United States v. Jones",
+  "decision_date": "2011-06-27",
+  "docket_number": "No. 10-1259",
+  "first_page": "1036",
+  "last_page": "1036",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1036"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 46,
+    "char_count": 370,
+    "ocr_confidence": 0.569,
+    "sha256": "66f0773cf7c0e1d1da3c597b7d3421cf273beb4f81eb1c2dde75b7b2f5b4da8b",
+    "simhash": "1:3462296065ee24c2",
+    "word_count": 58
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "United States v. Jones."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. D. C. Cir. Certiorari granted. In addition to the question presented by the petition, the parties are directed to brief and argue the following question: \u201cWhether the government violated respondent\u2019s Fourth Amendment rights by installing the GPS tracking device on his vehicle without a valid warrant and without his consent.\u201d",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1259.\nUnited States v. Jones."
+  },
+  "file_name": "1036-04",
+  "first_page_order": 1030,
+  "last_page_order": 1030
+}

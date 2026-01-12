@@ -1,0 +1,59 @@
+{
+  "id": 12252110,
+  "name": "Middleton v. Motley Rice LLC",
+  "name_abbreviation": "Middleton v. Motley Rice LLC",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. 11-8314",
+  "first_page": "1267",
+  "last_page": "1267",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1267"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 77,
+    "ocr_confidence": 0.723,
+    "sha256": "a42c6e56a619f6937e385e170d91fc1afb5b2c359010b94559434d5b11392788",
+    "simhash": "1:20db4269cb08b223",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Middleton v. Motley Rice LLC."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8314.\nMiddleton v. Motley Rice LLC."
+  },
+  "file_name": "1267-03",
+  "first_page_order": 1349,
+  "last_page_order": 1349
+}

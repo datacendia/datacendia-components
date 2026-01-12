@@ -120,6 +120,7 @@ import roiMetricsRoutes from './routes/roi-metrics.js';
 import consolidatedRoutes from './routes/consolidated.js';
 import demoSeedRoutes from './routes/demo-seed.js';
 import legalRoutes from './routes/legal.js';
+import legalResearchRoutes from './routes/legal-research.js';
 import { registerPlatformServices } from './core/services/PlatformServices.js';
 
 // WebSocket handlers
@@ -231,6 +232,13 @@ if (config.nodeEnv === 'production') {
   app.use(threatDetectionMiddleware);
 }
 // NOTE: Threat detection disabled in dev - SQL patterns too aggressive for AI content
+
+// Legal Research API - Public access for testing (no auth required in dev)
+// Must be BEFORE CSRF middleware to allow unauthenticated access
+if (config.nodeEnv === 'development') {
+  app.use('/api/v1/legal-research', legalResearchRoutes);
+  logger.info('📚 Legal Research API available at /api/v1/legal-research (no auth in dev)');
+}
 
 // CSRF Protection - apply to state-changing API routes
 // Token endpoint is exempt so clients can get initial token
@@ -355,6 +363,9 @@ app.use('/api/v1/vertical-config', verticalConfigRoutes);
 
 // Legal Vertical - Case law, matters, privilege gates, citation enforcement
 app.use('/api/v1/legal', legalRoutes);
+
+// Legal Research API - Tools for Council agents (case law, regulations, bills, SEC filings)
+app.use('/api/v1/legal-research', legalResearchRoutes);
 
 // Schema Mapping - Client database schema abstraction
 app.use('/api/v1/schema', schemaRoutes);

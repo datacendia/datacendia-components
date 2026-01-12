@@ -1,0 +1,896 @@
+{
+  "id": 12521399,
+  "name": "John DOE, Plaintiff-Appellant, v. BLUECROSS BLUESHIELD OF TENNESSEE, INC., Defendant-Appellee.",
+  "name_abbreviation": "John Doe v. Bluecross Blueshield of Tenn., Inc.",
+  "decision_date": "2019-06-04",
+  "docket_number": "No. 18-5897",
+  "first_page": "235",
+  "last_page": "244",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "926 F.3d 235"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "6th Cir.",
+    "id": 21296,
+    "name": "United States Court of Appeals for the Six Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "871 F.3d 459",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12264776
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "469"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/871/0459-01"
+      ]
+    },
+    {
+      "cite": "395 S.W.3d 653",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7094688
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "660"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/395/0653-01"
+      ]
+    },
+    {
+      "cite": "121 F.3d 1006",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        285051
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "1014",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/121/1006-01"
+      ]
+    },
+    {
+      "cite": "58 F.3d 1063",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7412696
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "1066"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/58/1063-01"
+      ]
+    },
+    {
+      "cite": "42 U.S.C. \u00a7 12182",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "882 F.3d 579",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12515976
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "594-95"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/882/0579-01"
+      ]
+    },
+    {
+      "cite": "28 C.F.R. \u00a7 41.53",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "162 F.3d 432",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11800677
+      ],
+      "weight": 2,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "435"
+        },
+        {
+          "page": "435-36"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/162/0432-01"
+      ]
+    },
+    {
+      "cite": "250 F.3d 668",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11100379
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "690-91"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/250/0668-01"
+      ]
+    },
+    {
+      "cite": "331 F.3d 261",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9111346
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "276-77"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/331/0261-01"
+      ]
+    },
+    {
+      "cite": "385 F.3d 901",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1319259
+      ],
+      "year": 2004,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/385/0901-01"
+      ]
+    },
+    {
+      "cite": "110 S.Ct. 2668",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12125138,
+        6121531
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "parenthetical": "quotation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/496/0633-01",
+        "/br/115/2668-01"
+      ]
+    },
+    {
+      "cite": "496 U.S. 633",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12125138
+      ],
+      "weight": 2,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "646",
+          "parenthetical": "quotation omitted"
+        },
+        {
+          "parenthetical": "quotation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/496/0633-01"
+      ]
+    },
+    {
+      "cite": "295 F.3d 1183",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9414870
+      ],
+      "weight": 2,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "1187"
+        },
+        {
+          "page": "1187"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/295/1183-01"
+      ]
+    },
+    {
+      "cite": "982 F.2d 222",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        36365
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "228-29"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/982/0222-01"
+      ]
+    },
+    {
+      "cite": "163 F.3d 1251",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11789661
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "1254"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/163/1251-01"
+      ]
+    },
+    {
+      "cite": "734 F.3d 229",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3718469
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "236"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/734/0229-01"
+      ]
+    },
+    {
+      "cite": "775 F.3d 61",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4340649
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "78"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/775/0061-01"
+      ]
+    },
+    {
+      "cite": "401 U.S. 424",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11712736
+      ],
+      "weight": 3,
+      "year": 1971,
+      "pin_cites": [
+        {
+          "page": "429-31",
+          "parenthetical": "Title VII"
+        },
+        {
+          "parenthetical": "Title VII"
+        },
+        {
+          "parenthetical": "Title VII"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/401/0424-01"
+      ]
+    },
+    {
+      "cite": "135 S. Ct. 2507",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12591002
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "2518-19",
+          "parenthetical": "Fair Housing Act"
+        },
+        {
+          "parenthetical": "Fair Housing Act"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/135/2507-01"
+      ]
+    },
+    {
+      "cite": "459 U.S. 498",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6199250
+      ],
+      "weight": 3,
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "509"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/459/0498-01"
+      ]
+    },
+    {
+      "cite": "207 F.3d 314",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11451476
+      ],
+      "weight": 2,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "321"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/207/0314-01"
+      ]
+    },
+    {
+      "cite": "557 U.S. 557",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3658054
+      ],
+      "weight": 3,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "577"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/557/0557-01"
+      ]
+    },
+    {
+      "cite": "469 U.S. 287",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11959290
+      ],
+      "weight": 10,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "299"
+        },
+        {
+          "page": "298"
+        },
+        {
+          "page": "293"
+        },
+        {
+          "page": "n.7"
+        },
+        {
+          "page": "299"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/469/0287-01"
+      ]
+    },
+    {
+      "cite": "341 F.3d 474",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9099506
+      ],
+      "weight": 2,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "478"
+        },
+        {
+          "page": "478"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/341/0474-01"
+      ]
+    },
+    {
+      "cite": "42 U.S.C. \u00a7 12102",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(1)",
+          "parenthetical": "defining a disability as an impairment that substantially limits one or more major life activities"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 U.S.C. \u00a7 705",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(20)(B)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "62 F.3d 843",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7416493
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "846"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/62/0843-01"
+      ]
+    },
+    {
+      "cite": "544 U.S. 228",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5877522
+      ],
+      "weight": 4,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "233-40"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/544/0228-01"
+      ]
+    },
+    {
+      "cite": "592 F. App'x 282",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        4346861
+      ],
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "285-86"
+        },
+        {
+          "page": "285-86"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/592/0282-01"
+      ]
+    },
+    {
+      "cite": "544 U.S. 167",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3537908
+      ],
+      "weight": 3,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "173",
+          "parenthetical": "\"Title IX implies a private right of action to enforce its prohibition on intentional sex discrimination.\""
+        },
+        {
+          "parenthetical": "\"Title IX implies a private right of action to enforce its prohibition on intentional sex discrimination.\""
+        },
+        {
+          "parenthetical": "\"Title IX implies a private right of action to enforce its prohibition on intentional sex discrimination.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/544/0167-01"
+      ]
+    },
+    {
+      "cite": "532 U.S. 275",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9301210
+      ],
+      "weight": 7,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "280"
+        },
+        {
+          "page": "280"
+        },
+        {
+          "page": "280-81"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/532/0275-01"
+      ]
+    },
+    {
+      "cite": "467 U.S. 837",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6209106
+      ],
+      "weight": 3,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "842"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/467/0837-01"
+      ]
+    },
+    {
+      "cite": "81 Fed. Reg. 31,376",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "31"
+        },
+        {
+          "page": "31,439"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "882 F.2d 1012",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1820900
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "1015",
+          "parenthetical": "Title VI"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/882/1012-01"
+      ]
+    },
+    {
+      "cite": "7 F.3d 465",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10511210
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "470-71",
+          "parenthetical": "\u00a7 504"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/7/0465-01"
+      ]
+    },
+    {
+      "cite": "441 U.S. 677",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1780023
+      ],
+      "weight": 5,
+      "year": 1979,
+      "pin_cites": [
+        {
+          "parenthetical": "Title IX"
+        },
+        {
+          "parenthetical": "Title IX"
+        },
+        {
+          "parenthetical": "Title IX"
+        },
+        {
+          "page": "695-96"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/441/0677-01"
+      ]
+    },
+    {
+      "cite": "42 U.S.C. \u00a7 6104",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(e)(2)"
+        },
+        {
+          "page": "(e)",
+          "parenthetical": "Age Discrimination Act"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "536 U.S. 181",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1254475
+      ],
+      "weight": 5,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "185"
+        },
+        {
+          "page": "185-89"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/536/0181-01"
+      ]
+    },
+    {
+      "cite": "264 U.S. 375",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6141420
+      ],
+      "weight": 3,
+      "year": 1924,
+      "pin_cites": [
+        {
+          "page": "392"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/264/0375-01"
+      ]
+    },
+    {
+      "cite": "681 F.3d 312",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3885643
+      ],
+      "weight": 3,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "315-16",
+          "parenthetical": "en banc"
+        },
+        {
+          "page": "316"
+        },
+        {
+          "page": "315-17"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/681/0312-01"
+      ]
+    },
+    {
+      "cite": "29 U.S.C. \u00a7 794",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(d)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 U.S.C. \u00a7 18116",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1330,
+    "char_count": 26600,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25934620126501584
+    },
+    "sha256": "4f2521e9230a432bbe6d8ea89642e8aca16ae3768647314d10f0ef2524ac8367",
+    "simhash": "1:e347bf140d9d6111",
+    "word_count": 4300
+  },
+  "last_updated": "2024-02-27T18:46:44.951673+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before: GUY, SUTTON, and NALBANDIAN, Circuit Judges."
+    ],
+    "parties": [
+      "John DOE, Plaintiff-Appellant,\nv.\nBLUECROSS BLUESHIELD OF TENNESSEE, INC., Defendant-Appellee."
+    ],
+    "opinions": [
+      {
+        "text": "SUTTON, Circuit Judge.\nTreating similarly situated people differently goes to the heart of invidious discrimination. But treating differently situated people differently usually counts as equal justice under law. Today's case involves the second scenario in the context of an application of the antidiscrimination provisions of the Affordable Care Act.\nJohn Doe receives HIV medicine through a health care plan administered by BlueCross BlueShield of Tennessee. Although Doe would like to pick up his medicine at his local pharmacy, his plan requires him, and anyone else who uses certain high-cost drugs, to get his medicine by mail or at a specialty pharmacy. Frustrated by that requirement, Doe sued BlueCross for discriminating against him on the basis of disability and for breaching their contract. The district court rejected the claims as a matter of law. We affirm.\nI.\nJohn Doe is HIV-positive and takes Genvoya to keep his condition under control. While advances in HIV/AIDS research continue to improve treatment for the disease, the most effective medicines can be expensive. Doe receives health insurance from BlueCross. Happily for him, the plan covers Genvoya.\nUnhappily for him, BlueCross imposes requirements on where individuals obtain the medication. Doe originally bought Genvoya from his local pharmacy. But after February 2017, the pharmacy told him that BlueCross wouldn't pay for the medication there any longer. BlueCross requires beneficiaries to obtain specialty medicines-usually high-cost medicines for chronic and serious diseases-from a specialty pharmacy network if they want to pay in-network (read lower) prices. That meant Doe could fill the HIV prescription only through mail order or by picking it up at certain brick-and-mortar pharmacies. So long as Doe used the specialty pharmacy network, his co-pay for each monthly batch of Genvoya would be $120. But if Doe continued to get the medicine at his local pharmacy, BlueCross wouldn't cover it at all, leaving him to pay full freight at thousands of dollars per batch.\nThis development bothered Doe. He liked interacting with his regular pharmacists, who knew his medical history and who could spot the effects of harmful drug interactions. He also worried that medicine deliveries to his house might compromise his privacy or risk heat damage to the medicine. Doe asked BlueCross for permission to opt out of the specialty medications program. BlueCross declined.\nDoe filed this putative class action against BlueCross, alleging that it discriminated against him and other HIV-positive beneficiaries in violation of the Affordable Care Act as well as the Americans with Disabilities Act and that it breached their insurance contract. The district court granted BlueCross's motion to dismiss the complaint and denied Doe leave to amend.\nII.\nThe Affordable Care Act claim . Doe contends that BlueCross discriminated against him on the basis of disability in violation of \u00a7 1557 of the Patient Protection and Affordable Care Act. The argument implicates two questions. Does the standard of liability include a relaxed form of disparate-impact discrimination? May Doe bring a private lawsuit to enforce the claim?\nAs for the standard of liability, the language of the statute is a good place to start. The first sentence of \u00a7 1557 provides that \"an individual shall not, on the ground prohibited under title VI of the Civil Rights Act of 1964, title IX of the Education Amendments of 1972, the Age Discrimination Act of 1975, or section 504 of the Rehabilitation Act of 1973, be excluded from participation in, be denied the benefits of, or be subjected to discrimination under, any health program or activity, any part of which is receiving Federal financial assistance.\" 42 U.S.C. \u00a7 18116(a). This language brings the problem into view. Doe thinks that some of the incorporated statutes permit discrimination claims based on a relaxed disparate-impact theory of liability and that some of them do not. As he sees it, he may pick the statute with the lightest standard from this menu of four options and use that standard of liability in prosecuting his claim for disability discrimination.\nThe statute does not permit this reading. In the abstract, the word \"ground\" picks up the basis on which the insurer takes an action. See 6 Oxford English Dictionary 876 (2d ed. 1989). In the concrete context of this law, the word \"ground\" refers to the forbidden source of discrimination: race, color, and national origin (Title VI); sex (Title IX); age (Age Discrimination Act); and disability (Rehabilitation Act). When \"ground\" is paired with \"prohibited,\" as in \"on the ground prohibited,\" the statute picks up the type of discrimination-the standard for determining discrimination-prohibited under each of the four incorporated statutes. If the claimant seeks relief for discrimination \"on the ground prohibited\" by \u00a7 504 of the Rehabilitation Act, for example, he must show differential treatment \"solely by reason of\" disability, 29 U.S.C. \u00a7 794(a), not some other standard of care. See Lewis v. Humboldt Acquisition Corp. , 681 F.3d 312, 315-16 (6th Cir. 2012) (en banc). Otherwise, the health insurer's actions do not amount to the kind of \"discrimination\" barred by the law.\nThink of it this way. The Affordable Care Act prohibits discrimination based on several grounds. But it does not change the nature of those grounds any more than it adds a new form of discrimination, say discrimination based on political perspective, to the law. By referring to four statutes, Congress incorporated the legal standards that define discrimination under each one. See Panama R. Co. v. Johnson , 264 U.S. 375, 392, 44 S.Ct. 391, 68 L.Ed. 748 (1924).\nThe second sentence of the section reinforces this conclusion. It says that \"[t]he enforcement mechanisms provided for and available under such title VI, title IX, section 504, or such Age Discrimination Act shall apply for purposes of violations of this subsection.\" 42 U.S.C. \u00a7 18116(a). \"Enforcement\" refers to compelling adherence to the duty in each law. 5 Oxford English Dictionary , supra , at 245. And a \"mechanism\" is the means of producing each end. 9 id. at 536. The phrase \"enforcement mechanism\" thus covers the distinct methods available under the four listed statutes for compelling compliance with the substantive requirements of each statute. If the first sentence created a brand-new single standard for what qualifies as discrimination, why would Congress use four distinct families of enforcement mechanisms to compel compliance with that standard rather than creating a matching single mechanism? We can think of no answer. Here, as is so often the case, Occam's Razor provides a handy guide.\nPulling all of this together, the statute prohibits discrimination against the disabled in the provision of federally supported health programs under \u00a7 504 of the Rehabilitation Act. In doing so, the Affordable Care Act picks up the standard of care for showing a violation of \u00a7 504 , not the other laws incorporated by the statute or for that matter any other statute.\nThis approach also makes short work of the second statutory question: May Doe enforce the law through a private right of action? Yes. Because the Rehabilitation Act contains a private right of action, see Barnes v. Gorman , 536 U.S. 181, 185, 122 S.Ct. 2097, 153 L.Ed.2d 230 (2002), the enforcement mechanism sentence permits Doe to bring this lawsuit to enforce that prohibition under the Affordable Care Act as well.\nDoe accepts some of this analysis. He agrees that the Act gives him a private cause of action to sue for disability discrimination for the reasons just given. But he thinks the enforcement mechanism sentence allows him to use any of the four substantive legal standards for proving discrimination and apply it to any of the four classifications.\nPicking your own adventure, however, is not what that sentence says. The phrase \"enforcement mechanism\" refers to the process for compelling compliance with a substantive right, not the substantive right itself. As we have said before, in interpreting \u00a7 504 of the Rehabilitation Act no less, \"[e]nforcement provisions generally do not alter substantive standards of care.\" Lewis , 681 F.3d at 316. Had Congress wished to make all of the enforcement mechanisms available for any classification, it would have said \"[t]he enforcement mechanisms provided for and available under title VI, title IX, section 504, and such Age Discrimination Act shall apply\"-instead of the or it opted to use.\nContext does Doe's argument no favors either. Each antidiscrimination statute has its own highly reticulated set of enforcement rules adapted for the type of discrimination that each law targets. For example, Title VI, Title IX, and \u00a7 504 do not require the exhaustion of administrative remedies before bringing a private cause of action, while the Age Discrimination Act does. See 42 U.S.C. \u00a7 6104(e)(2), (f) (Age Discrimination Act); Cannon v. Univ. of Chi. , 441 U.S. 677, 706 n.41, 99 S.Ct. 1946, 60 L.Ed.2d 560 (1979) (Title IX); Tuck v. HCA Health Servs. of Tenn., Inc. , 7 F.3d 465, 470-71 (6th Cir. 1993) (\u00a7 504); Neighborhood Action Coal. v. City of Canton , 882 F.2d 1012, 1015 (6th Cir. 1989) (Title VI). And while Title VI, Title IX, and \u00a7 504 allow the recovery of compensatory damages, the Age Discrimination Act does not. See 42 U.S.C. \u00a7 6104(e) (Age Discrimination Act); Barnes , 536 U.S. at 185-89, 122 S.Ct. 2097 (Title VI, Title IX, and \u00a7 504). Allowing plaintiffs to treat all of this as a use-what-you-wish buffet would make a hash of the underlying enforcement schemes.\nDespite each of the problems with his interpretation, Doe thinks he has an ace in the hole: a helpful agency interpretation. Yes, the Department of Health and Human Services' Office for Civil Rights supports his view. During the notice-and-comment process for promulgating the \u00a7 1557 regulations, commenters asked the agency to clarify whether the enforcement mechanisms of each statute, including disparate-impact discrimination as a basis for liability, are available to any plaintiff regardless of the nature of the discrimination at issue. The agency responded that it \"interprets Section 1557 as authorizing a private right of action for claims of disparate impact discrimination on the basis of any of the criteria enumerated in the legislation.\" Nondiscrimination in Health Programs and Activities, 81 Fed. Reg. 31,376, 31,439 -40 (May 18, 2016).\nBut this interpretive guidance does not do everything Doe thinks it does. While agencies may have authority to interpret statutes, they do not have authority to rewrite them. \"If the intent of Congress is clear, that is the end of the matter.\" Chevron U.S.A., Inc. v. Nat. Res. Def. Council, Inc. , 467 U.S. 837, 842, 104 S.Ct. 2778, 81 L.Ed.2d 694 (1984). In \u00a7 1557, as just shown, Congress made plain that it prohibited discrimination in the provision of health care by incorporating and enforcing the substantive standards of liability of the four named statutes, not changing them. There is just one permissible interpretation of this language, and the agency failed to respect it. Its contrary agency interpretation counts for naught.\nOne last point deserves mention. It's not clear that Doe's interpretation of the statute would help him anyway. He thinks that some of the antidiscrimination statutes prohibit disparate-impact discrimination, and that \u00a7 1557 leaves him free to pick that standard of liability and apply it to his disability-discrimination claim. But Doe, like the agency, may have a misunderstanding about how each statute works. Title VI, for example, doesn't prohibit disparate-impact discrimination. See Alexander v. Sandoval , 532 U.S. 275, 280, 121 S.Ct. 1511, 149 L.Ed.2d 517 (2001). It's unlikely that Title IX, which was patterned on Title VI, does so either. See Jackson v. Birmingham Bd. of Educ. , 544 U.S. 167, 173, 125 S.Ct. 1497, 161 L.Ed.2d 361 (2005) (\"Title IX implies a private right of action to enforce its prohibition on intentional sex discrimination.\"); Sandoval , 532 U.S. at 280, 121 S.Ct. 1511 ; Cannon , 441 U.S. at 695-96, 99 S.Ct. 1946. And contrary to the agency's understanding, see 81 Fed. Reg. at 31,439, there is no reason to think the Age Discrimination Act of 1975 picks up this standard of liability, see Kamps v. Baylor Univ. , 592 F. App'x 282, 285-86 (5th Cir. 2014). The Age Discrimination in Employment Act of 1967, it is true, prohibits disparate-impact discrimination. See Smith v. City of Jackson , 544 U.S. 228, 233-40, 125 S.Ct. 1536, 161 L.Ed.2d 410 (2005). But unlike that statute, the 1975 Age Act does not bar practices that \"otherwise adversely affect\" people because of their age, making any analogy (or conflation) between the two laws dubious. See Kamps , 592 F. App'x at 285-86. That leaves the legal standard of the Rehabilitation Act as Doe's best shot, which is exactly what he gets under our reading of the statute.\nApplication of the Rehabilitation Act . Section 504 of the Rehabilitation Act of 1973 provides that \"[n]o otherwise qualified individual with a disability in the United States ... shall, solely by reason of her or his disability, be excluded from the participation in, be denied the benefits of, or be subjected to discrimination under any program or activity receiving Federal financial assistance.\" 29 U.S.C. \u00a7 794(a). To state a claim under the Rehabilitation Act, as incorporated into the Affordable Care Act, Doe thus must allege that (1) he is an individual with a disability; (2) he is otherwise qualified for participation in a health program or activity; (3) he is being excluded from participation in, denied the benefits of, or subjected to discrimination under the program solely by reason of his disability; and (4) the program receives federal assistance. See Maddox v. Univ. of Tenn. , 62 F.3d 843, 846 (6th Cir. 1995).\nWe take a few things for granted-that Doe's HIV-positive status counts as a disability under the Act, that he is otherwise qualified for his benefits plan, and that the plan receives federal funds. Even then, has Doe been excluded from participation in, denied the benefits of, or subjected to discrimination under his plan?\nNo, we must conclude. BlueCross did not exclude Doe from participating in the plan or deny him benefits covered by it, as he seems to concede. And contrary to his argument, the plan's specialty medications program did not discriminate against him based on disability.\nDoe cannot show that BlueCross intentionally discriminated against him. The plan's specialty medications list is neutral on its face. Some of the included medicines are apt to be used by those with disabilities. But plenty of others are not, such as medicines used to treat high cholesterol, osteoporosis, or allergic rhinitis, sometimes called a runny nose. See 29 U.S.C. \u00a7 705(20)(B) ; 42 U.S.C. \u00a7 12102(1) (defining a disability as an impairment that substantially limits one or more major life activities). The common trait linking the listed drugs is cost, not the disabled status of their users. Because the specialty medications program does not distinguish based on disability, much less \"solely\" so, it does not convey any discriminatory intent. See Jones v. City of Monroe , 341 F.3d 474, 478 (6th Cir. 2003).\nDoe argues that, even if the plan doesn't intentionally discriminate against the disabled, it causes a cognizable disparate impact. This raises an open question about the scope of the Rehabilitation Act, one we close today. In Alexander v. Choate , the Supreme Court rejected the \"boundless notion\" that all disparate-impact showings establish a prima facie case under \u00a7 504. 469 U.S. 287, 299, 105 S.Ct. 712, 83 L.Ed.2d 661 (1985). But it \"assume[d] without deciding that \u00a7 504 reaches at least some conduct that has an unjustifiable disparate impact upon the handicapped.\" Id.\nWe now resolve what Choate did not and conclude that \u00a7 504 does not prohibit disparate-impact discrimination.\nTake the text. Disparate-impact discrimination occurs when an entity acts for a nondiscriminatory reason but nevertheless disproportionately harms a protected group. See Ricci v. DeStefano , 557 U.S. 557, 577, 129 S.Ct. 2658, 174 L.Ed.2d 490 (2009). But the Rehabilitation Act bars discrimination \"solely by reason of her or his disability.\" 29 U.S.C. \u00a7 794(a) ; see Lewis , 681 F.3d at 315-17. That language does not encompass actions taken for nondiscriminatory reasons. The language, as well, applies only to individuals who are \"otherwise qualified\" for the program at issue, meaning that the Act allows the disabled to be \"disparately affected by legitimate job criteria.\" Crocker v. Runyon , 207 F.3d 314, 321 (6th Cir. 2000). All of this explains why we have remarked that \"[t]here is good reason to believe that a disparate impact theory is not available under the Rehabilitation Act.\" Id. We agree, and so hold.\nA comparison to other antidiscrimination statutes leads to the same conclusion. Section 504 \"was patterned after Title VI.\" Cmty. Television of S. Cal. v. Gottfried , 459 U.S. 498, 509, 103 S.Ct. 885, 74 L.Ed.2d 705 (1983). Like \u00a7 504, Title VI prohibits a person from \"be[ing] excluded from participation in, be[ing] denied the benefits of, or be[ing] subjected to discrimination\" on the basis of a protected classification. 42 U.S.C. \u00a7 2000d. And Title VI does not reach disparate-impact discrimination. See Sandoval , 532 U.S. at 280-81, 121 S.Ct. 1511. By contrast, when the Court has found that a statute prohibits disparate-impact discrimination, it has relied on language like \"otherwise adversely affect\" or \"otherwise make unavailable,\" which refers to the consequences of an action rather than the actor's intent. See Tex. Dep't of Hous. & Cmty. Affairs v. Inclusive Cmtys. Project, Inc. , --- U.S. ----, 135 S. Ct. 2507, 2518-19, 192 L.Ed.2d 514 (2015) (Fair Housing Act); Smith , 544 U.S. at 235-36, 125 S.Ct. 1536 (1967 Age Act); Griggs v. Duke Power Co. , 401 U.S. 424, 429-31, 91 S.Ct. 849, 28 L.Ed.2d 158 (1971) (Title VII). That language is missing from \u00a7 504, just as it is missing from Title VI.\nThe oddity of applying disparate-impact discrimination in this area points in the same direction. Because many neutral (and well-intentioned) policies disparately affect the disabled-the point of such laws most often is to ease the burden of having a disability-the proposed use of the theory under \u00a7 504 \"could lead to a wholly unwieldy administrative and adjudicative burden.\" Choate , 469 U.S. at 298, 105 S.Ct. 712. With thirty years of hindsight, we can go one step further. Even entertaining the idea of disparate-impact liability in this area invites fruitless challenges to legitimate, and utterly nondiscriminatory, distinctions, as this case aptly shows.\nPerhaps, one might argue, the Court's assumption in Choate should count as something more. After all, at the same time the Court recognized that \u00a7 504 \"was patterned after and is almost identical to\" Title VI, it also said that \"too facile an assimilation of Title VI law to \u00a7 504 must be resisted.\" Id. at 293, 105 S.Ct. 712 n.7. It then chose to \"assume without deciding\" that \u00a7 504 means something different than its twin. See id. at 299, 105 S.Ct. 712. But the Court's words of caution about the relationship between the two statutes do not foreclose our own analysis. The key word is \"assume.\" Because Choate did not decide the issue either way, and in fact expressed reservations about the effects of disparate-impact liability in this area, we remain free to hold that \u00a7 504 does not cover disparate-impact claims.\nOther courts of appeals, we realize, have made the same assumption that Choate did. See, e.g. , Ruskai v. Pistole , 775 F.3d 61, 78 (1st Cir. 2014) ; CG v. Pa. Dep't of Educ. , 734 F.3d 229, 236 (3d Cir. 2013) ; Berg v. Fla. Dep't of Labor & Emp't Sec., Div. of Vocational Rehab. , 163 F.3d 1251, 1254 (11th Cir. 1998). And indeed at least two have acted on it. See McWright v. Alexander , 982 F.2d 222, 228-29 (7th Cir. 1992) ; Robinson v. Kansas , 295 F.3d 1183, 1187 (10th Cir. 2002). But in recognizing disparate-impact claims, the cases overlooked the \"essentially identical\" text of Title VI and \u00a7 504, elevating the purpose of \u00a7 504 in light of the \"different aim of the Rehabilitation Act as well as the different context in which the Act was passed.\" Robinson , 295 F.3d at 1187. Even assuming these cases correctly describe the purpose of the Act, \"[n]o legislation pursues its purposes at all costs.\" Pension Benefit Guar. Corp. v. LTV Corp. , 496 U.S. 633, 646, 110 S.Ct. 2668, 110 L.Ed.2d 579 (1990) (quotation omitted). By any conventional measure, the text leaves no room for the statute to prohibit disparate-impact discrimination.\nDoe tries to counter this conclusion on two main grounds. He says that BlueCross's inclusion of some drugs used by the non-disabled on the specialty medications list was a pretext to cover its intentional discrimination against those with disabilities. But why that is so is never explained. The reality remains that this lengthy list treats the disabled and non-disabled alike, removing any possibility that BlueCross targeted individuals with disabilities. Jones , 341 F.3d at 478.\nDoe also argues that BlueCross wrongfully denied his request for an accommodation, namely letting him buy the medicine at his local pharmacy. A claim based on a denial of a reasonable accommodation differs from a disparate-impact claim. See Ability Ctr. of Greater Toledo v. City of Sandusky , 385 F.3d 901, 904 n.4 (6th Cir. 2004) ; Henrietta D. v. Bloomberg , 331 F.3d 261, 276-77 (2d Cir. 2003) ; see also Lee v. City of Los Angeles , 250 F.3d 668, 690-91 (9th Cir. 2001). Under the Rehabilitation Act, a disabled person is \"otherwise qualified\" for a program if he could meet its requirements with a reasonable accommodation. See Kaltenberger v. Ohio Coll. of Podiatric Med. , 162 F.3d 432, 435 (6th Cir. 1998) ; see also 29 U.S.C. \u00a7 794(d) ; 28 C.F.R. \u00a7 41.53. And when that holds true, a denial of the requested accommodation may amount to unlawful discrimination. See Kaltenberger , 162 F.3d at 435-36. But that distinction does not help Doe. He forfeited his reasonable accommodation argument by failing to articulate it below. See Doe v. Miami Univ. , 882 F.3d 579, 594-95 (6th Cir. 2018).\nThe Americans with Disabilities Act claim . Doe separately claims that BlueCross discriminated against him in violation of Title III of the Americans with Disabilities Act. The nature of the claim-that BlueCross discriminated against his use of a public accommodation, the local pharmacy-has a familiar ring to it. And so, regrettably for him, does our conclusion.\nThe Americans with Disabilities Act prohibits disability discrimination in the enjoyment of public accommodations \"by any person who owns, leases (or leases to), or operates a place of public accommodation.\" 42 U.S.C. \u00a7 12182(a). A pharmacy counts as a public accommodation. Id. \u00a7 12181(7)(F).\nBecause BlueCross doesn't own, lease, or operate Doe's local pharmacy, his claim fails. Everyone agrees that BlueCross doesn't own or lease the pharmacy. And all dictionaries agree in one way or another that the word \"operate\" means \"[t]o direct the working of; to manage, conduct, work (a railway, business, etc.).\" 10 Oxford English Dictionary , supra , at 848; see Neff v. Am. Dairy Queen Corp. , 58 F.3d 1063, 1066 (5th Cir. 1995).\nBlueCross doesn't operate Doe's local pharmacy in any meaningful sense of the word. BlueCross does not control the pharmacy's hours, accessibility policies, or customer service protocols. It controls just one thing related to the pharmacy: how much Doe pays out-of-pocket for a product he would like to purchase there. That type of arrangement doesn't make BlueCross the pharmacy's manager.\nDoe insists otherwise, noting the connection between the specialty medications program and his diminished access to medicine. Yes, BlueCross may in one sense be responsible for denying him in-network benefits at the pharmacy. The same, however, could be said of Congress, which wrote the Americans with Disabilities Act and which in another sense is responsible for BlueCross not having to make this accommodation. But neither of these things makes them managers of the pharmacy. The truth of the matter is that Doe targets BlueCross's operation of his health care plan , not its control over his pharmacy . And Doe's health plan simply does not qualify as a public accommodation. See Parker v. Metro. Life Ins. Co. , 121 F.3d 1006, 1014 (6th Cir. 1997) (en banc).\nThe breach of contract claim . Doe alleges that BlueCross breached its contract with him by violating its implied duty of good faith and fair dealing. Tennessee law, it is true, imposes a duty of good faith in the performance of contracts. Dick Broad. Co. of Tenn. v. Oak Ridge FM, Inc. , 395 S.W.3d 653, 660 (Tenn. 2013). But as Doe seems to concede, the failure of his Affordable Care Act and Americans with Disabilities Act claims dooms his argument that BlueCross violated its duty of good faith by inadequately covering his Genvoya. Doe's contract claim does not get off the ground.\nThe motion for leave to amend . Doe ends by arguing that the district court should have let him amend his complaint a second time. But in his request for leave to amend, Doe did not explain to the district court how he intended to patch up his complaint. On appeal, he has provided a few hints about amendments he would like to make, but they would still leave his complaint inadequate. A court need not grant leave to amend when doing so would be futile. See Beydoun v. Sessions , 871 F.3d 459, 469 (6th Cir. 2017).\nWe affirm.",
+        "type": "majority",
+        "author": "SUTTON, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "ARGUED: Jerry Flanagan, CONSUMER WATCHDOG, Los Angeles, California, for Appellant. Todd Kim, REED SMITH LLP, Washington, D.C., for Appellee. ON BRIEF: Jerry Flanagan, CONSUMER WATCHDOG, Los Angeles, California, Edith M. Kallas, WHATLEY KALLAS, LLP, New York, New York, Alan M. Mansfield, WHATLEY KALLAS, LLP, San Diego, California, Jerry Martin, Seth M. Hyatt, BARRETT JOHNSTON MARTIN & GARRISON, LLC, Nashville, Tennessee, for Appellant. Todd Kim, REED SMITH LLP, Washington, D.C., Bryan M. Webster, Abraham Judson Souza, REED SMITH LLP, Chicago, Illinois, for Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "John DOE, Plaintiff-Appellant,\nv.\nBLUECROSS BLUESHIELD OF TENNESSEE, INC., Defendant-Appellee.\nNo. 18-5897\nUnited States Court of Appeals, Sixth Circuit.\nArgued: May 1, 2019\nDecided and Filed: June 4, 2019\nARGUED: Jerry Flanagan, CONSUMER WATCHDOG, Los Angeles, California, for Appellant. Todd Kim, REED SMITH LLP, Washington, D.C., for Appellee. ON BRIEF: Jerry Flanagan, CONSUMER WATCHDOG, Los Angeles, California, Edith M. Kallas, WHATLEY KALLAS, LLP, New York, New York, Alan M. Mansfield, WHATLEY KALLAS, LLP, San Diego, California, Jerry Martin, Seth M. Hyatt, BARRETT JOHNSTON MARTIN & GARRISON, LLC, Nashville, Tennessee, for Appellant. Todd Kim, REED SMITH LLP, Washington, D.C., Bryan M. Webster, Abraham Judson Souza, REED SMITH LLP, Chicago, Illinois, for Appellee.\nBefore: GUY, SUTTON, and NALBANDIAN, Circuit Judges."
+  },
+  "file_name": "0235-01",
+  "first_page_order": 235,
+  "last_page_order": 244
+}

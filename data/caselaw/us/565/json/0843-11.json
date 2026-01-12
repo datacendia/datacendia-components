@@ -1,0 +1,59 @@
+{
+  "id": 12204095,
+  "name": "Dowtin v. Palmer, Warden",
+  "name_abbreviation": "Dowtin v. Palmer",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10677",
+  "first_page": "843",
+  "last_page": "843",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 843"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.667,
+    "sha256": "be33e644cc5d431f1b443514bd4fb84498e1f266dd2b6aa8ef5ec17c82372ba5",
+    "simhash": "1:968e5287eabe18c6",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dowtin v. Palmer, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10677.\nDowtin v. Palmer, Warden."
+  },
+  "file_name": "0843-11",
+  "first_page_order": 925,
+  "last_page_order": 925
+}

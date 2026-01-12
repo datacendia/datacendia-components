@@ -1,0 +1,826 @@
+{
+  "id": 12519034,
+  "name": "UNITED STATES of America, Plaintiff-Appellee, v. Dockery CLEVELAND, Defendant-Appellant.",
+  "name_abbreviation": "United States v. Cleveland",
+  "decision_date": "2018-10-19",
+  "docket_number": "No. 17-3993",
+  "first_page": "423",
+  "last_page": "439",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "907 F.3d 423"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "6th Cir.",
+    "id": 21296,
+    "name": "United States Court of Appeals for the Six Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "971 F.2d 1206",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10518142
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "1213",
+          "parenthetical": "citations omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/971/1206-01"
+      ]
+    },
+    {
+      "cite": "707 F.3d 475",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3535898
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "514"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/707/0475-01"
+      ]
+    },
+    {
+      "cite": "716 F. App'x 477",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "weight": 3,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "487"
+        },
+        {
+          "parenthetical": "holding that the government \"was accurately describing facts\" when referring to the drugs as poison"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "641 F. App'x 451",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        4284654
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "454"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/641/0451-01"
+      ]
+    },
+    {
+      "cite": "416 U.S. 637",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        84180
+      ],
+      "weight": 3,
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "643"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/416/0637-01"
+      ]
+    },
+    {
+      "cite": "543 F. App'x 545",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        3850599
+      ],
+      "weight": 2,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "553"
+        },
+        {
+          "page": "553"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/543/0545-01"
+      ]
+    },
+    {
+      "cite": "26 F.3d 1380",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10516142
+      ],
+      "weight": 2,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "1388"
+        },
+        {
+          "parenthetical": "citations omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/26/1380-01"
+      ]
+    },
+    {
+      "cite": "788 F.2d 1166",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1569555
+      ],
+      "weight": 2,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "1177"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/788/1166-01"
+      ]
+    },
+    {
+      "cite": "547 F.3d 667",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6052202
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "687"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/547/0667-01"
+      ]
+    },
+    {
+      "cite": "308 F.3d 494",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11439416
+      ],
+      "weight": 2,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "510-11"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/308/0494-01"
+      ]
+    },
+    {
+      "cite": "507 U.S. 619",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6235767
+      ],
+      "weight": 3,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "623"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/507/0619-01"
+      ]
+    },
+    {
+      "cite": "1999 WL 98564",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "year": 1999,
+      "opinion_index": 0
+    },
+    {
+      "cite": "658 F.2d 1120",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        474389
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "1123",
+          "parenthetical": "finding that evidence of weapons is allowed even though the indictment does not charge firearm offenses because weapons are \"tools of the trade\" in drug trafficking"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/658/1120-01"
+      ]
+    },
+    {
+      "cite": "704 F.2d 322",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1855065
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "326",
+          "parenthetical": "recognizing that firearms are \"tools of the trade\" in narcotics trafficking"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/704/0322-01"
+      ]
+    },
+    {
+      "cite": "51 F. App'x 488",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        1083264
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "493",
+          "parenthetical": "\"Possession of firearms is also admissible in drug cases as evidence of 'tools of the trade,' even if no firearms offense has been charged.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/51/0488-01"
+      ]
+    },
+    {
+      "cite": "129 F. App'x 185",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        1113081
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "193",
+          "parenthetical": "\"[W]e have previously held that firearms may be used as 'tools of the trade' evidence in drug trafficking prosecutions.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/129/0185-01"
+      ]
+    },
+    {
+      "cite": "312 F.3d 757",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9320669
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "775",
+          "parenthetical": "citation and internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/312/0757-01"
+      ]
+    },
+    {
+      "cite": "224 F.3d 806",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11237441
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "832"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/224/0806-01"
+      ]
+    },
+    {
+      "cite": "516 F.3d 432",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3639443
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "445",
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/516/0432-01"
+      ]
+    },
+    {
+      "cite": "517 F.3d 350",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3657150
+      ],
+      "weight": 3,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "364",
+          "parenthetical": "citation and internal quotation marks omitted"
+        },
+        {
+          "page": "364"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/517/0350-01"
+      ]
+    },
+    {
+      "cite": "59 F.3d 608",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        179516
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "615"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/59/0608-01"
+      ]
+    },
+    {
+      "cite": "413 F.3d 540",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8969553
+      ],
+      "weight": 2,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "544",
+          "parenthetical": "citation, brackets, and ellipses omitted"
+        },
+        {
+          "page": "544",
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/413/0540-01"
+      ]
+    },
+    {
+      "cite": "263 F.3d 613",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9484561
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "620"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/263/0613-01"
+      ]
+    },
+    {
+      "cite": "357 F.3d 599",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9058952
+      ],
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "609",
+          "parenthetical": "\"In reviewing the government's race-neutral explanation, we need not find that the reason given is 'persuasive, or even plausible.' All that is necessary is that the reason not be inherently discriminatory.\" (internal citations omitted) "
+        },
+        {
+          "page": "609"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/357/0599-01"
+      ]
+    },
+    {
+      "cite": "11 F. App'x 474",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        170438
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "476-77"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/11/0474-01"
+      ]
+    },
+    {
+      "cite": "15 F. App'x 317",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        209293
+      ],
+      "weight": 2,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "321"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/15/0317-01"
+      ]
+    },
+    {
+      "cite": "347 F.3d 598",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9049280
+      ],
+      "weight": 11,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "604",
+          "parenthetical": "citation and internal quotations omitted"
+        },
+        {
+          "page": "604-05"
+        },
+        {
+          "page": "605"
+        },
+        {
+          "page": "605"
+        },
+        {
+          "page": "606"
+        },
+        {
+          "page": "605",
+          "parenthetical": "citations omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/347/0598-01"
+      ]
+    },
+    {
+      "cite": "213 F.3d 302",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11511116
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "308"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/213/0302-01"
+      ]
+    },
+    {
+      "cite": "500 U.S. 352",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6223686
+      ],
+      "weight": 5,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "360"
+        },
+        {
+          "page": "360"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/500/0352-01"
+      ]
+    },
+    {
+      "cite": "192 F.3d 580",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11569898
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "586"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/192/0580-01"
+      ]
+    },
+    {
+      "cite": "240 F.3d 512",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11137752
+      ],
+      "weight": 9,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "521"
+        },
+        {
+          "parenthetical": "citation omitted"
+        },
+        {
+          "page": "521"
+        },
+        {
+          "page": "521"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/240/0512-01"
+      ]
+    },
+    {
+      "cite": "476 U.S. 79",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12787
+      ],
+      "weight": 5,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "98"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/476/0079-01"
+      ]
+    },
+    {
+      "cite": "803 F.Supp. 1280",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        3768103
+      ],
+      "weight": 5,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "1285"
+        },
+        {
+          "page": "1285"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/803/1280-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 2518",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "opinion_index": 0
+    },
+    {
+      "cite": "735 F.3d 972",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3721599
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "parenthetical": "\"We do note that, under Federal Rule of Criminal Procedure 41(e)(2)(B"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/735/0972-01"
+      ]
+    },
+    {
+      "cite": "700 F.App'x 224",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        12404147
+      ],
+      "weight": 4,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "231"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/700/0224-01"
+      ]
+    },
+    {
+      "cite": "881 F.3d 961",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275346
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "969",
+          "parenthetical": "citing, in part, Fed. R. Crim. P. 41(e)(2)(B) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/881/0961-01"
+      ]
+    },
+    {
+      "cite": "893 F.3d 840",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517423
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "843",
+          "parenthetical": "citation omitted"
+        },
+        {
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/893/0840-01"
+      ]
+    },
+    {
+      "cite": "186 F.3d 701",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        857880
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "705"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/186/0701-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1549,
+    "char_count": 40064,
+    "pagerank": {
+      "raw": 4.392552054677732e-08,
+      "percentile": 0.27584465349138115
+    },
+    "sha256": "969742fb76aa4ef54caf3502604eea84f9c88ffc15f7a7429ce5355d9946e694",
+    "simhash": "1:39407f560e904923",
+    "word_count": 6344
+  },
+  "last_updated": "2024-02-27T18:46:00.884768+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before: NORRIS, DONALD, and BUSH, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee,\nv.\nDockery CLEVELAND, Defendant-Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "JOHN K. BUSH, Circuit Judge.\nA jury convicted Defendant-Appellant Dockery Cleveland of conspiring and attempting to possess, as well as possessing, cocaine with the intent to distribute it. Cleveland's appeal raises whether the district court properly (1) admitted certain evidence extracted from his cellphone; (2) overruled a Batson objection to a peremptory juror challenge; (3) admitted testimony that a weapon was seized from co-defendant Larone Williams's residence and that it may have been stolen in a previous burglary; and (4) overruled objections to the government's references in closing argument to drug-related harm and a correlation between drug dealing and guns. For the reasons that follow, we determine the answer to each issue is yes and therefore, we AFFIRM the district court's judgment entered on the conviction.\nI. Background\nAround October 17, 2015, the Drug Task Force in Youngstown, Ohio became aware that several individuals had conspired to transport ten kilograms of cocaine from California to Warren, Ohio, by hiding the drugs inside of a damaged car that was loaded onto a transport truck. The shipment's bill of lading indicated the damaged car would be delivered to an individual named \"Stephen\" at an address that law enforcement knew to be associated with Williams, a suspected drug dealer. Before the delivery occurred, however, the agents intercepted the vehicle and searched it pursuant to a warrant. The car's rear section revealed ten kilogram-sized bricks of cocaine, which the agents seized for evidence and then replaced with bricks of a non-narcotic substance resembling cocaine, packed in wrapping laced with a powder identifiable under fluorescent ultraviolet light. After the switch, the agents allowed the delivery to proceed. They witnessed two men arrive at the delivery location and pick up the car. The agents tailed these men, later identified as Cleveland and Williams, as they transported the car to a house where Williams resided. In the home's vicinity, agents saw two other men circling the neighborhood on bicycles and apparently surveilling the area to see if they were being watched. One of these men, later identified as Menford McCain, carried a backpack into the house.\nBased on these witnessed activities, agents obtained and executed a warrant to search Williams's residence. There, in the kitchen, they found one of the fake cocaine packages, cut open, as well as an electronic scale, two surgical masks, a razor knife, a drill charger, and a screwdriver. In the bathroom vanity, agents found a 9-millimeter Smith and Wesson firearm, a 9-millimeter magazine, and 9-millimeter rounds. In the home's garage, the agents found three \"sham kilos\" and an electronic scale stored inside the transported car. Other evidence came directly from Williams and Cleveland, who were present during the search: their hands, examined under fluorescent ultraviolet light, revealed trace amounts of the powder used in packaging the fake cocaine. Both men were arrested, as was McCain, who was apprehended after fleeing the house with $3,000 on his person and $108,000 in his backpack.\nOne piece of evidence seized from the home's search-Cleveland's Samsung Galaxy cellphone-is a focal point of this appeal. On November 6, 2015, law enforcement obtained a warrant to search the cellphone (the \"November 6 warrant\"), which authorized \"the forensic and physical examination of the device for the purpose of identifying the electronically stored information ....\" This warrant specified that law enforcement was \"commanded to execute this warrant on or before 11-27-2015.\" The parties do not dispute that on November 9, 2015 (the next business day after the warrant was issued), the government removed the cellphone from the non-drug vault of the Youngstown Drug Enforcement Agency (DEA) office and shipped it to a DEA laboratory in Lorton, Virginia, for extraction of its digital data. According to the laboratory's report, extraction began and ended on December 21, 2015.\nMeanwhile, on November 17, 2015, a federal grand jury in the Northern District of Ohio returned an indictment against Cleveland, McCain, and Williams. Cleveland then filed a motion to suppress the evidence seized from the cellphone. His case proceeded to trial, at which the district court denied the motion to suppress. The government introduced into evidence certain information extracted from the cellphone, including call logs showing two outgoing calls to the truck driver transporting the damaged car and photographs that depicted Cleveland holding a large amount of cash. The jury convicted Cleveland of all counts against him. Following sentencing, the district court entered final judgment against him on September 18, 2017.\nII. Suppression Motion\nCleveland argues that the district court erroneously denied his motion to exclude the data obtained from the cellphone. He contends that the data extraction was unlawful because it was untimely under the November 6 warrant. In support of his argument, Cleveland maintains that the warrant's directive-stating law enforcement is \"commanded to execute this warrant on or before 11-27-2015\"-created a deadline of November 27, 2015, by which the extraction needed to be completed. The government disagrees, arguing that the warrant's execution deadline established only the date by when the cellphone needed to be shipped to the data extraction laboratory to initiate the analysis of the phone's data, not when the extraction itself had to occur.\nThe district court denied Cleveland's suppression motion based on Rule 41(e)(2) of the Federal Rules of Criminal Procedure. We review the district court's findings of fact for clear error and its conclusions of law de novo. United States v. Navarro-Camacho , 186 F.3d 701, 705 (6th Cir. 1999). \"A finding of fact is clearly erroneous when we are left with the definite and firm conviction that a mistake has been committed.\" United States v. Cooper , 893 F.3d 840, 843 (6th Cir. 2018) (citation omitted). And because the district court denied the motion to suppress, we review the evidence in the light most favorable to the government. Id. (citation omitted).\nThis court has recognized that the \"federal rules of criminal procedure give law enforcement the authority to conduct searches of lawfully seized phones after they are seized.\" United States v. Castro , 881 F.3d 961, 969 (6th Cir. 2018) (citing, in part, Fed. R. Crim. P. 41(e)(2)(B) ). Rule 41(e)(2)(B) states, in pertinent part, that \"[t]he time for executing the warrant in Rule 41(e)(2)(A) and (f)(1)(A) refers to the seizure or on-site copying of the media or information, and not to any later off-site copying or review.\" Fed. R. Crim. P. 41(e)(2)(B). As the 2009 Advisory Committee's Note concerning Rule 41 recognize, practical considerations necessitate that a warrant's execution date govern only the date by when the seizure of the device, or, alternatively, on-site copying of the device, must occur, and not when off-site investigation and analysis of its contents must be completed:\nComputers and other electronic storage media commonly contain such large amounts of information that it is often impractical for law enforcement to review all of the information during execution of the warrant at the search location. This rule acknowledges the need for a two-step process: officers may seize or copy the entire storage medium and review it later to determine what electronically stored information falls within the scope of the warrant.\n* * *\nWhile consideration was given to a presumptive national or uniform time period within which any subsequent off-site copying or review of the media or electronically stored information would take place, the practical reality is that there is no basis for a \"one size fits all\" presumptive period. A substantial amount of time can be involved in the forensic imaging and review of information. This is due to the sheer size of the storage capacity of media, difficulties created by encryption and booby traps, and the workload of the computer labs. The rule does not prevent a judge from imposing a deadline for the return of the storage media or access to the electronically stored information at the time the warrant is issued. However, to arbitrarily set a presumptive time period for the return could result in frequent petitions to the court for additional time.\nFed. R. Crim. P. 41, advisory committee's note to 2009 amendments.\nThus, under Rule 41, an execution period specified in a warrant applies to the time to seize the device or to conduct on-site copying of information from the device. This deadline does not apply to the time to analyze and investigate the contents of the device off-site. Applying this interpretation of Rule 41, the district court held, and we agree, the November 6 warrant's execution date set a deadline only for when the physical cellphone itself had to be seized, and not for when its data were to be extracted.\nOur analysis finds support in United States v. Carrington , 700 F.App'x 224 (4th Cir. 2017), in which the FBI obtained a fourteen-day warrant authorizing the search of numerous electronic devices that had been lawfully seized during an investigation, including two cellular phones. Id. at 231. The warrant expired on April 18, 2014, but it was not until October 2014 that the FBI completed its forensic analysis of the phones and discovered a series of text messages referencing drug smuggling activity. Id. The Fourth Circuit rejected the defendant's argument that the \"phone was not 'searched' for Fourth Amendment purposes until the FBI completed its forensic analysis of the phone in October of 2014,\" because the court found this argument inconsistent with Rule 41 :\nIn other words, an initial seizure of [the defendant's] phone after the 14-day expiration period would have contravened the terms of the warrant-but that is not what happened here, where the phone already was in government custody pursuant to a lawful seizure. And the fact that the government did not \"review\" the texts on the phone until after the warrant's expiration date is consistent with the warrant itself.\nId. at 232 ; see also United States v. Huart , 735 F.3d 972, 974 n.2 (7th Cir. 2013) (\"We do note that, under Federal Rule of Criminal Procedure 41(e)(2)(B), a warrant for electronically stored information is executed when the information is seized or copied-here, when ... the phone [was seized]. Law enforcement is permitted to decode or otherwise analyze data on a seized device at a later time.\").\nSimilarly, here, the magistrate judge signed a warrant authorizing the search of a cellphone already in law enforcement's custody pursuant to a lawful seizure for the purposes of off-site analysis. Execution of the warrant occurred when the cell phone was removed from its location and shipped to the analytics laboratory-an act that occurred prior to the warrant's deadline. It is not relevant for compliance with that deadline that the subsequent extraction occurred after the warrant's execution date.\nCleveland disputes the applicability of Rule 41 and argues that 18 U.S.C. \u00a7 2518, which details procedures for interception of wire, oral, or electronic communications, applies. Pursuant to that statute, an application must contain \"a statement of the period of time for which the interception is required to be maintained,\" id. \u00a7 2518(1)(d), and each order authorizing or approving the interception of any wire, oral, or electronic communication shall specify \"the period of time during which such interception is authorized, including a statement as to whether or not the interception shall automatically terminate when the described communication has been first obtained.\" Id. \u00a7 2518(4)(e). Cleveland posits that because his cellphone continued to receive electronic communications in the form of voicemails, text messages, emails, etc., the government was \"intercepting\" electronic communications when it conducted the extraction.\nThere might be some merit to Cleveland's argument if both the phone actually continued to receive information and Cleveland was seeking to suppress evidence received or created by the cellphone after the warrant's execution deadline. In those circumstances, one could potentially argue that the government's consideration and use of information constituted warrantless \"interception\" of the activities of the cellphone. But, Cleveland makes no claim that any of the proof at his trial was derived from cellphone data that post-dated the warrant.\nNor is United States v. Corrado , 803 F.Supp. 1280 (M.D. Tenn. 1992), cited by Cleveland, sufficiently analogous to this case. In Corrado , officers received a search warrant for a home and entered the home before the search warrant expired. Id. at 1285. The officers remained in the home for fourteen hours waiting for the defendant to return and arrested him. Id. It was not until after the defendant's arrest-and after the warrant's execution deadline had expired-that the officers began to seize marijuana plants and other incriminating items. Id. at 1285. The district court determined that the evidence must be suppressed because officers remained in the home longer than \"reasonably necessary\" to execute a search warrant and seize the physical evidence. Id. Here, by contrast, the seizure of evidence occurred before the warrant's deadline. Though the significance of that evidence-that is, the incriminating nature of the information on the cellphone prior to its seizure-was not discovered until after the seizure, that fact does not make that evidence inadmissible under Federal Rule of Criminal Procedure 41.\nIII. Peremptory Challenge of a Juror\nDuring the selection of the jury, Roger Reed, an African-American male, was seated as a prospective replacement juror. Reed said he had a law enforcement background that included working as a protection officer with the Cuyahoga Metropolitan Housing Authority, and he had spent \"27 years in security.\" His current job was working in \"services for [the] Cleveland Clinic through a temp agency,\" though he hoped to obtain full-time employment. When the district court asked how Reed felt about being a juror in the case, he responded, \"Fair.\" Reed also stated that he thought he could be fair in light of his law enforcement background. The government subsequently exercised a peremptory challenge to remove Reed from the jury.\nDefense counsel asked for a reason as to the discharge of \"an African-American man named Roger Elston Reed.\" The government responded that Reed left law enforcement \"suspiciously\" because \"he said he'd been in law enforcement for 27 years\" but he \"didn't really give a reason for why he left that profession and was now working a temporary job at the Cleveland Clinic.\" Furthermore, the government explained that Reed \"exhibited ambivalence about serving on the jury in a way many of the other jurors had not expressed. Most of the jurors that [were] seated said it was an honor or that they were looking forward to serving,\" while Reed only responded with \"Fair.\" The government conceded that \"primarily, it was the way in which [Reed] described his leaving law enforcement that made the United States uncomfortable.\" Additionally, the government stated that \"given the way in which [the court] seats the replacement jurors,\" \"the United States doesn't have an opportunity to get up and ... question and flesh out those issues. So perhaps if [the government] had that opportunity to speak with him, [the government] could have arranged a way in which to properly rehab or rehabilitate any concerns ....\" Finally, the government noted that it did leave two individuals of color on the jury.\nFollowing this explanation, the district court found the government's rationale to be race-neutral. We review this ruling under Batson v. Kentucky , 476 U.S. 79, 106 S.Ct. 1712, 90 L.Ed.2d 69 (1986), which held that the Equal Protection Clause prohibits a party from using peremptory challenges to exclude members of the venire on account of their race.\nTo establish an equal protection violation under Batson, the claimant must first make a prima facie showing that the peremptory challenge was based on race. McCurdy v. Montgomery Cty. , 240 F.3d 512, 521 (6th Cir. 2001). If the claimant establishes a prima facie case, the party making the strike must articulate a race-neutral explanation for removing the juror in question. Id. (citation omitted). This explanation \"need not be particularly persuasive, or even plausible, so long as it is neutral.\" Id. (citing United States v. Harris , 192 F.3d 580, 586 (6th Cir. 1999) ). Once a race-neutral explanation is produced, the claimant must prove purposeful discrimination. Batson , 476 U.S. at 98, 106 S.Ct. 1712. Purposeful discrimination may be shown by demonstrating that the proffered explanation is merely a pretext for racial motivation. McCurdy , 240 F.3d at 521. \"Unless a discriminatory intent is inherent in the prosecutor's explanation, the reason offered will be deemed race neutral.\" Hernandez v. New York , 500 U.S. 352, 360, 111 S.Ct. 1859, 114 L.Ed.2d 395 (1991).\nThroughout the Batson inquiry, the ultimate burden of persuasion always rests with the party challenging the strike. McCurdy , 240 F.3d at 521. A district court's ruling on whether the exercise of a peremptory challenge violates equal protection is entitled to \"great deference\" and will not be reversed unless it is clearly erroneous. United States v. Buchanan , 213 F.3d 302, 308 (6th Cir. 2000).\nIn this case, Cleveland asked the government for an explanation for its decision to strike Reed, and the district court allowed the government to respond without first considering whether Cleveland had established a prima facie case. This situation is similar to that in United States v. Jackson , 347 F.3d 598 (6th Cir. 2003), and rather than reinvent the wheel, we quote much of Jackson 's analysis verbatim in the discussion below.\nIn Jackson , we held that, although the district court did not consider whether the Batson challenge movant established a prima facie case, \"once a party offers a race-neutral explanation for a peremptory challenge and the trial court has ruled on the ultimate question of intentional discrimination, the preliminary issue of whether the defendant [has] made a prima facie showing of intentional discrimination becomes moot.\" Id. at 604 (citation and internal quotations omitted). Thus, as in Jackson , \"we need not consider whether [Cleveland] has established a prima facie showing that the peremptory challenge was based on race.\" Id. at 604-05.\n\"The second step in the Batson inquiry is to assess whether the government articulated a race-neutral explanation for its decision to strike [Reed] from the panel.\" Jackson , 347 F.3d at 605. \"A district court must independently assess a race-neutral explanation and explicitly rule on its credibility, 'particularly in cases when the purported race-neutral justification is predicated on subjective explanations like body language or demeanor.' \" Id. (quoting McCurdy , 240 F.3d at 521 ). \"It is inappropriate for a district court to perfunctorily accept a race-neutral explanation without engaging in further investigation.\" Id. (citing McCurdy , 240 F.3d at 520-21 ). \"However, 'it is the defendant's burden to rebut, to whatever extent possible, the prosecutor's reasons for exercising his or her peremptory strikes on the record at the time such reasons are proffered.' \" Id. (quoting United States v. Harris, 15 F. App'x 317, 321 (6th Cir. 2001) ). \"If a defendant fails to rebut a race-neutral explanation at the time it was made, the district court's ruling on the objection is reviewed for plain error, and the movant in this setting is in no position to register a procedural complaint that the district court failed to give a specific reason on the record for accepting the government's race-neutral explanation.\" Id. (citing United States v. Wilson , 11 F. App'x 474, 476-77 (6th Cir. 2001) ).\nIn the instant case, the district court determined that the government's rationale is \"certainly a race-neutral reason.\" Thus, as in Jackson , \"[t]he district court concluded that the government had come forward with a legitimate, non-discriminatory reason for its peremptory challenge, and [Cleveland] did not object to the court's ruling or attempt to rebut the government's proffered explanation by arguing that it was a pretext for discrimination.\" Jackson , 347 F.3d at 605.\nOn appeal, Cleveland argues that the government failed to provide an adequate, clear, and reasonably specific race-neutral reason for exercising a peremptory challenge on prospective juror Reed. But \"[b]ecause [Cleveland] failed to rebut the government's explanation at the time it was made, we review the district court's ruling on his objection for plain error.\" Id.\nProof of racially discriminatory intent or purpose is required to show a Batson violation of the Equal Protection Clause; racially disproportionate impact alone is not sufficient. Id. \"In the Batson context, a party's explanation for its decision to strike is 'neutral' if it is based on something other than the race of the juror. In the absence of discriminatory intent inherent in the explanation, the reason offered is deemed race neutral.\" Id. (quoting Hernandez , 500 U.S. at 360, 111 S.Ct. 1859 ).\nHere, \"[t]here was no evidence of discriminatory intent inherent in the government's proffered explanation ..., and [Cleveland] made no attempt to argue to the district court that the explanation was a pretext for discrimination. Furthermore, [Cleveland] has not asserted any arguments on appeal that suggest the district court plainly erred by overruling his objection.\" Id. at 606. \"The burden was on [Cleveland] as the party challenging the strike to prove the existence of purposeful discrimination, and when faced with the government's seemingly race-neutral explanation, [Cleveland] made no response.\" Id. ; see also United States v. Lucas , 357 F.3d 599, 609 (6th Cir. 2004) (\"In reviewing the government's race-neutral explanation, we need not find that the reason given is 'persuasive, or even plausible.' All that is necessary is that the reason not be inherently discriminatory.\" (internal citations omitted) ).\n\"It is, therefore, difficult to conclude in this case that the district court made a[n] ... error in determining that the prosecutor's peremptory challenge was free of race bias, since there is no other evidence of discriminatory bias and the prosecutor did not exercise a peremptory challenge in order to eliminate the other one of two [ ] persons [of color] from the jury.\" Lucas , 357 F.3d at 609. \"Under these circumstances, the district court did not plainly err in overruling [Cleveland's] Batson objection.\" Jackson , 347 F.3d at 606.\nIV. The Firearm\nLaw enforcement agents testified that they found a loaded nine-millimeter Smith and Wesson firearm, magazine, and rounds in a bathroom vanity during the search of Williams's residence. The firearm was located in an area that could be accessed quickly given the house's small size. Agent Nusser testified that the firearm's presence in the residence was significant because \"[d]rug dealers ... tend to be violent and rob each other\" and \"they keep guns to protect their wealth and their drugs, and they ... fear other drug dealers and sometimes law enforcement. So they keep guns ready at hand and load it usually.\" Cleveland objected. Nusser also testified that the firearm's serial number revealed that it had been stolen during a burglary in Trumbull County. Cleveland objected. The district court overruled the objections.\nDuring closing arguments, the government stated, \"[I]n the Northern District of Ohio, and elsewhere, you heard testimony that guns and drugs go together. Violence is an inherent part of the distribution trade.\" Cleveland objected, and the district court overruled the objection.\nA district court's admission or exclusion of evidence is reviewed for an abuse of discretion. See United States v. Langan , 263 F.3d 613, 620 (6th Cir. 2001). \"Under this standard, we will leave rulings about admissibility of evidence undisturbed unless we are left with the definite and firm conviction that the district court committed a clear error of judgment in the conclusion it reached.\" United States v. Dixon , 413 F.3d 540, 544 (6th Cir. 2005) (citation, brackets, and ellipses omitted). An abuse of discretion occurs when a district court relies on clearly erroneous findings of fact, improperly applies the law, or uses an erroneous legal standard. Romstadt v. Allstate Ins. Co. , 59 F.3d 608, 615 (6th Cir. 1995). \"Broad discretion is given to district courts in determinations of admissibility based on considerations of relevance and prejudice, and those decisions will not be lightly overruled.\" Dixon , 413 F.3d at 544 (citation omitted).\nIn reviewing a district court's decision on the exclusion of evidence under Federal Rule of Evidence 403, we \"giv[e] the evidence its maximum reasonable probative force and its minimum reasonable prejudicial value.\" United States v. Wheaton , 517 F.3d 350, 364 (6th Cir. 2008) (citation and internal quotation marks omitted). Rule 403 balancing is \"highly discretionary\" and thus, \"the district court's decision is afforded great deference.\" United States v. Bell , 516 F.3d 432, 445 (6th Cir. 2008) (citation omitted). \"[A] decision will not be disturbed if substantial injustice did not result,\" Kovacevich v. Kent State Univ. , 224 F.3d 806, 832 (6th Cir. 2000), and \"[a]n erroneous admission of evidence that does not affect the substantial rights of a party is considered harmless, and should be disregarded.\" United States v. Cope , 312 F.3d 757, 775 (6th Cir. 2002) (citation and internal quotation marks omitted).\nCleveland argues that the district court erred when it \"failed to exclude the testimony regarding a weapon ... found at the residence\" under Rule 403 because any relevance of the weapon is outweighed by the unfair prejudice to Cleveland. He concedes that \"[t]he fact that a gun was found is clearly relevant and permissible evidence\" to establish an ongoing drug conspiracy, \"[b]ut the testimony that the gun was stolen, while still somewhat relevant, becomes ... prejudicial with the testimony that the gun had been used in a burglary in Trumbull County, Ohio.\" He argues this is because \"the testimony in question would tend to lead the jury to believe that Cleveland was a dangerous person who had committed previous serious felonies and posed a threat to law enforcement. Such testimony may cause the jury to convict him for [ ] purposes ... [other] than the evidence present[ed] [in] the actual charge.\" Cleveland also argues that the effect of the testimony regarding the weapon, which resulted in the government's statements at closing argument, analyzed below, violates his Fifth Amendment Due Process rights.\nTo the extent that Cleveland argues that evidence of the weapon itself should not have been admitted, we find that the district court did not abuse its discretion. \"This court has made clear that firearms, as tools of the drug-trafficking trade, are probative evidence in drug prosecutions.\" Wheaton , 517 F.3d at 364 ; see also United States v. Makki , 129 F. App'x 185, 193 (6th Cir. 2005) (\"[W]e have previously held that firearms may be used as 'tools of the trade' evidence in drug trafficking prosecutions.\"); United States v. Reyes , 51 F. App'x 488, 493 (6th Cir. 2002) (\"Possession of firearms is also admissible in drug cases as evidence of 'tools of the trade,' even if no firearms offense has been charged.\"); United States v. Arnott , 704 F.2d 322, 326 (6th Cir. 1983) (recognizing that firearms are \"tools of the trade\" in narcotics trafficking); United States v. Marino , 658 F.2d 1120, 1123 (6th Cir. 1981) (finding that evidence of weapons is allowed even though the indictment does not charge firearm offenses because weapons are \"tools of the trade\" in drug trafficking).\nCleveland's argument is similar to the one advanced by the defendants in United States v. Randolph , No. 97-5990, 1999 WL 98564 (6th Cir. Jan. 27, 1999), who were charged with drug offenses and not firearm offenses. We held: \"In light of our previous rulings that firearms are recognized tools of the drug trade, and the fact that the firearm was loaded and fully operational when found, we find that the evidence which Defendant challenges was probative of the drug charges and not unfairly prejudicial.\" Id. at *4 ; see also Fed. R. Evid. 402 (stating that \"relevant evidence\" is evidence having any tendency to make the existence of any fact that is of consequence to the determination of the action more probable or less probable than it would be without the evidence). Similarly, in Wheaton , this court found that it was not error for the district court to have admitted a photograph of a firearm found at a residence during a drug conspiracy trial because although \"there was no testimony linking [the defendant] directly to the gun at [the residence], there was ample evidence linking him to the location,\" including that his car was parked at the residence. 517 F.3d at 364.\nHere, we find that the testimony regarding the firearm found at the residence was admissible evidence indicative of the drug-trafficking conspiracy given that Cleveland drove the transported vehicle containing the ten kilograms of fake cocaine to Williams's residence, McCain was apprehended fleeing the house with $111,000, agents found the fake cocaine and tools used to package drugs in the residence, Cleveland was in the residence when the warrant was executed, Cleveland's hands had visible traces of fluorescent powder residue from the fake cocaine packaging, and the gun was in a common area of the home. To the extent that Cleveland argues that admission of the testimony concerning the firearm was improper propensity evidence pursuant to Federal Rule of Evidence 404(b), although we are not convinced this is propensity evidence, the same rationale would still apply-the firearm was used as evidence to demonstrate the \"plan\" to traffic drugs. See Fed. R. Evid. 404(b)(2) (stating that propensity evidence may be admitted in a criminal case for another purpose, such as proving \"intent, preparation, plan,\" etc.).\nWe do express concern, however, that the district court allowed testimony from Agent Nusser indicating that the firearm was previously stolen during a burglary. Nevertheless, even if the testimony about the stolen gun was improper, it did not deprive Cleveland of a fair trial because no one suggested that Cleveland stole the weapon or knew that it was stolen. In fact, it was not clear that the firearm belonged to Cleveland. Finally, given the strength of the evidence against Cleveland on his drug-trafficking charges as detailed previously, it is unlikely that the error had a \"substantial and injurious effect or influence\" on the jury's verdict. Brecht v. Abrahamson , 507 U.S. 619, 623, 113 S.Ct. 1710, 123 L.Ed.2d 353 (1993). Thus, any error in eliciting evidence about the stolen weapon was harmless.\nV. Prosecutorial Misconduct During the Closing Arguments\nIn the course of closing arguments, the government stated: \"This is a serious day for the Defendant and a serious day for the United States because ten kilograms of cocaine is sitting here in bricks. But if this had gotten into the community, lives would have been at stake.\" Cleveland objected, and the court overruled the objection. As detailed above, the government also stated: \"[I]n the Northern District of Ohio, and elsewhere, you heard testimony that guns and drugs go together. Violence is an inherent part of the distribution trade.\" Cleveland objected again, and the court overruled the objection. On appeal, Cleveland argues that the prosecutor's statements calling for a verdict against Cleveland, in order to protect the community, constitutes prosecutorial misconduct.\n\"Whether the government's closing argument constitutes prosecutorial misconduct presents a mixed question of law and fact that we review de novo.\" United States v. Tarwater , 308 F.3d 494, 510-11 (6th Cir. 2002) ; see also United States v. Kuehne , 547 F.3d 667, 687 (6th Cir. 2008). \"When reviewing claims of prosecutorial misconduct, we determine first whether the statements were improper.\" Tarwater , 308 F.3d at 511 (citing United States v. Krebs, 788 F.2d 1166, 1177 (6th Cir. 1986) ). \"If they appear improper, we then look to see if they were flagrant and warrant reversal.\" Id. (citing United States v. Carroll , 26 F.3d 1380, 1388 (6th Cir. 1994) ). \"To determine flagrancy, we consider: 1) whether the statements tended to mislead the jury or prejudice the defendant; 2) whether the statements were isolated or among a series of improper statements; 3) whether the statements were deliberately or accidentally before the jury; and 4) the total strength of the evidence against the accused.\" Id. (citations omitted); see also United States v. Funzie , 543 F. App'x 545, 553 (6th Cir. 2013). \"If the challenged remarks are not flagrant, reversal is warranted only if proof of the defendant's guilt was not overwhelming, the defendant objected to the improper remarks, and the court failed to cure the error with an admonishment to the jury.\" Funzie , 543 F. App'x at 553. The issue is whether the prosecutor's statements \"so infected the trial with unfairness as to make the resulting conviction a denial of due process.\" Donnelly v. DeChristoforo , 416 U.S. 637, 643, 94 S.Ct. 1868, 40 L.Ed.2d 431 (1974).\nA. Comments Regarding the Community\nCleveland argues that \"it is improper for the prosecutor to appeal to jurors to act as a conscience for the community or to make other remarks likely to inflame the passions of the jury if the remarks are intended to lead to a conviction for an improper reason[ ].\" We have previously held that \"[p]rosecutors may not press the jury to send a message to all criminals in the community by convicting the defendant because the amelioration of society's woes is far too heavy a burden for the individual criminal defendant to bear.\" United States v. Herring , 641 F. App'x 451, 454 (6th Cir. 2016). However, we have also rejected a defendant's claim that a prosecutor's statement during closing argument regarding preventing poison from entering the community misled the jury or prejudiced the defendant. See United States v. Scott , 716 F. App'x 477, 487 (6th Cir. 2017). Similarly, here, we are not persuaded that the government's statements misled the jury or prejudiced the defendant. The statement was not a request \"to send a message.\" Id. Instead, the government was referencing the common fact that drugs are a community problem without asking the jury to fix or combat that problem through a verdict. Id. (holding that the government \"was accurately describing facts\" when referring to the drugs as poison). In other words, the government's statement does not rise to the level of \"do your duty\" and/or \"send a message with your verdict\" comments that may constitute prosecutorial misconduct because nothing in the government's statement requested the jury to act in a particular manner. See United States v. Runyon , 707 F.3d 475, 514 (4th Cir. 2013).\nMoreover, although it \"[i]t is axiomatic that a prosecutor may not make remarks that are calculated only to arouse the passions and prejudice of the jury[,] ... isolated inappropriate remarks by the prosecutor, in an otherwise fair trial, do not generally justify reversal of a criminal conviction.\" United States v. Chalkias , 971 F.2d 1206, 1213 (6th Cir. 1992) (citations omitted). This is especially true when, as here, the total strength of the evidence against the defendant is compelling.\nB. Comments Regarding the Firearm\nCleveland argues that the prosecutor's comments regarding guns and drugs \"go[ing] together\" improperly emphasized the theme of protecting the community from violent drug dealers even though Cleveland was not charged with possession of guns, stolen property, or burglary.\nAs detailed above, testimony that agents seized a firearm during execution of the search warrant was related to the drug-trafficking and drug conspiracy charges and thus, was relevant and probative evidence even though Cleveland was not charged with a firearm offense. Accordingly, the prosecutor's comment did not constitute prosecutorial misconduct or rise to the level of argument that might mislead or inflame the jury concerning its duty, particularly in the context of a case such as this one involving compelling evidence of guilt.\nVI. Conclusion\nFor the abovementioned reasons, we therefore AFFIRM the district court.\nCleveland does not dispute the government's assertion that the earlier warrant to search Williams's residence authorized law enforcement to seize the cellphone from the house.\nAlthough the issuing magistrate judge specified a 21-day deadline for executing the warrant, the warrant's form language and Rule 41(e)(2)(A)(i) contain a 14-day deadline. However, neither time period affects the outcome of this case because law enforcement executed the warrant well before the earlier deadline.\nThe government notes that after arriving at the laboratory, the phone was placed in a \"Faraday room\" to isolate the phone from the network and put it in airplane mode. In other words, this sequestration disabled transmissions to the phone. A digital forensic examiner with the Drug Enforcement Administration also testified that \"[m]ost of the time the devices are already powered off when [they are] receive[d] ... whether it's the agents turn them off when they seize them or the battery's died in transit.\"\nBecause we hold that extraction of the cellular data did not violate the warrant at issue, we need not reach the parties' alternative argument regarding the good-faith exception to the exclusionary rule.\nIn Jackson , we contemplated that \"[a] movant's failure to argue pretext may even constitute waiver of his initial Batson objection.\" Jackson , 347 F.3d at 605 (citations omitted).\nCleveland argues that he did object because defense counsel, in the first instance, requested that the government provide a rationale for exercising a peremptory challenge on Reed. This argument misconstrues the case law. Cleveland raised an issue with the government's peremptory strike, and the government then responded with a legitimate, non-discriminatory reason. The issue is whether Cleveland objected, or otherwise attempted to rebut, after the government offered its reason for the challenge. In other words, once the government offered a legitimate, non-discriminatory reason for striking Reed, the burden was on Cleveland to object that the proffered reason was pretextual and/or rebut the government and demonstrate purposeful discrimination. The record shows that Cleveland did not do so.\nThe trial transcript appears to contain a typographical error when it misidentifies the district court as making the statement that, \"We generally seize firearms that are in drug houses and drugs and guns go together and we-we try to take them and we try to determine if they're-who the owner is. In this case, it was stolen in a burglary somewhere in Trumbull County.\" In fact, this statement was made apparently by Agent Nusser as part of his testimony, as both parties indicate in their briefing.\nWe note that the prosecutor did not reference the testimony regarding the stolen nature of the firearm, or the firearm's involvement in a burglary, during closing arguments.",
+        "type": "majority",
+        "author": "JOHN K. BUSH, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "ON BRIEF: David L. Doughten, Cleveland, Ohio, for Appellant. Laura McMullen Ford, UNITED STATES ATTORNEY'S OFFICE, Cleveland, Ohio, for Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee,\nv.\nDockery CLEVELAND, Defendant-Appellant.\nNo. 17-3993\nUnited States Court of Appeals, Sixth Circuit.\nDecided and Filed: October 19, 2018\nRehearing En Banc Denied December 6, 2018\nON BRIEF: David L. Doughten, Cleveland, Ohio, for Appellant. Laura McMullen Ford, UNITED STATES ATTORNEY'S OFFICE, Cleveland, Ohio, for Appellee.\nBefore: NORRIS, DONALD, and BUSH, Circuit Judges."
+  },
+  "file_name": "0423-01",
+  "first_page_order": 423,
+  "last_page_order": 439
+}

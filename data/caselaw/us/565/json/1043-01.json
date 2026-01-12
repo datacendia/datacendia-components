@@ -1,0 +1,59 @@
+{
+  "id": 12234234,
+  "name": "Modena v. United States",
+  "name_abbreviation": "Modena v. United States",
+  "decision_date": "2011-11-14",
+  "docket_number": "No. 11-6846",
+  "first_page": "1043",
+  "last_page": "1043",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1043"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.688,
+    "sha256": "3dd544365de991affe26683e312929c0f99d4521b2f844b03b6bf70aeb569ca4",
+    "simhash": "1:c71a8203ce3f144c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Modena v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6846.\nModena v. United States."
+  },
+  "file_name": "1043-01",
+  "first_page_order": 1125,
+  "last_page_order": 1125
+}

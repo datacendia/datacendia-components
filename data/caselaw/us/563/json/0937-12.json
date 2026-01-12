@@ -1,0 +1,59 @@
+{
+  "id": 5950093,
+  "name": "Hill v. Muwwakkil",
+  "name_abbreviation": "Hill v. Muwwakkil",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-1082",
+  "first_page": "937",
+  "last_page": "937",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 937"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 64,
+    "ocr_confidence": 0.644,
+    "sha256": "6088c9436251baa42a502d143ba30e86f18076fb46f6fa103a39505d37dca0c6",
+    "simhash": "1:eafba6e2afed1cda",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hill v. Muwwakkil."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Va. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1082.\nHill v. Muwwakkil."
+  },
+  "file_name": "0937-12",
+  "first_page_order": 963,
+  "last_page_order": 963
+}

@@ -1,0 +1,59 @@
+{
+  "id": 6022445,
+  "name": "Lazaro v. Holder, Attorney General",
+  "name_abbreviation": "Lazaro v. Holder",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7471",
+  "first_page": "1153",
+  "last_page": "1153",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1153"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 83,
+    "ocr_confidence": 0.501,
+    "sha256": "afafef054ea358a562e9035f1911dd35114ed78d5ee91fe9c4cbd8bc50c5ae36",
+    "simhash": "1:40095298c8683466",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lazaro v. Holder, Attorney General."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7471.\nLazaro v. Holder, Attorney General."
+  },
+  "file_name": "1153-13",
+  "first_page_order": 1175,
+  "last_page_order": 1175
+}

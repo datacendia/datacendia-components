@@ -1,0 +1,59 @@
+{
+  "id": 12210293,
+  "name": "Vinton v. United States",
+  "name_abbreviation": "Vinton v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11091",
+  "first_page": "866",
+  "last_page": "866",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 866"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.604,
+    "sha256": "fcc9d22909eacc2f072bd3d78e8767bbaa349afe196606b59e97956012a576fc",
+    "simhash": "1:04fa9a43cf7110a8",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Vinton v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11091.\nVinton v. United States."
+  },
+  "file_name": "0866-11",
+  "first_page_order": 948,
+  "last_page_order": 948
+}

@@ -1,0 +1,59 @@
+{
+  "id": 6015147,
+  "name": "Baker v. Booz Allen Hamilton, Inc.",
+  "name_abbreviation": "Baker v. Booz Allen Hamilton, Inc.",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-1577",
+  "first_page": "841",
+  "last_page": "841",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 841"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 82,
+    "ocr_confidence": 0.594,
+    "sha256": "ee94d76e9962e9986331c914cf3222eccb3d65e0acdea75c8cd63b47449a1cce",
+    "simhash": "1:d2c9c2d0cec4c80f",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Baker v. Booz Allen Hamilton, Inc."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-1577.\nBaker v. Booz Allen Hamilton, Inc."
+  },
+  "file_name": "0841-10",
+  "first_page_order": 863,
+  "last_page_order": 863
+}

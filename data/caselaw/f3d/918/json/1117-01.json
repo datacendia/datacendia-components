@@ -1,0 +1,668 @@
+{
+  "id": 12520383,
+  "name": "UNITED STATES of America, Plaintiff - Appellee v. Michael DALTON, Defendant - Appellant.",
+  "name_abbreviation": "U.S. v. Dalton",
+  "decision_date": "2019-03-21",
+  "docket_number": "No. 17-2146",
+  "first_page": "1117",
+  "last_page": "1134",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "918 F.3d 1117"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "10th Cir.",
+    "id": 8771,
+    "name": "United States Court of Appeals for the Tenth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "915 F.2d 572",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10536750
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "582-83"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/915/0572-01"
+      ]
+    },
+    {
+      "cite": "438 U.S. 154",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1769234
+      ],
+      "weight": 3,
+      "year": 1978,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/438/0154-01"
+      ]
+    },
+    {
+      "cite": "230 F.3d 1224",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1094335
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "1230",
+          "parenthetical": "citations and internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/230/1224-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 921",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(3)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "502 F.3d 931",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5523850
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "970"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/502/0931-01"
+      ]
+    },
+    {
+      "cite": "843 F.3d 1",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12171702
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "7"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/843/0001-01"
+      ]
+    },
+    {
+      "cite": "613 F.3d 1263",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3703705
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "1268"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/613/1263-01"
+      ]
+    },
+    {
+      "cite": "61 F.3d 1446",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11324441
+      ],
+      "weight": 2,
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "1459"
+        },
+        {
+          "page": "1452"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/61/1446-01"
+      ]
+    },
+    {
+      "cite": "517 U.S. 456",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11745202
+      ],
+      "weight": 3,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "464"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/517/0456-01"
+      ]
+    },
+    {
+      "cite": "261 F.3d 993",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9497655
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "1014"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/261/0993-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 6003",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "537 F.3d 1271",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4130425
+      ],
+      "year": 2008,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/537/1271-01"
+      ]
+    },
+    {
+      "cite": "285 F.3d 916",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9446861
+      ],
+      "weight": 2,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "931"
+        },
+        {
+          "page": "931",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/285/0916-01"
+      ]
+    },
+    {
+      "cite": "406 F.3d 1208",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1095759
+      ],
+      "weight": 8,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1215"
+        },
+        {
+          "page": "1216"
+        },
+        {
+          "page": "1215-16"
+        },
+        {
+          "page": "1216",
+          "parenthetical": "citation omitted"
+        },
+        {
+          "parenthetical": "emphasis in original"
+        },
+        {
+          "page": "1218",
+          "parenthetical": "emphasis in original"
+        },
+        {
+          "page": "1218"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/406/1208-01"
+      ]
+    },
+    {
+      "cite": "696 F.3d 1280",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5862645
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "1295"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/696/1280-01"
+      ]
+    },
+    {
+      "cite": "653 F.3d 1188",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3822365
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1198"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/653/1188-01"
+      ]
+    },
+    {
+      "cite": "894 F.3d 1206",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517450
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1214",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/894/1206-01"
+      ]
+    },
+    {
+      "cite": "864 F.3d 1154",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275984
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1184",
+          "parenthetical": "Phillips, J., concurring"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/864/1154-01"
+      ]
+    },
+    {
+      "cite": "834 F.2d 1213",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10551276
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "1219"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/834/1213-01"
+      ]
+    },
+    {
+      "cite": "427 F.3d 567",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1241004
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "574",
+          "parenthetical": "holding that probable cause to arrest a suspect for drug trafficking dissipated after agents strip-searched the suspect and found nothing"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/427/0567-01"
+      ]
+    },
+    {
+      "cite": "900 F.2d 926",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10536080
+      ],
+      "weight": 7,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "928"
+        },
+        {
+          "page": "928-29"
+        },
+        {
+          "page": "929"
+        },
+        {
+          "page": "930-31"
+        },
+        {
+          "page": "932"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/900/0926-01"
+      ]
+    },
+    {
+      "cite": "187 A.L.R. Fed. 415",
+      "category": "reporters:federal",
+      "reporter": "A.L.R. Fed.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "13 A.L.R. Fed. 2d 1",
+      "category": "reporters:federal",
+      "reporter": "A.L.R. Fed. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "405 F.3d 1173",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9013598
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1177"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/405/1173-01"
+      ]
+    },
+    {
+      "cite": "287 U.S. 206",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        369566
+      ],
+      "weight": 3,
+      "year": 1932,
+      "pin_cites": [
+        {
+          "parenthetical": "holding that a twenty-one-day delay that elapsed between an officer's application for a search warrant and the officer's execution of the search warrant nullified probable cause"
+        },
+        {
+          "parenthetical": "holding that a twenty-one-day delay that elapsed between an officer's application for a search warrant and the officer's execution of the search warrant nullified probable cause"
+        },
+        {
+          "parenthetical": "holding that a twenty-one-day delay that elapsed between an officer's application for a search warrant and the officer's execution of the search warrant nullified probable cause"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/287/0206-01"
+      ]
+    },
+    {
+      "cite": "707 F.3d 1190",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3537322
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "1195-96"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/707/1190-01"
+      ]
+    },
+    {
+      "cite": "462 U.S. 213",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6187462
+      ],
+      "weight": 3,
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "238"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/462/0213-01"
+      ]
+    },
+    {
+      "cite": "547 U.S. 90",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3276079
+      ],
+      "weight": 6,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "95",
+          "parenthetical": "citing Illinois v. Gates, 462 U.S. 213, 238, 103 S.Ct. 2317, 76 L.Ed.2d 527 (1983) "
+        },
+        {
+          "parenthetical": "citing Illinois v. Gates, 462 U.S. 213, 238, 103 S.Ct. 2317, 76 L.Ed.2d 527 (1983) "
+        },
+        {
+          "parenthetical": "citing Illinois v. Gates, 462 U.S. 213, 238, 103 S.Ct. 2317, 76 L.Ed.2d 527 (1983) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/547/0090-01"
+      ]
+    },
+    {
+      "cite": "380 U.S. 102",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1524630
+      ],
+      "weight": 3,
+      "year": 1965,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/380/0102-01"
+      ]
+    },
+    {
+      "cite": "60 F.3d 672",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12042324
+      ],
+      "weight": 6,
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "675-677"
+        },
+        {
+          "page": "677"
+        },
+        {
+          "page": "677"
+        },
+        {
+          "page": "681"
+        },
+        {
+          "page": "681"
+        },
+        {
+          "page": "681"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/60/0672-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1291",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7\u00a7 922",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 8,
+      "pin_cites": [
+        {
+          "page": "(g)(1)"
+        },
+        {
+          "page": "(g)(1)"
+        },
+        {
+          "page": "33"
+        },
+        {
+          "page": "32"
+        },
+        {
+          "page": "33"
+        },
+        {
+          "page": "(g)(1)"
+        },
+        {
+          "page": "(g)(3)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1404,
+    "char_count": 40271,
+    "pagerank": {
+      "raw": 4.408767690195799e-08,
+      "percentile": 0.2767452851498292
+    },
+    "sha256": "00433f6838d48fa023e11d508d118c38a3e3aeaa5079728ec7cb846f90493b33",
+    "simhash": "1:c1de4f11eb8b3e63",
+    "word_count": 6491
+  },
+  "last_updated": "2024-02-27T18:46:20.843221+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before LUCERO, EBEL, and PHILLIPS, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff - Appellee\nv.\nMichael DALTON, Defendant - Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "EBEL, Circuit Judge.\nIn 2017, Michael Dalton was convicted by a jury of being a felon in possession of a firearm in violation of 18 U.S.C. \u00a7\u00a7 922(g)(1) and 924(e). Dalton challenges his conviction on several evidentiary grounds. We agree with only one of Dalton's arguments-that the district court should have excluded the evidence the government obtained during the second search of Dalton's residence that occurred in this case, which we conclude was unlawful. The police conducted the second search of Dalton's residence pursuant to a warrant that permitted the officers to search for firearms and firearm paraphernalia based on (1) the officers' discovery of an AK-47 in Dalton's car, (2) their knowledge that Dalton could not lawfully possess firearms as a previously convicted felon, and (3) their knowledge from training and experience that, frequently, persons who have firearms in their vehicles also have firearms in their homes. However, after the officers obtained the search warrant but before they executed it, the officers discovered that someone other than Dalton had been driving Dalton's vehicle with the AK-47 in it, which, when combined with the other facts the officers knew, made it materially less likely that firearms and firearm paraphernalia would be found in Dalton's residence. Nonetheless, the officers conducted the search. We conclude that the second search was not supported by probable cause. However, we determine that the inclusion of the evidence discovered in the second search at Dalton's trial was harmless error. Therefore, exercising jurisdiction under 28 U.S.C. \u00a7 1291, we AFFIRM Dalton's conviction.\nI. BACKGROUND\n1. Dalton's arrest and the first search of the Kenlea house\nOn August 28, 2015, police officers responded to a domestic disturbance call concerning a loud argument that was taking place between Michael Dalton and Maria Nevarez in the front yard of 1101 S. Kenlea Drive in Roswell, New Mexico (the \"Kenlea house\"). The neighbor who called 911 reported that she heard Dalton tell Nevarez that, if Nevarez left the residence, \"he was going to shoot her in the head.\" R. Vol. III at 74. The neighbor also reported that there was a young boy, about age two, standing in the yard. After the argument, but before police arrived, Nevarez left the area in a vehicle, and Dalton went inside the Kenlea house with the child.\nTwo police officers arrived at the Kenlea house six minutes after the neighbor called 911. The neighbor told them that she heard gun shots coming from the direction of the Kenlea house. Officer Kim Northcutt, one of the officers on-site, recorded almost everything that happened outside the Kenlea house that day using his body-worn camera. That footage showed the following events. The officers who first responded to the Kenlea house knocked on the front door, but no one answered. More police officers arrived on scene to help respond to what they understood to be a potential hostage situation. One officer began calling Dalton to come out of the house using the public-address system of a police car. She continued to call Dalton out of the house every few minutes. Then, concerned that Dalton was armed and barricaded in the house with a small child, the police called in the S.W.A.T. team, which arrived approximately thirty minutes later. Eventually, after the police had been outside of the Kenlea residence for one hour, Dalton exited the home voluntarily with the child and stated that he had been sleeping.\nAt some point during the standoff, Police officers interviewed Nevarez, who was parked nearby, and she told them that there were \"no firearms in the house.\" Aplt. Supp. R. Vol. I at 4. Nonetheless, concerned about the gunshots that the neighbor heard and aware that Dalton was not allowed to possess firearms because of a previous felony conviction, the police obtained a warrant to search the Kenlea house, and they executed it soon after Dalton exited the house. During the search, police found three firearms, several types of ammunition, and a gun-cleaning kit (\"the first search\"). They also discovered, in the home, men's clothing, a piece of mail addressed to Dalton, a debit card with Dalton's name on it, and an ID card with Dalton's name and photo on it. Based on the evidence found in the search, Dalton was charged with, inter alia, being a felon in possession of firearms in violation of 18 U.S.C. \u00a7 922(g)(1).\nA number of months after the standoff incident, ATF Agent Lisa Brackeen asked Nevarez some questions to assist in her investigation of Dalton. Nevarez did not swear to tell the truth during the interview, but Brackeen warned her that she could be criminally charged if she lied to a federal officer. During the interview, Nevarez told Brackeen that the firearms the law enforcement officers found in the Kenlea house after the standoff did not belong to Dalton but instead belonged to one of Nevarez's friends. Nevarez claimed that she had been \"holding\" the guns for her friend for about two months when the police found them. Id. Nevarez also stated that Dalton did not live in the Kenlea house, he only stayed there occasionally. Finally, Nevarez told Brackeen that, not only did Dalton not own the guns, he also did not know that they were in the house.\n2. The second search of the Kenlea house\nEight months after Dalton's initial arrest but before his trial, the police discovered ammunition in the Kenlea house again during a second, warrant-based search that was unrelated to the August 28 standoff. The government introduced the evidence discovered in that search at trial over Dalton's objection, and therefore, even though no charges were filed as a result of the second search, it is relevant to this appeal.\nThe second search of the Kenlea house came about on May 1, 2016, just after midnight. That evening, Officer Ryan Craine attempted to stop a red car driving in Roswell that he knew belonged to Michael Dalton because he knew that, at the time, Dalton had a warrant out for his arrest. However, as soon as Officer Craine flipped on his police lights, the vehicle sped away. Officer Craine followed the car for several blocks until he lost sight of it. Moments later, he found the car parked, with no one inside it, in the alley behind the Kenlea house where he believed Michael Dalton lived.\nWhen Officer Craine found the vehicle, he observed an AK-47 rifle in the front seat. Officer Craine contacted a neighbor who told him that the driver jumped a fence into the backyard of the Kenlea house. Other officers arrived on scene, and they immediately surrounded the house and began calling the people inside to come out. After about thirty minutes, Dalton and Nevarez exited the house. They explained to the police that \"no one else was inside.\" Id. at 33. Dalton also explained that he was not driving the red car that evening and did not know who had his vehicle. Dalton said that both he and his girlfriend, Nevarez, had been home since approximately 9:30 p.m. and had not left the house.\nOne of the officers on scene ran a background check of Dalton and learned that he was a convicted felon who could not legally possess firearms. As a result, Officer Craine left the scene to apply for and obtain a warrant to search the Kenlea house for \"firearms and firearm paraphernalia including any ammunition, holsters, firearm cases, owner's manuels [sic], paperwork showing purchase or sale of firearms.\" Id. at 32. He referred in his affidavit to the gun discovered in Dalton's vehicle that evening and noted that, \"based on [his] training and experience persons who have firearms in their vehicles also have firearms and firearm paraphernalia in their homes.\" Id. at 33. Based on that information, a magistrate judge issued a warrant that permitted the police immediately to search the Kenlea house for weapons.\nWhile the officers on-site were waiting for Officer Craine to return with the warrant, they discovered a man in the backyard of the residence named Farrell Wheeler. The officers recognized that Wheeler had a warrant out for his arrest for murder. At that point, the officers \"determined\" that Wheeler had been driving Dalton's red car with the rifle that evening. R. Vol. III at 358. Officer Craine returned with the search warrant either coincident to or immediately after the other officers discovered Wheeler in the backyard. Then, although the officers had no reason to believe Wheeler had been in the Kenlea house that day, they executed the warrant to search the house, and they found thirteen .22 caliber bullets in one of the bedrooms in plain view (\"the second search\"). Importantly, because the officers discovered Wheeler in the backyard (and had determined that he had been driving Dalton's car that night) after Officer Craine had obtained the second search warrant, Craine's affidavit for that warrant had not included any information about Wheeler. As mentioned above, although Dalton was not charged with a crime based on the ammunition evidence the officers discovered during the second search, the second search is relevant to this appeal because the government was allowed to introduce the evidence found in that search at Dalton's trial to prove that he knowingly possessed the firearms and ammunition discovered in the Kenlea house during the first search.\n3. Dalton's trial\nAt trial, the government was allowed to introduce, over Dalton's objection, (1) the ammunition evidence the government obtained during the second search, (2) twenty minutes of the body-worn camera footage taken at the scene of Dalton's initial arrest, and (3) the testimony of four forensic experts, who concluded that no fingerprint or DNA evidence was discovered to connect Dalton to the crimes charged, and that the firearms discovered were functional. On the other hand, (4) Dalton was unable to call Nevarez as a witness because she invoked her Fifth Amendment privilege against self-incrimination and the district court accepted her decision. (5) The district court also prohibited Dalton, on hearsay grounds, from introducing into evidence the transcript of Agent Brackeen's interview with Nevarez during which Nevarez stated that Dalton was unaware of the guns discovered during the first search. The jury found Dalton guilty of being a felon in possession of firearms in violation of 18 U.S.C. \u00a7 922(g)(1). Dalton appeals each of the above evidentiary rulings.\nWe agree with Dalton that the district court should have excluded the 404(b) evidence (the ammunition discovered as a result of the second search) as the fruit of an unlawful search, but the inclusion of that evidence was harmless error. We reject Dalton's remaining claims and therefore AFFIRM the district court.\nII. DISCUSSION\n1. Constitutionality of the Second Search\nDalton argues that the district court erred by admitting the ammunition evidence that the police discovered during the second search under Fed. R. Evid. 404(b) because it was the product of a search that was not supported by probable cause. We review claims that a district court improperly admitted evidence that was obtained in violation of the Fourth Amendment using a two-step process. First, we consider whether the district court followed and properly applied the four-part test for admitting evidence under Fed. R. Evid. 404(b). United States v. Hill, 60 F.3d 672, 675-677 (10th Cir. 1995). Second, if the evidence was properly admitted under Rule 404(b), we consider whether the district court should have excluded it nonetheless because (1) it was unlawfully obtained under the Fourth Amendment and (2) introduced at trial to prove an essential element of a charged offense. Id. at 677. Dalton does not argue that the evidence discovered in the May 1 search failed to satisfy the Rule 404(b) admissibility standards. Therefore, we consider only whether the evidence should have been excluded on constitutional grounds.\nThe Fourth Amendment's exclusionary rule applies to preclude the government's use of Rule 404(b) evidence if (1) it was unlawfully obtained, (2) the government used the evidence at trial \"to prove an essential element of a charged offense,\" and (3) there is \"some nexus between the initial search and seizure and the subsequent charged offense.\" Id. at 677. The issue presented to us pertains only to the first element, whether the ammunition evidence found inside the Kenlea house on May 1 was obtained as a result of an illegal search. Because the second search was pursuant to a warrant, the issue is further refined to determining whether the warrant was valid. Here, Dalton asserts that the warrant was invalid because evidence obtained after Craine prepared the search warrant affidavit but before the warrant was executed rendered the affidavit incomplete and misleading. Reviewing the reasonableness of the second search de novo, Hill, 60 F.3d at 681, we conclude that the search was unlawful because, at the time the officers executed the search warrant, probable cause did not exist to support the search. Therefore, the district court should have excluded the ammunition evidence discovered in the second search. Nonetheless, we determine that this error was harmless.\nA. Second search violated the Fourth Amendment\nDalton argues that the second search was not supported by probable cause at the time the officers executed it. Thus, we consider whether the probable cause that initially supported the warrant for the May 1 search dissipated once the officers discovered that Wheeler rather than Dalton had been driving Dalton's car.\nThe Fourth Amendment prohibits unreasonable searches. U.S. Const. amend. IV. In general, for a search to be reasonable, it must be supported by a warrant based on probable cause. United States v. Ventresca, 380 U.S. 102, 85 S.Ct. 741, 13 L.Ed.2d 684 (1965). \"Probable cause exists when 'there is a fair probability that contraband or evidence of a crime will be found in a particular place.' \" United States v. Grubbs, 547 U.S. 90, 95, 126 S.Ct. 1494, 164 L.Ed.2d 195 (2006) (citing Illinois v. Gates, 462 U.S. 213, 238, 103 S.Ct. 2317, 76 L.Ed.2d 527 (1983) ). \"The Fourth Amendment requires probable cause to persist from the issuance of a search warrant to its execution.\" United States v. Garcia, 707 F.3d 1190, 1195-96 (10th Cir. 2013). However, in some cases \"probable cause may cease to exist after a warrant is issued. The police may learn, for instance, that contraband is no longer located at the place to be searched.\" Grubbs, 547 U.S. at 95 n.2, 126 S.Ct. 1494. \"Or the probable-cause showing may have grown 'stale' in view of the time that has passed since the warrant was issued.\" Id. In those cases, the warrant will no longer directly support the ensuring search.\nThere is a plethora of cases in nearly every circuit explaining the circumstances in which a time delay will nullify probable cause as found in the warrant. See, e.g., Sgro v. United States, 287 U.S. 206, 53 S.Ct. 138, 77 L.Ed. 260 (1932) (holding that a twenty-one-day delay that elapsed between an officer's application for a search warrant and the officer's execution of the search warrant nullified probable cause); United States v. Cantu, 405 F.3d 1173, 1177 (10th Cir. 2005) ; see also 13 A.L.R. Fed. 2d 1 (compiling federal drug cases discussing \"stale\" probable cause) and 187 A.L.R. Fed. 415 (compiling federal non-drug cases discussing same).\nHowever, there are far fewer examples of cases where new information, rather than the passage of time, nullifies the probable cause articulated in a warrant. A Sixth Circuit case, United States v. Bowling, 900 F.2d 926 (6th Cir. 1990), is the most illustrative. In Bowling, Forest Service officers had probable cause to believe that the defendants owned two illegal marijuana plots located on United States Forest Service property and that evidence of that ownership was located in the defendants' trailer. Id. at 928. While one officer left the site of the trailer to obtain a search warrant, two other officers remained there and coincidently obtained consent from the trailer-owner to search the trailer. Id. at 928-29. The officers searched the trailer, but they did not find any evidence linking the defendants to the marijuana plots. Id. at 929.\nTwo hours later, a police officer returned to the trailer with the search warrant and conducted a second search, which uncovered incriminating evidence which had been missed during the first consent-based search of the trailer. Id. The issue before the Sixth Circuit was whether the information that the officers learned during the consent search-that there was no apparent incriminating evidence in the trailer-dissipated the probable cause that originally supported the warrant such that the second search violated the Fourth Amendment. Id. at 930-31. The Sixth Circuit determined that it did, holding that \"where an initial fruitless consent search dissipates the probable cause that justified a warrant, new indicia of probable cause must exist to repeat a search of the same premises pursuant to the warrant.\" Id. at 932.\nThe Sixth Circuit is not the only circuit to hold that new information can dissipate probable cause. The Fifth and Ninth Circuits have drawn that conclusion in comparable cases. See United States v. Ortiz-Hernandez, 427 F.3d 567, 574 (9th Cir. 2005) (holding that probable cause to arrest a suspect for drug trafficking dissipated after agents strip-searched the suspect and found nothing); Bigford v. Taylor, 834 F.2d 1213, 1219 (5th Cir. 1988) (holding that, although police initially had probable cause to seize a truck as stolen because its federal safety sticker was missing and its VIN had been altered, that probable cause dissipated when the officers learned that no vehicle matching the truck's description had been reported stolen); c.f. Harte v. Board of Comm'rs of Cty. of Johnson, Kansas, 864 F.3d 1154, 1184 (10th Cir. 2017) (Phillips, J., concurring) (determining that, in a section 1983 case, police officers violated the Fourth Amendment by continuing the search of a home after probable cause had dissipated).\nLike the Sixth Circuit in Bowling, we are persuaded that probable cause becomes stale when new information received by the police nullifies information critical to the earlier probable cause determination before the warrant is executed. See Wayne Lafave, Search and Seizure \u00a7 4.7(a), at 822 (5th ed. 2012). To determine whether probable cause dissipated in this case, we ask whether a material fact in Craine's warrant affidavit was determined by the executing officers to have been either inaccurate or omitted prior to the time the warrant was executed.\nIf Dalton had been the driver of his car with a firearm inside it, as the officers' initially thought, that would have made it more reasonable under the facts of this case to believe that Dalton also had firearms in his house. However, if only Wheeler had possession of the car at the time the firearm had been discovered in it, then that firearm likely would not have been sufficiently linked to Dalton to support a second warrant to search his residence. Here, the evidence in the record demonstrates that, at first, the officers on site at the Kenlea house believed that Dalton had possessed the firearm in his vehicle on May 1 but, by the time Craine returned with the search warrant or shortly thereafter, the officers had learned that Wheeler had been hiding in the backyard of the Kenlea house and that he had been the driver of Dalton's car. Therefore, at the time the officers executed the warrant, they had neither probable cause to believe that Dalton possessed the gun in his vehicle nor that he was illegally harboring firearms inside the Kenlea house at that time. Thus, the second search was unlawful.\nB. District court's error was harmless\nHowever, we conclude that we need not set aside Dalton's conviction even if the \"essential element\" and \"nexus\" requirements of our Fourth Amendment test are also satisfied because the district court's error in permitting the government to introduce the evidence discovered in the second search was harmless. The harmlessness test for constitutional errors is \"more exacting\" than that for non-constitutional errors. Wright & Miller, 3B Fed. Prac. & Proc. Crim. \u00a7 855, at 531 (4th ed. 2013). A constitutional error can be held harmless only if \"admitting the evidence was 'harmless beyond a reasonable doubt.' \" United States v. Hill, 60 F.3d 672, 681 (10th Cir. 1995).\nAt trial, the government was required to prove beyond a reasonable doubt that Dalton \"knowingly possessed a firearm and/or ammunition\" on August 28, 2015. R. Vol. III at 487-88. To prove its case, the government presented strong evidence, apart from the challenged Rule 404(b) evidence, to show that Dalton lived at the Kenlea house and knew about the guns that were discovered during the first search. That evidence included proof of the following: During the first search, officers found Dalton's clothing, mail, debit card, and ID card at the Kenlea house. Two to three months prior to the August standoff, Dalton went over to his neighbor's house to return a piece of mis-delivered mail and said, \"I'm your neighbor. And the mail guy, he left your letter in my box,\" and then gave her the letter. R. Vol. III at 36. During the argument between Dalton and Nevarez on August 28, Dalton yelled that, if Nevarez left, \"he was going to shoot her in the head.\" Id. at 74. Finally, a neighbor heard gunshots come from the direction of the Kenlea house during a time when Dalton was the only adult in the home. Moreover, although the prosecutors commented on the 404(b) ammunition evidence once during closing argument, they did so only briefly during the first closing and not at all during the rebuttal close. And, to curtail any prejudice, the district court gave the jury a limiting instruction, which explained that the jury could consider the ammunition evidence only \"as it bears on the defendant's intent, knowledge, absence of mistake, and for no other purpose.\" Id. at 490. Given this evidence suggesting that Dalton had knowledge of and access to the firearms in the Kenlea house on the date of the first search, the limited use the prosecution made of the 404(b) evidence during closing argument, and the limiting instruction that the trial court gave the jury regarding the use of the 404(b) evidence, we are persuaded that omitting evidence of Dalton's later unlawful possession of ammunition in 2016 \"would not have changed the jury's determination\" that Dalton knowingly possessed at least one firearm on August 28. Hill, 60 F.3d at 681. Therefore, admitting the ammunition evidence unlawfully obtained on May 1 was harmless beyond a reasonable doubt.\n2. Nevarez's Invocation of her Fifth Amendment Privilege\nDalton raises three arguments related to Nevarez's invocation of her Fifth Amendment right. We address each in turn, but all are subject to plain error review because Dalton did not raise this issue below. Under the plain-error standard of review, \"the defendant must establish that (1) the district court committed error; (2) the error was plain-that is, it was obvious under current well-settled law; (3) the error affected the Defendant's substantial rights; and (4) the error seriously affected the fairness, integrity, or public reputation of judicial proceedings.\" United States v. Chavez-Morales, 894 F.3d 1206, 1214 (10th Cir. 2018) (internal quotation marks omitted). We \"apply the plain error rule less rigidly when reviewing a potential constitutional error.\" United States v. Weeks, 653 F.3d 1188, 1198 (10th Cir. 2011).\nA. Government did not coerce Nevarez\nFirst, Dalton argues that the government improperly coerced Nevarez into invoking her Fifth Amendment privilege against self-incrimination in violation of Defendant's right to present a defense at trial. We disagree. A criminal defendant has the right to present a defense, United States v. Pablo, 696 F.3d 1280, 1295 (10th Cir. 2012), but that right is not absolute and \"may, in appropriate cases, bow to accommodate other legitimate interests in the criminal trial process,\" United States v. Serrano, 406 F.3d 1208, 1215 (10th Cir. 2005), including a witness's Fifth Amendment privilege against self-incrimination, id. But a defendant's right to present a defense does not give way to a witness's decision to invoke her privilege against self-incrimination if the government has \"substantially interfere[d]\" with that decision. Id. at 1216. This restriction on government action applies to both the prosecution and the district court. Id. at 1215-16. \"Interference is substantial when the government actor actively discourages a witness from testifying through threats of prosecution, intimidation, or coercive badgering.\" Id. at 1216 (citation omitted) (emphasis added). However, \"[t]he potential for unconstitutional coercion by a government actor significantly diminishes ... if a defendant's witness elects not to testify after consulting an independent attorney.\" Id. (emphasis in original).\nHere, the prosecutor did not interact with Nevarez directly about her decision to testify at all, let alone actively discourage her from testifying, and Nevarez made her decision not to testify upon receiving advice from independent counsel. Because the record reveals no signs of undue coercion by either the prosecutor or the district court, we conclude that neither the prosecutor nor the district court deprived Dalton of his constitutional right to present a defense.\nB. District Court did not err by accepting Nevarez's decision not to testify\nDalton next argues that the district court violated his right to present a defense by failing to \"scrutinize [Nevarez's] basis for the invocation of the Fifth Amendment privilege against self-incrimination.\" Aplt. Br. 19. A district court is responsible for determining whether a witness's invocation of the Fifth Amendment privilege against self-incrimination is justified. United States v. Castorena-Jaime, 285 F.3d 916, 931 (10th Cir. 2002). However there is no \"standardized procedure\" for making this determination, United States v. Rivas-Macias, 537 F.3d 1271, 1276 n.5 (10th Cir. 2008), and the trial court should refuse to sustain the privilege \"only if it is perfectly clear that the witness is mistaken and the answers cannot possibly tend to incriminate,\" Castorena-Jaime, 285 F.3d at 931 (internal quotation marks omitted).\nHere, it was not clear that Nevarez could not possibly incriminate herself by testifying. The district court received briefing prior to trial that explained that, if Nevarez testified that the firearms found in the Kenlea Street house during the first search were in her possession, as it seemed she intended to, she would likely incriminate herself because, on that date, Nevarez was a methamphetamine addict who could not lawfully possess firearms pursuant to 18 U.S.C. \u00a7 922(g)(3). Under these circumstances, the district court did not err by accepting Nevarez's decision not to testify because it seemed likely that, had she testified as expected, her answers would have implicated her in a crime.\nC. The government was not required to offer Nevarez immunity to testify\nFor his final argument related to Nevarez's decision not to testify, Dalton asserts that his right to present his defense was violated by the government's refusal to offer Nevarez immunity for her testimony. We disagree. When a witness invokes her privilege against self-incrimination, the government may compel that witness to testify by granting her immunity. 18 U.S.C. \u00a7 6003. Although \"the decision to grant immunity lies in the exclusive discretion of the prosecutor,\" Serrano, 406 F.3d at 1218 (emphasis in original), we have \"left open the possibility 'that where the prosecutor's denial of immunity is a deliberate attempt to distort the fact finding process, a court could force the government to choose between conferring immunity or suffering an acquittal.' \" United States v. LaHue, 261 F.3d 993, 1014 (10th Cir. 2001).\nWhile we recognize that the prosecutor's discretion is subject to constitutional constraints, United States v. Armstrong, 517 U.S. 456, 464, 116 S.Ct. 1480, 134 L.Ed.2d 687 (1996), \"we presume the United States attorney's office has properly discharged its official duties absent clear evidence to the contrary,\" Serrano, 406 F.3d at 1218. Dalton asserts that the only reason the government denied Nevarez immunity \"was to keep her from testifying.\" Aplt. Br. 21. But he has not provided sufficient facts to rebut our presumption of good faith on the part of the government attorney.\nDalton argues that two facts prove his point. First, he points out that ATF Agent Brackeen told Nevarez during an interview that she was not \"in any trouble or anything like that,\" Aplt. Supp. R. Vol. I. at 3. However, the agent immediately supplemented that statement by warning Nevarez that if she \"lie[d] to a federal officer,\" she could be criminally charged. Id. at 3. Brackeen never promised Nevarez that she would not be charged or prosecuted. Second, he argues that Nevarez admitted to the government that she had illegally possessed the guns found in the Kenlea house on August 28 one-and-a-half years before Dalton's trial, and, despite that knowledge, the government chose not to prosecute her during that time. However, at that point, the government did not necessarily have enough information to bring charges against Nevarez; for example, it did not have a sworn statement from her admitting that she violated section 922(g)(3). More to the point, just because the government had not yet charged Nevarez at the time of Dalton's trial does not prove that it never intended to or would not have done so after she testified at trial.\nThus, the record does not suggest that the government attempted to distort the factfinding process such that it should have been required to offer Nevarez immunity.\n3. Body-Worn Camera Footage\nNext, we consider whether the district court abused its discretion under Rule 403 by allowing the government to show the jury twenty minutes of an hour-long videotape of the events leading up to Dalton's arrest or by admitting the entire hour-long video into evidence. Although it showed six or more officers and multiple vehicles on site, including at one point an armored S.W.A.T. vehicle, we have reviewed the video and do not find sufficient prejudice that we would conclude the district court abused its discretion in ruling that the probative value was not significantly outweighed by prejudice. United States v. Tome, 61 F.3d 1446, 1459 (10th Cir. 1995). Therefore, we affirm the district court.\nThe body-worn video evidence has both probative and prejudicial value. On the one hand, the video shows context and serves as res gestae evidence. United States v. Ford, 613 F.3d 1263, 1268 (10th Cir. 2010). The government argued at trial that Dalton's refusal to come out of the house for an hour demonstrated \"consciousness of guilt.\" R. Vol. III at 529. On the other hand, it shows considerable law enforcement presence that, ultimately, was not needed. However, even though the police officers did not need to use force, the video accurately portrays the force the police believed they might have needed to resolve the potential hostage situation and standoff. Importantly, the district court required the government to redact all portions of the video that referenced Dalton's prior dealings with law enforcement and it limited the government to playing only twenty minutes of the video during trial. We cannot say that the district court abused its discretion by determining that the prejudicial value of the video did not substantially outweigh the probative value, especially in light of the government's efforts to shorten and redact the video. Therefore, we affirm the district court's decision to admit the video.\n4. Government's Expert Witnesses\nNext, Dalton argues that the district court erred by permitting the government to call four expert witnesses-two fingerprint experts, a DNA expert, and one firearm expert-to testify to the same conclusion, namely, that they did not find any physical evidence connecting Dalton to the firearms in the Kenlea house. We review the district court's decision to allow the experts to testify over Dalton's relevance and Rule 403 objections for an abuse of discretion.\nFirst, we have no trouble finding that the expert testimony was relevant. Evidence is relevant if \"it has any tendency to make a fact more or less probable than it would be without the evidence\" and \"the fact is of consequence in determining the action.\" Fed. R. Evid. 401. The two fingerprint experts and the DNA expert each explained why physical evidence is often absent from crime scenes, and absence-of-evidence testimony has been found to be relevant by several other circuits. United States v. Tavares, 843 F.3d 1, 7 (1st Cir. 2016) ; see also, e.g., United States v. Mitchell, 502 F.3d 931, 970 (9th Cir. 2007). We agree with those circuits and conclude that the district court did not abuse its discretion here by admitting the fingerprint and DNA expert testimony. The fourth expert explained that the firearms discovered during the first search were functional, which made it more likely that the guns were \"designed to ... expel a projectile,\" 18 U.S.C. \u00a7 921(a)(3), an element the prosecution was required to prove. That testimony was relevant also.\nSecond, Dalton argues that the \"sheer volume\" of the expert testimony introduced by the prosecution \"encouraged a conviction on an improper basis.\" Aplt. Br. 34. It is likely the government could have made its points about the forensic evidence by using one fingerprint expert instead of two, but that choice was not \"needlessly ... cumulative,\" Fed. R. Evid. 403, nor a waste of time given that each expert testified about different pieces of evidence. We affirm the district court's decision to permit the expert testimony.\n5. Nevarez's Unsworn Statements to ATF Agent\nFinally, Dalton argues that the district court abused its discretion by refusing to admit the transcript of Nevarez's interview with Agent Brackeen under the residual exception to the rule against hearsay. That exception allows district courts to admit hearsay evidence if, among other things, it has \"equivalent circumstantial guarantees of trustworthiness\" to the exceptions in rules 803 and 804. Fed. R. Evid. 807. The district court rejected that argument and excluded the interview transcript as hearsay, which was not an abuse of discretion. The residual exception \"should be used only 'in extraordinary circumstances where the court is satisfied that the evidence offers guarantees of trustworthiness and is material, probative and necessary in the interest of justice.' \" Tome, 61 F.3d at 1452.\nThe district court denied Dalton's motion to admit the statements in part because it determined that Nevarez's statements were not trustworthy because they were not sufficiently corroborated.\nTrustworthiness is dependent on the totality of the circumstances. Though courts have considerable leeway in their consideration of appropriate factors, the relevant circumstances are those that surround the making of the statement and that render the declarant particularly worthy of belief, such that the test of cross-examination would be of marginal utility.\nUnited States v. Becker, 230 F.3d 1224, 1230 (10th Cir. 2000) (citations and internal quotation marks omitted). The record supports the district court's conclusion that Nevarez's out-of-court statements were not sufficiently trustworthy. Nevarez did not speak under oath nor was she subject to cross-examination or other scrutiny regarding these statements. Moreover, cross-examination would have been of particular utility in this case because Nevarez's statements to Agent Brackeen contradicted the statement she made to police during the standoff that there were \"no firearms in the house.\" Supp. R. I at 4. The government also would have cross-examined Nevarez about her admitted methamphetamine use and Dalton's past abuse toward her, two facts that the jury might have understood to undermine Nevarez's credibility.\nDalton argues that Nevarez's statements were as trustworthy as sworn testimony because the ATF agent asked Nevarez, \"do you understand that, if you lie to a federal officer, you can be charged?\" to which Nevarez responded, \"okay.\" Id. at 3. The agent's warning is somewhat probative of reliability, but, although Nevarez acknowledged that she understood the potential for prosecution, she did not swear to tell the truth at any point during the conversation.\nDalton further contends that Nevarez's statements were reliable because they were akin to statements against interest that are excepted from the hearsay bar under Fed. R. Evid. 804(b)(3). Here, Dalton argues that Nevarez's statements were against her penal interests because, just as the government argued in order to request an attorney to represent Nevarez, by admitting that she possessed the firearms in August 2015, Nevarez was admitting liability under section 922(g)(3). That may be true, but it does not, in this context, adequately establish the reliability of Nevarez's statements.\nFinally, Dalton argues that Nevarez's statements are trustworthy because they were corroborated. Although some of what Nevarez stated was corroborated, no evidence corroborated Nevarez's contention that the firearms belonged to a friend of hers, the statement most relevant to Dalton's defense.\nWe acknowledge that there are arguments on both sides of this issue. However, given Nevarez's prior inconsistent statement and the utility that cross-examination would have provided in this case, we cannot say the district court abused its discretion by prohibiting Dalton from introducing the transcript of Nevarez's statements to Agent Brackeen.\nIII. CONCLUSION\nFor the foregoing reasons, we AFFIRM Dalton's conviction.\nAdditionally, we deny as moot Dalton's Motion to Seal Supplemental Record Vol. I in accordance with the order we issued on February 6, 2018, because Dalton filed a redacted version of that supplemental record with the court.\nAmong the objections raised by Dalton was a claim that the May 1 search was not supported by probable cause because Officer Craine knowingly omitted material information from his affidavit in violation of Franks v. Delaware, 438 U.S. 154, 98 S.Ct. 2674, 57 L.Ed.2d 667 (1978) ; Stewart v. Donges, 915 F.2d 572, 582-83 (10th Cir. 1990). According to Dalton, Officer Craine knowingly or recklessly omitted from his affidavit the fact that the police were pursuing Wheeler that evening and ultimately found him in the backyard of the Kenlea house before they executed the warrant. However, Officer Craine did not recklessly or intentionally omit that information. At the time the search affidavit was prepared, the officers did not know that Wheeler had been driving Dalton's red car when it evaded Officer Craine. Only later, but before the warrant was executed, did the officers discover Wheeler in the backyard and determine that he had been the driver. Thus, Craine did not \"omit\" the information about Wheeler from his affidavit; at the time he applied for the warrant, he simply was not aware of it. Therefore, we reject Dalton's Franks argument.\nThe prosecutor stated during closing argument, \"And there is a video that you can watch. It is in evidence. And you can feel free to watch the entire thing.\" R. Vol. III at 523. Of course, there is no evidence of whether or not the jury viewed any more of the video than the twenty minutes played at trial. Regardless, our analysis applies to the entire video because the video's content is similar throughout.",
+        "type": "majority",
+        "author": "EBEL, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Brock Benjamin, El Paso, Texas, for Defendant-Appellant.",
+      "Marisa A. Ong, Assistant United States Attorney (John C. Anderson, United States Attorney, District of New Mexico, with her on the brief), Office of the United States Attorney, Las Cruces, New Mexico, for Plaintiff-Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff - Appellee\nv.\nMichael DALTON, Defendant - Appellant.\nNo. 17-2146\nUnited States Court of Appeals, Tenth Circuit.\nFILED March 21, 2019\nBrock Benjamin, El Paso, Texas, for Defendant-Appellant.\nMarisa A. Ong, Assistant United States Attorney (John C. Anderson, United States Attorney, District of New Mexico, with her on the brief), Office of the United States Attorney, Las Cruces, New Mexico, for Plaintiff-Appellee.\nBefore LUCERO, EBEL, and PHILLIPS, Circuit Judges."
+  },
+  "file_name": "1117-01",
+  "first_page_order": 1117,
+  "last_page_order": 1134
+}

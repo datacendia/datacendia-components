@@ -1,0 +1,59 @@
+{
+  "id": 6031113,
+  "name": "Larson v. United States",
+  "name_abbreviation": "Larson v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5126",
+  "first_page": "905",
+  "last_page": "905",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 905"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.568,
+    "sha256": "7f8d14fc03bb2987e2652ab7624ffe038b7e6e33447307b961780dd686e0af40",
+    "simhash": "1:97bbe2830fad007e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Larson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5126.\nLarson v. United States."
+  },
+  "file_name": "0905-05",
+  "first_page_order": 927,
+  "last_page_order": 927
+}

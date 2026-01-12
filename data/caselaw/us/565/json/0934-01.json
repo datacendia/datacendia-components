@@ -1,0 +1,59 @@
+{
+  "id": 12226479,
+  "name": "Kelley v. Chicago Park District",
+  "name_abbreviation": "Kelley v. Chicago Park District",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-101",
+  "first_page": "934",
+  "last_page": "934",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 934"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 35,
+    "char_count": 219,
+    "ocr_confidence": 0.627,
+    "sha256": "a711f5443b1eb1238671478dd95eceaa13e84f5e94b2560fe5487403356b5a9e",
+    "simhash": "1:0454583252c01cb9",
+    "word_count": 37
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kelley v. Chicago Park District."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Motions of Intellectual Property Law Association of Chicago and Blane De St. Croix et al. for leave to file briefs as amici curiae granted. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-101.\nKelley v. Chicago Park District."
+  },
+  "file_name": "0934-01",
+  "first_page_order": 1016,
+  "last_page_order": 1016
+}

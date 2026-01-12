@@ -1,0 +1,1384 @@
+{
+  "id": 3673873,
+  "name": "GONZALEZ v. UNITED STATES",
+  "name_abbreviation": "Gonzalez v. United States",
+  "decision_date": "2008-05-12",
+  "docket_number": "No. 06-11612",
+  "first_page": "242",
+  "last_page": "271",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "553 U.S. 242"
+    },
+    {
+      "type": "parallel",
+      "cite": "170 L. Ed. 2d 616"
+    },
+    {
+      "type": "parallel",
+      "cite": "128 S. Ct. 1765"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2007-036"
+    },
+    {
+      "type": "vendor",
+      "cite": "2008 U.S. LEXIS 3887"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "478 U. S. 570",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6210041
+      ],
+      "weight": 2,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "577"
+        },
+        {
+          "page": "577-578"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/478/0570-01"
+      ]
+    },
+    {
+      "cite": "538 U. S. 580",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9031177
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "590",
+          "parenthetical": "concluding that parties may authorize a full-time magistrate judge to preside over a civil trial via implied consent"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/538/0580-01"
+      ]
+    },
+    {
+      "cite": "447 U. S. 667",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6188607
+      ],
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "686",
+          "parenthetical": "Blackmun, J., concurring"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/447/0667-01"
+      ]
+    },
+    {
+      "cite": "507 U. S. 292",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6228898
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "314, n. 9"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/507/0292-01"
+      ]
+    },
+    {
+      "cite": "213 U. S. 366",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8289641
+      ],
+      "year": 1909,
+      "pin_cites": [
+        {
+          "page": "408"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/213/0366-01"
+      ]
+    },
+    {
+      "cite": "536 U. S. 545",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1254843
+      ],
+      "weight": 2,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "555",
+          "parenthetical": "quoting United States ex rel. Attorney General v. Delaware & Hudson Co., 213 U. S. 366, 408 (1909)"
+        },
+        {
+          "page": "555"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/536/0545-01"
+      ]
+    },
+    {
+      "cite": "543 U. S. 175",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3427198
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "187",
+          "parenthetical": "identifying the choices \" 'to plead guilty, waive a jury, testify in his or her own behalf, or take an appeal' \" as examples (quoting Jones, supra, at 751)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/543/0175-01"
+      ]
+    },
+    {
+      "cite": "411 U. S. 258",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        10205
+      ],
+      "year": 1973,
+      "pin_cites": [
+        {
+          "page": "267-268"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/411/0258-01"
+      ]
+    },
+    {
+      "cite": "287 U. S. 45",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        369864
+      ],
+      "year": 1932,
+      "pin_cites": [
+        {
+          "page": "68-69"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/287/0045-01"
+      ]
+    },
+    {
+      "cite": "11 F. 3d 223",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11311835
+      ],
+      "weight": 2,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "226-227"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/11/0223-01"
+      ]
+    },
+    {
+      "cite": "379 U. S. 443",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11731118
+      ],
+      "year": 1965,
+      "pin_cites": [
+        {
+          "page": "451"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/379/0443-01"
+      ]
+    },
+    {
+      "cite": "463 U. S. 745",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6199647
+      ],
+      "weight": 3,
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "751"
+        },
+        {
+          "page": "751"
+        },
+        {
+          "page": "751"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/463/0745-01"
+      ]
+    },
+    {
+      "cite": "101 U. S. 320",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5632262
+      ],
+      "year": 1880,
+      "pin_cites": [
+        {
+          "page": "326"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/101/0320-01"
+      ]
+    },
+    {
+      "cite": "370 U. S. 626",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6169566
+      ],
+      "year": 1962,
+      "pin_cites": [
+        {
+          "page": "634",
+          "parenthetical": "quoting Smith v. Ayer, 101 U. S. 320, 326 (1880)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/370/0626-01"
+      ]
+    },
+    {
+      "cite": "484 U. S. 400",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        602206
+      ],
+      "weight": 2,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "417-418"
+        },
+        {
+          "page": "418"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/484/0400-01"
+      ]
+    },
+    {
+      "cite": "384 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12041092
+      ],
+      "year": 1966,
+      "pin_cites": [
+        {
+          "page": "7-8",
+          "parenthetical": "right to plead not guilty"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/384/0001-01"
+      ]
+    },
+    {
+      "cite": "304 U. S. 458",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        10805
+      ],
+      "year": 1938,
+      "pin_cites": [
+        {
+          "page": "464-465",
+          "parenthetical": "right to counsel"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/304/0458-01"
+      ]
+    },
+    {
+      "cite": "507 U. S. 725",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6237509
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "733"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/507/0725-01"
+      ]
+    },
+    {
+      "cite": "528 U. S. 110",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9476159
+      ],
+      "weight": 2,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "114-115"
+        },
+        {
+          "page": "114"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/528/0110-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 636",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(b)(3)"
+        },
+        {
+          "page": "(b)(3)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 3401",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(b)"
+        },
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "490 U. S. 858",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        605560
+      ],
+      "weight": 5,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "870"
+        },
+        {
+          "page": "875-876"
+        },
+        {
+          "page": "876"
+        },
+        {
+          "page": "876"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/490/0858-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 631",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "et seq."
+        },
+        {
+          "page": "(i)",
+          "parenthetical": "establishing requirements for removal"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "551 U. S. 1192",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 2007,
+      "opinion_index": 0
+    },
+    {
+      "cite": "273 F. 3d 39",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9456389
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "44",
+          "parenthetical": "magistrate judge may conduct jury selection unless the defendant or his attorney registers an objection"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/273/0039-01"
+      ]
+    },
+    {
+      "cite": "174 F. 3d 1202",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11628308
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "1206",
+          "parenthetical": "requiring personal and explicit consent from the defendant"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/174/1202-01"
+      ]
+    },
+    {
+      "cite": "483 F. 3d 390",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5742406
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "394"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/483/0390-01"
+      ]
+    },
+    {
+      "cite": "501 U. S. 923",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1108483
+      ],
+      "weight": 9,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "933"
+        },
+        {
+          "page": "925"
+        },
+        {
+          "page": "935-936"
+        },
+        {
+          "page": "935",
+          "parenthetical": "\"The Act evinces a congressional belief that magistrates are well qualified to handle matters of similar importance to jury selection\""
+        },
+        {
+          "page": "938"
+        },
+        {
+          "page": "935, n. 12, 939"
+        },
+        {
+          "page": "933"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/501/0923-01"
+      ]
+    },
+    {
+      "cite": "395 U. S. 238",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1771759
+      ],
+      "weight": 2,
+      "year": 1969,
+      "pin_cites": [
+        {
+          "page": "244"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/395/0238-01"
+      ]
+    },
+    {
+      "cite": "397 U. S. 742",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12058257
+      ],
+      "year": 1970,
+      "pin_cites": [
+        {
+          "page": "748"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/397/0742-01"
+      ]
+    },
+    {
+      "cite": "317 U. S. 269",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        303755
+      ],
+      "weight": 2,
+      "year": 1942,
+      "pin_cites": [
+        {
+          "page": "278-279"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/317/0269-01"
+      ]
+    },
+    {
+      "cite": "281 U. S. 276",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3912766
+      ],
+      "weight": 3,
+      "year": 1930,
+      "pin_cites": [
+        {
+          "page": "293"
+        },
+        {
+          "page": "312"
+        },
+        {
+          "page": "286-287"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/281/0276-01"
+      ]
+    },
+    {
+      "cite": "170 U. S. 343",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3599681
+      ],
+      "weight": 2,
+      "year": 1898,
+      "pin_cites": [
+        {
+          "page": "353-354"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/170/0343-01"
+      ]
+    },
+    {
+      "cite": "66 Mass. 80",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        1972229
+      ],
+      "year": 1853,
+      "pin_cites": [
+        {
+          "page": "83",
+          "parenthetical": "discussing Rathbun with approval in a case involving waiver of the right to a 12-man jury"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/mass/66/0080-01"
+      ]
+    },
+    {
+      "cite": "21 Wend. 509",
+      "category": "reporters:state",
+      "reporter": "Wend.",
+      "case_ids": [
+        2151856
+      ],
+      "year": 1839,
+      "pin_cites": [
+        {
+          "page": "543"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/wend/21/0509-01"
+      ]
+    },
+    {
+      "cite": "223 U. S. 442",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3663096
+      ],
+      "year": 1912,
+      "pin_cites": [
+        {
+          "page": "444, 452-453"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/223/0442-01"
+      ]
+    },
+    {
+      "cite": "544 U. S. 528",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5879370
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "545-546"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/544/0528-01"
+      ]
+    },
+    {
+      "cite": "543 U. S. 175",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3427198
+      ],
+      "weight": 4,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "187"
+        },
+        {
+          "page": "188"
+        },
+        {
+          "page": "192"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/543/0175-01"
+      ]
+    },
+    {
+      "cite": "484 U. S. 400",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        602206
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "417-418"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/484/0400-01"
+      ]
+    },
+    {
+      "cite": "384 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12041092
+      ],
+      "weight": 3,
+      "year": 1966,
+      "pin_cites": [
+        {
+          "page": "7-8"
+        },
+        {
+          "page": "7-8"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/384/0001-01"
+      ]
+    },
+    {
+      "cite": "304 U. S. 458",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        10805
+      ],
+      "year": 1938,
+      "pin_cites": [
+        {
+          "page": "464-465"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/304/0458-01"
+      ]
+    },
+    {
+      "cite": "507 U. S. 725",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6237509
+      ],
+      "weight": 2,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "733"
+        },
+        {
+          "page": "732-733",
+          "parenthetical": "waiver extinguishes the error of not complying with a legal rule"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/507/0725-01"
+      ]
+    },
+    {
+      "cite": "528 U. S. 110",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9476159
+      ],
+      "weight": 3,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "114"
+        },
+        {
+          "page": "115"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/528/0110-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 636",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(b)(3)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "490 U. S. 858",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        605560
+      ],
+      "weight": 2,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "875-876"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/490/0858-01"
+      ]
+    },
+    {
+      "cite": "501 U. S. 923",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1108483
+      ],
+      "weight": 2,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "936-937"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/501/0923-01"
+      ]
+    },
+    {
+      "cite": "742 F. 2d 1037",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        613402,
+        6559828
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "1053",
+          "parenthetical": "dissenting opinion"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/f2d/742/1037-01",
+        "/br/42/1037-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a72111",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "80-81"
+        },
+        {
+          "page": "80"
+        },
+        {
+          "page": "79"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "539 U. S. 69",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8897205
+      ],
+      "weight": 3,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "78",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "80"
+        },
+        {
+          "page": "79"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/539/0069-01"
+      ]
+    },
+    {
+      "cite": "532 U. S. 557",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9301604
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "568-569"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/532/0557-01"
+      ]
+    },
+    {
+      "cite": "552 U. S. 85",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3675682
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "116",
+          "parenthetical": "Thomas, J., dissenting"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/552/0085-01"
+      ]
+    },
+    {
+      "cite": "543 U. S. 371",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3442797
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "401-402",
+          "parenthetical": "Thomas, J., dissenting"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/543/0371-01"
+      ]
+    },
+    {
+      "cite": "281 U. S. 276",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3912766
+      ],
+      "weight": 3,
+      "year": 1930,
+      "pin_cites": [
+        {
+          "page": "312"
+        },
+        {
+          "page": "286-287"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/281/0276-01"
+      ]
+    },
+    {
+      "cite": "538 U. S. 580",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9031177
+      ],
+      "weight": 2,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "591-597",
+          "parenthetical": "dissenting opinion"
+        },
+        {
+          "page": "595",
+          "parenthetical": "Thomas, J., dissenting"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/538/0580-01"
+      ]
+    },
+    {
+      "cite": "543 U. S. 175",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3427198
+      ],
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "187",
+          "parenthetical": "\"[C]ertain decisions regarding the exercise or waiver of basic trial rights are of such moment that they cannot be made for the defendant by a surrogate\""
+        },
+        {
+          "page": "187"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/543/0175-01"
+      ]
+    },
+    {
+      "cite": "484 U. S. 400",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        602206
+      ],
+      "weight": 2,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "417-418",
+          "parenthetical": "\"[T]here are basic rights that the attorney cannot waive without the fully informed and publicly acknowledged consent of the client\""
+        },
+        {
+          "page": "418"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/484/0400-01"
+      ]
+    },
+    {
+      "cite": "384 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12041092
+      ],
+      "weight": 2,
+      "year": 1966,
+      "pin_cites": [
+        {
+          "page": "7",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/384/0001-01"
+      ]
+    },
+    {
+      "cite": "528 U. S. 110",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9476159
+      ],
+      "weight": 3,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "114"
+        },
+        {
+          "page": "114"
+        },
+        {
+          "page": "114"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/528/0110-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 636",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(b)(3)"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 3401",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "490 U. S. 858",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        605560
+      ],
+      "weight": 9,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "872"
+        },
+        {
+          "page": "874"
+        },
+        {
+          "page": "872"
+        },
+        {
+          "page": "875-876",
+          "parenthetical": "\"The absence of a specific reference to jury selection in the statute, or indeed, in the legislative history, persuades us that Congress did not intend the additional duties clause to embrace this function\" (footnote omitted)"
+        },
+        {
+          "page": "872",
+          "parenthetical": "\"[T]he carefully defined grant of authority to conduct trials of civil matters and of minor criminal cases should be construed as an implicit withholding of the authority to preside at a felony trial\""
+        },
+        {
+          "page": "872, n. 25"
+        },
+        {
+          "page": "874"
+        },
+        {
+          "page": "875"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/490/0858-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 631",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "et seq."
+        },
+        {
+          "page": "(e)"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "501 U. S. 923",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1108483
+      ],
+      "weight": 11,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "940-941",
+          "parenthetical": "Marshall, J., dissenting"
+        },
+        {
+          "page": "947",
+          "parenthetical": "opinion of Marshall, J."
+        },
+        {
+          "page": "947, n. 6",
+          "parenthetical": "Marshall, J., dissenting"
+        },
+        {
+          "page": "933"
+        },
+        {
+          "page": "955",
+          "parenthetical": "Scalia, J., dissenting"
+        },
+        {
+          "page": "947, n. 6",
+          "parenthetical": "Marshall, J., dissenting"
+        },
+        {
+          "page": "936",
+          "parenthetical": "\"There is no constitutional infirmity in the delegation of felony trial jury selection to a magistrate when the litigants consent\""
+        },
+        {
+          "page": "948-952",
+          "parenthetical": "Marshall, J., dissenting"
+        },
+        {
+          "page": "956",
+          "parenthetical": "Scalia, J., dissenting"
+        },
+        {
+          "page": "952",
+          "parenthetical": "Marshall, J., dissenting"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/501/0923-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1807,
+    "char_count": 58682,
+    "ocr_confidence": 0.704,
+    "pagerank": {
+      "raw": 4.6583126950967215e-07,
+      "percentile": 0.9275409492985884
+    },
+    "sha256": "38534b52aa85986249d2f778dacfd9789aebb8870c2ff6c52688171880149e07",
+    "simhash": "1:ba3e59c2a9252074",
+    "word_count": 9639
+  },
+  "last_updated": "2024-02-27T23:43:53.261952+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "GONZALEZ v. UNITED STATES"
+    ],
+    "opinions": [
+      {
+        "text": "Justice Kennedy\ndelivered the opinion of the Court.\nIf the parties consent, federal magistrate judges may preside over the voir dire and selection of prospective jurors in a felony criminal trial. Peretz v. United States, 501 U. S. 923, 933 (1991). This case presents the question whether it suffices for counsel alone to consent to the magistrate judge\u2019s role in presiding over voir dire and jury selection or whether the defendant must give his or her own consent.\nHomero Gonzalez was charged in the United States District Court for the Southern District of Texas on five felony-drug offense counts. He is the petitioner here. At the outset of jury selection, the parties appeared before a Magistrate Judge. The Magistrate Judge asked the attorneys to approach the bench. After they complied, the Magistrate Judge said: \u201cI need to ask the parties at this time if they are going to consent to having the United States Magistrate Judge proceed in assisting in the jury selection of this case.\u201d App. 16. Petitioner\u2019s counsel responded: \u201cYes, your Honor, we are.\u201d Ibid. The Magistrate Judge asked if petitioner was present and if he needed an interpreter. Petitioner\u2019s counsel answered yes to both questions. Petitioner was not asked if he consented to the Magistrate Judge\u2019s presiding. The record does not permit us to infer this or even to infer that petitioner knew there was a right to be waived. The Magistrate Judge then supervised voir dire and jury selection. Petitioner made no objections to the Magistrate Judge\u2019s rulings or her conduct of the proceedings. A District Judge presided at the ensuing jury trial, and the jury returned a verdict of guilty on all counts.\nPetitioner appealed, contending, for the first time, that it was error not to obtain his own consent to the Magistrate Judge\u2019s presiding at voir dire. The United States Court of Appeals for the Fifth Circuit affirmed the convictions. The court concluded petitioner could not show the error was plain and, furthermore, there was no error at all. It held the right to have an Article III judge preside over voir dire could be waived by petitioner\u2019s counsel. 483 F. 3d 390, 394 (2007). The Courts of Appeals differ on this issue. Compare ibid, with United States v. Maragh, 174 F. 3d 1202,1206 (CA11 1999) (requiring personal and explicit consent from the defendant); see also United States v. Desir, 273 F. 3d 39, 44 (CA1 2001) (magistrate judge may conduct jury selection unless the defendant or his attorney registers an objection). We granted certiorari. 551 U. S. 1192 (2007). We agree that there was no error and hold that petitioner\u2019s counsel had foil authority to consent to the Magistrate Judge\u2019s role.\nThe Federal Magistrates Act, 28 U. S. C. \u00a7 631 et seq. (2000 ed. and Supp. V), permits district courts to assign designated functions to magistrate judges. For example, magistrate judges are authorized to: issue orders concerning release or detention of persons pending trial; take acknowledgments, affidavits, and depositions; and enter sentences for petty offenses. \u00a7 636(a) (2000 ed. and Supp. V). They also may hear and determine, when designated to do so, any pretrial matter pending before the district court, with the exception of certain specified motions. Magistrate judges may also conduct hearings and propose recommendations for those motions, applications for post-trial criminal relief, and conditions of confinement petitions. \u00a7 636(b)(1) (2000 ed.). If the parties consent, they may conduct misdemeanor criminal trials and civil trials. \u00a7\u00a7 636(a)(3) and (c)(1).\nThe statutory provision of direct applicability in the present case is \u00a7 636(b)(3). It states: \u201cA magistrate judge may be assigned such additional duties as are not inconsistent with the Constitution and laws of the United States.\u201d The general, nonspecific terms of this paragraph, preceded by text that sets out permissible duties in more precise terms, constitute a residual or general category that must not be interpreted in terms so expansive that the paragraph overshadows all that goes before.\nIn two earlier cases the Court considered the question of magistrate judges presiding over the jury selection process in felony trials. In Gomez v. United States, 490 U. S. 858 (1989), the District Judge delegated the task of selecting a jury to a Federal Magistrate Judge. Defense counsel objected, but the objection was overruled. The Court noted that \u201c[a] critical limitation on [the magistrate judge\u2019s] expanded jurisdiction is consent,\u201d id., at 870, and held that presiding, over an objection, at the preliminary selection phase of a jury trial in felony eases is not among the additional duties that a magistrate judge may assume, id., at 875-876.\nIn Peretz v. United States, 501 U. S. 923, the Court again considered whether a magistrate judge could preside over voir dire in a felony case. In that instance, however, defendant\u2019s counsel, upon being asked by the District Court at a pretrial conference (with the defendant present) if there was any objection to having jury selection before a magistrate judge, responded, \u201cT would love the opportunity.\u2019\u201d Id., at 925. Defense counsel later advised the Magistrate Judge that the defendant consented to the process. The Court clarified that in a felony trial neither the Act nor Article III forbids supervision of voir dire by a magistrate judge if both parties consent. Id., at 935-936.\nTaken together, Gomez and Peretz mean that \u201cthe additional duties\u201d the statute permits the magistrate judge to undertake include presiding at voir dire and jury selection provided there is consent but not if there is an objection. We now consider whether the consent can be given by counsel acting on behalf of the client but without the client\u2019s own express consent.\nAt first reading it might seem that our holding here is dictated by the holding in Peretz. In Peretz, it would appear the accused was aware of the colloquy between the District Judge and defense counsel and the formal waiver before the Magistrate Judge. On this premise Peretz might be read narrowly to hold that a defendant may signal consent by failing to object; and indeed, petitioner here seeks to distinguish Peretz on this ground. Brief for Petitioner 41-42. We decide this case, however, on the assumption that the defendant did not hear, or did not understand, the waiver discussions. This addresses what, at least in petitioner\u2019s view, Peretz did not. It should be noted that we do not have before us an instance where a defendant instructs the lawyer or advises the court in an explicit, timely way that he or she demands that a district judge preside in this preliminary phase.\nThere are instances in federal criminal proceedings where the procedural requisites for consent are specified and a right cannot be waived except with a defendant\u2019s own informed consent. Under Federal Rule of Criminal Procedure 11(b), for example, the district court is required, as a precondition to acceptance of a guilty plea, to inform the defendant in person of the specified rights he or she may claim in a full criminal trial and then verify that the plea is voluntary by addressing the defendant. The requirement is satisfied by a colloquy between judge and defendant, reviewing all of the rights listed in Rule 11.\nStatutes may also address this subject. Under 18 U. S. C. \u00a7 3401(b), for example, a magistrate judge may preside over the whole trial and sentencing in a misdemeanor case but only with the express, personal consent of the defendant. The provision requires that the magistrate judge\n\u201ccarefully explain to the defendant that he has a right to trial, judgment, and sentencing by a district judge and that he may have a right to trial by jury before a district judge or magistrate judge. The magistrate judge may not proceed to try the case unless the defendant, after such explanation, expressly consents to be tried before the magistrate judge and expressly and specifically waives trial, judgment, and sentencing by a district judge. Any such consent and waiver shall be made in writing or orally on the record.\u201d\nThe controlling statute in this case has a different design, however. Title 28 U. S. C. \u00a7 636(b)(3) does not state that consent to preside over felony voir dire must be granted by following a procedure of similar clarity. As a general matter, where there is a full trial there are various points in the pretrial and trial process when rights either can be asserted or waived; and there is support in our cases for concluding that some of these rights cannot be waived absent the defendant\u2019s own consent. Whether the personal consent must be explicit and on the record or can be determined from a course of conduct may be another matter, but for now it suffices to note that we have acknowledged that some rights cannot be waived by the attorney alone. See New York v. Hill, 528 U. S. 110, 114-115 (2000).\nCiting some of our precedents on point, the Court in Hill gave this capsule discussion:\n\u201cWhat suffices for waiver depends on the nature of the right at issue. \u2018[Wjhether the defendant must participate personally in the waiver; whether certain procedures are required for waiver; and whether the defendant\u2019s choice must be particularly informed or voluntary, all depend on the right at stake.\u2019 United States v. Olano, 507 U. S. 725, 733 (1993). For certain fundamental rights, the defendant must personally make an informed waiver. See, e. g., Johnson v. Zerbst,. 304 U. S. 458, 464-465 (1938) (right to counsel); Brookhart v. Janis, 384 U. S. 1, 7-8 (1966) (right to plead not guilty). For other rights, however, waiver may be effected by action of counsel. \u2018Although there are basic rights that the attorney cannot waive without the fully informed and publicly acknowledged consent of the client, the lawyer has \u2014 and must have \u2014 full authority to manage the conduct of the trial.\u2019 Taylor v. Illinois, 484 U. S. 400, 417-418 (1988). As to many decisions pertaining to the conduct of the trial, the defendant is \u2018deemed bound by the acts of his lawyer-agent and is considered to have \u201cnotice of all facts, notice of which can be charged upon the attorney.\u201d \u2019 Link v. Wabash R. Co., 370 U. S. 626, 634 (1962) (quoting Smith v. Ayer, 101 U. S. 320, 326 (1880)). Thus, decisions by counsel are generally given effect as to what arguments to pursue, see Jones v. Barnes, 463 U. S. 745, 751 (1983), what evidentiary objections to raise, see Henry v. Mississippi, 379 U. S. 443, 451 (1965), and what agreements to conclude regarding the admission of evidence, see United States v. McGill, 11 F. 3d 223, 226-227 (CA1 1993). Absent a demonstration of ineffectiveness, counsel\u2019s word on such matters is the last.\u201d Ibid.\nThe issue in Hill was whether the attorney, acting without indication of particular consent from his client, could waive his client\u2019s statutory right to a speedy trial pursuant to the Interstate Agreement on Detainers. The Court held that the attorney\u2019s statement, without any showing of the client\u2019s explicit consent, could waive the speedy trial right: \u201cScheduling matters are plainly among those for which agreement by counsel generally controls.\u201d Id., at 115.\nGiving the attorney control of trial management matters is a practical necessity. \u201cThe adversary process could not function effectively if every tactical decision required client approval.\u201d Taylor v. Illinois, 484 U. S. 400, 418 (1988). The presentation of a criminal defense can be a mystifying process even for well-informed laypersons. This is one of the reasons for the right to counsel. See Powell v. Alabama, 287 U. S. 45, 68-69 (1932); ABA Standards for Criminal Justice, Defense Function 4-5.2, Commentary, p. 202 (3d ed. 1993) (\u201cMany of the rights of an accused, including constitutional rights, are such that only trained experts can comprehend their full significance, and an explanation to any but the most sophisticated client would be futile\u201d). Numerous choices affecting conduct of the trial, including the objections to make, the witnesses to call, and the arguments to advance, depend not only upon what is permissible under the rules of evidence and procedure but also upon tactical considerations of the moment and the larger strategic plan for the trial. These matters can be difficult to explain to a layperson; and to require in all instances that they be approved by the client could risk compromising the efficiencies and fairness that the trial process is designed to promote. In exercising professional judgment, moreover, the attorney draws upon the expertise and experience that members of the bar should bring to the trial process. In most instances the attorney will have a better understanding of the procedural choices than the client; or at least the law should so assume. See Jones v. Barnes, 463 U. S. 745, 751 (1983); see also Tollett v. Henderson, 411 U. S. 258, 267-268 (1973); cf. ABA Standards, supra, at 202 (\u201cEvery experienced advocate can recall the disconcerting experience of trying to conduct the examination of a witness or follow opposing arguments or the judge\u2019s charge while the client \u2018plucks at the attorney\u2019s sleeve\u2019 offering gratuitous suggestions\u201d). To hold that every instance of waiver requires the personal consent of the client himself or herself would be impractical.\nSimilar to the scheduling matter in Hill, acceptance of a magistrate judge at the jury selection phase is a tactical decision that is well suited for the attorney\u2019s own decision. Under Rule 24 of the Federal Rules of Criminal Procedure, the presiding judge has significant discretion over the structure of voir dire. The judge may ask questions of the jury pool or, as in this case, allow the attorneys for the parties to do so. Fed. Rule Crim. Proc. 24(a); App. 20. A magistrate judge\u2019s or a district judge\u2019s particular approach to voir dire both in substance \u2014 the questions asked \u2014 and in tone \u2014 formal or informal \u2014 may be relevant in light of the attorney\u2019s own approach. The attorney may decide whether to accept the magistrate judge based in part on these factors. As with other tactical decisions, requiring personal, on-the-record approval from the client could necessitate a lengthy explanation the client might not understand at the moment and that might distract from more pressing matters as the attorney seeks to prepare the best defense. For these reasons we conclude that express consent by counsel suffices to permit a magistrate judge to preside over jury selection in a felony trial, pursuant to the authorization in \u00a7 636(b)(3).\nOur holding is not inconsistent with reading other precedents to hold that some basic trial choices are so important that an attorney must seek the client\u2019s consent in order to waive the right. See, e. g., Florida v. Nixon, 543 U. S. 175, 187 (2004) (identifying the choices \u201c \u2018to plead guilty, waive a jury, testify in his or her own behalf, or take an appeal\u2019 \u201d as examples (quoting Jones, supra, at 751)). Petitioner argues that the decision to have a magistrate judge rather than an Article III judge preside at jury selection is a fundamental choice, cf. Hill, 528 U. S., at 114, or, at least, raises a question of constitutional significance so that we should interpret the Act to require an explicit personal statement of consent before the magistrate judge can proceed with jury selection.\nWe conclude otherwise. Under the avoidance canon, \u201cwhen \u2018a statute is susceptible of two constructions, by one of which grave and doubtful constitutional questions arise and by the other of which such questions are avoided, our duty is to adopt the latter.\u2019\u201d Harris v. United States, 536 U. S. 545, 555 (2002) (quoting United States ex rel. Attorney General v. Delaware & Hudson Co., 213 U. S. 366, 408 (1909)). The canon, however, does not apply unless there are \u201cserious concerns about the statute\u2019s constitutionality.\u201d Harris, supra, at 555; see also Reno v. Flores, 507 U. S. 292, 314, n. 9 (1993).\nThose concerns are not present here. Petitioner concedes that a magistrate judge is capable of competent and impartial performance of the judicial tasks involved in jury examination and selection. Reply Brief for Petitioner 12-13; see also Peretz, 501 U. S., at 935 (\u201cThe Act evinces a congressional belief that magistrates are well qualified to handle matters of similar importance to jury selection\u201d). The Act contains some features to ensure impartiality. See, e. g., 28 U. S. C. \u00a7\u00a7 631(i) (establishing requirements for removal), 632 (limiting concurrent employment), 634(b) (providing salary protection during the term). And \u201c \u2018the district judge \u2014 insulated by life tenure and irreducible salary \u2014 is waiting in the wings, fully able to correct errors.\u2019\u201d Peretz, supra, at 938 (quoting United States v. Raddatz, 447 U. S. 667, 686 (1980) (Blackmun, J., concurring)). Here petitioner made no objections to the rulings by the Magistrate Judge. Had objections been made, nothing in the record or the rules indicates that the District Judge could not have ruled on the issues, all with no delay or prejudice to any trial that had commenced. See Peretz, supra, at 935, n. 12, 939. These factors support our determination that consent of counsel suffices to allow a magistrate judge to supervise voir dire. This is not a case where the magistrate judge is asked to preside or make determinations after the trial has commenced and it is arguably difficult or disruptive for a district judge to review any objections that might have been made to the magistrate judge\u2019s rulings.\nPetitioner notes that Peretz considered supervision over entire civil and misdemeanor trials comparable to presiding over voir dire at a felony trial. 501 U. S., at 933. It follows, he argues, that \u00a7 636(b)(3) must require, as does 18 U. S. C. \u00a7 3401(b), express personal consent by the defendant before a magistrate judge may preside over voir dire. But it is not obvious that Congress would have thought these matters required the same form of consent. Aside from the fact that the statutory text is different, there are relevant differences between presiding over a full trial and presiding over voir dire. Were petitioner correct, one would think the Act would require at least the same form of consent to authorize a magistrate judge to preside over either a civil or a misdemeanor trial (which Peretz also deemed to be of comparable importance). Our interpretation of the Act indicates otherwise. Compare \u00a7 3401(b) with Roell v. Withrow, 538 U. S. 580, 590 (2003) (concluding that parties may authorize a full-time magistrate judge to preside over a civil trial via implied consent).\nPetitioner argues that our view of the issue should be informed by Gomez\u2019s conclusion that having a magistrate judge during jury selection without consent is structural error, not subject to harmless-error review. See 490 U. S., at 876. The exemption of certain errors from harmless-error review \u201crecognizes that some errors necessarily render a trial fundamentally unfair.\u201d Rose v. Clark, 478 U. S. 570, 577 (1986); see also id., at 577-578. In petitioner\u2019s view, Gomez establishes that the issue in this case is of sufficient gravity or concern that personal consent must be required.\nThe Court held in Gomez that imposition of a magistrate judge over objection was structural error, violating the basic right to a trial conducted at all critical stages by a judicial officer with appropriate jurisdiction. 490 U. S., at 876. It does not follow, however, that this structural aspect requires an insistence on personal consent. Here, jurisdiction turns on consent; and for the reasons discussed above an attorney, acting on the client\u2019s behalf, can make an informed decision to allow the magistrate judge to exercise the jurisdiction Congress permits.\nAlthough a criminal defendant may demand that an Article III judge preside over the selection of a jury, the choice to do so reflects considerations more significant to the realm of the attorney than to the accused. Requiring the defendant to consent to a magistrate judge only by way of an on-the-record personal statement is not dictated by precedent and would burden the trial process, with little added protection for the defendant.\nPursuant to 28 U. S. C. \u00a7 636(b)(3) a magistrate judge may preside over jury examination and jury selection only if the parties, or the attorneys for the parties, consent. Consent from an attorney will suffice. We do not have before us, and we do not address, an instance where the attorney states consent but the party by express and timely objection seeks to override his or her counsel. We need not decide, moreover, if consent may be inferred from a failure by a party and his or her attorney to object to the presiding by a magistrate judge. These issues are not presented here.\nThe judgment of the Court of Appeals is affirmed.\nR is so ordered.",
+        "type": "majority",
+        "author": "Justice Kennedy"
+      },
+      {
+        "text": "Justice Scalia,\nconcurring in the judgment.\nI agree with the Court that no statute or rule requires that petitioner personally participate in the waiver of his right to have an Article III judge oversee voir dire. As to whether the Constitution requires that, the Court holds that it does not because it is a decision more tactical than fundamental\u2014 \u201cmore significant to the realm of the attorney than to the accused.\u201d Ante, at 253. I agree with the Court\u2019s conclusion, but not with the tactical-vs.-fundamental test on which it is based.\nPetitioner and the Government do not dispute that petitioner\u2019s counsel consented to have a magistrate judge oversee voir dire. The issue is whether that consent \u2014 consent of counsel alone \u2014 effected a valid waiver of petitioner\u2019s right to an Article III judge. It is important to bear in mind that we are not speaking here of action taken by counsel over his client\u2019s objection \u2014 which would have the effect of revoking the agency with respect to the action in question. See Brookhart v. Janis, 384 U. S. 1, 7-8 (1966). There is no suggestion of that. The issue is whether consent expressed by counsel alone is ineffective simply because the defendant himself did not express to the court his consent.\nI think not. Our opinions have sometimes said in passing that, under the Constitution, certain \u201cfundamental\u201d or \u201cbasic\u201d rights cannot be waived unless a defendant personally participates in the waiver. See, e. g., Taylor v. Illinois, 484 U. S. 400, 417-418 (1988); United States v. Olano, 507 U. S. 725, 733 (1993). We have even repeated the suggestion in cases that actually involved the question whether a criminal defendant\u2019s attorney could waive a certain right \u2014 but never in a case where the suggestion governed the disposition. In New York v. Hill, 528 U. S. 110 (2000), although we noted that \u201c[f]or certain fundamental rights, the defendant must personally make an informed waiver,\u201d id., at 114, we in fact found such a requirement inapplicable; and even that determination can be viewed as resting upon an interpretation of the statute creating the right that counsel had waived, see id., at 115. And in Florida v. Nixon, 543 U. S. 175 (2004), although we said that \u201ccounsel lacks authority to consent to a guilty plea on [his] client\u2019s behalf,\u201d id., at 187, our holding was simply that counsel\u2019s concession of guilt to the jury did not amount to a guilty plea, id., at 188, and did not constitute ineffective assistance of counsel, id., at 192. As detailed in the margin, the decisions often cited for the principle of attorney incapacity are inapposite; except for one line of precedent, no decision of this Court holds that, as a constitutional matter, a defendant must personally waive certain of his \u201cfundamental\u201d rights \u2014 which typically are identified as the rights to trial, jury, and counsel. The exceptional line of precedent involves the right to counsel. See Johnson v. Zerbst, 304 U. S. 458, 464-465 (1938). But that right is essentially sui generis, since an unrepresented defendant cannot possibly waive his right to counsel except in person. Cases involving that right therefore provide no support for the principle that the Constitution sometimes forbids attorney waiver.\nSince a formula repeated in dictum but never the basis for judgment is not owed stare decisis weight, see Lingle v. Chevron U S. A. Inc., 544 U. S. 528, 545-546 (2005), our precedents have not established the rule of decision applicable in this case. I would not adopt the tactical-vs.fundamental approach, which is vague and derives from nothing more substantial than this Court\u2019s say-so. One respected authority has noted that the approach has a \u201cpotential for uncertainty,\u201d and that our precedents purporting to apply it \u201chave been brief and conclusionary.\u201d 3 W. LaFave, J. Israel, N. King, & O. Kerr, Criminal Procedure \u00a7\u00a7 11.6(a), (c), pp. 784, 796 (3d ed. 2007). That is surely an understatement. What makes a right tactical? Depending on the circumstances, waiving any right can be a tactical decision. Even pleading guilty, which waives the right to trial, is highly tactical, since it usually requires balancing the prosecutor\u2019s plea bargain against the prospect of better and worse outcomes at trial.\nWhether a right is \u201cfundamental\u201d is equally mysterious. One would think that any right guaranteed by the Constitution would be fundamental. But I doubt many think that the Sixth Amendment right to confront witnesses cannot be waived by counsel. See Diaz v. United States, 223 U. S. 442, 444, 452-453 (1912). Perhaps, then, specification in the Constitution is a necessary, but not sufficient, condition for \u201cfundamental\u201d status. But if something more is necessary, I cannot imagine what it might be. Apart from constitutional guarantee, I know of no objective criterion for ranking rights. The Court concludes that the right to have an Article III judge oversee voir dire is not a fundamental right, ante, at 250-252, without answering whether it is even a constitutional right, and without explaining what makes a right fundamental in the first place. The essence of \u201cfundamental\u201d rights continues to elude.\nI would therefore adopt the rule that, as a constitutional matter, all waivable rights (except, of course, the right to counsel) can be waived by counsel. There is no basis in the Constitution, or as far as I am aware in common-law practice, for distinguishing in this regard between a criminal defendant and his authorized representative. In fact, the very notion of representative litigation suggests that the Constitution draws no distinction between them. \u201cA prisoner . . . who defends by counsel, and silently acquiesces in what they agree to, is bound as any other principal by the act of his agent.\u201d People v. Rathbun, 21 Wend. 509, 543 (N. Y. Sup. Ct. 1839). The Rathbun opinion, far from being the outlier view of a state court, was adopted as the common-law position by eminent jurists of the 19th century, including Chief Justice Shaw of the Supreme Judicial Court of Massachusetts. See Commonwealth v. Dailey, 66 Mass. 80, 83 (1853) (discussing Rathbun with approval in a case involving waiver of the right to a 12-man jury).\nIt may well be desirable to require a defendant\u2019s personal waiver with regard to certain rights. Rule 11(c) of the Federal Rules of Criminal Procedure, for example, provides that before accepting a guilty plea the court must \u201caddress the defendant personally in open court,\u201d advise him of the consequences of his plea, and ensure that the plea is voluntary. See also Rule 10(b) (waiver of right to appear at arraignment must be in writing signed by counsel and defendant). I do not contend that the Sixth Amendment\u2019s right to assistance of counsel prohibits such requirements of personal participation, at least where they do not impair counsel\u2019s expert assistance.\nEven without such rules it is certainly prudent, to forestall later challenges to counsel\u2019s conduct, for a trial court to satisfy itself of the defendant\u2019s personal consent to certain actions, such as entry of a guilty plea or waiver of jury trial, for which objective norms require an attorney to seek his client\u2019s authorization. See, e. g., ABA Model Rule of Professional Conduct 1.2(a) (2007) (\u201cIn a criminal case, the lawyer shall abide by the client\u2019s decision, after consultation with the lawyer, as to a plea to be entered, whether to waive jury trial and whether the client will testify\u201d). But I know of no basis for saying that the Constitution automatically invalidates any trial action not taken by the defendant personally, though taken by his authorized counsel. I know of no way of determining, except by sheer prescription, which trial rights are ex ante and by law subject to such a limitation upon waiver. Assuredly the tactical-fundamental dichotomy does not do the trick. I would leave this matter of placing reasonable limits upon the right of agency in criminal trials to be governed by positive law, in statutes and rules of procedure.\nI would hold that petitioner\u2019s counsel\u2019s waiver was effective because no rule or statute provides that the waiver come from the defendant personally.\nOn the right to jury, Thompson v. Utah, 170 U. S. 343 (1898), held, at most, that the right was not waivable. Id., at 353-354. The Court later questioned whether Thompson even held that, and went on to hold that the right is waivable. See Patton v. United States, 281 U. S. 276, 293 (1930). The observation at the end of Patton that \u201cbefore any waiver can become effective, the consent of government counsel and the sanction of the court must be had, in addition to the express and intelligent consent of the defendant,\u201d id., at 312, was dictum; the Patton defendants had all agreed to the waiver, id., at 286-287. Even less germane is Adams v. United States ex rel. McCann, 317 U. S. 269 (1942), which held only that an unrepresented defendant can waive his right to jury without the advice of counsel. Id., at 278-279.\nOn the right to trial, Brookhart v. Janis, 384 U. S. 1 (1966), held only that a defendant\u2019s expressed wish to proceed to trial must prevail over his attorney\u2019s contrary opinion. See id., at 7-8. Other decisions have said that waiver of the right to trial must be knowing and voluntary, see, e. g., Brady v. United States, 397 U. S. 742, 748 (1970), but waiver by counsel was not at issue in those cases. Even if, in the case of waiver by counsel, the knowing and voluntary requirement applies to the defendant himself, that still permits counsel to waive on behalf of an informed and agreeing client. Equally inapposite is Boykin v. Alabama, 395 U. S. 238 (1969), which held that a knowing and voluntary waiver of the right to trial cannot be inferred from a silent record. Id., at 244.\nWe have avoided addressing whether the right has a basis in the Constitution. In Gomez v. United States, 490 U. S. 858 (1989), we interpreted the Federal Magistrates Act, 28 U. S. C. \u00a7 636(b)(3), not to permit a magistrate judge to oversee voir dire, 490 U. S., at 875-876, making it unnecessary to consider whether there was a constitutional right to have an Article III judge oversee voir dire. In Peretz v. United States, 501 U. S. 923 (1991), we held that judicial overseeing of the voir dire had been waived, id., at 936-937, which obviated having to decide whether it was a constitutional right. See United States v. Olano, 507 U. S. 725, 732-733 (1993) (waiver extinguishes the error of not complying with a legal rule).",
+        "type": "concurrence",
+        "author": "Justice Scalia,"
+      },
+      {
+        "text": "Justice Thomas,\ndissenting.\nThe Court holds today that neither the Federal Magistrates Act, 28 U. S. C. \u00a7 631 et seq., nor the Constitution requires that a criminal defendant on trial for a felony personally give his informed consent before a magistrate judge may preside over jury selection. The Court proceeds from the premise, established in Peretz v. United States, 501 U. S. 923 (1991), that the Federal Magistrates Act authorizes magistrate judges to preside over felony jury selection if the parties consent. I reject that premise and, for the reasons set forth below, would overrule Peretz and hold that the delegation of voir dire in this case was statutory error. I further conclude that the error may be corrected despite petitioner\u2019s failure to raise a timely objection in the District Court. Accordingly, I would reverse the judgment below.\nI\nA\nThis is the third time the Court has addressed the circumstances under which a district judge may delegate felony voir dire proceedings to a magistrate judge under the \u201cadditional duties\u201d clause of the Federal Magistrates Act, 28 U. S. C. \u00a7 636(b)(3). In Gomez v. United States, 490 U. S. 858 (1989), the Court unanimously held that \u00a7 636(b)(3) does not authorize delegation of felony voir dire proceedings to a magistrate judge. Although the defendants in Gomez had objected to the delegation, neither the Court\u2019s reasoning nor its conclusion turned on that fact. Rather, the Court\u2019s interpretation of \u00a7 636(b)(3) rested primarily on two inferences drawn from the statutory scheme. First, the Court reasoned that Congress\u2019 \u201ccarefully defined grant of authority to conduct trials of civil matters and of minor criminal cases should be construed as an implicit withholding of the authority to preside at a felony trial.\u201d Id., at 872. Second, the Court found it \u201cincongruous\u201d to assume that Congress intended felony jury selection to be among magistrate judges\u2019 additional duties but failed to provide an explicit standard of review as it had done for other duties described in the statute. Id., at 874. Neither of these inferences depended on the presence or absence of the parties\u2019 consent, and the Court\u2019s conclusion was accordingly unqualified: \u201cCongress ... did not contemplate inclusion of jury selection in felony trials among a magistrate\u2019s additional duties.\u201d Id., at 872; see also ibid., n. 25 (\u201c[W]e decide that the Federal Magistrates Act does not allow the delegation of jury selection to magistrates\u201d); id., at 875-876 (\u201cThe absence of a specific reference to jury selection in the statute, or indeed, in the legislative history, persuades us that Congress did not intend the additional duties clause to embrace this function\u201d (footnote omitted)).\nTwo years later, the Court decided Peretz. Peretz\u2019s trial took place before this Court\u2019s decision in Gomez, and his attorney had agreed to the delegation of voir dire, assuring the Magistrate Judge that his client had consented. During the pendency of Peretz\u2019s appeal the Court decided Gomez, and Peretz argued that Gomez required reversal of his conviction. The Court of Appeals disagreed, concluding that he had waived any challenge to the Magistrate Judge\u2019s supervision of voir dire. Before this Court, the Government defended the Court of Appeals\u2019 holding as to waiver but confessed error with respect to the delegation of voir dire, \u201cagreeing] with petitioner . . . that Gomez foreclosed] the argument that the statute may be read to authorize magistrate-conducted voir dire when the defendant consents.\u201d Brief for United States in Peretz v. United States, O. T. 1990, No. 90-615, p. 9.\nDespite the Government\u2019s confession of error, the Court, \u201c[i]n an amazing display of interpretive gymnastics,\u201d Peretz, supra, at 940-941 (Marshall, J., dissenting), held in a 5-to-4 decision that \u00a7 636(b)(3) does, after all, permit magistrate judges to conduct felony voir dire proceedings, so long as the parties consent. There is no need here to reproduce Peretz\u2019s flawed reasoning or to rehash the debate between the majority and dissenting opinions. Suffice it to say that, in my view, Gomez correctly interpreted \u00a7 636(b)(3) not to authorize delegation of felony jury selection regardless of the parties\u2019 consent, and I agree with the dissenters in Peretz that the Court\u2019s contrary conclusion in that ease was based on a patently \u201crevisionist construction of the Act.\u201d 501 U. S., at 947 (opinion of Marshall, J.).\nThe only question, then, is whether to give stare decisis effect to Peretz\u2019s erroneous conclusion that \u00a7 636(b)(3) authorizes magistrate judges to conduct felony jury selection if the parties consent. Although \u201c[i]t is true that we give stronger stare decisis effect to our holdings in statutory cases than in constitutional cases,\u201d that rule \u201cis not absolute, and we should not hesitate to allow our precedent to yield to the true meaning of an Act of Congress when our statutory precedent is \u2018unworkable\u2019 or \u2018badly reasoned.\u2019\u201d Clark v. Martinez, 543 U. S. 371, 401-402 (2005) (Thomas, J., dissenting). Peretz is both. Two considerations in particular convince me that Peretz should be overruled.\nB\nFirst, Peretz leaves the Court with no principled way to decide the statutory question presented in this case. Contrary to the Court\u2019s suggestion, the question presented here is not whether \u201cevery instance of waiver requires the personal consent of the client,\u201d ante, at 250; rather, it is the far narrower question whether \u00a7 636(b)(3) requires the defendant\u2019s personal consent before felony jury selection may be delegated to a magistrate judge. The Court answers this question in the negative, but does not point to anything in \u00a7 636(b)(3) or in the broader statutory scheme that supports its conclusion. It does not because it cannot. Not having provided for delegation of felony voir dire proceedings under the additional duties clause, Congress of course did not specify whether the parties\u2019 consent is required. And \u201c[bjecause the additional duties clause contains no language predicating delegation of an additional duty upon litigant consent, it likewise contains nothing indicating what constitutes \u2018consent\u2019 to the delegation of an additional duty.\u201d Peretz, supra, at 947, n. 6 (Marshall, J., dissenting).\nCongress\u2019 silence is particularly telling in the context of the Federal Magistrates Act. Elsewhere in the Act, Congress took great care to specify whether and in what manner the litigants must consent before a magistrate judge may assume significant duties. In \u00a7 636(c)(1), for example, Congress provided that full-time magistrate judges may conduct civil trials \u201c[u]pon the consent of the parties,\u201d and that part-time magistrate judges may do so \u201c[u]pon the consent of the parties, pursuant to their specific written request.\u201d Congress further provided in \u00a7 636(c)(2) that \u201c[t]he decision of the parties shall be communicated to the clerk of court,\u201d and, if the parties do not consent, the district judge may not raise the matter again without \u201cadvis[ing] the parties that they are free to withhold consent without adverse substantive consequences.\u201d I have previously explained at length why \u00a7 636(c) is best read to require the express consent of the parties, see Roell v. Withrow, 538 U. S. 580, 591-597 (2003) (dissenting opinion), and I will not repeat that discussion here, other than to point out that Congress obviously focused on the issue and gave detailed instructions regarding the form of the parties\u2019 consent.\nEven more telling is that Congress required the defendant\u2019s express, informed consent before a magistrate judge may conduct a misdemeanor trial. Section 636(a)(3) authorizes magistrate judges to conduct certain misdemeanor trials \u201cin conformity with and subject to the limitations of\u201d 18 U. S. C. \u00a7 3401, which spells out in detail the manner in which the defendant must consent:\n\u201cThe magistrate judge shall carefully explain to the defendant that he has a right to trial, judgment, and sentencing by a district judge and that he may have a right to trial by jury before a district judge or magistrate judge. The magistrate judge may not proceed to try the case unless the defendant, after such explanation, expressly consents to be tried before the magistrate judge and expressly and specifically waives trial, judgment, and sentencing by a district judge. Any such consent and waiver shall be made in writing or orally on the record.\u201d \u00a7 3401(b).\nThe Court recites the language of \u00a7 3401(b), but gives it no weight in its analysis. It recognizes that \u201c[tjhere are instances in federal criminal proceedings where the procedural requisites for consent are specified and a right cannot be waived except with a defendant's own informed consent.\u201d Ante, at 247. But it is given no pause by the fact that the Federal Magistrates Act, the very statute it interprets to permit delegation of felony proceedings without the defendant\u2019s \u201cown informed consent,\u201d expressly requires such consent before a magistrate judge may conduct a misdemeanor trial. Instead, the Court worries that \u201crequiring personal, on-the-record approval from the client could necessitate a lengthy explanation the client might not understand at the moment and that might distract from more pressing matters,\u201d ante, at 250, heedless of the fact that Congress plainly viewed any such \u201cburden[sj [on] the trial process,\u201d ante, at 253, as outweighed by the need to obtain the defendant\u2019s personal consent before a magistrate judge may preside, even over a misdemeanor trial.\nThe Court glides over this glaring anomaly, asserting that \u201c[t]he controlling statute in this case has a different design,\u201d and \u201cdoes not state that consent to preside over felony voir dire must be granted by following a procedure of similar clarity.\u201d Ante, at 247. But there is only one statute at issue here \u2014 the Federal Magistrates Act expressly incorporates 18 U. S. C. \u00a7 3401(b) \u2014 and the fact that it does not mandate \u201ca procedure of similar clarity\u201d for delegation of felony jury selection is hardly surprising, since \u00a7 636(b)(3) \u2014 which provides in its entirety that \u201c[a] magistrate judge may be assigned such additional duties as are not inconsistent with the Constitution and laws of the United States\u201d \u2014 says not a word about delegation of felony jury selection, much less about whether and in what form the parties must consent.\nThe Court further suggests that \u00a7 3401(b) is inconsequential because \u201cthere are relevant differences between presiding over a full trial and presiding over voir dire.\" Ante, at 252. But even Peretz recognized that \u201csupervision of entire civil and misdemeanor trials\u201d is \u201ccomparable in responsibility and importance to presiding over voir dire at a felony trial.\u201d 501 U. S., at 933. And of course, it was Congress\u2019 omission of any mode of consent for delegation of felony proceedings, in contradistinction to its detailed treatment of the consent required for delegation of civil and misdemeanor trials, that drove Gomez\u2019s analysis. 490 U. S., at 872 (\u201c[T]he carefully defined grant of authority to conduct trials of civil matters and of minor criminal cases should be construed as an implicit withholding of the authority to preside at a felony trial\u201d); see also Peretz, supra, at 955 (Scalia, J., dissenting) (\u201cBy specifically authorizing magistrates to perform duties in civil and misdemeanor trials, and specifying the manner in which parties were to express their consent in those situations, the statute suggested absence of authority to preside over felony trials through some (unspecified) mode of consent\u201d). Today\u2019s decision is truly an ironic reversal. The Court once thought that Congress\u2019 differential treatment of felony jury selection and misdemeanor trials was a reason to believe that Congress had entirely withheld authority to preside over felony jury selection. Today, however, the Court says that the \u201crelevant differences\u201d between these responsibilities support the conclusion that Congress permitted delegation of felony jury selection upon a lesser showing of consent than that required for delegation of a misdemeanor trial.\nIn the end, I am sympathetic to petitioner\u2019s argument that \u00a7 636(b)(3) should be read in pari materia with \u00a7 3401(b). See Brief for Petitioner 38 (\u201cIf, in enacting the [Federal Magistrates Act,] Congress believed a defendant\u2019s explicit, personal consent was constitutionally necessary to bestow authority upon a magistrate judge in federal misdemeanor cases, then a fortiori Congress would have believed that such explicit, personal consent is necessary to permit a magistrate judge to conduct felony jury selection\u201d). And I share his view that Congress undoubtedly would have adopted something akin to \u00a7 3401(b)\u2019s requirements had it authorized delegation of felony jury selection. See Peretz, supra, at 947, n. 6 (Marshall, J., dissenting) (\u201cI would think, however, that the standard governing a party\u2019s consent to delegation of a portion of a felony trial under the additional duties clause should be at least as strict as that governing delegation of a misdemeanor trial to a magistrate\u201d).\nNonetheless, I do not believe that Peretz\u2019s erroneous interpretation of \u00a7 636(b)(3) gives me license to rewrite the Federal Magistrates Act to reflect what I think Congress would have done had it contemplated delegation of felony jury selection or foreseen the Court\u2019s decision in Peretz. Cf. Brief for Petitioner 33 (\u201cWhat the Court is left to do in petitioner\u2019s ease is to fill the gap by determining what Congress would have done in enacting the [Federal Magistrates Act] had it expressly addressed the 'crucial\u2019 consent issue\u201d (footnote omitted)). Where, as here, a mistaken interpretation of a statute leaves the Court with no principled way to answer subsequent questions that arise under the statute, it seems to me that the better course is simply to acknowledge and correct the error. Cf. Kimbrough v. United States, 552 U. S. 85,116 (2007) (Thomas, J., dissenting).\nC\nA second reason why I would not give stare decisis effect to Peretz is that it requires us to wade into a constitutional morass. In Gomez, the Court declined to decide whether the Constitution permits delegation of felony jury selection to a magistrate judge. 490 U. S., at 872, n. 25. Peretz simply brushed aside that difficult constitutional question. See 501 U. S., at 936 (\u201cThere is no constitutional infirmity in the delegation of felony trial jury selection to a magistrate when the litigants consent\u201d); cf. id., at 948-952 (Marshall, J., dissenting) (discussing the \u201cserious constitutional question\u201d \u201cwhether jury selection by a magistrate \u2014 even when a defendant consents \u2014 is consistent with Article III\u201d); id., at 956 (Scalia, J., dissenting) (not resolving \u201cthe serious and difficult constitutional questions raised by the [majority\u2019s] construction,\u201d but suggesting that the Court\u2019s reasoning rendered \u201cthe doctrine of unconstitutional delegation\u201d \u201ca dead letter\u201d).\nToday the Court\u2019s result requires it to go even further. In addition to reaffirming Peretz\u2019s questionable holding that the Constitution permits delegation of felony voir dire proceedings to a non-Article III judge, the Court decides that a criminal defendant\u2019s waiver of his right to an Article III judge need not be personal and informed. The Court treats this as an easy question, concluding that the choice between an Article III judge and a magistrate judge is not among those \u201cbasic trial choices,\u201d ante, at 250, that require a defendant\u2019s personal consent because \u201ca magistrate judge is capable of competent and impartial performance of the judicial tasks involved in jury examination and selection,\u201d and because magistrate judges are supervised by Article III judges, ante, at 251-252. Under our precedents, however, the question is not so easily dispatched.\nOur cases shed little light on whether and when a criminal defendant must personally waive a constitutional right. Although we have previously stated that, \u201c[f]or certain fundamental rights, the defendant must personally make an informed waiver,\u201d New York v. Hill, 528 U. S. 110, 114 (2000), many of the cases we have cited for that proposition do not in fact stand for it. For example, we have cited Brookhart v. Janis, 384 U. S. 1 (1966), for the proposition that the defendant\u2019s personal consent is required for a waiver of his right to plead not guilty. See, e. g., Hill, supra, at 114. But Brookhart\u2019s holding was narrower. The only question presented there was \u201cwhether counsel has power to enter a plea which is inconsistent with his client\u2019s expressed desire and thereby waive his client\u2019s constitutional right to plead not guilty and have a trial in which he can confront and cross-examine the witnesses against him.\u201d 384 U. S., at 7 (emphasis added). Brookhart thus did not decide whether the Constitution prohibits counsel from entering a guilty plea on his client\u2019s behalf in cases where the defendant has not expressed a contrary desire.\nSimilarly, Patton v. United States, 281 U. S. 276 (1930), a case often cited for the proposition that the right to a jury trial can be waived only by the defendant personally, does not draw a clear distinction between the defendant\u2019s own consent and that of his attorney. The Court stated in dicta that \u201cthe express and intelligent consent of the defendant\u201d is required \u201cbefore any waiver [of the right to a jury trial] can become effective.\u201d Id., at 312. But that requirement appears to have been satisfied in Patton by counsel\u2019s representation to the trial court that he had conferred with his clients and obtained their consent. Id., at 286-287.\nOur cases thus provide little relevant guidance. Justice Scalia may well be correct that, as a matter of first principles, there is no right (other than perhaps the sui generis right to counsel) that cannot be waived by a defendant\u2019s attorney, acting as the duly authorized agent of his client. See ante, at 257 (opinion concurring in judgment). But if I were to accept the Court\u2019s oft-repeated dictum that there are certain fundamental rights that can be waived only by the defendant personally, see, e. g., Florida v. Nixon, 543 U. S. 175,187 (2004) (\u201c[C]ertain decisions regarding the exercise or waiver of basic trial rights are of such moment that they cannot be made for the defendant by a surrogate\u201d); Hill, supra, at 114; Taylor v. Illinois, 484 U. S. 400,417-418 (1988) (\u201c[T]here are basic rights that the attorney cannot waive without the fully informed and publicly acknowledged consent of the client\u201d), I see no reason why the right to an Article III judge should not be among them.\nThere is no apparent reason, for example, why the right to an Article III judge should be deemed any less fundamental, or its exercise any more \u201c \u2018tactical/ \u201d ante, at 249 (opinion of the Court) (quoting Taylor, supra, at 418), than the right to a jury trial. The Framers viewed independent judges, no less than the right to a jury of one\u2019s peers, as indispensable to a fair trial. See, e. g., United States v. Hatter, 532 U. S. 557, 568-569 (2001) (discussing the Framers\u2019 overriding concern for an independent Judiciary and quoting Chief Justice Marshall\u2019s statement that the \u201c\u2018greatest scourge . . . ever inflicted\u2019 \u201d \u201c \u2018was an ignorant, a corrupt, or a dependent Judiciary\u2019\u201d (quoting Proceedings and Debates of the Virginia State Convention, of 1829-1830, p. 619 (1830))). For that reason, the Constitution affords Article III judges the structural protections of life tenure and salary protection. Art. Ill, \u00a71. The Court\u2019s observation that \u201ca magistrate judge is capable of competent and impartial performance\u201d of judicial duties, ante, at 251, is thus beside the point. Magistrate judges do not enjoy the structural protections of Article III: They serve 8-year terms and may be removed for cause, 28 U. S. C. \u00a7\u00a7 631(e), (i), and they are subject to diminution of their salaries and outright abolition of their offices by Congress. Accordingly, whatever their virtues, magistrate judges are no substitute for Article III judges in the eyes of the Constitution.\nIn short, if I accepted the Court\u2019s dictum that the right to a jury trial may be waived only by the defendant personally, see, e. g., Nixon, supra, at 187, I would be hard pressed to conclude that waiver of the right to an Article III judge during a critical stage of a felony trial requires anything less. That said, I include this brief discussion of the constitutional issues this case presents not because I would decide them, but to point out that the Court gives them short shrift. These are serious constitutional questions, see Roell, 538 U. S., at 595 (Thomas, J., dissenting), and they are posed only because of Peretz\u2019s erroneous interpretation of the Federal Magistrates Act. Indeed, I suspect that Congress withheld from magistrate judges the authority to preside during felony trials precisely in order to avoid the constitutional questions Peretz now thrusts upon us. Again, rather than plow headlong into this constitutional thicket, the better choice is simply to overrule Peretz. Cf. Peretz, 501 U. S., at 952 (Marshall, J., dissenting) (finding the Court\u2019s resolution of difficult Article III questions \u201cparticularly unfortunate\u201d where \u201cthe most coherent reading of the Federal Magistrates Act avoids these problems entirely\u201d).\nII\nBecause I conclude that Peretz should be overruled, and that the District Court therefore erred in delegating voir dire to the Magistrate Judge, I must also address the Government\u2019s alternative argument that petitioner forfeited his claim by failing to object to the delegation. Petitioner\u2019s failure to object, the Government contends, means that he cannot prevail unless he satisfies the requirements of the plain-error rule. It is true that petitioner did not raise a timely objection to the District Court\u2019s delegation of voir dire. And petitioner cannot satisfy the plain-error rule because the statutory error below \u2014 unauthorized delegation of voir dire to a magistrate judge \u2014 was not \u201cplain\u201d under Peretz.\nNot all uncontested errors, however, are subject to the plain-error rule. In limited circumstances, we have \u201cagreed to correct, at least on direct review, violations of a statutory provision that embodies a strong policy concerning the proper administration of judicial business even though the defect was not raised in a timely manner.\u201d Nguyen v. United States, 539 U. S. 69, 78 (2003) (internal quotation marks omitted). In Nguyen, a non-Article III judge sat by designation on the Ninth Circuit panel that affirmed petitioners\u2019 convictions. Petitioners failed to object to the composition of the panel in the Ninth Circuit and raised the issue for the first time in their petitions for certiorari. Because the Ninth Circuit panel \u201ccontravened the statutory requirements set by Congress for the composition of the federal courts of appeals,\u201d id., at 80, and because those requirements \u201cembodied] weighty congressional policy concerning the proper organization of the federal courts,\u201d id., at 79, we held that petitioners\u2019 failure to object did not preclude relief. We specifically declined to apply the plain-error rule:\n\u201cIt is true, as the Government observes, that a failure to object to trial error ordinarily limits an appellate court to review for plain error. See 28 U. S. C. \u00a72111; Fed. Rule Crim. Proc. 52(b). But to ignore the violation of the designation statute in these cases would incorrectly suggest that some action (or inaction) on petitioners\u2019 part could create authority Congress has quite carefully withheld. Even if the parties had expressly stipulated to the participation of a non-Article III judge in the consideration of their appeals, no matter how distinguished and well qualified the judge might be, such a stipulation would not have cured the plain defect in the composition of the panel.\u201d Id., at 80-81.\nI see no reason to treat this case differently than Nguyen. Just as \u201cCongress\u2019 decision to preserve the Article III character of the courts of appeals [was] more than a trivial concern\u201d in that case, id., at 80, so too here Congress\u2019 decision to preserve the Article III character of felony trials \u201cembodies weighty congressional policy concerning the proper organization of the federal courts,\u201d id., at 79. Accordingly, as in Nguyen, the Court can and should correct the error in this case despite petitioner\u2019s failure to raise a timely objection below.-\nIll\nFor the reasons stated, I would reverse the judgment of the Court of Appeals and remand for a new trial.\nEqually beside the point is the fact that magistrate judges are appointed by, and subject to the supervision of, district judges. The Court reassures itself by hypothesizing that the District Court could have ruled on any objections to the Magistrate Judge\u2019s rulings. Ante, at 251-252. But the Court once \u201charbor[ed] serious doubts\u201d that a district judge who was not present during jury selection could \u201cmeaningfully\u201d review a magistrate judge\u2019s rulings, Gomez v. United States, 490 U. S. 858, 874 (1989), because \u201cno transcript can recapture the atmosphere of the voir dire,\u201d id., at 875. The Court does not explain what has intervened to dispel those doubts. And even if district judges could meaningfully review magistrate judges\u2019 voir dire rulings, that would not change the fact that magistrate judges are subject to outside influences in ways that Article III judges are not. As Judge Posner has explained:\n\u201cThe fact that the appointing power has been given to Article III judges is the opposite of reassuring. It makes magistrates beholden to judges as well as to Congress. . . . The Constitution built internal checks and balances into the legislative branch by making Congress bicameral and into the judicial branch by guaranteeing all federal judges \u2014 not just Supreme Court Justices, or appellate judges generally \u2014 tenure during good behavior and protection against pay cuts. Appellate judges can reverse district judges, can mandamus them, can criticize them, can remand a case to another judge, but cannot fire district judges, cow them, or silence them \u2014 cannot prevent them from making independent judgments and expressing independent views. . . . [A]s long as [district judges] enjoy the tenure and compensation protections of Article III, they are independent of [those] who appointed them____ Magistrates do not have those protections; the judges control their reappointment.\u201d Geras v. Lafayette Display Fixtures, Inc., 742 F. 2d 1037, 1053 (CA7 1984) (dissenting opinion).",
+        "type": "dissent",
+        "author": "Justice Thomas,"
+      }
+    ],
+    "attorneys": [
+      "Brent E. Newton argued the cause for petitioner. With him on the briefs were Marjorie A. Meyers, H. Michael Sokolow, and Timothy Crooks.",
+      "Lisa S. Blatt argued the cause for the United States. With her on the brief were Solicitor General Clement, Assistant Attorney General Fisher, Deputy Solicitor General Dreeben, and Deborah Watson."
+    ],
+    "corrections": "",
+    "head_matter": "GONZALEZ v. UNITED STATES\nCERTIORARI TO THE UNITED STATES COURT OF APPEALS FOR THE FIFTH CIRCUIT\nNo. 06-11612.\nArgued January 8, 2008\nDecided May 12, 2008\nBrent E. Newton argued the cause for petitioner. With him on the briefs were Marjorie A. Meyers, H. Michael Sokolow, and Timothy Crooks.\nLisa S. Blatt argued the cause for the United States. With her on the brief were Solicitor General Clement, Assistant Attorney General Fisher, Deputy Solicitor General Dreeben, and Deborah Watson.\nBriefs of amici curiae urging reversal were filed for the Charles Hamilton Houston Institute for Race and Justice by Charles J. Ogletree, Jr., and Rachel E. Barkow; and for the National Association of Criminal Defense Lawyers et al. by Joel B. Rudin, Joshua L. Dratel, and Henry J. Bemporad."
+  },
+  "file_name": "0242-01",
+  "first_page_order": 304,
+  "last_page_order": 333
+}

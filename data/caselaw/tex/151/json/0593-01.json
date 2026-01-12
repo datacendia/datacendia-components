@@ -1,0 +1,781 @@
+{
+  "id": 2244712,
+  "name": "E. W. Lindsay v. Emil King Clayman et vir.",
+  "name_abbreviation": "Lindsay v. Clayman",
+  "decision_date": "1952-11-05",
+  "docket_number": "No. A-3652",
+  "first_page": "593",
+  "last_page": "601",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "151 Tex. 593"
+    },
+    {
+      "type": "parallel",
+      "cite": "254 S.W.2d 777"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "206 S.W. 825",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8278396
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw/206/0825-01"
+      ]
+    },
+    {
+      "cite": "70 S.W. 2d 694",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10258248,
+        2302453
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/70/0694-01",
+        "/tex/123/0298-01"
+      ]
+    },
+    {
+      "cite": "123 Texas 298",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2302453
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/123/0298-01"
+      ]
+    },
+    {
+      "cite": "58 S.W. 825",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "94 Texas 114",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2233506
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/94/0114-01"
+      ]
+    },
+    {
+      "cite": "125 S.W. 2d 666",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10243578
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/125/0666-01"
+      ]
+    },
+    {
+      "cite": "19 S.W. 710",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "84 Texas 603",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2210038
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/84/0603-01"
+      ]
+    },
+    {
+      "cite": "144 S.W. 2d 529",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10227277,
+        2317806
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/144/0529-01",
+        "/tex/135/0566-01"
+      ]
+    },
+    {
+      "cite": "135 Texas 566",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2317806
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/135/0566-01"
+      ]
+    },
+    {
+      "cite": "135 S.W. 2d 79",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10229089,
+        2319551
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/135/0079-01",
+        "/tex/134/0360-01"
+      ]
+    },
+    {
+      "cite": "134 Texas 360",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2319551
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/134/0360-01"
+      ]
+    },
+    {
+      "cite": "195 S.W. 2d 245",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10189454
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/195/0245-01"
+      ]
+    },
+    {
+      "cite": "99 S.W. 2d 881",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        12074251,
+        2293204
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/99/0881-01",
+        "/tex/128/0606-01"
+      ]
+    },
+    {
+      "cite": "128 Texas 606",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2293204
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/128/0606-01"
+      ]
+    },
+    {
+      "cite": "205 S.W. 2d 124",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10189267
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/205/0124-01"
+      ]
+    },
+    {
+      "cite": "219 S.W. 843",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10339666
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/219/0843-01"
+      ]
+    },
+    {
+      "cite": "213 S.W. 2d 813",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10203209,
+        2333799
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/213/0813-01",
+        "/tex/147/0122-01"
+      ]
+    },
+    {
+      "cite": "147 Texas 122",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2333799
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/147/0122-01"
+      ]
+    },
+    {
+      "cite": "1 S.W. 527",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 S. W. 994",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "10 S. W. 338",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "72 Texas 144",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2190600
+      ],
+      "pin_cites": [
+        {
+          "page": "149"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/72/0144-01"
+      ]
+    },
+    {
+      "cite": "1 S. W. 527",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "66 Texas 521",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2202590
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "525"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/66/0521-01"
+      ]
+    },
+    {
+      "cite": "59 Texas 615",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2173076
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/59/0615-01"
+      ]
+    },
+    {
+      "cite": "55 Texas 58",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2181391
+      ],
+      "pin_cites": [
+        {
+          "page": "61"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/55/0058-01"
+      ]
+    },
+    {
+      "cite": "21 Texas 58",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2119096
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/21/0058-01"
+      ]
+    },
+    {
+      "cite": "83 S.W. 2d 620",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10248394,
+        2298319
+      ],
+      "pin_cites": [
+        {
+          "page": "627"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/83/0620-01",
+        "/tex/125/0305-01"
+      ]
+    },
+    {
+      "cite": "125 Texas 305",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2298319
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/125/0305-01"
+      ]
+    },
+    {
+      "cite": "210 S.W. 835",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8256960
+      ],
+      "pin_cites": [
+        {
+          "page": "840, 841"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/210/0835-01"
+      ]
+    },
+    {
+      "cite": "193 S.W. 2d 165",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2336611,
+        10187691
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/144/0618-01",
+        "/sw2d/193/0165-01"
+      ]
+    },
+    {
+      "cite": "144 Texas 618",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2336611
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/144/0618-01"
+      ]
+    },
+    {
+      "cite": "120 S.W. 2d 793",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10248600,
+        2322485
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/120/0793-01",
+        "/tex/132/0073-01"
+      ]
+    },
+    {
+      "cite": "132 Texas 73",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2322485
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/132/0073-01"
+      ]
+    },
+    {
+      "cite": "235 S.W. 870",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8262379
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/235/0870-01"
+      ]
+    },
+    {
+      "cite": "26 S. W. 2d 694",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10283900
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/26/0694-01"
+      ]
+    },
+    {
+      "cite": "190 S. W. 2d 65",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10187202,
+        2336651
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/190/0065-01",
+        "/tex/144/0322-01"
+      ]
+    },
+    {
+      "cite": "144 Texas 322",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2336651
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/144/0322-01"
+      ]
+    },
+    {
+      "cite": "52 Texas 133",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2147285
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/52/0133-01"
+      ]
+    },
+    {
+      "cite": "56 S. W. 946",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "58 S. W. 825",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "224 S.W. 2d 343",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10196791
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/224/0343-01"
+      ]
+    },
+    {
+      "cite": "87 S.W. 2d 790",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10269803
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/87/0790-01"
+      ]
+    },
+    {
+      "cite": "245 S.W. 2d 743",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10212671
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/245/0743-01"
+      ]
+    },
+    {
+      "cite": "131 S.W. 2d 245",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10230198
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/131/0245-01"
+      ]
+    },
+    {
+      "cite": "59 S. W. (2d) 105",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10234549
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/59/0105-01"
+      ]
+    },
+    {
+      "cite": "23 S. W. (2d) 307",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10264986
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/23/0307-01"
+      ]
+    },
+    {
+      "cite": "14 S W. (2d) 805",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10299297
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/14/0805-01"
+      ]
+    },
+    {
+      "cite": "256 S. W. 257",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10301089
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/256/0257-01"
+      ]
+    },
+    {
+      "cite": "57 S. W. 37",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "94 Texas 1",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2233512
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/94/0001-01"
+      ]
+    },
+    {
+      "cite": "52 Texas 139",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "247 S.W. 2d 300",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10202011
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/247/0300-01"
+      ]
+    },
+    {
+      "cite": "70 S.W. 2d 694",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10258248,
+        2302453
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/70/0694-01",
+        "/tex/123/0298-01"
+      ]
+    },
+    {
+      "cite": "123 Texas 298",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2302453
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/123/0298-01"
+      ]
+    },
+    {
+      "cite": "58 S.W. 825",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "pin_cites": [
+        {
+          "page": "827"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "94 Texas 114",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2233506
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/94/0114-01"
+      ]
+    },
+    {
+      "cite": "144 S.W. 2d 529",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10227277,
+        2317806
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/144/0529-01",
+        "/tex/135/0566-01"
+      ]
+    },
+    {
+      "cite": "135 Texas 566",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2317806
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/135/0566-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 789,
+    "char_count": 18206,
+    "ocr_confidence": 0.595,
+    "pagerank": {
+      "raw": 8.624638025314924e-07,
+      "percentile": 0.9770430631283908
+    },
+    "sha256": "d155effac8ff18e55a796210d2edb1b9ae306596758d54738657af6a65f3cd6e",
+    "simhash": "1:b93d05174dbef780",
+    "word_count": 3194
+  },
+  "last_updated": "2024-02-27T19:52:08.570687+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "E. W. Lindsay v. Emil King Clayman et vir."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Griffin\ndelivered the opinion of the Court.\nOn February 14, 1939, E. W. and Frances M. Lindsay were husband and wife and had been for a number of years. On that date a land sale contract was entered into between Houston Land & Trust Company and \u201cMrs. Frances M. Lindsay and husband E. W. Lindsay\u201d whereby the Land Company agreed to sell to Mrs. Lindsay \u201cfor and in consideration of the sum of $950 to be paid by Mrs. Frances M. Lindsay out of her own separate fund * * * as her separate property and for her own separate use and estate\u201d Lots 1 and 2, Block 6, Brookline Addition to Houston, Harris County, Texas. This was an installment sales contract whereby Mrs. Frances M. Lindsay paid down $50 cash \u201cout of her own separate funds\u201d and agreed to pay a $900 balance in monthly installments of not less than $15.00. The Land Company agreed that upon full payment of the purchase price \u201cto promptly execute and deliver to the said Frances M. Lindsay a General Warranty Deed conveying said property to her as her separate property * * The deferred payments were made and on March 15, 1945, the Houston Bank & Trust Company, successor to the Land Company, executed and delivered the Warranty Deed which recited \u201cfor and in consideration of the sum of Nine Hundred Fifty Dollars ($950.00) cash to it paid by Mrs. Frances M. Lindsay, out of her own separate funds, * * * does Grant, Sell and Convey unto the said Mrs. Frances M. Lindsay, as her separate property and for her own separate use and estate * * * (then follows a description of the property) * * * To have and to hold * * * unto the said Mrs. Frances M. Lindsay, as her separate property and estate, her heirs and assigns, forever * *\nThe Lindsays continued to live together as husband and wife at all times after February 14, 1939 until her death in 1947. As to the property above described, Mrs. Lindsay died intestate, leaving surviving her no issue and only her husband, the petitioner herein; Mrs. Clayman, a niece, who, joined by her husband, are the respondents; and a half sister, Mrs. Emilie Clark Ball. Petitioned purchased all of Mrs. Ball\u2019s title, prior to the institution of this suit. Petitioner instituted this suit against respondents for title and possession of the two lots described in the contract and deed. The first count of his pleadings was statutory trespass to try title, and in the second count, he pleaded the lots were paid for out of community funds; that Mrs. Frances M. Lindsay held the title in trust for the community (a) because community funds were used, and (b) by virtue of an agreement between him and his wife made prior to the purchase. Also, he pleaded that in the event the lots be held to be separate property of Frances M. Lindsay, the community estate of himself and wife had placed improvements on the lots at a cost of $6,000.00 and the community estate was entitled to be reimbursed in a like amount by the separate estate, and asking that a lien be fixed against the separate property to secure the payment of the cost of the improvements, and asking for a foreclosure of the lien. Upon a jury verdict favorable to petitioner as to all matters pleaded by him, the trial court rendered a judgment that petitioner recover the title and possession of the two lots sued for, together with writ of possession. Respondents herein duly perfected their appeal from this judgment to the Court of Civil Appeals at Galveston, Texas. That Court, by its opinion reported in 247 S.W. 2d 300, reversed the trial court and rendered judgment for petitioner for title and possession as to two-thirds of the two lots, and for respondent, Mrs. dayman, for an undivided one-third interest in the two lots, and awarded petitioner a charge against respondents\u2019 interest to secure the repayment to the community estate of the sum of $5,495.00, found by the jury as being the cost of the improvements placed upon the separate property of Mrs. Frances M. Lindsay with community funds. On rehearing the Court of Civil Appeals held that Mrs. Frances M. Lindsay\u2019s one-half interest in the community funds should be applied to reimburse the community for the funds used to improve Mrs. Lindsay\u2019s separate estate.\nPetitioner urges that the Court of Civil Appeals erred in holding (a) as a matter of law that the two lots were the separate property of Mrs. Frances M. Lindsay; (b) that the consideration stated in the contract and deed was contractual and that, as a matter of law, parol evidence was inadmissible to show the true intentions of E. W. and Frances M. Lindsay as to the title to the lots, and (c) that in adjusting the equities between the community estate and Mrs. Lindsay\u2019s separate estate, community funds should be applied toward the satisfaction of the claim.\n1 We agree with the holding of the Court of Civil Appeals that, as a matter of law, the title to the two lots, under the contract and deed, vested in Mrs. Frances M. Lindsay as her separate property and estate.\nThe recitation contained in the contract and deed are to all intents and purposes the same as that in the deed construed in Kahn v. Kahn, 94 Texas 114, 58 S.W. 825, 827. In that case this Court said \u201cThe decisions do clearly establish the proposition that the intent to make the property conveyed the separate property of the wife may be shown not only by words of conveyance to her sole and separate use, but by recitals of a consideration such as would, if moving from her, give such a character to it. There can, therefore, be no doubt that the deed before us upon its Tace unequivocally expressed the purpose of Kahn to convey to his wife in her separate right, and he cannot be permitted, consistently with correct principles, to show that he did not so intend. The evidence admitted does not come within the rule which sometimes permits the true consideration of an instrument to be shown to have been different from that recited. This principle, properly applied, admits the evidence where the consideration has been stated as a fact, but not where the recital is contractual in its nature. Railroad Co. v. Garrett, 52 Texas 139; 6 Am. & Eng. Enc. Law, p. 775 and authorities cited.\u201d\nIn McKivett v. McKivett, 123 Texas 298, 70 S.W. 2d 694, J. F. McKivett conveyed by deeds certain property to his wife, Nora K. McKivett \u201cfor her own separate use and benefit\u201d upon a cash consideration of $10 and other good and valuable considerations out of her separate funds, and the assumption of certain outstanding notes. After the death of J. F. McKivett, his sons, by a former marriage, sued Nora K. McKivett in trespass to try title for an undivided one-half interest in the property. They sought to introduce evidence that the two deeds were executed and delivered in pursuance of a prior agreement between the husband and wife that she should hold the title to the property in trust for the community estate. The trial court sustained objections to the testimony offered and instructed a verdict for the wife, which was affirmed by the Court of Civil Appeals. This Court affirmed and with regard to the rule of law applicable said:\n\u201cThe principle upon which the decision of Kahn v. Kahn rests is the same as that which controls the cases holding that parol evidence may not be admitted, in the absence of fraud or mistake in the reduction of the contract to writing, to prove another or different consideration when the consideration expressed in the written instrument is contractual or executory. The reason for the exclusion of such evidence is that, when the parties have put in writing stipulations about the matter in controveresy, they should not be permitted to show an inconsistent agreement. See Coverdill v. Seymour, 94 Texas 1, 57 S. W. 37; Winkler v. Creekmore (Tex. Com. App.) 256 S. W. 257; Johnson v. Johnson (Tex. Com. App.) 14 S W. (2d) 805; Pridgen v. Furnish (Tex. Com. App.) 23 S. W. (2d) 307; Guggenheim v. Dallas Plumbing Co. (Tex. Com. App.) 59 S. W. (2d) 105.\n* * * Such evidence would contradict the very statements in the deeds which the court held in Kahn v. Kahn to belong to that class of particular and contractual recitals which the parties may not deny. The deeds in express terms declare the particular purpose or use for which the property is conveyed; that is, that it shall belong separately to the wife. Parol evidence should not be admitted to prove that it was conveyed for a different purpose or use.\u201d * * *\n2 Petitioner contends that he is not bound by the above rule of law for the reason that he was not a party to the deed. He was a party to the contract of sale, and he knew of the deed and together with his wife established their home upon these lots. The character of the title to the lots, whether separate property, of Mrs. Lindsay, or community property of Mr. and Mrs. Lindsay, was fixed at the very time of the acquisition of the title. Smith v. Buss, 135 Texas 566, 144 S.W. 2d 529 (7) ; Miller v. Miller, Texas Civ. App., 131 S.W. 2d 245, no writ history; Henry v. Reinle, Texas Civ. App., 245 S.W. 2d 743, ref. n.r.e.; Lusk v. Parmer, Texas Civ. App., 87 S.W. 2d 790, no writ history.\nIn Loeb v. Wilhite, Texas Civ. App., 224 S.W. 2d 343, ref. n. r. e., one Newcom caused a deed to be made to his wife conveying certain property to her for a consideration recited to have been paid out of her separate funds and her assumption of an outstanding indebtedness. The deed conveyed the property to the wife as her separate property. It was sought to show that the property was paid for by community funds, and that a resulting trust arose in favor of plaintiff, a daughter by a former marriage, to an undivided one-half interest. Evidence was introduced, over the objection of the surviving widow (who had since married one Loeb) as to a prior agreement between husband and wife that she should take the property in her own name and as her separate estate for the protection of the community. In reversing and rendering the case in favor of the wife, the Court of Civil Appeals held such evidence inadmissible in the absence of any allegations of fraud, accident or mistake.\n\u201cThe deed, as executed, on its face shows purportedly that Mr. Newcom intended to convey the property to his wife for her separate use, and the consideration expressed in the deed is, for the most part, contractual; hence in the absence of pleadings and proof that the recitals in the deed were inserted by fraud or mistake, extrinsic evidence was not admissible to vary the recitals therein which manifestly are contractual in nature. Kahn v. Kahn, 94 Texas 114, 58 S. W. 825, reversing, Texas Civ. App., 56 S. W. 946; East Line & Red River R. Co. v. Garrett, 52 Texas 133; Kidd v. Young, 144 Texas 322, 190 S. W. 2d 65; Graves v. Graves, Texas Civ. App., 26 S. W. 2d 694; 14 Tex. Jur. 815, sec. 54.\u201d\nThe case also holds that where the evidence shows the third party seeking to introduce evidence to vary the recitals in the deed is in privity with the parties to the deed, the parol evidence rule also applies to him. Petitioner was a party to the contract and in privity with the parties to the deed conveying the lots to his wife. Since the deed states the nature of the estate conferred upon the wife and the consideration being contractual, parol evidence is not admissible to contradict or vary the deed in the absence of allegations of fraud, accident or mistake. Goldberg v. Zellner, Com. App., 235 S.W. 870; Russell v. Russell, Com. App., 132 Texas 73, 120 S.W. 2d 793; (12) ; Kidd v. Young, 144 Texas 322, 190 S.W. 2d 65; Nye v. Bradford, 144 Texas 618, 193 S.W. 2d 165 (2) ; Markum v. Markum, Texas Civ. App., 210 S.W. 835, 840, 841, writ dismissed; 42 Tex. Jur. 683. Petitioner\u2019s first two points of error are overruled.\n3 This brings us to petitioner\u2019s third point complaining of the action of the Court of Civil Appeals in directing that Mrs. Lindsay\u2019s interest in the community funds be applied toward the satisfaction of a claim by the community estate against Mrs. Lindsay\u2019s separate estate. We believe that the Court of Civil Appeals erred in so holding.\nDakan v. Dakan, 125 Texas 305, 83 S.W. 2d 620, 627 (16-18) :\n\u201cOur decisions hold that where a spouse improves his or her separate property with the funds belonging to the community estate, the other spouse, or his or her heirs, would be entitled to reinmbursement out of his or her separate property, to the extent of their share of the community funds so used, and that their claim for such reimbursement is in the nature of a charge upon the property so improved. Rice v. Rice, 21 Texas 58; Cameron v. Fay, 55 Texas 58, 61; Roberson v. McIlhenny, 59 Texas 615; Furrh v. Winston, 66 Texas 521, 525, 1 S. W. 527; Clift v. Clift, 72 Texas 144, 149, 10 S. W. 338; Robinson v. Moore, 1 Texas Civ. App., 93, 20 S. W. 994. In other words, the principles of reimbursement in accounting between estates apply without distinction, to both separate and community estate. 23 Texas Jur. Sec. 158, pp. 187, 188, 189, 190.\u201d\nSee also Furrh v. Winston, 66 Texas 521, 1 S.W. 527; Morrison v. Farmer, 147 Texas 122, 213 S.W. 2d 813; Rudasill v. Rudasill, Texas Civ. App., 219 S.W. 843, no writ history; Speer, Law of Marital Rights in Texas, Sec. 388, p. 468; 23 Tex. Jur. 187, et seq.\nThe law is that if there are proper pleadings and proof, together with adequate findings of fact, the estate benefited must reimburse the estate which made the contribution. The Court of Civil Appeals judgment relieves Mrs. Lindsay\u2019s separate estate from reimbursing the community estate which paid for the improvements. That judgment causes the community estate to reimburse itself for the expenditures made in improving Mrs. Lindsay\u2019s separate estate.\n4 The amount of reimbursement is not determined by the cost the improvements made, but by the enhancement in value of the estate improved by virtue of the improvements made by the other estate. Dakan v. Dakan, supra, 628 (27,28) ; Puckett v. Puckett, Texas Civ. App., 205 S.W. 2d 124 (5), no writ history (divorce case) ; Gleich v. Bongio, 128 Texas 606, 99 S.W. 2d 881 (6) ; Burton v. Williams, Texas Civ. App., 195 S.W. 2d 245, ref. N. R. E.; 16 Texas Law Rev. 580; McKay, Community Property, 2d Ed., Sec. 1025, p. 670.\nThere are no pleadings on the part of the petitioner that the improvements made enhanced the value of the lots, and petitioner only pleads, and in his prayer asks for, the cost of the improvements. No issue was submitted to the jury on the question of enhancement of the value of the lots. Only a special issue asking the jury the cost of the improvements was submitted, and to it the jury answered $5,495.00. Respondents objected to such special issue as being immaterial, \u201c* * * and that the question that should be submitted, if any, and should be proved by the evidence in this case, is what the enhancement of the property is by reason of these improvements, and what is the value of the improvements, and not what was the cost of the improvements\u201d, thus specifically pointing out to the trial court the true rule. Respondents have preserved this point on appeal, and urge it before us. Petitioner could recover only one-third of such enhanced value, because he gets judgment for an undivided two-thirds interest in the lots, and has the right to use the whole of the lots and the improvements thereon as his homestead without any interference on the part of respondents. There being no pleadings, evidence or jury finding on which to base any judgment for any reimbursement of the community estate, no judgment can be given in favor of petitioner for any amount against respondents\u2019 undivided- one-third interest in the lots. The petitioner, having failed to secure a jury finding on the issue as to the enhancement in value of the separate estate by virtue of the improvements made, has waived his right to recover for such expenditures. Rule 279, T. R. C. P.; Wichita Falls & Okla. Ry. Co. v. Pepper, 134 Texas 360, 135 S.W. 2d 79. The judgment of the Court of Civil Appeals on this phase of the case is reversed and here rendered in favor of respondents.\nThe judgment of the Court of Civil Appeals awarding to petitioner, E. W. Lindsay, an undivided two-thirds interest in and to the lots sued for is affirmed, as is that part of the judgment which recognizes the right of E. W. Lindsay to use, occupy and enjoy the whole of the lots and improvements as his homestead so long as he shall live, or until he abandons same. That part of the judgment wherein the Court of Civil Appeals awards any amount as reimbursement to petitioner for any improvements made is reversed and judgment is here rendered that respondent, Emilie King dayman, recover title to an undivided one-third of the lots and improvements thereon; subject, however, to E. W. Lindsay\u2019s homestead rights, but free from any claim on the part of Lindsay for reimbursement to the community estate of himself and deceased wife, Frances M. Lindsay.\nOpinion delivered November 5, 1952.\nRehearing overruled December 10, 1952.",
+        "type": "majority",
+        "author": "Mr. Justice Griffin"
+      }
+    ],
+    "attorneys": [
+      "Elledge, Elledge, Ur'ban & Elledge andHomer L. Bruce, Jr., all of Houston, for petitioner.",
+      "H. Fletcher Brown, of Houston, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "E. W. Lindsay v. Emil King Clayman et vir.\nNo. A-3652.\nDecided November 5, 1952.\nRehearing overruled December 10, 1952.\n(254 S. W., 2d Series, 777.)\nElledge, Elledge, Ur'ban & Elledge andHomer L. Bruce, Jr., all of Houston, for petitioner.\nThe Court of Civil Appeals erred in holding that the legal effect of the contract of purchase executed between the grantor and Mr. and Mrs. Lindsay, and the deed to Mrs. Lindsay, constituted the property in controversy the separate property of Mrs. Lindsay, as a matter of law. Said Court also erred in holding that parol evidence was inadmissible to show the true intentions of Mr. and Mrs. Lindsay, and in holding that community funds should be applied toward the satisfaction of a claim by the community estate against the separate estate of Mrs. Lindsay.\nSmith v. Buss, 135 Texas 566, 144 S.W. 2d 529; McCutchen v. Purinton, 84 Texas 603, 19 S.W. 710; Robbins v. Robbins, 125 S.W. 2d 666.\nH. Fletcher Brown, of Houston, for respondents.\nIn response to contentions of petitioner, respondents cite Kahn v. Kahn, 94 Texas 114, 58 S.W. 825; McKivett v. McKivett, 123 Texas 298, 70 S.W. 2d 694; Waterman Lumber & Supply Co. v. Robbins, 206 S.W. 825."
+  },
+  "file_name": "0593-01",
+  "first_page_order": 609,
+  "last_page_order": 617
+}

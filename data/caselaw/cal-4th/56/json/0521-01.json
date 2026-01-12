@@ -1,0 +1,909 @@
+{
+  "id": 4225109,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. VALENTIN CARBAJAL, Defendant and Appellant",
+  "name_abbreviation": "People v. Carbajal",
+  "decision_date": "2013-04-08",
+  "docket_number": "No. S195600",
+  "first_page": "521",
+  "last_page": "544",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "56 Cal. 4th 521"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal.",
+    "id": 9021,
+    "name": "Supreme Court of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "914 P.2d 832",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Cal.Rptr.2d 282",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "13 Cal.4th 289",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1965922
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/13/0289-01"
+      ]
+    },
+    {
+      "cite": "467 U.S. 203",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6197146
+      ],
+      "weight": 3,
+      "year": 1996,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/467/0203-01"
+      ]
+    },
+    {
+      "cite": "185 L.Ed.2d 124",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12407493
+      ],
+      "weight": 2,
+      "year": 1984,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/568/0313-01"
+      ]
+    },
+    {
+      "cite": "512 P.2d 289",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "109 Cal.Rptr. 65",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "9 Cal.3d 753",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2297485
+      ],
+      "pin_cites": [
+        {
+          "page": "764"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/9/0753-01"
+      ]
+    },
+    {
+      "cite": "100 P.3d 870",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 Cal.Rptr.3d 179",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "34 Cal.4th 535",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        633030
+      ],
+      "pin_cites": [
+        {
+          "page": "550, fn. 6"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/34/0535-01"
+      ]
+    },
+    {
+      "cite": "909 P.2d 1354",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2004,
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 Cal.Rptr.2d 732",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 2004,
+      "opinion_index": 0
+    },
+    {
+      "cite": "12 Cal.4th 652",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1957556
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "661"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/12/0652-01"
+      ]
+    },
+    {
+      "cite": "211 P.3d 584",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "97 Cal.Rptr.3d 77",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.4th 92",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3899532
+      ],
+      "pin_cites": [
+        {
+          "page": "102"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/47/0092-01"
+      ]
+    },
+    {
+      "cite": "389 F.3d 880",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9150288
+      ],
+      "pin_cites": [
+        {
+          "page": "890, fn. 17"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/389/0880-01"
+      ]
+    },
+    {
+      "cite": "646 P.2d 809",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2004,
+      "opinion_index": 0
+    },
+    {
+      "cite": "183 Cal.Rptr. 647",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 2004,
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Cal.3d 503",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1979966
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "519"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/31/0503-01"
+      ]
+    },
+    {
+      "cite": "165 P.3d 512",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "64 Cal.Rptr.3d 721",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.4th 379",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3673517
+      ],
+      "pin_cites": [
+        {
+          "page": "425"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/42/0379-01"
+      ]
+    },
+    {
+      "cite": "430 U.S. 564",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12126181
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "569"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/430/0564-01"
+      ]
+    },
+    {
+      "cite": "395 U.S. 784",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1771730
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "793-796"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/395/0784-01"
+      ]
+    },
+    {
+      "cite": "369 U.S. 141",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6165831
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "143"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/369/0141-01"
+      ]
+    },
+    {
+      "cite": "404 F.2d 291",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2125038
+      ],
+      "pin_cites": [
+        {
+          "page": "295"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/404/0291-01"
+      ]
+    },
+    {
+      "cite": "130 Cal.Rptr.3d 917",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "199 Cal.App.4th 718",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6054018
+      ],
+      "pin_cites": [
+        {
+          "page": "727"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/199/0718-01"
+      ]
+    },
+    {
+      "cite": "133 P.3d 1076",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2011,
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.Rptr.3d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2011,
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 Cal.4th 491",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3852905
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "600"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/38/0491-01"
+      ]
+    },
+    {
+      "cite": "469 U.S. 57",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11958569
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/469/0057-01"
+      ]
+    },
+    {
+      "cite": "249 Cal.Rptr. 198",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "202 Cal.App.3d 1009",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        6044801
+      ],
+      "pin_cites": [
+        {
+          "page": "1014"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/202/1009-01"
+      ]
+    },
+    {
+      "cite": "73 Cal.Rptr.2d 799",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1988,
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Cal.App.4th 578",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "589-590"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "61 Cal.Rptr. 731",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "253 Cal.App.2d 780",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2177460
+      ],
+      "pin_cites": [
+        {
+          "page": "787"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/253/0780-01"
+      ]
+    },
+    {
+      "cite": "173 Cal.Rptr. 286",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1967,
+      "opinion_index": 0
+    },
+    {
+      "cite": "118 Cal.App.3d 172",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2063867
+      ],
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "182"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/118/0172-01"
+      ]
+    },
+    {
+      "cite": "256 Cal.Rptr. 528",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "208 Cal.App.3d 1127",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4411875
+      ],
+      "pin_cites": [
+        {
+          "page": "1134"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/208/1127-01"
+      ]
+    },
+    {
+      "cite": "98 Cal.Rptr.3d 175",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "176 Cal.App.4th 933",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5741199
+      ],
+      "pin_cites": [
+        {
+          "page": "943"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/176/0933-01"
+      ]
+    },
+    {
+      "cite": "834 P.2d 1171",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "11 Cal.Rptr.2d 353",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "3 Cal.4th 495",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        2008169
+      ],
+      "pin_cites": [
+        {
+          "page": "565"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-4th/3/0495-01"
+      ]
+    },
+    {
+      "cite": "51 P.3d 310",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "123 Cal.Rptr.2d 447",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "28 Cal.4th 923",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        947653
+      ],
+      "pin_cites": [
+        {
+          "page": "929"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-4th/28/0923-01"
+      ]
+    },
+    {
+      "cite": "468 U.S. 317",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11338223
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "323-324"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/468/0317-01"
+      ]
+    },
+    {
+      "cite": "434 U.S. 497",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6185127
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "505"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/434/0497-01"
+      ]
+    },
+    {
+      "cite": "451 U.S. 430",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6187109
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "437"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/451/0430-01"
+      ]
+    },
+    {
+      "cite": "467 U.S. 493",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6203132
+      ],
+      "weight": 3,
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "498"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/467/0493-01"
+      ]
+    },
+    {
+      "cite": "537 U.S. 101",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9190761
+      ],
+      "weight": 11,
+      "pin_cites": [
+        {
+          "page": "106"
+        },
+        {
+          "page": "pp. 113-114"
+        },
+        {
+          "page": "109-110"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/537/0101-01"
+      ]
+    },
+    {
+      "cite": "163 U.S. 662",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        468196
+      ],
+      "weight": 3,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "671"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/163/0662-01"
+      ]
+    },
+    {
+      "cite": "185 L.Ed.2d 124",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12407493
+      ],
+      "weight": 3,
+      "year": 1984,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/568/0313-01"
+      ]
+    },
+    {
+      "cite": "211 P.3d 584",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "97 Cal.Rptr.3d 77",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "47 Cal.4th 92",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3899532
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "99"
+        },
+        {
+          "page": "111"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-4th/47/0092-01"
+      ]
+    },
+    {
+      "cite": "410 U.S. 458",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11957586
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "463"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/410/0458-01"
+      ]
+    },
+    {
+      "cite": "468 U.S. 317",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11338223
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "325-326"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/468/0317-01"
+      ]
+    },
+    {
+      "cite": "434 U.S. 497",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6185127
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "505, 516-517"
+        },
+        {
+          "page": "p. 509"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/434/0497-01"
+      ]
+    },
+    {
+      "cite": "211 P.3d 584",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 2
+    },
+    {
+      "cite": "97 Cal.Rptr.3d 77",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 2
+    },
+    {
+      "cite": "47 Cal.4th 92",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3899532
+      ],
+      "pin_cites": [
+        {
+          "page": "102, 115"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/cal-4th/47/0092-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1496,
+    "char_count": 53723,
+    "ocr_confidence": 0.913,
+    "pagerank": {
+      "raw": 1.2132569048314484e-07,
+      "percentile": 0.596480335340014
+    },
+    "sha256": "80fb471c611b498be3c2ed88344d383fcf69a2e66dc090f645dc149a3c719f25",
+    "simhash": "1:2f62c12730047df2",
+    "word_count": 8834
+  },
+  "last_updated": "2024-02-27T22:02:26.082259+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. VALENTIN CARBAJAL, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nLIU, J.\nDefendant was charged with sexually molesting two victims. A jury convicted defendant of some counts involving one victim while deadlocking on all counts involving the other victim. Nevertheless, the jury returned a true finding on a \u201cOne Strike\u201d allegation that defendant had committed offenses against multiple victims. (Pen. Code, \u00a7 667.61, subds. (b), (e)(4); all further statutory references are to the Penal Code.) Believing the jury\u2019s true finding was made in error, the trial court instructed the jury on the law and ordered further deliberations. When the jury quickly returned, the trial court did not ask for or receive a verdict from the jury. Believing the jury had again erred, this time by making a not true finding, the court gave a lengthy comment with additional instructions and again ordered further deliberations. The jury then returned a third time with a blank verdict form and indicated it had deadlocked on the multiple victim allegation. The trial court declared a mistrial, and defendant was retried. A second jury convicted defendant of counts involving the other victim and found true the multiple victim allegation. The issue presented is whether defendant could be properly retried on the multiple victim allegation.\nNumerous courts have found improper a trial court\u2019s good faith inquiries into apparently inconsistent verdicts. In the present case, the trial court tried to steer the first jury toward the \u201ccorrect\u201d outcome on the multiple victim allegation. In so doing, the trial court departed from the procedures carefully prescribed by the Legislature for receiving and recording a jury\u2019s verdict. However, because the first jury had no authority to decide or even to consider the multiple victim allegation in the circumstances here, the jury could not have returned any valid verdict on that allegation. Thus, retrial on the multiple victim allegation was not barred by double jeopardy.\nI.\nAn information charged defendant with committing various sex offenses against two minor victims, J.R. and Z.C., with nine counts involving Z.C. and four counts involving J.R. The information also alleged, pursuant to the One Strike law, that defendant \u201cin the present case committed [a specified offense] against more than one victim.\u201d (See \u00a7 667.61, subds. (b), (e)(4).) Z.C. was defendant\u2019s biological daughter, and J.R. was the daughter of defendant\u2019s wife. They all lived in the same household at the time of the alleged offenses. There was no allegation in the information or any evidence at trial that defendant committed sex offenses against anyone other than Z.C. and J.R.\nThe trial court instructed the jury on the One Strike allegation as follows: \u201cIf you find the defendant guilty of two or more sex offenses as charged in Counts 1, 2, 6, 7, 8, 9, 10, 11, 12 and 13, you must then decide whether the People have proved the additional allegation that those crimes were committed against more than one victim.\u201d The jury deliberated for about a day. It then informed the trial court that it had reached a verdict on three counts but was deadlocked on the remaining counts. The trial court brought the jury into the courtroom, and the foreperson, Juror No. 8, said the jury had reached a verdict on counts 10, 11, and 12, all of which involved J.R. After inquiring about the numerical split of the jurors on the 10 remaining counts, the trial court polled the jury, and each juror agreed that further deliberations would not assist them. The trial court briefly discussed the matter with counsel and then decided it would receive the jury\u2019s verdicts as to the three counts involving J.R. and accept that the jury was deadlocked on the remaining counts.\nAfter receiving the verdict forms, the trial court called counsel to sidebar and informed them that the jury had convicted defendant on counts 10, 11, and 12, but had found true the One Strike allegation that defendant committed offenses against more than one victim. Because the three counts on which the jury convicted defendant involved only a single victim, J.R., the trial court questioned whether the jury could find the multiple victim allegation true and decided to inquire whether \u201cthis is what they want to do.\u201d The following transpired:\n\u201cThe Court: Juror Number 8, I have a question. Based upon your verdicts that I\u2019ve taken a look at, as to Counts 10, 11, and 12, you also signed a true finding on the special allegation, which calls for the offenses to be committed against more than one victim. Is that what you wanted to do?\n\u201cJuror No. 8: No, sir. I thought it was one or more counts.\n\u201cThe Court: No, it has to be against one or more victims. With that in mind, what I am going to do, I am going to hand this form back to you. I\u2019m going to ask the jury to go back in, and if you did not mean to find that as true, because I\u2019ve just explained it to you, to make sure that that reflects your verdict. Once you\u2019re done, you are done with that, come back out.\n\u201cIf it does, that\u2019s fine. You have to go back in the jury room. . . . Why don\u2019t you go ahead back in at this point. I think there may have been a misunderstanding.\u201d\nThe jury went back to the deliberation room and returned in five minutes. At that point, the trial court again called counsel to sidebar and said, \u201cI think I can guess what they have done. They have gone in; they signed it \u2018not true finding.\u2019 The problem is that\u2019s not what they should have done. ... [f] It will be double jeopardy. Otherwise, the truth is if they are hung, the Court should not take any verdict on that Count because it\u2019s inappropriate.\u201d Defense counsel said, \u201cDo you want to look and see what they did first?\u201d The court said, \u201cI think what it is, since they are hung, we probably should not enter a finding on that at this point.\u201d The court then addressed the jury as follows:\n\u201cThe Court: Okay. Ladies and gentlemen, I have given this some thought. Since you are unable to arrive at a decision on some of the counts, it is my belief that you should not be making a finding on that allegation unless two different victims were named.\n\u201cNow, we know what the verdicts are. You signed them, and I have read them, and counsel is aware of it. It appears to me the appropriate thing to do is\u2014as with the other charges, is to not enter a finding. Since you are unable to arrive at a verdict, you can\u2019t find that to be true unless your belief is unanimously\u2014if unanimously you believe not just as to the counts that you return but the entire case that there is not more than one victim.\n\u201cI mean, technically, you could come to that finding without arriving at the other counts. I think legally they could, but you would have to make a finding unanimously that there is only one victim. If you are not able to do that . . . then what you should do is simply not fill in that form.\n\u201cThat\u2019s correct, if you believe unanimously that that finding is not true, it\u2019s not based on the three verdicts that you returned, it\u2019s based on the entire case because you are unable to arrive at a verdict on many of the counts. . . .\n\u201cLet\u2019s assume for a moment you had arrived at verdicts, and the verdicts named more than one victim, that\u2019s all I could say, you then would have to make a determination whether this allegation was true or not true. The problem is by signing that verdict form, you still have counts where you have been unable to arrive at a verdict, and those verdict forms do name more than one victim.\n\u201cSo I sort of, I don\u2019t want to tell you what to do. I am sort of giving you what I believe the law require[s]\u2014You have three options: You could find it to be true, which at this point you originally signed, but you have agreed it was a mistake based upon a misunderstanding. I think I may have misled you when I sent you back out as to . . . what your options were.\n\u201cDo you understand now what your options are? I see a lot of jurors nodding their heads you don\u2019t. There is a lot of counts that are still outstanding.\n\u201cJuror No. 9: Correct.\n\u201cThe Court: I think legally there may be some problem, but I don\u2019t want to tell you that\u2019s the law because I am not sure you are making a finding that there is not more than one victim in this case; yet you haven\u2019t decided all the counts.\n\u201cThat finding does not apply just to the three counts that you decided; it applies to the entire case. If you are unable\u2014I don\u2019t want to say anything more on that finding. I think you have to go in and discuss that.\n\u201cA lot of jurors are nodding their heads, and I think I know\u2014Juror No. 8, you seem somewhat confused. That finding applies when the entire case has been decided, if you can, but what I am saying is there is a lot of counts you did not decide.\n\u201cJuror No. 8: Correct. Okay.\n\u201cThe Court: I want you to go back. I don\u2019t want to say anymore. When you\u2019re done\u2014go in, take as much time as you need. You let us know. . . . You retire and continue your deliberations. I am not comfortable saying anything more about it. I think I have explained it to the satisfaction where enough jurors could perhaps guide the discussion. Then we will just see where you stand.\u201d\nThe jury went back to the deliberation room and returned a few minutes later, at which point the trial court noted \u201c[f]or the record\u201d that \u201cthe jurors questioned the clerk as to whether they could leave a form blank and could they have a fresh form which was sent in to them . . . .\u201d The trial court then polled the jury, and all jurors agreed they wanted to leave the form blank. The trial court accepted the guilty verdicts on counts 10, 11, and 12, and declared a mistrial as to the remaining counts and the multiple victim allegation.\nSubsequently, the trial court empanelled a second jury, and that jury convicted defendant of the nine remaining counts involving Z.C. and found true the multiple victim allegation. Count 13, which involved J.R., was not retried. The trial court sentenced defendant on counts 1 and 10 to two consecutive terms of 15 years to life (one term for each victim) pursuant to the One Strike law, plus a consecutive term of 53 years as to the remaining counts.\nOn appeal, defendant argued that federal and state double jeopardy principles barred retrial on the multiple victim allegation. Defendant cited section 1161, which provides in relevant part: \u201cWhen there is a verdict of conviction, in which it appears to the Court that the jury have mistaken the law, the Court may explain the reason for that opinion and direct the jury to reconsider their verdict, and if, after the reconsideration, they return the same verdict, it must be entered; but when there is a verdict of acquittal, the Court cannot require the jury to reconsider it.\u201d According to defendant, the trial court properly asked the first jury to reconsider its initial true finding on the multiple victim allegation because that finding appeared inconsistent with the jury\u2019s other verdicts convicting defendant of counts involving only a single victim. However, defendant argued, once the jury returned the second time with a not true finding, as the trial court assumed the jury had, section 1161 required the trial court to accept that finding.\nIn her brief in the Court of Appeal, the Attorney General conceded that the jury had returned the second time with a not true verdict as to the multiple victim allegation. However, the Attorney General argued that the trial court properly directed the jury to reconsider this finding as it was inconsistent with the jury\u2019s other verdicts. She further argued that because the jury ultimately revealed that its \u201ctrue intent\u201d was to make no finding, \u201cno double jeopardy issues were presented during the retrial.\u201d\nA divided Court of Appeal agreed with defendant. The majority reasoned that the trial court was obligated under section 1161 to accept the jury\u2019s second finding, whether the finding was true or not true, and that double jeopardy principles barred defendant\u2019s retrial on the multiple victim allegation. Thus, the Court of Appeal reversed the second jury\u2019s true finding on the multiple victim allegation. Judge Kumar, sitting by assignment, dissented on the ground that \u201cno verdict at the first trial was ever taken or recorded on the allegation\u201d and that the first jury could not have made a finding on the multiple victim allegation since it did not reach a verdict on counts involving Z.C.\nWe granted the Attorney General\u2019s petition for review and now reverse.\nII.\nWe begin by addressing the primary question addressed by the parties and by the Court of Appeal below: whether the trial court departed from the procedures established by the Legislature for receiving and recording a jury\u2019s verdict. We then consider whether the constitutional prohibition on double jeopardy precluded defendant from being retried on the multiple victim allegation. As we explain, if the first jury had possessed authority to consider the enhancement allegation, any verdict it might have returned after its second deliberation should have been received and recorded by the trial court. But because the jury had no authority to consider the enhancement allegation after it deadlocked on the counts involving Z.C., no valid verdict could have been rendered, and thus double jeopardy did not bar retrial on that allegation.\nA.\nThe Legislature has set forth in prescriptive detail the procedures that trial courts must follow in receiving a jury verdict. Section 1147 provides that \u201c[wjhen the jury have agreed upon their verdict, they must be conducted into court by the officer having them in charge.\u201d Section 1149 provides that \u201c[wjhen the jury appear they must be asked by the Court, or Clerk, whether they have agreed upon their verdict, and if the foreman answers in the affirmative, they must, on being required, declare the same.\u201d Section 1161, as noted, provides that \u201c[wjhen there is a verdict of conviction, in which it appears to the Court that the jury have mistaken the law, the Court may explain the reason for that opinion and direct the jury to reconsider their verdict, and if, after the reconsideration, they return the same verdict, it must be entered; but when there is a verdict of acquittal, the Court cannot require the jury to reconsider it.\u201d Section 1163 provides that \u201c[wjhen a verdict is rendered, and before it is recorded, the jury may be polled, at the request of either party, in which case they must be severally asked whether it is their verdict, and if any one answer in the negative, the jury must be sent out for further deliberation.\u201d And section 1164, subdivision (a) provides that \u201c[wjhen the verdict given is receivable by the court, the clerk shall record it in full upon the minutes, and if requested by any party shall read it to the jury, and inquire of them whether it is their verdict. If any juror disagrees, the fact shall be entered upon the minutes and the jury again sent out; but if no disagreement is expressed, the verdict is complete . . . .\u201d\nThese provisions are intended to reduce the likelihood of a trial court unduly, even if inadvertently, influencing the jury to reach a particular outcome. (See People v. Guerra (2009) 176 Cal.App.4th 933, 943 [98 Cal.Rptr.3d 175] (Guerra) [discussing risk of jury coercion \u201c[g]iven the formality of the setting of a superior court, over which the trial judge presides in a commanding display of authority\u201d]; Bigelow v. Superior Court (1989) 208 Cal.App.3d 1127, 1134 [256 Cal.Rptr. 528] (Bigelow) [inferring from the statutory scheme the \u201cbasic principle!]\u201d that \u201ca trial court may not coerce a jury by rejecting its verdict [of acquittal] and requesting it to continue deliberating\u201d].) The mechanical, prescriptive character of the process for eliciting and receiving a jury verdict reflects the Legislature\u2019s judgment that the risk of jury coercion outweighs the risk of jury error. The procedural requirements set forth in the statutory scheme apply regardless of whether a reviewing court can discern that there was no actual coercion of the jury by the trial court. The requirements are premised on the notion that the risk of coercion is enough to warrant strict adherence to clear and detailed procedures for receiving a jury verdict.\nHere, the trial court departed from these procedures. Had the jury been properly authorized to return a verdict on the multiple victim allegation, sections 1147 and 1149 spell out what was supposed to happen when the jury completed its deliberations the second time. As noted, section 1147 says: \u201cWhen the jury have agreed upon their verdict, they must be conducted into court by the officer having them in charge.\u201d And section 1149 says: \u201cWhen the jury appear they must be asked by the Court, or Clerk, whether they have agreed upon their verdict, and if the foreman answers in the affirmative, they must, on being required, declare the same.\u201d Thus, when the jury returned to the courtroom the second time, proper adherence to the statutory procedures would have led to the jury\u2019s declaration of its verdict. Having directed the jury to reconsider its initial verdict of conviction, the trial court could not again order further deliberations even if the court again believed the jury had made a mistake. Section 1161 makes clear that \u201cif, after the reconsideration, they return the same verdict, it must be entered; but when there is a verdict of acquittal, the Court cannot require the jury to reconsider it.\u201d (\u00a7 1161.) At that point in the process, a court may poll the jury at either party\u2019s request. If any juror says that the verdict does not reflect his or her true intent, the court may send the jury back for further deliberations with additional instructions as the court deems necessary. (\u00a7\u00a7 1163, 1164, subd. (a).) But no provision of the statutory scheme permits a court, after the jury\u2019s second deliberation, to refuse to hear a verdict it believes to be erroneous or to direct the jury to deliberate further without the declaration of one or more jurors that the announced verdict is in error.\nWe recognize that there is case law permitting a trial court to clarify an \u201cambiguous\u201d verdict. For example, appellate courts have held that if a jury returns a verdict finding the defendant guilty and not guilty on the same count, the trial court may request clarification. (See People v. Keating (1981) 118 Cal.App.3d 172, 182 [173 Cal.Rptr. 286]; People v. Mestas (1967) 253 Cal.App.2d 780, 787 [61 Cal.Rptr. 731].) Appellate courts have also held that a trial court may seek clarification where a jury finds the defendant guilty of a greater offense but not guilty of a lesser included offense. (See People v. Caird (1998) 63 Cal.App.4th 578, 589-590 [73 Cal.Rptr.2d 799]; People v. Davis (1988) 202 Cal.App.3d 1009, 1014 [249 Cal.Rptr. 198].) In these cases, asking the jury to clarify its verdict did not contravene the procedural requirements of the statutory scheme because it was not possible to understand whether the jury had actually convicted or acquitted the defendant of the specified counts. Clarification was necessary to determine whether there was an intelligible verdict at all.\nBut the trial court in this case did not attempt to clarify an unintelligible verdict. Whatever finding the jury might have returned following its second set of deliberations, there is no reason to think the trial court would have been unable to discern what the jury\u2019s finding was. A verdict of true or not true on the special allegation would have been inconsistent with the jury\u2019s findings on the substantive counts, but it would not have been unintelligible in the way that a finding of guilt and acquittal on the same count is.\nMere inconsistency does not provide a valid reason for courts to reject a jury verdict. As the high court explained in United States v. Powell (1984) 469 U.S. 57 [83 L.Ed.2d 461, 105 S.Ct. 471] (Powell): \u201c[A]n individualized assessment of the reason for the inconsistency would be based either on pure speculation, or would require inquiries into the jury\u2019s deliberations that courts generally will not undertake. . . . But with few exceptions, [citations], once, the jury has heard the evidence and the case has been submitted, the litigants must accept the jury\u2019s collective judgment. Courts have always resisted inquiring into a jury\u2019s thought processes, [citations]; through this deference the jury brings to the criminal process, in addition to the collective judgment of the community, an element of needed finality.\u201d (Id. at pp. 66-67.) For this reason, our courts have consistently held that \u201c[a]s a general rule, inherently inconsistent verdicts are allowed to stand.\u201d (People v. Avila (2006) 38 Cal.4th 491, 600 [43 Cal.Rptr.3d 1, 133 P.3d 1076]; see id. at pp. 600-601 [discussing Powell with approval]; accord, Bigelow, supra, 208 Cal.App.3d at p. 1136; Guerra, supra, 176 Cal.App.4th at p. 944; People v. Espiritu (2011) 199 Cal.App.4th 718, 727 [130 Cal.Rptr.3d 917].)\nThus, apart from the limited circumstance specified in section 1161\u2014 where \u201cit appears to the Court that the jury have mistaken the law . . .\u201d in initially rendering \u201ca verdict of conviction\u201d\u2014a trial court may not decline to accept a jury verdict, or refuse to hear the verdict, simply because it is inconsistent with another verdict rendered by the same jury in the same case. Importantly, this is not some odd quirk of our justice system. \u201c \u2018Jury decision-making is designed to be a black box: the inputs (evidence and argument) are carefully regulated by law and the output (the verdict) is publicly announced, but the inner workings and deliberation of the jury are deliberately insulated from subsequent review. . . .\u2019 [Citation.]\u201d (Guerra, supra, 176 Cal.App.4th at p. 942.) A trial court\u2019s obligation to accept a jury verdict even if inconsistent with the jury\u2019s other verdicts is a corollary of these principles. (Id. at p. 943 [\u201cThe system accepts the possibility that \u2018the jury arrived at an inconsistent conclusion through \u201cmistake, compromise, or lenity.\u201d [(Powell, supra, 469 U.S. at p. 65.)]\u2019 [Citation.]\u201d].) \u201cTo allow a judge to question a jury\u2019s process of deliberate decision, even though done in good faith to avoid an apparent miscarriage of justice, could result in abuses far outweighing the infrequent inability to correct what may appear to be . . . erroneous or a misunderstanding. And this must be true, even though reconsideration by the jury results in a verdict more accurately reflecting the jury\u2019s intentions.\u201d (Chicago, Rock Island & Pacific Railroad Co. v. Speth (8th Cir. 1968) 404 F.2d 291, 295.)\nIn sum, except as provided in section 1161, a trial court may not reject a jury\u2019s verdict and send the jury back for further deliberations based on the court\u2019s belief that the jury made a mistake. We express no view on whether there are circumstances other than a belief that the jury has erred that may justify a trial court\u2019s departure from the statutory scheme for receiving a jury verdict.\nB.\nIn circumstances where a jury has authority to consider and decide an allegation, the jury\u2019s verdict, even if erroneous, may bar retrial on the allegation under settled principles of double jeopardy. (See Fong Foo v. United States (1962) 369 U.S. 141, 143 [7 L.Ed.2d 629, 82 S.Ct. 671].) As we now explain, however, the first jury in this case had no authority to consider the multiple victim allegation. (\u00a7 667.61, subd. (e)(4).) Once the jury deadlocked on the counts involving Z.C., the jury could not have returned a valid verdict on the penalty allegation, and double jeopardy thus did not bar retrial on that allegation.\nThe Fifth Amendment of the United States Constitution, applicable to the states through the due process clause of the Fourteenth Amendment (Benton v. Maryland (1969) 395 U.S. 784, 793-796 [23 L.Ed.2d 707, 89 S.Ct. 2056]), provides in relevant part that no person shall \u201cbe subject for the same offence to be twice put in jeopardy of life or limb . . . .\u201d Article I, section 15 of the California Constitution similarly provides that \u201c[pjersons may not twice be put in jeopardy for the same offense . . . .\u201d These provisions \u201cguarantee^ that the State shall not be permitted to make repeated attempts to convict the accused, \u2018thereby subjecting him to embarrassment, expense and ordeal and compelling him to live in a continuing state of anxiety and insecurity, as well as enhancing the possibility that even though innocent he may be found guilty.\u2019 \u201d (United States v. Martin Linen Supply Co. (1977) 430 U.S. 564, 569 [51 L.Ed.2d 642, 97 S.Ct. 1349].) Even where the jury does not return a verdict as to a particular charge, the defendant may properly be subject to retrial on that offense only in certain circumstances. \u201cRetrial after discharge of a jury without \u2018manifest\u2019 (in federal terminology) or \u2018legal\u2019 necessity violates the protections afforded under both\u201d the federal and state constitutional double jeopardy clauses. (People v. Halvorsen (2007) 42 Cal.4th 379, 425 [64 Cal.Rptr.3d 721, 165 P.3d 512].)\nIn some cases, a trial court\u2019s failure to adhere to procedures governing the receipt of a jury\u2019s verdict will implicate these principles. (See Stone v. Superior Court (1982) 31 Cal.3d 503, 519 [183 Cal.Rptr. 647, 646 P.2d 809] [trial court\u2019s unlawful failure to accept a jury verdict \u201cwill cause a subsequently declared mistrial to be without legal necessity\u201d]; Stow v. Murashige (9th Cir. 2004) 389 F.3d 880, 890, fn. 17 [\u201c[A] judge should not be able to subvert the Double Jeopardy Clause by failing or refusing to enter formally a jury\u2019s verdict of acquittal into the record.\u201d]; Bigelow, supra, 208 Cal.App.3d at p. 1135.) However, in the circumstances here, the jury\u2019s attempts to return a verdict do not implicate the protections of double jeopardy.\n\u201cLike the Three Strikes law, the One Strike law is an alternative sentencing scheme, but it applies only to certain felony sex offenses. [Citation.] It mandates an indeterminate sentence of 15 or 25 years to life in prison when the jury has convicted the defendant of a specified felony sex crime (\u00a7 667.61 [listing applicable crimes]) and has also found certain factual allegations to be true (\u00a7 667.61, subds. (d), (e)).\u201d (People v. Anderson (2009) 47 Cal.4th 92, 102 [97 Cal.Rptr.3d 77, 211 P.3d 584].) In Anderson, we clarified that the double jeopardy principles described above apply to allegations under the One Strike law. (See Anderson, at pp. 105-108.) Further, in construing the One Strike law, we explained that \u201cthe jury must first decide whether all the elements of the underlying substantive crime have been proven\u201d and that \u201c[i]f the jury convicts on the substantive crime, it then independently determines whether the factual allegations that would bring the defendant under the One Strike sentencing scheme have also been proven.\u201d (Anderson, at p. 102; see People v. Bright (1996) 12 Cal.4th 652, 661 [49 Cal.Rptr.2d 732, 909 P.2d 1354], disapproved on another ground in People v. Seel (2004) 34 Cal.4th 535, 550, fn. 6 [21 Cal.Rptr.3d 179, 100 P.3d 870].)\nAs noted, the One Strike allegation at issue here is the multiple victim circumstance, which applies to a defendant who \u201chas been convicted in the present case or cases of committing an offense specified in subdivision (c) against more than one victim\u201d and prescribes an alternative sentence of 15 years to life. (\u00a7 667.61, subds. (b), (e)(4).) In considering the purview of the jury in the specific context of a multiple victim allegation, we construe section 667.61, subdivision (e)(4) to entail that a jury may not consider whether a defendant \u201chas been convicted in the present case or cases of committing an offense specified in subdivision (c) against more than one victim\u201d until the jury has returned convictions on offenses involving more than one victim. The essential predicate for the jury\u2019s consideration of the multiple victim allegation\u2014conviction of a section 667.61, subdivision (c) offense against more than one victim\u2014consists of facts that only the jury itself can establish by rendering verdicts on the underlying substantive charges. Until the jury establishes those predicate facts, it has no basis for deciding, and thus no statutory authority to decide, the multiple victim allegation.\nThis limitation on the jury\u2019s authority inherent in section 667.61, subdivision (e)(4) is dispositive here. In this case, the first jury reached a verdict only on the substantive counts involving J.R. but not on the counts involving Z.C. Having decided not to return convictions on counts involving more than one victim, the jury never brought into existence the predicate facts required for its consideration of the multiple victim allegation. Absent the essential predicate that only the jury could have established through verdicts on the underlying charges, the jury at that point and for that reason lacked authority to decide or even to consider the section 667.61, subdivision (e)(4) allegation. Because the jury could not have returned any valid verdict on the multiple victim allegation, double jeopardy did not bar retrial on that allegation. (Cf. People v. Serrato (1973) 9 Cal.3d 753, 764 [109 Cal.Rptr. 65, 512 P.2d 289] [when sentence imposed is not just erroneous but entirely unauthorized, state constitutional double jeopardy clause does not prohibit subsequent imposition of more severe sentence].)\nWe acknowledge that the trial court\u2019s jury instructions may have erroneously led the jury to believe it could consider the allegation without having convicted defendant of offenses involving more than victim. But this instructional error could not have imparted to the jury, in the face of a statutory limitation on the jury\u2019s authority to consider a specific allegation, any power to decide or even to consider the allegation. The circumstances here are distinguishable from those cases according double jeopardy effect to a verdict returned by a court or a jury that, while misconstruing the substantive elements of an offense, nevertheless had authority to render a verdict on that offense. (See, e.g., Evans v. Michigan (2013) 568 U.S. _ [185 L.Ed.2d 124, 133 S.Ct. 1069]; Arizona v. Rumsey (1984) 467 U.S. 203 [81 L.Ed.2d 164, 104 S.Ct. 2305].) Further, this case is unlike People v. Fields (1996) 13 Cal.4th 289 [52 Cal.Rptr.2d 282, 914 P.2d 832], where we held that the statutory double jeopardy provision, section 1023, precluded the defendant from being retried on a greater offense when the jury had convicted him of a lesser included offense, even though the jury should have been instructed to decide the lesser offense only after having acquitted the defendant of the greater offense. (Fields, at pp. 308-310.) The acquittal-first rule in Fields did not implicate the jury\u2019s statutory authority to render a verdict. (Id. at pp. 304, 309-310.)\nIn sum, a jury cannot return a valid verdict on a multiple victim allegation where the jury has not rendered the underlying verdicts that comprise the essential predicate for its consideration of the allegation. In other words, a jury cannot consider a penalty allegation that turns solely on its assessment of an underlying verdict that it has not reached. Accordingly, any finding that the first jury might have returned on the multiple victim allegation had no double jeopardy consequences, and defendant\u2019s retrial on that allegation was not unconstitutional.\nC.\nWe conclude by noting at least three ways a trial court may avoid the types of problems that arose in this case. First, in cases involving a multiple victim allegation, the trial court can expressly instruct the jury not to return a finding on the allegation unless and until it finds the defendant guilty of specified section 667.61, subdivision (c) predicate crimes committed against more than one victim. The import of such instructions may be further clarified and reinforced by verdict forms that clearly indicate when a jury can properly return a finding on an allegation. Such explicit instructions and verdict forms will forestall the jury from considering or deciding issues beyond the lawful scope of its duties.\nSecond, when a trial court has properly authorized the jury to return a verdict on a charge or allegation, and when the jury returns a verdict of conviction that the court believes to be in error, the court\u2014exercising its authority under section 1161\u2014should take care to thoroughly instruct the jury on the applicable law and to explain why the court believes the verdict reflects the jury\u2019s mistake of the law. By providing correct and comprehensive guidance at this stage, the trial court may well be able to eliminate any further risk of inconsistent verdicts.\nThird, when a trial court is confronted with a verdict that it believes to be at odds with the jury\u2019s true intent, the court may, at the request of any party, poll the jury pursuant to sections 1163 and 1164, subdivision (a). In so doing, the trial court may not express its own opinion of the verdict or otherwise invite the jury to reconsider its verdict unless permitted by section 1161. (See Guerra, supra, 176 Cal.App.4th at p. 944.) But if any juror states that the verdict does not reflect his or her true intent, sections 1163 and 1164, subdivision (a) require the court to order further deliberations. In these ways, the statutory scheme provides courts with specific mechanisms for prompting a jury\u2019s reconsideration of an erroneous or inconsistent verdict.\nCONCLUSION\nFor the foregoing reasons, we reverse the judgment of the Court of Appeal and remand the case for further proceedings in accordance with our decision.\nCantil-Sakauye, C. J., Werdegar, J., Chin, J., and Corrigan, J., concurred.",
+        "type": "majority",
+        "author": "LIU, J."
+      },
+      {
+        "text": "KENNARD, J., Concurring.\nDefendant was charged with sexually molesting two young girls. The charge included an allegation under an alternative sentencing provision of the \u201cOne Strike\u201d law, which applies when, in the same case, the defendant has been convicted of serious sex offenses involving more than one victim. (Pen. Code, \u00a7 667.61, subds. (b) & (e)(4); further statutory references are to the Penal Code.)\nA jury found defendant guilty of serious sex offenses against one victim, was unable to reach verdicts as to the second victim, and found the multiple-victim sentencing allegation to be true. Because the multiple-victim finding was inconsistent with the jury\u2019s guilty verdicts, which pertained to only one victim, the trial court rejected the finding and directed the jury to reconsider the allegation. After deliberating briefly, the jury again returned to the courtroom, but the trial court did not ask whether the jury had made a new finding on the allegation. Instead, after telling the jury it should not be making any finding on the allegation, the trial court declared a mistrial on that allegation. At a second trial, a different jury found defendant guilty of serious sex offenses against the second victim, and it found true the multiple-victim allegation.\nDefendant contends that constitutional double jeopardy principles render invalid the retrial jury\u2019s true finding on the multiple-victim allegation. He argues that retrial of the allegation was barred because the trial court at the first trial improperly refused to receive the jury\u2019s multiple-victim allegation finding. Rejecting defendant\u2019s contention, the majority reasons that once the jury at the first trial had reached verdicts finding defendant guilty on serious sex offense counts involving just one victim, while deadlocking on counts involving the other victim, \u201cthe first jury had no authority to decide or even to consider the multiple victim allegation . . . ,\u201d and thus it \u201ccould not have returned any valid verdict on that allegation.\u201d (Maj. opn., ante, at p. 525.) Consequently, the majority reasons, any finding on that allegation the jury at the first trial may have made lacks constitutional significance for double jeopardy purposes. (Ibid.)\nI agree that double jeopardy principles did not bar retrial of the multiple-victim allegation, but for a different reason. At the first trial, the issue before the jury was whether, at that stage of the proceedings, it had found defendant guilty of offenses involving more than one victim. But at the retrial, the jury considered a different issue: whether, at that later stage in the proceedings, there were convictions involving multiple victims. In this situation, where the jury at the retrial was not asked to reconsider the same issue placed before the jury at the first trial, defendant was not placed twice in jeopardy.\nI\nDefendant was charged with 13 counts of sexually molesting his daughter, Z.C., and his stepdaughter, J.R., over a period of several years, starting when Z.C. was nine and J.R. was eight. Included was a multiple-victim allegation under the One Strike law, which comes into play when a defendant is convicted of specified serious sex crimes against more than one victim.\nThe case went to trial in late 2007. With respect to defendant\u2019s stepdaughter, J.R., the jury found defendant guilty of three counts of lewd conduct on a child under 14 years old (\u00a7 288, subd. (a)). But the jury was unable to reach a verdict on any of the counts involving defendant\u2019s daughter, Z.C. The jury found the multiple-victim allegation to be true because, as the jury foreman explained to the trial court, there were three convictions against defendant for the molestation of J.R. As the multiple-victim allegation required convictions involving more than one victim rather than convictions on multiple counts against just one victim, the trial court did not accept the jury\u2019s finding and asked the jury to reconsider it. A few minutes later, the jury returned to the courtroom. Before hearing from the foreman, the trial court told the jury it should not be making a finding on the multiple-victim allegation because its guilty verdicts were all on counts pertaining to the same victim. After returning briefly to the jury room, the jury came back into the courtroom, where the foreman gave the clerk a blank verdict form for the multiple-victim allegation. The trial court declared a partial mistrial and set the matter, including all nine counts involving Z.C., together with the multiple-victim allegation, for a second trial.\nAt that retrial, in 2009, the prosecution introduced into evidence the trial court\u2019s minute order documenting the first jury\u2019s convictions on three counts of lewd conduct involving stepdaughter J.R., and the court told the jury at the second trial that it could consider that documentary evidence in determining the truth of the multiple-victim allegation. The jury convicted defendant of all nine molestation counts against daughter Z.C. (including one count of lewd conduct on a child under 14 years old [\u00a7 288, subd. (a)], one count of forcible rape [\u00a7261, subd. (a)(2)], and four counts of forcible oral copulation [\u00a7 288a, subd. (c)(2)]). At that retrial, the jury also determined\u2014based on defendant\u2019s lewd conduct convictions at the first trial (all involving J.R.) as well as his convictions at the second trial of lewd conduct, forcible rape, and forcible oral copulation (all involving Z.C.), that defendant was subject to the One Strike law\u2019s alternative sentence of 15 years to life in prison for having been convicted of serious sex offense charges against more than one victim (\u00a7 667.61, subd. (e)(4)). The trial court\u2019s sentence of defendant included that prison term as to each of the two victims.\nIn a two-to-one decision, the Court of Appeal set aside the life terms as it perceived a double jeopardy violation in the second jury\u2019s consideration of the multiple-victim allegation. The dissenting justice disagreed, stating that in light of the first jury\u2019s inability to reach a verdict on any counts involving second victim Z.C., that jury had no reason and no authority to consider and make a finding on the alternative sentencing allegation, which requires convictions pertaining to more than one victim.\nII\nNot in dispute here are the legal principles governing the federal Constitution\u2019s prohibition against double jeopardy. The Fifth Amendment prohibits placing a criminal defendant \u201ctwice . . . in jeopardy\u201d for the same crime. (U.S. Const., 5th Amend.; see United States v. Ball (1896) 163 U.S. 662, 671 [41 L.Ed. 300, 16 S.Ct. 1192]; accord, Evans v. Michigan (2013) 568 U.S. _ [185 L.Ed.2d 124, 133 S.Ct. 1069] (Evans).) Simply stated: \u201c[0]nce a defendant is placed in jeopardy for an offense, and jeopardy terminates with respect to that offense, the defendant may neither be tried nor punished a second time for the same offense.\u201d (Sattazahn v. Pennsylvania (2003) 537 U.S. 101, 106 [154 L.Ed.2d 588, 123 S.Ct. 732] (Sattazahn).) leopardy terminates either upon a jury\u2019s acquittal or conviction of a charged offense (Ohio v. Johnson (1984) 467 U.S. 493, 498 [81 L.Ed.2d 425, 104 S.Ct. 2536]; Bullington v. Missouri (1981) 451 U.S. 430, 437 [68 L.Ed.2d 270, 101 S.Ct. 1852]), upon a determination that the prosecution failed to prove an element of its case (Sattazahn, supra, 537 U.S. at p. 108; Evans, supra, 568 U.S. at pp. _-_ [133 S.Ct. at pp. 1074-1075]), or upon a grant of a mistrial without \u201c \u2018manifest necessity\u2019 \u201d (Arizona v. Washington (1978) 434 U.S. 497, 505 [54 L.Ed.2d 717, 98 S.Ct. 824]). But jeopardy is not terminated when a trial court\u2019s grant of a mistrial is manifestly necessary. (Sattazahn, supra, at pp. 113-114; Richardson v. United States (1984) 468 U.S. 317, 323-324 [82 L.Ed.2d 242, 104 S.Ct. 3081].)\nInstructive is the high court\u2019s decision in Sattazahn, supra, 537 U.S. 101, which applied double jeopardy rules, as here, in the context of a sentencing proceeding. In that case, the Commonwealth of Pennsylvania charged the defendant with capital murder, and it alleged the aggravating circumstance that the murder was committed in the course of some other felony. (An aggravating circumstance under Pennsylvania law is functionally equivalent to a \u201cspecial circumstance\u201d under California\u2019s death penalty scheme.) The jury convicted the defendant of first degree murder, but it did not reach a verdict on the aggravating circumstance allegation. The trial court imposed a life sentence. The state appellate court reversed the murder conviction because of instructional error. On remand, the prosecution chose to retry the murder charge, this time adding, as a second aggravating circumstance allegation, the defendant\u2019s serious history of convictions for violent felonies. At that retrial, the jury convicted the defendant of murder and, based on the existence of aggravating circumstances, returned a penalty verdict of death. When the matter reached the United States Supreme Court, that court rejected the defendant\u2019s contention that the retrial put him twice in jeopardy on the issue of penalty. Double jeopardy was not implicated, the high court said, because at the first murder trial neither the jury\u2019s failure to reach a verdict on the aggravating circumstance nor the trial court\u2019s imposition of a life sentence operated as an acquittal of death penalty murder. (Id. at pp. 109-110.)\nOur court in People v. Anderson (2009) 47 Cal.4th 92 [97 Cal.Rptr.3d 77, 211 P.3d 584] (Anderson), in rejecting a double jeopardy challenge to the retrial of a One Strike allegation under California law, summed up the high court\u2019s holding in Sattazahn, supra, 537 U.S. 101: \u201cSattazahn teaches that double jeopardy principles do not bar retrial of an aggravated sentencing allegation if the first trial did not produce an express or implied acquittal on the allegation.\u201d (Anderson, supra, at p. 111.)\nThe multiple-victim allegation that is pertinent here and, if found to be true, results in a punishment of 15 years to life, is an alternative sentencing provision under the One Strike law, which seeks to ensure that \u201cserious sexual offenders receive long prison sentences whether or not they have any prior convictions.\u201d (People v. Wutzke (2002) 28 Cal.4th 923, 929 [123 Cal.Rptr.2d 447, 51 P.3d 310].) The alternative punishment applies when a defendant \u201chas been convicted in the present case\u201d of perpetrating specified offenses \u201cagainst more than one victim.\u201d (\u00a7 667.61, subd. (e)(4), italics added.) Section 667.61\u2019s subdivision (c) lists the applicable crimes. Among them are crimes of which defendant here was convicted: forcible rape (\u00a7 261, subd. (a)(2) & (6)), forcible oral copulation (\u00a7 288a, subd. (c)(2)), and lewd and lascivious conduct with a child under age 14 (\u00a7 288, subd. (a)).\nAlternative sentencing under the One Strike law also comes into play when a defendant commits a specified crime under certain aggravating circumstances. For instance, in Anderson, supra, 47 Cal.4th 92, 99, involving a defendant charged with lewd conduct with a five-year-old child, the One Strike allegation was that \u201cthe defendant kidnapped the victim . ..\u201d (\u00a7 667.61, subd. (e)(1)) in committing the charged lewd conduct offense. By contrast, the multiple-victim allegation at issue here rests not on defendant\u2019s commission of a charged offense in a specified manner, but on defendant\u2019s conviction of certain serious sex crimes against multiple victims. In that respect, the multiple-victim allegation under the One Strike law resembles the multiple-murder allegation under California\u2019s death penalty law, which elevates the crime of first degree murder to capital murder (carrying a sentence of either death or life imprisonment without parole) when \u201c[t]he defendant, in [the same] proceeding, has been convicted of more than one offense of murder in the first or second degree.\u201d (\u00a7 190.2, subd. (a)(3), italics added.) The multiple-victim allegation at issue here also is like our death penalty law\u2019s multiple murder allegation in that neither is attached to any particular charged crime. (See People v. Diaz (1992) 3 Cal.4th 495, 565 [11 Cal.Rptr.2d 353, 834 P.2d 1171] [holding that the prosecution in a capital murder case \u201cshould allege only one multiple-murder special circumstance,\u201d no matter the number of murder counts it brings against the defendant].)\nm\nAt issue here is whether defendant was twice placed in jeopardy with respect to the multiple-victim allegation. The majority and I agree that he was not, but for different reasons. According to the majority, when the jury at the first trial returned verdicts finding defendant guilty of serious sex offenses against one victim, but was unable to reach verdicts as to serious sex offense charges against the other victim, consideration and resolution of the multiple-victim allegation, which was predicated on convictions of offenses against multiple victims, was legally prohibited, so that the trial court had no authority to do anything other than declare a mistrial, which was manifestly necessary. (Maj. opn., ante, at pp. 533-535.) Therefore, whatever finding the jury at the first trial may have made on the multiple-victim allegation could not produce a double jeopardy bar to retrial of that allegation. (Id. at p. 536.)\nI analyze the double jeopardy issue differently. The multiple-victim allegation requires a finding that the defendant, in a single proceeding, was convicted of certain serious sex crimes against more than one victim. (\u00a7 667.61, subd. (e)(4).) Thus, a rejection of the allegation by the jury at the first trial was merely a determination that defendant had not yet been convicted of charges involving more than one victim. The jury at the first trial convicted defendant only on three counts of lewd conduct against his stepdaughter, J.R. Therefore, the sole issue that could have been resolved by the jury\u2019s \u201cuntrue\u201d finding on the multiple-victim allegation was that those three lewd conduct convictions did not pertain to more than one victim.\nBut the jury at the retrial, when it addressed the multiple-victim allegation, was faced with a different combination of convictions: those from the first trial (all involving stepdaughter J.R.) together with those entered at the second trial (all involving daughter Z.C.). Because this same combination of convictions was never considered by the first trial jury (which could have considered only the convictions it reached regarding victim J.R.), the first jury\u2019s rejection of the multiple-victim allegation was not \u201can express or implied acquittal\u201d of the same allegation (Anderson, supra, 47 Cal.4th 92, 111; see Sattazahn, supra, 537 U.S. 101, 109-110) put before the second jury.\nThe jury instructions given at the first trial support this conclusion. At that trial, the trial court advised the jury that if it found \u201cthe defendant guilty of two or more sex offenses as charged in [counts involving both victims], [it] must then decide whether . . . those crimes were committed against more than one victim.\u201d (Italics added.) Given their common and ordinary meaning, this instruction\u2019s words directed the jurors, after reaching verdicts on the substantive charges, to determine whether the offenses on which they had reached guilty verdicts (and only those offenses) had been committed against more than one victim. Because at the first trial the jury\u2019s consideration was thus limited to the guilty-verdict offenses, it did not address the identical factual question that the jury addressed at the retrial.\nFor these reasons, I agree with the majority that defendant was not twice put in jeopardy by the retrial of the multiple-victim allegation, and that therefore he is subject to prison terms of 15 years to life under the One Strike law for his convictions in this proceeding of serious sex crimes against two minor victims.\nChin, J., concurred.",
+        "type": "concurrence",
+        "author": "KENNARD, J., Concurring."
+      },
+      {
+        "text": "BAXTER, J., Concurring.\nThe majority holds, in accordance with People v. Anderson (2009) 47 Cal.4th 92, 102, 115 [97 Cal.Rptr.3d 77, 211 P.3d 584], that convictions of specified sex offenses against more than one victim are an essential predicate to the jury\u2019s authority to adjudicate the \u201cOne Strike\u201d multiple-victim allegation. (Pen. Code, \u00a7 667.61, subds. (b), (e)(4).) Thus, once the trial court determined that the first jury in this case had hopelessly deadlocked as to all of the charged offenses involving the second victim, the jury had no legal authority to adjudicate the multiple-victim allegation. Accordingly, any finding the jury purported to render as to the multiple-victim allegation \u201chad no double jeopardy consequences, and defendant\u2019s retrial on that allegation was not unconstitutional.\u201d (Maj. opn., ante, at p. 536.)\nI agree with the majority\u2019s conclusion, which is sufficient to answer the question presented for review: \u201cWhether double jeopardy bars retrial as to a multiple-victim allegation that the first jury never reached because no verdict was received, and was never resolved because the jury deadlocked on the underlying offenses?\u201d\nAs guidance in future cases, I believe we should also explain what the trial court is authorized to do when, as here, a jury purports to make a finding on a penalty allegation even though the jury has hopelessly deadlocked as to the essential predicate to its adjudication of that allegation. The prescription is simple. When a jury has hopelessly deadlocked as to the offense or offenses that are an essential predicate to the adjudication of a penalty allegation, the trial court is authorized to declare a mistrial not only as to the predicate offense or offenses on which the jury has deadlocked, but also as to the penalty allegation. A jury that has deadlocked on the predicate offense or offenses \u201chas no basis for deciding, and thus no statutory authority to decide,\u201d the penalty allegation, and a purported finding on that allegation, whether true or not true, can have no legal effect. (Maj. opn., ante, at p. 535.) A declaration of a mistrial in such circumstances poses no \u201clikelihood of a trial court unduly, even if inadvertently, influencing the jury to reach a particular outcome.\u201d (Id. at p. 531.) Nor does a mistrial present a \u201crisk of jury coercion\u201d (ibid.), invite an inquiry \u201c \u2018into a jury\u2019s thought processes\u2019 \u201d (id. at p. 532), or create a conflict with the \u201c \u2018general rule\u2019 \u201d that \u201c \u2018inherently inconsistent verdicts are allowed to stand\u2019 \u201d (ibid.).\nThe trial court here did eventually declare a mistrial as to the deadlocked counts and as to the One Strike allegation. For the reasons I have explained, the record provides sufficient justification for that ruling. (See Arizona v. Washington (1978) 434 U.S. 497, 505, 516-517 [54 L.Ed.2d 717, 98 S.Ct. 824].) Thus, jeopardy did not terminate, and retrial was not barred. (Richardson v. United States (1984) 468 U.S. 317, 325-326 [82 L.Ed.2d 242, 104 S.Ct. 3081].) Allowing retrial of the One Strike allegation in these circumstances \u201caccords recognition to society\u2019s interest in giving the prosecution one complete opportunity to convict those who have violated its laws.\u201d (Arizona v. Washington, supra, at p. 509.) As the high cojirt has emphasized, \u201c[t]he interests of the public in seeing that a criminal prosecution proceed to verdict, either of acquittal or conviction, need not be forsaken by the formulation or application of rigid rules that necessarily preclude the vindication of that interest.\u201d (Illinois v. Somerville (1973) 410 U.S. 458, 463 [35 L.Ed.2d 425, 93 S.Ct. 1066].)\nCantil-Sakauye, C. J., Chin, J., and Corrigan, J., concurred.",
+        "type": "concurrence",
+        "author": "BAXTER, J., Concurring."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Nancy J. King, under appointment by the Supreme Court, for Defendant and Appellant.",
+      "Kamala D. Harris, Attorney General, Dane R. Gillette, Chief Assistant Attorney General, Pamela C. Hamanaka, Assistant Attorney General, Lawrence M. Daniels, Steven D. Matthews and G. Tracey Letteau, Deputy Attorneys General, for Plaintiff and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. S195600.\nApr. 8, 2013.]\nTHE PEOPLE, Plaintiff and Respondent, v. VALENTIN CARBAJAL, Defendant and Appellant.\nCounsel\nNancy J. King, under appointment by the Supreme Court, for Defendant and Appellant.\nKamala D. Harris, Attorney General, Dane R. Gillette, Chief Assistant Attorney General, Pamela C. Hamanaka, Assistant Attorney General, Lawrence M. Daniels, Steven D. Matthews and G. Tracey Letteau, Deputy Attorneys General, for Plaintiff and Respondent."
+  },
+  "file_name": "0521-01",
+  "first_page_order": 559,
+  "last_page_order": 582
+}

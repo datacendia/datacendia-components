@@ -1,0 +1,59 @@
+{
+  "id": 12432198,
+  "name": "Bonanno v. United States District Court for the Eastern District of Tennessee",
+  "name_abbreviation": "Bonanno v. United States District Court for the Eastern District of Tennessee",
+  "decision_date": "2013-02-25",
+  "docket_number": "No. 12-8263",
+  "first_page": "1201",
+  "last_page": "1201",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1201"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 19,
+    "char_count": 126,
+    "ocr_confidence": 0.636,
+    "sha256": "f462716d30f0207670bc57bf013fdf07054e04b732d9413266d73a834cc1c82f",
+    "simhash": "1:a78f526bda6dd8b4",
+    "word_count": 20
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bonanno v. United States District Court for the Eastern District of Tennessee."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8263.\nBonanno v. United States District Court for the Eastern District of Tennessee."
+  },
+  "file_name": "1201-05",
+  "first_page_order": 1277,
+  "last_page_order": 1277
+}

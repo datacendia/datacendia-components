@@ -1,0 +1,59 @@
+{
+  "id": 12195797,
+  "name": "Yu Ning v. Texas",
+  "name_abbreviation": "Yu Ning v. Texas",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-1438",
+  "first_page": "821",
+  "last_page": "821",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 821"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.758,
+    "sha256": "a052e3dea7e25a21afb019a74a999bd4af1afeadedd83d662ec31235ddedb3c4",
+    "simhash": "1:593378d656be7ed4",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Yu Ning v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tex. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1438.\nYu Ning v. Texas."
+  },
+  "file_name": "0821-10",
+  "first_page_order": 903,
+  "last_page_order": 903
+}

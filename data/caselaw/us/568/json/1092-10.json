@@ -1,0 +1,59 @@
+{
+  "id": 12428087,
+  "name": "Decastro v. United States",
+  "name_abbreviation": "Decastro v. United States",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-6053",
+  "first_page": "1092",
+  "last_page": "1092",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1092"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.674,
+    "sha256": "c67d8393c0deb53cf9fd643731a1c82f9161245b0ec004c3681c2b3d83f8d50e",
+    "simhash": "1:1749fbdb1bb75c4c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Decastro v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6053.\nDecastro v. United States."
+  },
+  "file_name": "1092-10",
+  "first_page_order": 1168,
+  "last_page_order": 1168
+}

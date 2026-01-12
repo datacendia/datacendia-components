@@ -1,0 +1,469 @@
+{
+  "id": 12519900,
+  "name": "FEDERAL TRADE COMMISSION; Commonwealth of Pennsylvania v. PENN STATE HERSHEY MEDICAL CENTER; Pinnacle Health System Commonwealth of Pennsylvania, Appellant",
+  "name_abbreviation": "Fed. Trade Comm'n v. Penn State Hershey Med. Ctr.",
+  "decision_date": "2019-01-23",
+  "docket_number": "No. 17-2270",
+  "first_page": "193",
+  "last_page": "200",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "914 F.3d 193"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "3rd Cir.",
+    "id": 9319,
+    "name": "United States Court of Appeals for the Third Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "20 U.S.C. \u00a7 1415",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(i)(3)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "318 F.3d 545",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9336786
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "560"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/318/0545-01"
+      ]
+    },
+    {
+      "cite": "42 U.S.C. \u00a7 602",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(7)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "448 U.S. 122",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1787668
+      ],
+      "weight": 10,
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "125"
+        },
+        {
+          "page": "132"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/448/0122-01"
+      ]
+    },
+    {
+      "cite": "239 F.Supp.3d 1",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        12267673
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "4-5"
+        },
+        {
+          "page": "5"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/239/0001-01"
+      ]
+    },
+    {
+      "cite": "179 F.3d 1228",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        844459
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "1233",
+          "parenthetical": "recognizing that Section 13(b) \"places a lighter burden on the Commission than that imposed on private litigants by the traditional equity standard\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/179/1228-01"
+      ]
+    },
+    {
+      "cite": "246 F.3d 708",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11110250,
+        3677531
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "714",
+          "parenthetical": "explaining that Congress, in drafting Section 13(b), \"intended th[e Section 13(b) ] standard to depart from ... the then-traditional equity standard\" so that the FTC \"was not held to the high thresholds applicable where private parties seek interim restraining orders\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/246/0708-01",
+        "/us-app-dc/345/0364-01"
+      ]
+    },
+    {
+      "cite": "202 L.Ed.2d 319",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12622850,
+        12622851,
+        12622852,
+        12622885,
+        12622886,
+        12622862,
+        12622864,
+        12622901
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/0435-03",
+        "/s-ct/139/0435-04",
+        "/s-ct/139/0435-05",
+        "/s-ct/139/0440-01",
+        "/s-ct/139/0440-02",
+        "/s-ct/139/0437-03",
+        "/s-ct/139/0437-05",
+        "/s-ct/139/0442-05"
+      ]
+    },
+    {
+      "cite": "139 S.Ct. 440",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12622885,
+        12622886,
+        12622887,
+        12622888,
+        12622889,
+        12622890
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/0440-01",
+        "/s-ct/139/0440-02",
+        "/s-ct/139/0440-03",
+        "/s-ct/139/0440-04",
+        "/s-ct/139/0440-05",
+        "/s-ct/139/0440-06"
+      ]
+    },
+    {
+      "cite": "895 F.3d 272",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517607
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "285-86"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/895/0272-01"
+      ]
+    },
+    {
+      "cite": "650 F.3d 223",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5873735
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "228-29",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/650/0223-01"
+      ]
+    },
+    {
+      "cite": "532 U.S. 598",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9301812
+      ],
+      "weight": 5,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "605, 610"
+        },
+        {
+          "page": "608"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/532/0598-01"
+      ]
+    },
+    {
+      "cite": "192 L.Ed.2d 208",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "year": 2015,
+      "opinion_index": 0
+    },
+    {
+      "cite": "135 S.Ct. 2158",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        4163243
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "2164"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/531/2158-01"
+      ]
+    },
+    {
+      "cite": "833 F.3d 286",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4351980
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "292"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/833/0286-01"
+      ]
+    },
+    {
+      "cite": "2017 WL 1954398",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 4,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "*9",
+          "parenthetical": "\"Hershey III \""
+        },
+        {
+          "page": "*2"
+        },
+        {
+          "page": "*3"
+        },
+        {
+          "page": "*3"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "838 F.3d 327",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12172843
+      ],
+      "weight": 6,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "354",
+          "parenthetical": "\"Hershey II \""
+        },
+        {
+          "page": "337"
+        },
+        {
+          "page": "333"
+        },
+        {
+          "page": "335"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/838/0327-01"
+      ]
+    },
+    {
+      "cite": "185 F.Supp.3d 552",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        12130298
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "parenthetical": "No. 1:15-cv-2362"
+        },
+        {
+          "page": "564"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/185/0552-01"
+      ]
+    },
+    {
+      "cite": "15 U.S.C. \u00a7 53",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(b)"
+        },
+        {
+          "page": "(b)"
+        },
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 U.S.C. \u00a7 26",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 U.S.C. \u00a7 18",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 U.S.C. \u00a7 1988",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 U.S.C. \u00a7 1983",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 885,
+    "char_count": 19626,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2591714806538914
+    },
+    "sha256": "7c8375c8ca1cc1286781aa0b1319a5a1cbfe2f4aa58ff6f1e7784dfe6724e45d",
+    "simhash": "1:279afe726abf4452",
+    "word_count": 3196
+  },
+  "last_updated": "2024-02-27T18:46:21.348714+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "BEFORE: SHWARTZ, NYGAARD, and RENDELL, Circuit Judges."
+    ],
+    "parties": [
+      "FEDERAL TRADE COMMISSION; Commonwealth of Pennsylvania\nv.\nPENN STATE HERSHEY MEDICAL CENTER; Pinnacle Health System Commonwealth of Pennsylvania, Appellant"
+    ],
+    "opinions": [
+      {
+        "text": "NYGAARD, Circuit Judge.\nI.\nIn March 2015, the Boards of Penn State Hershey Medical Center and Pinnacle Health System (\"Hershey\" and \"Pinnacle,\" respectively) formally approved a plan to merge. They had announced the proposal a year earlier, so the Commonwealth of Pennsylvania and the Federal Trade Commission (\"FTC\") were already investigating the impact of the proposed merger when the Boards approved it. This joint probe resulted in the FTC filing an administrative complaint alleging that the merger violated Section 7 of the Clayton Act. The FTC scheduled an administrative hearing on the merits for May 2016. At the same time, the Commonwealth and the FTC jointly sued Hershey and Pinnacle under Section 16 of the Clayton Act, and Section 13(b) of the Federal Trade Commission Act (\"FTC Act\"), to \"prevent and restrain Hershey and Pinnacle from violating Section 7 of the Clayton Act ... pending the Commission's administrative proceeding.\" They sought a preliminary injunction and a temporary restraining order.\nThe District Court denied relief. But, on September 27, 2016, we reversed the District Court's order and directed it to preliminarily enjoin the merger \"pending the outcome of the FTC's administrative adjudication.\" Within three weeks, Hershey and Pinnacle terminated their Agreement, referencing our remand ordering the temporary injunction as the impetus. The District Court ultimately issued the injunction on October 20, 2016.\nThe Commonwealth then moved for attorneys' fees and costs, asserting that it \"substantially prevailed\" under Section 16 of the Clayton Act, but the District Court denied the motion. In doing so, the District Court rejected Hershey's and Pinnacle's argument that the Commonwealth could not seek attorneys' fees and costs under Section 16 of the Clayton Act because, in ordering the injunction, we applied Section 13(b) of the FTC Act instead. The District Court denied the fee request, however, because the Commonwealth had not \"substantially prevailed\" under Section 16 of the Clayton Act. The Commonwealth timely appealed. We will affirm, because we credit Hershey's and Pinnacle's argument that we ordered the injunction based on Section 13(b) of the FTC Act, not Section 16 of the Clayton Act.\nII.\nOrdinarily, we review the District Court's denial of attorneys' fees for abuse of discretion. As explained below, however, our decision turns on the legal question as to which statute applies. Our review of that legal question is plenary.\nIII.\nThe American Rule, grounded in longstanding common law tradition, requires parties to pay their own legal costs \"win or lose, unless a statute or contract provides otherwise.\" One such statute is Section 16 of the Clayton Act. That section provides in relevant part:\nAny person, firm, corporation, or association shall be entitled to sue for and have injunctive relief, in any court of the United States having jurisdiction over the parties, against threatened loss or damage by a violation of the antitrust laws.... In any action under this section in which the plaintiff substantially prevails, the court shall award the cost of suit, including a reasonable attorney's fee, to such plaintiff.\nThe District Court concluded that the Commonwealth did not \"substantially prevail\" under this section for two reasons. First, the District Court ruled that the termination of the merger did not render the Commonwealth a prevailing party because the injunction itself did not terminate the merger and, even though the injunction motivated Hershey and Pinnacle to do so on their own, the Supreme Court has rejected the \"catalyst theory\" of prevailing-party status. Second, the District Court determined that, because our ruling was based on the holding that the Commonwealth and FTC were merely likely to succeed on the merits, our ruling was not a grant of relief \"on the merits\" as required for prevailing-party status by Singer Management Consultants, Inc. v. Milgram .\nThe Commonwealth contests both conclusions. But Hershey and Pinnacle argue that we need not address them because Section 16 of the Clayton Act and its attorneys' fees provision do not apply at all. Hershey and Pinnacle contend that the preliminary injunction on which the Commonwealth relies for its claim of attorneys' fees was not entered \"in an action under this section\" as required for application of Section 16 of the Clayton Act. Instead, they argue, the injunction was issued under the authority of Section 13(b) of the FTC Act, which does not provide for attorneys' fees. Thus, they argue, the Commonwealth does not have any legal ground to claim entitlement to attorneys' fees on the basis of the injunction (or the merger termination that it prompted) in this case.\nWe ultimately agree with Hershey and Pinnacle. We will therefore assume without deciding that the Commonwealth is a prevailing party, leaving for another day the questions of whether the Supreme Court's rejection of the catalyst theory controls claims for fees under Section 16 of the Clayton Act and whether a preliminary injunction entered pursuant to that section can constitute relief \"on the merits.\" Our sole focus here is to examine the Commonwealth's claim that it has a statutory basis to be awarded its fees.\nIV.\nWe conclude that it does not. The Commonwealth claims attorneys' fees under Section 16 of the Clayton Act. The District Court noted that, in ordering the injunction, our Court \"solely applied the standard outlined by Section 13(b) of the FTC Act.\" And, as noted above, Section 13(b) of the FTC Act makes no provision for attorneys' fees. The District Court nevertheless determined that the Commonwealth was potentially entitled to fees under Section 16 of the Clayton Act because the Commonwealth referenced that section when it joined with the FTC to seek a preliminary injunction against Hershey and Pinnacle, and policy and Supreme Court precedent supported the allowance of fees.\nThe District Court's initial conclusion that we ordered the injunction under Section 13(b) of the FTC Act and not Section 16 of the Clayton act was correct, and its inquiry should have ended there. The strongest indication that the injunction rested solely on Section 13(b) of the FTC Act was the standard that we used in ordering that injunction. When considering requests for injunctive relief under Section 16 of the Clayton Act, courts generally apply the traditional four-part preliminary injunction standard that includes a consideration of: (1) the likelihood of success on the merits; (2) the threat of irreparable harm in the absence of an injunction; (3) the possibility of substantial harm to other interested parties; and (4) the public interest. In ordering the injunction in Hershey II , we referenced the \"traditional equity standard for injunctive relief,\" but we did not use it. Instead, we determined that the standard governing injunctions under Section 13(b) of the FTC Act is different, and we went on to apply that different standard.\nIn particular, and drawing directly from the statute, we said that the question of preliminary injunctive relief under Section 13(b) of the FTC Act is resolved by \"weighing the equities and considering the Commission's likelihood of ultimate success\" to determine whether \"such action would be in the public interest.\" In doing so, we emphasized that the public interest standard in the second prong of this analysis differs from \"the traditional equity standard for injunctive relief.\" This assessment aligns with the judgment of other Courts of Appeals, which have concluded that the Section 13(b) standard is not only different from, but easier to satisfy than the traditional standard for injunctive relief that courts apply to claims under Section 16 of the Clayton Act.\nIn sum, in ordering the injunction on which the Commonwealth relies, we expressly applied Section 13(b) of the FTC Act and its lower evidentiary bar instead of Section 16 of the Clayton Act. Thus, to the extent that the Commonwealth can be said to have \"prevailed,\" it did so under Section 13(b) of the FTC Act and not Section 16 of the Clayton Act. For similar reasons, the only court of which we are aware to have addressed the issue has concluded that an injunction issued under Section 13(b) of the FTC Act does not trigger potential entitlement to attorneys' fees under Section 16 of the Clayton Act. We agree with that conclusion.\nThe District Court relied on a number of factors in concluding otherwise, but none is persuasive. The District Court first pointed to the legislative history of the Clayton Act to justify its relevance here. It noted that \"Congress intended that an individual plaintiff should not bear 'the very high price of obtaining judicial enforcement of ... the antitrust laws.' \" However, we have examined the extensive history of this Act and find nothing that clearly shows Congress's intent to empower us to extend the fee-shifting provision of the Clayton Act to cover an action for injunctive relief under another statute. As a result, we are not persuaded that the legislative history of the Clayton Act supports the District Court's conclusion.\nThe District Court also cited Supreme Court precedent, Maher v. Gagne , for the proposition that the fee-shifting provisions of one statute can apply to pendent claims brought under other statutes. Maher , however, does not support application of the Clayton Act's fee-shifting provision in this case. In Maher , the plaintiff brought claims under 42 U.S.C. \u00a7 1983, alleging that Connecticut's Aid to Families with Dependent Children program violated Section 402(a)(7) of the Social Security Act, as well as the Equal Protection and Due Process Clauses of the Fourteenth Amendment. After the District Court approved a settlement between the parties, the plaintiff sought attorneys' fees under 42 U.S.C. \u00a7 1988, which authorizes fees for parties who prevail under Section 1983 (among other statutes). Responding to objections that the Eleventh Amendment prevented a federal court from ordering fees against a state for statutory, non-civil rights claims like the plaintiff's claim under the Social Security Act, the Supreme Court held that Section 1988 allows for \"the award of fees in a case in which the plaintiff prevails on a wholly statutory, non-civil-rights claim pendent to a substantial constitutional claim or in one in which both a statutory and a substantial constitutional claim are settled favorably to the plaintiff without adjudication.\" The Court went on to say: \"The legislative history makes it clear that Congress intended fees to be awarded where a pendent constitutional claim is involved, even if the statutory claim on which the plaintiff prevailed is one for which fees cannot be awarded under the Act.\"\nStretching the logic of Maher , the Commonwealth argues that it is entitled to attorneys' fees because its claim under Section 16 of the Clayton Act was pendent to the FTC's claim under Section 13(b) of the FTC Act. But the issue in Maher was fundamentally different. The issue in Maher was whether the plaintiff's including the Social Security Act violation in its Section 1983 complaint disqualified it from receiving fees authorized by Section 1988. The theory was that the fees were only to vindicate violations of the Fourteenth Amendment. But the Supreme Court held that the plaintiff could recover attorneys' fees under Section 1988 because she had alleged violations of her Fourteenth Amendment Due Process and Equal Protection rights. As for the fact that she had also alleged a purely statutory violation (of the Social Security Act), the Supreme Court held that this did not preclude an award of attorneys' fees under Section 1988 because this was pendant to the constitutional claims.\nBut-as we noted earlier-Section 16 of the Clayton Act specifies that a party must substantially prevail \"[i]n any action under this section .\" This language limits the application of Chapter 13's fee-shifting provision to parties who obtain relief under that section. As we noted above, requests for relief under that section are assessed on a different and more lenient standard than are requests for relief under Section 16 of the Clayton Act, and we clearly decided that the injunction should issue based on the standard of Section 13(b), not Section 16. Such differences were not evident in Maher . As also noted above, the legislative history does not justify extending the Clayton Act's fee-shifting provisions to other statutory schemes. For all of these reasons, we are not persuaded that Maher gives us any basis to extend the fee-shifting provisions of the Clayton Act to a claim raised and adjudicated under the FTC Act.\nFinally, the District Court raised concerns that failing to allow the Commonwealth to seek attorneys' fees in this situation would be contrary to the interests of judicial economy. Forcing the Commonwealth to pursue a separate case to bring a claim under Section 16, the District Court said, could result in \"duplicative litigation, separate filings, and repetitive arguments\" because this would be the only avenue for claiming attorneys' fees. We are not persuaded that such concerns outweigh the plain language of the statutes.\nV.\nIn sum, we conclude that the authority for this injunction arose from Section 13(b) of the FTC Act, which-unlike Section 16 of the Clayton Act-does not provide for attorneys' fees. Hence, for all of the foregoing reasons, the Commonwealth has no legal basis to claim attorneys' fees in this case and we will affirm the order of the District Court on that ground.\n15 U.S.C. \u00a7 18.\n15 U.S.C. \u00a7 26.\n15 U.S.C. \u00a7 53(b).\nAmended Complaint at 7 \u00b6 14, FTC v. Penn State Hershey Med. Ctr. , 185 F.Supp.3d 552 (M.D. Pa. 2016) (No. 1:15-cv-2362) (\"Hershey I \").\nHershey I , 185 F.Supp.3d at 564.\nFTC v. Penn State Hershey Med. Ctr. , 838 F.3d 327, 354 (3d Cir. 2016) (\"Hershey II \").\nFTC v. Penn State Hershey Med. Ctr. , No. 1:15-cv-2362, 2017 WL 1954398, at *9 (M.D. Pa. May 11, 2017) (\"Hershey III \").\nRaab v. City of Ocean City , 833 F.3d 286, 292 (3d Cir. 2016).\nSee id.\nBaker Botts L.L.P. v. ASARCO LLC , --- U.S. ----, 135 S.Ct. 2158, 2164, 192 L.Ed.2d 208 (2015).\n15 U.S.C. \u00a7 26.\nSee Buckhannon Bd. & Care Home, Inc. v. W. Va. Dep't of Health & Human Res. , 532 U.S. 598, 605, 610, 121 S.Ct. 1835, 149 L.Ed.2d 855 (2001).\n650 F.3d 223, 228-29 (3d Cir. 2011) (en banc).\n15 U.S.C. \u00a7 53(b).\nHershey III , 2017 WL 1954398, at *2.\nId. at *3.\nSee Holland v. Rosen , 895 F.3d 272, 285-86 (3d Cir. 2018) cert. denied --- U.S. ----, 139 S.Ct. 440, 202 L.Ed.2d 319 (2018) ; see also Julian O. von Kalinowski, Antitrust Laws and Trade Regulations \u00a7 172.02[3][b] & n.60 (2d ed. 2018) (collecting cases).\nHershey II , 838 F.3d at 337.\nId.\nId. (quoting 15 U.S.C. \u00a7 53(b) ).\nId.\nSee, e.g., FTC v. H.J. Heinz Co. , 246 F.3d 708, 714 (D.C. Cir. 2001) (explaining that Congress, in drafting Section 13(b), \"intended th[e Section 13(b) ] standard to depart from ... the then-traditional equity standard\" so that the FTC \"was not held to the high thresholds applicable where private parties seek interim restraining orders\") (quotation marks omitted); FTC v. Affordable Media, LLC , 179 F.3d 1228, 1233 (9th Cir. 1999) (recognizing that Section 13(b) \"places a lighter burden on the Commission than that imposed on private litigants by the traditional equity standard\") (quotation marks omitted).\nSee FTC v. Staples, Inc. , 239 F.Supp.3d 1, 4-5 (D.D.C. 2017).\nHershey III , 2017 WL 1954398, at *3 (quoting H.R. Rep. No. 94-499, part 1, at 19-20 (1976) ).\nSee H.R. Rep. No. 94-499, pt. 1, at 18-20 (1976); see also Buckhannon Bd. , 532 U.S. at 608, 121 S.Ct. 1835 (holding that, \"in view of the 'American Rule' that attorney's fees will not be awarded absent explicit statutory authority, ... [ambiguous] legislative history is clearly insufficient to alter the accepted meaning of the statutory term\") (quotation marks omitted).\n448 U.S. 122, 100 S.Ct. 2570, 65 L.Ed.2d 653 (1980).\n42 U.S.C. \u00a7 602(a)(7).\nMaher , 448 U.S. at 125, 100 S.Ct. 2570.\nId. at 132, 100 S.Ct. 2570.\nId. at 132 n.15, 100 S.Ct. 2570.\nId . at 132, 100 S.Ct. 2570.\n15 U.S.C. \u00a7 26 (emphasis added).\nSee John T. ex rel. Paul T. v. Del. Cty. Intermediate Unit , 318 F.3d 545, 560 (3d Cir. 2003) (\"When the [Individuals with Disabilities Education Act] fee-shifting provision authorizes attorneys['] fees 'in any action or proceeding brought under this section ,' it not only limits the universe to which it applies but also clarifies the type of proceeding on which a party must 'prevail.' \") (first emphasis added) (quoting 20 U.S.C. \u00a7 1415(i)(3) ).\nThe Commonwealth maintains that it did raise its claim under the Clayton Act and that we acknowledged this in Hershey II . It is true that we referenced both the Clayton Act and the FTC Act as a basis for the suit brought jointly by the Commonwealth and the FTC. In particular, we noted that the Commonwealth and the FTC \"filed suit ... under\" both Section 16 of the Clayton Act and Section 13(b) of the FTC Act, Hershey II , 838 F.3d at 333, and we also stated that \"[t]he District Court had jurisdiction\" under both Section 16 of the Clayton Act and Section 13(b) of the FTC Act, id. at 335. But the Commonwealth does not have standing to pursue a claim under the FTC Act, and these statements merely declare that the Clayton Act gave them standing in this case. The issue of standing aside, the facts remain that the Commonwealth and the FTC litigated their request for an injunction under Section 13(b) of the FTC Act and that we ordered the injunction under that section and the more lenient standard that applies thereto. As one court explained in rejecting the Commonwealth's claim for attorneys' fees in a similar case, the Commonwealth \"cannot have it both ways\" by \"rid[ing] the FTC's claim to a successful preliminary injunction under the more permissive Section 13(b) standard and then cit[ing] that favorable ruling as the sole justification for fee-shifting under the more rigorous Clayton Act standard.\" Staples , 239 F.Supp.3d at 5.\nHershey III , 2017 WL 1954398, at *3.",
+        "type": "majority",
+        "author": "NYGAARD, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Wesley G. Carson, Esq., Peggy Bayer Femenella, Esq., James W. Frost, Esq., Lynda Lao, Esq., Federal Trade Commission, 600 Pennsylvania Avenue, N.W., Washington, DC 20580, William H. Efron, Esq., Ryan F. Harsch, Esq., Jared P. Nagley, Esq., Jonathan W. Platt, Esq., Gerald A. Stein, Esq., Geralyn J. Trujillo, Esq., Nancy Turnblacer, Esq., Theodore Zang, Esq., Federal Trade Commission, One Bowling Green, Suite 318, New York, NY 10004, Counsel for Plaintiff Federal Trade Commission",
+      "Howard G. Hopkirk, Esq. [Argued], Tracy W. Wertz, Esq., Office of Attorney General of Pennsylvania, Strawberry Square, Harrisburg, PA 17120, Kemal A. Mericli, Esq., Office of Attorney General of Pennsylvania, 1251 Waterfront Place, Pittsburgh, PA 15222, Counsel for Appellant Commonwealth of Pennsylvania",
+      "William D. Coglianese, Esq. [Argued], Christopher N. Thatch, Esq., Adrian Wager-Zito, Esq., Jones Day, 51 Louisiana Avenue, N.W., Washington, DC 20001, Counsel for Appellees Penn State Hershey Medical and Pinnacle Health System",
+      "Luminita Nodit, Esq., Office of Attorney General of Washington, 800 Fifth Avenue, Suite 2000, Seattle, WA 98104, Counsel for Amicus Appellants"
+    ],
+    "corrections": "",
+    "head_matter": "FEDERAL TRADE COMMISSION; Commonwealth of Pennsylvania\nv.\nPENN STATE HERSHEY MEDICAL CENTER; Pinnacle Health System Commonwealth of Pennsylvania, Appellant\nNo. 17-2270\nUnited States Court of Appeals, Third Circuit.\nArgued July 10, 2018\nFiled: January 23, 2019\nWesley G. Carson, Esq., Peggy Bayer Femenella, Esq., James W. Frost, Esq., Lynda Lao, Esq., Federal Trade Commission, 600 Pennsylvania Avenue, N.W., Washington, DC 20580, William H. Efron, Esq., Ryan F. Harsch, Esq., Jared P. Nagley, Esq., Jonathan W. Platt, Esq., Gerald A. Stein, Esq., Geralyn J. Trujillo, Esq., Nancy Turnblacer, Esq., Theodore Zang, Esq., Federal Trade Commission, One Bowling Green, Suite 318, New York, NY 10004, Counsel for Plaintiff Federal Trade Commission\nHoward G. Hopkirk, Esq. [Argued], Tracy W. Wertz, Esq., Office of Attorney General of Pennsylvania, Strawberry Square, Harrisburg, PA 17120, Kemal A. Mericli, Esq., Office of Attorney General of Pennsylvania, 1251 Waterfront Place, Pittsburgh, PA 15222, Counsel for Appellant Commonwealth of Pennsylvania\nWilliam D. Coglianese, Esq. [Argued], Christopher N. Thatch, Esq., Adrian Wager-Zito, Esq., Jones Day, 51 Louisiana Avenue, N.W., Washington, DC 20001, Counsel for Appellees Penn State Hershey Medical and Pinnacle Health System\nLuminita Nodit, Esq., Office of Attorney General of Washington, 800 Fifth Avenue, Suite 2000, Seattle, WA 98104, Counsel for Amicus Appellants\nBEFORE: SHWARTZ, NYGAARD, and RENDELL, Circuit Judges.\nOPINION OF THE COURT"
+  },
+  "file_name": "0193-01",
+  "first_page_order": 193,
+  "last_page_order": 200
+}

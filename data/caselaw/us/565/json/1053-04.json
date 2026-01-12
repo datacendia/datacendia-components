@@ -1,0 +1,59 @@
+{
+  "id": 12234736,
+  "name": "In re Discipline of Shea",
+  "name_abbreviation": "In re Discipline of Shea",
+  "decision_date": "2011-11-28",
+  "docket_number": "No. D-2611",
+  "first_page": "1053",
+  "last_page": "1053",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1053"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 39,
+    "char_count": 283,
+    "ocr_confidence": 0.628,
+    "sha256": "68cdf29dc17b70c5474862c0d8fd5c31d462715867c23110ba8be2cec9f584ca",
+    "simhash": "1:6f8273b633eab706",
+    "word_count": 51
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Shea."
+    ],
+    "opinions": [
+      {
+        "text": "Wevley William Shea, of Anchorage, Alaska, is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2611.\nIn re Discipline of Shea."
+  },
+  "file_name": "1053-04",
+  "first_page_order": 1135,
+  "last_page_order": 1135
+}

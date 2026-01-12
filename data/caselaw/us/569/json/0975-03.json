@@ -1,0 +1,68 @@
+{
+  "id": 12698100,
+  "name": "Tate SMITH, petitioner, v. Dessie DAVIS.",
+  "name_abbreviation": "Smith v. Davis",
+  "decision_date": "2013-05-13",
+  "docket_number": "No. 12\u20131235.",
+  "first_page": "975",
+  "last_page": "975",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "569 U.S. 975"
+    },
+    {
+      "type": "parallel",
+      "cite": "185 L. Ed. 2d 1069"
+    },
+    {
+      "type": "parallel",
+      "cite": "133 S. Ct. 2376"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 26,
+    "char_count": 204,
+    "sha256": "849ab1f1873c06f6f8f03656582ad0d86d2c6e6ad6a2ac334712e600cae0e294",
+    "simhash": "1:da2f56442b8c00ae",
+    "word_count": 34
+  },
+  "last_updated": "2021-08-27T21:08:28.003473+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Tate SMITH, petitioner,\nv.\nDessie DAVIS."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of certiorari to the United States Court of Appeals for the Fifth Circuit denied."
+    ],
+    "corrections": "",
+    "head_matter": "Tate SMITH, petitioner,\nv.\nDessie DAVIS.\nNo. 12-1235.\nSupreme Court of the United States\nMay 13, 2013.\nPetition for writ of certiorari to the United States Court of Appeals for the Fifth Circuit denied."
+  },
+  "file_name": "0975-03",
+  "first_page_order": 975,
+  "last_page_order": 975
+}

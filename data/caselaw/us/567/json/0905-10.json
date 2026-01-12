@@ -1,0 +1,59 @@
+{
+  "id": 12407969,
+  "name": "Tappen v. Florida",
+  "name_abbreviation": "Tappen v. Florida",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. 11-1039",
+  "first_page": "905",
+  "last_page": "905",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 905"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 82,
+    "ocr_confidence": 0.621,
+    "sha256": "a03592404485bb218fa1d7ffb834cef480d0b2053b6db6ff296eb2ed6990d675",
+    "simhash": "1:5219c5d246415a0e",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Tappen v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1039.\nTappen v. Florida."
+  },
+  "file_name": "0905-10",
+  "first_page_order": 809,
+  "last_page_order": 809
+}

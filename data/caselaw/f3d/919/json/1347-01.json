@@ -1,0 +1,512 @@
+{
+  "id": 12520528,
+  "name": "ENDO PHARMACEUTICALS INC., Plaintiff-Appellant Mallinckrodt LLC, Plaintiff v. TEVA PHARMACEUTICALS USA, INC., Barr Laboratories, Inc., Actavis LLC, fka Actavis Inc., Actavis South Atlantic LLC, Teva Pharmaceuticals USA, Inc., Defendants-Appellees Actavis Pharma, Inc., Actavis Elizabeth LLC, Actavis Holdco U.S., Inc., Defendants",
+  "name_abbreviation": "Endo Pharm. Inc. v. Teva Pharm. United States, Inc.",
+  "decision_date": "2019-03-28",
+  "docket_number": "2017-1240; 2017-1455; 2017-1887",
+  "first_page": "1347",
+  "last_page": "1357",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "919 F.3d 1347"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Fed. Cir.",
+    "id": 8955,
+    "name": "United States Court of Appeals for the Federal Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "2019 WL 1216226",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2019,
+      "opinion_index": 0
+    },
+    {
+      "cite": "918 F.3d 1338",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12520397
+      ],
+      "year": 2019,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/918/1338-01"
+      ]
+    },
+    {
+      "cite": "915 F.3d 743",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12520098
+      ],
+      "weight": 4,
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "752"
+        },
+        {
+          "page": "752-53"
+        },
+        {
+          "page": "753"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/915/0743-01"
+      ]
+    },
+    {
+      "cite": "U.S. Patent No. 6,258,540",
+      "category": "laws:admin_filing",
+      "reporter": "U.S. Patent",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "1377"
+        },
+        {
+          "page": "1378"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "788 F.3d 1371",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4230855
+      ],
+      "weight": 3,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1378"
+        },
+        {
+          "page": "1373-74"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/788/1371-01"
+      ]
+    },
+    {
+      "cite": "U.S. Patent No. 8,586,610",
+      "category": "laws:admin_filing",
+      "reporter": "U.S. Patent",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "1135"
+        },
+        {
+          "parenthetical": "alterations in original"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "887 F.3d 1117",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516506
+      ],
+      "weight": 11,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1121"
+        },
+        {
+          "parenthetical": "alteration in original"
+        },
+        {
+          "page": "1136"
+        },
+        {
+          "page": "1134"
+        },
+        {
+          "page": "1135"
+        },
+        {
+          "page": "1134"
+        },
+        {
+          "page": "1135"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/887/1117-01"
+      ]
+    },
+    {
+      "cite": "827 F.3d 1042",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4334685
+      ],
+      "weight": 9,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1050"
+        },
+        {
+          "page": "1046-47"
+        },
+        {
+          "page": "1048"
+        },
+        {
+          "page": "1049",
+          "parenthetical": "emphasis in original"
+        },
+        {
+          "page": "1050"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/827/1042-01"
+      ]
+    },
+    {
+      "cite": "822 F.3d 1327",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4282681
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1339"
+        },
+        {
+          "page": "1334-35"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/822/1327-01"
+      ]
+    },
+    {
+      "cite": "134 S.Ct. 2347",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12581589
+      ],
+      "weight": 3,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "parenthetical": "citing Mayo , 566 U.S. at 72-73, 75-80, 132 S.Ct. 1289 "
+        },
+        {
+          "parenthetical": "citing Mayo , 566 U.S. at 72-73, 75-80, 132 S.Ct. 1289 "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/134/2347-01"
+      ]
+    },
+    {
+      "cite": "573 U.S. 208",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "217-18",
+          "parenthetical": "citing Mayo , 566 U.S. at 72-73, 75-80, 132 S.Ct. 1289 "
+        },
+        {
+          "page": "217"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "450 U.S. 175",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6183273
+      ],
+      "weight": 3,
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "185"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/450/0175-01"
+      ]
+    },
+    {
+      "cite": "881 F.3d 1360",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275489
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1365"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/881/1360-01"
+      ]
+    },
+    {
+      "cite": "873 F.3d 1364",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12267286
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1367",
+          "parenthetical": "internal quotation marks and citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/873/1364-01"
+      ]
+    },
+    {
+      "cite": "550 U.S. 544",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3556136
+      ],
+      "weight": 3,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "570"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/550/0544-01"
+      ]
+    },
+    {
+      "cite": "486 F.3d 806",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3118664
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "808"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/486/0806-01"
+      ]
+    },
+    {
+      "cite": "823 F.3d 607",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5923224
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "610"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/823/0607-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1295",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "566 U.S. 66",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12188353
+      ],
+      "weight": 25,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "77"
+        },
+        {
+          "page": "78"
+        },
+        {
+          "page": "70"
+        },
+        {
+          "page": "72-73, 75-80"
+        },
+        {
+          "page": "71"
+        },
+        {
+          "page": "74, 87"
+        },
+        {
+          "page": "87"
+        },
+        {
+          "page": "86"
+        },
+        {
+          "page": "75"
+        },
+        {
+          "page": "77"
+        },
+        {
+          "page": "86"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/566/0066-01"
+      ]
+    },
+    {
+      "cite": "2015 WL 5580488",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 19,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "parenthetical": "\" Magistrate Op. \""
+        },
+        {
+          "page": "*6"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2015 WL 7253674",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "parenthetical": "\" District Court Op. \""
+        },
+        {
+          "page": "*4"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 U.S.C. \u00a7 101",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "U.S. Patent No. 8,808,737",
+      "category": "laws:admin_filing",
+      "reporter": "U.S. Patent",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1110,
+    "char_count": 29124,
+    "pagerank": {
+      "raw": 4.309311792351655e-08,
+      "percentile": 0.27156004075913304
+    },
+    "sha256": "c1626f1a96bee46f22a9f454df2c55a864200fcc1a98a0d68983f7632fdc14a2",
+    "simhash": "1:190870a2fc8891fd",
+    "word_count": 4633
+  },
+  "last_updated": "2024-02-27T18:46:33.646602+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Wallach, Clevenger, and Stoll, Circuit Judges."
+    ],
+    "parties": [
+      "ENDO PHARMACEUTICALS INC., Plaintiff-Appellant"
+    ],
+    "opinions": [
+      {
+        "text": "Stoll, Circuit Judge.\nEndo Pharmaceuticals Inc. appeals the district court's decision holding the claims of U.S. Patent No. 8,808,737 ineligible under 35 U.S.C. \u00a7 101. See Endo Pharms. Inc. v. Actavis Inc. , No. 14-cv-1381-RGA, 2015 WL 7253674 (D. Del. Nov. 17, 2015) (\" District Court Op. \"), adopting report and recommendation , 2015 WL 5580488 (D. Del. Sept. 23, 2015) (\" Magistrate Op. \"). Because the district court incorrectly concluded that the claims at issue are directed to a natural law, we reverse.\nBACKGROUND\nI\nEndo owns the '737 patent, entitled \"Method of treating pain utilizing controlled release oxymorphone pharmaceutical compositions and instruction on dosing for renal impairment.\" '737 patent Title. As explained in the specification, the patent covers a method of using oxymorphone to treat pain in patients with impaired kidney function. Id. at col. 1 ll. 19-32. Controlled-release dosage forms that maintain optimal levels of pain relief for longer periods are useful to patients and clinicians. Id. at col. 2 ll. 13-16. Patients' pain relief levels can be impacted by the way their body processes oxymorphone. For example, patients with impaired kidney function, also known as renal impairment, can experience buildup of waste products and some drugs that are typically filtered out by the kidneys. Id. at col. 2 ll. 17-24.\nThe inventor of the '737 patent studied the effect of renal impairment on the pharmacokinetics-including metabolism-of oxymorphone. Id. at col. 27 ll. 60-67. The '737 patent relates to his discovery that patients with renal impairment in need of pain relief can be treated in a new, different way than other patients. Specifically, the inventor discovered that patients with moderately or severely impaired kidney function need less oxymorphone than usual to achieve a similar level of pain management. Id. at col. 10 ll. 15-19. Accordingly, the inventor's treatment method advantageously allows patients with renal impairment to ingest less oxymorphone while still treating their pain. Stated somewhat differently, the inventor developed a method that allowed renally impaired pain patients to be treated safely and effectively notwithstanding their impaired kidney function.\nIn technical terms, the inventor found that there was a statistically significant correlation between plasma AUC for oxymorphone and a patient's degree of renal impairment, as indicated by their creatinine clearance rate. Id. at col. 46 ll. 38-40. The subjects were separated into four groups based on their creatinine clearance rates :\nGroup Creatinine Clearance Rate [Healthy] Controls >80 mL/min Mild Renal Impairment 51 to 80 mL/min Moderate Renal Impairment 30 to 50 mL/min Severe Renal Impairment <30 mL/min\nId. at col. 30 ll. 30-35. These four groups were studied for their pharmacokinetic responses to oxymorphone as measured by their AUC levels. There was relatively little change in oxymorphone AUC until the subjects had moderate-to-severe renal impairment (creatinine clearance rates below 50 mL/min). Subjects with severe renal impairment (creatinine clearance rates below 30 mL/min) had the highest AUC values. See id. at col. 46 ll. 38-46, col. 30 ll. 30-35.\nId. at Fig. 16 (excerpted, annotated). \"Because of this, the oxymorphone levels in the blood of a patient with [ ] renal impairment are higher than the levels that would be seen in a healthy patient receiving the same dose.\" Id. at col. 10 ll. 19-22. For example, subjects with severe renal impairment had a mean oxymorphone AUC, on average, 1.7 times greater than healthy subjects. Id. at col. 46 ll. 25-30.\nMean Plasma Pharmacokinetic Results\nLevel of renal impairment Analyte/Variable Healthy Severe Moderate Mild controls Oxymorphone AUC (ng\u00b7hr/mL) 32.46 27.93 21.68 18.86\nId. at col. 38 Table 33 (excerpted).\nArmed with this discovery, the inventor developed a new method of using oxymorphone to treat patients with renal impairment, claimed in the '737 patent. As the specification explains, \"the present invention provides methods using oxymorphone in the treatment of pain,\" including \"providing a patient [with renal impairment ] with a therapeutically effective amount of oxymorphone.\" Id. at col. 3 ll. 33-36. The specification further explains that the method \"avoid[s] possible issues in dosing\" and allows for treatment with \"the lowest available dose\" for patients with renal impairment. Id. at col. 10 ll. 26-27, 41. Claim 1 of the '737 patent is representative and reads:\n1. A method of treating pain in a renally impaired patient, comprising the steps of:\na. providing a solid oral controlled release dosage form, comprising:\ni. about 5 mg to about 80 mg of oxymorphone or a pharmaceutically acceptable salt thereof as the sole active ingredient; and\nii. a controlled release matrix;\nb. measuring a creatinine clearance rate of the patient and determining it to be\n(a) less than about 30 ml/min,\n(b) about 30 mL/min to about 50 mL/min,\n(c) about 51 mL/min to about 80 mL/min, or\n(d) above about 80 mL/min; and\nc. orally administering to said patient, in dependence on which creatinine clearance rate is found, a lower dosage of the dosage form to provide pain relief;\nwherein after said administration to said patient, the average AUC of oxymorphone over a 12-hour period is less than about 21 ng\u00b7hr/mL.\nId. at col. 48 ll. 7-26 (emphases added).\nII\nEndo and Mallinckrodt LLC sued Actavis LLC, Actavis South Atlantic LLC, Actavis Pharma, Inc., Actavis Elizabeth LLC, Actavis Holdco U.S., Inc. (collectively, \"Actavis\") and Teva Pharmaceuticals USA, Inc. and Barr Laboratories, Inc. (collectively, \"Teva\") for allegedly infringing the '737 patent 's claims 1-6. Actavis moved to dismiss Endo's patent infringement claims, arguing that the patent claims were ineligible under \u00a7 101. The magistrate judge recommended granting Actavis's motion. The magistrate judge first analyzed step 1 of the Alice / Mayo test, reasoning that the claims are directed to the natural law that the bioavailability of oxymorphone is increased in people with severe renal impairment. Magistrate Op., 2015 WL 5580488, at *6.\nThe magistrate judge then considered step 2 of the Alice / Mayo test, analyzing whether the '737 patent claims, though directed to a law of nature, added enough to qualify as a patentable method that applies the law of nature. Id. at *7-9 (citing Mayo Collaborative Servs. v. Prometheus Labs., Inc. , 566 U.S. 66, 77, 132 S.Ct. 1289, 182 L.Ed.2d 321 (2012) ). The magistrate judge separated claim 1 into three steps: (1) a \"providing\" step, (2) a \"measuring\" step, and (3) an \"administering\" step. Id. at *7. First, the magistrate judge reasoned that the \"providing\" step is similar to the administering step in Mayo because it \"merely identifies the specific drug for administration.\" Id. Second, the magistrate judge concluded that the measuring/determining step, like Mayo , \"just directs one to use a well-known method to measure creatinine levels to obtain the necessary information to apply a law of nature.\" Id. Finally, the magistrate judge concluded that the \"administering step\" is indistinguishable from Mayo :\nThe administering step simply limits the relevant audience to patients and prescribing physicians, who treat chronic or acute pain with oxymorphone, and instructs the administration of the correct dosage of oxymorphone depending on the severity of the renal impairment, a step very similar to Mayo , which limited the relevant audience to \"doctors who treat patients with certain diseases with thiopurine drugs.\"\nId. at *7 (quoting Mayo , 566 U.S. at 78, 132 S.Ct. 1289 ). According to the magistrate judge, \"[t]he administering step merely instructs physicians to dispense oxymorphone for the treatment of pain in a well-know[n] manner, while utilizing the natural law to manage the dosage.\" Id. at *8. Based on this analysis, the magistrate judge concluded that the patent was not directed to a patent-eligible application of a natural law.\nThe district court adopted the magistrate judge's recommendation, finding the patent claims ineligible. District Court Op. , 2015 WL 7253674, at *4. The district court agreed with the magistrate judge that the claims are directed to \" 'the connection between the severity of renal impairment and the bioavailability of oxymorphone,' or, in other words, the reaction of the human body of a renally impaired individual to oxymorphone, which is unquestionably a natural law.\" Id. at *3 (quoting Magistrate Op. , 2015 WL 5580488, at *6 ). Moreover, the district court agreed that the magistrate judge properly analogized the '737 patent claims to the patent-ineligible representative claim in Mayo and rejected Endo's attempts to distinguish Mayo .\nHaving held the patent ineligible, the district court dismissed Endo's claims in the Actavis case. Based on that order, Endo stipulated that the patent claims were ineligible (subject to Endo's right to appeal) in the Teva case, which was before the same district court judge. Accordingly, the district court entered partial, and later, final judgment of ineligibility. In the Actavis case, the court entered a Rule 54(b) partial judgment of ineligibility. Endo appealed. We have jurisdiction under 28 U.S.C. \u00a7 1295(a)(1).\nDISCUSSION\nI\n\"We apply regional circuit law to the review of motions to dismiss for failure to state a claim under Rule 12(b)(6),\" In re TLI Commc'ns Patent Litig. , 823 F.3d 607, 610 (Fed. Cir. 2016), here, the Third Circuit. The Third Circuit \"review[s] de novo a district court's grant of a motion to dismiss for failure to state a claim under Federal Rule of Civil Procedure 12(b)(6).\" Ballentine v. United States , 486 F.3d 806, 808 (3d Cir. 2007). To survive a motion to dismiss for failure to state a claim, a complaint must allege \"enough facts to state a claim to relief that is plausible on its face.\" Bell Atl. Corp. v. Twombly , 550 U.S. 544, 570, 127 S.Ct. 1955, 167 L.Ed.2d 929 (2007). \"We review issues unique to patent law, including patent eligibility under \u00a7 101, consistent with our circuit's precedent.\" Smart Sys. Innovations, LLC v. Chi. Transit Auth. , 873 F.3d 1364, 1367 (Fed. Cir. 2017) (internal quotation marks and citation omitted). A district court's determination of patent eligibility under \u00a7 101 is an issue of law, which we review de novo, and may contain underlying issues of fact. Berkheimer v. HP Inc. , 881 F.3d 1360, 1365 (Fed. Cir. 2018).\nII\nSection 101 of the Patent Act states that \"[w]hoever invents or discovers any new and useful process, machine, manufacture, or composition of matter, or any new and useful improvement thereof, may obtain a patent therefor, subject to the conditions and requirements of this title.\" 35 U.S.C. \u00a7 101. However, \u00a7 101\"contains an important implicit exception\": \" 'laws of nature, natural phenomena, and abstract ideas' are not patentable.\" Mayo , 566 U.S. at 70, 132 S.Ct. 1289 (alteration omitted) (quoting Diamond v. Diehr , 450 U.S. 175, 185, 101 S.Ct. 1048, 67 L.Ed.2d 155 (1981) ).\nThe Supreme Court has established a two-step framework to determine subject matter eligibility under \u00a7 101. Alice Corp. Pty. v. CLS Bank Int'l , 573 U.S. 208, 217-18, 134 S.Ct. 2347, 189 L.Ed.2d 296 (2014) (citing Mayo , 566 U.S. at 72-73, 75-80, 132 S.Ct. 1289 ). If the claims are not directed to a patent-ineligible concept at step one, we need not address step two of the inquiry. See Enfish, LLC v. Microsoft Corp. , 822 F.3d 1327, 1339 (Fed. Cir. 2016). That is the case here. Accordingly, our analysis focuses solely on step one.\nStep one requires determining \"whether the claims at issue are directed to one of those patent-ineligible concepts.\" Alice , 573 U.S. at 217, 134 S.Ct. 2347 ; see also Enfish , 822 F.3d at 1334-35. The Supreme Court has cautioned that \"too broad an interpretation of\" ineligible subject matter \"could eviscerate patent law\" because \"all inventions at some level embody, use, reflect, rest upon, or apply laws of nature, natural phenomena, or abstract ideas.\" Mayo , 566 U.S. at 71, 132 S.Ct. 1289. Accordingly, at step one, \"it is not enough to merely identify a patent-ineligible concept underlying the claim; we must determine whether that patent-ineligible concept is what the claim is 'directed to.' \" Rapid Litig. Mgmt. Ltd. v. CellzDirect, Inc. , 827 F.3d 1042, 1050 (Fed. Cir. 2016).\nApplying this law, we conclude that the asserted claims are not directed to patent-ineligible subject matter. On the contrary, the claims are directed to a patent-eligible method of using oxymorphone or a pharmaceutically acceptable salt thereof to treat pain in a renally impaired patient. Our conclusion is supported by the claim language itself and confirmed by the specification. The claims recite \"[a] method of treating pain in a renally impaired patient.\" '737 patent col. 48 ll. 7-9. Claim 1 also requires specific steps: (a) providing a pharmaceutical (5-80 mg of oral controlled-release oxymorphone or one of its pharmaceutically acceptable salts), (b) testing the patient for a disease state (reduced kidney function based on creatinine clearance rate ), and then (c) administering the pharmaceutical (a lower dose of oxymorphone ) based on the creatinine clearance rate to achieve an average AUC of oxymorphone over a 12-hour period of less than 21 ng\u00b7hr/mL. Consistent with the claims, the abstract, patent title, and summary of the invention all describe the invention as a \"method of treating pain\" in patients with renal impairment. Id. at Abstract, col. 1 ll. 1-5; see id. at col. 2 ll. 35-43. The specification predominantly describes the invention as a method that treats renally impaired pain patients with less oxymorphone while still treating their pain. Indeed, the specification explains that the method \"avoid[s] possible issues in dosing\" and allows for treatment with \"the lowest available dose\" for patients with renal impairment. Id. at col. 10 ll. 26-27, 40-41.\nWe held similar claims patent-eligible in Vanda Pharmaceuticals Inc. v. West-Ward Pharmaceuticals International Ltd , 887 F.3d 1117 (Fed. Cir. 2018). The patent at issue in Vanda related to a method of treating schizophrenia patients with a drug (iloperidone), where the administered dose is adjusted based on whether or not the patient is a \"CYP2D6 poor metabolizer.\" 887 F.3d at 1121. Patients who are CYP2D6 poor metabolizers can be subject to serious cardiac problems when treated with drugs such as iloperidone. One such cardiac problem is QTc prolongation, an abnormality in the patient's heart rhythm. The Vanda inventors discovered that the treatment of CYP2D6 poor metabolizers \"can be accomplish[ed] more safely by administering a lower dose of the drug than would be administered to a person who has normal CYP2D6 enzyme activity.\" Id. (alteration in original) (quoting U.S. Patent No. 8,586,610 col. 2 ll. 15-21). Thus, the Vanda patent claims refer to a reduced dose of iloperidone for poor metabolizers compared to typical metabolizers. Id.\nThe claims at issue here are legally indistinguishable from the representative claim in Vanda . Both claims recite a method for treating a patient. The Vanda patent claims recite the steps of carrying out a dosage regimen based on the results of genetic testing. Id. at 1135. Here, the claims similarly recite the steps of carrying out a dosage regimen, though the steps are based on the results of kidney function testing. Additionally, the claims in both cases require specific treatment steps. In Vanda , the claims require doctors to \"internally administer[ ] iloperidone to the patient in an amount of 12 mg/day or less\" if the patient has a CYP2D6 poor metabolizer genotype; and \"internally administer[ ] iloperidone to the patient in an amount that is greater than 12 mg/day, up to 24 mg/day\" if the patient does not have a CYP2D6 poor metabolizer genotype. Id. (alterations in original) (quoting '610 patent col. 17 ll. 13-20). Here, the claims require doctors to \"orally administer[ ] to said patient, in dependence on which creatinine clearance rate is found, a lower dosage of the dosage form to provide pain relief\" in such a way that after administering the dose, the patient's \"average AUC of oxymorphone over a 12-hour period is less than about 21 ng\u00b7hr/mL.\" '737 patent col. 48 ll. 7-26. Like the claims in Vanda , the claims here \"are directed to a specific method of treatment for specific patients using a specific compound at specific doses to achieve a specific outcome.\" See Vanda , 887 F.3d at 1136.\nAlso like the claims in Vanda , the claims here differ from those in Mayo in material respects. Although the representative claim in Mayo recited administering a thiopurine drug to a patient, the claim as a whole was not directed to the application of a drug to treat a particular disease. See Mayo , 566 U.S. at 74, 87, 132 S.Ct. 1289 ; Vanda , 887 F.3d at 1134. Furthermore, the administering step in Mayo is distinguishable from the administering step in the '737 patent because the administering step in Mayo is the first step in the method that simply describes giving the drug to a patient with a certain disorder. By contrast, the administering step in the '737 patent is the step that describes giving a specific dose of the drug based on the results of kidney function testing. The Supreme Court in Mayo underscored the distinction between such method of treatment claims and those in Mayo , noting that \"[u]nlike, say, a typical patent on a new drug or a new way of using an existing drug, the patent claims do not confine their reach to particular applications of those laws.\" Mayo , 566 U.S. at 87, 132 S.Ct. 1289 ; Vanda , 887 F.3d at 1135. In Vanda , the inventors recognized the relationship between iloperidone dosage and the patient's CYP2D6 poor metabolizer genotype, but that was not what they claimed. Similarly, the inventor here recognized the relationship between oxymorphone and patients with renal impairment, but that is not what he claimed. Rather, he claimed an application of that relationship-specifically, a method of treatment including specific steps to adjust or lower the oxymorphone dose for patients with renal impairment. The claims are thus directed to more than just reciting the natural relationship.\nNor is preemption a valid concern. While the claim in Mayo could \"tie up the doctor's subsequent treatment decision,\" the claims here do not. Mayo , 566 U.S. at 86, 132 S.Ct. 1289. The representative claim in Mayo stated that the metabolite level in blood simply \"indicates\" a need to increase or decrease dosage, without prescribing a specific dosage regimen or other added steps to take as a result of that indication. Id. at 75, 132 S.Ct. 1289. In contrast, the claims here recite the steps of carrying out a dosage regimen based on the results of kidney function testing. The claims require doctors to \"orally administer[ ] to said patient, in dependence on which creatinine clearance rate is found, a lower dosage of the dosage form to provide pain relief\" in such a way that after administering the dose, the patient's \"average AUC of oxymorphone over a 12-hour period is less than about 21 ng\u00b7hr/mL.\" '737 patent col. 48 ll. 7-26. These are specific treatment steps. The claims prescribe a specific dosage regimen through the wherein clause, under which the physician administers oxymorphone to achieve a specific range of AUC of oxymorphone based on the patient's creatinine clearance rate. Id. at col. 48 ll. 20-26.\nActavis argues that the court in Vanda emphasized the particularity of the claimed method's \"specific steps\"-a specificity Actavis alleges is not found in the '737 patent 's claims. Appellee Br. 34-35 (citing Vanda , 887 F.3d at 1134 ). According to Actavis, unlike the claims in Vanda , the method steps in Endo's claims offer no \"practical assurance that the process is more than a drafting effort designed to monopolize the law of nature itself.\" Vanda , 887 F.3d at 1134 (quoting Mayo , 566 U.S. at 77, 132 S.Ct. 1289 ). We disagree. As addressed above, the '737 patent claims are very similar to those in Vanda and any differences in specificity are not of a sufficient degree to convince us to conclude that the claims here should be ineligible as compared to the claims in Vanda .\nWe nonetheless address each of Actavis's alleged points of distinction between the '737 patent claims and those in Vanda . First, Actavis argues that, unlike the Vanda claims, the '737 patent claims do not require that a biological sample be obtained or assayed in any particular way to determine the patient's creatinine-clearance rate. Appellee Br. 35 (citing Vanda , 887 F.3d at 1121 ). But this is a distinction without a difference. The court in Vanda reasoned that the claim was directed to \"specific patients,\" without explicitly emphasizing the precise methods used to identify those specific patients.\nSecond, Actavis argues that, unlike Vanda , the '737 patent 's claims do not specify an amount or frequency of oxymorphone to be administered after patients are categorized by creatinine-clearance rate. We disagree with Actavis's interpretation of the claims in this regard. The wherein clause that immediately follows the orally administering step limits the scope of the orally administering step. In particular, the wherein clause requires that the dosage and schedule administered in the \"orally administering step\" must achieve a target average AUC of oxymorphone less than about 21 ng\u00b7hr/mL over a 12-hour period. In other words, the wherein clause identifies the appropriate schedule and dose of oxymorphone to administer, as a function of how much oxymorphone is in the patient's system. It is the combination of the administering step and wherein clause claim language, taken together, that make the claims-at-issue as specific as those in Vanda such that the patent claims do not \"tie up the doctor's subsequent treatment decision.\" Vanda , 887 F.3d at 1135 (quoting Mayo , 566 U.S. at 86, 132 S.Ct. 1289 ). Like the administering step in Vanda , the administering step and wherein clause in the present claims allow the claims to do more than just recognize a need to lower or decrease a dose. See id.\nAt bottom, we conclude that the '737 patent claims are like those in Vanda . They are eligible because they are \"directed to a specific method of treatment for specific patients using a specific compound at specific doses to achieve a specific outcome.\" Id. at 1136. Our precedent leaves no room for a different outcome.\nCellzDirect further supports our decision that the claims are patent eligible. The claims in CellzDirect were directed to a method of freezing hepatocytes. There, we held that \"a method of producing a desired preparation of multi-cryopreserved hepatocytes cells\" was patent eligible.\n827 F.3d at 1046-47. We explained that \"[t]he end result of the ... claims is not simply an observation or detection of the ability of hepatocytes to survive multiple freeze-thaw cycles. Rather, the claims [were] directed to a new and useful method of preserving hepatocyte cells.\" Id. at 1048. We further emphasized that \"the natural ability of the subject matter to undergo the process does not make the claim 'directed to' that natural ability.\" Id. at 1049 (emphasis in original). Otherwise, claims directed to actually \"treating cancer with chemotherapy\" or \"treating headaches with aspirin\" would be patent ineligible. Id. Just like the claims in CellzDirect , the result of the claims here is not simply an observation or detection. The claims in CellzDirect are directed to a new and useful method of preserving hepatocyte cells. Similarly, the claims here are directed to a new and useful method of treating pain in patients with impaired renal function.\nNor does Ariosa Diagnostics, Inc. v. Sequenom, Inc. , 788 F.3d 1371 (Fed. Cir. 2015) compel a different outcome. This court in Ariosa held that \"where claims of a method patent are directed to an application that starts and ends with a naturally occurring phenomenon, the patent fails to disclose patent eligible subject matter if the methods themselves are conventional, routine and well understood applications in the art.\" Id. at 1378. The representative claim in Ariosa was directed to a method for detecting paternally inherited cell-free fetal DNA :\n1. A method for detecting a paternally inherited nucleic acid of fetal origin performed on a maternal serum or plasma sample from a pregnant female, which method comprises\namplifying a paternally inherited nucleic acid from the serum or plasma sample and\ndetecting the presence of a paternally inherited nucleic acid of fetal origin in the sample.\nId. at 1373-74 (quoting U.S. Patent No. 6,258,540 col. 23 ll. 61-67). There, we determined that the claims were directed to a natural phenomenon. We also determined that the only new and useful subject matter claimed \"was the discovery of the presence of [cell-free fetal DNA] in maternal plasma or serum,\" and that the \"method at issue here amounts to a general instruction to doctors to apply routine, conventional techniques when seeking to detect [cell-free fetal DNA].\" Id. at 1377. In contrast, the claims here are directed to a treatment method, not a detection method. The '737 patent does not \"start[ ] and end[ ] with a naturally occurring phenomenon.\" Id. at 1378. Instead, the claims are directed to more-they recite a specific method of treatment based on the recognition that patients with severe renal impairment have a mean oxymorphone AUC, on average, 1.7 times greater than healthy subjects.\nAthena Diagnostics, Inc. v. Mayo Collaborative Servs., LLC , 915 F.3d 743 (Fed. Cir. 2019), also does not require a different outcome. In Athena , our court held that the claim \"recite[d] a natural law and conventional means for detecting it.\" Id. at 752. There, the court concluded that the claims at issue were like the claims in Mayo , and that \"claiming a natural cause of an ailment and well-known means of observing it is not eligible for patent because such a claim in effect only encompasses the natural law itself.\" Id. at 752-53. At the same time, the court acknowledged that \"claiming a new treatment for an ailment, albeit using a natural law, is not claiming the natural law\"-that is exactly the situation we have here. Id. at 753. The claims in this case are directed to a new treatment for an ailment, albeit using a natural law or phenomenon. The claims are not directed to the ineligible subject matter itself and, as such, are eligible.\nCONCLUSION\nWe have considered the appellees' remaining arguments but do not find them persuasive. Because the '737 patent claims are not directed to patent-ineligible subject matter, we reverse the district court's decision.\nREVERSED\n\"AUC\" stands for Area Under the Curve-that is, the area underneath the concentration versus time curve, which measures the total amount of drug observed in a patient's bloodstream over time since administration of the drug. AUC is indicative of drug in the body over time.\nCreatinine is a waste byproduct. The kidneys filter creatinine out of the bloodstream and excrete it in urine. A patient's creatinine clearance rate measures how effectively the kidneys are able to remove creatinine, and thus reflects how well the kidneys are functioning.\nThe parties did not argue the claims separately, so they rise or fall together with representative claim 1.\nWe acknowledge that when the district court held the claims ineligible, it did not have the benefit of considering Vanda Pharmaceuticals Inc. v. West-Ward Pharmaceuticals International Ltd. , 887 F.3d 1117 (Fed. Cir. 2018), CellzDirect , 827 F.3d at 1050, and Natural Alternatives International v. Creative Compounds, LLC , No. 2018-1295, 918 F.3d 1338, 2019 WL 1216226 (Fed. Cir. Mar. 15, 2019).\nCell-free fetal DNA (\"cffDNA\") is non-cellular fetal DNA that circulates freely in the blood stream of a pregnant woman. Id. at 1373.",
+        "type": "majority",
+        "author": "Stoll, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Martin Jay Black, Dechert LLP, Philadelphia, PA, argued for plaintiff-appellant. Also represented by Sharon K. Gagliardi ; Blake Greene, Austin, TX; Jonathan Loeb, Mountain View, CA; ROBERT RHOAD, Princeton, NJ.",
+      "William H. Burgess, Kirkland & Ellis LLP, Washington, DC, argued for defendants-appellees Actavis LLC, Actavis South Atlantic LLC, Teva Pharmaceuticals USA, Inc. Also represented by John C. O'Quinn ; James F. Hurst, Chicago, IL; Leslie M. Schmidt, New York, NY; Howard S. Suh, Charles A. Weiss, Eric H. Yecies, Holland & Knight, LLP, New York, NY.",
+      "Huiya Wu, Goodwin Procter LLP, New York, NY, for defendants-appellees Teva Pharmaceuticals USA, Inc., Barr Laboratories, Inc."
+    ],
+    "corrections": "",
+    "head_matter": "ENDO PHARMACEUTICALS INC., Plaintiff-Appellant\nMallinckrodt LLC, Plaintiff\nv.\nTEVA PHARMACEUTICALS USA, INC., Barr Laboratories, Inc., Actavis LLC, fka Actavis Inc., Actavis South Atlantic LLC, Teva Pharmaceuticals USA, Inc., Defendants-Appellees\nActavis Pharma, Inc., Actavis Elizabeth LLC, Actavis Holdco U.S., Inc., Defendants\n2017-1240\n2017-1455\n2017-1887\nUnited States Court of Appeals, Federal Circuit.\nDecided: March 28, 2019\nMartin Jay Black, Dechert LLP, Philadelphia, PA, argued for plaintiff-appellant. Also represented by Sharon K. Gagliardi ; Blake Greene, Austin, TX; Jonathan Loeb, Mountain View, CA; ROBERT RHOAD, Princeton, NJ.\nWilliam H. Burgess, Kirkland & Ellis LLP, Washington, DC, argued for defendants-appellees Actavis LLC, Actavis South Atlantic LLC, Teva Pharmaceuticals USA, Inc. Also represented by John C. O'Quinn ; James F. Hurst, Chicago, IL; Leslie M. Schmidt, New York, NY; Howard S. Suh, Charles A. Weiss, Eric H. Yecies, Holland & Knight, LLP, New York, NY.\nHuiya Wu, Goodwin Procter LLP, New York, NY, for defendants-appellees Teva Pharmaceuticals USA, Inc., Barr Laboratories, Inc.\nBefore Wallach, Clevenger, and Stoll, Circuit Judges."
+  },
+  "file_name": "1347-01",
+  "first_page_order": 1347,
+  "last_page_order": 1357
+}

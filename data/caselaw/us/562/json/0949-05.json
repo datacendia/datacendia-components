@@ -1,0 +1,61 @@
+{
+  "id": 5985437,
+  "name": "Austin v. United States",
+  "name_abbreviation": "Austin v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-9509",
+  "first_page": "949",
+  "last_page": "949",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 949"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 151,
+    "ocr_confidence": 0.559,
+    "sha256": "6c5bf5fac45ffcc7fa9408598b836f28351981f8f935027f74ea75ddd18da95f",
+    "simhash": "1:dd33ca02678c9802",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Austin v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-9509.\nAustin v. United States."
+  },
+  "file_name": "0949-05",
+  "first_page_order": 971,
+  "last_page_order": 971
+}

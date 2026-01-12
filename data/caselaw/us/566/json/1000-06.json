@@ -1,0 +1,59 @@
+{
+  "id": 12218365,
+  "name": "Grigsby v. United States",
+  "name_abbreviation": "Grigsby v. United States",
+  "decision_date": "2012-05-14",
+  "docket_number": "No. 11-9656",
+  "first_page": "1000",
+  "last_page": "1000",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1000"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.628,
+    "sha256": "4e9430ec17cece786e130953eca5b75ae642bc94798ec55c0520483f9a957815",
+    "simhash": "1:d6b3f2836fbdc078",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Grigsby v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9656.\nGrigsby v. United States."
+  },
+  "file_name": "1000-06",
+  "first_page_order": 876,
+  "last_page_order": 876
+}

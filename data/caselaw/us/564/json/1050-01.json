@@ -1,0 +1,119 @@
+{
+  "id": 5933262,
+  "name": "Haque v. Immigration and Customs Enforcement et al.; Haque v. Department of Homeland Security et al.",
+  "name_abbreviation": "Haque v. Immigration & Customs Enforcement",
+  "decision_date": "2011-06-27",
+  "docket_number": "No. 10-9732; No. 10-9737",
+  "first_page": "1050",
+  "last_page": "1050",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1050"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "563 U. S. 1017",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12460160,
+        12460161,
+        12460162,
+        5933965,
+        5935997,
+        12460178,
+        12460180,
+        4224287,
+        5954002,
+        5942738,
+        12460143,
+        12460144,
+        12460145,
+        5939570,
+        12460153,
+        12460154,
+        12460155,
+        12460156,
+        12460157,
+        12460158,
+        12460159
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/179/1265-02",
+        "/l-ed-2d/179/1265-03",
+        "/l-ed-2d/179/1265-04",
+        "/us/563/1017-05",
+        "/us/563/1017-02",
+        "/l-ed-2d/179/1267-04",
+        "/l-ed-2d/179/1267-06",
+        "/us/563/1017-04",
+        "/us/563/1017-03",
+        "/us/563/1017-06",
+        "/l-ed-2d/179/1262-07",
+        "/l-ed-2d/179/1263-01",
+        "/l-ed-2d/179/1263-02",
+        "/us/563/1017-01",
+        "/l-ed-2d/179/1264-02",
+        "/l-ed-2d/179/1264-03",
+        "/l-ed-2d/179/1264-04",
+        "/l-ed-2d/179/1264-05",
+        "/l-ed-2d/179/1264-06",
+        "/l-ed-2d/179/1264-07",
+        "/l-ed-2d/179/1265-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 33,
+    "char_count": 276,
+    "ocr_confidence": 0.546,
+    "pagerank": {
+      "raw": 1.6045617857993702e-06,
+      "percentile": 0.9918968177967025
+    },
+    "sha256": "678c8bb0d363ed473408c59a68742151f8134d56c414a7510c938e40737acc80",
+    "simhash": "1:1bf3be80324ceb8e",
+    "word_count": 46
+  },
+  "last_updated": "2024-02-27T23:47:04.462735+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of these petitions."
+    ],
+    "parties": [
+      "Haque v. Immigration and Customs Enforcement et al., Haque v. Department of Homeland Security et al.,"
+    ],
+    "opinions": [
+      {
+        "text": "563 U. S. 1017; and 563 U. S. 1017. Petitions for rehearing denied.\nJustice Kagan took no part in the consideration or decision of these petitions.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9732.\nNo. 10-9737.\nHaque v. Immigration and Customs Enforcement et al., Haque v. Department of Homeland Security et al.,"
+  },
+  "file_name": "1050-01",
+  "first_page_order": 1044,
+  "last_page_order": 1044
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5907096,
+  "name": "Warner v. Texas",
+  "name_abbreviation": "Warner v. Texas",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 10-6715",
+  "first_page": "1070",
+  "last_page": "1070",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1070"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 70,
+    "ocr_confidence": 0.645,
+    "sha256": "f521b819a7fa8f27d211e371220da99bebb7a6be457ca56bd8f19fc92c5a944f",
+    "simhash": "1:8b23f8e65eea36d0",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Warner v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tex. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6715.\nWarner v. Texas."
+  },
+  "file_name": "1070-08",
+  "first_page_order": 1092,
+  "last_page_order": 1092
+}

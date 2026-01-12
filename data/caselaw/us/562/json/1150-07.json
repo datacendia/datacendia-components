@@ -1,0 +1,59 @@
+{
+  "id": 5907711,
+  "name": "Johnlouis v. Louisiana",
+  "name_abbreviation": "Johnlouis v. Louisiana",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7291",
+  "first_page": "1150",
+  "last_page": "1150",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1150"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 78,
+    "ocr_confidence": 0.621,
+    "sha256": "8b260b95766f49baf83375d464d6dbcb2e3a54d5117b796b7e32d3289af80e39",
+    "simhash": "1:bdd3e2fd576cf6f8",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Johnlouis v. Louisiana."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. La., 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7291.\nJohnlouis v. Louisiana."
+  },
+  "file_name": "1150-07",
+  "first_page_order": 1172,
+  "last_page_order": 1172
+}

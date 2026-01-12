@@ -1,0 +1,59 @@
+{
+  "id": 12411636,
+  "name": "White v. Medina, Warden, et al.",
+  "name_abbreviation": "White v. Medina",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10128",
+  "first_page": "834",
+  "last_page": "834",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 834"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 81,
+    "ocr_confidence": 0.709,
+    "sha256": "6027e0e354cbc0aae5e4d0d6e70987d41024fd1a39ab70fdd3a2374a12380da6",
+    "simhash": "1:1fd820ac53ef9030",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "White v. Medina, Warden, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10128.\nWhite v. Medina, Warden, et al."
+  },
+  "file_name": "0834-03",
+  "first_page_order": 910,
+  "last_page_order": 910
+}

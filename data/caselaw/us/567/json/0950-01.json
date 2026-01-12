@@ -1,0 +1,77 @@
+{
+  "id": 12412661,
+  "name": "Whiteside v. Arkansas; Vargas Guillen v. California",
+  "name_abbreviation": "Whiteside v. Arkansas",
+  "decision_date": "2012-06-29",
+  "docket_number": "No. 11-7979; No. 11-8655",
+  "first_page": "950",
+  "last_page": "950",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 950"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "2011 Ark. 371",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        7090393
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/383/0859-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 50,
+    "char_count": 375,
+    "ocr_confidence": 0.649,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25589484174559984
+    },
+    "sha256": "dd53d16d168abdb2183e1a08cbc0d4825b3c44aafd6486b0ad49e1ab6d6e16ae",
+    "simhash": "1:a7055b96a1071212",
+    "word_count": 61
+  },
+  "last_updated": "2024-02-27T23:46:21.325002+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Whiteside v. Arkansas. Vargas Guillen v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ark. Reported below: 2011 Ark. 371, 383 S. W. 3d 859; and Ct. App. Cal., 2d App. Dist. Motions of petitioners for leave to proceed in forma pauperis granted. Certiorari granted, judgments vacated, and cases remanded for further consideration in light of Miller v. Alabama, ante, p. 460.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7979.\nNo. 11-8655.\nWhiteside v. Arkansas. Vargas Guillen v. California."
+  },
+  "file_name": "0950-01",
+  "first_page_order": 854,
+  "last_page_order": 854
+}

@@ -1,0 +1,741 @@
+{
+  "id": 12519934,
+  "name": "Susan NIELEN-THOMAS, Plaintiff-Appellant, v. CONCORDE INVESTMENT SERVICES, LLC, et al., Defendants-Appellees.",
+  "name_abbreviation": "Nielen-Thomas v. Concorde Inv. Servs., LLC",
+  "decision_date": "2019-01-24",
+  "docket_number": "No. 18-2875",
+  "first_page": "524",
+  "last_page": "535",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "914 F.3d 524"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "7th Cir.",
+    "id": 9010,
+    "name": "United States Court of Appeals for the Seventh Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "906 F.3d 685",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518938
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "690"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/906/0685-01"
+      ]
+    },
+    {
+      "cite": "279 F.3d 590",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9396125
+      ],
+      "year": 2002,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/279/0590-01"
+      ]
+    },
+    {
+      "cite": "784 F.3d 128",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4181839
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "parenthetical": "\" '[C]overed class action' includes, with certain exceptions, class actions seeking damages on behalf of unidentified plaintiffs, class actions seeking damages on behalf of more than 50 identified persons, and [group lawsuits].\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/784/0128-01"
+      ]
+    },
+    {
+      "cite": "485 U.S. 224",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        14213
+      ],
+      "weight": 3,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "242-43"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/485/0224-01"
+      ]
+    },
+    {
+      "cite": "701 F.2d 1189",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        12150393
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "1196",
+          "parenthetical": "casual dicta of a state supreme court, as opposed to considered dicta, \"has little precedential weight\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/701/1189-01"
+      ]
+    },
+    {
+      "cite": "134 S.Ct. 1058",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12578243,
+        12701997
+      ],
+      "weight": 3,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "parenthetical": "SLUSA \"forbids the bringing of large securities class actions based upon violations of state law\" and \"does not apply to class actions with fewer than 51 'persons or prospective class members' \" (quoting 15 U.S.C. \u00a7 78bb(f)(5)(B) ) "
+        },
+        {
+          "parenthetical": "SLUSA \"forbids the bringing of large securities class actions based upon violations of state law\" and \"does not apply to class actions with fewer than 51 'persons or prospective class members' \" (quoting 15 U.S.C. \u00a7 78bb(f)(5)(B) ) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/134/1058-01",
+        "/us/571/0377-01"
+      ]
+    },
+    {
+      "cite": "571 U.S. 377",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12701997
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "380",
+          "parenthetical": "SLUSA \"forbids the bringing of large securities class actions based upon violations of state law\" and \"does not apply to class actions with fewer than 51 'persons or prospective class members' \" (quoting 15 U.S.C. \u00a7 78bb(f)(5)(B) ) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/571/0377-01"
+      ]
+    },
+    {
+      "cite": "134 S.Ct. 2384",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12581615
+      ],
+      "weight": 2,
+      "year": 2014,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/134/2384-01"
+      ]
+    },
+    {
+      "cite": "573 U.S. 351",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "358"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "138 S.Ct. 767",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12616856
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "777",
+          "parenthetical": "\"[W]hen Congress includes particular language in one section of a statute but omits it in another[,]\" we presume \"that Congress intended a difference in meaning.\" (alterations in original"
+        },
+        {
+          "parenthetical": "\"[W]hen Congress includes particular language in one section of a statute but omits it in another[,]\" we presume \"that Congress intended a difference in meaning.\" (alterations in original) (quoting Loughrin v. United States , 573 U.S. 351, 358, 134 S.Ct. 2384, 189 L.Ed.2d 411 (2014) ) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/0767-01"
+      ]
+    },
+    {
+      "cite": "846 F.3d 928",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12135965
+      ],
+      "weight": 3,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "930",
+          "parenthetical": "SLUSA was designed to prevent \"artful pleading\" to \"evade limits on securities litigation that are designed to block frivolous or abusive suits.\""
+        },
+        {
+          "page": "934",
+          "parenthetical": "stating, near conclusion of opinion, that SLUSA \"is limited to 'covered class actions,' which means that [plaintiff] could litigate for herself and as many as 49 other customers\""
+        },
+        {
+          "page": "930",
+          "parenthetical": "issue was whether plaintiff's contract and fiduciary claims necessarily involved an \"omission of a material fact\" to implicate SLUSA"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/846/0928-01"
+      ]
+    },
+    {
+      "cite": "547 U.S. 633",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3276595
+      ],
+      "weight": 6,
+      "year": 2006,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/547/0633-01"
+      ]
+    },
+    {
+      "cite": "513 U.S. 561",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1330581
+      ],
+      "weight": 3,
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "580"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/513/0561-01"
+      ]
+    },
+    {
+      "cite": "542 U.S. 88",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5856684
+      ],
+      "weight": 5,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "101",
+          "parenthetical": "\"A statute should be construed so that effect is given to all its provisions, so that no part will be inoperative or superfluous, void or insignificant.\" (citation omitted) "
+        },
+        {
+          "parenthetical": "\"A statute should be construed so that effect is given to all its provisions, so that no part will be inoperative or superfluous, void or insignificant.\" (citation omitted) "
+        },
+        {
+          "parenthetical": "\"A statute should be construed so that effect is given to all its provisions, so that no part will be inoperative or superfluous, void or insignificant.\" (citation omitted) "
+        },
+        {
+          "page": "101"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/542/0088-01"
+      ]
+    },
+    {
+      "cite": "112 S.Ct. 1146",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        6513849,
+        6225793
+      ],
+      "year": 1992,
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/136/1146-01",
+        "/us/503/0249-01"
+      ]
+    },
+    {
+      "cite": "503 U.S. 249",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6225793
+      ],
+      "weight": 2,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "253"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/503/0249-01"
+      ]
+    },
+    {
+      "cite": "134 S.Ct. 557",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12701994,
+        12584652
+      ],
+      "weight": 2,
+      "year": 2013,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/571/0031-01",
+        "/s-ct/134/0557-01"
+      ]
+    },
+    {
+      "cite": "571 U.S. 31",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12701994
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "45"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/571/0031-01"
+      ]
+    },
+    {
+      "cite": "664 F.3d 123",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3861161
+      ],
+      "weight": 6,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "124-25",
+          "parenthetical": "citing 15 U.S.C. \u00a7 78bb(f)(2) "
+        },
+        {
+          "page": "124",
+          "parenthetical": "SLUSA \"prohibits securities class actions if the class has more than 50 members\""
+        },
+        {
+          "page": "125",
+          "parenthetical": "court addressed whether the plaintiff's complaint alleged a misrepresentation or omission of a material fact in connection with the purchase or sale of a covered security"
+        },
+        {
+          "page": "124",
+          "parenthetical": "citing 15 U.S.C. \u00a7 78bb(f)(5)(E) "
+        },
+        {
+          "page": "125"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/664/0123-01"
+      ]
+    },
+    {
+      "cite": "138 S.Ct. 1061",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12610392
+      ],
+      "weight": 8,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1066"
+        },
+        {
+          "page": "1067"
+        },
+        {
+          "page": "1072",
+          "parenthetical": "addressing petitioner's interpretive arguments based on SLUSA's legislative history"
+        },
+        {
+          "page": "1067"
+        },
+        {
+          "page": "1072"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/1061-01"
+      ]
+    },
+    {
+      "cite": "547 U.S. 71",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3275615
+      ],
+      "weight": 13,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "86"
+        },
+        {
+          "page": "81"
+        },
+        {
+          "page": "81"
+        },
+        {
+          "page": "81-82"
+        },
+        {
+          "page": "82"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/547/0071-01"
+      ]
+    },
+    {
+      "cite": "795 F.2d 1303",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1596266
+      ],
+      "weight": 2,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "1309"
+        },
+        {
+          "page": "1309"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/795/1303-01"
+      ]
+    },
+    {
+      "cite": "99 L.Ed. 615",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "year": 1955,
+      "opinion_index": 0
+    },
+    {
+      "cite": "348 U.S. 528",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6931991
+      ],
+      "weight": 2,
+      "year": 1955,
+      "pin_cites": [
+        {
+          "page": "538-39"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/348/0528-01"
+      ]
+    },
+    {
+      "cite": "533 U.S. 167",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9312991
+      ],
+      "weight": 3,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "174",
+          "parenthetical": "quoting United States v. Menasche , 348 U.S. 528, 538-39, 75 S.Ct. 513, 99 L.Ed. 615 (1955) "
+        },
+        {
+          "parenthetical": "quoting United States v. Menasche , 348 U.S. 528, 538-39, 75 S.Ct. 513, 99 L.Ed. 615 (1955) "
+        },
+        {
+          "parenthetical": "quoting United States v. Menasche , 348 U.S. 528, 538-39, 75 S.Ct. 513, 99 L.Ed. 615 (1955) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/533/0167-01"
+      ]
+    },
+    {
+      "cite": "703 F.3d 1069",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5870254
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "1077"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/703/1069-01"
+      ]
+    },
+    {
+      "cite": "717 F.3d 545",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3576139
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "550",
+          "parenthetical": "quoting Scherr v. Marriott Int'l, Inc. , 703 F.3d 1069, 1077 (7th Cir. 2013) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/717/0545-01"
+      ]
+    },
+    {
+      "cite": "546 U.S. 243",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5947683
+      ],
+      "weight": 3,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "273"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/546/0243-01"
+      ]
+    },
+    {
+      "cite": "502 U.S. 215",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6222957
+      ],
+      "weight": 3,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "221"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/502/0215-01"
+      ]
+    },
+    {
+      "cite": "889 F.3d 378",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516817
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "386",
+          "parenthetical": "first quoting King v. St. Vincent's Hosp. , 502 U.S. 215, 221, 112 S.Ct. 570, 116 L.Ed.2d 578 (1991), then quoting Gonzales v. Oregon , 546 U.S. 243, 273, 126 S.Ct. 904, 163 L.Ed.2d 748 (2006) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/889/0378-01"
+      ]
+    },
+    {
+      "cite": "505 U.S. 469",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1480888
+      ],
+      "weight": 4,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "476"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/505/0469-01"
+      ]
+    },
+    {
+      "cite": "137 S.Ct. 1002",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12602588
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1010",
+          "parenthetical": "quoting Estate of Cowart v. Nicklos Drilling Co. , 505 U.S. 469, 476, 112 S.Ct. 2589, 120 L.Ed.2d 379 (1992) "
+        },
+        {
+          "parenthetical": "quoting Estate of Cowart v. Nicklos Drilling Co. , 505 U.S. 469, 476, 112 S.Ct. 2589, 120 L.Ed.2d 379 (1992) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/137/1002-01"
+      ]
+    },
+    {
+      "cite": "564 F.3d 820",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4238985
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "822"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/564/0820-01"
+      ]
+    },
+    {
+      "cite": "15 U.S.C. \u00a7\u00a7 77",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1275,
+    "char_count": 34226,
+    "pagerank": {
+      "raw": 5.298132930532853e-08,
+      "percentile": 0.3348123770922552
+    },
+    "sha256": "c76afd6dd0363b3638e3ccc0e7afac23960517935e625b1ad8fe2e0244b50d48",
+    "simhash": "1:248ce703cc17313b",
+    "word_count": 5399
+  },
+  "last_updated": "2024-02-27T18:46:21.348714+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Flaum, Kanne, and Hamilton, Circuit Judges."
+    ],
+    "parties": [
+      "Susan NIELEN-THOMAS, Plaintiff-Appellant,\nv.\nCONCORDE INVESTMENT SERVICES, LLC, et al., Defendants-Appellees."
+    ],
+    "opinions": [
+      {
+        "text": "Flaum, Circuit Judge.\nSusan Nielen-Thomas, on behalf of herself and others similarly situated, filed a complaint in Wisconsin state court alleging she and other class members were defrauded by their investment advisor. Defendants removed the case to federal court. They then argued the action should be dismissed because it was a \"covered class action\" precluded by the Securities Litigation Uniform Standards Act of 1998 (\"SLUSA\"). See 15 U.S.C. \u00a7 78bb(f)(1), (f)(5)(B), amending Securities Exchange Act of 1934. According to Nielen-Thomas, her lawsuit did not meet SLUSA's \"covered class action\" definition because she alleged a proposed class with fewer than fifty members. See \u00a7 78bb(f)(5)(B)(i)(I). The district court agreed with defendants that Nielen-Thomas's suit was a \"covered class action\" because she brought her claims in a representative capacity, see \u00a7 78bb(f)(5)(B)(i)(II), and it dismissed her claims with prejudice.\nWe hold that the plain language of SLUSA's \"covered class action\" definition includes any class action brought by a named plaintiff on a representative basis, regardless of the proposed class size. Because this includes Nielen-Thomas's class action lawsuit and her complaint meets all other statutory requirements, her lawsuit is precluded by SLUSA. We affirm the judgment of the district court.\nI. Background\nOn February 5, 2018, plaintiff-appellant Nielen-Thomas filed a putative class action in Wisconsin state court against defendants-appellees Concorde Investment Services, LLC, Fortune Financial Services, Inc., TD Ameritrade, Inc., Wisconsin River Bank, Jeffrey L. Butler, and Wisconsin Investment Services LLC. The class includes retail clients of Butler and his investment advisory firm, Wisconsin Investment Services. According to the complaint, Butler exercised control of his clients' accounts and owed them a fiduciary duty to act in their best interests. Butler allegedly failed to properly manage these accounts, though, leading to huge losses.\nNielen-Thomas identifies two ways Butler mismanaged accounts. First, Butler promised to create individualized portfolios for each investor; instead, he subjected his clients to block trades that lacked asset allocation and diversification suitable for retail investors. Second, Butler repeatedly purchased and sold on behalf of his clients an exchange-traded note known as VXX. VXX is an unsecured debt instrument designed to track the movement of futures on an index that measures overall market volatility. This note is inherently volatile and risky, and it is designed to be used as a hedge by sophisticated investors only on a short-term basis. However, Butler repeatedly purchased and sold VXX on behalf of his retail clients and let it sit in their accounts for months, even though such a strategy was practically guaranteed to lose money.\nThe other defendants are entities that Nielen-Thomas claims are also responsible for Butler's conduct. Butler was a registered broker with Concorde from March 2012 to May 2015 and with Fortune from July 2015 to December 2016. Concorde and Fortune were required to supervise Butler's investment advisory activities when he was trading in the accounts of their customers but allegedly failed to do so. Additionally, Butler had an agreement with TD Ameritrade through which Butler could use its online trading platform to execute all trades in his clients' accounts. TD Ameritrade also allegedly failed to properly supervise Butler's activity. Finally, Wisconsin River Bank referred clients to Butler, who in turn compensated the bank for these referrals. Nielen-Thomas alleges the bank owed its clients a duty of care in recommending investment advisors to them, and it breached that duty by recommending Butler.\nIn her class-action complaint, Nielen-Thomas brought nine state-law claims on behalf of the putative class, alleging breaches of Wisconsin and Nebraska securities laws, breach of Wisconsin's \"fraudulent representations\" statute, and common law violations under both Wisconsin and Nebraska law for breach of contract, fraud, negligence, failure to supervise, and breach of fiduciary duty. According to the complaint, \"[w]hile the exact number of putative Class members cannot be determined yet, upon information and belief, the putative Class consists of at least 35, but no more than 49 members.\"\nOn March 30, 2018, defendants removed the case to the Western District of Wisconsin pursuant to SLUSA, 15 U.S.C. \u00a7 78bb(f)(2). After removal, defendants Fortune, TD Ameritrade, and Concorde moved to dismiss Nielen-Thomas's nine state-law claims as barred by the Private Securities Litigation Reform Act of 1995 (\"PSLRA\"), 15 U.S.C. \u00a7\u00a7 77, 78, and SLUSA. Specifically, defendants argued this suit qualified as a \"covered class action\" that was both removable and precluded by SLUSA. Nielen-Thomas opposed these motions and sought to remand the case because, she argued, her case did not fall within SLUSA's ambit; she claimed that because her proposed class contained fewer than fifty members, it could not be a \"covered class action\" as defined by the statute.\nOn July 26, 2018, the district court denied Nielen-Thomas's motion to remand and granted defendants' motion to dismiss. The court noted that SLUSA's language was \"confusing,\" but concluded its \"legislative history clears things up\"-the lawsuit was not a covered class action under 15 U.S.C. \u00a7 78bb(f)(5)(B)(i)(I) because her proposed class had fewer than fifty members, but her lawsuit met SLUSA's definition of a \"covered class action\" in 15 U.S.C. \u00a7 78bb(f)(5)(B)(i)(II) because she brought her action on behalf of unnamed parties in a representative capacity. SLUSA thus precluded her state-law claims, and the district court dismissed them with prejudice. Nielen-Thomas appeals.\nII. Discussion\nAt issue is the district court's denial of Nielen-Thomas's motion to remand and its grant of defendants' motions to dismiss based on its interpretation of SLUSA's \"covered class action\" definition. We review the district court's interpretation of a statute de novo.\nUnited States v. Rosenbohm , 564 F.3d 820, 822 (7th Cir. 2009).\nWhen confronting an issue of statutory interpretation, we must always begin with the text and \"give effect to the clear meaning of statutes as written.\" Star Athletica, L.L.C. v. Varsity Brands, Inc. , --- U.S. ----, 137 S.Ct. 1002, 1010, 197 L.Ed.2d 354 (2017) (quoting Estate of Cowart v. Nicklos Drilling Co. , 505 U.S. 469, 476, 112 S.Ct. 2589, 120 L.Ed.2d 379 (1992) ). If the text is clear, we can end our inquiry here as well. Id. We also read a statute \"as a whole\" rather than \"as a series of unrelated and isolated provisions.\" Arreola-Castillo v. United States , 889 F.3d 378, 386 (7th Cir. 2018) (first quoting King v. St. Vincent's Hosp. , 502 U.S. 215, 221, 112 S.Ct. 570, 116 L.Ed.2d 578 (1991), then quoting Gonzales v. Oregon , 546 U.S. 243, 273, 126 S.Ct. 904, 163 L.Ed.2d 748 (2006) ). Words are given \"their ordinary and natural meaning\" in the absence of a specific statutory definition. CFTC v. Worth Bullion Grp., Inc. , 717 F.3d 545, 550 (7th Cir. 2013) (quoting Scherr v. Marriott Int'l, Inc. , 703 F.3d 1069, 1077 (7th Cir. 2013) ). We must also, if possible, give effect to \"every clause and word\" of a statute, taking care not to read words into the text or to treat any words as surplusage. Duncan v. Walker , 533 U.S. 167, 174, 121 S.Ct. 2120, 150 L.Ed.2d 251 (2001) (quoting United States v. Menasche , 348 U.S. 528, 538-39, 75 S.Ct. 513, 99 L.Ed. 615 (1955) ); Water Quality Ass'n Emps.' Benefit Corp. v. United States , 795 F.2d 1303, 1309 (7th Cir. 1986).\nRegarding SLUSA's language specifically, \"Congress envisioned a broad construction\" of the statute, which \"follows not only from ordinary principles of statutory construction but also from the particular concerns that culminated in SLUSA's enactment.\" Merrill Lynch, Pierce, Fenner & Smith Inc. v. Dabit , 547 U.S. 71, 86, 126 S.Ct. 1503, 164 L.Ed.2d 179 (2006). SLUSA amends the Securities Act of 1933 and the Securities Exchange Act of 1934, both of which regulate federal securities \"to promote honest practices in the securities market.\" Cyan, Inc. v. Beaver Cty. Emps. Ret. Fund , --- U.S. ----, 138 S.Ct. 1061, 1066, 200 L.Ed.2d 332 (2018). Congress had previously amended these two laws when it passed the PSLRA in 1995, \"principally to stem 'perceived abuses of the class-action vehicle in litigation involving nationally traded securities.' \" Id. (quoting Dabit , 547 U.S. at 81, 126 S.Ct. 1503 ). Specifically, \"nuisance filings, targeting of deep-pocket defendants, vexatious discovery requests, and manipulation by class action lawyers of the clients whom they purportedly represent had become rampant,\" such that abusive class-action litigation was injuring \"the entire U.S. economy.\" Dabit , 547 U.S. at 81, 126 S.Ct. 1503 (citation and internal quotation marks omitted). Congress sought to curb these abuses through the PSLRA by imposing burdens on plaintiffs who sought to bring federal securities fraud class actions, including by limiting recoverable damages and attorney's fees and by mandating sanctions for frivolous litigation. Id. at 81-82, 126 S.Ct. 1503.\nThe PSLRA made it harder to bring a federal securities class action; an unintended consequence of its enactment, though, was that plaintiffs tried to escape the law's constraints by \"bringing class actions under state law, often in state court,\" rather than under federal law in federal court. Id. at 82, 126 S.Ct. 1503. To \"prevent plaintiffs from circumventing the [PSLRA]\" in this manner, Cyan , 138 S.Ct. at 1067, Congress enacted the SLUSA amendments in 1998.\nSLUSA precludes specified securities class actions from proceeding under state law. Specifically, \"[n]o covered class action based upon the statutory or common law of any State or subdivision thereof may be maintained in any State or Federal court by any private party\" if that party alleges either \"a misrepresentation or omission of a material fact in connection with the purchase or sale of a covered security\" or \"that the defendant used or employed any manipulative or deceptive device or contrivance in connection with the purchase or sale of a covered security.\" 15 U.S.C. \u00a7 78bb(f)(1). Moreover, \"[i]f such a suit is brought in a state court the defendant can remove it to federal court and move to dismiss it ... [and] the district judge must grant the motion.\" Brown v. Calamos , 664 F.3d 123, 124-25 (7th Cir. 2011) (citing 15 U.S.C. \u00a7 78bb(f)(2) ).\nNielen-Thomas does not dispute that her class action claims are based on state law, involve a covered security, and allege misrepresentations \"in connection with the purchase or sale of\" that covered security. Instead, she maintains her lawsuit is not precluded by SLUSA because it is not a \"covered class action\" as that term is defined.\nUnder SLUSA, a \"single lawsuit\" qualifies as a \"covered class action\" when (subject to certain exceptions not applicable here):\n(I) damages are sought on behalf of more than 50 persons or prospective class members, and questions of law or fact common to those persons or members of the prospective class, without reference to issues of individualized reliance on an alleged misstatement or omission, predominate over any questions affecting only individual persons or members; or\n(II) one or more named parties seek to recover damages on a representative basis on behalf of themselves and other unnamed parties similarly situated, and questions of law or fact common to those persons or members of the prospective class predominate over any questions affecting only individual persons or members ....\n15 U.S.C. \u00a7 78bb(f)(5)(B)(i). Subparagraph (I) and Subparagraph (II) in this definition are separated by \"or.\" An \"or\" in a statute is usually disjunctive, see United States v. Woods , 571 U.S. 31, 45, 134 S.Ct. 557, 187 L.Ed.2d 472 (2013), meaning a lawsuit can satisfy SLUSA's \"covered class action\" requirement via either subparagraph.\nSubparagraph (I) provides three criteria for a single lawsuit to qualify as a covered class action: (1) damages are sought, (2) on behalf of more than fifty \"persons or prospective class members,\" and (3) common questions of law or fact predominate \"without reference to issues of individualized reliance on an alleged misstatement or omission.\" Because this subparagraph includes the \"prospective class members\" language, some class actions (as that term is traditionally understood) must fall within its scope. See, e.g. , Class Action , Black's Law Dictionary (10th ed. 2014) (\"A lawsuit in which the court authorizes a single person or a small group of people to represent the interests of a larger group.\"); Fed. R. Civ. P. 23(a) (defining class actions as ones where \"[o]ne or more members of a class may sue or be sued as representative parties on behalf of all members\"). Specifically, class actions with more than fifty prospective class members meet this definition.\nSubparagraph (II) also includes three criteria for a single lawsuit to qualify: (1) damages are sought, (2) by \"one or more named parties\" who seek to recover such damages \"on a representative basis on behalf of themselves and other unnamed parties similarly situated,\" and (3) common questions of law or fact predominate. This subparagraph must also reach class actions because its definition includes suits brought by named parties \"on a representative basis.\"\nAlthough there is overlap between the two, each subparagraph has a separate meaning. Subparagraph (I) includes in its scope all actions brought by groups of more than fifty \"prospective class members,\" so class actions of the requisite size can be covered under this definition. But this subparagraph also includes single lawsuits brought by groups of more than fifty \"persons\" without any \"prospective\" or \"representative\" caveat on their plaintiff status. In other words, a lawsuit may be treated as a class action even if all plaintiffs are identified in the complaint and no plaintiff is pursuing claims as a representative on behalf of others, if there are more than fifty such plaintiffs and SLUSA's other requirements are met.\nSubparagraph (II)'s language includes all actions in which one named plaintiff seeks to recover damages \"on a representative basis on behalf of themselves and other unnamed parties similarly situated.\" By its plain and unambiguous terms, it includes any action brought as a putative class action in the traditional Rule 23 meaning of the term. And because this subparagraph contains no fifty-person threshold as (I) does, Subparagraph (II) includes all putative class actions that otherwise meet the relevant requirements in its scope, regardless of this proposed class's size.\nThis reading of the \"covered class action\" definition for single lawsuits still includes some overlap in the scope of each subparagraph; a putative class action in which the proposed class exceeds fifty members could be \"covered\" under both Subparagraph (I) and Subparagraph (II). But this redundancy is not unusual or problematic. See Conn. Nat'l Bank v. Germain , 503 U.S. 249, 253, 112 S.Ct. 1146, 117 L.Ed.2d 391 (1992). More importantly, this reading gives separate effect to both subparagraphs so that each covers something the other does not. See Hibbs v. Winn , 542 U.S. 88, 101, 124 S.Ct. 2276, 159 L.Ed.2d 172 (2004) (\"A statute should be construed so that effect is given to all its provisions, so that no part will be inoperative or superfluous, void or insignificant.\" (citation omitted) ). Subparagraph (I) includes lawsuits that, while not \"class actions\" in that no plaintiff seeks damages as a representative, identify more than fifty plaintiffs. And Subparagraph (II) includes all putative class actions with fifty or fewer proposed class members.\nWhile the plain language of each subparagraph of \u00a7 78bb(f)(5)(B)(i) is clear, such that we do not need to resort to considering SLUSA's legislative history to aid in our inquiry, this history is consistent with our interpretation. See Gustafson v. Alloyd Co. Inc. , 513 U.S. 561, 580, 115 S.Ct. 1061, 131 L.Ed.2d 1 (1995) ; see also Cyan , 138 S.Ct. at 1072 (addressing petitioner's interpretive arguments based on SLUSA's legislative history). The House Report accompanying SLUSA explains that the \"covered class action\" definition includes: \"actions brought on behalf of more than 50 persons, actions brought on behalf of one or more unnamed parties, and so-called 'mass actions,' in which a group of lawsuits filed in the same court are joined or otherwise proceed as a single action.\" H.R. Rep. 105-640, at 9 (1998). This explanation separates the types of \"covered class actions\" that SLUSA precludes in a way that mirrors how they appear in the statute. Actions brought on behalf of more than fifty persons are covered by Subparagraph (I), actions brought on behalf of unnamed parties are covered by Subparagraph (II), and actions brought as groups of lawsuits in the same court are covered by the \"group lawsuit\" definition in \u00a7 78bb(f)(5)(B)(ii). See also H.R. Conf. Rep. 105-803, at 13 (1998) (using identical language to explain the \"covered class action\" definition).\nThe Senate Report also explains the \"covered class action\" definition in SLUSA. Regarding Subparagraph (I), it states that this portion of the definition \"provides that any single lawsuit is treated as a class action if it seeks damages on behalf of more than fifty persons and questions of law or fact common to the prospective class predominate, without regard to questions of individualized reliance.\" S. Rep. 105-182, at 7 (1998) (emphasis added). It also references Subparagraph (II), noting that it \"provides a definition that closely tracks the relevant provisions of Rule 23 of the Federal Rules of Civil Procedure in which a suit is brought by representative plaintiffs on behalf of themselves and other unnamed parties.\" Id. Together, these explanations of the \"covered class action\" definition in SLUSA envision the same distinction between Subparagraphs (I) and (II) that is reflected in the statute's text.\nApplying this interpretation here demonstrates that Nielen-Thomas cannot proceed with her state-law claims. She calls her filing a \"Class Action Complaint\" and brings her claims \"individually and on behalf of all others similarly situated.\" She specifically pleads that \"common questions of law and fact exist as to all members of the putative Class and Sub-Classes,\" she seeks damages from defendants, and she proposes a class of between thirty-five and forty-nine members. Because her proposed class contains fewer than fifty persons, her lawsuit is not a covered class action under Subparagraph (I). However, because she seeks to recover damages on a representative basis, her lawsuit is a covered class action under Subparagraph (II). SLUSA therefore precludes her state-law claims, and the district court was correct to both remove the case from state court and dismiss the state-law claims.\nAn obvious implication of our \u00a7 78bb(f)(5)(B)(i)(I)-(II) interpretation is that no putative securities class actions that are based on state law and otherwise meet SLUSA's requirements (they involve a covered security, allege a misrepresentation in connection with that security, etc .) can proceed in either federal or state court under SLUSA. Nielen-Thomas argues this sweeps too broadly; she says the legislative history for SLUSA indicates Congress only intended to preclude \"certain\" state actions, but not all of them. See H.R. Conf. Rep. 105-803, at 2 (\"[T]o prevent certain State private securities class action lawsuits alleging fraud from being used to frustrate the objectives of the [PSLRA], it is appropriate to enact national standards for securities class action lawsuits involving nationally traded securities.\" (emphasis added) ). But it makes sense that Congress would preclude all actions brought using the class-action device, not just classes alleged to include more than fifty people, when we again consider SLUSA's enactment history and legislative purpose.\nCongress passed these amendments to combat a specific problem-litigants were attempting to circumvent the PSLRA's barriers to federal securities class actions by filing their class actions under state law instead. Cyan , 138 S.Ct. at 1067. To that end, SLUSA sought \"to limit the conduct of securities class actions under State law.\" SLUSA, 112 Stat 3227. The Supreme Court has consistently underscored this purpose of the amendments. See, e.g. , Cyan , 138 S.Ct. at 1072 (SLUSA \"preclude[s] certain vexing state-law class actions\" (quoting Kircher v. Putnam Funds Tr. , 547 U.S. 633, 645 n.12, 126 S.Ct. 2145, 165 L.Ed.2d 92 (2006) ) ). This purpose could be easily frustrated if plaintiffs bringing a state-law securities class action could simply allege that they represented a class of no more than fifty people. If SLUSA did not bar all putative class actions, such suits could proceed through the courts until discovery identified the entire class of plaintiffs. At that point, the actual class could include more than fifty persons, and by that time the abuses that the PSLRA sought to prevent would have already taken place. Cf. Holtz v. JPMorgan Chase Bank, N.A. , 846 F.3d 928, 930 (7th Cir. 2017) (SLUSA was designed to prevent \"artful pleading\" to \"evade limits on securities litigation that are designed to block frivolous or abusive suits.\"). The plain language of \u00a7 78bb(f)(5)(B)(i) gives effect to SLUSA's purpose and prevents that from happening by including all putative class actions, subject to \u00a7 78bb(f)(3) 's exceptions, in its covered class action definition.\nNielen-Thomas also proposes two alternative interpretations of SLUSA's \"covered class action\" definition. Under either one, her case would not be included in SLUSA's preclusive scope because her proposed class is alleged to contain fewer than fifty members. However, both of these proposed interpretations run contrary to the statutory text.\nFirst, Nielen-Thomas says Subparagraphs (I) and (II) are \"separate, independent bases for excluding securities class actions from SLUSA's proscriptions.\" By this reading, if a proposed putative class contains fewer than fifty people, it is exempted under Subparagraph (I) without the need to go further and consider whether Subparagraph (II) might also apply. This interpretation completely reads Subparagraph (II) out of the statute, though, and we do not read statutes in ways that make entire provisions superfluous. See Hibbs , 542 U.S. at 101, 124 S.Ct. 2276. As previously discussed, the definition of \"covered class action\" for single lawsuits includes two subparagraphs separated by a disjunctive \"or.\" A single lawsuit can therefore be a covered class action under either section, and our analysis cannot stop after determining that a lawsuit does not meet the criteria set out in Subparagraph (I).\nAlternatively, Nielen-Thomas claims the fifty-person threshold identified in Subparagraph (I) must also apply to Subparagraph (II) to avoid making the former superfluous. This interpretation is similarly untenable; it attempts to read words from one part of the statute into another part where they do not appear, contravening the plain text. See Water Quality Ass'n , 795 F.2d at 1309. By including the fifty-person threshold in Subparagraph (I) but omitting it from (II), Congress must have intended that it would only apply to (I). See Dig. Realty Tr., Inc. v. Somers , --- U.S. ----, 138 S.Ct. 767, 777, 200 L.Ed.2d 15 (2018) (\"[W]hen Congress includes particular language in one section of a statute but omits it in another[,]\" we presume \"that Congress intended a difference in meaning.\" (alterations in original) (quoting Loughrin v. United States , 573 U.S. 351, 358, 134 S.Ct. 2384, 189 L.Ed.2d 411 (2014) ) ). Indeed, Congress also included the fifty-person threshold in the group lawsuit \"covered class action\" definition in \u00a7 78bb(f)(5)(B)(ii), directly below \u00a7 78bb(f)(5)(B)(i), while excluding it from Subparagraph (II). We cannot rewrite the statute that Congress has written to impute the fifty-person threshold where it does not appear.\nNielen-Thomas argues these interpretations find support in statements by both the Supreme Court and Seventh Circuit indicating that class actions brought on behalf of fewer than fifty persons are not covered by SLUSA. See, e.g. , Cyan , 138 S.Ct. at 1067 (\"According to SLUSA's definitions, the term 'covered class action' means a class action in which 'damages are sought on behalf of more than 50 persons.' \" (quoting 15 U.S.C. \u00a7 77p(f)(2) ) ); Chadbourne & Parke LLP v. Troice , 571 U.S. 377, 380, 134 S.Ct. 1058, 188 L.Ed.2d 88 (2014) (SLUSA \"forbids the bringing of large securities class actions based upon violations of state law\" and \"does not apply to class actions with fewer than 51 'persons or prospective class members' \" (quoting 15 U.S.C. \u00a7 78bb(f)(5)(B) ) ); Dabit , 547 U.S. at 83, 126 S.Ct. 1503 (\"A 'covered class action' is a lawsuit in which damages are sought on behalf of more than 50 people.\"); Holtz , 846 F.3d at 934 (stating, near conclusion of opinion, that SLUSA \"is limited to 'covered class actions,' which means that [plaintiff] could litigate for herself and as many as 49 other customers\"); Brown , 664 F.3d at 124 (SLUSA \"prohibits securities class actions if the class has more than 50 members\").\nThese statements appear, in isolation, to support Nielen-Thomas; they reference only the fifty-person threshold from Subparagraph (I) and suggest that only \"sizable\" class actions pursued on a representative basis are within SLUSA's scope. But in context, it is clear neither the Supreme Court nor this Circuit is making any interpretive statement regarding the scope of the \"covered class action\" definition because that was not the issue these cases addressed. See Cyan , 138 S.Ct. at 1066 (issue was whether SLUSA stripped state courts of jurisdiction over class actions involving 1933 Act violations, and investors did not dispute their class action would be \"covered\"); Chadbourne & Parke , 571 U.S. at 381, 134 S.Ct. 1058 (Court considered whether SLUSA encompassed a class action in which plaintiffs alleged they purchased uncovered securities that were falsely presented to them as \"covered\" securities); Dabit , 547 U.S. at 83-84, 126 S.Ct. 1503 (plaintiff did not dispute the class was covered under SLUSA, and the issue before the Court involved the \"in connection with\" requirement); Holtz , 846 F.3d at 930 (issue was whether plaintiff's contract and fiduciary claims necessarily involved an \"omission of a material fact\" to implicate SLUSA); Brown , 664 F.3d at 125 (court addressed whether the plaintiff's complaint alleged a misrepresentation or omission of a material fact in connection with the purchase or sale of a covered security).\nThe Supreme Court and the Seventh Circuit in these cases did not have the opportunity or need to opine on the contexts in which Subparagraphs (I) or (II) could apply. Thus, all of these statements defining \"covered class action\" solely in relation to the fifty-person requirement in Subparagraph (I) are merely dicta rather than an interpretation of SLUSA that we are bound to follow. Cf. In re Air Crash Disaster Near Chi., Ill. on May 25, 1979 , 701 F.2d 1189, 1196 (7th Cir. 1983) (casual dicta of a state supreme court, as opposed to considered dicta, \"has little precedential weight\"). Instead, the plain text of SLUSA's \"covered class action\" definition governs, and pursuant to this unambiguous text, Nielen-Thomas's lawsuit is a covered class action.\nIn sum, SLUSA's definition of \"covered class action\" unambiguously precludes Nielen-Thomas's suit. She is a named plaintiff seeking to bring claims on a representative basis and alleges that common questions of law or fact predominate. Thus, \u00a7 78bb(f)(5)(B)(i)(II) applies, the suit is a covered class action, and SLUSA precludes it from proceeding in both state and federal court.\nTo the extent the identities of any of the other putative class members are known, and these individuals wish to pursue claims on their own behalf in state court under state law, nothing in SLUSA prevents them from doing so (provided there are fewer than fifty such plaintiffs for which common questions of law or fact predominate). What SLUSA does preclude these individuals from doing is continuing to pursue their claims in the form of a class action.\nIII. Conclusion\nFor the foregoing reasons, we AFFIRM the judgment of the district court.\nSee also 15 U.S.C. \u00a7 77p(b), (f)(2) (amending Securities Act of 1933 in an identical way). The parties cite solely to the 1934 Act amendments, so we do the same in this opinion unless otherwise noted.\nNielen-Thomas also brought a tenth class claim for breach of the Securities Act of 1933. The district court dismissed it with prejudice for failure to state a claim. Nielen-Thomas does not appeal this aspect of the district court's decision.\nNielen-Thomas voluntarily dismissed Butler as a defendant. Although Butler's firm, Wisconsin Investment Services, is technically still a defendant, it has no assets and is not involved with this appeal.\nA \"covered security\" is \"a security traded nationally and listed on a regulated national exchange.\" Brown v. Calamos , 664 F.3d 123, 124 (7th Cir. 2011) (citing 15 U.S.C. \u00a7 78bb(f)(5)(E) ).\nAlthough some case law refers to SLUSA preemption rather than preclusion, SLUSA \"does not itself displace state law with federal law but makes some state-law claims nonactionable through the class-action device in federal as well as state court.\" Kircher v. Putnam Funds Tr. , 547 U.S. 633, 636 n.1, 126 S.Ct. 2145, 165 L.Ed.2d 92 (2006).\nSLUSA also includes a definition of \"covered class action\" that applies to \"any group of lawsuits filed in or pending in the same court\" in which \"damages are sought on behalf of more than 50 persons\" and \"the lawsuits are joined, consolidated, or otherwise proceed as a single action for any purpose.\" 15 U.S.C. \u00a7 78bb(f)(5)(B)(ii).\nSubparagraph (I) also includes a caveat to its commonality requirement: common questions of law or fact must predominate \"without reference to issues of individualized reliance on an alleged misstatement or omission.\" \u00a7 78bb(f)(5)(B)(i)(I). If over fifty plaintiffs are identified in an action, they could attempt to evade treatment as a class action, and SLUSA preclusion, by pointing to the fact of each plaintiff's reliance, which would necessarily require an individualized inquiry. See, e.g. , Basic Inc. v. Levinson , 485 U.S. 224, 242-43, 108 S.Ct. 978, 99 L.Ed.2d 194 (1988). But Subparagraph (I) prevents that from happening by removing the reliance issue from the commonality analysis. It can therefore reach actions that are not \"class actions\" in the usual sense.\nNo other circuit has directly opined on the difference between Subparagraphs (I) and (II). The Second and Eighth Circuits have, however, referenced SLUSA's definition of a covered class action in a way that supports our interpretation. See In re Kingate Mgmt. Ltd. Litig. , 784 F.3d 128, 138 n.16 (2d Cir. 2015) (\" '[C]overed class action' includes, with certain exceptions, class actions seeking damages on behalf of unidentified plaintiffs, class actions seeking damages on behalf of more than 50 identified persons, and [group lawsuits].\"); Green v. Ameritrade, Inc. , 279 F.3d 590, 596 n.4 (8th Cir. 2002) (\"A covered class action is any suit brought by a class of more than 50 persons, or by one or more named parties acting as class representatives, and where 'questions of law or fact common to those persons or members of the prospective class predominate over any questions affecting only individual persons or members.' \" (quoting 15 U.S.C. \u00a7 78bb(f)(5)(B)(i)(II) ) ).\nWe can assume the truth of Nielen-Thomas's well-pleaded factual allegations at this stage without first considering whether a class could be certified. See Brown , 664 F.3d at 125.\nFurthermore, Congress did create some exceptions to SLUSA's requirements, in \u00a7 78bb(f)(3), so not all class actions are covered. For example, SLUSA's preclusion and removal provisions specifically exclude class actions comprised solely of states and other political subdivisions. See 15 U.S.C. \u00a7 78bb(f)(3)(B). Derivative actions are also excluded. See id. \u00a7 78bb(f)(5)(C). Certain state securities class actions can go forward under SLUSA, just not those brought by a private party on a representative basis.\nThe district court dismissed Nielen-Thomas's state-law class claims with prejudice. In her reply brief, Nielen-Thomas argues for the first time that even if her action is covered under Subparagraph (II), the Court should still remand with directions to dismiss without prejudice instead because she should be given the opportunity to join other named plaintiffs to her own individual claims. Because Nielen-Thomas waited to raise this challenge until her reply brief, she has waived it. See United States v. Price , 906 F.3d 685, 690 (7th Cir. 2018).",
+        "type": "majority",
+        "author": "Flaum, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Ami Annette Regele, Michael H. Schaalman, Attorneys, HALLING & CAYO, S.C., Milwaukee, WI, for Plaintiff-Appellant.",
+      "Marc S. Ehrlich, Attorney, REIF LAW GROUP, P.C., Los Angeles, CA, Sarah A. Zylstra, Attorney, BOARDMAN & CLARK LLP, Madison, WI, for Defendant-Appellee CONCORDE INVESTMENT SERVICES, LLC.",
+      "Peyton Barkley Engel, Andrew W. Erlandson, Attorneys, HURLEY, BURISH & STANTON, S.C., Madison, WI, for Defendant-Appellee FORTUNE FINANCIAL SERVICES, INCORPORATED.",
+      "Donald Albert Daugherty, Jr., Attorney, GODFREY & KAHN S.C., Milwaukee, WI, Dana Gloor, Attorney, MILES & STOCKBRIDGE P.C., Baltimore, MD, for Defendant-Appellee TD AMERITRADE.",
+      "Laura E. Callan, Ted Waskowski, Attorneys, STAFFORD ROSENBAUM LLP, Madison, WI, for Defendant-Appellee WISCONSIN RIVER BANK.",
+      "Nicholas L. Hahn, Attorney, NICHOLAS HAHN, Oshkosh, WI, for Defendant-Appellee WISCONSIN INVESTMENT SERVICES, LLC."
+    ],
+    "corrections": "",
+    "head_matter": "Susan NIELEN-THOMAS, Plaintiff-Appellant,\nv.\nCONCORDE INVESTMENT SERVICES, LLC, et al., Defendants-Appellees.\nNo. 18-2875\nUnited States Court of Appeals, Seventh Circuit.\nArgued January 15, 2019\nDecided January 24, 2019\nAmi Annette Regele, Michael H. Schaalman, Attorneys, HALLING & CAYO, S.C., Milwaukee, WI, for Plaintiff-Appellant.\nMarc S. Ehrlich, Attorney, REIF LAW GROUP, P.C., Los Angeles, CA, Sarah A. Zylstra, Attorney, BOARDMAN & CLARK LLP, Madison, WI, for Defendant-Appellee CONCORDE INVESTMENT SERVICES, LLC.\nPeyton Barkley Engel, Andrew W. Erlandson, Attorneys, HURLEY, BURISH & STANTON, S.C., Madison, WI, for Defendant-Appellee FORTUNE FINANCIAL SERVICES, INCORPORATED.\nDonald Albert Daugherty, Jr., Attorney, GODFREY & KAHN S.C., Milwaukee, WI, Dana Gloor, Attorney, MILES & STOCKBRIDGE P.C., Baltimore, MD, for Defendant-Appellee TD AMERITRADE.\nLaura E. Callan, Ted Waskowski, Attorneys, STAFFORD ROSENBAUM LLP, Madison, WI, for Defendant-Appellee WISCONSIN RIVER BANK.\nNicholas L. Hahn, Attorney, NICHOLAS HAHN, Oshkosh, WI, for Defendant-Appellee WISCONSIN INVESTMENT SERVICES, LLC.\nBefore Flaum, Kanne, and Hamilton, Circuit Judges."
+  },
+  "file_name": "0524-01",
+  "first_page_order": 524,
+  "last_page_order": 535
+}

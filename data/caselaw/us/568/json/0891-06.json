@@ -1,0 +1,59 @@
+{
+  "id": 12415196,
+  "name": "Solis-Diaz v. United States",
+  "name_abbreviation": "Solis-Diaz v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5034",
+  "first_page": "891",
+  "last_page": "891",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 891"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.667,
+    "sha256": "885951b96f3940991d549166830a55f4b68bd542991695e6ab49ca8c90edab28",
+    "simhash": "1:178cd3820b1abc4e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Solis-Diaz v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5034.\nSolis-Diaz v. United States."
+  },
+  "file_name": "0891-06",
+  "first_page_order": 967,
+  "last_page_order": 967
+}

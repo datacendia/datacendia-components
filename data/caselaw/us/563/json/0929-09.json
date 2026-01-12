@@ -1,0 +1,61 @@
+{
+  "id": 5944506,
+  "name": "Ortiz v. United States",
+  "name_abbreviation": "Ortiz v. United States",
+  "decision_date": "2011-04-04",
+  "docket_number": "No. 10-7719",
+  "first_page": "929",
+  "last_page": "929",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 929"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 152,
+    "ocr_confidence": 0.592,
+    "sha256": "ab77a45a6dec599b424775f319d74240f9bfcc94b7cabfb57f896b00bad40c55",
+    "simhash": "1:99b31a824b0cfe48",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Ortiz v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.\nJustice Sotomayor took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7719.\nOrtiz v. United States."
+  },
+  "file_name": "0929-09",
+  "first_page_order": 955,
+  "last_page_order": 955
+}

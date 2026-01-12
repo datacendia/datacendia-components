@@ -1,0 +1,59 @@
+{
+  "id": 4331760,
+  "name": "Johnson v. Roberts et al.",
+  "name_abbreviation": "Johnson v. Roberts",
+  "decision_date": "2011-06-13",
+  "docket_number": "No. 10-1227",
+  "first_page": "1004",
+  "last_page": "1004",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1004"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 74,
+    "ocr_confidence": 0.601,
+    "sha256": "aa5564710bfdd2265fc92548dee09739b55dc16f3ff145bd71d162d310702f0c",
+    "simhash": "1:939460e8b92f9230",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Johnson v. Roberts et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1227.\nJohnson v. Roberts et al."
+  },
+  "file_name": "1004-07",
+  "first_page_order": 998,
+  "last_page_order": 998
+}

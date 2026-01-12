@@ -1,0 +1,59 @@
+{
+  "id": 6014132,
+  "name": "Johnson v. Bailey et al.",
+  "name_abbreviation": "Johnson v. Bailey",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10552",
+  "first_page": "846",
+  "last_page": "846",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 846"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 73,
+    "ocr_confidence": 0.592,
+    "sha256": "15ff74c38a998e482ff998f03e27212e49be687785ad9d1a7f18e6548a6fa8f6",
+    "simhash": "1:b2c04469411690a5",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Johnson v. Bailey et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10552.\nJohnson v. Bailey et al."
+  },
+  "file_name": "0846-07",
+  "first_page_order": 868,
+  "last_page_order": 868
+}

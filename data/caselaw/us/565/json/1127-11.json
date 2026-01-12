@@ -1,0 +1,59 @@
+{
+  "id": 12240738,
+  "name": "Todd v. Hill, Acting Warden",
+  "name_abbreviation": "Todd v. Hill",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-7280",
+  "first_page": "1127",
+  "last_page": "1127",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1127"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 76,
+    "ocr_confidence": 0.633,
+    "sha256": "4902febcbc43d767e3a52f7d5a1f7a3c319eef1697521068d8e3119a85aa02a3",
+    "simhash": "1:d08303a94da51583",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Todd v. Hill, Acting Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7280.\nTodd v. Hill, Acting Warden."
+  },
+  "file_name": "1127-11",
+  "first_page_order": 1209,
+  "last_page_order": 1209
+}

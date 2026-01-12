@@ -1,0 +1,59 @@
+{
+  "id": 12237487,
+  "name": "Wallace v. United States",
+  "name_abbreviation": "Wallace v. United States",
+  "decision_date": "2011-12-05",
+  "docket_number": "No. 11-7169",
+  "first_page": "1086",
+  "last_page": "1086",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1086"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.706,
+    "sha256": "23ebc9153f35cc1b9aba07ddb8cc67c3d1b2e3cabc9d4c2329a85dc462390bb4",
+    "simhash": "1:812bc68bcf3d104c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wallace v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7169.\nWallace v. United States."
+  },
+  "file_name": "1086-07",
+  "first_page_order": 1168,
+  "last_page_order": 1168
+}

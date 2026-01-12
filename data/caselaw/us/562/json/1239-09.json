@@ -1,0 +1,59 @@
+{
+  "id": 5943276,
+  "name": "Mondragon v. United States",
+  "name_abbreviation": "Mondragon v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8220",
+  "first_page": "1239",
+  "last_page": "1239",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1239"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.605,
+    "sha256": "719af9057ec5bd2902e7f3c9c341aa44a0c42576369436ce841798c33ef11fc0",
+    "simhash": "1:9798d7ab8ba7923a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mondragon v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8220.\nMondragon v. United States."
+  },
+  "file_name": "1239-09",
+  "first_page_order": 1261,
+  "last_page_order": 1261
+}

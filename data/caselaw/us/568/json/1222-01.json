@@ -1,0 +1,61 @@
+{
+  "id": 12432896,
+  "name": "Mackey v. Graber, Warden, In re Cochran",
+  "name_abbreviation": "Mackey v. Graber",
+  "decision_date": "2013-03-04",
+  "docket_number": "No. 12-7586; No. 12-7621",
+  "first_page": "1222",
+  "last_page": "1222",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1222"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 29,
+    "char_count": 213,
+    "ocr_confidence": 0.583,
+    "sha256": "57332451930b9cbb3dae73c9af76953146d60dc595412a7b1ba36bc432ff76a1",
+    "simhash": "1:0fb5130452cfdbd6",
+    "word_count": 35
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of these petitions."
+    ],
+    "parties": [
+      "Mackey v. Graber, Warden, In re Cochran,"
+    ],
+    "opinions": [
+      {
+        "text": "ante, p. 1139; and\nante, p. 1084. Petitions for rehearing denied.\nJustice Kagan took no part in the consideration or decision of these petitions.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7586.\nNo. 12-7621.\nMackey v. Graber, Warden, In re Cochran,"
+  },
+  "file_name": "1222-01",
+  "first_page_order": 1298,
+  "last_page_order": 1298
+}

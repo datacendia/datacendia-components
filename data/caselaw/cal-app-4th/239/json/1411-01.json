@@ -1,0 +1,230 @@
+{
+  "id": 6056170,
+  "name": "PETER DANIEL MICHAELS, Plaintiff and Respondent, v. PEGGY ANN TURK, Defendant and Appellant",
+  "name_abbreviation": "Michaels v. Turk",
+  "decision_date": "2015-08-05",
+  "docket_number": "No. E060854",
+  "first_page": "1411",
+  "last_page": "1417",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "239 Cal. App. 4th 1411"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "813 P.2d 1335",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "284 Cal.Rptr. 305",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.3d 82",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1946372
+      ],
+      "pin_cites": [
+        {
+          "page": "91-93"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/54/0082-01"
+      ]
+    },
+    {
+      "cite": "19 Cal.Rptr.2d 576",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 Cal.App.4th 754",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6036541
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/15/0754-01"
+      ]
+    },
+    {
+      "cite": "197 Cal.Rptr. 755",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "150 Cal.App.3d 407",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2158105
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/150/0407-01"
+      ]
+    },
+    {
+      "cite": "196 Cal.Rptr. 659",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "149 Cal.App.3d 147",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2142686
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/149/0147-01"
+      ]
+    },
+    {
+      "cite": "101 Cal.Rptr. 143",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "22 Cal.App.3d 841",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4435387
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/22/0841-01"
+      ]
+    },
+    {
+      "cite": "515 P.2d 297",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "110 Cal.Rptr. 353",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "10 Cal.3d 351",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2299810
+      ],
+      "pin_cites": [
+        {
+          "page": "359-360"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/10/0351-01"
+      ]
+    },
+    {
+      "cite": "459 P.2d 680",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1973,
+      "opinion_index": 0
+    },
+    {
+      "cite": "81 Cal.Rptr. 264",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1973,
+      "opinion_index": 0
+    },
+    {
+      "cite": "1 Cal.3d 41",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1183297
+      ],
+      "year": 1973,
+      "pin_cites": [
+        {
+          "page": "49"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/1/0041-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 660,
+    "char_count": 11775,
+    "ocr_confidence": 0.865,
+    "pagerank": {
+      "raw": 6.998765029887039e-08,
+      "percentile": 0.42299937177804575
+    },
+    "sha256": "8d187383e3287cb4bb3ec6d169ecdf902e8a414346bc4467d694454706c27cf6",
+    "simhash": "1:1bde8d7364ab45d3",
+    "word_count": 1858
+  },
+  "last_updated": "2024-02-27T23:23:23.090373+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "PETER DANIEL MICHAELS, Plaintiff and Respondent, v. PEGGY ANN TURK, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nRAMIREZ, P. J.\nDefendant and appellant Peggy Ann Turk appeals from a domestic violence restraining order issued against her under the Domestic Violence Prevention Act (Fam. Code, \u00a7 6200 et seq.) by a commissioner of the Riverside County Superior Court. The order prohibits appellant from posting negative and harassing communications online about her ex-boyfriend, plaintiff and respondent Peter Daniel Michaels. Appellant argues that the order is void because as a self-represented party, she did not consent to having a commissioner hear the matter. We agree.\nFACTUAL AND PROCEDURAL BACKGROUND\nPlaintiff and defendant lived with each other from 2001 to 2006 and have one child together, a son born in 2002. For nearly a decade, they have been litigating over child custody, child support, and various restraining orders. Except for the restraining order at issue here, all of the litigation has taken place in Orange County.\nIn 2006, the parties stipulated to joint legal custody over their son. In 2008, the court issued mutual restraining orders prohibiting the parties from contacting each other for five years, and defendant and plaintiff\u2019s wife entered into a no-contact civil harassment stipulation. Around that same time, the court awarded sole legal custody to defendant as a result of a federal restraining order against plaintiff prohibiting him from contacting their son. When the federal restraining order terminated in 2010, plaintiff sought sole custody. After a six-day trial, the family court in Orange County issued an order denying plaintiff\u2019s change-in-custody request. Among the grounds for denial were plaintiff\u2019s three prior felony convictions and his history of committing child abuse and neglect.\nIn December 2013, after the five-year mutual restraining orders had terminated, plaintiff filed a request for a domestic violence restraining order against defendant in the Riverside County Superior Court. Plaintiff argued that defendant was posting harassing comments on the page dedicated to his company on a Web site known as \u201cInvestorsHub\u201d or \u201ciHub.\u201d According to iHub\u2019s terms of service, the Web site is designed to help users make informed investment decisions by providing a public forum \u201cto discuss financial-related information, views, opinions, and the recommendations of individuals and organizations.\u201d\nAt the hearing on the restraining order, plaintiff presented various comments that he alleged defendant had posted on iHub. Examples of these comments include: \u201cPersonally I think [plaintiff] is a dope, a big fat dope\u201d; \u201cHe is a deadbeat dad, he has dozens of judgements [.vie] against him and he practically lives in a courtroom\u201d; \u201c[Plaintiff], as I have discovered through research ... is a CONFICTED [yzc] FELON (2 times), CON and a LIAR and a man that doesn\u2019t support the children he has fathered . . . unless forced to by the courts\u201d; \u201c[Plaintiff\u2019s company] IS A SCAM . . . [Plaintiff] is a lying dirt bag who is also a dead beat [yz'c] dad. What a loser!\u201d\nDefendant, who represented herself at the hearing, argued that several of the posts were not hers. The commissioner found that defendant had been posting comments about plaintiff on iHub and that the comments were harassing to a degree \u201cthat . . . does rise to a level that warrants issuing a restraining order.\u201d The commissioner issued a domestic violence restraining order that, among other stay-away conditions, prohibits defendant from posting \u201cnegative [and] harassing communications about [plaintiff] on the internet\u201d for three years.\nDISCUSSION\nDefendant contends that the restraining order is void because she did not consent to a commissioner presiding over the hearing. She is correct.\nThe California Constitution provides that \u201c[o]n stipulation of the parties litigant the court may order a cause to be tried by a temporary judge . . . .\u201d (Cal. Const., art. VI, \u00a721.) Our state\u2019s Supreme Court has interpreted this constitutional provision to mean that in the absence of a stipulation a commissioner is not qualified to act, and any ruling the commissioner makes \u201cmust be reversed.\u201d (People v. Tijerina (1969) 1 Cal.3d 41, 49 [81 Cal.Rptr. 264, 459 P.2d 680] [reversing order revoking probation entered by commissioner]; accord, Rooney v. Vermont Investment Corp. (1973) 10 Cal.3d 351, 359-360 [110 Cal.Rptr. 353, 515 P.2d 297] [commissioner did not have power to act because no stipulation was \u201cshown by the record\u201d].)\nFollowing Tijerina and Rooney, California appellate courts have reversed and voided actions taken by commissioners where no stipulation appeared on the record. In Lovret v. Seyfarth (1972) 22 Cal.App.3d 841 [101 Cal.Rptr. 143], a contractor petitioned the superior court to confirm an arbitration award against his clients, a husband and wife. (Id. at pp. 846-848.) The petition was heard and ultimately granted by a commissioner. (Id. at pp. 848-850.) The husband and wife appealed the judgment and the order affirming the arbitration award on the ground that they had not consented to a commissioner hearing the matter. (Id. at p. 852.) Although the Court of Appeal recognized that to hold the judgment and order void would mean that \u201cso much of the judicial and legal labors expended, together with the time of the litigants and witnesses, must be discarded as vain and abortive expenditures of time, effort, and money,\u201d the court nevertheless held that the lack of oral or written stipulation on the record rendered the commissioner\u2019s actions void. (Id. at pp. 852-853.)\nIn In re Marriage of Galis (1983) 149 Cal.App.3d 147 [196 Cal.Rptr. 659] (Galis) and In re Frye (1983) 150 Cal.App.3d 407 [197 Cal.Rptr. 755] (Frye), both decided in the same year, the Court of Appeal voided a commissioner\u2019s judgment in a contested marital dissolution proceeding and a commissioner\u2019s order of contempt for failure to make child support payments, respectively. (Galis, at pp. 150, 155; Frye, at p. 409.) In so ruling, the court in Galis explained that while it was mindful that commissioners are an \u201cimportant tool in the economical and expeditious administration of justice\u201d and are so widely used that stipulation is usually a \u201cmere formality,\u201d it would nevertheless be unlawful to \u201cforce an unwilling litigant to try his or her' case before someone other than a judge.\u201d (Galis, at p. 154.)\nA decade later, in In re Steven A. (1993) 15 Cal.App.4th 754 [19 Cal.Rptr.2d 576], the Fourth District Court of Appeal held that a commissioner\u2019s order terminating family reunification services was void. (Id. at p. 772.) In that case, the father had signed a stipulation allowing a temporary judge to hear \u201c \u2018the within [dependency] action . . . until the final determination thereof.\u2019 \u201d (Id. at p. 767.) The stipulation also stated that the commissioner could hear \u201c \u2018any new proceedings,\u2019 \u201d but \u201c \u2018without prejudice\u2019 \u201d to a party who sought to withdraw \u201c \u2018the continuing authority contained [in the stipulation].\u2019 \u201d (Ibid.) After the jurisdictional hearing, but before the dispositional hearing, the father attempted to withdraw the stipulation. (Ibid.) The commissioner refused the request and continued to preside over the matter. (Ibid.) At the permanency planning hearing, the commissioner issued an order terminating family reunification services. (Id. at p. 762.)\nOn appeal, the father challenged the commissioner\u2019s authority to issue the order. (In re Steven A., supra, 15 Cal.App.4th at p. 770.) The court stated that the stipulation was \u201canalogous to a contract between the litigants and the court,\u201d and it interpreted the phrase \u201cthe \u2018within action\u2019 \u201d to mean up to the dispositional hearing. (Id. at pp. 770-771.) It further held that the permanency planning hearing was a \u201c \u2018new proceeding!]\u2019 \u201d under the terms of the stipulation, and thus required new consent. (Id. at pp. 771-772.) Because the father had attempted to withdraw the stipulation, the court held that there was no consent and the order was therefore void. (Id. at p. 772.)\nHere, there is no indication in the record that defendant consented to the commissioner presiding over the hearing on plaintiff\u2019s request for a restraining order. Plaintiff argues that defendant impliedly consented to the commissioner presiding over the restraining order hearing. He asserts that it is common practice for courts to post notices, which state that where parties do not object, they will be deemed to have stipulated to the authority of the commissioner. He also asserts that it is defendant\u2019s burden to establish such signs were not posted on the day of the hearing, and that she failed to carry this burden because she relied \u201conly [on] the written record.\u201d\nPlaintiff\u2019s argument was rejected in Frye, where the court held that a stipulation, even one that is constructive in the sense of parties proceeding with actual notice of a posted sign, must be apparent on the record. (Frye, supra, 150 Cal.App.3d at p. 409.) Because there was \u201cno . . . indication in the record\u201d that the appellant had seen a stipulation sign before or during the hearing over which the commissioner presided, the court held that the commissioner\u2019s order was void. (Ibid.) That is also the case here. Whether or not stipulation signs were posted in or outside of the courtroom the day of the hearing, there is no indication in the record that defendant saw them. While there are circumstances where consent may be implied from the actions of a party or her counsel, those actions must be apparent from the record. (See, e.g., In re Horton (1991) 54 Cal.3d 82, 91-93 [284 Cal.Rptr. 305, 813 P.2d 1335] [discussing cases where the \u201cdoctrine of tantamount stipulation\u201d was applied based on statements or conduct apparent in the record].)\nMoreover, Riverside County\u2019s local rule on stipulations to commissioners hearing matters as temporary judges further precludes plaintiff\u2019s argument for implied consent. That rule states that while a stipulation is implied in default and uncontested matters and \u201cwhen attorneys proceed without objection,\u201d self-represented parties \u201cwill be asked on the record if they so stipulate.\u201d (Super. Ct. Riverside County, Local Rules, rule 5145.A.2.) Defendant was representing herself at the hearing, and there is no indication in the record that she was asked to stipulate to the commissioner hearing the matter.\nPlaintiff urges us to treat the lack of actual or implied consent as harmless error. He argues that \u201c[a]ll courts regularly and consistently waive provisions of both Local Rules and the Rules of Court\u201d and that \u201c[t]here is no statutory procedure or consequence for such waiver.\u201d But the issue here is not one of adherence to local court rules, it is of adherence to the California Constitution. The California Supreme Court was clear in setting forth the consequences for lack of consent, and our appellate courts have been consistent in applying those consequences. We will not stray from that precedent and therefore we hold that the restraining order is void.\nFinally, because we agree with defendant\u2019s first contention, we do not address her remaining arguments on the merits of the restraining order.\nDISPOSITION\nThe restraining order is reversed.\nIn the interests of justice, the parties shall bear their own costs.\nKing, J., and Miller, J., concurred.\nWe take the facts in the following brief background from the documents attached to the parties\u2019 filings in the current matter.\nWe granted defendant\u2019s unopposed motion for judicial notice, which contained iHub\u2019s terms of service.",
+        "type": "majority",
+        "author": "RAMIREZ, P. J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Reed Smith, Keith A. Meyer and llana R. Herscovitz for Defendant and Appellant.",
+      "J. Scott Bennett for Plaintiff and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. E060854.\nFourth Dist., Div. Two.\nAug. 5, 2015.]\nPETER DANIEL MICHAELS, Plaintiff and Respondent, v. PEGGY ANN TURK, Defendant and Appellant.\nCounsel\nReed Smith, Keith A. Meyer and llana R. Herscovitz for Defendant and Appellant.\nJ. Scott Bennett for Plaintiff and Respondent."
+  },
+  "file_name": "1411-01",
+  "first_page_order": 1117,
+  "last_page_order": 1123
+}

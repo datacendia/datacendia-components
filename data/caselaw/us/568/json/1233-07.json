@@ -1,0 +1,59 @@
+{
+  "id": 12433238,
+  "name": "Thomas v. MacLaren, Warden",
+  "name_abbreviation": "Thomas v. MacLaren",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-8001",
+  "first_page": "1233",
+  "last_page": "1233",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1233"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.705,
+    "sha256": "360d866226d77e58d7063a3eb12d0220e09b777a0b13d08168f9937f82f2fcaa",
+    "simhash": "1:d2eb3282fb5f38e4",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Thomas v. MacLaren, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8001.\nThomas v. MacLaren, Warden."
+  },
+  "file_name": "1233-07",
+  "first_page_order": 1309,
+  "last_page_order": 1309
+}

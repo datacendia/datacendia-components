@@ -1,0 +1,59 @@
+{
+  "id": 5961228,
+  "name": "Bailey v. Ramirez, Warden",
+  "name_abbreviation": "Bailey v. Ramirez",
+  "decision_date": "2011-03-28",
+  "docket_number": "No. 10-8520",
+  "first_page": "906",
+  "last_page": "906",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 906"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.584,
+    "sha256": "2af1f267689ac70845a66657c0daf527fad5d7519c4918aafe60ed9afe374bc8",
+    "simhash": "1:15fb473037b9b456",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bailey v. Ramirez, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8520.\nBailey v. Ramirez, Warden."
+  },
+  "file_name": "0906-08",
+  "first_page_order": 932,
+  "last_page_order": 932
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12194610,
+  "name": "United Airlines, Inc. v. Hughes",
+  "name_abbreviation": "United Airlines, Inc. v. Hughes",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-1395",
+  "first_page": "819",
+  "last_page": "819",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 819"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 80,
+    "ocr_confidence": 0.672,
+    "sha256": "9e7dcc73eb72115475d93a9d85d8a01c3f2c2e3cce4a0518e662e2f5d9e1d146",
+    "simhash": "1:86e268255f4f40a0",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "United Airlines, Inc. v. Hughes."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1395.\nUnited Airlines, Inc. v. Hughes."
+  },
+  "file_name": "0819-13",
+  "first_page_order": 901,
+  "last_page_order": 901
+}

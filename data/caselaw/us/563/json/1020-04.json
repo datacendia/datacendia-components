@@ -1,0 +1,116 @@
+{
+  "id": 5951339,
+  "name": "Howes, Warden v. Fields",
+  "name_abbreviation": "Howes v. Fields",
+  "decision_date": "2011-05-31",
+  "docket_number": "No. 10-680",
+  "first_page": "1020",
+  "last_page": "1020",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1020"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "562 U. S. 1199",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12440704,
+        12440705,
+        12440706,
+        5960983,
+        5935898,
+        5999268,
+        6024365,
+        6021422,
+        5987770,
+        5953616,
+        6029521,
+        6014822,
+        12440808,
+        12440809,
+        12440810,
+        12440811,
+        6031347,
+        12440698,
+        12440699,
+        12440700,
+        12440701,
+        12440702,
+        12440703
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/178/0863-05",
+        "/l-ed-2d/178/0863-06",
+        "/l-ed-2d/178/0863-07",
+        "/us/562/1199-07",
+        "/us/562/1199-06",
+        "/us/562/1199-05",
+        "/us/562/1199-02",
+        "/us/562/1199-10",
+        "/us/562/1199-03",
+        "/us/562/1199-01",
+        "/us/562/1199-08",
+        "/us/562/1199-04",
+        "/l-ed-2d/178/0876-07",
+        "/l-ed-2d/178/0876-08",
+        "/l-ed-2d/178/0877-01",
+        "/l-ed-2d/178/0877-02",
+        "/us/562/1199-09",
+        "/l-ed-2d/178/0862-05",
+        "/l-ed-2d/178/0862-06",
+        "/l-ed-2d/178/0863-01",
+        "/l-ed-2d/178/0863-02",
+        "/l-ed-2d/178/0863-03",
+        "/l-ed-2d/178/0863-04"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 26,
+    "char_count": 165,
+    "ocr_confidence": 0.646,
+    "sha256": "9318b17d6cfd6fbdbcc754e324e71ccc8632efb96eb0dd65ea302657c4835a93",
+    "simhash": "1:83193c0002310908",
+    "word_count": 27
+  },
+  "last_updated": "2024-02-27T23:44:09.189648+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Howes, Warden v. Fields."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. [Certiorari granted, 562 U. S. 1199.] Motion of petitioner to dispense with printing the joint appendix granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-680.\nHowes, Warden v. Fields."
+  },
+  "file_name": "1020-04",
+  "first_page_order": 1046,
+  "last_page_order": 1046
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12208407,
+  "name": "Aguirre v. United States",
+  "name_abbreviation": "Aguirre v. United States",
+  "decision_date": "2012-04-16",
+  "docket_number": "No. 11-9320",
+  "first_page": "954",
+  "last_page": "954",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 954"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.566,
+    "sha256": "4230aa09d28bebd62b9f04bcf09aadc0fc66e2b0889be4bf0ba23aa6f485340e",
+    "simhash": "1:96aad3820baf956f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Aguirre v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9320.\nAguirre v. United States."
+  },
+  "file_name": "0954-09",
+  "first_page_order": 830,
+  "last_page_order": 830
+}

@@ -1,0 +1,556 @@
+{
+  "id": 12520157,
+  "name": "UNIVERSITY OF FLORIDA RESEARCH FOUNDATION, INC., Plaintiff-Appellant v. GENERAL ELECTRIC COMPANY, GE Medical Systems Information Technologies, Inc., GE Medical Systems, Inc., Defendants-Appellees",
+  "name_abbreviation": "Univ. of Fla. Research Found., Inc. v. Gen. Elec. Co.",
+  "decision_date": "2019-02-26",
+  "docket_number": "2018-1284",
+  "first_page": "1363",
+  "last_page": "1369",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "916 F.3d 1363"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Fed. Cir.",
+    "id": 8955,
+    "name": "United States Court of Appeals for the Federal Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "827 F.3d 1341",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5924463
+      ],
+      "weight": 4,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1350"
+        },
+        {
+          "page": "1350"
+        },
+        {
+          "page": "1350"
+        },
+        {
+          "page": "1349"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/827/1341-01"
+      ]
+    },
+    {
+      "cite": "823 F.3d 607",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5923224
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "612"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/823/0607-01"
+      ]
+    },
+    {
+      "cite": "867 F.3d 1253",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275598
+      ],
+      "weight": 4,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1259-60"
+        },
+        {
+          "page": "1259"
+        },
+        {
+          "page": "1261"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/867/1253-01"
+      ]
+    },
+    {
+      "cite": "822 F.3d 1327",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4282681
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1336"
+        },
+        {
+          "page": "1336"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/822/1327-01"
+      ]
+    },
+    {
+      "cite": "830 F.3d 1350",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4349286
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1353-54",
+          "parenthetical": "holding abstract claims directed to \"collecting information, analyzing it, and displaying certain results of the collection and analysis\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/830/1350-01"
+      ]
+    },
+    {
+      "cite": "850 F.3d 1332",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12277932
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1340",
+          "parenthetical": "holding abstract claims \"directed to ... collecting, displaying, and manipulating data\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/850/1332-01"
+      ]
+    },
+    {
+      "cite": "890 F.3d 1016",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516896
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1020"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/890/1016-01"
+      ]
+    },
+    {
+      "cite": "693 F.3d 1333",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3518610
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "1335"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/693/1333-01"
+      ]
+    },
+    {
+      "cite": "882 F.3d 1121",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12515907
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1124"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/882/1121-01"
+      ]
+    },
+    {
+      "cite": "627 F.3d 859",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6053189
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "862"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/627/0859-01"
+      ]
+    },
+    {
+      "cite": "654 F.3d 1366",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3824818
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1368"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/654/1366-01"
+      ]
+    },
+    {
+      "cite": "566 U.S. 66",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12188353
+      ],
+      "weight": 3,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "75-76"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/566/0066-01"
+      ]
+    },
+    {
+      "cite": "543 F.3d 657",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3823884
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "661",
+          "parenthetical": "\"It has long been understood that the Patent Act sets out the conditions for patentability in three sections: sections 101, 102, and 103.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/543/0657-01"
+      ]
+    },
+    {
+      "cite": "793 F.3d 1306",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4276845
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1330",
+          "parenthetical": "\"It would require a hyper-technical adherence to form rather than an understanding of substance to arrive at a conclusion that \u00a7 101 is not a ground available to test patents.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/793/1306-01"
+      ]
+    },
+    {
+      "cite": "383 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6166987
+      ],
+      "weight": 3,
+      "year": 1966,
+      "pin_cites": [
+        {
+          "page": "12",
+          "parenthetical": "\"The Act sets out the conditions of patentability in three sections ... novelty and utility as articulated and defined in \u00a7 101 and \u00a7 102, and nonobviousness ... as set out in \u00a7 103.\""
+        },
+        {
+          "parenthetical": "\"The Act sets out the conditions of patentability in three sections ... novelty and utility as articulated and defined in \u00a7 101 and \u00a7 102, and nonobviousness ... as set out in \u00a7 103.\""
+        },
+        {
+          "parenthetical": "\"The Act sets out the conditions of patentability in three sections ... novelty and utility as articulated and defined in \u00a7 101 and \u00a7 102, and nonobviousness ... as set out in \u00a7 103.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/383/0001-01"
+      ]
+    },
+    {
+      "cite": "137 S.Ct. 954",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12609989
+      ],
+      "weight": 4,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "961-63"
+        },
+        {
+          "page": "960"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/137/0954-01"
+      ]
+    },
+    {
+      "cite": "674 F.3d 1315",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3748297
+      ],
+      "year": 2012,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/674/1315-01"
+      ]
+    },
+    {
+      "cite": "35 U.S.C. \u00a7 282",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "473 F.3d 1376",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        2537346
+      ],
+      "weight": 2,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "1381"
+        },
+        {
+          "page": "1381"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/473/1376-01"
+      ]
+    },
+    {
+      "cite": "119 F.3d 1559",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        199766
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "1564-65",
+          "parenthetical": "\"[T]he Eleventh Amendment applies to suits 'against' a state, not suits by a state.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/119/1559-01"
+      ]
+    },
+    {
+      "cite": "108 U.S. 436",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3502463
+      ],
+      "weight": 3,
+      "year": 1883,
+      "pin_cites": [
+        {
+          "page": "447"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/108/0436-01"
+      ]
+    },
+    {
+      "cite": "321 F.3d 1111",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9365865
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "1124",
+          "parenthetical": "citing Clark v. Barnard , 108 U.S. 436, 447, 2 S.Ct. 878, 27 L.Ed. 780 (1883) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/321/1111-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1295",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "134 S.Ct. 2347",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12581589
+      ],
+      "weight": 7,
+      "year": 2014,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/134/2347-01"
+      ]
+    },
+    {
+      "cite": "573 U.S. 208",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "weight": 4,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "217"
+        },
+        {
+          "page": "217"
+        },
+        {
+          "page": "225"
+        },
+        {
+          "page": "225"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 U.S.C. \u00a7 101",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "U.S. Patent No. 7,062,251,",
+      "category": "laws:admin_filing",
+      "reporter": "U.S. Patent",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 910,
+    "char_count": 18763,
+    "pagerank": {
+      "raw": 5.424197332699664e-08,
+      "percentile": 0.3418201215592106
+    },
+    "sha256": "2e04c07afc005b27930878e6c0ce856453356631bf789c563df285392ebe7961",
+    "simhash": "1:58cb7a47530c6acb",
+    "word_count": 2988
+  },
+  "last_updated": "2024-02-27T16:21:04.146489+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Prost, Chief Judge, Moore and Wallach, Circuit Judges."
+    ],
+    "parties": [
+      "UNIVERSITY OF FLORIDA RESEARCH FOUNDATION, INC., Plaintiff-Appellant\nv.\nGENERAL ELECTRIC COMPANY, GE Medical Systems Information Technologies, Inc., GE Medical Systems, Inc., Defendants-Appellees"
+    ],
+    "opinions": [
+      {
+        "text": "Moore, Circuit Judge.\nThe University of Florida Research Foundation, Inc. (\"UFRF\") is the assignee of U.S. Patent No. 7,062,251, titled \"Managing Critical Care Physiologic Data Using Data Synthesis Technology.\" In 2017, UFRF sued General Electric Company, GE Medical Systems Information Technologies, Inc., and GE Medical Systems, Inc. (collectively, \"GE\") in the United States District Court for the Northern District of Florida, alleging infringement of the '251 patent. GE moved to dismiss under Federal Rule of Civil Procedure 12(b)(6), arguing the claims of the '251 patent are directed to ineligible subject matter under 35 U.S.C. \u00a7 101. The district court granted GE's motion. Applying the two-step framework set forth in Alice Corp. Party Ltd. v. CLS Bank International , 573 U.S. 208, 217, 134 S.Ct. 2347, 189 L.Ed.2d 296 (2014), the district court determined the claims of the '251 patent are directed to an abstract idea and do not recite an inventive concept. UFRF appeals. We have jurisdiction under 28 U.S.C. \u00a7 1295(a)(1). We affirm.\nSOVEREIGN IMMUNITY\nBefore reaching the merits of GE's \u00a7 101 eligibility challenge to the '251 patent, we must consider whether the district court had subject matter jurisdiction to hear that challenge in the first place, for UFRF argues it did not. According to UFRF, as an arm of the State of Florida, it enjoys sovereign immunity under the Eleventh Amendment, and it has not waived that immunity as to GE's \u00a7 101 eligibility challenge. We do not agree.\nThe Eleventh Amendment provides that: \"The Judicial power of the United States shall not be construed to extend to any suit in law or equity, commenced or prosecuted against one of the United States by Citizens of another State ....\" U.S. Const. amend. XI. \"[A] state waives its Eleventh Amendment immunity when it consents to federal court jurisdiction by voluntarily appearing in federal court,\" as UFRF has here. Regents of the Univ. of N.M. v. Knight , 321 F.3d 1111, 1124 (Fed. Cir. 2003) (citing Clark v. Barnard , 108 U.S. 436, 447, 2 S.Ct. 878, 27 L.Ed. 780 (1883) ); Regents of the Univ. of Cal. v. Eli Lilly & Co. , 119 F.3d 1559, 1564-65 (Fed. Cir. 1997) (\"[T]he Eleventh Amendment applies to suits 'against' a state, not suits by a state.\"). That waiver extends \"not only to the cause of action but also to any relevant defenses and counterclaims.\" Vas-Cath, Inc. v. Curators of Univ. of Mo. , 473 F.3d 1376, 1381 (Fed. Cir. 2007). The parties agree that here there are no counterclaims. At issue, then, is whether GE's \u00a7 101 eligibility challenge is a defense to UFRF's claim of infringement. We hold that it is.\nUnder 35 U.S.C. \u00a7 282(b), \"defenses in any action involving the ... infringement of a patent,\" include the \"condition[s] for patentability\" set forth in Part II of Title 35. According to UFRF, these \"condition[s] for patentability\" include those in \u00a7\u00a7 102 and 103, but not those in \u00a7 101. We have held, though, that \u00a7 282 is not so limited. In Dealertrack, Inc. v. Huber , for example, we held that \"the 'defenses provided in the statute,' \u00a7 282, include not only the 'conditions of patentability' in \u00a7\u00a7 102 and 103, but also those in \u00a7 101.\" 674 F.3d 1315, 1330 n.3 (Fed. Cir. 2012). Under Dealertrack , \u00a7 282 's defenses include a \u00a7 101 eligibility challenge like GE's.\nOur holding in Dealertrack is not undermined by SCA Hygiene Products Aktiebolag v. First Quality Baby Products, LLC , --- U.S. ----, 137 S.Ct. 954, 197 L.Ed.2d 292 (2017), as UFRF contends. SCA Hygiene held that the equitable defense of laches was not available to an accused infringer within the statute of limitations set out in \u00a7 282. Id. at 961-63. As the Supreme Court explained, \"applying laches within a limitations period specified by Congress would give judges a 'legislation-overriding' role that is beyond the Judiciary's power\" and effectively \"jettison Congress' judgment on the timeliness of a suit.\" Id. at 960. The \"legislation-overriding\" concern in SCA has no analogue for a \u00a7 101 eligibility challenge: Unlike laches, which conflicts with the statute of limitations set forth in \u00a7 282, treating a \u00a7 101 eligibility challenge as a defense to a claim of patent infringement poses no conflict with \u00a7 282 and, thus, no risk of \"jettison[ing] Congress' judgment.\" We do not read SCA Hygiene to undermine our holding in Dealertrack .\nEven if \u00a7 282 did not extend to a \u00a7 101 eligibility challenge, such a challenge would still be a defense to a claim of infringement. We and the Supreme Court have long treated \u00a7 101 eligibility as a \"condition[ ] of patentability\" alongside \u00a7\u00a7 102 and 103. See, e.g. , Graham v. John Deere Co. , 383 U.S. 1, 12, 86 S.Ct. 684, 15 L.Ed.2d 545 (1966) (\"The Act sets out the conditions of patentability in three sections ... novelty and utility as articulated and defined in \u00a7 101 and \u00a7 102, and nonobviousness ... as set out in \u00a7 103.\"); Versata Dev. Gr., Inc. v. SAP Am., Inc. , 793 F.3d 1306, 1330 (Fed. Cir. 2015) (\"It would require a hyper-technical adherence to form rather than an understanding of substance to arrive at a conclusion that \u00a7 101 is not a ground available to test patents.\"); Aristocrat Techs. Austl. PTY Ltd. v. Int'l Game Tech. , 543 F.3d 657, 661 (Fed. Cir. 2008) (\"It has long been understood that the Patent Act sets out the conditions for patentability in three sections: sections 101, 102, and 103.\"). And we and the Supreme Court have entertained \u00a7 101 eligibility challenges brought to defend against claims of infringement. See , e.g. , Mayo Collaborative Servs. v. Prometheus Labs., Inc. , 566 U.S. 66, 75-76, 132 S.Ct. 1289, 182 L.Ed.2d 321 (2012) ; CyberSource Corp. v. Retail Decisions, Inc. , 654 F.3d 1366, 1368 (Fed. Cir. 2011) ; Research Corp. Techs., Inc. v. Microsoft Corp. , 627 F.3d 859, 862 (Fed. Cir. 2010). We see no reason to depart from this practice now.\nIn sum, we hold that a \u00a7 101 eligibility challenge is a defense to a claim of infringement. By bringing its claim of infringement, UFRF waived its sovereign immunity \"not only [as] to the cause of action but also [as] to any relevant defenses,\" Vas-Cath , 473 F.3d at 1381. Because GE's \u00a7 101 eligibility challenge is a defense to UFRF's claim, UFRF has waived sovereign immunity as to GE's \u00a7 101 eligibility challenge. The district court had subject matter jurisdiction to hear that challenge.\nELIGIBILITY UNDER \u00a7 101\nWe turn now to the merits of GE's \u00a7 101 eligibility challenge. The '251 patent describes a method and system for \"integrat[ing] physiologic data from at least one bedside machine.\" '251 patent at 3:3-6. The system includes a \"bedside device\" connected to the \"bedside machines\" that \"convert[s] received data streams\" from the bedside machines \"to a format independent of any particular bedside machine.\" Id. at 6:64-7:4, 7:14-31. Such conversion may rely on one or more \"drivers\" specific to each bedside machine. Id. at 7:48-56. \"The standardized data can be conveyed to the bedside device [ ] for display\" on a graphical user interface. Id. at 8:66-67.\nClaim 1 is representative :\n1. A method of integrating physiologic treatment data comprising the steps of:\nreceiving physiologic treatment data from at least two bedside machines;\nconverting said physiologic treatment data from a machine specific format into a machine independent format within a computing device remotely located from said bedside machines;\nperforming at least one programmatic action involving said machine-independent data; and\npresenting results from said programmatic actions upon a bedside graphical user interface.\nAlice articulated a two-step framework for assessing eligibility under \u00a7 101. 573 U.S. at 217, 134 S.Ct. 2347. At step one, we determine whether a claim is \"directed to a patent-ineligible concept,\" such as an abstract idea. Id. at 218, 134 S.Ct. 2347. If so, we determine at step two whether the claim \"contains an 'inventive concept' sufficient to 'transform' the claimed abstract idea into a patent-eligible application.\" Id. at 221, 134 S.Ct. 2347.\nHere, the district court determined on GE's motion to dismiss that the '251 patent claims were not eligible under \u00a7 101. J.A. 28. At Alice step one, it determined the claims are directed to the abstract idea of \"collecting, analyzing, manipulating, and displaying data.\" J.A. 15. At step two, it determined the claims did not recite an inventive concept. J.A. 26.\nWe review a district court's dismissal for failure to state a claim under the law of the regional circuit, here the Eleventh, which reviews dismissal for failure to state a claim de novo. Aatrix Software, Inc. v. Green Shades Software, Inc. , 882 F.3d 1121, 1124 (Fed. Cir. 2018) ; Chaparro v. Carnival Corp. , 693 F.3d 1333, 1335 (11th Cir. 2012). Eligibility is a question of law based on underlying facts that, ultimately, we review de novo. SAP Am. v. InvestPic, LLC , 890 F.3d 1016, 1020 (Fed. Cir. 2018). Because we agree the '251 patent claims are directed to ineligible subject matter under \u00a7 101, we affirm the district court's dismissal.\nAccording to the '251 patent, \"[m]ost health care facilities ... acquire bedside patient information using pen and paper methodologies, such as flowsheets and patient charts.\" '251 patent at 1:21-23. \"Portions of these flowsheets,\" it teaches, \"can be manually entered into information systems to preserve patient information for administrative and research purposes.\" Id. at 1:32-34. The '251 patent identifies two problems with such manual entry: it \"can be very time-consuming and expensive\" and \"transcription errors can occur ... which can result in improper treatment.\" Id. at 1:37-41; see also id. at 2:3-5 (\"This manual data entry process consumes substantial human resources and increases the likelihood of typographical errors.\"). These \"shortcomings,\" it explains, \"can be highly problematic\" in the \"complex, fast-paced\" environment in which physicians work, potentially \"result[ing] in life altering consequences.\" Id. at 1:42-47, 54-56.\nThese \"pen and paper methodologies,\" the '251 patent teaches, are the result of \"data integration difficulties.\" Id. at 2:16-18. Since each bedside machine \"transmit[s] data in a proprietary manner using different data formats and protocols,\" a bedside device can only integrate data from multiple bedside machines using \"tailored application[s] ... uniquely written for [each] particular type of bedside machine.\" Id. at 2:26-34. Accordingly, the '251 patent proposes replacing the \"pen and paper methodologies\" with \"data synthesis technology\" in the form of \"device drivers written for the various bedside machines\" that allow the bedside device to present data from the various bedside machines \"in a configurable fashion within a single interface.\" Id. at 3:3-15.\nOn its face, the '251 patent seeks to automate \"pen and paper methodologies\" to conserve human resources and minimize errors. This is a quintessential \"do it on a computer\" patent: it acknowledges that data from bedside machines was previously collected, analyzed, manipulated, and displayed manually, and it simply proposes doing so with a computer. We have held such claims are directed to abstract ideas. See , e.g. , Intellectual Ventures I LLC v. Capital One Fin. Corp. , 850 F.3d 1332, 1340 (Fed. Cir. 2017) (holding abstract claims \"directed to ... collecting, displaying, and manipulating data\"); Elec. Power Grp., LLC v. Alstom S.A. , 830 F.3d 1350, 1353-54 (Fed. Cir. 2016) (holding abstract claims directed to \"collecting information, analyzing it, and displaying certain results of the collection and analysis\"). That the automation can \"result in life altering consequences,\" '251 patent at 1:54-56, is laudable, but it does not render it any less abstract.\nThe '251 patent nowhere identifies, and we cannot see in the claims, any \"specific improvement to the way computers operate.\"\nEnfish, LLC v. Microsoft Corp. , 822 F.3d 1327, 1336 (Fed. Cir. 2016). The claimed \"receiving physiologic treatment data from at least two bedside machines\" employs \"any serial connection ... that can convey information as a serial data stream,\" including the \"RS-232 connector\" used in prior art bedside devices. '251 patent at 2:25-27, 7:4-13. The claimed \"programmatic action involving said machine-independent data\" can be performed using \"[a]ny kind of computer system or other apparatus,\" including a \"general-purpose computer system.\" Id. at 13:31-37. And while the claims recite \"presenting results from said programmatic actions upon a bedside graphical user interface [\"GUI\"],\" the '251 patent explains \"the invention is not limited by the particular GUI or data entry mechanisms contained within views of the GUI.\" Id. at 13:16-18.\nThe claimed \"converting said physiologic treatment data from a machine specific format into a machine independent format within a computing device remotely located from said bedside machines\" relies on \"a driver for each different bedside machine\" that \"can interpret device specific protocols for data streams of the bedside machine.\" Id. at 7:48-56. UFRF urges that this \"converting\" improves the functioning of the computer, likening the '251 patent claims to those held eligible in Visual Memory LLC v. NVIDIA Corp. , 867 F.3d 1253 (Fed. Cir. 2017). We are not persuaded.\nIn Visual Memory , the claims recited \"an enhanced computer memory system\" that used \"programmable operational characteristics configurable based on the type of processor\" to \"enabl[e] interoperability with multiple different processors.\" Id. at 1259-60. As the patent explained, the enhanced computer memory system \"outperform[ed] a prior art memory system ... armed with 'a cache many times larger than the cumulative size of the subject caches.' \" Id. at 1259. The patent did not merely claim this enhancement to the computer memory system; it explained how it worked, appending \"263 frames of computer code.\" Id. at 1261.\nThe '251 patent is different. Neither the '251 patent, nor its claims, explains how the drivers do the conversion that UFRF points to. That is, the drivers are described in purely functional terms: they \"facilitate data exchanges,\" \"convert received data streams to a format independent of any particular bedside machine,\" \"translate the data stream,\" \"interpret data streams,\" \"facilitate communications with the bedside machine,\" and \"interpret [discrete] segments\" in a \"data stream for the machine.\" Id. at 4:16-18, 7:28-31, 7:48-56, 9:30-32, 9:34-40. The claims fare no better. Only dependent claim 10 even mentions a \"driver,\" and it is again recited in purely functional language: \"at least one bedside machine configured for particular ones of said bedside machines to facilitate data exchanges between said bedside machines and said bedside computing device.\" The mere function of converting is not a \"specific improvement to the way computers operate.\" Enfish, 822 F.3d at 1336.\nThe '251 patent\"fails to provide any technical details for the tangible components, ... instead predominately describ[ing] the system and methods in purely functional terms.\" In re TLI Commc'ns LLC Patent Litig. , 823 F.3d 607, 612 (Fed. Cir. 2016). We hold at Alice step one that representative claim 1 is directed to the abstract idea of \"collecting, analyzing, manipulating, and displaying data.\"\nThe '251 patent claims fare no better at Alice step two. UFRF argues the claims recite more than \"well-understood, routine, conventional activit[ies]\" because the claimed \"converting\" takes place at a location remote from the bedside machines. Alice , 573 U.S. at 225, 134 S.Ct. 2347. It points us to BASCOM Global Internet Services, Inc. v. AT&T Mobility LLC , where we found an inventive concept in \"the installation of a filtering tool at a specific location, remote from the end-users, with customizable filtering features specific to each end user.\" 827 F.3d 1341, 1350 (Fed. Cir. 2016). We are not persuaded.\nIn BASCOM , \"the patent describe[d] how its particular arrangement of elements [was] a technical improvement over prior art ways of filtering such content,\" id. at 1350, but the '251 patent does not. On the contrary, it provides that \"[t]he present invention ... can be realized in a centralized fashion in one computer system or in a distributed fashion\" or \"[a]ny kind of computer system or other apparatus adapted for carrying out the methods described herein.\" '251 patent at 13:27-33. The '251 patent claims recite the abstract idea of \"collecting, analyzing, manipulating, and displaying data,\" and the '251 patent proposes using \"a general-purpose computer\" to carry it out. Id. at 13:33-37. As BASCOM recognized, claims like these that \"merely recite the abstract idea ... along with the requirement to perform it on ... a set of generic computer components\" do not contain an inventive concept. 827 F.3d at 1350. \"An inventive concept ... cannot simply be an instruction to implement or apply the abstract idea on a computer.\" Id. at 1349.\nHere, the claims do no \"more than simply instruct the practitioner to implement the abstract idea ... on a generic computer.\" Alice , 573 U.S. at 225, 134 S.Ct. 2347. We hold that they are not patent eligible under \u00a7 101.\nCONCLUSION\nBecause we hold that the district court had subject matter jurisdiction to hear GE's \u00a7 101 eligibility challenge to the '251 patent, and we agree the '251 patent claims are ineligible under \u00a7 101, we affirm the district court's grant of GE's motion to dismiss.\nAFFIRMED\nIt cannot fairly be suggested that the \"defenses\" enumerated in \u00a7 282 are the only defenses available to an accused infringer. See, e.g. , Fed. R. Civ. P. 12(b) (listing \"defense[s] to a claim for relief\").\nWhile UFRF disputes on appeal whether claim 1 is representative, UFRF agreed below that claim 1 could be treated as representative \"so long as Claim 1 is construed in light of the details outlined in the other dependent claims and the specification[ ].\" J.A. 8. Because the district court so construed claim 1, and we do so on appeal, we treat claim 1 as representative.",
+        "type": "majority",
+        "author": "Moore, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Michael W. Shore, Shore Chan DePumpo LLP, Dallas, TX, argued for plaintiff-appellant. Also represented by Alfonso Chan, Russell J. Depalma, Andrew M. Howard.",
+      "James Christopher Martin, Reed Smith LLP, Pittsburgh, PA, argued for defendants-appellees. Also represented by Brian D. Roche, Chicago, IL; Christine M. Morgan, David Thomas Pollock, San Francisco, CA; Gerard M. Donovan, Washington, DC."
+    ],
+    "corrections": "",
+    "head_matter": "UNIVERSITY OF FLORIDA RESEARCH FOUNDATION, INC., Plaintiff-Appellant\nv.\nGENERAL ELECTRIC COMPANY, GE Medical Systems Information Technologies, Inc., GE Medical Systems, Inc., Defendants-Appellees\n2018-1284\nUnited States Court of Appeals, Federal Circuit.\nDecided: February 26, 2019\nMichael W. Shore, Shore Chan DePumpo LLP, Dallas, TX, argued for plaintiff-appellant. Also represented by Alfonso Chan, Russell J. Depalma, Andrew M. Howard.\nJames Christopher Martin, Reed Smith LLP, Pittsburgh, PA, argued for defendants-appellees. Also represented by Brian D. Roche, Chicago, IL; Christine M. Morgan, David Thomas Pollock, San Francisco, CA; Gerard M. Donovan, Washington, DC.\nBefore Prost, Chief Judge, Moore and Wallach, Circuit Judges."
+  },
+  "file_name": "1363-01",
+  "first_page_order": 1363,
+  "last_page_order": 1369
+}

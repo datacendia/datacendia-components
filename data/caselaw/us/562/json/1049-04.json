@@ -1,0 +1,59 @@
+{
+  "id": 5926379,
+  "name": "Snipes v. California",
+  "name_abbreviation": "Snipes v. California",
+  "decision_date": "2010-11-15",
+  "docket_number": "No. 10-6505",
+  "first_page": "1049",
+  "last_page": "1049",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1049"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 68,
+    "ocr_confidence": 0.65,
+    "sha256": "689ef38ee7b98158546ed4b6fc018645bbf3f862485dc25c02896a6d29f46d86",
+    "simhash": "1:9e4b1f7d8e3a036e",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Snipes v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6505.\nSnipes v. California."
+  },
+  "file_name": "1049-04",
+  "first_page_order": 1071,
+  "last_page_order": 1071
+}

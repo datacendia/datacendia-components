@@ -1,0 +1,59 @@
+{
+  "id": 5947076,
+  "name": "Vardaro v. United States",
+  "name_abbreviation": "Vardaro v. United States",
+  "decision_date": "2010-12-06",
+  "docket_number": "No. 10-7333",
+  "first_page": "1096",
+  "last_page": "1096",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1096"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.645,
+    "sha256": "d7a65c880e924ed1c20e3c8770b62c9f1b9d46cc543cba92e1d0c00505127b77",
+    "simhash": "1:16b2f60f0fbd417e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Vardaro v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7333.\nVardaro v. United States."
+  },
+  "file_name": "1096-01",
+  "first_page_order": 1118,
+  "last_page_order": 1118
+}

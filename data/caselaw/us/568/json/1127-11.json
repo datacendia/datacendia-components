@@ -1,0 +1,59 @@
+{
+  "id": 12429380,
+  "name": "Howard v. Howard et al.",
+  "name_abbreviation": "Howard v. Howard",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-7075",
+  "first_page": "1127",
+  "last_page": "1127",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1127"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.495,
+    "sha256": "334dee24a23e1279be85a7b6bca92e692b678c98218675e33af9681f848492c1",
+    "simhash": "1:08718ce9ff9db0e8",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Howard v. Howard et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7075.\nHoward v. Howard et al."
+  },
+  "file_name": "1127-11",
+  "first_page_order": 1203,
+  "last_page_order": 1203
+}

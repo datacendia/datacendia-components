@@ -1,0 +1,59 @@
+{
+  "id": 12411455,
+  "name": "Marshall v. Cartledge, Warden",
+  "name_abbreviation": "Marshall v. Cartledge",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10083",
+  "first_page": "832",
+  "last_page": "832",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 832"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.6,
+    "sha256": "88633ca518fee6a6d8c2096efbc4b88a8ab9bf9ea56ccb0f01b1ee3c90f6a86e",
+    "simhash": "1:36c614715cc9b016",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Marshall v. Cartledge, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10083.\nMarshall v. Cartledge, Warden."
+  },
+  "file_name": "0832-14",
+  "first_page_order": 908,
+  "last_page_order": 908
+}

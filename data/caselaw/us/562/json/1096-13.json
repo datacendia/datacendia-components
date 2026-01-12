@@ -1,0 +1,59 @@
+{
+  "id": 6031459,
+  "name": "Venkataram v. United States",
+  "name_abbreviation": "Venkataram v. United States",
+  "decision_date": "2010-12-06",
+  "docket_number": "No. 10-7363",
+  "first_page": "1096",
+  "last_page": "1096",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1096"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.627,
+    "sha256": "e3067522de12a777dcfdaebe7657537d185dd3bc64ef5ce52beef566ff55efda",
+    "simhash": "1:9563c7930f131648",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Venkataram v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7363.\nVenkataram v. United States."
+  },
+  "file_name": "1096-13",
+  "first_page_order": 1118,
+  "last_page_order": 1118
+}

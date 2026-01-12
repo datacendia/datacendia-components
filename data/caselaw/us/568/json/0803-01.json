@@ -1,0 +1,77 @@
+{
+  "id": 12407894,
+  "name": "Zorn v. United States",
+  "name_abbreviation": "Zorn v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10377",
+  "first_page": "803",
+  "last_page": "803",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 803"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "566 U. S. 231",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12188896
+      ],
+      "year": 2012,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/566/0231-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 36,
+    "char_count": 262,
+    "ocr_confidence": 0.671,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25548767515017284
+    },
+    "sha256": "a9d1e8da2c85cf1207f31ce8b9d9f3fb251e817d3e69938029bcb76c608fd10e",
+    "simhash": "1:e782690285a29618",
+    "word_count": 43
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Zorn v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Motion of petitioner for leave to proceed in forma pauperis granted. Certiorari granted, judgment vacated, and case remanded for further consideration in light of Setser v. United States, 566 U. S. 231 (2012).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10377.\nZorn v. United States."
+  },
+  "file_name": "0803-01",
+  "first_page_order": 879,
+  "last_page_order": 879
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12198363,
+  "name": "Rea v. Federated Investors",
+  "name_abbreviation": "Rea v. Federated Investors",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-1507",
+  "first_page": "825",
+  "last_page": "825",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 825"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.626,
+    "sha256": "a98682db018c820deb313f05e7ccccb9fac123854167f43d606025947305eb97",
+    "simhash": "1:8b9acb285e3fb52d",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rea v. Federated Investors."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1507.\nRea v. Federated Investors."
+  },
+  "file_name": "0825-09",
+  "first_page_order": 907,
+  "last_page_order": 907
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12251546,
+  "name": "McLain v. United States",
+  "name_abbreviation": "McLain v. United States",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. 11-937",
+  "first_page": "1262",
+  "last_page": "1262",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1262"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.692,
+    "sha256": "5e2ba21718db56c029f17d20cae421383e821f25da09fe36e7f075cd935cdfa4",
+    "simhash": "1:049abbe3afb01410",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McLain v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-937.\nMcLain v. United States."
+  },
+  "file_name": "1262-01",
+  "first_page_order": 1344,
+  "last_page_order": 1344
+}

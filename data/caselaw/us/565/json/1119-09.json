@@ -1,0 +1,59 @@
+{
+  "id": 12239866,
+  "name": "Walker v. Clark, Warden",
+  "name_abbreviation": "Walker v. Clark",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-6919",
+  "first_page": "1119",
+  "last_page": "1119",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1119"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.589,
+    "sha256": "c3f7f884978f69708416278fc3a0eae711e3cae749a823bc1cf4b558296fc043",
+    "simhash": "1:17b161b38ffea177",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Walker v. Clark, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6919.\nWalker v. Clark, Warden."
+  },
+  "file_name": "1119-09",
+  "first_page_order": 1201,
+  "last_page_order": 1201
+}

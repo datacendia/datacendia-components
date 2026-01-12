@@ -1,0 +1,59 @@
+{
+  "id": 4334039,
+  "name": "In re Ricci et al.",
+  "name_abbreviation": "In re Ricci",
+  "decision_date": "2011-09-26",
+  "docket_number": "No. 10-1558",
+  "first_page": "1064",
+  "last_page": "1064",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1064"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 21,
+    "char_count": 119,
+    "ocr_confidence": 0.541,
+    "sha256": "e5bd0ddebb258e496be7eab95a4dd64fa45ad9dcdc11f5f90513d75ef59bf9a1",
+    "simhash": "1:524a767eabc90607",
+    "word_count": 21
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Ricci et al."
+    ],
+    "opinions": [
+      {
+        "text": "Petition for writ of mandamus dismissed under this Court\u2019s Rule 46.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "September 26, 2011\nNo. 10-1558.\nIn re Ricci et al."
+  },
+  "file_name": "1064-05",
+  "first_page_order": 1058,
+  "last_page_order": 1058
+}

@@ -1,0 +1,1295 @@
+{
+  "id": 2255812,
+  "name": "Hyde Corporation v. James Donle Huffines",
+  "name_abbreviation": "Hyde Corp. v. Huffines",
+  "decision_date": "1958-03-12",
+  "docket_number": "No. A-6486",
+  "first_page": "566",
+  "last_page": "594",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "158 Tex. 566"
+    },
+    {
+      "type": "parallel",
+      "cite": "314 S.W.2d 763"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "342 U.S. 870",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        641479,
+        640648,
+        641035,
+        641167,
+        640975,
+        641174,
+        641206
+      ],
+      "year": 1951,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/342/0870-04",
+        "/us/342/0870-07",
+        "/us/342/0870-01",
+        "/us/342/0870-02",
+        "/us/342/0870-05",
+        "/us/342/0870-06",
+        "/us/342/0870-03"
+      ]
+    },
+    {
+      "cite": "317 U.S. 651",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        303804,
+        304122,
+        303852,
+        303829
+      ],
+      "year": 1942,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/317/0651-02",
+        "/us/317/0651-03",
+        "/us/317/0651-04",
+        "/us/317/0651-01"
+      ]
+    },
+    {
+      "cite": "98 S. W. 2d 257",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10246786
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/98/0257-01"
+      ]
+    },
+    {
+      "cite": "12 L.R.A., N.S., 102",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.N.S.",
+      "year": 1907,
+      "opinion_index": 0
+    },
+    {
+      "cite": "67 A. 339",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "year": 1907,
+      "opinion_index": 0
+    },
+    {
+      "cite": "72 N.J. Eq. 387",
+      "category": "reporters:state",
+      "reporter": "N.J. Eq.",
+      "case_ids": [
+        163709
+      ],
+      "year": 1907,
+      "pin_cites": [
+        {
+          "page": "395"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nj-eq/72/0387-01"
+      ]
+    },
+    {
+      "cite": "108 A. 2d 442",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "weight": 3,
+      "year": 1907,
+      "opinion_index": 0
+    },
+    {
+      "cite": "233 P. 2d 999",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "128 Colo. 563",
+      "category": "reporters:state",
+      "reporter": "Colo.",
+      "case_ids": [
+        303498
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/colo/128/0563-01"
+      ]
+    },
+    {
+      "cite": "209 F. 2d 495",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "217 F. 2d 648",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        526593,
+        526642,
+        526707
+      ],
+      "year": 1954,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/217/0648-01",
+        "/f2d/217/0648-03",
+        "/f2d/217/0648-02"
+      ]
+    },
+    {
+      "cite": "120 F. Supp. 42",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        4241596
+      ],
+      "year": 1954,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/120/0042-01"
+      ]
+    },
+    {
+      "cite": "87 L. Ed. 524",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "year": 1942,
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Sup. Ct. 46",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "year": 1942,
+      "opinion_index": 0
+    },
+    {
+      "cite": "129 F. 2d 632",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "year": 1942,
+      "opinion_index": 0
+    },
+    {
+      "cite": "96 L. Ed. 654",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "year": 1951,
+      "opinion_index": 0
+    },
+    {
+      "cite": "72 Sup. Ct. 113",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "year": 1951,
+      "opinion_index": 0
+    },
+    {
+      "cite": "123 Colo. 563",
+      "category": "reporters:state",
+      "reporter": "Colo.",
+      "case_ids": [
+        1932388
+      ],
+      "weight": 2,
+      "year": 1951,
+      "pin_cites": [
+        {
+          "page": "999"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/colo/123/0563-01"
+      ]
+    },
+    {
+      "cite": "197 Or. 184",
+      "category": "reporters:state",
+      "reporter": "Or.",
+      "case_ids": [
+        5034480
+      ],
+      "weight": 2,
+      "year": 1953,
+      "pin_cites": [
+        {
+          "page": "569"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/or/197/0184-01"
+      ]
+    },
+    {
+      "cite": "99 F. Supp. 907",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        1398279
+      ],
+      "year": 1951,
+      "pin_cites": [
+        {
+          "page": "913"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/99/0907-01"
+      ]
+    },
+    {
+      "cite": "203 F. 2d 956",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1271661,
+        1271686
+      ],
+      "year": 1953,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/203/0956-01",
+        "/f2d/203/0956-02"
+      ]
+    },
+    {
+      "cite": "107 F. Supp. 639",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        316649
+      ],
+      "year": 1952,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/107/0639-01"
+      ]
+    },
+    {
+      "cite": "81 L. Ed. 1350",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "year": 1937,
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 Sup. Ct. 923",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "year": 1937,
+      "opinion_index": 0
+    },
+    {
+      "cite": "301 U.S. 695",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        547969,
+        548066,
+        547938,
+        548203,
+        547831
+      ],
+      "year": 1937,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/301/0695-04",
+        "/us/301/0695-05",
+        "/us/301/0695-01",
+        "/us/301/0695-03",
+        "/us/301/0695-02"
+      ]
+    },
+    {
+      "cite": "114 Atl. 2d 438",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "pin_cites": [
+        {
+          "page": "440"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 N.J. 467",
+      "category": "reporters:state",
+      "reporter": "N.J.",
+      "case_ids": [
+        1343567
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nj/18/0467-01"
+      ]
+    },
+    {
+      "cite": "73 F. 2d 531",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        968415
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/73/0531-01"
+      ]
+    },
+    {
+      "cite": "141 F. 2d 660",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        3697036
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/141/0660-01"
+      ]
+    },
+    {
+      "cite": "136 F. 2d 210",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        3666654
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/136/0210-01"
+      ]
+    },
+    {
+      "cite": "128 F. 2d 632",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10712751
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/128/0632-01"
+      ]
+    },
+    {
+      "cite": "74 F. 2d 934",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        964691
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "935"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/74/0934-01"
+      ]
+    },
+    {
+      "cite": "87 F. 2d 104",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        971542
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "109"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/87/0104-01"
+      ]
+    },
+    {
+      "cite": "172 F. 2d 150",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1182318
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "155"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/172/0150-01"
+      ]
+    },
+    {
+      "cite": "305 S.W. 2d 637",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10174967
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/305/0637-01"
+      ]
+    },
+    {
+      "cite": "170 A.L.R. 449",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "56 F. 2d 962",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1803099
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/56/0962-01"
+      ]
+    },
+    {
+      "cite": "209 F. 2d 493",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        557977
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "495"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/209/0493-01"
+      ]
+    },
+    {
+      "cite": "114 A.L.R. 1487",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "304 U.S. 64",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        10687
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/304/0064-01"
+      ]
+    },
+    {
+      "cite": "126 Atl. 291",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "96 N.J. Eq. 702",
+      "category": "reporters:state",
+      "reporter": "N.J. Eq.",
+      "case_ids": [
+        25053
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nj-eq/96/0702-01"
+      ]
+    },
+    {
+      "cite": "279 U.S. 388",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3906238
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "357"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/279/0388-01"
+      ]
+    },
+    {
+      "cite": "244 U.S. 100",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        343266
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/244/0100-01"
+      ]
+    },
+    {
+      "cite": "203 F.2d 369",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1271767
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/203/0369-01"
+      ]
+    },
+    {
+      "cite": "190 F.2d 921",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        481295
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/190/0921-01"
+      ]
+    },
+    {
+      "cite": "194 F.2d 145",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        3542618,
+        508134
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/194/0145-01"
+      ]
+    },
+    {
+      "cite": "170 A.L.R. 440",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "158 F.2d 631",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1127186
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/158/0631-01"
+      ]
+    },
+    {
+      "cite": "314 S.W. 2d 782",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2255845,
+        10179751
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/158/0594-01",
+        "/sw2d/314/0782-01"
+      ]
+    },
+    {
+      "cite": "303 S.W. 2d 865",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10178891
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/303/0865-01"
+      ]
+    },
+    {
+      "cite": "270 App. Div. 921",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        2770146,
+        2753379,
+        2751109,
+        2749797,
+        2742922,
+        2750350,
+        2740881,
+        2745684,
+        2769206,
+        2732246,
+        2760024,
+        2712061
+      ],
+      "weight": 3,
+      "opinion_index": 1,
+      "case_paths": [
+        "/ad/270/0921-01",
+        "/ad/270/0921-04",
+        "/ad/270/0921-12",
+        "/ad/270/0921-02",
+        "/ad/270/0921-09",
+        "/ad/270/0921-11",
+        "/ad/270/0921-08",
+        "/ad/270/0921-06",
+        "/ad/270/0921-07",
+        "/ad/270/0921-05",
+        "/ad/270/0921-10",
+        "/ad/270/0921-03"
+      ]
+    },
+    {
+      "cite": "133 A. 582",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "year": 1947,
+      "pin_cites": [
+        {
+          "page": "583"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "104 Conn. 472",
+      "category": "reporters:state",
+      "reporter": "Conn.",
+      "case_ids": [
+        1605929
+      ],
+      "year": 1947,
+      "opinion_index": 1,
+      "case_paths": [
+        "/conn/104/0472-01"
+      ]
+    },
+    {
+      "cite": "96 L. Ed. 683",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "year": 1947,
+      "opinion_index": 1
+    },
+    {
+      "cite": "72 Sup. Ct. 360",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "year": 1947,
+      "opinion_index": 1
+    },
+    {
+      "cite": "31 N.Y.S. 2d 718",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "177 Misc. 695",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        901612
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/misc/177/0695-01"
+      ]
+    },
+    {
+      "cite": "117 N.Y.S. 2d 294",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "pin_cites": [
+        {
+          "page": "295"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "280 App. Div. 706",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        2829173
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ad/280/0706-01"
+      ]
+    },
+    {
+      "cite": "71 N.Y.S. 2d 337",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "64 Harv. L. Rev. 976",
+      "category": "journals:journal",
+      "reporter": "Harv. L. Rev.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "979, 982"
+        },
+        {
+          "page": "982"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "96 L.Ed. 683",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "year": 1939,
+      "opinion_index": 1
+    },
+    {
+      "cite": "72 S. Ct. 360",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "year": 1939,
+      "opinion_index": 1
+    },
+    {
+      "cite": "342 U.S. 913",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        641379,
+        640743,
+        640680,
+        641259,
+        640940,
+        641008,
+        640913
+      ],
+      "weight": 2,
+      "year": 1939,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/342/0913-07",
+        "/us/342/0913-06",
+        "/us/342/0913-01",
+        "/us/342/0913-03",
+        "/us/342/0913-02",
+        "/us/342/0913-05",
+        "/us/342/0913-04"
+      ]
+    },
+    {
+      "cite": "202 Misc. 592",
+      "category": "reporters:state",
+      "reporter": "Misc.",
+      "case_ids": [
+        971283
+      ],
+      "weight": 2,
+      "year": 1939,
+      "opinion_index": 1,
+      "case_paths": [
+        "/misc/202/0592-01"
+      ]
+    },
+    {
+      "cite": "62 N.Y.S. 2d 608",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "weight": 3,
+      "year": 1939,
+      "opinion_index": 1
+    },
+    {
+      "cite": "61 N.Y.S. 2d 138",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "weight": 3,
+      "opinion_index": 1
+    },
+    {
+      "cite": "270 App. Div. 548",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        2766248
+      ],
+      "weight": 3,
+      "opinion_index": 1,
+      "case_paths": [
+        "/ad/270/0548-01"
+      ]
+    },
+    {
+      "cite": "16 Am. St. Rep. 740",
+      "category": "reporters:state",
+      "reporter": "Am. St. Rep.",
+      "weight": 2,
+      "opinion_index": 1
+    },
+    {
+      "cite": "23 N.E. 12",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "13"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "118 N.Y. 30",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2227288
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "37"
+        },
+        {
+          "page": "32, 33, 38"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ny/118/0030-01"
+      ]
+    },
+    {
+      "cite": "12 L.R.A.N.S., 102",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.N.S.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "98 Mass. 452",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        710657
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/mass/98/0452-01"
+      ]
+    },
+    {
+      "cite": "165 A.L.R. 1449",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "year": 1939,
+      "opinion_index": 1
+    },
+    {
+      "cite": "67 N.E. 2d 667",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 1939,
+      "opinion_index": 1
+    },
+    {
+      "cite": "320 Mass. 76",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        498240
+      ],
+      "year": 1939,
+      "opinion_index": 1,
+      "case_paths": [
+        "/mass/320/0076-01"
+      ]
+    },
+    {
+      "cite": "114 A.2d 438",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "97 F. Supp. 159",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        1405734
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "168"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f-supp/97/0159-01"
+      ]
+    },
+    {
+      "cite": "245 F.2d 722",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        404387
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/245/0722-01"
+      ]
+    },
+    {
+      "cite": "16 N.J. 252",
+      "category": "reporters:state",
+      "reporter": "N.J.",
+      "case_ids": [
+        1340311
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/nj/16/0252-01"
+      ]
+    },
+    {
+      "cite": "102 Atl. 2d 90",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "29 N.J. Super. 361",
+      "category": "reporters:state",
+      "reporter": "N.J. Super.",
+      "case_ids": [
+        377533
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/nj-super/29/0361-01"
+      ]
+    },
+    {
+      "cite": "50 N.Y.S. 2d 643",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "pin_cites": [
+        {
+          "page": "656"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "138 N.E. 485",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "pin_cites": [
+        {
+          "page": "487"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "235 N.Y. 1",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1899992
+      ],
+      "pin_cites": [
+        {
+          "page": "7"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/ny/235/0001-01"
+      ]
+    },
+    {
+      "cite": "115 N.Y.S. 2d 429",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "weight": 3,
+      "opinion_index": 1
+    },
+    {
+      "cite": "67 A. 339",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "year": 1907,
+      "opinion_index": 1
+    },
+    {
+      "cite": "72 N.J. Eq. 387",
+      "category": "reporters:state",
+      "reporter": "N.J. Eq.",
+      "case_ids": [
+        163709
+      ],
+      "year": 1907,
+      "opinion_index": 1,
+      "case_paths": [
+        "/nj-eq/72/0387-01"
+      ]
+    },
+    {
+      "cite": "108 A. 2d 442",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "year": 1907,
+      "opinion_index": 1
+    },
+    {
+      "cite": "99 F. Supp. 907",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        1398279
+      ],
+      "year": 1951,
+      "pin_cites": [
+        {
+          "page": "914"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f-supp/99/0907-01"
+      ]
+    },
+    {
+      "cite": "18 N.J. 467",
+      "category": "reporters:state",
+      "reporter": "N.J.",
+      "case_ids": [
+        1343567
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/nj/18/0467-01"
+      ]
+    },
+    {
+      "cite": "172 F. 2d 150",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1182318
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/172/0150-01"
+      ]
+    },
+    {
+      "cite": "170 A.L.R. 449",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "488-490"
+        },
+        {
+          "page": "488-490"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "209 F. 2d 493",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        557977
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "495"
+        },
+        {
+          "page": "1"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/209/0493-01"
+      ]
+    },
+    {
+      "cite": "279 U.S. 388",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3906238
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/279/0388-01"
+      ]
+    },
+    {
+      "cite": "203 F.2d 369",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1271767
+      ],
+      "weight": 3,
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/203/0369-01"
+      ]
+    },
+    {
+      "cite": "190 F.2d 921",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        481295
+      ],
+      "weight": 4,
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/190/0921-01"
+      ]
+    },
+    {
+      "cite": "314 S.W. 2d 782",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2255845,
+        10179751
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/158/0594-01",
+        "/sw2d/314/0782-01"
+      ]
+    },
+    {
+      "cite": "172 F. 2d 150",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1182318
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/f2d/172/0150-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 2053,
+    "char_count": 63596,
+    "ocr_confidence": 0.581,
+    "pagerank": {
+      "raw": 1.435329002656515e-06,
+      "percentile": 0.991097936597848
+    },
+    "sha256": "05ea8fe9ae52670e342df56bdd69ac728bded1678eb82537a9362994ffa8b420",
+    "simhash": "1:e42b4a8b6d8d99fb",
+    "word_count": 10675
+  },
+  "last_updated": "2024-02-27T19:47:07.204323+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hyde Corporation v. James Donle Huffines"
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Norvell\ndelivered the opinion of the Court.\nThis is a \u201ctrade secret\u201d case in which the Court of Civil Appeals, after eliminating a recovery for attorneys\u2019 fees, has affirmed both a money judgment for $17,520 in favor of James Donle Huffines against Hyde Corporation and a perpetual decree of injunction restraining Hyde Corporation from manufacturing or selling any device made substantially in accordance with any feature of a garbage compressor described in Huffines\u2019 original application for a patent and the patent thereafter issued to him. Hyde Corporation v. Huffines, Texas Civ. App., 303 S.W. 2d 865.\nPetitioner, Hyde Corporation, presents the case here upon eighteen assignments of error; some of which are closely related and grouped for purposes of argument. It is unnecessary to discuss these assignments or points seriatim in order to dispose of the case. When the writ was granted, we had some doubt of the propriety as to the injunctive relief granted and one of the justices of the Court of Civil Appeals was of the opinion that the injunction was erroneously issued; However, upon further consideration, we have reached the conclusion that none of petitioner\u2019s assignments point out an error in the judgment of the Court of Civil Appeals. Such judgment will accordingly be affirmed.\nPetitioner\u2019s assignments in the main present three major contentions: (a) That the pleadings, the evidence and the jury\u2019s findings do not support a recovery for Huffines upon the theory that Hyde Corporation had through violation of a confidential relationship, secured and wrongfully exploited Huffines\u2019 \u201ctrade secrets.\u201d (b) That Huffines\u2019 remedy, if any, lay in the federal courts as the suit is essentially one of patent infringement, (c) That the injunction was wrongfully issued, particularly in view of the fact that a patent had been issued to Huffines covering a part of the claims contended in his patent application.\nCertain other assignments raise contentions that various portions of the jury\u2019s findings are without support in the evidence, but we find that these matters were correctly decided in the lower appelate court and hence need not be discussed here.\nThe statement of the Court of Civil Appeals is essentially correct. However, in view of petitioner\u2019s first major contention, we will enlarge thereon by quoting from the patent application made by Huffines and the licensing agreement executed by the contending parties.\nThe respondent Huffines (plaintiff below) is the director of the Sanitation Department of the City of Wichita Falls, Texas. He constructed a mechanism which compressed the trash and garbage collected by the Sanitation Department so that the garbage trucks employed in hauling this refuse could carry substantially larger loads. He applied for a patent upon this device and in his application described it as a \u201cCompressor Mechanism for Refuse Truck.\u201d It was stated in the application that:\n\u201cThis invention relates to improvements in garbage and trash hauling trucks and more particularly to garbage or trash hauling trucks that utilize a compressor mechanism to compress the refuse for transportation.\n\u201cVarious trucks of this character have been proposed heretofore, but these for the most part, were complex in construction, relatively easy to get out of order, and presented certain difficulties in loading and unloading the refuse, once it had been compressed into the carrying body of the truck.\n\u201cAn object of this invention is to provide a garbage truck unit wherein the compressor will compact the refuse to enable a greater load to be transported to the place of disposal.\n\u201cAnother object of this invention is to provide a compressor mechanism for a garbage or trash hauling truck that has a minimum of working parts to perform the compressing operation.\n\u201cA still further object of the invention is to provide a compressing mechanism for a truck of the character specified that is hydraulically operated, both to compress the refuse and to elevate the body of the truck into dumping position.\n\u201cYet another object of the invention is to provide a truck body of the character specified, that is simple in construction, efficient in operation, the compressing and dumping mechanism of which is simple to operate, and which is relatively inexpensive to manufacture.\u201d\nThe application contained seventeen claims of novelty and invention and it conclusively appears that the mechanism was of a type that is subject to protection in equity as a trade secret. See, K & G Oil Tool and Service Co. Inc., et al v. G & G Fishing Tool Service, et al., this volume 594, 314 S.W. 2d 782.\nIt appears that E. E. Maxson, Vice President of Hyde Corporation, became interested in the device through the offices of a friend of Huffines. Maxson originally talked with Huffines about manufacturing the device for Huffines. Eventually, however, it was agreed that Hyde Corporation should manufacture and sell the device and pay a royalty to Huffines. On January 8, 1954 a licensing agreement was executed which became effective three months later, that is, on April 8, 1954.\nThis agreement refers to Huffines as \u201cLicensor\u201d and to Hyde Corporation as \u201cLicensee.\u201d It recites the fact that Licensor had invented certain new and useful improvements in a refuse compressor mechanism for vehicles and had made application for letters patent in the United States Patent Office, bearing Serial No. 400,236 and filing date of December 24, 1953 covering such device, and that Licensee was desirous of acquiring an exclusive license to make, use and sell the said invention in the territory of the United States of America and its possessions, and in all foreign countries.\nThe contract then provided that:\n\u201cThe LICENSOR hereby grants to the LICENSEE, under the terms and conditions hereinafter set forth, an EXCLUSIVE LICENSE to make, use and sell said aforementioned device in accordance with said patent application, or under any patent or patents that may issue therefrom, or any application or applications filed on improvements on said device conveyed to the LICENSOR by the LICENSEE, and under any patent or patents that may issue therefrom. LICENSOR agrees to use due diligence in protecting such improvements and to continue the agreement under the present application and applications for improvements that may be filed thereon, as long as such agreements and conditions set forth herein are fulfilled. * * *\n\u201cThe LICENSEE agrees to pay LICENSOR the sum of one hundred twenty dollars ($120.00) per unit, and warrants and binds itself and its assigns to produce, sell and pay LICENSOR for a minimum of one hundred (100) units the first year. * * *\n\u201cAny litigation for infringement involving said application for patent, or involving an application or applications for patent on any improvements on said device, or involving any patents that may issue therefrom, whether offensive or defensive, but not connected with any Patent Office proceedings, shall be paid for by the parties hereto in proportion to the monies received from the manufacture and sale of said devices. However, if either of the parties hereto fails to bear his proportionate part of any such litigation, as aforesaid, the other party shall have the right, upon the expiration of thirty (30) days written notice to the party in default of his intention to bear the full expense of such litigation, but the party bearing such expense shall receive in full any damages that may be collected as a result of such litigation, otherwise monies collected as damages, or any expenses thereof, shall be shared proportionately.\n\u201cThe effective date of this contract shall be the date on which the LICENSEE presents a finished pilot model of said device manufactured in accordance with the disclosure of said patent application, and when such pilot model is accepted by LICENSOR as a proper and salable article of manufacture within the scope of the claims of said application LICENSEE warrants and binds itself and its assigns to build and complete said pilot model within Ninety (90) days from date of this contract.\n\u201cThe LICENSEE agrees not to question the validity of any application or applications, or any patent or patents issued as result of said application, or applications filed on improvements on said device, relative to the said REFUSE COMPRESSOR MECHANISM FOR VEHICLES.\n\u201cThis agreement may be automatically renewed at the end of the first year, so long as the agreements and conditions set forth herein are being fulfilled, and the same may apply to each succeeding year for the pendency of said patent application or applications, and for the life of any patent or patents that may issue therefrom. Failure to fulfill the conditions herein set out shall be considered as terminating this contract agreement, but either party hereto who considers such conditions are not being met, shall notify the other party in writing to that effect, setting out the particular deficiencies, and the party receiving such notice shall have thirty (30) days in which to remedy such deficiencies, before the contract agreement shall become null and void. Sixty (60) days notice to terminate this contract shall be given by LICENSEE. If more than one hundred (100) units are manufactured and sold in any one year, the additional amount so sold that year shall be credited to the amount to be sold the next ensuing year.\n\u201cThe expense of the prosecution of said application or applications for patent or patents shall be at the expense of the LICENSOR, and he agrees to use due diligence in prosecuting said applications for patent or patents in an effort to bring same to a successful conclusion.\n\u201cLICENSEE agrees to convey to LICENSOR any improvements made by LICENSEE or its employees upon the machine involved herein, and agrees that such assignment may be made to LICENSOR or to any designated agent, at LICENSOR\u2019S expense, and LICENSEE may use the improvement during the term of this contract, without additional royalty.\u201d\nIt conclusively appears that as a result of this agreement and the negotiations preceding its execution, Hyde Corporation gained full knowledge of the Huffines device not only from the application for patent but from scale models, blue prints, and actual construction of the device. On May 31, 1955, when the parties were in the second year of operations under the contract, Hyde Corporation repudiated the licensing agreement by giving the sixty-day notice provided for in the contract. However, according to the jury\u2019s findings, said defendant did not cease to manufacture the Huffines\u2019 device but on the contrary continued to produce the same substantially in accordance with the description of the mechanism contained in Huffines\u2019 patent application.\nShortly before the trial was concluded a patent was received by Huffines and introduced in evidence. Some ten claims are listed in the patent instead of seventeen as set out in the original application. In the course of the prosecution of the patent application it appears that certain claims were cancelled by Huffines, others amended and additional ones added before the patent was finally issued.\nAgainst this factual background Hyde Corporation contends that it cannot be held in damages or restrained in equity from further manufacturing the mechanism because they did not gain knowledge of the device through fraud, deceit or any inequitable practice.\nSpecial Issues Nos. 1 and 2 and the jury\u2019s answers thereto bear upon this contention and are as follows:\n\u201cSpecial Issue No. 1: Do you find from a preponderance of the evidence that J. D. Huffines disclosed his refuse compressor mechanism to Hyde Corporation because some officer or agent of Hyde Corporation represented to him that they were interested in manufacturing and selling said refuse compressor mechanism? Answer: Yes.\n\u201cSpecial Issue No. 2: Do you find from a preponderance of the evidence that the defendant, Hyde Corporation, acted in good faith in acquiring knowledge of the design and novel features, if any, of the garbage disposal body in question? Answer: Yes.\u201d\nPetitioner contends that there is no evidence supporting the jury\u2019s answer to Special Issue No. 1 and insists that if any issue of breach of confidence be raised by the evidence, the trial court should have submitted its request special issue inquiring if the details, plans and specifications of Huffines\u2019 refuse compressor mechanism were disclosed by Huffines to Hyde Corporation or its representative in confidence.\nPetitioner\u2019s arguments as to the pleadings and evidence seem to run counter to the realities of the case as fixed by the written licensing agreement. It is true that there is no explicit written covenant contained in the contract which precludes petitioner from making use of information 'granted as a result of contract negotiations and disclosures by Huffines after the cancellation of the licensing agreement. It is also true that respondent\u2019s pleadings do not use the words \u201cin confidence\u201d by way of stating a conclusion. The picture presented by the pleadings and the evidence both undisputed and as interpreted by the jury is that of a licensee after contracting with an inventor (in good faith according to the jury\u2019s answer to Special Issue No. 2) for the use of an invention upon which an application for patent was pending, repudiating the licensing agreement and insisting upon utilizing the device despite the fact that he secured information which enabled him to manufacture the device through the licensing agreement and the negotiations relating thereto. To say that petitioner did not gain knowledge of the device in this manner is to deny the stated purpose of the licensing agreement. While in the briefs and oral argument some concern was expressed that the Court of Civil Appeals\u2019 opinion would permit unscrupulous claimants to delve into the pockets of business firms through spurious claims for compensation for the use of ideas, Matarese v. Moore-McCormack Lines, Inc., 2d Cir. 158 F.2d 631, 170 A.L.R. 440, that danger is hardly presented here. We are not called upon to consider at what period in the course of negotiations petitioner\u2019s actions may have ceased to be ethically permissible. We here have business relations culminating in a licensing agreement. The case seems to come squarely within the rule of the American Law Institute\u2019s Restatement of the Law that:\n\u201cOne who discloses or uses another\u2019s trade secrets, without a privilege to do so, is liable to the other if (a) he discovers the secret by improper means, or (b) his disclosure or use constitutes a breach of confidence reposed in him by the other in disclosing the secret to him. * * 4 Restatement of Torts Sec. 757.\nThe jury evidently believed that at the time the licensing agreement was entered into, Hyde Corporation was acting in good faith, but thereafter decided to use respondent\u2019s device without accounting to him. If so, it might be absolved under clause (a) of the rule but would be held liable under clause (b) thereof. In the present case, the parties occupied the position of licensor and licensee. They were in a sense co-adventurers. There existed between them a confidential rlationship as a matter of law and there was no need to submit these incidents of legal status to a jury for its determination. In commenting upon clause (b) of the rule above stated, it is said in the Restatement that:\n\u201cA breach of confidence under the rule stated in this Clause may also be a breach of contract which subjects the actor to liability under the rules stated in the Restatement of Contracts. But whether or not there is a breach of contract, the rule stated in this Section subjects the actor to liability if his disclosure or use of another\u2019s trade secret is a breach of the confidence reposed in him by the other in disclosing the secret to him. The chief example of a confidential relationship under this rule is the relationship of principal and agent (see Restatement of Agency, Sections 395 and 396). Such is also the relationship between partners or other joint adventurers. But this confidence may exist also in other situations. For example, A has a trade secret which he wishes to sell with or without his business. B is a prospective purchaser. In the course of negotiations, A discloses the secret to B solely for the purpose of enabling him to appraise its value. Or, A requests a loan from B, a banker, for the purpose of aiding the manufacture of a product by A\u2019s secret process. In order to assure B about the soundness of the loan, A discloses the secret to him in confidence. In both cases B is under a duty not to disclose the secret or use it adversely to A. * * *\u201d 4 Restatement of Torts, Sec. 757, Comment on Clause (b) p. 13.\nWhile there may be some distinction in the theory of recovery under clauses (a) and (b), that is whether in tort or contract, Aktiebolaget Bofors v. United States, 90 U.S. Ct. of App. D.C. 92, 194 F.2d 145, that point is not involved here. In the area of confidential relationships between partners, employers and employees, licensors and licensees, and the like, the injured party is not required to rely upon an express agreement to hold the trade secret in confidence, Schreyer v. Casco Products Corp., 2d Cir. Ct. of App., 190 F.2d 921, Smith v. Dravo Corporation, 7th Cir. Ct. of App., 203 F.2d 369, nor should he be deprived of all relief because the offending person may have originally entered into the particular relationship unaffected by a then existing ulterior or improper motive.\nPetitioner\u2019s contention that respondent\u2019s remedy, if any, rests in the federal courts is founded upon the premise that this is esesntially a patent infringement suit. After petitioner had entered into the licensing contract with respondent, it purchased Patent No. 2,487,412 issued to Valentine 0. Balbi covering a compressing device and instituted suit against Huffines in the United States District Court for the Northern District of Texas asserting the priority of the Balbi patent over that issued to Huffines and contending that the latter patent was invalid for a number of reasons.\nWe agree with the holding of the Court of Civil Appeals that this is not a \u201cpatent case\u201d, although \u201cpatent questions\u201d may be involved herein. The gravamen of the present suit is breach of confidence. Trade secrets as distinguished from patents are subject to protection under the equitable jurisdiction of the state courts. In E.I. De Pont de Nemours Powder Co. v. Masland, 244 U.S. 100, 37 S. Ct. 575, 61 L. ed. 1016, Mr. Justice Holmes stated the basis of the \u201ctrade secret\u201d case, viz:\n\u201cThe word \u2018property\u2019 as applied to trademarks and trade secrets is an unanalyzed expression of certain secondary consequence of the primary fact that the law makes some rudimentary requirements of good faith. Whether the plaintiffs have any valuable secret or not the defendant knows the facts, whatever they are, through a special confidence that he accepted. The property may be denied, but the confidence cannot be. Therefore the starting point for the present matter is not property or due process of law, but that the defendant stood in confidential relations with the plaintiffs, or one of them. These have given place to hostility, and the first thing to be made sure of is that the defendant shall not fraudulently abuse the trust reposed in him. It is the usual incident of confidential relations. If there is any disadvantage in the fact that he knew the plaintiffs secrets, he must take the burden with the good.\u201d\nIn the later case of Becher v. Contoure Laboratories, 279 U.S. 388, 49 S. Ct. 356, 357, 73 L. ed. 752, Mr. Justice Holmes in distinguishing between the patent and trade secret suits said:\n\u201cIt is not denied that the jurisdiction of the courts of the United States is exclusive in the case of suits arising under the patent laws, but it was held below that the suit in the state court did not arise under those laws. It is plain that that suit had for its cause of action the breach of a contract or wrongful disregard of confidential relations, both matters independent of the patent law, and that the subject-matter of Oppenheimer\u2019s claim was an undisclosed invention which did not need a patent to protect it from disclosure by breach of trust. Irving Iron Works v. Kerlow Steel Flooring Co. 96 N.J. Eq. 702, 126 Atl. 291; E.I. Du Pont de Nemours Powder Co. v. Masland, 244 U.S. 100, 61 L. ed. 1016, 37 Sup. Ct. Rep. 575. Oppenheimer\u2019s right was independent of and prior to any arising out of the patent law, and it seems a strange suggestion that the assertion of that right can be removed from the cognizance of the tribunals established to protect it by its opponent going into the Patent Office for a later title. It is said that to establish Oppenheimer\u2019s claim is to invalidate Becher\u2019s patent. But, even if mistakenly, the attempt was not to invalidate that patent, but to get an assignment of it, and an assignment was decreed. Suits against one who has received a patent of land to make him a trustee for the plaintiff on the ground of some paramount equity are well known. Again, even if the logical conclusion from the establishing of Oppenheimer\u2019s claim is that Becher\u2019s patent is void, that is not the effect of the judgment.\u201d\nThe federal courts have original jurisdiction, absent a diversity of citizenship of causes of action, which assert \u201ca claim of unfair competition when joined with a substantial and related claim under the copyright, patent or trademark laws.\u201d 28 U.S. C.A., Section 1338(b). Huffines might have maintained this character of suit in the federal court in connection with a claimed infringement of his patent, but he was not required to do so as the way to relief in the state courts was open to him. Hyde Corporation has no claim of unfair competition based upon an alleged violation of confidence by Huffines which is in any way related to its claim under the Balbi patent. However that may be, it seems clear that the action taken by Hyde Corporation in the federal court could not operate to abate this proceeding. The distinction between the trade secret cases and those involving the validity of or infringement of patents is pointed up by the trade secret cases tried in the federal courts because of diversity of citizenships in which the law of the state of the forum is regarded as controlling under the rule of Erie Railroad Company v. Tompkins, 304 U.S. 64, 58 Sup. Ct. 817, 82 L. Ed. 1188, 114 A.L.R. 1487. See, Franke v. Wiltschek, 2d Cir. Ct. of Apps., 209 F. 2d 493, Smith v. Dravo Corporation, 7th Cir. Ct. of Apps., 203 F. 2d 369. The latter case affords an example of one cause of action for wrongful appropriation of trade secrets, controlled by the law of Illinois and the law of Pennsylvania under the Illinois doctrine of conflict of laws, being joined with an action for patent infringement which is controlled by Acts of Congress. This was not a case of a claim of unfair competition joined with a related claim under the patent laws within the meaning of the fderal statute. The Court characterized the trade secret cause of action as being entirely separate from that relating to a claimed patent infringement and repudiated the patent claim while recognizing the validity of the trade secret. The Court said:\n\u201c* * * But the delver in the art was bound to know all the teachings of that art. When he attempted to improve upon the things, taught by others, if he was to achieve patentable invention, he was under the necessity of doing more than merely adapting the teaching to a device as a skilled mechanic would do. After careful consideration, we agree with the District Court that the patentee did no more than adapt what he had been taught to an improved container and that his accomplishment did not rise to the height of patentable invention as that term has been defined by the Supreme Court. * * *.\u201d\n* * * *\n\u201cPlaintiffs assert that if defendant is liable for breach of confidential relations, it is estopped to plead invalidity of the patents. The decisions cited in support, we think, do not sustain the argument. The two causes of action are entirely separate; finding of guilt upon the first two counts can in no wise effect the question of validity of the patents under counts 3 and 4. In Booth v. Stutz Motor Co., 7 Cir., 56 F. 2d 962, we held the patent invalid but nevertheless defendant was liable for breach of a confidential relationship. Similar was the ruling in Schreyer v. Casco Products Corp., 2 Cir., 190 F. 2d 921. * *\nNor is it a valid objection to the decree that it enjoins the use of a process or device that has been patented subsequent to the institution of this suit. Injunctive relief is not based upon the patent but the circumstance that the petitioner gained knowledge of such device at a time prior to its being patented through an abuse of a confidential relationship. See Comment Note \u2014 \u201cRight and remedies (independently of patent laws) of one who makes an invention or discovery, or conceives an idea or plan, as against one who utilizes it industrially or commercially, or discloses it, or threatens to do so.\u201d 170 A.L.R. 449 et seq. As above pointed out, a patent was issued upon certain claims of Huffines contained in his original application and amendments thereto. Despite this circumstance, the Court of Civil Appeals, with one justice dissenting, awarded the respondent Huffines a perpetual injunction against Hyde Corporation restraining it from making use of any of the claims or devices contained in the original application for patent or the patent itself. This holding is in direct conflict with the holding of the Texarkana Court of Civil Appeals in G & G Fishing Tools Service v. K & G Oil Tool & Service Co., this volume 594, 305 S.W. 2d 637 (this day reversed sub nomine, K & G Oil Tool & Service Co. v. G & G Fishing Tools Service) wherein the Court followed Conmar Products Corporation v. Universal Slide Fastner Co. 2d Cir. Ct. of App. 172 F. 2d 150, 155, in which it was held that an injunction would not issue to protect \u201ctrade secrets\u201d against one who had obtained them through a breach of confidence after such trade secrets had been made public through the grant of a patent. Chief Judge Learned Hand writing for the Circuit Court of Appeals said:\n\u201cSince the specifications of the patents in suit disclosed the first six secrets and part of the seventh, that much of the secrets upon issue of the patents fell into the public demesne; and prima facie, the defendants were free to use them. The Seventh Circuit (Shellmar Products Co. v. Allen-Qualley Co., 87 F. 2d 104) and apparently the Sixth as well, (A. O. Smith Corporation v. Petroleum Iron Works Co., 74 F. 2d 934) have, however, held that if before issue one has unlawfully obtained and used information which the specifications later disclose, he will not be free to continue to do after issue; his wrong deprives him of the right which he would otherwise have had as a member of the public. We have twice refused to follow this doctrine; (Picard v. United Aircraft Corporation, 2 Cir., 128 F. 2d 632; Pennington Engineering Co. v. Houde Engineering Corp., 2 Cir. 136 F. 2d 210) and we adhere to our decisions. Conceivably an employer might exact from his employees a contract not to disclose the information even after the patent issued. Of what possible value such a contract could be, we find it hard to conceive; but, if an employer did exact it, others would perhaps be obliged to turn to the specifications, if they would use the information. Be that as it may, we should not so construe any secrecy contract unless the intent were put in the most inescapable terms; and the plaintiff\u2019s contract had none such. In their absence we do not see why a wrongful inducement to divulge the disclosure before issue should deprive the wrongdoer of his right to avail himself of the patentee\u2019s dedication; for, as we have just said, the contract is to be construed as imposing secrecy only until issue. The doctrine must rest upon the theory that it is a proper penalty for the original wrong to deny the wrongdoer resort to the patent; and for that we can find no support in principle.\u201d\nUpon the granting of a patent upon any of the claims contained in the application, the file is no longer held in confidence by the patent office but the contents thereof become public property. Grant v. Raymond, 6 Pet. [31 U.S.] 218, 8 L. ed. 376; Sandlin v. Johnson 141 F. 2d 660, A. O. Smith Corp. v. Petroleum Iron Works of Ohio, 6th Cir. Ct. of App., 73 F. 2d 531, 74 F. 2d 934, Callman. The Law of Unfair Competition and Trademarks (2d Ed.) See. 533, Patents. Consequently, the secrets disclosed by the application and its amendments are available to all the world and the trial court\u2019s decree makes an exception of the petitioner, Hyde Corporation. It is argued that such injunction is punitive as to petitioner rather than protective to respondent.\nIf, as has been said in numerous cases, the equitable remedy of injunction to prevent one person from damaging another through an abuse of confidence in wrongfully appropriating trade secrets is a separate remedy and incident to a different right than that secured by a patent, it v/ould seem that injunctive protection of the trade secret as against a licensee should not necessarily cease upon the issuance of a patent. The patent may not afford the same protection as the trade secret and while, with reference to the public generally, it may be said that the inventor has elected to surrender the protection of secrecy in return for a patent, the same can hardly be said in behalf of a licensee or other person who has wronfully used information obtained through a breach of confidence. The record here indicates that at the time of trial petitioner was tooled up and producing the refuse compressor which was the result of respondent\u2019s inventive genius or mechanical skill. Undoubtedly if an injunction were lifted upon the issuance of a patent (which may or may not afford protection for all the trade secrets contained in the original application or amendments thereto), the licensee who had abused a confidence would thus obtain a marketing advantage or head start as compared to the patentee or any manufacturer or processor licensed by him after the issuance of the patent. An award of damages for patent infringement might well prove inadequate to fully protect the one whose confidence had been violated.\nThe injunction should ordinarily operate as a corrective rather than a punitive measure, but when, through inadequacies in the processes and methods of the law, a choice must be made between the possible punitive operation of the writ and the failure to provide adequate protection of a recognized legal right, the latter course seems indicated and the undoubted tendency of the law has been to recognize and enforce higher standards of commercial morality in the business world. In all cases, injunctive relief extending beyond the issuance of patent may not be essential to afford adequate relief to the injured party, but the disclosure attendant upon the disclosure of the patent filed should not of itself preclude such relief.\nWe are not unmindful of the fact that cogent argument may be marshalled upon both sides of the existing controversy which has resulted in a conflict of decisions among our own Courts of Civil Appeals, as well as the federal Circuit Courts of Appeals. We are, however, \u00f3f the opinion that the better doctrine as well as the one supported by the weight of American authority is the rule which permits the issuance of an injunction extending beyond the date of patent, even though there be no express convenant between the parties enjoining secrecy after the issuance of a patent.\nAs this matter has not heretofore been passed upon by this Court we quote somewhat at length from the opinion of the Supreme Court of New Jersey in Adolph Gottscho, Inc. v. American Marking Corporation, 18 N.J. 467, 114 Atl. 2d 438, 440, which contains numerous citations of authorities and to our minds represents the majority rule in this country and the one which should be followed by us:\nThe New Jersey Court said:\n\"While its action was pending in the Chancery Division the United States Patent Office issued several patents to the plaintiff. These disclosed some of the plaintiff\u2019s secrets though not all nor most of them. Jackson did not learn any of the secrets from the patents; he learned them in confidence while in the plaintiff\u2019s employ and improperly disclosed and used them long before the patents were issued. He contends, nevertheless, that the patents constituted' public disclosures which automatically terminated the plaintiff\u2019s pre-existing cause of action against him and the Marking Corporation to the extent that it related to secrets disclosed by the patents. Although there are decisions which suggests support for his position, we believe that reason and the weight of the authority are to the contrary. See Shellmar Products Co. v. Allen-Qualley Co., 87 F. 2d 104, 109 (7 Cir., 1937), cretorari denied 301 U.S. 695, 57 Sup. Ct. 923, 81 L. Ed. 1350 (1937) ; A. O. Smith Corp. v. Petroleum Iron Works, 74 F. 2d 934, 935 (6 Cir., 1935); Franke v. Wiltschek, 209 F. 2d 493, 495 (2 Cir., 153); Thilberg v. Bach, 107 F. Supp. 639, (D.C.D. N.J., 1952), affirmed 203 F. 2d 956 (3 Cir., 1953) ; International Industries v. Warren Petroleum Corp., 99 F. Supp. 907, 913 (D.C.D. Del., 1951) ; McKinzie v. Cline, 197 Or. 184, 252 P. 2d 564, 569 (1953) ; Julius Hyman & Co. v. Velsicol Corp., 123 Colo. 563, 233 P. 2d 977, 999 (1951), certorari denied 342 U.S. 870, 72 Sup. Ct. 113, 96 L. Ed. 654 (1951). But cf. Conmar Products Corp. v. Universal Slide Fastener Co., 172 F. 2d 150 (2 Cir., 1949) ; Picard v. United Aircraft Corp., 129 F. 2d 632 (2 Cir., 1942), certorari denied 317 U.S. 651, 63 Sup. Ct. 46, 87 L. Ed. 524 (1942); Darsyn Laboratories v. Lenox Laboratories, 120 F. Supp. 42 (D.C.D. N.J., 1954), affirmed 217 F. 2d 648 (3 Cir., 1954).\n\u201cIn the Franke case the plaintiff sought an injunction and accounting from the defendants who misappropriated trade secrets which they had learned in confidence; in response to the contention that the secrets had been revealed by an expired patent, the court said [209 F. 2d 495] :\n\u201c \u2019Defendants argue that the heart of plaintiffs\u2019 process was revealed by an expired patent, and that the improvements thereon were unpatentable applications of mechanical skill. This totally misconceives the nature of plaintiffs\u2019 right. Plaintiffs do not assert, indeed cannot assert, a property right in their development such as would entitle them to exclusive enjoyment against the world. Theirs is not a patent, but a trade secret. The essence of their action is not infringement, but breach of faith. It matters not that defendants could have gained their knowledge from a study of the expired patent and plaintiffs\u2019 publicly marketed product. The fact is that they did not. Instead they gained it from plaintiffs via their confidential relationship, and in so doing incurred a duty not to use it to plaintiffs\u2019 detriment. This duty they have breached.\u2019 (Citing authorities.)\n\u201cIn the Hyman case the court held that disclosures in patent applications did not bar the plaintiff\u2019s action to restrain the defendants from appropriating its trade secrets; in the course of its opinion it said [128 Colo. 563, 233 P. 2d 999] :\n\u201c Tt is our conclusion that the composition of matter embraced in applications for United States Letters Patent Serial Nos. 581172 and 639416, 607078 and 643759 were plaintiff\u2019s trade secrets, and defendants\u2019 betrayal of these trade secrets may not be countenanced by a court of equity. Assuming that the applications for patents in Great Britain and other foreign countries amounted to a disclosure of plaintiff\u2019s trade secrets nevertheless it did not relieve the individual defendants here from their contractual and fiduciary obligation. The determination of what, if any, rights the public may have respecting the use of plaintiff\u2019s trade secrets by reason of the application for letters patent in Great Britain or elsewhere, we will leave for decision where that question is presented.\n\u201c \u2018The knowledge of chlordane and the construction and equipment of the plant in which the same was manufactured\u2014 for which it had expended several hundred thousands of dollars \u2014were, as we have said, plaintiff\u2019s trade secrets. Any knowledge which defendants acquired respecting those secrets was obtained while they were plaintiff\u2019s employees, and under a contractual obligation, as evidenced by their employment agreements, and in addition thereto this knowledge of plaintiff\u2019s trade secrets was acquired by them in confidence and while they were occuping a fiduciary relationship. They now seek to appropriate these trade secrets to their own use and profit by a violation of their contractual agreements and a betrayal of the confidence reposed in them by plaintiff. This they may not do; such conduct is abhorrent to our conception of ordinary honesty.\u2019 (Citing authorities.)\n\u201cWe are not here concerned with any claim of patent infringement nor are we concerned with the rights of the public generally. Jackson learned the plaintiffs\u2019 trade secrets in confidence, and in violation of his fiduciary obligations, he disclosed and used them for purposes other than his employer\u2019s benefit. See Sun Dial Corp. v. Rideout, supra, 16 N.J., at page 259, 108 A. 2d 442; Vulcan Detinning Co. v. American Can Co., 72 N.J. Eq. 387, 395, 67 A. 339, 12 L.R.A., N.S., 102 (E. & A. 1907). His conduct was grossly improper and gave rise to the plaintiff\u2019s cause of action, based on long-settled equitable principles and supported by the marked changes in the attitude of the law towards the need for commercial morality. Sun Dial Corp. v. Rideout, supra, 16 N.J. at page 261, 108 A. 2d 442; Franke v. Wiltschek, supra, 209 F. 2d at page 499. Cf. 3 Restatement, Torts, 540 (1938) : \u2018the tendency of the law, both legislative and common, has been in the direction of enforcing increasingly higher standards of fairness or commercial morality in trade.\u2019 We know of no persuasive reason for depriving the plaintiff of the benefits of its accrued cause of action because some of its secrets were later disclosed by the issuance of protective patents during the pendency of its action. Surely the defendants are in no just position to seek this result and the plaintiff should not be subjected to the burden and jeopardy of additional or divided proceedings to obtain the complete relief to which it is here fairly entitled as against the defaultant fiduciary Jackson and his company the American Marking Corporation.\u201d\nWe are of the opinion that the Court of Civil Appeals was correct in affirming the trial court\u2019s injunction. The petitioner throughout this litigation has taken the position that no injunction should issue. It has not raised an alternative contention that an injunction, if issued, should be of limited duration, such as two or three years after the issuance of patent, rather than being perpetual in nature. No proper predicate by alternative pleadings and supporting evidence was laid for limiting the effect of the injunction to a certain period of time after the issuance of the patent. We think that when a plaintiff makes out a case for injunctive relief, the duty devolves upon the opposing party to show by competent evidence that an order of less duration than a permanent order will afford the injured party adequate protection. We make this statement in deference to a suggestion contained in an amicus curiae brief filed herein and to point out that as an amicus curiae does not occupy the position of an attorney for a party and is not vested with the management of the case, 2 Am. Jur. 682, Amicus Curiae, Section 7, the authority to and the propriety of issuing the suggested type of injunctive order is not before us.\nWe find no assigned error in the trial court\u2019s manner of submitting the case to the jury which would necessitate a new trial, nor is a valid objection made to the method employed in assessing damages.\nPetitioner\u2019s assignments of error are overruled and the judgment of the Court of Civil Appeals is affirmed.\nOpinion delivered March 12, 1958.\n. \u2014For contrary view, see Kipp, Note, 36 Texas Law Review 384.\n. \u2014See, Brown & Root, Inc. v. Jaques, Texas Civ. App., 98 S. W. 2d 257, no writ history, in which the Jaques saw was duplicated by defendant for its own use but not for sale to others.\n. \u2014See discussions in both majority and dissenting opinions in Franke v. Wiltschek, 2 Cir. Ct. of App., 209 F. 2d 493. In connection with this case, it should be noted that the federal court\u2019s jurisdiction was based upon a diversity of citizenship in which the law of the State of New York was involved. Conmar Products Corporation v. Universal Slide Fastener Co., 2 Cir. Ct. of App., 172 F. 2d 150 was apparently a combination patent infringement and unfair competition case. 28 U.S.C.A., Section 1338.",
+        "type": "majority",
+        "author": "Mr. Justice Norvell"
+      },
+      {
+        "text": "ON motion for rehearing\nMr. Justice Norvell\ndelivered the opinion of the Court.\n. While petitioner\u2019s motion for rehearing presents nothing that was not passed upon in the original opinion, there are certain matters which may be clarified by further statement.\nPetitioner seems to have some objection to the use of the term \u201ctrade secrets\u201d in describing this case. The generally accepted definition of a \u201ctrade secret\u201d is that contained in the Restatement of Torts. In Extrin Foods, Inc. v. Leighton, Supreme Court, King\u2019s County, N.Y. 115 N.Y.S. 2d 429, the Court said:\n\u201cIn resolving this issue the Court is first required to define the term \u2018secret\u2019 as applied to a formula. The term \u2018trade secret\u2019 is defiined in the Restatement of Torts, Section 757, p. 5, as follows:\n\u2018b. Definition of trade secret. A trade secret may consist of any formula, pattern, device or compilation of information which is used in one\u2019s business, and which gives him an opportunity to obtain an advantage over competitors who do not know or use it. It may be a formula for a chemical compound, a process of manufacturing, treating or preserving materials, a pattern for a machine or other device, or a list of customers. * * * A trade secret is a process or device for continuous use in the operation of the business. Generally it relates to the production of goods, as, for example, a machine or formula for the production of an article.\u2019\n\u201cSee also Nims on Unfair Competition and Trade Marks (4th Ed.), page 403; Kaumagraph Co. v. Stampagraph Co., 235 N.Y. 1, 7, 138 N.E. 485, 487; Fairchild Engine & Airplane Corp. v. Cox, Sup., 50 N.Y.S. 2d 643, 656.\u201d\nTo the authorities cited, we may add the following: Sun Dial Corporation v. Rideout, 29 N.J. Super. 361, 102 Atl. 2d 90, affirmed, 16 N.J. 252, 108 A. 2d 442; B. F. Gladding & Co. Inc. v. Scientific Angles, Inc. 6 Cir., 245 F.2d 722; Schreyer v. Casco Products Corp., 97 F. Supp. 159, reversed in part, 190 F.2d 921, 87 C.J.S. 413.\nIt appears from the record before us that Huffines had conceived and developed a device which he called a \u201cCompressor Mechanism for Refuse Truck\u201d, and had applied for a patent thereon. The details of this device were unknown to Hyde Corporation until disclosed to its representatives during negotiations which culminated in a licensing agreement. Such details of construction were \u201ctrade secrets\u201d belonging to Huffines, Smith v. Dravo Corp., 7th Cir., 203 F.2d 369, and were fully disclossed by his patent application, the details of which were made available to Hyde Corporation, together with blue prints, etc., long before the application was made public by the Patent Office when a patent was granted covering some of the claims contained in the original application. If these details as to construction were received by Hyde Corporation in confidence and that company later attempted to exploit them to Huffines\u2019 injury through a breach of confidence, an action lies, and it matters not whether the suit be designated as a \u201ctrade secret\u201d case or as a suit for breach of confidence, which is a term commonly used by Huffines in describing his claim for relief. See Bercher v. Contoure Laboratories, 279 U.S. 388, 49 S. Ct. 356, 73 L. ed. 752.\nWe have not held as a matter of law that the relationship of licensor and licensee in itself created a confidential relationship between' the parties. It is undoubtedly true, as stated in one of the briefs filed herein, that, \u201cThe existence of a confidential relationship btween a Licensor and Licensee is to be determined in each case [and] it does not follow that merely because the parties occupy a position of Licensor and Licensee a confidential relationship results as a matter of law.\u201d The trial judge was evidently of the opinion that the Hyde Corporation obtained its knowledge of the device involved through its dealings with Huffines while the parties were attempting to work out a contract for their mutual benefit. As a result of these negotiations, they entered into an agreeable arrangement which actually had the effect of putting the Hyde Corporation into the garbage disposal body business. \u201cViewing the picture as a whole,\u201d the conclusion was reached that a confidential relationship existed between the parties which entitled Huffines to relief by way of injunction. The picture as a whole encompasses the contract of the parties, the facts shown by the undisputed evidence as well as those established by the jury\u2019s verdict. The holding of the trial court on the point was affirmed by the Court of Civil Appeals and also by this Court upon authority of the decisions set forth in the original opinion.\nThe all-important question in this litigation is whether the injunction should extend beyond the date of the issuance of patent. Upon this point there is an admitted conflict of authority. On rehearing, petitioners adopt some' change of approach or emphasis in argument. The trial judge in the present case rendered an extremely detailed decree as compared with the one entered in K & G Oil Tool & Service Co., Inc., v. G. & G. Fishing Tool Service, this volume 594, 314 S.W. 2d 782, which was attacked for indefiniteness of term. The descriptions of the claims in the patent application and the patent itself were incorporated in the decree, not as patent claims, but as descriptions of the features of the Huffines device which should be protected by injunction as so-called \u201ctrade secrets\u201d. While there is a suggestion that certain of these descriptions or claims may relate to matters well within the realm of public knowledge long before Huffines held any negotiations with a representative of Hyde Corporation, that is hardly the gravamen of the argument nor can it reasonably be supported by the grounds set forth in the motion for new trial filed in the trial court (even considering a \u201cmotion to amend and correct judgment\u201d as a part of the motion for new trial), or the points urged in the Court of Civil Appeals, and the assignments contained in the original and amended application for writ of error.\nIt is contended that upon the issuance of the patent, the claims contained in the application for the patent as distinguished from the claims of the patent itself became public property. This of course is true. The effect of the injunction is to deprive Hyde Corporation of the right to do that which every other person could do, e.g., make full use of the disclosures of the claims contained in the patent application which were not carried forward and protected by the patent. This situation was recognized in the original opinion. We again encounter the conflict between Conmar Products Corporation v. Universal Slide Fastner Co., 2 Cir., 172 F.2d 150 and Adolph Gottscho, Inc. v. American Marking Corporation, 18 N.J. 467, 114 A.2d 438, and similar cases. All trade secrets are not patentable and it seems that where one has gained knowledge of trade secrets in confidence, he should not be permitted to exploit the economic advantage gained thereby to the detriment of the opposing party simply because of the public disclosure of the claims contained in the patent application. One who has obtained prior knowledge of a device in confidence may well establish a manufacturing head start, so to speak. He may not and often does not stand on the basis of economic equality with competing manufacturers or the public at large at the date of the public disclosure of the claims in the patent application. For this reason relief by way of injunction should not arbitrarily be denied because the trade secrets contained in an application for a patent have been made public. Whether an injunction should issue and if so the particular type of decree that should be rendered must, to a large degree, depend upon the facts of each particular case. Schreyer v. Casco Products Corp., 2nd Cir., 190 F.2d 921; Franke v. Wiltchek, 2nd Cir., 209 F.2d 493, 495.\nIn view of the dissenting opinion filed by .Judge Jerome Frank in the latter case, we may comment on the holding thereof in some detail as the dissent raises a point similar to that suggested by amicus curiae in the case now before us. Franke v. Wiltchek was strictly a trade secrets case. The federal jurisdiction was based upon a diversity of citizenship of the parties. 28 N.S.C.A. Sec. 1332, and the law of the State of New York was applicable. It was urged that the heart of plaintiffs\u2019 process (alleged to be a trade secret) \u201cwas revealed by an expired patent, and that the improvements thereon were unpatentable applications of mechanical skill.\u201d The Court of Appeals said that,\n\u201c* * * This totally misconceives the nature of plaintiffs\u2019 right. Plaintiffs do not assert, indeed cannot assert, a property right in their development such as would entitle them to exclusive enjoyment against the world. Theirs is not a patent, but a trade secret. The essence of their action is not infringement, but breach of faith. It matters not that defendants could have gained their knowledge from a study of the expired patent and plaintiffs\u2019 publicly marketed product. The fact is that they did not. Instead they gained it from plaintiffs via their confidential relationship, and in so doing incurred a duty not to use it to plaintiffs\u2019 detriment. This duty they have breached. Junker v. Plummer, 320 Mass. 76, 67 N.E. 2d 667, 165 A.L.R. 1449 citing 4 Restatement, Torts Sec. 757 and comment a (1939) ; Peabody v. Norfolk, 98 Mass. 452; Vulcan Detinning Co. v. American Can Co., 72 N.J. Eq. 387, 67 A. 339, 12 L.R.A.N.S., 102; Tabor v. Hoffman, 118 N.Y. 30, 23 N.E. 12, 16 Am. St. Rep. 740; Spiselman v Rabinowitz, 270 App. Div. 548, 61 N.Y.S. 2d 138, appeal denied 270 App. Div. 921, 62 N.Y.S. 2d 608; Extrim Foods, Inc. v. Leighton, 202 Misc. 592, 115 N.Y.S. 2d 429. See also Smith v. Dravo Corp., supra, 7 Cir., 203 F.2d 369; Schreyer v. Casco Products Corp., 2 Cir., 190 F.2d 921, certiorari denied 342 U.S. 913, 72 S. Ct. 360, 96 L.Ed. 683; 4 Restatement, Torts Sec. 757 and comment a (1939) ; Nims, The Law of Unfair Competition and Trade-Marks Sections 141, 143a, 148 (4th Ed. 1947) ; Note, Protection and Use of Trade Secrets, 64 Harv. L. Rev. 976, 979, 982; cases collected in annotated note 170 A.L.R. 449, 488-490;\u201d\nThe Court divided upon the propriety of awarding injunctive relief. The majority in an opinion by Judge Clark upheld the action of the district judge in granting a perpetual injunction. It was said:\n\u201cIt would appear, therefore, that New York law governs of this point. But the question remains largely academic; for the only way in which New York law seems at all unique is in the number and force of the pertinent decisions. The leading case not only for that jurisdiction, but \u2014 in view of its extensive citation \u2014 for the country, is still Tabor v. Hoffman, supra, 118 N.Y. 30, 37, 23 N.E. 12, 13, 16 Am. St. Rep. 740, where the court held a plaintiff \u2018entitled to the preventive remedies of the court,\u2019 without respect to whether \u2018one secret can be discovered more easily than another\u2019 or that a defendant\u2019s resort to the secret \u2018was more of a convenience than a necessity.\u2019 That decision is particularly in point because there defendant\u2019s counsel and a dissenting opinion took special exception to the grant of an injunction, as distinguished from the award of damages at law. See 118 N.Y. 30, 32, 33, 38, 23 N.E. 12. Among recent cases which follow and apply it the following may be cited: Spiselman v. Rabinowitz, supra, 270 App. Div. 548, 61 N.Y.S. 2d 138, appeal denied 270 App. Div. 921, 62 N.Y.S. 2d 608; Biltmore Pub. Co. v. Grayson Pub. Corp., 272 App| Div. 504, 71 N.Y.S. 2d 337; Petnel v. American Tel. & Tel. Co., 280 App. Div. 706, 117 N.Y.S. 2d 294, 295; Sachs v. Cluett, Peabody & Co., 177 Misc. 695, 31 N.Y.S. 2d 718, per Shientag, J.; Smith v. Dravo Corp., supra, 7 Cir., 203 F. 2d. 369; Schreyer v. Casco Products Corp., D.C. Conn., 97 F. Supp. 159, 168, affirmed on this issue, 2 Cir., 190 F. 2d 921, certiorari denied 342 U. S. 913, 72 Sup. Ct. 360, 96 L. Ed. 683; International Industries, Inc. v. Warren Petroleum Corp., D.C. Del., 99 F. Supp. 907, 914; Schavoir v. American Rebonded Leather Co., 104 Conn. 472, 133 A. 582, 583; and see also Nims, The Law of Unfair Competition and Trade-Marks, Sections 141, 143a, 148 (4th Ed. 1947) ; Note, Protection and Use of Trade Secrets, 64 Harv. L. Rev. 976, 982. Thus apt in its facts and citation of authorities is the late case of Extrin Foods, Inc. v. Leighton, supra,, 202 Misc. 592, 115 N.Y.S. 2d 429, where Justice Hart enjoined the use of a discoverable formula for the preparation of certain flavoring products and ordered an accounting of profits.\n\u201cAs the several cases cited earlier in this opinion show,, there is nothing singular in this aspect of New York law. In citing a multitude of cases to the point that an inventor or discoverer \u2018will ordinarily be granted an injunction\u2019 against use of a formula or trade secret, the editors of a lengthy annotation of cases in 170 A.L.R. 449, 488-490, say that in fact \u2018most of the cases are injunction cases\u2019 and cite only two insignificant or in-apposite cases to the contrary. See to like effect Spiselman v. Rabinowitz, supra, 270 App. Div. 548, 61 N.Y.S. 2d 138, appeal denied 270 App. Div. 921, 62 N.Y.S. 2d 608. We have found no case authority to throw doubt on this law. So, indeed, if a search be made for \u2018federal law\u2019 so-called, the result must be the same on existing authorities, as we have pointed out above; see, for example, the discussion below and in our court in Schryer v. Casco Products Corp., supra.\u201d\nWhile Judge Frank was of the opinion that an award of damages would do complete justice under the facts of the case, his argument raises the question of an injunction of limited duration. In the dissenting opinion reference was made to a differentiation as to remedies suggested in the Restatement of the Law of Torts. In support of such differentiation, Judge Frank submitted the following argument:\n\u201c* * * (a) The harm done by a defendant\u2019s breach of a plaintiff\u2019s confidence is the use of the secret to the plaintiff\u2019s \u2018loss\u2019 or \u2018detriment.\u2019 (b) By defendant\u2019s wrong he deprives plaintiff of a trade secret defined as something which gives plaintiff \u2018an opportunity to obtain an advantage over competitors.\u2019 (c) Where the device or process consists of a \u2018novel invention,\u2019 the plaintiff may have chosen not to patent it \u2014 which would limit the period of his monopoly \u2014 but to keep the invention to himself with the expectation that no one, except those in his confidence, will discover the secret, so that his monopoly will endure for an unlimited time. If the defendant comes to know the secret of such an invention by improper means his use of this knowledge will cause a loss to plaintiff for an indefinite future period during which plaintiff will lose his \u2018opportunity to obtain an advantage over competitors.\u2019 Wherefore a perpetual injunction affords a proper protection \u2014 a protection as enduring as the monopoly grounded on the secret invention, (d) But where the secret involves only a slight, non-patentable and easily-discoverable improvement, competitors will soon, in all probability, legitimately learn how to contrive this improvement. Consequently, defendant\u2019s wrong has caused a loss of plaintiff\u2019s \u2018advantage over competitors\u2019 which, at most, would not have lasted long. Perpetually to enjoin defendant in such circumstances would be to harm him without regard to the loss or detriment suffered by plaintiff.\n\u201cIn short, such an injunction \u2014 continued beyond the time when, in all likelihood, the trade, by legitimate means will catch up with the plaintiff \u2014 is sheer punishment, nothing- else. * * *\n\u201cThe historic injunctive process was designed to deter, not to punish. The essence of equity jurisdiction has been the power of the Chancellor to do equity and to mould each decree to the necessities of the particular case. Flexibility rather than rigidity has distinguished it.\u201d * * *\nBy way of illustration of the Frank argument, it might be said that the \u201csecrets\u201d of the magnetic fishing tool involved in K & G Tool & Service Co., Inc. v. G & G Fishing Tool Service, this volume 594, 314 S.W. 2d 782 may be more readily ascertained from the publicized patent application or from a legitimate examination of the tool itself than could the \u201csecrets\u201d of the \u201cCompressor Mechanism for Refuse Truck\u201d here involved. If so, a fair competitive balance could be attained by a restraint of lesser duration in one case than in the other. Of course, as is indeed probable, the matter may be academic. With the loss of the trade advantage, the duration of the restraint may be wholly immaterial to a defendant. However that may be, as pointed out in the original opinion, the question of an injunction of limited durating is not before us. The issuance of a perpetual injunction is a common remedy afforded in trade secret cases. The authorities cited by the majority in Franke v. Wiltchek cannot be lightly brushed aside. Nor are we disposed to destroy \u201cthe carefully built law of trade secrets,\u201d so that as a practical matter \u201csuch business assets (may) be left open to highjacking from all sides.\u201d The trial judge upon proper findings has correctly determined that this is a case for injunctive relief. He has ordered that the usual equitable order issue, e.g. the perpetual injunction. It would seem to follow that if an injunction of limited duration be substituted therefor as suggested by Judge Frank\u2019s argument, an abuse of discretion in issuing the perpetual injunction would have to be shown. Franke v. Wiltcheck, 209 F. 2d 493, 1.c. 499. No such showing- was made in this case. As heretofore stated, the question of a limited duration injunction as opposed to a perpetual injunction is not raised by a party hereto. The matter is not before us.\nPetitioner\u2019s motion for rehearing is overruled.\nOpinion delivered June 4, 1958.",
+        "type": "rehearing",
+        "author": "Mr. Justice Norvell"
+      },
+      {
+        "text": "Mr. Justice Walker,\ndissenting.\nAfter further consideration, I have concluded that our decision in this case is unsound. Since the entire patent file becomes public property when the patent issues, the information contained therein can no longer constitute a trade secret. When the parties made their license agreement, respondent had filed his original patent application containing seventeen separate and distinct claims of novelty and invention. Thirteen of these claims were rejected by the Patent Office because of lack of invention or conflicts with prior patents and were cancelled by respondent in subsequent amendments to his application. While the patent as issued lists ten claims, these embody only four of those which were listed in the original application with some additional claims asserted in the amended applications.\nThe entire world now has access to the file and is free to manufacture and sell devices incorporating the features of the thirteen rejected and cancelled claims except as the same may be protected by other patents, but petitioner has been perpetually enjoined from doing so. The net result is that petitioner is prevented from ever hereafter doing that which everyone else is free to do. Since respondent can be adequately protected by damages or by an injunction of limited duration, the trial court\u2019s judgment is clearly more punitive than remedial.\nThis action cannot be justified by saying that a patent may not afford the same protection as a trade secret or that an award for damages for patent infringement may not fully protect respondent. Respondent testified that his patent application was made as broad as possible, because the Patent Office would \u201ckick back\u201d all he couldn\u2019t use. Although it was thus contemplated that some of the claims might be rejected and have no protection either from the patent or as trade secrets after the patent issued, the contract does not bind petitioner never to use any of the information disclosed to it. By applying for and accepting his patent, respondent elected to look to it for protection and broadcast his secrets to the world. He chose disclosure and patent protection in preference to a trade secret. The narrow question is whether under all these circumstances petitioner is under a legal duty never to use any of the information obtained from respondent, and in my opinion it is not.\nOur original opinion apparently recognizes that the trial court\u2019s judgment goes too far. It suggests that respondent might have been entitled only to an injunction of limited duration if petitioner had laid a proper predicate by alternative pleadings and supporting evidence showing that the same would afford respondent adequate protection. This does not comport with my idea of the burden resting upon the moving party in an equitable proceeding. It should not be said that he can simply establish his right to some sort of relief and then be granted much more than is actually required for his protection unless the defendant proves that he is entitled to less.\nWhile petitioner does not here argue that the injunction should have been limited to a period of years, it has vigorously contended from the beginning that the permanent injunction should not have been granted and that the rule of Conmar Products Corporation v. Universal Slide Fastener Co., 2nd Cir., 172 F. 2d 150, should be applied in this case. It is my opinion that the burden was upon respondent to establish his right to the relief granted, i.e., a perpetual injunction. This he has not done. In a case where there are no pleadings or evidence justifying the issuance of an injunction of limited duration, we should follow the rule of the Conmar case and deny injunctive relief after the trade secrets have been made public through the issuance of a patent. See 36 Texas Law Rev. 384.\nI would reverse and render the judgments of the courts below in so far as petitioner has been permanently enjoined from manufacturing or selling any device embodying features described in the original patent application which were not carried forward and reserved in the patent.\nOpinion delivered June 4, 1958.\n2nd Motion for rehearing overruled July 16, 1958.",
+        "type": "dissent",
+        "author": "Mr. Justice Walker,"
+      }
+    ],
+    "attorneys": [
+      "Christopher & Bailey, T. S. Christopher and M. Ward Bailey, all of Fort Worth, for petitioner.",
+      "Thompson, Walker, Smith & Shannon and Paul C. Cook, all of Fort Worth, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "Hyde Corporation v. James Donle Huffines\nNo. A-6486.\nDecided March 12, 1958.\nRehearing overruled June 4, 1958.\nSecond hearing overruled July 16, 1958.\n(314 S.W. 2d Series 763)\nChristopher & Bailey, T. S. Christopher and M. Ward Bailey, all of Fort Worth, for petitioner.\nThompson, Walker, Smith & Shannon and Paul C. Cook, all of Fort Worth, for respondent."
+  },
+  "file_name": "0566-01",
+  "first_page_order": 582,
+  "last_page_order": 610
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12408346,
+  "name": "Richards v. Nassau County, New York",
+  "name_abbreviation": "Richards v. Nassau County",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. 11-9735",
+  "first_page": "908",
+  "last_page": "908",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 908"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 83,
+    "ocr_confidence": 0.721,
+    "sha256": "576f5c383ea261b723c49aacc6c42f84d3732f0f1a55166214de459297e2e984",
+    "simhash": "1:bd56c393185921ce",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Richards v. Nassau County, New York."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9735.\nRichards v. Nassau County, New York."
+  },
+  "file_name": "0908-08",
+  "first_page_order": 812,
+  "last_page_order": 812
+}

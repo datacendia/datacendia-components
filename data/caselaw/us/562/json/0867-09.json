@@ -1,0 +1,59 @@
+{
+  "id": 6030914,
+  "name": "Scroggins v. United States",
+  "name_abbreviation": "Scroggins v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11204",
+  "first_page": "867",
+  "last_page": "867",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 867"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.626,
+    "sha256": "20198919346362b5072f73c3373ca2288a402df487552d9bba1c0b03091937d2",
+    "simhash": "1:c56ad702cd48bd6a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Scroggins v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11204.\nScroggins v. United States."
+  },
+  "file_name": "0867-09",
+  "first_page_order": 889,
+  "last_page_order": 889
+}

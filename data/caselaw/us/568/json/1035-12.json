@@ -1,0 +1,59 @@
+{
+  "id": 12425118,
+  "name": "McBride v. California",
+  "name_abbreviation": "McBride v. California",
+  "decision_date": "2012-11-26",
+  "docket_number": "No. 12-6643",
+  "first_page": "1035",
+  "last_page": "1035",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1035"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 84,
+    "ocr_confidence": 0.598,
+    "sha256": "91796dbe3d6f7f9acfe74f43cd55978f9834b46af02e33c137cfa2a8ea324cc6",
+    "simhash": "1:c08d93a0048322c1",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McBride v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 2d App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6643.\nMcBride v. California."
+  },
+  "file_name": "1035-12",
+  "first_page_order": 1111,
+  "last_page_order": 1111
+}

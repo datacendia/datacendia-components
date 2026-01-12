@@ -1,0 +1,59 @@
+{
+  "id": 12224288,
+  "name": "Daman et al. v. Brooks",
+  "name_abbreviation": "Daman v. Brooks",
+  "decision_date": "2012-05-29",
+  "docket_number": "No. 11-898",
+  "first_page": "1030",
+  "last_page": "1031",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1030"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 30,
+    "char_count": 184,
+    "ocr_confidence": 0.606,
+    "sha256": "6e1e6e867c69e9778bc2e9eb101325c90f72fbabe1a026f36d27da16e0c30eb0",
+    "simhash": "1:1344c4365858bc48",
+    "word_count": 33
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Daman et al. v. Brooks."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Motion of Los Angeles County Police Chiefs\u2019 Association et al. for leave to file a brief as amici curiae granted. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-898.\nDaman et al. v. Brooks."
+  },
+  "file_name": "1030-15",
+  "first_page_order": 906,
+  "last_page_order": 907
+}

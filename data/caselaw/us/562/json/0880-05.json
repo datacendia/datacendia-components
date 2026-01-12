@@ -1,0 +1,59 @@
+{
+  "id": 5996297,
+  "name": "Walker v. Jarriel, Warden",
+  "name_abbreviation": "Walker v. Jarriel",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11430",
+  "first_page": "880",
+  "last_page": "880",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 880"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.615,
+    "sha256": "4216732adef468b5e8a74e4040b75a8427c3206f6a8f785b22da4038fe05608c",
+    "simhash": "1:18f98b33b5efb2ff",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Walker v. Jarriel, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11430.\nWalker v. Jarriel, Warden."
+  },
+  "file_name": "0880-05",
+  "first_page_order": 902,
+  "last_page_order": 902
+}

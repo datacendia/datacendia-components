@@ -1,0 +1,59 @@
+{
+  "id": 12408167,
+  "name": "Akapo v. Holder, Attorney General",
+  "name_abbreviation": "Akapo v. Holder",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. 11-7854",
+  "first_page": "907",
+  "last_page": "907",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 907"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 83,
+    "ocr_confidence": 0.651,
+    "sha256": "25322afbe64831fcde0f33a38ae64a6cca21036f8830b4adee932d161ba8ab4e",
+    "simhash": "1:420a42baa06d9056",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Akapo v. Holder, Attorney General."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7854.\nAkapo v. Holder, Attorney General."
+  },
+  "file_name": "0907-04",
+  "first_page_order": 811,
+  "last_page_order": 811
+}

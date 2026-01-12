@@ -1,0 +1,435 @@
+{
+  "id": 12520695,
+  "name": "UNITED STATES of America, Plaintiff-Appellee, v. Arriba W. LEWIS, Defendant-Appellant.",
+  "name_abbreviation": "U.S. v. Lewis",
+  "decision_date": "2019-04-03",
+  "docket_number": "No. 17-3592",
+  "first_page": "483",
+  "last_page": "493",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "920 F.3d 483"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "7th Cir.",
+    "id": 9010,
+    "name": "United States Court of Appeals for the Seventh Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "134 S.Ct. 1683",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12579832,
+        12706993
+      ],
+      "weight": 2,
+      "year": 2014,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/134/1683-01",
+        "/us/572/0393-01"
+      ]
+    },
+    {
+      "cite": "572 U.S. 393",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12706993
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "396"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/572/0393-01"
+      ]
+    },
+    {
+      "cite": "806 F.3d 954",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4358438
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "959"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/806/0954-01"
+      ]
+    },
+    {
+      "cite": "528 U.S. 119",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9476180
+      ],
+      "weight": 3,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "124"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/528/0119-01"
+      ]
+    },
+    {
+      "cite": "392 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6167798
+      ],
+      "weight": 3,
+      "year": 1968,
+      "pin_cites": [
+        {
+          "page": "21"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/392/0001-01"
+      ]
+    },
+    {
+      "cite": "785 F.3d 1134",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4182031
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1141",
+          "parenthetical": "quoting Terry v. Ohio , 392 U.S. 1, 21, 88 S.Ct. 1868, 20 L.Ed.2d 889 (1968) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/785/1134-01"
+      ]
+    },
+    {
+      "cite": "277 F.3d 947",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9452401
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "954",
+          "parenthetical": "\"What the Constitution requires is that the entire process remain reasonable. Questions that hold potential for detecting crime, yet create little or no inconvenience, do not turn reasonable detention into unreasonable detention.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/277/0947-01"
+      ]
+    },
+    {
+      "cite": "78 F.3d 1241",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        94549
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "1244",
+          "parenthetical": "During a valid traffic stop, an officer may \"legitimately ask [a driver] to step out of his car, even without any particularized suspicion,\" and may ask the driver \"to sit in his patrol car ... .\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/78/1241-01"
+      ]
+    },
+    {
+      "cite": "543 U.S. 405",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5902584
+      ],
+      "weight": 5,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "407"
+        },
+        {
+          "page": "410"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/543/0405-01"
+      ]
+    },
+    {
+      "cite": "135 S.Ct. 1609",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12588788
+      ],
+      "weight": 5,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1614-15",
+          "parenthetical": "quoting Illinois v. Caballes , 543 U.S. 405, 407, 125 S.Ct. 834, 160 L.Ed.2d 842 (2005) "
+        },
+        {
+          "parenthetical": "quoting Illinois v. Caballes , 543 U.S. 405, 407, 125 S.Ct. 834, 160 L.Ed.2d 842 (2005) "
+        },
+        {
+          "page": "1612"
+        },
+        {
+          "page": "1615"
+        },
+        {
+          "page": "1616"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/135/1609-01"
+      ]
+    },
+    {
+      "cite": "436 U.S. 128",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1490215
+      ],
+      "weight": 3,
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "138"
+        },
+        {
+          "parenthetical": "\"[T]hat the officer does not have the state of mind which is hypothecated by the reasons which provide the legal justification for the officer's action does not invalidate the action taken as long as the circumstances, viewed objectively, justify that action.\""
+        },
+        {
+          "parenthetical": "\"[T]hat the officer does not have the state of mind which is hypothecated by the reasons which provide the legal justification for the officer's action does not invalidate the action taken as long as the circumstances, viewed objectively, justify that action.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/436/0128-01"
+      ]
+    },
+    {
+      "cite": "216 F.3d 582",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11212912
+      ],
+      "weight": 2,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "586"
+        },
+        {
+          "page": "587"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/216/0582-01"
+      ]
+    },
+    {
+      "cite": "418 F.3d 720",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8936994
+      ],
+      "weight": 5,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "724",
+          "parenthetical": "quoting United States v. Cashman , 216 F.3d 582, 586 (7th Cir. 2000) "
+        },
+        {
+          "page": "724"
+        },
+        {
+          "page": "724",
+          "parenthetical": "quoting Ind. Code 9-21-8-14"
+        },
+        {
+          "page": "726",
+          "parenthetical": "Although questions prolonging custody might affect the detention's reasonableness, police \"may ask questions that do not concern the purpose of the stop and that are not supported by any other suspicion.\""
+        },
+        {
+          "page": "726"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/418/0720-01"
+      ]
+    },
+    {
+      "cite": "517 U.S. 806",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11746960
+      ],
+      "weight": 5,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "810"
+        },
+        {
+          "page": "814"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/517/0806-01"
+      ]
+    },
+    {
+      "cite": "799 F.3d 900",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4339777
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "910"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/799/0900-01"
+      ]
+    },
+    {
+      "cite": "440 U.S. 648",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6187389
+      ],
+      "weight": 5,
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "663"
+        },
+        {
+          "page": "663"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/440/0648-01"
+      ]
+    },
+    {
+      "cite": "884 F.3d 661",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516214
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "667",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "667-68"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/884/0661-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1131,
+    "char_count": 27758,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2592541109539591
+    },
+    "sha256": "cd6a57b196a477522dcf99379f8af76e8b91563ab4588b187ce37fdc21b26ca8",
+    "simhash": "1:c688e2b76984f046",
+    "word_count": 4535
+  },
+  "last_updated": "2024-02-27T18:46:47.899627+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Flaum, Ripple, and Manion, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee,\nv.\nArriba W. LEWIS, Defendant-Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Manion, Circuit Judge.\nOfficer Sweeney pulled Arriba Lewis over for following too closely. Sweeney processed a warning while Lewis, who seemed unusually nervous, sat in the squad car. After learning Lewis was on federal supervised release for a cocaine conviction, Sweeney requested a drug-sniffing dog roughly 5 minutes into the stop.\nAbout 10 minutes and 50 seconds after Lewis pulled over, Sweeney handed him a warning. About 10 seconds later, a drug-sniffing dog and its handler approached Lewis's car. The dog alerted. Sweeney searched Lewis's car and found heroin. Lewis was charged with possession with intent to distribute heroin. The district court denied his motion to suppress. He appeals, arguing the officer lacked lawful grounds to initiate the traffic stop and arguing the officer prolonged the stop without independent reasonable suspicion for the dog to sniff. But we disagree on both fronts, and affirm.\nI. Facts\nOfficer Sweeney sat in an unmarked Ford SUV with an exterior spotlight in the median of Interstate 55 in McLean County, Illinois, watching traffic. He saw a man later identified as Arriba Lewis driving a Dodge Charger southbound in \"a pack of vehicles traveling in close proximity to each other.\" He \"was traveling right behind another vehicle in very close proximity,\" gripping the wheel at 10:00 and 2:00, and appearing to push himself behind the side pillar in a rigid posture.\nSweeney pursued Lewis. Sweeney testified he wanted \"to see if I can observe a traffic violation and confirm [Lewis's] following distance which I initially saw.\" But first he passed Lewis to assist another officer. Sweeney's dashboard camera began recording after he passed Lewis because Sweeney triggered his emergency lights as he approached the other officer. Triggering these lights activated the dashcam, which was programed to capture footage beginning 1 minute earlier. After passing Lewis, Sweeney pulled over to the right shoulder behind the other officer. Video recorded by Sweeney's dashcam shows a truck followed by Lewis pass to the left of Sweeney. The other officer declined assistance, so Sweeney pulled out and accelerated. Several vehicles moved to the right lane to let him pass. He saw Lewis ahead in the left lane \"at the preliminary stages of passing\" a truck in the right lane. Then Lewis changed to the right lane behind the truck. As Lewis followed the truck, Sweeney calculated the time-distance. He activated a stopwatch function to record the time between the truck's rear passing a milepost and the Charger's front passing the same object. He clocked this at 1.2 seconds, meaning Lewis followed 1.2 seconds behind the truck according to this calculation. Lewis stayed close behind the truck for about 45 seconds despite the lack of traffic immediately behind him.\nSweeney pulled into the right lane. He testified he activated his emergency lights. He pulled Lewis over. Lewis stopped on the right shoulder, and Sweeney pulled behind him, at about 3 minutes, 41 seconds into the video. The video shows Lewis made a movement to his right inside his car seconds later. Sweeney walked to the Charger's passenger side and saw Lewis's hands trembling. At about 4 minutes into the video, Sweeney reached the front window. He made contact with Lewis and asked for his license. Sweeney said:\nThe reason I stopped you was your following-distance. You need to leave at least 3 seconds here in Illinois. You were less than 2 behind that semi. Ok. And that's why I originally pulled out on you back, way back there, too. You had another car you were following.\nSweeney testified Lewis's hands trembled and his breathing seemed heavy and labored. Sweeney told Lewis he would just get a warning, not a ticket, and told him to sit in the squad car during preparation of the warning. After \"hem-haw[ing]\" and failing to exit his car expeditiously, when he finally began to exit he reached back in his car. Then he put his hands up as he walked. Sweeney said, \"You're fine man. Relax.\"\nIn the squad car, Sweeney typed information into a computer and talked with Lewis. The first step of completing the warning was ensuring, via computer, he had a valid license. Upon this check, the computer automatically showed he was on federal probation for a cocaine conviction. Sweeney testified the computer returned information based on the license within 1 minute of sitting in the squad car.\nAbout 2 minutes after Lewis pulled over, Sweeney asked where he was headed. Lewis said he was going to pick his son up. Sweeney asked where. Lewis said, \"School ... St. Louis.\" Sweeney asked how old the son was. Lewis said, \"26.\" He explained his son wanted to return to Chicago. Sweeney asked where the son went to school. Lewis replied his son worked in a warehouse. Lewis added his son \"got into it\" with his girlfriend. This exchange lasted slightly less than a minute. Sweeney thought the story seemed suspiciously inconsistent.\nAbout 3.5 minutes after Lewis pulled over, he asked about the 3-second guideline Sweeney mentioned:\nLewis: So you got to be how many feet back?\nSweeney: It's not feet. It's seconds. You need to be at least 3 seconds.\nLewis: Oh. Ok.\nSweeney: Ok. You were 1.2.\nLewis: How you measure that?\nSweeney: It's just a stopwatch function on here. So when the, with the semi, when it goes by a stationary object which was the milepost back there is what I used. When the back of that goes past that stationary object I start it. When the front of your vehicle goes past that same object I stop it.\nAbout 5 minutes after Lewis pulled over, Sweeney asked him what he does for work, and he said he drove a truck. Roughly 5 minutes after first making contact with Lewis at his window, Sweeney requested a drug-sniffing dog via a messaging system. Lewis concedes Sweeney requested the dog after hearing Lewis's answers regarding his travel plans and after learning via computer he had a prior drug conviction for which he was on supervised release.\nAbout 6 minutes after Lewis pulled over, Sweeney said something was taking a minute to update. Then he asked Lewis how long his son had been in St. Louis, how often Lewis visited, and whether Lewis drove a truck \"over the road.\" Sweeney testified Lewis's breathing continued to appear labored in the squad car, even after hearing he would only get a warning. Nearly 8 minutes after Lewis pulled over, Sweeney said Illinois barred the air freshener hanging from Lewis's mirror because it obstructed the view. Sweeney asked Lewis what part of St. Louis he was going to. Sweeney testified Lewis never asked if he was free to go.\nSweeney then said, \"in correlation with our safety detail today ... we do have a canine dog working with us.\" Sweeney asked if Lewis was responsible for everything in the car. About 10 minutes after Lewis pulled over, Sweeney said, \"I'm gonna print this off. I'm gonna have the dog walk around the exterior of the vehicle, ok.\" About 20 seconds later, the dashcam records the sound of the warning printing. Then Sweeney asked if Lewis was on probation. He responded in the affirmative. Nearly 11 minutes after Lewis pulled over, Sweeney said, \"Here you go. Here's your warning, ok.\" Sweeney gave the warning to Lewis, explained it, and said, \"So you're going to St. Louis though.\" At the word \"though,\" at about 14 minutes, 41 seconds into the video (about 10 seconds after giving the written warning) a dog appeared on the video and approached the rear passenger side of Lewis's car. Lewis con-firmed he was going to St. Louis. Sweeney said that was out-side Illinois. They talked about Lewis's probation and prior incarceration while the dog circled his car.\nAbout 12 minutes after Lewis pulled over (about 1 minute, 18 seconds after Sweeney gave the written warning to Lewis, and about 1 minute, 8 seconds after the dog sniff began) the handler told Sweeney the sniff was positive. Sweeney searched Lewis's car and quickly found 208 grams of heroin.\nII. Procedural posture\nLewis was charged with possession with intent to distribute heroin. The district court denied his motion to suppress. He entered a conditional guilty plea. A career offender at criminal history category VI, he received a sentence of 20 years incarceration. He appeals the denial of suppression, raising two main issues.\nFirst, he challenges the traffic stop's initiation. Second, he challenges the sniff's initiation. \"We employ a mixed standard of review on motions to suppress, re-viewing the district court's factual determinations for clear error and de novo its ultimate determination about whether the police had sufficient grounds to stop or search the individual.\" United States v. Rodriguez-Escalera , 884 F.3d 661, 667 (7th Cir. 2018) (internal quotation marks omitted).\nIII. Discussion\nA. Traffic stop\n1. Law\nLewis argues Sweeney did not have legal grounds to start the traffic stop. If Lewis is right, then the court should have suppressed the heroin as fruit of the poisonous tree. The Fourth Amendment protects against \"unreasonable searches and seizures.\" U.S. Const. amend. IV. Whenever police stop a vehicle, the stop must meet the Fourth Amendment's reasonableness requirement. Delaware v. Prouse , 440 U.S. 648, 663, 99 S.Ct. 1391, 59 L.Ed.2d 660 (1979). If a search or seizure violates the Fourth Amendment, a court will generally exclude resulting evidence. United States v. Wilbourn , 799 F.3d 900, 910 (7th Cir. 2015).\nThe district court determined probable cause justified initiating the stop. Generally, \"the decision to stop an automobile is reasonable where the police have probable cause to believe that a traffic violation has occurred.\" Whren v. United States , 517 U.S. 806, 810, 116 S.Ct. 1769, 135 L.Ed.2d 89 (1996). \"Probable cause exists when 'the circumstances confronting a police officer support the reasonable belief that a driver has committed even a minor traffic offense.' \" United States v. Muriel , 418 F.3d 720, 724 (7th Cir. 2005) (quoting United States v. Cashman , 216 F.3d 582, 586 (7th Cir. 2000) ). Probable cause is an objective standard, based on the totality of the circumstances. If an officer reasonably thinks he sees a driver commit a traffic violation, that is sufficient grounds to pull him over without offending the Constitution. Muriel , 418 F.3d at 724. The officer is not the judge. Whether the driver actually committed a traffic infraction is irrelevant for Fourth Amendment purposes so long as there was an objective basis for a reasonable belief he did. Cashman , 216 F.3d at 587.\n2. Analysis\nHere, Sweeney had more than ample grounds to pull Lewis over. As Sweeney sat in the median, he thought he saw Lewis following another vehicle too closely. That initial observation alone probably satisfied the Constitution, but we need not decide that because Sweeney pursued Lewis and conducted a time-distance calculation to confirm he followed a vehicle too closely. Sweeney calculated Lewis's following-time-distance at 1.2 seconds. Whether Lewis actually followed by 1.2 seconds exactly is irrelevant for purposes of the Fourth Amendment. It is enough that this calculation supported a reasonable belief Lewis was breaking the law.\nLewis mainly argues the 3-second rule mentioned by Sweeney during the traffic stop is merely the Illinois Secretary of State's recommendation, not the actual law. But this is a red herring because the standard for probable cause is objective.\nSee Whren , 517 U.S. at 814, 116 S.Ct. 1769 (\"[T]he Fourth Amendment's concern with 'reasonableness' allows certain actions to be taken in certain circumstances, whatever the subjective intent.\"); Scott v. United States , 436 U.S. 128, 138, 98 S.Ct. 1717, 56 L.Ed.2d 168 (1978) (\"[T]hat the officer does not have the state of mind which is hypothecated by the reasons which provide the legal justification for the officer's action does not invalidate the action taken as long as the circumstances, viewed objectively, justify that action.\"). The objective circumstances support probable cause to pull Lewis over based on the two observations of him following too closely, in violation of the law:\nThe driver of a motor vehicle shall not follow another vehicle more closely than is reasonable and prudent, having due regard for the speed of such vehicles and the traffic upon and the condition of the highway.\n625 ILCS 5/11-710(a). Here, it does not matter whether the Secretary's recommendation comports with the statute. Nor does it matter that Sweeney referenced the recommendation during the stop. Regardless, Sweeney objectively had grounds for a reasonable belief Lewis was following too closely based on the two observations (and based on the clocked observation alone).\nAnd this brings us to Lewis's next argument. He faults the court for not giving effect to the statutory language requiring a driver to act based on the \"condition of the highway.\" He argues the major highway condition was Sweeney's squad car approaching Lewis from behind. Lewis argues Illinois law required him to pull immediately into the right lane when he saw the squad car approaching. He argues he had a legal duty not to obstruct it. He argues he chose the least of the available evils when he pulled from the left lane into the right lane behind the truck to yield to Sweeney. Lewis goes so far as to argue Sweeney \"impermissibly created the grounds for the stop,\" manufacturing a \"police-created exigency.\"\nThe main problem with this argument is that it does nothing to justify or explain why Lewis stayed in the right lane in close proximity behind the truck for about 45 seconds after pulling into the right lane behind the truck. As the video demonstrates, no vehicles at this stage forced Lewis to tailgate the truck. Regardless of the status of Sweeney's emergency lights, Lewis offers no reason why he could not have eased back from the truck. Moreover, Lewis's argument does nothing to undermine Sweeney's observation from the median.\nThe court properly relied on Muriel , where an officer's \"estimation of the following distance amounted to probable cause to believe that [the suspect's] vehicle was 'more close[ ] than is reasonable and prudent.' \" Muriel , 418 F.3d at 724 (quoting Ind. Code 9-21-8-14). The court did not err in concluding probable cause supported initiating the stop.\nB. Dog sniff\n1. Law\nAn officer who reasonably starts a traffic stop, however, might violate the Constitution if he exceeds the scope or unreasonably prolongs the stop. A traffic stop \" 'can become unlawful if it is prolonged beyond the time reasonably required to complete th[e] mission' of issuing a warning ticket.\" Rodriguez v. United States , --- U.S. ----, 135 S.Ct. 1609, 1614-15, 191 L.Ed.2d 492 (2015) (quoting Illinois v. Caballes , 543 U.S. 405, 407, 125 S.Ct. 834, 160 L.Ed.2d 842 (2005) ). It is well-established a dog sniff of a vehicle's exterior only for illegal drugs during a lawful stop for a traffic violation does not infringe Fourth Amendment rights, even absent reasonable suspicion of drugs. Caballes , 543 U.S. at 410, 125 S.Ct. 834. But it is also well-established a stop justified only by a traffic violation becomes unlawful if it is prolonged beyond the time reasonably required to complete the stop's original mission. Rodriguez , 135 S.Ct. at 1612. An officer may conduct \"certain unrelated checks\"-including a dog sniff-during a lawful traffic stop, but \"he may not do so in a way that prolongs the stop, absent the reasonable suspicion ordinarily demanded to justify detaining an individual.\" Id. at 1615. Absent independent reasonable suspicion to justify the sniff, the critical question is not whether the sniff occurs before or after the officer issues the warning, \"but whether conducting the sniff 'prolongs'-i.e. , adds time to-'the stop' ... .\" Id. at 1616. But with independent reasonable suspicion, the officer may detain the suspect for the sniff even if the sniff adds time to the total stop.\nHere, the district court concluded the stop (from its start to the moment Sweeney handed Lewis the warning) was not prolonged past the time reasonably required to complete the mission of issuing a warning. And the district court determined independent reasonable suspicion justified extending the stop by about 1 minute for a canine unit to arrive.\n2. Analysis\nLewis argues even if the stop started lawfully, the heroin should be suppressed because the dog sniffed after a prolonged detention without reasonable suspicion. But he leads with a patent mistake. He claims Sweeney was completely finished with the warning at 10 minutes, 40 seconds into the video but did not print it until 14 minutes, 31 seconds into the video, a claimed unjustified delay of nearly 4 minutes. But the video and Sweeney's testimony flatly contradict this. Lewis mistakenly treats Sweeney's testimony about the time on the video's clock when he printed the warning as testimony about the duration of the stop up to the point he printed it. Sweeney testified he calculated the time it took him to complete the warning paperwork after he initiated the traffic stop (not after the video began) to be 10 minutes and 40 seconds. He testified that at 14 minutes, 26 seconds into the video (not into the stop) he said \"Here you go\" as he gave the warning to Lewis. The bottom line is the video and testimony show there was no unreasonable delay between finishing the warning and handing it to Lewis. The claimed delay of about 4 minutes merely mirrors the difference between the video's clock and the duration of the stop, because the stop begins about 4 minutes into the video. The simple fact, shown by the video and testimony, is Sweeney printed the warning between 10 and 11 minutes into the stop and promptly gave it to Lewis. His false equivocation infects some of his remaining arguments.\nLewis next argues Sweeney unlawfully prolonged the detention by taking time to impermissibly confine and question him about issues unrelated to the warning, and he raises several detailed points. But each point fails.\nLewis argues switching cars took 1 minute. But he does not explain why this delay was unlawful or why sitting in the squad car was impermissible. We already determined the court did not err in concluding the initiation of the traffic stop was permissible. Lewis does not explain why moving him to the squad car was not reasonably incidental. See United States v. Baker , 78 F.3d 1241, 1244 (7th Cir. 1996) (During a valid traffic stop, an officer may \"legitimately ask [a driver] to step out of his car, even without any particularized suspicion,\" and may ask the driver \"to sit in his patrol car ... .\"). Nor does he explain why, during the minute between Sweeney asking Lewis to exit his car and Lewis entering the squad car, he spent about 40 seconds in his car after being asked to exit.\nLewis next argues Sweeney spent 6 minutes and 15 seconds asking about irrelevant travel matters and explaining how a canine unit will arrive. Lewis cites two parts of the video in support. There are several problems with Lewis's argument here. The first challenged part of the video begins with Sweeney asking, \"Where are we headed to today, sir?\" Officers across the country would be surprised if we countenanced the characterization of this basic, routine question as irrelevant to a traffic stop. Lewis's initial response to this question was not entirely forthcoming: \"Pick my son up.\" That response naturally led to Sweeney's next question: \"Where's that at?\" Again, Lewis's response was not entirely forthcoming: \"School ... St. Louis.\" So Sweeney asked how old the son was and where he went to school. Lewis gave the age, brought up returning to Chicago, never answered about school, brought up his son's work in \"some warehouse,\" and brought up a situation between his son and his son's girlfriend.\nThe Constitution allows an officer to ask these questions during a traffic stop, especially when the answers objectively seem suspicious. See Muriel , 418 F.3d at 726 (Although questions prolonging custody might affect the detention's reasonableness, police \"may ask questions that do not concern the purpose of the stop and that are not supported by any other suspicion.\"); United States v. Childs , 277 F.3d 947, 954 (7th Cir. 2002) (\"What the Constitution requires is that the entire process remain reasonable. Questions that hold potential for detecting crime, yet create little or no inconvenience, do not turn reasonable detention into unreasonable detention.\") And Lewis could have refused to answer at some point. But the biggest problem with Lewis's argument here is he does not show any reason these exchanges prolonged the process of issuing the warning. The video and testimony both document Sweeney worked on the warning while talking with Lewis.\nThe court did not err in determining the duration of the stop (from its start to the moment Sweeney handed Lewis the warning) was not prolonged past the time reasonably required to complete the mission of issuing a warning.\nThe court turned to the issue of whether Sweeney obtained enough information during the stop before issuing the warning to have independent reasonable suspicion of criminal activity to justify detaining Lewis further. Sweeney handed Lewis the warning about 10 minutes, 50 seconds after Lewis pulled over. The dog alerted roughly 1 minute later. Even if the period between handing the warning and the dog alerting could be called a delay of about 1 minute it was justified by independent reasonable suspicion, as the court held.\nReasonable suspicion requires \" 'specific and articulable facts which, taken together with rational inferences from those facts,' suggest criminal activity.\" United States v. Ruiz , 785 F.3d 1134, 1141 (7th Cir. 2015) (quoting Terry v. Ohio , 392 U.S. 1, 21, 88 S.Ct. 1868, 20 L.Ed.2d 889 (1968) ). Reasonable suspicion is an objective standard, considering the totality of the circumstances. By the time Sweeney issued the warning, this is what he objectively had reason to know. One, Lewis seemed unusually nervous even after hearing he would only get a warning. His hands trembled. His breathing was heavy and labored. Nervousness can raise reasonable suspicion. Illinois v. Wardlow , 528 U.S. 119, 124, 120 S.Ct. 673, 145 L.Ed.2d 570 (2000). Two, he was on supervised release for a drug offense. Criminal histories can support reasonable suspicion. United States v. Sanford , 806 F.3d 954, 959 (7th Cir. 2015). (Sweeney had these objective grounds for reasonable suspicion even without asking any questions Lewis now challenges.) Three, his travel explanations seemed suspiciously inconsistent, which can raise reasonable suspicion. Muriel , 418 F.3d at 726. These factors legitimately gave rise to objective reasonable suspicion.\nThis is true even if Lewis always breathes heavily, with constantly trembling hands. Even if he were actually innocent of the prior drug charge and a judge planned to exonerate him next morning. Even if his son actually studied and worked in St. Louis, quarreled, and wanted to return to Chicago. Regardless, objective reasonable suspicion of criminal activity supported detaining Lewis to allow a dog to sniff. Perhaps we could add his rigid posture, furtive movements, \"hem-hawing,\" and I-55's drug-trafficking reputation. But we need not.\nWe conclude the district court did not err in determining any delay beyond the routine traffic stop to allow the dog to sniff was justified by independent reasonable suspicion.\nIV. Conclusion\nWe considered all Lewis's arguments and found none availing. We AFFIRM the denial of suppression.\nThe parties dispute the timing of Sweeney's activation of his emergency lights. Sweeney testified he activated his lights sometime after clocking the following-distance at 1.2 seconds. But Lewis argues Sweeney activated his lights when he pulled over to offer assistance to the other officer, well before clocking the following-distance, and nothing in the record shows he turned the lights off. This issue's potential relevance concerns the reason Lewis pulled into the right lane behind the truck.\nThe dashcam video (presented at the suppression hearing and submitted to us) begins at 0 minutes, 0 seconds. The video runs for about 3 minutes, 41 seconds before showing Lewis stop on the shoulder. It then shows Sweeney reach the front passenger-side window of the Charger at about 4 minutes into the video. Sweeney said \"Here you go. Here's your warning, ok,\" and handed it to Lewis at about 14 minutes, 31 seconds into the video. Thus, the total time from Lewis pulling over to Sweeney handing him the warning is about 10 minutes, 50 seconds. The dog sniff began about 10 seconds later and took about 1 minute, 8 seconds. References to the video's time during the stop include about 4 minutes before Sweeney reached Lewis's window. The video's length does not equal the duration of the stop. As we show below, Lewis sometimes conflates the video's length with the duration of the stop. But they are not the same.\nWe base our quotations of Sweeney and Lewis during the stop on the video. Any deviations are immaterial.\nSweeney used the word \"probation,\" apparently because his computer did not distinguish between this and supervised release. Actually, Lewis was on the latter. But the distinction is immaterial here.\nThis comports with his testimony that he completed the \"warning paperwork\" roughly 10 minutes, 40 seconds after initiating the stop.\nThe lower standard of reasonable suspicion is enough to justify some traffic stops. Navarette v. California , 572 U.S. 393, 396, 134 S.Ct. 1683, 188 L.Ed.2d 680 (2014) ; Prouse , 440 U.S. at 663, 99 S.Ct. 1391 ; Rodriguez-Escalera , 884 F.3d at 667-68. But we need not apply this standard here because the district court did not err in finding probable cause.\nLewis argues: \"For the Government to have met its burden of establishing probable cause for a 625 ILCS 5/11-710(a) violation, it had to prove Mr. Lewis was driving in a way that was not 'reasonable or prudent' given the 'speed of [other] vehicles' and the 'condition of the highway.' \" (Appellant's Reply at 9-10.) That is wrong. To show the constitutionality of the traffic stop's start, the government merely needed to show an objective basis for a reasonable belief Lewis followed too closely, not that he actually followed too closely. Whether Lewis actually followed at 1.2 seconds and whether 1.2 seconds was actually too close, given all the conditions of the highway, are irrelevant to whether there was probable cause sufficient to initiate the stop, and ultimately would have been for a traffic court to decide (if Sweeney issued a ticket instead of a warning).\nWe question whether even this minute can be characterized as a delay to wait for a dog, because immediately after handing Lewis the warning and explaining in a quick and routine manner what it is, Sweeney brings up the apt point that Lewis said he was going to St. Louis, but his terms likely restrict his freedom to leave Illinois. But we need not explore this further because we agree with the district court that Sweeney had independent reasonable suspicion to detain Lewis after handing him the warning to allow the dog time to sniff.",
+        "type": "majority",
+        "author": "Manion, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Adam Ghrist, Attorney, Office of the United States Attorney, Peoria, IL, for Plaintiff - Appellee.",
+      "Daniel J. Hillis, Attorney, Office of the Federal Public Defender, Springfield, IL, Thomas W. Patton, Attorney, Office of the Federal Public Defender, Peoria, IL, for Defendant - Appellant."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee,\nv.\nArriba W. LEWIS, Defendant-Appellant.\nNo. 17-3592\nUnited States Court of Appeals, Seventh Circuit.\nArgued November 29, 2018\nDecided April 3, 2019\nAdam Ghrist, Attorney, Office of the United States Attorney, Peoria, IL, for Plaintiff - Appellee.\nDaniel J. Hillis, Attorney, Office of the Federal Public Defender, Springfield, IL, Thomas W. Patton, Attorney, Office of the Federal Public Defender, Peoria, IL, for Defendant - Appellant.\nBefore Flaum, Ripple, and Manion, Circuit Judges."
+  },
+  "file_name": "0483-01",
+  "first_page_order": 483,
+  "last_page_order": 493
+}

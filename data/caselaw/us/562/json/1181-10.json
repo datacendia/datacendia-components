@@ -1,0 +1,59 @@
+{
+  "id": 6029045,
+  "name": "Richards v. United States",
+  "name_abbreviation": "Richards v. United States",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-5653",
+  "first_page": "1181",
+  "last_page": "1181",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1181"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.562,
+    "sha256": "6c8355a6324143f34ed985b3933f89b6db994fe0880aff7cd45ab76f566ee2cc",
+    "simhash": "1:16aacb23874b907a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Richards v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5653.\nRichards v. United States."
+  },
+  "file_name": "1181-10",
+  "first_page_order": 1203,
+  "last_page_order": 1203
+}

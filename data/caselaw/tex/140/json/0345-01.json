@@ -1,0 +1,404 @@
+{
+  "id": 2310181,
+  "name": "Citizens State Bank of Houston v. Teresa Elma. Basquez O'Leary et al.",
+  "name_abbreviation": "Citizens State Bank v. O'Leary",
+  "decision_date": "1942-11-11",
+  "docket_number": "No. 7939",
+  "first_page": "345",
+  "last_page": "353",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "140 Tex. 345"
+    },
+    {
+      "type": "parallel",
+      "cite": "167 S.W.2d 719"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "203 U. S. 399",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8293266
+      ],
+      "weight": 3,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/203/0399-01"
+      ]
+    },
+    {
+      "cite": "89 S. W. (2d) 210",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10242709,
+        2296198
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/89/0210-01",
+        "/tex/126/0380-01"
+      ]
+    },
+    {
+      "cite": "126 Texas 380",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2296198
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/126/0380-01"
+      ]
+    },
+    {
+      "cite": "65 Texas 267",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2204531
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/65/0267-01"
+      ]
+    },
+    {
+      "cite": "44 Texas 381",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2162068
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/44/0381-01"
+      ]
+    },
+    {
+      "cite": "109 Mass. 115",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        2108100
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/mass/109/0115-01"
+      ]
+    },
+    {
+      "cite": "276 Fed. 855",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6742220
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/f/276/0855-01"
+      ]
+    },
+    {
+      "cite": "27 N. E. 1060",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "128 N. Y. 1",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2241518
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/128/0001-01"
+      ]
+    },
+    {
+      "cite": "47 S. D. 80",
+      "category": "reporters:state",
+      "reporter": "S.D.",
+      "case_ids": [
+        5359797
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sd/47/0080-01"
+      ]
+    },
+    {
+      "cite": "80 Am. St. Rep. 928",
+      "category": "reporters:state",
+      "reporter": "Am. St. Rep.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 Pac. 934",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "56 Pac. 994",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "8 Wyo. 230",
+      "category": "reporters:state",
+      "reporter": "Wyo.",
+      "case_ids": [
+        8515756
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wyo/8/0230-01"
+      ]
+    },
+    {
+      "cite": "88 Utah 148",
+      "category": "reporters:state",
+      "reporter": "Utah",
+      "case_ids": [
+        8870632
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/utah/88/0148-01"
+      ]
+    },
+    {
+      "cite": "53 N. D. 526",
+      "category": "reporters:state",
+      "reporter": "N.D.",
+      "case_ids": [
+        8590074
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/nd/53/0526-01"
+      ]
+    },
+    {
+      "cite": "81 Ky. 416",
+      "category": "reporters:state",
+      "reporter": "Ky.",
+      "case_ids": [
+        1311625
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ky/81/0416-01"
+      ]
+    },
+    {
+      "cite": "41 Atl. 443",
+      "category": "reporters:state_regional",
+      "reporter": "A.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "70 Vt. 399",
+      "category": "reporters:state",
+      "reporter": "Vt.",
+      "case_ids": [
+        4459802
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/vt/70/0399-01"
+      ]
+    },
+    {
+      "cite": "271 S. W. 75",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10294069
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/271/0075-01"
+      ]
+    },
+    {
+      "cite": "273 S. W. 828",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10321344
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/273/0828-01"
+      ]
+    },
+    {
+      "cite": "50 S. W.. (2d) 769",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10251674,
+        2305651
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/50/0769-01",
+        "/tex/121/0502-01"
+      ]
+    },
+    {
+      "cite": "121 Texas 502",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2305651
+      ],
+      "pin_cites": [
+        {
+          "page": "513"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/121/0502-01"
+      ]
+    },
+    {
+      "cite": "20 Texas 89",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2121242
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/20/0089-01"
+      ]
+    },
+    {
+      "cite": "57 Texas 156",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2177484
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/57/0156-01"
+      ]
+    },
+    {
+      "cite": "276 S. W. 664",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10306341
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/276/0664-01"
+      ]
+    },
+    {
+      "cite": "155 S. W. (2d) 677",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10223388
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/155/0677-01"
+      ]
+    },
+    {
+      "cite": "89 S. W. (2d) 210",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10242709,
+        2296198
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/89/0210-01",
+        "/tex/126/0380-01"
+      ]
+    },
+    {
+      "cite": "126 Texas 380",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2296198
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/126/0380-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 780,
+    "char_count": 16270,
+    "ocr_confidence": 0.604,
+    "pagerank": {
+      "raw": 1.6245936247814682e-07,
+      "percentile": 0.6878964758177021
+    },
+    "sha256": "f1c46a88b3d6d7272b103728438b77c5bd26d326d7d47a61cc1037d9190908e5",
+    "simhash": "1:340f0642aaf5d4dc",
+    "word_count": 2824
+  },
+  "last_updated": "2024-02-27T22:16:15.949603+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Citizens State Bank of Houston v. Teresa Elma. Basquez O\u2019Leary et al."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Sharp\ndelivered the opinion of the Court.\nThe principal question involved here is whether a certificate of a share in the Houston Pilots, a voluntary unincorporated association, may be pledged or mortgaged to secure a debt, and whether it may be the subject of a chattel mortgage so that the instrument, when recorded, constitutes constructive notice to a subsequent pledgee.\nA bill of interpleader was filed by Charles O\u2019Brien and twenty other individuals, naming as defendants the executors of the Estate of Captain Joseph G. Basquez, Sr., his six surviving children, Mrs. Hcnorine LeBlanc, the Citizens State Bank of Houston, and A. M. Carlson. There is no controversy about the trial court\u2019s judgment in favor of Carlson, and no further mention need be made of him. Plaintiffs asserted that they had agreed to pay to the Estate of Captain Basquez, Sr., upon his death, the sum of $3,000.00, upon the surrender and cancellation of ,a certain certificate issued by the Houston Pilots to Captain Basquez when he became a member of the Houston Pilots, and also agreed to pay certain other sums, not here involved; and that they were willing and ready to pay said amounts, but that Mrs. LeBlanc, the Citizens State Bank, and A. M. Carlson were each asserting a claim to said funds; and plaintiffs asked the court to determine the respective rights of the defendants. At the conclusion of the evidence the trial court withdrew the case from the jury, stating there were no facts for the jury to decide, and rendered judgment: (1) for Mrs. LeBlanc in the sum of $1,692.69, being the balance due on her debt, including interest and attorney\u2019s fees, and foreclosing her lien upon the certificate; and (2) for the Citizens State Bank of Houston for $3,302.75, being the balance due on its debt, including interest and attorney\u2019s fees, and foreclosing its lien upon the certificate, \u2014 subject, however, to the prior right of Mrs. LeBlanc, acquired by her by virtue of the chattel mortgage. The Citizens State Bank of Houston appealed to the Court of Civil Appeals. That court reversed the judgment of the trial court, and held that the certificate could be incumbered only in accordance with the written agreement of the Houston Pilots; and since the agreement made no provision for incumbering the certificate in the manner as Captain Basquez had done, that the two liens were wholly void and of no effect, and that the certificate belonged to the executors free of any lien or claim by the Citizens State Bank of Houston or by Mrs. LeBlanc. 155 S. W. (2d) 677. A writ of error was granted.\nThe facts are undisputed. Plaintiffs are marine pilots, who perform the work of piloting ships in and out of the port of Houston. In 1921 a group of Houston pilots entered into a written agreement, whereby they organized the Houston Pilots, an unincorporated association, for the purpose of \u201cmore efficiently handling vessels on the Houston Ship Channel.\u201d From time to time other pilots joined the association. Each pilot, upon becoming a member, was required to- pay into the association the sum of $3,000.00, and the association issued to each a certificate of membership. When a member retired or died, the association paid to him, or to his representatives, the sum of $3,000.00, upon the surrender and cancellation of the certificate which had been issued to him. Captain Basquez became a member of said association on April 2, 1925, and Certificate No. 8 was issued to him. The material parts of such certificate read as follows:\n\u201cThis certificate that Joseph G. Basquez is the legal owner and holder of one share of the Houston Pilots, and as such owner and holder, properly and satisfactorily performing his assigned services and duties, is entitled to one share of the interest, income, revenue, profits, property, trade and business of the Houston Pilots.\n\u201cThe Houston Pilots is composed of such number of shares as may from time to time be decided by the members thereof, and each owner and holder of a certificate, after due and proper selection, appointment, and serving his term as a deputy, and properly and in accordance with the rules of the Houston Pilots admitted to membership, and actually and continuously performing the work and labor of a pilot in association with the Houston Pilots, and acceptable and satisfactory to them, is the owner of one share of the property, income, profits and sinking fund of the Houston Pilots as is more fully covered by the agreement heretofore made between the Houston Pilots, and which will be signed by the holder and owner of this certificate. This certificate, or share, shall be sold, transferred, incumbered or restrained only in accordance with the agreement of the Houston Pilots, under their agreement, and any other sale, incumbrance or attempted disposition, or restraints thereof is void.\u201d\nOn May 23, 1930, Captain Basque executed to Mrs. LeBlanc, his sister, a note for $1,500.00, payable one year after date; and to secure the payment thereof executed a chattel mortgage on the certificate referred to above. The chattel mortgage was recorded in the office of the clerk of Harris County, in which county Captain Basquez resided on May 29, 1930. On October 30, 1934, Captain Basquez executed an instrument renewing and extending the indebtedness, and promising to pay same at the rate of $35.00 per month. At the time of the trial there was a balance of $905.00 due on the principal of said note.\nOn August 4, 1938, Captain Basquez executed to the Citizens State Bank of Houston a promissory note for $2,638.28, and as security pledged the certificate which he had previously mortgaged to Mrs. LeBlanc. The Bank was then in possession of the certificate, having secured it in connection with a previous loan it had made to Captain Basquez. At the time of the trial no part of the principal of this note had been paid.\nThe agreement of the association creating the Houston Pilots, and under which it operates, contains no provision providing for the transfer, sale, assignment, or incumbrance of the certificate, other than the first paragraph of Section 10, which reads as follows:\n\u201cNo applicant, related to a member by blood or marriage within the third degree of kindred, shall be eligible for membership in the Association; however, such member may resign from the Association and assign his interest therein to such applicant, whereupon such ineligibility shall be removed.\u201d\nThere is nothing in the agreement, which is made a part of the certificate, which authorized Captain Basque to mortgage or pledge the certificate held by him; and hence his attempt to mortgage or pledge such certificate is not binding on the Houston Pilots, if the restriction placed therein is valid or binding.\nThe Citizens State Bank of Houston contends that the certificate is a chose in action, not subject to be mortgaged, and that the recording of the mortgagee by Mrs. LeBlanc does not constitute constructive notice to the Bank of the lien held by Mrs. LeBlanc, because a mortgage upon a chose in action is not an instrument that may be recorded under our Registration and Chattel Mortgage Statutes, Article 5490 and 6626, Vernon\u2019s Annotated Civil Statutes. In the alternative, the Citizens State Bank of Houston contends- that, if the chattel mortgage is valid, nevertheless its lien is superior to that of Mrs. LeBlanc, because she did not file with the county clerk, within six years after the note matured, an affidavit as required by Article 5499.\nThe certificate issued by the Houston Pilots to- Captain Basque, in so far as it agrees to pay his estate the sum of $3,000.00, is a chose in action, being a contract to pay money upon the happening of a contingency. It is a non-negotiable instrument because it lacks an essential element of negotiability required by Section 1, Article 5932 of the Negotiable Instrument Act. Clay-Butler Lumber Co. v. W. H. Pickering Lumber Co. (Com. App.), 276 S. W. 664; 10 C. J. S., p. 431, sec. 24a, Id. p. 573, sec. 123a.\nIt is not the policy of the law of this State to favor restraints upon the alienation of property. Our courts have held that any species of property is assignable, and that \u201ceverything which can be called a debt may be assigned, and the assignee may recover either in his own name or in that of the assignor.\u201d In other words, any chose in action may be assigned and suit brought thereon by the equitable holder. Galveston H. & S. A. R. R. Co. v. Freeman, 57 Texas 156; Hopkins v. Upshur, 20 Texas 89, 70 Amer. Dec. 375; Lemar v. Garner, 121 Texas 502, 513, 50 S. W.. (2d) 769; Hoffman et al v. Magnolia Petroleum Co. (Com. App.), 273 S. W. 828; Dittman v. Model Baking Co. (Com. App.), 271 S. W. 75; 5 Tex. Jur., p. 7, sec. 6.\nThe Legislature has provided that, \u201cThe obligee or assignee of any written instrument not negotiable by the law merchant, may by assignment transfer all his interest therein to another.\u201d Article 569, Vernon\u2019s Annotated Civil Statutes. Also see Reef v. Mills Novelty Co., 126 Texas 380, 89 S. W. (2d) 210.\nAs a general rule, any property which is capable of being sold may be mortgaged. Woodward v. LaPorte, 70 Vt. 399, 41 Atl. 443; Spalding v. Paine\u2019s Adm., 81 Ky. 416.\nThe foregoing rules prevail, in the absence of a binding restriction to the contrary.\nWe find it unnecessary to determine whether the chattel mortgage held by Mrs. LeBlane is one that may be recorded under our Registration Statutes. We shall assume, for the purposes of this opinion, without announcing a decision thereon, that the record of the chattel mortgage did constitute constructive notice to the Bank of Mrs. LeBlanc\u2019s lien.\nThere is no contention that the Bank had actual notice of Mrs. LeBlanc\u2019s lien. Article 5499, R. C. S. 1925, provides as follows:\n\u201cAll chattel mortgages filed with the county clerks of this State in accordance with law shall be prima facie presumed to have been paid after the expiration of six years from the date of the maturity of the debts such mortgages were intended to secure, unless the owner or holder of such mortgages, his agent or attorney, shall, within three months next before the expiration of said time, file an affidavit in writing with the county clerk stating that such debt has not been paid, and the amount still due thereon. If such affidavit is not filed the clerk shall, at the expiration of said time, either deliver such mortgage to the maker or destroy the same.\u201d\nThe chattel mortgage filed or recorded by Mrs. LeBlane states that the note executed by Captain Basquez was due on the 24th day of May, 1931. There is nothing in this record to show that Mrs. LeBlane filed the affidavit, as required by Article 5499, within six years after May 24, 1931. The note held by the Bank was executed by Captain Basquez on August 14, 1938, which was more than six years after Mrs. LeBlanc\u2019s note was due. The record of her mortgage was therefore not constructive notice to the Bank.\nMrs. LeBlanc contends that, since the Bank had acquired possession of the certificate on April 9, 1936, in connection with the loan then made to Captain Basque, and when it did have constructive notice of her lien, this notice continued and was effective when the Bank took its second note. We cannot sustain this contention. If the Bank had had actual knowledge of Mrs. LeBlanc\u2019s lien on August 14, 1938, and had then searched the records of the County Clerk of Harris County, it would not have found the affidavit required of Mrs. LeBlanc by Article 5499. Therefore it would have been entitled to presume that the debt had been discharged, and that the certificate was free and clear of all liens. We hold that Mrs. LeBlanc lost her right to a prior and superior lien by her failure to file the affidavit.\nSo far as we have been able to ascertain, Article 5499 has not been construed by the courts of this State. Other States have enacted similar statutes, and we cite some of the decisions construing those statutes: Hanson v. Blum, 53 N. D. 526, 207 N. W. 144; Commercial Security Bank of Ogden v. Chimes Press, 88 Utah 148, 42 Pac. (2d) 990; First Nat. Bk. of Rock Springs v. Ludvigsen, 8 Wyo. 230, 56 Pac. 994, 57 Pac. 934, 80 Am. St. Rep. 928; First Nat. Bk. v. Magner, 47 S. D. 80, 195 N. W. 1020; Tremaine v. Mortimer, 128 N. Y. 1, 27 N. E. 1060; see anno. in 51 A. L. R., p. 591 et seq.; 14 C. J. S., p. 776, sec 170 et seq.; 11 C. J., p. 543 et seq.\nWe next consider the conflicting claims of the executors of the Estate and of the Bank. The executors contend that the assignment of the certificate to the Bank by Captain Basquez, as a pledge to secure a debt, is void and of no effect, because the certificate on its face charges the Bank with notice that it could be incumbered \u201conly in accordance with the agreeement of the Houston Pilots, under their agreement, and any other sale, incumbrance or attempted disposition, or restraints thereof is void.\u201d As previously stated, the agreement made no provision concerning the manner in which the certificate could be incumbered. Reasonable restraints upon the assignability or incumbrance of certificates of shares in a private corporation or association are valid and binding. 18 C. J. S., p. 922, sec. 391; 14 C. J., p. 666. The restriction inserted in the certificate is a reasonable one, and it is valid and binding upon the holder thereof and his assigns. It is not merely a promise to pay $3,000.00, but it also gives the holder a right to membership in the association and to participate in certain earnings of the Houston Pilots. The restrictions, however, were made for the benefit of Houston Pilots, and it alone may complain and refuse to recognize a transfer or incumbrance; and if it elects not to do so, no one else may object. There is no contention here that the holder of this certificate is entitled to a membership in Houston Pilots, but the question is presented as to who is entitled to the cash value of such certificate. The association is not here complaining of the assignment of the certificate; but, on the contrary, it stands ready and willing to pay the money to whomsoever the court directs, upon surrender and cancellation of the certificate. As between the Bank and Captain Basque and the executors, the pledge is valid and binding.\nThe judgment of the Court of Civil Appeals is reversed, and that of the trial court is reformed so as to provide that the pledged lien held by the Citizens State Bank of Houston is superior to the claim and lien held by Mrs. Honorin\u00e9 LeBlanc. In all other respects the judgment of the trial court is affirmed.\nOpinion delivered November 11, 1942.\nRehearing overruled February 10, 1943.",
+        "type": "majority",
+        "author": "Mr. Justice Sharp"
+      }
+    ],
+    "attorneys": [
+      "Morrow, Boyd & Murrin and Walter E. Boyd, for Citizens State Bank, and Leiois & Knipp, Ernest A. Knipp, for Mrs. Honorine LeBlanc, all of Houston, for petitioners.",
+      "Walter F. Johnston, for Teresa E. B. O\u2019Leary and J. G. Basquez, Jr., executors, and Charles Murphy, for the members of the Houston Pilots, all of Houston, for the respondents."
+    ],
+    "corrections": "",
+    "head_matter": "Citizens State Bank of Houston v. Teresa Elma. Basquez O\u2019Leary et al.\nNo. 7939.\nDecided November 11, 1942.\nRehearing overruled February 10, 1943.\n(167 S. W., 2d Series, 719.)\nMorrow, Boyd & Murrin and Walter E. Boyd, for Citizens State Bank, and Leiois & Knipp, Ernest A. Knipp, for Mrs. Honorine LeBlanc, all of Houston, for petitioners.\nIt was error for the Court of Civil Appeals to hold that the value of the certificate tendered by interpleader belongs to the executors of the Estate of Joseph G. Basquez, Sr., free of any and all claims of petitioners against the estate for the petitioner\u2019s debt, the validity of which is unquestioned. Vidal v. South American Secruities Co., 276 Fed. 855; Salisbury Mills v. Townsend, 109 Mass. 115; Price v. Price, 6 Dana (Ky.) 107; Bradford v. Johnson, 44 Texas 381; Swearingen & Garrett v. Bassett, 65 Texas 267.\nWalter F. Johnston, for Teresa E. B. O\u2019Leary and J. G. Basquez, Jr., executors, and Charles Murphy, for the members of the Houston Pilots, all of Houston, for the respondents.\nThe Court of Civil Appeals correctly held that the chattel mortgage of Mrs. LeBlanc and the pledge of the Citizens State Bank of the certificate of membership held by J. G. Basque, Sr., was void as said claimants took with notice of the fact that said certificate could not be transferred except in accordance with the agreement of the Houston Pilots, and therefore neither acquired any lien or title to the certificate in question. 14 C. J. sec., 1036; Reef v. Mills Novelty Co., 126 Texas 380, 89 S. W. (2d) 210; Guy v. Donald, 203 U. S. 399, 27 Sup. Ct., 63, 51 L. Ed. 245."
+  },
+  "file_name": "0345-01",
+  "first_page_order": 369,
+  "last_page_order": 377
+}

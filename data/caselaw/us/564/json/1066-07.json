@@ -1,0 +1,71 @@
+{
+  "id": 5930275,
+  "name": "Wood v. Milyard, Warden, et al.",
+  "name_abbreviation": "Wood v. Milyard",
+  "decision_date": "2011-09-27",
+  "docket_number": "No. 10-9995",
+  "first_page": "1066",
+  "last_page": "1066",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1066"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "28 U. S. C. \u00a7 2244",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(d)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 71,
+    "char_count": 555,
+    "ocr_confidence": 0.533,
+    "sha256": "9334182ba93a3df0d0ce30e7b0a97c22b378214bf43403e9a19d4d768d455034",
+    "simhash": "1:2b98ff141744367a",
+    "word_count": 94
+  },
+  "last_updated": "2024-02-27T23:47:04.462735+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wood v. Milyard, Warden, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Motion of petitioner for leave to proceed in forma pauperis granted. Certiorari granted limited to the following questions: (1) Does an appellate court have the authority to raise sua sponte a 28 U. S. C. \u00a7 2244(d) statute of limitations defense? (2) Does the State\u2019s declaration before the District Court that it \u201cwill not challenge, but [is] not conceding, the timeliness of Wood\u2019s habeas petition,\u201d amount to a deliberate waiver of any statute of limitations defense the State may have had?",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9995.\nWood v. Milyard, Warden, et al."
+  },
+  "file_name": "1066-07",
+  "first_page_order": 1060,
+  "last_page_order": 1060
+}

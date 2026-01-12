@@ -1,0 +1,59 @@
+{
+  "id": 12412722,
+  "name": "Brown v. Florida",
+  "name_abbreviation": "Brown v. Florida",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10369",
+  "first_page": "841",
+  "last_page": "841",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 841"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 82,
+    "ocr_confidence": 0.704,
+    "sha256": "9a25c4f6eff8aea2937e4ecca564ebaf961aec9a13c194c498957e3768e0d65a",
+    "simhash": "1:b32804020d65eab8",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Brown v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 5th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10369.\nBrown v. Florida."
+  },
+  "file_name": "0841-12",
+  "first_page_order": 917,
+  "last_page_order": 917
+}

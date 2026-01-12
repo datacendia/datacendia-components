@@ -1,0 +1,686 @@
+{
+  "id": 3932028,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. JOSE SAUCEDA-CONTRERAS, Defendant and Appellant",
+  "name_abbreviation": "People v. Sauceda-Contreras",
+  "decision_date": "2012-08-13",
+  "docket_number": "No. S191747",
+  "first_page": "203",
+  "last_page": "222",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "55 Cal. 4th 203"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal.",
+    "id": 9021,
+    "name": "Supreme Court of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "929 P.2d 544",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "60 Cal.Rptr.2d 225",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "14 Cal.4th 1005",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        341425
+      ],
+      "pin_cites": [
+        {
+          "page": "1045-1046"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/14/1005-01"
+      ]
+    },
+    {
+      "cite": "150 P.3d 1224",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1997,
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.Rptr.3d 245",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1997,
+      "opinion_index": 0
+    },
+    {
+      "cite": "40 Cal.4th 483",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3159218
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "503"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/40/0483-01"
+      ]
+    },
+    {
+      "cite": "266 P.3d 1008",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "135 Cal.Rptr.3d 312",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.4th 367",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6050802
+      ],
+      "pin_cites": [
+        {
+          "page": "371, fn. 1"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/53/0367-01"
+      ]
+    },
+    {
+      "cite": "501 U.S. 171",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1108476
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "177-178"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/501/0171-01"
+      ]
+    },
+    {
+      "cite": "104 P.3d 98",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1991,
+      "opinion_index": 0
+    },
+    {
+      "cite": "23 Cal.Rptr.3d 295",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1991,
+      "opinion_index": 0
+    },
+    {
+      "cite": "34 Cal.4th 1111",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        633025
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "1123"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/34/1111-01"
+      ]
+    },
+    {
+      "cite": "475 U.S. 412",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6204292
+      ],
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "421"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/475/0412-01"
+      ]
+    },
+    {
+      "cite": "209 P.3d 1",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "95 Cal.Rptr.3d 78",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.4th 731",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3896084
+      ],
+      "pin_cites": [
+        {
+          "page": "751"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/46/0731-01"
+      ]
+    },
+    {
+      "cite": "812 P.2d 163",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "283 Cal.Rptr. 144",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.3d 1195",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2358682
+      ],
+      "pin_cites": [
+        {
+          "page": "1233"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/53/1195-01"
+      ]
+    },
+    {
+      "cite": "906 P.2d 2",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1991,
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.Rptr.2d 165",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1991,
+      "opinion_index": 0
+    },
+    {
+      "cite": "11 Cal.4th 694",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1960658
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "752"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/11/0694-01"
+      ]
+    },
+    {
+      "cite": "83 Cal.Rptr.2d 519",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "71 Cal.App.4th 62",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        585017
+      ],
+      "pin_cites": [
+        {
+          "page": "69"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/71/0062-01"
+      ]
+    },
+    {
+      "cite": "441 U.S. 369",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1780286
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "373"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/441/0369-01"
+      ]
+    },
+    {
+      "cite": "129 L.Ed.2d 362",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        39831
+      ],
+      "weight": 3,
+      "year": 1987,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/512/0452-01"
+      ]
+    },
+    {
+      "cite": "518 F.3d 1072",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3555886
+      ],
+      "weight": 2,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "1080"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/518/1072-01"
+      ]
+    },
+    {
+      "cite": "198 P.3d 11",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2008,
+      "opinion_index": 0
+    },
+    {
+      "cite": "87 Cal.Rptr.3d 209",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2008,
+      "opinion_index": 0
+    },
+    {
+      "cite": "857 P.2d 1099",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "22 Cal.Rptr.2d 689",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 Cal.4th 950",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1998556
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "991"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/5/0950-01"
+      ]
+    },
+    {
+      "cite": "859 P.2d 673",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1993,
+      "opinion_index": 0
+    },
+    {
+      "cite": "23 Cal.Rptr.2d 593",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1993,
+      "opinion_index": 0
+    },
+    {
+      "cite": "6 Cal.4th 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1995115
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "25"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/6/0001-01"
+      ]
+    },
+    {
+      "cite": "47 P.3d 988",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1993,
+      "opinion_index": 0
+    },
+    {
+      "cite": "121 Cal.Rptr.2d 106",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1993,
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.4th 107",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        947675
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "181"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/28/0107-01"
+      ]
+    },
+    {
+      "cite": "187 P.3d 970",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "80 Cal.Rptr.3d 126",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.4th 636",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3888662
+      ],
+      "pin_cites": [
+        {
+          "page": "667"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/44/0636-01"
+      ]
+    },
+    {
+      "cite": "861 P.2d 1107",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "24 Cal.Rptr.2d 421",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "6 Cal.4th 215",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1995111
+      ],
+      "pin_cites": [
+        {
+          "page": "235-236"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/6/0215-01"
+      ]
+    },
+    {
+      "cite": "949 P.2d 18",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "70 Cal.Rptr.2d 321",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "17 Cal.4th 229",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1550651
+      ],
+      "pin_cites": [
+        {
+          "page": "248"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/17/0229-01"
+      ]
+    },
+    {
+      "cite": "224 P.3d 877",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "105 Cal.Rptr.3d 131",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.4th 911",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3899696
+      ],
+      "pin_cites": [
+        {
+          "page": "947"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/47/0911-01"
+      ]
+    },
+    {
+      "cite": "479 U.S. 523",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6219506
+      ],
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "528"
+        },
+        {
+          "page": "529"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/479/0523-01"
+      ]
+    },
+    {
+      "cite": "233 P.3d 1000",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "111 Cal.Rptr.3d 589",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 Cal.4th 405",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6050603
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "428"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/49/0405-01"
+      ]
+    },
+    {
+      "cite": "384 U.S. 436",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12046400
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "479"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/384/0436-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1635,
+    "char_count": 44788,
+    "ocr_confidence": 0.889,
+    "pagerank": {
+      "raw": 6.793852403659355e-08,
+      "percentile": 0.4156862040991579
+    },
+    "sha256": "338f7b15132b6a6ec5c8e08d22f9c97fa35809831c84c632d745de8a211fbe10",
+    "simhash": "1:aba0917ad7b18c1e",
+    "word_count": 7474
+  },
+  "last_updated": "2024-02-27T22:39:10.663413+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. JOSE SAUCEDA-CONTRERAS, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nBAXTER, J.\nDefendant Jose Sauceda-Contreras was arrested on suspicion of murdering his former girlfriend, Martha Mendoza, after he was found burning her body in a large metal trash can in his backyard. He was transported to the police station, and with the assistance of an officer interpreting for him in Spanish, was apprised that he had a right to remain silent, that anything he said could be used against him in a court of law, that he had a right to the assistance of counsel during the interview, and that if he wanted a lawyer and could not afford one, counsel would be appointed for him at no cost. (.Miranda v. Arizona (1966) 384 U.S. 436 [16 L.Ed.2d 694, 86 S.Ct. 1602] {Miranda).) Defendant clearly indicated that he understood each of those rights. When then asked, \u201cHaving in mind these rights that I just read, the detective would like to know if he can speak with you right now,\u201d defendant responded, \u201cIf you can bring me a lawyer, that way I[,] I with who . . . that way I can tell you everything that I know and everything that I need to tell you and someone to represent me.\u201d\nSeeking clarification, the officer asked defendant, \u201cOkay, perhaps you didn\u2019t understand your rights. . . . [W]hat the detective wants to know right now is if you\u2019re willing to speak to him right now without a lawyer present?\u201d Defendant responded, \u201cOh, okay that\u2019s fine.\u201d The officer told defendant, \u201cThe decision is yours,\u201d to which he replied, \u201cYes.\u201d The officer again asked, \u201cIt\u2019s fine?\u201d Defendant replied, \u201cA huh, it\u2019s fine.\u201d The officer inquired a final time, \u201cDo you want to speak to him right now?\u201d Defendant responded, \u201cYes.\u201d Defendant went on to give a lengthy statement, portions of which were admitted into evidence at trial. The jury convicted him of first degree murder.\nThis court has recognized that \u201c \u2018when a suspect under interrogation makes an ambiguous statement that could be constmed as an invocation of his or her Miranda rights, \u201cthe interrogators may clarify the suspect\u2019s comprehension of, and desire to invoke or waive, the Miranda rights.\u201d \u2019 \u201d (People v. Williams (2010) 49 Cal.4th 405, 428 [111 Cal.Rptr.3d 589, 233 P.3d 1000], and cases cited (Williams).) The question in this case is whether defendant\u2019s response\u2014 \u201cIf you can bring me a lawyer, that way I[,] I with who . . . that way I can tell you everything that I know and everything that I need to tell you and someone to represent me\u201d\u2014was sufficiently ambiguous to justify the officer in seeking to clarify whether he was attempting to invoke his right to counsel, or whether he was desirous of waiving his Miranda rights and speaking with the detective \u201cright now,\u201d without an attorney present.\nAs we shall explain, defendant\u2019s reply to the officer\u2019s inquiry was sufficiently ambiguous to justify her seeking further clarification of his intent, consistent with our holding in Williams, supra, 49 Cal.4th at page 428. The followup questions were not coercive, and preceded any substantive interrogation of defendant. Under the totality of the circumstances, defendant\u2019s responses made clear he was willing to speak with the detective at that time without an attorney present. The record further supports the trial court\u2019s finding that his waiver of Miranda rights was voluntary, knowing and intelligent. Because the majority of the Court of Appeal reached a contrary conclusion, its judgment will be reversed.\nFactual and Procedural Background\na. The discovery of Martha Mendoza\u2019s body.\nOn the morning of January 10, 2007, Alondra Gutierrez and her husband Pascuel Rodriguez were in the backyard of their Anaheim residence when they smelled the odor of burning hair and flesh. Gutierrez climbed a swing set ladder, looked over the back fence, and saw smoke rising from the house directly behind hers. She and Rodriguez saw a large metal trash can on a concrete patio with what looked like a black ball protruding from it and flames and smoke shooting up from the can. A man standing next to the can was pouring liquid from a large container onto the fire, which made the flames rise higher. Gutierrez saw the man bend something that looked like an arm back down into the can. A mattress (later discovered to be a box spring) was propped against a wall on one side of the can; a large hot tub cover was on the other side. Gutierrez and her husband called 911 to report the fire on the property behind their house.\nOn the previous afternoon, Gutierrez had overheard a man and woman at the same house arguing with one another. She heard the woman say something to the effect that if he did not have money to give her, he should let her go get the money herself. Gutierrez then heard what sounded like a person hitting a wall, followed by the sound of a woman weeping for several minutes. Rodriguez also heard the man and woman arguing and calling each other bad names. When Gutierrez was later interviewed by the police, she told them she had heard the woman, who was speaking in Spanish, say, \u201c \u2018Fucker, if you don\u2019t want me to go out, if you don\u2019t want me to go out, you go and bring me that money to pay.\u2019 \u201d\nWhen the firetruck arrived Rodriguez directed it to the house behind his residence, then climbed the ladder in his backyard to see what was happening. As the firemen approached the neighbors\u2019 house, Rodriguez saw the man tending the fire put the \u201cmattress\u201d on top of the burning can.\nCity of Anaheim Firefighters Kevin Harris and Andy Ingram arrived at 940 North Winter Street with their firetruck lights and siren activated. They walked past a car parked on the driveway at the side of the house, through an open gate to the backyard, where they encountered defendant. Harris asked defendant if there was a fire; defendant replied no. Harris could see a trash can on the patio with smoke coming from it. When Harris asked defendant what was burning, defendant responded, \u201cNothing. No problem. No problem, sir.\u201d\nHarris and Ingram smelled gasoline and saw a mattress or box spring leaning over the smoking trash can. When they tried to approach the can, defendant held up his arms and physically blocked them. From his location Harris could see flames still flickering inside the can. The firefighters called for police assistance and walked back towards their firetruck. Defendant followed them, and speaking in broken English, claimed he was cooking a pig in the backyard for a large party he was planning. When police arrived, Harris and Ingram returned to the backyard patio, moved the box spring off the can and found a charred towel draped over the top with a human skull and burnt body underneath it. Defendant was placed under arrest.\nb. Physical evidence at the crime scene.\nAnaheim police forensic specialist Terri Powers-Raulston found the badly burned body of a woman, later identified as defendant\u2019s former girlfriend, Martha Mendoza, in the trash can. The victim\u2019s head extended above the top rim of the can, and a brick was propping the body away from one side of it.\nThe interior of defendant\u2019s house was processed for evidence, with principal focus on a bedroom with a sliding glass door and a bathroom directly across the hall from that room. The bedroom was in disarray; the drapes covering the sliding glass door had been tied in a knot, the mattress was partially off the box spring, and all of the sheets and blankets had been stripped from the bed. The knob of the door to the bathroom directly across the hall was in the unlocked position. There was no evidence of the bathroom door having been forced or pried open. The shower curtain was extended across the bathtub. The bathtub spout was loose in its wall fitting. A red stain was visible on the bathroom floor. Swabs for DNA testing were collected from various places in the bathroom.\nThe clothing defendant was wearing that day was logged into evidence, including a belt from his jeans that showed visible wear near the buckle and a visible indentation or crease approximately 11 inches from the buckle. Swabs were taken from the inside of each of three equal sections of the length of the belt. Photographs of defendant as he appeared that day documented injuries to the upper left side of his head, as well as to his nose, upper lip, neck, chest, and left and right hands.\nAnalysis of the swab from the floor of the bathroom tested positive for blood, with Mendoza being a major contributor to the mixed sample of DNA on that swab. A possible explanation for the mixed DNA sample could be other people having walked barefoot on the floor. Five of six swabs collected from the area around the bathtub contained a mixture of DNA profiles; defendant was a contributor to one of the swabs, Mendoza was a possible contributor to another.\nThe swab from the inside of the first segment of defendant\u2019s belt closest to the buckle revealed Mendoza as the major DNA contributor and defendant as a minor contributor. A mixed sample of DNA from the last third of the belt (the end farthest from the buckle) revealed both defendant and Mendoza as contributors. A sample of defendant\u2019s blood drawn shortly after his arrest was negative for drugs and alcohol.\nc. Autopsy results.\nDr. Anthony Juguilon, a board-certified forensic pathologist, conducted the autopsy on the body of Martha Mendoza the day after it was discovered. The body was difficult to identify as that of a female through external examination alone. Nearly all of the victim\u2019s skin had been burned away, with \u201cthermal injuries\u201d extending down to the muscles and bone. The bones of the right hand, as well as the \u201cvast majority\u201d of the scalp and skin on the head had been incinerated. While burning generally made it more difficult to pinpoint a cause of death, Dr. Juguilon concluded with \u201ca fair degree of confidence\u201d that Mendoza was dead before her body was burned. No stab or gunshot wounds were observed on the body, nor was there any evidence of blunt force trauma. Dr. Juguilon was unable to determine whether hanging or strangulation was the cause of death because most of the tissue relevant to the inquiry had been burned away. He could not look for petechial hemorrhages in the eyes because the eyes had also been severely damaged by the fire. Neither suicidal hanging nor ligature strangulation could be ruled out as a cause of death. The hyoid bone and thyroid cartilage were undamaged; a broken hyoid bone or damage to the thyroid cartilage is commonly seen in manual strangulations, but not in ligature strangulations or hanging. Blood samples collected from the victim\u2019s heart had sustained too much thermal damage to permit accurate testing. Tissue samples from her brain and liver tested positive for methamphetamine and amphetamine. While the levels of these drugs were elevated, the tissues had been sufficiently altered by the fire to alter the drug test results. Although the amount of methamphetamine detected in the brain and liver could have proved fatal, because the thermal damage dramatically altered the toxicology results, it was impossible to determine the actual level of methamphetamine in Mendoza\u2019s body prior to death.\nDue to the extensive thermal damage caused by the burning of the body, Dr. Juguilon could not establish the exact manner or cause of the victim\u2019s death, which was listed as \u201cundetermined.\u201d\nd. Defendant\u2019s videotaped police interview and statement.\nAnaheim Police Officer Lisa Trapp, who was fluent in English and Spanish, acted as a translator for defendant and Anaheim Police Detective Robert Blazek during an interview commenced at 1:30 p.m. on January 10, 2007, shortly following defendant\u2019s arrest. As set forth in greater detail below, defendant was read his Miranda rights, and after Officer Trapp asked a followup question to clarify whether he desired to waive his right to counsel at the interview, defendant implicitly waived his rights and agreed to speak with Detective Blazek at that time without an attorney present. Officer Trapp later reviewed the transcripts of the interview, which included defendant\u2019s answers to questions in Spanish as well as the English translations of his responses, and determined the transcripts accurately reflected what was said at tiie interview.\nDefendant told the officers he had lived at 940 North Winter Street for about a year and a half. His brother, Jesus, owned the house and also lived there, as did another brother, Pedro, and Pedro\u2019s family. Defendant was off from work on the day of the murder; his brothers were at work and Pedro\u2019s children were at school.\nDefendant related that the victim and her five children had lived with him in Long Beach about eight years earlier. Mendoza would leave the children with defendant while she visited with other men and used drugs. Sometime after he ended his relationship with Mendoza, she lost custody of her children. Defendant had not seen her for about a year and a half until she recently appeared at his house, indicating she wanted to get back together with him because he had a house and money. Defendant declined. Although he loved Mendoza, he knew she could never change her ways.\nMendoza returned to defendant\u2019s house the day before her murder. They argued that day, at which time Mendoza scratched him. Mendoza was acting nervous, like she needed drugs. Defendant refused to give her any money and told her to go to sleep. In the morning, Mendoza still seemed nervous, and defendant again told her he would not give her any money because she would only use it to buy drugs. Mendoza told defendant she had lost everything, including him and her kids. She said no one loved her and that she did not want to be on the streets anymore. Then Mendoza made defendant promise that when she died, he would bum her body and keep her ashes with him and take care of the ashes as if she were still living. Defendant told her she was crazy and began gathering his clothes and bedding to take to the laundry. When he realized he had not seen Mendoza for a while, he began looking for her, and found her lying dead in the tub of the bathroom directly across the hall from his bedroom. He thought about calling the police, but then remembered her words, so he burned her body, according to her wishes, so he would never leave her or forget her.\nDefendant went on to state that no one else in the house knew Mendoza was there because he had his own room and the bathroom he used was right across the hall. Crystal methamphetamine was Mendoza\u2019s drag of choice, but she did not use any drugs while at defendant\u2019s house because he would not let her. They went to bed about 9:00 p.m., awoke around 8:00 a.m. the next morning, and could hear the others in the house getting ready to leave. Mendoza was acting nervous again and left the bedroom. Defendant thought she was going to take a shower, since she was naked. He was concerned about Mendoza stealing things because she had stolen things from him in the past. When he finally went looking for her, the bathroom door was open a little bit, but he did not see her at first. Then he saw her lying in the bathtub and she was not breathing. He started hitting and shaking her, but \u201cshe was really like, cold, cold, cold.\u201d Defendant estimated she had been out of his sight for an hour and a half before he found her.\nAt that point in the interview, defendant stated he knew who Mendoza bought drugs from and suggested to the officers that he could help them \u201cbring in someone that\u2019s big.\u201d\nDetective Blazek asked defendant how he had gotten the visible scratches on his body. Defendant replied that Mendoza had scratched him when they argued the previous day over his refusal to give her money. His brothers were home at the time, but they did not know Mendoza was there because he told her to be quiet, and because televisions were on in the house, or music playing, most of the time.\nDefendant at first told the officers there were no medications in the bathroom and he did not know how Mendoza had killed herself. He said he saw white bubbles coming from her mouth and stated she was very cold. Defendant said he loved Mendoza very much and he had no one else other than her because his brothers had their own problems. After he found her in the tub, he started yelling at her to wake up. He took her out of the tub and hugged her. Then he started talking to her, telling her, \u201cYou\u2019re not going to go anywhere or do bad things. You\u2019re going to be here with me.\u201d\nDefendant stated he took Mendoza\u2019s body outside \u201cright away.\u201d He put wood in the bottom of the metal can and put her body in the can. He poured gasoline over the body and ignited the fire with a match. When Mendoza\u2019s body started to bum, he changed his mind and tried to pull her out, but \u201cthat\u2019s when it got really big.\u201d When he heard the sirens he knew the police were coming, so he tried to conceal her burning body with a box spring that had been in the backyard. Defendant admitted he lied to the firefighters when he told them he was cooking a pig.\nDefendant denied hitting or choking Mendoza. After Detective Blazek told him the neighbors had heard him arguing with Mendoza the day before, defendant said it was \u201chardly anything.\u201d Detective Blazek pressed him on the point, suggesting it was more than that because the neighbors heard Mendoza yelling and screaming. Defendant said he used to live with Mendoza and knew how loudly she could yell and scream. He denied yelling at her during the argument, claiming he only told her to shut up and that he was not going to give her any money. He denied hitting Mendoza during the argument. Compared to other arguments he had had with her in the past, he considered the argument of the prior day \u201ca small one.\u201d\nWhen asked why he had waited an hour and a half before looking for Mendoza if he was concerned about her stealing from him, defendant replied that he had looked for her earlier and thought she had just left. When asked why he had not called 911 upon finding her in the bathtub, defendant stated, \u201cShe told me not to do it.\u201d He also stated he was afraid of going to jail because Mendoza had died in his house, and he felt if he called the police they would believe him responsible for her death. That was why he decided to do what she had asked. He just wanted to keep Mendoza\u2019s ashes, and did not know there were places where bodies could be cremated and the ashes returned.\nAfter the detective suggested to defendant that much of his story did not make sense, he suddenly stated Mendoza had killed herself with the same belt he was wearing, because he had \u201cscorned her real badly,\u201d and that was \u201cthe real truth.\u201d He stated he had yelled and sworn at Mendoza the previous day for selling her body on the streets of Long Beach, which was what the neighbors had heard. He was angry with Mendoza, said terrible things about her, called her trash, told her she was a drug addict who had ruined his and his family\u2019s lives, and told her to leave. Still, defendant and Mendoza wound up having sexual intercourse that night.\nIn the morning, another argument started when Mendoza said she wanted to move in and live with defendant. He told her no because she would never change and he could not even leave her in his room because he knew she would steal something. In reply, Mendoza called defendant a \u201cwetback,\u201d telling him that if he did not get back together with her she would make a call and have him and his whole family deported, and that she was \u201cgoing to sour [his] life until [he lost] everything.\u201d Defendant told her how terrible she had been to him and how he felt about her; when he turned around she had left the room. He heard her crying in the bathroom and just let her cry. A lot of time passed during which he did not hear anything from the bathroom. He knocked on the locked bathroom door, went outside and knocked on the window, then went back inside and managed to pry open the bathroom door with the tip of a key, whereupon he discovered Mendoza had choked herself to death with his belt. When asked to describe exactly how Mendoza had hanged herself, defendant said she was lying in the tub, with his belt wrapped around her neck and looped over the lower spout, and she was holding the long end of the belt in her hands.\ne. Proceedings on defendant\u2019s motion to exclude his statement as violative of Miranda.\nAfter the jurors were selected and sworn, but before the evidentiary phase of trial commenced, trial counsel made an oral motion to exclude from evidence defendant\u2019s statements furnished during the interview. Counsel argued to the court that defendant, by his words, had clearly indicated he wanted the police to bring him an attorney to represent him. Counsel argued further that the first clause of Officer Trapp\u2019s response to defendant\u2014\u201cOkay, perhaps you didn\u2019t understand your rights\u201d\u2014was \u201cclearly designed to overcome the decision that was made by Mr. Sauceda.\u201d Counsel also argued that defendant\u2019s \u201ceducation,\u201d and the fact that a second language was being used, were additional factors bearing on the question whether his words were intended to invoke his right to counsel at the interview.\nThe People submitted the matter on the video recording and the transcript of defendant\u2019s interview with the police. The trial court stated it had watched the video, \u201cwas able to view the defendant in his interactions with the interpreting officer and the detective,\u201d and found the recording of the interview and the written transcript \u201cpretty much matched up.\u201d The court ruled that defendant had been appropriately given a Miranda warning and knowingly and intelligently waived his rights. The video recording of a portion of the interview was admitted into evidence at trial. The jury convicted defendant of first degree murder, and he was sentenced to state prison for a term of 25 years to life.\nIn an unpublished opinion, a majority of the Court of Appeal, with one justice dissenting (Aronson, J.), reversed defendant\u2019s conviction of first degree murder. The Court of Appeal concluded that \u201c[a]fter being advised it was his right to have a lawyer present during the interrogation, [defendant] essentially responded\u2014bring me a lawyer and I will talk.\u201d The court reasoned, \u201cAt this point, Trapp should have terminated the interrogation, but she ignored [defendant\u2019s] response and continued the interview, and intentionally or not, confused [defendant] about the nature of his constitutional rights. After [defendant] unequivocally invoked his right to counsel, Trapp stated, \u2018Okay, perhaps you didn\u2019t understand your rights.\u2019 [Defendant] clearly understood his right to counsel and invoked it. His straightforward and clear response did not require clarification. [$] It is true police may seek clarification of a suspect\u2019s ambiguous response to a Miranda admonition. But the response must be equivocal and ambiguous. If the suspect\u2019s response is unequivocal and unambiguous, the interrogation must stop. Police may not seek clarification of a suspect\u2019s response in an attempt to change the suspect\u2019s mind after an invocation of Miranda rights. [Citation.] Nor may police continue with the interrogation in an attempt to confuse a suspect about the nature of his constitutional rights.\u201d\nThe dissenting justice disagreed with the majority\u2019s conclusions, reasoning, \u201cHere, the officer was entitled to follow up with [defendant] because, objectively, his statement called for a response. In asking, \u2018If you can bring me a lawyer . . . ,\u2019 [defendant] asked the officer a question. (Italics added.) Indeed, [defendant] asked the officer two questions. He asked whether a lawyer could be brought to him, and he impliedly also asked whether one could be provided right now, given the officer had asked him if the detective \u2018can speak with you right now?\u2019 . . . The majority concludes the officer should have terminated the interview without answering [defendant\u2019s] questions but, objectively, those questions called for a response.\u201d The dissent observed further, \u201cTrue, the officer did not respond expressly that she could neither provide an attorney, nor provide one right away. But the answer was implicit in the officer\u2019s reiteration that \u2018what the detective wants to know right now is if you\u2019re willing to speak to him right now without a lawyer present?\u2019 \u201d\nWe granted the People\u2019s petition for review.\nDiscussion\n\u201cAs a prophylactic safeguard to protect a suspect\u2019s Fifth Amendment privilege against self-incrimination, the United States Supreme Court, in Miranda, required law enforcement agencies to advise a suspect, before any custodial law enforcement questioning, that \u2018he has the right to remain silent, that anything he says can be used against him in a court of law, that he has the right to the presence of an attorney, and that if he cannot afford an attorney one will be appointed for him prior to any questioning if he so desires.\u2019 (Miranda, supra, 384 U.S. 436, 479; see Connecticut v. Barrett (1987) 479 U.S. 523, 528 [93 L.Ed.2d 920, 107 S.Ct. 828].)\u201d (People v. Martinez (2010) 47 Cal.4th 911, 947 [105 Cal.Rptr.3d 131, 224 P.3d 877] (Martinez).)\nAt the commencement of defendant\u2019s interview shortly after his arrest, Officer Trapp, who was fluent in English and Spanish and acting as a translator for defendant and Detective Blazek, read defendant his Miranda rights and the following colloquy ensued:\n\u201c[Officer Trapp]: You have the right to remain silent. Do you understand?\n\u201c[Defendant]: A huh, [y]es.\n\u201c[Officer Trapp]: Whatever you say can be used against you in a court of law. Do you understand?\n\u201c[Defendant]: Yes.\n\u201c[Officer Trapp]: You have the right to have a lawyer present before and during this interrogation. Do you understand?\n\u201c[Defendant]: Yes[,] I understand.\n\u201c[Officer Trapp]: If you would like a lawyer but you cannot afford one, one can be appointed to you for free before the interrogation if you wish. Do you understand?\n\u201c[Defendant]: Yes[,] I understand.\n\u201c[Officer Trapp]: Having in mind these rights that I just read, the detective would like to know if he can speak with you right now?\n\u201c[Defendant]: If you can bring me a lawyer, that way I[,] I with who . . . that way I can tell you everything that I know and everything that I need to tell you and someone to represent me.\n\u201c[Officer Trapp]: Okay, perhaps you didn\u2019t understand your rights. Um . . . what the detective wants to know right now is if you\u2019re willing to speak to him right now without a lawyer present?\n\u201c[Defendant]: Oh, okay that\u2019s fine.\n\u201c[Officer Trapp]: The decision is yours.\n\u201c[Defendant]: Yes.\n\u201c[Officer Trapp]: It\u2019s fine?\n\u201c[Defendant]: A huh, it\u2019s fine.\n\u201c[Officer Trapp]: Do you want to speak to him right now?\n\u201c[Defendant]: Yes.\u201d\nDefendant contends his response to the question whether he would be willing to speak with Detective Blazek \u201cright now\u201d constituted an unambiguous and unequivocal invocation of his right to counsel, requiring all further questioning to cease. The People counter that defendant\u2019s response was sufficiently ambiguous and equivocal to justify Officer Trapp in seeking clarification of defendant\u2019s actual intent, and that his subsequent responses to the officer\u2019s followup questions confirmed his willingness to waive his Miranda rights and be interviewed \u201cright now without a lawyer present.\u201d\nThe basic principles governing defendant\u2019s claim are settled. \u201cIn reviewing defendant\u2019s claim that his Miranda rights were violated, we must accept the trial court\u2019s resolution of disputed facts and inferences, as well as its evaluation of the credibility of witnesses where supported by substantial evidence. (People v. Whitson (1998) 17 Cal.4th 229, 248 [70 Cal.Rptr.2d 321, 949 P.2d 18] (Whitson); People v. Wash (1993) 6 Cal.4th 215, 235-236 [24 Cal.Rptr.2d 421, 861 P.2d 1107].) Miranda makes clear that in order for defendant\u2019s statements to be admissible against him, he must have knowingly and intelligently waived his rights to remain silent, and to the presence and assistance of counsel. [Citation.]\u201d (People v. Cruz (2008) 44 Cal.4th 636, 667 [80 Cal.Rptr.3d 126, 187 P.3d 970] (Cruz).)\nIn Williams, supra, 49 Cal.4th 405, we specifically addressed the question whether police may seek clarification when a suspect makes an ambiguous or equivocal request for the assistance of counsel at the initial stage of an interrogation, prior to any waiver of Miranda rights, as occurred here. We noted, \u201cThis court has recognized that \u2018when a suspect under interrogation makes an ambiguous statement that could be construed as an invocation of his or her Miranda rights, \u201cthe interrogators may clarify the suspect\u2019s comprehension of, and desire to invoke or waive, the Miranda rights.\u201d \u2019 (People v. Farnam (2002) 28 Cal.4th 107, 181 [121 Cal.Rptr.2d 106, 47 P.3d 988], italics added [analyzing the defendant\u2019s preadmonition statements in which he announced he would not answer questions]; see People v. Johnson (1993) 6 Cal.4th 1, 25 [23 Cal.Rptr.2d 593, 859 P.2d 673] [analyzing the defendant\u2019s statement \u2018 \u201cno tape recording, I don\u2019t want to incriminate myself,\u201d \u2019 made at the outset of an interview, prior to a Miranda advisement]; People v. Clark (1993) 5 Cal.4th 950, 991 [22 Cal.Rptr.2d 689, 857 P.2d 1099] [officers properly responded to assertedly ambiguous statements during admonition, with comments calling for clarification], disapproved on another ground in People v. Doolin[ (2009)] 45 Cal.4th [390,] 421, fn. 22 [87 Cal.Rptr.3d 209, 198 P.3d 11]; U.S. v. Rodriguez (9th Cir. 2008) 518 F.3d 1072, 1080 [distinguishing pre- and postwaiver assertion of rights and, in the instance of initial waivers at the commencement of interrogation, concluding that officers should clarify ambiguous statements made by the defendant]; 2 LaFave et al., Criminal Procedure (3d ed. 2007) \u00a7 6.9(g), p. 865.)\u201d (Williams, supra, 49 Cal.4th at p. 428.)\nWilliams explains why the standard for assessing an ambiguous invocation of the right to counsel is an objective one that asks what a reasonable officer would have understood the nature of the suspect\u2019s request to be under all the circumstances. \u201cWhereas the question whether a waiver is knowing and voluntary is directed at an evaluation of the defendant\u2019s state of mind, the question of ambiguity in an asserted invocation must include a consideration of the communicative aspect of the invocation\u2014what would a listener understand to be the defendant\u2019s meaning. The high court has explained\u2014in the context of a postwaiver invocation\u2014that this is an objective inquiry, identifying as ambiguous or equivocal those responses that \u2018a reasonable officer in light of the circumstances would have understood [to signify] only that the suspect might be invoking the right to counsel.\u2019 (Davis v. United States [(1994)] 512 U.S. [452,] 459 [129 L.Ed.2d 362, 114 S.Ct. 2350], relying upon Connecticut v. Barrett (1987) 479 U.S. 523, 529 [93 L.Ed.2d 920, 107 S.Ct. 828] [a decision analyzing a response to an initial admonition]; see also People v. Gonzalez[, supra, 34 Cal.4th at p.] 1124 . . . .) This objective inquiry is consistent with our prior decisions rendered in the context of analyzing whether an assertion of rights at the initial admonition stage was ambiguous. (See People v. Farnam, supra, 28 Cal.4th atp. 181.) We note that a similar objective approach has been applied by the United States Court of Appeals for the Ninth Circuit to identify ambiguity in a defendant\u2019s response to a Miranda admonition; a response that is reasonably open to more than one interpretation is ambiguous, and officers, may seek clarification. (U.S. v. Rodriguez, supra, 518 F.3d at p. 1080.)\n\u201cIn certain situations, words that would be plain if taken literally actually may be equivocal under an objective standard, in the sense that in context it would not be clear to the reasonable listener what the defendant intends. In those instances, the protective purpose of the Miranda rule is not impaired if the authorities are permitted to pose a limited number of followup questions to render more apparent the true intent of the defendant.\u201d (Williams, supra, 49 Cal.4th at pp. 428-429.)\nAssuming Officer Trapp was justified in seeking clarification of defendant\u2019s response regarding his right to counsel at the interview, we must further determine whether his subsequent responses to Officer Trapp\u2019s followup questions constituted a valid waiver of his Miranda rights. \u201c[A] suspect who desires to waive his Miranda rights and submit to interrogation by law enforcement authorities need not do so with any particular words or phrases. A valid waiver need not be of predetermined form, but instead must reflect that the suspect in fact knowingly and voluntarily waived the rights delineated in the Miranda decision. (See North Carolina v. Butler (1979) 441 U.S. 369, 373 [60 L.Ed.2d 286, 99 S.Ct. 1755].) We have recognized that a valid waiver of Miranda rights may be express or implied. (Whitson, supra, 17 Cal.4th at p. 246; see also People v. Cortes (1999) 71 Cal.App.4th 62, 69 [83 Cal.Rptr.2d 519].) A suspect\u2019s expressed willingness to answer questions after acknowledging an understanding of his or her Miranda rights has itself been held sufficient to constitute an implied waiver of such rights. (People v. Medina (1995) 11 Cal.4th 694, 752 [47 Cal.Rptr.2d 165, 906 P.2d 2]; People v. Sully (1991) 53 Cal.3d 1195, 1233 [283 Cal.Rptr. 144, 812 P.2d 163].) In contrast, an unambiguous request for counsel or refusal to talk bars further questioning. (Davis v. United States[, supra,] 512 U.S. 452, 458-460 . . . .)\u201d (Cruz, supra, 44 Cal.4th at pp. 667-668.)\nUltimately, the question becomes whether the Miranda waiver is shown by a preponderance of the evidence to be voluntary, knowing and intelligent under the totality of the circumstances surrounding the interrogation. (Williams, supra, 49 Cal.4th at p. 425; People v. Dykes (2009) 46 Cal.4th 731, 751 [95 Cal.Rptr.3d 78, 209 P.3d 1] (Dykes); Cruz, supra, 44 Cal.4th at p. 668.) The waiver must be \u201cvoluntary in the sense that it was the product of a free and deliberate choice rather than intimidation, coercion, or deception\u201d (Moran v. Burbine (1986) 475 U.S. 412, 421 [89 L.Ed.2d 410, 106 S.Ct. 1135]), and knowing in the sense that it was \u201cmade with a full awareness of both the nature of the right being abandoned and the consequences of the decision to abandon it.\u201d (Ibid)\nTurning to the facts before us, we find Officer Trapp was justified in seeking clarification of defendant\u2019s response to her question, \u201cHaving in mind these [Miranda] rights that I just read, the detective would like to know if he can speak with you right now?\u201d Defendant\u2019s response, \u201cIf you can bring me a lawyer, that way I[,] I with who . . . that way I can tell you everything that I know and everything that I need to tell you and someone to represent me,\u201d was not a clear invocation of his right to counsel at the interview. Defendant\u2019s response to Officer Trapp\u2019s question whether he wanted to speak with Detective Blazek \u201cright now\u201d was conditional, ambiguous, and equivocal. It was conditional in that it began with an inquiry as to whether a lawyer could be brought to defendant. By responding \u201c[i\\f you can bring me a lawyer . . .\u201d (italics added), defendant was expressly asking the officer whether a lawyer could be brought to him, and impliedly asking whether one could be provided right now, given that the officer had asked him if he would speak with Detective Blazek \u201cright now.\u201d It was equivocal in that defendant went on to plainly state his intent and desire to waive his right to remain silent and \u201ctell you everything that I know and everything that I need to tell you,\u201d but then ended his response ambiguously with the words \u201cand someone to represent me.\u201d From an objective standpoint, a reasonable officer under the circumstances would not have understood defendant\u2019s response to be a clear and unequivocal request for counsel. For that reason, the officers were justified in seeking to clarify defendant\u2019s intent. (Williams, supra, 49 Cal.4th at p. 428, and authorities cited.)\nOnce Officer Trapp sought clarification by stating to defendant, \u201cOkay, perhaps you didn\u2019t understand your rights,\u201d immediately followed by her question, \u201c[W]hat the detective wants to know right now is if you\u2019re willing to speak to him right now without a lawyer present\u00ed\u201d (italics added), defendant went on to make a voluntary and knowing waiver of his Miranda rights.\nWe reject defendant\u2019s assertion that any implicit waiver of his Miranda rights was involuntary because it was the product of intimidation or coercion. We have reviewed the videotape of the colloquy. No coercive tactics were employed in order to obtain defendant\u2019s waiver of his rights. Defendant does not appear to have been under any undue pressure from the investigating officers such as might have caused him to become unduly anxious or confused. The colloquy preceded any substantive questioning of defendant by the officers. Once it was clarified for defendant that he was being asked if he was willing to speak with the officers \u201cright now without a lawyer present,\u201d he immediately responded, \u201cOh, okay that\u2019s fine.\u201d Officer Trapp then told defendant, \u201cThe decision is yours,\u201d to which he replied, \u201cYes.\u201d She asked him, \u201cIt\u2019s fine?,\u201d to which he replied, \u201cA huh, it\u2019s fine.\u201d The officer asked defendant yet again, \u201cDo you want to speak to [the detective] right now?,\u201d to which he responded, \u201cYes.\u201d\nUnder these circumstances, it is clear Officer Trapp was not \u201cbadgering\u201d defendant into waiving his rights (Williams, supra, 49 Cal.4th at p. 429), but was instead seeking confirmation that he understood the decision to proceed with the interview without an attorney present was his alone, and that he in fact wished to do so. We find the record establishes by a preponderance of the evidence that defendant\u2019s waiver of his Miranda rights was freely and voluntarily given. (Dykes, supra, 46 Cal.4th at p. 751.)\nWe also find that defendant\u2019s waiver of rights, including his right to counsel at the interview, was knowing and intelligent. The Court of Appeal concluded Officer Trapp should have terminated the interview as soon as defendant voiced his initial response implicating his right to counsel, and that by failing to do so she \u201cintentionally or not, confused [him] about the nature of his constitutional rights.\u201d We disagree.\nIt is true that Officer Trapp\u2019s suggestion to defendant, \u201cOkay, perhaps you didn\u2019t understand your rights,\u201d failed to address any uncertainty or confusion he might have been harboring about whether counsel could be provided at that time. Nor did the officer restate the right to counsel or confirm defendant\u2019s understanding of that right (see People v. Johnson, supra, 6 Cal.4th at p. 27 [restating rights and obtaining waiver a \u201clegitimate method\u201d of clarifying ambiguities]), or provide him with any relevant information that might have helped him decide whether he might prefer to wait until an attorney could be provided (see Williams, supra, 49 Cal.4th at p. 429 [suspect informed that counsel could be provided on \u201cMonday,\u201d and that questioning would be postponed until that time if he chose to have appointed counsel present]), as would have been the better practice.\nOn the other hand, Officer Trapp immediately followed her less than artful statement, \u201cOkay, perhaps you didn\u2019t understand your rights,\u201d with the pointed question, \u201c[W]hat the detective wants to know right now is if you\u2019re willing to speak to him right now without a lawyer present?\u201d (Italics added.) That inquiry cut right to the core of the matter, making unmistakably clear to defendant that what he was being asked was if he was willing to proceed with the interview \u201cright now without a lawyer present.\u201d Officer Trapp had admonished defendant moments earlier of each of his Miranda rights, and he had clearly responded that he understood each of them. Once that question was put to defendant, he quickly and decisively expressed his willingness to proceed with the interview without a lawyer present, confirming for the officer several times that he wished to proceed in that fashion and understood the choice was his. As previously noted, \u201c[a] suspect\u2019s expressed willingness to answer questions after acknowledging an understanding of his or her Miranda rights has itself been held sufficient to constitute an implied waiver of such rights. [Citations.]\u201d (Cruz, supra, 44 Cal.4th at pp. 667-668.) We find that defendant\u2019s waiver of his Miranda rights, including his right to counsel, was \u201cmade with a full awareness of both the nature of the right being abandoned and the consequences of the decision to abandon it.\u201d (Moran v. Burbine, supra, 475 U.S. at p. 421.)\nIn sum, the record establishes that defendant wished to tell Detective Blazek his side of the story, and having been read his Miranda rights by Officer Trapp, and having indicated he understood them, was willing to proceed with the interview \u201cright now without a lawyer present.\u201d Under the totality of the circumstances, we conclude defendant\u2019s waiver of his Miranda rights, including his right to counsel, was voluntary, knowing and intelligent. (Miranda, supra, 384 U.S. at p. 475.)\nConclusion\nThe judgment of the Court of Appeal is reversed, and the matter remanded to that court for further proceedings consistent with the views expressed herein.\nCantil-Sakauye, C. J., Kennard, J., Werdegar, J., Chin, J., Corrigan, J., and Liu, L, concurred.\nThe interview was recorded in three segments. Copies of redacted versions of the transcripts of the first and second segments were provided to the jurors, and redacted video recordings of those portions of the interview were played in the courtroom. The third segment of the lengthy interview (People\u2019s exhibit No. 59-C) was not introduced into evidence.\nOther evidence introduced at trial included the testimony of Maria Rodriguez, the victim\u2019s sister. Rodriguez testified that defendant and Mendoza had been in a dating relationship with each other for six or seven years, and, at one point, had lived together in Long Beach. Rodriguez had heard defendant threaten Mendoza on more than one occasion. Mendoza had not lived with defendant during approximately the last nine months of her life. Once, when Rodriguez\u2019s daughter graduated from California State University at Fullerton, they stayed out late at a family gathering, and Mendoza decided to spend the night at Rodriguez\u2019s apartment. Defendant came to the apartment late that night and kept knocking on the door. Mendoza got up and went out to speak to him. They argued, and defendant told Mendoza he would beat her up if she did not leave with him. The next morning they discovered defendant had spent the night on the stairs leading to Rodriguez\u2019s apartment. On another occasion, when defendant and Mendoza were at Rodriguez\u2019s apartment in March of 2006, defendant told Rodriguez \u201che would not leave [Mendoza] alone, and that he would rather see her dead than lose her.\u201d\n\u201cThe right to counsel for purposes of custodial interrogation implicates the Fifth Amendment privilege against self-incrimination, and must be distinguished from the Sixth Amendment right to counsel, which attaches upon the initiation of formal criminal proceedings. (U.S. Const., 5th & 6th Amends.; see People v. Gonzalez (2005) 34 Cal.4th 1111, 1123 [23 Cal.Rptr.3d 295, 104 P.3d 98] . . . [discussing McNeil v. Wisconsin (1991) 501 U.S. 171, 177-178 [115 L.Ed.2d 158, 111 S.Ct. 2204]].)\u201d (People v. Nelson (2012) 53 Cal.4th 367, 371, fn. 1 [135 Cal.Rptr.3d 312, 266 P.3d 1008].)\nIt is, however, settled that \u201cthe authorities are not required to have an attorney on call for the purpose of custodial interrogation. (People v. Smith (2007) 40 Cal.4th 483, 503 [54 Cal.Rptr.3d 245, 150 P.3d 1224]; see also People v. Bradford (1997) 14 Cal.4th 1005, 1045-1046 [60 Cal.Rptr.2d 225, 929 P.2d 544].)\u201d (Williams, supra, 49 Cal.4th at p. 429.) And the high court has repeatedly cautioned, \u201c[W]e have never read the Constitution to require that the police supply a suspect with a flow of information to help him calibrate his self-interest in deciding whether to speak or stand by his [Miranda] rights. [Citations.]\u201d (Moran v. Burbine, supra, 475 U.S. at p. 422.)\nBecause we have found no Miranda violation, we have no occasion to consider the People\u2019s harmless error argument.",
+        "type": "majority",
+        "author": "BAXTER, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Diane Nichols, under appointment by the Supreme Court, for Defendant and Appellant.",
+      "Edmund G. Brown, Jr., and Kamala D. Harris, Attorneys General, Dane R. Gillette, Chief Assistant Attorney General, Gary W. Schons and Julie L.",
+      "Garland, Assistant Attorneys General, Lynne G. McGinnis, Steven T. Getting and Marilyn L. George, Deputy Attorneys General, for Plaintiff and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. S191747.\nAug. 13, 2012.]\nTHE PEOPLE, Plaintiff and Respondent, v. JOSE SAUCEDA-CONTRERAS, Defendant and Appellant.\nCounsel\nDiane Nichols, under appointment by the Supreme Court, for Defendant and Appellant.\nEdmund G. Brown, Jr., and Kamala D. Harris, Attorneys General, Dane R. Gillette, Chief Assistant Attorney General, Gary W. Schons and Julie L.\nGarland, Assistant Attorneys General, Lynne G. McGinnis, Steven T. Getting and Marilyn L. George, Deputy Attorneys General, for Plaintiff and Respondent."
+  },
+  "file_name": "0203-01",
+  "first_page_order": 243,
+  "last_page_order": 262
+}

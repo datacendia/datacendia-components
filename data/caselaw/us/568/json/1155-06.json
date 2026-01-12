@@ -1,0 +1,61 @@
+{
+  "id": 12430385,
+  "name": "Federal Trade Commission v. Actavis, Inc., et al.",
+  "name_abbreviation": "Federal Trade Commission v. Actavis, Inc.",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-416",
+  "first_page": "1155",
+  "last_page": "1155",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1155"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 48,
+    "char_count": 366,
+    "ocr_confidence": 0.608,
+    "sha256": "7c86ef04e4230a73e662d9e4dbc62b75460183027dece78068315200f9014814",
+    "simhash": "1:98803292b16bf6fd",
+    "word_count": 61
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Alito took no part in the consideration or decision of this motion."
+    ],
+    "parties": [
+      "Federal Trade Commission v. Actavis, Inc., et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. [Certiorari granted sub nom. Federal Trade Commission v. Watson Pharmaceuticals, Inc., et al., ante, p. 1066.] Motion of the Solicitor General for leave to file volume 2 of the joint appendix under seal granted.\nJustice Alito took no part in the consideration or decision of this motion.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-416.\nFederal Trade Commission v. Actavis, Inc., et al."
+  },
+  "file_name": "1155-06",
+  "first_page_order": 1231,
+  "last_page_order": 1231
+}

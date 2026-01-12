@@ -1,0 +1,59 @@
+{
+  "id": 5960404,
+  "name": "Tarin v. United States",
+  "name_abbreviation": "Tarin v. United States",
+  "decision_date": "2011-05-23",
+  "docket_number": "No. 10-10154",
+  "first_page": "1015",
+  "last_page": "1015",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1015"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.686,
+    "sha256": "a3d91f555769d07ee72786c69c5b57b07e031667b9b3a32ad06f36ccc19b0d67",
+    "simhash": "1:863ad70309ee340f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Tarin v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10154.\nTarin v. United States."
+  },
+  "file_name": "1015-10",
+  "first_page_order": 1041,
+  "last_page_order": 1041
+}

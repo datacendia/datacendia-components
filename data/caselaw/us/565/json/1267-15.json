@@ -1,0 +1,59 @@
+{
+  "id": 12252197,
+  "name": "Clark v. California",
+  "name_abbreviation": "Clark v. California",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. 11-8350",
+  "first_page": "1267",
+  "last_page": "1267",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1267"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 67,
+    "ocr_confidence": 0.693,
+    "sha256": "e44d84f836f7bf3cb1cb74ec8e7865e6e31082fea338e61141b240ee47fc3bbc",
+    "simhash": "1:062b1fd78af4135e",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Clark v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8350.\nClark v. California."
+  },
+  "file_name": "1267-15",
+  "first_page_order": 1349,
+  "last_page_order": 1349
+}

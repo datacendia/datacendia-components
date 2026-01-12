@@ -1,0 +1,59 @@
+{
+  "id": 5975929,
+  "name": "Jones v. Pennsylvania",
+  "name_abbreviation": "Jones v. Pennsylvania",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-1407",
+  "first_page": "832",
+  "last_page": "832",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 832"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 68,
+    "ocr_confidence": 0.682,
+    "sha256": "1e570b9d9c3a9d549d1d3a67cc04356ac37202d1951bdede992e1e02d7f17cc2",
+    "simhash": "1:eed60adba2c9d550",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jones v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Pa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-1407.\nJones v. Pennsylvania."
+  },
+  "file_name": "0832-10",
+  "first_page_order": 854,
+  "last_page_order": 854
+}

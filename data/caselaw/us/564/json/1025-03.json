@@ -1,0 +1,59 @@
+{
+  "id": 5923440,
+  "name": "Lynch v. California",
+  "name_abbreviation": "Lynch v. California",
+  "decision_date": "2011-06-20",
+  "docket_number": "No. 10-10076",
+  "first_page": "1025",
+  "last_page": "1025",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1025"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 69,
+    "ocr_confidence": 0.583,
+    "sha256": "fb8f4589c95a88f11d5ce9f84d192dd20a8546898b519c191a097195832b7f84",
+    "simhash": "1:180f19638442c1ba",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lynch v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10076.\nLynch v. California."
+  },
+  "file_name": "1025-03",
+  "first_page_order": 1019,
+  "last_page_order": 1019
+}

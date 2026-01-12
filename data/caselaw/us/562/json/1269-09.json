@@ -1,0 +1,59 @@
+{
+  "id": 5939840,
+  "name": "In re Troxler",
+  "name_abbreviation": "In re Troxler",
+  "decision_date": "2011-03-07",
+  "docket_number": "No. 10-8524",
+  "first_page": "1269",
+  "last_page": "1269",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1269"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 66,
+    "ocr_confidence": 0.592,
+    "sha256": "14281fefd0eb63df47a3c4698816c76ddb242d44324f22a400e1ad13dac6c773",
+    "simhash": "1:4953067ca0513111",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Troxler."
+    ],
+    "opinions": [
+      {
+        "text": "Petition for writ of mandamus denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8524.\nIn re Troxler."
+  },
+  "file_name": "1269-09",
+  "first_page_order": 1291,
+  "last_page_order": 1291
+}

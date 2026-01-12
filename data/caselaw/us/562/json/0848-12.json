@@ -1,0 +1,59 @@
+{
+  "id": 6022845,
+  "name": "Dean v. J. P. Morgan Chase Bank",
+  "name_abbreviation": "Dean v. J. P. Morgan Chase Bank",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10663",
+  "first_page": "848",
+  "last_page": "848",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 848"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 82,
+    "ocr_confidence": 0.631,
+    "sha256": "5422ff5038d8a4559f0b7f18cb0fdc72ad4d8068ce9949427a5033afac2cfdc4",
+    "simhash": "1:6653cb33400fa236",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dean v. J. P. Morgan Chase Bank."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10663.\nDean v. J. P. Morgan Chase Bank."
+  },
+  "file_name": "0848-12",
+  "first_page_order": 870,
+  "last_page_order": 870
+}

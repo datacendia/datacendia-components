@@ -1,0 +1,82 @@
+{
+  "id": 12417504,
+  "name": "McGee v. Superior Court of California, Sacramento County, et al.",
+  "name_abbreviation": "McGee v. Superior Court of California, Sacramento County",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-5500",
+  "first_page": "937",
+  "last_page": "937",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 937"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "506 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11924825
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/506/0001-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 76,
+    "char_count": 586,
+    "ocr_confidence": 0.621,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2561303767130825
+    },
+    "sha256": "2b21a4830845c90a40ae3c83bfa5e7ee8a49193de0cd4060fc2d0e6984253ca9",
+    "simhash": "1:ed2214cd452ddfce",
+    "word_count": 97
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McGee v. Superior Court of California, Sacramento County, et al."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 3d App. Dist. Motion of petitioner for leave to proceed in forma pauperis denied, and certiorari dismissed. See this Court\u2019s Rule 39.8. As petitioner has repeatedly abused this Court\u2019s process, the Clerk is directed not to accept any further petitions in noncriminal matters from petitioner unless the docketing fee required by Rule 38(a) is paid and the petition is submitted in compliance with Rule 33.1. See Martin v. District of Columbia Court of Appeals, 506 U. S. 1 (1992) (per curiam).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5500.\nMcGee v. Superior Court of California, Sacramento County, et al."
+  },
+  "file_name": "0937-01",
+  "first_page_order": 1013,
+  "last_page_order": 1013
+}

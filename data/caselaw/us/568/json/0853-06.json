@@ -1,0 +1,59 @@
+{
+  "id": 12413598,
+  "name": "Lee v. Louisiana",
+  "name_abbreviation": "Lee v. Louisiana",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10639",
+  "first_page": "853",
+  "last_page": "853",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 853"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 64,
+    "ocr_confidence": 0.689,
+    "sha256": "e231f2c6caf79b94192234fff1ebf4b24684042e7323e5bd1d028237ced90a1b",
+    "simhash": "1:91a43e97b4efb71a",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lee v. Louisiana."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. La. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10639.\nLee v. Louisiana."
+  },
+  "file_name": "0853-06",
+  "first_page_order": 929,
+  "last_page_order": 929
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12224365,
+  "name": "Payton v. United States",
+  "name_abbreviation": "Payton v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5821",
+  "first_page": "922",
+  "last_page": "922",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 922"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.653,
+    "sha256": "8d5195fce2f1913b01d4d2726e43f5898a75f2fe6cc12cde8211faaee6a0fac4",
+    "simhash": "1:04aae2cedfb00809",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Payton v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5821.\nPayton v. United States."
+  },
+  "file_name": "0922-11",
+  "first_page_order": 1004,
+  "last_page_order": 1004
+}

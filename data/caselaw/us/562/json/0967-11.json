@@ -1,0 +1,59 @@
+{
+  "id": 6010198,
+  "name": "Bunyard v. Knowles, Warden",
+  "name_abbreviation": "Bunyard v. Knowles",
+  "decision_date": "2010-10-12",
+  "docket_number": "No. 10-5807",
+  "first_page": "967",
+  "last_page": "967",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 967"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.57,
+    "sha256": "9c8d29a76610e08a5fc83813ceb9bf74e534e1cb95221c3b9b7cd3b1c9061007",
+    "simhash": "1:179167c83eba0167",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bunyard v. Knowles, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5807.\nBunyard v. Knowles, Warden."
+  },
+  "file_name": "0967-11",
+  "first_page_order": 989,
+  "last_page_order": 989
+}

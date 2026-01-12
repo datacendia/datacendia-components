@@ -1,0 +1,59 @@
+{
+  "id": 5952857,
+  "name": "Alston v. United States",
+  "name_abbreviation": "Alston v. United States",
+  "decision_date": "2011-04-04",
+  "docket_number": "No. 10-9414",
+  "first_page": "929",
+  "last_page": "929",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 929"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.566,
+    "sha256": "0654d552a4390f50a2243dff988f41dc62faba2b103c97076ed935288f66c6d1",
+    "simhash": "1:879be7132de51468",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Alston v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9414.\nAlston v. United States."
+  },
+  "file_name": "0929-04",
+  "first_page_order": 955,
+  "last_page_order": 955
+}

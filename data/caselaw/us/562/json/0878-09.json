@@ -1,0 +1,59 @@
+{
+  "id": 5986988,
+  "name": "Eye v. United States",
+  "name_abbreviation": "Eye v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11403",
+  "first_page": "878",
+  "last_page": "878",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 878"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.571,
+    "sha256": "7e50bb478d46a76363b300d8b75891e353f4c04d2eed049efbc453d9633e12b2",
+    "simhash": "1:b5bbe7038c3d5449",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Eye v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11403.\nEye v. United States."
+  },
+  "file_name": "0878-09",
+  "first_page_order": 900,
+  "last_page_order": 900
+}

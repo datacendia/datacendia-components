@@ -1,0 +1,59 @@
+{
+  "id": 12201033,
+  "name": "Hood v. Texas",
+  "name_abbreviation": "Hood v. Texas",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10287",
+  "first_page": "833",
+  "last_page": "833",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 833"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 68,
+    "ocr_confidence": 0.688,
+    "sha256": "7d60a17784084516bf05f3f9e8a0f043d9a0734965ddac30b16bb3a41d4417cc",
+    "simhash": "1:1132d1d0561dac65",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hood v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tex. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10287.\nHood v. Texas."
+  },
+  "file_name": "0833-04",
+  "first_page_order": 915,
+  "last_page_order": 915
+}

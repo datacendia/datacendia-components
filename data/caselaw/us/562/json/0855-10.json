@@ -1,0 +1,59 @@
+{
+  "id": 5918109,
+  "name": "Harper v. McCall, Warden",
+  "name_abbreviation": "Harper v. McCall",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10915",
+  "first_page": "855",
+  "last_page": "855",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 855"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.574,
+    "sha256": "38c31a697b789dc344f9a434cabf48f0d8ed2007abdc70f4125114b0e9d3ecd8",
+    "simhash": "1:37ec00f957a93061",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Harper v. McCall, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10915.\nHarper v. McCall, Warden."
+  },
+  "file_name": "0855-10",
+  "first_page_order": 877,
+  "last_page_order": 877
+}

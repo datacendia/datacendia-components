@@ -1,0 +1,59 @@
+{
+  "id": 4224999,
+  "name": "Hines v. United States",
+  "name_abbreviation": "Hines v. United States",
+  "decision_date": "2011-05-02",
+  "docket_number": "No. 10-9840",
+  "first_page": "982",
+  "last_page": "982",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 982"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.623,
+    "sha256": "b544b451aad3f8948076cbc3cd5ff59f6fce32289f88d711d18f830ecce76e4b",
+    "simhash": "1:85bbc6370f353420",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hines v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9840.\nHines v. United States."
+  },
+  "file_name": "0982-05",
+  "first_page_order": 1008,
+  "last_page_order": 1008
+}

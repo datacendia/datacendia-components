@@ -1,0 +1,59 @@
+{
+  "id": 5938282,
+  "name": "Winding v. Mississippi",
+  "name_abbreviation": "Winding v. Mississippi",
+  "decision_date": "2011-03-21",
+  "docket_number": "No. 10-8437",
+  "first_page": "1293",
+  "last_page": "1293",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1293"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 71,
+    "ocr_confidence": 0.618,
+    "sha256": "3619b7655359679c253bc79caca8618d80c8f2cb6777f52326f9b5c11cd30a50",
+    "simhash": "1:9a9634ecc9448888",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Winding v. Mississippi."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Miss. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8437.\nWinding v. Mississippi."
+  },
+  "file_name": "1293-09",
+  "first_page_order": 1315,
+  "last_page_order": 1315
+}

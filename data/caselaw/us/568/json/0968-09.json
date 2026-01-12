@@ -1,0 +1,59 @@
+{
+  "id": 12419727,
+  "name": "Sumpter v. United States",
+  "name_abbreviation": "Sumpter v. United States",
+  "decision_date": "2012-10-15",
+  "docket_number": "No. 12-6195",
+  "first_page": "968",
+  "last_page": "968",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 968"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.694,
+    "sha256": "7f0a3f2fb33ebd0c9704458bc1734e43b198e878b44f0b2248044d4cca3c0e83",
+    "simhash": "1:24cbfa784ead3118",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sumpter v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6195.\nSumpter v. United States."
+  },
+  "file_name": "0968-09",
+  "first_page_order": 1044,
+  "last_page_order": 1044
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12426056,
+  "name": "In re Vargas-Lombana",
+  "name_abbreviation": "In re Vargas-Lombana",
+  "decision_date": "2012-12-03",
+  "docket_number": "No. 12-7151",
+  "first_page": "1047",
+  "last_page": "1047",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1047"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 78,
+    "ocr_confidence": 0.62,
+    "sha256": "db159d635570282cd320f8922a8a28c4ae820f5714130a9f9d475b0e9a433f15",
+    "simhash": "1:484a12fd57514949",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Vargas-Lombana."
+    ],
+    "opinions": [
+      {
+        "text": "Petition for writ of habeas corpus denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7151.\nIn re Vargas-Lombana."
+  },
+  "file_name": "1047-04",
+  "first_page_order": 1123,
+  "last_page_order": 1123
+}

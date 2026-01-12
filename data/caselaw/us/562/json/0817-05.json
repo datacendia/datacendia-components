@@ -1,0 +1,59 @@
+{
+  "id": 6010752,
+  "name": "In re Discipline of Craig",
+  "name_abbreviation": "In re Discipline of Craig",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. D-2564",
+  "first_page": "817",
+  "last_page": "817",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 817"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 39,
+    "char_count": 276,
+    "ocr_confidence": 0.501,
+    "sha256": "e50a305fe9d192ba2c517411a5fb5a26b23a0f918aac603df9c4f8bbc35596b6",
+    "simhash": "1:7e8a712213faa7c4",
+    "word_count": 51
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Craig."
+    ],
+    "opinions": [
+      {
+        "text": "Sandra L. Craig, of Pacific, Mo., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring her to show cause why she should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2564.\nIn re Discipline of Craig."
+  },
+  "file_name": "0817-05",
+  "first_page_order": 839,
+  "last_page_order": 839
+}

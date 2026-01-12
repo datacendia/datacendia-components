@@ -1,0 +1,59 @@
+{
+  "id": 12210729,
+  "name": "Inda-Lares v. United States",
+  "name_abbreviation": "Inda-Lares v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11117",
+  "first_page": "868",
+  "last_page": "868",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 868"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.709,
+    "sha256": "d961af6a8397219693a69e5f43ae367b400e52472ea339ec06e57ae5676d3227",
+    "simhash": "1:94a3e68b2135000a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Inda-Lares v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11117.\nInda-Lares v. United States."
+  },
+  "file_name": "0868-01",
+  "first_page_order": 950,
+  "last_page_order": 950
+}

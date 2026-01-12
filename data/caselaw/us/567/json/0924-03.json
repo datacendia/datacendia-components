@@ -1,0 +1,59 @@
+{
+  "id": 12410496,
+  "name": "Williams v. Tamez, Warden",
+  "name_abbreviation": "Williams v. Tamez",
+  "decision_date": "2012-06-18",
+  "docket_number": "No. 11-10444",
+  "first_page": "924",
+  "last_page": "924",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 924"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.644,
+    "sha256": "3309af4c01fb1fd7dd04cb173c075e46dcb7296a7e273701c5833c835001ee4b",
+    "simhash": "1:46ae13826c3e34b7",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. Tamez, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10444.\nWilliams v. Tamez, Warden."
+  },
+  "file_name": "0924-03",
+  "first_page_order": 828,
+  "last_page_order": 828
+}

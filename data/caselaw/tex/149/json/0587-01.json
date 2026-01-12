@@ -1,0 +1,83 @@
+{
+  "id": 2330520,
+  "name": "Housing Authority of the City of Dallas v. David C. McCord, Jr.",
+  "name_abbreviation": "Housing Authority v. McCord",
+  "decision_date": "1951-01-03",
+  "docket_number": "No. A-2929",
+  "first_page": "587",
+  "last_page": "587",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "149 Tex. 587"
+    },
+    {
+      "type": "parallel",
+      "cite": "236 S.W.2d 115"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "234 S. W. 2d 108",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10191920
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/234/0108-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 82,
+    "char_count": 777,
+    "ocr_confidence": 0.598,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.07967645990171628
+    },
+    "sha256": "b970e39a87c0b4a76a774c462832bb45a261c0798c740155e3ecb0c811948910",
+    "simhash": "1:2ab1aeb76524c4ec",
+    "word_count": 129
+  },
+  "last_updated": "2024-02-27T22:27:48.324010+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Housing Authority of the City of Dallas v. David C. McCord, Jr."
+    ],
+    "opinions": [
+      {
+        "text": "per curiam:\nThe application for writ of error is refused, no reversible error, but without thereby affirming the holding of the Court of Civil Appeals on the Constitutional Question decided in the last paragraph of its opinion.\n(For opinion of Court of Civil Appeals see McCord v. Housing Authority, 234 S. W. 2d 108.)",
+        "type": "majority",
+        "author": "per curiam:"
+      }
+    ],
+    "attorneys": [
+      "H. P. Kucera, City Attorney, H. L. Nichols, Assistant City Attorney, and Scurry, Scurry & Pace, all of Dallas, for petitioner.",
+      "Coe & McCord, Ungerman, Hill & Ungerman, Aubrey J. Roberts, Coke & Coke, and Walter B. Brannan, all of Dallas, and Chas. W. Duke, of San Antonio, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "Housing Authority of the City of Dallas v. David C. McCord, Jr.\nNo. A-2929.\nDecided January 3, 1951.\nRehearing overruled February 21, 1951.\n(236 S. W., 2d Series, 115.)\nH. P. Kucera, City Attorney, H. L. Nichols, Assistant City Attorney, and Scurry, Scurry & Pace, all of Dallas, for petitioner.\nCoe & McCord, Ungerman, Hill & Ungerman, Aubrey J. Roberts, Coke & Coke, and Walter B. Brannan, all of Dallas, and Chas. W. Duke, of San Antonio, for respondent."
+  },
+  "file_name": "0587-01",
+  "first_page_order": 603,
+  "last_page_order": 603
+}

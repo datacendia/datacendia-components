@@ -1,0 +1,68 @@
+{
+  "id": 12701347,
+  "name": "John DOE, petitioner, v. Margaret HEIL, Acting Manager, Colorado Department of Corrections, Sex Offender Treatment and Monitoring Program, et al.",
+  "name_abbreviation": "John Doe v. Heil",
+  "decision_date": "2014-02-24",
+  "docket_number": "No. 13\u2013736.",
+  "first_page": "1200",
+  "last_page": "1200",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 1200"
+    },
+    {
+      "type": "parallel",
+      "cite": "188 L. Ed. 2d 304"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 1309"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 39,
+    "char_count": 309,
+    "sha256": "ddc63bc7ee760aff50b8edf50b066a65e3a0abd5bb3978f32d548b6b65bcb94a",
+    "simhash": "1:7baff44e1fc4923b",
+    "word_count": 48
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "John DOE, petitioner,\nv.\nMargaret HEIL, Acting Manager, Colorado Department of Corrections, Sex Offender Treatment and Monitoring Program, et al."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of certiorari to the United States Court of Appeals for the Tenth Circuit denied."
+    ],
+    "corrections": "",
+    "head_matter": "John DOE, petitioner,\nv.\nMargaret HEIL, Acting Manager, Colorado Department of Corrections, Sex Offender Treatment and Monitoring Program, et al.\nNo. 13-736.\nSupreme Court of the United States\nFeb. 24, 2014.\nPetition for writ of certiorari to the United States Court of Appeals for the Tenth Circuit denied."
+  },
+  "file_name": "1200-01",
+  "first_page_order": 1200,
+  "last_page_order": 1200
+}

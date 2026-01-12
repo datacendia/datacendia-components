@@ -1,0 +1,59 @@
+{
+  "id": 5972149,
+  "name": "In re Davis",
+  "name_abbreviation": "In re Davis",
+  "decision_date": "2010-11-01",
+  "docket_number": "No. 10-6020",
+  "first_page": "1001",
+  "last_page": "1001",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1001"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 83,
+    "ocr_confidence": 0.588,
+    "sha256": "c0e0190cf1f43696045abdb050a908f0aef174f6716423b485a93073853e15ad",
+    "simhash": "1:bc6ad27722db015a",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Davis."
+    ],
+    "opinions": [
+      {
+        "text": "Petition for writ of mandamus and/or prohibition denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6020.\nIn re Davis."
+  },
+  "file_name": "1001-04",
+  "first_page_order": 1023,
+  "last_page_order": 1023
+}

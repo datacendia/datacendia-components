@@ -1,0 +1,59 @@
+{
+  "id": 6024689,
+  "name": "Price v. McNeil, Secretary, Florida Department of Corrections",
+  "name_abbreviation": "Price v. McNeil",
+  "decision_date": "2010-10-12",
+  "docket_number": "No. 10-5721",
+  "first_page": "965",
+  "last_page": "965",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 965"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 111,
+    "ocr_confidence": 0.589,
+    "sha256": "d805cb548ccdf550c1cf9fc3c8b4cb02c4cc208a822e648bcbfb5e75dccb1817",
+    "simhash": "1:1f6b58b34d7cb078",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Price v. McNeil, Secretary, Florida Department of Corrections."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5721.\nPrice v. McNeil, Secretary, Florida Department of Corrections."
+  },
+  "file_name": "0965-13",
+  "first_page_order": 987,
+  "last_page_order": 987
+}

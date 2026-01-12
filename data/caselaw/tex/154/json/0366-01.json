@@ -1,0 +1,432 @@
+{
+  "id": 2249275,
+  "name": "Bascom Giles et al v. J. N. Basore et al",
+  "name_abbreviation": "Giles v. Basore",
+  "decision_date": "1955-03-02",
+  "docket_number": "No. A-4666",
+  "first_page": "366",
+  "last_page": "376",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "154 Tex. 366"
+    },
+    {
+      "type": "parallel",
+      "cite": "278 S.W.2d 830"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "9 Texas 81",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        6767829
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/9/0041-01"
+      ]
+    },
+    {
+      "cite": "50 S.W. 2d 1065",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2305609,
+        10262977
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/121/0515-01",
+        "/sw2d/50/1065-01"
+      ]
+    },
+    {
+      "cite": "121 Texas 515",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2305609
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/121/0515-01"
+      ]
+    },
+    {
+      "cite": "142 U.S. 161",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3557216
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "986, 991"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/142/0161-01"
+      ]
+    },
+    {
+      "cite": "63 Texas 330",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2165486
+      ],
+      "pin_cites": [
+        {
+          "page": "332"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/63/0330-01"
+      ]
+    },
+    {
+      "cite": "297 S.W. 202",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10290904,
+        2274843
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/297/0202-01",
+        "/tex/117/0053-01"
+      ]
+    },
+    {
+      "cite": "117 Texas 53",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2274843
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/117/0053-01"
+      ]
+    },
+    {
+      "cite": "56 S.W. 2d 438",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10241401,
+        2304204,
+        10241222,
+        5212431
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/56/0438-02",
+        "/tex/122/0213-01",
+        "/sw2d/56/0438-01",
+        "/tex-crim/122/0361-01"
+      ]
+    },
+    {
+      "cite": "122 Texas 213",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2304204
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/122/0213-01"
+      ]
+    },
+    {
+      "cite": "221 S.W. 920",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        2286452,
+        10322086
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/110/0513-01",
+        "/sw/221/0920-01"
+      ]
+    },
+    {
+      "cite": "110 Texas 513",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2286452
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/110/0513-01"
+      ]
+    },
+    {
+      "cite": "15 Texas 351",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2046001
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/15/0351-01"
+      ]
+    },
+    {
+      "cite": "14 Texas 213",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2048170
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/14/0213-01"
+      ]
+    },
+    {
+      "cite": "5 Texas 441",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        6769622
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/5/0221-01"
+      ]
+    },
+    {
+      "cite": "5 Texas 34",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        6768037
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/5/0017-01"
+      ]
+    },
+    {
+      "cite": "26 Texas 180",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2107932
+      ],
+      "pin_cites": [
+        {
+          "page": "181"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/26/0180-01"
+      ]
+    },
+    {
+      "cite": "14 Texas 146",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2048224
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/14/0146-01"
+      ]
+    },
+    {
+      "cite": "3 Texas 241",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        6769734
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/3/0241-01"
+      ]
+    },
+    {
+      "cite": "9 Texas 556",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        6770628
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/9/0278-01"
+      ]
+    },
+    {
+      "cite": "5 Texas 410",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        6769349
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/5/0205-01"
+      ]
+    },
+    {
+      "cite": "3 Texas 499",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        6770948
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "507"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/3/0499-01"
+      ]
+    },
+    {
+      "cite": "10 Texas 316",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        6769690
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/10/0158-02"
+      ]
+    },
+    {
+      "cite": "3 Texas 321",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        6770027
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/3/0321-01"
+      ]
+    },
+    {
+      "cite": "190 S.W. 2d 71",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2336665,
+        10187331
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/144/0195-01",
+        "/sw2d/190/0071-01"
+      ]
+    },
+    {
+      "cite": "144 Texas 195",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2336665
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/144/0195-01"
+      ]
+    },
+    {
+      "cite": "22 Texas 504",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2116751
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/22/0504-01"
+      ]
+    },
+    {
+      "cite": "266 S.W. 2d 926",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10210381
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/266/0926-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 893,
+    "char_count": 18606,
+    "ocr_confidence": 0.642,
+    "pagerank": {
+      "raw": 1.4280971339775525e-07,
+      "percentile": 0.6503651371180328
+    },
+    "sha256": "7cd5c9cc250586bbaee02a0e7ffbe59fec02607499b2003750477dd05ac95106",
+    "simhash": "1:0a44e31e3dca9875",
+    "word_count": 3294
+  },
+  "last_updated": "2024-02-27T19:00:26.686432+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bascom Giles et al v. J. N. Basore et al"
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Griffin\ndelivered the opinion of the Court.\nThe Court of Civil Appeals has made a clear and concise statement of the issues involved in this cause, as follows:\n\u201cThis suit involves the title to certain land in the delta of the Trinity River. The appellants, defendants in the trial court, and the State of Texas, the School Land Board of Texas, and the Humble Oil & Refining Company, holder of oil, gas and mineral leases on a part of the area in controversy. Appellees, plaintiffs in the trial court, claim title under a grant from the State of Coahuila and Texas to Thomas Jefferson Chambers dated September 23, 1834 of two and one-half leages of land.\n\u201cA jury was taken in the case but at the conclusion of evidence, the case, by consent of all parties, was withdrawn from the jury and submitted to the court, and judgment was rendered in favor of appellees, plaintiffs and intervening plaintiffs, and against the appellants, the defendants and intervening defendants for the title and possession of the lands, to wit:\n\u201cThat portion of the lands granted originally to Thomas Jefferson Chambers on September 23, 1834, lying in Chambers County, Texas, and generally described as follows:\n\u2018The portion of the Delta between Turtle Bayou Pass and Jack\u2019s Pass as it existed at the time of the grant to Thomas Jefferson Chambers, namely, September 23, 1834, and as has been extended by natural processes since that date, excluding lands under the bed of the Trinity River, including its several mouths (called passes), identified on said plat and in the field notes, and excluding other lands under other waters within the above general description which are below the vegetation line.\u201d Giles v. Basore, 266 S.W. 2d 926.\nWe attach a map or plat of the lands sued for, which shows the general location and character of the area of the Trinity River Delta.\nThere is no dispute as to any material fact. The following facts were stipulated:\n\u201c \u2018The sole claim of plaintiffs and interveners Guy C. Jackson, Jr., et al., to the land in controversy, is under the grant from the State of Coahuila and Texas, dated September 23, 1834, to Thomas Jefferson Chambers, of Two and One-half Leagues of land on Turtle Bay between the mouth of Turtle Bayou and the Trinity River. It is the contention of the State and Humble Oil & Refining Company that the Chambers Grant is invalid and that said grant does not cover the land in controversy. If said grant is held to be valid, said plaintiffs and intervenors have title to such of the land in controversy, if any, as is covered by said grant.\u2019\n\u201cFurther stipulation was that the land lies in a typical river delta, that in 1834 the topography of the area was substantially as shown on the United States Coast and Geodetic Survey Map of 1851, marked exhibit \u2018C\u2019, that the topography has changed slowly and imperceptibly as the result of natural processes, that the land was on September 23, 1834 within ten leagues of the coast, and that Chambers was appointed Circuit Judge under the Jury Law and the land herein was made to him as compensation for his services.\u201d Id., p. 929.\nThe petitioners contend that the Chambers Grant is void because it was not approved by the Federal executive of Mexico. If this contention be sustained, the judgments entered by the trial court and the Court of Civil Appeals are erroneous, and defendants below were entitled to recover. We think the Chambers Grant was valid and has been so held by previous opinions of this Court. Chambers v. Fisk, 22 Texas 504; State v. Balli, 144 Texas 195, 190 S.W. 2d 71.\nIt is true that under the Colonization Law of the Mexican National Government dated August 18, 1824, Article 4 (1 Laws of Texas 97) and the First Colonization Law of the State of Coahuila and Texas, March 24, 1825 (1 Laws of Texas 99), Section 7, the consent of the Federal Executive of Mexico was essential to the validity of the grants of land within the 10 coast leagues and 20 border leagues of vacant lands in Texas. Edwards v. Davis, 3 Texas 321, Id., 10 Texas 316; Republic v. Thorn, 3 Texas 499; Jones v. Borden, 5 Texas 410; Bissell v. Haynes, 9 Texas 556; Goode v. McQueen\u2019s Heirs, 3 Texas 241; Smith v. Power, 14 Texas 146; Wilcox v. Chambers, 26 Texas 180, 181; State v. Balli, supra.\nIn 1832 by Colonization Act, Decree 190, (1 Laws of Texas 299) the act of March 24, 1825 was repealed, but the substance of Section 7 was retained, except that the National Government\u2019s consent was required to settlements within the 10 and 20 league area only in the event such settlements \u201cwere not composed of two-thirds Mexicans.\u201d\nOn March 26, 1834, the Congress of Coahuila and Texas passed Decree 272, (1 Laws of Texas 357-362) which contained no prohibition against sales of lands within the 10 and 20 league limits. This Decree did affirmatively provide that \u201cthe vacant lands of the state shall be sold at public auction.\u201d This law was not repealed by any act of the National Government, but the National Government sent their representatives, Noriega and Almonte, to Texas to negotiate for the purchase of state lands in payment of the obligations owed by the State of Coahuila and Texas to the National Government. In its letter of instructions to Noriega, special reference was made to the Act of March 26, 1834, and directions were given to Noriega to secure a setting aside of the requirements of sale of the state lands at public auction in so far as dealings with the National Government were concerned. This was accomplished by Act of May 2, 1834. This last act dispensed with the Act of March 26, 1834, \u201cuntil the executive, in a manner and on terms advantageous to the state, might negotiate with the president for such lands as might be needed by the federal government.\u201d Republic v. Thorn, 3 Texas 499, 507.\nArticle 15, of the Constitution of Coahuila and Texas, adopted March 11, 1827, provided that \u201call kinds of vacant property within its limits, and all interstate property without a legal successor, shall belong to the state.\u201d Article 4 of this Constitution, after delegating the state\u2019s powers and rights to the general congress in all subjects relating to the Mexican Confederacy further provides: \u201c* * * but in all that belongs to the internal government and administration of said state, it retains its liberty, independence, and sovereignty.\u201d\nArticle 165 of the Mexican Federation (1 Laws of Texas 93) provided that \u201cCongress alone has the right to interpret the constitution in doubtful cases.\u201d This was followed in Article 97, Section IV of the Constitution of Coahuila and Texas, first subsection of which provided that the State Congress shall have power \u201c* * * to enact, interpret, amend or repeal the laws relative to the administration and internal government of the state in all its branches.\u201d (Emphasis added) Under the Mexican system of government the courts had no power to declare a law passed by either the National or State Congress unconstitutional or in conflict with the Constitution or other laws of Congress. This power was specifically given only to the legislative bodies, and to the Executive council of government. (First Article of Section Fifth, 1 Laws of Texas 86).\nWith this background of the National Mexican Constitution and of the Constitution of Coahuila and Texas in mind, let us examine the Juror Law, passed by the Congress of Coahuila and Texas on April 17, 1834. This law was passed in order to placate the citizens of Texas who were accustomed to jury trial in the courts of those lands from which they had migrated to Texas. In 1833, a convention of the citizens of Texas had been called for the purpose of selecting a comittee to go to Mexico City and present a number of grievances' of Texas citizens to the National Executive, who, by this time, was to all intents and purposes, a dictator. One of the grievances was the lack of a jury system. After much delay, Stephen F. Austin, one of those selected by the Texas Convention, succeeded, in November, 1833, in securing an audience with Santa Anna and his council. As a result of this audience, the Secretary of State wrote Austin on December 7 that certain requests of Austin had been approved. \u201cAmong these has been one to request the Governor of the State to promote the enjoyment of all rights of (to which) those colonists are entitled, the same as all other Mexican citizens in civil and criminal matters. For this purpose the means that should be put in practice for more honest and suitable administration of the justice and one of the other branches has been indicated, one of them being the establishment of a jury system, all in conformity with the desire of the colonists. It has not been possible on the part of the Federal Government to do anything more because it is outside of its attributes.\u201d\nAlso there are shown instructions to Noriega whereby he is directed to cooperate in the matter of adopting measures for the benfit of the colonists regulating their government and internal administration, \u201ckeeping in mind that in the judgment of His Excellency one of the most convenient measures would be the establishment of juries, a subject on which views the Government has already made known to Your Lordship.\u201d These instructions were issued the latter part of 1833. Noriega came to Monclova, the state capital at that time. On April 18, 1834, the Congress of Coahuila and Texas passed the Juror Law, which established a judicial circuit in Texas including all of the territory within Texas. It also directed that the annual salary of the judge should be $3,000.00 per annum, and the first year\u2019s salary should be paid in vacant lands situated within the judicial district at the rate of $100.00 per \u201csitio\u201d (league). Under this law, Chambers was appointed and qualified as Superior Judge, made proper application for the 30 leagues of land, and 29)4 leagues of this land were awarded to him in September, 1834. The lands involved in the litigation were contained in the 2)4 leagues awarded in Chambers County.\nOn April 28, 1834, Noriega wrote a letter to the Secretary of Foreign and Internal Relations at Mexico City in which he states that the desires of the General Government had been satisfied with regard to the establishment of jurors in Texas, and this complaint by the foreign colonists has been removed. Austin, while still a prisoner in Mexico City, wrote Oliver Jones on May 30, 1834, that he had been assured by the Minister of Relations that by order of the vice-president he had recommended to the State Government the establishment of a jury system. To this letter Austin appended a postscript of June 2, 1834, wherein he says he has just been informed of the establishment of a jury system, and he recommends that the people of Texas return thanks for such laws. Further, there was passed no act, decree or edict of the National Government repealing, or annulling the Juror Law, although the National Government, under date of April 24, 1835, did repeal the 400 sitios law passed by the State Congress.\nThe Juror Law being passed by the Congress of Coahuila and Texas and providing for payment of salary in vacant lands within the State of Texas and said law being known to the National Government and no repealing law having been passed, and the facts showing this Law had the approval of the Supreme Executive, we hold it valid. For a more detailed discussion of the validity of the Juror Law we refer to Chambers v. Fisk and State v. Balli, supra, in each of which cases, the reasons for upholding the Chambers\u2019 title are set out at great length.\nPetitioners claim that in accordance with an act of the Congress of the Republic of Texas on February 4, 1841, it was necessary for those claiming under the Chambers Grant to file suit to perfect title within one year after the passage of the Act. The Act of 1841 was directed at those claims where fraud was alleged in the original grant. The Chambers title was never attacked on this ground. On December 22, 1840, Roglin, the then acting Commissioner of the General Land Office of the Republic of Texas, in response to a request of the Congress for a list of large grants in either the 10 leagues or the 20 leagues, listed these 2% leagues as located in the 10 leagues, and not in the 20 leagues territory. The law of 1841 referred to could not affect those titles which had been perfected prior to the passage of the Act. McMullen v. Hodge, 5 Texas 34; Warren v. Shuman, 5 Texas 441; Hart v. Gibbons, 14 Texas 213; Montes v. Jones, 15 Texas 351; Steddum v. Kirby Lumber Co., 110 Texas 513; 221 S.W. 920; Manry v. Robison, 122 Texas 213, 56 S.W. 2d 438. Petitioners admit in their application that if the Chambers Grant was valid and conveyed a valid title to Chambers, the 1841 act would have no application.\nPetitioners contend that the limits of the Chambers Grant, if it is held to be valid, are determined by the boundaries of the tracts as they existed in 1834 at the time the grant was made.\nA reference to the plat attached shows that Tracts Nos. 5, 6, 7, 8 and 9 were, at the time of trial, completely surrounded by the waters of Trinity Bay. The evidence discloses that these tracts were not in existence in 1834, but have been formed by the deposits of silt, soil, logs from the Trinity River during flood stage and its normal flow into the Bay. It is undisputed that the floor of the Bay, on which these tracts have arisen and been formed, was not a part of the mainland at the time of the grant in 1834, or at any time since. Under the Mexican law in force in 1834, and under the Texas laws in force since the forming of the Republic in 1836, the bed of the Bay was the property of the State. All bodies of land arising from or upon such state-owned bay floor, become and are the property of the State of Texas. See the reasoning in Manry v. Robison, supra; State v. Grubstake Inv. Ass\u2019n., 117 Texas 53, 297 S.W. 202; Humble Oil & Ref. Co. v. Sun Oil Co., 190 Fed. 2d 191, 195; Fulton v. Frandolig, 63 Texas 330, 332.\nWe hold that title to Tracts Nos. 5, 6, 7, 8 and 9 never vested in General Chambers nor in his heirs or assigns; but that title only vested in the State of Texas, and those who have acquired rights therein in accordance with our laws.\nAs to Tracts Nos. 1, 2, 3, 4, and 10, the situation is entirely different. The evidence shows that these tracts were in existence in 1834, but that their boundaries at that time were shown by the dotted lines on the attached map or plat. Since then the action of the Trinity River has extended the surface of these tracts until at the time of trial they were as shown on the plat. This addition or extension of the surface of these tracts has been brought about by gradual and imperceptible deposition of silt, soil, logs by the Trinity River through the operation of natural causes, and such process is known as accretion. The Humble Oil & Refining Co. v. Sun Oil Co. and State v. Balli cases, supra, contain an exhaustive and thorough discussion of the law applicable to such process, and we see no need To repeat it here. In the Balli case there were three judges who dissented from the majority opinion giving title to Padre Island to the heirs and assigns of Nicolas and Juan Balli. However, only one judge dissented from the court\u2019s holding that the area added to Padre Island since the grant to the Ballis passed to the Ballis title under the doctrine of accretion. Since this question was so thoroughly discussed in the Balli case, and the holding of the court was that the owners of the land forming the seashore became the owners of the added land, we regard the issue as settled in this state. Accordingly, we hold that the Chambers title to Tracts Nos. 1, 2, 3, 4 and 10 vested in General Chambers at the time of the grant. These tracts as they exist with their present limits and boundaries are the property of those holding under the Chambers\u2019 title.\nPetitioners contend that the field notes of the original grant as set out in the trial court\u2019s judgment and which call for the western mouth of the Trinity River are void and of no force and effect, and that in any event the original grant is limited to the first mouth of the Trinity reached, and cannot extend beyond this. We believe the case of Knight v. United States Land Association, 142 U.S. 161, 35 L. Ed. 974, 986, 991, 12 Sup. Ct. 258, controls our cause and that in following the shoreline of a bay \u2014 as here called for \u2014 the survey, when it comes to a smaller body of water or a river entering the bay, should go from headland to headland rather than up the river or smaller body of water to the limits of the tide. Also, we believe that the cases of State v. Bradford, 121 Texas 515, 50 S.W. 2d 1065 and Horton v. Pace, 9 Texas 81, 84 control. The judgment of the trial court was very careful to preserve to the state the title to and ownership of the river beds and navigable waters surrounding each of the 10 tracts involved in this suit.\nFinally, it is claimed by petitioners that if the Chambers\u2019 title is held valid it will invalidate numerous other titles in that vicinity. The answer to this contention is that the ownership of such other titles is not put in issue herein; nor are the owners of such other titles parties to this suit. Such being true, we have not attempted to pass upon such other titles, and if such titles are put in issue in other litigation, the owners thereof can urge each and every right, title or claim which they have to their respective lands.\nThe judgments of the trial court and the Court of Civil Appeals vesting title in the Chambers\u2019 heirs and assigns to Tracts No. 5, 6, 7, 8 and 9 are hereby reversed, and judgment is rendered that the plaintiffs (respondents in this Court) take nothing in their suit for title to these tracts; judgment is also here rendered in favor of the State of Texas and those claiming under it (petitioners herein) for the title and possession of Tracts Nos. 5, 6, 7, 8 and 9. Otherwise the judgments of both courts below are affirmed.\nPetitioners and respondents shall each pay one-half of the costs of this litigation.\nOpinion delivered March 2, 1955.\nRehearing overruled May 25, 1955.",
+        "type": "majority",
+        "author": "Mr. Justice Griffin"
+      }
+    ],
+    "attorneys": [
+      "John Ben Shepperd, Attorney General, Burnell Waldrep, assistant Attorney General, of Austin, Rex G. Baker, Nelson Jones and Wm. J. Merrill, of Houston, for petitioners.",
+      "Vinson, Elkins, Weems & Searls and Tarlton Morrow, of \u2022 Houston, Dan Moody and Cecil Rotsch, of Austin, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "Bascom Giles et al v. J. N. Basore et al\nNo. A-4666.\nDecided March 2, 1955.\nRehearing overruled May 25, 1955.\n(278 S.W. 2d Series 830)\nJohn Ben Shepperd, Attorney General, Burnell Waldrep, assistant Attorney General, of Austin, Rex G. Baker, Nelson Jones and Wm. J. Merrill, of Houston, for petitioners.\nVinson, Elkins, Weems & Searls and Tarlton Morrow, of \u2022 Houston, Dan Moody and Cecil Rotsch, of Austin, for respondents."
+  },
+  "file_name": "0366-01",
+  "first_page_order": 380,
+  "last_page_order": 390
+}

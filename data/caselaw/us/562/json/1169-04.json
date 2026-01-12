@@ -1,0 +1,59 @@
+{
+  "id": 5988118,
+  "name": "Florida v. Ross",
+  "name_abbreviation": "Florida v. Ross",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-550",
+  "first_page": "1169",
+  "last_page": "1169",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1169"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 21,
+    "char_count": 132,
+    "ocr_confidence": 0.581,
+    "sha256": "ad1d494b44cc9e3e349bd801049f86e1325a8e9a934e099ed8388fdd106e32c7",
+    "simhash": "1:13a4f9dbe5e1da12",
+    "word_count": 21
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Florida v. Ross."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. Motion of respondent for leave to proceed in forma pawperis granted. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-550.\nFlorida v. Ross."
+  },
+  "file_name": "1169-04",
+  "first_page_order": 1191,
+  "last_page_order": 1191
+}

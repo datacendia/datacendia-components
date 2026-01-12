@@ -1,0 +1,180 @@
+{
+  "id": 12520393,
+  "name": "UNITED STATES of America, Plaintiff-Appellee, v. Thomas D. MELVIN, Defendant-Appellant.",
+  "name_abbreviation": "U.S. v. Melvin",
+  "decision_date": "2017-02-03",
+  "docket_number": "No. 16-12061",
+  "first_page": "1296",
+  "last_page": "1301",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "918 F.3d 1296"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "11th Cir.",
+    "id": 9031,
+    "name": "United States Court of Appeals for the Eleventh Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "135 F.3d 860",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11872317
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "866",
+          "parenthetical": "persuasive authority"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/135/0860-01"
+      ]
+    },
+    {
+      "cite": "448 U.S. 242",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1787659
+      ],
+      "weight": 3,
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "2641"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/448/0242-01"
+      ]
+    },
+    {
+      "cite": "522 U.S. 93",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11470872
+      ],
+      "weight": 15,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "493"
+        },
+        {
+          "parenthetical": "emphasis in original"
+        },
+        {
+          "parenthetical": "quotations and citations omitted"
+        },
+        {
+          "page": "495"
+        },
+        {
+          "page": "496"
+        },
+        {
+          "page": "496"
+        },
+        {
+          "page": "496",
+          "parenthetical": "\"we look only to 'the statute on its face' to determine whether a penalty is criminal in nature.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/522/0093-01"
+      ]
+    },
+    {
+      "cite": "137 F.3d 1300",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        105963
+      ],
+      "weight": 2,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "1302"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/137/1300-01"
+      ]
+    },
+    {
+      "cite": "17 C.F.R. \u00a7 201.102",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "pin_cites": [
+        {
+          "page": "(e)(3)(iii)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 1348",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 573,
+    "char_count": 10098,
+    "pagerank": {
+      "raw": 4.752127337514866e-08,
+      "percentile": 0.29905353555361724
+    },
+    "sha256": "54d46ef942ada61f35ea5450f1c451173fd94756fbbd8b83bb568080cdde5e7d",
+    "simhash": "1:10ecd01c4abe6937",
+    "word_count": 1564
+  },
+  "last_updated": "2024-02-27T18:46:20.843221+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before TJOFLAT, WILLIAM PRYOR, and EDMONDSON, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee,\nv.\nThomas D. MELVIN, Defendant-Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM:\nThomas Melvin appeals his convictions on six counts of security fraud, in violation of 18 U.S.C. \u00a7 1348, after he pleaded guilty pursuant to a written plea agreement. On appeal, Melvin challenges only the district court's denial of his motion to dismiss the indictment on double jeopardy grounds. No reversible error has been shown; we affirm.\nBriefly stated, Melvin -- a certified public accountant -- disclosed confidential insider information he received from a client about the pending sale of a publicly-traded company. Although Melvin purchased no securities in his own name, he enabled his tippees to make profitable purchases of stock for their own benefit.\nAs a result of Melvin's conduct, the United States Securities and Exchange Commission (\"SEC\") filed a civil suit against Melvin for insider trading, in violation of Sections 10(b) and 14(e) of the Securities and Exchange Act of 1934, 15 U.S.C. \u00a7 78a et seq. (\"Exchange Act\"). Melvin ultimately settled with the SEC and agreed to pay disgorgement totaling $68,826 (constituting the unlawful profits of two of his four direct tippees plus prejudgment interest), and a civil penalty of $108,930, pursuant to 15 U.S.C. \u00a7 78u-1.\nFollowing entry of final judgment in the civil proceeding, the SEC also instituted an administrative proceeding against Melvin. The administrative law judge issued an order disqualifying Melvin permanently from practicing accountancy before the SEC, pursuant to 15 U.S.C. \u00a7 78d-3, and 17 C.F.R. \u00a7 201.102(e)(3)(iii).\nMeanwhile, the government instituted the criminal proceeding underlying this appeal, based on the same conduct for which Melvin was held responsible in his civil and administrative proceedings. Pertinent to this appeal, Melvin moved to dismiss the indictment, contending that -- in the light of the earlier disgorgement, civil penalty, and professional disqualification -- further criminal prosecution was barred by the Fifth Amendment's Double Jeopardy Clause. The district court denied the motion. Melvin then pleaded guilty pursuant to a plea agreement.\nWe review de novo possible violations of the Double Jeopardy Clause. Grossfeld v. Commodity Futures Trading Comm'n, 137 F.3d 1300, 1302 (11th Cir. 1998).\nThe Double Jeopardy Clause provides that no \"person [shall] be subject for the same offence to be twice put in jeopardy of life or limb.\" U.S. Const., amend. V. \"[T]he Double Jeopardy Clause does not prohibit the imposition of any additional sanction that could, in common parlance, be described as punishment.\" Hudson v. United States, 522 U.S. 93, 118 S.Ct. 488, 493, 139 L.Ed.2d 450 (1997). Instead, it \"protects only against the imposition of multiple criminal punishments for the same offense.\" Id. (emphasis in original).\n\"Whether a particular punishment is criminal or civil is, at least initially, a matter of statutory construction.\" Id. We first look to see whether the legislature has indicated -- either expressly or impliedly -- whether the punishment is meant to be civil or criminal. Id. But even where the legislature has intended to establish a civil remedy, we next consider \"whether the statutory scheme was so punitive either in purpose or effect as to transform what was clearly intended as a civil remedy into a criminal penalty.\" Id. (quotations and citations omitted).\nThe Supreme Court has identified several factors that serve as \"useful guideposts\" for conducting this second inquiry. The guideposts include these factors: (1) \"whether the sanction involves an affirmative disability or restraint\"; (2) \"whether it has historically been regarded as a punishment\"; (3) \"whether it comes into play only on a finding of scienter \"; (4) \"whether its operation will promote the traditional aims of punishment -- retribution and deterrence\"; (5) \"whether the behavior to which it applies is already a crime\"; (6) \"whether an alternative purpose to which it may rationally be connected is assignable for it\"; and (7) \"whether it appears excessive in relation to the alternative purpose assigned.\" Id. The Supreme Court has stressed that \"these factors must be considered in relation to the statute on its face,\" and that \"only the clearest proof will suffice to override legislative intent and transform what has been denominated a civil remedy into a criminal penalty.\" See id. ; United States v. Ward, 448 U.S. 242, 100 S.Ct. 2636, 2641, 65 L.Ed.2d 742 (1980).\nAbout the first inquiry, the monetary penalties provided by Congress in 15 U.S.C. \u00a7 78u-1 are labeled expressly as \"civil penalties.\" Congress has also authorized the SEC, under certain situations, to deny a person permanently \"the privilege of appearing or practicing before the Commission.\" 15 U.S.C. \u00a7 78d-3(a)(3). Although the penalties provided for under section 78d-3 contain no express \"civil\" designation, that Congress conferred upon the SEC -- an administrative agency -- the authority to impose such a penalty \"is prima facie evidence that Congress intended to provide for a civil sanction.\" See Hudson, 118 S.Ct. at 495.\nHaving determined that Congress intended the penalties for violating the Exchange Act to be civil in nature, we now determine -- looking only at the statutory language -- whether those penalties are \"so punitive in form and effect as to render them criminal despite Congress' intent to the contrary.\" See id. First, the penalties at issue -- disgorgement, a monetary penalty, and professional disqualification from practicing before the SEC -- constitute no \"affirmative disability or restraint\" approaching imprisonment. See id. at 496 (concluding that neither money penalties nor debarment involved an \"affirmative disability or restraint,\" and explaining that debarment was \"certainly nothing approaching the 'infamous punishment' of imprisonment.\"). About the second factor, the Supreme Court has also said that \"neither money penalties nor debarment have historically been viewed as punishment.\" See id. at 495-96.\nThird, none of the penalties \"comes into play only on a finding of scienter .\" The SEC may impose a monetary penalty against a person whom the SEC determines has merely \"violated\" the Exchange Act. 15 U.S.C. \u00a7 78u-1(a)(1). Although the amount of the penalty imposed is to be determined \"in the light of the facts and circumstances\" -- which might include consideration of a person's level of culpability -- the statute authorizes the imposition of a penalty even in the absence of scienter. Cf. Hudson, 118 S.Ct. at 496. Likewise -- although the SEC may disqualify a person permanently from practicing before it based on that person's willful violation of the Exchange Act -- the SEC may impose the same penalty when it finds a person lacks \"the requisite qualifications to represent others,\" is \"lacking in character or integrity,\" or has engaged in reckless or negligent conduct: no \"willfulness\" is required. See 15 U.S.C. \u00a7 78d-3.\nAbout the fifth factor, that the conduct triggering the penalties is also criminal in nature is alone \"insufficient to render the money penalties and debarment sanctions criminally punitive.\" See Hudson, 118 S.Ct. at 496. Under the fourth factor, that the penalties at issue may have a deterrent effect, \"the mere presence of this purpose is insufficient to render a sanction criminal, as deterrence may serve civil as well as criminal goals.\" See id. We agree with the district court's assessment that the penalties for security fraud serve \"other important nonpunitive goals, such as encouraging investor confidence, increasing the efficiency of financial markets, and promoting the stability of the securities industry.\" Accord Sec. & Exch. Comm'n v. Palmisano, 135 F.3d 860, 866 (2d Cir. 1998) (persuasive authority) (concluding that disgorgement and money penalties under the Exchange Act were civil in nature for purposes of double jeopardy). And we are unpersuaded that the penalties have no rational relationship to these alternative, non-punitive purposes, or that they are excessive in relation to these alternative purposes.\nGiven all the circumstances, Melvin has failed to demonstrate with the \"clearest proof\" necessary that the penalties imposed as a result of his earlier civil and administrative proceedings were so punitive that they must be treated as criminal penalties. Melvin's criminal prosecution thus constitutes no violation of the Double Jeopardy Clause. We affirm the district court's denial of Melvin's motion to dismiss the indictment on double jeopardy grounds.\nAFFIRMED.\nAs part of Melvin's plea agreement, Melvin agreed to a limited waiver of appeal but retained expressly his right to appeal the denial of his motion to dismiss the indictment based on double jeopardy.\nMelvin's settlement provided that Melvin was to be held jointly and severally liable with the two tippees for the disgorgement amounts.\nOn appeal, Melvin argues in large part that the district court erred in failing to consider whether the penalties -- as applied to Melvin (or to a class of similarly-situated defendants who reaped no personal profit as a result of the conduct) -- were punitive in effect. This argument is without merit. The law is clear that, in considering whether a nominally civil remedy rises to the level of a criminal penalty for purposes of the Double Jeopardy Clause, we consider only the statutory language, and not the specific penalties as applied in a particular case. See Hudson, 118 S.Ct. at 496 (\"we look only to 'the statute on its face' to determine whether a penalty is criminal in nature.\"); Grossfeld, 137 F.3d at 1303 n.7 (\"Hudson makes it clear that we are to examine the statute on its face.\").",
+        "type": "majority",
+        "author": "PER CURIAM:"
+      }
+    ],
+    "attorneys": [
+      "Nathan Parker Kitchens, Douglas W. Gilfillan, John Andrew Horn, Lawrence R. Sommerfeld, U.S. Attorney's Office, Atlanta, GA, for Plaintiff-Appellee.",
+      "Larry David Wolfe, L. David Wolfe, PC, Atlanta, GA, for Defendant-Appellant."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee,\nv.\nThomas D. MELVIN, Defendant-Appellant.\nNo. 16-12061\nUnited States Court of Appeals, Eleventh Circuit.\nFebruary 3, 2017\nNathan Parker Kitchens, Douglas W. Gilfillan, John Andrew Horn, Lawrence R. Sommerfeld, U.S. Attorney's Office, Atlanta, GA, for Plaintiff-Appellee.\nLarry David Wolfe, L. David Wolfe, PC, Atlanta, GA, for Defendant-Appellant.\nBefore TJOFLAT, WILLIAM PRYOR, and EDMONDSON, Circuit Judges."
+  },
+  "file_name": "1296-01",
+  "first_page_order": 1296,
+  "last_page_order": 1301
+}

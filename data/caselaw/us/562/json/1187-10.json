@@ -1,0 +1,59 @@
+{
+  "id": 5952099,
+  "name": "Gaston v. Illinois",
+  "name_abbreviation": "Gaston v. Illinois",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-7575",
+  "first_page": "1187",
+  "last_page": "1187",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1187"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.644,
+    "sha256": "e428de94b44c3f0526c9f482fbfbcf3e29c31aaca17c21c64185b4fbeb681061",
+    "simhash": "1:c8a9d6d16535fd2f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gaston v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7575.\nGaston v. Illinois."
+  },
+  "file_name": "1187-10",
+  "first_page_order": 1209,
+  "last_page_order": 1209
+}

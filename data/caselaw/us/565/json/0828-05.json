@@ -1,0 +1,59 @@
+{
+  "id": 12199372,
+  "name": "Woida v. United States",
+  "name_abbreviation": "Woida v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-9027",
+  "first_page": "828",
+  "last_page": "828",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 828"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.729,
+    "sha256": "a575e72a70b15a077d919960e768644ebb2aecfdcee462b2b9422d62e2a8caad",
+    "simhash": "1:803ab2838a013028",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Woida v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9027.\nWoida v. United States."
+  },
+  "file_name": "0828-05",
+  "first_page_order": 910,
+  "last_page_order": 910
+}

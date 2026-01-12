@@ -1,0 +1,59 @@
+{
+  "id": 12428765,
+  "name": "Pawlowski v. United States",
+  "name_abbreviation": "Pawlowski v. United States",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-7329",
+  "first_page": "1108",
+  "last_page": "1108",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1108"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.607,
+    "sha256": "3a1434640fa08dadfd210dcf0ab4ff48ac4215746c4f9fbc08775ce9b03c248c",
+    "simhash": "1:840aefbb4ea7a52e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pawlowski v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7329.\nPawlowski v. United States."
+  },
+  "file_name": "1108-13",
+  "first_page_order": 1184,
+  "last_page_order": 1184
+}

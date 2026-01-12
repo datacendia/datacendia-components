@@ -1,0 +1,77 @@
+{
+  "id": 12422359,
+  "name": "Barba v. California",
+  "name_abbreviation": "Barba v. California",
+  "decision_date": "2012-11-13",
+  "docket_number": "No. 12-5017",
+  "first_page": "1007",
+  "last_page": "1007",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1007"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "567 U. S. 50",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12407017
+      ],
+      "year": 2012,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/567/0050-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 39,
+    "char_count": 288,
+    "ocr_confidence": 0.612,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25624582745943875
+    },
+    "sha256": "51d5ef84aa3e9634e68fbfc19afb7fa9148bfeceaae2b70db3064d1959871a07",
+    "simhash": "1:ea21e0c085e32a99",
+    "word_count": 46
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Barba v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 2d App. Dist. Motion of petitioner for leave to proceed in forma pau-peris granted. Certiorari granted, judgment vacated, and case remanded for further consideration in light of Williams v. Illinois, 567 U. S. 50 (2012).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "November 13, 2012\nNo. 12-5017.\nBarba v. California."
+  },
+  "file_name": "1007-04",
+  "first_page_order": 1083,
+  "last_page_order": 1083
+}

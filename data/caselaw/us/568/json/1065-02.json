@@ -1,0 +1,59 @@
+{
+  "id": 12427212,
+  "name": "In re Stokley",
+  "name_abbreviation": "In re Stokley",
+  "decision_date": "2012-12-04",
+  "docket_number": "No. 12-7527 (12A550)",
+  "first_page": "1065",
+  "last_page": "1065",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1065"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 31,
+    "char_count": 225,
+    "ocr_confidence": 0.617,
+    "sha256": "75818f0eacb9e4d96af5d095b71ee5d629c11b5df73e05259c4131b8d345c819",
+    "simhash": "1:504f896813010b41",
+    "word_count": 37
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Stokley."
+    ],
+    "opinions": [
+      {
+        "text": "Application for stay of execution of sentence of death, presented to Justice Kennedy, and by him referred to the Court, denied. Petition for writ of habeas corpus denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "December 4, 2012\nNo. 12-7527 (12A550).\nIn re Stokley."
+  },
+  "file_name": "1065-02",
+  "first_page_order": 1141,
+  "last_page_order": 1141
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5941073,
+  "name": "Nelson v. Missouri",
+  "name_abbreviation": "Nelson v. Missouri",
+  "decision_date": "2011-02-28",
+  "docket_number": "No. 10-8451",
+  "first_page": "1260",
+  "last_page": "1260",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1260"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 80,
+    "ocr_confidence": 0.639,
+    "sha256": "bb4596604873719bf91d9cb82b14bd517a7d7c6e19e780de859227884ad5fc36",
+    "simhash": "1:7c0df3d6cfc1abfa",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Nelson v. Missouri."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Mo., Eastern Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8451.\nNelson v. Missouri."
+  },
+  "file_name": "1260-09",
+  "first_page_order": 1282,
+  "last_page_order": 1282
+}

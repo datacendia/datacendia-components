@@ -1,0 +1,59 @@
+{
+  "id": 4336499,
+  "name": "Crock v. Pennsylvania",
+  "name_abbreviation": "Crock v. Pennsylvania",
+  "decision_date": "2011-06-27",
+  "docket_number": "No. 10-10147",
+  "first_page": "1041",
+  "last_page": "1041",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1041"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 71,
+    "ocr_confidence": 0.648,
+    "sha256": "7216cb386a81f267024aa98c2f58be01a5dde6c799721c648f77ee45aad0cf18",
+    "simhash": "1:ca7602f0b1e8ecd4",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Crock v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Pa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10147.\nCrock v. Pennsylvania."
+  },
+  "file_name": "1041-14",
+  "first_page_order": 1035,
+  "last_page_order": 1035
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12241932,
+  "name": "Suschanke v. United States",
+  "name_abbreviation": "Suschanke v. United States",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-7653",
+  "first_page": "1137",
+  "last_page": "1137",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1137"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.697,
+    "sha256": "dc67b223aa21c06d1d8505258e0cffbba3341d5abc89c9fae49934cbcafd3911",
+    "simhash": "1:a4bbd7a30fb5062d",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Suschanke v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7653.\nSuschanke v. United States."
+  },
+  "file_name": "1137-05",
+  "first_page_order": 1219,
+  "last_page_order": 1219
+}

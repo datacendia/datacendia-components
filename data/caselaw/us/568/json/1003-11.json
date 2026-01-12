@@ -1,0 +1,59 @@
+{
+  "id": 12422191,
+  "name": "Finger v. Anderson County, Tennessee, et al.",
+  "name_abbreviation": "Finger v. Anderson County",
+  "decision_date": "2012-11-05",
+  "docket_number": "No. 12-6563",
+  "first_page": "1003",
+  "last_page": "1003",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1003"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 92,
+    "ocr_confidence": 0.637,
+    "sha256": "df92dd4fec8cdf6b209b6ad20a921cff3f9319591d8302efd426cb95a19e6e61",
+    "simhash": "1:808a32a8181f1803",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Finger v. Anderson County, Tennessee, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6563.\nFinger v. Anderson County, Tennessee, et al."
+  },
+  "file_name": "1003-11",
+  "first_page_order": 1079,
+  "last_page_order": 1079
+}

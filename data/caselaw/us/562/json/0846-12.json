@@ -1,0 +1,59 @@
+{
+  "id": 5985442,
+  "name": "Clark v. Tennessee",
+  "name_abbreviation": "Clark v. Tennessee",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10565",
+  "first_page": "846",
+  "last_page": "846",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 846"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 74,
+    "ocr_confidence": 0.611,
+    "sha256": "cc126e561dc4695a4fc6f33e9a7d72ce8a7f96ad40b0e3b1756c42dc1f4dc11b",
+    "simhash": "1:8365919430cf49ca",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Clark v. Tennessee."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tenn. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10565.\nClark v. Tennessee."
+  },
+  "file_name": "0846-12",
+  "first_page_order": 868,
+  "last_page_order": 868
+}

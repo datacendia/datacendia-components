@@ -1,0 +1,59 @@
+{
+  "id": 5979848,
+  "name": "Gillilland v. Arizona",
+  "name_abbreviation": "Gillilland v. Arizona",
+  "decision_date": "2011-03-07",
+  "docket_number": "No. 10-8477",
+  "first_page": "1276",
+  "last_page": "1276",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1276"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 71,
+    "ocr_confidence": 0.58,
+    "sha256": "d5814a8d5eb7985fa894843f508bca3e83d5faf324e3673ce5001ecba9c0fdc4",
+    "simhash": "1:238ac50232a65820",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gillilland v. Arizona."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ariz. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8477.\nGillilland v. Arizona."
+  },
+  "file_name": "1276-13",
+  "first_page_order": 1298,
+  "last_page_order": 1298
+}

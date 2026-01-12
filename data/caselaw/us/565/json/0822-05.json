@@ -1,0 +1,59 @@
+{
+  "id": 12196223,
+  "name": "Ryskamp v. Commissioner of Internal Revenue",
+  "name_abbreviation": "Ryskamp v. Commissioner",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-1452",
+  "first_page": "822",
+  "last_page": "822",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 822"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 92,
+    "ocr_confidence": 0.642,
+    "sha256": "11c14ccc871a2ae531bf41faa9cf966ad6c845cc8132a7bb6caaec7aa0c02e13",
+    "simhash": "1:d6c335a9072de05e",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ryskamp v. Commissioner of Internal Revenue."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1452.\nRyskamp v. Commissioner of Internal Revenue."
+  },
+  "file_name": "0822-05",
+  "first_page_order": 904,
+  "last_page_order": 904
+}

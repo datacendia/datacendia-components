@@ -1,0 +1,59 @@
+{
+  "id": 12411797,
+  "name": "Brown v. Mitchell, Superintendent, Old Colony Correctional Center",
+  "name_abbreviation": "Brown v. Mitchell",
+  "decision_date": "2012-06-25",
+  "docket_number": "No. 11-9895",
+  "first_page": "938",
+  "last_page": "938",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 938"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 114,
+    "ocr_confidence": 0.673,
+    "sha256": "18930bd6704104787987c36737d04d2202d97e18f4de3df5cee2647c74106d29",
+    "simhash": "1:bb937e62f71ef82c",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Brown v. Mitchell, Superintendent, Old Colony Correctional Center."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9895.\nBrown v. Mitchell, Superintendent, Old Colony Correctional Center."
+  },
+  "file_name": "0938-14",
+  "first_page_order": 842,
+  "last_page_order": 842
+}

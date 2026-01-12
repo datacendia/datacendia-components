@@ -1,0 +1,61 @@
+{
+  "id": 6031803,
+  "name": "Rich v. Associated Brands, Inc.",
+  "name_abbreviation": "Rich v. Associated Brands, Inc.",
+  "decision_date": "2011-03-21",
+  "docket_number": "No. 10-8305",
+  "first_page": "1303",
+  "last_page": "1303",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1303"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 160,
+    "ocr_confidence": 0.575,
+    "sha256": "9114f6a3f9935d4a5945e9f35362d45654c340adae066ec8177c2b5d2387b39c",
+    "simhash": "1:99b370805b4cf642",
+    "word_count": 26
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Rich v. Associated Brands, Inc."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.\nJustice Sotomayor took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8305.\nRich v. Associated Brands, Inc."
+  },
+  "file_name": "1303-07",
+  "first_page_order": 1325,
+  "last_page_order": 1325
+}

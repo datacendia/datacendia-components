@@ -1,0 +1,59 @@
+{
+  "id": 12422960,
+  "name": "Davis v. McLaughlin, Warden",
+  "name_abbreviation": "Davis v. McLaughlin",
+  "decision_date": "2012-11-13",
+  "docket_number": "No. 12-6240",
+  "first_page": "1015",
+  "last_page": "1015",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1015"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.628,
+    "sha256": "136f80eb4ec70aa896ea5cbe0026752d0afe2a7d8230b9063ddbee0c9d15c760",
+    "simhash": "1:5ca20e23adcff2b2",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Davis v. McLaughlin, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6240.\nDavis v. McLaughlin, Warden."
+  },
+  "file_name": "1015-03",
+  "first_page_order": 1091,
+  "last_page_order": 1091
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12418146,
+  "name": "Anderson v. Massachusetts",
+  "name_abbreviation": "Anderson v. Massachusetts",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-5546",
+  "first_page": "946",
+  "last_page": "946",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 946"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 79,
+    "ocr_confidence": 0.66,
+    "sha256": "69cb7c27bc39c6cb34cf8ac474cb0bb2cb7dd0688a1fed0ba88a1b4a3246f6c4",
+    "simhash": "1:eb022ce41f013504",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Anderson v. Massachusetts."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Jud. Ct. Mass. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5546.\nAnderson v. Massachusetts."
+  },
+  "file_name": "0946-03",
+  "first_page_order": 1022,
+  "last_page_order": 1022
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5904855,
+  "name": "Sandoval v. California",
+  "name_abbreviation": "Sandoval v. California",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-7743",
+  "first_page": "1189",
+  "last_page": "1189",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1189"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 85,
+    "ocr_confidence": 0.619,
+    "sha256": "e79def38ec5094b7c51c82cd25a87c4198e903e8a29838fc1d50ea99a69c96fa",
+    "simhash": "1:6c0d838033856a03",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sandoval v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 2d App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7743.\nSandoval v. California."
+  },
+  "file_name": "1189-07",
+  "first_page_order": 1211,
+  "last_page_order": 1211
+}

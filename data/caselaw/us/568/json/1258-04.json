@@ -1,0 +1,59 @@
+{
+  "id": 12434213,
+  "name": "Hodges v. Jarvis, Warden",
+  "name_abbreviation": "Hodges v. Jarvis",
+  "decision_date": "2013-03-25",
+  "docket_number": "No. 12-8918",
+  "first_page": "1258",
+  "last_page": "1258",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1258"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.598,
+    "sha256": "65f890acd3233926aa64965cef9e14c5afbf98021decea40441dc1c05b7c85d0",
+    "simhash": "1:1ee90b31b909f096",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hodges v. Jarvis, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8918.\nHodges v. Jarvis, Warden."
+  },
+  "file_name": "1258-04",
+  "first_page_order": 1334,
+  "last_page_order": 1334
+}

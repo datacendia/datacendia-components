@@ -1,0 +1,59 @@
+{
+  "id": 5932136,
+  "name": "In re Discipline of Jones",
+  "name_abbreviation": "In re Discipline of Jones",
+  "decision_date": "2011-06-20",
+  "docket_number": "No. D-2591",
+  "first_page": "1016",
+  "last_page": "1016",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1016"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 39,
+    "char_count": 277,
+    "ocr_confidence": 0.581,
+    "sha256": "372cbf2ab344d5f0f41e2f9691b111e2bc89a27124f835e90f3073e139efce0b",
+    "simhash": "1:218a61b61feaa7e3",
+    "word_count": 51
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Jones."
+    ],
+    "opinions": [
+      {
+        "text": "Stephen J. Jones, of Wichita, Kan., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2591.\nIn re Discipline of Jones."
+  },
+  "file_name": "1016-03",
+  "first_page_order": 1010,
+  "last_page_order": 1010
+}

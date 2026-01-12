@@ -1,0 +1,76 @@
+{
+  "id": 12659879,
+  "name": "Antonio RYCRAW, Appellant, v. STATE of Missouri, Respondent.",
+  "name_abbreviation": "Rycraw v. State",
+  "decision_date": "2019-05-21",
+  "docket_number": "No. ED 106228",
+  "first_page": "507",
+  "last_page": "507",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "575 S.W.3d 507"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mo. App. Ct.",
+    "id": 30155,
+    "name": "Missouri Court of Appeals, Eastern District, DIVISION ONE"
+  },
+  "jurisdiction": {
+    "id": 37,
+    "name_long": "Missouri",
+    "name": "Mo."
+  },
+  "cites_to": [
+    {
+      "cite": "507 S.W.3d 47",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12182639
+      ],
+      "year": 2016,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/507/0047-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 155,
+    "char_count": 1542,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.26513437656017785
+    },
+    "sha256": "0892d21841107c9ab8c0fbf320ed1d22e17b7d9fa8daae0653facd4b386d927d",
+    "simhash": "1:85faf1a8b93cc23e",
+    "word_count": 247
+  },
+  "last_updated": "2024-02-27T19:43:17.042952+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Antonio RYCRAW, Appellant,\nv.\nSTATE of Missouri, Respondent."
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM\nAntonio Rycraw (\"Movant\") appeals from the motion court's judgment, following an evidentiary hearing, denying his Rule 29.15 motion for post-conviction relief. Movant was convicted after a jury trial of three counts of statutory sodomy in the first degree, in violation of Section 566.062 RSMo, and two counts of sexual misconduct in the second degree, in violation of Section 566.095. Movant was sentenced to concurrent 12-year sentences on each of the first-degree statutory sodomy counts and 120 days on each of the sexual misconduct counts. On direct appeal this Court reversed the convictions for sexual misconduct in the second degree, and affirmed the convictions for first-degree statutory sodomy. See State v. Rycraw, 507 S.W.3d 47 (Mo. App. E.D. 2016).\nWe have reviewed the briefs of the parties and the record on appeal and find no error of law. No jurisprudential purpose would be served by a written opinion. However, the parties have been furnished with a memorandum for their information only, setting forth the facts and reasons for this order.\nThe judgment is affirmed pursuant to Rule 84.16(b).",
+        "type": "majority",
+        "author": "PER CURIAM"
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "Antonio RYCRAW, Appellant,\nv.\nSTATE of Missouri, Respondent.\nNo. ED 106228\nMissouri Court of Appeals, Eastern District, DIVISION ONE.\nFILED: May 21, 2019\nFOR APPELLANT: Lisa M. Stroup, 1010 Market, Suite 1100, St. Louis, Missouri 63101.\nFor Respondent: JOSHUA D. HAWLEY, Evan J. Buchheim, P.O. Box 899, Jefferson City, MO 65102.\nBefore Roy L. Richter, P.J., Robert M. Clayton III, J., and Angela T. Quigless, J.\nORDER"
+  },
+  "file_name": "0507-01",
+  "first_page_order": 507,
+  "last_page_order": 507
+}

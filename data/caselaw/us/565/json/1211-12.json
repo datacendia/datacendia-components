@@ -1,0 +1,59 @@
+{
+  "id": 12247043,
+  "name": "Bolmer v. DeKeyser et al.",
+  "name_abbreviation": "Bolmer v. DeKeyser",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-7832",
+  "first_page": "1211",
+  "last_page": "1211",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1211"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 72,
+    "ocr_confidence": 0.662,
+    "sha256": "fb4b0e2ba6dde379d496b46a1bb191cf416f6d0f0e5a693e187bbd93c2695f76",
+    "simhash": "1:1956408919021070",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bolmer v. DeKeyser et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7832.\nBolmer v. DeKeyser et al."
+  },
+  "file_name": "1211-12",
+  "first_page_order": 1293,
+  "last_page_order": 1293
+}

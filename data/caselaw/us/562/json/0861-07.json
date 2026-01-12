@@ -1,0 +1,59 @@
+{
+  "id": 6002559,
+  "name": "Banks v. Florida",
+  "name_abbreviation": "Banks v. Florida",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11076",
+  "first_page": "861",
+  "last_page": "861",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 861"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 82,
+    "ocr_confidence": 0.602,
+    "sha256": "2a5f0a0d5942c25415b0b1368be0926a266cd937d14d3bab90da3ede134495b4",
+    "simhash": "1:5019419244436b1c",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Banks v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11076.\nBanks v. Florida."
+  },
+  "file_name": "0861-07",
+  "first_page_order": 883,
+  "last_page_order": 883
+}

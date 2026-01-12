@@ -1,0 +1,59 @@
+{
+  "id": 12195678,
+  "name": "Waltz v. United States et al.",
+  "name_abbreviation": "Waltz v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-1436",
+  "first_page": "821",
+  "last_page": "821",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 821"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 77,
+    "ocr_confidence": 0.713,
+    "sha256": "3b3f083809dc88e0b715801f057f2f4c2652ecfead92802a6b7d043074885261",
+    "simhash": "1:5231a4e839e7c07c",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Waltz v. United States et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1436.\nWaltz v. United States et al."
+  },
+  "file_name": "0821-08",
+  "first_page_order": 903,
+  "last_page_order": 903
+}

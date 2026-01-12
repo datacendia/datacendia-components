@@ -1,0 +1,59 @@
+{
+  "id": 12429235,
+  "name": "Danenberg v. Georgia",
+  "name_abbreviation": "Danenberg v. Georgia",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-583",
+  "first_page": "1124",
+  "last_page": "1124",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1124"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 67,
+    "ocr_confidence": 0.614,
+    "sha256": "68adfc97caa09e4762a3afa45b977845e6b918384a73044905d40c3bf27ee18d",
+    "simhash": "1:d02f8ce00c402034",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Danenberg v. Georgia."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ga. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-583.\nDanenberg v. Georgia."
+  },
+  "file_name": "1124-05",
+  "first_page_order": 1200,
+  "last_page_order": 1200
+}

@@ -1,0 +1,83 @@
+{
+  "id": 2253990,
+  "name": "Herbert Gus Wilde Et Ux v. Juanell Buchanan",
+  "name_abbreviation": "Wilde v. Buchanan",
+  "decision_date": "1957-10-02",
+  "docket_number": "No. A-6479",
+  "first_page": "606",
+  "last_page": "606",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "157 Tex. 606"
+    },
+    {
+      "type": "parallel",
+      "cite": "305 S.W.2d 778"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "258 S.W. 2d 223",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10199326
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/258/0223-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 75,
+    "char_count": 664,
+    "ocr_confidence": 0.593,
+    "pagerank": {
+      "raw": 4.115314723990936e-07,
+      "percentile": 0.9102204414234188
+    },
+    "sha256": "9ac031eb0637cfe4e9304773380e6e9a3e6effecbed332fe047caed69da2c763",
+    "simhash": "1:07a7eee44826f546",
+    "word_count": 107
+  },
+  "last_updated": "2024-02-27T18:48:18.334778+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Herbert Gus Wilde Et Ux v. Juanell Buchanan"
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM.\nWe approve the holding of the Court of Civil Appeals that respondent had the unconditional right to withdraw her consent at any time before the court acted on the petition for adoption. Boyed v. Wilson, 258 S.W. 2d 223, wr. ref.\nThe application for writ of error is refused, no reversible error.\nOpinion delivered October 2, 1957.\nRehearing overruled October 30, 1957.",
+        "type": "majority",
+        "author": "PER CURIAM."
+      }
+    ],
+    "attorneys": [
+      "Grindstaff & Grindstaff, of Ballinger, and Francis G. Cul-hane, of San Angelo, for petitioners.",
+      "Jack Moore, of Ballinger, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "Herbert Gus Wilde Et Ux v. Juanell Buchanan\nNo. A-6479.\nDecided October 2, 1957.\nRehearing overruled October 30, 1957.\n(305 S.W. 2d Series 778.)\nGrindstaff & Grindstaff, of Ballinger, and Francis G. Cul-hane, of San Angelo, for petitioners.\nJack Moore, of Ballinger, for respondent."
+  },
+  "file_name": "0606-01",
+  "first_page_order": 622,
+  "last_page_order": 622
+}

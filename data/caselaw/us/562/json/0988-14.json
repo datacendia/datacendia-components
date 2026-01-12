@@ -1,0 +1,59 @@
+{
+  "id": 5906524,
+  "name": "Zamot-Santiago v. United States",
+  "name_abbreviation": "Zamot-Santiago v. United States",
+  "decision_date": "2010-10-18",
+  "docket_number": "No. 10-6441",
+  "first_page": "988",
+  "last_page": "988",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 988"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 80,
+    "ocr_confidence": 0.566,
+    "sha256": "02f1f24cd122c8b416d86738bbe9b61f5bd04eb996f44ccd22578d5b3de8898a",
+    "simhash": "1:c51b9e426610142c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Zamot-Santiago v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6441.\nZamot-Santiago v. United States."
+  },
+  "file_name": "0988-14",
+  "first_page_order": 1010,
+  "last_page_order": 1010
+}

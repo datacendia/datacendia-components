@@ -1,0 +1,79 @@
+{
+  "id": 12187534,
+  "name": "Allison, Warden v. Diaz",
+  "name_abbreviation": "Allison v. Diaz",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-1264",
+  "first_page": "802",
+  "last_page": "802",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 802"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "562 U. S. 86",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12439786,
+        6005083
+      ],
+      "year": 2011,
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/178/0624-01",
+        "/us/562/0086-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 37,
+    "char_count": 260,
+    "ocr_confidence": 0.669,
+    "pagerank": {
+      "raw": 4.688403287882615e-08,
+      "percentile": 0.2522806743909836
+    },
+    "sha256": "9e4aae49838506e96132801b9f9b26ab6c8381dfef8f2e0736a4a2a8553bb82f",
+    "simhash": "1:27a0e886e58286dc",
+    "word_count": 42
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Allison, Warden v. Diaz."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Motion of respondent for leave to proceed in forma pauperis granted. Certiorari granted, judgment vacated, and case remanded for further consideration in light of Harrington v. Richter, 562 U. S. 86 (2011).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1264.\nAllison, Warden v. Diaz."
+  },
+  "file_name": "0802-02",
+  "first_page_order": 884,
+  "last_page_order": 884
+}

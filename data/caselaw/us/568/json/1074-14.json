@@ -1,0 +1,59 @@
+{
+  "id": 12427563,
+  "name": "Waggoner v. United States",
+  "name_abbreviation": "Waggoner v. United States",
+  "decision_date": "2012-12-10",
+  "docket_number": "No. 12-7127",
+  "first_page": "1074",
+  "last_page": "1074",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1074"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.644,
+    "sha256": "bb950a04a6e1726228c60076c6fc70b07dc84f6896798d17a94f38e970b19199",
+    "simhash": "1:17e3c6136b958506",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Waggoner v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7127.\nWaggoner v. United States."
+  },
+  "file_name": "1074-14",
+  "first_page_order": 1150,
+  "last_page_order": 1150
+}

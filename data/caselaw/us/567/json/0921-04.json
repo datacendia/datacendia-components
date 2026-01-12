@@ -1,0 +1,59 @@
+{
+  "id": 12410056,
+  "name": "Sanchez v. California",
+  "name_abbreviation": "Sanchez v. California",
+  "decision_date": "2012-06-18",
+  "docket_number": "No. 11-10155",
+  "first_page": "921",
+  "last_page": "921",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 921"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 95,
+    "ocr_confidence": 0.628,
+    "sha256": "e0a4b96c5e55f3d799281db134d74a4b3da760957233ccc3d330424c6bc4c560",
+    "simhash": "1:2d811cd50cca68a4",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sanchez v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 4th App. Dist., Div. 2. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10155.\nSanchez v. California."
+  },
+  "file_name": "0921-04",
+  "first_page_order": 825,
+  "last_page_order": 825
+}

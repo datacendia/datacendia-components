@@ -1,0 +1,59 @@
+{
+  "id": 5916787,
+  "name": "Harmon v. California",
+  "name_abbreviation": "Harmon v. California",
+  "decision_date": "2011-05-02",
+  "docket_number": "No. 10-9270",
+  "first_page": "978",
+  "last_page": "978",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 978"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 93,
+    "ocr_confidence": 0.586,
+    "sha256": "a04ec2fd985c77a70d16a919987410b9e8edee01313ab25290229b5ca9c76222",
+    "simhash": "1:27011f852b550a20",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Harmon v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 4th App. Dist., Div. 1. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9270.\nHarmon v. California."
+  },
+  "file_name": "0978-01",
+  "first_page_order": 1004,
+  "last_page_order": 1004
+}

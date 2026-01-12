@@ -1,0 +1,539 @@
+{
+  "id": 3556164,
+  "name": "MICROSOFT CORP. v. AT&T CORP.",
+  "name_abbreviation": "Microsoft Corp. v. AT&T Corp.",
+  "decision_date": "2007-04-30",
+  "docket_number": "No. 05-1056",
+  "first_page": "437",
+  "last_page": "464",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "550 U.S. 437"
+    },
+    {
+      "type": "parallel",
+      "cite": "167 L. Ed. 2d 737"
+    },
+    {
+      "type": "parallel",
+      "cite": "127 S. Ct. 1746"
+    },
+    {
+      "type": "vendor",
+      "cite": "2007 U.S. LEXIS 4744"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2006-040"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "35 U. S. C. \u00a7 271",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 7,
+      "pin_cites": [
+        {
+          "page": "(f)(1)"
+        },
+        {
+          "page": "(a)",
+          "parenthetical": "1970 ed."
+        },
+        {
+          "page": "(f)"
+        },
+        {
+          "page": "(f)"
+        },
+        {
+          "page": "(b)",
+          "parenthetical": "1970 ed."
+        },
+        {
+          "page": "(a)",
+          "parenthetical": "\"[Wjhoever without authority makes, uses, offers to sell, or sells any patented invention, within the United States or imports into the United States any patented invention during the term of the patent therefor, infringes the patent.\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "406 U. S. 518",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6172119
+      ],
+      "weight": 13,
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "522-524"
+        },
+        {
+          "page": "527"
+        },
+        {
+          "page": "526-527"
+        },
+        {
+          "page": "527-529"
+        },
+        {
+          "page": "529"
+        },
+        {
+          "page": "528"
+        },
+        {
+          "page": "530",
+          "parenthetical": "\"When, as here, the Constitution is permissive, the sign of how far Congress has chosen to go can come only from Congress.\""
+        },
+        {
+          "page": "531"
+        },
+        {
+          "page": "532"
+        },
+        {
+          "page": "531"
+        },
+        {
+          "page": "531"
+        },
+        {
+          "page": "524"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/406/0518-01"
+      ]
+    },
+    {
+      "cite": "19 How. 183",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        6139013
+      ],
+      "weight": 2,
+      "year": 1857,
+      "pin_cites": [
+        {
+          "page": "195"
+        },
+        {
+          "page": "195"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/60/0183-01"
+      ]
+    },
+    {
+      "cite": "98 Stat. 3383",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 U. Pa. J. Int'l Econ. L. 557",
+      "category": "journals:journal",
+      "reporter": "U. Pa. J. Int'l Econ. L.",
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "565",
+          "parenthetical": "hereinafter Fisch & Allen"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "71 USPQ 2d 1118",
+      "category": "reporters:specialty",
+      "reporter": "U.S.P.Q. 2d (BNA)",
+      "year": 2004,
+      "opinion_index": 0
+    },
+    {
+      "cite": "414 F. 3d 1366",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8973833
+      ],
+      "weight": 9,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1370"
+        },
+        {
+          "page": "1372-1373",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "1373"
+        },
+        {
+          "page": "1374"
+        },
+        {
+          "page": "1373, 1375",
+          "parenthetical": "Rader, J., dissenting"
+        },
+        {
+          "page": "1371"
+        },
+        {
+          "page": "1370"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/414/1366-01"
+      ]
+    },
+    {
+      "cite": "549 U. S. 991",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 2006,
+      "opinion_index": 0
+    },
+    {
+      "cite": "287 F. 3d 1108",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9441959
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "1118"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/287/1108-01"
+      ]
+    },
+    {
+      "cite": "510 U. S. 471",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        230419
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "476"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/510/0471-01"
+      ]
+    },
+    {
+      "cite": "375 F. 3d 1113",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9377028
+      ],
+      "weight": 3,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1117-1119",
+          "parenthetical": "transmission abroad of instructions for production of patented computer chips not covered by \u00a7 271(f)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/375/1113-01"
+      ]
+    },
+    {
+      "cite": "399 F. 3d 1325",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1546936
+      ],
+      "weight": 4,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1339",
+          "parenthetical": "\"[S]oftware code . . . drives the functional nucleus of the finished computer product.\" (quoting Imagexpo, L. L. C. v. Microsoft Corp., 299 F. Supp. 2d 550, 553 (EB Va. 2003))"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/399/1325-01"
+      ]
+    },
+    {
+      "cite": "299 F. Supp. 2d 550",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        9289677
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "553"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/299/0550-01"
+      ]
+    },
+    {
+      "cite": "542 U. S. 155",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5857349
+      ],
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "164"
+        },
+        {
+          "page": "161-162, 164-165"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/542/0155-01"
+      ]
+    },
+    {
+      "cite": "499 U. S. 244",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11318695
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "248"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/499/0244-01"
+      ]
+    },
+    {
+      "cite": "507 U. S. 197",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6225788
+      ],
+      "weight": 2,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "204"
+        },
+        {
+          "page": "204"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/507/0197-01"
+      ]
+    },
+    {
+      "cite": "464 U. S. 417",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6200302
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "431",
+          "parenthetical": "\"In a case like this, in which Congress has not plainly marked our course, we must be circumspect in construing the scope of rights created by a legislative enactment which never contemplated such a calculus of interests.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/464/0417-01"
+      ]
+    },
+    {
+      "cite": "273 F. 3d 429",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9457184
+      ],
+      "weight": 2,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "435"
+        },
+        {
+          "page": "435"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/273/0429-01"
+      ]
+    },
+    {
+      "cite": "17 U. S. C. \u00a7 1201",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 U. S. C. \u00a7 271",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(f)(1)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "144 F. 3d 96",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3714627,
+        1306557
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "100",
+          "parenthetical": "noting that, within the context of the Copyright Act, \"installation of software onto a computer results in 'copying'\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us-app-dc/330/0147-01",
+        "/f3d/144/0096-01"
+      ]
+    },
+    {
+      "cite": "35 U. S. C. \u00a7 271",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(f)(1)"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "406 U. S. 518",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6172119
+      ],
+      "year": 1972,
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/406/0518-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1708,
+    "char_count": 49653,
+    "ocr_confidence": 0.715,
+    "pagerank": {
+      "raw": 9.421015239318598e-07,
+      "percentile": 0.9806343921981552
+    },
+    "sha256": "5ac5e8ac4871fd4434c87b42f53e59e4161436d7aa607778ed7bdd769d72bacb",
+    "simhash": "1:70e8fe057cdc27db",
+    "word_count": 8140
+  },
+  "last_updated": "2024-02-27T16:14:56.834045+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Ginsburg, J., delivered the opinion of the Court, except as to footnote 14. Scalia, Kennedy, and Souter, JJ., joined that opinion in full. Alito, J., filed an opinion concurring as to all but footnote 14, in which Thomas and Breyer, JJ., joined, post, p. 459. Stevens, J., filed a dissenting opinion, post, p. 462. ROBERTS, C. J., took no part in the consideration or decision of the case.",
+      "The Chief Justice took no part in the consideration or decision of this case.",
+      "Justice Thomas and Justice Breyer join, concurring as to all but footnote 14."
+    ],
+    "parties": [
+      "MICROSOFT CORP. v. AT&T CORP."
+    ],
+    "opinions": [
+      {
+        "text": "Justice Ginsburg\ndelivered the opinion of the Court, except as to footnote 14.\nIt is the general rule under United States patent law that no infringement occurs when a patented product is made and sold in another country. There is an exception. Section 271(f) of the Patent Act, adopted in 1984, provides that infringement does occur when one \u201csupplies . . . from the United States,\u201d for \u201ccombination\u201d abroad, a patented invention\u2019s \u201ccomponents.\u201d 35 U. S. C. \u00a7 271(f)(1). This case concerns the applicability of \u00a7 271(f) to computer software first sent from the United States to a foreign manufacturer on a master disk, or by electronic transmission, then copied by the foreign recipient for installation on computers made and sold abroad.\nAT&T holds a patent on an apparatus for digitally encoding and compressing recorded speech. Microsoft\u2019s Windows operating system, it is conceded, has the potential to infringe AT&T\u2019s patent, because Windows incorporates software code that, when installed, enables a computer to process speech in the manner claimed by that patent. It bears emphasis, however, that uninstalled Windows software does not infringe AT&T\u2019s patent any more than a computer standing alone does; instead, the patent is infringed only when a computer is loaded with Windows and is thereby rendered capable of performing as the patented speech processor. The question before us: Does Microsoft\u2019s liability extend to computers made in another country when loaded with Windows software copied abroad from a master disk or electronic transmission dispatched by Microsoft from the United States? Our answer is \u201cNo.\u201d\nThe master disk or electronic transmission Microsoft sends from the United States is never installed on any of the foreign-made computers in question. Instead, copies made abroad are used for installation. Because Microsoft does not export from the United States the copies actually installed, it does not \u201csuppl[y] . . . from the United States\u201d \u201ccomponents\u201d of the relevant computers, and therefore is not liable under \u00a7 271(f) as currently written.\nPlausible arguments can be made for and against extending \u00a7 271(f) to the conduct charged in this case as infringing AT&T\u2019s patent. Recognizing that \u00a7 271(f) is an exception to the general rule that our patent law does not apply extraterritorially, we resist giving the language in which Congress cast \u00a7 271(f) an expansive interpretation. Our decision leaves to Congress\u2019 informed judgment any adjustment of \u00a7 271(f) it deems necessary or proper.\nI\nOur decision some 35 years ago in Deepsouth Packing Co. v. Laitram Corp., 406 U. S. 518 (1972), a case about a shrimp deveining machine, led Congress to enact \u00a7 271(f). In that case, Laitram, holder of a patent on the time-and-expense-saving machine, sued Deepsouth, manufacturer of an infringing deveiner. Deepsouth conceded that the Patent Act barred it from making and selling its deveining machine in the United States, but sought to salvage a portion of its business: Nothing in United States patent law, Deepsouth urged, stopped it from making in the United States the parts of its deveiner, as opposed to the machine itself, and selling those parts to foreign buyers for assembly and use abroad. Id., at 522-524. We agreed.\nInterpreting our patent law as then written, we reiterated in Deepsouth that it was \u201cnot an infringement to make or use a patented product outside of the United States.\u201d Id., at 527; see 35 U. S. C. \u00a7271(a) (1970 ed.) (\u201c[W]hoever without authority makes, uses or sells any patented invention, within the United States during the term of the patent therefor, infringes the patent.\u201d). Deepsouth\u2019s foreign buyers did not infringe Laitram\u2019s patent, we held, because they assembled and used the deveining machines outside the United States. Deepsouth, we therefore concluded, could not be charged with inducing or contributing to an infringement. 406 U. S., at 526-527. Nor could Deepsouth be held liable as a direct infringer, for it did not make, sell, or use the patented invention \u2014 the fully assembled deveining machine \u2014 within the United States. The parts of the machine were not themselves patented, we noted, hence export of those parts, unassembled, did not rank as an infringement of Laitram\u2019s patent. Id., at 527-529.\nLaitram had argued in Deepsouth that resistance to extension of the patent privilege to cover exported parts \u201cderived from too narrow and technical an interpretation of the [Patent Act].\u201d Id., at 529. Rejecting that argument, we referred to prior decisions holding that \u201ca combination patent protects only against the operable assembly of the whole and not the manufacture of its parts.\u201d Id., at 528. Congress\u2019 codification of patent law, we said, signaled no intention to broaden the scope of the privilege. Id., at 530 (\u201cWhen, as here, the Constitution is permissive, the sign of how far Congress has chosen to go can come only from Congress.\u201d). And we again emphasized that\n\u201c[o]ur patent system makes no claim to extraterritorial effect; these acts of Congress do not, and were not intended to, operate beyond the limits of the United States; and we correspondingly reject the claims of others to such control over our markets.\u201d Id., at 531 (quoting Brown v. Duchesne, 19 How. 183, 195 (1857)).\nAbsent \u201ca clear congressional indication of intent,\u201d we stated, courts had no warrant to stop the manufacture and sale of the parts of patented inventions for assembly and use abroad. 406 U. S., at 532.\nFocusing its attention on Deepsouth, Congress enacted \u00a7 271(f). See Patent Law Amendments Act of 1984, \u00a7101, 98 Stat. 3383; Fisch & Allen, The Application of Domestic Patent Law to Exported Software: 35 U. S. C. \u00a7271(f), 25 U. Pa. J. Int\u2019l Econ. L. 557, 565 (2004) (hereinafter Fisch & Allen) (\u201cCongress specifically intended \u00a7 271(f) as a response to the Supreme Court\u2019s decision in Deepsouth\u201d). The provision expands the definition of infringement to include supplying from the United States a patented invention\u2019s components:\n\u201c(1) Whoever without authority supplies or causes to be supplied in or from the United States all or a substantial portion of the components of a patented invention, where such components are uncombined in whole or in part, in such manner as to actively induce the combination of such components outside of the United States in a manner that would infringe the patent if such combination occurred within the United States, shall be liable as an infringer.\n\u201c(2) Whoever without authority supplies or causes to be supplied in or from the United States any component of a patented invention that is especially made or especially adapted for use in the invention and not a staple article or commodity of commerce suitable for substantial noninfringing use, where such component is uneombined in whole or in part, knowing that such component is so made or adapted and intending that such component will be combined outside of the United States in a manner that would infringe the patent if such combination occurred within the United States, shall be liable as an infringer.\u201d 35 U. S. C. \u00a7 271(f).\nII\nWindows is designed, authored, and tested at Microsoft\u2019s Redmond, Washington, headquarters. Microsoft sells Windows to end users and computer manufacturers, both foreign and domestic. Purchasing manufacturers install the software onto the computers they sell. Microsoft sends to each of the foreign manufacturers a master version of Windows, either on a disk or via encrypted electronic transmission. The manufacturer uses the master version to generate copies. Those copies, not the master sent by Microsoft, are installed on the foreign manufacturer\u2019s computers. Once assembly is complete, the foreign-made computers are sold to users abroad. App. to Pet. for Cert. 45a-46a.\nAT&T\u2019s patent (\u2019580 patent) is for an apparatus (as relevant here, a computer) capable of digitally encoding and compressing recorded speech. Windows, the parties agree, contains software that enables a computer to process speech in the manner claimed by the \u2019580 patent. In 2001, AT&T filed an infringement suit in the United States District Court for the Southern District of New York, charging Microsoft with liability for domestic and foreign installations of Windows.\nNeither Windows software (e. g., in a box on the shelf) nor a computer standing alone (i e., without Windows installed) infringes AT&T\u2019s patent. Infringement occurs only when Windows is installed on a computer, thereby rendering it capable of performing as the patented speech processor. Microsoft stipulated that by installing Windows on its own computers during the software development process, it directly infringed the \u2019580 patent. Microsoft further acknowledged that by licensing copies of Windows to manufacturers of computers sold in the United States, it induced infringement of AT&T\u2019s patent. Id., at 42a; Brief for Petitioner 3-4; Brief for Respondent 9, 19.\nMicrosoft denied, however, any liability based on the master disks and electronic transmissions it dispatched to foreign manufacturers, thus joining issue with AT&T. By sending Windows to foreign manufacturers, AT&T contended, Microsoft \u201csupplie[d] . . . from the United States,\u201d for \u201ccombination\u201d abroad, \u201ccomponents\u201d of AT&T\u2019s patented speech processor; accordingly, AT&T urged, Microsoft was liable under \u00a7 271(f). See supra, at 445 (reproducing text of \u00a7 271(f)). Microsoft responded that unincorporated software, because it is intangible information, cannot be typed a \u201ccomponent\u201d of an invention under \u00a7 271(f). In any event, Microsoft urged, the foreign-generated copies of Windows actually installed abroad were not \u201csupplie[d] . . . from the United States.\u201d Rejecting these responses, the District Court held Microsoft liable under \u00a7 271(f). 71 USPQ 2d 1118 (SDNY 2004). On appeal, a divided panel of the Court of Appeals for the Federal Circuit affirmed. 414 F. 3d 1366 (2005). We granted certiorari, 549 U. S. 991 (2006), and now reverse.\nIll\nA\nThis case poses two questions: First, when, or in what form, does software qualify as a \u201ccomponent\u201d under \u00a7 271(f)? Second, were \u201ccomponents\u201d of the foreign-made computers involved in this case \u201csupplie[d]\u201d by Microsoft \u201cfrom the United States\u201d?\nAs to the first question, no one in this litigation argues that software can never rank as a \u201ccomponent\u201d under \u00a7 271(f). The parties disagree, however, over the stage at which software becomes a component. Software, the \u201cset of instructions, known as code, that directs a computer to perform specified functions or operations,\u201d Fantasy Sports Properties, Inc. v. SportsLine.com, Inc., 287 F. 3d 1108, 1118 (CA Fed. 2002), can be conceptualized in (at least) two ways. One can speak of software in the abstract: the instructions themselves detached from any medium. (An analogy: The notes of Beethoven\u2019s Ninth Symphony.) One can alternatively envision a tangible \u201ccopy\u201d of software, the instructions encoded on a medium such as a CD-ROM. (Sheet music for Beethoven\u2019s Ninth.) AT&T argues that software in the abstract, not simply a particular copy of software, qualifies as a \u201ccomponent\u201d under \u00a7 271(f). Microsoft and the United States argue that only a copy of software, not software in the abstract, can be a component.\nThe significance of these diverse views becomes apparent when we turn to the second question: Were components of the foreign-made computers involved in this case \u201csupplied]\u201d by Microsoft \u201cfrom the United States\u201d? If the relevant components are the copies of Windows actually installed on the foreign computers, AT&T could not persuasively argue that those components, though generated abroad, were \u201csupplied] . . . from the United States\u201d as \u00a7 271(f) requires for liability to attach. If, on the other hand, Windows in the abstract qualifies as a component within \u00a7 271(f)\u2019s compass, it would not matter that the master copies of Windows software dispatched from the United States were not themselves installed abroad as working parts of the foreign computers.\nWith this explanation of the relationship between the two questions in view, we further consider the twin inquiries.\nB\nFirst, when, or in what form, does software become a \u201ccomponent\u201d under \u00a7 271(f)? We construe \u00a7271(f)\u2019s terms \u201cin accordance with [their] ordinary or natural meaning.\u201d FDIC v. Meyer, 510 U. S. 471,476 (1994). Section 271(f) applies to the supply abroad of the \u201ccomponents of a patented invention, where such components are uncombined in whole or in part, in such manner as to actively induce the combination of such components.\u201d \u00a7 271(f)(1) (emphasis added). The provision thus applies only to \u201csuch components\u201d as are combined to form the \u201cpatented invention\u201d at issue. The patented invention here is AT&T\u2019s speech-processing computer.\nUntil it is expressed as a computer-readable \u201ccopy,\u201d e. g., on a CD-ROM, Windows software \u2014 indeed any software detached from an activating medium \u2014 remains uncombinable. It cannot be inserted into a CD-ROM drive or downloaded from the Internet; it cannot be installed or executed on a computer. Abstract software code is an idea without physical embodiment, and as such, it does not match \u00a7271(f)\u2019s categorization: \u201ccomponents\u201d amenable to \u201ccombination.\u201d Windows abstracted from a tangible copy no doubt is information \u2014 a detailed set of instructions \u2014 and thus might be compared to a blueprint (or anything containing design information, e. g., a schematic, template, or prototype). A blueprint may contain precise instructions for the construction and combination of the components of a patented device, but it is not itself a combinable component of that device. AT&T and its amid do not suggest otherwise. Cf. Pellegrini v. Analog Devices, Inc., 375 F. 3d 1113, 1117-1119 (CA Fed. 2004) (transmission abroad of instructions for production of patented computer chips not covered by \u00a7 271(f)).\nAT&T urges that software, at least when expressed as machine-readable object code, is distinguishable from design information presented in a blueprint. Software, unlike a blueprint, is \u201cmodular\u201d; it is a stand-alone product developed and marketed \u201cfor use on many different types of computer hardware and in conjunction with many other types of software.\u201d Brief for Respondent 5; Tr. of Oral Arg. 46. Software\u2019s modularity persists even after installation; it can be updated or removed (deleted) without affecting the hardware on which it is installed. Ibid. Software, unlike a blueprint, is also \u201cdynamic.\u201d Ibid. After a device has been built according to a blueprint\u2019s instructions, the blueprint\u2019s work is done (as AT&T puts it, the blueprint\u2019s instructions have been \u201cexhausted,\u201d ibid.). Software\u2019s instructions, in contrast, are contained in and continuously performed by a computer. Brief for Respondent 27-28; Tr. of Oral Arg. 46. See also Bolas Technologies Inc. v. Microsoft Corp., 399 F. 3d 1325, 1339 (CA Fed. 2005) (\u201c[S]oftware code . . . drives the functional nucleus of the finished computer product.\u201d (quoting Imagexpo, L. L. C. v. Microsoft Corp., 299 F. Supp. 2d 550, 553 (EB Va. 2003))).\nThe distinctions advanced by AT&T do not persuade us to characterize software, uncoupled from a medium, as a combinable component. Blueprints too, or any design information for that matter, can be independently developed, bought, and sold. If the point of AT&T\u2019s argument is that we do not see blueprints lining stores\u2019 shelves, the same observation may be made about software in the abstract: What retailers sell, and consumers buy, are copies of software. Likewise, before software can be contained in and continuously performed by a computer, before it can be updated or deleted, an actual, physical copy of the software must be delivered by CD-ROM or some other means capable of interfacing with the computer.\nBecause it is so easy to encode software\u2019s instructions onto a medium that can be read by a computer, AT&T intimates, that extra step should not play a decisive role under \u00a7 271(f). But the extra step is what renders the software a usable, combinable part of a computer; easy or not, the copy-producing step is essential. Moreover, many tools may be used easily and inexpensively to generate the parts of a device. A machine for making sprockets might be used by a manufacturer to produce tens of thousands of sprockets an hour. That does not make the machine a \u201ccomponent\u201d of the tens of thousands of devices in which the sprockets are incorporated, at least not under any ordinary understanding of the term \u201ccomponent.\u201d Congress, of course, might have included within \u00a7 271(f)\u2019s compass, for example, not only combinable \u201ccomponents\u201d of a patented invention, but also \u201cinformation, instructions, or tools from which those components readily may be generated.\u201d It did not. In sum, a copy of Windows, not Windows in the abstract, qualifies as a \u201ccomponent\u201d under \u00a7 271(f).\nC\nThe next question, has Microsoft \u201csupplie[d]. . . from the United States\u201d components of the computers here involved? Under a conventional reading of \u00a7271(f)\u2019s text, the answer would be \u201cNo,\u201d for the foreign-made copies of Windows actually installed on the computers were \u201csupplie[d]\u201d from places outside the United States. The Federal Circuit majority concluded, however, that \u201cfor software \u2018components,\u2019 the act of copying is subsumed in the act of \u2018supplying.\u2019 \u201d 414 F. 3d, at 1370. A master sent abroad, the majority observed, differs not at all from the exact copies, easily, inexpensively, and swiftly generated from the master; hence \u201csending a single copy abroad with the intent that it be replicated invokes \u00a7 271(f) liability for th[e] foreign-made copies.\u201d Ibid.; cf. post, at 464 (Stevens, J., dissenting) (\u201c[A] master disk is the functional equivalent of a warehouse of components . . . that Microsoft fully expects to be incorporated into foreign-manufactured computers.\u201d).\nJudge Rader, dissenting, noted that \u201csupplying\u201d is ordinarily understood to mean an activity separate and distinct from any subsequent \u201ccopying, replicating, or reproducing\u2014 in effect manufacturing.\u201d 414 F. 3d, at 1372-1373 (internal quotation marks omitted); see id., at 1373 (\u201c[Cjopying and supplying are separate acts with different consequences\u2014 particularly when the \u2018supplying\u2019 occurs in the United States and the copying occurs in D\u00fcsseldorf or Tokyo. As a matter of logic, one cannot supply one hundred components of a patented invention without first making one hundred copies of the component...He further observed: \u201cThe only true difference between making and supplying software components and physical components [of other patented inventions] is that copies of software components are easier to make and transport.\u201d Id., at 1374. But nothing in \u00a7271(f)\u2019s text, Judge Rader maintained, renders ease of copying a relevant, no less decisive, factor in triggering liability for infringement. See ibid. We agree.\nSection 271(f) prohibits the supply of components \u201cfrom the United States ... in such manner as to actively induce the combination of suck components.\u201d \u00a7 271(f)(1) (emphasis added). Under this formulation, the very components supplied from the United States, and not copies thereof, trigger \u00a7 271(f) liability when combined abroad to form the patented invention at issue. Here, as we have repeatedly noted, see supra, at 441, 442, 445-446, the copies of Windows actually installed on the foreign computers were not themselves supplied from the United States. Indeed, those copies did not exist until they were generated by third parties outside the United States. Copying software abroad, all might agree, is indeed easy and inexpensive. But the same could be said of other items: \u201cKeys or machine parts might be copied from a master; chemical or biological substances might be created by reproduction; and paper products might be made by electronic copying and printing.\u201d Brief for United States as Amicus Curiae 24. See also supra, at 451-452 (rejecting argument similarly based on ease of copying in construing \u201ccomponent\u201d). Section 271(f) contains no instruction to gauge when duplication is easy and cheap enough to deem a copy in fact made abroad nevertheless \u201csupplie[d] . . . from the United States.\u201d The absence of anything addressing copying in the statutory text weighs against a judicial determination that replication abroad of a master dispatched from the United States \u201csupplies\u201d the foreign-made copies from the United States within the intendment of \u00a7 271(f).\nD\nAny doubt that Microsoft\u2019s conduct falls outside \u00a7 271(f)\u2019s compass would be resolved by the presumption against extraterritoriality, on which we have already touched. See supra, at 442,444. The presumption that United States law governs domestically but does not rule the world applies with particular force in patent law. The traditional understanding that our patent law \u201coperate[s] only domestically and d[oes] not extend to foreign activities,\u201d Fisch & Allen 559, is embedded in the Patent Act itself, which provides that a patent confers exclusive rights in an invention within the United States. 35 U. S. G. \u00a7 154(a)(1) (patentee\u2019s rights over invention apply to manufacture, use, or sale \u201cthroughout the United States\u201d and to importation \u201cinto the United States\u201d). See Deepsouth, 406 U. S., at 531 (\u201cOur patent system makes no claim to extraterritorial effect\u201d; our legislation \u201cd[oes] not, and [was] not intended to, operate beyond the limits of the United States, and we correspondingly reject the claims of others to such control over our markets.\u201d (quoting Brown, 19 How., at 195)).\nAs a principle of general application, moreover, we have stated that courts should \u201cassume that legislators take account of the legitimate sovereign interests of other nations when they write American laws.\u201d F. Hoffmann-La Roche Ltd v. Empagran S. A., 542 U. S. 155, 164 (2004); see EEOC v. Arabian American Oil Co., 499 U. S. 244, 248 (1991). Thus, the United States accurately conveyed in this case: \u201cForeign conduct is [generally] the domain of foreign law,\u201d and in the area here involved, in particular, foreign law \u201cmay embody different policy judgments about the relative rights of inventors, competitors, and the public in patented inventions.\u201d Brief for United States as Amicus Curiae 28. Applied to this case, the presumption tugs strongly against construction of \u00a7 271(f) to encompass as a \u201ccomponent\u201d not only a physical copy of software, but also software\u2019s intangible code, and to render \u201csupplie[d] . . . from the United States\u201d not only exported copies of software, but also duplicates made abroad.\nAT&T argues that the presumption is inapplicable because Congress enacted \u00a7 271(f) specifically to extend the reach of United States patent law to cover certain activity abroad. But as this Court has explained, \u201cthe presumption is not defeated ... just because [a statute] specifically addresses [an] issue of extraterritorial application,\u201d Smith v. United States, 507 U. S. 197, 204 (1993); it remains instructive in determining the extent of the statutory exception, see Empagran, 542 U. S., at 161-162, 164-165; Smith, 507 U. S., at 204.\nAT&T alternately contends that the presumption holds no sway here given that \u00a7 271(f), by its terms, applies only to domestic conduct, i. e., to the supply of a patented invention\u2019s components \u201cfrom the United States.\u201d \u00a7 271(f)(1). AT&T\u2019s reading, however, \u201cconverts a single act of supply from the United States into a springboard for liability each time a copy of the software is subsequently made [abroad] and combined with computer hardware [abroad] for sale [abroad.]\u201d Brief for United States as Amicus Curiae 29; see 414 F. 3d, at 1373, 1375 (Rader, J., dissenting). In short, foreign law alone, not United States law, currently governs the manufacture and sale of components of patented inventions in foreign countries. If AT&T desires to prevent copying in foreign countries, its remedy today lies in obtaining and enforcing foreign patents. See Deepsouth, 406 U. S., at 531.\nIV\nAT&T urges that reading \u00a7 271(f) to cover only those copies of software actually dispatched from the United States creates a \u201cloophole\u201d for software makers. Liability for infringing a United States patent could be avoided, as Microsoft\u2019s practice shows, by an easily arranged circumvention: Instead of making installation copies of software in the United States, the copies can be made abroad, swiftly and at small cost, by generating them from a master supplied from the United States. The Federal Circuit majority found AT&T\u2019s plea compelling:\n\u201cWere we to hold that Microsoft\u2019s supply by exportation of the master versions of the Windows\u00ae software \u2014 specifically for the purpose of foreign replication \u2014 avoids infringement, we would be subverting the remedial nature of \u00a7 271(f), permitting a technical avoidance of the statute by ignoring the advances in a field of technology \u2014 and its associated industry practices \u2014 that developed after the enactment of \u00a7 271(f). .. . Section 271(f), if it is to remain effective, must therefore be interpreted in a manner that is appropriate to the nature of the technology at issue.\u201d 414 F. 3d, at 1371.\nWhile the majority\u2019s concern is understandable, we are not persuaded that dynamic judicial interpretation of \u00a7 271(f) is in order. The \u201cloophole,\u201d in our judgment, is properly left for Congress to consider, and to close if it finds such action warranted.\nThere is no dispute, we note again, that \u00a7 271(f) is inapplicable to the export of design tools \u2014 blueprints, schematics, templates, and prototypes \u2014 all of which may provide the information required to construct and combine overseas the components of inventions patented under United States law. See supra, at 449-452. We have no license to attribute to Congress an unstated intention to place the information Microsoft dispatched from the United States in a separate category.\nSection 271(f) was a direct response to a gap in our patent law revealed by this Court\u2019s Deepsouth decision. See supra, at 444, and n. 3. The facts of that case were undeniably at the fore when \u00a7 271(f) was in the congressional hopper. In Deepsouth, the items exported were kits containing all the physical, readily assemblable parts of a shrimp deveining machine (not an intangible set of instructions), and those parts themselves (not foreign-made copies of them) would be combined abroad by foreign buyers. Having attended to the gap made evident in Deepsouth, Congress did not address other arguable gaps: Section 271(f) does not identify as an infringing act conduct in the United States that facilitates making a component of a patented invention outside the United States; nor does the provision check \u201csupplying] . . . from the United States\u201d information, instructions, or other materials needed to make copies abroad. Given that Congress did not home in on the loophole AT&T describes, and in view of the expanded extraterritorial thrust AT&T\u2019s reading of \u00a7 271(f) entails, our precedent leads us to leave in Congress\u2019 court the patent-protective determination AT&T seeks. Cf. Sony Corp. of America v. Universal City Studios, Inc., 464 U. S. 417, 431 (1984) (\u201cIn a case like this, in which Congress has not plainly marked our course, we must be circumspect in construing the scope of rights created by a legislative enactment which never contemplated such a calculus of interests.\u201d).\nCongress is doubtless aware of the ease with which software (and other electronic media) can be copied, and has not left the matter untouched. In 1998, Congress addressed \u201cthe ease with which pirates could copy and distribute a copyrightable work in digital form.\u201d Universal City Studios, Inc. v. Corley, 273 F. 3d 429, 435 (CA2 2001). The resulting measure, the Digital Millennium Copyright Act, 17 U. S. C. \u00a7 1201 et seq., \u201cbacked with legal sanctions the efforts of copyright owners to protect their works from piracy behind digital walls such as encryption codes or password protections.\u201d Universal City Studios, 273 F. 3d, at 435. If the patent law is to be adjusted better \u201cto account for the realities of software distribution,\u201d 414 F. 3d, at 1370, the alteration should be made after focused legislative consideration, and not by the Judiciary forecasting Congress\u2019 likely disposition.\n* * *\nFor the reasons stated, the judgment of the Court of Appeals for the Federal Circuit is\nReversed.\nThe Chief Justice took no part in the consideration or decision of this case.\nDeepsouth shipped its deveining equipment \u201cto foreign customers in three separate boxes, each containing only parts of the l3/4-ton machines, yet the whole [was] assemblable in less than one hour.\u201d Deepsouth Packing Co. v. Laitram Corp., 406 U. S. 518, 524 (1972).\nSee 35 U. S. C. \u00a7 271(b) (1970 ed.) (\u201cWhoever actively induces infringement of a patent shall be liable as an infringer.\u201d); \u00a7 271(c) (rendering liable as a contributory infringer anyone who sells or imports a \u201ccomponent\u201d of a patented invention, \u201cknowing the same to be especially made or especially adapted for use in an infringement of such patent, and not a staple article or commodity of commerce suitable for substantial non-infringing use\u201d).\nSee also, e. g., Eatent Law Amendments of 1984, S. Rep. No. 98-663, pp. 2-3 (1984) (describing \u00a7271(f) as \u201ca response to the Supreme Court\u2019s 1972 Deepsouth decision which interpreted the patent law not to make it infringement where the final assembly and sale is abroad\u201d); Section-by-Section Analysis of H. R. 6286,130 Cong. Rec. 28069 (1984) (\u201cThis proposal responds to the United States Supreme Court decision in Deepsouth . .. concerning the need for a legislative solution to close a loophole in [the] patent law.\u201d).\nMicrosoft also distributes Windows to foreign manufacturers indirectly, by sending a master version to an authorized foreign \u201creplicator\u201d; the replicator then makes copies and ships them to the manufacturers. App. to Eet. for Cert. 45a-46a.\nSee 35 U. S. C. \u00a7 271(a) (\u201c[Wjhoever without authority makes, uses, offers to sell, or sells any patented invention, within the United States or imports into the United States any patented invention during the term of the patent therefor, infringes the patent.\u201d).\nSee \u00a7 271(b) (\u201cWhoever actively induces infringement of a patent shall be liable as an infringer.\u201d).\nThe record leaves unclear which paragraph of \u00a7 271(f) AT&T\u2019s claim invokes. While there are differences between \u00a7 271(f)(1) and (f)(2), see, e. g., infra, at 458, n. 18, the parties do not suggest that those differences are outcome determinative. Cf. infra, at 454, n. 16 (explaining why both paragraphs yield the same result). For clarity\u2019s sake, we focus our analysis on the text of \u00a7 271(f)(1).\nMicrosoft and the United States stress that to count as a component, the copy of software must be expressed as \u201cobject code.\u201d \u201cSoftware in the form in which it is written and understood by humans is called \u2018source code.\u2019 To be functional, however, software must be converted (or \u2018compiled\u2019) into its machine-usable version,\u201d a sequence of binary number instructions typed \u201cobject code.\u201d Brief for United States as Amicus Curiae 4, n. 1; 71 USEQ 2d 1118, 1119, n. 5 (SDNY 2004) (recounting Microsoft\u2019s description of the software development process). It is stipulated that object code was on the master disks and electronic transmissions Microsoft dispatched from the United States.\nOn this view of \u201ccomponent,\u201d the copies of Windows on the master disks and electronic transmissions that Microsoft sent from the United States could not themselves serve as a basis for liability, because those copies were not installed on the foreign manufacturers\u2019 computers. See \u00a7 271(f)(1) (encompassing only those components \u201ccombin[ed] . . . outside of the United States in a manner that would infringe the patent if such combination occurred within the United States\u201d).\nThe Federal Circuit panel in this case, relying on that court\u2019s prior decision in Eolas Technologies Inc. v. Microsoft Corp., 399 F. 3d 1325 (2005), held that software qualifies as a component under \u00a7 271(f). We are unable to determine, however, whether the Federal Circuit panels regarded as a component software in the abstract, or a copy of software.\n\u201cComponent\u201d is commonly defined as \u201ca constituent part,\u201d \u201celement,\u201d or \u201cingredient.\u201d Webster\u2019s Third New International Dictionary of the English Language 466 (1981).\nThe dissent, embracing AT&T\u2019s argument, contends that, \u201cunlike a blueprint that merely instructs a user how to do something, software actually causes infringing conduct to occur.\u201d Post, at 464 (opinion of Stevens, J.). We have emphasized, however, that Windows can \u201ccaus[e] infringing conduct to occur\u201d \u2014 i.e., function as part of AT&T\u2019s speech-processing computer \u2014 only when expressed as a computer-readable copy. Abstracted from a usable copy, Windows code is intangible, uncombinable information, more like notes of music in the head of a composer than \u201ca roller that causes a player piano to produce sound.\u201d Ibid.\nWe need not address whether software in the abstract, or any other intangible, can ever be a component under \u00a7 271(f). If an intangible method or process, for instance, qualifies as a \u201cpatented invention\u201d under \u00a7 271(f) (a question as to which we express no opinion), the combinable components of that invention might be intangible as well. The invention before us, however, AT&T\u2019s speech-processing computer, is a tangible thing.\nIn a footnote, Microsoft suggests that even a disk shipped from the United States, and used to install Windows directly on a foreign computer, would not give rise to liability under \u00a7 271(f) if the disk were removed after installation. See Brief for Petitioner 37, n. 11; cf. post, at 460, 461-462 (Auto, J., concurring in part). We need not and do not reach that issue here.\nThe dissent analogizes Microsoft\u2019s supply of master versions of Windows abroad to \u201cthe export of an inventory of... knives to be warehoused until used to complete the assembly of an infringing machine.\u201d Post, at 463. But as we have underscored, foreign-made copies of Windows, not the masters Microsoft dispatched from the United States, were installed on the computers here involved. A more apt analogy, therefore, would be the export of knives for copying abroad, with the foreign-made copies \u201cwarehoused until used to complete the assembly of an infringing machine.\u201d Ibid. Without stretching \u00a7 271(f) beyond the text Congress composed, a copy made entirely abroad does not fit the description \u201csupplie[d]... from the United States.\u201d\nOur analysis, while focusing on \u00a7 271(f)(1), is equally applicable to \u00a7 271(f)(2). But cf. post, at 463 (Stevens, J., dissenting) (asserting \u201cparagraph (2).., best supports AT&T\u2019s position here\u201d). While the two paragraphs differ, among other things, on the quantity of components that must be \u201csupplie[d]... from the United States\u201d for liability to attach, see infra, at 458, n. 18, that distinction does not affect our analysis. Paragraph (2), like (1), covers only a \u201ccomponent\u201d amenable to \u201ccombination.\u201d \u00a7 271(f)(2); see supra, at 449-452 (explaining why Windows in the abstract is not a combinable component). Paragraph (2), like (1), encompasses only the \u201csuppl[y]... from the United States\u201d of \u201csuch [a] component\u201d as will itself \u201cbe combined outside of the United States.\u201d \u00a7 271(f)(2); see supra, at 452-453 and this page (observing that foreign-made copies of Windows installed on computers abroad were not \u201csupplie[d] . . . from the United States\u201d). It is thus unsurprising that AT&T does not join the dissent in suggesting that the outcome might turn on whether we view the case under paragraph (1) or (2).\nAT&T has secured patents for its speech processor in Canada, France, Germany, Great Britain, Japan, and Sweden. App. in No. 04-1285 (CA Fed.), p. 1477. AT&T and its amici do not relate what protections and remedies are, or are not, available under these foreign regimes. Cf. Brief for Respondent 46 (observing that \u201cforeign patent protections are sometimes weaker than their U. S. counterparts\u201d (emphasis added)).\nSection 271(f)\u2019s text does, in one respect, reach past the facts of Deep-south. While Deepsouth exported kits containing all the parts of its deveining machines, \u00a7 271(f)(1) applies to the supply abroad of \u201call or a substantial portion of\u201d a patented invention\u2019s components. And 1271(f)(2) applies to the export of even a single component if it is \u201cespecially made or especially adapted for use in the invention and not a staple article or commodity of commerce suitable for substantial noninfringing use.\u201d",
+        "type": "majority",
+        "author": "Justice Ginsburg"
+      },
+      {
+        "text": "Justice Alito,\nwith whom\nJustice Thomas and Justice Breyer join, concurring as to all but footnote 14.\nI agree with the Court that no \u201ccomponent[s]\u201d of the foreign-made computers involved in this case were \u201csupplied]\u201d by Microsoft \u201cfrom the United States.\u201d 35 U. S. C. \u00a7 271(f)(1). I write separately because I reach this conclusion through somewhat different reasoning.\nI\nComputer programmers typically write programs in a \u201chuman readable\u201d programming language. This \u201c\u2018source code\u2019\u201d is then generally converted by the computer into a \u201cmachine readable code\u201d or \u201cmachine language\u201d expressed in a binary format. Brief for Respondent 5, n. 1 (citing R. White, How Computers Work 87, 94 (8th ed. 2006)); E. Walters, Essential Guide to Computing 204-205 (2001). During the Windows writing process, the program exists in the form of machine readable code on the magnetic tape fields of Microsoft\u2019s computers\u2019 hard drives. White, supra, at 144-145; Walters, supra, at 54-55.\nWhen Microsoft finishes writing its Windows program in the United States, it encodes Windows onto CD-ROMs known as \u201c \u2018golden master[s]\u2019 \u201d in the form of machine readable code. App. 31, \u00b64. This is done by engraving each disk in a specific way such that another computer can read the engravings, understand what they mean, and write the code onto the magnetic fields of its hard drive. Ibid.; Brief for Petitioner 4, n. 2.\nMicrosoft ships these disks (or sends the code via electronic transmission) abroad, where the code is copied onto other disks that are then placed into foreign-made computers for purposes of installing the Windows program. App. 31-32, \u00b6\u00b65-8. No physical aspect of a Windows CD-ROM\u2014 original disk or copy \u2014 is ever incorporated into the computer itself. See Stenograph L. L. C. v. Bossard Assocs., Inc., 144 F. 3d 96, 100 (CADC 1998) (noting that, within the context of the Copyright Act, \u201cinstallation of software onto a computer results in \u2018copying\u2019\u201d); White, supra, at 144-145, 172-173. The intact CD-ROM is then removed and may be discarded without affecting the computer\u2019s implementation of the code. The parties agree for purposes of this litigation that a foreign-made computer containing the Windows code would violate AT&T\u2019s patent if present in the United States. App. to Pet. for Cert. 42a, \u00b6 5.\nII\nA\nI agree with the Court that a component of a machine, whether a shrimp deveiner or a personal computer, must be something physical. Ante, at 449-452. This is because the word \u201ccomponent,\u201d when concerning a physical device, is most naturally read to mean a physical part of the device. See Webster\u2019s Third New International Dictionary 466 (1976) (component is \u201cconstituent part: ingredient\u201d); Random House Dictionary of the English Language 301 (1967) (component is \u201ca component part; constituent\u201d). Furthermore, \u00a7 271(f) requires that the component be \u201ccombined\u201d with other components to form the infringing device, meaning that the component must remain a part of the device. Webster\u2019s, supra, at 452 (combine means \u201cto join in physical or chemical union\u201d; \u201cto become one\u201d; \u201cto unite into a chemical compound\u201d); Random House, supra, at 293 (combine means \u201cto bring or join into a close union or whole\u201d). For these reasons, I agree with the Court that a set of instructions on how to build an infringing device, or even a template of the device, does not qualify as a component. Ante, at 449-450.\nB\nAs the parties agree, an inventor can patent a machine that carries out a certain process, and a computer may constitute such a machine when it executes commands \u2014 given to it by code \u2014 that allow it to carry out that process. Such a computer would not become an infringing device until enough of the code is installed on the computer to allow it to execute the process in question. The computer would not be an infringing device prior to the installation, or even during the installation. And the computer remains an infringing device after the installation process because, even though the original installation device (such as a CD-ROM) has been removed from the computer, the code remains on the hard drive.\nIll\nHere, Windows software originating in the United States was sent abroad, whether on a master disk or by means of an electronic transmission, and eventually copied onto the hard drives of the foreign-made computers. Once the copying process was completed, the Windows program was recorded in a physical form, i. e., in magnetic fields on the computers\u2019 hard drives. See Brief for Respondent 5. The physical form of the Windows program on the master disk, i. e., the engravings on the CD-ROM, remained on the disk in a form unchanged by the copying process. See Brief for Petitioner 4, n. 2 (citing White, How Computers Work, at 144-145,172-173). There is nothing in the record to suggest that any physical part of the disk became a physical part of the foreign-made computer, and such an occurrence would be contrary to the general workings of computers.\nBecause no physical object originating in the United States was combined with these computers, there was no violation of \u00a7 271(f). Accordingly, it is irrelevant that the Windows software was not copied onto the foreign-made computers directly from the master disk or from an electronic transmission that originated in the United States. To be sure, if these computers could not run Windows without inserting and keeping a CD-ROM in the appropriate drive, then the CD-ROMs might be components of the computer. But that is not the case here.\n* * *\nBecause the physical incarnation of code on the Windows CD-ROM supplied from the United States is not a \u201ccomponent\u201d of an infringing device under \u00a7 271(f), it logically follows that a copy of such a CD-ROM also is not a component. For this reason, I join the Court\u2019s opinion, except for footnote 14.\nIn a sense, the whole process is akin to an author living prior to the existence of the printing press, who created a story in his mind, wrote a manuscript, and sent it to a scrivener, who in turn copied the story by hand into a blank book.",
+        "type": "concurrence",
+        "author": "Justice Alito,"
+      },
+      {
+        "text": "Justice Stevens,\ndissenting.\nAs the Court acknowledges, \u201c[pjlausible arguments can be made for and against extending \u00a7 271(f) to the conduct charged in this case as infringing AT&T\u2019s patent.\u201d Ante, at 442. Strong policy considerations, buttressed by the presumption against the application of domestic patent law in foreign markets, support Microsoft Corporation\u2019s position. I am, however, persuaded that an affirmance of the Court of Appeals\u2019 judgment is more faithful to the intent of the Congress that enacted \u00a7 271(f) than a reversal.\nThe provision was a response to our decision in Deepsouth Packing Co. v. Laitram Corp., 406 U. S. 518 (1972), holding that a patent on a shrimp deveining machine had not been infringed by the export of components for assembly abroad. Paragraph (1) of \u00a7 271(f) would have been sufficient on its own to overrule Deepsouth, but it is paragraph (2) that best supports AT&T\u2019s position here. It provides:\n\u201cWhoever without authority supplies or causes to be supplied in or from the United States any component of a patented invention that is especially made or especially adapted for use in the invention and not a staple article or commodity of commerce suitable for substantial noninfringing use, where such component is uncombined in whole or in part, knowing that such component is so made or adapted and intending that such component will be combined outside of the United States in a manner that would infringe the patent if such combination occurred within the United States, shall be liable as an infringer.\u201d \u00a7 271(f)(2).\nUnder this provision, the export of a specially designed knife that has no use other than as a part of a patented deveining machine would constitute infringement. It follows that \u00a7 271(f)(2) would cover the export of an inventory of such knives to be warehoused until used to complete the assembly of an infringing machine.\nThe relevant component in this case is not a physical item like a knife. Both Microsoft and the Court think that means it cannot be a \u201ccomponent.\u201d See ante, at 449. But if a disk with software inscribed on it is a \u201ccomponent,\u201d I find it difficult to understand why the most important ingredient of that component is not also a component. Indeed, the master disk is the functional equivalent of a warehouse of components\u2014 components that Microsoft fully expects to be incorporated into foreign-manufactured computers. Put somewhat differently: On the Court\u2019s view, Microsoft could be liable under \u00a7 271(f) only if it sends individual copies of its software directly from the United States with the intent that each copy would be incorporated into a separate infringing computer. But it seems to me that an indirect transmission via a master disk warehouse is likewise covered by \u00a7 271(f).\nI disagree with the Court\u2019s suggestion that because software is analogous to an abstract set of instructions, it cannot be regarded as a \u201ccomponent\u201d within the meaning of \u00a7 271(f). See ante, at 449-450. Whether attached or detached from any medium, software plainly satisfies the dictionary definition of that word. See ante, at 449, n. 11 (observing that \u201c \u2018[cjomponent\u2019 is commonly defined as \u2018a constituent part,\u2019 \u2018element,\u2019 or \u2018ingredient\u2019\u201d). And unlike a blueprint that merely instructs a user how to do something, software actually causes infringing conduct to occur. It is more like a roller that causes a player piano to produce sound than sheet music that tells a pianist what to do. Moreover, it is surely not \u201ca staple article or commodity of commerce suitable for substantial noninfringing use\u201d as that term is used in \u00a7 271(f)(2). On the contrary, its sole intended use is an infringing use.\nI would therefore affirm the judgment of the Court of Appeals.\n\u201cWhoever without authority supplies or causes to be supplied in or from the United States all or a substantial portion of the components of a patented invention, where such components are uncombined in whole or in part, in such manner as to actively induce the combination of such components outside of the United States in a manner that would infringe the patent if such combination occurred within the United States, shall be liable as an infringer.\u201d 35 U. S. C. \u00a7 271(f)(1).",
+        "type": "dissent",
+        "author": "Justice Stevens,"
+      }
+    ],
+    "attorneys": [
+      "Theodore B. Olson argued the cause for petitioner. With him on the briefs were Miguel A. Estrada, Mark A. Perry, Matthew D. McGill, Amir C. Tayrani, T Andrew Culbert, and Dale M. Heist.",
+      "Daryl Joseffer argued the cause for the United States as amicus curiae urging reversal. With him on the brief were Solicitor General Clement, Assistant Attorney General Keisler, Deputy Solicitor General Hungar, John J. Sullivan, Joan Bernott Maginnis, John M. Whealan, Thomas W. Krause, and Heather F. Auyang.",
+      "Seth P. Waxman argued the cause for respondent. With him on the brief were William G. McElwain, Jonathan E. Nuechterlein, and Mark C. Fleming."
+    ],
+    "corrections": "",
+    "head_matter": "MICROSOFT CORP. v. AT&T CORP.\nNo. 05-1056.\nArgued February 21, 2007\nDecided April 30, 2007\nGinsburg, J., delivered the opinion of the Court, except as to footnote 14. Scalia, Kennedy, and Souter, JJ., joined that opinion in full. Alito, J., filed an opinion concurring as to all but footnote 14, in which Thomas and Breyer, JJ., joined, post, p. 459. Stevens, J., filed a dissenting opinion, post, p. 462. ROBERTS, C. J., took no part in the consideration or decision of the case.\nTheodore B. Olson argued the cause for petitioner. With him on the briefs were Miguel A. Estrada, Mark A. Perry, Matthew D. McGill, Amir C. Tayrani, T Andrew Culbert, and Dale M. Heist.\nDaryl Joseffer argued the cause for the United States as amicus curiae urging reversal. With him on the brief were Solicitor General Clement, Assistant Attorney General Keisler, Deputy Solicitor General Hungar, John J. Sullivan, Joan Bernott Maginnis, John M. Whealan, Thomas W. Krause, and Heather F. Auyang.\nSeth P. Waxman argued the cause for respondent. With him on the brief were William G. McElwain, Jonathan E. Nuechterlein, and Mark C. Fleming.\nBriefs of amici curiae urging reversal were filed for Amazon.com, Inc., et al. by Jeffrey S. Love and John D. Vandenberg; for Autodesk, Inc., by John Dragseth and Frank E. Scherkenbach; for the Business Software Alliance by Viet D. Dinh; for Eli Lilly and Co. by Robert A. Armitage and James J. Kelley; for Intel Corp. by Joel W. Nomkin, Jonathan M. James, Dan L. Bagatell, Stefani E. Shanberg, Steven R. Rodgers, and Tina M. Chappell; for Intellectual Property Professors by John F. Duffy, Mark Lemley, and William H. Neukom; for Shell Oil Co. by Richard L. Stanley and John D. Norris; for the Software Freedom Law Center by Eben Moglen and Richard Fontana; for the Software & Information Industry Association by Gregory S. Coleman, Amber H. Rovner, and Edward R. Reines; and for Yahoo! Inc. by Christopher J. Wright, Timothy J. Simeone, Joseph K. Siino, and Lisa G. McFall.\nBriefs of amici curiae urging affirmance were filed for BayhDole25, Inc., by Stephen J. Marzen and Susan K. Finston; for the U. S. Philips Corp. et al. by John M. DiMatteo, Eugene Chang, Jack E. Haken, and Edward Blocker; and for the Wisconsin Alumni Research Foundation et al. by Richard G. Taranto, Munir R. Meghjee, and Anne M. Lockner.\nBriefs of amici curiae were filed for the American Intellectual Property Law Association by Joseph R. Re and Irfan A Lateef; for the Bar of the District of Columbia, Patent, Trademark & Copyright Section by David W. Long and Vandana Koelsch; for the F\u00e9d\u00e9ration Internationale des Conseils en Propri\u00e9t\u00e9 Industrielle (FICPI) by John R Sutton; for the Houston Intellectual Property Law Association by Albert B. Kimball, Jr., and Michael G. Locklar; and for Edward S. Lee by Mr. Lee, pro se."
+  },
+  "file_name": "0437-01",
+  "first_page_order": 487,
+  "last_page_order": 514
+}

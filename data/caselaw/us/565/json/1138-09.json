@@ -1,0 +1,59 @@
+{
+  "id": 12242075,
+  "name": "Deas v. United States",
+  "name_abbreviation": "Deas v. United States",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-7716",
+  "first_page": "1138",
+  "last_page": "1138",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1138"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.686,
+    "sha256": "41fe5f7d0e38b03c10e1005e3f0c6b04a6e13dc32d1f9ef6c5a01717e5c7dc7c",
+    "simhash": "1:500903030c81d518",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Deas v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7716.\nDeas v. United States."
+  },
+  "file_name": "1138-09",
+  "first_page_order": 1220,
+  "last_page_order": 1220
+}

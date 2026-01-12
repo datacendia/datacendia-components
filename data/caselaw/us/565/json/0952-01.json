@@ -1,0 +1,59 @@
+{
+  "id": 12227935,
+  "name": "Purchase v. Florida",
+  "name_abbreviation": "Purchase v. Florida",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-5814",
+  "first_page": "952",
+  "last_page": "952",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 952"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 84,
+    "ocr_confidence": 0.671,
+    "sha256": "19580974f801e16662971184609c98ff620f106137a1653bca521d8eeef55391",
+    "simhash": "1:335c530336c1591a",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Purchase v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 4th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5814.\nPurchase v. Florida."
+  },
+  "file_name": "0952-01",
+  "first_page_order": 1034,
+  "last_page_order": 1034
+}

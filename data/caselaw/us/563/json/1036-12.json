@@ -1,0 +1,59 @@
+{
+  "id": 5936827,
+  "name": "Hubler v. Lander",
+  "name_abbreviation": "Hubler v. Lander",
+  "decision_date": "2011-06-06",
+  "docket_number": "No. 10-9820",
+  "first_page": "1036",
+  "last_page": "1036",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1036"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 66,
+    "ocr_confidence": 0.611,
+    "sha256": "628284a968e4bc7387e98290d4443c9910bf9810bf9f0134050d9260c02bca4b",
+    "simhash": "1:179450809b261aa0",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hubler v. Lander."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9820.\nHubler v. Lander."
+  },
+  "file_name": "1036-12",
+  "first_page_order": 1062,
+  "last_page_order": 1062
+}

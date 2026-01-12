@@ -1,0 +1,111 @@
+{
+  "id": 2260376,
+  "name": "Lucian B. Holmes Et Al v. Ed Steger Et Al.",
+  "name_abbreviation": "Holmes v. Steger",
+  "decision_date": "1960-11-07",
+  "docket_number": "No. A-8093",
+  "first_page": "242",
+  "last_page": "244",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "161 Tex. 242"
+    },
+    {
+      "type": "parallel",
+      "cite": "339 S.W.2d 663"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "333 S.W. 2d 585",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10163585,
+        2259034
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/333/0585-01",
+        "/tex/160/0467-01"
+      ]
+    },
+    {
+      "cite": "264 S.W. 2d 691",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10201090,
+        2247934
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/264/0691-01",
+        "/tex/153/0151-01"
+      ]
+    },
+    {
+      "cite": "153 Texas 151",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2247934
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/153/0151-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 155,
+    "char_count": 1612,
+    "ocr_confidence": 0.584,
+    "pagerank": {
+      "raw": 7.001975167434827e-08,
+      "percentile": 0.42312466865828857
+    },
+    "sha256": "2efdeac76b62114b8c4bc32b422dc49a0c3636cc7b383bcb1bb15a3d10fb56d9",
+    "simhash": "1:066d99ce33062df6",
+    "word_count": 268
+  },
+  "last_updated": "2024-02-27T18:05:23.850581+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lucian B. Holmes Et Al v. Ed Steger Et Al."
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM.\nThis is a direct appeal and our jurisdiction of this cause must rest upon Article 5, section 3b of the Texas Constitution and Article 1738-a, Vernon\u2019s Ann. Texas Stats. In order for this Court\u2019s jurisdiction to attach, it is essential that the order of the trial court granting or denying an interlocutory or permanent injunction be based \u201con the ground [s] of the constitutionality or unconstitutionality of any statute of this state,\u201d or on a holding that an administrative order of a state board or commission issued under a statute is valid or invalid.\nIt conclusively appears that the trial court did not base its decision dismissing this cause upon such grounds. This cause was dismissed by the trial court upon the holding that appellants were without the necessary justicable interest to maintain this suit.\nIt follows that any appeal from the trial court\u2019s order should have gone to the Court of Civil Appeals under Article 1821, Vernon\u2019s Ann. Texas Stats, and that this Court is without jurisdiction of the appeal. Lipscomb v. Flaherty, 153 Texas 151, 264 S.W. 2d 691; Gardner v. Railroad Commission, 160 Texas, 333 S.W. 2d 585.\nThe attempted appeal is dismissed for want of jurisdiction.\nOpinion delivered November 7,1960.",
+        "type": "majority",
+        "author": "PER CURIAM."
+      }
+    ],
+    "attorneys": [
+      "Billings & Donovan, of Dallas, for appellants.",
+      "Will Wilson, Attorney General, Houghton Brownlee, Jr., Edward Clark, John D. Cofer, and Robert C. Sneed, all of Austin, B. Thomas McElroy and Henry Wade, of Dallas, and Leon Ja~ worski, of Houston, for appellees."
+    ],
+    "corrections": "",
+    "head_matter": "Lucian B. Holmes Et Al v. Ed Steger Et Al.\nNo. A-8093.\nDecided November 7, 1960.\n(339 S.W. 2d Series 663)\nBillings & Donovan, of Dallas, for appellants.\nWill Wilson, Attorney General, Houghton Brownlee, Jr., Edward Clark, John D. Cofer, and Robert C. Sneed, all of Austin, B. Thomas McElroy and Henry Wade, of Dallas, and Leon Ja~ worski, of Houston, for appellees."
+  },
+  "file_name": "0242-01",
+  "first_page_order": 256,
+  "last_page_order": 258
+}

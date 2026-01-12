@@ -1,0 +1,68 @@
+{
+  "id": 12705006,
+  "name": "In re Mary Louise Richardson DOZIER, petitioner.",
+  "name_abbreviation": "In re Dozier",
+  "decision_date": "2014-03-24",
+  "docket_number": "No. 13\u20138123.",
+  "first_page": "1015",
+  "last_page": "1015",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "572 U.S. 1015"
+    },
+    {
+      "type": "parallel",
+      "cite": "188 L. Ed. 2d 582"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 1542"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 23,
+    "char_count": 152,
+    "sha256": "86971961076dfc971e071135de104d952c0be323ad010f24862e6b2d94300471",
+    "simhash": "1:7afb145eab91f127",
+    "word_count": 24
+  },
+  "last_updated": "2021-08-27T20:44:00.426858+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Mary Louise Richardson DOZIER, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of mandamus denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re Mary Louise Richardson DOZIER, petitioner.\nNo. 13-8123.\nSupreme Court of the United States\nMarch 24, 2014.\nPetition for writ of mandamus denied."
+  },
+  "file_name": "1015-01",
+  "first_page_order": 1015,
+  "last_page_order": 1015
+}

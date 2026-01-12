@@ -1,0 +1,59 @@
+{
+  "id": 6031293,
+  "name": "Cobb v. United States",
+  "name_abbreviation": "Cobb v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8125",
+  "first_page": "1236",
+  "last_page": "1236",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1236"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.687,
+    "sha256": "3b1e07b487b2a94622cf6e6e2bc390f83f53727ad1829ddebcdf02ad99046669",
+    "simhash": "1:06abb6838f4d8030",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cobb v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8125.\nCobb v. United States."
+  },
+  "file_name": "1236-06",
+  "first_page_order": 1258,
+  "last_page_order": 1258
+}

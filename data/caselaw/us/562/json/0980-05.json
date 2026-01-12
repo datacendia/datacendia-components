@@ -1,0 +1,59 @@
+{
+  "id": 5990531,
+  "name": "In re Parks",
+  "name_abbreviation": "In re Parks",
+  "decision_date": "2010-10-18",
+  "docket_number": "No. 10-6331",
+  "first_page": "980",
+  "last_page": "980",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 980"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 64,
+    "ocr_confidence": 0.59,
+    "sha256": "a4df033607f500129d746ff93f0b91c1d941b5c88499a5ace6bf7b1b351d875a",
+    "simhash": "1:ca041464b35180b9",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Parks."
+    ],
+    "opinions": [
+      {
+        "text": "Petition for writ of mandamus denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6331.\nIn re Parks."
+  },
+  "file_name": "0980-05",
+  "first_page_order": 1002,
+  "last_page_order": 1002
+}

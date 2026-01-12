@@ -1,0 +1,59 @@
+{
+  "id": 12420340,
+  "name": "Williams v. Humphrey, Warden",
+  "name_abbreviation": "Williams v. Humphrey",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-5848",
+  "first_page": "982",
+  "last_page": "982",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 982"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 91,
+    "ocr_confidence": 0.678,
+    "sha256": "b8c4021c07450bcf243aabdfcc871bff260256739222de54cc9e42e09d939cf5",
+    "simhash": "1:85c380600d438d9f",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. Humphrey, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Butts County, Ga. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5848.\nWilliams v. Humphrey, Warden."
+  },
+  "file_name": "0982-06",
+  "first_page_order": 1058,
+  "last_page_order": 1058
+}

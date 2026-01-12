@@ -1,0 +1,59 @@
+{
+  "id": 6005231,
+  "name": "Broadnax v. United States",
+  "name_abbreviation": "Broadnax v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11478",
+  "first_page": "883",
+  "last_page": "883",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 883"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.547,
+    "sha256": "252a49b23e649e5790d24c35fd3fce263082a1122326e56224a75b75ed3498a4",
+    "simhash": "1:81fad382094eb50e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Broadnax v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11478.\nBroadnax v. United States."
+  },
+  "file_name": "0883-04",
+  "first_page_order": 905,
+  "last_page_order": 905
+}

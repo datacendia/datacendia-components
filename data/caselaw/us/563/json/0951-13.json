@@ -1,0 +1,59 @@
+{
+  "id": 5915243,
+  "name": "Martin v. United States",
+  "name_abbreviation": "Martin v. United States",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-9530",
+  "first_page": "951",
+  "last_page": "951",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 951"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.547,
+    "sha256": "33f01e66434a53d4b680e76a33ab4de41f636a5e21dfe6fd7ec821a2620509be",
+    "simhash": "1:e6189203aa9f9868",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Martin v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9530.\nMartin v. United States."
+  },
+  "file_name": "0951-13",
+  "first_page_order": 977,
+  "last_page_order": 977
+}

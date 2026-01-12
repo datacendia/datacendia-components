@@ -1,0 +1,59 @@
+{
+  "id": 12201830,
+  "name": "Williams v. California",
+  "name_abbreviation": "Williams v. California",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10394",
+  "first_page": "835",
+  "last_page": "835",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 835"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 86,
+    "ocr_confidence": 0.655,
+    "sha256": "1b426bc63519460af1fba8f5c0ba98865d3f24f156b1bd61fb7e5b0d22efe97f",
+    "simhash": "1:670542a0338568c3",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 2d App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10394.\nWilliams v. California."
+  },
+  "file_name": "0835-11",
+  "first_page_order": 917,
+  "last_page_order": 917
+}

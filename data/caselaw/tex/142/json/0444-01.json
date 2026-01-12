@@ -1,0 +1,535 @@
+{
+  "id": 2341444,
+  "name": "Will Simpson et ux v. Honorable Atwood McDonald, Chief Justice, et al.",
+  "name_abbreviation": "Simpson v. McDonald",
+  "decision_date": "1944-03-22",
+  "docket_number": "No. A-47",
+  "first_page": "444",
+  "last_page": "451",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "142 Tex. 444"
+    },
+    {
+      "type": "parallel",
+      "cite": "179 S.W.2d 239"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "153 S. W. (2d) 338",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10217799
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/153/0338-01"
+      ]
+    },
+    {
+      "cite": "37 S. W. (2d) 136",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10250332
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/37/0136-01"
+      ]
+    },
+    {
+      "cite": "272 S. W. 321",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10302495
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/272/0321-01"
+      ]
+    },
+    {
+      "cite": "212 S. W. 630",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8264373
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/212/0630-01"
+      ]
+    },
+    {
+      "cite": "109 Texas 543",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2288352,
+        8264373
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/109/0543-01",
+        "/sw/212/0630-01"
+      ]
+    },
+    {
+      "cite": "154 S. W. 676",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8291120
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/154/0676-01"
+      ]
+    },
+    {
+      "cite": "29 S. W. 1115",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "170 S. W. 1036",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8289810
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/170/1036-01"
+      ]
+    },
+    {
+      "cite": "106 Texas 472",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2253094
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/106/0472-01"
+      ]
+    },
+    {
+      "cite": "62 S. W. 540",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "94 Texas 491",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2233587
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/94/0491-01"
+      ]
+    },
+    {
+      "cite": "157 S. W. (2d) 626",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10222122,
+        2313574
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/157/0626-01",
+        "/tex/138/0186-01"
+      ]
+    },
+    {
+      "cite": "138 Texas 186",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2313574
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/138/0186-01"
+      ]
+    },
+    {
+      "cite": "62 S. W. (2d) 641",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10253673,
+        2304259
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/62/0641-01",
+        "/tex/122/0553-01"
+      ]
+    },
+    {
+      "cite": "122 Texas 553",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2304259
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/122/0553-01"
+      ]
+    },
+    {
+      "cite": "22 S. W. 960",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "22 S. W. 304",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "85 Texas 455",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2208279
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/85/0455-01"
+      ]
+    },
+    {
+      "cite": "172 S. W. (2d) 512",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10215773
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "517"
+        },
+        {
+          "page": "517"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/172/0512-01"
+      ]
+    },
+    {
+      "cite": "171 S. W. (2d) 483",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2308448,
+        10213659
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/141/0189-01",
+        "/sw2d/171/0483-01"
+      ]
+    },
+    {
+      "cite": "141 Texas 189",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2308448
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/141/0189-01"
+      ]
+    },
+    {
+      "cite": "172 S. W. (2d) 972",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10224096,
+        10224001,
+        2308483,
+        2308495
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/172/0972-02",
+        "/sw2d/172/0972-01",
+        "/tex/141/0478-01",
+        "/tex/141/0379-01"
+      ]
+    },
+    {
+      "cite": "141 Texas 478",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2308483
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/141/0478-01"
+      ]
+    },
+    {
+      "cite": "68 S. W. 507",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "95 Texas 556",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2231306
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/95/0556-01"
+      ]
+    },
+    {
+      "cite": "230 S. W. 397",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10313760,
+        2284686
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/230/0397-01",
+        "/tex/111/0155-01"
+      ]
+    },
+    {
+      "cite": "111 Texas 155",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2284686
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/111/0155-01"
+      ]
+    },
+    {
+      "cite": "221 S. W. 931",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        2286449,
+        10322550
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/110/0549-01",
+        "/sw/221/0931-01"
+      ]
+    },
+    {
+      "cite": "110 Texas 549",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2286449
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/110/0549-01"
+      ]
+    },
+    {
+      "cite": "221 S. W. 929",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10322361
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/221/0929-01"
+      ]
+    },
+    {
+      "cite": "110 Texas 546",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2286429
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/110/0546-01"
+      ]
+    },
+    {
+      "cite": "195 S. W. 848",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8258680,
+        2281753,
+        8258642
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/195/0848-02",
+        "/tex/113/0003-01",
+        "/sw/195/0848-01"
+      ]
+    },
+    {
+      "cite": "113 Texas 3",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2281753
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/113/0003-01"
+      ]
+    },
+    {
+      "cite": "66 S. W. 664",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "95 Texas 246",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2231324
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/95/0246-01"
+      ]
+    },
+    {
+      "cite": "50 S. W. 567",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "92 Texas 568",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2237544
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/92/0568-01"
+      ]
+    },
+    {
+      "cite": "24 S. W. 396",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "86 Texas 230",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2206251
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/86/0230-01"
+      ]
+    },
+    {
+      "cite": "175 S. W. (2d) 630",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10217526
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/175/0630-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 660,
+    "char_count": 15976,
+    "ocr_confidence": 0.636,
+    "pagerank": {
+      "raw": 5.102467960276847e-07,
+      "percentile": 0.9383313467310256
+    },
+    "sha256": "af1244bebf03424630ec951b21707816a15e0a12aa1ca332f9ac28a5584cb7bc",
+    "simhash": "1:8959ece634b7a54c",
+    "word_count": 2835
+  },
+  "last_updated": "2024-02-27T17:54:29.127269+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Will Simpson et ux v. Honorable Atwood McDonald, Chief Justice, et al."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Chief Justice Alexander\ndelivered the opinion of the Court.\nThis is an original mandamus proceeding brought in this Court by Will Simpson and wife, Roberta Simpson, to require the Fort Worth Court of Civil Appeals to certify to this Court for its decision certain questions of law involved by the case of Simpson v. Yarborough recently decided in that court. See 175 S. W. (2d) 630.\nThe suit involved less than $1,000.00, and the alleged basis for our jurisdiction to grant the writ of mandamus is that there was a dissenting opinion by one of the Justices of the Court of Civil Appeals. This brings us to a decision of the question whether this Court has jurisdiction to require the Court of Civil Appeals to certify questions of law involved in a case that could have been brought in a county court merely on the ground that there was a dissenting opinion.\nOur Constitution provides: \u201cThe Legislature may confer original jurisdiction on the Supreme Court to issue writs of quo warranto and mandamus in such cases as may be specified, except as against the Governor of the State.\u201d Article V, Section 3. Pursuant to the above provision, the Legislature enacted Article 1733, which reads:\n\u201cThe Supreme Court or any Justice thereof, shall have power to issue writs of procendendo, certiorari and all writs of quo warranto or mandamus, agreeable to the principles of law regulating such writs, against any district judge, or Court of Civil Appeals or judges thereof, or any officer of the State Government, except the Governor.\u201d (Acts 1913, p. 107; Acts 1917, p. 140.)\nUnder the above Article this Court has jurisdiction to issue a writ of mandamus to compel a Court of Civil Appeals to perform its clear statutory duty.\nArticle 1852, Revised Statutes of 1925, provided as follows :\n\u201cWhen a dissenting opinion is rendered by one judge as to a conclusion of law material to a decision of the case, the grounds of his dissent shall be entered of record by the dissenting member. Upon motion of a party or upon its own motion the court shall certify the point or points of dissent to the Supreme Court. The provisions hereof shall apply .to cases appealed from the county court as well as from the district court. (Acts 1893, p. 89; G. L. Vol. 10, p. 519; Acts 1923, p. 72).\nThe above Article has been embodied in and is now Rule 463 of the Texas Rules of Civil Procedure.\n\u25a0 In the case of Herf v. James, 86 Texas 230, 24 S. W. 396, this Court held that it did not have jurisdiction to issue mandamus to require the Court of Civil Appeals to certify a question to this Court in a case in which under the Constitution the county court would have had original jurisdiction, and therefore a case in which the jurisdiction of the Court of Civil Appeals was final under the provisions of Revised Statutes Article 1821. That holding was based on the proposition that the jurisdiction of the Supreme Court was appellate only, and since it did not have jurisdiction over the main case it would not have jurisdiction to enter a judgment in the event the question should be certified. But in the case of Wallis, Landes & Company v. Stuart, 92 Texas 568, 50 S. W. 567, the court re-examined the matter, and after calling attention to the provisions of Article 1851, which authorize the Court of Civil Appeals to certify a question when \u201cthere should arise an issue of law which said court should deem it advisable to present to the Supreme Court for adjudication,\u201d held that the Supreme Court would have jurisdiction to entertain a certified question from the Court of Civil Appeals, even though the case be one over which the judgment of the Court of Civil Appeals was final. The Court there said:\n\u201cThis provision (now Art. 1851) not only authorized certified questions in cases over which the Court of Civil Appeals was final, but confined the power to that class of cases. The section was amended by the Act of May 2, 1892, and as so amended is now Article 1043 of the Revised Statutes (Art. 1851, R. C. S. 1925), which is quoted above. The purpose of the amendment was not in any manner to restrict the power previously conferred, but to extend it to every case in the Court of Civil Appeals without any distinction whatever. The motion to dismiss is overruled, and we proceed to answer the questions.\u201d\nAfter the rendition of the above decisions this Court held in a number of cases that where the case was one over which the jurisdiction of the Court of Civil Appeals was final under the provisions of Article 1821, if the case was certified under the provisions of Article 1851, that is, because it involved an issue of law which the Court of Civil Appeals deemed it proper to certify to the Supreme Court, or if the case was certified under the provisions of Article 1855, that is, because of a conflict with some other decision, the Supreme Court would have jurisdiction to answer the question certified. McCurdy & Daniels v. Conner, 95 Texas 246, 66 S. W. 664; Wilson v. Giraud, 113 Texas 3, 195 S. W. 848; Missouri, K. & T. Ry. Co. v. Lovell, 110 Texas 546, 221 S. W. 929. However, it was also held that if a question was certified under provisions of Article 1851, that is, because there was a dissent by one of the Justices of the Court of Civil Appeals, the Supreme Court would not have jurisdiction to answer the question so certified. Wilson v. Giraud, super; Missouri, K. & T. Ry. Co. v. Lovell, supra; Perry v. Greer, 110 Texas 549, 221 S. W. 931; American National Ins. Co. v. Tabor, 111 Texas 155, 230 S. W. 397. See also Kidd v. Rainey, 95 Texas 556, 68 S. W. 507. The reason for this distinction is not clear. However, it becomes immaterial at this time.\nIn 1923, after the rendition of the above decisions, Article 1852, now Rule 463, was amended by adding thereto the last sentence, which reads as follows: \u201cThe provisions hereof shall apply to cases appealed from the county court as well as from the district court.\u201d The provisions of this amendment are plain and unambiguous. They make it clear that it was the intention of\nthe Legislature that the provisions of Article 1852 which require the Court of Civil Appeals to certify the points of dissent to the Supreme Court apply also to cases arising in the county court and over which the jurisdiction of the Court of Civil Appeals would be final. Certainly the Legislature did not intend to require the Court of Civil Appeals to certify such cases to the Supreme Court unless it also intended that the Supreme Court should have jurisdiction to consider such certificates when so presented by the Court of Civil Appeals. Since the adoption of the above amendment this Court has exercised jurisdiction in answering questions certified to it by the Court of Civil Appeals by reason of dissent in cases appealed to the Court of Civil Appeals, and in which the jurisdiction of that court was final. Rhodes v. McDonald, Chief Justice, 141 Texas 478, 172 S. W. (2d) 972; Akers v. Epperson, 141 Texas 189, 171 S. W. (2d) 483. See also Akers v. Epperson (Texas Civ. App.), 172 S. W. (2d) 512, 517, par. 10. The general jurisdiction of this Court to answer questions certified by the Court of Civil Appeals in cases in which the Court of Civil Appeals has appellate jurisdiction appears to be now well settled. Darnall v. Lyon, 85 Texas 455, 22 S. W. 304, 22 S. W. 960; Morrow v. Corbin, 122 Texas 553, 62 S. W. (2d) 641, par. 22. We therefore hold that we have jurisdiction to answer certified questions from the Court of Civil Appeals which are certified merely because of a dissent in cases over which the jurisdiction of the Court of Civil Appeals is final. See in this connection Akers v. Epperson (Texas Civ. App.), 172 S. W. (2d) 512, 517.\nSince we have jurisdiction to answer the certified questions in such a case, and the statute makes it the duty of the Court of Civil Appeals to certify the questions in case of dissent, we will, in a proper case, issue the writ of mandamus to compel compliance with this clear, statutory duty.\nIn this respect, however, it should be noted that under the present practice ordinarily this Court will not permit the Court of Civil Appeals to certify questions of law to this Court in a case where it clearly appears that the case may properly and timely reach this Court by writ of error. Rule 461 T. R. C. P.; Duval v. Clark, 138 Texas 186, 157 S. W. (2d) 626. Nor will writ of mandamus issue to compel certification in such a case. State v. Fisher, 94 Texas 491, 62 S. W. 540.\nThere appears to be some conflict between the provisions of Article 1728, which fix jurisdiction of the Supreme Court to grant writs of error, and Article 1821, which make the jurisdiction of the Court of Civil Appeals final in certain cases, but this conflict has been recognized and resolved in favor of the provisions of Article 1821, and as a consequence it is held that the Supreme Court does not have jurisdiction to grant a writ of error in a case over which the jurisdiction of the Court of Civil Appeals is made final by the provisions of Article 1821. Cole v. State of Texas ex rel. Louis Cobolini, 106 Texas 472, 170 S. W. 1036. Since this case involves less than $1,000.00, and it does not come within any of the exceptions provided for in Article 1821, the jurisdiction of the Court of Civil Appeals is final, even though there was a dissenting opinion by one of the Justices of the Court of Civil Appeals. Consequently the case cannot reach this Court on application for writ of error.\nIt should also be noted that the statute conferring jurisdiction to issue writs of mandamus in such cases is not mandatory, but is merely permissive, and that the right to the writ is subject to equitable principles. 28 Tex. Jur. 521, 523. This Court will not do the foolish thing of requiring the Court of Civil Appeals to certify a case to the Supreme Court when, in the opinion of this Court, the Court of Civil Appeals has rendered a correct decision in the case. Rhodes v. McDonald, supra.\nThe Court, however, will issue the writ of mandamus to require the Court of Civil Appeals to perform its clear, statutory duty by certifying the point of dissent when the petition shows merit \u2014 that is, that an incorrect decison has been made and that the case cannot reach this Court by writ of error.\nThis brings us to a consideration of the question as to whether the decision rendered by the Court of Civil Appeals was a correct one. The suit was brought on two notes of date April 14, 1926, in the sum of $150.00 each, with interest and attorney\u2019s fees, signed by Simpson and wife and payable to Yarborough, and due, respectively, October 1, 1926, and October 1, 1927. Each note contained the provision \u201cIt is agreed by the-maker that this note may be extended without notice, from time to time, at the option of the holder.\u201d On the maturity date of each note and each four years thereafter, the holder, without otherwise obtaining the consent of the makers, endorsed thereon an extension for a period of four years. The last maturity date, as so extended, accrued on October 1, 1942. Suit was brought to recover on the notes in November,. 1942. The makers plead the four year statute of limitation.\nIt is apparent that if the above provision authorizing the holder to extend the time of payment of the notes is valid, the notes are not barred by limitation; otherwise they are barred by limitation. The trial court, and the Court of Civil Appeals by a majority opinion, sustained the right of the holder to renew the notes, and held that the suit was not barred by limitation. Simpson v. Yarborough (Texas Civ. App.), 175 S. W. (2d) 630.\nIt will be noted that the notes here sued on give the holder thereof the uncontrolled option to extend the time of payment of the notes for an indefinite period, and without notice to the makers. The option may be exercised either before or after maturity of the notes and the extension may be for any period of time. One extension may be followed by another indefinitely. In this instance the time of payment of one of the notes was extended by the holder, from time to time, for a period of sixteen years. The other one was extended for fifteen years. By postponing the maturity of the notes, the holder could postpone the time for bringing suit thereon, and thus prevent the running of limitation. The effect of the agreement, if enforced, would be to enable the holder, by virtue of the original agreement, to postpone indefinitely, and at his will, the time when he would be required to bring suit on the notes, and in the same manner postpone indefinitely, and at his will, the time when the maker could present his defense to the notes. In this way the holder could circumvent and render ineffective the statute of limitation.\nIt appears to be well settled that an agreement in advance to waive or not plead the statutes of limitation is void as against public policy. 28 Tex. Jur. 246; Nunn v. Edmiston, 9 Texas Civ. App. 562, 29 S. W. 1115; Young v. Sorenson & Hooper (Texas Civ. App.), 154 S. W. 676; 37 C. J. 722. Contracts rendering ineffective other statutory provisions, such as venue statutes, have been held to be void as against public policy. 43 Tex. Jur. 712; International Travelers\u2019 Assn. v. Branum, 109 Texas 543, 212 S. W. 630.\nSince the contract here sued on would enable the holder to circumvent and rended ineffective the statutes of limitation, it is our opinion contrary to public policy.\n-The contract here under consideration is to be distinguished from the contracts considered in those cases in which the sureties and indorsers of notes authorize the principal maker and holder of the notes by subsequent agreement to extend the time of payment without the consent of those secondarily liable thereon. See 6 Tex. Jur. 833; Sharpe v. National Bank of Commerce (Tex. Civ. App.), 272 S. W. 321. There the sureties and indorsers, in effect, make the principal their agent to negotiate for an extension with the holder. Brinker v. First National Bank of Cleveland, Okla. (Com. App.), 37 S. W. (2d) 136, par. 14. Their interest is similar to that of the principal, an dthe interest of the principal is adverse to that of the holder; hence the interest of the sureties and indorsers is properly represented by the principal. This is not true in the case at bar. If this agreement be construed merely as one authorizing the parties to subsequently negotiate for an extension of the time of the payment of the note, as was so in the case above referred to, there is a lack of necessary parties to make the subsequent extension agreement. Here the holder of the notes, in effect, acts as agent for the maker in negotiating with himself for an extension of the notes. It is elementary, we think, that one cannot act as an agent for another in contracting with himself.\nSince the holder of the notes was not authorized to extend the time of payment of the notes, the purported extensions were ineffective to stop the running of the statute of limitation, and the cause of action was therefore barred by limitation.\nThe Court of Civil Appeals followed the holding of the Austin Court of Civil Appeals in the case of Welch v. Beall, 153 S. W. (2d) 338, in which this Court refused an application for writ of error \u201cFor Want of Merit.\u201d After most careful consideration we are of the opinion that the decision in that case was incorrect. That decision is therefore overruled.\nThe petition for writ of mandamus is granted, and the Court of Civil Appeals is directed to conform its decision to the principals of law here announced, or else grant petitioners\u2019 motion and certify the question of law involved to this Court.\nOpinion delivered March 22, 1944.\nRehearing overruled April 19, 1944.",
+        "type": "majority",
+        "author": "Mr. Chief Justice Alexander"
+      }
+    ],
+    "attorneys": [
+      "Israel Smith, of Tyler, for relator.",
+      "White & Yarborough, of Dallas, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "Will Simpson et ux v. Honorable Atwood McDonald, Chief Justice, et al.\nNo. A-47.\nDecided March 22, 1944.\nRehearing overruled April 19, 1944.\n(179 S. W., 2d Series, 239.)\nIsrael Smith, of Tyler, for relator.\nWhite & Yarborough, of Dallas, for respondents."
+  },
+  "file_name": "0444-01",
+  "first_page_order": 462,
+  "last_page_order": 469
+}

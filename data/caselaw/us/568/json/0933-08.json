@@ -1,0 +1,61 @@
+{
+  "id": 12417363,
+  "name": "Jordan v. United States",
+  "name_abbreviation": "Jordan v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5401",
+  "first_page": "933",
+  "last_page": "933",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 933"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 151,
+    "ocr_confidence": 0.65,
+    "sha256": "b55d6376e18ed0372d29e37f748e5fa0d9f81797067dc3cde993d1b8de8cbf5b",
+    "simhash": "1:c9b3ba0a3784595a",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Jordan v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Cer-tiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5401.\nJordan v. United States."
+  },
+  "file_name": "0933-08",
+  "first_page_order": 1009,
+  "last_page_order": 1009
+}

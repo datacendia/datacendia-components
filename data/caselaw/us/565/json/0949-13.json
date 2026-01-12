@@ -1,0 +1,59 @@
+{
+  "id": 12227668,
+  "name": "Kennedy v. Forniss, Warden",
+  "name_abbreviation": "Kennedy v. Forniss",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-5728",
+  "first_page": "949",
+  "last_page": "949",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 949"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.681,
+    "sha256": "786e0c58cd5776bac0debbb2ee69542ed4147c69e5783ccc02436717c0c800de",
+    "simhash": "1:d7c90a7633ebb297",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kennedy v. Forniss, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5728.\nKennedy v. Forniss, Warden."
+  },
+  "file_name": "0949-13",
+  "first_page_order": 1031,
+  "last_page_order": 1031
+}

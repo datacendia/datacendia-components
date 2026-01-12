@@ -1,0 +1,59 @@
+{
+  "id": 5933895,
+  "name": "Gilley v. Florida",
+  "name_abbreviation": "Gilley v. Florida",
+  "decision_date": "2011-04-25",
+  "docket_number": "No. 10-9325",
+  "first_page": "965",
+  "last_page": "965",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 965"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 82,
+    "ocr_confidence": 0.539,
+    "sha256": "de0c4fa8a4bad416f0cf7073f941c75e20c279f3dc766659cf74ad04862d7559",
+    "simhash": "1:b128410be1a0c806",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gilley v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 5th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9325.\nGilley v. Florida."
+  },
+  "file_name": "0965-08",
+  "first_page_order": 991,
+  "last_page_order": 991
+}

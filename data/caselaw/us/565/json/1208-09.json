@@ -1,0 +1,59 @@
+{
+  "id": 12246698,
+  "name": "McCluskey v. New York State Unified Court System et al.",
+  "name_abbreviation": "McCluskey v. New York State Unified Court System",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-7701",
+  "first_page": "1208",
+  "last_page": "1208",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1208"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 18,
+    "char_count": 102,
+    "ocr_confidence": 0.702,
+    "sha256": "16a6c68b3fb70cb800635dc6a3ea19c057e817247d6afad6e07f06b2341dcf60",
+    "simhash": "1:d58e12f1c5157249",
+    "word_count": 18
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McCluskey v. New York State Unified Court System et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7701.\nMcCluskey v. New York State Unified Court System et al."
+  },
+  "file_name": "1208-09",
+  "first_page_order": 1290,
+  "last_page_order": 1290
+}

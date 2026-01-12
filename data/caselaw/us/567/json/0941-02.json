@@ -1,0 +1,59 @@
+{
+  "id": 12412114,
+  "name": "Smith v. McDaniel, Warden, et al.",
+  "name_abbreviation": "Smith v. McDaniel",
+  "decision_date": "2012-06-25",
+  "docket_number": "No. 11-10187",
+  "first_page": "941",
+  "last_page": "941",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 941"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 82,
+    "ocr_confidence": 0.67,
+    "sha256": "34d6787c2a69587e9a55375df748f26d806807f273a6938e3dbd62d4e05abaa9",
+    "simhash": "1:d2d9a6a97bde9216",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Smith v. McDaniel, Warden, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10187.\nSmith v. McDaniel, Warden, et al."
+  },
+  "file_name": "0941-02",
+  "first_page_order": 845,
+  "last_page_order": 845
+}

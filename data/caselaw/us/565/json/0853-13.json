@@ -1,0 +1,59 @@
+{
+  "id": 12206831,
+  "name": "Barba de Garza v. United States",
+  "name_abbreviation": "de Garza v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10860",
+  "first_page": "853",
+  "last_page": "853",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 853"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 81,
+    "ocr_confidence": 0.695,
+    "sha256": "308d81ac25ef199fa4b87496e425d0dac496dd1c8c0f1d8c8e37b299a708117b",
+    "simhash": "1:06aad302090e156e",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Barba de Garza v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10860.\nBarba de Garza v. United States."
+  },
+  "file_name": "0853-13",
+  "first_page_order": 935,
+  "last_page_order": 935
+}

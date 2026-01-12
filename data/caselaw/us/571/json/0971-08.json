@@ -1,0 +1,68 @@
+{
+  "id": 12704431,
+  "name": "In re SEALED CASE.",
+  "name_abbreviation": "In re Sealed",
+  "decision_date": "2013-10-21",
+  "docket_number": "No. 13M41.",
+  "first_page": "971",
+  "last_page": "971",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 971"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 314"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 499"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 32,
+    "char_count": 203,
+    "sha256": "478c97f373ef59e0440eeac92f3556fa8a5c5688f8cc052a26d618b16c830a94",
+    "simhash": "1:d0efd23497ca815a",
+    "word_count": 36
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re SEALED CASE."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Motion for leave to file a petition for writ of certiorari under seal with redacted copies for the public record granted."
+    ],
+    "corrections": "",
+    "head_matter": "In re SEALED CASE.\nNo. 13M41.\nSupreme Court of the United States\nOct. 21, 2013.\nMotion for leave to file a petition for writ of certiorari under seal with redacted copies for the public record granted."
+  },
+  "file_name": "0971-08",
+  "first_page_order": 971,
+  "last_page_order": 971
+}

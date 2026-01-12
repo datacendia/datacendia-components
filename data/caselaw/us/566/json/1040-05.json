@@ -1,0 +1,59 @@
+{
+  "id": 12225949,
+  "name": "Jones v. Ryan, Director, Arizona Department of Corrections, et al.",
+  "name_abbreviation": "Jones v. Ryan",
+  "decision_date": "2012-06-04",
+  "docket_number": "No. 11-9922",
+  "first_page": "1040",
+  "last_page": "1040",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1040"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 18,
+    "char_count": 114,
+    "ocr_confidence": 0.533,
+    "sha256": "7829e584ab40f869315f378289fd50d59aacf760307eb4c0a7e3dfe41dbafbf7",
+    "simhash": "1:5c7920a8518cf932",
+    "word_count": 18
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jones v. Ryan, Director, Arizona Department of Corrections, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9922.\nJones v. Ryan, Director, Arizona Department of Corrections, et al."
+  },
+  "file_name": "1040-05",
+  "first_page_order": 916,
+  "last_page_order": 916
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12430691,
+  "name": "Kelly v. Williams, Warden",
+  "name_abbreviation": "Kelly v. Williams",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-6463",
+  "first_page": "1163",
+  "last_page": "1163",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1163"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 72,
+    "ocr_confidence": 0.671,
+    "sha256": "12e80886be860325fbe60270ac64ef4d0293d2a3a3b7218b50057bf7996ce2d4",
+    "simhash": "1:44b0088505023800",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kelly v. Williams, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ga. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6463.\nKelly v. Williams, Warden."
+  },
+  "file_name": "1163-13",
+  "first_page_order": 1239,
+  "last_page_order": 1239
+}

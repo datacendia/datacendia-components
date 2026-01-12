@@ -1,0 +1,61 @@
+{
+  "id": 5987036,
+  "name": "Zaleski v. Burns et al.",
+  "name_abbreviation": "Zaleski v. Burns",
+  "decision_date": "2010-12-06",
+  "docket_number": "No. 10-7297",
+  "first_page": "1102",
+  "last_page": "1102",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1102"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 153,
+    "ocr_confidence": 0.606,
+    "sha256": "9ffbdc47b5b7450ee9119ef3fc82b1cc3803f7c8a0d3d738d21ec55dc9bdda20",
+    "simhash": "1:983708c05124f642",
+    "word_count": 26
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Zaleski v. Burns et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certio-rari denied.\nJustice Sotomayor took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7297.\nZaleski v. Burns et al."
+  },
+  "file_name": "1102-07",
+  "first_page_order": 1124,
+  "last_page_order": 1124
+}

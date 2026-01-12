@@ -1,0 +1,59 @@
+{
+  "id": 12213809,
+  "name": "Mitchell v. Tennessee",
+  "name_abbreviation": "Mitchell v. Tennessee",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-24",
+  "first_page": "879",
+  "last_page": "879",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 879"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 69,
+    "ocr_confidence": 0.701,
+    "sha256": "f6911202aeb0bd2b35f3136226958e990561ec63046a29e996af9842b1b088cd",
+    "simhash": "1:2262a4080d027e0a",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mitchell v. Tennessee."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Tenn. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-24.\nMitchell v. Tennessee."
+  },
+  "file_name": "0879-06",
+  "first_page_order": 961,
+  "last_page_order": 961
+}

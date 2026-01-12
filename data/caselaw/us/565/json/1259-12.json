@@ -1,0 +1,59 @@
+{
+  "id": 12251383,
+  "name": "Zachary v. Finnan",
+  "name_abbreviation": "Zachary v. Finnan",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. 11-716",
+  "first_page": "1259",
+  "last_page": "1259",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1259"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 65,
+    "ocr_confidence": 0.691,
+    "sha256": "b7e30de55b6cc3f514cb33b528dba5ed6dafb8fe4939392e20792261d2e89f5f",
+    "simhash": "1:0a258a88050e8082",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Zachary v. Finnan."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-716.\nZachary v. Finnan."
+  },
+  "file_name": "1259-12",
+  "first_page_order": 1341,
+  "last_page_order": 1341
+}

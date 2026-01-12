@@ -1,0 +1,59 @@
+{
+  "id": 12222723,
+  "name": "Dixon v. Lopez, Acting Warden, et al.",
+  "name_abbreviation": "Dixon v. Lopez",
+  "decision_date": "2012-05-29",
+  "docket_number": "No. 11-9491",
+  "first_page": "1024",
+  "last_page": "1024",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1024"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 85,
+    "ocr_confidence": 0.539,
+    "sha256": "1472f0f328b692452eefd66a5c39e1560435ae0e43fa44d5f9b11502366c0902",
+    "simhash": "1:12002428098f211e",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dixon v. Lopez, Acting Warden, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9491.\nDixon v. Lopez, Acting Warden, et al."
+  },
+  "file_name": "1024-10",
+  "first_page_order": 900,
+  "last_page_order": 900
+}

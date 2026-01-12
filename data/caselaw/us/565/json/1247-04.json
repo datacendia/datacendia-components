@@ -1,0 +1,59 @@
+{
+  "id": 12250255,
+  "name": "Houser v. Pennsylvania",
+  "name_abbreviation": "Houser v. Pennsylvania",
+  "decision_date": "2012-03-05",
+  "docket_number": "No. 11-7792",
+  "first_page": "1247",
+  "last_page": "1247",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1247"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 70,
+    "ocr_confidence": 0.715,
+    "sha256": "0247544f841e51890e5e1120ed6c220f9a22efd7abda9b55481031ca90f21efc",
+    "simhash": "1:a40820c360796450",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Houser v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Pa. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7792.\nHouser v. Pennsylvania."
+  },
+  "file_name": "1247-04",
+  "first_page_order": 1329,
+  "last_page_order": 1329
+}

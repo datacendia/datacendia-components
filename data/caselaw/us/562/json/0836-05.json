@@ -1,0 +1,59 @@
+{
+  "id": 5999132,
+  "name": "Simoneaux v. Mississippi",
+  "name_abbreviation": "Simoneaux v. Mississippi",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-1479",
+  "first_page": "836",
+  "last_page": "836",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 836"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 73,
+    "ocr_confidence": 0.634,
+    "sha256": "b4e13cb2d6ee86c354555438187c840a3171a25536a02adc636ef2b086a3bd34",
+    "simhash": "1:650760e4e04d960a",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Simoneaux v. Mississippi."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Miss. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-1479.\nSimoneaux v. Mississippi."
+  },
+  "file_name": "0836-05",
+  "first_page_order": 858,
+  "last_page_order": 858
+}

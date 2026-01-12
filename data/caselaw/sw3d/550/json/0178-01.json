@@ -1,0 +1,110 @@
+{
+  "id": 12656847,
+  "name": "Victor STINES, Petitioner, v. JEFFERSON COUNTY, Texas, Respondent",
+  "name_abbreviation": "Stines v. Jefferson Cnty.",
+  "decision_date": "2018-06-15",
+  "docket_number": "No. 17\u20130623",
+  "first_page": "178",
+  "last_page": "180",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "550 S.W.3d 178"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "523 S.W.3d 691",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12386024
+      ],
+      "weight": 4,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "719"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/523/0691-01"
+      ]
+    },
+    {
+      "cite": "546 S.W.3d 661",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12656457
+      ],
+      "weight": 3,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "667-68"
+        },
+        {
+          "page": "674"
+        },
+        {
+          "page": "663"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/546/0661-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 312,
+    "char_count": 5196,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2647789504330175
+    },
+    "sha256": "b0f5340292ea5cb1a6e5aca48235bf69ecbf48dee3a6e20dcd65a0cdb275bf25",
+    "simhash": "1:2ee098f1836ed7ff",
+    "word_count": 816
+  },
+  "last_updated": "2024-02-27T16:16:05.631967+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Victor STINES, Petitioner,\nv.\nJEFFERSON COUNTY, Texas, Respondent"
+    ],
+    "opinions": [
+      {
+        "text": "Per Curiam\nTexas Local Government Code chapter 174, also known as the Fire and Police Employee Relations Act, grants fire fighters and police officers in political subdivisions that have adopted the Act the right to collectively bargain with their public employers regarding the terms and conditions of their employment. We recently held in Jefferson County v. Jefferson County Constables Ass'n that the Act applies to deputy constables because they qualify as \"police officers\" under the Act's definition of that term. 546 S.W.3d 661, 667-68 (Tex. 2018). In turn, we held that a collective bargaining agreement between Jefferson County and its deputy constables' bargaining agent (the Association) was valid and enforceable. Id. at 674. As discussed below, our opinion in Jefferson County resolves the issue presented in this case and necessitates reversal of the court of appeals' judgment.\nVictor Stines was terminated from his employment as a deputy constable in Jefferson County in September 2014. He claims that he disputed the grounds for termination and attempted to invoke his right to arbitrate the dispute under the terms of the applicable collective bargaining agreement between the County and the Association. When the County refused, Stines sued for a declaratory judgment and a writ of mandamus, seeking to compel the County to participate in binding arbitration under the agreement. The County filed a plea to the jurisdiction, arguing that it was immune from suit and that the collective bargaining agreement was void and unenforceable because deputy constables are not \"police officers\" entitled to collectively bargain under the Act. The trial court denied the plea. In a separate order, the trial court granted Stines's requests for a declaratory judgment and writ of mandamus, ordering the parties to participate in binding arbitration. The County took an interlocutory appeal of both orders.\nThe court of appeals reversed the denial of the plea to the jurisdiction and dismissed the case for want of jurisdiction, rejecting Stines's various arguments that the County's immunity had been waived. 523 S.W.3d 691 (Tex. App.-Beaumont 2017). As relevant here, the court held that deputy constables are not \"police officers\" under the Act and have no right to collectively bargain with their public employers. Id. at 719. Therefore, the court held that the Act's waiver of immunity does not apply to Stines's claims. Id. With respect to the trial court's order granting declaratory and mandamus relief, the court of appeals \"question[ed]\" whether it had jurisdiction given the absence of a statute permitting an interlocutory appeal of that type of order, but it nevertheless vacated the order as void on the ground that the County's immunity deprived the courts of jurisdiction over Stines's claims. Id. at 701 n.3.\nStines filed a petition for review, and the County agrees that the \"issue presented in this case is whether deputy constables are 'police officers' as defined by [the Act].\" The County asserts that \"[b]ecause the collective bargaining agreement is outside the authority of [the Act], [Stines] has failed to show a valid waiver of immunity.\"\nWe definitively resolved this issue against the County in Jefferson County . In light of that opinion, the County had authority to enter into the applicable collective bargaining agreement, which is valid and enforceable under the Act. In turn, the Act waives the County's governmental immunity \"to the extent necessary to enforce this chapter against [the County].\" TEX. LOC. GOV'T CODE \u00a7 174.008. The court of appeals therefore erred in reversing the trial court's denial of the County's plea to the jurisdiction. In turn, because the court of appeals' only asserted jurisdictional basis for vacating the trial court's order granting declaratory and mandamus relief was the court of appeals' erroneous determination that the order was void due to the County's immunity, that portion of the judgment cannot stand. Accordingly, we grant the petition for review and, without hearing oral argument, TEX. R. APP. P. 59.1, we reverse the court of appeals' judgment in part, vacate it in part, and remand the case to the trial court for further proceedings.\nThe agreement we held valid in Jefferson County was effective October 1, 2007, through September 30, 2011. 546 S.W.3d at 663. The agreement at issue here was effective October 1, 2013, through September 30, 2014.\nSection 174.008 of the Act states: \"This chapter is binding and enforceable against the employing public employer, and sovereign or governmental immunity from suit and liability is waived only to the extent necessary to enforce this chapter against that employer.\" Tex. Loc. Gov't Code \u00a7 174.008.",
+        "type": "majority",
+        "author": "Per Curiam"
+      }
+    ],
+    "attorneys": [
+      "Lance P. Bradley, Theodore Phillip Brent Jr., Bradley & Steele LLP, 3120 Central Mall Drive, Port Arthur TX 77642-8039, for Victor Stines.",
+      "Kathleen M. Kennedy, Gerald W. Riedmueller, Quentin D. Price, Jefferson County District, Attorney's Office, 1085 Pearl Street, 3rd Floor, Beaumont TX 77701, for Jefferson County, Texas"
+    ],
+    "corrections": "",
+    "head_matter": "Victor STINES, Petitioner,\nv.\nJEFFERSON COUNTY, Texas, Respondent\nNo. 17-0623\nSupreme Court of Texas.\nOPINION DELIVERED: June 15, 2018\nLance P. Bradley, Theodore Phillip Brent Jr., Bradley & Steele LLP, 3120 Central Mall Drive, Port Arthur TX 77642-8039, for Victor Stines.\nKathleen M. Kennedy, Gerald W. Riedmueller, Quentin D. Price, Jefferson County District, Attorney's Office, 1085 Pearl Street, 3rd Floor, Beaumont TX 77701, for Jefferson County, Texas"
+  },
+  "file_name": "0178-01",
+  "first_page_order": 178,
+  "last_page_order": 180
+}

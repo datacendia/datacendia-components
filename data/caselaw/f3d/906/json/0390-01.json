@@ -1,0 +1,352 @@
+{
+  "id": 12518901,
+  "name": "UNITED STATES of America, Plaintiff-Appellee, v. Angelo GOLDSTON, Defendant-Appellant.",
+  "name_abbreviation": "United States v. Goldston",
+  "decision_date": "2018-07-05",
+  "docket_number": "No. 17-5540",
+  "first_page": "390",
+  "last_page": "397",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "906 F.3d 390"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "6th Cir.",
+    "id": 21296,
+    "name": "United States Court of Appeals for the Six Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "21 U.S.C. \u00a7 841",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "71 F.3d 539",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7414596
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "542",
+          "parenthetical": "\"In order to obtain a conviction under 21 U.S.C. \u00a7 841(a)(1) against a licensed physician such as defendant, the government must show: (1) That defendant distributed a controlled substance; (2) That he acted intentionally or knowingly; and (3"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/71/0539-01"
+      ]
+    },
+    {
+      "cite": "574 F.3d 329",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3676084
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "331"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/574/0329-01"
+      ]
+    },
+    {
+      "cite": "Iowa Code \u00a7 124.101",
+      "category": "laws:leg_statute",
+      "reporter": "Iowa Code",
+      "pin_cites": [
+        {
+          "page": "(7)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "Neb. Rev. Stat. \u00a7 28-401",
+      "category": "laws:leg_statute",
+      "reporter": "Neb. Rev. Stat.",
+      "pin_cites": [
+        {
+          "page": "(9)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "864 F.3d 893",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275898
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "900"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/864/0893-01"
+      ]
+    },
+    {
+      "cite": "569 U.S. 184",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12697041
+      ],
+      "weight": 3,
+      "year": 2013,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/569/0184-01"
+      ]
+    },
+    {
+      "cite": "881 F.3d 954",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275342
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "959",
+          "parenthetical": "quoting Moncrieffe v. Holder , 569 U.S. 184, 133 S.Ct. 1678, 185 L.Ed.2d 727 (2013) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/881/0954-01"
+      ]
+    },
+    {
+      "cite": "21 U.S.C. \u00a7 802",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(11)"
+        },
+        {
+          "page": "(8)"
+        },
+        {
+          "page": "(2)",
+          "parenthetical": "defining \"administer\" as the direct application by a practitioner (or someone at the direction of the practitioner) "
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "544 U.S. 13",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5879404
+      ],
+      "weight": 3,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "16"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/544/0013-01"
+      ]
+    },
+    {
+      "cite": "570 U.S. 254",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12698469
+      ],
+      "weight": 5,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "257"
+        },
+        {
+          "page": "257"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/570/0254-01"
+      ]
+    },
+    {
+      "cite": "495 U.S. 575",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        634101
+      ],
+      "weight": 3,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "600",
+          "parenthetical": "citations omitted"
+        },
+        {
+          "parenthetical": "citations omitted"
+        },
+        {
+          "parenthetical": "citations omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/495/0575-01"
+      ]
+    },
+    {
+      "cite": "721 F.3d 380",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5756334
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "395-96"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/721/0380-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3553",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 U.S.C. \u00a7 5845",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 924",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(e)(1)"
+        },
+        {
+          "page": "(e)"
+        },
+        {
+          "page": "(e)(1)"
+        },
+        {
+          "page": "(e)(2)(A)(ii)",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 922",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(g)(1)"
+        },
+        {
+          "page": "(g)(1)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 768,
+    "char_count": 18124,
+    "pagerank": {
+      "raw": 7.014157014077204e-08,
+      "percentile": 0.4235046135894409
+    },
+    "sha256": "edc0154d8df667b1011727e9e08225557ba8134eac9d11f8e35d69fc6d6148b0",
+    "simhash": "1:07dbd028006a57e7",
+    "word_count": 2885
+  },
+  "last_updated": "2024-02-27T18:46:07.237745+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before: BOGGS, CLAY, and LARSEN, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee,\nv.\nAngelo GOLDSTON, Defendant-Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "BOGGS, Circuit Judge.\nIn this sentencing case, the defendant appeals the district court's holding that a prior Tennessee drug conviction is a \"serious drug offense\" under the Armed Career Criminal Act (\"ACCA\"). A jury found the defendant guilty on one count of being a convicted felon in possession of a firearm, in violation of 18 U.S.C. \u00a7 922(g)(1). This offense carries a maximum penalty of 10 years in prison. However, if a felon, convicted for possession of a firearm, has either three previous violent felonies or three previous serious drug offenses, the ACCA applies, requiring a mandatory minimum sentence of 15 years. 18 U.S.C. \u00a7 924(e)(1). The district court ruled that Goldston was an armed career criminal under the ACCA, as he was a convicted felon in possession of a firearm and had three previous serious drug offenses. The district court also held that Goldston had committed felony assault under Tennessee law, subjecting him to a four-level sentencing enhancement. Goldston appealed his sentence, and we affirm the district court's enhancement under the ACCA. We do not need to address the non-ACCA sentencing enhancement as our opinion renders it irrelevant.\nI\nAngelo Goldston was the boyfriend of Natasha Smith. On September 28, 2015, Smith was confronted in her yard by two men, brothers Calvin McGowan and Yonderez Jones, who pointed a gun at her. Shots were fired. Goldston ran toward Smith from across the yard to protect her, pushing her away from the gunfire. McGowan ran away, and Goldston chased after him.\nWhen Goldston returned to Smith's yard, he was carrying a sawed-off shotgun. He and Smith confronted Jones, yelling at him. This confrontation was video-recorded by a neighbor on her cell phone. The video shows Goldston walking back and forth with the gun in his hand \"waving it around in a threatening manner.\" It also shows Jones trying to grab the gun from Goldston. In the video, both Jones and Smith appear to be unarmed. When a police officer arrived on scene, Goldston and Jones ran off into the woods. The officer gave chase and found a sawed-off shotgun in the woods.\nGoldston was charged with one count of possessing a firearm as a felon, in violation of 18 U.S.C. \u00a7 922(g)(1). At trial, Goldston raised a defense of justification, claiming he was protecting Smith and needed to end the threat posed by Jones and McGowan, who had fired shots at him and Smith. Goldston was convicted.\nAt sentencing, the district court adopted, without change, the presentence investigation report (\"PSR\"), which found that Goldston's base offense level was 26. Pursuant to USSG \u00a7 2K2.1(b)(6)(B), Goldston's sentencing level was increased by four levels for possession of an operable firearm in connection with an aggravated assault, resulting in an adjusted offense level of 30.\nThe PSR also found that Goldston was an armed career criminal under the ACCA, subject to a sentencing enhancement, on grounds that he had three or more prior convictions for a \"serious drug offense.\" 18 U.S.C. \u00a7 924(e). Goldston had seven prior felony drug convictions under Tenn. Code. \u00a7 39-17-417(a) involving Schedule II controlled substances: five convictions for sale or delivery and two convictions for possession with intent to resell. Since Goldston possessed a firearm of the type described in 26 U.S.C. \u00a7 5845(a) and had a criminal history category of VI, Goldston's total offense level under the ACCA was 34, with an advisory guideline range of 262-327 months in prison and a mandatory minimum of 15 years.\nThe district court agreed with these calculations. The court then varied below the guideline range of 262-327 months in prison, based on \" 18 U.S.C. \u00a7 3553(a) -Parsimony Clause (sufficient but not greater than necessary),\" and sentenced Goldston to 240 months of imprisonment.\nOn appeal, Goldston raises two objections to his sentencing. First, he argues that he should not have been classified as an armed career criminal under the ACCA, as the term \"deliver\" in Tenn. Code \u00a7 39-17-417(a)(2) is broader that the term \"distribute\" in the ACCA's definition of a \"serious drug offense.\" Second, Goldston argues that under Tennessee law he did not commit aggravated assault and thus was not subject to a four-level sentencing enhancement.\nII\nWe review de novo whether a prior conviction is a \"serious drug offense\" under the ACCA. United States v. Stafford , 721 F.3d 380, 395-96 (6th Cir. 2013). To determine whether a state-court conviction is a \"serious drug offense\" under the ACCA, courts use \"a formal categorical approach, looking only to the statutory definitions of the prior offenses, and not to the particular facts underlying those convictions.\"\nTaylor v. United States , 495 U.S. 575, 600, 110 S.Ct. 2143, 109 L.Ed.2d 607 (1990) (citations omitted). A modified categorical approach can be used if a part of the state statute encompasses multiple alternative elements, not all of which are within the generic definition of the crime as set forth in the ACCA, thus making the state crime broader than the predicate offense under the ACCA. Descamps v. United States , 570 U.S. 254, 257, 133 S.Ct. 2276, 186 L.Ed.2d 438 (2013). The modified approach serves a limited function, which is to help courts effectuate a categorical analysis by clarifying which element played a part in the defendant's conviction. If the element in the defendant's crime was part of the generic definition, then the ACCA applies. If not, and the defendant's crime rests on an element not found in the generic definition, then the crime is broader than and not covered by the ACCA. Ibid .\nTennessee's felony drug statute makes it illegal for a defendant to knowingly: 1) manufacture a controlled substance, 2) deliver a controlled substance, 3) sell a controlled substance, or 4) possess a controlled substance with intent to manufacture, deliver or sell the controlled substance. Tenn. Code \u00a7 39-17-417(a). This constitutes a \"divisible statute\" in that it sets out one or more of the offense elements in the alternative. See Descamps , 570 U.S. at 257, 133 S.Ct. 2276. Where one of the elements is a categorical match for an element in the generic offense, and another is not, courts must determine which element formed the basis of defendant's prior conviction and whether that element equates to the generic federal offense. Ibid . In so doing, a court may only consider \" Shepard documents,\" which are the \"charging document, written plea agreement, transcript of plea colloquy, and any explicit factual finding by the trial judge to which the defendant assented.\" Shepard v. United States, 544 U.S. 13, 16, 125 S.Ct. 1254, 161 L.Ed.2d 205 (2005). Here, the Shepard documents were the underlying judgments where Goldston was convicted for the \"sale or delivery\" of drugs, not drug manufacturing. This is not disputed on appeal.\nIII\nGoldston argues that he is not an armed career criminal, claiming that his prior Tennessee convictions for \"delivery of controlled substances\" do not qualify as \"serious drug offenses\" under the ACCA. See 18 U.S.C. \u00a7 924(e)(1). A \"serious drug offense\" under the ACCA is\nan offense under State law, involving manufacturing, distributing , or possessing with intent to manufacture or distribute, a controlled substance (as defined in section 102 of the Controlled Substances Act ( 21 U.S.C. 802 ) ), for which a maximum term of imprisonment of ten years or more is prescribed by law.\n18 U.S.C. \u00a7 924(e)(2)(A)(ii) (emphasis added). The ACCA does not define the term \"distribute,\" but it incorporates by reference the following definition from the Controlled Substances Act:\nThe term \"distribute\" means to deliver (other than by administering or dispensing) a controlled substance or listed chemical.\n21 U.S.C. \u00a7 802(11). As it is used in this definition, the term \"deliver\" means\n... the actual, constructive, or attempted transfer from one person to another of a controlled substance, whether or not there exists an agency relationship.\n21 U.S.C. \u00a7 802(8).\nTenn. Code \u00a7 39-17-417(a)(2) makes it a criminal offense for a defendant to knowingly \"[d]eliver a controlled substance.\"\nRelevant definitions in the state statute include:\n\"Deliver\" or \"delivery\" means the actual, constructive, or attempted transfer from one person to another of a controlled substance, whether or not there is an agency relationship[.]\nTenn. Code. \u00a7 39-17-402(6).\n\"Distribute\" means to deliver other than by administering or dispensing a controlled substance[.]\nTenn. Code. \u00a7 39-17-402(9).\nGoldston argues the ACCA does not apply to him because the Tennessee statutory definition of \"deliver\" is broader than the term \"distribute\" as used in the ACCA. In support, Goldston turns to the Tennessee term \"distribute,\" which is defined as \"to deliver\" but contains the specific limiting language \"other than by administering or dispensing.\" Tenn. Code \u00a7 39-17-402(9). Goldston argues that the \"other than\" clause would be meaningless and unnecessary if the general term \"deliver\" did not include \"administering\" or \"dispensing,\" and that therefore the term \"deliver\" must include three categories of conduct: \"distributing,\" \"administering,\" and \"dispensing.\" Goldston reasons that \u00a7 39-17-417(a)(2) outlaws all three categories of conduct by prohibiting the delivery of a controlled substance, whereas the generic crime under the ACCA is narrower because it outlaws only the single category of distributing a controlled substance. And because \u00a7 39-17-417(a)(2) is broader than the generic offense, Goldston argues, his prior state convictions do not qualify as \"serious drug offenses\" under the ACCA.\nBut this argument is not persuasive. Although at first glance there might appear to be merit to Goldston's argument that Tennessee's prohibition on \"deliver[ing]\" includes two categories not contained in the federal definition of \"distribute,\" a closer look reveals that Tennessee has not criminalized \"administering\" or \"dispensing\" under Tenn. Code \u00a7 39-17-417(a)(2). The act of \"administering\" can only be performed \"at the direction and in the presence of [a] practitioner.\" Tenn. Code \u00a7 39-17-402 (1). And a \"practitioner\" is a person who is \"permitted to ... administer a controlled substance[.]\" Tenn. Code \u00a7 39-17-402 (23)(A) (emphasis added). Similarly, \"dispensing\" can occur only \"by or pursuant to the lawful order of a practitioner.\" Tenn. Code \u00a7 39-17-402(7) (emphasis added). It is clear, therefore, that Tennessee has not criminalized what it has otherwise defined as lawful behavior by using the term \"deliver\" in Tenn. Code \u00a7 39-17-417(a)(2). See also Tenn. Code \u00a7 39-17-427 (\"It is an exception to this part if the person lawfully possessed the controlled substance as otherwise authorized by this part and title 53, chapter 11, parts 3 and 4.\"). Physicians, nurses, and pharmacists in Tennessee can breathe a sigh of relief; their legal acts of patient care do not place them in criminal jeopardy. Thus, even if Tennessee generally defines \"delivering\" to include the three categories of conduct that Goldston suggests-\"distributing,\" \"administering,\" and \"dispensing\"-the latter two categories of conduct are not prohibited under Tenn. Code \u00a7 39-17-417(a)(2). This leaves only a single category of conduct-\"distributing\"-that is prohibited. And because \"distributing\" is precisely the conduct described under the ACCA generic offense, Tenn. Code \u00a7 39-17-417(a)(2) fits within the generic ACCA offense.\nOur textual analysis is confirmed by the fact that Goldston has not been able to point to a single case in which a person has been convicted under Tenn. Code \u00a7 39-17-417(a)(2) for \"administering\" or \"dispensing\" a controlled substance. \"As the Supreme Court has cautioned, the categorical approach 'is not an invitation to apply 'legal imagination' to the state offense; there must be a 'realistic probability, not a theoretical possibility, that the State would apply its statute to conduct that falls outside the generic definition of a crime.' \" United States v. Smith , 881 F.3d 954, 959 (6th Cir. 2018) (quoting Moncrieffe v. Holder , 569 U.S. 184, 133 S.Ct. 1678, 185 L.Ed.2d 727 (2013) ). Other courts have reached a similar outcome. For instance, the Eighth Circuit recently compared the definition of \"distribute and deliver,\" as found in Iowa and Nebraska criminal laws, in the context of considering controlled-substance offenses under the U.S. Sentencing Guidelines. United States v. Maldonado , 864 F.3d 893 (8th Cir. 2017). The Iowa and Nebraska definitions of \"distribute\" and \"deliver\" are materially identical to those found in the Tennessee code. See Neb. Rev. Stat. \u00a7 28-401(9), (12) ; Iowa Code \u00a7 124.101(7). Like Goldston, Maldonado argued that the state offenses were broader than the generic ACCA offense because of their \"administering or dispensing\" language. The Maldonado court held that there was not a realistic probability that the state would apply this statute to conduct falling outside the generic definition of \"distribute.\" Maldonado , 864 F.3d at 900. To show a realistic probability, the court explained, \"an offender must at least point to his own case or other cases in which the state courts in fact did apply the statute in the special (non-generic) manner for which he argues.\" Ibid . (citation omitted). Because Maldonado did not do so, the court found that he had failed to show that the Iowa and Nebraska offenses were broader than the ACCA generic offense.\nWe therefore reject Goldston's argument that the Tennessee term \"deliver,\" as used in Tenn. Code \u00a7 39-17-417(a)(2), is broader than the generic definition of \"distribute\" under the ACCA. We uphold the ACCA enhancement to Goldston's sentence and affirm the district court.\nIV\nGoldston's second argument on appeal is that the district court improperly imposed a four-level enhancement on grounds that \"the defendant possessed an operable firearm in connection with an aggravated assault.\" The district court held the four-level enhancement was warranted because the video evidence established that Goldston used the sawed-off shotgun \"to intimidate\" Jones, a felony under Tenn. Code \u00a7 39-13-101(a). However, as he concedes, Goldston's sentence under the ACCA was calculated without regard to the four-level enhancement that he now challenges. We therefore do not need to address the merits of this issue, as our holding regarding the ACCA makes this argument moot.\nV\nWe AFFIRM the district court's judgement that Goldston is an armed career criminal as his multiple prior drug convictions under Tennessee law constitute \"serious drug offenses\" under the ACCA.\nAt oral argument, Goldston argued, for the first time, that Tennessee has criminalized the unlawful behavior of practitioners under Tenn. Code \u00a7 39-17-417(a)(2) in a manner that the federal offense of distribution does not. In support, Goldston invoked Chapter 53 of the Tennessee Code, which sets forth penalties for, among other things, practitioners who \"dispense any controlled substance for any purposes other than those authorized by and consistent with the person's professional or occupational licensure or registration law,\" or \"in a manner prohibited by the person's professional or occupational licensure or registration law,\" Tenn. Code \u00a7 53-11-401(a)(1), and also states that \"[n]othing contained in this section shall preclude a prosecution under the general drug laws,\" Tenn. Code \u00a7 53-11-401(b)(3).\nWe reject this argument for two reasons. First, Goldston forfeited this argument by failing to raise it prior to oral argument. See United States v. Huntington Nat'l Bank , 574 F.3d 329, 331 (6th Cir. 2009). Second, for the same reason that \"administer\" and \"dispense\" contemplate a lawful act under Tennessee law, so do these same terms contemplate a lawful act under federal law. See 21 U.S.C. \u00a7 802(2) (defining \"administer\" as the direct application by a practitioner (or someone at the direction of the practitioner) ); \u00a7 802(10) (defining \"dispense\" as delivering a controlled substance \"by, or pursuant to the lawful order of, a practitioner\"); \u00a7 802(21) (defining \"practitioner\" as someone \"licensed, registered, or otherwise permitted ... to distribute, dispense, conduct research with respect to, administer, ... a controlled substance in the course of professional practice or research\"). Therefore, a practitioner purporting to engage in administering or dispensing a controlled substance but doing so in violation of law is not excluded from the federal definition of \"distributing.\" Cf. United States v. Johnson , 71 F.3d 539, 542 (6th Cir. 1995) (\"In order to obtain a conviction under 21 U.S.C. \u00a7 841(a)(1) against a licensed physician such as defendant, the government must show: (1) That defendant distributed a controlled substance; (2) That he acted intentionally or knowingly; and (3) That defendant prescribed the drug without a legitimate medical purpose and outside the scope of professional practice.\" (internal quotation marks and citation omitted) ). To the extent that Goldston argues that what might be considered a practitioner's mere administrative infractions in licensing, not included in the federal term \"distribute,\" has been criminalized in Tennessee by its use of the term \"deliver,\" he has cited no examples of a practitioner being charged under Tenn. Code \u00a7 39-17-417(a)(2) for such behavior, nor does the text of the Tennessee statute require such a reading.",
+        "type": "majority",
+        "author": "BOGGS, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "ARGUED: Christian J. Grostic, KUSHNER, HAMED & GROSTIC CO., LPA, Cleveland, Ohio, for Appellant. William A. Roach, Jr., UNITED STATES ATTORNEY'S OFFICE, Knoxville, Tennessee, for Appellee. ON BRIEF: Christian J. Grostic, KUSHNER, HAMED & GROSTIC CO., LPA, Cleveland, Ohio, for Appellant. William A. Roach, Jr., UNITED STATES ATTORNEY'S OFFICE, Knoxville, Tennessee, Michael D. Porter, UNITED STATES ATTORNEY'S OFFICE, Chattanooga, Tennessee, for Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee,\nv.\nAngelo GOLDSTON, Defendant-Appellant.\nNo. 17-5540\nUnited States Court of Appeals, Sixth Circuit.\nArgued: March 15, 2018\nDecided and Filed July 05, 2018\nARGUED: Christian J. Grostic, KUSHNER, HAMED & GROSTIC CO., LPA, Cleveland, Ohio, for Appellant. William A. Roach, Jr., UNITED STATES ATTORNEY'S OFFICE, Knoxville, Tennessee, for Appellee. ON BRIEF: Christian J. Grostic, KUSHNER, HAMED & GROSTIC CO., LPA, Cleveland, Ohio, for Appellant. William A. Roach, Jr., UNITED STATES ATTORNEY'S OFFICE, Knoxville, Tennessee, Michael D. Porter, UNITED STATES ATTORNEY'S OFFICE, Chattanooga, Tennessee, for Appellee.\nBefore: BOGGS, CLAY, and LARSEN, Circuit Judges."
+  },
+  "file_name": "0390-01",
+  "first_page_order": 390,
+  "last_page_order": 397
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12249671,
+  "name": "Zack v. New Jersey",
+  "name_abbreviation": "Zack v. New Jersey",
+  "decision_date": "2012-02-27",
+  "docket_number": "No. 11-8302",
+  "first_page": "1239",
+  "last_page": "1239",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1239"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 80,
+    "ocr_confidence": 0.752,
+    "sha256": "9c6e83b120460a9f175b3ad5d47ac6c50ca9a2612cf134ebc6080ba0a1e3d618",
+    "simhash": "1:6eedb51e0bad91b5",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Zack v. New Jersey."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. N. J., App. Div. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8302.\nZack v. New Jersey."
+  },
+  "file_name": "1239-03",
+  "first_page_order": 1321,
+  "last_page_order": 1321
+}

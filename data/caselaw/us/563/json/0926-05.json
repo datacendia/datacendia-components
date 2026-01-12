@@ -1,0 +1,59 @@
+{
+  "id": 5910530,
+  "name": "Green v. United States",
+  "name_abbreviation": "Green v. United States",
+  "decision_date": "2011-04-04",
+  "docket_number": "No. 10-9269",
+  "first_page": "926",
+  "last_page": "926",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 926"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.646,
+    "sha256": "e4675f91a5ea05ae1e2506282e5610731a295f19750ebc3b9bb8adb80f507cda",
+    "simhash": "1:862adb830908016e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Green v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9269.\nGreen v. United States."
+  },
+  "file_name": "0926-05",
+  "first_page_order": 952,
+  "last_page_order": 952
+}

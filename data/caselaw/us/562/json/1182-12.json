@@ -1,0 +1,59 @@
+{
+  "id": 5997808,
+  "name": "Ferguson v. United States",
+  "name_abbreviation": "Ferguson v. United States",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-6649",
+  "first_page": "1182",
+  "last_page": "1182",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1182"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.601,
+    "sha256": "63920e300d6baf3aa5663f2e0bddfab2defa20db45a52de5f01449ead1461d06",
+    "simhash": "1:879ad382899fbc5f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ferguson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6649.\nFerguson v. United States."
+  },
+  "file_name": "1182-12",
+  "first_page_order": 1204,
+  "last_page_order": 1204
+}

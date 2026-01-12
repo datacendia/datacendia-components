@@ -1,0 +1,59 @@
+{
+  "id": 12244989,
+  "name": "Tuan Bui v. United States",
+  "name_abbreviation": "Tuan Bui v. United States",
+  "decision_date": "2012-01-23",
+  "docket_number": "No. 11-7930",
+  "first_page": "1183",
+  "last_page": "1183",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1183"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 74,
+    "ocr_confidence": 0.678,
+    "sha256": "783da7c766cefa8a7b40073a600f4a2d4d602d60355f89606136004b8c5ee48e",
+    "simhash": "1:84b88b8208881d29",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Tuan Bui v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7930.\nTuan Bui v. United States."
+  },
+  "file_name": "1183-06",
+  "first_page_order": 1265,
+  "last_page_order": 1265
+}

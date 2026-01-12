@@ -1,0 +1,59 @@
+{
+  "id": 12232309,
+  "name": "Cnockaert v. United States",
+  "name_abbreviation": "Cnockaert v. United States",
+  "decision_date": "2011-11-07",
+  "docket_number": "No. 11-162",
+  "first_page": "1014",
+  "last_page": "1014",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1014"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.686,
+    "sha256": "36235891ebe319b3ee660513c4eada3b4264c93fd87b23910038763480a1eb0b",
+    "simhash": "1:913ba7836fbdd158",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cnockaert v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-162.\nCnockaert v. United States."
+  },
+  "file_name": "1014-04",
+  "first_page_order": 1096,
+  "last_page_order": 1096
+}

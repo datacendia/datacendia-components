@@ -1,0 +1,59 @@
+{
+  "id": 12421231,
+  "name": "Primm v. United States",
+  "name_abbreviation": "Primm v. United States",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-6394",
+  "first_page": "991",
+  "last_page": "991",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 991"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.658,
+    "sha256": "7c088cdc5bda9383ebba0b33f45abd7a8f2e7ee3fcd6d33ccc82908e93660826",
+    "simhash": "1:812899024a848e00",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Primm v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6394.\nPrimm v. United States."
+  },
+  "file_name": "0991-10",
+  "first_page_order": 1067,
+  "last_page_order": 1067
+}

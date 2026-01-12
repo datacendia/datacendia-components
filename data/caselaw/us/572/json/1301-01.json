@@ -1,0 +1,109 @@
+{
+  "id": 12706986,
+  "name": "TEVA PHARMACEUTICALS USA, INC., et al. v. SANDOZ, INC., et al.",
+  "name_abbreviation": "Teva Pharm. United States, Inc. v. Sandoz, Inc.",
+  "decision_date": "2014-04-18",
+  "docket_number": "No. 13A1003 (13\u2013854).",
+  "first_page": "1301",
+  "last_page": "1302",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "572 U.S. 1301"
+    },
+    {
+      "type": "parallel",
+      "cite": "188 L. Ed. 2d 754"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 1621"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "183 L.Ed.2d 667",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "year": 2012,
+      "pin_cites": [
+        {
+          "parenthetical": "ROBERTS, C.J., in chambers"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "133 S.Ct. 1",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "2",
+          "parenthetical": "ROBERTS, C.J., in chambers"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "723 F.3d 1363",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4065641
+      ],
+      "year": 2013,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/723/1363-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 125,
+    "char_count": 1307,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2665555018844728
+    },
+    "sha256": "c473a720bf07b09a7b05b8a187edf259cee73350e4f74646e95390a096128353",
+    "simhash": "1:012d37e6a9247560",
+    "word_count": 211
+  },
+  "last_updated": "2024-02-27T18:41:28.401677+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "TEVA PHARMACEUTICALS USA, INC., et al.\nv.\nSANDOZ, INC., et al."
+    ],
+    "opinions": [
+      {
+        "text": "Chief Justice ROBERTS, Circuit Justice.\nThe application to recall and stay the mandate of the United States Court of Appeals for the Federal Circuit, see 723 F.3d 1363 (2013), is denied. To obtain such relief, applicant Teva Pharmaceuticals USA, Inc., must demonstrate (1) a \"reasonable probability\" that this Court will grant certiorari, (2) a \"fair prospect\" that the Court will reverse the decision below, and (3) a \"likelihood that irreparable harm [will] result from the denial of a stay.\" Maryland v. King , 567 U.S. ----, ----, 133 S.Ct. 1, 2, 183 L.Ed.2d 667 (2012) (ROBERTS, C.J., in chambers) (internal quotation marks omitted). Teva has of course satisfied the first requirement, and has shown a fair prospect of success on the merits. I am not convinced, however, that it has shown likelihood of irreparable harm from denial of a stay. Respondents acknowledge that, should Teva prevail in this Court and its patent be held valid, Teva will be able to recover damages from respondents for past patent infringement. See Brief in Opposition 25-28.\nGiven the availability of that remedy, the extraordinary relief that Teva seeks is unwarranted.\nIt is so ordered.",
+        "type": "majority",
+        "author": "Chief Justice ROBERTS, Circuit Justice."
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "TEVA PHARMACEUTICALS USA, INC., et al.\nv.\nSANDOZ, INC., et al.\nNo. 13A1003 (13-854).\nSupreme Court of the United States\nApril 18, 2014."
+  },
+  "file_name": "1301-01",
+  "first_page_order": 1301,
+  "last_page_order": 1302
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12231600,
+  "name": "Lewis v. Bergh, Warden",
+  "name_abbreviation": "Lewis v. Bergh",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-6509",
+  "first_page": "990",
+  "last_page": "990",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 990"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.628,
+    "sha256": "be448ac2e9c4a0973a80716b27cdd918ac37717e7808ff6cab6340529aa7c589",
+    "simhash": "1:e28e8812ea5c9314",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lewis v. Bergh, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6509.\nLewis v. Bergh, Warden."
+  },
+  "file_name": "0990-09",
+  "first_page_order": 1072,
+  "last_page_order": 1072
+}

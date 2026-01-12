@@ -1,0 +1,936 @@
+{
+  "id": 12519756,
+  "name": "UNITED STATES of America, Plaintiff - Appellee, v. Matthew G. MUNKSGARD, Defendant - Appellant.",
+  "name_abbreviation": "United States v. Munksgard",
+  "decision_date": "2019-01-30",
+  "docket_number": "No. 16-17654",
+  "first_page": "1327",
+  "last_page": "1342",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "913 F.3d 1327"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "11th Cir.",
+    "id": 9031,
+    "name": "United States Court of Appeals for the Eleventh Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "508 U.S. 223",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11457
+      ],
+      "weight": 3,
+      "year": 1993,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/508/0223-01"
+      ]
+    },
+    {
+      "cite": "125 F.2d 97",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1086293
+      ],
+      "year": 1942,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/125/0097-01"
+      ]
+    },
+    {
+      "cite": "198 F.3d 1338",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        654218
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "1351"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/198/1338-01"
+      ]
+    },
+    {
+      "cite": "906 F.3d 1367",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518869
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1370"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/906/1367-01"
+      ]
+    },
+    {
+      "cite": "237 F.3d 853",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11164616
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "859"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/237/0853-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 2701",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(c)(2)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "302 F.3d 868",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11439752
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "880",
+          "parenthetical": "defining \"use\" in 18 U.S.C. \u00a7 2701(c)(2) to mean \"to put into action or service, avail oneself of, employ\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/302/0868-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 922",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(g)(9)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "134 S.Ct. 1405",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12706988,
+        12579095
+      ],
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "parenthetical": "holding that under 18 U.S.C. \u00a7 922(g)(9)\"the word 'use' conveys the idea that the thing used ... has been made the user's instrument\""
+        },
+        {
+          "parenthetical": "holding that under 18 U.S.C. \u00a7 922(g)(9)\"the word 'use' conveys the idea that the thing used ... has been made the user's instrument\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/572/0157-01",
+        "/s-ct/134/1405-01"
+      ]
+    },
+    {
+      "cite": "572 U.S. 157",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12706988
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "170-71",
+          "parenthetical": "holding that under 18 U.S.C. \u00a7 922(g)(9)\"the word 'use' conveys the idea that the thing used ... has been made the user's instrument\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/572/0157-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 924",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(c)(1)(A)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "398 F.3d 1276",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9033380
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1284-85",
+          "parenthetical": "observing that a defendant \"use[s] or carrie[s] a firearm\" within the meaning of 18 U.S.C. \u00a7 924(c)(1)(A) when he \"employ[s] the guns, avail[s] himself of the guns, derive[s] service from the guns, or receive[s] any other benefit from the guns\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/398/1276-01"
+      ]
+    },
+    {
+      "cite": "882 F.3d 624",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12515981
+      ],
+      "weight": 3,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "628"
+        },
+        {
+          "page": "628"
+        },
+        {
+          "page": "627",
+          "parenthetical": "rejecting similar argument"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/882/0624-01"
+      ]
+    },
+    {
+      "cite": "734 F.3d 530",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3718694
+      ],
+      "year": 2013,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/734/0530-01"
+      ]
+    },
+    {
+      "cite": "856 F.3d 141",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12276658
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "156"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/856/0141-01"
+      ]
+    },
+    {
+      "cite": "320 F.2d 258",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        154173
+      ],
+      "weight": 3,
+      "year": 1963,
+      "pin_cites": [
+        {
+          "page": "259",
+          "parenthetical": "citations omitted"
+        },
+        {
+          "page": "259"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/320/0258-01"
+      ]
+    },
+    {
+      "cite": "611 F.2d 107",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        470362
+      ],
+      "weight": 5,
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "110-112"
+        },
+        {
+          "page": "110"
+        },
+        {
+          "page": "112"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/611/0107-01"
+      ]
+    },
+    {
+      "cite": "581 F.2d 1221",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        861830
+      ],
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "1223",
+          "parenthetical": "citations omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/581/1221-01"
+      ]
+    },
+    {
+      "cite": "657 F.2d 797",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1192039
+      ],
+      "weight": 3,
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "799"
+        },
+        {
+          "page": "800"
+        },
+        {
+          "page": "799"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/657/0797-01"
+      ]
+    },
+    {
+      "cite": "599 F.3d 1221",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4222712
+      ],
+      "weight": 2,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "1233"
+        },
+        {
+          "page": "1233",
+          "parenthetical": "quoting United States v. Chastain , 198 F.3d 1338, 1351 (11th Cir. 1999) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/599/1221-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 1014",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 6,
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 F.3d 1395",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        572974
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "1408",
+          "parenthetical": "\"conclud[ing] that the FDIC has the authority to instigate a termination of insurance proceeding when an institution violates applicable law and withholds portions of its insurance assessments\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/53/1395-01"
+      ]
+    },
+    {
+      "cite": "12 C.F.R. \u00a7 308.120",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)(3)",
+          "parenthetical": "listing an insured institution's violation of \"an applicable law, rule, regulation, order, [or] condition\" as one ground for involuntarily terminating insured status"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "398 F.3d 1291",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9033519
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1298"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/398/1291-01"
+      ]
+    },
+    {
+      "cite": "661 F.2d 1206",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1181978
+      ],
+      "weight": 2,
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "1207",
+          "parenthetical": "en banc"
+        },
+        {
+          "page": "1207"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/661/1206-01"
+      ]
+    },
+    {
+      "cite": "459 F.2d 1329",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        5700470,
+        724230
+      ],
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "1336"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/459/1329-01"
+      ]
+    },
+    {
+      "cite": "783 F.2d 1543",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1544119
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "1545",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/783/1543-01"
+      ]
+    },
+    {
+      "cite": "515 U.S. 506",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1564227
+      ],
+      "weight": 3,
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "510"
+        },
+        {
+          "page": "2313"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/515/0506-01"
+      ]
+    },
+    {
+      "cite": "530 U.S. 466",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9413911
+      ],
+      "weight": 3,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "477",
+          "parenthetical": "\"[A] criminal defendant [is entitled] to 'a jury determination that [he] is guilty of every element of the crime with which he is charged, beyond a reasonable doubt.' \" (third alteration in original"
+        },
+        {
+          "page": "2356",
+          "parenthetical": "\"[A] criminal defendant [is entitled] to 'a jury determination that [he] is guilty of every element of the crime with which he is charged, beyond a reasonable doubt.' \" (third alteration in original"
+        },
+        {
+          "parenthetical": "\"[A] criminal defendant [is entitled] to 'a jury determination that [he] is guilty of every element of the crime with which he is charged, beyond a reasonable doubt.' \" (third alteration in original"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/530/0466-01"
+      ]
+    },
+    {
+      "cite": "869 F.3d 1204",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12267191
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1224-25"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/869/1204-01"
+      ]
+    },
+    {
+      "cite": "686 F.2d 890",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1457420
+      ],
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "893",
+          "parenthetical": "\"Continued FDIC insurance coverage, however, depends on periodic payment of premiums.\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/686/0890-01"
+      ]
+    },
+    {
+      "cite": "772 F.3d 1328",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4315583
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1333"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/772/1328-01"
+      ]
+    },
+    {
+      "cite": "138 S.Ct. 1897",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12612311
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1908",
+          "parenthetical": "quoting United States v. Sabillon-Umana , 772 F.3d 1328, 1333 (10th Cir. 2014) "
+        },
+        {
+          "parenthetical": "quoting United States v. Sabillon-Umana , 772 F.3d 1328, 1333 (10th Cir. 2014) "
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/s-ct/138/1897-01"
+      ]
+    },
+    {
+      "cite": "602 F.3d 1276",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3920877
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "1298"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/602/1276-01"
+      ]
+    },
+    {
+      "cite": "172 F.3d 1307",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11634514
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "1310",
+          "parenthetical": "Ed Carnes, J., concurring"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/172/1307-01"
+      ]
+    },
+    {
+      "cite": "899 F.3d 1178",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518043
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1186",
+          "parenthetical": "\"If a statement is 'not necessary to the result the Court reached in the case,' then that statement is dictum.\" (quoting United States v. Hunter , 172 F.3d 1307, 1310 (11th Cir. 1999) (Ed Carnes, J., concurring) ) "
+        },
+        {
+          "page": "1186"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/899/1178-01"
+      ]
+    },
+    {
+      "cite": "125 F.2d 97",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1086293
+      ],
+      "weight": 9,
+      "year": 1942,
+      "pin_cites": [
+        {
+          "page": "97"
+        },
+        {
+          "page": "97, 98"
+        },
+        {
+          "page": "97-98"
+        },
+        {
+          "page": "97"
+        },
+        {
+          "page": "98"
+        },
+        {
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/125/0097-01"
+      ]
+    },
+    {
+      "cite": "906 F.3d 1367",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518869
+      ],
+      "weight": 4,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1370",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "1370",
+          "parenthetical": "citing United States v. Rodriguez , 398 F.3d 1291, 1298 (11th Cir. 2005) "
+        },
+        {
+          "page": "1371",
+          "parenthetical": "noting that reviewing courts analyzing the third factor ask whether there is \"a reasonable probability that the outcome would have been different if the district court\" had not erred"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/906/1367-01"
+      ]
+    },
+    {
+      "cite": "398 F.3d 1276",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9033380
+      ],
+      "year": 2005,
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/398/1276-01"
+      ]
+    },
+    {
+      "cite": "320 F.2d 258",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        154173
+      ],
+      "weight": 16,
+      "year": 1963,
+      "pin_cites": [
+        {
+          "page": "259"
+        },
+        {
+          "page": "259-60"
+        },
+        {
+          "page": "259"
+        },
+        {
+          "page": "259-60",
+          "parenthetical": "noting the \"common knowledge of the nearly universal prevalence\" of FDIC-insured banks"
+        },
+        {
+          "page": "260"
+        },
+        {
+          "page": "259"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/320/0258-01"
+      ]
+    },
+    {
+      "cite": "611 F.2d 107",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        470362
+      ],
+      "weight": 5,
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "112"
+        },
+        {
+          "page": "110"
+        },
+        {
+          "parenthetical": "\"[I]t is at least arguable that the universal presumption employed in the Cook case that all banks are federally insured could be applied here.\""
+        },
+        {
+          "page": "108"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/611/0107-01"
+      ]
+    },
+    {
+      "cite": "581 F.2d 1221",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        861830
+      ],
+      "weight": 7,
+      "year": 1978,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        },
+        {
+          "page": "1222"
+        },
+        {
+          "page": "1223"
+        },
+        {
+          "page": "1223-24"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/581/1221-01"
+      ]
+    },
+    {
+      "cite": "657 F.2d 797",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1192039
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "800"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/657/0797-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 1014",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 1
+    }
+  ],
+  "analysis": {
+    "cardinality": 1743,
+    "char_count": 49582,
+    "pagerank": {
+      "raw": 4.3849617572011903e-08,
+      "percentile": 0.275432081175389
+    },
+    "sha256": "ff292f59c800367d6c4f63cc6c50493fc6ba1b4cd194fcb79f0e1e86105fe0f9",
+    "simhash": "1:f3f9c0382a01476b",
+    "word_count": 7955
+  },
+  "last_updated": "2024-02-27T18:46:17.308091+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before TJOFLAT, MARCUS, and NEWSOM, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff - Appellee,\nv.\nMatthew G. MUNKSGARD, Defendant - Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "NEWSOM, Circuit Judge:\nThis criminal appeal presents both a surprisingly close question of evidentiary sufficiency-so close, in fact, that it has prompted a dissent-and an interesting statutory-interpretation issue. As to the former, federal law criminalizes the act of knowingly making a false statement in order to obtain a loan from a bank that is insured by the FDIC. 18 U.S.C. \u00a7 1014. Matthew Munksgard admits to knowingly making false statements in order to obtain bank loans-indeed, four times over. Even so, he contends, the government failed to show beyond a reasonable doubt, as it had to, that the institution he swindled was FDIC-insured. This case presents the (irritatingly familiar) question whether the government presented sufficient evidence to prove that pesky jurisdictional prerequisite. The proof of FDIC insurance here-as in other cases in which we have rapped the government's knuckles-was hardly overwhelming. And given the ease with which insurance coverage could have been demonstrated-certificate, contract, cancelled check, etc.-inexplicably so. Having said that, \"overwhelming\" isn't the standard, and when we view the evidence in the light most favorable to the government, as we must, see United States v. Frank , 599 F.3d 1221, 1233 (11th Cir. 2010), we conclude-albeit reluctantly-that the proof was adequate to demonstrate Munksgard's guilt beyond a reasonable doubt. But let this be a warning to federal prosecutors: You are (as the author's mother used to say) cruisin' for a bruisin'. Don't apologize-do better.\nNow, the statutory-interpretation issue: Federal law makes it a crime for any person to \"use[ ], without lawful authority, a means of identification of another person.\" 18 U.S.C. \u00a7 1028A(a)(1). The jury here found that Munksgard violated this statute when, in an effort to obtain financing to support his land-surveying business, he forged another person's name to a surveying contract that he submitted to a bank in support of his loan application. The question before us is whether Munksgard's conduct qualifies as a prohibited \"use[ ]\" within the meaning of \u00a7 1028A(a)(1). Munksgard insists that we should cabin the meaning of \"use[ ]\" to crimes in which the accused attempted to impersonate, or act \"on behalf of,\" someone else. We disagree. Plain meaning, statutory context, and existing precedent all show that Munksgard \"use[d]\" his victim's means of identification when he employed that person's signature to obtain the loan and thereby converted the signature to his own service.\nI\nMatthew Munksgard began banking with Drummond Community Bank in the late 1990s. Drummond is a relatively small bank; at the time of trial, it operated in only a few counties in west central Florida. Munksgard obtained his first drawdown line of credit from Drummond in 2010 to fund his work as a land surveyor. After repaying that loan without incident, in 2012 Munksgard obtained two more drawdown lines. He also repaid those loans, albeit once from a different source of funds than he had indicated in his loan application.\nThat's when the real trouble started. The next year, Munksgard applied for yet another line of credit from Drummond, this time supported by a surveying contract with a company called Cal-Maine Foods. That contract showed the signature of Cal-Maine employee Kyle Morris. Munksgard now admits that the contract was fraudulent and that he signed Morris's name to it without Morris's knowledge or permission.\nMunksgard obtained three more lines of credit from Drummond over the next two years. He supported a 2013 credit application with a contract with Maxwell Plum Creek signed, on Plum Creek's behalf, by an \"S. Riggins.\" Plum Creek had no knowledge of the contract, and \"S. Riggins\" didn't exist. Munksgard's third and fourth credit applications, both in 2014, followed a similar pattern. To support them, Munksgard submitted contracts with St. Johns River Water Management and Triple Bell Farms. Both contracts were fraudulent, and both were signed by fictional employees-\"Ross Rawlings\" for St. Johns River and \"Jason Hanold\" for Triple Bell.\nThree years and four unpaid loans in, Drummond started asking questions and ultimately contacted the FBI. A grand jury later indicted Munksgard on four counts of knowingly making a false statement in order to obtain a loan from an FDIC-insured bank, in violation of 18 U.S.C. \u00a7 1014, and one count of aggravated identity theft for his placement of Kyle Morris's signature on the Cal-Maine Foods contract, in violation of 18 U.S.C. \u00a7 1028A.\nAt trial, the government presented three pieces of evidence to prove that Drummond was FDIC-insured when Munksgard submitted the fraudulent materials: (1) a certification indicating that the bank's deposits were insured when it was initially chartered in 1990; (2) testimony from a veteran bank employee, David Claussen, that Drummond was currently (i.e. , in 2016) FDIC-insured; and (3) Claussen's further testimony that the bank isn't required to \"renew[ ]\" its FDIC certificate \"every so often.\"\nThe jury convicted Munksgard on all five counts. The district court sentenced Munksgard to six months in prison for the fraudulent credit applications and to a consecutive 24 months for aggravated identity theft.\nII\nWe begin with Munksgard's bank-fraud conviction under 18 U.S.C. \u00a7 1014. Section 1014 prescribes stiff penalties for anyone who \"knowingly makes any false statement ... for the purpose of influencing in any way the action of any institution the accounts of which are insured by the Federal Deposit Insurance Corporation.\" 18 U.S.C. \u00a7 1014. For purposes of appeal, all agree that Munksgard (1) knowingly (2) made false statements (3) in order to obtain financing from Drummond Community Bank. That gets the government three-quarters of the way home. Munksgard contends, though, that the government didn't quite finish the job-in particular, he says, it failed to present sufficient evidence to prove beyond a reasonable doubt that Drummond was FDIC-insured at the time he submitted the fraudulent loan applications.\nWe've seen this play before-part comedy, part tragedy. For reasons that leave us mystified, in cases involving federally insured banks-bank robbery, bank fraud, etc.-the government continues to stub its toe in seeking to prove the seemingly straightforward, but nonetheless jurisdictionally \"indispensable,\" element of FDIC insurance. See United States v. Platenburg , 657 F.2d 797, 799 (5th Cir. Unit A 1981). In our Circuit alone, the problem stretches back more than half a century. For the good of all involved, we'll pick up the story in 1978, when we (then part of the old Fifth) considered a bank-robbery case in which the government had presented evidence indicating that the institution at issue had been insured (1) ten years before the crime and (2) at the time of the trial. Citing our own precedent, as well cases from the Sixth, Seventh, and Eighth Circuits confronting the same question, we observed that \"a jury can reasonably infer that an institution was federally insured on the date of a robbery if it is presented with evidence showing that the institution was insured both prior to that date and recently thereafter.\" United States v. Fitzpatrick , 581 F.2d 1221, 1223 (5th Cir. 1978) (citations omitted). We hastened to add, however-the proverbial shot across the bow-that \"the government obviously could have done a much better job of proving the bank's insured status at the date of the crime.\" Id .\nTwo years later, in what would later be described as the \"nadir of the acceptable level of proof,\" Platenburg , 657 F.2d at 800, we found-\"[j]ust barely\"-that a reasonable jury could conclude that the target bank was insured at the time of the offense based on evidence that it had FDIC insurance five years earlier. United States v. Maner , 611 F.2d 107, 110-112 (5th Cir. 1980). We deemed it \"at least arguable\" that the jury could indulge \"the universal presumption ... that all banks are federally insured\"-and further \"that a reasonable jury could infer beyond a reasonable doubt that proof of the condition of insurance before the robbery, absent evidence to the contrary, suggests the continuation of that insurance.\" Id. at 110.\nOnce again-this time more vigorously-we expressed our annoyance. We emphasized our \"difficulty comprehending why the Government repeatedly fails to prove this element more carefully since the Government's burden is so simple and straightforward,\" and we warned that \"the Government had tread[ed] perilously close to reversal in th[at] case, and may soon find itself crossing the line from sufficiency to insufficiency.\" Id. at 112. Underscoring what we described as a \"plague infecting United States Attorneys throughout the land,\" our opinion included a 760-word \"digest\" of cases in which appellate courts had considered whether the government had failed to shoulder its proof-of-insurance burden. More generously, we even offered suggestions for how the government could prove this \"simple but indispensable fact\"-a certificate of FDIC coverage spanning the date of the crime, an insurance contract, a cancelled check, etc. Id. at 112 n.2.\nOur warnings went unheeded. In Platenburg , the government presented only a certificate of FDIC insurance that predated the offense by seven years-nothing more. Enough had finally become enough: \"The day ha[d] come; the line from sufficiency to insufficiency ha[d] been crossed.\" 657 F.2d at 799.\nSo then, what of this case? Notwithstanding our sympathy for our dissenting colleague's exasperation, we don't think the line has been crossed here. The government's evidence of insurance, while not overwhelming, was sufficient to prove beyond a reasonable doubt that Drummond Community Bank was FDIC-insured. In one of the first cases to address the FDIC-insurance issue, we quoted Professor Wigmore for the following logico-evidentiary propositions: first , \"[w]hen the existence of an object, condition, quality, or tendency at a given time is in issue, the prior existence of it is in human experience some indication of its probable persistence or continuance at a later period\"; and second , \"[s]imilar considerations affect the use of subsequent existence as evidence of existence at the time in issue.\" Cook v. United States , 320 F.2d 258, 259 (5th Cir. 1963) (citations omitted). Thus, at least in some circumstances, evidence of either \"prior\" or \"subsequent\" insurance, even standing alone, can be adequate proof of coverage at the time of the offense. Needless to say, we much prefer both-and contemporaneous evidence is even better.\nIn any event, given our precedent, what the government presented here was good enough. First, the government introduced a certificate of FDIC insurance issued when Drummond Community Bank was initially chartered in 1990-evidence (in Wigmore's terms) of \"prior existence.\" Second, David Claussen, Drummond's Senior Vice President and Chief Underwriter, testified that the bank was insured at the time of trial in 2016-\"subsequent existence.\" Finally, when asked whether Drummond's FDIC certificate is renewed \"every so often,\" Claussen-who had spent 25 years at the small bank, and was therefore likely to be familiar with its administration and operations-testified that it isn't. We think it clear that a reasonable jury could conclude that his testimony provides additional evidence-beyond mere prior and subsequent existence-that Drummond was insured in 2013 and 2014, when Munksgard submitted the fraudulent contracts.\n* * *\nConsidering all of the evidence, the government proved beyond a reasonable doubt that Drummond Community Bank was insured by the FDIC both before and after Munksgard's offenses and that it didn't need to renew its insurance in the interim. Coupled with the \"universal presumption ... that all banks are federally insured,\" Maner , 611 F.2d at 110 -and viewing the proof in the light most favorable to the government-we conclude that a reasonable juror could find that Drummond was insured by the FDIC on the dates of Munksgard's offenses.\nIII\nNow, to Munksgard's conviction for aggravated identity theft under 18 U.S.C. \u00a7 1028A, which was based on his signing Kyle Morris's name to the fraudulent contract with Cal-Maine Foods. Section 1028A(a)(1) provides: \"Whoever, during and in relation to any felony violation enumerated in subsection (c), knowingly transfers, possesses, or uses, without lawful authority, a means of identification of another person shall, in addition to the punishment provided for such felony, be sentenced to a term of imprisonment of 2 years.\"\nAs with the fraud counts, all but one of the elements required to convict Munksgard under \u00a7 1028A are straightforward. First, \u00a7 1028A(a)(1) 's \"during and in relation to\" clause covers Munksgard's \u00a7 1014 offense. Among other crimes enumerated in \"subsection (c)\" of \u00a7 1028A is \"any provision contained in this chapter [47] (relating to fraud and false statements) ....\" 18 U.S.C. \u00a7 1028A(c)(4). Chapter 47, in turn, \"contain[s]\" \u00a7 1014, which forbids \"knowingly mak[ing] any false statement\" for the purpose (as relevant here) of obtaining financing from an FDIC-insured bank. Second, Munksgard does not dispute that he \"knowingly\" signed Morris's name to the contract. Third, \u00a7 1028 defines \"means of identification\" as \"any name or number that may be used, alone or in conjunction with any other information, to identify a specific individual, including any-name ....\" 18 U.S.C. \u00a7 1028A(d)(7)(A). So, it seems clear to us, \"/s/ Kyle Morris\" counts as a \"means of identification.\" Finally, Munksgard admits that he signed Morris's name \"without lawful authority.\" 18 U.S.C. \u00a7 1028A(a)(1).\nThat leaves the verb. The government also had to prove, as pertinent here, that Munksgard \"use[d]\" Morris's identity. Citing United States v. Berroa , 856 F.3d 141 (1st Cir. 2017), and United States v. Miller , 734 F.3d 530 (6th Cir. 2013), Munksgard insists that the term \"use[ ]\" in \u00a7 1028A\"require[s] that the defendant attempt to pass him or herself off as another person or purport to take some other action on another person's behalf.\" Berroa , 856 F.3d at 156. Munksgard says that because he only signed Morris's name, and didn't try to impersonate Morris or otherwise act on his behalf, he didn't \"use[ ]\" Morris's identification.\nWe aren't persuaded. Rather, we find ourselves in agreement with the Sixth Circuit's recent (post- Miller ) decision in United States v. Michael , which held that a pharmacist had \"used\" a doctor's and patient's \"means of identification\"-even though he impersonated neither-when he included the doctor's National Provider Identifier and the patient's name and birthdate on a fraudulent insurance claim. 882 F.3d 624, 628 (6th Cir. 2018). Like the Michael court, we begin with the ordinary meaning of the term \"use\"-and, in particular, how standard English-language dictionaries define the verb \"use\" when employed in conjunction with a particular object, as in to \"use[ ] ... a means of identification.\" In Webster's Second , for instance, to \"use\" an object is \"[t]o convert [it] to one's service; to avail oneself of [it]; to employ [it]; as, to use a plow, a chair, a book.\" Webster's Second New International Dictionary 2806 (1944). Webster's Third likewise defines \"use\" vis-\u00e0-vis an object to mean \"to put [it] into action or service\"-e.g. , \"whether he would ever [use] the tie she had given him.\" Webster's Third New International Dictionary 2523 (2002). In Oxford , more of the same: \"take, hold, or deploy (something) as a means of accomplishing or achieving something; employ; [as in] she used her key to open the front door.\" Oxford Dictionary of English 1958 (3d ed. 2010). And as proof that \"use\" does not bear some idiosyncratic connotation in the legal context, we note that Black's too defines the verb form to mean \"[t]o employ for the accomplishment of some purpose\" or \"to avail oneself of.\" Black's Law Dictionary 1776 (10th ed. 2014). On plain meaning alone, therefore, it seems clear to us that Munksgard \"use[d]\" a means of identification in that he \"employed\" Morris's name in order to procure a bank loan, and thereby \"convert[ed]\" Morris's name \"to [his] service.\"\nStatutory context confirms this plain-meaning interpretation of the term \"use[ ]\"-at least as it pertains to a \"means of identification.\" For starters, \u00a7 1028A(a)(1) criminalizes the knowing and unauthorized use of a means of identification \"during and in relation to\" certain enumerated felonies-one of which, again, is knowingly making a false statement to an FDIC-insured bank under 18 U.S.C. \u00a7 1014. As the Sixth Circuit explained in Michael , this \"during and in relation to\" language connotes causation: \"The salient point,\" the court said, \"is whether the defendant used the means of identification to further or facilitate the ... fraud.\"\n882 F.3d at 628. Just as \"[f]orging a doctor's signature to bolster\" insurance claims \"facilitated the health care fraud\" in that case, so too forging Morris's name to bolster a loan application facilitated the bank fraud in this one. Id . at 629.\nRanging beyond the term's immediate surroundings, our reading finds additional support in \u00a7 1028A(c) 's statutory cross references-the various \"uses\" of means of identification that the prohibition covers. Along with \u00a7 1014 's \"fraud and false statements\" ( (c)(4) ), \u00a7 1028A also reaches, to take only the first five, \"theft or public money, property or rewards\" ( (c)(1) ), \"false personation of citizenship\" ( (c)(2) ), \"false statements in connection with the acquisition of a firearm\" ( (c)(3) ), and \"mail, bank, and wire fraud\" ( (c)(5) ). While these references may not foreclose an impersonation-based \"on behalf of\" reading, they also don't preclude-and on balance, we think they support-an interpretation of \"use[ ]\" that more broadly forbids one from \"employ[ing]\" or \"convert[ing] to [his] service\" another's name.\nLastly, we note that what precedent there is further reinforces our plain-language reading. Although this Court has not yet opined (in a published opinion) on the meaning of \"use[ ]\" in \u00a7 1028A, we have found the word \"use\" in other criminal statutes to entail employing or converting an object to one's service. See, e.g. , United States v. Montano , 398 F.3d 1276, 1284-85 (11th Cir. 2005) (observing that a defendant \"use[s] or carrie[s] a firearm\" within the meaning of 18 U.S.C. \u00a7 924(c)(1)(A) when he \"employ[s] the guns, avail[s] himself of the guns, derive[s] service from the guns, or receive[s] any other benefit from the guns\"). The Supreme Court and our sister circuits have done the same. See, e.g. , United States v. Castleman , 572 U.S. 157, 170-71, 134 S.Ct. 1405, 188 L.Ed.2d 426 (2014) (holding that under 18 U.S.C. \u00a7 922(g)(9)\"the word 'use' conveys the idea that the thing used ... has been made the user's instrument\") (internal quotation marks and citations omitted); Konop v. Hawaiian Airlines, Inc. , 302 F.3d 868, 880 (9th Cir. 2002) (defining \"use\" in 18 U.S.C. \u00a7 2701(c)(2) to mean \"to put into action or service, avail oneself of, employ\"); United States v. Ramsey , 237 F.3d 853, 859 (7th Cir. 2001) (interpreting \"use or attempted to use\" in U.S.S.G. \u00a7 3B1.4\"fairly broadly\" in accordance with the definition in the Sixth Edition of Black's -\"to avail oneself of; to employ; to utilize; to carry out a purpose or action by means of; to put into action or service, especially to attain an end\").\nThere is one loose end-well two, really. Aside from his general contention that \"us[ing] a means of identification\" necessarily entails impersonation, Munksgard offers a pair of more specific reasons why we shouldn't deem his action to be a covered \"use\" of Morris's name. We find neither compelling. First, Munksgard asserts that he \"signed Morris's name to the surveying contract but did not take anything from Morris nor did he obligate Morris to do anything.\" But harm to the identity's true owner isn't an element of \u00a7 1028A(a)(1) ; accordingly, Munksgard's argument-even if true-provides him no defense. Second, Munksgard contends that \"the use of Morris's name was incidental to the offense\" because (he says) it didn't influence Drummond Community Bank's decision to provide financing. But again, Munksgard's position presupposes an element-something like reliance-that \u00a7 1028A(a)(1) doesn't require.\n* * *\nIn sum, we conclude that the plain meaning of the term \"use,\" particularly when understood in statutory context and in the light of relevant precedent, demonstrates that Munksgard unlawfully \"use[d]\" Kyle Morris's name within the meaning of \u00a7 1028A(a)(1).\nIV\nFor the foregoing reasons, we hold (1) that the jury here could find beyond a reasonable doubt that Drummond Community Bank was FDIC-insured at the time of Munksgard's offenses, as required by 18 U.S.C. \u00a7 1014, and (2) that when Munksgard signed Kyle Morris's name to the fraudulent surveying contract he submitted in support of his loan application, he \"use[d]\" Morris's \"means of identification\" within the meaning of 18 U.S.C. \u00a7 1028A(a)(1). Accordingly, we affirm Munksgard's convictions and sentences.\nAFFIRMED\nThe Dissent objects to our citation to Cook on the ground that the court there was reviewing only for plain error, whereas here we review Munksgard's sufficiency-of-the-evidence argument de novo . See Dissenting Op. at 1337-39. There are two problems. First, in its effort prove that \"[t]he standard of review answers the question\" and conclusively distinguishes Cook ,id. at 1338-39, the Dissent strains to make Cook say something it doesn't. In particular, the Dissent insists that the Cook court \"was looking outside the judicial proceedings\"-that is, to Wigmore's commonsense propositions that prior and subsequent existence imply current existence-\"because it was required to do so under plain error review,\" and in particular under \"[t]he fourth factor,\" which asks whether the alleged error \"seriously affected the fairness, integrity, or public reputation of judicial proceedings.\" Dissenting Op. at 1339 (quoting United States v. Hernandez , 906 F.3d 1367, 1370 (11th Cir. 2018) ) (emphasis added by the Dissent). In fact, though, the Cook court emphasized the third plain-error factor-whether the alleged error affected \"substantial rights,\" Cook , 320 F.2d at 260 -so the hinge on which the Dissent's distinction of Cook swings turns out not to work. Second, and in any event, we mustn't forget while our sufficiency review here is de novo , it remains the case that Munksgard's conviction \"must be upheld unless the jury could not have found the defendant guilty under any reasonable construction of the evidence.\" United States v. Frank , 599 F.3d 1221, 1233 (11th Cir. 2010) (quoting United States v. Chastain , 198 F.3d 1338, 1351 (11th Cir. 1999) ). It seems to us hardly controversial that a jury could reasonably consider what we have called Wigmore's \"logico-evidentiary propositions\"-coverage before + coverage after = coverage in between-in determining whether Drummond was insured when Munksgard swindled it.\nThe Dissent concedes as much-see Dissenting Op. at 1339-40 (approving of the propositions' application in Woolworth Co. v. Seckinger , 125 F.2d 97 (5th Cir. 1942) )-but asserts that applying Wigmore's propositions \"makes little sense in a case like this,\" where the relevant condition may change over a brief period of time. Dissenting Op. at 1340-41. Fair enough: hypothetically, a bank could lose its insured status at midnight tonight, noon tomorrow, or as we write this sentence. But as a \"nearly universal\" matter, banks don't. Cook , 320 F.2d at 259. Munksgard bore the burden on appeal to demonstrate that it was unreasonable for a jury presented with evidence of Drummond's prior and subsequent insurance to conclude that Drummond was insured during the period in between. We have difficulty understanding how a jury determination that squares with common experience is unreasonable.\nA little Google sleuthing presumably would have revealed that Drummond's FDIC insurance was (as it appears to be now) \"Active.\" See Fed. Deposit Ins. Corp., BankFind (data as of Dec. 5, 2018).\nTo be clear, neither we nor the Maner court are taking official notice of a disputed fact so much as acknowledging the state of the world-an exercise that is necessarily part of any review of the reasonableness of a jury's decision. See Dissenting Op. at 1341-42.\nAs employed in \u00a7 1028A, the term \"use\" no doubt covers impersonations, but impersonations do not exhaust the term's meaning. Just as the Supreme Court in Smith v. United States, 508 U.S. 223, 113 S.Ct. 2050, 124 L.Ed.2d 138 (1993), rejected the argument that combining \"use\" with \"firearm\" meant that the statute criminalized only using qua shooting , so here \"us[ing] a means of identification\" needn't refer exclusively to impersonations. See Michael , 882 F.3d at 627 (rejecting similar argument).\nWe note, however, that our reading comports with that in United States v. Lewis , 443 Fed. App'x 493, 495-96 (11th Cir. 2011) (\"As the signature of an individual's name specifically identifies that individual, we conclude that forging another's signature constitutes the use of a 'means of identification.' \").",
+        "type": "majority",
+        "author": "NEWSOM, Circuit Judge:"
+      },
+      {
+        "text": "TJOFLAT, Circuit Judge, dissenting:\nTo convict Matthew Munksgard of violating 18 U.S.C. \u00a7 1014, the government had to prove that Drummond Community Bank (the \"Bank\") was FDIC-insured when Munksgard committed the offense in 2013 and 2014. Although proving that fact should be \"simple and straightforward,\" United States v. Maner , 611 F.2d 107, 112 (5th Cir. 1980), the government consistently has trouble with it. Add this case to the list. Here, there was no direct evidence that the Bank was insured in either 2013 or 2014-no documentary evidence, witness testimony, or otherwise.\nInstead, the government presented three pieces of circumstantial evidence. First, it introduced a certificate that shows the Bank's deposits were insured in 1990, twenty-three years before the crime. Next, it presented testimony from a Bank employee who said that the Bank was currently FDIC-insured (in 2016), a couple years after the crime. And finally, the government presented testimony from the same Bank employee who said the Bank isn't required to renew its FDIC certificate \"every so often.\" Majority Op. at 1330-31. That's it.\nThe majority holds that this evidence is \"good enough\" to allow a reasonable jury to find-beyond a reasonable doubt-that the Bank was FDIC-insured in 2013 and 2014. Majority Op. at 1332-33. But the majority is not writing on a blank slate. It relies on our precedent, stretching back to the former Fifth Circuit, to draw the line between what's sufficient and what's not. Majority Op. at 1333 (\"In any event, given our precedent , what the government presented here was good enough.\" (emphasis added) ). Because I believe the majority misreads this precedent, and in doing so, violates Munksgard's constitutional rights, I respectfully dissent.\nI divide my discussion into four parts. First, I explain that no binding precedent in this Circuit compels the conclusion the majority reaches. Second, putting the issue of binding precedent aside, I show that the majority's analysis, and its reliance on an evidentiary inference, is unpersuasive. Third, I point out that the Bank employee's testimony about renewal is not additional evidence of insured status. Fourth, I highlight that a misreading of Cook v. United States , 320 F.2d 258 (5th Cir. 1963), has caused courts, including the majority, to apply an unconstitutional presumption of insured status in these cases.\nI.\nThe majority correctly points out that the problem in this case-whether the government presented enough evidence to allow a reasonable jury to find beyond a reasonable doubt that a bank was FDIC-insured at the time of the crime-stretches back more than half a century, in this Circuit alone. Despite this long history, the majority dives into our precedent with United States v. Fitzpatrick , 581 F.2d 1221 (5th Cir. 1978) (per curiam).\nTellingly, the majority begins its discussion of our precedent by quoting dicta. The majority writes that in Fitzpatrick this Court \"observed that 'a jury can reasonably infer that an institution was federally insured on the date of a robbery if it is presented with evidence showing that the institution was insured both prior to that date and recently thereafter.' \" Majority Op. at 1331 (quoting Fitzpatrick , 581 F.2d at 1223 ). As the majority concedes, that statement is nothing more than an observation, and an unpersuasive one at that.\nIn Fitzpatrick , the defendant was charged with robbing a bank that was FDIC-insured. 581 F.2d at 1222. The District Court did not instruct the jury that the government must prove the bank's deposits were FDIC-insured; the District Court mistakenly instructed the jury using a different jurisdictional hook. See id. at 1223. On appeal, the Court considered whether that instructional mistake was reversible error and held that it was. Id. Before reaching its holding, the Court said that \"a jury can reasonably infer that an institution was federally insured on the date of a robbery if it is presented with evidence showing that the institution was insured both prior to that date and recently thereafter.\" Id. But this statement is pure dictum; it is unnecessary to the Court's holding that the conviction must be reversed. See In re BFW Liquidation, LLC , 899 F.3d 1178, 1186 (11th Cir. 2018) (\"If a statement is 'not necessary to the result the Court reached in the case,' then that statement is dictum.\" (quoting United States v. Hunter , 172 F.3d 1307, 1310 (11th Cir. 1999) (Ed Carnes, J., concurring) ) ). The Court made clear that the statement is dictum because it noted the government proved guilt beyond a reasonable doubt (which means the government proved insured status), but it still reversed the conviction. See Fitzpatrick , 581 F.2d at 1223-24. As dictum, the statement \"is not binding on anyone for any purpose.\" BFW Liquidation , 899 F.3d at 1186 (quoting Edwards v. Prime, Inc. , 602 F.3d 1276, 1298 (11th Cir. 2010) ).\nIf any case in this Circuit actually held what the Court said in Fitzpatrick , the majority surely would have started there. But no case holds that a jury may infer insured status based on prior and subsequent status.\nBacktracking a bit, the parties agree that the Circuit's law on this problem begins with Cook v. United States , 320 F.2d 258 (5th Cir. 1963). Indeed, the majority eventually cites Cook and mimics its analysis. But Cook helps the majority no more than Fitzpatrick .\nIn Cook , the defendant was convicted of robbing an FDIC-insured bank. 320 F.2d at 259. To prove that the bank was insured at the time of the robbery, the government called the bank's vice president. Id. The vice president testified that the bank's deposits were covered by the FDIC. Id. That's it; the vice president said nothing about whether the bank was insured when it was robbed. Importantly, the defendant never objected, never filed a motion for judgment of acquittal, and never filed a motion for a new trial. Id. Thus, on appeal, the Court reviewed-under the plain error standard-whether the government presented enough evidence to prove that the bank was FDIC-insured when it was robbed. Id.\nTo answer the evidentiary question, the Court relied on what it called an evidentiary \"rule\" (really, though, the rule is just a logical inference): \"When the existence of an object, condition, quality, or tendency at a given time is in issue, the prior existence of it is in human experience some indication of its probable persistence or continuance at a later period.\" See id. (quoting 2 John H. Wigmore, Wigmore on Evidence 413, \u00a7 437). Similarly, evidence of \"subsequent existence\" can be some indication of earlier existence. See id. I call this Wigmore's inference.\nApplying Wigmore's inference, if a bank was FDIC-insured at some point before the crime was committed, it's more likely that the bank was also FDIC-insured later, when the crime was committed. Id. Similarly, if a bank was FDIC-insured at some point after the crime was committed, it's more likely that the bank was also FDIC-insured earlier, when the crime was committed. Id.\nBelow, I explain why this type of inference is inappropriate to prove FDIC-insured status. But first, I explain exactly how the Court in Cook used this inference-which depended heavily on the plain error standard of review-because Cook 's use of it is fatal to the majority's analysis.\nThe Court in Cook did not apply Wigmore's inference in a vacuum; it applied the inference in the context of plain error review. The Court explained \"that the common knowledge of the nearly universal prevalence of the banks of the United States having their deposits insured by the Federal Deposit Insurance Corporation permits, if it does no[t] require, an inference under the rule stated by Wigmore that the [relevant] bank was insured at the time it was [robbed].\" Id. at 259-60. But why was the Court looking outside the judicial proceedings to the \"nearly universal prevalence\" of FDIC-insured banks? After all, the bank's insured status at the time of the crime is a fact that must always be found-beyond a reasonable doubt-by the jury. And, of course, the jury can't rely on \"nearly universal prevalence\" to make the inference that Cook endorsed. There's nothing in the jury instructions about that.\nThe standard of review answers the question: the Court was looking outside the judicial proceedings because it was required to do so under plain error review. The fourth factor of plain error review asks whether the error-here, insufficient evidence on a jury-found fact in a criminal case-\"seriously affected the fairness, integrity, or public reputation of judicial proceedings.\" United States v. Hernandez , 906 F.3d 1367, 1370 (11th Cir. 2018) (emphasis added) (quoting Rodriguez , 398 F.3d at 1298 ). The purpose of the fourth element is to analyze whether a \"reasonable citizen would[ ] bear a rightly diminished view of the judicial process and its integrity if\" the court refused to correct the alleged error. See Rosales-Mireles v. United States , --- U.S. ----, 138 S.Ct. 1897, 1908, 201 L.Ed.2d 376 (2018) (quoting United States v. Sabillon-Umana , 772 F.3d 1328, 1333 (10th Cir. 2014) ). It's about institutional legitimacy.\nHere's the upshot. The court in Cook highlighted the \"universal prevalence\" of insured status to show why, assuming the District Court erred, the error would not affect the integrity of the judiciary. The error was not egregious-and a reasonable citizen wouldn't think any less of the judiciary-because the \"universal prevalence\" of insured status was \"common knowledge\" among reasonable citizens. That is, even if the government's evidence of insured status was a little thin, the error was not the type of egregious error that would cause reasonable citizens to question the judiciary's ability to do its job.\nSimply put, Cook does not stand for the proposition that evidence of prior insured status and evidence of later insured status is enough to uphold a criminal conviction when a criminal defendant appeals the denial of his motion for acquittal. Nor does it say there is no error when the government uses evidence of prior and later insured status to prove insured status at some point in the middle. Cook stands for the proposition that, in some circumstances, a conviction based on evidence of prior insured status and later insured status need not be overturned on plain error review .\nWhen Cook is read in its proper context, it clearly cannot support the weight the majority gives it. Indeed, the majority uses Cook as the bedrock of its analysis. It uses Cook , which relied on Wigmore's inference, to support its conclusion that prior insured status plus later insured status reasonably equals insured status at some point in the middle.\nAlthough Cook provides no precedential support for the majority's analysis, its use of Wigmore's inference could still provide a persuasive analytical framework. A quick analysis of the inference shows it does not.\nII.\nAs additional support for Wigmore's inference, the Court in Cook cited F.W. Woolworth Co. v. Seckinger , 125 F.2d 97 (5th Cir. 1942). Cook , 320 F.2d at 259. Woolworth , which also applied Wigmore's inference, shows why the inference is inappropriate to prove FDIC-insured status.\nThe plaintiff in Woolworth fell while shopping at the defendant's store. 125 F.2d at 97. She sued, alleging the store's defective condition-the result of \"wear and decay\"-caused her fall. Id. at 97, 98. At trial, a witness who had seen the floor testified about its condition. Id. at 97-98. But the witness saw the floor forty-five days after the accident. Id. Thus, one of the issues on appeal was whether this witness's testimony was admissible. Id. at 97.\nThe Court, applying Wigmore's inference, concluded that testimony about the floor's condition forty-five days after the accident was \"evidential of its earlier condition.\" Id. at 98. The Court noted that \"[w]here the condition is of such character that a brief lapse of time would not affect it materially , the subsequent existence of the condition may give rise to an inference that it previously existed.\" Id. (emphasis added). With nothing but ordinary wear and tear to change the floor's condition, the Court concluded that the floor's condition would not materially change in forty-five days. See id.\nWigmore's inference, though sensical in a civil case like Woolworth , makes little sense here. The condition at issue in Woolworth was the defective condition of the floor. The defective floor was not something that would materially change in a short period of time because (1) it became defective over a long period of time, due to ordinary wear and tear, and (2) the only thing that could change the defective condition was more wear and tear, which takes a lot of time. By contrast, the condition at issue here is the Bank's insured status, and insured status can materially change in a short period of time. See United States v. Stuart-Caballero , 686 F.2d 890, 893 (11th Cir. 1982) (\"Continued FDIC insurance coverage, however, depends on periodic payment of premiums.\") For example, insured status could change at least four times a year, every time a premium payment is due. So, from 1990 to 2013, there were around ninety-two chances for the Bank's insured status to change. And from 2014 to 2016, there were eight more chances. The point is that evidence of prior and later insured status has little probative value because there were tons of chances for the Bank to lose its insured status.\nBecause Wigmore's inference makes little sense in a case like this, Cook fails to provide a persuasive analytical framework for the majority to use. Although the majority's analysis leans heavily on Cook , it doesn't rely exclusively on Cook .\nIII.\nIn addition to showing \"prior existence\" and \"subsequent existence\" of FDIC-insured status, the majority also relies on the Bank employee's testimony that the Bank isn't required to renew its FDIC certificate \"every so often.\" A reasonable jury, according to the majority, \"could conclude that [t]his testimony provides additional evidence-beyond mere prior and subsequent existence-that [the Bank] was insured in 2013 and 2014.\" Majority Op. at 1333.\nTwo quick points. First, the Bank's employee did not say that the FDIC certificate is never renewed. In response to the question \"[d]o you know whether or not this certificate is renewed,\" he answered \"[i]t's not.\" Second, the employee said nothing about whether the FDIC insurance itself must be renewed. The FDIC certificate only shows that the Bank got FDIC-insured status in 1990. It doesn't show whether the Bank has done everything it needs to do to keep insured status, such as pay its premiums. This is surely why the government had a conviction vacated in a case where it presented only a certificate of FDIC insurance that was dated seven years before the offense. See United States v. Platenburg , 657 F.2d 797, 800 (5th Cir. 1981).\nThus, I do not see how the Bank employee's testimony makes it more likely that the Bank was FDIC-insured in 2013 and 2014.\nAt this point, I've covered all of the majority's analysis that relates to evidence introduced at trial. Finally, I address the presumption-a presumption the majority applied against a criminal defendant.\nIV.\nAccording to the majority, \"Coupled with the 'universal presumption ... that all banks are federally insured'-and viewing the proof in the light most favorable to the government-we conclude that a reasonable juror could find that [the Bank] was insured by the FDIC on the dates of Munksgard's offenses.\" Majority Op. at 1333 (first alteration in original) (internal citation omitted) (quoting Maner , 611 F.2d at 110 ). This \"universal presumption\" is wrong on three fronts.\nFirst, the presumption is wrong as a matter of precedent. The universal presumption language comes from this Court's decision in Maner . 611 F.2d at 110. But Maner clearly misread Cook when it used the language. Compare id. (\"[I]t is at least arguable that the universal presumption employed in the Cook case that all banks are federally insured could be applied here.\"), with Cook , 320 F.2d at 259-60 (noting the \"common knowledge of the nearly universal prevalence\" of FDIC-insured banks). The Court in Cook noted the universal prevalence of insured status-it said nothing about a universal presumption . The majority never acknowledges this misreading.\nAs I explained above, the Court in Cook used the universal prevalence language in the context of plain error review, which required the Court to look outside the judicial proceedings. Really, the Court in Cook took judicial notice of the universal prevalence. But that isn't problematic because the fourth factor of plain error review requires courts to consider facts outside the proceedings. Similarly, the Court in Maner effectively took judicial notice of the universal presumption that banks are FDIC-insured. But this is hugely problematic because the Court in Maner did not apply plain error review; it was considering a denied motion for judgment of acquittal on the theory that the government didn't prove insured status. 611 F.2d at 108. And even if Cook had taken judicial notice of this fact when reviewing a denied motion for judgment of acquittal, the Court in Maner could not borrow that finding from Cook and treat it as conclusive. See Grayson v. Warden, Comm'r, Ala. DOC , 869 F.3d 1204, 1224-25 (11th Cir. 2017). The Court in Maner took judicial notice of a disputed fact, clearly violating Rule 201 of the Federal Rules of Evidence. See Fed. R. Evid. 201(b) (noting \"[t]he court may judicially notice a fact that is not subject to reasonable dispute\"). The majority's analysis highlights the danger in relying on a later case's after-the-fact interpretation of an earlier one.\nSecond, the jury could not have applied this universal presumption because they weren't instructed on it. The jury was instructed that its \"decision must be based only on the evidence presented during the trial,\" and it was instructed that the government must prove beyond a reasonable doubt that the Bank's deposits were FDIC-insured. Thus, the universal presumption-which was injected into our case law because Maner misread Cook -should not be part of the sufficiency of the evidence analysis. This is an unremarkable conclusion because, if the majority's statement of the law were correct, the government would be relieved of its duty to prove every element of the crime beyond a reasonable doubt. That would violate the Constitution. See Apprendi v. New Jersey , 530 U.S. 466, 477, 120 S.Ct. 2348, 2356, 147 L.Ed.2d 435 (2000) (\"[A] criminal defendant [is entitled] to 'a jury determination that [he] is guilty of every element of the crime with which he is charged, beyond a reasonable doubt.' \" (third alteration in original) (quoting United States v. Gaudin , 515 U.S. 506, 510, 115 S.Ct. 2310, 2313, 132 L.Ed.2d 444 (1995) ) ). And even if the presumption didn't violate the Constitution, it would require criminal defendants to prove a negative, and all of the evidence would be in the government's possession.\nThird, even if the Constitution permitted this kind of common law presumption in a criminal case, the government doesn't need it. A presumption that some condition exists might be relevant when a district court is deciding whether evidence is admissible. But courts never apply a presumption to help a party satisfy its burden of proof-and, in turn, force the opposing party to present contrary evidence-when the party with the burden of proof already has in its possession all the evidence it needs. In fact, when a party has relevant evidence in his control and doesn't produce it, the failure to produce it can in some cases \"give[ ] rise to an inference that the evidence is unfavorable to him.\" See Callahan v. Schultz , 783 F.2d 1543, 1545 (11th Cir. 1986) (per curiam) (quoting Int'l Union (UAW) v. NLRB , 459 F.2d 1329, 1336 (D.C. Cir. 1972) ). I am unaware of any area of the law that recognizes a presumption to help the party that already has the evidence it needs.\n* * *\nThe majority goes to great lengths to bail the government out. Nothing in our precedent compels this, and the Constitution doesn't allow it. Because I would vacate the conviction, I respectfully dissent.\nIn Bonner v. City of Prichard , 661 F.2d 1206, 1207 (11th Cir. 1981) (en banc), this Court adopted as binding precedent all decisions of the former Fifth Circuit handed down by the close of business on September 30, 1981.\nThis might not be obvious at first glance because the Court in Cook did not list the four factors of plain error review. I focus my discussion on the fourth factor. Under the first three factors of plain error review, a party must show \"(1) the district court erred; (2) the error was plain; and (3) the error affected the party's substantial rights.\" United States v. Hernandez , 906 F.3d 1367, 1370 (11th Cir. 2018) (citing United States v. Rodriguez , 398 F.3d 1291, 1298 (11th Cir. 2005) ). The majority understandably argues that Cook was analyzing the third factor of plain error review, not the fourth. See Majority Op. at 1332 n.1. Indeed, the Court in Cook did say that the criminal defendant \"ha[d] not been deprived of any substantial right.\" 320 F.2d at 260. Although the Court used the substantial-right language, it couldn't have been applying the third factor. Here's why. The third factor assumes the lower court made an error and basically asks whether the error was prejudicial. See Hernandez , 906 F.3d at 1371 (noting that reviewing courts analyzing the third factor ask whether there is \"a reasonable probability that the outcome would have been different if the district court\" had not erred). An error like the one alleged in Cook -allowing a conviction to stand even though there wasn't enough evidence to prove an element of the crime-always satisfies the third factor. It's always prejudicial. If the government doesn't prove every element beyond a reasonable doubt, the defendant must be acquitted. So, again, I say the Court in Cook was really applying the fourth factor. It used the universal prevalence of insured status to explain why the general public would not lose sleep knowing that the judiciary allowed this mistake to slide by uncorrected. Because odds are, according to the Court, the bank was insured at the time of the crime.\nSee id. at 98 n.2.\nSee 12 C.F.R. \u00a7 308.120(a)(3) (listing an insured institution's violation of \"an applicable law, rule, regulation, order, [or] condition\" as one ground for involuntarily terminating insured status); id. \u00a7 327.3 (requiring insured institutions to pay quarterly assessments). See also Doolin Sec. Sav. Bank, F.S.B. v. F.D.I.C. , 53 F.3d 1395, 1408 (4th Cir. 1995) (\"conclud[ing] that the FDIC has the authority to instigate a termination of insurance proceeding when an institution violates applicable law and withholds portions of its insurance assessments\").\nI do not mean to suggest that evidence of prior and later insured status is completely irrelevant. I readily agree with Wigmore's inference that prior and later evidence is \"some indication\" of insured status between the two dates. See Cook , 320 F.2d at 259 (quoting 2 Wigmore, supra , at 413, \u00a7 437). But just how indicative are the two pieces of evidence? We don't know. At bottom, \"some indication\" of insured status is not enough to prove the Bank was FDIC-insured beyond a reasonable doubt.\nPlatenburg came down a day too late to qualify as binding precedent under Bonner . See Bonner , 661 F.2d at 1207. But it relied exclusively on cases that are binding on this Court. Thus, Platenburg is persuasive authority, and the majority-which included Platenburg when canvassing our precedent-seems to agree.",
+        "type": "dissent",
+        "author": "TJOFLAT, Circuit Judge, dissenting:"
+      }
+    ],
+    "attorneys": [
+      "Andrew Jabus Grogan, Christopher P. Canova, Herbert Stanley Lindsey, U.S. Attorney's Office, Tallahassee, FL, Robert G. Davies, U.S. Attorney's Office, PENSACOLA, FL, for Plaintiff-Appellee.",
+      "Stephen N. Bernstein, Stephen N. Bernstein, PA, Gainesville, FL, for Defendant-Appellant."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff - Appellee,\nv.\nMatthew G. MUNKSGARD, Defendant - Appellant.\nNo. 16-17654\nUnited States Court of Appeals, Eleventh Circuit.\nJanuary 30, 2019\nAndrew Jabus Grogan, Christopher P. Canova, Herbert Stanley Lindsey, U.S. Attorney's Office, Tallahassee, FL, Robert G. Davies, U.S. Attorney's Office, PENSACOLA, FL, for Plaintiff-Appellee.\nStephen N. Bernstein, Stephen N. Bernstein, PA, Gainesville, FL, for Defendant-Appellant.\nBefore TJOFLAT, MARCUS, and NEWSOM, Circuit Judges."
+  },
+  "file_name": "1327-01",
+  "first_page_order": 1327,
+  "last_page_order": 1342
+}

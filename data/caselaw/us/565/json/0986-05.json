@@ -1,0 +1,59 @@
+{
+  "id": 12231139,
+  "name": "Richardson v. Walker, Warden",
+  "name_abbreviation": "Richardson v. Walker",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-6156",
+  "first_page": "986",
+  "last_page": "986",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 986"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.663,
+    "sha256": "ec22aa329283487b54403336a45273133dc19ef45467a6e04ec99089e964eb63",
+    "simhash": "1:5293a0eb6ebb2040",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Richardson v. Walker, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6156.\nRichardson v. Walker, Warden."
+  },
+  "file_name": "0986-05",
+  "first_page_order": 1068,
+  "last_page_order": 1068
+}

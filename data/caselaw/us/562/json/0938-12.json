@@ -1,0 +1,59 @@
+{
+  "id": 5989062,
+  "name": "King v. United States",
+  "name_abbreviation": "King v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5816",
+  "first_page": "938",
+  "last_page": "938",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 938"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.623,
+    "sha256": "d901227d33c8a2aa0bcc9882e962b9411b78c38d701e48461d227265241e3c25",
+    "simhash": "1:264aae1796c1951a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "King v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5816.\nKing v. United States."
+  },
+  "file_name": "0938-12",
+  "first_page_order": 960,
+  "last_page_order": 960
+}

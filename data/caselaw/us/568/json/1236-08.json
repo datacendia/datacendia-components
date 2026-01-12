@@ -1,0 +1,59 @@
+{
+  "id": 12433372,
+  "name": "Rubens v. Louisiana",
+  "name_abbreviation": "Rubens v. Louisiana",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-8178",
+  "first_page": "1236",
+  "last_page": "1236",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1236"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 66,
+    "ocr_confidence": 0.608,
+    "sha256": "c48efd004a59fc8d3323b9f64a2ca98b4b2deeab03d20682e95a53e5bf11ee75",
+    "simhash": "1:d06c3e995d6fd172",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rubens v. Louisiana."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. La. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8178.\nRubens v. Louisiana."
+  },
+  "file_name": "1236-08",
+  "first_page_order": 1312,
+  "last_page_order": 1312
+}

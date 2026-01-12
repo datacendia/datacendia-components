@@ -1,0 +1,61 @@
+{
+  "id": 6022403,
+  "name": "Watson v. United States",
+  "name_abbreviation": "Watson v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5207",
+  "first_page": "953",
+  "last_page": "953",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 953"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 156,
+    "ocr_confidence": 0.603,
+    "sha256": "dc3611701aab57da2b85183ea1a2108effe5715190f742b2af7740584961aff3",
+    "simhash": "1:9fb3c303600ed34c",
+    "word_count": 27
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "The Chief Justice took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Watson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. D. C. Cir. Certiorari denied.\nThe Chief Justice took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5207.\nWatson v. United States."
+  },
+  "file_name": "0953-05",
+  "first_page_order": 975,
+  "last_page_order": 975
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5946157,
+  "name": "Zarro v. New York",
+  "name_abbreviation": "Zarro v. New York",
+  "decision_date": "2010-12-13",
+  "docket_number": "No. 10-595",
+  "first_page": "1110",
+  "last_page": "1110",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1110"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 91,
+    "ocr_confidence": 0.584,
+    "sha256": "a3f66b4293f7dba616b1318e97a1330ac80544090487166ecdd2df1ab71c7b46",
+    "simhash": "1:222280440184d150",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Zarro v. New York."
+    ],
+    "opinions": [
+      {
+        "text": "App. Div., Sup. Ct. N. Y., 2d Jud. Dept. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-595.\nZarro v. New York."
+  },
+  "file_name": "1110-08",
+  "first_page_order": 1132,
+  "last_page_order": 1132
+}

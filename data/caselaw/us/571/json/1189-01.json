@@ -1,0 +1,85 @@
+{
+  "id": 12701217,
+  "name": "Samuel B. FORD, petitioner, v. UNITED STATES.",
+  "name_abbreviation": "Ford v. United States",
+  "decision_date": "2014-02-24",
+  "docket_number": "No. 13\u20135997.",
+  "first_page": "1189",
+  "last_page": "1189",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 1189"
+    },
+    {
+      "type": "parallel",
+      "cite": "188 L. Ed. 2d 290"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 1274"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "134 S.Ct. 881",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12585952,
+        12701986
+      ],
+      "weight": 2,
+      "year": 2014,
+      "opinion_index": -1,
+      "case_paths": [
+        "/s-ct/134/0881-01",
+        "/us/571/0204-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 49,
+    "char_count": 527,
+    "sha256": "40a16b3e6a35f6161d0a2f3710243cb1a490bab314eac356d4e87f733ca55099",
+    "simhash": "1:76adf4c40702169d",
+    "word_count": 87
+  },
+  "last_updated": "2024-02-27T18:46:20.843173+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Samuel B. FORD, petitioner,\nv.\nUNITED STATES."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "On petition for writ of certiorari to the United States Court of Appeals for the Eighth Circuit. Motion of petitioner for leave to proceed in forma pauperis and petition for writ of certiorari granted. Judgment vacated, and case remanded to the United States Court of Appeals for the Eighth Circuit for further consideration in light of Burrage v. United States, 571 U.S. ----, 134 S.Ct. 881, 187 L.Ed.2d 715 (2014)."
+    ],
+    "corrections": "",
+    "head_matter": "Samuel B. FORD, petitioner,\nv.\nUNITED STATES.\nNo. 13-5997.\nSupreme Court of the United States\nFeb. 24, 2014.\nOn petition for writ of certiorari to the United States Court of Appeals for the Eighth Circuit. Motion of petitioner for leave to proceed in forma pauperis and petition for writ of certiorari granted. Judgment vacated, and case remanded to the United States Court of Appeals for the Eighth Circuit for further consideration in light of Burrage v. United States, 571 U.S. ----, 134 S.Ct. 881, 187 L.Ed.2d 715 (2014)."
+  },
+  "file_name": "1189-01",
+  "first_page_order": 1189,
+  "last_page_order": 1189
+}

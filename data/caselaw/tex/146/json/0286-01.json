@@ -1,0 +1,337 @@
+{
+  "id": 8716255,
+  "name": "Railroad Commission of Texas et al v. Shell Oil Company, Incorporated, et al.",
+  "name_abbreviation": "Railroad Commission v. Shell Oil Co.",
+  "decision_date": "1947-12-31",
+  "docket_number": "No. A-1255",
+  "first_page": "286",
+  "last_page": "298",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "146 Tex. 286"
+    },
+    {
+      "type": "parallel",
+      "cite": "206 S.W.2d 235"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "109 A. L. R. 1235",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "99 S. W. (2d) 263",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2293202,
+        12056351
+      ],
+      "pin_cites": [
+        {
+          "page": "270"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/128/0560-01",
+        "/sw2d/99/0263-01"
+      ]
+    },
+    {
+      "cite": "128 Texas 560",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2293202
+      ],
+      "pin_cites": [
+        {
+          "page": "572"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/128/0560-01"
+      ]
+    },
+    {
+      "cite": "190 S. W. (2d) 802",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2336674,
+        10207851
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/144/0393-01",
+        "/sw2d/190/0802-01"
+      ]
+    },
+    {
+      "cite": "144 Texas 393",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2336674
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/144/0393-01"
+      ]
+    },
+    {
+      "cite": "198 S. W. (2d) 420",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10193339,
+        2335031
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/198/0420-01",
+        "/tex/145/0270-01"
+      ]
+    },
+    {
+      "cite": "145 Texas 270",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2335031
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/145/0270-01"
+      ]
+    },
+    {
+      "cite": "198 S. W. (2d) 424",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10193584,
+        2335039
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/198/0424-01",
+        "/tex/145/0323-01"
+      ]
+    },
+    {
+      "cite": "145 Texas 323",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2335039
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/145/0323-01"
+      ]
+    },
+    {
+      "cite": "161 S. W. (2d) 1022",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2311456,
+        10225915
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/139/0066-01",
+        "/sw2d/161/1022-01"
+      ]
+    },
+    {
+      "cite": "139 Texas 66",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2311456
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/139/0066-01"
+      ]
+    },
+    {
+      "cite": "186 S. W. (2d) 961",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10221552,
+        2338553
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/186/0961-01",
+        "/tex/143/0509-01"
+      ]
+    },
+    {
+      "cite": "143 Texas 509",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2338553
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/143/0509-01"
+      ]
+    },
+    {
+      "cite": "99 A. L. R. 1107",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "83 S. W. (2d) 935",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10260312,
+        2296185
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/83/0935-01",
+        "/tex/126/0296-01"
+      ]
+    },
+    {
+      "cite": "126 Texas 296",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2296185
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/126/0296-01"
+      ]
+    },
+    {
+      "cite": "107 S. W. (2d) 1089",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10273355
+      ],
+      "pin_cites": [
+        {
+          "page": "1092"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/107/1089-01"
+      ]
+    },
+    {
+      "cite": "279 S. W. 916",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10318472
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/279/0916-01"
+      ]
+    },
+    {
+      "cite": "110 S. W. 737",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "pin_cites": [
+        {
+          "page": "739"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "101 Texas 587",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2263320
+      ],
+      "pin_cites": [
+        {
+          "page": "590"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/101/0587-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1117,
+    "char_count": 27246,
+    "ocr_confidence": 0.548,
+    "pagerank": {
+      "raw": 1.097874075810076e-06,
+      "percentile": 0.9854885362042343
+    },
+    "sha256": "c4b3b9fe48277febcfa8a1d7e299ee30aa687bf61da0dacf15e9aa6636064829",
+    "simhash": "1:3ecb9f653d36a86d",
+    "word_count": 4581
+  },
+  "last_updated": "2024-02-27T22:18:41.353680+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Railroad Commission of Texas et al v. Shell Oil Company, Incorporated, et al."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Simpson\ndelivered the opinion of the Court.\nThis is a direct appeal from an order entered March 31, 1947, by the 126 District Court of Travis County restraining the Railroad Commission of Texas and its members, who are appellants here, from enforcing, until final determination of this suit, a Commission order dated March 17, 1947, effective April 1, 1947, by which the plaintiffs, appellees here, would have been prohibited from producing either oil 'or gas from their wells in the Sceligson Field in Southwest Texas until measures were taken to devote gas employed to produce the oil to one or more of the following uses: (a) Light or fuel; (b) efficient chemical manufacturing other than the manufacture of carbon black; (c) bona, fide introduction of gas into oil or gas-bearing horizon in order to maintain or increase the rock pressure, or otherewise increase the ultimate recovery of oil or gas; (d) the extraction of natural gasoline when the residue gas is returned to the horizon from which it is produced.\nShell Oil Company, Incorporated, and a number of other Seeligson Field producers brought this suit, alleging, among other things, that the order was illegal, unreasonable and' discriminatory in that the Commission had no power to /promulgate it; that the order contravened certain statutory provisions; that compliance with the order within the time set \u2019by the Commission was a physical impossibility; that certain of the field operators utilizing gas from their wells for fuel in drilling operations would enjoy a discriminatory advantage; that the Commission\u2019s finding that there is a present market for the gas is arbitrary in that it has no support in the evidence adduced before the Commission; and, as to certain of the complaining operators, that some of their leases were being kept in force by production only and might be jeopardized by the enforcement of the order. Issue was joined by appropriate pleadings filed by the Commission. Extensive findings of fact and conclusions of law were filed. The very first conclusion of law reached by the district court is that the Commission was without power under the statutes to promulgate and enforce the order in question.\nBut at the outset, before arguing the legality of the questioned order, the appellees insistently urge that this appeal should be dismissed because, it is claimed, (1) an election to appeal to the Court of Civil Appeals instead of directly here had been made by the appellants, and an appeal to that court having been perfected, its exclusive jurisdiction had attached; and (2) this direct appeal under Rule 499-a, Texas Rules of Civil Procedure, may not be maintained because it involves questions of fact and not of law only.\nAs to the first point in the motion, the trial court\u2019s judgment entered March 31, 1947, which was approved as to form by attorneys for appellants, recited notice of appeal to the Court of Civil Appeals for the Third Supreme Judicial District. Subsequently (April 18, 1947), the applicants filed a motion in the district court to correct the recital as to notice of appeal, alleging that by inadvertence and oversight the judg-. ment showed notice of appeal to the Court of Civil Appeals. On the following day, the district court granted this motion and ordered that the \u201cnotice of appeal given to the Court of Civil Appeals be corrected and in lieu thereof notice of appeal be allowed to the Supreme Court of Texas.\u201d\nNow it is obvious that two independent appeals might not simultaneously be pursued, one to the Court of Civil Appeals and another. here. So, the appellees argue, notice of appeal to the Court of Civil Appeals having been given and no bond being required of the appellants (Art. 2276, R. S.), the appeal stood perfected instantly upon giving the notice, and no further action by the trial court could oust the jurisdiction of the Court of Civil Appeals. This position assumes the existence of a disputed fact, \u2014 a fact found by the trial court not to have existed, namely, the fact of giving notice of appeal to the Court of Civil Appeals. Necessarily, appellees contend that the trial court had no right to correct its records after notice of appeal had been given. To this we cannot assent. It was clearly within the province of the trial court, under the circumstances, to enter the order it did correcting its records so they would speak the truth. This in effect was the holding in Harris v. Stark, 101 Texas 587, 590, 110 S. W. 737, 739, where a trial court had entered an order striking out certain bills of exception after an appeal in the cause had been perfected. The court there said: \u201cIt does not require the citation of authority to sustain the proposition that the district court had jurisdiction to correct the record of this case as made in that court, notwithstanding the appeal had been perfected and the transcript filed in the Court of Civil Appeals.\u201d\nThe appellees stress City of Houston v. Wynne (Tex. Civ. App.) 279 S. W. 916, error refused, but that holding* is not apposite. The burden of the holding, as it has bearing here, was to the effect that where a city, not being required to give bond, had perfected an appeal from an order granting a temporary injunction by the act of giving proper notice, its subsequent motion to dissolve the injunction did not waive or abandon the appeal. And the case of State v. Martin (Tex. Civ. App.) 107 S. W. (2d) 1089, 1092, error dismissed, also cited by ap-pellees, not only does not support their contention, but, to the contrary, is authority for the proposition that \u201cif the district court committed error in reciting in its judgment that the defendants appeared in open court and excepted to the order, overruling their motion for new trial, and giving notice of appeal * * *, it had power to correct its mistake.\u201d What the trial court did in the case at bar was nothing more than to correct a mistake which we conclude it clearly had the right to do. In the light of that correction, the Court of Civil Appeals was never invested with exclusive, nor, for that matter, with any jurisdiction of this appeal. The first point in the motion to dismiss is overruled.\nAs to the second ground in the motion, namely, that the appeal involves a determination of contested issues of fact, reliance is placed by the appellees upon that provision in Rule 499-a which states that if a case brought here under the rule involves the determination of a contested issue of fact, the appeal will be dismissed. An appeal to this court from \u201cany trial court granting or denying an interlocutory or permanent injunction on the ground of the constitutionality or unconstitutionality of any statute of this State, or on the ground of the validity or invalidity of any administrative order issued by any State Board or Commission under any statute of this State,\u201d has been allowed since January 1, 1944. A constitutional amendment adopted November 5, 1940, empowered the legislature to provide for direct appeals here in this class of cases. Texas Const., Art. V, sec. 3-b. By a statute effective January 1, 1944, these direct appeals were authorized, and the duty of prescribing rules governing them was delegated to this court. Acts 1943, 48th Leg., ch. 14, page 14. (Vernon\u2019s Ann. Civ. St., Art. 1738a). Accordingly, Rule 499-a, prescribing the procedure on these appeals, was adopted. The provision adverted to in the first sentence of this paragraph was made in view of Section 3, Article V of the Constitution, which limits the appellate jurisdiction of this court to questions of law arising in cases of which the Courts of Civil Appeals have jurisdiction. It was not thought that by the amendment of 1940 (Art. V, sec. 3-b) the electroate had meant to enlarge the jurisdiction of the Supreme Court to include the decision of questions of fact, and although it was intended that direct appeals from certain trial court judgments might be entertained, nevertheless it was meant that the appellate jurisdiction of this court should continue to be limited to questions of law. To this end, Rule 499-a was framed to exclude from consideration here controverted issues of fact. But a decision of this cause must turn, it has been concluded, not upon issues of fact, but of law, presently to be discussed. It follows that the second ground in the motion to dismiss must also be overruled.\nAs has been noted, the first conclusion of law reached by the trial court was that no statutory authority at all existed for the entry of the questioned order. This conclusion goes to the very foundation of this controversy. An analysis of the statutes and of the Commission\u2019s authority under them is therefore not only appropriate, but, under the circumstances, required.\nThe conservation and development of the natural resources of Texas were declared public rights and duties by an amendment to the Constitution adopted in 1917, and the legislature was .directed to pass all such laws as might be appropriate to those ends. Texas Const., Art. XVI, sec. 59a. In obedience to this mandate, the 36th Legislature passed an act which was approved March 31, 1919, the first sentence of which stated: \u201cNatural gas and crude oil or petroleum shall not be produced in the State of'Texas in such manner and under such conditions as to constitute waste.\u201d Acts 1919, 36th Leg., Reg. Sess., ch. 155. This statute has been amended four times since 1919, and although the practice specifically pointed out by the legislature as being wasteful have been greatly expanded, every amendment has carried forward the evident purpose of the original act to declare all waste unlawful. The statute, Art. 6014, R. S., as amended, now reads :\n\u201cThe production, storage or transportation of crude petroleum oil or of natural gas in such manner, in such amount, or under such conditions as to constitute waste is hereby declared to be unlawful and is prohibited. The term \u201cwaste\u201d among other things shall specifically include:\n(a) The operation of any oil well or wells with an inefficient gas-oil ratio, and the Commission is hereby given authority to fix and determine by order such ratio; provided that the utiliza.tion for manufacture of natural gasoline of gas produced from an oil well within the permitted gas-oil ratio shall not be included within the definition of waste.\n(b) The drowning with water of any stratum or part thereof capable of producing oil or gas, or both oil and gas, in paying quantities.\n(c) Underground waste or loss however caused and whether or not defined in other subdivisions hereof.\n(d) Permitting any natural gas well to burn wastefully.\n(e) The creation of unnecessary fire hazards.\n(f) Physical waste or loss incident to, or resulting from, so drilling, equipping, locating, spacing or operating well or wells as to reduce or tend to reduce the total ultimate recovery of crude petroleum oil or natural gas from any pool.\n(g) Waste or loss incident to, or resulting from, the unnecessary, inefficient, excessive or improper use of the reservoir energy, including the gas energy or water drive, in any well or pool; however, it is not the intent of this Act to require repressuring of an oil pool or that the separately owned properties in any pool be unitized under one management, control or ownership.\n(h) Surface' waste or surface loss, including the storage either permanent or temporary of crude petroleum oil,/Or the placing any product thereof, in open pits or earthen,, storage, and all other forms of surface waste or surface los/s, including unnecessary or excessive surface losses, or destruction without beneficial use, either of crude petroleum oifr or of natural gas.\n(i) The escape into the open air, from a well producing both oil and gas, of natural gas in excess of the amount which is necessary in the efficient drilling or operation of the well.\n(j) The production of crude petroleum oil in excess of transportation or market facilities or reasonable market demand. The Commission may determine when such excess production exists or is imminent and ascertain the reasonable market demand.\nThe Commission may consider any or all of the above definitions, whenever the facts, circumstances or conditions make them applicable, in making rules, regulations or orders to prevent waste of oil or gas.\nNothing in this Section shall be construed to authorize limitation of production of marginal wells, as such marginal wells are defined by Statute, below the amount fixed by Statute for such wells.\u201d\nAnd Article 6015., titled \u201cPrevention of Waste,\u201d has been the law in this identical language since its enactment in 1919:\n\u201cAll operators, contractors, or drillers, pipe line companies, or gas distributing companies, drilling for or producing crude oil or natural gas or piping oil or gas for any purpose shall use every possible precaution in accordance with the most approved methods to stop and prevent waste of oil and gas or both, in drilling and producing operations, storage or in piping or distributing, and shall not wastefully utilize oil or gas, or allow same to leak or escape from natural reservoirs, wells, tanks, containers or pipes.\u201d\nOther statutes having their origins as far back as 1899 deal chiefly with the handling of gas from wells producing gas only. See Title 134, R. S. 1911 and Art. 6008, R. S. 1925. These statutes had absolutely required gas wells to be shut in until the gas could be utilized for light or fuel or power. By an amend-xnenfi in 1935 these uses were somewhat enlarged. Acts 1935, 44'th Leg., Reg. Sess., ch. 120. But these enactments have primarily to do with gas weds, although certain types of waste of gas produced from oil wells is directly prohibited in subsections (a), (g); (1) and (m) of Section 3 of Article 6008, as amended, and other provisions, it may well be argued, apply quite generally to the waste of all natural gas. But it is thought that Articles 6014 and 6015, dealing primarily with both oil and gas wells, are m.ore pertinent to the situation presented here.\nThe second sentence of Article 6014 significantly prefaces an enumeration of ten specific wasteful practices with the declaration that waste among other things should specifically include the practices there interdicted. That language must have been deliberately selected to avoid narrowing the sweeping language in the first sentence of the article, by which all waste in the handling of. oil and gas was declared unlawful and prohibited, as well as to preserve the wide scope of Article 6015, which was aimed with the utmost generality at the prevention of waste. The term waste has an ordinary and generally accepted meaning. Whatever the dictates of reason, fairness, and good judgment under all the facts would lead one to conclude is a wasteful practice in the production, storage or transportation of oil and gas, must be held to have been denounced by the legislature as unlawful. The Constituton had vested in the lawmaking body the duty of preventing waste, not of part but of all the natural resources of this State, and it must not be considered that the legislature meant by its enactments to discharge less than the full duty which was thus entrusted to it.\nIt will be observed that in cataloguing wasteful practices Article 6014 provides, among other things, that the operation of any oil well with an inefficient gas-oil ratio is wasteful, and that the Commission is given the authority to fix and determine that ratio. The Commission has promulgated operating rules for the Seeligson Fie'd, and by order has fixed a production ratio of 2000 cubic feet of gas to each barrel of oil lifted, and has penalized wells with an excessive gas-oil ratio by reducing the daily production of oil. The operators, having complied with this rule, contend that the practice of producing and flaring gas within the permitted ratios is lawful and cannot be wasteful.\nThis position overlooks the evident proposition that oil and gas may be produced within the efficient oil-gas ratio prescribed by the Commission and still the practice may in fact be wasteful. The statute merely determines that operation of an oil well with an inefficient oil-gas ratio is wasteful as a matter of law. It does not state conversely that production and flaring of casinyg-head gas within efficient ratios is not wasteful. It is entirely conceivable that the flaring of gas produced within allowable ratios might comprise quite flagrant waste. Let it be ^supposed that - an operator had easily accessible and inexpensively available a pipe-line outlet for all his casinghead gas, lyut out of indifference, perversity, or for some other unreasonable cause, insisted upon venting and burning it. There is none who would say that such an operator would not be guilty oit a wasteful practice, no matter if he were abiding by Commission orders on ratio .production. Other practices not \u201cin accordance with the most approved methods to stop and prevent waste of oil and gas or both in drilling and producing operations,\u201d to employ statutory language, yet which are not specifically catalogued as wasteful in the acts, might be readily supposed. It must be held that all such practices are prescribed and should be stopped.\nIn the conservation act of 1919 the Railroad Commission of Texas 'was selected and has since continued as the agency through which the oil and gas industry should be regulated for the prevention of waste. In Art. 6023, R. S., it is provided that: \u201cPower and authority are hereby conferred upon the Railroad Commission of Texas * * * over all persons, associations and corporations owning or engaged in drilling or operating oil and gas wells in Texas * * And by Article 6029, R. S., as now amended, it is provided:\n\u201cThe Commission shall make and enforce rules, regulations or orders for the conservation of crude petroleum oil and natural gas and to prevent the waste thereof, including rules, regulations or orders for the following purposes:\n(1)To prevent the waste, as hereinbefore defined, of crude petroleum oil and natural gas in drilling and producing operations and in the storage, piping and distribution thereof.\n(2)To require dry-or abandoned wells to be plugged in such way as to confine crude petroleum oil, natural gas, and water in the strata in which they are found and to prevent them from escaping into other strata.\n(3) For the drilling of wells and preserving a record thereof.\n(4) To require wells to be drilled and operated in such manner as to prevent injury to adjoining property.\n(5) To prevent crude petroleum oil and natural gas and water from escaping from the strata in which they are found into other strata.\n(6) To establish rules and regulations for shooting wells and for separating crude petroleum oil from natural gas.\n(7) To require records to be kept and reports made.\n(8) l't shall do all things necessary for the conservation of crude petroleum oil and natural gas and to prevent the waste thereof, and shall make and enforce such rules, regulations or orders as may be necessary to that end.\n(9) To provide for the issuance of permits, tenders, and other evidences of permission when the issuance of such permits, tenders, or permission is necessary or incident to the enforcement of its rules, regulations, or orders for the prevention of waste.\u201d\nNoteworthy is the phrasing of this last-quoted statute, which begins by directing the Commission to make and enforce rules to prevent the waste of oil and gas, including, the statute says, rules for the purposes enumerated. This clearly manifests an intention that the adoption of rules for the nine purposes specified in the act should not exhaust the power of the Commission nor limit its responsibility to prevent waste, but should be included in all other rules which might be found reasonably necessary to that end. Subsection (1) directs that rules be made to prevent waste as it had been \u201chereinbefore defined,\u201d adverting necessarily to the waste-defining statutes, especially Articles 6008, 6014, and 6015. And then, obviously to be certain that the Commission had authority to prevent every kind of wasteful practice, whether particularly enumerated or not, subsection (8), couched in the most sweeping language, was inserted in Article 6029. As general and all-inclusive authorization as can be pictured is presented not only by the language of this subsection, but generally by the statutes under consideration. It is the plain duty of the courts to give them, within constitutional bounds, a scope no less broad and effective than the legislative intent they so evidently manifest. The conclusions necessarily follow that the Commission has both the authority and the responsibility of prescribing fair and reasonable rules to prevent the waste of casinghead gas whenever, under the circumstances presented, it appears that a preventable waste of this natural resource either is occurring or is reasonably imminent, and that in this undertaking the Commission\u2019s acts are well within the perimeter of its delegated powers. Brown v. Humble Oil & Ref. Co., 126 Texas 296, 83 S. W. (2d) 935, 99 A. L. R. 1107; Corzelius v. Harrell, 143 Texas 509, 186 S. W. (2d) 961.\nThe legislative standard for the Commission\u2019s guidance is sufficiently definite to support such an order as the one here assailed. The duty of waste prevention which is delegated to the Commission and its authority to make fair and reasonable rules in the discharge of that duty were fully considered in Railroad Commission v. Shell Oil Co., 139 Texas 66, 161 S. W. (2d) 1022, where the Commission\u2019s spacing rule for oil and gas wells was upheld. Much that was said there is applicable here.\nNor does the fact that this kind of rule has not been adopted for any other oil field nor for oil fields generally invalidate it. Each field presents a separate problem. Conceivably there are oil fields in Texas where absolutely no other feasible use could be made of casinghead gas than to produce oil with it. It would surely be unfair, and so invalid, for the Commission to order such a field to cease production until the. casinghead gas was put to some specified beneficial use when no such use was reasonably available. Discrimination between, fields in the application of such an order would arise only if it appeared that the order was being enforced in one field and not in another where substantially the same conditions obtain.\nBut it is premature now to enter into a discussion of the legality of the order of March 17, 1947, itself. Its validity must depend upon whether, on a full development of the facts, it is reasonably supported by substantial evidence. Trapp v. Shell Oil Co., 145 Texas 323, 198 S. W. (2d) 424; Thomas v. Stanolind Oil & Gas Co., 145 Texas 270, 198 S. W. (2d) 420; Railroad Commission v. Mackhank Petroleum Co., 144 Texas 393, 190 S. W. (2d) 802; Brown v. Humble Oil & Ref. Co., 126 Texas 296, 83 S. W. (2d) 935, 99 A. L. R. 1107. The order, when so tested, must appear reasonable and just, and its enforcement feasible and practicable. Corzelius v. Harrell, 143 Texas 509, 186 S. W. (2d) 961. The conclusion has already been expressed that the Commission has the authority in a proper case to enter an order preventing the wasteful flaring of casing-head gas. But whether the situation in the Seeligson Field presents such a case must await a full development of the evidence in a trial on the merits.\nFrom what has been said, it follows that the district court fell into error in holding the Commission without statutory authority to enter the questioned order. But, at the same time, it cannot be said that the court erred in granting the temporary injunction. There were allegations to the effect that the order was. illegal, unreasonable and discriminatory. Since 1941 the Seeligson Field operators have been producing oil with reservoir gas which is vented and burned as it is used. Pending the trial of the cause on its merits, the district court entered a temporary Injunction which permitted the operators to continue a practice that had been followed since 1941. This practice had been in. keeping with Commission rules. This was, accordingly, the status quo, which, under the circumstances here, the district court had the discretion to preserve by an injunctive order. Findings of fact filed by the district court, which are not challenged, indicate that evidence was introduced which at least tended to sustain the cause of action pleaded by the operators. So the situation calls for an application of the well-settled rule which was stated thus in Southwestern Greyhound Lines v. Railroad Commission, 128 Texas 560, 572, 99 S. W. (2d) 263, 270, 109 A. L. R. 1235, a case involving the validity of an administrative order and the propriety of a temporary injunction suspending operation of the order until final trial:\n\u201cThe granting or refusing of a temporary injunction is a matter that rests within the sound discretion of the trial court, and unless it appears from the record that the court has abused that discretion, the action of the court is not subject to review on appeal. If the petition does allege a cause of action and evidence tending to sustain such cause of action is introduced, then there is no abuse of discretion by the trial court in issuing the temporary injunction. 24 Tex. Jur. pp. 213, 214, sec. 253.\u201d\nThe Commission urges that the temporary injunction will not preserve the subject matter of the suit but, to the contrary, will destroy it (meaning the casinghead gas now being vented), and that the writ- will accomplish the whole purpose of the suit It is agreed that the order here questioned is the first of its kind in the history of oil and gas regulation in Texas. Extensive and unjust losses would ensue if the order were put into effect and upon final trial it was determined that the order was not reasonably supported by substantial evidence and so was void. As has been observed, all the injunction did was to continue in effect a production practice in the Seeligson Field which had been sanctioned by the Commission through the years. If the order is determined to be valid upon final trial, that will be time enough, under all the circumstances, to begin enforcing it. The trial court did not, as a matter of law, abuse its discretion in granting the writ. It follows that the judgment appealed from must be affirmed.\nOpinion delivered November 26, 1947.\nAssociate Justice Hart disqualified and not sitting.\nRehearing overruled December 31, 1947.",
+        "type": "majority",
+        "author": "Mr. Justice Simpson"
+      }
+    ],
+    "attorneys": [
+      "Price Daniel, Attorney General, Fagan Dickson and Elton M. Hyder, Assistants Attorney General, for appellants.",
+      "R. H. Whilden, Clarence Lohman, both of Houston, Walaee Hawkins, Raymond M. Myers, J. W. Timmins and Martin A. Row, all of Dallas, L. L. Morrison, of San Antonio, Paul A. Mc-Dermott, of Fort .Worth, Ed Lloyd, of Allice, J. M. Easterling, of Corpus Christi, Powell, Wirtz, Rauhut & Gideon, Hart & Brown, J. H. Hart, James P. Hart, Harris Toler, J. B. Robertson, J. A. Rauhut and Dan Moody, all of Austin, for appellees."
+    ],
+    "corrections": "",
+    "head_matter": "Railroad Commission of Texas et al v. Shell Oil Company, Incorporated, et al.\nNo. A-1255.\nDecided November 26, 1947.\nRehearing overruled December 31, 1947.\n(206 S. W., 2d Series, 235.)\nPrice Daniel, Attorney General, Fagan Dickson and Elton M. Hyder, Assistants Attorney General, for appellants.\nR. H. Whilden, Clarence Lohman, both of Houston, Walaee Hawkins, Raymond M. Myers, J. W. Timmins and Martin A. Row, all of Dallas, L. L. Morrison, of San Antonio, Paul A. Mc-Dermott, of Fort .Worth, Ed Lloyd, of Allice, J. M. Easterling, of Corpus Christi, Powell, Wirtz, Rauhut & Gideon, Hart & Brown, J. H. Hart, James P. Hart, Harris Toler, J. B. Robertson, J. A. Rauhut and Dan Moody, all of Austin, for appellees."
+  },
+  "file_name": "0286-01",
+  "first_page_order": 306,
+  "last_page_order": 318
+}

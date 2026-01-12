@@ -1,0 +1,59 @@
+{
+  "id": 4225018,
+  "name": "Newby v. United States",
+  "name_abbreviation": "Newby v. United States",
+  "decision_date": "2011-03-28",
+  "docket_number": "No. 10-9203",
+  "first_page": "912",
+  "last_page": "912",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 912"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.627,
+    "sha256": "1f04009f5a23b79fbf2e553d621d8098f51b00116e914112719311fa71ca038e",
+    "simhash": "1:b6eb8a194eedb049",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Newby v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9203.\nNewby v. United States."
+  },
+  "file_name": "0912-12",
+  "first_page_order": 938,
+  "last_page_order": 938
+}

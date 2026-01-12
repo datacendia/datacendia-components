@@ -1,0 +1,59 @@
+{
+  "id": 12233948,
+  "name": "Jacobs v. California",
+  "name_abbreviation": "Jacobs v. California",
+  "decision_date": "2011-11-14",
+  "docket_number": "No. 11-6403",
+  "first_page": "1040",
+  "last_page": "1040",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1040"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 93,
+    "ocr_confidence": 0.662,
+    "sha256": "b6d5f01e6a3d65516a12790eae626dd6c2e9bfc87522b5d3953e138e8bc947e2",
+    "simhash": "1:48855b408e41a834",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jacobs v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 4th App. Dist., Div. 3. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6403.\nJacobs v. California."
+  },
+  "file_name": "1040-10",
+  "first_page_order": 1122,
+  "last_page_order": 1122
+}

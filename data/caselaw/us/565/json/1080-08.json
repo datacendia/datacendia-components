@@ -1,0 +1,59 @@
+{
+  "id": 12236802,
+  "name": "Hines v. Tennessee",
+  "name_abbreviation": "Hines v. Tennessee",
+  "decision_date": "2011-12-05",
+  "docket_number": "No. 11-5315",
+  "first_page": "1080",
+  "last_page": "1080",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1080"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 73,
+    "ocr_confidence": 0.693,
+    "sha256": "438f8b18ede72804f637e747026e7f26658b00483ae374377107720b93460960",
+    "simhash": "1:927195d63aa348aa",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hines v. Tennessee."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tenn. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5315.\nHines v. Tennessee."
+  },
+  "file_name": "1080-08",
+  "first_page_order": 1162,
+  "last_page_order": 1162
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5898806,
+  "name": "Jean-Pierre v. United States",
+  "name_abbreviation": "Jean-Pierre v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8175",
+  "first_page": "1237",
+  "last_page": "1237",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1237"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.572,
+    "sha256": "db41ededbe740c74dfc316e4defc41f5f9ba84e7fd0de1cee291e3cacd779bc9",
+    "simhash": "1:1502c28303155508",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jean-Pierre v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8175.\nJean-Pierre v. United States."
+  },
+  "file_name": "1237-13",
+  "first_page_order": 1259,
+  "last_page_order": 1259
+}

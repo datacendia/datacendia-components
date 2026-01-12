@@ -1,0 +1,136 @@
+{
+  "id": 12698865,
+  "name": "Linda LANUS, as personal representative of the Estate of Eric K. Lanus v. UNITED STATES.",
+  "name_abbreviation": "Lanus v. United States",
+  "decision_date": "2013-06-27",
+  "docket_number": "No. 12\u2013862.",
+  "first_page": "932",
+  "last_page": "932",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "570 U.S. 932"
+    },
+    {
+      "type": "parallel",
+      "cite": "186 L. Ed. 2d 934"
+    },
+    {
+      "type": "parallel",
+      "cite": "133 S. Ct. 2731"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "481 U.S. 681",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6220447
+      ],
+      "weight": 5,
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "693",
+          "parenthetical": "SCALIA, J., dissenting"
+        },
+        {
+          "parenthetical": "SCALIA, J., dissenting"
+        },
+        {
+          "parenthetical": "SCALIA, J., dissenting"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/481/0681-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1346",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(b)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "95 L.Ed. 152",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "year": 1950,
+      "opinion_index": 0
+    },
+    {
+      "cite": "340 U.S. 135",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6930903
+      ],
+      "weight": 5,
+      "year": 1950,
+      "pin_cites": [
+        {
+          "page": "146"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/340/0135-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 230,
+    "char_count": 2774,
+    "pagerank": {
+      "raw": 7.317852702137001e-08,
+      "percentile": 0.43973992306115145
+    },
+    "sha256": "be5e518f183a98dc2a9f56f770a7e6fa61db1cf6880d178632753927559c45c0",
+    "simhash": "1:bfe9956257a8176a",
+    "word_count": 455
+  },
+  "last_updated": "2024-02-27T16:05:15.908993+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Linda LANUS, as personal representative of the Estate of Eric K. Lanus\nv.\nUNITED STATES."
+    ],
+    "opinions": [
+      {
+        "text": "Justice THOMAS, dissenting from denial of certiorari.\nPetitioner Linda Lanus asks the Court to revisit our decision in Feres v. United States, 340 U.S. 135, 71 S.Ct. 153, 95 L.Ed. 152 (1950), which interpreted the Federal Tort Claims Act (FTCA) to deny military personnel the ability to recover for injuries resulting from the negligence of federal employees. I would grant the petition to reconsider Feres ' exclusion of claims by military personnel from the scope of the FTCA.\nThe FTCA is a sweeping waiver of sovereign immunity that, under specified circumstances, renders the Government liable for money damages for a variety of injuries caused by the negligence of Government employees. 28 U.S.C. \u00a7 1346(b)(1). As written, the FTCA \"renders the United States liable to all persons, including servicemen, injured by the negligence of Government employees.\" United States v. Johnson, 481 U.S. 681, 693, 107 S.Ct. 2063, 95 L.Ed.2d 648 (1987) (SCALIA, J., dissenting). While the Act contains a number of exceptions to this broad waiver of immunity, \"none generally precludes FTCA suits brought by servicemen.\" Ibid. Congress contemplated such an exception, Feres, supra, at 139, 71 S.Ct. 153, but codified language that is far more limited. See \u00a7 2680(j) (excluding from waiver \"[a]ny claim arising out of the combatant activities of the military or naval forces, or the Coast Guard, during time of war \" (emphasis added)).\nNevertheless, in Feres, the Court held that \"the Government is not liable under the [FTCA] for injuries to servicemen where the injuries arise out of or are in the course of activity incident to service.\" 340 U.S., at 146, 71 S.Ct. 153. There is no support for this conclusion in the text of the statute, and it has the unfortunate consequence of depriving servicemen of any remedy when they are injured by the negligence of the Government or its employees. I tend to agree with Justice SCALIA that \"Feres was wrongly decided and heartily deserves the widespread, almost universal criticism it has received.\" Johnson, supra, at 700, 107 S.Ct. 2063 (internal quotation marks omitted). At a bare minimum, it should be reconsidered.\nThe instant petition asks the Court to do just that. I would grant this request. Private reliance interests on a decision that precludes tort recoveries by military personnel are nonexistent, and I see no other reason why the Court should hesitate to bring its interpretation of the FTCA in line with the plain meaning of the statute. I, therefore, respectfully dissent from the Court's decision to deny this petition.",
+        "type": "majority",
+        "author": "Justice THOMAS, dissenting from denial of certiorari."
+      }
+    ],
+    "attorneys": [
+      "The petition for a writ of certiorari is denied."
+    ],
+    "corrections": "",
+    "head_matter": "Linda LANUS, as personal representative of the Estate of Eric K. Lanus\nv.\nUNITED STATES.\nNo. 12-862.\nSupreme Court of the United States\nJune 27, 2013.\nThe petition for a writ of certiorari is denied."
+  },
+  "file_name": "0932-04",
+  "first_page_order": 932,
+  "last_page_order": 932
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5953364,
+  "name": "Doe v. United States",
+  "name_abbreviation": "Doe v. United States",
+  "decision_date": "2011-03-21",
+  "docket_number": "No. 10-9056",
+  "first_page": "1301",
+  "last_page": "1301",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1301"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.624,
+    "sha256": "3039154ca515e2881288e8e5347dcb3a4bf315f07b1e8985d688e6260532f6d0",
+    "simhash": "1:17abca3b878f907a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Doe v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9056.\nDoe v. United States."
+  },
+  "file_name": "1301-02",
+  "first_page_order": 1323,
+  "last_page_order": 1323
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12252293,
+  "name": "Becker v. Clermont County Prosecutor",
+  "name_abbreviation": "Becker v. Clermont County Prosecutor",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. 11-8451",
+  "first_page": "1268",
+  "last_page": "1268",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1268"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 85,
+    "ocr_confidence": 0.645,
+    "sha256": "de28891093cb6e79aa094e9e73be355bd980caec2035627d573554cef036c58e",
+    "simhash": "1:a48b202cac6b1866",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Becker v. Clermont County Prosecutor."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8451.\nBecker v. Clermont County Prosecutor."
+  },
+  "file_name": "1268-12",
+  "first_page_order": 1350,
+  "last_page_order": 1350
+}

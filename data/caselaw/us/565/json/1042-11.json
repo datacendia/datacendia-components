@@ -1,0 +1,59 @@
+{
+  "id": 12234198,
+  "name": "Camacho Torres v. United States",
+  "name_abbreviation": "Torres v. United States",
+  "decision_date": "2011-11-14",
+  "docket_number": "No. 11-6837",
+  "first_page": "1042",
+  "last_page": "1042",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1042"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 81,
+    "ocr_confidence": 0.648,
+    "sha256": "8dd9b080437d84bcabc8bbaf3a6e535077ca50d02dc0e58873b2a237efa66b22",
+    "simhash": "1:1529ca2202fc1010",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Camacho Torres v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6837.\nCamacho Torres v. United States."
+  },
+  "file_name": "1042-11",
+  "first_page_order": 1124,
+  "last_page_order": 1124
+}

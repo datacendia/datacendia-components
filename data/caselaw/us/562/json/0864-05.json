@@ -1,0 +1,59 @@
+{
+  "id": 6017613,
+  "name": "Newell v. United States",
+  "name_abbreviation": "Newell v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11149",
+  "first_page": "864",
+  "last_page": "864",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 864"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.536,
+    "sha256": "399578abb68d57f33a787d53f619e2fbe819881da28ceb3abd0dbb179115b231",
+    "simhash": "1:b59befa36d3c1466",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Newell v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11149.\nNewell v. United States."
+  },
+  "file_name": "0864-05",
+  "first_page_order": 886,
+  "last_page_order": 886
+}

@@ -1,0 +1,59 @@
+{
+  "id": 6022955,
+  "name": "Abram v. Nebraska",
+  "name_abbreviation": "Abram v. Nebraska",
+  "decision_date": "2010-10-12",
+  "docket_number": "No. 10-248",
+  "first_page": "963",
+  "last_page": "963",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 963"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 64,
+    "ocr_confidence": 0.541,
+    "sha256": "0848c83d4692af436b6e14bc45ffc6e58906efa3d4a779d52cebf3cdfbae6911",
+    "simhash": "1:0483e779c0bb83c7",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Abram v. Nebraska."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Neb. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-248.\nAbram v. Nebraska."
+  },
+  "file_name": "0963-06",
+  "first_page_order": 985,
+  "last_page_order": 985
+}

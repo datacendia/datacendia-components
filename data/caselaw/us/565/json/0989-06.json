@@ -1,0 +1,59 @@
+{
+  "id": 12231474,
+  "name": "El-Amin v. United States",
+  "name_abbreviation": "El-Amin v. United States",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-6416",
+  "first_page": "989",
+  "last_page": "989",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 989"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.698,
+    "sha256": "edcb216f05d3770f3ada509ed0f822697a14c2eb798ec73823310c13395541af",
+    "simhash": "1:0729ce37008a9438",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "El-Amin v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6416.\nEl-Amin v. United States."
+  },
+  "file_name": "0989-06",
+  "first_page_order": 1071,
+  "last_page_order": 1071
+}

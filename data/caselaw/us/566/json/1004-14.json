@@ -1,0 +1,59 @@
+{
+  "id": 12219598,
+  "name": "Harris v. United States",
+  "name_abbreviation": "Harris v. United States",
+  "decision_date": "2012-05-14",
+  "docket_number": "No. 11-9859",
+  "first_page": "1004",
+  "last_page": "1004",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1004"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.577,
+    "sha256": "8fed36b5e95a27ae2ad12bdc15004fd7f8ac5eae170c694ea0dfe317679a410c",
+    "simhash": "1:02c99a03caf19418",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Harris v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9859.\nHarris v. United States."
+  },
+  "file_name": "1004-14",
+  "first_page_order": 880,
+  "last_page_order": 880
+}

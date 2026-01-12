@@ -1,0 +1,59 @@
+{
+  "id": 12414771,
+  "name": "Morgan v. Washington, Warden",
+  "name_abbreviation": "Morgan v. Washington",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-11091",
+  "first_page": "878",
+  "last_page": "878",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 878"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 78,
+    "ocr_confidence": 0.582,
+    "sha256": "03712d6f4b9053eb6cce3688c88d130f8d9431b282773a854a6788fc6fe55a90",
+    "simhash": "1:b69c66c0ca6b49f6",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Morgan v. Washington, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-11091.\nMorgan v. Washington, Warden."
+  },
+  "file_name": "0878-13",
+  "first_page_order": 954,
+  "last_page_order": 954
+}

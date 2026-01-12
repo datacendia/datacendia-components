@@ -1,0 +1,59 @@
+{
+  "id": 5918445,
+  "name": "Nguyen, aka Tran v. United States",
+  "name_abbreviation": "Nguyen v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5495",
+  "first_page": "925",
+  "last_page": "925",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 925"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 82,
+    "ocr_confidence": 0.501,
+    "sha256": "fead437e498827593b51def3446255e3076da596364c788da182d23f3d579569",
+    "simhash": "1:25dac61b0fbd1641",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Nguyen, aka Tran v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5495.\nNguyen, aka Tran v. United States."
+  },
+  "file_name": "0925-05",
+  "first_page_order": 947,
+  "last_page_order": 947
+}

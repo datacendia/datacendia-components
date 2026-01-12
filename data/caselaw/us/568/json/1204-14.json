@@ -1,0 +1,59 @@
+{
+  "id": 12432365,
+  "name": "Bahena-Aranda v. United States",
+  "name_abbreviation": "Bahena-Aranda v. United States",
+  "decision_date": "2013-02-25",
+  "docket_number": "No. 12-8427",
+  "first_page": "1204",
+  "last_page": "1204",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1204"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.638,
+    "sha256": "6997ae242c33c52a4d4c2cacb5683e4f0ebe06cf9a3c33eecc23d1957e91efd6",
+    "simhash": "1:848b86010f95214c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bahena-Aranda v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8427.\nBahena-Aranda v. United States."
+  },
+  "file_name": "1204-14",
+  "first_page_order": 1280,
+  "last_page_order": 1280
+}

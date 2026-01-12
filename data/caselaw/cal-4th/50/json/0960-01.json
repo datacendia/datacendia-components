@@ -1,0 +1,790 @@
+{
+  "id": 3910349,
+  "name": "ST. JOHN'S WELL CHILD AND FAMILY CENTER et al., Petitioners, v. ARNOLD SCHWARZENEGGER, as Governor, etc., et al., Respondents; DARRELL STEINBERG, Individually and as President pro Tempore, etc., et al., Interveners",
+  "name_abbreviation": "St. John's Well Child & Family Center v. Schwarzenegger",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. S181760",
+  "first_page": "960",
+  "last_page": "988",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "50 Cal. 4th 960"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal.",
+    "id": 9021,
+    "name": "Supreme Court of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "90 Cal.Rptr.3d 789",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "172 Cal.App.4th 207",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3964162
+      ],
+      "pin_cites": [
+        {
+          "page": "219, fn. 9"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/172/0207-01"
+      ]
+    },
+    {
+      "cite": "45 P. 1057",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "114 Cal. 136",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2330158
+      ],
+      "pin_cites": [
+        {
+          "page": "152"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/114/0136-01"
+      ]
+    },
+    {
+      "cite": "59 Cal.Rptr.2d 428",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1896,
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 Cal.App.4th 743",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        892452
+      ],
+      "year": 1896,
+      "pin_cites": [
+        {
+          "page": "749"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/51/0743-01"
+      ]
+    },
+    {
+      "cite": "172 Ariz. 3",
+      "category": "reporters:state",
+      "reporter": "Ariz.",
+      "case_ids": [
+        1530790
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ariz/172/0003-01"
+      ]
+    },
+    {
+      "cite": "223 P. 1027",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "65 Cal.App. 181",
+      "category": "reporters:state",
+      "reporter": "Cal. App.",
+      "case_ids": [
+        2149458
+      ],
+      "pin_cites": [
+        {
+          "page": "187"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app/65/0181-01"
+      ]
+    },
+    {
+      "cite": "36 Cal.Rptr.2d 404",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal.App.4th 1264",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4607803
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/30/1264-01"
+      ]
+    },
+    {
+      "cite": "239 P.3d 1186",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "116 Cal.Rptr.3d 480",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "50 Cal.4th 989",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6050712
+      ],
+      "pin_cites": [
+        {
+          "page": "1002"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/50/0989-01"
+      ]
+    },
+    {
+      "cite": "973 P.2d 527",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "83 Cal.Rptr.2d 548",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 Cal.4th 163",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        829708
+      ],
+      "pin_cites": [
+        {
+          "page": "178"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/20/0163-01"
+      ]
+    },
+    {
+      "cite": "912 P.2d 1220",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 Cal.Rptr.2d 272",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "12 Cal.4th 1087",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1957545
+      ],
+      "pin_cites": [
+        {
+          "page": "1090"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/12/1087-01"
+      ]
+    },
+    {
+      "cite": "985 P.2d 970",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "89 Cal.Rptr.2d 650",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 Cal.4th 868",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        884878
+      ],
+      "pin_cites": [
+        {
+          "page": "871"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/21/0868-01"
+      ]
+    },
+    {
+      "cite": "694 P.2d 744",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "210 Cal.Rptr. 631",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Cal.3d 873",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1949125
+      ],
+      "pin_cites": [
+        {
+          "page": "895"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/37/0873-01"
+      ]
+    },
+    {
+      "cite": "148 P.2d 396",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "64 Cal.App.2d 76",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        4583317
+      ],
+      "pin_cites": [
+        {
+          "page": "82"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/64/0076-01"
+      ]
+    },
+    {
+      "cite": "140 P.2d 13",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "22 Cal.2d 494",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2188245
+      ],
+      "pin_cites": [
+        {
+          "page": "501"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/22/0494-01"
+      ]
+    },
+    {
+      "cite": "793 P.2d 2",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "270 Cal.Rptr. 796",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 Cal.3d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4457787
+      ],
+      "pin_cites": [
+        {
+          "page": "17"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/51/0001-01"
+      ]
+    },
+    {
+      "cite": "902 P.2d 225",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.Rptr.2d 207",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "11 Cal.4th 220",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1960664
+      ],
+      "pin_cites": [
+        {
+          "page": "238"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/11/0220-01"
+      ]
+    },
+    {
+      "cite": "219 Cal.Rptr. 664",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "173 Cal.App.3d 1187",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2156600
+      ],
+      "pin_cites": [
+        {
+          "page": "1199"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/173/1187-01"
+      ]
+    },
+    {
+      "cite": "222 P.3d 186",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "103 Cal.Rptr.3d 733",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.4th 1008",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3899456
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1027"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/47/1008-01"
+      ]
+    },
+    {
+      "cite": "45 Cal. 149",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2335196
+      ],
+      "pin_cites": [
+        {
+          "page": "151"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/45/0149-01"
+      ]
+    },
+    {
+      "cite": "11 S.E.2d 120",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.2d",
+      "pin_cites": [
+        {
+          "page": "127"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "176 Va. 281",
+      "category": "reporters:state",
+      "reporter": "Va.",
+      "case_ids": [
+        1984140
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/va/176/0281-01"
+      ]
+    },
+    {
+      "cite": "531 S.W.2d 593",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10134933
+      ],
+      "year": 1940,
+      "pin_cites": [
+        {
+          "page": "599"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/531/0593-01"
+      ]
+    },
+    {
+      "cite": "299 U.S. 410",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5721236
+      ],
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "p. 413"
+        },
+        {
+          "page": "p. 314"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/299/0410-01"
+      ]
+    },
+    {
+      "cite": "219 P. 966",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "192 Cal. 293",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2143239
+      ],
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "303"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/192/0293-01"
+      ]
+    },
+    {
+      "cite": "105 P. 593",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "156 Cal. 498",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2011994
+      ],
+      "pin_cites": [
+        {
+          "page": "501-503"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/156/0498-01"
+      ]
+    },
+    {
+      "cite": "430 F.Supp. 405",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        3929362
+      ],
+      "pin_cites": [
+        {
+          "page": "410"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/430/0405-01"
+      ]
+    },
+    {
+      "cite": "23 So. 643",
+      "category": "reporters:state_regional",
+      "reporter": "So.",
+      "pin_cites": [
+        {
+          "page": "645"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "76 Miss. 158",
+      "category": "reporters:state",
+      "reporter": "Miss.",
+      "case_ids": [
+        1778147
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/miss/76/0158-01"
+      ]
+    },
+    {
+      "cite": "12 F.R.D. 209",
+      "category": "reporters:specialty",
+      "reporter": "F.R.D.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "742 P.2d 1290",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "240 Cal.Rptr. 569",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.3d 1078",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4627480
+      ],
+      "weight": 6,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/43/1078-01"
+      ]
+    },
+    {
+      "cite": "226 Cal.Rptr. 361",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "181 Cal.App.3d 245",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2193061
+      ],
+      "pin_cites": [
+        {
+          "page": "262-265"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/181/0245-01"
+      ]
+    },
+    {
+      "cite": "801 P.2d 1077",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1986,
+      "opinion_index": 0
+    },
+    {
+      "cite": "276 Cal.Rptr. 326",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1986,
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Cal.3d 336",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2375570
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "340"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/52/0336-01"
+      ]
+    },
+    {
+      "cite": "816 P.2d 1309",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1990,
+      "opinion_index": 0
+    },
+    {
+      "cite": "286 Cal.Rptr. 283",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1990,
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.3d 492",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1946378
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "500"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/54/0492-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 2163,
+    "char_count": 76461,
+    "ocr_confidence": 0.906,
+    "pagerank": {
+      "raw": 8.650321451142388e-08,
+      "percentile": 0.4914025875639854
+    },
+    "sha256": "333b63f034650cb65bd48a29ba57083822771064a7f560b674c0a18f07e814cc",
+    "simhash": "1:2b4b24913c04d75f",
+    "word_count": 12121
+  },
+  "last_updated": "2024-02-27T22:39:11.478468+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "ST. JOHN\u2019S WELL CHILD AND FAMILY CENTER et al., Petitioners, v. ARNOLD SCHWARZENEGGER, as Governor, etc., et al., Respondents; DARRELL STEINBERG, Individually and as President pro Tempore, etc., et al., Interveners."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nGEORGE, C. J.\nWe granted review in this original writ proceeding to address the propriety of the Governor\u2019s use of the so-called \u201cline-item veto\u201d under the asserted authority of article IV, section 10, subdivision (e) of the California Constitution, to further reduce funding that already had been reduced by the Legislature in its midyear adjustments to the Budget Act of 2009. The Court of Appeal, First Appellate District, Division Two, denied the requested writ of mandate and upheld the Governor\u2019s action. Upon review, we agree with that court\u2019s disposition of the matter. Because the Court of Appeal\u2019s decision (by Kline, P. J., with Lambden & Richman, JJ., concurring) persuasively sets forth and analyzes the issues presented by this case, we adopt substantial parts of it as our own, as modified below to fully reflect our views and to address the arguments that differ from those advanced in the appellate court.\nI.\nAlthough the current economic downturn affects all Californians, many persons are particularly vulnerable because they receive essential health and welfare assistance from agencies dependent upon state tax revenues. In this setting, government must choose between and among equally needy groups, knowing that many of those groups not fully funded may be devastated.\nIn the context of the constitutionally prescribed budget process, the power to appropriate public funds belongs exclusively to the Legislature. With respect to a bill containing appropriations, the Governor has three options: (1) to sign the bill, (2) to veto the measure in its entirety (Cal. Const., art. IV, \u00a7 10, subd. (a)), or (3) to \u201creduce or eliminate one or more items of appropriation\u201d (id., subd. (e), italics added (hereafter article IV, section 10(e))). The question posed by this case is whether the Governor exceeded his limited powers under article IV, section 10(e), by using his line-item authority to further reduce funding levels set forth in midyear reductions that the Legislature had made to the Budget Act of 2009 (Stats. 2009, 3d Ex. Sess. 2009-2010, ch. 1, approved by Governor, Feb. 20, 2009) (hereafter 2009 Budget Act)), thereby imposing a reduction of appropriated sums greater than the reduction made by the Legislature.\nPetitioners include St. John\u2019s Well Child and Family Center, a nonprofit network of five community health centers and six school-based climes in medically underserved areas of Los Angeles County, and other entities and individuals located throughout the state whose programs and lives will be drastically affected by the further reductions here at issue.\nRespondents are Arnold Schwarzenegger, the Governor of the State of California, and John Chiang, who, as the Controller of the State of California, is responsible for the administration of the state\u2019s finances, including disbursement of funds appropriated by law. The Controller does not take a position on the merits of this litigation.\nInterveners are Darrell Steinberg, in his official capacity as President pro Tempore of the California State Senate, and in his personal capacity as a resident and taxpayer of Sacramento County, and John P\u00e9rez, in his official capacity as Speaker of the California Assembly. Several amici curiae have filed briefs supporting the various parties.\nPetitioners and interveners contend that the action taken by the Governor exceeded constitutional limits, because the individual budget cuts he made were not imposed on \u201citems of appropriation\u201d (art. IV, \u00a7 10(e)) that could be individually vetoed or reduced. They further contend that, in taking this action, the Governor purported to exercise authority belonging solely to the Legislature, in violation of article III, section 3 of the California Constitution.\nPetitioners and interveners sought original relief in the Court of Appeal (pursuant to Cal. Const., art. VI, \u00a7 10; Code Civ. Proc., \u00a7\u00a7 387, 1085; & Cal. Rules of Court, rule 8.485 et seq.) to enjoin the Controller from enforcing or taking any steps to enforce the Governor\u2019s actions concerning certain provisions of Assembly Bill No. 1 (2009-2010 4th Ex. Sess.) (hereafter Assembly Bill 4X 1), as revised by the Governor\u2019s line-item reduction of funding with regard to those provisions. (See Assem. Bill 4X 1, as amended by Sen., July 23, 2009, and approved by Governor, July 28, 2009 (hereafter Governor\u2019s July 28 Message) [with certain deletions, revisions, and reductions], enacted as Stats. 2009, 4th Ex. Sess. 2009-2010, ch. 1 (hereafter revised 2009 Budget Act).) Because of the importance and urgency of the issues presented, the Court of Appeal exercised its original jurisdiction (Legislature v. Eu (1991) 54 Cal.3d 492, 500 [286 Cal.Rptr. 283, 816 P.2d 1309]; Raven v. Deukmejian (1990) 52 Cal.3d 336, 340 [276 Cal.Rptr. 326, 801 P.2d 1077]; see also Planned Parenthood Affiliates v. Van de Kamp (1986) 181 Cal.App.3d 245, 262-265 [226 Cal.Rptr. 361]), issued an order to show cause, and held argument. That court thereafter issued a decision denying the petition for a writ of mandate. As noted above, we agree with most of the analysis of the Court of Appeal and with the conclusion it reached, and thus we shall deny the petition for a writ of mandate.\nn.\nOn February 20, 2009, the Governor signed into law the 2009 Budget Act, which set forth various appropriations of state funds for the 2009-2010 fiscal year. Thereafter, California\u2019s economy worsened; the revenue assumptions upon which the 2009 Budget Act was based proved to be far too optimistic, and the state\u2019s overall cashflow positions continued to deteriorate. The Governor, pursuant to California Constitution, article IV, section 10, subdivision (f) proclaimed a fiscal crisis, and the Legislature assembled in special session to address the fiscal emergency. Following months of negotiations, the Legislature passed Assembly Bill 4X 1 on July 23, 2009. The final revised budget package enacted as Assembly Bill 4X 1 consisted of 547 pages, set forth in 583 sections, and represented an effort to address more than $24 billion in budget shortfalls, including $15.6 billion in cuts, nearly $4 billion in additional revenues, more than $2 billion in borrowing, approximately $1.5 billion in fund shifts, and more than $1 billion in deferrals and other adjustments.\nOn July 28, 2009, the Governor exercised his line-item authority to reduce or eliminate several items contained in Assembly Bill 4X 1, and then signed the measure into law. (Revised 2009 Budget Act.) The Governor eliminated numerous separate line items contained in various sections of Assembly Bill 4X 1. The effect of these reductions was to further decrease the total amount appropriated in the 2009 Budget Act by more than $488 million. Many of the items reduced by the Governor already had been reduced by the Legislature in Assembly Bill 4X 1 from the amounts appropriated in the 2009 Budget Act. The Governor\u2019s signing message explained that his cuts to the spending bill were for the most part designed \u201cto increase the reserve and to reduce the state\u2019s structural deficit.\u201d (Governor\u2019s July 28 Message [concerning Assem. Bill 4X 1, \u00a7\u00a7 18.00, 18.10, 18.20, 18.40]; see also ibid, [same, concerning \u00a7\u00a7 17.50, 18.50].)\nThis original mandamus proceeding by petitioners and interveners followed, challenging the Governor\u2019s use of line-item reductions with respect to seven sections of Assembly Bill 4X 1\u2014specifically, section 568 and sections 570 through 575. The Governor\u2019s actions affected those seven sections of Assembly Bill 4X 1 in the following manner:\nSection 17.50 further reduced the General Fund appropriation for the State Department of Aging by $6,160,000;\nSection 18.00, subdivision (a) further reduced the General Fund appropriation for local assistance of the Medi-Cal program by $60,569,000, and section 18.00, subdivision (e) eliminated funding for community clinic programs;\nSection 18.10 further reduced funding for various programs administered by the Office of AIDS by $52,133,000, further reduced funding for the Domestic Violence Program by $16,337,000, further reduced funding for the Adolescent Family Life Program by $9,000,000, and further reduced funding for the Black Infant Health Program by $3,003,000;\nSection 18.20 further reduced funding for the Healthy Families Program by $50,000,000;\nSection 18.30 further reduced funding for the Regional Center Purchase of Services for children up to the age of five years by $50,000,000;\nSection 18.40 further reduced funding for the Caregiver Resource Centers by $4,082,000; and\nSection 18.50 further reduced funding for the In-Home Supportive Services program by $37,555,000.\nHI.\nThe question presented by this case as a matter of first impression is whether, after the Legislature has made midyear reductions to appropriations that originally appeared in the 2009 Budget Act, the Governor\u2019s line-item power encompasses the authority to make further reductions. Although this particular issue is novel, we find guidance. in our decision in Harbor v. Deukmejian (1987) 43 Cal.3d 1078 [240 Cal.Rptr. 569, 742 P.2d 1290] (Harbor), in which we extensively described the constitutional framework within which a Governor exercises his or her line-item authority.\n\u201cThe California Constitution declares that the legislative power of the state is vested in the Legislature (art. IV, \u00a7 1) and the executive power [is vested] in the Governor (art. [V], \u00a7 1). Unless permitted by the Constitution, the Governor may not exercise legislative powers. (Art. Ill, \u00a7 3.) He may veto a bill \u2018by returning it with any objections to the house of origin,\u2019 and it will become law only if \u2018each house then passes the bill by rollcall vote . . . two thirds of the membership concurring . . . .\u2019 [(Cal. Const., art. IV, \u00a7 10, subd. (a).)] If the Governor fails to act within a certain period of time, the measure becomes law without his signature. (Art. IV, \u00a7 10, subd. [(b)].) The Governor\u2019s veto power is more extensive with regard to appropriations. He may \u2018reduce or eliminate one or more items of appropriation while approving other portions of a bill.\u2019 Such items may be passed over his veto in the same manner as vetoed bills. (Art. IV, \u00a7 10, subd. [(e)].)\u201d (Harbor, supra, 43 Cal.3d at p. 1084, italics added.)\nOur decision in Harbor, agreeing with the petitioners in that case, observed: \u201c[I]n vetoing legislation, the Governor acts in a legislative capacity, and ... in order to preserve the system of checks and balances upon which our government is founded, he may exercise legislative power only in the manner expressly authorized by the Constitution.\u201d (Harbor, supra, 43 Cal.3d at p. 1084.) Because the Constitution authorizes the Governor only \u201cto veto a \u2018bill\u2019 or to reduce or eliminate \u2018items of appropriation^] \u2019 the Governor may not veto part of a bill which is not an \u2018item of appropriation.\u2019 \u201d (Ibid.)\nAfter tracking the historical development of the veto power from its origins in Rome, where the tribune of plebeians had the power to disapprove measures recommended by the senate, we explained in Harbor that \u201c[t]he word, \u2018veto\u2019 means T forbid\u2019 in Latin. Then, as now, the effect of the veto was negative, frustrating an act without substituting anything in its place.\u201d (Harbor, supra, 43 Cal.3d at p. 1085, citing Zinn, The Veto Power of the President (1951) 12 F.R.D. 209.) After evolving in the United States as \u201can integral part of the system of checks and balances\u201d (Harbor, at p. 1085), the veto power at the federal level has been circumscribed by the limitation that the President may approve or reject a bill in its entirety, but may not select portions of a bill for disapproval. \u201cAs a much-quoted early case commented, \u2018the executive, in every republican form of government, has only a qualified and destructive legislative function, and never creative legislative power.\u2019 (State v. Holder (1898) 76 Miss. 158 [23 So. 643, 645].)\u201d (Harbor, at p. 1086.) Significantly, although \u201cthe rule prohibiting selective exercise of the veto is unyielding in the federal system, most states have provided an exception for items of appropriation.\u201d (Ibid.; see Thirteenth Guam Legislature v. Bordallo (D. Guam 1977) 430 F.Supp. 405, 410.)\n\u201cIn California, the Constitution of 1849 included a gubernatorial veto provision similar to that contained in the United States Constitution. (Cal. Const, of 1849, art. IV, \u00a7 17 . . . .) The Constitution of 1879 added the item veto power, allowing the Governor to \u2018object to one or more items\u2019 of appropriation in a bill which contained several \u2018items of appropriation.\u2019 (Cal. Const, of 1879, art. IV, \u00a7 16.) By constitutional initiative in 1922, the Governor was empowered not only to eliminate \u2018items of appropriation\u2019 but to reduce them, while approving other portions of a bill. (Art. IV, \u00a7 10, subd. [(e)].) The 1922 amendment also directed the Governor to submit a budget to the Legislature containing his recommendation for state expenditures. (Art. IV, \u00a7 12, subd..(a).)\u201d (Harbor, supra, 43 Cal.3d at p. 1086, italics added, citation omitted.)\nThe ballot argument in favor of the 1922 constitutional initiative that empowered the Governor to exercise line-item authority to reduce an item of appropriation stated in relevant part: \u201cThe budget system will save the taxpayer money, because all state appropriations will be handled in a business way, duplications prevented and extravagance avoided. The proposed measure will also enable the Governor to reduce an appropriation to meet the financial condition of the treasury, which under our present system he can not do. Frequently a worthy measure is vetoed because the legislature passes a bill carrying an appropriation for which sufficient funds are not available. Under present conditions the Governor is compelled to veto the act, no matter how meritorious, because of the excessive appropriation, whereas, if he had the power given by the proposed constitutional amendment, he could approve the bill with a modified appropriation to meet the condition of the treasury.\u201d (Ballot Pamp., Gen. Elec., supra, argument in favor of Prop. 12, pp. 78-79, italics added.)\nNeither the so-called \u201citem veto,\u201d nor the \u201cline-item veto\u201d allowing the Governor to eliminate or reduce items of appropriation, confers the power to selectively veto general legislation. (Harbor, supra, 43 Cal.3d at p. 1087; Lukens v. Nye (1909) 156 Cal. 498, 501-503 [105 P. 593].) The Governor has no authority to veto part of a bill that is not an \u201citem of appropriation.\u201d (Harbor, at pp. 1084\u20141085, 1088-1089.) \u201c[A]rticle III, section 3 provides that one branch of government may not exercise the powers granted to another \u2018except as permitted by this Constitution.\u2019 Case law, commentators, and historians have long recognized that in exercising the veto the Governor acts in a legislative capacity. [Citations.] ... [1] It follows that in exercising the power of the veto the Governor may act only as permitted by the Constitution. That authority is to veto a \u2018bill\u2019 (art. IV, \u00a7 10, subd. (a)) or to \u2018reduce or eliminate one or more items of appropriation\u2019 (id., subd. [(e)].)\u201d (Harbor, supra, 43 Cal.3d at pp. 1088-1089.)\nThe dispositive issue, then, is whether the funding in question\u2014specified in the seven sections of Assembly Bill 4X 1 that the Governor further reduced\u2014encompassed \u201citems of appropriation\u201d (art. IV, \u00a7 10(e)) as to which the Governor could exercise his line-item authority.\nrv.\nPetitioners and interveners contend that, because the items at issue in Assembly Bill 4X 1 reduced the amounts previously appropriated in the 2009 Budget Act, these items were not \u201cappropriations.\u201d They maintain that a \u201creduction\u201d cannot be an \u201cappropriation,\u201d and observe that there are no instances in which a California governor previously has exercised line-item authority in this manner.\nSubsequent to the passage of the 1922 constitutional amendment empowering the Governor to exercise line-item authority, we addressed in two significant decisions the question of what constitutes an \u201citem of appropriation\u201d subject to the Governor\u2019s line-item power. (Harbor, supra, 43 Cal.3d 1078; Wood v. Riley (1923) 192 Cal. 293 [219 P. 966].) We review these cases for guidance.\nA.\n1.\nWood v. Riley, supra, 192 Cal. 293, was decided in 1923, shortly after the Constitution was amended to allow the Governor to use line-item authority to reduce as well as to eliminate \u201citems of appropriation.\u201d That case involved the Legislature\u2019s action of adding to a budget bill a proviso requiring the Controller to transfer to the State Department of Education, as an additional administrative allotment for the department, 1 percent of the appropriations that had been set aside for salaries and support of several teachers\u2019 colleges and special schools. (Wood v. Riley, at pp. 294-296.) The' Governor vetoed this set-aside proviso. (Id., at p. 296.) The Director of Education sought to enforce the proviso, notwithstanding the Governor\u2019s disapproval, arguing that the Governor had attempted to veto part of a sentence in an appropriation bill that did not appropriate money, but that simply provided for a transfer, as a matter of bookkeeping, of a percentage of funds already appropriated. (Id., at p. 297; see Harbor, supra, 43 Cal.3d at p. 1091, fn. 13.) We upheld the exercise of the veto, finding that although the set-aside proviso took no new money from the state treasury, the proviso nevertheless constituted \u201ca specific setting aside of an amount, not exceeding a definite fixed, sum, for the payment of certain particular claims or demands .... It appears in no other light than as amounting to an item of appropriation in that it adds an additional amount to the funds already provided for the administration of the office of the director of education through the sums appropriated for the use of the state board of education and the superintendent of public instruction. This court has held that \u2018by a specific appropriation\u2019 was understood \u2018an Act by which a named sum of money has been set apart in the treasury and devoted to the payment of a particular claim or demand[.] The proviso, therefore, appears to fill all the requirements of a distinct item of appropriation of so much of a definite sum of money as may be required for a designated purpose connected with the state government.\u201d (Wood v. Riley, supra, 192 Cal. at pp. 303-304, italics added.)\nThis court also was persuaded that the Legislature had sought to insulate from the veto an additional appropriation for the \u201cgeneral administrative office\u201d within the department\u2014something the Legislature would have had no authority to do had it directly appropriated funds for that office. (Wood v. Riley, supra, 192 Cal. at pp. 304-305.) We explained: \u201cIt is very clear that the situation presented is that no appropriation having been recommended by the Governor, or included in the proposed budget bill, for the payment of the \u2018salaries and support of the general administrative office of the division of normal and special schools,\u2019 other than the general provisions for the support of the state board of education and the state superintendent of schools, the legislature attempted, by the inclusion of the proviso in the bill, to make such additional appropriation for such purpose under the guise of an administrative allotment. Therefore, looked at in the light of what it was intended to accomplish, and what it would have accomplished if allowed to stand, one cannot escape the conviction that it worked an appropriation. It added a specific amount to the allowance already made for the use of the state board of education and the state superintendent of schools.\u201d (Ibid.) We concluded the Legislature could not \u201cby indirection, defeat the purpose of the constitutional amendment giving the Governor-power to control the expenditures of the state, when it could not accomplish that purpose directly or by an express provision in appropriation bills.\u201d (Id., at p. 305.) In other words, we determined in Wood v. Riley that a provision that took no additional funds from the state treasury nevertheless constituted an \u201cappropriation\u201d under the newly adopted constitutional provision\u2014and hence that this provision was subject to the Governor\u2019s proper exercise of his line-item authority.\n2.\nHarbor, supra, 43 Cal.3d 1078, involved the Legislature\u2019s enactment of a budget for the 1984-1985 fiscal year. One item in the proposed budget was an appropriation of more than $1.5 billion for Aid to Families With Dependent Children (AFDC). Ten days later, the Legislature passed a trailer bill containing 71 sections enacting, amending, and repealing numerous provisions in various codes. (Sen. Bill No. 1379 (1983-1984 Reg. Sess.) enacted as Stats. 1984, ch. 268, p. 1302.) The trailer bill was to become operative only in the event the Budget Act of 1984 (1984 Budget Act) also was enacted. (Stats. 1984, ch. 268, \u00a7 70, p. 1407.) Among the trailer bill\u2019s provisions was section 45.5 (Stats. 1984, ch. 268, \u00a7 45.5, p. 1383 (hereafter section 45.5)), amending the Welfare and Institutions Code to allow AFDC benefits to be paid under certain circumstances from the date a benefits application was made, rather than from when the application was processed. (Harbor, at pp. 1082-1083.) In approving the 1984 Budget Act, the Governor reduced by more than $9 million the item containing the AFDC allotment. Two days later, he approved the trailer bill, but purported to veto section 45.5 relating to the timing of the benefits payments. (Harbor, at pp. 1082-1083.)\nOn review, we held that the Governor\u2019s purported veto of section 45.5, relating to timing of the benefits, was unauthorized, because this provision was not an \u201citem of appropriation,\u201d and hence the Governor could not selectively veto the item without vetoing the entire bill. (Harbor, supra, 43 Cal.3d at pp. 1090-1091.) In making the determination that section 45.5 was not an \u201citem of appropriation,\u201d we recognized that \u201c[t]he term has been defined in various ways. Wood v. Riley, supra, 192 Cal. 293, 303, defines it as \u2018a specific setting aside of an amount, not exceeding a definite sum, for the payment of certain particular claims or demands . . . not otherwise expressly provided for in the appropriation bill.\u2019 It \u2018adds an additional amount to the funds already provided.\u2019 In Bengzon [v. Secretary of Justice (1937) 299 U.S. 410 [81 L.Ed. 312, 57 S.Ct. 252]] the term was described as a bill whose \u2018primary and specific aim ... is to make appropriations of money from the public treasury.\u2019 (299 U.S. 410 at p. 413 [81 L.Ed. 312 at p. 314].) Other cases employ somewhat different definitions (e.g., Jessen Associates, Inc. v. Bullock (Tex. 1975) 531 S.W.2d 593, 599 [\u2018setting aside or dedicating of funds for a specified purpose\u2019]; Commonwealth v. Dodson (1940) 176 Va. 281 [11 S.E.2d 120, 127] [\u2018an indivisible sum of money dedicated to a stated purpose\u2019]).\u201d (Harbor, supra, 43 Cal.3d at p. 1089.)\nWe determined that the provision at issue did not qualify \u201cas an item of appropriation under any of these definitions. It does not set aside money for the payment of any claim and makes no appropriation from the public treasury, nor does it add any additional amount to funds already provided for. Its effect is substantive. Like thousands of other statutes, it directs that a department of government act in a particular manner with regard to certain matters. Although as is common with countless other measures, the direction contained therein will require the expenditure of funds from the treasury, this does not transform a substantive measure to an item of appropriation. We agree with petitioners that section 45.5 only expresses the Legislature\u2019s intention that the AFDC appropriation, whatever its amount, must be used to provide benefits to recipients from the date of application under certain circumstances.\u201d (Harbor, supra, 43 Cal.3d at pp. 1089-1090.)\nWe proceeded to reject the Governor\u2019s complaint that the Legislature had attempted to separate the appropriation and its purpose into discrete measures in order to evade a veto of the entire indivisible measure. (Harbor, supra, 43 Cal.3d at pp. 1090-1091.) We observed: \u201cBoth were specified in the [1984] Budget Act, that is, over $1.5 billion was appropriated for the purpose of funding AFDC. The Governor is bound by this \u2018purpose\u2019 as set forth in the budget. If the Legislature chooses to budget by a lump sum appropriation, [the Governor] may eliminate or reduce the amount available for the purpose as set forth therein. Here, the Governor not only reduced the \u2018item of appropriation\u2019 as set forth in the budget, but he divided it into its supposed component parts, assigned a purpose and amount to the part he disapproved, reduced the total by that amount, and attempted to veto a portion of a substantive bill which he claims contains the \u2018subject of the appropriation.\u2019 We are aware of no authority that even remotely supports the attempted exercise of the veto in this manner.\u201d (Id., at pp. 1090-1091.)\nFinally, we concluded that even the Legislature\u2019s attempt to avoid the Governor\u2019s veto did not provide a sufficient basis to conclude that section 45.5 was not an \u201citem of appropriation.\u201d We found that no definition of the term \u201citem of appropriation\u201d as used in the Constitution\u2014including the use of that term in Wood v. Riley, supra, 192 Cal. 293\u2014could \u201creasonably embrace a provision like section 45.5, which does not set aside a sum of money to be paid from the public treasury.\u201d (Harbor, supra, 43 Cal.3d at p. 1092.) We explained that the circumstance that \u201cin Wood the term \u2018item of appropriation\u2019 was construed in such a way as to facilitate the Governor\u2019s power to veto a portion of the budget bill which could reasonably be encompassed within the meaning of that term does not provide authority for holding . . . that the Governor may veto part of a general bill\u2014a power denied him by the Constitution\u2014in order to foil an alleged legislative attempt to evade the veto.\u201d (Id., at p. 1092.)\nB.\nAs in the situation presented in Wood v. Riley, supra, 192 Cal. 293, and unlike that before the court in Harbor, supra, 43 Cal.3d 1078, the challenged items presented to the Governor in Assembly Bill 4X 1 each \u201cappear[] to fill all the requirements of a distinct item of appropriation of so much of a definite sum of money as may be required for a designated purpose connected with the state government.\u201d (Wood v. Riley, at p. 304, italics added.) Assembly Bill 4X 1 \u201cset aside a sum of money to be paid from the public treasury\u201d (Harbor, at p. 1092), albeit a sum smaller than that initially appropriated in the 2009 Budget Act.\nPetitioners, interveners, and their amici curiae insist that only an increase in spending authority can constitute an appropriation. They emphasize that none of the definitions of \u201citem of appropriation\u201d contained in the cases refer to a decrease in the spending authorized by a previously enacted budget, and they maintain that such a reduction may not be deemed an item of appropriation. They further argue that because the 2009 Budget Act already had set aside sums of money to be paid by the treasury for specific purposes, those items and the sections of Assembly Bill 4X 1 that proposed only reductions to existing, previously enacted appropriations did not satisfy the requirement of money set aside for a particular purpose. The argument, in other words, is that a reduction in a set-aside cannot itself be considered a set-aside or an appropriation. We disagree.\nThe cases do not require, as petitioners and interveners suggest, that solely items that add amounts to funds already provided can constitute \u201citems of appropriation.\u201d We concluded that Governor Deukmejian\u2019s claim failed in Harbor because section 45.5 of the trailer bill did not qualify \u201cas an item of appropriation under any of [the] definitions\u201d we reviewed. (Harbor, supra, 43 Cal.3d at p. 1089, italics added.) We observed that the provision \u201cdoes not set aside money for the payment of any claim and makes no appropriation from the public treasury, nor does it add any additional amount to funds already provided for. Its effect is substantive.\u201d (Ibid., italics added.) Furthermore, unlike section 45.5 at issue in Harbor, which did not refer to any sum of money, much less a definite or ascertainable sum, the Assembly Bill 4X 1 items here at issue specified definite amounts by which the original appropriations would be reduced.\nWhether spending authority is increased or decreased, it still fundamentally remains spending authority. Although described as reductions in specified items and sections, each of the provisions at issue in Assembly Bill 4X 1 nevertheless directs the \u201cspecific setting aside of an amount, not exceeding a definite fixed sum, for the payment of certain particular claims or demands.\u201d (Wood v. Riley, supra, 192 Cal. at p. 303; see Harbor, supra, 43 Cal.3d at p. 1092.) The items in Assembly Bill 4X 1 that were eliminated or further reduced by the Governor\u2019s exercise of line-item authority capped the spending authority at an amount less than that set forth in the 2009 Budget Act. The Controller could not thereafter disburse, nor could the recipients of the funds thereafter draw upon, any amount larger than that set aside by the Legislature for the specified purposes. (Wood v. Riley, at p. 303 [once enacted, an appropriation \u201c \u2018cannot be thereafter increased except by further legislative appropriation\u2019 \u201d], citing, among other authority, Stratton v. Green (1872) 45 Cal. 149, 151.)\nThere is no substantive difference between a Governor\u2019s reduction of an item of appropriation in the original 2009 Budget Act, to which interveners and petitioners raise no objection, and a Governor\u2019s reduction of that same item in a subsequent amendment to the 2009 Budget Act\u2014that is, Assembly Bill 4X 1. Both actions involve changes in authorized spending.\nInterveners insist in their reply brief that the Governor was entitled, in essence, to only one bite at the budget apple. They concede that although he \u201chad the authority to reduce or eliminate each of the items of appropriation at issue here when they were first passed in February, 2009,\u201d he nevertheless did not possess that same authority a few months later with regard to \u201cthe legislative reductions made in July.\u201d We discern no reason why the Governor should have the power to reduce items of appropriation when first enacted, and yet not retain that same power when the Legislature, in response to changed circumstances, sees fit to amend those same appropriations. In both instances, the Governor holds constitutionally granted authority to reduce the allocation of state expenditures.\nAdoption of the view advanced by petitioners, interveners, and their amici curiae that the legislative provisions at issue were not \u201citems of appropriation\u201d would permit the Legislature, in a single bill, to selectively make multiple reductions in previous appropriations, leaving the Governor only the power to veto the entire bill\u2014a limitation that the 1922 amendment to article IV of the California Constitution specifically was designed to eliminate. (See, ante, at p. 972.) Indeed, as we earlier observed, that amendment was promoted in order to permit the Governor to \u201creduce an appropriation to meet the financial condition of the treasury\u201d (Ballot Pamp., Gen. Elec., supra, argument in favor of Prop. 12, p. 79, italics added), and we are unaware of any evidence or authority suggesting that the drafters of that measure and the voters who enacted article IV, section 10(e) intended that the Governor should be precluded from exercising such line-item authority in order to further reduce authorized funding following a legislative act that itself reduced such funding in response to an ongoing and mounting fiscal crisis. Moreover, if spending reductions are not considered to be items of appropriation (and hence are not subject to a two-thirds vote requirement), a simple legislative majority would be able to overturn a two-thirds vote on the annual budget act. We decline to construe the phrase \u201citems of appropriation\u201d in such a manner.\nC.\nOur determination that the challenged actions concerned authorized reductions of \u201citems of appropriation\u201d is further supported by the structure and content of Assembly Bill 4X 1 itself.\nWe begin with the observation that this bill constitutes an amendment to the 2009 Budget Act. (See People v. Kelly (2010) 47 Cal.4th 1008, 1027 [103 Cal.Rptr.3d 733, 222 P.3d 186] (Kelly) [\u201can amendment includes a legislative act that changes an existing . . . statute by taking away from it\u201d]; Planned Parenthood Affiliates v. Swoap (1985) 173 Cal.App.3d 1187, 1199 [219 Cal.Rptr. 664] [an amendment is a legislative act changing prior or existing law by adding or taking from it some particular provision].) As noted above, this extensive and multi-itemed budget bill contains hundreds of sections, some of which increased spending over what was appropriated in the 2009 Budget Act. In many other respects, Assembly Bill 4X 1 decreased numerous appropriations made in the 2009 Budget Act.\nThe lengthy title of Assembly Bill 4X 1 describes the measure as follows: \u201cAn act to amend and supplement the Budget Act of 2009 ... by amending Items [there follows a list of more than 350 items by number] of, by adding Items [there follows a list of more than 100 items by number] to, and by repealing Items [there follows a list of more than 40 items by number] of . . . that act, and by amending Sections [there follows a list of 10 sections] of, by adding Sections [there follows a list of 21 sections, including sections 17.50, and 18.00 through 18.50, here at issue] to, and by repealing Section 24.65 of, that act, relating to the State Budget, making an appropriation therefor, and declaring the urgency thereof, to take effect immediately.\u201d (Assem. Bill 4X 1, italics added.) The last section of the bill recites that the \u201cact is an urgency statute\u201d that \u201cmakes revisions in appropriations for the support of the government of the State of California and for several public purposes for the 2009-10 fiscal year.\u201d (Assem. Bill 4X 1, \u00a7 583, italics added.) Hence, both by title and by express statement, Assembly Bill 4X 1 declares that it amends the 2009 Budget Act by making appropriations. Moreover, the Legislative Counsel\u2019s Digest for Assembly Bill 4X 1 denominates it as \u201cBudget Act of 2009: revisions,\u201d and includes the legend \u201cAppropriation:. . . yes.\u201d (Italics omitted & added.)\nOn their face, Assembly Bill 4X 1 and the Legislative Counsel\u2019s Digest set forth therein lead us to conclude that the Legislature contemplated that multiple budget items identified in the measure constitute items of appropriation. We hold that the content and structure of Assembly Bill 4X 1 support a determination that the provisions at issue are items of appropriation subject to reduction or elimination by the Governor\u2019s use of his line-item authority.\nD.\nAfter the Governor exercised his line-item authority, the Legislative Counsel issued an opinion, cited by interveners, concluding that \u201can item or section of a bill that proposes only to make a reduction in an existing item of appropriation previously enacted in the Budget Act of 2009 is not itself an item of appropriation\u201d and therefore, \u201cin vetoing items and sections of [Assembly Bill 4X 1] that proposed only reductions to existing appropriations enacted by the Budget Act of 2009, the Governor exceeded his \u2018line-item\u2019 veto authority.\u201d (Ops. Cal. Legis. Counsel, No. 0920928, supra, Governor\u2019s Line-Item Veto Authority: Reductions to Existing Appropriations, pp. 4, l.)\nAlthough \u201can opinion of the Legislative Counsel is entitled to respect, its weight depends on the reasons given in its support.\u201d (Santa Clara County Local Transportation Authority v. Guardino (1995) 11 Cal.4th 220, 238 [45 Cal.Rptr.2d 207, 902 P.2d 225].) Indeed, quite recently, in Kelly, supra, 47 Cal.4th 1008, we found unpersuasive the analysis put forth by the Legislative Counsel relating to the legislation at issue in that case. (Id., at p. 1043, fn. 60.) We come to a similar conclusion in the present case.\nOpinions of the Legislative Counsel ordinarily are \u201cprepared to assist the Legislature in its consideration of pending legislation\u201d (California Assn. of Psychology Providers v. Rank (1990) 51 Cal.3d 1, 17 [270 Cal.Rptr. 796, 793 P.2d 2]), and therefore such opinions often shed light on legislative intent. Like the Legislative Counsel\u2019s opinion at issue in Kelly, however, the opinion at issue in the present case was not prepared in order to assist in the consideration of pending legislation\u2014it was rendered, instead, after the legislation was enacted, and it addressed possible future litigation arising from that legislation. Insofar as the opinion expresses a view concerning the constitutionality of the Governor\u2019s exercise of authority with regard to Assembly Bill 4X 1, it is entitled to no more weight than the views of the parties. Legislative intent\u2014that is, whether the Legislature intended that the items at issue be subject to the Governor\u2019s power\u2014is irrelevant to our present inquiry focused upon the constitutional scope of that power.\nE.\nIn the Court of Appeal, petitioners argued that the language employed by the Legislature in Assembly Bill 4X 1, to effectuate reductions in prior appropriations, differentiates between those provisions that \u201camended\u201d sections of the 2009 Budget Act and those provisions (here at issue) that merely \u201cadded\u201d sections to that act. Petitioners asserted in the court below that items in the former category are \u201carguably expose[d] ... to the [G]ovemor\u2019s line-item power\u201d but that \u201cno such authority exists . . . with respect to\u201d to the latter category of items\u2014those here at issue.\nIn response, the Court of Appeal observed: \u201cIn essence, petitioners argue that the Legislature may do by indirection that which it cannot do directly, that is, it may insulate certain items of appropriation from the Governor\u2019s line-item veto power by the language used, whereas other items having the identical effect of reducing the sums appropriated in the 2009 Budget Act would be subject to that power. This, the Legislature may not do. (See Wood v. Riley, supra, 192 Cal. at pp. 304-305.) As amici curiae former Governors observe: \u2018If by simple wordsmithing the legislative branch can create an omnibus spending bill limiting the Governor\u2019s oversight only to veto of the entire bill, then the budgetary process is reduced to a game of \u2018chicken\u2019 daring a [Gjovemor to bring state government to a halt through a veto.\u2019 [f] Whether identified in Assembly Bill 4X 1 as amendments of, revisions to, or additions to the 2009 Budget Act, it is clear that every provision of Assembly Bill 4X 1 changed a section of the 2009 Budget Act. . . . Consequently, the sections that were \u2018added\u2019\u2014like those that expressly \u2018amended\u2019 the 2009 Budget Act\u2014reenacted those provisions and were subject to the line-item veto or reduction by the Governor. (See also People v. Western Fruit Growers (1943) 22 Cal.2d 494, 501 [140 P.2d 13].)\u201d\nIn their briefing in this court, petitioners and interveners contend that the Court of Appeal, in reaching its decision, incorrectly relied upon the \u201creenactment rule\u201d of article IV, section 9 of the California Constitution. The purpose of this rule, they argue, is merely to \u201cprevent the title of a subsequent act from being made a cloak or artifice to distract attention from the substance of the act and to protect legislators and the public from being entrapped by misleading titles . . . .\u201d (Estate of Henry (1944) 64 Cal.App.2d 76, 82 [148 P.2d 396].)\nPetitioners and interveners contend that when the reenactment rule is considered together with Government Code section 9605, the present effect of the rule is that, by changing only the amount of the appropriation in the provisions of Assembly Bill 4X 1 at issue, the Legislature did not reenact the corresponding items of appropriation contained in the 2009 Budget Act b\u00fct merely reduced the \u201camount\u201d of those appropriations. Petitioners further insist there exists \u201ca distinction between the setting aside of an amount, and the authorization to spend that amount . . . .\u201d\nWe disagree. As we have explained, the purpose \u201cof [Government Code] section 9605 is to avoid an implied repeal and reenactment of unchanged portions of an amended statute, ensuring that the unchanged portion operates without interruption.\u201d (In re Lance W. (1985) 37 Cal.3d 873, 895 [210 Cal.Rptr. 631, 694 P.2d 744], italics added.) As applied in this case, section 9605 simply makes clear that the changes made by Assembly Bill 4X 1 in July 2009 did not impliedly repeal any authorization of funds contained in the 2009 Budget Act not specifically affected by Assembly Bill 4X 1.\nMoreover, the Legislature\u2019s allocation of funds\u2014the setting aside of money for a particular purpose\u2014is fundamentally indivisible in concept from the designation of the amount thereof. The act of setting aside funds acquires significance only in the context of the designated amount set aside. The \u201cspending authority\u201d granted by a proposed \u201citem of appropriation\u201d is the combination of a setting aside of a designated sum\u2014and no more\u2014for a particular purpose. Petitioners do not, for example, contend that a similar distinction existed between \u201cthe setting aside of an amount\u201d and \u201cthe authorization to spend\u201d when the 2009 Budget Act originally was passed.\nAccordingly, we conclude that the arguments advanced by petitioners and interveners supply no basis upon which to question our conclusion that the provisions of Assembly Bill 4X 1 at issue in this case constitute items of appropriation subject to reduction or elimination by the Governor\u2019s use of his line-item authority.\nV.\nInterveners\u2019 contention that the amounts designated by the items of Assembly Bill 4X 1 at issue should not be reducible by the Governor is based in part upon a separation-of-powers theory, also advanced by. amici curiae SEIU California State Council et al. This claim is premised upon (1) the absence in California\u2019s Constitution of explicit gubernatorial authority to increase or decrease the size of spending cuts made by the Legislature in response to a declaration of fiscal emergency, and. (2) language in Harbor, supra, 43 Cal.3d 1078, emphasizing that, as interveners put it, \u201cthe power to veto, reduce or eliminate is not the power to create or increase.\u201d Specifically, interveners cite our observations in Harbor that \u201c[t]he word \u2018veto\u2019 means T forbid\u2019 in Latin\u201d and that \u201cthe effect of the veto [is] negative, frustrating an act without substituting anything in its place.\u201d (Id., at p. 1085.)\nIn the view of interveners, when undertaking the challenged line-item reductions, \u201cthe Governor sought to use his power to increase what the Legislature had done. The Legislature had made a policy determination regarding how much state spending had to be cut in response to the fiscal crisis and where those spending cuts were to be made. The Governor, however, disagreed with the Legislature\u2019s policy determinations. He wanted to make more cuts in order to keep a larger budget reserve.!\u2019 According to interveners, the Governor\u2019s preference for a larger budget reserve is a policy determination belonging to the legislative, not the executive, branch.\nThe determination whether the items in Assembly Bill 4X 1 at issue constitute appropriations cannot be made by characterizing the Governor\u2019s use of line-item authority as \u201cincreasing\u201d the Legislature\u2019s reductions and then categorizing that act as impermissibly affirmative or \u201ccreative.\u201d Treating the exercise of line-item authority as an increase in the reduction, rather than as a decrease in the appropriation is as arbitrary as differentiating between the description of a glass of water as half full and a description of the same vessel as half empty. By increasing the Legislature\u2019s reduction, the Governor decreases the size of the appropriation. What matters is not whether the Governor\u2019s act is seen as being affirmative or negative, but rather its purpose and practical effect.\nThe difference of opinion between the Legislature and the Governor underlying these budget cuts was not whether the amount of particular items of appropriation enacted in the 2009 Budget Act needed to be reduced, but the magnitude of the necessary reductions. What mattered in the end were the amounts set aside for particular purposes; the Legislature sought greater appropriations than did the Governor. Although the Governor\u2019s exercise of line-item authority may be said to have \u201cincreased\u201d the reductions made by the Legislature as to the items at issue, the most significant effect of the Governor\u2019s actions, and their purpose, was to further reduce the amounts set aside by the Legislature. The Governor\u2019s wielding of line-item authority was therefore quintessentially negative; it lowered the cap on the spending authority for specified purposes, providing precisely the type of check on the Legislature intended by the constitutional initiative that adopted the line-item provision, which empowered the Governor \u201cto reduce an appropriation to meet the financial condition of the treasury . . . .\u201d (Ballot Pamp., Gen. Elec., supra, argument in favor of Prop. 12, p. 79.)\nInterveners\u2019 separation-of-powers argument thus begs the question. True, the Governor\u2019s challenged acts were legislative in nature and, \u201c[a]s an executive officer, [the Governor] is forbidden to exercise any legislative power or function except as .. . the constitution expressly providefs].\u201d (Lukens v. Nye, supra, 156 Cal. at p. 501, italics added.) Thus, the question before us is not whether the gubernatorial act at issue was legislative in nature, but whether it was constitutionally authorized. As we earlier explained, the act undertaken by the Governor was authorized by the opening sentence of article IV, section 10(e): \u201cThe Governor may reduce or eliminate one or more items of appropriation while approving other portions of a bill.\u201d (Italics added.)\nSimilarly, as discussed above, we conclude there is no persuasive reason to hold that the Governor is prevented from exercising line-item authority with respect to changes that the Legislature has made to items of appropriation. As emphasized above, the power to \u201creduce an appropriation to meet the financial condition of the treasury\u201d was bestowed upon the Governor by the people of California in 1922 through constitutional amendment. When, as in the situation presented by the matter now before us, the Legislature finds it necessary to change its appropriations in light of worsened fiscal circumstances, the public\u2019s interest in fiscal responsibility is arguably even greater, and there is no indication that those who drafted and enacted article IV, section 10(e) would not have intended the Governor to maintain this same power over state expenditures under these circumstances.\nInterveners assert that the foregoing analysis would permit the Governor to \u201celiminate\u201d a reduction to a previously enacted appropriation, thereby allowing more spending than the Legislature authorized\u2014a result that, they maintain, would not constitute use of the \u201cveto\u201d as a \u201cnegative\u201d check on the Legislature, but the opposite. We need not address this issue or related issues, because they are not presented by the case before us. We note, however, that the Governor\u2019s line-item power does not give him the last word. The Legislature retains the ability to override the Governor\u2019s reduction of items of appropriation in the same manner as other bills, by separately reconsidering and passing them by a two-thirds majority of each house. (Cal. Const., art. IV, \u00a7 10, subds. (a), (e).)\nVI.\nArticle IV, section 10(e) grants the Governor the limited legislative authority to eliminate or reduce \u201citems of appropriation.\u201d For the reasons set forth in this opinion, we conclude that the budget reductions here at issue were \u201citems of appropriation\u201d within the meaning of that constitutional provision, and that therefore the Governor\u2019s exercise of line-item authority to reduce those appropriations, while approving other portions of Assembly Bill 4X 1, was consistent with his constitutional powers.\nVII.\nThe judgment rendered by the Court of Appeal, denying the petition for writ of mandate, is affirmed.\nKennard, J., Baxter, J., Chin, J., Moreno, J., Corrigan, J., and Rylaarsdam, J., concurred.\nSee generally People v. Coria (1999) 21 Cal.4th 868, 871 [89 Cal.Rptr.2d 650, 985 P.2d 970] (adopting the underlying decision of the Court of Appeal \u201c[w]ith appropriate deletions and additions\u201d); Mangini v. Aerojet-General Corp. (1996) 12 Cal.4th 1087, 1090 [51 Cal.Rptr.2d 272, 912 P.2d 1220] (\u201cWe agree with the Court of Appeal\u2019s analysis\u2014adopting both its result and much of its reasoning ... .\u201d); California Style Manual (4th ed. 2000) section 4:21[B], page 137, and cases cited; see also Cel-Tech Communications, Inc. v. Los Angeles Cellular Telephone Co. (1999) 20 Cal.4th 163, 178 [83 Cal.Rptr.2d 548, 973 P.2d 527] (observing that \u201cadopted\u201d opinions are no less the opinion of this court, and have no less precedential value, than other opinions issued by this court).\nOther petitioners are Rosa Navarro and Lionso Guzman, individual residents of Los Angeles County who have received medical treatment from St. John\u2019s Well Child and Family Center; California Foundation for Independent Living Centers, a statewide nonprofit organization made up of 25 independent living centers providing services and advocacy by and for persons with various types of disabilities; Nevada-Sierra Regional In-Home Supportive Services (IHSS) Public Authority, a public agency whose purpose is to make the IHSS component of those counties\u2019 public services operate more effectively for consumers; Californians for Disability Rights, California\u2019s longest established and largest membership organization of persons with disabilities; and Liane Yasumoto and Judith Smith, who each receive IHSS assistance to cope with daily living tasks.\nThe Governor and the Controller are sued in their official capacities only.\nAmong the amicus curiae briefs considered by this court are those filed in the Court of Appeal in support of petitioners by the following entities: Santa Clara County; Service Employees International Union (SEIU) California State Council, United Domestic Workers of America, and California United Homecare Workers; Children Now, Valley Community Clinic, Eisner Pediatric & Family Medical Center, The Saban Free Clinic, YWCA Monterey County, Westside Family Health Center, Community Clinic Association of Los Angeles County, and the Legal Aid Association of California; AIDS Project Los Angeles; and the Los Angeles County Democratic Central Committee and the Riverside County Democratic Central Committee.\nAlso considered by this court are an amicus curiae brief filed in the Court of Appeal in support of respondents Governor Schwarzenegger and Controller Chiang, and a corresponding letter brief filed in this court by amici curiae George Deukmejian, Pete Wilson, Gray Davis, the California Chamber of Commerce, the California Taxpayers\u2019 Association, and the California Business Roundtable (collectively, amici curiae former California governors).\nUpon interveners\u2019 unopposed request, the Court of Appeal took judicial notice (Evid. Code, \u00a7\u00a7 451, 452) of various materials relating to the passage of the 2009 Budget Act, Assembly Bill 4X 1, and the revised 2009 Budget Act\u2014and we do likewise:\na. Senate Bill No. 1 (2009-2010 3d Ex. Sess.) approved by the Governor on February 20, 2009;\nb. Assembly Bill 4X 1, as amended by the Senate on July 23, 2009;\nc. Assembly Bill 4X 1, as approved by the Governor on July 28, 2009 (containing the Governor\u2019s July 28 Message);\nd. Legislative Counsel Opinion No. 0920928 (Aug. 5, 2009) Governor\u2019s Line-Item Veto Authority: Reductions to Existing Appropriations;\ne. Ballot Pamphlet, General Election (Nov. 7, 1922) text and arguments in favor of Proposition 12, pages 77-78 (State Budget Amendment), which enacted a constitutional amendment expanding the scope of the Governor\u2019s line-item authority;\nf. Voter Information Guide, Special Election (Nov. 8, 2005) text and analysis of voter initiative Proposition 76, pages 60, 22-29 (State Spending and School Funding Limits);\ng. Secretary of State, Statement of Vote, November 8, 2005, Special Statewide Election concerning Proposition 76;\nh. Voter Information Guide, Special Election (May 19, 2009) text and analysis of Proposition 1A, pages 46, 10-15 (State Budget Changes. California Budget Process. Limits State Spending. Increases \u201cRainy Day\u201d Budget Stabilization Fund.);\ni. Secretary of State, Statement of Vote, May 19, 2009, Statewide Special Election concerning Proposition 1A.\nThe appellate court also took judicial notice (Evid. Code, \u00a7\u00a7 459, 452), at the Governor\u2019s request (and we do likewise), of the following ballot materials presented to the voters in conjunction with their consideration of two measures: (1) Proposition 58: Supplemental Voter Information Guide, Primary Election (Mar. 2, 2004) text and analysis of Proposition 58, pages 20,11-13 (The California Balanced Budget Act), adding article IV, section 20, subdivision (f) to the California Constitution; (2) Proposition 12: Ballot Pamphlet, General Election, supra, text and arguments in favor of Proposition 12, page 77-78 (same material as item e., above, in different format).\nCalifornia Constitution, article IV, section 10, subdivision (f) provides: \u201c(1) If, following the enactment of the budget bill for the 2004-05 fiscal year or any subsequent fiscal year, the Governor determines that, for that fiscal year, General Fund revenues will decline substantially below the estimate of General Fund revenues upon which the budget bill for that fiscal year, as enacted, was based, or General Fund expenditures will increase substantially above that estimate of General Fund revenues, or both, the Governor may issue a proclamation declaring a fiscal emergency and shall thereupon cause the Legislature to assemble in special session for this purpose. The proclamation shall identify the nature of the fiscal emergency and shall be submitted by the Governor to the Legislature, accompanied by proposed legislation to address the fiscal emergency.\n\u201c(2) If the Legislature fails to pass and send to the Governor a bill or bills to address the fiscal emergency by the 45th day following the issuance of the proclamation, the Legislature may not act on any other bill, nor may the Legislature adjourn for a joint recess, until that bill or those bills have been passed and sent to the Governor.\n\u201c(3) A bill addressing the fiscal emergency declared pursuant to this section shall contain a statement to that effect.\u201d (See Professional Engineers in California Government v. Schwarzenegger (2010) 50 Cal.4th 989, 1002 [116 Cal.Rptr.3d 480, 239 P.3d 1186].)\nOn August 10, 2009, intervener Steinberg filed a complaint in the San Francisco Superior Court, seeking a writ of mandate addressing the same issue presented in the case now before us, and challenging the Governor\u2019s use of the line-item authority with regard to various items contained in Assembly Bill 4X 1. One week later, Steinberg informed the Court of Appeal that his petition was pending in the superior court and explained that it challenged not only the items challenged in the present matter by petitioners, but additionally 14 other utilizations of line-item authority by the Governor. Following the appellate court\u2019s subsequent request that respondents address all issues raised by the petitioners\u2019 writ petition, Steinberg and then Assembly Speaker Karen Bass (subsequently succeeded by current Assembly Speaker John P\u00e9rez) sought to intervene and urged the Court of Appeal to issue the original writ sought by petitioners. The appellate court granted the motion to intervene.\nAs enacted by the Legislature and submitted to the Governor, the relevant provisions of Assembly Bill 4X 1 provide in pertinent part:\n\u201cSEC. 568. Section 17.50 is added to the Budget Act of 2009, to read: [<\u00a10 Sec. 17.50. The amount appropriated in Item 4170-101-0001 of Section 2.00 is hereby reduced by $9,483,000.\u201d (Assem. Bill 4X 1, \u00a7 568 [Cal. Department of Aging].)\n\u201cSEC. 570. Section 18.00 is added to the Budget Act of 2009, to read: [][] SEC. 18.00. (a) The amount appropriated in Item 4260-101-0001 of Section 2.00 is hereby reduced by $2,789,402,000. [ID ... [10 (e) The amount appropriated in Item 4260-111-0001 of Section 2.00 is hereby reduced by $4,303,000.\u201d (Assem. Bill 4X 1, \u00a7 570 [State Department of Health Care Services].)\n\u201cSEC. 571. Section 18.10 is added to the Budget Act of 2009, to read: []Q Sec. 18.10. [f] . . . [10 (c) The amount appropriated in Item 4265-111-0001 of Section 2.00 is hereby reduced by $62,967,000.\u201d (Assem. Bill 4X 1, \u00a7 571 [State Department of Public Health].)\n\u201cSEC. 572. Section 18.20 is added to the Budget Act of 2009, to read: [][] Sec. 18.20. (a) The amount appropriated in Item 4280-101-0001 of Section 2.00 is hereby reduced by $125,581,000.\u201d (Assem. Bill 4X 1, \u00a7 572 [Managed Risk Medical Insurance Board, relating to the Healthy Families Program].)\n\u201cSEC. 573. Section 18.30 is added to the Budget Act of 2009, to read: [10 Sec. 18.30. (a) The amount appropriated in Item 4300-101-0001 of Section 2.00 is hereby reduced by $214,828,000.\u201d (Assem. Bill 4X 1, \u00a7 573 [State Department of Developmental Services, for regional centers].)\n\u201cSEC. 574. Section 18.40 is added to the Budget Act of 2009, to read: [IQ Sec. 18.40. [10 .. . [10 (e) The amount appropriated in Item 4440-111-0001 of Section 2.00 is hereby reduced by $3,547,000.\u201d (Assem. Bill 4X 1, \u00a7 574 [State Department of Mental Health, for caregiver resource centers serving families of adults with acquired brain injuries].)\n\u201cSEC. 575. Section 18.50 is added to the Budget Act of 2009, to read: [IQ Sec. 18.50. [10 . .. [ID (d) The amount appropriated in Item 5180-111-0001 of Section 2.00 is hereby reduced by $643,248,000.\u201d (Assem. Bill 4X 1, \u00a7 575 [State Department of Social Services, for local assistance].)\nAt the Governor\u2019s request, and over the objection of interveners, the Court of Appeal took judicial notice of Senate Bill No. 13 (2009-2010 3d Ex. Sess.) (chaptered as Stats. 2009, 3d Ex. Sess. 2009-2010, ch. 29, approved by Governor, Oct. 21, 2009), enacted by the Legislature after the Governor exercised his authority under article IV, section 10(e). We likewise take judicial notice of this matter. The bill transferred $16.3 million from the Alternative and Renewable Fuel and Vehicle Technology Fund to the General Fund as a loan in order to appropriate those funds to- the California Emergency Management Agency for the purpose of supporting domestic violence shelters for the 2009-2010 fiscal year.\nArticle IV, section 10 of the California Constitution provides in part: \u201c(a) Each bill passed by the Legislature shall be presented to the Governor. It becomes a statute if it is signed by the Governor. The Governor may veto it by returning it with any objections to the house of origin, which shall enter the objections in the journal and proceed to reconsider it. If each house then passes the bill by rollcall vote entered in the journal, two-thirds of the membership concurring, it becomes a statute. HQ ... HQ (e) The Governor may reduce or eliminate one or more items of appropriation while approving other portions of a bill. The Governor shall append to the bill a statement of the items reduced or eliminated with the reasons for the action. The Governor shall transmit to the house originating the bill a copy of the statement and reasons. Items reduced or eliminated shall be separately reconsidered and may be passed over the Governor\u2019s veto in the same manner as vetoed bills.\u201d\nRegarding override of the Governor\u2019s line-item authority, as the Governor observes in his answer brief: \u201cThe legislative process for overruling a line-item veto has been used many times in the past. In 1979 alone, the Legislature overrode eight budgetary line-item vetoes.\u201d (Citing 4 Sen. J. (1979-1980 Reg. Sess.) pp. 6027-6029; 5 Assem. I. (1979-1980 Reg. Sess.) pp. 8318-8319, 8333-8334, 8351.)\nWe further held, however, that the trailer bill violated the single subject rule of article IV, section 9 of the California Constitution. (Harbor, supra, 43 Cal.3d at p. 1094.) Accordingly, because the Governor would have had the power to veto section 45.5 had it been passed by the Legislature as a separate bill, as to both rulings we gave our determination prospective effect only. The net effect was that the veto was not invalidated, and that only the one section of the bill was rendered inoperative. (Harbor, at pp. 1101-1102.)\nSubsequent to Harbor, supra, 43 Cal.3d 1078, the Court of Appeal in California Assn, for Safety Education v. Brown (1994) 30 Cal.App.4th 1264 [36 Cal.Rptr.2d 404] (Safety Education) described an appropriation, in a similar manner, as \u201ca legislative act setting aside \u2018a certain sum of money for a specified object in such manner that the executive officers are authorized to use that money and no more for such specified purpose.\u2019 (Ryan v. Riley (1924) 65 Cal.App. 181, 187 [223 P. 1027].)\u201d (Safety Education, at p. 1282.)\nThe question in Safety Education was whether the statutory scheme at issue, concerning driver education, reflected \u201ca continuing appropriation by the Legislature or whether the availability of driver training funding is subject to legislative discretion.\u201d (Safety Education, supra, 30 Cal.App.4th at p. 1282.) The court concluded the statutory language clearly provided that the funds that may be used to pay for driver training were limited to amounts appropriated in the annual budget act, leading to the conclusion that the statutory scheme did not establish a continuing appropriation. (Id., at p. 1283.) The asserted continuing-appropriation provisions in that case did not list any dollar amount, and expressly deferred the amount of appropriation to \u201cthe annual Budget Act\u201d item that addressed driver education. (Id., at p. 1272.) The decision in Safety Education does not stand for the proposition, asserted by petitioners, that a limitation upon or reduction of an appropriation does not constitute an appropriation.\nAlthough the precise question whether reductions in appropriations are items of appropriation subject to the Governor\u2019s line-item authority is, as we have observed, a question of first impression in this state, the Arizona Supreme Court answered this question affirmatively in Rios v. Symington (1992) 172 Ariz. 3 [833 P.2d 20] (Rios), a case relied upon by the Governor. In Rios, the court rejected the claim that the governor\u2019s line-item veto power did not extend to legislative measures decreasing prior appropriations: \u201cWhen the Legislature transfers monies from a previously-made appropriation, the obvious effect is to reduce the amount of the previous appropriation. The Constitution does not permit such reductions free of gubernatorial oversight. To hold otherwise would permit the Legislature to do indirectly that which it may not do directly, and would seriously limit the Executive\u2019s constitutional role in the appropriation process. [ID \u2022 \u2022 \u2022 [|] In our view, if the Governor\u2019s constitutional power to line item veto an appropriation is to mean anything, the Governor must be constitutionally empowered to line item veto a subsequent reduction or elimination of that appropriation.\u201d (Id., 833 P.2d at p. 26.)\nAlthough the analysis in Rios, supra, 833 P.2d 20, arguably supports our conclusion, we are aware that the constitutional framework for exercise of the governor\u2019s power in Arizona described in Rios is different in some critical respects from California\u2019s. Unlike our Constitution, Arizona\u2019s does not empower its governor to \u201creduce\u201d an item of appropriation. In addition, because of the terms of the line-item authority at issue in the Rios case, the net effect of the governor\u2019s action in Rios was to reinstate the original appropriation. In this regard, the Governor observes in his answer brief that although \u201c [petitioners contend that Rios favors their argument because in Rios the net effect of the line-item vetoes resulted in a reinstatement of the original appropriation,\u201d nevertheless \u201cthe net effect of the Governor\u2019s action in Rios was not a controlling factor in the court\u2019s opinion, but rather was a consequence of the terms of the line-item veto in Arizona.\u201d\nWe need not resolve the parties\u2019 dispute concerning Rios, because we conclude independently, on the basis of the language and history of article IV, section 10(e), that legislative acts reducing appropriations remain, and are themselves, appropriations.\nNor do common dictionary definitions of the word \u201cappropriation\u201d support arguments that only an increase in spending authority can constitute an appropriation. (See Black\u2019s Law Dict. (8th ed. 2004) p. 110 [defining \u201cappropriation\u201d as \u201c1. The exercise of control over property; a taking of possession. ... 2. A legislative body\u2019s act of setting aside a sum of money for a public purpose\u201d]; and see also id. at p. 174 [defining \u201cappropriations bill\u201d as \u201c[a] bill that authorizes governmental expenditures\u201d]; Merriam-Webster\u2019s Collegiate Diet. (11th ed. 2004) p. 61 [defining \u201cappropriation\u201d as \u201c2. something that has been appropriated; specif, money set aside by formal action for a specific use\u201d]; 1 Oxford English Diet. (2d ed. 1989) p. 587 [defining \u201cappropriation\u201d as \u201c3. The assignment of anything to a special purpose; concr. the thing so assigned, esp. a sum of money set apart for any purpose\u201d].) Finally, we observe that the related term \u201cappropriations subject to limitation\u201d in article XIIIB, section 8, subdivision (a) of the California Constitution is defined as \u201cany authorization to expend during a fiscal year the proceeds of taxes levied by or for the State . . . .\u201d\nThe Governor observes that section 10 of Assembly Bill 4X 1 increased funding for item No. 0250-101-0932, for the support of \u201clocal assistance, Judicial Branch, payable from the Trial Court Trust Fund\u201d; section 61 increased funding for item No. 0690-001-0001, for the support of the California Emergency Management Agency; section 149 increased funding for item No. 2670-001-0290, for the support of the Board of Pilot Commissioners; and section 318 increased item No. 4265-001-0890, for the support of the State Department of Public Health. (Assem. Bill 4X 1, \u00a7\u00a7 10, 61, 149, 318.)\nThe Legislative Counsel\u2019s Digest, as amended on July 23, 2009, states: \u201cThe Budget Act of 2009 (Chapter 1 of the 2009-10 Third Extraordinary Session) made appropriations for the support of state government for the 2009-10 fiscal year.\n\u201cThis bill would make revisions in those appropriations for the 2009-10 fiscal year. The bill would make specified reductions in certain appropriations.\n\u201cThe California Constitution authorizes the Governor to declare a fiscal emergency and to call the Legislature into special session for that purpose. The Governor issued a proclamation declaring a fiscal emergency, and calling a special session for this purpose, on July 1, 2009.\n\u201cThis bill would state that it addresses the fiscal emergency declared by the Governor by proclamation issued on July 1, 2009, pursuant to the California Constitution.\n\u201cThis bill would declare that it is to take effect immediately as an urgency statute.\n\u201c. . . Appropriation: . . . yes.\u201d (Legis. Counsel\u2019s Dig., Assem. Bill 4X 1, italics omitted.)\nSimilar to the arguments advanced by petitioners and interveners, the Legislative Counsel\u2019s opinion concludes: \u201cThe legal effect of an item or section of a bill that solely makes a reduction of a previously appropriated amount is not to grant authority to a state officer to expend a specified sum, but to lessen that authority. Unlike an appropriation, the reduction of an existing appropriation does not set aside moneys for payment of a claim or make a new appropriation of moneys from the public treasury, nor does it add additional amounts to funds already provided for by an existing appropriation or identify a new purpose for which moneys may be expended. A state officer is not granted new expenditure authority, nor is a state officer\u2019s expenditure authority extended in any way by an item or section of a bill that solely makes a reduction of an existing appropriation.\u201d (Ops. Cal. Legis. Counsel, No. 0920928, supra, Governor\u2019s Line-Item Veto Authority: Reductions to Existing Appropriations, p. 4, fn. omitted.)\nMoreover, as the Governor observes in his answer brief, the Legislative Counsel\u2019s opinion ignores the multiple definitions of the phrase \u201citem of appropriation\u201d that we recognized in Harbor, supra, 43 Cal.3d at page 1089.\nArticle IV, section 9 of the California Constitution provides in its entirety: \u201cA statute shall embrace but one subject, which shall be expressed in its title. If a statute embraces a subject not expressed in its title, only the part not expressed is void. A statute may not be amended by reference to its title. A section of a statute may not be amended unless the section is re-enacted as amended.\u201d (Italics added.)\nWe agree that a purpose of article IV, section 9 of the California Constitution is to \u201cmake sure legislators are not operating in the blind when they amend legislation, and to make sure the public can become apprised of changes in the law.\u201d (American Lung Assn. v. Wilson (1996) 51 Cal.App.4th 743, 749 [59 Cal.Rptr.2d 428], citing Hellman v. Shoulters (1896) 114 Cal. 136, 152 [45 P. 1057].)\nGovernment Code section 9605 states in relevant part: \u201cWhere a section or part of a statute is amended, it is not to be considered as having been repealed and reenacted in the amended form. The portions which are not altered are to be considered as having been the law from the time when they were enacted; the new provisions are to be considered as having been enacted at the time of the amendment; and the omitted portions are to be considered as having been repealed at the time of the amendment.\u201d\nHaving reached this conclusion, we need not, and do not, consider the \u201csingle subject\u201d issues (see Cal. Const., art. IV, \u00a7 9) discussed in the briefs filed in this court, and addressed in the appellate court\u2019s decision below.\nThis result also would have occurred had the Governor vetoed Assembly Bill 4X 1 in its entirety. Interveners, however, do not argue that the entire bill was not subject to veto or that the exercise of such a veto would be an impermissibly creative act rather than a permissibly negative one.\nPetitioners and interveners also point to the defeat of Proposition 76 at the November 8, 2005 Special Election, and the defeat of Proposition 1A in May 2009, as evidence that the voters did not confer upon the Governor the line-item authority he exercised here. Proposition 76 would have allowed the Governor unilaterally to make spending reductions if the Legislature failed to enact legislation to deal with a fiscal emergency. (Voter Information Guide, Special Elec., supra, Prop. 76 [State Spending and School Funding Limits].) Similarly, Proposition 1A would have allowed the Governor unilaterally to make certain midyear reductions without legislative approval. (Voter Information Guide, Special Elec., supra, Prop. 1A [State Budget. Changes California Budget Process. Limits State Spending. Increases \u201cRainy Day\u201d Budget Stabilization Fund.].) These two propositions, which would have expanded executive powers and permitted unilateral spending cuts by the Governor, are inapposite to the issues presented in the case before us, which concern the Governor\u2019s exercise of the long-established line-item authority. (See American Civil Rights Foundation v. Berkeley Unified School Dist. (2009) 172 Cal.App.4th 207, 219, fn. 9 [90 Cal.Rptr.3d 789] [denying a request for judicial notice of ballot arguments regarding a later, failed initiative on the same general topic as Prop. 209, and instead choosing to \u201cfocus our attention on the voters\u2019 intent in 1996, when they adopted Proposition 209\u201d].)\nMoreover, in this regard and generally, petitioners and interveners minimize the significant role that article IV, section 10, subdivision (f) of the California Constitution confers upon the Governor in the event of fiscal emergencies. As amici curiae former California Governors point out, \u201cthe argument in support of Proposition 58 made clear that the Governor\u2019s role under subdivision (f) was not that of a mere bystander, but a principal player.\u201d \u201cProposition 58 requires the Legislature to enact a balanced budget and if circumstances change after they pass the budget, the Governor is required to call them into special session to make mid-year changes to the budget . . . .\u201d (Supplemental Voter Information Guide, Primary Elec., supra, rebuttal to argument against Prop. 58, p. 15.) Especially in light of this 2004 amendment to the Constitution, we discern no reason to conclude that the electorate ever has intended to prevent the Governor from exercising the same power to reduce items of appropriation that he or she possesses with regard to the regular budget process.\nAssociate Justice of the Court of Appeal, Fourth Appellate District, Division Three, assigned by the Chief Justice pursuant to article VI, section 6 of the California Constitution.",
+        "type": "majority",
+        "author": "GEORGE, C. J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Kirkland & Ellis, R. Alexander Pilmer and Derek Milosavljevic for Petitioner St. John\u2019s Well Child and Family Center.",
+      "Neighborhood Legal Services of Los Angeles County, Abby McClelland, Katherine E. Meiss, David Pallack and Barbara Siegel for Petitioners Rosa Navarro and Lionso Guzman.",
+      "Disability Rights Advocates, Sidney Wolinsky, Katrina K. Corbit and Anna Levine for Petitioners Californians for Disability Rights, California Foundation for Independent Living Centers, Nevada-Sierra Regional In-Home Support Services Public Authority, Liane Yasumoto and Judith Smith.",
+      "Western Center on Law & Poverty, Richard A. Rothschild and Nu Usaha for Petitioners.",
+      "Miguel A. Marquez, Acting County Counsel (Santa Clara), Tamara A. Lange, Lead Deputy County Counsel, Juniper Lesnik and Greta S. Hansen, Deputy County Counsel, for County of Santa Clara as Amicus Curiae on behalf of Petitioners.",
+      "Rothner, Segall, Greenstone & Leheny, Anthony R. Segall; Altshuler Berzon, Scott A. Kronland and Danielle E. Leonard for SEIU California State Council, United Domestic Workers and California United Homecare Workers as Amici Curiae on behalf of Petitioners.",
+      "O\u2019Melveny & Myers, Robert M. Schwartz, Robert C. Welsh, David A. Lash, Sandeep N. Solanki, Jordan P. Raphael, Robert Silvers, Jessica A. Hoogs, Ashley Chalmers and Flora Vigo for Children Now, Valley Community Clinic, Eisner Pediatric & Family Medical Center, The Saban Free Clinic, YWCA Monterey County, Westside Family Health Center, Community Clinic Association of Los Angeles County and The Legal Aid Association of California as Amici Curiae on behalf of Petitioners.",
+      "Paul, Hastings, Janofsky & Walker, Eve M. Coddon, Cameron W. Fox and Amanda A. Bolliger for AIDS Project Los Angeles as Amicus Curiae on behalf of Petitioners.",
+      "Reich, Adell & Cvitan, Laurence S. Zakson, William Y. Sheh and Aaron G. Lawrence for Los Angeles County Democratic Central Committee as Amicus Curiae on behalf of Petitioners.",
+      "Martin A. Weiss for Riverside County Democratic Central Committee as Amicus Curiae on behalf of Petitioners.",
+      "Edmund G. Brown, Jr., Attorney General, Jonathan K. Renner, Assistant Attorney General, Zackery R Morazzini and Ross C. Moody, Deputy Attorneys General, for Respondents.",
+      "Nielsen, Merksamer, Parinello, Mueller & Naylor, Steven A. Merksamer, Richard D. Maitland and Kurt Oneto for George Deukmejian, Pete Wilson, Gray Davis, California Chamber of Commerce, California Taxpayers\u2019 Association and California Business Roundtable as Amici Curiae on behalf of Respondents.",
+      "Diane F. Boyer-Vine, Jeffrey A. DeLand; Remcho, Johansen & Purcell, Robin B. Johansen, James C. Harrison, Thomas A. Willis, Karen Getman and Margaret R. Prinzing for Interveners."
+    ],
+    "corrections": "",
+    "head_matter": "[No. S181760.\nOct. 4, 2010.]\nST. JOHN\u2019S WELL CHILD AND FAMILY CENTER et al., Petitioners, v. ARNOLD SCHWARZENEGGER, as Governor, etc., et al., Respondents; DARRELL STEINBERG, Individually and as President pro Tempore, etc., et al., Interveners.\nCounsel\nKirkland & Ellis, R. Alexander Pilmer and Derek Milosavljevic for Petitioner St. John\u2019s Well Child and Family Center.\nNeighborhood Legal Services of Los Angeles County, Abby McClelland, Katherine E. Meiss, David Pallack and Barbara Siegel for Petitioners Rosa Navarro and Lionso Guzman.\nDisability Rights Advocates, Sidney Wolinsky, Katrina K. Corbit and Anna Levine for Petitioners Californians for Disability Rights, California Foundation for Independent Living Centers, Nevada-Sierra Regional In-Home Support Services Public Authority, Liane Yasumoto and Judith Smith.\nWestern Center on Law & Poverty, Richard A. Rothschild and Nu Usaha for Petitioners.\nMiguel A. Marquez, Acting County Counsel (Santa Clara), Tamara A. Lange, Lead Deputy County Counsel, Juniper Lesnik and Greta S. Hansen, Deputy County Counsel, for County of Santa Clara as Amicus Curiae on behalf of Petitioners.\nRothner, Segall, Greenstone & Leheny, Anthony R. Segall; Altshuler Berzon, Scott A. Kronland and Danielle E. Leonard for SEIU California State Council, United Domestic Workers and California United Homecare Workers as Amici Curiae on behalf of Petitioners.\nO\u2019Melveny & Myers, Robert M. Schwartz, Robert C. Welsh, David A. Lash, Sandeep N. Solanki, Jordan P. Raphael, Robert Silvers, Jessica A. Hoogs, Ashley Chalmers and Flora Vigo for Children Now, Valley Community Clinic, Eisner Pediatric & Family Medical Center, The Saban Free Clinic, YWCA Monterey County, Westside Family Health Center, Community Clinic Association of Los Angeles County and The Legal Aid Association of California as Amici Curiae on behalf of Petitioners.\nPaul, Hastings, Janofsky & Walker, Eve M. Coddon, Cameron W. Fox and Amanda A. Bolliger for AIDS Project Los Angeles as Amicus Curiae on behalf of Petitioners.\nReich, Adell & Cvitan, Laurence S. Zakson, William Y. Sheh and Aaron G. Lawrence for Los Angeles County Democratic Central Committee as Amicus Curiae on behalf of Petitioners.\nMartin A. Weiss for Riverside County Democratic Central Committee as Amicus Curiae on behalf of Petitioners.\nEdmund G. Brown, Jr., Attorney General, Jonathan K. Renner, Assistant Attorney General, Zackery R Morazzini and Ross C. Moody, Deputy Attorneys General, for Respondents.\nNielsen, Merksamer, Parinello, Mueller & Naylor, Steven A. Merksamer, Richard D. Maitland and Kurt Oneto for George Deukmejian, Pete Wilson, Gray Davis, California Chamber of Commerce, California Taxpayers\u2019 Association and California Business Roundtable as Amici Curiae on behalf of Respondents.\nDiane F. Boyer-Vine, Jeffrey A. DeLand; Remcho, Johansen & Purcell, Robin B. Johansen, James C. Harrison, Thomas A. Willis, Karen Getman and Margaret R. Prinzing for Interveners."
+  },
+  "file_name": "0960-01",
+  "first_page_order": 998,
+  "last_page_order": 1026
+}

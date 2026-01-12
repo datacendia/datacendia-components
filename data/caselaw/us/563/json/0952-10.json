@@ -1,0 +1,59 @@
+{
+  "id": 5935814,
+  "name": "Juvenile Male v. United States",
+  "name_abbreviation": "Juvenile Male v. United States",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-9565",
+  "first_page": "952",
+  "last_page": "952",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 952"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 79,
+    "ocr_confidence": 0.644,
+    "sha256": "677442957ee6e619733a02c767341958b5fd461e3a841e2f046e7f5fbccaf73e",
+    "simhash": "1:16aac293ce0d9110",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Juvenile Male v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9565.\nJuvenile Male v. United States."
+  },
+  "file_name": "0952-10",
+  "first_page_order": 978,
+  "last_page_order": 978
+}

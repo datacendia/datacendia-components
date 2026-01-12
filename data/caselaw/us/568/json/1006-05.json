@@ -1,0 +1,59 @@
+{
+  "id": 12422330,
+  "name": "Shelby County, Alabama v. Holder, Attorney General, et al.",
+  "name_abbreviation": "Shelby County v. Holder",
+  "decision_date": "2012-11-09",
+  "docket_number": "No. 12-96",
+  "first_page": "1006",
+  "last_page": "1006",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1006"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 54,
+    "char_count": 439,
+    "ocr_confidence": 0.635,
+    "sha256": "95ba35a54068bb9d612a62d032f1d772fd30cccc61485ac3c07638ac70f5c6d9",
+    "simhash": "1:1461e42045717307",
+    "word_count": 71
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Shelby County, Alabama v. Holder, Attorney General, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. D. C. Cir. Certiorari granted limited to the following question: \u201cWhether Congress\u2019 decision in 2006 to reauthorize \u00a75 of the Voting Rights Act under the pre-existing coverage formula of \u00a7 4(b) of the Voting Rights Act exceeded its authority under the Fourteenth and Fifteenth Amendments and thus violated the Tenth Amendment and Article IV of the Constitution.\u201d",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-96.\nShelby County, Alabama v. Holder, Attorney General, et al."
+  },
+  "file_name": "1006-05",
+  "first_page_order": 1082,
+  "last_page_order": 1082
+}

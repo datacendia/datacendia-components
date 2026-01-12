@@ -1,0 +1,59 @@
+{
+  "id": 12212979,
+  "name": "Gary v. Jones, Warden",
+  "name_abbreviation": "Gary v. Jones",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11267",
+  "first_page": "876",
+  "last_page": "876",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 876"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.635,
+    "sha256": "af583a06b05efed854a469cae5ca37aa26e6d9de11ff2f11127bd7ebaeca4078",
+    "simhash": "1:08481f1ef4c991da",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gary v. Jones, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11267.\nGary v. Jones, Warden."
+  },
+  "file_name": "0876-04",
+  "first_page_order": 958,
+  "last_page_order": 958
+}

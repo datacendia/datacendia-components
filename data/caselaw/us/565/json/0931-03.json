@@ -1,0 +1,61 @@
+{
+  "id": 12226146,
+  "name": "Williams v. United States",
+  "name_abbreviation": "Williams v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-9941",
+  "first_page": "931",
+  "last_page": "931",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 931"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 152,
+    "ocr_confidence": 0.661,
+    "sha256": "5c459ff91982201f131fd27cc2b28bac4a44cd33ac6ad4c31dd19f2f873bb3b7",
+    "simhash": "1:8933eb820d2e18ca",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Williams v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9941.\nWilliams v. United States."
+  },
+  "file_name": "0931-03",
+  "first_page_order": 1013,
+  "last_page_order": 1013
+}

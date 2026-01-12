@@ -1,0 +1,59 @@
+{
+  "id": 6000608,
+  "name": "Barnes v. Florida",
+  "name_abbreviation": "Barnes v. Florida",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5054",
+  "first_page": "901",
+  "last_page": "901",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 901"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 65,
+    "ocr_confidence": 0.63,
+    "sha256": "79882b4afa34a712f26118345a1bd667fdce211e2c7eb59778c6783e3090616b",
+    "simhash": "1:7b4eda0774e37a37",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Barnes v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5054.\nBarnes v. Florida."
+  },
+  "file_name": "0901-03",
+  "first_page_order": 923,
+  "last_page_order": 923
+}

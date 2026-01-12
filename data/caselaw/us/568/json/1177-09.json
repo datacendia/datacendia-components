@@ -1,0 +1,59 @@
+{
+  "id": 12431288,
+  "name": "Dinkins et al. v. United States",
+  "name_abbreviation": "Dinkins v. United States",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-7923",
+  "first_page": "1177",
+  "last_page": "1177",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1177"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 80,
+    "ocr_confidence": 0.666,
+    "sha256": "211f11ebb08e8f51994ea9fb030776a39b80fe2a0640068edfa909edde3edf3d",
+    "simhash": "1:a7e8ded16fadbc24",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dinkins et al. v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7923.\nDinkins et al. v. United States."
+  },
+  "file_name": "1177-09",
+  "first_page_order": 1253,
+  "last_page_order": 1253
+}

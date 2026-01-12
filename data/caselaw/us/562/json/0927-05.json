@@ -1,0 +1,59 @@
+{
+  "id": 6013957,
+  "name": "Scott v. JP Morgan Chase Bank",
+  "name_abbreviation": "Scott v. JP Morgan Chase Bank",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5527",
+  "first_page": "927",
+  "last_page": "927",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 927"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 78,
+    "ocr_confidence": 0.554,
+    "sha256": "ee081d0c9a50d6d41eb1913ba25c780966ad8870192cd3d12ed7ffc1aebc7703",
+    "simhash": "1:cfc2dd821a0e1ede",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Scott v. JP Morgan Chase Bank."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5527.\nScott v. JP Morgan Chase Bank."
+  },
+  "file_name": "0927-05",
+  "first_page_order": 949,
+  "last_page_order": 949
+}

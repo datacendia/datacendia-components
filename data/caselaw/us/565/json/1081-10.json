@@ -1,0 +1,59 @@
+{
+  "id": 12236922,
+  "name": "Cook v. Chase Bank et al.",
+  "name_abbreviation": "Cook v. Chase Bank",
+  "decision_date": "2011-12-05",
+  "docket_number": "No. 11-6664",
+  "first_page": "1081",
+  "last_page": "1081",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1081"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 73,
+    "ocr_confidence": 0.659,
+    "sha256": "b08f2bcaf886c560aa8d6c66f187e3536e4ae9e0ba2171793c3603e31b8bd0d5",
+    "simhash": "1:929876ace027d810",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cook v. Chase Bank et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6664.\nCook v. Chase Bank et al."
+  },
+  "file_name": "1081-10",
+  "first_page_order": 1163,
+  "last_page_order": 1163
+}

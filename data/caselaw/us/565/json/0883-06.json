@@ -1,0 +1,59 @@
+{
+  "id": 12214782,
+  "name": "Hawley v. California",
+  "name_abbreviation": "Hawley v. California",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-130",
+  "first_page": "883",
+  "last_page": "883",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 883"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 83,
+    "ocr_confidence": 0.673,
+    "sha256": "182dbc9fc21284e8aff38ab83641d6108cc45dbaf941550eb8170485909e7764",
+    "simhash": "1:49a1318c00c14161",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hawley v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 6th App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-130.\nHawley v. California."
+  },
+  "file_name": "0883-06",
+  "first_page_order": 965,
+  "last_page_order": 965
+}

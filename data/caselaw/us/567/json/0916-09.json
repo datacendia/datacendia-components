@@ -1,0 +1,59 @@
+{
+  "id": 12409440,
+  "name": "Gjerde v. State Bar of California",
+  "name_abbreviation": "Gjerde v. State Bar of California",
+  "decision_date": "2012-06-18",
+  "docket_number": "No. 11-1219",
+  "first_page": "916",
+  "last_page": "916",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 916"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 81,
+    "ocr_confidence": 0.615,
+    "sha256": "690c1c1d53b02293cf46e8ac84852832e01bba176ab6c70c30330d37c95b8116",
+    "simhash": "1:0c099b32897cc181",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gjerde v. State Bar of California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1219.\nGjerde v. State Bar of California."
+  },
+  "file_name": "0916-09",
+  "first_page_order": 820,
+  "last_page_order": 820
+}

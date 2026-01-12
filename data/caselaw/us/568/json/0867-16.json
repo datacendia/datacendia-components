@@ -1,0 +1,59 @@
+{
+  "id": 12414489,
+  "name": "Newton v. Oklahoma",
+  "name_abbreviation": "Newton v. Oklahoma",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10895",
+  "first_page": "867",
+  "last_page": "867",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 867"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 74,
+    "ocr_confidence": 0.669,
+    "sha256": "03503269bde390d4c7bd532b009953ce7eaeb85e72c8f10ed75392303bceed43",
+    "simhash": "1:043e720613686f6d",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Newton v. Oklahoma."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Okla. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10895.\nNewton v. Oklahoma."
+  },
+  "file_name": "0867-16",
+  "first_page_order": 943,
+  "last_page_order": 943
+}

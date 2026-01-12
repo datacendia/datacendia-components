@@ -1,0 +1,59 @@
+{
+  "id": 5938326,
+  "name": "Hambrick v. United States",
+  "name_abbreviation": "Hambrick v. United States",
+  "decision_date": "2011-05-23",
+  "docket_number": "No. 10-10144",
+  "first_page": "1015",
+  "last_page": "1015",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1015"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.577,
+    "sha256": "3f4fc14cad79d3284e79f5abee875e1a75ed240bbb79998e5680b5cc154b4e06",
+    "simhash": "1:253ae6ad2d3d104d",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hambrick v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10144.\nHambrick v. United States."
+  },
+  "file_name": "1015-05",
+  "first_page_order": 1041,
+  "last_page_order": 1041
+}

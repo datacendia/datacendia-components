@@ -1,0 +1,714 @@
+{
+  "id": 2328422,
+  "name": "Cecil Snyder et al v. E. L. Pitts, Chief Justice et al.",
+  "name_abbreviation": "Snyder v. Pitts",
+  "decision_date": "1951-06-27",
+  "docket_number": "No. A-3046",
+  "first_page": "407",
+  "last_page": "418",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "150 Tex. 407"
+    },
+    {
+      "type": "parallel",
+      "cite": "241 S.W.2d 136"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "181 S.W. 2d 730",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10218285
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/181/0730-01"
+      ]
+    },
+    {
+      "cite": "62 S.W. 2d 173",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10236485
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/62/0173-01"
+      ]
+    },
+    {
+      "cite": "282 S.W. 576",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10303246,
+        2278414
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw/282/0576-01",
+        "/tex/115/0417-01"
+      ]
+    },
+    {
+      "cite": "115 Texas 417",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2278414
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/115/0417-01"
+      ]
+    },
+    {
+      "cite": "39 S.W. 2d 1089",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10280464,
+        2307431
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/39/1089-01",
+        "/tex/120/0539-01"
+      ]
+    },
+    {
+      "cite": "120 Texas 539",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2307431
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/120/0539-01"
+      ]
+    },
+    {
+      "cite": "77 S.W. 945",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "97 Texas 238",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2227142
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/97/0238-01"
+      ]
+    },
+    {
+      "cite": "113 S.W. 2d 622",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10262808
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/113/0622-01"
+      ]
+    },
+    {
+      "cite": "4 S. W. 2d 589",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "121 S. W. 2d 473",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10235701
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/121/0473-01"
+      ]
+    },
+    {
+      "cite": "247 S. W. 672",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10320443
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/247/0672-01"
+      ]
+    },
+    {
+      "cite": "238 S. W. 354",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8257814
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/238/0354-01"
+      ]
+    },
+    {
+      "cite": "82 S. W. 822",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 S. W. 1113",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "277 S. W. 445",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10302881
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/277/0445-01"
+      ]
+    },
+    {
+      "cite": "19 S. W. 2d 578",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10275448
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/19/0578-01"
+      ]
+    },
+    {
+      "cite": "233 S. W. 2d 197",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10195463
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/233/0197-01"
+      ]
+    },
+    {
+      "cite": "26 S. W. 2d 687",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10283831
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/26/0687-01"
+      ]
+    },
+    {
+      "cite": "194 S. W. 194",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8250774
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/194/0194-01"
+      ]
+    },
+    {
+      "cite": "130 S. W. 2d 884",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10246929
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/130/0884-01"
+      ]
+    },
+    {
+      "cite": "25 S. W. 2d 638",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10281937
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/25/0638-01"
+      ]
+    },
+    {
+      "cite": "230 S. W. 230",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10307297
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/230/0230-01"
+      ]
+    },
+    {
+      "cite": "99 S. W. 856",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "weight": 3,
+      "opinion_index": 0
+    },
+    {
+      "cite": "241 S. W. 720",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8264126
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/241/0720-01"
+      ]
+    },
+    {
+      "cite": "143 S. W. 1183",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8295394,
+        8295426
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/143/1183-01",
+        "/sw/143/1183-02"
+      ]
+    },
+    {
+      "cite": "257 S. W. 299",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10305359
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/257/0299-01"
+      ]
+    },
+    {
+      "cite": "75 S. W. 334",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 S. W. 113",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "155 S. W. 2d 617",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10222253
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/155/0617-01"
+      ]
+    },
+    {
+      "cite": "255 S. W. 637",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10320473
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/255/0637-01"
+      ]
+    },
+    {
+      "cite": "293 S. W. 207",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10292258
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/293/0207-01"
+      ]
+    },
+    {
+      "cite": "213 S. W. 2d 161",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10188641
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/213/0161-01"
+      ]
+    },
+    {
+      "cite": "27 Texas 734",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2105522
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/27/0734-01"
+      ]
+    },
+    {
+      "cite": "97 Tex. 243",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 Tex. 434",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "13 S.W. 2d 358",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2273187,
+        10291661
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/118/0433-01",
+        "/sw2d/13/0358-01"
+      ]
+    },
+    {
+      "cite": "118 Texas 433",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2273187
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/118/0433-01"
+      ]
+    },
+    {
+      "cite": "93 S. W. 108",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "99 Texas 651",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2267690
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/99/0651-01"
+      ]
+    },
+    {
+      "cite": "77 S. W. 944",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "weight": 3,
+      "opinion_index": 0
+    },
+    {
+      "cite": "6 S.W. 800",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "69 Texas 482",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2196104
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/69/0482-01"
+      ]
+    },
+    {
+      "cite": "18 S. W. 500",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "66 Texas 199",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2202544
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/66/0199-01"
+      ]
+    },
+    {
+      "cite": "27 Texas 276",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2105462
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/27/0276-01"
+      ]
+    },
+    {
+      "cite": "24 Texas 615",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2112159
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/24/0615-01"
+      ]
+    },
+    {
+      "cite": "18 Texas 431",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2039583
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/18/0431-01"
+      ]
+    },
+    {
+      "cite": "39 S. W. 2d 1088",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10280430,
+        2307423
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/39/1088-01",
+        "/tex/120/0584-01"
+      ]
+    },
+    {
+      "cite": "120 Texas 584",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2307423
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/120/0584-01"
+      ]
+    },
+    {
+      "cite": "31 Texas 621",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        569476
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/31/0621-01"
+      ]
+    },
+    {
+      "cite": "63 S. W. 2d 1043",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10267358
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/63/1043-01"
+      ]
+    },
+    {
+      "cite": "51 S. W. 2d 731",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10251378
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/51/0731-01"
+      ]
+    },
+    {
+      "cite": "113 S. W. 2d 212",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10247361
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/113/0212-01"
+      ]
+    },
+    {
+      "cite": "237 S. W. 2d 741",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 S.W. 2d 1089",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10280464,
+        2307431
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/39/1089-01",
+        "/tex/120/0539-01"
+      ]
+    },
+    {
+      "cite": "120 Texas 539",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2307431
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/120/0539-01"
+      ]
+    },
+    {
+      "cite": "97 Texas 238",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2227142
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/97/0238-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 889,
+    "char_count": 21140,
+    "ocr_confidence": 0.607,
+    "pagerank": {
+      "raw": 1.6696056099847e-06,
+      "percentile": 0.9931640802224376
+    },
+    "sha256": "609ec6cc97822a1563ae1c9846219afa88de3be85cfc17a3b3b361036c2fd9c9",
+    "simhash": "1:ce4054e2201fc7dc",
+    "word_count": 3783
+  },
+  "last_updated": "2024-02-27T19:20:07.878787+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cecil Snyder et al v. E. L. Pitts, Chief Justice et al."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Wilson\ndelivered the opinion of the Court.\nThe question here is whether a defendant has established a second residence apart from his domicile within the meaning of the first sentence of Art. 1995 R.C.S. It arises in a suit involving a contract with a defense of accord and satisfaction. Both the trial court and the Court of Civil Appeals (with dissent) held that a second residence had been established and overruled the plea of privilege. The defendants in the trial court (relators here) contend there is \u201cno evidence\u201d to support the trial court\u2019s judgment. See the opinion of the Court of Civil Appeals as reported in Synder v. Johnson, 237 S. W. 2d 741, for a detailed statement of the facts. The parties will be referred to as in the trial court.\nBriefly, Defendant Cecil Snyder was domiciled at Vernon in Wilbarger County where he had a permanent home with homestead exemption from taxes in which his wife lived and where he voted, paid his taxes, did his banking and registered his automobile. He and a partner (his co-defendant), whose residence is not in issue here, constructed approximately twenty-five houses and other buildings as a business in Dallam, Sherman and Hartley Counties, Texas, and in Oklahoma and Kansas. While supervising this construction for a period of fifteen months from a business headquarters in Dalhart, Dallam County, Defendant Snyder had a room at a hotel part of the time and in a private residence part of the time. He spent most of his time in Dalhart during the week end, according to his brief, \u201ccommuted\u201d to Vernon on the week ends, holidays, and when \u201chis work did not require his presence in Dallam County.\u201d On one occasion his wife visited him for a day or two in Dalhart.\nThe case reaches us upon a petition for a writ of mandamus to certify, based upon an alleged conflict between the opinion of the Court of Civil Appeals in the case at bar and:\n(1) Agey v. Red Star Supply Co., 113 S. W. 2d 212 (El Paso Court of Civil Appeals) ;\n(2) Joy v. Marshall Field & Co., 51 S. W. 2d 731 (Waco Court of Civil Appeals) ;\n(3) Caprito et al. v. Weaver et al., 63 S. W. 2d 1043 (Eastland Court of Civil Appeals) ;\n(4) Blucher v. Milsted, 31 Texas 621;\n(5) Houston Printing Co. v. Tennant, 120 Texas 539, 39 S. W. 2d 1089 (Commission of Appeals approved by the Supreme Court).\nIn this situation, we will issue a writ of mandamus to certify only where the decision in the case at bar is in conflict with other decisions and we do not approve the decision in the case at bar. Stevens v. Willson, Chief Justice, 120 Texas 584, 39 S. W. 2d 1088.\nThe first sentence of Art. 1995 provides that an inhabitant of this state shall be sued in the \u201ccounty in which he has his domicile.\u201d By a series of early decisions it was established that the word domicile as used in the first sentence of the present Art. 1995 did not mean domicile but rather meant residence.\nIn Brown v. Boulden, 18 Texas 431, the court in 1857 held that the word domicile was \u201cevidently used in the sense of residence\u201d because the statute purported to govern inhabitants and \u201can inhabitant and resident mean the same thing.\u201d The court went on to distinguish between domicile and residence saying there could be but one domicile and several residences and that a residence is generally transient in nature but become a domicile when \u201cit is taken up animo manendi.\u201d\nThree years later in Wilson v. Bridgeman, 24 Texas 615, the Supreme Court cited Brown v. Boulden in support of a holding that for the purpose of establishing \u201cjurisdiction\u201d a defendant could have several residences.\nIn 1863 in Tucker v. Anderson, 27 Texas 276, the trial court instructed the jury using domicile in its technical meaning (only one \u2014 settled permanent home as contrary to temporary summer place) and was reversed on Brown v. Boulden.\nIn 1869 in Blucher v. Milsted, 31 Texas 621 (relied on by defendant in the case at bar to establish a conflict), the reconstruction court gave the word domicile its technical meaning without reference to Brown v. Boulden, Wilson v. Bridgeman, or Tucker v. Anderson.\nIn 1886 in Crawford v. Carothers, 66 Texas 199, 18 S. W. 500, the Supreme Court ignored Blucher v. Milsted and returned to Brown v. Boulden in holding that a defendant may have a residence in two counties.\nIn 1888, the Supreme Court cited Brown v. Boulden with approval in holding that a first residence had been abandoned. Faires v. Young, 69 Texas 482, 6 S.W. 800.\nIn 1904, this precise question was again before the Supreme Court in Pearson v. West, 97 Texas 238, 77 S. W. 944. The court cited Brown v. Boulden and Wilson v. Bridgeman to hold that the word domicile as used in the first sentence of what is now Art. 1995 means residence. It arrived at this from the fact that the Legislature had re-enacted the law a number of times without changing the material language since Brown v. Boulden. The present Art. 1995 was then Art. 1194. The court said:\n\u201c* * * We think that these facts show conclusively that the Legislature used the word \u2018domicile\u2019 in view of the construction which the court had placed upon it, and that its use was in the sense of \u2018residence.\u2019\n\u201cConsidering article 1194 as if it read, \u2018No person who is an inhabitant of this state shall be sued out of the county in which he has his residence,\u2019 the question presented for our decision is, did the plaintiff have the right to institute this suit in either county in which one of the residences of the defendant was, notwithstanding she knew all of the facts and circumstances connected with the occupancy of the two places?\u201d\n' In 1906 in Taylor v. Wilson, 99 Texas 651, 93 S. W. 108 the Supreme Court cited Pearson v. West and again cited Brown v. Boulden in holding that a citizen of New York domiciled in New York had established a residence for venue purposes in Jefferson County while retaining his New York domicile.\nThus Brown v. Boulden and Supreme Court cases citing and following it have firmly established that the word domicile in the first sentence of Art. 1995, does not mean a technical domicile but something less, a residence. This has caused confusion in some Civil Appeals decisions. For instance, in Joy v. Marshall Field & Co., CCA Waco 1932, 51 S. W. 2d 731 (relied on by defendant in the case at bar to establish a conflict), the court said that \u201cdomicile and residence, within the meaning of the venue statute, are one and the same thing\u201d and then went on to hold that residence must be given the technical meaning of domicile, returning to and citing Blucher v. Milsted (the 1869 case giving'domicile in the venue act its technical meaning). This is squarely contrary in principle to the Supreme Court\u2019s decision since Blucher v. Milsted holding that a defendant may have one domicile plus a second residence, upon authority of Brown v. Boulden.\nThus our problem narrows to that of determining whether there is any evidence in the case at bar which will support the trial court\u2019s judgment establishing a second residence in a different county from an established domicile.\nSince a residence is a lesser-included element within the technical definition of domicile, Evans v. American Pub. Co., 118 Texas 433, 13 S.W. 2d 358, we should start with the technical definition of domicile and eliminate as a test for a second residence those things which can be done only at a domicile. In Taylor v. Wilson, supra, where the defendant was admittedly domiciled in New York, the Supreme Court said:\n\u201c* * * Decisions of this court holding that the terms \u2018domicile\u2019 and \u2018inhabitant\u2019 used in the first clause mean, respectively, the same things as \u2018residence\u2019 and \u2018resident,\u2019 have relieved the question before us of much of the difficulty which otherwise would attend it. Brown v. Boulden, 18 Tex. 434; Pearson v. West, 97 Tex. 243, 77 S. W. 944. The certificate states that the defendant had a residence in Jefferson county, Tex., and, as citizenship and legal domicile within the state are not, according to the decisions referred to, essential to the privilege given by the first provisions of the statute, he clearly falls within it, and is entitled to that privilege.\u201d\nThe elements of the legal concept of domicile are:\n1. An actual residence\u2014\n2. The intent to make it the permanent home.\nThe word home seems to mean a \u201ctrue, fixed and permanent home and principal establishment, and to which, whenever he is absent, he has the intention of returning.\u201d Ex Parte Blumer, 27 Texas 734; Switzerland Gen. Ins. Co. v. Gulf Ins. Co., 213 S. W. 2d 161.\nFrom the fact that there can be but one domicile and several residences, we arrive at the conclusion that the element of \u201cintent to make it a permanent home\u201d is not necessary to the establishment of a second residence away from the domicile.\nThe dissent of one member of the Court of Civil Appeals in the case at bar cites a line of Civil Appeals cases making the presence of the wife a test to determine whether or not a second residence has been established in so far as a married man is concerned. Devereaux v. Rowe, CCA 1927, 293 S. W. 207. These cases are based upon an election statute, Art. 2958, R.C.S., which states that the residence of a married man is the place where his wife resides. Since this statute defines the place a married man can vote and since a person cannot vote in but one county, this statute can have no application to our problem because obviously under Art. 2958 a married man can have but residence for voting purposes, \u2014 actually his domicile. Wright v. Marquis, 255 S. W. 637, Major v. Loy, 155 S. W. 2d 617. There is no need to discuss the complications involved in this definition except to state generally that, in so far as this line of cases uses Art. 2958 for a definition of residence, it amounts to a return to the legal concept of domicile and is, therefore, when used in construing Art. 1995, no authority on this question because contrary in principle to Brown v. Boulden. In Agey v. Red Star Supply Co., CCA 1938, 113 S. W. 2d 212 (relied on by defendant in the case at bar to establish a conflict), although not citing Art. 2958 or Devereaux v. Rowe, supra, the court makes the flat statement that the \u201cresidence\u201d of a married man, unless permanently separated from his wife, is where his wife resides. This is not necessarily true if it be construed as establishing this point as a matter of law. It is in conflict with the decision of the Supreme Court in Taylor v. Wilson, supra, and is for that reason an incorrect statement of law. The same Court of Civil Appeals which wrote the opinion in the Devereaux case had previously written on this subject in Benavides v. Gussett, 8 Texas Civ. App. 198, 28 S. W. 113, where its discussion is clearly contrary to Brown v. Boulden. Its opinion in Pearson v. West, 75 S. W. 334, was based upon Benavides v. Gussett and was reversed by the Supreme Court, 97 Texas 238, 77 S. W. 944. What is said here about Art. 2958 is said only to illustrate the mistake in Devereaux v. Rowe and related cases and is not a construction of Art. 2958 as that statute is not in issue here.\nLeaving aside any consideration of Art. 2958, the presence of the wife living in a second place of abode is certainly evidence of the establishment of a second residence apart from a domicile, Pearson v. West, supra; Caprito v. Weaver, CCA 1933, 63 S. W. 2d 1043; Wrenn v. Brooks, CCA 1924, 257 S. W. 299; Kelly v. Egan, CCA 1911, 143 S. W. 1183; Funk v. Walker, CCA 1922, 241 S. W. 720; but the failure of the wife to live in a second place of abode does not as a matter of law prevent it from becoming a second residence. Taylor v. Wilson, supra; International, & G. N. Ry. Co. v. Elder, CCA 1907, 44 Texas Civ. App. 605, 99 S. W. 856; Latham v. Continental Supply Co., CCA 1921, 230 S. W. 230. Conversely, neither does the presence of the wife in the second place of abode for a considerable period of time establish a second residence as a matter of law. Bolton v. Alley, CCA 1929, 25 S. W. 2d 638; Dixon v. McDonald. CCA 1939,130 S. W. 2d 884. Thus we find that the presence or absence of the wife in a second place of abode away from a domicile is not conclusive and does not determine the question of a second residence as a matter of law one way or the other, but is simply evidence to be considered. Littlefield v. Clayton Bros., CCA 1917, 194 S. W. 194.\nA second residence away from a domicile within the meaning of the first sentence of Art. 1995 must include the following elements:\n1. A fixed place of abode within the possession of the defendant.\n2. occupied or intended to be occupied consistently over a substantial period of time\n3. which is permanent rather than temporary.\nHere Defendant Snyder rented a room at a hotel for a period and then moved to a room rented in a private home. A rented room may be a residence under Art. 1995. Wilson v. Bridgeman, supra; Internationan & G. N. Ry Co. v. Elder, supra; Gilmer v. Graham, CCA 1930, 26 S. W. 2d 687; Kerr v. Davenport, CCA 1950, 233 S. W. 2d 197. For a place of abode to become a residence under the first sentence of Art. 1995 the defendant must have some right of possession and not be a mere visitor. The payment of rent satisfies this requirement. Burns v. Napier, CCA 1929, 19 S. W. 2d 578. Hence we hold there is some evidence upon the first element of residence to support the trial court.\nDefendant Snyder spent about five days a week in Dalhart for about two years. In Pearson v. West, supra, the defendant spent about 6 months of each year in each residence. In Caprito v. Weaver, supra, a fact issue on residence was raised by a defendant spending all of 6 or 7 weeks together with his family in a second place of abode. In Wilson v. Bridgeman, supra, the defendant established a second residence in part of one year. In Bolton v. Alley, supra, a fact issue on residence was raised by defendant spending % of his time and his wife spending 2/3 of her time for a period of 2 years. In Wrenn v. Brooks, supra, the defendant established a residence by spending \u201cmost\u201d of 18 months in a county. In International & G. N. Ry. Co. v. Elder, supra, a residence was established by spending all of one year. In Kelly v. Egan, supra, defendant established a residence by spending all of 6 months. In Taylor v. Wilson, supra, the defendant established a residence in 14 months. In Littlefield v. Clayton Bros., supra, defendant established a second residence by spending from one to three days at a time every ten days or two weeks. In Gilmer v. Graham, supra, defendant established a second residence by staying from \u201cten to twenty days at a time.\u201d In Funk v. Walker, supra, defendant established a residence by being present about one to five days twice a month over a period of one year and three months. In Kerr v. Davenport, supra, defendant established a residence in Bexar County by being present about one third of the time over a period of three years. By citing these cases, we do not necessarily approve each holding. We cite them to demonstrate the weight of authority on this point.\nWe conclude that there is some evidence to support the trial court\u2019s judgment upon the second element of residence, and that we cannot hold as a matter of law that 5 days a week with some interruptions over a fifteen-month period is not enough to establish a second residence.\nThe third element involves the question of whether the place of abode is permanent or temporary. In Dixon v. McDonald, supra, the court held that the proprietor of a traveling skating rink which had been operating in Beaumont for about two months had not established a residence under Art. 1995 although he rented an apartment and had his family with him. The court held that defendant\u2019s stay in Beaumont was temporary and that \u201cwhen he moved to a new location there was no fixed purpose on his part to return\u201d to Beaumont. The case of Harrison v. Ward, CCA 1923, 277 S. W. 445, held that the stay of a cotton buyer in Corpus Christi who bought cotton during the season (July through November) was temporary, hence no residence established.\nIn the case at bar the Defendant Snyder had been regularly and consistently commuting between his room in Dalhart and his home in Vernon for a period of fifteen months at the time the plea of privilege was filed and for two years at the time it was tried. The question of whether a stay is temporary or permanent is a question of intent to be proved by declarations and acts. O\u2019Connor v. Cook, CCA 1894, 26 S. W. 1113, Gulf, C. & S. F. Ry. v. Rogers, CCA 1903, 37 Texas Civ. App., 99, 82 S. W. 822. Here the Defendant Snyder made excursions out from Dalhart and returned. It was headquarters for his business. Under the facts here there is no dispute that Defendant Snyder had not abandoned his plan for living part time in Dalhart. Faires v. Young, supra; Cross v. Johns, CCA 1922, 238 S. W. 354; Seale v. Garvey, CCA 1923, 247 S. W. 672; Eppenauer v. Schrup, CCA 1938, 121 S. W. 2d 473. Defendant Snyder occupied consistently and with continuity a fixed place of abode in Dalhart in such a manner that the trial court could find that he had ceased to be a visitor and that the proof supplied this element of the definition of a residence. Therefore we conclude that the trial court had some evidence upon which to base a finding that defendant\u2019s second residence in Dalhart was permanent and not temporary.\nReturning now to the allegations that the Court of Civil Appeals opinion here conflicts with the cases listed by defendant, we hold:\n1. That Blucher v. Milsted, supra, has been in fact overruled for many years by Crawford v. Carothers, supra, Pearson v. West, supra, and other Supreme Court cases and is here expressly overruled.\n2. That the discussion of the law but not necessarily the holding in Joy v. Marshall Field, supra, is based upon Blucher v. Milsted, supra, and is contrary to Brown v. Boulden, supra, and Pearson v. West, supra, which control.\n3. That Agey v. Red Star Supply Co., supra, in so far as it makes the presence of the wife in a second residence a conclusive factor as a matter of law is in conflict with Taylor v. Wilson, supra, a Supreme Court case which governs.\n4. That Caprito v. Weaver, supra, is not in conflict with the Court of Civil Appeals opinion here but rather is in harmony with it.\n5. That Houston Printing Co. v. Tennant, 120 Texas 539, 39 S. W. 2d 1089, is not in conflict because it involved, under Subdivision 29, Art. 1995, the right of a plaintiff to bring his suit for libel in a county where, as a public official, he had his domicile (which included a residence) and is therefore not comparable on the facts to the case at bar.\n7 The basic underlying policy of the law is well stated in Halverson v. Livengood, CCA 1928, 4 S. W. 2d 589:\n\u201cStatutes regulating the local venue of legal proceedings are generally designed to provide for the convenience of the parties involved. The provisions fixing the venue of actions against living persons were, in the main, manifestly adopted to prevent serious inconveniences and probable injury to defendants from the bringing of suits against them in counties remote from where the defendants resided and transacted their business. Such inconvenience, however, could not be claimed by a defendant when sued in a county where he spent so large a portion of his time as to make that county a place of residence.\u201d\nThe judgment of the trial court here is in harmony with this policy. The contract was executed and performed in Dallam County and both the alleged breach and the alleged accord and satisfaction occurred there. Defendant spent most of the working days of the week in Dallam County. This very case, demonstrates the wisdom of the policy.\nHaving determined that there is some evidence to support the trial court\u2019s finding that the Defendant Snyder has established a residence in Dallam County under the first sentence of Art. 1995, we do not pass upon other questions brought forward.\nSince the Court of Civil Appeals has reached a correct result, petition for writ of mandamus is denied.\nOpinion delivered June 27, 1951.\nRehearing overruled July 25, 1951.",
+        "type": "majority",
+        "author": "Mr. Justice Wilson"
+      }
+    ],
+    "attorneys": [
+      "Storey, Storey & Donaghey, of Vernon, King Fike, of Dalhart, and John D. Aikin, Mel Ruth Aiken and James W. Wither-spoon, all of Hereford, for relators.",
+      "F. H. Richards, of Dalhart, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "Cecil Snyder et al v. E. L. Pitts, Chief Justice et al.\nNo. A-3046.\nDecided June 27, 1951.\nRehearing overruled July 25, 1951.\n(241 S. W., 2d Series, 136.)\nStorey, Storey & Donaghey, of Vernon, King Fike, of Dalhart, and John D. Aikin, Mel Ruth Aiken and James W. Wither-spoon, all of Hereford, for relators.\nThere was no evidence in the record on the plea of privilege to show that Cecil Snyder was a resident of Dallam County, but all the evidence showed that he was a resident of Wilbarger County. Fidelity & Deposit Co. v. First Natl. Bank of Teague, 113 S.W. 2d 622; Pearson v. West, 97 Texas 238, 77 S.W. 945; Houston Printing Co. v. Tenant, 120 Texas 539, 39 S.W. 2d 1089.\nF. H. Richards, of Dalhart, for respondents.\nA person may have but one domicile but may have a number of residences and is suable in any county where he may have one of such residences. Pittsburg Water Heater Co. v. Sullivan, 115 Texas 417, 282 S.W. 576; Yantis v. Gilliam, 62 S.W. 2d 173; Page v. Kilgore, 181 S.W. 2d 730."
+  },
+  "file_name": "0407-01",
+  "first_page_order": 423,
+  "last_page_order": 434
+}

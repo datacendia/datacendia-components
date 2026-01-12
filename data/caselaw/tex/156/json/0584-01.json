@@ -1,0 +1,237 @@
+{
+  "id": 2252427,
+  "name": "Lawrence A. Burger v. Elsa Burger",
+  "name_abbreviation": "Burger v. Burger",
+  "decision_date": "1957-01-30",
+  "docket_number": "No. A-6033",
+  "first_page": "584",
+  "last_page": "587",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "156 Tex. 584"
+    },
+    {
+      "type": "parallel",
+      "cite": "298 S.W.2d 119"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "111 S.W. 394",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "101 Texas 607",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2263339
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/101/0607-01"
+      ]
+    },
+    {
+      "cite": "95 S.W. 2d 953",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10271291,
+        2294783
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/95/0953-01",
+        "/tex/127/0556-01"
+      ]
+    },
+    {
+      "cite": "127 Texas 556",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2294783
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/127/0556-01"
+      ]
+    },
+    {
+      "cite": "163 S.W. 2d 731",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10222134
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/163/0731-01"
+      ]
+    },
+    {
+      "cite": "162 S.W. 2d 991",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10225009,
+        10225062
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/162/0991-01",
+        "/sw2d/162/0991-02"
+      ]
+    },
+    {
+      "cite": "61 S.W. 2d 1024",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10270055
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/61/1024-01"
+      ]
+    },
+    {
+      "cite": "75 S.W. 2d 968",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10273214
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/75/0968-01"
+      ]
+    },
+    {
+      "cite": "60 Texas 312",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2170937
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/60/0312-01"
+      ]
+    },
+    {
+      "cite": "291 S.W. 261",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10295037
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/291/0261-01"
+      ]
+    },
+    {
+      "cite": "84 S.W. 2d 332",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10240159
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/84/0332-01"
+      ]
+    },
+    {
+      "cite": "298 S.W. 610",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10299988
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/298/0610-01"
+      ]
+    },
+    {
+      "cite": "265 S.W. 2d 897",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10208111
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/265/0897-01"
+      ]
+    },
+    {
+      "cite": "55 S.W. 2d 187",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10234721
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/55/0187-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 445,
+    "char_count": 6660,
+    "ocr_confidence": 0.605,
+    "pagerank": {
+      "raw": 8.918421530852369e-07,
+      "percentile": 0.9784753860167137
+    },
+    "sha256": "2ae0f310d474e2683f25a7206b4854b46f0740c79f51372ae9f792ce1682b4d4",
+    "simhash": "1:8939dc266006594a",
+    "word_count": 1169
+  },
+  "last_updated": "2024-02-27T22:45:04.681911+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lawrence A. Burger v. Elsa Burger"
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Brewster\ndelivered the opinion of the Court.\nOn June 22, 1953, Elsa Burger, respondent, was granted a divorce from Lawrence L. Burger, petitioner, by a Dallas County District Court, and was awarded custody of their three minor children. The trial court further adjudged that defendant pay into the court\u2019s registry each month $300, to be paid to plaintiff as his contribution to the support and maintenance of the children. At the time of divorce both plaintiff and defendant resided in Dallas, Texas, but after the divorce was granted defendant moved to Florida, which became and is the place of residence of each.\nOn June 17, 1955, Elsa Burger, describing herself as plaintiff, filed in the divorce case what she styled her \u201cMotion to Reduce Child Support Arrearage\u201d to judgment against defendant. She alleged that defendant Burger was at the date of filing the motion behind $5,315.00 in the child support payments ordered in the divorce judgment above described, wherefore she was entitled to a money judgment for that sum. She prayed for proper notice to defendant to show cause why she should not be allowed such judgment. This notice was issued and was duly served by a sheriff in Florida on June 21, 1955.\nOn July 8, 1955, the Honorable H. Louis Nichols, of the Dallas Bar, describing himself as \u201cAmicus Curiae,\u201d filed what he called a \u201cSuggestion of Want of Jurisdiction.\u201d His position was that the court had no jurisdiction to reduce the amount owed for child support to a final judgment for a fixed sum, \u201cin that Article 4639a of Vernon\u2019s Revised Civil Statutes does not authorize\u201d the relief because defendant is a resident of Florida and beyond the jurisdiction of a Texas court. This \u201cSuggestion\u201d was filed with the consent of the trial court. .\nThe first question to be determined is whether the \u201cSuggestion\u201d filed by Mr. Nichols was merely as an amicus curiae, as he contends, or constituted an appearance by petitioner for all purposes having to do with the suit. Under the facts of this case it would indeed be unreal to say that Mr. Nichols was merely an amicus curiae. Mr. Nichols testified that when Burger got the notice to serve non-resident he mailed it to a member of Mr. Nichols\u2019 firm with a check for $100.00, and asked \u201cwhat could be done since he had not been served, in order to bring to the attention of the court that he was served in Florida.\u201d Mr. Nichols was then asked \u201cDid he pay a fee of any kind for this attention to the case by your office?\u201d To this Mr. Nichols replied: \u201cHe has sent Mr. Sallinger a check for * * * for $100.00, and I do not know exactly what it covers.\u201d It is interesting to note here that both the motion for rehearing in the Court of Civil Appeals and the application for writ of error here are indorsed as filed by \u201cLawrence L. Burger Amicus Curiae Substituting for H. Louis Nichols.\u201d\nA true amicus curiae is without interest in the litigation in which he appears. He is a \u201cbystander\u201d whose mission is to aid the court, to act only for the personal benefit of the court. There are many authorities, but we deem it adequate to cite only a few. See Thomas v. Driver, 55 S.W. 2d 187, Broome v. Smith, 265 S.W. 2d 897, Walker County Lbr. Co. v. Edmonds, 298 S.W. 610, Jackson v. Birk, 84 S.W. 2d 332, Olcott v. Reese, 291 S.W. 261, and The State of Texas v. Jefferson Iron Co., 60 Texas 312; Amer. Jur. Vol. 2, p. 679, sec. 2.\nIt is said that a special appearance is unknown to our practice; that the filing by a defendant of any defensive pleading, though it be only for the purpose of challenging the jurisdiction of the court, constitutes an appearance and a submission to the jurisdiction of the court for all purposes. Waco Hilton Hotel Co. v. Waco Development Co., Texas Civ. App., 75 S.W. 2d 968, error dismissed. Here the suggestion was the want of jurisdiction of the trial court over the subject matter of the cause of action under Art. 4639a, V.A.C.S. This was followed by a further suggestion that the trial court had no jurisdiction over the person of the defendant because he was not served in Texas. But that cannot avoid the fact that through his employed attorney Burger asked for an order of the court which called for the exercise of its judicial functions. We hold, therefore, that he was in court for the exercises of such powers as the court had jurisdiction to exercise. Pacific Amer. Gasoline Co. of Texas et al v. Miller et al., 61 S.W. 2d 1024.\nIt seems clear from the decisions that the trial court had no power to enter a judgment such as that sought by Mrs. Burger in this case. Whatever power it has in that regard has been held to come from Art. 4639a, V.A.C.S., and that statute is exclusive. It was held in McDonald v. Mercantile Nat. Bank, 162 S.W. 2d 991, that an order in a divorce suit requiring the father to make periodic payments for child support cannot be enforced by garnishment sought by the divorced wife. As said in that case, the statute (Art. 4639a, V.A.C.S.) \u201cmakes the obligation inheritably imposed upon parents to adequately support their children, a mandatory duty of the divorce court, to order the support of such minors and enforce its decree by contempt proceedings. The statute and authorities leave no room for argument. The statute is so enacted to meet an urgent situation, specially designed in the interest and for the benefit of the minor child, or children, and enforceable only by contempt. The order is not final; it may be altered, changed, or suspended by the court entering the order, as the facts, circumstances, and justice may require. The wife has no pecuniary interest in the award; her interest is merely the promptings of a mother\u2019s filial obedience to the demands of her offsprings (sic) that they have necessary support. The order is not enforceable, other than by the means provided by the statute.\u201d This is the holding also in Youngblood v. Youngblood, 163 S.W. 2d 731, which holds that the only remedy for enforcing an order for child support is a civil contempt proceeding as stated in Art. 4639a, supra. See also Ex parte Birkhead, 127 Texas 556, 95 S.W. 2d 953, and Ex parte Davis, 101 Texas 607, 111 S.W. 394.\nThe judgment of the Court of Civil Appeals is reversed. The judgment of the trial court dismissing this case for want of jurisdiction is affirmed.\nOpinion delivered January 30, 1957.\nRehearing overruled February 20, 1957.",
+        "type": "majority",
+        "author": "Mr. Justice Brewster"
+      }
+    ],
+    "attorneys": [
+      "Lawrence L. Burger, substituting for H. Louis Nichols, Amicus Curiae, of Dallas, petitioner.",
+      "Jules F. Mayer, of Dallas, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "Lawrence A. Burger v. Elsa Burger\nNo. A-6033.\nDecided January 30, 1957.\nRehearing overruled February 20, 1957.\n(298 S.W. 2d Series 119).\nLawrence L. Burger, substituting for H. Louis Nichols, Amicus Curiae, of Dallas, petitioner.\nJules F. Mayer, of Dallas, for respondent."
+  },
+  "file_name": "0584-01",
+  "first_page_order": 596,
+  "last_page_order": 599
+}

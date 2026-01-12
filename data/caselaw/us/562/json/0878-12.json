@@ -1,0 +1,59 @@
+{
+  "id": 5983123,
+  "name": "Brown v. McGrady, Superintendent, State Correctional Institution at Retreat, et al.",
+  "name_abbreviation": "Brown v. McGrady",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11406",
+  "first_page": "878",
+  "last_page": "878",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 878"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 19,
+    "char_count": 131,
+    "ocr_confidence": 0.506,
+    "sha256": "e02e939c0af0391c3e77e7680d453cfeeb1088fa8b341c679ca7cd3ced228d27",
+    "simhash": "1:d0881b886a0e803a",
+    "word_count": 19
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Brown v. McGrady, Superintendent, State Correctional Institution at Retreat, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11406.\nBrown v. McGrady, Superintendent, State Correctional Institution at Retreat, et al."
+  },
+  "file_name": "0878-12",
+  "first_page_order": 900,
+  "last_page_order": 900
+}

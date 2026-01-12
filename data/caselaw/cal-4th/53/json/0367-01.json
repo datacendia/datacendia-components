@@ -1,0 +1,721 @@
+{
+  "id": 6050802,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. SAMUEL MOSES NELSON, Defendant and Appellant",
+  "name_abbreviation": "People v. Nelson",
+  "decision_date": "2012-01-12",
+  "docket_number": "No. S181611",
+  "first_page": "367",
+  "last_page": "386",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "53 Cal. 4th 367"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal.",
+    "id": 9021,
+    "name": "Supreme Court of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "180 L.Ed.2d 310",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12450489,
+        5928609
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/180/0310-01",
+        "/us/564/0261-01"
+      ]
+    },
+    {
+      "cite": "491 P.2d 793",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "99 Cal.Rptr. 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "6 Cal.3d 375",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2274657
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/6/0375-01"
+      ]
+    },
+    {
+      "cite": "501 U.S. 171",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1108476
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "177-178"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/501/0171-01"
+      ]
+    },
+    {
+      "cite": "104 P.3d 98",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "23 Cal.Rptr.3d 295",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "34 Cal.4th 1111",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        633025
+      ],
+      "pin_cites": [
+        {
+          "page": "1123"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/34/1111-01"
+      ]
+    },
+    {
+      "cite": "72 P.3d 280",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "1 Cal.Rptr.3d 650",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Cal.4th 63",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        17392
+      ],
+      "pin_cites": [
+        {
+          "page": "80-85"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/31/0063-01"
+      ]
+    },
+    {
+      "cite": "183 P.3d 1146",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2003,
+      "opinion_index": 0
+    },
+    {
+      "cite": "77 Cal.Rptr.3d 163",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2003,
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.4th 959",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3884568
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "992-993"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/43/0959-01"
+      ]
+    },
+    {
+      "cite": "469 U.S. 91",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11958689
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "98"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/469/0091-01"
+      ]
+    },
+    {
+      "cite": "633 P.2d 186",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "176 Cal.Rptr. 521",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Cal.3d 814",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2257785
+      ],
+      "pin_cites": [
+        {
+          "page": "824-825"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/29/0814-01"
+      ]
+    },
+    {
+      "cite": "833 P.2d 561",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "10 Cal.Rptr.2d 554",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "3 Cal.4th 41",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        2008273
+      ],
+      "pin_cites": [
+        {
+          "page": "122-123"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/3/0041-01"
+      ]
+    },
+    {
+      "cite": "240 Cal.Rptr. 360",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "194 Cal.App.3d 1499",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2216123
+      ],
+      "pin_cites": [
+        {
+          "page": "1510, fn. 9"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/194/1499-01"
+      ]
+    },
+    {
+      "cite": "954 P.2d 475",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "74 Cal.Rptr.2d 212",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "17 Cal.4th 1216",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1550689
+      ],
+      "pin_cites": [
+        {
+          "page": "1239"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/17/1216-01"
+      ]
+    },
+    {
+      "cite": "760 P.2d 475",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1998,
+      "opinion_index": 0
+    },
+    {
+      "cite": "251 Cal.Rptr. 278",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1998,
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.3d 963",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1968858
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "979"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/46/0963-01"
+      ]
+    },
+    {
+      "cite": "28 P.3d 34",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "110 Cal.Rptr.2d 272",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 Cal.4th 334",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        456799
+      ],
+      "pin_cites": [
+        {
+          "page": "383"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/26/0334-01"
+      ]
+    },
+    {
+      "cite": "387 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11333627
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "55"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/387/0001-01"
+      ]
+    },
+    {
+      "cite": "92 L.Ed. 224",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "332 U.S. 596",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        365086
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "599"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/332/0596-01"
+      ]
+    },
+    {
+      "cite": "224 P.3d 877",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "105 Cal.Rptr.3d 131",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.4th 911",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3899696
+      ],
+      "pin_cites": [
+        {
+          "page": "947-949"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/47/0911-01"
+      ]
+    },
+    {
+      "cite": "494 U.S. 344",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        4952
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "350"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/494/0344-01"
+      ]
+    },
+    {
+      "cite": "451 U.S. 477",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6187603
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "484-485"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/451/0477-01"
+      ]
+    },
+    {
+      "cite": "65 Cal.Rptr.2d 513",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "56 Cal.App.4th 563",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1126374
+      ],
+      "pin_cites": [
+        {
+          "page": "577"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/56/0563-01"
+      ]
+    },
+    {
+      "cite": "432 P.2d 202",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1997,
+      "opinion_index": 0
+    },
+    {
+      "cite": "62 Cal.Rptr. 586",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1997,
+      "opinion_index": 0
+    },
+    {
+      "cite": "67 Cal.2d 365",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2328479
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "378-379"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/67/0365-01"
+      ]
+    },
+    {
+      "cite": "442 U.S. 707",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1532114
+      ],
+      "weight": 8,
+      "pin_cites": [
+        {
+          "page": "725"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/442/0707-01"
+      ]
+    },
+    {
+      "cite": "233 P.3d 1000",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "111 Cal.Rptr.3d 589",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 Cal.4th 405",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6050603
+      ],
+      "pin_cites": [
+        {
+          "page": "425"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/49/0405-01"
+      ]
+    },
+    {
+      "cite": "175 L.Ed.2d 1045",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        3582023
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "1219"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/559/0098-01"
+      ]
+    },
+    {
+      "cite": "223 P.3d 3",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "104 Cal.Rptr.3d 131",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.4th 1152",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3899347
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "1163-1164"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/47/1152-01"
+      ]
+    },
+    {
+      "cite": "130 S.Ct. 2250",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        3641704,
+        12449208
+      ],
+      "pin_cites": [
+        {
+          "page": "2260"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/560/0370-01",
+        "/l-ed-2d/176/1098-01"
+      ]
+    },
+    {
+      "cite": "176 L.Ed.2d 1098",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12449208,
+        3641704
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/176/1098-01",
+        "/us/560/0370-01"
+      ]
+    },
+    {
+      "cite": "512 U.S. 452",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        39831
+      ],
+      "weight": 15,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/512/0452-01"
+      ]
+    },
+    {
+      "cite": "384 U.S. 436",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12046400
+      ],
+      "weight": 7,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/384/0436-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1562,
+    "char_count": 45608,
+    "ocr_confidence": 0.908,
+    "pagerank": {
+      "raw": 1.0458622661294731e-07,
+      "percentile": 0.5520373967748698
+    },
+    "sha256": "4985a541687470bdd99ba8f9787537382225853c2c0061c9cfa764a0102af733",
+    "simhash": "1:39e8835a4721c18d",
+    "word_count": 7234
+  },
+  "last_updated": "2024-02-27T20:16:05.713161+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. SAMUEL MOSES NELSON, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nBAXTER, J.\nThe 15-year-old defendant in this case was tried as an adult and convicted of the murder of 72-year-old Jane Thompson, and of five first degree burglaries relating to the residences of Thompson and two other women. The evidence featured defendant\u2019s confessional statements to sheriff\u2019s investigators during a custodial interrogation. The investigators had apprised defendant of his right to remain silent and right to have the assistance of counsel pursuant to Miranda v. Arizona (1966) 384 U.S. 436 [16 L.Ed.2d 694, 86 S.Ct. 1602] (Miranda), and it is undisputed that defendant made a knowing, intelligent, and voluntary waiver of those rights at the outset of the interrogation. The question is whether defendant made a postwaiver invocation of his Miranda rights by asking several times to speak to his mother or by making certain other statements while being questioned. If he did, then the investigators\u2019 failure to stop the interrogation compelled suppression of the statements he made after the invocation.\nIn Davis v. United States (1994) 512 U.S. 452 [129 L.Ed.2d 362, 114 S.Ct. 2350] (Davis), the United States Supreme Court held that once a suspect has waived his Miranda rights, any subsequent assertion of the right to counsel must be articulated \u201csufficiently clearly that a reasonable police officer in the circumstances would understand the statement to be a request for an attorney.\u201d (Davis, at p. 459.) This standard likewise applies to assertions of the right to remain silent. (Berghuis v. Thompkins (2010) 560 U.S. _, _ [176 L.Ed.2d 1098, 130 S.Ct. 2250, 2260].)\nWe hold that juveniles claiming a postwaiver invocation of their Miranda rights are properly subject to the Davis standard. Applying that standard, we conclude the trial court did not err in finding that defendant\u2019s requests to speak to his mother and other statements were not sufficiently clear to require cessation of the interrogation. Accordingly, defendant\u2019s confessional statements were properly admitted at trial, and the contrary judgment of the Court of Appeal must be reversed.\nFactual and Procedural Background\nDefendant Samuel Moses Nelson turned 15 years old in April 2004. Later that month, he burglarized Katherine Parks\u2019s home and took two purses. In May 2004, he burglarized Sheryl Adler\u2019s home and took two wallets and a checkbook. On June 18, 2004, defendant burglarized the home of his 72-year-old neighbor, Jane Thompson, taking a credit card. On June 26, 2004, Thompson was found dead in her home. The cause of death was massive blunt-force head trauma, with multiple skull fractures and brain hemorrhaging.\nOn June 28, 2004, investigators Daniel Salcedo and Brian Sutton of the Orange County Sheriffs Department spoke with defendant outside his home. Defendant claimed he had no idea who might have killed Thompson, and said he was willing to take a lie detector test.\nAfter further investigation, Salcedo and Sutton returned to defendant\u2019s home on June 29, 2004. Defendant agreed to discuss the case with them, and was driven to the sheriff\u2019s office in Santa Ana. In a videotaped interview, the investigators asked some preliminary questions and then advised defendant of his right to counsel and right to remain silent under Miranda, supra, 384 U.S. 436. Defendant affirmed that he understood his rights and expressed a willingness to speak with the investigators.\nDuring the interview, defendant admitted entering Thompson\u2019s house and taking some jewelry, her credit card, and her purse. Despite these admissions, he denied responsibility for Thompson\u2019s murder. About three and a half hours into the session, the investigators asked defendant if he wanted to take a polygraph test, and defendant asked to call his mother. When the investigators asked the reason for the call, he said he wanted to \u201clet her know what\u2019s happening\u201d and also to \u201ctalk to her about it\u201d and \u201csee what I should do.\u201d The investigators continued with their questions, which defendant answered. As the interrogation progressed and defendant became aware of the evidence against him, he changed his story several times and ultimately confessed to the burglaries of the Parks and Adler residences. He also made additional requests to call his mother and was permitted several times to try to reach her. Although he was unable to contact his mother, he did call and speak to his grandmother and brother. At one point defendant indicated he wanted the investigators to leave him alone because, in his words, they were \u201cgetting on me for something I didn\u2019t do.\u201d At other points defendant declined to take a polygraph test, because his relatives had told him in a telephone call that they did not want him to \u201ctake the test\u201d or \u201cdo anything\u201d until a lawyer or his mother got there.\nFinally, toward the end of the interview, defendant asked to have \u201ca few minutes to myself\u2019 and answered affirmatively when investigators offered him a pencil and paper to write down his feelings. The investigators left the room after telling defendant this was his chance to explain what happened and to \u201c[d]o the right thing.\u201d On their way out, they again allowed defendant to telephone his mother and brother. When the investigators returned, defendant said he had not written anything and asked, \u201cDo you think I could be alone until my family gets here? They should be here in like 10 minutes?\u201d The investigators told defendant they were \u201creal tired\u201d of his playing games, reiterated he should take this opportunity to say what happened in his own words, and left once more. Defendant then wrote out a statement and later explained that he entered Thompson\u2019s house in the middle of the night as she dozed on her living room sofa, and that he used his hammer to strike her head repeatedly when she suddenly stirred.\nDefendant was charged with two counts of first degree burglary relating to the Parks and Adler residences, another three counts of first degree burglary relating to Thompson\u2019s residence, and one count of murder. It was also alleged that he personally used a dangerous and deadly weapon and that his crimes against Thompson involved a vulnerable victim.\nDefendant filed a motion in limine to exclude his custodial confessions from trial. Specifically, he contended that investigators Salcedo and Sutton violated his Fifth Amendment rights by continuing to interrogate him despite his various requests to speak with his mother and requests to be alone. After the trial court denied this motion, defendant waived his right to a jury and submitted to a bench trial. The court found him guilty as charged.\nThe Court of Appeal affirmed in part but reversed the convictions relating to the murder and the Parks and Adler burglaries. Based on defendant\u2019s age, experience, maturity, sophistication, and the length, intensity, and content of the interrogation, a majority of the court concluded that defendant\u2019s purpose in making his first request to speak with his mother was to secure her assistance in protecting his Fifth Amendment rights. Accordingly, it held, any and all statements made after that request were obtained in violation of Miranda, supra, 384 U.S. 436, and inadmissible. Conversely, the dissenting justice would have upheld the admissibility of the confessional statements, because from the perspective of a reasonable officer, defendant did not unambiguously and unequivocally assert his Miranda rights. We granted the People\u2019s petition for review.\nDiscussion\nUnder California law, issues relating to the suppression of statements made during a custodial interrogation must be reviewed under federal constitutional standards. (People v. Lessie (2010) 47 Cal.4th 1152, 1163-1164 [104 Cal.Rptr.3d 131, 223 P.3d 3] (Lessie).) Before addressing whether defendant invoked his Miranda rights by asking to speak with his mother, we explain why the investigators\u2019 questioning of defendant up to that point satisfied those standards.\n\u201cUnder the Fifth Amendment to the federal Constitution, as applied to the states through the Fourteenth Amendment, \u2018[n]o person . . . shall be compelled in any criminal case to be a witness against himself . . . .\u2019 (U.S. Const., 5th Amend.) \u2018In order to combat [the] pressures [of custodial interrogation] and to permit a full opportunity to exercise the privilege against self-incrimination, the accused must be adequately and effectively apprised of his rights\u2019 to remain silent and to have the assistance of counsel. (Miranda, at p. 467.) \u2018[I]f the accused indicates in any manner that he wishes to remain silent or to consult an attorney, interrogation must cease, and any statement obtained from him during interrogation thereafter may not be admitted against him at his trial\u2019 [citation], at least during the prosecution\u2019s case-in-chief [citations].\u201d (Lessie, supra, A7 Cal.4th at p. 1162.) \u201cCritically, however, a suspect can waive these rights.\u201d (Maryland v. Shatzer (2010) 559 U.S._, _[175 L.Ed.2d 1045, 130 S.Ct. 1213, 1219].) To establish a valid waiver of Miranda rights, the prosecution must show by a preponderance of the evidence that the waiver was knowing, intelligent, and voluntary. (People v. Williams (2010) 49 Cal.4th 405, 425 [111 Cal.Rptr.3d 589, 233 P.3d 1000] (Williams); see Lessie, at p. 1169.)\nDetermining the validity of a Miranda rights waiver requires \u201can evaluation of the defendant\u2019s state of mind\u201d (Williams, supra, 49 Cal.4th at p. 428) and \u201cinquiry into all the circumstances surrounding the interrogation\u201d (Fare v. Michael C. (1979) 442 U.S. 707, 725 [61 L.Ed.2d 197, 99 S.Ct. 2560] (Fare)). When a juvenile\u2019s waiver is at issue, consideration must be given to factors such as \u201cthe juvenile\u2019s age, experience, education, background, and intelligence, and . . . whether he has the capacity to understand the warnings given him, the nature of his Fifth Amendment rights, and the consequences of waiving those rights.\u201d (Ibid, [juvenile\u2019s request for his probation officer was not a per se invocation of his Miranda rights, and totality of the circumstances supported finding of a voluntary and knowing waiver]; see Lessie, supra, 47 Cal.4th at pp. 1169-1170 [no connection between criminally experienced 16-year-old suspect\u2019s decision to waive rights and his request to speak with his father before answering questions].)\nHere, the trial court determined that defendant made a knowing, intelligent, and voluntary waiver of his Miranda rights. The Court of Appeal agreed, noting the following circumstances: \u201cAt the time of his interview, Nelson was 15 years old. He had two prior arrests, the most recent resulting in a several month stay in juvenile hall. Before Nelson was questioned, the detective advised him they needed to go through the \u2018formality\u2019 of a Miranda right advisement. Nelson agreed he had heard the warning before and specifically told the detective he understood he had the right to remain silent. Nelson said he understood he could stop the detective at any time if he did not understand what rights he was waiving. His voluntary responses to the deputies\u2019 subsequent questions indicate he understood his Miranda rights and waived them.\u201d\nThe record fully supports this determination, and defendant concedes the validity of his waiver. Although he \u201cdid not expressly waive his Miranda rights, he did so implicitly by willingly answering questions after acknowledging that he understood those rights.\u201d (Lessie, supra, 47 Cal.4th at p. 1169.) Moreover, the investigators\u2019 failure to seek additional consent from a parent did not invalidate defendant\u2019s waiver. (People v. Lara (1967) 67 Cal.2d 365, 378-379 [62 Cal.Rptr. 586, 432 P.2d 202]; In re Bonnie H. (1997) 56 Cal.App.4th 563, 577 [65 Cal.Rptr.2d 513].) Accordingly, there is no dispute that defendant was properly questioned during the first part of the interview.\nWe now turn to the issue at hand: Were the investigators required to halt their questioning when, three and a half hours into the session, defendant first asked to speak to his mother, and thereafter repeated that request several times and made references to a lawyer and to being left alone? As we shall explain, we find the analysis in Davis, supra, 512 U.S. 452, controlling.\nA. The Davis Standard Governing Postwaiver Invocations of Rights Under Miranda\nIn Davis, supra, 512 U.S. 452, the United States Supreme Court meticulously addressed the principles applicable to an adult suspect\u2019s post-waiver invocation of Miranda rights during a custodial interrogation. Although law enforcement officers are free to question a suspect who knowingly, intelligently, and voluntarily waives his rights under Miranda, \u201cif a suspect requests counsel at any time during the interview, he is not subject to further questioning until a lawyer has been made available or the suspect himself reinitiates conversation.\u201d (Davis, at p. 458 [relying on Edwards v. Arizona (1981) 451 U.S. 477, 484-485 [68 L.Ed.2d 378, 101 S.Ct. 1880]].) The prohibition against further questioning in these circumstances is not a constitutional requirement, but rather a prophylactic rule \u201c \u2018designed to prevent police from badgering a defendant into waiving his previously asserted Miranda rights.\u2019 \u201d (Davis, at p. 458 [quoting Michigan v. Harvey (1990) 494 U.S. 344, 350 [108 L.Ed.2d 293, 110 S.Ct. 1176]].)\nWhereas the question whether a waiver is knowing, intelligent, and voluntary calls for an evaluation of the suspect\u2019s state of mind, the same cannot be said for determining whether a suspect\u2019s postwaiver statement requires the immediate cessation of police questioning. (Williams, supra, 49 Cal.4th at p. 428.) Davis could not make this more plain: \u201cTo avoid difficulties of proof and to provide guidance to officers conducting interrogations, this is an objective inquiry. [Citation.] Invocation of the Miranda right to counsel \u2018requires, at a minimum, some statement that can reasonably be construed to be an expression of a desire for the assistance of an attorney.\u2019 [Citation.]\u201d (Davis, supra, 512 U.S. at pp. 458-459.)\nUnder the Davis standard, it is not enough that a suspect makes a reference to an attorney \u201cthat a reasonable officer in light of the circumstances would have understood only that the suspect might be invoking the right to counsel.\u201d (Davis, supra, 512 U.S. at p. 459; see McNeil v. Wisconsin, supra, 501 U.S. at p. 178 [\u201cthe likelihood that a suspect would wish counsel to be present is not the test. . .\u201d].) Rather, the suspect \u201cmust articulate his desire to have counsel present sufficiently clearly that a reasonable police officer in the circumstances would understand the statement to be a request for an attorney.\u201d (Davis, at p. 459; see Williams, supra, 49 Cal.4th at p. 432; Gonzalez, supra, 34 Cal.4th at p. 1126 [\u201cquestion is not what defendant understood himself to be saying, but what a reasonable officer in the circumstances would have understood defendant to be saying\u201d].)\nThus, because a postwaiver invocation determination contemplates reference to a reasonable officer\u2019s understanding of a suspect\u2019s statements in light of known or objectively apparent circumstances, the suspect\u2019s subjective desire for counsel is not relevant. As Davis explained, while \u201crequiring a clear assertion of the right to counsel might disadvantage some suspects who\u2014because of fear, intimidation, lack of linguistic skills, or a variety of other reasons\u2014will not clearly articulate their right to counsel although they actually want to have a lawyer present,\u201d it is the Miranda warnings themselves, which\u2014when given to the suspect and waived prior to questioning\u2014 are \u201c \u2018sufficient to dispel whatever coercion is inherent in the interrogation process.\u2019 \u201d (Davis, supra, 512 U.S. at p. 460.) Even though officers may ask questions to clarify whether the right to counsel is being invoked, they are not obligated to do so. (Id. at p. 461.)\nThe requirement of an unambiguous and unequivocal assertion likewise applies to a suspect\u2019s invocation of the right to silence. (Berghuis v. Thompkins, supra, 560 U.S. at p._[130 S.Ct. at p. 2260]; accord, People v. Martinez (2010) 47 Cal.4th 911, 947-949 [105 Cal.Rptr.3d 131, 224 P.3d 877] [officers need not clarify whether defendant is invoking right to silence].) Not only is there \u201cno principled reason to adopt different standards for determining when an accused has invoked the Miranda right to remain silent and the Miranda right to counsel\u201d (Berghuis, at p._[130 S.Ct. at p. 2260]), but applying different rules \u201cwould be difficult for law enforcement officials to implement in the interrogation setting, especially where the suspect\u2019s ambiguous statements may relate to both the right to counsel and the right to remain silent\u201d (People v. Martinez, at p. 949).\nThe rationale for requiring clarity is to protect lawful investigative activity, an obviously vital component of effective law enforcement. The Supreme Court has repeatedly emphasized that voluntary confessions are \u201c \u2018a proper element in law enforcement\u2019 \u201d and \u201c \u2018 \u201cessential to society\u2019s compelling interest in finding, convicting, and punishing those who violate the law.\u201d \u2019 \u201d (Maryland v. Shatzer, supra, 559 U.S. at p. _ [130 S.Ct. at p. 1222].) Hence, after a suspect makes a valid waiver of the Miranda rights, the need for effective law enforcement weighs in favor of a bright-line rule that allows officers to continue questioning unless the suspect clearly invokes the right to counsel or right to silence.\nThere are important practical and policy reasons supporting this rule. When the interrogating officers \u201creasonably do not know whether or not the suspect wants a lawyer, a rule requiring the immediate cessation of questioning \u2018would transform the Miranda safeguards into wholly irrational obstacles to legitimate police investigative activity,\u2019 . . . because it would needlessly prevent the police from questioning a suspect in the absence of counsel even if the suspect did not wish to have a lawyer present.\u201d (Davis, supra, 512 U.S. at p. 460, citation omitted.) Likewise, in the right to silence context, \u201c[i]f an ambiguous act, omission, or statement could require police to end the interrogation, police would be required to make difficult decisions about an accused\u2019s unclear intent and face the consequence of suppression \u2018if they guess wrong.\u2019 \u201d (Berghuis v. Thompkins, supra, 560 U.S. at p._[130 S.Ct. at p. 2260].) In such circumstances, suppression of a voluntary confession \u201cwould place a significant burden on society\u2019s interest in prosecuting criminal activity.\u201d (Ibid.)\nApplying the reasonable-officer approach, Davis agreed with the lower courts that the petitioner\u2019s remark to investigators\u2014\u201c \u2018Maybe I should talk to a lawyer\u2019 \u201d\u2014was not a clear and unambiguous assertion of the Miranda right to counsel. (Davis, supra, 512 U.S. at p. 462.) Similarly, in Berghuis v. Thompkins, the high court determined that a suspect\u2019s silence for nearly three hours during a custodial interrogation did not reflect an unambiguous assertion of the Miranda right to silence. (Berghuis v. Thompkins, supra, 560 U.S. at pp. __-__ [130 S.Ct. at pp. 2259-2260].)\nAlthough the Supreme Court has not spoken on the matter, there appears no persuasive basis for exempting juveniles from Davis\u2019s reasonable-officer standard. The interest in protecting lawful investigative activity is equally weighty in the adult and juvenile contexts. (See Davis, supra, 512 U.S. at p. 461.) At the same time, juveniles subject to custodial interrogation are adequately protected by the following safeguards.\nFirst, any custodial confession by a juvenile generally is not admissible if the juvenile did not receive proper advisement of the right to counsel and right to remain silent, or if the juvenile did not knowingly, intelligently, and voluntarily waive such rights. As the Supreme Court has emphasized, \u201cthe primary protection afforded suspects subject to custodial interrogation is the Miranda warnings themselves. \u2018[F]ull comprehension of the rights to remain silent and request an attorney [is] sufficient to dispel whatever coercion is inherent in the interrogation process.\u2019 \u201d (Davis, supra, 512 U.S. at p. 460.)\nSecond, as in the case of an adult\u2019s Miranda waiver, determining the validity of a juvenile\u2019s waiver necessitates inquiry into all the circumstances surrounding a challenged interrogation, including \u201cthe juvenile\u2019s age, experience, education, background, and intelligence, and . . . whether he has the capacity to understand the warnings given him, the nature of his Fifth Amendment rights, and the consequences of waiving those rights.\u201d (Fare, supra, 442 U.S. at p. 725.) Thus, for purposes of waiver determinations, courts must consider a juvenile\u2019s state of mind, as well as all other circumstances, including a request for a parent, in order to ascertain whether the juvenile \u201cin fact knowingly and voluntarily decided to forgo\u201d his or her Miranda rights. (Fare, at p. 725.) This approach allows the necessary flexibility for courts \u201cto take into account those special concerns that are present when young persons, often with limited experience and education and with immature judgment, are involved.\u201d (Ibid.)\nFinally, courts must use \u201c \u2018special care in scrutinizing the record\u2019 \u201d to evaluate a claim that a juvenile\u2019s custodial confession was not voluntarily given. (Lessie, supra, 47 Cal.4th at pp. 1166-1167 [quoting Haley v. Ohio (1948) 332 U.S. 596, 599 [92 L.Ed. 224, 68 S.Ct. 302]].) \u201cIf counsel was not present for some permissible reason when [a juvenile\u2019s] admission was obtained, the greatest care must be taken to assure that the admission was voluntary, in the sense not only that it was not coerced or suggested, but also that it was not the product of ignorance of rights or of adolescent fantasy, fright or despair.\u201d (In re Gault (1967) 387 U.S. 1, 55 [18 L.Ed.2d 527, 87 S.Ct. 1428].) Consequently, even when a juvenile has made a valid waiver of the Miranda rights, a court may consider whether the juvenile gave a confession after being \u201c \u2018exposed to any form of coercion, threats, or promises of any kind, [or] trickery or intimidation ....\u2019\u201d (People v. Lewis (2001) 26 Cal.4th 334, 383 [110 Cal.Rptr.2d 272, 28 P.3d 34].) The constitutional safeguard of voluntariness ensures that any custodial admission flows from the volition of the juvenile, and not the will of the interrogating officers.\nBecause juveniles have these protections, and because the need for effective law enforcement is the same in the adult and juvenile contexts, we are persuaded that juvenile postwaiver invocations are properly evaluated under the Davis standard. (Cf. Fare, supra, 442 U.S. at p. 725 [holding juveniles and adults subject to same approach for Miranda waiver determinations].) Accordingly, once a juvenile suspect has made a valid waiver of the Miranda rights, any subsequent assertion of the right to counsel or right to silence during questioning must be articulated sufficiently clearly that a reasonable police officer in the circumstances would understand the statement to be an invocation of such rights. (Davis, supra, 512 U.S. at p. 459; see Berghuis v. Thompkins, supra, 560 U.S. at p._[130 S.Ct. at p. 2260].)\nB. Application of the Davis Standard in the Instant Case\nConsistent with Davis, the standard of review\u2014like the standard applicable in the trial court\u2014focuses on \u201cwhether, in light of the circumstances, a reasonable officer would have understood a defendant\u2019s reference to an attorney [or other individual] to be an unequivocal and unambiguous request for counsel, without regard to the defendant\u2019s subjective ability or capacity to articulate his or her desire for counsel, and with no further requirement imposed upon the officers to ask clarifying questions of the defendant.\u201d (Gonzalez, supra, 34 Cal.4th at p. 1125; accord, Davis, supra, 512 U.S. at pp. 460-462; People v. Martinez, supra, 47 Cal.4th at pp. 947-949 [right to silence].) As a reviewing court, we \u201c \u2018accept the trial court\u2019s resolution of disputed facts and inferences, and its evaluations of credibility, if supported by substantial evidence.\u2019 \u201d (Gonzalez, at p. 1125; see Lessie, supra, 47 Cal.4th at p. 1169; People v. Martinez, at p. 949.) Although we review the record and independently decide whether the challenged statements were obtained in violation of Miranda, supra, 384 U.S. 436, we may \u201c \u2018give great weight to the considered conclusions\u2019 \u201d of the trial court. (People v. Jennings (1988) 46 Cal.3d 963, 979 [251 Cal.Rptr. 278, 760 P.2d 475]; see People v. Musselwhite (1998) 17 Cal.4th 1216, 1239 [74 Cal.Rptr.2d 212, 954 P.2d 475].)\nHere, investigators Salcedo and Sutton questioned defendant for over five hours, and the entire interrogation was both recorded and transcribed. At the hearing on the motion in limine, the trial court stated it had reviewed the videotape and considered what transpired at the interrogation. The court also received testimony from Salcedo and Sutton, as well as from defendant himself. Defendant acknowledged he had understood the Miranda rights that were read to him at the start of the interrogation, and admitted there were no threats, no weapons, no handcuffs, and no promises from the investigators during the investigation. Defendant said he knew what an attorney was, because he had been represented by an attorney in juvenile court. Defendant had agreed to speak with the investigators, because he felt it would \u201cseem funny\u201d if he did not do so. He explained that, as the hours went on, he was \u201csort of being worn down\u201d and getting tired and stressed as the investigators got tougher in their questioning. Defendant also admitted having lied to the investigators during the interrogation. The recording of the interview showed that defendant was deceptive throughout the five-hour session and admitted to wrongdoing only when confronted with evidence or caught in a lie.\nIn announcing its ruling, the trial court made an explicit finding that, based on its reading of the transcripts, listening to testimony, and viewing the recorded interview, defendant had \u201czero credibility.\u201d Then, after determining that defendant had made a knowing, intelligent, and voluntary waiver of his Miranda rights at the outset of the interrogation, the court addressed the issue at the heart of this matter. Summarizing the details of the interrogation and viewing defendant\u2019s statements in context, the court found that, whenever defendant requested to speak to his mother, he did so because he wanted to tell his mother what was going on and to ask her what he should do. The court further found that, even if defendant subjectively desired attorney assistance, his statements were objectively ambiguous because they were limited to the issue whether or not he should take the polygraph test. That is, although defendant indicated reluctance to take the test without speaking to his mother or a lawyer, he \u201ccontinued to consent to voluntarily talk\u201d to the authorities on other topics. The court also observed that, \u201ceven though in his own mind he thought his mother was [only] ten minutes away,\u201d defendant went ahead and signed a written confession without waiting for her arrival. Relying on Davis, supra, 512 U.S. 452, the court found that defendant did not invoke his Miranda rights, and that even if there was a request for an attorney, it was ambiguous and did not require cessation of the interview. As we shall explain, the trial court\u2019s conclusions are both legally and factually supported.\nAs a legal matter, we have already recognized in the waiver context that a juvenile\u2019s request to speak with a parent is neither a per se nor a presumptive invocation of Fifth Amendment rights. (Lessie, supra, 47 Cal.4th at p. 1168.) There is an obvious reason for this: \u201cthe parental role does not equate with the attorney\u2019s role in an interrogation by police.\u201d (People v. Maestas (1987) 194 Cal.App.3d 1499, 1510, fn. 9 [240 Cal.Rptr. 360].) Where, as here, a juvenile has made a valid waiver of his Miranda rights and has agreed to questioning, a postwaiver request for a parent is insufficient to halt questioning unless the circumstances are such that a reasonable officer would understand that the juvenile is actually invoking\u2014as opposed to might be invoking\u2014the right to counsel or silence. (See Davis, supra, 512 U.S. at pp. 458-459.)\nOur review of the transcribed and videotaped interview finds ample support for the trial court\u2019s resolution of the conflicting inferences that may be gleaned from defendant\u2019s various requests and statements. (Gonzalez, supra, 34 Cal.4th at p. 1125.) After waiving his Miranda rights, defendant was open and responsive to questioning on any topic. Defendant, who was 15 years old, appeared confident and mature. About three and a half hours into the interview, the investigators asked why defendant hurt Thompson and whether he was willing to take a polygraph test. Defendant responded by asking to call his mother, and, when asked the reason for the call, he offered no indication that he wanted an attorney or that he did not want to talk further. Instead, he specifically stated he wanted to let his mother \u201cknow what\u2019s happening\u201d and to ask her what he should do because he was being accused of murder. On this record, the trial court properly concluded that a reasonable officer in the circumstances would not have viewed defendant\u2019s request to call his mother as a clear and unequivocal invocation of the Miranda rights. (See People v. Maestas, supra, 194 Cal.App.3d at p. 1509.)\nAs the interrogation proceeded, defendant asked several more times to call his mother when the investigators again asked about a polygraph test, or why he hurt Thompson. The investigators generally did not inquire into the reasons for the subsequent requests, but defendant clarified a second time that he wanted to let his mother know \u201cwhat\u2019s going on right now\u201d and where he was. Given the circumstances surrounding each of defendant\u2019s requests, a reasonable officer would not have understood any of them as an unambiguous assertion of Miranda rights. Although defendant became increasingly upset during the interview, and quieter toward the end, the questioning properly continued because defendant never communicated an intent to stop the interview altogether. (See Berghuis v. Thompkins, supra, 560 U.S. at pp. _-_ [130 S.Ct. at pp. 2262-2263].)\nDefendant also informed the investigators that his grandmother and brother told him not to take a polygraph test \u201cuntil my mom or a lawyer is here,\u201d and that those family members \u201cdon\u2019t want me to do anything until a lawyer or my mom is here.\u201d Taken in context, these statements did not convey an unambiguous request to halt all questioning, or a clear unwillingness to continue the interview without a lawyer. Rather, as the trial court observed, a reasonable officer could have understood defendant\u2019s statements as conveying a reluctance to take a polygraph test without first speaking to an attorney or his mother. Where, as here, the suspect makes a conditional invocation of counsel limited to the administration of a polygraph test, officers need not terminate the entire interrogation. (People v. Martinez, 47 Cal.4th at p. 952; see also Gonzalez, supra, 34 Cal.4th at pp. 1126-1127 [defendant conditionally wanted a lawyer if he was going to be charged]; People v. Clark (1992) 3 Cal.4th 41, 122-123 [10 Cal.Rptr.2d 554, 833 P.2d 561] [defendant would not talk about an unrelated killing without an attorney present].) Furthermore, questioning need not halt simply because a suspect refuses, either conditionally or outright, to take a polygraph test. (E.g., People v. Martinez, supra, 47 Cal.4th at p. 952; People v. Davis (1981) 29 Cal.3d 814, 824-825 [176 Cal.Rptr. 521, 633 P.2d 186] [16-year-old suspect\u2019s unwillingness to speak to polygraph administrator was not a general assertion of his right to remain silent].)\nLikewise, defendant did not unambiguously assert his right to silence when he told the investigators at one point that he did not care who might be caught for Thompson\u2019s murder, \u201cas long as you guys leave me alone.\u201d A reasonable officer in the circumstances could view that statement as an expression of frustration with the investigators\u2019 repeated refusal to accept his denial of guilt for the murder. (See Williams, supra, 49 Cal.4th at p. 433 [mere \u201c \u2018expressions of passing frustration or animosity\u2019 \u201d toward officers do not invoke the right to silence]; People v. Jennings, supra, 46 Cal.3d at pp. 977-978 [\u201c \u2018I\u2019m not going to talk,\u2019 \u201d and \u201c \u2018That\u2019s it. I shut up,\u2019 \u201d reflected \u201conly momentary frustration and animosity\u201d toward the questioning officer].)\nNor did defendant make a clear invocation when, toward the end of the interview, he asked the investigators for \u201ca few minutes to myself\u2019 and for time to \u201cbe alone until my family gets here.\u201d Notably, defendant clarified, when asked, that he simply wanted time to \u201cbe alone\u201d and to \u201cthink about stuff\u2019 before writing out a statement about what happened to Thompson. In neither of these instances did defendant indicate, clearly or otherwise, that he was asserting his right to remain silent.\nOn this record, we conclude the trial court did not err in denying defendant\u2019s in limine motion. A reasonable officer in the circumstances would not have understood defendant\u2019s requests to call his mother, or any of his other statements, to be unambiguous and unequivocal invocations of his Miranda rights. (Davis, supra, 512 U.S. at pp. 460-462; Berghuis v. Thompkins, supra, 560 U.S. at p._[130 S.Ct. at p. 2260].) Accordingly, investigators Salcedo and Sutton were not required to stop their questioning, and defendant\u2019s custodial statements were properly admitted at trial.\nC. Inapplicability of the Miranda Waiver Test\nThe Court of Appeal held that Davis\u2019 s objective approach was inappropriate for juveniles and declined to assess defendant\u2019s postwaiver statements from the viewpoint of a reasonable officer. Instead, the court relied on Fare, supra, 442 U.S. 707, and Lessie, supra, 47 Cal.4th 1152, to hold that the postwaiver invocation determination required an examination of the totality of the circumstances in order to ascertain whether a juvenile suspect intended to assert the Miranda rights. Upon considering defendant\u2019s age, experience, maturity, and sophistication, as well as the length, intensity, and content of the entire interrogation, the court found that defendant\u2019s purpose when he first requested to speak with his mother was to secure her assistance to protect his Fifth Amendment rights.\nThe Court of Appeal\u2019s analysis is flawed in two significant respects. First, the court erred by focusing on what defendant may have subjectively wanted, instead of considering how a reasonable officer would have understood defendant\u2019s statements in the circumstances presented. Fare and Lessie are inapposite because those decisions addressed whether the juveniles involved made valid waivers of their Miranda rights. (Fare, supra, 442 U.S. at pp. 726-727; Lessie, supra, 47 Cal.4th at pp. 1169-1170.) Here there is no dispute that defendant understood and voluntarily waived his rights, and the only question is whether he subsequently invoked the right to have counsel present or the right to silence. It has long been settled that \u201c[invocation and waiver are entirely distinct inquiries, and the two must not be blurred by merging them together.\u201d (Smith v. Illinois (1984) 469 U.S. 91, 98 [83 L.Ed.2d 488, 105 S.Ct. 490]; see People v. Martinez, supra, 47 Cal.4th at p. 951.) Accordingly, Fare and Lessie do not support substitution of a subjective test in place of Davis' s objective approach when evaluating whether a juvenile suspect, having waived the Miranda rights, later asserted the right to counsel or right to silence. (See People v. Martinez, at p. 951.)\nSecond, it is correct that the objectively apparent circumstances in which a suspect made a postwaiver statement are relevant to an officer\u2019s understanding of the statement as an assertion of Miranda rights. But contrary to the Court of Appeal\u2019s analysis, a finding of a sufficiently clear invocation cannot be predicated upon unrelated discussions or events that occurred after the statement was made. Officers may, of course, try to clarify ambiguous statements (Davis, supra, 512 U.S. at p. 461), but generally a statement either is, or is not, an assertion of the right to counsel (Smith v. Illinois, supra, 469 U.S. at pp. 97-98). Thus, while the length, intensity, and content of an entire interrogation are relevant in assessing whether a suspect who waived the Miranda rights was subsequently coerced into involuntarily confessing (Fare, supra, 442 U.S. at p. 727; People v. Richardson (2008) 43 Cal.4th 959, 992-993 [77 Cal.Rptr.3d 163, 183 P.3d 1146]; cf. People v. Neal (2003) 31 Cal.4th 63, 80-85 [1 Cal.Rptr.3d 650, 72 P.3d 280]), we do not consider such circumstances because that contention is not at issue here. (See ante, fn. 3.)\nConclusion and Disposition\nConsistent with Davis, supra, 512 U.S. 452, we hold that, once a juvenile suspect has made a valid waiver of his or her Miranda rights, any subsequent assertion of the right to counsel or right to silence during questioning must be articulated sufficiently clearly that a reasonable police officer in the circumstances would understand the statement to be an invocation of such rights. Because this standard is an objective one, the invocation determination does not call for an evaluation of the juvenile\u2019s state of mind or subjective desire. We caution, however, that a particular statement found insufficiently clear in the circumstances of one case may nonetheless be deemed an unambiguous and unequivocal invocation when considered in the context of another case.\nOn this record, we find the trial court properly determined that a reasonable officer would not have understood defendant to be clearly and unequivocally asserting his Miranda rights when he asked to speak to his mother, or when he indicated his relatives did not want him to take a polygraph test without first speaking to his mother or a lawyer, or when he made references to being left alone. Accordingly, the investigators were not required to halt the interrogation at any point, and defendant\u2019s incriminating statements were admissible at trial. We reverse the judgment of the Court of Appeal and remand the matter to that court for further proceedings consistent with the views expressed herein.\nCantil-Sakauye, C. J., Kennard, J., Werdegar, J., Chin, J., Corrigan, J., and Liu, J., concurred.\nThe right to counsel for purposes of custodial interrogation implicates the Fifth Amendment privilege against self-incrimination, and must be distinguished from the Sixth Amendment right to counsel, which attaches upon the initiation of formal criminal proceedings. (U.S. Const., 5th & 6th Amends.; see People v. Gonzalez (2005) 34 Cal.4th 1111, 1123 [23 Cal.Rptr.3d 295, 104 P.3d 98] (Gonzalez) [discussing McNeil v. Wisconsin (1991) 501 U.S. 171, 177\u2014178 [115 L.Ed.2d 158, 111 S.Ct. 2204]].)\nThe investigators asked defendant to sign and date his written statement, which he did. Then defendant read his statement aloud as follows. \u201cI went into her house to take some stuff for, I really needed money for Colorado. I, I walked by her and she woke up. I freaked out and I hit her in her head several times. I didn\u2019t think she was dead though but she was on the ground snoring after I hit her. I didn\u2019t know what to do so I ran out of the house and went home. I didn\u2019t go back after that. I feel so bad about what I did it\u2019s indescribable. The hardest part was keeping it, keeping it a secret and, uh, trying to act normal. I\u2019m very sorry to everyone for what I\u2019ve done and I don\u2019t expect forgiveness from anyone, at least not for a while, a long time. I think there\u2019s something wrong with me and I would like some help. That\u2019s it.\u201d After reading this statement aloud, defendant made a more detailed confession in a second interview.\nDefendant does not contest the trial court\u2019s finding that no physical or psychological coercion impeded the voluntariness of his statements. At the hearing on the in limine motion, defendant had acknowledged that the investigators allowed him to use the bathroom during the interview and did not withhold food or drink from him. He also admitted there were no threats, no weapons, no handcuffs, and no promises made during the investigation.\nAdditionally, article 15 of division 2, part 1, chapter 2 of the Welfare and Institutions Code provides statutory protections to certain juveniles. When an officer takes a minor to a place of confinement pursuant to that article, the officer \u201cshall take immediate steps to notify the minor\u2019s parent, guardian, or a responsible relative that such minor is in custody and the place where he is being held.\u201d (Welf. & Inst. Code, \u00a7 627, subd. (a).) Within an hour after taking the minor into custody, the officer shall also advise the minor of the right to completed telephone calls to a designated adult and to an attorney. (Welf. & Inst. Code, \u00a7 627, subd. (b).) Although it appears that the exclusionary rule does not require suppression of a minor\u2019s in-custody statements when this statute has been violated (see Lessie, supra, 47 Cal.4th at p. 1161 & fn. 2), the threat of criminal sanctions provides a powerful incentive for statutory compliance. (Welf. & Inst. Code, \u00a7 627, subd. (b) [any officer who \u201cwillfully deprives\u201d the minor of the \u201cright to make such telephone calls is guilty of a misdemeanor\u201d].)\nFor this conclusion, the court specifically referenced defendant\u2019s statements to the investigators that his grandmother and brother told him to refrain from taking the test until he talked to his mother or an attorney.\nLessie disapproved People v. Burton (1971) 6 Cal.3d 375 [99 Cal.Rptr. 1, 491 P.2d 793], which held that, in the absence of evidence demanding a contrary conclusion, a minor\u2019s request to see a parent must be construed to indicate an invocation of Fifth Amendment rights. (Lessie, supra, 47 Cal.4th at pp. 1162-1168.)\nWhile this case was pending, the United States Supreme Court issued its decision in J. D. B. v. North Carolina (2011) 564 U.S._ [180 L.Ed.2d 310, 131 S.Ct. 2394], which addressed custody determinations for purposes of requiring Miranda warnings. In that case, the high court held that a child suspect\u2019s age, when known to the interrogating officer or objectively apparent to a reasonable officer, is relevant to the determination whether, considering all the objective circumstances of an interrogation, a reasonable person in the suspect\u2019s position would understand his freedom to terminate police questioning and leave. (Id. at p._ [131 S.Ct. at p. 2406].) Contrary to defendant\u2019s assertions, nothing in J. D. B. calls for application of a subjective test to determine juvenile postwaiver invocations. While J. D. S.\u2019s analysis generally supports the view that a juvenile suspect\u2019s known or objectively apparent age is a factor to consider in an invocation determination, knowledge of defendant\u2019s age would not have altered a reasonable officer\u2019s understanding of defendant\u2019s statements in the circumstances here. As indicated, defendant, who was 15 years old, appeared confident and mature.\nThe Court of Appeal explained its conclusion as follows. \u201cAfter considering Nelson\u2019s age, experience, maturity, sophistication, the length, intensity, and content of the interrogation, we conclude Nelson\u2019s purpose in requesting to speak with his mother was to secure her assistance to protect his Fifth Amendment rights. Further evidence of Nelson\u2019s desire to invoke his Miranda rights is evidenced by his various requests to end the conversation about the murder. His words and conduct were inconsistent with \u2018a present willingness to discuss the case freely and completely. [Citation.]\u2019 [Citation.] In short, the record reflects a juvenile who persisted in his attempts to seek his mother\u2019s assistance in protecting his rights, who numerous times indicated he did not want to continue speaking, and after over five hours of interrogation submitted to the deputies^] insistence that he write out a confession.\u201d Although the Court of Appeal acknowledged that defendant was \u201cno stranger to the criminal justice system\u201d and was allowed \u201cto make numerous unsuccessful attempts to contact his mother,\u201d it noted the additional circumstances that defendant was \u201c \u2018really hungry\u2019 \u201d after four hours of questioning, that he was \u201crepeatedly tearful,\u201d and that he was a year younger and subjected to much lengthier interrogation than the juvenile suspects in Fare, supra, 442 U.S. 707, and Lessie, supra, 47 Cal.4th 1152.",
+        "type": "majority",
+        "author": "BAXTER, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Mary Woodward Wells, under appointment by the Supreme Court, for Defendant and Appellant.",
+      "Rourke F. Stacy, Public Defender (Los Angeles) and Ji Seon Song, Public Defender (Contra Costa) for Pacific Juvenile Defender Center, Los Angeles County Public Defender, Contra Costa County Public Defender, Los Angeles County Alternate Public Defender, Loyola Law School Center for Juvenile Law and Policy and the Center on Wrongful Convictions of Youth as Amici Curiae on behalf of Defendant and Appellant.",
+      "Edmund G. Brown, Jr., and Kamala D. Harris, Attorneys General, Dane R. Gillette, Chief Assistant Attorney General, Gary W. Schons, Assistant Attorney General, Barry Carlton, Steven T. Getting, Elizabeth A. Hartwig and Donald W. Ostertag, Deputy Attorneys General, for Plaintiff and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. S181611.\nJan. 12, 2012.]\nTHE PEOPLE, Plaintiff and Respondent, v. SAMUEL MOSES NELSON, Defendant and Appellant.\nCounsel\nMary Woodward Wells, under appointment by the Supreme Court, for Defendant and Appellant.\nRourke F. Stacy, Public Defender (Los Angeles) and Ji Seon Song, Public Defender (Contra Costa) for Pacific Juvenile Defender Center, Los Angeles County Public Defender, Contra Costa County Public Defender, Los Angeles County Alternate Public Defender, Loyola Law School Center for Juvenile Law and Policy and the Center on Wrongful Convictions of Youth as Amici Curiae on behalf of Defendant and Appellant.\nEdmund G. Brown, Jr., and Kamala D. Harris, Attorneys General, Dane R. Gillette, Chief Assistant Attorney General, Gary W. Schons, Assistant Attorney General, Barry Carlton, Steven T. Getting, Elizabeth A. Hartwig and Donald W. Ostertag, Deputy Attorneys General, for Plaintiff and Respondent."
+  },
+  "file_name": "0367-01",
+  "first_page_order": 405,
+  "last_page_order": 424
+}

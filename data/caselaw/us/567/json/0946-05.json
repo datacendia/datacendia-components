@@ -1,0 +1,59 @@
+{
+  "id": 12412572,
+  "name": "Pinder v. Arkansas",
+  "name_abbreviation": "Pinder v. Arkansas",
+  "decision_date": "2012-06-25",
+  "docket_number": "No. 11-9960",
+  "first_page": "946",
+  "last_page": "946",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 946"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 19,
+    "char_count": 153,
+    "ocr_confidence": 0.618,
+    "sha256": "61647ca085f1ad3347302f691c51a95099e90921579abfb36bde44f3dc81324b",
+    "simhash": "1:c963991818387499",
+    "word_count": 23
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pinder v. Arkansas."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ark. Motion of petitioner to defer consideration of petition for writ of certiorari denied. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9960.\nPinder v. Arkansas."
+  },
+  "file_name": "0946-05",
+  "first_page_order": 850,
+  "last_page_order": 850
+}

@@ -1,0 +1,975 @@
+{
+  "id": 12441490,
+  "name": "DEBORAH MOORE, Plaintiff and Appellant, v. THE REGENTS OF THE UNIVERSITY OF CALIFORNIA, Defendant and Respondent",
+  "name_abbreviation": "Moore v. Regents of the University of California",
+  "decision_date": "2016-06-02",
+  "docket_number": "No. D067120",
+  "first_page": "216",
+  "last_page": "255",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "248 Cal. App. 4th 216"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "105 Cal.Rptr. 395",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.App.3d 866",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4422968
+      ],
+      "pin_cites": [
+        {
+          "page": "873"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/28/0866-01"
+      ]
+    },
+    {
+      "cite": "50 Cal.Rptr.3d 398",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1972,
+      "opinion_index": 0
+    },
+    {
+      "cite": "144 Cal.App.4th 344",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3677921
+      ],
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "368"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/144/0344-01"
+      ]
+    },
+    {
+      "cite": "199 Cal.Rptr.3d 462",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "245 Cal.App.4th 109",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6786893
+      ],
+      "pin_cites": [
+        {
+          "page": "123"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/245/0109-01"
+      ]
+    },
+    {
+      "cite": "743 F.3d 1236",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4116042
+      ],
+      "pin_cites": [
+        {
+          "page": "1244"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/743/1236-01"
+      ]
+    },
+    {
+      "cite": "259 F.3d 1112",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9501134
+      ],
+      "pin_cites": [
+        {
+          "page": "1131"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/259/1112-01"
+      ]
+    },
+    {
+      "cite": "56 Cal.Rptr.3d 374",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "148 Cal.App.4th 1174",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5572016
+      ],
+      "pin_cites": [
+        {
+          "page": "1197"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/148/1174-01"
+      ]
+    },
+    {
+      "cite": "135 P.3d 637",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.Rptr.3d 223",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 Cal.4th 914",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3853036
+      ],
+      "pin_cites": [
+        {
+          "page": "922"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/38/0914-01"
+      ]
+    },
+    {
+      "cite": "99 P.3d 1015",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 Cal.Rptr.3d 428",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "34 Cal.4th 467",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        633019
+      ],
+      "pin_cites": [
+        {
+          "page": "471"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/34/0467-01"
+      ]
+    },
+    {
+      "cite": "50 P.3d 751",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "123 Cal.Rptr.2d 40",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.4th 828",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        947606
+      ],
+      "pin_cites": [
+        {
+          "page": "840"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/28/0828-01"
+      ]
+    },
+    {
+      "cite": "838 F.Supp.2d 910",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        4147154
+      ],
+      "pin_cites": [
+        {
+          "page": "925"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/838/0910-01"
+      ]
+    },
+    {
+      "cite": "163 Cal.Rptr.3d 392",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "220 Cal.App.4th 635",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3801097
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "652"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/220/0635-01"
+      ]
+    },
+    {
+      "cite": "116 P.3d 1123",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Cal.Rptr.3d 436",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Cal.4th 1028",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3121992
+      ],
+      "pin_cites": [
+        {
+          "page": "1042"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/36/1028-01"
+      ]
+    },
+    {
+      "cite": "87 Cal.Rptr.2d 487",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "74 Cal.App.4th 215",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        245383
+      ],
+      "pin_cites": [
+        {
+          "page": "226"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/74/0215-01"
+      ]
+    },
+    {
+      "cite": "410 F.3d 670",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8952955
+      ],
+      "pin_cites": [
+        {
+          "page": "676"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/410/0670-01"
+      ]
+    },
+    {
+      "cite": "42 U.S.C. \u00a7 12101",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.Rptr.3d 874",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "140 Cal.App.4th 34",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5753545
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "54"
+        },
+        {
+          "page": "53"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/140/0034-01"
+      ]
+    },
+    {
+      "cite": "62 Cal.Rptr.2d 142",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.App.4th 935",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "pin_cites": [
+        {
+          "page": "954"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.Rptr.3d 837",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "134 Cal.App.4th 224",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3734220
+      ],
+      "pin_cites": [
+        {
+          "page": "243"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/134/0224-01"
+      ]
+    },
+    {
+      "cite": "118 Cal.Rptr.2d 443",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "97 Cal.App.4th 344",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1066637
+      ],
+      "pin_cites": [
+        {
+          "page": "357"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/97/0344-01"
+      ]
+    },
+    {
+      "cite": "429 U.S. 252",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6951
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "267"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/429/0252-01"
+      ]
+    },
+    {
+      "cite": "4 Cal.Rptr.2d 522",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "3 Cal.App.4th 467",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        2307491
+      ],
+      "pin_cites": [
+        {
+          "page": "479"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/3/0467-01"
+      ]
+    },
+    {
+      "cite": "100 Cal.Rptr.3d 296",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "178 Cal.App.4th 243",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3986565
+      ],
+      "pin_cites": [
+        {
+          "page": "286"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/178/0243-01"
+      ]
+    },
+    {
+      "cite": "77 Cal.Rptr.3d 654",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "163 Cal.App.4th 327",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        8156629
+      ],
+      "pin_cites": [
+        {
+          "page": "343-344"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/163/0327-01"
+      ]
+    },
+    {
+      "cite": "67 Cal.Rptr.2d 483",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 Cal.App.4th 997",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        19494
+      ],
+      "pin_cites": [
+        {
+          "page": "1002"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/57/0997-01"
+      ]
+    },
+    {
+      "cite": "52 Cal.Rptr.2d 620",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.App.4th 1735",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4769868
+      ],
+      "pin_cites": [
+        {
+          "page": "1751"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/44/1735-01"
+      ]
+    },
+    {
+      "cite": "235 P.3d 988",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "113 Cal.Rptr.3d 327",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "50 Cal.4th 512",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6050766
+      ],
+      "pin_cites": [
+        {
+          "page": "520, fn. 2"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/50/0512-01"
+      ]
+    },
+    {
+      "cite": "102 Cal.Rptr.2d 55",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "85 Cal.App.4th 245",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1244233
+      ],
+      "pin_cites": [
+        {
+          "page": "254"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/85/0245-01"
+      ]
+    },
+    {
+      "cite": "237 Cal.Rptr. 884",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "192 Cal.App.3d 1306",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2213942
+      ],
+      "pin_cites": [
+        {
+          "page": "1317"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/192/1306-01"
+      ]
+    },
+    {
+      "cite": "411 U.S. 792",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        10002
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/411/0792-01"
+      ]
+    },
+    {
+      "cite": "294 P.3d 49",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "152 Cal.Rptr.3d 392",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "56 Cal.4th 203",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        4224948
+      ],
+      "pin_cites": [
+        {
+          "page": "232"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/56/0203-01"
+      ]
+    },
+    {
+      "cite": "8 P.3d 1089",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "100 Cal.Rptr.2d 352",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "24 Cal.4th 317",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1180120
+      ],
+      "pin_cites": [
+        {
+          "page": "354"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/24/0317-01"
+      ]
+    },
+    {
+      "cite": "130 Cal.Rptr.3d 350",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "198 Cal.App.4th 480",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4238571
+      ],
+      "pin_cites": [
+        {
+          "page": "487-488"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/198/0480-01"
+      ]
+    },
+    {
+      "cite": "88 Cal.Rptr.2d 239",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "74 Cal.App.4th 597",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        245436
+      ],
+      "pin_cites": [
+        {
+          "page": "606"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/74/0597-01"
+      ]
+    },
+    {
+      "cite": "29 U.S.C. \u00a7\u00a7 2601-2654",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "87 Cal.Rptr.3d 439",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "169 Cal.App.4th 1185",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3957316
+      ],
+      "pin_cites": [
+        {
+          "page": "1193"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/169/1185-01"
+      ]
+    },
+    {
+      "cite": "347 P.3d 976",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "186 Cal.Rptr.3d 826",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "61 Cal.4th 97",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6054481
+      ],
+      "pin_cites": [
+        {
+          "page": "115"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/61/0097-01"
+      ]
+    },
+    {
+      "cite": "33 Cal.Rptr.3d 287",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2015,
+      "opinion_index": 0
+    },
+    {
+      "cite": "132 Cal.App.4th 121",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5566437
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "128-129"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/132/0121-01"
+      ]
+    },
+    {
+      "cite": "58 Cal.Rptr.3d 729",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "150 Cal.App.4th 864",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3676927
+      ],
+      "pin_cites": [
+        {
+          "page": "877"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/150/0864-01"
+      ]
+    },
+    {
+      "cite": "53 Cal.Rptr.3d 700",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "146 Cal.App.4th 1519",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5567008
+      ],
+      "pin_cites": [
+        {
+          "page": "1530"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/146/1519-01"
+      ]
+    },
+    {
+      "cite": "60 Cal.Rptr.3d 124",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "151 Cal.App.4th 653",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3720231
+      ],
+      "pin_cites": [
+        {
+          "page": "658"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/151/0653-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 2112,
+    "char_count": 83868,
+    "ocr_confidence": 0.936,
+    "pagerank": {
+      "raw": 1.188677758435885e-07,
+      "percentile": 0.5908551039076023
+    },
+    "sha256": "8c89d01950a5dff2c409668c2ffc3fdceca269a4eae8a125e72d19b95b4ec073",
+    "simhash": "1:c3e4c602568a917c",
+    "word_count": 13119
+  },
+  "last_updated": "2024-02-27T20:05:38.451463+00:00",
+  "provenance": {
+    "date_added": "2019-05-21",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "McConnell, R J., and Huffman, J., concurred."
+    ],
+    "parties": [
+      "DEBORAH MOORE, Plaintiff and Appellant, v. THE REGENTS OF THE UNIVERSITY OF CALIFORNIA, Defendant and Respondent."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nAARON, J.\u2014\nI.\nINTRODUCTION\nPlaintiff Deborah Moore appeals from a judgment entered in favor of defendant The Regents of the University of California (Defendant). Moore sued Defendant for claims under the California Fair Employment and Housing Act (FEHA) (Gov. Code, \u00a7 12900 et seq.) and the Moore-Brown-Roberti Family Rights Act (CERA) (\u00a7\u00a7 12945.1, 12945.2).\nThe trial court granted summary judgment in favor of Defendant. Our review of the record demonstrates that summary judgment was improperly granted with respect to Moore\u2019s first, second, third, fifth and sixth causes of action. Summary adjudication in favor of Defendant was appropriate, however, with respect to Moore\u2019s fourth cause of action.\nWe reverse the judgment and remand the matter for further proceedings in the trial court.\nII.\nFACTUAL AND PROCEDURAL BACKGROUND\nA. Factual background\nMoore began working in University of California San Diego\u2019s marketing and communications department (the Department) in 2008. In February 2010, Moore became the director of marketing. Around that same time, the executive director of the Department resigned unexpectedly.\nIn June 2010, Kimberly Kennedy was hired as the new executive director of the Department. According to a declaration submitted in support of Defendant\u2019s motion for summary judgment, after she was hired, Kennedy sought to restructure the Department.\nIn early September 2010, Moore was diagnosed with idiopathic cardio-myopathy. On or around September 10, 2010, Moore was prescribed and began wearing a heart monitor called a \u201cLife Vest.\u201d The Life Vest is a monitor and external defibrillator. The Life Vest is worn outside of a person\u2019s clothing, like a vest, and the monitor, which is approximately six or eight inches by four to five inches in size, is attached to the vest by wires. Moore had to wear the Life Vest for two to three weeks.\nOn the first day that Moore wore the vest to work, she met with Kennedy. Moore \u201ctold [Kennedy] what [her] condition was,\u201d \u201ctold her what the heart monitor was for,\u201d and informed Kennedy \u201cthat there was nothing to worry about, that it would take care of itself.\u201d Moore also told Kennedy that she \u201cwould be able to do [her] job, no problem, just continue,\u201d that she did not feel any different, and that she would be doing therapy and taking medication to see whether her heart condition improved. If her condition did not improve, she would be getting a device similar to a pacemaker. Moore told Kennedy, \u201cI\u2019m fine, seriously.\u201d At that first meeting, in response to Moore informing Kennedy that she could \u2018\u201cdo [her] work and [her] job fine,\u201d Kennedy responded, \u201c \u2018The first thing we need to do is lighten your load to get rid of some of the stress.\u2019 \u201d\nAfter speaking with Moore, Kennedy spoke with someone in the human resources department and asked, \u201c \u2018[I]f I have an employee who has a medical event, do I call the hospital or do I call\u2014like, who do I call.\u2019 \u201d Kennedy also requested from human resources information on what to do about an employee \u2018\u201cwith adverse health issues.\u201d (Italics added.)\nWhen Moore was told that she no longer needed to wear the Life Vest, and that it had been \u201coverprescribed\u201d to her, she informed Kennedy about the change. Kennedy told Moore that she had \u201cbeen in touch with HR\u201d to ask \u201chow to handle [Moore] as a liability to the department.\u201d (Italics added.)\nMoore testified that her relationship with Kennedy changed after Kennedy became aware of Moore\u2019s heart condition. Based on this perceived change, Moore believed that Kennedy did not like the fact that Moore had a heart condition. Moore related a few instances in which she believed that Kennedy had unfairly criticized her work product, including Kennedy yelling at Moore in January 2011 regarding an advertising project, Kennedy seeking to change \u201cthe branding process to \u2018be her own,\u2019 \u201d and Kennedy being \u201chostile and snippy\u201d when informing Moore and advertising agency representatives that she did not want to use the music that Moore and some coworkers had chosen for a commercial. Moore also testified that during three different meetings, Kennedy had \u201chumiliated\u201d Moore in disagreeing with the Department\u2019s \u201cprevious branding look,\u201d which Moore had had a role in creating.\nAccording to Moore, after Kennedy became aware of Moore\u2019s heart condition, she began eliminating Moore\u2019s \u201cmain responsibilities,\u201d including her work on an \u201copen enrollment program and advertising.\u201d Moore did not know why Kennedy reassigned the open enrollment program to someone else. In addition, Kennedy began overseeing the advertising herself rather than allowing Moore to continue doing so. Kennedy had started \u201csending work to freelancers,\u201d including work that had previously been done internally. While Kennedy initially had Moore \u201coversee\u201d the work of the freelancers, Kennedy later \u201ctook [Moore] off of overseeing the freelancers.\u201d\nIn addition, as of November 2010, Kennedy began to meet with two of Moore\u2019s \u201creports\u201d on issues that Moore believed she should have been overseeing. Kennedy also began arranging meetings that Moore had previously been in charge of coordinating.\nMoore testified that Kennedy assigned Moore to work on \u201c \u2018less important\u2019 \u201d projects, such as \u201csecondary things to do that [Kennedy] didn\u2019t consider important to the department but had to be done.\u201d According to Moore, Kennedy was \u201ctaking away [Moore\u2019s] job responsibilities,\u201d and Moore came to believe that Kennedy \u201cwas positioning to get rid of [Moore].\u201d\nIn approximately mid-November 2010, Kennedy demoted Moore, through a Department restructuring, to a new classification. Moore\u2019s new title became \u201cDirector of Marketing and Brand Management.\u201d Moore\u2019s salary did not change, but certain other benefits were reduced. Also in November 2010, Kennedy implemented reclassifications of Department positions and laid off two full-time employees. At that time, Kennedy told her staff that this \u201cwas the last layoff that was going to happen.\u201d\nMoore told Kennedy in December 2010 that she would likely have to have a pacemaker surgically implanted in early 2011 and would need \u201conly\u201d a \u201cfew days off work.\u201d In January 2011, Moore informed Kennedy that she had postponed her surgery and \u201cwould need \u2018like two or three\u2019 days off in April 2011.\u201d Kennedy did not say anything in response to Moore\u2019s statements regarding the need for time off for surgery. Kennedy has no recollection of discussing Moore\u2019s need for surgery or her statements about having to take time off for such surgery.\nOn February 2, 2011, Kennedy sent an e-mail to Courtney Morris, a director of compensation and benefits in the human resources department, indicating that she wanted to eliminate Moore\u2019s position, effectively terminating Moore\u2019s employment, as of February 15, 2011. According to Kennedy, the job functions that Moore was performing had decreased to such a point that Kennedy could assume them, and therefore, Kennedy decided to eliminate Moore\u2019s position.\nIn response to Kennedy\u2019s e-mail regarding the elimination of Moore\u2019s position, Morris asked Kennedy to \u201cplease explain why Karen [Shea] should be retained out of seniority (see policy clause below). I want to make sure that this is reflected in the file.\u201d The policy to which Morris was referring stated: \u201cIndefinite layoff and indefinite reduction in time are effected by unit, by classification, and by salary grade (in the event of a classification assigned to different salary grades) in inverse order of seniority, except that an employee may be retained irrespective of seniority if that employee possesses special skills, knowledge, or abilities that are not possessed by other employees in the same classification and same salary grade (in the event of a classification assigned to different salary grades), and which are necessary to maintain the operations of the department.\u201d\nAt the time Kennedy requested to eliminate Moore\u2019s position and terminate her employment, Moore and Shea \u201cf[e]ll in the same payroll, title, and the same classification.\u201d\nKennedy\u2019s response to Morris\u2019s request for an explanation as to why Kennedy was not adhering to the policy with respect to Moore and Shea was as follows: \u201cElimination of the position [of marketing director] is due to the focus of the marketing department moving to the service lines and away from a central marketing professional servicing a [s/c] all service lines and department. . . . There is no need for two director level posihons in the marketing area. [Deb Moore and Karen Shea.] [\u00b6] In addition, I have taken over management of all brand issues and am the main point of contact with our advertising agency and advertising buyer. I also make all decisions regarding brand and identity as well as appoint all vendors. There is duplication in elements of my role with that of the Marketing Manager and again indicates that we do not need this resource.\u201d\nThus, in responding to the request from human resources for an explanation as to why the policy was not being followed, Kennedy explained the reasons for the elimination of Moore\u2019s posihon, but did not provide information regarding her assessment as to any \u201cspecial skills, knowledge, or abilities\u201d that Shea possessed and Moore did not. Kennedy conceded during her deposition that Moore \u201c[p]robably\u201d had the \u201cskills to fill\u201d the role that Shea fulfilled. Kennedy also acknowledged that Shea had \u201conly held that role for a few months\u201d at the time Moore was terminated.\nDefendant also has a policy regarding a reduction in force that requires Defendant to \u201c \u2018[g]ive regular status employees preferential opportunities for reassignment or transfer prior to indefinite layoff. \u2019 \u201d As interpreted by Andrea Balestrieri, Defendant\u2019s identified person most knowledgeable about reduction in force policies in effect at the time of Moore\u2019s termination, the \u201cidea [behind the policy] is to minimize impact to employees and to minimize the need to lay someone off.\u201d Balestrieri also testified regarding another policy referred to as a \u201cright to recall.\u201d Pursuant to this policy, \u201cif a position is opened after an individual is laid off and the position is in the same classification, the same salary grade, they would have the right to recall\u201d\u2014 i.e., be rehired into that position.\nDefendant eliminated Moore\u2019s position on February 15, 2011, and Moore was terminated. Moore was informed that she was being laid off because her position was being eliminated due to \u201clack of work\u201d and \u201cbudget reasons.\u201d\nShea testified that after Moore was terminated, Kennedy and Shea discussed \u201c[Shea] taking over duties that Deb Moore used to have,\u201d and that some of Moore\u2019s \u201cdirect reports reported in to [Shea] for a short period of time,\u201d after which they reported to \u201cBeth Reagan, who reported directly to Kim Kennedy.\u201d Moore understood that her \u201cposition and [her] tasks were given to somebody else on staff there who just had a slightly different title.\u201d\nA year and a half after terminating Moore, Kennedy \u201cmade some additional restructuring redundancies.\u201d\nEvidence presented on summary judgment demonstrated that at the time Kennedy was hired, the Department consisted of 15 full-time employees and approximately five temporary employees. However, between November 2010 and May 2011, the Department increased its head count by eight employees. The most significant increases in staff were in the Internet marketing and design and production areas. Kennedy was aware that Moore had a design and production background, and, in fact, that Moore\u2019s career had been devoted to being a graphic designer, production manager, and art director. Kennedy acknowledged that Moore had an \u201cextensive background in design and production.\u201d\nKennedy did not ask Moore if she would accept a pay reduction, nor did Kennedy consider Moore for a freelance position. There is no evidence that Kennedy offered Moore any of the positions that were filled around the time of, or after, her termination.\nB. Procedural background\nMoore filed her complaint on January 28, 2013, alleging causes of action under FEHA for disability discrimination, failure to accommodate, failure to engage in the interactive process, and retaliation, as well as causes of action for interference with CFRA and retaliation in violation of CFRA.\nDefendant moved for summary judgment a little over a year after the case was filed. The trial court ruled in favor of Defendant on the motion, concluding that Moore had not demonstrated that there remained triable issues of material fact with respect to any of her causes of action.\nThe trial court subsequently entered judgment in favor of Defendant. Moore filed a timely notice of appeal from the judgment.\nIII.\nDISCUSSION\nA. Applicable legal standards\n1. Summary judgment standards\n\u201cSummary judgment is granted when a moving party establishes the right to the entry of judgment as a matter of law. [Citation.] On appeal, the reviewing court makes \u2018 \u201can independent assessment of the correctness of the trial court\u2019s ruling, applying the same legal standard as the trial court in determining whether there are any genuine issues of material fact or whether the moving party is entitled to judgment as a matter of law.\u201d \u2019 \u201d (Hesperia Citizens for Responsible Development v. City of Hesperia (2007) 151 Cal.App.4th 653, 658 [60 Cal.Rptr.3d 124].)\nIn independently examining the record on appeal \u201cto determine whether triable issues of material fact exist,\u201d we \u201c \u2018considero all the evidence set forth in the moving and opposition papers except that to which objections were made and sustained.\u2019 \u201d (Ambriz v. Kelegian (2007) 146 Cal.App.4th 1519, 1530 [53 Cal.Rptr.3d 700] (Ambriz).) Further, \u201c \u2018we must view the evidence in a light favorable to plaintiff as the losing party [citation], liberally construing [the plaintiff\u2019s] evidentiary submission while strictly scrutinizing the defendants\u2019 own showing, and resolving any evidentiary doubts or ambiguities in plaintiff\u2019s favor.\u2019 \u201d (Ibid.)\n\u201c \u2018In the summary judgment context, ... the evidence must be incapable of supporting a judgment for the losing party in order to validate the summary judgment.\u2019 \u201d (Faust v. California Portland Cement Co. (2007) 150 Cal.App.4th 864, 877 [58 Cal.Rptr.3d 729] (Faust).) \u201c \u2018Thus even though it may appear that a trial court took a \u201creasonable \u201d view of the evidence, a summary judgment cannot properly be affirmed unless a contrary view would be unreasonable as a matter of law in the circumstances presented.\u2019 \u201d (Ibid., italics added.)\n2. Overview of FEHA and CERA\na. Overview of FEHA as relevant to Moore \u2019s case\nFEHA makes it an unlawful employment practice to discharge a person from employment or discriminate against the person in the terms, conditions, or privileges of employment because of physical or mental disability or medical condition. (\u00a7 12940, subd. (a).) FEHA, however, \u201cdoes not prohibit an employer from . . . discharging an employee with a physical or mental disability, . . . where the employee, because of his or her physical or mental disability, is unable to perform his or her essential duties even with reasonable accommodations . . . .\u201d (\u00a7 12940, subd. (a)(1).) FEHA proscribes two types of disability discrimination: (1) discrimination arising from an employer\u2019s intentionally discriminatory act against an employee because of his or her disability (disparate treatment discrimination), and (2) discrimination resulting from an employer\u2019s facially neutral practice or policy that has a disproportionate effect on employees suffering from a disability (disparate impact discrimination). (Knight v. Hayward Unified School Dist. (2005) 132 Cal.App.4th 121, 128-129 [33 Cal.Rptr.3d 287], disapproved on other grounds in Williams v. Chino Valley Independent Fire Dist. (2015) 61 Cal.4th 97, 115 [186 Cal.Rptr.3d 826, 347 P.3d 976].)\nFEHA also imposes on the employer the obligation to make reasonable accommodation: \u201cIt is an unlawful employment practice, unless based upon a bona fide occupational qualification, or, except where based upon applicable security regulations established by the United States or the State of California: [\u00b6] . . . [\u00b6] (m) (1) For an employer or other entity covered by this part to fail to make reasonable accommodation for the known physical or mental disability of an applicant or employee.\u201d (\u00a7 12940, subd. (m).) An employer is not required to make an accommodation \u201cthat is demonstrated by the employer or other covered entity to produce undue hardship ... to its operation.\u201d (Ibid.)\nCorresponding with the obligation to make reasonable accommodation for a known physical or mental disability, FEHA makes it unlawful for an employer \u201cto fail to engage in a timely, good faith, interactive process with the employee or applicant to determine effective reasonable accommodations, if any, in response to a request for reasonable accommodation by an employee or applicant with a known physical or mental disability or known medical condition.\u201d (\u00a7 12940, subd. (n).) Section 12940, subdivision (n) imposes separate, independent duties on an employer to engage in the \u201c \u2018interactive process\u2019 \u201d and to make \u201c \u2018reasonable accommodations.\u2019 \u201d (Wilson v. County of Orange (2009) 169 Cal.App.4th 1185, 1193 [87 Cal.Rptr.3d 439].)\nFEHA also makes it unlawful for an employer \u201cto discharge, expel, or otherwise discriminate against any person because the person has opposed any practices forbidden under this part or because the person has filed a complaint, testified, or assisted in any proceeding under this part.\u201d (\u00a7 12940, subd. (h).)\nb. Overview of CFRA as relevant to Moore\u2019s case\nCFRA, the California corollary to the federal Family and Medical Leave Act of 1993 (29 U.S.C. \u00a7\u00a7 2601-2654; FMLA), \u201cis intended to give employees an opportunity to take leave from work for certain personal or family medical reasons without jeopardizing job security.\u201d (Nelson v. United Technologies (1999) 74 Cal.App.4th 597, 606 [88 Cal.Rptr.2d 239]; see Faust, supra, 150 Cal.App.4th at p. 878.) CFRA requires an employer of 50 or more persons to grant a request by a qualified employee to take up to 12 weeks in any 12-month period for family care or medical leave. (\u00a7 12945.2, subds. (a), (c)(2)(A); see Faust, supra, at p. 878.) Grounds for leave include family needs such as the birth or adoption of a child, serious illness of a family member and \u201can employee\u2019s own serious health condition\u201d when that condition \u201cmakes the employee unable to perform the functions of the position of that employee . . . .\u201d (\u00a7 12945.2, subd. (c)(3)(C).) CFRA defines a \u201c \u2018[s]erious health condition\u2019 \u201d as \u201can illness, injury, impairment, or physical or mental condition that involves either of the following: [\u00b6] (A) Inpatient care in a hospital, hospice, or residential health care facility. [\u00b6] (B) Continuing treatment or continuing supervision by a health care provider.\u201d (\u00a7 12945.2, subd. (c)(8).) An employer may require an employee\u2019s request for leave be supported by a certification from the employee\u2019s health care provider. {Id., subd. (k)(1).)\n\u201cViolations of . . . CFRA generally fall into two types of claims: (1) \u2018interference\u2019 claims in which an employee alleges that an employer denied or interfered with her substantive rights to protected medical leave, and (2) \u2018retaliation\u2019 claims in which an employee alleges that she suffered an adverse employment action for exercising her right to CFRA leave.\u201d (Rogers v. County of Los Angeles (2011) 198 Cal.App.4th 480, 487-488 [130 Cal.Rptr.3d 350], fn. omitted.) The statutory authority for an \u201cinterference\u201d claim arises from section 12945.2, subdivision (t), which makes it unlawful for an employer \u201cto interfere with, restrain, or deny the exercise of, or the attempt to exercise, any right\u201d provided by CFRA. The statutory authority for a \u201cretaliation\u201d claim arises from section 12945.2, subdivision (/)(1), which makes it unlawful to retaliate against any individual because of his or her exercise of the right to family care or medical leave as provided by CFRA.\nB. Moore \u2019s first cause of action for disability discrimination under FEHA\n1. Standards applicable to discrimination claims\n\u201cBecause of the similarity between state and federal employment discrimination laws, California courts look to pertinent federal precedent when applying our own statutes.\u201d (Guz v. Bechtel National, Inc. (2000) 24 Cal.4th 317, 354 [100 Cal.Rptr.2d 352, 8 P.3d 1089] (Guz).)\nIn order to prevail on a FEHA discrimination claim, a \u201c \u2018plaintiff must produce evidence sufficient to show that an illegitimate criterion was a substantial factor in the particular employment decision.\u2019 \u201d (Harris v. City of Santa Monica (2013) 56 Cal.4th 203, 232 [152 Cal.Rptr.3d 392, 294 P.3d 49].)\nBecause a plaintiff does not often possess or obtain direct evidence that an illegitimate criterion was a substantial factor in a particular employment decision, California has adopted the three-stage burden shifting test for discrimination claims set forth in McDonnell Douglas Corp. v. Green (1973) 411 U.S. 792 [36 L.Ed.2d 668, 93 S.Ct. 1817], (Guz, supra, 24 Cal.4th at pp. 354-356.) \u201cThis so-called McDonnell Douglas test reflects the principle that direct evidence of intentional discrimination is rare, and that such claims must usually be proved circumstantially. Thus, by successive steps of increasingly narrow focus, the test allows discrimination to be inferred from facts that create a reasonable likelihood of bias and are not satisfactorily explained.\u201d (Guz, supra, 24 Cal.4th at p. 354; see also Mixon v. Fair Employment & Housing Com. (1987) 192 Cal.App.3d 1306, 1317 [237 Cal.Rptr. 884] [\u201cIn most cases, the complainant will be unable to produce direct evidence of the employer\u2019s intent. Consequently certain rules regarding the allocation of burdens and order of presentation of proof have developed in order to achieve a fair determination of \u2018the elusive factual question of intentional discrimination\u2019 \u201d].)\n\u201cAt trial, the McDonnell Douglas test places on the plaintiff the initial burden to establish a prima facie case of discrimination. This step is designed to eliminate at the outset the most patently meritless claims, as where the plaintiff is not a member of the protected class or was clearly unqualified, or where the job he sought was withdrawn and never filled.\u201d (Guz, supra, 24 Cal.4th at p. 354.) The plaintiff can meet his or her burden of establishing a prima facie case of discrimination by presenting evidence that demonstrates, even circumstantially or by inference, that he or she (1) suffered from a disability, or was regarded as suffering from a disability, (2) could perform the essential duties of the job with or without reasonable accommodations, and (3) was subjected to an adverse employment action because of the disability or perceived disability. (Jensen v. Wells Fargo Bank (2000) 85 Cal.App.4th 245, 254 [102 Cal.Rptr.2d 55] (Jensen).) To establish a prima facie case, a plaintiff must show \u201c \u2018 \u201c \u2018actions taken by the employer from which one can infer, if such actions remain unexplained, that it is more likely than not that such actions were \u201cbased on a [prohibited] discriminatory criterion (Reid v. Google, Inc. (2010) 50 Cal.4th 512, 520, fn. 2 [113 Cal.Rptr.3d 327, 235 P.3d 988].) The prima facie burden is light; the evidence necessary to sustain the burden is minimal. (Heard v. Lockheed Missiles & Space Co. (1996) 44 Cal.App.4th 1735, 1751 [52 Cal.Rptr.2d 620].) Generally, an employee need offer only sufficient circumstantial evidence to give rise to a reasonable inference of discrimination. (Hersant v. Department of Social Services (1997) 57 Cal.App.4th 997, 1002 [67 Cal.Rptr.2d 483] (Hersant) [explaining nature of prima facie case in context of age discrimination].)\n\u201cIf, at trial, the plaintiff establishes a prima facie case, a presumption of discrimination arises.\u201d (Guz, supra, 24 Cal.4th at p. 355.) \u201cAccordingly, at this trial stage, the burden shifts to the employer to rebut the presumption by producing admissible evidence, sufficient to \u2018raise[] a genuine issue of fact\u2019 and to \u2018justify a judgment for the [employer],\u2019 that its action was taken for a legitimate, nondiscriminatory reason.\u201d (Id. at pp. 355-356.)\n\u201cIf the employer sustains this burden [to demonstrate a genuine issue of fact that the action was for a legitimate, nondiscriminatory reason], the presumption of discrimination disappears. [Citations.] The plaintiff must then have the opportunity to attack the employer\u2019s proffered reasons as pretexts for discrimination, or to offer any other evidence of discriminatory motive. [Citations.] In an appropriate case, evidence of dishonest reasons, considered together with the elements of the prima facie case, may permit a finding of prohibited bias.\u201d (Guz, supra, 24 Cal.4th at p. 356.)\nIn demonstrating that an employer\u2019s proffered nondiscriminatory reason is false or pretextual, \u201c \u2018[an employee] cannot simply show that the employer\u2019s decision was wrong or mistaken, since the factual dispute at issue is whether discriminatory animus motivated the employer, not whether the employer is wise, shrewd, prudent, or competent. . . . Rather, the [employee] must demonstrate such weaknesses, implausibilities, inconsistencies, incoher-encies, or contradictions in the employer\u2019s proffered legitimate reasons for its action that a reasonable factfinder could rationally find them \u201cunworthy of credence,\u201d . . . and hence infer \u201cthat the employer did not act for [the asserted] non-discriminatory reasons.\u201d \u2019 \u201d (Hersant, supra, 57 Cal.App.4th at p. 1005.)\n2. Summary judgment in the context of a discrimination claim\n\u201c \u2018[W]e must keep in mind that the McDonnell Douglas test was originally developed for use at trial [citation], not in summary judgment proceedings.\u2019 \u201d (Arteaga v. Brink\u2019s, Inc. (2008) 163 Cal.App.4th 327, 343-344 [77 Cal.Rptr.3d 654].) \u201c \u2018 \u201cIn such pretrial [motion] proceedings, the trial court will be called upon to decide if the plaintiff has met his or her burden of establishing a prima facie case of unlawful discrimination. If the employer presents admissible evidence either that one or more of plaintiffs prima facie elements is lacking, or that the adverse employment action was based on legitimate, nondiscriminatory factors, the employer will be entitled to summary judgment unless the plaintiff produces admissible evidence which raises a triable issue of fact material to the defendant\u2019s showing. In short, by applying McDonnell Douglas\u2019s shifting burdens of production in the context of a motion for summary judgment, \u2018the judge [will] determine whether the litigants have created an issue of fact to be decided by the jury.\u2019 \u201d... Thus, \u201c \u2018[although the burden of proof in a [discrimination] action claiming an unjustifiable [termination] ultimately rests with the plaintiff . . . , in the case of a motion for summary judgment or summary issue adjudication, the burden rests with the moving party to negate the plaintiff's right to prevail on a particular issue. ... In other words, the burden is reversed in the case of a summary issue adjudication or summary judgment motion. . . \u201d (Id. at p. 344, third italics added.)\n\u201c \u2018Whether judgment as a matter of law is appropriate in any particular case will depend on a number of factors. These include the strength of the plaintiff\u2019s prima facie case, the probative value of the proof that the employer\u2019s explanation is false, and any other evidence that supports the employer\u2019s case ....\u2019\u201d (Guz, supra, 24 Cal.4th at p. 362.) However, \u201cmany employment cases present issues of intent, . . . motive, and hostile working environment, issues not determinable on paper. Such cases . . . are rarely appropriate for disposition on summary judgment, however liberalized [summary judgment standards may] be.\u201d (Nazir v. United Airlines, Inc. (2009) 178 Cal.App.4th 243, 286 [100 Cal.Rptr.3d 296] (Nazir), italics added.)\n3. Analysis\nThe trial court determined that Moore satisfactorily demonstrated a prima facie case of discrimination under FEHA. Although the court concluded that the undisputed evidence established that Moore was not, in fact, physically disabled, the court determined that there nevertheless remained a question of fact as to whether Defendant perceived Moore as having a disability. The court concluded that the undisputed evidence demonstrated that Moore was qualified to perform the duties of her position, stating that \u2018\u201c[b]ecause plaintiff was not terminated for cause, there is no issue regarding plaintiffs ability to perform the work.\u201d Finally, the court concluded that the temporal connection between the time Kennedy became aware of Moore\u2019s heart condition and Moore\u2019s termination was sufficient to satisfy the final element of a prima facie case of discrimination.\nThe court then considered the evidence presented by Defendant with respect to offering a legitimate, nondiscriminatory basis for Moore\u2019s termination. The court concluded that Defendant\u2019s evidence was sufficient to meet this standard.\nHowever, with respect to the third stage of the McDonnell Douglas burden shifting test\u2014i.e., Moore\u2019s proffer regarding pretext and/or discriminatory motive to overcome Defendant\u2019s offer of a nondiscriminatory reason for her termination\u2014the trial court concluded that, \u2019'[biased on all the evidence presented, plaintiff has not raised a triable issue of fact with respect to her claim of disability discrimination.\u201d\nWe agree with the trial court\u2019s analysis with respect to the first two prongs of the McDonnell Douglas test\u2014i.e., that Moore sufficiently demonstrated a prima facie case of discrimination, and that Defendant offered evidence of a legitimate, nondiscriminatory basis for Moore\u2019s termination. However, we conclude that there remain triable issues of fact regarding pretext in the face of Defendant\u2019s proffer of a nondiscriminatory reason for Moore\u2019s termination.\nOnce an employer has offered a legitimate, nondiscriminatory reason for the adverse employment action, a \u201c \u2018plaintiff must offer evidence that the employer\u2019s stated reason is either false or pretextual, or evidence that the employer acted with discriminatory animus, or evidence of each which would permit a reasonable trier of fact to conclude the employer intentionally discriminated.\u2019 \u201d (Faust, supra, 150 Cal.App.4th at p. 886.)\nMoore offered evidence that Defendant\u2019s proffered reasons for terminating her employment may have been untrue, as well as evidence that suggested that Kennedy may not have believed that Moore was healthy enough to continue in her position with the typical stressors of her job\u2014evidence from which a fact finder could infer that Defendant\u2019s proffered reason was a pretext for disability discrimination.\nDefendant maintains that Moore was laid off due to a restructuring or reorganization of the Department. According to Kennedy, the duties that Moore had in her position were duplicative of duties that Kennedy either was handling or planned to handle herself. However, the timing of events leading up to Moore\u2019s termination could suggest that something other than simple restructuring was at play.\nMoore was originally hired into the Department as a temporary worker in October 2008, and within a year she was promoted to the position of creative director, a permanent position. By February 2010, just over a year after she had been hired as a temporary worker, Moore was promoted to the position of director of marketing, a position in which she oversaw half of the Department. After the executive director resigned unexpectedly around that same time, Moore and another director shared interim executive director duties. Despite Moore\u2019s otherwise rapid ascension in the Department, later that year, specifically, after September 10, 2010, when Moore began wearing the Life Vest at work, Kennedy began eliminating Moore\u2019s \u201cmain responsibilities,\u201d including her work on an \u201copen enrollment program and advertising.\u201d Kennedy also began overseeing the advertising herself. Kennedy had started \u201csending work to freelancers,\u201d including work that had previously been done internally, and then \u201ctook [Moore] off of overseeing the freelancers.\u201d This all occurred after Moore informed Kennedy of her heart condition but expressly declined to request any differential treatment or accommodation, and after Kennedy replied, \u201c \u2018The first thing we need to do is lighten your load to get rid of some of the stress.\u2019 \u201d\nThen, approximately a year after Moore had been promoted to a director position, but only two months after Moore informed Kennedy that she would need some time off for a surgery related to her heart condition, Kennedy decided to eliminate Moore\u2019s position. Rather than move Moore to a different director position or even demote her but keep her employed in the Department, Kennedy terminated Moore\u2019s employment altogether. \u201cPretext may ... be inferred from the tinting of the company\u2019s termination decision, by the identity of the person making the decision, and by the terminated employee\u2019s job performance before termination.\u201d (Flait v. North American Watch Corp. (1992) 3 Cal.App.4th 467, 479 [4 Cal.Rptr.2d 522].)\nA defendant\u2019s failure to follow its own policies or procedures may also provide evidence of pretext. (See Arlington Heights v. Metropolitan Housing Corp. (1977) 429 U.S. 252, 267 [50 L.Ed.2d 450, 97 S.Ct. 555] [a departure from normal procedures \u201cmight afford evidence that improper purposes [played] a role\u201d in an employee\u2019s termination].) The record discloses evidence from which a reasonable fact finder could conclude that Kennedy failed to follow Defendant\u2019s stated procedures with respect to layoffs occurring during a restructuring when she not only eliminated Moore\u2019s position, but terminated Moore\u2019s employment.\nSpecifically, Defendant had a policy to retain employees in the same unit, classification and salary grade based on seniority, unless a particular employee who was less senior possessed \u201cspecial skills, knowledge, or abilities\u201d that a more senior employee did not. At the time Kennedy decided to terminate Moore, Moore was senior to Shea, and they both \u201cf[e]ll in the same payroll, title, and the same classification.\u201d When asked by a representative of the human resources department why Kennedy was not adhering to the stated seniority policy with respect to Moore, Kennedy explained the reasons for the elimination of Moore\u2019s position, but provided no information regarding her assessment with respect to any \u201cspecial skills, knowledge, or abilities\u201d that Shea possessed and Moore did not. In other words, Kennedy did not provide any reason why Shea, in particular, was being retained over Moore, who had more seniority; instead, Kennedy explained the reason for the elimination of Moore\u2019s \u201cDirector\u201d position\u2014i.e., that \u201c[t]here is no need for two director level positions in the marketing area. [Deb Moore and Karen Shea]\u201d and that there was a duplication of duties with Kennedy\u2019s position and Moore\u2019s position.\nFurther, in her declaration submitted in support of Defendant\u2019s motion for summary judgment, Kennedy\u2019s explanation for the decision to retain Shea rather than Moore was that \u201cthe two directors oversaw different functions and the roles were not interchangeable.\u201d Kennedy still provides no explanation, however, as to whether Shea possessed \u201cspecial skills, knowledge, or abilities\u201d that Moore did not, that would merit Shea\u2019s retention in lieu of Moore\u2019s, which is what Defendant\u2019s stated policy requires. Indeed, Kennedy acknowledged during her deposition that Moore \u201c[pjrobably\u201d had the ability to fill the role that Shea had been in for only a few months when Moore was terminated.\nFurther, there is evidence demonstrating that Kennedy also did not adhere to Defendant\u2019s policy to \u201c \u2018[g]ive regular status employees preferential opportunities for reassignment or transfer prior to indefinite layoff,\u2019 \u201d or Defendant\u2019s policy regarding the \u201cright to recall.\u201d Kennedy admitted that she did not ask Moore if she would accept a pay reduction, did not offer Moore any of the positions that were filled around or after her termination, and did not consider Moore for a freelance position. This was in spite of the fact that between November 2010 and May 2011, the Department increased its head count by eight employees, that the most significant increases in staff were in the Internet marketing and design and production areas, and that Kennedy was aware that Moore had a background in design and production.\nThus, there remain significant questions as to whether Defendant followed its own stated policies with respect to Moore\u2019s termination.\nIn addition to the evidence that raises questions about Defendant\u2019s proffered reasons for terminating Moore\u2019s employment, Moore provided evidence of other statements made by Kennedy from which a fact finder could infer that Kennedy was concerned that Moore\u2019s health was going to be a problem at work and that she may have had discriminatory reason for terminating Moore\u2019s employment. After observing Moore wearing the Life Vest and learning from Moore about Moore\u2019s heart condition, Kennedy contacted the human resources department and inquired as to what she should do about employees \u201cwith adverse health issues\u201d (italics added), in the context of inquiring with respect to Moore\u2019s \u201cadverse health condition\u201d (italics added). Even more troubling is evidence that when Moore informed Kennedy that she no longer needed to wear the Life Vest, Kennedy\u2019s response was that she had \u201cbeen in touch with HR\u201d to ask \u201chow to handle [Moore] as a liability to the department.\u201d (Italics added.) The reference to Moore being a \u201cliability to the department\u201d with respect to her heart condition could reasonably be viewed by a fact finder as evidence of a discriminatory animus toward Moore\u2019s perceived disability.\nThe fact that the parties dispute a number of factual issues, including whether Moore was equipped to perform the functions of Shea\u2019s position, whether Kennedy did or did not follow Defendant\u2019s own policies for laying off employees, and whether Kennedy perceived Moore as having a disability, demonstrates why this case is not an appropriate one for summary judgment and instead, should be heard by a jury. There is evidence supporting both parties\u2019 positions, and it is not up to the court to weigh conflicting evidence or to assess the credibility of witnesses. Rather, the court\u2019s duty is to determine only whether the evidence could support a judgment in favor of the nonmoving party. Here, the evidence is such that a reasonable fact finder could conclude that Defendant\u2019s proffered reasons for terminating Moore\u2019s employment were unworthy of credence and that Kennedy believed that Moore was a \u201cliability\u201d to the Department as a result of her heart condition, and, based on that conclusion, could infer that the proffered reasons for Moore\u2019s termination were not the real reasons for the termination. In other words, a reasonable juror could find that Defendant\u2019s stated reason for terminating Moore was pretextual, and that Defendant was instead motivated by a discriminatory purpose. Again, issues of intent and motive are typically not appropriate for disposition on summary judgment. (Nazir, supra, 178 Cal.App.4th at p. 286.) We therefore conclude that summary judgment with respect to Moore\u2019s first cause of action for disability discrimination in violation of FEHA must be reversed.\nC. Moore \u2019s second and third causes of action for failure to accommodate and failure to engage in the interactive process in violation of FEHA\nIn addition to setting forth a general prohibition against unlawful employment discrimination based on disability, FEHA provides an independent cause of action for an employer\u2019s failure to provide a reasonable accommodation for an applicant\u2019s or employee\u2019s known disability. (\u00a7 12940, subds. (a), (m).) \u201cUnder the express provisions of the FEHA, the employer\u2019s failure to reasonably accommodate a disabled individual is a violation of the statute in and of itself.\u201d (Jensen, supra, 85 Cal.App.4th at p. 256; see Bagatti v. Department of Rehabilitation (2002) 97 Cal.App.4th 344, 357 [118 Cal.Rptr.2d 443].) Similar reasoning applies to violations of section 12940, subdivision (n), for an employer\u2019s failure to engage in a good faith interactive process to determine an effective accommodation, once one is requested. (Bagatti, supra, at p. 357; Claudio v. Regents of University of California (2005) 134 Cal.App.4th 224, 243 [35 Cal.Rptr.3d 837].)\nTwo principles underlie a cause of action for failure to provide a reasonable accommodation. First, the employee must request an accommodation. (Prilliman v. United Air Lines, Inc. (1997) 53 Cal.App.4th 935, 954 [62 Cal.Rptr.2d 142].) Second, the parties must engage in an interactive process regarding the requested accommodation and, if the process fails, responsibility for the failure rests with the party who failed to participate in good faith. (See Jensen, supra, 85 Cal.App.4th at p. 266.) While a claim of failure to accommodate is independent of a cause of action for failure to engage in an interactive dialogue, each necessarily implicates the other. (Gelfo v. Lockheed Martin Corp. (2006) 140 Cal.App.4th 34, 54 [43 Cal.Rptr.3d 874] (Gelfo).)\nThe trial court concluded that Moore cannot prevail on her accommodation claim or her claim for failure to engage in the interactive process because \u201cshe did not have a disability that required accommodation.\u201d This, however, is not a basis for rejecting a plaintiff\u2019s failure to accommodate and/or failure to engage in the interactive process claim(s): \u201c[E]mployers must reasonably accommodate individuals falling within any of FEHA\u2019s statutorily defined \u2018disabilities,\u2019 including those \u2018regarded as\u2019 disabled, and must engage in an informal, interactive process to determine any effective accommodations.\u201d (Gelfo, supra, 140 Cal.App.4th at p. 55, italics added.)\nIn discussing its conclusion that an employer may be held liable for failing to accommodate an individual whom the employer perceives as disabled, even if he or she is not actually disabled under FEHA, the Gelfo court adopted similar reasoning employed by a federal court in considering this issue with respect to the Americans with Disabilities Act of 1990 (42 U.S.C. \u00a7 12101 et seq.; ADA): \u201c \u2018The ADA is concerned with safeguarding the employee\u2019s livelihood from adverse actions taken on the basis of \u201cstereotypic assumptions not truly indicative of individual ability\u201d of the employee. . . . [T]he real danger is not that the employee will fail to educate an employer concerning her abilities, but that \u201c[t]he employee whose limitations are perceived accurately gets to work, while [the employee perceived as disabled] is sent home unpaid.\u201d \u2019 [Citation.] Stated differently, the ADA\u2019s educational function is actually advanced by providing accommodations to \u2018regarded as\u2019 disabled employees because \u2018an employer who is unable or unwilling to shed his or her stereotypic assumptions based on a faulty or prejudiced perception of an employee\u2019s abilities must be prepared to accommodate the artificial limitations created by his or her own faulty perceptions. In this sense, the ADA encourages employers to become more enlightened about their employees\u2019 capabilities, while protecting employees from employers whose attitudes remain mired in prejudice.\u2019 [Citation.] Finally, Kelly noted that, by failing to make any definitional distinction between an employee who was actually disabled and one who was merely regarded as disabled, Congress did not consider it inherently unreasonable to provide an accommodation for an employee whom an employer only regarded as disabled.\u201d (Gelfo, supra, 140 Cal.App.4th at p. 59, first italics added, quoting Kelly v. Metallics West, Inc. (10th Cir. 2005) 410 F.3d 670, 676.)\nConsequently, the trial court erroneously relied on its conclusion that Moore did not have a disability in granting summary adjudication of Moore\u2019s claims for failure to accommodate and failure to engage in the interactive process, since a plaintiff need not have an actual disability, but need only be regarded by the employer as having one, to be able to make out claims under section 12940, subdivisions (m) and (n).\nThe trial court also concluded, in the alternative, that Moore was \u2018\u201cnot denied an accommodation\u201d because she was terminated prior to any denial of her request for time off for her surgery. However, as the trial court concluded, Moore made out a prima facie case that Defendant regarded her as disabled with respect to her heart condition. Moore informed Kennedy that she would have to take some time off in order to have surgery related to the condition for which there is evidence that she was regarded as disabled. A term of leave from work can be a reasonable accommodation under FEHA (Hanson v. Lucky Stores, Inc. (1999) 74 Cal.App.4th 215, 226 [87 Cal.Rptr.2d 487]), and, therefore, a request for leave can be considered to be a request for accommodation under FEHA. There was no evidence presented with respect to Defendant\u2019s motion for summary judgment that Kennedy or anyone else engaged in an interactive process with Moore to discuss her request for leave. The evidence establishes, however, that Moore was terminated before she was granted leave for her surgery.\nAs we have already concluded, there is sufficient evidence of pretext in Moore\u2019s termination to make summary adjudication of Moore\u2019s discrimination claim inappropriate, and, thus, the termination cannot support the conclusion that Defendant did not have to address Moore\u2019s request for accommodation or engage in an interactive process with Moore. \u201c \u2018In a practical sense,\u2019 as another court observed in the ADA context, \u2018the interactive process is more of a labor tool than a legal tool, and is a prophylactic means to guard against capable employees losing their jobs even if they are not actually disabled.\u2019 \u201d (Gelfo, supra, 140 Cal.App.4th at p. 61, italics added.) The point of the interactive process is to find reasonable accommodation for a disabled employee, or an employee regarded as disabled by the employer, in order to avoid the employee\u2019s termination. Therefore, a pretex-tual termination of a perceived-as-disabled employee\u2019s employment in lieu of providing reasonable accommodation or engaging in the interactive process does not provide an employer a reprieve from claims for failure to accommodate and failure to engage in the interactive process.\nA reasonable fact finder could conclude, based on the evidence presented on summary judgment, (1) that Defendant regarded Moore as disabled, (2) that Moore requested an accommodation of leave to have surgery related to her perceived disability, (3) that Defendant terminated Moore before either providing her with the requested accommodation or engaging with her further to determine whether such accommodation would sufficiently address her perceived disability or whether other or different accommodations might reasonably be provided, and (4) that the termination was pretextual. The granting of summary adjudication of Moore\u2019s second and third causes of action in favor of Defendant was therefore erroneous.\nD. Moore\u2019s fourth cause of action for retaliation in violation of FEH A\nMoore\u2019s fourth cause of action alleges a violation of section 12940, subdivision (h), which prohibits employer retaliation against an employee as a result of the employee engaging in certain protected conduct. Specifically, section 12940, subdivision (h) makes it unlawful for an employer \u201cto discharge, expel, or otherwise discriminate against any person because the person has opposed any practices forbidden under this part or because the person has filed a complaint, testified, or assisted in any proceeding under this part.\u201d (Italics added.) In order to establish a prima facie case of retaliation under this section, \u201ca plaintiff must show (1) he or she engaged in a \u2018protected activity,\u2019 (2) the employer subjected the employee to an adverse employment action, and (3) a causal link existed between the protected activity and the employer\u2019s action.\u201d (Yanowitz v. L\u2019Oreal USA, Inc. (2005) 36 Cal.4th 1028, 1042 [32 Cal.Rptr.3d 436, 116 P.3d 1123].) If any employee presents a prima facie case of retaliation, the court then employs the three-stage McDonnell Douglas burden shifting analysis to the employee\u2019s claim. (Ibid.)\nIn the operative complaint, Moore alleges that Defendant unlawfully retaliated against her as a result of her \u201cnotifying\u201d Defendant \u201cof her disability(ies) and need for accommodations, including, but not limited to, a finite leave of absence.\u201d In other words, Moore contends that the \u201cprotected activity\u201d in which she engaged was notifying Defendant of her heart condition and requesting a leave of absence for her surgery.\nThe trial court concluded that Defendant was entitled to summary adjudication of Moore\u2019s cause of action for retaliation under subdivision (h) of section 12940 on the ground that \u2018\u201c[m]erely requesting an accommodation is not a protected activity\u201d under subdivision (h). The trial court relied, in part, on Rope v. Auto-Chlor System of Washington, Inc. (2013) 220 Cal.App.4th 635, 652 [163 Cal.Rptr.3d 392] (Rope) in reaching this conclusion. In Rope, the court determined that there was \u2018\u201cno support in the regulations or case law for the proposition that a mere request\u2014or even repeated requests\u2014for an accommodation, without more, constitutes a protected activity sufficient to support a claim for retaliation in violation of FEHA.\u201d (Id. at p. 652.) Rather, \u2018\u201ccase law and FEHA\u2019s implementing regulations are uniformly premised on the principle that the nature of activities protected by section 12940, subdivision (h) demonstrate some degree of opposition to or protest of the employer\u2019s conduct or practices based on the employee\u2019s reasonable belief that the employer\u2019s action or practice is unlawful. (See Cal. Code. Regs., tit. 2, former \u00a7 7287.8; Gardner v. City of Berkeley (N.D.Cal. 2012) 838 F.Supp.2d 910, 925 [mere \u2018act of receiving a medical retirement is not a \u2018\u201cprotected activity . . .\u201d \u2019 under FEHA].)\u201d (Id. at pp. 652-653, italics added.)\nOn appeal, however, Moore contends that Defendant does not \u2018\u201craise any arguments against the first two elements [of her prima facie case of retaliation], nor does [Defendant] discuss the fact that the Eegislature amended FEHA to supersede Rope), supra,] 220 Cal.App.4th [635] and make clear that a request for an accommodation constitutes protected activity.\u201d\nIn 2015, the Eegislature amended section 12940 by adding two provisions; Assembly Bill 987 \u201denact[s] paragraph (2) of subdivision (m) and paragraph (4) of subdivision (1) of Section 12940, to provide protection against retaliation when an individual makes a request for reasonable accommodation under these sections, regardless of whether the request was granted.\u201d (Assem. Bill 987, \u00a7 1, subd. (d).) Relevant to Moore\u2019s claims for disability discrimination is the amendment to subdivision (m) of section 12940. As newly amended, effective January 1, 2016, the provision currently makes it unlawful:\n\u201c(m) (l) For an employer or other entity covered by this part to fail to make reasonable accommodation for the known physical or mental disability of an applicant or employee. Nothing in this subdivision or in paragraph (1) or (2) of subdivision (a) shall be construed to require an accommodation that is demonstrated by the employer or other covered entity to produce undue hardship, as defined in subdivision (u) of Section 12926, to its operation.\n\u201c(2) For an employer or other entity covered by this part to, in addition to the employee protections provided pursuant to subdivision (h), retcdiate or otherwise discriminate against a person for requesting accommodation under this subdivision, regardless of whether the request was granted.\u201d (\u00a7 12940, subd. (m), italics added to demonstrate newly added language.)\nA question arises as a result of the Legislature\u2019s act in amending section 12940: Does the recent amendment have an effect on Moore\u2019s claim for retaliation under FEHA, in which she alleges a violation of law that occurred in early 2011?\n\u201cGenerally, statutes operate prospectively only.\u201d (Myers v. Philip Morris Companies, Inc. (2002) 28 Cal.4th 828, 840 [123 Cal.Rptr.2d 40, 50 P.3d 751].) Statutes operate prospectively unless they contain an express retroactivity provision, or it is \u201c \u2018very clear \u201d that the Legislature intended the statute to operate retroactively. (Id. at p. 841.) In this case, Assembly Bill 987 does not contain an express retroactivity provision, and there is nothing else that we have found that would make it very clear that the Legislature intended for the change it evidences to apply retroactively.\nHowever, \u201c \u2018[a] statute that merely clarifies, rather than changes, existing law does not operate retrospectively even if applied to transactions predating its enactment\u2019 \u2018because the true meaning of the statute remains the same.\u2019 \u201d (McClung v. Employment Development Dept. (2004) 34 Cal.4th 467, 471 [20 Cal.Rptr.3d 428, 99 P.3d 1015].) Courts, not the Legislature, determine whether a statute is \u201cmerely\u201d clarifying, rather than changing existing law. (See id. at p. 472.) Thus, when the Supreme Court has \u201cfinally and definitively\u201d interpreted a statute, the Legislature is without power to state that a later amendment is simply declarative of existing law if the declaration of that existing law is contrary to the Supreme Court\u2019s interpretation. (Carter v. California Dept. of Veterans Affairs (2006) 38 Cal.4th 914, 922 [44 Cal.Rptr.3d 223, 135 P.3d 637].) However, if the Supreme Court has not provided a final and definitive interpretation of the relevant statute at the time the Legislature states that a later amendment is declarative of existing law, then courts interpreting the statute must give the Legislature\u2019s views consideration. (Ibid.)\n\u201cA court engaged in statutory construction looks to \u2018all pertinent circumstances and considerations in deciding whether an amendment is a modification or clarification of a statute.\u2019 [Citation.] And particularly when there is no definitive \u2018clarifying\u2019 expression by the Legislature in the amendments themselves, we will presume that a substantial or material statutory change . . . bespeaks legislative intention to change, and not just clarify, the law.\u201d (Fonseca v. City of Gilroy (2007) 148 Cal.App.4th 1174, 1197 [56 Cal.Rptr.3d 374].) By this standard, the preamble to the amendments contained in Assembly Bill 987, as well as the amendments themselves, are insufficient to show a legislative intent to clarify, as opposed to change, the law. There is no statement in the legislation that the Legislature was simply \u2018\u201cclarifying\u201d what conduct constitutes \u2018\u201cprotected activity\u201d for purposes of the retaliation provision in subdivision (h) of section 12940. In addition, the Legislature\u2019s preamble to the amendment suggests that the change is intended to apply prospectively, by stating that despite the opinion in Rope, the Legislature \u2018\u201cintends ... to provide protection against retaliation when an individual makes a request for reasonable accommodation under [section 13940, subdivisions (/) and (m)], regardless of whether the request was granted\u201d by its enactment of the two new paragraphs. (Assem. Bill 987, \u00a7 1, subd. (d).) There would be no need to provide protection against retaliation by enacting additional provisions if the Legislature believed that such protection had always been provided under the law as it stood prior to the amendment. Further, the Legislature made no change to subdivision (h), the retaliation provision, itself. Rather, the Legislature chose to add new language to the subdivisions addressing accommodations for disabilities and religion. (See \u00a7 12940, subds. (/) & (m).) We therefore presume that in passing Assembly Bill 987, the Legislature intended to change the law, not clarify it. Thus, the amendment to section 12940 enacted through Assembly Bill 987 operates prospectively.\nBecause the recent amendment is prospective in application, in 2011, at the time Moore alleges Defendant engaged in the asserted retaliation, the law was consistent with the holding of Rope, supra, 220 Cal.App.4th 635. In other words, at the time of the relevant events, a request for an accommodation, without more, was insufficient to constitute \u2018\u201cprotected activity\u201d under section 12940, subdivision (h), and such activity thus could not support a claim for retaliation under subdivision (h). (Rope, supra, at p. 652.) As a result, Moore cannot base her claim for retaliation under FEHA on her alleged request for an accommodation\u2014i.e., her request for time off for surgery.\nIn addition, there is no legal support for Moore\u2019s contention that her FEHA retaliation claim can be based on her \u201cnotifying the University of her heart condition.\u201d In essence, Moore asserts that she engaged in \u201cprotected activity\u201d by simply notifying Kennedy that she had a heart condition. Notifying one\u2019s employer of one\u2019s medical status, even if such medical status constitutes a \u201cdisability\u201d under FEHA, does not fall within the protected activity identified in subdivision (h) of section 12940\u2014i.e., it does not constitute engaging in opposition to any practices forbidden under FEHA or the filing of a complaint, testifying, or assisting in any proceeding under FEHA. Moore has offered no authority to support her contention that an employee\u2019s notifying his or her employer of a medical issue that may be a disability under the statute constitutes \u201cprotected activity\u201d on which a FEHA retaliation claim may rest.\nWe therefore conclude that no issues of material fact remain in dispute with respect to Moore\u2019s FEHA retaliation claim, and that summary adjudication of this claim in favor of Defendant was appropriate.\nE. Moore\u2019s sixth cause of action for retaliation in violation of CFRA\nThe elements of a cause of action for retaliation in violation of CFRA are \u201c \u2018(1) the defendant was an employer covered by CFRA; (2) the plaintiff was an employee eligible to take CFRA [leave]; (3) the plaintiff exercised her right to take leave for a qualifying CFRA purpose; and (4) the plaintiff suffered an adverse employment action, such as termination, fine, or suspension, because of her exercise of her right to CFRA [leave].\u2019 \u201d (Faust, supra, 150 Cal.App.4th at p. 885.) Similar to causes of action under FEHA, the McDonnell Douglas burden shifting analysis applies to retaliation claims under CFRA. (Faust, supra, at p. 885.)\nDefendant asserts that the trial court correctly concluded that it was entitled to judgment on Moore\u2019s CFRA retaliation cause of action because \u201c[Moore] did not exercise her right to take CFRA leave and she cannot establish a causal connection [between the exercise of such right and an adverse employment action].\u201d\nDefendant is incorrect with respect to the state of the evidence regarding the element that plaintiff \u201c \u2018exercised her right to take [leave] for a qualifying CFRA purpose.\u2019 \u201d (Faust, supra, 150 Cal.App.4th at p. 885.) Defendant asserts that Moore \u201ctestified she never used, or intended to use, a protected leave during her employment.\u201d This, however, is insufficient to demonstrate that Moore did not \u201cexercise[] her right to take leave for a qualifying CFRA purpose.\u201d (Ibid.) The relevant question with respect to this element is not whether a plaintiff expressly requested CFRA leave, but, rather, whether a plaintiff \u201cexercised her right to take leave\u201d and whether the purpose for the leave sought was a \u201cqualifying CFRA purpose.\u201d (Faust, supra, at p. 885, italics added.) A review of the implementing regulations for CFRA demonstrates Defendant\u2019s error with respect to this element of a CFRA retaliation claim.\nSection 12945.2, subdivision (a), provides that the Fair Employment and Housing Council \u201cshall adopt a regulation specifying the elements of a reasonable request\u201d for leave under the CFRA. California Code of Regulations, title 2, section 11088, subdivision (b)(2) provides: \u201cA request to take a CFRA leave is reasonable if it complies with any applicable notice requirements, as specified in section 11091 . . . .\u201d\nIn turn, California Code of Regulations, title 2, section 11091, subdivision (a)(1) describes the notice requirements of a reasonable request for CFRA leave in relevant part as follows: \u201c[A]n employee shall provide at least verbal notice sufficient to make the employer aware that the employee needs CFRA leave, and the anticipated timing and duration of the leave. The employee need not expressly assert rights under CFRA or FMLA, or even mention CFRA or FMLA, to meet the notice requirement; however, the employee must state the reason the leave is needed, such as, for example, the expected birth of a child or for medical treatment. The mere mention of \u2018vacation, \u2019 other paid time off, or resignation does not render the notice insufficient, provided the underlying reason for the request is CFRA-qualifying, and the employee communicates that reason to the employer. The employer should inquire further of the employee if necessary to determine whether the employee is requesting CFRA leave and to obtain necessary information concerning the leave (i.e., commencement date, expected duration, and other permissible information).\u201d (Italics added.) Thus, an employer bears a burden, under CFRA, to inquire further if an employee presents the employer with a CFRA-qualifying reason for requesting leave.\nThere is evidence that Moore informed Kennedy that she would have to take leave for surgery for implantation of a device for her heart condition. Defendant has presented no evidence to dispute that Moore\u2019s reason for the requested time off was CFRA-qualifying. (See \u00a7 12945.2, subd. (c)(8) [A \u201c \u2018[sjerious health condition\u2019 \u201d under CFRA includes \u201can illness, injury, impairment, or physical or mental condition that involves . . . [\u00b6] (A) Inpatient care in a hospital, hospice, or residential health care facility. [\u00b6] (B) Continuing treatment or continuing supervision by a health care provider\u201d].) The facts presented with respect to the motion for summary judgment support the conclusion that Moore provided sufficient notice to make Defendant aware of her need to take CFRA-qualifying leave; at a minimum, there remains a question as to whether Moore\u2019s notification to Kennedy of her need to take leave for surgery for implantation of a device for her heart condition constituted the \u2018\u201cexercise[]\u201d of \u201c \u2018her right to take leave for a qualifying CFRA purpose.\u2019 \u201d (Faust, supra, 150 Cal.App.4th at p. 885.) Defendant, therefore, has not established that Moore cannot meet this element of her prima facie case.\nDefendant also contends that because it offered a legitimate, nonretaliatory reason for Moore\u2019s layoff, Moore cannot demonstrate pretext, as a matter of law. As we have explained in part III.B., ante, however, we disagree that the question of pretext with respect to Moore\u2019s termination is appropriate for determination as a matter of law on this record. We refer to our discussion of the evidence in part III.B., ante, with respect to the question of pretext.\nGiven that there remain material issues of fact in dispute regarding whether Defendant\u2019s proffered reason for Moore\u2019s termination was pretextual, Defendant has not sufficiently demonstrated that it is entitled to summary adjudication of Moore\u2019s claim for unlawful retaliation under CFRA.\nF. Moore\u2019s fifth cause of action for interference with CFRA\nIn her fifth cause of action, Moore asserts a claim for interference with CFRA. CFRA makes it unlawful for an employer \u2018\u201cto interfere with, restrain, or deny the exercise of, or the attempt to exercise, any right\u201d provided by CFRA. (\u00a7 12945.2, subd. (t).) An interference claim under CFRA does not invoke the burden shifting analysis of the McDonnell Douglas test. (Faust, supra, 150 Cal.App.4th at p. 879; see also Bachelder v. America West Airlines, Inc. (9th Cir. 2001) 259 F.3d 1112, 1131 [\u2018\u201cthere is no room for a McDonnell Douglas type of pretext analysis when evaluating an \u2018interference\u2019 claim under [the corresponding FMLA] statute\u201d].) Rather, such a claim requires only that the employer deny the employee\u2019s entitlement to CFRA-qualifying leave. (Faust, supra, at p. 879.) A CFRA interference claim \u2018\u201cconsists of the following elements: (1) the employee\u2019s entitlement to CFRA leave rights; and (2) the employer\u2019s interference with or denial of those rights.\u201d (McClain v. Cenveo Corp. (E.D.Cal., Sept. 16, 2013, No. 2:12-cv-00765-GEB-GGH) 2013 U.S.Dist. Lexis 132264, p. *21.)\nMoore contends that she requested leave for a CFRA-qualified reason\u2014 i.e., heart surgery\u2014and that instead of notifying Moore of her right to take CFRA-qualified leave and thereafter allowing her to take such leave, Defendant effectively interfered with her ability to take CFRA protected leave by terminating her employment. As we have already concluded in part III.F., there remains, at a minimum, a question as to whether Moore\u2019s notification to Kennedy of her need to take leave for surgery for implantation of a device for her heart condition provided Defendant with sufficient notice of her need to take CFRA-qualifying leave. The fact that Moore may not have used the term \u201cCFRA\u201d in requesting leave, or that she may have suggested that she would use available paid time off options, does not, in and of itself, render Moore\u2019s notice ineffective. (See Cal. Code Regs., tit. 2, \u00a7 11091, subd. (a)(1) [\u201cThe mere mention of \u2018vacation,\u2019 other paid time off, or resignation does not render the notice insufficient, provided the underlying reason for the request is CFRA-qualifying, and the employee communicates that reason to the employer\u201d].) Further, contrary to Defendant\u2019s position, the evidence does not establish that Moore\u2019s intent was to make an affirmative election not to use CFRA-protected leave. Specifically, Moore\u2019s testimony, on which Defendant relied in asserting that Moore did not \u201cexercise her rights to take a CFRA leave,\u201d was not that she had affirmatively decided not to seek CFRA-protected leave.\nDefendant\u2019s reliance on Escriba v. Foster Poultry Farms, Inc. (9th Cir. 2014) 743 F.3d 1236, 1244 (Escriba), is misplaced. In fact, Escriba, which involved claims under the FMLA, supports our conclusion that summary adjudication of Moore\u2019s CFRA interference claim was not appropriate. The Escriba court held that \u201can employee can affirmatively decline to use FMLA leave, even if the underlying reason for seeking the leave would have invoked FMLA protection.\u201d (Escriba, supra, at p. 1244.) In Escriba, which involved an appeal after a jury verdict, not a summary judgment, the court determined that sufficient evidence supported the jury\u2019s conclusion that the plaintiff had \u201celected not to take FMLA leave.\u201d (Id. at p. 1245; see id. at p. 1239.) The issue before the jury was Escriba\u2019s intent at the time she requested a two-week leave. In concluding that there was sufficient evidence to support the jury\u2019s conclusion on this issue, the Escriba court relied on numerous reasonable inferences that the jury could have drawn based on Escriba\u2019s handling of this leave request and her use of FMLA leave on multiple prior occasions: \u201cCircumstantial evidence also suggests that Escriba knew that the Human Resources Department, not her supervisors, approved FMLA leave because Escriba had successfully requested FMLA leave on fifteen prior occasions. A reasonable inference from this evidence is that, if Escriba had desired to take FMLA leave, she would have arranged for such leave with Human Resources. Considering all the evidence, the jury reasonably found that Escriba expressed a desire not to take FMLA leave.\u201d (Escriba, supra, at p. 1245.)\nThe evidence presented on summary judgment in this case is easily distinguishable from the evidence presented to the jury in Escriba. Unlike in Escriba, there is no evidence that Moore had ever requested FMLA or CFRA leave prior to the time she indicated she would need to take a few days off for her surgery. Further, there is no evidence that Moore was aware of her right to take CFRA leave (as opposed to FMLA leave); if Moore did not even realize that she had a right to such leave, a fact finder could conclude that she did not affirmatively decline to use such leave. Further, when Moore first provided notice to Kennedy of her need for leave, the surgery was many months away; even at the time Moore was terminated, there was approximately a month and a half to go before her planned April 2011 surgery. Thus, it is possible that Moore had not yet made a firm decision as to whether to take vacation leave or legally protected medical leave. Therefore, even if one were to conclude that Moore was actually aware of her right to take CFRA-protected leave, a fact finder could nevertheless also reasonably conclude from the evidence presented on summary judgment that Moore had formed no specific intent with respect to seeking CFRA leave (i.e., she had not formed an intent not to take CFRA leave).\nFurther, Defendant fails to acknowledge that summary adjudication of an interference claim under CFRA may not be appropriate where, as here, the record fails to establish\u2014as a matter of law\u2014that the employer satisfied a threshold requirement of its obligations to an employee under CFRA. (See Faust, supra, 150 Cal.App.4th at p. 868.) Employers subject to the CFRA are required to provide notice to their employees of the right to request CFRA leave. (Cal. Code Regs., tit. 2, \u00a7 11095, subd. (a).) The text of the minimum notice requirements is set forth at California Code of Regulations, title 2, section 11095, subdivision (d). When an employee raises a CFRA interference claim, there is a \u201cthreshold issue of an employer\u2019s obligations under section 12945.2 and the implementing regulations,\u201d and whether the employer met those obligations. (Faust, supra, at p. 881.) This is because \u201c[a] failure to notify an employee of his rights under FMLA [and thus CFRA] can constitute interference if it affects [the employee\u2019s] rights under [the statute].\u201d (Alcala v. Best Buy Stores, LP (C.D.Cal., Nov. 7, 2012, EDCV 11-00798-JVS (OPx)) 2012 U.S.Dist. Lexis 181892, p. *43.)\nThere is nothing in the separate statements of undisputed facts that would indicate that Defendant either posted notice or specifically provided notice to Moore of her leave rights under CFRA, as specifically required by CFRA. In Faust, the employer\u2019s failure to establish that it met its CFRA notice obligations precluded summary adjudication of the employee\u2019s CFRA interference claims. (Faust, supra, 150 Cal.App.4th at p. 881.) As the court in Faust explained, \u201ccertain legal consequences\u201d flow from the fact that an employer \u201cdid not give notice to [its employee] of [the employee\u2019s] right to leave under . . . CFRA.\u201d (Id. at pp. 868-869.) Given the absence of evidence to establish, as a matter of law, that Defendant met its CFRA obligations, summary adjudication of Moore\u2019s CFRA interference cause of action in favor of Defendant is inappropriate on this record.\nGiven the numerous conclusions that a fact finder could draw from the evidence Defendant presented in support of summary adjudication of Moore\u2019s CFRA interference claim, some of which do not support judgment in favor of Defendant, as well as the absence of evidence that Defendant met its own obligations under CFRA, we must reverse the trial court\u2019s grant of summary adjudication of the fifth cause of action for interference under CFRA.\nG. We need not consider Moore \u2019s evidentiary arguments on appeal\nMoore contends that the trial court\u2019s ruling with respect to Defendant\u2019s motion for summary judgment was premised on \u201cseveral evidentiary mistakes.\u201d Specifically, Moore takes issue with (1) the trial court\u2019s reliance on certain portions of the Balestrieri\u2019s deposition regarding the differences between Moore\u2019s former position and that of Shea, (2) the trial court\u2019s overruling of Moore\u2019s objections to portions of Defendant\u2019s evidence on the procedural ground that Moore objected to the separate statement of undisputed facts rather than the foundational evidence on which such facts were based, and (3) the trial court\u2019s sustaining of objections to Moore\u2019s introduction of certain documents.\nWe need not address these evidentiary concerns because the correctness of these challenged evidentiary rulings is irrelevant to our determination of the substantive issues raised in this appeal. Even assuming that the trial court was correct with respect to the evidence that it considered and excluded, the court nevertheless erred in granting summary adjudication in favor of Defendant on Moore\u2019s first, second, third, fifth, and sixth causes of action. Further, nothing about the evidence that Moore contends was either inappropriately excluded or improperly considered could have assisted Moore in establishing that summary adjudication in favor of Defendant was not proper with respect to her fourth cause of action, for retaliation under FEHA.\nIV.\nDISPOSITION\nThe court\u2019s granting of summary judgment in favor of Defendant is reversed. Defendant is not entitled to summary adjudication in its favor on Moore\u2019s first, second, third, fifth, and sixth causes of action. However, Defendant is entitled to summary adjudication in its favor with respect to Moore\u2019s fourth cause of action. We remand the matter to the trial court for further proceedings.\nMoore is entitled to her costs on appeal.\nMcConnell, R J., and Huffman, J., concurred.\nFurther statutory references are to the Government Code unless otherwise indicated.\nTwo or three other employees apparently voluntarily left the Department during this time frame.\nRecently, another appellate court has explained that disability discrimination cases often may be an exception to the general rule that plaintiffs alleging discrimination are unable to present direct evidence of the discrimination. \u201c[Disability discrimination cases often involve direct evidence of the role of the employee\u2019s actual or perceived disability in the employer\u2019s decision to implement an adverse employment action,\u201d and \u201c[i]nstead of litigating the employer\u2019s reasons for the action, the parties\u2019 disputes in disability cases [often] focus on whether the employee was able to perform essential job functions, whether there were reasonable accommodations that would have allowed the employee to perform those functions, and whether a reasonable accommodation would have imposed an undue hardship on the employer.\u201d (Wallace v. County of Stanislaus (2016) 245 Cal.App.4th 109, 123 [199 Cal.Rptr.3d 462].) In cases where a \u201cplaintiff presents direct evidence of the employer\u2019s motivation for the adverse employment action,\u201d the McDonnell Douglas \u201cthree-stage framework and the many principles adopted to guide its application do not apply.\u201d (Ibid.) This case does not present a so-called \u201ctypical\u201d disability discrimination case, as described in Wallace, in that the parties dispute the employer\u2019s reasons for terminating Moore\u2019s employment.\nWe agree with the trial court that the evidence presented on summary judgment is sufficient to demonstrate that Moore can meet her burden to present a prima facie case of discrimination based on a perceived disability. Under FEHA, a person is considered \u201cphysically disabled\u201d not only if he or she has a physiological condition that \u201c[l]imits a major life activity\u201d (\u00a7 12926, subd. (m)( 1)(B)), but also if he or she is \u201cregarded or treated by the employer ... as having, or having had, any physical condition that [currently] makes [or, in the future may make] achievement of a major life activity difficult\u201d (id., subd. (m)(4), italics added; see id., subd. (m)(5)).\nSubdivision (m)(4) and (5) of section 12926 implement the Legislature\u2019s intent to protect individuals who are \u201cerroneously or mistakenly believed to have any physical or mental condition that limits a major life activity.\u201d (\u00a7 12926.1, subd. (d).) \u201cBoth the policy and language of the statute offer protection to a person who is not actually disabled, but is wrongly perceived to be.\u201d (Gelfo v. Lockheed Martin Corp. (2006) 140 Cal.App.4th 34, 53 [43 Cal.Rptr.3d 874].)\nOn appeal, Moore focuses her briefing on her claim for discrimination based on what she alleges was her perceived disability, asserting that this \u201cis a classic perceived disability case.\u201d However, Moore also suggests in a footnote that she suffers from an actual disability, as well\u2014i.e., heart disease. Moore makes only a brief assertion in this footnote that she \u201chad an actual disability\u201d because \u201c \u2018physical disabilities\u2019 \u201d includes \u201c \u2018heart disease.\u2019 \u201d We do not address this contention on appeal because Moore\u2019s reference to her having an actual disability in a footnote is insufficient to raise a challenge to the trial court\u2019s determination, on summary judgment, that the undisputed facts demonstrate that Moore did not have an actual disability at the relevant time. (See Niko v. Foreman (2006) 144 Cal.App.4th 344, 368 [50 Cal.Rptr.3d 398] [\u201cOne cannot simply say the court erred, and leave it up to the appellate court to figure out why\u201d]; see also Strutt v. Ontario Sav. & Loan Assn. (1972) 28 Cal.App.3d 866, 873 [105 Cal.Rptr. 395] [\u201cAn appellate court is not required to consider alleged errors where the appellant merely complains of them without pertinent argument\u201d].)\nBecause this is an appeal from a grant of a motion for summary judgment, we must view the evidence in the light most favorable to Moore, the nonmoving party. We do not intend to suggest that, at trial, a fact finder should or will weigh this evidence and draw the same inferences that we raise in this opinion. Rather, we simply conclude that a fact finder could reasonably draw such inferences. The same is true with respect to our conclusions as to Moore\u2019s other FEHA and CFRA claims.\nAgain, we reassert that we do not intend to suggest that Kennedy did, in fact, harbor a discriminatory animus toward Moore based on her perceived disability, or that a fact finder would necessarily agree that Kennedy harbored such animus. Rather, we are simply saying that based on this evidence one could reasonably conclude that such animus existed.\nMoore filed a request for judicial notice in this court, seeking notice of Assembly Bill No. 987 (2015-2016 Reg. Sess.) (Assembly Bill 987), Statutes 2015, chapter 122, section 2. Defendant has not filed any opposition to Moore\u2019s request for judicial notice. Given that the subject of the request meets the requirements for judicial notice under Evidence Code section 452, we grant Moore\u2019s request for judicial notice of this statutory amendment.\nSubdivision (m) of section 12940 refers to accommodation for physical or mental disabilities, while subdivision (I) of section 12940 refers to accommodation for religion.\nDefendant also contends that Moore \u201cabandoned this cause of action at the trial court level\u201d because. Defendant asserts, she \u201cfailed to address this claim entirely in her opposition brief.\u201d We disagree. Although Moore did not specify that she was addressing her CFRA retaliation claim in her opposition to Defendant\u2019s motion for summary judgment, Moore discussed the relevant authority and supporting evidence in the record in a manner that sufficiently demonstrates that summary adjudication of this claim was inappropriate. We therefore address the propriety of the trial court\u2019s granting of summary adjudication in favor of Defendant on this cause of action.\nAgain, Moore informed Kennedy in December 2010 of the likelihood that she would have to have a device implanted near her heart in early 2011, and told Kennedy in January 2011 that she \u201cwould need \u2018like two or three\u2019 days off in April 2011\u201d for the surgery.\nMoore\u2019s testimony, on which Defendant relied in seeking summary adjudication of this claim, was not that she did not wish to take CFRA protected leave. Rather, in the portion of Moore\u2019s deposition on which Defendant relies to support its \u201c[u]ndisputed [m]material [f]act\u201d (boldface & underscoring omitted) that Moore \u201cintended to use her accrued vacation or sick time,\u201d and to suggest that she did not intend to use CFRA-protected leave, Moore was asked whether she had completed FMLA paperwork, which Moore had obtained from human resources. Moore responded that she had not completed it, and that when she took it to her doctor, her doctor told her, \u201c \u2018You\u2019re not going to need to take this.\u2019 \u201d Moore was then asked whether it was her \u201cunderstanding that [she] didn\u2019t need to take it because [she was] only taking a few days off,\u201d which Moore confirmed, and further confirmed that she thought she \u201ccould use [her] vacation or sick time for that.\u201d This evidence could lead to a number of reasonable inferences, but it does not establish, as a matter of law, that Moore had affirmatively elected not to utilize CFRA-protected leave for her surgery. A fact finder could conclude that Moore had not even been made aware of her right to use CFRA-protected leave, and, therefore, that she could not have affirmatively elected not to use it.\nThe text of the notice set forth in California Code of Regulations, title 2, section 11095, subdivision (d), states in relevant part: \u201cUnder the California Family Rights Act of 1993 (CFRA), if you have more than 12 months of service with us and have worked at least 1,250 hours in the 12-month period before the date you want to begin your leave, you may have a right to a family care or medical leave (CFRA leave). This leave may be up to 12 workweeks in a 12-month period for the birth, adoption, or foster care placement of your child or for your own serious health condition or that of your child, parent or spouse. [\u00b6] . . . [\u00b6] If possible, you must provide at least 30 days\u2019 advance notice for foreseeable events (such as the expected birth of a child or a planned medical treatment for yourself or of a family member). For events that are unforeseeable, we need you to notify us, at least verbally, as soon as you learn of the need for the leave. Failure to comply with these notice rules is grounds for, and may result in, deferral of the requested leave until you comply with this notice policy. [\u00b6] We may require certification from your health care provider before allowing you a leave for pregnancy disability or your own serious health condition. We also may require certification from the health care provider of your child, parent or spouse, who has a serious health condition, before allowing you a leave to take care of that family member. When medically necessary, leave may be taken on an intermittent or reduced work schedule.\u201d\nThere is evidence in the record from which one could infer that Moore was aware that she might have the right to take leave for medical reasons pursuant to FMLA, given that there is evidence that Moore requested FMLA paperwork from the human resources department. However, one could also reasonably infer from this fact that Moore was unaware of her rights under CFRA. since she did not request, and there is no indication that she was provided (despite her failure to request), the paperwork that would be necessary for her to exercise her right to leave under CFRA. Again, we must view the evidence in a light favorable to Moore\u2014and we must resolve any doubts or ambiguities in her favor\u2014for purposes of Defendant\u2019s summary judgment motion. (See Ambriz. supra. 146 Cal.App.4th at p. 1530.)",
+        "type": "majority",
+        "author": "AARON, J.\u2014"
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Sheik Law, Mani Sheik; Sarnoff + Snarnoff, David J. Sarnoff and Maria A. Bourn for Plaintiff and Appellant.",
+      "Andrews \u2022 Lagasse \u2022 Branch \u2022 Bell, Margaret C. Bell and Lisa M. Magorien for Defendant and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. D067120.\nFourth Dist., Div. One.\nJune 2, 2016.]\nDEBORAH MOORE, Plaintiff and Appellant, v. THE REGENTS OF THE UNIVERSITY OF CALIFORNIA, Defendant and Respondent.\nCounsel\nSheik Law, Mani Sheik; Sarnoff + Snarnoff, David J. Sarnoff and Maria A. Bourn for Plaintiff and Appellant.\nAndrews \u2022 Lagasse \u2022 Branch \u2022 Bell, Margaret C. Bell and Lisa M. Magorien for Defendant and Respondent."
+  },
+  "file_name": "0216-01",
+  "first_page_order": 210,
+  "last_page_order": 249
+}

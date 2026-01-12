@@ -1,0 +1,59 @@
+{
+  "id": 12418202,
+  "name": "Hutchinson v. Florida",
+  "name_abbreviation": "Hutchinson v. Florida",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-5582",
+  "first_page": "947",
+  "last_page": "947",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 947"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 72,
+    "ocr_confidence": 0.656,
+    "sha256": "d655579348a563502ace339ce4235366d166d2eddd02d650d93d0e5cb3dad91f",
+    "simhash": "1:0bf2bf3fecdbb176",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hutchinson v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5582.\nHutchinson v. Florida."
+  },
+  "file_name": "0947-02",
+  "first_page_order": 1023,
+  "last_page_order": 1023
+}

@@ -1,0 +1,59 @@
+{
+  "id": 6025559,
+  "name": "Parker v. Parker et al.",
+  "name_abbreviation": "Parker v. Parker",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5129",
+  "first_page": "905",
+  "last_page": "905",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 905"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.532,
+    "sha256": "e0887ec436c7437ba561fcacec93200b0da37f3c880a9244fc02e2a90d130bc7",
+    "simhash": "1:92db60a35d1c1281",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Parker v. Parker et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5129.\nParker v. Parker et al."
+  },
+  "file_name": "0905-07",
+  "first_page_order": 927,
+  "last_page_order": 927
+}

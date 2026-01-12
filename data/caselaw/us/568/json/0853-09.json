@@ -1,0 +1,59 @@
+{
+  "id": 12413610,
+  "name": "Freeman v. Tucker, Secretary, Florida Department of Corrections",
+  "name_abbreviation": "Freeman v. Tucker",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10642",
+  "first_page": "853",
+  "last_page": "853",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 853"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 112,
+    "ocr_confidence": 0.666,
+    "sha256": "3754a30bd9015e0e1d5f62a4522bf3d433aa83187ed259356ba160dd710543d9",
+    "simhash": "1:707f02f289b19824",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Freeman v. Tucker, Secretary, Florida Department of Corrections."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10642.\nFreeman v. Tucker, Secretary, Florida Department of Corrections."
+  },
+  "file_name": "0853-09",
+  "first_page_order": 929,
+  "last_page_order": 929
+}

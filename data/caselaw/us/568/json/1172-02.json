@@ -1,0 +1,59 @@
+{
+  "id": 12431041,
+  "name": "Smith v. Delaware",
+  "name_abbreviation": "Smith v. Delaware",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-7737",
+  "first_page": "1172",
+  "last_page": "1172",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1172"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 65,
+    "ocr_confidence": 0.643,
+    "sha256": "0949fa8443d1971e1e9fb54fef9d6d50cb7d3613f6ae32af7416e9f3b7136b2c",
+    "simhash": "1:86dea4fe15bc24b1",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Smith v. Delaware."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Del. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7737.\nSmith v. Delaware."
+  },
+  "file_name": "1172-02",
+  "first_page_order": 1248,
+  "last_page_order": 1248
+}

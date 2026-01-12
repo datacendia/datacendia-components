@@ -1,0 +1,59 @@
+{
+  "id": 5925722,
+  "name": "Nixon v. GMAC Mortgage Corp.",
+  "name_abbreviation": "Nixon v. GMAC Mortgage Corp.",
+  "decision_date": "2011-04-25",
+  "docket_number": "No. 10-9129",
+  "first_page": "963",
+  "last_page": "963",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 963"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 76,
+    "ocr_confidence": 0.593,
+    "sha256": "f1b2598685cecb921b0e3908ee2e68d38e63e2f12abb35a9f0fcbb7a444ee55d",
+    "simhash": "1:9345c3be31caf463",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Nixon v. GMAC Mortgage Corp."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9129.\nNixon v. GMAC Mortgage Corp."
+  },
+  "file_name": "0963-10",
+  "first_page_order": 989,
+  "last_page_order": 989
+}

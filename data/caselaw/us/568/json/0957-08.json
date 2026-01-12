@@ -1,0 +1,59 @@
+{
+  "id": 12419067,
+  "name": "Close v. United States",
+  "name_abbreviation": "Close v. United States",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-6170",
+  "first_page": "957",
+  "last_page": "957",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 957"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.685,
+    "sha256": "ea7c1162494056c8514afa8b1345f7a72cfe1c418a6a4f002ae64e6cd4f46edf",
+    "simhash": "1:80aae2834c313418",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Close v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6170.\nClose v. United States."
+  },
+  "file_name": "0957-08",
+  "first_page_order": 1033,
+  "last_page_order": 1033
+}

@@ -1,0 +1,111 @@
+{
+  "id": 12520183,
+  "name": "Bruce M. ANDERSON, Plaintiff-Appellee v. Rogelio VALDEZ, in His Individual and Official Capacities, Defendant-Appellant",
+  "name_abbreviation": "Anderson v. Valdez",
+  "decision_date": "2019-02-19",
+  "docket_number": "No. 17-41243",
+  "first_page": "404",
+  "last_page": "405",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "916 F.3d 404"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "5th Cir.",
+    "id": 8820,
+    "name": "United States Court of Appeals for the Fifth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "806 F.2d 1347",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1656131
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "1356",
+          "parenthetical": "\"A panel is simply not capable of having overlooked or misapprehended 'points of ... fact' occurring subsequent to its initial decision.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/806/1347-01"
+      ]
+    },
+    {
+      "cite": "347 F.2d 823",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        860429,
+        860366
+      ],
+      "weight": 2,
+      "year": 1965,
+      "pin_cites": [
+        {
+          "parenthetical": "mem."
+        },
+        {
+          "page": "823"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/347/0823-02",
+        "/f2d/347/0823-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 182,
+    "char_count": 1876,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25919870231816605
+    },
+    "sha256": "e6b186bcf4c1476b940b7f0e4ab1e0623390468dc3fecc153ec6307c5839b23b",
+    "simhash": "1:794682315eb4122e",
+    "word_count": 282
+  },
+  "last_updated": "2024-02-27T16:21:04.146489+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before HIGGINBOTHAM, GRAVES, and WILLETT, Circuit Judges."
+    ],
+    "parties": [
+      "Bruce M. ANDERSON, Plaintiff-Appellee\nv.\nRogelio VALDEZ, in His Individual and Official Capacities, Defendant-Appellant"
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM:\nAnderson notes that after we issued our decision, Gregory Perkes was nominated by the Governor to once again serve as a justice on the Thirteenth Court of Appeals. This relates \"to changed circumstances since the case was decided by the district court\" and by our panel, which do not provide grounds for panel rehearing. Our decision and denial of rehearing are \"[w]ithout prejudice to [the] pursuit of any appropriate remedies which may be available in the district court.\" We express no opinion on the availability of further relief in the context of the close professional relationship between judge and staff attorney.\nThe petition for panel rehearing is denied.\nAnastasiadis v. S.S. Little John , 347 F.2d 823 (5th Cir. 1965) (mem.); see also Armster v. U.S. Dist. Court , 806 F.2d 1347, 1356 (9th Cir. 1986) (\"A panel is simply not capable of having overlooked or misapprehended 'points of ... fact' occurring subsequent to its initial decision.\"); 16AA Fed. Prac. & Proc. Juris. \u00a7 3986.1 (4th ed.) (\"New factual material, including material concerning events occurring after the initial decision, is not likely to be considered [in a petition for panel rehearing].\").\nAnastasiadis , 347 F.2d at 823.",
+        "type": "majority",
+        "author": "PER CURIAM:"
+      }
+    ],
+    "attorneys": [
+      "Lawrence Morales, II, Esq., Allison Sarah Hartry, Morales Law Firm, P.C., San Antonio, TX, for Plaintiff-Appellee.",
+      "Heather Gebelin Hacker, Assistant Solicitor General, Office of the Attorney General for the State of Texas, Austin, TX, Eric Alan Hudson, Assistant Attorney General, Office of the Attorney General, Financial Litigation & Charitable Trusts Division, Austin, TX, for Defendant-Appellant."
+    ],
+    "corrections": "",
+    "head_matter": "Bruce M. ANDERSON, Plaintiff-Appellee\nv.\nRogelio VALDEZ, in His Individual and Official Capacities, Defendant-Appellant\nNo. 17-41243\nUnited States Court of Appeals, Fifth Circuit.\nFebruary 19, 2019\nLawrence Morales, II, Esq., Allison Sarah Hartry, Morales Law Firm, P.C., San Antonio, TX, for Plaintiff-Appellee.\nHeather Gebelin Hacker, Assistant Solicitor General, Office of the Attorney General for the State of Texas, Austin, TX, Eric Alan Hudson, Assistant Attorney General, Office of the Attorney General, Financial Litigation & Charitable Trusts Division, Austin, TX, for Defendant-Appellant.\nBefore HIGGINBOTHAM, GRAVES, and WILLETT, Circuit Judges."
+  },
+  "file_name": "0404-01",
+  "first_page_order": 404,
+  "last_page_order": 405
+}

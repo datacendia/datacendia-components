@@ -1,0 +1,59 @@
+{
+  "id": 4126729,
+  "name": "Farris v. Oklahoma",
+  "name_abbreviation": "Farris v. Oklahoma",
+  "decision_date": "2010-11-01",
+  "docket_number": "No. 10-6170",
+  "first_page": "998",
+  "last_page": "998",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 998"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 28,
+    "char_count": 176,
+    "ocr_confidence": 0.576,
+    "sha256": "f0a53f95c5d18348feae985da5d2b0dd972ec8224c7021d111b7289a4b0e6d5a",
+    "simhash": "1:38a179ccd2ccb796",
+    "word_count": 28
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Farris v. Oklahoma."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Okla. Motion of petitioner for leave to proceed in forma pauperis denied, and certiorari dismissed. See this Court\u2019s Rule 39.8.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6170.\nFarris v. Oklahoma."
+  },
+  "file_name": "0998-05",
+  "first_page_order": 1020,
+  "last_page_order": 1020
+}

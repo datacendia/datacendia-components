@@ -1,0 +1,59 @@
+{
+  "id": 12235953,
+  "name": "Armstrong v. Brunsman, Warden",
+  "name_abbreviation": "Armstrong v. Brunsman",
+  "decision_date": "2011-11-28",
+  "docket_number": "No. 11-6690",
+  "first_page": "1068",
+  "last_page": "1068",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1068"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 78,
+    "ocr_confidence": 0.625,
+    "sha256": "e99c6c0621bfc4fb7ec2450ad7dfbd3b71768a1b915a2e428b556f5c60c5f8cb",
+    "simhash": "1:e08a320bfaba1467",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Armstrong v. Brunsman, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6690.\nArmstrong v. Brunsman, Warden."
+  },
+  "file_name": "1068-01",
+  "first_page_order": 1150,
+  "last_page_order": 1150
+}

@@ -1,0 +1,957 @@
+{
+  "id": 12520720,
+  "name": "UNITED STATES of America, Appellee, v. Hugo SANTANA-DONES, t/n Rafael Jose Ventura, a/k/a Raffi, a/k/a Rafael Ventura, a/k/a Hugo Santana, a/k/a Wilthron Flores, Defendant, Appellant. United States of America, Appellee, v. Elvis Genao, a/k/a Cocolo, Defendant, Appellant. United States of America, Appellee, v. Felix Melendez, a/k/a Felo, a/k/a Felito, Defendant, Appellant. United States of America, Appellee, v. Osvaldo Vasquez, a/k/a Chu Chu, a/k/a Anthony Christopher, Defendant, Appellant.",
+  "name_abbreviation": "U.S. v. Santana-Dones",
+  "decision_date": "2019-03-29",
+  "docket_number": "No. 17-1930; No. 17-1970; No. 17-2103; No. 17-2113",
+  "first_page": "70",
+  "last_page": "83",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "920 F.3d 70"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "1st Cir.",
+    "id": 8809,
+    "name": "United States Court of Appeals for the First Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "710 F.3d 5",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3551202
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "13",
+          "parenthetical": "stating that \"snitching is dangerous work, and informants literally put their lives on the line by doing what they do\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/710/0005-01"
+      ]
+    },
+    {
+      "cite": "31 F.3d 1294",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10533440
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "1300",
+          "parenthetical": "affirming district court's finding that infiltration was \"too dangerous to be a reasonable option\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/31/1294-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 2255",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "787 F.3d 61",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4229607
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "67",
+          "parenthetical": "quoting Strickland, 466 U.S. at 688, 104 S.Ct. 2052 "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/787/0061-01"
+      ]
+    },
+    {
+      "cite": "817 F.3d 376",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6810366
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "379"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/817/0376-01"
+      ]
+    },
+    {
+      "cite": "868 F.3d 55",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12263642
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "63-64"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/868/0055-01"
+      ]
+    },
+    {
+      "cite": "911 F.3d 638",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12519581
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "642, 646"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/911/0638-01"
+      ]
+    },
+    {
+      "cite": "938 F.2d 302",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10523176
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "309"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/938/0302-01"
+      ]
+    },
+    {
+      "cite": "447 F.3d 61",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5860127
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "64"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/447/0061-01"
+      ]
+    },
+    {
+      "cite": "778 F.3d 276",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6052241
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "294",
+          "parenthetical": "emphasis and alteration in original"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/778/0276-01"
+      ]
+    },
+    {
+      "cite": "7 F.3d 1058",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10515280
+      ],
+      "weight": 2,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "1063"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/7/1058-01"
+      ]
+    },
+    {
+      "cite": "466 U.S. 668",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6204802
+      ],
+      "weight": 5,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "687"
+        },
+        {
+          "page": "688"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/466/0668-01"
+      ]
+    },
+    {
+      "cite": "633 F.3d 696",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4092334
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "698"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/633/0696-01"
+      ]
+    },
+    {
+      "cite": "857 F.2d 881",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10533954
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "885"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/857/0881-01"
+      ]
+    },
+    {
+      "cite": "202 L.Ed.2d 226",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12622460,
+        12622435,
+        12622267,
+        12622268,
+        12622269,
+        12622271
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/0354-03",
+        "/s-ct/139/0350-02",
+        "/s-ct/139/0322-05",
+        "/s-ct/139/0322-06",
+        "/s-ct/139/0323-01",
+        "/s-ct/139/0323-03"
+      ]
+    },
+    {
+      "cite": "139 S.Ct. 322",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12622263,
+        12622264,
+        12622265,
+        12622266,
+        12622267,
+        12622268
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/0322-01",
+        "/s-ct/139/0322-02",
+        "/s-ct/139/0322-03",
+        "/s-ct/139/0322-04",
+        "/s-ct/139/0322-05",
+        "/s-ct/139/0322-06"
+      ]
+    },
+    {
+      "cite": "887 F.3d 529",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516574
+      ],
+      "pin_cites": [
+        {
+          "page": "534"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/887/0529-01"
+      ]
+    },
+    {
+      "cite": "239 F.3d 16",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11075378
+      ],
+      "weight": 2,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "20"
+        },
+        {
+          "page": "19"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/239/0016-01"
+      ]
+    },
+    {
+      "cite": "848 F.3d 504",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12277546
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "513"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/848/0504-01"
+      ]
+    },
+    {
+      "cite": "802 F.3d 188",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4342379
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "194",
+          "parenthetical": "discussing civil analogue to Rule 12(c) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/802/0188-01"
+      ]
+    },
+    {
+      "cite": "544 F.2d 242",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1020902
+      ],
+      "weight": 3,
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "257"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/544/0242-01"
+      ]
+    },
+    {
+      "cite": "549 F.2d 222",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        984428
+      ],
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "226"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/549/0222-01"
+      ]
+    },
+    {
+      "cite": "471 F.3d 1",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5251828
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "3",
+          "parenthetical": "\"Plainly the partial success of the investigation did not mean that there was nothing more to be done.\" (emphasis in original)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/471/0001-01"
+      ]
+    },
+    {
+      "cite": "452 F.3d 1",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3329348
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "6"
+        },
+        {
+          "page": "7"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/452/0001-01"
+      ]
+    },
+    {
+      "cite": "273 F.3d 1204",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9459404
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "1211",
+          "parenthetical": "\"The government may not cast its investigative net so far and so wide as to manufacture necessity in all circumstances.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/273/1204-01"
+      ]
+    },
+    {
+      "cite": "886 F.3d 64",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516464
+      ],
+      "weight": 4,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "70"
+        },
+        {
+          "page": "70"
+        },
+        {
+          "page": "70"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/886/0064-01"
+      ]
+    },
+    {
+      "cite": "300 F.3d 46",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11418710
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "52"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/300/0046-01"
+      ]
+    },
+    {
+      "cite": "342 F.3d 60",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9099313
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "65"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/342/0060-01"
+      ]
+    },
+    {
+      "cite": "416 U.S. 505",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        84471
+      ],
+      "weight": 3,
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "515"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/416/0505-01"
+      ]
+    },
+    {
+      "cite": "940 F.2d 722",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10525246
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "728"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/940/0722-01"
+      ]
+    },
+    {
+      "cite": "593 F.3d 104",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3517539
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "109"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/593/0104-01"
+      ]
+    },
+    {
+      "cite": "319 F.3d 12",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9328084
+      ],
+      "weight": 2,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "32",
+          "parenthetical": "quoting 18 U.S.C. \u00a7 2518(1) "
+        },
+        {
+          "page": "32"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/319/0012-01"
+      ]
+    },
+    {
+      "cite": "786 F.3d 92",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4190949
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "101"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/786/0092-01"
+      ]
+    },
+    {
+      "cite": "832 F.2d 1299",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10551131
+      ],
+      "weight": 2,
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "1307"
+        },
+        {
+          "page": "1307"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/832/1299-01"
+      ]
+    },
+    {
+      "cite": "408 U.S. 41",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1782914
+      ],
+      "weight": 3,
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "48",
+          "parenthetical": "quoting S. Rep. No. 90-1097, at 66 (1968), as reprinted in 1968 U.S.C.C.A.N. 2153"
+        },
+        {
+          "parenthetical": "quoting S. Rep. No. 90-1097, at 66 (1968), as reprinted in 1968 U.S.C.C.A.N. 2153"
+        },
+        {
+          "parenthetical": "quoting S. Rep. No. 90-1097, at 66 (1968), as reprinted in 1968 U.S.C.C.A.N. 2153"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/408/0041-01"
+      ]
+    },
+    {
+      "cite": "441 U.S. 238",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1779836
+      ],
+      "weight": 3,
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "249"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/441/0238-01"
+      ]
+    },
+    {
+      "cite": "802 F.3d 114",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4342035
+      ],
+      "weight": 4,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "118"
+        },
+        {
+          "page": "118"
+        },
+        {
+          "page": "119",
+          "parenthetical": "holding that some level of success in investigation did not foreclose a finding of necessity when \"the government was still seeking a wealth of information at the time that it submitted the wiretap applications\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/802/0114-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7\u00a7 2510",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "578 F.3d 61",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4048075
+      ],
+      "weight": 3,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "67"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/578/0061-01"
+      ]
+    },
+    {
+      "cite": "850 F.3d 1",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12277119
+      ],
+      "weight": 3,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "6",
+          "parenthetical": "quoting United States v. Siciliano, 578 F.3d 61, 67 (1st Cir. 2009) "
+        },
+        {
+          "page": "6"
+        },
+        {
+          "page": "10"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/850/0001-01"
+      ]
+    },
+    {
+      "cite": "876 F.2d 1069",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10538587
+      ],
+      "weight": 3,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "1074"
+        },
+        {
+          "page": "1075"
+        },
+        {
+          "page": "1072"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/876/1069-01"
+      ]
+    },
+    {
+      "cite": "325 F.3d 1",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9343626
+      ],
+      "weight": 2,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "9",
+          "parenthetical": "quoting United States v. Ashley, 876 F.2d 1069, 1074 (1st Cir. 1989) "
+        },
+        {
+          "page": "10"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/325/0001-01"
+      ]
+    },
+    {
+      "cite": "871 F.3d 35",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12263521
+      ],
+      "weight": 3,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "43"
+        },
+        {
+          "page": "46"
+        },
+        {
+          "page": "45"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/871/0035-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 924",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 U.S.C. \u00a7\u00a7 841",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 2518",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "parenthetical": "c"
+        },
+        {
+          "page": "(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3117",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1579,
+    "char_count": 35033,
+    "pagerank": {
+      "raw": 4.955370583072014e-08,
+      "percentile": 0.31240798208698656
+    },
+    "sha256": "b7e69d2ed1eab28894b8e800228e848f42285aacf5d02d698ab28f1ac876a486",
+    "simhash": "1:b34a4ba34b990c21",
+    "word_count": 5503
+  },
+  "last_updated": "2024-02-27T18:46:47.899627+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Lynch, Selya, and Boudin, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Appellee,\nv.\nHugo SANTANA-DONES, t/n Rafael Jose Ventura, a/k/a Raffi, a/k/a Rafael Ventura, a/k/a Hugo Santana, a/k/a Wilthron Flores, Defendant, Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "SELYA, Circuit Judge.\nFor the most part, these consolidated appeals turn on a single issue: whether the district court erred in concluding that the court which issued the wiretap warrant could have found the facts in the application to be at least minimally adequate to support the issuance of the warrant. We resolve that issue favorably to the government, conclude that the defendants' unified challenge to the wiretap is unavailing, determine that the separate claims of error mounted by one of the defendants are meritless, and affirm the judgments below.\nI. BACKGROUND.\nWe rehearse here only those facts necessary to place these appeals in perspective. In the summer of 2014, the Drug Enforcement Administration (DEA), assisted by local law enforcement officers, began investigating the drug-trafficking activities of defendant-appellant Osvaldo Vasquez and his cohorts, including defendants-appellants Hugo Santana-Dones, Elvis Genao, and Felix Melendez. During the next year, the investigators relied heavily on two confidential sources, who were buyers, to gather evidence of the defendants' drug-trafficking activities. All told, these confidential sources carried out controlled purchases of nearly 500 grams of heroin and heroin laced with fentanyl and methamphetamine. They also arranged to purchase at least one kilogram of cocaine.\nDEA agents supplemented the efforts of these confidential sources through traditional investigative techniques such as physical surveillance and the use of a pen register. In September of 2014, the agents obtained a warrant from a federal magistrate judge, pursuant to 18 U.S.C. \u00a7 3117 and Federal Rule of Criminal Procedure 41(e)(2)(C), authorizing the installation of a GPS tracking device on a vehicle driven by Vasquez during certain observed drug sales. The agents then went a step further and, from April to July of 2015, made use of a wiretap of Vasquez's cellular telephone, which had been authorized and periodically renewed by a federal district judge pursuant to 18 U.S.C. \u00a7 2518.\nMatters came to a head in August of 2015 when DEA agents, accompanied by local officers, executed search warrants at six locations linked to the defendants (five in Massachusetts and one in Rhode Island). Arrest warrants had also been obtained and all four defendants were arrested at that time. Large quantities of heroin and cocaine, as well as drug paraphernalia and a firearm, were recovered in the process.\nThe next month, a federal grand jury sitting in the District of Massachusetts handed up an indictment charging all four defendants with conspiracy to distribute and to possess with intent to distribute heroin and cocaine and distribution and possession with intent to distribute heroin and/or cocaine. See 21 U.S.C. \u00a7\u00a7 841(a)(1), 846. Vasquez alone was charged with possession of a firearm in furtherance of a drug-trafficking crime. See 18 U.S.C. \u00a7 924(c). All the defendants initially maintained their innocence and moved to suppress any and all evidence garnered, directly or indirectly, through the use of the wiretap. The defendants argued that the affidavit in support of the application for the wiretap failed to satisfy the statutory requirement that the government demonstrate necessity. See 18 U.S.C. \u00a7 2518 (1)(c). The government opposed the motion. Following a non-evidentiary hearing, the district court took the matter under advisement and, on October 11, 2016, found the showing of necessity sufficient and denied the motion.\nStarting around this time, Vasquez experienced a number of changes in his legal representation. Counsel 2A and 2B, appointed just before Vasquez's arraignment, withdrew shortly after the denial of the motion to suppress, citing a breakdown in the attorney-client relationship. Vasquez's next attorney (Counsel 3) represented him for less than a month before withdrawing on December 5 due to a conflict. His successor (Counsel 4) was appointed on December 8, 2016.\nLess than one month later, Vasquez moved for a 90-day extension of time to file additional motions to suppress. The government opposed the motion, and the district court denied it on January 24, 2017. The court subsequently rejected Vasquez's motion for reconsideration.\nIn due course, the four defendants pleaded guilty to all the charges, reserving the right to challenge the district court's suppression-related rulings and to claim ineffective assistance of counsel. See Fed. R. Crim. P. 11(a)(2). After accepting the quartet of pleas, the district court sentenced Santana-Dones to serve an 80-month term of immurement; sentenced Genao to serve 37 months; sentenced Melendez to serve 70 months; and sentenced Vasquez (whom both the government and the court regarded as the ring leader) to serve 125 months. These timely appeals followed, and we consolidated them for briefing and oral arguments. On appeal, all of the defendants pursue their challenges to the suppression-related rulings but only Vasquez attempts to pursue an ineffective assistance of counsel claim.\nII. THE WIRETAP EVIDENCE.\n\"When assaying a district court's ruling on a motion to suppress wiretap evidence, we review its factual findings for clear error and its legal conclusions de novo.\" United States v. Gordon, 871 F.3d 35, 43 (1st Cir. 2017). Applying this standard, the pivotal question is whether \"the facts set forth in the application were minimally adequate to support the determination that was made.\" United States v. Villarman-Oviedo, 325 F.3d 1, 9 (1st Cir. 2003) (quoting United States v. Ashley, 876 F.2d 1069, 1074 (1st Cir. 1989) ). The district court answered this question in the affirmative and, to find clear error, we \"must form a strong, unyielding belief, based on the whole of the record, that a mistake has been made.\" United States v. Rodrigues, 850 F.3d 1, 6 (1st Cir. 2017) (quoting United States v. Siciliano, 578 F.3d 61, 67 (1st Cir. 2009) ). Put another way, we will \"affirm under the clear error standard 'if any reasonable view of the evidence supports' the district court's finding.\" Id. (quoting Siciliano, 578 F.3d at 68 ).\nIn this instance, \"[o]ur inquiry is guided by Title III of the Omnibus Crime Control and Safe Streets Act of 1968, 18 U.S.C. \u00a7\u00a7 2510 - 2522, which governs the rules for federal telephone wiretaps.\" United States v. Rose, 802 F.3d 114, 118 (1st Cir. 2015). \"Title III provides a comprehensive scheme for the regulation of electronic surveillance, prohibiting all secret interception of communications except as authorized by certain state and federal judges in response to applications from specified federal and state law enforcement officials.\" Rodrigues, 850 F.3d at 6 (quoting Dalia v. United States, 441 U.S. 238, 249, 99 S.Ct. 1682, 60 L.Ed.2d 177 (1979) ). Congress has made pellucid the law's main purposes: \"(1) protecting the privacy of wire and oral communications, and (2) delineating on a uniform basis the circumstances and conditions under which the interception of wire and oral communications may be authorized.\" Gelbard v. United States, 408 U.S. 41, 48, 92 S.Ct. 2357, 33 L.Ed.2d 179 (1972) (quoting S. Rep. No. 90-1097, at 66 (1968), as reprinted in 1968 U.S.C.C.A.N. 2153). It follows, then, that \"wiretapping is to be distinctly the exception - not the rule.\" United States v. Hoffman, 832 F.2d 1299, 1307 (1st Cir. 1987).\nTo ensure that the exception does not swallow the rule, the law \"imposes a set of statutory requirements on top of the constitutional requirements applicable to ordinary search warrants.\" United States v. Burgos-Montes, 786 F.3d 92, 101 (1st Cir. 2015). Of particular pertinence for present purposes, the wiretap application must contain (in addition to the foundational showing of probable cause) \"a full and complete statement as to whether or not other investigative procedures have been tried and failed or why they reasonably appear to be unlikely to succeed if tried or to be too dangerous.\" United States v. Nelson-Rodriguez, 319 F.3d 12, 32 (1st Cir. 2003) (quoting 18 U.S.C. \u00a7 2518(1) ). \"This aptly-named 'necessity' prong requires the government to have 'made a reasonable, good faith effort to run the gamut of normal investigative procedures before resorting to means so intrusive as electronic interception of telephone calls.' \" Rose, 802 F.3d at 118 (quoting United States v. Cartagena, 593 F.3d 104, 109 (1st Cir. 2010) ).\nOf course, necessity is \"a relative term - and it is context-specific.\" Gordon, 871 F.3d at 46. Necessity must, therefore, \"be viewed through the lens of what is pragmatic and achievable in the real world.\" Id. at 45. This is particularly true in cases - like this one - that involve large, complex drug-trafficking networks: \"[b]ecause drug trafficking is inherently difficult to detect and presents formidable problems in pinning down the participants and defining their roles, investigative personnel must be accorded some latitude in choosing their approaches.\" United States v. David, 940 F.2d 722, 728 (1st Cir. 1991).\nIn the case at hand, the government pinned its hopes for a wiretap authorization on an affidavit executed by Michael P. Boyle, a DEA special agent. The defendants challenge the adequacy of this affidavit as a means of demonstrating necessity. Although their challenge is multi-dimensional, their central thesis is that the government gave short shrift to traditional investigative procedures and sought to resort to wiretap surveillance with precipitous haste. The district court rejected this thesis, determining that the government \"made a reasonably good faith effort to run the gam[ut] of normal investigative procedures before resorting to electronic surveillance.\"\nWe begin with bedrock: the Supreme Court has warned that a wiretap is \"not to be routinely employed as the initial step in criminal investigation.\"\nUnited States v. Giordano, 416 U.S. 505, 515, 94 S.Ct. 1820, 40 L.Ed.2d 341 (1974). Even so, \"the government need not demonstrate that it exhausted all investigative procedures\" before turning to a wiretap. United States v. Santana, 342 F.3d 60, 65 (1st Cir. 2003). To strike this balance, a reviewing court must examine whether reasonable procedures were attempted (or at least thoroughly considered) prior to seeking a wiretap. See United States v. Lopez, 300 F.3d 46, 52 (1st Cir. 2002). Relatedly, the court must examine the need for a wiretap in light of what those procedures yielded. See United States v. Delima, 886 F.3d 64, 70 (1st Cir. 2018).\nThe defendants counter that the government made a gadarene rush to employ electronic surveillance and that, as a result, its attempt to show necessity is unconvincing. Here, however, the district court supportably determined that Boyle's affidavit was sufficient to allay any reasonable concern that the wiretap was being sought prematurely. The affidavit demonstrated that the government had employed (and exhausted) a number of traditional investigative measures over the course of more than six months, which included obtaining information from confidential sources and informants; conducting protracted physical surveillance; participating in controlled drug buys; issuing administrative subpoenas for telephone, rental car, and travel records; and analyzing telephone records and pen register data. The district court found that nothing in Boyle's affidavit, fairly read, suggested an effort on the government's part to shortcut normal procedures. This finding easily passes muster under clear error review.\nNext, the defendants assert that the affidavit demonstrated the opposite of what the government intended. Rather than showing that the procedures employed to that point had failed to achieve the goals of the investigation, the affidavit - as Santana-Dones says in his brief - is a testament to the government's \"great investigative success by traditional investigative means.\" He adds that the government \"had more than enough 'goods' to pursue criminal prosecution but instead wanted to get to bigger fish.\" Seen in this light, the defendants contend, the more intrusive wiretap procedure was not necessary.\nThe district court rejected this contention, and so do we. The inquiry into whether the government has sufficiently demonstrated necessity does not hinge on whether it already has garnered enough goods to pursue criminal prosecution. After all, an application for a wiretap will always have to disclose some meaningful level of previous success in order to satisfy the probable cause requirement and justify further investigation. See Rose, 802 F.3d at 119 n. 1 ; Nelson-Rodriguez, 319 F.3d at 32. Thus, the inquiry must be directed to whether traditional investigative procedures already have succeeded or would be likely to succeed in laying bare the full reach of the crimes that are under investigation. See Delima, 886 F.3d at 70 ; Villarman-Oviedo, 325 F.3d at 10. If not, the government may be able - as here - to show the need for a wiretap in order to complete its investigation. See Rose, 802 F.3d at 119 (holding that some level of success in investigation did not foreclose a finding of necessity when \"the government was still seeking a wealth of information at the time that it submitted the wiretap applications\").\nTo be sure, the level of success achieved through a given procedure will vary in relation to the scope of the investigation as established by the government. It follows that, in seeking a wiretap, the government cannot be permitted to set out goals that are either unrealistic or overly expansive. See Delima, 886 F.3d at 70. Placing a judicial imprimatur on such a tactic would allow the government to characterize any level of success as incomplete and, thus, to portray a wiretap as necessary in virtually every circumstance. See United States v. Blackmon, 273 F.3d 1204, 1211 (9th Cir. 2001) (\"The government may not cast its investigative net so far and so wide as to manufacture necessity in all circumstances.\").\nHere, however, the government's stated investigatory goals mirror those that we have sanctioned in earlier wiretap cases. The government's brief summarizes those goals as including \"discovering the sources, delivery means, storage locations, and distribution methods for the narcotics; locating resources used to finance the trafficking; and determining how the conspiracy invested and laundered their drug proceeds.\" The district court implicitly found these goals, which focused on locating distribution sources and tracking funds, both reasonable and attainable.\nInformation such as the government sought by means of the proposed wiretap is meat and potatoes in a drug-trafficking investigation, not pie in the sky. This helps to explain both why the stated goals of the investigation appear reasonable and attainable and why we conclude that the district court's implicit finding was not clearly erroneous. And in so concluding, we do not write on a pristine page. For instance, we held in Delima that the government's investigatory goals were not overly broad when the government sought to \"(1) identify the conspiracy's leaders; (2) ascertain the names, phone numbers, and addresses of associates of the conspiracy, including drug suppliers, distributors, and customers; (3) determine the manner in which drugs were trafficked [ ] and stored ...; and (4) discover the methods used by the organization to funnel proceeds back to individual participants.\" 886 F.3d at 70. So, too, in United States v. Martinez, we identified as \"discrete and realistic goals for a criminal drug investigation\" the government's stated objectives of identifying drug suppliers, discerning the manner in which the organization transported drugs, establishing how payments were made, pinpointing storage locations, and understanding how the coconspirators laundered and invested drug proceeds. 452 F.3d 1, 6 (1st Cir. 2006).\nThe district court also found that the government's affidavit described a level of success through traditional procedures that fell short of meeting these \"legitimate and attainable\" goals. Id. at 7. This finding, too, passes muster under clear error review. We hold, therefore, that the government's successful use of traditional investigative tools up to the date of Boyle's affidavit does not defenestrate its showing of necessity. See United States v. Cao, 471 F.3d 1, 3 (1st Cir. 2006) (\"Plainly the partial success of the investigation did not mean that there was nothing more to be done.\" (emphasis in original)).\nThe defendants launch yet another attack on the government's showing of necessity. They say that the government did not sufficiently demonstrate the failure, futility, or danger of traditional investigative procedures. Their argument rests heavily on the fact that one of the government's confidential sources, who previously had engaged only in controlled drug buys, was invited to work directly for the drug-trafficking organization but refused on the government's instructions. Building on this foundation, the defendants maintain that Boyle's affidavit \"never establishe[d] with any logic\" why the DEA failed to avail itself of this opportunity to penetrate the drug ring. Moreover, the defendants insist that the government presented no evidence of any likely danger.\nLike the district court, we review the government's assessment that a specific investigative opportunity is overly dangerous or unlikely to be productive in a \"practical and commonsense manner.\" Hoffman, 832 F.2d at 1307 (quoting United States v. Scibelli, 549 F.2d 222, 226 (1st Cir. 1977) ). Here, some of the statements contained in Boyle's affidavit are based, at least in part, upon his experience as a specially trained agent. \"We have regularly upheld affidavits in support of wiretap applications where the agents assert a well-founded belief\" that traditional investigative procedures had run their course and that further use of them would likely prove futile in achieving the goals of the investigation. Rodrigues, 850 F.3d at 10. So, too, where the agents assert a well-founded belief that traveling down a particular investigative avenue would be too dangerous. See, e.g., Ashley, 876 F.2d at 1075.\nViewed against this backdrop, it is evident that the mere existence of an opportunity for a government cooperator to take a more prominent position in the targeted enterprise does not automatically render a wiretap unnecessary. United States v. Woods, 544 F.2d 242 (6th Cir. 1976), illustrates this point. There, a government informant had declined an invitation to become a \"lieutenant\" in the enterprise under investigation. Id. at 257. The defendant moved to suppress subsequently gathered wiretap evidence on the basis that the government turned down this invitation. The district court denied the motion, and the Sixth Circuit affirmed, stating that the informant's opportunity to \"penetrate deeper into a criminal organization under investigation\" did not in any way undermine the government's showing of necessity. Id.\nBoyle's affidavit struck a similar tone. In it, he highlighted several potential pitfalls. He first reasoned that even if the confidential source became a member of the drug-trafficking organization, she was unlikely to gain access to needed \"information such as the identity of the source of supply, the methods of delivery or the intended transportation route, or the larger distribution network.\" In support, Boyle noted the high degree of compartmentalization that characterized the drug-trafficking organization and what would be the source's entry-level status. Based on these representations - which comprise appreciably more than \"conclusory statements that normal techniques would be unproductive,\" United States v. Ashley, 876 F.2d 1069, 1072 (1st Cir. 1989) - the district court concluded that the government sufficiently showed that the proposed infiltration would in all probability be futile as a means of achieving certain goals of the investigation and, thus, did not obviate the necessity for a wiretap. This finding is not clearly erroneous.\nIf more were needed - and we doubt that it is - the district court also gave weight to Boyle's expressed concern that an attempt to infiltrate the organization could backfire and jeopardize the entire investigation. Boyle's affidavit persuasively predicted a greater likelihood of exposure should an infiltration be attempted, emphasizing the wariness of members of the drug ring and the fact that the government's other confidential source had already been compromised. Given these concerns, we discern no clear error in the district court's determination that the risk of exposure reinforced the government's decision not to try the infiltration gambit before seeking a wiretap.\nIn sum, the limited prospect of advancing the investigation's goals, the potential jeopardy to the confidential source, and the risk of exposing the investigation coalesced to provide a firm basis for the district court's conclusion that the game was not worth the candle. It follows inexorably, as night follows day, that the opportunity to infiltrate did not render the proposed wiretap unnecessary.\nThat ends this aspect of the matter. We hold that the district court did not err in concluding that the wiretap application, read in tandem with its supporting affidavit, was more than minimally adequate to justify the authorization of a wiretap. Consequently, we reject the defendants' unified claim of error.\nIII. THE REMAINING CLAIMS.\nVasquez - who is represented in this court by yet another counsel - advances two more claims of error. First, he submits that the district court erred in denying his motion for an extension of time within which to file additional motions to suppress. Second, he submits that certain of his prior lawyers (Counsel 2A, 2B, and 3) abridged his Sixth Amendment right to effective assistance of counsel. We discuss these claims of error sequentially.\nA. Extension of Time.\nCourt-imposed deadlines are often used to ensure the orderly administration of justice - and quite properly so. In federal criminal cases, district courts typically set such deadlines for the filing of pretrial motions. This practice is memorialized in Federal Rule of Criminal Procedure 12(c)(1), which provides in pertinent part that a district court may, in its discretion, \"set a deadline for the parties to make pretrial motions.\" The court may enlarge or revise such a deadline at any time before trial. See Fed. R. Crim. P. 12(c)(2).\nWhen a party seeks to file a pretrial motion out of time, the district court may, upon a showing of \"good cause,\" grant such a motion. Fed. R. Crim. P. 12(c)(3). This good cause standard gives Rule 12(c) some bite, underscoring the district court's authority to set and enforce motion-filing deadlines. Cf. United States ex. rel. D'Agostino v. EV3, Inc., 802 F.3d 188, 194 (1st Cir. 2015) (discussing civil analogue to Rule 12(c) ). We review a district court's decision to deny relief under Rule 12(c)(3) solely for abuse of discretion. See United States v. Arias, 848 F.3d 504, 513 (1st Cir. 2017) ; United States v. Santos Batista, 239 F.3d 16, 20 (1st Cir. 2001).\nWe move now from the general to the specific. Early on, the parties in this case filed a joint memorandum, see D. Mass. R. 116.5(c), setting a June 13, 2016, deadline for filing pretrial motions to suppress. The district court acquiesced in this deadline, and the defendants twice obtained judicial extensions of it. The latest version of the deadline expired on July 18, 2016. By then, the defendants had filed their joint motion to suppress the wiretap evidence. See supra Part II.\nThe district court denied the joint suppression motion on October 11, 2016. Vasquez's lawyers (Counsel 2A and 2B) withdrew shortly thereafter. They were succeeded by Counsel 3, who served in that capacity for less than a month and withdrew on December 5, 2016. Three days later, the district court appointed Counsel 4 to represent Vasquez.\nOn January 3, 2017, Counsel 4 moved for a 90-day extension of time within which to file a motion to suppress. Counsel 4 indicated that Vasquez wished to file a motion to suppress evidence obtained from the search of his home and \"possibly\" another motion to suppress wire communications. In a hearing on the motion to extend, Counsel 4 doubled down, stating that Vasquez also wished to move to suppress the fruits of the GPS tracking warrant.\nBecause Vasquez's motion for an extension effectively sought leave to file untimely motions, it directly implicated Rule 12(c)(3)'s good cause standard. See United States v. Sweeney, 887 F.3d 529, 534 (1st Cir.), cert. denied, --- U.S. ----, 139 S.Ct. 322, 202 L.Ed.2d 226 (2018). We have interpreted the good cause standard to require a showing of both cause (that is, a good reason for failing to file a motion on time) and prejudice (that is, some colorable prospect of cognizable harm resulting from a failure to allow the late filing). See Arias, 848 F.3d at 513 ; Santos Batista, 239 F.3d at 19. \"Such a showing is, by its very nature, fact-specific.\" United States v. Ayer, 857 F.2d 881, 885 (1st Cir. 1988).\nIn the court below, Vasquez's attempt to show good cause consisted of characterizing his prior lawyers as either too busy to file timely motions or simply guilty of dereliction of duty. For example, he suggested that Counsel 2A and 2B \"surely spent the bulk of [their] time reviewing the voluminous related discovery and preparing the very well-crafted motion and memorandum\" on the wiretap suppression motion and, thus, did not have enough time to file other motions to suppress. He surmised that Counsel 2A and 2B would have filed these additional motions if they had more time, and that their failure to file these motions indicated some irredeemable flaw in their representation.\nThe district court rejected Vasquez's speculative arguments, finding that Counsel 2A and 2B had \"ample opportunity to prepare and present the issues,\" especially since the relevant deadline had been suggested by the defendants and twice extended by the court. The district court further found that Vasquez had been represented by \"experienced, able and qualified\" attorneys and that he could not \"avail himself of a 'do over' [simply] because he ha[d] successor counsel.\"\nWe detect nothing resembling an abuse of discretion in the district court's conclusion that Vasquez failed to demonstrate good cause for reopening the motion-filing deadline over five months after it had expired. Good cause for allowing a defendant to file motions out of time demands more than the appearance of new counsel seeking to second-guess the decisions of prior counsel. See United States v. Trancheff, 633 F.3d 696, 698 (8th Cir. 2011). After all, allowing new counsel to reopen an expired deadline in order to pursue strategic options forgone by prior counsel would put a premium on changing counsel and unfairly advantage the defendant.\nNor is there any basis for a claim that Vasquez was subjected to unreasonable temporal constraints. His then-counsel participated in the setting of the original deadline for filing motions to suppress, and the district court twice obliged the defendants (including Vasquez) when they sought to enlarge this deadline. All told, Vasquez had a total of 297 days from the date of his arraignment until the expiration of the extended deadline within which to file pretrial motions. That was ample time for his counsel to prepare and file any strain of suppression motion.\nTo say more about this claim of error would be pointless. We conclude, without serious question, that the district court acted well within the wide encincture of its discretion in denying Vasquez's motion to extend.\nB. Ineffective Assistance of Counsel.\nVasquez also argues that several of his prior lawyers (namely, Counsel 2A, 2B, and 3) were constitutionally ineffective in representing him. See U.S. Const. amend. VI ; see also Strickland v. Washington, 466 U.S. 668, 687, 104 S.Ct. 2052, 80 L.Ed.2d 674 (1984). This claim of error, though, was not adjudicated in the district court. While Vasquez's motion to extend alleged that ineffective assistance of counsel was one of the reasons explaining the untimeliness of the motion, he did not make a Sixth Amendment claim at that time. Consequently, no attempt was made to develop a record that might be suitable for the adjudication of such a claim.\n\"We have held with a regularity bordering on the monotonous that fact-specific claims of ineffective assistance cannot make their debut on direct review of criminal convictions, but, rather, must originally be presented to, and acted upon by, the trial court.\" United States v. Mala, 7 F.3d 1058, 1063 (1st Cir. 1993). In adopting this prudential praxis, we have reasoned that \"such claims typically require the resolution of factual issues that cannot efficaciously be addressed in the first instance by an appellate tribunal.\" Id. More particularly, \" 'why counsel acted as he did [is] information rarely developed in the existing record,' and this information is crucial to resolve an ineffective assistance claim.\" United States v. V\u00e1zquez-Larrauri, 778 F.3d 276, 294 (1st Cir. 2015) (emphasis and alteration in original) (quoting United States v. Torres-Rosario, 447 F.3d 61, 64 (1st Cir. 2006) ). Unless \"the critical facts are not genuinely in dispute and the record is sufficiently developed to allow reasoned consideration\" of a claim of ineffective assistance, a criminal defendant who wishes to pursue such a claim must do so in a collateral proceeding. United States v. Natanel, 938 F.2d 302, 309 (1st Cir. 1991).\nApparently mindful that, over the years, we have resolutely hewed to this principle, see, e.g., United States v. Miller, 911 F.3d 638, 642, 646 (1st Cir. 2018) ; United States v. Kifwa, 868 F.3d 55, 63-64 (1st Cir. 2017) ; United States v. Torres-Estrada, 817 F.3d 376, 379 (1st Cir. 2016), Vasquez struggles to bring his case within the narrow confines of the Natanel exception. He suggests, based primarily on the assessment of Counsel 4, that the additional motions to suppress had such obvious merit that the failure to file them within the allotted time frame was unquestionably a grave mistake. The premise on which this suggestion rests is sound: the Natanel exception might apply if the record was sufficiently developed to demand a conclusion that the failure to file the additional suppression motions was \"objectively unreasonable 'under prevailing professional norms.' \" United States v. Mercedes-De La Cruz, 787 F.3d 61, 67 (1st Cir. 2015) (quoting Strickland, 466 U.S. at 688, 104 S.Ct. 2052 ). But this is not such a case.\nThe searches at issue here were conducted pursuant to duly issued warrants, so that a court, in each instance, had made a preliminary determination of probable cause. Moreover, we have no way of telling, on this incomplete record, why Vasquez's prior counsel did not file such motions. The rule of Occam's Razor teaches that the simplest of competing theories should often be preferred and, here, the obvious reason - that counsel simply did not believe that the motions would succeed - is entirely plausible. In a nutshell, the record simply does not justify a finding that counsel's failure to file additional motions to suppress was objectively unreasonable under prevailing professional norms.\nThe short of it is that the relevant facts have not been adequately developed. And, thus, Vasquez's ineffective assistance of counsel claim falls squarely within the Mala rule. We therefore dismiss this claim of error without prejudice.\nIV. CONCLUSION.\nWe need go no further. For the reasons elucidated above, we affirm the judgments of the district court; without prejudice, however, to Vasquez's right to raise his ineffective assistance of counsel claim, should he so elect, in a collateral proceeding pursuant to 28 U.S.C. \u00a7 2255.\nSo Ordered.\nSantana-Dones acknowledges that this is the correct standard of review under our circuit precedent, but \"wishes to preserve for the record [the argument] that such a standard does not comport with statutory requirements or with due process under the Fifth Amendment because it relieves the Government of its burden of proof.\" Given his concession, we need not dwell upon the argument that he wishes to preserve.\nAt the time he submitted the affidavit, Boyle had been a DEA special agent for over twenty-four years and had served as the case agent for numerous high-priority drug and gang cases. In his own words, he had received \"hundreds of hours of additional specialized training in narcotics law enforcement, including courses in drug trafficking, criminal enterprises and gangs.\"\nIn a related vein, the district court concluded that pursuing infiltration of the drug-trafficking organization was apt to be too dangerous. The court based its conclusion on the inherent perils of asking a government cooperator to work undercover for a large drug-trafficking organization and the risk of discovery. Even though Boyle's affidavit was not specific on this score - it stated, in conclusory terms, only that the government feared that an attempt to infiltrate the organization would \"pose a serious risk to the personal safety\" of the confidential source - the status and circumstances of the investigation justified a reasoned belief that the proposed infiltration was fraught with danger. See Gonzalez, 412 F.3d at 1115 (\"Quite sensibly, the necessity requirement for a wiretap order does not compel law enforcement officers to use traditional investigative strategies at the risk of danger to themselves or others.\"); United States v. Smith, 31 F.3d 1294, 1300 (4th Cir. 1994) (affirming district court's finding that infiltration was \"too dangerous to be a reasonable option\"); see also United States v. Mills, 710 F.3d 5, 13 (1st Cir. 2013) (stating that \"snitching is dangerous work, and informants literally put their lives on the line by doing what they do\").",
+        "type": "majority",
+        "author": "SELYA, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Karen A. Pickett, Boston, MA, and Pickett Law Offices, P.C. on brief for appellant Santana-Dones.",
+      "Leslie W. O'Brien, Boston, MA, on brief for appellant Genao.",
+      "Alan Jay Black, Springfield, MA, on brief for appellant Melendez.",
+      "Marie Theriault on brief for appellant Vasquez.",
+      "Andrew E. Lelling, United States Attorney, and Alexia R. De Vincentis, Assistant United States Attorney, on brief for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Appellee,\nv.\nHugo SANTANA-DONES, t/n Rafael Jose Ventura, a/k/a Raffi, a/k/a Rafael Ventura, a/k/a Hugo Santana, a/k/a Wilthron Flores, Defendant, Appellant.\nUnited States of America, Appellee,\nv.\nElvis Genao, a/k/a Cocolo, Defendant, Appellant.\nUnited States of America, Appellee,\nv.\nFelix Melendez, a/k/a Felo, a/k/a Felito, Defendant, Appellant.\nUnited States of America, Appellee,\nv.\nOsvaldo Vasquez, a/k/a Chu Chu, a/k/a Anthony Christopher, Defendant, Appellant.\nNo. 17-1930\nNo. 17-1970\nNo. 17-2103\nNo. 17-2113\nUnited States Court of Appeals, First Circuit.\nMarch 29, 2019\nKaren A. Pickett, Boston, MA, and Pickett Law Offices, P.C. on brief for appellant Santana-Dones.\nLeslie W. O'Brien, Boston, MA, on brief for appellant Genao.\nAlan Jay Black, Springfield, MA, on brief for appellant Melendez.\nMarie Theriault on brief for appellant Vasquez.\nAndrew E. Lelling, United States Attorney, and Alexia R. De Vincentis, Assistant United States Attorney, on brief for appellee.\nBefore Lynch, Selya, and Boudin, Circuit Judges."
+  },
+  "file_name": "0070-01",
+  "first_page_order": 70,
+  "last_page_order": 83
+}

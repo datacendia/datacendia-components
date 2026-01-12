@@ -1,0 +1,642 @@
+{
+  "id": 6840965,
+  "name": "In re OBIE STEVEN ANTHONY III on Habeas Corpus",
+  "name_abbreviation": "In re Anthony",
+  "decision_date": "2015-04-27",
+  "docket_number": "No. B256949",
+  "first_page": "204",
+  "last_page": "216",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "236 Cal. App. 4th 204"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Dist. Ct. App.",
+    "id": 9209,
+    "name": "District Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "596 P.2d 691",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "156 Cal.Rptr. 626",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "24 Cal.3d 622",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2265648
+      ],
+      "pin_cites": [
+        {
+          "page": "625-626"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/24/0622-01"
+      ]
+    },
+    {
+      "cite": "295 P.2d 460",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "140 Cal.App.2d 523",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2174350
+      ],
+      "pin_cites": [
+        {
+          "page": "527"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/140/0523-01"
+      ]
+    },
+    {
+      "cite": "70 Cal.Rptr.3d 605",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1956,
+      "opinion_index": 0
+    },
+    {
+      "cite": "158 Cal.App.4th 1061",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3836125
+      ],
+      "year": 1956,
+      "pin_cites": [
+        {
+          "page": "1072"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/158/1061-01"
+      ]
+    },
+    {
+      "cite": "79 Cal.Rptr.3d 588",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2008,
+      "opinion_index": 0
+    },
+    {
+      "cite": "164 Cal.App.4th 814",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3938690
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "830"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/164/0814-01"
+      ]
+    },
+    {
+      "cite": "288 P.2d 568",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "136 Cal.App.2d 358",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2194649
+      ],
+      "pin_cites": [
+        {
+          "page": "359-360"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/136/0358-01"
+      ]
+    },
+    {
+      "cite": "320 P.3d 1141",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "169 Cal.Rptr.3d 678",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "58 Cal.4th 950",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        4001002
+      ],
+      "pin_cites": [
+        {
+          "page": "960"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/58/0950-01"
+      ]
+    },
+    {
+      "cite": "62 P.3d 45",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "129 Cal.Rptr.2d 799",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Cal.4th 895",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        777213
+      ],
+      "pin_cites": [
+        {
+          "page": "904"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/29/0895-01"
+      ]
+    },
+    {
+      "cite": "156 Cal.Rptr. 640",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "94 Cal.App.3d 580",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "pin_cites": [
+        {
+          "page": "582-585"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "162 Cal.Rptr. 292",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1979,
+      "opinion_index": 0
+    },
+    {
+      "cite": "102 Cal.App.3d 309",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        1981580,
+        1981558
+      ],
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "311-312"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/102/0301-01",
+        "/cal-app-3d/102/0309-01"
+      ]
+    },
+    {
+      "cite": "49 Cal.Rptr.2d 594",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1980,
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.App.4th 189",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6044057
+      ],
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "196"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/42/0189-01"
+      ]
+    },
+    {
+      "cite": "170 Cal.Rptr.3d 763",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1996,
+      "opinion_index": 0
+    },
+    {
+      "cite": "225 Cal.App.4th 979",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6054840
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "987-988"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/225/0979-01"
+      ]
+    },
+    {
+      "cite": "972 P.2d 151",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "82 Cal.Rptr.2d 816",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 Cal.4th 85",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        829728
+      ],
+      "pin_cites": [
+        {
+          "page": "92, fn. 6"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/20/0085-01"
+      ]
+    },
+    {
+      "cite": "574 P.2d 1237",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1999,
+      "opinion_index": 0
+    },
+    {
+      "cite": "143 Cal.Rptr. 885",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1999,
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 Cal.3d 678",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2288563
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "681-682"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/20/0678-01"
+      ]
+    },
+    {
+      "cite": "591 P.2d 63",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1978,
+      "opinion_index": 0
+    },
+    {
+      "cite": "153 Cal.Rptr. 40",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1978,
+      "opinion_index": 0
+    },
+    {
+      "cite": "23 Cal.3d 545",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2268464
+      ],
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "549, fn. 2"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/23/0545-01"
+      ]
+    },
+    {
+      "cite": "7 P.2d 401",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "120 Cal.App. Supp. 767",
+      "category": "reporters:state",
+      "reporter": "Cal. App. Supp.",
+      "case_ids": [
+        6035424
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "770"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app/120/Supp. 767-01"
+      ]
+    },
+    {
+      "cite": "120 Cal.Rptr.2d 755",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "99 Cal.App.4th 100",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        977743
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "104"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/99/0100-01"
+      ]
+    },
+    {
+      "cite": "119 Cal.Rptr.2d 57",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "97 Cal.App.4th 1297",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1066631
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1300"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/97/1297-01"
+      ]
+    },
+    {
+      "cite": "18 Cal.Rptr.2d 12",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "14 Cal.App.4th 687",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6036391
+      ],
+      "pin_cites": [
+        {
+          "page": "700-701"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/14/0687-01"
+      ]
+    },
+    {
+      "cite": "566 P.2d 622",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "139 Cal.Rptr. 720",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 Cal.3d 749",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2291128
+      ],
+      "pin_cites": [
+        {
+          "page": "754"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/19/0749-01"
+      ]
+    },
+    {
+      "cite": "150 P.3d 755",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1977,
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.Rptr.3d 876",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1977,
+      "opinion_index": 0
+    },
+    {
+      "cite": "40 Cal.4th 558",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3159244
+      ],
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "564"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/40/0558-01"
+      ]
+    },
+    {
+      "cite": "185 Cal.Rptr. 511",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "135 Cal.App.3d 580",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2088865
+      ],
+      "pin_cites": [
+        {
+          "page": "588, fn. 7"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/135/0580-01"
+      ]
+    },
+    {
+      "cite": "62 Cal.Rptr.3d 88",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "152 Cal.App.4th 1164",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3811438
+      ],
+      "pin_cites": [
+        {
+          "page": "1179"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/152/1164-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1110,
+    "char_count": 29997,
+    "ocr_confidence": 0.84,
+    "pagerank": {
+      "raw": 6.671628442827576e-08,
+      "percentile": 0.40612020237473306
+    },
+    "sha256": "17ada3a050b45832b371527170b5805871b2447b01d126e2726854e09f4da703",
+    "simhash": "1:2beda782755f11fc",
+    "word_count": 4755
+  },
+  "last_updated": "2024-02-27T23:08:12.832294+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Perluss, P. J., and Feuer, J., concurred."
+    ],
+    "parties": [
+      "In re OBIE STEVEN ANTHONY III on Habeas Corpus."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nZELON, J.\nObie Steven Anthony III filed a petition for writ of habeas corpus challenging his 1995 murder conviction. Following a 10-day eviden-tiary hearing, the trial court granted the petition and Anthony\u2019s criminal charges were dismissed. Anthony subsequently filed a claim pursuant to Penal Code section 4900 seeking compensation for his erroneous conviction and incarceration. At the time he filed his claim, Anthony was required to prove his factual innocence in an administrative hearing before the California Victim Compensation and Government Claims Board. While his claim was pending, the Legislature adopted Penal Code section 1485.55, allowing any person who has prevailed in a habeas corpus proceeding to file a motion in the trial court for a finding of factual innocence, and requiring the board to accept such a finding and approve the section 4900 claim without any further ' hearing. Anthony filed a motion pursuant to the newly added statute, which the trial granted.\nThe district attorney appeals, arguing that (1) applying Penal Code section 1485.55 to Anthony\u2019s compensation claim violates principles of retroactivity, and (2) there is insufficient evidence to support the trial court\u2019s finding of factual innocence. We dismiss the appeal for lack of jurisdiction, concluding that the court\u2019s order granting Anthony\u2019s section 1485.55 motion is not appealable by the People.\nFACTUAL BACKGROUND\nA. Summary of Anthony\u2019s Habeas Corpus Proceedings\nIn 1995, a jury found Obie Anthony guilty of murder and other crimes. He was sentenced to life in prison without the possibility of parole. On April 7, 2010, Anthony filed a petition for writ of habeas corpus based on (1) ineffective assistance of counsel; (2) prosecutorial misconduct; (3) the presentation at trial of materially false evidence; and (4) actual innocence. After issuing an order to show cause, the trial court held a 10-day evidentiary hearing. Anthony and 12 other witnesses testified at the hearing, including the lead detective on his criminal investigation and an individual who had provided eyewitness testimony against him at trial.\nOn September 30, 2011, the trial court issued a 24-page order granting Anthony\u2019s habeas corpus petition. The trial court found that Anthony had established \u201chis conviction was based on material false testimony,\u201d explaining that the evidence showed the prosecution\u2019s \u201ckey witness\u201d had \u201cspecifically lied to the jury\u201d and subsequently recanted his identification of Anthony. The court also found Anthony had established \u201cthere was prosecutorial misconduct at . . . trial because the deputy district attorney did not correct false testimony and . . . suppressed] . . . favorable evidence.\u201d The court found the district attorney had, among other things, failed to correct the \u201ckey witness\u2019s\u201d statement that he had not received special treatment in exchange for his testimony; withheld from the defense statements from additional persons who had allegedly witnessed the crime; and failed to inform the defense that a trial witness had \u201cincorrectly picked a \u2018filler\u2019 \u201d the first time he was shown a photographic lineup of suspects.\nOn the issue of ineffective assistance of counsel, the court concluded that Anthony\u2019s attorney committed multiple \u201cerrors of omission [that] \u2014 taken together \u2014 constitute a deficiency of performance that theoretically deprived petitioner of competent representation.\u201d The court declined, however, to determine whether there was a reasonable probability that counsel\u2019s errors had affected the jury\u2019s decision. The court also ruled that Anthony had failed to establish actual innocence. The court noted that, to prevail on such a claim, the petitioner had the \u201cheavy burden\u201d of showing \u201cthat newly discovered evidence completely undermine[d] the prosecution[\u2019]s entire case and points unerringly to innocence.\u201d\nThe court concluded: \u201c[T]he petitioner has met his burden in establishing that there were several errors which occurred at his trial in 1994. The combined effect of those errors cannot be ignored. . . . This court firmly believes that had the jury heard the evidence that was omitted or excluded ... , it likely would have affected the outcome of the trial. For all of these reasons, this Court finds that the petitioner was denied due process of law and was denied a fair trial. Therefore, the petition is granted and the petitioner\u2019s conviction is set aside.\u201d The court ordered Anthony released and set the matter for a pretrial hearing. The prosecution did not appeal the order. (See Pen. Code, \u00a7 1506 [\u201cAn appeal may be taken to the court of appeal by the people from a final order of a superior court made upon the return of a writ of habeas corpus discharging a defendant or otherwise granting all or any part of the relief sought . . . .\u201d].)\nAt the ensuing pretrial hearing, held November 11, 2011, the district attorney informed the court the People were unable to proceed. The court dismissed the criminal proceedings pursuant to section 1382, subdivision (a)(2).\nB. Anthony\u2019s Section 4900 Claim and the Intervening Change in Law\nIn 2013, Anthony filed a section 4900 claim with the Victim Compensation and Government Claims Board (the board) seeking compensation for his erroneous conviction and imprisonment. (See Tennison v. California Victim Comp. & Government Claims Bd. (2007) 152 Cal.App.4th 1164, 1179 [62 Cal.Rptr.3d 88] (Tennison) [\u00a7 4900 \u201caccords relief to any person who, \u2018having been convicted of any crime . . . amounting to a felony and imprisoned in the state prison,\u2019 can demonstrate [his or her factual innocence]\u201d (italics omitted)].) Under the statutory framework then in effect, a claimant seeking relief under section 4900 was required to \u201cintroduce evidence\u201d establishing three elements: (1) \u201cthe crime with which he or she was charged was either not committed at all, or, if committed, was not committed by him [or her]\u201d; (2) \u201che [or she] did not, by any act or omission on his [or her] part, either intentionally or negligently, contribute to the bringing about of his [or her] arrest or conviction for the crime with which he [or she] was charged\u201d; and (3) \u201cthe pecuniary injury sustained by him [or her] through his [or her] erroneous conviction and imprisonment.\u201d (Former \u00a7 4903; see Tennison, supra, 152 Cal.App.4th at p. 1182.) The Attorney General was permitted to introduce evidence in opposition to the claim. (Former \u00a7 4903.)\nIf the board found the claimant had proved his or her claim by a preponderance of the evidence, it was required to issue a report to the Legislature recommending that an appropriation be made for the purpose of indemnifying the claimant in the sum of $100 per day of incarceration. (See former \u00a7 4904; Diola v. State Board of Control (1982) 135 Cal.App.3d 580, 588, fn. 7 [185 Cal.Rptr. 511] (Diola) [\u201cTo prevail claimant must carry the burden of proof of innocence by a preponderance of the evidence.\u201d].) The board\u2019s administrative decision was subject to writ review under Code of Civil Procedure section 1094.5. (See Tennison, supra, 152 Cal.App.4th at p. 1180.)\nWhile Anthony\u2019s claim was pending before the board, the Legislature adopted a bill to amend the procedures governing section 4900 claims. (See Stats. 2013, ch. 800.) The bill added Penal Code section 1485.55, which sets forth circumstances under which the trial court, rather than the board, is responsible for determining whether the claimant has established factual innocence. Section 1485.55, subdivision (a) provides that if a court grants a writ of habeas corpus on the basis of actual innocence, \u201cthat finding shall be binding on the [board] . . . , and upon application by the person, the board shall, without a hearing, recommend to the Legislature that an appropriation be made and the claim paid . . . .\u201d\nSubdivision (b) of section 1485.55 provides that if a court grants a writ of habeas corpus on grounds other than actual innocence, \u201cthe petitioner may move for a finding of innocence by a preponderance of the evidence that the crime with which he or she was charged was either not committed at all or, if committed, was not committed by him or her.\u201d If the court makes such a finding, \u201cthe board shall, without a hearing, recommend to the Legislature that an appropriation be made and the claim paid . . . .\u201d (\u00a7 1485.55, subd. (d).)\nThe newly adopted bill also amended portions of section 4900 et seq. Amended section 4902, subdivision (a) now requires that, in cases where section 1485.55 applies, the Board must calculate the claimant\u2019s compensation and issue a recommendation to the Legislature \u201cwithin 30 days of the presentation of the claim.\u201d Amended section 4903, subdivision (a) provides that, for claims not subject to section 1485.55, the claimant is only required to prove two elements: that \u201cthe crime with which he or she was charged was either not committed at all, or, if committed, was not committed by him or her . . .\u201d and \u201cthe pecuniary injury sustained by him or her through his or her erroneous conviction and imprisonment.\u201d Amended section 4903 further provides that in any hearing before the board, \u201cthe factual findings and credibility determinations establishing the court\u2019s basis for granting a writ of habeas corpus . . . shall be binding on the Attorney General, the factfinder and the board.\u201d (\u00a7 4903, subd. (b).)\nC. Anthony\u2019s Section 1485.55 Motion\nOn February 4, 2014, Anthony filed a motion for finding of factual innocence pursuant to section 1485.55, subdivision (b). The motion was predicated on the evidence Anthony had presented during his habeas corpus proceeding and the findings of fact and conclusions of law set forth in the trial court\u2019s order granting him relief. The district attorney opposed the motion, arguing that newly adopted section 1485.55 did not apply retroactively to cases in which the underlying writ of habeas corpus had been issued before the statute was passed. Alternatively, the district attorney argued that Anthony had failed to prove by a preponderance of the evidence that he did not commit the crimes of which he was convicted.\nThe trial court rejected both arguments. The court found that retroactivity was \u201cnot an issue\u201d because Anthony\u2019s section 4900 claim was pending before the Board when section 1485.55 became effective. On the question of factual innocence, the court explained that the preponderance of the evidence standard set forth in section 1485.55, subdivision (b) was significantly lower than the \u201chigh\u201d burden Anthony had faced in attempting to establish actual innocence at the habeas corpus proceeding. Relying on its prior findings of fact and conclusions of law, the court listed three factors in support of its finding that Anthony was factually innocent under the preponderance of the evidence standard. First, the court found Anthony\u2019s testimony at the eviden-tiary hearing to be \u201ccredible,\u201d noting that \u201c[h]is alibi and his claim that he wasn\u2019t there and didn\u2019t know anything about [the crime] ha[d] been consistent\u201d throughout the case. Second, the court found the evidence at the habeas corpus proceeding demonstrated the prosecution\u2019s primary trial witness \u201cha[d] no credibility.\u201d Third, the court emphasized \u201cthere was not one piece of physical evidence . . . that connects [Anthony] to the case. . . . And . . . there is nothing that corroborates the eye witness identification, even today.\u201d\nOn May 30, 2014, the court entered an order granting Anthony\u2019s motion for finding of factual innocence. The district attorney appealed the order.\nDISCUSSION\nThe district attorney raises two arguments on appeal. First, contending the trial court erred in concluding that \u201csection 1485.55, subdivision (b) . . . applies] to cases where the grant of habeas relief occurred before the statute took effect.\u201d Second, the district attorney argues that the court \u201cerred in granting the motion because the record \u2014 taken as a whole \u2014 does not demonstrate that [Anthony] is factually innocent of the crimes charged.\u201d Anthony, however, argues that the district attorney has no authority to appeal an order issued pursuant to section 1485.55. We agree that the order is not appealable.\n\u201cThe prosecution\u2019s right to appeal in a criminal case is strictly limited by statute. [Citation.] Long-standing authority requires adherence to these limits even though \u2018the People may thereby suffer a wrong without a remedy.\u2019 [Citation.] The circumstances allowing a People\u2019s appeal are enumerated in section 1238.\u201d (People v. Chacon (2007) 40 Cal.4th 558, 564 [53 Cal.Rptr.3d 876, 150 P.3d 755]; see People v. Drake (1977) 19 Cal.3d 749, 754 [139 Cal.Rptr. 720, 566 P.2d 622] [\u201c \u2018The Legislature has determined that except under certain limited circumstances the People shall have no right of appeal in criminal cases.\u2019 [Citation.] Those circumstances are enumerated in section 1238.\u201d].) \u201c \u2018[C]ourts are precluded from so interpreting section 1238 as to expand the People\u2019s right of appeal into areas other than those clearly specified by the Legislature.\u2019 [Citation.]\u201d (People v. McGuire (1993) 14 Cal.App.4th 687, 700-701 [18 Cal.Rptr.2d 12] (McGuire).)\nThe statement of appealability set forth in the district attorney\u2019s opening appellate brief asserts that the order is appealable under section 1238, subdivision (a)(5), which authorizes the People to appeal from \u201c[a]n order made after judgment, affecting the substantial rights of the people.\u201d \u201c \u2018[T]o affect the People\u2019s substantial rights[,] an order \u201cmust in some way affect the judgment or its enforcement or hamper the further prosecution of the particular proceeding in which it is made.\u201d \u2019 [Citations.]\u201d (People v. Leonard (2002) 97 Cal.App.4th 1297, 1300 [119 Cal.Rptr.2d 57] (Leonard); see McGuire, supra, 14 Cal.App.4th at p. 700; People v. Benavides (2002) 99 Cal.App.4th 100, 104 [120 Cal.Rptr.2d 755] (Benavides); People v. Garcia (1931) 120 Cal.App. Supp. 767, 770 [7 P.2d 401] (Garcia).)\nApplying this standard, our courts have generally held that section 1238, subdivision (a)(5) authorizes the People to appeal orders that affect the defendant\u2019s sentence or the timing of his or her release. (See People v. Perez (1979) 23 Cal.3d 545, 549, fn. 2 [153 Cal.Rptr. 40, 591 P.2d 63] [order staying sentence pursuant to \u00a7 654]; People v. Warner (1978) 20 Cal.3d 678, 681-682 [143 Cal.Rptr. 885, 574 P.2d 1237], superseded by statute on other grounds as stated in People v. Douglas (1999) 20 Cal.4th 85, 92, fn. 6 [82 Cal.Rptr.2d 816, 972 P.2d 151] [order granting probation]; People v. Superior Court (Martinez) (2014) 225 Cal.App.4th 979, 987-988 [170 Cal.Rptr.3d 763] [order finding defendant eligible to be resentenced under newly adopted three strikes sentencing scheme]; People v. Lo (1996) 42 Cal.App.4th 189, 196 [49 Cal.Rptr.2d 594] [order \u201crefusing to resentence\u201d defendant after Youthful Offenders Parole Board found him inappropriate candidate for treatment by the California Youth Authority]; McGuire, supra, 14 Cal.App.4th at p. 700 [order granting bail pending appeal]; People v. Minjarez (1980) 102 Cal.App.3d 309, 311-312 [162 Cal.Rptr. 292] [order erroneously granting a defendant custody credits against his or her prison sentence]; Daudert v. People (1979) 94 Cal.App.3d 580, 582-585 [156 Cal.Rptr. 640] [appeal of order granting certificate of rehabilitation issued to a defendant before the period of rehabilitation required by law had been completed].) The subdivision has also been found to authorize the appeal of orders that do not directly affect a criminal judgment, but impact the prosecution\u2019s ability to carry out \u201ctheir prosecutorial duties in the future.\u201d (Benavides, supra, 99 Cal.App.4th at p. 106.)\nThe subdivision is inapplicable to orders that \u201crelate[] to a matter collateral to the underlying criminal case.\u201d (Leonard, supra, 97 Cal.App.4th at p. 1300.) For example, in Leonard, supra, 97 Cal.App.4th 1297, the People appealed the denial of a postconviction motion seeking to bar the defendant from contacting jurors \u201cwithout first obtaining court approval and establishing good cause.\u201d (Id. at p. 1299.) The defendant asserted that the order was \u201cnot appealable because it d[id] not affect the enforcement of the judgment or prevent further prosecution of the case against respondent.\u201d (Id. at p. 1300.) The appellate court agreed, explaining: \u201cThe order denying the People\u2019s request for a no-contact order does not affect their substantial rights. Such an order relates to a matter collateral to the underlying criminal case .... While the legal issue raised by the People may be of great theoretical importance to them, the order issued by the trial court ... in no way affects the judgment, its enforcement, nor does it hamper further prosecution. Accordingly, we find the order nonappealable.\u201d (Ibid., citation omitted; see Benavides, supra, 99 Cal.App.4th 100 [agreeing with Leonard's conclusion that a postconviction order denying the People\u2019s request for a no-contact order is not appealable under \u00a7 1238. subd. (a)(5)].)\nIn Garcia, supra, 120 Cal.App. Supp. 767, the appellate department of the superior court ruled that an order entered after an acquittal requiring the police department to return the defendant\u2019s property was not appealable under section 1238, subdivision (a)(5). The court explained; \u201c[To affect the substantial rights of the People, the order] must in some way affect the judgment or its enforcement or hamper the further prosecution of the particular proceeding in which it is made. [Citations.] The order complained of here is not of that character. ... [A] proceeding by the owner to recover possession of property unlawfully seized is independent of the criminal proceeding in which [the property] is sought to [be] use[d] ... as evidence . . . .\u201d \u201c[W]e cannot see how a ruling made after judgment on ... a motion [to recover unlawfully seized property] can affect the substantial rights of the People in the criminal action, or be regarded as an order made in the course of such action.\u201d (120 Cal.App. at p. Supp. 770.)\nIn this case, the district attorney effectively concedes that the challenged order has had no impact on Anthony\u2019s underlying criminal judgment. In 2011, the trial court issued a writ of habeas corpus that \u201cvacated and set aside\u201d his conviction. The People did not appeal that order (see \u00a7 1506 [authorizing the People to appeal a grant of habeas corpus relief]) and elected not to retry Anthony. The criminal charges against Anthony were thereafter dismissed on November 18, 2011. (See \u00a7 1382, subd. (a)(2).) Thus, as the district attorney explained at the section 1485.55 hearing, \u201cas of November . . . 2011, the criminal case ceased to exist. [\u00b6] . . . [\u00b6] [Anthony\u2019s] rights under the Penal Code have already been fully adjudicated and that adjudication is complete, at least in this proceeding and has been for over two years.\u201d Given these facts, it is clear that the section 1485.55 order has had no effect on Anthony\u2019s criminal judgment, which was vacated years before the order was issued.\nNor has the district attorney identified any way in which the section 1485.55 order might hamper its ability to prosecute this or any other criminal matter in the future. In her reply brief, the district attorney states that while the section 1485.55 order \u201cmay (potentially) affect further prosecution,\u201d that issue is \u201cnot addressed by this appeal and is therefore not explored further.\u201d We treat this statement as a concession that the district attorney has elected to forgo any argument related to the order\u2019s potential effects on a future prosecution.\nAlthough the court\u2019s order has had no identifiable effect on Anthony\u2019s now vacated judgment or his future prosecution, the district attorney argues that the order is appealable under section 1238, subdivision (a)(5) because it \u201celiminates the People\u2019s right to a contested hearing pursuant to section 4900 . . . before the [board].\u201d As stated in the district attorney\u2019s reply brief, the section 1485.55 order \u201ctriggered [Anthony\u2019s] right to directly receive compensation under section 4903 without an administrative hearing, and therefore the ruling affects a substantial right of the People.\u201d\nContrary to the district attorney\u2019s suggestion, the trial court\u2019s order did not eliminate the People\u2019s right to a hearing on the question of Anthony\u2019s factual innocence. The People litigated that issue at length during the habeas corpus proceedings. They had a second opportunity to address the issue under the preponderance of the evidence standard at Anthony\u2019s section 1485.55 motion hearing. During that hearing, Anthony was required to prove his claim of factual innocence under the same burden of persuasion that would have been applicable at a hearing before the board. (See \u00a7 1485.55, subds. (b) & (d); Diola, supra, 135 Cal.App.3d at p. 588, fn. 7 [\u201cTo prevail [in a hearing before the board, the] claimant must carry the burden of proof of innocence by a preponderance of the evidence.\u201d].) The trial court\u2019s order therefore did not operate in a manner that denied the district attorney a hearing on the issue of factual innocence. Instead, the order merely provided the district attorney a different venue and trier of fact for the hearing: the trial court rather than the board. The district attorney has pointed to no authority suggesting the People have any right (substantial or otherwise) to have the board, rather than the trial court, determine the question of Anthony\u2019s factual innocence.\nAs in Leonard and Garcia, the order at issue here relates solely \u201cto a matter collateral to the underlying criminal case.\u201d (Leonard, supra, 97 Cal.App.4th at p. 1300.) Specifically, the order makes a factual finding that facilitates Anthony\u2019s ability to obtain compensation for his erroneous judgment of conviction, which was set aside years ago. Because the order neither affects the underlying judgment nor has any effect on the prosecution\u2019s ability to carry out its functions, it is not appealable under section 1238, subdivision (a)(5).\nOur conclusion that a section 1485.55 order is not appealable by the People is underlined by section 851.8, which specifically authorizes the People to appeal a finding of factual innocence in a different context. Section 851.8 allows a person who is arrested for a crime for which he or she is never convicted to file a petition for a judicial determination of factual innocence. If the court finds the \u201carrestee factually innocent\u201d it must order the relevant law enforcement agencies to seal the arrest records for three years and then destroy them. (See \u00a7 851.8, subds. (b), (c) & (d).) Subdivision (p) of section 851.8 specifically provides that any such ruling is appealable. (See People v. Adair (2003) 29 Cal.4th 895, 904 [129 Cal.Rptr.2d 799, 62 P.3d 45] [trial court\u2019s finding of factual innocence under \u00a7 851.8 is appealable pursuant to \u00a7 851.8, subd. (p)].) In its opening appellate brief, the district attorney acknowledges that \u201cin both its construction and its intent, section 851.8 is similar to new section 1485.55.\u201d However, the prosecution overlooks a key difference between the statutes: one authorizes an appeal and the other does not. Given the related subject matter of the two statutes, we agree with Anthony that the presence of an appeal provision in section 851.8 and the absence of any such provision in section 1485.55 indicates that the Legislature did not intend orders issued under section 1485.55 to be appealable. (See People v. Arriaga (2014) 58 Cal.4th 950, 960 [169 Cal.Rptr.3d 678, 320 P.3d 1141] [\u201cIt is a settled principle of statutory interpretation that if a statute contains a provision regarding one subject, that provision\u2019s omission in the same or another statute regarding a related subject is evidence of a different legislative intent.\u201d].)\nThe district attorney alternatively contends that even if the order is not appealable under any provision of section 1238, we may nonetheless review portions of the trial court\u2019s order pursuant to section 1235, which states: \u201c(a) Either party to a felony case may appeal on questions of law alone, as prescribed in this title and in rules adopted by the Judicial Council . . . . [\u00b6] (b) An appeal from the judgment or appealable order in a felony case is to the court of appeal for the district in which the court from which the appeal is taken is located.\u201d The district attorney asserts that subdivision (a) of section 1235 permits either party to a criminal proceeding to appeal any order involving a \u201cquestion of law.\u201d She further contends that whether section 1485.55 applies retroactively to Anthony\u2019s case is a \u201cpure question of law\u201d and therefore appealable under section 1235, subdivision (a).\nThis argument misconstrues the meaning of section 1235. The statute does not purport to describe the types of judgments or orders that parties to a criminal proceeding may appeal. It merely serves to clarify that \u201c[appeals ... in criminal cases do not lie from the verdict of a jury or from the finding of a judge upon controverted questions of fact.\u201d (People v. Pastrana (1955) 136 Cal.App.2d 358, 359-360 [288 P.2d 568].) In other words, section 1235 describes the type of issues the parties may raise in an appeal from an appealable order. Section 1238, on the other hand, describes the categories of orders that are actually appealable by the People. (Chacon, supra, 40 Cal.4th at p. 564 [\u201cThe circumstances allowing a People\u2019s appeal are enumerated in section 1238.\u201d]; Drake, supra, 19 Cal.3d at p. 754.)\nBecause the district attorney has failed to identify any statute that authorizes an appeal of the trial court\u2019s order, we dismiss the appeal for lack of jurisdiction.\nDISPOSITION\nThe appeal is dismissed.\nPerluss, P. J., and Feuer, J., concurred.\nA petition for a rehearing was denied May 16, 2015, and appellant\u2019s petition for review by the Supreme Court was denied July 20, 2015, S227027.\nUnless otherwise noted, all further statutory citations are to the Penal Code.\nThe California Rules of Court require the appellant\u2019s opening brief to include a statement that \u201cthe judgment appealed from is final, or explain why the order appealed from is appealable.\u201d (Cal. Rules of Court, rule 8.204(a)(2)(B); see id., rule 8.360(a) [\u201cbriefs in criminal appeals must comply as nearly as possible with rules 8.200 and 8.204\u201d].)\nThe parties\u2019 appellate briefs do not address whether the trial court\u2019s section 1485.55 order, issued after Anthony\u2019s criminal judgment was vacated in the habeas corpus proceedings and his criminal charges dismissed, qualifies as an order \u201cmade after judgment\u201d within the meaning of section 1238, subdivision (a)(5). Instead, their briefs address only whether the order affected a substantial right of the People. For the purposes of this appeal, we will assume without deciding that the order is one \u201cmade after judgment.\u201d\nBecause this proceeding took place after the time to appeal the habeas corpus ruling had expired, we express no opinion as to whether an appeal challenging both the habeas corpus and the finding of actual innocence would lie.\nThe district attorney\u2019s reply brief contains a single sentence asserting that the \u201cinstant case is additionally appealable under [section 1238, subdivision (a)(8)] as well.\u201d The conclusory assertion is not accompanied by any legal analysis explaining why the order is actually appealable under subdivision (a)(8). Accordingly, we need not address the issue. (See, e.g., In re Marriage of Falcone & Fyke (2008) 164 Cal.App.4th 814, 830 [79 Cal.Rptr.3d 588] [treating contentions not supported by \u201ccogent legal argument or citation to authority\u201d as waived]; Crowley Maritime Corp. v. Boston Old Colony Ins. Co. (2008) 158 Cal.App.4th 1061, 1072 [70 Cal.Rptr.3d 605] [points raised for first time in reply brief will generally not be considered]; Newell v. Brawner (1956) 140 Cal.App.2d 523, 527 [295 P.2d 460] [\u201cAs a rule, points raised for the first time in a reply brief need not be considered by the court and in view of the inadequate presentation of the point we are not inclined to depart from the rule.\u201d].) Even if the district attorney had properly raised the argument, section 1238, subdivision (a)(8) does not apply here. The subdivision authorizes the People to appeal \u201c[a]n order or judgment dismissing or otherwise terminating all or any portion of the action including such an order or judgment after a verdict or finding of guilty or an order or judgment entered before the defendant has been placed in jeopardy or where the defendant has waived jeopardy.\u201d (\u00a7 1238, subd. (a)(8).) The court\u2019s order finding that Anthony had proved his factual innocence by a preponderance of the evidence did not dismiss or terminate any portion of his criminal case, which had been dismissed long before he ever filed his compensation claim.\nThe district attorney has not requested that we treat the People\u2019s appeal as a petition for an extraordinary writ of mandate. Accordingly, we express no opinion whether the issues raised in this appeal would be reviewable in a writ proceeding. (See generally People v. Superior Court (Stanley) (1979) 24 Cal.3d 622, 625-626 [156 Cal.Rptr. 626, 596 P.2d 691] [\u201cIf the prosecution has not been granted by statute a right to appeal, review of any alleged error may be sought by a petition for writ of mandate only when a trial court has acted in excess of its jurisdiction and the need for such review outweighs the risk of harassment of the accused.\u201d (fn. & italics omitted)].)",
+        "type": "majority",
+        "author": "ZELON, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Jackie Lacy, District Attorney, Phyllis Asayama and Scott D. Collins, Deputy District Attorneys, for Appellant The People.",
+      "Northern California Innocence Project, Linda Starr and Paige Kaneb for Respondent Obie Steven Anthony III."
+    ],
+    "corrections": "",
+    "head_matter": "[No. B256949.\nSecond Dist., Div. Seven.\nApr. 27, 2015.]\nIn re OBIE STEVEN ANTHONY III on Habeas Corpus.\nCounsel\nJackie Lacy, District Attorney, Phyllis Asayama and Scott D. Collins, Deputy District Attorneys, for Appellant The People.\nNorthern California Innocence Project, Linda Starr and Paige Kaneb for Respondent Obie Steven Anthony III.\nJudge of the Los Angeles Superior Court, assigned by the Chief Justice pursuant to article VI, section 6 of the California Constitution."
+  },
+  "file_name": "0204-01",
+  "first_page_order": 204,
+  "last_page_order": 216
+}

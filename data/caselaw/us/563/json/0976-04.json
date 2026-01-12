@@ -1,0 +1,59 @@
+{
+  "id": 5951752,
+  "name": "Vigil v. United States",
+  "name_abbreviation": "Vigil v. United States",
+  "decision_date": "2011-05-02",
+  "docket_number": "No. 10-8276",
+  "first_page": "976",
+  "last_page": "976",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 976"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.609,
+    "sha256": "ccfb91fd723362037d0ff0f78f7ca3b5f1f0df286b4abb8a334bc6050a310cf8",
+    "simhash": "1:9f5bc2db0e97d54e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Vigil v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8276.\nVigil v. United States."
+  },
+  "file_name": "0976-04",
+  "first_page_order": 1002,
+  "last_page_order": 1002
+}

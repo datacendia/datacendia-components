@@ -1,0 +1,102 @@
+{
+  "id": 5961162,
+  "name": "In re Disbarment of Malkus",
+  "name_abbreviation": "In re Disbarment of Malkus",
+  "decision_date": "2011-06-06",
+  "docket_number": "No. D-2576",
+  "first_page": "1031",
+  "last_page": "1031",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1031"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "562 U. S. 1039",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5996097,
+        5935230,
+        12438759,
+        12438760,
+        12438762,
+        12438761,
+        12438763,
+        5923918,
+        4126224,
+        5980532,
+        12438964,
+        12438965,
+        12438966,
+        4126104,
+        6023226,
+        5956350
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/562/1039-06",
+        "/us/562/1039-05",
+        "/l-ed-2d/178/0430-04",
+        "/l-ed-2d/178/0430-05",
+        "/l-ed-2d/178/0431-01",
+        "/l-ed-2d/178/0430-06",
+        "/l-ed-2d/178/0431-02",
+        "/us/562/1039-01",
+        "/us/562/1039-08",
+        "/us/562/1039-04",
+        "/l-ed-2d/178/0457-03",
+        "/l-ed-2d/178/0457-04",
+        "/l-ed-2d/178/0457-05",
+        "/us/562/1039-02",
+        "/us/562/1039-07",
+        "/us/562/1039-03"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 108,
+    "ocr_confidence": 0.599,
+    "sha256": "e62b6d2e0f3519ffc635c7f56534a9341313ecb461e96832614cd91c8099e0d9",
+    "simhash": "1:35f8dea2e386e8ec",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:44:09.189648+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Malkus."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see 562 U. S. 1039.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2576.\nIn re Disbarment of Malkus."
+  },
+  "file_name": "1031-08",
+  "first_page_order": 1057,
+  "last_page_order": 1057
+}

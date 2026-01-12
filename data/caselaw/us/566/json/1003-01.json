@@ -1,0 +1,59 @@
+{
+  "id": 12219128,
+  "name": "Bolze v. United States",
+  "name_abbreviation": "Bolze v. United States",
+  "decision_date": "2012-05-14",
+  "docket_number": "No. 11-9767",
+  "first_page": "1003",
+  "last_page": "1003",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1003"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.559,
+    "sha256": "bf52203d20d447a12e61cab7e5239bcf777ab5b832a69a1978260761bb396772",
+    "simhash": "1:a38a930ecad58818",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bolze v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9767.\nBolze v. United States."
+  },
+  "file_name": "1003-01",
+  "first_page_order": 879,
+  "last_page_order": 879
+}

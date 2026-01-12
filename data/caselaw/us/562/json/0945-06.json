@@ -1,0 +1,59 @@
+{
+  "id": 5945221,
+  "name": "Kpohanu v. United States",
+  "name_abbreviation": "Kpohanu v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-6112",
+  "first_page": "945",
+  "last_page": "945",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 945"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.626,
+    "sha256": "3bd15090da77e9897272ea25be4dfba5955e57f1f65429158a82a9a30925d678",
+    "simhash": "1:c78bb6884e3d186a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kpohanu v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6112.\nKpohanu v. United States."
+  },
+  "file_name": "0945-06",
+  "first_page_order": 967,
+  "last_page_order": 967
+}

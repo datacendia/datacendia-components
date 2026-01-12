@@ -1,0 +1,59 @@
+{
+  "id": 6022820,
+  "name": "Deere v. Nevada",
+  "name_abbreviation": "Deere v. Nevada",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7173",
+  "first_page": "1147",
+  "last_page": "1147",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1147"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 63,
+    "ocr_confidence": 0.667,
+    "sha256": "ee1eeb9981e6b001ef75ed762a1c5f3135afcaec8f870614c61dd7bc317ded1f",
+    "simhash": "1:0266ac3b06affeca",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Deere v. Nevada."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Nev. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7173.\nDeere v. Nevada."
+  },
+  "file_name": "1147-04",
+  "first_page_order": 1169,
+  "last_page_order": 1169
+}

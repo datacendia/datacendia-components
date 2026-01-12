@@ -1,0 +1,59 @@
+{
+  "id": 12431138,
+  "name": "Revis v. Alabama",
+  "name_abbreviation": "Revis v. Alabama",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-7806",
+  "first_page": "1174",
+  "last_page": "1174",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1174"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 71,
+    "ocr_confidence": 0.649,
+    "sha256": "31e37cfd6e4dc0fbfce0db4b8fe8d9636e50ea9512c960e6f6a193221892ac21",
+    "simhash": "1:02f2b31e388a43ae",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Revis v. Alabama."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Ala. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7806.\nRevis v. Alabama."
+  },
+  "file_name": "1174-05",
+  "first_page_order": 1250,
+  "last_page_order": 1250
+}

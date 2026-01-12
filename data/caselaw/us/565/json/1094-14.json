@@ -1,0 +1,59 @@
+{
+  "id": 12237945,
+  "name": "Olvera v. United States",
+  "name_abbreviation": "Olvera v. United States",
+  "decision_date": "2011-12-12",
+  "docket_number": "No. 11-583",
+  "first_page": "1094",
+  "last_page": "1094",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1094"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.686,
+    "sha256": "dfcca88e41d783cb30d46ff2b25024e413fc4ea1d55761c66a409c77e57b170d",
+    "simhash": "1:9308970a8b919a1a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Olvera v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-583.\nOlvera v. United States."
+  },
+  "file_name": "1094-14",
+  "first_page_order": 1176,
+  "last_page_order": 1176
+}

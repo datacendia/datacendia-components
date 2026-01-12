@@ -1,0 +1,59 @@
+{
+  "id": 6002486,
+  "name": "Lawrence v. United States District Court for the Western District of Michigan",
+  "name_abbreviation": "Lawrence v. United States District Court for the Western District of Michigan",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-1336",
+  "first_page": "830",
+  "last_page": "830",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 830"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 19,
+    "char_count": 126,
+    "ocr_confidence": 0.605,
+    "sha256": "a64dcd5507a3244656b67f8f3fe10026eae738d26e8e6ac88781d341d8c86eab",
+    "simhash": "1:f6bb2b53fc65dc02",
+    "word_count": 20
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lawrence v. United States District Court for the Western District of Michigan."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-1336.\nLawrence v. United States District Court for the Western District of Michigan."
+  },
+  "file_name": "0830-06",
+  "first_page_order": 852,
+  "last_page_order": 852
+}

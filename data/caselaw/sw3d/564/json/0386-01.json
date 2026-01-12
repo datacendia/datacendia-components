@@ -1,0 +1,109 @@
+{
+  "id": 12658491,
+  "name": "Patrick R. CONN, Appellant, v. STATE of Missouri, Respondent.",
+  "name_abbreviation": "Conn v. State",
+  "decision_date": "2018-11-27",
+  "docket_number": "No. ED 106101",
+  "first_page": "386",
+  "last_page": "387",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 S.W.3d 386"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mo. App. Ct.",
+    "id": 30155,
+    "name": "Missouri Court of Appeals, Eastern District, DIVISION ONE"
+  },
+  "jurisdiction": {
+    "id": 37,
+    "name_long": "Missouri",
+    "name": "Mo."
+  },
+  "cites_to": [
+    {
+      "cite": "497 S.W.3d 263",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12182019
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "266-67"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/497/0263-01"
+      ]
+    },
+    {
+      "cite": "494 S.W.3d 525",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6783642
+      ],
+      "weight": 4,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "527"
+        },
+        {
+          "page": "533"
+        },
+        {
+          "page": "527"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/494/0525-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 247,
+    "char_count": 3429,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2649509681838594
+    },
+    "sha256": "2cb52462eacc8e3ec0558cbbe735053510537ac83d191217643f13a9c9098d05",
+    "simhash": "1:917c93561aac367d",
+    "word_count": 546
+  },
+  "last_updated": "2024-02-27T19:35:19.974449+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Patrick R. CONN, Appellant,\nv.\nSTATE of Missouri, Respondent."
+    ],
+    "opinions": [
+      {
+        "text": "Angela T. Quigless, J.\nPatrick R. Conn (\"Movant\") appeals from the motion court's denial of his Rule 24.035 motion for post-conviction relief following an evidentiary hearing. Movant asserts one point on appeal, arguing the trial court clearly erred in entering a judgment without addressing or disposing of all his claims raised in his amended motion for post-conviction relief, in violation of Rule 24.035(j) and Movant's right to due process. Movant requests this Court dismiss his appeal so the motion court can address the unresolved claim. The State concedes the motion court failed to address one of Movant's claim and argues that, as a result, this Court must dismiss Movant's appeal for lack of jurisdiction. We agree.\nA final judgment is a prerequisite for appeal. Green v. State , 494 S.W.3d 525, 527 (Mo. banc 2016). A final judgment is one that resolves all claims and issues in a case, leaving nothing for future determination. Id. In adjudicating a motion for post-conviction relief, the motion court \"shall issue findings of fact and conclusions of law on all issues presented, whether or not a hearing is held.\" Rule 24.035(j). Such findings and conclusions constitute a final judgment for purposes of appeal. Rule 24.035(k). Where a motion court fails to acknowledge, adjudicate, or dispose of all claims asserted in a motion for post-conviction relief, the judgment is not final. Id. at 533. Absent a final judgment, there is no appellate review and the appeal must be dismissed. Id. at 527.\nHere, Movant's amended motion asserted three claims for post-conviction relief, including that: (1) the trial court erred in convicting Movant of felony stealing under Section 570.030.1 RSMo 2000 (Cum. Supp. 2009) and imposing a five-year sentence because, under State v. Bazell , 497 S.W.3d 263, 266-67 (Mo. banc 2016), the offense was actually a misdemeanor offense, therefore the sentence that exceeded the maximum sentence authorized by law; (2) the trial court erred in convicting Movant of first-degree assault in the absence of a factual basis to support the conviction as required by Rule 24.02(e), in violation of Movant's constitutional right to due process; and (3) Movant was denied his right to effective assistance of counsel because trial counsel misinformed Movant he would be eligible for parole, failed to investigate the potential testimony of three witnesses, and failed to provide Movant with discovery. The motion court's Findings of Fact, Conclusions of Law and Judgment addressed and denied Movant's claims regarding the length of his sentence and the ineffective assistance of trial counsel. However, the motion court failed to acknowledge, adjudicate, or dispose of Movant's claim that his first-degree assault conviction was not supported by a factual basis. Accordingly, we must dismiss the appeal for lack of a final judgment. See id. at 533.\nConclusion\nFor the reasons stated above, the appeal is dismissed.\nRoy L. Richter, P.J., and Robert M. Clayton III, J., concur.\nAll rule references are to Missouri Supreme Court Rules (2010), unless otherwise indicated.",
+        "type": "majority",
+        "author": "Angela T. Quigless, J."
+      }
+    ],
+    "attorneys": [
+      "Carol D. Jansen, 1000 W. Nifong, Building 7, Suite 100, Columbia, MO. 65203, for appellant.",
+      "Nathan J. Aquino, P.O. Box 899, Jefferson City, MO. 65102, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "Patrick R. CONN, Appellant,\nv.\nSTATE of Missouri, Respondent.\nNo. ED 106101\nMissouri Court of Appeals, Eastern District, DIVISION ONE.\nFiled: November 27, 2018\nCarol D. Jansen, 1000 W. Nifong, Building 7, Suite 100, Columbia, MO. 65203, for appellant.\nNathan J. Aquino, P.O. Box 899, Jefferson City, MO. 65102, for respondent."
+  },
+  "file_name": "0386-01",
+  "first_page_order": 386,
+  "last_page_order": 387
+}

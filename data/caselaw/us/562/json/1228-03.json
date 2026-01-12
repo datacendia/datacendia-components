@@ -1,0 +1,59 @@
+{
+  "id": 6007911,
+  "name": "Parker v. Astrue, Commissioner of Social Security",
+  "name_abbreviation": "Parker v. Astrue",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-7850",
+  "first_page": "1228",
+  "last_page": "1228",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1228"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 98,
+    "ocr_confidence": 0.61,
+    "sha256": "84eeeaae0d8dcb0194398788708e819033741f769923ab41a9ebfe29d254f93d",
+    "simhash": "1:e24972038aefa826",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Parker v. Astrue, Commissioner of Social Security."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7850.\nParker v. Astrue, Commissioner of Social Security."
+  },
+  "file_name": "1228-03",
+  "first_page_order": 1250,
+  "last_page_order": 1250
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5984631,
+  "name": "Horton v. United States",
+  "name_abbreviation": "Horton v. United States",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-7995",
+  "first_page": "1193",
+  "last_page": "1193",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1193"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.601,
+    "sha256": "4597d3163a6ab76e1e6a46cb471fb0628c12b2d1cdee05c6745616de77958bce",
+    "simhash": "1:86abe2a30eb51453",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Horton v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7995.\nHorton v. United States."
+  },
+  "file_name": "1193-03",
+  "first_page_order": 1215,
+  "last_page_order": 1215
+}

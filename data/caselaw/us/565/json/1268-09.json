@@ -1,0 +1,59 @@
+{
+  "id": 12252278,
+  "name": "McGuire v. United States District Court for the Middle District of Florida",
+  "name_abbreviation": "McGuire v. United States District Court for the Middle District of Florida",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. 11-8434",
+  "first_page": "1268",
+  "last_page": "1268",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1268"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 19,
+    "char_count": 124,
+    "ocr_confidence": 0.579,
+    "sha256": "951991512947fd3648b65307c8f0c89c9fa660eef70c2c293410804511bbe35c",
+    "simhash": "1:35db0e633d4ba014",
+    "word_count": 20
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McGuire v. United States District Court for the Middle District of Florida."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8434.\nMcGuire v. United States District Court for the Middle District of Florida."
+  },
+  "file_name": "1268-09",
+  "first_page_order": 1350,
+  "last_page_order": 1350
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5937914,
+  "name": "Welch v. Florida",
+  "name_abbreviation": "Welch v. Florida",
+  "decision_date": "2011-04-25",
+  "docket_number": "No. 10-9181",
+  "first_page": "964",
+  "last_page": "964",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 964"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 81,
+    "ocr_confidence": 0.509,
+    "sha256": "db18bb19d5b983a941940bf7d95d9e4e1230323b6ba43da9f437e18e4b873268",
+    "simhash": "1:81228042e6656a2e",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Welch v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 5th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9181.\nWelch v. Florida."
+  },
+  "file_name": "0964-11",
+  "first_page_order": 990,
+  "last_page_order": 990
+}

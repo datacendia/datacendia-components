@@ -1,0 +1,810 @@
+{
+  "id": 2254031,
+  "name": "R. E. Smith Et Al v. H. P. Allison Et Al.",
+  "name_abbreviation": "Smith v. Allison",
+  "decision_date": "1956-12-12",
+  "docket_number": "No. A-5458",
+  "first_page": "220",
+  "last_page": "240",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "157 Tex. 220"
+    },
+    {
+      "type": "parallel",
+      "cite": "301 S.W.2d 608"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "173 S.W. 2d 503",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10209122
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/173/0503-01"
+      ]
+    },
+    {
+      "cite": "143 S.W. 2d 912",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2317762,
+        10228174
+      ],
+      "pin_cites": [
+        {
+          "page": "915"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/135/0339-01",
+        "/sw2d/143/0912-01"
+      ]
+    },
+    {
+      "cite": "135 Texas 339",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2317762
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/135/0339-01"
+      ]
+    },
+    {
+      "cite": "84 S.W. 2d 442",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10242834,
+        2298374
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/84/0442-01",
+        "/tex/125/0549-01"
+      ]
+    },
+    {
+      "cite": "125 Texas 549",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2298374
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/125/0549-01"
+      ]
+    },
+    {
+      "cite": "135 S.W. 2d 204",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10230134
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/135/0204-01"
+      ]
+    },
+    {
+      "cite": "88 S.W. 2d 597",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "114 S.W. 2d 915",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10273303
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/114/0915-01"
+      ]
+    },
+    {
+      "cite": "242 S.W. 462",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8260744
+      ],
+      "pin_cites": [
+        {
+          "page": "464"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/242/0462-01"
+      ]
+    },
+    {
+      "cite": "142 F. 2d 604",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        3688883
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/142/0604-01"
+      ]
+    },
+    {
+      "cite": "77 S.W. 2d 1086",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10273406,
+        10273526
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/77/1086-01",
+        "/sw2d/77/1086-02"
+      ]
+    },
+    {
+      "cite": "84 S.W. 2d 447",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10242993,
+        2298387
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/84/0447-01",
+        "/tex/125/0540-01"
+      ]
+    },
+    {
+      "cite": "125 Texas 540",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2298387
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/125/0540-01"
+      ]
+    },
+    {
+      "cite": "65 S.W. 500",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "284 S.W. 542",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10304434
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/284/0542-01"
+      ]
+    },
+    {
+      "cite": "281 S.W. 2d 136",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10177213
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/281/0136-01"
+      ]
+    },
+    {
+      "cite": "84 S.W. 2d 452",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10243112,
+        2298301
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/84/0452-01",
+        "/tex/125/0530-01"
+      ]
+    },
+    {
+      "cite": "125 Texas 530",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2298301
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/125/0530-01"
+      ]
+    },
+    {
+      "cite": "240 S.W. 2d 281",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2328410,
+        10195453
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/150/0317-01",
+        "/sw2d/240/0281-01"
+      ]
+    },
+    {
+      "cite": "150 Texas 317",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2328410
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/150/0317-01"
+      ]
+    },
+    {
+      "cite": "192 S.W. 2d 770",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2336676,
+        10204004
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/144/0609-01",
+        "/sw2d/192/0770-01"
+      ]
+    },
+    {
+      "cite": "144 Texas 609",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2336676
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/144/0609-01"
+      ]
+    },
+    {
+      "cite": "132 S.W. 2d 395",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10233633,
+        2319494
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/132/0395-01",
+        "/tex/134/0140-01"
+      ]
+    },
+    {
+      "cite": "134 Texas 140",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2319494
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/134/0140-01"
+      ]
+    },
+    {
+      "cite": "114 S.W. 2d 1172",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2324582,
+        10277647
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/131/0266-01",
+        "/sw2d/114/1172-01"
+      ]
+    },
+    {
+      "cite": "131 Texas 266",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2324582
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/131/0266-01"
+      ]
+    },
+    {
+      "cite": "113 S.W. 2d 517",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10256881,
+        2324539
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/113/0517-01",
+        "/tex/131/0219-01"
+      ]
+    },
+    {
+      "cite": "131 Texas 219",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2324539
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/131/0219-01"
+      ]
+    },
+    {
+      "cite": "85 A.L.R. 391",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "50 S.W. 2d 1080",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2305647,
+        10263103
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/121/0427-01",
+        "/sw2d/50/1080-01"
+      ]
+    },
+    {
+      "cite": "121 Texas 427",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2305647
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/121/0427-01"
+      ]
+    },
+    {
+      "cite": "268 S.W. 2d 903",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2247890,
+        10210019
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/153/0371-01",
+        "/sw2d/268/0903-01"
+      ]
+    },
+    {
+      "cite": "153 Texas 371",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2247890
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/153/0371-01"
+      ]
+    },
+    {
+      "cite": "108 F. 2d 934",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1042025
+      ],
+      "pin_cites": [
+        {
+          "page": "936"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/108/0934-01"
+      ]
+    },
+    {
+      "cite": "84 S.W. 2d 442",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10242834,
+        2298374
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/84/0442-01",
+        "/tex/125/0549-01"
+      ]
+    },
+    {
+      "cite": "125 Texas 549",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2298374
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/125/0549-01"
+      ]
+    },
+    {
+      "cite": "242 S.W. 462",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8260744
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw/242/0462-01"
+      ]
+    },
+    {
+      "cite": "84 S.W. 2d 447",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10242993,
+        2298387
+      ],
+      "pin_cites": [
+        {
+          "page": "452"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/84/0447-01",
+        "/tex/125/0540-01"
+      ]
+    },
+    {
+      "cite": "125 Texas 540",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2298387
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/125/0540-01"
+      ]
+    },
+    {
+      "cite": "259 S.W. 2d 591",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10214947
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw2d/259/0591-01"
+      ]
+    },
+    {
+      "cite": "271 S.W. 2d 798",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2247946,
+        10202460
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/153/0540-01",
+        "/sw2d/271/0798-01"
+      ]
+    },
+    {
+      "cite": "153 Texas 540",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2247946
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/153/0540-01"
+      ]
+    },
+    {
+      "cite": "123 A.L.R. 843",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "131 S.W. 2d 89",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2321162,
+        10229262
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/133/0608-01",
+        "/sw2d/131/0089-01"
+      ]
+    },
+    {
+      "cite": "133 Texas 608",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2321162
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/133/0608-01"
+      ]
+    },
+    {
+      "cite": "108 S.W. 819",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "pin_cites": [
+        {
+          "page": "820"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "101 Texas 405",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2263292
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/101/0405-01"
+      ]
+    },
+    {
+      "cite": "32 L.R.A. (N.S.) 383",
+      "category": "reporters:federal",
+      "reporter": "L.R.A.N.S.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "128 N.W. 43",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "143 Wis. 347",
+      "category": "reporters:state",
+      "reporter": "Wis.",
+      "case_ids": [
+        8699775
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/wis/143/0347-01"
+      ]
+    },
+    {
+      "cite": "210 S.W. 521",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8252732
+      ],
+      "pin_cites": [
+        {
+          "page": "525-526"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw/210/0521-01"
+      ]
+    },
+    {
+      "cite": "180 S.W. 2d 909",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10221184,
+        2340444
+      ],
+      "pin_cites": [
+        {
+          "page": "912"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw2d/180/0909-01",
+        "/tex/142/0669-01"
+      ]
+    },
+    {
+      "cite": "142 Texas 669",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2340444
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/142/0669-01"
+      ]
+    },
+    {
+      "cite": "300 S.W. 2d 623",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2254041,
+        10179554,
+        2254012,
+        10179453
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/157/0182-01",
+        "/sw2d/300/0623-02",
+        "/tex/157/0136-01",
+        "/sw2d/300/0623-01"
+      ]
+    },
+    {
+      "cite": "173 S.W. 2d 503",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10209122
+      ],
+      "pin_cites": [
+        {
+          "page": "508"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw2d/173/0503-01"
+      ]
+    },
+    {
+      "cite": "143 S.W. 2d 912",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2317762,
+        10228174
+      ],
+      "pin_cites": [
+        {
+          "page": "915"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/135/0339-01",
+        "/sw2d/143/0912-01"
+      ]
+    },
+    {
+      "cite": "135 Texas 339",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2317762
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/135/0339-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1238,
+    "char_count": 42436,
+    "ocr_confidence": 0.599,
+    "pagerank": {
+      "raw": 7.58562665383848e-07,
+      "percentile": 0.97067261450378
+    },
+    "sha256": "d0ab72e3670fdc943c94473ca7e2b889b7d1cbd769b27d5bd35f7c68d2931390",
+    "simhash": "1:121ae4376e4bbc4e",
+    "word_count": 7308
+  },
+  "last_updated": "2024-02-27T18:48:18.334778+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "R. E. Smith Et Al v. H. P. Allison Et Al."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Smith\ndelivered the opinion of the Court.\nH. P. Allison and others filed this suit against R. E. Smith and others in trespass to try title to recover an undivided l/4th interest in the oil, gas, and other minerals under the northeast l/4th of Section 124, H. & T.C.R.R. Co. Survey, Block No. 25, in Scurry County, Texas.\nAll parties agree that the statement of the nature of the suit by the Court of Civil Appeals is correct. In the interest of brevity, we state only such facts as we deem necessary to a decision of the questions presented for our determination. The deed, dated March 27, 1941, executed by Bertha B. Clark and delivered to Nedra Neely, conveyed by specific description an undivided % interest in the oil, gas, and other minerals in and under the southeast l/4th and the northwest l/4th of Section 124, Block 25.\nFollowing the specific description of the land under which the interest in the minerals were being conveyed, the deed contains a paragraph reserving to Bertha B. Clark the right to execute all future oil and gas leases on the conveyed minerals, and then in the next paragrahp appears the following general description:\n\u201cThe parties however intend this deed to include and the same is hereby made to cover and include not only the above described land, but also any and all other land and interest in land owned or claimed by the Grantor in said survey or surveys in which the above described land is situated or in adjoining the above described land. Should the foregoing particular description for any reason prove incorrect or inadequate to cover the land intended to be conveyed as above specified grantor agrees to execute such instrument or instruments that may be necessary to correct such particular description.\u201d\nThe petitioners, R E. Smith and others, who claim under subsequent conveyances from Clark, took the \u25a0 position in the trial court that if the description did not, as a matter of law, limit the conveyance to the southeast l/4th and the northwest 1 /4th, then the description was ambiguous, and that Bertha B. Clark intended to convey to Nedra Neely, and did convey to her, only an undivided % interest in the minerals in and under the southeast l/4th and the northwest l/4th of Section 124, and that she did not intend to convey to Nedra Neely any interest in the northeast l/4th of Section 124.\nThe petitioners, R E. Smith and others, further alleged that Mrs. Neely paid Mrs. Clark an agreed consideration of $10.00 per mineral acre for a % interest in the minerals in the southeast and northwest quarters of Section 124, and that Mrs. Neely did not purchase and did not pay Mrs. Clark for any minerals in the northeast l/4th of Section 124.\nAt the time of this conveyance, Mrs. Clark was the owner of the northeast l/4th of Section 124, and Sections 123 and 145, adjoining Section 124, as well as the two one-quarter sections specifically described in the deed.\nA jury found that Mrs. Clark did not intend to convey to Mrs. Neely an undivided % interest in the minerals in the northeast l/4th of Section 124, and judgment was rendered in the trial court for petitioners, R E. Smith and others. The Court of Civil Appeals upheld the judgment of the trial court wherein it held that the deed was ambiguous and that the evidence supported the finding of the jury that it was not the intention of Mrs. Clark to convey any interest in the northeast l/4th to Mrs. Neely, but sustained the contention of respondents, Allison and others, that the trial court erroneously submitted the issue of intention to the jury, in that the issue only inquired as to the intention of Mrs. Clark and did not inquire as to the intention of Mrs. Neely, and that, therefore, the finding of the jury that Mrs. Clark did not intend to convey % of the minerals in the northeast l/4th of Section 124 was insufficient to constitute a basis for judgment of the trial court. For that reason, the judgment was reversed and the case remanded to the trial court for a new trial. 281 S.W. 2d 136.\nBoth parties are petitioners in this court. Smith and others contend that the Clark deed was capable of more than one interpretation, and that evidence of the surrounding facts and circumstances may be looked to for its construction. They further contend that the judgment of the trial court should be affirmed, because in construing the deed it is the ultimate purpose to ascertain the intention of the grantor, and, further, because the granting clause in the deed from Bertha B. Clark to Nedra Neely limits, as a matter of law, the % interest in the minerals conveyed to the land particularly described in the deed, plus any strips of land adjoining and a part thereof, but not embraced within the particular description.\nThe petitioners-respondents Allison and others present twenty points all of which present and preserve their paramount point that the deed unambiguously conveyed the l/4th mineral interest in the northeast l/4th of Section 124.\nWe have concluded to sustain the contention of petitioners, Smith and others, and affirm the judgment of the trial court. That portion of the general description reading:\n\u201cThe parties however intend this deed to include and the same is hereby made to cover and include not only the above described land, but also any and all other land * * * owned * * * by the Grantor in said survey (124) * * * in which the above described land (NW l/4th and SE l/4th) is situated or in adjoining the above described land. * * * \u201d\nis ambiguous for two reasons:\n(1) To adopt the contention of the petitioners-respondents, Allison and others, the deed, even though they now only claim an undivided y% of the minerals in the northeast l/4th of Section 124, would convey the full fee simple title to Mrs. Neely.\n(2) Even though the petitioners-respondents, Allison and others, assert they are not claiming any interest in Sections 123 and 145, the fact remains that the general description does not limit the conveyance to minerals in Section 124, but conveys the land. The granting clause, the habendum clause, and the warranty clause refer only to minerals.\nA deed ambiguous by its terms cannot be rendered unambiguous by the mere assertion in the lawsuit that no claim is being made to the land that Mrs. Clark testified she did not intend to convey petitioners-respondents, Allison and others, contend that whether the deed might be construed to cover the whole interest is wholly immaterial in view of their non-claim to the fee, except y\u00bf of the minerals in the northeast !/4th We hold that the ambiguity is found in a material portion of the deed, and that parol evidence was admissible to explain the intention of the grantor, Mrs. Clark, when she executed the deed. The facts show that Mrs. Clark did not intend to convey any interest in the northeast l/4th of Section 124.\nThe petitioners-respondents, Allison and others, rely upon the case of San Antonio Machine & Supply Co. v. Allen, Com. App., 284 S.W. 542, to support their contention that parol evidence is inadmissible to vary the unambiguous terms of a deed. In that case, which was a suit by Allen to recover commissions, the court, among other things, simply held that parol evidence was inadmissible to vary a nunambiguous, independent provision for payment of commission on sales, in absence of controversy as to \u201cterritory\u201d involved.\nIn our case, the deed under question contains material inconsistent provisions that render it uncertain as to the property conveyed. The deed grants % of the minerals in two specifically described sections, and although the granting clause, habendum clause, and warranty clause confine the conveyance to minerals, yet, the general description fails to limit the conveyance to minerals in the northeast l/4th and Section 123 and 145. These recitations clearly indicate an inconsistency between the general description and the descriptive matter identifying the particular tracts described and mentioned in the deed.\nThe Allisons and others rely upon the case of Laucheimer & Son v. Saunders, 27 Texas Civ. App. 484, 65 S.W. 500. In that case the deed of trust and deed described certain parcels of land conveyed, and also contained a general clause to the effect that it was the intention of \u201cSaunders\u201d to convey all of his real estate in Coryell County, whether described or not, except his homestead. The court in that case refused to uphold the contention that special mention and description of particular tracts or parcels of land could be construed as a restriction and limitation upon the other intention, as indicated by the general description conveying all other lands not described. The court held that there was no repugnancy between the two matters of description, and reconciled the two descriptions \u201cupon the theory in accord with the grantor\u2019s evident intention to convey the particular tracts mentioned, and also all other lands.\u201d In that case the \u201cevident intention\u201d of the grantor was determined from the unambiguous terms of the deed. In the present case we are unable to reconcile recitations of a conveyance of fee simple title to land by general description with a conveyance of only the minerals in the land particularly described.\nThe petitioners-respondents, Allison and others, contend that the general description is meaningless if we fail to hold that it conveys the northeast l/4th, or, to put it another way, it is meaningless if we hold that the deed is ambiguous and that it was proper to permit Mrs. Clark to testify that she did not intend to convey any interest in the northeast l/4th, and that she received only $1600.00 in consideration for the l/g of the minerals in the two tracts particularly described. They take the further position that no competent extraneous evidence was introduced to show that it was Mrs. Clark\u2019s intention to convey nothing in the northeast l/4th, and, that the deed is unambiguous, and, therefore, was sufficient to convey to Mrs. Neely the % interest in the minerals in the northeast l/4th now claimed by them.\nIn addition to the facts heretofore pointed out, the record shows that on March 27, 1941, the date of the Clark-Neely deed, Mrs. Clark owned the southeast l/4th, the northwest 1 /4th, and the northeast l/4th of Section 124, comprising 480 acres of land and she owned Section 123, comprising 640 acres of land and Section 145, comprising 640 acres of land; that the tracts of land were adjoining, as shown in the plat below:\nThis area printed in red in original\nThis area printed in green in original\nThe record further shows that Mrs. Clark did not prepare the deed, and Mrs. Clark testified (she was not a party to this suit) that she had never seen Mrs. Neely and did not know where she lived and did not know where she resided at the time of the trial; that she (Mrs. Clark) lived on Section 123 on the date of the deed, and farmed and grazed stock on all the land; that no one ever asked her to execute another instrument to add the northeast l/4th of Section 124 to the specific or particular description in the deed of March 27, 1941.\nMrs. Clark remained in possession of the land from the time she made the deed to Mrs. Neely until she conveyed the north half (N% )of Section 124 to Marvin Key on January 31, 1944.\nThe testimony was admissible and was competent to show that Mrs. Clark did not intend to convey the northeast l/4th of Section 124, being 160 acres in the form of a square, neither did she intend to convey the two sections of 640 acres each adjoining Section 124. The deed under consideration must necessarily be considered in its entirety in determining the question of whether or not it is ambiguous. We cannot discard or ignore any part of the description in arriving at a conclusion of the question.\nThe petitioners-resp ondents, Allison and others, further contend that even if the deed was ambiguous, the evidence failed to raise the ultimate fact issue that by the deed dated March 27, 1941, Mrs. Neely did not intend to acquire any interest in the minerals in the northeast 1/4 of Section 124. In the same connection, they contend that the issue which was submitted did not properly submit the question of intent, in that it failed to inquire as to the intent of Mrs. Neely. With this we cannot agree.\nThis is not a suit for reformation of the deed. The rules of law applicable to the construction of a deed capable of more than one interpretation and the rule applicable to suits to reform instruments are different. As to the latter, it is necessary that all parties to the instrument intended to enter into a contract different from that which they executed, or that one party was induced to execute the contract by the fraud of the other. The cases relied upon by the Allisons, beginning with Sun Oil Co. v. Bennett, 125 Texas 540, 84 S.W. 2d 447, were suits to reform.\nIn the Bennett case, the Bennetts alleged in their supplemental petition that if the tract of 2.59 acres was covered by the Sun lease, then it was incorporated as the result of a mutual mistake, etc. The court discusses the effect of the only issue submitted to the jury, and the answer thereto. The issue was:\n\u201cDo you find * * * that it was mutually intended and agreed between Malinda Schuyler and J. H. Liles that the lease which was executed by Malinda Schuyler and Horace Schuyler in favor of the Sun Oil Company should cover and affect the 2.59 acre tract in question\u201d\nThe jury answered \u201cNo.\u201d\nThe court held that the finding was not tantamount to a finding that the inclusion of the 2.59-acre tract was the result of a mutual mistake. The Court of Civil Appeals (77 S.W. 2d 1086) held that the jury\u2019s answer to the issue submitted was not a finding of mutual mistake and did not authorize reformation of the lease. The Commission of Appeals in approving this holding said:\n\u201cThe jury merely found that both parties to the lease did not intend and agree that it should cover and affect the tract in controversy. This finding does not negative the existence of an intention on the part of one of the parties that the lease include the tract. If one of the parties intended that the lease cover and affect adjoining land owned by the lessor, there was no mutual mistake in the execution of the lease containing language which included such land. In the absence of fraud or inequitable conduct, a written instrument will not be reformed on account of mistake unless the mistake is mutual; that is, a mistake common to both parties, both laboring under the same misconception in respect to the terms of the instrument.\u201d\nAs heretofore stated, this is not a suit for reformation of the deed based on mutual mistake, accident, or fraud. Smith and others alleged as a defense that the deed was ambiguous and that it was not the intention of Mrs. Clark to convey the square of 160 acres, or any other interest in the minerals in the northeast l/4th of Section 124. They assumed the burden of proof on this question, and the issue contained in the charge was so framed as to place the burden upon them to establish such contention. It is true that there is no evidence in the record as to the intention of Mrs. Neely, but the absence of such proof does not minimize the weight and effectiveness of the testimony given in support of the issue submitted.\nThe ultimate purpose in construing a deed is to ascertain the intention of the grantor, and when this intention is ascertained, that construction which carries the intention into effect, when such intention is lawful, governs and controls. See Arab Corporation v. Bruce, 142 F. 2d 604; Gibbs v. Barkley, Texas Com. App., 242 S.W. 462, 464; Alexander v. Byrd, Texas Civ. App., 114 S.W. 2d 915; W. T. Carter & Bros. v. Davis, 88 S.W. 2d 597, er. dism., Kennedy v. Shipp, Texas Civ. App., 135 S.W. 2d 204, er. dism.; judgment correct.\nAllison and others present another contention to the effect that ambiguity cannot turn on the number of additional acres owned by Mrs. Clark in the survey, and that the deed was unambiguous and that \u201cAll the land owned by a person in Survey X means all the land owned by such person in Survey X, whether it be 10 acres, 160 acres, or 640 acres.\u201d\nObviously, there was a purpose in inserting the general description in the deed. Allison and others rely upon the Bennett case to support their principal contention, but contend that the language in that opinion wherein the court stated: \u201cIt\u2019s (general description) apparent reasonable purpose is to prevent the leaving of small unleased pieces or strips of land, like the tract here in controversy, which may exist without the knowledge of one or both of the parties by reason of incorrect surveying, careless location of fences, or other mistakes.\u201d See Sun Oil Co. v. Bennett, supra.\nUnder the record in the present case, the purpose as stated in the Bennett and other cases is the only reasonable purpose for inserting the general description in the deed. For other cases holding that similar general descriptions have been construed to cover small excess acreage tracts see: Sun Oil Co. v. Burns, 125 Texas 549, 84 S.W. 2d 442; Cantley v. Gulf Production Company, 135 Texas 339, 143 S.W. 2d 912, 915.\nHonorable Wilmer D. Masterson, Professor of Law, Southern Methodist University, in the Fourth Annual Institute on Oil and Gas Law and Taxation, in commenting on the purpose of such a clause as we have here, said that the clause is frequently found in lease forms, but infrequently in mineral grants, and that its purpose was to pick up strips to which the grantor has acquired limitation title.\nIn the case of the State v. Arnim, Texas Civ. App., 173 S.W. 2d 503, er. ref. w.o.m., the court said:\n\u201c* * * There are, however, certain principles of public policy involved in land conveyancing. One is that which tends to discourage separate ownership of narrow strips of land. Such strips are of course subject to ownership and when an intention by a grantor to retain or except such a strip out of a conveyance is expressed or made clear, his intention will be respected by the courts, but where such intention is not discernible from the language employed in the conveyance, the presumption is that the grantor acted in accordance with the established public policy of the State and did not intend to retain ownership of a narrow strip of land that would be of no value or of very slight benefit to him. * * *\u201d\nSince we have held that the deed is ambiguous, and that the true intent of the grantor was not to convey any interest in the northeast l/4th of Section 124, and that the issue upon intent was correctly submitted to the jury, and that the only reasonable reason for inserting the general description in the deed was for the purpose as stated above in quoting from the Bennett case, it follows that the judgment of the Court of Civil Appeals in so far as it reverses and remands the case to the trial court should be reversed and the judgment of the trial court affirmed. In all other respects the judgment of the Court of Civil Appeals should be affirmed.\nThe judgment of the Court of Civil Appeals is reversed in part and affirmed in part, and that of the trial court is affirmed.\nOpinion delivered December 12, 1956.",
+        "type": "majority",
+        "author": "Mr. Justice Smith"
+      },
+      {
+        "text": "Mr. Justice McCall\nconcurring in the result.\nI concur in the result reached by the Court herein. Like my brethren I do not want to hold that the \u201cMother Hubbard\u201d clause in this instrument conveyed the quarter section of land not specifically described therein. However, I am unable to see the ambiguity that they have found, and the more closely I look the more firmly I am convinced that it is not there. Rather than conjure up such an ephemeral ambiguity with disappearing qualities I would reach the same result by applying a rule of construction as follows:\nWhen such a \u201cMother Hubbard\u201d provision is used alone in an instrument, it conveys all the land owned by the grantor within the designated survey, county, city or other area. But when such a provision follows the description of a specific tract or tracts, it is ordinarily the purpose of such provision to bring within the conveyance small strips of land bordering the described tract or tracts which may not be included because of faulty description or may have been acquired by adverse possession. Under these circumstances the \u201cMother Hubbard\u201d provision should be considered as supplemental to the specific description of the particular tract which is the primary subject of the conveyance, and such provision should not be regarded as an independent description of any tract wholly separate and distinct from the particularly described tract unless the parties have clearly indicated in the instrument that such was their intention.\nIn speaking of the maxim of construction known as ejusdem generis, Judge Sibley in Phillips v. Houston National Bank, Houston, Texas, (C.C.A., Texas) 108 F. 2d 934, 936, stated: \u201cIt serves to prevent general words, loosely used in connection with specific terms, from extending the operating of the instrument into a field not really intended.\u201d\nWhile the instant case does not fall within the application of the doctrine of ejusdem generis, the same principle and policy should be applied to the general terms of such \u201cMother Hubbard\u201d provision when used with specific description so that such general terms will not extend the operation of the instrument as to lands not really intended to be conveyed.\nOpinion delivered December 12, 1956.\nON REHEARING\nMr. Justice Smith\ndelivered the opinion of the Court.\nIn our original opinion we said that, \u201cthe ultimate purpose in construing a deed is to ascertain the intention of the grantor, and when this intention is ascertained, that construction which carries the intention into effect, when such intention is lawful, governs and controls.\u201d This statement of law is entirely correct when applied to the facts in Gibbs v. Barkley, 242 S.W. 462, Com. App., judgment adopted, for there the Court was concerned with the construction of a deed of gift. In such a case only the intention of the grantor is material and that intention alone controls. Likewise the same was true in Kelly v. Womack, 153 Texas 371, 268 S.W. 2d 903.\nBut upon further consideration we have concluded that the correct rule to be followed in the construction of a deed passing from a seller to a buyer for a valuable consideration is rather that the intention of the parties is to be ascertained. This must be true because the deed purports to express a bilateral agreement. It is to evidence a meeting of the minds of both parties as to the property intended to be conveyed and paid for. Rio Bravo Oil. Co. v. Weed, 121 Texas 427, 50 S.W. 2d 1080, 85 A.L.R. 391; Totton v. Smith, 131 Texas 219, 113 S.W. 2d 517; Bumpass v. Bond, 131 Texas 266, 114 S.W. 2d 1172; Humble Oil & Refining Co. v. Ellison, 134 Texas 140, 132 S.W. 2d 395; Humble Oil & Refining Co. v. Mullican, 144 Texas 609, 192 S.W. 2d 770; Superior Oil Co. v. Stanolind Oil & Gas Co., 150 Texas 317, 240 S.W. 2d 281.\nWhile, therefore, the submission by the trial court of the issue inquiring as to the intent only of the grantor was error, in the light of all of the facts and circumstances, neverthless we thing the error was harmless.\nIn the first place there is no conflict in the testimony. All of the facts and circumstances are without dispute. There is no fact or circumstance tending to show that the intention of the grantee in this mineral deed was in any respect different to that of the grantor. The finding of the jury that Mrs. Clark did not intend to convey to Mrs. Neely an undivided one-half interest in the minerals in the northeast one-quarter of Section 124 would be tantamount to a finding that this was also the intention of the parties. Under the evidence the intention of the grantee must have been the same as that of the grantor.\nIn the second place, and probably more important and conclusive, we are of the opinion that under the facts and circumstances of this case and quite aside from the subjective testimony of the grantor, Mrs. Clark, that she did not intend to convey the mineral interest in the northeast quarter, the intention of the parties becomes a question of law for the reason there is no evidence that would support a jury finding that the parties did intend by this instrument that the northeast quarter or one-half of the minerals thereunder be sold and conveyed by Mrs. Clark to Mrs. Neely.\nMrs. Sullenger, formerly Mrs. Clark, testified, in effect, that the consideration for the sale was $1600.00 at the rate of $5.00 per acre. Her testimony was as follows:\n\u201cQ. Mrs. Sullenger how much did you receive for the undivided one-half of the minerals?\n\u201cA. $10.00 per acre.\n\u201cQ. In this 320 acres?\n\u201cA. $10.00 per acre.\n\u201cQ. About $10.00 per mineral acre?\n\u201cA. That is right.\n\u201cQ. It would be $5.00 for the one-half interest per acre. Is that right?\n\u201cA. That is right.\n\u201cQ. And that makes a total of how much?\n\u201cA. $1600.00, is that right?\n\u201cQ. $1600.00 was what you received, wasn\u2019t it?\n\u201cA. Yes.\u201d\nShe was paid $1600.00 and the two quarter sections particularly described comprise 320 acres. At the time of this transaction Mrs. Clark owned not only the southeast, northwest, and northeast quarters of Section 124, but also owned Sections 123 and 145, all included in H. & T. C. Surveys. Although the petitioners here are claiming no interest in these two adjoining sections, nevertheless if by the terms of the \u201cMother Hubbard\u201d clause one-half of the minerals in the norths east quarter of Section 124 is conveyed, we can see no reason why the deed would not likewise convey at least one-half of the minerals under the two adjoining sections. As said by the Court of Civil Appeals, \u201cIt is evident Mrs. Clark did not intend to convey all land owned by her adjoining the two quarter sections specifically described.\u201d\nIn the Sun Oil Co. v. Bennett, 125 Texas 540, 84 S.W. 2d 447, 452, the Court was called upon to construe an almost identical clause and in holding that the deed thereby conveyed a 2.59 acre tract not included within the particular description, said:\n\u201c* * * Its (the general or Mother Hubbard clause) apparent reasonable purpose is to prevent the leaving of small unleased pieces or strips of land, like the tract here in controversy, which may exist without the knowledge of one or both of the parties by reason of incorrect surveying, careless location of fences, or other mistake.\u201d\nWe have found no other case in which this Court has applied any other rule or has construed such a clause to convey large bodies of land in addition to that specifically described and surely not so where the clause was held to convey considerably more land than that specifically described. See also Gulf Production Co. v. Spear, 125 Texas 530, 84 S.W. 2d 452; Sun Oil Co. v. Burns, 125 Texas 549, 84 S.W. 2d 442.\nTo give the ultimate effect contended for by the respondents would result in the conveyance of one-half the minerals under the 320 acres particularly described and additionally the conveyance by the general catch-all clause of one-half of the minerals under 1400 acres. This result just does not comport with ordinary custom or practice, and we think the parties here could have had no such intention.\nThe general clause also recited that:\n\u201cShould the foregoing particular description for any reason prove incorrect or inadequate to cover the lands intended to be conveyed as above specified, grantor agrees to execute such instrument or instruments that may be necessary to correct such particular description.\u201d\nThe question naturally arises why the need for this provision, and how could resort thereto ever become proper or necessary if the general clause is to be relied upon as conveying all of the land owned by Mrs. Clark within the section 124 and adjoining sections. How would the need for the correction of the particular description ever come about if the parties did not intend to contract only with respect to the lands particularly described and to such small strips or tracts that could properly be said to constitute a part of those tracts? No one ever asked Mrs. Clark to revise or correct this deed in any respect.\nAnother fact, showing the intention of the parties, is that contemporaneously with the deed in question Mrs. Clark executed oil and gas leases to the same grantee, Mrs. Neely, which covered the southeast and the northwest quarters of Section 124 and no more.\nThe deed provides \u201cthis conveyance is made subject to any valid and subsisting oil, gas or other mineral lease or leases on said land, including also any mineral lease, if any, heretofore made or being contemporaneously made from grantor to grantee.\u201d The meaning thus attributed in these leases to the term \u201csaid land\u201d is that it embraces only the two quarter sections particularly described in the deed.\nWe conclude from a consideration of the entire deed that the intention of the parties was to convey only that land particularly described and any strips or small tracts that might have been contiguous or been said to constitute a part of the described tracts and that the clause did not serve to convey the northeast quarter or the minerals thereunder.\nOur former opinion is modified to the extent as herein stated and in all other respects the motion for rehearing is overruled.\nAssociate Jutice Nor veil not sitting.\nOpinion delivered April 24, 1957.",
+        "type": "concurrence",
+        "author": "Mr. Justice McCall Mr. Justice Smith"
+      },
+      {
+        "text": "Mr. Justice Calvert joined by Justice Walker,\ndissenting on rehearing.\nWhen judgment was entered by this court in this case and the opinions by Associate Justices Smith and McCall were filed on December 12, 1956, we noted our concurrence in the result. The reason for that notation was that we did not agree with either opinion on the principal question discussed, to wit, the proper construction of the mineral deed executed by Bertha B. Clark.\nWe did not agree with the majority opinion because we do not believe the language of the deed gives rise to a patent ambiguity such as is found by the majority to exist. We did not agree with the concurring opinion filed by Justice McCall because the ultimate effect of so limiting the operative effect of a \u201cMother Hubbard\u201d clause is, for all practical purposes, to render it meaningless. This will be so because a deed conveying land specifically described and containing no \u201cMother Hubbard\u201d clause will, in the absence of a clear expression of a contrary intention, operate to convey small strips of land bordering the described tract or tracts. Strayhorn v. Jones, 157 Texas ________, 300 S.W. 2d 623; Cantley v. Gulf Production Co., 135 Texas 339, 143 S.W. 2d 912, 915; State v. Arnim, Texas Civ. App., 173 S.W. 2d 503, 508, writ ref. w.o.m.\nStated briefly, our theory of the proper construction of the Clark deed is this: Sun Oil Co. v. Burns and Sun Oil Co. v. Bennett, cited in the majority opinion, make clear that the normal and usual purpose of a \u201cMother Hubbard\u201d clause in an instrument of conveyance is to make certain that the instrument conveys small strips of land bordering the described tract or tracts. When we undertake to apply the language of the Clark deed to the subject matter on which it operates we discover that if given its literal meaning it will accomplish a result wholly at odds with its normal and usual purpose in that in addition to the property specifically described and any small bordering strips it will operate to convey Sections 123 and 145 and the northeast l/4th of Section 124 of the H. & T. C. Ry. Co. Survey, Block 25. This situation may not give rise to the classic type of latent ambiguity noted in Harrison v. Manvel Oil Co., 142 Texas 669, 180 S.W. 2d 909, 912, but it fits precisely the rule approved in First National Bank of Amarillo v. Rush, Texas Com. App., 210 S.W. 521, 525-526, where the court quoted from Kleuter v. Joseph Schlitz Brewing Co., 143 Wis. 347, 128 N.W. 43, 32 L.R.A. (N.S.) 383, as follows: \u201c* * * The words of a contract, in themselves, may be plain, yet, when applied to the situation with which it deals, not plain, the literal sense leading to such unreasonableness as to suggest that the parties probably did not so intend. In so applying the contract, oral testimony is generally necessary and permissible to the end that the full scope of the situation dealt with may be observed. * * *\u201d See also Smith v. Texas & N. O. R. Co., 101 Texas 405, 108 S.W. 819, 820, where it is said: \u201c* * * It is an elementary rule that parole evidence is not admissible to vary the terms of a written contract. But when we come to apply the description of property in a conveyance, an ambiguity or a doubt is disclosed as to whether the property is embraced within the description, a different rule obtains, and it is permissible to prove by oral testimony what property the parties meant to embrace. * * *\u201d Based on the foregoing authorities we conclude that there is a latent ambiguity in the Clark deed authorizing the receipt of parol evidence to show the true intention of the parties.\nThe difference between our suggested approach to the problem and that suggested by Justice McCall is this: whereas under Justice McCall\u2019s approach a \u201cMother Hubbard\u201d clause would never operate to convey more than small strips bordering the land specifically described \u201cunless the parties have clearly indicated in the instrument that such was their intention,\u201d under our approach the court would apply the language of the deed or lease to the subject matter thereof and would thus ascertain what property, other than that specifically described, would be conveyed by the \u201cMother Hubbard\u201d clause if it were given effect according to its literal terms. If it then appeared that the clause would operate to convey more than small strips bordering the lands specifically described extrinsic evidence would be admitted for the purpose of ascertaining the intention of the parties. The clause would then be held to convey all lands which the evidence established the parties intended it to convey.\nOn further consideration of the other questions discussed in the majority opinions, we have now concluded that we cannot concur in the result reached but must dissent therefrom. The only issue submitted to the jury inquired whether the grantor intended to convey an undivided one-half interest in the minerals under the northeast quarter of the section. An explanatory instruction submitted in connection with the issue advised the jury that the word \u201cintent\u201d means the purpose a person has in mind as gathered from the contents of the instrument considered in the light of the surrounding facts and circumstances. Respondents objected to the issue on the ground that a negative answer would not support a judgment for petitioners and that the issue should inquire as to the intention of the parties.\nWe agree with the majority opinion on rehearing that the ultimate purpose in construing a conveyance, other than a deed of gift, is to ascertain and give effect to the intention of the parties. Since this \u201cintention\u201d must be gathered from the language of the instrument considered in the light of the circumstances under which it was executed, the difference between intention of the grantor and intention of the parties is perhaps of little consequence when the deed is construed by the Court. The difference becomes important, however, when the issue is to be determined by the jury as the trier of fact.\nIn the present case the grantor was permitted to testify over respondent\u2019s objection that she intended to convey by the deed in question one-half of the minerals under 320 acres of land, and that she did not intend to convey any interest in the minerals under the northeast quarter of the section. This is not an equitable proceeding, and subjective intent of either of the parties, as distinguished from their intention as expressed by the language of the instrument, should not be considered for any purpose. But the issue submitted to the jury, by which they were required to determine only the grantor\u2019s intention, was nothing less than an invitation to consider her subjective intent as disclosed by the testimony mentioned. If the issue had been properly submitted, the jury would have been in much better position to understand the full import of the explanatory instruction. We are in agreement then with the conclusion of the majority on rehearing that the submission of the issue was error.\nThe majority reason, however, that the error was harmless because the evidence shows as a matter of law that the parties intended to convey only one-half of the minerals under the land specifically described in the deed. With this conclusion we do not agree. If the undisputed evidence showed that the parties had agreed on a price of $10.00 per mineral acre and that the grantor received a total of $1600.00, it would not be difficult to say that they intended the deed to convey only one-half of the minerals under 320 acres of land. The testimony of the grantor quoted in the majority opinion is not susceptible to this construction. The witness had just stated that she intended to convey one-half of the minerals under 320 acres of land. She then testified that she \u201creceived\u201d $10.00 per acre for one-half of the minerals under the 320 acres, or a total of $1600.00. This establishes only that the consideration for the conveyance was $1600.00, and that to obtain that amount received per mineral acre the witness simply divided the total consideration by the number of mineral acres she intended to convey. The record is completely silent as to the negotiations and agreements leading up to the execution of the deed, and it is impossible to determine whether the parties ever discussed or agreed upon a price by the acre.\nIt is difficult to understand how the contemporaneous oil and gas leases throw any light on the question. The deed, which is not mentioned in either of the leases, does not purport to convey an interest in the minerals under the same land covered by the leases, but simply recites that it is subject to all valid leases, including any contemporaneously made from the grantor to the grantee. The majority seem to assume, without any basis either in law or in fact, that whenever a mineral deed is executed contemnoraneously with one or more oil and gas leases, the parties always intend the instruments to cover the same land.\nThe majority also reason that to give the \u201cMother Hubbard\u201d clause the effect contended for by respondents would result in the conveyance of one-half of the minerals under 1400 acres in addition to the two quarter-sections particularly described in the instrument. By citing this as a circumstances which requires a construction of the deed in favor of petitioners, the majority now appears to be inclining toward some of the views expressed in the concurring opinion of Justice McCall.\nAs pointed out above, it is our opinion that an application of the language of the deed to the land owned by the grantor at the time of its execution leads to such an unreasonable result that parol evidence should be admitted to show the true intention of the parties. It should not be said, however, that this court will not give effect to the plain provision of a contract or conveyance simply because it may appear to lead to an unreasonable result. Parties should be free to contract in what we may regard as an unusual manner and for an unreasonable result if they so desire. In Holloway\u2019s Unknown Heirs v. What-ley, 133 Texas 608, 131 S.W. 2d 89, 123 A.L.R. 843, a deed purporting to convey three tracts particularly described therein and providing that \u201cif there is any other land owned by me in Liberty County, Texas, or any land, the title to which stands in my name, it is hereby conveyed, the intention of this instrument being to convey all land owned by me in said County,\u201d was held to convey a mineral interest previously reserved by the grantor in three other tracts of land. The result of adopting the construction urged by respondents in the present case appears to us no more unreasonable than the holding of the cited case.\nEntirely aside from these considerations, it is our opinion that the record in this case contains evidence which affirmatively raises an issue of fact for the jury. Barker v. Coastal Builders, Inc., 153 Texas 540, 271 S.W. 2d 798, was an action to reform a deed so as to except a small tract which the grantor claimed had been included through mutual mistake. The Court of Civil Appeals (259 S.W. 2d 591) held that the mistake was proved as a matter of law. This court reversed the judgment of the Court of Civil Appeals and affirmed that of the trial court. The following two reasons were given for our holding that the evidence raised an issue of fact for the jury: (1) all of the testimony regarding the agreement to reserve the tract in controversy came from an interested witness; (2) \u201cThe testimony as to the reservation is contradicted by each and every written instrument in the record, affecting the transaction.\u201d\nIf the language of the instrument was regarded as significant in the Coastal Builders case, we are unable to see how the provisions of the deed can be entirely disregarded in the present case. Regardless of differences of opinion as to the effect of other evidence in the case, the fact remains that the deed contains language which, if given its usual and literal meaning, would convey an interest in the minerals under the northeast quarter of the section. The language of the instrument itself thus contradicts the majority holding. Unless the Coastal Builders \u2022 case is distinguished or overruled, neither of which we are able to do, it is our opinion that the provisions of the deed should be held to raise an issue of fact for the jury.\nWe would affirm the judgment of the Court of Civil Appeals remanding the cause for a new trial.\nOpinion delivered April 24, 1957.\nSecond Motion for rehearing overruled May 29, 1957.",
+        "type": "dissent",
+        "author": "Mr. Justice Calvert joined by Justice Walker,"
+      }
+    ],
+    "attorneys": [
+      "Parker & Hemphill, Sentell & Rosser, all of Snyder, Bryan, Suhr & Bering, W. N. Finnegan, III, and E. H. Suhr, all of Houston, for petitioners, R. E. Smith and others.",
+      "Snodgrass & Smith, Neill, Blanks, Lewis & Logan and Glenn R. Lewis, all of San Angelo, and David W. Stephens, of Ft. Worth, for respondents, H. P. Allison and others."
+    ],
+    "corrections": "",
+    "head_matter": "R. E. Smith Et Al v. H. P. Allison Et Al.\nNo. A-5458.\nDecided December 12, 1956.\nRehearing overruled April 24, 1957.\nSecond rehearing oven tied May 29, 1957.\n(301 S.W. 2d Series 608.)\nParker & Hemphill, Sentell & Rosser, all of Snyder, Bryan, Suhr & Bering, W. N. Finnegan, III, and E. H. Suhr, all of Houston, for petitioners, R. E. Smith and others.\nSnodgrass & Smith, Neill, Blanks, Lewis & Logan and Glenn R. Lewis, all of San Angelo, and David W. Stephens, of Ft. Worth, for respondents, H. P. Allison and others."
+  },
+  "file_name": "0220-01",
+  "first_page_order": 236,
+  "last_page_order": 256
+}

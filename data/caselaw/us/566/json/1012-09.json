@@ -1,0 +1,59 @@
+{
+  "id": 12220555,
+  "name": "Whitmore v. Louisiana",
+  "name_abbreviation": "Whitmore v. Louisiana",
+  "decision_date": "2012-05-21",
+  "docket_number": "No. 11-9338",
+  "first_page": "1012",
+  "last_page": "1012",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1012"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.609,
+    "sha256": "3915b4c97835254eb8ee48a0fc2640648d0ce48799a162962ee30d2ccab26b88",
+    "simhash": "1:157ac2f1bb2e964a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Whitmore v. Louisiana."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. La., 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9338.\nWhitmore v. Louisiana."
+  },
+  "file_name": "1012-09",
+  "first_page_order": 888,
+  "last_page_order": 888
+}

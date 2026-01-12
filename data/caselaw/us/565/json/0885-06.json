@@ -1,0 +1,59 @@
+{
+  "id": 12215202,
+  "name": "Latham v. Palin et al.",
+  "name_abbreviation": "Latham v. Palin",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5009",
+  "first_page": "885",
+  "last_page": "885",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 885"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.687,
+    "sha256": "6cb72a7ee87282df11cdbf193f0ace072a43711318b114d06ddd3cb98a5ffa2d",
+    "simhash": "1:61ea9a0497401202",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Latham v. Palin et al."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Alaska. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5009.\nLatham v. Palin et al."
+  },
+  "file_name": "0885-06",
+  "first_page_order": 967,
+  "last_page_order": 967
+}

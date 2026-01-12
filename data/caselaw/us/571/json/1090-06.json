@@ -1,0 +1,68 @@
+{
+  "id": 12699862,
+  "name": "ALICE CORPORATION PTY. LTD., petitioner, v. CLS BANK INTERNATIONAL, et al.",
+  "name_abbreviation": "Alice Corp. v. CLS Bank Int'l",
+  "decision_date": "2013-12-06",
+  "docket_number": "No. 13\u2013298.",
+  "first_page": "1090",
+  "last_page": "1090",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 1090"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 590"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 734"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 31,
+    "char_count": 240,
+    "sha256": "2930433366507971a81c5d91a1937cbd9bcad85f2bb6daaf83116224e1bfc3d6",
+    "simhash": "1:622fc05d3e84132b",
+    "word_count": 39
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "ALICE CORPORATION PTY. LTD., petitioner,\nv.\nCLS BANK INTERNATIONAL, et al."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of certiorari to the United States Court of Appeals for the Federal Circuit granted."
+    ],
+    "corrections": "",
+    "head_matter": "ALICE CORPORATION PTY. LTD., petitioner,\nv.\nCLS BANK INTERNATIONAL, et al.\nNo. 13-298.\nSupreme Court of the United States\nDec. 6, 2013.\nPetition for writ of certiorari to the United States Court of Appeals for the Federal Circuit granted."
+  },
+  "file_name": "1090-06",
+  "first_page_order": 1090,
+  "last_page_order": 1090
+}

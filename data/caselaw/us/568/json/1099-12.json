@@ -1,0 +1,59 @@
+{
+  "id": 12428391,
+  "name": "Arceneaux v. Texas",
+  "name_abbreviation": "Arceneaux v. Texas",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-6889",
+  "first_page": "1099",
+  "last_page": "1099",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1099"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 78,
+    "ocr_confidence": 0.592,
+    "sha256": "92cbd18f9be7fe5700a7e82e7f8a5c57d9cdc576419239c47b629c5e63fed71f",
+    "simhash": "1:98339bd3cec9e682",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Arceneaux v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Tex., 10th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6889.\nArceneaux v. Texas."
+  },
+  "file_name": "1099-12",
+  "first_page_order": 1175,
+  "last_page_order": 1175
+}

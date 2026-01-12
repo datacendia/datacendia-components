@@ -1,0 +1,59 @@
+{
+  "id": 5985589,
+  "name": "Williams v. Potter, Postmaster General",
+  "name_abbreviation": "Williams v. Potter",
+  "decision_date": "2010-12-13",
+  "docket_number": "No. 10-7357",
+  "first_page": "1115",
+  "last_page": "1115",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1115"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 87,
+    "ocr_confidence": 0.556,
+    "sha256": "10da13cf7b98f312f844797fa5743f0f53f11e4a354bbf5e06791117d71c8aaa",
+    "simhash": "1:0703262021bc404f",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. Potter, Postmaster General."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7357.\nWilliams v. Potter, Postmaster General."
+  },
+  "file_name": "1115-07",
+  "first_page_order": 1137,
+  "last_page_order": 1137
+}

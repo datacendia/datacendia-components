@@ -1,0 +1,59 @@
+{
+  "id": 12418139,
+  "name": "Francois v. New York",
+  "name_abbreviation": "Francois v. New York",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-5541",
+  "first_page": "946",
+  "last_page": "946",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 946"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 96,
+    "ocr_confidence": 0.671,
+    "sha256": "76cdddd7eea5adf9423286830f873709643bc49c6467e5f893b4245530d0a6bd",
+    "simhash": "1:68d0e14821308950",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Francois v. New York."
+    ],
+    "opinions": [
+      {
+        "text": "App. Div., Sup. Ct. N. Y., 1st Jud. Dept. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5541.\nFrancois v. New York."
+  },
+  "file_name": "0946-01",
+  "first_page_order": 1022,
+  "last_page_order": 1022
+}

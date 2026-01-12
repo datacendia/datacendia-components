@@ -1,0 +1,59 @@
+{
+  "id": 5965003,
+  "name": "In re Discipline of Ford",
+  "name_abbreviation": "In re Discipline of Ford",
+  "decision_date": "2010-11-15",
+  "docket_number": "No. D-2585",
+  "first_page": "1040",
+  "last_page": "1040",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1040"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 39,
+    "char_count": 281,
+    "ocr_confidence": 0.584,
+    "sha256": "4e4d7a1ee5c6306547e20bcedf6376b40a386957a5656987640aea3c11818245",
+    "simhash": "1:2d8a73be3feab72a",
+    "word_count": 51
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Ford."
+    ],
+    "opinions": [
+      {
+        "text": "Stephen Edward Ford, of Algonquin, Ill., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2585.\nIn re Discipline of Ford."
+  },
+  "file_name": "1040-07",
+  "first_page_order": 1062,
+  "last_page_order": 1062
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12219039,
+  "name": "Hargrove v. United States",
+  "name_abbreviation": "Hargrove v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5287",
+  "first_page": "899",
+  "last_page": "899",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 899"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.639,
+    "sha256": "7bca046369f919762717a31ccfa291f4adcbc9318d2b7300ab043e51a15bedc8",
+    "simhash": "1:b78aa719cfad914f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hargrove v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5287.\nHargrove v. United States."
+  },
+  "file_name": "0899-13",
+  "first_page_order": 981,
+  "last_page_order": 981
+}

@@ -1,0 +1,59 @@
+{
+  "id": 6001573,
+  "name": "Kretchmar v. Pennsylvania et al.",
+  "name_abbreviation": "Kretchmar v. Pennsylvania",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10570",
+  "first_page": "846",
+  "last_page": "846",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 846"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.605,
+    "sha256": "4a6ead415a6610f347441d799c42c3a895682cb20a28c92c96656a745cdb604e",
+    "simhash": "1:23c044d11729d7fa",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kretchmar v. Pennsylvania et al."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Pa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10570.\nKretchmar v. Pennsylvania et al."
+  },
+  "file_name": "0846-14",
+  "first_page_order": 868,
+  "last_page_order": 868
+}

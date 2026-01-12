@@ -1,0 +1,59 @@
+{
+  "id": 12215777,
+  "name": "Birch v. North Carolina",
+  "name_abbreviation": "Birch v. North Carolina",
+  "decision_date": "2012-05-14",
+  "docket_number": "No. 11-1174",
+  "first_page": "989",
+  "last_page": "989",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 989"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.639,
+    "sha256": "5a0a10144e3a7e4907a3fd403f92ec4444682e4ae3b34ffe1079a4e40c2ecf9e",
+    "simhash": "1:71778dc8f9153f1b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Birch v. North Carolina."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. N. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1174.\nBirch v. North Carolina."
+  },
+  "file_name": "0989-12",
+  "first_page_order": 865,
+  "last_page_order": 865
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12238957,
+  "name": "Salem v. Holder, Attorney General",
+  "name_abbreviation": "Salem v. Holder",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-206",
+  "first_page": "1110",
+  "last_page": "1110",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1110"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 81,
+    "ocr_confidence": 0.661,
+    "sha256": "22195bfa520c772854654a0ef2d875a3122fee7a2cdcf60a3ed37840b6744a3d",
+    "simhash": "1:34c154f8490d3015",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Salem v. Holder, Attorney General."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-206.\nSalem v. Holder, Attorney General."
+  },
+  "file_name": "1110-13",
+  "first_page_order": 1192,
+  "last_page_order": 1192
+}

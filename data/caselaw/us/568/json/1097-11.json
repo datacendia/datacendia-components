@@ -1,0 +1,59 @@
+{
+  "id": 12428308,
+  "name": "Reed v. Hense, Warden",
+  "name_abbreviation": "Reed v. Hense",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-6809",
+  "first_page": "1097",
+  "last_page": "1097",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1097"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.585,
+    "sha256": "be60b135c27909b9aa1e8f184677a72ff3c9cafd755cdc0c930181360e34e7a0",
+    "simhash": "1:10e238ab358578da",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Reed v. Hense, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6809.\nReed v. Hense, Warden."
+  },
+  "file_name": "1097-11",
+  "first_page_order": 1173,
+  "last_page_order": 1173
+}

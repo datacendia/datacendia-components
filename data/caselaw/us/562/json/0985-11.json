@@ -1,0 +1,59 @@
+{
+  "id": 5980841,
+  "name": "Hartsch v. California",
+  "name_abbreviation": "Hartsch v. California",
+  "decision_date": "2010-10-18",
+  "docket_number": "No. 10-5997",
+  "first_page": "985",
+  "last_page": "985",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 985"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 70,
+    "ocr_confidence": 0.619,
+    "sha256": "4e99b1cad66b46d84caabb595ccb5662726b571c6b32cf8ea00b60d8e2643ac0",
+    "simhash": "1:8c0f0d6280c3c12a",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hartsch v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5997.\nHartsch v. California."
+  },
+  "file_name": "0985-11",
+  "first_page_order": 1007,
+  "last_page_order": 1007
+}

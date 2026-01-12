@@ -1,0 +1,59 @@
+{
+  "id": 5925161,
+  "name": "Cornwell v. United States",
+  "name_abbreviation": "Cornwell v. United States",
+  "decision_date": "2011-05-16",
+  "docket_number": "No. 10-9960",
+  "first_page": "999",
+  "last_page": "999",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 999"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.629,
+    "sha256": "ba09117a62c3b65930332dfd6c9ccf571f4e8dc3080b29a2e2bf5376f510acd7",
+    "simhash": "1:858aee134eaf1808",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cornwell v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9960.\nCornwell v. United States."
+  },
+  "file_name": "0999-14",
+  "first_page_order": 1025,
+  "last_page_order": 1025
+}

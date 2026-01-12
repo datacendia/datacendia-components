@@ -1,0 +1,518 @@
+{
+  "id": 4105689,
+  "name": "KEVIN GRUPP et al., Plaintiffs and Appellants, v. DHL EXPRESS (USA), INC., et al., Defendants and Respondents",
+  "name_abbreviation": "Grupp v. DHL Express (USA), Inc.",
+  "decision_date": "2015-09-11",
+  "docket_number": "No. B245297",
+  "first_page": "420",
+  "last_page": "435",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "240 Cal. App. 4th 420"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "188 L.Ed.2d 538",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12579108,
+        12706991
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/134/1422-01",
+        "/us/572/0273-01"
+      ]
+    },
+    {
+      "cite": "186 L.Ed.2d 177",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12697065
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/569/0641-01"
+      ]
+    },
+    {
+      "cite": "695 F.3d 873",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3527045
+      ],
+      "pin_cites": [
+        {
+          "page": "874, 881"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/695/0873-01"
+      ]
+    },
+    {
+      "cite": "448 F.3d 66",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6046601
+      ],
+      "pin_cites": [
+        {
+          "page": "78"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/448/0066-01"
+      ]
+    },
+    {
+      "cite": "476 F.3d 29",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3761832
+      ],
+      "pin_cites": [
+        {
+          "page": "36-37"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/476/0029-01"
+      ]
+    },
+    {
+      "cite": "613 F.3d 596",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3703642
+      ],
+      "pin_cites": [
+        {
+          "page": "600-601"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/613/0596-01"
+      ]
+    },
+    {
+      "cite": "451 U.S. 630",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6190572
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "639"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/451/0630-01"
+      ]
+    },
+    {
+      "cite": "74 F.3d 1322",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7638701,
+        3691934
+      ],
+      "pin_cites": [
+        {
+          "page": "1324, 1339"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/74/1322-01",
+        "/us-app-dc/316/0061-01"
+      ]
+    },
+    {
+      "cite": "316 U.S. App.D.C. 61",
+      "category": "reporters:state",
+      "reporter": "U.S. App. D.C.",
+      "case_ids": [
+        3691934
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/316/0061-01"
+      ]
+    },
+    {
+      "cite": "29 U.S.C. \u00a7 1001",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "180 F.3d 686",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11665211
+      ],
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "691"
+        },
+        {
+          "page": "p. 693"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/180/0686-01"
+      ]
+    },
+    {
+      "cite": "29 U.S.C. \u00a7 151",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "507 U.S. 218",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6226179
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "227"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/507/0218-01"
+      ]
+    },
+    {
+      "cite": "590 F.3d 1027",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3505010
+      ],
+      "pin_cites": [
+        {
+          "page": "1030"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/590/1027-01"
+      ]
+    },
+    {
+      "cite": "31 U.S.C. \u00a7 3729",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "120 Cal.Rptr.3d 204",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "191 Cal.App.4th 897",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4228676
+      ],
+      "pin_cites": [
+        {
+          "page": "903"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/191/0897-01"
+      ]
+    },
+    {
+      "cite": "152 F.3d 1184",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11713416
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "1185"
+        },
+        {
+          "page": "pp. 1186, 1189"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/152/1184-01"
+      ]
+    },
+    {
+      "cite": "513 U.S. 219",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1333903
+      ],
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "232"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/513/0219-01"
+      ]
+    },
+    {
+      "cite": "552 U.S. 364",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3675891
+      ],
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "370"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/552/0364-01"
+      ]
+    },
+    {
+      "cite": "504 U.S. 374",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11729384
+      ],
+      "weight": 8,
+      "pin_cites": [
+        {
+          "page": "383"
+        },
+        {
+          "page": "p. 384"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/504/0374-01"
+      ]
+    },
+    {
+      "cite": "128 Cal.Rptr.2d 358",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "104 Cal.App.4th 667",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        331605
+      ],
+      "pin_cites": [
+        {
+          "page": "672"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/104/0667-01"
+      ]
+    },
+    {
+      "cite": "19 N.Y.3d 278",
+      "category": "reporters:state",
+      "reporter": "N.Y.3d",
+      "case_ids": [
+        3750317
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny3d/19/0278-01"
+      ]
+    },
+    {
+      "cite": "60 So.3d 426",
+      "category": "reporters:state_regional",
+      "reporter": "So. 3d",
+      "case_ids": [
+        7028608,
+        7028670
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so3d/60/0426-01",
+        "/so3d/60/0426-02"
+      ]
+    },
+    {
+      "cite": "83 A.D.3d 1450",
+      "category": "reporters:state",
+      "reporter": "A.D.3d",
+      "case_ids": [
+        4026876
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad3d/83/1450-01"
+      ]
+    },
+    {
+      "cite": "329 P.3d 180",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "174 Cal.Rptr.3d 626",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 Cal.4th 772",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        4263675
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/59/0772-01"
+      ]
+    },
+    {
+      "cite": "49 U.S.C. \u00a7 14501",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(c)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 U.S.C. \u00a7 41713",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(b)(1)"
+        },
+        {
+          "page": "(b)(1)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1450,
+    "char_count": 35170,
+    "ocr_confidence": 0.87,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.13141017101769253
+    },
+    "sha256": "92101f0719ed974c3744df60e741a7ad3d852f0ef212ce325731ab4126ba656c",
+    "simhash": "1:5aae4014bde004bc",
+    "word_count": 5619
+  },
+  "last_updated": "2024-02-27T18:58:37.472163+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Chavez, J., and Ferns, J., concurred."
+    ],
+    "parties": [
+      "KEVIN GRUPP et al., Plaintiffs and Appellants, v. DHL EXPRESS (USA), INC., et al., Defendants and Respondents."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nASHMANN-GERST, Acting P. J.\nIn this action filed by Kevin Grupp and Robert Moll (Relators) on behalf of the State of California (State) pursuant to California\u2019s False Claims Act (Gov. Code, \u00a7 12650 et seq.) (the State Act), the question presented below was whether an action alleging DHL Express (USA), Inc., DHL Worldwide Express, Inc., and DPWN Holdings (USA), Inc. (collectively DHL), overcharged and fraudulently billed the State for delivery services was preempted by the Airline Deregulation Act of 1978 (49 U.S.C. \u00a7 41713(b)(1)) (Deregulation Act) and the Federal Aviation Administration Authorization Act of 1994 (49 U.S.C. \u00a7 14501(c)(1)) (Authorization Act). After concluding that the action was preempted, the trial court granted judgment on the pleadings. The Relators appealed. We filed our original opinion in this matter on April 11, 2014, and affirmed. Subsequently, the Relators petitioned our Supreme Court for review, and that petition was granted. On May 20, 2015, our Supreme Court transferred review of the matter to us under California Rules of Court, rule 8.528(d) with instructions that we reconsider our prior opinion in light of People ex rel. Harris v. PAC Anchor Transportation, Inc. (2014) 59 Cal.4th 772 [174 Cal.Rptr.3d 626, 329 P.3d 180] (Pac Anchor).\nAfter considering Pac Anchor, we conclude it has no application here, and again affirm the trial court\u2019s order. As before, we hold that the application of the State Act in this case would constitute an impermissible regulation of DHL\u2019s prices, routes and services in conflict with federal law.\nFACTS\nDHL is a shipping company that transports packages by ground and air for a fee. For the majority of ground transportation, DHL uses a network of independent contractors. The Relators are New York residents who own MVP Delivery and Logistics, Inc., a company that is part of the network.\nThe Relators sued DHL in New York, Florida and California under their respective false claims acts and alleged that DHL fraudulently billed those states for delivery services. The Attorney General for each of those states declined to intervene. (State ex rel. Grupp v. DHL Express (N.Y.App.Div. 2011) 83 A.D.3d 1450 [922 N.Y.S.2d 888] (Grupp I); DHL Express (USA), Inc. v. State ex rel. Grupp (Fla.Dist.Ct.App. 2011) 60 So.3d 426 (Grupp II).)\nIn the New York action, DHL appealed from the denial of a motion to dismiss. The intermediate appellate court in New York analyzed the claim that DHL \u201coverbilled [New York] for shipping by charging a jet fuel surcharge for shipments that were transported by truck, rather than the lower diesel fuel surcharge.\u201d (Grupp I, supra, 83 A.D.3d at p. 1451.) The court explained that the Deregulation Act and the Authorization Act preempt state laws related to a price, route or service of an air or motor carrier, and stated: \u201cInasmuch as the causes of action in the amended complaint seek damages based upon defendants\u2019 allegedly improper use of certain shipping rates, they unquestionably have a connection to airline and motor freight rates and therefore are preempted.\u201d (83 A.D.3d at p. 1451.) With respect to the Relators\u2019 advocacy of the \u201cmarket participant exception\u201d to preemption, the court noted that die exception is triggered when a \u201cstate obtains goods or services in a proprietary capacity, acting in the same manner as a private entity seeking to obtain necessary goods and services.\u201d (Id. at pp. 1451-1452.) In contrast, the exception does not come into play when a state is trying to encourage a general policy through regulation. This led the court to state: \u201cHere, the broad scope of the [fraudulent claims act] demonstrates that its primary goal is to regulate the actions of those who engage in business with the State, and thus the statute enforces a general policy.\u201d (Id. at p. 1452.) Finally, the court rejected the Relators\u2019 argument that their claim was tantamount to a breach of contract claim that eludes the bar of preemption. It explained that \u201cthe preemption doctrine applies to \u2018confine[] courts, in breach[]of[]contract actions, to the parties\u2019 bargain, with no enlargement or enhancement based on state laws or policies external to the agreement\u2019 [citation]. Here, plaintiffs seek treble damages for defendants\u2019 alleged false claims in setting airline and truck shipping rates and thus the action falls squarely within the preemption doctrine. \u2018Simply calling this a contract dispute does not gainsay that the dispute is over the rates charged by an air carrier during a specified time period\u2019 [citation].\u201d (Ibid.) The court reversed the denial of DHL\u2019s motion and ordered the action dismissed. (Id. at p. 1450.)\nNew York\u2019s highest court affirmed the decision of the intermediate appellate court. In doing so, the New York Court of Appeals issued an opinion that analyzed and rejected the Relators\u2019 arguments anew. (State ex rel. Grupp v. DHL Express (USA), Inc. (2012) 19 N.Y.3d 278 [970 N.E.2d 391, 947 N.Y.S.2d 368].)\nAs alleged in the Florida action, \u201cDHL improperly billed a fuel surcharge for aviation fuel when packages did not travel by air. Further, according to the complaint, DHL charged a diesel fuel surcharge for ground deliveries despite the fact that DHL\u2019s independent contractors incurred the increased cost of such fuel.\u201d (Grupp II, supra, 60 So.3d at pp. 427-428.) The Florida Court of Appeal granted a writ of prohibition sought by DHL and ordered the circuit court to dismiss the action. In doing so, the Grupp II court determined that the Relators\u2019 action was preempted, and that the market participant exception did not apply. (Id. at p. 429.)\nIn the present case (Grupp III), the Relators alleged that DHL imposed a jet fuel surcharge for deliveries made by ground transportation, imposed a diesel fuel surcharge for ground transportation even though DHL\u2019s independent contractors incurred the increased cost of the fuel, and fraudulently represented routes and expenses. The Relators sought general damages suffered by California and treble damages under Government Code section 12651, subdivision (a)(1) through (3) in addition to penalties, costs, interest and attorney fees.\nBased on preemption, the trial court granted judgment on the pleadings in Grupp III and dismissed the action.\nThis timely appeal followed.\nDISCUSSION\nThe Deregulation Act and the Authorization Act preempt any state law having the effect of a law related to a price, route, or service of an air or motor carrier. (49 U.S.C. \u00a7\u00a7 41713(b)(1), 14501(c)(1).) According to the Relators, their claims do not relate to DHL\u2019s prices, routes or services; the State\u2019s entry into a contract for delivery services with DHL triggers the market participant exception; federal preemption does not apply to DHL\u2019s self-imposed undertakings; and under the police powers exception, the Relators\u2019 claims under the State Act may proceed. Our review of the trial court\u2019s dismissal of the Relators\u2019 action is de novo. (Kapsimallis v. Allstate Ins. Co. (2002) 104 Cal.App.4th 667, 672 [128 Cal.Rptr.2d 358] [a de novo standard of review applies when an appellate court reviews a judgment on the pleadings].)\nWe examine the issues below.\nI. The Scope of Preemption.\nWhen used in the preemption provisions in title 49 United States Code sections 41713(b)(1) and 14501(c)(1), the ordinary meaning of the phrase \u201crelated to a price, route, or service\u201d of a carrier \u201cis a broad one \u2014 -\u2018to stand in some relation; to have bearing or concern; to pertain; refer; to bring into association with or connection with,\u2019 [citation] \u2014 and the words thus express a broad pre-emptive purpose.\u201d (Morales v. Trans World Airlines, Inc. (1992) 504 U.S. 374, 383 [119 L.Ed.2d 157, 112 S.Ct. 2031] (Morales) [interpreting a former version of the Deregulation Act]; Rowe v. New Hampshire Motor Transp. Assn. (2008) 552 U.S. 364, 370 [169 L.Ed.2d 933, 128 S.Ct. 989] (Rowe) [interpreting the preemption provision in the Authorization Act consistent with the preemption provision in the Deregulation Act].) As a result, any state enforcement actions \u201chaving a connection with, or reference to, [carrier] \u2018rates, routes, or services\u2019 are pre-empted.\u201d (Morales, supra, at p. 384; see Rowe, supra, 552 U.S. at pp. 370-371; American Airlines, Inc. v. Wolens (1995) 513 U.S. 219, 232 [130 L.Ed.2d 715, 115 S.Ct. 817] (Wolens) [the Deregulation Act prevents states \u201cfrom imposing their own substantive standards\u201d on rates, routes and services].)\nBased on all these considerations, preemption has been found in multiple cases in a variety of contexts. (Morales, supra, 504 U.S. at p. 378 [the Deregulation Act preempts states from prohibiting \u201callegedly deceptive airline fare advertisements through enforcement of their general consumer protection statutes\u201d]; Rowe, supra, 552 U.S. at p. 367 [the Authorization Act preempted a Maine law requiring transporters of tobacco to provide a specialized recipient-verification service, and prohibiting any person from knowingly transporting a tobacco product to a person in Maine unless either the sender or receiver had a Maine license]; Wolens, supra, 513 U.S. 219 [due to preemption, the Illinois consumer fraud act could not be used to sue an airline company over retroactive changes to its frequent flyer program].)\nAny suggestion that laws of general applicability will not be preempted was disposed of in Morales. There, the petitioner argued that \u201conly state laws specifically addressed to the airline industry are pre-empted, whereas the [Deregulation Act] imposes no constraints on laws of general applicability.\u201d (Morales, supra, 504 U.S. at p. 386.) In response, the court stated: \u201cBesides creating an utterly irrational loophole (there is little reason why state impairment of the federal scheme should be deemed acceptable so long as it is effected by the particularized application of a general statute), this notion similarly ignores the sweep of the \u2018relating to\u2019 language. We have consistently rejected this precise argument in our ERISA cases: \u2018[A] state law may \u201crelate to\u201d a benefit plan, and thereby be pre-empted, even if the law is not specifically designed to affect such plans, or the effect is only indirect.\u2019 [Citations.]\u201d (Ibid.)\nOf course, not all indirect regulation is preempted. Case law provides that preemption will not be found if the effect of state action on prices, routes or services is too tenuous. (Morales, supra, 504 U.S. at p. 390; Californians for Safe Dump Truck Transportation v. Mendonca (9th Cir. 1998) 152 F.3d 1184, 1185 (Mendonca) [\u201ccases make clear that a state law dealing with matters traditionally within its police powers, and having no more than an indirect, remote, and tenuous effect on motor carriers, are not preempted\u201d].) For example, preemption does not apply to contract claims (Wolens, supra, 513 U.S. at p. 222), or specifically to the requirement that dump truck companies with public works contracts comply with the California Prevailing Wage Law (Mendonca, supra, at pp. 1186, 1189).\nII. The State Act.\nThe State Act \u201cis intended \u2018to supplement governmental efforts to identify and prosecute fraudulent claims made against state and local governmental entities. [Citation.]\u2019 [Citation.]\u201d (State of California ex rel. McCann v. Bank of America, N.A. (2011) 191 Cal.App.4th 897, 903 [120 Cal.Rptr.3d 204] (Bank of America).) It is modeled after the federal False Claims Act (31 U.S.C. \u00a7 3729 et seq.). (191 Cal.App.4th at p. 903.) \u201cBoth the [State Act] and federal false claims legislation \u2018 \u201cferretf] out fraud on the government by offering an incentive to persons with evidence of such fraud to come forward and disclose that evidence to the government.\u201d [Citations.]\u2019 \u2018Subject to certain limitations, the [State Act] permits a private person (referred to as a \u201cqui tam plaintiff\u201d or a \u201crelator\u201d) to bring such an action on behalf of a governmental agency. [Citation.]\u2019 [Citation.] If, after the qui tam plaintiff gives notice of the claim to the Attorney General, no governmental prosecuting authority decides to proceed with the action, \u2018the qui tam plaintiff has the right to do so subject to the right of the state or political subdivision to intervene .... [Citation.] Regardless of who prosecutes the qui tam action, if it is successful, the qui tam plaintiff is entitled to a percentage of the recovery achieved in the case. [Citation.]\u2019 [Citation.]\u201d (Bank of America, supra, at pp. 903-904, fns. omitted.)\nPursuant to Government Code section 12651, subdivision (a), the State Act provides that any person who knowingly presents a false claim for payment, knowingly makes a false record material to a false claim for payment, or conspires to violate the subdivision \u201cshall be liable to the state or to the political subdivision for three times the amount of damages that the state or political subdivision sustains.\u201d Also, any person who violates this subdivision \u201cshall also be liable to the state or to the political subdivision for the costs of a civil action brought to recover any of those penalties or damages, and shall be liable to the state or political subdivision for a civil penalty of not less than five thousand five hundred dollars ($5,500) and not more than eleven thousand dollars ($11,000) for each violation.\u201d (Gov. Code, \u00a7 12651, subd. (a).)\nIII. As Applied, the State Act Has the Effect of Law Related to DHL\u2019s Prices, Routes and Services.\nThe complaint alleged that in 2003 or 2004, DHL began imposing a jet fuel surcharge for air express deliveries. It imposed this surcharge even when deliveries were actually made by ground transport. At the same time, DHL began imposing a diesel fuel surcharge even though its independent contractors incurred the majority of the fuel costs associated with ground transport. When DHL submitted bills, it misrepresented the routes used and expenses incurred. According to the complaint, these actions resulted in violations of the State Act.\nIn our view, these allegations implicate the prices that DHL charged for shipping services, and also the routes used by DHL for making deliveries. There can be no dispute that surcharges are part of the price for services. (See Morales, supra, 504 U.S. at pp. 387-388; Sanchez v. Aerovias De Mexico, S.A. De C.V. (9th Cir. 2010) 590 F.3d 1027, 1030 [\u201c[t]he ticketed price included the tourism tax and other fees and surcharges\u201d].) Further, the core of the Relators\u2019 claims is that DHL overcharged for the services that it actually provided, which means that their claims necessarily relate to, or are connected to, DHL\u2019s prices and services. Additionally, there is a connection to routes because the Relators suggest that when air delivery is paid for, DHL must use air routes rather than ground routes or some combination.\nIt cannot be said that the impact of the Relators\u2019 claims is too tenuous for preemption. Simply put, claims under the State Act would cause DHL to alter prices, routes and services, i.e., it could no longer impose challenged surcharges and use ground routes for air packages. This direct impact would be significant, which is unacceptable. (Wolens, supra, 513 U.S. at p. 224; Morales, supra, 504 U.S. at pp. 390-391.) Inferably, there are times when DHL or other delivery companies charge for air delivery but find it more economical or practical to deliver by ground. If delivery companies are constrained by the State Act and are required to opt for more expensive routes, or more time-consuming routes, they will become more expensive and therefore less competitive, which Congress sought to avoid.\nDespite the foregoing, the Relators would nonetheless have us conclude that the prices charged for delivery services fall outside the bounds of preemption if bills were submitted after delivery services were rendered. We decline. Simply put, the prices DHL billed for delivery services qualify as prices for the transportation of property regardless of when they were issued.\nThe Relators argue that under the current state of the law, there is no preemption because the State Act does not have a significant impact on the deregulation of air and motor carriers. For two reasons, we cannot accede. First, case law does not support the rule advocated. While Morales took the position that state restrictions on fare advertising \u201cwould have a significant impact upon the airlines\u2019 ability to market their product, and hence a significant impact upon the fares they charge\u201d (Morales, supra, 504 U.S. at p. 390), the court limited its opinion by pointing out that \u201c \u2018[t]he present litigation plainly does not present a borderline question, and we express no views about where it would be appropriate to draw the line.\u2019 [Citation.]\u201d (Ibid.) As elucidated by the Rowe court, Morales merely determined, inter alia, \u201cthat pre-emption occurs at least where state laws have a \u2018significant impact\u2019 related to Congress\u2019 deregulatory and pre-emption-related objectives.\u201d (Rowe, supra, 552 U.S. at p. 371.) Properly understood, the Morales court held that there was preemption \u201cat least when\u201d rather than \u201conly when\u201d there was a significant impact on deregulation. Therefore, Morales did not announce a \u201csignificant impact\u201d test for preemption. Despite the foregoing, the Relators would have us adopt just such a test. That is not our province. Second, as we have indicated, the State Act would have a significant impact on the regulatory objectives of Congress because it would cause DHL to alter its prices, routes and services.\nWe now turn our focus to Pac Anchor. In that case, the California Attorney General sued various defendants under the unfair competition law (UCL) (Bus. & Prof. Code, \u00a7 17200 et seq.) \u201cfor misclassifying drivers as independent contractors and for other alleged violations of California\u2019s labor and unemployment insurance laws.\u201d (Pac Anchor, supra, 59 Cal.4th at p. 775.) The defendants argued preemption under the Authorization Act. (59 Cal.4th at p. 775.) They asserted that the UCL action would significantly affect motor carrier prices, routes, and services because its application would prevent them from using independent contractors, and they would have to reclassify their drivers as employees, which would drive up the cost of doing business and affect market forces. In essence, the defendants argued for preemption because of a purported ripple effect the action would have on their business. The court concluded that there was no preemption. (Pac Anchor, supra, 59 Cal.4th at pp. 785-787.)\nPivotally, the UCL action in Pac Anchor made no reference to the prices, routes or services of the defendant trucking companies, nor did it refer to the transportation of property. The impact on prices, routes or services, if any, could only have been the indirect and diffuse result of increased overhead, operational constrictions or other general business factors. Thus, Pac Anchor is analogous to a case like Mendonca, and in a different category than Morales. In stark contrast, the Relators\u2019 State Act claim refers to DHL\u2019s prices, routes and services in connection with the transportation of property by condemning them as fraudulent because the prices and routes were either undisclosed or misrepresented, and because the services were not performed in the manner required or agreed to. The State Act claim would have a direct impact on prices, routes and services, which renders Pac Anchor distinguishable. Consequently, Pac Anchor in no way alters our analysis.\nIV. The Market Participant Exception Does Not Apply.\nThe Relators urge us to conclude that preemption does not apply because California passed the State Act merely to protect its proprietary interests while participating in the market. We decline.\nPreemption doctrines \u201capply only to state regulation.\u201d (Building & Constr. Trades Council v. Associated Builders & Contractors of Mass./R. I., Inc. (1993) 507 U.S. 218, 227 [122 L.Ed.2d 565, 113 S.Ct. 1190], italics omitted (Boston Harbor) [analyzing whether the National Labor Relations Act (29 U.S.C. \u00a7 151 et seq.) preempts a state authority, as the owner of a construction project, from enforcing a collective bargaining agreement negotiated by private parties].) Consequently, there is no preemption when a state acts as a market participant with no interest in setting policy, i.e., when a state seeks to secure services it needs and does not attempt to protect society as a whole by regulating others. (Cardinal Towing v. City of Bedford, Texas (5th Cir. 1999) 180 F.3d 686, 691 (Cardinal Towing) [applying Boston Harbor to a case arising under the Authorization Act]; Boston Harbor, supra, 507 U.S. at p. 229.)\nCardinal Towing elucidates the distinction between regulation and market participation. In that case, a city\u2019s police were using tow truck companies on a rotating basis to remove abandoned or disabled vehicles from the streets. The city decided to discard this system and contract with a single company. Pursuant to that plan, the city passed an ordinance and solicited bids. After the city awarded the contract, a tow truck company sued for a declaration that the police tow truck contracting ordinance constituted regulation under the Authorization Act and was preempted. (Cardinal Towing, supra, 180 F.3d at pp. 689-690.)\nAs explained by the Fifth Circuit, \u201c[t]he law has traditionally recognized a distinction between regulation and actions a state takes in a proprietary capacity \u2014 that is to say, actions taken to serve the government\u2019s own needs rather than those of society as a whole. This distinction is most readily apparent when the government purchases goods and services its operations require on the open market.\u201d (Cardinal Towing, supra, 180 F.3d at p. 691.) The court noted that the United States Supreme Court \u201chas found that when a state or municipality acts as a participant in the market and does so in a narrow and focused manner consistent with the behavior of other market participants, such action does not constitute regulation subject to preemption. [Citation.] When, however, a state attempts to use its spending power in a manner \u2018tantamount to regulation,\u2019 such behavior is still subject to preemption. [Citation.]\u201d (Ibid.)\nContinuing on, the Cardinal Towing court highlighted the rule that a state cannot use its spending power \u201cin a manner calculated to encourage or discourage . . . private behavior.\u201d (Cardinal Towing, supra, 180 F.3d at p. 691.) Courts have therefore \u201cfound preemption when government entities seek to advance general societal goals rather than narrow proprietary interests through the use of their contracting power.\u201d (Id. at p. 692.) Thus, a variety of attempts by government entities to punish labor and benefits practices have been found preempted by the National Labor Relations Act (NLRA) and the Employee Retirement Income Security Act of 1974 (29 U.S.C. \u00a7 1001 et seq.). (Cardinal Towing, supra, 180 F.3d at p. 692.) For example, the NLRA preempted an executive order that barred the federal government from contracting with companies that permanently replaced striking workers. (Chamber of Commerce of United States v. Reich (D.C. Cir. 1996) 316 U.S. App.D.C. 61 [74 F.3d 1322, 1324, 1339].) On the other hand, courts have \u201cshielded contract specifications from preemption when they applied to a single discreet contract and were designed to insure efficient performance rather than advance abstract policy goals. [Citations.]\u201d (Cardinal Towing, supra, at p. 693.)\nTurning to the action at issue, the Cardinal Towing court focused on two questions: \u201cFirst, does the challenged action essentially reflect the entity\u2019s own interest in its efficient procurement of needed goods and services, as measured by comparison with the typical behavior of private parties in similar circumstances? Second, does the narrow scope of the challenged action defeat an inference that its primary goal was to encourage a general policy rather than address a specific proprietary problem?\u201d (Cardinal Towing, supra, 180 F.3d at p. 693.) The court answered .both questions in the affirmative. Thus, because the city had acted like a private party when seeking towing services, preemption did not apply. (Ibid.)\nRecently, the United State Supreme Court decided American Trucking Assns., Inc. v. Los Angeles (2013) 569 U.S._[186 L.Ed.2d 177, 133 S.Ct. 2096] (American Trucking). At issue was the enforceability of concession agreements between the Port of Los Angeles and drayage companies requiring them, inter alia, to affix placards on their trucks with phone numbers for reporting concerns, and to submit plans listing offstreet parking locations for each truck. To make sure that drayage companies signed a concession agreement, the board of harbor commissioners made it a misdemeanor for a terminal operator to permit drayage trucks access to the Port of Los Angeles unless they were registered under a concession agreement. The court found preemption under the Authorization Act because the Port of Los Angeles, \u201cexercised classic regulatory authority \u2014 complete with the use of criminal penalties \u2014 in imposing the placard and parking requirements at issue.\u201d (569 U.S. at p._ [133 S.Ct. at p. 2103].) It opined that the Port of Los Angeles had not acted as a private party by \u201ccontracting in a way that the owner of an ordinary commercial enterprise could mimic. Rather, it ha[d] forced terminal operators \u2014 and through them, trucking companies \u2014 to alter their conduct by implementing a criminal prohibition punishable by time in prison. In some cases, the question whether governmental action has the force of law may pose difficulties; the line between regulatory and proprietary conduct has soft edges. But this case takes us nowhere near those uncertain boundaries. Contractual commitments resulting not from ordinary bargaining (as in Wolens), but instead from the threat of criminal sanctions manifest the government qua government, performing its prototypical regulatory role.\u201d (American Trucking, supra, 569 U.S. at p. _ [133 S.Ct. at p. 2103].) Whether the Port of Los Angeles acted to address a perceived business necessity was irrelevant because \u201c[it] chose a tool to fulfill those goals which only a government can wield: the hammer of the criminal law. [Citations.] And when the government employs such a coercive mechanism, available to no private party, it acts with the force and effect of law, whether or not it does so to turn a profit. Only if it forgoes the (distinctively governmental) exercise of legal authority may it escape . . .\u201d preemption. (569 U.S. at pp._-_[133 S.Ct. at pp. 2103-2104].)\nTo assess the Relators\u2019 argument, we employ the analysis suggested by Cardinal Towing and keep American Trucking in mind. First, we must ask whether the State Act reflects California\u2019s interest in its efficient procurement of needed goods and services, as measured by a comparison with the typical behavior of private parties in similar circumstances. We must answer in the negative. The State Act is not aimed at a specific project or contract employed by California to procure needed goods and services. Rather, it is designed to regulate all claims for payment that are made to California as well as its political subdivisions, be they cities, school districts, fire departments, etc. Furthermore, the State Act is punitive in nature because it prescribes treble damages and statutory penalties. (See Texas Industries, Inc. v. Radcliff Materials, Inc. (1981) 451 U.S. 630, 639 [68 L.Ed.2d 500, 101 S.Ct. 2061] [\u201cThe very idea of treble damages reveals an intent to punish past, and to deter future, unlawful conduct, not to ameliorate the liability of wrongdoers.\u201d].) No private party is in a similar circumstance because a private party, not being a sovereign state, cannot prospectively impose legal obligations on every future client. This is all the more true because the State Act authorizes and incentivizes qui tam plaintiffs to pursue actions against persons who submit false claims.\nNext, we must ask whether the scope of the challenged action defeats an inference that its primary goal is to encourage a general policy rather than address a specific proprietary problem. Once again, the answer is no. The reach of the State Act is broad \u2014 it covers all current and future claims for payment to California and political subdivisions without reference to a specific project or contract. Also, as we previously stated, it contains punitive provisions and allows qui tam plaintiffs. Thus, the inference is that the State Act\u2019s primary goal is the public policy of protecting public funds, and also deterring and punishing fraudulent claims, rather than a specific proprietary concern, such as the need for delivery services.\nV. The State Act Is Not a Self-imposed Undertaking That Avoids Preemption.\nThe Relators argue that this case is akin to an action on a contract, and we should give it similar treatment. This argument lacks merit.\nA carrier may be sued for breach of contract because the obligations are self-imposed. But preemption will prevent a plaintiff from obtaining something other than the benefit of its contractual bargain. Consequently, a plaintiff cannot seek an enlarged or enhanced remedy \u201cbased on state laws or policies external to the [carrier\u2019s] agreement.\u201d (Wolens, supra, 513 U.S. at p. 233.)\nDHL did not specifically agree to be liable for treble damages and statutory penalties, nor did it agree that it could be sued by qui tam plaintiffs. At most, it agreed to be bound by all California laws \u201cwith respect to the performance of the services under the contract.\u201d Because this boilerplate agreement was limited to the performance of services, it cannot be read to extend to the submission of claims. Accordingly, DHL did not agree to be bound by the State Act, which means that the Relators\u2019 claims are preempted because they are based on laws that are external to DHL\u2019s agreement to provide delivery services.\nEven if, as the Relators suggest, the State Act was made a part of DHL\u2019s contract by agreement or operation of law, we would still find preemption under American Trucking. Simply put, California cannot use the hammer of the law to secure advantages related to prices, routes and services of air and motor carriers. It would pervert the law and frustrate the intent of Congress to conclude that states could avoid preemption by simply requiring air and motor carriers to agree to abide by all state regulations. The exception would swallow the rule by creating the bizarre situation in which states could, in essence, undo preemption. Notably, federal courts have rejected the argument that a contractual provision requiring a party to comply with all laws qualifies as a self-imposed obligation for purposes of preemption analysis. (Onoh v. Northwest Airlines, Inc. (5th Cir. 2010) 613 F.3d 596, 600-601 [though a contract required the parties to comply with applicable laws, an airline could not be sued for breach of contract when it violated international law impliedly incorporated into the contract because the law was not a self-imposed obligation]; Buck v. American Airlines, Inc. (1st Cir. 2007) 476 F.3d 29, 36-37 [due to preemption, contract-based claims against an airline could not be based in implicitly incorporated federal regulations]; McMullen v. Delta Air Lines, Inc. (N.D.Cal., Sept. 30, 2008, No. 08-1523 JSW) 2008 U.S.Dist. Lexis 75720, pp. *7-*11 [contract claim based on violation of incorporated Mexican law preempted].)\nBy letter, the Relators notified us of Dover v. British Airways, PLC (UK) (E.D.N.Y., Nov. 8, 2013, No. 12 CV 5567 (RJD) (MDG)) 2013 U.S.Dist. Lexis 160127 (Dover) and requested that we consider its import. In Dover, members of an airline\u2019s frequent flyer program sued the airline for breach of contract, alleging that the airline improperly imposed fuel surcharges on rewards flights, and that the surcharges were not based on the cost of fuel. The airlines moved to dismiss based on preemption. The motion was denied. According to the district court, Wolens was on point because the plaintiffs \u201cask the Court to consider only \u2018the parties\u2019 bargain\u2019 as expressed in the Terms and Conditions.\u201d (Dover, supra, at pp. *11-*12.) Dover adds nothing to our analysis because it involved a breach of contract claim based on self-imposed obligations. As we have already indicated, the State Act does not qualify as a self-imposed obligation.\nVI. The Police Powers Exception Does Not Apply.\nThe Relators argue that the Deregulation Act and the Authorization Act do not preempt the State Act because it is an exercise of a police power that Congress did not expressly limit. This argument founders because it ignores the breadth of the preemption clauses. We conclude that the two acts \u201cpreempt[] state police-power enactments to the extent they are \u2018related to\u2019 a carrier\u2019s prices, routes or services.\u201d (New Hampshire Motor Transport Assn. v. Rowe (1st Cir. 2006) 448 F.3d 66, 78.) As applied here, the State Act passes the \u201crelated to\u201d test. Though we recognize that \u201cstate laws dealing with matters traditionally within a state\u2019s police powers are not to be preempted unless Congress\u2019s intent to do so is clear and manifest\u201d (Mendonca, supra, 152 F.3d at p. 1186), it is clear that Congress intended to preempt all state laws related to prices, routes and services of airline and motor carriers. If courts carved out an exception for police power enactments, deregulation would soon be a myth.\nDISPOSITION\nThe judgment is affirmed.\nDHL shall recover its costs on appeal.\nChavez, J., and Ferns, J., concurred.\nThe parties debate whether we should consider Ginsberg v. Northwest, Inc. (9th Cir. 2012) 695 F.3d 873, 874, 881 (Ginsberg). This debate is moot. The United States Supreme Court reversed Ginsberg in Northwest, Inc. v. Ginsberg (2014) 572 U.S._[188 L.Ed.2d 538, 134 S.Ct. 1422].\nThe Relators\u2019 complaint alleged: \u201cAs a result of the knowingly false and fraudulent claims submitted by DHL, . . . [t]he state paid for air delivery when ground transportation was used, paid jet fuel surcharges where no air transportation was used and, in certain instances, paid diesel fuel surcharges when DHL was not purchasing, or reimbursing [the] cost of[,] all or most of the fuel used in its ground transport operations.\u201d It also alleged: \u201cAs a result of the DHL\u2019s knowing conduct and fraudulent charging of the State for delivery services that were not performed in the manner required or agreed to, the State has overpaid or erroneously paid DHL substantial amounts of money.\u201d The foregoing allegations demonstrate that the Relators\u2019 State Act claim refers to prices, routes and services.",
+        "type": "majority",
+        "author": "ASHMANN-GERST, Acting P. J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Baker & Hostetler, Ryan D. Fischbach; Jerry R. Linscott; Hodgson Russ and John L. Sinatra, Jr., for Plaintiffs and Appellants.",
+      "Dechert, Edwin V. Woodsome, Jr., Andrew S. Wong and James C. Wald for Defendants and Respondents."
+    ],
+    "corrections": "",
+    "head_matter": "[No. B245297.\nSecond Dist., Div. Two.\nSept. 11, 2015.]\nKEVIN GRUPP et al., Plaintiffs and Appellants, v. DHL EXPRESS (USA), INC., et al., Defendants and Respondents.\nCounsel\nBaker & Hostetler, Ryan D. Fischbach; Jerry R. Linscott; Hodgson Russ and John L. Sinatra, Jr., for Plaintiffs and Appellants.\nDechert, Edwin V. Woodsome, Jr., Andrew S. Wong and James C. Wald for Defendants and Respondents.\nJudge of the Los Angeles Superior Court, assigned by the Chief Justice pursuant to article VI, section 6 of the California Constitution."
+  },
+  "file_name": "0420-01",
+  "first_page_order": 402,
+  "last_page_order": 417
+}

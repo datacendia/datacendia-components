@@ -1,0 +1,59 @@
+{
+  "id": 5942463,
+  "name": "Stine v. Yarnall",
+  "name_abbreviation": "Stine v. Yarnall",
+  "decision_date": "2011-06-06",
+  "docket_number": "No. 10-1212",
+  "first_page": "1033",
+  "last_page": "1033",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1033"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 65,
+    "ocr_confidence": 0.586,
+    "sha256": "0412a7ed73e9298dacccf51120196ead033b39e4b8cf955ac028e47a87b3b38f",
+    "simhash": "1:1439a2812fa42004",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Stine v. Yarnall."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1212.\nStine v. Yarnall."
+  },
+  "file_name": "1033-04",
+  "first_page_order": 1059,
+  "last_page_order": 1059
+}

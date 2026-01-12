@@ -1,0 +1,59 @@
+{
+  "id": 12241793,
+  "name": "McClellan v. United States",
+  "name_abbreviation": "McClellan v. United States",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-7604",
+  "first_page": "1136",
+  "last_page": "1136",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1136"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.691,
+    "sha256": "666473f2f3381c9fcc0e1ebb4d6a710e4a9b6e0e1f94efbf4a0e549de0a49b49",
+    "simhash": "1:960a72026abd1944",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McClellan v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7604.\nMcClellan v. United States."
+  },
+  "file_name": "1136-04",
+  "first_page_order": 1218,
+  "last_page_order": 1218
+}

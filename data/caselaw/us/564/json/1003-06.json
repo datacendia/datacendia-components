@@ -1,0 +1,59 @@
+{
+  "id": 4333708,
+  "name": "In re Eckstrom",
+  "name_abbreviation": "In re Eckstrom",
+  "decision_date": "2011-06-13",
+  "docket_number": "No. 10-10637",
+  "first_page": "1003",
+  "last_page": "1003",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1003"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.549,
+    "sha256": "a62c7c70271a1b1244987e415486aaea1ad82a4b56b0b39dd699a54599b37202",
+    "simhash": "1:48ffb27af3f9c9dd",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Eckstrom."
+    ],
+    "opinions": [
+      {
+        "text": "Petition for writ of habeas corpus denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10637.\nIn re Eckstrom."
+  },
+  "file_name": "1003-06",
+  "first_page_order": 997,
+  "last_page_order": 997
+}

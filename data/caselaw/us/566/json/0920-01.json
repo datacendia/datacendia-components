@@ -1,0 +1,112 @@
+{
+  "id": 12199646,
+  "name": "Reichle et al. v. Howards",
+  "name_abbreviation": "Reichle v. Howards",
+  "decision_date": "2012-04-02",
+  "docket_number": "No. 11-262",
+  "first_page": "920",
+  "last_page": "920",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 920"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "565 U. S. 1078",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12236673,
+        12445101,
+        12445102,
+        12445103,
+        12445104,
+        12445105,
+        12445106,
+        12445237,
+        12445238,
+        12445239,
+        12445240,
+        12445241,
+        12445242,
+        12236637,
+        12236645,
+        12236646,
+        12236648,
+        12236651,
+        12236655,
+        12236660,
+        12236666
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/565/1078-09",
+        "/l-ed-2d/181/0524-04",
+        "/l-ed-2d/181/0524-05",
+        "/l-ed-2d/181/0524-06",
+        "/l-ed-2d/181/0524-07",
+        "/l-ed-2d/181/0525-01",
+        "/l-ed-2d/181/0525-02",
+        "/l-ed-2d/181/0542-04",
+        "/l-ed-2d/181/0542-05",
+        "/l-ed-2d/181/0542-06",
+        "/l-ed-2d/181/0542-07",
+        "/l-ed-2d/181/0542-08",
+        "/l-ed-2d/181/0542-09",
+        "/us/565/1078-01",
+        "/us/565/1078-02",
+        "/us/565/1078-03",
+        "/us/565/1078-04",
+        "/us/565/1078-05",
+        "/us/565/1078-06",
+        "/us/565/1078-07",
+        "/us/565/1078-08"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 39,
+    "char_count": 256,
+    "ocr_confidence": 0.566,
+    "sha256": "1bc3ad7ddb08d2ab100c6614bf9efcca6b00681bae02f33473dd7bbbea6e75c1",
+    "simhash": "1:1bd53c029ba05a80",
+    "word_count": 45
+  },
+  "last_updated": "2024-02-27T23:45:15.365324+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Reichle et al. v. Howards."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. [Certiorari granted, 565 U. S. 1078.] Motion of The Rutherford Institute for leave to file a brief as amicus curiae granted. Justice Kagan took no part in the consideration or decision of this motion.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-262.\nReichle et al. v. Howards."
+  },
+  "file_name": "0920-01",
+  "first_page_order": 796,
+  "last_page_order": 796
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12415075,
+  "name": "Warmus v. Ohio",
+  "name_abbreviation": "Warmus v. Ohio",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-100",
+  "first_page": "887",
+  "last_page": "887",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 887"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 79,
+    "ocr_confidence": 0.686,
+    "sha256": "6fe3a0cb9e841f7752490864f23d521c99801c2a00c290c6ee6f8bf161ccc28c",
+    "simhash": "1:9bd32ecf1e2ca2f8",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Warmus v. Ohio."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ohio, Cuyahoga County. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-100.\nWarmus v. Ohio."
+  },
+  "file_name": "0887-01",
+  "first_page_order": 963,
+  "last_page_order": 963
+}

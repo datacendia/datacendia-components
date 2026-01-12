@@ -1,0 +1,59 @@
+{
+  "id": 12413525,
+  "name": "Goodwin v. United States",
+  "name_abbreviation": "Goodwin v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10617",
+  "first_page": "852",
+  "last_page": "852",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 852"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.714,
+    "sha256": "7c52e17d1d38efd73d77db2aec483775e675c79c94f2c60cc729ca575d229f17",
+    "simhash": "1:370ada53cf0f3417",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Goodwin v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10617.\nGoodwin v. United States."
+  },
+  "file_name": "0852-04",
+  "first_page_order": 928,
+  "last_page_order": 928
+}

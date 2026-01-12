@@ -1,0 +1,59 @@
+{
+  "id": 12226057,
+  "name": "Stenson v. United States",
+  "name_abbreviation": "Stenson v. United States",
+  "decision_date": "2012-06-04",
+  "docket_number": "No. 11-10093",
+  "first_page": "1040",
+  "last_page": "1040",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1040"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.548,
+    "sha256": "18de8364142dcf20c9f6d3af76386f2273b19068e7ad617067b0814e1201f92a",
+    "simhash": "1:260bc38b47cc5e00",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Stenson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10093.\nStenson v. United States."
+  },
+  "file_name": "1040-13",
+  "first_page_order": 916,
+  "last_page_order": 916
+}

@@ -1,0 +1,61 @@
+{
+  "id": 12429865,
+  "name": "Mungin v. United States",
+  "name_abbreviation": "Mungin v. United States",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-7582",
+  "first_page": "1138",
+  "last_page": "1139",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1138"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 154,
+    "ocr_confidence": 0.571,
+    "sha256": "7aac27658cb41c66933f0da840b8b483714e6073c57ddbf341db8636cc4b2439",
+    "simhash": "1:89f2ba8258a6f658",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Mungin v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Cer-tiorari denied.\nJustice Sotomayor took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7582.\nMungin v. United States."
+  },
+  "file_name": "1138-09",
+  "first_page_order": 1214,
+  "last_page_order": 1215
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12423384,
+  "name": "Thomas v. United States",
+  "name_abbreviation": "Thomas v. United States",
+  "decision_date": "2012-11-13",
+  "docket_number": "No. 12-6764",
+  "first_page": "1018",
+  "last_page": "1018",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1018"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.589,
+    "sha256": "7c70a9e714d07e6a1510644ce729db61452639436df896a9922848fe7634d9cd",
+    "simhash": "1:060bec6b2aaf1357",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Thomas v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. D. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6764.\nThomas v. United States."
+  },
+  "file_name": "1018-15",
+  "first_page_order": 1094,
+  "last_page_order": 1094
+}

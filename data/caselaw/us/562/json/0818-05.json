@@ -1,0 +1,59 @@
+{
+  "id": 6010788,
+  "name": "In re Discipline of Stone",
+  "name_abbreviation": "In re Discipline of Stone",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. D-2572",
+  "first_page": "818",
+  "last_page": "818",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 818"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 39,
+    "char_count": 278,
+    "ocr_confidence": 0.548,
+    "sha256": "7872bab9ad61984594570b1318af41142d789d7400ff43220b295c7018baf9cc",
+    "simhash": "1:728a72b2bbdaa7a6",
+    "word_count": 51
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Stone."
+    ],
+    "opinions": [
+      {
+        "text": "Robert Ray Stone, of Arlington, Va., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2572.\nIn re Discipline of Stone."
+  },
+  "file_name": "0818-05",
+  "first_page_order": 840,
+  "last_page_order": 840
+}

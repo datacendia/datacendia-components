@@ -1,0 +1,59 @@
+{
+  "id": 12428759,
+  "name": "Sumrall v. United States",
+  "name_abbreviation": "Sumrall v. United States",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-7324",
+  "first_page": "1108",
+  "last_page": "1108",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1108"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.626,
+    "sha256": "ec54ccc5f06cb36adbc775740e7e9611f69c7649c77bd07b94d53b749eb1f621",
+    "simhash": "1:641b9ad24f953e2a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sumrall v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7324.\nSumrall v. United States."
+  },
+  "file_name": "1108-11",
+  "first_page_order": 1184,
+  "last_page_order": 1184
+}

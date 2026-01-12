@@ -1,0 +1,59 @@
+{
+  "id": 12417687,
+  "name": "CCA Associates v. United States",
+  "name_abbreviation": "CCA Associates v. United States",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 11-1352",
+  "first_page": "940",
+  "last_page": "940",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 940"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 81,
+    "ocr_confidence": 0.695,
+    "sha256": "3c9f1e1bc0b785f5d4d1ae5ce4706c9f87585c1c24b3bff52b3ce562c7c4a083",
+    "simhash": "1:8503c2410ea69c0a",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "CCA Associates v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. Fed. Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1352.\nCCA Associates v. United States."
+  },
+  "file_name": "0940-03",
+  "first_page_order": 1016,
+  "last_page_order": 1016
+}

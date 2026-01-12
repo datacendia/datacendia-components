@@ -1,0 +1,110 @@
+{
+  "id": 12190080,
+  "name": "Texas v. New Mexico",
+  "name_abbreviation": "Texas v. New Mexico",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 65",
+  "first_page": "809",
+  "last_page": "809",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 809"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "562 U. S. 820",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6000671,
+        5927732,
+        5954106,
+        5999419,
+        5983041,
+        12435779,
+        12435780,
+        6001610,
+        12435787,
+        12435789,
+        12435792,
+        12435795,
+        12435796,
+        12435798,
+        12435799,
+        12435800,
+        12435801,
+        6023775,
+        6018155,
+        5942007
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/562/0820-05",
+        "/us/562/0820-06",
+        "/us/562/0820-02",
+        "/us/562/0820-09",
+        "/us/562/0820-07",
+        "/l-ed-2d/178/0011-07",
+        "/l-ed-2d/178/0011-08",
+        "/us/562/0820-04",
+        "/l-ed-2d/178/0012-07",
+        "/l-ed-2d/178/0013-01",
+        "/l-ed-2d/178/0013-04",
+        "/l-ed-2d/178/0013-07",
+        "/l-ed-2d/178/0013-08",
+        "/l-ed-2d/178/0014-02",
+        "/l-ed-2d/178/0014-03",
+        "/l-ed-2d/178/0014-04",
+        "/l-ed-2d/178/0014-05",
+        "/us/562/0820-08",
+        "/us/562/0820-03",
+        "/us/562/0820-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 47,
+    "char_count": 305,
+    "ocr_confidence": 0.683,
+    "sha256": "7d8a11c47c7ab0d6568a4d2661562e5d2323f7ccd25d32a085877afcc816e623",
+    "simhash": "1:fc7b0db24fd68cff",
+    "word_count": 57
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Texas v. New Mexico."
+    ],
+    "opinions": [
+      {
+        "text": "Motion of the River Master for fees and reimbursement of expenses granted, and the River Master is awarded a total of $6,885.82 for the period July 1, 2010, through June 30, 2011, to be paid equally by the parties.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 65,\nOrig.\nTexas v. New Mexico.\n[For earlier order herein, see, e. g., 562 U. S. 820.]"
+  },
+  "file_name": "0809-05",
+  "first_page_order": 891,
+  "last_page_order": 891
+}

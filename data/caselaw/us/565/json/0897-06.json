@@ -1,0 +1,59 @@
+{
+  "id": 12218445,
+  "name": "Flenoid v. United States",
+  "name_abbreviation": "Flenoid v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5248",
+  "first_page": "897",
+  "last_page": "897",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 897"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.666,
+    "sha256": "e7cd32e1a74f72c6bcbbfbe9ee8eda71504415b0c7bf4de9d6ccd0047c7f4522",
+    "simhash": "1:809adbab0fb51e18",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Flenoid v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5248.\nFlenoid v. United States."
+  },
+  "file_name": "0897-06",
+  "first_page_order": 979,
+  "last_page_order": 979
+}

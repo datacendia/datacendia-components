@@ -1,0 +1,86 @@
+{
+  "id": 5920769,
+  "name": "Schrader v. New Mexico et al.",
+  "name_abbreviation": "Schrader v. New Mexico",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10504",
+  "first_page": "823",
+  "last_page": "823",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 823"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "561 U. S. 1022",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12455569,
+        12455570,
+        12455571,
+        12455572,
+        12455573,
+        12455574,
+        12455575,
+        12455577
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/177/1086-03",
+        "/l-ed-2d/177/1086-04",
+        "/l-ed-2d/177/1087-01",
+        "/l-ed-2d/177/1087-02",
+        "/l-ed-2d/177/1087-03",
+        "/l-ed-2d/177/1087-04",
+        "/l-ed-2d/177/1087-05",
+        "/l-ed-2d/177/1087-07"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 30,
+    "char_count": 178,
+    "ocr_confidence": 0.61,
+    "sha256": "3e316fa1d94894704e9b73c83124bd27e6210acaa96cb19850abe742e12c69f3",
+    "simhash": "1:26ac3028503ea2da",
+    "word_count": 31
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Schrader v. New Mexico et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Motion of petitioner for reconsideration of order denying leave to proceed in forma pauperis [561 U. S. 1022] denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10504.\nSchrader v. New Mexico et al."
+  },
+  "file_name": "0823-03",
+  "first_page_order": 845,
+  "last_page_order": 845
+}

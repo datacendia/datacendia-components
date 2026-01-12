@@ -1,0 +1,59 @@
+{
+  "id": 5993789,
+  "name": "Flint v. Shake, Chief Judge, Circuit Court of Kentucky, 30th Circuit, et al.",
+  "name_abbreviation": "Flint v. Shake",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-1517",
+  "first_page": "838",
+  "last_page": "838",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 838"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 20,
+    "char_count": 124,
+    "ocr_confidence": 0.571,
+    "sha256": "83d56a886811e8b581dfc3f049838abc036598e062299ed5577ce1523fd8cf8c",
+    "simhash": "1:c38a22e24835b4e2",
+    "word_count": 21
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Flint v. Shake, Chief Judge, Circuit Court of Kentucky, 30th Circuit, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-1517.\nFlint v. Shake, Chief Judge, Circuit Court of Kentucky, 30th Circuit, et al."
+  },
+  "file_name": "0838-05",
+  "first_page_order": 860,
+  "last_page_order": 860
+}

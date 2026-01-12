@@ -1,0 +1,59 @@
+{
+  "id": 12246920,
+  "name": "Blair v. Crawford",
+  "name_abbreviation": "Blair v. Crawford",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-7782",
+  "first_page": "1210",
+  "last_page": "1210",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1210"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 66,
+    "ocr_confidence": 0.667,
+    "sha256": "bab11e9f54abd70ae7551ed62a78ec4c961c57741f3c67e45fe36889f71a3587",
+    "simhash": "1:928326a02b916081",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Blair v. Crawford."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7782.\nBlair v. Crawford."
+  },
+  "file_name": "1210-08",
+  "first_page_order": 1292,
+  "last_page_order": 1292
+}

@@ -1,0 +1,87 @@
+{
+  "id": 12702005,
+  "name": "Damon O'NEIL, petitioner, v. UNITED STATES.",
+  "name_abbreviation": "O'Neil v. United States",
+  "decision_date": "2013-10-07",
+  "docket_number": "No. 13\u20135059.",
+  "first_page": "801",
+  "last_page": "801",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 801"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 3"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 223"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "133 S.Ct. 2151",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12699057
+      ],
+      "weight": 2,
+      "year": 2013,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/570/0099-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 47,
+    "char_count": 525,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2665475863650738
+    },
+    "sha256": "78f1d36d0513e09c076da89f548183ecce0c0d5040268310734a07f00aa346ac",
+    "simhash": "1:6fadf44425269699",
+    "word_count": 85
+  },
+  "last_updated": "2024-02-27T18:46:20.843173+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Damon O'NEIL, petitioner,\nv.\nUNITED STATES."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "On petition for writ of certiorari to the United States Court of Appeals for the Eighth Circuit. Motion of petitioner for leave to proceed in forma pauperis and petition for writ of certiorari granted. Judgment vacated, and case remanded to the United States Court of Appeals for the Eighth Circuit for further consideration in light of Alleyne v. United States, --- U.S. ----, 133 S.Ct. 2151, 186 L.Ed.2d 314 (2013)."
+    ],
+    "corrections": "",
+    "head_matter": "Damon O'NEIL, petitioner,\nv.\nUNITED STATES.\nNo. 13-5059.\nSupreme Court of the United States\nOct. 7, 2013.\nOn petition for writ of certiorari to the United States Court of Appeals for the Eighth Circuit. Motion of petitioner for leave to proceed in forma pauperis and petition for writ of certiorari granted. Judgment vacated, and case remanded to the United States Court of Appeals for the Eighth Circuit for further consideration in light of Alleyne v. United States, --- U.S. ----, 133 S.Ct. 2151, 186 L.Ed.2d 314 (2013)."
+  },
+  "file_name": "0801-04",
+  "first_page_order": 801,
+  "last_page_order": 801
+}

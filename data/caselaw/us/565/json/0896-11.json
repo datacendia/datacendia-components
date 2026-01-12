@@ -1,0 +1,59 @@
+{
+  "id": 12218325,
+  "name": "Pacheco v. United States",
+  "name_abbreviation": "Pacheco v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5236",
+  "first_page": "896",
+  "last_page": "896",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 896"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.694,
+    "sha256": "81f901d797a66f1a2ceae57afdd74c30d37ee1e4bcbd50149c613a583ecb0df9",
+    "simhash": "1:81bbe783cd35045a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pacheco v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5236.\nPacheco v. United States."
+  },
+  "file_name": "0896-11",
+  "first_page_order": 978,
+  "last_page_order": 978
+}

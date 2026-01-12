@@ -1,0 +1,59 @@
+{
+  "id": 12427508,
+  "name": "Jensen v. Texas",
+  "name_abbreviation": "Jensen v. Texas",
+  "decision_date": "2012-12-10",
+  "docket_number": "No. 12-7086",
+  "first_page": "1073",
+  "last_page": "1073",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1073"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.608,
+    "sha256": "5db52dd8c620136ea5f9c27da7647d7ed0b1b91806458d705e9f455f0a84dd73",
+    "simhash": "1:09888b45ee804416",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jensen v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Tex., 2d Dist. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7086.\nJensen v. Texas."
+  },
+  "file_name": "1073-12",
+  "first_page_order": 1149,
+  "last_page_order": 1149
+}

@@ -1,0 +1,59 @@
+{
+  "id": 6011050,
+  "name": "Arbutiski v. United States",
+  "name_abbreviation": "Arbutiski v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-6174",
+  "first_page": "946",
+  "last_page": "946",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 946"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.602,
+    "sha256": "89bb99d5296d8be60e124c1be705cff19bb7c8dbfa1e802338e8256993f7502b",
+    "simhash": "1:858acf016a9fad0e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Arbutiski v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6174.\nArbutiski v. United States."
+  },
+  "file_name": "0946-03",
+  "first_page_order": 968,
+  "last_page_order": 968
+}

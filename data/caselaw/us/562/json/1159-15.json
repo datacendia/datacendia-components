@@ -1,0 +1,59 @@
+{
+  "id": 5971594,
+  "name": "Bradfield v. United States",
+  "name_abbreviation": "Bradfield v. United States",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7733",
+  "first_page": "1159",
+  "last_page": "1159",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1159"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.547,
+    "sha256": "fb6acd866d0a901d621fb39f26ecc5083e046d1a331c12859e48f5f32b82e8e5",
+    "simhash": "1:06c9a7ab4f4f1e1a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bradfield v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7733.\nBradfield v. United States."
+  },
+  "file_name": "1159-15",
+  "first_page_order": 1181,
+  "last_page_order": 1181
+}

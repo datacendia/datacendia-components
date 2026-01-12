@@ -1,0 +1,61 @@
+{
+  "id": 5999479,
+  "name": "City of New York, New York, et al. v. Green, Executrix of the Estate of Green, Deceased",
+  "name_abbreviation": "City of New York v. Green",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-1426",
+  "first_page": "947",
+  "last_page": "947",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 947"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 30,
+    "char_count": 217,
+    "ocr_confidence": 0.586,
+    "sha256": "76f8fbbdf6654613aedc5abbc46b0a74bf1af53bda009aa284a6b09255b1389b",
+    "simhash": "1:997728c06aa4f04a",
+    "word_count": 38
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "City of New York, New York, et al. v. Green, Executrix of the Estate of Green, Deceased."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.\nJustice Sotomayor took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-1426.\nCity of New York, New York, et al. v. Green, Executrix of the Estate of Green, Deceased."
+  },
+  "file_name": "0947-05",
+  "first_page_order": 969,
+  "last_page_order": 969
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12433197,
+  "name": "Bedzhanyan v. United States",
+  "name_abbreviation": "Bedzhanyan v. United States",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-6273",
+  "first_page": "1232",
+  "last_page": "1232",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1232"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.602,
+    "sha256": "c44f56c6b9a03a87e0d12a62d8da9aef1dddf6d0b6dc56490c8e18614ee89612",
+    "simhash": "1:b4cbc2c14ecdb25f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bedzhanyan v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6273.\nBedzhanyan v. United States."
+  },
+  "file_name": "1232-07",
+  "first_page_order": 1308,
+  "last_page_order": 1308
+}

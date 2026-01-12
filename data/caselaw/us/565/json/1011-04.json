@@ -1,0 +1,59 @@
+{
+  "id": 12232218,
+  "name": "In re Bakhouche, aka Ali",
+  "name_abbreviation": "In re Bakhouche",
+  "decision_date": "2011-11-07",
+  "docket_number": "No. 11M42",
+  "first_page": "1011",
+  "last_page": "1011",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1011"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 23,
+    "char_count": 149,
+    "ocr_confidence": 0.662,
+    "sha256": "cccd5d3cea08c81f4d2bfea00089601f86892719b6184bf02484af3fc342ade6",
+    "simhash": "1:0324791004a88440",
+    "word_count": 24
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Bakhouche, aka Ali."
+    ],
+    "opinions": [
+      {
+        "text": "Motion for leave to proceed in forma pauperis without an affidavit of indigency executed by petitioner granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11M42.\nIn re Bakhouche, aka Ali."
+  },
+  "file_name": "1011-04",
+  "first_page_order": 1093,
+  "last_page_order": 1093
+}

@@ -1,0 +1,83 @@
+{
+  "id": 2250971,
+  "name": "The William Buchanan Foundation (University of Texas) v. John Ben Shepperd",
+  "name_abbreviation": "William Buchanan Foundation v. Shepperd",
+  "decision_date": "1956-04-11",
+  "docket_number": "No. A-5568",
+  "first_page": "406",
+  "last_page": "407",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "155 Tex. 406"
+    },
+    {
+      "type": "parallel",
+      "cite": "289 S.W. Series 553"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "283 S.W. 2d 325",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10180050
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/283/0325-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 89,
+    "char_count": 826,
+    "ocr_confidence": 0.576,
+    "pagerank": {
+      "raw": 1.284586136888544e-07,
+      "percentile": 0.6183657811710258
+    },
+    "sha256": "e7846824b54e5167cb5fd03e6c7e2429a48b923b88b8162eb2680ec17e7ee45e",
+    "simhash": "1:616a40f669a9dd47",
+    "word_count": 132
+  },
+  "last_updated": "2024-02-27T17:06:22.463837+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "The William Buchanan Foundation (University of Texas) v. John Ben Shepperd."
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM.\nOn agreed motion of the parties the judgments of the District Court and Court of Civil Appeals, 283 S.W. 2d 325, in above cause are reversed, and the cause is remanded to the trial court with instructions to enter such orders and decrees and to take such further action as may be required to effectuate the agreement of the parties.\nCosts of appeal are assessed against petitioner, William Buchanan Foundation.\nOpinion delivered April 11, 1956.",
+        "type": "majority",
+        "author": "PER CURIAM."
+      }
+    ],
+    "attorneys": [
+      "Black & Stayton, Scott Gaines and Ruper P. Harkrider, all of Austin, for petitioners.",
+      "John Ben Shepperd, Attorney General, W. P. Geppert, Marietta McGregor Payne and William H. Holloway, Assistants to Attorney General, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "The William Buchanan Foundation (University of Texas) v. John Ben Shepperd.\nNo. A-5568.\nDecided April 11, 1956.\n(289 S.W. Series 553)\nBlack & Stayton, Scott Gaines and Ruper P. Harkrider, all of Austin, for petitioners.\nJohn Ben Shepperd, Attorney General, W. P. Geppert, Marietta McGregor Payne and William H. Holloway, Assistants to Attorney General, for respondent."
+  },
+  "file_name": "0406-01",
+  "first_page_order": 420,
+  "last_page_order": 421
+}

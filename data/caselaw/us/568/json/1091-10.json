@@ -1,0 +1,59 @@
+{
+  "id": 12428049,
+  "name": "Gillispie v. West Virginia",
+  "name_abbreviation": "Gillispie v. West Virginia",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-5688",
+  "first_page": "1091",
+  "last_page": "1091",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1091"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 81,
+    "ocr_confidence": 0.686,
+    "sha256": "bce9de6eb3a4e79e24a9b497a41bf2447b5147d2a50d94386908a8503b6d8790",
+    "simhash": "1:2a24009b9610a078",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gillispie v. West Virginia."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. App. W. Va. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5688.\nGillispie v. West Virginia."
+  },
+  "file_name": "1091-10",
+  "first_page_order": 1167,
+  "last_page_order": 1167
+}

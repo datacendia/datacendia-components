@@ -1,0 +1,90 @@
+{
+  "id": 12407783,
+  "name": "Clapper, Director of National Intelligence, et al. v. Amnesty International USA et al.",
+  "name_abbreviation": "Clapper v. Amnesty International USA",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. 11-1025",
+  "first_page": "904",
+  "last_page": "904",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 904"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "566 U. S. 1009",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12219968,
+        12219943,
+        12219975,
+        12219945,
+        12220008,
+        12219984,
+        12220048,
+        12220023,
+        12219963,
+        12219995
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/566/1009-04",
+        "/us/566/1009-01",
+        "/us/566/1009-05",
+        "/us/566/1009-02",
+        "/us/566/1009-08",
+        "/us/566/1009-06",
+        "/us/566/1009-10",
+        "/us/566/1009-09",
+        "/us/566/1009-03",
+        "/us/566/1009-07"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 33,
+    "char_count": 238,
+    "ocr_confidence": 0.657,
+    "sha256": "f2a953b9074fbc19d4ae36fee88c7e46bce51fbc9c211cada7960622b47e8b3d",
+    "simhash": "1:9844e8c23d70f469",
+    "word_count": 38
+  },
+  "last_updated": "2024-02-27T23:46:21.325002+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Clapper, Director of National Intelligence, et al. v. Amnesty International USA et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. [Certiorari granted, 566 U. S. 1009.] Motion of the Solicitor General to dispense with printing the joint appendix granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1025.\nClapper, Director of National Intelligence, et al. v. Amnesty International USA et al."
+  },
+  "file_name": "0904-05",
+  "first_page_order": 808,
+  "last_page_order": 808
+}

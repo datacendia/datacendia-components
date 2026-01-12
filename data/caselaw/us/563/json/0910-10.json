@@ -1,0 +1,59 @@
+{
+  "id": 5909593,
+  "name": "Stanton v. Salzburg, Attorney General of Wyoming",
+  "name_abbreviation": "Stanton v. Salzburg",
+  "decision_date": "2011-03-28",
+  "docket_number": "No. 10-9046",
+  "first_page": "910",
+  "last_page": "910",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 910"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 98,
+    "ocr_confidence": 0.585,
+    "sha256": "12aa41e68972874faf4d89da5c86b0c7a75099cd8b036d28aa5be6a44b8ee955",
+    "simhash": "1:17c0008d8227f22c",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Stanton v. Salzburg, Attorney General of Wyoming."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9046.\nStanton v. Salzburg, Attorney General of Wyoming."
+  },
+  "file_name": "0910-10",
+  "first_page_order": 936,
+  "last_page_order": 936
+}

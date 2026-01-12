@@ -1,0 +1,59 @@
+{
+  "id": 5943368,
+  "name": "Flor v. Pennsylvania",
+  "name_abbreviation": "Flor v. Pennsylvania",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-8909",
+  "first_page": "941",
+  "last_page": "941",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 941"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 67,
+    "ocr_confidence": 0.628,
+    "sha256": "1dc85791757cb5d06dc3d5b55689d49bb68d1bedae4b0445060910a905995772",
+    "simhash": "1:be43a8faf0497148",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Flor v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Pa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8909.\nFlor v. Pennsylvania."
+  },
+  "file_name": "0941-09",
+  "first_page_order": 967,
+  "last_page_order": 967
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12212248,
+  "name": "Windsor v. Kentucky",
+  "name_abbreviation": "Windsor v. Kentucky",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11223",
+  "first_page": "873",
+  "last_page": "873",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 873"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 68,
+    "ocr_confidence": 0.686,
+    "sha256": "731b3e488976de13747ed33564b5b7d5319ee981442a34f0ed4430ab384fead9",
+    "simhash": "1:170827214f09d140",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Windsor v. Kentucky."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ky. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11223.\nWindsor v. Kentucky."
+  },
+  "file_name": "0873-10",
+  "first_page_order": 955,
+  "last_page_order": 955
+}

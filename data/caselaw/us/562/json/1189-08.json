@@ -1,0 +1,59 @@
+{
+  "id": 5994128,
+  "name": "Jordan v. Gobo, Inc.",
+  "name_abbreviation": "Jordan v. Gobo, Inc.",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-7752",
+  "first_page": "1189",
+  "last_page": "1189",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1189"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 68,
+    "ocr_confidence": 0.647,
+    "sha256": "1e5f8642ca25c0e0c8cb5d1d63e796cda2787ef3908a06c3fdad26cb7cd0a515",
+    "simhash": "1:ea8aba71dee5b1c3",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jordan v. Gobo, Inc."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7752.\nJordan v. Gobo, Inc."
+  },
+  "file_name": "1189-08",
+  "first_page_order": 1211,
+  "last_page_order": 1211
+}

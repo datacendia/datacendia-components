@@ -1,0 +1,59 @@
+{
+  "id": 12416066,
+  "name": "Hagood v. Reynolds, Warden",
+  "name_abbreviation": "Hagood v. Reynolds",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5480",
+  "first_page": "914",
+  "last_page": "914",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 914"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.656,
+    "sha256": "7af74b7403b7545936d24b4d85b12d70f4ebedc0e96ab1a9bc80d4f9b3023286",
+    "simhash": "1:338260f05c4f30df",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hagood v. Reynolds, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5480.\nHagood v. Reynolds, Warden."
+  },
+  "file_name": "0914-14",
+  "first_page_order": 990,
+  "last_page_order": 990
+}

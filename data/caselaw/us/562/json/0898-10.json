@@ -1,0 +1,59 @@
+{
+  "id": 6027806,
+  "name": "Murray v. Cain, Warden",
+  "name_abbreviation": "Murray v. Cain",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5008",
+  "first_page": "898",
+  "last_page": "898",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 898"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.604,
+    "sha256": "5bc3991fa7f4361e97f2c294896bc85af55775645a1384879cee94dc5920d71b",
+    "simhash": "1:ed1c9382194abc6f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Murray v. Cain, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5008.\nMurray v. Cain, Warden."
+  },
+  "file_name": "0898-10",
+  "first_page_order": 920,
+  "last_page_order": 920
+}

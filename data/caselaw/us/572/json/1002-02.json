@@ -1,0 +1,68 @@
+{
+  "id": 12704836,
+  "name": "In re Victor DEL RIO, petitioner.",
+  "name_abbreviation": "In re Del Rio",
+  "decision_date": "2014-03-10",
+  "docket_number": "No. 13\u2013858.",
+  "first_page": "1002",
+  "last_page": "1002",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "572 U.S. 1002"
+    },
+    {
+      "type": "parallel",
+      "cite": "188 L. Ed. 2d 464"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 1522"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 22,
+    "char_count": 136,
+    "sha256": "1987394c61d2affd0c387c981787c6cfee984b39f84aa88b5171f33e5312135f",
+    "simhash": "1:486904d0ee010037",
+    "word_count": 23
+  },
+  "last_updated": "2021-08-27T20:44:00.426858+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Victor DEL RIO, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of mandamus denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re Victor DEL RIO, petitioner.\nNo. 13-858.\nSupreme Court of the United States\nMarch 10, 2014.\nPetition for writ of mandamus denied."
+  },
+  "file_name": "1002-02",
+  "first_page_order": 1002,
+  "last_page_order": 1002
+}

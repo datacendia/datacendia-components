@@ -1,0 +1,59 @@
+{
+  "id": 6031706,
+  "name": "Garcia-Ramirez v. United States",
+  "name_abbreviation": "Garcia-Ramirez v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-6098",
+  "first_page": "944",
+  "last_page": "944",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 944"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 80,
+    "ocr_confidence": 0.601,
+    "sha256": "c104b2a620645fff39d154f9d4700c1981374d31d3260958dca35ba4ce56aca2",
+    "simhash": "1:04889a820828541d",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Garcia-Ramirez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6098.\nGarcia-Ramirez v. United States."
+  },
+  "file_name": "0944-14",
+  "first_page_order": 966,
+  "last_page_order": 966
+}

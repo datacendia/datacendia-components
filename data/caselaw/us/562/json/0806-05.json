@@ -1,0 +1,82 @@
+{
+  "id": 5912579,
+  "name": "McCray v. Clerk of the Court",
+  "name_abbreviation": "McCray v. Clerk of the Court",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5345",
+  "first_page": "806",
+  "last_page": "806",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 806"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "506 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11924825
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/506/0001-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 70,
+    "char_count": 546,
+    "ocr_confidence": 0.549,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.17176773626570507
+    },
+    "sha256": "80c9c5bd095db91cbc2a41f7fe930ae7bcb36b05d6a72e1b2c461c30fc1164ad",
+    "simhash": "1:ed2a9c8d452dd42d",
+    "word_count": 91
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McCray v. Clerk of the Court."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Tex., 5th Dist. Motion of petitioner for leave to proceed informa pauperis denied, and certiorari dismissed. See this Court's Rule 39.8. As petitioner has repeatedly abused this Court\u2019s process, the Clerk is directed not to accept any further petitions in noncriminal matters from petitioner unless the docketing fee required by Rule 38(a) is paid and the petition is submitted in compliance with Rule 33.1. See Martin v. District of Columbia Court of Appeals, 506 U. S. 1 (1992) (per curiam).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5345.\nMcCray v. Clerk of the Court."
+  },
+  "file_name": "0806-05",
+  "first_page_order": 828,
+  "last_page_order": 828
+}

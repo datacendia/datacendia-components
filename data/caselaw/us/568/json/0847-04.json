@@ -1,0 +1,59 @@
+{
+  "id": 12413198,
+  "name": "Anderson v. Brunsman, Warden",
+  "name_abbreviation": "Anderson v. Brunsman",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10517",
+  "first_page": "847",
+  "last_page": "847",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 847"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 78,
+    "ocr_confidence": 0.608,
+    "sha256": "6ca1cfc756f742d893e5f5e0e6edc160d9da4aeeb2ad99fb075368a4bf8c149f",
+    "simhash": "1:e4c826cbda3a0c66",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Anderson v. Brunsman, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10517.\nAnderson v. Brunsman, Warden."
+  },
+  "file_name": "0847-04",
+  "first_page_order": 923,
+  "last_page_order": 923
+}

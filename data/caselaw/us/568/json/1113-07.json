@@ -1,0 +1,59 @@
+{
+  "id": 12428984,
+  "name": "Seiver v. United States",
+  "name_abbreviation": "Seiver v. United States",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-7551",
+  "first_page": "1113",
+  "last_page": "1113",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1113"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.611,
+    "sha256": "b97979da0f02960285782fece8f7e2c8f904f3e2aae6b8c0c31f35de3f2bb9fa",
+    "simhash": "1:02c88a8b4a90d010",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Seiver v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7551.\nSeiver v. United States."
+  },
+  "file_name": "1113-07",
+  "first_page_order": 1189,
+  "last_page_order": 1189
+}

@@ -1,0 +1,68 @@
+{
+  "id": 12703444,
+  "name": "Larry Dale SMITH, petitioner, v. UNITED STATES.",
+  "name_abbreviation": "Smith v. United States",
+  "decision_date": "2013-10-07",
+  "docket_number": "No. 13\u20135184.",
+  "first_page": "901",
+  "last_page": "901",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 901"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 181"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 244"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 211,
+    "sha256": "1d7f0b541170b9cd66e6954bb348c86b1585553da48d08f47333e75c70377f9c",
+    "simhash": "1:41af74447aa50691",
+    "word_count": 35
+  },
+  "last_updated": "2021-09-08T21:16:17.237805+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Larry Dale SMITH, petitioner,\nv.\nUNITED STATES."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of certiorari to the United States Court of Appeals for the Fifth Circuit denied."
+    ],
+    "corrections": "",
+    "head_matter": "Larry Dale SMITH, petitioner,\nv.\nUNITED STATES.\nNo. 13-5184.\nSupreme Court of the United States\nOct. 7, 2013.\nPetition for writ of certiorari to the United States Court of Appeals for the Fifth Circuit denied."
+  },
+  "file_name": "0901-13",
+  "first_page_order": 901,
+  "last_page_order": 901
+}

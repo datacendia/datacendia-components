@@ -1,0 +1,59 @@
+{
+  "id": 5990684,
+  "name": "Johnson v. California",
+  "name_abbreviation": "Johnson v. California",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11045",
+  "first_page": "860",
+  "last_page": "860",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 860"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 70,
+    "ocr_confidence": 0.639,
+    "sha256": "1e6eaf49296569ea0e6495c9927b7e212e675b4d745aed0d6e442858e36113c5",
+    "simhash": "1:0e0b93d74ef4117f",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Johnson v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11045.\nJohnson v. California."
+  },
+  "file_name": "0860-06",
+  "first_page_order": 882,
+  "last_page_order": 882
+}

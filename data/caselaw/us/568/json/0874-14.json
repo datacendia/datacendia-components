@@ -1,0 +1,59 @@
+{
+  "id": 12414670,
+  "name": "Faulkenberry v. United States",
+  "name_abbreviation": "Faulkenberry v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-11022",
+  "first_page": "874",
+  "last_page": "874",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 874"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.758,
+    "sha256": "b1727e46ab46b20bd708ad7bde36c93e8659cd9e2a6bb9a2a5b0a15ea497da98",
+    "simhash": "1:87aa82834e3d9838",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Faulkenberry v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-11022.\nFaulkenberry v. United States."
+  },
+  "file_name": "0874-14",
+  "first_page_order": 950,
+  "last_page_order": 950
+}

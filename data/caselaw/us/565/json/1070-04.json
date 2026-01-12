@@ -1,0 +1,59 @@
+{
+  "id": 12236180,
+  "name": "Falls v. Fondren, Warden",
+  "name_abbreviation": "Falls v. Fondren",
+  "decision_date": "2011-11-28",
+  "docket_number": "No. 11-6985",
+  "first_page": "1070",
+  "last_page": "1070",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1070"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.599,
+    "sha256": "f176463d1d48f26291ed24c5a23cc161df92d04e0374570b71f61cebc0d47a37",
+    "simhash": "1:10bb46c34fdf166e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Falls v. Fondren, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6985.\nFalls v. Fondren, Warden."
+  },
+  "file_name": "1070-04",
+  "first_page_order": 1152,
+  "last_page_order": 1152
+}

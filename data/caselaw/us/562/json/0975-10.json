@@ -1,0 +1,59 @@
+{
+  "id": 6001501,
+  "name": "Mancha-Perez v. United States",
+  "name_abbreviation": "Mancha-Perez v. United States",
+  "decision_date": "2010-10-12",
+  "docket_number": "No. 10-6380",
+  "first_page": "975",
+  "last_page": "975",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 975"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 78,
+    "ocr_confidence": 0.618,
+    "sha256": "791fbf05fb082b966110a55d044fb0fe56693fb7e56bc4e9064757ca892f4973",
+    "simhash": "1:051ad3020d0a9c49",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mancha-Perez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6380.\nMancha-Perez v. United States."
+  },
+  "file_name": "0975-10",
+  "first_page_order": 997,
+  "last_page_order": 997
+}

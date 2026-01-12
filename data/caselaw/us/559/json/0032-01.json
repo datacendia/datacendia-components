@@ -1,0 +1,97 @@
+{
+  "id": 3581792,
+  "name": "BRISCOE et al. v. VIRGINIA",
+  "name_abbreviation": "Briscoe v. Virginia",
+  "decision_date": "2010-01-25",
+  "docket_number": "No. 07-11191",
+  "first_page": "32",
+  "last_page": "33",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "559 U.S. 32"
+    },
+    {
+      "type": "parallel",
+      "cite": "175 L. Ed. 2d 966"
+    },
+    {
+      "type": "parallel",
+      "cite": "130 S. Ct. 1316"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2009-010"
+    },
+    {
+      "type": "vendor",
+      "cite": "2010 U.S. LEXIS 767"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "557 U. S. 305",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3657952
+      ],
+      "year": 2009,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/557/0305-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 223,
+    "char_count": 2451,
+    "ocr_confidence": 0.605,
+    "pagerank": {
+      "raw": 5.096496015484066e-07,
+      "percentile": 0.9382004510687689
+    },
+    "sha256": "7851d872fa11c71b426f0eeb9442769d43176008b578871bc99ae5c0af8fec2d",
+    "simhash": "1:8e0d8567cb9d846c",
+    "word_count": 397
+  },
+  "last_updated": "2024-02-27T16:02:41.844851+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "BRISCOE et al. v. VIRGINIA"
+    ],
+    "opinions": [
+      {
+        "text": "Per Curiam.\nWe vacate the judgment of the Supreme Court of Virginia and remand the case for further proceedings not inconsistent with the opinion in Melendez-Diaz v. Massachusetts, 557 U. S. 305 (2009).\nIt is so ordered.",
+        "type": "majority",
+        "author": "Per Curiam."
+      }
+    ],
+    "attorneys": [
+      "Richard D. Friedman argued the cause for petitioners. With him on the briefs were Joseph D. King, Thomas B. Shuttleworth, and Charles B. Lustig.",
+      "Stephen R. McCullough, State Solicitor General of Virginia, argued the cause for respondent. With him on the brief were William C. Mims, Attorney General, Martin L. Kent, Chief Deputy Attorney General, Eugene Murphy, Senior Assistant Attorney General, Alice T. Armstrong, Assistant Attorney General II, and William E. Thro.",
+      "Leondra R. Kruger argued the cause for the United States as amicus curiae urging affirmance. With her on the brief were Solicitor General Kagan, Assistant Attorney General Breuer, Deputy Solicitor General Dreeben, and David E. Hollar."
+    ],
+    "corrections": "",
+    "head_matter": "BRISCOE et al. v. VIRGINIA\nNo. 07-11191.\nArgued January 11, 2010\nDecided January 25, 2010\nRichard D. Friedman argued the cause for petitioners. With him on the briefs were Joseph D. King, Thomas B. Shuttleworth, and Charles B. Lustig.\nStephen R. McCullough, State Solicitor General of Virginia, argued the cause for respondent. With him on the brief were William C. Mims, Attorney General, Martin L. Kent, Chief Deputy Attorney General, Eugene Murphy, Senior Assistant Attorney General, Alice T. Armstrong, Assistant Attorney General II, and William E. Thro.\nLeondra R. Kruger argued the cause for the United States as amicus curiae urging affirmance. With her on the brief were Solicitor General Kagan, Assistant Attorney General Breuer, Deputy Solicitor General Dreeben, and David E. Hollar.\nTimothy P. O\u2019Toole, Sandra K. Levick, Catharine F. Easterly, and Jeffrey L. Fisher filed a brief for the Public Defender Service for the District of Columbia et al. as amici curiae urging reversal.\nA brief of amici curiae urging affirmance was filed for the State of Indiana et al. by Gregory F. Zoeller, Attorney General of Indiana, Thomas M. Fisher, Solicitor General, and Stephen R. Creason, Heather L. Hagan, and Ashley E. Taiman, Deputy Attorneys General, by Martha Coakley, Attorney General of Massachusetts, and James J. Arguin and David S. Friedman, Assistant Attorneys General, by Kevin T. Kane, Chief State\u2019s Attorney of Connecticut, and by the Attorneys General for their respective jurisdictions as follows: Troy King of Alabama, Terry Goddard of Arizona, John W. Suthers of Colorado, Joseph R. Biden III of Delaware, Peter J. Nickles of the District of Columbia, Bill McCollum of Florida, Lawrence G. Wasden of Idaho, Tom Miller of Iowa, Steve Six of Kansas, Douglas F. Gansler of Maryland, Michael A. Cox of Michigan, Lori Swanson of Minnesota, Anne Milgram of New Jersey, Gary K King of New Mexico, Wayne Stenehjem of North Dakota, Richard Cordray of Ohio, W. A Drew Edmondson of Oklahoma, Henry D. McMaster of South Carolina, Marty J. Jackley of South Dakota, Robert E. Cooper, Jr., of Tennessee, Mark L. Shurtleffoi Utah, Robert M. McKenna of Washington, J. B. Van Hollen of Wisconsin, and Bruce A Salzburg of Wyoming."
+  },
+  "file_name": "0032-01",
+  "first_page_order": 132,
+  "last_page_order": 133
+}

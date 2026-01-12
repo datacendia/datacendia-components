@@ -1,0 +1,59 @@
+{
+  "id": 12428808,
+  "name": "Stephen v. United States",
+  "name_abbreviation": "Stephen v. United States",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-7378",
+  "first_page": "1109",
+  "last_page": "1109",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1109"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.663,
+    "sha256": "1141cbbfca2e38a347cb7b7493e6165714878b5d47f841f5b2b05443c32f5e85",
+    "simhash": "1:153bca63678db03a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Stephen v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7378.\nStephen v. United States."
+  },
+  "file_name": "1109-12",
+  "first_page_order": 1185,
+  "last_page_order": 1185
+}

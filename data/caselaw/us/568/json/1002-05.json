@@ -1,0 +1,59 @@
+{
+  "id": 12422091,
+  "name": "Hollins v. Illinois",
+  "name_abbreviation": "Hollins v. Illinois",
+  "decision_date": "2012-11-05",
+  "docket_number": "No. 12-6395",
+  "first_page": "1002",
+  "last_page": "1002",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1002"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 67,
+    "ocr_confidence": 0.69,
+    "sha256": "124e8b2d4c8d2dfb922cc206e7e3b82336b452e42a44910e8e651eb808e84f65",
+    "simhash": "1:1152041f9ad4d761",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hollins v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ill. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6395.\nHollins v. Illinois."
+  },
+  "file_name": "1002-05",
+  "first_page_order": 1078,
+  "last_page_order": 1078
+}

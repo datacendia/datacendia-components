@@ -1,0 +1,717 @@
+{
+  "id": 4000540,
+  "name": "In re SERGIO C. GARCIA on Admission",
+  "name_abbreviation": "In re Garcia",
+  "decision_date": "2014-01-02",
+  "docket_number": "No. S202512",
+  "first_page": "440",
+  "last_page": "468",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "58 Cal. 4th 440"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal.",
+    "id": 9021,
+    "name": "Supreme Court of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "461 P.2d 375",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "82 Cal.Rptr. 175",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "1 Cal.3d 214",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1183290
+      ],
+      "pin_cites": [
+        {
+          "page": "227"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/1/0214-01"
+      ]
+    },
+    {
+      "cite": "781 P.2d 1344",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "263 Cal.Rptr. 798",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 Cal.3d 804",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1974314
+      ],
+      "pin_cites": [
+        {
+          "page": "815"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/49/0804-01"
+      ]
+    },
+    {
+      "cite": "1 Cal.3d 288",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "281 P. 1018",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "8 U.S.C. \u00a7 1101",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(15)(A)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "558 U.S. 100",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3638928
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "103"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/558/0100-01"
+      ]
+    },
+    {
+      "cite": "17 P.3d 764",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "104 Cal.Rptr.2d 409",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Cal.4th 11",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        265434
+      ],
+      "pin_cites": [
+        {
+          "page": "14"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/25/0011-01"
+      ]
+    },
+    {
+      "cite": "791 P.2d 319",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2001,
+      "opinion_index": 0
+    },
+    {
+      "cite": "269 Cal.Rptr. 749",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 2001,
+      "opinion_index": 0
+    },
+    {
+      "cite": "50 Cal.3d 1061",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4460663
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "1068"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/50/1061-01"
+      ]
+    },
+    {
+      "cite": "905 P.2d 944",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.Rptr.2d 2",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "11 Cal.4th 975",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1960669
+      ],
+      "pin_cites": [
+        {
+          "page": "983"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/11/0975-01"
+      ]
+    },
+    {
+      "cite": "741 P.2d 1138",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "239 Cal.Rptr. 897",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.3d 1041",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4626786
+      ],
+      "pin_cites": [
+        {
+          "page": "1047"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/43/1041-01"
+      ]
+    },
+    {
+      "cite": "666 P.2d 10",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1987,
+      "opinion_index": 0
+    },
+    {
+      "cite": "193 Cal.Rptr. 153",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1987,
+      "opinion_index": 0
+    },
+    {
+      "cite": "34 Cal.3d 150",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4552135
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "155-156"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/34/0150-01"
+      ]
+    },
+    {
+      "cite": "8 U.S.C. \u00a7\u00a7 1227",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(1)(B)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "421 P.2d 76",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "55 Cal.Rptr. 228",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "65 Cal.2d 447",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2326717
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "459"
+        },
+        {
+          "page": "452"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/65/0447-01"
+      ]
+    },
+    {
+      "cite": "8 U.S.C. \u00a7\u00a7 1182",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "967 P.2d 49",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "79 Cal.Rptr.2d 836",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 Cal.4th 582",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1709368
+      ],
+      "pin_cites": [
+        {
+          "page": "602-603"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/19/0582-01"
+      ]
+    },
+    {
+      "cite": "208 Cal. 439",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2175823
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "442-446"
+        },
+        {
+          "page": "445-446"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/208/0439-01"
+      ]
+    },
+    {
+      "cite": "241 P.3d 855",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "117 Cal.Rptr.3d 359",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "50 Cal.4th 1277",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3910308
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1294-1296"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/50/1277-01"
+      ]
+    },
+    {
+      "cite": "8 U.S.C. \u00a7 1621",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(c)"
+        },
+        {
+          "page": "(a)(1)"
+        },
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "110 Stat. 2105",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 U.S.C. \u00a7 12101",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "859 F.Supp. 1489",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        7408181
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/859/1489-01"
+      ]
+    },
+    {
+      "cite": "312 U.S. 52",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        359179
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "62-74"
+        },
+        {
+          "page": "pp. 62-63"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/312/0052-01"
+      ]
+    },
+    {
+      "cite": "92 L.Ed. 1478",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "year": 1941,
+      "opinion_index": 0
+    },
+    {
+      "cite": "334 U.S. 410",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6158305
+      ],
+      "weight": 2,
+      "year": 1941,
+      "pin_cites": [
+        {
+          "page": "419"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/334/0410-01"
+      ]
+    },
+    {
+      "cite": "183 L.Ed.2d 351",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12407266
+      ],
+      "weight": 5,
+      "year": 1948,
+      "pin_cites": [
+        {
+          "page": "366-369"
+        },
+        {
+          "page": "366-367"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/567/0387-01"
+      ]
+    },
+    {
+      "cite": "413 U.S. 717",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11342796
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/413/0717-01"
+      ]
+    },
+    {
+      "cite": "496 P.2d 1264",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "101 Cal.Rptr. 896",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "7 Cal.3d 288",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2277370
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/7/0288-01"
+      ]
+    },
+    {
+      "cite": "41 P.2d 161",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "2 Cal.2d 324",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2197240
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "328"
+        },
+        {
+          "page": "327-333"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/2/0324-01"
+      ]
+    },
+    {
+      "cite": "636 P.2d 1139",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "178 Cal.Rptr. 801",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal.3d 329",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2013844
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "336-337"
+        },
+        {
+          "page": "336-337"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/30/0329-01"
+      ]
+    },
+    {
+      "cite": "241 P.3d 855",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "117 Cal.Rptr.3d 359",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "50 Cal.4th 1277",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3910308
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-4th/50/1277-01"
+      ]
+    },
+    {
+      "cite": "8 U.S.C. \u00a7 1621",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(d)"
+        }
+      ],
+      "opinion_index": 1
+    }
+  ],
+  "analysis": {
+    "cardinality": 2185,
+    "char_count": 73516,
+    "ocr_confidence": 0.9,
+    "pagerank": {
+      "raw": 6.715242859567609e-08,
+      "percentile": 0.40777609042071566
+    },
+    "sha256": "871d5a3d0619faa3af2c04933915b5ae1fcb1fac3f52d9444250e23bff049821",
+    "simhash": "1:e19afb206d488229",
+    "word_count": 11665
+  },
+  "last_updated": "2024-02-27T23:07:49.858399+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re SERGIO C. GARCIA on Admission."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nCANTIL-SAKAUYE, C. J.\nThe Committee of Bar Examiners (Committee)\u2014 the entity within the State Bar of California (State Bar) that administers the California bar examination, investigates the qualifications of bar applicants, and certifies to this court candidates it finds qualified for admission to the State Bar\u2014has submitted the name of Sergio C. Garcia (hereafter Garcia or applicant) for admission to the State Bar. In conjunction with its certification, the Committee has brought to the court\u2019s attention the fact that Garcia\u2019s current immigration status is that of an undocumented immigrant, and has noted that the question whether an undocumented immigrant may be admitted to the State Bar is an issue that has not previously been addressed or decided by this court. We issued an order to show cause in this matter to address the question.\nOur order to show cause requested briefing on a number of issues raised by the Committee\u2019s motion to admit Garcia to the State Bar, including the proper interpretation of a federal statute\u2014section 1621 of title 8 of the United States Code (hereafter section 1621)\u2014that generally restricts an undocumented immigrant\u2019s eligibility to obtain a professional license but that also contains a subsection expressly authorizing a state to render an undocumented immigrant eligible to obtain such a professional license through the enactment of a state law meeting specified requirements. Very shortly after we held oral argument in this matter, the California Legislature enacted a statute that was intended to satisfy this aspect of section 1621 and the Governor signed that legislation into law. (Bus. & Prof. Code, \u00a7 6064, subd. (b); Stats. 2013, ch. 573, \u00a7 1, enacting Assem. Bill No. 1024 (2013-2014 Reg. Sess.) as amended Sept. 6, 2013.) The new legislation became effective on January 1, 2014.\nIn light of the recently enacted state legislation, we conclude that the Committee\u2019s motion to admit Garcia to the State Bar should be granted. The new legislation removes any potential statutory obstacle to Garcia\u2019s admission posed by section 1621, and there is no other federal statute that purports to preclude a state from granting a license to practice law to an undocumented immigrant. The new statute also reflects that the Legislature and the Governor have concluded that the admission of an undocumented immigrant who has met all the qualifications for admission to the State Bar is fully consistent with this state\u2019s public policy, and, as this opinion explains, we find no basis to disagree with that conclusion. Finally, we agree with the Committee\u2019s determination that Garcia possesses the requisite good moral character to warrant admission to the State Bar and, pursuant to our constitutional authority, grant the Committee\u2019s motion to admit Garcia to the State Bar.\nI. Summary of Facts and State Bar Proceedings\nThe record before us indicates that applicant Garcia was bom in Villa Jimenez, Mexico, on March 1, 1977. When he was 17 months old, his parents brought him to California, without inspection or documentation by immigration officials. He lived in California until 1986 (when he was nine years old) and then he and his parents moved back to Mexico. In 1994, when Garcia was 17 years old, he and his parents returned to California; again Garcia entered the country without documentation. At that time, Garcia\u2019s father had obtained lawful permanent resident status in the United States pursuant to federal immigration law, and on November 18, 1994, his father filed an immigration visa petition (form 1-130 [petition for alien relative]) on Garcia\u2019s behalf. The petition was accepted by federal immigration officials on January 31, 1995. Under federal immigration law, the visa petition provides Garcia with a basis to apply for adjustment of his immigration status to that of a lawful permanent resident when an immigrant visa number becomes available. Under current provisions of federal immigration law, however, the number of available immigrant visas that may be issued each year is limited and is based upon an applicant\u2019s country of origin. Because the current backlog of persons of Mexican origin who are seeking immigrant visas is so large, as of the date of this opinion\u2014more than 19 years after Garcia\u2019s visa petition was filed\u2014a visa number still has not become available for Garcia.\nGarcia has resided in California without interruption since 1994. During this period of time, he graduated from high school, attended Butte College, California State University at Chico, and Cal Northern School of Law. He received his law degree from Cal Northern School of Law in May 2009, and took and passed the July 2009 California bar examination.\nIn response to questions on the State Bar\u2019s application for determination of moral character, Garcia indicated that he is not a United States citizen and that his immigration status is \u201cPending.\u201d The Committee conducted an extensive investigation of Garcia\u2019s background, employment history, and past activities, received numerous reference letters supporting Garcia\u2019s application and attesting to his outstanding moral character and significant contributions to the community, and ultimately determined that Garcia possessed the requisite good moral character to qualify for admission to the State Bar.\nThereafter, in connection with its motion submitting Garcia\u2019s name to this court for admission to the State Bar, the Committee brought to this court\u2019s attention the fact that Garcia \u201cdoes not have legal immigration status in the United States\u201d and noted that, to its knowledge, \u201cthis is a case of first impression, as we are not aware of any other jurisdiction that has ever knowingly admitted an undocumented alien to the practice of law.\u201d The Committee also pointed out \u201cthat there are additional applicants currently working their way through the admissions process with similar immigration issues.\u201d\nIn response to the Committee\u2019s motion, we issued an order directing the Committee \u201cto show cause before this court why its motion for admission of Sergio C. Garcia to the State Bar of California should be granted.\u201d Our order set forth a number of issues to be addressed, including several related to the relevance, interpretation, and significance of the federal statute noted earlier, namely section 1621. In addition, our order invited the filing of applications for permission to file an amicus curiae brief, either in support of or opposition to the motion, and, in particular, invited such applications from the State of California Department of Justice, Office of the Attorney General and the United States Department of Justice, Office of the Attorney General.\nIn response to our order, the Committee and Garcia filed separate briefs in support of the motion for admission of Garcia to the State Bar. In addition, the California Attorney General as well as a large number of organizations and individuals filed amicus curiae briefs supporting the motion for Garcia\u2019s admission. The United States Department of Justice and two individuals filed amicus curiae briefs in opposition to the motion. The Committee and Garcia then filed separate replies to the amicus curiae briefs opposing the motion.\n\u201c1. Does 8 U.S.C. section [1621(c)] apply and preclude this court\u2019s admission of an undocumented immigrant to the State Bar of California? Does any other statute, regulation, or authority preclude the admission?\n\u201c2. Is there any state legislation that provides\u2014as specifically authorized by 8 U.S.C. section [1621(d)]\u2014that undocumented immigrants are eligible for professional licenses in fields such as law, medicine, or other professions, and, if not, what significance, if any, should be given to the absence of such legislation?\n\u201c3. Does the issuance of a license to practice law impliedly represent that the licensee may be legally employed as an attorney?\n\u201c4. If licensed, what are the legal and public policy limitations, if any, on an undocumented immigrant\u2019s ability to practice law?\n\u201c5. What, if any, other public policy concerns arise with a grant of this application?\u201d\nWe held oral argument in this matter on September 4, 2013. On September 6, 2013, a pending bill\u2014Assembly Bill No. 1024 (2013-2014 Reg. Sess.)\u2014 was amended in its entirety and its contents were replaced by a new provision adding Business and Professions Code section 6064, subdivision (b) (hereafter section 6064(b)), authorizing this court to admit as an attorney at law \u201can applicant who is not lawfully present in the United States [who] has fulfilled the requirements for admission to practice law . . . .\u201d Assembly Bill No. 1024, as amended on September 6, 2013, was quickly passed by overwhelming majorities in both the state Senate and state Assembly, and was enrolled and presented to the Governor on September 26, 2013. The Governor signed the bill into law on October 5, 2013. Pursuant to article IV, section 8, subdivision (c) of the California Constitution, the new statute\u2014 section 6064(b)\u2014became effective on January 1, 2014.\nAfter the legislation enacting section 6064(b) was signed into law, we vacated submission in this matter and indicated that the matter would be resubmitted on January 2, 2014, after the new statute took effect. At our request, the parties and amici curiae have filed supplemental briefs addressing the effect of the new statute on the matter before us.\nII. State and Federal Authority Regarding Eligibility of Undocumented Immigrants to Obtain a License to Practice Law in California\nAs a general matter, the question whether an applicant should be admitted to the State Bar and thereby obtain a license to practice law in California is governed by state law. In California, the general requirements and standards for admission to the State Bar are set forth both in statutory provisions enacted by the Legislature (Bus. & Prof. Code, \u00a7 6060 et seq.) and in court rules that are promulgated by this court (see, e.g., Cal. Rules of Court, rule 9.30 [Rules on Law Practice, Attorneys, and Judges]; see also Rules of State Bar, rules 4.1 to 4.269 [Admissions and Educational Standards]). Although both the Legislature and this court possess the authority to establish rules regulating admission to the State Bar, under the California Constitution this court bears the ultimate responsibility and authority for determining the issue of admission. (See, e.g., Hustedt v. Workers\u2019 Comp. Appeals Bd. (1981) 30 Cal.3d 329, 336-337 [178 Cal.Rptr. 801, 636 P.2d 1139] [\u201cIn California, the power to regulate the practice of law, including the power to admit and to discipline attorneys, has long been recognized to be among the inherent powers of the article VI courts. Indeed, every state in the United States recognizes that the power to admit and to discipline attorneys rests in the judiciary.\u201d (fn. omitted)]; In re Lavine (1935) 2 Cal.2d 324, 328 [41 P.2d 161] [\u201c[Notwithstanding the inherent power of the courts to admit applicants for licenses to practice law it is generally conceded that the legislature may prescribe reasonable rules and regulations for admission to the bar which will be followed by the courts. The regulations so prescribed must ... be reasonable and shall not deprive the judicial branch of its power to prescribe additional conditions under which applicants shall be admitted, nor take from the courts the right and duty of actually making orders admitting them.\u201d].)\nAlthough the determination whether an applicant will be admitted to the State Bar is generally governed by state law, there are circumstances in which the issue of bar admission is controlled by federal law. Perhaps the most obvious circumstance arises when a state law relating to bar admission contravenes a provision of the United States Constitution. Thus, for example, in Raffaelli v. Committee of Bar Examiners (1972) 7 Cal.3d 288 [101 Cal.Rptr. 896, 496 P.2d 1264], we held that a California statutory provision that limited admission to the State Bar only to applicants who were United States citizens (Bus. & Prof. Code, \u00a7 6060, former subd. (a), as amended by Stats. 1972, ch. 1285, \u00a7 4.3, p. 2559) could not be applied because it violated the equal protection clause of the United States Constitution. (Raffaelli, supra, at pp. 294-304; see In re Griffiths (1973) 413 U.S. 717 [37 L.Ed.2d 910, 93 S.Ct. 2851] [reaching same conclusion as Rajfaelli].)\nUnder the supremacy clause of the federal Constitution, however, state law must give way to lawfully adopted federal statutes as well as to provisions of the federal Constitution. (U.S. Const., art. VI, cl. 2 [\u201cThis Constitution, and the laws of the United States which shall be made in pursuance thereof. . . shall be the supreme law of the land; and the judges in every state shall be bound thereby, any thing in the Constitution or laws of any state to the contrary notwithstanding\u201d (italics added)].) Thus, when a federal statute has been adopted pursuant to authority granted to Congress under the federal Constitution, the federal statute preempts any conflicting state law.\nAs relevant to the issue presented by this case, past decisions of the United States Supreme Court clearly establish that the federal government generally has \u201cplenary authority\u201d over matters relating to immigration (including limitations on the conduct or activities of non-United States citizens who are present in this country without legal authorization or documentation) and that provisions of federal law relating to immigration prevail over any conflicting state law. (See, e.g., Arizona v. United States (2012) 567 U.S._, _-_ [183 L.Ed.2d 351, 366-369, 132 S.Ct. 2492]; Takahashi v. Fish Comm\u2019n (1948) 334 U.S. 410, 419 [92 L.Ed. 1478, 68 S.Ct. 1138]; Hines v. Davidowitz (1941) 312 U.S. 52, 62-74 [85 L.Ed. 581, 61 S.Ct. 399].) Accordingly, even with respect to matters that ordinarily and historically are an appropriate subject of state regulation\u2014such as a state\u2019s granting or denial of a license to practice law in the state\u2014when the federal government has enacted a law restricting the right of a non-United States citizen to obtain such a professional license, under the supremacy clause the applicable federal statute will necessarily take precedence and prevail over any conflicting state law. (Arizona v. United States, supra, at p. _ [183 L.Ed.2d at p. 368]; Hines v. Davidowitz, supra, at pp. 62-63 [\u201c[w]hen the national government by treaty or statute has established rules and regulations touching the rights, privileges, obligations or burdens of aliens as such, the treaty or statute is the supreme law of the land. No state can add to or take from the force and effect of such treaty or statute . . . .\u201d]; accord, Ellen S. v. Florida Bd. of Bar Examiners (S.D.Fla. 1994) 859 F.Supp. 1489 [holding that federal Americans with Disabilities Act of 1990 (42 U.S.C. \u00a7 12101 et seq.) applies to a state\u2019s bar admission process].)\nFor this reason, in analyzing the legal issues presented by Garcia\u2019s application, we turn first to the potential restriction imposed by federal law with regard to Garcia\u2019s application, before addressing any state law issues that are implicated by the Committee\u2019s motion.\nIII. Does the Federal Statute That Limits an Undocumented Immigrant\u2019s Eligibility to Obtain a State-provided Professional License\u2014Section 1621\u2014Restrict Garcia\u2019s Eligibility to Obtain a License to Practice Law in California?\nSection 1621 was enacted by Congress in 1996 as part of the Personal Responsibility and Work Opportunity Reconciliation Act of 1996 (Pub.L. No. 104-193 (Aug. 22, 1996) 110 Stat. 2105) (hereafter 1996 Act), a lengthy legislative measure\u2014combining and revising provisions contained in numerous bills that had been introduced and considered in prior congressional sessions\u2014that was primarily concerned with comprehensive welfare reform. The 1996 Act imposed additional work requirements on recipients of federal welfare benefits and made other very significant changes to a wide range of federal programs dealing with, for example, Supplemental Security Income, food stamps, child support payments, childcare, child nutrition, and job training. The 1996 Act includes over 900 sections and, as published in the United States Statutes at Large, runs more than 250 pages. (110 Stat. 2105-2355.) Section 1621, the statutory provision at issue here, is contained in title IV of the 1996 Act, a part of the act entitled \u201cRestricting Welfare and Public Benefits for Aliens.\u201d\nA. Overview of the language of section 1621\n1. Section 1621(a)\nSection 1621(a) provides: \u201cNotwithstanding any other provision of law and except as provided in subsections (b) and (d) of this section, an alien who is not\u2014HO (1) a qualified alien (as defined in section 1641 of this title),[] [\u00b6] (2) a nonimmigrant under the Immigration and Nationality Act [8 U.S.C. 1101 et seq.], or [f] (3) an alien who is paroled into the United States under section 212(d)(5) of such Act [8 U.S.C. 1182(d)(5)] for less than one year, [|] is not eligible for any State or local public benefit (as defined in subsection (c) of this section).\u201d\nThere is no dispute that an undocumented immigrant, like Garcia, does not fall within any of the three exempt categories listed in section 1621(a), and thus, under section 1621(a), an undocumented immigrant is not eligible for \u201cany State or local public benefit\u201d as defined in section 1621(c), subject to the exceptions set forth in section 1621(b) and 1621(d).\n2. Section 1621(c)\nSection 1621(c), in turn, provides: \u201c(1) Except as provided in paragraphs (2) and (3), for purposes of this subchapter the term \u2018State or local public benefit\u2019 means\u2014[][] (A) any grant, contract, loan, professional license, or commercial license provided by an agency of a State or local government or by appropriated funds of a State or local government; and ['][] (B) any retirement, welfare, health, disability, public or assisted housing, postsecondary education, food assistance, unemployment benefit, or any other similar benefit for which payments or assistance are provided to an individual, household, or family eligibility unit by an agency of a State or local government or by appropriated funds of a State or local government, [\u00b6] (2) Such term shall not apply\u2014H] (A) to any contract, professional license, or commercial license for a nonimmigrant whose visa for entry is related to such employment in the United States, or to a citizen of a freely associated state, if section 141 of the applicable compact of free association approved in Public Law 99-239 or 99-658 (or a successor provision) is in effect; [][] (B) with respect to benefits for an alien who as a work authorized nonimmigrant or as an alien lawfully admitted for permanent residence under the Immigration and Nationality Act . . . qualified for such benefits and for whom the United States under reciprocal treaty agreements is required to pay benefits, as determined by the Secretary of State, after consultation with the Attorney General; or [f] (C) to the issuance of a professional license to, or the renewal of a professional license by, a foreign national not physically present in the United States, [f] (3) Such term does not include any Federal public benefit under section 1611(c) of this title.\u201d (8 U.S.C. \u00a7 1621(c), citation omitted.)\nThe initial round of briefing in this matter, filed prior to the enactment of the new state legislation, focused primarily upon the proper interpretation of the portion of section 1621(c)(1)(A) that defines \u201cState or local public benefit\u201d for purposes of this statute to include \u201cany grant, contract, loan, professional license, or commercial license provided by an agency of a State or local government or by appropriated funds of a State or local government.\u201d (Italics added.) The Committee and Garcia asserted that the italicized language does not encompass a law license that is issued by this court.\n3. Section 1621(b) and 1621(d)\nAs noted, section 1621(b) and 1621(d) set forth exceptions to the general restrictions imposed by section 1621(a). Section 1621(b) lists a number of specific types of benefits to which section 1621 does not apply, but none of those benefits are relevant to the issue before us in this matter.\nThe exception embodied in section 1621(d), on the other hand, is directly relevant to the issue before us. Section 1621(d) provides in full: \u201cA State may provide that an alien who is not lawfully present in the United States is eligible for any State or local public benefit for which such alien would otherwise be ineligible under subsection (a) of this section only through the enactment of a State law after August 22, 1996, which affirmatively provides for such eligibility.\u201d\nThe Committee and Garcia maintain that the recent legislation passed by the California Legislature and signed by the Governor enacting section 6064(b) satisfies the federal requirements set forth in section 1621(d) and thus removes any obstacle this federal statute would otherwise pose to this court\u2019s admission of Garcia to the State Bar. As discussed below, we agree with this contention.\nB. Has California enacted a law affirmatively providing that undocumented immigrants are eligible to obtain a professional license to practice law in California so as to satisfy the requirements of section 1621(d)?\nAs noted above, in the initial round of briefing the Committee and Garcia maintained that, in light of the specific language in section 1621(c)(1)(A) defining the term \u201cState or local public benefit\u201d to mean \u201cany . . . professional license . . . provided by an agency of a State or local government or by appropriated funds of a State or local government\u2019 (italics added), that section should not be interpreted to render an undocumented immigrant ineligible to obtain a license to practice law in California. The Committee and Garcia argued that the first clause of section 1621(c)(1)(A)\u2014referring to any professional license \u201cprovided by an agency of a State or local government\u201d\u2014applies only to a professional license that is issued by a state or local administrative agency and does not apply to a law license that is issued by this court. The Committee and Garcia asserted that the second clause of section 1621(c)(1)(A)\u2014referring to public benefits provided by \u201cappropriated funds of a State . . . government\u201d\u2014is inapplicable to this court\u2019s issuance of a law license either because the amount of funds expended by this court in the bar admission process should be considered \u201cde minimis\u201d or because the clause should be interpreted to refer only to public benefits that involve the payment of money or funds to undocumented immigrants and not to the issuance of a license to practice law.\nIn light of the recent enactment of California\u2019s section 6064(b), we need not determine the validity of the parties\u2019 contentions with regard to the proper interpretation of section 1621(c)(1)(A). Under section 1621(d), the restrictions imposed upon undocumented immigrants by section 1621(a) and 1621(c)(1)(A) are inapplicable if a state enacts a law that (1) renders undocumented immigrants eligible for a public benefit that undocumented immigrants would otherwise be ineligible to obtain under section 1621(a) and section 1621(c) and (2) otherwise satisfies the requirements of section 1621(d). Accordingly, we turn to the question whether the enactment of section 6064(b) satisfies the requirements of section 1621(d).\nAs noted, section 1621(d) reads in full: \u201cA State may provide that an alien who is not lawfully present in the United States is eligible for any State or local public benefit for which such alien would otherwise be ineligible under subsection (a) of this section only through the enactment of a State law after August 22, 1996 [(the date \u00a7 1621(d) was enacted)], which affirmatively provides for such eligibility.\u201d\nSection 1621(d) grants a state the authority to make undocumented immigrants eligible for the types of public benefits for which such persons would otherwise be ineligible under section 1621(a) and 1621(c). But under section 1621(d), a state may make undocumented immigrants eligible for such benefits only through the enactment of a law, adopted subsequent to the date section 1621(d) was enacted, that \u201caffirmatively provides\u201d that undocumented immigrants are eligible for such benefits.\nThis court had occasion to address the provisions of section 1621(d) in Martinez v. Regents of University of California (2010) 50 Cal.4th 1277, 1294\u20141296 [117 Cal.Rptr.3d 359, 241 P.3d 855] (Martinez). In Martinez, we found that section 68130.5 of the Education Code\u2014a statute enacted in 2001 that explicitly exempted \u201ca person without lawful immigration status\u201d from paying nonresidential tuition at the California State University and California community colleges\u2014satisfied the provisions of section 1621(d) and thus rendered undocumented immigrants eligible to obtain such a public benefit. (Martinez, supra, at p. 1295.)\nIn reaching this conclusion in Martinez, our opinion held that (1) the wording of Education Code section 68130.5, subdivision (a)(4) itself (which provided that the statute applied \u201c[i]n the case of a person without lawful immigration status\u201d), and (2) the wording of the uncodified portion of the legislation (which stated that \u201c[t]his act . . . allows all persons, including undocumented immigrant students who meet [prescribed] requirements to be exempt from nonresident tuition in California\u2019s colleges and universities\u201d [Stats. 2001, ch. 814, \u00a7 1, subd. (a)(4), pp. 6652-6653]) was sufficient to demonstrate that this statutory provision \u201caffirmatively provides\u201d that qualifying undocumented immigrants are eligible for the nonresident tuition exemption so as to satisfy the requirements of section 1621(d). (See Martinez, supra, 50 Cal.4th at p. 1295.) We rejected the contention that in order to satisfy section 1621(d) a state law was required to explicitly refer to section 1621(d) itself and to indicate that it was enacted pursuant to that federal statute, concluding instead that in order to satisfy the \u201c \u2018affirmatively provides\u2019 requirement\u201d it was sufficient that the state law in question \u201c \u2018expressly state that it applies to undocumented aliens, rather than conferring a benefit generally without specifying that its beneficiaries may include undocumented aliens.\u2019 \u201d (Martinez, supra, at p. 1296.)\nIn light of our interpretation of section 1621(d) in Martinez, supra, 50 Cal.4th 1277, it is clear that the enactment of section 6064(b) satisfies the requirements of this federal statute. First, section 6064(b) was enacted after August 22, 1996. Second, by explicitly authorizing a bar applicant \u201cwho is not lawfully present in the United States\u201d to obtain a law license, the statute expressly states that it applies to undocumented immigrants\u2014rather than conferring a benefit generally without specifying that its beneficiaries may include undocumented immigrants\u2014and thus \u201caffirmatively provides\u201d that undocumented immigrants may obtain such a professional license so as to satisfy the requirements of section 1621(d). (Martinez, supra, 50 Cal.4th at p. 1295.) Accordingly, once section 6064(b) took effect on January 1, 2014, this enactment removed any obstacle to Garcia\u2019s admission to the State Bar that was posed by section 1621(a) and 1621(c)(1)(A).\nThe parties and amici curiae have not cited, and we are unaware of, any other federal statute that would render an undocumented immigrant ineligible to obtain a license to practice law in California.\nIV. Are There Reasons, Under State Law, That the Committee\u2019s Motion to Admit Garcia to the State Bar Should Be Denied?\nSection 6064(b)\u2019s removal of any federal statutory barrier to Garcia\u2019s admission to the State Bar posed by section 1621 does not fully resolve the legal issues presented by the Committee\u2019s motion to admit Garcia to the State Bar. We must still determine (1) whether there is any reason as a matter of state law why undocumented immigrants, in general, should not be admitted to the State Bar, and (2) whether there is any reason, specific to Garcia himself, that he should not be admitted to the State Bar.\nA. Is there any reason, under state law, that undocumented immigrants, as a class or group, should not be admitted to the State Bar?\nSection 6064(b) reflects that the Legislature and the Governor have concluded that there is no state law or state public policy that would justify denying qualified undocumented immigrants, as a class, the opportunity to obtain admission to the State Bar. As discussed earlier in this opinion, however, prior decisions of this court make clear that this court, rather than the Legislature or Governor, possesses the ultimate authority, and bears the ultimate responsibility, to resolve questions of general policy relating to admission to the State Bar. (See, e.g., Hustedt v. Workers\u2019 Comp. Appeals Bd., supra, 30 Cal.3d 329, 336-337; In re Lavine, supra, 2 Cal.2d 324, 327-333; Brydonjack v. State Bar, supra, 208 Cal. 439, 442-446.) Nonetheless, in evaluating the relevant considerations of state public policy in this setting, we believe it is appropriate to give due respect to the judgment of the Legislature and the Governor as reflected in the recent enactment of section 6064(b). (See, e.g., Hustedt v. Workers\u2019 Comp. Appeals Bd., at pp. 337-338; In re Attorney Discipline System (1998) 19 Cal.4th 582, 602-603 [79 Cal.Rptr.2d 836, 967 P.2d 49].)\nOne of the amicus curiae briefs filed in opposition to Garcia\u2019s admission to the State Bar advances a number of policy objections that potentially would apply to the admission of any undocumented immigrant to the State Bar. The objections relate to two circumstances: (1) the fact that, under federal law, undocumented immigrants are not lawfully authorized to be present in this country, and (2) the restrictions that federal law imposes upon the employment of undocumented immigrants in the United States. We discuss each of these subjects in turn.\n1. Unlawful presence\nAmicus curiae contends that because an undocumented immigrant is in violation of federal immigration law simply by being present in this country without authorization (8 U.S.C. \u00a7\u00a7 1182, 1227), an undocumented immigrant cannot properly take the oath of office required of every attorney, which requires the individual to promise to \u201c \u2018faithfully . . . discharge [the] duties of any attorney at law\u2019 \u201d (quoting Bus. & Prof. Code, \u00a7 6067), including the duty \u201c \u2018[t]o support the Constitution and laws of the United States and of this state.\u2019 \u201d (Quoting Bus. & Prof. Code, \u00a7 6068, italics added by amicus curiae.) Amicus curiae reasons that an undocumented immigrant cannot properly take the oath of office \u201csince he will be in violation of federal law while he takes the oath and at all times later until he either becomes legal or leaves the United States.\u201d\nPast California cases, however, do not support the proposition, implicit in amicus curiae\u2019s contention, that the fact that a bar applicant\u2019s past or present conduct may violate some law invariably renders the applicant unqualified to be admitted to the bar or to take the required oath of office. In Hallinan v. Committee of Bar Examiners (1966) 65 Cal.2d 447, 459 [55 Cal.Rptr. 228, 421 P.2d 76], this court explained that \u201cevery intentional violation of the law is not, ipso facto, grounds for excluding an individual from membership in the legal profession. [Citations.] \u2018There is certain conduct involving fraud, perjury, theft, embezzlement, and bribery where there is no question but that moral turpitude is involved. On the other hand, because the law does not always coincide exactly with principles of morality there are cases that are crimes that would not necessarily involve moral turpitude.\u2019 [Citation.] In such cases, investigation into the circumstances surrounding the commission of the act must reveal some independent act beyond the bare fact of a criminal conviction to show that the act demonstrates moral unfitness and justifies exclusion or other disciplinary action by the bar.\u201d\nWe conclude the fact that an undocumented immigrant is present in the United States without lawful authorization does not itself involve moral turpitude or demonstrate moral unfitness so as to justify exclusion from the State Bar, or prevent the individual from taking an oath promising faithfully to discharge the duty to support the Constitution and laws of the United States and California. Although an undocumented immigrant\u2019s presence in this country is unlawful and can result in a variety of civil sanctions under federal immigration law (such as removal from the country or denial of a desired adjustment in immigration status) (8 U.S.C. \u00a7\u00a7 1227(a)(1)(B), 1255(i)), an undocumented immigrant\u2019s unauthorized presence does not constitute a criminal offense under federal law and thus is not subject to criminal sanctions. Moreover, federal law grants federal immigration officials broad discretion in determining under what circumstances to seek to impose civil sanctions upon an undocumented immigrant and in determining what sanctions to pursue. (See, e.g., Arizona v. United States, supra, 567 U.S._, _-_ [183 L.Ed.2d 351, 366-367].) Under current federal immigration policy it is extremely unlikely that immigration officials would pursue sanctions against an undocumented immigrant who has been living in this country for a substantial period of time, who has been educated here, and whose only unlawful conduct is unlawful presence in this country. Under these circumstances, we conclude that the fact that an undocumented immigrant\u2019s presence in this country violates federal statutes is not itself a sufficient or persuasive basis for denying undocumented immigrants, as a class, admission to the State Bar.\n2. Employment restrictions\nAmicus curiae further contends that it would be improper to grant a law license to an undocumented immigrant in light of the restrictions federal law places on the lawful employment of undocumented immigrants in the United States.\nIn response to questions posed in our order to show cause in this matter (see, ante, at p. 450, fn. 7), in the initial round of briefing the Committee, Garcia, and many amici curiae, including the United States Department of Justice and the California Attorney General, discussed the restrictions that federal law imposes upon the employment of undocumented immigrants. All of the briefs agree that even if an undocumented immigrant is granted a license to practice law, federal law would prohibit an undocumented immigrant who lacks work authorization from practicing law as an \u201cemployee\u201d of a law firm, corporation, or governmental entity. (See 8 U.S.C. \u00a7 1324a(a)(l)(A).) There is also general agreement that a licensed undocumented immigrant would not violate federal law if he or she provided legal services on a pro bono basis or outside the United States. The briefs disagree, however, regarding whether under current federal law a licensed undocumented immigrant without work authorization could lawfully practice law in this country as an \u201cindependent contractor,\u201d for example, as a sole practitioner. The briefs filed by the Committee and Garcia maintain that federal law would not bar a licensed undocumented immigrant from representing clients as a sole practitioner, but the amicus curiae brief filed by the United States Department of Justice states that federal law prohibits an undocumented immigrant who lacks work authorization from engaging in the practice of law for compensation in this country in any capacity, including as an independent contractor or sole practitioner. Amicus curiae DeSha agrees with the United States Department of Justice\u2019s interpretation of the applicable federal statute and maintains that this court should not grant a law license to undocumented immigrants when federal law prohibits such individuals from actually practicing law in California for compensation.\nThe bill analysis of the recently enacted section 6064(b) that was prepared for the Senate Judiciary Committee when it considered the bill at a hearing on September 11, 2013, explicitly addressed the employability issue. Under the heading \u201cAbility to Represent California Clients,\u201d the bill analysis states: \u201cIndividuals not lawfully present in the United States who are admitted to the California State Bar may be automatically disqualified from representing certain clients and taking on some types of cases because of their immigration status. For example, federal law may preclude attorneys not lawfully present in the U.S. from representing others in matters before the U.S. Citizenship and Immigration Services agency. [Citation.] These attorneys may also be precluded from working for a law firm, corporation, or public agency by operation of federal law. (See 8 U.S.C. Sec. 1324a (prohibiting the employment of an alien in the United States knowing the alien lacks work authorization).) [\u00b6] However, the inability to represent California residents in some legal matters does not necessarily preclude all possible uses of a law license. Each person admitted to practice law in California, irrespective of immigration status, is obligated to \u2018faithfully . . . discharge the duties of any attorney at law to the best of his [or her] knowledge and ability.\u2019 (Bus. & Prof. Code, Sec. 6067.) California attorneys have an obligation to decline representation in matters where they cannot competently represent the interests of their client, whether due to lack of skill or experience, or because of an ethical or legal restriction. (See California Rules of Professional Conduct, Rule 3-110 (Failing to Act Competently).) This bill would not alter this existing standard, and attorneys not lawfully present in the United States would, like every other California attorney, be duty bound to practice law competently and in a manner commensurate with their legal and ethical obligations.\u201d (Sen. Com. on Judiciary, Analysis of Assem. Bill No. 1024 (2013-2014 Reg. Sess.) as amended Sept. 6, 2013, pp. 5-6 [for hearing on Sept. 11, 2013].)\nAs this bill analysis accurately recognizes, this court\u2019s granting of a law license to undocumented immigrants would not override or otherwise affect the federal limitations upon the employment of undocumented immigrants. Nonetheless, for a number of reasons we conclude that existing federal limitations on the employment of undocumented immigrants do not justify excluding undocumented immigrants from admission to the State Bar.\nFirst, as discussed above, the most directly applicable federal statute\u2014\u25a0 section 1621\u2014expressly authorizes a state, through a sufficiently explicit statute, to permit undocumented immigrants to obtain a professional license, notwithstanding the limitations on employment imposed by other federal statutes. No federal statute precludes a state from issuing a law license to an undocumented immigrant. Further, although the amicus curiae brief filed by the United States Department of Justice disagrees with the interpretation of federal immigration law relating to employment advanced by the Committee and Garcia, the brief at the same time emphasizes that \u201c[t]he enforcement of the federal provisions governing employment by aliens is a responsibility of the federal government, and is not the proper subject of state-court proceedings, particularly in the context of state licensing\u201d and urges this court not to \u201cattempt to resolve any question about the types of legal services that Mr. Garcia may provide if granted a license.\u201d\nSecond, federal law restrictions on employment are subject to change, and under current federal immigration policy many undocumented immigrants are now eligible to obtain work authorization. Under the \u201cdeferred action for childhood arrivals\u201d policy promulgated by the Secretary of the United States Department of Homeland Security (Secretary of Homeland Security) in June 2012, many undocumented immigrants who came to this country as children and were under the age of 30 when the new policy was adopted are eligible to obtain work authorization that is subject to renewal every two years.\nThird, as the bill analysis quoted above suggests, even with regard to an undocumented immigrant who lacks work authorization and faces significant federal law restrictions on his or her legal employment, we believe it would be inappropriate to deny a law license to such an individual on the basis of an assumption that he or she will not comply with the existing restrictions on employment imposed by federal law. Consistent with the provisions of Business and Professions Code section 6060.6, foreign law students who have passed the California bar examination and have been certified to this court by the Committee have been admitted to the State Bar, even though such individuals may lack authorization to work in the United States. Although it may be reasonable to assume that most foreign law students, when licensed, will return to their home countries to practice law, we rely upon these licensed attorneys to comply with their ethical obligations to act in accordance with all applicable legal constraints and do not condition or limit their law licenses. We conclude it is appropriate to treat qualified undocumented immigrants in the same manner. To the extent federal immigration law limitations on employment are ambiguous or in dispute, as in other contexts in which the governing legal constraints upon an attorney\u2019s conduct may be uncertain, we assume that a licensed undocumented immigrant will make all necessary inquiries and take appropriate steps to comply with applicable legal restrictions and will advise potential clients of any possible adverse or limiting effect the attorney\u2019s immigration status may pose.\nFor all of the foregoing reasons, we conclude there is no state law or state public policy that would justify precluding undocumented immigrants, as a class, from obtaining law licenses in California.\nB. Are there reasons, specific to applicant Garcia, that the Committee\u2019s motion should be denied?\nFinally, we must determine whether there are reasons, specific to Garcia himself, that should lead this court to deny the Committee\u2019s motion to admit Garcia to the State Bar.\nTo qualify for consideration for admission to the State Bar, an applicant must, among other things, demonstrate that he or she possesses \u201cgood moral character.\u201d (Rules of State Bar, rule 4.40(A); see Bus. & Prof. Code, \u00a7\u00a7 6060, subd. (b), 6062, subd. (a)(2).) The Committee makes an initial determination, on a case-by-case basis, whether an applicant has met his or her burden of establishing good moral character, but this court retains the authority to independently review and weigh the evidence of moral fitness and to make the ultimate determination whether the applicant has satisfied this requirement. (See, e.g., Hightower v. State Bar (1983) 34 Cal.3d 150, 155-156 [193 Cal.Rptr. 153, 666 P.2d 10]; Pacheco v. State Bar (1987) 43 Cal.3d 1041, 1047 [239 Cal.Rptr. 897, 741 P.2d 1138].)\nAs we explained in In re Menna (1995) 11 Cal.4th 975, 983 [47 Cal.Rptr.2d 2, 905 P.2d 944]: \u201c \u2018Good moral character\u2019 has traditionally been defined as the absence of conduct imbued with elements of \u2018moral turpitude.\u2019 [Citations.] It includes \u2018qualities of honesty, fairness, candor, trustworthiness, observance of fiduciary responsibility, respect for and obedience to the laws of the state and the nation and respect for the rights of others and for the judicial process.\u2019 [Citations.]\u201d The fundamental question is whether the applicant is fit to practice law, taking into account whether the applicant has engaged in conduct that reflects moral turpitude or has committed misconduct that bears particularly upon the applicant\u2019s fitness to practice law. (Kwasnik v. State Bar (1990) 50 Cal.3d 1061, 1068 [269 Cal.Rptr. 749, 791 P.2d 319]; In re Lesansky (2001) 25 Cal.4th 11, 14 [104 Cal.Rptr.2d 409, 17 P.3d 764]; Hollinan v. Committee of Bar Examiners, supra, 65 Cal.2d 447, 452.)\nAs set forth earlier in the statement of facts, applicant Garcia initially was brought to California by his parents as a very young child, lived here until he was nine years old, moved back to Mexico for several years, and then returned to California with his parents when he was 17 years old. He has resided in California continually since that time\u2014for more than 19 years\u2014 and has gone to college, completed law school, and has successfully passed the bar examination in California. He has been a diligent and trusted worker and has made significant contributions to his community. He has never been convicted of a criminal offense.\nThe record of the Committee\u2019s moral character investigation discloses that no individual raised any concern with respect to Garcia\u2019s moral fitness. Numerous individuals who worked with, taught, and participated in community activities with Garcia over many years had nothing but the highest praise for the applicant. For example, an attorney for whom Garcia worked as an unpaid intern during law school stated that \u201cI know with absolute certainty that Mr. Garcia [is] among the most honest, forthright, and moral individuals that I have ever met.\u201d A law school professor described him as \u201can exemplary student\u201d who \u201cwas always prepared and always conducted himself with the utmost integrity. ... I know I speak for the faculty and administration when I say it has been our honor to play a small part in his education.\u201d And an administrative law judge, who became acquainted with Garcia in connection with Garcia\u2019s volunteer activities in Chico, stated that Garcia \u201chas selflessly and effectively worked in a broad range of projects which address the needs of those included within diverse ethnic, social, cultural, and language groups,\u201d and further declared that he \u201cis both honest and reliable,\u201d \u201ccircumspect in his judgment and conduct,\u201d and \u201ca credit to his family and community. If allowed, he will be a credit to the State Bar. He carries my highest recommendation.\u201d\nAlthough, as noted earlier, the Committee\u2019s investigation of Garcia disclosed one or two problematical incidents in his past (see, ante, p. 449, fn. 5), the Committee investigated the applicant\u2019s entire background very thoroughly and concluded that, taking into account his entire life history and conduct, Garcia met his burden of demonstrating that he possesses the requisite good moral character to qualify for a law license. From our review of the record, we agree with that determination.\nV. Conclusion\nThe Committee\u2019s motion to admit Garcia to the State Bar is granted.\nKennard, J., Baxter, 1, Werdegar, J., Chin, J., Corrigan, J., and Liu, J., concurred.\nIn this opinion, we use the term \u201cundocumented immigrant\u201d to refer to a non-United States citizen who is in the United States but who lacks the immigration status required by federal law to be lawfully present in this country and who has not been admitted on a temporary basis as a nonimmigrant. This category of persons has sometimes been referred to by other terms, such as unlawful, unauthorized, or illegal aliens or immigrants. Although no shorthand term may be perfect, the United States Supreme Court and the California Legislature have at times used the term \u201cundocumented immigrants\u201d to refer to this category of persons (see Mohawk Industries v. Carpenter (2009) 558 U.S. 100, 103 [175 L.Ed.2d 458, 130 S.Ct. 599] [\u201cundocumented immigrants\u201d]; Stats. 2001, ch. 814, \u00a7 1, subd. (a)(4), pp. 6652-6653 [\u201cundocumented immigrant students\u201d]; Stats. 2002, ch. 19, \u00a7 1, subd. (a)(4), p. 199 [same]), and this terminology avoids the potential problematical connotations of alternative terms. (See generally Legomsky, Immigration and Refugee Law and Policy (4th ed. 2005) pp. 9-11, 1192-1193.) Current federal immigration statutes generally use the term \u201cnonimmigrant\u201d to refer to a person who \u201center[s] the U.S. for a temporary period and [is] restricted to activities consistent with [his or her] visa.\u201d (Kurzban, Immigration Law Sourcebook (13th ed. 2012) p. 759; see 8 U.S.C. \u00a7 1101(a)(15)(A)-(V) [listing numerous categories of \u201cnonimmigrant aliens\u201d].)\nGarcia\u2019s father became a United States citizen on August 11, 1999, after Garcia had turned 18 years old.\nThe current United States Citizenship and Immigration Services (USCIS) Web site explains: \u201cUSCIS processes Form 1-130, Petition for Alien Relative, as a visa number becomes available. Filing and approval of an 1-130 is only the first step in helping a relative immigrate to the United States. Eligible family members must wait until there is a visa number available before they can apply for an immigrant visa or adjustment of status to a lawful permanent resident.\u201d (<http://www.uscis.gov/i-130> [as of Jan. 2, 2014] [explaining purpose of form].) Another page on the Web site states: \u201cFor alien relatives in preference categories, a limited number of immigrant visas are issued each year. The visas are processed in the order in which the petitions are properly filed and accepted by USCIS.\u201d (Instructions for Form 1-130, Petition for Alien Relative (Dec. 18, 2012) p. 6 [OMB No. 1615-0012] <http://www.uscis.gov/sites/ default/files/files/form/i-130instr.pdf> [as of Jan. 2, 2014].)\nWhen visited on December 31, 2013, a visa bulletin Web page (<http://www.travel.state.gov/visa/bulletin/bulletin_6211.html>) indicated that as of December 2013 the cutoff date for Mexico family preference (F-l) visas was September 22, 1993, meaning that persons in Garcia\u2019s category (Mexican family members with first preference) were eligible to be scheduled for a visa interview if their priority date was earlier than September 22, 1993. Based upon the date his visa petition was filed, Garcia\u2019s priority date is November 18, 1994. If the progression of available visa numbers over the past few years is a reliable guide, Garcia\u2019s priority date may not be reached for at least two and perhaps many more years and only then could he be scheduled for a visa interview.\nAlthough the Committee\u2019s briefs do not disclose when it began asking bar applicants about their immigration status, an amicus curiae brief filed by numerous local bar associations states that the State Bar began requesting such information from new applicants in 2008.\nThe Committee\u2019s investigation establishes that Garcia is a well-respected, hard-working, tax-paying individual who has assisted many others and whose application is supported by many members of the community, by past teachers, and by those for whom he has worked, but the record also reveals that Garcia\u2019s conduct has not been entirely flawless.\nShortly after returning to this country at age 17, Garcia obtained a nonpaying position in a grocery store as part of a school work training program. After several months, the store manager asked Garcia if he would like to continue working at the store in a paid position. As part of the hiring process, having initially provided his school identification card and Social Security number, Garcia was asked several days later to fill out an additional employment form; on that form Garcia provided a false \u201calien registration number\u201d and falsely attested that he was a lawful permanent resident. Although he did not remember the contents of the form when first asked about his grocery store employment during the Committee\u2019s moral character investigation, Garcia thereafter went to the grocery store staff, discovered the document in question, and immediately gave it to his attorney who was representing him on a pro bono basis. On his attorney\u2019s advice Garcia did not immediately provide the document to the Committee (on the theory that disclosure was not necessary because it did not refresh Garcia\u2019s recollection); thereafter the attorney provided the document to the Committee, explicitly acknowledged that she had been wrong in advising Garcia that disclosure was not necessary and requested that the Committee not hold against Garcia the fact that he had followed counsel\u2019s advice. When questioned by the Committee concerning his provision of a false alien registration number and false attestation on the employment form, Garcia acknowledged the wrongfulness of his conduct, but explained that at the time he signed the document he was young, had an imperfect comprehension of English, and had \u201cpanicked\u201d when asked to complete the form. He emphasized that he had never subsequently signed a similar document and would not sign a similar document at present. The Committee believed that Garcia was sincerely remorseful for his past misconduct and that his delay in disclosing the document was a product of his reliance upon the erroneous advice of counsel, and concluded that under the circumstances the conduct did not reflect moral turpitude.\nThe record also reveals that Garcia was once cited for driving without a license or insurance (an infraction), paid the fine, stopped driving, and thereafter sought and ultimately obtained a driver\u2019s license in Oregon. At the time, Oregon did not require proof of lawful residency, but did require a six-month residency period; Garcia lived with relatives in Oregon for some period of time, but it is not entirely clear from the record whether he actually resided in Oregon for a full six months before obtaining the license. The Committee found that Garcia obtained the Oregon driver\u2019s license in good faith, having a subjective belief that he met the Oregon residency requirements.\nAs explained, the Committee investigated these matters at length. It determined that none of these incidents impugns Garcia\u2019s good moral character, and that the record as a whole establishes that Garcia possesses the requisite good moral character to warrant admission to the State Bar.\nWhile this matter was pending before our court, the Committee submitted the names of two other undocumented immigrant applicants for admission to the State Bar. (See In re De la Torre Arambula on Admission (S208655); In re Espino-Padron on Admission (S208656).) The former matter has been held in abeyance pending the resolution of the current matter. In the latter matter, upon notification that the applicant was granted asylum by federal immigration authorities while the matter was pending in this court, we granted the Committee\u2019s motion to admit the applicant to practice law in California. (See 8 U.S.C. \u00a7\u00a7 1621(a)(1), 1641(b)(1) [excepting individuals who have been granted asylum from the restrictions imposed by \u00a7 1621].)\nThe order stated in this regard: \u201cThe following are among the issues that should be briefed:\nIn addition to the amicus curiae brief filed by the California Attorney General, 13 amicus curiae briefs were filed in support of the motion.\nSection 6064(b) provides in full: \u201cUpon certification by the examining committee that an applicant who is not lawfully present in the United States has fulfilled the requirements for admission to practice law, the Supreme Court may admit that applicant as an attorney at law in all the courts of this state and may direct an order to be entered upon its records to that effect. A certificate of admission thereupon shall be given to the applicant by the clerk of the court.\u201d\nThe bill was approved in the Senate by a 29-to-five vote and in the Assembly by a 62-to-four vote.\nThe Committee makes recommendations to this court regarding the admission of individual applicants (Bus. & Prof. Code, \u00a7 6046), but this court makes the ultimate decision on admission pursuant to the court\u2019s constitutional authority over the practice of law in California. (See, e.g., Brydonjack v. State Bar (1929) 208 Cal. 439, 445-446 [281 P. 1018].)\nTitle 8 United States Code section 1641 defines the term \u201cqualified alien\u201d to mean \u201c(1) an alien who is lawfully admitted for permanent residence under the Immigration and Nationality Act [8 U.S.C. 1101 et seq.], [\u00b6] (2) an alien who is granted asylum under section 208 of such Act [8 U.S.C. 1158], [\u00b6] (3) a refugee who is admitted to the United States under section 207 of such Act [8 U.S.C. 1157], [\u00b6] (4) an alien who is paroled into the United States under section 212(d)(5) of such Act [8 U.S.C. 1182(d)(5)] for a period of at least 1 year, [\u00b6] (5) an alien whose deportation is being withheld under section 243(h) of such Act [8 U.S.C. 1253] ... or section 241(b)(3) of such Act [8 U.S.C. 1251(b)(3)] . . . , [ID (6) an alien who is granted conditional entry pursuant to section 203(a)(7) of such Act [8 U.S.C. 1153(a)(7)] as in effect prior to April 1, 1980; or [\u00b6] (7) an alien who is a Cuban [or] Haitian entrant (as defined in section 501(e) of the Refugee Education Assistance Act of 1980).\u201d (Fn. omitted.)\nSection 1621(b) provides that the restrictions on eligibility set forth in section 1621(a) shall not apply to the following state or local public benefits: \u201c(1) Assistance for health care items and services that are necessary for the treatment of an emergency medical condition (as defined in section 1396b(v)(3) of title 42) of the alien involved and are not related to an organ transplant procedure. [\u00b6] (2) Short-term, non-cash, in-kind emergency disaster relief. [\u00b6] (3) Public health assistance for immunizations with respect to immunizable diseases and for testing and treatment of symptoms of communicable diseases whether or not such symptoms are caused by a communicable disease. [\u00b6] (4) Programs, services, or assistance (such as soup kitchens, crisis counseling and intervention, and short-term shelter) specified by the Attorney General, in the Attorney General\u2019s sole and unreviewable discretion after consultation with appropriate Federal agencies and departments, which (A) deliver in-kind services at the community level, including through public or private nonprofit agencies; (B) do not condition the provision of assistance, the amount of assistance provided, or the cost of assistance provided on the individual recipient\u2019s income or resources; and (C) are necessary for the protection of life or safety.\u201d (8 U.S.C. \u00a7 1621(b).)\nIn reaching the contrary conclusion that a specific reference, within the state statute, to section 1621(d) itself was required to satisfy the federal provision, the Court of Appeal opinion in Martinez had relied upon a statement contained in a portion of the conference committee report on the 1996 Act that discussed this particular subsection. The conference committee report stated in this regard: \u201cOnly the affirmative enactment of a law by a State legislature and signed by the Governor after the date of enactment of this Act, that references this provision, will meet the requirements of this section.\u201d (H.R.Rep. No. 104-725, 2d Sess., p. 383 (1996), italics added.)\nIn rejecting the Court of Appeal\u2019s conclusion, our opinion in Martinez explained that because a requirement that the state law explicitly refer to section 1621(d) was not contained in the language of section 1621(d) itself, such a requirement could not properly be read into the statute. Noting that \u201c[b]oth this court and the high court have cautioned against reading into a statute language it does not contain or elements that do not appear on its face\u201d (Martinez, supra, 50 Cal.4th at p. 1295), the court in Martinez went on to observe that \u201c[t]he general rule that a court should not add an element not appearing on the face of a statute has particular force here. The Legislature could easily have referenced section 1621 in section 68130.5, and no doubt it would have done so if section 1621 had so required. It is unreasonable to conclude that Congress intended to require the states to comply with section 1621\u2019s express requirements and to scour committee reports for other possible requirements not visible in the statutory language. The committee report may not create a requirement not found in section 1621 itself.\u201d (Id. at p. 1296.)\nIn his amicus curiae brief, Attorney Larry DeSha describes himself as \u201ca retired former prosecutor for the State Bar of California\u201d who \u201chas more than 12 years experience in protecting the public from attorney misconduct. . . [and] was the initial or final evaluator for more than 10,000 formal complaints of attorney misconduct to the State Bar.\u201d\nSee generally United States Immigration and Customs Enforcement, Exercising Prosecutorial Discretion Consistent with the Civil Immigration Enforcement Priorities of the Agency for the Apprehension, Detention, and Removal of Aliens, June 17, 2011, page 4 (listing 19 nonexclusive factors to be considered when exercising prosecutorial discretion, including lengthy residence in this country and successful pursuit of a college or advanced degree at a legitimate institution of higher education in the U.S.) <http://www.ice.gov/doclib/securecommunities/pdf/prosecutorial-discretion-memo.pdf> (as of Jan. 2, 2014).\nAmicus curiae also advances a related argument, contending that because federal law permits immigration officials to remove an undocumented immigrant from this country on the basis of his or her unauthorized presence, the possibility that an undocumented immigrant may be removed from the country and leave his or her clients without representation is another reason that justifies the exclusion of all undocumented immigrants from the State Bar. A similar argument was advanced in Raffaelli v. Committee of Bar Examiners, supra, 1 Cal.3d 288, as one justification for excluding non-United States citizens from admission to the State Bar, but this court rejected the contention, pointing out that the risk of such removal was no greater than \u201cthe possibility that a lawyer, even though a citizen, may be involuntarily removed from his practice by death, by serious illness or accident, by disciplinary suspension or disbarment or by conscription. In any of the latter circumstances the client will undergo the same inconvenience of having to obtain substitute counsel.\u201d (Raffaelli, supra, at p. 299.)\nOn June 15, 2012, the Secretary of Homeland Security issued a policy statement with regard to the exercise of prosecutorial discretion to \u201cdefer[] action\u201d with regard to the removal and deportation of undocumented immigrants who came to this country as children. The policy statement sets forth a set of criteria to be considered by immigration officials in exercising such discretion\u2014including whether the person came to the United States under the age of 16, has continually resided in the United States for at least five years, is currently in school or has graduated from high school, and was not above the age of 30 when the policy was adopted\u2014and directs that any individual who is found to be a good candidate for the exercise of prosecutorial discretion in light of these criteria be issued a designation deferring action on\nany removal proceedings for two years, subject to repeated renewal on a two-year basis. The policy also directs immigration officials to determine whether any individual who obtains deferred action under this policy should also be granted work authorization during his or her period of deferred action. (U.S. Dept, of Homeland Security, Exercising Prosecutorial Discretion with Respect to Individuals Who Came to the United States as Children, June 15, 2012 <http://www.dhs.gov/xlibrary/assets/sl-exercising-prosecutorial-discretion-individuals-who-came-to-us-as-children.pdf> [as of Jan. 2, 2014].)\nIn September 2013, the Department of Homeland Security reported that from August 2012 to August 2013 over 455,000 applications for deferred action for childhood arrivals had been approved nationally and that over 130,000 of the approved applications were from California. (USCIS Off. of Performance and Quality, Data on Deferred Action for Childhood Arrivals (Sept. 11, 2013) <http://www.uscis.gov/tools/reports-studies/immigration-forms-data/individualapplications-and-petitions/data-individual-applications-and-petitions> [as of Jan. 2, 2014].)\nGarcia is not eligible for the deferred action program because he was over the age of 30 when the policy was promulgated.\nBusiness and Professions Code section 6060.6 provides: \u201cNotwithstanding Section 30 of this code and Section 17520 of the Family Code, the Committee of Bar Examiners may accept for registration, and the State Bar may process for an original or renewed license to practice law, an application from an individual containing a federal tax identification number, or other appropriate identification number as determined by the State Bar, in lieu of a social security number, if the individual is not eligible for a social security account number at the time of application and is not in noncompliance with a judgment or order for support pursuant to Section 17520 of the Family Code.\u201d The legislative history of this provision indicates that it was adopted to permit foreign law students attending California law schools to take the California bar examination and seek admission to the State Bar. (Sen. Rules Com., Off. of Sen. Floor Analyses, 3d reading analysis of Assem. Bill No. 664 (2005-2006 Reg. Sess.) as amended Aug. 31, 2005, p. 3.)\nAs we explained in Baker v. State Bar (1989) 49 Cal.3d 804, 815, footnote 3 [263 Cal.Rptr. 798, 781 P.2d 1344]: \u201cBecause the right to practice a profession is sufficiently important to warrant legal and constitutional protection, the term ['moral turpitude\u2019] must be given a meaning and content relevant to the attorney\u2019s fitness to practice.\u201d (See Morrison v. State Board of Education (1969) 1 Cal.3d 214, 227 [82 Cal.Rptr. 175, 461 P.2d 375] [when a statute authorizes the imposition of professional discipline for conduct demonstrating moral turpitude, \u201cthe meaning of . . . \u2018moral turpitude\u2019 must depend upon, and thus relate to, the occupation involved . . .\u201d].)",
+        "type": "majority",
+        "author": "CANTIL-SAKAUYE, C. J."
+      },
+      {
+        "text": "CHIN, J.,\nConcurring.\u2014The majority opinion does not acknowledge it, but just over three years ago, in Martinez v. Regents of University of California (2010) 50 Cal.4th 1277 [117 Cal.Rptr.3d 359, 241 P.3d 855], this court specifically considered how to designate persons in Garcia\u2019s position, and we unanimously rejected the term the majority uses, \u201cundocumented immigrant,\u201d in favor of a term we believed was more accurate, \u201cunlawful alien.\u201d\nThis is what we said: \u201cBefore we turn to the issues, we must comment on terminology. Defendants and supporting amici curiae generally refer to a person not lawfully in this country by a term such as \u2018undocumented immigrant.\u2019 Plaintiffs and supporting amici curiae generally use the term \u2018illegal alien,\u2019 as did the Court of Appeal. The term \u2018undocumented immigrant\u2019 is vague and is not used in the relevant statutes. It is also euphemistic, because it is unlawful to be in this country and to be undocumented in the sense in which defendants use the term. On the other hand, some view the term \u2018illegal alien\u2019 as pejorative. Wishing to be as neutral, yet as accurate, as possible in our terminology, we turn to the most relevant statutes for assistance. [Education Code, s]ection 68130.5, subdivision (a)(4), uses the phrase \u2018a person without lawful immigration status.\u2019 The federal provisions, sections 1621(d) and 1623(a) [(tit. 8 U.S.C.)], use the phrase \u2018an alien who is not lawfully present in the United States.\u2019 Both of these phrases are too bulky to be used continually. We believe it best to shorten these phrases to the two-word term \u2018unlawful alien.\u2019 Accordingly, we will use that term in this opinion.\u201d (Martinez v. Regents of University of California, supra, 50 Cal.4th at p. 1288.)\nThe statutes at the heart of this case use the terms \u201can alien who is not lawfully present in the United States\u201d (8 U.S.C. \u00a7 1621(d)) and \u201can applicant who is not lawfully present in the United States\u201d (Bus. & Prof. Code, \u00a7 6064, subd. (b)), both of which are closer to the shorthand term used in Martinez than to the one used in the majority opinion.\nNevertheless, I consider the question of which term to use to come within the discretion of the opinion\u2019s author. Accordingly, I have signed the majority opinion.",
+        "type": "concurrence",
+        "author": "CHIN, J.,"
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Fishkin & Slatter, Jerome Fishkin, Lindsay K. Slatter, Samuel C. Bellicini; Wilson, Elser, Moskowitz, Edelman & Dicker and Robert Cooper for Petitioner Sergio C. Garcia.",
+      "Kamala D. Harris, Attorney General, Manuel M. Medeiros, State Solicitor General, Kathleen A. Kenealy, Chief Assistant Attorney General, Jonathan Wolff, Acting Chief Assistant Attorney General, Douglas J. Woods, Assistant Attorney General, Rochelle C. East, Tamar Pachter, Daniel J. Powell and Ross C. Moody, Deputy Attorneys General, for California Attorney General as Amicus Curiae on behalf of Petitioner Sergio C. Garcia.",
+      "Irell & Manella, Carlos R. Moreno, Eric A. Webber and BJ Ard for Los Angeles County Bar Association, Alameda County Bar Association, Asian American Bar Association of the Greater Bay Area, Asian Pacific American Bar Association of Silicon Valley, Bar Association of San Francisco, Beverly Hills Bar Association, Kern County Bar Association, Marin County Bar Association, Mexican American Bar Association, Multicultural Bar Alliance of Southern California, Riverside County Bar Association, Sacramento County Bar Association, San Bernardino County Bar Association, San Diego County Bar Association, Santa Clara County Bar Association and South Asian Bar Association of Northern California as Amici Curiae on behalf of Petitioner Sergio C. Garcia.",
+      "Anthony P. Marquez; Law Office of Denis White and Joshua Kaizuka for La Raza Lawyers Association of Sacramento and Asian/Pacific Bar Association of Sacramento as Amici Curiae on behalf of Petitioner Sergio C. Garcia.",
+      "Community Legal Services in East Palo Alto, Ilyce Shugall; Dolores Street Community Services, Francisco M. Ugarte and Jaclyn Shull Gonzalez as Amici Curiae on behalf of Petitioner Sergio C. Garcia.",
+      "Rigoberto J. Arrechiga, Elizabeth P. Uribe and Juan A. Ramos for the Mexican American Bar Association of Los Angeles County as Amicus Curiae on behalf of Petitioner Sergio C. Garcia.",
+      "Morrison & Foerster, Arturo J. Gonzales, Claudia M. Vetesi, Alexandria A. Amezcua, Javier Serrano; Girardi I Keese, Howard B. Miller; Bacon Immigration Law & Policy Program and Nina A. Rabin for California Latino Legislative Caucus as Amicus Curiae on behalf of Petitioner Sergio C. Garcia.",
+      "Shannon P. Minter, Christopher F. Stoll and Angela K. Perone for National Center for Lesbian Rights and Lambda Defense and Educational Fund, Inc., as Amici Curiae on behalf of Petitioner Sergio C. Garcia. Reed Smith, Raymond A. Cardozo, David J. de Jesus, Rachel M. Golick and Delaney M. Andersen for Michael A. Olivas, Holly S. Cooper, Karen Musalo, Hiroshi Motomura, Cruz Reynoso, and other immigration law professors as Amici Curiae on behalf of Petitioner Sergio C. Garcia.",
+      "Jennifer Chang Newell, Michael Tan; Lee Gelemt; Tanya Broder; and Bernard P. Wolfsdorf for the American Civil Liberties Union, American Immigration Lawyers Association, American Civil Liberties Union of Northern California, American Civil Liberties Union of San Diego and Imperial Counties, American Civil Liberties Union of Southern California, Asian Law Caucus, Legal Aid Society-Employment Law Center, National Asian Pacific American Bar Association and National Immigration Law Center as Amici Curiae on behalf of Petitioner Sergio C. Garcia.",
+      "Arnold & Porter, Jerome B. Falk, Jr., Lisa Hill Penning, John Throckmorton; Akin Gump Strauss Hauer & Feld, William A. Norris, L. Rachel Lerman and Amit Kurlekar for law school deans Sandra L. Brooks, Erwin Chemerinsky, Christopher Edley, Jr., Victor Gold, Rachel Moran, Drucilla S. Ramey, and Frank H. Wu as Amici Curiae on behalf of Petitioner Sergio C. Garcia.",
+      "Brigit G. Alvarez for Joseph A. Vail Center for Immigrant Rights as Amicus Curiae on behalf of Petitioner Sergio C. Garcia.",
+      "UCLA Downtown Labor Center and Tia Koonse for Dream Team Los Angeles, Orange County Dream Team, California Dream Network, San Fernando Valley Dream Team and United We Dream Network as Amici Curiae on behalf of Petitioner Sergio C. Garcia.",
+      "Orrick, Herrington & Sutcliffe, Cynthia J. Larsen, Sarah C. Marriott, Alexis Yee-Garcia, Judy Kwan; LatinoJustice PRLDEF and Jose Perez for Cesar Vargas as Amicus Curiae on behalf of Petitioner Sergio C. Garcia.",
+      "Nichol\u00e1s Esp\u00edritu for Dream Bar Association, Mexican American Legal Defense and Educational Fund, Asian Pacific American Legal Center, Asian Law Alliance, National Association of Latino Elected and Appointed Officials Educational Fund and National Council of La Raza as Amici Curiae on behalf of Petitioner Sergio C. Garcia.",
+      "Nicholas Kiemiesky, in pro. per., as Amicus Curiae on behalf of Petitioner Sergio C. Garcia.",
+      "Starr Babcock, Lawrence C. Yee, Richard J. Zanassi, Rachel S. Grunberg; Gibson, Dunn & Crutcher, Robert E. Palmer, Joshua A. Jessen, Drew A. Harbur; Mark A. Perry; Minami Tamaki, Donald K. Tamaki, Minette A. Kwok, Phillip M. Zackler; Kevin R. Johnson; Bill Ong King; Bryan Springmeyer; Kerr & Wagstaffe and James M. Wagstaffe for Respondent Committee of Bar Examiners of State Bar of California. Larry DeSha, in pro. per., as Amicus Curiae on behalf of Respondent Committee of Bar Examiners of State Bar of California.",
+      "Stuart F. Delery Acting Assistant Attorney General (United States), Beth S. Brinkmann, Deputy Assistant Attorney General, Mark B. Stern, Michael R Abate and Daniel Tenny for the United States of America as Amicus Curiae on behalf of Respondent Committee of Bar Examiners of State Bar of California."
+    ],
+    "corrections": "",
+    "head_matter": "[No. S202512.\nJan. 2, 2014.]\nIn re SERGIO C. GARCIA on Admission.\nCounsel\nFishkin & Slatter, Jerome Fishkin, Lindsay K. Slatter, Samuel C. Bellicini; Wilson, Elser, Moskowitz, Edelman & Dicker and Robert Cooper for Petitioner Sergio C. Garcia.\nKamala D. Harris, Attorney General, Manuel M. Medeiros, State Solicitor General, Kathleen A. Kenealy, Chief Assistant Attorney General, Jonathan Wolff, Acting Chief Assistant Attorney General, Douglas J. Woods, Assistant Attorney General, Rochelle C. East, Tamar Pachter, Daniel J. Powell and Ross C. Moody, Deputy Attorneys General, for California Attorney General as Amicus Curiae on behalf of Petitioner Sergio C. Garcia.\nIrell & Manella, Carlos R. Moreno, Eric A. Webber and BJ Ard for Los Angeles County Bar Association, Alameda County Bar Association, Asian American Bar Association of the Greater Bay Area, Asian Pacific American Bar Association of Silicon Valley, Bar Association of San Francisco, Beverly Hills Bar Association, Kern County Bar Association, Marin County Bar Association, Mexican American Bar Association, Multicultural Bar Alliance of Southern California, Riverside County Bar Association, Sacramento County Bar Association, San Bernardino County Bar Association, San Diego County Bar Association, Santa Clara County Bar Association and South Asian Bar Association of Northern California as Amici Curiae on behalf of Petitioner Sergio C. Garcia.\nAnthony P. Marquez; Law Office of Denis White and Joshua Kaizuka for La Raza Lawyers Association of Sacramento and Asian/Pacific Bar Association of Sacramento as Amici Curiae on behalf of Petitioner Sergio C. Garcia.\nCommunity Legal Services in East Palo Alto, Ilyce Shugall; Dolores Street Community Services, Francisco M. Ugarte and Jaclyn Shull Gonzalez as Amici Curiae on behalf of Petitioner Sergio C. Garcia.\nRigoberto J. Arrechiga, Elizabeth P. Uribe and Juan A. Ramos for the Mexican American Bar Association of Los Angeles County as Amicus Curiae on behalf of Petitioner Sergio C. Garcia.\nMorrison & Foerster, Arturo J. Gonzales, Claudia M. Vetesi, Alexandria A. Amezcua, Javier Serrano; Girardi I Keese, Howard B. Miller; Bacon Immigration Law & Policy Program and Nina A. Rabin for California Latino Legislative Caucus as Amicus Curiae on behalf of Petitioner Sergio C. Garcia.\nShannon P. Minter, Christopher F. Stoll and Angela K. Perone for National Center for Lesbian Rights and Lambda Defense and Educational Fund, Inc., as Amici Curiae on behalf of Petitioner Sergio C. Garcia. Reed Smith, Raymond A. Cardozo, David J. de Jesus, Rachel M. Golick and Delaney M. Andersen for Michael A. Olivas, Holly S. Cooper, Karen Musalo, Hiroshi Motomura, Cruz Reynoso, and other immigration law professors as Amici Curiae on behalf of Petitioner Sergio C. Garcia.\nJennifer Chang Newell, Michael Tan; Lee Gelemt; Tanya Broder; and Bernard P. Wolfsdorf for the American Civil Liberties Union, American Immigration Lawyers Association, American Civil Liberties Union of Northern California, American Civil Liberties Union of San Diego and Imperial Counties, American Civil Liberties Union of Southern California, Asian Law Caucus, Legal Aid Society-Employment Law Center, National Asian Pacific American Bar Association and National Immigration Law Center as Amici Curiae on behalf of Petitioner Sergio C. Garcia.\nArnold & Porter, Jerome B. Falk, Jr., Lisa Hill Penning, John Throckmorton; Akin Gump Strauss Hauer & Feld, William A. Norris, L. Rachel Lerman and Amit Kurlekar for law school deans Sandra L. Brooks, Erwin Chemerinsky, Christopher Edley, Jr., Victor Gold, Rachel Moran, Drucilla S. Ramey, and Frank H. Wu as Amici Curiae on behalf of Petitioner Sergio C. Garcia.\nBrigit G. Alvarez for Joseph A. Vail Center for Immigrant Rights as Amicus Curiae on behalf of Petitioner Sergio C. Garcia.\nUCLA Downtown Labor Center and Tia Koonse for Dream Team Los Angeles, Orange County Dream Team, California Dream Network, San Fernando Valley Dream Team and United We Dream Network as Amici Curiae on behalf of Petitioner Sergio C. Garcia.\nOrrick, Herrington & Sutcliffe, Cynthia J. Larsen, Sarah C. Marriott, Alexis Yee-Garcia, Judy Kwan; LatinoJustice PRLDEF and Jose Perez for Cesar Vargas as Amicus Curiae on behalf of Petitioner Sergio C. Garcia.\nNichol\u00e1s Esp\u00edritu for Dream Bar Association, Mexican American Legal Defense and Educational Fund, Asian Pacific American Legal Center, Asian Law Alliance, National Association of Latino Elected and Appointed Officials Educational Fund and National Council of La Raza as Amici Curiae on behalf of Petitioner Sergio C. Garcia.\nNicholas Kiemiesky, in pro. per., as Amicus Curiae on behalf of Petitioner Sergio C. Garcia.\nStarr Babcock, Lawrence C. Yee, Richard J. Zanassi, Rachel S. Grunberg; Gibson, Dunn & Crutcher, Robert E. Palmer, Joshua A. Jessen, Drew A. Harbur; Mark A. Perry; Minami Tamaki, Donald K. Tamaki, Minette A. Kwok, Phillip M. Zackler; Kevin R. Johnson; Bill Ong King; Bryan Springmeyer; Kerr & Wagstaffe and James M. Wagstaffe for Respondent Committee of Bar Examiners of State Bar of California. Larry DeSha, in pro. per., as Amicus Curiae on behalf of Respondent Committee of Bar Examiners of State Bar of California.\nStuart F. Delery Acting Assistant Attorney General (United States), Beth S. Brinkmann, Deputy Assistant Attorney General, Mark B. Stern, Michael R Abate and Daniel Tenny for the United States of America as Amicus Curiae on behalf of Respondent Committee of Bar Examiners of State Bar of California."
+  },
+  "file_name": "0440-01",
+  "first_page_order": 478,
+  "last_page_order": 506
+}

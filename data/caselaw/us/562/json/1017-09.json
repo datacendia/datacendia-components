@@ -1,0 +1,59 @@
+{
+  "id": 5975795,
+  "name": "Guilliot v. United States",
+  "name_abbreviation": "Guilliot v. United States",
+  "decision_date": "2010-11-01",
+  "docket_number": "No. 10-6646",
+  "first_page": "1017",
+  "last_page": "1017",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1017"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.587,
+    "sha256": "a5663d92254ef212cf9505bfd1d67545f4e9d79be863f66b47bde8b180f58dfb",
+    "simhash": "1:15d8d7830b799c6f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Guilliot v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6646.\nGuilliot v. United States."
+  },
+  "file_name": "1017-09",
+  "first_page_order": 1039,
+  "last_page_order": 1039
+}

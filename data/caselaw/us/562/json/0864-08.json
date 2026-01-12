@@ -1,0 +1,59 @@
+{
+  "id": 5903153,
+  "name": "Smith v. United States",
+  "name_abbreviation": "Smith v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11152",
+  "first_page": "864",
+  "last_page": "864",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 864"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.666,
+    "sha256": "9ee157d16ef9fe6eb0f72812ee1539406d6483e2ffa13ddcbd9f655fb70500dc",
+    "simhash": "1:873a228e0abd1c4c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Smith v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11152.\nSmith v. United States."
+  },
+  "file_name": "0864-08",
+  "first_page_order": 886,
+  "last_page_order": 886
+}

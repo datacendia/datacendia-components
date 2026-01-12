@@ -1,0 +1,245 @@
+{
+  "id": 2254028,
+  "name": "Mattie Garrett Et Al v. Dils Company",
+  "name_abbreviation": "Garrett v. Dils Co.",
+  "decision_date": "1957-02-27",
+  "docket_number": "No. A-6129",
+  "first_page": "92",
+  "last_page": "102",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "157 Tex. 92"
+    },
+    {
+      "type": "parallel",
+      "cite": "299 S.W.2d 904"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "131 S.W. 2d 47",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10229159
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/131/0047-01"
+      ]
+    },
+    {
+      "cite": "30 S.W. 551",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "88 Texas 120",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2245567
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/88/0120-01"
+      ]
+    },
+    {
+      "cite": "84 S.W. 2d 442",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10242834,
+        2298374
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/84/0442-01",
+        "/tex/125/0549-01"
+      ]
+    },
+    {
+      "cite": "125 Texas 549",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2298374
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/125/0549-01"
+      ]
+    },
+    {
+      "cite": "246 S.W. 360",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10304010
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/246/0360-01"
+      ]
+    },
+    {
+      "cite": "294 S.W. 2d 799",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "pin_cites": [
+        {
+          "page": "800"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "156 Texas 324",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2252400
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/156/0324-01"
+      ]
+    },
+    {
+      "cite": "294 S.W. 2d 730",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10180302
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/294/0730-01"
+      ]
+    },
+    {
+      "cite": "273 S.W. 2d 617",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10200747,
+        2249231
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/273/0617-01",
+        "/tex/154/0059-01"
+      ]
+    },
+    {
+      "cite": "154 Texas 59",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2249231
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/154/0059-01"
+      ]
+    },
+    {
+      "cite": "12 S.W. 2d 595",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10295131
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/12/0595-01"
+      ]
+    },
+    {
+      "cite": "185 S.W. 2d 563",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2338548,
+        10211549
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/143/0392-01",
+        "/sw2d/185/0563-01"
+      ]
+    },
+    {
+      "cite": "143 Texas 392",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2338548
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/143/0392-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 765,
+    "char_count": 23602,
+    "ocr_confidence": 0.603,
+    "pagerank": {
+      "raw": 6.230804859218997e-07,
+      "percentile": 0.9573421075900564
+    },
+    "sha256": "adf86c4b1607a321baef42c1138a06867cd024000a568cf151b7286fcaa32afd",
+    "simhash": "1:200fdaae5ba77ad2",
+    "word_count": 4019
+  },
+  "last_updated": "2024-02-27T18:48:18.334778+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mattie Garrett Et Al v. Dils Company"
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Chief Justice Hickman\ndelivered the opinion of the Court.\nThis is an action in trespass to try title to a tract of land in Navarro County in which the sole controversy centers around the construction of a deed under which respondent holds an interest in the minerals in and under the land. The suit is by Mrs. Mattie Garrett and Mrs. Bee Lively, widow and surviving daughter, respectively, and sole heirs of C. S. Garrett, who died intestate before this suit was filed. The relevant provisions of the deed are as follows:\n\u201cThat C. S. Garrett and wife, Mattie Garrett, both of Navarro County, Texas, for and in consideration of the sum of Fifteen Thousand Dollars cash in hand paid by J. Mentor Caldwell, hereinafter called Grantee, receipt of which is hereby acknowledged, have granted, sold, conveyed, assigned and delivered and by these presents do grant, sell, convey, assign and deliver unto the said Grantee an undivided one sixty-fourth interest in and to all of the oil, gas and other minerals in and under, and that may be produced from the following described land: (Description follows) :\n\u201cTogether with the right of ingress and egress at all times for the purpose of mining, drilling, and exploring said land for oil, gas and other minerals, and removing the same therefrom.\n\u201cSaid land being now under an oil and gas lease executed in favor of I. B. Humphreys or his assigns, it is understood and agreed that this sale is made subject to the terms of said lease, but covers and includes one-eighth of all of the oil royalty, and gas rental or royalty due and to be paid under the terms of said lease.\n\u201cIt is understood and agreed that one-eighth of the money rentals which may be paid to extend the term within which a well may be begun under the terms of said lease is to be paid to the said Grantee and in event that the above described lease for any reason becomes cancelled or forfeited, then and in that event an undivided one-eighth of the lease interest and all future rentals on said land for oil, gas and other minerals privileges shall be owned by said Grantee, he owning one-eighth of one-eighth of all oil, gas, and other minerals in and under said lands, together with one-eighth interest in all future rents.\u201d\nRespondent owns the interest which was conveyed to Caldwell by that deed.\nAs disclosed by that instrument, at the date of its execution, December 7, 1921, the land was under an oil and gas lease to I. B. Humphreys. That lease provided for a one-eighth royalty. No production was obtained thereunder, and it expired by its own terms. Subsequently another lease was executed, which likewise provided for a one-eighth royalty. That lease is still in existence and oil is being produced thereunder.\nThe trial court held that respondent is entitled to one sixty-fourth of the royalty payable under the lease now in existence, while the Court of Civil Appeals held that respondent is entitled to one-eighth of the royalty payable thereunder. 294 S.W. 2d 730.\nUpon the trial petitioners introduced in evidence a division order signed by respondent which defined its interest in the royalty as one sixty-fourth of the one-eighth. However, it was shown that when the division order was received by respondent it retained same and wrote to the company which was purchasing the oil from the lessee that it believed that a mistake had been made, and that it was entitled to one sixty-fourth of the entire production and not one sixty-fourth of one-eighth. In reply the purchaser wrote respondent that it had been advised by two attorneys who examined the deed that respondent\u2019s interest was one sixty-fourth of the one-eighth royalty. Thereafter the division order was signed. That evidence did not disclose that the parties construed the deed to convey only one sixty-fourth of the one-eighth royalty, and the parties do not here contend that it does. On the contrary, it is the view of all parties that the instrument is not ambiguous, and our decision will rest upon that theory.\nIn construing the deed we shall be guided by the well-established rule which we recently reaffirmed in Harris v. Windsor, 156 Texas 324, 294 S.W. 2d 799, 800, in this language:\n\u201cWe have long since relaxed the strictness of the ancient rules for the construction of deeds, and have established the rule for the construction of deeds as for the construction of all contracts, \u2014 that the intention of the parties, when it can be ascertained from a consideration of all parts of the instrument, will be given effect when possible. That intention, when ascertained, prevails over arbitrary rules. Benskin v. Barksdale, Texas Comm. App., 246 S.W. 360; Sun Oil Co. v. Burns, 125 Texas 549, 84 S.W. 2d 442.\u201d\nAnother applicable rule is that should there be any doubt as to the proper construction of the deed, that doubt should be resolved against the grantors, whose language it is, and be held to convey the greatest estate permissible under its language. Curdy v. Stafford, 88 Texas 120, 30 S.W. 551; Allen v. Creighton, 131 S.W. 2d 47, er. ref.\nThe question of immediate concern to the parties is the royalty to which the respondent is entitled under the existing lease. We shall approach the solution of that question by considering first the royalty to which it would have been entitled had there been production under the lease in existence when the deed was executed, and then determining from the language of the deed whether it was the intention of the parties that the royalty was to be the same under subsequent leases.\nShould the granting clause be considered alone there would be no doubt as to the interest conveyed. It states in certain terms that the interest conveyed was \u201can undivided one sixty-fourth interest in and to all of the oil * * * .\u201d Had other language in the deed not disclosed what the parties understood \u201cone sixty-fourth\u201d to mean, it would be our duty to give those words their usual meaning and construe the deed as a mineral deed to an undivided one sixty-fourth of the minerals in place. But there follows the granting clause language which clearly defines what the parties understood \u201cone sixty-fourth\u201d of the minerals to mean. After reciting that the land was under an oil and gas lease, the deed provided that \u201cit is understood and agreed that this sale * * * covers and includes one-eighth of all of the oil royalty, and gas rental or royalty due and to be paid under the terms of said lease.\u201d Construing all of these provisions together it is made certain that what the parties intended to convey, had there been production under the then existing lease, was a royalty of one sixty-fourth or one-eighth of the one-eighth royalty retained in the lease. The rights conveyed by the deed under the then existing lease were one-eighth of the money rentals which might be paid to extend the term within which a well might be begun and one-eighth of the one-eighth royalty.\nTurning now to the rights acquired by Caldwell under that deed in the event the then existing lease should terminate, it is provided that \u201cthen and in that event an undivided one-eighth of the lease interest and all future rentals on said land for oil, gas and other mineral privileges shall be owned by said Grantee, he owning one-eighth of one-eighth of all oil, gas, and other minerals in and under said lands, together with one-eighth interest in all future rentals.\u201d We can discover in that language no intent to grant a less interest under a subsequent lease than that granted under the then existing lease. As pointed out above, there was granted one sixty-fourth of the minerals which the parties construed to mean one-eighth of the one-eighth royalty under the then existing lease. The provision for ownership of the minerals under future leases is that the grantee shall own \u201cone-eighth of one-eighth\u201d of the minerals. Had that fraction been expressed as one sixty-fourth, it should be given the same meaning as in the granting clause which the parties understood and agreed to be a one sixty-fourth royalty or one-eighth of the one-eighth royalty. Instead of employing the fraction one sixty-fourth in defining the ownership under a subsequent lease, the provision is for one-eighth of one-eighth. Clearly, that does not denote a less interest than a one sixty-fourth, but on the contrary it emphasizes the fact that the intention was to convey one-eighth of the royalty under future leases the same as under the original lease. The court takes judicial knowledge of the fact that the usual royalty provided in mineral leases is one-eighth. The parties doubtless assumed that the royalty under future leases would be one-eighth, as it was under the lease in existence when the deed was executed.\nConsidering further the rights acquired by the vendee in that deed in the event the lease in existence when the deed was executed should terminate, it is provided that the vendee should acquire \u201cone-eighth of the lease interest and all future rentals.\u201d That can have no other meaning than that the grantee shall have the right to lease an undivided one-eighth interest in the minerals and to receive one-eighth of all future rentals, or, at any rate, to receive one-eighth of the bonus paid for future leases and one-eighth of the rentals. The right to one-eighth of the bonus and rentals and one-eighth of the royalty left no right in the vendors in the one-eighth interest. Having all the rights incident to ownership of one-eighth of the minerals, the conclusion follows that the deed conveyed to Calwell an undivided one-eighth of the minerals.\nConstruing this deed as a whole and giving effect to each and every provision thereof, we are led to the conclusion that the royalty conveyed under future leases was the same as that conveyed under the then existing lease, \u2014 that is to say, one-eighth thereof. We further conclude that having the right to receive one-eighth of the royalty, together with a one-eighth lease interest and future rentals thereon, the respondent in reality is the owner of one-eighth of the minerals in the land.\nIt follows that the judgment of the Court of Civil Appeals should be affirmed, and it is so ordered.\nOpinion delivered, February 27, 1957.",
+        "type": "majority",
+        "author": "Mr. Chief Justice Hickman"
+      },
+      {
+        "text": "Mr. Justice Norvell, joined by Justices Griffin, Calvert and Smith,\ndissenting.\nIn determining the intention of the parties to the conveyance in question, it is not asserted by either side that resort may be had to matters outside the written instrument itself. The meaning of the deed, i.e., the intention of the parties, must therefore be ascertained from the language contained therein. 12 Am. Jur., 748. It is clear enough that Garrett and wife intended to convey to Caldwell, respondent\u2019s predecessor in title, an undivided l/64th interest in and to all of the oil, gas and other minerals in and under the tract of land involved. The formal granting clause expressly so provides. The remaining question is whether there is other language in the deed which would expand or increase the interest specifically conveyed in the formal granting clause to an undivided l/8th interest as held by the Court of Civil Appeals.\nA similar mineral deed form has been the subject matter of appellate consideration upon at least two former occasions, namely, in Richardson v. Hart, 143 Texas 392, 185 S.W. 2d 563, by this Court and in Porter v. Shaw, 12 S.W. 2d 595, no writ history, by the Texarkana Court of Civil Appeals. In Richardson v. Hart the formal granting clause in the deed executed by W. J. Gamble is practically identical in wording with the Garrett deed here involved with the exception of the fractional interest conveyed (l/16th of l/8th as compared with l/64th). Both deeds contain an ingress and egress clause and are similar in provision as to the payment of royalty under existing oil leases covering the properties except for fractional interests, i.e., \u201cl/16th of l/8th of all the oil royalty (l/8th) or a 1/1024th of the oil or other minerals produced under the lease in the Gamble deed (R. v. H.), compared with l/8th of all the oil royalty (l/8th) or a l/64th in the Garret deed.\u201d\nThe paragraphs referred to as explanatory clauses in the briefs disclose variances and for comparison purposes are here set out:\nThe Gamble deed (R. v. H.) provided:\n\u201cIt is understood and agreed that none of the money rentals which may be paid to extend the terms within which a well may be begun under the terms of said lease is to be paid to the said Grantee and in event that the above described lease for any reason becomes cancelled or forfeited, then and in that event none of the lease interest and all future rentals on said land for oil, gas and other mineral privileges shall be owned by said Grantee, he owning l/16th of l/8th of all oil, gas and other minerals in and under said lands, together with no interest in all future rents.\u201d\nThe explanatory clause in the Garrett deed here under consideration reads as follows:\n\u201cIt is understood and agreed that one-eighth of the money rentals which may be paid to extend the term within which a well may be begun under the terms of said lease is to be paid to the said Grantee and in event that the above described lease for any reason becomes cancelled or forfeited, then and in that event an undivided one-eighth of the lease interest and all future rentals on said land for oil, gas and other mineral privileges shall be owned by said Grantee, he owning one-eighth of one-eighth of all oil, gas and other minerals in and under said lands, together with one-eighth interests in all future rents.\u201d (Italics supplied).\nIn Richardson v. Hart, this Court said:\n\u201cIt is clear, we think, that the instrument conveyed two separate and distinct estates in the land. The first was a permanent interest in the minerals in place which was to subsist during and beyond the life of the existing lease. The other was the royalty to be due and payable under the lease. The first estate is determined in the first [granting clause] and fourth paragraphs [explanatory clause] of the deed which precisely define and prescribe the interest conveyed as being 1/16 of 1/8, or 1/128, of all the oil, gas or other minerals in and under or produced from the land.\u201d\nEssentially we are concerned with the extent of the permanent mineral estate in this case. The lease to which the land was subjected at the time of the execution of the Garrett deed has expired. Subsequently a second lease was placed upon the property, but the question presented is whether the grantee and his successors owned a l/64th or a l/8th interest in the minerals immediately after the expiration of the first lease, and for convenience we shall refer to these fractional interests rather than those resulting from the execution of the second and now subsisting lease. It seems that under the holding of Richardson v. Hart, a l/64th mineral interest only was conveyed unless some tenable distinction can be found in the wording of the Gamble deed there construed and the Garrett deed now before us.\nThe difference in royalty percentages under leases existing at the time of the execution of the mineral deeds afford no basis of distinction between the Gamble (R. v. H.) and the Garrett deeds. A mineral grant or reservation may convey to the grantee or retain to the grantor one interest in the minerals in place and a larger or lesser interest in the royalty payable under a lease on the land. The royalty interest under a lease which is transferred by a deed need not bear a dogmatic proportional relationship to the permanent mineral interest conveyed, but the extent of such interests are determined by the particular contract involved. Woods v. Sims, 154 Texas 59, 273 S.W. 2d 617.\nAs we understand respondent\u2019s position and the holding of the Court of Civil Appeals, the asserted distinction between Hart v. Richardson and this case is not predicated upon the difference in the royalty provisions of the deed as to the leases in existence when the deeds were excuted, but rather upon the obvious difference in the wording of the explanatory clause which respondents say is in legal effect a second granting clause In the Gamble deed (R. v. H.) the explanatory clause provides that \u201cnone of the lease interest shall be owned by said Grantee,\u201d while in the Garrett deed it is provided that \u201can undivided one-eighth of the lease interest shall be owned by said Grantee.\u201d The distinction sought to be drawn is bottomed upon the term \u201clease interest.\u201d The Court of Civil Appeals said:\n\u201cThe language of the mineral deed under consideration conveys to grantee an undivided \u2018one-eighth of the lease interest\u2019 (after termination of the Humphreys lease). \u2018Lease interest;\u2019 could mean only one of two things. It must mean the lease interest of a lessee or the lease interest of a lessor. Whichever construction we place on the language, it would here result in the grantee acquiring, after the termination of the Humphreys lease, an interest which, when added to the other interests conveyed to grantee in the first portion of the deed, totals an interest of 1/8 of the minerals. * * *.\n\u201cFurther to all that has been said, we think that the construction we have applied to the mineral deed under review is identical with the construction applied by the Commission of Appeals (opinion adopted by Supreme Court) to the mineral deed under review in Richardson v. Hart, 185 S.W. 2d 563.\u201d\nThe same argument is put forward by respondent in its reply to the application for writ of error in which it is asserted that \u201cthe distinction between the two instruments is that the deed being construed in Richardson v. Hart there was a specific recitation that there was a conveyance of none of the conditional reversional interest, whereas in the Garrett deed there was a specific recitation of conveyance of l/8th of such conditional reversionary interest.\u201d\nAt the time Garrett and wife executed the deed they held a possibility of reverter or a reversionary interest in and to the minrals conveyed to I. B. Humphreys by an oil and gas lease. The deed provides that in the event the Humphreys lease be cancelled and forfeited (which would cause a supposedly 7/8th mineral interest to revert to the Garretts), \u201cthen and in that event an undivided one-eighth of the lease interest shall be owned by the Grantee.\u201d It is asserted that this term \u201clease interest\u201d covered and hence operated to convey a 7/64ths undivided interest in the minerals in place so as to increase the Grantee\u2019s permanent mineral interest to an undivided one-eighth. No reported case is cited which supports this contention. At the time the clause containing the term \u201clease interest\u201d would take effect in accordance with the provisions of the Garrett deed, the premises would not be covered by a mineral lease and some uncertainty is encountered when it is sought to apply the term to land which is not under lease. Under such circumstances the words, \u201clease interest\u201d apparently have no technical or customary meaning. However, a similar term, \u201clease interests\u201d appearing in a mineral deed almost identical in wording with the one before us has been construed to mean the consideration or bonus which might be paid for a future lease. In Porter v. Shaw, 12 S.W. 2d 595, the Texarkana Court said:\n\u201cThe writing shows that the parties were contracting with reference to two subjects \u2014 one the royalty * * *. The other subject was the money consideration which might be paid for the lease of the land or the privilege of sinking wells. * * * Evidently the language \u2018the lease interests and all future rentals on said land [appearing in the explanatory clause] was intended to convey something not included in the stipulation relating to royalty. These other mineral rights were to be owned jointly by Shaw and Porter. The language \u2018each owning one sixteenth in all oil, gas, etc., merely recites what is included in the preceding granting clause of the conveyance.\u201d\nThe analysis and holding of the Texarkana Court seems correct. Numerous difficulties are encountered when an attempt is made to expand the term \u201clease interest\u201d into a conveyance of either royalty or minerals. The benefits accruing to a lessor under a mineral lease, come under three definite classifications, regardless of what various specific appellations may be applied to them, namely, bonus, delay rentals and royalty. One characteristic peculiar to royalty is its relationship to the minera.1 estate, and its payment out of production. The extent of the royalty payable under a prospective lease is accordingly a matter to be determined by a contract to be made in the future, although it is reasonable to assume, as is the usual case, that the royalty so determined will bear a relationship to the mineral interest owned by the lessor.\nIn the latter part of the so-called explanatory clause of the Garrett deed the parties sought to spell out and make certain the rights and interests of the grantee in and to the bonus and the delay rentals accruing upon the expiration of the Humphreys lease and the execution of a second lease. They also sought to definitely fix the extent of the mineral interest owned by the grantee upon the expiration of the Humphreys de\u00e9d as this would be an important factor in the royalty which would accrue to the grantee under a second lease. If the construction of the term \u201clease interest\u201d adopted in Porter v. Shaw be applied to the clause here involved, it is rendered consistent in all its parts and makes for the definite ascertainment of the items of bonus, delay rentals, and the basis for royalty payments under a second lease, viz.:\n\u201cIn the event that the (Humphreys) lease for any reason becomes cancelled or forfeited, then and in that event an undivided one-eighth of the (bonus) and all future rentals on said land for oil, gas and other mineral privileges shall be owned by said Grantee, he owning one-eighth of one-eighth of all oil, gas and other minerals in and under said lands, together with one-eighth interest in all future rents.\u201d\nThe clause \u201che owning one-eighth of one-eighth\u201d of the mineral estate refers to the time of the expiration of the Humphreys lease. This provision definitely defines the mineral estate at that time as being a 1/64 and is consistent with the granting clause. A construction of the term \u201clease interest\u201d in such a way as to expand the mineral interest owned by the Grantee at that time to a one-eighth would directly conflict with the clause mentioned.\nThis is not a suit for recission or reformation of a deed. We may not indulge in the assumption that the scrivener in preparing the deed or in filling in the blank spaces of a form (as seems probable) through mistake inserted the fraction \u201cone-eighth of one-eighth\u201d rather than \u201cone-eighth.\u201d We must take the parties at their word in construing the disputed instrument.\nIn my opinion the trial court rendered a correct judgment. I would affirm that judgment and reverse the judgment of the Court of Civil Appeals. From the order affirming the judgment of the latter court, I respectfully dissent.\nOpinion delivered February 27, 1957.\nRehearing overruled, April 3, 1957.\nAs this second lease provides for the usual l/8th royalty, the present interest of the grantee\u2019s successors in interest would be l/8th of l/64th (1 /512th) or l/8th of l/8th (1/64th).",
+        "type": "dissent",
+        "author": "Mr. Justice Norvell, joined by Justices Griffin, Calvert and Smith,"
+      }
+    ],
+    "attorneys": [
+      "Daivson & Da/wson and L. B. Dawson, of Corsicana, for petitioners.",
+      "Bracewell, Tunks, Reynolds and Patterson and Bert H. Tunks, of Houston, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "Mattie Garrett Et Al v. Dils Company\nNo. A-6129.\nDecided February 27, 1957.\nRehearing Overruled April 3, 1957.\n(299 S.W. 2d Series 904)\nDaivson & Da/wson and L. B. Dawson, of Corsicana, for petitioners.\nBracewell, Tunks, Reynolds and Patterson and Bert H. Tunks, of Houston, for respondent."
+  },
+  "file_name": "0092-01",
+  "first_page_order": 108,
+  "last_page_order": 118
+}

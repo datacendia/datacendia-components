@@ -1,0 +1,59 @@
+{
+  "id": 12415599,
+  "name": "Walker v. Grounds, Warden",
+  "name_abbreviation": "Walker v. Grounds",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5253",
+  "first_page": "903",
+  "last_page": "903",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 903"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.644,
+    "sha256": "71fe3b26a69b880e7c2a22f72eced6197d39f3af5515b8f8282357bec1fd76c7",
+    "simhash": "1:42bb22b129bfa577",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Walker v. Grounds, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5253.\nWalker v. Grounds, Warden."
+  },
+  "file_name": "0903-07",
+  "first_page_order": 979,
+  "last_page_order": 979
+}

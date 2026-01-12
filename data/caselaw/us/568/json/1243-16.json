@@ -1,0 +1,59 @@
+{
+  "id": 12433712,
+  "name": "Landron-Class v. United States",
+  "name_abbreviation": "Landron-Class v. United States",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-8770",
+  "first_page": "1243",
+  "last_page": "1243",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1243"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.604,
+    "sha256": "b47bcadc1aba9abae85ba4635cc42815c4f08398b702b2df67f20338a1430d45",
+    "simhash": "1:010aee006e95183a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Landron-Class v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8770.\nLandron-Class v. United States."
+  },
+  "file_name": "1243-16",
+  "first_page_order": 1319,
+  "last_page_order": 1319
+}

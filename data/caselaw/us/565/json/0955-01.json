@@ -1,0 +1,59 @@
+{
+  "id": 12228251,
+  "name": "Ramirez v. United States",
+  "name_abbreviation": "Ramirez v. United States",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-6132",
+  "first_page": "955",
+  "last_page": "955",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 955"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.695,
+    "sha256": "37a9517ca913e3b26509132b89007a18429cb06a27c5613738994c90ba224298",
+    "simhash": "1:1788db8a887e5e6e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ramirez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6132.\nRamirez v. United States."
+  },
+  "file_name": "0955-01",
+  "first_page_order": 1037,
+  "last_page_order": 1037
+}

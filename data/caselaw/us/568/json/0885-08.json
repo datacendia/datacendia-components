@@ -1,0 +1,59 @@
+{
+  "id": 12415018,
+  "name": "Gibson et vir v. American Greetings Corp.",
+  "name_abbreviation": "Gibson v. American Greetings Corp.",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-59",
+  "first_page": "885",
+  "last_page": "885",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 885"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 87,
+    "ocr_confidence": 0.667,
+    "sha256": "5cef1d9b4b4aad8af81c91611ea2bb725be0d4808e839cc893acc5bf42277a0a",
+    "simhash": "1:115002fbd02d34c3",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gibson et vir v. American Greetings Corp."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-59.\nGibson et vir v. American Greetings Corp."
+  },
+  "file_name": "0885-08",
+  "first_page_order": 961,
+  "last_page_order": 961
+}

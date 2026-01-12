@@ -1,0 +1,59 @@
+{
+  "id": 12244880,
+  "name": "Trimble v. California",
+  "name_abbreviation": "Trimble v. California",
+  "decision_date": "2012-01-23",
+  "docket_number": "No. 11-7734",
+  "first_page": "1182",
+  "last_page": "1182",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1182"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 85,
+    "ocr_confidence": 0.657,
+    "sha256": "52e66ad8a28b1dd4ae51766f7a0505120e6f174c88a20f9c9f95b7f6e83881db",
+    "simhash": "1:0505438115910807",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Trimble v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 5th App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7734.\nTrimble v. California."
+  },
+  "file_name": "1182-08",
+  "first_page_order": 1264,
+  "last_page_order": 1264
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12427730,
+  "name": "In re Discipline of Golden",
+  "name_abbreviation": "In re Discipline of Golden",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. D-2704",
+  "first_page": "1082",
+  "last_page": "1082",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1082"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 39,
+    "char_count": 277,
+    "ocr_confidence": 0.577,
+    "sha256": "6d79352ce0a38e3b593084fdf586dca5a511a2bfda71162e0cd309681f204777",
+    "simhash": "1:258a71b63ede37a6",
+    "word_count": 51
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Golden."
+    ],
+    "opinions": [
+      {
+        "text": "Bruce P. Golden, of Chicago, Ill., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2704.\nIn re Discipline of Golden."
+  },
+  "file_name": "1082-04",
+  "first_page_order": 1158,
+  "last_page_order": 1158
+}

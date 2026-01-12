@@ -1,0 +1,59 @@
+{
+  "id": 5954789,
+  "name": "Thurmon v. United States",
+  "name_abbreviation": "Thurmon v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5591",
+  "first_page": "930",
+  "last_page": "930",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 930"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.607,
+    "sha256": "ed5bdf63f98c44d673fce7bb8498ffec09c5ac9ca901ddb69bc3ff8caca8231c",
+    "simhash": "1:a5bbe68245b51051",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Thurmon v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5591.\nThurmon v. United States."
+  },
+  "file_name": "0930-07",
+  "first_page_order": 952,
+  "last_page_order": 952
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12212594,
+  "name": "Clemons v. United States",
+  "name_abbreviation": "Clemons v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11246",
+  "first_page": "874",
+  "last_page": "874",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 874"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.703,
+    "sha256": "a7b6d632fe797b2d5331b31530e9d5db9f9459ac6d98da36e75898a91b1fcce6",
+    "simhash": "1:b7aae77bc78ff10c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Clemons v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11246.\nClemons v. United States."
+  },
+  "file_name": "0874-14",
+  "first_page_order": 956,
+  "last_page_order": 956
+}

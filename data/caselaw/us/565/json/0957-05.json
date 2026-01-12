@@ -1,0 +1,59 @@
+{
+  "id": 12228533,
+  "name": "Buckles v. United States",
+  "name_abbreviation": "Buckles v. United States",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-6226",
+  "first_page": "957",
+  "last_page": "957",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 957"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.678,
+    "sha256": "14de56d1d4294c4d121151a44936c7b717e338721142a9beac05e0df8fae7415",
+    "simhash": "1:168ba5ab4fbf804a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Buckles v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6226.\nBuckles v. United States."
+  },
+  "file_name": "0957-05",
+  "first_page_order": 1039,
+  "last_page_order": 1039
+}

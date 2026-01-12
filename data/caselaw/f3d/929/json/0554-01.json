@@ -1,0 +1,734 @@
+{
+  "id": 12521790,
+  "name": "Jerry N. BROWN, Petitioner-Appellant, v. UNITED STATES of America, Respondent-Appellee.",
+  "name_abbreviation": "Brown v. United States",
+  "decision_date": "2019-07-03",
+  "docket_number": "No. 17-1420",
+  "first_page": "554",
+  "last_page": "561",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "929 F.3d 554"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "8th Cir.",
+    "id": 8821,
+    "name": "United States Court of Appeals for the Eighth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "490 U.S. 477",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        605341
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "484"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/490/0477-01"
+      ]
+    },
+    {
+      "cite": "771 F.3d 1064",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4291493
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1067"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/771/1064-01"
+      ]
+    },
+    {
+      "cite": "908 F.2d 384",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10535939
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "385"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/908/0384-01"
+      ]
+    },
+    {
+      "cite": "932 F.2d 703",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10542735
+      ],
+      "weight": 3,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "707-08"
+        },
+        {
+          "page": "707"
+        },
+        {
+          "page": "707-08"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/932/0703-01"
+      ]
+    },
+    {
+      "cite": "549 U.S. 183",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3553841
+      ],
+      "weight": 4,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "193"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/549/0183-01"
+      ]
+    },
+    {
+      "cite": "863 F.3d 1053",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12276075
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1057",
+          "parenthetical": "looking to \"a state's model jury instructions to 'reinforce' [the court's] interpretation of the means or elements inquiry\" (citation omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/863/1053-01"
+      ]
+    },
+    {
+      "cite": "844 F.3d 801",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12176821
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "803",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/844/0801-01"
+      ]
+    },
+    {
+      "cite": "599 S.W.2d 94",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9928080
+      ],
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "96",
+          "parenthetical": "referring to the elements of section 560.070 as \"(1) that the defendant broke into an enclosure of another , (2) with the intent to commit a crime ... and (3) at that time property of value was kept therein\" (emphasis omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/599/0094-01"
+      ]
+    },
+    {
+      "cite": "571 S.W.2d 486",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9940984
+      ],
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "487"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/571/0486-01"
+      ]
+    },
+    {
+      "cite": "592 S.W.2d 165",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9930011
+      ],
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "166",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/592/0165-01"
+      ]
+    },
+    {
+      "cite": "273 S.W.2d 198",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        1336307,
+        10188125
+      ],
+      "year": 1954,
+      "pin_cites": [
+        {
+          "page": "203",
+          "parenthetical": "\"[I]f a statute makes criminal the doing of this, or that, or that, mentioning several things disjunctively, there is but one offense, which may be committed in different ways.\" (citation omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mo/364/1109-01",
+        "/sw2d/273/0198-01"
+      ]
+    },
+    {
+      "cite": "364 Mo. 1109",
+      "category": "reporters:state",
+      "reporter": "Mo.",
+      "case_ids": [
+        1336307
+      ],
+      "year": 1954,
+      "pin_cites": [
+        {
+          "parenthetical": "\"[I]f a statute makes criminal the doing of this, or that, or that, mentioning several things disjunctively, there is but one offense, which may be committed in different ways.\" (citation omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mo/364/1109-01"
+      ]
+    },
+    {
+      "cite": "887 F.3d 397",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516560
+      ],
+      "weight": 6,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "401-02",
+          "parenthetical": "en banc"
+        },
+        {
+          "page": "407",
+          "parenthetical": "Colloton, J., concurring in the judgment"
+        },
+        {
+          "page": "405",
+          "parenthetical": "lead opinion"
+        },
+        {
+          "parenthetical": "all but last brackets in original"
+        },
+        {
+          "page": "400, 407",
+          "parenthetical": "lead opinion"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/887/0397-01"
+      ]
+    },
+    {
+      "cite": "544 U.S. 13",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5879404
+      ],
+      "weight": 5,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "26",
+          "parenthetical": "explaining that the court can look to a limited set of record documents to identify the crime of conviction"
+        },
+        {
+          "parenthetical": "explaining that the court can look to a limited set of record documents to identify the crime of conviction"
+        },
+        {
+          "parenthetical": "explaining that the court can look to a limited set of record documents to identify the crime of conviction"
+        },
+        {
+          "page": "20-21"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/544/0013-01"
+      ]
+    },
+    {
+      "cite": "Mo. Rev. Stat. \u00a7 560.070",
+      "category": "laws:leg_statute",
+      "reporter": "Mo. Rev. Stat.",
+      "year": 1969,
+      "opinion_index": 0
+    },
+    {
+      "cite": "202 L.Ed.2d 364",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12622667
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "parenthetical": "including \"a structure or vehicle that has been adapted or is customarily used for overnight accommodation\" within the generic definition of burglary"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/0399-01"
+      ]
+    },
+    {
+      "cite": "139 S. Ct. 399",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12622667,
+        12622668
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "403-04",
+          "parenthetical": "including \"a structure or vehicle that has been adapted or is customarily used for overnight accommodation\" within the generic definition of burglary"
+        },
+        {
+          "page": "407",
+          "parenthetical": "concluding that \"ordinary boats and vessels ... and railroad cars\" are not included within the definition of generic burglary"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/0399-01",
+        "/s-ct/139/0399-02"
+      ]
+    },
+    {
+      "cite": "136 S. Ct. 2243",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12598042
+      ],
+      "weight": 10,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "2247"
+        },
+        {
+          "page": "2248"
+        },
+        {
+          "page": "2249",
+          "parenthetical": "defining \"means\" as \"various factual ways of committing some [element] of the offense\""
+        },
+        {
+          "page": "2248",
+          "parenthetical": "\"Elements are the constituent parts of a crime's legal definition-the things the prosecution must prove to sustain a conviction.\" (internal quotation marks and citation omitted)"
+        },
+        {
+          "page": "2256"
+        },
+        {
+          "page": "2248"
+        },
+        {
+          "page": "2253-54"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/136/2243-01"
+      ]
+    },
+    {
+      "cite": "570 U.S. 254",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12698469
+      ],
+      "weight": 5,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "257"
+        },
+        {
+          "page": "261-62"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/570/0254-01"
+      ]
+    },
+    {
+      "cite": "905 F.3d 1088",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518735
+      ],
+      "weight": 3,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1093"
+        },
+        {
+          "page": "1090"
+        },
+        {
+          "page": "1090",
+          "parenthetical": "explaining that some statutes \"define multiple crimes by listing more than one set of elements\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/905/1088-01"
+      ]
+    },
+    {
+      "cite": "495 U.S. 575",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        634101
+      ],
+      "weight": 13,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "592, 598"
+        },
+        {
+          "page": "598"
+        },
+        {
+          "parenthetical": "including \"a structure or vehicle that has been adapted or is customarily used for overnight accommodation\" within the generic definition of burglary"
+        },
+        {
+          "page": "599"
+        },
+        {
+          "page": "602"
+        },
+        {
+          "page": "602"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/495/0575-01"
+      ]
+    },
+    {
+      "cite": "819 F.3d 1044",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4252542
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1047"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/819/1044-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 2255",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 924",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(e)(1)"
+        },
+        {
+          "page": "(e)(2)(B)(ii)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "139 S. Ct. 1872",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12620172
+      ],
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "1879"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/s-ct/139/1872-01"
+      ]
+    },
+    {
+      "cite": "932 F.2d 703",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10542735
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "707"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/932/0703-01"
+      ]
+    },
+    {
+      "cite": "887 F.3d 397",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516560
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "409",
+          "parenthetical": "Loken, J., dissenting"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/887/0397-01"
+      ]
+    },
+    {
+      "cite": "Mo. Rev. Stat. \u00a7 560.070",
+      "category": "laws:leg_statute",
+      "reporter": "Mo. Rev. Stat.",
+      "weight": 3,
+      "year": 1969,
+      "pin_cites": [
+        {
+          "parenthetical": "repealed"
+        },
+        {
+          "page": "602"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "202 L.Ed.2d 364",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12622667
+      ],
+      "year": 2018,
+      "opinion_index": 1,
+      "case_paths": [
+        "/s-ct/139/0399-01"
+      ]
+    },
+    {
+      "cite": "139 S. Ct. 399",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12622667,
+        12622668
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "406-07"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/s-ct/139/0399-01",
+        "/s-ct/139/0399-02"
+      ]
+    },
+    {
+      "cite": "495 U.S. 575",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        634101
+      ],
+      "weight": 14,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "598"
+        },
+        {
+          "page": "602"
+        },
+        {
+          "page": "599"
+        },
+        {
+          "parenthetical": "repealed"
+        },
+        {
+          "page": "588"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/495/0575-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 924",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(e)(1)"
+        },
+        {
+          "page": "(e)(2)(B)(ii)"
+        }
+      ],
+      "opinion_index": 1
+    }
+  ],
+  "analysis": {
+    "cardinality": 914,
+    "char_count": 21493,
+    "pagerank": {
+      "raw": 6.770845263994211e-08,
+      "percentile": 0.4148668513106363
+    },
+    "sha256": "41f75e388c946debcf8d486993cb4dbc86e5562aaeb036f1e4c8134b78efe663",
+    "simhash": "1:bcecff3869af8604",
+    "word_count": 3438
+  },
+  "last_updated": "2024-02-27T18:47:08.079641+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before LOKEN, GRASZ, and STRAS, Circuit Judges."
+    ],
+    "parties": [
+      "Jerry N. BROWN, Petitioner-Appellant,\nv.\nUNITED STATES of America, Respondent-Appellee."
+    ],
+    "opinions": [
+      {
+        "text": "STRAS, Circuit Judge.\nThe question in this case is whether Jerry Brown's 1977 Missouri conviction of second-degree burglary is a \"violent felony\" under the Armed Career Criminal Act. Because we conclude that it is not, we remand for resentencing.\nI.\nIn 2007, Brown pleaded guilty to being a felon in possession of a firearm. The district court imposed a 15-year statutory-minimum sentence under the Armed Career Criminal Act (\"ACCA\") because he had three previous convictions for \"violent felon[ies].\" 18 U.S.C. \u00a7 924(e)(1). One of them was a 1977 conviction under Missouri's since-repealed second-degree-burglary statute. Without the three felonies, he would have faced a maximum sentence of 10 years in prison. See id. \u00a7 924(a)(2).\nNearly a decade later, Brown moved to correct his sentence. See 28 U.S.C. \u00a7 2255(a). His argument was that several Supreme Court decisions had cast doubt on whether his second-degree-burglary conviction qualified as a violent felony. We granted a certificate of appealability to address this question. Applying de novo review, see Kelly v. United States , 819 F.3d 1044, 1047 (8th Cir. 2016), and setting aside the \"timeliness and other procedural\" objections that the government has waived, we conclude that Brown's second-degree-burglary conviction was not a violent felony.\nII.\nACCA includes a list of offenses that qualify as \"violent felon[ies].\" See 18 U.S.C. \u00a7 924(e)(2)(B)(ii). One of the enumerated offenses is \"burglary,\" but ACCA does not define burglary or specify its elements. See id. In the absence of a definition, the Supreme Court has interpreted ACCA's enumerated-offenses clause as incorporating a \"generic, contemporary meaning\" of each listed offense that is \"independent of the labels employed by the various States' criminal codes.\" Taylor v. United States (Taylor I ), 495 U.S. 575, 592, 598, 110 S.Ct. 2143, 109 L.Ed.2d 607 (1990). To determine whether Brown's conviction counts as generic burglary, \"we focus on the elements of the crime\"-as opposed to the actual facts of what he did-and \"compare [them] with those of the generic enumerated offense.\" United States v. Schneider , 905 F.3d 1088, 1093 (8th Cir. 2018). If Missouri's 1977 definition of second-degree burglary is \"the same as, or narrower than,\" generic burglary, then Brown's conviction counts. Descamps v. United States , 570 U.S. 254, 257, 133 S.Ct. 2276, 186 L.Ed.2d 438 (2013) ; see also Mathis v. United States , --- U.S. ----, 136 S. Ct. 2243, 2247, 195 L.Ed.2d 604 (2016). If not, then Brown does not have three predicate convictions, and we must reverse and remand for resentencing. See Mathis , 136 S. Ct. at 2248.\nThe Supreme Court has defined \"generic\" burglary as \"an unlawful or unprivileged entry into, or remaining in, a building or other structure, with intent to commit a crime.\" Taylor I , 495 U.S. at 598, 110 S.Ct. 2143 ; see also United States v. Stitt , --- U.S. ----, 139 S. Ct. 399, 403-04, 202 L.Ed.2d 364 (2018) (including \"a structure or vehicle that has been adapted or is customarily used for overnight accommodation\" within the generic definition of burglary). The statute in effect at the time of Brown's conviction prohibited\nbreaking and entering any building, the breaking and entering of which shall not be declared by any statute of this state to be burglary in the first degree, or any booth or tent, or any boat or vessel, or railroad car in which there shall be at the time any human being or any goods, wares, merchandise or other valuable thing kept or deposited, with the intent to steal or commit any crime therein.\nMo. Rev. Stat. \u00a7 560.070 (1969). Some of the locations contemplated by the statute-such as freight cars, booths, and fishing boats-are so \"nontypical\" that they fall \"outside the scope of\" generic burglary. Stitt , 139 S. Ct. at 407 (concluding that \"ordinary boats and vessels ... and railroad cars\" are not included within the definition of generic burglary); see also Taylor I , 495 U.S. at 599, 110 S.Ct. 2143. So if the statute \"create[d] [just] a single crime [with] a single set of elements,\" Schneider , 905 F.3d at 1090, the crime was broader than generic burglary. Under this interpretation, the listed locations would be means of committing a single crime, not separate elements defining multiple crimes. See Mathis , 136 S. Ct. at 2249 (defining \"means\" as \"various factual ways of committing some [element] of the offense\").\nOn the other hand, it is possible that each listed location is an element of a separate crime: burglary of a building, burglary of a booth, and so on. See Schneider , 905 F.3d at 1090 (explaining that some statutes \"define multiple crimes by listing more than one set of elements\"). There is no dispute here that Brown burglarized a building. See Shepard v. United States , 544 U.S. 13, 26, 125 S.Ct. 1254, 161 L.Ed.2d 205 (2005) (explaining that the court can look to a limited set of record documents to identify the crime of conviction). So if the Missouri statute created a separate crime for \"burglary of a building,\" then his conviction would count as generic burglary even if the burglary of another listed location would not have. Under this interpretation, the listed locations would be elements, not means. See Mathis , 136 S. Ct. at 2248 (\"Elements are the constituent parts of a crime's legal definition-the things the prosecution must prove to sustain a conviction.\" (internal quotation marks and citation omitted)).\nThe key question, therefore, is whether the second-degree-burglary statute is divisible: can it be split into multiple crimes, each having a different locational element? To answer this question, we look to \"authoritative sources of state law,\" including the statutory text and judicial decisions interpreting it. Id. at 2256. The text of section 560.070 does not provide a definitive answer one way or the other, but judicial decisions are more helpful. See id. As we recently recognized in United States v. Naylor , which interpreted a later version of Missouri's second-degree-burglary statute, \"the Supreme Court of Missouri has consistently held that disjunctive alternatives in Missouri's criminal statutes should be construed as listing various ways of committing a single crime.\" 887 F.3d 397, 401-02 (8th Cir. 2018) (en banc) (lead opinion) (collecting cases); see also id. at 407 (Colloton, J., concurring in the judgment); State v. Hartman , 364 Mo. 1109, 273 S.W.2d 198, 203 (Mo. banc 1954) (\"[I]f a statute makes criminal the doing of this, or that, or that, mentioning several things disjunctively, there is but one offense, which may be committed in different ways.\" (citation omitted)). Much like the version of the statute we analyzed in Naylor , the version in effect in 1977 listed the locations where a second-degree burglary could occur as disjunctive alternatives, so Missouri's single-crime rule also applies here.\nThe few available Missouri cases interpreting this particular statute view it this way. For example, the Missouri Supreme Court defined the crime as including, among other things, \"(1) breaking and entering, (2) any building, etc. , (3) where there are human beings or goods, wares, merchandise or other valuable things kept or deposited.\" State v. Smith , 592 S.W.2d 165, 166 (Mo. banc 1979) (emphasis added) (quoting State v. Stone , 571 S.W.2d 486, 487 (Mo. Ct. App. 1978) ). A later decision of the Missouri Court of Appeals described the crime similarly, except it substituted the word \"enclosure\" for \"building.\" See State v. Lewis , 599 S.W.2d 94, 96 (Mo. Ct. App. 1980) (referring to the elements of section 560.070 as \"(1) that the defendant broke into an enclosure of another , (2) with the intent to commit a crime ... and (3) at that time property of value was kept therein\" (emphasis omitted)). Under either definition, the \"use of a single umbrella term\"-building or enclosure-to refer to the locations where a burglary could take place strongly suggests \"that each alternative [was] only a possible means of commission, not an element that the prosecutor [had to] prove to a jury beyond a reasonable doubt.\" Mathis , 136 S. Ct. at 2257 ; see also United States v. Parrow , 844 F.3d 801, 803 (8th Cir. 2016) (per curiam).\nMissouri's Approved Jury Instructions provide further support for treating the listed locations as means, not elements. See United States v. McMillan , 863 F.3d 1053, 1057 (8th Cir. 2017) (looking to \"a state's model jury instructions to 'reinforce' [the court's] interpretation of the means or elements inquiry\" (citation omitted)); see also Naylor , 887 F.3d at 405 (lead opinion) (noting that Missouri's model jury instructions are approved by the Supreme Court of Missouri and must be used if they are on point). The relevant portion of the second-degree-burglary instruction required a finding that \"the defendant broke into a (building) (booth) (tent) (boat) (railroad car).\" Missouri Approved Jury Instructions \u00a7 7.32 (1974). It listed the locational alternatives just like other non-elements found elsewhere in the instruction, using adjoining parentheses. For example, the instruction also required the jury to find that the victim \"(owned) (occupied)\" the broken-into premises and that the defendant \"(entered) (inserted any part of a tool or other device) (introduced any part of his person)\" into the premises. Id.\nThis stands in stark contrast to the final paragraph of the instruction, which directed the judge to \"insert one of the following: [1] a human being was present therein, [2] (goods) (wares) were kept therein, [3] merchandise was kept therein, [4] valuable things were kept therein[.]\" Id. (all but last brackets in original). If any part of the instruction described elements rather than means, it would have been the one requiring the judge to select just one of the alternatives up front, which the jury would then have to either accept or reject when delivering its verdict. See Mathis , 136 S. Ct. at 2248.\nDespite the available sources all suggesting that the statute is not divisible by location, the government insists that Missouri never prosecuted anyone between 1969 and 1978 for burgling anything other than a \"building,\" meaning that all prosecutions under the statute were, factually speaking, generic burglary. Even if this is true-and we have reason to doubt that it is, given that the government cites only reported appellate cases-it requires no stretch of \"legal imagination\" to conclude that Missouri could have convicted someone of non-generic burglary. Gonzales v. Duenas-Alvarez , 549 U.S. 183, 193, 127 S.Ct. 815, 166 L.Ed.2d 683 (2007). Indeed, a \"realistic probability,\" id. , exists on the face of the statute itself. Cf. Naylor , 887 F.3d at 400, 407 (lead opinion) (looking only to the statutory text in concluding that a later second-degree-burglary statute was broader than generic burglary).\nTo be sure, nearly three decades ago, we held that a conviction under this very statute was a violent felony under ACCA's enumerated-offenses clause. See United States v. Taylor (Taylor II ), 932 F.2d 703, 707-08 (8th Cir. 1991) ; United States v. Croft , 908 F.2d 384, 385 (8th Cir. 1990). But the parties do not suggest that these decisions are controlling, and for good reason. They have been \"cast into doubt by ... intervening Supreme Court decision[s],\" especially Mathis , so we are not bound by them. United States v. Anderson , 771 F.3d 1064, 1067 (8th Cir. 2014). Contrary to the approach we took in those decisions, Mathis clarified that if any of the means by which a defendant can commit a crime fall outside the definition of the generic offense, then it is not a violent felony, even if the defendant actually committed the generic crime. See 136 S. Ct. at 2253-54. So too here.\nThe dissent's theory is different. It accuses us of overruling the Supreme Court's decision in Taylor I , something we obviously cannot do. See Rodriguez de Quijas v. Shearson/Am. Express, Inc. , 490 U.S. 477, 484 (1989). As the dissent acknowledges, Taylor I involved seven different Missouri burglary statutes, some of which the Court recognized were broader than generic burglary. 495 U.S. at 578-79 n.1, 602, 110 S.Ct. 2143. At no point did the Court hold or imply that the statute here -even though it was among the seven discussed in Taylor I -satisfied the definition of generic burglary.\nNevertheless, the dissent latches onto the Court's statement that\nin a State whose burglary statutes include entry of an automobile as well as a building, if the indictment or information and jury instructions show that the defendant was charged only with a burglary of a building, and that the jury necessarily had to find an entry of a building to convict, then the Government should be allowed to use the conviction.\nId. at 602, 110 S.Ct. 2143. According to the dissent, although this statement was clearly framed as a hypothetical example, we should treat it as a conclusive holding that the records in Taylor's case (and, by extension, Brown's) satisfied the Court's test. Compare Descamps , 570 U.S. at 261-62, 133 S.Ct. 2276 (saying that this sentence was a \"hypothe[tical]\" about how a court should treat \"a statute with alternative elements \" (emphasis added)); Shepard , 544 U.S. at 20-21, 125 S.Ct. 1254 (explaining that Taylor I \"discuss[es] the use of these documents as an 'example' \" (citation omitted)), with post at 560-61 (alternatively characterizing this sentence as a \"holding\" and \"specific directions\" on remand). The Court could not possibly have decided that issue, however, for the simple reason that most of Taylor's charging documents were not introduced into the record until after the Court remanded the case. See Taylor I , 495 U.S. at 602, 110 S.Ct. 2143 ; Taylor II , 932 F.2d at 707. This court , to be sure, did eventually hold that the conviction counted, see Taylor II , 932 F.2d at 707-08, but that was another of our pre- Shepard , pre- Descamps , pre- Mathis decisions that has not survived later developments. And these decisions tell us why Brown's 1977 second-degree-burglary conviction cannot count as a violent felony.\nIII.\nWe accordingly reverse the judgment of the district court and remand for resentencing.\nBrown's certificate of appealability included a second question: whether his conviction of first-degree sexual abuse under Missouri law-another of his predicate offenses-was a violent felony. In light of our conclusion that second-degree burglary was not one, we need not address this question.\nThe full instruction provided:\n(As to Count _____, if) (If) you find and believe from the evidence beyond a reasonable doubt:\nFirst, that (on) (on or about) _____ in the (City) (County) of _____, State of Missouri, the defendant broke into a (building) (booth) (tent) (boat) (railroad car) located at [insert sufficient identification ] and (owned) (occupied) by [insert name of owner or occupant ], and (entered) (inserted any part of a tool or other device) (introduced any part of his person) therein, and\nSecond, that he did so with intent to (commit [name of crime ] ) (steal property) therein, and\nThird, that at that time [insert one of the following: [1] a human being was present therein, [2] (goods) (wares) were kept therein, [3] merchandise was kept therein, [4] valuable things were kept therein],\nThen you will find defendant guilty (under Count _____) of burglary in the second degree.\nMissouri Approved Jury Instructions \u00a7 7.32 (1974) (brackets in original).",
+        "type": "majority",
+        "author": "STRAS, Circuit Judge."
+      },
+      {
+        "text": "LOKEN, Circuit Judge, dissenting.\nI respectfully dissent. In my view the court impermissibly overrules a controlling Supreme Court decision, Taylor v. United States, 495 U.S. 575, 110 S.Ct. 2143, 109 L.Ed.2d 607 (1990), based upon reasoning in later Supreme Court cases that did not overrule the holding in Taylor. Only the Supreme Court can overrule its prior decisions, as the Court has often reminded us.\nThe issue is whether Jerry Brown's 1977 conviction for second-degree burglary in violation of Mo. Rev. Stat. \u00a7 560.070 (1969), was a predicate \"violent felony\" that made him subject to a 15-year mandatory minimum sentence under the Armed Career Criminal Act for his 2007 firearm offense. See 18 U.S.C. \u00a7 924(e)(1). As the court explains, the Supreme Court held in Taylor that \"burglary,\" an enumerated violent felony offense in 18 U.S.C. \u00a7 924(e)(2)(B)(ii), means generic burglary, which the Court defined as \"an unlawful or unprivileged entry into, or remaining in, a building or other structure, with intent to commit a crime.\" 495 U.S. at 598, 110 S.Ct. 2143.\nIn Taylor, defendant was sentenced as an armed career criminal based on four prior felony convictions. Two were Missouri second-degree burglary convictions in 1963 and 1971, years in which \"Missouri had seven different statutes under which one could be charged with second-degree burglary.\" 495 U.S. at 578 n.1, 110 S.Ct. 2143. The Court held that \"most but not all the former Missouri statutes defining second-degree burglary include all the elements of generic burglary.\" Id. at 602, 110 S.Ct. 2143. However, one of Missouri's second-degree burglary statutes in effect at the times of Taylor's two convictions was broader. It \"included breaking and entering 'any booth or tent, or any boat or vessel, or railroad car.' \" Id. at 599, 110 S.Ct. 2143, quoting Mo. Rev. Stat. \u00a7 560.070 (1969) (repealed). As the record in Taylor did not reveal which of the seven Missouri statutes were the bases for his two prior convictions, the Court remanded, providing specific directions how to address this issue: \"in a State whose burglary statutes include entry of an automobile as well as a building, if the indictment or information and jury instructions show that the defendant was charged only with a burglary of a building, and that the jury necessarily had to find an entry of a building to convict, then the Government should be allowed to use the conviction for enhancement.\" Id. at 602, 110 S.Ct. 2143.\nOn remand, the government established that the 1971 information that led to one of Taylor's second-degree burglary convictions alleged a violation of \u00a7 560.070 (1969) -- that Taylor \"did feloniously and burglariously, forcibly break and enter dwelling house and building\" at a specified location. We nonetheless concluded that Taylor's plea of guilty to that charge \"constituted 'generic' burglary under the Supreme Court's Taylor standard because the breaking and entering was of a 'dwelling house and building.' \" United States v. Taylor, 932 F.2d 703, 707 (8th Cir. 1991). Here, Brown was convicted of second-degree burglary in violation of \u00a7 560.070 (1969) based on an information charging that, on December 9, 1977, he did \"forcibly break and enter a building to wit: the Oregon County R-IV School District high school building ... with the felonious and burglarious intent to steal ... property.\" The relevant record facts concerning the prior \u00a7 560.070 (1969) convictions in Taylor and in this case are identical. Thus, the ACCA issue is controlled by the Supreme Court's holding in Taylor and this court's application of that holding on remand.\nIgnoring the Supreme Court's holding in Taylor, the court declines to follow our decision in Taylor because it has been \"cast into doubt by intervening Supreme Court decision[s].\" Infra at p. 559. But none of those decisions purported to overrule the Court's prior decision in Taylor. See United States v. Stitt, --- U.S. ----, 139 S. Ct. 399, 406-07, 202 L.Ed.2d 364 (2018). Indeed, on June 10 of this year, a unanimous Court again followed the Court's interpretation of generic burglary in Taylor, observing that \"[a]s the Court recognized in Taylor , Congress 'singled out burglary' because of its 'inherent potential for harm to persons.' \" United States v. Quarles, --- U.S. ----, 139 S. Ct. 1872, 1879, --- L.Ed.2d ---- (2019), quoting Taylor, 495 U.S. at 588, 110 S.Ct. 2143.\nInstead of respecting congressional intent the Supreme Court has repeatedly found demonstrable, our en banc court in United States v. Naylor adopted a convoluted and impractical interpretation of the \"categorical approach\" to rule -- erroneously, in my view -- that all Missouri second-degree burglary convictions under the 1979 successor to \u00a7 560.070 (1969) are not violent felonies under the ACCA. 887 F.3d 397, 409 (8th Cir. 2018) (Loken, J., dissenting). As Justice Thomas observed in Quarles, this \"demonstrates the absurdity of applying the categorical approach to the enumerated-offenses clause.\" 139 S. Ct. at ---- (Thomas, J., concurring). Whether to abandon the categorical approach is of course an issue for the Supreme Court. But now, the court extends Naylor's flawed interpretation of the categorical approach to overrule the Supreme Court's decision applying the categorical approach to the predecessor statute at issue in Taylor. This we may not do. Accordingly, I respectfully dissent.",
+        "type": "dissent",
+        "author": "LOKEN, Circuit Judge, dissenting."
+      }
+    ],
+    "attorneys": [
+      "Daniel P. Goldberg, Appellate Atty., Office of the Fed. Public Defender, Kansas City, MO, argued (Laine Cardarella, Fed. Public Defender, on the brief), for appellant.",
+      "James J. Kelleher, Asst. U.S. Atty., Springfield, MO, argued (Timothy A. Garrison, U.S. Atty., Philip M. Koppe, Asst. U.S. Atty., Kansas City, MO, on the brief), for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "Jerry N. BROWN, Petitioner-Appellant,\nv.\nUNITED STATES of America, Respondent-Appellee.\nNo. 17-1420\nUnited States Court of Appeals, Eighth Circuit.\nSubmitted: January 16, 2019\nFiled: July 3, 2019\nDaniel P. Goldberg, Appellate Atty., Office of the Fed. Public Defender, Kansas City, MO, argued (Laine Cardarella, Fed. Public Defender, on the brief), for appellant.\nJames J. Kelleher, Asst. U.S. Atty., Springfield, MO, argued (Timothy A. Garrison, U.S. Atty., Philip M. Koppe, Asst. U.S. Atty., Kansas City, MO, on the brief), for appellee.\nBefore LOKEN, GRASZ, and STRAS, Circuit Judges."
+  },
+  "file_name": "0554-01",
+  "first_page_order": 554,
+  "last_page_order": 561
+}

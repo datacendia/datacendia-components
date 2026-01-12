@@ -1,0 +1,66 @@
+{
+  "id": 12701852,
+  "name": "State of FLORIDA, plaintiff, v. State of GEORGIA.",
+  "name_abbreviation": "State v. State",
+  "decision_date": "2014-03-03",
+  "docket_number": "No. 142, Original.",
+  "first_page": "1235",
+  "last_page": "1235",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 1235"
+    },
+    {
+      "type": "parallel",
+      "cite": "188 L. Ed. 2d 373"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 1509"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 30,
+    "char_count": 225,
+    "sha256": "1f452a3ac90b33483b2981fe737767a9a1efcc27479c179e10ecc17a7f75a6de",
+    "simhash": "1:52af04c47f2f6249",
+    "word_count": 39
+  },
+  "last_updated": "2021-09-08T21:16:17.237805+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "State of FLORIDA, plaintiff,\nv.\nState of GEORGIA."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "State of FLORIDA, plaintiff,\nv.\nState of GEORGIA.\nNo. 142, Original.\nSupreme Court of the United States\nMarch 3, 2014.\nThe Solicitor General is invited to file a brief in this case expressing the views of the United States."
+  },
+  "file_name": "1235-05",
+  "first_page_order": 1235,
+  "last_page_order": 1235
+}

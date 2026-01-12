@@ -1,0 +1,59 @@
+{
+  "id": 12204622,
+  "name": "Sanchez v. Aldrich et al.",
+  "name_abbreviation": "Sanchez v. Aldrich",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10713",
+  "first_page": "845",
+  "last_page": "845",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 845"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.603,
+    "sha256": "195628fbd74f1505a517bc81a028e382cf439a1ea461d1eb9fc113f23533c52a",
+    "simhash": "1:14dbc7260c210a8b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sanchez v. Aldrich et al."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Colo. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10713.\nSanchez v. Aldrich et al."
+  },
+  "file_name": "0845-12",
+  "first_page_order": 927,
+  "last_page_order": 927
+}

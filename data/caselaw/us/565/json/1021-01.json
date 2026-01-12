@@ -1,0 +1,59 @@
+{
+  "id": 12233087,
+  "name": "Marion v. United States",
+  "name_abbreviation": "Marion v. United States",
+  "decision_date": "2011-11-07",
+  "docket_number": "No. 11-6793",
+  "first_page": "1021",
+  "last_page": "1021",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1021"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.702,
+    "sha256": "031fd02761273884a68c20249944e1e40523e6880a5977a388d54432ddf53c9a",
+    "simhash": "1:14898a036d8f903e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Marion v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6793.\nMarion v. United States."
+  },
+  "file_name": "1021-01",
+  "first_page_order": 1103,
+  "last_page_order": 1103
+}

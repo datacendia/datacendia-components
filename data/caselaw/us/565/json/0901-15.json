@@ -1,0 +1,59 @@
+{
+  "id": 12219553,
+  "name": "Mack v. Scribner, Warden, et al.",
+  "name_abbreviation": "Mack v. Scribner",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5330",
+  "first_page": "901",
+  "last_page": "901",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 901"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 80,
+    "ocr_confidence": 0.636,
+    "sha256": "3f165eb2c60dfbf747e11a0cb6244240e14eeca79e4ce6627836d17370e7c784",
+    "simhash": "1:503326283917941f",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mack v. Scribner, Warden, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5330.\nMack v. Scribner, Warden, et al."
+  },
+  "file_name": "0901-15",
+  "first_page_order": 983,
+  "last_page_order": 983
+}

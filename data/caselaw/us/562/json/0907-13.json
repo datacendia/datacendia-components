@@ -1,0 +1,59 @@
+{
+  "id": 6012151,
+  "name": "Morgan v. Minger",
+  "name_abbreviation": "Morgan v. Minger",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5174",
+  "first_page": "907",
+  "last_page": "907",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 907"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 65,
+    "ocr_confidence": 0.578,
+    "sha256": "6ab09019d999e80ea620900b0affe09858eb3f7ed3bdceb1dda7d14073df7095",
+    "simhash": "1:5ac1208186490820",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Morgan v. Minger."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5174.\nMorgan v. Minger."
+  },
+  "file_name": "0907-13",
+  "first_page_order": 929,
+  "last_page_order": 929
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5998071,
+  "name": "Ellis v. United States District Court for the District of Nevada",
+  "name_abbreviation": "Ellis v. United States District Court for the District of Nevada",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7284",
+  "first_page": "1150",
+  "last_page": "1150",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1150"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 18,
+    "char_count": 113,
+    "ocr_confidence": 0.582,
+    "sha256": "d709469c71746c5b589b3c1e2fba61027a05686648d48c72e36a559522754c93",
+    "simhash": "1:352b726308f1e027",
+    "word_count": 19
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ellis v. United States District Court for the District of Nevada."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7284.\nEllis v. United States District Court for the District of Nevada."
+  },
+  "file_name": "1150-03",
+  "first_page_order": 1172,
+  "last_page_order": 1172
+}

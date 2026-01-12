@@ -1,0 +1,715 @@
+{
+  "id": 12519360,
+  "name": "UNITED STATES of America, Plaintiff - Appellee v. Scott Jacob SMITH, Defendant - Appellant",
+  "name_abbreviation": "United States v. Smith",
+  "decision_date": "2018-12-11",
+  "docket_number": "No. 18-1345",
+  "first_page": "1047",
+  "last_page": "1056",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "910 F.3d 1047"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "8th Cir.",
+    "id": 8821,
+    "name": "United States Court of Appeals for the Eighth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "560 U.S. 218",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12449201,
+        3642026
+      ],
+      "weight": 3,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "224"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/176/0979-01",
+        "/us/560/0218-01"
+      ]
+    },
+    {
+      "cite": "888 F.3d 1012",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516625
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1017",
+          "parenthetical": "standard of review"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/888/1012-01"
+      ]
+    },
+    {
+      "cite": "673 F.3d 789",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3742515
+      ],
+      "weight": 2,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "798"
+        },
+        {
+          "page": "799"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/673/0789-01"
+      ]
+    },
+    {
+      "cite": "380 U.S. 343",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1525098
+      ],
+      "weight": 3,
+      "year": 1965,
+      "pin_cites": [
+        {
+          "page": "350",
+          "parenthetical": "\"A lesser-included offense instruction is only proper where the charged greater offense requires the jury to find a disputed factual element which is not required for conviction of the lesser-included offense.\""
+        },
+        {
+          "parenthetical": "\"A lesser-included offense instruction is only proper where the charged greater offense requires the jury to find a disputed factual element which is not required for conviction of the lesser-included offense.\""
+        },
+        {
+          "parenthetical": "\"A lesser-included offense instruction is only proper where the charged greater offense requires the jury to find a disputed factual element which is not required for conviction of the lesser-included offense.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/380/0343-01"
+      ]
+    },
+    {
+      "cite": "527 F.3d 54",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3566569
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "81",
+          "parenthetical": "Rendell, J., dissenting"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/527/0054-01"
+      ]
+    },
+    {
+      "cite": "163 L.Ed.2d 923",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "year": 2006,
+      "opinion_index": 0
+    },
+    {
+      "cite": "126 S.Ct. 1115",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "year": 2006,
+      "opinion_index": 0
+    },
+    {
+      "cite": "546 U.S. 1128",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5946497,
+        5986370,
+        5967843,
+        5880836,
+        6007818,
+        5990926,
+        5885647,
+        5986766,
+        5985329,
+        3806930,
+        5918034,
+        5898228,
+        5915061,
+        3807831,
+        5973625,
+        5990718
+      ],
+      "year": 2006,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/546/1128-08",
+        "/us/546/1128-10",
+        "/us/546/1128-15",
+        "/us/546/1128-02",
+        "/us/546/1128-13",
+        "/us/546/1128-14",
+        "/us/546/1128-06",
+        "/us/546/1128-01",
+        "/us/546/1128-07",
+        "/us/546/1128-11",
+        "/us/546/1128-09",
+        "/us/546/1128-04",
+        "/us/546/1128-05",
+        "/us/546/1128-16",
+        "/us/546/1128-12",
+        "/us/546/1128-03"
+      ]
+    },
+    {
+      "cite": "422 F.3d 738",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8934005
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "747",
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/422/0738-01"
+      ]
+    },
+    {
+      "cite": "634 F.3d 987",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4094009
+      ],
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1002"
+        },
+        {
+          "page": "1004"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/634/0987-01"
+      ]
+    },
+    {
+      "cite": "197 L.Ed.2d 565",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12604015,
+        12604016,
+        12604017,
+        12604018,
+        12604019,
+        12604020,
+        12604021,
+        12604022
+      ],
+      "year": 2017,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/137/1388-04",
+        "/s-ct/137/1388-05",
+        "/s-ct/137/1388-06",
+        "/s-ct/137/1389-01",
+        "/s-ct/137/1389-02",
+        "/s-ct/137/1389-03",
+        "/s-ct/137/1389-04",
+        "/s-ct/137/1389-05"
+      ]
+    },
+    {
+      "cite": "137 S.Ct. 1388",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12604012,
+        12604013,
+        12604014,
+        12604015,
+        12604016,
+        12604017
+      ],
+      "year": 2017,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/137/1388-01",
+        "/s-ct/137/1388-02",
+        "/s-ct/137/1388-03",
+        "/s-ct/137/1388-04",
+        "/s-ct/137/1388-05",
+        "/s-ct/137/1388-06"
+      ]
+    },
+    {
+      "cite": "839 F.3d 688",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12176352
+      ],
+      "weight": 3,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "695"
+        },
+        {
+          "page": "695-96"
+        },
+        {
+          "page": "695-96"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/839/0688-01"
+      ]
+    },
+    {
+      "cite": "284 U.S. 299",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5719289
+      ],
+      "weight": 3,
+      "year": 1932,
+      "pin_cites": [
+        {
+          "page": "304"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/284/0299-01"
+      ]
+    },
+    {
+      "cite": "470 U.S. 856",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11300388
+      ],
+      "weight": 3,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "861"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/470/0856-01"
+      ]
+    },
+    {
+      "cite": "450 F.3d 786",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3088352
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "788"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/450/0786-01"
+      ]
+    },
+    {
+      "cite": "887 F.3d 350",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516555
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "359"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/887/0350-01"
+      ]
+    },
+    {
+      "cite": "585 F.3d 145",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3480263
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "155"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/585/0145-01"
+      ]
+    },
+    {
+      "cite": "515 F.2d 112",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1137676
+      ],
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "116-18"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/515/0112-01"
+      ]
+    },
+    {
+      "cite": "185 L.Ed.2d 1068",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12698098,
+        12698099,
+        12698105,
+        12698106,
+        12698107,
+        12698108,
+        12698109,
+        12698110
+      ],
+      "year": 2013,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/569/0975-01",
+        "/us/569/0975-02",
+        "/us/569/0975-09",
+        "/us/569/0975-10",
+        "/us/569/0975-11",
+        "/us/569/0975-12",
+        "/us/569/0975-13",
+        "/us/569/0975-14"
+      ]
+    },
+    {
+      "cite": "133 S.Ct. 2371",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12698056,
+        12698057,
+        12698282,
+        12698283,
+        12698284,
+        12698098,
+        12698270
+      ],
+      "year": 2013,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/569/0971-10",
+        "/us/569/0971-11",
+        "/us/569/0986-14",
+        "/us/569/0986-15",
+        "/us/569/0986-16",
+        "/us/569/0975-01",
+        "/us/569/0986-01"
+      ]
+    },
+    {
+      "cite": "569 U.S. 975",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12698097,
+        12698098,
+        12698099,
+        12698100,
+        12698101,
+        12698102,
+        12698103,
+        12698104,
+        12698105,
+        12698106,
+        12698107,
+        12698108,
+        12698109,
+        12698110
+      ],
+      "year": 2013,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/569/0975-06",
+        "/us/569/0975-01",
+        "/us/569/0975-02",
+        "/us/569/0975-03",
+        "/us/569/0975-04",
+        "/us/569/0975-05",
+        "/us/569/0975-07",
+        "/us/569/0975-08",
+        "/us/569/0975-09",
+        "/us/569/0975-10",
+        "/us/569/0975-11",
+        "/us/569/0975-12",
+        "/us/569/0975-13",
+        "/us/569/0975-14"
+      ]
+    },
+    {
+      "cite": "700 F.3d 1138",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3637300
+      ],
+      "weight": 2,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "1145"
+        },
+        {
+          "page": "1145",
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/700/1138-01"
+      ]
+    },
+    {
+      "cite": "199 F. 53",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        55725
+      ],
+      "year": 1912,
+      "pin_cites": [
+        {
+          "page": "60"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/199/0053-01"
+      ]
+    },
+    {
+      "cite": "162 U.S. 625",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6141268
+      ],
+      "weight": 3,
+      "year": 1896,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/162/0625-01"
+      ]
+    },
+    {
+      "cite": "885 F.3d 1099",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516269
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1104",
+          "parenthetical": "quotation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/885/1099-01"
+      ]
+    },
+    {
+      "cite": "507 U.S. 725",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6237509
+      ],
+      "weight": 3,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "735"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/507/0725-01"
+      ]
+    },
+    {
+      "cite": "648 F.3d 884",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3739415
+      ],
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "887"
+        },
+        {
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/648/0884-01"
+      ]
+    },
+    {
+      "cite": "895 F.3d 541",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517635
+      ],
+      "weight": 6,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "549",
+          "parenthetical": "citation omitted"
+        },
+        {
+          "parenthetical": "quotation omitted"
+        },
+        {
+          "page": "548",
+          "parenthetical": "quotations omitted"
+        },
+        {
+          "page": "548"
+        },
+        {
+          "page": "548"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/895/0541-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 2252",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(a)(2)"
+        },
+        {
+          "page": "(b)(1) and (2)"
+        },
+        {
+          "page": "(a)(2) and (a)(4)(B)"
+        },
+        {
+          "page": "(b)(1) and (2)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 955,
+    "char_count": 23796,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2591276557050237
+    },
+    "sha256": "fd64d6c064dbf672054daf8ced2273557b67a050a16577bad405915b3f46f5c5",
+    "simhash": "1:956cbb44ea9f5f59",
+    "word_count": 3799
+  },
+  "last_updated": "2024-02-27T18:46:13.639075+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before LOKEN, BENTON, and SHEPHERD, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff - Appellee\nv.\nScott Jacob SMITH, Defendant - Appellant"
+    ],
+    "opinions": [
+      {
+        "text": "LOKEN, Circuit Judge.\nA jury convicted Scott Jacob Smith of Receipt of Visual Depictions of Minors Engaging in Sexually Explicit Conduct and Possession of Child Pornography in violation of 18 U.S.C. \u00a7 2252(a)(2), (a)(4)(B), (b)(1), and (b)(2). The district court sentenced Smith to concurrent terms of 235 months imprisonment on each count. Smith appeals, arguing the evidence was insufficient to convict; the jury's general verdict denied him his right to a unanimous verdict; his conviction of both receipt and possession violated the Double Jeopardy Clause as construed in United States v. Morrissey, 895 F.3d 541 (8th Cir. 2018), and prior child pornography cases; and the district court erred in imposing a two-level enhancement for knowing distribution of child pornography. We agree with the district court's resolution of complex unanimous verdict and double jeopardy issues and therefore affirm.\nI. Sufficiency of the Evidence.\nOn March 15, 2013, using the \"ARES Roundup\" law enforcement computer program, Department of Homeland Security Special Agent Aaron Simon downloaded five suspected child pornography files from a computer he traced to an IP address in Indianola, Iowa. The registered owner was Scott Jacob Smith. After confirming the files contained what a federal prosecutor agreed was child pornography, Agent Simon conducted a warrant search at the Smith residence, seized a computer in Smith's office, and conduced a consensual interview during which Smith wrote a short statement. Smith said the computer was password protected and used only by Smith and his wife, admitted he used ARES search terms related to child pornography but deleted any child images he saw, and admitted he used a \"disc scrubber\" program that can wipe and shred specific computer files.\nForensic examination of Smith's computer did not find the files Agent Simon downloaded in March but recovered the name of a deleted file that matched the downloads. The examiners recovered images of prepubescent minors and videos of child pornography in an ARES \"shared folder\" in the computer's \"Scott\" directory. They also found records of more than one hundred deleted files with names indicative of child pornography in the ARES \"shared folder,\" and hundreds more in the ARES \"downloads folder.\" The deleted file names contained search terms unique to child pornography that Smith had admitted using.\nSmith was charged with receipt, possession, and distribution of child pornography. At trial, the government's evidence included copies of the files downloaded by Agent Simon in March, three images of prepubescent minors and a video saved in the ARES \"shared folder,\" the names of 105 child pornography movie files saved to that folder, the titles of hundreds of files received in the ARES \"download folder,\" hundreds of ARES search keywords used to search for child pornography on the file-sharing program, and the names of files shared and partially downloaded via ARES. Smith's wife testified for the defense that the computer was not password protected and she suspected her teenage son was accessing child pornography. The jury convicted Smith of receipt and possession but found him not guilty of the distribution charge.\nOn appeal, Smith argues the evidence was insufficient because the government failed to prove beyond a reasonable doubt that he was the user who accessed child pornography; failed to prove knowing receipt because it did not introduce actual images from the \"downloads\" folder containing child pornography; failed to prove Smith's use of search terms immediately preceded creation of the images introduced at trial; and failed to prove Smith knowingly possessed the images downloaded by Agent Simon but not found on the computer when it was forensically examined.\nWe review the sufficiency of the evidence de novo. We view the evidence in the light most favorable to the jury's verdict, accepting all reasonable inferences that support the government and resolving conflicts in its favor. Morrissey, 895 F.3d at 549 (citation omitted). Reversal is proper \"only if no reasonable jury could have found the defendant guilty beyond a reasonable doubt.\" Id. (quotation omitted). Here, we agree with the government that Smith's contentions on appeal ignore his admissions to Agent Simon -- that the computer was password protected, that he was an intermediate-to-advanced computer user who understood the file-sharing ARES program and common child pornography search terms, and that his computer used file deletion programs. Based on these admissions, the child pornography images introduced at trial, and the substantial evidence that many other images had been deleted, a reasonable jury could find that Smith knowingly attempted to and did receive and possess child pornography.\nII. The Unanimous Verdict Issue.\nThe child pornography receipt and possession offenses impose penalties on a person who \"violates, or attempts or conspires to violate,\" the substantive offenses. 18 U.S.C. \u00a7 2252(b)(1) and (2). Rule 31(c)(3) of the Federal Rules of Criminal Procedure provides: \"A defendant may be found guilty of any of the following ... (3) an attempt to commit an offense necessarily included in the offense charged, if the attempt is an offense in its own right.\"\nThe Superseding Indictment charged that Smith \"did knowingly receive, and attempt to receive, child pornography\" (Count 2), and \"did knowingly possess, and attempt to possess, at least one matter which contains ... a visual depiction of a prepubescent minor and a minor who had not attained the age of 12 years\" (Count 3). The district court instructed the jury that one element of the charged receipt and possession offenses was that Smith \"knowingly received\" or \"knowingly possessed\" visual depictions of minors engaged in sexually explicit conduct. The instructions further stated that the jury must \"unanimously agree which particular visual depiction or depictions ... were received\" and possessed. A separate instruction stated, \"The crimes charged in Counts Two and Three of the Indictment are also charged as attempts,\" and then stated, \"A person may be found guilty of an attempt if he intended to commit the underlying crime ... and voluntarily and intentionally carried out some act which was a substantial step toward that crime.\" The Verdict Form, signed by all twelve jurors, stated, \"We, the jury, find the Defendant, Scott Jacob Smith, guilty of the crime of receipt of child pornography, as charged in Count Two,\" and \"guilty of the crime of possession of child pornography, as charged in Count Three.\"\nOn appeal, Smith argues the district court's jury instructions and verdict form violated Smith's Sixth Amendment right to a unanimous verdict \"because, for both the possession and receipt counts, the jury instructions blurred the requirements for the completed offense versus attempt.\" Therefore, Smith argues, \"reverse and remand for a new trial on both counts is required.\" Because Smith failed to object to the verdict form or jury instructions at trial, our review is for plain error. United States v. Poitra, 648 F.3d 884, 887 (8th Cir. 2011). Smith \"must show that there was an error, the error is clear or obvious under current law, the error affected the party's substantial rights, and the error seriously affects the fairness, integrity, or public reputation of judicial proceedings.\" Id. (citation omitted); see United States v. Olano, 507 U.S. 725, 735, 113 S.Ct. 1770, 123 L.Ed.2d 508 (1993).\nThis issue begins with the indictment. An indictment that joins two or more separate offenses in a single count is duplicitous, which presents a problem because \"the jury may convict a defendant without unanimous agreement on the defendant's guilt with respect to a particular offense.\" United States v. Paul, 885 F.3d 1099, 1104 (8th Cir. 2018) (quotation omitted). Implicit in Smith's argument on appeal is the notion that an attempt and the completed offense are separate offenses that must be separately charged. However plausible that contention may seem at first blush, our court rejected it over one hundred years ago:\nIt is said that this count is bad for duplicity, as two felonies are charged, one, the act of defrauding, and, the other, the attempt to defraud, both under section 17. This contention is answered [rejected] by the case of Crain v. United States, 162 U.S. 625, 16 S.Ct. 952, 40 L.Ed. 1097 (1896).\nMay v. United States, 199 F. 53, 60 (8th Cir. 1912) ; accord United States v. Boyle, 700 F.3d 1138, 1145 (8th Cir. 2012), cert. denied, 569 U.S. 975, 133 S.Ct. 2371, 185 L.Ed.2d 1068 (2013).\nThough the joinder is not improper, joining conspiracy, attempt, and substantive offenses in a single count can raise duplicity and evidentiary issues, as the Third Circuit discussed in United States v. Starks, 515 F.2d 112, 116-18 (3d Cir. 1975). However, that Court subsequently concluded, \"a single count of an indictment should not be found impermissibly duplicitous whenever it contains several allegations that could have been stated as separate offenses, but only when the failure to do so risks unfairness to the defendant.\" United States v. Root, 585 F.3d 145, 155 (3d Cir. 2009). If a count permissibly joins conspiracy or attempt and the substantive offense, as in this case, any risk of unfair duplicity to the defendant can be cured in various ways, for example, by the government electing to pursue only one of the alternatives charged, or by jury instructions and a verdict form that protect the defendant's right to a unanimous jury.\nHere, after review of the entire trial record, we conclude there was no risk of unfair duplicity, and therefore no plain error, in the way Count 2 and Count 3 were submitted to the jury. There is no indication that the instructions \"misled the jury or had a probable effect on the jury's verdict.\" United States v. Daniel, 887 F.3d 350, 359 (8th Cir. 2018). There was overwhelming evidence that Smith committed both attempt and completed offenses of child pornography receipt and possession. Thus, even if some jurors found that he attempted to receive or possess, and others found he in fact received or possessed, the jury unanimously found he violated the offenses Congress defined in 18 U.S.C. \u00a7 2252(a)(2) and (a)(4)(B). Thus, a well-established general principle applies: \"Because the jury returned a general verdict of guilty, we must uphold the jury's verdict if the evidence is sufficient to support either of the charged theories.\" Boyle, 700 F.3d at 1145 (citation omitted). In addition, the jury instructions included a unanimity instruction, separate instructions for receipt and possession that told the jury it must unanimously agree that particular visual depictions were received and possessed, and a separate instruction accurately defining the elements of an unlawful attempt. We presume that juries follow the court's instructions. Conley v. Very, 450 F.3d 786, 788 (8th Cir. 2006).\nFor these reasons, we conclude the instructions and verdict form were not plainly erroneous. Nor did they affect Smith's substantial rights because there is no reasonable probability the outcome of the trial would otherwise have been different. And the district court's decision to follow the common practice of joining attempt and completion charges in a single count did not seriously affect the fairness, integrity, or public reputation of the judicial proceedings.\nIII. The Double Jeopardy Issue.\nSmith argues the district court violated his rights under the Double Jeopardy Clause when it failed to instruct the jury that it could not convict Smith of knowing receipt and possession of child pornography based on the same facts. Though the Double Jeopardy Clause is part of the Fifth Amendment, the inquiry turns on legislative intent. \"[T]o determine whether Congress intended the same conduct to be punishable under two criminal provisions [t]he appropriate inquiry under Blockburger is 'whether each provision requires proof of a fact which the other does not.' \" Ball v. United States, 470 U.S. 856, 861, 105 S.Ct. 1668, 84 L.Ed.2d 740 (1985), quoting Blockburger v. United States, 284 U.S. 299, 304, 52 S.Ct. 180, 76 L.Ed. 306 (1932).\nIn a number of recent cases, we have applied the Double Jeopardy Clause to child pornography receipt and possession offenses, explaining:\nTo prove a double jeopardy violation, a defendant must demonstrate that he was convicted of two offenses that are in law and fact the same offense. Possession of child pornography is a lesser-included offense to receipt of child pornography. Convictions for both possession and receipt of the same image violate the double jeopardy clause.\nUnited States v. Zavesky, 839 F.3d 688, 695 (8th Cir. 2016), cert. denied, --- U.S. ----, 137 S.Ct. 1388, 197 L.Ed.2d 565 (2017), citing United States v. Muhlenbruch, 634 F.3d 987, 1002 (8th Cir. 2011).\n\"While a defendant may be tried for lesser and greater offenses during the same trial, a judgment of conviction and punishment for both violates the double jeopardy clause.\" United States v. Carpenter, 422 F.3d 738, 747 (8th Cir. 2005) (citation omitted), cert. denied, 546 U.S. 1128, 126 S.Ct. 1115, 163 L.Ed.2d 923 (2006). Possession is considered the lesser-included offense because knowing receipt of child pornography subjects a defendant to more serious punishment -- a five year mandatory minimum and twenty year statutory maximum sentence, versus no minimum and a ten year maximum for knowing possession. See United States v. Miller, 527 F.3d 54, 81 (3d Cir. 2008) (Rendell, J., dissenting); 18 U.S.C. \u00a7 2252(b)(1) and (2).\nA critical fact distinguishes this case from our prior cases. In Count 3, the indictment charged Smith with knowing possession of \"a visual depiction of a prepubescent minor and a minor who had not attained the age of 12 years.\" Conviction of that enhanced charge subjected Smith to a twenty year maximum sentence, the same statutory maximum as knowing receipt. Moreover, the district court instructed the jury that, to convict Smith under Count 3, an \"essential element\" was that he \"knew the minors were prepubescent or under 12 years of age,\" an element not included in the knowing receipt instruction in Count 2. Thus, as submitted to the jury, knowing possession was not a lesser included offense to knowing receipt. Rather, under the Blockburger test, knowing possession required proof of an essential fact which knowing receipt did not. See Sansone v. United States, 380 U.S. 343, 350, 85 S.Ct. 1004, 13 L.Ed.2d 882 (1965) (\"A lesser-included offense instruction is only proper where the charged greater offense requires the jury to find a disputed factual element which is not required for conviction of the lesser-included offense.\").\nAlso significant is the way this issue developed in the district court. Prior to trial, defense counsel filed a motion to merge Counts 2 and 3 for sentencing. In response to the court's question addressing that issue, the prosecutor stated that \"some of the same images will be relevant [to both counts], but they are not identical.\" The district court stated, \"Okay. We'll probably need a special interrogatory if that's the issue.\" Citing our Muhlenbruch and Zavesky decisions, the prosecutor replied, \"I'm fine with a special interrogatory. ... I believe once we get into the evidence that it will be clear ... we have different dates charged in the indictment as far as when each of these crimes occurred ....\"\nAt the end of the first day of trial, before the following day's instructions conference, the district court advised counsel:\nIn looking at the question of whether or not to use special interrogatories as to Counts 2 and 3, they do have different elements that must be established. Count [3], of course, has that 12-year-old language or the prepubescent minor language in it which, of course, Count 2 does not. ... [A]nd, as [the prosecutor] pointed out, the dates are different, so my inclination at this time would be instruct the jury, as the model instructions provide, that they have to unanimously agree on which particular image before they can convict, but not to ask them to do any kind of special interrogatory on those images. [Tr 169]\nThe following morning, at the instructions conference, defense counsel stated:\nI have had the opportunity to review the proposed jury instructions that the Court presented to the parties last night. I did look in particular at the Final Instruction[s] [defining the elements of the receipt and possession offenses and defining possession], and I do think that the Court has it correct when the Court added what is a parenthetical in the uniform jury instructions ... about the jury ... unanimously agree[ing] with the particular visual depiction or depiction[s] of minors, and that would be for the receipt and the possession because of the issue that we talked about earlier.\nSo we are in agreement with that, and we are also in agreement with the verdict form, Your Honor.\nAt closing argument, while the prosecutor did not limit the evidence supporting Counts 2 and 3 to particular images, in arguing Count 2 he referenced files that could not be recovered forensically from the computer, including the images downloaded by Agent Simon in March, introduced as Exhibit 2, and argued: \"They were shredded, but during that time frame, [Smith] was going out and knowingly receiving and attempting to receive child pornography.\" Turning to Count 3, the prosecutor again showed the jury images of prepubescent minors found when the computer was forensically searched, introduced as Exhibit 7, and argued these images proved knowing possession of depictions of prepubescent or under age 12 minors.\nThe Double Jeopardy Clause bars convicting a defendant of separate offenses based on the same facts (unless Congress intended multiple convictions). It is clear that \"proof of receipt of child pornography necessarily includes proof of possession of child pornography.\" Morrissey, 895 F.3d at 548 (quotations omitted). In Morrissey, 895 F.3d at 548, as in United States v. Huether, 673 F.3d 789, 798 (8th Cir. 2012), the evidence, closing arguments, and jury instructions did not distinguish between the images the defendant allegedly received and possessed. Therefore, we remanded with instructions to vacate one conviction because the jury was not instructed that they cannot convict for both offenses based on the same facts.\nObviously, one way to protect Smith's double jeopardy right was to require the jury to complete special interrogatories identifying which images were the basis for its guilty verdicts on Counts 2 and 3. The district court noted this procedure at the start of trial, and the government stated it would not object. Near the end of trial, the district court stated it was not inclined to use special interrogatories, because the two offenses as charged and submitted were not the same -- knowing possession had the additional element of one or more images of prepubescent minors. The next day, defense counsel did not object to the court's instructions and verdict form, expressly agreeing that instructing the jury to unanimously agree on particular images to convict Smith on each count resolved the issue. Thus, on this record, the issue raised on appeal was waived. See Zavesky, 839 F.3d at 695-96.\nMoreover, even if we reviewed this issue for plain error, there was none. The most that can be said is the jury might have convicted Smith for knowing receipt of the same images of prepubescent minors it found he knowingly possessed. But the prosecutor's closing argument focused the jury on the shredded files previously downloaded by Agent Simon as establishing knowing receipt, as charged in Count 2, and on the images of prepubescent minors still in the ARES \"shared folder\" when the computer was forensically examined as establishing knowing possession, as charged in Count 3. Because there was sufficient evidence supporting two theories that did not violate the Double Jeopardy Clause, the district court did not plainly err, nor affect Smith's substantial rights, in submitting the case in this manner. The evidence and procedural history was significantly different in Morrissey, 895 F.3d at 548, Huether, 673 F.3d at 799, and Muhlenbruch, 634 F.3d at 1004. Indeed, but for evidentiary complexity caused by Smith's partially successful file shredding, the evidence and defendant's waiver of special interrogatories made this case on all fours with our decision in Zavesky, 839 F.3d at 695-96.\nIV. Sentence Enhancement for Knowing Distribution.\nSmith argues the district court clearly erred in imposing a two-level sentence enhancement because he \"knowingly engaged in distribution\" of child pornography. USSG \u00a7 2G2.2(b)(3)(F) ; see United States v. Grimes, 888 F.3d 1012, 1017 (8th Cir. 2018) (standard of review). Though the government failed to prove knowing distribution beyond a reasonable doubt at trial, its burden at sentencing was only to prove this enhancement by a preponderance of the evidence. United States v. O'Brien, 560 U.S. 218, 224, 130 S.Ct. 2169, 176 L.Ed.2d 979 (2010).\nAgent Simon downloaded five files containing child pornography from the ARES \"shared folder\" on Smith's computer. The government's evidence also included three child pornography images saved in the \"shared folder\" and the names of child pornography movie files saved to that folder. Thus, it is undisputed that Smith's computer in fact distributed child pornography. Smith argues the government failed to prove he knowingly engaged in distribution because the images downloaded by Agent Simon were not found when the computer was forensically examined months later. He relies on an amendment to section 2G2.2(b)(3)(F), effective November 1, 2016, that added the \"knowingly engaged\" element to require \"a showing that the defendant knew of the file-sharing properties of the program.\" 2018 USSG App. C, Amend. 801 at p.136. The amended guideline applies if the defendant \"induced, procured, or willfully caused the distribution.\" \u00a7 2G2.2 comment. (n.2).\nSmith admitted to Agent Simon that he was a sophisticated user of ARES and other file-sharing computer programs, knew the ARES program automatically shared child pornography images saved to the shared folder, and used programs designed to shred incriminating files. Despite extensive shredding, the forensic evidence showed a substantial number of child pornography files in the shared folder. Thus, the evidence established that Smith engaged in knowing distribution as defined in the amended guideline and applied in United States v. Nordin, 701 F. Appx. 545, 546-47 (8th Cir. 2017). Smith urges us to reject this unpublished decision as contrary to the guideline. We decline to do so. The district court did not clearly err in finding by a preponderance of the evidence that Smith knowingly engaged in the distribution of child pornography from his ARES file-sharing program.\nThe judgment of the district is affirmed.\nThe Honorable Stephanie M. Rose, United States District Judge for the Southern District of Iowa.",
+        "type": "majority",
+        "author": "LOKEN, Circuit Judge."
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff - Appellee\nv.\nScott Jacob SMITH, Defendant - Appellant\nNo. 18-1345\nUnited States Court of Appeals, Eighth Circuit.\nSubmitted: September 28, 2018\nFiled: December 11, 2018\nCounsel who presented argument on behalf of the appellant was Heather Quick, FPD, of Cedar Rapids, IA. The following attorney(s) appeared on the appellant brief; Heather Quick, FPD, of Cedar Rapids, IA.\nCounsel who presented argument on behalf of the appellee was Craig Peyton Gaumer, AUSA, of Des Moines, IA. The following attorney(s) appeared on the appellee brief; Craig Peyton Gaumer, AUSA, of Des Moines, IA.\nBefore LOKEN, BENTON, and SHEPHERD, Circuit Judges."
+  },
+  "file_name": "1047-01",
+  "first_page_order": 1047,
+  "last_page_order": 1056
+}

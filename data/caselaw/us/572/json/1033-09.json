@@ -1,0 +1,68 @@
+{
+  "id": 12705272,
+  "name": "In re David JOHNSON, petitioner.",
+  "name_abbreviation": "In re Johnson",
+  "decision_date": "2014-03-31",
+  "docket_number": "No. 13\u20139023.",
+  "first_page": "1033",
+  "last_page": "1033",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "572 U.S. 1033"
+    },
+    {
+      "type": "parallel",
+      "cite": "188 L. Ed. 2d 611"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 1782"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 22,
+    "char_count": 141,
+    "sha256": "192b9b8e414c4926cb7f9f93b36f0f55b057df0fa0a928b7a189e67a798d36d6",
+    "simhash": "1:486d004ebb916419",
+    "word_count": 23
+  },
+  "last_updated": "2021-08-27T20:44:00.426858+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re David JOHNSON, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of habeas corpus denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re David JOHNSON, petitioner.\nNo. 13-9023.\nSupreme Court of the United States\nMarch 31, 2014.\nPetition for writ of habeas corpus denied."
+  },
+  "file_name": "1033-09",
+  "first_page_order": 1033,
+  "last_page_order": 1033
+}

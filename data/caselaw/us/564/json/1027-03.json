@@ -1,0 +1,59 @@
+{
+  "id": 4332571,
+  "name": "Whyte v. Wisconsin",
+  "name_abbreviation": "Whyte v. Wisconsin",
+  "decision_date": "2011-06-20",
+  "docket_number": "No. 10-10538",
+  "first_page": "1027",
+  "last_page": "1027",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1027"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 68,
+    "ocr_confidence": 0.548,
+    "sha256": "37a266ce6e50eace657106ce835d5dad444d2d7929e72959a10965fca3c09ae5",
+    "simhash": "1:8a15650175a0f024",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Whyte v. Wisconsin."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Wis. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10538.\nWhyte v. Wisconsin."
+  },
+  "file_name": "1027-03",
+  "first_page_order": 1021,
+  "last_page_order": 1021
+}

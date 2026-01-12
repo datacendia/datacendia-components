@@ -1,0 +1,59 @@
+{
+  "id": 6033549,
+  "name": "Denbow v. Texas",
+  "name_abbreviation": "Denbow v. Texas",
+  "decision_date": "2011-03-07",
+  "docket_number": "No. 10-8213",
+  "first_page": "1275",
+  "last_page": "1275",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1275"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 70,
+    "ocr_confidence": 0.706,
+    "sha256": "31d48d0653315e251858f02c6f254885470f0b049bc69da085c176d3b2d531ae",
+    "simhash": "1:890fd8c67eccf450",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Denbow v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tex. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8213.\nDenbow v. Texas."
+  },
+  "file_name": "1275-02",
+  "first_page_order": 1297,
+  "last_page_order": 1297
+}

@@ -1,0 +1,68 @@
+{
+  "id": 12697712,
+  "name": "William SMITH, petitioner, v. Alvin FRIEDMAN, et al.",
+  "name_abbreviation": "Smith v. Friedman",
+  "decision_date": "2013-04-22",
+  "docket_number": "No. 12\u20131004.",
+  "first_page": "947",
+  "last_page": "947",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "569 U.S. 947"
+    },
+    {
+      "type": "parallel",
+      "cite": "185 L. Ed. 2d 866"
+    },
+    {
+      "type": "parallel",
+      "cite": "133 S. Ct. 1998"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 28,
+    "char_count": 202,
+    "sha256": "5a704dbdb6ebb4fc0cf7f3f765c0780375accf2f2b225cfea3d78462937f9b25",
+    "simhash": "1:6987464f03cb04d0",
+    "word_count": 33
+  },
+  "last_updated": "2021-08-27T21:08:28.003473+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "William SMITH, petitioner,\nv.\nAlvin FRIEDMAN, et al."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of certiorari to the Court of Special Appeals of Maryland denied."
+    ],
+    "corrections": "",
+    "head_matter": "William SMITH, petitioner,\nv.\nAlvin FRIEDMAN, et al.\nNo. 12-1004.\nSupreme Court of the United States\nApril 22, 2013.\nPetition for writ of certiorari to the Court of Special Appeals of Maryland denied."
+  },
+  "file_name": "0947-11",
+  "first_page_order": 947,
+  "last_page_order": 947
+}

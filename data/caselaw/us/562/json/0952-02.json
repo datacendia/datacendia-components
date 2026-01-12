@@ -1,0 +1,61 @@
+{
+  "id": 5956292,
+  "name": "Caldwell v. United States",
+  "name_abbreviation": "Caldwell v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11496",
+  "first_page": "952",
+  "last_page": "952",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 952"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 154,
+    "ocr_confidence": 0.542,
+    "sha256": "369fde980291c372bb000747bfcbadc23a464965d398195ac758158bc964bf07",
+    "simhash": "1:9f33fb8263869846",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Caldwell v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11496.\nCaldwell v. United States."
+  },
+  "file_name": "0952-02",
+  "first_page_order": 974,
+  "last_page_order": 974
+}

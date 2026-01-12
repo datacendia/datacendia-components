@@ -1,0 +1,59 @@
+{
+  "id": 12433058,
+  "name": "Downing v. Life Time Fitness, Inc.",
+  "name_abbreviation": "Downing v. Life Time Fitness, Inc.",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-685",
+  "first_page": "1229",
+  "last_page": "1229",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1229"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 81,
+    "ocr_confidence": 0.686,
+    "sha256": "f8a958dd194c4a0edd07a61a5ef03d8c2897ee7b900e31faaf8284f6fd206b25",
+    "simhash": "1:d60a32362f38a802",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Downing v. Life Time Fitness, Inc."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-685.\nDowning v. Life Time Fitness, Inc."
+  },
+  "file_name": "1229-03",
+  "first_page_order": 1305,
+  "last_page_order": 1305
+}

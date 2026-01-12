@@ -1,0 +1,59 @@
+{
+  "id": 5907313,
+  "name": "Jones v. Texas",
+  "name_abbreviation": "Jones v. Texas",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5433",
+  "first_page": "921",
+  "last_page": "921",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 921"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.642,
+    "sha256": "fb7782e3604c0b11655133707d187de7ef5618611d590b18abd24716a8e9e4fc",
+    "simhash": "1:5a81db63e698e61e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jones v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Tex., 5th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5433.\nJones v. Texas."
+  },
+  "file_name": "0921-12",
+  "first_page_order": 943,
+  "last_page_order": 943
+}

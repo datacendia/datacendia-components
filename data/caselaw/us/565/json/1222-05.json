@@ -1,0 +1,59 @@
+{
+  "id": 12248239,
+  "name": "Chanley v. United States",
+  "name_abbreviation": "Chanley v. United States",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-8202",
+  "first_page": "1222",
+  "last_page": "1222",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1222"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.701,
+    "sha256": "2e2d5ede6df3ca8635a1ad8d959d5b248fa729fe062a76a11dd07c3ea20c53f1",
+    "simhash": "1:553be28168b5055e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Chanley v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8202.\nChanley v. United States."
+  },
+  "file_name": "1222-05",
+  "first_page_order": 1304,
+  "last_page_order": 1304
+}

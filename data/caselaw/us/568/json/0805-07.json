@@ -1,0 +1,59 @@
+{
+  "id": 12408166,
+  "name": "McDonald v. Atchison, Warden",
+  "name_abbreviation": "McDonald v. Atchison",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5052",
+  "first_page": "805",
+  "last_page": "805",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 805"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 29,
+    "char_count": 180,
+    "ocr_confidence": 0.679,
+    "sha256": "bcda55385e9bbe2a5b4af57f9d6f76d35decb399da101ae84e32fd1096532824",
+    "simhash": "1:248159cc6e443632",
+    "word_count": 29
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McDonald v. Atchison, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Motion of petitioner for leave to proceed in forma pauperis denied, and certiorari dismissed. See this Court\u2019s Rule 39.8.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5052.\nMcDonald v. Atchison, Warden."
+  },
+  "file_name": "0805-07",
+  "first_page_order": 881,
+  "last_page_order": 881
+}

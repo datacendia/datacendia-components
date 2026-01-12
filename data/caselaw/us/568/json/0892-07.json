@@ -1,0 +1,59 @@
+{
+  "id": 12415212,
+  "name": "Thames v. United States",
+  "name_abbreviation": "Thames v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5051",
+  "first_page": "892",
+  "last_page": "892",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 892"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.712,
+    "sha256": "3c263c8652726f95707b0904fcfc1866c09ee85f17e8bb4ae26b616c28df56fd",
+    "simhash": "1:34caca21ceadb159",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Thames v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5051.\nThames v. United States."
+  },
+  "file_name": "0892-07",
+  "first_page_order": 968,
+  "last_page_order": 968
+}

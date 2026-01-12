@@ -1,0 +1,59 @@
+{
+  "id": 5948948,
+  "name": "Hamilton v. Texas",
+  "name_abbreviation": "Hamilton v. Texas",
+  "decision_date": "2011-05-23",
+  "docket_number": "No. 10-9586",
+  "first_page": "1010",
+  "last_page": "1010",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1010"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.562,
+    "sha256": "18a2fa66f1672f1d2ff7a1fd60a1bfe3e30102fabd598bb3f351075a662da505",
+    "simhash": "1:dd905ba5f6c8a412",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hamilton v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Tex., 4th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9586.\nHamilton v. Texas."
+  },
+  "file_name": "1010-14",
+  "first_page_order": 1036,
+  "last_page_order": 1036
+}

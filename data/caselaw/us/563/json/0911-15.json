@@ -1,0 +1,59 @@
+{
+  "id": 5940995,
+  "name": "Podhorn v. United States",
+  "name_abbreviation": "Podhorn v. United States",
+  "decision_date": "2011-03-28",
+  "docket_number": "No. 10-9166",
+  "first_page": "911",
+  "last_page": "911",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 911"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.646,
+    "sha256": "dfce8f8c2d610165dbaabff52ee980fe363f5df76ff94d7dc98fbe0cf18b99de",
+    "simhash": "1:a20bae8b4bc55e10",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Podhorn v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9166.\nPodhorn v. United States."
+  },
+  "file_name": "0911-15",
+  "first_page_order": 937,
+  "last_page_order": 937
+}

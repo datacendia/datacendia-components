@@ -1,0 +1,773 @@
+{
+  "id": 12522072,
+  "name": "JUSTICE NETWORK INC., Plaintiff - Appellant v. CRAIGHEAD COUNTY; David Boling, Judge, in his individual and official capacity; Tommy Fowler, Judge, In his individual and official capacity; Bay, City of; Bono, City of; Brookland, City of; Caraway, City of; Cash, City of ; Egypt, City of ; Jonesboro, City of; Lake City, Arkansas; Monette, City of, Defendants - Appellees Lawyers' Committee for Civil Rights Under Law, Amicus on Behalf of Appellant(s)",
+  "name_abbreviation": "Justice Network Inc. v. Craighead Cnty.",
+  "decision_date": "2019-07-26",
+  "docket_number": "No. 17-3770",
+  "first_page": "753",
+  "last_page": "765",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "931 F.3d 753"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "8th Cir.",
+    "id": 8821,
+    "name": "United States Court of Appeals for the Eighth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "605 F.2d 1058",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1444532
+      ],
+      "year": 1979,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/605/1058-01"
+      ]
+    },
+    {
+      "cite": "458 F. Supp. 526",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        611016
+      ],
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "538",
+          "parenthetical": "supervising and terminating a probation officer was not acting in a judicial capacity and thus was not protected by absolute immunity from a civil rights action brought by the probation officer"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/458/0526-01"
+      ]
+    },
+    {
+      "cite": "514 F. Supp. 1300",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        5596032
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "1302-03"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/514/1300-01"
+      ]
+    },
+    {
+      "cite": "729 F.2d 541",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1938922
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "549",
+          "parenthetical": "holding county judge's decision to transfer hearing officer not \"official judicial act\" but rather \"administrative personnel decision\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/729/0541-01"
+      ]
+    },
+    {
+      "cite": "793 F.2d 149",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1587131
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "155"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/793/0149-01"
+      ]
+    },
+    {
+      "cite": "484 U.S. 219",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        600739
+      ],
+      "weight": 3,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "229",
+          "parenthetical": "holding that a judge's demotion and discharge of a court employee were administrative acts not protected by judicial immunity"
+        },
+        {
+          "parenthetical": "holding that a judge's demotion and discharge of a court employee were administrative acts not protected by judicial immunity"
+        },
+        {
+          "parenthetical": "holding that a judge's demotion and discharge of a court employee were administrative acts not protected by judicial immunity"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/484/0219-01"
+      ]
+    },
+    {
+      "cite": "912 F.3d 1089",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12519628
+      ],
+      "year": 2019,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/912/1089-01"
+      ]
+    },
+    {
+      "cite": "Ark. Code Ann. \u00a7 16-17-1112",
+      "category": "laws:leg_statute",
+      "reporter": "Ark. Code Ann.",
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "Ark. Code Ann. \u00a7 16-17-1101",
+      "category": "laws:leg_statute",
+      "reporter": "Ark. Code Ann.",
+      "weight": 3,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "(8)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "912 F.3d 1145",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12519637
+      ],
+      "weight": 4,
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "1146"
+        },
+        {
+          "page": "1147"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/912/1145-01"
+      ]
+    },
+    {
+      "cite": "436 U.S. 658",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1490618
+      ],
+      "weight": 5,
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "691"
+        },
+        {
+          "page": "694"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/436/0658-01"
+      ]
+    },
+    {
+      "cite": "2014 WL 234722",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "*9"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 F.3d 1544",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7415180
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "1553"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/57/1544-01"
+      ]
+    },
+    {
+      "cite": "225 F.3d 1234",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11235544
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "1242",
+          "parenthetical": "\"[T]he 1996 amendment to \u00a7 1983 would limit the relief available to plaintiffs to declaratory relief.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/225/1234-01"
+      ]
+    },
+    {
+      "cite": "72 F. App'x 475",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        141788
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "477",
+          "parenthetical": "\"[T]he amendment to \u00a7 1983 limits the type of relief available to plaintiffs who sue judges to declaratory relief.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/72/0475-01"
+      ]
+    },
+    {
+      "cite": "2007 WL 257342",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2007,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "357 F. App'x 601",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        3851381
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "605",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/357/0601-01"
+      ]
+    },
+    {
+      "cite": "271 F. App'x 763",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        3582666
+      ],
+      "weight": 5,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "parenthetical": "\"[T]he doctrine of judicial immunity now extends to suits against judges where a plaintiff seeks not only monetary relief, but injunctive relief as well.\""
+        },
+        {
+          "page": "766",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/271/0763-01"
+      ]
+    },
+    {
+      "cite": "2014 WL 5090723",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "*3"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "466 U.S. 522",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6203216
+      ],
+      "weight": 3,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "541-42"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/466/0522-01"
+      ]
+    },
+    {
+      "cite": "224 F. App'x 107",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        4123410
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "108",
+          "parenthetical": "summary order"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/224/0107-01"
+      ]
+    },
+    {
+      "cite": "640 F. App'x 462",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        4269136
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "467"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/640/0462-01"
+      ]
+    },
+    {
+      "cite": "201 F.3d 194",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1757436
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "197"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/201/0194-01"
+      ]
+    },
+    {
+      "cite": "419 F.3d 405",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8932437
+      ],
+      "weight": 2,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "parenthetical": "injunctive relief not barred when judges act in enforcement capacity"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/419/0405-01"
+      ]
+    },
+    {
+      "cite": "Ark. Code Ann. \u00a7 16-88-101",
+      "category": "laws:leg_statute",
+      "reporter": "Ark. Code Ann.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "parenthetical": "same"
+        },
+        {
+          "page": "(a)(4)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "Ark. Code Ann. \u00a7 12-27-124",
+      "category": "laws:leg_statute",
+      "reporter": "Ark. Code Ann.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "Ark. Code Ann. \u00a7 16-17-127",
+      "category": "laws:leg_statute",
+      "reporter": "Ark. Code Ann.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "Ark. Code Ann. \u00a7 5-4-322",
+      "category": "laws:leg_statute",
+      "reporter": "Ark. Code Ann.",
+      "weight": 8,
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        },
+        {
+          "page": "14, \u00b6\u00b6 89, 88, 90"
+        },
+        {
+          "page": "\u00b6 89"
+        },
+        {
+          "page": "1, \u00b6 1"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "435 U.S. 349",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        2334
+      ],
+      "weight": 10,
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "362"
+        },
+        {
+          "page": "356"
+        },
+        {
+          "page": "362"
+        },
+        {
+          "page": "356"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/435/0349-01"
+      ]
+    },
+    {
+      "cite": "687 F.3d 370",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5863052
+      ],
+      "weight": 2,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "373",
+          "parenthetical": "citing Mireles , 502 U.S. at 11-12, 112 S.Ct. 286 "
+        },
+        {
+          "page": "373",
+          "parenthetical": "ellipsis in original"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/687/0370-01"
+      ]
+    },
+    {
+      "cite": "502 U.S. 9",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6216557
+      ],
+      "weight": 17,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "11",
+          "parenthetical": "per curiam"
+        },
+        {
+          "parenthetical": "per curiam"
+        },
+        {
+          "parenthetical": "per curiam"
+        },
+        {
+          "page": "11-12"
+        },
+        {
+          "page": "11-12"
+        },
+        {
+          "page": "12"
+        },
+        {
+          "page": "12-13"
+        },
+        {
+          "page": "13"
+        },
+        {
+          "page": "11-12"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/502/0009-01"
+      ]
+    },
+    {
+      "cite": "574 F.3d 929",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3675827
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "935"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/574/0929-01"
+      ]
+    },
+    {
+      "cite": "656 F. Supp. 2d 929",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        3768447
+      ],
+      "weight": 2,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "parenthetical": "finding the judge defendants were acting in a judicial capacity, and were entitled to absolute immunity, when they signed and enforced a court order disallowing \"credit bonding\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/656/0929-01"
+      ]
+    },
+    {
+      "cite": "Ark. Code Ann. \u00a7 16-93-312",
+      "category": "laws:leg_statute",
+      "reporter": "Ark. Code Ann.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "Ark. Code Ann. \u00a7 16-90-115",
+      "category": "laws:leg_statute",
+      "reporter": "Ark. Code Ann.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "parenthetical": "alteration and ellipsis in original"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "127 F.3d 720",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1000497
+      ],
+      "weight": 2,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "721"
+        },
+        {
+          "parenthetical": "alteration and ellipsis in original"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/127/0720-01"
+      ]
+    },
+    {
+      "cite": "2017 WL 5762397",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "*2",
+          "parenthetical": "citing Martin v. Hendren, 127 F.3d 720, 721 (8th Cir. 1997) "
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 U.S.C. \u00a7 1983",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 11,
+      "pin_cites": [
+        {
+          "page": "14, \u00b6 84"
+        },
+        {
+          "page": "\u00b6 86"
+        },
+        {
+          "page": "\u00b6 87"
+        },
+        {
+          "page": "\u00b6 88"
+        },
+        {
+          "page": "\u00b6 90"
+        },
+        {
+          "page": "\u00b6 91"
+        },
+        {
+          "page": "15, \u00b6 93"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1259,
+    "char_count": 32450,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2594595283354358
+    },
+    "sha256": "1c084bdc57c3997a8bc28d2fa96df6b10e6a4e740210a02112f472f5577f7db5",
+    "simhash": "1:e6abd7c40883162b",
+    "word_count": 5205
+  },
+  "last_updated": "2024-02-27T18:47:21.356099+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before SMITH, Chief Judge, KELLY and KOBES, Circuit Judges."
+    ],
+    "parties": [
+      "JUSTICE NETWORK INC., Plaintiff - Appellant\nv.\nCRAIGHEAD COUNTY; David Boling, Judge, in his individual and official capacity; Tommy Fowler, Judge, In his individual and official capacity; Bay, City of; Bono, City of; Brookland, City of; Caraway, City of; Cash, City of ; Egypt, City of ; Jonesboro, City of; Lake City, Arkansas; Monette, City of, Defendants - Appellees"
+    ],
+    "opinions": [
+      {
+        "text": "SMITH, Chief Judge.\nThe Justice Network Inc. (TJN) appeals from the district court's dismissal of its 42 U.S.C. \u00a7 1983 suit against Judge David Boling, in his individual and official capacity; Judge Tommy Fowler, in his individual and official capacity; Craighead County, Arkansas; the City of Jonesboro; and the Cities of Bay, Bono, Brookland, Caraway, Cash, Egypt, Lake City, and Monette. The suit arises from Craighead County District Judges Boling and Fowler's implementation of an Amnesty Program forgiving all fees that probationers owed to TJN for probation services. We hold that Judges Boling and Fowler are entitled to judicial immunity on TJN's claims. Additionally, we hold that Judges Boling and Fowler are state government officials whose actions are not attributable to Craighead County or the City Defendants. Accordingly, we affirm the district court's dismissal of TJN's \u00a7 1983 suit.\nI. Background\nTJN is a private probation company, and it offers services to probation clients in Craighead County. Services offered to the probation clients include program and counseling coordination, public service work, random drug screening, curfew monitoring, or any other condition of probation ordered by the court. TJN also offers a variety of classes to its probation clients, including life skills, parenting skills, anger management, alcohol safety school, and drug offender school.\nSince 1997, TJN has provided probation services to probation clients under the jurisdiction of the district and circuit courts of Craighead County. Since that time, it has also provided probation services to probation clients under the jurisdiction of the City Defendants' courts (\"City Courts\"). TJN's Jonesboro branch employed 12 full-time employees, all residents of Craighead County.\nFrom 1997 until February 3, 2017, all misdemeanor offenders who had been charged in Craighead County District Court (\"District Court\") or the City Courts, and who required probation services, were placed under TJN's supervision. TJN contracted individually with each probation client. The Probation Fee Agreement set forth a $35 monthly fee for probation services and included a $15 monthly fee for the supervision of public service work (a typical condition of probation). A court order issued in conjunction with the Probation Fee Agreement directed each probation client to pay all probation supervision fees to TJN for each month of supervised probation.\nIf the probation client failed to abide by the probation order and failed to complete his or her court-ordered special conditions, TJN would file an affidavit with the court indicating what conditions were not completed. The Craighead County prosecutor and the judge would then countersign the affidavit. The judge of the District Court would order the probationer to pay restitution for all outstanding fees owed to TJN. The same process was followed in the City Courts, including the court order directing the probationer to pay fees to TJN. For cases pending in the District Court, the District Court would collect the fees that the probation clients owed to TJN and forward those funds to TJN. For cases pending in the City Courts, the City Courts would collect the fees that the probation clients owed and forward those funds to TJN. This system operated for nearly 20 years, from 1997 until 2016.\nIn early 2016, Judges Boling and Fowler were elected Craighead County District Judges. During the election, Judge Boling stated that if he were elected, he would end the use of TJN's probation services in his court. Likewise, Judge Fowler stated during his campaign that he opposed the privatization of probation services.\nOn August 11, 2016, Judge Boling was reported in a local newspaper as stating \"that he dismissed the case of one defendant on probation and 'purged' the remaining debt that had not paid.\" Compl. at 13, \u00b6 81, Justice Network, Inc. v. Craighead Cty ., No. 3:17-cv-00169-JM (E.D. Ark. June 30, 2017), ECF No. 1. This \"purged\" debt included court costs and fees that the defendant owed to TJN pursuant to a contract between the defendant and TJN. On August 12, 2016, the local newspaper reported that Judge Boling said he would \"consider nonpayment cases on a case-by-case basis.\" Id. at 14, \u00b6 84.\nOn December 7, 2016, the local newspaper reported that Judges \"Fowler and Boling planned to implement an 'Amnesty Program' in January and February 2017.\" Id. at \u00b6 86. \"As part of that program, [Judges] Fowler and Boling met with probation offenders who had outstanding fines that were due, to discuss payment options.\" Id. at \u00b6 87.\nOn January 26, 2017, the local newspaper reported that Judges Fowler and Boling had implemented a \"temporary amnesty program,\" which \"allow[ed] offenders who were delinquent on their payments to reset their payment plan.\" Id. at \u00b6 88. The fees owed to TJN were summarily stricken from each new order of probation. Judges Boling and Fowler forgave the fees owed to TJN as part of the \"Amnesty Program.\" Id. at \u00b6 90. Judges Fowler and Boling also instituted a \"Jail Credit\" program. Id. at \u00b6 91. This program forgave the costs owed to the court and fees owed to TJN in lieu of time served in prison. \"[M]any of the probation clients given 'Jail Credit' were never incarcerated.\" Id. at 15, \u00b6 93.\nAs a result of the Amnesty Program, and the consequent loss of revenue, TJN has ceased all operations in Craighead County and has been forced to terminate its 12 employees. TJN has suffered significant economic loss and will continue to sustain that loss in the future if the Amnesty Program continues.\nTJN brought suit against Judges Boling and Fowler; Craighead County; and the City Defendants pursuant to 42 U.S.C. \u00a7 1983 for violations of the Contracts Clause, U.S. Const. art. I, \u00a7 10, and the Takings Clause, U.S. Const. amend. V. TJN also alleged violations of the Arkansas Constitution's Takings Clause. See Ark. Const. art. II, \u00a7 22. TJN sought a declaratory judgment that the defendants effectuated a custom and policy of annulling fees owed by probation clients to TJN, in violation of Article 1, Section 10 and the Fifth Amendment to the United States Constitution and Article 2, Section 17 and Article 2, Section 22 of the Arkansas Constitution. It also sought injunctive relief enjoining the defendants from executing a custom and policy of annulling fees owed by probation clients to TJN.\nThe defendants moved to dismiss the complaint for failure to state a claim. See Fed. R. Civ. P. 12(b)(6).\nThe district court granted the defendants' motions to dismiss. First, the court found that Judges Boling and Fowler are entitled to absolute judicial immunity against all of TJN's claims because \"[u]nless judges act completely outside all jurisdiction, they are absolutely immune from suit when acting in their judicial capacity.\" Justice Network, Inc. v. Craighead Cty ., No. 3:17-cv-00169-JM, 2017 WL 5762397, at *2 (E.D. Ark. Nov. 28, 2017) (citing Martin v. Hendren, 127 F.3d 720, 721 (8th Cir. 1997) ). The court also noted, \"In Arkansas, '[a]ll courts of record, district courts, and city courts ... shall have the authority to suspend the imposition of sentences or the imposition of fines, or both, in all criminal cases pending before the courts unless specifically prohibited by law.' \" Id. (alteration and ellipsis in original) (quoting Ark. Code Ann. \u00a7 16-90-115 ). According to the district court, Arkansas law also provides that \"[d]uring a period of ... probation, upon the petition of a probation officer or a defendant or upon the court's own motion, a court may: (1) Modify a condition imposed on the defendant.\" Id. (alteration and ellipsis in original) (quoting Ark. Code Ann. \u00a7 16-93-312 ). The district court concluded that the judicial decisions \"modifying, suspending or terminating the terms of probation, previously imposed by the Court, are judicial acts.\" Id. (citing John Chism Bail Bonds, Inc. v. Pennington , 656 F. Supp. 2d 929 (E.D. Ark. 2009) (finding the judge defendants were acting in a judicial capacity, and were entitled to absolute immunity, when they signed and enforced a court order disallowing \"credit bonding\")).\nSecond, the district court granted Craighead County and the City Defendants' motions to dismiss because \"[s]tate district court judges are state government officials and are not employees of the cities. Further, even if the judges were employees of the cities, Judge Boling and Judge Fowler's judicial decisions were 'not a final policy decision of a type creating municipal liability under \u00a7 1983.' \" Id . (internal citations omitted).\nFinally, the court concluded that TJN's remaining claims for unjust enrichment, ratification, and supervisory liability also failed because\n[n]o supervisor or employee relationship exists between the judges and the City and County defendants. Plaintiff failed to state any facts which would support a finding that the City or County defendants had any authority or control over the judges. And, the probation services at issue were provided to the probation clients. Plaintiff has failed to state facts which demonstrate that the City or County defendants received something of value to which they were not entitled by the forgiveness of a debt owed by the probation clients to the Plaintiff.\nId.\nII. Discussion\nOn appeal, TJN argues that the district court erred in dismissing its claims against Judges Boling and Fowler using judicial immunity. TJN argues that the judges' termination of TJN as probation services provider and forgiveness of fees due it were not judicial acts but instead administrative decisions. TJN also argues that Judges Boling and Fowler were authorized policymakers whose actions are attributable to Craighead County and the City Defendants; therefore, the district court erred in dismissing TJN's claims against the municipal defendants.\nWe review de novo the district court's dismissal of TJN's complaint pursuant to Federal Rule of Civil Procedure 12(b)(6). Grand River Enters. Six Nations, Ltd. v. Beebe , 574 F.3d 929, 935 (8th Cir. 2009).\nA. Judicial Immunity\nWe first consider TJN's argument that Judges Boling and Fowler are not entitled to judicial immunity.\n\"[J]udicial immunity is an immunity from suit, not just from ultimate assessment of damages.\" Mireles v. Waco , 502 U.S. 9, 11, 112 S.Ct. 286, 116 L.Ed.2d 9 (1991) (per curiam). It \"is not overcome by allegations of bad faith or malice, the existence of which ordinarily cannot be resolved without engaging in discovery and eventual trial.\" Id. \"A judge is immune from suit, including suits brought under section 1983 to recover for alleged deprivation of civil rights, in all but two narrow sets of circumstances.\" Schottel v. Young , 687 F.3d 370, 373 (8th Cir. 2012) (citing Mireles , 502 U.S. at 11-12, 112 S.Ct. 286 ). \"First, a judge is not immune from liability for nonjudicial actions, i.e. , actions not taken in the judge's judicial capacity. Second, a judge is not immune for actions, though judicial in nature, taken in the complete absence of all jurisdiction.\" Mireles , 502 U.S. at 11-12, 112 S.Ct. 286 (internal citations omitted).\n1. Judicial Capacity\n\"[T]he factors determining whether an act by a judge is a 'judicial' one relate to the nature of the act itself, i.e. , whether it is a function normally performed by a judge, and to the expectations of the parties, i.e. , whether they dealt with the judge in his judicial capacity.\" Stump v. Sparkman , 435 U.S. 349, 362, 98 S.Ct. 1099, 55 L.Ed.2d 331 (1978). In examining these factors, \"if only the particular act in question were to be scrutinized, then any mistake of a judge in excess of his authority would become a 'nonjudicial' act, because an improper or erroneous act cannot be said to be normally performed by a judge.\" Mireles , 502 U.S. at 12, 112 S.Ct. 286. But \"[i]f judicial immunity means anything, it means that a judge 'will not be deprived of immunity because the action he took was in error ... or was in excess of his authority.' \" Id. at 12-13, 112 S.Ct. 286 (ellipsis in original) (quoting Stump , 435 U.S. at 356, 98 S.Ct. 1099 ). \"[T]he relevant inquiry is the 'nature' and 'function' of the act, not the 'act itself.' \" Id. at 13, 112 S.Ct. 286 (quoting Stump , 435 U.S. at 362, 98 S.Ct. 1099 ). This means that to determine whether an act is judicial, courts \"look to the particular act's relation to a general function normally performed by a judge.\" Id.\nArkansas statutory law creates and circumscribes the judicial sentencing power of district courts and city courts.\nA district court or city court may:\n(A) Place a defendant on probation or sentence him or her to public service work; and\n(B) As a condition of its order, require the defendant to pay a:\n(i) Fine in one (1) or several sums; and\n(ii) Probation fee or a public service work supervisory fee in an amount to be established by the district court or city court.\nArk. Code Ann. \u00a7 5-4-322(a)(1). In addition, \"[t]he court may discharge the defendant from probation at any time.\" Id. \u00a7 16-93-314(a)(1). And, district courts and city courts possess the \"authority to suspend the imposition of sentences or the imposition of fines, or both, in all criminal cases pending before the courts unless specifically prohibited by law.\" Id. \u00a7 16-90-115(a). Finally, \"upon the court's own motion, a court may ... [m]odify a condition [of probation] imposed on the defendant.\" Id. \u00a7 16-93-312(a)(1).\nDid Judge Boling's and Judge Fowler's dismissal of probationers' cases, \"purging\" of fees that probationers owed, and resetting payment plans for delinquent probations via court order sufficiently relate to these general functions? We conclude that they did. The judges' reviewing of individual probationers' cases and amending of probation orders are related to the district court's authorized functions of placing a defendant on probation, requiring a defendant to pay a probation fee, discharging a defendant from probation at the court's discretion, suspending the imposition of a defendant's fine, and modifying a defendant's condition of probation.\nTJN attempts to analogize this case to cases in which courts have held that judges who make staffing decisions engage in administrative personnel decisions, not official judicial acts protected by judicial immunity. These cases are inapposite. TJN's complaint states that the judges \"dismissed\" the probationers' cases, Compl. at 13, \u00b6 81; \" 'purged' the remaining debt that had not been paid,\" id. , and entered \"Order[s]\" that permitted probationers to \"reset their payment plan\" where all fees owed were \"forgiven\" in lieu of time served. Id. at 14, \u00b6\u00b6 89, 88, 90. TJN does not allege that these orders mentioned TJN as an independent contractor or employee of the court or the judges; in fact, it alleges that their fee agreement contract was \"stricken\" from the judges' orders and not mentioned at all. Id. at \u00b6 89. TJN alleges conduct by the judges that constitute judicial acts, not employment decisions.\nFurthermore, there was no employment relationship or contract for services between the judges, Craighead County, or the City Defendants, nor did the judges ever \"terminate\" TJN's work in their orders; this is because the contractual relationship at issue is between TJN and the probationers. The complaint provides that \"[e]ach probation client enters into a contract with [TJN], agreeing to pay probation fees in exchange for services provided, such as drug screenings and classes.\" Id. at 1, \u00b6 1.\nWhile a district court or city court \"may contract\" with a probation services provider \"[u]pon request of the district court judge or city court judge,\" Ark. Code Ann. \u00a7 16-17-127(a), the complaint does not allege that either Judge Boling or Judge Fowler made such a request. In fact, the complaint shows that neither judge wanted to use the services.\nTherefore, this case is not analogous to those cases relied upon by TJN in which judges have terminated employees.\n2. Jurisdiction\nIn examining whether a judge acted \"in the complete absence of all jurisdiction,\" \"[t]he Supreme Court has instructed us to construe broadly 'the scope of the judge's jurisdiction ... where the issue is the immunity of a judge.' \" Schottel , 687 F.3d at 373 (ellipsis in original) (quoting Stump , 435 U.S. at 356, 98 S.Ct. 1099 ). \"[A]n action-taken in the very aid of the judge's jurisdiction over a matter before him-cannot be said to have been taken in the absence of jurisdiction.\" Mireles , 502 U.S. at 13, 112 S.Ct. 286.\nTJN argues that Arkansas law makes the Department of Corrections the entity responsible for the administration of probation services. See Ark. Code Ann. \u00a7 12-27-124(a) (\"The purpose of this act is to establish a Division of Community Correction that shall assume the management of all community correction facilities and services, execute the orders of the criminal courts of the State of Arkansas, and provide for the supervision, treatment, rehabilitation, and restoration of adult offenders as useful law-abiding citizens within the community.\"). While this statute places the Department of Corrections in supervision of offenders, it does not authorize the Department of Corrections to alter the terms of supervision for offenders. Instead, the Arkansas Constitution grants state district courts \"original jurisdiction, concurrent with [state] Circuit Courts, of misdemeanors\" and any criminal jurisdiction as provided by the Arkansas General Assembly. Ark. Const. amend. 80, \u00a7\u00a7 7 (B), 10 ; see also Ark. Code Ann. \u00a7 16-88-101 (same). State district courts also enjoy \"original [and exclusive] jurisdiction ... for the trial of violations of ordinances of any town, city, or county within the territorial jurisdiction of the district court.\" Ark. Code Ann. \u00a7 16-88-101(a)(4).\nA court may sentence a misdemeanor offender to probation. See id. \u00a7 5-4-301 (\"Crimes for which suspension or probation prohibited-Criteria for suspension or probation in other cases.\"). As explained supra , \"[a] district court or city court may: (A) Place a defendant on probation ... ; and (B) As a condition of its order, require the defendant to pay a: (i) Fine ... ; and (ii) Probation fee or a public service work supervisory fee.\" Id. \u00a7 5-4-322(a)(1). \"A condition of probation shall be closely monitored and supervised by the district court or city court or by a probation officer.\" Id. \u00a7 5-4-322(a)(3)(A).\nBased on these statutory provisions, we hold that Judges Boling and Fowler did not act in a clear absence of their jurisdiction because Arkansas law provides that the state district court and city courts have jurisdiction to modify or dismiss probation sentences and conditions of the misdemeanor offenders.\n3. Conclusion on Judicial Immunity\nBecause Judges Boling and Fowler acted within their judicial capacity and did not act in the complete absence of all jurisdiction, we hold that the district court correctly dismissed the damages claims against them based on judicial immunity. See Mireles , 502 U.S. at 11-12, 112 S.Ct. 286.\nB. Injunctive and Declaratory Relief\nOur conclusion that Judges Boling and Fowler are entitled to judicial immunity does not resolve whether TJN may seek injunctive and declaratory relief. In addition to monetary damages, TJN sought: (1) a declaratory judgment that the defendant judges created a custom and policy with the Amnesty Program; and (2) an injunction prohibiting the defendant judges from implementing their custom and policy using the Amnesty Program. See Compl. at 25, \u00b6\u00b6 d-e.\nOn appeal, TJN argues that it is entitled to injunctive relief because the judges' conduct was not a judicial act. Appellant's Br. at 54 (citing 42 U.S.C. \u00a7 1983 ; LeClerc v. Webb , 419 F.3d 405 (5th Cir. 2005) (injunctive relief not barred when judges act in enforcement capacity)). It also argues that declaratory relief is available in actions brought against judicial officials. Id. at 55-56 (citing Brandon E. ex rel. Listenbee v. Reynolds , 201 F.3d 194, 197 (3d Cir. 2000) ; Ward v. City of Norwalk , 640 F. App'x 462, 467 (6th Cir. 2016) ; Francis v. Pellegrino , 224 F. App'x 107, 108 (2d Cir. 2007) (summary order)).\nJudge Boling and Judge Fowler respond that judicial immunity prohibits TJN's claims for declaratory and injunctive relief. Specifically, they argue that their absolute judicial immunity bars all relief.\nIn Pulliam v. Allen , the Supreme Court held that a judicial officer acting in his or her judicial capacity is not immune from actions under \u00a7 1983 seeking prospective injunctive relief. 466 U.S. 522, 541-42, 104 S.Ct. 1970, 80 L.Ed.2d 565 (1984). Congress responded to Pulliam in 1996 by amending \u00a7 1983 to abrogate its holding. Section 1983 provides that \"in any action brought against a judicial officer for an act or omission taken in such officer's judicial capacity, injunctive relief shall not be granted unless a declaratory decree was violated or declaratory relief was unavailable.\" 42 U.S.C. \u00a7 1983. In other words, \"judicial immunity typically bars claims for prospective injunctive relief against judicial officials acting in their judicial capacity. Only when a declaratory decree is violated or declaratory relief is unavailable would plaintiffs have an end-run around judicial immunity.\" Ray v. Judicial Corr. Servs., Inc ., No. 2:12-cv-02819-RDP, 2014 WL 5090723, at *3 (N.D. Ala. Oct. 9, 2014).\nIn this case, TJN has not alleged that declaratory relief was unavailable or that a declaratory decree was violated; thus, \u00a7 1983 bars TJN's claim for injunctive relief. See Lawrence v. Kuenhold , 271 F. App'x 763, 766 n.6 (10th Cir. 2008) (\"[T]he doctrine of judicial immunity now extends to suits against judges where a plaintiff seeks not only monetary relief, but injunctive relief as well.\"). The question then becomes whether TJN is entitled to declaratory relief post- Pulliam and Congress's amendment to \u00a7 1983.\nCurrently, most courts hold that the amendment to \u00a7 1983 does not bar declaratory relief against judges. See, e.g. , Severin v. Parish of Jefferson , 357 F. App'x 601, 605 (5th Cir. 2009) (per curiam) (\"[J]udicial immunity does not bar declaratory relief ....\"); Esensoy v. McMillan , No. 06-12580, 2007 WL 257342, at *1 n.5 (11th Cir. Jan. 31, 2007) (per curiam) (\"[J]udicial immunity protects the Defendants only from Appellant's request for injunctive relief. But \u00a7 1983 does not explicitly bar Appellant's request for declarative relief.\"); Johnson v. McCuskey , 72 F. App'x 475, 477 (7th Cir. 2003) (\"[T]he amendment to \u00a7 1983 limits the type of relief available to plaintiffs who sue judges to declaratory relief.\"); Bolin v. Story , 225 F.3d 1234, 1242 (11th Cir. 2000) (\"[T]he 1996 amendment to \u00a7 1983 would limit the relief available to plaintiffs to declaratory relief.\").\nThe Tenth Circuit has concluded that \"[t]he only type of relief available to a plaintiff who sues a judge is declaratory relief, but not every plaintiff is entitled to this remedy .\" Lawrence , 271 F. App'x at 766 (emphasis added) (internal citation omitted). \"A declaratory judgment is meant to define the legal rights and obligations of the parties in anticipation of some future conduct , not simply to proclaim liability for a past act.\" Id. (emphasis added). A complaint \"seeking ... a declaration of past liability\" against a judge instead of \"future rights\" does not satisfy the definition of \"declaratory judgment\" and renders declaratory relief unavailable. Id. \"Furthermore,\" retrospective declaratory relief cannot \"be granted as '[t]he Eleventh Amendment does not permit judgments against state officers declaring that they violated federal law in the past.' \" Id. at 766 n.7 (quoting Johns v. Stewart , 57 F.3d 1544, 1553 (10th Cir. 1995) ).\nThus, declaratory relief is limited to prospective declaratory relief. See, e.g. , Davis v. Campbell , No. 3:13-cv-0693 LEK/ATB, 2014 WL 234722, at *9 (N.D.N.Y. Jan. 22, 2014) (\"The doctrine of judicial immunity also does not shield judges from claims for prospective declaratory relief.[ ] In this case, plaintiff's request for declaratory relief is purely retrospective. She seeks a declaratory judgment that past actions that occurred in the context of the Family Court proceedings violated her constitutional rights.\" (internal citation omitted)).\nHaving reviewed the complaint, we conclude that TJN's request for declaratory relief is retrospective ; as a result, TJN is not entitled to such relief under \u00a7 1983. \"Although [TJN] ... refers to the judges' actions as 'policies,' essentially, ... [it] is asking the court to invalidate the actions of [Judges Boling and Fowler].\" Id . (emphasis added); see also Compl. at 16, \u00b6 101.\nC. Municipal Defendants\nTJN next argues that the district court erred in dismissing its claims against Craighead County and the City Defendants because \"Judge Boling and Judge Fowler's actions were done pursuant to an official municipal policy and their conduct caused a constitutional tort.\" Appellant's Br. at 49.\n\"[A] municipality cannot be held liable solely because it employs a tortfeasor-or, in other words, a municipality cannot be held liable under \u00a7 1983 on a respondeat superior theory.\" Monell v. Dep't of Soc. Servs. of City of N.Y. , 436 U.S. 658, 691, 98 S.Ct. 2018, 56 L.Ed.2d 611 (1978). \"Instead, it is when execution of a government's policy or custom, whether made by its lawmakers or by those whose edicts or acts may fairly be said to represent official policy, inflicts the injury that the government as an entity is responsible under \u00a7 1983.\" Id. at 694, 98 S.Ct. 2018.\nTJN argues that Judges Fowler and Boling were authorized policymakers of Craighead County and the City Defendants and that the judges' actions should be imputed to Craighead County and the City Defendants. But whether the judges' actions should be imputed to the municipal defendants depends on whether the judges are their employees.\nWe recently addressed whether the Phillips County District Court Clerk \"is a state government official whose actions are not attributable to the City.\" Evans v. City of Helena-West Helena, Ark ., 912 F.3d 1145, 1146 (8th Cir. 2019). In Evans , the district court had dismissed a \u00a7 1983 complaint based on the clerk's and Phillips County District Court's status as \"state-government officials who are [not] employed by [the City].\" Id. We reversed and remanded for further proceedings, \"conclud[ing] that the complaint state[d] at least a plausible claim that the clerk was a city official at the time of the alleged wrongdoing, in which case the City could be accountable for actions of the clerk that establish or carry out an unconstitutional policy or custom of the municipality.\" Id. at 1147. This was because when the Arkansas General Assembly established a pilot program creating a limited number of state-funded state district court judgeships, Phillips County was not included in that program. Id. (citing Ark. Code Ann. \u00a7 16-17-1101(8) (2008)). As a result, \"[j]udges outside the pilot program, like those in Phillips County, continued to be employees of the cities or counties, or both, that they served.\" Id. It was not until after the events alleged in the complaint that Phillips County was \"reorganized as [a] state district court[ ] and served by a state district court judge.\" Id. (quoting Ark. Code Ann. \u00a7 16-17-1112(a)(1) (2015)).\nFollowing the reasoning of Evans , we hold that Judges Boling and Fowler are employees of the State of Arkansas, not Craighead County or the City Defendants. Arkansas Code Annotated \u00a7 16-17-1111(a)(2) (2011) makes clear that the district judgeships in Craighead County became \"state district court judgeships\" as of January 1, 2013, before the events in this case. It also makes clear that these judges are \"state\" judges despite the cost-sharing requirements of \u00a7 16-17-1106(b)(1)(A). Id.\nBecause Judges Boling and Fowler are not employees of Craighead County or the City Defendants, their actions cannot be imputed to them. Therefore, the district court correctly dismissed the claims against them.\nIII. Conclusion\nAccordingly, we affirm the judgment of the district court.\nThe Honorable James M. Moody Jr., United States District Judge for the Eastern District of Arkansas.\nWe refer to the City of Jonesboro and the Cities of Bay, Bono, Brookland, Caraway, Cash, Egypt, Lake City, and Monette collectively as \"the City Defendants.\"\n\"We recite these facts as alleged in [TJN's] complaint and assume them to be true.\" Awnings v. Fullerton , 912 F.3d 1089, 1094 n.3 (8th Cir. 2019).\nSee, e.g. , Forrester v. White , 484 U.S. 219, 229, 108 S.Ct. 538, 98 L.Ed.2d 555 (1988) (holding that a judge's demotion and discharge of a court employee were administrative acts not protected by judicial immunity); McMillan v. Svetanoff , 793 F.2d 149, 155 (7th Cir. 1986) (\"Hiring and firing of employees is typically an administrative task ....The decision to fire the plaintiff did not involve judicial discretion; in other words, the judge did not utilize his education, training, and experience in the law to decide whether or not to retain plaintiff.\"); Goodwin v. Circuit Court of St. Louis Cty., Mo. , 729 F.2d 541, 549 (8th Cir. 1984) (holding county judge's decision to transfer hearing officer not \"official judicial act\" but rather \"administrative personnel decision\"); Clark v. Campbell , 514 F. Supp. 1300, 1302-03 (W.D. Ark. 1981) (holding county judge, in hiring or firing county employees, is not exercising a judicial function but, rather, is performing administrative and ministerial duties and thus cannot claim judicial immunity with respect to a civil rights action arising out of those activities); Atcherson v. Siebenmann , 458 F. Supp. 526, 538 (S.D. Iowa 1978) (supervising and terminating a probation officer was not acting in a judicial capacity and thus was not protected by absolute immunity from a civil rights action brought by the probation officer), vacated on other grounds , 605 F.2d 1058 (8th Cir. 1979).\nSee also id. at 2, \u00b6 3 (\"Boling and Fowler have unilaterally decreed that [TJN] is not entitled to fees owed under the contracts between each probation client and [TJN].\"); id. at 2, \u00b6 4 (\"As a direct result of Fowler's and Boling's interference in the contractual relationship between [TJN] and the probation clients ....\"); id. at 9, \u00b6 46 (\"[TJN] contracted individually with each probation client. The Probation Fee Agreement contains, inter alia , a $35 monthly fee for probation services.\").\nThe Senate report indicates that the amendment \"restores the doctrine of judicial immunity to the status it occupied prior to ... Pulliam \" because Pulliam had departed from \"400 years of common-law tradition and weakened judicial immunity protections.\" S. Rep. 104-366, at *36-37, 1996 U.S.C.C.A.N. 4202, 4216.",
+        "type": "majority",
+        "author": "SMITH, Chief Judge."
+      }
+    ],
+    "attorneys": [
+      "John T. Edwards, Randall J. Fishman, Attorney, Josef Horowitz, Kevin McCormack, Richard S. Townley, BALLIN & BALLIN, Memphis, TN, for Plaintiff - Appellant.",
+      "Jason E. Owens, JASON OWENS LAW FIRM, Conway, AR, for Defendant - Appellee Craighead County.",
+      "Robert Thomas James, Ashley N. Brown, Jennifer L. Merritt, ATTORNEY GENERAL'S OFFICE, Little Rock, AR, Patrick E. Hollingsworth, Assistant Attorney General, UNIVERSITY OF ARKANSAS SYSTEM, Office of General Counsel, Little Rock, AR, for Defendants - Appellees David Boling and Tommy Fowler.",
+      "John Lennon Wilkerson, ARKANSAS MUNICIPAL LEAGUE, Legal, North Little Rock, AR, for Defendants - Appellees City of Bay, City of Bono, City of Brookland, City of Caraway, City of Cash, City of Egypt, City of Lake City and City of Monette.",
+      "Ralph Charles Ohm, Hot Springs, AR, for City of Jonesboro.",
+      "Joseph D. Dell'Armi, VENABLE LLP, New York, NY, Jon M. Greenbaum, LAWYERS' COMMITTEE FOR CIVIL RIGHTS UNDER LAW, Washington, DC, for Amicus on Behalf of Appellant Lawyers' Committee for Civil Rights Under Law."
+    ],
+    "corrections": "",
+    "head_matter": "JUSTICE NETWORK INC., Plaintiff - Appellant\nv.\nCRAIGHEAD COUNTY; David Boling, Judge, in his individual and official capacity; Tommy Fowler, Judge, In his individual and official capacity; Bay, City of; Bono, City of; Brookland, City of; Caraway, City of; Cash, City of ; Egypt, City of ; Jonesboro, City of; Lake City, Arkansas; Monette, City of, Defendants - Appellees\nLawyers' Committee for Civil Rights Under Law, Amicus on Behalf of Appellant(s)\nNo. 17-3770\nUnited States Court of Appeals, Eighth Circuit.\nSubmitted: April 17, 2019\nFiled: July 26, 2019\nJohn T. Edwards, Randall J. Fishman, Attorney, Josef Horowitz, Kevin McCormack, Richard S. Townley, BALLIN & BALLIN, Memphis, TN, for Plaintiff - Appellant.\nJason E. Owens, JASON OWENS LAW FIRM, Conway, AR, for Defendant - Appellee Craighead County.\nRobert Thomas James, Ashley N. Brown, Jennifer L. Merritt, ATTORNEY GENERAL'S OFFICE, Little Rock, AR, Patrick E. Hollingsworth, Assistant Attorney General, UNIVERSITY OF ARKANSAS SYSTEM, Office of General Counsel, Little Rock, AR, for Defendants - Appellees David Boling and Tommy Fowler.\nJohn Lennon Wilkerson, ARKANSAS MUNICIPAL LEAGUE, Legal, North Little Rock, AR, for Defendants - Appellees City of Bay, City of Bono, City of Brookland, City of Caraway, City of Cash, City of Egypt, City of Lake City and City of Monette.\nRalph Charles Ohm, Hot Springs, AR, for City of Jonesboro.\nJoseph D. Dell'Armi, VENABLE LLP, New York, NY, Jon M. Greenbaum, LAWYERS' COMMITTEE FOR CIVIL RIGHTS UNDER LAW, Washington, DC, for Amicus on Behalf of Appellant Lawyers' Committee for Civil Rights Under Law.\nBefore SMITH, Chief Judge, KELLY and KOBES, Circuit Judges."
+  },
+  "file_name": "0753-01",
+  "first_page_order": 753,
+  "last_page_order": 765
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5991028,
+  "name": "Stanko v. Quay et al.",
+  "name_abbreviation": "Stanko v. Quay",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10182",
+  "first_page": "844",
+  "last_page": "844",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 844"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 71,
+    "ocr_confidence": 0.648,
+    "sha256": "257e4f97617a48f76fa0dde9507c91729602d7734ecdca63eb6b9173c600f054",
+    "simhash": "1:9bd070a81625127e",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Stanko v. Quay et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10182.\nStanko v. Quay et al."
+  },
+  "file_name": "0844-01",
+  "first_page_order": 866,
+  "last_page_order": 866
+}

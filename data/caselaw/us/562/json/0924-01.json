@@ -1,0 +1,59 @@
+{
+  "id": 6010580,
+  "name": "Corbin v. Wheeler, Warden",
+  "name_abbreviation": "Corbin v. Wheeler",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5474",
+  "first_page": "924",
+  "last_page": "924",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 924"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.612,
+    "sha256": "c660be8a68569d5032461d2bfa65f78b861ad6dfc7bd128093fd84055b06c5aa",
+    "simhash": "1:b6dbc0f99fcfb2b7",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Corbin v. Wheeler, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5474.\nCorbin v. Wheeler, Warden."
+  },
+  "file_name": "0924-01",
+  "first_page_order": 946,
+  "last_page_order": 946
+}

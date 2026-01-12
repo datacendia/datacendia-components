@@ -1,0 +1,59 @@
+{
+  "id": 5943127,
+  "name": "Allen v. Georgia",
+  "name_abbreviation": "Allen v. Georgia",
+  "decision_date": "2011-06-06",
+  "docket_number": "No. 10-10156",
+  "first_page": "1038",
+  "last_page": "1038",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1038"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 64,
+    "ocr_confidence": 0.566,
+    "sha256": "a4ede0f1445383db64f99d8697a6fad9d98ff98640d4b2feeb32371e3e8f0411",
+    "simhash": "1:03a78ab59dc08947",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Allen v. Georgia."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ga. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10156.\nAllen v. Georgia."
+  },
+  "file_name": "1038-11",
+  "first_page_order": 1064,
+  "last_page_order": 1064
+}

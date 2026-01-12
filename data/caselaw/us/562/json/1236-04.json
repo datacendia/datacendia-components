@@ -1,0 +1,59 @@
+{
+  "id": 5943705,
+  "name": "Richard v. Shewalter, Warden",
+  "name_abbreviation": "Richard v. Shewalter",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8122",
+  "first_page": "1236",
+  "last_page": "1236",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1236"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 77,
+    "ocr_confidence": 0.577,
+    "sha256": "9d250cab4bacfa28dce8852ad50173cf5e1a70db980f920f70bf316445b4402d",
+    "simhash": "1:2013e33221489043",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Richard v. Shewalter, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ohio. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8122.\nRichard v. Shewalter, Warden."
+  },
+  "file_name": "1236-04",
+  "first_page_order": 1258,
+  "last_page_order": 1258
+}

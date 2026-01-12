@@ -1,0 +1,59 @@
+{
+  "id": 12204689,
+  "name": "Carter v. Sherry, Warden",
+  "name_abbreviation": "Carter v. Sherry",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10718",
+  "first_page": "846",
+  "last_page": "846",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 846"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.638,
+    "sha256": "77f70de9eafcfb3aba25125d03deb9a88e60be687978e59c5fe56b9415fcb4de",
+    "simhash": "1:a6cd63b2ee3f0824",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Carter v. Sherry, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10718.\nCarter v. Sherry, Warden."
+  },
+  "file_name": "0846-03",
+  "first_page_order": 928,
+  "last_page_order": 928
+}

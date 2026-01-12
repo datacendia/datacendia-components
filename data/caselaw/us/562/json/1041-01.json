@@ -1,0 +1,59 @@
+{
+  "id": 6000997,
+  "name": "In re Discipline of Mitchell",
+  "name_abbreviation": "In re Discipline of Mitchell",
+  "decision_date": "2010-11-15",
+  "docket_number": "No. D-2586",
+  "first_page": "1041",
+  "last_page": "1041",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1041"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 41,
+    "char_count": 284,
+    "ocr_confidence": 0.567,
+    "sha256": "94a2c515e429b5c8b03b8d40cb060c78419662568eef9099cefe28f3c353274f",
+    "simhash": "1:678a33b23fd3276b",
+    "word_count": 53
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Mitchell."
+    ],
+    "opinions": [
+      {
+        "text": "Stephen T. Mitchell, of New York, N. Y, is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2586.\nIn re Discipline of Mitchell."
+  },
+  "file_name": "1041-01",
+  "first_page_order": 1063,
+  "last_page_order": 1063
+}

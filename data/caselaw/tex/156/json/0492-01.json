@@ -1,0 +1,636 @@
+{
+  "id": 2252430,
+  "name": "Luther Transfer & Storage, Incorporated v. W. H. Walton, Et Al.",
+  "name_abbreviation": "Luther Transfer & Storage, Inc. v. Walton",
+  "decision_date": "1956-11-28",
+  "docket_number": "No. A-5749",
+  "first_page": "492",
+  "last_page": "504",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "156 Tex. 492"
+    },
+    {
+      "type": "parallel",
+      "cite": "296 S.W.2d 750"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "269 S.W. 1024",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10328418,
+        2279759
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw/269/1024-01",
+        "/tex/114/0375-01"
+      ]
+    },
+    {
+      "cite": "264 S.W. 488",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10305427
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw/264/0488-01"
+      ]
+    },
+    {
+      "cite": "96 S.W. 2d 221",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2293192,
+        10241716
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/128/0155-01",
+        "/sw2d/96/0221-01"
+      ]
+    },
+    {
+      "cite": "128 Texas 155",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2293192
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/128/0155-01"
+      ]
+    },
+    {
+      "cite": "215 S.W. 2d 595",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": -1
+    },
+    {
+      "cite": "147 Texas 353",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2333819
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/147/0353-01"
+      ]
+    },
+    {
+      "cite": "222 S.W. 2d 985",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10208633,
+        2332187
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/222/0985-01",
+        "/tex/148/0197-01"
+      ]
+    },
+    {
+      "cite": "148 Texas 197",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2332187
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/148/0197-01"
+      ]
+    },
+    {
+      "cite": "265 S.W. 133",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10297093
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw/265/0133-01"
+      ]
+    },
+    {
+      "cite": "187 S.W. 2d 371",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10203290,
+        2338550
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/187/0371-01",
+        "/tex/143/0601-01"
+      ]
+    },
+    {
+      "cite": "143 Texas 601",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2338550
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/143/0601-01"
+      ]
+    },
+    {
+      "cite": "102 S.W. 2d 473",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10261349
+      ],
+      "pin_cites": [
+        {
+          "page": "475"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/102/0473-01"
+      ]
+    },
+    {
+      "cite": "183 S.W. 2d 453",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10208701
+      ],
+      "pin_cites": [
+        {
+          "page": "456"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/183/0453-01"
+      ]
+    },
+    {
+      "cite": "143 Texas 64",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2338511
+      ],
+      "pin_cites": [
+        {
+          "page": "70"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/143/0064-01"
+      ]
+    },
+    {
+      "cite": "210 S.W. 2d 652",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10203040
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/210/0652-01"
+      ]
+    },
+    {
+      "cite": "201 S.W. 2d 856",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10201364
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/201/0856-01"
+      ]
+    },
+    {
+      "cite": "168 S.W. 2d 936",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10224207
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/168/0936-01"
+      ]
+    },
+    {
+      "cite": "151 S.W. 2d 790",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10225269,
+        2316471
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/151/0790-01",
+        "/tex/136/0399-01"
+      ]
+    },
+    {
+      "cite": "136 Texas 399",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2316471
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/136/0399-01"
+      ]
+    },
+    {
+      "cite": "210 S.W. 2d 550",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        8717010,
+        10198828
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/146/0585-01",
+        "/sw2d/210/0550-01"
+      ]
+    },
+    {
+      "cite": "146 Texas 585",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        8717010
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/146/0585-01"
+      ]
+    },
+    {
+      "cite": "25 A.L.R. 2d 722",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "112 A.L.R. 1084",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "199 S.W. 2d 185",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10187593
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/199/0185-01"
+      ]
+    },
+    {
+      "cite": "109 S.W. 864",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "101 Texas 522",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2263363
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/101/0522-01"
+      ]
+    },
+    {
+      "cite": "107 S.W. 589",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "591"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "138 A.L.R. 1137",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "121 Pac. 2d 951",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "12 Wash. 2d 439",
+      "category": "reporters:state",
+      "reporter": "Wash. 2d",
+      "case_ids": [
+        2557462
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wash-2d/12/0439-01"
+      ]
+    },
+    {
+      "cite": "43 Am. Rep. 131",
+      "category": "reporters:state_regional",
+      "reporter": "Am. Rep.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "90 N.Y. 4",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2186316
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/90/0004-01"
+      ]
+    },
+    {
+      "cite": "138 A.L.R. 1131",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "23 Atl. 2d 529",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "112 Vt. 264",
+      "category": "reporters:state",
+      "reporter": "Vt.",
+      "case_ids": [
+        4588082
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/vt/112/0264-01"
+      ]
+    },
+    {
+      "cite": "234 S.W. 1087",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8276256
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/234/1087-01"
+      ]
+    },
+    {
+      "cite": "218 S.W. 685",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "286 S.W. 2d 280",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10173368
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/286/0280-01"
+      ]
+    },
+    {
+      "cite": "264 S.W. 488",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10305427
+      ],
+      "pin_cites": [
+        {
+          "page": "490"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/264/0488-01"
+      ]
+    },
+    {
+      "cite": "222 S.W. 2d 985",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10208633,
+        2332187
+      ],
+      "pin_cites": [
+        {
+          "page": "991"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/222/0985-01",
+        "/tex/148/0197-01"
+      ]
+    },
+    {
+      "cite": "148 Texas 197",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2332187
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/148/0197-01"
+      ]
+    },
+    {
+      "cite": "187 S.W. 2d 371",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10203290,
+        2338550
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "373"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/187/0371-01",
+        "/tex/143/0601-01"
+      ]
+    },
+    {
+      "cite": "143 Texas 601",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2338550
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/143/0601-01"
+      ]
+    },
+    {
+      "cite": "29 S.W. 2d 984",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10286834
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/29/0984-01"
+      ]
+    },
+    {
+      "cite": "88 Pac. 2d 137",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "13 Cal. 2d 144",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        1451455
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-2d/13/0144-01"
+      ]
+    },
+    {
+      "cite": "151 S.W. 2d 790",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10225269,
+        2316471
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/151/0790-01",
+        "/tex/136/0399-01"
+      ]
+    },
+    {
+      "cite": "136 Texas 399",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2316471
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/136/0399-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 963,
+    "char_count": 26261,
+    "ocr_confidence": 0.592,
+    "pagerank": {
+      "raw": 2.1945837332446665e-07,
+      "percentile": 0.7744271963346125
+    },
+    "sha256": "988d54b9b2ba229b77b57cc55ecd94897e71cce1eb5ecd5625b43e20024b860e",
+    "simhash": "1:79554d3f6b83f1fd",
+    "word_count": 4460
+  },
+  "last_updated": "2024-02-27T22:45:04.681911+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Luther Transfer & Storage, Incorporated v. W. H. Walton, Et Al."
+    ],
+    "opinions": [
+      {
+        "text": "ON MOTION FOR REHEARING\nMr. Justice Griffin\ndelivered the opinion of the Court.\nOur former opinion is withdrawn and the following is the opinion of the Court:\nThis is a suit brought by respondents, Walton et al against petitioner, Luther Transfer & Storage, Inc. for damages resulting from flood damages done to merchandise plaintiffs had stored in the warehouse belonging to defendant. The warehouse was situated in a low area of the City of Lubbock, Texas. Plaintiffs had rented from defendant at a rate of $20.00 per month a compartment or locker in the basement of defendant\u2019s warehouse. The locker was used by plaintiffs to store men\u2019s suits and other articles of merchandise. The door to the locker was equipped with a hasp and loop whereby it could be locked. Plaintiffs placed their lock on the locker and gave a key to the defendant, and themselves kept keys which would open the lock and afford entrance to the storage room or locker. When goods were taken to be stored in the locker, one of plaintiffs or an agent of plaintiffs would accompany the goods to the storage space and help unload the merchandise to be stored. The defendant would sent a truck for the goods upon call from plaintiffs, and transport them to the storage locker. Also, when plaintiffs desired goods to be brought out of storage to their place of business, they would telephone defendant employees at the warehouse, who would take the key which they had and unlock the locker, take out the desired articles, lock the door to the storage locker, and deliver the goods to plaintiffs\u2019 place of business. Defendant charged plaintiffs drayage on all goods transported by them, and thus drayage was paid by plaintiffs in addition to the $20.00 monthly rental paid for the locker space.\nOn May 6, 1949, there was a rain in Lubbock and some 4.65 inches of rain fell during that night. Entrance to the locker storage in the basement of defendant\u2019s warehouse was by means of an inclined ramp outside of and alongside the building. As a result of the heavy rainfall, water ran down the ramp and into the warehouse, and damaged plaintiffs\u2019 merchandise stored in the storage locker. This suit was for such damage.\nPlaintiff pleaded several acts of negligence on the part of the defendant. Upon issues submitted, without any objection on the part of defendant, the jury found that defendant constructed its warehouse in a low area where ground waters would accumulate after rains; that defendant was negligent in constructing its warehouse with storage basement and outside ramp in a low area where ground waters would accumulate after extensive rains and that such resulting negligence was a proximate cause of the flooding. The jury further found that defendant failed to construct the ramp leading to the warehouse basement and the retaining wall to a sufficient height above the surrounding ground level to prevent flood waters from passing over the said ramp and retaining wall into the basement of defendant\u2019s warehouse, and that such failure was negligence which was a proximate cause of the flooding of appellee\u2019s basement. The jury further found that the alleged damages were not caused by an unavoidable accident, but it was found that the rainfall on the night of May 6, 1949, was unprecedented. The jury made findings that fixed plaintiffs\u2019 damage at $6,000.00.\nAfter the close of the evidence each party filed a motion for judgment upon the jury verdict. Plaintiffs sought judgment for $6,000.00 damages as found by the jury resulting from defendant\u2019s negligence found by the jury to be a proximate cause of the flooding of the basement by the waters which caused the damages. Plaintiffs also made a motion to disregard the jury finding \u201cthat the rainfall on the night of May 6, 1949, was unprecedented,\u201d because no following issue that such unprecedented rainfall was the sole proximate cause of the damages, had been given by the court. Plaintiffs had properly objected to the court\u2019s charge because of its failure to give the sole proximate cause issue as following Special Issue No. 13.\nThe trial court granted defendant\u2019s motion for judgment, and rendered a judgment that plaintiffs take nothing against the defendant. Upon appeal the Court of Civil Appeals reversed the trial court\u2019s judgment and rendered judgment for plaintiffs 'in the sum of $6,000.00. 286 S.W. 2d 280.\nIn its application for writ of error defendant complains of the judgment rendered by the Court of Civil Appeals because the undisputed facts show the relationship between plaintiffs and defendant was that of landlord and tenant, and not that of warehouseman and depositor of goods.\nThe pleadings of all parties show that the goods damaged were located in defendant\u2019s warehouse building.\nArticle 5568, Vernon\u2019s Texas Civil Statutes, provides in part:\n\u201cAny person, firm, company or corporation who shall receive, * * *, or any kind of * * * merchandise, or any personal property in store for hire, shall be deemed and taken to be public warehousemen.\n\u201cA warehouse, within the meaning of this law shall be a house, building, or room in which any of the above mentioned commodities are stored and are protected from damage thereto by action of the elements.\u201d (Emphasis added).\nThe case of New England Equitable Ins. Co. v. Mechanics\u2019 American Nat. Bank of St. Louis, Texas Civ. App., 1919, 218 S.W. 685, was a suit by the Bank against the Insurance Company on a bond indemnifying the Bank against a milling company\u2019s fraudulent issuance of warehouse receipts, and the conversion or withdrawal of the wheat represented by such receipts. The Insurance Company defended on the ground that the receipts issued by the milling company (which ground wheat into flour) were not warehouse receipts. The Court of Civil Appeals in discussing whether or not the milling company was a warehouseman and maintained a warehouse said:\n\u201c* * * In common parlance, a warehouse is a house used for storing goods, wares, and merchandise, whether for the owner or for some one else, and whether the same be a public or a private warehouse. 8 Words & Phrases, p. 7389. * * * The term \u2018warehouse\u2019 is frequently used to indicate a place tvhere the owner of goods stores them until he is ready to put them on the market, and we hold that it was used in this sense in the bond herein sued on.\u201d (213 S.W.). 2nd col. p. 688.\nThe Commissions of Appeals in an opinion adopted by this court, and reported in 234 S.W. 1087, reversed the Court of Civil Appeals on other points, but specifically approved the Court of Civil Appeals\u2019 holding on \u201cwarehouse receipts.\u201d\nIn the case of Zweeres v. Thibault, 112 Vt. 264, 23 Atl. 2d 529, 138 A.L.R. 1131, it was held that a contract for storage for an indefinite time, of furniture in a room by itself in a building of a secondhand furniture dealer, although the room is rented for such purpose at a monthly rental, and the furnu ture owner at all times during the storage has control as to taking out the furniture or leaving it there, is not a lease of the room, but a bailment of the furniture.\nIn the case of Jones v. Morgan (1882) 90 N.Y. 4, 43 Am. Rep. 131, it was held that a contract pursuant to which leasehold furniture is placed in a building in a space appropriated therefor and partitioned off with a board partition, the entrance to which is by means of a door secured by two locks, one of which is put on by and remains subject to control of the owner of the furniture, is one of bailment and does not create the relation of landlord and tenant. It was held in the case of Port of Seattle v. Luketa, 1942, 12 Wash. 2d 439, 121 Pac. 2d 951. that the renting for the term of one year of two specific locker rooms in a building devoted to the storage of nets and gear for fishermen, created a relationship of bailor and bailee, rather than landlord and tenant. See also other cases cited in 138 A.L.R. 1137 et seq., 56 Am. Jur. 331, Sec. 22.\nThere was no dispute between the parties about the facts of the relationship between them. We hold that the relationship was not that of landlord and tenant, but was that of warehouseman and depositor. To obtain access to the locker the plaintiffs must first enter the warehouse building through a door or doors controlled and secured by the defendant.\nDefendant contends that the jury having found the rainfall which caused the damage to be unprecedented, same became an act of God, and could not have been anticipated or foreseen, therefore, no liability should be adjudged against the defendant. Defendant also complains that the Court of Civil Appeals erred in holding there was proof of negligence on the part of the defendant proximately causing the damages resulting from the flood waters. On this assignment of no evidence, we hold there was evidence in the record to support the jury\u2019s finding-on the issues as to defendant\u2019s negligence. The Court of Civil Appeals has recited some of the evidence, and also has held the evidence sufficient to support the jury\u2019s findings. This point is overruled.\nDamages resulting from an act of God are not ordinarily chargeable to anyone. However, for a defendant to be relieved of liability for an unprecedented flood, there must be no negligence of the defendant concurring with the act of God to cause the damage resulting.\nThe case of Fort Worth & D. C. Ry. Co. v. Kiel, 143 Texas 601, 187 S.W. 2d 371, 373, was for damages done to plaintiff\u2019s property by flood waters. Plaintiff alleged, and the jury found, that defendant\u2019s negligence was a proximate cause of the injury which brought about the damages. This court said:\n\u201cThe rule of nonliability of a railway company or person for damages caused by an extraordinary and unprecedented flood is subject to the exception that negligence in constructing and maintaining a structure, concurring with an extraordinary and unprecedented flood and causing damage to another, makes the railway company or person liable for damages, notwithstanding the fact that the flood was extraordinary and unprecedented. 1 Texas Jur., p. 700, Sec. 5, and cases cited in footnotes; see also 1 Texas Jur., p. 703, Sec. 8; Galveston H. & S. A. Ry. Co. v. Riggs, Texas Civ. App., 107 S.W. 589, 591; Id., 101 Texas 522, 109 S.W. 864.\u201d\nIn the case of Lewis v. Texas & N. O. Ry. Co., 1946, 199 S.W. 2d 185, ref. n.r.e., suit was brought by Lewis against the Railway Company for damages caused by flooding of plaintiff\u2019s farm. The Railway Company denied liability on the ground that it was an act of God in bringing an unprecedented flood, which solely caused the injury. At the end of the testimony the trial court granted the Railway Company\u2019s motion for an instructed verdict. On appeal this judgment was affirmed by the Court of Civil Appeals on the ground that they could \u201cnot perceive how reasonable minds could differ in concluding from the evidence as a whole that appellant\u2019s damages resulted directly and solely from an extraordinary and unprecedented rainfall and corresponding flood.\u201d (Emphasis added).\nA suit was brought by Hamlin against National Compress Company for damages resulting to cotton belonging to Hamlin on Compress Company warehouse platform. The cotton was damaged by flood waters. (National Compress Co. v. Hamlin), Texas Civ. Appeals, 1924, 264 S.W. 488, 490, dism. w.o.j. In affirming the judgment of the trial court for Hamlin, the Court of Civil Appeals said:\n\u201c* * * In order, however, for unprecedented rains to relieve a warehouseman from resultant damages, the evidence must preclude the fact that the damages could be attributable in any degree to the conduct of the warehouseman. * * *\u201d 1st. col. p. 490.\nSee also 43-B Texas Jur. 555, Sec. 55; 1 Texas Jur. 700, Sec. 5; 112 A.L.R. 1084; 25 A.L.R. 2d 722; 56 Am. Jur. 384, Sec. 136. In other words to relieve the defendant of liability herein, the unprecedented rainfall must have been the sole proximate cause of the damages. There was no issue submitted by the trial court on \u201csole\u201d proximate cause. The defendant did not request the submission of such issue. The plaintiffs objected to the court\u2019s charge and the submission of Special Issues No. 13 (on the unprecedented flood) \u201cfor the reason that there is no following special issue submitted by the court, as to whether the rainfall was the \u2018sole proximate cause\u2019 and the damage sustained by the rainfall and flood was in no wise contributed by any negligent acts or conduct of the defendant.\u201d Continuing, plaintiffs pointed out in their objections to the charge that an answer to this issue, No. 13, favorable to defendant would not warrant a judgment for defendant. The court overruled plaintiffs\u2019 objections. Plaintiffs also filed a motion to disregard Special Issue 13, and the jury\u2019s answer thereto, because such issue and answer was not a material finding upon which a judgment could be rendered for defendant because there was no finding that such unprecedented rainfall was the sole proximate cause of the damages. This motion was by the court overruled. Plaintiffs carried forward this point in their amended motion for new trial, and in their brief in the Court of Civil Appeals, and urge these grounds in their answer to the application for writ of error.\nThe defendant had no pleadings that the unprecedented rainfall was the sole proximate cause of the damages suffered by the plaintiff. The plaintiff was not required to plead, as a part of his cause of action, that his damages suffered were not solely caused by an unprecedented rainfall. The defendant had a general denial of the allegations in plaintiff\u2019s petition. Our present Rule 279, Texas Rules of Civil Procedure, provides in part that the court \u201c* * * shall submit the controlling issues made by the written pleadings and the evidence * * *,\u201d and that \u201c* * * a party shall not be entitled to an affirmative submission of any issue in his behalf where such issue is raised only by a general denial and not by an affirmative written pleading on his part * * (Emphasis added). Rule 279 relating to the issues to be given has a provision stating that nothing contained in that Rule shall change the burden of proof from what it would have been under a general denial. If an issue is properly submitted, the burden of establishing that the unprecedented rainfall was not a sole proximate cause of the damages would be upon the plaintiff. Dallas Railway & Terminal Co. v. Guthrie, 146 Texas 585, 210 S.W. 2d 550 (5), 1948; Hicks v. Brown, 136 Texas 399, 151 S.W. 2d 790.\nThe defendant not having pleaded that the unprecedented rainfall was the sole proximate cause of the damages was entitled to no issue thereon. City of Coleman v. Smith, Texas Civ. App. 1943, 168 S.W. 2d 936, error refused; Associated Employers Lloyds v. Aiken, Texas Civ. App. 1947, 201 S.W. 2d 856, ref. n.r.e.; Traders & General Ins. Co. v. Rischer, Texas Civ. App., 1948, 210 S.W. 2d 652, ref. n.r.e.; Vernon\u2019s Annotated Texas Rules, Civil, Franki, Vol. 2, pp. 218-220. We therefore have before us a record which contains jury findings that the defendant was guilty of negligence which was a proximate cause of the damages, and which contains no finding that the unprecedented rainfall was the sole proximate cause of the damages. The evidence does not establish that the unprecedented rainfall was the sole proximate cause of the damages, as a matter of law. On such a record the finding that the rainfall in question was unprecedented would not relieve the defendant of liability and should have been disregarded. The plaintiff was entitled to recover his damages on the jury findings.\nDefendant contends that the jury\u2019s answer to Special Issue No. 13 is in conflict with the jury\u2019s answer to those issues finding defendant guilty of negligence which was a proximate cause of the damages suffered. The jury\u2019s answer to Special Issue No. 13, in the absence of an answer of the jury that the unprecedented rainfall was the sole proximate cause of the damages, would not entitle the defendant to a judgment relieving defendant of liability to the plaintiffs. By virtue of the plaintiffs\u2019 specific objections to the court\u2019s charge, pointing out the omission of an issue on sole proximate cause and the further preservation of this objection, we cannot presume a finding by the trial court that the unprecedented rainfall was the sole proximate cause of the damages in order to support the trial court\u2019s judgment for the defendant. Rule 279, Vernon\u2019s Annotated Texas Rules of Civil Procedure. This court, in the case of Little Rock Funiture Mfg. Co. v. Dunn, 148 Texas 197, 222 S.W. 2d 985, 991, in discussing the law applicable to the subject of conflicts in the jury\u2019s answers to special issues, quoted from the case of Pearson v. Doherty, 143 Texas 64, 70, 183 S.W. 2d 453, 456, an excerpt from Howard v. Howard, Texas Civ. App., 102 S.W. 2d 473, 475, wr. ref., as follows: \u201c \u2018The test in such (a) case is, whether taking the finding alone in the one instance, a judgment should be entered in favor of the plaintiff; and taking it alone in the other, judgment should be entered in favor of the defendant.\u2019 \u201d Further, we said in the Little Rock Furniture Mfg. Co. case:\n\u201cTo apply this test, the court must consider each of the answers claimed to be in conflict, disregarding the alleged conflicting answer but taking into consideration all of the rest of the verdict, and if, so considered, one of the answers would require a judgment in favor of the plaintiff and the other would require a judgment in favor of the defendant, then the answers are fatally in conflict. It is essential that the party seeking to set aside a verdict on the ground of conflict must be able to point out that one of the conflicting answers of the jury, in connection with the rest of the verdict except the issue with which it conflicts, necessarily requires the entry of a judgment different from that which the court has entered. The petitioner cannot meet this test because the jury has not made a finding in its favor on proximate causation. * * *\u201d\nIn our case and without the finding on sole proximate cause of the damages by the unprecedented rainfall, no verdict could be entered for defendant. Considering the jury\u2019s answers to issues finding defendant\u2019s negligence as a proximate cause of the damages and disregarding the alleged conflicting answer to Special Issue No. 13, judgment is required to be entered in favor of the plaintiffs. Therefore, there is no fatal conflict in the jury\u2019s verdict.\nOur holding in this respect may appear to be in conflict with our holding in the Kiel case (Fort Worth & D. C. Ry. Co. v. Kiel, 143 Texas 601, 187 S.W. 2d 371) that certain findings there set out were conflicting. Actually it is not. We have examined the record in the Kiel case and there was no contention in that case that the jury finding that the flood was unprecedented was in conflict with other jury findings. In so far, therefore, as the Kiel case may indicate that a jury finding that a flood was unprecedented, without a further finding that it was the sole proximate cause of the damage, is in conflict with findings that the defendant\u2019s negligence was a proximate cause of the damage that case may not be regarded as authoritative. 41-B Texas Jur. 810, Sec. 585, and cases therein cited.\nBy virtue of our holdings as above set out, it follows that the Court of Civil Appeals properly rendered judgment for plaintiffs in the amount of $6,000.00 damages, plus interest against the defendant.\nThe judgment of the Court of Civil Appeals is affirmed.\nOpinion delivered November 28, 1956.\nNow 44 Words and Phrases \u2014 Permanent Ed. 630.",
+        "type": "rehearing",
+        "author": "Mr. Justice Griffin"
+      },
+      {
+        "text": "Mr. Justice Smith,\ndissenting.\nI cannot agree that the relationship between plaintiffs and defendant was that of a warehouseman and depositor. It is my opinion that the record shows that such relationship was that of landlord and tenant. Newton Walton, one of the respondents, testified that plaintiffs had the exclusive possession of the locker and its contents during the time they had the space rented; that all the merchandise which was damaged was in the locker; that they paid a monthly rental for the locker and that the rent was the same regardless of whether plaintiffs had any property in the locker. There are no facts which bring this relationship under the provisions of Article 5568, Vernon\u2019s Annotated Civil Statutes. That Article does not make the arrangement in the present case one of warehousing. It provides that one who is a public warehouseman is \u201cAny person * * * who shall receive * * * personal property in store for hire * *\nThe petitioner did not receive the property, neither did it have any right of control over the property. See Bash v. Reading Cold Storage & Ice Co., 100 Pa. Superior Court 359; Gruber v. Pacific States Savings & Loan Co., 13 Cal. 2d 144, 88 Pac. 2d 137; People ex rel Glynn v. Mercantile Safe Deposit Co., 159 App. Div., N.Y. 98, 143 N.Y. Supl. 849. For a summary of the evidence see pages 9-11, Application for Writ of Error, and pages 207-208, Statement of Facts. Petitioner\u2019s contention that the evidence is undisputed that the relationship was that of landlord and tenant should have been sustained and petitioner\u2019s motion for instructed verdict should have been granted.\nI do not agree with the conclusion reached by the majority on the question of whether or not a conflict exists merely because the court failed to submit an issue of sole proximate cause in connection with the issue of unprecedented rainfall. Under the express terms of Rule 279, Texas Rules of Civil Procedure, the authority for a presumed finding on any unsubmitted issue belonging to a given ground of recovery or defense depends upon there having been a submission of some other issue \u201cnecessarily referrable\u201d to that same ground of recovery or defense. In this connection, it is my opinion that the issue of \u201csole proximate cause\u201d is not an independent ground of defense, but is referrable to the ground of defense whiehjwas submitted, to-wit, that the rainfall on the night of May 6, 1949 was unprecedented. The issue of \u201csole proximate cause\u201d was raised by general denial and the evidence. It was just as related to and necessarily referrable to the unprecedented rainfall issue as the issues inquiring as to the act, negligence and proximate cause as against the defendant. The ground of defense in this case consisted of more than one issue. One was submitted; the other was omitted. I think there was evidence to support a finding that the unprecedented rainfall was the sole proximate cause of the damage sustained by respondents; therefore, since no request was made that written findings be made in support of the judgment, then it should be held that the court made findings on the omitted issues in such manner as to support the judgment. The judgment was that plaintiffs take nothing as against the defendant-petitioner. Presumed findings in support of the judgment would certainly be the result had plaintiff not objected to the court\u2019s charge for its failure to submit the issue of sole proximate cause. The rule says, however, \u201c* * * that objection to such failure shall suffice in such respect if the isue is one relied upon by the opposing party * * If this *were a case where the burden of proof rested with the defendant to prove sole proximate cause, I would agree that the objection was sufficient and it should be held that the defensive issue of \u201csole proximate cause\u201d was waived. However, I do not believe this rule should be applied in a situation such as we have here where, although the issue was a defensive one, the burden rested on plaintiff to secure a finding that the unprecedented rainfall was not the sole proximate cause of the resulting damages. The discharge of this burden was an essential part of their case. The defendant specially plead the unprecedented rainfall and the pleadings and evidence raised the issue of sole proximate cause. It was incumbent on the plaintiff to obtain findings by the jury negativing such sole proximate cause. Since the burden was on the plaintiff to obtain a jury finding on the sole proximate cause issue, the fact that he objected can avail him nothing. His duty was to prepare a substantially correct issue and request the court to submit it. See Hicks v. Brown, 136 Texas 399, 151 S.W. 2d 790; Horton & Horton v. House, Texas Com. App., 29 S.W. 2d 984. Under this theory we would have a jury finding that the rainfall was unprecedented, and a presumed finding that the unprecedented rainfall was the sole proximate cause of the resulting damages. Such findings are necessarily in conflict with the findings of negligence and proximate cause against the defendant.\nUnder the evidence in this case the issue was that the act of God was not the sole proximate cause of plaintiff\u2019s damages. That in effect was an issue relied upon by the plaintiff, and not one \u201crelied upon by the opposing party\u201d within the language of Rule 279, supra.\nThe judgment of the trial court should be affirmed. In any event, it should be reversed and remanded for a new trial because of conflicting answers of the jury and presumed findings of the court.\nOpinion delivered November 28, 1956.\n2nd Rehearing overruled January 9, 1957.",
+        "type": "dissent",
+        "author": "Mr. Justice Smith,"
+      }
+    ],
+    "attorneys": [
+      "Creenshaw, Dwpree & Milam and J. Orville Smith, all of Lubbock, for petitioner.",
+      "Vickers & Vickers and John Vickers, all of Lubbock, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "Luther Transfer & Storage, Incorporated v. W. H. Walton, Et Al.\nNo. A-5749.\nDecided November 28, 1956.\nRehearing overruled January 9, 1957.\n(296 S.W. 2d Series 750).\nCreenshaw, Dwpree & Milam and J. Orville Smith, all of Lubbock, for petitioner.\nThe Court of Civil Appeals erred in rendering judgment for plaintiffs, because the finding that the rainfall of unprecedented nature was a finding that the rainfall could not have been foreseen or anticipated, which finding conflicted with other answers to special issues submitted to the jury. Fort Worth & D. C. Ry. Co. v. Kiel, 143 Texas 601, 187 S.W. 2d 371; Exporters & Traders Compress & Whse. Co. v. Schulze, Texas Com. App., 265 S.W. 133; Little Rock Furn. Mfg. Co. v. Dunn, 148 Texas 197, 222 S.W. 2d 985.\nVickers & Vickers and John Vickers, all of Lubbock, for respondents.\nIn reply cited Lang v. Henderson, 147 Texas 353, 215 S.W. 2d 595; Turner v. Big Lake Oil Co., 128 Texas 155, 96 S.W. 2d 221; National Compress Co. v. Hamlin, 264 S.W. 488, error dismissed, w.o.j., 269 S.W. 1024."
+  },
+  "file_name": "0492-01",
+  "first_page_order": 504,
+  "last_page_order": 516
+}

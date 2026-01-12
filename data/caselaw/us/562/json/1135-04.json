@@ -1,0 +1,59 @@
+{
+  "id": 6016046,
+  "name": "Alvino Herrera v. Oregon",
+  "name_abbreviation": "Alvino Herrera v. Oregon",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-344",
+  "first_page": "1135",
+  "last_page": "1135",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1135"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 71,
+    "ocr_confidence": 0.635,
+    "sha256": "5ba3b6d9df319c18eea4d73673f38125f1e17d07d4adf71c9e7f5f55e210b62b",
+    "simhash": "1:0bc2eaeee5c10405",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Alvino Herrera v. Oregon."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ore. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-344.\nAlvino Herrera v. Oregon."
+  },
+  "file_name": "1135-04",
+  "first_page_order": 1157,
+  "last_page_order": 1157
+}

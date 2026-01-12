@@ -1,0 +1,88 @@
+{
+  "id": 6027133,
+  "name": "Fernandez v. Frost National Bank et al.; and Fernandez v. John G. and Marie Stella Kenedy Memorial Foundation",
+  "name_abbreviation": "Fernandez v. Frost National Bank",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-674",
+  "first_page": "1180",
+  "last_page": "1180",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1180"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "315 S. W. 3d 515",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7323773
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/315/0515-01"
+      ]
+    },
+    {
+      "cite": "315 S. W. 3d 494",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7323723
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/315/0494-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 30,
+    "char_count": 210,
+    "ocr_confidence": 0.572,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.17199883081986633
+    },
+    "sha256": "bddc3c26335a8316c0cfdbc15c50dfe8a08e63816e6536b537503aa2a4add0d7",
+    "simhash": "1:788562ae46c80ff7",
+    "word_count": 37
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Fernandez v. Frost National Bank et al. and Fernandez v. John G. and Marie Stella Kenedy Memorial Foundation"
+    ],
+    "opinions": [
+      {
+        "text": "(Reported below: 315 S. W. 3d 494);\n(315 S. W. 3d 515). Sup. Ct. Tex. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-674.\nFernandez v. Frost National Bank et al. and Fernandez v. John G. and Marie Stella Kenedy Memorial Foundation"
+  },
+  "file_name": "1180-04",
+  "first_page_order": 1202,
+  "last_page_order": 1202
+}

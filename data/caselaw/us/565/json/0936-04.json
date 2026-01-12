@@ -1,0 +1,61 @@
+{
+  "id": 12226720,
+  "name": "Richardson v. United States",
+  "name_abbreviation": "Richardson v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5778",
+  "first_page": "936",
+  "last_page": "936",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 936"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 154,
+    "ocr_confidence": 0.675,
+    "sha256": "5a2800b43c0492bf7d6de5f20c1bd05f3cbbe388980651a62268f3061ab4ce89",
+    "simhash": "1:0d33eb820dac9243",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Richardson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5778.\nRichardson v. United States."
+  },
+  "file_name": "0936-04",
+  "first_page_order": 1018,
+  "last_page_order": 1018
+}

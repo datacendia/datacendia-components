@@ -1,0 +1,59 @@
+{
+  "id": 12204320,
+  "name": "Ybarra v. Nevada",
+  "name_abbreviation": "Ybarra v. Nevada",
+  "decision_date": "2012-04-16",
+  "docket_number": "No. 11-6741",
+  "first_page": "940",
+  "last_page": "940",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 940"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 64,
+    "ocr_confidence": 0.639,
+    "sha256": "9a1195cca316fa25055a7dd11324449f76139c22d1013e3385c6a489cd1ef13c",
+    "simhash": "1:0044beaf29a3afd9",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ybarra v. Nevada."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Nev. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6741.\nYbarra v. Nevada."
+  },
+  "file_name": "0940-04",
+  "first_page_order": 816,
+  "last_page_order": 816
+}

@@ -1,0 +1,68 @@
+{
+  "id": 12702345,
+  "name": "Edmund CORSI, et al., petitioners, v. OHIO ELECTIONS COMMISSION.",
+  "name_abbreviation": "Corsi v. Ohio Elections Comm'n",
+  "decision_date": "2013-10-07",
+  "docket_number": "No. 12\u20131442.",
+  "first_page": "826",
+  "last_page": "826",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 826"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 41"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 163"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 29,
+    "char_count": 218,
+    "sha256": "899f9481fe29c264538c52ae285c80aa0335eef47f1bb6f6ab852e1c0f6bbcbe",
+    "simhash": "1:6caf640af2c0a485",
+    "word_count": 35
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Edmund CORSI, et al., petitioners,\nv.\nOHIO ELECTIONS COMMISSION."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of certiorari to the Court of Appeals of Ohio, Franklin County, denied."
+    ],
+    "corrections": "",
+    "head_matter": "Edmund CORSI, et al., petitioners,\nv.\nOHIO ELECTIONS COMMISSION.\nNo. 12-1442.\nSupreme Court of the United States\nOct. 7, 2013.\nPetition for writ of certiorari to the Court of Appeals of Ohio, Franklin County, denied."
+  },
+  "file_name": "0826-12",
+  "first_page_order": 826,
+  "last_page_order": 826
+}

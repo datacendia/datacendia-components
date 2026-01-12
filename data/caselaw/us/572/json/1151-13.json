@@ -1,0 +1,68 @@
+{
+  "id": 12706874,
+  "name": "Peter BLOCH, et ux., petitioners, v. WELLS FARGO HOME MORTGAGE, et al.",
+  "name_abbreviation": "Bloch v. Wells Fargo Home Mortg.",
+  "decision_date": "2014-06-02",
+  "docket_number": "No. 13\u20131275.",
+  "first_page": "1151",
+  "last_page": "1151",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "572 U.S. 1151"
+    },
+    {
+      "type": "parallel",
+      "cite": "189 L. Ed. 2d 743"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 2711"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 31,
+    "char_count": 237,
+    "sha256": "d33873be0fd43fb40e2b200be74f1731677b39a2eacefe64874a6b83e868fc0a",
+    "simhash": "1:78ad76c4b30504eb",
+    "word_count": 40
+  },
+  "last_updated": "2021-08-27T20:44:00.426858+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Peter BLOCH, et ux., petitioners,\nv.\nWELLS FARGO HOME MORTGAGE, et al."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of certiorari to the United States Court of Appeals for the Eleventh Circuit denied."
+    ],
+    "corrections": "",
+    "head_matter": "Peter BLOCH, et ux., petitioners,\nv.\nWELLS FARGO HOME MORTGAGE, et al.\nNo. 13-1275.\nSupreme Court of the United States\nJune 2, 2014.\nPetition for writ of certiorari to the United States Court of Appeals for the Eleventh Circuit denied."
+  },
+  "file_name": "1151-13",
+  "first_page_order": 1151,
+  "last_page_order": 1151
+}

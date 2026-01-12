@@ -1,0 +1,59 @@
+{
+  "id": 5898993,
+  "name": "Wilson v. Bell, Warden",
+  "name_abbreviation": "Wilson v. Bell",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5411",
+  "first_page": "920",
+  "last_page": "920",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 920"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.609,
+    "sha256": "1af69c77692bf21c0852bb8cf4bfeb7586d45456954a185866591f1bb413e766",
+    "simhash": "1:368b16aa7e7b9864",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wilson v. Bell, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5411.\nWilson v. Bell, Warden."
+  },
+  "file_name": "0920-07",
+  "first_page_order": 942,
+  "last_page_order": 942
+}

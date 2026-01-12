@@ -1,0 +1,59 @@
+{
+  "id": 12412797,
+  "name": "Fels v. Illinois",
+  "name_abbreviation": "Fels v. Illinois",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10403",
+  "first_page": "842",
+  "last_page": "842",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 842"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 66,
+    "ocr_confidence": 0.635,
+    "sha256": "94233c95881ef3aefab485a916072e72c054445d60a39109e048c4b14948f5d5",
+    "simhash": "1:706b0828c91c60a0",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Fels v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10403.\nFels v. Illinois."
+  },
+  "file_name": "0842-07",
+  "first_page_order": 918,
+  "last_page_order": 918
+}

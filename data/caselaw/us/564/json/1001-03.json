@@ -1,0 +1,77 @@
+{
+  "id": 4335564,
+  "name": "Eisai Co., Ltd., et al. v. Teva Pharmaceuticals USA, Inc., Through Its Gate Pharmaceuticals Division",
+  "name_abbreviation": "Eisai Co. v. Teva Pharmaceuticals USA, Inc.",
+  "decision_date": "2011-06-13",
+  "docket_number": "No. 10-1070",
+  "first_page": "1001",
+  "last_page": "1001",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1001"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "340 U. S. 36",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6930686
+      ],
+      "year": 1950,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/340/0036-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 43,
+    "char_count": 295,
+    "ocr_confidence": 0.556,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.14668326222880176
+    },
+    "sha256": "e1fdc6c7d5249c7e7d565c4fcca6c30234cd559ac34b3a064dcfd6ddda2e37c6",
+    "simhash": "1:9b9c60d00ee528cc",
+    "word_count": 47
+  },
+  "last_updated": "2024-02-27T23:47:04.462735+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Eisai Co., Ltd., et al. v. Teva Pharmaceuticals USA, Inc., Through Its Gate Pharmaceuticals Division."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. Fed. Cir. Certiorari granted, judgment vacated, and case remanded with instructions to dismiss the case as moot. See United States v. Munsingwear, Inc., 340 U. S. 36 (1950).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1070.\nEisai Co., Ltd., et al. v. Teva Pharmaceuticals USA, Inc., Through Its Gate Pharmaceuticals Division."
+  },
+  "file_name": "1001-03",
+  "first_page_order": 995,
+  "last_page_order": 995
+}

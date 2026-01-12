@@ -1,0 +1,59 @@
+{
+  "id": 5968520,
+  "name": "In re Disbarment of Wilson",
+  "name_abbreviation": "In re Disbarment of Wilson",
+  "decision_date": "2011-02-28",
+  "docket_number": "No. D-2547",
+  "first_page": "1254",
+  "last_page": "1254",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1254"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 106,
+    "ocr_confidence": 0.577,
+    "sha256": "3e8a6235f27f6f9fafccea94a2b32aa4801275d1f5efa586a35dddf54b32345d",
+    "simhash": "1:387adcabca8a5227",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Wilson."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see ante, p. 815.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2547.\nIn re Disbarment of Wilson."
+  },
+  "file_name": "1254-05",
+  "first_page_order": 1276,
+  "last_page_order": 1276
+}

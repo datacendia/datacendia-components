@@ -1,0 +1,59 @@
+{
+  "id": 12433381,
+  "name": "Rivera v. City of Chelsea, Massachusetts",
+  "name_abbreviation": "Rivera v. City of Chelsea",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-8183",
+  "first_page": "1236",
+  "last_page": "1236",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1236"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 89,
+    "ocr_confidence": 0.585,
+    "sha256": "e46a05f9da7693c97f1a724230cf4fd8a8df399965cd2b8d14acbb84633a1cea",
+    "simhash": "1:00a54c0602b1a26b",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rivera v. City of Chelsea, Massachusetts."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Mass. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8183.\nRivera v. City of Chelsea, Massachusetts."
+  },
+  "file_name": "1236-11",
+  "first_page_order": 1312,
+  "last_page_order": 1312
+}

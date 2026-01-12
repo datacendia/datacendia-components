@@ -1,0 +1,707 @@
+{
+  "id": 5720854,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. RICARDO ANTONIO LARA, Defendant and Appellant",
+  "name_abbreviation": "People v. Lara",
+  "decision_date": "2012-07-19",
+  "docket_number": "No. S192784",
+  "first_page": "896",
+  "last_page": "907",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "54 Cal. 4th 896"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal.",
+    "id": 9021,
+    "name": "Supreme Court of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "196 Cal.Rptr. 293",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "148 Cal.App.3d 906",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2118982
+      ],
+      "pin_cites": [
+        {
+          "page": "913"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/148/0906-01"
+      ]
+    },
+    {
+      "cite": "142 Cal.Rptr.3d 824",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.4th 314",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        5721040
+      ],
+      "pin_cites": [
+        {
+          "page": "328-330"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/54/0314-01"
+      ]
+    },
+    {
+      "cite": "542 U.S. 296",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5868041
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "304"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/542/0296-01"
+      ]
+    },
+    {
+      "cite": "97 Cal.Rptr.3d 338",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "176 Cal.App.4th 145",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5741126
+      ],
+      "pin_cites": [
+        {
+          "page": "152-155"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/176/0145-01"
+      ]
+    },
+    {
+      "cite": "92 P.3d 335",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "14 Cal.Rptr.3d 840",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 Cal.4th 294",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        493370
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "302"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/33/0294-01"
+      ]
+    },
+    {
+      "cite": "418 U.S. 539",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6173832
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "556-557"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/418/0539-01"
+      ]
+    },
+    {
+      "cite": "851 P.2d 802",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 Cal.Rptr.2d 520",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 Cal.4th 228",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1998560
+      ],
+      "pin_cites": [
+        {
+          "page": "234-235"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/5/0228-01"
+      ]
+    },
+    {
+      "cite": "976 P.2d 831",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "85 Cal.Rptr.2d 280",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 Cal.4th 490",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        829697
+      ],
+      "pin_cites": [
+        {
+          "page": "499"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/20/0490-01"
+      ]
+    },
+    {
+      "cite": "519 U.S. 433",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11595864
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "441-443"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/519/0433-01"
+      ]
+    },
+    {
+      "cite": "450 U.S. 24",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6181086
+      ],
+      "weight": 3,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "33"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/450/0024-01"
+      ]
+    },
+    {
+      "cite": "757 P.2d 1013",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "249 Cal.Rptr. 850",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.3d 194",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1968794
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "204-206"
+        },
+        {
+          "page": "204-206"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/46/0194-01"
+      ]
+    },
+    {
+      "cite": "459 P.2d 241",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "80 Cal.Rptr. 913",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "71 Cal.2d 1186",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        8712055
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "1192-1193"
+        },
+        {
+          "page": "1192-1193"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/71/1186-01"
+      ]
+    },
+    {
+      "cite": "388 P.2d 892",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Cal.Rptr. 620",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "60 Cal.2d 772",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2339573
+      ],
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "794"
+        },
+        {
+          "page": "794"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/60/0772-01"
+      ]
+    },
+    {
+      "cite": "175 Cal.Rptr. 59",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "120 Cal.App.3d 808",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2061628
+      ],
+      "pin_cites": [
+        {
+          "page": "815"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/120/0808-01"
+      ]
+    },
+    {
+      "cite": "5 Cal.Rptr.2d 327",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "3 Cal.App.4th 1346",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        2307528
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1350"
+        },
+        {
+          "page": "1350"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/3/1346-01"
+      ]
+    },
+    {
+      "cite": "120 S.Ct. 23485",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "147 L.Ed.2d 43",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "530 U.S. 466",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9413911
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "490"
+        },
+        {
+          "page": "490"
+        },
+        {
+          "page": "494, fn. 19"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/530/0466-01"
+      ]
+    },
+    {
+      "cite": "16 Cal.Rptr.3d 833",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "121 Cal.App.4th 271",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1204735
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "276-280"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/121/0271-01"
+      ]
+    },
+    {
+      "cite": "69 Cal.Rptr.2d 453",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 Cal.App.4th 932",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        261159
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "936-937"
+        },
+        {
+          "page": "936-937"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/59/0932-01"
+      ]
+    },
+    {
+      "cite": "249 Cal.Rptr. 775",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1997,
+      "opinion_index": 0
+    },
+    {
+      "cite": "203 Cal.App.3d 273",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2379745
+      ],
+      "weight": 4,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "276-277"
+        },
+        {
+          "page": "276-277"
+        },
+        {
+          "page": "277"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/203/0273-01"
+      ]
+    },
+    {
+      "cite": "70 P.3d 1037",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "135 Cal.Rptr.2d 619",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal.4th 1132",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        269725
+      ],
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "1137, 1139"
+        },
+        {
+          "page": "1141"
+        },
+        {
+          "page": "1138"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/30/1132-01"
+      ]
+    },
+    {
+      "cite": "109 P.3d 564",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "27 Cal.Rptr.3d 2",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.4th 635",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        873200
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "644"
+        },
+        {
+          "page": "644"
+        },
+        {
+          "page": "644"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/35/0635-01"
+      ]
+    },
+    {
+      "cite": "301 P.2d 241",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.2d 45",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2341334
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "50-51"
+        },
+        {
+          "page": "50-51"
+        },
+        {
+          "page": "51"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/47/0045-01"
+      ]
+    },
+    {
+      "cite": "917 P.2d 628",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1956,
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.Rptr.2d 789",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1956,
+      "opinion_index": 0
+    },
+    {
+      "cite": "13 Cal.4th 497",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1965926
+      ],
+      "weight": 2,
+      "year": 1956,
+      "pin_cites": [
+        {
+          "page": "530-531"
+        },
+        {
+          "page": "504"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/13/0497-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1121,
+    "char_count": 25118,
+    "ocr_confidence": 0.906,
+    "pagerank": {
+      "raw": 1.9186849343949853e-07,
+      "percentile": 0.732654104544319
+    },
+    "sha256": "dcc75eae86108b262a5f1ca82078c3ddd4cae2c8840a01812955d254565b4bb2",
+    "simhash": "1:81abf602373aa0fa",
+    "word_count": 4027
+  },
+  "last_updated": "2024-02-27T17:05:24.938424+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. RICARDO ANTONIO LARA, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nWERDEGAR, J.\nEffective January 25, 2010, the Legislature increased the rate at which prisoners in local custody could earn \u201cconduct credits\u201d against their term of confinement for work and good behavior. (Pen. Code, former \u00a7 4019, subds. (b)(1), (c)(1) & (f), as amended by Stats. 2009, 3d Ex. Sess. 2009-2010, ch. 28, \u00a7 50 (hereafter former section 4019).) The Legislature withheld this possibility of early release, however, from any prisoner who was required to register as a sex offender (see \u00a7 290 et seq.), was committed for a serious felony (see \u00a7 1192.7), or had a prior conviction for a serious or violent felony (see \u00a7\u00a7 667.5, 1192.7). (Former \u00a7 4019, subds. (b)(2), (c)(2).) We granted review to decide whether a court may award credits at the increased rate to a categorically disqualified prisoner by ignoring the disqualifying facts. Defendant contends the court has that authority as an aspect of its discretionary power to dismiss a criminal action \u201cin furtherance of justice.\u201d (\u00a7 1385, subd. (a); see generally People v. Superior Court (Romero) (1996) 13 Cal.4th 497, 530-531 [53 Cal.Rptr.2d 789, 917 P.2d 628]; People v. Burke (1956) 47 Cal.2d 45, 50-51 [301 P.2d 241].) We conclude section 1385 does not confer such authority.\nI. Background\nDefendant and a companion assaulted and seriously injured a man outside a Sunnyvale bar on February 11, 2010. Arrested and charged after fleeing the scene, defendant pled no contest to one count of assault by means of force likely to produce great bodily injury (\u00a7 245, subd. (a)(1)) and admitted several violations of probation. Pursuant to the terms of a plea bargain, the court exercised its power under section 1385 to strike the allegation that defendant had previously been convicted of first degree burglary (\u00a7\u00a7 459, 460, subd. (a)), a serious offense (see \u00a7 1192.7, subd. (c)(18)) that would otherwise have qualified him for sentencing under the \u201cThree Strikes\u201d law (\u00a7\u00a7 667, subds. (b)-(i), 1170.12) and a five-year enhancement (\u00a7 667, subd. (a)(1)). The court also struck the allegation that defendant had inflicted serious bodily injury. (\u00a7 12022.7, subd. (a) [three-year enhancement].) Based on this negotiated disposition, the court imposed a sentence of two years in state prison.\nThe question arose whether defendant\u2019s prior conviction for burglary, which the court had stricken, nevertheless disqualified him from receiving day-for-day presentence conduct credits under former section 4019. (See id., subds. (b)(2), (c)(2).) Defendant contended that section 1385 permitted the court to disregard the prior conviction for purposes of credits, and the People disagreed. The court concluded it had no power to disregard the prior and awarded 116 days of conduct credits rather than the 232 to which defendant would otherwise have been entitled.\nDefendant appealed the judgment as to credits. The Court of Appeal reversed to that extent and remanded, directing the trial court to \u201cexercise its discretion [under section 1385] to decide whether its order striking enhancements should be applied so as to maximize defendant\u2019s presentence credits under the version of [former section 4019] applicable to this case.\u201d\nWe granted the People\u2019s petition for review.\nII. Discussion\nThe ultimate question before us is whether section 1385 authorizes a court to disregard the historical facts that disqualify a local prisoner from earning day-for-day conduct credits under former section 4019. We conclude the court\u2019s authority under section 1385 does not extend so far.\nSection 1385 permits a court, \u201cin furtherance of justice, [to] order an action to be dismissed.\u201d (Id., subd. (a).) Although the statute literally authorizes a court to dismiss only an entire criminal action, we have held it also permits courts to dismiss, or \u201cstrike,\u201d factual allegations relevant to sentencing, such as those that expose the defendant to an increased sentence. (E.g., People v. Superior Court (Romero), supra, 13 Cal.4th 497, 504 [prior serious or violent convictions alleged in order to invoke the Three Strikes law (\u00a7\u00a7 667, subds. (b)-(i), 1170.12)]; People v. Burke, supra, 47 Cal.2d 45, 50-51 [prior narcotics conviction alleged in order to invoke former statute requiring state prison term].) However, the court\u2019s power under section 1385 is not unlimited; it reaches only the \u201cindividual charges and allegations in a criminal action.\u201d (People v. Thomas (2005) 35 Cal.4th 635, 644 [27 Cal.Rptr.3d 2, 109 P.3d 564].) Thus, a court may not strike facts that need not be charged or alleged, such as the sentencing factors that guide the court\u2019s decisions whether to grant probation (see Cal. Rules of Court, rule 4.414) or to select the upper, middle or lower term for an offense (id., rules 4.421, 4.423). (See generally In re Varnell (2003) 30 Cal.4th 1132, 1137, 1139 [135 Cal.Rptr.2d 619, 70 P.3d 1037].)\nThe historical facts that limit a defendant\u2019s ability to earn conduct credits do not form part of the charges and allegations in a criminal action. Certainly a court must afford a defendant due process\u2014notice and a fair hearing\u2014in determining the amount of conduct credit to which he or she is entitled. (People v. Duesler (1988) 203 Cal.App.3d 273, 276-277 [249 Cal.Rptr. 775].) But the courts of this state have rejected the argument that the People must allege credit disabilities in the accusatory pleading or prove the disabling facts to the trier of fact. Concerning notice, the court in People v. Fitzgerald (1997) 59 Cal.App.4th 932 [69 Cal.Rptr.2d 453] (Fitzgerald), held that an information charging the defendant with violent felonies gave him sufficient notice that, if convicted, section 2933.1 would restrict his presentence conduct credits to 15 percent of the maximum otherwise permitted. The People were not required to plead the effect that a conviction would have on credits. (Fitzgerald, at pp. 936-937.) Concerning proof, the court in People v. Garcia (2004) 121 Cal.App.4th 271 [16 Cal.Rptr.3d 833] (Garcia) concluded that the question whether a defendant\u2019s current felony offenses were \u201cviolent\u201d (\u00a7 667.5), and thus limited his credits under section 2933.1, was \u201cpart of the trial court\u2019s traditional sentencing function\u201d (Garcia, at p. 274), rather than a question that had to be decided by the jury. Although the federal Constitution requires that any fact, \u201c \u2018[o]ther than the fact of a prior conviction. . . . that increases the penalty for a crime beyond the prescribed statutory maximum ... be submitted to a jury, and proved beyond a reasonable doubt\u2019 \u201d (Garcia, at p. 277, quoting Apprendi v. New Jersey (2000) 530 U.S. 466, 490 [147 L.Ed.2d 43, 120 S.Ct. 23485]), facts invoked to limit conduct credits do not increase the penalty for a crime beyond the statutory maximum (Garcia, at p. 277).\nDefendant argues we should adopt the rule that credit disabilities must formally be pled and proved in order to bring them within the court\u2019s discretionary power under section 1385 to strike the \u201ccharges and allegations in a criminal action.\u201d (People v. Thomas, supra, 35 Cal.4th 635, 644.) Absent constitutional compulsion, however, the matter is in the first instance one of legislative intent. \u201c \u2018[W]hen a pleading and proof requirement is intended, the Legislature knows how to specify the requirement\u2019 \u201d (In re Varnell, supra, 30 Cal.4th 1132, 1141, quoting People v. Dorsch (1992) 3 Cal.App.4th 1346, 1350 [5 Cal.Rptr.2d 327]), but the Legislature specified no such requirement in former section 4019. Presumably the Legislature accepted the already established rule that facts invoked to limit credits need not be formally pled or proved. (See Garcia, supra, 121 Cal.App.4th 271, 276-280; Fitzgerald, supra, 59 Cal.App.4th 932, 936-937.)\nNor do we perceive anything in the legislative history of former section 4019 on which to base an implied pleading and proof requirement. Indeed, to attribute to the Legislature the unexpressed intent to create such a requirement would seem inconsistent with another, clearly expressed aspect of legislative intent. Former section 4019 was adopted during a state fiscal emergency as part of a larger measure intended to save the state money by releasing eligible prisoners early to reduce jail and prison populations and by emphasizing programs designed to prevent recidivism. (Stats. 2009, 3d Ex. Sess. 2009-2010, ch. 28, \u00a7 50.) Increasing the rate at which prisoners could earn presentence conduct credits was one such measure. Throughout the legislation, however, the Legislature indicated its unwillingness to extend certain of the new ameliorative benefits to the same category of high-risk offenders who were disqualified from earning day-for-day conduct credits under former section 4019 because of their current serious felonies, their prior serious or violent felonies, or their status as registered sex offenders. For example, section 3000.03 prohibits the return of many parolees to prison for parole violations but excepts persons with the criminal history just mentioned. (\u00a7 3000.03, subds. (a), (b).) Similarly, section 3050 requires the Department of Corrections and Rehabilitation, when releasing an inmate who has successfully completed an in-prison drug treatment program, to place the inmate in a 150-day residential drug treatment program, but this opportunity is withheld from persons with the specified criminal history. (\u00a7 3050, subd. (a).) In both cases, the disability appears to be automatic; nothing in the statutory language suggests an exercise of discretion is involved. To infer a pleading and proof requirement for the credit disability specified in former section 4019, simply in order to bring the disabling facts within the court\u2019s discretionary power to strike \u201ccharges and allegations\u201d (People v. Thomas, supra, 35 Cal.4th 635, 644; see \u00a7 1385, subd. (a)), would thus frustrate the Legislature\u2019s intent with respect to a specific category of high-risk offenders.\nMoreover, because conduct credits are a matter in which courts traditionally exercise very limited discretion, to adopt a pleading and proof requirement for credit disabilities, for no reason other than to bring them within the court\u2019s discretionary power to strike allegations (\u00a7 1385, subd. (a)), seems unwise. A defendant is entitled to presentence conduct credits under section 4019 \u201cunless it appears by the record that the prisoner has refused to satisfactorily perform labor as assigned\u201d (id., subd. (b)) or has \u201cnot satisfactorily complied with the reasonable rules and regulations established by the [local custodial authority]\u201d (id., subd. (c) [current and former versions of statute identical in these respects]). The court awards such credits at the time of sentencing (\u00a7 2900.5, subd. (a)), not as an exercise of discretion, but based on the sheriff\u2019s report of \u201cthe number of days that [the] defendant has been in custody and for which he or she may be entitled to credit,\u201d and only after hearing any challenges to the report. (Cal. Rules of Court, rule 4.310.) When the People claim the defendant has forfeited credits through misconduct, the People have the burden of proof. (People v. Johnson (1981) 120 Cal.App.3d 808, 815 [175 Cal.Rptr. 59].) The court\u2019s resolution of such a dispute is reviewable for abuse of discretion, and the court enjoys some discretion in determining the amount of credit to be withheld for a serious act of misconduct. (Id., at p. 811; see People v. Deusler, supra, 203 Cal.App.3d 273.) But no authority suggests the court\u2019s discretion in the matter is so broad as to permit it to withhold conduct credits from a prisoner who has satisfied the statutory prerequisites and is entitled to receive them, or to grant credits to a defendant who is ineligible to receive them by reason of misbehavior or statutory disability.\nDefendant contends that credit disabilities must be pled and proved to the trier of fact because they increase punishment. With this argument, defendant in effect seeks to extend the rule of a line of cases requiring formal pleading and proof of facts that increase a defendant\u2019s sentence (e.g., People v. Ford (1964) 60 Cal.2d 772, 794 [36 Cal.Rptr. 620, 388 P.2d 892] (Ford)) or that completely disqualify a defendant from receiving probation (People v. Lo Cicero (1969) 71 Cal.2d 1186, 1192-1193 [80 Cal.Rptr. 913, 459 P.2d 241] (Lo Cicero)). We do not believe the rule can properly be extended to require similarly formal determination of the facts that limit a prisoner\u2019s ability to earn conduct credits.\nThe defendant in the leading case, Ford, supra, 60 Cal.2d 772, was convicted and sentenced to death for homicide and also to a term of imprisonment for a variety of noncapital crimes including burglary, robbery and kidnapping. The trial court had increased the sentences for each of the noncapital offenses under former sections 3024 (minimum sentences for persons armed with deadly weapons or previously convicted of felonies) and 12022 (enhancements for committing felonies while carrying dangerous weapons), purporting to find the requisite facts true even though they had not had been alleged in the information or presented to the jury. (Ford, at p. 794.) We struck these portions of the judgment, holding as follows: \u201cBefore a defendant can properly be sentenced to suffer the increased penalties [(i.e., a minimum term under \u00a7 3024 or an enhanced term under \u00a7 12022)] flowing from either such finding ... the fact of the prior conviction or that the defendant was thus armed must be charged in the accusatory pleading, and if the defendant pleads not guilty thereto the charge must be proved and the truth of the allegation determined by the jury, or by the court if a jury is waived.\u201d (Ford, at p. 794; see People v. Hernandez (1988) 46 Cal.3d 194, 204\u2014206 [249 Cal.Rptr. 850, 757 P.2d 1013] [requiring pleading and proof of three-year enhancement for kidnappings committed for the purpose of rape (\u00a7 667.8)].) In Lo Cicero, supra, 71 Cal.2d 1186, we extended the rule of Ford, supra, 60 Cal.2d 772, to require pleading and proof of prior narcotics convictions used to render a defendant completely ineligible for probation under Health and Safety Code former section 11715.6. We explained that \u201c[t]he denial of opportunity for probation involved here is equivalent to an increase in penalty, and the principle declared in Ford should apply.\u201d (Lo Cicero, at p. 1193.)\nOur 1964 decision in Ford, supra, 60 Cal.2d 772, anticipated in some respects later developments in federal constitutional law. In 2000, as noted, the United States Supreme Court in Apprendi v. New Jersey, supra, 530 U.S. 466, 490, interpreted the Sixth and Fourteenth Amendments to the federal Constitution as requiring that, \u201c[o]ther than the fact of a prior conviction, any fact that increases the penalty for a crime beyond the prescribed statutory maximum must be submitted to a jury, and proved beyond a reasonable doubt.\u201d Our earlier decision in Ford, while speaking more broadly, was motivated by the same basic concern that the jury\u2019s verdict must authorize the sentence. (See Ford, at p. 794 [a defendant cannot \u201cproperly be sentenced to suffer the increased penalties flowing from\u201d a finding that has not been \u201ccharged in the accusatory pleading . . . and the truth of the allegation determined by the jury\u201d].) In contrast, we have never applied Ford to require formal pleading and proof of facts that do not define the range of permissible sentencing for an offense by enhancing the term, prescribing a minimum term, or utterly precluding probation. For example, in In re Vamell, supra, 30 Cal.4th 1132, we refused to extend Ford to require pleading and proof of the facts that disqualified a narcotics offender for mandatory probation and drug treatment under section 1210.1, because the defendant remained eligible for probation under the more general terms of section 1203. Rather than defining the range of permissible sentencing, we explained, such facts functioned as \u201c \u2018sentencing factors\u2019 \u201d that \u201c \u2018supported] a specific sentence within the range authorized by the jury\u2019s finding that the defendant is guilty of a particular offense.\u2019 \u201d (In re Vamell, supra, at p. 1135 & fn. 3, quoting Apprendi v. New Jersey, supra, 530 U.S. 466, 494, fn. 19; see People v. Dorsch, supra, 3 Cal.App.4th 1346, 1350 [holding the People need not formally plead and prove facts that ordinarily bar probation under \u00a7 1203, because the statute gives the court discretion to grant probation despite the disqualifying facts \u201cin unusual cases\u201d (\u00a7 1203, subd. (e))].)\nThe facts that disqualify a local prisoner from earning day-for-day conduct credits under former section 4019 are unlike sentencing factors in that they do not guide the court in selecting a sentence from within the range established by statute. Like sentencing factors, however, the disqualifying facts cannot remove a sentence from the statutory range. Instead, they merely limit a defendant\u2019s ability to earn credits against a sentence for good behavior. For this reason, to hold that the disqualifying facts need not formally be pled and proved does not implicate the core concern underlying the rule of Ford, supra, 60 Cal.2d 772\u2014the need to ensure that the jury\u2019s verdict authorizes the sentence.\nDefendant insists that to limit a prisoner\u2019s opportunity to earn conduct credits is to increase punishment. Reasoning by analogy, defendant notes that a law reducing conduct credits, as applied to a prisoner whose offense preceded the law\u2019s effective date, implicates the ex post facto clause (U.S. Const., art. I, \u00a7 10, cl. 1; Cal. Const., art. I, \u00a7 9) because it \u201csubstantially alters the consequences attached to a crime already completed, and therefore changes \u2018the quantum of punishment.\u2019 \u201d (Weaver v. Graham (1981) 450 U.S. 24, 33 [67 L.Ed.2d 17, 101 S.Ct. 960]; cf. Lynce v. Mathis (1997) 519 U.S. 433, 441-443 [137 L.Ed.2d 63, 117 S.Ct. 891].) We need not take issue with the proposition that a person who is released a day early is punished a day less. The very purpose of conduct credits is to foster constructive behavior in prison by reducing punishment. However, the conclusion that credit-limiting facts must formally be pled and proved does not follow. As explained, we have imposed such a requirement only as to facts that define the permissible range of sentencing for an offense by increasing the sentence, prescribing a minimum term, or entirely precluding probation. (E.g., People v. Hernandez, supra, 46 Cal.3d 194, 204-206; Lo Cicero, supra, 71 Cal.2d 1186, 1192-1193; Ford, supra, 60 Cal.2d 772, 794.)\nWe thus turn to the disposition. The People were not, as we have explained, required to plead defendant\u2019s credit disabilities in the complaint or prove them to the trier of fact. As also noted, however, defendant is entitled to due process in the award of credits, which in this context entails sufficient notice of the facts that restrict his ability to earn credits and, if he does not admit them, a reasonable opportunity to prepare and present a defense. (Cf. Fitzgerald, supra, 59 Cal.App.4th 932, 936-937; People v. Duesler, supra, 203 Cal.App.3d 273, 276-277.)\nIn the case before us, the historical fact that limits defendant\u2019s presentence conduct credits under former section 4019 is his prior conviction for first degree burglary (\u00a7\u00a7 459, 460, subd. (a)) because it is a serious felony (see \u00a7 1192.7, subd. (c)(18)). The People pled the prior conviction for the different purpose of triggering various statutory sentence enhancements. Nevertheless, as we have explained, this pleading was sufficient to inform defendant that his presentence conduct credits might be limited. The trial court struck the allegation under section 1385 in order to avoid the enhancements, but \u201cwhen a court has struck a prior conviction allegation it has not \u2018wipe[d] out\u2019 that conviction as though the defendant had never suffered it; rather, the conviction remains a part of the defendant\u2019s personal history\u201d and available for other sentencing purposes. (People v. Garcia (1999) 20 Cal.4th 490, 499 [85 Cal.Rptr.2d 280, 976 P.2d 831]; see In re Varnell, supra, 30 Cal.4th 1132, 1138; People v. Burke, supra, 47 Cal.2d 45, 51.)\nHaving thus given sufficient notice of the prior, the People also proved it sufficiently through the probation report. Faced with the report\u2019s assertion that a prior conviction did exist, and having the duty to make an offer of proof to preserve for appeal any claim of error in the report (e.g., People v. Welch (1993) 5 Cal.4th 228, 234-235 [19 Cal.Rptr.2d 520, 851 P.2d 802]), defendant raised no factual objection and made no offer of proof. Instead, he presented the purely legal argument that credit-limiting facts must formally be pled and proved to the trier of fact. Having correctly rejected that argument, the trial court reasonably relied on the report in determining defendant\u2019s presentence credits.\nIII. Disposition\nThe judgment of the Court of Appeal is reversed.\nCantil-Sakauye, C. J.,\"Kennard, J., Baxter, J., Chin, J., Corrigan, J., and Liu, J., concurred.\n(Subsequently amended by Stats. 2010, ch. 426, \u00a7 2, Stats. 2011, ch. 15, \u00a7 482, Stats. 2011, ch. 39, \u00a7 53, and Stats. 2011, 1st Ex. Sess. 2011-2012, ch. 12, \u00a7 35.)\nAll further statutory references are to the Penal Code, except as noted.\nAlthough a state need not offer conduct credits, a prisoner\u2019s statutory entitlement to them entails a liberty interest protected by due process that may not be arbitrarily withheld. (Wolff v. McDonnell (1974) 418 U.S. 539, 556-557 [41 L.Ed.2d 935, 94 S.Ct. 2963]; cf. People v. Duesler, supra, 203 Cal.App.3d 273, 277.)\nA prisoner may waive presentence credits, including conduct credits, as part of a negotiated disposition. (See, e.g., People v. Arnold (2004) 33 Cal.4th 294, 302 [14 Cal.Rptr.3d 840, 92 P.3d 335]; People v. Black (2009) 176 Cal.App.4th 145, 152-155 [97 Cal.Rptr.3d 338].)\n(As amended by Stats. 1957, ch. 1617, \u00a7 3, p. 2964.)\n(As amended by Stats. 1953, ch. 36, \u00a7 1, pp. 653-654.)\n(As amended by Stats. 1959, ch. 1112, \u00a7 13, p. 3196.)\nCf. Blakely v. Washington (2004) 542 U.S. 296, 304 [159 L.Ed.2d 403, 124 S.Ct. 2531] (\u201cWhen a judge inflicts punishment that the jury\u2019s verdict alone does not allow, the jury has not found all the facts \u2018which the law makes essential to the punishment,\u2019 [citation] and the judge exceeds his proper authority.\u201d)\nNo question under the ex post facto clause is before us because defendant committed his offense after former section 4019 took effect.\nToday local prisoners may earn day-for-day credit without regard to their prior convictions. (See \u00a7 4019, subds. (b), (c) & (f), as amended by Stats. 2011, ch. 15, \u00a7 482.) This favorable change in the law does not benefit defendant because it expressly applies only to prisoners who are confined to a local custodial facility \u2018\u2018for a crime committed on or after October 1, 2011\u201d (\u00a7 4019, subd. (h), italics added.)\nDefendant argues the Legislature denied equal protection (see U.S. Const., 14th Amend.; Cal. Const., art. I, \u00a7 7) by making this change in the law expressly prospective. We recently rejected a similar argument in People v. Brown (2012) 54 Cal.4th 314, 328-330 [142 Cal.Rptr.3d 824] (Brown).) As we there explained, \u201c \u2018[t]he obvious purpose\u2019 \u201d of a law increasing conduct credits \u201c \u2018is to affect the behavior of inmates by providing them with incentives to engage in productive work and maintain good conduct while they are in prison.\u2019 [Citation.] \u2018[T]his incentive purpose has no meaning if an inmate is unaware of it. The very concept demands prospective application.\u2019 \u201d (Brown, at p. 329, quoting In re Strick (1983) 148 Cal.App.3d 906, 913 [196 Cal.Rptr. 293].) Accordingly, prisoners who serve their pretrial detention before such a law\u2019s effective date, and those who serve their detention thereafter, are not similarly situated with respect to the law\u2019s purpose. (Brown, at pp. 328-329.)\nWe find nothing of relevance to this case in subdivision (c)(1) of section 1385, which provides that, \u201c[i]f the court has the authority ... to strike or dismiss an enhancement, the court may instead strike the additional punishment for that enhancement in the furtherance of justice . . . .\u201d Former section 4019, in limiting the ability of prisoners with certain prior convictions to earn conduct credits at the maximum rate, does not impose \u201cadditional punishment for [any] enhancement.\u201d (\u00a7 1385, subd. (c)(1).) Rather, the credit limitations in former section 4019 operate because of the historical fact of a prior conviction without reference to whether any enhancement has been found true. (See id.., subds. (b)(2), (c)(2).)",
+        "type": "majority",
+        "author": "WERDEGAR, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "William M. Robinson, under appointment by the Supreme Court, for Defendant and Appellant.",
+      "Edmund G. Brown, Jr., and Kamala D. Harris, Attorneys General, Dane R. Gillette, Chief Assistant Attorney General, Gerald A. Engler, Assistant Attorney General, Laurence K. Sullivan and Eric D. Share, Deputy Attorneys General, for Plaintiff and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. S192784.\nJuly 19, 2012.]\nTHE PEOPLE, Plaintiff and Respondent, v. RICARDO ANTONIO LARA, Defendant and Appellant.\nCounsel\nWilliam M. Robinson, under appointment by the Supreme Court, for Defendant and Appellant.\nEdmund G. Brown, Jr., and Kamala D. Harris, Attorneys General, Dane R. Gillette, Chief Assistant Attorney General, Gerald A. Engler, Assistant Attorney General, Laurence K. Sullivan and Eric D. Share, Deputy Attorneys General, for Plaintiff and Respondent."
+  },
+  "file_name": "0896-01",
+  "first_page_order": 934,
+  "last_page_order": 945
+}

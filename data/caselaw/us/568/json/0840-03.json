@@ -1,0 +1,59 @@
+{
+  "id": 12412531,
+  "name": "Fuentes Martinez v. California",
+  "name_abbreviation": "Fuentes Martinez v. California",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10321",
+  "first_page": "840",
+  "last_page": "840",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 840"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 79,
+    "ocr_confidence": 0.637,
+    "sha256": "9341cd48adfa35d62d0da48461f750e1a28b173e2154ae03c1155a8fda506bae",
+    "simhash": "1:1c2394328eda424d",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Fuentes Martinez v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10321.\nFuentes Martinez v. California."
+  },
+  "file_name": "0840-03",
+  "first_page_order": 916,
+  "last_page_order": 916
+}

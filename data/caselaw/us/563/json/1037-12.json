@@ -1,0 +1,59 @@
+{
+  "id": 5913759,
+  "name": "Williams v. Texas",
+  "name_abbreviation": "Williams v. Texas",
+  "decision_date": "2011-06-06",
+  "docket_number": "No. 10-9883",
+  "first_page": "1037",
+  "last_page": "1037",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1037"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.71,
+    "sha256": "c30b31177f95fb90cac35a5fedab6c624e26706c6ecb4cc870f064f732a5d28a",
+    "simhash": "1:58d1cb96be796a02",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Tex., 2d Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9883.\nWilliams v. Texas."
+  },
+  "file_name": "1037-12",
+  "first_page_order": 1063,
+  "last_page_order": 1063
+}

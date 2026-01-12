@@ -1,0 +1,59 @@
+{
+  "id": 5976844,
+  "name": "In re Watts",
+  "name_abbreviation": "In re Watts",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 10-6386",
+  "first_page": "1059",
+  "last_page": "1059",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1059"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 21,
+    "char_count": 142,
+    "ocr_confidence": 0.545,
+    "sha256": "8c9ff0ee5265dbaf80329219daa23623c2d6adba3f9694adc98604f7cdd5e41f",
+    "simhash": "1:c2a414e84106e79b",
+    "word_count": 23
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Watts."
+    ],
+    "opinions": [
+      {
+        "text": "Motion of petitioner for reconsideration of order denying leave to proceed in forma pauperis [ante, p. 959] denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6386.\nIn re Watts."
+  },
+  "file_name": "1059-02",
+  "first_page_order": 1081,
+  "last_page_order": 1081
+}

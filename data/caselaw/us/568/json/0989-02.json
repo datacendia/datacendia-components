@@ -1,0 +1,59 @@
+{
+  "id": 12420997,
+  "name": "Luellen v. United States",
+  "name_abbreviation": "Luellen v. United States",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-6301",
+  "first_page": "989",
+  "last_page": "989",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 989"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.658,
+    "sha256": "b88caa5c238a1a3cacfbafe1d0d9f495b0aeef02ff1b1528b2bf7bec90ccf6bd",
+    "simhash": "1:97eacf718e85914c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Luellen v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6301.\nLuellen v. United States."
+  },
+  "file_name": "0989-02",
+  "first_page_order": 1065,
+  "last_page_order": 1065
+}

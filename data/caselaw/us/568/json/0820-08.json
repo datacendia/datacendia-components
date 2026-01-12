@@ -1,0 +1,59 @@
+{
+  "id": 12409544,
+  "name": "Brown v. Unknown Objectors",
+  "name_abbreviation": "Brown v. Unknown Objectors",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-1424",
+  "first_page": "820",
+  "last_page": "820",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 820"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.697,
+    "sha256": "4d88893b298413184d6e94cf5dd1ecb1c377023dc116150b9dda52d06cbfcf46",
+    "simhash": "1:538d66ad29395047",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Brown v. Unknown Objectors."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1424.\nBrown v. Unknown Objectors."
+  },
+  "file_name": "0820-08",
+  "first_page_order": 896,
+  "last_page_order": 896
+}

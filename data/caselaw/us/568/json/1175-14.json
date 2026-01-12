@@ -1,0 +1,59 @@
+{
+  "id": 12431210,
+  "name": "Hamilton v. Biter, Warden",
+  "name_abbreviation": "Hamilton v. Biter",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-7868",
+  "first_page": "1175",
+  "last_page": "1175",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1175"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.685,
+    "sha256": "1f7fa6116cc1e07a9ca897788886ec72b3fd88df17f89e9574755eee32390c13",
+    "simhash": "1:169727b469bf2077",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hamilton v. Biter, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7868.\nHamilton v. Biter, Warden."
+  },
+  "file_name": "1175-14",
+  "first_page_order": 1251,
+  "last_page_order": 1251
+}

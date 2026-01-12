@@ -1,0 +1,59 @@
+{
+  "id": 6014159,
+  "name": "Burge v. Virginia",
+  "name_abbreviation": "Burge v. Virginia",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5156",
+  "first_page": "906",
+  "last_page": "906",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 906"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 64,
+    "ocr_confidence": 0.645,
+    "sha256": "28ed05e038caeadc5968b528e7afa89094d3d44619901034886c41c2e2c0cf92",
+    "simhash": "1:ec6762e53fec6fca",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Burge v. Virginia."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Va. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5156.\nBurge v. Virginia."
+  },
+  "file_name": "0906-13",
+  "first_page_order": 928,
+  "last_page_order": 928
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12234818,
+  "name": "In re Grayton",
+  "name_abbreviation": "In re Grayton",
+  "decision_date": "2011-11-28",
+  "docket_number": "No. 11-5218",
+  "first_page": "1055",
+  "last_page": "1055",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1055"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 21,
+    "char_count": 144,
+    "ocr_confidence": 0.638,
+    "sha256": "518495bd787c1651788766cec88f34931bc8a80e2ac575eb27a3fb1858e31df1",
+    "simhash": "1:62e434c80926bb81",
+    "word_count": 23
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Grayton."
+    ],
+    "opinions": [
+      {
+        "text": "Motion of petitioner for reconsideration of order denying leave to proceed in forma pauperis [ante, p. 811] denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5218.\nIn re Grayton."
+  },
+  "file_name": "1055-08",
+  "first_page_order": 1137,
+  "last_page_order": 1137
+}

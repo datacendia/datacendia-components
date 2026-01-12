@@ -1,0 +1,59 @@
+{
+  "id": 6007997,
+  "name": "Bunch v. United States",
+  "name_abbreviation": "Bunch v. United States",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 10-7214",
+  "first_page": "1076",
+  "last_page": "1076",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1076"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.585,
+    "sha256": "532c9af1e6659bbfaf2e99655b8adcf80fa72b9b7b3c06a5be57d4dcdb53d5a6",
+    "simhash": "1:016a92d3ce85d138",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bunch v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7214.\nBunch v. United States."
+  },
+  "file_name": "1076-02",
+  "first_page_order": 1098,
+  "last_page_order": 1098
+}

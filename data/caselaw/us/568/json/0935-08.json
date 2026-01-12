@@ -1,0 +1,86 @@
+{
+  "id": 12417459,
+  "name": "Levin v. United States et al.",
+  "name_abbreviation": "Levin v. United States",
+  "decision_date": "2012-10-04",
+  "docket_number": "No. 11-1351",
+  "first_page": "935",
+  "last_page": "936",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 935"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "567 U. S. 968",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12413251,
+        12413255,
+        12413259,
+        12413260,
+        12413265,
+        12413239,
+        12413241,
+        12413247
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/567/0968-04",
+        "/us/567/0968-05",
+        "/us/567/0968-06",
+        "/us/567/0968-07",
+        "/us/567/0968-08",
+        "/us/567/0968-01",
+        "/us/567/0968-02",
+        "/us/567/0968-03"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 42,
+    "char_count": 260,
+    "ocr_confidence": 0.627,
+    "sha256": "7554008b79a824e266afa0f4f42e426089cd41fe287a38041ee58d5bddd19379",
+    "simhash": "1:9a0876e37d81551b",
+    "word_count": 46
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Levin v. United States et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. [Certiorari granted, 567 U. S. 968.] James A. Feldman, Esq., of Washington, D. C., is invited to brief and argue this case as ami-cus curiae in support of petitioner.\nCertiorari Granted",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "October 4, 2012\nNo. 11-1351.\nLevin v. United States et al."
+  },
+  "file_name": "0935-08",
+  "first_page_order": 1011,
+  "last_page_order": 1012
+}

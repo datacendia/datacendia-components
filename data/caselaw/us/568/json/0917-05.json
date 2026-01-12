@@ -1,0 +1,59 @@
+{
+  "id": 12416221,
+  "name": "Malave v. United States",
+  "name_abbreviation": "Malave v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5545",
+  "first_page": "917",
+  "last_page": "917",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 917"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.686,
+    "sha256": "87543567c85e66e8bc5687732b8ece77c6dcb68e976a6d95276773980438ec5d",
+    "simhash": "1:01084b839ad75708",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Malave v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5545.\nMalave v. United States."
+  },
+  "file_name": "0917-05",
+  "first_page_order": 993,
+  "last_page_order": 993
+}

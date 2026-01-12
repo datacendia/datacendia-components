@@ -1,0 +1,59 @@
+{
+  "id": 12408319,
+  "name": "Butler v. Illinois",
+  "name_abbreviation": "Butler v. Illinois",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. 11-9725",
+  "first_page": "908",
+  "last_page": "908",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 908"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.654,
+    "sha256": "7d7eb610c03680c4779500a61870437d90454629717b2152e28059607be6b0cc",
+    "simhash": "1:60b9d2fc5525e92d",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Butler v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9725.\nButler v. Illinois."
+  },
+  "file_name": "0908-04",
+  "first_page_order": 812,
+  "last_page_order": 812
+}

@@ -1,0 +1,61 @@
+{
+  "id": 12429109,
+  "name": "Shahin v. E. I. du Pont de Nemours & Co.",
+  "name_abbreviation": "Shahin v. E. I. du Pont de Nemours & Co.",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-7106",
+  "first_page": "1120",
+  "last_page": "1120",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1120"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 43,
+    "char_count": 284,
+    "ocr_confidence": 0.595,
+    "sha256": "404279da31980bb24cfec53ee507ab630adb8b480d61ea3f8106de51338b04df",
+    "simhash": "1:ec9735cae7e4ffe6",
+    "word_count": 50
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Alito took no part in the consideration or decision of this motion and this petition."
+    ],
+    "parties": [
+      "Shahin v. E. I. du Pont de Nemours & Co."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Motion of petitioner for leave to proceed in forma pauperis denied, and certiorari dismissed. See this Court\u2019s Rule 39.8.\nJustice Alito took no part in the consideration or decision of this motion and this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7106.\nShahin v. E. I. du Pont de Nemours & Co."
+  },
+  "file_name": "1120-01",
+  "first_page_order": 1196,
+  "last_page_order": 1196
+}

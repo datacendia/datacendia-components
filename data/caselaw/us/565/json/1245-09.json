@@ -1,0 +1,59 @@
+{
+  "id": 12250128,
+  "name": "Thomas v. Tennessee",
+  "name_abbreviation": "Thomas v. Tennessee",
+  "decision_date": "2012-03-05",
+  "docket_number": "No. 11-648",
+  "first_page": "1245",
+  "last_page": "1245",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1245"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 73,
+    "ocr_confidence": 0.736,
+    "sha256": "2a8c118bc08c9bc1877b746d30ab0f45b2904cdf20c90ce38eccbbe453903d16",
+    "simhash": "1:0063d4b462c288c8",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Thomas v. Tennessee."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tenn. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-648.\nThomas v. Tennessee."
+  },
+  "file_name": "1245-09",
+  "first_page_order": 1327,
+  "last_page_order": 1327
+}

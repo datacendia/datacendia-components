@@ -1,0 +1,59 @@
+{
+  "id": 5925539,
+  "name": "Andrews v. Virginia",
+  "name_abbreviation": "Andrews v. Virginia",
+  "decision_date": "2011-06-13",
+  "docket_number": "No. 10-9981",
+  "first_page": "1008",
+  "last_page": "1008",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1008"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 66,
+    "ocr_confidence": 0.597,
+    "sha256": "15f6975837a5b3020fe21da91f9c1bae3443b6bf962d61a6bdf4b2fad8e99824",
+    "simhash": "1:42abc0c226dcae6a",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Andrews v. Virginia."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Va. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9981.\nAndrews v. Virginia."
+  },
+  "file_name": "1008-03",
+  "first_page_order": 1002,
+  "last_page_order": 1002
+}

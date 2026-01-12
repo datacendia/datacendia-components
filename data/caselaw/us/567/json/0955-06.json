@@ -1,0 +1,98 @@
+{
+  "id": 12412933,
+  "name": "Florida v. Jardines",
+  "name_abbreviation": "Florida v. Jardines",
+  "decision_date": "2012-07-23",
+  "docket_number": "No. 11-564",
+  "first_page": "955",
+  "last_page": "955",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 955"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "565 U. S. 1104",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12238722,
+        12238726,
+        12445449,
+        12445450,
+        12238731,
+        12445451,
+        12445453,
+        12445454,
+        12445455,
+        12445452,
+        12238711,
+        12238716,
+        12238717,
+        12238719
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/565/1104-05",
+        "/us/565/1104-06",
+        "/l-ed-2d/181/0725-04",
+        "/l-ed-2d/181/0725-05",
+        "/us/565/1104-07",
+        "/l-ed-2d/181/0725-06",
+        "/l-ed-2d/181/0726-01",
+        "/l-ed-2d/181/0726-02",
+        "/l-ed-2d/181/0726-03",
+        "/l-ed-2d/181/0725-07",
+        "/us/565/1104-01",
+        "/us/565/1104-02",
+        "/us/565/1104-03",
+        "/us/565/1104-04"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 31,
+    "char_count": 210,
+    "ocr_confidence": 0.679,
+    "sha256": "f3deba230be7c89e62850028b1465b98bcf2345dc5e3c4ca7554c97880360a60",
+    "simhash": "1:32808031c2f7ce37",
+    "word_count": 34
+  },
+  "last_updated": "2024-02-27T23:46:21.325002+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Florida v. Jardines."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. [Certiorari granted, 565 U. S. 1104.] Motion of the Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-564.\nFlorida v. Jardines."
+  },
+  "file_name": "0955-06",
+  "first_page_order": 859,
+  "last_page_order": 859
+}

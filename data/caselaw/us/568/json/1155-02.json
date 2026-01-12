@@ -1,0 +1,59 @@
+{
+  "id": 12430373,
+  "name": "Phillips v. Missouri Department of Corrections et al.",
+  "name_abbreviation": "Phillips v. Missouri Department of Corrections",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12M92",
+  "first_page": "1155",
+  "last_page": "1155",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1155"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 19,
+    "char_count": 114,
+    "ocr_confidence": 0.641,
+    "sha256": "357afb84f516536708f012b2a9fc0579a67944b1a3d32066120aa09e8aa057f6",
+    "simhash": "1:3449d921c4c9a158",
+    "word_count": 19
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Phillips v. Missouri Department of Corrections et al."
+    ],
+    "opinions": [
+      {
+        "text": "Motion for leave to proceed as a veteran denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12M92.\nPhillips v. Missouri Department of Corrections et al."
+  },
+  "file_name": "1155-02",
+  "first_page_order": 1231,
+  "last_page_order": 1231
+}

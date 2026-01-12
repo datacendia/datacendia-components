@@ -1,0 +1,59 @@
+{
+  "id": 12243367,
+  "name": "Ervin v. Alabama",
+  "name_abbreviation": "Ervin v. Alabama",
+  "decision_date": "2012-01-17",
+  "docket_number": "No. 11-7442",
+  "first_page": "1166",
+  "last_page": "1166",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1166"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 70,
+    "ocr_confidence": 0.708,
+    "sha256": "09d3f1cbef98b535aa12ea5e1189a3a40fbea8752f8552c64e16b32a0312980a",
+    "simhash": "1:0572631f53f68dc4",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ervin v. Alabama."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Ala. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7442.\nErvin v. Alabama."
+  },
+  "file_name": "1166-03",
+  "first_page_order": 1248,
+  "last_page_order": 1248
+}

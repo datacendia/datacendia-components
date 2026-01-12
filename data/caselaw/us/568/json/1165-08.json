@@ -1,0 +1,59 @@
+{
+  "id": 12430763,
+  "name": "Johnson v. California",
+  "name_abbreviation": "Johnson v. California",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-7432",
+  "first_page": "1165",
+  "last_page": "1165",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1165"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 70,
+    "ocr_confidence": 0.611,
+    "sha256": "9b1e4a4e602eb80fa60257e0a07c9b11a61c7a78cfe3a34293fe6b162dd6e0a2",
+    "simhash": "1:0c0b1d52886351fa",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Johnson v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7432.\nJohnson v. California."
+  },
+  "file_name": "1165-08",
+  "first_page_order": 1241,
+  "last_page_order": 1241
+}

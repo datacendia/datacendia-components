@@ -1,0 +1,59 @@
+{
+  "id": 6004445,
+  "name": "In re Disbarment of Stein",
+  "name_abbreviation": "In re Disbarment of Stein",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. D-2497",
+  "first_page": "1212",
+  "last_page": "1212",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1212"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 105,
+    "ocr_confidence": 0.605,
+    "sha256": "4acb32c461422f89156c30c19119a87e819d7d2e3327499d8aa5426e419f5616",
+    "simhash": "1:38b8da66c946b263",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Stein."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see ante, p. 808.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2497.\nIn re Disbarment of Stein."
+  },
+  "file_name": "1212-06",
+  "first_page_order": 1234,
+  "last_page_order": 1234
+}

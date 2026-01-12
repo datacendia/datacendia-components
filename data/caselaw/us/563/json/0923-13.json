@@ -1,0 +1,59 @@
+{
+  "id": 5908914,
+  "name": "Baker v. Hardy, Warden",
+  "name_abbreviation": "Baker v. Hardy",
+  "decision_date": "2011-04-04",
+  "docket_number": "No. 10-9088",
+  "first_page": "923",
+  "last_page": "923",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 923"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.477,
+    "sha256": "0397732d63f3b11a824aaac53c2fc4483923f0043f1d13be900b918f2ad460b1",
+    "simhash": "1:aa67448a4f5fc8a6",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Baker v. Hardy, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9088.\nBaker v. Hardy, Warden."
+  },
+  "file_name": "0923-13",
+  "first_page_order": 949,
+  "last_page_order": 949
+}

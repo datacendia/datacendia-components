@@ -1,0 +1,59 @@
+{
+  "id": 12199098,
+  "name": "Duff et ux. v. Lewis",
+  "name_abbreviation": "Duff v. Lewis",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-1547",
+  "first_page": "827",
+  "last_page": "827",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 827"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 70,
+    "ocr_confidence": 0.729,
+    "sha256": "d3a996cb6ceb9375321ce4abeed6063351cc5eccbf03288a9b61fb4396531cbf",
+    "simhash": "1:5c9705c319acd15d",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Duff et ux. v. Lewis."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1547.\nDuff et ux. v. Lewis."
+  },
+  "file_name": "0827-08",
+  "first_page_order": 909,
+  "last_page_order": 909
+}

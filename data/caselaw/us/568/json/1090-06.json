@@ -1,0 +1,59 @@
+{
+  "id": 12427994,
+  "name": "Carter v. Thompson, Warden",
+  "name_abbreviation": "Carter v. Thompson",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-599",
+  "first_page": "1090",
+  "last_page": "1090",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1090"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.553,
+    "sha256": "de4c66457f7a973c392b1b0285a0aa61b210da2f9e33e35e75df932f076bbddd",
+    "simhash": "1:524717bbef6d06a1",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Carter v. Thompson, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-599.\nCarter v. Thompson, Warden."
+  },
+  "file_name": "1090-06",
+  "first_page_order": 1166,
+  "last_page_order": 1166
+}

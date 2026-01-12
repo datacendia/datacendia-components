@@ -1,0 +1,59 @@
+{
+  "id": 5936169,
+  "name": "Barraza v. United States",
+  "name_abbreviation": "Barraza v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-9187",
+  "first_page": "842",
+  "last_page": "842",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 842"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.574,
+    "sha256": "d9b2ffb2127935e34eae54656d1d741eb916dea38af76b99937a37a78307efc5",
+    "simhash": "1:a51ae3b32f353463",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Barraza v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-9187.\nBarraza v. United States."
+  },
+  "file_name": "0842-01",
+  "first_page_order": 864,
+  "last_page_order": 864
+}

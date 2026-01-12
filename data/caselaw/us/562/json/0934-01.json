@@ -1,0 +1,59 @@
+{
+  "id": 5942186,
+  "name": "Adams v. Vazquez et al.",
+  "name_abbreviation": "Adams v. Vazquez",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5663",
+  "first_page": "934",
+  "last_page": "934",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 934"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 71,
+    "ocr_confidence": 0.617,
+    "sha256": "0e840ef28ccce836ceb6b6f47d79d75e5fa40a6205194077e6c515f482b1dd1f",
+    "simhash": "1:d091748069cea0f7",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Adams v. Vazquez et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5663.\nAdams v. Vazquez et al."
+  },
+  "file_name": "0934-01",
+  "first_page_order": 956,
+  "last_page_order": 956
+}

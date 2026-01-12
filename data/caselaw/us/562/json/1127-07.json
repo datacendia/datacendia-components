@@ -1,0 +1,59 @@
+{
+  "id": 5904817,
+  "name": "Lafler v. Cooper",
+  "name_abbreviation": "Lafler v. Cooper",
+  "decision_date": "2011-01-07",
+  "docket_number": "No. 10-209",
+  "first_page": "1127",
+  "last_page": "1127",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1127"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 57,
+    "char_count": 470,
+    "ocr_confidence": 0.598,
+    "sha256": "dcd3ac557b00014be8158ca9712ccd473f0fb2b51e9da9d7cb93f3c641942cd6",
+    "simhash": "1:29c025044daf2d8c",
+    "word_count": 70
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lafler v. Cooper."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Motion of respondent for leave to proceed informa pauperis granted. Certiorari granted. In addition to the question presented by the petition, the parties are directed to brief and argue the following question: \u201cWhat remedy, if any, should be provided for ineffective assistance of counsel during plea bargain negotiations if the defendant was later convicted and sentenced pursuant to constitutionally adequate procedures?\u201d",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-209.\nLafler v. Cooper."
+  },
+  "file_name": "1127-07",
+  "first_page_order": 1149,
+  "last_page_order": 1149
+}

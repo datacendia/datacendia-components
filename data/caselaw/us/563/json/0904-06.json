@@ -1,0 +1,59 @@
+{
+  "id": 4223315,
+  "name": "Edgell et al. v. McKenna",
+  "name_abbreviation": "Edgell v. McKenna",
+  "decision_date": "2011-03-28",
+  "docket_number": "No. 10-956",
+  "first_page": "904",
+  "last_page": "904",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 904"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 72,
+    "ocr_confidence": 0.646,
+    "sha256": "0421f490082152676cdb458c3c23e32ef98785feb0cda9bc0bc6426413ba8a1c",
+    "simhash": "1:878822054a291820",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Edgell et al. v. McKenna."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-956.\nEdgell et al. v. McKenna."
+  },
+  "file_name": "0904-06",
+  "first_page_order": 930,
+  "last_page_order": 930
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12414249,
+  "name": "Johnson v. Sisto, Warden, et al.",
+  "name_abbreviation": "Johnson v. Sisto",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10809",
+  "first_page": "863",
+  "last_page": "863",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 863"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 81,
+    "ocr_confidence": 0.67,
+    "sha256": "ced489a48cf3e4b28ced28abbfa85c41f4a2560e2f7005514ec8fe1469a6aa16",
+    "simhash": "1:50d9222059ce8472",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Johnson v. Sisto, Warden, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10809.\nJohnson v. Sisto, Warden, et al."
+  },
+  "file_name": "0863-11",
+  "first_page_order": 939,
+  "last_page_order": 939
+}

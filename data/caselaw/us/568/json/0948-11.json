@@ -1,0 +1,59 @@
+{
+  "id": 12418320,
+  "name": "Scott v. Iowa et al.",
+  "name_abbreviation": "Scott v. Iowa",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-5642",
+  "first_page": "948",
+  "last_page": "948",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 948"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 69,
+    "ocr_confidence": 0.582,
+    "sha256": "d8f4258b2796ce88d8da5788e91725d214fb3b7470f45e7a01706e261045cad6",
+    "simhash": "1:f08c04e219a9b63a",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Scott v. Iowa et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5642.\nScott v. Iowa et al."
+  },
+  "file_name": "0948-11",
+  "first_page_order": 1024,
+  "last_page_order": 1024
+}

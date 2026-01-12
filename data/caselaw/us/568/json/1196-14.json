@@ -1,0 +1,59 @@
+{
+  "id": 12432015,
+  "name": "Amos v. United States",
+  "name_abbreviation": "Amos v. United States",
+  "decision_date": "2013-02-25",
+  "docket_number": "No. 12-7473",
+  "first_page": "1196",
+  "last_page": "1196",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1196"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.619,
+    "sha256": "2d1589880d79e6ff5906485db217df28de1ee8326320077b0351423123f0c161",
+    "simhash": "1:a78a930ace141808",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Amos v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7473.\nAmos v. United States."
+  },
+  "file_name": "1196-14",
+  "first_page_order": 1272,
+  "last_page_order": 1272
+}

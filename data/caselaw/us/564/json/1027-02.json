@@ -1,0 +1,59 @@
+{
+  "id": 4333268,
+  "name": "Martinez v. United States",
+  "name_abbreviation": "Martinez v. United States",
+  "decision_date": "2011-06-20",
+  "docket_number": "No. 10-10530",
+  "first_page": "1027",
+  "last_page": "1027",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1027"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.532,
+    "sha256": "374ac8da9a2affcdb0514646112cda30d37088a284b6907e89b3673a62b7e346",
+    "simhash": "1:97aad38209ea9c7a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Martinez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10530.\nMartinez v. United States."
+  },
+  "file_name": "1027-02",
+  "first_page_order": 1021,
+  "last_page_order": 1021
+}

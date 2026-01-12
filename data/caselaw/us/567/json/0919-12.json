@@ -1,0 +1,59 @@
+{
+  "id": 12409853,
+  "name": "Roberts v. Florida et al.",
+  "name_abbreviation": "Roberts v. Florida",
+  "decision_date": "2012-06-18",
+  "docket_number": "No. 11-9806",
+  "first_page": "919",
+  "last_page": "919",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 919"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 74,
+    "ocr_confidence": 0.658,
+    "sha256": "919f190273142fa5e249d37d3f7f339f98ce1091c5716d2859681aab452b5a0e",
+    "simhash": "1:3b4808a05108946a",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Roberts v. Florida et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9806.\nRoberts v. Florida et al."
+  },
+  "file_name": "0919-12",
+  "first_page_order": 823,
+  "last_page_order": 823
+}

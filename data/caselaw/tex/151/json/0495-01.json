@@ -1,0 +1,66 @@
+{
+  "id": 2244753,
+  "name": "State of Texas et al v. Honorable W. L. Jack Thornton, District Judge",
+  "name_abbreviation": "State v. Thornton",
+  "decision_date": "1952-11-05",
+  "docket_number": "No. A-3872",
+  "first_page": "495",
+  "last_page": "495",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "151 Tex. 495"
+    },
+    {
+      "type": "parallel",
+      "cite": "252 S.W.2d 933"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 94,
+    "char_count": 792,
+    "ocr_confidence": 0.553,
+    "sha256": "e487a805c3323ce3ec7e75bf2d22f06f513d703b18996f425459dcf49bcced15",
+    "simhash": "1:a824289d49b25d34",
+    "word_count": 131
+  },
+  "last_updated": "2023-07-14T16:10:25.549450+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "State of Texas et al v. Honorable W. L. Jack Thornton, District Judge."
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM:\nFrom the record before us we cannot assume that the Judge of the 44th Judicial District will grant the relief sought by the plaintiff in cause No. 71,175-B when hearing therein is held on November 7, 1952; accordingly, the motion for leave to file petition for writs of mandamus and prohibition is overruled without prejudice to the right of relators to again file such motion if the relief sought in such cause should be granted or if hearing therein be further postponed.",
+        "type": "majority",
+        "author": "PER CURIAM:"
+      }
+    ],
+    "attorneys": [
+      "Price Daniel, Attorney General, and Milton Richardson, Clyde B. Kennelly and John Davenport, Assistants Attorney General, for petitioners.",
+      "Respondents filed no answer."
+    ],
+    "corrections": "",
+    "head_matter": "State of Texas et al v. Honorable W. L. Jack Thornton, District Judge.\nNo. A-3872.\nDecided November 5, 1952.\n(252 S. W., 2d Series, 933.)\nPrice Daniel, Attorney General, and Milton Richardson, Clyde B. Kennelly and John Davenport, Assistants Attorney General, for petitioners.\nRespondents filed no answer."
+  },
+  "file_name": "0495-01",
+  "first_page_order": 511,
+  "last_page_order": 511
+}

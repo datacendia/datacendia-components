@@ -1,0 +1,59 @@
+{
+  "id": 12421146,
+  "name": "Lemaster v. United States",
+  "name_abbreviation": "Lemaster v. United States",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-6354",
+  "first_page": "990",
+  "last_page": "990",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 990"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.655,
+    "sha256": "798464cfc2db0eddba9b2b192ea64d743e25989c561c0a0ba2075c62ac052a1e",
+    "simhash": "1:858ada59ce85905d",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lemaster v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6354.\nLemaster v. United States."
+  },
+  "file_name": "0990-11",
+  "first_page_order": 1066,
+  "last_page_order": 1066
+}

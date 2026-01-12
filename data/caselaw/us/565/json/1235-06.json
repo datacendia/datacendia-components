@@ -1,0 +1,59 @@
+{
+  "id": 12249292,
+  "name": "Sizemore v. Plain Dealer et al.",
+  "name_abbreviation": "Sizemore v. Plain Dealer",
+  "decision_date": "2012-02-27",
+  "docket_number": "No. 11-801",
+  "first_page": "1235",
+  "last_page": "1235",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1235"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 95,
+    "ocr_confidence": 0.634,
+    "sha256": "210df62bad84d6438cd8e7deb54e163ed2a125991d55b6214c835441adb85dc2",
+    "simhash": "1:5893ae445f640a94",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sizemore v. Plain Dealer et al."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ohio, Cuyahoga County. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-801.\nSizemore v. Plain Dealer et al."
+  },
+  "file_name": "1235-06",
+  "first_page_order": 1317,
+  "last_page_order": 1317
+}

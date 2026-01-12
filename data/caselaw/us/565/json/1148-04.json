@@ -1,0 +1,61 @@
+{
+  "id": 12242131,
+  "name": "Brown v. United States",
+  "name_abbreviation": "Brown v. United States",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-6385",
+  "first_page": "1148",
+  "last_page": "1148",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1148"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 150,
+    "ocr_confidence": 0.657,
+    "sha256": "28f819b4ea6df117afd8c7809caccfbe8fd8c0b6d98e29f27c2dfc8a32bbc2ce",
+    "simhash": "1:89c3fa0244a6fb58",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Brown v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Cer-tiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6385.\nBrown v. United States."
+  },
+  "file_name": "1148-04",
+  "first_page_order": 1230,
+  "last_page_order": 1230
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5911284,
+  "name": "Wojcikiewicz v. United States",
+  "name_abbreviation": "Wojcikiewicz v. United States",
+  "decision_date": "2011-03-28",
+  "docket_number": "No. 10-9179",
+  "first_page": "912",
+  "last_page": "912",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 912"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.666,
+    "sha256": "9443735c079d786c3a2109f4daf24e1b3ee915e18cc60864230657a96b00700a",
+    "simhash": "1:966acb2382cb9058",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wojcikiewicz v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9179.\nWojcikiewicz v. United States."
+  },
+  "file_name": "0912-05",
+  "first_page_order": 938,
+  "last_page_order": 938
+}

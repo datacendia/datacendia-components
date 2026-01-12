@@ -1,0 +1,59 @@
+{
+  "id": 12223828,
+  "name": "Marino v. United States",
+  "name_abbreviation": "Marino v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5729",
+  "first_page": "920",
+  "last_page": "920",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 920"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.626,
+    "sha256": "68a5053dca05b750973ad076e0895bc977fd16e22ddb33fd856e04291277cb40",
+    "simhash": "1:062bca03a79f101a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Marino v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5729.\nMarino v. United States."
+  },
+  "file_name": "0920-08",
+  "first_page_order": 1002,
+  "last_page_order": 1002
+}

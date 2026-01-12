@@ -1,0 +1,59 @@
+{
+  "id": 12413946,
+  "name": "Bridgmon v. Ohio",
+  "name_abbreviation": "Bridgmon v. Ohio",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10732",
+  "first_page": "859",
+  "last_page": "859",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 859"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 80,
+    "ocr_confidence": 0.667,
+    "sha256": "174b42f0f97d216cebe993a6281416cca034b5ca90418f3ea63ba5e7dc472a68",
+    "simhash": "1:2e19afdb8fc8cff9",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bridgmon v. Ohio."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ohio, Allen County. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10732.\nBridgmon v. Ohio."
+  },
+  "file_name": "0859-02",
+  "first_page_order": 935,
+  "last_page_order": 935
+}

@@ -1,0 +1,68 @@
+{
+  "id": 12706722,
+  "name": "Freeman GREEN, petitioner, v. Sam THARP.",
+  "name_abbreviation": "Green v. Tharp",
+  "decision_date": "2014-05-27",
+  "docket_number": "No. 13\u20139334.",
+  "first_page": "1140",
+  "last_page": "1140",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "572 U.S. 1140"
+    },
+    {
+      "type": "parallel",
+      "cite": "189 L. Ed. 2d 219"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 2673"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 26,
+    "char_count": 204,
+    "sha256": "725a642ebb96aef4198b12a5040cdd7231239d4db61f758dce97476a492bcd38",
+    "simhash": "1:65ed50463ba402e7",
+    "word_count": 34
+  },
+  "last_updated": "2021-08-27T20:44:00.426858+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Freeman GREEN, petitioner,\nv.\nSam THARP."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of certiorari to the United States Court of Appeals for the Sixth Circuit denied."
+    ],
+    "corrections": "",
+    "head_matter": "Freeman GREEN, petitioner,\nv.\nSam THARP.\nNo. 13-9334.\nSupreme Court of the United States\nMay 27, 2014.\nPetition for writ of certiorari to the United States Court of Appeals for the Sixth Circuit denied."
+  },
+  "file_name": "1140-13",
+  "first_page_order": 1140,
+  "last_page_order": 1140
+}

@@ -1,0 +1,177 @@
+{
+  "id": 12520208,
+  "name": "Douglas HOLLOWAY, Plaintiff-Appellant, v. SOO LINE RAILROAD COMPANY, d/b/a Canadian Pacific, Defendant-Appellee.",
+  "name_abbreviation": "Holloway v. Soo Line R.R. Co.",
+  "decision_date": "2019-02-20",
+  "docket_number": "No. 18-2431",
+  "first_page": "641",
+  "last_page": "645",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "916 F.3d 641"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "7th Cir.",
+    "id": 9010,
+    "name": "United States Court of Appeals for the Seventh Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "840 F.3d 873",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12174899
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "877-78",
+          "parenthetical": "rejecting the district court's conclusion that the plaintiff's injury report was a contributing factor to the adverse action simply because it \"initiated the events that led to his discipline\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/840/0873-01"
+      ]
+    },
+    {
+      "cite": "708 F.3d 152",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3542188
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "156-57",
+          "parenthetical": "applying the same statutory standards"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/708/0152-01"
+      ]
+    },
+    {
+      "cite": "29 C.F.R. \u00a7 1982.104",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "pin_cites": [
+        {
+          "page": "(e)(2)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "880 F.3d 377",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12264380
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "381",
+          "parenthetical": "citing 49 U.S.C. \u00a7 20109(d)(2)(A) and 29 C.F.R. \u00a7 1982.104(e)(2) "
+        },
+        {
+          "page": "382",
+          "parenthetical": "explaining that the phrase \"contributing factor\" is a standard of causation that does not eliminate the requirement for a plaintiff to present evidence of an improper motive"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/880/0377-01"
+      ]
+    },
+    {
+      "cite": "49 U.S.C. \u00a7 20109",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(a)(4)"
+        },
+        {
+          "page": "(d)(2)(A)"
+        },
+        {
+          "page": "(a)(4)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "803 F.3d 285",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4347119
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "287"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/803/0285-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 565,
+    "char_count": 9384,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25920043987120484
+    },
+    "sha256": "0b4e061390175201d8f0405968e00979963d86ff4c9a383bff1b907818fdf334",
+    "simhash": "1:1b865b37de2fe3ca",
+    "word_count": 1465
+  },
+  "last_updated": "2024-02-27T16:21:04.146489+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Flaum, Barrett, and Scudder, Circuit Judges."
+    ],
+    "parties": [
+      "Douglas HOLLOWAY, Plaintiff-Appellant,\nv.\nSOO LINE RAILROAD COMPANY, d/b/a Canadian Pacific, Defendant-Appellee."
+    ],
+    "opinions": [
+      {
+        "text": "Scudder, Circuit Judge.\nDouglas Holloway's year-and-a-half long employment with Canadian Pacific ended after he received multiple suspensions for violating safety standards and other work rules. The final chapter came when Holloway sustained an injury in a vehicle collision while not wearing a seatbelt. When combined with Holloway's prior record of infractions, this new safety-standard violation was enough for the company to terminate Holloway. In his ensuing lawsuit, Holloway alleged he was fired not for violating Canadian Pacific's rules, but instead for reporting a workplace injury. We agree with the district court that the record evidence does not support his contention and therefore affirm.\nI\nCanadian Pacific hired Douglas Holloway as a conductor in July 2014. In short order he found himself the subject of several disciplinary actions. In November 2014, for example, Canadian Pacific advised Holloway that his attendance record was lacking and that he needed to be available to work when the company needed him. By way of another example, Holloway received a 10-day suspension in May 2015 for not providing his engineer with important safety information while working on a railcar. In time a pattern emerged, as Holloway received suspensions for violating Canadian Pacific's safety and work rules again in August 2015 and September 2015.\nThe final straw came on October 18, 2015. It was then that Holloway and another employee, J.S., were doing a \"switch job\"-railroad lingo for moving railcars as part of building a train. The work required J.S. and Holloway to use an all-purpose vehicle to move around Canadian Pacific's Bensenville Yard. J.S. drove while Holloway rode in the passenger seat, but neither fastened a seatbelt. Holloway also never inspected the vehicle for safety defects, later saying he assumed J.S. had done so. A subsequent inspection revealed that the vehicle needed repairs-for example, zip ties were being used to hold a makeshift windshield covered with dirt and scratches to the vehicle's frame.\nAt one point during the assembly work, J.S. crashed the vehicle into a pole. Both J.S. and Holloway sustained injuries that required medical care at a hospital. The particular treatment Holloway received triggered an obligation under the Federal Railway Act for Canadian Pacific to report his injury to the Federal Railroad Administration. J.S.'s injury was minor and did not require such reporting.\nAfter the accident, Canadian Pacific notified J.S. and Holloway that a formal investigation and hearing would follow. In the months leading to the hearing, however, J.S. was furloughed and therefore did not attend. Holloway attended the hearing along with a representative from the United Transportation Union. The hearing officer determined that Holloway had violated Canadian Pacific's seatbelt requirement and a separate rule requiring him to inspect for and report safety defects with the company's vehicles. The hearing officer's final report canvassed Holloway's lengthy discipline history and led to a recommendation of termination. Canadian Pacific accepted the recommendation and fired Holloway in December 2015. At no point did the company discipline J.S. for her role in the accident.\nHolloway unsuccessfully appealed his dismissal through the procedures in the collective bargaining agreement between his union and Canadian Pacific. After receiving permission to sue from the Equal Employment Opportunity Commission, he brought several claims against Canadian Pacific in district court.\nThe district court denied Holloway relief on each of his claims. Now on appeal, he challenges only the district court's award of summary judgment to Canadian Pacific on his claim for unlawful retaliation in violation of the Federal Railway Safety Act.\nII\nWe review the district court's grant of summary judgment in favor of Canadian Pacific de novo . See Rahn v. Board of Trustees of N. Ill. Univ. , 803 F.3d 285, 287 (7th Cir. 2015).\nThe Federal Railway Safety Act prohibits a railroad from discharging or otherwise discriminating against an employee \"if such discrimination is due, in whole or in part, to the employee's lawful, good faith act done ... to notify, or attempt to notify, the railroad carrier or the Secretary of Transportation of a work-related personal injury or work-related illness of an employee.\" 49 U.S.C. \u00a7 20109(a)(4). To prevail on such a claim, Holloway needed to show, among other things, that his reporting of his workplace injury from the October 2015 incident contributed to Canadian Pacific's decision to fire him. See Armstrong v. BNSF Ry. Co. , 880 F.3d 377, 381 (7th Cir. 2018) (citing 49 U.S.C. \u00a7 20109(d)(2)(A) and 29 C.F.R. \u00a7 1982.104(e)(2) ); see also Araujo v. New Jersey Transit Rail Operations, Inc. , 708 F.3d 152, 156-57 (3d Cir. 2013) (applying the same statutory standards).\nHolloway argues, as he did in the district court, that \"[i]t is obvious that the protected activity was a contributing factor in the adverse action.\" He sees the point as obvious because he was fired only after he came forward and reported his workplace injury. Holloway also contends that Canadian Pacific's decision not to fire J.S. for her involvement in the accident supports his allegation of retaliation. These contentions fall short on the law and the facts.\nOur caselaw is clear that a plaintiff alleging retaliation in violation of \u00a7 20109(a)(4) cannot point only to the sequence of events-an injury report followed by a later dismissal-to show that the complaint was a contributing factor in the adverse employment action. See Koziara v. BNSF Ry. Co. , 840 F.3d 873, 877-78 (7th Cir. 2016) (rejecting the district court's conclusion that the plaintiff's injury report was a contributing factor to the adverse action simply because it \"initiated the events that led to his discipline\"); see also Armstrong , 880 F.3d at 382 (explaining that the phrase \"contributing factor\" is a standard of causation that does not eliminate the requirement for a plaintiff to present evidence of an improper motive).\nSomething more than the mere sequence of events is required, and Holloway has failed to provide that something more. At summary judgment he came forward with no evidence, direct or circumstantial, that his termination reflected Canadian Pacific's retaliation for reporting his injury. He pointed to nothing showing that anyone within the company faulted or was frustrated with him for reporting the October 2015 accident. Nor did he identify any evidence suggesting animus toward him-for example, that his supervisor had been looking for a reason to fire him and used his report of the accident as the reason to let him go.\nThe record evidence is altogether different. What it shows is that, in fewer than two years with Canadian Pacific, Holloway repeatedly violated the company's work and safety rules and was eventually fired for accumulating so many violations. That he happened during the same time period to be involved in a workplace accident and to have reported an injury does not-without more-create an inference that reporting his injury contributed to Canadian Pacific's decision to terminate him.\nHolloway is right to observe that J.S. was not disciplined for the October 2015 accident. But the observation does not go very far, as J.S.'s disciplinary history paled in comparison to Holloway's record. J.S. had received a reprimand and counseling on one prior occasion but otherwise had a clean record with Canadian Pacific. Nothing in the Federal Railway Safety Act precluded the company from taking stock of Holloway's employment history, beset as it was with disciplinary problems, and proceeding to dismiss him.\nHolloway's comparison of his circumstances to those of J.S. misfires on another front. He altogether overlooks that he and J.S. engaged in the same protected activity-reporting an injury to Canadian Pacific. See 49 U.S.C. \u00a7 20109(a)(4). But even though J.S. engaged in the same protected activity, she was not disciplined. So Holloway's comparison of the treatment he and J.S. received from Canadian Pacific only reinforces that the company did not retaliate against him for his engaging in protected activity, but rather fired him because of his long record of disciplinary problems.\nWe owe a final word to Holloway's assertion that the district court impermissibly weighed evidence and made credibility determinations when granting summary judgment to Canadian Pacific. We have reviewed the record and find no support for this contention. The district court provided a thorough and detailed recounting of the evidence brought forth by both parties and in no way strayed from the standards governing summary judgment.\nFor these reasons, we AFFIRM.",
+        "type": "majority",
+        "author": "Scudder, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "John S. Bishof, Jr., Attorney, LAW OFFICE OF JOHN S. BISHOF, P.C., Chicago, IL, for Plaintiff-Appellant.",
+      "Andrew J. Cunniff, Attorney, GALARNYK & ASSOCIATES, Chicago, IL, Tracey Holmes Donesky, Nicole L. Faulkner, Attorneys, STINSON LEONARD STREET LLP, Minneapolis, MN, John David Galarnyk, Attorney, GALARNYK & ASSOCIATES, Chicago, IL, for Defendant-Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "Douglas HOLLOWAY, Plaintiff-Appellant,\nv.\nSOO LINE RAILROAD COMPANY, d/b/a Canadian Pacific, Defendant-Appellee.\nNo. 18-2431\nUnited States Court of Appeals, Seventh Circuit.\nArgued February 8, 2019\nDecided February 20, 2019\nJohn S. Bishof, Jr., Attorney, LAW OFFICE OF JOHN S. BISHOF, P.C., Chicago, IL, for Plaintiff-Appellant.\nAndrew J. Cunniff, Attorney, GALARNYK & ASSOCIATES, Chicago, IL, Tracey Holmes Donesky, Nicole L. Faulkner, Attorneys, STINSON LEONARD STREET LLP, Minneapolis, MN, John David Galarnyk, Attorney, GALARNYK & ASSOCIATES, Chicago, IL, for Defendant-Appellee.\nBefore Flaum, Barrett, and Scudder, Circuit Judges."
+  },
+  "file_name": "0641-01",
+  "first_page_order": 641,
+  "last_page_order": 645
+}

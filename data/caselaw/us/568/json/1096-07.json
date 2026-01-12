@@ -1,0 +1,59 @@
+{
+  "id": 12428252,
+  "name": "Bourg v. Louisiana",
+  "name_abbreviation": "Bourg v. Louisiana",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-6758",
+  "first_page": "1096",
+  "last_page": "1096",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1096"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 65,
+    "ocr_confidence": 0.574,
+    "sha256": "84d28f1c9bfb389aae96d3faa152c130dbb51234615b55e42e70cf29b69bc8b0",
+    "simhash": "1:b0656eaf756e9310",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bourg v. Louisiana."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. La. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6758.\nBourg v. Louisiana."
+  },
+  "file_name": "1096-07",
+  "first_page_order": 1172,
+  "last_page_order": 1172
+}

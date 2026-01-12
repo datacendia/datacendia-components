@@ -1,0 +1,59 @@
+{
+  "id": 6006784,
+  "name": "Rea v. California",
+  "name_abbreviation": "Rea v. California",
+  "decision_date": "2011-03-07",
+  "docket_number": "No. 10-8515",
+  "first_page": "1277",
+  "last_page": "1277",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1277"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 80,
+    "ocr_confidence": 0.605,
+    "sha256": "f7482dfb0525210ad5ddbaec62b61b9da927f50a8ea14617a0320246e2db9c73",
+    "simhash": "1:6605138005c36201",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rea v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 2d App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8515.\nRea v. California."
+  },
+  "file_name": "1277-03",
+  "first_page_order": 1299,
+  "last_page_order": 1299
+}

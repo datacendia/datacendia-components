@@ -1,0 +1,762 @@
+{
+  "id": 12521148,
+  "name": "Shudde FATH; Save Barton Creek Association; Friends of the Wildflower Center; Carole Keeton; Frank Cloud Cooksey; Jerry Jeff Walker ; Susan Walker; Doctor Laurie Dries; Save Our Springs Alliance, Incorporated; MoPac Corridor Neighbors Alliance; The Friendship Alliance of Northern Hays County, Incorporated; Clean Water Action, Plaintiffs-Appellants v. TEXAS DEPARTMENT OF TRANSPORTATION; Central Texas Regional Mobility Authority, Defendants-Appellees",
+  "name_abbreviation": "Fath v. Tex. Dep't of Transp.",
+  "decision_date": "2018-07-17",
+  "docket_number": "No. 17-50683",
+  "first_page": "132",
+  "last_page": "140",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "924 F.3d 132"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "5th Cir.",
+    "id": 8820,
+    "name": "United States Court of Appeals for the Fifth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "637 F.2d 430",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1353856
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "440"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/637/0430-01"
+      ]
+    },
+    {
+      "cite": "23 U.S.C. \u00a7 327",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)(2)(A) and (c)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "40 C.F.R. \u00a7 1508.9",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "pin_cites": [
+        {
+          "page": "(a)(1)",
+          "parenthetical": "defining an Environmental Assessment as a \"concise public document\" that \"[b]riefly provide[s] sufficient evidence and analysis\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "919 F.2d 439",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1245041
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "443"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/919/0439-01"
+      ]
+    },
+    {
+      "cite": "460 F.3d 1125",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3673901
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "1140"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/460/1125-01"
+      ]
+    },
+    {
+      "cite": "668 F.3d 1067",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6049141
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1082"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/668/1067-01"
+      ]
+    },
+    {
+      "cite": "762 F.3d 97",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4110968,
+        4178754
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "113",
+          "parenthetical": "concluding that no cumulative impact analysis was needed where \"the [Environmental Assessment] concluded that because the ... Project itself was expected to have minimal impacts, no significant cumulative impacts were expected to flow\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/412/0097-01",
+        "/f3d/762/0097-01"
+      ]
+    },
+    {
+      "cite": "2018 WL 3339539",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "*8-9",
+          "parenthetical": "holding that a full cumulative impact analysis was unnecessary where Environmental Assessments concluded that a project would have no incremental impact and \"hence, there could be no cumulative effects\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "894 F.3d 692",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517519
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "702-04",
+          "parenthetical": "holding that a full cumulative impact analysis was unnecessary where Environmental Assessments concluded that a project would have no incremental impact and \"hence, there could be no cumulative effects\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/894/0692-01"
+      ]
+    },
+    {
+      "cite": "40 C.F.R. \u00a7 1500.1",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "pin_cites": [
+        {
+          "page": "(c)",
+          "parenthetical": "\"NEPA's purpose is not to generate paperwork-even excellent paperwork-but to foster excellent action.\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "230 F.3d 170",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1094356
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "175-76",
+          "parenthetical": "analyzing the sufficiency of a cumulative impacts analysis in a supplemental Environmental Impact Statement under the \"rule of reason\" and arbitrary and capricious standard"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/230/0170-01"
+      ]
+    },
+    {
+      "cite": "541 U.S. 752",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5923753
+      ],
+      "weight": 5,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "767"
+        },
+        {
+          "page": "768"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/541/0752-01"
+      ]
+    },
+    {
+      "cite": "40 C.F.R. \u00a7 1508.7",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "352 F.3d 545",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9297298
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "559-60"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/352/0545-01"
+      ]
+    },
+    {
+      "cite": "762 F.3d 374",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4179396
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "395"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/762/0374-01"
+      ]
+    },
+    {
+      "cite": "37 Fed. Reg. 21,809",
+      "category": "reporters:federal",
+      "reporter": "Fed. Reg.",
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "21,810"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "24 F.3d 1465",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10516044
+      ],
+      "weight": 2,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "1472"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/24/1465-01"
+      ]
+    },
+    {
+      "cite": "425 U.S. 820",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6183218
+      ],
+      "weight": 3,
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "834"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/425/0820-01"
+      ]
+    },
+    {
+      "cite": "550 U.S. 429",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3556149
+      ],
+      "weight": 3,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "433-34",
+          "parenthetical": "quoting in part Brown v. Gen. Servs. Admin. , 425 U.S. 820, 834, 96 S.Ct. 1961, 48 L.Ed.2d 402 (1976) "
+        },
+        {
+          "parenthetical": "quoting in part Brown v. Gen. Servs. Admin. , 425 U.S. 820, 834, 96 S.Ct. 1961, 48 L.Ed.2d 402 (1976) "
+        },
+        {
+          "parenthetical": "quoting in part Brown v. Gen. Servs. Admin. , 425 U.S. 820, 834, 96 S.Ct. 1961, 48 L.Ed.2d 402 (1976) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/550/0429-01"
+      ]
+    },
+    {
+      "cite": "826 F.2d 60",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        4331736,
+        1741295
+      ],
+      "weight": 2,
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "68, 70-71"
+        },
+        {
+          "page": "69-70"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/263/0426-01",
+        "/f2d/826/0060-01"
+      ]
+    },
+    {
+      "cite": "906 F.2d 1477",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1812163
+      ],
+      "year": 1990,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/906/1477-01"
+      ]
+    },
+    {
+      "cite": "87 F.3d 1242",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        551
+      ],
+      "weight": 3,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "1247-48"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/87/1242-01"
+      ]
+    },
+    {
+      "cite": "162 F.3d 1046",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11810137,
+        11809994
+      ],
+      "year": 1998,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/162/1046-02",
+        "/f3d/162/1046-01"
+      ]
+    },
+    {
+      "cite": "349 F.3d 938",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9072596
+      ],
+      "weight": 3,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "962-63"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/349/0938-01"
+      ]
+    },
+    {
+      "cite": "753 F.3d 1304",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5918307,
+        4280527
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1314-15"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/753/1304-01",
+        "/us-app-dc/410/0137-01"
+      ]
+    },
+    {
+      "cite": "40 C.F.R. \u00a7\u00a7 1502.4",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "950 F.2d 1129",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10525892
+      ],
+      "weight": 7,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "1140",
+          "parenthetical": "per curiam"
+        },
+        {
+          "page": "1141-42",
+          "parenthetical": "concluding that challenged highway segments \"fully comport[ed] with both case law and FHWA's regulations\" and \"satisfie[d] the FHWA's standards\" without discussing the CEQ regulations"
+        },
+        {
+          "page": "1141",
+          "parenthetical": "\"[B]oth the segment of the Austin Outer Loop as well as MoPac South fully comport with both case law and FHWA's regulations requiring that segments have independent utility, connect with logical termini , and do not foreclose the opportunity to consider alternatives.\" (emphasis added) "
+        },
+        {
+          "page": "1142",
+          "parenthetical": "concluding that a highway segment \"satisfie[d] the FHWA's standards for proper segmentation\" as to independent utility because it increased the utility of a roadway network; provided improved access to business, residential, and recreational features; and would relieve traffic"
+        },
+        {
+          "page": "1141"
+        },
+        {
+          "page": "1140"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/950/1129-01"
+      ]
+    },
+    {
+      "cite": "23 C.F.R. \u00a7 771.101",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 U.S.C. \u00a7\u00a7 4342",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 U.S.C. \u00a7 4332",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(2)(C)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "719 F.2d 1272",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1899128
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "1282"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/719/1272-01"
+      ]
+    },
+    {
+      "cite": "427 U.S. 390",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6178084
+      ],
+      "weight": 3,
+      "year": 1976,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/427/0390-01"
+      ]
+    },
+    {
+      "cite": "490 U.S. 332",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        605709
+      ],
+      "weight": 3,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "349-50",
+          "parenthetical": "quoting Kleppe v. Sierra Club , 427 U.S. 390, 410 n.21, 96 S.Ct. 2718, 49 L.Ed.2d 576 (1976) "
+        },
+        {
+          "parenthetical": "quoting Kleppe v. Sierra Club , 427 U.S. 390, 410 n.21, 96 S.Ct. 2718, 49 L.Ed.2d 576 (1976) "
+        },
+        {
+          "parenthetical": "quoting Kleppe v. Sierra Club , 427 U.S. 390, 410 n.21, 96 S.Ct. 2718, 49 L.Ed.2d 576 (1976) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/490/0332-01"
+      ]
+    },
+    {
+      "cite": "23 C.F.R. \u00a7 771.111",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(f)"
+        },
+        {
+          "page": "(f)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "40 C.F.R. \u00a7 1508.25",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)(2)"
+        },
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "463 U.S. 29",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6190630
+      ],
+      "weight": 5,
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "43"
+        },
+        {
+          "page": "43"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/463/0029-01"
+      ]
+    },
+    {
+      "cite": "5 U.S.C. \u00a7 706",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "903 F.2d 1533",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10541469
+      ],
+      "weight": 3,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "1539"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/903/1533-01"
+      ]
+    },
+    {
+      "cite": "951 F.2d 669",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10522296
+      ],
+      "weight": 4,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "678-79"
+        },
+        {
+          "page": "678"
+        },
+        {
+          "page": "677"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/951/0669-01"
+      ]
+    },
+    {
+      "cite": "772 F.2d 1225",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        306735
+      ],
+      "weight": 5,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "1240"
+        },
+        {
+          "page": "1234, 1247"
+        },
+        {
+          "page": "1246-47"
+        },
+        {
+          "page": "1242-43"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/772/1225-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1075,
+    "char_count": 20630,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2593100987740984
+    },
+    "sha256": "fa4f45d90856b1a2ca04f4c4d7dfcff5362b30b2763f60ae168ced6ff26b2c7c",
+    "simhash": "1:bd2b27334d1cc698",
+    "word_count": 3224
+  },
+  "last_updated": "2024-02-27T18:46:58.656971+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before JOLLY, JONES, and HAYNES, Circuit Judges."
+    ],
+    "parties": [
+      "Shudde FATH; Save Barton Creek Association; Friends of the Wildflower Center; Carole Keeton; Frank Cloud Cooksey; Jerry Jeff Walker ; Susan Walker; Doctor Laurie Dries; Save Our Springs Alliance, Incorporated; MoPac Corridor Neighbors Alliance; The Friendship Alliance of Northern Hays County, Incorporated; Clean Water Action, Plaintiffs-Appellants\nv.\nTEXAS DEPARTMENT OF TRANSPORTATION; Central Texas Regional Mobility Authority, Defendants-Appellees"
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM:\nPlaintiffs challenge Texas's plans for three highway projects in Austin. They argue Texas violated the National Environmental Policy Act (\"NEPA\") by treating the projects as separate projects in studying their environmental impact, instead of as a single project, and also by not studying \"cumulative impact.\" The district court held that Texas complied with NEPA. For the reasons set forth below, we AFFIRM.\nI. Factual and Procedural Background\nTexas has proposed several new highways to alleviate horrific traffic in Austin. It wants to build overpasses where Texas State Highway Loop 1 (colloquially known as \"MoPac\") intersects with two existing streets, so that MoPac would pass under those streets. It is also in the midst of extending State Highway 45 West by about four miles, with a tolled freeway that will run from MoPac's southern tip and down into bordering Hays County. Finally, it has plans to add express lanes on eight miles of MoPac.\nFor the overpass project, the Texas Department of Transportation (\"TxDot\") conducted an initial NEPA review, known as an Environmental Assessment. Based on studies prepared between 2014 and 2015, TxDot concluded that the overpass project would not cause any significant environmental effects and so no further study was needed under NEPA. Separately, TxDot, along with the Central Texas Regional Mobility Authority, studied the Highway 45 project pursuant to state environmental law; the agencies did not study it under NEPA because the state is not receiving federal aid for the project, so they concluded NEPA did not apply. The agencies are still in the initial phase of reviewing the envisioned express lanes on MoPac.\nPlaintiffs, including environmental groups and local residents, filed this suit under NEPA and the Administrative Procedure Act, challenging the highway studies. They raise concerns about the potential combined impact of the highways on the Edwards Aquifer and endangered or protected species, including the golden-cheeked warbler and the Barton Springs and Austin blind salamanders. The district court denied Plaintiffs' motion for a preliminary injunction, and this court affirmed on the sole issue presented, which was whether the district court used the right regulatory framework. After a subsequent bench trial, the district court concluded that TxDot complied with NEPA and all applicable regulations. Plaintiffs now appeal.\nII. Standard of Review\nWe review the district court's legal conclusions de novo. Fritiofson v. Alexander , 772 F.2d 1225, 1240 (5th Cir. 1985), abrogated on other grounds by Sabine River Auth. v. U.S. Dep't of Interior , 951 F.2d 669 (5th Cir. 1992). When a district court sits as the initial reviewing court of an administrative agency's decisions, \"we must give great deference to the district court's conclusions\" and \"hesitate to reverse\" if the district court based its judgment on lengthy evidentiary proceedings, factual inferences, and witness credibility determinations. See Sabine River , 951 F.2d at 678-79 (quoting in part N. Buckhead Civic Ass'n v. Skinner , 903 F.2d 1533, 1539 (11th Cir. 1990) ). Otherwise, we review de novo, which entails asking whether an agency's actions were \"arbitrary, capricious, an abuse of discretion, or otherwise not in accordance with law.\" See id. at 679 ; 5 U.S.C. \u00a7 706. Under this highly deferential standard, we have the \"least latitude in finding grounds for reversal.\" Sabine River , 951 F.2d at 678 (quoting N. Buckhead Civic Ass'n , 903 F.2d at 1538 ). The test is ordinarily met only\nif the agency has relied on factors which Congress has not intended it to consider, entirely failed to consider an important aspect of the problem, offered an explanation for its decision that runs counter to the evidence before the agency, or is so implausible that it could not be ascribed to a difference in view or the product of agency expertise.\nMotor Vehicle Mfrs. Ass'n v. State Farm Mut. Auto. Ins. Co. , 463 U.S. 29, 43, 103 S.Ct. 2856, 77 L.Ed.2d 443 (1983).\nIII. Discussion\nA. Separate Environmental Studies\nPlaintiffs first contend that TxDot violated NEPA by studying the three highway projects as separate projects, instead of as a single project, to determine their environmental impacts. The alleged violations consist of (1) studying the projects separately without first considering whether the projects are \"cumulative actions\" under 40 C.F.R. \u00a7 1508.25(a)(2), and (2) improperly segmenting the highway projects under 23 C.F.R. \u00a7 771.111(f).\nNEPA requires federal agencies to take a \"hard look\" at the consequences of their actions in preparing detailed studies for projects that will significantly impact the environment and in deciding how much study is required. See Robertson v. Methow Valley Citizens Council , 490 U.S. 332, 349-50, 109 S.Ct. 1835, 104 L.Ed.2d 351 (1989) (quoting Kleppe v. Sierra Club , 427 U.S. 390, 410 n.21, 96 S.Ct. 2718, 49 L.Ed.2d 576 (1976) ); Vieux Carre Prop. Owners, Residents & Assocs., Inc. v. Pierce , 719 F.2d 1272, 1282 (5th Cir. 1983) ; see also 42 U.S.C. \u00a7 4332(2)(C). In doing so, agencies must comply with regulations by the Council on Environmental Quality (\"CEQ\"). See 42 U.S.C. \u00a7\u00a7 4342 - 44 ;\n40 C.F.R. 1500.3. The Federal Highway Administration (\"FHWA\"), like many other federal agencies, has also issued regulations, which \"supplement[ ]\" the CEQ's regulations specifically for highway projects. 23 C.F.R. \u00a7 771.101.\nAgencies generally should not \"segment,\" or \"divide artificially a major Federal action into smaller components to escape the application of NEPA to some of its segments.\" Save Barton Creek Ass'n v. Fed. Highway Admin. , 950 F.2d 1129, 1140 (5th Cir. 1992) (per curiam) (internal quotation marks omitted). Both the CEQ and FHWA have regulations that govern whether agencies may treat multiple projects as separate projects in studying their environmental impacts. Under CEQ regulations, agencies must treat multiple projects as \"in effect, a single course of action\" if they are \"connected actions,\" \"cumulative actions,\" or \"similar actions.\" See 40 C.F.R. \u00a7\u00a7 1502.4(a), 1508.25(a). TxDot admits that it did not comply with this rule. But it argues, and the district court agreed, that for highway projects, agencies only have to comply with the FHWA's regulation, 23 C.F.R. \u00a7 771.111(f).\nWe likewise agree that, in highway cases, the FHWA's regulation controls. When deciding if agencies improperly treated multiple highway projects as separate projects under NEPA, we, along with our sister circuits, have only considered \u00a7 771.111(f). See Save Barton Creek , 950 F.2d at 1141-42 (concluding that challenged highway segments \"fully comport[ed] with both case law and FHWA's regulations\" and \"satisfie[d] the FHWA's standards\" without discussing the CEQ regulations); see also id. at 1140 & n.15 (explaining that our test for this issue consists of factors embodied in \u00a7 771.111(f) ); see also Del. Riverkeeper Network v. FERC , 753 F.3d 1304, 1314-15 (D.C. Cir. 2014); Highway J Citizens Grp. v. Mineta , 349 F.3d 938, 962-63 (7th Cir. 2003) ; Ross v. Fed. Highway Admin. , 162 F.3d 1046, 1049 & n.3 (10th Cir. 1998) ; Pres. Endangered Areas of Cobb's History, Inc. v. U.S. Army Corps of Eng'rs , 87 F.3d 1242, 1247-48 (11th Cir. 1996) ; Vill. of Los Ranchos de Albuquerque v. Barnhart , 906 F.2d 1477, 1483 & n.4 (10th Cir. 1990) ; Coal. on Sensible Transp., Inc. v. Dole , 826 F.2d 60, 68, 70-71 (D.C. Cir. 1987).\nThese cases are in line with the principle that courts apply a \"specifically tailored\" and \"better fitted\" statute over a \"more general\" one. See EC Term of Years Tr. v. United States , 550 U.S. 429, 433-34, 127 S.Ct. 1763, 167 L.Ed.2d 729 (2007) (quoting in part Brown v. Gen. Servs. Admin. , 425 U.S. 820, 834, 96 S.Ct. 1961, 48 L.Ed.2d 402 (1976) ). Given the precedents above and the lack of highway cases suggesting otherwise, we read \u00a7 771.111(f) as having tailored the general policy of \u00a7 1508.25(a) to the specific question of whether multiple highway projects are \"in effect, a single course of action.\" See 40 C.F.R. \u00a7 1502.4(a) ; see also DANIEL R. MANDELKER ET AL., NEPA LAW AND LITIGATION \u00a7 9.12 (2d ed. 2017) (\"CEQ regulations provide only general guidance on when related actions or proposals should be considered together in a single impact statement. More detailed regulations are provided by individual agency regulations, such as the regulations applicable to highway projects, and by case law.\"). As a result, TxDot did not act arbitrarily and capriciously by not complying with \u00a7 1508.25(a)(2).\nHaving decided that \u00a7 771.111(f) governs, we must determine whether TxDot followed it. TxDot treated the proposed overpasses on MoPac as a standalone project in an Environmental Assessment. Under \u00a7 771.111(f), to treat a highway project as a standalone project for NEPA purposes, the project must:\n(1) Connect logical termini and be of sufficient length to address environmental matters on a broad scope;\n(2) Have independent utility or independent significance, i.e., be usable and be a reasonable expenditure even if no additional transportation improvements in the area are made; and\n(3) Not restrict consideration of alternatives for other reasonably foreseeable transportation improvements.\nPlaintiffs argue that TxDot wrongly found that the overpass project meets \u00a7 771.111(f)(1) 's criteria by looking only at whether the project has \"logical termini\" and without asking whether it is \"of sufficient length.\" We disagree, as this court and other circuits have similarly condensed \u00a7 771.111(f)(1) into a test about logical termini. See Save Barton Creek , 950 F.2d at 1141 (\"[B]oth the segment of the Austin Outer Loop as well as MoPac South fully comport with both case law and FHWA's regulations requiring that segments have independent utility, connect with logical termini , and do not foreclose the opportunity to consider alternatives.\" (emphasis added) ); see also Highway J Citizens Grp. , 349 F.3d at 962-63 ; Pres. Endangered Areas of Cobb's History , 87 F.3d at 1247 ; Conservation Law Found. v. Fed. Highway Admin. , 24 F.3d 1465, 1472 (1st Cir. 1994).\nIt makes sense to conclude that a project is \"of sufficient length\" when it connects logical termini. Here, for example, TxDot identified the overpass project's logical termini at the points where MoPac intersects with the two streets it would pass under. It is hard to imagine what other termini would be logical, as this project simply builds overpasses for these intersections, and Plaintiffs offer no alternative termini. Indeed, \"crossroads\" are precisely the sort of logical termini the FHWA contemplated in issuing \u00a7 771.111(f)(1). See Conservation Law Found. , 24 F.3d at 1472 (citing 37 Fed. Reg. 21,809, 21,810 (Oct. 14, 1972), which defines \"highway section\" as \"a substantial length of highway section between logical termini,\" including \"major crossroads, population centers, major traffic generators, or similar major highway control elements\"). The district court correctly concluded that TxDot complied with \u00a7 771.111(f)(1).\nThe case law likewise does not support Plaintiffs' view that TxDot wrongly found that the overpass project meets \u00a7 771.111(f)(2) 's criteria by looking only at whether the project will be \"useable\" and not also at whether it will be \"a reasonable expenditure.\" In Save Barton Creek , we did not address \u00a7 771.111(f)(2) 's \"reasonable expenditure\" language; instead, we focused on the standalone usefulness of a proposed highway. See 950 F.2d at 1142 (concluding that a highway segment \"satisfie[d] the FHWA's standards for proper segmentation\" as to independent utility because it increased the utility of a roadway network; provided improved access to business, residential, and recreational features; and would relieve traffic); see also Def. of Wildlife v. N. Carolina Dep't of Transp. , 762 F.3d 374, 395 (4th Cir. 2014); Highway J Citizens Grp. , 349 F.3d at 963 ; Stewart Park & Reserve Coal., Inc. v. Slater , 352 F.3d 545, 559-60 (2d. Cir. 2003) ; Pres. Endangered Areas of Cobb's History , 87 F.3d at 1248 ; Coal. on Sensible Transp. , 826 F.2d at 69-70. That approach reflects the unexceptional view that a highway is likely a reasonable expenditure if, by itself, it \"serves a significant purpose.\" See Save Barton Creek , 950 F.2d at 1141. The district court, therefore, correctly concluded that TxDot also complied with \u00a7 771.111(f)(2).\nB. Cumulative Impact\nPlaintiffs next argue that TxDot violated NEPA because the overpass project's Environmental Assessment contains no analysis of the project's \"cumulative impact\" as required by 40 C.F.R. \u00a7 1508.25(c). \" 'Cumulative impact' is the impact on the environment which results from the incremental impact of the action when added to other past, present, and reasonably foreseeable future actions....\" 40 C.F.R. \u00a7 1508.7 ; see also \u00a7 1508.25(c) (requiring consideration of cumulative impacts in determining the scope of an environmental review under NEPA).\nTxDot contends that a full analysis is unnecessary where, as here, it does not expect a project to have any significant environmental impact that can \"accumulate\" with the impacts of other actions. We agree. \"[I]nherent in NEPA and its implementing regulations is a 'rule of reason,' \" which relieves agencies from preparing exhaustive reports that \"would serve 'no purpose' in light of NEPA's regulatory scheme as a whole.\" See Dep't of Transp. v. Pub. Citizen , 541 U.S. 752, 767, 124 S.Ct. 2204, 159 L.Ed.2d 60 (2004) ; cf. Miss. River Basin All. v. Westphal , 230 F.3d 170, 175-76 (5th Cir. 2000) (analyzing the sufficiency of a cumulative impacts analysis in a supplemental Environmental Impact Statement under the \"rule of reason\" and arbitrary and capricious standard). The aim of NEPA is to make agencies \"carefully consider[ ] detailed information concerning significant environmental impacts\" while providing information useful to the public decision-making process. See Pub. Citizen , 541 U.S. at 768, 124 S.Ct. 2204 ; see also 40 C.F.R. \u00a7 1500.1(c) (\"NEPA's purpose is not to generate paperwork-even excellent paperwork-but to foster excellent action.\").\nA full cumulative impact analysis here would not serve these purposes. The proposed overpasses are a two-mile project in an area that is already heavily developed and trafficked. After conducting a number of detailed technical studies, TxDot concluded that the project would not significantly impact the environment. We cannot say TxDot's finding was arbitrary and capricious on these facts. If the project would have no significant impact by itself, it is unlikely to change the environmental status quo when \"added\" to other actions. See Atchafalaya Basinkeeper v. U.S. Army Corps of Eng'rs , No. 18-30257, 894 F.3d 692, 702-04, 2018 WL 3339539, at *8-9 (5th Cir. July 6, 2018) (holding that a full cumulative impact analysis was unnecessary where Environmental Assessments concluded that a project would have no incremental impact and \"hence, there could be no cumulative effects\"); see also Minisink Residents for Envtl. Pres. & Safety v. FERC , 762 F.3d 97, 113 (D.C. Cir. 2014) (concluding that no cumulative impact analysis was needed where \"the [Environmental Assessment] concluded that because the ... Project itself was expected to have minimal impacts, no significant cumulative impacts were expected to flow\"); N. Plains Res. Council, Inc. v. Surface Transp. Bd. , 668 F.3d 1067, 1082 (9th Cir. 2011) (concluding that \"where a proposed project has 'virtually no effect' on water quality, the agency is not required to examine cumulative impacts from other projects because it would not provide an informed analysis\" (quoting Nw. Envtl. Advocates v. Nat'l Marine Fisheries Serv. , 460 F.3d 1125, 1140 (9th Cir. 2006) ) ).\nPlaintiffs argue that Fritiofson requires otherwise. In Fritiofson , we concluded that an agency failed to adequately analyze cumulative impacts in its Environmental Assessment for a project that would consume acres of wetlands because the record did not show consideration of \"other past, present, and reasonably foreseeable future actions\" on the island. See 772 F.2d at 1234, 1247. But Fritiofson was \"undoubtedly an unusual case,\" owing to \"the unique and fragile nature of wetland areas\" and the rapid increase in Galveston Island commercial development. See id. at 1246-47. As we explained, \"[t]he extent of [a cumulative impact] analysis will necessarily depend on the scope of the area in which the impacts from the proposed action will be felt and the extent of other activity in that area.\" Id. at 1246 ; see also Sabine River , 951 F.2d at 677 (\"The [Environmental Assessment] is 'a rough-cut, low-budget environmental impact statement designed to show whether a full-fledged environmental impact statement-which is very costly and time-consuming to prepare and has been the kiss of death to many a federal project-is necessary.' \" (quoting Cronin v. U.S. Dep't of Agric. , 919 F.2d 439, 443 (7th Cir. 1990) ) ); 40 C.F.R. \u00a7 1508.9(a)(1) (defining an Environmental Assessment as a \"concise public document\" that \"[b]riefly provide[s] sufficient evidence and analysis\"). Here, given the overpass project's limited scope and location over busy urban intersections, it was not arbitrary and capricious for TxDot to limit its cumulative impact analysis where the record supports its finding that the project will have no significant direct or indirect impact.\nAFFIRMED.\nTxDot took responsibility for NEPA compliance under an agreement with the Federal Highway Administration pursuant to 23 U.S.C. \u00a7 327(a)(2)(A) and (c). We therefore apply the same environmental and administrative law standards to TxDot here as we apply to federal agencies in this context. See id. \u00a7 327(a)(2)(C) (\"A State shall assume responsibility under this section subject to the same procedural and substantive requirements as would apply if that responsibility were carried out by the Secretary.\").\nAlthough \u00a7\u00a7 1502.4 and 1508.25 refer only to the required scope of a full-scale environmental study, known as an Environmental Impact Statement, courts apply the regulations in the context of Environmental Assessments as well. See, e.g. , Fritiofson , 772 F.2d at 1242-43, 1245-47 ; see also Daniel R. Mandelker et al., NEPA Law and Litigation \u00a7 9.12 (2d ed. 2017).\nPlaintiffs argue that TxDot not only improperly applied \u00a7 771.111(f) but also improperly considered other factors beyond \u00a7 771.111(f) in deciding to study the project individually, namely, the Capital Area Metropolitan Transportation Planning Organization's Regional Transportation Plan and Texas's Transportation Improvement Plan, both of which identify the highway projects as separate projects. This argument lacks merit, as the record shows that TxDot performed its own \u00a7 771.111(f) analysis and so did not \"rel[y] on factors which Congress has not intended it to consider.\" Motor Vehicle Mfrs. , 463 U.S. at 43, 103 S.Ct. 2856.\nWe also agree with the district court that \u00a7 771.111(f)(1) 's \"logical termini\" factor gets less weight here than \u00a7 771.111(f)(2) 's \"independent utility\" factor. The logical termini factor has had more bearing when the purpose of a highway project was to connect cities and so \"segments shorter than the full length of the highway had no independent purpose\" and therefore were not of sufficient length. See Piedmont Heights Civic Club, Inc. v. Moreland , 637 F.2d 430, 440 (5th Cir. 1981) ; see also Save Barton Creek , 950 F.2d at 1140. Here, the overpass project does not connect two cities.",
+        "type": "majority",
+        "author": "PER CURIAM:"
+      }
+    ],
+    "attorneys": [
+      "William Gene Bunch, Kelly Deanne Davis, Save Our Springs Alliance, Clark Willis Richards, Richards Rodriguez & Skeith, L.L.P., Austin, TX, for Plaintiffs-Appellants.",
+      "Richards Rodriguez & Skeith, L.L.P., Office of the Attorney General for the State of Texas, Jane Webre, Casey LeGate Dobson, Attorney, Michael Lewis Merriman, Assistant U.S. Attorney, Scott, Douglass & McConnico, L.L.P., C. Brian Cassidy, Locke Lord, L.L.P., Austin, TX, for Defendants-Appellees."
+    ],
+    "corrections": "",
+    "head_matter": "Shudde FATH; Save Barton Creek Association; Friends of the Wildflower Center; Carole Keeton; Frank Cloud Cooksey; Jerry Jeff Walker ; Susan Walker; Doctor Laurie Dries; Save Our Springs Alliance, Incorporated; MoPac Corridor Neighbors Alliance; The Friendship Alliance of Northern Hays County, Incorporated; Clean Water Action, Plaintiffs-Appellants\nv.\nTEXAS DEPARTMENT OF TRANSPORTATION; Central Texas Regional Mobility Authority, Defendants-Appellees\nNo. 17-50683\nUnited States Court of Appeals, Fifth Circuit.\nFILED July 17, 2018\nWilliam Gene Bunch, Kelly Deanne Davis, Save Our Springs Alliance, Clark Willis Richards, Richards Rodriguez & Skeith, L.L.P., Austin, TX, for Plaintiffs-Appellants.\nRichards Rodriguez & Skeith, L.L.P., Office of the Attorney General for the State of Texas, Jane Webre, Casey LeGate Dobson, Attorney, Michael Lewis Merriman, Assistant U.S. Attorney, Scott, Douglass & McConnico, L.L.P., C. Brian Cassidy, Locke Lord, L.L.P., Austin, TX, for Defendants-Appellees.\nBefore JOLLY, JONES, and HAYNES, Circuit Judges."
+  },
+  "file_name": "0132-01",
+  "first_page_order": 132,
+  "last_page_order": 140
+}

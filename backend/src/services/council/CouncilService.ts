@@ -11,6 +11,13 @@ import {
   councilDecisionPacketService, 
   ToolCallTracer,
 } from './CouncilDecisionPacketService.js';
+import {
+  executeLegalTool,
+  isLegalTool,
+  parseToolCallsFromResponse,
+  formatLegalToolsForSystemPrompt,
+  LEGAL_TOOL_DEFINITIONS,
+} from './LegalToolExecutor.js';
 import { ragService, ChunkResult } from '../llm/RAGService.js';
 
 // =============================================================================
@@ -525,6 +532,12 @@ export class CouncilService extends EventEmitter {
         deliberationId, question, agentIds, context, tracer
       );
 
+      // Process any legal tool calls from agent responses
+      const legalToolResults = await this.processLegalToolCalls(deliberationId, initialResponses, tracer);
+      if (legalToolResults.size > 0) {
+        console.log(`[Council] Processed ${legalToolResults.size} legal tool calls`);
+      }
+
       // Phase 2: Cross-Examination (if enabled and multiple agents)
       if (config.enableCrossExamination && agentIds.length > 1) {
         await this.updateDeliberationStatus(deliberationId, 'cross_examination');
@@ -726,6 +739,62 @@ export class CouncilService extends EventEmitter {
     const responses = results.filter((r): r is AgentResponse => r !== null);
 
     return responses;
+  }
+
+  /**
+   * Process legal tool calls from agent responses
+   * Executes any legal research tools requested by agents and returns results
+   */
+  private async processLegalToolCalls(
+    deliberationId: string,
+    responses: AgentResponse[],
+    tracer?: ToolCallTracer
+  ): Promise<Map<string, string>> {
+    const toolResults = new Map<string, string>();
+
+    for (const response of responses) {
+      const toolCalls = parseToolCallsFromResponse(response.response);
+      
+      for (const call of toolCalls) {
+        if (isLegalTool(call.name)) {
+          console.log(`[Council] Executing legal tool: ${call.name}`, call.params);
+          
+          const result = await executeLegalTool(call.name, call.params, tracer);
+          
+          if (result.success && result.formatted) {
+            const key = `${response.agentId}:${call.name}`;
+            toolResults.set(key, result.formatted);
+            
+            // Emit as token event with tool result info
+            this.emitEvent({
+              type: 'token',
+              deliberationId,
+              agentId: response.agentId,
+              content: `[Tool: ${call.name}] Found ${result.results?.length || 0} results`,
+              timestamp: new Date(),
+            });
+          } else if (result.error) {
+            console.warn(`[Council] Legal tool ${call.name} failed:`, result.error);
+          }
+        }
+      }
+    }
+
+    return toolResults;
+  }
+
+  /**
+   * Get legal tools context for agent system prompts
+   */
+  getLegalToolsContext(): string {
+    return formatLegalToolsForSystemPrompt();
+  }
+
+  /**
+   * Get available legal tool definitions
+   */
+  getLegalToolDefinitions() {
+    return LEGAL_TOOL_DEFINITIONS;
   }
 
   /**

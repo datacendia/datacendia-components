@@ -1,0 +1,93 @@
+{
+  "id": 12660435,
+  "name": "Daniel S. BARNETT and Abovo Corporation, Petitioner, v. Richard B. SCHIRO, Respondent",
+  "name_abbreviation": "Barnett v. Schiro",
+  "decision_date": "2019-04-26",
+  "docket_number": "No. 18-0278",
+  "first_page": "73",
+  "last_page": "74",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "579 S.W.3d 73"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "2018 WL 329772",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2018,
+      "pin_cites": [
+        {
+          "parenthetical": "mem. op."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "578 S.W.3d 469",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12660282
+      ],
+      "weight": 2,
+      "year": 2019,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/578/0469-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 202,
+    "char_count": 2612,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2652146901228604
+    },
+    "sha256": "1b447b021c0474c5c335615bf1bec118cfb8d1492296fde66e955e045d0a6e7c",
+    "simhash": "1:3f41eb23a0d5459a",
+    "word_count": 397
+  },
+  "last_updated": "2024-02-27T18:40:21.478513+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Daniel S. BARNETT and Abovo Corporation, Petitioner,\nv.\nRichard B. SCHIRO, Respondent"
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM\nThe sole issue presented in this case is whether the evidence offered by the prevailing party was sufficient to support the reasonable attorney's fees awarded pursuant to section 38.001 of the Texas Civil Practice and Remedies Code. In Rohrmoos Venture v. UTSW DVA Healthcare, LLP , 578 S.W.3d 469 (Tex. 2019), we clarified the legal and evidentiary requirements for shifting attorney's fees from the prevailing party to the non-prevailing party. Id. at ----.\nHere, attorney Richard Schiro represented Daniel Barnett and his individual retirement account (IRA) as defendants in a suit brought in 2011 by Kirtland Realty Group. Kirtland and Barnett, as well as Kirtland and Barnett's IRA, ultimately reached settlement agreements. Schiro then brought a suit for unpaid legal fees against Barnett for $183,673. The jury awarded that same amount to Schiro, which is unchallenged and is not the subject of this appeal.\nIn addition to the unpaid legal fees, Schiro requested \"reasonable attorneys' fees and costs\" pursuant to section 38.001 of the Texas Civil Practice and Remedies Code. After hearing expert testimony about the reasonableness and necessity of the attorney's fees, the jury awarded attorney's fees of $131,786.11 for trial and contingent appellate awards if Barnett unsuccessfully appealed to the court of appeals or this Court. Barnett filed a motion for judgment notwithstanding the verdict, asserting that the evidence was legally insufficient to support the section 38.001 fee award. The trial court denied the motion and entered judgment in favor of Schiro. The court of appeals affirmed. --- S.W.3d ----, ----, 2018 WL 329772 (Tex. App.-Dallas 2018) (mem. op.).\nIn Rohrmoos Venture , we explained the prevailing party's evidentiary burden and the standard for shifting reasonable and necessary attorney's fees to the non-prevailing party. 578 S.W.3d at ----. Having clarified the law governing the award of attorney's fees, we reverse the court of appeals' judgment affirming the award of attorney's fees and, without hearing oral argument, we remand the case to the trial court for a redetermination of attorney's fees consistent with our decision in Rohrmoos Venture . See TEX. R. APP. P. 59.1.",
+        "type": "majority",
+        "author": "PER CURIAM"
+      }
+    ],
+    "attorneys": [
+      "Daniel D. Tostrud, Lindsey K. Wyrick, Katherine K. Elrich, for Respondent.",
+      "Charles W. McGarry, Robert M. 'Bob' Clark, for Petitioners.",
+      "Ben Taylor, for Amicus Curiae Sharon Redd, Robert Maurice Charvoz, Jr., and Carletta Guillory."
+    ],
+    "corrections": "",
+    "head_matter": "Daniel S. BARNETT and Abovo Corporation, Petitioner,\nv.\nRichard B. SCHIRO, Respondent\nNo. 18-0278\nSupreme Court of Texas.\nOPINION DELIVERED: April 26, 2019\nDaniel D. Tostrud, Lindsey K. Wyrick, Katherine K. Elrich, for Respondent.\nCharles W. McGarry, Robert M. 'Bob' Clark, for Petitioners.\nBen Taylor, for Amicus Curiae Sharon Redd, Robert Maurice Charvoz, Jr., and Carletta Guillory."
+  },
+  "file_name": "0073-01",
+  "first_page_order": 73,
+  "last_page_order": 74
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12425315,
+  "name": "Barlow v. United States",
+  "name_abbreviation": "Barlow v. United States",
+  "decision_date": "2012-11-26",
+  "docket_number": "No. 12-6827",
+  "first_page": "1037",
+  "last_page": "1037",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1037"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.639,
+    "sha256": "a42344676fab9bf7b24a88f49e19c7f4db661e45280e49b0554400b03d33320d",
+    "simhash": "1:01cad79a8a151710",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Barlow v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6827.\nBarlow v. United States."
+  },
+  "file_name": "1037-01",
+  "first_page_order": 1113,
+  "last_page_order": 1113
+}

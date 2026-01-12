@@ -1,0 +1,66 @@
+{
+  "id": 12430166,
+  "name": "Williams v. United States; and Anderson v. United States",
+  "name_abbreviation": "Williams v. United States",
+  "decision_date": "2013-01-22",
+  "docket_number": "No. 12-7629; No. 12-7783",
+  "first_page": "1148",
+  "last_page": "1148",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1148"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "490 Fed. Appx. 557",
+      "category": "reporters:federal",
+      "reporter": "Fed. Appx.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 21,
+    "char_count": 154,
+    "ocr_confidence": 0.678,
+    "sha256": "4bf860cbc8a3b788d88ab10a1b0218f92ea26aa1a06e5620f9bda5be4d0cf096",
+    "simhash": "1:b4da5971ee24df34",
+    "word_count": 25
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. United States; and Anderson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied. Reported below: 490 Fed. Appx. 557.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7629.\nNo. 12-7783.\nWilliams v. United States; and Anderson v. United States."
+  },
+  "file_name": "1148-02",
+  "first_page_order": 1224,
+  "last_page_order": 1224
+}

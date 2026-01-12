@@ -1,0 +1,59 @@
+{
+  "id": 12214956,
+  "name": "Robbins v. Texas",
+  "name_abbreviation": "Robbins v. Texas",
+  "decision_date": "2012-05-14",
+  "docket_number": "No. 11-777",
+  "first_page": "986",
+  "last_page": "986",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 986"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 70,
+    "ocr_confidence": 0.573,
+    "sha256": "acc902ceaf49cb3c250298f9621d125fde43fddbaf96606f0900a9293cd66b52",
+    "simhash": "1:183bd0d4dfdf79c4",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Robbins v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tex. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-777.\nRobbins v. Texas."
+  },
+  "file_name": "0986-04",
+  "first_page_order": 862,
+  "last_page_order": 862
+}

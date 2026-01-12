@@ -1,0 +1,59 @@
+{
+  "id": 5919271,
+  "name": "Burke v. United States",
+  "name_abbreviation": "Burke v. United States",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-9519",
+  "first_page": "951",
+  "last_page": "951",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 951"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.611,
+    "sha256": "142841b914b148ebcbba8c3354e01e24fa2feb7dcf97010fde86b2b6de379592",
+    "simhash": "1:1788d30b87371332",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Burke v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9519.\nBurke v. United States."
+  },
+  "file_name": "0951-11",
+  "first_page_order": 977,
+  "last_page_order": 977
+}

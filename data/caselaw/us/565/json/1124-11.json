@@ -1,0 +1,59 @@
+{
+  "id": 12240408,
+  "name": "Leslie v. United States et al.",
+  "name_abbreviation": "Leslie v. United States",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-7144",
+  "first_page": "1124",
+  "last_page": "1124",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1124"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 77,
+    "ocr_confidence": 0.674,
+    "sha256": "a7a69d9ff3eb2bdac0eaa4a29fd6b91214bbe79494ad2db81c07a6619214dd19",
+    "simhash": "1:48ccc5aa5d37a6be",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Leslie v. United States et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7144.\nLeslie v. United States et al."
+  },
+  "file_name": "1124-11",
+  "first_page_order": 1206,
+  "last_page_order": 1206
+}

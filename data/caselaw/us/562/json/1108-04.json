@@ -1,0 +1,59 @@
+{
+  "id": 6028533,
+  "name": "Day v. Minnesota et al.",
+  "name_abbreviation": "Day v. Minnesota",
+  "decision_date": "2010-12-13",
+  "docket_number": "No. 09-11480",
+  "first_page": "1108",
+  "last_page": "1108",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1108"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 73,
+    "ocr_confidence": 0.599,
+    "sha256": "b867844a5271f5e07a3b0ccce93df5f2f135a0fcf299262142a25fcab9b4b836",
+    "simhash": "1:08c229abdf55bbf3",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Day v. Minnesota et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11480.\nDay v. Minnesota et al."
+  },
+  "file_name": "1108-04",
+  "first_page_order": 1130,
+  "last_page_order": 1130
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12422276,
+  "name": "Adkins v. United States",
+  "name_abbreviation": "Adkins v. United States",
+  "decision_date": "2012-11-05",
+  "docket_number": "No. 12-6651",
+  "first_page": "1005",
+  "last_page": "1005",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1005"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.683,
+    "sha256": "12cb2b54adde1c681ebcfb26b16f13a388b2275d0135cfc4aad48c1f18d6a76c",
+    "simhash": "1:872bca228aee903a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Adkins v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6651.\nAdkins v. United States."
+  },
+  "file_name": "1005-01",
+  "first_page_order": 1081,
+  "last_page_order": 1081
+}

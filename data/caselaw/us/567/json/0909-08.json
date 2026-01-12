@@ -1,0 +1,59 @@
+{
+  "id": 12408509,
+  "name": "Tippens v. Virginia",
+  "name_abbreviation": "Tippens v. Virginia",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. 11-9816",
+  "first_page": "909",
+  "last_page": "909",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 909"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 67,
+    "ocr_confidence": 0.645,
+    "sha256": "b6d8c31fea7b77eff2dc910f9d78f550d27e88340fbfda03a0abfc7c5e33eec0",
+    "simhash": "1:ae5f66cc2e486a58",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Tippens v. Virginia."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. .Ct. Va. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9816.\nTippens v. Virginia."
+  },
+  "file_name": "0909-08",
+  "first_page_order": 813,
+  "last_page_order": 813
+}

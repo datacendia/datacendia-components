@@ -1,0 +1,102 @@
+{
+  "id": 5917027,
+  "name": "In re Disbarment of Menyhart",
+  "name_abbreviation": "In re Disbarment of Menyhart",
+  "decision_date": "2011-05-31",
+  "docket_number": "No. D-2548",
+  "first_page": "1019",
+  "last_page": "1019",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1019"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "562 U. S. 815",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5987233,
+        12437784,
+        5939908,
+        6018468,
+        5986951,
+        5907632,
+        5901074,
+        12437778,
+        12437779,
+        12437780,
+        12437782,
+        12437781,
+        5990776,
+        12437785,
+        5977627,
+        12437783
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/562/0815-01",
+        "/l-ed-2d/178/0271-06",
+        "/us/562/0815-02",
+        "/us/562/0815-06",
+        "/us/562/0815-03",
+        "/us/562/0815-05",
+        "/us/562/0815-04",
+        "/l-ed-2d/178/0270-06",
+        "/l-ed-2d/178/0271-01",
+        "/l-ed-2d/178/0271-02",
+        "/l-ed-2d/178/0271-04",
+        "/l-ed-2d/178/0271-03",
+        "/us/562/0815-07",
+        "/l-ed-2d/178/0272-01",
+        "/us/562/0815-08",
+        "/l-ed-2d/178/0271-05"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 109,
+    "ocr_confidence": 0.602,
+    "sha256": "8ca36875ff08902f3a74d9158f1847c8016f540255c713200a77f7ea38b8684e",
+    "simhash": "1:386cdd82e3c0d8a5",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:44:09.189648+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Menyhart."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see 562 U. S. 815.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2548.\nIn re Disbarment of Menyhart."
+  },
+  "file_name": "1019-08",
+  "first_page_order": 1045,
+  "last_page_order": 1045
+}

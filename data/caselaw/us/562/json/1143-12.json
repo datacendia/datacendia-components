@@ -1,0 +1,59 @@
+{
+  "id": 5919037,
+  "name": "Adams v. Short et al.",
+  "name_abbreviation": "Adams v. Short",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-6998",
+  "first_page": "1143",
+  "last_page": "1143",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1143"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 69,
+    "ocr_confidence": 0.649,
+    "sha256": "f367371efbf34dee8608ae7cef5e7f0a9d8a9f0f79c8b4bcbbaf62ddc2c487c6",
+    "simhash": "1:1148000c719de05e",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Adams v. Short et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6998.\nAdams v. Short et al."
+  },
+  "file_name": "1143-12",
+  "first_page_order": 1165,
+  "last_page_order": 1165
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12238424,
+  "name": "Branon v. United States",
+  "name_abbreviation": "Branon v. United States",
+  "decision_date": "2011-12-12",
+  "docket_number": "No. 11-7260",
+  "first_page": "1098",
+  "last_page": "1098",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1098"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.671,
+    "sha256": "6d1c8b8a9b3330d4cd9cb9a87a2ec4507aa1d240ce113bde7e898a9d456a4ed8",
+    "simhash": "1:95bb86212fb77d78",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Branon v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7260.\nBranon v. United States."
+  },
+  "file_name": "1098-15",
+  "first_page_order": 1180,
+  "last_page_order": 1180
+}

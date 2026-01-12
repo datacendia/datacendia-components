@@ -1,0 +1,948 @@
+{
+  "id": 12657996,
+  "name": "In the Matter of the Care and Treatment of Nicholas GRADO a/k/a Nicholas R. Grado, a/k/a Nicholas Ryan Grado, Appellant, v. STATE of Missouri, Respondent.",
+  "name_abbreviation": "Grado v. State",
+  "decision_date": "2018-09-25",
+  "docket_number": "No. SC 96830",
+  "first_page": "888",
+  "last_page": "905",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "559 S.W.3d 888"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mo.",
+    "id": 9434,
+    "name": "Supreme Court of Missouri"
+  },
+  "jurisdiction": {
+    "id": 37,
+    "name_long": "Missouri",
+    "name": "Mo."
+  },
+  "cites_to": [
+    {
+      "cite": "372 N.W.2d 24",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "case_ids": [
+        10630141
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "29"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nw2d/372/0024-01"
+      ]
+    },
+    {
+      "cite": "537 So.2d 953",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "case_ids": [
+        7557141,
+        7557190
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "956-57"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so2d/537/0953-01",
+        "/so2d/537/0953-02"
+      ]
+    },
+    {
+      "cite": "85 S.W.3d 348",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11351094
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "356"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/85/0348-01"
+      ]
+    },
+    {
+      "cite": "97 P.3d 767",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "771"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "123 Wash.App. 172",
+      "category": "reporters:state",
+      "reporter": "Wash. App.",
+      "case_ids": [
+        1118084
+      ],
+      "year": 2004,
+      "opinion_index": 0,
+      "case_paths": [
+        "/wash-app/123/0172-01"
+      ]
+    },
+    {
+      "cite": "939 S.W.2d 53",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10012283
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "56-57"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/939/0053-01"
+      ]
+    },
+    {
+      "cite": "313 S.W.3d 182",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7322504
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "186",
+          "parenthetical": "\"The right to counsel exists in state, in addition to federal, proceedings, by virtue of the Due Process Clause of the Fourteenth Amendment to the United States Constitution\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/313/0182-01"
+      ]
+    },
+    {
+      "cite": "372 U.S. 335",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1765333
+      ],
+      "weight": 3,
+      "year": 1963,
+      "pin_cites": [
+        {
+          "page": "342-44"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/372/0335-01"
+      ]
+    },
+    {
+      "cite": "840 S.W.2d 850",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10012609
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "871",
+          "parenthetical": "because the party had \"no constitutional right to counsel,\" then \"[c]onsequently, there is no constitutional claim to ineffective assistance\" of counsel; suggesting the converse is true as well - that where there is a constitutional right to counsel, counsel must be effective"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/840/0850-01"
+      ]
+    },
+    {
+      "cite": "758 N.E.2d 492",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "503"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "259 Ill.Dec. 369",
+      "category": "reporters:state",
+      "reporter": "Ill. Dec.",
+      "year": 2001,
+      "opinion_index": 0
+    },
+    {
+      "cite": "325 Ill.App.3d 573",
+      "category": "reporters:state",
+      "reporter": "Ill. App. 3d",
+      "case_ids": [
+        570162
+      ],
+      "year": 2001,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ill-app-3d/325/0573-01"
+      ]
+    },
+    {
+      "cite": "216 P.3d 1015",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "1020"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "167 Wash.2d 113",
+      "category": "reporters:state",
+      "reporter": "Wash. 2d",
+      "case_ids": [
+        4004488
+      ],
+      "year": 2009,
+      "opinion_index": 0,
+      "case_paths": [
+        "/wash-2d/167/0113-01"
+      ]
+    },
+    {
+      "cite": "704 N.W.2d 437",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "case_ids": [
+        8915663
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "439"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nw2d/704/0437-01"
+      ]
+    },
+    {
+      "cite": "388 Mont. 397",
+      "category": "reporters:state",
+      "reporter": "Mont.",
+      "case_ids": [
+        12435644
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "204"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mont/388/0397-01"
+      ]
+    },
+    {
+      "cite": "159 A.3d 824",
+      "category": "reporters:state_regional",
+      "reporter": "A.3d",
+      "case_ids": [
+        12330399
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "827"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/a3d/159/0824-01"
+      ]
+    },
+    {
+      "cite": "2018 WL 4575151",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2018,
+      "opinion_index": 0
+    },
+    {
+      "cite": "559 S.W.3d 905",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12657997
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/559/0905-01"
+      ]
+    },
+    {
+      "cite": "897 S.W.2d 611",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10015863
+      ],
+      "weight": 3,
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "616"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/897/0611-01"
+      ]
+    },
+    {
+      "cite": "14 S.W.3d 924",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11538892
+      ],
+      "weight": 2,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "927"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/14/0924-01"
+      ]
+    },
+    {
+      "cite": "521 S.W.3d 229",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12385030
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "232"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/521/0229-01"
+      ]
+    },
+    {
+      "cite": "520 S.W.3d 443",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12382330
+      ],
+      "weight": 3,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "450"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/520/0443-01"
+      ]
+    },
+    {
+      "cite": "280 S.W.3d 600",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6948130
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "607-08",
+          "parenthetical": "internal citations, quotations, and alterations omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/280/0600-01"
+      ]
+    },
+    {
+      "cite": "543 U.S. 551",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5928574
+      ],
+      "weight": 5,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "574"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/543/0551-01"
+      ]
+    },
+    {
+      "cite": "560 U.S. 48",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12448995,
+        3641893
+      ],
+      "weight": 5,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "74"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/176/0825-01",
+        "/us/560/0048-01"
+      ]
+    },
+    {
+      "cite": "278 S.W.3d 170",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8154891
+      ],
+      "weight": 4,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "176"
+        },
+        {
+          "page": "188",
+          "parenthetical": "\"trial counsel is not ineffective for failing to make non-meritorious objections\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/278/0170-01"
+      ]
+    },
+    {
+      "cite": "370 S.W.3d 883",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7316047
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "886"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/370/0883-01"
+      ]
+    },
+    {
+      "cite": "439 S.W.3d 764",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6921567
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "768-69"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/439/0764-01"
+      ]
+    },
+    {
+      "cite": "381 Wis.2d 28",
+      "category": "reporters:state",
+      "reporter": "Wis. 2d",
+      "case_ids": [
+        12555706
+      ],
+      "weight": 6,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "50"
+        },
+        {
+          "page": "50"
+        },
+        {
+          "page": "49"
+        },
+        {
+          "page": "50"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nw2d/911/0041-01"
+      ]
+    },
+    {
+      "cite": "775 S.W.2d 155",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9994215
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "157"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/775/0155-01"
+      ]
+    },
+    {
+      "cite": "332 S.W.3d 793",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7321504
+      ],
+      "year": 2011,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/332/0793-01"
+      ]
+    },
+    {
+      "cite": "653 N.E.2d 977",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "985",
+          "parenthetical": "\"in involuntary commitment proceedings, as opposed to post-conviction criminal proceedings, no issues are likely to arise regarding respondent's counsel's failure to adequately investigate or prepare for trial, or counsel's failure to pursue defenses or witnesses\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "210 Ill.Dec. 782",
+      "category": "reporters:state",
+      "reporter": "Ill. Dec.",
+      "year": 1995,
+      "pin_cites": [
+        {
+          "parenthetical": "\"in involuntary commitment proceedings, as opposed to post-conviction criminal proceedings, no issues are likely to arise regarding respondent's counsel's failure to adequately investigate or prepare for trial, or counsel's failure to pursue defenses or witnesses\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "274 Ill.App.3d 46",
+      "category": "reporters:state",
+      "reporter": "Ill. App. 3d",
+      "case_ids": [
+        291584
+      ],
+      "year": 1995,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ill-app-3d/274/0046-01"
+      ]
+    },
+    {
+      "cite": "419 S.C. 172",
+      "category": "reporters:state",
+      "reporter": "S.C.",
+      "case_ids": [
+        12278707
+      ],
+      "weight": 5,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "parenthetical": "\"given the significant due process implications inherent in civil commitments, we find section 44-48-90's right to counsel is not merely a statutory right, but also a constitutional one arising under the Fourteenth Amendment and the South Carolina Constitution\""
+        },
+        {
+          "page": "846",
+          "parenthetical": "\"given the significant due process implications inherent in civil commitments, we find section 44-48-90's right to counsel is not merely a statutory right, but also a constitutional one arising under the Fourteenth Amendment and the South Carolina Constitution\""
+        },
+        {
+          "page": "849"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sc/419/0172-01"
+      ]
+    },
+    {
+      "cite": "624 S.E.2d 453",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.2d",
+      "case_ids": [
+        12634914
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "460",
+          "parenthetical": "holding that based on the \"substantial liberty interest at stake\" the movant \"has a constitutional right to effective assistance of counsel during the proceeding in which he was adjudicated a sexually violent predator, and on appeal from that adjudication\""
+        },
+        {
+          "page": "460"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/se2d/624/0453-01"
+      ]
+    },
+    {
+      "cite": "271 Va. 4",
+      "category": "reporters:state",
+      "reporter": "Va.",
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "parenthetical": "holding that based on the \"substantial liberty interest at stake\" the movant \"has a constitutional right to effective assistance of counsel during the proceeding in which he was adjudicated a sexually violent predator, and on appeal from that adjudication\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "295 Kan. 10",
+      "category": "reporters:state",
+      "reporter": "Kan.",
+      "case_ids": [
+        12121914
+      ],
+      "weight": 9,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "parenthetical": "holding the due process right to counsel in SVP proceedings \"carries with it a correlative right to competent, effective counsel\""
+        },
+        {
+          "page": "867",
+          "parenthetical": "holding the due process right to counsel in SVP proceedings \"carries with it a correlative right to competent, effective counsel\""
+        },
+        {
+          "page": "867-68",
+          "parenthetical": "Kansas SVP standard"
+        },
+        {
+          "page": "868"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/kan/295/0010-01"
+      ]
+    },
+    {
+      "cite": "454 S.W.3d 328",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6885179
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "parenthetical": "citing Lane with approval but finding it did not apply as there was no risk of imprisonment in protective custody case"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/454/0328-01"
+      ]
+    },
+    {
+      "cite": "768 F.2d 1181",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        356355
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "1183"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/768/1181-01"
+      ]
+    },
+    {
+      "cite": "370 S.W.3d 592",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7315270
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "609"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/370/0592-01"
+      ]
+    },
+    {
+      "cite": "2018 WL 3432647",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "opinion_index": 0
+    },
+    {
+      "cite": "553 S.W.3d 289",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12657207
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "301-02"
+        },
+        {
+          "page": "312-13"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/553/0289-01"
+      ]
+    },
+    {
+      "cite": "103 S.W.3d 765",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9137959
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "769"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/103/0765-01"
+      ]
+    },
+    {
+      "cite": "225 S.W.3d 439",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8305248
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "445"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/225/0439-01"
+      ]
+    },
+    {
+      "cite": "194 S.W.3d 863",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8416422
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "868"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/194/0863-01"
+      ]
+    },
+    {
+      "cite": "123 S.W.3d 170",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9058325
+      ],
+      "weight": 4,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "173"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/123/0170-01"
+      ]
+    },
+    {
+      "cite": "215 S.W.3d 96",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8329118
+      ],
+      "weight": 3,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "102",
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/215/0096-01"
+      ]
+    },
+    {
+      "cite": "466 U.S. 668",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6204802
+      ],
+      "weight": 8,
+      "year": 1984,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/466/0668-01"
+      ]
+    },
+    {
+      "cite": "509 S.W.3d 84",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12370955
+      ],
+      "weight": 3,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "97"
+        },
+        {
+          "page": "97"
+        },
+        {
+          "page": "97"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/509/0084-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1662,
+    "char_count": 48479,
+    "pagerank": {
+      "raw": 7.428312231231986e-08,
+      "percentile": 0.4437488440445756
+    },
+    "sha256": "ba218b1dc993f8be389e596e206a853cda1897b7fa751cae3062a6ec5c4907b5",
+    "simhash": "1:381d3920d4c93f9e",
+    "word_count": 7735
+  },
+  "last_updated": "2024-02-27T16:24:59.204426+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In the Matter of the Care and Treatment of Nicholas GRADO a/k/a Nicholas R. Grado, a/k/a Nicholas Ryan Grado, Appellant,\nv.\nSTATE of Missouri, Respondent."
+    ],
+    "opinions": [
+      {
+        "text": "Laura Denvir Stith, Judge\nNicholas Grado appeals the circuit court's judgment committing him to the custody of the Department of Mental Health under the Sexually Violent Predator Act, sections 632.480 through 632.525 (the \"Act\"). Mr. Grado argues he was entitled to, but deprived of, effective assistance of counsel in defending against the State's attempt to commit him as an SVP. This Court agrees Mr. Grado has a constitutional right under the Due Process Clause of the Fourteenth Amendment to effective assistance of counsel in defending against an attempt to commit him under the Act. Because Mr. Grado alleges his counsel's errors occurred in open court and so can be reviewed on the trial record, this Court does not reach the difficult issue of how such claims would be raised and determined for errors allegedly occurring off the record or on appeal, in light of the lack of a post-hearing process applicable to civil SVP commitments.\nThis Court also need not decide whether Missouri will apply the \"meaningful hearing based on the record\" standard for ineffective assistance of counsel now applied in Missouri termination of parental rights cases as suggested by the State, In Interest of J.P.B., 509 S.W.3d 84, 97 (Mo. banc 2017) , or the Strickland v. Washington, 466 U.S. 668, 104 S.Ct. 2052, 80 L.Ed.2d 674 (1984) , standard applied in other states, because under either standard Mr. Grado's counsel was not ineffective in failing to object to evidence Mr. Grado watched animalistic pornography, played a pedophilic video game, and was sexually attracted to animals. This evidence was admissible because the State's expert relied on it in assessing Mr. Grado's diagnosis and risk of re-offense. He had a meaningful hearing and it was a matter of trial strategy to determine whether the impact of this evidence would be minimized were it also discussed by Mr. Grado's counsel. For the reasons set out below, this Court also rejects Mr. Grado's claim there was insufficient evidence to support the finding he was an SVP as well as his claim he was insufficiently mature at the time of committing the index offense at age 18 for it to be constitutional to find he is an SVP as that finding allegedly becomes, in effect, a sentence of commitment for life. The judgment is affirmed.\nI. PROCEDURAL AND FACTUAL BACKGROUND\nOn October 16, 2014, while Mr. Grado was serving three concurrent five-year sentences for first-degree child molestation, the State filed the underlying petition seeking to have Mr. Grado committed as an SVP . The probate division of the circuit court held a three-day jury trial.\nTo have Mr. Grado committed as an SVP, the State was required to prove he had been convicted of an \"index\" sexually violent offense and has a mental abnormality making him more likely than not to commit a future act of sexual predatory violence unless confined to a secure facility. \u00a7 632.480(5). To meet its burden, the State presented testimony from Dr. Lisa Witcher, a licensed psychologist hired by the Missouri Department of Mental Health to perform an SVP examination of Mr. Grado. Dr. Witcher testified based on her interview of Mr. Grado and on her review of an abundance of his records from elementary and high school all the way through his incarceration.\nHere, Mr. Grado's index offense was his three convictions of first-degree child molestation. In pleading guilty, Dr. Witcher testified, Mr. Grado admitted when he was 18 years old he engaged in sexual contact with three children all under the age of seven. He started with his five-year-old nephew. He told his nephew they were playing a \"game\" where they pretended to be \"in a dream.\" He then proceeded to play a game of truth or dare, and Mr. Grado pulled down his pants and showed his nephew his genitals. He played a similar \"game\" with his six-year-old niece and his niece and nephew's seven-year-old cousin, only the \"game\" escalated and he \"dared\" the two girls to put their hands and mouths on his genitals. On other occasions, he tried to manipulate the three children into performing oral sex on him.\nIn addition to his index offense, Dr. Witcher testified Mr. Grado had multiple prior instances of sexual abuse of children. When he was 14, Mr. Grado had his one-year-old nephew place his hand on Mr. Grado's penis while he was masturbating. At 15, Mr. Grado and an eight- or nine-year-old boy touched one another's genitals, and Mr. Grado had the boy perform oral sex on him. Mr. Grado continued to have sexual interactions with that same boy multiple times over approximately a six-month period. Because Mr. Grado received sexual gratification from these interactions, Dr. Witcher diagnosed him with the paraphilia of pedophilic disorder non-exclusive type, sexually attracted to both males and females. Dr. Witcher further testified that because Mr. Grado continued to engage in predatory sexual conduct despite reporting feeling guilty for his conduct, he suffered from a mental abnormality that caused him serious difficulty in controlling his behavior.\nDr. Witcher also scored Mr. Grado on the Static 99-R and Static 2002-R, actuarial instruments used to determine Mr. Grado's risk. The Static 99-R and Static 2000-R placed him in the moderate to high risk category and moderate risk category to be reconvicted, respectively. In addition, Dr. Witcher testified Mr. Grado demonstrated several other risk factors, including his emotional congruence with children (Mr.\nGrado thought the child victims were his friends), sexual impulsivity, strong manipulation techniques, and sexual attraction to animals. Because of his sexual attraction to animals, Dr. Witcher diagnosed Mr. Grado with zoophilia, which is also a paraphilia. She testified he was at an increased risk to reoffend because he had two paraphilias. Based on the totality of Mr. Grado's behaviors, Dr. Witcher gave her opinion to a reasonable degree of psychological certainty he would commit future acts of predatory sexual violence unless confined in a secure facility, and Mr. Grado met the criteria of an SVP.\nThe State also presented testimony from Robert Gould, the operations manager for MOSOP and the primary therapist for Mr. Grado's group in the program. Mr. Gould testified that throughout the program Mr. Grado \"discussed more readily, more frequently, the interactions with animals\" and \"did not as readily discuss the human victims, child victims and\" admitted watching animated pornography featuring half-human, half-animal adult characters with exaggerated sexual features and playing a pedophilic video game which involved grooming techniques similar to those Mr. Grado used on his child victims. Mr. Grado maintained throughout MOSOP he was not a risk to children, but Mr. Gould testified he observed nothing during treatment which would signal Mr. Grado was no longer sexually attracted to children as well as animals.\nMr. Grado testified on his own behalf that he began to become sexually attracted to animals after watching animalistic pornography. At around the same time he also started playing a pedophilic video game and began molesting his index offense victims. In addition to testifying about his sexual history with children and animals, Mr. Grado stated sometimes, although not often, he had deviant sexual fantasies about his victims but would usually be able to divert his thoughts. He did not believe he was still sexually attracted to children but was unwilling to say whether he was still attracted to them until he got \"a complete grasp of [his] sexuality.\" Mr. Grado believed he could still easily manipulate children and was unsure if he would reoffend if left alone with a child. He unequivocally recognized animals continued to be a sexual trigger for him.\nMr. Grado's mother and brother also testified regarding Mr. Grado's childhood and their support of him. Mr. Grado's counsel also presented expert testimony from Dr. Richard Wollert, a clinical and forensic psychiatrist. Dr. Wollert generally discussed research on the developmental psychology of persons from the age of 12 through their mid-20s, specifically noting the part of the brain controlling foresight, judgment, and decision making continues to develop into the \"mid-20s.\" Dr. Wollert had not evaluated Mr. Grado, however, and so was unable to testify whether this research applied to him.\nThe jury found Mr. Grado to be an SVP, and the circuit court ordered him to be committed to the Department of Mental Health for control, care, and treatment. This appeal followed. Mo. Const. art V, \u00a7 10 .\nII. INEFFECTIVE ASSISTANCE OF COUNSEL CLAIMS\nMr. Grado argues he has a due process right to effective assistance of counsel in his SVP proceeding because his commitment as an SVP implicates his fundamental liberty interest. He also alleges the statutory right to assistance of counsel under sections 632.489 and 632.492 mandates counsel be effective. The State acknowledges this Court previously held an SVP has a constitutionally protected liberty interest, but asks the Court to reconsider this issue and hold there is no due process or statutory right to effective assistance of counsel in SVP proceedings. \"This Court reviews [such] issues of law de novo. \" Murrell v. State, 215 S.W.3d 96, 102 (Mo. banc 2007) (citation omitted).\nA. The Due Process Right to Counsel in SVP Proceedings\nThis Court has repeatedly reaffirmed civil commitment in SVP proceedings impinges on the SVP's fundamental liberty interest and so is protected by due process. In re Care and Treatment of Norton, 123 S.W.3d 170, 173 (Mo. banc 2003) , first held \"civil commitment of persons so classified [as sexually violent predators] impinges on the fundamental right of liberty.\" Norton explained this interest is probably the foundation for the legislature's grant of a statutory right to counsel to SVPs in sections 632.489 and 632.492, stating \"Missouri's General Assembly evidently conferred additional rights on suspected predators in its civil commitment statutes because even in civil proceedings for involuntary commitment, the person whose commitment is sought has a 'liberty [interest] protected by the Due Process Clause from arbitrary governmental action.' \" Id. at n.10 (internal citations and quotations omitted) (brackets in original).\nThis Court has twice reaffirmed Norton . Bernat v. State, 194 S.W.3d 863, 868 (Mo. banc 2006) , explicitly held: \" Norton held, and the Court here reaffirms, that SVPs are not members of a suspect class, but 'civil commitment of persons so classified impinges on the fundamental right of liberty,' that is, physical restraint by confinement to a treatment facility.\" In re Care and Treatment of Coffman, 225 S.W.3d 439, 445 (Mo. banc 2007), similarly reaffirmed physical commitment as an SVP impinges on the SVP's liberty interest. This Court again reaffirms civil commitment of SVPs impinges on a fundamental liberty interest and because this fundamental liberty interest is at stake, an SVP's \"due process right to the assistance of counsel vest[s] at the time the Attorney General file[s] a petition with the probate division.\" Norton, 123 S.W.3d at 172 .\nB. SVPs Have a Due Process Right to Effective Assistance of Counsel\nThe State argues that even if an SVP has a due process right to counsel, the Constitution does not guarantee appointed counsel must be effective. In support, it notes Rules 24.035 and 29.15 provide for the appointment of counsel in postconviction proceedings, yet this Court has held this does not guarantee the postconviction movant has the right to effective assistance of counsel. The State's argument ignores the fundamental distinction between a postconviction proceeding and an SVP commitment proceeding. A postconviction proceeding is a \"collateral attack on a final judgment.\" Barnett v. State, 103 S.W.3d 765, 769 (Mo. banc 2003) . The right to counsel in such collateral proceedings is not constitutionally required, McFadden v. State, No. SC96453, 553 S.W.3d 289, 301-02 (Mo. banc July 17, 2018), 2018 WL 3432647 , and is why the provision for counsel in this Court's rules does not constitutionally require counsel be effective.\nUnlike a postconviction proceeding, an SVP proceeding is the original trial at which the initial determination is made whether the respondent can be involuntarily committed as an SVP. These original actions are brought by the State and result in a proceeding in which the courts determine in the first instance whether the person's liberty will be taken away. Counsel in these proceedings help to protect the individual from having a fundamental right of liberty taken away. The SVP proceeding is in this way more comparable to the trial of a criminal defendant than to the criminal defendant's postconviction proceeding. In the criminal context, this Court has recognized the right to counsel means the right to effective counsel. See State ex rel. Mo. Pub. Defender Comm'n v. Waters, 370 S.W.3d 592, 609 (Mo. banc 2012).\nWhile the SVP proceeding is civil, as Walker v. McLain, 768 F.2d 1181, 1183 (10th Cir. 1985) , held in the context of imprisonment for civil contempt, \"The right to counsel, as an aspect of due process, turns not on whether a proceeding may be characterized as 'criminal' or 'civil,' but on whether the proceeding may result in a deprivation of liberty.\" Accord Lane, 313 S.W.3d at 186 (civil contempt); see also State v. Churchill, 454 S.W.3d 328 (Mo. banc 2015) (citing Lane with approval but finding it did not apply as there was no risk of imprisonment in protective custody case).\nFor these and similar reasons, those states recognizing a constitutional or statutory right to counsel in SVP proceedings recognize counsel must be effective. See, e.g., In re Ontiberos, 295 Kan. 10, 287 P.3d 855, 867 (2012) (holding the due process right to counsel in SVP proceedings \"carries with it a correlative right to competent, effective counsel\"); Jenkins v. Dir. of Va. Ctr. for Behavioral Rehab., 271 Va. 4, 624 S.E.2d 453, 460 (2006) (holding that based on the \"substantial liberty interest at stake\" the movant \"has a constitutional right to effective assistance of counsel during the proceeding in which he was adjudicated a sexually violent predator, and on appeal from that adjudication\"); Matter of Chapman, 419 S.C. 172, 796 S.E.2d 843, 846 (2017) (\"given the significant due process implications inherent in civil commitments, we find section 44-48-90's right to counsel is not merely a statutory right, but also a constitutional one arising under the Fourteenth Amendment and the South Carolina Constitution\"); see also cases discussed infra, section II.C, II.D. This Court holds likewise. Indeed, an SVP's due process right to counsel in SVP proceedings would be hollow were there no accompanying requirement counsel be effective.\nC. Proper Avenue for Bringing Ineffective Assistance of Counsel Claims Neither the Act nor this Court's cases currently provide an avenue for persons committed as SVPs to raise a claim for ineffective assistance of counsel. The parties ask this Court to develop rules as to how all such claims should be brought. Their briefs and argument debate the relative merits of appointment of a master on appeal, remand for an evidentiary hearing by the probate division, use of habeas corpus, or the creation of a post-SVP hearing procedure akin to that used for postconviction claims in criminal cases.\nThese are important and difficult issues which this Court will, at some future point, need to resolve should the legislature not resolve the issue in the interim by adopting a statutory procedure for the consideration of such claims. Here, however, all of Mr. Grado's claims of ineffective assistance involve counsel's actions at trial, and are evident on the record.\nFor claims based on what happened at the trial, it is consistent with the approach taken in states such as Maine and Illinois to allow the ineffectiveness claim to be determined on appeal. See, e.g., In re Henry B., 159 A.3d at 827-28 (citation omitted) (\"A direct appeal from an order of involuntary commitment may include a claim that the individual's attorney provided ineffective assistance of counsel 'when the record is sufficiently well developed to permit a fair evaluation' of the claim.\"); Matter of Carmody, 274 Ill.App.3d 46, 210 Ill.Dec. 782, 653 N.E.2d 977, 985 (1995) (\"in involuntary commitment proceedings, as opposed to post-conviction criminal proceedings, no issues are likely to arise regarding respondent's counsel's failure to adequately investigate or prepare for trial, or counsel's failure to pursue defenses or witnesses\"). Kansas also permits a person \"detained under the KSVPA may raise an ineffective assistance of trial counsel claim on direct appeal.\" Ontiberos, 287 P.3d at 866 .\nAllowing record-based ineffectiveness claims to be raised on direct appeal is also consistent with how this Court reviews claims of ineffective assistance in termination of parental rights cases. In re Adoption of C.M.B.R., 332 S.W.3d 793, 820 n.22 (Mo. banc 2011) , specifically found such claims had been and could continue to be raised on direct appeal when such claims could be evaluated on the trial record. Similarly, In the Interest of J.C., Jr. , 781 S.W.2d at 228, considered parents' claims of ineffectiveness in their termination of parental rights proceeding on direct appeal. Allowing claims that counsel was ineffective at trial to be raised on direct appeal also is consistent with the fact this Court reviewed at least some claims of ineffective assistance of trial counsel in criminal cases before the enactment of postconviction relief rules. For example, State v. Wheat, 775 S.W.2d 155, 157 (Mo. banc 1989) , held courts could review ineffective assistance of counsel claims on direct appeal when the \"record was adequate.\"\nAs in the above cases, Mr. Grado alleges counsel was ineffective for failing to make certain objections or take certain actions on the record at the SVP proceeding. These alleged errors can be determined through review of the appellate record.\nD. Mr. Grado's Counsel Was Not Ineffective\nThe Act and this Court's cases also fail to address the standard to be applied to determine whether counsel was effective, and the parties ask the Court to resolve this issue also. The State asks this Court to adopt the standard applied in termination of parental rights cases by determining \"whether the attorney was effective in providing his client with a meaningful hearing based on the record.\" In Interest of J.P.B., 509 S.W.3d at 97. It says there is no question that counsel provided a meaningful hearing by challenging the State's evidence and presenting substantial evidence on behalf of Respondent.\nRespondent does not claim that he was not provided with the kind of \"meaningful hearing\" required in termination of parental rights cases. Rather, he argues that because a deprivation of his constitutional due process rights is involved, he is entitled to application of the standard set out in Strickland. In support, he notes that this is the standard applied in SVP and other involuntary commitment proceedings in other states. See, e.g., Matter of Commitment of J.M. , 381 Wis.2d 28, 911 N.W.2d 41, 50 (2018) ; In re Ontiberos, 287 P.3d at 867-68 (Kansas SVP standard).\nAgain, this is an issue that must be left for another day, for Mr. Grado would not be entitled to relief under either the \"meaningful hearing\" or Strickland standard. Under the \"meaningful hearing\" standard, this Court would determine - based on the record on appeal - whether counsel provided Mr. Grado with a meaningful SVP hearing. Strickland would require Mr. Grado to show by a preponderance of the evidence: \"(1) his or her counsel failed to exercise the level of skill and diligence that a reasonably competent counsel would in a similar situation, and (2) he or she was prejudiced by that failure.\" Mallow v. State, 439 S.W.3d 764, 768-69 (Mo. 2014) . In order to overcome the \"strong presumption that counsel's conduct was reasonable and effective,\" Smith v. State, 370 S.W.3d 883, 886 (Mo. banc 2012) , Mr. Grado would have to identify \"specific acts or omissions of counsel that, in light of all the circumstances, fell outside the wide range of professional competent assistance,\" Zink v. State, 278 S.W.3d 170, 176 (Mo. banc 2009) . \"Trial strategy decisions may only serve as a basis for ineffective counsel if they are unreasonable.\" Id. In order to prove the prejudice prong of Strickland , the question is whether \"there is a reasonably probability that, but for counsel's unprofessional errors, the result of the proceeding would have been different.\" Strickland, 466 U.S. at 694 , 104 S.Ct. 2052.\nReviewing the record, Mr. Grado's counsel was not ineffective under either standard for failing to object to the State's introduction of evidence Mr. Grado had watched animalistic pornography, played a pedophilic video game, and engaged in sexual activity with animals. The State's expert Dr. Witcher testified that part of the evidence on which she based her diagnosis that Mr. Grado had pedophilia was the fact he showed pornography to a child he abused. Dr. Witcher also testified that a person with two paraphilias was at an increased risk to reoffend. She testified this applied to Mr. Grado because in addition to having pedophilia, he has zoophilia, which is a sexual attraction to animals. In explaining the basis of this diagnosis she discussed his sexual activity with animals.\nThis tied in with testimony by Mr. Gould that Mr. Grado disclosed while in MOSOP that he played a video game where an adult babysitter would earn \"trust points\" with the children by performing certain tasks; those \"points\" could then be traded for sexual interactions between the child and babysitter. Mr. Gould found the game \"strikingly parallel\" to the manipulation tactics Mr. Grado used on his own victims. Mr. Gould also stated Mr. Grado watched pornography featuring half-human, half-animal characters. Finally, Mr. Gould testified about Mr. Grado's sexual attraction to animals and stated Mr. Grado more willingly discussed his interactions with animals than with children. Dr. Witcher also testified she reviewed all of Mr. Grado's MOSOP records and his \"grooming behavior\" increased his risk because it reflected \"planning and forethought.\"\nMr. Grado does not argue counsel was ineffective in failing to limit the use of this evidence, but rather argues it was inadmissible. Because the State's experts relied on this evidence to support their opinions, this argument would not have been successful. See \u00a7 490.065.3 (experts can rely on facts \"reasonably relied upon by experts in the field\"); Zink, 278 S.W.3d at 188 (\"trial counsel is not ineffective for failing to make non-meritorious objections\") (citation and quotations omitted). As this evidence was properly admitted by the State, this Court cannot say it was ineffective for counsel to pursue a trial strategy to cross-examine the State's witnesses on these activities or have Mr. Grado testify about this evidence in an attempt to minimize its impact and persuade the jury it did not increase his risk to reoffend. Id. at 176 .\nIII. MR. GRADO WAS AN ADULT AT THE TIME OF THE INDEX OFFENSE AND AT THE TIME OF HIS SVP COMMITMENT PROCEEDING\nMr. Grado also alleges his commitment violates his rights to due process, equal protection and freedom from cruel and unusual punishment. In support, he alleges a person committed as an SVP in effect receives a sentence of life without parole because that person never can be unconditionally released. Analogizing to the bar on life without parole sentences for juveniles in Graham v. Florida, 560 U.S. 48, 130 S.Ct. 2011, 176 L.Ed.2d 825 (2010) , and on the recognition in Roper v. Simmons, 543 U.S. 551, 125 S.Ct. 1183, 161 L.Ed.2d 1 (2005) , that juveniles are not fully mature, he argues that because he was only 18 at the time of his index offense and younger than that during some of the behavior relied on, under an extension of the reasoning set out in Roper and Graham , his commitment to the Department of Mental Health constitutes an unconstitutional life sentence without parole.\nBecause Mr. Grado failed to preserve this constitutional claim, it is reviewed for plain error. Appellate review for plain error is a two-step process:\nThe first step requires a determination of whether the claim of error facially establishes substantial grounds for believing that manifest injustice or miscarriage of justice has resulted. All prejudicial error, however, is not plain error, and plain errors are those which are evident, obvious, and clear. If plain error is found, the court then must proceed to the second step and determine whether the claimed error resulted in manifest injustice or a miscarriage of justice.\nState v. Baumruk, 280 S.W.3d 600, 607-08 (Mo. banc 2009) (internal citations, quotations, and alterations omitted).\nIn Kirk v. State, 520 S.W.3d 443, 450 (Mo. banc 2017) , and Nelson v. State, 521 S.W.3d 229, 232 (Mo. banc 2017) , this Court rejected a nearly identical argument that commitment as an SVP constitutes a life sentence under the Act. Kirk held it was premature to determine whether the lack of unconditional release under the current statute is constitutional, stating \"Whether the release provisions of the statute are constitutionally sufficient is not before this Court in this case, as this case involves only the issue of whether Kirk's commitment is constitutionally permitted.\" 520 S.W.3d at 450 . Nelson similarly rejected a claim the Act is unconstitutional due to its release provisions and found those \"circumstances not now before the Court.\" 521 S.W.3d at 232 . As in Kirk and Nelson , Mr. Grado is now challenging the constitutionality of his commitment. He cannot do so by arguing that should he ever be otherwise eligible for release, the statute's release provisions are inadequate. Such an argument is not ripe.\nEven if the issue were ripe, and even assuming Graham and Roper were applicable to involuntary civil commitments, this Court recently reaffirmed in McFadden, 553 S.W.3d at 312-13, that the rationale of Graham and Roper does not apply to persons who were 18 or older at the time of the offense. This is consistent with Graham and Roper , which held \"the age of 18 is the point where society draws the line for many purposes between childhood and adulthood.\" Graham, 560 U.S. at 74, 130 S.Ct. 2011, citing, Roper, 543 U.S. at 574, 125 S.Ct. 1183 (alteration omitted). While certainly Mr. Grado's youthfulness was relevant to determine whether he truly was an SVP, his age of 18 at the time of his offenses does not bar him from being committed as an SVP.\nIV. SUFFICIENT EVIDENCE EXISTED TO FIND MR. GRADO WAS AN SVP\nMr. Grado finally argues there was insufficient evidence to find he was an SVP because there was insufficient evidence he suffered from a mental abnormality and is more likely than not to commit a future act of sexual predatory violence unless confined to a secure facility. He is incorrect.\n\"Under section 632.480(5), to commit someone to the custody of the Department of Mental Health as a sexually violent predator, the state must prove by clear and convincing evidence that the respondent: (1) has committed a sexually violent offense; (2) suffers from a mental abnormality; and (3) this mental abnormality 'makes the person more likely than not to engage in predatory acts of violence if not confined in a secure facility.' \" Kirk, 520 S.W.3d at 448-49 .\nIn reviewing a claim there is insufficient evidence to support an SVP determination, \"The Court views the evidence in a light most favorable to the jury verdict, disregarding all contrary evidence and inferences, and determines whether the evidence was sufficient for twelve reasonable jurors to have believed beyond a reasonable doubt that [respondent] is an SVP.\" Murrell, 215 S.W.3d at 106 . The \"jury is permitted to draw such reasonable inferences from the evidence as the evidence will permit and may believe or disbelieve all, part, or none of the testimony of any witness.\" State v. Hineman, 14 S.W.3d 924, 927 (Mo. banc 1999) .\nA. Sufficient Evidence Existed Mr. Grado Suffered From a Mental Abnormality\nUnder section 632.480, \" 'mental abnormality' is (1) a congenital or acquired condition; (2) affecting the emotional or volitional capacity; (3) that predisposes the person to commit sexually violent offenses; (4) in a degree that causes the individual serious difficulty controlling his behavior.\" Murrell, 215 S.W.3d at 106 . Mr. Grado alleges there was insufficient evidence he met the criteria for pedophilic disorder under the DSM-V and, therefore, insufficient evidence upon which the jury could find he suffered from a mental abnormality. The State alleged there was sufficient evidence to show he had pedophilic disorder under the DSM-V. That authority defines a pedophilic disorder as a showing of:\nA. Over a period of at least 6 months, recurrent, intense sexually arousing fantasies, urges, or behaviors involving sexual activity with a prepubescent child or children (generally age 13 years or younger).\nB. The individual has acted on these sexual urges, or the sexual urges or fantasies cause marked distress or interpersonal difficulty.\nC. The individual is at least age 16 years and at least 5 years older than the child or children in Criterion A.\nAmerican Psychiatric Ass'n, Diagnostic and Statistical Manual of Mental Disorders 697 (5th ed. 2013) (DSM-V).\nIn diagnosing Mr. Grado with pedophilic disorder as his mental abnormality, Dr. Witcher testified Mr. Grado had sexual urges or fantasies, many of which were acted upon, from the age of 14 through the time of trial at age 23. She testified Mr. Grado, at age 15, offended against a child \"between the ages of eight and ten,\" and she believed Mr. Grado continued to offend against that same child when Mr. Grado turned 16 years old. He did the same thing two years later when he committed his index offense at age 18, and the jury also heard testimony Mr. Grado continued to have sexual urges while serving his prison sentence and up until the time of trial at age 23.\nFurther, Dr. Witcher specifically testified that in reviewing Mr. Grado's records and reports, \"he was bothered by his behavior\" and had \"the thoughts going: I don't think this is right. I feel kind of bad about this. I'm not sure this is okay, which causes distress.\" During Mr. Grado's self-evaluation, Dr. Witcher stated Mr. Grado was able to \"at least retrospectively\" identify \"feelings of guilt\" as they related to his child victims, but nevertheless continued the sexual predatory behavior anyways. Based on her review of Mr. Grado's records and interviews with him, Dr. Witcher testified his pedophilic disorder rose to the level of a mental abnormality because \"it, A, resulted in a sexually violent offense; and then, B, it's been shown to affect his ability to control his behavior.\"\nMr. Grado alleges any acts occurring before the age of 16 cannot be relied on and the evidence was vague as to his and the child's ages when he offended. He also argues the State failed to prove a direct link showing the acts were caused by pedophilic urges or that his pedophilic urges caused marked distress or interpersonal difficulty, rather than simply being acts of adolescent sexual exploration. Mr. Grado's arguments ignore the fact the \"jury is permitted to draw such reasonable inferences from the evidence as the evidence will permit.\" Hineman, 14 S.W.3d at 927 . They also overlook that once \"opinion testimony has been admitted, as any other evidence, it may be relied upon for purposes of determining the submissibility of the case.\" Washington by Washington v. Barnes Hosp., 897 S.W.2d 611, 616 (Mo. banc 1995) . The \"natural probative effect of this testimony is a consideration for the jury.\" Id.\nAbsent a confession, there seldom will be direct evidence showing the acts were caused by pedophilic urges or that his pedophilic urges caused distress. Here, the jury heard Mr. Grado was 16 when he offended against a victim five years younger. Two years later he did the same thing again. He continued to have pedophilic urges up until the time of trial, as well as another philia, and the jury heard these sexual urges and behaviors caused him distress. It also heard testimony that based on Mr. Grado's prior behavior, his pedophilic disorder predisposed him to sexually violent behavior, which he engaged in, and was unsure he could control. Based on this evidence and the reasonable inferences it supports, there was sufficient evidence for a reasonable juror to find he met the criteria for pedophilic disorder and suffered from a mental abnormality. Although Mr. Grado attacked the credibility of the evidence and testimony, these were issues for the jury and it was persuaded otherwise.\nB. Sufficient Evidence Existed Mr. Grado Would More Likely Than Not Commit Predatory Acts of Sexual Violence If Not Confined\nNext, Mr. Grado asserts there was insufficient evidence that because of his mental abnormality he was more likely than not to commit a future act of sexual predatory violence unless confined to a secure facility, noting that no single predictive test indicated a more than 50 percent likelihood he would reoffend. But the jury was entitled to look at the evidence as a whole. The jury heard Dr. Witcher's expert opinion that Mr. Grado was more likely to do so unless confined. She extensively testified regarding the basis for her opinion. That basis included not just Mr. Grado's score on various diagnostic criteria, but also his pedophilic disorder and zoophilia diagnoses, prior sexual history, sexual impulsivity and promiscuity, emotional congruence with children, strong manipulation techniques, and inability to control his sexual interactions with animals. She testified these factors and abnormalities increased his risk to reoffend. While Mr. Grado's counsel could and did point out weaknesses in Dr. Witcher's testimony, once sufficient evidence was admitted and her expert opinion offered, it was for the jury to determine what evidence to believe. Id. The evidence was sufficient to support the jury's finding that because of Mr. Grado's mental abnormality, he was more likely than not to commit a future predatory act of sexual violence if not confined to a secure facility.\nV. CONCLUSION\nBecause SVP proceedings implicate a fundamental liberty interest, SVPs have not only a due process right to counsel but to effective assistance of counsel. But, Mr. Grado failed to prove his counsel was ineffective. This Court affirms.\nFischer, C.J., Wilson, Russell and Powell, JJ., concur; Draper, J., concurs in separate opinion filed; Breckenridge, J., concurs in opinion of Draper, J.\nCONCURRING OPINION\nGeorge W. Draper III, Judge\nI concur with the principal opinion's holding Nicholas Grado (hereinafter, \"Grado\") has a constitutional right to effective assistance of counsel in proceedings to commit him pursuant to the Sexually Violent Predator Act (hereinafter, \"the Act\"). I further concur with the principal opinion's holding Grado did not receive ineffective assistance of counsel. However, the principal opinion did not reach or resolve the issue concerning which standard should apply when a civilly committed sexually violent predator (hereinafter, \"SVP\") raises ineffective assistance of counsel claims. Hence, I write separately because I believe this case of first impression, along with its companion case, In re the Matter of the Care and Treatment of James Braddy , No. SC96851, 559 S.W.3d 905, 2018 WL 4575151 (Mo. banc 2018), present this Court with the opportunity to declare the appropriate standard. After reviewing a wealth of persuasive legal authority from other jurisdictions implementing the same standard under the same circumstances, had the principal opinion addressed the matter, I believe it would be clear these claims should be reviewed under the standard set forth in Strickland v. Washington, 466 U.S. 668, 104 S.Ct. 2052, 80 L.Ed.2d 674 (1984).\nIn this case, the state argued, if this Court determined an ineffective assistance of counsel claim raised by an SVP was cognizable, the appropriate standard should be whether the attorney was effective in providing the client with a meaningful hearing based on the record. This is the same standard that applies in termination of parental rights cases. In Interest of J.P.B. , 509 S.W.3d 84, 97 (Mo. banc 2017). However, the state cannot cite any legal authority-from Missouri or other jurisdictions-applying such a minimal standard to SVP proceedings. In contrast, Grado cites widespread support in other jurisdictions to apply Strickland to involuntary commitments generally and specifically to SVP proceedings, which result in a form of involuntary commitment. I believe these cases constitute persuasive authority for this Court to adopt the Strickland standard.\nWhen examining involuntary commitment proceedings generally, courts apply the Strickland standard. The Wisconsin Supreme Court noted in Matter of Commitment of J.M. , 381 Wis.2d 28, 911 N.W.2d 41, 50 (2018), \"neither the parties nor our research has revealed any jurisdiction that currently applies a standard different than Strickland to claims of ineffective assistance of counsel in commitment proceedings.\" J.M. noted Strickland should govern because \"the liberty interests of a movant at stake in the involuntary commitment proceeding are similar to the liberty interests of a movant in criminal proceedings,\" and the \"similarity of liberty interests involved in these proceedings, namely that an institutionalized person is subject to state control and direction (here medical treatment) that the institutionalized person claims is not warranted under the law, supports applying the same standard for evaluating ineffective assistance of counsel claims in criminal proceedings and in involuntary commitment proceedings.\" Id. at 49. Moreover, \"the Strickland standard would be easier for the bench and bar to apply in a variety of cases than a new standard\" because it \"has been known to and applied by both the bench and the bar for more than 30 years\" and \"carries with it a developed body of case law that will aid courts in the efficient and timely resolution of claims of ineffective assistance of counsel.\" Id. at 50.\nIn In re Henry B. , 159 A.3d 824, 827 (Me. 2017), the Maine Supreme Court adopted the Strickland standard for involuntary civil commitments because \"the liberty interests at stake are on par with those at stake in criminal cases, Strickland is a well-known and developing standard, and a 'more intrusive post-trial inquiry could encourage the proliferation of ineffectiveness challenges, and possibly delay the permanency necessary to stabilize' a mentally ill individual's treatment in a safe environment.\" Further, in Matter of J.S. , 388 Mont. 397, 401 P.3d 197, 204 (2017), the Montana Supreme Court noted, because involuntary civil commitment of any type involves the potential deprivation of liberty, albeit under the Fourteenth Amendment rather than the Sixth Amendment, \"[a]ll courts recognizing a right to counsel in civil commitment proceedings have drawn on Sixth Amendment precedent established by Strickland .\" Other cases adopting this standard in civil commitment proceedings apply similar reasoning.\nWhen determining what standard to apply to SVP proceedings, every jurisdiction to address the issue has universally adopted the Strickland standard. In Matter of Chapman , 419 S.C. 172, 796 S.E.2d 843, 849 (2017), the South Carolina Supreme Court held the \"appropriate standard in these instances is the two-prong Strickland standard used to vindicate a criminal defendant's Sixth Amendment right to counsel\" for an \"SVP's right to counsel arises from a constitutional right to due process similar to the rights attendant to a criminal trial.\" Matter of Chapman held application of Strickland simplifies and makes the effectiveness determination more accurate and consistent because \"a majority of jurisdictions use the Strickland standard in evaluating ineffective assistance claims in a civil commitment context\" and because \" Strickland is a well-known standard applied in an extensive body of case law in the criminal and civil contexts.\" Id.\nSimilarly, in In re Ontiberos , 295 Kan. 10, 287 P.3d 855, 868 (2012), the Kansas Supreme Court declined to adopt its \"right-to-fair-trial framework\" used in cases when a civil litigant alleged opposing counsel committed misconduct and rather held \"the well-known Strickland test better addresses the concerns embodied in ineffective assistance of counsel claims in KSVPA proceedings.\" It noted, although, the \"United States Supreme Court crafted Strickland to determine when counsel's performance violates a criminal defendant's Sixth Amendment right to counsel,\" \"it makes sense to apply the same standard based on a Fourteenth Amendment right to counsel.\" Id. Further, the court found, because Strickland has been uniformly adopted, it is \"likely to invite a more consistent application.\" Id. Accordingly, \"the two-prong Strickland test applies because [the] right to counsel arises from a constitutional right similar to the rights attendant to a criminal trial.\" Id. ; accord Jenkins v. Dir. of Va. Ctr. for Behavioral Rehab. , 271 Va. 4, 624 S.E.2d 453, 460 (2006) ; In re Detention of Crane , 704 N.W.2d 437, 439 (Iowa 2005) ;\nIn re Detention of Moore , 167 Wash.2d 113, 216 P.3d 1015, 1020 (2009) ; People v. Rainey , 325 Ill.App.3d 573, 259 Ill.Dec. 369, 758 N.E.2d 492, 503 (2001).\nAfter examining the reasoning of the cases from other jurisdictions applying Strickland in general involuntary civil commitment proceedings and in SVP proceedings, I believe Strickland articulates the appropriate standard for SVP proceedings and should be adopted in Missouri. An SVP's right to counsel arises from a constitutional right to due process, similar to-albeit distinct from-the Sixth Amendment right to counsel, and the right exists because it is the SVP's liberty that is affected, similar to a criminal commitment. The right to counsel arises from the Fourteenth Amendment and protects the individual from an unlawful infringement on liberty, similar to a criminal commitment. Given the similarities between SVP proceedings and criminal commitment, it is not only reasonable, but also prudent, to look to criminal standards for guidance.\nHence, I would find the Strickland standard should be applied when civilly committed SVPs raise ineffective assistance of counsel claims. I concur in all other respects.\nUnless otherwise stated, statutory references are to the Revised Statutes of Missouri 2000 and Supp. 2014.\nIn 2012, Mr. Grado pleaded guilty to three counts of child molestation pursuant to section 566.067. The circuit court sentenced him to five years imprisonment on each count to be served concurrently but suspended execution of the sentence and placed him on probation. As a condition of probation, the circuit court required Mr. Grado to complete the 120-day Missouri Sex Offender Program (MOSOP) in the Missouri Department of Corrections, which he did. After violating his probation conditions, however, the circuit court revoked his probation and sentenced him to serve his previously suspended prison terms.\nAn \"index\" offense is the underlying sexually violent offense for which the individual was caught and prosecuted. See \u00a7 632.480(4) (listing sexually violent offenses).\nThe conduct occurring over the three-week period constituted a single \"index offense.\"\nSection 632.489 provides the alleged SVP is entitled \"To be represented by counsel,\" and section 632.492 provides, \"At all stages of the proceedings [under the Act], any person subject to [the Act] shall be entitled to the assistance of counsel, and if the person is indigent, the court shall appoint counsel to assist such person.\"\nSee also State v. Hunter, 840 S.W.2d 850, 871 (Mo. banc 1992) (because the party had \"no constitutional right to counsel,\" then \"[c]onsequently, there is no constitutional claim to ineffective assistance\" of counsel; suggesting the converse is true as well - that where there is a constitutional right to counsel, counsel must be effective). A criminal defendant has a constitutional right to the effective assistance of counsel at trial under the Sixth and Fourteenth Amendments. See Gideon v. Wainwright, 372 U.S. 335, 342-44, 83 S.Ct. 792, 9 L.Ed.2d 799 (1963) ; State ex rel. Family Support Div.-Child Support Enforcement v. Lane, 313 S.W.3d 182, 186 (Mo. App. 2010) (\"The right to counsel exists in state, in addition to federal, proceedings, by virtue of the Due Process Clause of the Fourteenth Amendment to the United States Constitution\") (citation omitted).\nMr. Grado also alleges Norton implied a statutory right to the effective assistance of counsel when it held the Act passed strict scrutiny despite its impingement on the SVP's liberty interest in part because the Act contained multiple \"procedural safeguards,\" including the right to \"be represented by counsel at the hearing.\" 123 S.W.3d at 174 . Because this Court finds a constitutional right to effective counsel exists, this Court need not address whether there is a statutory right to effective assistance of counsel.\nAs the parties note, on appeal the SVP is most often represented by the same counsel who represented him or her at trial and, therefore, it is not conducive to raising claims of ineffectiveness either in a post-trial motion or on appeal. A post-appeal procedure would allow for appointment of new counsel and consideration of ineffective assistance of counsel at both the trial and appellate level, as would a habeas petition, but there is no right to counsel in a habeas proceeding and a right to counsel in a post-appeal proceeding would need to be adopted by either statute or rule. Appointment of a master by this Court also would fail to solve all difficulties.\nThis Court ultimately found the ineffective assistance of counsel claim brought on direct appeal was moot because the case was reversed and remanded on other grounds. As in this case, the Court noted there might be some need for a hearing on the ineffective assistance of counsel claims when factual issues arise outside the record. Id. Likewise, In Interest of J.M.B., 939 S.W.2d 53, 56-57 (Mo. App. 1997) , found it apparent from the record counsel was ineffective for not requesting at least a short recess to attempt to contact the mother when she did not appear at the hearing, not objecting during the direct examination of the sole witness, not asking more questions on cross examination, and stating he believed the mother's rights should be terminated.\nWhat formerly was referred to in the DSM-IV as \"pedophilia,\" was by the time of trial in the DSM-V, broken into the sexual orientation of \"pedophilia\" and the diagnosis of \"pedophilic disorder.\" Compare American Psychiatric Ass'n, Diagnostic and Statistical Manual of Mental Disorders 528 (4th ed. 1994), with American Psychiatric Ass'n, Diagnostic and Statistical Manual of Mental Disorders 697 (5th ed. 2013). Dr. Witcher explicitly diagnosed Mr. Grado with pedophilic disorder, using the criteria outlined in the DSM-V. Although the parties and witnesses sometimes used the term \"pedophilia\" throughout the trial, it was clear all parties were aware they were discussing \"pedophilic disorder\" rather than simply the sexual orientation of \"pedophilia.\"\nSee, e.g., In re Detention T.A.H.-L , 123 Wash.App. 172, 97 P.3d 767, 771 (2004) ; State of Tex. for the Best Interest and Protection of H.W. , 85 S.W.3d 348, 356 (Tex. App. 2002) ; Pope v. Alston , 537 So.2d 953, 956-57 (Ala. Civ. App. 1988) ; In re Alleged Mental Illness of Cordie , 372 N.W.2d 24, 29 (Minn. Ct. App. 1985).",
+        "type": "majority",
+        "author": "Laura Denvir Stith, Judge"
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "In the Matter of the Care and Treatment of Nicholas GRADO a/k/a Nicholas R. Grado, a/k/a Nicholas Ryan Grado, Appellant,\nv.\nSTATE of Missouri, Respondent.\nNo. SC 96830\nSupreme Court of Missouri, en banc.\nOpinion issued September 25, 2018\nRehearing Denied December 4, 2018\nModified on the Court's own motion December 4, 2018\nGrado was represented by Chelsea R. Mitchell of the public defender's office in Columbia, (573) 777-9977.\nThe state was represented by Katharine A. Dolin and Daniel McPherson of the attorney general's office in Jefferson City, (573) 751-3321."
+  },
+  "file_name": "0888-01",
+  "first_page_order": 888,
+  "last_page_order": 905
+}

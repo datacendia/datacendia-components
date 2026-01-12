@@ -1,0 +1,59 @@
+{
+  "id": 12250510,
+  "name": "Earl v. Roy, Commissioner, Minnesota Department of Corrections",
+  "name_abbreviation": "Earl v. Roy",
+  "decision_date": "2012-03-05",
+  "docket_number": "No. 11-8165",
+  "first_page": "1249",
+  "last_page": "1249",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1249"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 111,
+    "ocr_confidence": 0.619,
+    "sha256": "8fd3e4f7ed20998e84af36a86a535c6e62ce472bbab0cad995c5ab45970af009",
+    "simhash": "1:23bb04fb2d38b641",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Earl v. Roy, Commissioner, Minnesota Department of Corrections."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8165.\nEarl v. Roy, Commissioner, Minnesota Department of Corrections."
+  },
+  "file_name": "1249-08",
+  "first_page_order": 1331,
+  "last_page_order": 1331
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12427063,
+  "name": "Johnson v. Florida Department of Corrections",
+  "name_abbreviation": "Johnson v. Florida Department of Corrections",
+  "decision_date": "2012-12-03",
+  "docket_number": "No. 12-6942",
+  "first_page": "1054",
+  "last_page": "1054",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1054"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 94,
+    "ocr_confidence": 0.669,
+    "sha256": "ff4e5e59d1d00462b1cf2a5f7cb36a3463045f3f3bcef9fa5d70d736eda7ef02",
+    "simhash": "1:1f724a3303cab076",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Johnson v. Florida Department of Corrections."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6942.\nJohnson v. Florida Department of Corrections."
+  },
+  "file_name": "1054-04",
+  "first_page_order": 1130,
+  "last_page_order": 1130
+}

@@ -1,0 +1,59 @@
+{
+  "id": 6019835,
+  "name": "Smith v. Mahoney, Warden",
+  "name_abbreviation": "Smith v. Mahoney",
+  "decision_date": "2010-10-12",
+  "docket_number": "No. 10-5680",
+  "first_page": "965",
+  "last_page": "965",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 965"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.557,
+    "sha256": "59f963a260a77ac03160f933aa1e34c99ad8a797931abb0572f9710fa082e20e",
+    "simhash": "1:16a7e6e13ddb90e6",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Smith v. Mahoney, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5680.\nSmith v. Mahoney, Warden."
+  },
+  "file_name": "0965-04",
+  "first_page_order": 987,
+  "last_page_order": 987
+}

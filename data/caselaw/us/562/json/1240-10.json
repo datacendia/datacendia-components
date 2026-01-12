@@ -1,0 +1,59 @@
+{
+  "id": 5978688,
+  "name": "Harris v. United States",
+  "name_abbreviation": "Harris v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8256",
+  "first_page": "1240",
+  "last_page": "1240",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1240"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.632,
+    "sha256": "3065f8b0155acd0ae7be9c18d3d68937b51b9bbcbaf341fa6669df7cd54567ca",
+    "simhash": "1:37cada534ebd3947",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Harris v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8256.\nHarris v. United States."
+  },
+  "file_name": "1240-10",
+  "first_page_order": 1262,
+  "last_page_order": 1262
+}

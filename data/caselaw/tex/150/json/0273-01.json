@@ -1,0 +1,794 @@
+{
+  "id": 2328418,
+  "name": "Philip Benoit v. Garnitt M. Wilson et al.",
+  "name_abbreviation": "Benoit v. Wilson",
+  "decision_date": "1951-05-09",
+  "docket_number": "No. A-2878",
+  "first_page": "273",
+  "last_page": "292",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "150 Tex. 273"
+    },
+    {
+      "type": "parallel",
+      "cite": "239 S.W., 2d Series, 792"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "321 U.S. 29",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        301855
+      ],
+      "weight": 3,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/321/0029-01"
+      ]
+    },
+    {
+      "cite": "167 S.W. 2d 723",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2310132,
+        10219573
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/140/0353-01",
+        "/sw2d/167/0723-01"
+      ]
+    },
+    {
+      "cite": "140 Texas 353",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2310132
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/140/0353-01"
+      ]
+    },
+    {
+      "cite": "286 S.W. 578",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10305068
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw/286/0578-01"
+      ]
+    },
+    {
+      "cite": "218 S.W. 363",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8263201,
+        2286419,
+        8263171
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw/218/0363-02",
+        "/tex/110/0225-01",
+        "/sw/218/0363-01"
+      ]
+    },
+    {
+      "cite": "110 Texas 225",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2286419
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/110/0225-01"
+      ]
+    },
+    {
+      "cite": "99 S.W. 2d 895",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        12074617,
+        2293137,
+        2293227
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/99/0895-01",
+        "/tex/128/0429-01",
+        "/tex/128/0582-01"
+      ]
+    },
+    {
+      "cite": "128 Texas 582",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2293227
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/128/0582-01"
+      ]
+    },
+    {
+      "cite": "146 S.W. 533",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8283099
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw/146/0533-01"
+      ]
+    },
+    {
+      "cite": "105 Texas 188",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2255369
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/tex/105/0188-01"
+      ]
+    },
+    {
+      "cite": "192 S.W. 2d 304",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10191571
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/192/0304-01"
+      ]
+    },
+    {
+      "cite": "130 S.W. 2d 310",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10234148
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/sw2d/130/0310-01"
+      ]
+    },
+    {
+      "cite": "102 S.W. 2d 178",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10246968,
+        2291519
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/102/0178-01",
+        "/tex/129/0184-01"
+      ]
+    },
+    {
+      "cite": "129 Texas 184",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2291519
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/129/0184-01"
+      ]
+    },
+    {
+      "cite": "180 S.W. 2d 619",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2341161,
+        10215111
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/142/0608-01",
+        "/sw2d/180/0619-01"
+      ]
+    },
+    {
+      "cite": "142 Texas 608",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2341161
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/142/0608-01"
+      ]
+    },
+    {
+      "cite": "91 S.W. 2d 948",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10274465
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/91/0948-01"
+      ]
+    },
+    {
+      "cite": "141 A.L.R. 50",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "156 S.W. 2d 513",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10219728,
+        2314975
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/156/0513-01",
+        "/tex/137/0628-01"
+      ]
+    },
+    {
+      "cite": "137 Texas 628",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2314975
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/137/0628-01"
+      ]
+    },
+    {
+      "cite": "220 S.W. 281",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10304449
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/220/0281-01"
+      ]
+    },
+    {
+      "cite": "140 S.W. 434",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8280758
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/140/0434-01"
+      ]
+    },
+    {
+      "cite": "104 Texas 482",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2256882
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/104/0482-01"
+      ]
+    },
+    {
+      "cite": "61 Texas 613",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2169068
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/61/0613-01"
+      ]
+    },
+    {
+      "cite": "182 S.W. 2d 419",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10204267
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/182/0419-01"
+      ]
+    },
+    {
+      "cite": "63 S.W. 2d 717",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10253666
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/63/0717-01"
+      ]
+    },
+    {
+      "cite": "91 S.W. 2d 1052",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10276772,
+        2294806
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/91/1052-01",
+        "/tex/127/0102-01"
+      ]
+    },
+    {
+      "cite": "127 Texas 102",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2294806
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/127/0102-01"
+      ]
+    },
+    {
+      "cite": "198 S.W. 2d 109",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10187339
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/198/0109-01"
+      ]
+    },
+    {
+      "cite": "198 S.W. 2d 125",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10187472
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/198/0125-01"
+      ]
+    },
+    {
+      "cite": "180 S.W. 2d 616",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10215008,
+        2339554
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/180/0616-01",
+        "/tex/142/0594-01"
+      ]
+    },
+    {
+      "cite": "142 Texas 594",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2339554
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/142/0594-01"
+      ]
+    },
+    {
+      "cite": "231 S.W. 2d 916",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10212104
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/231/0916-01"
+      ]
+    },
+    {
+      "cite": "321 U.S. 29",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        301855
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/321/0029-01"
+      ]
+    },
+    {
+      "cite": "167 S.W. 2d 723",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2310132,
+        10219573
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/140/0353-01",
+        "/sw2d/167/0723-01"
+      ]
+    },
+    {
+      "cite": "140 Texas 353",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2310132
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/140/0353-01"
+      ]
+    },
+    {
+      "cite": "183 S. W. 2d 709",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2338504,
+        10218482
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/143/0264-01",
+        "/sw2d/183/0709-01"
+      ]
+    },
+    {
+      "cite": "143 Texas 264",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2338504
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/143/0264-01"
+      ]
+    },
+    {
+      "cite": "177 S. W. 2d 259",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10204752,
+        2340688
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/177/0259-01",
+        "/tex/142/0282-01"
+      ]
+    },
+    {
+      "cite": "142 Texas 282",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2340688
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/142/0282-01"
+      ]
+    },
+    {
+      "cite": "218 N. W. 492",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.",
+      "pin_cites": [
+        {
+          "page": "498"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "209 Iowa 474",
+      "category": "reporters:state",
+      "reporter": "Iowa",
+      "case_ids": [
+        8645029
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/iowa/209/0474-01"
+      ]
+    },
+    {
+      "cite": "212 S. W. 635",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8264409
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw/212/0635-01"
+      ]
+    },
+    {
+      "cite": "161 S. W. 2d 338",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10214329
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/161/0338-01"
+      ]
+    },
+    {
+      "cite": "13 A.L.R. 2d 1",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R. 2d",
+      "weight": 2,
+      "opinion_index": 1
+    },
+    {
+      "cite": "219 S.W. 2d 779",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10211164,
+        2333845,
+        10211372,
+        2332190
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "785"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/219/0779-01",
+        "/tex/147/0608-01",
+        "/sw2d/219/0779-02",
+        "/tex/148/0001-01"
+      ]
+    },
+    {
+      "cite": "148 Texas 1",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2332190
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/148/0001-01"
+      ]
+    },
+    {
+      "cite": "173 S.W. 2d 276",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10202918
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "279"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/173/0276-01"
+      ]
+    },
+    {
+      "cite": "116 S.W. 2d 1056",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10251893,
+        2324534
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/116/1056-01",
+        "/tex/131/0622-01"
+      ]
+    },
+    {
+      "cite": "131 Texas 622",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2324534
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/131/0622-01"
+      ]
+    },
+    {
+      "cite": "167 S.W. 2d 723",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2310132,
+        10219573
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/140/0353-01",
+        "/sw2d/167/0723-01"
+      ]
+    },
+    {
+      "cite": "140 Texas 353",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2310132
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/140/0353-01"
+      ]
+    },
+    {
+      "cite": "218 S.W. 363",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8263201,
+        2286419,
+        8263171
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw/218/0363-02",
+        "/tex/110/0225-01",
+        "/sw/218/0363-01"
+      ]
+    },
+    {
+      "cite": "110 Texas 225",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2286419
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/110/0225-01"
+      ]
+    },
+    {
+      "cite": "99 S.W. 2d 895",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        12074617,
+        2293137,
+        2293227
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/99/0895-01",
+        "/tex/128/0429-01",
+        "/tex/128/0582-01"
+      ]
+    },
+    {
+      "cite": "128 Texas 582",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2293227
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/128/0582-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1493,
+    "char_count": 43857,
+    "ocr_confidence": 0.604,
+    "pagerank": {
+      "raw": 3.3251096805553467e-06,
+      "percentile": 0.9978191778748491
+    },
+    "sha256": "618ddb72f442f020c4e724fb7fa0af8c250965126136223001f79d37f3437736",
+    "simhash": "1:e7ed9dab6335bd79",
+    "word_count": 7745
+  },
+  "last_updated": "2024-02-27T19:20:07.878787+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Philip Benoit v. Garnitt M. Wilson et al."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Smith\ndelivered the opinion of the Court.\nThis action was instituted by respondents, Gamitt Wilson, Carol Sue Wilson, Phyllis Jean Wilson and Robert L. Wilson, Sr., against the petitioner, Philip Benoit, for damages for the alleged wrongful death of Robert L. Wilson, Jr.\nA trial court judgment in favor of petitioner was reversed by the Court of Civil Appeals and rendered in favor of the respondents. 231 S.W. 2d 916.\nGarnitt Wilson was the surviving wife of Robert L. Wilson, Jr.; Carol Sue and Phyllis Jean Wilson, were the surviving minor children, and Robert L. Wilson, Sr., was the surviving parent.\nPrior to the date of trial, Mrs. Wilson married Edwin R. Kerley, and on October 17, 1949, plaintiffs filed their First Amended Original Petition, joining the said Edwin R. Kerley as a party plaintiff. The case proceeded to trial on the same date before the court with the aid of a jury.\nRobert L. Wilson, Jr., and his family resided in the city of Waco where he was engaged in the automobile sales business. According to the evidence, it was not unusual for him to leave Waco on business.\nOn March 22, 1947, in the late afternoon, Wilson registered at the Benoit tourist court in the city of Austin and was assigned Cabin No. 22. Apparently the man was duly sober upon his arrival; however, after having departed in his car, and upon \" his return to the tourist court some three hours later, it was observed that he appeared to be intoxicated. But, the witnesses admitted that he drove his car and parked it properly in the garage adjacent to his cabin.\nThe deceased experienced some difficulty in unlocking the door; in fact, he broke off the key. The petitioner then went out and opened the door. Wilson entered the cabin on this occasion about 9:00 P.M., or soon thereafter, and remained there without incident, so far as the record shows, until about 7:00 A.M., March 23, 1947, at which time there was a violent gas explosion in Cabin No. 22. As a result thereof, Mr. Wilson sustained severe shock and burns from which he died about 3:00 P.M. of the same day.\nRespondents alleged that Benoit maintained a natural gas heater in Cabin No. 22 and that the stove was connected to the gas pipe by a flexible rubber and fabric hose, the use of which was specifically prohibited by City Ordinance, Rule 9, which reads as follows:\n\u201cGas connections to stoves, ranges, cooking stoves, hot water heaters and other appliances shall be made by rigid metal connections and rubber hose connections or fittings arranged for such connections for gas heaters or similar appliances will not be allowed provided that this rule shall not apply to scientific laboratory appliances such as Bunson burners, et cetera.\u201d\nThey further allege that such use was negligence per se and a direct and proximate cause of the explosion and resulting injuries and death of the deceased, Robert L. Wilson, Jr.\nThis cause was submitted to the jury on special issues, and we herewith set out the issues on proximate cause, negligence, and contributory negligence and the answers of the jury which controlled the trial court in rendering judgment that plaintiff take nothing as against defendant, Benoit.\nSPECIAL ISSUE NO. 1\nDo you find from a preponderance of the evidence that the use by defendant of a flexible rubber and fabric hose to connect the space heater in Cabin No. 22 on March 23, 1947, was a proximate cause of the explosion and resulting injuries and death of the deceased, Robert L. Wilson, Jr.?\nAnswer this question \u2018Yes\u2019 or \u2018No\u2019.\nanswer : Yes.\n\u201cSPECIAL ISSUE NO. 11\nDo you find from a preponderance of the evidence that Robert L. Wilson, Jr. disconnected the rubber hose from the gas jet at the wall?\nAnswer this question \u2018Yes\u2019 or \u2018No.\u2019\nanswer : No.\n\u201cspecial issue no. 15\nDo you find from a preponderance of the evidence that Robert L. Wilson, Jr., was in an intoxicated condition during his occupancy of Cabin No. 22 on March 22, 1947, and March 23, 1947?\nAnswer \u2018Yes\u2019 or \u2018No.\u2019\nanswer: Yes\n\u201cSPECIAL issue no. 16\nDo you find from a preponderance of the evidence that the intoxicated condition of Robert L. Wilson, Jr., during his occupancy of Cabin No. 22, if you have so found, was negligence as that term has been herein defined?\nAnswer this question \u2018Yes\u2019 or \u2018No\u2019.\nanswer: Yes\n\u201cspecial issue no. 17\nDo you find from a preponderance of the evidence that such intoxicated condition, if you have so found, was a proximate cause of the explosion and of the resulting injuries to Robert L. Wilson, Jr.?\nAnswer this question \u2018Yes\u2019 or \u2018No.\u2019\nanswer: Yes\u201d\nAt the close of all the evidence, the defendant, Benoit, filed his motion for an instructed verdict, alleging that there was no evidence to warrant submitting the issue involved in Special Issue No. 1. The trial court overruled this motion, and later overruled all defense objections to the submission of Special Issue No. 1.\nThe trial court also overruled all of plaintiffs\u2019 objections to the court\u2019s charge submitting Special Issues Nos. 15, 16 and 17. Therefore, we are firmly convinced, from an examination of this record, that the findings of the jury in answer to Special Issues Nos. 16 and 17 to the effect that the deceased was negligent by virtue of being intoxicated and that such negligence was a proximate cause of the explosion and resulting death of Wilson was the only reason which prompted the trial court to grant defendant\u2019s motion for judgment.\nThe respondents, plaintiffs below, appealed from this adverse take nothing judgment and directed their entire original brief to the claimed error of the trial court in submitting Special Issues Nos. 15, 16 and 17, and in excluding certain offered testimony.\nPetitioner Benoit, appellee in the Court of Civil Appeals, presented in his brief a cross-assignment to the effect that the trial court erred in submitting Special Issue No. 1 to the jury, and his chief argument in support thereof was that there was no evidence warranting the submission of such issue.\nThe Court of Civil Appeals reversed the judgment of the trial court and rendered judgment for the Wilsons, holding, in effect, that Special Issues Nos. 15, 16 and 17 should not have been submitted, and since they were submitted, the trial court should have complied with the plaintiffs\u2019 motion and disregarded the answers of the jury and rendered judgment for the plaintiffs on the finding of the jury in answer to Special Issue No. 1 that the use of the flexible rubber and fabric hose to connect the heater was a proximate cause of the explosion and resulting death of Robert L. Wilson, Jr.\nPetitioner\u2019s fifth and sixth points of error present the of Civil Appeals with reference to the issues submitting the question of the intoxication of deceased; points five, six and seven attack the holding with reference to Special Issue No. 1, and the eighth point raises the question that if the trial court was correctly reversed, the Court of Civil Appeals should have remanded the case in lieu of rendering judgment as it did.\nPetitioner\u2019s fifth and sixth points of error present the claim that the Court of Civil Appeals erred (a) in holding that there was evidence to support the jury\u2019s answer to Special Issue No. 1 to the effect that the use of the rubber hose connection was a proximate cause of the explosion and resulting death of Wilson; (b) in holding that petitioner was not entitled to an instructed verdict on the ground that there was no evidence that the use of the rubber hose connection was a proximate cause of the explosion.\nThe Court of Civil Appeals, in passing upon these questions, had before it petitioner\u2019s cross assignment of error designated as Third Counter Point, which reads as follows:\n\u201cThe error of the Court in submitting Special Issue No. 1 to the jury and in failing to instruct the jury to return a verdict in appellee\u2019s favor.\u201d\nThe counter point was followed by a statement that appellee (Benoit) excepted to the submission of Special Issue No. 1 \u201cfor the reason there is no evidence justifying the submission of such issue to the jury, the record being silent as to any leak, break or defect in the rubber hose in question, and the record further being silent as to any use of said rubber hose during the period of occupancy of Cabin No. 22 by Robert L. Wilson, Jr., and for the further reason that the evidence is insufficient to justify the submission of such issue to the jury. * * *\u201d (Tr., p.66).\nThe petitioner argues that th\u00e9re was no evidence that the hose leaked and there was no evidence that a sufficient amount of gas flowed through the hose to cause the explosion and that there was no proof that any gas escaped from the rubber hose. With this contention we cannot agree. As the Court of Civil Appeals points out \u201cthe. presence of gas in the cabin in an amount sufficient to explode is conclusively shown by the fact that it did explode when the light switch was turned on.\u201d\nThe petitioner began using the hose in question in November or December, 1945, admittedly in violation of the above quoted ordinance. He used this rubber and fabric hose with rubber tip connections on each end in face of the express provision of the ordinance that \u201call gas connections to stoves * * * shall be made by rigid metal connection, and all rubber hose connections or fittings are not allowed * *\nThe stove and the hose with rubber tip connections were used in the winters of 1945 and 1946, and at the close of winter the stove and hose was stored until cool weather began in the fall of 1946. In the fall of 1946, petitioner again violated the above quoted ordinance by installing the stove with rubber hose connections and admitted that he had made no inspection of the connections between the time of installation and the date of the explosion some five or six months later. In fact, he made no inspection to determine whether or not the connections were loose, either before or after the explosion.\nPetitioner did testify that after the explosion a member of the fire or police department tested the rubber hose; that \u201che closed the valve at the stove and blowed in it to see if it would leak and turned around and said \u2018There is no leak in it.\u2019 \u201d He further testified that no test was ever made to determine whether or not the hose where it connected onto the wall plug was tight prior to the explosion. The rubber hose in question was not produced in court and the plaintiffs never at any time had access to the hose to make an inspection. The petitioner stated that he stored it away with the other stoves; however, he did say he placed the stove and hose in the store room in front of all others.\nThe petitioner testified that guests frequently would leave the heaters on, and that he would have to turn off the stoves. He did not inspect the stove in any manner at the time the room was first assigned to Wilson and that the only thing he did at the time Wilson returned later in the evening was to open the door and look in the bathroom to see if towels were there. He said that he had cleaned the room between 11:00 and 12:00 o\u2019clock the morning of the 22nd, and that at that time the stove was off. He claimed that the jet at the wall was off at the time he entered the room after the explosion. However, he admits that two men, Smith and Dupree, were in the room with Wilson when he (Benoit) arrived. One of these men could have cut off the valve. They did not testify. No showing was made as to which one arrived in the room first. Benoit said he heard Dupree say the wall valve was off when he arrived. The jury found that Wilson did not disconnect the hose.\nMr. Tom O. Lang, a police department detective, testified that he talked with Wilson at the hospital and that Wilson told him he had been to the bathroom and come back and turned the light on, and as he flipped the switch, there was an explosion.\nLang was asked this further question: \u201cDo you recall whether or not Mr. Wilson when you saw him made any statement as to whether or not\" he had had the gas on that morning?\u201d Lang gave the following reply:\n\u201cNo, sir, he didn\u2019t say. He said he got up and went to the bathroom and returned to the bed, and didn\u2019t have any gas on, as I understood it at the time.\u201d\nWe have examined the entire record and, in doing so, have viewed the evidence in the light most favorable to the plaintiffs, respondents here; discarding all adverse evidence, and giving credit to all evidence favorable to the verdict of the jury, and we have reached the conclusion that its verdict is based on reason and that the evidence supports its reasonable inference and conclusion that the use of a rubber hose in lieu of a rigid metallic connection was a proximate cause of the explosion and resulting death of Robert L. Wilson, Jr.\nThe jury, not the court, is the fact finding body. The court is never permitted to substitute its findings and conclusions for that of the jury. The jury is the exclusive judge of the facts proved, the credibility of the witnesses and the weight to be given to their testimony. In this connection, it had the sole right to weigh the testimony of petitioner, Benoit, in the light of other testimony in the record. The record reflects 230 pages of evidence, and that he testified many times about that hose and the jets at the stove and wall, but he did not state positively that the jet was off at the wall when he cleaned the room between 11:00 and 12:00 o\u2019clock on the 22nd until he was asked about the matter at page 213 of the Statement of Facts. The jury had evidence before it that a sufficient quantity of gas had leaked into the room to cause the explosion; that gas is lighter than air and has a natural tendency to rise; that cigarettes and matches on the dressing table were not burned; that the north wall was damaged the most and that pieces of window glass and Venetian blinds were blown a distance of 80 feet; that the gas pipe leading to the room was in perfect order-; that guests frequently left the stoves on and the jets open, of course; that the bathroom door was blown from its hinges; that there was no occasion for Wilson to use the stove because it was not cool enough; that Wilson\u2019s only act was to get up and turn on the light switch.\nThe jury had the sole right to believe all or any part of petitioner\u2019s testimony. It had the right to say, and reasonably so that from all the facts and circumstances in this case, we, the jury, do not believe that portion of your testimony wherein you say \u201cthe wall jet was turned off at 12:00 o\u2019clock, when I cleaned up the room,\u201d and had the right to conclude from all the facts and circumstances that the jet at the wall was actually on at said time.\nPetitioner argues that the finding of the jury and the judgment of the Court of Civil Appeals has been reached through speculation and by basing inference upon inference upon inference. He further contends that the accident could have as reasonably happened in some other manner. We cannot adopt the theory that a jury verdict may be set aside because the record contains evidence of and gives equal support to inconsistent inferences. This court should never set aside a jury verdict merely because the jury could have drawn different inferences or conclusions. The jury in this case has considered all the facts admitted before it and has, by its answers, selected from the conflicting evidence and conflicting inferences that which it considered most reasonable. Burlington-Rock Island Ry. Co. v. Ellison, 140 Texas 353, 167 S.W. 2d 723; Tennant v. Peoria & Pekin Union Ry. Co., 321 U. S. 29, 64 Sup. Ct. 409, 88 L. Ed. 520; Lockley v. Page, 142 Texas 594, 180 S.W. 2d 616; Hen-wood v. Neal, 198 S.W. 2d 125 (Tex. Civ. App.,) ; Younger Bros., Inc. v. Marino, 198 S.W. 2d 109, (writ refused, NRE); Houston Gas & Fuel Co. v. Perry, 55S.W. 2d 901, affirmed 127 Texas 102, 91 S.W. 2d 1052; Texas Cities Gas Co. v. Ellis, 63 S.W. 2d 717; Bohn Brothers v. Turner, 182 S.W. 2d 419, (writ refused, want of merit.)\nIn the case of Burlington-Rock Island Ry. Co. v. Ellison, supra, the court stated:\n\u201cAs we understand their brief and argument, council for the railroad contend that there is no evidence in this record showing or tending to show that the negligence of the servants and employees of the railroad proximately caused W. L. Ellison\u2019s death because under such evidence his death might have happened in one of the several ways and the evidence does not show that it happened in the way we have said the jury had a right to infer that it did to the exclusion of any other way. We overrule this contention. These plaintiffs were not required to exclude the probability that the accident might have occurred in some other way. To so hold would impose upon them the burden of establishing their case beyond a reasonable doubt. They were only required to convince the jury by a fair preponderance of the evidence that the accident resulted from the negligence of the defendant.\u201d\nIt is admitted that the use of the rubber hose with its rubber tip connections by petitioner was negligence. The jury has determined that such negligence was a proximate cause of the explosion. What is proximate cause is a question for the jury to determine from all the facts and circumstances proved. The jury\u2019s answer is supported by the evidence.\nThe evidence set out in the beginning of this opinion is all of the evidence bearing on the issue of the intoxication of the deceased. The record is absolutely void of any evidence going to show that he committed any act of negligence; in fact, bhe only acts performed, to-wit, driving his car into the garage, entering the cabin, and turning on the light switch the next morning were, in our opinion, the acts of an ordinarily prudent person. We fail to find in this evidence a single act or omission on his part which contributed, or could have contributed, to the explosion resulting in his untimely death. Evidence of intoxication, standing alone, does not establish negligence or proximate cause. There must be evidence of other misconduct sufficient to establish, by a preponderance of the evidence, that the person was guilty of performing some act or failing to perform some act, which an ordinarily prudent person would have performed. Houston & T. C. Ry. Co. v. Reason, 61 Texas 613, 38 Am. Jur., p. 883, par. 203.\nThere was evidence that the deceased was intoxicated at 9:00 P.M., March 22, 1947, and that an empty whiskey bottle, and another pint bottle containing some whisky, were found in his room the next morning after the explosion which occurred about 7:00 A.M. There was further evidence that upon investigation immediately after the explosion, it was discovered that the rubber and fabric hose used in connecting the heater to the gas pipe at the wall was disconnected from the wall. It is admitted that the hose was connected at both the heater and the wall at the time the deceased entered the cabin the night before.\nIn view of this evidence, the trial court submitted to the jury Special Issue No. 11, and the jury answered that Wilson did not disconnect the heater.\nThe jury was called upon to decide this issue from a preponderance of the evidence, and had the right to consider the evidence of his intoxication along with all other material evidence and circumstances in determining the issue as to whether or not deceased disconnected the hose from the gas pipe at the wall. Evidence of intoxication is an evidentiary fact to be considered by the jury, or trier of the facts, in determining whether or not a person is guilty of some act of contributory negligence, but the fact of intoxication alone would not convict the deceased of negligence. Paris & G. N. R. Co. v. Robinson, 104 Texas 482, 140 S.W. 434; St. Louis, S. F. & T. Ry. Co. v. Morgan, Tex. Civ. App., 220 S.W. 281; Scott v. Garner, 137 Texas 628, 156 S.W. 2d 513, 141 A.L.R. 50; San Antonio Public Service Co. v. Fraser, 91 S.W. 2d 948.\nPetitioner\u2019s eighth point attacks the judgment of the Court of Civil Appeals reversing and rendering this case, and says that if the court was correct in reversing, it erred in failing to remand. We sustain this point. We have concluded that Special Issues Nos. 15, 16 and 17, set out above, submitted the issue relative to the intoxication of the deceased upon an erroneous theory and that justice demands another trial. The answers of the jury to said issues convince us that it believed the intoxicated condition of the deceased contributed to and was a proximate cause of the explosion.\nRespondent says that, under Rule 434, Vernon\u2019s Texas Rules of Civil Procedure, the Court of Civil Ape\u00e1is was required to render the judgment that the court below should have rendered. Under this rule, the Court of Civil Ape\u00e1is shall remand the case for a new trial only when \u201cit is necessary that some matter of fact be ascertained or the damage to be assessed or the matter to be decreed is uncertain.\u201d\nRule 505 provides that the Supreme Court shall \u201c* * * reverse the judgment and remand the case to the lower court, if it shall appear that the justice of the case demands another trial * *\nIt was held in the case of London Terrace v. McAlister, 142 Texas 608, 180 S.W. 2d 619, that the above quoted phrases from Rules 434 and 505 mean the same. We believe that there is no substantial difference between them and that it was not intended by the adoption of the two rules, one for the government of the Court of Civil Appeals, and the other for the Supreme Court, to impose different duties upon these respective courts.\nThe submission of this case upon the wrong theory warrants us in saying that the facts were not fully developed with that degree of certainty which would authorize the Court of Civil Appeals to reverse and render judgment. Rendition of judgment, where a case has been tried upon the wrong theory, should only occur where the record discloses that the complaining party would not have been able to recover had the case been tried on the right theory. Williams v. Safety Casualty Co., 129 Texas 184, 102 S.W. 2d 178.\nThe petitioner, under his eighth point of error, discusses claimed error of the trial court in ruling on various matters including refusal of the court to submit certain requested issues. We do not pass on these matters because no counter points of error involving these questions were presented in his brief in the Court of Civil Appeals, and, therefore, not considered by that court.\nFor the reasons stated, the judgments below are reversed and the cause is remanded to the trial court for another trial.\nOpinion delivered May 9, 1951.",
+        "type": "majority",
+        "author": "Mr. Justice Smith"
+      },
+      {
+        "text": "Mr. Justice Garwood,\njoined by Justices Smedley, Brewster and Wilson, dissenting.\nThis dissent rests on my conviction that there is no evidence to support the finding of causal connection between the defendant\u2019s violation of the ordinance and the explosion which killed Mr. Wilson, so that the judgment of the trial court in favor of the defendant should accordingly be affirmed.\nThe majority statement, \u201cWhat is proximate cause is a question for the jury to determine from all the facts and circumstances proved,\u201d is not, I\u2019m sure, intended to mean that courts cannot in a proper case decide the question as a matter of law. We have held proximate causation to be established as a matter of law. International-Great Northern R. Co. v. Hawthorne, 131 Texas 622, 116 S.W. 2d 1056. We have also held as a matter of law that it was not established. Western Telephone Corp. v. McCann, 128 Texas 582, 99 S.W. 2d 895; Talley v. Bass-Jones Lumber Co., Tex. Civ. App., 173 S.W. 2d 276, er. ref.; Bowles v. Bourdon, 148 Texas 1, 219 S.W. 2d 779, 13 A.L.R. 2d 1. When the question of \u201cno evidence\u201d is properly raised, as here, it is as much within our jurisdiction \u2014 and duty\u2014 to scrutinize the reasonableness of jury inferences of causal connection as it is to examine jury inferences of negligence, contributory negligence or any other matter of fact. The domain of inference or deduction from circumstantial evidence is one in which courts are perhaps more than usually justified in reviewing jury action, because the task there involved is more often one of reasoning from undisputed facts than of determining the truth or falsity of disputed facts. Indeed, in the very case before us the Court of Civil Appeals has ignored as unsupported by evidence the jury finding that the intoxication of Mr. Wilson was a proximate cause of the explosion, and the majority evidently does not quarrel with that holding.\nI do not understand the majority to hold that in negligence per se cases like the present, the plaintiff\u2019s burden to establish proximate causation is satisfied by showing merely that the event which produced the injury was of the general type the ordinance or statute in question was designed to forestall. Waterman Lbr. Co. v. Beatty, 110 Texas 225, 218 S. W. 363, clearly recognizes the rule to be otherwise. The holding in that case that evidence of plaintiff minor\u2019s employment to work with dangerous machinery (in violation of a statute), plus evidence of his injury from such machinery in the course of working with it, was sufficient to make a fact issue of liability, does not affect the instant case. In the Beatty case, clearly but for the illegal hiring of the minor to work with dangerous machinery, he would not have worked with it and accordingly would not have been injured. But in the present case, can it be said with any-think like equal probability, that, but for the illegal use of the flexible hose, the explosion would not have occurred?\nThe majority opinion seems to suggest, though not to state in so many words, that the jury might have reasonably considered the flexible hose to be in some manner defective as a hose, though the Court of Civil Appeals admits that the evidence was all the other way. I can imagine no other- explanation for the statement that \u201cThe rubber hose was not produced in court and the plaintiffs never at any time had access to the hose to make an inspection.\u201d It was not produced in court, and not unnaturally so, since the plaintiffs did not even plead that the hose was defective, asked for no issue on the point, nowhere complained of the failure to submit such an issue and, so far as the record shows, at' no time gave any indication of not having themselves inspected it, much less of not having been able to inspect it. The defendant testified without contradiction or equivocation that he kept the hose in a readily available spot for people to inspect it following the accident and that \u201cafter the test was made by the fireman\u201d somebody came out and asked to see the hose or to test it. From the testimony produced by the plaintiffs themselves it appears that the Austin Fire Department investigated and made a report on the explosion, and that a special investigation was also made by a private investigator by the name of K. R. Herbert, who himself testified for the plaintiffs and was presumably acting on their behalf. If there was lack of information about the hose on the part of the plaintiffs or any evidence that it was a defective hose, surely some indication thereof would have appeared in the record. But even the special investigator said not a word on either subject. The overwhelming inference from the record, is that the plaintiffs did have \u201caccess\u201d to the hose and for good reason chose not to raise the issue of its condition. The defendant testified positively that the hose was in good condition and that the firemen tested it at the scene of the accident and found it airtight. In the absence of evidence contrary to this, and the burden of proof resting on the plaintiffs, did the defendant have to conduct a test of the hose in open court \u2014 and prove by disinterested witnesses that the hose thus tested was the same hose in question \u2014 in order to escape an inference of defective condition, when the latter was not even alleged or otherwise relied upon by the plaintiffs ? Hardly.\nNow the majority, like the Court of Civil Appeals, is right to the extent of recognizing as a legitimate factual inference, that the wall valve was open at some time prior to the explosion on the morning of March 23rd. The event and its character as a gas explosion were undeniable facts as was also the circumstances that gas could not possibly have entered the room except through the wall valve. This inference involves a minimum of speculation. Not so with the further conclusion, which the majority seems to reach, that the valve was opened prior to 9 P.M. of March 22nd, when Mr. Wilson returned to the tourist court and entered his cabin in an intoxicated condition. That there was gas in the cabin at 7 A.M. on March 23rd is certainly no evidence that the valve was open at or before 9 P.M. of March 22nd, or that gas was entering the room at that time. Neither is such evidence to be found in the statement of the defendant that he saw the hose lying disconnected from the wall valve shortly after the explosion. Possible it is found in the unsworn statement attributed to Mr. Wilson by plaintiff Mrs. Kerley and one of her \u201cin-laws\u201d, but this statement was rightly excluded by the trial court as hereinafter discussed. Otherwise there is not an iota of proof \u2014 direct or circumstantial \u2014 that the wall valve was open or gas escaping prior to 9 P.M. of March 22nd. There is indeed uncontradicated and quite credible evidence that gas was not escaping at that hour or at the earlier hour of about 6 P.M., when Mr. Wilson was first shown into his room. Even could the jury lawfully disregard such evidence as coming largely from the defendant himself, they certainly could not, by disbelieving it, treat it as the opposite of what it was. True, the jury did find that Mr. Wilson did not himself disconnect the hose from the wall jet, as will be later discussed. It also found that his intoxication caused the accident. And conspicuously there is no finding, express or implied, that the wall jet was turned on or that the gas was escaping at or prior to 9 P.M. of March 22nd, after which Mr. Wilson remained in the room alone and in an intoxicated condition.\nSo all the evidence whereby the defendant\u2019s use of the hose is to be connected with the explosion is this: there was a dangerous amount of gas in the room at 7 A.M. of March 23rd; the gas came through a pipe in the wall, with a jet, the valve of which was open at whatever time it was that the gas entered; Mr. Wilson turned on an electric light switch, and the explosion followed; a short while after the explosion, and after several people had entered the room, the defendant saw the hose was not connected to the wall jet; the temperature during the ten or so hours just before the explosion was about 65\u00b0.\nUpon this evidence to say \u201ctherefore, but for the flexible hose, there would have been no gas and no explosion\u201d seems obviously a flight into speculation. But this is not all the evidence to be considered.'It must be taken as fact that Mr. Wilson was the only person in the room during the ten hours in question, that he was intoxicated during that time and since he last entered the room at about 9 P.M. of the 22nd and that, while in Austin in evidently good health and equipped with funds and an automobile, he had strangely failed to return to his not distant Waco home, as he said he would, and had just been reported by his wife to the \u201cmissing persons\u201d bureau of the Waco police. With these added facts, the speculation that the hose caused the explosion is still less justifiable.\nThe theory of the majority seems to be that, where a more or less mysterious event gives rise to a variety of speculations as to the cause, and one of them will connect the event with the fault of the defendant, the jury should be left free to adopt that one, even though it be merely a speculation. The Court of Civil Appeals evidently took a view less harsh to the defendant, as it sought forthrightly to justify in detail the reasonableness of the inference, which it considered the jury might properly draw. In so doing, it held void the finding of causal connection between the explosion and Mr. Wilson\u2019s intoxication, yet leaned heavily oii the finding that he did not disconnect the hose at the wall jet. Its theory, restated in more elaborate form, is this: The hose was seen disconnected from the wall jet shortly after the explosion. The jury found (upon sufficient evidence) that Mr. Wilson did not disconnect it. So it may be inferred to have been blown loose by the explosion! From the inference that it was blown loose, one may in turn further infer that it came loose at its \u201cweakest\u201d point (i.e. the connection at the wall rather than the one at the stove). From this inference that the wall connection was the \u201cweakest\u201d, that is to say, less strong than the connection at the stove, it may be still further inferred that the \u201cweakest\u201d connection was loose enough to allow gas to escape backwards between the interior portion of the rubber connection tip (as to the character of which there is not a word of evidence except that it was a \u201crubber tip\u201d) and the exterior of the wall jet, over which (presumably) the tip was designed to fit tightly. From the inference that the tip was thus loose enough for gas to escape, it is further inferred that the gas did so escape. And since such a thing would probably not have happened with a rigid metal connection, it is finally inferred that the use of the hose caused the explosion.\nr This line of reasoning errs at the outset in assuming the jury finding that Mr. Wilson did not disconnect the hose to mean that there was evidence that he did not. The issue was a \u201cdefendant\u2019s issue\u201d, and there was no proof that Mr. Wilson did disconnect the hose, so the answer had to be in the negative. But neither was there, a shred of evidence that be did not disconnect it. Intoxicated as he undoubtedly was, one may quite as logically speculate one way as the other. The rest of the reasoning, while certainly not unintelligent, is nevertheless pure speculation by the process of piling inference on inference, each step adding its own element of speculative fact until the final conclusion rests on a mass of speculative fact. The jury may not pile inference upon inference. Federal Underwriters Exchange v. Hightower, Tex. Civ. App., 161 S. W. 2d 338, er. ref. The very ingenuity of the theory reflects its essential weakhess. It is indeed one possible explanation of the event, if one is willing to leave quite, unsolved the riddle of when and how the wall valve came to be turned on, so the gas could enter the room. Whatever the. range \"of jury freedom to pick and choose between this and that item of evidence from the same witness, ther\u00e9 can be no doubt whatever that Mr. Wilson entered the cabin twice before the explosion \u2014 once about 6 P.M. and again about 9 P.M. of March 22nd. Surely the jury could not disbelieve the defendant\u2019s statement that when he let Mr. Wilson in at 9 P.M., he turned on the light. Since it believed his statement that he found Mr. Wilson to be intoxicated at this hour, how could it disbelieve that he did the altogether natural and possible thing of lighting up a room that must have been in darkness? If the wall valve was then open and gas escaping, why was there no explosion at that time? And how could the jury, believing the defendant\u2019s testimony about Mr. Wilson\u2019s condition, at the same time disbelieve his further statement that he entered the cabin with Wilson and smelled no gas? It seems almost a certainty on the record that the valve was shut at and for some time prior to 9 P.M. of March 22nd. Unless it be the fact of the explosion ten hours later, there is no evidence at all to the contrary. Under these circumstances, even if we assume the altogether unproved fact that Mr. Wilson did not disconnect the hose, is it not quite as likely that he himself somehow opened the wall valve and otherwise tampered with the gas installations as that gas was leaking into the room from the hose connection when he entered and continued to do so until the explosion the next day? The recognized presumptions of normal conduct obviously do not apply in the case of men sojourning intoxicated in tourist cabins within easy reach of their own homes and families, while their wives anxiously seek them through the \u201cmissing persons\u201d bureau. In such cases it is almost the normal thing for something abnormal to happen.\nNeither Bock v. Fellman Dry Goods Co., Tex. Com. App., 212 S. W. 635, which originated part of the language quoted by the majority from Burlington-Rock Island Ry. Co. v. Ellison, 140 Texas 353, 167 S. W. 2d 723, nor the latter case itself is closely in point here on the facts. The inferential process in those cases was much less involved and speculative than in the instant case. As to the language used by way of stating a rule of law, if it means that where the facts are equally consistent with the existence of proximate cause and with the absence of it, the jury is at liberty to find proximate cause to exist, it is evidently contrary to our holding in refusing a writ of error in Talley v. Bass-Jones Lumber Co., supra, (a later decision than the Ellison case). In the Talley case the alleged negligence was that of attaching a smoke stack guy wire to an anchor or base which was of wood and inflammable. In a fire the anchor burned, the guy wire was loosened and the smoke stack fell, causing the death of a fireman. The opinion of the Court of Civil Appeals, which we approved, contains this language:\n\u201cSo it is equally as probable that the falling of stack No. 1 and the consequent death of Talley was caused by the severing of the guy wires by the fire as that the occurrence was produced by a guy wire being attached to the inflammable 2x12 timber at the west end or northwest corner of the fuel house. In such circumstances, the jury may not be permitted to speculate as to which of the two causes was the proximate cause of Talley\u2019s death.\u201d 173 S. W. 2d 276, 279.\nThe rule thus stated does not seem to require proof of proximate cause beyond reasonable doubt as suggested in the Bock and Ellison opinions. It only requires that there be a preponderance of evidence in favor of that version or theory of the event which connects the legal wrong with the injury in suit. See also Western Telephone Corp. v. McCann, supra. If the balance of probability is equal between the theory that entails liability and one that does not, the party asserting liability has simply failed to prove his case.\nViewing the matter in a slightly different way, there is no proof of causation, where the evidence discloses simply a possibility of it, even though it does not appear that other possibilities are essentially more likely. In Bowles v. Bourdon, supra, the principles of which are not necessarily limited to the malpractice type of suit, the physician bound up a child\u2019s arm in a manner which could cause a contracture, and a contracture followed, though it was shown that the disease could also have Gome from causes other than the binding. In holding that there was no evidence of proximate causation, this court said:\n\u201cAll it (the evidence) shows is that what respondent (defendant) did was not a probable but only a possible cause of the contracture; that it was only one of several things that could have caused the injuries complained of.\u201d\nand further:\n\" \u201cAnd if the plaintiff would rest upon inferences rather than upon direct testimony, he meets the same rule. \u2018The proof must establish causal connection beyond the point of conjecture. It must show more than a possibility. Verdicts must rest upon reasonable certainty of proof. When the proof discloses that a given result may have occurred by reason of more than one proximate cause, and the jury can do no more than guess or speculate as to which was, in fact, the efficient cause, the submission of such choice to the jury has been consistently condemned by this court and by other courts.\u2019 Ramberg v. Morgan, 209 Iowa 474, 218 N. W. 492, 498.\u201d 219 S. W. 2d 779, 785, 13 A.L.R. 2d 1.\nNo doubt if the hose theory were the only possible theory one could imagine as explaining the explosion, it would have to be accepted, despite all the speculation it involves. It would in such event become a \u201cprobability\u201d. See Bowles v. Bourdon, supra. But, as before suggested, under the peculiar conditions prevailing here most anything might have happened, including even attempted suicide of Mr. Wilson. On the record it is almost a certainty that he turned on the wall valve after 9 P.M. on March 22nd. He may well have done something else besides. \u25a0 Considered separately, neither the hose theory nor any other can well be called a probability. Considered together, no one is so much more likely to be true than the others as to be called a relative probability. The record simply does not give a \u201cprobable\u201d or satisfactory explanation of the gas leakage. Such a situation, with the burden of proof resting on the plaintiff, does not entitled the jury arbitrarily to select an explanation that imposes liability.\nThe alleged statement of Mr. Wilson proffered by Mrs. Kerley and her relative-in-law and excluded by the trial court was relevant and much more favorable to the plaintiffs than the admitted ones which Mr. Wilson made earlier to the police. But it was righly excluded. Doubtless no one of the several circumstances working against admissibility under the rule of the res' gestae, such as the lapse of some four hours time, the apparently, continuous consciousness of the declarant, the fact that the state- \u25a0 ment came in reply to questions, and the fact that it followed earlier and apparently different statements on the same subject and conversation on other subjects, would necessarily exclude application of the rule. However, taking all these conditions together, they clearly outweigh those of Mr. Wilson\u2019s continuous suffering and state of shock, in determining whether the statement had the requisite degree of spontaneity in relation to the explosion. See City of Houston v. Quinones, 142 Texas 282, 177 S. W. 2d 259; Pacific Mutual Life Ins. Co. v. Schlakzug, 143 Texas 264, 183 S. W. 2d 709. Texas Law of Evidence, McCormick and Ray, sec. 426 et seq.\nJustices Smedley, Brewster and Wilson concur with the conclusions here expressed.\nOpinion delivered May 9, 1951.\nRehearing overruled June 13, 1951.",
+        "type": "dissent",
+        "author": "Mr. Justice Garwood,"
+      }
+    ],
+    "attorneys": [
+      "Coleman Gay, of Austin, for petitioner.",
+      "W. M. Zaehry, Douglas Boyd, both of Waco, and Herman Jones and Jones & Herring, of Austin, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "Philip Benoit v. Garnitt M. Wilson et al.\nNo. A-2878.\nDecided May 9, 1951.\nRehearing overruled June 13, 1951.\n(239 S.W., 2d Series, 792.)\nColeman Gay, of Austin, for petitioner.\nThe Court of Civil Appeals erred in holding that there was no evidence to support the jury\u2019s answer to special issue that Wilson\u2019s intoxicated condition under the circumstances shown was negligence. That court also erred in holding that there was evidence to support the jury\u2019s answer that the use of the rubber hose connection was a proximate cause of the explosion and of the resulting injuries. Sullivan v. Trammell, 130 S.W. 2d 310; Kansas City Southern Ry. Co. v. Chandler, 192 S.W. 2d 304; Houston, E. & W. T. Ry. Co. v. Boone, 105 Texas 188, 146 S.W. 533; Western Tel. Corp. v. McCann, 128 Texas 582, 99 S.W. 2d 895; Waterman Lbr. Co. v. Beatty, 110 Texas 225, 218 S.W. 363.\nW. M. Zaehry, Douglas Boyd, both of Waco, and Herman Jones and Jones & Herring, of Austin, for respondents.\nThere was sufficient evidence to support the jury\u2019s findings that the use by the petitioner of an illegal rubber gas hose was a proximate cause of the gas explosion, and the Court of Civil Appeals properly reversed the judgment of the trial court and rendered judgment in favor of the respondents. Franklin v. Houston Elec. Co., 286 S.W. 578; Burlington-Rock-Island Ry. Co. v. Ellison, 140 Texas 353, 167 S.W. 2d 723; Tenant v. Peoria Ry. Co., 321 U.S. 29, 64 Sup. Ct. 409, 88 L. Ed. 520."
+  },
+  "file_name": "0273-01",
+  "first_page_order": 289,
+  "last_page_order": 308
+}

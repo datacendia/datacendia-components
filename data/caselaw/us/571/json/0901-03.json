@@ -1,0 +1,68 @@
+{
+  "id": 12703435,
+  "name": "Ted SMITH, petitioner, v. William S. BAXTER, et al.",
+  "name_abbreviation": "Smith v. Baxter",
+  "decision_date": "2013-10-07",
+  "docket_number": "No. 13\u20135188.",
+  "first_page": "901",
+  "last_page": "901",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 901"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 181"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 245"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 29,
+    "char_count": 218,
+    "sha256": "ec113052ef588b935afb6041494c33c4ddc0a3dc965c937a22e845d0bbcdb024",
+    "simhash": "1:71af864c7e8080f3",
+    "word_count": 37
+  },
+  "last_updated": "2021-09-08T21:16:17.237805+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ted SMITH, petitioner,\nv.\nWilliam S. BAXTER, et al."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of certiorari to the United States Court of Appeals for the Eleventh Circuit denied."
+    ],
+    "corrections": "",
+    "head_matter": "Ted SMITH, petitioner,\nv.\nWilliam S. BAXTER, et al.\nNo. 13-5188.\nSupreme Court of the United States\nOct. 7, 2013.\nPetition for writ of certiorari to the United States Court of Appeals for the Eleventh Circuit denied."
+  },
+  "file_name": "0901-03",
+  "first_page_order": 901,
+  "last_page_order": 901
+}

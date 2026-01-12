@@ -1,0 +1,59 @@
+{
+  "id": 5978650,
+  "name": "Spates v. Illinois",
+  "name_abbreviation": "Spates v. Illinois",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11547",
+  "first_page": "887",
+  "last_page": "887",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 887"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.631,
+    "sha256": "508d9f25802c1574886f961fa25437612c28820f23e90f77f48970df7c0b918c",
+    "simhash": "1:5141b5dd55036b1d",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Spates v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 2d Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11547.\nSpates v. Illinois."
+  },
+  "file_name": "0887-04",
+  "first_page_order": 909,
+  "last_page_order": 909
+}

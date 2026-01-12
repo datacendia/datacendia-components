@@ -1,0 +1,59 @@
+{
+  "id": 12202336,
+  "name": "Wilson v. Jarriel, Warden",
+  "name_abbreviation": "Wilson v. Jarriel",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10451",
+  "first_page": "837",
+  "last_page": "837",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 837"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 73,
+    "ocr_confidence": 0.674,
+    "sha256": "7e53fbb50858ba214f5dfe5114039f52ffe4dad757a624a9323084c8facc3afe",
+    "simhash": "1:a0b42a8105d60804",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wilson v. Jarriel, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ga. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10451.\nWilson v. Jarriel, Warden."
+  },
+  "file_name": "0837-04",
+  "first_page_order": 919,
+  "last_page_order": 919
+}

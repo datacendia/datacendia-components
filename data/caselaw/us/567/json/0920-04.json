@@ -1,0 +1,59 @@
+{
+  "id": 12409933,
+  "name": "Andrew D., a Minor v. Arizona",
+  "name_abbreviation": "Andrew D. v. Arizona",
+  "decision_date": "2012-06-18",
+  "docket_number": "No. 11-9868",
+  "first_page": "920",
+  "last_page": "920",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 920"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 78,
+    "ocr_confidence": 0.608,
+    "sha256": "c126881b9df9ce21a1ced1a6dd81eaab726a9228450c947cf5849280e3ca5a81",
+    "simhash": "1:2b14170221e69010",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Andrew D., a Minor v. Arizona."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ariz. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9868.\nAndrew D., a Minor v. Arizona."
+  },
+  "file_name": "0920-04",
+  "first_page_order": 824,
+  "last_page_order": 824
+}

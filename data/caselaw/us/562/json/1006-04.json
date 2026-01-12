@@ -1,0 +1,59 @@
+{
+  "id": 5946672,
+  "name": "Chanthakoummane v. Texas",
+  "name_abbreviation": "Chanthakoummane v. Texas",
+  "decision_date": "2010-11-01",
+  "docket_number": "No. 10-5566",
+  "first_page": "1006",
+  "last_page": "1006",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1006"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 78,
+    "ocr_confidence": 0.592,
+    "sha256": "6b397d95406a306d08f0dd6b7801c6b9d9b06b9832a0c402245542eabe0b6e35",
+    "simhash": "1:0c175816469df674",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Chanthakoummane v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tex. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5566.\nChanthakoummane v. Texas."
+  },
+  "file_name": "1006-04",
+  "first_page_order": 1028,
+  "last_page_order": 1028
+}

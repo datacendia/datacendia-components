@@ -1,0 +1,59 @@
+{
+  "id": 12240823,
+  "name": "Pena v. Martel, Warden, et al.",
+  "name_abbreviation": "Pena v. Martel",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-7332",
+  "first_page": "1128",
+  "last_page": "1128",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1128"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 78,
+    "ocr_confidence": 0.649,
+    "sha256": "828397da62edc497301c3bc604199a01b8630d4d6f34c5357828e8920de8ba20",
+    "simhash": "1:51d1a6c95bef80b7",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pena v. Martel, Warden, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7332.\nPena v. Martel, Warden, et al."
+  },
+  "file_name": "1128-06",
+  "first_page_order": 1210,
+  "last_page_order": 1210
+}

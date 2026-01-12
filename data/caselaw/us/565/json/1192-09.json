@@ -1,0 +1,94 @@
+{
+  "id": 12245428,
+  "name": "Kansas v. Nebraska et al.",
+  "name_abbreviation": "Kansas v. Nebraska",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 126",
+  "first_page": "1192",
+  "last_page": "1193",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1192"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "563 U. S. 915",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5962377,
+        5945355,
+        5916302,
+        12458767,
+        5950833,
+        12458770,
+        12458771,
+        12458772,
+        12458773,
+        12458769,
+        5936055,
+        5942430
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/563/0915-01",
+        "/us/563/0915-06",
+        "/us/563/0915-02",
+        "/l-ed-2d/179/0769-01",
+        "/us/563/0915-04",
+        "/l-ed-2d/179/0769-04",
+        "/l-ed-2d/179/0769-05",
+        "/l-ed-2d/179/0770-01",
+        "/l-ed-2d/179/0770-02",
+        "/l-ed-2d/179/0769-03",
+        "/us/563/0915-03",
+        "/us/563/0915-05"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 51,
+    "char_count": 390,
+    "ocr_confidence": 0.65,
+    "sha256": "5e838420364b36ce9569f9c13057a00d44e3ddd0822c2d51e95e4860fa49b645",
+    "simhash": "1:d47f1882c305fd59",
+    "word_count": 65
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kansas v. Nebraska et al."
+    ],
+    "opinions": [
+      {
+        "text": "Motion of the Special Master for allowance of fees and disbursements granted, and the Special Master is awarded a total of $70,884.97 for the period April 4 through December 31, 2011, to be allocated among the States as follows: Kansas $28,353.99; Nebraska $28,353.99; and Colorado $14,176.99. [For earlier order herein, see, e. g., 563 U. S. 915.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 126,\nOrig.\nKansas v. Nebraska et al."
+  },
+  "file_name": "1192-09",
+  "first_page_order": 1274,
+  "last_page_order": 1275
+}

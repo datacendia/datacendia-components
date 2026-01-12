@@ -1,0 +1,785 @@
+{
+  "id": 12520520,
+  "name": "IN RE: the FINANCIAL OVERSIGHT AND MANAGEMENT BOARD FOR PUERTO RICO, as Representative for the Commonwealth of Puerto Rico; the Financial Oversight and Management Board for Puerto Rico, as Representative for the Puerto Rico Highways & Transportation Authority, Debtors. Assured Guaranty Corporation; Assured Guaranty Municipal Corporation; Financial Guaranty Insurance Company; National Public Finance Guarantee Corporation, Plaintiffs, Appellants, v. The Financial Oversight and Management Board for Puerto Rico, as Representative for the Commonwealth of Puerto Rico; Financial Oversight and Management Board for Puerto Rico; Puerto Rico Fiscal Agency and Financial Advisory Aurthority; the Financial Oversight and Management Board for Puerto Rico, as Representative for the Puerto Rico Highways & Transportation Authority ; Ricardo Rossell\u00f3-Nevares; Gerardo Jos\u00e9 Portela-Franco; Carlos Contreras-Aponte; Jos\u00e9 Iv\u00e1n Marrero-Rosado; Ra\u00fal Maldonado-Gautier; Natalie A. Jaresko, Defendants, Appellees, Jos\u00e9 B. Carri\u00f3n III; Andrew G. Briggs; Carlos M. Garc\u00eda; Arthur J. Gonz\u00e1lez; Jos\u00e9 R. Gonz\u00e1lez; Ana J. Matosantos; David A. Skeel, Jr.; Christian Sobrino, Defendants.",
+  "name_abbreviation": "Assured Guaranty Corp. v. Fin. Oversight & Mgmt. Bd. for Puerto Rico (In re Fin. Oversight & Mgmt. Bd. for Puerto Rico)",
+  "decision_date": "2019-03-26",
+  "docket_number": "Nos. 18-1165; 18-1166",
+  "first_page": "121",
+  "last_page": "133",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "919 F.3d 121"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "1st Cir.",
+    "id": 8809,
+    "name": "United States Court of Appeals for the First Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "899 F.3d 13",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518054
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "19"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/899/0013-01"
+      ]
+    },
+    {
+      "cite": "179 B.R. 185",
+      "category": "reporters:specialty",
+      "reporter": "B.R.",
+      "case_ids": [
+        6100673
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "190"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/179/0185-01"
+      ]
+    },
+    {
+      "cite": "478 B.R. 8",
+      "category": "reporters:specialty",
+      "reporter": "B.R.",
+      "case_ids": [
+        6052853
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "22"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/478/0008-01"
+      ]
+    },
+    {
+      "cite": "48 U.S.C. \u00a7 2165",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "11 U.S.C. \u00a7 904",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "711 F.3d 213",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3802734
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "216"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/711/0213-01"
+      ]
+    },
+    {
+      "cite": "895 F.2d 1",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10526539
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "17"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/895/0001-01"
+      ]
+    },
+    {
+      "cite": "915 F.3d 838",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12520105
+      ],
+      "year": 2019,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/915/0838-01"
+      ]
+    },
+    {
+      "cite": "135 S.Ct. 2584",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12591054
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "2611",
+          "parenthetical": "Roberts, J., dissenting"
+        },
+        {
+          "parenthetical": "Roberts, J., dissenting"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/135/2584-01"
+      ]
+    },
+    {
+      "cite": "474 B.R. 228",
+      "category": "reporters:specialty",
+      "reporter": "B.R.",
+      "case_ids": [
+        4143455
+      ],
+      "year": 2012,
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/474/0228-01"
+      ]
+    },
+    {
+      "cite": "476 U.S. 355",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12556
+      ],
+      "weight": 3,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "370"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/476/0355-01"
+      ]
+    },
+    {
+      "cite": "11 U.S.C. \u00a7 365",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(d)(5)",
+          "parenthetical": "providing that a \"trustee shall timely perform all of the\" debtor's obligations"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "11 U.S.C. \u00a7 922",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(d)"
+        },
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "8 F.3d 343",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10509163,
+        6528438
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "349"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/8/0343-01",
+        "/br/160/0343-02"
+      ]
+    },
+    {
+      "cite": "466 B.R. 572",
+      "category": "reporters:specialty",
+      "reporter": "B.R.",
+      "case_ids": [
+        3677739
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "580",
+          "parenthetical": "quoting Patton v. Bearden, 8 F.3d 343, 349 (6th Cir. 1993) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/466/0572-01"
+      ]
+    },
+    {
+      "cite": "148 B.R. 698",
+      "category": "reporters:specialty",
+      "reporter": "B.R.",
+      "case_ids": [
+        6513243
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "700"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/148/0698-01"
+      ]
+    },
+    {
+      "cite": "523 B.R. 291",
+      "category": "reporters:specialty",
+      "reporter": "B.R.",
+      "case_ids": [
+        4338937
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "296",
+          "parenthetical": "alteration in original"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/523/0291-01"
+      ]
+    },
+    {
+      "cite": "283 F.3d 392",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9446139,
+        9509790
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "398"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/275/0392-01",
+        "/f3d/283/0392-01"
+      ]
+    },
+    {
+      "cite": "449 U.S. 424",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11716358
+      ],
+      "weight": 3,
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "430"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/449/0424-01"
+      ]
+    },
+    {
+      "cite": "112 S.Ct. 1146",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        6513849,
+        6225793
+      ],
+      "weight": 2,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "parenthetical": "\"When the words of a statute are unambiguous, then, th[e] first canon [of statutory construction] is also the last: 'judicial inquiry is complete.' \" (quoting Rubin v. United States, 449 U.S. 424, 430, 101 S.Ct. 698, 66 L.Ed.2d 633 (1981) )"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/136/1146-01",
+        "/us/503/0249-01"
+      ]
+    },
+    {
+      "cite": "503 U.S. 249",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6225793
+      ],
+      "weight": 3,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "254",
+          "parenthetical": "\"When the words of a statute are unambiguous, then, th[e] first canon [of statutory construction] is also the last: 'judicial inquiry is complete.' \" (quoting Rubin v. United States, 449 U.S. 424, 430, 101 S.Ct. 698, 66 L.Ed.2d 633 (1981) )"
+        },
+        {
+          "parenthetical": "\"When the words of a statute are unambiguous, then, th[e] first canon [of statutory construction] is also the last: 'judicial inquiry is complete.' \" (quoting Rubin v. United States, 449 U.S. 424, 430, 101 S.Ct. 698, 66 L.Ed.2d 633 (1981) )"
+        },
+        {
+          "page": "254"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/503/0249-01"
+      ]
+    },
+    {
+      "cite": "136 F.3d 854",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1235601
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "858"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/136/0854-01"
+      ]
+    },
+    {
+      "cite": "242 U.S. 470",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3934939
+      ],
+      "weight": 3,
+      "year": 1917,
+      "pin_cites": [
+        {
+          "page": "485"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/242/0470-01"
+      ]
+    },
+    {
+      "cite": "109 S.Ct. 1026",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12031939,
+        6498933
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "parenthetical": "quoting Caminetti v. United States, 242 U.S. 470, 485, 37 S.Ct. 192, 61 L.Ed. 442 (1917) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/489/0235-01",
+        "/br/95/1026-01"
+      ]
+    },
+    {
+      "cite": "489 U.S. 235",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12031939
+      ],
+      "weight": 2,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "241",
+          "parenthetical": "quoting Caminetti v. United States, 242 U.S. 470, 485, 37 S.Ct. 192, 61 L.Ed. 442 (1917) "
+        },
+        {
+          "parenthetical": "quoting Caminetti v. United States, 242 U.S. 470, 485, 37 S.Ct. 192, 61 L.Ed. 442 (1917) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/489/0235-01"
+      ]
+    },
+    {
+      "cite": "500 U.S. 136",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6218684
+      ],
+      "weight": 3,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "139"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/500/0136-01"
+      ]
+    },
+    {
+      "cite": "505 U.S. 469",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1480888
+      ],
+      "weight": 3,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "477"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/505/0469-01"
+      ]
+    },
+    {
+      "cite": "519 U.S. 337",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11595510
+      ],
+      "weight": 7,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "340"
+        },
+        {
+          "page": "341"
+        },
+        {
+          "page": "341"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/519/0337-01"
+      ]
+    },
+    {
+      "cite": "471 U.S. 681",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6207185
+      ],
+      "weight": 5,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "685"
+        },
+        {
+          "page": "685"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/471/0681-01"
+      ]
+    },
+    {
+      "cite": "11 U.S.C. \u00a7 928",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "11 U.S.C. \u00a7 552",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "550 U.S. 544",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3556136
+      ],
+      "weight": 3,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "570"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/550/0544-01"
+      ]
+    },
+    {
+      "cite": "640 F.3d 1",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4203517
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "7"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/640/0001-01"
+      ]
+    },
+    {
+      "cite": "11 U.S.C. \u00a7 362",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)(4)"
+        },
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "P.R. Laws Ann. tit. 9, \u00a7 2002",
+      "category": "laws:leg_statute",
+      "reporter": "P.R. Laws Ann.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "582 B.R. 579",
+      "category": "reporters:specialty",
+      "reporter": "B.R.",
+      "case_ids": [
+        12421351
+      ],
+      "weight": 22,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "585-86"
+        },
+        {
+          "page": "585"
+        },
+        {
+          "page": "593"
+        },
+        {
+          "page": "596"
+        },
+        {
+          "page": "594"
+        },
+        {
+          "page": "591-96"
+        },
+        {
+          "page": "597-98"
+        },
+        {
+          "page": "593"
+        },
+        {
+          "page": "593",
+          "parenthetical": "quoting a Senate Report \"stating that Section 928 'is intended to negate Section 552(a),' which 'could terminate the security for municipal revenue bonds, but 'to go no further' \" (quoting S. Rep. No. 100-506, at 12-13, 22-23 (1988))"
+        },
+        {
+          "page": "595-96"
+        },
+        {
+          "page": "594"
+        },
+        {
+          "page": "594-95"
+        },
+        {
+          "page": "594-95"
+        },
+        {
+          "page": "591"
+        },
+        {
+          "page": "597-98"
+        },
+        {
+          "page": "598"
+        },
+        {
+          "page": "598-99"
+        },
+        {
+          "page": "599"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/582/0579-01"
+      ]
+    },
+    {
+      "cite": "872 F.3d 57",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12269818,
+        12263653
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "59",
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/575/0057-01",
+        "/f3d/872/0057-01"
+      ]
+    },
+    {
+      "cite": "48 U.S.C. \u00a7\u00a7 2161",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1408,
+    "char_count": 35770,
+    "pagerank": {
+      "raw": 6.991752114013415e-08,
+      "percentile": 0.42271151715795013
+    },
+    "sha256": "52f2bbb7a3b6799a14e0192398bd873c200e91862987e7ce79044fdb7a55c1aa",
+    "simhash": "1:1f5ce9959f6e64cf",
+    "word_count": 5770
+  },
+  "last_updated": "2024-02-27T18:46:33.646602+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Howard, Chief Judge, Torruella, and Thompson, Circuit Judges."
+    ],
+    "parties": [
+      "IN RE: the FINANCIAL OVERSIGHT AND MANAGEMENT BOARD FOR PUERTO RICO, as Representative for the Commonwealth of Puerto Rico; the Financial Oversight and Management Board for Puerto Rico, as Representative for the Puerto Rico Highways & Transportation Authority, Debtors."
+    ],
+    "opinions": [
+      {
+        "text": "TORRUELLA, Circuit Judge.\nAppellants, financial guarantee insurers that had insured bonds from the Puerto Rico Highway and Transportation Authority (\"PRHTA\") (hereinafter the \"Insurers\"), appeal from the dismissal of their Amended Complaint in an adversary proceeding arising within the debt adjustment proceeding that the Financial Oversight and Management Board (the \"Board\") commenced on behalf of the PRHTA under Title III of the Puerto Rico Oversight, Management, and Economic Stability Act (\"PROMESA\"), see 48 U.S.C. \u00a7\u00a7 2161 - 2177. Because the district court did not err when it dismissed the Insurers' Amended Complaint pursuant to Fed. R. Civ. P. 12(b)(6) on the grounds that neither Section 922(d) nor Section 928(a) of the United States Bankruptcy Code entitle the Insurers to the relief they sought, we affirm.\nI. Background\n1. PROMESA\nThis is one of a sequence of appeals related to PROMESA, a statute enacted by Congress \"in June 2016 to address an ongoing financial crisis in the Commonwealth of Puerto Rico.\" In re Fin. Oversight & Mgmt. Bd. for Puerto Rico, 872 F.3d 57, 59 (1st Cir. 2017) (citation omitted). To \"help Puerto Rico achieve fiscal responsibility and access to the capital markets,\" the statute created the Board, which has \"the ability to commence quasi-bankruptcy proceedings to restructure the Commonwealth's debt under a part of the statute often referred to as 'Title III.' \" Id. PROMESA is largely modeled on municipal debt reorganization principles set forth in Chapter 9 of the Bankruptcy Code.\n2. The PRHTA Bonds\nIn 1965, the Commonwealth of Puerto Rico (\"the Commonwealth\") created the PRHTA, a public corporation, to \"oversee and manage the development of roads and various means of transportation\" in the Commonwealth by passing Act No. 74-1965, known as the \" Enabling Act.\" Assured Guar. Corp. v. Commonwealth of Puerto Rico (In re Fin. Oversight & Mgmt. Bd. of P.R.), 582 B.R. 579, 585-86 (D.P.R. 2018) ; see generally P.R. Laws Ann. tit. 9, \u00a7 2002. Pursuant to its Enabling Act, the PRHTA can secure capital by issuing municipal bonds. The PRHTA has issued several series of bonds (the \"PRHTA Bonds\") under Resolution No. 68-18 and Resolution No. 98-06 (collectively the \"Resolutions\"). The Insurers allege that pursuant to the Enabling Act and the Resolutions, the PRTHA Bonds are secured by a gross lien on (i) the revenues derived from the tolls on four highways within the Commonwealth (the \"Pledged Toll Revenues\"); (ii) gasoline, diesel, crude oil, and other special excise taxes levied by the Commonwealth (the \"PRHTA Pledged Tax Revenues\"); and (iii) special excise taxes consisting of motor vehicle license fees collected by the Commonwealth (together with the PRHTA Pledged Tax Revenues, the \"PRHTA Pledged Special Excise Taxes\"). According to the Insurers, the Puerto Rico Secretary of Treasury is required by statute to transfer the PRHTA Pledged Special Excise Taxes to PRHTA each month for the benefit of PRHTA bondholders. They further allege that the Pledged Toll Revenues and the PRHTA Pledged Special Excise Taxes (collectively, the \"PRHTA Pledged Special Revenues\") are the Insurers' property, which the PRHTA must transfer to the fiscal agent for the PRHTA Bonds on a monthly basis to replenish tripartite funds (the \"Reserve Accounts\") held in trust by The Bank of New York Mellon (\"BNYM\").\n3. The Debt Adjustment Proceeding\nIn March 2017, after the enactment of PROMESA and appointment of the Board, the Board certified a financial plan by which the PRHTA Pledged Special Revenues formerly being deposited in the Reserve Accounts would instead be diverted and subsumed into the general revenues of Puerto Rico. On May 3 and 21, 2017, the Board commenced debt adjustment proceedings on behalf of the Commonwealth and the PRHTA, respectively, pursuant to Title III of PROMESA.\nBNYM continued to make payments to the PRHTA bondholders through June 20, 2017, when the Puerto Rico Fiscal Agency and Financial Advisory Authority (\"AAFAF\" for its Spanish acronym), on behalf of PRHTA, instructed BNYM to cease making scheduled payments from the Reserve Accounts. The reasoning behind the instruction was that making such payments would constitute an act \"to exercise control\" over PRHTA's property in violation of the automatic stay that arose under 11 U.S.C. \u00a7 362(a), as incorporated by Section 301 of PROMESA, following the filing of the Title III petition on the PRHTA's behalf. Thereafter, on July 3, 2017, the PRHTA defaulted on a scheduled bond payment of $219 million. BNYM is abstaining from distributing funds from the Reserve Accounts until this matter is resolved.\nIn June 2017, the Insurers initiated adversary proceedings against the Commonwealth, the PRHTA, the Board, the AAFAF, the Governor of the Commonwealth, and other individual defendants in their official capacity (collectively the \"Debtors\"). In their Amended Complaint, which included four claims for relief, the Insurers essentially alleged that failure to continue to remit the PRHTA Pledged Special Revenues into the Reserve Accounts and pay them as payments come due violates Chapter 9 of the Bankruptcy Code. Specifically, the Insurers' first claim sought declarations that the PRHTA Bonds were secured by special revenues, that the application of such revenues to payments on the bonds is exempted from the automatic stay imposed by Title III of PROMESA, and that failure to continue to remit the PRHTA Pledged Special Revenues during the pendency of the Title III proceedings is in violation of Sections 922(d) and 928 of Chapter 9 of the Bankruptcy Code (which Section 301 of PROMESA makes applicable to Title III proceedings). The second claim sought declarations that the funds held in the Reserve Accounts are: (a) property of the PRHTA bondholders, (b) held in trust for the benefit of the bondholders, and (c) subject to a lien in their favor. They further sought a declaration that the PRHTA lacked enough property interest to prevent the disbursement of the funds currently held in the Reserve Accounts unless or until the PRHTA Bonds are fully retired or defeased. The third claim sought injunctive relief against further alleged violations of Sections 922(d) and 928 of the Bankruptcy Code. Finally, the fourth claim sought injunctive relief requiring the PRHTA to resume remittance of the special revenues securing the PRHTA Bonds in accordance with Sections 922(d) and 928 of the Bankruptcy Code.\nThe Debtors moved to dismiss the Amended Complaint under Fed. R. Civ. P. 12(b)(1) and 12(b)(6), for lack of subject matter jurisdiction and failure to state a claim upon which relief could be granted. They essentially argued that the Amended Complaint failed to state a claim for relief because neither Section 922(d) nor Section 928 of the Bankruptcy Code requires PRHTA to remit payment of special revenues to bondholders during the pendency of the Title III proceedings nor do those statutes create a cause of action for bondholders to compel payment. Further, they claimed the PRHTA bondholders did not have a property interest in the funds in the Reserve Accounts.\nAfter holding a hearing, the district court granted the motion to dismiss. Assured, 582 B.R. at 585. It held that neither provision of Chapter 9 requires or empowers the court to order continued remittance of PRHTA Pledged Special Revenues to the Reserve Accounts or payment of PRHTA Pledged Special Revenues to the PRHTA bondholders during the pendency of Title III proceedings. Specifically, the court found that \" Section 928 does not mandate the turnover of special revenues.\" Id. at 593. Rather, \" Section 928(a) merely exempts consensual prepetition liens on special revenues acquired by the debtor post-petition from Section 552(a) of the Bankruptcy Code, which could otherwise invalidate such liens with respect to revenues acquired post-petition.\" Id. Regarding Section 922(d), the court held that although it \"excepts the 'application' of special revenues from the automatic stay,\" it does not \"except actions to enforce special revenue liens,\" id. at 596, or otherwise impose a payment obligation, id. at 594. Therefore, the court concluded, the Insurers had failed to adequately state a claim upon which relief can be granted. Id. at 591-96. The court also held that the Insurers failed to plausibly plead that the bondholders had a property interest in the funds of the Reserve Accounts. Id. at 597-98.\nThe Insurers appeal from the district court's dismissal of the first, third, and fourth claims of their Amended Complaint.\nII. Discussion\nWe review de novo the district court's grant of a motion to dismiss. In so doing, we treat all well-pleaded facts in the complaint as true and draw all reasonable inferences in favor of the plaintiff. Ocasio-Hern\u00e1ndez v. Fortu\u00f1o-Burset, 640 F.3d 1, 7 (1st Cir. 2011). A complaint will survive dismissal under Rule 12(b)(6) if it contains \"enough facts to state a claim to relief that is plausible on its face.\" Bell Atl. Corp. v. Twombly, 550 U.S. 544, 570, 127 S.Ct. 1955, 167 L.Ed.2d 929 (2007).\nWhether the Amended Complaint properly pleads a claim for relief as to the Insurers' first, third, and fourth claims hinges on the statutory construction of Sections 928(a) and 922(d) of the Bankruptcy Code. We thus turn to those statutes and provide some statutory context necessary to understand the parties' arguments.\nSection 552(a) of the Bankruptcy Code establishes generally that \"property acquired by the ... debtor after the commencement of the case is not subject to any lien resulting from any security agreement entered into by the debtor before the commencement of the case.\" 11 U.S.C. \u00a7 552(a). Section 928, however, exempts consensual prepetition liens on special revenues from application of Section 552(a) in Chapter 9 cases. Specifically, Section 928 states:\n(a) Notwithstanding section 552(a) of this title and subject to subsection (b) of this section, special revenues acquired by the debtor after the commencement of the case shall remain subject to any lien resulting from any security agreement entered into by the debtor before the commencement of the case.\n(b) Any such lien on special revenues, other than municipal betterment assessments, derived from a project or system shall be subject to the necessary operating expenses of such project or system, as the case may be.\n11 U.S.C. \u00a7 928.\nThe Insurers argue that Section 928(a) not only overrides Section 522(a) and thus preserves prepetition liens, but also requires continued payments of special revenue bonds, such as the PRHTA Bonds, during the pendency of the Title III proceeding to avoid debtor misuse of the property subject to the lien.\nIt is elementary that in resolving a dispute over the meaning of a statute we begin with the language of the statute itself. Landreth Timber Co. v. Landreth, 471 U.S. 681, 685, 105 S.Ct. 2297, 85 L.Ed.2d 692 (1985). We first \"determine whether the language at issue has a plain and unambiguous meaning with regard to the particular dispute in the case.\" Robinson v. Shell Oil Co., 519 U.S. 337, 340, 117 S.Ct. 843, 136 L.Ed.2d 808 (1997). \"The plainness or ambiguity of statutory language is determined by reference to the language itself, the specific context in which that language is used, and the broader context of the statute as a whole.\" Id. at 341, 117 S.Ct. 843 (citing Estate of Cowart v. Nicklos Drilling Co., 505 U.S. 469, 477, 112 S.Ct. 2589, 120 L.Ed.2d 379 (1992) ; McCarthy v. Bronson, 500 U.S. 136, 139, 111 S.Ct. 1737, 114 L.Ed.2d 194 (1991) ). If \"the statute's language is plain, 'the sole function of the courts is to enforce it according to its terms.' \" United States v. Ron Pair Enters., Inc., 489 U.S. 235, 241, 109 S.Ct. 1026, 103 L.Ed.2d 290 (1989) (quoting Caminetti v. United States, 242 U.S. 470, 485, 37 S.Ct. 192, 61 L.Ed. 442 (1917) ). If, however, the language is not plain and unambiguous, we then turn to other tools of statutory construction, such as legislative history. See Arnold v. United Parcel Serv., Inc., 136 F.3d 854, 858 (1st Cir. 1998).\nWe find Section 928(a)'s plain language unambiguous. Section 928(a) simply provides that consensual prepetition liens on special revenues will remain in place after the filing of the petition, despite the fact that Section 552(a) generally protects property acquired after the petition from being subject to prepetition liens. That is, without Section 928(a), pursuant to Section 552(a), consensual prepetition liens would be invalidated with respect to special revenues acquired by the debtor post-petition. As the district court found, Section 928, however, is silent about enforcement of liens or \"payment of the secured obligation,\" and does not order any action on the part of the debtor. Assured, 582 B.R. at 593. We thus agree with the district court that Section 928 does not mandate the turnover of special revenues or require continuity of payments of the PRHTA Bonds during the pendency of the Title III proceeding. Id.\nThe Insurers contest the district court's conclusion that this reading of Section 928 is supported by the legislative history of the 1988 Municipal Bankruptcy Amendments (\"1988 Amendments\"), Pub. L. No. 100-597 (1988). See Assured, 582 B.R. at 593 (quoting a Senate Report \"stating that Section 928 'is intended to negate Section 552(a),' which 'could terminate the security for municipal revenue bonds, but 'to go no further' \" (quoting S. Rep. No. 100-506, at 12-13, 22-23 (1988))). Because the language of the statute is unambiguous, however, we find it unnecessary to turn to the legislative history. See Connecticut Nat'l Bank v. Germain, 503 U.S. 249, 254, 112 S.Ct. 1146, 117 L.Ed.2d 391 (1992) (\"When the words of a statute are unambiguous, then, th[e] first canon [of statutory construction] is also the last: 'judicial inquiry is complete.' \" (quoting Rubin v. United States, 449 U.S. 424, 430, 101 S.Ct. 698, 66 L.Ed.2d 633 (1981) )).\nThe Insurers next argue that Section 922(d) of the Bankruptcy Code requires Debtors to continue to turn over the revenues allegedly securing the PRHTA Bonds and exempts bondholder enforcement actions from the automatic stays of Sections 362 and 922(a) of the Bankruptcy Code.\nPursuant to Section 362, an automatic stay goes into effect upon the filing of a bankruptcy petition. See 11 U.S.C. \u00a7\u00a7 362, 901(a). \"The automatic stay is one of the fundamental protections that the Bankruptcy Court affords to debtors.\" Jamo v. Katahdin Fed. Credit Union (In re Jamo ), 283 F.3d 392, 398 (1st Cir. 2002). It is intended to \"effectively stop all creditor collection efforts, stop all harassment of a debtor seeking relief, and to maintain the status quo between the debtor and [its] creditors, thereby affording the parties and the [c]ourt an opportunity to appropriately resolve competing economic interests in an orderly and effective way.\" In re Witkowski, 523 B.R. 291, 296 (1st Cir. B.A.P. 2014) (alteration in original) (quoting Zeoli v. RIHT Mortg. Corp., 148 B.R. 698, 700 (D.N.H. 1993) ). The automatic stay is \"extremely broad in scope\" and \"appl[ies] to almost any type of formal or informal action against the debtor or the property of the estate,\" In re Slabicki, 466 B.R. 572, 580 (1st Cir. B.A.P. 2012) (quoting Patton v. Bearden, 8 F.3d 343, 349 (6th Cir. 1993) ), including \"any act to ... enforce any lien against property of the estate,\" 11 U.S.C. \u00a7 362(a)(4).\nSection 922(a) expands the scope of the Section 362 automatic stay in Chapter 9 cases to \"action[s] or proceeding[s] against an officer or inhabitant of the debtor that seeks to enforce a claim against the debtor,\" and to \"enforcement of a lien on or arising out of taxes or assessments owed to the debtor.\" 11 U.S.C. \u00a7 922(a).\nSection 922 further provides that notwithstanding the automatic stays under Sections 362 and 922(a), \"a petition filed under [Chapter 9] does not operate as a stay of application of pledged special revenues in a manner consistent with [S]ection [928][ ] of [Chapter 9] to payment of indebtedness secured by such revenues.\" 11 U.S.C. \u00a7 922(d). That is, pursuant to Section 922(d), the automatic stays of Sections 362 and 922(a) do not stay the \"application\" of \"pledged special revenues\" to payment of debt secured by such revenues.\nThe Insurers take issue with the district court's conclusion that although Section 922(d)\"excepts the 'application' of special revenues from the automatic stay\" -- and thus allows for voluntary payment by the debtor, \"including the application of the debtor's funds held by a secured lender to secure indebtedness\" -- it does not except bondholder actions seeking to enforce special revenue liens, Assured, 582 B.R. at 595-96, or otherwise impose a payment obligation, id. at 594. They allege that the district court's reading of Section 922(d) renders it \"superfluous\" because nothing prevents voluntary action of the debtor even in the absence of Section 922(d). Thus, their argument goes, Section 922(d)'s purpose is to exempt bondholder enforcement actions from the stay when their lien is secured by pledged special revenues. According to the Insurers, Section 922(d) operates as an absolute, categorical exception to the automatic stay imposed by Sections 362 and 922(a) of the Bankruptcy Code, compelling the PRHTA to continue to remit the proceeds of the Special Revenues into the Reserve Accounts (after covering its operating expenses) and allowing actions by bondholders to enforce their rights to those revenues.\nAgain, we turn first to the statute's language to determine its meaning. Landreth, 471 U.S. at 685, 105 S.Ct. 2297. Section 922(d)'s plain language establishes that the application of pledged special revenues is not a violation of the automatic stay. It thus permits a debtor to pay creditors voluntarily during the pendency of the bankruptcy case and allows a secured claimholder to apply special revenues in its possession to pre-petition debt without violating the automatic stays of Sections 362 and 922(a). Nothing in the statute's plain language, however, addresses actions to enforce liens on special revenues, which are specifically stayed by Section 362(a)(4) of the Bankruptcy Code, or allows for the compelling of debtors, or third parties holding special revenues, to apply special revenues to outstanding obligations. When Congress wants to command performance, turnover, or payment, it knows how to do so expressly. See, e.g., 11 U.S.C. \u00a7 365(d)(5) (providing that a \"trustee shall timely perform all of the\" debtor's obligations); \u00a7 542(a) (instructing that \"an entity\" in possession of estate property \"shall deliver\" it to the trustee); \u00a7 542(b) (directing that \"an entity ... shall pay such debt to ... \"). By contrast, Section 922(d), as the district court found, \"simply carves out one type of action (application of special revenues) from the automatic stay, without addressing any other constraints that may apply to that action, without any grant of relief from other aspects of the automatic stay, [ ] without imposing any requirement that the action be taken,\" and without offering any language of the consequences of failing to apply pledged special revenues to continued bond payments.\nAssured, 582 B.R. at 594 ; see also 6 Collier on Bankruptcy \u00b6 922.05 (16th ed. 2018) (stating that \"[S]ection 922(d) is limited to an exception from the automatic stay [and] does not suggest that its language compels payment of special revenues in the possession of the municipality\").\nOur construction of Section 922(d) complies with the tenet that in construing statutory provisions we must be mindful of \"the broader context of the statute as a whole\" and avoid creating a conflict between various sections. Robinson, 519 U.S. at 341, 117 S.Ct. 843 ; see also La. Pub. Serv. Comm'n v. FCC, 476 U.S. 355, 370, 106 S.Ct. 1890, 90 L.Ed.2d 369 (1986). Although Section 922(d) provides an exception from the automatic stays of Sections 362 and 922(a), it does not carve out Section 904 of the Bankruptcy Code. Therefore, Section 904, and its analog at Section 305 of PROMESA -- which prohibits judicial interference with the debtor's property or revenues -- remains in full force in determining the effect of Section 922(d). Our construction that Section 922(d) permits rather than mandates payment during the course of the bankruptcy proceedings gives effect to that section without running afoul of Section 305 of PROMESA. See 6 Collier on Bankruptcy \u00b6 922.05 (16th ed. 2018) (noting that a broader reading of Section 922(d), such as the one the Insurers advance, \"could run afoul of [S]ection 904, which prohibits the court from interfering with any of the property or revenues of the debtor\") (internal quotation marks and citation omitted).\nFurthermore, contrary to the Insurers' contention, our construction does not render Section 922(d) superfluous. Before Congress adopted the 1988 Amendments there was ample reason to believe that Section 362(a) stayed a creditor from accepting voluntary payments from a debtor or stayed a creditor from applying debtor funds already in the creditor's possession (as security) to the debt. See, e.g., 6 Collier on Bankruptcy \u00b6 362.03 (\"[I]nnocent conduct such as the cashing of checks received from account debtors of accounts assigned as security may be a technical violation [of Section 362(a)(6) ].\"). Thus, Section 922(d) made clear that a creditor holding pledged special revenues as security may apply those revenues to outstanding debt, notwithstanding the automatic stay.\nThe Insurers also point us to In re Jefferson Cty., 474 B.R. 228 (Bankr. N.D. Ala. 2012), to support their contention that Section 922(d) mandates the turnover of special revenues. We, however, find Jefferson County inapposite. In Jefferson County-- where the county did not contest that the creditors held a lien on the special revenues or whether it should turn over special revenues if said revenues were determined covered by the scope of the lien -- the issue was what revenues were covered by the lien, rather than whether Sections 922(d) and 928 require remittance of special revenues during the automatic stay. Because the court in Jefferson County did not address whether the debtor's payments were voluntary or mandatory, that case does not support the Insurers' argument that Section 922(d) mandates the turnover of special revenues.\nThe Insurers also challenge the district court's conclusion that its reading of Section 922(d) is consistent with the legislative history of the 1988 Amendments. See Assured, 582 B.R. at 594-95 (noting that Congress recognized that a municipality might want to continue to pay bondholders through the course of Chapter 9 bankruptcy proceedings in order to \"retain access to credit markets\" and -- mindful that the automatic stay \"broadly prohibits all collection efforts against a debtor including the application of the debtor's funds held by a secured lender to secure indebtedness\" -- \"sought to permit such third-party applications ... to proceed without having to seek relief from the automatic stay.\" (citing S. Rep. No. 100-506, at 6-7, 11, 21 (1988))) (internal quotation marks omitted). But again, because we find the statute's language unambiguous, there is no need to rely on legislative history. See Connecticut Nat'l Bank, 503 U.S. at 254, 112 S.Ct. 1146.\nWe thus agree with the district court that Section 922(d) only makes clear that the automatic stay is not an impediment to continued payment, whether by the debtor or by another party in possession of pledged special revenues, of indebtedness secured by such revenues. See Assured, 582 B.R. at 594-95.\nThe Insurers and their amici make several arguments rooted in social policy and consideration of fairness urging the court to adopt their proposed broader construction of Sections 928(a) and 922(d), and advance their theory about the possible effect upholding the district court's interpretation might have on the municipal bonds market. Our duty, however, is to interpret the law, not to re-write it. See Obergefell v. Hodges, --- U.S. ----, 135 S.Ct. 2584, 2611, 192 L.Ed.2d 609 (2015) (Roberts, J., dissenting) (\"[J]udges have power to say what the law is, not what it should be.\").\nIII. Conclusion\nIn sum, Sections 928(a) and 922(d) permit, but do not require, continued payment during the pendency of the bankruptcy proceedings. The two provisions stand for the premise that any consensual prepetition lien secured by special revenues will survive the period of municipal bankruptcy, and, accordingly, municipalities can elect to voluntarily continue payment on these debts during the course of the bankruptcy proceedings so as to not fall behind and thus be at risk of being unable to secure financing in the future. Because neither provision requires Debtors to continue to remit the PRHTA Pledged Special Revenues into the Reserve Accounts or continue payments to bondholders during the pendency of the Title III proceedings, the district court properly dismissed the first, third, and fourth claims of the Amended Complaint.\nAffirmed.\nEach fund established by the Resolutions consists of a bond service fund, a bond redemption fund, and a reserve fund.\nFor our decision regarding the constitutionality of the Board members' appointment, see Aurelius Inv., LLC v. Commonwealth of P.R., 915 F.3d 838 (1st Cir. 2019).\nAs of July 3, 2017, the Reserve Accounts contained cash and investments valued at approximately $76 million.\nThe Insurers are subrogated to the rights of the PRHTA bondholders whose claims they have paid.\nThe district court found the second claim for relief to be premised on the following three different theories of bondholder interests in the Reserve Accounts: that (1) the PRHTA bondholders were outright owners of the funds in the Reserve Accounts and thus neither the automatic stay nor Section 305 of PROMESA barred them from collecting the funds; (2) the funds in the Reserve Accounts are held in trust for the benefit of the PRHTA bondholders \"under terms that exclude cognizable property interests of PRHTA in those funds\"; and (3) the funds in the Reserve Accounts are held in trust by BNYM for the benefit of the PRHTA bondholders. Assured, 582 B.R. at 591. The court concluded that, to the extent the Insurers' claim was premised on the third theory, the court lacked subject matter jurisdiction. It reasoned that a determination of the lien interest, by itself, would not resolve \"the question of whether, when and from what, if any, funds the PRHTA bondholders are entitled to be paid.\" Id. Accordingly, the issue was not ripe, and the court lacked subject matter jurisdiction. The court then addressed the merits of the remaining two theories. Regarding the ownership-based theory, the court concluded that the Resolutions and statutory provisions on which the Insurers relied do not suggest that PRHTA bondholders were granted an outright ownership interest in the Reserve Accounts or the funds therein. Id. at 597-98. As to the trust-based theory, the court noted that \"[w]hile multiple interpretations could plausibly be supported\" by the language of the Resolutions and the allegations of the Amended Complaint, each interpretation contemplates a contingent revisionary beneficial interest in the trust corpus, and perhaps even title, by PRHTA. Id. at 598. The court concluded that, given the revisionary interest on the part of PRHTA, Section 305 of PROMESA prevented the court from interfering with the Reserve Accounts. Id. at 598-99. Hence, the court dismissed the second claim for failure to state a claim upon which relief can be granted. Id. at 599.\nWe need not address the district court's dismissal of the Insurers' second claim for relief because the Insurers have failed to develop on appeal any argument on the PRHTA bondholders' property interest in the Reserve Account funds. See United States v. Zannino, 895 F.2d 1, 17 (1st Cir. 1990).\nBecause the district court correctly decided the issues, and persuasively explained its reasoning in a detailed opinion, we see no reason to write at length. See Moses v. Mele, 711 F.3d 213, 216 (1st Cir. 2013).\nFor its part, Section 928(b) allows debtors to offset \"necessary operating expenses\" of a \"project or system\" from \"[a]ny such lien on special revenues\" \"derived from [that] project or system.\" 11 U.S.C. \u00a7 928(b).\nSection 362(b) establishes certain exceptions to Section 362(a)'s automatic stay, none applicable here. 11 U.S.C. \u00a7 362(b).\nThe statute reads as follows:\nA petition filed under this chapter operates as a stay, in addition to the stay provided by section 362 of this title, applicable to all entities, of--\n(1) the commencement or continuation, including the issuance or employment of process, of a judicial, administrative, or other action or proceeding against an officer or inhabitant of the debtor that seeks to enforce a claim against the debtor; and\n(2) the enforcement of a lien on or arising out of taxes or assessments owed to the debtor.\n11 U.S.C. \u00a7 922(a).\nThe statute states \"section 927,\" which the parties and the district court agree appears to be a scrivener's error.\nSpecifically, Section 904 of the Bankruptcy Code establishes:\nNotwithstanding any power of the court, unless the debtor consents or the plan so provides, the court may not, by any stay, order, or decree, in the case or otherwise, interfere with: (1) any of the political or governmental powers of the debtor; (2) any of the property or revenues of the debtor; or (3) the debtor's use or enjoyment of any income-producing property.\n11 U.S.C. \u00a7 904. Section 305 of PROMESA mirrors this language. See 48 U.S.C. \u00a7 2165.\nThe Insurers argue that Section 305 poses no impediment to their more liberal construction of Section 922(d). Citing In reCity of Stockton, 478 B.R. 8, 22 (Bankr. E.D. Cal. 2012) and In re County of Orange, 179 B.R. 185, 190 (Bankr. C.D. Cal. 1995), the Insurers argue that Section 305 of PROMESA does not foreclose the relief they seek under Section 922(d) of the Bankruptcy Code because, according to them, the latter is more specific than the former and a \"specific statute controls over a general without regard to priority of enactment.\" Their argument is premised on faulty grounds.\nFirst, if Section 922(d) clearly mandated what the Insurers contend, their argument would be stronger, and we would need to examine whether one section of PROMESA controls over another. But, when the plain language of a section is clear, we will not assign it an alternate interpretation that clashes with other clearly written sections. As Congress knows how to command performance when it wants to, so too does it know how to create exceptions to general rules when that is its intent. And, while Section 922(d) provides an exception from the automatic stays of Sections 362 and 922(a), it does not similarly provide an exception from Section 904 of the Bankruptcy Code.\nSecond, the cases cited by the Insurers are clearly inapposite. Section 305, like Section 904, prohibits judicial interference with the property and revenues of the debtor \"unless the Oversight Board consents or the plan so provides.\" 48 U.S.C. \u00a7 2165. The cases cited by the Insurers considered the debtors' voluntary filing of the bankruptcy petitions as their consent for the exercise of the court's powers over the debtors. Thus, in the cases that the Insurers cite, Section 904 posed no impediment to the courts' exercise of its power over the debtor. Yet, we recently rejected this approach in Fin. Oversight & Mgmt. Bd. for P.R. v. Ad Hoc Grp. of PREPA Bondholders (In re Fin. Oversight & Mgmt. Bd. for P.R.), where we held that the Board's filing of the Title III petition could not be construed as consent to interfere with the debtor's property or revenues because such construction \"would render Section 305 a nullity.\" 899 F.3d 13, 19 (1st Cir. 2018).",
+        "type": "majority",
+        "author": "TORRUELLA, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Mark C. Ellenberg, Washington, DC, with whom Howard R. Hawkins, Jr., Lary Stromfeld, Ellen V. Holloman, Gillian Groarke Burns, Thomas J. Curtin, Casey Servais, New York, NY, Cadwalader, Wickersham & Taft LLP, Heriberto Burgos-P\u00e9rez, Ricardo F. Casellas-S\u00e1nchez, Hato Rey, PR, Diana P\u00e9rez-Seda, and Casellas Alcover & Burgos, San Juan, PR, were on brief, for appellants Assured Guaranty Corp. and Assured Guaranty Municipal Corp.",
+      "Eric P\u00e9rez-Ochoa, Alexandra Casellas-Cabrera, Lourdes Arroyo-Portela, Adsuar Mu\u00f1iz Goyco Seda & P\u00e9rez-Ochoa, P.S.C., San Juan, PR, Jonathan Polkes, Marcia Goldstein, Gregory Silbert, Kelly DiBlasi, Gabriel A. Morgan, and Weil, Gotshal & Manges LLP, New York, NY, on brief, for appellant National Public Finance Guarantee Corporation.",
+      "Mar\u00eda E. Pic\u00f3, Rexach & Pic\u00f3, CSP, Martin A. Sosland, Dallas, TX, Jason W. Callen, Nashville, TN, and Butler Snow LLP on brief, for appellant Financial Guaranty Insurance Company.",
+      "Mark D. Harris, New York, NY, with whom Timothy W. Mungovan, Boston, MA, Martin J. Bienenstock, Stephen J. Ratner, Jeffrey W. Levitan, New York, NY, Michael A. Firestein, Lary Alan Rappaport, Los Angeles, CA, Proskauer Rose LLP, Hermann D. Bauer, and O'Neill & Borges LLC, San Juan, PR, were on brief, for appellees The Financial Oversight and Management Board for Puerto Rico, for itself and as representative for the Commonwealth of Puerto Rico and the Puerto Rico Highways and Transportation Authority, and Natalie A. Jaresko.",
+      "Luis Marini, Marini Pietrantoni Mu\u00f1iz, LLC, John J. Rapisardi, New York, NY, Peter Friedman, Washington, DC, Elizabeth L. McKeen, Newport Beach, CA, and O'Melveny & Myers LLP on brief, for appellees the Puerto Rico Fiscal Agency and Financial Advisory Authority and Gerardo Portela-Franco.",
+      "Luc A. Despins, New York, NY, with whom William K. Whitner, Atlanta, GA, James B. Worthington, New York, NY, James T. Grogan III, Paul Hastings LLP, Juan J. Casillas-Ayala, Diana M. Battle-Barasorda, Alberto J.E. A\u00f1eses-Negr\u00f3n, Ericka C. Montull-Novoa, and Casillas, Santiago & Torres LLC, San Juan, PR, were on brief, for Official Committee of Unsecured Creditors.",
+      "Laura E. Appleby, with whom Steven Wilamowsky, New York, NY, Aaron Krieger, Chicago, IL, Chapman and Cutler LLP and Kevin Carroll, New York, NY, as amicus curiae for The Securities Industry and Financial Markets Association.",
+      "Vincent J. Marriott III, Philadelphia, PA, with whom Chantelle D. McClamb, Wilmington, DE, and Ballard Spahr LLP, as amicus curiae for The National Federation of Municipal Analysts."
+    ],
+    "corrections": "",
+    "head_matter": "IN RE: the FINANCIAL OVERSIGHT AND MANAGEMENT BOARD FOR PUERTO RICO, as Representative for the Commonwealth of Puerto Rico; the Financial Oversight and Management Board for Puerto Rico, as Representative for the Puerto Rico Highways & Transportation Authority, Debtors.\nAssured Guaranty Corporation; Assured Guaranty Municipal Corporation; Financial Guaranty Insurance Company; National Public Finance Guarantee Corporation, Plaintiffs, Appellants,\nv.\nThe Financial Oversight and Management Board for Puerto Rico, as Representative for the Commonwealth of Puerto Rico; Financial Oversight and Management Board for Puerto Rico; Puerto Rico Fiscal Agency and Financial Advisory Aurthority; the Financial Oversight and Management Board for Puerto Rico, as Representative for the Puerto Rico Highways & Transportation Authority ; Ricardo Rossell\u00f3-Nevares; Gerardo Jos\u00e9 Portela-Franco; Carlos Contreras-Aponte; Jos\u00e9 Iv\u00e1n Marrero-Rosado; Ra\u00fal Maldonado-Gautier; Natalie A. Jaresko, Defendants, Appellees,\nJos\u00e9 B. Carri\u00f3n III; Andrew G. Briggs; Carlos M. Garc\u00eda; Arthur J. Gonz\u00e1lez; Jos\u00e9 R. Gonz\u00e1lez; Ana J. Matosantos; David A. Skeel, Jr.; Christian Sobrino, Defendants.\nNos. 18-1165\n18-1166\nUnited States Court of Appeals, First Circuit.\nMarch 26, 2019\nMark C. Ellenberg, Washington, DC, with whom Howard R. Hawkins, Jr., Lary Stromfeld, Ellen V. Holloman, Gillian Groarke Burns, Thomas J. Curtin, Casey Servais, New York, NY, Cadwalader, Wickersham & Taft LLP, Heriberto Burgos-P\u00e9rez, Ricardo F. Casellas-S\u00e1nchez, Hato Rey, PR, Diana P\u00e9rez-Seda, and Casellas Alcover & Burgos, San Juan, PR, were on brief, for appellants Assured Guaranty Corp. and Assured Guaranty Municipal Corp.\nEric P\u00e9rez-Ochoa, Alexandra Casellas-Cabrera, Lourdes Arroyo-Portela, Adsuar Mu\u00f1iz Goyco Seda & P\u00e9rez-Ochoa, P.S.C., San Juan, PR, Jonathan Polkes, Marcia Goldstein, Gregory Silbert, Kelly DiBlasi, Gabriel A. Morgan, and Weil, Gotshal & Manges LLP, New York, NY, on brief, for appellant National Public Finance Guarantee Corporation.\nMar\u00eda E. Pic\u00f3, Rexach & Pic\u00f3, CSP, Martin A. Sosland, Dallas, TX, Jason W. Callen, Nashville, TN, and Butler Snow LLP on brief, for appellant Financial Guaranty Insurance Company.\nMark D. Harris, New York, NY, with whom Timothy W. Mungovan, Boston, MA, Martin J. Bienenstock, Stephen J. Ratner, Jeffrey W. Levitan, New York, NY, Michael A. Firestein, Lary Alan Rappaport, Los Angeles, CA, Proskauer Rose LLP, Hermann D. Bauer, and O'Neill & Borges LLC, San Juan, PR, were on brief, for appellees The Financial Oversight and Management Board for Puerto Rico, for itself and as representative for the Commonwealth of Puerto Rico and the Puerto Rico Highways and Transportation Authority, and Natalie A. Jaresko.\nLuis Marini, Marini Pietrantoni Mu\u00f1iz, LLC, John J. Rapisardi, New York, NY, Peter Friedman, Washington, DC, Elizabeth L. McKeen, Newport Beach, CA, and O'Melveny & Myers LLP on brief, for appellees the Puerto Rico Fiscal Agency and Financial Advisory Authority and Gerardo Portela-Franco.\nLuc A. Despins, New York, NY, with whom William K. Whitner, Atlanta, GA, James B. Worthington, New York, NY, James T. Grogan III, Paul Hastings LLP, Juan J. Casillas-Ayala, Diana M. Battle-Barasorda, Alberto J.E. A\u00f1eses-Negr\u00f3n, Ericka C. Montull-Novoa, and Casillas, Santiago & Torres LLC, San Juan, PR, were on brief, for Official Committee of Unsecured Creditors.\nLaura E. Appleby, with whom Steven Wilamowsky, New York, NY, Aaron Krieger, Chicago, IL, Chapman and Cutler LLP and Kevin Carroll, New York, NY, as amicus curiae for The Securities Industry and Financial Markets Association.\nVincent J. Marriott III, Philadelphia, PA, with whom Chantelle D. McClamb, Wilmington, DE, and Ballard Spahr LLP, as amicus curiae for The National Federation of Municipal Analysts.\nBefore Howard, Chief Judge, Torruella, and Thompson, Circuit Judges."
+  },
+  "file_name": "0121-01",
+  "first_page_order": 121,
+  "last_page_order": 133
+}

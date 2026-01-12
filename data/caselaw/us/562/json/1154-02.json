@@ -1,0 +1,59 @@
+{
+  "id": 5920935,
+  "name": "Johnson v. Mississippi",
+  "name_abbreviation": "Johnson v. Mississippi",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7493",
+  "first_page": "1154",
+  "last_page": "1154",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1154"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 72,
+    "ocr_confidence": 0.632,
+    "sha256": "8a9c163370b743b513daab62b6a19a3b109a039debcc38e1e31b3e7a7254a2bd",
+    "simhash": "1:a2e8225c9225d340",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Johnson v. Mississippi."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Miss. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7493.\nJohnson v. Mississippi."
+  },
+  "file_name": "1154-02",
+  "first_page_order": 1176,
+  "last_page_order": 1176
+}

@@ -1,0 +1,107 @@
+{
+  "id": 12658156,
+  "name": "STATE of Missouri, Respondent, v. Zachariah A. HINTON, Appellant.",
+  "name_abbreviation": "State v. Hinton",
+  "decision_date": "2018-10-02",
+  "docket_number": "WD 80958",
+  "first_page": "433",
+  "last_page": "434",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "561 S.W.3d 433"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mo. App. Ct.",
+    "id": 30098,
+    "name": "Missouri Court of Appeals, Western District"
+  },
+  "jurisdiction": {
+    "id": 37,
+    "name_long": "Missouri",
+    "name": "Mo."
+  },
+  "cites_to": [
+    {
+      "cite": "794 S.W.2d 643",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9983511
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "646"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/794/0643-01"
+      ]
+    },
+    {
+      "cite": "488 S.W.3d 156",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6802032
+      ],
+      "weight": 3,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "159"
+        },
+        {
+          "page": "160"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/488/0156-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 222,
+    "char_count": 2533,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2649127420170056
+    },
+    "sha256": "10f13acbb278061c688efc70dbcee1910d1aacc32cfe0047ae5a0ff4e26c72ae",
+    "simhash": "1:32407e9cb727c3ce",
+    "word_count": 409
+  },
+  "last_updated": "2024-02-27T17:23:11.634819+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "STATE of Missouri, Respondent,\nv.\nZachariah A. HINTON, Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Lisa White Hardwick, Judge\nZachariah Hinton appeals from his conviction for driving while revoked or suspended. He contends the evidence was insufficient to support his conviction. Because Hinton failed to provide us with a complete record, we must dismiss his appeal.\nFACTUAL AND PROCEDURAL HISTORY\nOn September 12, 2016, the State charged Hinton with driving while revoked or suspended pursuant to Section 302.321, RSMo 2016. A bench trial was held on July 20, 2017, during which the court found Hinton guilty. Subsequently, the court sentenced Hinton to five days in the Jackson County Jail. Hinton appeals.\nANALYSIS\nAlthough Hinton appears pro se in this appeal, \"he is still generally held to the same standard as a licensed attorney.\" City of St. Louis v. Hill , 488 S.W.3d 156, 159 (Mo. App. E.D. 2016). \"The record on appeal shall contain all of the record, proceedings, and evidence necessary to the determination of all questions to be presented by either appellant or respondent to the appellate court for decision. It is divided into two components; the legal file and the transcript.\" Rule 30.04(a). It is Hinton's duty to ensure that we receive the complete record on appeal, which includes a transcript of any relevant proceeding. State v. Sumowski , 794 S.W.2d 643, 646 (Mo. banc 1990) ; Rule 30.04(c).\nHinton's point on appeal alleges that the circuit court's finding of guilt was not supported by the evidence because the State failed to prove that the arresting officer had reason to believe Hinton was operating a motor vehicle with a suspended driver's license. In support of his appeal, Hinton provided a legal file containing certified copies of relevant documents. However, he failed to include a transcript of the July 20, 2017, bench trial. The State placed Hinton on notice of the transcript's absence in its brief, but he has failed to supplement the record. See Rule 30.04(d). Without this transcript, we are unable to subject Hinton's claim to meaningful review. See Hill , 488 S.W.3d at 160. Therefore, we must dismiss his appeal. Id.\nCONCLUSION\nAppeal dismissed.\nAll Concur.",
+        "type": "majority",
+        "author": "Lisa White Hardwick, Judge"
+      }
+    ],
+    "attorneys": [
+      "Filed: October 2, 2018\nMotion for Rehearing and/or Transfer to Supreme Court Denied November 13, 2018",
+      "Zachariah Hinton, Kansas City, appellant pro se.",
+      "Michael J. Hunt, Kansas City for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "STATE of Missouri, Respondent,\nv.\nZachariah A. HINTON, Appellant.\nWD 80958\nMissouri Court of Appeals, Western District.\nFiled: October 2, 2018\nMotion for Rehearing and/or Transfer to Supreme Court Denied November 13, 2018\nZachariah Hinton, Kansas City, appellant pro se.\nMichael J. Hunt, Kansas City for respondent.\nBefore Division Two: Mark D. Pfeiffer, Presiding Judge, Lisa White Hardwick and Edward R. Ardini, Jr., Judges"
+  },
+  "file_name": "0433-01",
+  "first_page_order": 433,
+  "last_page_order": 434
+}

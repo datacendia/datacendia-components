@@ -1,0 +1,59 @@
+{
+  "id": 12433250,
+  "name": "Wood v. Biter, Acting Warden",
+  "name_abbreviation": "Wood v. Biter",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-8019",
+  "first_page": "1233",
+  "last_page": "1233",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1233"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 77,
+    "ocr_confidence": 0.689,
+    "sha256": "a81f2ac5aaa4e570d572ab584414c411e5ce73b762cd98296eb3b60828b2c56e",
+    "simhash": "1:54c36790458d0463",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wood v. Biter, Acting Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8019.\nWood v. Biter, Acting Warden."
+  },
+  "file_name": "1233-11",
+  "first_page_order": 1309,
+  "last_page_order": 1309
+}

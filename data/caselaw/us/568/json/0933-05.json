@@ -1,0 +1,61 @@
+{
+  "id": 12417351,
+  "name": "Rutledge v. Allen et al.",
+  "name_abbreviation": "Rutledge v. Allen",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5357",
+  "first_page": "933",
+  "last_page": "933",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 933"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 151,
+    "ocr_confidence": 0.631,
+    "sha256": "e439e626f050300d2731185843f10a1a326b7b18b979b7fc94467275db30a22c",
+    "simhash": "1:98d37881730ef4d6",
+    "word_count": 26
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Breyer took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Rutledge v. Allen et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.\nJustice Breyer took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5357.\nRutledge v. Allen et al."
+  },
+  "file_name": "0933-05",
+  "first_page_order": 1009,
+  "last_page_order": 1009
+}

@@ -1,0 +1,59 @@
+{
+  "id": 6025865,
+  "name": "Brown v. United States",
+  "name_abbreviation": "Brown v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5562",
+  "first_page": "929",
+  "last_page": "929",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 929"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.629,
+    "sha256": "e4ca8dbc0002aa33fd2e58bc0aa71606ec5d4483db83d9227f2ac0456b652383",
+    "simhash": "1:0e3bce3306afb01a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Brown v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5562.\nBrown v. United States."
+  },
+  "file_name": "0929-04",
+  "first_page_order": 951,
+  "last_page_order": 951
+}

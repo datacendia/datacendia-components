@@ -1,0 +1,87 @@
+{
+  "id": 12657880,
+  "name": "James BROWN, Appellant, v. STATE of Missouri, Respondent.",
+  "name_abbreviation": "Brown v. State",
+  "decision_date": "2018-10-16",
+  "docket_number": "No. ED 105468",
+  "first_page": "115",
+  "last_page": "116",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "559 S.W.3d 115"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mo. App. Ct.",
+    "id": 30182,
+    "name": "Missouri Court of Appeals, Eastern District, DIVISION FOUR"
+  },
+  "jurisdiction": {
+    "id": 37,
+    "name_long": "Missouri",
+    "name": "Mo."
+  },
+  "cites_to": [
+    {
+      "cite": "466 U.S. 668",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6204802
+      ],
+      "weight": 3,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "687"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/466/0668-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 171,
+    "char_count": 1574,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.26488494116838474
+    },
+    "sha256": "34c832ca795dec66f197fb646c954b2b5aa063fab680c8e6ae563240fcb9d13f",
+    "simhash": "1:9bb239a83bfe24d9",
+    "word_count": 246
+  },
+  "last_updated": "2024-02-27T16:24:59.204426+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Kurt S. Odenwald, P.J., Gary M. Gaertner, Jr., J., and Colleen Dolan, J."
+    ],
+    "parties": [
+      "James BROWN, Appellant,\nv.\nSTATE of Missouri, Respondent."
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM\nJames Brown (\"Brown\") appeals from the motion court's judgment denying his Rule 29.15 motion for post-conviction relief following an evidentiary hearing. Brown raises three points on appeal claiming ineffective assistance of trial counsel. In his first two points, Brown argues trial counsel was ineffective for failing to call witnesses to testify regarding an alternate perpetrator and impeachment evidence. In his third point, Brown asserts trial counsel was ineffective for not objecting to and improperly highlighting testimony mentioning Brown's name in a gang profile. We hold that Brown did not overcome the strong presumption that trial counsel's strategy was reasonable under Strickland v. Washington, 466 U.S. 668, 687, 104 S.Ct. 2052, 80 L.Ed.2d 674 (1984).\nWe have reviewed the briefs of the parties and the record on appeal and find no error of law. No jurisprudential purpose would be served by a written opinion. However, the parties have been furnished with a memorandum opinion for their information only, setting forth the facts and reasons for this order.\nThe judgment of the trial court is affirmed in accordance with Rule 84.16(b).",
+        "type": "majority",
+        "author": "PER CURIAM"
+      }
+    ],
+    "attorneys": [
+      "Randall Brachman, 1010 Market St., Ste 1100, St. Louis, MO 63101, for appellant.",
+      "Joshua Hawley, Garrick Aplin, P.O. Box 899, Jefferson City, MO 65102, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "James BROWN, Appellant,\nv.\nSTATE of Missouri, Respondent.\nNo. ED 105468\nMissouri Court of Appeals, Eastern District, DIVISION FOUR.\nFILED: October 16, 2018\nRandall Brachman, 1010 Market St., Ste 1100, St. Louis, MO 63101, for appellant.\nJoshua Hawley, Garrick Aplin, P.O. Box 899, Jefferson City, MO 65102, for respondent.\nBefore Kurt S. Odenwald, P.J., Gary M. Gaertner, Jr., J., and Colleen Dolan, J.\nORDER"
+  },
+  "file_name": "0115-02",
+  "first_page_order": 115,
+  "last_page_order": 116
+}

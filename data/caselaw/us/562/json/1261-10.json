@@ -1,0 +1,59 @@
+{
+  "id": 5979182,
+  "name": "Murphy v. United States",
+  "name_abbreviation": "Murphy v. United States",
+  "decision_date": "2011-02-28",
+  "docket_number": "No. 10-8658",
+  "first_page": "1261",
+  "last_page": "1261",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1261"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.594,
+    "sha256": "697f43a2a8715b5e58a5c6385062d33b7c1ccfb1dc9de154c7ed2f1c275f3efb",
+    "simhash": "1:e59bb2034bbf1d4a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Murphy v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8658.\nMurphy v. United States."
+  },
+  "file_name": "1261-10",
+  "first_page_order": 1283,
+  "last_page_order": 1283
+}

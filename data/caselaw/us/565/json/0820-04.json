@@ -1,0 +1,59 @@
+{
+  "id": 12194824,
+  "name": "Sousa v. Roque et al.",
+  "name_abbreviation": "Sousa v. Roque",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-1409",
+  "first_page": "820",
+  "last_page": "820",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 820"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 68,
+    "ocr_confidence": 0.75,
+    "sha256": "026cc551f9dfe79343c61d3d6540d1e84c85a24d4d029b19bb603716425de1c6",
+    "simhash": "1:1dd520f919179151",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sousa v. Roque et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1409.\nSousa v. Roque et al."
+  },
+  "file_name": "0820-04",
+  "first_page_order": 902,
+  "last_page_order": 902
+}

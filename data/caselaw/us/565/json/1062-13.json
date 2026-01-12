@@ -1,0 +1,59 @@
+{
+  "id": 12235342,
+  "name": "Mitchell v. Dallas Housing Authority",
+  "name_abbreviation": "Mitchell v. Dallas Housing Authority",
+  "decision_date": "2011-11-28",
+  "docket_number": "No. 11-5058",
+  "first_page": "1062",
+  "last_page": "1062",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1062"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 85,
+    "ocr_confidence": 0.628,
+    "sha256": "d9328472b321a781bdf72da4e187cff96c1b68c4383ee3879cf84bf86de127ea",
+    "simhash": "1:170af7828908f422",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mitchell v. Dallas Housing Authority."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5058.\nMitchell v. Dallas Housing Authority."
+  },
+  "file_name": "1062-13",
+  "first_page_order": 1144,
+  "last_page_order": 1144
+}

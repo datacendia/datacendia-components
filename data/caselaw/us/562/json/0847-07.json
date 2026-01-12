@@ -1,0 +1,59 @@
+{
+  "id": 5914373,
+  "name": "Black v. Kelsey",
+  "name_abbreviation": "Black v. Kelsey",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10599",
+  "first_page": "847",
+  "last_page": "847",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 847"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 81,
+    "ocr_confidence": 0.62,
+    "sha256": "60bbf48ec826bc245caaac547428ad1242494623cf2e409cda9465c8a4f52e59",
+    "simhash": "1:4108432375816c26",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Black v. Kelsey."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 4th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10599.\nBlack v. Kelsey."
+  },
+  "file_name": "0847-07",
+  "first_page_order": 869,
+  "last_page_order": 869
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12197415,
+  "name": "Smith v. Supreme Court of Colorado Grievance Committee",
+  "name_abbreviation": "Smith v. Supreme Court of Colorado Grievance Committee",
+  "decision_date": "2012-03-26",
+  "docket_number": "No. 11-8837",
+  "first_page": "913",
+  "last_page": "913",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 913"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 103,
+    "ocr_confidence": 0.586,
+    "sha256": "61e77687a1889b2e2b47c13b6faff6d0dbabc35836679656788f3718d7c4a954",
+    "simhash": "1:2d43c526192b7a2c",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Smith v. Supreme Court of Colorado Grievance Committee."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Colo. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8837.\nSmith v. Supreme Court of Colorado Grievance Committee."
+  },
+  "file_name": "0913-12",
+  "first_page_order": 789,
+  "last_page_order": 789
+}

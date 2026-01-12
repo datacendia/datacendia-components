@@ -1,0 +1,96 @@
+{
+  "id": 3573271,
+  "name": "CLAIBORNE v. UNITED STATES",
+  "name_abbreviation": "Claiborne v. United States",
+  "decision_date": "2007-06-04",
+  "docket_number": "No. 06-5618",
+  "first_page": "87",
+  "last_page": "88",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "551 U.S. 87"
+    },
+    {
+      "type": "parallel",
+      "cite": "167 L. Ed. 2d 1080"
+    },
+    {
+      "type": "parallel",
+      "cite": "127 S. Ct. 2245"
+    },
+    {
+      "type": "vendor",
+      "cite": "2007 U.S. LEXIS 6964"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2006-052"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "340 U. S. 36",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6930686
+      ],
+      "year": 1950,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/340/0036-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 166,
+    "char_count": 1671,
+    "ocr_confidence": 0.62,
+    "pagerank": {
+      "raw": 5.430405510705301e-07,
+      "percentile": 0.9449101086588446
+    },
+    "sha256": "204f9151e115d0c8b05101faf81b37ad47873fb49c1b5b6b7a78c348783f97ed",
+    "simhash": "1:b49ded6ebda49bc8",
+    "word_count": 281
+  },
+  "last_updated": "2024-02-27T20:23:21.737771+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "CLAIBORNE v. UNITED STATES"
+    ],
+    "opinions": [
+      {
+        "text": "Per Curiam.\nThe Court is advised that the petitioner died in St. Louis, Missouri, on May 30, 2007. The judgment of the United States Court of Appeals for the Eighth Circuit is therefore vacated as moot. See United States v. Munsingwear, Inc., 340 U. S. 36 (1950).\nIt is so ordered.",
+        "type": "majority",
+        "author": "Per Curiam."
+      }
+    ],
+    "attorneys": [
+      "Michael Dwyer argued the cause for petitioner. With him on the briefs were Lee T. Lawless and David Hemingway.",
+      "Deputy Solicitor General Dreeben argued the cause for the United States. With him on the brief were Solicitor General Clement, Assistant Attorney General Fisher, Dan Himmelfarb, Matthew D. Roberts, Nina Goodman, and Jeffrey P. Singdahlsen"
+    ],
+    "corrections": "",
+    "head_matter": "CLAIBORNE v. UNITED STATES\nNo. 06-5618.\nArgued February 20, 2007\nDecided June 4, 2007\nMichael Dwyer argued the cause for petitioner. With him on the briefs were Lee T. Lawless and David Hemingway.\nDeputy Solicitor General Dreeben argued the cause for the United States. With him on the brief were Solicitor General Clement, Assistant Attorney General Fisher, Dan Himmelfarb, Matthew D. Roberts, Nina Goodman, and Jeffrey P. Singdahlsen\nBriefs of amici curiae urging reversal were filed for Families Against Mandatory Minimums by Gregory L. Poe, Mary Price, and Peter Goldberger; for Federal Public and Community Defenders et al. by Thomas W. Hillier II, Amy Baron-Evans, Laura E. Mate, and Sara E. Noonan; for the National Association of Criminal Defense Lawyers by Miguel A. Estrada, David Debold, and Jeffrey L. Fisher; for the New York Council of Defense Lawyers by Alexandra A E. Shapiro and Paul H. Schwartz; for the Sentencing Project et al. by Matthew M. Shors and Pammela Quinn; and for the Washington Legal Foundation et al. by Daniel J. Popeo and Paul D. Kamenar.\nRobert E. Toone and Katherine J. Fick filed a brief for Senator Edward M. Kennedy et al. as amici curiae urging affirmance.\nBriefs of amici curiae were filed for Law Professors Who Study Sentencing Reform by Edward S. Lee; and for the United States Sentencing Commission by David C. Frederick and Pamela O. Barron."
+  },
+  "file_name": "0087-01",
+  "first_page_order": 139,
+  "last_page_order": 140
+}

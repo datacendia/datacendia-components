@@ -1,0 +1,77 @@
+{
+  "id": 6030149,
+  "name": "Hollingsworth et al. v. United States District Court for the Northern District of California et al.",
+  "name_abbreviation": "Hollingsworth v. United States District Court for the Northern District of California",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-1238",
+  "first_page": "801",
+  "last_page": "801",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 801"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "340 U. S. 36",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6930686
+      ],
+      "year": 1950,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/340/0036-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 43,
+    "char_count": 308,
+    "ocr_confidence": 0.568,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.1719994100042126
+    },
+    "sha256": "db75ab118c3cd1b6b8506f4882c9e2ccf3ea90979426f588b4bfa675815c054a",
+    "simhash": "1:34dc60e008e46888",
+    "word_count": 51
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hollingsworth et al. v. United States District Court for the Northern District of California et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari granted, judgment vacated, and case remanded with instructions to dismiss the case as moot. See United States v. Munsingwear, Inc., 340 U. S. 36 (1950).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "October 4, 2010\nNo. 09-1238.\nHollingsworth et al. v. United States District Court for the Northern District of California et al."
+  },
+  "file_name": "0801-01",
+  "first_page_order": 823,
+  "last_page_order": 823
+}

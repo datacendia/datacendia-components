@@ -1,0 +1,59 @@
+{
+  "id": 12432703,
+  "name": "Gioglio v. Michigan",
+  "name_abbreviation": "Gioglio v. Michigan",
+  "decision_date": "2013-03-04",
+  "docket_number": "No. 12-8297",
+  "first_page": "1217",
+  "last_page": "1217",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1217"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 69,
+    "ocr_confidence": 0.61,
+    "sha256": "1c8be3ed3e03b5291524baaff2074e7af07789a55fa446cbcbac11a1fa61da88",
+    "simhash": "1:014ea52a6085f187",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gioglio v. Michigan."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Mich. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8297.\nGioglio v. Michigan."
+  },
+  "file_name": "1217-10",
+  "first_page_order": 1293,
+  "last_page_order": 1293
+}

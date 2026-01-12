@@ -1,0 +1,59 @@
+{
+  "id": 6019903,
+  "name": "Hines v. Anderson et al.",
+  "name_abbreviation": "Hines v. Anderson",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5085",
+  "first_page": "903",
+  "last_page": "903",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 903"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 72,
+    "ocr_confidence": 0.628,
+    "sha256": "feed1ebbc7cd19686f7f8a5eef4382d2ac68990475e6c4112b0fb7f66e878074",
+    "simhash": "1:9088a0a81f2030c5",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hines v. Anderson et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5085.\nHines v. Anderson et al."
+  },
+  "file_name": "0903-01",
+  "first_page_order": 925,
+  "last_page_order": 925
+}

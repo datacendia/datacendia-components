@@ -1,0 +1,59 @@
+{
+  "id": 6026080,
+  "name": "Franqui v. Florida",
+  "name_abbreviation": "Franqui v. Florida",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-7627",
+  "first_page": "1188",
+  "last_page": "1188",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1188"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 68,
+    "ocr_confidence": 0.634,
+    "sha256": "1e47b758b73dd85a49b654ea8f231b09511474fcd02f6fd0a01c4ac4211e0c08",
+    "simhash": "1:038a0223230bb036",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Franqui v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7627.\nFranqui v. Florida."
+  },
+  "file_name": "1188-09",
+  "first_page_order": 1210,
+  "last_page_order": 1210
+}

@@ -1,0 +1,61 @@
+{
+  "id": 12423479,
+  "name": "Fisher et al. v. JPMorgan Chase & Co. et al.",
+  "name_abbreviation": "Fisher v. JPMorgan Chase & Co.",
+  "decision_date": "2012-11-13",
+  "docket_number": "No. 12-298",
+  "first_page": "1019",
+  "last_page": "1019",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1019"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 29,
+    "char_count": 190,
+    "ocr_confidence": 0.61,
+    "sha256": "53d56eab5ab375c8c4a3181a495d5b2d76d74b581c7045b26a11ab2ce061eaf2",
+    "simhash": "1:99f368816522766c",
+    "word_count": 33
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Alito and Justice Sotomayor took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Fisher et al. v. JPMorgan Chase & Co. et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.\nJustice Alito and Justice Sotomayor took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-298.\nFisher et al. v. JPMorgan Chase & Co. et al."
+  },
+  "file_name": "1019-10",
+  "first_page_order": 1095,
+  "last_page_order": 1095
+}

@@ -1,0 +1,61 @@
+{
+  "id": 12412621,
+  "name": "Arizona et al. v. Abeytia et al.",
+  "name_abbreviation": "Arizona v. Abeytia",
+  "decision_date": "2012-06-28",
+  "docket_number": "No. 11A1189",
+  "first_page": "947",
+  "last_page": "947",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 947"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 36,
+    "char_count": 277,
+    "ocr_confidence": 0.649,
+    "sha256": "14b5ffafc6b6fc129731ce12fda149d618e66a33684cc704926390b34a7a90b2",
+    "simhash": "1:64e8a8286de61dfc",
+    "word_count": 47
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Alito would grant the application for stay."
+    ],
+    "parties": [
+      "Arizona et al. v. Abeytia et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Application for stay, presented to Justice Kennedy, and by him referred to the Court, denied. Order heretofore entered by Justice Kennedy is vacated.\nJustice Alito would grant the application for stay.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "June 28, 2012\nNo. 11A1189.\nArizona et al. v. Abeytia et al."
+  },
+  "file_name": "0947-03",
+  "first_page_order": 851,
+  "last_page_order": 851
+}

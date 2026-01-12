@@ -1,0 +1,59 @@
+{
+  "id": 12434012,
+  "name": "Morozova v. Callow",
+  "name_abbreviation": "Morozova v. Callow",
+  "decision_date": "2013-03-25",
+  "docket_number": "No. 12-8340",
+  "first_page": "1253",
+  "last_page": "1253",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1253"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 68,
+    "ocr_confidence": 0.664,
+    "sha256": "8d3c58c8c744c8a81bb93626ad00db082eb02733ebd0ca9ac540070d3f22e7f5",
+    "simhash": "1:e28d28650104c78a",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Morozova v. Callow."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Wash. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8340.\nMorozova v. Callow."
+  },
+  "file_name": "1253-11",
+  "first_page_order": 1329,
+  "last_page_order": 1329
+}

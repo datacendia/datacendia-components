@@ -1,0 +1,59 @@
+{
+  "id": 6000071,
+  "name": "Tolbert v. Wise, Warden, et al.",
+  "name_abbreviation": "Tolbert v. Wise",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7300",
+  "first_page": "1150",
+  "last_page": "1150",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1150"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 80,
+    "ocr_confidence": 0.594,
+    "sha256": "5bb21639a2f9f2d6945eb715c342317ce0e8d6d7e3562914e53e2a54263102eb",
+    "simhash": "1:98480c2a17df92b4",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Tolbert v. Wise, Warden, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7300.\nTolbert v. Wise, Warden, et al."
+  },
+  "file_name": "1150-11",
+  "first_page_order": 1172,
+  "last_page_order": 1172
+}

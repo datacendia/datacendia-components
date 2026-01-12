@@ -1,0 +1,59 @@
+{
+  "id": 12430897,
+  "name": "Johnson v. White et al.",
+  "name_abbreviation": "Johnson v. White",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-7585",
+  "first_page": "1168",
+  "last_page": "1168",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1168"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 72,
+    "ocr_confidence": 0.655,
+    "sha256": "e2192f2bad92a945a310d8a7bcdfc31c6bf4d137293cd1ff45000e5f6db65e9a",
+    "simhash": "1:91c8dee8ab019f62",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Johnson v. White et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7585.\nJohnson v. White et al."
+  },
+  "file_name": "1168-10",
+  "first_page_order": 1244,
+  "last_page_order": 1244
+}

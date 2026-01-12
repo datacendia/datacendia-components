@@ -1,0 +1,59 @@
+{
+  "id": 12434219,
+  "name": "Deskins v. United States",
+  "name_abbreviation": "Deskins v. United States",
+  "decision_date": "2013-03-25",
+  "docket_number": "No. 12-8920",
+  "first_page": "1258",
+  "last_page": "1258",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1258"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.614,
+    "sha256": "e6d8c24e65e862eb8645a68da808c913d5cb4cdc28a87b30d3fc71895c53b99b",
+    "simhash": "1:37ca9a4347bf1509",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Deskins v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8920.\nDeskins v. United States."
+  },
+  "file_name": "1258-06",
+  "first_page_order": 1334,
+  "last_page_order": 1334
+}

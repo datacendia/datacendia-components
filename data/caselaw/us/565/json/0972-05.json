@@ -1,0 +1,100 @@
+{
+  "id": 12229929,
+  "name": "Credit Suisse Securities (USA) LLC et al. v. Simmonds",
+  "name_abbreviation": "Credit Suisse Securities (USA) LLC v. Simmonds",
+  "decision_date": "2011-10-28",
+  "docket_number": "No. 10-1261",
+  "first_page": "972",
+  "last_page": "972",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 972"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "564 U. S. 1036",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5924648,
+        5927720,
+        5919946,
+        12450924,
+        5924238,
+        12450929,
+        12450930,
+        12450931,
+        12450932,
+        12450933,
+        4336086,
+        5925751,
+        12450934,
+        5930009
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/564/1036-07",
+        "/us/564/1036-04",
+        "/us/564/1036-02",
+        "/l-ed-2d/180/0884-01",
+        "/us/564/1036-03",
+        "/l-ed-2d/180/0884-06",
+        "/l-ed-2d/180/0885-01",
+        "/l-ed-2d/180/0885-02",
+        "/l-ed-2d/180/0885-03",
+        "/l-ed-2d/180/0885-04",
+        "/us/564/1036-01",
+        "/us/564/1036-06",
+        "/l-ed-2d/180/0885-05",
+        "/us/564/1036-05"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 46,
+    "char_count": 326,
+    "ocr_confidence": 0.64,
+    "sha256": "142f700d4e4894ec5763315d3105de042378a44e79bbd9c166fb124aab3c22e8",
+    "simhash": "1:9b908281aa66ff4c",
+    "word_count": 55
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "The Chief Justice took no part in the consideration or decision of this motion."
+    ],
+    "parties": [
+      "Credit Suisse Securities (USA) LLC et al. v. Simmonds."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. [Certiorari granted, 564 U. S. 1036.] Motion of the Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument granted.\nThe Chief Justice took no part in the consideration or decision of this motion.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1261.\nCredit Suisse Securities (USA) LLC et al. v. Simmonds."
+  },
+  "file_name": "0972-05",
+  "first_page_order": 1054,
+  "last_page_order": 1054
+}

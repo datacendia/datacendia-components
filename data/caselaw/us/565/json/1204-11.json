@@ -1,0 +1,59 @@
+{
+  "id": 12246301,
+  "name": "Vines v. California",
+  "name_abbreviation": "Vines v. California",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-7013",
+  "first_page": "1204",
+  "last_page": "1204",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1204"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 67,
+    "ocr_confidence": 0.669,
+    "sha256": "cf2cf00719b3ac84f5db1884f125085d31f8988db6d9fcd5a048a75734de31fe",
+    "simhash": "1:9e0a13708a2c1d5f",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Vines v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7013.\nVines v. California."
+  },
+  "file_name": "1204-11",
+  "first_page_order": 1286,
+  "last_page_order": 1286
+}

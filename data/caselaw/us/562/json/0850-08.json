@@ -1,0 +1,59 @@
+{
+  "id": 5985648,
+  "name": "Weis v. Georgia",
+  "name_abbreviation": "Weis v. Georgia",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10715",
+  "first_page": "850",
+  "last_page": "850",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 850"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 63,
+    "ocr_confidence": 0.586,
+    "sha256": "1ba942ab4f3fb980b99e4c3cdd0fea7405aed4cad60859c6f558cbfa1c9fe272",
+    "simhash": "1:01bdaab08e10ac44",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Weis v. Georgia."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ga. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10715.\nWeis v. Georgia."
+  },
+  "file_name": "0850-08",
+  "first_page_order": 872,
+  "last_page_order": 872
+}

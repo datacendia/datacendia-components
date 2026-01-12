@@ -1,0 +1,61 @@
+{
+  "id": 12209340,
+  "name": "Lopez-Pena v. United States",
+  "name_abbreviation": "Lopez-Pena v. United States",
+  "decision_date": "2012-04-16",
+  "docket_number": "No. 11-9435",
+  "first_page": "958",
+  "last_page": "958",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 958"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 153,
+    "ocr_confidence": 0.575,
+    "sha256": "12c4f5de7329e1fc564fa42d983cd9183434f3abd6fc47489245505c8c75dcee",
+    "simhash": "1:fd23db820b169ec2",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Lopez-Pena v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9435.\nLopez-Pena v. United States."
+  },
+  "file_name": "0958-01",
+  "first_page_order": 834,
+  "last_page_order": 834
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12217628,
+  "name": "Honesto v. Brown, Governor of California, et al.",
+  "name_abbreviation": "Honesto v. Brown",
+  "decision_date": "2012-05-14",
+  "docket_number": "No. 11-9269",
+  "first_page": "997",
+  "last_page": "997",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 997"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 96,
+    "ocr_confidence": 0.619,
+    "sha256": "03514cb1ec4a44dfa483a2d4723f6d7eef76d2ec0787b582446b6874937ee692",
+    "simhash": "1:50d620a1698d707d",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Honesto v. Brown, Governor of California, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9269.\nHonesto v. Brown, Governor of California, et al."
+  },
+  "file_name": "0997-01",
+  "first_page_order": 873,
+  "last_page_order": 873
+}

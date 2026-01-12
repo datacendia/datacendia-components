@@ -1,0 +1,59 @@
+{
+  "id": 12227681,
+  "name": "Coates v. Powell et al.",
+  "name_abbreviation": "Coates v. Powell",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-5733",
+  "first_page": "949",
+  "last_page": "949",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 949"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 72,
+    "ocr_confidence": 0.679,
+    "sha256": "1e0869247f1f4eff08a932e18ffbb1b20f475b9b9d3ab47e378ceb7896929c3e",
+    "simhash": "1:80f261c8db73b2f2",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Coates v. Powell et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5733.\nCoates v. Powell et al."
+  },
+  "file_name": "0949-14",
+  "first_page_order": 1031,
+  "last_page_order": 1031
+}

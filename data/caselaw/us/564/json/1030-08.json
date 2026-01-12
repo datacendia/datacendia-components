@@ -1,0 +1,61 @@
+{
+  "id": 4336710,
+  "name": "Chin v. United States",
+  "name_abbreviation": "Chin v. United States",
+  "decision_date": "2011-06-20",
+  "docket_number": "No. 10-10481",
+  "first_page": "1030",
+  "last_page": "1030",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1030"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 149,
+    "ocr_confidence": 0.602,
+    "sha256": "5f671a2ab938e073f638233b80509693cda961c751dd15aec25264bf57618f35",
+    "simhash": "1:99a3ea824fa6b806",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Chin v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10481.\nChin v. United States."
+  },
+  "file_name": "1030-08",
+  "first_page_order": 1024,
+  "last_page_order": 1024
+}

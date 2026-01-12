@@ -1,0 +1,59 @@
+{
+  "id": 12420238,
+  "name": "Davis, Administrator of the Estate of Smith, Deceased v. United States",
+  "name_abbreviation": "Davis v. United States",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-387",
+  "first_page": "981",
+  "last_page": "981",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 981"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 18,
+    "char_count": 118,
+    "ocr_confidence": 0.726,
+    "sha256": "500b547151652c37b80719f3bb0ea6920e5a4c897a71bd8312a556225db335ad",
+    "simhash": "1:071acf02c88c154c",
+    "word_count": 19
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Davis, Administrator of the Estate of Smith, Deceased v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-387.\nDavis, Administrator of the Estate of Smith, Deceased v. United States."
+  },
+  "file_name": "0981-06",
+  "first_page_order": 1057,
+  "last_page_order": 1057
+}

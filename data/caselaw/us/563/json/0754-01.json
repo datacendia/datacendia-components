@@ -1,0 +1,965 @@
+{
+  "id": 5960868,
+  "name": "GLOBAL-TECH APPLIANCES, INC., et al. v. SEB S. A.",
+  "name_abbreviation": "Global-Tech Appliances, Inc. v. Seb S. A.",
+  "decision_date": "2011-05-31",
+  "docket_number": "No. 10-6",
+  "first_page": "754",
+  "last_page": "775",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 754"
+    },
+    {
+      "type": "parallel",
+      "cite": "179 L. Ed. 2d 1167"
+    },
+    {
+      "type": "parallel",
+      "cite": "131 S. Ct. 2060"
+    },
+    {
+      "type": "vendor",
+      "cite": "2011 U.S. LEXIS 4022"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2010-051"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "425 U. S. 231",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6175257
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "234",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/425/0231-01"
+      ]
+    },
+    {
+      "cite": "435 F. 3d 331",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3450786,
+        936262
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "339-341"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/369/0219-01",
+        "/f3d/435/0331-01"
+      ]
+    },
+    {
+      "cite": "36 F. 3d 1552",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10532836
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "1564"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/36/1552-01"
+      ]
+    },
+    {
+      "cite": "710 F. 2d 639",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1866559
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "643"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/710/0639-01"
+      ]
+    },
+    {
+      "cite": "483 F. 3d 913",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5742790
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "917, 920",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/483/0913-01"
+      ]
+    },
+    {
+      "cite": "368 F. 3d 1042",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9247598
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1044",
+          "parenthetical": "\"Ignorance is deliberate if the defendant was presented with facts that put her on notice that criminal activity was particularly likely and yet she intentionally failed to investigate those facts\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/368/1042-01"
+      ]
+    },
+    {
+      "cite": "103 F 3d 1328",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1091
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "1333",
+          "parenthetical": "\"[K]nowledge may in some circumstances be inferred from strong suspicion of wrongdoing coupled with active indifference to the truth\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/103/1328-01"
+      ]
+    },
+    {
+      "cite": "731 F. 2d 378",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1943904
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "380-381",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/731/0378-01"
+      ]
+    },
+    {
+      "cite": "434 F. 3d 369",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        931973
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "378"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/434/0369-01"
+      ]
+    },
+    {
+      "cite": "939 F. 2d 197",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10521687
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "203",
+          "parenthetical": "\"The willful blindness instruction allows the jury to impute the element of knowledge to the defendant if the evidence indicates that he purposely closed his eyes to avoid knowing what was taking place around him\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/939/0197-01"
+      ]
+    },
+    {
+      "cite": "620 F. 3d 238",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3781364
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "257"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/620/0238-01"
+      ]
+    },
+    {
+      "cite": "347 F. 3d 471",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9048622
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "477-478"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/347/0471-01"
+      ]
+    },
+    {
+      "cite": "599 F. 3d 31",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4223685
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "41"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/599/0031-01"
+      ]
+    },
+    {
+      "cite": "13 Ariz. 388",
+      "category": "reporters:state",
+      "reporter": "Ariz.",
+      "case_ids": [
+        1551614
+      ],
+      "weight": 2,
+      "year": 1911,
+      "pin_cites": [
+        {
+          "page": "400",
+          "parenthetical": "interpreting the crime of knowingly encouraging the importation of contract laborers to include those who \"willfully and intentionally ignored facts and circumstances known to them, which would have led to [actual] knowledge\""
+        },
+        {
+          "page": "959",
+          "parenthetical": "interpreting the crime of knowingly encouraging the importation of contract laborers to include those who \"willfully and intentionally ignored facts and circumstances known to them, which would have led to [actual] knowledge\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ariz/13/0388-01"
+      ]
+    },
+    {
+      "cite": "222 F. 444",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6740285
+      ],
+      "year": 1915,
+      "pin_cites": [
+        {
+          "page": "448-451",
+          "parenthetical": "approving a \"willful ignorance\" jury instruction to a charge that a rail carrier knowingly granted a concession to a shipper"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/222/0444-01"
+      ]
+    },
+    {
+      "cite": "43 F. 2d 878",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1784239
+      ],
+      "year": 1930,
+      "pin_cites": [
+        {
+          "page": "881",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/43/0878-01"
+      ]
+    },
+    {
+      "cite": "114 F. 2d 558",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10705317
+      ],
+      "year": 1940,
+      "pin_cites": [
+        {
+          "page": "560",
+          "parenthetical": "interpreting the crime of knowingly and fraudulently concealing property belonging to the estate of a bankrupt debtor to include someone who \"closed his eyes to facts which made the existence of\" the receiver or trustee \"obvious\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/114/0558-01"
+      ]
+    },
+    {
+      "cite": "14 F. 544",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6730394
+      ],
+      "pin_cites": [
+        {
+          "page": "547"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/14/0544-01"
+      ]
+    },
+    {
+      "cite": "93 F. 200",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3835948
+      ],
+      "year": 1898,
+      "pin_cites": [
+        {
+          "page": "203",
+          "parenthetical": "\"[A] necessary condition of the defendant's guilt is his knowledge of the complainant's patent\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/93/0200-01"
+      ]
+    },
+    {
+      "cite": "207 U. S. 196",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3640672
+      ],
+      "weight": 4,
+      "year": 1907,
+      "pin_cites": [
+        {
+          "page": "198"
+        },
+        {
+          "page": "199"
+        },
+        {
+          "page": "200"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/207/0196-01"
+      ]
+    },
+    {
+      "cite": "224 F. 452",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        6740694
+      ],
+      "year": 1915,
+      "pin_cites": [
+        {
+          "page": "459",
+          "parenthetical": "\"Contributory infringement is the intentional aiding of one person by another in the unlawful making, or selling, or using of a third person's patented invention\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/224/0452-01"
+      ]
+    },
+    {
+      "cite": "297 F. 733",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        3636595
+      ],
+      "year": 1924,
+      "pin_cites": [
+        {
+          "page": "739-740",
+          "parenthetical": "\"[B]efore one may be held for contributory infringement, it must be shown that he had knowingly done some act without which the infringement would not have occurred\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/297/0733-01"
+      ]
+    },
+    {
+      "cite": "152 U. S. 425",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3574580
+      ],
+      "year": 1894,
+      "pin_cites": [
+        {
+          "page": "433",
+          "parenthetical": "\"There are doubtless many cases to the effect that the manufacture and sale of a single element of a combination, with intent that it shall be united to the other elements, and so complete the combination, is an infringement\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/152/0425-01"
+      ]
+    },
+    {
+      "cite": "395 U. S. 6",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1771825
+      ],
+      "year": 1969,
+      "pin_cites": [
+        {
+          "page": "46-47"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/395/0006-01"
+      ]
+    },
+    {
+      "cite": "396 U. S. 398",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11334917
+      ],
+      "year": 1970,
+      "pin_cites": [
+        {
+          "page": "416-417"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/396/0398-01"
+      ]
+    },
+    {
+      "cite": "174 U. S. 728",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3606403
+      ],
+      "weight": 2,
+      "year": 1899,
+      "pin_cites": [
+        {
+          "page": "735"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/174/0728-01"
+      ]
+    },
+    {
+      "cite": "532 F. 2d 697",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10591837
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "700",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/532/0697-01"
+      ]
+    },
+    {
+      "cite": "17 Mod. L. Rev. 294",
+      "category": "journals:journal",
+      "reporter": "Mod. L. Rev.",
+      "year": 1954,
+      "pin_cites": [
+        {
+          "page": "302",
+          "parenthetical": "hereinafter Edwards"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "552 U. S. 130",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3675998
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "139"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/552/0130-01"
+      ]
+    },
+    {
+      "cite": "545 U. S. 913",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8210147
+      ],
+      "weight": 5,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "937"
+        },
+        {
+          "page": "922-927, 937-940"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/545/0913-01"
+      ]
+    },
+    {
+      "cite": "243 U. S. 502",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3692764
+      ],
+      "year": 1917,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/243/0502-01"
+      ]
+    },
+    {
+      "cite": "224 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3668927
+      ],
+      "weight": 2,
+      "year": 1912,
+      "pin_cites": [
+        {
+          "page": "33",
+          "parenthetical": "emphasis added and deleted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/224/0001-01"
+      ]
+    },
+    {
+      "cite": "80 F. 712",
+      "category": "reporters:federal",
+      "reporter": "F.",
+      "case_ids": [
+        1640590
+      ],
+      "year": 1897,
+      "pin_cites": [
+        {
+          "page": "721"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f/80/0712-01"
+      ]
+    },
+    {
+      "cite": "377 U. S. 476",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6170822
+      ],
+      "weight": 12,
+      "year": 1964,
+      "pin_cites": [
+        {
+          "parenthetical": "Aro II"
+        },
+        {
+          "page": "485-486, n. 6",
+          "parenthetical": "quoting H. R. Rep. No. 1923, 82d Cong., 2d Sess., 9 (1952)"
+        },
+        {
+          "page": "488"
+        },
+        {
+          "page": "488"
+        },
+        {
+          "page": "514",
+          "parenthetical": "White, J., concurring"
+        },
+        {
+          "page": "524-527",
+          "parenthetical": "Black, J., dissenting"
+        },
+        {
+          "page": "525"
+        },
+        {
+          "page": "525-527"
+        },
+        {
+          "page": "488-490, n. 8"
+        },
+        {
+          "page": "484"
+        },
+        {
+          "page": "514",
+          "parenthetical": "White, J., concurring"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/377/0608-01"
+      ]
+    },
+    {
+      "cite": "562 U. S. 960",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6000769,
+        12438072,
+        5980984,
+        12438073,
+        12438074,
+        12438075,
+        6008764,
+        12437829,
+        6027206,
+        12437830,
+        12437831,
+        12437833,
+        5993162,
+        12437834,
+        12437835,
+        12437832,
+        5957583,
+        6021842,
+        5905646,
+        6021231
+      ],
+      "year": 2010,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/562/0960-06",
+        "/l-ed-2d/178/0317-04",
+        "/us/562/0960-03",
+        "/l-ed-2d/178/0317-05",
+        "/l-ed-2d/178/0317-06",
+        "/l-ed-2d/178/0317-07",
+        "/us/562/0960-07",
+        "/l-ed-2d/178/0285-04",
+        "/us/562/0960-09",
+        "/l-ed-2d/178/0285-05",
+        "/l-ed-2d/178/0285-06",
+        "/l-ed-2d/178/0286-02",
+        "/us/562/0960-02",
+        "/l-ed-2d/178/0286-03",
+        "/l-ed-2d/178/0286-04",
+        "/l-ed-2d/178/0286-01",
+        "/us/562/0960-08",
+        "/us/562/0960-05",
+        "/us/562/0960-04",
+        "/us/562/0960-01"
+      ]
+    },
+    {
+      "cite": "594 F. 3d 1360",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3523371
+      ],
+      "weight": 4,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "1376"
+        },
+        {
+          "page": "1377"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/594/1360-01"
+      ]
+    },
+    {
+      "cite": "35 U. S. C. \u00a7 271",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(b)"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "111 U. S. 612",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3507243
+      ],
+      "year": 1884,
+      "pin_cites": [
+        {
+          "page": "620",
+          "parenthetical": "Harlan, J."
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/111/0612-01"
+      ]
+    },
+    {
+      "cite": "87 Geo. L. J. 957",
+      "category": "journals:journal",
+      "reporter": "Geo. L.J.",
+      "weight": 2,
+      "year": 1999,
+      "opinion_index": 1
+    },
+    {
+      "cite": "1994 Wis. L. Rev. 29",
+      "category": "journals:journal",
+      "reporter": "Wis. L. Rev.",
+      "pin_cites": [
+        {
+          "page": "35"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "395 U. S. 6",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1771825
+      ],
+      "year": 1969,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/395/0006-01"
+      ]
+    },
+    {
+      "cite": "396 U. S. 398",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11334917
+      ],
+      "year": 1970,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/396/0398-01"
+      ]
+    },
+    {
+      "cite": "174 U. S. 728",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3606403
+      ],
+      "year": 1899,
+      "pin_cites": [
+        {
+          "page": "735"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/174/0728-01"
+      ]
+    },
+    {
+      "cite": "532 F. 2d 697",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10591837
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "706",
+          "parenthetical": "Kennedy, J., dissenting"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/532/0697-01"
+      ]
+    },
+    {
+      "cite": "35 U. S. C. \u00a7 271",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 1
+    }
+  ],
+  "analysis": {
+    "cardinality": 1742,
+    "char_count": 39588,
+    "ocr_confidence": 0.585,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.17198319284251706
+    },
+    "sha256": "e410c267e4dc3ff4d48a9a81a1fc05b8943e83437222f11f1147ae59a132334a",
+    "simhash": "1:c7b97d91425d15cc",
+    "word_count": 6643
+  },
+  "last_updated": "2024-02-27T23:44:09.189648+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Auto, J., delivered the opinion of the Court, in which Roberts, C. J., and Scaua, Thomas, Ginsburg, Breyer, Sotomayor, and Kagan, JJ., joined. Kennedy, J., filed a dissenting opinion, post, p. 772."
+    ],
+    "parties": [
+      "GLOBAL-TECH APPLIANCES, INC., et al. v. SEB S. A."
+    ],
+    "opinions": [
+      {
+        "text": "Justice Alito\ndelivered the opinion of the Court.\nWe consider whether a party who \u201cactively induces infringement of a patent\u201d under 35 U. S. C. \u00a7 271(b) must know that the induced acts constitute patent infringement.\nI\nThis case concerns a patent for an innovative deep fryer designed by respondent SEB S. A., a French maker of home appliances. In the late 1980\u2019s, SEB invented a \u201ccool-touch\u201d deep fryer, that is, a deep fryer for home use with external surfaces that remain cool during the frying process. The cool-touch deep fryer consisted of a metal frying pot surrounded by a plastic outer housing. Attached to the housing was a ring that suspended the metal pot and insulated the housing from heat by separating it from the pot, creating air space between the two components. SEB obtained a U. S. patent for its design in 1991, and sometime later, SEB started manufacturing the cool-touch fryer and selling it in this country under its well-known \u201cT-Fal\u201d brand. Superior to other products in the American market at the time, SEB\u2019s fryer was a commercial success.\nIn 1997, Sunbeam Products, Inc., a U. S. competitor of SEB, asked petitioner Pentalpha Enterprises, Ltd., to supply it with deep fryers meeting certain specifications. Pentalpha is a Hong Kong maker of home appliances and a wholly owned subsidiary of petitioner Global-Tech Appliances, Inc.\nIn order to develop a deep fryer for Sunbeam, Pentalpha purchased an SEB fryer in Hong Kong and copied all but its cosmetic features. Because the SEB fryer bought in Hong Kong was made for sale in a foreign market, it bore no U. S. patent markings. After copying SEB\u2019s design, Pentalpha retained an attorney to conduct a right-to-use study, but Pentalpha refrained from telling the attorney that its design was copied directly from SEB\u2019s.\nThe attorney failed to locate SEB\u2019s patent, and in August 1997 he issued an opinion letter stating that Pentalpha\u2019s deep fryer did not infringe any of the patents that he had found. That same month, Pentalpha started selling its deep fryers to Sunbeam, which resold them in the United States under its trademarks. By obtaining its product from a manufacturer with lower production costs, Sunbeam was able to undercut SEB in the U. S. market.\nAfter SEB\u2019s customers started defecting to Sunbeam, SEB sued Sunbeam in March 1998, alleging that Sunbeam\u2019s sales infringed SEB\u2019s patent. Sunbeam notified Pentalpha of the lawsuit the following month. Undeterred, Pentalpha went on to sell deep fryers to Fingerhut Corp. and Montgomery Ward & Co., both of which resold them in the United States under their respective trademarks.\nSEB settled the lawsuit with Sunbeam, and then sued Pentalpha, asserting two theories of recovery: First, SEB elaimed that Pentalpha had directly infringed SEB\u2019s patent in violation of 35 U. S. C. \u00a7 271(a), by selling or offering to sell its deep fryers; and second, SEB elaimed that Pentalpha had contravened \u00a7 271(b) by actively inducing Sunbeam, Fingerhut, and Montgomery Ward to sell or to offer to sell Pentalpha\u2019s deep fryers in violation of SEB\u2019s patent rights.\nFollowing a 5-day trial, the jury found for SEB on both theories and also found that Pentalpha\u2019s infringement had been willful. Pentalpha filed post-trial motions seeking a new trial or judgment as a matter of law on several grounds. As relevant here, Pentalpha argued that there was insufficient evidence to support the jury\u2019s finding of induced infringement under \u00a7 271(b) because Pentalpha did not actually know of SEB\u2019s patent until it received the notice of the Sunbeam lawsuit in April 1998.\nThe District Court rejected Pentalpha\u2019s argument, as did the Court of Appeals for the Federal Circuit, which affirmed the judgment, SEB S. A. v. Montgomery Ward & Co., 594 F. 3d 1360 (2010). Summarizing a recent en banc decision, the Federal Circuit stated that induced infringement under \u00a7 271(b) requires a \u201cplaintiff [to] show that the alleged infringer knew or should have known that his actions would induce actual infringements\u201d and that this showing includes proof that the alleged infringer knew of the patent. Id., at 1376. Although the record contained no direct evidence that Pentalpha knew of SEB\u2019s patent before April 1998, the court found adequate evidence to support a finding that \u201cPentalpha deliberately disregarded a known risk that SEB had a protective patent.\u201d Id., at 1377. Such disregard, the court said, \u201cis not different from actual knowledge, but is a form of actual knowledge.\u201d Ibid.\nWe granted certiorari. 562 U. S. 960 (2010).\nII\nPentalpha argues that active inducement liability under \u00a7 271(b) requires more than deliberate indifference to a known risk that the induced acts may violate an existing patent. Instead, Pentalpha maintains, actual knowledge of the patent is needed.\nA\nIn assessing Pentalpha\u2019s argument, we begin with the text of \u00a7 271(b) \u2014 which is short, simple, and, with respect to the question presented in this case, inconclusive. Section 271(b) states: \u201cWhoever actively induces infringement of a patent shall be liable as an infringer.\u201d\nAlthough the text of \u00a7 271(b) makes no mention of intent, we infer that at least some intent is required. The term \u201cinduce\u201d means \u201c[t]o lead on; to influence; to prevail on; to move by persuasion or influence.\u201d Webster\u2019s New International Dictionary 1269 (2d ed. 1945). The addition of the adverb \u201cactively\u201d suggests that the inducement must involve the taking of affirmative steps to bring about the desired result, see id., at 27.\nWhen a person actively induces another to take some action, the inducer obviously knows the action that he or she wishes to bring about. If a used car salesman induces a customer to buy a car, the salesman knows that the desired result is the purchase of the car. But what if it is said that the salesman induced the customer to buy a damaged car? Does this mean merely that the salesman induced the customer to purchase a car that happened to be damaged, a fact of which the salesman may have been unaware? Or does this mean that the salesman knew that the car was damaged? The statement that the salesman induced the customer to buy a damaged car is ambiguous.\nSo is \u00a7 271(b). In referring to a party that \u201cinduces infringement,\u201d this provision may require merely that the inducer lead another to engage in conduct that happens to amount to infringement, i. e., the making, using, offering to sell, selling, or importing of a patented invention. See \u00a7 271(a). On the other hand, the reference to a party that \u201cinduces infringement\u201d may also be read to mean that the inducer must persuade another to engage in conduct that the inducer knows is infringement. Both readings are possible.\nB\nFinding no definitive answer in the statutory text, we turn to the case law that predates the enactment of \u00a7 271 as part of the Patent Act of 1952. As we recognized in Aro Mfg. Co. v. Convertible Top Replacement Co., 377 U. S. 476 (1964) (Aro II), \u201c[t]he section was designed to \u2018codify in statutory form principles of contributory infringement\u2019 which had been \u2018part of our law for about 80 years.\u2019 \u201d Id., at 485-486, n. 6 (quoting H. R. Rep. No. 1923, 82d Cong., 2d Sess., 9 (1952)).\nUnfortunately, the relevant pre-1952 cases are less clear than one might hope with respect to the question presented here. Before 1952, both the conduct now covered by \u00a7 271(b) (induced infringement) and the conduct now addressed by \u00a7 271(c) (sale of a component of a patented invention) were viewed as falling within the overarching concept of \u201ccontributory infringement.\u201d Cases in the latter category \u2014 i. e., eases in which a party sold an item that was not itself covered by the claims of a patent but that enabled another party to make or use a patented machine, process, or combination \u2014 were more common.\nThe pre-1952 case law provides conflicting signals regarding the intent needed in such cases. In an oft-cited decision, then-Judge Taft suggested that it was sufficient if the seller of the component part intended that the part be used in an invention that happened to infringe a patent. He wrote that it was \u201cwell settled that where one makes and sells one element of a combination covered by a patent with the intention and for the purpose of bringing about its use in such a combination he is guilty of contributory infringement.\u201d Thomson-Houston Elec. Co. v. Ohio Brass Co., 80 F. 712, 721 (CA6 1897).\nOn the other hand, this Court, in Henry v. A. B. Dick Co., 224 U. S. 1 (1912), overruled on other grounds, Motion Picture Patents Co. v. Universal Film Mfg. Co., 243 U. S. 502 (1917), stated that \u201cif the defendants [who were accused of contributory infringement] knew of the patent and that [the direct infringer] had unlawfully made the patented article ... with the intent and purpose that [the direct infringer] should use the infringing article... they would assist in her infringing use.\u201d 224 U. S., at 33 (emphasis added and deleted). Our decision in Metro-Goldwyn-Mayer Studios Inc. v. Grokster, Ltd., 545 U. S. 913 (2005), which looked to the law of contributory patent infringement for guidance in determining the standard to be applied in a case claiming contributory copyright infringement, contains dicta that may be read as interpreting the pre-1952 cases this way. In Grokster, we said that \u201c[t]he inducement rule . . . premises liability on purposeful, culpable expression and conduct.\u201d Id., at 937.\nWhile both the language of \u00a7 271(b) and the pre-1952 case law that this provision was meant to codify are susceptible to conflicting interpretations, our decision in Aro II resolves the question in this case. In Aro II, a majority held that a violator of \u00a7 271(c) must know \u201cthat the combination for which his component was especially designed was both patented and infringing,\u201d 377 U. S., at 488, and as we explain below, that conclusion compels this same knowledge for liability under \u00a7 271(b).\nC\nAs noted above, induced infringement was not considered a separate theory of indirect liability in the pre-1952 case law. Rather, it was treated as evidence of \u201ccontributory infringement,\u201d that is, the aiding and abetting of direct infringement by another party. See Lemley, Inducing Patent Infringement, 39 U. C. D. L. Rev. 225, 227 (2005). When Congress enacted \u00a7 271, it separated what had previously been regarded as contributory infringement into two categories, one covered by \u00a7 271(b) and the other covered by \u00a7 271(c).\nAro II concerned \u00a7 271(c), which states in relevant part:\n\u201cWhoever offers to sell or sells ... a component of a patented [invention] ..., constituting a material part of the invention, knowing the same to be especially made or especially adapted for use in an infringement of such patent, and not a staple article or commodity of commerce suitable for substantial noninfringing use, shall be liable as a contributory infringer.\u201d (Emphasis added.)\nThis language contains exactly the same ambiguity as \u00a7 271(b). The phrase \u201cknowing [a component] to be especially made or especially adapted for use in an infringement\u201d may be read to mean that a violator must know that the component is \u201cespecially adapted for use\u201d in a product that happens to infringe a patent. Or the phrase may be read to require, in addition, knowledge of the patent\u2019s existence.\nThis question closely divided the Aro II Court. In a badly fractured decision, a majority concluded that knowledge of the patent was needed. 377 U. S., at 488, and n. 8; id., at 514 (White, J., concurring); id., at 524-527 (Black, J., dissenting). Justice Black\u2019s opinion, which explained the basis for the majority\u2019s view, concluded that the language of \u00a7 271(c) supported this interpretation. See id., at 525. His opinion also relied on an amendment to this language that was adopted when the bill was in committee. Id., at 525-527.\nPour Justices disagreed with this interpretation and would have held that a violator of \u00a7 271(c) need know only that the component is specially adapted for use in a product that happens to infringe a patent. See id., at 488-490, n. 8. These Justices thought that this reading was supported by the language of \u00a7 271(c) and the pre-1952 ease law, and they disagreed with the inference drawn by the majority from the amendment of \u00a7 271(c)\u2019s language. Ibid.\nWhile there is much to be said in favor of both views expressed in Aro II, the \u201cholding in Aro II has become a fixture in the law of contributory infringement under [section] 271(c),\u201d 5 R. Moy, Walker on Patents \u00a7 15:20, p. 15-131 (4th ed. 2009) \u2014 so much so that SEB has not asked us to overrule it, see Brief for Respondent 19, n. 3. Nor has Congress seen fit to alter \u00a7271(c)\u2019s intent requirement in the nearly half a century since Aro II was decided. In light of the \u201c 'special force\u2019 \u201d of the doctrine of stare decisis with regard to questions of statutory interpretation, see John R. Sand & Gravel Co. v. United States, 552 U. S. 130, 139 (2008), we proceed on the premise that \u00a7 271(c) requires knowledge of the existence of the patent that is infringed.\nBased on this premise, it follows that the same knowledge is needed for induced infringement under \u00a7 271(b). As noted, the two provisions have a common origin in the pre1952 understanding of contributory infringement, and the language of the two provisions creates the same difficult interpretive choice. It would thus be strange to hold that knowledge of the relevant patent is needed under \u00a7 271(c) but not under \u00a7 271(b).\nAccordingly, we now hold that induced infringement under \u00a7 271(b) requires knowledge that the induced acts constitute patent infringement.\nIll\nReturning to Pentalpha\u2019s principal challenge, we agree that deliberate indifference to a known risk that a patent exists is not the appropriate standard under \u00a7 271(b). We nevertheless affirm the judgment of the Court of Appeals because the evidence in this case was plainly sufficient to support a finding of Pentalpha\u2019s knowledge under the doctrine of willful blindness.\nA\nThe doctrine of willful blindness is well established in criminal law. Many criminal statutes require proof that a defendant acted knowingly or willfully, and courts applying the doctrine of willful blindness hold that defendants cannot escape the reach of these statutes by deliberately shielding themselves from clear evidence of critical facts that are strongly suggested by the circumstances. The traditional rationale for this doctrine is that defendants who behave in this manner are just as culpable as those who have actual knowledge. Edwards, The Criminal Degrees of Knowledge, 17 Mod. L. Rev. 294, 302 (1954) (hereinafter Edwards) (observing on the basis of English authorities that \u201cup to the present day, no real doubt has been cast on the proposition that [willful blindness] is as culpable as actual knowledge\u201d). It is also said that persons who know enough to blind themselves to direct proof of critical facts in effect have actual knowledge of those facts. See United, States v. Jewell, 532 F. 2d 697, 700 (CA9 1976) (en banc).\nThis Court\u2019s opinion more than a century ago in Spurr v. United States, 174 U. S. 728 (1899), while not using the term \u201cwillful blindness,\u201d endorsed a similar concept. The case involved a criminal statute that prohibited a bank officer from \u201cwillfully\u201d certifying a check drawn against insufficient funds. We said that a willful violation would occur \u201cif the [bank] officer purposely keeps himself in ignorance of whether the drawer has money in the bank.\u201d Id., at 735. Following our decision in Spurr, several federal prosecutions in the first half of the 20th century invoked the doctrine of willful blindness. Later, a 1962 proposed draft of the Model Penal Code, which has since become official, attempted to incorporate the doctrine by defining \u201cknowledge of the existence of a particular fact\u201d to include a situation in which \u201ca person is aware of a high probability of [the fact\u2019s] existence, unless he actually believes that it does not exist.\u201d ALI, Model Penal Code \u00a72.02(7) (Proposed Official Draft 1962). Our Court has used the Code\u2019s definition as a guide in analyzing whether certain statutory presumptions of knowledge comported with due process. See Turner v. United States, 396 U. S. 398, 416-417 (1970); Leary v. United States, 395 U. S. 6, 46-47, and n. 93 (1969). And every Court of Appeals\u2014with the possible exception of the District of Columbia Circuit, see n. 9, infra \u2014 has fully embraced willful blindness, applying the doctrine to a wide range of criminal statutes.\nGiven the long history of willful blindness and its wide acceptance in the Federal Judiciary, we can see no reason why the doctrine should not apply in civil lawsuits for induced patent infringement under 35 U. S. C. \u00a7 271(b).\nPentalpha urges us not to take this step, arguing that \u00a7 271(b) demands more than willful blindness with respect to the induced acts that constitute infringement. See Reply Brief for Petitioners 13-14. This question, however, is not at issue here. There is no need to invoke the doctrine of willful blindness to establish that Pentalpha knew that the retailers who purchased its fryer were selling that product in the American market; Pentalpha was indisputably aware that its customers were selling its product in this country.\nPentalpha further contends that this Court in Grokster did not accept the Solicitor General\u2019s suggestion that Grokster and StreamCast could be held liable for inducing the infringement of copyrights under a theory of willful blindness. Reply Brief for Petitioners 14 (citing Brief for United States as Amicus Curiae, O. T. 2004, No. 04-480, pp. 29-30). But the Court had no need to consider the doctrine of willful blindness in that case because the Court found ample evidence that Grokster and StreamCast were fully aware \u2014 in the ordinary sense of the term \u2014 that their file-sharing software was routinely used in carrying out the acts that constituted infringement (the unauthorized sharing of copyrighted works) and that these acts violated the rights of copyright holders. See 545 U. S., at 922-927, 937-940.\nB\nWhile the Courts of Appeals articulate the doctrine of willful blindness in slightly different ways, all appear to agree on two basic requirements: (1) The defendant must subjectively believe that there is a high probability that a fact exists and (2) the defendant must take deliberate actions to avoid learning of that fact. We think these requirements give willful blindness an appropriately limited scope that surpasses recklessness and negligence. Under this formulation, a willfully blind defendant is one who takes deliberate actions to avoid confirming a high probability of wrongdoing and who can almost be said to have actually known the critical facts. See G. Williams, Criminal Law \u00a7 57, p. 159 (2d ed. 1961) (\u201cA court can properly find wilful blindness only where it can almost be said that the defendant actually knew\u201d). By contrast, a reckless defendant is one who merely knows of a substantial and unjustified risk of such wrongdoing, see ALI, Model Penal Code \u00a72.02(2)(c) (1985), and a negligent defendant is one who should have known of a similar risk but, in fact, did not, see \u00a7 2.02(2)(d).\nThe test applied by the Federal Circuit in this case departs from the proper willful blindness standard in two important respects. First, it permits a finding of knowledge when there is merely a \u201cknown risk\u201d that the induced acts are infringing. Second, in demanding only \u201cdeliberate indifference\u201d to that risk, the Federal Circuit\u2019s test does not require active efforts by an inducer to avoid knowing about the infringing nature of the activities.\nIn spite of these flaws, we believe that the evidence when viewed in the light most favorable to the verdict for SEB is sufficient under the correct standard. The jury could have easily found that before April 1998 Pentalpha willfully blinded itself to the infringing nature of the sales it encouraged Sunbeam to make.\nSEB\u2019s cool-touch fryer was an innovation in the U. S. market when Pentalpha copied it. App. to Brief for Respondent 49. As one would expect with any superior product, sales of SEB\u2019s fryer had been growing for some time. Ibid. Pentalpha knew all of this, for its chief executive officer and president, John Sham, testified that, in developing a product for Sunbeam, Pentalpha performed \u201cmarket research\u201d and \u201cgather[ed] information as much as possible.\u201d App. 23a. Pentalpha\u2019s belief that SEB\u2019s fryer embodied advanced technology that would be valuable in the U. S. market is evidenced by its decision to copy all but the cosmetic features of SEB\u2019s fryer.\nAlso revealing is Pentalpha\u2019s decision to copy an overseas model of SEB\u2019s fryer. Pentalpha knew that the product it was designing was for the U. S. market, and Sham \u2014 himself a named inventor on numerous U. S. patents, see id., at 78a-86a \u2014 was well aware that products made for overseas markets usually do not bear U. S. patent markings, App. in No. 2009-1099 etc. (CA Fed.), pp. A-1904 to A-1906. Even more telling is Sham\u2019s decision not to inform the attorney from whom Pentalpha sought a right-to-use opinion that the product to be evaluated was simply a knockoff of SEB\u2019s deep fryer. On the facts of this case, we cannot fathom what motive Sham could have had for withholding this information other than to manufacture a claim of plausible deniability in the event that his company was later accused of patent infringement. Nor does Sham\u2019s testimony on this subject provide any reason to doubt that inference. Asked whether the attorney would have fared better had he known of SEB\u2019s design, Sham was nonresponsive. All he could say was that a patent search is not an \u201ceasy job\u201d and that is why he hired attorneys to perform them. App. 112a.\nTaken together, this evidence was more than sufficient for a jury to find that Pentalpha subjectively believed there was a high probability that SEB\u2019s fryer was patented, that Pentalpha took deliberate steps to avoid knowing that fact, and that it therefore willfully blinded itself to the infringing nature of Sunbeam\u2019s sales.\n* * *\nThe judgment of the United States Court of Appeals for the Federal Circuit is\nAffirmed.\nWe refer to both petitioners as \u201cPentalpha.\u201d\nDirect infringement has long been understood to require no more than the unauthorized use of a patented invention. See Aro Mfg. Co. v. Convertible Top Replacement Co., 377 U. S. 476, 484 (1964); 3 A. Deller, Walker on Patents \u00a7453, p. 1684 (1937) (hereinafter Deller). Thus, a direct infringer\u2019s knowledge or intent is irrelevant.\nFor an article that is particularly clear on this point, see H. Howson, Paper Before American Association of Inventors and Manufacturers, Washington, D. C., Contributory Infringement of Patents 9 (Jan. 1895) (reading late 19th-century case law to require only that a party \"intentionally contribut[e] to the act, which the Court holds to be an infringement\u201d (emphasis in original)). Other authorities from this era likewise suggest that it was sufficient if the seller intended a component part to be used in a manner that happened to infringe a patent. See, e. g., Morgan Envelope Co. v. Albany Perforated Wrapping Paper Co., 152 U. S. 425, 433 (1894) (\"There are doubtless many cases to the effect that the manufacture and sale of a single element of a combination, with intent that it shall be united to the other elements, and so complete the combination, is an infringement\u201d); Individual Drinking Cup Co. v. Errett, 297 F. 733, 739-740 (CA2 1924) (\u201c[B]efore one may be held for contributory infringement, it must be shown that he had knowingly done some act without which the infringement would not have occurred\u201d); New York Scaffolding Co. v. Whitney, 224 F. 452, 459 (CA8 1915) (\u201cContributory infringement is the intentional aiding of one person by another in the unlawful making, or selling, or using of a third person\u2019s patented invention\u201d); 3 Deller \u00a7 507, at 1764-1765 (\u201c[W]here a person furnishes one part of a patented combination, intending that it shall be assembled with the other parts thereof, and that the complete combination shall be used or sold; that person is liable to an action, as infringer of the patent on the complete combination\u201d); 3 W. Robinson, Patents \u00a7 924, p. 101 (1890) (\u201cTo make or sell a single element with the intent that it shall be united to the other elements, and so complete the combination, is infringement\u201d).\nThe earlier case of Cortelyou v. Charles Eneu, Johnson & Co., 207 U. S. 196 (1907), contains language that may be read as adopting a similar position. In that case, the Neostyle Company had a patent for a \u201cstencil duplicating machine\u201d called the \u201crotary Neostyle,\u201d and it licensed the use of its machine pursuant to a license requiring the licensee to use only Neostyle\u2019s ink. Id., at 198. Another company, Charles Eneu Johnson & Co., sold its ink to a Neostyle licensee, and Neostyle sued the Johnson company, claiming that it was \u201cinducing a breach of the license contracts\u201d and was thus indirectly infringing Neostyle\u2019s patent rights. Id., at 199. The Court held that the defendant did not have \u201csufficient evidence of notice\u201d to support liability. Id., at 200. The Court wrote:\n\u201cTrue, the defendant filled a few orders for ink to be used on a rotary Neostyle, but it does not appear that it ever solicited an order for ink to be so used, that it was ever notified by the plaintiffs of the rights which they claimed, or that anything which it did was considered by them an infringement upon those rights.\u201d Ibid, (emphasis added).\nThe italicized language above may suggest that it was necessary to show that the defendants had notice of Neostyle\u2019s patent rights. See also Tubular Rivet & Stud Co. v. O\u2019Brien, 93 F. 200, 203 (CC Mass. 1898) (\u201c[A] necessary condition of the defendant\u2019s guilt is his knowledge of the complainant's patent\u201d).\nAlthough Justice Black disagreed with the judgment and was thus in dissent, he was in the majority with respect to the interpretation of \u00a7 271(e), and his opinion sets out the reasoning of the majority on this point. Three other Justices joined his opinion, and a fourth, Justice White, endorsed his reasoning with respect to the interpretation of \u00a7 271(c). See 377 U. S., at 514 (White, J., concurring).\nThe doctrine emerged in English law almost four decades earlier and became firmly established by the end of the 19th century. Edwards 298-301. In American law, one of the earliest references to the doctrine appears in an 1882 jury charge in a federal prosecution. In the charge, the trial judge rejected the \u201cgreat misapprehension\u201d that a person may \u201cclose his eyes, when he pleases, upon all sources of information, and then excuse his ignorance by saying that he does not see anything.\u201d See United States v. Houghton, 14 F. 544, 547 (DC NJ).\nUnited States v. Yasser, 114 F. 2d 558, 560 (CA3 1940) (interpreting the crime of knowingly and fraudulently concealing property belonging to the estate of a bankrupt debtor to include someone who \u201cclosed his eyes to facts which made the existence of\u201d the receiver or trustee \u201cobvious\u201d); Rachmil v. United States, 43 F. 2d 878, 881 (CA9 1930) (per curiam) (same); United States v. Erie R. Co., 222 F. 444, 448-451 (DC NJ 1915) (approving a \u201cwillful ignorance\u201d jury instruction to a charge that a rail carrier knowingly granted a concession to a shipper); Grant Bros. Constr. Co. v. United States, 13 Ariz. 388, 400, 114 P. 955, 959 (1911) (interpreting the crime of knowingly encouraging the importation of contract laborers to include those who \u201cwillfully and intentionally ignored facts and circumstances known to them, which would have led to [actual] knowledge\u201d).\nUnlike the dissent, we do not think that utilitarian concerns demand a stricter standard for knowledge under \u00a7 271(b), see post, at 773 (opinion of Kennedy, J.). ' The dissent does not explain \u2014 nor can we see \u2014 why promoting \u201c \u2018the Progress of Science and usefiil Arts,\u2019 \u201d ibid., requires protecting parties who actively encourage others to violate patent rights and who take deliberate steps to remain ignorant of those rights despite a high probability that the rights exist and are being infringed, see infra, at 769-770.\nUnited States v. P\u00e9rez-Mel\u00e9ndez, 599 F. 3d 31, 41 (CA1 2010); United States v. Svoboda, 347 F. 3d 471, 477-478 (CA2 2003); United States v. Stadtmauer, 620 F. 3d 238, 257 (CA3 2010); United States v. Schnabel, 939 F. 2d 197, 203 (CA4 1991) (\u201cThe willful blindness instruction allows the jury to impute the element of knowledge to the defendant if the evidence indicates that he purposely closed his eyes to avoid knowing what was taking place around him\u201d); United States v. Freeman, 434 F. 3d 369, 378 (CA5 2005); United States v. Holloway, 731 F. 2d 378, 380-381 (CA6 1984) (per curiam) (upholding jury instruction on knowledge when \u201cit prevented] a criminal defendant from escaping conviction merely by deliberately closing his eyes to the obvious risk that he is engaging in unlawful conduct\u201d); United States v. Draves, 103 F 3d 1328, 1333 (CA7 1997) (\u201c[K]nowledge may in some circumstances be inferred from strong suspicion of wrongdoing coupled with active indifference to the truth\u201d); United States v. Florez, 368 F. 3d 1042, 1044 (CA8 2004) (\u201cIgnorance is deliberate if the defendant was presented with facts that put her on notice that criminal activity was particularly likely and yet she intentionally failed to investigate those facts\u201d); United States v. Heredia, 483 F. 3d 913, 917, 920 (CA9 2007) (en banc); United States v. Glide, 710 F. 2d 639, 643 (CA10 1983); United States v. Perez-Tosta, 36 F. 3d 1552, 1564 (CA11 1994). But see United States v. Alston-Graves, 435 F. 3d 331, 339-341 (CADC 2006).\nThe District Court did not instruct the jury according to the standard we set out today, see App. to Brief for Respondent 26-27, and Pentalpha asks us to remand the case so it can move for a new trial. We reject that request. Pentalpha did not challenge the jury instructions in the Court of Appeals, see Brief for Appellants in No. 2009-1099 etc. (CA Fed.), pp. 21-22, and that court did not pass upon the issue. Finding no \u201cexceptional\u201d circumstances in this case, we follow our usual course and refuse to consider the issue. See Youakim v. Miller, 425 U. S. 231, 234 (1976) (per curiam).",
+        "type": "majority",
+        "author": "Justice Alito"
+      },
+      {
+        "text": "Justice Kennedy,\ndissenting.\nThe Court is correct, in my view, to conclude that 35 U. S. C. \u00a7 271(b) must be read in tandem with \u00a7 271(c), and therefore that to induce infringement a defendant must know \u201cthe induced acts constitute patent infringement.\u201d Ante, at 766.\nYet the Court does more. Having interpreted the statute to require a showing of knowledge, the Court holds that willful blindness will suffice. This is a mistaken step. Willful blindness is not knowledge; and judges should not broaden a legislative proscription by analogy. See United States v. Jewell, 532 F. 2d 697, 706 (CA9 1976) (Kennedy, J., dissenting) (\u201cWhen a statute specifically requires knowledge as an element of a crime, however, the substitution of some other state of mind cannot be justified even if the court deems that both are equally blameworthy\u201d). In my respectful submission, the Court is incorrect in the definition it now adopts; but even on its own terms the Court should remand to the Court of Appeals to consider in the first instance whether there is sufficient evidence of knowledge to support the jury\u2019s finding of inducement.\nThe Court invokes willful blindness to bring those who lack knowledge within \u00a7 271(b)\u2019s prohibition. Husak & Cal-lender, Wilful Ignorance, Knowledge, and the \u201cEqual Culpability\u201d Thesis: A Study of the Deeper Significance of the Principle of Legality, 1994 Wis. L. Rev. 29, 35; see also L. Alexander & K. Ferzan, Crime and Culpability: A Theory of Criminal Law 34-35 (2009) (cautioning against the temptation to \u201cdistort\u201d cases of willful blindness \u201cinto cases of knowledge\u201d); G. Williams, Criminal Law: The General Part \u00a7 57, p. 157 (2d ed. 1961). The Court\u2019s definition of willful blindness reveals this basic purpose. One can believe that there is a \u201chigh probability\u201d that acts might infringe a patent but nonetheless conclude they do not infringe. Ante, at 769; see also ibid, (describing a willfully blind defendant as one \u201cwho can almost be said to have actually known the critical facts\u201d). The alleged inducer who believes a device is noninfringing cannot be said to know otherwise.\nThe Court justifies its substitution of willful blindness for the statutory knowledge requirement in two ways, neither of which is convincing.\nFirst, the Court appeals to moral theory by citing the \u201ctraditional rationale\u201d that willfully blind defendants \u201care just as culpable as those who have actual knowledge.\u201d Ante, at 766. But the moral question is a difficult one. Is it true that the lawyer who knowingly suborns perjury is no more culpable than the lawyer who avoids learning that his client, a criminal defendant, lies when he testifies that he was not the shooter? See Heilman, Willfully Blind for Good Reason, 3 Crim. L. & Philosophy 301, 305-308 (2009); Luban, Contrived Ignorance, 87 Geo. L. J. 957 (1999). The answer is not obvious. Perhaps the culpability of willful blindness depends on a person\u2019s reasons for remaining blind. E. g., ibid. Or perhaps only the person\u2019s justification for his conduct is relevant. E. g., Alexander & Ferzan, supra, at 23-68. This is a question of morality and of policy best left to the political branches. Even if one were to accept the substitution of equally blameworthy mental states in criminal cases in light of the retributive purposes of the criminal law, those purposes have no force in the domain of patent law that controls in this case. The Constitution confirms that the purpose of the patent law is a utilitarian one, to \u201cpromote the Progress of Science and useful Arts,\u201d Art. I, \u00a78, cl. 8.\nSecond, the Court appeals to precedent, noting that a \u201csimilar concept\u201d to willful blindness appears in this Court\u2019s cases as early as 1899. Ante, at 767. But this Court has never before held that willful blindness can substitute for a statutory requirement of knowledge. Spurr v. United States, 174 U. S. 728, 735 (1899), explained that \u201cevil design may be presumed if the [bank] officer purposefully keeps himself in ignorance of whether the drawer has money in the bank or not, or is grossly indifferent to his duty in respect to the ascertainment of that fact.\u201d The question in Spurr was whether the defendant\u2019s admitted violation was willful, and with this sentence the Court simply explained, that wrongful intent may be inferred from the circumstances. It did not suggest that blindness can substitute for knowledge. Neither did Turner v. United States, 396 U. S. 398 (1970), or Leary v. United States, 395 U. S. 6 (1969). As the Court here explains, both cases held only that certain statutory presumptions of knowledge were consistent with due process. Ante, at 767. And although most courts of appeals have embraced willful blindness, counting courts in a circuit split is not this Court\u2019s usual method for deciding important questions of law.\nThe Court appears to endorse the willful blindness doctrine here for all federal criminal cases involving knowledge. It does so in a civil case where it has received no briefing or argument from the criminal defense bar, which might have provided important counsel on this difficult issue.\nThere is no need to invoke willful blindness for the first time in this case. Facts that support willful blindness are often probative of actual knowledge. Circumstantial facts like these tend to be the only available evidence in any event, for the jury lacks direct access to the defendant\u2019s mind. The jury must often infer knowledge from conduct, and attempts to eliminate evidence of knowledge may justify such inference, as where an accused inducer avoids further confirming what he already believes with good reason to be true. The majority\u2019s decision to expand the statute\u2019s scope appears to depend on the unstated premise that knowledge requires certainty, but the law often permits probabilistic judgments to count as knowledge. Cf. Connecticut Mut. Life Ins. Co. v. Lathrop, 111 U. S. 612, 620 (1884) (Harlan, J.) (\u201c[BJeing founded on actual observation, and being consistent with common experience and the ordinary manifestations of the condition of the mind, it is knowledge, so far as the human intellect can acquire knowledge, upon such subjects\u201d).\nThe instant dispute provides a ease in point. Pentalpha copied an innovative fryer. The model it copied bore no U. S. patent markings, but that could not have been a surprise, for Pentalpha knew that a fryer purchased in Hong Kong was unlikely to bear such markings. And Pentalpha failed to tell the lawyer who ran a patent search that it copied the SEB fryer. These facts may suggest knowledge that Pentalpha\u2019s fryers were infringing, and perhaps a jury could so find.\nBut examining the sufficiency of the evidence presented in the 5-day trial requires careful review of an extensive record. The trial transcript alone spans over 1,000 pages. If willful blindness is as close to knowledge and as far from the \u201c 'knew or should have known\u2019 \u201d jury instruction provided in this case as the Court suggests, ante, at 759, then reviewing the record becomes all the more difficult. I would leave that task to the Court of Appeals in the first instance on remand.\nFor these reasons, and with respect, I dissent.",
+        "type": "dissent",
+        "author": "Justice Kennedy,"
+      }
+    ],
+    "attorneys": [
+      "William Dunnegan argued the cause for petitioners. With him on the briefs was Laura Scileppi.",
+      "R. Ted Cruz argued the cause for respondent. With him on the brief were Allyson N. Ho, Norman H. Zivin, and Wendy E. Miller"
+    ],
+    "corrections": "",
+    "head_matter": "GLOBAL-TECH APPLIANCES, INC., et al. v. SEB S. A.\nNo. 10-6.\nArgued February 23, 2011 \u2014\nDecided May 31, 2011\nAuto, J., delivered the opinion of the Court, in which Roberts, C. J., and Scaua, Thomas, Ginsburg, Breyer, Sotomayor, and Kagan, JJ., joined. Kennedy, J., filed a dissenting opinion, post, p. 772.\nWilliam Dunnegan argued the cause for petitioners. With him on the briefs was Laura Scileppi.\nR. Ted Cruz argued the cause for respondent. With him on the brief were Allyson N. Ho, Norman H. Zivin, and Wendy E. Miller\nBriefs of amici curiae urging reversal were filed for the Business Software Alliance by Andrew J. Pincus; for Cisco Systems, Inc., et al. by Seth P. Waxman, Mark C. Fleming, Anthony E. Peterman, and Tina M. Chappell; for the Clearing House Association et al. by Michael S. Connor, Benjamin F. Sidbury, Theresa Conduah, and Kevin Carroll; for Comcast Corp. et al. by Thomas G. Hungar, Matthew D. McGill, and William G. Jenks; for Google Inc. by Robert S. Schwartz and Seth D. Greenstein; for Newegg, Inc., by Peter J. Brann; for the Software Freedom Law Center by Eben Moglen and Daniel Ravicher; and for Yahoo! Inc. et al. by Edward R. Reines, Kevin Kramer, Jacob Schatz, Paul Roeder, and Robert H. Tiller.\nBriefs of amici curiae urging affirmance were filed for the American Intellectual Property Law Association by Peter A Sullivan and William G. Barber; for Hoffmann-La Roche Inc. et al. by James W. Dabney, Stephen S. Rabinowitz, Henry C. Lebowitz, Randy C. Eisensmith, and John F. Duffy; for Law Professors by Ted Sichelman, pro se; and for the William Mitchell College of Law Intellectual Property Institute by R. Carl Moy.\nBriefs of amici curiae were filed for the Federal Circuit Bar Association by Edgar H. Haug, Chiemi D. Suzuki, and Mark P. Walters; for the Intellectual Property Owners Association by Gary M. Hoffman, Jeffrey K. Sherwood, Douglas K. Norman, and Kevin Rhodes; for the Motion Picture Association of America et al. by Paul D. Clement, Daryl Joseffer, and Adam Conrad; and for 41 Law, Economics, and Business Professors by Mark A. Lemley, pro se."
+  },
+  "file_name": "0754-01",
+  "first_page_order": 836,
+  "last_page_order": 857
+}

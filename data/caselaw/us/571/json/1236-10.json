@@ -1,0 +1,68 @@
+{
+  "id": 12701865,
+  "name": "In re David Kendale LAMB, petitioner.",
+  "name_abbreviation": "In re Lamb",
+  "decision_date": "2014-03-03",
+  "docket_number": "No. 13\u20138050.",
+  "first_page": "1236",
+  "last_page": "1236",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 1236"
+    },
+    {
+      "type": "parallel",
+      "cite": "188 L. Ed. 2d 389"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 1496"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 22,
+    "char_count": 140,
+    "sha256": "94bd82e2ece0b3d96430ec9c93d642673091437e7396419e0a0bf2da87fccacf",
+    "simhash": "1:886f58d4fa1121b5",
+    "word_count": 23
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re David Kendale LAMB, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of mandamus denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re David Kendale LAMB, petitioner.\nNo. 13-8050.\nSupreme Court of the United States\nMarch 3, 2014.\nPetition for writ of mandamus denied."
+  },
+  "file_name": "1236-10",
+  "first_page_order": 1236,
+  "last_page_order": 1236
+}

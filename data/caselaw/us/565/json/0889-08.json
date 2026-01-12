@@ -1,0 +1,59 @@
+{
+  "id": 12216434,
+  "name": "Redmond v. United States",
+  "name_abbreviation": "Redmond v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5093",
+  "first_page": "889",
+  "last_page": "889",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 889"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.662,
+    "sha256": "fae64dc1cabb2d75fd0cbe149d50df7af944c23fbc7474ee2ea32418c52d6a8e",
+    "simhash": "1:b78ac2032eff1958",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Redmond v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5093.\nRedmond v. United States."
+  },
+  "file_name": "0889-08",
+  "first_page_order": 971,
+  "last_page_order": 971
+}

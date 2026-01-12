@@ -1,0 +1,59 @@
+{
+  "id": 5966539,
+  "name": "Colon v. Taskey et al.",
+  "name_abbreviation": "Colon v. Taskey",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-7776",
+  "first_page": "1226",
+  "last_page": "1226",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1226"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 70,
+    "ocr_confidence": 0.611,
+    "sha256": "bff963027943d9f35b1569d8630166523dbd5a980932302b1d73acfba8a72f71",
+    "simhash": "1:e2d802a5406b1036",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Colon v. Taskey et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7776.\nColon v. Taskey et al."
+  },
+  "file_name": "1226-12",
+  "first_page_order": 1248,
+  "last_page_order": 1248
+}

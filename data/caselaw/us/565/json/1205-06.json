@@ -1,0 +1,59 @@
+{
+  "id": 12246391,
+  "name": "Ybarra v. Clark, Warden",
+  "name_abbreviation": "Ybarra v. Clark",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-7556",
+  "first_page": "1205",
+  "last_page": "1205",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1205"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.622,
+    "sha256": "d6663fba422e2e3dccff3bc0a2e59f099c875ee5296ecdfb22811742ee69a778",
+    "simhash": "1:b2b7c1a42faf2c76",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ybarra v. Clark, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7556.\nYbarra v. Clark, Warden."
+  },
+  "file_name": "1205-06",
+  "first_page_order": 1287,
+  "last_page_order": 1287
+}

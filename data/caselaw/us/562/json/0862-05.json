@@ -1,0 +1,59 @@
+{
+  "id": 5915286,
+  "name": "Finley v. Nixon, Governor of Missouri",
+  "name_abbreviation": "Finley v. Nixon",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11105",
+  "first_page": "862",
+  "last_page": "862",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 862"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 87,
+    "ocr_confidence": 0.637,
+    "sha256": "b1d37729176817513b2368cc73fb826ee4063cc21cf612371c99260193f7817f",
+    "simhash": "1:06ea00b36d341ad3",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Finley v. Nixon, Governor of Missouri."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11105.\nFinley v. Nixon, Governor of Missouri."
+  },
+  "file_name": "0862-05",
+  "first_page_order": 884,
+  "last_page_order": 884
+}

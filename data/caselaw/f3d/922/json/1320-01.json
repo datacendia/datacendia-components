@@ -1,0 +1,643 @@
+{
+  "id": 12520901,
+  "name": "Samuel E. GINSBURG, Joan A. Ginsburg, Plaintiffs-Appellants v. UNITED STATES, Defendant-Appellee",
+  "name_abbreviation": "Ginsburg v. U.S.",
+  "decision_date": "2019-04-25",
+  "docket_number": "2018-1788",
+  "first_page": "1320",
+  "last_page": "1328",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "922 F.3d 1320"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Fed. Cir.",
+    "id": 8955,
+    "name": "United States Court of Appeals for the Federal Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "311 F.2d 235",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        190276
+      ],
+      "year": 1962,
+      "pin_cites": [
+        {
+          "page": "237",
+          "parenthetical": "holding the refund of an unconstitutionally collected tax was a nontaxable return of capital, where the taxpayer had not \"previously obtained a tax benefit on account of those taxes\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/311/0235-01"
+      ]
+    },
+    {
+      "cite": "331 F.2d 879",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        132746
+      ],
+      "year": 1964,
+      "pin_cites": [
+        {
+          "page": "881"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/331/0879-01"
+      ]
+    },
+    {
+      "cite": "177 F.2d 259",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1166099
+      ],
+      "year": 1949,
+      "pin_cites": [
+        {
+          "page": "260-61",
+          "parenthetical": "similar"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/177/0259-01"
+      ]
+    },
+    {
+      "cite": "656 F.3d 570",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3831520
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "574"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/656/0570-01"
+      ]
+    },
+    {
+      "cite": "24 F.3d 228",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10505129,
+        768619
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "233",
+          "parenthetical": "providing that \"punitive damages in no way resemble a return of capital\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/24/0228-01",
+        "/fed-cl/31/0228-01"
+      ]
+    },
+    {
+      "cite": "371 F.2d 474",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        2046561,
+        10816478
+      ],
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "482-83",
+          "parenthetical": "explaining that lawsuit settlement proceeds can constitute taxable income or nontaxable return of capital, depending on \"the nature of the action settled\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/371/0474-01",
+        "/us-ct-cl/178/0405-01"
+      ]
+    },
+    {
+      "cite": "690 F.2d 1368",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1474041
+      ],
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "1369",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/690/1368-01"
+      ]
+    },
+    {
+      "cite": "Treas. Reg. \u00a7 1.61-1",
+      "category": "laws:admin_compilation",
+      "reporter": "Treas. Reg.",
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "10 B.T.A. 1036",
+      "category": "reporters:specialty",
+      "reporter": "B.T.A.",
+      "case_ids": [
+        12116359
+      ],
+      "weight": 3,
+      "year": 1928,
+      "pin_cites": [
+        {
+          "page": "1054"
+        },
+        {
+          "page": "1054"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/bta/10/1036-01"
+      ]
+    },
+    {
+      "cite": "36 T.C.M. (CCH) 1755",
+      "category": "reporters:specialty",
+      "reporter": "T.C.M.",
+      "year": 1977,
+      "opinion_index": 0
+    },
+    {
+      "cite": "519 U.S. 79",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11594850
+      ],
+      "weight": 3,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "84"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/519/0079-01"
+      ]
+    },
+    {
+      "cite": "125 F.3d 1442",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        969474,
+        910531
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "1445",
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/fed-cl/38/1442-01",
+        "/f3d/125/1442-01"
+      ]
+    },
+    {
+      "cite": "144 T.C. 123",
+      "category": "reporters:specialty",
+      "reporter": "T.C.",
+      "case_ids": [
+        3647906
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "136",
+          "parenthetical": "holding that the \"excess portion [of a state tax credit] that remains after first reducing state-tax liability and that may be refunded is an accession to the [taxpayers'] wealth, and must be included in their federal gross income\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tc/144/0123-01"
+      ]
+    },
+    {
+      "cite": "543 U.S. 426",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5977915
+      ],
+      "weight": 3,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "433"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/543/0426-01"
+      ]
+    },
+    {
+      "cite": "135 F.2d 114",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        3661766
+      ],
+      "weight": 7,
+      "year": 1943,
+      "pin_cites": [
+        {
+          "page": "115"
+        },
+        {
+          "page": "116"
+        },
+        {
+          "page": "116",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/135/0114-01"
+      ]
+    },
+    {
+      "cite": "515 U.S. 323",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1564216
+      ],
+      "weight": 3,
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "328",
+          "parenthetical": "internal quotation marks and citation omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks and citation omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks and citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/515/0323-01"
+      ]
+    },
+    {
+      "cite": "110 Stat. 1755",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "504 U.S. 229",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11728673
+      ],
+      "weight": 5,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "233",
+          "parenthetical": "internal quotation marks and citation omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks and citation omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks and citation omitted"
+        },
+        {
+          "page": "233"
+        },
+        {
+          "parenthetical": "internal quotation marks and citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/504/0229-01"
+      ]
+    },
+    {
+      "cite": "493 U.S. 203",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11330936
+      ],
+      "weight": 5,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "210"
+        },
+        {
+          "page": "210"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/493/0203-01"
+      ]
+    },
+    {
+      "cite": "99 L.Ed. 483",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "year": 1955,
+      "opinion_index": 0
+    },
+    {
+      "cite": "348 U.S. 426",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6931705
+      ],
+      "weight": 6,
+      "year": 1955,
+      "pin_cites": [
+        {
+          "page": "431"
+        },
+        {
+          "page": "431"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/348/0426-01"
+      ]
+    },
+    {
+      "cite": "393 F.2d 823",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10816074,
+        2109055
+      ],
+      "year": 1968,
+      "pin_cites": [
+        {
+          "page": "832",
+          "parenthetical": "footnote and citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-ct-cl/183/0875-01",
+        "/f2d/393/0823-01"
+      ]
+    },
+    {
+      "cite": "228 F.3d 1360",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11231579,
+        521238
+      ],
+      "weight": 2,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "1362",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "1364",
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/228/1360-01",
+        "/fed-cl/48/1360-01"
+      ]
+    },
+    {
+      "cite": "892 F.3d 1298",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517201
+      ],
+      "weight": 4,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1302"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/892/1298-01"
+      ]
+    },
+    {
+      "cite": "N.Y. Envtl. Conserv. Law \u00a7 27-1419",
+      "category": "laws:leg_act",
+      "reporter": "N.Y.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(5)"
+        },
+        {
+          "page": "(5)"
+        },
+        {
+          "page": "(5)(d)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "14 N.Y.3d 161",
+      "category": "reporters:state",
+      "reporter": "N.Y.3d",
+      "case_ids": [
+        5714307
+      ],
+      "weight": 3,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "804"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny3d/14/0161-01"
+      ]
+    },
+    {
+      "cite": "N.Y. Envtl. Conserv. Law \u00a7 27-1405",
+      "category": "laws:leg_act",
+      "reporter": "N.Y.",
+      "weight": 9,
+      "pin_cites": [
+        {
+          "page": "(2)",
+          "parenthetical": "McKinney 2007"
+        },
+        {
+          "parenthetical": "outlining certain statutory exceptions to this definition of a brownfield site"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "N.Y. Tax Law \u00a7 21",
+      "category": "laws:leg_act",
+      "reporter": "N.Y.",
+      "weight": 7,
+      "pin_cites": [
+        {
+          "parenthetical": "McKinney 2005"
+        },
+        {
+          "page": "(a)(2)"
+        },
+        {
+          "page": "(a)(1)"
+        },
+        {
+          "page": "(e)"
+        },
+        {
+          "page": "(a)(2)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1295",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "(a)(3)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "136 Fed.Cl. 1",
+      "category": "reporters:specialty",
+      "reporter": "Fed. Cl.",
+      "weight": 12,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "6"
+        },
+        {
+          "page": "6"
+        },
+        {
+          "page": "4"
+        },
+        {
+          "page": "5"
+        },
+        {
+          "page": "5"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1089,
+    "char_count": 24849,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25927805057360487
+    },
+    "sha256": "24a4635c76fb7b11c0d037752701ab9b6b503bdcc799e7744a1d9d389bb68858",
+    "simhash": "1:af2df802fb42af7a",
+    "word_count": 4022
+  },
+  "last_updated": "2024-02-27T18:46:53.504629+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Prost, Chief Judge, Reyna and Wallach, Circuit Judges."
+    ],
+    "parties": [
+      "Samuel E. GINSBURG, Joan A. Ginsburg, Plaintiffs-Appellants\nv.\nUNITED STATES, Defendant-Appellee"
+    ],
+    "opinions": [
+      {
+        "text": "Wallach, Circuit Judge.\nAppellants Samuel E. Ginsburg and Joan A. Ginsburg (\"the Ginsburgs\") sued the United States (\"Government\") in the U.S. Court of Federal Claims, seeking a refund of their federal income taxes, plus interest, on an excess amount of a state tax credit payment, after offsetting state tax liability, received by them. Each party filed cross-motions for summary judgment under Rule 56 of the Rules of the Court of Federal Claims (\"RCFC\"), and the Court of Federal Claims granted the Government's Cross-Motion. Ginsburg v. United States , 136 Fed.Cl. 1, 6 (2018). The Court of Federal Claims held the Ginsburgs \"are not entitled to the $ 602,530[.00] refund they seek\" because the excess payment of the tax credit they had received from the State of New York is federally taxable income and further \"does not qualify for any exclusion or exception from the federal definition of income.\" Id. ; see J.A. 1 (Judgment).\nThe Ginsburgs appeal. We have jurisdiction pursuant to 28 U.S.C. \u00a7 1295(a)(3) (2012). We affirm.\nBACKGROUND\nI. Brownfield Redevelopment Tax Credits\nIn New York, taxpayers can receive a tax credit for, inter alia, the redevelopment of a brownfield site as part of a brownfield cleanup program. See N.Y. Tax Law \u00a7 21 (McKinney 2005). During the relevant time period, the New York Environmental Conservation Law defined a brownfield site as \"any real property, the redevelopment or reuse of which may be complicated by the presence or potential presence of a contaminant.\" N.Y. Envtl. Conserv. Law \u00a7 27-1405(2) (McKinney 2007); see id. (outlining certain statutory exceptions to this definition of a brownfield site). The purpose of New York's Brownfield Cleanup Program is to \"encourage persons to voluntarily remediate brownfield sites for reuse and redevelopment.\" Id. \u00a7 27-1403.\nTo qualify for tax credits relating to New York's Brownfield Cleanup Program, \"[a] person who seeks to participate in th[e Brownfield Cleanup Program] shall submit a request to the [New York State Department of Environmental Conservation ('NY DEC') ],\" id. \u00a7 27-1407(1); sign a brownfield site cleanup agreement with the State of New York, see id. \u00a7 27-1409; and obtain a certificate of completion for satisfaction of the remediation requirements from NY DEC, see id. \u00a7 27-1419(3). Moreover, the applicant must provide NY DEC \"access to ... [the] real property to evaluate continued maintenance.\" Id. \u00a7 27-1415(7)(b); see id. \u00a7\u00a7 27-1415(7)(d) (referring to this as an \"environmental easement\"), 71-3605 (providing requirements for environmental easements).\nUpon the issuance of the certificate of completion by NY DEC, \"the applicant shall not be liable to the state upon any statutory or common law cause of action, arising out of the presence of any contamination in, on[,] or emanating from the brownfield site that was the subject of such certificate.\" Id. \u00a7 27-1421(1). In addition, \"the certificate qualifies the applicant\" to \"financial benefits\" in the form of a tax credit pursuant to the New York Tax Law. Lighthouse Pointe Prop. Assocs. LLC v. N.Y. State Dep't of Envtl. Conserv. , 14 N.Y.3d 161, 897 N.Y.S.2d 693, 924 N.E.2d 801, 804 (2010) ; see N.Y. Tax Law \u00a7 21(a)(2)-(3). \"The amount of credit in a taxable year shall be the sum of the credit components\" related to, inter alia, \"[s]ite preparation\" and \"[t]angible property.\" N.Y. Tax Law \u00a7 21(a)(1)-(3). \"If the amount of the credit allowed ... for any taxable year shall exceed the taxpayer's tax for such year, the excess shall be treated as an overpayment of tax to be credited or refunded....\" Id. \u00a7 606(dd)(2). However, an issued certificate of completion \"may be ... revoked,\" where certain conditions are met. N.Y. Envtl. Conserv. Law \u00a7 27-1419(5). \"If the certificate of completion ... is revoked ..., the amount of any credit allowed by this section shall be added back in the taxable year in which such determination is final and no longer subject to judicial review.\" N.Y. Tax Law \u00a7 21(e).\nII. Relevant Facts\nIn 2005, the Ginsburgs, through Hawthorne Village, LLC (\"Hawthorne\"), a corporation in which the Ginsburgs indirectly hold a majority of the partnership interests, acquired property located at 220 Water Street in Brooklyn, New York (\"the property\"). J.A. 269. After the Ginsburgs applied to participate in the Brownfield Cleanup Program, NY DEC approved their application and the parties entered into a Brownfield Site Cleanup Agreement. See J.A. 186-213. \"The development of [the property] started in 2005 and was completed in 2011,\" thereby converting what was once an old shoe factory into a residential rental building. J.A. 102; see J.A. 103. In 2011, the Ginsburgs granted an environmental easement to the State of New York. J.A. 411-17. A few months later, NY DEC issued a certificate of completion. J.A. 258-59; see J.A. 256-57.\nHawthorne applied for a brownfield redevelopment tax credit of $ 6,583,835.10 for tax year 2011, see J.A. 276-79, with the Ginsburgs' share of that credit equaling $ 4,975,595.00, J.A. 526. In 2013, the State of New York paid the Ginsburgs a refund of $ 1,903,951.00 attributable to the brownfield redevelopment tax credit. See J.A. 353, 370. They did not report this payment as part of their income on their 2013 federal income tax return, claiming instead that this payment constituted a nontaxable refund. See J.A. 272, 370. After exercising its authority under the Internal Revenue Code to conduct an examination, see I.R.C. \u00a7 7602(a) (2012), the Internal Revenue Service (\"IRS\") proposed adjustments to the Ginsburgs' 2013 income taxes, by including as taxable income $ 1,864,618.00 of the $ 1,903,951.00 excess amount paid by the State of New York, J.A. 504; see J.A. 504 & n.9 (explaining that the IRS found only the $ 1,864,618.00 portion was taxable after accounting for \"state tax withholdings\" and \"estimated state tax payments\"). As a result of these proposed adjustments, the IRS determined the Ginsburgs owed an additional $ 690,628.46 in federal income tax, which the Ginsburgs paid. See J.A. 390.\nIII. Procedural History\nIn May 2016, the Ginsburgs filed a claim with the IRS, seeking a refund for tax year 2013 of $ 602,530.00, which represented the portion of the deficiency that was attributable to the brownfield redevelopment tax credit, plus interest. See J.A. 392. The Government represents that the IRS never acted on the Ginsburgs' request. Appellee's Br. 13; J.A. 504.\nIn July 2017, the Ginsburgs filed a complaint in the U.S. Court of Federal Claims. J.A. 12-20. The Court of Federal Claims denied the Ginsburgs' Cross-Motion and granted the Government's Cross-Motion, Ginsburg , 136 Fed.Cl. at 6, determining that \"the excess amount of [the brownfield redevelopment tax credit] paid to the [Ginsburgs] by the [S]tate of New York is subject to federal income tax liability,\" id. at 4. The Court of Federal Claims explained that \"the excess [b]rownfield credit was nothing more than a cash transfer from [New York] to the [Ginsburgs],\" and the payment \"is, substantively, an undeniable accession to wealth over which [the Ginsburgs] have complete dominion.\" Id. According to the Court of Federal Claims, \"New York's payment came with no strings attached,\" meaning \"[the Ginsburgs] were free to spend, save, or transfer the excess credit in whatever way they pleased.\" Id.\nThe Court of Federal Claims disagreed with the Ginsburgs that the brownfield redevelopment tax credit qualified for certain \"exceptions or exclusions\" to federal income tax liability. Id. at 5. Specifically, the Court of Federal Claims rejected the Ginsburgs' \"theory that the [b]rownfield credit is a recovery of capital and thus not income\" because \"[the Ginsburgs] have not sold or transferred any of their capital assets\" and \"[n]o 'recovery' has yet occurred because [their] capital investment is still ongoing.\" Id. The Court of Federal Claims similarly rejected the Ginsburgs' theory of inducement stating that, \"while the [b]rownfield project provided an investment incentive to [the Ginsburgs], no inducement by the [S]tate of New York occurred.\" Id. Instead, the Ginsburgs \"freely chose to participate and take advantage of New York's state tax credit program.\" Id.\nDISCUSSION\nI. Standard of Review and Legal Standard\nWe review de novo the Court of Federal Claims' grant of summary judgment. FastShip, LLC v. United States , 892 F.3d 1298, 1302 (Fed. Cir. 2018). Summary judgment is appropriate \"if the movant shows that there is no genuine dispute as to any material fact and the movant is entitled to judgment as a matter of law.\" RCFC 56(a).\nIn the Internal Revenue Code, Congress has imposed a tax on taxable income. I.R.C. \u00a7 1. \"[T]axable income means gross income minus the deductions allowed....\" Id. \u00a7 63(a) (internal quotation marks omitted). Gross income, in turn, \"means all income from whatever source derived,\" \"[e]xcept as otherwise provided.\" Id. \u00a7 61(a); see id. \u00a7 61(a)(1)-(14) (providing a non-exhaustive list of examples of gross income). Congress thereby established \"an extraordinarily broad definition of gross income,\" Abrahamsen v. United States , 228 F.3d 1360, 1362 (Fed. Cir. 2000) (internal quotation marks omitted), with \"[t]he term income ... includ[ing] any economic gain from whatever source,\" Ritter v. United States , 393 F.2d 823, 832 (Ct. Cl. 1968) (footnote and citation omitted).\nThe Supreme Court has held that gross income comprises \"undeniable accessions to wealth, clearly realized, and over which the taxpayers have complete dominion.\" Comm'r v. Glenshaw Glass Co. , 348 U.S. 426, 431, 75 S.Ct. 473, 99 L.Ed. 483 (1955). \"In determining whether a taxpayer enjoys 'complete dominion' over a given sum, the crucial point is not whether his use of the funds is unconstrained during some interim period,\" but rather \"whether the taxpayer has some guarantee that he will be allowed to keep the money.\" Comm'rv. Indianapolis Power & Light Co. , 493 U.S. 203, 210, 110 S.Ct. 589, 107 L.Ed.2d 591 (1990). \"Congress intended through \u00a7 61(a) ... to exert the full measure of its taxing power.\" United States v. Burke , 504 U.S. 229, 233, 112 S.Ct. 1867, 119 L.Ed.2d 34 (1992) (internal quotation marks and citation omitted), superseded by statute on other grounds , Small Business Protection Act of 1996, Pub. L. No. 104-188, \u00a7 1605, 110 Stat. 1755, 1838; see Glenshaw Glass , 348 U.S. at 432 n.11, 75 S.Ct. 473 (explaining that \u00a7 61(a)'s definition of gross income \"is based upon the [Sixteenth] Amendment and the word 'income' is used in its constitutional sense\"). Although the definition of gross income is subject to \"the exclusions specifically enumerated elsewhere in the [Internal Revenue] Code,\" Burke , 504 U.S. at 233, 112 S.Ct. 1867, \"exclusions from income must be narrowly construed,\" Comm'r v. Schleier , 515 U.S. 323, 328, 115 S.Ct. 2159, 132 L.Ed.2d 294 (1995) (internal quotation marks and citation omitted). \"[T]he taxpayer bears the burden of establishing the right to a refund.\" Abrahamsen , 228 F.3d at 1364 (citation omitted).\nII. The Court of Federal Claims Properly Granted Summary Judgment for the Government Because the Excess Amount of the Brownfield Redevelopment Tax Credit Paid to the Ginsburgs Is Federally Taxable Income\nThe Ginsburgs contend the Court of Federal Claims erred in granting summary judgment in favor of the Government. See Appellants' Br. 18. They argue the brownfield redevelopment tax credit \"is a reimbursement of a portion of the capital costs,\" i.e., costs relating to investments made by them for the cleanup and redevelopment of the property. Id. at 19. Accordingly, the Ginsburgs claim that they \"neither realized an undeniable accession to wealth nor an economic gain\" because the payment was a reimbursement of expenses. Id. at 24 (internal quotation marks omitted). They also argue that they \"do not have complete dominion and control over the [tax credits]\" because \"[t]here were many strings attached.\" Id. at 25. We disagree.\nThe excess amount of the brownfield redevelopment tax credit received by the Ginsburgs in 2013 is taxable gross income because it is an undeniable accession to wealth over which the Ginsburgs have complete dominion and control. First, the excess amount is an \"undeniable accession[ ] to wealth.\"\nGlenshaw Glass , 348 U.S. at 431, 75 S.Ct. 473. After using the brownfield redevelopment tax credit to offset the Ginsburgs' state tax liability, the State of New York paid them $ 1,864,618.00 as the remainder of the tax credit. See J.A. 504; see also J.A. 353, 370. The Ninth Circuit's holding in Baboquivari Cattle Co. v. Commissioner is instructive. 135 F.2d 114 (9th Cir. 1943). There, a cattle rancher made improvements to ranch lands leased from the state of Arizona, including rebuilding \"dirt reservoirs and earthen tanks\" to prevent \"erosion.\" Id. at 115. Pursuant to a federal statute, the United States made two payments to the rancher for \"completion\" of the work, with the \"cost of the work to [the rancher] in each year exceed[ing] the amounts received.\" Id. The Ninth Circuit rejected the rancher's argument that the payments were nontaxable \"capital subsidies\" for \"positive outlays,\" rather than \"income subsidies.\" Id. The Ninth Circuit found no \"justification for these ... distinctions,\" concluding instead that these federal payments were taxable income, where the \"beneficiary does not earn a payment merely by making an improvement\" but instead \"earns it in part by compliance with conditions in respect of the proper use of [the] land.\" Id. at 116. Similarly, the excess amount of the state tax credit (after offsetting for state tax liabilities) paid to the Ginsburgs, based on their positive outlays in redeveloping a brownfield site, is \"an economic gain\" made for compliance with the Brownfield Cleanup Program and is includable in gross income. Comm'r v. Banks , 543 U.S. 426, 433, 125 S.Ct. 826, 160 L.Ed.2d 859 (2005) ; see Maines v. Comm'r , 144 T.C. 123, 136 (2015) (holding that the \"excess portion [of a state tax credit] that remains after first reducing state-tax liability and that may be refunded is an accession to the [taxpayers'] wealth, and must be included in their federal gross income\").\nSecond, the Ginsburgs had complete dominion and control over the payment for the excess amount. In Baboquivari , the Ninth Circuit recognized that \"[n]o part of the sums paid to the [rancher] were required to be placed by him in a particular account or fund\" and \"[t]he payments were not earmarked\" or their use otherwise \"restrict[ed],\" even though \"the right to have or retain the subsidy for the improvement\" could be \"defeated\" for failure to \"compl[y] with conditions in respect of the proper use of [the] land.\" 135 F.2d at 116 (emphasis added). Likewise, there were no restrictions on the Ginsburgs' use of the excess amount of the tax credit and the Ginsburgs were \"free to use the money for any purpose [they] might see fit.\" Id. Even though New York could revoke the certificate of completion for, inter alia, lack of continued compliance or a discovery that the Ginsburgs made a misrepresentation of material fact, see N.Y. Envtl. Conserv. Law \u00a7 27-1419(5), the avoidance of this potential revocation is within the Ginsburgs' control and therefore does not \"depend[ ] on events outside of [their] control,\" Hous. Indus. Inc. & Subsidiaries v. United States , 125 F.3d 1442, 1445 (Fed. Cir. 1997) (citation omitted). Moreover, although New York's law contemplates revocation of a certificate of compliance where \"[t]here is good cause,\" N.Y. Envtl. Conserv. Law \u00a7 27-1419(5)(d), we do not believe that this alone is sufficient to hold that the Ginsburgs lacked complete dominion and control, see Indianapolis Power & Light , 493 U.S. at 210, 110 S.Ct. 589 (requiring \"some guarantee\" to satisfy the complete dominion and control condition, rather than an absolute guarantee). We conclude that the Ginsburgs have complete dominion and control over the payment because there is a legally-adequate guarantee that they will be allowed to keep the excess amount of the tax credit, barring actionable misconduct on their part.\nWe are unpersuaded by the Ginsburgs' counterarguments. First, they argue that the payment for the excess amount is a \"nontaxable return of capital.\" Appellants' Br. 26. \"[A] restoration of capital [i]s not income; hence it f[alls] outside the definition of 'income' upon which the law impose[s] a tax.\" O'Gilvie v. United States , 519 U.S. 79, 84, 117 S.Ct. 452, 136 L.Ed.2d 454 (1996). Even though the brownfield redevelopment tax credit is calculated, in part, based on costs incurred by the taxpayer, such as \"[s]ite preparation\" and \"[t]angible property\" costs, see N.Y. Tax Law \u00a7 21(a)(2), (3), we do not agree that this renders the paid excess amount of the credit a nontaxable return of capital. A treatise on federal income tax explains the return of capital theory: \"[w]hen the purchaser's obligations are received as part of the consideration on a sale but have no ascertainable fair market value at the time of their receipt, the seller may treat the full amount of the payments as they are received as a return of capital\" and that \"[o]nly those payments that are received after his entire basis has been recovered must be reported as income.\" 1 Mertens, Law of Fed. Income Taxation \u00a7 5:10 (2019) ; see 1 Bittker & Lokken, Fed. Taxation of Income, Estates and Gifts , \u00b6 5.4 (2019) (explaining that gain is not realized where the \"payment served only to restore the taxpayer's impaired capital\"). Here, however, the Ginsburgs neither allege that a payment was made to New York, nor explain why the payment of the excess amount of the brownfield redevelopment tax credit is a return of their basis to restore impaired capital. See generally Appellants' Br. Instead, the developer, Hawthorne, not the Ginsburgs, directly invested in the development of the brownfield site, including cleanup, see J.A. 102, and the Ginsburgs received a portion of the brownfield redevelopment tax credit that was paid by the State of New York to Hawthorne, see J.A. 526. As the Court of Federal Claims recognized, Hawthorne's \"capital investment\" in the property \"is still ongoing.\" Ginsburg , 136 Fed.Cl. at 5. Under these circumstances, the Ginsburgs have failed to meet their \"burden of proving that money received ... represents a recovery of capital, rather than ordinary income.\" Morse , 371 F.2d at 483.\nSecond, the Ginsburgs argue that, under the common law inducement doctrine, the brownfield redevelopment tax credit is \"indistinguishable from ... inducement payments, rebates, and reimbursements that\" have historically been treated as \"not includable in gross income.\" Appellants' Br. 35; see id. at 35-37 (first citing Freedom Newspapers, Inc. v. Comm'r , 36 T.C.M. (CCH) 1755 (1977) ; then citing Brown v. Comm'r , 10 B.T.A. 1036 (1928) ). The Ginsburgs aver they were induced \"to cleanup and redevelop\" the property and therefore the excess amount of the brownfield redevelopment tax credit is a nontaxable reduction in their cost basis, rather than taxable income. Id. at 37. In Freedom Newspapers , the U.S. Tax Court held that a broker's payment to a taxpayer was a nontaxable reduction in cost basis, where the broker \"induce[d the taxpayer] to purchase\" an additional newspaper as part of its purchase of a group of other newspapers by promising to pay the taxpayer $ 100,000.00 if the broker was unable to resell the additional newspaper within a year. 36 T.C.M. (CCH) at 1755 ; see id. at 1757-58. Similarly, in Brown , the Board of Tax Appeals held that a majority stockholder's payment to a taxpayer for the purposes of persuading the taxpayer to purchase stock in the same company was a nontaxable reduction in cost basis for the taxpayer's stock purchase because the majority stockholder induced the purchase. See 10 B.T.A. at 1054. By contrast, the State of New York here does not hold a financial interest in the Ginsburgs' purchase similar to either the broker in Freedom Newspapers or the majority stockholder in Brown . See Freedom Newspapers , 36 T.C.M. (CCH) at 1757-58 ; Brown , 10 B.T.A. at 1054. Nor did New York enter into negotiations with the Ginsburgs to induce them into cleaning up the brownfield site. Instead, we agree with the Court of Federal Claims that the Ginsburgs \"freely chose to participate and take advantage of New York's state tax credit program.\" Ginsburg , 136 Fed.Cl. at 5 ; see N.Y. Tax Law \u00a7 21. We decline to extend the common law inducement doctrine to this case given these circumstances.\nCONCLUSION\nWe have considered the Ginsburgs' remaining arguments and find them unpersuasive. Accordingly, the Judgment of the U.S. Court of Federal Claims is\nAFFIRMED\nWe cite to the 2005 version of the New York Tax Law and the 2007 version of the New York Environmental Conservation Law as these versions contain the relevant provisions. The parties do not contend that there were any material changes made to these statutes between 2005 and 2007. See generally Appellants' Br.; Appellee's Br.\nAlthough other entities, such as Hawthorne, performed some of the actions discussed in this section, for convenience we refer to these actions as being performed by the Ginsburgs. To the extent the involvement of other entities in certain aspects of the project is relevant to the resolution of this case, we discuss these facts below.\nThe IRS's regulations explain that \"[g]ross income includes income realized in any form, whether in money, property, or services. Income may be realized, therefore, in the form of services, meals, accommodations, stock, or other property, as well as in cash.\" Treas. Reg. \u00a7 1.61-1(a) (2018).\nWe have adopted as precedent the decisions of the U.S. Court of Claims, which is one of our predecessor courts. S. Corp. v. United States , 690 F.2d 1368, 1369 (Fed. Cir. 1982) (en banc).\nThe amount of the tax credit used to offset the Ginsburgs' New York tax liability is not at issue.\nThe return of capital doctrine has been discussed in a variety of cases. For instance, its applicability has been examined frequently in the context of litigation proceeds. See Morse v. United States , 371 F.2d 474, 482-83 (Ct. Cl. 1967) (explaining that lawsuit settlement proceeds can constitute taxable income or nontaxable return of capital, depending on \"the nature of the action settled\"); see, e.g. , Reese v. United States , 24 F.3d 228, 233 (Fed. Cir. 1994) (providing that \"punitive damages in no way resemble a return of capital\"); see also Freda v. Comm'r , 656 F.3d 570, 574 (7th Cir. 2011) (stating that for litigation proceeds, \"[w]here the recovery represents damages for lost profits, it is taxable as ordinary income,\" but, \"if it represents a replacement of capital destroyed or injured, the money received is a return of capital and not taxable\" (internal quotation marks, ellipsis, and citation omitted); Mathey v. Comm'r , 177 F.2d 259, 260-61 (1st Cir. 1949) (similar). In addition, our predecessor court has found a return of capital in cases dissimilar to the present facts, such as in cases involving return of war-lost property and refund of an unconstitutionally collected tax. See, e.g. , Horst v. United States , 331 F.2d 879, 881 (Ct. Cl. 1964) (reasoning that, where a taxpayer's Japanese bonds were deemed by a specific statute to be lost during the war, any subsequent recovery is not taxable \"until the taxpayer's total war loss recovery exceeds his unused war loss (that part of the potential war loss deduction which did not result in a tax benefit)\"); Cal. & Hawaiian Sugar Refining Corp. v. United States , 311 F.2d 235, 237 (Ct. Cl. 1962) (holding the refund of an unconstitutionally collected tax was a nontaxable return of capital, where the taxpayer had not \"previously obtained a tax benefit on account of those taxes\").\nThe Ginsburgs do not cite any binding authority applying the common law inducement doctrine. See generally Appellants' Br. Although the Government questions the continued validity of the common law inducement doctrine following the Supreme Court's opinion in Glenshaw Glass , see Appellee's Br. 47-48, we do not reach that issue because we hold the Ginsburgs have failed to demonstrate that, even if valid, the inducement doctrine applies.",
+        "type": "majority",
+        "author": "Wallach, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Timothy Lee Jacobs, Hunton Andrews Kurth LLP, Washington, DC, argued for plaintiffs-appellants. Also represented by Andreas N. Andrews.",
+      "Douglas Campbell Rennie, Tax Division, United States Department of Justice, Washington, DC, argued for defendant-appellee. Also represented by Deborah K. Snyder, Richard E. Zuckerman."
+    ],
+    "corrections": "",
+    "head_matter": "Samuel E. GINSBURG, Joan A. Ginsburg, Plaintiffs-Appellants\nv.\nUNITED STATES, Defendant-Appellee\n2018-1788\nUnited States Court of Appeals, Federal Circuit.\nDecided: April 25, 2019\nTimothy Lee Jacobs, Hunton Andrews Kurth LLP, Washington, DC, argued for plaintiffs-appellants. Also represented by Andreas N. Andrews.\nDouglas Campbell Rennie, Tax Division, United States Department of Justice, Washington, DC, argued for defendant-appellee. Also represented by Deborah K. Snyder, Richard E. Zuckerman.\nBefore Prost, Chief Judge, Reyna and Wallach, Circuit Judges."
+  },
+  "file_name": "1320-01",
+  "first_page_order": 1320,
+  "last_page_order": 1328
+}

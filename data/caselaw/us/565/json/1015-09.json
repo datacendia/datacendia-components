@@ -1,0 +1,59 @@
+{
+  "id": 12232430,
+  "name": "Bartelt v. Illinois",
+  "name_abbreviation": "Bartelt v. Illinois",
+  "decision_date": "2011-11-07",
+  "docket_number": "No. 11-5294",
+  "first_page": "1015",
+  "last_page": "1015",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1015"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 67,
+    "ocr_confidence": 0.762,
+    "sha256": "854e811f139c5d50521bf6ad77e747f1136746fa118b1324ce47f32bb1afe256",
+    "simhash": "1:1850491f9e53c1e1",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bartelt v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ill. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5294.\nBartelt v. Illinois."
+  },
+  "file_name": "1015-09",
+  "first_page_order": 1097,
+  "last_page_order": 1097
+}

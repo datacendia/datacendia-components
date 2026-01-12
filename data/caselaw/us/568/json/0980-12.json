@@ -1,0 +1,59 @@
+{
+  "id": 12420191,
+  "name": "Guiamelon v. California",
+  "name_abbreviation": "Guiamelon v. California",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-345",
+  "first_page": "980",
+  "last_page": "980",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 980"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 85,
+    "ocr_confidence": 0.581,
+    "sha256": "11bad2f00963b18d61982c6934dddfe40f074fef880b84ac74f3f4d564e59d8a",
+    "simhash": "1:4805d7a010c12241",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Guiamelon v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 2d App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-345.\nGuiamelon v. California."
+  },
+  "file_name": "0980-12",
+  "first_page_order": 1056,
+  "last_page_order": 1056
+}

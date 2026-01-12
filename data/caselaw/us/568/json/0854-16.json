@@ -1,0 +1,59 @@
+{
+  "id": 12413705,
+  "name": "Forney v. West Virginia",
+  "name_abbreviation": "Forney v. West Virginia",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10665",
+  "first_page": "854",
+  "last_page": "854",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 854"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 79,
+    "ocr_confidence": 0.691,
+    "sha256": "80b3bdad2034694eb06d65373aaf57780856d643c78fe5ea6e7ad3857b625a9d",
+    "simhash": "1:2a14a00b9410a128",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Forney v. West Virginia."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. App. W. Va. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10665.\nForney v. West Virginia."
+  },
+  "file_name": "0854-16",
+  "first_page_order": 930,
+  "last_page_order": 930
+}

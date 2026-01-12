@@ -1,0 +1,197 @@
+{
+  "id": 12521479,
+  "name": "IN RE: Devan DENNIS and Tyeane Halbert, Debtors-Appellees, Appeals of: Illinois Department of Human Services and James T. Dimas.",
+  "name_abbreviation": "In re Dennis",
+  "decision_date": "2019-06-27",
+  "docket_number": "Nos. 18-2899 & 18-2952",
+  "first_page": "1015",
+  "last_page": "1018",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "927 F.3d 1015"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "7th Cir.",
+    "id": 9010,
+    "name": "United States Court of Appeals for the Seventh Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "426 B.R. 296",
+      "category": "reporters:specialty",
+      "reporter": "B.R.",
+      "case_ids": [
+        3798766
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "301"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/426/0296-01"
+      ]
+    },
+    {
+      "cite": "737 F.3d 670",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3732521,
+        3666892
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "679",
+          "parenthetical": "overpayment to a spouse not a \"domestic support obligation\" under Section 101(14A)(A) because it is owed to the creditor, not the supported spouse"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/737/0670-01",
+        "/br/503/0670-01"
+      ]
+    },
+    {
+      "cite": "11 U.S.C. \u00a7 101",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(14A)(B)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "473 B.R. 361",
+      "category": "reporters:specialty",
+      "reporter": "B.R.",
+      "case_ids": [
+        4142076
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "364"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/473/0361-01"
+      ]
+    },
+    {
+      "cite": "474 F.3d 421",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5711531
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "426"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/474/0421-01"
+      ]
+    },
+    {
+      "cite": "576 B.R. 586",
+      "category": "reporters:specialty",
+      "reporter": "B.R.",
+      "case_ids": [
+        12269051
+      ],
+      "weight": 3,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "589"
+        },
+        {
+          "page": "595"
+        },
+        {
+          "page": "595"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/576/0586-01"
+      ]
+    },
+    {
+      "cite": "11 U.S.C. \u00a7 547",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(b)"
+        },
+        {
+          "page": "(c)(7)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 413,
+    "char_count": 6958,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25935894332063375
+    },
+    "sha256": "8281d8c23b332cba48d2d1f396026815180ba32c72a01500e5ae1f87f8b4821c",
+    "simhash": "1:b72420def7fb9980",
+    "word_count": 1130
+  },
+  "last_updated": "2024-02-27T18:36:41.085222+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Wood, Chief Judge, and Bauer and St. Eve, Circuit Judges."
+    ],
+    "parties": [
+      "IN RE: Devan DENNIS and Tyeane Halbert, Debtors-Appellees,"
+    ],
+    "opinions": [
+      {
+        "text": "Bauer, Circuit Judge.\nDevan Dennis and Tyeane Halbert (collectively, Debtors) each owed debts to the Illinois Department of Human Services (DHS). Dennis owed for overpayments made to her under the Illinois Child Care Assistance Program; Halbert owed for overpayments made to her under the Supplemental Nutrition Assistance Program. The Debtors each filed for bankruptcy. DHS now appeals from orders entered by the bankruptcy court in each case holding that the overpayment debts were not domestic support obligations. For the reasons that follow, we affirm the orders of the bankruptcy court.\nI. BACKGROUND\nA. Devan Dennis\nDennis applied for and received benefits under the Illinois Child Care Assistance Program to help pay her daughter's daycare tuition. In April 2009, DHS determined it had overpaid benefits to her daycare provider because Dennis failed to provide accurate information on her application about her employment. The total amount of the overpayment was $7,962.25.\nIn 2018, Dennis filed a Chapter 13 bankruptcy petition. DHS filed a proof of claim, arguing that the $7,962.25 overpayment debt was a priority domestic support obligation under \u00a7 507(a)(1)(B). Dennis objected, arguing the overpayment was a general unsecured dischargeable debt. The bankruptcy court agreed with Dennis, holding that her overpayment debt to DHS was not a domestic support obligation.\nB. Tyeane Halbert\nHalbert applied for and received Supplemental Nutrition Assistance Program benefits from DHS for herself and her two minor children. From October to December 2009, Halbert received payments totaling $1,008. From August 2010 through January 2011, she received payments totaling $2,386. DHS then determined that she had failed to disclose income which resulted in a $3,394 overpayment of benefits. Halbert paid $1,473 and in 2015 DHS intercepted the remaining balance of $1,921 from her income tax refund.\nHalbert filed a Chapter 7 bankruptcy petition in 2016, and claimed the intercepted funds as an exempt asset. On July 21, 2016, she filed an adversary complaint to recover the intercepted payment as an \"avoidable preference\" under 11 U.S.C. \u00a7 547(b). DHS argued that avoidance was barred by 11 U.S.C. \u00a7 547(c)(7) because the overpayment was a \"domestic support obligation.\" Upon cross motions for summary judgment, the bankruptcy court ruled in favor of Halbert, holding that \"such a debt is simply a debt owed for the return of benefits that should never have been paid at all. The payment made on the debt, therefore, is avoidable by the Debtor as a preference.\" Halbert v. Dimas (In re Halbert) , 576 B.R. 586, 589 (Bankr. N.D. Ill. 2017).\nII. ANALYSIS\nWe review a bankruptcy court's legal conclusions de novo . In re Doctors Hosp. of Hyde Park, Inc. , 474 F.3d 421, 426 (7th Cir. 2007). In each case in this consolidated appeal, the bankruptcy court concluded that a debt owed to the government for the overpayment of benefits is not in the nature of a domestic support obligation. The courts characterized the overpayment as \"a debt for the return of a benefit paid to the debtor that should not have been paid in the first place.\" In re Halbert , 576 B.R. at 595, citing In re Hickey , 473 B.R. 361, 364 (Bankr. D. Or. 2012). We agree.\nFor a debt to be a domestic support obligation it must be \"in the nature of alimony, maintenance, or support (including assistance provided by a governmental unit) [to a] spouse, former spouse, or child of the debtor or such child's parent, without regard to whether such debt is expressly so designated.\" 11 U.S.C. \u00a7 101(14A)(B). DHS argues that the debts owed are in the nature of support because the payments were intended to be used to support the Debtors' children; that they automatically retain their characterization as a domestic support obligation.\nDHS's position, however, would expand the definition of domestic support obligation far beyond what is intended by the bankruptcy code. \"[A]s noted by one respected treatise 'virtually any incorrect payment by the government to a household is in most cases used to provide support to the household.' Is a debt owed to the government based on an incorrect tax refund, or a debt owed to a public housing authority on a judgment for rent, to be considered 'in the nature of support'?\" In re Halbert, 576 B.R. at 595, citing 2 Collier on Bankruptcy \u00b6 101.14A, at 96.1. See also In re Taylor , 737 F.3d 670, 679 (10th Cir. 2013) (overpayment to a spouse not a \"domestic support obligation\" under Section 101(14A)(A) because it is owed to the creditor, not the supported spouse).\nIn re Vanhook , 426 B.R. 296, 301 (Bankr. N.D. Ill. 2010), is instructive. There, a creditor obtained a money judgment against a debtor for the return of child support payments after it was determined that the creditor was not the biological father of debtor's child. Id . at 298. When the debtor filed a Chapter 13 Bankruptcy petition, the creditor filed a proof of claim in the amount of $55,000, claiming priority as a domestic support obligation. Id . at 287. The bankruptcy court held that the creditor's money judgment was not a domestic support obligation. Id . at 302. The court concluded the creditor \"should never have been assessed child support payments\" and held that the fact that the creditor was \"erroneously charged with and paid that support does not transform his claim for a refund into a priority classification to which it does not properly belong.\" Id .\nDHS's status is similar to the creditor in In re Vanhook . The Debtors do not owe DHS money for support payments; they owe DHS because they received money they were not statutorily entitled to. Because such a payment is not in the nature of alimony, maintenance, or support, we agree with the bankruptcy court decision that this is merely an overpayment of benefits and not a domestic support obligation.\nIII. CONCLUSION\nThe orders of the bankruptcy court are AFFIRMED.",
+        "type": "majority",
+        "author": "Bauer, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Michael A. Miller, Attorney, SEMRAD LAW FIRM, LLC, Chicago, IL, for Debtor-Appellee Devan Dennis.",
+      "Patrick S. Layng, Attorney, OFFICE OF THE UNITED STATES TRUSTEE, Chicago, IL, for Trustee Marilyn O. Marshall.",
+      "Ainat Margalit, Attorney, LAF, Chicago, IL, for Plaintiff-Appellee Tyeane Halbert.",
+      "Robert Owen Lynch, III, Assistant Attorney General, OFFICE OF THE ATTORNEY GENERAL, Chicago, IL, Nadine J. Wichern, Attorney, OFFICE OF THE ATTORNEY GENERAL, Civil Appeals Division, Chicago, IL, for Defendants-Appellants James T. Dimas, Illinois Department of Human Services.",
+      "Tara A. Twomey, Attorney, NATIONAL CONSUMER BANKRUPTCY RIGHTS CENTER, San Jose, CA, for Amici Curiae National Association of Consumer Bankruptcy Attorneys."
+    ],
+    "corrections": "",
+    "head_matter": "IN RE: Devan DENNIS and Tyeane Halbert, Debtors-Appellees,\nAppeals of: Illinois Department of Human Services and James T. Dimas.\nNos. 18-2899 & 18-2952\nUnited States Court of Appeals, Seventh Circuit.\nArgued April 15, 2019\nDecided June 27, 2019\nMichael A. Miller, Attorney, SEMRAD LAW FIRM, LLC, Chicago, IL, for Debtor-Appellee Devan Dennis.\nPatrick S. Layng, Attorney, OFFICE OF THE UNITED STATES TRUSTEE, Chicago, IL, for Trustee Marilyn O. Marshall.\nAinat Margalit, Attorney, LAF, Chicago, IL, for Plaintiff-Appellee Tyeane Halbert.\nRobert Owen Lynch, III, Assistant Attorney General, OFFICE OF THE ATTORNEY GENERAL, Chicago, IL, Nadine J. Wichern, Attorney, OFFICE OF THE ATTORNEY GENERAL, Civil Appeals Division, Chicago, IL, for Defendants-Appellants James T. Dimas, Illinois Department of Human Services.\nTara A. Twomey, Attorney, NATIONAL CONSUMER BANKRUPTCY RIGHTS CENTER, San Jose, CA, for Amici Curiae National Association of Consumer Bankruptcy Attorneys.\nBefore Wood, Chief Judge, and Bauer and St. Eve, Circuit Judges."
+  },
+  "file_name": "1015-01",
+  "first_page_order": 1015,
+  "last_page_order": 1018
+}

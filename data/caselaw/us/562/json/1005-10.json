@@ -1,0 +1,59 @@
+{
+  "id": 5965917,
+  "name": "Vance v. Illinois",
+  "name_abbreviation": "Vance v. Illinois",
+  "decision_date": "2010-11-01",
+  "docket_number": "No. 10-381",
+  "first_page": "1005",
+  "last_page": "1005",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1005"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.657,
+    "sha256": "9b8ea7aba34c21a5a3b3e8ea486b2d16db21813b81194eff9921fc0fe5bdc9db",
+    "simhash": "1:e271e7d75d74fd3d",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Vance v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 2d Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-381.\nVance v. Illinois."
+  },
+  "file_name": "1005-10",
+  "first_page_order": 1027,
+  "last_page_order": 1027
+}

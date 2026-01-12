@@ -1,0 +1,748 @@
+{
+  "id": 2263596,
+  "name": "Coloma Oil & Gas Corporation, Petitioner v. Railroad Commission of Texas et al, Respondents",
+  "name_abbreviation": "Coloma Oil & Gas Corp. v. Railroad Commission",
+  "decision_date": "1962-06-06",
+  "docket_number": "No. A-8625",
+  "first_page": "483",
+  "last_page": "504",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "163 Tex. 483"
+    },
+    {
+      "type": "parallel",
+      "cite": "358 S.W.2d 566"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "161 S.W. 2d 1035",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10225952,
+        2311421
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/161/1035-01",
+        "/tex/139/0080-01"
+      ]
+    },
+    {
+      "cite": "189 Texas 80",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "356 S.W. 2d 131",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10154200,
+        2263582
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/356/0131-01",
+        "/tex/163/0370-01"
+      ]
+    },
+    {
+      "cite": "163 Texas 370",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2263582
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/163/0370-01"
+      ]
+    },
+    {
+      "cite": "348 S.W. 2d 390",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10159953
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/348/0390-01"
+      ]
+    },
+    {
+      "cite": "168 S.W. 2d 625",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10217720,
+        2310170
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/168/0625-01",
+        "/tex/140/0527-01"
+      ]
+    },
+    {
+      "cite": "140 Texas 527",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2310170
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/140/0527-01"
+      ]
+    },
+    {
+      "cite": "149 S.W. 2d 1009",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10227614
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/149/1009-01"
+      ]
+    },
+    {
+      "cite": "245 S.W. 2d 488",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10202817,
+        2244763
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/245/0488-01",
+        "/tex/151/0051-01"
+      ]
+    },
+    {
+      "cite": "151 Texas 51",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2244763
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/151/0051-01"
+      ]
+    },
+    {
+      "cite": "120 S.W. 2d 522",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10238927
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/120/0522-01"
+      ]
+    },
+    {
+      "cite": "99 A.L.R. 1939",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "133 S.W. 2d 1069",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "188 S.W. 2d 912",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10211224
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/188/0912-01"
+      ]
+    },
+    {
+      "cite": "326 S.W. 2d 528",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10166922
+      ],
+      "weight": 2,
+      "year": 1959,
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/326/0528-01"
+      ]
+    },
+    {
+      "cite": "285 S.W. 2d 201",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2250927,
+        10170431
+      ],
+      "year": 1955,
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/155/0221-01",
+        "/sw2d/285/0201-01"
+      ]
+    },
+    {
+      "cite": "155 Texas 221",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2250927
+      ],
+      "year": 1955,
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/155/0221-01"
+      ]
+    },
+    {
+      "cite": "109 S.W. 2d 967",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10273208,
+        2290153,
+        10273067,
+        2290166
+      ],
+      "year": 1937,
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/109/0967-02",
+        "/tex/130/0484-01",
+        "/sw2d/109/0967-01",
+        "/tex/130/0276-01"
+      ]
+    },
+    {
+      "cite": "130 Texas 484",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2290153
+      ],
+      "year": 1937,
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/130/0484-01"
+      ]
+    },
+    {
+      "cite": "98 S.W. 2d 993",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10269545,
+        2293197
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/98/0993-01",
+        "/tex/128/0324-01"
+      ]
+    },
+    {
+      "cite": "128 Texas 324",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2293197
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/128/0324-01"
+      ]
+    },
+    {
+      "cite": "31 Texas L. Rev. 18",
+      "category": "journals:journal",
+      "reporter": "Tex. L. Rev.",
+      "pin_cites": [
+        {
+          "page": "22"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "356 S.W. 2d 131",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10154200,
+        2263582
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/356/0131-01",
+        "/tex/163/0370-01"
+      ]
+    },
+    {
+      "cite": "163 Texas 370",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2263582
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/163/0370-01"
+      ]
+    },
+    {
+      "cite": "128 S.W. 2d 898",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        6801955
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw2d/128/0898-01"
+      ]
+    },
+    {
+      "cite": "123 S.W. 2d 916",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "opinion_index": 2
+    },
+    {
+      "cite": "145 S.W. 2d 280",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10224612
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw2d/145/0280-01"
+      ]
+    },
+    {
+      "cite": "123 S.W. 2d 911",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10246482
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw2d/123/0911-01"
+      ]
+    },
+    {
+      "cite": "161 S.W. 2d 1022",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2311456,
+        10225915
+      ],
+      "weight": 2,
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/139/0066-01",
+        "/sw2d/161/1022-01"
+      ]
+    },
+    {
+      "cite": "139 Texas 66",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2311456
+      ],
+      "weight": 2,
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/139/0066-01"
+      ]
+    },
+    {
+      "cite": "25 Texas 245",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2110030
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/25/0245-01"
+      ]
+    },
+    {
+      "cite": "319 S.W. 2d 174",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10159799
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw2d/319/0174-01"
+      ]
+    },
+    {
+      "cite": "223 S.W. 2d 686",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10209654
+      ],
+      "pin_cites": [
+        {
+          "page": "689"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw2d/223/0686-01"
+      ]
+    },
+    {
+      "cite": "27 A.L.R. 2d 965",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R. 2d",
+      "opinion_index": 2
+    },
+    {
+      "cite": "242 S.W. 2d 181",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2328401,
+        10192796
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "183"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/150/0433-01",
+        "/sw2d/242/0181-01"
+      ]
+    },
+    {
+      "cite": "150 Texas 433",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2328401
+      ],
+      "weight": 2,
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/150/0433-01"
+      ]
+    },
+    {
+      "cite": "198 S.W. 2d 424",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10193584,
+        2335039
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw2d/198/0424-01",
+        "/tex/145/0323-01"
+      ]
+    },
+    {
+      "cite": "145 Texas 323",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2335039
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/145/0323-01"
+      ]
+    },
+    {
+      "cite": "198 S.W. 2d 420",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10193339,
+        2335031
+      ],
+      "weight": 2,
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw2d/198/0420-01",
+        "/tex/145/0270-01"
+      ]
+    },
+    {
+      "cite": "145 Texas 270",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2335031
+      ],
+      "weight": 2,
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/145/0270-01"
+      ]
+    },
+    {
+      "cite": "139 Texas 80",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2311421
+      ],
+      "weight": 3,
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/139/0080-01"
+      ]
+    },
+    {
+      "cite": "87 S.W. 2d 1069",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2296185,
+        10276604
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/126/0296-01",
+        "/sw2d/87/1069-01"
+      ]
+    },
+    {
+      "cite": "83 S.W. 2d 935",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10260312,
+        2296185
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw2d/83/0935-01",
+        "/tex/126/0296-01"
+      ]
+    },
+    {
+      "cite": "126 Texas 296",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2296185
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/126/0296-01"
+      ]
+    },
+    {
+      "cite": "131 S.W. 2d 73",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10229224,
+        2319548
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "84"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw2d/131/0073-01",
+        "/tex/134/0059-01"
+      ]
+    },
+    {
+      "cite": "134 Texas 59",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2319548
+      ],
+      "weight": 2,
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/134/0059-01"
+      ]
+    },
+    {
+      "cite": "109 S.W. 2d 967",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10273208,
+        2290153,
+        10273067,
+        2290166
+      ],
+      "weight": 2,
+      "year": 1937,
+      "pin_cites": [
+        {
+          "page": "970"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw2d/109/0967-02",
+        "/tex/130/0484-01",
+        "/sw2d/109/0967-01",
+        "/tex/130/0276-01"
+      ]
+    },
+    {
+      "cite": "130 Texas 484",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2290153
+      ],
+      "weight": 2,
+      "year": 1937,
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/130/0484-01"
+      ]
+    },
+    {
+      "cite": "161 S.W. 2d 1035",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10225952,
+        2311421
+      ],
+      "weight": 3,
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw2d/161/1035-01",
+        "/tex/139/0080-01"
+      ]
+    },
+    {
+      "cite": "356 S.W. 2d 131",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10154200,
+        2263582
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw2d/356/0131-01",
+        "/tex/163/0370-01"
+      ]
+    },
+    {
+      "cite": "163 Texas 370",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2263582
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/163/0370-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1376,
+    "char_count": 47156,
+    "ocr_confidence": 0.58,
+    "pagerank": {
+      "raw": 5.9437909556060686e-08,
+      "percentile": 0.37058145088767724
+    },
+    "sha256": "8f3eeed0e5fcc86ae78916d1c0259c8abe9e79571097d9275a4245d8eed7d212",
+    "simhash": "1:0741e064772a1164",
+    "word_count": 8040
+  },
+  "last_updated": "2024-02-27T22:19:56.646811+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Coloma Oil & Gas Corporation, Petitioner v. Railroad Commission of Texas et al, Respondents"
+    ],
+    "opinions": [
+      {
+        "text": "ASSOCIATE JUSTICE STEAKLEY\ndelivered the opinion of the Court.\nThis case reaches us in an exceptional status and under unusual circumstances; in view of its disposition the facts will be noted only briefly.\nRespondent Railroad Commission granted Respondent Appell Petroleum Corporation a permit to drill a first well on the tract in question as an exception to Rule 37. The recited basis for the permit to drill was to prevent waste and confiscation. Petitioner, Coloma Oil & Gas Corporation, was a protestant before the Commission and prosecuted its appeal pursuant to Article 6049c, Sec. 8, Vernon\u2019s Annotated Civil Statutes. The trial court and the Court of Civil Appeals sustained the order of the Commission. 348 S.W. 2d 390.\n1 The Commission defended its order in the trial court and before the Court of Civil Appeals, and defends it here on the proposition that the tract in question was entitled to \u201cits first well as a matter of law\u201d because it is \u201cseparate and non-contiguous\u201d, a voluntary subdivision not being involved. This is apparent in the series of special exceptions filed by the Commission to the pleadings of petitioner, e.g., \u201cDefendant excepts to the balance of paragraph III for the reason that common ownership of the tracts is immaterial and irrelevant since the tract in question is a separate, non-contiguous tract and is entitled to a first well as a matter of law.\u201d Pursuant to its exceptions, the Commission stated the following to the trial court with respect to the offer of evidence by petitioners:\n\u201cYour honor, for the sake of the record, we would like the record to show that so far as this evidence is concerned, we object to it insofar as the Rule 37 permit is concerned. We do not require him to prove it up, but we object to it as being immaterial and irrelevant as to this case.\u201d\nThe following excerpts from the brief of respondents states the same position in this Court:\n\u201cCounsel for Appellees timely objected to any evidence offered by Coloma with respect to alleged common underlying reservoirs, costs of operations, quantities of production, conditions of the underlying strata of oil and gas sands and geology with regard to the leases in question, for the reason that such evidence so offered was irrelevant and immaterial to any issue in the case, since such tract was entitled to its first well as a matter of law.\n* * *\n\u201cUnder its present rules, the Commission is obliged to grant a permit to drill one well (the first well) as an exception to Rule 37 as a matter of law, in the absence of a voluntary subdivision and in order to prevent confiscation * * *. So far as we can determine this rule has not been changed, modified, altered or amended.\n* * *\n\u201cThroughout Appellant\u2019s brief, great stress is placed upon a comparison between the production from the existing Appell well and the existing Coloma well. An attempt is made to draw a comparison between the proposed well, and the existing Appell and Coloma wells. Appellees took the position in the trial court, the Court of Civil Appeals, and take the position here, that such matters are entirely and completely irrelevant and immaterial, since this tract of land in question is unquestionably entitled to its first well as a matter of law and this case in no way involves allocation, but only a well permit.\u201d\nWe add parenthetically that in view of the foregoing it is not unreasonable to conclude that the hearing before the Railroad Commission was upon the same basis, i.e., that Appell was entitled to the permit as a matter of law and no evidence of waste and confiscation was required.\nThe decision of this Court in Railroad Commission v. Murel Williams, 163 Texas 370, 356 S.W. 2d 131, intervened after the decision of the Court of Civil Appeals in the instant case, and, indeed, after the filing of the application for writ of error herein. Thereupon petitioner filed a supplemental brief asserting the controlling effect of Murel Williams, to which respondents did not reply; moreover, counsel for respondent Commission in oral argument before us urged that Murel Williams was incorrectly decided and should be overruled and that the position of the Commission in the trial court and before the Court of Civil Appeals in the case at bar is still correct. At no time have respondents contended before us that the permit in question is sustainable upon any basis except as a matter of law in the fact that the tract in question is separate and non-contiguous and a voluntary subdivision is not involved. The decision in Murel Williams settled this to the contrary and is now final.\nOur problem is the proper disposition of the case at bar in the light of the circumstance that petitioner here, Coloma, offered evidence in the trial court (although over the objection of respondents that \u201cWe do not require him to prove it up\u201d and that the evidence was \u201ccompletely irrelevant and immaterial\u201d), consisting, in brief, of the relative locations and proximity of an existing Appell well on a separate tract, the second well granted Appell by the permit in question, and an existing Coloma well, together with the fact that all three wells would be in a common reservoir of oil and gas bearing sands of substantially uniform thickness and character and with free communication between the wells. Respondents offered no evidence.\nIn view of the circumstance that except for the one tract-one well theory, neither the Commission nor Appell attempted to question Coloma\u2019s evidence tending to show that the second Appell well was not necessary to prevent either waste or confiscation, we are constrained to hold that Coloma has discharged the burden placed upon it by Article 6049c, Section 8, V.A.C.S. In other words, we hold that the uncontradicted evidence in the trial court establishes that the order of the Railroad Commission granting Appell a permit to drill on Lot 9, Block 81, is not supported by substantial evidence.\nWhile the majority of the Court is of the opinion that the evidence offered by Coloma was sufficient to overcome the statutory presumption of validity in a case of this nature, there is a minority who is strongly of the view that Coloma did not meet the minimum standards of proof under the substantial evidence rule, although this point was not raised or argued by the parties. The asserted defect in proof lies principally in the supposed failure to establish that there were not other wells which would drain \u2014 and thus confiscate \u2014 the minerals underlying the Appell tract for which the permit in question was granted.\nIn view of all the circumstances of the case we are hesitant to reverse and render judgment. In Murel Williams this Court (disapproved the so-called one-tract one-well theory, and we adhere to that holding. We feel, however, that the parties should have further opportunity for development of the facts in the light of the principles of law declared in Murel Williams, and that the judgments below should be reversed and the cause remanded for this purpose. Precedent for this logical disposition under the unusual circumstances before us is found in Cook Drilling Co. v. Gulf Oil Corp., 189 Texas 80, 161 S.W. 2d 1035, in which this Court took action, when confronted with a somewhat similar problem, as follows:\n\u201cApparently the parties misunderstood the character of trial contemplated by the provisions of V.A.C.S. Art. 6049c, Sec. 8, wherein interested parties are authorized to test the validity of an order of the Railroad Commission under the oil conservation act. Upon the trial of the case the only material evidence introduced consisted of the file and transcript of the hearing before the Railroad Commission for the permit, and this was introduced for the limited purpose only of showing what evidence the Commission heard at the time it granted the permit. The defendant introduced no evidence whatever. It was upon this record that the trial court entered judgment cancelling the permit.\n***:$$\u2756\n\u201cFrom what has been said it is apparent that the district court did not have before it sufficient evidence to overcome the prima facie presumption of the validity of the order in question. It is also apparent that the case has not been fully developed.\n* * *\n\u201cFor these reasons the judgments of the trial court and of the Court of Civil Appeals are reversed, and the cause is remanded for a new trial.\u201d\nThe judgments of the courts below are accordingly reversed and the cause is remanded to the trial court for further proceedings in accordance herewith.\nOpinion delivered June 6, 1962.",
+        "type": "majority",
+        "author": "ASSOCIATE JUSTICE STEAKLEY"
+      },
+      {
+        "text": "SMITH, JUSTICE,\ndissenting.\nI respectfully dissent. I cannot accept the theory adopted by the majority in the case of Railroad Commission v. C. Murel Williams, 163 Tex. 370, 356 S.W. 2d 131, which completely destroyed the effect of the holdings in many Texas cases, including Halbouty v. Darsey, Foster v. Railroad Commission, and Atlantic Refining Company v. Railroad Commission. Those cases stand for the proposition that the owner of an involuntarily segregated tract is entitled to drill at least one well on his tract, however small the tract may be. We do not have a situation where just a theory has been destroyed, but we have the incongruous situation where it is now, in effect, held by the majority that the Williams case overruled the above cases and many others without even mentioning such cases. The disposition of this case by the majority is far more unusual than the case itself. We find this Court so determined to uphold the fantastic Charles Meyers\u20191 theories lifted out of context and adopted in Williams that it is now willing to go further and hold that Coloma has discharged its burden and established that the order of the Railroad Commission granting Appell a permit to drill on Lot 9, Block 81, is not supported by substantial evidence. In other words, the majority is now saying that the holding in the Williams case demonstrates conclusively that the order of the Railroad Commission granting Appell a permit to drill on Lot 9, Block 81, is not supported by substantial evidence.\nThe Railroad Commission et al, in its application for writ of error in the Williams case, did not rely upon the Law Review Article, C. J. Meyers, \u201cCommon Ownership and Control in Spacing Cases\u201d, 31 Texas L. Rev. 18 at 22, quoted in a footnote by the majority in Williams. The only quotation from Meyers was in connection with the Commission\u2019s argument that after Smith Price entered the Addie Stephens unit, the development rights of H. P. Williams became exactly the same in the 3.3 acres as they were in the 42.5 acres and the two interests merged. The Commission et al. made the further argument that \u201cOnce merged, any attempt to repart them would plainly constitute an illegal subdivision under the spacing rules then in effect.\u201d My concurring opinion was based largely upon the argument advanced by the Attorney General, Will Wilson, and the many attorneys representing the American Petrofina Company of Texas, and the Southern National Gas Company. The argument was this:\n\u201cViewed from the standpoint of Railroad Commission administration, the proposition becomes perfectly clear. When Smith Price joined the Addie Stephens unit the Commission had to grant the unit an allowable based in part upon Smith Price\u2019s interest. If it gave the unit an allowable based upon 3.3 acres and was proper in doing so, then the entire tract was thereby protected from confiscation and could not properly be awarded further exceptions to the spacing rules. If the Commission gave the unit an allowable based upon 1.65 acres, then the interest of H. P. Williams was rendered entirely free and separate from the Smith Price interest and became identical to H. P. Williams\u2019 interest in the 42.5 acres, with which it could have been fairly developed under the Commission\u2019s rules.\n\u201cIf the cotenancy between H. P. Williams and Smith Price represents an ownership entity entitled to development separately from the 42.5 acres, then it has been so developed as a part of the Addie Stephens and Reynolds units and no spacing exceptions are necessary or proper. If H. P. Williams\u2019 development rights in the 3.3 acres are independent of Smith Price\u2019s, then H. P. Williams\u2019 rights are the same in the 3.3 acres and in the 42.5 acres and the two tracts must be developed together under the Commission\u2019s rules. Stated another way, H. P. Williams (and respondent as his successor) is not entitled to further protection against confiscation because his cotenancy interest in the 3.3 acres has been developed by the activities of cotenant Smith Price or, if not, then because his interest, being thereby free and clear of Smith Price, could have been developed along with and on the same basis as the 42.5 acres.\n\u201cIt may be that the case can be soundly decided on either of these grounds, but it ought to be decided on one of them. Accordingly, the judgments of the Court of Civil Appeals and of the district court should be reversed.\u201d\nMy concurring opinion in Williams is in harmony with this view. Williams was not entitled to a permit to drill the reconstructed 3.3 acres in view of the fact that Mrs. Price, by her lease and unitization agreement had, in legal effect, secured a permit from the Railroad Commission to drill one well on the tract. Since the tract was entitled to only one well, and in view of the undisputed facts, Williams failed to discharge his burden of proving that the order of the Railroad Commission was not supported by substantial evidence. For these reasons, I concurred in the result reached by the Court in Williams, but, at the same time, I dissented and disagreed with the reasoning expressed by the Court. My only regret is that I did not at the time fully discuss my reasons for disagreeing with the action of the Court on lifting from the Meyers\u2019 Article one statement, which, when considered in context, was entirely foreign to the factual situation in Williams. Nevertheless, such was made all controlling in the disposition of the question before the Court in the Williams case. Under the circumstances, I have ample precedent to support my contention that it is my duty and it is the Court\u2019s duty to review the principles of law announced by the majority in any given case, when the question later arises in other litigation. Federal Royalty Co. v. State, 128 Texas 324, 98 S.W. 2d 993.\nI sincerely hope that the time will never come when a member of this Court will be deprived by the majority vote of his associates of his right of free and constructive expression and criticism of former opinions of this Court. My dissent in this case is entirely impersonal and my only desire is to get the Meyers statement upon which the majority relies in its proper setting. One might ask, why so much discussion about Williams in this Coloma case. My answer is simply this: When the false premise in Williams is eliminated, this Coloma opinion will have no support in law. On November 6, 1961, after the opinion in Williams was rendered, Coloma filed a supplemental brief in which it was stated that the respondents (Railroad Commission et al) were relying upon the holding in Halbouty v. Darsey, and a similar holding in other cases, but that \u201cThe holding of this Court in Railroad Commission v. Murel Williams should settle any doubt concerning this question. * * * In answer to this contention, Justice Greenhill, speaking for the Court said: * * ipjjg to a well on a tract of land, however, is not a vested right in the land itself, but is a right of the owners of the land. Railroad Commission v. Magnolia Petroleum Co., 130 Texas 484,109 S.W. 2d 967 (1937) * * *.\u2019 \u201d This quotation leaves out the Footnote Three contained in the opinion immediately following the Magnolia case citation. The Williams opinion leaves the impression that the Magnolia case is authority for Meyers\u2019 conclusion that \u201cThe error springs from the assumption that every tract has a vested right to one well, and that transfers in ownership of the tract cannot destroy that vested right. The mistake in this reasoning is, of course, that it is not the tract, as a parcel of land, that is entitled to a well, it is the owner who has the right. * * *\u201d I cannot find where Magnolia cites or mentions this Meyers\u2019 theory, nor do I find where Meyers cites Magnolia in support of this particular conclusion. However, I do find that Meyers cites Magnolia in support of his declaration that one of the basic rules governing the granting of exceptions is: \u201c(3) where, however, a tract has been voluntarily subdivided, so that none of the subdivision thus created is entitled to a well as a matter of right, the tract may be reconstructed as it existed before the subdivision and granted an exception.\u201d This fits perfectly with my theory in the Williams case. The reconstructed 3.3 acres was entitled to only one well, and since a permit had previously been granted on application for a permit which included this tract, the Railroad Commission properly denied the Williams\u2019 application. Meyers says: \u201cApparently under this (Rule 3), the Rule of the Century Case, the Commission has discretion to locate the well as it sees fit.\u201d We applied this portion of the rule in the case of Ryan Consolidated Petroleum Corp. v. Pickens, 155 Texas 221, 285 S.W. 2d 201 (1955), and held that Ryan Consolidated was charged with notice that the \u201c* * * Holmes Heirs had executed a lease on Lots 10 and 11 to Smith and Morrison (Assigned to Pickens & Coffield) providing for the exclusive right to drill a well thereon and containing a general warranty of title, and further that if the Railroad Commission found that the one well, to which the four lots were entitled to prevent confiscation, should he drilled on Lots 10 and 11, no well could he drilled on Lot 12 or on Lot IS, except to prevent waste.\u201d (Emphasis added.)\nThe Court of Civil Appeals in the Williams case refused to follow the rule announced in Ryan v. Pickens, supra, and overturned the Railroad Commission\u2019s order without requiring Williams to show that the Commission acted in an unreasonable, arbitrary and capricious manner. The Court of Civil Appeals refused to follow the Ryan v. Pickens case, stating:\n\u201cA harsher, more inequitable result could not be envisioned. We are so distressed by the inequity of Ryan v. Pickens that we have concluded that we should not apply it except under identical facts.\u201d\nThus, the Court of Civil Appeals, in effect, overruled Ryan v. Pickens by this Court, and a majority of the members of this Court in the Williams case sidestepped the issue by stating that \u201cWe do not here reach the problem raised in the Ryan case, and that opinion has no application to the decision which we have reached.\u201d\nBy not applying the holding that the Railroad Commission has discretionary authority to locate the well anywhere on a reconstructed tract, the Court of Civil Appeals and this Court have deprived the Commission of the power to perform its duties, especially its conservation efforts in seeking to properly locate the drilling of gas wells in Century doctrine situations.\nThe majority opinion in Williams is unsound when it is realized that when Meyers said that the error springs from the assumption that every tract has a vested right to one well, and that transfers in ownership of the tract cannot destroy the vested right, he was not speaking of a situation such as we have in the Coloma case, or had in the Williams case. Before making the statement properly attributed to him by Justice Greenhill in Footnote Three, Meyers had stated that several basic principles must be kept in mind. The principle immediately appearing before the quoted language, supra, was as follows:\n\u201cSecond, the purpose of allowing exceptions to tracts smaller than twenty acres is to give the landowner a reasonable opportunity to recover the oil in place. Thus, whenever the smaller tract could have been developed as part of a larger tract, the exception should be denied. The meaning of the common ownership and control doctrine, then, is this: if the tract for which an exception is sought could have been developed as a part of a larger tract, it was under common ownership and control and is not entitled to an exception. Thus, a segregation of such a tract is a voluntary subdivision.\n\u201cSeveral hypothetical cases are useful in developing the application of the doctrine.\n\u201cAssume that oil has not been discovered in the area. A is the owner of a ten-acre tract of land. He acquires an adjoining ten-acre tract. Oil is then discovered and Rule 37 attaches. It is uniformly held that A is not entitled to an exception for the ten-acre tract which he acquired. While the former owner of the ten-acre tract was entitled to an exception (assuming ten acres were his total holdings), A is not, because when the rule attached, A owned twenty acres. The source of his title is immaterial. At the time Rule 37 became applicable, A\u2019s twenty acres could be developed as a single unit, with one well; hence any attempt to develop the two tracts separately, such as leasing ten acres to one operator and ten to another, constitutes a voluntary subdivision.\n\u201cAlthough the cases uniformly support this proposition, there have been occasional instances of judicial language suggesting the contrary. * * *\u201d\nThus, it is seen that Appell is now being deprived of his right to a well permit on a theory that has no application whatever. The Murel Williams case could not have by any stretch of the imagination overruled the case of Halbouty v. Darsey, Texas Civ. App., 326 S.W. 2d 528 (1959), wr. ref. n.r.e., wherein it was held:\n\u201cAdmittedly the .48 acre tract is not an unlawful subdivision * * * the tract is not of such size and shape to meet the acreage and distance requirements of the spacing rule applicable to the field, however, admittedly it meets the requirements for an exception under Statewide Rule 37A. As such it is entitled to a well. Kraker v. Railroad Commission, Texas Civ. App., 188 S.W. 2d 912, er. ref. w.o.m.; Dailey v. Railroad Commission, Texas Civ. App., 133 S.W. 2d 1069, 99 A.L.R. 1939. Where Rule 37 and its exceptions were considered and also the rules of ownership, convenience and vested rights. Citation of additional authorities on this well settled question is not deemed necessary.\u201d (Emphasis added.)\nFor additional authorities, I call attention to: Nash v. Shell Petroleum Corp., Texas Civ. App., 120 S.W. 2d 522, wr. dism.; Railroad Commission v. Humble Oil & Ref. Co., 151 Texas 51, 245 S.W. 2d 488; Wencker v. Railroad Commission, Texas Civ. App., 149 S.W. 2d 1009; Railroad Commission v. Wencker, 140 Texas 527, 168 S.W. 2d 625; Ryan Consolidated Petroleum Corporation v. Pickens, et al., supra.\nThe majority in the present case has, without first finding error, reversed and remanded the cause to the trial court for further proceedings in accordance with its opinion. If this decision becomes final, then I say Appell will be standing before the trial court in the same position as though there had been an unlawful subdivision of his tract. Not only that, the trial court will be called upon to pass upon questions that were not passed on by the Railroad Commission. The Railroad Commission is given the power under the statute to determine primarily all fact issues, that is, all issues that are not established as a matter of law. Railroad Commission v. Wencker, supra. The trial court will be considering irrelevant and immaterial evidence if and when it considers the volumes of evidence going to show a comparison between the proposed Appell well, and the existing Appell and Coloma wells. The evidence discussed in the majority opinion and referred to in the dissenting opinion by Chief Justice Calvert was introduced in evidence in the trial court, but special exceptions were filed and timely objection thereto was made by the Railroad Commission. The special exceptions were not ruled upon but were carried along with the case. The Commission and Appell objected to the introduction of any evidence offered by Coloma with respect to alleged common underlying reservoirs, costs of operations, quantities of production, condition of the underlying strata of oil and gas sands and geology with regard to the leases in question, for the reason that such evidence so offered was irrelevant and immaterial to any issue in the case, since such tract was entitled to its first well as a matter of law. Since it is undisputed that there is no question of a voluntary subdivision in this case, the Commission properly granted the permit and the action of the District Court and Court of Civil Appeals in sustaining the order of the Commission granting the permit was correct.\nColoma should not be sustained in its contention that since Appell has one producing well, then he is not entitled to a second well even though the second well would be located on a separate noncontiguous tract, some 402 feet from the present producing well. The law, as heretofore stated, provides that each tract, regardless of shape, size, or location is entitled to its first well as a matter of law. See Railroad Commission of Texas, et al v. Humble Oil and Refining Company, 151 Texas 51, 245 S.W. 2d 488. The holding of the majority amounts to a confiscation of Appell\u2019s property and destroys his investment in the tract of land involved and the value thereof without a proper judicial determination of the issue of confiscation, all of which amounts to a denial to Appell of his rights under the Fourteenth Amendment to the United States Constitution.\nThe judgment of the Court of Civil Appeals should be affirmed.\nOpinion delivered June 6, 1962.\n* * Thus, whenever the smaller tract could have been developed as part of a larger tract, the exception should be denied. The meaning of the common ownership and control doctrine, then, is this: if the tract for which an exception is sought could have been developed as a part of a larger tract, it was under common ownership and control and is not entitled to an exception.\u201d\n\u201c* * * The error springs from the assumption that every tract has a vested right to one well, and that transfers in ownership of the tract cannot destroy that vested right. The mistake in this reasoning is, of course, that it is not the tract, as a parcel of land, that is entitled to a well; it is the owner who has the right. * * *\u201d",
+        "type": "dissent",
+        "author": "SMITH, JUSTICE,"
+      },
+      {
+        "text": "CHIEF JUSTICE CALVERT,\ndissenting.\nI dissent.\nI agree that the validity of the Commission\u2019s order granting the Appell permit may not be upheld on the ground that the tract on which it was granted is entitled to separate development as a matter of law. Our decision in Railroad Commission v. C. Murel Williams, 163 Texas 370, 356 S.W. 2d 131, destroys that theory for the granting of drilling permits as exceptions to Rule 37.\nThe real issue remaining in the case is this: Does the evidence introduced in the trial court discharge Coloma\u2019s burden of proving that the order of the Railroad Commission granting the permit is not supported by substantial evidence? The burden included in the issue is imposed on Coloma by Art. 6049c, Sec. 8, V.A.T.S.C., which expressly provides that the order of the Commission \u201cshall be deemed prima facie valid\u201d and that on appeal to the district court \u201cthe burden of proof shall be upon the party complaining\u201d of the order. See also Railroad Commission v. Magnolia Pet. Co., 130 Texas 484, 109 S.W. 2d 967; Gulf Land Co. v. Atlantic Refining Co., 134 Texas 59, 131 S.W. 2d 73; Brown v. Humble Oil. & Refining Co., 126 Texas 296, 83 S.W. 2d 935, 87 S.W. 2d 1069; Cook Drilling Co. v. Gulf Oil Corp., 139 Texas 80, 161 S.W. 2d 1035; Thomas v. Stanolind Oil & Gas Co., 145 Texas 270, 198 S.W. 2d 420. That the issue is to be tried under the substantial evidence rule is settled by Trapp v. Shell Oil Co., 145 Texas 323, 198 S.W. 2d 424. And that the burden imposed in substantial evidence rule cases is one of proving that the order is not supported is also settled by our decisions. Board of Firemen\u2019s Relief, etc. v. Marks, 150 Texas 433, 242 S.W. 2d 181, 183, 27 A.L.R. 2d 965; White v. Bolner, Texas Civ. App., 223 S.W. 2d 686, 689, writ refused; Collins v. Board of Firemen, etc., Texas Civ. App., 319 S.W. 2d 174, writ refused.\nThe majority do not quarrel with those rules. Apparently they recognize them as well established and sound. But in their application the majority desert all precedent in ordering a reversal of the judgments of the courts below.\nMost of the majority opinion is concerned with the erroneous theory on which the Commission defended the case in the trial court and has sought to sustain the trial court\u2019s judgment on appeal. No doubt recognizing, however, that defense of the suit on an unsound theory is no more a ground for reversing an errorless judgment than is action of the Commission in granting the permit for a wrong reason, Railroad Commission v. Magnolia Petroleum Co., 130 Texas 484, 109 S.W. 2d 967, 970; Gulf Land Co. v. Atlantic Refining Co., 134 Texas 59, 131 S.W. 2d 73, 84, or the giving of a wrong reason by the Court of Civil Appeals for sustaining the order, Gulf Land Co. v. Atlantic Refining Co., supra; 4 Texas Jur. 2d 248, Appeal and Error, Sec. 750, the majority, without examination of any of the myriad of Rule 37 cases heretofore decided, simply announce the conclusion \u201cthat the uncontradicted evidence\u201d in the record establishes that the Commission\u2019s order is not supported by substantial evidence. I shall deal only with that conclusion as it relates to the issue of confiscation.\nWhile, as indicated, much attention is given by the majority to the fact that the Commission has defended the case on a wrong theory, none is given to the fact that Coloma has prosecuted it on a right theory. Coloma\u2019s petition in the trial court sought to set aside the Commission\u2019s order on the ground that the permit was not necessary to prevent either waste or confiscation and therefore the order granting it was illegal and arbitrary. It is a standard petition for trying the validity of the Commission\u2019s orders under the substantial evidence rule. Coloma\u2019s offer of evidence was on a substantial evidence theory. When the trial court sustained the validity of the order, Coloma presented but one point of error in the Court of Civil Appeals, and that was that the evidence showed that the Commission\u2019s order was not reasonably supported by substantial evidence of either waste or confiscation. A similar point of error is contained in the application for writ of error. In other words, Coloma has correctly recognized throughout the course of the litigation that it was not entitled to a favorable judgment unless it established by proof that the Commission\u2019s order was not supported by substantial evidence. The fact that the Commission had a different theory of the issue to be tried and has consistently stood by that theory has no bearing on the true issue and should not be held to supply proof which was essential to Coloma\u2019s case.\nConsidering the majority\u2019s approach to the real problem before us, one wonders if the desire to reverse, based on an individual concept of abstract justice, is not father to their conclusion. If so, it is not amiss to recall at this point the philosophy expressed by Oran M. Boberts, a great former Justice of this Court, when, in writing on rehearing in Duncan v. Magette, 25 Texas 245, with both parties \u201cstrongly demanding the claims of justice in its behalf, abstractly considered,\u201d he took occasion to present his views \u201cupon the foundation and force of this appeal to the sense of justice of the court, whether used as an influencing consideration, in interpreting and enforcing the rules of law, or directly urged as a basis of judicial action.\u201d After defining \u201cJustice\u201d and \u201cLaw\u201d and allocating to each its proper place in the decision of legal controversies, Justice Boberts continued :\n\u201cThe act of moulding justice into a system of rules detracts from its capacity of abstract adaptation in each particular case; and the rules of law, when applied to each case, are most usually but an approximation to justice. Still, mankind have generally thought it better to have their rights determined by such a system of rules, than by the sense of abstract justice, as determined by any one man, or set of men, whose duty it may have been to adjudge them.\n\u201cWhoever undertakes to determine a case solely by his own notions of its abstract justice, breaks down the barriers by which rules of justice are erected into a system, and thereby annihilates law.\u201d\n\u201cTo follow the dictates of justice, when in harmony with the law, must be a pleasure; but to follow the rules of law, in their true spirit, to whatever consequences they may lead, is a duty. This applies as well to rules establishing remedies, as to those establishing rights. * * *\u201d\nIf that philosophy be not sound, we had as well amend the rules of procedure which govern our conduct as a court to authorize those of us who happen at the moment to compose it to affirm or reverse judgments on the basis of our personal reactions to their abstract justice.\nThere was, of course, no burden on the Commission in the trial court to introduce \u201ccontradicting\u201d evidence. The question before us is strictly a question of law. Thomas v. Stanolind Oil & Gas Co., 145 Texas 270, 198 S.W. 2d 420; Board of Firemen\u2019s Relief, etc. v. Marks, 150 Texas 433, 242 S.W. 2d 181. It is our duty, as it was the duty of the trial court, to decide the question on the evidence which was introduced, whether by one or by both parties, and not on whether evidence introduced by one was contradicted by evidence introduced by the other. If the evidence introduced overcomes the statutory presumption, the judgments of the courts below should be reversed. If it does not, the judgments should be affirmed. This should require, at the very least, an analysis of the evidence and of decided cases for the purpose of discovering what has been required of other litigants in Coloma\u2019s situation. Neither is to be found in the majority opinion.\nThe majority\u2019s holding is that the uncontradicted evidence in the trial court establishes that the order of the Commission is not supported by substantial evidence. In so far as that evidence is reflected in the majority opinion it is this: \u201c* * * the relative locations and proximity of an existing Appell well on a separate tract, the second well granted Appell by the permit in question, and an existing Coloma well, together with the fact that all three wells would be in a common reservoir of oil and gas bearing sands of substantially uniform thickness and character and with free communication between the wells.\u201d Considered as a guide to courts and future litigants the majority opinion on its face thus lays down a rule (and courts and litigants have no other place to look) that evidence that a drilling permit is granted as an exception to a field-wide spacing rule; that the permit is granted to one who has an existing well on a separate tract; that another operator who protests the permit has an existing well; that all three wells are in a common reservoir with producing sands of substantially uniform thickness and character, and that there is free communication between the sands, overcomes the statutory presumption that the permit is necessary to prevent confiscation.- It is difficult to believe that the majority can seriously intend what they say. The holding gives no weight to the order of the Commission charged primarily with proper administration of the law, all but nullifies the presumption of validity expressly created by statute, and puts all of the burden of developing material evidence in the trial court on the issue of confiscation on the holder of the permit.\nThe very nature of the burden imposed by the statute should require, as a minimum, that a protestant-appellant of a Rule 37 permit introduce readily available evidence negativing the existence of facts and circumstances which reasonably could form the basis for the order. In a free communication reservoir confiscation occurs through drainage. Although an operator may have a well on another tract in the reservoir, whether the oil and gas underlying the separate tract on which a Rule 37 permit is sought will be drained by other operators will ordinarily turn on the density and location of wells in the surrounding area. The granting of the permit by the Commission raises the statutory presumption that the well is needed to prevent drainage and thus confiscation of the oil and gas underlying the tract. The inference from the Commission\u2019s action is that other wells in the surrounding area are so located that they will drain the oil and gas underlying the tract. If the presumption and the inference are false, their falsity is easy to establish by readily available evidence of the number and location of other wells in the surrounding area and the direction of drainage. Coloma offered no such proof in this case.\nThe flimsy character of the evidence on which the Commission\u2019s order is being invalidated is brought into sharp focus by looking at the attached plat introduced in evidence by Coloma:\nThe only lot in Block 81 owned by Emma Huddleston and others, on which Appell has a lease, is Lot 9. All of the other lots in the block are owned, by James E. Jacks. Whether any of these lots are drilled and producing, or whether permits have been granted therefor, we do not know because the evidence does not show. All of the lots in Block 80, separated from Lot 9, Block 81 by a 60-foot street, are owned by others. Whether they, or any of them, are drilled and producing, or whether permits have been granted therefor, we do not know because the evidence does not show. There is no evidence with respect to drilling and producing activities on the north 8 lots in Block 92. Evidence of drilling and producing activities on these thirty-nine lots is of vital and controlling importance on the issue of\nwhether the minerals under Lot 9, Block 81, will be confiscated if the permit for drilling that lot is invalidated. A great majority of the lots are much closer to the proposed drilling site on Lot 9, Block 81 than is the existing Appell well. Coloma\u2019s producing well is also much closer to Lot 9, Block 81 than is the existing Appell well. As a matter of fact, we have no way of knowing, except by purest surmise, that Lot 9, Block 81 is not completely surrounded by producing wells.\nI have commented on the fact that the majority have cited no Rule 37 case to support the conclusion reached in this case. The case was submitted on oral argument and written briefs on November 22, 1961. If there are any decided cases supporting the majority theory of resolving the issue of confiscation I assume they would have been found in the briefs on file or by independent research by now. None is to be found in Coloma\u2019s briefs or in a brief filed by amicus curiae. The only cases cited in the majority opinion are Murel Williams and Cook Drilling Co. v. Gulf Oil Corp., 139 Texas 80, 161 S.W. 2d 1035. Neither is cited in support of the majority\u2019s conclusion that Coloma discharged its burden of proving that the Commission\u2019s order is not supported by substantial evidence and they do not support it.\nIn Cook the Commission granted a Rule 37 permit. The trial court set the order aside even though the contestant introduced no evidence in court on the issues of waste and confiscation. The judgment was obviously erroneous and had to be reversed. The party having the statutory burden had not discharged it. The fact that the case had been tried on a wrong theory was used not as a basis for reversing but strictly as a basis for remanding the cause for retrial.\nMurel Williams was the exact opposite of this case. In that case the Commission denied the permit and the applicant had the burden in the trial court of proving confiscation. In our opinion in the case we pointed out substantial evidence in the record supporting the Commission\u2019s action, not as indicating that the burden rested on the Commission to offer proof in support of its order but for the purpose of showing that Williams had not discharged his burden of proving that the order was not supported by substantial evidence. But the test of confiscation announced in Murel Williams is pertinent here. We said the test was whether the permitee \"has been accorded a fair and equal opportunity with other producers of surrounding tracts within the drainage area to recover his fair share of the oil in place beneath his tract\u201d. The Commission having granted the permit in this case, the law presumes that Appell must have the permit to have equal opportunity with other producers of surrounding tracts to recover the oil and gas beneath its tract. There is no proof in the record which overcomes that presumption. The only other cases which have ever been suggested by independent research as supporting the majority\u2019s holding on the issue of confiscation are Railroad Commission v. Shell Oil Company (The Trem Carr case), 139 Texas 66, 161 S.W. 2d 1022, Stanolind Oil & Gas Co. v. Midas Oil Co., Texas Civ. App., 123 S.W. 2d 911, writ dismissed, and Gulf Oil Company v. Smith, Texas Civ. App., 145 S.W. 2d 280, writ refused, cited in Murel Williams. Analysis discloses that none of them support the majority conclusion in so far as the issue of confiscation is concerned.\nIn Gulf Oil Corp. v. Smith, the Commission granted a Rule 37 permit to Smith. The Court of Civil Appeals invalidated the order. On the issue of confiscation the court observed that the uncontroverted testimony showed that Smith had already extracted a greater proportion of his estimated reserves than owners of adjoining tracts had extracted of theirs, and gave particular weight to proof of density of wells in the area. With respect to this factor the court said:\n\u201c* * The uncontroverted proof in the instant case shows * * * that Smith\u2019s density with four wells was greater than that of any of the surrounding tracts, and greater than the eight times surrounding area whether delineated by a square, rectangle, or circle; * *\nEmphasis was thus placed on well density and estimated reserves in the area.\nIn Stanolind Oil & Gas Co. v. Midas Oil Co., Rule 37 permits granted to Midas were invalidated. It is of particular interest that in that case the Court of Civil Appeals recognized a difference in the type of proof which was held to negative waste and that which was held to negative confiscation. With respect to the issue of waste, the court said (123 S.W. 2d 916) :\n\u201c* * * And when the contestant made proof that no underground conditions obtained in this area which would differentiate the tract in question from the surrounding area; in brief, that no conditions existed which would afford a factual basis for an exception to the general rule to prevent waste, we think appellant rebutted the presumption in favor of the validity (of the) order; and, absent any other evidence to the contrary, made prima facie proof, under the rule itself, and our repeated interpretations of it, that the drilling and operation of such well would tend to cause, rather than to prevent, waste.\u201d\nBut the court did not use those reasons for holding that the presumption of confiscation had been rebutted. Instead, it commented that the presumption of confiscation had been rebutted by evidence that \u201cshowed a tract of 2.76 acres with 2 wells thereon, not including the well here involved, a per acre density much greater than surrounding tracts; that under the circumstances the wells already thereon afforded opportunity to recover an amount of oil equal, if not in fact much greater, than the quantity of oil originally in place beneath such tract.\u201d\nIn Railroad Commission v. Shell Oil Co. (The Trem Carr case), 139 Texas 66, 161 S.W. 2d 1022, it is stated in the very beginning of the opinion that the issue of confiscation had already been decided and that the sole issue in the case is that of waste. It is of more than passing interest that confiscation as a basis for the permit in the Trem Carr case was denied on well density in the drainage area and that two other Rule 37 permits granted to the same applicants to prevent confiscation were upheld on well density in the drainage area. Richey v. Shell Pet. Corp., Texas Civ. App., 128 S.W. 2d 898, writ dismissed, correct judgment.\nIt will be seen from the only cases suggested as bearing on the issue that proof on the issue of confiscation which,was held to rebut and overcome the presumption of validity of the permits was well density in the area and consequent recovery of, or opportunity to recover, one\u2019s own reserves. So far as I can discover, no Rule 37 permit, granted to prevent confiscation, has ever been invalidated on the type of evidence introduced in this case. Proof of proximity of the tract to Appell\u2019s other well and that there is free communication of minerals in the underlying sands is proof of nothing except that the factual situation was such as to call into play the Commission\u2019s power to grant or deny the permit as an exception to the spacing rule to prevent drainage or confiscation by other operators of wells on surrounding tracts. Proof of proximity and of free communication, and no more, is yet used by the majority in this case as evidence that the Commission was wrong in its determination. That is indeed a strange holding!\nThe simple fact is that Coloma misjudged the character of proof required to meet minimum standards for rebutting and overcoming the statutory presumption in a confiscation case. We should not now lower those standards or emasculate rules heretofore regarded as sound when applied to other litigants in order to afford Coloma relief from its own failure. We are confronted constantly with cases in which we know that abstract justice would require reversal of the judgment to permit a litigant to retry his case and offer additional evidence, but we have- steadfastly adhered to the rule heretofore that an errorless judgment will not be reversed for that purpose. Sometimes adherence to the rule saddens us. Application of the rule has often resulted in far greater injustice than would result in this case from permitting Appell\u2019s permit to stand. Its application here should not be avoided through a figmented conclusion of error where none exists.\nI would affirm the judgments of the courts below.\nASSOCIATE JUSTICES GRIFFIN and WALKER join in the dissent.\nOpinion delivered June 6, 1962.\nOur action in Cook Drilling Co. vs. Gulf Oil Corp., 139 Tex. 80, 161 S.W. 2d 1035, cited by the majority, is strictly in accord with the rule that reversal of an errorless judgment may not be ordered.",
+        "type": "dissent",
+        "author": "CHIEF JUSTICE CALVERT,"
+      }
+    ],
+    "attorneys": [
+      "Wood & Boykin, Corpus Christi, for petitioner.",
+      "Will Wilson, Atty. Gen., Houghton Brownlee, Jr., Linward Shivers and B. H. Timmins, Jr., Assistant Attorneys General, Perkins, Floyd, Davis & Oden, Alice for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "Coloma Oil & Gas Corporation, Petitioner v. Railroad Commission of Texas et al, Respondents\nNo. A-8625.\nDecided June 6, 1962\n358 S.W. 2d 566\nCHIEF JUSTICE CALVERT and ASSOCIATE JUSTICES SMITH, GRIFFIN and WALKER dissenting.\nWood & Boykin, Corpus Christi, for petitioner.\nWill Wilson, Atty. Gen., Houghton Brownlee, Jr., Linward Shivers and B. H. Timmins, Jr., Assistant Attorneys General, Perkins, Floyd, Davis & Oden, Alice for respondents."
+  },
+  "file_name": "0483-01",
+  "first_page_order": 511,
+  "last_page_order": 532
+}

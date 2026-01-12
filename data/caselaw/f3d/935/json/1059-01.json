@@ -1,0 +1,255 @@
+{
+  "id": 12522473,
+  "name": "UNITED STATES of America, Plaintiff - Appellee, v. Andre Ralph HAYMOND, Defendant - Appellant.",
+  "name_abbreviation": "United States v. Haymond",
+  "decision_date": "2019-08-23",
+  "docket_number": "No. 16-5156",
+  "first_page": "1059",
+  "last_page": "1064",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "935 F.3d 1059"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "10th Cir.",
+    "id": 8771,
+    "name": "United States Court of Appeals for the Tenth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "570 U.S. 99",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12699057
+      ],
+      "weight": 3,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "115"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/570/0099-01"
+      ]
+    },
+    {
+      "cite": "202 L.Ed.2d 309",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12622656,
+        12622657,
+        12622662,
+        12622792,
+        12622927,
+        12622801
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/0397-01",
+        "/s-ct/139/0397-02",
+        "/s-ct/139/0398-01",
+        "/s-ct/139/0426-06",
+        "/s-ct/139/0446-06",
+        "/s-ct/139/0428-03"
+      ]
+    },
+    {
+      "cite": "139 S. Ct. 398",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12622662,
+        12622663,
+        12622664,
+        12622665,
+        12622666
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/0398-01",
+        "/s-ct/139/0398-02",
+        "/s-ct/139/0398-03",
+        "/s-ct/139/0398-04",
+        "/s-ct/139/0398-05"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3559",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(3)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "672 F.3d 948",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3735979
+      ],
+      "weight": 2,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "950"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/672/0948-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 2252",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)(4)(B) and (b)(2)"
+        },
+        {
+          "page": "(b)(2)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "869 F.3d 1153",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12267066
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1156"
+        },
+        {
+          "page": "1157-67"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/869/1153-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3583",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 10,
+      "pin_cites": [
+        {
+          "page": "(k)"
+        },
+        {
+          "page": "(e)(3)"
+        },
+        {
+          "page": "(e)",
+          "parenthetical": "statute governing most revocation of supervised release proceedings, including options available to the sentencing court"
+        },
+        {
+          "page": "(k)"
+        },
+        {
+          "page": "(k)"
+        },
+        {
+          "page": "(k)"
+        },
+        {
+          "page": "1162"
+        },
+        {
+          "page": "1168"
+        },
+        {
+          "page": "(k)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "139 S. Ct. 2369",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12620739
+      ],
+      "weight": 5,
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "2385",
+          "parenthetical": "plurality opinion"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/2369-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 642,
+    "char_count": 14756,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25953424311610446
+    },
+    "sha256": "03744e150e595d74bac3addd86e9c29a412941ac64f1f0511bd9db8c25f197e6",
+    "simhash": "1:1b7e5f32aa373493",
+    "word_count": 2339
+  },
+  "last_updated": "2024-02-27T18:47:13.464613+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before BRISCOE, KELLY, and McHUGH, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff - Appellee,\nv.\nAndre Ralph HAYMOND, Defendant - Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "BRISCOE, Circuit Judge.\nThis matter is before us upon remand from the Supreme Court. See United States v. Haymond (Haymond III ), --- U.S. ----, 139 S. Ct. 2369, 204 L.Ed.2d 897 (2019).\nThis court had previously held 18 U.S.C. \u00a7 3583(k) unconstitutional, vacated Haymond's sentence, and remanded for resentencing. United States v. Haymond (Haymond II ), 869 F.3d 1153, 1156 (10th Cir. 2017). Following the issuance of our mandate, the district court resentenced Haymond under 18 U.S.C. \u00a7 3583(e)(3) to time served on February 14, 2018. After granting certiorari, the Supreme Court agreed that \u00a7 3583(k) is unconstitutional, but \"decline[d] to tangle with the parties' competing remedial arguments.\" Haymond III , 139 S. Ct. at 2385 (plurality opinion). Instead, it remanded to give this court \"the opportunity to address the government's remedial argument in the first instance, including any question concerning whether that argument was adequately preserved in this case.\" Id.\nAfter the case was remanded, we directed the parties to file supplemental briefing to address issue preservation and what, if any, remedial options remain. After receiving our supplemental briefing order, the government filed a motion to dismiss this appeal. The parties have also filed their supplemental briefs. We recount the background of this case and the Supreme Court's opinion before addressing the government's motion to dismiss.\nI\nOn January 21, 2010, Andrew Ralph Haymond was convicted by a jury of one count of possession and attempted possession of child pornography in violation of 18 U.S.C. \u00a7 2252(a)(4)(B) and (b)(2). See United States v. Haymond (Haymond I ), 672 F.3d 948, 950 (10th Cir. 2012). Under 18 U.S.C. \u00a7 2252(b)(2), he faced a statutory term of imprisonment between zero and ten years, making his crime of conviction a Class C felony. See 18 U.S.C. \u00a7 3559(a)(3). Ultimately, the district court sentenced Haymond to a thirty-eight-month term of imprisonment and a ten-year term of supervised release. Haymond's conditions of supervised release contained special sex offender and computer restrictions. We affirmed his conviction on direct appeal, see generally Haymond I , 672 F.3d 948, and Haymond began serving his term of supervised release on April 24, 2013.\nOn October 22, 2015, at 6:00 a.m., probation officers conducted a surprise search of Haymond's apartment. The officers seized a password-protected Samsung cellular Android phone belonging to Haymond, a personal computer belonging to Haymond, a personal computer belonging to Haymond's roommate, and two other computers found in the kitchen area. A probation officer conducted a forensic examination of Haymond's phone using a Cellebrite device. A Cellebrite device extracts the flash memory of a phone for examination. This examination revealed web history for only October 21, 2015, suggesting that prior web history had been deleted. Still, the web history for October 21, 2015, contained numerous websites with titles indicative of sexually explicit material. The forensic examination of Haymond's phone also revealed fifty-nine images that the FBI's Internet Crime Task Force identified as child pornography.\nBased on these findings, Haymond's probation officer alleged that Haymond had committed five violations of his supervised release: (1) possession of fifty-nine images of child pornography, in violation of the mandatory condition that Haymond not commit another federal, state, or local crime; (2) failure to disclose to the probation office all internet devices he possessed, in violation of a special computer restriction; (3) possession of numerous sexually explicit images on his phone, in violation of a special condition that he not view or possess pornography; (4) failure to install and pay for computer monitoring software, in violation of a special monitoring condition; and (5) failure to attend sex offender treatment on fifteen occasions, in violation of a special condition that he participate in treatment.\nThe district court found that Haymond had committed all five violations by a preponderance of the evidence. Ordinarily, a district court has discretion to determine what action it will take after a defendant violates the terms of supervised release. See 18 U.S.C. \u00a7 3583(e) (statute governing most revocation of supervised release proceedings, including options available to the sentencing court). If the district court had revoked Haymond's term of supervised release and sentenced him to a term of imprisonment under \u00a7 3583(e)(3), the maximum authorized term of imprisonment would have been two years because his original crime of conviction was a Class C felony. See id. \u00a7 3583(e)(3). However, under 18 U.S.C. \u00a7 3583(k), Haymond's violation of his conditions of supervised release triggered a mandatory revocation of his supervised release and a mandatory sentence to an additional term of imprisonment of at least five years and, at most, life. The district court sentenced Haymond to a new five-year term of imprisonment followed by a new five-year term of supervised release.\nHaymond appealed the revocation of his supervised release and five-year mandatory minimum sentence on two grounds. First, he argued that the presence of images in his phone cache was insufficient to show by a preponderance of the evidence that he knowingly possessed child pornography. Second, he asserted that 18 U.S.C. \u00a7 3583(k) is unconstitutional because it deprived him of due process and jury trial protections. In response, the government argued that there was sufficient evidence for the district court to conclude by a preponderance of the evidence that Haymond violated the terms of his supervised release. The government also asserted that the district court could, consistent with the Fifth and Sixth Amendments, sentence Haymond to a mandatory five-year term of imprisonment pursuant to \u00a7 3583(k) after making findings of fact by a preponderance of the evidence. See Gov't Resp. Br. at 28 (explaining that procedural safeguards for revocation of supervised release proceedings \"do not require the complete rules of evidence, judges, or the assistance of retained or appointed counsel, let alone a jury or a beyond-a-reasonable-doubt burden of proof\").\nOn appeal, we concluded that the evidence sufficiently established that Haymond knowingly possessed child pornography in violation of the terms of his supervised release, but that the statutory mandatory minimum term of imprisonment imposed by \u00a7 3583(k) upon revocation violated due process and the right to a jury trial and was therefore unconstitutional. See Haymond II , 869 F.3d at 1157-67, vacated , Haymond III , 139 S. Ct. 2369. Specifically, we concluded that\n18 U.S.C. \u00a7 3583(k) violates the Fifth and Sixth Amendments because (1) it strips the sentencing judge of discretion to impose punishment within the statutorily prescribed range, and (2) it imposes heightened punishment on sex offenders expressly based, not on their original crimes of conviction, but on new conduct for which they have not been convicted by a jury beyond a reasonable doubt and for which they may be separately charged, convicted, and punished.\nId. at 1162. We therefore vacated Haymond's sentence and remanded the case for the district court to resentence Haymond \"under \u00a7 3583(e)(3) without consideration of \u00a7 3583(k) 's mandatory minimum sentence provision or its increased penalties for certain subsequent conduct.\" Id. at 1168.\nThe government petitioned the Supreme Court for certiorari, but never requested that we stay our mandate. After the mandate issued, the district court proceeded on February 14, 2018, and consistent with our opinion, to resentence Haymond pursuant to \u00a7 3583(e)(3). The district court resentenced Haymond to time served because, by the time of his new sentencing, Haymond had already served more than the two-year maximum term of imprisonment authorized by \u00a7 3583(e)(3). Meanwhile, and after Haymond was resentenced to time served, the Supreme Court granted certiorari. United States v. Haymond , --- U.S. ----, 139 S. Ct. 398, 202 L.Ed.2d 309 (2018).\nII\nThe Supreme Court ultimately determined that, as applied to Haymond, \u00a7 3583(k) violated the Fifth and Sixth Amendments. Haymond III , 139 S. Ct. at 2373 (plurality opinion). The plurality reasoned that \"[b]ased on the facts reflected in the jury's verdict, Mr. Haymond faced a lawful prison term of between zero and 10 years under \u00a7 2252(b)(2).\" Id. at 2378. And indeed, he was sentenced to a thirty-eight-month term of imprisonment and ten-year term of supervised release based on the jury's verdict. However, his subsequent sentence to a five-year term of imprisonment for violating the terms of his supervised release was not based on the facts reflected in the jury's verdict. Instead, \"a judge-acting without a jury and based only on a preponderance of the evidence-found that Mr. Haymond had engaged in additional conduct in violation of the terms of his supervised release.\" Id. This mandated, pursuant to \u00a7 3583(k), an additional term of imprisonment of at least five years, and potentially life. Id. The plurality had no trouble concluding that this \"new punishment\" violated the Fifth and Sixth Amendments because \"the facts the judge found [in the revocation proceeding] increased 'the legally prescribed range of allowable sentences.' \" Id. (quoting Alleyne v. United States , 570 U.S. 99, 115, 133 S.Ct. 2151, 186 L.Ed.2d 314 (2013) ). One concurring Justice also acknowledged that judicial factfinding by a preponderance of the evidence conducted pursuant to \u00a7 3583(k), and the resulting mandatory sentence to a term of imprisonment of five years to life, is unconstitutional under Alleyne . Id. at 2386 (Breyer, J., concurring in the judgment).\nNonetheless, the government argued this court's remedy swept too broadly because a district court could still apply \u00a7 3583(k) and impose a sentence in a constitutionally permissible manner. Specifically, the government argued to the Supreme Court that a jury could be empaneled to find the facts necessary to impose new punishment under a reasonable doubt standard which could then trigger the mandatory minimum sentence provided in \u00a7 3583(k). See Haymond III , 139 S.Ct. at 2385 (plurality opinion). However, the Supreme Court declined to address this argument because \"the government did not even discuss the possibility of empaneling a jury in its brief[ing]\" in the district court, or on appeal to this court. Id. Accordingly, the Supreme Court returned the case to this court for us to address the government's remedial argument in the first instance, including any question concerning whether that argument was adequately preserved.\nThe government now concedes that it never presented or argued to the district court or to us that \u00a7 3583(k) 's constitutional infirmity could be remedied by empaneling a jury. Therefore, the issue is not preserved. Mot. to Dismiss at 2. Further, the government states in its supplemental briefing that \"even if this Court were to adopt the government's remedial argument, [it] would not seek a jury trial in this case\" and that the district court's February 14, 2018, resentencing ordering Haymond to a time-served term of imprisonment would \"remain in effect.\" Gov't Supp. Br. at 6. As a consequence, the government argues this case is moot because whatever remedial cure this court may now fashion for \u00a7 3583(k), it will have no effect in this case. Or, as stated by the government, \"whatever the Court decides, Haymond's time-served term of imprisonment will stand.\" Id. at 8.\nIn response, Haymond agrees that the government failed to preserve the jury trial remedy or argue plain error on remand. Haymond agrees that \"whether couched in terms of issue preservation or mootness, the government has abandoned\" any jury trial remedy in Haymond's case. Haymond Supp. Reply Br. at 1.\nAs the jury remedy issue was not preserved by the government and would have no effect on Haymond's sentence even if reached, we grant the government's unopposed motion to dismiss.\nIII\nThe appeal is dismissed.\nUnder 18 U.S.C. \u00a7 3583(k), \"the authorized term of supervised release for any offense under section ... 2252 ... is any term of years not less than 5, or life.\"\nWith respect to the alleged possession of child pornography, the district court concluded that Haymond had possessed only the thirteen images located in his phone's gallery cache, not the other forty-six images located in other portions of the phone's cache. The district court also noted that, in its judgment, the evidence did not permit a jury to find beyond a reasonable doubt that Haymond possessed any of the images on the phone.\nIn relevant part, \u00a7 3583(k) provides:\nIf a defendant required to register under the Sex Offender Registration and Notification Act commits any criminal offense under chapter 109A, 110, or 117, or section 1201 or 1591, for which imprisonment for a term longer than 1 year can be imposed, the court shall revoke the term of supervised release and require the defendant to serve a term of imprisonment under subsection (e)(3) without regard to the exception contained therein. Such term shall be not less than 5 years.\nAs the government now candidly concedes in its pending motion to dismiss, \"its briefs before the district court and th[e Tenth Circuit] did not preserve the argument that any constitutional infirmity in \u00a7 3583(k) can be cured by empaneling a jury to decide whether Mr. Haymond violated \u00a7 3583(k).\" Mot. to Dismiss at 2.\nHaymond also received an additional term of two years of supervised release.\nWe decline to adopt the government's subsequent suggestion that we \"should vacate the district court's September 2016 judgment and remand for the district court to re-impose its February 2018 order reducing Mr. Haymond's term of imprisonment to time served.\" Gov't Supp. Br. at 10.",
+        "type": "majority",
+        "author": "BRISCOE, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "William D. Lunn, Tulsa, Oklahoma, for Defendant-Appellant.",
+      "R. Trent Shores, United States Attorney, Northern District of Oklahoma, and Leena Alam, Assistant United States Attorney, Northern District of Oklahoma, Office of the United States Attorney for the Northern District of Oklahoma, Tulsa, Oklahoma; Brian A. Benczkowski, Assistant Attorney General, and Matthew S. Miner, Deputy Assistant Attorney General, Office of the Attorney General for the State of Oklahoma, Tulsa, Oklahoma; and Ross B. Goldman, Criminal Division, Appellate Section, United States Department of Justice, Washington, D.C., for Plaintiff-Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff - Appellee,\nv.\nAndre Ralph HAYMOND, Defendant - Appellant.\nNo. 16-5156\nUnited States Court of Appeals, Tenth Circuit.\nFILED August 23, 2019\nWilliam D. Lunn, Tulsa, Oklahoma, for Defendant-Appellant.\nR. Trent Shores, United States Attorney, Northern District of Oklahoma, and Leena Alam, Assistant United States Attorney, Northern District of Oklahoma, Office of the United States Attorney for the Northern District of Oklahoma, Tulsa, Oklahoma; Brian A. Benczkowski, Assistant Attorney General, and Matthew S. Miner, Deputy Assistant Attorney General, Office of the Attorney General for the State of Oklahoma, Tulsa, Oklahoma; and Ross B. Goldman, Criminal Division, Appellate Section, United States Department of Justice, Washington, D.C., for Plaintiff-Appellee.\nBefore BRISCOE, KELLY, and McHUGH, Circuit Judges."
+  },
+  "file_name": "1059-01",
+  "first_page_order": 1059,
+  "last_page_order": 1064
+}

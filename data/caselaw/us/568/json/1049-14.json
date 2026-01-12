@@ -1,0 +1,59 @@
+{
+  "id": 12426419,
+  "name": "Ruffin v. Smith, Warden",
+  "name_abbreviation": "Ruffin v. Smith",
+  "decision_date": "2012-12-03",
+  "docket_number": "No. 12-6461",
+  "first_page": "1049",
+  "last_page": "1049",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1049"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.644,
+    "sha256": "8cd54e6bf207a036db8f3d372f7a10ad29c191a8048a5b93ed22ba088b0f097b",
+    "simhash": "1:b5ee22c6ea7b0cf6",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ruffin v. Smith, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6461.\nRuffin v. Smith, Warden."
+  },
+  "file_name": "1049-14",
+  "first_page_order": 1125,
+  "last_page_order": 1125
+}

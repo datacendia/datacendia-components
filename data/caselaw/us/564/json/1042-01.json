@@ -1,0 +1,59 @@
+{
+  "id": 5929717,
+  "name": "Book v. Mendoza et al.",
+  "name_abbreviation": "Book v. Mendoza",
+  "decision_date": "2011-06-27",
+  "docket_number": "No. 10-10155",
+  "first_page": "1042",
+  "last_page": "1042",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1042"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 71,
+    "ocr_confidence": 0.554,
+    "sha256": "01e130419ca2477f5461aad1db831241d081e3c885fd30044492dec9e26cf2f8",
+    "simhash": "1:11c8388ad95c97da",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Book v. Mendoza et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10155.\nBook v. Mendoza et al."
+  },
+  "file_name": "1042-01",
+  "first_page_order": 1036,
+  "last_page_order": 1036
+}

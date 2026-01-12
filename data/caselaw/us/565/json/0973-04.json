@@ -1,0 +1,82 @@
+{
+  "id": 12229953,
+  "name": "Thomas v. Texas Department of Criminal Justice Board et al.",
+  "name_abbreviation": "Thomas v. Texas Department of Criminal Justice Board",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-5972",
+  "first_page": "973",
+  "last_page": "973",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 973"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "506 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11924825
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/506/0001-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 77,
+    "char_count": 579,
+    "ocr_confidence": 0.65,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2476513109451555
+    },
+    "sha256": "e4beaabbcc1f533dd0ff721e6d2869cc41d41f96365b5a74d3859e4ae7647c03",
+    "simhash": "1:e4e215cc4424d6cc",
+    "word_count": 96
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Thomas v. Texas Department of Criminal Justice Board et al."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Tex., 11th Dist. Motion of petitioner for leave to proceed in forma pauperis denied, and certio-rari dismissed. See this Court\u2019s Rule 39.8. As petitioner has repeatedly abused this Court\u2019s process, the Clerk is directed not to accept any further petitions in noncriminal matters from petitioner unless the docketing fee required by Rule 38(a) is paid and the petition is submitted in compliance with Rule 33.1. See Martin v. District of Columbia Court of Appeals, 506 U. S. 1 (1992) (per curiam).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5972.\nThomas v. Texas Department of Criminal Justice Board et al."
+  },
+  "file_name": "0973-04",
+  "first_page_order": 1055,
+  "last_page_order": 1055
+}

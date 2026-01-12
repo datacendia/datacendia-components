@@ -1,0 +1,86 @@
+{
+  "id": 6020393,
+  "name": "Kentucky v. King",
+  "name_abbreviation": "Kentucky v. King",
+  "decision_date": "2010-11-15",
+  "docket_number": "No. 09-1272",
+  "first_page": "1042",
+  "last_page": "1042",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1042"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "561 U. S. 1057",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12456032,
+        12456033,
+        12456034,
+        12456035,
+        12456036,
+        12456037,
+        12456038,
+        12456031
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/177/1150-04",
+        "/l-ed-2d/177/1150-05",
+        "/l-ed-2d/177/1150-06",
+        "/l-ed-2d/177/1150-07",
+        "/l-ed-2d/177/1151-01",
+        "/l-ed-2d/177/1151-02",
+        "/l-ed-2d/177/1151-03",
+        "/l-ed-2d/177/1150-03"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 169,
+    "ocr_confidence": 0.6,
+    "sha256": "7f08ff8f5327b6358728c202ff62919b48eef3386a63ec5a6c6ba9ebe3d191b5",
+    "simhash": "1:0f30264aac1c3cd7",
+    "word_count": 27
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kentucky v. King."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ky. [Certiorari granted, 561 U. S. 1057.] Motion of respondent to dismiss writ of certiorari as improvidently granted is denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-1272.\nKentucky v. King."
+  },
+  "file_name": "1042-02",
+  "first_page_order": 1064,
+  "last_page_order": 1064
+}

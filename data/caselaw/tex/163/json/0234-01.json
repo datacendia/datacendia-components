@@ -1,0 +1,70 @@
+{
+  "id": 2263627,
+  "name": "The State of Texas v. Hon. Roy C. Archer, Chief Justice, et al.",
+  "name_abbreviation": "State v. Archer",
+  "decision_date": "1962-02-14",
+  "docket_number": "No. A-8849",
+  "first_page": "234",
+  "last_page": "234",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "163 Tex. 234"
+    },
+    {
+      "type": "parallel",
+      "cite": "353 S.W.2d 841"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 85,
+    "char_count": 949,
+    "ocr_confidence": 0.592,
+    "pagerank": {
+      "raw": 1.707281868235009e-07,
+      "percentile": 0.7018609965291412
+    },
+    "sha256": "176b6256ef0c31d8bd522be19148c1c55810659cbb24a265639246604f720f49",
+    "simhash": "1:e9d1e4aeddb7c51d",
+    "word_count": 173
+  },
+  "last_updated": "2023-07-14T20:59:38.764833+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "The State of Texas v. Hon. Roy C. Archer, Chief Justice, et al"
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM.\nThe Court of Civil Appeals dismissed an appeal by writ of error from a trial court judgment in this quo warranto case. The State of Texas asks leave to file a petition for writ of mandamus to compel the Court of Civil Appeals to reinstate the appeal.\nDismissal of the appeal by the Court of Civil Appeals was reviewable by this Court on application for writ of error. A writ of mandamus will not be issued by this Court to require a Court of Civil Appeals to correct an error which can be reviewed on application for writ of error. We therefore overrule the motion for leave to file petition for writ of mandamus without passing on the correctness of the action of the Court of Civil Appeals in dismissing the appeal.",
+        "type": "majority",
+        "author": "PER CURIAM."
+      }
+    ],
+    "attorneys": [
+      "Will Wilson, Atty. Gen., Jack N. Price, Asst. Atty, Gen., for relator.",
+      "No appearance for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "The State of Texas v. Hon. Roy C. Archer, Chief Justice, et al\nNo. A-8849.\nDecided February 14, 1962\n353 S.W. 2d 841\nWill Wilson, Atty. Gen., Jack N. Price, Asst. Atty, Gen., for relator.\nNo appearance for respondents."
+  },
+  "file_name": "0234-01",
+  "first_page_order": 262,
+  "last_page_order": 262
+}

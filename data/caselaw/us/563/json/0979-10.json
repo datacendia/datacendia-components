@@ -1,0 +1,59 @@
+{
+  "id": 5944763,
+  "name": "Constien v. United States et al.",
+  "name_abbreviation": "Constien v. United States",
+  "decision_date": "2011-05-02",
+  "docket_number": "No. 10-9496",
+  "first_page": "979",
+  "last_page": "979",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 979"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 81,
+    "ocr_confidence": 0.527,
+    "sha256": "6557ffd81a57c4c40eda6038af1be297952906f2927f59559b671806b18ba5c2",
+    "simhash": "1:93c870685d27d338",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Constien v. United States et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9496.\nConstien v. United States et al."
+  },
+  "file_name": "0979-10",
+  "first_page_order": 1005,
+  "last_page_order": 1005
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5947387,
+  "name": "In re Discipline of McPherson",
+  "name_abbreviation": "In re Discipline of McPherson",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. D-2573",
+  "first_page": "818",
+  "last_page": "818",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 818"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 39,
+    "char_count": 288,
+    "ocr_confidence": 0.533,
+    "sha256": "d5a3f9d8d43ed6e024562559098d923d9e3683327a3174fcf34710c1da0ccda7",
+    "simhash": "1:658273b63bda3767",
+    "word_count": 51
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of McPherson."
+    ],
+    "opinions": [
+      {
+        "text": "Stephen Lee McPherson, of Chesapeake, Va., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2573.\nIn re Discipline of McPherson."
+  },
+  "file_name": "0818-06",
+  "first_page_order": 840,
+  "last_page_order": 840
+}

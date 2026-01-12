@@ -1,0 +1,59 @@
+{
+  "id": 12432196,
+  "name": "Crisswalle v. Pennsylvania",
+  "name_abbreviation": "Crisswalle v. Pennsylvania",
+  "decision_date": "2013-02-25",
+  "docket_number": "No. 12-8252",
+  "first_page": "1201",
+  "last_page": "1201",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1201"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 75,
+    "ocr_confidence": 0.644,
+    "sha256": "dfdb51098fd2bcbc61a3d93075354417a4392c5bf5f84d8b55fa421165ab1c53",
+    "simhash": "1:fac4aa58b5abb5d6",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Crisswalle v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Pa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8252.\nCrisswalle v. Pennsylvania."
+  },
+  "file_name": "1201-04",
+  "first_page_order": 1277,
+  "last_page_order": 1277
+}

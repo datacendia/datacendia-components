@@ -1,0 +1,59 @@
+{
+  "id": 12408811,
+  "name": "Harvard v. Northeast Illinois Regional Commuter Railroad Corp., dba Metra",
+  "name_abbreviation": "Harvard v. Northeast Illinois Regional Commuter Railroad",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-1286",
+  "first_page": "814",
+  "last_page": "814",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 814"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 19,
+    "char_count": 132,
+    "ocr_confidence": 0.658,
+    "sha256": "ebf76aa65b38add54b5772599abd637c24271bdb0f5f9d12e453b060b68ad256",
+    "simhash": "1:067986c61c7565a2",
+    "word_count": 19
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Harvard v. Northeast Illinois Regional Commuter Railroad Corp., dba Metra."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1286.\nHarvard v. Northeast Illinois Regional Commuter Railroad Corp., dba Metra."
+  },
+  "file_name": "0814-11",
+  "first_page_order": 890,
+  "last_page_order": 890
+}

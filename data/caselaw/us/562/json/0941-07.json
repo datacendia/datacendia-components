@@ -1,0 +1,59 @@
+{
+  "id": 6005725,
+  "name": "Cabrera v. California",
+  "name_abbreviation": "Cabrera v. California",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5907",
+  "first_page": "941",
+  "last_page": "941",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 941"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 84,
+    "ocr_confidence": 0.614,
+    "sha256": "c192858069b285a04d35f69f766b3e27e54548cc0ab81f22f979476e77f7b707",
+    "simhash": "1:4e0572c059817a03",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cabrera v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 2d App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5907.\nCabrera v. California."
+  },
+  "file_name": "0941-07",
+  "first_page_order": 963,
+  "last_page_order": 963
+}

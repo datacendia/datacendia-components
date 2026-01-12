@@ -1,0 +1,59 @@
+{
+  "id": 12418140,
+  "name": "Cunningham v. Colson, Warden",
+  "name_abbreviation": "Cunningham v. Colson",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-5543",
+  "first_page": "946",
+  "last_page": "946",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 946"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.629,
+    "sha256": "9e4ba2524f82f847bda99921a44e9e1e73e93f792f7111f33f70fb7860d2d031",
+    "simhash": "1:e68a12b016bf5494",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cunningham v. Colson, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5543.\nCunningham v. Colson, Warden."
+  },
+  "file_name": "0946-02",
+  "first_page_order": 1022,
+  "last_page_order": 1022
+}

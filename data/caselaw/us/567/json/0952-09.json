@@ -1,0 +1,59 @@
+{
+  "id": 12412851,
+  "name": "Cox v. United States",
+  "name_abbreviation": "Cox v. United States",
+  "decision_date": "2012-06-29",
+  "docket_number": "No. 11-10190",
+  "first_page": "952",
+  "last_page": "952",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 952"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.681,
+    "sha256": "2a92dc0a007f2d3a864acc864262978dda30ae3eba11af558118ed01f6dec471",
+    "simhash": "1:502e8e138c81dd08",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cox v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10190.\nCox v. United States."
+  },
+  "file_name": "0952-09",
+  "first_page_order": 856,
+  "last_page_order": 856
+}

@@ -1,0 +1,88 @@
+{
+  "id": 12422396,
+  "name": "Sebelius, Secretary of Health and Human Services v. Auburn Regional Medical Center et al.",
+  "name_abbreviation": "Sebelius v. Auburn Regional Medical Center",
+  "decision_date": "2012-11-13",
+  "docket_number": "No. 11-1231",
+  "first_page": "1008",
+  "last_page": "1008",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1008"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "567 U. S. 933",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12411042,
+        12411011,
+        12410987,
+        12411053,
+        12411023,
+        12410994,
+        12410964,
+        12411032,
+        12410975
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/567/0933-08",
+        "/us/567/0933-05",
+        "/us/567/0933-03",
+        "/us/567/0933-09",
+        "/us/567/0933-06",
+        "/us/567/0933-04",
+        "/us/567/0933-01",
+        "/us/567/0933-07",
+        "/us/567/0933-02"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 34,
+    "char_count": 231,
+    "ocr_confidence": 0.61,
+    "sha256": "70322881f529662f07970af15256778b56b5cf58b8c197c045d0e98390e79143",
+    "simhash": "1:c32e669c2823b46c",
+    "word_count": 37
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sebelius, Secretary of Health and Human Services v. Auburn Regional Medical Center et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. D. C. Cir. [Certiorari granted, 567 U. S. 933.] Motion of the Court-appointed amicus curiae for divided argument granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1231.\nSebelius, Secretary of Health and Human Services v. Auburn Regional Medical Center et al."
+  },
+  "file_name": "1008-05",
+  "first_page_order": 1084,
+  "last_page_order": 1084
+}

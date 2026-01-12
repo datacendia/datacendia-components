@@ -1,0 +1,59 @@
+{
+  "id": 12415288,
+  "name": "Gonzalez Uribe v. United States",
+  "name_abbreviation": "Gonzalez Uribe v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5115",
+  "first_page": "895",
+  "last_page": "895",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 895"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 79,
+    "ocr_confidence": 0.675,
+    "sha256": "bbd14b2f47aad2f2f391295af5cbebbf79da86365a88034969c6cb9039297c38",
+    "simhash": "1:f5ca80530b193458",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gonzalez Uribe v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5115.\nGonzalez Uribe v. United States."
+  },
+  "file_name": "0895-14",
+  "first_page_order": 971,
+  "last_page_order": 971
+}

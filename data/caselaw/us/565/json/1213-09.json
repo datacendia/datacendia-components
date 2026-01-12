@@ -1,0 +1,59 @@
+{
+  "id": 12247253,
+  "name": "Gonzalez v. Berghuis, Warden",
+  "name_abbreviation": "Gonzalez v. Berghuis",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-7901",
+  "first_page": "1213",
+  "last_page": "1213",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1213"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.602,
+    "sha256": "2b79ffea994cb64fdf499529f41ca589ba8b2d8185a9a931c382fe5603d10795",
+    "simhash": "1:b58e628cff3f10e3",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gonzalez v. Berghuis, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7901.\nGonzalez v. Berghuis, Warden."
+  },
+  "file_name": "1213-09",
+  "first_page_order": 1295,
+  "last_page_order": 1295
+}

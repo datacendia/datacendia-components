@@ -1,0 +1,59 @@
+{
+  "id": 12428224,
+  "name": "Weaver v. California",
+  "name_abbreviation": "Weaver v. California",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-6719",
+  "first_page": "1095",
+  "last_page": "1095",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1095"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 69,
+    "ocr_confidence": 0.611,
+    "sha256": "0e639cb2158f0934f427564858aa0b0bb40e53844bf81c468cd4bef3634759c7",
+    "simhash": "1:b04f1d668a481068",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Weaver v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6719.\nWeaver v. California."
+  },
+  "file_name": "1095-14",
+  "first_page_order": 1171,
+  "last_page_order": 1171
+}

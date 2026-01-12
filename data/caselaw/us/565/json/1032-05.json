@@ -1,0 +1,59 @@
+{
+  "id": 12233241,
+  "name": "Dally v. United States",
+  "name_abbreviation": "Dally v. United States",
+  "decision_date": "2011-11-14",
+  "docket_number": "No. 11M44",
+  "first_page": "1032",
+  "last_page": "1032",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1032"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 155,
+    "ocr_confidence": 0.662,
+    "sha256": "34e7770ade9e6ddcb19e32a87c00505da810fca2abc67a9769a54f18b7e36aad",
+    "simhash": "1:426eda3287c90518",
+    "word_count": 26
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dally v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "Motion for leave to file petition for writ of certiorari under seal with redacted copies for the public record granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11M44.\nDally v. United States."
+  },
+  "file_name": "1032-05",
+  "first_page_order": 1114,
+  "last_page_order": 1114
+}

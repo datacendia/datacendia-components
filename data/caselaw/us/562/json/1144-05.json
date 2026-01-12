@@ -1,0 +1,59 @@
+{
+  "id": 5917034,
+  "name": "Dodson v. Virginia",
+  "name_abbreviation": "Dodson v. Virginia",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7020",
+  "first_page": "1144",
+  "last_page": "1144",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1144"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 67,
+    "ocr_confidence": 0.588,
+    "sha256": "7fd207c3eb9c4b0b32253d2d7d9587f931e26433cb9ae525a325297118d3288f",
+    "simhash": "1:37daca51de8bb400",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dodson v. Virginia."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7020.\nDodson v. Virginia."
+  },
+  "file_name": "1144-05",
+  "first_page_order": 1166,
+  "last_page_order": 1166
+}

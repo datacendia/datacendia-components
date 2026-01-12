@@ -1,0 +1,63 @@
+{
+  "id": 12229919,
+  "name": "Garcia v. Texas",
+  "name_abbreviation": "Garcia v. Texas",
+  "decision_date": "2011-10-27",
+  "docket_number": "No. 11-7054 (11A432)",
+  "first_page": "972",
+  "last_page": "972",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 972"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 32,
+    "char_count": 222,
+    "ocr_confidence": 0.706,
+    "pagerank": {
+      "raw": 2.1995933875888662e-07,
+      "percentile": 0.7701228040561522
+    },
+    "sha256": "9b85fbbb56d09fa5160715bc920258912b0bb8c90722b4adb3d4992bfdea6e62",
+    "simhash": "1:206b99b15e9527f0",
+    "word_count": 36
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Garcia v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tex. Application for stay of execution of sentence of death, presented to Justice Scalia, and by him referred to the Court, denied. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "October 27, 2011\nNo. 11-7054 (11A432).\nGarcia v. Texas."
+  },
+  "file_name": "0972-01",
+  "first_page_order": 1054,
+  "last_page_order": 1054
+}

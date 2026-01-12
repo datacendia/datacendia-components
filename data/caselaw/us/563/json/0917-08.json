@@ -1,0 +1,59 @@
+{
+  "id": 5943806,
+  "name": "Geisen v. United States",
+  "name_abbreviation": "Geisen v. United States",
+  "decision_date": "2011-04-04",
+  "docket_number": "No. 10-720",
+  "first_page": "917",
+  "last_page": "917",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 917"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.566,
+    "sha256": "894cb8b391368144ceebd57702844d022078aad0a4996c8addb0c20375b54413",
+    "simhash": "1:e52a3a03ca3d1878",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Geisen v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari. denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-720.\nGeisen v. United States."
+  },
+  "file_name": "0917-08",
+  "first_page_order": 943,
+  "last_page_order": 943
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12232045,
+  "name": "Curry v. United States",
+  "name_abbreviation": "Curry v. United States",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-6653",
+  "first_page": "993",
+  "last_page": "993",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 993"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.686,
+    "sha256": "cf6bc7ea8b9826d750026347573503f14c4144d72b65f20207b6fe5c3175f9be",
+    "simhash": "1:21ea984bee949128",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Curry v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6653.\nCurry v. United States."
+  },
+  "file_name": "0993-15",
+  "first_page_order": 1075,
+  "last_page_order": 1075
+}

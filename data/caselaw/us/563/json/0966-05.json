@@ -1,0 +1,59 @@
+{
+  "id": 5952031,
+  "name": "Overby v. Pennsylvania",
+  "name_abbreviation": "Overby v. Pennsylvania",
+  "decision_date": "2011-04-25",
+  "docket_number": "No. 10-9634",
+  "first_page": "966",
+  "last_page": "966",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 966"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 71,
+    "ocr_confidence": 0.608,
+    "sha256": "373856be4d269481015f0f703b1606d41ce407b87c0936e236d89c3fb698c4f9",
+    "simhash": "1:ba6603d89688bdd4",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Overby v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Pa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9634.\nOverby v. Pennsylvania."
+  },
+  "file_name": "0966-05",
+  "first_page_order": 992,
+  "last_page_order": 992
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12415114,
+  "name": "Hayes v. City of Chicago, Illinois",
+  "name_abbreviation": "Hayes v. City of Chicago",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-134",
+  "first_page": "888",
+  "last_page": "888",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 888"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 82,
+    "ocr_confidence": 0.648,
+    "sha256": "0624adaf782416a700f8e4d40c87cdfbbbb30e8ff89732e17cb0f5fb64a3a94c",
+    "simhash": "1:3a67e7b8031fa420",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hayes v. City of Chicago, Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-134.\nHayes v. City of Chicago, Illinois."
+  },
+  "file_name": "0888-04",
+  "first_page_order": 964,
+  "last_page_order": 964
+}

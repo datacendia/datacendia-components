@@ -1,0 +1,82 @@
+{
+  "id": 12234887,
+  "name": "Dorsey v. United States; and Hill v. United States",
+  "name_abbreviation": "Dorsey v. United States",
+  "decision_date": "2011-11-28",
+  "docket_number": "No. 11-5683; No. 11-5721",
+  "first_page": "1057",
+  "last_page": "1057",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1057"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "417 Fed. Appx. 560",
+      "category": "reporters:federal",
+      "reporter": "Fed. Appx.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "635 F. 3d 336",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4030165
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/635/0336-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 44,
+    "char_count": 336,
+    "ocr_confidence": 0.641,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.24765343462109182
+    },
+    "sha256": "447e3bafd5577fa377445f7f38239ad6c5595ae93f34e3e36b54532062c6b8a0",
+    "simhash": "1:67397fe20ff33e1a",
+    "word_count": 57
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dorsey v. United States; and Hill v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Motions of petitioners for leave to proceed in forma pauperis granted. Certiorari granted, cases consolidated, and a total of one hour is allotted for oral argument. Reported below: No. 11-5683, 635 F. 3d 336; No. 11-5721, 417 Fed. Appx. 560.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5683.\nNo. 11-5721.\nDorsey v. United States; and Hill v. United States."
+  },
+  "file_name": "1057-04",
+  "first_page_order": 1139,
+  "last_page_order": 1139
+}

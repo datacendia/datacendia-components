@@ -1,0 +1,59 @@
+{
+  "id": 12243012,
+  "name": "Zoellick v. Zoellick",
+  "name_abbreviation": "Zoellick v. Zoellick",
+  "decision_date": "2012-01-17",
+  "docket_number": "No. 11-7309",
+  "first_page": "1162",
+  "last_page": "1162",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1162"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 9,
+    "char_count": 68,
+    "ocr_confidence": 0.521,
+    "sha256": "795efa58e7eb3236dbad82ee14505d46eed53166ffcf5c00d46e4f54cbd94921",
+    "simhash": "1:0214c9cb4594a11f",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Zoellick v. Zoellick."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ga. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7309.\nZoellick v. Zoellick."
+  },
+  "file_name": "1162-13",
+  "first_page_order": 1244,
+  "last_page_order": 1244
+}

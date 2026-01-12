@@ -1,0 +1,59 @@
+{
+  "id": 12195233,
+  "name": "Troyer v. California",
+  "name_abbreviation": "Troyer v. California",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-1422",
+  "first_page": "820",
+  "last_page": "820",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 820"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 69,
+    "ocr_confidence": 0.58,
+    "sha256": "f0b57be96737d203d4a13900c9f02e79843dcb152c42b4a54b5149656f92744e",
+    "simhash": "1:94070d640a0a510a",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Troyer v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1422.\nTroyer v. California."
+  },
+  "file_name": "0820-11",
+  "first_page_order": 902,
+  "last_page_order": 902
+}

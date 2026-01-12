@@ -1,0 +1,59 @@
+{
+  "id": 12247220,
+  "name": "Helton v. Tucker, Secretary, Florida Department of Corrections",
+  "name_abbreviation": "Helton v. Tucker",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-7889",
+  "first_page": "1213",
+  "last_page": "1213",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1213"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 112,
+    "ocr_confidence": 0.696,
+    "sha256": "9ae5a7e0acc407031509a93026558060686b8fe0595005d4878473d519223b34",
+    "simhash": "1:0771e27b87ef9070",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Helton v. Tucker, Secretary, Florida Department of Corrections."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7889.\nHelton v. Tucker, Secretary, Florida Department of Corrections."
+  },
+  "file_name": "1213-04",
+  "first_page_order": 1295,
+  "last_page_order": 1295
+}

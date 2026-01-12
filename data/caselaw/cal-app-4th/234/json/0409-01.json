@@ -1,0 +1,788 @@
+{
+  "id": 4294025,
+  "name": "DAVID BELASCO, Plaintiff and Appellant, v. GARY LOREN WELLS et al., Defendants and Respondents",
+  "name_abbreviation": "Belasco v. Wells",
+  "decision_date": "2015-02-17",
+  "docket_number": "No. B254525",
+  "first_page": "409",
+  "last_page": "426",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "234 Cal. App. 4th 409"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 21092,
+    "name": "California Court of Appeal"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "283 Cal.Rptr. 809",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "232 Cal.App.3d 767",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        6036107
+      ],
+      "pin_cites": [
+        {
+          "page": "771"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/232/0767-01"
+      ]
+    },
+    {
+      "cite": "193 Cal.Rptr. 130",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1991,
+      "opinion_index": 0
+    },
+    {
+      "cite": "145 Cal.App.3d 261",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2101478
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "265"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/145/0261-01"
+      ]
+    },
+    {
+      "cite": "188 Cal.Rptr. 726",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "139 Cal.App.3d 546",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2111758
+      ],
+      "pin_cites": [
+        {
+          "page": "556"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/139/0546-01"
+      ]
+    },
+    {
+      "cite": "900 P.2d 601",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.Rptr.2d 352",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "10 Cal.4th 1226",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1992344
+      ],
+      "pin_cites": [
+        {
+          "page": "1239"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/10/1226-01"
+      ]
+    },
+    {
+      "cite": "115 P.2d 977",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 Cal.2d 409",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2185861
+      ],
+      "pin_cites": [
+        {
+          "page": "414"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/18/0409-01"
+      ]
+    },
+    {
+      "cite": "762 P.2d 46",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1941,
+      "opinion_index": 0
+    },
+    {
+      "cite": "252 Cal.Rptr. 122",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1941,
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.3d 1092",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1968800
+      ],
+      "year": 1941,
+      "pin_cites": [
+        {
+          "page": "1108"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/46/1092-01"
+      ]
+    },
+    {
+      "cite": "48 P.3d 423",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "121 Cal.Rptr.2d 391",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.4th 299",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        947664
+      ],
+      "pin_cites": [
+        {
+          "page": "306-307"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/28/0299-01"
+      ]
+    },
+    {
+      "cite": "6 Cal.Rptr.2d 554",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "4 Cal.App.4th 1159",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        2309481
+      ],
+      "pin_cites": [
+        {
+          "page": "1173"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/4/1159-01"
+      ]
+    },
+    {
+      "cite": "132 Cal.Rptr.3d 886",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "200 Cal.App.4th 1146",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4242296
+      ],
+      "pin_cites": [
+        {
+          "page": "1160"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/200/1146-01"
+      ]
+    },
+    {
+      "cite": "86 Cal.Rptr.3d 196",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "168 Cal.App.4th 1194",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5730784
+      ],
+      "pin_cites": [
+        {
+          "page": "1202"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/168/1194-01"
+      ]
+    },
+    {
+      "cite": "12 P.3d 1125",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "101 Cal.Rptr.2d 718",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "24 Cal.4th 627",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1180094
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/24/0627-01"
+      ]
+    },
+    {
+      "cite": "48 Cal.Rptr.2d 209",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Cal.App.4th 828",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4730088
+      ],
+      "pin_cites": [
+        {
+          "page": "835"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/41/0828-01"
+      ]
+    },
+    {
+      "cite": "113 Cal.Rptr. 784",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal.App.3d 18",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4408764
+      ],
+      "pin_cites": [
+        {
+          "page": "23-24"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/39/0018-01"
+      ]
+    },
+    {
+      "cite": "156 Cal.Rptr.3d 657",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "216 Cal.App.4th 310",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6054735
+      ],
+      "pin_cites": [
+        {
+          "page": "318"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/216/0310-01"
+      ]
+    },
+    {
+      "cite": "28 P.3d 889",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "110 Cal.Rptr.2d 844",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 Cal.4th 758",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        456846
+      ],
+      "pin_cites": [
+        {
+          "page": "763"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/26/0758-01"
+      ]
+    },
+    {
+      "cite": "189 P.3d 285",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "81 Cal.Rptr.3d 282",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.4th 937",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3888399
+      ],
+      "pin_cites": [
+        {
+          "page": "953"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/44/0937-01"
+      ]
+    },
+    {
+      "cite": "743 P.2d 1323",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "241 Cal.Rptr. 67",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.3d 1379",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4627098
+      ],
+      "pin_cites": [
+        {
+          "page": "1387"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/43/1379-01"
+      ]
+    },
+    {
+      "cite": "74 P.3d 166",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "3 Cal.Rptr.3d 390",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Cal.4th 657",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        17353
+      ],
+      "pin_cites": [
+        {
+          "page": "663"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/31/0657-01"
+      ]
+    },
+    {
+      "cite": "235 P.3d 42",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "112 Cal.Rptr.3d 722",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "50 Cal.4th 68",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3910198
+      ],
+      "pin_cites": [
+        {
+          "page": "77"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/50/0068-01"
+      ]
+    },
+    {
+      "cite": "82 P.3d 778",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "8 Cal.Rptr.3d 577",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Cal.4th 228",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        801111
+      ],
+      "pin_cites": [
+        {
+          "page": "232"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/32/0228-01"
+      ]
+    },
+    {
+      "cite": "112 P.3d 623",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Cal.Rptr.3d 234",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.4th 1072",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        873194
+      ],
+      "pin_cites": [
+        {
+          "page": "1087"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/35/1072-01"
+      ]
+    },
+    {
+      "cite": "224 P.3d 41",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2005,
+      "opinion_index": 0
+    },
+    {
+      "cite": "104 Cal.Rptr.3d 710",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2005,
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.4th 970",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3899751
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "986"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/47/0970-01"
+      ]
+    },
+    {
+      "cite": "74 P.3d 726",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2010,
+      "opinion_index": 0
+    },
+    {
+      "cite": "3 Cal.Rptr.3d 623",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2010,
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Cal.4th 709",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        17459
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "715"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/31/0709-01"
+      ]
+    },
+    {
+      "cite": "28 P.3d 116",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "110 Cal.Rptr.2d 370",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 Cal.4th 465",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        456727
+      ],
+      "pin_cites": [
+        {
+          "page": "476-477"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/26/0465-01"
+      ]
+    },
+    {
+      "cite": "24 P.3d 493",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "107 Cal.Rptr.2d 841",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Cal.4th 826",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        265450
+      ],
+      "pin_cites": [
+        {
+          "page": "854-855"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/25/0826-01"
+      ]
+    },
+    {
+      "cite": "957 P.2d 1313",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "76 Cal.Rptr.2d 479",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 Cal.4th 604",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        344166
+      ],
+      "pin_cites": [
+        {
+          "page": "612"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/18/0604-01"
+      ]
+    },
+    {
+      "cite": "37 Cal.Rptr.2d 501",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Cal.App.4th 1048",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1125804
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/31/1048-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1336,
+    "char_count": 37557,
+    "ocr_confidence": 0.865,
+    "pagerank": {
+      "raw": 1.0365465571789687e-07,
+      "percentile": 0.549519103237293
+    },
+    "sha256": "14032e40dc717ecdbe6b38d987a842c774d414837e5214e3515efeebab3cb6eb",
+    "simhash": "1:4ba6c033e716f500",
+    "word_count": 6095
+  },
+  "last_updated": "2024-02-27T18:42:40.455132+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "DAVID BELASCO, Plaintiff and Appellant, v. GARY LOREN WELLS et al., Defendants and Respondents."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nKRIEGLER, J.\nPlaintiff David Belasco bought a newly constructed Manhattan Beach residence in 2004 from the builder, defendant Gary Loren Wells. In 2006, Belasco filed a complaint against Wells with the Contractors\u2019 State License Board (the Board) regarding alleged construction defects. Belasco and Wells settled the dispute in 2006 by written agreement, with Wells paying $25,000 and Belasco executing a release and a Civil Code section 1542 waiver of all known or unknown claims. In 2012, Belasco filed this action against Wells, Wells\u2019s surety American Contractors Indemnity Company (American Contractors), and Glenn Hatch, based on an alleged defect in the roof that Belasco discovered in 2011.\nThe trial court granted summary judgment in favor of Wells and American Contractors, ruling that the action was barred as a matter of law by the 2006 settlement that included a release and waiver of all claims, known or unknown, in connection with the construction of the property. Belasco filed a timely notice of appeal, which he served on all defendants.\nBelasco contends the trial court erred in granting summary judgment because (1) the general release and section 1542 waiver in the 2006 settlement agreement for patent construction defects is not a \u201creasonable release\u201d of a subsequent claim for latent construction defects within the meaning of section 929, subdivision (b), and the Right to Repair Act (the Act) (\u00a7 895 et seq.); (2) a reasonable release can only apply to a \u201cparticular violation\u201d and not to a latent defect under the language of.section 945.5, subdivision (f), and the 2006 settlement was too vague to be a valid because it does not reference a \u201cparticular violation\u201d; (3) section 932 specifically authorizes an action on \u201c[sjubsequently discovered claims of unmet standards\u201d; (4) public policy prohibits use of a general release and section 1542 waiver to bar a subsequent claim for latent residential construction defects; and (5) a genuine issue of material fact exists concerning Belasco\u2019s fraud and negligence claims that would have voided the settlement pursuant to section 1668.\nWe hold the trial court properly granted summary judgment in favor of Wells and American Contractors based on the express language of the 2006 settlement. Belasco\u2019s ineffective appeal as to Hatch is dismissed, and Hatch is awarded his costs on appeal.\nAllegations of Belasco\u2019s 2012 Complaint\nBelasco\u2019s complaint included causes of action for breach of contract, complaint on contractor\u2019s license bond, fraud, and revocation/suspension of contractor\u2019s license. Belasco alleged that his 2006 complaint against Wells with the Board was resolved by Wells agreeing to pay a sum of money to repair the property. A defect in the roof was unknown at the time of the settlement.\nThe first cause of action alleged that the defective roof breached the statutory warranty on new construction under section 896. The second cause of action alleged American Contractors is liable as Wells\u2019s surety. The third cause of action, for fraud, alleged Wells falsely represented that the roof was installed by a competent, licensed roofer (Action Roofing), and that Wells intended to mislead Belasco, who justifiably relied on the representations when he agreed to buy the home. The fourth cause of action sought suspension or revocation of Wells\u2019s contractor\u2019s license under Business and Professions Code section 7106.\nAnswers to the Complaint\nWells entered a general denial of the allegations, and asserted 17 affirmative defenses. The ninth affirmative defense asserted that Belasco\u2019s claims are barred by the 2006 release and waiver.\nHatch, representing himself, also filed an answer, including a general denial and 10 affirmative defenses.\nThe Motion for Summary Judgment\nWells and American Contractors moved for summary judgment on the basis that Belasco\u2019s 2012 action was barred by a 2006 settlement of Belasco\u2019s prior complaint about Wells to the Board. In the prior settlement, Belasco signed a release and waiver of all known or unknown construction defects in the home in return for a cash settlement of $25,000.\nWells cited San Diego Hospice v. County of San Diego (1995) 31 Cal.App.4th 1048 [37 Cal.Rptr.2d 501] (San Diego Hospice) for the proposition that Belasco\u2019s 2006 release and waiver of any and all claims, known or unknown, is valid and bars this action. The clear and unambiguous waiver and release were not negated by fraud, because there was no fraudulent misrepresentation by Wells or reliance by Belasco. Belasco, an attorney who was represented by counsel, expressly acknowledged his understanding of the scope of the agreement.\nAs a surety, American Contractors\u2019s liability is no greater than that of Wells. American Contractors is entitled to summary judgment for the reasons argued by Wells.\nWells and American Contractors relied on the following as undisputed facts. Wells holds a class B general building contractor license issued by the Board. Wells built a new residence in Manhattan Beach, which he sold to Belasco in 2004. His surety was American Contractors. Belasco had the premises inspected before the sale, and several corrections were made at the suggestion of the inspector.\nAfter escrow closed, Belasco gave Wells\u2019s agent, Glenn Hatch, a list of approximately 150 items improperly built on the property. Belasco filed a complaint against Wells with the Board regarding construction defects.\nAn arbitration began in 2006 between Belasco and Wells, with both parties represented by counsel. Belasco is a patent attorney, licensed since 1995, whose practice includes a small amount of litigation. Three hours into the arbitration, and before a decision was reached, Wells offered to settle the dispute for $25,000, which Belasco accepted.\nThe settlement was memorialized in a writing signed by Belasco and his attorney. Belasco read and understood the agreement.\nUnder the terms of the agreement, claims were defined as follows: \u201cCLAIMS as used herein shall refer to any and all claims, demands, lawsuits, complaints, causes of action and/or petitions for damages (economic and non-economic; general and special; compensatory and punitive) sustained by result of any and all known and unknown construction defects, design defects, product defects, property damage, loss of use, relocation costs, loss of services, attorney\u2019s fees, expert\u2019s fees, investigation costs, litigation costs, interest, employee expenses, loss-of-rent, business losses, lost profits, stigma, and diminution in value, personal injury, bodily injury, emotional distress, pain and suffering, death, dismemberment, loss of earnings, loss of earning capacity, loss of consortium, occurring at any time in the past, present and/or future and arising out of or related to or manifesting to the acts or omissions by any of the RELEASEES.\u201d\nSection 3 of the settlement contained a section 1542 waiver and release, as follows: \u201cIt is understood and agreed that I and all future purchasers hereby EXPRESSLY WAIVE all rights under section 1542 of the Civil Code of California, which provides as follows: [j[] Certain Claims Not Affected by General Release ... A GENERAL RELEASE DOES NOT EXTEND TO CLAIMS WHICH THE CREDITOR DOES NOT KNOW OR SUSPECT TO EXIST IN HIS FAVOR AT THE TIME OF EXECUTING THE RELEASE, WHICH IF KNOWN BY HIM MUST HAVE MATERIALLY AFFECTED HIS SETTLEMENT WITH DEBTOR.\u201d\nFinally, section 4 provided that Belasco entered into the agreement based on his own judgment, and without influence by any representations: \u201c4.1. I hereby declare and represent that the damages sustained are permanent and progressive and that recovery therefrom is uncertain and indefinite, and in making this release and agreement it is understood and agreed that I rely wholly upon my judgment, belief, and knowledge of the nature, extent, and duration of said damages, and that I have not been influenced to any extent whatsoever in making this Release of All Claims by any representations or statements regarding said injuries, or regarding any other matters, made by any of the RELEASEES, or by any person or persons representing any of the RELEASEES, or by any physician or surgeon employed by any of the RELEASEES.\u201d\nIn December 2011, Belasco tried to identify the roofing contractor on the property after he noticed a problem with his entryway, which he thought was caused by a leaking roof. Records on file with the City of Manhattan Beach showed that Action Roofing was the contractor, but Belasco learned from Action Roofing that it had bid on the job but did not perform the work. Wells never gave Belasco a list of subcontractors who worked on the property, nor had he made any representations regarding subcontractors. Belasco believes that Wells intentionally misled him to sign the release by including in the building permit the name of a roofer who did not do the job. Wells did not disclose to Belasco that Wells installed the roof \u201cin-house.\u201d\nWells testified in deposition that the permit reflecting Action Roofing as the subcontractor for the roof was the result of a secretarial error. The house, including the roof, was approved by the City of Manhattan Beach before the sale to Belasco, and it would not have passed inspection if not built to code.\nBelasco paid approximately $17,500 for repair of the roof and approximately $1,400 to fix the entry way.\nOpposition to Summary Judgment by Belasco\nBelasco raised the following arguments in opposition to summary judgment. The section 1542 waiver entered in 2006 cannot be applied to latent defects under section 929 of the Act. A cash settlement that includes a section 1542 waiver of unknown claims is unreasonable as a matter of law under section 929. Wells had a statutory duty to warrant that the home was built in a workmanlike manner for a period of 10 years, and Belasco\u2019s right to that protection was not waivable. Wells had tried to correct the error regarding the roofing contractor on the permit, but left the city\u2019s office before making the correction.\nSan Diego Hospice, supra, 31 Cal.App.4th 1048, relied upon by Wells, is distinguishable on its facts because Wells and Belasco were not on equal footing at the time of the 2006 settlement. Only Wells knew who installed the roof, Wells misled the City of Manhattan Beach in the permit, and he did not inform Belasco that the roof was not installed by a roofing contractor. Additionally San Diego Hospice did not deal with a statutory warranty, while the Act specifically provides for a 10-year warranty on the workmanship of a roof of new residential construction, as does Code of Civil Procedure section 337.15.\nSection 926 prohibits a release or waiver in exchange for repair work; a builder may not obtain a release or waiver of any kind in exchange for the repair work mandated by the Act. There is no evidence that the 2006 settlement contemplated a problem with the roof. The settlement was for the known defects, Belasco had no knowledge of the roof defects at that time, and had no way at that time to discover them as they were latent defects. Wells had a duty to disclose to Belasco who performed the work on the project and he committed fraud when he named Action Roofing as the contractor to the City of Manhattan Beach when he applied for the permit.\nThe Reply to the Opposition to Summary Judgment\nWells and American Contractors argued in reply that the issue is whether the 2006 release bars Belasco\u2019s 2012 claim. Although a release in exchange for repairs is prohibited under the Act, section 929, expressly allows a builder to \u201cobtain a reasonable release in exchange for the cash payment. The builder may negotiate the terms and conditions of any reasonable release in terms of scope and consideration in conjunction with a cash payment under this chapter.\u201d (\u00a7 929, subd. (b).) In addition, a builder may assert a defense to a claim under the Act if the builder has obtained a valid release. (\u00a7 945.5, subd. (f).)\nThe 2006 release was the reasonable result of an arm\u2019s-length negotiation, with counsel on both sides, that settled Belasco\u2019s 2006 claim and all other potential claims in return for a $25,000 payment by Wells. Belasco, an attorney, testified that he read and understood the terms each of the three sections in the release referring to broad waivers of claims before signing the agreement.\nThe fact that Wells was aware that the roof subcontractor was listed incorrectly in the permit is not relevant. Wells had no evidence the roof was allegedly defective in 2006, and the condition of the roof is unrelated to the identity of the roofing contractor.\nBecause the law permits a release and waiver of unknown claims, there was no need for the parties to have contemplated an issue with the roof in 2006 when the settlement was signed. Belasco knowingly assumed the risk of unidentified construction by releasing Wells of all liability in return for $25,000.\nRuling of the Trial Court\nSummary judgment was granted in favor of Wells and American Contractors. The comprehensive nature of the release, which includes a section 1542 waiver, unequivocally provides that Belasco expressly waives any and all claims he may have now or in the future. This agreement was an arm\u2019s-length settlement negotiated while Belasco was represented by counsel. Belasco and his attorney agreed to the language in the release and did not insist that the section 1542 waiver be stricken in order to preserve his claims to unknown defects. The executed release of all claims provides a complete defense to this action and is enforceable against claims which are later discovered by the releaser under the holding in San Diego Hospice, supra, 31 Cal.App.4th 1048.\nThe court rejected Belasco\u2019s reliance on section 926, which states, \u201cThe builder may not obtain a release or waiver of any kind in exchange for the repair work mandated by this chapter.\u201d Here, the release was not in exchange for repair work but was in exchange for a cash settlement, rendering section 926 inapplicable because the release here was in exchange for a cash settlement of $25,000. Belasco also waived the 10-year warranty provided by Code of Civil Procedure section 337.15 by signing the 2006 agreement.\nThe court disagreed with Belasco\u2019s argument that section 932 allowed him to file a subsequent claim for newly discovered defects after a settlement. Section 932 specifies that such claims may be filed \u201cunless otherwise agreed to by the parties.\u201d Here, there was a settlement offer negotiated and executed in exchange for a full release of liability that included a section 1542 waiver.\nWhile section 932 is a statutory protection for buyers of new construction, buyers also have the freedom to contract away that protection. Pursuant to section 929, a builder may offer a reasonable release in exchange for a cash settlement without repair, the homeowner may accept or reject the offer, and if rejected, the action may proceed.\nThe trial court rejected Belasco\u2019s contention that the release was not \u201creasonable.\u201d The court also found Belasco failed to show the release was unenforceable, void, or against public policy. The incorrect information on the building permit with the City of Manhattan Beach was not material to the applicability and enforceability of the fully executed release negotiated in an arm\u2019s-length transaction. Belasco offered no factual support for the contention that Wells knew of the alleged defect on the roof prior to executing the release agreement.\nThe court ruled that Belasco failed to establish that a release and section 1542 waiver is against public policy under the Act. To the contrary, section 945.5, subdivision (f), provides that a builder \u201cmay be excused, in whole or in part, from any obligation, damage, loss, or liability if the builder . . . can demonstrate\u201d that \u201cthe builder has obtained a valid release\u201d as an affirmative defense to a claimed violation of the Act.\nDISCUSSION\nBelasco raises various challenges to application of the 2006 settlement as a bar to his 2012 claim. None of the challenges have merit. In addition, we conclude that Belasco has caused Hatch to become a party to this appeal, the appeal against Hatch must be dismissed for want of an appealable judgment, and Hatch is entitled to costs on appeal.\nStandards of Review\nSummary Judgment\n\u201cA trial court properly grants summary judgment where no triable issue of material fact exists and the moving party is entitled to judgment as a matter of law. (Code Civ. Proc., \u00a7 437c, subd. (c).) We review the trial court\u2019s decision de nova, considering all of the evidence the parties offered in connection with the motion (except that which the court properly excluded) and the uncontradicted inferences the evidence reasonably supports. (Artiglio v. Corning Inc. (1998) 18 Cal.4th 604, 612 [76 Cal.Rptr.2d 479, 957 P.2d 1313].) In the trial court, once a moving defendant has \u2018shown that one or more elements of the cause of action, even if not separately pleaded, cannot be established,\u2019 the burden shifts to the plaintiff to show the existence of a triable issue; to meet that burden, the plaintiff \u2018may not rely upon the mere allegations or denials of its pleadings . . . but, instead, shall set forth the specific facts showing that a triable issue of material fact exists as to that cause of action . . . .\u2019 (Code Civ. Proc., \u00a7 437c, subd. (o)(2); see Aguilar v. Atlantic Richfield Co. (2001) 25 Cal.4th 826, 854-855 [107 Cal.Rptr.2d 841, 24 P.3d 493].)\u201d (Merrill v. Navegar, Inc. (2001) 26 Cal.4th 465, 476-477 [110 Cal.Rptr.2d 370, 28 P.3d 116].)\nStatutory Interpretation\n\u201cIn construing statutes, we aim \u2018to ascertain the intent of the enacting legislative body so that we may adopt the construction that best effectuates the purpose of the law.\u2019 (Hassan v. Mercy American River Hospital (2003) 31 Cal.4th 709, 715 [3 Cal.Rptr.3d 623, 74 P.3d 726]; accord, Chavez v. City of Los Angeles (2010) 47 Cal.4th 970, 986 [104 Cal.Rptr.3d 710, 224 P.3d 41]; Coachella Valley Mosquito & Vector Control Dist. v. California Public Employment Relations Bd. (2005) 35 Cal.4th 1072, 1087 [29 Cal.Rptr.3d 234, 112 P.3d 623].) We look first to the words of the statute, \u2018because the statutory language is generally the most reliable indicator of legislative intent.\u2019 (Hassan v. Mercy American River Hospital, supra, at p. 715; accord, Chavez v. City of Los Angeles, supra, at p. 986; People v. Toney (2004) 32 Cal.4th 228, 232 [8 Cal.Rptr.3d 577, 82 P.3d 778].)\u201d (Klein v. U.S. (2010) 50 Cal.4th 68, 77 [112 Cal.Rptr.3d 722, 235 P.3d 42].)\n\u201cWhen the statutory text is ambiguous, or it otherwise fails to resolve the question of its intended meaning, courts look to the statute\u2019s legislative history and the historical circumstances behind its enactment. (Mejia v. Reed (2003) 31 Cal.4th 657, 663 [3 Cal.Rptr.3d 390, 74 P.3d 166].) Finally, the court may consider the likely effects of a proposed interpretation because \u2018 \u201c[w]here uncertainty exists consideration should be given to the consequences that will flow from a particular interpretation.\u201d \u2019 (Ibid., quoting Dyna-Med, Inc. v. Fair Employment & Housing Com. (1987) 43 Cal.3d 1379, 1387 [241 Cal.Rptr. 67, 743 P.2d 1323].)\u201d (Klein v. U.S., supra, 50 Cal.4th at P. 77.)\nInterpretation of a Settlement Agreement\n\u201cIn interpreting the settlement agreement, we apply the general rules of contract interpretation. (Edwards v. Arthur Andersen LLP (2008) 44 Cal.4th 937, 953 [81 Cal.Rptr.3d 282, 189 P.3d 285] . . . .) \u2018The goal of contractual interpretation is to determine and give effect to the mutual intention of the parties. [Citations.]\u2019 (Safeco Ins. Co. v. Robert S. (2001) 26 Cal.4th 758, 763 [110 Cal.Rptr.2d 844, 28 P.3d 889].)\u201d (Khavarian Enterprises, Inc. v. Commline, Inc. (2013) 216 Cal.App.4th 310, 318 [156 Cal.Rptr.3d 657].) \u201cBecause the parties do not rely on extrinsic evidence in construing the settlement agreement, we review the trial court\u2019s decision de nova. (See Davies Machinery Co. v. Pine Mountain Club, Inc. (1974) 39 Cal.App.3d 18, 23-24 [113 Cal.Rptr. 784].)\u201d (In re Mission Ins. Co. (1995) 41 Cal.App.4th 828, 835 [48 Cal.Rptr.2d 209].)\n\u201cReasonable Release \u201d Under the Right to Repair Act\nBelasco\u2019s first argument focuses on the language of section 929, subdivision (b), which allows a builder to obtain a \u201creasonable release\u201d in return for a cash payment and no repair. Belasco reasons that a reasonable release may only apply to a specific patent violation, as reflected in subdivision (f) of section 945.5. An unknown, latent defect cannot be the subject of a reasonable release. Because the 2006 release pertained to patent defects, and had nothing to do with the later-discovered roof defects, the 2006 cash settlement was not a reasonable release of his 2011 claim for a defective roof.\n\u201cIn response to the holding in Aas [v. Superior Court (2000) 24 Cal.4th 627 [101 Cal.Rptr.2d 718, 12 P.3d 1125]], the Legislature enacted Civil Code [fn. omitted] section 895 et seq. (\u2018the Right to Repair Act\u2019 or \u2018the Act\u2019). The Act establishes a set of building standards pertaining to new residential construction, and provides homeowners with a cause of action against, among others, builders and individual product manufacturers for violation of the standards (\u00a7\u00a7 896, 936). The Act makes clear that upon a showing of violation of an applicable standard, a homeowner may recover economic losses from a builder without having to show that the violation caused property damage or personal injury (\u00a7\u00a7 896, 942). In such an instance, the Act abrogates the economic loss rule, thus legislatively superseding Aas.\u201d (Greystone Homes, Inc. v. Midtec, Inc. (2008) 168 Cal.App.4th 1194, 1202 [86 Cal.Rptr.3d 196].)\nA builder (as defined in \u00a7 911) is liable under the Act in original residential construction for failure to follow standards, inter alla, with respect to water issues that involve roofs and roofing systems. (\u00a7 896, subd. (a)(4).) The Act has several procedural components, such as written notice of a claim (\u00a7 910), acknowledgement by the builder of the claim (\u00a7 913), the builder\u2019s right to inspect (\u00a7 916), agreements to repair (\u00a7\u00a7 917-918) and alternative dispute resolution (\u00a7 928).\nOne form of resolution of disputes under the Act is repair by the builder. By statute, repair satisfies only the defect involved and cannot be the basis for release of liability for other defects. \u201cThe builder may not obtain a release or waiver of any kind in exchange for the repair work mandated by this chapter. At the conclusion of the repair, the claimant may proceed with filing an action for violation of the applicable standard or for a claim of inadequate repair, or both, including all applicable damages available under Section 944.\u201d (\u00a7 926.) Section 926 has no application here, because it is undisputed that the 2006 dispute was resolved with a cash settlement without repair.\nAnother form of dispute resolution recognized by the act is cash settlements agreed to by the parties. (\u00a7 929.) Noticeably absent from section 929 is a prohibition against a release in return for a cash settlement; instead, a cash settlement expressly permits the builder to negotiate a reasonable release. Section 929 provides as follows; \u201c(a) Nothing in this chapter prohibits the builder from making only a cash offer and no repair. In this situation, the homeowner is free to accept the offer, or he or she may reject the offer and proceed with the filing of an action. If the latter occurs, the standards of the other chapters of this title shall continue to apply to the action. [(][] (b) The builder may obtain a reasonable release in exchange for the cash payment. The builder may negotiate the terms and conditions of any reasonable release in terms of scope and consideration in conjunction with a cash payment under this chapter.\u201d\nWe conclude that the 2006 cash settlement, with a release and section 1542 waiver, was a \u201creasonable release\u201d under the language of section 929. Belasco, himself an attorney and also represented by counsel, signed the 2006 settlement agreement. He admitted in deposition testimony that he read and understood the agreement. The agreement was explicit \u2014 in return for cash payment of $25,000, Belasco released Wells of \u201cany and all claims\u201d due to \u201cany and all known and unknown construction defects.\u201d Belasco expressly waived \u201call rights under section 1542 of the Civil Code of California,\u201d and acknowledged that \u201cin making this release and agreement it is understood and agreed that I rely wholly upon my judgment, belief, and knowledge of the nature, extent, and duration of said damages, and that I have not been influenced to any extent whatsoever in making this Release of All Claims by any representations or statements regarding said injuries, or regarding any other matters, made by any of the RELEASEES, or by any person or persons representing any of the RELEASEES, or by any physician or surgeon employed by any of the RELEASEES.\u201d\nA release and section 1542 waiver is enforceable under these circumstances. (Salehi v. Surfside III Condominium Owners Assn. (2011) 200 Cal.App.4th 1146, 1160 [132 Cal.Rptr.3d 886] (Salehi); San Diego Hospice, supra, 31 Cal.App.4th at p. 1053; Winet v. Price (1992) 4 Cal.App.4th 1159, 1173 [6 Cal.Rptr.2d 554].) \u201cIn the absence of evidence to the contrary, we presume that counsel explained to Salehi \u2018the import of the release in general and of the waiver of section 1542 in particular.\u2019 (Winet v. Price, supra, 4 Cal.App.4th at p. 1168.)\u201d (Salehi, supra, at p. 1160.) Because Belasco is \u201can attorney in [his] own right, [he] should have understood the import of the section 1542 waiver.\u201d (Ibid.)\nBelasco\u2019s argument ignores his right to reject the terms of the agreement and proceed under the provisions of the Act. (\u00a7 929, subd. (a).) When a cash offer is rejected by the homeowner, he may \u201cproceed with the filing of an action\u201d and \u201cthe standards of the other chapters of this title shall continue to apply to the action.\u201d (Ibid.) We agree with the trial court that Belasco and Wells agreed to a reasonable settlement with explicit terms negotiated between two parties, both represented by counsel.\nPurported Vagueness of the 2006 Agreement\nBelasco argues the 2006 release and section 1542 waiver are too vague to bar Belasco\u2019s 2012 claim regarding the roof. The argument is devoid of merit, because the language of the 2006 agreement could not have been more clear. It left no doubt that Belasco\u2019s acceptance of $25,000 was in return for his release and waiver of all claims of construction defect, known or unknown. \u201c[A] general release can be completely enforceable and act as a complete bar to all claims (known or unknown at the time of the release) despite protestations by one of the parties that he did not intend to release certain types of claims. (Winet v. Price[, supra,] 4 Cal.App.4th [at p.] 1173.)\u201d (San Diego Hospice, supra, 31 Cal.App.4th at p. 1053.)\nBelasco argues that the 2006 agreement does not apply to his 2012 claim for a defective roof because that potential defect was not specifically mentioned in the prior agreement. This contention amounts to nothing more than an assertion that section 1542 waivers of unknown claims are invalid. As set forth in the above-cited authorities, this type of waiver is enforceable.\nSubsequently Discovered Claims Permitted by Civil Code Section 932\nBelasco argues that section 932 specifically authorized him to bring his subsequent claim regarding the alleged defect in the roof in a separate action after the 2006 settlement. The introductory sentence of section 932 provides that \u201c[subsequently discovered claims of unmet standards shall be administered separately under this chapter, unless otherwise agreed to by the parties.\u201d Had Belasco not entered into the 2006 settlement containing a release and section 1542 waiver, his 2006 claim would not bar his 2012 action for alleged roof defects. But section 932 must be read in conjunction with the express language of section 929 approving a reasonable release in return for a cash settlement. Belasco availed himself of the statutory remedy of a cash settlement under section 929 with his express agreement that he would not bring any future claims regarding known or unknown defects. Belasco\u2019s argument would render meaningless the bulk of the terms of the 2006 settlement expressly agreed to by the parties. Section 929, not section 932, controls in this situation, and the 2006 settlement bars all subsequent actions.\nViolation of Public Policy\nBelasco next argues that public policy prohibits a general release and section 1542 waiver as to subsequently discovered latent defects. Belasco reasons that allowing a release and section 1542 waiver allows a builder, such as Wells, to circumvent the purpose of the Act, which is to protect purchasers of new single-family residences from patent and latent defects. The point does not require extended discussion. Section 929 specifically allows the parties to negotiate a reasonable settlement in return for a cash payment. As the statute specifically provides for negotiation of reasonable settlements in the context of cash payments, as opposed to the prohibition against releases in the context of repairs to settle a claim under the Act, it is apparent that there is no state policy that would prohibit a release and section 1542 waiver.\nWe again emphasize that Belasco was under no compulsion in 2006 to enter into the broadly worded release and section 1542 waiver. As the trial court pointed out in its ruling granting summary judgment, Belasco and his attorney could have rejected the agreement to the extent it included a waiver of unknown claims, and their failure to do so in the face of express language referencing section 1542 establishes Belasco\u2019s willful acceptance of the waiver. (Jefferson v. Department of Youth Authority (2002) 28 Cal.4th 299, 306-307 [121 Cal.Rptr.2d 391, 48 P.3d 423].)\nDisputed Evidence of Fraud/Negligence\nBelasco\u2019s final argument is that there is a disputed issue of material fact regarding whether Wells committed fraud by submitting permit information to Manhattan Beach he knew to be false and by failing to disclose to Belasco that the roof was not installed by a roofing contractor, but instead was built \u201cin-house\u201d by Wells. Although couched in terms of fraud and negligence, Belasco makes no specific argument on the negligence theory, which we deem abandoned. As to fraud, the record contains no evidence of a misrepresentation by Wells at any time to Belasco as to who installed the roof, nor is there evidence of reliance by Belasco on a misrepresentation as to that fact.\n\u201c \u2018The necessary elements of fraud are: (1) misrepresentation (false representation, concealment, or nondisclosure); (2) knowledge of falsity (scienter); (3) intent to defraud (i.e., to induce reliance); (4) justifiable reliance; and (5) resulting damage.\u2019 (Molko v. Holy Spirit Assn. (1988) 46 Cal.3d 1092, 1108 [252 Cal.Rptr. 122, 762 P.2d 46]; see Seeger v. Odell (1941) 18 Cal.2d 409, 414 [115 P.2d 977]; \u00a7 1709.)\u201d (Alliance Mortgage Co. v. Rothwell (1995) 10 Cal.4th 1226, 1239 [44 Cal.Rptr.2d 352, 900 P.2d 601], fn. omitted.)\n\u201cWe \u2018independently construe the writing to determine whether the release encompasses the present claim[s]\u2019 for negligent misrepresentation and fraud. (Winet v. Price, supra, 4 Cal.App.4th at p. 1166.)\u201d (Salehi, supra, 200 Cal.App.4th at p. 1159.) \u201cA party seeking rescission based on fraudulent nondisclosure must show (1) the defendant failed to disclose a material fact which he knew or believed to be true, and (2) the defendant had a duty to disclose that fact. (Welch v. State of California (1983) 139 Cal.App.3d 546, 556 [188 Cal.Rptr. 726].) The duty to disclose arises when two elements are present; (1) the material fact is known to (or accessible only to) the defendant; and (2) the defendant knows the plaintiff is unaware of the fact and cannot reasonably discover the undisclosed fact. [Fn. omitted.] (Reed v. King (1983) 145 Cal.App.3d 261, 265 [193 Cal.Rptr. 130]; Karoutas v. HomeFed Bank (1991) 232 Cal.App.3d 767, 771 [283 Cal.Rptr. 809].) [\u00b6] Since the second prong giving rise to an affirmative obligation to disclose rests on the defendant\u2019s knowledge of significant facts the plaintiff needs but does not have, we conclude the duty cannot arise when, as here, such significant facts are not actually known to the defendant.\u201d (San Diego Hospice, supra, 31 Cal.App.4th at p. 1055.)\nBelasco presented no evidence of a misrepresentation made to him by Wells. Wells never represented the names of subcontractors to Belasco. We agree with the trial court that the name of the roofing contractor on the permit is not a material issue, because Belasco does not suggest he purchased the residence in reliance on the information in the permit.\nBelasco also did not establish the element of scienter. The record contains no evidence that Wells knew at the time of sale or in 2006 that the roof was defective.\nFinally, Belasco has not presented evidence that he bought the house in reliance on a false representation that a roofing contractor had installed the roof. Belasco specifically admitted his decision to enter into the 2006 settlement was a product of his own judgment and not influenced by any statement by Wells: \u201c[I]t is understood and agreed that I rely wholly upon my judgment, belief, and knowledge of the nature, extent, and duration of said damages, and that I have not been influenced to any extent whatsoever in making this Release of All Claims by any representations or statements regarding said injuries, or regarding any other matters, made by any of the RELEASEES, or by any person or persons representing any of the RELEASEES, or by any physician or surgeon employed by any of the RELEASEES.\u201d\nBelasco\u2019s claim of fraud in connection with the 2006 release and section 1542 waiver was properly rejected by the trial court.\nResolution of the Appeal as to Hatch\nHatch, representing himself, filed an answer to the complaint. He did not join in the motion for summary judgment filed by Wells and American Contractors. The judgment makes no reference to Hatch. However, the notice of appeal was served by Belasco on Hatch.\nBelasco made no argument in his briefs on appeal regarding Hatch. Hatch filed a respondent\u2019s brief on appeal, essentially joining in the arguments of Wells and American Contractors. This court requested the parties to address whether Hatch was a party to the appeal, and if not, whether the appeal should be dismissed as to Hatch and whether he should be awarded costs on appeal.\nIn response to our request, counsel for Belasco wrote that because Hatch was not a party to the summary judgment motion, \u201cAppellant did not believe it was necessary to include Mr. Hatch as a respondent in this appeal. . . .\u201d Counsel\u2019s letter further stated, \u201cMr. Hatch immersed himself in this appeal by filing his respondent\u2019s brief\u2019 and if the court dismisses the appeal as to Hatch, costs should not be awarded.\nOur review of the record reveals a different explanation for how Hatch became \u201cimmersed\u201d in this appeal. Belasco served Hatch with the notice of appeal. More importantly, Belasco filed a civil case information statement on appeal identifying Hatch as a party \u201cwho will participate in the appeal.\u201d Belasco\u2019s briefs on appeal were served on Hatch. The clerk of this court served orders and notices on Hatch in reliance on Belasco\u2019s representation that Hatch is a party to the appeal. Belasco has treated Hatch as a respondent on appeal. We conclude that Hatch participated in this appeal in direct response to actions taken by Belasco.\nThe appeal is dismissed as to Hatch, who is entitled to costs on appeal.\nDISPOSITION\nThe judgment is affirmed as to Wells and American Contractors. The appeal is dismissed as to Hatch. Costs on appeal are awarded to Wells, American Contractors, and Hatch.\nMosk, Acting P. J., and Goodman, J., concurred.\nAll statutory references are to the Civil Code, unless otherwise indicated.\nAmerican Contractors Indemnity Company was erroneously named in the complaint as Surety Company of the Pacific.\nHatch was substituted into the action as a Doe defendant. The complaint contains no allegations against him. As discussed more fully below, the record contains no judgment against Hatch, but Belasco served him with the notice of appeal and listed Hatch in the civil case information statement on appeal as a party \u201cwho will participate in the appeal.\u201d Belasco\u2019s briefs on appeal were served on Hatch,\nAlthough the caption of the complaint indicates a cause of action for negligent misrepresentation, the body of the complaint instead contains a cause of action for negligent construction without regard to negligent misrepresentation.\nHatch did not join in the motion for summary judgment.\nWe take judicial notice of Belasco\u2019s civil case information statement on appeal. (Evid. Code, \u00a7\u00a7 452, subd. (d), 459, subds. (a) & (c).)\nJudge of the Los Angeles Superior Court, assigned by the Chief Justice pursuant to article VI, section 6 of the California Constitution.",
+        "type": "majority",
+        "author": "KRIEGLER, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Fruchter & Sgro, W. Randall Sgro and Steve J. Kim for Plaintiff and Appellant.",
+      "Splinter & Thai, Robert G. Splinter and Min N. Thai for Defendants and Respondents Gary Loren Wells and American Contractors Indemnity Company.",
+      "Glenn Hatch, in pro. per., for Defendant and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. B254525.\nSecond Dist., Div. Five.\nFeb. 17, 2015.]\nDAVID BELASCO, Plaintiff and Appellant, v. GARY LOREN WELLS et al., Defendants and Respondents.\nCounsel\nFruchter & Sgro, W. Randall Sgro and Steve J. Kim for Plaintiff and Appellant.\nSplinter & Thai, Robert G. Splinter and Min N. Thai for Defendants and Respondents Gary Loren Wells and American Contractors Indemnity Company.\nGlenn Hatch, in pro. per., for Defendant and Respondent."
+  },
+  "file_name": "0409-01",
+  "first_page_order": 401,
+  "last_page_order": 418
+}

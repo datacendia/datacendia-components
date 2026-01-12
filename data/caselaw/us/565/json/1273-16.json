@@ -1,0 +1,59 @@
+{
+  "id": 12252897,
+  "name": "Newson v. United States",
+  "name_abbreviation": "Newson v. United States",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. 11-8881",
+  "first_page": "1273",
+  "last_page": "1273",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1273"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.662,
+    "sha256": "117d3b5c2a02bed0f21b9aa4485a9592a2a1af6e536b54ebd4415acbc5955dc5",
+    "simhash": "1:a668df02085e056e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Newson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8881.\nNewson v. United States."
+  },
+  "file_name": "1273-16",
+  "first_page_order": 1355,
+  "last_page_order": 1355
+}

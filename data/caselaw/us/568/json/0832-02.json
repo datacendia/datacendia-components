@@ -1,0 +1,59 @@
+{
+  "id": 12411323,
+  "name": "Martinez v. Trombley, Warden",
+  "name_abbreviation": "Martinez v. Trombley",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10060",
+  "first_page": "832",
+  "last_page": "832",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 832"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 78,
+    "ocr_confidence": 0.668,
+    "sha256": "fa155392b7b7f30e77be7be706720565d336d5a9c5cd3ece45ea3ec853f73f5b",
+    "simhash": "1:bb3a36602e1fc964",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Martinez v. Trombley, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10060.\nMartinez v. Trombley, Warden."
+  },
+  "file_name": "0832-02",
+  "first_page_order": 908,
+  "last_page_order": 908
+}

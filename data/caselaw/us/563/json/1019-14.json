@@ -1,0 +1,98 @@
+{
+  "id": 5943069,
+  "name": "In re Disbarment of Stocker",
+  "name_abbreviation": "In re Disbarment of Stocker",
+  "decision_date": "2011-05-31",
+  "docket_number": "No. D-2556",
+  "first_page": "1019",
+  "last_page": "1019",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1019"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "562 U. S. 816",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12437792,
+        5975265,
+        6004929,
+        6033700,
+        5898764,
+        5940756,
+        12437788,
+        5935161,
+        12437786,
+        12437787,
+        5938108,
+        12437789,
+        12437790,
+        12437791
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/178/0273-02",
+        "/us/562/0816-05",
+        "/us/562/0816-06",
+        "/us/562/0816-03",
+        "/us/562/0816-07",
+        "/us/562/0816-02",
+        "/l-ed-2d/178/0272-04",
+        "/us/562/0816-01",
+        "/l-ed-2d/178/0272-02",
+        "/l-ed-2d/178/0272-03",
+        "/us/562/0816-04",
+        "/l-ed-2d/178/0272-05",
+        "/l-ed-2d/178/0272-06",
+        "/l-ed-2d/178/0273-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 108,
+    "ocr_confidence": 0.604,
+    "sha256": "c91dedae8b08a9643b64e092d67419a9dc6b34a80592d86f0dd380d4e3ffad7c",
+    "simhash": "1:3168c6226b8c8ae7",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:44:09.189648+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Stocker."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see 562 U. S. 816.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2556.\nIn re Disbarment of Stocker."
+  },
+  "file_name": "1019-14",
+  "first_page_order": 1045,
+  "last_page_order": 1045
+}

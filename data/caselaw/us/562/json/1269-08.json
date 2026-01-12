@@ -1,0 +1,59 @@
+{
+  "id": 6010912,
+  "name": "In re Tobey; In re Soto; and In re Nesbitt",
+  "name_abbreviation": "In re Tobey",
+  "decision_date": "2011-03-07",
+  "docket_number": "No. 10-8888; No. 10-8912; No. 10-8947",
+  "first_page": "1269",
+  "last_page": "1269",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1269"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 128,
+    "ocr_confidence": 0.609,
+    "sha256": "bd9fc587aaf5ae42827d62be223bc8f145ba44b014fcf8c0d12da181af3625e6",
+    "simhash": "1:475a9827920b5f0d",
+    "word_count": 23
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Tobey; In re Soto; and In re Nesbitt."
+    ],
+    "opinions": [
+      {
+        "text": "Petitions for writs of habeas corpus denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8888.\nNo. 10-8912.\nNo. 10-8947.\nIn re Tobey; In re Soto; and In re Nesbitt."
+  },
+  "file_name": "1269-08",
+  "first_page_order": 1291,
+  "last_page_order": 1291
+}

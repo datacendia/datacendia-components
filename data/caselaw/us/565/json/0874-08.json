@@ -1,0 +1,59 @@
+{
+  "id": 12212448,
+  "name": "Forde v. United States",
+  "name_abbreviation": "Forde v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11239",
+  "first_page": "874",
+  "last_page": "874",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 874"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.698,
+    "sha256": "ec40462511987acf99eb50fb0300668e973b25885bba4a06fb292ad780598670",
+    "simhash": "1:01aa9a02ce849338",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Forde v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11239.\nForde v. United States."
+  },
+  "file_name": "0874-08",
+  "first_page_order": 956,
+  "last_page_order": 956
+}

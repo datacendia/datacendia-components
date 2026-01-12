@@ -1,0 +1,519 @@
+{
+  "id": 12518622,
+  "name": "UNITED STATES of America, Appellee, v. Malcolm FRENCH and Rodney Russell, Defendants, Appellants.",
+  "name_abbreviation": "United States v. French",
+  "decision_date": "2018-09-17",
+  "docket_number": "Nos. 16-2386; 16-2392",
+  "first_page": "111",
+  "last_page": "125",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "904 F.3d 111"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "1st Cir.",
+    "id": 8809,
+    "name": "United States Court of Appeals for the First Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "873 F.3d 1",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12263353
+      ],
+      "pin_cites": [
+        {
+          "page": "16"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/873/0001-01"
+      ]
+    },
+    {
+      "cite": "320 F.3d 92",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9322931
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "107"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/320/0092-01"
+      ]
+    },
+    {
+      "cite": "660 F.3d 537",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3843572
+      ],
+      "pin_cites": [
+        {
+          "page": "542"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/660/0537-01"
+      ]
+    },
+    {
+      "cite": "529 U.S. 753",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9509115
+      ],
+      "weight": 3,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "760",
+          "parenthetical": "\"[W]e conclude that a defendant who preemptively introduces evidence of a prior conviction on direct examination may not on appeal claim that the admission of such evidence was error.\""
+        },
+        {
+          "parenthetical": "\"[W]e conclude that a defendant who preemptively introduces evidence of a prior conviction on direct examination may not on appeal claim that the admission of such evidence was error.\""
+        },
+        {
+          "parenthetical": "\"[W]e conclude that a defendant who preemptively introduces evidence of a prior conviction on direct examination may not on appeal claim that the admission of such evidence was error.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/529/0753-01"
+      ]
+    },
+    {
+      "cite": "476 U.S. 79",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12787
+      ],
+      "weight": 3,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "96-98"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/476/0079-01"
+      ]
+    },
+    {
+      "cite": "660 F.3d 543",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3843234
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "546"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/660/0543-01"
+      ]
+    },
+    {
+      "cite": "512 F.3d 1227",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4069486
+      ],
+      "pin_cites": [
+        {
+          "page": "1235"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/512/1227-01"
+      ]
+    },
+    {
+      "cite": "504 U.S. 719",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11730774
+      ],
+      "weight": 4,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "729"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/504/0719-01"
+      ]
+    },
+    {
+      "cite": "379 U.S. 466",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11731209
+      ],
+      "weight": 3,
+      "year": 1965,
+      "pin_cites": [
+        {
+          "page": "471-74"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/379/0466-01"
+      ]
+    },
+    {
+      "cite": "273 U.S. 510",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6142780
+      ],
+      "weight": 3,
+      "year": 1927,
+      "pin_cites": [
+        {
+          "page": "522-24, 535"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/273/0510-01"
+      ]
+    },
+    {
+      "cite": "478 U.S. 570",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6210041
+      ],
+      "weight": 3,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "577-78"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/478/0570-01"
+      ]
+    },
+    {
+      "cite": "527 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1248184
+      ],
+      "weight": 3,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "8-9",
+          "parenthetical": "quoting Rose v. Clark, 478 U.S. 570, 577-78, 106 S.Ct. 3101, 92 L.Ed.2d 460 (1986) "
+        },
+        {
+          "parenthetical": "quoting Rose v. Clark, 478 U.S. 570, 577-78, 106 S.Ct. 3101, 92 L.Ed.2d 460 (1986) "
+        },
+        {
+          "parenthetical": "quoting Rose v. Clark, 478 U.S. 570, 577-78, 106 S.Ct. 3101, 92 L.Ed.2d 460 (1986) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/527/0001-01"
+      ]
+    },
+    {
+      "cite": "499 U.S. 279",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11318776
+      ],
+      "weight": 3,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "310"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/499/0279-01"
+      ]
+    },
+    {
+      "cite": "523 U.S. 614",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11504035
+      ],
+      "weight": 5,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "622"
+        },
+        {
+          "page": "655-66"
+        },
+        {
+          "page": "659-60"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/523/0614-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 2255",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "806 F.3d 653",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4358871
+      ],
+      "pin_cites": [
+        {
+          "page": "659-60"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/806/0653-01"
+      ]
+    },
+    {
+      "cite": "759 F.2d 961",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        388312
+      ],
+      "pin_cites": [
+        {
+          "page": "967"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/759/0961-01"
+      ]
+    },
+    {
+      "cite": "675 F.3d 48",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3751369
+      ],
+      "pin_cites": [
+        {
+          "page": "58"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/675/0048-01"
+      ]
+    },
+    {
+      "cite": "251 F.3d 242",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11093297
+      ],
+      "pin_cites": [
+        {
+          "page": "250"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/251/0242-01"
+      ]
+    },
+    {
+      "cite": "846 F.3d 458",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12127924
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "464"
+        },
+        {
+          "page": "464"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/846/0458-01"
+      ]
+    },
+    {
+      "cite": "841 F.2d 1197",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        11304610
+      ],
+      "pin_cites": [
+        {
+          "page": "1205"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/841/1197-01"
+      ]
+    },
+    {
+      "cite": "724 F.3d 150",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4068665
+      ],
+      "weight": 7,
+      "pin_cites": [
+        {
+          "page": "165-66"
+        },
+        {
+          "page": "166"
+        },
+        {
+          "parenthetical": "citations omitted"
+        },
+        {
+          "page": "165-66"
+        },
+        {
+          "page": "166"
+        },
+        {
+          "parenthetical": "background"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/724/0150-01"
+      ]
+    },
+    {
+      "cite": "464 U.S. 548",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6201349
+      ],
+      "weight": 3,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "556",
+          "parenthetical": "emphasis in original"
+        },
+        {
+          "parenthetical": "emphasis in original"
+        },
+        {
+          "parenthetical": "emphasis in original"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/464/0548-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1687,
+    "char_count": 41946,
+    "pagerank": {
+      "raw": 4.666970501906556e-08,
+      "percentile": 0.29338139018915776
+    },
+    "sha256": "1f35294dcdfac76311f2f245a3fbd66e3699d2bf764c28eb880e7a8b88115997",
+    "simhash": "1:95c20c096e078770",
+    "word_count": 6827
+  },
+  "last_updated": "2024-02-27T18:45:53.632327+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Thompson, Selya, and Kayatta, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Appellee,\nv.\nMalcolm FRENCH and Rodney Russell, Defendants, Appellants."
+    ],
+    "opinions": [
+      {
+        "text": "KAYATTA, Circuit Judge.\nAfter their convictions on charges arising out of a large-scale marijuana-farming operation, Rodney Russell and Malcolm French sought a new trial based on claims that one juror lied in filling out the written questionnaire given to all prospective jurors prior to trial, and that a second juror lied in voir dire. As we will explain, we agree that the district court's investigation concerning the answers given by one of the jurors was inadequate, so we vacate its denial of the defendants' motion for a new trial. We otherwise reject the defendants' various other challenges to their convictions and sentences.\nI.\nMalcolm French first entered the logging business as a college student, contracting with landowners to cut down trees. He grew the business, first hiring his own crew, and then buying land of his own. By 2009, French-either personally or through various companies he controlled-owned approximately 80,000 acres of land, including an area in Washington County, Maine, known as Township 37. French employed co-defendant Rodney Russell as an office manager of sorts, keeping the books for his businesses, writing company checks, and using a company credit card.\nIn September 2009, Maine law enforcement discovered a series of substantial marijuana-cultivation sites on French's Township 37 property. Following an investigation, a grand jury indicted Russell and French for conspiring to manufacture marijuana, manufacturing marijuana, maintaining drug-involved premises, harboring illegal aliens, and conspiring to distribute and possess with intent to distribute marijuana. At trial, numerous eyewitnesses described the direct involvement of Russell and French in the marijuana production. According to those witnesses, French hired one witness to recruit migrant workers to clean the product, and both French and Russell handled incoming payments from marijuana sales and sold the crop. The property contained shacks for drying the crop. And one witness explained how workers grew marijuana in wire baskets containing a fertilizer called Pro-Mix that was purchased either through a credit card in French's name or by Russell, via check or cash.\nFrench and Russell both testified in their own defense, denying culpability. French testified that he had previously discovered marijuana elsewhere on his property and called a warden, but the warden did nothing, and as a result, he chose not to alert authorities when he discovered other growing operations. Asked to explain his large purchase of the Pro-Mix fertilizer, he testified that after a man named Steve Benson (who testified as part of French's case-in-chief) inadvertently destroyed some marijuana, the putative owners of that marijuana, \"the Red Patch gang,\" demanded reimbursement, which Russell gave in the form of a large amount of Pro-Mix. Evidently unpersuaded, the jury convicted French and Russell on all counts. Eventually, the district court sentenced Russell to 151 months' imprisonment and French to 175 months' imprisonment. Transcript of Sentencing Proceedings at 135, 139, United States v. French, No. 12-cr-00160-JAW (D. Me. Nov. 10, 2016), ECF No. 729 [hereinafter \"Transcript of Sentencing Proceedings\"]. They now appeal both their convictions and their sentences.\nII.\nWe consider first the appeal from the district court's denial of a motion for a new trial based on the alleged bias of Juror 86.\nA.\nShortly after sentencing, defense counsel reported that they had just learned that a prisoner housed in the Somerset County Jail with co-defendant Kendall Chase told Chase that Juror 86, who sat on the jury before which the case was tried, was the mother of a small-time marijuana trafficker. After Chase told French, French's counsel investigated Chase's report. They learned that Juror 86's son had indeed been convicted of marijuana and other drug-related offenses multiple times between 2002 and 2014 arising out of his use and sale of marijuana and cocaine. At one point, Juror 86 visited her son in jail. She also paid the legal fees arising out of his offenses on multiple occasions.\nThe government does not challenge the accuracy of this information concerning Juror 86, none of which had been disclosed by Juror 86 in response to questions asked of her during the jury selection process. As part of that process, prospective jurors filled out a questionnaire, which included the following prompt:\n3. a.) Please describe briefly any court matter in which you or a close family member were involved as a plaintiff, defendant, witness, complaining witness or a victim. [Prospective jurors were given space to write]\nb.) Was the outcome satisfactory to you? [Prospective jurors were given \"yes\" and \"no\" check boxes here]\nc) If no, please explain. [Prospective jurors were given space to write]\nOrder Denying Motion for New Trial at 4, United States v. French, No. 12-cr-00160-JAW (D. Me. Nov. 16, 2016), ECF No. 734 [hereinafter \"Order Denying Motion for New Trial\"]. Juror 86 wrote \"n/a\" after part (a), and left parts (b) and (c) blank. She also did not complete the second page of the questionnaire, which contained six additional prompts and a space to sign and declare under penalty of perjury that the prospective juror had answered all the questions truthfully and completely.\nWhen jury selection began, the magistrate judge asked the following of the prospective jurors:\nNow, as you've heard for a couple hours now this morning, this is a case about marijuana, which is a controlled substance under federal law. Is there anyone on the jury panel who themselves personally or a close family member has had any experiences involving controlled substances, illegal drugs, specifically marijuana, that would affect your ability to be impartial?\nAnd by any experiences, I'm talking about whether you or a close family member have been involved in a situation involving substance abuse or involving treatment that-maybe professionally treating that condition, or being the victim of a crime involving those substances, or being the perpetrator of a crime where someone alleged those substances were involved. Any ... experiences regarding illegal drugs, and specifically marijuana, but any illegal drug, controlled substance under federal law, is there anyone who's had that sort of experience?\nId. at 5-6. Juror 86 did not respond to this question. Later in the process, the magistrate judge asked:\nIs there anyone here who knows of any other reason, some question I haven't asked or something that's been sitting there troubling you, why hasn't she asked me about this, those attorneys, those people should know about this fact and it might interfere with me being a fair and impartial juror or it might appear that it would interfere, is there any other fact that you feel would affect in any way your ability to be a fair and impartial juror?\nId. at 6. Again, Juror 86 was silent.\nIn a motion for a new trial filed a week after sentencing, defendants argued that Juror 86's answers to the questionnaire and her lack of a response to oral voir dire questions amounted to dishonest answers to material questions, and that had the answers been honest, there would have been a valid basis for a challenge for cause. They also asked for an evidentiary hearing to question Juror 86 about her answers.\nJust over six months later, the district court denied the motion in a written order. It first surveyed the possible meanings of \"n/a\" as well as the term \"court matter\" in the questionnaire, and also noted that it did not know \"what exactly Juror 86 was thinking when she wrote 'n/a' because defense counsel did not seek to question her during voir dire.\" Id. at 21-23. It went on to state that \"[w]ith these ambiguities, the Court concludes that the Defendants have not demonstrated that Juror 86 failed to answer honestly a material voir dire question.\" Id. at 23 (internal quotations omitted). At the same time, the district court concluded that the response to the questionnaire was \"likely mistaken\" and that \"the question as to whether any close family member-her son obviously qualifies-was involved in any court matter should have elicited a response from Juror 86 that alerted the magistrate judge and the attorneys ... about her son's involvement with court matters.\" Id. at 23-24. The district court stated, however, that because this was mere mistake, and not dishonesty, a new trial was unwarranted absent a more flagrant showing of juror bias. Id. at 24-25. The district court also held that defense counsel's failure to inquire further of Juror 86 based on her obviously incomplete questionnaire precluded defendants from relying on the questionnaire to claim juror misconduct. Id. at 29-30. The district court found Juror 86's non-answers to the oral voir dire questions similarly inconsequential. Noting that the oral question, by its terms, only asked for information that in the juror's opinion affected her ability to be impartial, it reasoned that Juror 86 might well have known of her son's criminal matters but felt that they did not affect her ability to be impartial, and thus, a non-answer at oral voir dire was appropriate. Id. at 32-36.\nThe district court also concluded that defendants had failed to demonstrate that truthful answers would have offered a valid basis for a challenge for cause. Id. at 36-42. Finally, the district court found that the passage of two years from the close of the trial cut against any request for an evidentiary hearing. Id. at 44-50.\nB.\nTo obtain a new trial based on a juror's failure to respond accurately to questions asked of prospective jurors prior to their selection to sit as jurors, \"a party must first demonstrate that a juror failed to answer honestly a material question on voir dire, and then further show that a correct response would have provided a valid basis for a challenge for cause.\" McDonough Power Equip., Inc. v. Greenwood, 464 U.S. 548, 556, 104 S.Ct. 845, 78 L.Ed.2d 663 (1984) (emphasis in original). \"The outcome of this inquiry depends on whether a reasonable judge, armed with the information that the dishonest juror failed to disclose and the reason behind the juror's dishonesty, would [have struck the juror for cause].\" Sampson v. United States, 724 F.3d 150, 165-66 (1st Cir.2013) (emphasis added). In evaluating the juror's \"capacity and ... will to decide the case solely on the evidence,\" id. at 166, the court may consider factors including but not limited to \"the juror's interpersonal relationships; the juror's ability to separate her emotions from her duties; the similarity between the juror's experiences and important facts presented at trial; the scope and severity of the juror's dishonesty; and the juror's motive for lying.\" Id. (citations omitted).\nSeparate and apart from the showing that a defendant must make to obtain a new trial in such cases, there is the question of process. Specifically, to what extent should the district court allow or conduct an investigation into an allegation of juror misconduct? Given the important interest in the finality of trial, trial courts should not accommodate fishing expeditions after a verdict has been rendered, especially years after the fact, conducted in the hope of establishing a toehold for a misconduct claim. See, e.g., Neron v. Tierney, 841 F.2d 1197, 1205 (1st Cir.1988) (\"[C]ourts generally should be hesitant to haul jurors in after they have reached a verdict to probe for potential instances of bias, misconduct, or extraneous influences.\" (alterations and internal quotation marks omitted) ). At the same time, we have said that defendants seeking to establish juror misconduct bear an initial burden only of coming forward with a \"colorable or plausible\" claim. United States v. Zimny, 846 F.3d 458, 464 (1st Cir.2017). Once defendants have met this burden, an \"unflagging duty\" falls to the district court to investigate the claim. Id. (quoting United States v. Paniagua-Ramos, 251 F.3d 242, 250 (1st Cir.2001) ). The type of investigation the district court chooses to conduct is within the district court's discretion; it may hold a formal evidentiary hearing, but depending on the circumstances, such a hearing may not be required. Id. at 465. \"[T]he court's primary obligation is to fashion a responsible procedure for ascertaining whether misconduct actually occurred and if so, whether it was prejudicial.\" Id. (internal quotation marks omitted) (quoting United States v. Rodriguez, 675 F.3d 48, 58 (1st Cir.2012) ).\nHere, the defendants came forward with factual information fairly establishing that Juror 86 likely gave an inaccurate answer to question 3 on the written questionnaire. Further, the uncontested facts submitted by defendants also made it quite likely-although not certain-that the juror's inaccuracy was knowing. Defendants also showed that the correct answer to question 3 may well have been quite relevant to assessing the juror's ability to fairly sit in judgment in this case. The mother of a drug user arrested for dealing to support his drug habit might have some strong thoughts about those who produce the drugs.\nThe district court posited that perhaps \"n/a\" meant something other than \"not applicable.\" And the government supposes that the juror may not have regarded her son's experience as involving a \"court matter.\" Perhaps, too, her son's prosecution had left her hostile toward government prosecutors. Each hypothesis is plausible, but insufficiently likely so as to warrant rejecting without investigation the claim of juror misconduct as improbable. The defendants' initial burden is only to establish that their claim of juror misconduct is \"colorable or plausible.\" Id. at 464. They need not show at the outset that their claim is so strong as to render contrary conclusions implausible. Nor need the defendants support their claim initially with testimony from the juror. In this circuit, counsel cannot even question the juror until the court gives permission. See United States v. Kepreos, 759 F.2d 961, 967 (1st Cir.1985). So a court-supervised investigation aimed at confirming and then exploring further the apparent dishonesty was called for.\nIn concluding otherwise, the district court placed great weight on the fact that defense counsel did not ask Juror 86 more questions at voir dire or bring to the court's attention the fact that the juror did not complete or sign the questionnaire. Concluded the district court, \"it was the Defendants' own responsibility to recognize the problem and address the issue when the voir dire commenced.\" Order Denying Motion for New Trial at 30. We disagree. As for question 3, taking \"n/a\" according to its most customary meaning, there was no reason to ask any follow-up. So the relevant inquiry is whether defendants effectively waived any ability to complain about a possible lie by a juror in responding to question 3 because defendants did not complain about the juror's failure to answer other, unrelated questions and sign the form.\nCertainly, counsel could have insisted that the juror finish the form and sign it. And we have no reason to doubt that their failure to do so likely precluded the defendants from later pointing to those omissions as a basis for any relief. We see no good reason, though, to extend that preclusion to a request for relief based on the later discovery that an answer actually given was dishonest and materially false. Waiver is too strong a sanction to be extended so broadly. Given no apparent connection between question 3 and the unanswered questions, and no good reason to conclude that answers to those questions likely would have revealed the problem with the answer to question 3, it would be unduly speculative to conclude that any insistence that Juror 86 complete the questionnaire would have put either party in a different position.\nThe district court was concerned, too, that the long passage of time since trial would render it \"very difficult ... to recreate what happened at voir dire.\" Id. at 47. That might be the case, but then again it might well not, particularly if Juror 86's reasons for answering inaccurately were strongly felt. The only way to tell if the passage of time would have erased Juror 86's memory of events would be to ask her to recall these events, something the district court declined to do.\nThe district court also based its holding on a finding that Juror 86 \"honestly\" answered question 3. Id. at 23-25. But this conclusion was simply another application of the waiver theory that we have just discussed and rejected, as the able district court judge frankly acknowledged, in stating: \"The Court does not know what exactly Juror 86 was thinking when she wrote 'n/a' because defense counsel did not seek to question her during voir dire.\" Id. at 23.\nAdditionally, the district court decided that a correct answer to question 3 would have produced no grounds to have Juror 86 stricken for cause. Id. at 41-42. Even now, though, we only know what the truthful answer to question 3(a) would have been. What the answers were to parts 3(b) and (c), or to any likely follow-up questions, remain mysteries. Moreover, we do not see how a court can say whether the juror in this instance was unduly biased without knowing why she answered as she did. For this reason, the ultimate inquiry under Sampson requires that the court consider \"the reason behind the juror's dishonesty.\" 724 F.3d at 165-66. Again, it seems unlikely that the district court misconstrued Sampson, and more likely that its finding on this point presumed the correctness of its ruling that waiver precluded proof of dishonesty.\nAs to Juror 86's non-response during oral voir dire, we agree with the district court that the questions posed were ambiguous and thus Juror 86's lack of an affirmative response was not itself cause for finding juror misconduct. For our purposes, though, the important point is that nothing about the juror's conduct at the voir dire served to put counsel on notice that the answer to question 3 on the questionnaire was false.\nC.\nOne major loose end remains. The district court also concluded that even if Juror 86 had committed misconduct, there was no prejudice to defendants because the government had a strong case. Order Denying Motion for New Trial at 50. The government latches onto this finding, contending that the case against defendants was \"overwhelming\" and that following Wilder v. United States, 806 F.3d 653, 659-60 (1st Cir.2015), we should find any error here to be harmless. Unsurprisingly, defendants disagree. They contend that to the extent harmless error analysis is appropriate at all, the question of prejudice is not answered by determining whether an unbiased jury would have convicted, but rather, by determining whether the potentially biased juror was actually biased.\nDefendants have the better of the argument. Wilder is distinguishable from the present case on several axes. First and foremost, Wilder concerned a procedurally defaulted claim, raised for the first time on a petition pursuant to 28 U.S.C. \u00a7 2255, challenging a federal court conviction, and the Supreme Court has made very clear that relief under section 2255 is only appropriate when \"actual prejudice\" results to the defendant. Id. at 658 (citing Bousley v. United States, 523 U.S. 614, 622, 118 S.Ct. 1604, 140 L.Ed.2d 828 (1998) ). No such categorical bar exists on direct appeal. Second, and perhaps more fundamentally, the nature of the right violated in Wilder was different than that at issue here. In Wilder, the petitioner claimed to have been denied the right to a public jury selection process and the right to be present for that process. Id. at 655-66. The petitioner in Wilder made no claim that any member of the jury was biased, only that he might have asked different questions during voir dire thus securing a more favorable jury. Id. at 659-60. Here, by contrast, defendants have made a colorable claim that a biased juror was seated, and seek to investigate that claim further. And since rejecting a claim of error as harmless presupposes the existence of the error in question, we would assume in harmless error analysis that Juror 86 was, in fact, biased.\nIn any event, the decisive point is that we view the presence of a biased juror as structural error-that is, per se prejudicial and not susceptible to harmlessness analysis. While we have not previously stated the matter so directly, precedent from this court and from the Supreme Court dictates that conclusion. The Supreme Court has explained that, though structural error is rare, it is the appropriate finding for \"defect[s] affecting the framework within which the trial proceeds, rather than simply an error in the trial process itself,\" Arizona v. Fulminante, 499 U.S. 279, 310, 111 S.Ct. 1246, 113 L.Ed.2d 302 (1991), and for those errors that \"deprive defendants of 'basic protections' without which 'a criminal trial cannot reliably serve its function as a vehicle for determination of guilt or innocence,' \" Neder v. United States, 527 U.S. 1, 8-9, 119 S.Ct. 1827, 144 L.Ed.2d 35 (1999) (quoting Rose v. Clark, 478 U.S. 570, 577-78, 106 S.Ct. 3101, 92 L.Ed.2d 460 (1986) ). In that vein, the Supreme Court has held that trial before a biased judge is structural error, Tumey v. Ohio, 273 U.S. 510, 522-24, 535, 47 S.Ct. 437, 71 L.Ed. 749 (1927), as is trial before a jury whose impartiality has been fatally compromised, Turner v. Louisiana, 379 U.S. 466, 471-74, 85 S.Ct. 546, 13 L.Ed.2d 424 (1965).\nIn Sampson, we noted that \"[i]f even a single biased juror participates in the imposition of the death sentence, the sentence is infirm and cannot be executed.\" 724 F.3d at 163 (citing Morgan v. Illinois, 504 U.S. 719, 729, 112 S.Ct. 2222, 119 L.Ed.2d 492 (1992) ). We also described the right to an impartial jury as \"constitutional bedrock.\" Id. While the concern for an impartial jury is certainly at its highest when a defendant's life is on the line, it is still highly significant when defendants face the prospect of incarceration. Other circuits have squarely held that the presence of a biased juror in a criminal case is structural error. See Estrada v. Scribner, 512 F.3d 1227, 1235 (9th Cir.2008). We think it only logical to agree and to state the rule clearly today: The presence of a juror whose revealed biases would require striking the juror for cause in a criminal case is structural error that, if preserved, requires vacatur.\nBecause the presence of a biased juror is structural error, the government's contention that its case against defendants was very strong is of no moment. If defendants can establish Juror 86's disqualifying bias after the investigation by the district court, the conviction would necessarily be set aside regardless of the strength of evidence.\nCognizant that the passage of time may create problems on remand, defendants suggest that we skip remand altogether and order a new trial. Defendants abandoned this position at oral argument, and wisely so. While we appreciate that the passage of time can cause memories to fade, we are aware of no case in which, faced with a potentially biased juror and the need to investigate further, an appellate court has ordered a new trial without first permitting the district court to investigate. We decline to do so here.\nHowever, to the extent that memories have faded in the two years between the defendants' filing of their motion for a new trial and this decision, we place the responsibility for that possible loss of evidence at the feet of the government, not the defendants. Defendants first became aware of the issue with Juror 86 in March 2016, and filed their motion approximately one month later, all while in the midst of preparing for sentencing. That timeframe exhibits sufficient diligence on the part of defendants. The government then had the option of acquiescing to the defendants' request to bring Juror 86 in for an evidentiary hearing, but elected to oppose it, resulting in now over two more years of litigation on the issue. If the staleness of the memories resulting from that additional two-year period becomes a problem that cannot be solved on remand, we think it only fair for that to cut against the government.\nTo sum up: Defendants' motion for a new trial based on the alleged bias of Juror 86 presented a \"colorable or plausible\" claim of the type of juror misconduct that could require a new trial, and defendants did not waive the ability to raise such a challenge. The district court was therefore required to do more before ruling on the new trial motion. For this reason, we vacate the denial of the defendants' motion for a new trial based on the possible bias of Juror 86 and remand for further proceedings on that motion.\nIII.\nDefendants also filed a separate motion for a new trial based on the voir dire responses of another juror, Juror 79. Only Russell, and not French, appeals the denial of this motion. Defendants contend that Juror 79 gave a dishonest answer at voir dire when he did not acknowledge knowing Steve Koenig, a trial witness.\nKoenig is the executive director of a salmon habitat restoration group, Project SHARE. At trial he testified that he worked on land owned by Haynes Timberland and Malcolm French to construct culverts on rivers so that salmon could pass through them. He testified that although there were gates in Township 37, he was regularly allowed on the land. Koenig's testimony was uncontroversial and not by its nature conducive to raising credibility questions.\nThough he was called by the government, Koenig was actually on French's witness list. Counsel included no further information on this list, such as Koenig's job or employer or even residence. The entire witness list, containing the names of twelve potential witnesses, was read to the pool of potential jurors, including Juror 79. As found by the district court after reviewing an audio recording of voir dire, the magistrate judge mispronounced Koenig's name without any correction by counsel who presumably knew his name. Order Denying Motion for New Trial at 34-35, United States v. French, No. 12-cr-00160-JAW (D. Me. Apr. 27, 2015), ECF No. 499. In response to general inquiry of the pool, Juror 79 gave no indication that he knew Koenig.\nAfter the trial French spoke with Koenig, who mentioned that he knew and had had contact prior to trial with Juror 79, a biologist working for the federal government. Id. at 24-25. On the basis of this information, defendants moved for a new trial, claiming that Juror 79 had concealed a familiarity with Koenig to their detriment.\nThe district court deemed this report enough to warrant further inquiry in the form of hearing directly from Koenig. After doing so at an evidentiary hearing at which Koenig testified, the district court found as fact that Koenig and Juror 79 spoke to one another on the phone for five to ten minutes sometime in the year prior to trial about a project Koenig was managing near Acadia National Park. Id. at 34. The two had never met before trial, nor was there any probative evidence of any other direct contact between the two prior to trial. Id.\nHaving so found, the district court concluded that no further investigation was required. In so doing, the district court expressed concern that defendants, who had unrestricted access to their listed witness (Koenig) and who knew both Koenig's job and the job of Juror 79, did not explore the issue (with Koenig himself, perhaps?) prior to trial. Id. at 55. The district court also expressed much concern about the effect on Juror 79 and on other prospective jurors of calling Juror 79 in to be examined on why he did not say that he knew Koenig when the evidence made the answer reasonably obvious. Id. at 55-58. On this record, we think there is certainly some merit to this reasoning, but we need not decide if Russell waived any concern about Juror 79 because, even setting aside the possibility that defense counsel were sandbagging, the claim would fail.\nAs we explained in connection with discussing Juror 86, once a defendant makes a colorable claim of juror bias, the district court has a duty to investigate. See Zimny, 846 F.3d at 464. Though a defendant need only present a \"colorable\" claim to trigger an investigation, he or she nonetheless retains the burden to prove juror bias by a preponderance of the evidence based on that investigation. See Sampson, 724 F.3d at 166. Here, in response to an initially colorable claim, the district court brought in Koenig for questioning, but saw no reason to go further and bring in Juror 79 after hearing Koenig's testimony. For the following reasons, we find no reason to deem that decision to be an abuse of discretion.\nFirst, the limited nature of Koenig's contact with Juror 79 renders speculative any claim that Juror 79 would have recognized Koenig's name when read out of context and mispronounced. Koenig was one of presumably many individuals who had occasion to be in contact with Juror 79, a government employee. The contact itself was isolated and lacked any attributes that would make it more memorable than any of the many other similar calls and inquiries Juror 79 likely had reason to conduct in his professional life. Importantly, and unlike the situation with Juror 86, there is no reason to think that Juror 79 had any motive to withhold information in response to the question posed. In other words, if he recalled the brief, inconsequential call with Koenig, he had no obvious reason not to say so. Before the district court, defense counsel actually speculated that Juror 79 somehow knew at the time of voir dire that forfeiture of the land was a possible result of conviction, so he lied to be sure he could serve on the jury to participate in getting the environmentally valuable land for the public. But Russell has abandoned this position on appeal. And it would fail in any event; the improbable product of rank speculation is no basis for a finding of juror bias.\nRelatedly, the information lost to counsel-that Koenig and Juror 79 spoke on the phone once for five to ten minutes-was at best barely material. So we have here several very likely explanations for the lack of a response by Juror 79 (he never knew, or forgot Koenig's name, or did not recognize it as mispronounced), no plausible reason to lie, and marginal materiality at best. On such a record, having heard testimony from Koenig, the district court did not abuse its discretion in deciding to deny the motion without additional investigation.\nIV.\nBecause we are vacating and remanding for an evidentiary hearing concerning the possible bias of Juror 86, we could defer review of the drug quantity issue, and only reach it if it becomes necessary following that hearing. However, we find the matter to be straightforward, and resolving it now may provide efficiencies down the road.\nIn drug conspiracy cases, the sentencing guidelines are largely driven by the quantity of drugs involved in the conspiracy. See U.S.S.G. \u00a7 2D1.1 (sentencing table). In cases in which marijuana plants are seized, the quantity is determined either by the actual usable weight of the marijuana or, if that is not available, by assigning a weight of 100 grams per plant recovered. See id. (background).\nAlthough the government discovered and could count the number of plants growing in 2009, the government did not have direct evidence of the number of plants grown during the other three years relevant to sentencing; instead, it relied upon the amount of Pro-Mix fertilizer purchased as a proxy for the number of marijuana plants grown. In a nutshell, a supplier's business records showed how much Pro-Mix fertilizer the supplier sold to French and his associates over a four-year period, and government witnesses in turn testified as to how much Pro-Mix was used on each basket of marijuana (1/2 to 1-1/2 bags) and how many plants were in each basket (three to six plants). The PSR, and then the district court, assumed favorably to defendants that 1-1/2 bags were used for each basket and each basket contained only three plants. The district court also put to one side the number of plants discovered in 2009, which greatly exceeded the number of plants that one would expect using those conservative assumptions unless one posited that much of the Pro-Mix bought in prior years was not used until 2009.\nThis doubly conservative approach correlated the number of plants to the amount of fertilizer, resulting in a finding of 9,180 plants, which, using the 100 gram-per-plant formula, yielded a drug quantity calculation of 918 kilograms. Sentencing Order on Drug Quantity at 22, United States v. French, No. 12-cr-00160-JAW (D. Me. Apr. 12, 2016), ECF No. 647 [hereinafter \"Sentencing Order on Drug Quantity\"]. This in turn led to the calculation of a base offense level of 28 for both Russell and French. Id. at 23. Ultimately, the district court sentenced Russell to 151 months' imprisonment and French to 175 months' imprisonment. Transcript of Sentencing Proceedings at 135, 139.\nRussell and French argued that this methodology was speculative, proposing instead to use a methodology based on the amount of money the migrant workers involved in harvesting the plants sent home. In subsequent sentencing memoranda, French urged the court to use the amount of baskets found at the grow sites as a proxy for marijuana plants.\nWe review drug quantity calculations for clear error, and these calculations \"need not be precise to the point of pedantry. A reasoned estimate based on historical data will suffice.\" United States v. Bernier, 660 F.3d 543, 546 (1st Cir.2011) (citations and internal quotation marks omitted). The district court reviewed the evidence and found that the testimony of the seller of the Pro-Mix, as well as that of co-conspirators, established the connection of the Pro-Mix to the operation. Sentencing Order on Drug Quantity at 17. It also found that there was no evidence in the record as to any other use for the Pro-Mix beyond cultivating marijuana. Id. Further, it noted that the basket methodology presumed that no reuse of baskets occurred, but the record did not rule out this possibility. Id. at 24. Based on this reasoning, the district court expressly found that the Pro-Mix method allowed for the \"reasoned estimate\" required by Bernier. Id. at 15-16. And at the sentencing hearing, the district court stated that \"among the alternatives that have been proposed, [the Pro-Mix method] is the most accurate of them.\" Transcript of Sentencing Proceedings at 46.\nGiven the district court's cogent reasoning and engagement with the evidence on this issue, as well as its willingness to indulge several defendant-friendly assumptions, we cannot conclude that the use of the Pro-Mix methodology was clearly erroneous. Accordingly, the drug quantity calculation provides no basis to vacate the defendants' sentences.\nV.\nIn addition to the juror-bias challenges and the drug quantity issue, Russell raises three additional challenges on appeal. As we noted above, since we are vacating and remanding the matter for an evidentiary hearing, we could simply decline to resolve these challenges at present. But, as with the drug quantity issue, we find Russell's further challenges to be easily addressed, so we resolve them now for efficiency's sake.\nA.\nDuring jury selection, French's counsel objected to the government's peremptory strike of the only African-American prospective juror. See Batson v. Kentucky, 476 U.S. 79, 96-98, 106 S.Ct. 1712, 90 L.Ed.2d 69 (1986). The government in response offered three race-neutral reasons for its strike, including most notably the fact that the juror had been sleeping from time to time during the selection process. Counsel for French then withdrew the objection. Russell did not make a Batson challenge of his own, nor did his counsel protest French's counsel's withdrawal of the challenge. Now on appeal, Russell concedes that this issue was unpreserved and is reviewable for plain error only. By contrast, the government urges us to find waiver because French's counsel-the attorney who actually made the objection-explicitly withdrew it.\nWe need not decide whether Russell waived or merely forfeited the issue because, even if only forfeited, the claim would fail on plain error review. Neither during jury selection nor on appeal has Russell suggested that the prospective juror did not doze off. Nor can Russell reasonably suggest that a preference for jurors who pay attention is unreasonable. We therefore see no error, let alone a clear or obvious one, in finding this to be a race-neutral explanation for the strike sufficient to forestall a Batson challenge.\nB.\nRussell also contends that the district court erred in admitting evidence concerning his prior convictions for felony health-care fraud. Russell argued prior to trial that the convictions should not come in, but he did not persuade the district court to exclude them. He then elected to testify to the convictions on direct examination, presumably in hopes of preemptively tempering the impact those convictions would have upon the jury's perception of his credibility.\nBecause he chose to testify to the convictions on direct examination, Ohler v. United States dictates that he waived the claim on appeal. 529 U.S. 753, 760, 120 S.Ct. 1851, 146 L.Ed.2d 826 (2000) (\"[W]e conclude that a defendant who preemptively introduces evidence of a prior conviction on direct examination may not on appeal claim that the admission of such evidence was error.\"). Undeterred, Russell contends that Justice Souter's dissent in Ohler was the more persuasive opinion. Whatever the merits of that position, we are bound by the majority opinion, and thus agree with the government that Russell waived any challenge to the introduction of his prior convictions by testifying to them on direct examination.\nC.\nFinally, Russell argues that several statements the prosecutor made during closing argument amounted to misconduct necessitating a new trial. We are unconvinced. Russell concedes that he did not object contemporaneously to the statements and that review is thus for plain error only. When faced with a claim that a prosecutor's comments during a closing statement were improper, we vacate a conviction only if the remarks \"so poisoned the well that the trial's outcome was likely affected.\" United States v. Kasenge, 660 F.3d 537, 542 (1st Cir.2011) (quoting United States v. Henderson, 320 F.3d 92, 107 (1st Cir.2003) ). In assessing this question, we consider the severity of the conduct and whether it was deliberate, the context, the presence of curative instructions and their likely effect, and the strength of the prosecution's case. Id.\nWe see no plain error meriting vacatur here. Two of Russell's concerns go to the notion that the prosecutor unfairly disparaged the defendants and various witnesses by suggesting that Russell and French's testimony was not credible given their motivations and the other evidence, and by describing various witnesses as \"liars\" and \"scoundrels.\" But commenting on the credibility of witnesses is usually appropriate in a closing argument. As to the suggestion of inflammatory language, the context of the remarks makes clear that the government was acknowledging that its own witnesses were imperfect.\nRussell also suggests that the prosecutor made several factual misrepresentations to the jury-specifically, that Russell had told one worker to stay away from Maine after law enforcement became involved and that the co-conspirators burned down their camp. He further contends that the prosecutor told the jury that Pro-Mix could not be sold, contrary to the evidence. We see none of these statements as sufficient to cast the conviction in doubt. As to the first two, assuming arguendo that these comments slightly overstated the evidence, they were isolated and minor comments in the context of a much larger web of evidence pointing to Russell's guilt. As to the third, Russell simply misconstrues the prosecutor's statement. The prosecutor was not saying that Pro-Mix could never be resold. Rather, he was casting doubt on the far-fetched theory that defendants purchased large amounts of Pro-Mix to pay off a local gang.\nIn any event, the district court instructed the jury that closing statements were not evidence, and we have no reason to doubt the jury's ability to follow that instruction. See United States v. Spencer, 873 F.3d 1, 16 (1st Cir.2017) (noting the court's \"long-standing presumption that jurors follow instructions\"). Furthermore, the case against Russell was strong, consisting of both physical evidence and the testimony of multiple witnesses directly implicating him in the conspiracy. In short, we see no clear error that could have prejudiced Russell.\nVI. Conclusion\nWe vacate the order denying the motion for a new trial based on the response of Juror 86 to question 3 on the jury questionnaire, and remand for further proceedings on that motion. We otherwise reject all of the defendants' challenges to their convictions and sentences.\nThe unanswered questions asked for the names of any spouse, educational background, criminal history, English-language comprehension, and health.",
+        "type": "majority",
+        "author": "KAYATTA, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Jamesa J. Drake, Auburn, ME, with whom Benjamin Donahue, Thomas Hallett, Hallett, Zerillo & Whipple, PA, Portland, ME, and Drake Law, LLC were on brief, for appellant Malcolm French.",
+      "William S. Maddox, Rockland, ME, for appellant Rodney Russell.",
+      "Ren\u00e9e M. Bunker, Assistant United States Attorney, with whom Halsey B. Frank, United States Attorney, was on brief, for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Appellee,\nv.\nMalcolm FRENCH and Rodney Russell, Defendants, Appellants.\nNos. 16-2386\n16-2392\nUnited States Court of Appeals, First Circuit.\nSeptember 17, 2018\nJamesa J. Drake, Auburn, ME, with whom Benjamin Donahue, Thomas Hallett, Hallett, Zerillo & Whipple, PA, Portland, ME, and Drake Law, LLC were on brief, for appellant Malcolm French.\nWilliam S. Maddox, Rockland, ME, for appellant Rodney Russell.\nRen\u00e9e M. Bunker, Assistant United States Attorney, with whom Halsey B. Frank, United States Attorney, was on brief, for appellee.\nBefore Thompson, Selya, and Kayatta, Circuit Judges."
+  },
+  "file_name": "0111-01",
+  "first_page_order": 111,
+  "last_page_order": 125
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12207799,
+  "name": "Rose v. Tucker, Secretary, Florida Department of Corrections",
+  "name_abbreviation": "Rose v. Tucker",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10919",
+  "first_page": "857",
+  "last_page": "857",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 857"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 111,
+    "ocr_confidence": 0.669,
+    "sha256": "ae639cbcb8453944a064ca098ad1fa81cfd7b206b406185a1bfa323619480aee",
+    "simhash": "1:3ff94a238fef9078",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rose v. Tucker, Secretary, Florida Department of Corrections."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10919.\nRose v. Tucker, Secretary, Florida Department of Corrections."
+  },
+  "file_name": "0857-04",
+  "first_page_order": 939,
+  "last_page_order": 939
+}

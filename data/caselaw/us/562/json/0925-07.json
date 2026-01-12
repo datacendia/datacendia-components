@@ -1,0 +1,59 @@
+{
+  "id": 6033801,
+  "name": "Murphy v. California",
+  "name_abbreviation": "Murphy v. California",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5497",
+  "first_page": "925",
+  "last_page": "925",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 925"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 83,
+    "ocr_confidence": 0.583,
+    "sha256": "4cd73c0d12e42b322b4c95819d17dd031de3f396f3fc8f2f32c5ecb4ac6cdbc7",
+    "simhash": "1:640547c030c39801",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Murphy v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 3d App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5497.\nMurphy v. California."
+  },
+  "file_name": "0925-07",
+  "first_page_order": 947,
+  "last_page_order": 947
+}

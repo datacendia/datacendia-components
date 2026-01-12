@@ -1,0 +1,135 @@
+{
+  "id": 2260360,
+  "name": "Tommie Lee Cook v. The City of Austin",
+  "name_abbreviation": "Cook v. City of Austin",
+  "decision_date": "1960-11-30",
+  "docket_number": "No. A-7840",
+  "first_page": "294",
+  "last_page": "296",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "161 Tex. 294"
+    },
+    {
+      "type": "parallel",
+      "cite": "340 S.W.2d 482"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "339 S.W. 2d 519",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10160209,
+        2260380
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/339/0519-01",
+        "/tex/161/0259-01"
+      ]
+    },
+    {
+      "cite": "161 Texas 259",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2260380
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/161/0259-01"
+      ]
+    },
+    {
+      "cite": "339 S. W. 2d 521",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10160341,
+        2260366
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/339/0521-01",
+        "/tex/161/0250-01"
+      ]
+    },
+    {
+      "cite": "161 Texas 250",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2260366
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/161/0250-01"
+      ]
+    },
+    {
+      "cite": "333 S.W. 2d 398",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10158354
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/333/0398-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 146,
+    "char_count": 1477,
+    "ocr_confidence": 0.539,
+    "pagerank": {
+      "raw": 2.5891081282740064e-07,
+      "percentile": 0.8179152529742082
+    },
+    "sha256": "cb8e7f6e95f5210b703928a8d75870332e58ca4bd250e3abe141d7a234a22cab",
+    "simhash": "1:fbe9d8dbd02f12dc",
+    "word_count": 254
+  },
+  "last_updated": "2024-02-27T18:05:23.850581+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Tommie Lee Cook v. The City of Austin."
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM.\nJudgment for the plaintiff against the City of Austin in a workmen\u2019s compensation case was reversed and remanded by the Court of Civil Appeals. 333 S.W. 2d 398.\nThe reversal was predicated on the refusal of the trial court to permit the City of Austin to offer testimony on the trial of the case that an operation would ameliorate the claimant\u2019s injury on the ground that the City of Austin had denied liability and had not tendered an operation while the claim was pending before the Industrial Accident Board. Since this decision is in conflict with two recent cases decided by this court, namely Truck Insurance Exchange v. Seelbach, 161 Texas 250, 339 S. W. 2d 521, and Texas Employer\u2019s Insurance Ass\u2019n. v. Shelton, 161 Texas 259, 339 S.W. 2d 519, we therefore reverse the same on the application for writ of error without the necessity of granting the writ and hearing the case. Rule 483, Texas Rules of Civil Procedure.\nThere were other points on the appeal not expressly passed upon by the Court of Civil Appeals, however, and we therefore remand the cause to the Court of Civil Appeals for further consideration.\nOpinion delivered November 30, 1960.",
+        "type": "majority",
+        "author": "PER CURIAM."
+      }
+    ],
+    "attorneys": [
+      "F. L. Kuykendall, Byrd & Davis and Tom H. Davis, all of Austin, for petitioner.",
+      "Doren R. Eskew, City Attorney, C. J. Taylor, Jr. and Thomas R. Hunter, Assistants City Attorney, of Austin, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "Tommie Lee Cook v. The City of Austin.\nNo. A-7840.\nDecided November 30, 1960.\n(340 S.W. 2d Series 482)\nF. L. Kuykendall, Byrd & Davis and Tom H. Davis, all of Austin, for petitioner.\nDoren R. Eskew, City Attorney, C. J. Taylor, Jr. and Thomas R. Hunter, Assistants City Attorney, of Austin, for respondent."
+  },
+  "file_name": "0294-01",
+  "first_page_order": 308,
+  "last_page_order": 310
+}

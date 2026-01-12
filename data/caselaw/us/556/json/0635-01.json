@@ -1,0 +1,609 @@
+{
+  "id": 3653817,
+  "name": "CARLSBAD TECHNOLOGY, INC. v. HIF BIO, INC., et al.",
+  "name_abbreviation": "Carlsbad Technology, Inc. v. HIF Bio, Inc.",
+  "decision_date": "2009-05-04",
+  "docket_number": "No. 07-1437",
+  "first_page": "635",
+  "last_page": "645",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "556 U.S. 635"
+    },
+    {
+      "type": "parallel",
+      "cite": "173 L. Ed. 2d 843"
+    },
+    {
+      "type": "parallel",
+      "cite": "129 S. Ct. 1862"
+    },
+    {
+      "type": "vendor",
+      "cite": "2009 U.S. LEXIS 3304"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2008-054"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "526 U. S. 160",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11132941
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "171"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/526/0160-01"
+      ]
+    },
+    {
+      "cite": "522 U. S. 156",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11471100
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "173"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/522/0156-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 1331",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "546 U. S. 500",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5937941
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "514",
+          "parenthetical": "\"[W]hen a court grants a motion to dismiss for failure to state a federal claim, the court generally retains discretion to exercise supplemental jurisdiction, pursuant to 28 U. S. C. \u00a71367, over pendent state-law claims\""
+        },
+        {
+          "page": "514"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/546/0500-01"
+      ]
+    },
+    {
+      "cite": "549 U. S. 225",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3553626
+      ],
+      "weight": 2,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "245",
+          "parenthetical": "\"Even if only state-law claims remained after resolution of the federal question, the District Court would have discretion, consistent with Article III, to retain jurisdiction\""
+        },
+        {
+          "page": "245"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/549/0225-01"
+      ]
+    },
+    {
+      "cite": "480 U. S. 9",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1131054
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "16, n. 8",
+          "parenthetical": "referring to exhaustion requirement as \"a matter of comity\" that does \"not deprive the federal courts of subject-matter jurisdiction\" but does \"rende[r] it appropriate for the federal courts to decline jurisdiction in certain circumstances\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/480/0009-01"
+      ]
+    },
+    {
+      "cite": "504 U. S. 689",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11730705
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "704",
+          "parenthetical": "questioning whether, \"even though subject-matter jurisdiction might be proper, sufficient grounds exist to warrant abstention from the exercise of that jurisdiction\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/504/0689-01"
+      ]
+    },
+    {
+      "cite": "467 U. S. 822",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6208656
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "828"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/467/0822-01"
+      ]
+    },
+    {
+      "cite": "516 U. S. 124",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        325101
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "127"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/516/0124-01"
+      ]
+    },
+    {
+      "cite": "517 U. S. 706",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11746454
+      ],
+      "weight": 2,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "711-712"
+        },
+        {
+          "page": "712"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/517/0706-01"
+      ]
+    },
+    {
+      "cite": "423 U. S. 336",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6177062
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "345-346"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/423/0336-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 1447",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(d)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "555 U. S. 943",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 2008,
+      "opinion_index": 0
+    },
+    {
+      "cite": "551 U. S. 224",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3573144
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "235, n. 4",
+          "parenthetical": "\"We have never passed on whether Cohill remands are subject-matter jurisdictional for purposes of . . . \u00a7 1447(c) and \u00a7 1447(d)\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/551/0224-01"
+      ]
+    },
+    {
+      "cite": "484 U. S. 343",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        599268
+      ],
+      "year": 1988,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/484/0343-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 1367",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(c)(3)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "508 F. 3d 659",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3272049
+      ],
+      "weight": 5,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "662"
+        },
+        {
+          "page": "663"
+        },
+        {
+          "page": "667"
+        },
+        {
+          "page": "667"
+        },
+        {
+          "page": "667"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/508/0659-01"
+      ]
+    },
+    {
+      "cite": "18 U. S. C. \u00a7\u00a7 1961-1968",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 1867",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "516 U. S. 124",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        325101
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "127-128"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/516/0124-01"
+      ]
+    },
+    {
+      "cite": "517 U. S. 706",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11746454
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "711-712"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/517/0706-01"
+      ]
+    },
+    {
+      "cite": "423 U. S. 336",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6177062
+      ],
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "360"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/423/0336-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 1447",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(d)"
+        },
+        {
+          "page": "354"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "551 U. S. 224",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3573144
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "229-230"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/551/0224-01"
+      ]
+    },
+    {
+      "cite": "428 U. S. 336",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "350-352"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "549 U. S. 225",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3553626
+      ],
+      "weight": 4,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "263",
+          "parenthetical": "Scalia, J., dissenting"
+        },
+        {
+          "page": "243-244"
+        },
+        {
+          "page": "240-244"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/549/0225-01"
+      ]
+    },
+    {
+      "cite": "517 U. S. 706",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11746454
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "711-712"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/517/0706-01"
+      ]
+    },
+    {
+      "cite": "423 U. S. 336",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6177062
+      ],
+      "weight": 2,
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "354"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/423/0336-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 1447",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(d)"
+        },
+        {
+          "page": "(d)"
+        },
+        {
+          "page": "(d)"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "551 U. S. 224",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3573144
+      ],
+      "weight": 3,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "232"
+        },
+        {
+          "page": "238-239"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/551/0224-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 767,
+    "char_count": 18016,
+    "ocr_confidence": 0.672,
+    "pagerank": {
+      "raw": 2.5432010834709243e-06,
+      "percentile": 0.9966411169145383
+    },
+    "sha256": "747fa569f36248d2fe13637e8523b07908ee3c1fa32a3201fb6c7e412ad58a14",
+    "simhash": "1:bc98fe831ac7f069",
+    "word_count": 2999
+  },
+  "last_updated": "2024-02-27T20:53:05.274471+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Breyer, with whom Justice Souter joins, concurring."
+    ],
+    "parties": [
+      "CARLSBAD TECHNOLOGY, INC. v. HIF BIO, INC., et al."
+    ],
+    "opinions": [
+      {
+        "text": "Justice Thomas\ndelivered the opinion of the Court.\nIn this case, we decide whether a federal court of appeals has jurisdiction to review a district court\u2019s order that remands a case to state court after declining to exercise supplemental jurisdiction over state-law claims under 28 U. S. C. \u00a7 1867(c). The Court of Appeals for the Federal Circuit held that appellate review of such an order is barred by \u00a7 1447(d) because it viewed the remand order in this case as resting on the District Court\u2019s lack of subject-matter jurisdiction over the state-law claims. We disagree and reverse the judgment of the Court of Appeals.\nI\nIn 2005, respondents filed a complaint against petitioner and others in California state court, alleging that petitioner had violated state and federal law in connection with a patent dispute. Petitioner removed the case to the United States District Court for the Central District of California pursuant to \u00a7 1441(c), which allows removal of an \u201centire case\u201d when it includes at least one claim over which the federal district court has original jurisdiction. Petitioner then filed a motion to dismiss the only federal claim in the lawsuit, which arose under the Racketeer Influenced and Corrupt Organizations Act (RICO), 18 U. S. C. \u00a7\u00a7 1961-1968, for failure to adequately allege a pattern of racketeering. HIF Bio, Inc. v. Yung Shin Pharmaceuticals Indus. Co., 508 F. 3d 659, 662 (CA Fed. 2007). The District Court agreed that respondents had failed to state a RICO claim upon which relief could be granted and dismissed the claim pursuant to Federal Rule of Civil Procedure 12(b)(6). The District Court also declined to exercise supplemental jurisdiction over the remaining state-law claims pursuant to 28 U. S. C. \u00a7 1367(c)(3), which provides that a district court \u201cmay decline to exercise supplemental jurisdiction over a claim\u201d if \u201cthe district court has dismissed all claims over which it has original jurisdiction.\u201d The District Court then remanded the case to state court as authorized by this Court\u2019s decision in Carnegie-Mellon Univ. v. Cohill, 484 U. S. 343 (1988).\nPetitioner appealed to the United States Court of Appeals for the Federal Circuit, arguing that the District Court should have exercised supplemental jurisdiction over the state-law claims because they implicate federal patent-law rights. 508 F. 3d, at 663. The Court of Appeals dismissed the appeal, finding that the remand order could \u201cbe colorably characterized as a remand based on lack of subject matter jurisdiction\u201d and, therefore, could not be reviewed under \u00a7\u00a7 1447(c) and (d), which provide in part that remands for \u201clack of subject matter jurisdiction\u201d are \u201cnot reviewable on appeal or otherwise.\u201d See id., at 667.\nThis Court has not yet decided whether a district court\u2019s order remanding a case to state court after declining to exercise supplemental jurisdiction is a remand for lack of subject-matter jurisdiction for which appellate review is barred by \u00a7\u00a7 1447(c) and (d). See Powerex Corp. v. Reliant Energy Services, Inc., 551 U. S. 224, 235, n. 4 (2007) (\u201cWe have never passed on whether Cohill remands are subject-matter jurisdictional for purposes of . . . \u00a7 1447(c) and \u00a7 1447(d)\u201d). We granted certiorari to resolve this question, 555 U. S. 943 (2008), and now hold that such remand orders are not based on a lack of subject-matter jurisdiction. Accordingly, we reverse the judgment of the Court of Appeals and remand for further proceedings.\nII\nAppellate review of remand orders is limited by 28 U. S. C. \u00a7 1447(d), which states:\n\u201cAn order remanding a case to the State court from which it was removed is not reviewable on appeal or otherwise, except that an order remanding a case to the State court from which it was removed pursuant to section 1443 of this title shall be reviewable by appeal or otherwise.\u201d\nThis Court has consistently held that \u00a7 1447(d) must be read in pari materia with \u00a7 1447(c), thus limiting the remands barred from appellate review by \u00a7 1447(d) to those that are based on a ground specified in \u00a7 1447(e). See Thermtron Products, Inc. v. Hermansdorfer, 423 U. S. 336, 345-346 (1976); see also Powerex, supra, at 229; Quackenbush v. Allstate Ins. Co., 517 U. S. 706, 711-712 (1996); Things Remembered, Inc. v. Petrarca, 516 U. S. 124, 127 (1995).\nOne type of remand order governed by \u00a7 1447(c) \u2014 the type at issue in this case \u2014 is a remand order based on a lack of \u201csubject matter jurisdiction.\u201d \u00a7 1447(c) (providing, in relevant part, that \u201c[i]f at any time before final judgment it appears that the district court lacks subject matter jurisdiction, the case shall be remanded\u201d). The question presented in this case is whether the District Court\u2019s remand order, which rested on its decision declining to exercise supplemental jurisdiction over respondents\u2019 state-law claims, is a remand based on a \u201clack of subject matter jurisdiction\u201d for purposes of \u00a7\u00a7 1447(c) and (d). It is not.\n\u201cSubject matter jurisdiction defines the court\u2019s authority to hear a given type of case,\u201d United States v. Morton, 467 U. S. 822, 828 (1984); it represents \u201cthe extent to which a court can rule on the conduct of persons or the status of things,\u201d Black\u2019s Law Dictionary 870 (8th ed. 2004). This Court\u2019s precedent makes clear that whether a court has subject-matter jurisdiction over a claim is distinct from whether a court chooses to exercise that jurisdiction. See, e.g., Quackenbush, supra, at 712 (holding that an abstention-based remand is not a remand for \u201clack of subject matter jurisdiction\u201d for purposes of \u00a7\u00a7 1447(c) and (d)); Ankenbrandt v. Richards, 504 U. S. 689, 704 (1992) (questioning whether, \u201ceven though subject-matter jurisdiction might be proper, sufficient grounds exist to warrant abstention from the exercise of that jurisdiction\u201d); Iowa Mut. Ins. Co. v. LaPlante, 480 U. S. 9, 16, n. 8 (1987) (referring to exhaustion requirement as \u201ca matter of comity\u201d that does \u201cnot deprive the federal courts of subject-matter jurisdiction\u201d but does \u201crende[r] it appropriate for the federal courts to decline jurisdiction in certain circumstances\u201d).\nWith respect to supplemental jurisdiction in particular, a federal court has subject-matter jurisdiction over specified state-law claims, which it may (or may not) choose to exercise. See \u00a7\u00a7 1367(a), (c). A district court\u2019s decision whether to exercise that jurisdiction after dismissing every claim over which it had original jurisdiction is purely discretionary. See \u00a7 1367(c) (\u201cThe district courts may decline to exercise supplemental jurisdiction over a claim ... if... the district court has dismissed all claims over which it has original jurisdiction\u201d (emphasis added)); Osborn v. Haley, 549 U. S. 225, 245 (2007) (\u201cEven if only state-law claims remained after resolution of the federal question, the District Court would have discretion, consistent with Article III, to retain jurisdiction\u201d); Arbaugh v. Y & H Corp., 546 U. S. 500, 514 (2006) (\u201c[W]hen a court grants a motion to dismiss for failure to state a federal claim, the court generally retains discretion to exercise supplemental jurisdiction, pursuant to 28 U. S. C. \u00a71367, over pendent state-law claims\u201d); see also 13D C. Wright, A. Miller, E. Cooper, & R. Freer, Federal Practice and Procedure \u00a73567.3, pp. 428-432 (3d ed. 2008) (\u201cOnce it has dismissed the claims that invoked original bases of subject matter jurisdiction, all that remains before the federal court are state-law claims.... The district court retains discretion to exercise supplemental jurisdiction [over them]\u201d). As a result, \u201cthe [district] court\u2019s exercise of its discretion under \u00a7 1367(c) is not a jurisdictional matter. Thus, the court\u2019s determination may be reviewed for abuse of discretion, but may not be raised at any time as a jurisdictional defect.\u201d 16 J. Moore et al., Moore\u2019s Federal Practice \u00a7106.05[4], p. 106-27 (3d ed. 2009).\nIt is undisputed that when this case was removed to federal court, the District Court had original jurisdiction over the federal RICO claim pursuant to 28 U. S. C. \u00a7 1331 and supplemental jurisdiction over the state-law claims because they were \u201cso related to claims in the action within such original jurisdiction that they form[ed] part of the same case or controversy under Article III of the United States Constitution,\u201d \u00a7 1367(a). Upon dismissal of the federal claim, the District Court retained its statutory supplemental jurisdiction over the state-law claims. Its decision declining to exercise that statutory authority was not based on a jurisdictional defect but on its discretionary choice not to hear the claims despite its subject-matter jurisdiction over them. See Chicago v. International College of Surgeons, 522 U. S. 156, 173 (1997) (\u201cDepending on a host of factors, then \u2014 including the circumstances of the particular case, the nature of the state law claims, the character of the governing state law, and the relationship between the state and federal claims \u2014 district courts may decline to exercise jurisdiction over supplemental state law claims\u201d). The remand order, therefore, is not based on a \u201clack of subject matter jurisdiction\u201d for purposes of the bar to appellate review created by \u00a7\u00a7 1447(c) and (d).\nThe Court of Appeals held to the contrary based on its conclusion that \u201cevery \u00a7 1367(c) remand necessarily involves a predicate finding that the claims at issue lack an independent basis of subject matter jurisdiction.\u201d 508 F. 3d, at 667. But, as explained above, \u00a7\u00a7 1367(a) and (c) provide a basis for subject-matter jurisdiction over any properly removed state claim. See Osborn, supra, at 245; Arbaugh, supra, at 514. We thus disagree with the Court of Appeals that the remand at issue here \u201ccan be colorably characterized as a lack of subject matter jurisdiction.\u201d 508 F. 3d, at 667.\n* * *\nWhen a district court remands claims to a state court after declining to exercise supplemental jurisdiction, the remand order is not based on a lack of subject-matter jurisdiction for purposes of \u00a7\u00a7 1447(c) and (d). The judgment of the Court of Appeals for the Federal Circuit is reversed, and the case is remanded for further proceedings consistent with this opinion.\nIt is so ordered.\nWe do not revisit today whether Thermtron was correctly decided. Neither the brief for petitioner nor the brief for respondents explicitly asked the Court to do so here, and counsel for both parties clearly stated at oral argument that they were not asking for Thermtron to be overruled. See Tr. of Oral Arg. 16, 22; cf. South Central Bell Telephone Co. v. Alabama, 526 U. S. 160, 171 (1999). We also note that the parties in Powerex, Quackenbush, and Things Remembered did not ask for Therm-tron to be overruled.",
+        "type": "majority",
+        "author": "Justice Thomas"
+      },
+      {
+        "text": "Justice Stevens,\nconcurring.\nIn his dissenting opinion in Thermtron Products, Inc. v. Hermansdorfer, 423 U. S. 336, 360 (1976), then-justice Rehnquist remarked that he could \u201cperceive no justification for the Court\u2019s decision to ignore the express directive of Congress in favor of what it personally perceives to be \u2018justice\u2019 in this case.\u201d He began his dissent with a comment that is also applicable to the case before us today: \u201cThe Court of Appeals not unreasonably believed that 28 U. S. C. \u00a7 1447(d) means what it says. It says:\n\u2018An order remanding a case to the State court from which it was removed is not reviewable on appeal or otherwise ....\u2019\u201d Id., at 354.\nToday, as in Thermtron, the Court holds that \u00a7 1447(d) does not mean what it says.\nIf we were writing on a clean slate, I would adhere to the statute\u2019s text. But Thermtron\u2019s limiting construction applies equally to this case as it did to Powerex Corp. v. Reliant Energy Services, Inc., 551 U. S. 224, 229-230 (2007), Quackenbush v. Allstate Ins. Co., 517 U. S. 706, 711-712 (1996), and Things Remembered, Inc. v. Petrarca, 516 U. S. 124, 127-128 (1995), and stare decisis compels the conclusion that the District Court\u2019s remand order is reviewable notwithstanding \u00a71447(d)\u2019s unambiguous contrary command. The Court\u2019s adherence to precedent in this case represents a welcome departure from its sometimes single-minded focus on literal text. Accordingly, I join the Court\u2019s opinion.",
+        "type": "concurrence",
+        "author": "Justice Stevens,"
+      },
+      {
+        "text": "Justice Scalia,\nconcurring.\nThe Court today does nothing more than accurately apply to the facts of this case our holding in Thermtron Products, Inc. v. Hermansdorfer, 423 U. S. 336 (1976). Ante, at 638-641. As the Court notes, neither party has asked us to reconsider Thermtron, and we thus have no occasion to revisit that decision here, see ante, at 638, n.\nI write separately, though, to note that our decision in Thermtron was questionable in its day and is ripe for reconsideration in the appropriate case. Title 28 U. S. C. \u00a7 1447(d) states that \u201c[a]n order remanding a case to the State court from which it was removed is not reviewable on appeal or otherwise.\u201d The statute provides a single exception \u2014 not remotely implicated in this case \u2014 for certain civil rights cases removed under \u00a7 1443. See \u00a7 1447(d). As then-justice Rehnquist understatingly observed in his Thermtron dissent, it would not be \u201cunreasonably] [to] believ[e] that 28 U. S. C. \u00a7 1447(d) means what it says,\u201d 423 U. S., at 354; and what it says is no appellate review of remand orders. See also Osborn v. Haley, 549 U. S. 225, 263 (2007) (Scalia, J., dissenting). Since the District Court\u2019s order in this case \u201cremand[edj a case to the State court from which it was removed,\u201d it should be \u2014 in the words of \u00a7 1447(d) \u2014 \u201cnot reviewable on appeal or otherwise.\u201d Q. E. D.\nOver the years, the Court has replaced the statute\u2019s clear bar on appellate review with a hodgepodge of jurisdictional rules that have no evident basis even in common sense. Under our decisions, there is no appellate jurisdiction to review remands for lack of subject-matter jurisdiction, see Powerex Corp. v. Reliant Energy Services, Inc., 551 U. S. 224, 232 (2007), though with exception, see Osborn v. Haley, supra, at 243-244; there is jurisdiction to review remands of supplemental state-law claims, and other remands based on abstention, see Quackenbush v. Allstate Ins. Co., 517 U. S. 706, 711-712 (1996), though presumably no jurisdiction to review remands based on the \u201cdefects\u201d referenced in \u00a7 1447(c). See also post, at 644-645 (Breyer, J., concurring) (discussing similar anomalies). If this muddle represents a welcome departure from the literal text, see ante, at 642 (Stevens, J., concurring), the world is mad.\nThis mess \u2014 entirely of our own making \u2014 does not in my view require expert reexamination of this area of the law, see post, at 645 (Breyer, J., concurring). It requires only the reconsideration of our decision in Thermtron \u2014 and a welcome return to the Court\u2019s focus on congressionally enacted text.\nJustice Breyer, with whom Justice Souter joins, concurring.\nI join the Court\u2019s opinion. I write separately to note an anomaly about the way 28 U. S. C. \u00a7 1447 works. In this case, we consider a District Court\u2019s decision not to retain on its docket a case that once contained federal-law issues but now contains only state-law issues. All agree that the law grants the District Court broad discretion to determine whether it should keep such cases on its docket, that a decision to do so (or not to do so) rarely involves major legal questions, and that (even if wrong) a district court decision of this kind will not often have major adverse consequences. We now hold that \u00a7 1447 permits appellate courts to review a district court decision of this kind, even if only for abuse of discretion.\nContrast today\u2019s decision with our decision two Terms ago in Powerex Corp. v. Reliant Energy Services, Inc., 551 U. S. 224 (2007). In that case, we considered a District Court\u2019s decision to remand a case in which a Canadian province-owned power company had sought removal \u2014 a matter that the Foreign Sovereign Immunities Act of 1976 specifically authorizes federal judges (in certain instances) to decide. See \u00a7\u00a7 1441(d); 1603(a). The case presented a difficult legal question involving the commercial activities of a foreign sovereign; and the District Court\u2019s decision (if wrong) had potentially serious adverse consequences, namely, preventing a sovereign power from obtaining the federal trial to which the law (in its view) entitled it. We nonetheless held that \u00a71447 forbids appellate courts from reviewing a district court decision of this kind. Id., at 238-239.\nThus, we have held that \u00a7 1447 permits review of a district court decision in an instance where that decision is unlikely to be wrong and where a wrong decision is unlikely to work serious harm. And we have held that \u00a7 1447 forbids review of a district court decision in an instance where that decision may well be wrong and where a wrong decision could work considerable harm. Unless the circumstances I describe are unusual, something is wrong. And the fact that we have read other exceptions in the statute\u2019s absolute-sounding language suggests that such circumstances are not all that unusual. See Osborn v. Haley, 549 U. S. 225, 240-244 (2007); Thermtron Products, Inc. v. Hermansdorfer, 428 U. S. 336, 350-352 (1976).\nConsequently, while joining the majority, I suggest that experts in this area of the law reexamine the matter with an eye toward determining whether statutory revision is appropriate.\nContrary to Justice Breyer\u2019s suggestion, this ease does not involve reading another \u201cexceptio[n]\u201d into 28 U. S. C. \u00a71447(d)\u2019s language. See post, at 645 (concurring opinion). Not, that is, if you think Thermtron was rightly decided. Unlike Osborn v. Haley, 549 U. S. 225 (2007), this case simply involves applying Thermtron\u2019s in pari materia reading of \u00a7 1447(d) to the facts of this case.",
+        "type": "concurrence",
+        "author": "Justice Scalia,"
+      }
+    ],
+    "attorneys": [
+      "Glenn W. Rhodes argued the cause for petitioner. With him on the briefs were Richard L. Stanley and Stephanie M. Byerly.",
+      "Theodore Allison argued the cause for respondents. With him on the brief was Bub-Joo S. Lee."
+    ],
+    "corrections": "",
+    "head_matter": "CARLSBAD TECHNOLOGY, INC. v. HIF BIO, INC., et al.\nNo. 07-1437.\nArgued February 24, 2009\nDecided May 4, 2009\nGlenn W. Rhodes argued the cause for petitioner. With him on the briefs were Richard L. Stanley and Stephanie M. Byerly.\nTheodore Allison argued the cause for respondents. With him on the brief was Bub-Joo S. Lee."
+  },
+  "file_name": "0635-01",
+  "first_page_order": 735,
+  "last_page_order": 745
+}

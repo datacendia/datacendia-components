@@ -1,0 +1,59 @@
+{
+  "id": 5949538,
+  "name": "Martinez v. Texas",
+  "name_abbreviation": "Martinez v. Texas",
+  "decision_date": "2011-03-07",
+  "docket_number": "No. 10-8242",
+  "first_page": "1275",
+  "last_page": "1275",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1275"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 72,
+    "ocr_confidence": 0.653,
+    "sha256": "e74d26c4745bea0ac546336679210758d76ca05aa3a2efebb8c14f964e708181",
+    "simhash": "1:89f7f8c65eae74d0",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Martinez v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tex. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8242.\nMartinez v. Texas."
+  },
+  "file_name": "1275-07",
+  "first_page_order": 1297,
+  "last_page_order": 1297
+}

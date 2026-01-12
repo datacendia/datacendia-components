@@ -1,0 +1,59 @@
+{
+  "id": 12236826,
+  "name": "Rodriguez v. Texas",
+  "name_abbreviation": "Rodriguez v. Texas",
+  "decision_date": "2011-12-05",
+  "docket_number": "No. 11-5628",
+  "first_page": "1080",
+  "last_page": "1080",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1080"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 72,
+    "ocr_confidence": 0.723,
+    "sha256": "d7eda0fd5908d16e6875e4ab8301c6c84085e03f292a7a72ed8ae661dc172ca6",
+    "simhash": "1:493098d656175671",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rodriguez v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tex. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5628.\nRodriguez v. Texas."
+  },
+  "file_name": "1080-11",
+  "first_page_order": 1162,
+  "last_page_order": 1162
+}

@@ -1,0 +1,68 @@
+{
+  "id": 12698267,
+  "name": "John KNOX, petitioner, v. UNITED STATES.",
+  "name_abbreviation": "Knox v. United States",
+  "decision_date": "2013-05-13",
+  "docket_number": "No. 12\u20139615.",
+  "first_page": "985",
+  "last_page": "985",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "569 U.S. 985"
+    },
+    {
+      "type": "parallel",
+      "cite": "185 L. Ed. 2d 1087"
+    },
+    {
+      "type": "parallel",
+      "cite": "133 S. Ct. 2368"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 206,
+    "sha256": "f503057b6f7ad1fc3c54ab008e89a1ef4121361ec873b7229855910ab39bee34",
+    "simhash": "1:dfae46c42b0e1030",
+    "word_count": 34
+  },
+  "last_updated": "2021-09-08T21:16:17.237805+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "John KNOX, petitioner,\nv.\nUNITED STATES."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of certiorari to the United States Court of Appeals for the Seventh Circuit denied."
+    ],
+    "corrections": "",
+    "head_matter": "John KNOX, petitioner,\nv.\nUNITED STATES.\nNo. 12-9615.\nSupreme Court of the United States\nMay 13, 2013.\nPetition for writ of certiorari to the United States Court of Appeals for the Seventh Circuit denied."
+  },
+  "file_name": "0985-15",
+  "first_page_order": 985,
+  "last_page_order": 985
+}

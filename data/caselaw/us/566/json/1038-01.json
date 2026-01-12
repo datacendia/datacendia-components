@@ -1,0 +1,59 @@
+{
+  "id": 12225491,
+  "name": "Anderson v. Illinois",
+  "name_abbreviation": "Anderson v. Illinois",
+  "decision_date": "2012-06-04",
+  "docket_number": "No. 11-9611",
+  "first_page": "1038",
+  "last_page": "1038",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1038"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 78,
+    "ocr_confidence": 0.602,
+    "sha256": "d4abe2c51da4ec98a69b1ce927bf107ca4808b2faca26c38c776b039b94841fc",
+    "simhash": "1:7041f1995d706f1d",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Anderson v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 2d Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9611.\nAnderson v. Illinois."
+  },
+  "file_name": "1038-01",
+  "first_page_order": 914,
+  "last_page_order": 914
+}

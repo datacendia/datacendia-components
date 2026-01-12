@@ -1,0 +1,76 @@
+{
+  "id": 12191396,
+  "name": "Navajo Nation v. Equal Employment Opportunity Commission et al.; Peabody Western Coal Co. v. Equal Employment Opportunity Commission et al.; and Equal Employment Opportunity Commission v. Peabody Western Coal Co. et al.",
+  "name_abbreviation": "Navajo Nation v. Equal Employment Opportunity Commission",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-981; No. 10-986; No. 10-1080",
+  "first_page": "814",
+  "last_page": "814",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 814"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "610 F. 3d 1070",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3695268
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/610/1070-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 30,
+    "char_count": 323,
+    "ocr_confidence": 0.619,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2475987982310938
+    },
+    "sha256": "8b2c3d54b6e61f86d1a6a87dbcad5777f1d86d01f93186a63ff791c38a8b945a",
+    "simhash": "1:44d9a2a8fd92ef68",
+    "word_count": 50
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Navajo Nation v. Equal Employment Opportunity Commission et al.; Peabody Western Coal Co. v. Equal Employment Opportunity Commission et al.; and Equal Employment Opportunity Commission v. Peabody Western Coal Co. et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied. Reported below: 610 F. 3d 1070.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-981.\nNo. 10-986.\nNo. 10-1080.\nNavajo Nation v. Equal Employment Opportunity Commission et al.; Peabody Western Coal Co. v. Equal Employment Opportunity Commission et al.; and Equal Employment Opportunity Commission v. Peabody Western Coal Co. et al."
+  },
+  "file_name": "0814-04",
+  "first_page_order": 896,
+  "last_page_order": 896
+}

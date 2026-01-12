@@ -1,0 +1,59 @@
+{
+  "id": 6015701,
+  "name": "In re Discipline of Shaffer",
+  "name_abbreviation": "In re Discipline of Shaffer",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. D-2501",
+  "first_page": "809",
+  "last_page": "809",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 809"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 40,
+    "char_count": 282,
+    "ocr_confidence": 0.602,
+    "sha256": "dbc78fb7b14123d25732f15d0e8baad036eb952a74da81d682c1f09ade69c726",
+    "simhash": "1:658a6bb638deb74a",
+    "word_count": 53
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Shaffer."
+    ],
+    "opinions": [
+      {
+        "text": "Hal J. Shaffer, of Cherry Hill, N. J., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2501.\nIn re Discipline of Shaffer."
+  },
+  "file_name": "0809-02",
+  "first_page_order": 831,
+  "last_page_order": 831
+}

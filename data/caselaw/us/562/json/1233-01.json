@@ -1,0 +1,59 @@
+{
+  "id": 5937442,
+  "name": "Simpson v. Kapeluck et al.",
+  "name_abbreviation": "Simpson v. Kapeluck",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8036",
+  "first_page": "1233",
+  "last_page": "1233",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1233"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 74,
+    "ocr_confidence": 0.655,
+    "sha256": "ab8dfa501654e1af557946017020e029e2dc77158da3b448c2f21a17f1eb5044",
+    "simhash": "1:00c868e1cb0cb055",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Simpson v. Kapeluck et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8036.\nSimpson v. Kapeluck et al."
+  },
+  "file_name": "1233-01",
+  "first_page_order": 1255,
+  "last_page_order": 1255
+}

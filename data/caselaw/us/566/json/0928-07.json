@@ -1,0 +1,59 @@
+{
+  "id": 12202122,
+  "name": "Muniz-Bravo v. United States",
+  "name_abbreviation": "Muniz-Bravo v. United States",
+  "decision_date": "2012-04-02",
+  "docket_number": "No. 11-9024",
+  "first_page": "928",
+  "last_page": "928",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 928"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.662,
+    "sha256": "ce8ca8d643430baa6693ad1253b88f273118ae85cd738e7f012a4b0e5adeb7f0",
+    "simhash": "1:1539a6030b8d405a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Muniz-Bravo v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9024.\nMuniz-Bravo v. United States."
+  },
+  "file_name": "0928-07",
+  "first_page_order": 804,
+  "last_page_order": 804
+}

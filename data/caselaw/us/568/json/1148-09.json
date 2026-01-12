@@ -1,0 +1,59 @@
+{
+  "id": 12430187,
+  "name": "Patterson v. United States",
+  "name_abbreviation": "Patterson v. United States",
+  "decision_date": "2013-01-22",
+  "docket_number": "No. 12-7762",
+  "first_page": "1148",
+  "last_page": "1148",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1148"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.623,
+    "sha256": "e676b2f35525a8599065c95a04bc3aa2d14465ca3f9a492300f30aab5a20d771",
+    "simhash": "1:97bbc2a54c39940b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Patterson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7762.\nPatterson v. United States."
+  },
+  "file_name": "1148-09",
+  "first_page_order": 1224,
+  "last_page_order": 1224
+}

@@ -1,0 +1,84 @@
+{
+  "id": 12407532,
+  "name": "In re Disbarment of Burkenroad",
+  "name_abbreviation": "In re Disbarment of Burkenroad",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. D-2627",
+  "first_page": "902",
+  "last_page": "902",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 902"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "566 U. S. 918",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12199331,
+        12199397,
+        12199366,
+        12199313,
+        12199380,
+        12199258,
+        12199292
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/566/0918-04",
+        "/us/566/0918-07",
+        "/us/566/0918-05",
+        "/us/566/0918-03",
+        "/us/566/0918-06",
+        "/us/566/0918-01",
+        "/us/566/0918-02"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 111,
+    "ocr_confidence": 0.673,
+    "sha256": "0182b683fd99776ae65c47848da97a8abafcd13579a314908a93b6769a6f368c",
+    "simhash": "1:91798d8fbbd47af7",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:46:21.325002+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Burkenroad."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see 566 U. S. 918.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2627.\nIn re Disbarment of Burkenroad."
+  },
+  "file_name": "0902-03",
+  "first_page_order": 806,
+  "last_page_order": 806
+}

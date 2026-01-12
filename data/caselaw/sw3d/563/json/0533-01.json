@@ -1,0 +1,634 @@
+{
+  "id": 12658388,
+  "name": "Kenneth R. ISOM, Appellant v. STATE of Arkansas, Appellee",
+  "name_abbreviation": "Isom v. State",
+  "decision_date": "2018-12-20",
+  "docket_number": "No. CR-17-1003",
+  "first_page": "533",
+  "last_page": "552",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 S.W.3d 533"
+    },
+    {
+      "type": "parallel",
+      "cite": "2018 Ark. 368"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Ark.",
+    "id": 8808,
+    "name": "Arkansas Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 34,
+    "name_long": "Arkansas",
+    "name": "Ark."
+  },
+  "cites_to": [
+    {
+      "cite": "Ark. Code Ann. \u00a7 16-93-702",
+      "category": "laws:leg_statute",
+      "reporter": "Ark. Code Ann.",
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2016 Ark. 319",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        12190327
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/498/0733-01"
+      ]
+    },
+    {
+      "cite": "2017 Ark. 113",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        12376530
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/515/0593-01"
+      ]
+    },
+    {
+      "cite": "345 Ark. 541",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        939018
+      ],
+      "weight": 3,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "552-53"
+        },
+        {
+          "page": "642-43"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/345/0541-01"
+      ]
+    },
+    {
+      "cite": "421 U.S. 35",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        541084
+      ],
+      "weight": 3,
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "47"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/421/0035-01"
+      ]
+    },
+    {
+      "cite": "137 S.Ct. 905",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12609944
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "907",
+          "parenthetical": "quoting Withrow v. Larkin , 421 U.S. 35, 47, 95 S.Ct. 1456, 43 L.Ed.2d 712 (1975) "
+        },
+        {
+          "parenthetical": "quoting Withrow v. Larkin , 421 U.S. 35, 47, 95 S.Ct. 1456, 43 L.Ed.2d 712 (1975) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/137/0905-01"
+      ]
+    },
+    {
+      "cite": "99 L.Ed. 942",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "year": 1955,
+      "opinion_index": 0
+    },
+    {
+      "cite": "349 U.S. 133",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11333990
+      ],
+      "weight": 4,
+      "year": 1955,
+      "pin_cites": [
+        {
+          "page": "136"
+        },
+        {
+          "page": "136"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/349/0133-01"
+      ]
+    },
+    {
+      "cite": "136 S.Ct. 1899",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12597488
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1905",
+          "parenthetical": "quoting In re Murchison , 349 U.S. 133, 136, 75 S.Ct. 623, 99 L.Ed. 942 (1955) "
+        },
+        {
+          "parenthetical": "quoting In re Murchison , 349 U.S. 133, 136, 75 S.Ct. 623, 99 L.Ed. 942 (1955) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/136/1899-01"
+      ]
+    },
+    {
+      "cite": "345 Ark. 161",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        939010
+      ],
+      "weight": 2,
+      "year": 2001,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/345/0161-01"
+      ]
+    },
+    {
+      "cite": "325 Ark. 237",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        369138
+      ],
+      "weight": 2,
+      "year": 1996,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/325/0237-01"
+      ]
+    },
+    {
+      "cite": "354 Ark. 644",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        36098
+      ],
+      "weight": 2,
+      "year": 2003,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/354/0644-01"
+      ]
+    },
+    {
+      "cite": "2017 Ark. 20",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        12381704
+      ],
+      "weight": 7,
+      "pin_cites": [
+        {
+          "page": "655"
+        },
+        {
+          "page": "3"
+        },
+        {
+          "page": "655"
+        },
+        {
+          "page": "655"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/518/0653-01"
+      ]
+    },
+    {
+      "cite": "298 Ark. 344",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1889862
+      ],
+      "weight": 2,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "346",
+          "parenthetical": "\"Since there was evidence presented at the hearing to support a ruling either way, we cannot say the trial court's ruling is clearly against the preponderance of the evidence.\""
+        },
+        {
+          "page": "313",
+          "parenthetical": "\"Since there was evidence presented at the hearing to support a ruling either way, we cannot say the trial court's ruling is clearly against the preponderance of the evidence.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/298/0344-01"
+      ]
+    },
+    {
+      "cite": "470 U.S. 564",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11299693
+      ],
+      "weight": 3,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "574"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/470/0564-01"
+      ]
+    },
+    {
+      "cite": "2014 Ark. 201",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        6941703
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/433/0872-01"
+      ]
+    },
+    {
+      "cite": "2014 WL 197789",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "2014 Ark. 7",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "357 Ark. 446",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        5401839
+      ],
+      "weight": 2,
+      "year": 2004,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/357/0446-01"
+      ]
+    },
+    {
+      "cite": "348 Ark. 610",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        74101
+      ],
+      "weight": 4,
+      "year": 2002,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/348/0610-01"
+      ]
+    },
+    {
+      "cite": "473 U.S. 667",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6205331
+      ],
+      "weight": 3,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "682"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/473/0667-01"
+      ]
+    },
+    {
+      "cite": "527 U.S. 263",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1248336
+      ],
+      "weight": 3,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "281-82"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/527/0263-01"
+      ]
+    },
+    {
+      "cite": "514 U.S. 419",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1339057
+      ],
+      "weight": 3,
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "438"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/514/0419-01"
+      ]
+    },
+    {
+      "cite": "427 U.S. 97",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6174831
+      ],
+      "weight": 3,
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "107"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/427/0097-01"
+      ]
+    },
+    {
+      "cite": "474 S.W.3d 500",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6835939
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/474/0500-01"
+      ]
+    },
+    {
+      "cite": "2015 Ark. 432",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "544 S.W.3d 49",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12656210
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/544/0049-01"
+      ]
+    },
+    {
+      "cite": "2018 Ark. 145",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "327 Ark. 271",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        922623
+      ],
+      "weight": 2,
+      "year": 1997,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/327/0271-01"
+      ]
+    },
+    {
+      "cite": "2015 Ark. 225",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        6866094
+      ],
+      "weight": 7,
+      "pin_cites": [
+        {
+          "page": "665-56",
+          "parenthetical": "\"Given that Spain, under oath, has testified to two different versions of the facts, we are compelled to have the circuit court conduct an evidentiary hearing[.]\""
+        },
+        {
+          "page": "4-5"
+        },
+        {
+          "page": "664-65"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/462/0662-01"
+      ]
+    },
+    {
+      "cite": "2013 WL 12380240",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2013,
+      "opinion_index": 0
+    },
+    {
+      "cite": "2011 WL 13318484",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2011,
+      "opinion_index": 0
+    },
+    {
+      "cite": "2010 Ark. 496",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        7135894
+      ],
+      "weight": 2,
+      "year": 2011,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/372/0809-01"
+      ]
+    },
+    {
+      "cite": "2010 Ark. 495",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        7315010
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/370/0491-01"
+      ]
+    },
+    {
+      "cite": "356 Ark. 156",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        5367753
+      ],
+      "weight": 2,
+      "year": 2004,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/356/0156-01"
+      ]
+    },
+    {
+      "cite": "373 U.S. 83",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11716714
+      ],
+      "weight": 7,
+      "year": 1963,
+      "pin_cites": [
+        {
+          "page": "87"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/373/0083-01"
+      ]
+    },
+    {
+      "cite": "357 Ark. 446",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        5401839
+      ],
+      "weight": 2,
+      "year": 2004,
+      "opinion_index": 1,
+      "case_paths": [
+        "/ark/357/0446-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1842,
+    "char_count": 55747,
+    "pagerank": {
+      "raw": 8.203483792463421e-08,
+      "percentile": 0.4763096226845658
+    },
+    "sha256": "d207c2913fbd5ef9a0494bf93f9f0ffb43aba4be7098d0b52d8eb4eb28db215b",
+    "simhash": "1:cff17fb7f899c356",
+    "word_count": 9201
+  },
+  "last_updated": "2024-02-27T16:26:54.855377+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Kenneth R. ISOM, Appellant\nv.\nSTATE of Arkansas, Appellee"
+    ],
+    "opinions": [
+      {
+        "text": "JOHN DAN KEMP, Chief Justice\nAppellant Kenneth Isom appeals an order of the Drew County Circuit Court dismissing his petition for writ of error coram nobis. For reversal, Isom contends that the circuit court abused its discretion in (1) dismissing the petition because the State suppressed evidence in violation of Brady v. Maryland , 373 U.S. 83, 83 S.Ct. 1194, 10 L.Ed.2d 215 (1963) ; (2) limiting discovery for the evidentiary hearing; and (3) denying his motion for judicial recusal. We affirm.\nI. Factual & Procedural Background\nOn the evening of Monday, April 2, 2001, at approximately 7:45 p.m., a man knocked on the door of William \"Bill\" Burton's trailer home in Monticello, Arkansas. Burton was a seventy-nine-year-old man in the care of his sister-in-law, seventy-one-year-old Dorothy Lawson. Lawson answered the door, and the man pushed his way inside and demanded money. Wielding a pair of broken scissors, the man ordered Burton and Lawson to lie on the floor of the trailer. Burton was stabbed and bludgeoned. Lawson was raped, choked, and beaten. Burton and Lawson were discovered the next morning by a neighbor who called the police. Burton died, and Lawson survived.\nLawson later identified Isom as the attacker in a photographic lineup and again at trial. Two witnesses testified that they saw Isom and Lawson talking outside Burton's residence at around 7:00 p.m. on the night of the crimes. A black hair was recovered from Lawson's vagina during a rape-kit examination. A DNA analyst testified at trial that the profile from the hair was consistent with Isom's and would reoccur once in every 57 million African Americans.\nIsom was convicted of capital murder, attempted capital murder, residential burglary, and two counts of rape, and he was sentenced to death for the capital-murder conviction. His convictions were affirmed on direct appeal. Isom v. State , 356 Ark. 156, 148 S.W.3d 257 (2004). Subsequently, this court affirmed the denial of Isom's Rule 37 petition and a petition for additional DNA testing. Isom v. State , 2010 Ark. 495, 370 S.W.3d 491 ; Isom v. State , 2010 Ark. 496, 372 S.W.3d 809. Isom later filed an application for a writ of habeas corpus in the United States District Court for the Eastern District of Arkansas. Pet. for Writ of Habeas Corpus, Isom v. Hobbs , No. 5:11cv47 BSM, 2011 WL 13318484 (E.D. Ark. Mar. 1, 2011). The federal district court ordered Isom to return to state court to exhaust his state remedies. Order at 6-7, Isom v. Hobbs , No. 5:11CV00047 JLH, 2013 WL 12380240 (E.D. Ark. Apr. 1, 2013).\nIsom petitioned this court to reinvest jurisdiction in the circuit court to allow him to seek a writ of error coram nobis. We reinvested the circuit court with jurisdiction to consider Isom's Brady claims. Isom v. State , 2015 Ark. 225, 462 S.W.3d 662.\nIsom filed a petition for writ of error coram nobis in the circuit court on June 12, 2015. The circuit court scheduled a hearing on the petition for December 8-9, 2015. Before the hearing, Isom moved for discovery and for the recusal of the judge. Both motions were denied. In its order denying discovery, the circuit court stated that any witnesses or evidence that counsel needed could be subpoenaed to the hearing. Following the hearing and the submission of posthearing briefs, the circuit court dismissed Isom's petition for writ of error coram nobis. Isom appeals.\nII. Suppression of Eyewitness-Identification Evidence\nIsom contends that the circuit court abused its discretion in dismissing his petition for writ of error coram nobis because the State suppressed evidence in violation of Brady , 373 U.S. 83, 83 S.Ct. 1194. Specifically, Isom asserts that the circuit court erred in finding (1) that there was no failed identification on April 4, 2001; (2) that Lawson's equivocation was not suppressed; (3) that a witness's prior statement was not impeaching; and (4) that any suppression was harmless.\nA writ of error coram nobis is an extraordinary remedy that is available in compelling circumstances to achieve justice and to address fundamental errors, including Brady violations. See Larimore v. State , 327 Ark. 271, 938 S.W.2d 818 (1997). The function of the writ is to secure relief from a judgment rendered while there existed some fact that would have prevented its rendition if it had been known to the trial court and that, through no negligence or fault of the defendant, was not brought forward before rendition of the judgment. Martinez-Marmol v. State , 2018 Ark. 145, 544 S.W.3d 49. The denial of a coram nobis petition is reviewed for abuse of discretion. See Pelletier v. State , 2015 Ark. 432, 474 S.W.3d 500.\nUnder Brady , the State violates a defendant's right to due process if it withholds evidence that is favorable to the defense and material to the defendant's guilt or punishment. Brady , 373 U.S. at 87, 83 S.Ct. 1194. The duty to disclose exists even when there has been no request by the accused, United States v. Agurs , 427 U.S. 97, 107, 96 S.Ct. 2392, 49 L.Ed.2d 342 (1976), and it extends to evidence known only to law enforcement officials and not to the prosecutor, Kyles v. Whitley , 514 U.S. 419, 438, 115 S.Ct. 1555, 131 L.Ed.2d 490 (1995).\nA successful Brady claim has three components: (1) the evidence at issue must be favorable to the accused, either because it is exculpatory, or because it is impeaching; (2) that evidence must have been suppressed by the State, either willfully or inadvertently; and (3) prejudice must have ensued. Strickler v. Greene , 527 U.S. 263, 281-82, 119 S.Ct. 1936, 144 L.Ed.2d 286 (1999). To assess the prejudice component of the Brady test, courts consider whether the withheld evidence is material. Evidence is material-and its suppression prejudicial-if there is a \"reasonable probability that, had the evidence been disclosed to the defense, the result of the proceeding would have been different.\" United States v. Bagley , 473 U.S. 667, 682, 105 S.Ct. 3375, 87 L.Ed.2d 481 (1985).\nIn reinvesting the circuit court with jurisdiction to consider Isom's Brady claims, this court tasked the circuit court with resolving factual disputes raised in Isom's application. When acting as a fact-finder, the circuit court determines the credibility of witnesses, resolves conflicts and inconsistencies in testimony, and assesses the weight to be given the evidence. See Strom v. State , 348 Ark. 610, 74 S.W.3d 233 (2002). We review a circuit court's factual findings for clear error. Cloird v. State , 357 Ark. 446, 182 S.W.3d 477 (2004). A finding is clearly erroneous when, although there is evidence to support it, the appellate court, after reviewing the entire evidence, is left with a definite and firm conviction that a mistake has been committed. Newman v. State , 2014 Ark. 7, 2014 WL 197789.\nA. Alleged Failed Identification\nIsom asserted in his petition that Lawson was shown two photographic arrays that included his picture: a lineup of stock photographs on April 4, and a poster-sized lineup of enlarged photographs on April 5. He claimed that when Lawson was shown the stock photographs, she failed to identify him as her attacker. The circuit court disagreed.\nOn appeal, Isom contends that the circuit court erred in finding that there was no failed identification on April 4. To provide context for Isom's arguments and to facilitate the understanding of the issues before us, we quote extensively from the circuit court's order:\nIt is Petitioner's burden to convince the court that such a photo array was shown to Dorothy Lawson on April 4, 2001, by the police. The Petitioner has failed to convince the court that this in fact occurred. The court will explain why it reaches this conclusion. On this issue, the court finds the facts are these:\nA photo lineup was in fact shown to Dorothy Lawson on April 5, 2001, at about 12:54 p.m. Ms. Lawson was then a patient in the Intensive Care Unit of Drew Memorial Hospital. Scott Woodward, a State Police Investigator working on the case, and John Dement, an investigator with the Monticello Police Department were present, as was another State Police Investigator, Rick McKelvey. The photo array for the lineup shown Ms. Lawson was prepared by Scott Woodard from photos he took that day. It was admitted at the trial of Petitioner as State's Exhibit 33 and is admitted in the record at the hearing on the Writ as Joint Exhibit 1. This is not the photo lineup complained of in this point of argument.\nDefendant's argument that a photo lineup was shown by the police investigators to Dorothy Lawson on April 4, 2001, is based on a nurse's note. The note is on Petitioner's Exhibit 10, Page 125 from the Writ hearing. The time is 1500 hours or 3 p.m. It says:\nPolice here asking for Mrs. Lawson to ID suspect from photos. Attempts ID. Police officers to enlarge photos and bring them back tomorrow. Ms. Lawson agrees to view enlarged photos tomorrow.\nThe note was authored by Nurse Kristi Waxley who testified at the Writ hearing. (R. 124, et seq.) Nurse Waxley's testimony on the issue is contained on R. 136 and following. A reading of her testimony reveals that she had no independent memory of what occurred. She offered no testimony about what she meant by \"attempt.\"\nThere is other evidence in the record the Court must consider on this particular issue as well. While neither party has chosen to outline the testimony of Dorothy Lawson from the trial on this issue, the Court has looked at it. It is contained in the trial transcript beginning at R. 1370. Beginning at R. 1422, Ms. Lawson was questioned on cross-examination by defense counsel about her identification and, specifically State's Exhibit 33, the photo line-up she viewed on April 5, 2001. At L 9, R. 1422, the following occurred:\nQ: And you looked at the picture?\nA: (Nodding affirmatively)\nQ: Did you have your glasses on when you looked at the pictures?\nA: I'm not sure about the day. They brought me some, a smaller sheet of pictures, and they told me to be sure that, to take time to look at them real good and everything. And I told them it might be better to wait till I got my, some glasses, you know, well, my glasses were all broke up at Bill's (murder victim's) house. And so Dr. Ferguson, Ricky Ferguson he fixed a pair of glasses for me. And so that's when I looked at the pictures again and I picked out, I picked out the man.\nThe initial emergency room report of Dorothy Lawson's admission to Drew Memorial Hospital is located at Petitioner's Exhibit 10, Page 7. It shows she was admitted to the emergency room on 4-3-2001 at 9:36 a.m. Other evidence reflects she was transported there by ambulance. The chief complaint being \"assaulted.\" Other portions of the exhibit show she complained of sexual assault the night before. She had numerous injuries described in the exhibit, but they included multiple bruises and lacerations in her facial area, and facial fractures. She was attended by Dr. Paul Wallick and his first history and physical dictated on 4-4-01 (Pet. Exhibit 10, p. 5-6) note \"Orbits are particularly swollen and known fractures are present. Her eyes are bloodshot and hemorrhagic conjunctivitis.\" He further notes an ophthalmic consultation would be obtained. The records further note such a consultation took place with Dr. Claycomb on 4-4-01 at 11:45 a.m. (Pet. Exh. 10, p. 9). The Court cannot read all of the note but can read enough to find that eye injuries were confirmed by the examination.\nPrior to trial a motion was filed to suppress a photo line-up that was admitted into trial evidence. (R. 129-130). A hearing was held on the motion. (R. 129-130). At that hearing, Scott Woodward testified, as did Dr. Ricky Ferguson. Mr. Woodward's testimony concerned the photographic lineup actually admitted at trial. He testified that he was unaware of any other lineup being shown Mrs. Lawson, but there was some discussion in several places of a prior photographic array. (R. 311, L. 5-12). The proof showed that Mrs. Lawson had been assaulted on the evening of April 2. On April 5, Woodward and John Dement went to Drew Memorial Hospital to see her about 8:30-9 a.m. Woodward's testimony was that Mrs. Lawson had been given some medications to \"calm her.\" They spoke with Mrs. Lawson, who could not see then because her eyes were swollen shut and she needed her glasses, so they decided to wait to show her the photographic array they later presented her.\nDuring the delay the proof showed Dr. Ferguson's lab prepared another set of glasses for Mrs. Lawson, to replace the ones broken in her attack. Dr. Ferguson's testimony was that he took the new glasses to the hospital and fitted them on Mrs. Lawson because of the swelling on her facial area. He further testified that she stated after they were fitted she could see the clock on the wall across the hospital room, actually telling them the time from the clock.\nLater after that fitting and about 12:54 p.m. Dement and Woodward, along with Rick McKelvey, another investigator, went back to the hospital and showed Mrs. Lawson the array at issue which was admitted at trial and from which the defendant was identified. The Court found the array was not unduly suggestive. (R. 341).\nFrom all this evidence, both direct and circumstantial, the Court is of the firm conclusion that no second array, which is the basis of this argument, was shown to Mrs. Lawson on April 4 or April 5. Since the Court finds that this prepared array was not in fact shown to Mrs. Lawson, it follows that this was not in fact evidence favorable to defendant within the meaning of Brady . This argument is thus rejected.\nHaving set out the relevant findings, we turn to Isom's contention that the circuit court erred in finding that there was no failed identification on April 4. He argues that the circuit court erred in (1) discounting the nurse's note, (2) relying on Lawson's misquoted testimony, and (3) crediting Woodward's suppression-hearing testimony. We address each argument separately.\n1. Nurse's note\nFirst, Isom contends that the circuit court erred in discounting the nurse's note because Waxley did not define the word \"attempt\" in her testimony. He asserts that the word \"attempt,\" as commonly used, is not ambiguous, and therefore, \"attempts ID\" in Waxley's note means that Lawson looked at the photo and was not able to make an identification. Here, the circuit court did not adopt Isom's definition of \"attempts ID\" or give great weight to the note. Determining the weight of the evidence is a matter for the fact-finder.\nSee Strom , 348 Ark. 610, 74 S.W.3d 233. Isom's disagreement with the weight given to evidence does not establish clear error.\n2. Lawson's testimony\nNext, Isom notes that the circuit court cited Lawson's trial testimony to support its finding that there was no failed identification on April 4. He contends that the circuit court misquoted Lawson's testimony and that her actual testimony supports the failed lineup theory. At trial, Lawson was asked, \"Did you have your glasses on when you looked at the pictures?\" The circuit court stated that Lawson responded, \"I'm not sure about the day.\" Isom states that Lawson responded, \"I'm not sure about that day.\" The transcript states,\nQ: Did you have your glasses on when you looked at the pictures?\nA: I'm not sure about that day. They brought me some, a smaller sheet of pictures and they told me to be sure that, to take time to look at them real good and everything. And I told them it might be better to wait till I got my, some glasses, you know. Well, my glasses was all broken up at Bill's house. And so Dr. Ferguson, Ricky Ferguson, he fixed a pair of glasses for me. And so that's when I looked at the pictures again and I picked out, I picked out the man.\nIsom contends that Lawson used the word \"that\" because she was specifying one of two times when she looked at photographs of suspects. He states that she ended her answer with \"that's when I looked at the pictures again ,\" also indicating that she looked at photographs twice.\nIsom is correct that the circuit court misquoted Lawson's testimony. Based on our review of the record and the circuit court's order, we conclude that the misquotation was a typographical error that did not otherwise affect the circuit court's reasoning or decision. A fair reading of Lawson's testimony is that she was asked to look at photographs while in the hospital but declined to do so because she did not have her glasses.\n3. Woodward's testimony\nIsom asserts that the circuit court erred in relying on Woodward's testimony from the pretrial suppression hearing to support a finding that Lawson was shown only one photospread. Isom asserts that this testimony was \"proven false\" by other evidence in the record, including Woodward's own testimony at the coram nobis hearing. In support, he refers to Woodward's inconsistent testimony about the lineups. Woodward testified at the suppression hearing that he and Dement went to the hospital on April 5 between 8:30 and 9:00 a.m. But at the coram nobis hearing, Woodward testified that he and Dement went to the hospital on April 4. He stated that he did not recall previously testifying that it was April 5. Woodward testified at the suppression hearing that when he first went to see Lawson, he brought the handmade poster array to the hospital, not the lineup of stock photographs. But at the coram nobis hearing, he testified that he brought the lineup of stock photographs to the hospital on his first visit. Here, the inconsistencies within Woodward's testimony, or between his testimony and that of others, were matters for the circuit court to resolve when making credibility determinations. See, e.g. , Nance v. State , 2014 Ark. 201, 433 S.W.3d 872.\nWe will not reverse a circuit court's findings merely because we would have viewed the evidence differently. \"Where there are two permissible views of the evidence, the factfinder's choice between them cannot be clearly erroneous.\"\nAnderson v. City of BessemerCity, N.C. , 470 U.S. 564, 574, 105 S.Ct. 1504, 84 L.Ed.2d 518 (1985) ; see Atchison v. State , 298 Ark. 344, 346, 767 S.W.2d 312, 313 (1989) (\"Since there was evidence presented at the hearing to support a ruling either way, we cannot say the trial court's ruling is clearly against the preponderance of the evidence.\"). In this case, after hearing all the evidence, the circuit court concluded that there was no failed identification on April 4. We hold that the circuit court did not clearly err in finding that Lawson viewed only the enlarged photospread on April 5, 2001.\nB. Equivocation in Identification\nIsom contends that the State withheld favorable, material evidence when it concealed a report prepared by Arkansas State Police investigator Rick McKelvey that shows Lawson equivocated between persons one and three when viewing the poster array. Isom's claim that the \"McKelvey Report\" was suppressed is based upon the coram-nobis hearing testimony of two people: the office manager in the prosecuting attorney's office who stated that she was unable to locate the report in the prosecutor's file a decade after the trial, and the public defender's current office manager who stated that she was familiar with the Isom file and \"did not recall the report in the file.\" The report stated,\nINVESTIGATOR'S NOTES # 4\nOn April 05, 2001, Investigator JOHN DEMENT, Monticello Police Department, S/A SCOTT WOODWARD, ASP-CID, and I traveled to Drew Memorial Hospital to visit with victim DOROTHY LAWSON. The purpose of the visit was to show Ms. LAWSON a photo line-up that was put together by S/A WOODWARD and the Prosecuting Attorney's Office. These photos were placed on large poster board and presented to Ms. LAWSON at 12:54 p.m. At 1 p.m., Ms. LAWSON pointed to Photo # 3. She makes the following statement: \"I seen that person next door. He is the person I talked to before it happened. I think he is the one that came in the house. It looks like him. He's the one that did that to us.\" Ms. LAWSON requested to take a second look. She studied each of the photos and at 1:02 p.m., she makes the statement, \"it's 1 or 3.\" She states that # 1's face is a little round shaped like that. He was wearing a white shirt with something that looked like a lightning bolt on it. She indicated the lightning bolt would have been located in the chest area. ER nurses, KRISTY WAXLEY and ASHLEY MCKINSTRY, were present.\nIsom contends that the McKelvey Report was not revealed to the defense until John Dement testified at trial. During redirect examination, the prosecutor asked Dement about Lawson's statement and instructed Dement to read through the investigator's notes to refresh his memory.\nPROSECUTOR : You said that Rick McKelvey had your notes from this statement?\nDEMENT : He has the investigator's notes from the, where we made the, when Ms. Lawson made the identification and what she said at the hospital.\nPROSECUTOR : Can you go get those from them?\nDEMENT : Yes, sir.\nPROSECUTOR : Okay. You found them.\nDEMENT : Yes.\nPROSECUTOR : Would you read through them?\nDEMENT : Yes.\nPROSECUTOR : And not - - Don't read them out loud. I just want you to read through them to refresh your memory.\nDEFENSE COUNSEL : May we approach the witness to see where he is and what he's reading?\nTHE COURT : Yes.\nOn cross-examination, Dement disagreed with the suggestion in the McKelvey Report that Lawson had equivocated in her identification. According to Dement, Lawson told investigators that the men shown in photos 1 and 3 shared a common attribute, that is, a round-shaped face. Following the cross-examination, defense counsel moved to admit the McKelvey Report as Defendant's Exhibit One:\nDEFENSE COUNSEL : I'd like to introduce that statement as a Defense Exhibit Number One.\nTHE COURT : Okay. Do we have a copy of it?\nDEFENSE COUNSEL : No, sir. I'm - -\nTHE COURT : Okay.\nDEFENSE COUNSEL : -- sure I've got one - -\nTHE COURT : Well, just get us one. Any objection?\nPROSECUTOR : No objection, Your Honor.\nTHE COURT : Okay. It'll be admitted as Defendant's One once it's procured and properly tendered.\n(Whereupon, Defendant's Exhibit One was marked for identification and received in evidence).\nIsom claims that the report was first disclosed during trial, when Dement testified. The record reveals that while Dement was looking at the report to refresh his recollection, defense counsel asked to approach and see what Dement was reading. The circuit court allowed defense counsel to approach. Then, defense counsel used information in the report while cross-examining Dement to impeach the certainty of Lawson's identification. Thereafter, defense counsel admitted the report into evidence. Defense counsel did not say that he had not seen the report before trial. Based on our review of the record, we hold that the circuit court did not clearly err in finding that Isom failed to prove that the McKelvey Report was newly discovered Brady evidence.\nC. Field Notes of the Linda Kay Johnson Interviews\nIsom alleged in his petition that the State failed to disclose handwritten notes from interviews with witness Linda Kay Johnson that would have impeached her trial testimony. He contends that the circuit court erred in finding that the notes were not impeaching.\nJohnson lived across the street from Burton and Alfred Collins. She was interviewed twice by Rick McKelvey on April 3, at approximately 10:30 a.m. and then at approximately 4:00 p.m. According to McKelvey's 10:30 a.m. notes, Johnson told McKelvey that she \"may have seen [Isom] over at Alfred's [on] Sunday. There [were] a lot of them out there then.\" She also told McKelvey that Isom \"does hang out there.\" According to McKelvey's 4:00 p.m. notes, when he interviewed Johnson the second time, she told him that she \"saw Dorothy and Zero talking in [the] yard yesterday\" and stated that it \"had to be after 7:00 p.m.\" when she \"left to go get the kids at Ball Practice,\" and \"got back a little after 8:00.\"\nMcKelvey reduced his field notes to a typewritten report. The report does not mention Johnson's statement from her first interview that she may have seen Isom at Collins's house on Sunday-the day before the attack. Only the typewritten report was turned over to the defense.\nAt trial, Johnson testified that on Monday night at around 7:00 p.m., she saw Isom on Collins's front porch talking with Lawson, who was standing in the yard. Johnson also testified that she did not know what Isom and Lawson were talking about and that she had never seen the two of them talking before, but it was not unusual to see Isom over at Collins's house. She testified on cross-examination that she had known Isom \"a long time,\" but she was unaware that he had the nickname \"Zero\" until she was questioned by the police.\nJohnson was cross-examined about why she failed to mention in her first interview that she had seen Isom talking with Lawson on Monday night. She testified that the police officer \"didn't ask, so I didn't tell him.\" Johnson further testified that after she \"found out what happened,\" she told the police officer that she had seen Isom and Lawson talking on Monday night.\nThe circuit court found that Johnson's undisclosed statement to McKelvey that she \"may have seen\" Isom at Collins's house on Sunday was not impeaching evidence. We agree. Whether Isom was at Collins's house on Sunday was not relevant to the murder. Moreover, the evidence that was impeaching was brought out at trial. The jury heard Johnson's testimony that in her first interview, she did not tell McKelvey that she had seen Isom talking with Lawson. We hold that the circuit court did not err in finding that the notes were not impeaching and thus not \"favorable\" evidence within the meaning of Brady .\nIII. Denial of Discovery\nIsom contends that the circuit court abused its discretion in limiting discovery in conjunction with his evidentiary hearing. He asserts that the denial of discovery prevented him from proving his claim related to the suppression of physical evidence.\nIn Isom , 2015 Ark. 225, 462 S.W.3d 662, we noted that Isom had alleged that a pair of scissors, purportedly the murder weapon, may have been suppressed. Isom claimed that the scissors were found in the search of a trailer home pursuant to information supplied by Kevin Green, an inmate of the Drew County jail. At a pretrial hearing, Deputy Prosecuting Attorney Frank Spain testified that a search of a trailer pursuant to Green's tip failed to produce a pair of scissors. But at the Rule 37 hearing, Spain testified that scissors had been found in the search and submitted to the crime lab for testing. We reinvested the circuit court with jurisdiction to resolve this inconsistency. See id. at 5-7, 462 S.W.3d at 665-56 (\"Given that Spain, under oath, has testified to two different versions of the facts, we are compelled to have the circuit court conduct an evidentiary hearing[.]\").\nBefore the coram nobis hearing, police investigators were unable to find any of the scissors connected to the case. In the initial investigation, four pairs of scissors were found and submitted for testing, but none were forensically linked to the homicide. Isom asked the circuit court to order discovery of all evidence-submission forms received by the crime lab from the Monticello Police Department or the Arkansas State Police for Drew County between the crime and the trial. The circuit court issued an order finding that Isom was not entitled to prehearing discovery. At the hearing, the circuit court partially quashed a subpoena duces tecum to the crime lab for evidence-submission sheets and required the lab to search only for submissions under the names of Isom and Kevin Green. Counsel renewed the discovery motion, which the circuit court again denied.\nIsom states that, because of the circuit court's ruling, he was unable to develop evidence that may have proved his claim at the hearing. Isom contends that his discovery request was closely linked to the question this court directed the circuit court to consider, which is whether the police uncovered evidence during the search of the trailer identified by Green. Isom states that he was able to question only Spain and Woodward about the search, and they both denied that it turned up any scissors. He claims that the requested discovery would have provided objective evidence as to whether a fifth pair of scissors had been found.\nIsom cites Williams v. State , 2017 Ark. 20, 518 S.W.3d 653, for the proposition that the scope of the discovery that he proposes is authorized following this court's reinvestment of jurisdiction in the circuit court. However, in Williams , this court reversed the circuit court's denial of the writ when the circuit court merely entered an order denying relief on the same pleadings presented in the application to this court. Id. at 3, 518 S.W.3d at 655.\nHere, the circuit court placed no limit on Isom's use of witness subpoenas for the coram nobis hearing. The circuit court modified the document request that sought every evidence-submission form submitted by the Arkansas State Police or Monticello Police Department that emanated from Drew County over a nine-month period in 2001. The circuit court narrowed the request to all evidence-submission forms that had some connection to either Kenneth Isom or Kevin Green. We conclude that the circuit court did not abuse its discretion in limiting discovery.\nIV. Recusal\nIsom contends that the circuit court judge should have recused himself as a matter of state and federal law. He bases his claim on actions that the judge took while he served as the elected prosecutor in unrelated cases against Isom; references in a pretrial order to Rule 3.1 of the Arkansas Rules of Professional Conduct and Rule 11 of the Arkansas Rules of Civil Procedure ; and comments made at the coram nobis hearing.\nRule 1.2 of the Arkansas Code of Judicial Conduct states,\nA judge shall act at all times in a manner that promotes public confidence in the independence, integrity, and impartiality of the judiciary, and shall avoid impropriety and the appearance of impropriety.\n\"No Justice or Judge shall preside or participate in any case in which he or she might be interested in the outcome.\" Ark. Const. amend. 80, \u00a7 12. Arkansas Code of Judicial Conduct 2.11(A) states that a \"judge shall disqualify himself or herself in any proceeding in which the judge's impartiality might reasonably be questioned.\"\nA judge's decision not to recuse is discretionary and will not be reversed on appeal absent an abuse of that discretion. Owens v. State , 354 Ark. 644, 128 S.W.3d 445 (2003). There is a presumption that judges are impartial. Turner v. State , 325 Ark. 237, 926 S.W.2d 843 (1996). To decide whether there was an abuse of discretion, we review the record to see if any prejudice or bias was exhibited. Davis v. State , 345 Ark. 161, 44 S.W.3d 726 (2001).\n\"Due process guarantees an 'absence of actual bias' on the part of a judge.\" Williams v. Pennsylvania , --- U.S. ----, 136 S.Ct. 1899, 1905, 195 L.Ed.2d 132 (2016) (quoting In re Murchison , 349 U.S. 133, 136, 75 S.Ct. 623, 99 L.Ed. 942 (1955) ). Even absent \"actual bias\" and even if the judge would \"do their very best to weigh the scales of justice equally,\" when there is an appearance of impropriety, recusal is required to preserve the \"appearance of justice.\" Murchison , 349 U.S. at 136, 75 S.Ct. 623. \"Recusal is required when objectively speaking, 'the probability of actual bias on the part of the judge or decisionmaker is too high to be constitutionally tolerable.' \" Rippo v. Baker , --- U.S. ----, 137 S.Ct. 905, 907, 197 L.Ed.2d 167 (2017) (quoting Withrow v. Larkin , 421 U.S. 35, 47, 95 S.Ct. 1456, 43 L.Ed.2d 712 (1975) ).\nBefore the coram nobis hearing, Isom moved for the circuit judge, Honorable Sam Pope, to recuse based on actual bias or an appearance of bias. He attached to his motion exhibits showing that Judge Pope, when serving as a prosecutor, had twice prosecuted him on serious charges and twice he was acquitted by a jury. Also attached to the motion was an exhibit showing that Prosecutor Pope was successful in obtaining a conviction against Isom for theft of property and a sentence of fifteen years in the Arkansas Department of Correction (ADC).\nIsom acknowledges that this court has held that a circuit judge's previous prosecution of a defendant is insufficient under Arkansas law to require recusal. See, e.g., Irvin v. State , 345 Ark. 541, 552-53, 49 S.W.3d 635, 642-43 (2001). Still, he contends that the judge's actions related to Isom's release on parole demonstrate actual bias or an appearance of bias sufficient to warrant recusal. Specifically, Isom asserts that Prosecutor Pope was biased against him because after Isom was paroled in February 1994, Prosecutor Pope contacted the governor's office and attempted to have his parole rescinded.\nLetters in the record detail the following sequence of events concerning Prosecutor Pope's actions. In preparation for the possible release of Isom, the Post Prison Transfer Board forwarded the required legal notices to the sentencing judges, prosecuting attorneys, and sheriffs in Drew, Jefferson, and Cleveland Counties. Isom was released on parole in February 1994. On March 2, 1994, Prosecutor Pope met with Jack Gillean, the Governor's executive assistant for Criminal Justice, to discuss Isom's parole. Prosecutor Pope told Gillean that he had not been notified of the possibility of parole for Isom or given a chance to oppose the parole. Prosecutor Pope also told Gillean that he was concerned that Isom had been improperly paroled given his lengthy sentence.\nIn a letter to Prosecutor Pope, Gillean addressed Prosecutor Pope's questions about notifications and parole eligibility. Gillean explained that he had contacted Larry Norris, director of the ADC, and asked him if the notifications had been mailed prior to Isom's release from prison. Gillean sent Prosecutor Pope a copy of Norris's response. Norris stated that a notification letter had been forwarded to Prosecutor Pope but noted that \"on November 22, 1993, a Sheriff Jay Winters responded to 'no' to release on the Drew County prosecuting attorney's form. This may be where the confusion lies.\" Gillean further stated that Isom was eligible for parole after serving one third of his sentence and that counting good time credits, Isom was parole eligible in just over three and one-half years. Finally, Gillean stated, \"I know you were hoping Mr. Isom could be returned to prison. After reviewing the facts, it appears his parole was proper, and I know of no way to rescind it.\"\nIsom argued in his motion for recusal that Prosecutor Pope's efforts to meet with the governor's office after Isom had been properly paroled by the ADC and his stated desire to \"return Mr. Isom ... to prison\" went above his ordinary duties as a prosecutor and represented a sincere conviction that Isom belongs in prison regardless of his legal right to be free. Judge Pope declined to recuse himself from the case and ruled that \"[w]hile nothing in the factual allegations regarding the judge's prior actions as prosecutor ... is incorrect, the conclusions and arguments drawn therefrom are incorrect.\" Judge Pope wrote that his actions were \"not improvident or extraordinary\" and were part of his role as an active and thorough prosecutor.\nHere, it appears that the notice of the possibility of parole for Isom was received by a sheriff rather than by Prosecutor Pope. When Prosecutor Pope met with Gillean, he complained that he had not been given notice and an opportunity to be heard before Isom's parole, and he voiced his objection to Isom's release. Based on our review of the letters, we conclude that Prosecutor Pope was carrying out his ordinary duties as a prosecutor when he contacted the governor's office about Isom's parole eligibility. Under these facts, Isom has failed to demonstrate actual bias or the appearance of bias sufficient to require recusal.\nIsom also contends that the judge should have recused himself because he appeared to exhibit bias in a pretrial order. Before the coram nobis hearing, Isom asked to depose several witnesses who refused to speak with his legal team and requested access to handwritten investigative notes and crime-lab documents. The circuit court denied the motion for discovery and implied that if counsel lacked evidence to support her claims she might be subject to Rule 11 sanctions for violating the Arkansas Rules of Professional Conduct. In the order, the circuit court stated,\nMr. Isom has made some serious allegations against the state which if true would constitute violations of the state's obligations under Brady v. Maryland . Rule 3.1 [of the] Arkansas Rules of Professional Conduct provide that a lawyer may only bring assertions on an issue if there is a factual reason to do so. Additionally, by reference only, Arkansas Rule of Civil Procedure, Rule 11(b)(3) requires a lawyer's signature on a pleading be based on a reasonable inquiry that the factual contentions in a pleading have evidentiary support.\nIsom claims that at the time counsel moved for discovery, she had already filed a petition with the circuit court supported by thirteen exhibits, that much of the information regarding the claims was in the possession of State actors, and that most of the State actors refused to speak with Isom's legal team before the hearing. Isom states that counsel at every stage of a death-penalty case has a professional obligation to continue to investigate the case and that far from being sanctionable, requesting discovery was required by counsel's professional obligations.\nHere, counsel appeared to be doing her job, and the judge's reference to sanctions was not warranted. Still, we disagree with Isom's contention that the judge's treatment of the discovery request \"showed hostility\" that requires recusal. The circuit judge acted within his discretion when he limited discovery, and his mention of Rule 11 did not compel his disqualification from the case.\nFinally, Isom contends that the circuit court showed a lack of impartiality during the hearing. He states that at the hearing, counsel attempted to ask Rick McKelvey whether scissors were recovered by investigators following a tip from inmate Kevin Green. Isom states that McKelvey appeared to recall the search until Judge Pope inserted the idea that McKelvey's answers could be explained because \"Mr. McKelvey has hearing problems sometimes.\" Isom further states that during the questioning of trial counsel, Bing Colvin, regarding the impact of an attempted identification, the judge interjected himself again. Colvin responded to a question from the prosecution with a rhetorical question of his own wondering why police were trying to speak to Lawson without first getting an update on her medical condition. Isom contends that the judge showed favor to the State when he responded, \"That's simple Mr. Colvin. Called medical rights to privacy, you know ... She's got to consent to talk to them.\" Having reviewed the transcript, we conclude that the judge's interjections, while unnecessary, did not show bias against Isom.\nV. Conclusion\nBecause Isom failed to demonstrate Brady violations, we hold that the circuit court did not abuse its discretion in dismissing his petition for writ of error coram nobis. We further hold that the circuit court did not abuse its discretion in limiting discovery. Finally, we hold that the circuit court did not abuse its discretion in denying the motion for recusal.\nAffirmed.\nHart and Wood, JJ., dissent.\nJosephine Linker Hart, Justice, dissenting.\nThe circuit judge's refusal to recuse in this case should be reversed. Not only is there an obvious appearance of impropriety, there was strong circumstantial evidence of actual bias in the circuit judge's prior dealings with Mr. Isom. I cannot overlook that all of the so-called \"discretionary\" calls discussed in the majority opinion, as well as the lack of judicial temperament by the circuit judge, seem to substantiate the allegation of bias made before the hearing. Accordingly, a new hearing should be ordered.\nThe majority's finding that \"Based on our review of the letters, we conclude that Prosecutor Pope was carrying out his ordinary duties as a prosecutor when he contacted the governor's office about Isom's parole eligibility\" is simply wrong. The majority's conclusion is unsupported by either law or fact.\nFactually, the majority's finding that \"it appears that the notice of the possibility for parole for Isom was received by a sheriff rather than by Prosecutor Pope,\" is pure speculation and not even suggested by Judge Pope when he denied Mr. Isom's recusal motion. Further, a letter, signed by \"Jack Gillean, Executive Assistant for Criminal Justice,\" indicates that Prosecutor Pope was notified of Mr. Isom's pending parole hearing. The letter states,\nOn March 14, 1994, I received a letter from Mr. Norris which I have attached for your review. Mr. Norris informed me that notifications were forwarded to the persons named in the letter. Mr. Pope's name was among those listed. In addition, as noted in the letter, responses were returned by Drew and Jefferson counties; however, Sheriff Jay Winter responded \"no\" to the release on the Drew County prosecuting attorney's form.\nAccordingly, there is no factual basis for the majority's conclusion that Prosecutor Pope was \"carrying out his ordinary duties\" when he made his extraordinary trip to Little Rock.\nThere is also no legal basis to support the majority's finding that Prosecutor Pope was \"carrying out his ordinary duties.\" The State argues that Arkansas Code Annotated section 16-93-702(a) makes Prosecutor Pope's extraordinary trip to Little Rock as part of his statutory duties. However, a prosecutor's input is solicited \"[b]efore the parole board shall grant any parole.\" Id. Obviously, before the parole board shall grant any parole does not mean after the parole board has made its decision. As Chief Justice Kemp noted in City of North Little Rock v. Pfeifer , 2017 Ark. 113, 515 S.W.3d 593, \"The first rule of statutory construction is to construe the statute just as it reads, giving the words their ordinary and usually accepted meaning in common language.\" Section 16-93-702(a) does not require a prosecutor to travel to Little Rock to use the power of his office to attempt to persuade the governor to annul a decision by the parole board. Accordingly, Prosecutor Pope's extraordinary efforts to reverse Mr. Isom's lawfully granted parole can only be attributed to some special animus that Prosecutor Pope held toward Mr. Isom.\nFurther, while I am mindful that a trial judge's previous prosecution of a defendant is insufficient under Arkansas law to require recusal, the circumstances of Judge Pope's prior involvement with Mr. Isom as a prosecutor are remarkable. Before successfully winning a conviction against Mr. Isom in the case that resulted in Prosecutor Pope's extraordinary efforts to get the governor to annul a lawful decision by the parole board, Prosecutor Pope twice failed. Acquittals in criminal trials are not common in Arkansas; a defendant's acquittal in two separate criminal trials is obviously even rarer. I decline to speculate whether these rare failures instilled in Prosecutor Pope an animus toward Mr. Isom, or whether a preexisting animus caused Prosecutor Pope to twice take Mr. Isom to trial without sufficient evidence. I am certain, however, that Judge Pope's prior dealings with Mr. Isom, including his extraordinary efforts to get the governor to annul a lawful decision by the parole board, made him especially familiar with Mr. Isom.\nThat familiarity with Mr. Isom continued when Judge Pope ascended to the bench. Judge Pope presided over Mr. Isom's criminal trial, which included the ruling on Mr. Isom's motion to suppress an identification made by Dorothy Lawson. Significantly, Judge Pope ruled that the photo array the police showed to Ms. Lawson was not unduly suggestive even though Mr. Isom was the only man in the array photos who did not have facial hair. Judge Pope also presided over Mr. Isom's Rule 37 hearing, and he denied Mr. Isom post-conviction relief.\nIt is standard practice in Arkansas for a circuit judge to preside over both the criminal trial and postconviction proceedings. As any reasonable person would recognize, inherent in this situation is a bias against a criminal defendant receiving postconviction relief because the circuit judge is responsible for ensuring that a criminal defendant receives a fair trial. Accordingly, in a Rule 37 hearing, the circuit judge is permitted to give himself his own report card. Due process would be better served if a judge who was not involved in the trial of the substantive charge would conduct the Rule 37 hearing.\nHowever, the case before us presents an even more compelling reason why the judge who presided over the criminal trial and Rule 37 hearing should not preside over further proceedings. It involves a rare grant of permission for an inmate to pursue a writ of error coram nobis, as well as some highly unusual issues, the compelling state interest in avoiding the appearance of impropriety dictates that another judge be tasked with presiding. One of the issues that Mr. Isom raises concerns Ms. Lawson's identification of Mr. Isom on the photo array that the police presented to her at the hospital. Judge Pope was the finder of fact on the issue of whether the identification should have been suppressed. Judge Pope allowed himself to be placed in an untenable position. The hearing in large part concerned his decision, not as just a referee but also as the finder of fact. No member of the judiciary should have been placed in that position-the appearance of bias in this situation is impossible to avoid. That was exactly the situation in Ferguson v. State , 2016 Ark. 319, 498 S.W.3d 733, in which we reversed a circuit judges decision to sit on a case where her \"impartiality might reasonably be questioned.\" Given the unique history of this case and the issues to be tried, Judge Pope's impartiality could reasonably be questioned.\nJudge Pope's handling of the trial certainly did nothing to dispel questions of his impartiality. When Mr. Isom sought discovery as a means of uncovering some objective evidence to help determine which version of Frank Spain's testimony was closest to the truth, Judge Pope acted as an advocate opposed to Mr. Isom, not a neutral arbiter. As the majority notes, Judge Pope threatened Mr. Isom's attorney with Rule 11 sanctions in his written order:\nMr. Isom has made some serious allegations against the State which if true would constitute violations of the state's obligations under Brady v. Maryland. Rule 3.1 Arkansas Rules of Professional Conduct provide that a lawyer may only bring assertions on an issue if there is a factual reason to do so. Additionally, by reference only, Arkansas Rule of Civil Procedure, Rule 11(b)(3) requires a lawyer's signature on a pleading be based on a reasonable inquiry that the factual contentions in a pleading have evidentiary support.\nThe majority is correct when it opines that \"[h]ere, counsel appeared to be doing her job, and the judge's reference to sanctions was not warranted.\" Inexplicably, the majority does not believe that such an intemperate and gratuitous threat \"showed hostility\" that requires recusal.\nLikewise, Judge Pope's demonstrated what could reasonably be interpreted as a lack of impartiality-or outright bias-when Mr. Isom's counsel attempted to question Officer Rick McKelvey about whether scissors, suspected to be the murder weapon, had been recovered during a search. Initially, Officer McKelvey appeared to recall such an event but became confused during his testimony.\nQ: During the course of your investigation into the Burton homicide, did you go on a search for a weapon with an inmate from the Drew County Detention Center?\nA: We-I recall a search warrant being executed at someone's house. And I do believe there might have been a pair of scissors recovered from that search warrant.\nQ: And then you recall a separate search that occurred with an inmate from the detention center where you recovered a pair or two pairs of scissors?\nA: I don't-I don't recall how many were recovered, but I do recall there, as a result of a search warrant, there was one or two pairs of scissors.\nQ: And in addition, to those four, you testified that you went on a search with an inmate from the Drew County Detention Center at a house and there were a number of scissors located, one or more. Correct?\nA: That's correct.\nHowever, Judge Pope interjected, asserting that Officer McKelvey's answers could be explained because \"Mr. McKelvey has hearing problems sometimes.\" If Officer McKelvey's hearing was really a matter of concern, a reasonable person would expect a circuit judge to do nothing more than say, \"Speak up counselor.\" Instead, Judge Pope declared a recess. I cannot fail to notice that after the break, the State recalled Officer McKelvey, who testified that his prior testimony was mistaken, he had misspoken earlier, and on further questioning repeatedly expressed inability to hear the questions from Mr. Isom's counsel. When a circuit judge, sitting as the finder of fact, takes it upon himself to rehabilitate a witness and then orders a recess that could reasonably be interpreted as giving the State a chance to wood-shed that witness, the judge's impartiality might reasonably be questioned.\nGiven the appearance of bias, if not the actual bias, and ample reason to question the impartiality of Judge Pope, all the close \"discretionary\" calls that he made must be questioned. Credibility determinations and the weight to be assigned conflicting evidence determined all the substantive issues in this case. This included an interpretation of and all assignment of weight to Nurse Wexley's notes regarding Ms. Lawson's \"attempt\" to make a photo identification of Mr. Isom at the hospital, which related to whether the State committed a Brady violation; inconsistencies in Woodward's testimony concerning the photo array; and whether Frank Spain was lying in the pretrial hearing or the Rule 37 hearing with regard to the scissors that were believed to be the murder weapon.\nResolving the question of what was behind Spain's inconsistent testimony was the principle reason why this court granted Mr. Isom permission to seek a writ of error coram nobis in the first place. Yet, as the majority notes, Judge Pope severely limited discovery and improperly threatened Mr. Isom's counsel with Rule 11 sanctions when she sought to uncover evidence that would be more substantive than Spain's self-serving explanation of why his testimony in the pretrial hearing and the Rule 37 hearing are irreconcilable.\nWhen this court reviews a decision rendered by a lower tribunal, we grant great deference to the finder of fact to resolve questions of witness credibility and the weight to be afforded conflicting pieces of evidence. However, when this deference rests on a foundation of actual or perceived bias and lack of impartiality, the legitimacy of the decision crumbles under even the most cursory scrutiny. I would reverse Judge Pope's decision not to recuse and order a new hearing by a new judge.\nI respectfully dissent.\nIsom received additional sentences of life for aggravated robbery, forty years for residential burglary, sixty years for attempted capital murder, and a life sentence for each count of rape. All of his sentences were ordered to be served consecutively.\nAt the coram nobis hearing, defense counsel testified that he could not remember whether he had the McKelvey Report in his file. Defense counsel also testified that he could not remember whether he spoke with Rick McKelvey before trial.\nAfter the search was conducted, Green was released from jail on a pending charge. See Isom , 2015 Ark. 225, at 4-5, 462 S.W.3d at 664-65.\nIsom requested the forms from April 1, 2001 to December 21, 2001.\nIn Williams , we stated, \"In granting Williams's petition, this court necessarily found that his petition for writ of error coram nobis appeared to be meritorious. As it now stands, the circuit court reviewed the exact same record as was before this court, determined that the petition did not have merit, and denied the petition without findings of fact.\" 2017 Ark. 20, at 3, 518 S.W.3d at 655. Under those circumstances, we agreed with Williams's argument that the circuit court was \"required to do more than deny Williams's petition without allowing discovery, holding an evidentiary hearing, or making any findings of fact.\" Id. , 518 S.W.3d at 655.\nFor clarity, we refer to Judge Pope as Prosecutor Pope when describing his role as a prosecutor.\nExhibits to Isom's motion for judicial recusal included a letter dated March 7, 1994, from Larry Norris, director of the ADC, to Jack Gillean, the Governor's executive assistant for Criminal Justice, and a letter dated April 1, 1994, from Gillean to Prosecutor Pope and Tommy C. Free, sheriff of Drew County.\n\"Before the Parole Board shall grant any parole, the board shall solicit the written or oral recommendations of the committing court, the prosecuting attorney, and the county sheriff of the county from which the inmate was committed.\" Ark. Code Ann. \u00a7 16-93-702(a) (Repl. 2016).",
+        "type": "majority",
+        "author": "JOHN DAN KEMP, Chief Justice"
+      },
+      {
+        "text": "Rhonda K. Wood, Justice, dissenting.\nI dissent. Given Judge Pope's prior dealings with Isom, he should have recused from the error coram nobis matter. As Justice Hart sets out more fully in her dissenting opinion, Prosecutor Pope's request to the governor to annul the parole board's decision to parole Isom was extraordinary. I do not find anything inappropriate in this act but considering it in totality with the history between Judge Pope and Isom, there is at least an appearance of bias in this matter. Every defendant is entitled to an impartial tribunal.\nIsom has been sentenced to death. Whether his error coram nobis petition succeeded ultimately depended on the number of close discretionary decisions made by Judge Pope, especially those pertaining to Ms. Lawson's attempted identification of Isom at the hospital, the officers' testimony concerning the scissors, and the scope of discovery afforded Isom. Notably, each of these decisions weighed against Isom when the witnesses' testimony appeared to be inexplicably inconsistent. It is unimaginable how Isom's counsel was expected to present his case with the limited discovery obtained as each witness took the stand.\nWe give great deference to the circuit court in an error coram nobis hearing, and we review a circuit court's factual findings only for clear error. Cloird v. State , 357 Ark. 446, 182 S.W.3d 477 (2004). The circuit court determines the credibility of witnesses, resolves conflicts and inconsistencies in testimony, and assesses the weight to be given the evidence in an error coram nobis hearing. However, it is difficult to afford the circuit court the deference our law requires given the extensive history between Judge Pope and Isom. Consequently, we should remand for a new error coram nobis hearing to be held by a different circuit court judge. Therefore, I believe justice compels reversal.\nHart, J., joins in this opinion.",
+        "type": "dissent",
+        "author": "Rhonda K. Wood, Justice, dissenting."
+      }
+    ],
+    "attorneys": [
+      "Jennifer Horan, Federal Public Defender, by: Julie Vandiver, Ass't Federal Public Defender, for appellant.",
+      "Leslie Rutledge, Att'y Gen., by: Kent G. Holt, Ass't Att'y Gen., for appellee."
+    ],
+    "corrections": "",
+    "head_matter": "Kenneth R. ISOM, Appellant\nv.\nSTATE of Arkansas, Appellee\nNo. CR-17-1003\nSupreme Court of Arkansas.\nOpinion Delivered: December 20, 2018\nRehearing Denied January 31, 2019\nJennifer Horan, Federal Public Defender, by: Julie Vandiver, Ass't Federal Public Defender, for appellant.\nLeslie Rutledge, Att'y Gen., by: Kent G. Holt, Ass't Att'y Gen., for appellee."
+  },
+  "file_name": "0533-01",
+  "first_page_order": 533,
+  "last_page_order": 552
+}

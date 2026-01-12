@@ -1,0 +1,59 @@
+{
+  "id": 5981167,
+  "name": "Hering v. Madden et al.",
+  "name_abbreviation": "Hering v. Madden",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10933",
+  "first_page": "856",
+  "last_page": "856",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 856"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 72,
+    "ocr_confidence": 0.533,
+    "sha256": "ae984a699b44dd309fefa027b9c9beceef9dbc6f9e213d770e8ada1d99af199c",
+    "simhash": "1:b24126a0693d0062",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hering v. Madden et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10933.\nHering v. Madden et al."
+  },
+  "file_name": "0856-06",
+  "first_page_order": 878,
+  "last_page_order": 878
+}

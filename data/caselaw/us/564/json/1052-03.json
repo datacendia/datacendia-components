@@ -1,0 +1,59 @@
+{
+  "id": 4331812,
+  "name": "Smith v. Florida",
+  "name_abbreviation": "Smith v. Florida",
+  "decision_date": "2011-06-28",
+  "docket_number": "No. 09-10755",
+  "first_page": "1052",
+  "last_page": "1052",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1052"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 65,
+    "ocr_confidence": 0.578,
+    "sha256": "044e8f3759cff30212ba56ab208492e5cb16085c6466cd7138413527cf524fce",
+    "simhash": "1:27df9b4270255237",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Smith v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10755.\nSmith v. Florida."
+  },
+  "file_name": "1052-03",
+  "first_page_order": 1046,
+  "last_page_order": 1046
+}

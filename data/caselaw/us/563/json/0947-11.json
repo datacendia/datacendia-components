@@ -1,0 +1,59 @@
+{
+  "id": 5949213,
+  "name": "Hunter v. Denney, Warden",
+  "name_abbreviation": "Hunter v. Denney",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-9317",
+  "first_page": "947",
+  "last_page": "947",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 947"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.583,
+    "sha256": "9b26a214cd76353f18cbd70a21f61bc73b91bc2f4ce7680877a5e0facd7ba094",
+    "simhash": "1:acec46f19e7716e5",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hunter v. Denney, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9317.\nHunter v. Denney, Warden."
+  },
+  "file_name": "0947-11",
+  "first_page_order": 973,
+  "last_page_order": 973
+}

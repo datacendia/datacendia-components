@@ -1,0 +1,59 @@
+{
+  "id": 12231399,
+  "name": "Williams v. Wisconsin",
+  "name_abbreviation": "Williams v. Wisconsin",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-6348",
+  "first_page": "988",
+  "last_page": "988",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 988"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 70,
+    "ocr_confidence": 0.661,
+    "sha256": "2a1eea6b53ce3121d54d9a7dbcbd84864e9f8d82e878ba97363d0193aed7bf7b",
+    "simhash": "1:8e128408f8800802",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. Wisconsin."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Wis. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6348.\nWilliams v. Wisconsin."
+  },
+  "file_name": "0988-10",
+  "first_page_order": 1070,
+  "last_page_order": 1070
+}

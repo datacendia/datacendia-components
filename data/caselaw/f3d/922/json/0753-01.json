@@ -1,0 +1,597 @@
+{
+  "id": 12520971,
+  "name": "UNITED STATES of America, Plaintiff-Appellee, v. Mason SHEPHERD, Defendant-Appellant.",
+  "name_abbreviation": "U.S. v. Shepherd",
+  "decision_date": "2019-05-01",
+  "docket_number": "No. 18-3993",
+  "first_page": "753",
+  "last_page": "762",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "922 F.3d 753"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "6th Cir.",
+    "id": 21296,
+    "name": "United States Court of Appeals for the Six Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "551 U.S. 338",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3573000
+      ],
+      "weight": 3,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "358"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/551/0338-01"
+      ]
+    },
+    {
+      "cite": "295 F. App'x 799",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        3201447
+      ],
+      "weight": 2,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "804"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/295/0799-01"
+      ]
+    },
+    {
+      "cite": "707 F.2d 653",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1861938
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "660"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/707/0653-01"
+      ]
+    },
+    {
+      "cite": "716 F. App'x 488",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "492",
+          "parenthetical": "quoting United States v. Harris , 707 F.2d 653, 660 (2d Cir. 1983) "
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "132 F.3d 320",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11886939
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "331"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/132/0320-01"
+      ]
+    },
+    {
+      "cite": "337 F.3d 645",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9107347
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "663",
+          "parenthetical": "quoting United States v. Latouf , 132 F.3d 320, 331 (6th Cir. 1997) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/337/0645-01"
+      ]
+    },
+    {
+      "cite": "692 F. App'x 346",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        12398415
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "349"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/692/0346-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3613",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(b)"
+        },
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "719 F.3d 555",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4055629
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "559",
+          "parenthetical": "\"In determining [the ordinary meaning], dictionaries are a good place to start.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/719/0555-01"
+      ]
+    },
+    {
+      "cite": "501 U.S. 868",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1107758
+      ],
+      "weight": 3,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "920",
+          "parenthetical": "Scalia, J., concurring"
+        },
+        {
+          "parenthetical": "Scalia, J., concurring"
+        },
+        {
+          "parenthetical": "Scalia, J., concurring"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/501/0868-01"
+      ]
+    },
+    {
+      "cite": "636 F.3d 803",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4103743
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "810"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/636/0803-01"
+      ]
+    },
+    {
+      "cite": "910 F.3d 878",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12519486
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "882"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/910/0878-01"
+      ]
+    },
+    {
+      "cite": "2017 WL 3189900",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 3,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "*2"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "861 F.3d 790",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12276242
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "801"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/861/0790-01"
+      ]
+    },
+    {
+      "cite": "736 F. App'x 381",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "382",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "722 F. App'x 806",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "811"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "908 F.3d 137",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12519134
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "138"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/908/0137-01"
+      ]
+    },
+    {
+      "cite": "268 F.3d 346",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1949938
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "351",
+          "parenthetical": "reviewing district court's application of Sentencing Guidelines de novo"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/268/0346-01"
+      ]
+    },
+    {
+      "cite": "521 F.3d 562",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3736616
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "569",
+          "parenthetical": "reviewing district court's factual findings at sentencing for clear error"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/521/0562-01"
+      ]
+    },
+    {
+      "cite": "7 J. App. Prac. & Process 101",
+      "category": "journals:journal",
+      "reporter": "J. App. Prac. & Process",
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "132-36",
+          "parenthetical": "discussing application of definitions in statutes"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3572",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "128 F.3d 376",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        977928
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "398"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/128/0376-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3014",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "(a)",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "(a)(3)"
+        },
+        {
+          "page": "(a)(2)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 2252",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(2)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "735 F. App'x 140",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "140",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "83 F. App'x 83",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        574575
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "84",
+          "parenthetical": "\"The defendant bears the burden of establishing his present and future inability to pay all or part of a fine.\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f-appx/83/0083-01"
+      ]
+    },
+    {
+      "cite": "861 F.3d 790",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12276242
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "802"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/861/0790-01"
+      ]
+    },
+    {
+      "cite": "736 F. App'x 381",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "382",
+          "parenthetical": "per curiam"
+        },
+        {
+          "page": "382"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "908 F.3d 137",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12519134
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "143"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/908/0137-01"
+      ]
+    },
+    {
+      "cite": "521 F.3d 562",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3736616
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "569"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/521/0562-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3014",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(f)"
+        },
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 1
+    }
+  ],
+  "analysis": {
+    "cardinality": 1031,
+    "char_count": 23329,
+    "pagerank": {
+      "raw": 4.46765605076141e-08,
+      "percentile": 0.28030611051069
+    },
+    "sha256": "499de7e98131bce59e55d039f40bf06554dfa206634edb16e10e0349c52a9fbb",
+    "simhash": "1:93506a316aaa0410",
+    "word_count": 3736
+  },
+  "last_updated": "2024-02-27T18:46:53.504629+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee,\nv.\nMason SHEPHERD, Defendant-Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "NALBANDIAN, Circuit Judge.\nMason Shepherd admitted to possessing several thousand images and videos of child pornography and pleaded guilty to one count of receipt and distribution of child pornography under 18 U.S.C. \u00a7 2252(a)(2). The district court sentenced Shepherd to 96 months in prison and six years of supervised release and also ordered him to pay $ 25,000 in restitution to his victims, a $ 100 special assessment, and a $ 5,000 assessment under the Justice for Victims of Trafficking Act (\"JVTA\"), codified at 18 U.S.C. \u00a7 3014. Shepherd appeals the latter assessment. Under the JVTA, courts must impose the $ 5,000 assessment against non-indigent persons convicted of five classes of crimes, including crimes related to the sexual exploitation of children. On appeal, Shepherd argues that he was indigent at sentencing, making him ineligible for the JVTA assessment. We disagree and AFFIRM.\nI.\nAfter Shepherd pleaded guilty but before sentencing, the United States Probation Office prepared a presentence report (\"PSR\"), which provided the court with information about Shepherd's education, employment history, and finances. According to the PSR, Shepherd obtained a high-school-equivalency degree in 2008 and earned certifications from a career school as an emergency-medical technician and in fire safety. Shepherd then enlisted in the U.S. Navy but became injured shortly after completing basic training and was honorably discharged in 2009. So Shepherd entered the private sector and held two jobs before his 2017 arrest: a part-time position as a firefighter and emergency-medical technician with the Perry Township Fire Department and a full-time position as a maintenance associate with the Allen County Fairgrounds, earning $ 9 and $ 11 per hour, respectively. As to Shepherd's finances, the PSR identified an overdue bill for $ 439, and Shepherd self-reported $ 1,500 in unpaid medical expenses. His only asset was a 1996 Dodge Ram, worth about $ 200, placing his total net worth at negative $ 1,739.\nAt the sentencing hearing, Shepherd's counsel asked the court to find that Shepherd was indigent, which would make him ineligible for the JVTA assessment, and described Shepherd's financial obligations. The father of an 11-year-old son, Shepherd had been paying $ 350 in monthly child support before his arrest; his counsel estimated that Shepherd will owe $ 30,000 in support upon his release from prison. That obligation, along with the $ 25,000 in court-ordered restitution, places Shepherd's total financial liability at $ 55,000 when he exits prison.\nAnd Shepherd's counsel pointed to several factors hampering Shepherd's ability to satisfy his financial obligations. First, Shepherd's expected earnings from prison jobs range from $ .12 to-at most-$ .40 per hour. Shepherd's counsel cast doubt on Shepherd's ability to earn enough to settle his financial obligations once he exits prison, both because of his limited education and the fact that he must register as a sex offender. Thus, Shepherd's counsel asked the court to not impose the JVTA assessment.\nThe district court nonetheless ordered the JVTA assessment. Before sentencing ended, the judge remarked that \"when I combine the defendant's ability to earn in the future, along with his other obligations, I think it's something that can be handled by the defendant in this case.\" (R. 41, Tr. at PageID #2088.) Shepherd's counsel objected to the assessment at the close of sentencing, preserving the issue for appeal.\nII.\nWe first address our standard of review in this case of first impression before our court. The parties ask us to review the district court's decision to impose the assessment for abuse of discretion, and it is true that we ordinarily review decisions to impose criminal fines under that standard. See, e.g. , United States v. Monus , 128 F.3d 376, 398 (6th Cir. 1997). But that standard presupposes that the district court has discretion as to whether to impose the fine. Some statutes, for example, tell the sentencing court to impose a fine \"only to the extent that such fine or penalty will not impair the ability of the defendant to make restitution.\" 18 U.S.C. \u00a7 3572(b). By contrast, the statute here uses mandatory language, leaving no room for discretion. Section 3014 states that the court \"shall assess an amount of $ 5,000 on any non-indigent person or entity convicted.\" 18 U.S.C. \u00a7 3014(a) (emphasis added). In other words, the district court has no choice but to impose the $ 5,000 assessment if it determines that the defendant is non-indigent. And the opposite is also true: the district court cannot impose the assessment on an indigent defendant. Because the district court has no discretion to exercise, we cannot review for abuse of discretion.\nInstead, we believe that the crux of this appeal presents two questions-one factual, the other legal. See, e.g. , Randall H. Warner, All Mixed Up about Mixed Questions , 7 J. App. Prac. & Process 101, 132-36 (2005) (discussing application of definitions in statutes). Whether Shepherd is indigent under 18 U.S.C. \u00a7 3014 is a question of fact that we review under the clearly erroneous standard. See United States v. Jeross , 521 F.3d 562, 569 (6th Cir. 2008) (reviewing district court's factual findings at sentencing for clear error). To answer that question, however, the district court first had to resolve a separate, legal question-what constitutes indigence under \u00a7 3014. We review that legal question de novo. See Weinberger v. United States , 268 F.3d 346, 351 (6th Cir. 2001) (reviewing district court's application of Sentencing Guidelines de novo).\nIII.\nA.\nWe begin with the legal question: whether the district court applied the correct standard for what constitutes indigence under \u00a7 3014. Shepherd acknowledges that several of our sister circuits have said that a district court may consider both the defendant's current ability to pay and the defendant's earnings capacity to resolve the indigency question. See, e.g. , United States v. Graves , 908 F.3d 137, 138 (5th Cir. 2018) ; United States v. Janatsch , 722 F. App'x 806, 811 (10th Cir. 2018) ; United States v. Lail , 736 F. App'x 381, 382 (4th Cir. 2018) (per curiam); United States v. Kelley , 861 F.3d 790, 801 (8th Cir. 2017). But Shepherd also directs us to a contrary decision, in which the district court declined to weigh the defendant's earnings potential in its indigency analysis, looking only to the defendant's financial condition at the time of sentencing. United States v. Medina , No. 15-2849, 2017 WL 3189900 (D.N.M. May 25, 2017).\nOur analysis begins with the statute's text. Section 3014 states that a court \"shall assess an amount of $ 5,000 on any non-indigent person or entity convicted of an offense under ... (3) chapter 110 (relating to sexual exploitation and other abuse of children).\" 18 U.S.C. \u00a7 3014(a)(3). Congress did not define \"non-indigent,\" so we must give that term its ordinary meaning at the time of the statute's enactment. Keeley v. Whitaker , 910 F.3d 878, 882 (6th Cir. 2018) ; United States v. Grant , 636 F.3d 803, 810 (6th Cir. 2011). To determine ordinary meaning, we first turn to dictionaries that are \"roughly contemporaneous\" with the statute's enactment. Freytag v. C.I.R. , 501 U.S. 868, 920, 111 S.Ct. 2631, 115 L.Ed.2d 764 (1991) (Scalia, J., concurring); see also United States v. Zabawa , 719 F.3d 555, 559 (6th Cir. 2013) (\"In determining [the ordinary meaning], dictionaries are a good place to start.\"). Black's Law Dictionary defines indigent as \"[a] poor person,\" but that does not tell us much, partly because it uses indigent as a noun while the statute uses indigent as an adjective. Indigent , Black's Law Dictionary 891 (10th ed. 2014). More descriptive is Black's definition of indigency, which it calls \"[t]he quality, state, or condition of a person who lacks the means of subsistence; extreme hardship or neediness; poverty.\" Indigency , Black's Law Dictionary 891 (10th ed. 2014). That definition suggests that indigency is a more dire condition than simply living paycheck-to-paycheck: it summons the thought of one who earns no paycheck at all and instead relies on others for life's basic necessities.\nNon-legal dictionaries also compare the words indigent and indigency to poverty. See, e.g. , Indigent , Webster's New World Dictionary 687 (3d ed. 1988) (\"in poverty; poor; needy; destitute\"). We find the Oxford English Dictionary's definition of indigency especially helpful: in addition to defining that word as \"penury; destitution,\" the dictionary further describes indigency as the \"want of the means of subsistence.\" Indigency , Oxford English Dictionary 868 (2d ed. 1989). Like Black's definition of indigency, that definition implies that an indigent person not only lives in poverty but also lacks the means-e.g. , skills or education-to exit poverty. We can infer from these definitions that the district court must resolve two basic questions in assessing the defendant's indigency: (1) Is the defendant impoverished now ; and (2) if so, does the defendant have the means to provide for himself so that he will not always be impoverished?\nThe statute's structure recommends the same inference. Under \u00a7 3014(g), which cross-references 18 U.S.C. \u00a7 3613(b), the defendant's obligation to pay the assessment does not end until \"the later of 20 years from the entry of judgment or 20 years after the release from imprisonment of the person fined, or upon the death of the individual fined.\" 18 U.S.C. \u00a7 3613(b). Because the defendant's obligation to pay persists for at least twenty years after his sentencing, it would make little sense for the district court to consider only the defendant's financial condition at the time of sentencing. That snapshot in time may not accurately represent the defendant's condition five, ten, or twenty years after sentencing. Rather, the defendant's employment prospects and earnings potential are probative of his ability to pay the assessment-and are fair game for the court to consider at sentencing.\nFinally, we note that each circuit that has considered this issue has agreed that the district court may consider the defendant's future financial condition-such as his earnings potential-when making the indigency determination. See Graves , 908 F.3d at 141-42 ; Janatsch , 722 F. App'x at 811 ; Lail , 736 F. App'x at 382 ; Kelley , 861 F.3d at 802 ;\nUnited States v. Strange , 692 F. App'x 346, 349 (9th Cir. 2017). Although Shepherd acknowledges that line of decisions, he points to a district-court decision in which the court declined to look beyond the defendant's present financial condition when applying \u00a7 3014. Medina , 2017 WL 3189900, at *2. Indeed, the court explained that it had \"reviewed the cases contained in the government's supplemental brief, but none of those cases provide authority that the Court may impose the special assessment fee based on a defendant's hypothetical future earning capacity or the fact that a defendant held regular employment in the past.\" Id. We find Medina unpersuasive, largely because several circuit courts, including the Tenth Circuit, have since provided the authority that the district court found absent.\nFor these reasons, the district court's decision to consider Shepherd's earnings potential, along with his present finances, was appropriate under \u00a7 3014.\nB.\nWhether the district court applied the correct legal standard is a separate question from whether the district court correctly concluded that Shepherd is non-indigent. Shepherd argues that the district court answered the latter question-a factual question-incorrectly. We review the district court's factual determination for clear error, and in doing so, we may reverse only if we have the \"definite and firm conviction that a mistake has been committed.\" United States v. Darwich , 337 F.3d 645, 663 (6th Cir. 2003) (quoting United States v. Latouf , 132 F.3d 320, 331 (6th Cir. 1997) ).\nAt the outset, we note that the fact that the district court appointed Shepherd counsel is probative but not dispositive of whether Shepherd is indigent under \u00a7 3014. The Criminal Justice Act authorizes district courts to appoint counsel to defendants who are \"financially unable to obtain adequate representation.\" 18 U.S.C. \u00a7 3006A(a). But \"the standard of financial inability is 'something less than indigency or destitution.' \" Brown v. United States , 716 F. App'x 488, 492 (6th Cir. 2017) (quoting United States v. Harris , 707 F.2d 653, 660 (2d Cir. 1983) ). This is a matter of common sense: a criminal defendant might be unable to pay a six-figure legal bill and yet still possess the means of subsistence. Although all indigent defendants might be financially unable to obtain adequate legal counsel, the inverse is not necessarily true. That Shepherd has court-appointed counsel is not sufficient to support a finding of indigency.\nShepherd points to his limited education and low earnings potential as signs of his indigency. According to Shepherd, the fact that he has only a GED and vocational training \"limit[s] his reasonable future earning potential.\" (Appellant Br. at 10.) In one sense, that may be true. That Shepherd does not have a degree in engineering or computer science, for example, may limit his future earnings. But as the government responds, one-third of working Americans can claim a high-school diploma as their highest educational credential. Shepherd, by contrast, has a high school diploma plus additional training as an emergency-medical technician-evidence that, if anything, he is not indigent.\nShepherd also notes that he will have to register as a sex offender upon his release from prison, which he claims will also limit his earnings potential. That fact may also be objectively true, but it does not compel the district court to find him indigent. To the contrary, Shepherd's argument conflicts with the statute, which contemplates assessing sex offenders. Section 3014, which Congress titled the \"Justice for Victims of Trafficking Act of 2015,\" applies to defendants whose convictions fall under five chapters of the criminal code. Two of those chapters, 109A and 110, relate to sexual abuse and the sexual exploitation of minors, respectively-crimes for which the defendant, like Shepherd, may have to register as a sex offender. 18 U.S.C. \u00a7 3014(a)(2)-(3). Thus, Shepherd cannot use his sex-offender status to shield him from paying the assessment.\nThe closer question is whether Shepherd's financial obligations-$ 25,000 in restitution and as much as $ 30,000 in child support-render him indigent. Although Shepherd had been current on his child support payments before he was incarcerated, his hourly wage will decline significantly while he is in prison and yet his $ 350 monthly support payment may not. And Shepherd's responsibility to pay $ 25,000 in restitution will begin the day he exits prison. All told, Shepherd will owe as much as $ 55,000 upon his release from prison, calling into question his ability to pay that sum plus the $ 5,000 assessment.\nTo be sure, these are nontrivial obligations, especially for someone with a negative net worth at sentencing. But time is on Shepherd's side. Shepherd was 29 years old at sentencing, meaning that if he serves his full, 96-month sentence, he will leave prison well before he turns 40 and with many years of future employability. And Shepherd has 20 years after his release from prison to pay the assessment. By budgeting, Shepherd need only save $ 250 each year or under $ 5 per week to stay on pace. As the judge remarked at sentencing, \"when I combine the defendant's ability to earn in the future, along with his other obligations, I think it's something that can be handled by the defendant in this case.\" (R. 41, Tr. at PageID #2088.) We agree. The district court made no error in its factual determination.\nC.\nAs a last resort, Shepherd argues that the district court erred by failing to make an explicit finding of his non-indigency. But the statute requires no such finding, and in general, district courts \"retain considerable latitude in deciding which arguments to discuss and how much explanation is necessary.\" United States v. Mitchell , 295 F. App'x 799, 804 (6th Cir. 2008). Indeed, the court has \"done its duty\" if the \" 'record makes clear that the sentencing judge listened to each argument,' 'considered the supporting evidence,' was 'fully aware' of the defendant's circumstances and 'took them into account' in sentencing him.\" Id. (quoting Rita v. United States , 551 U.S. 338, 358, 127 S.Ct. 2456, 168 L.Ed.2d 203 (2007) ). While the district court did not expressly state that Shepherd is \"non-indigent,\" it concluded as much when it imposed the $ 5,000 assessment after hearing argument from both sides about Shepherd's finances, education, and employment history. And the district court justified that decision, in part, by noting Shepherd's \"ability to earn in the future.\" (Id. ) Still more, the district court's finding was specific enough to prompt an objection to the assessment from Shepherd's counsel, thus preserving this issue for appeal. As a result, Shepherd's argument is unavailing.\nIV.\nFor these reasons, we AFFIRM the district court's judgment imposing the $ 5,000 JVTA assessment.\nCONCURRING IN PART AND DISSENTING IN PART\nWe also note that the district court's exercise of discretion to waive Shepherd's criminal fines-for reasons the district court did not state on the record-does not change our analysis.\nShepherd's counsel acknowledged the possibility that Shepherd's monthly payment could decrease while he is in prison.",
+        "type": "majority",
+        "author": "NALBANDIAN, Circuit Judge."
+      },
+      {
+        "text": "MERRITT, Circuit Judge, concurring in part and dissenting in part.\nI agree that in determining indigency under 18 U.S.C. \u00a7 3014(a), District Courts should examine future earning potential alongside present ability to pay. But nowhere does the majority say whose burden it is to show the fact of indigency or non-indigency. It is defendant's.\nThe statute specifies that a mandatory $ 5,000 special assessment on non-indigent defendants shall be collected in the same manner as a criminal fine. 18 U.S.C. \u00a7 3014(f). The burden is usually on a defendant to establish that he is unable to pay a criminal fine. See generally United States v. Martin , 83 F. App'x 83, 84 (6th Cir. 2003) (\"The defendant bears the burden of establishing his present and future inability to pay all or part of a fine.\"); U.S.S.G. \u00a7 5E1.2(a). Other courts have said the defendant's burden of proof in the criminal fine context applies to the special assessment in 18 U.S.C. \u00a7 3014(a). See, e.g. , United States v. Streaty , 735 F. App'x 140, 140 (5th Cir. 2018) (per curiam) (\"This court has yet to articulate a test for determining whether a defendant is indigent for purposes of \u00a7 3014. As such, this court applies the standard that otherwise applies to fines assessed in criminal cases.\"); United States v. Lail , 736 F. App'x 381, 382 (4th Cir. 2018) (per curiam).\nAs the majority states, we review decisions to impose criminal fines under an abuse of discretion standard; here there is no discretion to exercise because the special assessment is mandatory. I agree that the determination of indigency under \u00a7 3014 is a question of fact we should review for clear error. So the question in this case is whether the District Court clearly erred in determining that the defendant did not meet his burden to show he could not pay. It erred because he has carried that burden. If the defendant had negative $ 1,739 to his name before entering prison, it is unclear to me how 96 months in jail, 72 months of supervised release, and a sex offender designation will enhance his ability to pay down these fines. It was clear error to assume that a man with a $ 200 car and $ 1,939 in unpaid bills can \"handle\" a $ 5,000 penalty because he is not yet old. Why add another $ 5,000 onto a ledger that will likely never be satisfied?\nPredicting a defendant's financial prospects after prison is inherently guesswork. Because this defendant is young, it is reasonable to assume he will work upon release. If we assume that the defendant will find paid work, generate capital, or win the lottery at some point during his post-incarceration life, then why should he avoid paying the $ 5,000 assessment mandated by Congress? But we can make a different series of assumptions. For example, that a long prison sentence will diminish this offender's employability. Or that prison, rather than rehabilitating, will stigmatize him and lower his earning capacity upon release. The latter series of assumptions is grounded in fact whereas the former is grounded in speculation. He has no money now. Assuming he will have money later is not supported by anything in the record.\nOther defendants were found non -indigent under this statute because they had assets. In Kelley , the defendant was an Eagle Scout with a college degree. United States v. Kelley , 861 F.3d 790, 802 (8th Cir. 2017). In Lail , the defendant was expected to have a total net worth of $ 74,500 after selling his residence. 736 F. App'x at 382. And in Graves , the defendant possessed a GED, some college education, had a wide range of vocational skills, a long history of employment, and had previously earned $ 40,000 per year. United States v. Graves , 908 F.3d 137, 143 (5th Cir. 2018). The defendant in this case has emergency medical technician training: but who would trust a sex offender in an ambulance? Comparing these defendants and examining the Presentence Report's recitation of the defendant's assets (or lack thereof), I am compelled to conclude that Shepherd is indigent. Because the assumption that Shepherd will have greater financial capacity after prison is not grounded in fact, the District Court clearly erred in finding that Shepherd has not carried his burden to show he is indigent. I am \"left with the definite and firm conviction that a mistake has been made.\" United States v. Jeross , 521 F.3d 562, 569 (6th Cir. 2008).\nI also disagree with the majority as to whether the District Court made a finding on indigency. The majority states: \"While the district court did not expressly state that Shepherd is 'non-indigent,' it concluded as much when it imposed the $ 5,000 assessment after hearing argument from both sides about Shepherd's finances, education, and employment history.\" This sentence is confusing because it effectively says that the District Court did not make a finding on indigency-but then says that it did. This confusion arises because the District Court simply ordered that the $ 5,000 penalty be assessed, but did not explicitly state whether the defendant was indigent or not. [R.41, Page ID 2088]. Because the $ 5,000 may only be assessed upon a \"non-indigent person,\" the majority assumes that by applying the assessment, the District Court was necessarily finding that the defendant was such a \"non-indigent\" person. But that is not what the District Court said. It said only that it was ordering the assessment and that defendant could \"handle[ ]\" the restitution order. [R.41, Page ID 2088]. This was insufficient.",
+        "type": "concurring-in-part-and-dissenting-in-part",
+        "author": "MERRITT, Circuit Judge, concurring in part and dissenting in part."
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee,\nv.\nMason SHEPHERD, Defendant-Appellant.\nNo. 18-3993\nUnited States Court of Appeals, Sixth Circuit.\nDecided and Filed: May 1, 2019"
+  },
+  "file_name": "0753-01",
+  "first_page_order": 753,
+  "last_page_order": 762
+}

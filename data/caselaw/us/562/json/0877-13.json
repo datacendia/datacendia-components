@@ -1,0 +1,59 @@
+{
+  "id": 6026671,
+  "name": "Nowak v. United States",
+  "name_abbreviation": "Nowak v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11392",
+  "first_page": "877",
+  "last_page": "877",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 877"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.596,
+    "sha256": "ecd5d71d7691274cb153c75dbeec18276f472a07dc64e194b4188ca11b128d80",
+    "simhash": "1:958bca2367cbbc18",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Nowak v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11392.\nNowak v. United States."
+  },
+  "file_name": "0877-13",
+  "first_page_order": 899,
+  "last_page_order": 899
+}

@@ -1,0 +1,68 @@
+{
+  "id": 12697237,
+  "name": "William WHITE, petitioner, v. UNITED STATES.",
+  "name_abbreviation": "White v. United States",
+  "decision_date": "2013-04-01",
+  "docket_number": "No. 12\u20131062.",
+  "first_page": "913",
+  "last_page": "913",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "569 U.S. 913"
+    },
+    {
+      "type": "parallel",
+      "cite": "185 L. Ed. 2d 802"
+    },
+    {
+      "type": "parallel",
+      "cite": "133 S. Ct. 1740"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 33,
+    "char_count": 288,
+    "sha256": "a3852abe122c4b04b3587f9c278749bcfc09b182785febf318b1c35c923369f3",
+    "simhash": "1:d9bf76041706d241",
+    "word_count": 47
+  },
+  "last_updated": "2021-09-08T21:16:17.237805+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "William WHITE, petitioner,\nv.\nUNITED STATES."
+    ],
+    "opinions": [
+      {
+        "text": "Justice KAGAN took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": "Justice KAGAN took no part in the consideration or decision of this petition."
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of certiorari to the United States Court of Appeals for the Seventh Circuit denied."
+    ],
+    "corrections": "",
+    "head_matter": "William WHITE, petitioner,\nv.\nUNITED STATES.\nNo. 12-1062.\nSupreme Court of the United States\nApril 1, 2013.\nPetition for writ of certiorari to the United States Court of Appeals for the Seventh Circuit denied."
+  },
+  "file_name": "0913-09",
+  "first_page_order": 913,
+  "last_page_order": 913
+}

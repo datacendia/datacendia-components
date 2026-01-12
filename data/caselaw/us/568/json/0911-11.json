@@ -1,0 +1,59 @@
+{
+  "id": 12415864,
+  "name": "Malede v. Wilson, Warden",
+  "name_abbreviation": "Malede v. Wilson",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5415",
+  "first_page": "911",
+  "last_page": "911",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 911"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.668,
+    "sha256": "2091495461f38a8e1c13d7d9dddaed8d8c2ae90386f5b229b4a6e9ebb51168ee",
+    "simhash": "1:bfa408f0cc8fb165",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Malede v. Wilson, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5415.\nMalede v. Wilson, Warden."
+  },
+  "file_name": "0911-11",
+  "first_page_order": 987,
+  "last_page_order": 987
+}

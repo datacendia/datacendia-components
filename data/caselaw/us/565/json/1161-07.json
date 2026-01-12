@@ -1,0 +1,59 @@
+{
+  "id": 12242841,
+  "name": "Nolen v. Pennsylvania",
+  "name_abbreviation": "Nolen v. Pennsylvania",
+  "decision_date": "2012-01-17",
+  "docket_number": "No. 11-7235",
+  "first_page": "1161",
+  "last_page": "1161",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1161"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 71,
+    "ocr_confidence": 0.692,
+    "sha256": "e35a1bb47f6344e170143cb294b86e3e468976ff949700a0c3ae948fde267650",
+    "simhash": "1:e37da5c0b5e8e414",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Nolen v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Pa. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7235.\nNolen v. Pennsylvania."
+  },
+  "file_name": "1161-07",
+  "first_page_order": 1243,
+  "last_page_order": 1243
+}

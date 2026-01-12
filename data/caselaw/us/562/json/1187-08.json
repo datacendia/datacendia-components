@@ -1,0 +1,59 @@
+{
+  "id": 6020670,
+  "name": "Gilbert v. New Jersey",
+  "name_abbreviation": "Gilbert v. New Jersey",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-7573",
+  "first_page": "1187",
+  "last_page": "1187",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1187"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 83,
+    "ocr_confidence": 0.582,
+    "sha256": "e4ed0b0dc444d8929d5acc8135f20ea847f8561d2dc332e929109563f5c6b548",
+    "simhash": "1:58edb75d2becb00d",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gilbert v. New Jersey."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. N. J., App. Div. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7573.\nGilbert v. New Jersey."
+  },
+  "file_name": "1187-08",
+  "first_page_order": 1209,
+  "last_page_order": 1209
+}

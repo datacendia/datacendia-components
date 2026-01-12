@@ -1,0 +1,59 @@
+{
+  "id": 12249438,
+  "name": "Prado v. Texas",
+  "name_abbreviation": "Prado v. Texas",
+  "decision_date": "2012-02-27",
+  "docket_number": "No. 11-8028",
+  "first_page": "1237",
+  "last_page": "1237",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1237"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 69,
+    "ocr_confidence": 0.641,
+    "sha256": "db2b320a5b10f0662fcec37415101fed03c4c641e02c9add3f2a2934e6ae03ea",
+    "simhash": "1:080e1c745dfffdd0",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Prado v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tex. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8028.\nPrado v. Texas."
+  },
+  "file_name": "1237-02",
+  "first_page_order": 1319,
+  "last_page_order": 1319
+}

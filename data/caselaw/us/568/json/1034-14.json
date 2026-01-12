@@ -1,0 +1,59 @@
+{
+  "id": 12425006,
+  "name": "Amos v. Renico, Warden",
+  "name_abbreviation": "Amos v. Renico",
+  "decision_date": "2012-11-26",
+  "docket_number": "No. 12-6470",
+  "first_page": "1034",
+  "last_page": "1034",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1034"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.629,
+    "sha256": "0646b4fa0df084bc32bafd3e194eba1f3f60995b54db047045fc5da13b873f4b",
+    "simhash": "1:a3822b08d85c11b0",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Amos v. Renico, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6470.\nAmos v. Renico, Warden."
+  },
+  "file_name": "1034-14",
+  "first_page_order": 1110,
+  "last_page_order": 1110
+}

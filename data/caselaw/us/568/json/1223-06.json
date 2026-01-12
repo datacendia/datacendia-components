@@ -1,0 +1,59 @@
+{
+  "id": 12432917,
+  "name": "United States v. Windsor, Executor of the Estate of Spyer, et al.",
+  "name_abbreviation": "United States v. Windsor",
+  "decision_date": "2013-03-15",
+  "docket_number": "No. 12-307",
+  "first_page": "1223",
+  "last_page": "1223",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1223"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 42,
+    "char_count": 259,
+    "ocr_confidence": 0.603,
+    "sha256": "578d2157ffa59241a6de6ae57feca95c105626423676263e023b2e63a933fec1",
+    "simhash": "1:190c2856e87d00dc",
+    "word_count": 46
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "United States v. Windsor, Executor of the Estate of Spyer, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. [Certiorari granted, ante, p. 1066.] Motion of former Attorneys General Edwin Meese III and John Ashcroft for leave to file brief as amici curiae out of time granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-307.\nUnited States v. Windsor, Executor of the Estate of Spyer, et al."
+  },
+  "file_name": "1223-06",
+  "first_page_order": 1299,
+  "last_page_order": 1299
+}

@@ -1,0 +1,59 @@
+{
+  "id": 4332269,
+  "name": "Bass v. Nevada",
+  "name_abbreviation": "Bass v. Nevada",
+  "decision_date": "2011-06-27",
+  "docket_number": "No. 10-1301",
+  "first_page": "1038",
+  "last_page": "1038",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1038"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 62,
+    "ocr_confidence": 0.669,
+    "sha256": "f6f581548e856baf1cf63edd09cf0db5be0bb7ad5007adb0de3aed7718ae42cc",
+    "simhash": "1:084ca63781a4ffce",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bass v. Nevada."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Nev. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1301.\nBass v. Nevada."
+  },
+  "file_name": "1038-10",
+  "first_page_order": 1032,
+  "last_page_order": 1032
+}

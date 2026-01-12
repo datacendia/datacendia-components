@@ -1,0 +1,59 @@
+{
+  "id": 12194018,
+  "name": "Watford v. Warren, Administrator, New Jersey State Prison, et al.",
+  "name_abbreviation": "Watford v. Warren",
+  "decision_date": "2012-03-26",
+  "docket_number": "No. 11-8396",
+  "first_page": "909",
+  "last_page": "909",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 909"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 18,
+    "char_count": 112,
+    "ocr_confidence": 0.575,
+    "sha256": "44777df65fee2a187cc98283e188184e9e01bf06885c2ab0895b469338d103ab",
+    "simhash": "1:c85e318a675cb0be",
+    "word_count": 18
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Watford v. Warren, Administrator, New Jersey State Prison, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8396.\nWatford v. Warren, Administrator, New Jersey State Prison, et al."
+  },
+  "file_name": "0909-03",
+  "first_page_order": 785,
+  "last_page_order": 785
+}

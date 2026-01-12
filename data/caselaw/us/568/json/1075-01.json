@@ -1,0 +1,59 @@
+{
+  "id": 12427571,
+  "name": "Vargas v. United States",
+  "name_abbreviation": "Vargas v. United States",
+  "decision_date": "2012-12-10",
+  "docket_number": "No. 12-7134",
+  "first_page": "1075",
+  "last_page": "1075",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1075"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.602,
+    "sha256": "d5984bc789d150fef8c45fa57ed487f294359e56a070e51404bbaacdd3a4600d",
+    "simhash": "1:8280bac04e815418",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Vargas v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7134.\nVargas v. United States."
+  },
+  "file_name": "1075-01",
+  "first_page_order": 1151,
+  "last_page_order": 1151
+}

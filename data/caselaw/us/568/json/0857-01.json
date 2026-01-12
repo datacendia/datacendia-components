@@ -1,0 +1,59 @@
+{
+  "id": 12413839,
+  "name": "Cain v. Premo, Superintendent, Oregon State Penitentiary",
+  "name_abbreviation": "Cain v. Premo",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10696",
+  "first_page": "857",
+  "last_page": "857",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 857"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 106,
+    "ocr_confidence": 0.642,
+    "sha256": "6340cf8c3cd93ec6bd0a564cee6db4315beb95750b8d1ef8bd3c2c366cb4d6c6",
+    "simhash": "1:18d023ad292c084e",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cain v. Premo, Superintendent, Oregon State Penitentiary."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10696.\nCain v. Premo, Superintendent, Oregon State Penitentiary."
+  },
+  "file_name": "0857-01",
+  "first_page_order": 933,
+  "last_page_order": 933
+}

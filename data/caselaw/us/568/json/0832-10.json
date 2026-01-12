@@ -1,0 +1,59 @@
+{
+  "id": 12411414,
+  "name": "Hamby v. Montana",
+  "name_abbreviation": "Hamby v. Montana",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10072",
+  "first_page": "832",
+  "last_page": "832",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 832"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 67,
+    "ocr_confidence": 0.665,
+    "sha256": "ef5b4c35f9c27eb9543f334c591101c8cba2a91204d3186f56acaadbe0d89984",
+    "simhash": "1:3509087208c3f3a0",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hamby v. Montana."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Mont. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10072.\nHamby v. Montana."
+  },
+  "file_name": "0832-10",
+  "first_page_order": 908,
+  "last_page_order": 908
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5942333,
+  "name": "McKanry v. United States",
+  "name_abbreviation": "McKanry v. United States",
+  "decision_date": "2011-04-04",
+  "docket_number": "No. 10-9332",
+  "first_page": "927",
+  "last_page": "927",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 927"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.646,
+    "sha256": "ddddd79238ada9cde7f424b295814991d6b076a4d98ae5ecbe491ab11358a6f0",
+    "simhash": "1:84aac3b20d3d140b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McKanry v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9332.\nMcKanry v. United States."
+  },
+  "file_name": "0927-13",
+  "first_page_order": 953,
+  "last_page_order": 953
+}

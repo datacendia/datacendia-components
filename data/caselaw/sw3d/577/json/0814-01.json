@@ -1,0 +1,106 @@
+{
+  "id": 12660195,
+  "name": "Matthew H. COY, Appellant, v. STATE of Missouri, Respondent.",
+  "name_abbreviation": "Coy v. State",
+  "decision_date": "2019-06-28",
+  "docket_number": "WD 82041",
+  "first_page": "814",
+  "last_page": "814",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "577 S.W.3d 814"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Mo. App. Ct.",
+    "id": 30098,
+    "name": "Missouri Court of Appeals, Western District"
+  },
+  "jurisdiction": {
+    "id": 37,
+    "name_long": "Missouri",
+    "name": "Mo."
+  },
+  "cites_to": [
+    {
+      "cite": "437 S.W.3d 218",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6925593
+      ],
+      "weight": 3,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "226"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/437/0218-01"
+      ]
+    },
+    {
+      "cite": "569 S.W.3d 28",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12659093,
+        12659094
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "31-32",
+          "parenthetical": "citing Vogl v. State , 437 S.W.3d 218, 226 (Mo. banc 2014)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/569/0028-01",
+        "/sw3d/569/0028-02"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 166,
+    "char_count": 2082,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2651803251849818
+    },
+    "sha256": "3cfb6b6718245299eaaab9aeed65a2ae77e8318ad5c99b7fd0f495523ad34d45",
+    "simhash": "1:6b747e7f41e25599",
+    "word_count": 340
+  },
+  "last_updated": "2024-02-27T16:25:07.692717+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Matthew H. COY, Appellant,\nv.\nSTATE of Missouri, Respondent."
+    ],
+    "opinions": [
+      {
+        "text": "Anthony Rex Gabbert, Judge\nMatthew H. Coy appeals the circuit court's dismissal of Coy's Rule 24.035 pro se motion for post-conviction relief. Coy's motion was filed May 30, 2018, and included a Forma Pauperis Affidavit claiming indigence due to incarceration and the absence of income, resources, or assets to cover legal expenses. Coy requested the appointment of counsel, however none was appointed. On June 21, 2018, the State filed a motion to dismiss Coy's Rule 24.035 motion on the grounds that it was untimely. The court dismissed Coy's motion June 25, 2018, finding that, \"Movant's motion is untimely filed and is hereby dismissed with prejudice.\" Coy appeals, arguing the merits of his motion without addressing its timeliness.\nRule 24.035(e) provides that, \"[w]ithin 30 days after an indigent movant files a pro se motion, the court shall cause counsel to be appointed for the movant.\" Although a threshold to achieving post-conviction relief is the timely filing of a pro se motion, movant's counsel may raise an exception to the filing time limits in an amended motion that the movant may not have realized was applicable. Naylor v. State , 569 S.W.3d 28, 31-32 (Mo. App. 2018) (citing Vogl v. State , 437 S.W.3d 218, 226 (Mo. banc 2014)). Hence, \"the court's denial of a pro se Rule 24.035 motion without appointing counsel may deprive the movant of his opportunity to allege and prove the timeliness of his motion.\" Id. \"For these reasons, a motion court is required to appoint counsel for a movant even when the movant's pro se motion is facially untimely.\" Id.\nWe reverse the motion court's dismissal of Coy's motion and remand for the appointment of counsel.\nAll concur.",
+        "type": "majority",
+        "author": "Anthony Rex Gabbert, Judge"
+      }
+    ],
+    "attorneys": [
+      "Matthew H. Coy, Appellant Acting Pro Se, Butner, NC, Counsel for Appellant.",
+      "Dora Fichter, Jefferson City, MO, Counsel for Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "Matthew H. COY, Appellant,\nv.\nSTATE of Missouri, Respondent.\nWD 82041\nMissouri Court of Appeals, Western District.\nOPINION FILED: JUNE 28, 2019\nMatthew H. Coy, Appellant Acting Pro Se, Butner, NC, Counsel for Appellant.\nDora Fichter, Jefferson City, MO, Counsel for Respondent.\nBefore Division Three: Thomas H. Newton, Presiding Judge, Anthony Rex Gabbert, Judge, Edward R. Ardini, Jr., Judge"
+  },
+  "file_name": "0814-01",
+  "first_page_order": 814,
+  "last_page_order": 814
+}

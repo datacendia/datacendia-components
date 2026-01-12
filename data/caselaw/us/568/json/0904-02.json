@@ -1,0 +1,59 @@
+{
+  "id": 12415624,
+  "name": "Rivas v. United States",
+  "name_abbreviation": "Rivas v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5268",
+  "first_page": "904",
+  "last_page": "904",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 904"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.699,
+    "sha256": "6b66eaa384b4e073f2a1f53b47aea13ce5e923cc492c33052b7c9b839223f75d",
+    "simhash": "1:81a8998a81089c42",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rivas v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5268.\nRivas v. United States."
+  },
+  "file_name": "0904-02",
+  "first_page_order": 980,
+  "last_page_order": 980
+}

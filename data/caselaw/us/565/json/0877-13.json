@@ -1,0 +1,59 @@
+{
+  "id": 12213442,
+  "name": "Rosenfeld v. Hackett et al.",
+  "name_abbreviation": "Rosenfeld v. Hackett",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11298",
+  "first_page": "877",
+  "last_page": "877",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 877"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 76,
+    "ocr_confidence": 0.667,
+    "sha256": "b94924d49950f67866c705f27f076f5d70edd20fe87a3cbdd0499ffba487529e",
+    "simhash": "1:d08020a86d9f1065",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rosenfeld v. Hackett et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11298.\nRosenfeld v. Hackett et al."
+  },
+  "file_name": "0877-13",
+  "first_page_order": 959,
+  "last_page_order": 959
+}

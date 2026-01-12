@@ -1,0 +1,59 @@
+{
+  "id": 12422456,
+  "name": "Cox v. Howerton, Warden",
+  "name_abbreviation": "Cox v. Howerton",
+  "decision_date": "2012-11-13",
+  "docket_number": "No. 11-11155",
+  "first_page": "1010",
+  "last_page": "1010",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1010"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 71,
+    "ocr_confidence": 0.666,
+    "sha256": "8f03a8a4f76cad1247dacf11a610e05075593ed3403681da90ee65111642a70f",
+    "simhash": "1:803028a10714050c",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cox v. Howerton, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ga. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-11155.\nCox v. Howerton, Warden."
+  },
+  "file_name": "1010-01",
+  "first_page_order": 1086,
+  "last_page_order": 1086
+}

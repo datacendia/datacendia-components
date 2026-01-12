@@ -1,0 +1,59 @@
+{
+  "id": 12420831,
+  "name": "Birdette v. Superior Court of Georgia, Douglas County",
+  "name_abbreviation": "Birdette v. Superior Court of Georgia, Douglas County",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-6091",
+  "first_page": "987",
+  "last_page": "987",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 987"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 103,
+    "ocr_confidence": 0.711,
+    "sha256": "13de6151dc19865e03724d6610b088fd96bedf025fb26a2eae86f88e283390cc",
+    "simhash": "1:0af19a012f2fb492",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Birdette v. Superior Court of Georgia, Douglas County."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6091.\nBirdette v. Superior Court of Georgia, Douglas County."
+  },
+  "file_name": "0987-05",
+  "first_page_order": 1063,
+  "last_page_order": 1063
+}

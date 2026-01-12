@@ -1,0 +1,793 @@
+{
+  "id": 4105349,
+  "name": "DAVID JOHNSON et al., Plaintiffs and Appellants, v. UNITED STATES STEEL CORPORATION, Defendant and Respondent",
+  "name_abbreviation": "Johnson v. United States Steel Corp.",
+  "decision_date": "2015-09-01",
+  "docket_number": "No. A142485",
+  "first_page": "22",
+  "last_page": "40",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "240 Cal. App. 4th 22"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "101 Cal.Rptr.3d 726",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "179 Cal.App.4th 549",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4210369
+      ],
+      "pin_cites": [
+        {
+          "page": "562"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/179/0549-01"
+      ]
+    },
+    {
+      "cite": "625 F.Supp. 1515",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        3827371
+      ],
+      "pin_cites": [
+        {
+          "page": "1518"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/625/1515-01"
+      ]
+    },
+    {
+      "cite": "448 U.S. 607",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1787625
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "615"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/448/0607-01"
+      ]
+    },
+    {
+      "cite": "172 Cal.Rptr.3d 886",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "226 Cal.App.4th 1396",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "opinion_index": 0
+    },
+    {
+      "cite": "169 Cal.Rptr.3d 513",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2014,
+      "opinion_index": 0
+    },
+    {
+      "cite": "224 Cal.App.4th 1239",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "year": 2014,
+      "opinion_index": 0
+    },
+    {
+      "cite": "144 Cal.Rptr.3d 326",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "207 Cal.App.4th 1283",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6054819
+      ],
+      "pin_cites": [
+        {
+          "page": "1311"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/207/1283-01"
+      ]
+    },
+    {
+      "cite": "110 Cal.Rptr.2d 722",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "91 Cal.App.4th 698",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        226404
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/91/0698-01"
+      ]
+    },
+    {
+      "cite": "136 Cal.Rptr.3d 630",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "203 Cal.App.4th 81",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4248571
+      ],
+      "pin_cites": [
+        {
+          "page": "93"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/203/0081-01"
+      ]
+    },
+    {
+      "cite": "117 Cal.Rptr.3d 791",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "190 Cal.App.4th 23",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4227430
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/190/0023-01"
+      ]
+    },
+    {
+      "cite": "71 Cal.Rptr.2d 817",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "61 Cal.App.4th 830",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1240482
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/61/0830-01"
+      ]
+    },
+    {
+      "cite": "53 Cal.Rptr.2d 642",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.App.4th 1224",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4752592
+      ],
+      "pin_cites": [
+        {
+          "page": "1226-1232"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/45/1224-01"
+      ]
+    },
+    {
+      "cite": "74 Cal.Rptr.3d 359",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1996,
+      "opinion_index": 0
+    },
+    {
+      "cite": "161 Cal.App.4th 651",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3995833
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "658-662"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/161/0651-01"
+      ]
+    },
+    {
+      "cite": "74 Cal.Rptr.2d 580",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Cal.App.4th 1178",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "pin_cites": [
+        {
+          "page": "1186"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "157 Cal.Rptr. 248",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "95 Cal.App.3d 621",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2004919
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/95/0621-01"
+      ]
+    },
+    {
+      "cite": "28 Cal.Rptr.3d 744",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "129 Cal.App.4th 577",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        2482541
+      ],
+      "pin_cites": [
+        {
+          "page": "581"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/129/0577-01"
+      ]
+    },
+    {
+      "cite": "391 P.2d 168",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Cal.Rptr. 896",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "61 Cal.2d 256",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2337785
+      ],
+      "pin_cites": [
+        {
+          "page": "261"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/61/0256-01"
+      ]
+    },
+    {
+      "cite": "649 P.2d 224",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "184 Cal.Rptr. 891",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Cal.3d 112",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1950706
+      ],
+      "pin_cites": [
+        {
+          "page": "126"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/32/0112-01"
+      ]
+    },
+    {
+      "cite": "123 Cal.Rptr.2d 303",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "100 Cal.App.4th 1111",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1039592
+      ],
+      "pin_cites": [
+        {
+          "page": "1120"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/100/1111-01"
+      ]
+    },
+    {
+      "cite": "882 P.2d 298",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "34 Cal.Rptr.2d 607",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "8 Cal.4th 548",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1985976
+      ],
+      "pin_cites": [
+        {
+          "page": "566-570"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/8/0548-01"
+      ]
+    },
+    {
+      "cite": "573 P.2d 443",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "143 Cal.Rptr. 225",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 Cal.3d 413",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2288519
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "427"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/20/0413-01"
+      ]
+    },
+    {
+      "cite": "32 Tenn. L.Rev. 363",
+      "category": "journals:journal",
+      "reporter": "Tenn. L. Rev.",
+      "pin_cites": [
+        {
+          "page": "367"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "810 P2d 549",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "281 Cal.Rptr. 528",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.3d 987",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2358707
+      ],
+      "pin_cites": [
+        {
+          "page": "994"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/53/0987-01"
+      ]
+    },
+    {
+      "cite": "90 Cal.Rptr.3d 414",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "171 Cal.App.4th 564",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        12126752
+      ],
+      "pin_cites": [
+        {
+          "page": "575-576"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/171/0564-01"
+      ]
+    },
+    {
+      "cite": "58 P.3d 450",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "127 Cal.Rptr.2d 614",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Cal.4th 473",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        777255
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "476-478"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/29/0473-01"
+      ]
+    },
+    {
+      "cite": "377 P.2d 897",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "27 Cal.Rptr. 697",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 Cal.2d 57",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4392123
+      ],
+      "pin_cites": [
+        {
+          "page": "63"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/59/0057-01"
+      ]
+    },
+    {
+      "cite": "150 P.2d 436",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "24 Cal.2d 453",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2253482
+      ],
+      "pin_cites": [
+        {
+          "page": "467"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/24/0453-01"
+      ]
+    },
+    {
+      "cite": "482 P.2d 681",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "93 Cal.Rptr. 769",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "4 Cal.3d 379",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2319591
+      ],
+      "pin_cites": [
+        {
+          "page": "387"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/4/0379-01"
+      ]
+    },
+    {
+      "cite": "28 P.3d 116",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1984,
+      "opinion_index": 0
+    },
+    {
+      "cite": "110 Cal.Rptr.2d 370",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1984,
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 Cal.4th 465",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        456727
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "478"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/26/0465-01"
+      ]
+    },
+    {
+      "cite": "96 Cal.Rptr. 803",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 Cal.App.3d 669",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4403494
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "674"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/19/0669-01"
+      ]
+    },
+    {
+      "cite": "62 Cal.Rptr.2d 368",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.App.4th 1373",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "pin_cites": [
+        {
+          "page": "1378"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 U.S.C. \u00a7 1261",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "et seq."
+        },
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "266 P.3d 987",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "135 Cal.Rptr.3d 288",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.4th 335",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6050788
+      ],
+      "pin_cites": [
+        {
+          "page": "355"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/53/0335-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1669,
+    "char_count": 43044,
+    "ocr_confidence": 0.839,
+    "pagerank": {
+      "raw": 7.608623070139671e-08,
+      "percentile": 0.4502598414038811
+    },
+    "sha256": "1e38fa085dfbbdf1a501953b1ef298c6af0a4490e9b5438b3d093799bf2c2a9d",
+    "simhash": "1:1bab6223bf230d68",
+    "word_count": 6781
+  },
+  "last_updated": "2024-02-27T18:58:37.472163+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Siggins, J., and Jenkins, J., concurred."
+    ],
+    "parties": [
+      "DAVID JOHNSON et al., Plaintiffs and Appellants, v. UNITED STATES STEEL CORPORATION, Defendant and Respondent."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nPOLLAK, Acting P. J.\nPlaintiffs David and Laura Johnson filed a products liability action against suppliers, manufacturers and retailers of various paints, adhesives, lubricants, solvents, and other products containing benzene. They contend that David\u2019s chronic exposure as an auto mechanic to benzene-containing products led him to develop acute myeloid leukemia (AML). Among the defendants is United States Steel Corporation (U.S. Steel), which supplied a fabricator with a benzene-containing coal residue called \u201craffinate\u201d that was once the principal ingredient in the fabrication of Liquid Wrench, a solvent for loosening rusted bolts and machine parts.\nIn somewhat unorthodox proceedings, the trial court granted summary judgment to U.S. Steel, finding insufficient evidence to support causes of action for negligence and strict products liability under a design defect theory. The finding rests on the so-called \u201ccomponent parts doctrine\u201d (or, as in this case, the \u201cbulk supplier defense\u201d), under which \u201cthe manufacturer of a component part is not liable for injuries caused by the finished product into which the component has been incorporated unless the component itself was defective and caused harm.\u201d (O\u2019Neil v. Crane Co. (2012) 53 Cal.4th 335, 355 [135 Cal.Rptr.3d 288, 266 P.3d 987].) Distinguishing cases that have held raw asbestos to be inherently defective and to contain a design defect under the consumer expectations test, the court held that raffinate is not inherently defective so that U.S. Steel could not be liable under a design defect theory.\nWe agree with the trial court that the supplier of a raw material used in the manufacture of another product can be held liable for a design defect under the consumer expectations test only if the raw material is itself inherently defective. However, summary judgment was granted erroneously because the record does not contain evidence negating the existence of a design defect under this test of the coal raffinate produced and sold by U.S. Steel.\nStatement of Facts\nBenzene was first discovered and isolated from coal tar in the 1800\u2019s but, today, is derived mostly from petroleum. (U.S. Dept. of Health & Human Services, Agency for Toxic Substances and Disease Registry, Toxicological Profile for Benzene (Aug. 2007) p. 2, currently available online at the agency\u2019s Web site <http://www.atsdr.cdc.gov/toxprofiles/tp3.pdf> [as of Sept. 1, 2015] (Benzene Profile).) It is a colorless liquid with a sweet odor that is widely used in the United States in the manufacture of lubricants, plastic, rubber, and pesticides. (Benzine, Profile, supra, at pp. 1-2.) It \u201cranks in the top 20 in production volume for chemicals produced in the United States.\u201d (Id. at p. 2.)\n\u201cBenzene is commonly found in the environment,\u201d mostly from industrial processes. (Benzene Profile, supra, at p. 2.) \u201cEveryone is exposed to a small amount of benzene every day .... The major sources of benzene exposure are tobacco smoke, automobile service stations, exhaust from motor vehicles, and industrial emissions. Vapors (or gases) from products that contain benzene, such as glues, paints, furniture wax, and detergents, can also be a source of exposure.\u201d (Id. at p. 3.) \u201cIndividuals employed in industries that make or use benzene may be exposed to the highest levels of benzene.\u201d (Id. at p. 4.) Benzene is a carcinogen. (Id. at p. 6.) Long-term exposure can cause leukemia, AML in particular. (Ibid.)\nU.S. Steel manufactures steel, which is an alloy of iron and carbon. The company converts coal to coke for use in steel production. A byproduct of the coking process is light oil, from which U.S. Steel extracts benzene, toluene and xylene. U.S. Steel sells these chemicals for industrial use. Raffinate is what remains of the light oil and its constituent chemicals after most of these \u201cmore saleable\u201d chemical compounds are extracted. \u201cRaffinate\u201d is a chemistry term, defined as \u201ca liquid product resulting from extraction of a liquid with a solvent\u201d or \u201cthe less soluble residue that remains after extraction (as in refining lubricating oil).\u201d (Webster\u2019s 3d New Internat. Diet. (2002) p. 1874.) U.S. Steel extracts the benzene, toluene and xylene capable of being distilled from the light oil but some of these chemicals remain in the raffinate.\nFrom 1960 to 1978, U.S. Steel sold its raffinate to Radiator Specialty Company (Radiator). Raffinate was less expensive than the refined chemical compounds of benzene, toluene and xylene. Radiator purchased U.S. Steel\u2019s raffinate in bulk, in 10,000- and 20,000-gallon railroad tank cars. The total amount of raffinate purchased by Radiator is unstated but a Radiator executive estimates the amount to be \u201chundreds of thousands of pounds.\u201d\nRadiator is a \u201cformulator\u201d; it does not manufacture or refine chemicals itself. Radiator formulates Liquid Wrench, which it markets as a \u201cpenetrating oil\u201d or liquid solvent for loosening rusted bolts and machine parts. Radiator introduced Liquid Wrench in 1941. In the period from 1960 to 1978, Radiator sold at least two different formulations of Liquid Wrench. One formulation of Liquid Wrench contained as its principal ingredient raffinate that was supplied solely by U.S. Steel. Raffinate comprised \u201cabout 89 or 90 percent\u201d of the raffinate-based Liquid Wrench. Another formulation of Liquid Wrench contains petroleum distillates. Radiator markets its petroleum-based product as \u201cdeodorized\u201d Liquid Wrench. The raffinate-based formula was withdrawn from the market in 1978 but the petroleum-based product continues to be sold today. Radiator distributes its Liquid Wrench formulations nationwide and internationally to hardware stores, auto parts stores, and other retail outlets.\nIn 1960, Congress enacted the Federal Hazardous Substances Act (FHSA) (15 U.S.C. \u00a7 1261 et seq.) to \u201c \u2018 \u201cprovide nationally uniform requirements for adequate cautionary labeling of packages of hazardous substances which are sold in interstate commerce and are intended or suitable for household use.\u201d \u2019 \u201d (People ex rel. Lungren v. Cotter & Co. (1997) 53 Cal.App.4th 1373, 1378 [62 Cal.Rptr.2d 368], italics omitted; see 15 U.S.C. \u00a7 1261 et seq.) In response to the new labeling requirements, Radiator hired chemist consultants to test Liquid Wrench for toxicity. Chemical tests found the raffinate supplied by U.S. Steel to contain various amounts of benzene, ranging from 1 to 14 percent. Radiator asked U.S. Steel to detail the chemical composition of raffinate. In 1963, a manager in U.S. Steel\u2019s coal chemical sales division wrote to Radiator, stating that the company did \u201cnot have positive control over the composition of this material since it is derived from an extraction process.\u201d The U.S. Steel manager estimated the composition of raffinate to be benzene (5 percent minimum), toluene and xylene (25 percent minimum) and aliphatics and cycloparaffins (70 percent maximum). At the time, U.S. Steel knew benzene to be \u201cone of the most toxic industrial poisons. When inhaled, it acts principally on the nerve tissue and the blood forming organs,\u201d \u201cespecially the bone marrow and blood vessels.\u201d\nRadiator placed warning labels on Liquid Wrench. The label on the petroleum-based product said \u201ccontains Petroleum Distillate\u201d and the label on the raffinate-based product said \u201ccontains benzol,\u201d another term for benzene. Both labels cautioned users to avoid prolonged breathing of vapors and stated the products were \u201charmful or fatal if swallowed.\u201d The raffinate-based Liquid Wrench label contained additional warnings, including a skull and crossbones symbol and the word \u201cpoison.\u201d No Liquid Wrench product label or advertisement warned that the product was carcinogenic or could cause cancer.\nDavid Johnson testified he first used Liquid Wrench around 1968 when, at age 10, he began helping his stepfather with auto repairs. In 1971, he became a \u201cshop kid\u201d at a local service station, where he helped disassemble and clean auto engines, among other tasks. He used Liquid Wrench \u201calmost daily\u201d to loosen bolts. He applied the solvent \u201cliberally\u201d to saturate the bolts and surrounding area. Johnson sometimes applied Liquid Wrench while working under a car and the solvent ran down his arm into his armpit; it would \u201cget all over\u201d him. Johnson continued to use Liquid Wrench in subsequent employment from 1972 through 1979, as a service station attendant and mechanic. While working at a salvage yard in 1975, he used one or two bottles of Liquid Wrench a day. He testified, with equivocation, that there was a skull and cross bones symbol on the Liquid Wrench container he used at a work site, which identifies it as the raffinate-based formula. Johnson left automotive mechanical work in 1980. In 1994, Johnson returned to work as a mechanic and continued in that occupation until 2012, when he was diagnosed with AML.\nProcedural History\nIn February 2013, Johnson and his wife filed an action against U.S. Steel, Radiator, and numerous other defendants alleging Johnson\u2019s personal injury from chronic exposure to benzene-containing products. The operative first amended complaint states four cause of action: negligence, strict products liability (design defect and failure to warn), fraudulent concealment, and loss of consortium.\nU.S. Steel filed a motion for summary judgment or, in the alternative, summary adjudication. U.S. Steel claimed the evidence was insufficient to show Johnson was exposed to raffinate-based formula Liquid Wrench, thus negating the element of causation on all causes of action and entitling it to summary judgment. Alternatively, U.S. Steel sought summary adjudication of the negligence and product liability causes of action to the extent they are based on a failure to warn. U.S. Steel argued it was a bulk supplier of a raw material and any duty to warn of the material\u2019s health hazards was discharged when it provided adequate warnings to Radiator. The trial court ultimately held that there was a triable issue of fact as to Johnson\u2019s exposure to raffinate-based Liquid Wrench but that U.S. Steel satisfied its duty to warn of health hazards when it provided adequate warnings to Radiator, thus negating the causes of action for fraudulent concealment, negligence, and strict products liability based on the alleged failure to warn. Johnson does not challenge this ruling on appeal. For present purposes, therefore, we proceed on the assumption that U.S. Steel provided adequate warnings of the health hazards of the raffinate.\nIn its trial court reply brief, U.S. Steel argued for the first time that it was entitled to summary judgment on all causes of action because it is a \u201cbulk supplier\u201d that provided a raw material that was added to other ingredients, packaged and sold by an intermediary. The court requested and received supplemental briefing on the issue, but the statements of undisputed facts were not supplemented and no additional evidence addressed to the consumer expectations theory of design defect or to the inherent defectiveness of U.S. Steel\u2019s raffinate was submitted. Johnson argued that U.S. Steel, as a component supplier, may be liable for the sale of its benzene-containing raffinate because the raffinate was defective in design when it left U.S. Steel\u2019s factory, before its incorporation in a finished product. U.S. Steel argued that raffinate and the benzene it contains are not defective, as they can be safely used with proper handling, unlike asbestos, which is \u201cinherently defective\u201d and has no safe application. The trial court granted summary judgment to U.S. Steel, holding that in contrast to asbestos, which \u201cis an inherently defective product,\u201d Johnson \u201cha[d] not cited any decisional authority for the proposition that benzene is inherently defective, or that raffinate is inherently defective because it contains benzene. The potentially hazardous nature of a substance does not equate to an inherent defect. (See, e.g., Walker v. Stauffer Chemical Corp. (1971) 19 Cal.App.3d 669, 674 [96 Cal.Rptr. 803].)\u201d\nJohnson and his wife timely filed a notice of appeal from the judgment and subsequent order awarding costs to U.S. Steel. They challenge only the design defect ruling and, as indicated above, do not contest dismissal of their failure to warn claims.\nDiscussion\n1. Basic principles in the law of products liability\n\u201c \u2018Products liability is the name currently given to the area of the law involving the liability of those who supply goods or products for the use of others to purchasers, users, and bystanders for losses of various kinds resulting from so-called defects in those products.\u2019 \u201d (Merrill v. Navegar, Inc. (2001) 26 Cal.4th 465, 478 [110 Cal.Rptr.2d 370, 28 P.3d 116], quoting Prosser & Keeton, Torts (5th ed. 1984) \u00a7 95, p. 677.) One may seek recovery in a products liability case on theories of both negligence and strict liability. (Jiminez v. Sears, Roebuck & Co. (1971) 4 Cal.3d 379, 387 [93 Cal.Rptr. 769, 482 P.2d 681].)\nThe doctrine of strict liability for products was adopted to address the realities of an industrial society, where \u201chandicrafts have been replaced by mass production\u201d and a consumer may not have the \u201cmeans or skill enough to investigate for himself [or herself] the soundness of a product\u201d (Escola v. Coca Cola Bottling Co. (1944) 24 Cal.2d 453, 467 [150 P.2d 436] (conc. opn. of Traynor, J.)) nor sufficient knowledge of the manufacturing process to prove negligence (id. at p. 463 (conc. opn. of Traynor, J.)). Strict products liability \u201cinsure[s] that the costs of injuries resulting from defective products are borne by the manufacturers that put such products on the market rather than by the injured persons who are powerless to protect themselves.\u201d (Greenman v. Yuba Power Products, Inc. (1963) 59 Cal.2d 57, 63 [27 Cal.Rptr. 697, 377 P.2d 897].)\nStrict products liability was originally applied to manufacturers of consumer goods but has been extended to retailers, distributors, suppliers and other entities in the chain of distribution of a product that causes harm to a person or to property other than the product itself. (Jimenez v. Superior Court (2002) 29 Cal.4th 473, 476-478 [127 Cal.Rptr.2d 614, 58 P.3d 450]; Taylor v. Elliott Turbomachinery Co. Inc. (2009) 171 Cal.App.4th 564, 575-576 [90 Cal.Rptr.3d 414].) A \u201cproduct\u201d is broadly defined to include any \u201ctangible personal property distributed commercially for use or consumption.\u201d (Rest.3d Torts, Products Liability, \u00a7 19, subd. (a).)\nStrict liability is not absolute liability. (Anderson v. Owens-Corning Fiberglas Corp. (1991) 53 Cal.3d 987, 994 [281 Cal.Rptr. 528, 810 P2d 549].) A manufacturer is not an insurer for all injuries that may result from the use of its product; it is liable for injuries caused by a product defect. (Ibid.) As Justice Traynor observed; \u201cA bottling company is liable for the injury caused by a decomposing mouse found in its bottle. It is not liable for whatever harm results to the consumer\u2019s teeth from the sugar in its beverage. A knife manufacturer is not liable when the user cuts himself with one of its knives. When the injury is in no way attributable to a defect there is no basis for strict liability.\u201d (Traynor, The Ways and Meanings of Defective Products and Strict Liability (1965) 32 Tenn. L.Rev. 363, 367.) Strict product liability seeks to hold manufacturers (and others in the stream of commerce) accountable when there is \u201csomething wrong\u201d with the product. (Id. at p. 366.)\n\u201c[T]he term defect as utilized in the strict liability context is neither self-defining nor susceptible to a single definition applicable in all contexts.\u201d (Barker v. Lull Engineering Co. (1978) 20 Cal.3d 413, 427 [143 Cal.Rptr. 225, 573 P.2d 443].) Three general types of defects have been discerned: manufacturing defects, warning defects, and design defects. (Anderson v. Owens-Corning Fiberglas Corp., supra, 53 Cal.3d at p. 995.) A product has a manufacturing defect if it \u201cdiffers from the manufacturer\u2019s intended result or from other ostensibly identical units of the same product line.\u201d (Barker, supra, at p. 429.) A warning defect occurs when a manufacturer does not adequately warn the consumer of \u201ca particular risk that was known or knowable in light of the generally recognized and prevailing best scientific and medical knowledge available at the time of manufacture and distribution.\u201d (Anderson, supra, at p. 1002.) In California, a product is defective in design if \u201cthe product fails to meet ordinary consumer expectations as to safety\u201d or \u201cthe design is not as safe as it should be.\u201d (Barker, supra, at p. 432; accord, Soule v. General Motors Corp. (1994) 8 Cal.4th 548, 566-570 [34 Cal.Rptr.2d 607, 882 P.2d 298].)\nThe California Supreme Court has set out two alternative tests for identifying a design defect: \u201cfirst, whether the product performed as safely as an ordinary consumer would expect when used in an intended and reasonably foreseeable manner and, second, whether on balance the benefits of the challenged design outweighed the risk of danger inherent in the design.\u201d (Anderson v. Owens-Corning Fiberglas Corp., supra, 53 Cal.3d at p. 995.) The consumer expectations test, which is \u201crooted in theories of warranty, recognizes that implicit in a product\u2019s presence on the market is a representation that it is fit to do safely the job for which it was intended.\u201d (McCabe v. American Honda Motor Co. (2002) 100 Cal.App.4th 1111, 1120 [123 Cal.Rptr.2d 303].) \u201cIn particular circumstances, a product\u2019s design may perform so unsafely that the defect is apparent to the common reason, experience, and understanding of its ordinary consumers.\u201d (Soule v. General Motors Corp., supra, 8 Cal.4th at p. 569.) Where the product is one of \u201ccommon experience,\u201d encountered generally in everyday life, the jury can rely on its own expectations of safety in applying the test. (Campbell v. General Motors Corp. (1982) 32 Cal.3d 112, 126 [184 Cal.Rptr. 891, 649 P.2d 224].) Where a product is in such \u201cspecialized use\u201d that the general public is not familiar with its safety characteristics, a manufacturer may still be liable if \u201cthe safe performance of the product fell below the reasonable, widely shared minimum expectations of those who do use it.\u201d (Soule, supra, at pp. 567-568, fn. 4, italics omitted.) The consumer expectations test is not suitable in all cases. It is reserved' for those cases where \u201cthe circumstances of the product\u2019s failure permit an inference that the product\u2019s design performed below the legitimate, commonly accepted minimum safety assumptions of its ordinary consumers.\u201d (Id. at pp. 568-569.) If the facts do not permit such an inference, the risk-benefit test must be used. (Id. at p. 568.)\nSellers of all products are responsible for defects that exist in the product when it leaves the seller\u2019s control and is placed on the market. Thus, the seller of a completed product is strictly liable for any defect in the completed product, regardless of the \u201csource\u201d of the defect; \u201ca manufacturer of a completed product cannot escape liability by tracing the defect to a component part supplied by another.\u201d (Vandermark v. Ford Motor Co. (1964) 61 Cal.2d 256, 261 [37 Cal.Rptr. 896, 391 P.2d 168].) But the seller of a component part is not strictly liable for any defect in the completed product but only for those defects in the component part it sold. (Jimenez v. Superior Court, supra, 29 Cal.4th at p. 480.)\n2. The component parts doctrine\n\u201cComponent parts are products, whether sold or distributed separately or assembled with other component parts.\u201d (Rest.3d Torts, Products Liability, \u00a7 19, com. b, p. 268; see Jimenez v. Superior Court, supra, 29 Cal.4th at p. 480 [citing definition]). \u201cProduct components include raw materials, bulk products, and other constituent products sold for integration into other products.\u201d (Rest.3d Torts, Products Liability, \u00a7 5, com. a, p. 130.) Component manufacturers and suppliers, as sellers of \u201cproducts,\u201d are subject to products liability. (Jimenez, supra, at p. 479.) \u201cLike manufacturers, suppliers, and retailers of complete products, component manufacturers and suppliers are \u2018an integral part of the overall producing and marketing enterprise,\u2019 and may in a particular case \u2018be the only member of that enterprise reasonably available to the injured plaintiff,\u2019 and may be in the best position to ensure product safety.\u201d (Ibid.)\n\u201cThe component parts doctrine provides that the manufacturer of a component part is not liable for injuries caused by the finished product into which the component has been incorporated unless the component itself was defective and caused harm.\u201d (O\u2019Neil v. Crane Co., supra, 53 Cal.4th at p. 355.) \u201cIf the component itself is not defective, it would be unjust and inefficient to impose liability solely on the ground that the manufacturer of the integrated product utilizes the component in a manner that renders the integrated product defective.\u201d (Rest.3d Torts, Products Liability, \u00a7 5, com. a, p. 131.) The component parts doctrine \u201c \u2018rests on \u201ca line of cases holding an entity supplying a nondefective raw material or a component part is not strictly liable for defects in the final product over which it had no control.\u201d [Citations.] Under the rule of these cases, the manufacturer of a product component or ingredient is not liable for injuries caused by the finished product unless it appears that the component itself was \u201cdefective\u201d when it left the manufacturer.\u2019 \u201d (Tellez-Cordova v. Campbell-Hausfeld/Scott Fetzger Co. (2004) 129 Cal.App.4th 577, 581 [28 Cal.Rptr.3d 744], italics added.)\nU.S. Steel contends the component parts doctrine absolves it of liability for injuries caused by its raffinate that was incorporated into Liquid Wrench. Under the component parts doctrine, U.S. Steel bears no responsibility for damages caused by Liquid Wrench if the raffinate was not itself defective when delivered to Radiator for incorporation into the finished product. But U.S. Steel is liable if the raffinate was defective and its defect caused Johnson\u2019s injuries. Many if not most of the cases questioning the strict liability of component suppliers concern either alleged manufacturing defects or alleged failures to provide adequate warnings of the risks attendant to use of the product. Here, as previously mentioned, the only issue is whether, under the consumer expectations test, the raffinate was defective in design when delivered to Radiator.\nApplication of the consumer expectations standard to identifiable self-contained components of larger products into which the component is integrated is conceptually not difficult. In Wiler v. Firestone Tire & Rubber Co. (1979) 95 Cal.App.3d 621 [157 Cal.Rptr. 248], for example, summary judgment was granted to an automotive tire manufacturer sued for manufacturing and design defects upon evidence that the cause of a fatal accident was a valve stem attached to the tire after the tire left the factory. (Id. at pp. 625, 627, 629-630.) The tire, a component of the automobile, was itself not defective and thus the tire manufacturer was not liable. (Id. at pp. 629-630.) In Jimenez v. Superior Court, supra, 29 Cal.4th at page 476, on the other hand, the California Supreme Court held a manufacturer of windows installed in mass-produced homes strictly liable for harm resulting from manufacturing and design defects in the windows. The court rejected the window maker\u2019s claim that it should not be subject to strict products liability because it \u201cmerely supplied component parts\u201d that were assembled and installed by others. (Id. at pp. 479-480.) \u201cThe issue is not whether the product was sold fully assembled or in parts, but rather whether the defect that resulted in the alleged damage existed when the windows left the manufacturers\u2019 control.\u201d (Id. at p. 480.)\nApplication of the consumer expectations test to raw materials that become an indistinguishable part of another product presents a more difficult conceptual problem, which is at the nub of the present case. Raw materials are often basic building block materials with multiple uses. They include \u201cproducts, whether manufactured, such as sheet metal; processed, such as lumber; or gathered and sold or distributed in raw condition, such as unwashed gravel and farm produce.\u201d (Rest.3d Torts, Products Liability, \u00a7 19, com. b, p. 268.) How does one determine there is \u201csomething wrong\u201d with these products? (Traynor, The Ways and Meanings of Defective Products and Strict Liability, supra, 32 Tenn. L.Rev. at p. 366.) According to a comment in the Restatement, \u201ca basic raw material such as sand, gravel, or kerosene cannot be defectively designed. Inappropriate decisions regarding the use of such materials are not attributable to the supplier of raw materials but rather to the fabricator that puts them to improper use.\u201d (Rest.3d Torts, Products Liability, \u00a7 5, com. c, p. 134.) Yet, in Arena v. Owens-Corning Fiberglas Corp. (1998) 63 Cal.App.4th 1178, 1186 [74 Cal.Rptr.2d 580], another division of this court pointed out that a supplier of raw asbestos was using \u201cthe terms \u2018design defect\u2019 in too literal a manner when arguing that asbestos cannot be defectively designed. The term \u2018design defect\u2019 as described in Barker v. Lull Engineering Co., supra, 20 Cal.3d 413, 429 relates more to a legal conclusion that a product has deviated in some manner from what is reasonably expected, than it does to a description of a specific mechanical shortcoming or flaw.\u201d\nUnder the consumer expectations test, raw asbestos has been found to be defective in design and suppliers of raw asbestos held strictly liable for the product. (E.g., Garza v. Asbestos Corp., Ltd. (2008) 161 Cal.App.4th 651, 658-662 [74 Cal.Rptr.3d 359]; Arena v. Owens-Corning Fiberglas Corp., supra, 63 Cal.App.4th at pp. 1184-1191; Jenkins v. T&N PLC (1996) 45 Cal.App.4th 1224, 1226-1232 [53 Cal.Rptr.2d 642].) In Jenkins, the court held, \u201cAs a matter of law, a bulk supplier of raw asbestos fiber incorporated into a finished product can be subject to strict products liability to an individual suffering from a disease caused by exposure to the supplier\u2019s asbestos.\u201d (45 Cal.App.4th at p. 1231.) The court reached this decision after quoting from an opinion of the Illinois Supreme Court holding that \u201c \u2018 \u201c[t]he evidence showed clearly that handling asbestos in any form produces dust. Liability may be imposed in a products case if the injury results from a condition of the product and the condition is unreasonably dangerous and existed when the product left the defendant\u2019s control.\u201d \u2019 \u201d (Id. at p. 1229, italics omitted.) The court found that the evidence presented at trial established that \u201craw asbestos fibers do not change after becoming a component part of pipe insulation\u201d (ibid.) so that the raw asbestos was properly treated as a \u201cproduct\u201d subject to strict products liability.\nIn Arena, the court found a supplier of raw asbestos subject to strict products liability under the consumer expectations test of a design defect. (Arena v. Owens Corning Fiberglas Corp., supra, 63 Cal.App.4th at p. 1181.) The court noted that \u201cincorporating raw asbestos into an insulation product does not substantially alter\u201d the asbestos and contrasted asbestos with other raw materials the physical composition of which is changed by an intermediary in the process of producing another product that is unsafe. (Id. at p. 1188, citing, among other cases, Walker v. Stauffer Chemical Corp., supra, 19 Cal.App.3d at p. 672 [sulfuric acid in drain cleaner], and Artiglio v. General Electric Co. (1998) 61 Cal.App.4th 830 [71 Cal.Rptr.2d 817] [silicone in breast implant].) \u201c[I]t is not the manufacturing process that creates the dangerous propensity of the asbestos, nor does the manufacturing process change the nature of the asbestos.\u201d (Arena, supra, at p. 1189.) Unlike the \u201csand, gravel, or kerosene\u201d that the comment to the Restatement stated \u201ccannot be defectively designed\u201d (Rest.3d Torts, Products Liability, \u00a7 5, com. c, p. 134), the court observed that \u201casbestos is not a component material that is usually innocuous, such as sand [or] gravel\u201d (Arena, supra, at p. 1191) and that an injury caused by exposure to the product in which it is incorporated is not caused by an intermediary\u2019s use of the material but by \u201ca defect in the raw asbestos contained in the product\u201d (ibid.).\nIn Garza, this court followed Arena in holding that the consumer expectations test was properly applied to a raw asbestos supplier. (Garza v. Asbestos Corp., Ltd., supra, 161 Cal.App.4th at pp. 658-660.) We noted that \u201craw asbestos fibers do not change when they become a component part of another asbestos product,\u201d unlike the sulfuric acid in Walker that was substantially altered when used to malee a drain cleaner. (Garza, p. 660.)\nIn Stewart v. Union Carbide Corp. (2010) 190 Cal.App.4th 23 [117 Cal.Rptr.3d 791], the court affirmed a judgment imposing liability for personal injuries on the supplier of asbestos used in the manufacture of joint compound based on several theories, including \u201cdesign defect/consumer expectations.\u201d (Id. at p. 27.) The court rejected application of the \u201csupplier/component parts doctrine,\u201d pointing out that \u201c[ajsbestos suppliers have sought the protection of that rule, but it has not been afforded to them, because raw asbestos is a defective product,\u201d citing Jenkins, Garza, and Arena. (Stewart, at p. 29.)\nRaw asbestos has been deemed defective under the consumer expectations test because factually it has been shown to be inherently injurious, whether or not incorporated into another product, and because, without a change in its composition, it causes products into which it is incorporated to perform less safely than ordinary consumers would expect. As stated in Maxton v. Western States Metals (2012) 203 Cal.App.4th 81, 93 [136 Cal.Rptr.3d 630], \u201cAsbestos itself is dangerous when handled in any form even if it is unchanged by the manufacturer. Indeed, asbestos is dangerous when it leaves the supplier\u2019s control.\u201d Although Maxton considered raw asbestos to be \u201c[t]he one notable exception\u201d to the rule that raw materials generally cannot by themselves be defective unless they are contaminated (id. at p. 94), there may be other exceptions. In Arnold v. Dow Chemical Co. (2001) 91 Cal.App.4th 698 [110 Cal.Rptr.2d 722], for example, the court held that Dow Chemical Company, the manufacturer of chemicals used by others to produce pesticides that were defective under the consumer expectations test, could be strictly liable to those injured by exposure to those pesticides (id. at p. 727). In holding both the manufacturer of the finished product and Dow as the supplier of the chemical component allegedly causing the harmful effects to be potentially liable, the court noted that a pesticide, like asbestos insulation, is \u201cwithin the ordinary experience and understanding of a consumer\u201d (ibid.) and a consumer may \u201creasonably believe that pesticides are designed to eliminate pests within homes occupied by humans, without causing significant harm to the humans\u201d (id. at p. 717).\nTwo features thus distinguish the cases in which component raw materials have been found to be defective under the consumer expectations test from cases absolving the seller of the raw material from liability: first, the raw material in question is itself harmful and, without change in its composition, remains so when incorporated into other products and, second, the raw material renders the product into which it is incorporated harmful, contrary to ordinary consumer expectations. Walker v. Stauffer Chemical Corp., supra, 19 Cal.App.3d 669, a case emphasized by U.S. Steel and distinguished in several of the asbestos cases cited above, highlights these distinctions. In Walker, the physical composition of the bulk sulfuric acid claimed to be defective was \u201csubstantially altered\u201d in the process of manufacturing the drain cleaning product into which it was incorporated. (Id. at p. 672.) \u201cThe ultimate product Clear-All can in no way be considered to be one and the same bulk sulfuric acid manufactured by Stauffer and sold to [the manufacturer of the Clear-All].\u201d (Ibid.) And sulfuric acid, although potentially dangerous, is \u201cboth a useful and desirable product\u201d that can be incorporated into other products that presumably are not defective under the consumer expectations or any other test. (Id. at p. 674.) Similarly, in Maxton, metal products that were alleged to be defective \u201cwere substantially changed during the manufacturing process\u201d (Maxton v. Western States Metals, supra, 203 Cal.App.4th at p. 93) and \u201ccan be used in innumerable ways\u201d that (implicitly) are not harmful (id. at p. 94). The court affirmed pretrial judgments for the suppliers of the metal products upon concluding the products were not defective when they left the suppliers\u2019 control and \u201conly became dangerous because of the manufacturing process controlled by [the plaintiff\u2019s] employer.\u201d (Id. at p. 93.) In both cases, there was thus no design defect in the raw material.\nIn the present case, the trial court held that the raffinate sold by U.S. Steel to Radiator was not defective because Johnson \u201chas not cited any decisional authority for the proposition that benzene is inherently defective, or that raffinate is inherently defective because it contains benzene.\u201d Initially, it must be emphasized that the product in question is not benzene but U.S. Steel\u2019s coal-based raffinate. The benzene contained in the raffinate may render the raffinate harmful, but it is the raffinate that is claimed to be defective under the consumer expectations test. Whether that product is defective is a question of fact, not to be decided by \u201cdecisional authority\u201d unless by application of collateral estoppel. So far as indicated by the authorities brought to our attention, no case has determined whether the coal-based raffinate produced and sold by U.S. Steel is a defective product, and the record contains no evidence from which this factual determination can be made. The record contains no evidence tending to disprove the toxicity of raffinate or of the products into which it is incorporated in ways that would not be apparent to most people, no evidence showing that the composition of the raffinate was altered in the process of formulating Liquid Wrench, and no evidence showing that it was possible to incorporate the raffinate into Liquid Wrench or any other product without rendering that product less safe than ordinary consumers would expect. Raffinate may well be a substance with which ordinary consumers are unfamiliar and have no expectations concerning its properties or effects. Nonetheless, should the evidence show that its incorporation into Liquid Wrench, and indeed into any finished product, without change in its chemical structure causes that product to be less safe than ordinary consumers would expect, the raffinate will have been shown to contain a design defect under the consumer expectation test.\nTo obtain summary judgment, it was U.S. Steel\u2019s burden to present evidence negating the existence of a design defect in the raffinate. Having failed to do so, the burden of presenting contrary evidence never shifted to Johnson. Nonetheless, the record does contain evidence creating a triable issue of this material fact. \u201c[T]he threshold for withstanding a motion for summary judgment or nonsuit, thus permitting the jury to determine whether the allegedly defective product satisfied ordinary consumer expectations, is quite low.\u201d (Chavez v. Glock, Inc. (2012) 207 Cal.App.4th 1283, 1311 [144 Cal.Rptr.3d 326].) There is evidence the raffinate contained between 1 and 14 percent benzene, a known carcinogen. A U.S. Steel manager estimated its raffinate to contain at least 5 percent benzene. Johnson says the raffinate lacked \u201cany objective features (a burning sensation instead of no sensation, or a foul smell instead of a sweet smell) that would alert ordinary consumers that its intended use was extremely dangerous.\u201d Radiator bottled the raffinate and sold it as Liquid Wrench, apparently with little modification \u2014 raffinate comprised \u201cabout 89 or 90 percent\u201d of the raffinate-based Liquid Wrench. U.S. Steel presented no evidence that Radiator added any chemical or did anything in formulating or packaging Liquid Wrench that increased the toxicity or danger of the final product from that existing when the raffinate was delivered to Radiator by U.S. Steel.\nJohnson contends raffinate is a \u201ctoxic waste,\u201d without social utility or safe applications, that should have been sent to a hazardous waste site rather than sold to an intermediary for consumer use. We express no opinion as to the accuracy of this assertion. We hold only that U.S. Steel failed to present evidence negating this allegation and that summary judgment in its favor therefore should not have been granted.\nDisposition\nThe judgment is reversed. The postjudgment order awarding costs is vacated. The case is remanded to the trial court with directions to deny the motion for summary judgment and to conduct further proceedings consistent with this opinion. Plaintiffs shall recover costs incurred on appeal upon timely application in the trial court.\nSiggins, J., and Jenkins, J., concurred.\nA petition for a rehearing was denied September 22, 2015, and respondent\u2019s petition for review by the Supreme Court was denied December 9, 2015, S229935.\nThe statement of facts is based on the parties\u2019 pleadings, separate statements of undisputed facts and supporting evidence submitted on the motion for summary judgment. We have considered all of the evidence with the exception of the John Masaitis affidavit to which an evidentiary objection was sustained. This ruling and other evidentiary rulings are not challenged on appeal.\nWe have taken judicial notice of this government report, which was introduced by U.S. Steel, without objection, in the trial court and on appeal. (Evid. Code, \u00a7 452, subd. (h).)\nJohnson was uncertain about product packaging. He described using plastic containers of Liquid Wrench at a time when Liquid Wrench was packaged exclusively in metal containers. Johnson testified he saw a skull and crossbones symbol on Liquid Wrench labels but later said he was \u201cnot sure.\u201d\nThe current Restatement of Torts also recognizes three categories of defects but defines a design defect to include only instances in which the foreseeable risks of harm posed by the product could have been reduced or avoided by the adoption of a reasonable alternative design, i.e., the risk-benefit test. (Rest.3d Torts, Products Liability, \u00a7 2, subd. (b).) However, comment e to this section of the Restatement recognizes the possibility that there may be product liability absent a reasonable alternative design if the product design is \u201cmanifestly unreasonable.\u201d (Id. at p. 21.) Comment g states that \u201calthough consumer expectations do not constitute an independent standard for judging the defectiveness of product designs, they may substantially influence or even be ultimately determinative on risk-utility balancing in judging whether the omission of a proposed alternative design renders the product not reasonably safe.\u201d (Id. at p. 28.) The previous edition of the Restatement of Torts provided, in a comment, that to be defective, \u201c[t]he article sold must be dangerous to an extent beyond that which would be contemplated by the ordinary consumer who purchases it, with the ordinary knowledge common to the community as to its characteristics.\u201d (Rest.2d Torts, \u00a7 402A, com. i, p. 352.)\nThe court there went on to state, \u201cTo the extent that the term \u2018design\u2019 merely means a preconceived plan, even raw asbestos has a design, in that the miner\u2019s subjective plan of blasting it out of the ground, pounding and separating the fibers, and marketing them for various uses, constitutes a design.\u201d (Arena v. Owens-Corning Fiberglas Corp., supra, 63 Cal.App.4th at pp. 1186-1187.)\nA recent case, currently under review, disagreed with Maxton and held a foundry worker sufficiently alleged direct harm from metal and other raw materials to state a products liability claim against the suppliers. (Ramos v. Brenntag Specialties, Inc. (2014) 224 Cal.App.4th 1239 [169 Cal.Rptr.3d 513], review granted July 9, 2014, S218176; accord, Uriarte v. Scott Sales Co. (2014) 226 Cal.App.4th 1396 [172 Cal.Rptr.3d 886], review granted Sept. 17, 2014, S220088 [strict liability claims stated by sandblaster against sand supplier].) A central issue in these cases is whether workers exposed to hazardous raw materials in the course of their work suffered injury caused by a defect in the material or by inadequate safety precautions of their employer. That issue is not presented in this case, in which Johnson alleges injury from exposure to a finished product incorporating what he alleges to be a defective raw material.\nIn holding that the supplier of bulk silicone compounds, safe for many applications, had no duty to warn arising out of the sale of the compound to the manufacturers of breast implants who substantially altered the compounds in the manufacturing process, the court in Artiglio v. General Electric Co., supra, 61 Cal.App.4th at page 839 held that the authorities \u201cestablish that component and raw material suppliers are not liable to ultimate consumers when the goods or material they supply are not inherently dangerous, they sell goods or materials in bulk to a sophisticated buyer, the material is substantially changed during the manufacturing process and the supplier has a limited role in developing and designing the end product.\u201d\nU.S. Steel notes that benzene is \u201ca familiar and important commodity\u201d with widespread industrial uses (Industrial Union Dept. v. American Petrol. Inst. (1980) 448 U.S. 607, 615 [65 L.Ed.2d 1010, 100 S.Ct. 2844]) that has been found, in at least one case, to be nondefective under a risk-benefit test because its utility outweighs its dangers (Cole v. Ashland Chemical, Inc. (E.D.La., Dec. 10, 2010, No. 09-6584) 2010 U.S.Dist. Lexis 131215). Other cases have found benzene to be \u201c \u2018unavoidably unsafe\u2019 \u201d and defective only if there is a failure to warn of its hazards. (Hall v. Ashland Oil Co. (D.C.Conn. 1986) 625 F.Supp. 1515, 1518, citing Rest.2d Torts, \u00a7 402A, com. k, pp. 353-354.) California has found a limited number of products to qualify for such treatment-that is, specifically, prescription drugs, vaccines, blood, and medical devices. (Johnson v. Honeywell Internat. Inc. (2009) 179 Cal.App.4th 549, 562 [101 Cal.Rptr.3d 726].) U.S. Steel does not invoke that doctrine here.",
+        "type": "majority",
+        "author": "POLLAK, Acting P. J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Kazan, McClain, Satterley & Greenwood, Ted W. Pelletier and Michael T. Stewart for Plaintiffs and Appellants.",
+      "Hogan Lovells US, Barry J. Thompson, David W. Skaar, Catherine E. Stetson; The Cairone Law Firm and Matt Cairone for Defendant and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. A142485.\nFirst Dist., Div. Three.\nSept. 1, 2015.]\nDAVID JOHNSON et al., Plaintiffs and Appellants, v. UNITED STATES STEEL CORPORATION, Defendant and Respondent.\nCounsel\nKazan, McClain, Satterley & Greenwood, Ted W. Pelletier and Michael T. Stewart for Plaintiffs and Appellants.\nHogan Lovells US, Barry J. Thompson, David W. Skaar, Catherine E. Stetson; The Cairone Law Firm and Matt Cairone for Defendant and Respondent."
+  },
+  "file_name": "0022-01",
+  "first_page_order": 48,
+  "last_page_order": 66
+}

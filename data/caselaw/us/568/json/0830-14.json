@@ -1,0 +1,59 @@
+{
+  "id": 12411141,
+  "name": "West v. Oklahoma",
+  "name_abbreviation": "West v. Oklahoma",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10022",
+  "first_page": "830",
+  "last_page": "830",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 830"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 72,
+    "ocr_confidence": 0.613,
+    "sha256": "d80d3c27d4ff9196b360c97df98627df0be9b9193cc3253daf84419e2e524e9f",
+    "simhash": "1:04377006c5ad254d",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "West v. Oklahoma."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Okla. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10022.\nWest v. Oklahoma."
+  },
+  "file_name": "0830-14",
+  "first_page_order": 906,
+  "last_page_order": 906
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12427175,
+  "name": "Holloway v. United States",
+  "name_abbreviation": "Holloway v. United States",
+  "decision_date": "2012-12-03",
+  "docket_number": "No. 12-7010",
+  "first_page": "1055",
+  "last_page": "1055",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1055"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.622,
+    "sha256": "b4dfc0feb0544a6d0dc8f81f622b3251c46bf3ef495a6c05c878c27ebda2ab00",
+    "simhash": "1:87088e0b6e9dad36",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Holloway v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7010.\nHolloway v. United States."
+  },
+  "file_name": "1055-13",
+  "first_page_order": 1131,
+  "last_page_order": 1131
+}

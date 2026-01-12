@@ -1,0 +1,61 @@
+{
+  "id": 5947304,
+  "name": "Awan v. United States",
+  "name_abbreviation": "Awan v. United States",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7807",
+  "first_page": "1170",
+  "last_page": "1170",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1170"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 153,
+    "ocr_confidence": 0.554,
+    "sha256": "fd96df6534fbaa609a053ce22cbd5c1669c4f43ccd65da783dec7903cfb2cf35",
+    "simhash": "1:99b77a825f2ef64c",
+    "word_count": 26
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Awan v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certio-\nrari denied.\nJustice Sotomayor took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7807.\nAwan v. United States."
+  },
+  "file_name": "1170-08",
+  "first_page_order": 1192,
+  "last_page_order": 1192
+}

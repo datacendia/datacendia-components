@@ -1,0 +1,59 @@
+{
+  "id": 5967626,
+  "name": "Walker v. Reese et al.",
+  "name_abbreviation": "Walker v. Reese",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5112",
+  "first_page": "904",
+  "last_page": "904",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 904"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 70,
+    "ocr_confidence": 0.619,
+    "sha256": "13a5ffa7e35781002d2b6cc862d4864d99ace64860d648806bee0cd1a12a8367",
+    "simhash": "1:80ec5288590c976a",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Walker v. Reese et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5112.\nWalker v. Reese et al."
+  },
+  "file_name": "0904-10",
+  "first_page_order": 926,
+  "last_page_order": 926
+}

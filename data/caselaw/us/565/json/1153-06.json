@@ -1,0 +1,59 @@
+{
+  "id": 12242274,
+  "name": "Hampel v. United States",
+  "name_abbreviation": "Hampel v. United States",
+  "decision_date": "2012-01-17",
+  "docket_number": "No. 11-7343",
+  "first_page": "1153",
+  "last_page": "1153",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1153"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 29,
+    "char_count": 176,
+    "ocr_confidence": 0.664,
+    "sha256": "b3915a01aa5c3f16fbf5f99372e053957b2d48e64b2e96a4b70b258f05ccec27",
+    "simhash": "1:25a25dc04ec01552",
+    "word_count": 29
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hampel v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. Fed. Cir. Motion of petitioner for leave to proceed in forma pauperis denied, and certiorari dismissed. See this Court\u2019s Rule 39.8.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7343.\nHampel v. United States."
+  },
+  "file_name": "1153-06",
+  "first_page_order": 1235,
+  "last_page_order": 1235
+}

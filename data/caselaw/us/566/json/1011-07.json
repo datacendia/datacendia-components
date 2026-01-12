@@ -1,0 +1,59 @@
+{
+  "id": 12220341,
+  "name": "Bridges v. United States",
+  "name_abbreviation": "Bridges v. United States",
+  "decision_date": "2012-05-21",
+  "docket_number": "No. 11-7928",
+  "first_page": "1011",
+  "last_page": "1011",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1011"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.627,
+    "sha256": "9ac858883e236ef2828c7c3340284935afda41e86633f0b028bde6a3b5c29d6c",
+    "simhash": "1:2e8aca03cbcfb032",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bridges v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7928.\nBridges v. United States."
+  },
+  "file_name": "1011-07",
+  "first_page_order": 887,
+  "last_page_order": 887
+}

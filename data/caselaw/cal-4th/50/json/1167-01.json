@@ -1,0 +1,708 @@
+{
+  "id": 6050638,
+  "name": "In re HARVEY ZANE JENKINS on Habeas Corpus",
+  "name_abbreviation": "In re Jenkins",
+  "decision_date": "2010-10-28",
+  "docket_number": "No. S175242",
+  "first_page": "1167",
+  "last_page": "1183",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "50 Cal. 4th 1167"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal.",
+    "id": 9021,
+    "name": "Supreme Court of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "508 U.S. 307",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11912
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "315"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/508/0307-01"
+      ]
+    },
+    {
+      "cite": "982 P.2d 154",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1993,
+      "opinion_index": 0
+    },
+    {
+      "cite": "88 Cal.Rptr.2d 283",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1993,
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 Cal.4th 628",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        884843
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "650"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/21/0628-01"
+      ]
+    },
+    {
+      "cite": "223 P.3d 566",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "104 Cal.Rptr.3d 427",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.4th 1172",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3899583
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/47/1172-01"
+      ]
+    },
+    {
+      "cite": "369 P.2d 937",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 Cal.Rptr. 321",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 Cal.2d 450",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4375244
+      ],
+      "pin_cites": [
+        {
+          "page": "455"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/57/0450-01"
+      ]
+    },
+    {
+      "cite": "954 P.2d 511",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "74 Cal.Rptr.2d 248",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 Cal.4th 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        344179
+      ],
+      "pin_cites": [
+        {
+          "page": "6"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/18/0001-01"
+      ]
+    },
+    {
+      "cite": "175 P.3d 1170",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1998,
+      "opinion_index": 0
+    },
+    {
+      "cite": "72 Cal.Rptr.3d 112",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1998,
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.4th 1077",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3673080
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "1090, fn. 11"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/42/1077-01"
+      ]
+    },
+    {
+      "cite": "59 P.3d 174",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "128 Cal.Rptr.2d 104",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Cal.4th 616",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        777217
+      ],
+      "pin_cites": [
+        {
+          "page": "653-654"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/29/0616-01"
+      ]
+    },
+    {
+      "cite": "282 Cal.Rptr. 269",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "231 Cal.App.3d 184",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4390236
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/231/0184-01"
+      ]
+    },
+    {
+      "cite": "253 Cal.Rptr. 120",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "205 Cal.App.3d 1224",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        6037565
+      ],
+      "pin_cites": [
+        {
+          "page": "1227"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/205/1224-01"
+      ]
+    },
+    {
+      "cite": "188 Cal.Rptr. 698",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "139 Cal.App.3d 485",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2111690
+      ],
+      "pin_cites": [
+        {
+          "page": "491"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/139/0485-01"
+      ]
+    },
+    {
+      "cite": "217 Cal.Rptr. 535",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "171 Cal.App.3d 638",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2152135
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/171/0638-01"
+      ]
+    },
+    {
+      "cite": "244 Cal.Rptr. 648",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1985,
+      "opinion_index": 0
+    },
+    {
+      "cite": "199 Cal.App.3d 271",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4403019
+      ],
+      "year": 1985,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/199/0271-01"
+      ]
+    },
+    {
+      "cite": "110 P.3d 1218",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.Rptr.3d 4",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.4th 765",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        873201
+      ],
+      "pin_cites": [
+        {
+          "page": "768"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/35/0765-01"
+      ]
+    },
+    {
+      "cite": "427 U.S. 215",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6175486
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "224-225"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/427/0215-01"
+      ]
+    },
+    {
+      "cite": "429 U.S. 78",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        7184
+      ],
+      "weight": 3,
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "88, fn. 9"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/429/0078-01"
+      ]
+    },
+    {
+      "cite": "472 U.S. 445",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1512284
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "454"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/472/0445-01"
+      ]
+    },
+    {
+      "cite": "249 Cal.Rptr. 36",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "202 Cal.App.3d 661",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        6043537
+      ],
+      "pin_cites": [
+        {
+          "page": "666-667"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/202/0661-01"
+      ]
+    },
+    {
+      "cite": "94 Cal.Rptr.2d 550",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1988,
+      "opinion_index": 0
+    },
+    {
+      "cite": "79 Cal.App.4th 1000",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        131847
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "1013-1014"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/79/1000-01"
+      ]
+    },
+    {
+      "cite": "1 Cal.Rptr.3d 108",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2000,
+      "opinion_index": 0
+    },
+    {
+      "cite": "109 Cal.App.4th 1356",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        597873
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "1361-1362"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/109/1356-01"
+      ]
+    },
+    {
+      "cite": "47 Cal.Rptr.3d 172",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2003,
+      "opinion_index": 0
+    },
+    {
+      "cite": "141 Cal.App.4th 1493",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6052040
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "1498"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/141/1493-01"
+      ]
+    },
+    {
+      "cite": "84 Cal.Rptr.3d 332",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2006,
+      "opinion_index": 0
+    },
+    {
+      "cite": "167 Cal.App.4th 658",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5729370
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "673"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/167/0658-01"
+      ]
+    },
+    {
+      "cite": "539 U.S. 126",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8897508
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "132"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/539/0126-01"
+      ]
+    },
+    {
+      "cite": "482 U.S. 78",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6210045
+      ],
+      "weight": 3,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "84-85"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/482/0078-01"
+      ]
+    },
+    {
+      "cite": "441 U.S. 520",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1780223
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "547-548"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/441/0520-01"
+      ]
+    },
+    {
+      "cite": "417 U.S. 817",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1519385
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "823"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/417/0817-01"
+      ]
+    },
+    {
+      "cite": "19 Cal.Rptr.2d 797",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 Cal.App.4th 93",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4381222
+      ],
+      "pin_cites": [
+        {
+          "page": "97"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/16/0093-01"
+      ]
+    },
+    {
+      "cite": "5 Cal.Rptr.2d 729",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "4 Cal.App.4th 572",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        2309405
+      ],
+      "pin_cites": [
+        {
+          "page": "575"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/4/0572-01"
+      ]
+    },
+    {
+      "cite": "53 Cal.Rptr.3d 233",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "146 Cal.App.4th 813",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5566361
+      ],
+      "weight": 5,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/146/0813-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1325,
+    "char_count": 38279,
+    "ocr_confidence": 0.911,
+    "pagerank": {
+      "raw": 1.0110905833260035e-07,
+      "percentile": 0.542153808967241
+    },
+    "sha256": "96f4e452dc27a118e312539f0a94553ec0f37590cb7e1a67760bb46b00ed6375",
+    "simhash": "1:ed3ec7422d445f60",
+    "word_count": 5984
+  },
+  "last_updated": "2024-02-27T22:39:11.478468+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re HARVEY ZANE JENKINS on Habeas Corpus."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nCHIN, J.\nA prison inmate\u2019s participation in a prison work program may favorably affect that inmate\u2019s custody level. Such participation can cause the inmate to be considered a reduced security risk, which in turn may cause the inmate to be placed in a lower security level institution. We must decide whether an inmate who is willing to work but, without his or her fault, is not assigned to a work program may receive the benefit of work participation for classification purposes. The applicable regulations say no; they provide that actual work participation, and not mere willingness to work, is required for an inmate to receive a lower security evaluation. Petitioner contends the regulations are invalid. In accordance with the deference courts generally give to prison authorities in promulgating regulations concerning prison security, we conclude the regulations are valid. It is rational, and not arbitrary, to consider an inmate\u2019s actual work performance for purposes of classifying and housing that inmate.\nI. Facts and Procedural History\nWe take these facts, which are undisputed, largely from Justice Robie\u2019s opinion in the Court of Appeal.\nPetitioner Harvey Zane Jenkins is in the custody of California\u2019s Department of Corrections and Rehabilitation. He was convicted in 1993 of second degree murder with personal use of a firearm and sentenced to state prison for 15 years to life plus three years. (Pen. Code, \u00a7\u00a7 187, 190, subd. (a), 12022.5, subd. (a).) The record indicates that he became eligible for parole on April 29, 2005.\nOn December 21, 2005, petitioner was transferred from Centinela State Prison to High Desert State Prison. He was not assigned to a work program at High Desert until January 12, 2006. From January 12 to March 9, 2006, he was assigned as \u201cFacility C housing porter.\u201d On March 9, he was transferred to another facility within High Desert, where he spent 172 days without a work assignment. He was subsequently assigned to an educational program.\nCalifornia prison inmates are classified pursuant to a scoring system that determines their prison custody level. (See pt. II., post.) A higher score means the inmate is considered a higher security risk and would be assigned to a correspondingly higher security facility; a lower score means the inmate is considered a lower security risk and would be assigned to a correspondingly lower security facility. After the initial classification, inmates receive an annual classification review. Among the factors considered in this annual review is the inmate\u2019s participation in a work, school, or vocational program.\nOn October 24, 2006, prison authorities conducted the annual review of petitioner\u2019s classification score, covering the period from October 1, 2005, through September 30, 2006. Petitioner received a four-point reduction in his score for having no serious disciplinary actions and a two-point reduction (out of a possible maximum of four points) for average or above average performance in a work, school, or vocational program. As was later explained, he was denied the additional two performance points that were available because he \u201cwas unassigned to a program for roughly half of the total review period.\u201d\nPetitioner pursued an internal administrative appeal. He contended that because his transfer to High Desert was not adverse, he was entitled to the full four-point reduction for average or above average performance in a work, school, or vocational program. His appeal was denied at all administrative levels. On July 25, 2007, he filed the instant petition for writ of habeas corpus in the Lassen County Superior Court. Following In re Player (2007) 146 Cal.App.4th 813 [53 Cal.Rptr.3d 233] (Player), the superior court determined that because petitioner\u2019s work-qualifying status was disrupted based on circumstances and department conduct beyond his control, he was entitled to additional favorable work points. In an order signed and filed April 25, 2008, the court granted petitioner\u2019s petition and directed the department \u201cto reduce [his] classification score by two points and to thereupon make whatever adjustments to [his] custody designation, program and institution placement as may appear.\u201d\nThe superior court served its order on the parties by mail on April 29, 2008. On June 27, 2008, the warden of High Desert, represented by the Attorney General, filed a notice of appeal. Originally, the Court of Appeal dismissed the appeal as untimely because it was not filed within 60 days of the time the superior court signed and filed the order being appealed. (Citing Cal. Rules of Court, rules 8.308(a), 8.388.) Later, the Court of Appeal granted the Attorney General\u2019s petition for rehearing, reinstated the appeal, and directed the parties to address in their briefs the issue of whether the appeal was timely. In their briefs in the Court of Appeal, the Attorney General argued, and petitioner conceded, that the appeal was timely because the notice of appeal was filed within 60 days of the date the court served its order on the parties by mail.\nThe Court of Appeal agreed that the appeal was timely. It summarized its reasoning: \u201c[U]nder [California Rules of Court,] rule 8.308(a), \u2018a notice of appeal. . . must be filed within 60 days after the rendition of the judgment or the making of the order being appealed.\u2019 Where, as here, the order being appealed was not pronounced in open court, but instead was embodied solely in a writing that was prepared, signed, and filed outside the presence of the parties, we conclude \u2018the making of the order\u2019 does not occur until the court undertakes to communicate the substance of its order to the parties in some reasonable manner. That occurred here when the court mailed copies of the written order to the parties four days after the order was signed and filed. Because the warden filed his notice of appeal within 60 days of the date of that mailing, the appeal is timely.\u201d\nOn the merits, the Court of Appeal reversed the superior court\u2019s grant of the habeas corpus petition. It summarized its reasoning in this regard also: \u201c[W]e conclude the superior court erred in determining Jenkins was entitled to the additional two work/school performance points for the time he did not actually participate in any work, school, or vocational program. A governing department regulation specifies that \u2018[fjavorable points shall not be granted for average or above average performance for inmates who are not assigned to a program.\u2019 (Cal. Code Regs., tit. 15, \u00a7 3375.4, subd. (a)(3)(B).) Because the department\u2019s interpretation and application of that regulation here to deny Jenkins the additional work/school performance points he sought was not arbitrary, capricious, or irrational, the department\u2019s decision must be upheld.\u201d\nWe granted petitioner\u2019s petition for review, which presented the following issue: \u201cIs the Department of Corrections and Rehabilitation\u2019s denial of favorable classification points for work or school to a prisoner whose classification point-qualifying assignment was disrupted for a period due to a nonadverse transfer to another facility, arbitrary, capricious, and/or irrational in light of the award of work-time credits which reduced the prisoner\u2019s sentence for the same period of incarceration?\u201d\nII. Discussion\nThe Legislature has directed the Secretary of the Department of Corrections and Rehabilitation to \u201ccause each person who is newly committed to a state prison to be examined and studied.\u201d (Pen. Code, \u00a7 5068.) \u201cUpon the basis of the examination and study, the [secretary] shall classify prisoners . . . .\u201d (Pen. Code, \u00a7 5068.) The Legislature has provided no specific guidance regarding how prisoners should be classified but instead has authorized the secretary to \u201cprescribe and amend rules and regulations for the administration of the prisons . . . .\u201d (Pen. Code, \u00a7 5058.) By enacting these statutes, \u201c[t]he Legislature has given the [secretary] broad authority for the discipline and classification of persons confined in state prisons. [Citations.] This authority includes the mandate to promulgate regulations governing administration, classification and discipline.\u201d (In re Lusero (1992) 4 Cal.App.4th 572, 575 [5 Cal.Rptr.2d 729].)\nThis case involves prisoner classification. \u201cTo ensure uniform application of the classification process, the [secretary], pursuant to the authority vested in him under Penal Code section 5058, has promulgated regulations stating the factors to be considered by the correctional officer responsible for determining an inmate\u2019s security classification.\u201d (In re Richards (1993) 16 Cal.App.4th 93, 97 [19 Cal.Rptr.2d 797], fn. omitted; see Cal. Code Regs., tit. 15, \u00a7 3375 et seq.) These regulations provide that \u201c[t]he classification of felon inmates shall include the classification score system as established. A lower placement score indicates lesser security control needs and a higher placement score indicates greater security control needs.\u201d (\u00a7 3375, subd. (d).) \u201cPrisoner classification scores play a significant role in determining where, within the state\u2019s many prison facilities, a prisoner will be sent to serve his/her term of incarceration. (See Cal. Code Regs., tit. 15, \u00a7 3375.1.) As a general rule, a prisoner\u2019s classification score is directly proportional to the level of security needed to house the inmate. For example, prisoners with high classification scores will be sent to the prisons with higher levels of security. (See Cal. Code Regs., tit. 15, \u00a7\u00a7 3375.1 & 3377.)\u201d (In re Richards, supra, at p. 95, fn. 1.)\nAfter the initial classification under Penal Code section 5068, each inmate\u2019s classification score is reviewed at least annually. (\u00a7 3376, subd. (d)(2)(A).) The Court of Appeal explained the regulatory scheme relevant here: \u201c \u2018For an annual reclassification review, two six-month periods may be counted. When an inmate\u2019s status is interrupted during the period without inmate fault, the period shall be considered continuous.\u2019 ([\u00a7 3375.4, subd. (a).]) Under California Code of Regulations, title 15, section 3375.4, subdivision (a)(2), an inmate is entitled to two favorable points (that is, points that are subtracted from the classification score) \u2018[f]or each six-month period since the last review with no serious disciplinary(s).\u2019 Under California Code of Regulations, title 15, section 3375.4, subdivision (a)(3), an inmate is also entitled to two favorable points \u2018[f|or each six-month period with an average or above performance in [a] work, school or vocational program.\u2019 \u201d This latter provision is qualified by section 3375.4, subdivision (a)(3)(B)\u2014the regulation primarily at issue here\u2014which provides: \u201cFavorable points shall not be granted for average or above average performance for inmates who are not assigned to a program.\u201d\nPetitioner received two favorable points for performance in a work, school or vocational program (hereafter, work program or program), but he did not receive the maximum of four points available because he was unassigned to a program for about half the relevant time period. In his briefs, he argues that because he was willing to work, and unassigned through no fault of his own, he was entitled to the maximum point reduction available. The parties agree that he was unassigned through no fault of his own. Thus, the issue is squarely presented: Must the inmate actually participate in a work program to receive classification credit for such participation? Or, conversely, is it sufficient if the inmate is willing to work and is unassigned through no fault of the inmate? Section 3375.4, subdivision (a)(3)(B), quoted in the previous paragraph, unambiguously answers the former question in the affirmative and the latter in the negative. Petitioner contends, however, that the regulation is invalid on various grounds.\nHe argues the regulation violates his right to due process of law under both the United States and the California Constitutions. We disagree. Courts necessarily review decisions and regulations regarding prison classification deferentially. Classification of inmates, which determines the level of security necessary for each inmate, obviously implicates institutional security. \u201c[Central to all other corrections goals is the institutional consideration of internal security within the corrections facilities themselves.\u201d (Pell v. Procunier (1974) 417 U.S. 817, 823 [41 L.Ed.2d 495, 94 S.Ct. 2800].) The high court has explained that \u201cthe problems that arise in the day-to-day operation of a corrections facility are not susceptible of easy solutions. Prison administrators therefore should be accorded wide-ranging deference in the adoption and execution of policies and practices that in their judgment are needed to preserve internal order and discipline and to maintain institutional security. [Citations.] \u2018Such considerations are peculiarly within the province and professional expertise of corrections officials, and, in the absence of substantial evidence in the record to indicate that the officials have exaggerated their response to these considerations, courts should ordinarily defer to their expert judgment in such matters.\u2019 [Citation.] We further observe that, on occasion, prison administrators may be \u2018experts\u2019 only by Act of Congress or of a state legislature. But judicial deference is accorded not merely because the administrator ordinarily will, as a matter of fact in a particular case, have a better grasp of his domain than the reviewing judge, but also because the operation of our correctional facilities is peculiarly the province of the Legislative and Executive Branches of our Government, not the Judicial.\u201d (Bell v. Wolfish (1979) 441 U.S. 520, 547-548 [60 L.Ed.2d 447, 99 S.Ct. 1861], fns. omitted.)\nIn a later decision, the high court returned to this theme: \u201cRunning a prison is an inordinately difficult undertaking that requires expertise, planning, and the commitment of resources, all of which are peculiarly within the province of the legislative and executive branches of government. Prison administration is, moreover, a task that has been committed to the responsibility of those branches, and separation of powers concerns counsel a policy of judicial restraint.\u201d (Turner v. Safley (1987) 482 U.S. 78, 84-85 [96 L.Ed.2d 64, 107 S.Ct. 2254]; see also Overton v. Bazzetta (2003) 539 U.S. 126, 132 [156 L.Ed.2d 162, 123 S.Ct. 2162] [\u201cWe must accord substantial deference to the professional judgment of prison administrators, who bear a significant responsibility for defining the legitimate goals of a corrections system and for determining the most appropriate means to accomplish them.\u201d].)\nOften citing the high court decisions, California cases have also stressed the need for courts to defer to prison authorities in running the prison system. (Woods v. Horton (2008) 167 Cal.App.4th 658, 673 [84 Cal.Rptr.3d 332]; In re Zepeda (2006) 141 Cal.App.4th 1493, 1498 [47 Cal.Rptr.3d 172]; In re Farley (2003) 109 Cal.App.4th 1356, 1361-1362 [1 Cal.Rptr.3d 108]; Small v. Superior Court (2000) 79 Cal.App.4th 1000, 1013-1014 [94 Cal.Rptr.2d 550]; In re Lusero, supra, 4 Cal.App.4th at p. 575; In re Wilson (1988) 202 Cal.App.3d 661, 666-667 [249 Cal.Rptr. 36].) \u201cThis deference, which extends to classification decisions [citation], limits judicial intervention to demonstrated instances of actions by prison officials that are arbitrary, capricious, irrational, or an abuse of the discretion granted those given the responsibility for operating prisons.\u201d (In re Wilson, supra, at p. 667; see also In re Farley, supra, at p. 1361.)\nPetitioner cites another test that has been applied in this context but that appears to have little relevance here. The United States Supreme Court has held that the denial of good time credits which can reduce the period of incarceration \u201cdoes not comport with \u2018the minimum requirements of procedural due process,\u2019 [citation], unless the findings of the prison disciplinary board are supported by some evidence in the record.\u201d (Superintendent v. Hill (1985) 472 U.S. 445, 454 [86 L.Ed.2d 356, 105 S.Ct. 2768], italics added.) Although the high court has also held that prison inmates have no federal due process right to any particular prison classification (Moody v. Daggett (1976) 429 U.S. 78, 88, fn. 9 [50 L.Ed.2d 236, 97 S.Ct. 274]; Meachum v. Fano (1976) 427 U.S. 215, 224-225 [49. L.Ed.2d 451, 96 S.Ct. 2532]), California courts have applied the \u201csome evidence\u201d test to adverse classification actions. (In re Farley, supra, 109 Cal.App.4th at p. 1362; In re Wilson, supra, 202 Cal.App.3d at pp. 666-667.) Here, however, the relevant facts are undisputed. Section 3375.4, subdivision (a)(3)(B), provides that inmates who are not assigned to a program shall be not granted favorable performance points. Petitioner does not deny that he was unassigned for approximately half of the review period. The only dispute is the legal significance of this fact. Accordingly, if section 3375.4, subdivision (a)(3)(B), is valid\u2014a legal issue that is disputed\u2014then clearly some evidence supports the finding that petitioner is not entitled to the favorable score at issue here.\nAccordingly, in determining whether section 3375.4, subdivision (a)(3)(B), comports with due process requirements under either the United States or California Constitution we ask whether it is arbitrary, capricious, or irrational. Applying this test, we conclude the regulation is valid. In assessing the level of security an inmate needs, it is rational for the department to consider as one factor participation in a work program. Petitioner does not seem to argue otherwise. But petitioner contends that prison authorities may not distinguish between (1) inmates who are willing to work but are unassigned through no fault of their own and (2) inmates who actually work. We agree with the Court of Appeal in rejecting this argument: \u201cThe department could have rationally determined that an inmate who performs at average or above average level in a work, school, or vocational program requires less security than an inmate who performs below average or who has not demonstrated any performance in such a program. Thus, there is a rational basis for the department\u2019s regulation that denies work/school performance points to inmates who are not assigned to a program, regardless of whether the lack of an assignment is attributable to the inmate or to the department.\u201d It is rational to require the inmate to be assigned to a work program and to perform satisfactorily in that program. Otherwise, prison officials could not meaningfully assess that inmate\u2019s security risk for purposes of classifying and housing the inmate in the system.\nIn his petition for writ of habeas corpus and its order granting relibf, petitioner and the superior court relied on Player, supra, 146 Cal.App.4th 813. Player\u2019s facts were complex, but the Player court ultimately held that the inmate in that case was entitled to classification points for work participation during a time period in which he was not assigned to a program. As relevant to the issue on review, the Court of Appeal in Player analogized classification decisions to statutory and regulatory provisions concerning work credits that inmates may receive towards their release date from prison. To understand this portion of Player, we must briefly discuss prison release work credits.\n\u201cPenal Code section 2933 offers state prisoners who participate in qualifying work, training and educational programs the privilege of earning \u2018work-time credit\u2019 (id., subd. (a)) against their sentences.\u201d (In re Reeves (2005) 35 Cal.4th 765, 768 [28 Cal.Rptr.3d 4, 110 P.3d 1218], fn. omitted.) In some circumstances, inmates may receive such worktime credit even for time when they do not actually work. (See In re Carter (1988) 199 Cal.App.3d 271 [244 Cal.Rptr. 648]; In re Reina (1985) 171 Cal.App.3d 638 [217 Cal.Rptr. 535].) The prison regulations reflect this circumstance. They provide that qualifying inmates may, under certain circumstances, receive worktime credits, called \u201c \u2018S\u2019 time,\u201d for time periods in which they are not actually working. (\u00a7 3045.3.)\nThe Player court considered \u201cS\u201d time and classification decisions to be linked and concluded that if an inmate receives \u201cS\u201d time credit for a certain time period, that inmate is also entitled to favorable classification points for working during that time period even if the inmate did not actually work. (Player, supra, 146 Cal.App.4th at pp. 827-829.) The superior court relied on this conclusion in finding that petitioner was entitled to \u201cS\u201d time credit and, accordingly, also favorable classification credit.\nThe problem with this rationale is that worktime credit and classification decisions, although somewhat analogous, are not linked, at least not by statute or regulation. Worktime credits are governed by Penal Code section 2933, which limits the discretion of prison authorities. Classification is governed by Penal Code section 5068, which leaves much to the discretion of prison authorities. Similarly, the regulations governing classification are distinct from those governing worktime credits, including \u201cS\u201d time. Although the regulations governing worktime credits do' grant such credits for some time periods in which an inmate is not working, the regulations governing classification scores specifically provide that \u201c[f]avorable points shall not be granted for average or above average performance for inmates who are not assigned to a program.\u201d (\u00a7 3375.4, subd. (a)(3)(B).) Accordingly, as the Court of Appeal here observed in disagreeing with Player, \u201cin contrast to worktime credits, work/school performance points do depend on actual assignment to a qualifying program and do reward actual performance in such a program, namely, performance that is average or better.\u201d\nThe Player court quoted section 3375.4, subdivision (a)(3)(B), but it never directly confronted it. It did not explain whether it found that the section is (1) ambiguous or inapplicable and, if so, why; or (2) invalid and, if so, why. Instead, it simply said that \u201c[e]ven though \u2018S\u2019 time technically refers to excused work time for purposes of calculating credit off of a prisoner\u2019s sentence, we do not believe it is logical or fair to deny Player the favorable behavior points for each respective six-month period at issue in this case under this somewhat analogous situation where his credit-qualifying assignments were disrupted or changed due [to reasons not his fault]. To find otherwise would deprive Player of the favorable points he would have earned during those \u2018continuous\u2019 periods if he had been left in the assignment status he was in before it was changed to unassigned by the actions of the [department].\u201d (Player, supra, 146 Cal.App.4th at p. 828, fn. omitted, italics added.) But the fact that worktime credits and classification decisions are governed by entirely distinct statutes and regulations is not a mere technicality. Section 3375.4, subdivision (a)(3)(B), is unambiguous and, as we have explained, it does not violate due process. It controls this case.\nPetitioner argues that it is unfair to deny him the benefits of participation in a work program when he was willing to work and was unassigned through no fault of his own. But, as we have explained, it is neither arbitrary nor irrational to consider actual work performance in determining how much of a security risk the inmate presents. Accordingly, we must defer to the judgment of prison officials in providing for institutional security.\nPetitioner also contends that, because worktime credits\u2014which can accelerate an inmate\u2019s release into society\u2014are sometimes given for mere willingness to work, logic demands the same rules should apply to classification decisions. He argues that \u201cit simply cannot be the case that the governmental interest in public safety implicated by the release of an inmate into society at large early because he was willing to work, but was absent from work with authorization, or was willing to work and was simply not assigned to a program, is less compelling than [the department\u2019s] interest in maintaining prison security at a level that would be compromised by awarding an inmate two classification points in a six-month period, and which will only change his security classification within the institution in limited circumstances.\u201d But these are policy decisions that are neither arbitrary nor capricious. The Legislature and, acting under legislative constraint, prison authorities made one policy decision regarding worktime credits. Prison authorities, exercising the discretion the Legislature has given them, made a different policy decision concerning prison classification. As the Court of Appeal stated in this case, \u201cjust because the Legislature decided an inmate should get time off his sentence for being willing to participate in a work or school program does not mean the department was bound to decide that the same inmate poses a lesser security risk while in prison because of that same willingness.\u201d\nEnsuring institutional security and determining when an inmate must be released into society are not the same thing and need not be governed by the same policy decisions. Under the determinate sentence law, when an inmate who has been sentenced to a determinate term has served that term, even as reduced by credits, that inmate must be released even if possibly still dangerous. \u201cPrisoners sentenced to determinate terms had a date certain upon which they would be released . . . .\u201d (In re Monigold (1983) 139 Cal.App.3d 485, 491 [188 Cal.Rptr. 698]; see \u00a7 3075.2, subd. (a).) Even inmates in a maximum security prison can receive worktime credits and must be released when they have served their sentence. Moreover, for convicted murderers like petitioner, who are sentenced to an indeterminate term, the connection between worktime credits and actual release is greatly attenuated. Inmates sentenced to an indeterminate term generally do not receive Penal Code section 2933 credits (In re Monigold (1988) 205 Cal.App.3d 1224, 1227 [253 Cal.Rptr. 120]), and to the extent those inmates do receive credits towards their sentence, the credits go towards advancing only their minimum eligible release date, not their actual release from prison. (In re Dayan (1991) 231 Cal.App.3d 184 [282 Cal.Rptr. 269].) Petitioner\u2019s minimum eligible parole release date has already passed. Deciding when to actually release an inmate serving an indeterminate term is governed by different rules and regulations. (See generally In re Rosenkrantz (2002) 29 Cal.4th 616, 653-654 [128 Cal.Rptr.2d 104, 59 P.3d 174].) Thus,' neither logic, regulation, statute, nor constitutional mandate requires that the rules governing worktime credits also govern classification decisions.\nPetitioner also argues that the Court of Appeal erred in considering the Attorney General\u2019s argument defending section 3375.4, subdivision (a)(3)(B)\u2019s validity\u2014that it is rational to consider actual work performance as a classification factor\u2014because the Attorney General did not make that argument in the superior court. In his original petition for writ of habeas corpus in the superior court, petitioner relied exclusively on Player, supra, 146 Cal.App.4th 813. In his return, the Attorney General relied in part on section 3375.4, subdivision (a)(3)(B), but did not specifically discuss the section\u2019s constitutional validity. Instead, he concentrated on trying to distinguish Player. In his denial to the return, petitioner, now represented by an attorney, again relied primarily on Player. He did not attempt either to challenge or to distinguish section 3375.4, subdivision (a)(3)(B). He simply ignored it. The superior court relied solely on Player in granting relief.\nPetitioner contends the Attorney General has forfeited the right to defend section 3375.4, subdivision (a)(3)(B), against a constitutional challenge because he did not do so in the superior court. But similar reasoning would lead to the conclusion that petitioner may not now challenge that section because he did not do so in the superior court. It cannot be the case that petitioner may challenge, but the Attorney General may not defend, the regulation for the first time on appeal. In fact, we have \u201callowed parties to \u201cadvance new theories on appeal when the issue posed is purely a question of law based on undisputed facts, and involves important questions of public policy.\u201d \u2019 \u201d (Farm Raised Salmon Cases (2008) 42 Cal.4th 1077, 1090, fn. 11 [72 Cal.Rptr.3d 112, 175 P.3d 1170], quoting Cedars-Sinai Medical Center v. Superior Court (1998) 18 Cal.4th 1, 6 [74 Cal.Rptr.2d 248, 954 P.2d 511].) Because Player, supra, 146 Cal.App.4th 813, a published Court of Appeal decision, was binding on the superior court (Auto Equity Sales, Inc. v. Superior Court (1962) 57 Cal.2d 450, 455 [20 Cal.Rptr. 321, 369 P.2d 937]), it made sense for the parties to litigate in the superior court whether Player applied rather than whether it was correct. The Court of Appeal was a logical place to litigate Player\u2019\u2019 s correctness, which necessarily included litigating section 3375.4, subdivision (a)(3)(B)\u2019s validity. (See Cedars-Sinai Medical Center v. Superior Court, supra, at p. 6.) Accordingly, we will permit petitioner to challenge, and the Attorney General to defend, section 3375.4, subdivision (a)(3)(B).\nCiting People v. McKee (2010) 47 Cal.4th 1172 [104 Cal.Rptr.3d 427, 223 P.3d 566], petitioner argues that the question of section 3375.4, subdivision (a)(3)(B)\u2019s validity involves disputed facts\u2014specifically, whether it is rational to consider as a classification factor actual work performance rather than mere willingness to work. He argues the Court of Appeal erred, indeed, even violated his constitutional rights, in resolving the question without an evidentiary record. In McKee, this court held that an evidentiary hearing was needed to resolve an equal protection challenge to a statute that was subject to strict scrutiny. (People v. McKee, supra, at pp. 1206-1211.) The due process issue here is whether section 3375.4, subdivision (a)(3)(B), is rational. McKee specifically limited its holding to classifications subject to strict scrutiny; it does not extend to statutes or regulations subject only to review for rationality. (People v. McKee, supra, at p. 1211, fn. 14.) Whether a statute or regulation is rational is, as a general rule, a legal question for the courts to resolve, not a factual question requiring an evidentiary hearing. In conducting rational-basis equal protection analysis, \u201c \u2018a legislative choice is not subject to courtroom factfinding and may be based on rational speculation unsupported by evidence or empirical data.\u2019 \u201d (Warden v. State Bar (1999) 21 Cal.4th 628, 650 [88 Cal.Rptr.2d 283, 982 P.2d 154], quoting FCC v. Beach Communications, Inc. (1993) 508 U.S. 307, 315 [124 L.Ed.2d 211, 113 S.Ct. 2096], italics added in Warden.) We believe the same rule should apply to a due process challenge asking whether the regulation is rational. Accordingly, we agree with the Court of Appeal in rejecting petitioner\u2019s forfeiture argument: \u201cThe proposition that, as a general matter, an inmate who performs at average or above average level in a work, school, or vocational program requires less security than other inmates is not a question of historical fact that had to be determined based on evidence presented in this case. Thus, we do not become the trier of fact by considering that proposition on appeal.\u201d\nIn addition to his due process argument, petitioner invokes other constitutional, statutory, and regulatory provisions. He contends that section 3375.4, subdivision (a)(3)(B), also violates equal protection guarantees under both the United States and California Constitutions. This case involves neither a suspect class nor a fundamental interest. (See Warden v. State Bar, supra, 21 Cal.4th at pp. 640-643.) Accordingly, the classification will be upheld if there is a rational basis for it. (Ibid.) The classification distinguishing between those who are willing to work but are unassigned through no fault of their own, and those who actually work, has a rational basis. Our conclusion that section 3375.4, subdivision (a)(3)(B), is not arbitrary, nor capricious, nor irrational\u2014the test we applied in finding the section comports with due process\u2014necessarily also means that it is rational.\nBecause an inmate may receive \u201cS\u201d time credit for \u201c[a] temporary interruption or delay in the inmate\u2019s assignment which is no fault of the inmate\u201d (\u00a7 3045.3, subd. (b)(13)), petitioner claims it is irrational to distinguish between inmates who are unassigned and those who are assigned but whose actual performance is temporarily interrupted or delayed. It is not clear whether the rules regarding classification credits under section 3375.4, subdivision (a), are similar to this \u201cS\u201d time rule. But in any event, the department can rationally distinguish between an inmate who is not assigned to a program at all and one who is assigned to a program but has some excused absences. An inmate may receive classification reduction points only for a \u201csix-month period with an average or above performance\u201d in a work program. (\u00a7 3375.4, subd. (a)(3).) Thus, an inmate who is assigned to a program but never actually works (the situation petitioner posits) would presumably not receive the point reduction. An inmate who is assigned to a program and temporarily missed some work\u2014but is nevertheless found to have performed overall at an average or above level\u2014will have a record of working, which would aid the department in determining how much of a security risk the inmate is.\nPetitioner also invokes Penal Code section 2600, which provides that an inmate confined in a state prison may \u201cbe deprived of such rights, and only such rights, as is reasonably related to legitimate penological interests.\u201d It is not clear exactly which right not reasonably related to legitimate penological interests petitioner claims he is being denied. Certainly, noninmates have a right not to be classified under Penal Code section 5068 and, in that sense, subjecting inmates to such classification deprives them of that right. But classifying inmates is obviously, and reasonably, related to legitimate penological interests. Penal Code section 2600 does not make Penal Code section 5068 invalid. Petitioner does not appear to assert otherwise. To the extent petitioner argues that by violating some other right, the classification decision of this case also violated Penal Code section 2600, the argument adds nothing to those already considered. Finally, petitioner argues that the department violated its own regulations, specifically section 3375, subdivision (f)(7), which requires that the classification decisions \u201cbe based on evaluation of available information.\u201d He claims that because he was unassigned during the period in question, \u201chis performance in that job or program is information that is \u2018unavailable.\u2019 \u201d We disagree. The fact that petitioner did not actually work during that time period\u2014the critical fact under section 3375.4, subdivision (a)(3)(B)\u2014is available information.\nFor these reasons, we conclude the department properly applied section 3375.4, subdivision (a)(3)(B), to deny petitioner the two-point reduction in his classification score at issue here. The Court of Appeal in this case correctly so held. We disapprove In re Player, supra, 146 Cal.App.4th 813, to the extent it is inconsistent with this opinion.\nIII. Conclusion\nWe affirm the judgment of the Court of Appeal.\nGeorge, C. J., Kennard, J., Baxter, J., Werdegar, J., Moreno, J., and Corrigan, J., concurred.\nRespondent\u2019s petition for a rehearing was denied December 1, 2010.\nFormerly, the administrative head of the department (then the Department of Corrections) was called the Director of Corrections. In 2005, the Legislature abolished the office of the Director of Corrections and replaced it with the secretary. (Pen. Code, \u00a7\u00a7 5050, 5054.) Some Penal Code provisions still use the term \u201cDirector of Corrections,\u201d but any such reference now \u201crefers to the Secretary of the Department of Corrections and Rehabilitation.\u201d (Pen. Code, \u00a7 5050.) Accordingly, we will change all references to the \u201cdirector\u201d to refer to the secretary.\nAll further undesignated section references are to title 15 of the California Code of Regulations.\nAt oral argument, petitioner made various additional arguments that are not within the scope of review. We do not consider those arguments. (Cal. Rules of Court, rule 8.516(b).)\nPetitioner argues that the \u201csome evidence\u201d test applies to the superior court\u2019s ruling granting the petition for writ of habeas corpus rather than the department\u2019s action. On the contrary, the test applies to the department\u2019s actions, not the superior court\u2019s. As the Farley court explained, \u201cA court must uphold the classification action if it is supported by \u2018 \u201csome\u201d \u2019 evidence.\u201d (In re Farley, supra, 109 Cal.App.4th at p. 1362, italics added.) The italicized word \u201cit\u201d clearly refers to the classification action, not a later court action either upholding or setting aside the classification action. (See also Superintendent v. Hill, supra, 472 U.S. at p. 454; In re Zepeda, supra, 141 Cal.App.4th at p. 1498.) Courts give the deference to prison authorities, not to reviewing courts or trial courts.\nPenal Code section 2933 has been amended occasionally over the years, and the precise rules regarding who may receive credit, and how much, have varied. Because this case involves classification rather than worktime credit, we need not go into this matter further.",
+        "type": "majority",
+        "author": "CHIN, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Edmund G. Brown, Jr., Attorney General, Dane R. Gillette, Chief Assistant Attorney General, Julie L. Garland, Assistant Attorney General, Jessica N. Blonien, Anya M. Binsacca, Jennifer A. Neill and Christopher J. Rench, Deputy Attorneys General, for Appellant State of California.",
+      "Linn\u00e9a M. Johnson, under appointment by the Supreme Court, and S. Lynne Klein, under appointment by the Court of Appeal, for Respondent Harvey Zane Jenkins."
+    ],
+    "corrections": "",
+    "head_matter": "[No. S175242.\nOct. 28, 2010.]\nIn re HARVEY ZANE JENKINS on Habeas Corpus.\nCounsel\nEdmund G. Brown, Jr., Attorney General, Dane R. Gillette, Chief Assistant Attorney General, Julie L. Garland, Assistant Attorney General, Jessica N. Blonien, Anya M. Binsacca, Jennifer A. Neill and Christopher J. Rench, Deputy Attorneys General, for Appellant State of California.\nLinn\u00e9a M. Johnson, under appointment by the Supreme Court, and S. Lynne Klein, under appointment by the Court of Appeal, for Respondent Harvey Zane Jenkins."
+  },
+  "file_name": "1167-01",
+  "first_page_order": 1205,
+  "last_page_order": 1221
+}

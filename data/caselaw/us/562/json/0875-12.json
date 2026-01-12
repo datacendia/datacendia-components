@@ -1,0 +1,59 @@
+{
+  "id": 5962795,
+  "name": "Mejia v. United States",
+  "name_abbreviation": "Mejia v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11353",
+  "first_page": "875",
+  "last_page": "875",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 875"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.576,
+    "sha256": "a494f474494299842c8e8db3b003d41bc2c3984f98e993f689f1b59975f90e25",
+    "simhash": "1:055abe524791162c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mejia v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11353.\nMejia v. United States."
+  },
+  "file_name": "0875-12",
+  "first_page_order": 897,
+  "last_page_order": 897
+}

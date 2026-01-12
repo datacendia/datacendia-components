@@ -1,0 +1,59 @@
+{
+  "id": 12204685,
+  "name": "LaVirgne v. Hartley, Warden",
+  "name_abbreviation": "LaVirgne v. Hartley",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10717",
+  "first_page": "846",
+  "last_page": "846",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 846"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.657,
+    "sha256": "1036de06e8475fd344dd383e5ecd87ba3f95cf416d001719a12b8a6071c830b3",
+    "simhash": "1:14b602a86dafe1d4",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "LaVirgne v. Hartley, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir; Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10717.\nLaVirgne v. Hartley, Warden."
+  },
+  "file_name": "0846-02",
+  "first_page_order": 928,
+  "last_page_order": 928
+}

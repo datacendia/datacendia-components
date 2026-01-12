@@ -1,0 +1,61 @@
+{
+  "id": 12413221,
+  "name": "Voting for America, Inc., et al. v. Andrade, Secretary of State of Texas",
+  "name_abbreviation": "Voting for America, Inc. v. Andrade",
+  "decision_date": "2012-09-25",
+  "docket_number": "No. 12A266",
+  "first_page": "967",
+  "last_page": "967",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 967"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 44,
+    "char_count": 352,
+    "ocr_confidence": 0.693,
+    "sha256": "be9704a482319e4280d238a9eaaf70131f83148dbe7d8c6b87f4853ea68b9c19",
+    "simhash": "1:3475781d3b889acd",
+    "word_count": 59
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor would grant the application in part."
+    ],
+    "parties": [
+      "Voting for America, Inc., et al. v. Andrade, Secretary of State of Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Application to vacate the stay entered by the United States Court of Appeals for the Fifth Circuit on September 6, 2012, presented to Justice Scalia, and by him referred to the Court, denied.\nJustice Sotomayor would grant the application in part.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "September 25, 2012\nNo. 12A266.\nVoting for America, Inc., et al. v. Andrade, Secretary of State of Texas."
+  },
+  "file_name": "0967-03",
+  "first_page_order": 871,
+  "last_page_order": 871
+}

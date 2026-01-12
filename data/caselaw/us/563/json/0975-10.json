@@ -1,0 +1,59 @@
+{
+  "id": 5919529,
+  "name": "Selig v. Roeshman",
+  "name_abbreviation": "Selig v. Roeshman",
+  "decision_date": "2011-05-02",
+  "docket_number": "No. 10-1142",
+  "first_page": "975",
+  "last_page": "975",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 975"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 66,
+    "ocr_confidence": 0.621,
+    "sha256": "5687dd8b8f03ed8c76dfc558beefa00596543d29e095b128fc0036075614eeb0",
+    "simhash": "1:f40615989cbbfdf6",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Selig v. Roeshman."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Pa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1142.\nSelig v. Roeshman."
+  },
+  "file_name": "0975-10",
+  "first_page_order": 1001,
+  "last_page_order": 1001
+}

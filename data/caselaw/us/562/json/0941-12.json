@@ -1,0 +1,59 @@
+{
+  "id": 5994108,
+  "name": "Johnson v. United States",
+  "name_abbreviation": "Johnson v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5918",
+  "first_page": "941",
+  "last_page": "941",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 941"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.625,
+    "sha256": "a965eee8827dbcc577dde2bd731752c74b0aa769ebf7d4d9974c10b95915ac7c",
+    "simhash": "1:0fbb8e232b8f905b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Johnson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5918.\nJohnson v. United States."
+  },
+  "file_name": "0941-12",
+  "first_page_order": 963,
+  "last_page_order": 963
+}

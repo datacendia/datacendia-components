@@ -1,0 +1,61 @@
+{
+  "id": 12430301,
+  "name": "American Express Co. et al. v. Italian Colors Restaurant et al.",
+  "name_abbreviation": "American Express Co. v. Italian Colors Restaurant",
+  "decision_date": "2013-02-15",
+  "docket_number": "No. 12-133",
+  "first_page": "1152",
+  "last_page": "1152",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1152"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 45,
+    "char_count": 332,
+    "ocr_confidence": 0.59,
+    "sha256": "cd0e521cf01b4380310b067471a56a384581c03c40906a678fdc0c4ccf8a4a90",
+    "simhash": "1:998238c38366f65c",
+    "word_count": 55
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor took no part in the consideration or decision of this motion."
+    ],
+    "parties": [
+      "American Express Co. et al. v. Italian Colors Restaurant et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. [Certiorari granted, ante, p. 1006.] Motion of the Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument granted.\nJustice Sotomayor took no part in the consideration or decision of this motion.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-133.\nAmerican Express Co. et al. v. Italian Colors Restaurant et al."
+  },
+  "file_name": "1152-01",
+  "first_page_order": 1228,
+  "last_page_order": 1228
+}

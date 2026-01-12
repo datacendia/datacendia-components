@@ -1,0 +1,59 @@
+{
+  "id": 5976013,
+  "name": "Gonzalez v. United States",
+  "name_abbreviation": "Gonzalez v. United States",
+  "decision_date": "2010-11-01",
+  "docket_number": "No. 10-6760",
+  "first_page": "1019",
+  "last_page": "1019",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1019"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.608,
+    "sha256": "94cac7055f0f16e5437677bfb852dbc31ac5d09691de950c1c3cb744d3086c2d",
+    "simhash": "1:451b8e5a4cd59c38",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gonzalez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6760.\nGonzalez v. United States."
+  },
+  "file_name": "1019-14",
+  "first_page_order": 1041,
+  "last_page_order": 1041
+}

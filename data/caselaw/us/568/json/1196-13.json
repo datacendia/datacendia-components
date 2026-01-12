@@ -1,0 +1,59 @@
+{
+  "id": 12432012,
+  "name": "McCullough v. United States",
+  "name_abbreviation": "McCullough v. United States",
+  "decision_date": "2013-02-25",
+  "docket_number": "No. 12-7418",
+  "first_page": "1196",
+  "last_page": "1196",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1196"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.589,
+    "sha256": "4148b7d7ea45575f1af7931faae8ba2b51d0852e33f62f8458f883e0f2cedd88",
+    "simhash": "1:878ad2828b2e9d6e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McCullough v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7418.\nMcCullough v. United States."
+  },
+  "file_name": "1196-13",
+  "first_page_order": 1272,
+  "last_page_order": 1272
+}

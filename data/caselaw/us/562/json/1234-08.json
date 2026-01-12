@@ -1,0 +1,59 @@
+{
+  "id": 5956581,
+  "name": "Williams v. Washington",
+  "name_abbreviation": "Williams v. Washington",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8086",
+  "first_page": "1234",
+  "last_page": "1234",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1234"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 71,
+    "ocr_confidence": 0.584,
+    "sha256": "fdd144e30e7fe890d3f46ec6a6d02d37c09ffc2154f748885111546b870f4828",
+    "simhash": "1:090741c07bbff060",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. Washington."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Wash. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8086.\nWilliams v. Washington."
+  },
+  "file_name": "1234-08",
+  "first_page_order": 1256,
+  "last_page_order": 1256
+}

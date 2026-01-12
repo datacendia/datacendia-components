@@ -1,0 +1,61 @@
+{
+  "id": 12433759,
+  "name": "Schmitz v. United States",
+  "name_abbreviation": "Schmitz v. United States",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-8624",
+  "first_page": "1245",
+  "last_page": "1245",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1245"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 152,
+    "ocr_confidence": 0.679,
+    "sha256": "a09b0ee17e884e1f8a3497e67c93054a50e75c275602a5f22e86c241e2a52969",
+    "simhash": "1:9d339b82070ed812",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Schmitz v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8624.\nSchmitz v. United States."
+  },
+  "file_name": "1245-05",
+  "first_page_order": 1321,
+  "last_page_order": 1321
+}

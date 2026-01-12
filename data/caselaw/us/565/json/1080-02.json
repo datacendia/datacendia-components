@@ -1,0 +1,59 @@
+{
+  "id": 12236781,
+  "name": "Conwill v. Mississippi",
+  "name_abbreviation": "Conwill v. Mississippi",
+  "decision_date": "2011-12-05",
+  "docket_number": "No. 11-519",
+  "first_page": "1080",
+  "last_page": "1080",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1080"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 87,
+    "ocr_confidence": 0.638,
+    "sha256": "32417c2e09a9806ff125e678d86c3fa04e2df798199946742abd246c131bd303",
+    "simhash": "1:3b9f5881dc681f7e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Conwill v. Mississippi."
+    ],
+    "opinions": [
+      {
+        "text": "Cir. Ct. Miss., Madison County. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-519.\nConwill v. Mississippi."
+  },
+  "file_name": "1080-02",
+  "first_page_order": 1162,
+  "last_page_order": 1162
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5960488,
+  "name": "White v. Green et al.",
+  "name_abbreviation": "White v. Green",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-6576",
+  "first_page": "1214",
+  "last_page": "1214",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1214"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 28,
+    "char_count": 166,
+    "ocr_confidence": 0.557,
+    "sha256": "b2719cdd46b7df6bba0ecaedda5b94675dcdb2a19c4cd70891f5252ac1e46eb7",
+    "simhash": "1:62a434384996bb9b",
+    "word_count": 29
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "White v. Green et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Motion of petitioner for reconsideration of order denying leave to proceed in forma pauperis [ante, p. 1059] denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6576.\nWhite v. Green et al."
+  },
+  "file_name": "1214-03",
+  "first_page_order": 1236,
+  "last_page_order": 1236
+}

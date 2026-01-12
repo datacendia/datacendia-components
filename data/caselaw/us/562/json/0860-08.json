@@ -1,0 +1,59 @@
+{
+  "id": 5921307,
+  "name": "Hawkins v. Montana Board of Pardons et al.",
+  "name_abbreviation": "Hawkins v. Montana Board of Pardons",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11049",
+  "first_page": "860",
+  "last_page": "860",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 860"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 91,
+    "ocr_confidence": 0.581,
+    "sha256": "27ab753c2c7d770eb69e964ce447c6e39af17ce70bd547e41272c6115938674b",
+    "simhash": "1:b6dbad94de60548d",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hawkins v. Montana Board of Pardons et al."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Mont. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11049.\nHawkins v. Montana Board of Pardons et al."
+  },
+  "file_name": "0860-08",
+  "first_page_order": 882,
+  "last_page_order": 882
+}

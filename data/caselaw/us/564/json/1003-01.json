@@ -1,0 +1,102 @@
+{
+  "id": 5923732,
+  "name": "In re Disbarment of Trum",
+  "name_abbreviation": "In re Disbarment of Trum",
+  "decision_date": "2011-06-13",
+  "docket_number": "No. D-2587",
+  "first_page": "1003",
+  "last_page": "1003",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1003"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "562 U. S. 1041",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6000997,
+        5967240,
+        5932393,
+        12438764,
+        12438765,
+        12438766,
+        6017391,
+        12438767,
+        12438769,
+        6010130,
+        12438768,
+        5967607,
+        5995608,
+        5923738,
+        12438974,
+        12438975
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/562/1041-01",
+        "/us/562/1041-04",
+        "/us/562/1041-07",
+        "/l-ed-2d/178/0431-03",
+        "/l-ed-2d/178/0431-04",
+        "/l-ed-2d/178/0431-05",
+        "/us/562/1041-08",
+        "/l-ed-2d/178/0431-06",
+        "/l-ed-2d/178/0432-02",
+        "/us/562/1041-06",
+        "/l-ed-2d/178/0432-01",
+        "/us/562/1041-03",
+        "/us/562/1041-02",
+        "/us/562/1041-05",
+        "/l-ed-2d/178/0458-06",
+        "/l-ed-2d/178/0459-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 106,
+    "ocr_confidence": 0.621,
+    "sha256": "49bb7f988d252917dad1627527740bb072851b33d0468967fda391298c701696",
+    "simhash": "1:f9ecc9abab868aa4",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:47:04.462735+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Trum."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see 562 U. S. 1041.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2587.\nIn re Disbarment of Trum."
+  },
+  "file_name": "1003-01",
+  "first_page_order": 997,
+  "last_page_order": 997
+}

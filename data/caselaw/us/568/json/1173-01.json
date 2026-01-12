@@ -1,0 +1,59 @@
+{
+  "id": 12431080,
+  "name": "Schmidt v. Meuler",
+  "name_abbreviation": "Schmidt v. Meuler",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-7768",
+  "first_page": "1173",
+  "last_page": "1173",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1173"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 66,
+    "ocr_confidence": 0.647,
+    "sha256": "347bc4813e26264496e067c9a92e677b10833c60bc071024d7e16d167d76c1e5",
+    "simhash": "1:8aa3ad8a270887ce",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Schmidt v. Meuler."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Wis. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7768.\nSchmidt v. Meuler."
+  },
+  "file_name": "1173-01",
+  "first_page_order": 1249,
+  "last_page_order": 1249
+}

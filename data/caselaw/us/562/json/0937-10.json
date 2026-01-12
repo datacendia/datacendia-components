@@ -1,0 +1,59 @@
+{
+  "id": 6020094,
+  "name": "Carlson v. Michigan",
+  "name_abbreviation": "Carlson v. Michigan",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5781",
+  "first_page": "937",
+  "last_page": "937",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 937"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 68,
+    "ocr_confidence": 0.575,
+    "sha256": "81de657e3e8e5d1b32cd8c9db5d0802561816037b354be57cf6f610e40a3c8cd",
+    "simhash": "1:ddcfb3beeaa77bc7",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Carlson v. Michigan."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Mich. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5781.\nCarlson v. Michigan."
+  },
+  "file_name": "0937-10",
+  "first_page_order": 959,
+  "last_page_order": 959
+}

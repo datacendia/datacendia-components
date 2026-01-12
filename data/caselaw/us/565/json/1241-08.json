@@ -1,0 +1,59 @@
+{
+  "id": 12249988,
+  "name": "Gonzalez Cruz v. United States",
+  "name_abbreviation": "Gonzalez Cruz v. United States",
+  "decision_date": "2012-02-27",
+  "docket_number": "No. 11-8574",
+  "first_page": "1241",
+  "last_page": "1241",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1241"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 79,
+    "ocr_confidence": 0.665,
+    "sha256": "5aa4d98f19a6a1417951adb66ed6426f24f1a665a78ea68a770a503a5c8bee1a",
+    "simhash": "1:040bc1810eb4045e",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gonzalez Cruz v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8574.\nGonzalez Cruz v. United States."
+  },
+  "file_name": "1241-08",
+  "first_page_order": 1323,
+  "last_page_order": 1323
+}

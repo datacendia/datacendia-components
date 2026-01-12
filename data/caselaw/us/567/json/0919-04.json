@@ -1,0 +1,59 @@
+{
+  "id": 12409753,
+  "name": "Stout v. Baskerville, Warden",
+  "name_abbreviation": "Stout v. Baskerville",
+  "decision_date": "2012-06-18",
+  "docket_number": "No. 11-9780",
+  "first_page": "919",
+  "last_page": "919",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 919"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.706,
+    "sha256": "a06b7fbeb20485f25d787035ca93bd458d84d5cce3882eea465beedeffa954a1",
+    "simhash": "1:33c31e73cecdf237",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Stout v. Baskerville, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9780.\nStout v. Baskerville, Warden."
+  },
+  "file_name": "0919-04",
+  "first_page_order": 823,
+  "last_page_order": 823
+}

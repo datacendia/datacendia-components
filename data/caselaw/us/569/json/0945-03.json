@@ -1,0 +1,86 @@
+{
+  "id": 12697685,
+  "name": "Wesley Eugene BROOKS, petitioner, v. MINNESOTA; and Wesley Eugene Brooks, petitioner, v. Minnesota.",
+  "name_abbreviation": "Brooks v. Minnesota",
+  "decision_date": "2013-04-22",
+  "docket_number": "No. 12\u2013478.",
+  "first_page": "945",
+  "last_page": "945",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "569 U.S. 945"
+    },
+    {
+      "type": "parallel",
+      "cite": "185 L. Ed. 2d 863"
+    },
+    {
+      "type": "parallel",
+      "cite": "133 S. Ct. 1996"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "133 S.Ct. 1552",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12697040
+      ],
+      "year": 2013,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/569/0141-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 42,
+    "char_count": 467,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2665363888010459
+    },
+    "sha256": "c2a57fc20ea37797fb8a89ec347b316b2b346e35da37227c85f82a0882884244",
+    "simhash": "1:6ae14605a4c301be",
+    "word_count": 71
+  },
+  "last_updated": "2024-02-27T18:41:22.752108+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wesley Eugene BROOKS, petitioner,\nv.\nMINNESOTA; and Wesley Eugene Brooks, petitioner,\nv.\nMinnesota."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "On petition for writ of certiorari to the Court of Appeals of Minnesota. Petition for writ of certiorari granted. Judgments vacated, and cases remanded to the Court of Appeals of Minnesota for further consideration in light of Missouri v. McNeely, 569 U.S. ----, 133 S.Ct. 1552, ---L.Ed.2d ---- (2013)."
+    ],
+    "corrections": "",
+    "head_matter": "Wesley Eugene BROOKS, petitioner,\nv.\nMINNESOTA; and Wesley Eugene Brooks, petitioner,\nv.\nMinnesota.\nNo. 12-478.\nSupreme Court of the United States\nApril 22, 2013.\nOn petition for writ of certiorari to the Court of Appeals of Minnesota. Petition for writ of certiorari granted. Judgments vacated, and cases remanded to the Court of Appeals of Minnesota for further consideration in light of Missouri v. McNeely, 569 U.S. ----, 133 S.Ct. 1552, ---L.Ed.2d ---- (2013)."
+  },
+  "file_name": "0945-03",
+  "first_page_order": 945,
+  "last_page_order": 945
+}

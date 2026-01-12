@@ -1,0 +1,59 @@
+{
+  "id": 12220675,
+  "name": "Taylor v. Maryland",
+  "name_abbreviation": "Taylor v. Maryland",
+  "decision_date": "2012-05-21",
+  "docket_number": "No. 11-9368",
+  "first_page": "1013",
+  "last_page": "1013",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1013"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 70,
+    "ocr_confidence": 0.568,
+    "sha256": "8393d636fa88ac06352fad41d46b737361465803558964931abc31db802425cd",
+    "simhash": "1:17ca694dd0d0d352",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Taylor v. Maryland."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Sp. App. Md. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9368.\nTaylor v. Maryland."
+  },
+  "file_name": "1013-04",
+  "first_page_order": 889,
+  "last_page_order": 889
+}

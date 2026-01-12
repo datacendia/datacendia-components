@@ -1,0 +1,59 @@
+{
+  "id": 12415818,
+  "name": "Gomez-Hawkins v. United States",
+  "name_abbreviation": "Gomez-Hawkins v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5397",
+  "first_page": "910",
+  "last_page": "910",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 910"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.663,
+    "sha256": "4ca136636730819dc21d0f35a8fd45929df944d8748c30ecd75ff89717ff2395",
+    "simhash": "1:148362012db1a176",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gomez-Hawkins v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5397.\nGomez-Hawkins v. United States."
+  },
+  "file_name": "0910-12",
+  "first_page_order": 986,
+  "last_page_order": 986
+}

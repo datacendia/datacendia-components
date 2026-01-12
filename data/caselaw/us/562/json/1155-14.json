@@ -1,0 +1,59 @@
+{
+  "id": 5958677,
+  "name": "Blakey v. Missouri et al.",
+  "name_abbreviation": "Blakey v. Missouri",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7586",
+  "first_page": "1155",
+  "last_page": "1155",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1155"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 73,
+    "ocr_confidence": 0.564,
+    "sha256": "b1a6cf188d1fe7f90824e98e1a47bbc6b405e67da1daf723d1887aba17875b5b",
+    "simhash": "1:901864a805249221",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Blakey v. Missouri et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7586.\nBlakey v. Missouri et al."
+  },
+  "file_name": "1155-14",
+  "first_page_order": 1177,
+  "last_page_order": 1177
+}

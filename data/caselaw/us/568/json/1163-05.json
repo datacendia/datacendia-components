@@ -1,0 +1,76 @@
+{
+  "id": 12430667,
+  "name": "McElveen v. Louisiana; and McElveen v. Louisiana",
+  "name_abbreviation": "McElveen v. Louisiana",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-5163; No. 12-5199",
+  "first_page": "1163",
+  "last_page": "1163",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1163"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "73 So. 3d 1033",
+      "category": "reporters:state_regional",
+      "reporter": "So. 3d",
+      "case_ids": [
+        7029969
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/so3d/73/1033-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 187,
+    "ocr_confidence": 0.633,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2562786479057273
+    },
+    "sha256": "64c09b09d89ecdbff5668e6709626d96ddfdb10f89c51d32bae3afe7e891f86f",
+    "simhash": "1:5f787afd1343069f",
+    "word_count": 30
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McElveen v. Louisiana; and McElveen v. Louisiana."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. La., 4th Cir. Certiorari denied. Reported below: 2010-0172 (La. App. 4 Cir. 9/28/11), 73 So. 3d 1033.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5163.\nNo. 12-5199.\nMcElveen v. Louisiana; and McElveen v. Louisiana."
+  },
+  "file_name": "1163-05",
+  "first_page_order": 1239,
+  "last_page_order": 1239
+}

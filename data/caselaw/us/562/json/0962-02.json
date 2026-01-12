@@ -1,0 +1,59 @@
+{
+  "id": 5990606,
+  "name": "Knight v. Drye et al.",
+  "name_abbreviation": "Knight v. Drye",
+  "decision_date": "2010-10-12",
+  "docket_number": "No. 10-169",
+  "first_page": "962",
+  "last_page": "962",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 962"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 67,
+    "ocr_confidence": 0.566,
+    "sha256": "f8e5b3b7b218ec53f6f5f6e68d3d604533f3ed4e73fa1c38af610ed21798d5b2",
+    "simhash": "1:480868abc94da2e6",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Knight v. Drye et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-169.\nKnight v. Drye et al."
+  },
+  "file_name": "0962-02",
+  "first_page_order": 984,
+  "last_page_order": 984
+}

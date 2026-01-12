@@ -1,0 +1,59 @@
+{
+  "id": 12418106,
+  "name": "Ducros v. Cain, Warden",
+  "name_abbreviation": "Ducros v. Cain",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-5518",
+  "first_page": "945",
+  "last_page": "945",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 945"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.661,
+    "sha256": "5499b7ded24400cc763b96cc2d4db3ebba6eec87bf28352e3278db12d9bd545a",
+    "simhash": "1:80589b8a81409ae2",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ducros v. Cain, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5518.\nDucros v. Cain, Warden."
+  },
+  "file_name": "0945-10",
+  "first_page_order": 1021,
+  "last_page_order": 1021
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12203879,
+  "name": "Todd v. Copeland",
+  "name_abbreviation": "Todd v. Copeland",
+  "decision_date": "2012-04-16",
+  "docket_number": "No. 11-996",
+  "first_page": "938",
+  "last_page": "938",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 938"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 62,
+    "ocr_confidence": 0.595,
+    "sha256": "a99348fc5f2b1807c88a467645aa3972a3a7d7757a32fa333f4d668d628b631c",
+    "simhash": "1:a0db84e83fed74a3",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Todd v. Copeland."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Va. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-996.\nTodd v. Copeland."
+  },
+  "file_name": "0938-09",
+  "first_page_order": 814,
+  "last_page_order": 814
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5980070,
+  "name": "Wilson v. Brunsman, Warden",
+  "name_abbreviation": "Wilson v. Brunsman",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10996",
+  "first_page": "858",
+  "last_page": "858",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 858"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.594,
+    "sha256": "5ffbc963c1cf0ac0ee34100fb8233a428d25fc30ed635b0f5005cde8f9bcbf63",
+    "simhash": "1:850a1683ea1f1e46",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wilson v. Brunsman, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10996.\nWilson v. Brunsman, Warden."
+  },
+  "file_name": "0858-07",
+  "first_page_order": 880,
+  "last_page_order": 880
+}

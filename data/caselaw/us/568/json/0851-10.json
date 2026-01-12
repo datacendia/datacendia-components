@@ -1,0 +1,59 @@
+{
+  "id": 12413492,
+  "name": "McCarthy v. Sosnick et al.",
+  "name_abbreviation": "McCarthy v. Sosnick",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10605",
+  "first_page": "851",
+  "last_page": "851",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 851"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.696,
+    "sha256": "0710991f5802d242fc7cc3da791138657a7f53ac1ad168d7816d232a81daf3f7",
+    "simhash": "1:c49bf588e8a91831",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McCarthy v. Sosnick et al."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Mich. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10605.\nMcCarthy v. Sosnick et al."
+  },
+  "file_name": "0851-10",
+  "first_page_order": 927,
+  "last_page_order": 927
+}

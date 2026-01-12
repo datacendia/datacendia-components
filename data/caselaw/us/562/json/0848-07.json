@@ -1,0 +1,59 @@
+{
+  "id": 6029003,
+  "name": "Anderson et al. v. City of Davis, California, et al.",
+  "name_abbreviation": "Anderson v. City of Davis",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10650",
+  "first_page": "848",
+  "last_page": "848",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 848"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 101,
+    "ocr_confidence": 0.672,
+    "sha256": "36795c551475aa012f3f6d503036969e9f62a615b2cbcfd43c845e8e99bcadd0",
+    "simhash": "1:90f8e4a83f8e704d",
+    "word_count": 18
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Anderson et al. v. City of Davis, California, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10650.\nAnderson et al. v. City of Davis, California, et al."
+  },
+  "file_name": "0848-07",
+  "first_page_order": 870,
+  "last_page_order": 870
+}

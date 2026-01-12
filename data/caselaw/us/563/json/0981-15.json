@@ -1,0 +1,59 @@
+{
+  "id": 4224176,
+  "name": "Hervis v. United States",
+  "name_abbreviation": "Hervis v. United States",
+  "decision_date": "2011-05-02",
+  "docket_number": "No. 10-9830",
+  "first_page": "981",
+  "last_page": "981",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 981"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.528,
+    "sha256": "cddbd26b8902dddc7e8ecb7bed44c220d998288d3702c7f7ad4a0d256ef2e08e",
+    "simhash": "1:d51bcfd066f4177e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hervis v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9830.\nHervis v. United States."
+  },
+  "file_name": "0981-15",
+  "first_page_order": 1007,
+  "last_page_order": 1007
+}

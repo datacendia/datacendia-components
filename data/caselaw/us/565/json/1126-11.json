@@ -1,0 +1,59 @@
+{
+  "id": 12240633,
+  "name": "Noble v. Adams et al.",
+  "name_abbreviation": "Noble v. Adams",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-7208",
+  "first_page": "1126",
+  "last_page": "1126",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1126"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 70,
+    "ocr_confidence": 0.674,
+    "sha256": "aa436eb077e5cccec1bf71b08e3be4e760184faae4f659a7aeda185e5cd5a6aa",
+    "simhash": "1:5c8924adbdabd57c",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Noble v. Adams et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7208.\nNoble v. Adams et al."
+  },
+  "file_name": "1126-11",
+  "first_page_order": 1208,
+  "last_page_order": 1208
+}

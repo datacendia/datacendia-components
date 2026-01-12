@@ -1,0 +1,83 @@
+{
+  "id": 2263612,
+  "name": "E. L. Fitch, Doing Business as E. L. Fitch Trucking Co. et al, Petitioner v. International Harvester Company, Respondent",
+  "name_abbreviation": "Fitch v. International Harvester Co.",
+  "decision_date": "1962-01-31",
+  "docket_number": "No. A-8722",
+  "first_page": "221",
+  "last_page": "221",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "163 Tex. 221"
+    },
+    {
+      "type": "parallel",
+      "cite": "354 S.W.2d 372"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "350 S.W. 2d 395",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10160845
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/350/0395-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 86,
+    "char_count": 818,
+    "ocr_confidence": 0.598,
+    "pagerank": {
+      "raw": 1.1892317321135103e-07,
+      "percentile": 0.5909634113803546
+    },
+    "sha256": "dda1636609edc531382e02a0316bb14d2ff5d0b78730a08aceb6b7cf2676b320",
+    "simhash": "1:d259db2f360238d9",
+    "word_count": 135
+  },
+  "last_updated": "2024-02-27T22:19:56.646811+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "E. L. Fitch, Doing Business as E. L. Fitch Trucking Co. et al, Petitioner v. International Harvester Company, Respondent"
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM.\nThe Court of Civil Appeals dismissed the appeal to that Court for want of prosecution. 350 S.W. 2d 395. This action was not erroneous. Rules 414 and 415, Texas Rules of Civil Procedure. The appeal having been dismissed, discussion by the Court of Civil Appeals of the merits of the appeal and its affirmance of the trial court\u2019s judgment may be regarded as mere surplusage inasmuch as the judgment of the trial court stands unimpaired upon the dismissal of the appeal therefrom.\nThe application for writ of error is refused, no reversible error.",
+        "type": "majority",
+        "author": "PER CURIAM."
+      }
+    ],
+    "attorneys": [
+      "Murray J. Howze, Monahans, for petitioner.",
+      "McGowen & Magee, Monahans, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "E. L. Fitch, Doing Business as E. L. Fitch Trucking Co. et al, Petitioner v. International Harvester Company, Respondent\nNo. A-8722.\nDecided January 31, 1962\n354 S.W. 2d 372\nMurray J. Howze, Monahans, for petitioner.\nMcGowen & Magee, Monahans, for respondent."
+  },
+  "file_name": "0221-01",
+  "first_page_order": 249,
+  "last_page_order": 249
+}

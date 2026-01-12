@@ -1,0 +1,61 @@
+{
+  "id": 5994799,
+  "name": "Tibbetts v. Dittes et al.",
+  "name_abbreviation": "Tibbetts v. Dittes",
+  "decision_date": "2010-12-13",
+  "docket_number": "No. 10-565",
+  "first_page": "1124",
+  "last_page": "1124",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1124"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 153,
+    "ocr_confidence": 0.574,
+    "sha256": "3672063c09a71bf93fda47b00204d7e79ac92641f8dd07b3852c84ca6fbcd3c3",
+    "simhash": "1:99f3e8807b0ef2c2",
+    "word_count": 26
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Tibbetts v. Dittes et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.\nJustice Sotomayor took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-565.\nTibbetts v. Dittes et al."
+  },
+  "file_name": "1124-03",
+  "first_page_order": 1146,
+  "last_page_order": 1146
+}

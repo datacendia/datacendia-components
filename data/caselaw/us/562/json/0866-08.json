@@ -1,0 +1,59 @@
+{
+  "id": 5940553,
+  "name": "Torres Santiago v. Pennsylvania",
+  "name_abbreviation": "Torres Santiago v. Pennsylvania",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11188",
+  "first_page": "866",
+  "last_page": "866",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 866"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 81,
+    "ocr_confidence": 0.626,
+    "sha256": "437602f4650847525401f0241c7a18b1d79730aac8269723e8c2bf7d5b869e8d",
+    "simhash": "1:4a460290b4ec95c5",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Torres Santiago v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Pa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11188.\nTorres Santiago v. Pennsylvania."
+  },
+  "file_name": "0866-08",
+  "first_page_order": 888,
+  "last_page_order": 888
+}

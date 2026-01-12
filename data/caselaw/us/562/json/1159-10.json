@@ -1,0 +1,59 @@
+{
+  "id": 6016846,
+  "name": "Dean v. United States",
+  "name_abbreviation": "Dean v. United States",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7716",
+  "first_page": "1159",
+  "last_page": "1159",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1159"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.624,
+    "sha256": "cb0e46d8b613e42a267b5b45e1a43913592fee9cd09bd0f6a97db831ffacddc0",
+    "simhash": "1:a30aba82ce901d18",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dean v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7716.\nDean v. United States."
+  },
+  "file_name": "1159-10",
+  "first_page_order": 1181,
+  "last_page_order": 1181
+}

@@ -1,0 +1,522 @@
+{
+  "id": 2252420,
+  "name": "Shell Oil Company v. J. Earl Rudder, Commissioner of the General Land Office of the State of Texas",
+  "name_abbreviation": "Shell Oil Co. v. Rudder",
+  "decision_date": "1957-03-06",
+  "docket_number": "No. A-5955",
+  "first_page": "618",
+  "last_page": "632",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "156 Tex. 618"
+    },
+    {
+      "type": "parallel",
+      "cite": "299 S.W.2d 686"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "104 S.W. 2d 4",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10242280,
+        2291466,
+        2291467,
+        10242144
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/104/0004-02",
+        "/tex/129/0264-01",
+        "/tex/129/0275-01",
+        "/sw2d/104/0004-01"
+      ]
+    },
+    {
+      "cite": "102 S.W. 2d 167",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2291467,
+        10246732
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/129/0275-01",
+        "/sw2d/102/0167-01"
+      ]
+    },
+    {
+      "cite": "129 Texas 275",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2291467
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/129/0275-01"
+      ]
+    },
+    {
+      "cite": "83 S.W. 2d 929",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10260113,
+        2298327
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/83/0929-01",
+        "/tex/125/0430-01"
+      ]
+    },
+    {
+      "cite": "125 Texas 430",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2298327
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/125/0430-01"
+      ]
+    },
+    {
+      "cite": "300 S.W. 24",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10289497,
+        2274806
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/300/0024-01",
+        "/tex/117/0189-01"
+      ]
+    },
+    {
+      "cite": "117 Texas 189",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2274806
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/117/0189-01"
+      ]
+    },
+    {
+      "cite": "8 S.W, 2d 655",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10288661
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/8/0655-01"
+      ]
+    },
+    {
+      "cite": "117 Texas 516",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2274831
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/117/0516-01"
+      ]
+    },
+    {
+      "cite": "250 S.W. 651",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10318979,
+        2281733
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/250/0651-01",
+        "/tex/113/0030-01"
+      ]
+    },
+    {
+      "cite": "113 Texas 30",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2281733
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/113/0030-01"
+      ]
+    },
+    {
+      "cite": "160 S.W. 955",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        8285041
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw/160/0955-01"
+      ]
+    },
+    {
+      "cite": "109 Texas 6",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2288370
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/109/0006-01"
+      ]
+    },
+    {
+      "cite": "144 S.W. 2d 320",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10226539
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/144/0320-01"
+      ]
+    },
+    {
+      "cite": "125 Texas 431",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "47 S.W. 2d 265",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10233936,
+        2305621
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/47/0265-01",
+        "/tex/121/0138-01"
+      ]
+    },
+    {
+      "cite": "121 Texas 138",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2305621
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/121/0138-01"
+      ]
+    },
+    {
+      "cite": "117 Texas 199",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2274845
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/117/0199-01"
+      ]
+    },
+    {
+      "cite": "300 S.W. 27",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10289508
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw/300/0027-01"
+      ]
+    },
+    {
+      "cite": "11 S.W. Rep. 1076",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "74 Texas 141",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "10 S.W. Rep. 91",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "72 Texas 288",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2190628
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/72/0288-01"
+      ]
+    },
+    {
+      "cite": "9 S.W. Rep. 112",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "71 Texas 222",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2192708
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/71/0222-01"
+      ]
+    },
+    {
+      "cite": "19 S.W. 706",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "pin_cites": [
+        {
+          "page": "709"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "84 Texas 529",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2210017
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/84/0529-01"
+      ]
+    },
+    {
+      "cite": "117 Texas 179",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "104 S.W. 2d 4",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10242280,
+        2291466,
+        2291467,
+        10242144
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/104/0004-02",
+        "/tex/129/0264-01",
+        "/tex/129/0275-01",
+        "/sw2d/104/0004-01"
+      ]
+    },
+    {
+      "cite": "102 S.W. 2d 167",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2291467,
+        10246732
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/129/0275-01",
+        "/sw2d/102/0167-01"
+      ]
+    },
+    {
+      "cite": "129 Texas 275",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2291467
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/129/0275-01"
+      ]
+    },
+    {
+      "cite": "83 S.W. 2d 929",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10260113,
+        2298327
+      ],
+      "weight": 3,
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/83/0929-01",
+        "/tex/125/0430-01"
+      ]
+    },
+    {
+      "cite": "125 Texas 430",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2298327
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/125/0430-01"
+      ]
+    },
+    {
+      "cite": "300 S.W. 24",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10289497,
+        2274806
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw/300/0024-01",
+        "/tex/117/0189-01"
+      ]
+    },
+    {
+      "cite": "117 Texas 189",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2274806
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "197"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/117/0189-01"
+      ]
+    },
+    {
+      "cite": "8 S.W, 2d 655",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10288661
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/sw2d/8/0655-01"
+      ]
+    },
+    {
+      "cite": "117 Texas 516",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2274831
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/117/0516-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1152,
+    "char_count": 36512,
+    "ocr_confidence": 0.584,
+    "pagerank": {
+      "raw": 4.856319230494445e-08,
+      "percentile": 0.3049363109586698
+    },
+    "sha256": "b681ec7681eddbbf6475b4e4c1e4a6960682126fbc247855fed8a848b76ac518",
+    "simhash": "1:52a6eaf0258cc565",
+    "word_count": 6399
+  },
+  "last_updated": "2024-02-27T22:45:04.681911+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Shell Oil Company v. J. Earl Rudder, Commissioner of the General Land Office of the State of Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Garwood\ndelivered the opinion of the Court.\nRelator, Shell Oil Company, brings this original mandamus proceeding to require the respondent, J. Earl Rudder, Commissioner of the General Land Office, to file for record in his office certain oil and gas leases running to relator as lessee on lands in Hartley County, Texas, being part of the lands recovered in 1923 by the State from private parties in the \u201cCapitol Syndicate Land Suit\u201d (Findlay v. State, 113 Texas 30, 250 S.W. 651) and appropriated to the public school fund by Acts 1923, Ch. 106, p. 222, the leased premises having been thereafter sold in 1924, by authority of the mentioned Act, to the instant lessors or their predecessors in title. We conclude that the writ should issue.\nThe tendered leases stipulate a royalty to the State of 1/16, and the sole proposition underlying the refusal of the respondent Commissioner to file them, and presenting the essential question for our decision, is, in brief, that the 1923 Act operates to reserve a royalty of 1/8, or double the tendered figure. The relator, for its part, contends that the leases, including the 1/16 state royalty provisions, are \u2014 as the respondent, in fact, admits \u2014 in proper terms for leases made under the Relinquishment Acts ,Acts 1919, 2nd C.S., Ch. 81, p. 249; Arts. 5367-5382, Vernon\u2019s Texas Civ. Stats.) and that the Relinquishment Act controls the leases, notwithstanding the sales of the lands were made under authority of the 1923 Act.\nStated in a different way, the opposing contentions are (a) for the respondent Commissioner, that by virtue of Sec. 3 of the 1923 Act, which is quoted in the footnote, the sale of the lands operated to dispose of the oil and gas to substantially the same effect as if a private owner of ordinary land had executed a deed thereof reserving a perpetual 1/8 royalty interest (although the word \u201croyalty\u201d does not occur in Sec. 3) in the oil and gas, and stipulating the leasing rights of said minerals to be in the grantee; and (b) for the relator, that, notwithstanding the sales were made under the 1923 Act, and notwithstanding the provision in Sec. 3 for a reservation of \u201cone-eighth of all the oil and gas * * * and the value of same,\u201d the sales were necessarily with full reservation of all minerals, and that accordingly the appropriate legal machinery for their leasing and development was and is that of the Relinquishment Act, which admittedly would apply if the full mineral interest were so reserved, and would give the purchaser the right to lease the latter as agent for the State, reserving for the State a royalty of as little as 1/16. Greene v. Robison, 117 Texas 516, 8 S.W, 2d 655.\nAt first blush, it does appear extreme to hold, as we do in effect, that the words \u201cone-eighth of\u201d in Sec. 3, supra, mean nothing, even though their ordinary significance would conduce to recognizing in the State only a 1/8 mineral ownership, as distinguished from a royalty, which ownership in turn would ordinarily correspond to a royalty of only 1/64, or 1/8 of the 1/8 owned. However, the State itself necessarily admits considerable peculiarity in the language as written, when it so contends for a royalty, despite the complete absence of that highly important and most familiar word or its equivalent. Moreover, in the controversy over Sec. 3 decided in Stallcup v. Robison, 1927, 117 Texas 189, 300 S.W. 24 the State apparently took the position that a mere 1/8 mineral interest, rather than a 1/8 royalty, was reserved. At that time conceivably the distinction between royalty and mineral interest was not as familiar as it is now,' and, indeed, was not directly in issue in the case; but, certainly, if the then attorney general regarded the purportedly reserved 1/8 interest as a royalty interest, much of what the court said against the State\u2019s position and with regard to the absence of provision for the development of the reserved mineral interest would have been misleading or beside the point, as hereinafter explained.\nThe Stallcup case involved the question of whether Sec. 3, supra, applied to certain of the recovered Capitol Syndicate lands, which had not then been sold but were sought to be made the subject of an oil and gas exploration permit to Stallcup from the Land Office, the position of the attorney general being that disposition of the oil and gas could only be made by sale of the land, including 7/8 of the minerals according to Sec. 3. The court actually held that Sec. 3 had been superseded as to the particular land by a 1925 Act (39th Leg., Ch. 130, p. 332) but, at the same time, stated by way of rather elaborate dictum that sales made under the 1923 Act (apart from the 1925 Act) operated to reserve all of the minerals to the State, and did not transfer 7/8 of the oil and gas to the purchaser as the attorney general contended that they did.\nThe later decision in Magnolia Petroleum Co. v. Walker, 1935, 125 Texas 430, 83 S.W. 2d 929, involved the effect, as to oil and gas reservations, of a resale of school lands under the so-called Relief Act of 1925, to wit, Art. 5326a, R.S. 1925, the pertinent provision of which was quite similar to that of the 1923 Act, except that the purportedly reserved fraction was only 1/16. The issue was whether Magnolia as lessee under the land repurchaser had to pay the State one-half of the lease bonus and delay rentals (as required in the Relinquishment Act) or might preserve the leases without so doing, Magnolia\u2019s theory being that the land sale vested a 15/16 mineral estate in the repurchaser, who might lease it without regard to the requirements of the Relinquishment Act. The State took a contrary position concerning the quoted section of the 1925 Act to what it took in the Stalleup case and to what it now takes regarding the similar section of the 1923 Act, contending that the language was ineffective, that the effect of the land resale was actually to reserve all the minerals to the State, and that accordingly the matter of leases was governed by the Relinquishment Act. It relied heavily and at length on the dictum in the Stalleup case. The court held with the State. The emphasis on the lack of any provision in the 1925 Act concerning development of the purportedly reserved 1/16 interest of the State indicates that this interest was not regarded by the court as a purported royalty interest, althoug it appears from the briefs in the case that the alternative of so construing the purported reservation was before the court, Magnolia actually suggesting that such a construction would not be unreasonable.\nThe Magnolia decision is thus: (a) a holding that, notwithstanding language quite similar to that involved in the instant case, there was a full reservation of the minerals, with consequent applicability of the Relinquishment Act to leases executed by the land purchaser (repurchaser) ; (b) a fairly clearly implied rejection of what is now the State\u2019s view \u2014 that language such as that of the 1923 and 1925 Acts contemplates a royalty; and (c) an illustration of the State having taken a somewhat contrary position to what it took earlier and what it now takes as to applicability of the Relinquishment Act.\nA still later decision \u2014 and one which the State regards as favorable to its present view \u2014 is Wintermann v. McDonald, 1937, 129 Texas 275, 102 S.W. 2d 167, 104 S.W. 2d 4, involving an application by Wintermann to purchase a small tract of unsurveyed school land under Acts 1931, 42nd Leg., Ch. 271, also known as H. B. 358, [Article 5421c, Vernon\u2019s Texas Civ. Stat.] a rather general public land sales enactment, including the provision that \u201cAll land shall be sold---with a reservation of one-sixteenth (1/16) of all minerals as a free royalty to the State---. Provided, that one-eighth (1/8) of all sulphur---shall be reserved as a free royalty to the State.\u201d (Emphasis supplied.) In that instance, the State took a position similar to what it took in the Magnolia case, to wit, that notwithstanding the above-quoted provisions in the land sale statute, the sale could be made only with full reservation of all minerals. The court, however, rejected the contention and held Wintermann entitled to the surface and all the minerals subject to the royalties provided in the Act. The result was thus contrary, in a general sense, to that reached in the Stallcup and Magnolia cases, in both of which all of the minerals were held to be reserved in the sale.\nNeither the Stallcup dictum nor the Magnolia decision was criticized in the Wintermann case; and, indeed, the statutory situation in the latter was quite different from that in the others. For one\" thing, the 1931 Act expressly provided for royalties, and apparently the only reason advanced against the effectiveness of that provision was the absence of an express authorization for the land purchaser to make leases \u2014 a factor prominently mentioned in the Stallcup case in connection with the statute now before us and in the Magnolia case in connection with the 1925 Relief Act there involved. Now, the court did not expressly attach importance to the presence of the word \u201croyalty,\u201d and it did hold that the Relinquishment Act was not the governing statute for leases to be made by the purchaser. It stressed the point that, since the Relinquishment Act authorized leases by the purchaser as to oil and gas only, the purchaser under the 1931 Act before the court would get no interest in minerals other than oil and gas, if the 1931 Act should be held to reserve all minerals and the Relinquishment Act held to govern the leasing rights of the purchaser. However, it is difficult to escape the thought that the court had very much in mind the fact that this time it was dealing with a statute containing a clear-cut royalty reservation, which, of course, is vastly different in its benefits to the State from a mere mineral interest of the same fraction, which the earlier statutes in question seemed to reserve in the oil and gas. Ordinarily, where any grantor clearly reserves a royalty (and only that) the necessary implication would seem to be that, except to the extent of the royalty interest, the grantee gets all the minerals and has the right to make leases for their development. The further implication is that the grantor need do no developing of his or its reserved interest, since the reservation being a royalty, it contemplates that someone other than the grantor will provide the development. Thus, where the law clearly provides for a sale of State land with reservation of a mineral royalty, there is no need for any express provision of a mineral royalty, there is no need for any express provision authorizing the purchaser to lease or develop the minerals, nor any need for provision as to what the State shall do about developing its reserved interest. This is no doubt the real explanation of the Wintermann case, and the omission of the word \u201croyalty\u201d in the instant statute is thus a significant distinction between the Wintermann and instant cases.\nEven discounting the pertinent language of the Stallcup case as dictum (although the State itself has not always so discounted it), we feel that it and the Magnolia case require us to hold as we do. If it be true, as the State contends, that the latter case was rightly decided, but upon wrong grounds, those \u201cwrong\u201d grounds were yet the very ones the State then advanced, to wit, that despite the language of the 1925 Relief Act under which the sale was made and which is almost identical with that now in question, the sale reserved all the minerals, the latter to be developed by the purchaser leasing, under the Relinquishment Act, as agent for the State and under the other terms specified in the latter Act. It may well be that if the statute now in question and the 1925 Relief Act had contained language like that of the 1931 Act dealt with in Wintermann v. McDonald, the Magnolia case would have been differently decided, and the dictum of the Stallcup case would never have been written; but that does not authorize us now to rewrite the statutory language, however \u201cfree\u201d may have been some of our past statutory interpretations in the often confusing domain of the Texas public land laws.\nActually the most positive argument of the State seems to be, not that the Wintermann cas\u00e9 controls, but simply that the construction for which the State now contends is an established departmental construction. The length and breadth of this departmental construction are not altogether clear. As above indicated, the State, as late as the Wintermann case (1937), contended that even sales under the 1931 Act, which clearly stipulated a substantial state royalty, were yet with reservation of all the minerals and, prior to that time, had apparently never taken the position that Sec. 3 of the 1923 Act, here involved, established a royalty. Nor do we have a clear idea of when, how often or how publicly the present construction has been asserted, aside from the hereinafter mentioned Opinion No. 0-3675 of the Attorney General, evidently written about the middle of 1941. We do not know, for example, what was stated in the patents consequent upon the sales, although no doubt a large number of sales were converted into repurchases under the 1925 and subsequent relief acts, and the corresponding patents issued without incorporating purported royalty reservations such as now contended for.\nOpinion No. 0-3675, supra, written some 18 years after passage of the 1923 Act, does, indeed, assert the construction now contended for. It also discloses that the present construction was adopted in the face of the construction made in the once state approved dictum in the 1927 Stallcup case, supra. Incidentally, Opinion No. 0-3675 agrees with our own above comment on the 1937 Wintermann case, to the effect that the express reservation of a royalty, as made in the 1931 Act, implies a transfer to the grantee of the minerals from which the royalty arises, with the right of the grantee to make mineral leases accordingly.\nIf it be true, as the Attorney General suggests, that many people have acted on the strength of the departmental construction state, this would, so far as we can tell, be true largely in the sense that they may have relied on Opinion No. 0-3675. As to that possibility, we believe that the opinion itself discloses enough doubt on the subject to put the reader on notice that the Relinquishment Act rather than Sec. 3, supra, might be held to govern, as we hold it does.\nUnder the circumstances, we think our own decision in the Magnolia case, plus our statement obiter in the Stallcup case, outweighs the departmental construction.\nThe relator corporation is entitled to the writ of mandamus as prayed for, but, in accordance with our practice in such cases, actual issuance of the writ will be withheld pending voluntary compliance of the respondent Commissioner of the General Land Office with the law as hereinabove declared.\nOpinion delivered March 6, 1957.\n\u201cSec. 3. The sale of said land shall be upon the express condition that one-eighth of all the oil and gas, whether known or unknown, and the value of same and of all other minerals of whatsoever kind, whether known or unknown, that may hereafter be found on or under said land and the value of same, shall be reserved to the State and said portion of oil and gas and the value of same, together with all other minerals, and the value of same, are hereby donated to the said School Fund. Said oil and gas and other minerals shall be subject to be developed in the manner that is now, or that may be hereafter, provided by law.\u201d\n\u201cSec. 3.---One-sixteenth of the oil and gas, and all other minerals, in the land included herein, whether known or unknown, are expressly reserved to the public free school fund, in the event the former sale was with mineral reservation.\u201d",
+        "type": "majority",
+        "author": "Mr. Justice Garwood"
+      },
+      {
+        "text": "Mr. Justice Smith,\ndissenting.\nThis is a mandamus suit to compel the Land Commissioner to accept and file Relinquishment Form leases obtained by the relator and alleged to comply to the Relinquishment Act of 1919. The five tracts of land were all part of the Capitol Syndicate Lands which were recovered by the State as excess in the decision of Findlay v. State. These tracts were sold in 1924 and were classified as mineral by the Land Commissioner. No patents were issued under the 1924 purchase and in 1937 the land was forfeited for the nonpayment of interest. However, in 1937 an act was passed which gave the former owners of forfeited lands a preferential right of repurchase. In 1938 these former owners exercised their right to repurchase and patents to the land were duly issued.\nDue to the fact that these lands were sold in 1924 when the Act of 1923 was in effect, the primary question before the Court is the interpretation of the 1923 Act. This Act was considered in dicta by the Court in the case of Stallcup v. Robison, 1927, 117 Texas 189, 300 S.W. 24. The respondent states that it is mere dicta and not controlling. None the less the pertinent Sections of the 1923 Act are as follows:\n\u201cSection 1. Whatever land that may be recovered to the state finally in the suit now pending in the courts styled the State of Texas against George Findlay and others, is hereby appropriated to the permanent public school fund.\n\u201cSection 2. When said land shall have been recovered, segregated and set apart to the State, in the manner provided in the court\u2019s final decree, the Commissioner of the general land office shall have it surveyed and classify and value same, and offer it for sale and sell it in the manner and upon the terms and conditions now provided by law for the sale of surveyed school land, except, as provided herein.\n\u201cSection 3. The sale of said land shall be upon the express condition that one-eighth of all the oil and gas, whether known or unknown, and the value of same and all of all other minerals of whatsoever kind, whether known or unknown, that may hereafter be found on or under said (land) bond and the value of same, shall be reserved to the state and said portion of oil and gas and the value of same, together with all other minerals, and the value of same, are hereby donated to the said school fund. Said oil and gas and other minerals shall be subject to be developed in the manner that is now, or that may be hereafter, provided by law.\u201d\nFor support relator relies upon the Act of 1923 requiring a reservation of all of the minerals to the State regardless of the classification. Relator contends that by the dicta in the case of Stallcup v. Robison, 1927, 117 Texas 179, 300 S.W. 24, and makes the point that the necessary conclusion is that the State reserved all of the minerals regardless of the classification of the land. In that case the Attorney General contended that the 1923 Act gave the purchaser 7/8 of the minerals and the State retained 1/8 (thus releasing a part and retaining a part of the minerals). The Court stated in that case that they declined this theory because the 1923 Act did not provide for (1) anyone to contract or act for the State in reference to the mineral interest of the state and that (2) there was no method for the development of the State\u2019s share of the minerals. This decision was further buttressed by the decision of Magnolia Petroleum Co. v. Walker, 125 Texas 430, 83 S.W. 2d 929, where very similar language in the 1925 Act was construed. The Court stated the same reasons for the result. Therefore, the State intended to reserve all of the minerals and that their development was to be governed by the 1919 Relinquishment Act. This latter Act gave the purchaser title to the surface only and the right to lease the lands for mineral exploration as an agent of the State.\nRespondent answers relator\u2019s Points I and II with his Counter Point I, which is to the effect that since the Act of 1923 authorized the Land Commissioner to classify the lands, his classification thereof as mineral constituted a reservation of all the minerals to the State.\nRelator contends that in 1895 the Sales Act authorized the Land Commissioner to sell land which was classified as agriculture, timber, or grazing but the Mining Act, passed that same year, withdrew all mineral classified land from sale; that in 1907 the Commissioner was authorized to sell the surface of mineral classified lands but the title to the minerals would remain in the State; that the 1919 Act gave the purchaser of the surface the right to lease the minerals as an agent of the State; that this set the policy before the 1923 Act was passed. The relator further contends that Section 3 of the Act can be given full effect if it is construed to apply only to lands classified other than mineral or without a mineral classification. Therefore, the existing policy stated was not meant to be departed from and was not in fact departed from under this construction; that the Act of 1923 can be reconciled with the policy by recognizing that Section 3 of the 1923 Act is inapplicable if the Commissioner exercised his power to classify the land as mineral; that in such a case, the sale would be made in accordance with Section 2, which provides for sale in the manner and upon the terms and conditions now (then) provided by law for the sale of surveyed school land;\u201d that this view is further substantiated by the fact that the next year the legislature came in and passed the 1925 Act which repealed Section 3 of the 1923 Act; that the purchasers thus acquired no interest or title to the minerals where the land was classified as mineral; that the same was true of the 1925 Act, 1926 and 1937 Acts; that Section 3 of the 1923 Act merely provided for a minimum that must be reserved.\nWith these contentions I cannot agree.\nIn Magnolia Petroleum Co. v. Walker, 1935, 125 Texas 430, 83 S.W. 2d 929 the Court, in construing the 1925 Relief Act stated that the repurchaser obtained no greater interest than he had at the time of forfeiture. Therefore the question here is to determine what was the division of ownership between the State and the purchaser under the 1923 Act. The legislature evidently wanted to double the royalty provided for in the 1919 Act by reserving 1/8 instead of 1/16. It is true that in Greene v. Robison, 117 Texas 516, 8 S.W. 2d 655, the Court upheld the constitutionality of the 1919 Act and stated that all minerals were reserved to the State and that the surface owner was the State\u2019s leasing agent. However, during the interim (case decided 9 years after passage) it was considered that the State reserved only 1/16 and by the 1923 Act the legislature doubled this amount. The Land Commissioner has uniformly classified all lands as mineral since 1919. Since this is true, then all of the minerals are always reserved unless the legislature makes an exception, as it did in 1923. Under the 1919 Act land was classified into (1) Agriculture, (2) Grazing, and (3) Timber, for the purpose of valuing the same. Section 2 of the 1923 Act referred to these three classifications by the language: \u201chave it surveyed and classify and value the same\u201d and Section 2 had nothing to do with minerals but the minerals were specifically discussed in Section 3. The 1923 Act conveys the idea of a 1/8 reservation because similar language was used in Art. 5371 which was later amended by calling the reservation a \u201croyalty.\u201d The 1923 Act commands that not less than 1/8 be reserved. Relator suggests that Section 3 should be limited to non-mineral classified land. To adopt this interpretation would, in my opinion, render Section 3 meaningless. Certainly the legislature meant something by adopting Section 3 of the Act of 1923. The respondent urges upon the court that the holding in this case be within line with the long-time departmental construction which reserves 1/8 royalty to the state but allows no participation by the State in bonus or rentals, all of which go to the owner. The case of Wintermann v. McDonald, 129 Texas 275, 102 S.W. 2d 167, 104 S.W. 2d 4, upheld the 1931 Act stating that the Relinquishment Act did not apply, the Act of 1931 being sufficient unto itself. Under this decision, both the 1923 and 1931 Acts are independent self sufficient Acts. The fact that the long public policy had reserved all of the minerals to the State did not hamstring the Legislature so it could not provide for a partial reservation. The language \u201c1/8 of all the oil and gas * * * and of all other minerals * * *\u201d could not be clearer than to reserve part, not all of the oil and gas.\nThe Repurchase Act of 1925 limits the repurchaser to the same interest he owned at the time of forfeiture, making the 1919 Relinquishment Act inapplicable. Respondent relies upon the language of the Magnolia v. Walker case, supra, which stated that the repurchaser shall acquire no greater interest than he had at the time of forfeiture. To apply the Relinquishment Act to the repurchase is to grant to the surface owner, without additional compensation, a 1/16 royalty over and above the 7/8 minerals he got under the 1923 Act. The 1925 Act was a repurchase act and its purpose was to permit a repurchase of the original land and no more. It is shown by the facts in this case that there were five tracts of land involved and that the patents of one of these stated that \u201cthe minerals are reserved to the State\u201d and the other four stated that the minerals are \u201creserved to the State as prescribed by law.\u201d It is elementary that the State in granting the patents is bound by the laws authorizing the sale. It naturally follows that the granting of a greater estate in the minerals than the law permits would be void. The status of the title was fixed and determined by the 1923 Act, and the \u201cone-eighth of\u201d in Section 3 cannot be changed by judicial fiat to \u201cone-sixteenth.\u201d In Chancy v. State, 84 Texas 529, 19 S.W. 706, 709, this court stated the rule as follows:\n\u201cThe law prescribed the conditions on which persons might purchase lands, and determined the right of a person who had made a valid contract to purchase under it, and there is nothing in it evidencing an intention on the part of the legislature to give to the land board any power to annul or in any manner limit the effect of the law in these respects. Under the act the land board attempted to fix a minimum rental on school lands higher than that fixed by the legislature, and it was held that the board was not authorized thus, practically, to annul the statute. Smisson v. State, 71 Texas 222, 9 S.W. Rep. 112; Coleman v. Lord, 72 Texas 288, 10 S.W. Rep. 91. The regulations of the land board requiring settlement within 90 days was held inoperative, because a shorter term than the law prescribed. State v. Opperman, 74 Texas 141, 11 S.W. Rep. 1076. Laws can be made in this state only by the legislature, and it has no power to delegate to any board or other department of the government the power to annul laws enacted by it. The public school lands can be sold only \u2018under such regulations, at such times, and on such terms as may be prescribed by law.\u2019 Const. art. 7, Sec. 4.\u201d\nThe writer is not willing to accept relator\u2019s position on on this question. At the risk of repetition, I again say that although the court in Stallcup v. Robison interpreted the 1923 Act, it is apparent that they were not certain of their position. They knew that they were not on firm ground and recognized this by declaring that their construction of the 1923 Act was not necessary to the decision. In fact, they took the trouble to italicize in the opinion the following: [117 Texas 189, 197, 300 S.W. 27.]\n\u201cWe do not find it necessary to construe the act of 1923 aforesaid. For that reason, we do not construe it.\u201d\nFinally, to make certain that no one misunderstood what they were deciding in the case, the court once again set forth the following statement: [117 Texas 199, 300 S.W. 27.]\n\u201cWe decide but one thing, and that is that since the act of 1925, supra, became effective, the cap\u00edtol syndicate lands are to be sold with a reservation of all oil and gas to the state, * * *\u201d (All emphasis by the Court.)\nTherefore, the only effect of this language in construction of the Act of 1923 is that it is dicta and need not be followed by future courts. The opinion by the Commission of Appeals was adopted by the Supreme Court, but there is a strong probability that this was done only because of the italicized words. It therefore devolves upon us to consider those words in the same light in which the Supreme Court considered them at that time. The language would seem to indicate that something must be said about the 1923 Act in order to come to the conclusion and holding on the 1925 Act. Therefore, the construction on the 1923 Act was only a means to the end result, ie., an interpretation of the 1925 Act. The court, not certain about a correct construction of the 1923 Act, chose words which could not be taken as the law and a direct holding on the 1923 Act. We also must consider this language in the same way. It is nothing but dicta and not being particularly persuading to the court then, it is not persuading to me today. Likewise, the only holding necessary in the Magnolia case was that dealing with the Act of 1925 and not with the Act of 1923. Anything stated in that case in relation to the Act of 1923 was also dicta.\nAlthough it is not shown how much of the 59,281 acres of the Capitol Syndicate lands are to be affected by this decision, it is accepted that a considerable number of acres will, in fact, come within this ruling. To ascertain the exact lands to be affected would mean that examination must be made of all of the abstracts of the Capitol Syndicate lands. This would mean tremendous confusion for those who have relied upon the opinion of the Attorney General for the past fifteen years. The relator\u2019s lands are only approximately 2.7 % of the whole of the Capitol Syndicate lands. Yet the decision would seemingly affect the whole. The result of the majority decision would not only mean that the endless task of thorough examination of all abstracts of the Capitol Syndicate lands must take place, but also that our courts will be flooded with claims of reformation of existing leases and claims of reimbursement from the State. This decision also affects the large portions of land which were purchased by the United States Government under the conservation program. The United States Government does not have the power to lease the land as it cannot act as agent without authorization by Congress. The former landowners cannot lease this land despite the mineral reservations in their favor. Thus, the minerals on large portions go undeveloped and the State obtains no funds therefrom. If the departmental construction by the Attorney General is followed, which I believe to be th\u00e9 better view, the former landowner is thereby clothed with the power to lease these lands as agents of the State.\nThis Court should not be concerned with whether or not the State will ever reap any benefits if the State\u2019s contention is upheld. The 1923 Act is the sales act for the Capitol Syndicate lands. The proposed leases do not comply with the controlling applicable law. The provisions of the oil and gas leases comply only with the Relinquishment Act. The Commissioner of the General Land Office has properly refused to accept the leases for the reason that the Relinquishment Act set out in Articles 5367, etc., Vernon\u2019s Annotated Texas Civil Statutes, is not applicable to the land involved in this suit. The lands having been purchased under the 1923 Act, all leases by the landowner or his assigns must be subject to the 1/8 free royalty in favor of the State for the use and benefit of the Permanent School Fund. The landowner or assigns cannot claim \u201cno incentive\u201d for the execution of the leases, and most certainly the relator is not in a position to determine the maximum royalty to be paid to the State. The landowner, no doubt, will be adequately compensated by receipt of all cash bonuses and rentals which might be paid and provided for in all leases executed. The State does not share in either. It is common knowledge that in a great many instances where oil and gas leases are executed the cash bonuses and rentals are the only consideration ever recovered in the event oil is never developed. If the land is worth leasing it \u2022stands to reason that the average landowner would be in a position to demand a cash bonus and a rental sufficient to provide adequate compensation. Be that as it may, this Court is without power to legislate in the matter. Article 7, Section 4 of the Constitution authorizes the sale of school lands under such regulations, at such times, and on such terms as may be prescribed by law. There is nothing in the Constitution that would prevent any sort of mineral division between the State and a purchaser. For example, the division provided for in the Relinquishment Act gave the State 1/16 and in the 1923 Act 1/8 was reserved to the State. The language of the 1923 Act is clear, and the legislative intent is clear. \u201cLegislative grants of property rights or privileges must be construed strictly in favor of the State * * * and what ever is not unequivocally granted in clear and explicit terms is withheld. Any ambibuity or obscurity in the terms of the statute must operate in favor of the State. * * *\u201d Empire Gas & Fuel Co. v. State, 121 Texas 138, 47 S.W. 2d 265. See Magnolia Petroleum Co. v. Walker, 125 Texas 431, 83 S.W. 2d 929. I don\u2019t think the Legislature itself can grant relief or change the status of the title or rights as between the State and the purchaser. Article 7, Section 4 of the Constitution provides for sale of school lands on terms prescribed by law, and that \u201cthe Legislature shall not have power to grant any relief to purchasers thereof.\u201d To give away an extra 1/16 royalty would violate Article 3, Section 51, which forbids the Legislature to make or authorize grants of public moneys to individuals, etc. The extra gift of 1/16 royalty would also violate Article 7, Section 5 and Article 3, Section 53 of our State Constitution. Such action violates these constitutional safeguards for the reason that the rights of the purchaser and the State were fixed in 1924 under the terms of the 1923 Act. The original purchase was made in 1924, and that date constitutes the inception of ownership. In the case of MacRae v. MacRae, 144 S.W. 2d 320, Dr. MacRae bought the land involved from the State in 1917, prior to his marriage in 1920. The land was forfeited in 1925, and repurchased in 1928. In rejecting the claim of the wife that the property was community, the Court said \u201cthe inception of the title here involved was in the purchase of 1917. It follows that even after the repurchase of 1928, the land remained the separate property of Dr. MacRae. * * * It clearly appears that it was a repurchase as provided for in Art. 5326a.\u201d\nIn the case of Judkins v. Robison, 109 Texas 6, 160 S.W. 955, the Court, in discussing the 1913 Repurchase Act, said: \u201c* * * The plainly expressed intention of the Act was to extend to forfeiting owners * * * a distinct and additional remedy for the reinvestiture of such title as was possessed under the original purchase from the State. * * *\u201d The provisions of the 1923 Act warrant a holding by this Court that a purchaser under the Act received fee simple title to the surface and 7/8ths of the oil and gas, and that the State reserved for the School Fund l/8th of all the oil and gas in the nature of a free royalty and all of all other minerals; that the purchaser may sell or lease all or any part of his interest in the oil and gas or he may sell the surface and reserve all or any part of his interest in the oil and gas, but the owner or owners of the 7/8ths of the oil and gas, in the event of production from the land in question, must turn over to the State for the use of the Permanent School Fund l/8th of all of the oil and gas produced or the value of the same free and clear of any cost of development and production.\nThe writ of mandamus should be denied.\nOpinion delivered March 6, 1957.",
+        "type": "dissent",
+        "author": "Mr. Justice Smith,"
+      }
+    ],
+    "attorneys": [
+      "Jesse M. Davis and T. G. Johnson, of Tulsa, Okla., and Dan Moody, of Austin, for petitioners.",
+      "John Ben Shepperd, Attorney General, and J. Arthur Sandlin, Assistant Attorney General for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "Shell Oil Company v. J. Earl Rudder, Commissioner of the General Land Office of the State of Texas.\nNo. A-5955.\nDecided March 6, 1957.\n(299 S.W. 2d Series 686).\nJesse M. Davis and T. G. Johnson, of Tulsa, Okla., and Dan Moody, of Austin, for petitioners.\nJohn Ben Shepperd, Attorney General, and J. Arthur Sandlin, Assistant Attorney General for respondent."
+  },
+  "file_name": "0618-01",
+  "first_page_order": 630,
+  "last_page_order": 644
+}

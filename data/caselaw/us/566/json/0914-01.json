@@ -1,0 +1,59 @@
+{
+  "id": 12197607,
+  "name": "Wiggins v. United States",
+  "name_abbreviation": "Wiggins v. United States",
+  "decision_date": "2012-03-26",
+  "docket_number": "No. 11-8925",
+  "first_page": "914",
+  "last_page": "914",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 914"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.592,
+    "sha256": "c1391017db55226141a4f014529bd07c13f083b03fec2600fee70ec6b8490253",
+    "simhash": "1:b2ebca93cf9d911e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wiggins v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8925.\nWiggins v. United States."
+  },
+  "file_name": "0914-01",
+  "first_page_order": 790,
+  "last_page_order": 790
+}

@@ -1,0 +1,88 @@
+{
+  "id": 5997040,
+  "name": "In re Disbarment of Lapidus",
+  "name_abbreviation": "In re Disbarment of Lapidus",
+  "decision_date": "2010-10-12",
+  "docket_number": "No. D-2476",
+  "first_page": "958",
+  "last_page": "958",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 958"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "561 U. S. 1043",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12455893,
+        12455894,
+        12455895,
+        12455896,
+        12455897,
+        12455835,
+        12455836,
+        12455837,
+        12455838
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/177/1130-02",
+        "/l-ed-2d/177/1130-03",
+        "/l-ed-2d/177/1130-04",
+        "/l-ed-2d/177/1130-05",
+        "/l-ed-2d/177/1130-06",
+        "/l-ed-2d/177/1122-05",
+        "/l-ed-2d/177/1122-06",
+        "/l-ed-2d/177/1122-07",
+        "/l-ed-2d/177/1122-08"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 109,
+    "ocr_confidence": 0.638,
+    "sha256": "9207e3541111f9cf6a78a4c3970921a03848bdcaab87252f110c568b4aeeac96",
+    "simhash": "1:fcb8dae6ff020a67",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Lapidus."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see 561 U. S. 1043.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2476.\nIn re Disbarment of Lapidus."
+  },
+  "file_name": "0958-02",
+  "first_page_order": 980,
+  "last_page_order": 980
+}

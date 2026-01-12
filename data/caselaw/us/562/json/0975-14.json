@@ -1,0 +1,59 @@
+{
+  "id": 6015106,
+  "name": "Ramirez-Leonardo v. United States",
+  "name_abbreviation": "Ramirez-Leonardo v. United States",
+  "decision_date": "2010-10-12",
+  "docket_number": "No. 10-6394",
+  "first_page": "975",
+  "last_page": "975",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 975"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 82,
+    "ocr_confidence": 0.588,
+    "sha256": "4464d05423b3edb8b01142a7f97ff25f496ffecc00bf5c5c7ff710d0d3ad6102",
+    "simhash": "1:0589d383486cb048",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ramirez-Leonardo v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6394.\nRamirez-Leonardo v. United States."
+  },
+  "file_name": "0975-14",
+  "first_page_order": 997,
+  "last_page_order": 997
+}

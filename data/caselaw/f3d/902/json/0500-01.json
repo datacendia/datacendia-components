@@ -1,0 +1,921 @@
+{
+  "id": 12518449,
+  "name": "Marcus MOTE, Plaintiff-Appellee v. Debra WALTHALL, Defendant-Appellant.",
+  "name_abbreviation": "Mote v. Walthall",
+  "decision_date": "2018-08-31",
+  "docket_number": "No. 17-40754",
+  "first_page": "500",
+  "last_page": "510",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "902 F.3d 500"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "5th Cir.",
+    "id": 8820,
+    "name": "United States Court of Appeals for the Fifth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "522 F.3d 508",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3761577
+      ],
+      "pin_cites": [
+        {
+          "page": "511"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/522/0508-01"
+      ]
+    },
+    {
+      "cite": "399 S.W.3d 130",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7092797
+      ],
+      "weight": 2,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "134-35",
+          "parenthetical": "citing Tex. Gov't Code \u00a7\u00a7 617.001 -.003"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/399/0130-01"
+      ]
+    },
+    {
+      "cite": "441 U.S. 463",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1780225
+      ],
+      "weight": 3,
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "465"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/441/0463-01"
+      ]
+    },
+    {
+      "cite": "461 U.S. 138",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11298262
+      ],
+      "weight": 5,
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "140"
+        },
+        {
+          "page": "151-52"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/461/0138-01"
+      ]
+    },
+    {
+      "cite": "761 F.2d 1036",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        29366
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "1039"
+        },
+        {
+          "page": "1041-42"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/761/1036-01"
+      ]
+    },
+    {
+      "cite": "507 F.2d 245",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        129923
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "262"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/507/0245-01"
+      ]
+    },
+    {
+      "cite": "429 U.S. 274",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8150
+      ],
+      "weight": 3,
+      "year": 1977,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/429/0274-01"
+      ]
+    },
+    {
+      "cite": "416 U.S. 802",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        84454
+      ],
+      "weight": 4,
+      "year": 1974,
+      "pin_cites": [
+        {
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/416/0802-01"
+      ]
+    },
+    {
+      "cite": "989 F.2d 745",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10515014
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "749"
+        },
+        {
+          "page": "749"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/989/0745-01"
+      ]
+    },
+    {
+      "cite": "301 F.3d 240",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11417984
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "249"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/301/0240-01"
+      ]
+    },
+    {
+      "cite": "658 F.2d 1021",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        474421
+      ],
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "1027"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/658/1021-01"
+      ]
+    },
+    {
+      "cite": "377 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6164869
+      ],
+      "weight": 5,
+      "year": 1964,
+      "pin_cites": [
+        {
+          "page": "5-6"
+        },
+        {
+          "page": "5-6"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/377/0133-01"
+      ]
+    },
+    {
+      "cite": "730 F.2d 258",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        15659
+      ],
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "262"
+        },
+        {
+          "page": "262"
+        },
+        {
+          "page": "262"
+        },
+        {
+          "page": "262"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/730/0258-01"
+      ]
+    },
+    {
+      "cite": "408 U.S. 169",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1782829
+      ],
+      "weight": 3,
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "181"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/408/0169-01"
+      ]
+    },
+    {
+      "cite": "357 U.S. 449",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6163673
+      ],
+      "weight": 3,
+      "year": 1958,
+      "pin_cites": [
+        {
+          "page": "460-61"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/357/0449-01"
+      ]
+    },
+    {
+      "cite": "431 U.S. 209",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1929
+      ],
+      "weight": 3,
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "233-34",
+          "parenthetical": "citing, inter alia, NAACP v. Ala. ex rel. Patterson , 357 U.S. 449, 460-61, 78 S.Ct. 1163, 2 L.Ed.2d 1488 (1958) "
+        },
+        {
+          "parenthetical": "citing, inter alia, NAACP v. Ala. ex rel. Patterson , 357 U.S. 449, 460-61, 78 S.Ct. 1163, 2 L.Ed.2d 1488 (1958) "
+        },
+        {
+          "parenthetical": "citing, inter alia, NAACP v. Ala. ex rel. Patterson , 357 U.S. 449, 460-61, 78 S.Ct. 1163, 2 L.Ed.2d 1488 (1958) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/431/0209-01"
+      ]
+    },
+    {
+      "cite": "490 U.S. 19",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        605928
+      ],
+      "weight": 3,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "25"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/490/0019-01"
+      ]
+    },
+    {
+      "cite": "530 U.S. 640",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9414133
+      ],
+      "weight": 4,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "648"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/530/0640-01"
+      ]
+    },
+    {
+      "cite": "205 F.3d 203",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11456322
+      ],
+      "pin_cites": [
+        {
+          "page": "204-05"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/205/0203-01"
+      ]
+    },
+    {
+      "cite": "536 U.S. 730",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1255220
+      ],
+      "weight": 3,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "740"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/536/0730-01"
+      ]
+    },
+    {
+      "cite": "848 F.3d 678",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12277641
+      ],
+      "pin_cites": [
+        {
+          "page": "686"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/848/0678-01"
+      ]
+    },
+    {
+      "cite": "330 F.3d 681",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9123944
+      ],
+      "pin_cites": [
+        {
+          "page": "687"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/330/0681-01"
+      ]
+    },
+    {
+      "cite": "567 F.3d 156",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3650316
+      ],
+      "pin_cites": [
+        {
+          "page": "166"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/567/0156-01"
+      ]
+    },
+    {
+      "cite": "136 S.Ct. 305",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12599545
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "308"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/136/0305-01"
+      ]
+    },
+    {
+      "cite": "196 L.Ed.2d 463",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "year": 2017,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "137 S.Ct. 548",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12608520
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "551-52",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/137/0548-01"
+      ]
+    },
+    {
+      "cite": "848 F.3d 384",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12277471
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "394"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/848/0384-01"
+      ]
+    },
+    {
+      "cite": "563 U.S. 731",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5924024,
+        12459540
+      ],
+      "weight": 9,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "742",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "742"
+        },
+        {
+          "page": "741"
+        },
+        {
+          "page": "741"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/563/0731-01",
+        "/l-ed-2d/179/1149-01"
+      ]
+    },
+    {
+      "cite": "134 S.Ct. 2012",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12580905,
+        12707006
+      ],
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "2023"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/134/2012-01",
+        "/us/572/0765-01"
+      ]
+    },
+    {
+      "cite": "572 U.S. 765",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12707006
+      ],
+      "year": 2014,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/572/0765-01"
+      ]
+    },
+    {
+      "cite": "555 U.S. 223",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3679212
+      ],
+      "weight": 3,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "236"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/555/0223-01"
+      ]
+    },
+    {
+      "cite": "659 F.3d 359",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6050015
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "371"
+        },
+        {
+          "page": "382"
+        },
+        {
+          "page": "372"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/659/0359-01"
+      ]
+    },
+    {
+      "cite": "776 F.3d 368",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6887637
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "377"
+        },
+        {
+          "page": "383"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/776/358-368-01"
+      ]
+    },
+    {
+      "cite": "723 F.3d 586",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4064673
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "598"
+        },
+        {
+          "page": "597-98"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/723/0586-01"
+      ]
+    },
+    {
+      "cite": "468 U.S. 609",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11339552
+      ],
+      "weight": 8,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "622"
+        },
+        {
+          "page": "622"
+        },
+        {
+          "page": "619"
+        },
+        {
+          "page": "618"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/468/0609-01"
+      ]
+    },
+    {
+      "cite": "382 F.3d 529",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        2190421
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "539"
+        },
+        {
+          "page": "539"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/382/0529-01"
+      ]
+    },
+    {
+      "cite": "620 F.3d 529",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3782459
+      ],
+      "pin_cites": [
+        {
+          "page": "531"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/620/0529-01"
+      ]
+    },
+    {
+      "cite": "569 F.3d 214",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3659192
+      ],
+      "pin_cites": [
+        {
+          "page": "217"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/569/0214-01"
+      ]
+    },
+    {
+      "cite": "227 F.3d 316",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11188912
+      ],
+      "pin_cites": [
+        {
+          "page": "320"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/227/0316-01"
+      ]
+    },
+    {
+      "cite": "722 F.3d 725",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4063358
+      ],
+      "pin_cites": [
+        {
+          "page": "731"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/722/0725-01"
+      ]
+    },
+    {
+      "cite": "472 U.S. 511",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1512327
+      ],
+      "weight": 4,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "526-27"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/472/0511-01"
+      ]
+    },
+    {
+      "cite": "800 F.3d 154",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6055128
+      ],
+      "pin_cites": [
+        {
+          "page": "167"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/800/0154-01"
+      ]
+    },
+    {
+      "cite": "367 F.3d 337",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9246988
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "348"
+        },
+        {
+          "page": "347"
+        },
+        {
+          "page": "350"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/367/0337-01"
+      ]
+    },
+    {
+      "cite": "42 U.S.C. \u00a7 1983",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1352,
+    "char_count": 28071,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2590550646002914
+    },
+    "sha256": "8bae27f8176be89e0f9e9ac22b70c8c6521e4ce32ffecfc43920aa6a1166af9b",
+    "simhash": "1:64d186ef8a371f93",
+    "word_count": 4379
+  },
+  "last_updated": "2024-02-27T18:45:41.136864+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before DAVIS, HAYNES, and DUNCAN, Circuit Judges."
+    ],
+    "parties": [
+      "Marcus MOTE, Plaintiff-Appellee\nv.\nDebra WALTHALL, Defendant-Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "W. EUGENE DAVIS, Circuit Judge:\nThe opinion issued August 31, 2018 is withdrawn, and the following is substituted therefor:\nPolice Chief Debra Walthall challenges the district court's rejection of her qualified immunity defense. Walthall asserted this defense to a suit by Police Officer Marcus Mote under 42 U.S.C. \u00a7 1983 for wrongfully terminating him for exercising his First Amendment rights in connection with his efforts to organize a police association of members of the City of Corinth, Texas, Police Department. We agree with the district court that Mote's association and speech rights to engage in the activities he alleged were clearly established. We therefore AFFIRM the district court's denial of summary judgment on the basis of qualified immunity.\nI. Background\nMarcus Mote (\"Mote\") served as a police officer for the City of Corinth, Texas, Police Department (\"Corinth PD\" or \"the department\") from 2009 to 2015. During this time, Debra Walthall (\"Walthall\") served as Chief of Police for the Corinth PD. In January of 2015, Mote and his colleague Corporal Jason Foutch approached Walthall about starting a new Corinth police officers' association affiliated with the Texas Municipal Police Association (\"TMPA\"), which would ultimately be known as the Corinth Police Officers' Association (\"CPOA\"). Mote met with Walthall to request her support for the organization of the association. At the meeting, Mote detailed the association's vision and mission statement, explaining that the association would exist to \"support the officers, their families, and the community.\"\nWalthall indicated at the meeting that, as long as the association \"stayed positive and true to this mission statement,\" she would support it. Mote then emailed the department employees-including all sergeants, corporals, and rank-and-file officers-stating the association's mission statement and seeking their support. Mote represented that Walthall had given her support. In the next few days, several sergeants came to Mote stating that they had taken a copy of Mote's email to Walthall, who had denied having had a discussion with Mote either about the association's mission statement or about her support of the association.\nMote again met with Walthall. In that meeting, Walthall denied having had the earlier discussion with Mote about the association and its mission and denied offering her support. Again, Mote reiterated the mission statement of the association, and, again, Walthall gave her blessing, contingent on the association staying positive, but noted that if the association became negative \"things will get ugly.\" Mote asked Walthall to issue a statement or email to the department to clarify her position, which she agreed to do, but never did. In the days following Mote's email, Sergeants Clint Ventrca and Kevin Tyson expressed their displeasure about the association to Mote in heated conversations.\nOn February 11, 2015, Mote held an informational meeting for interested officers at a local restaurant. At this meeting, conducted with assistance from the TMPA, the prospective membership voted to establish the CPOA and its bylaws, limited its membership to corporals and lower-ranked officers, and selected its board members, with Mote being elected to the board as treasurer. On March 30, 2015, Mote filed the CPOA's certificate of formation with the Texas Secretary of State. He included the purpose of the new non-profit corporation in the certificate, which reads as follows:\nThe corporation shall be a voluntary nonprofit organization composed of peace officers and civilian employees of the Corinth Police Department, Corinth, Denton County, Texas. The corporation is organized for the general purposes of promoting benevolent, charitable, educational, civic, and fraternal activities among its members. In addition, the corporation is organized to preserve and strengthen camaraderie among its members; to improve the wages, hours of work, job security, working conditions, and living conditions of its members and their families; to promote the health, security, economic, cultural, legislative, educational, social, political, and recreational interest of its members and their families; to protect the civil rights and liberties of its members and their families; to assert a positive influence on the citizens and the community in which we serve; and to receive, gather, and disseminate such information as might be helpful to the members in the performance of their duties.\nSoon after Mote began organizing the CPOA, Mote and other CPOA board members began getting written reprimands by the Corinth PD for what Mote considered petty violations, such as having a dirty squad car and failing to notify communications about off-duty assignments. Also, Mote alleges that several of his superior officers were strongly opposed to the association and complained to him about his efforts to organize it. He further alleges that the sergeants intimidated the rank-and-file and pressured them not to join the CPOA. Several officers approached Mote to tell him that, though they were interested in becoming a part of the CPOA, they feared retaliation for doing so.\nMote was also disciplined for two more serious incidents. In the first incident, Mote received a written reprimand on July 30, 2014, for using the Texas Law Enforcement Telecommunication System without permission to review the driver's licenses of approximately forty guests attending Lake Dallas High School's prom while Mote was serving as the high school's School Resources Officer (\"SRO\"). As a result, he was removed from the position of SRO.\nIn the second incident, Corinth PD determined, pursuant to an internal affairs investigation, that Mote violated several department policies by failing to act properly in the investigation of two intoxicated juveniles he observed outside a resident's home while on patrol. On the recommendation of internal affairs and after a pre-disciplinary hearing on the second incident, Walthall terminated Mote on October 20, 2015. The Acting City Manager upheld Mote's termination on appeal on December 23, 2015.\nIn February 2016, Mote filed suit against Walthall, alleging that he was terminated for exercising his First Amendment association and speech rights, as well as his procedural due process and equal protection rights pursuant to 42 U.S.C. \u00a7 1983. He also alleged statutory violations of Texas Government Code \u00a7 614.021 and Texas Labor Code \u00a7 101.301. He later withdrew his procedural due process claim.\nWalthall filed a motion for summary judgment seeking dismissal of all of Mote's claims. The district court, in a lengthy opinion, granted summary judgment in favor of Walthall on Mote's equal protection and Texas Government Code \u00a7 614.021 claims but denied summary judgment as to Mote's Texas Labor Code \u00a7 101.301 claim, his First Amendment claims, and Walthall's qualified immunity defense. The district court found material issues of fact as to whether Mote's speech and association rights were a substantial motivating factor for Mote's termination. The district court specifically held that Mote's association and speech rights were clearly established. This appeal is limited to Walthall's challenge to that legal conclusion.\nWalthall timely filed a notice of appeal disputing the district court's denial of qualified immunity with respect to Mote's First Amendment claims.\nII. Jurisdiction and Standard of Review\nPre-trial denials of qualified immunity are immediately appealable as collateral orders because \"qualified immunity includes immunity from suit-a right not to stand trial that would be 'effectively lost if a case is erroneously permitted to go to trial.' \" Thus, this Court has limited interlocutory jurisdiction \"to review pure questions of law arising from the denial of motions to dismiss and motions for summary judgment in which public officials asserted qualified immunity as a defense.\"\nThe only pure legal question we may answer at the qualified immunity stage is \"whether a given course of conduct would be objectively unreasonable in light of clearly established law.\" This Court has \"jurisdiction only to decide whether the district court erred in concluding as a matter of law that officials are not entitled to qualified immunity on a given set of facts.... '[W]e can review the materiality of any factual disputes, but not their genuineness. ' \"\nWithin this limited appellate jurisdiction, \"[t]his court reviews a district court's denial of a motion for summary judgment on the basis of qualified immunity in a \u00a7 1983 suit de novo.\"\nIII. Qualified Immunity\n\"Qualified immunity shields a government official from liability based on his performance of discretionary functions.\" Our two-step qualified-immunity inquiry determines whether a plaintiff has shown: \"(1) that the official violated a statutory or constitutional right, and (2) that the right was 'clearly established' at the time of the challenged conduct.\" Generally, the Court exercises its \"sound discretion in deciding which of the two prongs of the qualified immunity analysis should be addressed first in the light of the circumstances in the particular case at hand.\" Walthall has confined her interlocutory appeal entirely to the clearly-established prong of the qualified immunity analysis, and we confine our analysis accordingly.\n\"A right is clearly established only if 'the right's contours were sufficiently definite that any reasonable official in the defendant's shoes would have understood that he was violating it.' \" The Supreme Court has admonished courts \"not to define clearly established law at a high level of generality.\" Indeed, \"existing precedent must have placed the statutory or constitutional question\" confronted by the official \"beyond debate.\" Although we need not have a case that is directly on point, the contours of the right must be established by controlling authority or a \"robust consensus of persuasive authority.\" The fundamental concept promoted by requiring particularity is \"fair warning\" to government officials. The law can be clearly established \"despite notable factual distinctions between the precedents relied on and the cases then before the Court, so long as the prior decisions gave reasonable warning that the conduct then at issue violated constitutional rights.\"\nA. Freedom of Association\nThough not expressly included in the text of the amendment, \"[i]mplicit in the right to engage in First Amendment-protected activities is 'a corresponding right to associate with others in pursuit of a wide variety of political, social, economic, educational, religious, and cultural ends.' \" The Supreme Court has identified two classes of associations endowed with First Amendment protection: expressive associations and intimate associations.\nThe record reflects beyond dispute that, if the CPOA is protected by freedom of association at all, it is protected as an expressive association. Intimate associations generally refer to the kinds of relationships that \"attend the creation and sustenance of a family,\" such as marital or parental relationships. Expressive associations exist \"for the purpose of engaging in those activities protected by the First Amendment-speech, assembly, petition for the redress of grievances, and the exercise of religion.\" Such associations involve \"collective effort on behalf of shared goals.\" We therefore analyze whether the CPOA is a protected expressive association.\nIn determining whether the First Amendment shields a particular association, courts first \"determine whether the group engages in 'expressive association,' \" whether public or private. Though an expressive association includes political advocacy, classification as such \"is not reserved\" for political advocacy groups. But the Constitution does not recognize a \"generalized right of 'social association.' \"\nThe First Amendment protects the right of all persons to associate together in groups to \"advanc[e] beliefs and ideas.\" Put another way, \"the [F]irst [A]mendment protects the right of all persons to associate together in groups to further their lawful interests.\" When groups gather together for this purpose, \"it cannot be seriously doubted\" that they comprise associations protected by the First Amendment.\nAdditionally, \"[a] fundamental proposition in our constitutional jurisprudence is that government employment may not be conditioned upon a relinquishment of a constitutional right, including the rights to speech and association guaranteed under the First Amendment.\" It is also well established in this Circuit that:\nTh[e] right of association encompasses the right of public employees to join unions and the right of their unions to engage in advocacy and to petition government in their behalf. Thus, the First Amendment is violated by state action whose purpose is either to intimidate public employees from joining a union or from taking an active part in its affairs or to retaliate against those who do.\nThese \"protected First Amendment rights flow to unions as well as to their members and organizers.\"\nWalthall and Mote agree that unions are protected organizations under the First Amendment. However, Walthall argues that this is irrelevant in this case because the CPOA could not engage in collective bargaining under Texas law so it was not a union. In light of its non-union status, she argues, the CPOA is not protected as an association because there is \"no controlling or persuasive authority holding that a local, non-union, non-labor association\" is a protected association. Mote responds by citing precedent concerning unions and other organizations that he contends clearly establishes that the association with the CPOA is protected by the First Amendment, notwithstanding the CPOA's inability to engage in collective bargaining.\nWe agree with Mote that Walthall's argument that First Amendment protection must be denied to Mote because the CPOA cannot collectively bargain and may not meet the technical definition of a union must be rejected.\nIn Professional Association of College Educators (\"PACE\") v. El Paso Community College District , PACE, an association of college faculty members, sued a Texas state college for \"engag[ing] in a deliberate program to retaliate against [its] members and officers for the purpose of destroy[ing] the effectiveness and proper functioning of PACE as an agent for its members.\" A former dean at the college and founder of the El Paso Community College District Association of Administrators (\"AA\"), PACE's sister organization of college administrators, also sued, alleging that he had been terminated in violation of his First Amendment association rights. PACE's claims were dismissed before trial. The former dean went to trial and was awarded damages but was denied reinstatement. PACE and the former dean appealed.\nIn finding that PACE had successfully stated a claim upon which relief could be granted, the panel reasoned:\nThe issue is not, as the defendants appear to argue, whether a public employer is required to deal with a union or other employee association but whether ... the state may set out to injure or destroy an association of public employees for the purpose of preventing the exercise of their First Amendment rights.\nReasoning that the \"[F]irst [A]mendment protects the right of all persons to associate together in groups to further their lawful interests,\" the Court concluded that the state may not set out to injure or destroy such a group. The Court also upheld the former dean's damages award, reasoning that a jury was entitled to conclude that his termination was motivated by his exercise of associational rights with AA. The opinion leaves no doubt that public employees are entitled to First Amendment protection for their membership in \"association[s] of public employees.\"\nIn Vicksburg Firefighters Assoc., Local 1686 v. City of Vicksburg , we concluded that, based on the Connick v. Myers line of cases, the City of Vicksburg could prevent captains in the Vicksburg Fire Department from associating with \"a voluntary unincorporated labor organization\" comprised of rank-and-file officers because Vicksburg had a legitimate concern with maintaining the loyalty of its supervisors. The Court, however, made it clear that nothing would prevent the captains from forming their own association.\nThe question for us, similar to that which we addressed in PACE , is not whether the City of Corinth is required to collectively bargain with the CPOA but whether Walthall may interfere with or injure this association of public employees and prevent the rank-and-file members of the Corinth PD from enjoying the benefits of the association. PACE, AA, and the CPOA are strikingly similar in function and design; each are or were comprised of public employees gathered to protect and promote their own interests. Here, as in PACE , we conclude that Mote's right to associate does not depend on the City's obligation to collectively bargain with the CPOA. Further, Vicksburg demonstrates that Mote had a clearly established First Amendment right to associate with the CPOA, a employee association.\nThe reasoning in PACE reinforces the Supreme Court's admonition that, though union and associational rights are protected, \"the First Amendment does not impose any affirmative obligation on the government to listen, to respond or, in this context, to recognize the association and bargain with it.\"\nAs an extension of that principle, First Amendment associational protection does not turn on whether a group meets the statutory technical definition of a labor union. Here, the CPOA organized to:\nimprove the wages, hours of work, job security, working conditions, and living conditions of its members and their families; to promote the health, security, economic, cultural, legislative, educational, social, political, and recreational interest of its members and their families; [and] to protect the civil rights and liberties of its members and their families.\nThese reflect the classic goals of an expressive association gathered \"to further [its members'] lawful interests.\" As a result, whether First Amendment protection attends to Mote's association rights with the CPOA \"cannot be seriously doubted.\" Therefore, the district court did not err in denying Walthall qualified immunity as to Mote's First Amendment freedom-of-association claim.\nWe turn now to Walthall's arguments regarding Mote's closely related freedom-of-speech claims.\nB. Freedom of Speech\nOur sole inquiry here is whether Mote's rights were \"clearly established\" at the time of the challenged conduct. We conclude that Mote's right to speak in furtherance of forming the CPOA was clearly established as an integral part of his association rights. The speech Mote alleges-his communication of the mission statement and purpose of the CPOA in two in-person meetings, his speech in the email to his colleagues, and his speech while participating in the CPOA meetings cannot be separated from his association rights. After all, this kind of speech is required to organize an expressive association of this nature and is subsumed within his association claim.\nIV. Conclusion\nFor the above reasons, we agree with the district court that Mote's association and speech rights to engage in the activities he alleged were clearly protected. We therefore AFFIRM the denial of summary judgment as to Mote's First Amendment association and speech rights.\nWe accept Mote's factual account as true for the purposes of this interlocutory appeal. See Kinney v. Weaver , 367 F.3d 337, 348 (5th Cir.2004) (en banc).\nCarroll v. Ellington , 800 F.3d 154, 167 (5th Cir.2015) (quoting Mitchell v. Forsyth , 472 U.S. 511, 526-27, 105 S.Ct. 2806, 86 L.Ed.2d 411 (1985) ).\nId.\nId. at 168 (quoting Hogan v. Cunningham , 722 F.3d 725, 731 (5th Cir.2013) ).\nKinney , 367 F.3d at 347 (quoting Wagner v. Bay City , 227 F.3d 316, 320 (5th Cir.2000) ).\nCollier v. Montgomery , 569 F.3d 214, 217 (5th Cir.2009).\nMote also argues that Walthall failed to move for summary judgment on her qualified-immunity defense of Mote's First Amendment association claims below. \"The general rule of this [C]ourt is that arguments not raised before the district court are waived and will not be considered on appeal.\" Celanese Corp. v. Martin K. Eby Constr. Co., Inc. , 620 F.3d 529, 531 (5th Cir.2010). In her district court summary-judgment motion, Walthall references \"forming an association,\" and, throughout her arguments in that motion, she refers collectively to Mote's \"First Amendment\" rights. As his First Amendment rights encompass both his free speech and his association rights, Walthall sufficiently raised her qualified immunity defense below as to Mote's association rights. See Collins v. Ainsworth , 382 F.3d 529, 539 (5th Cir.2004) (citing Roberts v. United States Jaycees , 468 U.S. 609, 622, 104 S.Ct. 3244, 82 L.Ed.2d 462 (1984) ); U.S. Const . amend I (states may not \"abridg[e] the freedom of speech\").\nHaverda v. Hays Cty. , 723 F.3d 586, 598 (5th Cir.2013).\nTrent v. Wade , 776 F.3d 368, 377 (5th Cir.2015) (quoting Morgan v. Swanson , 659 F.3d 359, 371 (5th Cir.2011) (en banc) ).\nPearson v. Callahan , 555 U.S. 223, 236, 129 S.Ct. 808, 172 L.Ed.2d 565 (2009).\nTrent , 776 F.3d at 383 (quoting Plumhoff v. Rickard , 572 U.S. 765, 134 S.Ct. 2012, 2023, 188 L.Ed.2d 1056 (2014) ).\nAshcroft v. al-Kidd , 563 U.S. 731, 742, 131 S.Ct. 2074, 179 L.Ed.2d 1149 (2011) (internal quotation marks omitted). It may be that this high standard is not applicable in First Amendment cases. We recently remarked in another First Amendment case, Davidson v. City of Stafford , 848 F.3d 384 (5th Cir.2017) :\nOn the second prong of the qualified immunity defense, recent Supreme Court decisions addressing claims for excessive force have \"reiterate[d] the longstanding principle that 'clearly established law' should not be defined 'at a high level of generality.' \" White v. Pauly , --- U.S. ----, 137 S.Ct. 548, 551-52, 196 L.Ed.2d 463 (2017) (per curiam) (quoting al-Kidd , 563 U.S. at 742, 131 S.Ct. 2074 ); see also Mullenix v. Luna , --- U.S. ----, 136 S.Ct. 305, 308, 193 L.Ed.2d 255 (2015). Our cases outside the excessive force area involving warrantless arrests and limits on speech have not specifically mentioned this aspect of Supreme Court cases. See, e.g., Deville v. Marcantel , 567 F.3d 156, 166 (5th Cir.2009) ; Evett v. DETNTFF , 330 F.3d 681, 687 (5th Cir.2003).\n848 F.3d at 394. But we recited the \"high level of generality\" standard in another First Amendment case soon thereafter. See Turner v. Lieutenant Driver , 848 F.3d 678, 686 (5th Cir.2017). Because we believe, as shown below, that the First Amendment law here meets this higher standard, we need not analyze whether the \"high level of generality\" language perforce applies to cases outside of the excessive force line of cases.\nal-Kidd , 563 U.S. at 741, 131 S.Ct. 2074.\nTrent , 776 F.3d at 383 ; al-Kidd , 563 U.S. at 741, 131 S.Ct. 2074.\nMorgan , 659 F.3d at 382.\nId. at 372.\nKinney , 367 F.3d at 350 (quoting Hope v. Pelzer , 536 U.S. 730, 740, 122 S.Ct. 2508, 153 L.Ed.2d 666 (2002) ).\nCollins , 382 F.3d at 539 (quoting Roberts , 468 U.S. at 622, 104 S.Ct. 3244 ); see U.S. Const . amend I (states may not \"abridg[e] the freedom of speech\").\nKipps v. Caillier , 205 F.3d 203, 204-05 (5th Cir.2000).\nRoberts , 468 U.S. at 619, 104 S.Ct. 3244.\nId. at 618.\nBoy Scouts of Am. v. Dale , 530 U.S. 640, 648, 120 S.Ct. 2446, 147 L.Ed.2d 554 (2000).\nId.\nCity of Dallas v. Stanglin , 490 U.S. 19, 25, 109 S.Ct. 1591, 104 L.Ed.2d 18 (1989).\nAbood v. Detroit Bd. of Ed. , 431 U.S. 209, 233-34, 97 S.Ct. 1782, 52 L.Ed.2d 261 (1977) (citing, inter alia, NAACP v. Ala. ex rel. Patterson , 357 U.S. 449, 460-61, 78 S.Ct. 1163, 2 L.Ed.2d 1488 (1958) ); Healy v. James , 408 U.S. 169, 181, 92 S.Ct. 2338, 33 L.Ed.2d 266 (1972).\nProf'l Ass'n of Coll. Educators, TSTA/NEA v. El Paso Cty. Cmty. Coll. Dist. , 730 F.2d 258, 262 (5th Cir.1984).\nBhd. of R. R. Trainmen v. Va. ex rel. Va. State Bar , 377 U.S. 1, 5-6, 84 S.Ct. 1113, 12 L.Ed.2d 89 (1964).\nWilson v. Taylor , 658 F.2d 1021, 1027 (5th Cir. Unit B. 1981).\nHitt v. Connell , 301 F.3d 240, 249 (5th Cir.2002) (quoting Boddie v. City of Columbus , 989 F.2d 745, 749 (5th Cir.1993) ).\nProf'l Ass'n of Coll. Educators , 730 F.2d at 262 (quoting Allee v. Medrano , 416 U.S. 802, 819 n.13, 94 S.Ct. 2191, 40 L.Ed.2d 566 (1974) ).\nId. (internal quotation marks omitted).\nId. at 261, 263-64.\nId. at 261.\nId.\nId. at 262 (emphasis added).\nId. at 263.\nSee id. at 264-67 (noting that the decision in Mt. Healthy City Sch. Dist. v. Doyle , 429 U.S. 274, 97 S.Ct. 568, 50 L.Ed.2d 471 (1977) overturned an earlier Fifth Circuit case, Robison v. Wichita Falls & N. Tex. Comty. Action Corp. , 507 F.2d 245 (5th Cir.1975), which held that a discharged public employee who had received due process in a hearing was not entitled to a full trial on his claim that the discharge was motivated by his exercise of First Amendment rights).\nSee generally id. at 262.\nVicksburg Firefighters Ass'n, Local 1686 Int'l Ass'n of Firefighters, AFL-CIO, CLC v. City of Vicksburg , 761 F.2d 1036, 1039, 1041 n.4, 1043 (5th Cir.1985) (citing Connick v. Myers , 461 U.S. 138, 140, 103 S.Ct. 1684, 75 L.Ed.2d 708 (1983) ); see also Connick , 461 U.S. at 151-52, 103 S.Ct. 1684 (noting that the \"efficient and successful\" operation of the government office in that case was an important government interest permitting intrusion on First Amendment rights).\nVicksburg Firefighters Ass'n , 761 F.2d at 1041-42.\nSee Prof'l Assoc'n of Coll. Educators , 730 F.2d at 262.\nSee id.\nSee id.\nSee Vicksburg Firefighters Ass'n , 761 F.2d at 1038 ; see also Hitt , 301 F.3d at 249 ; Boddie , 989 F.2d at 749.\nSmith v. Ark. State Highway Emps., Local 1315 , 441 U.S. 463, 465, 99 S.Ct. 1826, 60 L.Ed.2d 360 (1979).\nIn fact, the Texas Supreme Court recognized in City of Round Rock v. Rodriguez , that-generally-unions of public employees are prohibited from entering into collective bargaining agreements. 399 S.W.3d 130, 134-35 (Tex. 2013) (citing Tex. Gov't Code \u00a7\u00a7 617.001 -.003). This strongly suggests that, under Texas law, the ability to collectively bargain is not necessary to establish the existence of a protected expressive association. Id. ; see also Tex. Lab. Code \u00a7 101.101(3) (defining a labor union as \"an incorporated or unincorporated association , group, union, lodge, local, branch, or subordinate organization of a union of working persons organized and existing to protect those persons and to improve their working conditions, wages, or employment relationships, but does not include an organization not commonly regarded as a labor union\" (emphasis added) ).\nSee Prof'l Ass'n of Coll. Educators , 730 F.2d at 262.\nSee Bhd. of R. R. Trainmen , 377 U.S. at 5-6, 84 S.Ct. 1113.\nWalthall also argues that the district court failed to define Mote's speech rights with the requisite particularity. In Haverda v. Hays County , we found that a corrections officer was unlawfully terminated due to political opinions expressed in a letter to the local newspaper. 723 F.3d at 597-98. In reversing the district court's grant of qualified immunity, the panel noted only that \"there is no doubt that [the officer] had a clearly established constitutional right not to be fired for engaging in protected speech.\" Id. at 598 (citing Charles v. Grief , 522 F.3d 508, 511 (5th Cir.2008) ). The district court's formulation below is nearly indistinguishable-in fact, it gives more detail. This argument fails.",
+        "type": "majority",
+        "author": "W. EUGENE DAVIS, Circuit Judge:"
+      }
+    ],
+    "attorneys": [
+      "David K. Watsky, Christopher David Livingston, Esq., Lyon, Gorsky & Gilbert, L.L.P., Dallas, TX, for Plaintiff-Appellee.",
+      "William Andrew Messer, Melissa H. Cranford, Brett Daniel Gardner, Messer, Rockefeller & Fort, P.L.L.C., Frisco, TX, for Defendant-Appellant."
+    ],
+    "corrections": "",
+    "head_matter": "Marcus MOTE, Plaintiff-Appellee\nv.\nDebra WALTHALL, Defendant-Appellant.\nNo. 17-40754\nUnited States Court of Appeals, Fifth Circuit.\nFILED August 31, 2018\nDavid K. Watsky, Christopher David Livingston, Esq., Lyon, Gorsky & Gilbert, L.L.P., Dallas, TX, for Plaintiff-Appellee.\nWilliam Andrew Messer, Melissa H. Cranford, Brett Daniel Gardner, Messer, Rockefeller & Fort, P.L.L.C., Frisco, TX, for Defendant-Appellant.\nBefore DAVIS, HAYNES, and DUNCAN, Circuit Judges."
+  },
+  "file_name": "0500-01",
+  "first_page_order": 500,
+  "last_page_order": 510
+}

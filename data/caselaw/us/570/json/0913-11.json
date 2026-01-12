@@ -1,0 +1,86 @@
+{
+  "id": 12698643,
+  "name": "Larone GRAHAM, aka Abgod Graham, petitioner, v. UNITED STATES.",
+  "name_abbreviation": "Graham v. United States",
+  "decision_date": "2013-06-24",
+  "docket_number": "No. 12\u20137274.",
+  "first_page": "913",
+  "last_page": "913",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "570 U.S. 913"
+    },
+    {
+      "type": "parallel",
+      "cite": "186 L. Ed. 2d 902"
+    },
+    {
+      "type": "parallel",
+      "cite": "133 S. Ct. 2851"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "133 S.Ct. 2151",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12699057
+      ],
+      "year": 2013,
+      "opinion_index": -1,
+      "case_paths": [
+        "/us/570/0099-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 47,
+    "char_count": 544,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2665400569685723
+    },
+    "sha256": "fd013039e1658d502f3f1319de6dab42316f4d2302ce27a6eafaad52d0325d05",
+    "simhash": "1:d22d62c42f0a0619",
+    "word_count": 86
+  },
+  "last_updated": "2024-02-27T16:05:15.908993+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Larone GRAHAM, aka Abgod Graham, petitioner,\nv.\nUNITED STATES."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "On petition for writ of certiorari to the United States Court of Appeals for the Second Circuit. Motion of petitioner for leave to proceed in forma pauperis and petition for writ of certiorari granted. Judgment vacated, and case remanded to the United States Court of Appeals for the Second Circuit for further consideration in light of Alleyne v. United States, --- U.S. ----, 133 S.Ct. 2151, --- L.Ed. ---- (2013)."
+    ],
+    "corrections": "",
+    "head_matter": "Larone GRAHAM, aka Abgod Graham, petitioner,\nv.\nUNITED STATES.\nNo. 12-7274.\nSupreme Court of the United States\nJune 24, 2013.\nOn petition for writ of certiorari to the United States Court of Appeals for the Second Circuit. Motion of petitioner for leave to proceed in forma pauperis and petition for writ of certiorari granted. Judgment vacated, and case remanded to the United States Court of Appeals for the Second Circuit for further consideration in light of Alleyne v. United States, --- U.S. ----, 133 S.Ct. 2151, --- L.Ed. ---- (2013)."
+  },
+  "file_name": "0913-11",
+  "first_page_order": 913,
+  "last_page_order": 913
+}

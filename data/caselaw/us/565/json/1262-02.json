@@ -1,0 +1,59 @@
+{
+  "id": 12251554,
+  "name": "Garcia Adames v. Texas",
+  "name_abbreviation": "Garcia Adames v. Texas",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. 11-944",
+  "first_page": "1262",
+  "last_page": "1262",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1262"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.695,
+    "sha256": "1c8d9ee6090c6a5eee4383126fae23daa09718523b08854ea32d4a217a914b02",
+    "simhash": "1:3d129d56dfbd3676",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Garcia Adames v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tex. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-944.\nGarcia Adames v. Texas."
+  },
+  "file_name": "1262-02",
+  "first_page_order": 1344,
+  "last_page_order": 1344
+}

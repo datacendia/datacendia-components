@@ -1,0 +1,59 @@
+{
+  "id": 5904081,
+  "name": "Estate of Timken, Deceased, et al. v. United States",
+  "name_abbreviation": "Estate of Timken v. United States",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-363",
+  "first_page": "1135",
+  "last_page": "1135",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1135"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 99,
+    "ocr_confidence": 0.555,
+    "sha256": "53140d54358809949b67f5f75fed604f8b511a1473d3f1246b54b44f1a789380",
+    "simhash": "1:851ab60f4e9d0018",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Estate of Timken, Deceased, et al. v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-363.\nEstate of Timken, Deceased, et al. v. United States."
+  },
+  "file_name": "1135-06",
+  "first_page_order": 1157,
+  "last_page_order": 1157
+}

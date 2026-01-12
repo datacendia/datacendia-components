@@ -1,0 +1,828 @@
+{
+  "id": 3892812,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. AVELINO CEJA VILLA, Defendant and Appellant",
+  "name_abbreviation": "People v. Villa",
+  "decision_date": "2009-03-16",
+  "docket_number": "No. S151561",
+  "first_page": "1063",
+  "last_page": "1077",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "45 Cal. 4th 1063"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal.",
+    "id": 9021,
+    "name": "Supreme Court of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "35 Cal.Rptr.3d 110",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "133 Cal.App.4th 784",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3684833
+      ],
+      "pin_cites": [
+        {
+          "page": "791"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/133/0784-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 922",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(g)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "960 P.2d 513",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "77 Cal.Rptr.2d 709",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 Cal.4th 26",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1709349
+      ],
+      "pin_cites": [
+        {
+          "page": "45-46, fn. 9"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/19/0026-01"
+      ]
+    },
+    {
+      "cite": "443 F.3d 1126",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6045733
+      ],
+      "pin_cites": [
+        {
+          "page": "1129, fn. 2"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/443/1126-01"
+      ]
+    },
+    {
+      "cite": "115 P.3d 460",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Cal.Rptr.3d 147",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Cal.4th 643",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3122043
+      ],
+      "pin_cites": [
+        {
+          "page": "654, fn. 2"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/36/0643-01"
+      ]
+    },
+    {
+      "cite": "104 Cal.Rptr.2d 839",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "87 Cal.App.4th 791",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        107035
+      ],
+      "pin_cites": [
+        {
+          "page": "803"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/87/0791-01"
+      ]
+    },
+    {
+      "cite": "329 U.S. 211",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6157131
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "222, fn. 8"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/329/0211-01"
+      ]
+    },
+    {
+      "cite": "259 U.S. 276",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        423344
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "284"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/259/0276-01"
+      ]
+    },
+    {
+      "cite": "515 U.S. 39",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1563888
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/515/0039-01"
+      ]
+    },
+    {
+      "cite": "981 P.2d 525",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "87 Cal.Rptr.2d 682",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 Cal.4th 424",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        884823
+      ],
+      "pin_cites": [
+        {
+          "page": "429"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/21/0424-01"
+      ]
+    },
+    {
+      "cite": "161 P.3d 1130",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "62 Cal.Rptr.3d 569",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Cal.4th 799",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3818824
+      ],
+      "pin_cites": [
+        {
+          "page": "818"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/41/0799-01"
+      ]
+    },
+    {
+      "cite": "537 P.2d 888",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "122 Cal.Rptr. 768",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "14 Cal.3d 711",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2279701
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/14/0711-01"
+      ]
+    },
+    {
+      "cite": "883 P.2d 388",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.Rptr.2d 270",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "8 Cal.4th 728",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1985980
+      ],
+      "pin_cites": [
+        {
+          "page": "738"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/8/0728-01"
+      ]
+    },
+    {
+      "cite": "490 U.S. 488",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        606062
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "491-492"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/490/0488-01"
+      ]
+    },
+    {
+      "cite": "61 Cal.Rptr.3d 181",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "152 Cal.App.4th 63",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3811812
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/152/0063-01"
+      ]
+    },
+    {
+      "cite": "391 U.S. 234",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1767371
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "238-241"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/391/0234-01"
+      ]
+    },
+    {
+      "cite": "411 U.S. 345",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        10231
+      ],
+      "weight": 3,
+      "year": 1968,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/411/0345-01"
+      ]
+    },
+    {
+      "cite": "371 U.S. 236",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        451237
+      ],
+      "weight": 5,
+      "year": 1973,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/371/0236-01"
+      ]
+    },
+    {
+      "cite": "623 P.2d 228",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "171 Cal.Rptr. 667",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Cal.3d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2257766
+      ],
+      "pin_cites": [
+        {
+          "page": "7-9"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/29/0001-01"
+      ]
+    },
+    {
+      "cite": "181 Cal.Rptr. 401",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "125 Cal.App.3d 240",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2076373
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "246"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/125/0240-01"
+      ]
+    },
+    {
+      "cite": "427 P.2d 179",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "58 Cal.Rptr. 579",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "66 Cal.2d 606",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2331167
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/66/0606-01"
+      ]
+    },
+    {
+      "cite": "331 P.2d 24",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 Cal.2d 177",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2344063
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/51/0177-01"
+      ]
+    },
+    {
+      "cite": "334 P.2d 1",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 Cal.2d 371",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2344372
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/51/0371-01"
+      ]
+    },
+    {
+      "cite": "372 P.2d 310",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "22 Cal.Rptr. 478",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 Cal.2d 860",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4374840
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/57/0860-01"
+      ]
+    },
+    {
+      "cite": "362 U.S. 574",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6166360
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/362/0574-01"
+      ]
+    },
+    {
+      "cite": "73 P. 145",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "year": 1960,
+      "opinion_index": 0
+    },
+    {
+      "cite": "139 Cal. 242",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        2054920
+      ],
+      "year": 1960,
+      "pin_cites": [
+        {
+          "page": "243"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/139/0242-01"
+      ]
+    },
+    {
+      "cite": "116 P. 757",
+      "category": "reporters:state_regional",
+      "reporter": "P.",
+      "year": 1903,
+      "opinion_index": 0
+    },
+    {
+      "cite": "160 Cal. 334",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        1992640
+      ],
+      "year": 1903,
+      "pin_cites": [
+        {
+          "page": "339-342"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/160/0334-01"
+      ]
+    },
+    {
+      "cite": "425 P.2d 193",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 Cal.Rptr. 593",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "66 Cal.2d 282",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2331183
+      ],
+      "pin_cites": [
+        {
+          "page": "285"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/66/0282-01"
+      ]
+    },
+    {
+      "cite": "101 P.2d 105",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 Cal.App.2d 284",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        6041342
+      ],
+      "pin_cites": [
+        {
+          "page": "289"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/38/0284-01"
+      ]
+    },
+    {
+      "cite": "365 U.S. 708",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6170393
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "712"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/365/0708-01"
+      ]
+    },
+    {
+      "cite": "981 P.2d 1038",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "87 Cal.Rptr.2d 899",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 Cal.4th 697",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        884928
+      ],
+      "pin_cites": [
+        {
+          "page": "704"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/21/0697-01"
+      ]
+    },
+    {
+      "cite": "104 Cal.Rptr.2d 284",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "87 Cal.App.4th 20",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        106936
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/87/0020-01"
+      ]
+    },
+    {
+      "cite": "46 Cal.Rptr.3d 408",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "141 Cal.App.4th 498",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6052198
+      ],
+      "pin_cites": [
+        {
+          "page": "511"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/141/0498-01"
+      ]
+    },
+    {
+      "cite": "523 U.S. 371",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11503651
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "375-376"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/523/0371-01"
+      ]
+    },
+    {
+      "cite": "202 P.3d 436",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "90 Cal.Rptr.3d 355",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.4th 1078",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3892601
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/45/1078-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1415,
+    "char_count": 32865,
+    "ocr_confidence": 0.911,
+    "pagerank": {
+      "raw": 2.950031444115e-07,
+      "percentile": 0.8487850063845421
+    },
+    "sha256": "b98c484ae2f4950c3a6b1bf2cb0f1bb30c2cb3b3a0af4977284c803f7287664d",
+    "simhash": "1:ad6e73b355ef45d1",
+    "word_count": 5329
+  },
+  "last_updated": "2024-02-27T22:20:01.435318+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. AVELINO CEJA VILLA, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nWERDEGAR, J.\nAvelino Ceja Villa, a lawful resident alien, pleaded guilty to a felony in this state in 1989 and served a three-year period of probation. Now, many years later, he is facing removal from this country by federal immigration authorities, allegedly because of his 1989 conviction. In a companion case, we address whether, and to what extent, persons in similar situations are entitled to have their guilty pleas vacated by a writ of error coram nobis. (People v. Kim (2009) 45 Cal.4th 1078 [90 Cal.Rptr.3d 355, 202 P.3d 436].) In this case, we hold that because Villa is no longer in California custody as a result of his 1989 conviction, but is instead in federal custody in another state, he is ineligible for relief by way of a writ of habeas corpus. In suggesting otherwise, the Court of Appeal erred.\nFacts\nVilla resides in this country but is not a United States citizen; he is a citizen of Mexico. He applied for lawful permanent resident status in 1987, under a federal amnesty program. In 1989, while his residency application was pending, he pleaded guilty in Alameda County Superior Court to violating Health and Safety Code section 11351, possession of cocaine for sale. As a result, the court placed him on probation for three years. At that time, he was told the Immigration and Naturalization Service (INS) had not placed a deportation hold on him, although the prosecutor noted that there \u201c[sjhould be\u201d one. The INS was apparently untroubled by his felony conviction, however, for in 1990 it granted him lawful permanent resident status.\nIn 2005, Villa applied to the INS to renew his permanent resident status. The INS instead arrested him and served him with a notice to appear for removal proceedings. The only basis for his detention and pending deportation was his 1989 conviction. Villa alleges he is currently in the custody of the INS in a contract detention facility in Alabama.\nAfter being placed in federal detention, Villa filed a petition for a writ of error coram nobis in the Alameda County Superior Court, making three allegations: (1) That when he entered his plea the trial court failed to advise him under Penal Code section 1016.5 of the possibility he could be deported as a result of his conviction; (2) his trial counsel was constitutionally ineffective for misadvising him he would not be deported as a result of his guilty plea; and (3) his rights under the Vienna Convention on Consular Relations and Optional Protocol on Disputes of April 24, 1963 (21 U.S.T. 77, T.I.A.S. No. 6820) (the Vienna Convention) were violated because he was not told of his right to contact the Mexican Consulate. The trial court denied the petition, first finding the court that had taken his plea in 1989 had in fact advised him of its immigration consequences. (The record of the plea proceeding confirms this conclusion.) The trial court also ruled Villa had failed to allege facts demonstrating ineffective assistance of counsel and that the proof of his crime was \u201cextremely strong,\u201d presumably rendering any treaty violation harmless. Villa appealed, raising the issues of the alleged ineffectiveness of counsel and the treaty violation.\nThe Court of Appeal rejected both claims, finding that the alleged treaty violation should have been raised on direct appeal, citing Breard v. Greene (1998) 523 U.S. 371, 375-376 [140 L.Ed.2d 529, 118 S.Ct. 1352]. The appellate court further held that Villa\u2019s ineffectiveness of counsel claim was not cognizable on coram nobis. It then considered whether it could grant relief by considering Villa\u2019s coram nobis petition as a petition for a writ of habeas corpus. (See Escamilla v. Department of Corrections & Rehabilitation (2006) 141 Cal.App.4th 498, 511 [46 Cal.Rptr.3d 408] [\u201cThe label given a petition, action or other pleading is not determinative; rather, the true nature of a petition or cause of action is based on the facts alleged and remedy sought in that pleading.\u201d].) In a split decision, the appellate court concluded that although Villa was in federal custody in Alabama and not in California state custody, he could challenge the legality of that custody by filing a habeas corpus petition in California. But the appellate court ultimately denied relief because Villa did not allege his federal custody was due solely to his California conviction. The concurring justice agreed that relief on both coram nobis and habeas corpus should be denied, but disagreed that Villa\u2019s federal custody entitled him to challenge his long-final state conviction in a state habeas corpus petition.\nVilla did not seek review in this court. Although the People prevailed in the appellate court, they petitioned for review, contending the Court of Appeal incorrectly held that a writ of habeas corpus was an available remedy for a litigant, like Villa, who has already served his state sentence and who is presently detained by a governmental entity other than the State of California.\nBecause the Court of Appeal\u2019s decision conflicted with In re Azurin (2001) 87 Cal.App.4th 20 [104 Cal.Rptr.2d 284], we granted review.\nDiscussion\nThe writ of habeas corpus enjoys an extremely important place in the history of this state and this nation. Often termed the \u201cGreat Writ,\u201d it \u201chas been justifiably lauded as \u2018 \u201cthe safe-guard and the palladium of our liberties\u201d \u2019 \u201d (In re Sanders (1999) 21 Cal.4th 697, 704 [87 Cal.Rptr.2d 899, 981 P.2d 1038]) and was considered by the founders of this country as the \u201chighest safeguard of liberty\u201d (Smith v. Bennett (1961) 365 U.S. 708, 712 [6 L.Ed.2d 39, 81 S.Ct. 895]). As befits its elevated position in the universe of American law, the availability of the writ of habeas corpus to inquire into an allegedly improper detention is granted express protection in both the United States and California Constitutions. (U.S. Const., art. I, \u00a7 9, cl. 2; Cal. Const., art. I, \u00a7 11.) In this state, availability of the writ of habeas corpus is implemented by Penal Code section 1473, subdivision (a), which provides: \u201cEvery person unlawfully imprisoned or restrained of his liberty, under any pretense whatever, may prosecute a writ of habeas corpus, to inquire into the cause of such imprisonment or restraint.\u201d (Italics added.)\nAs the italicized text in Penal Code section 1473, subdivision (a) demonstrates, a necessary prerequisite for issuance of the writ is the custody or restraint of the petitioner by the government. \u201cThus, it is well settled that the writ of habeas corpus does not afford an all-inclusive remedy available at all times as a matter of right. It is generally regarded as a special proceeding. \u2018Where one restrained pursuant to legal proceedings seeks release upon habeas corpus, the function of the writ is merely to determine the legality of the detention by an inquiry into the question of jurisdiction and the validity of the process upon its face, and whether anything has transpired since the process was issued to render it invalid.\u2019 \u201d (In re Fortenbury (1940) 38 Cal.App.2d 284, 289 [101 P.2d 105].)\nThe key prerequisite to gaining relief on habeas corpus is a petitioner\u2019s custody. Thus, an individual in custody for a crime (or alleged crime) may\u2014within limits\u2014challenge the legality of that detention on habeas corpus. A petitioner in custody can also challenge the conditions of confinement, a challenge related not to the petitioner\u2019s underlying conviction but instead to his or her actual confinement. (In re Allison (1967) 66 Cal.2d 282, 285 [57 Cal.Rptr. 593, 425 P.2d 193] [\u201cThe writ of habeas corpus may be sought by one lawfully in custody for the purpose of vindicating rights to which he is entitled even in confinement.\u201d].)\nIn previous eras, the custody requirement was interpreted strictly to mean actual physical detention. (Matter of Ford (1911) 160 Cal. 334, 339-342 [116 P. 757] [habeas corpus unavailable for one released on bail]; In re Gow (1903) 139 Cal. 242, 243 [73 P. 145] [same, for one released on own recognizance; improper to voluntarily submit to custody in order to file a writ petition]; see Parker v. Ellis (1960) 362 U.S. 574 [4 L.Ed.2d 963, 80 S.Ct. 909] (per curiam) [habeas corpus petitioner\u2019s release from prison before his case could be heard by the Supreme Court rendered his case moot and the court lacked jurisdiction to proceed].) This view has since been somewhat relaxed. Thus, \u201cthe decisional law of recent years has expanded the writ\u2019s application to persons who are determined to be in constructive custody. Today, the writ is available to one on parole (In re Jones (1962) 57 Cal.2d 860 [22 Cal.Rptr. 478, 372 P.2d 310]), probation (In re Osslo (1958) 51 Cal.2d 371 [334 P.2d 1]), bail (In re Petersen (1958) 51 Cal.2d 177 [331 P.2d 24]), or a sentenced prisoner released on his own recognizance pending hearing on the merits of his petition (In re Smiley (1967) 66 Cal.2d 606 [58 Cal.Rptr. 579, 427 P.2d 179]).\u201d (In re Wessley W. (1981) 125 Cal.App.3d 240, 246 [181 Cal.Rptr. 401].) A sentence of a fine or imprisonment (in the alternative) similarly suffices to meet the custody requirement for habeas corpus relief. (In re Catalano (1981) 29 Cal.3d 1, 7-9 [171 Cal.Rptr. 667, 623 P.2d 228].)\nHabeas corpus practice in the federal courts has generally followed this trend. (See, e.g., Jones v. Cunningham (1963) 371 U.S. 236 [9 L.Ed.2d 285, 83 S.Ct. 373] [defendant released on parole is still \u201cin custody\u201d for federal habeas corpus purposes]; Hensley v. Municipal Court (1973) 411 U.S. 345 [36 L.Ed.2d 294, 93 S.Ct. 1571] [same, regarding defendant released on his own recognizance]; Carafas v. LaVallee (1968) 391 U.S. 234, 238-241 [20 L.Ed.2d 554, 88 S.Ct. 1556] [custody requirement satisfied although the petitioner was unconditionally released before completion of proceedings on his habeas corpus petition].)\nUnder all of these scenarios, the habeas corpus petitioner is deemed to be in constructive custody because he or she \u201cis subject to \u2018restraints not shared by the public generally\u2019 \u201d (In re Smiley, supra, 66 Cal.2d at p. 613, quoting Jones v. Cunningham, supra, 371 U.S. at p. 240) and \u201cmay later lose his liberty and be eventually incarcerated\u201d (In re Wessley W., supra, 125 Cal.App.3d at p. 246).\nBy contrast, collateral consequences of a criminal conviction\u2014even those that can later form the basis of a new criminal conviction\u2014do not of themselves constitute constructive custody. For example, in In re Stier (2007) 152 Cal.App.4th 63 [61 Cal.Rptr.3d 181], a medical doctor pleaded guilty in 2000 to taking indecent liberties with a child in North Carolina. He completed his probation in California and duly registered as a sex offender under Penal Code section 290. He also reported his crime to the Medical Board of California, which required him to serve a five-year supervised probation and undergo a psychiatric evaluation, but eventually found him fit to practice medicine.\nIn 2003, a new law was enacted mandating revocation of the medical license of anyone required to register as a sex offender. Stier then filed a petition for a writ of habeas corpus, claiming the requirement that he register as a sex offender constituted constructive custody for habeas corpus purposes. The trial court agreed and granted the writ, but the Court of Appeal reversed, explaining: \u201cAlthough respondent asserted in his petition that \u2018his liberty is unlawfully restrained in violation of the laws of the State of California,\u2019 for purposes of proving entitlement to habeas corpus relief in the present case, he is not. Respondent\u2019s allegation that he is \u2018under the constructive custody of the State of California because if he fails to register, he is subject to criminal prosecution\u2019 does not \u2018satisfy the habeas corpus jurisdictional requirements under California law.\u2019 [Citation.] Since respondent \u2018is not in prison or on probation or parole or otherwise in constructive custody, the remedy of habeas corpus is not available to him\u2014and it is immaterial that lingering noncustodial collateral consequences are still attached to his conviction.\u2019 [Citation.] Neither the prospect of the loss of respondent\u2019s medical license nor the speculative risk of future custody in the event he fails to register as a sex offender proves constructive custody as required in a habeas corpus action. [Citations.] The \u2018states\u2019 sexual offender registration laws do not render a habeas petitioner \u201cin custody\u201d because they are a collateral consequence of conviction that do not impose a severe restraint on an individual\u2019s liberty. [Citations.]\u2019 \u201d (In re Stier, supra, 152 Cal.App.4th at pp. 82-83, italics added; see also In re Wessley W., supra, 125 Cal.App.3d at p. 247 [listing of petitioner\u2019s name in a rap sheet is not constructive custody].)\nIn addition to the sex offender registration requirement and the possible loss of a professional license, other collateral consequences of a criminal conviction may continue well after the conviction and the completion of the sentence, including one\u2019s \u201cinability to vote, engage in certain businesses, hold public office, or serve as a juror.\u201d (Maleng v. Cook (1989) 490 U.S. 488, 491-492 [104 L.Ed.2d 540, 109 S.Ct. 1923].) Amicus curiae reminds us that a criminal conviction will often preclude legal firearm ownership. While the continuing existence of the collateral consequences of a criminal conviction may be relevant to determining a mootness claim (Maleng v. Cook, at pp. 491-492), \u201conce the sentence imposed for a conviction has completely expired, the collateral consequences of that conviction are not themselves sufficient to render an individual \u2018in custody\u2019 for the purposes of a habeas attack upon it\u201d (id. at p. 492).\nWe face in the instant case the application of an increasingly familiar collateral consequence of a criminal conviction: deportation. Here, as in the companion case, People v. Kim, supra, 45 Cal.4th 1078, a longtime legal resident faces involuntary removal from the country and possibly permanent separation from his family and friends as a result of a criminal conviction entered long ago. Only one California case has addressed whether persons in INS custody pending deportation proceedings who have served their sentences and are no longer in actual state custody can be considered to be in the state\u2019s constructive custody for habeas corpus purposes. In In re Azurin, supra, 87 Cal.App.4th 20, the petitioner, a Philippine national living in the United States, pleaded guilty in 1990 to having committed a felony. He was sentenced to a term in the California Youth Authority, thereafter completed his parole, and was released from custody. When the INS sought to deport him in 1998 by relying on his 1990 conviction, he filed a petition for a writ of habeas corpus, claiming he was in the constructive custody of the State of California because he was in INS custody as a result of his 1990 state conviction. The Azurin court concluded the boundaries of the constructive custody concept are not so expansive: \u201c[Although any custody of Azurin under the deportation proceedings was apparently based solely on the \u2018fact\u2019 of his 1990 conviction in California [citation], during those proceedings Azurin was not \u2018in the custody of the same sovereign responsible for the original conviction,\u2019 but instead was \u2018in the custody of the INS, an agency of a different sovereign.\u2019 [Citations.] Further, such deportation proceedings were simply a \u2018collateral consequence\u2019 of Azurin\u2019s 1990 conviction. [Citations.] As such, the pendency of those proceedings, without more, did not constitute \u2018custody\u2019 in California under such 1990 conviction for purposes of satisfying the habeas corpus jurisdictional requirements of California law.\u201d (Id. at p. 26, fn. omitted; see also In re Wessley W, supra, 125 Cal.App.3d 240 [defendant whose probation had terminated was not in constructive custody].)\nWe agree with this reasoning and apply it here. Villa completed his probation for his 1989 conviction many years ago and is no longer in any form of state custody, actual or constructive, as a result of that conviction. That the INS, a completely different governmental entity, chose to resurrect that old conviction and use it to form the basis of a new and collateral consequence for Villa, while undoubtedly unfortunate for him and his family, does not\u2014without more\u2014convert his detention by federal immigration authorities in Alabama into some late-blossoming form of custody for which the State of California is responsible.\nBoth parties and the Court of Appeal below discuss the relevance of the fact that an order to show cause, should one issue, would be directed to a person\u2014Villa\u2019s federal custodian\u2014who arguably would have no legal obligation to comply. Penal Code section 1477 specifies that \u201c[t]he writ must be directed to the person having custody of or restraining the person on whose behalf the application is made, and must command him to have the body of such person before the Court or Judge before whom the writ is returnable, at a time and place therein specified.\u201d From this, the People argue habeas corpus is inappropriate here because \u201ca California court lacks jurisdiction to direct federal immigration officials to comply with a state writ of habeas corpus.\u201d By contrast, Villa adopts the reasoning of the Court of Appeal below that \u201c[sjection 1477 is not an impediment to the court entertaining a petition .... The import of section 1477 is not to effectuate habeas corpus relief, but is to commence adversarial proceedings.\u201d\nThat Villa is being detained by a different sovereign is not necessarily dispositive for habeas corpus purposes. True, in a typical habeas corpus case, the writ normally is directed to the custodian. (Pen. Code, \u00a7 1477.) \u201cThe role that the writ of habeas corpus plays is largely procedural. It \u2018does not decide the issues and cannot itself require the final release of the petitioner.\u2019 [Citation.] Rather, the writ commands the person having custody of the petitioner to bring the petitioner \u2018before the court or judge before whom the writ is returnable\u2019 (Pen. Code, \u00a7 1477), except under specified conditions (id., \u00a7\u00a7 1481-1482), and to submit a written return justifying the petitioner\u2019s imprisonment or other restraint on the petitioner\u2019s liberty (id., \u00a7 1480).\u201d (People v. Romero (1994) 8 Cal.4th 728, 738 [35 Cal.Rptr.2d 270, 883 P.2d 388], fn. omitted, italics added.) But as Villa argues, habeas corpus \u201cis not now and never has been a static, narrow, formalistic remedy; its scope has grown to achieve its grand purpose\u2014the protection of individuals against erosion of their right to be free from wrongful restraints upon their liberty.\u201d (Jones v. Cunningham, supra, 371 U.S. at p. 243.)\nThus, for example, in In re Shapiro (1975) 14 Cal.3d 711 [122 Cal.Rptr. 768, 537 P.2d 888], we held that a state parolee subsequently arrested by federal authorities and detained in an out-of-state federal detention facility (McNeil Island in the State of Washington) could seek state habeas corpus relief when the state placed a detainer hold on him with federal officials. (Id. at pp. 714-715.) Although Shapiro (like Villa) was being held by a different sovereign in a different state, his petition did not seek to ameliorate the terms or conditions of his confinement in the federal penitentiary or to have federal officials respond to the allegations. Rather, it was directed to the California Adult Authority (the precursor to the Board of Parole Hearings). \u201cIt is the existence of the detainer initiated in California which is causing the petitioner deleterious consequences at McNeil Island, and petitioner correctly concludes that if the parole violator warrant is invalid the detainer itself will be removed.\u201d (Id. at p. 715.)\nThe critical factor in determining whether a petitioner is in actual or constructive state custody, then, is not necessarily the name of the governmental entity signing the paycheck of the custodial officer in charge, or even whether the petitioner is within the geographic boundaries of the State of California. Instead, courts should realistically examine the nature of a petitioner\u2019s custody to determine whether it is currently authorized in some way by the State of California. Unlike the petitioner in In re Shapiro, supra, 14 Cal.3d 711, for example, Villa is not subject to a detainer hold placed by California state officials. Nor is his detention in Alabama either a part of the sentence (probation) the Alameda County Superior Court imposed for his 1989 crime (In re Osslo, supra, 51 Cal.2d at p. 376 [probation is custody for habeas corpus purposes]) or otherwise authorized by state law. Instead, his detention is directly traceable to applicable federal laws governing immigration and to the discretion of federal immigration officials and, presumably, that of the United States Attorney General. Under such circumstances, Villa cannot be considered to be in custody for state habeas corpus purposes.\nVilla raises several arguments against this conclusion, but none is availing. Emphasizing the flexible nature of the habeas corpus remedy, he argues we should further expand the definition of \u201ccustody\u201d to include his case. Indeed, he frankly admits he \u201cseeks a redefinition of the habeas corpus remedy beyond the traditional prerequisite of actual state custody.\u201d As we have explained, however, although a liberalization of the meaning of \u201ccustody\u201d has occurred over the years, all such expansions have involved substitutes (such as parole, probation, or release on bail) for an actual custodial sentence the trial court could have imposed, or are otherwise related to some official state action (like a detainer hold) connected to a person\u2019s custodial status. The present restraint on Villa\u2019s freedom, while perhaps factually traceable to his 1989 state conviction (inasmuch as the immigration authorities cite the conviction as the reason for deportation), simply has too little to do with his long-final state conviction and completed sentence. Villa\u2019s proposal for a further expansion of the meaning of custody for habeas corpus purposes would stretch the concept past the breaking point and convert habeas corpus into an all-inclusive, free-floating, postconviction remedy untethered to its historical moorings.\nVilla also argues that both state and federal law allow the filing of a habeas corpus petition to challenge the validity of a prior conviction, even though the sentence for the prior conviction has been fully served. The existence of prior felony convictions is, of course, a common reason why a criminal sentence is enhanced (People v. Black (2007) 41 Cal.4th 799, 818 [62 Cal.Rptr.3d 569, 161 P.3d 1130] [\u201c \u2018[Rjecidivism ... is a traditional, if not the most traditional, basis for a sentencing court\u2019s increasing an offender\u2019s sentence.\u2019 \u201d]), and habeas corpus is available to challenge the constitutionality of such prior convictions (People v. Allen (1999) 21 Cal.4th 424, 429 [87 Cal.Rptr.2d 682, 981 P.2d 525]). But when an offender\u2019s present sentence is lengthened as a result of a prior conviction, the offender\u2019s custody is directly attributable to the prior conviction. The sentence for Villa\u2019s 1989 crime, by contrast, terminated long ago, and the state has not sought to impose any additional punishment on him as a result of that offense.\nGarlotte v. Fordice (1995) 515 U.S. 39 [132 L.Ed.2d 36, 115 S.Ct. 1948], also cited by Villa in support, is similarly distinguishable. In Garlotte, the petitioner was sentenced to a determinate term of three years\u2019 imprisonment for marijuana possession with the intent to distribute. He was also sentenced to two concurrent indeterminate life terms for two counts of murder, to be served consecutively to the term for marijuana possession. The trial court ordered the petitioner to serve the determinate sentence first and then at least 10 years of the life sentence. The petitioner filed a habeas corpus petition seeking to withdraw his plea to the possession count, but as his three-year sentence for that crime had expired, the lower courts ruled he was no longer in custody for that crime despite the fact he was still serving two life terms. The high court disagreed, viewing the petitioner\u2019s \u201csentences in the aggregate, not as discrete segments\u201d {id. at p. 47) and noting that a reversal of the three-year sentence for possession could have affected the setting of an overall parole eligibility date {id. at p. 46, fn. 5). Thus, for habeas corpus purposes he was deemed still in custody for the marijuana possession conviction.\nAs is apparent on its face, Garlotte is distinguishable from Villa\u2019s case because, viewing the sentences in the aggregate, the petitioner in Garlotte was still in custody for his crimes. By contrast, Villa has been free of any state custody or restraint since at least 1992, when his three-year probationary period ended.\nVilla also argues there must be some form of remedy to persons in his position, arguing that deportation is a harsh consequence for his long-final criminal conviction. But Villa was afforded legal counsel and the right to a jury trial in 1989. Prior to accepting his guilty plea, the trial court admonished him in accordance with Penal Code section 1016.5 regarding the immigration consequences of the plea. Villa could subsequently have moved to withdraw his plea {id., \u00a7 1018), could have appealed, and then could have petitioned for review in this court. While serving his three-year probation, he could have sought relief on habeas corpus. In short, his available remedies under state law for an allegedly uninformed plea were ample.\nWe appreciate that the consequences for Villa on the facts of this case seem harsh and that \u201c[although deportation is not technically a criminal punishment, it may visit great hardship on the alien. [Citation.] As stated by the Court, speaking through Mr. Justice Brandeis, in Ng Fung Ho v. White, 259 U.S. 276, 284 [66 L.Ed. 938, 42 S.Ct. 492], deportation may result in the loss \u2018of all that makes life worth living.\u2019 \u201d (Fiswick v. United States (1946) 329 U.S. 211, 222, fn. 8 [91 L.Ed. 196, 67 S.Ct. 224].) This complaint, however valid, is more appropriately directed to the federal authorities who have chosen\u2014belatedly\u2014to deport Villa for his past transgression after initially granting him permanent lawful resident status and allowing him to live in this country for 15 years despite knowledge of his criminal conviction. Villa\u2019s complaints may also be fairly directed to the Legislature, which has enacted statutory remedies for other persons facing analogous problems. (See, e.g., Pen. Code, \u00a7 1016.5 [authorizing a motion to vacate for a trial court\u2019s failure to admonish defendant of immigration consequences; no custody requirement]; id., \u00a7 1473.6 [authorizing a motion to vacate for newly discovered evidence of fraud or false testimony by a government agent; no custody requirement].) As a final avenue of relief, Villa can seek a pardon from the Governor. (Mendez v. Superior Court (2001) 87 Cal.App.4th 791, 803 [104 Cal.Rptr.2d 839].) We understand that these meager options may be cold comfort for him, but their negligible nature does not convince us we should alter the law of habeas corpus to hold he is in state custody for habeas corpus purposes.\nFinally, Villa contends he is entitled both to a writ of error coram nobis and to vacate his plea under Penal Code section 1016.5. He did not raise these issues in a petition for review in this court or in an answer to the People\u2019s petition. Accordingly, they are not properly before us. (Scottsdale Ins. Co. v. MV Transportation (2005) 36 Cal.4th 643, 654, fn. 2 [31 Cal.Rptr.3d 147, 115 P.3d 460]; see Cal. Rules of Court, rule 8.516.) In any event, as we explain in the companion to this case, People v. Kim, supra, 45 Cal.4th 1078, claims such as Villa raised in his coram nobis petition in the trial court\u2014 ineffective assistance of counsel, violation of the Vienna Convention\u2014are errors of law, not of fact, and are thus not cognizable on coram nobis. Further, the record indicates the trial court informed him of the potential immigration consequences of his plea, thereby satisfying Penal Code section 1016.5.\nConclusion\nThe Court of Appeal below, construing Villa\u2019s petition as one for habeas corpus, denied relief on the ground that he had failed to allege he was restrained of his liberty \u201csolely because of the California conviction\u201d he suffered in 1989. We agree with this result for a different reason: Villa is in neither actual nor constructive state custody as a result of his 1989 conviction. Accordingly, the judgment of the appellate court is affirmed.\nGeorge, C. J., Kennard, J., Baxter, J., Chin, J., Moreno, J., and Corrigan, J., concurred.\nLike the Court of Appeal below and the parties, we will continue to refer to the federal authorities as the \u201cINS,\u201d although that agency has since been reorganized into the Department of Homeland Security. Deportations are now prosecuted by United States Immigration and Customs Enforcement. (See U.S. v. Garcia-Beltran (9th Cir. 2006) 443 F.3d 1126, 1129, fn. 2 [\u201cThe INS is now known as Immigration and Customs Enforcement (ICE).\u201d].)\nVilla requests we take judicial notice of two articles from local newspapers describing the federal immigration detention facility in Etowah, Alabama. As these articles are unnecessary to the resolution of this case, the request is denied. (Quelimane Co. v. Stewart Title Guaranty Co. (1998) 19 Cal.4th 26, 45-46, fn. 9 [77 Cal.Rptr.2d 709, 960 P.2d 513].)\nAs his conviction was attained by a plea with no appeal, the trial court was the proper court in which to seek coram nobis relief. (Pen. Code, \u00a7 1265.)\nFor example, it is a felony for \u201c[a]ny person who has been convicted of a felony under the laws of the United States, the State of California, or any other state, government, or country\u201d to \u201cown[], purchase^, receive[], or [have] in his or her possession or under his or her custody or control any firearm.\u201d (Pen. Code, \u00a7 12021, subd. (a).) Some misdemeanor convictions result in a 10-year ban on firearm ownership. (Id., subd. (c)(1).) Further, under federal law, no one \u201cwho has been convicted in any court of[] a crime punishable by imprisonment for a term exceeding one year\u201d (18 U.S.C. \u00a7 922(g)(1)) or \u201cwho has been convicted in any court of a misdemeanor crime of domestic violence\u201d (id., \u00a7 922(g)(9)) may \u201cpossess . . . any firearm or ammunition\u201d or may \u201creceive any firearm or ammunition which has been shipped or transported in interstate or foreign commerce\u201d (id., \u00a7 922(g)).\n\u201cThe legislative history of [Penal Code] section 1473.6 reflects the belief that at the time of the introduction of the legislation, \u2018Currently, other than a pardon, no remedy exists for those no longer in the system to challenge their judgment when they learn that their conviction was obtained in part because of fraud or false evidence by a government official.\u2019 (Sen. Com. on Public Safety, Analysis of Sen. Bill No. 1391 (2001-2002 Reg. Sess.) as amended Apr. 10, 2002, p. 5.) The legislation was originally introduced to address a problem illustrated by the so-called Rampart scandal [citation] in which it was discovered that certain Los Angeles Police Department officers had engaged in misconduct, including planting evidence, filing false police reports, committing perjury, and creating nonexistent confessions. (Sen. Com. on Public Safety, Analysis of Sen. Bill No. 1391 (2001-2002 Reg. Sess.) as amended Apr. 10, 2002, p. 6; Assem. Com. on Public Safety, Analysis of Sen. Bill No. 1391 (2001-2002 Reg. Sess.) as amended Apr. 10, 2002, pp. 3-4.) Because the misconduct was discovered many years after it occurred, those who were no longer in custody at the time of the discovery of the misconduct would not be able to set aside their convictions. (Sen. Com. on Public Safety, Analysis of Sen. Bill No. 1391 (2001-2002 Reg. Sess.) as amended Apr. 10, 2002, p. 6; Assem. Com. on Public Safety, Analysis of Sen. Bill No. 1391 (2001-2002 Reg. Sess.) as amended Apr. 10, 2002, pp. 3-4; [citation].)\u201d (People v. Germany (2005) 133 Cal.App.4th 784, 791 [35 Cal.Rptr.3d 110], italics added, fns. omitted.)",
+        "type": "majority",
+        "author": "WERDEGAR, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Rodney Richard Jones, under appointment by the Supreme Court, for Defendant and Appellant.",
+      "Reed Smith, Paul D. Fogel; and Linda Starr for Northern California Innocence Project as Amicus Curiae on behalf of Defendant and Appellant.",
+      "Bill Lockyer and Edmund G. Brown, Jr., Attorneys General, Robert R. Anderson and Dane R. Gillette, Chief Assistant Attorneys General, Gerald A. Engler, Assistant Attorney General, Stan Helfman, Laurence K. Sullivan, Christopher J. Wei and Jeffrey M. Laurence, Deputy Attorneys General, for Plaintiff and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. S151561.\nMar. 16, 2009.]\nTHE PEOPLE, Plaintiff and Respondent, v. AVELINO CEJA VILLA, Defendant and Appellant.\nCounsel\nRodney Richard Jones, under appointment by the Supreme Court, for Defendant and Appellant.\nReed Smith, Paul D. Fogel; and Linda Starr for Northern California Innocence Project as Amicus Curiae on behalf of Defendant and Appellant.\nBill Lockyer and Edmund G. Brown, Jr., Attorneys General, Robert R. Anderson and Dane R. Gillette, Chief Assistant Attorneys General, Gerald A. Engler, Assistant Attorney General, Stan Helfman, Laurence K. Sullivan, Christopher J. Wei and Jeffrey M. Laurence, Deputy Attorneys General, for Plaintiff and Respondent."
+  },
+  "file_name": "1063-01",
+  "first_page_order": 1103,
+  "last_page_order": 1117
+}

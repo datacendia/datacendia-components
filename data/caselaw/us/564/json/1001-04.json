@@ -1,0 +1,82 @@
+{
+  "id": 5934252,
+  "name": "LaFountain v. Balcarcel",
+  "name_abbreviation": "LaFountain v. Balcarcel",
+  "decision_date": "2011-06-13",
+  "docket_number": "No. 10-9970",
+  "first_page": "1001",
+  "last_page": "1002",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1001"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "506 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11924825
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/506/0001-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 69,
+    "char_count": 532,
+    "ocr_confidence": 0.538,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.1719746981387718
+    },
+    "sha256": "38143279965d73f8b0fa6a517b490937bd02998b755cc42521d699cd0e333590",
+    "simhash": "1:6522358c072cde2e",
+    "word_count": 88
+  },
+  "last_updated": "2024-02-27T23:47:04.462735+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "LaFountain v. Balcarcel."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Motion of petitioner for leave to proceed in forma pauperis denied, and certiorari dismissed. See this Court\u2019s Rule 39.8. As petitioner has repeatedly abused this Court\u2019s process, the Clerk is directed not to accept any further petitions in noncriminal matters from petitioner unless the docketing fee required by Rule 38(a) is paid and the petition is submitted in compliance with Rule 33.1. See Martin v. District of Columbia Court of Appeals, 506 U. S. 1 (1992) (per curiam).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9970.\nLaFountain v. Balcarcel."
+  },
+  "file_name": "1001-04",
+  "first_page_order": 995,
+  "last_page_order": 996
+}

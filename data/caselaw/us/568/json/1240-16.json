@@ -1,0 +1,59 @@
+{
+  "id": 12433570,
+  "name": "Davison v. United States",
+  "name_abbreviation": "Davison v. United States",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-8643",
+  "first_page": "1240",
+  "last_page": "1240",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1240"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.642,
+    "sha256": "992bff21b044732bf86700f88fecace2eb8bbf94fd8f313c155e96d406850671",
+    "simhash": "1:b58afa414f85b51f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Davison v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8643.\nDavison v. United States."
+  },
+  "file_name": "1240-16",
+  "first_page_order": 1316,
+  "last_page_order": 1316
+}

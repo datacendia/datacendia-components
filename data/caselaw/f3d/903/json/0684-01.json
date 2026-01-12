@@ -1,0 +1,814 @@
+{
+  "id": 12518575,
+  "name": "UNITED STATES of America, Plaintiff-Appellee, v. D.D.B., Defendant-Appellant.",
+  "name_abbreviation": "United States v. D.D.B.",
+  "decision_date": "2018-09-11",
+  "docket_number": "No. 17-2563",
+  "first_page": "684",
+  "last_page": "693",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "903 F.3d 684"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "7th Cir.",
+    "id": 9010,
+    "name": "United States Court of Appeals for the Seventh Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "18 U.S.C.A. \u00a7 924",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(e)(2)(B)(i)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "135 S.Ct. 2551",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12591035
+      ],
+      "weight": 2,
+      "year": 2015,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/135/2551-01"
+      ]
+    },
+    {
+      "cite": "138 S.Ct. 1204",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12610616
+      ],
+      "weight": 2,
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/1204-01"
+      ]
+    },
+    {
+      "cite": "203 N.E.2d 761",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 1964,
+      "pin_cites": [
+        {
+          "page": "763"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Ill.App.2d 212",
+      "category": "reporters:state",
+      "reporter": "Ill. App. 2d",
+      "case_ids": [
+        5281940
+      ],
+      "year": 1964,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ill-app-2d/54/0212-01"
+      ]
+    },
+    {
+      "cite": "246 N.E.2d 817",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 1969,
+      "pin_cites": [
+        {
+          "page": "820"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "108 Ill.App.2d 132",
+      "category": "reporters:state",
+      "reporter": "Ill. App. 2d",
+      "case_ids": [
+        1595856
+      ],
+      "year": 1969,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ill-app-2d/108/0132-01"
+      ]
+    },
+    {
+      "cite": "530 U.S. 466",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9413911
+      ],
+      "weight": 3,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "490"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/530/0466-01"
+      ]
+    },
+    {
+      "cite": "922 N.E.2d 758",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "case_ids": [
+        7226502
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "764"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ne2d/922/0758-01"
+      ]
+    },
+    {
+      "cite": "136 S.Ct. 2243",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12598042
+      ],
+      "weight": 3,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "2248",
+          "parenthetical": "internal citations omitted"
+        },
+        {
+          "parenthetical": "internal citations omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/136/2243-01"
+      ]
+    },
+    {
+      "cite": "569 U.S. 184",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12697041
+      ],
+      "weight": 3,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "200-01"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/569/0184-01"
+      ]
+    },
+    {
+      "cite": "570 U.S. 254",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12698469
+      ],
+      "weight": 5,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "261"
+        },
+        {
+          "page": "261"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/570/0254-01"
+      ]
+    },
+    {
+      "cite": "846 N.E.2d 340",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "case_ids": [
+        8416316
+      ],
+      "weight": 3,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "344"
+        },
+        {
+          "page": "342-43"
+        },
+        {
+          "page": "349"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ne2d/846/0340-01"
+      ]
+    },
+    {
+      "cite": "Ind. Code \u00a7 35-41-2-2",
+      "category": "laws:leg_statute",
+      "reporter": "Ind. Code",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "825 N.E.2d 983",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "case_ids": [
+        8961013
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "987"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ne2d/825/0983-01"
+      ]
+    },
+    {
+      "cite": "704 N.E.2d 1008",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "case_ids": [
+        11778357
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "1010"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ne2d/704/1008-01"
+      ]
+    },
+    {
+      "cite": "Ind. Code \u00a7 35-41-5-1",
+      "category": "laws:leg_statute",
+      "reporter": "Ind. Code",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "Ind. Code \u00a7 35-42-5-1",
+      "category": "laws:leg_statute",
+      "reporter": "Ind. Code",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "parenthetical": "emphasis ours"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "827 F.3d 696",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5924914
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "699",
+          "parenthetical": "Hamilton, J., concurring"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/827/0696-01"
+      ]
+    },
+    {
+      "cite": "877 F.3d 717",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12265823
+      ],
+      "weight": 6,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "719"
+        },
+        {
+          "page": "719",
+          "parenthetical": "emphasis ours"
+        },
+        {
+          "page": "719",
+          "parenthetical": "emphasis ours"
+        },
+        {
+          "page": "719",
+          "parenthetical": "emphasis in original"
+        },
+        {
+          "parenthetical": "emphasis in original"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/877/0717-01"
+      ]
+    },
+    {
+      "cite": "833 F.3d 751",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4350487
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "758"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/833/0751-01"
+      ]
+    },
+    {
+      "cite": "604 F.3d 408",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4228309
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "433",
+          "parenthetical": "stating that a violent felony under the Armed Career Criminal Act should be interpreted identically to a \"crime of violence\" in the Sentencing Guidelines"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/604/0408-01"
+      ]
+    },
+    {
+      "cite": "836 F.3d 831",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4354409
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "parenthetical": "\"[W]e refer to cases dealing with the ACCA and the career offender guideline provision interchangeably.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/836/0831-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 16",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "956 F.2d 169",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10519619
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "171",
+          "parenthetical": "\"A transfer hearing is not a criminal proceeding which results in an adjudication of guilt or innocence, but a civil proceeding which results in an adjudication of status.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/956/0169-01"
+      ]
+    },
+    {
+      "cite": "38 F.3d 699",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1852278
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "703",
+          "parenthetical": "noting that a transfer proceeding is civil in nature because it results only in a decision about the status of the individual and not guilt or innocence"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/38/0699-01"
+      ]
+    },
+    {
+      "cite": "55 F.3d 1118",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7415341
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "1122",
+          "parenthetical": "\"The clear and convincing standard is inconsistent with the civil nature of the transfer hearing.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/55/1118-01"
+      ]
+    },
+    {
+      "cite": "49 F.3d 859",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7416702
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "868",
+          "parenthetical": "\"A transfer hearing under the [the juvenile delinquency act] is not a criminal proceeding designed to explore the defendant's guilt or innocence,\" and therefore the clear-and-convincing-evidence standard is not appropriate."
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/49/0859-01"
+      ]
+    },
+    {
+      "cite": "554 F.3d 456",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3683803
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "467",
+          "parenthetical": "\"a transfer proceeding is civil in nature. As such, its purpose is not to incriminate, but to select the proper forum for trial.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/554/0456-01"
+      ]
+    },
+    {
+      "cite": "387 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11333627
+      ],
+      "weight": 3,
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "49",
+          "parenthetical": "finding that a juvenile has right to notice of charges, to counsel, to confrontation and cross-examination of witnesses, and to privilege against self-incrimination, despite the \"civil\" label of the proceedings"
+        },
+        {
+          "parenthetical": "finding that a juvenile has right to notice of charges, to counsel, to confrontation and cross-examination of witnesses, and to privilege against self-incrimination, despite the \"civil\" label of the proceedings"
+        },
+        {
+          "parenthetical": "finding that a juvenile has right to notice of charges, to counsel, to confrontation and cross-examination of witnesses, and to privilege against self-incrimination, despite the \"civil\" label of the proceedings"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/387/0001-01"
+      ]
+    },
+    {
+      "cite": "199 L.Ed.2d 232",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12614583,
+        12614584,
+        12614362,
+        12614586,
+        12614587,
+        12614588,
+        12614589,
+        12614590
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "parenthetical": "reviewing de novo the district court's decision as to whether bank robbery qualifies as a crime of violence"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/0347-03",
+        "/s-ct/138/0347-04",
+        "/s-ct/138/0313-06",
+        "/s-ct/138/0347-06",
+        "/s-ct/138/0348-01",
+        "/s-ct/138/0348-02",
+        "/s-ct/138/0348-03",
+        "/s-ct/138/0348-04"
+      ]
+    },
+    {
+      "cite": "138 S.Ct. 347",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12614581,
+        12614582,
+        12614583,
+        12614584,
+        12614585,
+        12614586
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "parenthetical": "reviewing de novo the district court's decision as to whether bank robbery qualifies as a crime of violence"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/0347-01",
+        "/s-ct/138/0347-02",
+        "/s-ct/138/0347-03",
+        "/s-ct/138/0347-04",
+        "/s-ct/138/0347-05",
+        "/s-ct/138/0347-06"
+      ]
+    },
+    {
+      "cite": "865 F.3d 853",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275680
+      ],
+      "pin_cites": [
+        {
+          "page": "855"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/865/0853-01"
+      ]
+    },
+    {
+      "cite": "196 L.Ed.2d 336",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12607968,
+        12607969,
+        12607970,
+        12607971,
+        12607987,
+        12607967
+      ],
+      "year": 2016,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/137/0456-03",
+        "/s-ct/137/0456-04",
+        "/s-ct/137/0456-05",
+        "/s-ct/137/0456-06",
+        "/s-ct/137/0459-04",
+        "/s-ct/137/0456-02"
+      ]
+    },
+    {
+      "cite": "137 S.Ct. 456",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12607968,
+        12607969,
+        12607970,
+        12607971,
+        12607966,
+        12607967
+      ],
+      "year": 2016,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/137/0456-03",
+        "/s-ct/137/0456-04",
+        "/s-ct/137/0456-05",
+        "/s-ct/137/0456-06",
+        "/s-ct/137/0456-01",
+        "/s-ct/137/0456-02"
+      ]
+    },
+    {
+      "cite": "827 F.3d 712",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4335150
+      ],
+      "pin_cites": [
+        {
+          "page": "717"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/827/0712-01"
+      ]
+    },
+    {
+      "cite": "117 F.3d 730",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11969393
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "731"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/117/0730-01"
+      ]
+    },
+    {
+      "cite": "232 F.3d 1252",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11161123
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "1255"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/232/1252-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 5032",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 9,
+      "pin_cites": [
+        {
+          "parenthetical": "emphasis ours"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 924",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(c)(1)(A)(ii)"
+        },
+        {
+          "page": "(e)(2)(B)(i)"
+        },
+        {
+          "page": "(e)"
+        },
+        {
+          "page": "(e)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 1951",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1001,
+    "char_count": 26764,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2590625939967929
+    },
+    "sha256": "fb4ae1a70173252689339c34f62348d833f76bef682ec4a1d0bdce9f8abaa6e5",
+    "simhash": "1:fadb9644f200a2a9",
+    "word_count": 4512
+  },
+  "last_updated": "2024-02-27T18:45:28.627343+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee,\nv.\nD.D.B., Defendant-Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Rovner, Circuit Judge.\nThe government wishes to try D.D.B. as an adult for robbing a pharmacy. In order to do so, however, it must prove that he had a prior conviction for a violent offense. We must decide, therefore, whether attempted robbery under Indiana law is such an offense-a question that appears cut and dried on its face, but actually poses some challenges.\nI.\nD.D.B., along with an adult accomplice, robbed a pharmacy and was quickly apprehended by the police. Because he was under eighteen years of age at the time, the government charged him with committing acts of juvenile delinquency that would be crimes if committed by an adult-robbery under 18 U.S.C. \u00a7 1951(a) -and carrying, using, and brandishing a firearm during a robbery under 18 U.S.C. \u00a7 924(c)(1)(A)(ii).\nSoon after, the government moved to transfer D.D.B. to adult proceedings. The statute governing such a transfer, 18 U.S.C. \u00a7 5032, mandates a transfer to adult proceedings if all three of the following conditions are met: (1) the juvenile committed the act underlying the charged offense after his sixteenth birthday; (2) the charged offense is a felony that \"has as an element thereof the use, attempted use, or threatened use of physical force against the person of another\"; and (3) the juvenile has previously been found guilty of a crime that \"has as an element thereof the use, attempted use, or threatened use of physical force against the person of another.\" 18 U.S.C. \u00a7 5032. ; see also United States v. M.C.E. , 232 F.3d 1252, 1255 (9th Cir. 2000) ; Impounded , 117 F.3d 730, 731 (3d Cir. 1997).\nThe government originally alleged that D.D.B. had two prior juvenile delinquency adjudications that would serve as predicates for the mandatory transfer under \u00a7 5032. The first was attempted robbery in Indiana, a Class B felony. The second was burglary, also a Class B felony in Indiana. In a supplemental motion the government added a third predicate offense, conspiracy to commit robbery. The district court addressed only the attempted robbery offense in its opinion and concluded that this offense satisfied the grounds for mandatory transfer under \u00a7 5032 -that is, that it was a crime of violence. R. 144 at 9. Because this finding on the attempted robbery offense was sufficient grounds for the mandatory transfer under 18 U.S.C. \u00a7 5032, the district court did not need to reach the issue of whether D.D.B.'s burglary or conspiracy to commit robbery offenses also satisfied \u00a7 5032. D.D.B. contests in this appeal, therefore, only the prior Indiana attempted robbery conviction, claiming that it was not a crime of violence. The government maintains that it was. We must therefore decide if Indiana attempted robbery is a crime of violence, or more technically, \"has as an element thereof the use, attempted use, or threatened use of physical force against the person of another.\"\nThe district court held that it is indeed a crime of violence. Generally, this court reviews a district court's transfer decision under \u00a7 5032 for an abuse of discretion. United States v. Woods , 827 F.3d 712, 717 (7th Cir.), cert. denied, --- U.S. ----, 137 S.Ct. 456, 196 L.Ed.2d 336 (2016). However, we review de novo whether a prior offense constitutes a crime of violence. See, e.g., United States v. Campbell , 865 F.3d 853, 855 (7th Cir.), cert. denied, --- U.S. ----, 138 S.Ct. 347, 199 L.Ed.2d 232 (2017) (reviewing de novo the district court's decision as to whether bank robbery qualifies as a crime of violence).\nA. Was the appeal timely filed?\nBefore deciding whether D.D.B.'s predicate crime of attempted robbery qualifies as a crime of violence, we must address one jurisdictional issue. The government claims that D.D.B. failed to file his appeal of the transfer order within the fourteen days allowed to file a notice of appeal in a criminal matter. Fed. R. App. P. 4(b). D.D.B. claims that he is appealing from a juvenile adjudication which is a civil matter and thus subject to a sixty-day filing time limit. Id. at 4(a). The difference matters because D.D.B. filed his appeal twenty-seven days after the entry of the transfer order.\nFederal agents took D.D.B. into custody on May 15, 2017, and on that same day the government filed a motion for mandatory transfer for criminal prosecution. The judge granted the motion for a transfer to adult proceedings on July 5, 2017, and six days later, on July 11, 2017, the government indicted D.D.B., charging him as an adult. At some point, the exact time of which is unclear, the docket for D.D.B.'s juvenile adjudication merged with the docket for the criminal case. D.D.B.'s counsel did not learn of the merger until August 1, 2017, when the court notified counsel that the notice of appeal that he had filed on July 28, 2017, under the juvenile case number, had to be refiled under the new criminal case number because of the merger.\nWe find that the appeal from a \u00a7 5032 transfer proceeding determination is a transfer from a civil proceeding to a criminal proceeding and thus the timeline for civil proceedings applies. Although juvenile delinquency proceedings are quasi-criminal in some aspects, they are still largely civil in nature. See, e.g., Application of Gault , 387 U.S. 1, 49, 87 S.Ct. 1428, 18 L.Ed.2d 527 (1967) (finding that a juvenile has right to notice of charges, to counsel, to confrontation and cross-examination of witnesses, and to privilege against self-incrimination, despite the \"civil\" label of the proceedings). All courts to have considered the issue have declared that a transfer hearing under \u00a7 5032 is a civil proceeding, as the outcome will determine the juvenile's status rather than her guilt or innocence. See e.g. United States v. Juvenile Male , 554 F.3d 456, 467 (4th Cir. 2009) (\"a transfer proceeding is civil in nature. As such, its purpose is not to incriminate, but to select the proper forum for trial.\"); United States v. Doe , 49 F.3d 859, 868 (2d Cir. 1995) (\"A transfer hearing under the [the juvenile delinquency act] is not a criminal proceeding designed to explore the defendant's guilt or innocence,\" and therefore the clear-and-convincing-evidence standard is not appropriate.); United States v. T.F.F. , 55 F.3d 1118, 1122 (6th Cir. 1995) (\"The clear and convincing standard is inconsistent with the civil nature of the transfer hearing.\"); United States v. A.R. , 38 F.3d 699, 703 (3d Cir. 1994) (noting that a transfer proceeding is civil in nature because it results only in a decision about the status of the individual and not guilt or innocence); United States v. Parker , 956 F.2d 169, 171 (8th Cir. 1992) (\"A transfer hearing is not a criminal proceeding which results in an adjudication of guilt or innocence, but a civil proceeding which results in an adjudication of status.\"). The title and text of the statute itself suggest this result. Section 5032 allows for or mandates a \"transfer for criminal prosecution\" from \"delinquency proceedings in district court.\" 18 U.S.C. \u00a7 5032 (emphasis ours). The statute further instructs, \"no criminal prosecution shall be instituted for the alleged act of juvenile delinquency except as provided below.\" Id.\nThe government correctly does not contest that juvenile proceedings are civil in nature; it argues instead that the civil proceeding ended the moment D.D.B. was transferred for criminal prosecution, or at least when he was indicted and the case docketed under a criminal case number. (It is unclear which of these is the exact point of demarcation to which the government refers-the indictment or the moment when the clerk docketed the case under a criminal cause number). The government concludes, therefore, that D.D.B.'s time to appeal depends on his current status as a criminal defendant rather than the nature of the proceeding from which he is appealing. This cannot be so. The government claims that because it was successful in its transfer proceeding, D.D.B. had but fourteen days to appeal. Under the defendant's theory, if D.D.B. had prevailed in the \u00a7 5032 proceeding and the court had deemed him a delinquent rather than an adult criminal, however, the case would have remained a civil case and the time for appeal would have been sixty days. It simply cannot be that the time for appeal from the same proceeding is sixty days if the juvenile wins and fourteen days if he loses. Time limitations for filing of an appeal cannot depend on which party prevails.\nMoreover, what would have happened if the government had waited 15 days to file the indictment, or 60 days or 120 days (perhaps it was trying to get D.D.B. or his co-defendant to cooperate or was gathering better evidence)? If the government had waited fifteen days after the district court's order to file the indictment, then the matter would have remained a civil matter until day fifteen, and by the time it became a criminal matter it would be too late for D.D.B. to file an appeal from the transfer decision within the fourteen-day limit. The government cannot control when to turn the matter from civil to criminal. If it could, the government could manipulate the indictment and always file at least fifteen days after the decision on the motion to transfer in order to lull the defendant into thinking he had more time, and then shut the defendant out of the possibility of an appeal. And if the event that changes the deadline for filing from sixty days to fifteen days is the date upon which the clerk of the court merges the juvenile docket into the criminal docket, then this would render the clerk the arbiter of the court's jurisdiction-a strange result indeed.\nBut we need not wrestle with these hypothetical possibilities. A transfer proceeding is a civil proceeding for most intents and purposes, and therefore the appeal from it is a civil appeal and may be filed within the sixty-day timeframe for civil appeals. We can turn our attention instead to whether attempted robbery in Indiana is a crime of violence.\nB. Is attempted robbery under Indiana law a violent crime?\nWe begin first with a short explanation of what it means for a crime to be, what we are calling as a shorthand, \"a crime of violence.\" Sprinkled throughout criminal law are various statutes and Sentencing Guidelines that increase penalties or consequences based on a defendant's past crimes. See, e.g., 18 U.S.C. \u00a7 16(a) ; 18 U.S.C. \u00a7 924(e)(2)(B)(i) ; U.S.S.G. \u00a7 4B1.2(a)(1). Many of these statutes increase penalties and consequences if the prior crime is one of violence or a violent felony. For example, the Armed Career Criminal Act (ACCA), 18 U.S.C. \u00a7 924(e), increases the mandatory minimum sentence from ten to fifteen years for certain federal defendants who have three prior convictions for a crime that \"has as an element the use, attempted use, or threatened use of physical force against the person of another.\" 18 U.S.C. \u00a7 924(e). The statute at issue here- 18 U.S.C. \u00a7 5032 -has virtually the same language. We refer to all of these as \"crimes of violence\" as a shorthand even though those words never appear in the statute. Our court has explained that the language within each of these similar statutes should be interpreted the same way. United States v. Edwards , 836 F.3d 831, 834 n.2 (7th Cir. 2016) (\"[W]e refer to cases dealing with the ACCA and the career offender guideline provision interchangeably.\"); Welch v. United States , 604 F.3d 408, 433 (7th Cir. 2010) (stating that a violent felony under the Armed Career Criminal Act should be interpreted identically to a \"crime of violence\" in the Sentencing Guidelines).\nAt first blush, it seems like the answer to the question \"is Indiana attempted robbery a violent crime?\" has been unequivocally answered by two recent decisions from this court, United States v. Duncan , 833 F.3d 751 (7th Cir. 2016), and Hill v. United States , 877 F.3d 717 (7th Cir. 2017). In Duncan , we held that robbery under Indiana law qualifies as a violent felony. Duncan , 833 F.3d at 758. And in Hill we held that \"[w]hen a substantive offense would be a violent felony under \u00a7 924(e) and similar statutes, an attempt to commit that offense also is a violent felony.\" Hill , 877 F.3d at 719. The Hill decision set into law what Judge Hamilton had argued in an earlier concurrence: \"As a matter of statutory interpretation, an attempt to commit a crime should be treated as an attempt to carry out acts that satisfy each element of the completed crime .\" Morris v. United States , 827 F.3d 696, 699 (7th Cir. 2016) (Hamilton, J., concurring) (emphasis in original).\nAnd so it seems Hill would tie this all up neatly in a bow and make for a very concise opinion. There is but one snag: the conclusion in Hill is premised on the notion that a \"conviction of attempt requires proof of intent to commit all elements of the completed crime.\" Hill , 877 F.3d at 719 (emphasis ours), and as we will see in a moment, Indiana's attempted robbery statute is anomalous in that it does not contain an intent requirement. In other words, the reasoning in Hill depends on the premise that the defendant had the proper intent :\nGiven the statutory specification that an element of attempted force operates the same as an element of completed force, and the rule that conviction of attempt requires proof of intent to commit all elements of the completed crime , we now ... adopt Judge Hamilton's analysis as the law of the circuit. When a substantive offense would be a violent felony under \u00a7 924(e) and similar statutes, an attempt to commit that offense also is a violent felony.\nId. at 719 (emphasis ours). We note that the holding of Hill starts with two particular \"givens\" or premises. The first one (which is not at issue in this case) is that an element of attempted force operates the same as an element of completed force. The second premise, and the one that is critical to this case, is that \"conviction of attempt requires proof of intent to commit all elements of the completed crime\" Id .\nIn Morris , Judge Hamilton hung his hat on this same intent hook when reasoning in his concurrence that \"[a]ttempt requires intent to commit the completed crime plus a substantial step toward its completion.\" Morris , 827 F.3d at 698 (Hamilton, J. concurring) (emphasis ours). And, as we explained in Hill :\nJudge Hamilton recognized that the crime of attempt requires only a substantial step toward completion, but he thought it sufficient that one must intend to commit every element of the completed crime in order to be guilty of attempt. When the intent element of the attempt offense includes intent to commit violence against the person of another, Judge Hamilton concluded, it makes sense to say that the attempt crime itself includes violence as an element.\nHill , 877 F.3d at 719 (emphasis in original). In other words, the premise of both Judge Hamilton's concurrence in Morris and the panel decision in Hill is that the attempt law contains an intent provision because \"one must intend to commit every element of the completed crime in order to be guilty of attempt.\" Id. (emphasis in original).\nIn most criminal attempt statutes this premise is true-that is, the statute requires proof of intent to commit every element of the completed crime. For example, Illinois' attempt statute, which was at issue in Hill, states, \"A person commits the offense of attempt when, with intent to commit a specific offense , he or she does any act that constitutes a substantial step toward the commission of that offense.\"\n720 ILCS 5/8-4 (emphasis added). The crime of attempted robbery in Illinois thus requires proof of intent to carry out all of the elements of the crime of robbery, including the element of \"use of force or by threatening the imminent use of force.\" 720 ILCS 5/18-1(a).\nIndiana, however, is anomalous. That State's definition of attempted robbery does not require intent. Indiana's attempted robbery definition arises from a reading of the robbery and attempt statute together. They state as follows:\nInd. Code \u00a7 35-42-5-1. Robbery.\na person who knowingly or intentionally takes property from another person or from the presence of another person:\n(1) by using or threatening the use of force on any person; or\n(2) by putting any person in fear;\ncommits robbery ...\nInd. Code \u00a7 35-41-5-1(a). Attempt\nA person attempts to commit a crime when, acting with the culpability required for commission of the crime, the person engages in conduct that constitutes a substantial step toward commission of the crime.\nThe Indiana Supreme Court has been clear that the Indiana attempt law does not require the government to show intent (other than for murder), but rather only that a defendant took a substantial step toward commission of the crime. Richeson v. State , 704 N.E.2d 1008, 1010 (Ind. 1998). In other words, the Indiana \"statutes defining attempt and robbery do not require the State to prove that the defendant intended to commit robbery.\" Henderson v. State , 825 N.E.2d 983, 987 (Ind. Ct. App. 2005).\nOne must commit the crime only with \"the culpability required for commission of the crime.\" Ind. Code \u00a7 35-41-5-1. In the case of robbery, the culpability required for the commission of the crime would be \"knowingly or intentionally.\" Ind. Code \u00a7 35-42-5-1 (emphasis ours). Indiana describes the difference between \"intentional\" and \"knowing\" as follows: In Indiana, \"a person engages in conduct 'intentionally' if, when he engages in the conduct, it is his conscious objective to do so.\" Ind. Code \u00a7 35-41-2-2(a). \"A person engages in conduct 'knowingly' if, when he engages in the conduct, he is aware of a high probability that he is doing so.\" Ind. Code \u00a7 35-41-2-2(b). Moreover, the \"substantial step\" of which the Indiana Attempt law speaks must be significant; mere preparation is not enough. Collier v. State , 846 N.E.2d 340, 344 (Ind. Ct. App. 2006). And so for example, it was not enough to constitute substantial steps when a defendant drove to the place of his estranged wife's employment and parked outside the en-trance with a box cutter and an ice pick, notwithstanding the fact that he had just told his friend: \"Tonight's the night. I'm gonna do it ... I'm gonna stab her in the effin' heart twice. I'm gonna cut her effin' throat.\" Id. at 342-43. The court concluded that because the police found him in his trunk passed out from alcohol, his prior steps were not substantial steps toward the act, but rather mere preparation. Id. at 349.\nTo understand why the lack of intent in the Indiana attempted robbery statute is important, we need to backtrack a bit and discuss what is essential to the understanding of a predicate crime. To determine whether a prior crime is a crime of violence, we look at the crime categorically. That is, we look only at the elements of the offense and not the facts underlying the conviction. Descamps v. United States , 570 U.S. 254, 261, 133 S.Ct. 2276, 186 L.Ed.2d 438 (2013). \"The categorical approach serves 'practical' purposes: It promotes judicial and administrative efficiency by precluding the relitigation of past convictions in minitrials conducted long after the fact.\" Moncrieffe v. Holder , 569 U.S. 184, 200-01, 133 S.Ct. 1678, 185 L.Ed.2d 727 (2013). \"We therefore look only at statutory definitions-i.e., the elements-of a defendant's prior offenses, and not to the particular facts underlying those convictions.\" Descamps , 570 U.S. at 261, 133 S.Ct. 2276. \"Elements are the constituent parts of a crime's legal definition-the things the prosecution must prove to sustain a conviction. At a trial, they are what the jury must find beyond a reasonable doubt to convict the defendant; and at a plea hearing, they are what the defendant necessarily admits when he pleads guilty.\" Mathis v. United States , --- U.S. ----, 136 S.Ct. 2243, 2248, 195 L.Ed.2d 604 (2016) (internal citations omitted). Anything that is not an element is extraneous to the crime's legal requirements. See id. In other words, no jury (or judge acting as a finder of fact) ever found that D.D.B. had any intent to commit any of the elements of robbery. As is the procedure when looking at predicate crimes categorically, the only evidence we have of D.D.B.'s prior crimes is the docket entries for the two prior cases in Marion County, Indiana. Therefore, the only fact we consider about the prior crime is the fact of conviction (or, in this case, the finding of juvenile delinquency) and the elements of the crime. We cannot consider any of the facts, details, or inferences about those underlying crimes. D.D.B.'s prior adjudication for attempted robbery required only a finding of the following elements:\n(1) engaging in conduct that constitutes a substantial step toward;\n(2) the knowing or intentional;\n(3) taking of property from the person or presence of another;\n(4) by using or threatening the use of force on another person or putting another person in fear.\nStokes v. State , 922 N.E.2d 758, 764 (Ind. Ct. App. 2010). See also, Ind. Pattern Jury Instruction (criminal) No. 2.0100. Intent is not an element and so a conviction by itself does not establish that the defendant had intent. He could simply knowingly take a substantial step toward the taking of property through force or fear. One would have to look behind the conviction to the underlying facts to know if he had the intent to commit the crime, and this we cannot do.\nUnder the holding of Apprendi, any fact that increases the penalty for a crime beyond the prescribed statutory maximum must be submitted to a jury and proved beyond a reasonable doubt. Apprendi v. New Jersey , 530 U.S. 466, 490, 120 S.Ct. 2348, 147 L.Ed.2d 435 (2000). Because intent is not an element of attempted robbery in Indiana, no jury or finder of fact has ever found that D.D.B. had any intent to use force, threaten to use force on another person, or put another person in fear. As a point of comparison, a person who has been convicted of attempted robbery in Illinois has necessarily been found by a jury (or judge acting as trier of fact) to have had an intent to use force, threaten to use force on another person, or put another person in fear. This is because \"[p]roof of specific intent to rob\" is an essential element of the crime of attempted robbery under Illinois law. People v. Turner , 108 Ill.App.2d 132, 246 N.E.2d 817, 820 (1969) ; People v. Hawkins , 54 Ill.App.2d 212, 203 N.E.2d 761, 763 (1964). Therefore, the defendant must have intended to commit each element of the crime. This makes D.D.B.'s attempted robbery conviction in Indiana significantly different than, for example, Morris ' attempted robbery conviction in Illinois, and takes this case out of the line of reasoning of Morris and Hill . We simply cannot say that the defendant intended to commit every element of the completed crime just because he was found to be guilty of attempted robbery in Indiana. We cannot say anything about the defendant's intent, because it was not part of the jury's finding in the predicate crime.\nOne way to view the reasoning in Hill is to say that under the definition of attempted robbery in Illinois, once a person intends to attempt to commit robbery, that person has made a decision that she is \"all in\" on all aspects of the crime, including the violence. \"Even though the substantial step(s) may have fallen short of actual or threatened physical force, the criminal has, by definition, attempted to use or threaten physical force because he has attempted to commit a crime that would be violent if completed.\" Morris , 827 F.3d at 698 (Hamilton, J., concurring). We can logically say, therefore, that the \"attempt to commit the crime necessarily includes an attempt to use or to threaten use of physical force against the person or property of another.\" Id. at 699. But we cannot say the same about the person who is attempting robbery in Indiana. We do not know what the Indiana robber's intent was if the crime has been interrupted and has merely been attempted, but not completed, as a conviction for attempt does not require proof of intent.\nThe district court erred by simply applying the rationale of Duncan and Hill -that any attempted violent felony is itself a violent felony-to the crime of attempted robbery in Indiana. The district court failed to consider the import of intent to this analysis and the lack of an intent requirement in Indiana's crime of attempted robbery.\nIn sum, because the crime of attempted robbery in Indiana does not require a finding of intent, the reasoning of Hill does not apply. No finder-of-fact has found that D.D.B. had an intent to use, attempt to use, or threatened the use of physical force against the person of another. 18 U.S.C. \u00a7 5032. D.D.B. filed his appeal in a timely manner. Of course, on remand, the government is free to raise the other two predicate crimes of burglary and conspiracy to commit robbery again as it has preserved those issues by raising them with the district court. The judgment of the district court is VACATED and the case is remanded for further proceedings consistent with this decision.\nSection 5032 also contains what has been called in other contexts, a \"residual clause,\" which requires mandatory transfer where a juvenile's predicate crime involves a \"substantial risk\" that physical force may be used in committing the offense. Id. The government does not rely on this clause so we need not delve into the current questions about residual clauses and their constitutionality. See, e.g., Sessions v. Dimaya , --- U.S. ----, 138 S.Ct. 1204, 200 L.Ed.2d 549 (2018) ; Johnson v. United States , --- U.S. ----, 135 S.Ct. 2551, 192 L.Ed.2d 569 (2015).\nIn Duncan , we held that Indiana robbery was a violent felony under the Armed Career Criminal Act (ACCA), 18 U.S.C. 924(e)(2)(B)(i), which defines \"violent felony\" as \"any crime punishable by imprisonment for a term exceeding one year, or any act of juvenile delinquency involving the use or carrying of a firearm, knife, or destructive device that would be punishable by imprisonment for such term if committed by an adult, that-\n(i) has as an element the use, attempted use, or threatened use of physical force against the person of another.\" 18 U.S.C.A. \u00a7 924(e)(2)(B)(i).\nApprendi excludes from this rule \"the fact of a prior conviction.\" In this case, neither party contests the fact of D.D.B.'s prior conviction for attempted robbery in Indiana. The only issue is what that crime entails, that is, whether it necessarily includes an intent to commit violence in a way that would qualify it as a violent crime under 18 U.S.C. \u00a7 5032.",
+        "type": "majority",
+        "author": "Rovner, Circuit Judge."
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee,\nv.\nD.D.B., Defendant-Appellant.\nNo. 17-2563\nUnited States Court of Appeals, Seventh Circuit.\nArgued February 16, 2018\nDecided September 11, 2018"
+  },
+  "file_name": "0684-01",
+  "first_page_order": 684,
+  "last_page_order": 693
+}

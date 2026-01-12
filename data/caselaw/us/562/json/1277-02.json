@@ -1,0 +1,59 @@
+{
+  "id": 5985176,
+  "name": "Allen v. Wisconsin",
+  "name_abbreviation": "Allen v. Wisconsin",
+  "decision_date": "2011-03-07",
+  "docket_number": "No. 10-8512",
+  "first_page": "1277",
+  "last_page": "1277",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1277"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 66,
+    "ocr_confidence": 0.629,
+    "sha256": "786e96f49a5a17c98b26921ba0814f5ac69f58abf8f48619bfa04d54f3e736bd",
+    "simhash": "1:8c87d9ba82956795",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Allen v. Wisconsin."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Wis. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8512.\nAllen v. Wisconsin."
+  },
+  "file_name": "1277-02",
+  "first_page_order": 1299,
+  "last_page_order": 1299
+}

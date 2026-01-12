@@ -1,0 +1,59 @@
+{
+  "id": 12414973,
+  "name": "Haggard v. City of Jackson, Mississippi",
+  "name_abbreviation": "Haggard v. City of Jackson",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-34",
+  "first_page": "884",
+  "last_page": "884",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 884"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 86,
+    "ocr_confidence": 0.567,
+    "sha256": "fcd02173fbad1ce647029c83c1ff89e926d37811159da1504d67655bd5ce21d3",
+    "simhash": "1:1305500868cd8200",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Haggard v. City of Jackson, Mississippi."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Miss. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-34.\nHaggard v. City of Jackson, Mississippi."
+  },
+  "file_name": "0884-03",
+  "first_page_order": 960,
+  "last_page_order": 960
+}

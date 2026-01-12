@@ -1,0 +1,59 @@
+{
+  "id": 6001724,
+  "name": "Baker v. California",
+  "name_abbreviation": "Baker v. California",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 10-6745",
+  "first_page": "1071",
+  "last_page": "1071",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1071"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 69,
+    "ocr_confidence": 0.6,
+    "sha256": "1dacb8f36ce6b4c851b1cde4da947fab695218bbad940601a6681afc7edc30e7",
+    "simhash": "1:540d25e799a9d1fd",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Baker v. California."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6745.\nBaker v. California."
+  },
+  "file_name": "1071-01",
+  "first_page_order": 1093,
+  "last_page_order": 1093
+}

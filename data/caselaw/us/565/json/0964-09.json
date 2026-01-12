@@ -1,0 +1,59 @@
+{
+  "id": 12229138,
+  "name": "Gonsales Campos v. United States",
+  "name_abbreviation": "Gonsales Campos v. United States",
+  "decision_date": "2011-10-17",
+  "docket_number": "No. 11-5343",
+  "first_page": "964",
+  "last_page": "964",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 964"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 82,
+    "ocr_confidence": 0.706,
+    "sha256": "e58bbbff5672514b0f0ebed2be2b7e0eef8c1201dd8323be138a6c3da5a46b4c",
+    "simhash": "1:1f38c80303819010",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gonsales Campos v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5343.\nGonsales Campos v. United States."
+  },
+  "file_name": "0964-09",
+  "first_page_order": 1046,
+  "last_page_order": 1046
+}

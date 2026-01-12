@@ -1,0 +1,59 @@
+{
+  "id": 12422140,
+  "name": "Greene v. Department of Justice",
+  "name_abbreviation": "Greene v. Department of Justice",
+  "decision_date": "2012-11-05",
+  "docket_number": "No. 12-6471",
+  "first_page": "1003",
+  "last_page": "1003",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1003"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 80,
+    "ocr_confidence": 0.655,
+    "sha256": "1b1b8c334e7b156caa1dfdc7fc856bc224f7e131564dc85212609202df0f551b",
+    "simhash": "1:938802434a3f98c0",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Greene v. Department of Justice."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6471.\nGreene v. Department of Justice."
+  },
+  "file_name": "1003-01",
+  "first_page_order": 1079,
+  "last_page_order": 1079
+}

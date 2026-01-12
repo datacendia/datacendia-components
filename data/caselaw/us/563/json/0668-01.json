@@ -1,0 +1,393 @@
+{
+  "id": 5945839,
+  "name": "FOWLER v. UNITED STATES",
+  "name_abbreviation": "Fowler v. United States",
+  "decision_date": "2011-05-26",
+  "docket_number": "No. 10-5443",
+  "first_page": "668",
+  "last_page": "691",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 668"
+    },
+    {
+      "type": "parallel",
+      "cite": "179 L. Ed. 2d 1099"
+    },
+    {
+      "type": "parallel",
+      "cite": "131 S. Ct. 2045"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2010-049"
+    },
+    {
+      "type": "vendor",
+      "cite": "2011 U.S. LEXIS 4019"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "529 U. S. 848",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9509211
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "858",
+          "parenthetical": "\"[Ujnless Congress conveys its purpose clearly, it will not be deemed to have significantly changed the federal-state balance in the prosecution of crimes\" (internal quotation marks omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/529/0848-01"
+      ]
+    },
+    {
+      "cite": "510 U. S. 135",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        231570
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "140-141",
+          "parenthetical": "expressing particular reluctance to \"treat statutory terms\" as \"surplusage\" \"when the words describe an element of a criminal offense\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/510/0135-01"
+      ]
+    },
+    {
+      "cite": "533 U. S. 167",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9312991
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "174",
+          "parenthetical": "normally we must give effect \"to every clause and word of a statute\" (internal quotation marks omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/533/0167-01"
+      ]
+    },
+    {
+      "cite": "536 F. 3d 819",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5764803
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "824-825"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/536/0819-01"
+      ]
+    },
+    {
+      "cite": "185 F. 3d 407",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11584820
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "422-423"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/185/0407-01"
+      ]
+    },
+    {
+      "cite": "113 F. 3d 1345",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        336561
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "1349"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/113/1345-01"
+      ]
+    },
+    {
+      "cite": "544 U. S. 902",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 2005,
+      "opinion_index": 0
+    },
+    {
+      "cite": "372 F. 3d 86",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9230317
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "91-92",
+          "parenthetical": "requiring Government to show federal crime along with \" 'additional appropriate evidence'\" that \"the victim plausibly might have turned to federal officials\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/372/0086-01"
+      ]
+    },
+    {
+      "cite": "498 F. 3d 278",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3629378
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "286",
+          "parenthetical": "\"So long as the information the defendant seeks to suppress actually relates to the commission or possible commission of a federal offense, the federal nexus requirement is established\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/498/0278-01"
+      ]
+    },
+    {
+      "cite": "603 F. 3d 883",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4226363
+      ],
+      "weight": 2,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "888"
+        },
+        {
+          "page": "888",
+          "parenthetical": "requiring showing of a \"possible or potential communication to federal authorities\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/603/0883-01"
+      ]
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 1512",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)",
+          "parenthetical": "C"
+        },
+        {
+          "page": "(a)(1)(C)",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "553 U. S. 124",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3674213
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "136"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/553/0124-01"
+      ]
+    },
+    {
+      "cite": "529 U. S. 848",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9509211
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "858",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/529/0848-01"
+      ]
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 1512",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(1)(C)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "18 U. S. C. \u00a7\u00a7 371",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "469 U. S. 57",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11958569
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "67"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/469/0057-01"
+      ]
+    },
+    {
+      "cite": "529 U. S. 848",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9509211
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "858"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/529/0848-01"
+      ]
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 1512",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)(1)(C)"
+        }
+      ],
+      "opinion_index": 2
+    }
+  ],
+  "analysis": {
+    "cardinality": 1251,
+    "char_count": 43893,
+    "ocr_confidence": 0.591,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.17197913855209318
+    },
+    "sha256": "07ec718c16d4dc69e93f855969c5cc39b089d1d89aa0cb4661feec6e24da1cf6",
+    "simhash": "1:98e0fbed6d8f134f",
+    "word_count": 7173
+  },
+  "last_updated": "2024-02-27T23:44:09.189648+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Breyer, X, delivered the opinion of the Court, in which Roberts, C. X, and Kennedy, Thomas, Sotomayor, and Kagan, JX, joined. Scalia, X, filed an opinion concurring in the judgment, post, p. 678. Alito, X, filed a dissenting opinion, in which Ginsburg, X, joined, post, p. 685."
+    ],
+    "parties": [
+      "FOWLER v. UNITED STATES"
+    ],
+    "opinions": [
+      {
+        "text": "Justice Breyer\ndelivered the opinion of the Court.\nThe federal witness tampering statute makes it a crime \u201cto kill another person, with intent to . . . prevent the communication by any person to a law enforcement officer ... of the United States\u201d of \u201cinformation relating to the . . . possible commission of a Federal offense.\u201d 18 U. S. C. \u00a7 1512(a) (1)(C). We focus on instances where a defendant killed a person with an intent to prevent that person from communicating with law enforcement officers in general but where the defendant did not have federal law enforcement officers (or any specific individuals) particularly in mind. The question before us concerns what, if anything, the Government must show beyond this broad indefinite intent in order to show that the defendant more particularly intended to prevent communication with federal officers as well. We hold that, in such circumstances, the Government must show that there was a reasonable likelihood that a relevant communication would have been made to a federal officer.\nI\nIn the early morning hours of March 3, 1998, Charles Fowler and several other men prepared to rob a Florida bank. They met in a cemetery, put on black clothes and gloves, began to drink and use drugs, and discussed the proposed crime. Shortly before daybreak a local police officer, Todd Horner, came upon the group. He pulled out his gun and asked the men to identify themselves. Fowler and some of the others managed to overcome Horner and take his gun. After Horner spoke to one of the men by name, Fowler said, \u201cNow we can\u2019t walk away from this thing.\u201d App. 38 (internal quotation marks omitted). And he shot and killed Horner.\nFederal authorities charged Fowler with violating the federal witness tampering statute. He was convicted. On appeal, Fowler argued that the evidence was insufficient to show that he had killed Horner intending to prevent Horner from communicating with a federal officer. The Eleventh Circuit disagreed. It held that a showing of a \u201cpossible or potential communication to federal authorities\u201d was sufficient. 603 F. 3d 883, 888 (2010).\nFowler sought certiorari. And because the Circuits have disagreed about this last-mentioned matter, we granted Fowler\u2019s petition for certiorari. Compare United States v. Harris, 498 F. 3d 278, 286 (CA4 2007) (\u201cSo long as the information the defendant seeks to suppress actually relates to the commission or possible commission of a federal offense, the federal nexus requirement is established\u201d), with United States v. Lopez, 372 F. 3d 86, 91-92 (CA2 2004) (requiring Government to show federal crime along with \u201c \u2018additional appropriate evidence\u2019\u201d that \u201cthe victim plausibly might have turned to federal officials\u201d), vacated and remanded on other grounds, 544 U. S. 902 (2005); see also United States v. Bell, 113 F. 3d 1345, 1349 (CA3 1997); United States v. Causey, 185 F. 3d 407, 422-423 (CA5 1999); United States v. Wright, 536 F. 3d 819, 824-825 (CA8 2008).\nII\nThe federal witness tampering statute in relevant part forbids the \u201ckill[ing] or attempted] kill[ing]\u201d of \u201canother person\u201d with a certain \u201cintent,\u201d namely, an\n\u201cintent to ... prevent the communication by any person to a law enforcement officer or judge of the United States of information relating to the commission or possible commission of a Federal offense . . . .\u201d 18 U.S. C. \u00a7 1512(a)(1)(C).\nA related subsection says that in a prosecution for this offense\n\u201cno state of mind need be proved with respect to the circumstance ... that the judge is a judge of the United States or that the law enforcement officer is an officer or employee of the Federal Government . . . \u00a7 1512(g)(2).\nThis language makes clear that in a prosecution the Government must prove (1) a killing or attempted killing, (2) committed with a particular intent, namely, an intent (a) to \u201cprevent\u201d a \u201ccommunication\u201d (b) about \u201cthe commission or possible commission of a Federal offense\u201d (c) to a federal \u201claw enforcement officer or judge.\u201d\nThe question here is how this language applies when a defendant (1) kills a victim, (2) with an intent (a) to prevent a communication (b) about the commission or possible commission of a federal offense but (c) to law enforcement officers in general rather than to some specific law enforcement officer or set of officers which the defendant has in mind. This kind of circumstance is not necessarily rare, as the facts here illustrate. Fowler (we here assume) was not thinking specifically about federal officers, but he would nonetheless have wanted to prevent communication with federal officers from taking place (had he considered the matter).\nIll\nWhen the defendant has in mind a particular individual or a particular set of individuals with whom he fears the victim might communicate, the application of the statute is relatively clear. For instance, if a defendant kills a victim with the intent of preventing the victim from communicating with a particular individual, say, John Smith, who the defendant knows is a federal law enforcement officer, the statute fits like a glove. If a defendant kills a victim with the intent of preventing the victim from communicating with Sam Smith, who is in fact (but who the defendant does not know is) a federal law enforcement officer, the statute still fits, for it specifically says that \u201cno state of mind need be proved\u201d with respect to this last-mentioned -circumstance.\nNothing in the statutory language, however, limits it to these kinds of instances, instances in which the defendant has some law enforcement officer or set of officers, or other identifiable individuals, particularly in mind. Moreover, any such limitation would conflict with the statute\u2019s basic purpose. Witness tampering may prove more serious (and more effective) when the crime takes place before the victim has engaged in any communication at all with law enforcement officers \u2014 at a time when the precise communication and nature of the officer who may receive it are not yet known. Cf., e. g., S. Rep. No. 97-532, pp. 14, 15 (1982) (statute applies \u201cto offenses against witnesses, victims, or informants which occur before the witness testifies or the informant communicates with law enforcement officers\u201d); id., at 19 (Witness \u201c[ijntimidation offenses are particularly insidious and do violence to traditional notions of justice because no one can be convicted of a crime which is not reported. [Section 1512] reaches intimidation offenses committed before a crime is reported to the appropriate authorities\u201d). Hence the statute covers a defendant who kills with intent to prevent communication with law enforcement officers generally (i. e., with any and all law enforcement officers). And we must consequently decide what, if anything, the Government must show about the likelihood of a hypothetical communication with a federal law enforcement officer in circumstances where the defendant did not think specifically about any particular communication or its recipient.\nIn these circumstances, the application of the statute is not as simple. We cannot determine whether the individual the defendant had in mind is in fact a federal officer, because the defendant did not have a particular individual in mind. And we cannot insist that the defendant have had some general thought about federal officers in mind because the statute says that \u201cno state of mind need be proved\u201d in respect to the federal nature of the communication\u2019s recipient. \u00a7 1512(g)(2). What, then, must the Government show to prove that such a defendant intended to prevent communications to federal officers?\nWe begin with two basic propositions. First, in our view, the Government need not show beyond a reasonable doubt (or even that it is more likely than not) that the hypothetical communication would have been to a federal officer. No Circuit has adopted this interpretation, and no party argues for it here. But see post, at 679-680 (Scalia, J., concurring in judgment). And for good reason: The relevant question concerns the defendant\u2019s intent. The Government will already have shown beyond a reasonable doubt that the defendant possessed the. relevant broad indefinite intent, namely, the intent to prevent the victim from communicating with (unspecified) law enforcement officers. And one can possess an intent (i. e., one can act in order to bring about a certain state of affairs) even if there is considerable doubt whether the event that the intent contemplates will in fact occur. One can, for example, put up shutters with the intent of protecting the furniture from hurricane damage even if there is considerable doubt that any hurricane will actually occur. One can drive to Fenway Park with the intent of seeing the Red Sox play that afternoon even if a mistake about the date means the stadium is empty. One can blow up a bridge with the intent of stopping an advancing army, even if the army advances regardless, along a different route. And, similarly, a defendant can kill a victim with an intent to prevent the victim from communicating with federal law enforcement officers even if there is some considerable doubt that any such communication would otherwise have taken place.\nBut, second, the Government must show more than the broad indefinite intent we have described, the intent to prevent communications to law enforcement officers in general. That is so for two separate reasons. For one thing, the statute speaks of an \u201cintent to prevent\u201d something. But (apart from mistakes, as in our Red Sox example) one cannot act with an \u201cintent to prevent\u201d something that could not possibly have taken place regardless. We can speak of a Colorado trout fisherman who tries to prevent his trout stream from being invaded by pike or carp, but in ordinary circumstances we cannot speak about trying to prevent the stream\u2019s invasion by whales. Indeed, the dictionary defines \u201cprevent\u201d as \u201cto render (an intended, possible, or likely action or event) impractical or impossible by anticipatory action.\u201d OED Online (Mar. 2011) (emphasis added), http://www.oed.com/view/ Entry/151073?rskey=QWN6QB&result=2&=false (all Internet materials as visited May 23, 2011, and available in Clerk of Court\u2019s case file).\nFor another thing, to allow the Government to show no more than the broad indefinite intent we have described (the intent to prevent communications to law enforcement officers in general) would bring within the scope of this statute many instances of witness tampering in purely state investigations and proceedings, thus extending the scope of this federal statute well beyond the primarily federal area that Congress had in mind. See infra, at 677. For both these reasons, unlike the dissent, we cannot read the statute as intending to excuse the Government from proving something about the hypothetical communication with federal officers. The question remains, what is that something?\nIV\nWe find possible answers to this question in the dictionary definition of the word \u201cprevent.\u201d As we have said, that word applies where a defendant, by \u201canticipatory action,\u201d (here, killing a victim) intended \u201cto render . . . impractical or impossible\u201d an \u201caction or event\u201d (here, the victim\u2019s communication with a federal law enforcement officer) which (1) was \u201cintended,\u201d (2) was \u201cpossible,\u201d or (3) was \u201clikely\u201d to have otherwise occurred.\nNo one suggests that the first word, the word \u201cintended,\u201d sets forth the appropriate standard. That word in this context refers to the victim\u2019s intent. That intent is often difficult to discern. Moreover, to require the Government to prove it would prevent the statute from applying where it is plain that federal officers would have been involved in investigating and prosecuting the offense (for instance, robbing the United States Bullion Depository at Fort Knox), but where the defendant killed the victim before the victim had decided to communicate to law enforcement officers. Congress, however, intended the statute to apply in these last-mentioned circumstances. See swpra, at 672.\nThe Government (and the Eleventh Circuit) would rest their standard on the second word, the word \u201cpossible.\u201d See Brief for United States 10 (standard is \u201cwhether it was reasonably possible that at least one of the communications that the murder . . . was intended to prevent would have been with a federal law enforcement official\u201d); 603 F. 3d, at 888 (requiring showing of a \u201cpossible or potential communication to federal authorities\u201d). But, in our view, that standard is difficult to reconcile with the statute\u2019s language and its intended, basically federal, scope. Cf. supra, at 675.\nOften, when a defendant acts in ways that violate state criminal law, some or all of those acts will violate federal criminal law as well. And where a federal crime is at issue, communication with federal law enforcement officers is almost always a possibility. Thus, to allow the Government to show only a mere possibility that a communication would have been with federal officials is to permit the Government to show little more than the possible commission of a federal offense. (That is to say, the latter showing by itself would almost automatically show the statutorily necessary connection with a federal law enforcement officer.) The \u201cpossibility\u201d standard would thereby weaken or eliminate the independent force of the separate statutory requirement that the defendant, in killing the victim, must intend to prevent communication with one who is \u201ca law enforcement officer or judge of the United States.\u201d 18 U. S. C. \u00a7 1512(a)(1)(C) (emphasis added); see \u00a7 1515(a)(4) (defining \u201claw enforcement officer\u201d as \u201can officer or employee of the Federal Government\u201d (emphasis added)). Cf. Duncan v. Walker, 533 U. S. 167, 174 (2001) (normally we must give effect \u201cto every clause and word of a statute\u201d (internal quotation marks omitted)); Ratzlaf v. United States, 510 U. S. 135, 140-141 (1994) (expressing particular reluctance to \u201ctreat statutory terms\u201d as \u201csurplusage\u201d \u201cwhen the words describe an element of a criminal offense\u201d).\nMoreover, because of the frequent overlap between state and federal crimes, the use of a standard based on the word \u201cpossible\u201d would transform a federally oriented statute into a statute that would deal with crimes, investigations, and witness tampering that, as a practical matter, are purely state in nature. See, e. g., Dept, of Justice, Bureau of Justice Statistics (FY 2008 Persons arrested and booked, Drug offense: Marijuana), http://bjs.ojp.usdoj.gov/fjsrc; Dept, of Justice, Federal Bureau of Investigation, 2008 Crime in the United States (Arrests), http://www2.fbi.gov/ucr/cius2008/ arrests/index.html; (Table 29), http://www2.fbi.gov/ucr/ cius2008/data/table_29.html (In 2008, 0.7% of arrests for marijuana offenses were made by federal law enforcement officers); see also Jones v. United States, 529 U. S. 848, 858 (2000) (\u201c[Ujnless Congress conveys its purpose clearly, it will not be deemed to have significantly changed the federal-state balance in the prosecution of crimes\u201d (internal quotation marks omitted)).\nThe defendant argues that we should fashion a standard based on the third word, the word \u201clikely.\u201d And we agree that doing so is consistent with the statute\u2019s language and objectives. We consequently hold that (in a case such as this one where the defendant does not have particular federal law enforcement officers in mind) the Government must show a reasonable likelihood that, had, e. g., the victim communicated with law enforcement officers, at least one relevant communication would have been made to a federal law enforcement officer. That is to say, where the defendant kills a person with an intent to prevent communication with law enforcement officers generally, that intent includes an intent to prevent communications with federal law enforcement officers only if it is reasonably likely under the circumstances that (in the absence of the killing) at least one of the relevant communications would have been made to a federal officer.\nThe Government need not show that such a communication, had it occurred, would have been federal beyond a reasonable doubt, nor even that it is more likely than not. For, as we have said, one can act with an intent to prevent an event from occurring without it being true beyond a reasonable doubt (or even more likely than not) that the event would otherwise occur. (Recall the homeowner who closes his shutters in order to prevent damage from a hurricane that may not happen. Supra, at 674.) But the Government must show that the likelihood of communication to a federal officer was more than remote, outlandish, or simply hypothetical. Jones, who kills Smith to prevent his communicating with law enforcement officers in general, does not kill Smith to prevent his communicating with Lithuanian law enforcement officers, for there is no reasonable likelihood that any Lithuanian officers would become involved.\nV\nFowler argues that the evidence in this case is insufficient to satisfy a \u201creasonable likelihood\u201d standard. He concedes, however, that he did not raise this question specifically at trial. Tr. of Oral Arg. 21-22. We leave it to the lower courts to determine whether, and how, the standard applies in this particular case.\nThe judgment of the Court of Appeals for the Eleventh Circuit is vacated, and the case is remanded for further proceedings consistent with this opinion.\nIt is so ordered.",
+        "type": "majority",
+        "author": "Justice Breyer"
+      },
+      {
+        "text": "Justice Scalia,\nconcurring in the judgment.\nI disagree with the Court\u2019s interpretation of 18 U. S. C. \u00a7 1512(a)(1)(C). In my view, the Government must prove that the defendant intended to prevent a communication which, had it been made, would beyond a reasonable doubt have been made to a federal law enforcement officer. The Court\u2019s vague \u201creasonable likelihood\u201d standard has no basis in the statutory text and will serve only to confuse judges and juries. Accordingly, although I agree the case should be remanded for the Eleventh Circuit to consider whether the objection to sufficiency of the evidence was preserved or whether the District Court committed plain error, I would hold that there was insufficient evidence to support Fowler\u2019s conviction.\nI\nSection 1512(a)(1)(C) of Title 18 makes it a federal crime \u201cto kill another person, with intent to . . . prevent the communication by any person to a law enforcement officer ... of the United States of information relating to the commission or possible commission of a Federal offense.\u201d Viewed in isolation, this provision contains an ambiguity: Does the mens rea of the statute include a specific intent to prevent communication to a law enforcement officer of the United States; or is it satisfied by the mere intent to prevent communication to a law enforcement officer who happens to be a law enforcement officer of the United States?\nHappily, a different statutory provision resolves this ambiguity. It states that \u201cno state of mind need be proved with respect to the circumstance . . . that the law enforcement officer is an officer or employee of the Federal Government.\u201d \u00a7 1512(g)(2). This makes clear that the first possibility is wrong, and the second right. But removing the \u201cfederal officer\u201d requirement as an element of the statute\u2019s mens rea does not remove it as an element of the actus reus \u2014 that is, as an element of the facts that must be proved for conviction. It must be proved, and proved beyond a reasonable doubt, that the communication intended to be prevented was communication to a federal officer. Thus, if a suspect in an investigation murders an informant to prevent him from talking to authorities, but is unaware that the informant was working for the FBI, the suspect would be guilty: He would have committed a murder with the intention of preventing the informant\u2019s communication to authorities about his criminal activities, and the communication he sought to prevent would necessarily have been to federal law enforcement. Likewise, a suspect would be guilty if he committed a murder to prevent a witness from informing law enforcement that he lied on his federal income tax return: He sought to prevent a communication that would have been made to federal officials, because they alone prosecute federal tax violations. But a suspect who commits a murder with the general intent of preventing law enforcement from learning about activities that violate both state and federal law would not be . guilty, because the Government would be unable to prove that the communication he sought to prevent necessarily would have been to a federal official.\nApplying that standard, this is an easy case. There was evidence that Fowler murdered Officer Horner in order to prevent him from communicating information about Fowler\u2019s criminal activities. But the only evidence proffered by the Government to establish that the communication would have been to a federal law enforcement agent was the fact that a different state police officer, four years later, contacted federal law enforcement about a robbery by Fowler\u2019s confederate \u2014 and that only because the state-law statute of limitations for the robbery had expired. That is not nearly enough to demonstrate Fowler\u2019s guilt beyond a reasonable doubt.\nII\nThe Court gives the statute a broader reading than the one I ascribe. The Government can obtain a conviction, it says, so long as it can prove a \u201creasonable likelihood\u201d that the communication would have been made to a federal law enforcement officer. I know of no precedent for using a \u201clikelihood\u201d standard rather than the \u201cbeyond a reasonable doubt\u201d standard for a finding of fact essential to a criminal conviction; and the justifications the Court presents for that course in the present case are not convincing.\nThe Court maintains that the Government need not show beyond a reasonable doubt that the communication would have been to a federal officer because \u201c[t]he relevant question concerns the defendant\u2019s intent.\u201d' Ante, at 674. But that reasoning is directly contrary to \u00a7 1512(g)(2), which expressly states that the defendant\u2019s intent is not the relevant question with respect to the federal character of law enforcement officer meant to be deprived of the information. The Court\u2019s observation that \u201ca defendant can kill a victim with an. intent to prevent the victim from communicating with federal law enforcement officers even if there is some considerable doubt that any such communication would otherwise have taken place,\u201d ibid., is completely irrelevant to the question presented.\nThe Court also proclaims that a narrower view \u201cwould conflict with the statute\u2019s basic purpose,\u201d which is to prevent witness tampering \u201cat a time when the precise communication and nature of the officer who may receive it are not yet known.\u201d Ante, at 673. It cites no basis for attributing that purpose, and there is none \u2014 other than the fact that it supports the Court\u2019s outcome. Another purpose is just as likely \u2014 and indeed more likely, since it can be achieved without abandonment of the ancient rule that in criminal prosecutions facts must be found beyond a reasonable doubt. Murder, after all, is a crime, and often a capital crime, under all state laws. There is no reason to ascribe to Congress the \u201cpurpose\u201d of transferring murder prosecutions that would ordinarily be brought in state court to federal court based on only a tangential federal interest. Congress was concerned with preserving the integrity and effectiveness of federal prosecutions, and where they are not clearly involved (as the ordinary beyond-a-reasonable-doubt standard would require) a federal murder prosecution has no proper place. Limited as I have suggested, the federal law would still have ample scope, reaching what were surely the principal cases Congress had in mind \u2014 the killing of prospective witnesses in federal trials or in ongoing federal investigations. Here, as would be the case in many situations involving a merely hypothetical link to a federal investigation, Fowler murdered a state police officer. The natural place to have prosecuted him would have been state court.\nThe Court\u2019s analysis is even less persuasive in light of the rule of lenity, under which we must construe ambiguous criminal statutes in favor of the defendant. Here, the Court adopts a kind of rule of harshness, discarding the most straightforward construction of the text in favor of a textually implausible one, based on vague intuitions about the statute\u2019s purpose. The Court\u2019s opinion never cites the rule of lenity, probably because it cannot honestly say that the statute is so clear that \u201cthere is no ambiguity for the rule of lenity to resolve.\u201d Burgess v. United States, 553 U. S. 124, 136 (2008).\nTo make matters worse, the Court\u2019s standard is hopelessly indeterminate. The Government must show that a communication to a federal officer is \u201creasonably likely,\u201d which is less likely than \u201cmore likely than not,\u201d but more likely than \u201creasonably possible.\u201d Ante, at 675-678. I doubt that any jury can grasp the distinction between \u201cyou must find that a communication to a federal officer was reasonably likely\u201d and \u201cyou must find that a communication to a federal officer was reasonably possible.\u201d Understandably, the Court refuses to give any examples of what \u201creasonably likely\u201d means, except for an absurd example involving communications with Lithuanian police officers, ante, at 678 \u2014 which obviously would not be \u201creasonably possible\u201d either. Indeed, the Court refuses to apply its standard to the facts of this case, leaving that precarious task to the lower court.\nIll\nThe dissent adopts a view of the statute that is even broader than the Government\u2019s. It effectively contends that the Government need not prove anything with respect to the fact that the communication sought to be prevented was \u201cto a law enforcement officer ... of the United States.\u201d As long as the Government can prove that the defendant sought to prevent the communication of information about a federal crime (including a federal crime that is also a state crime) it will necessarily have proved that the \u201cset of law enforcement officers (whose identities were unknown to him)\u201d he had in mind \u201cincluded law enforcement officers who were employed by the United States.\u201d Post, at 687 (opinion of Alito, J.). Conviction requires neither any specific intent regarding the federal status of the officer, nor even any likelihood that a commimication to a federal officer would have occurred.\nThe principal defect in this interpretation is that it makes the words \u201cof the United States\u201d superfluous. Section 1512(a)(1)(C) specifically requires that the information the defendant seeks to prevent from being communicated be \u201cinformation relating to the commission or possible commission of a Federal offense.\u201d If the phrase \u201cto a law enforcement officer ... of the United States\u201d requires nothing more than this it is utterly without effect. The implication of this view is that Congress enacted \u00a7 1512(a)(l)(C)\u2019s reference to \u201ca law enforcement officer... of the United States,\u201d only to immediately nullify it by \u00a7 1512(g)(2)\u2019s \u201cno state of mind\u201d provision. Not likely \u2014 and not sound statutory interpretation.\nThe dissent claims that my analysis \u201cconfuses what the prosecution must prove with what a rational jury may choose to infer in a particular case.\u201d Post, at 690. I find this contention difficult to understand. In the dissent\u2019s view, a properly instructed jury should be required to find neither that the defendant\u2019s mens rea had any connection to a federal officer, nor that the defendant\u2019s actus reus had any connection to a federal officer. It therefore follows that under the dissent\u2019s view, a properly instructed jury should be required to find nothing about a connection to a federal officer beyond the fact that the information related to a federal offense, which means that, unless the jury is acting irrationally or is engaging in jury nullification, the \u201cof the United States\u201d provision is indeed superfluous. The dissent is correct that the proof of one element of a crime (such as an overt act) can sometimes be used to prove that a different element (such as a conspiratorial agreement) is satisfied, ibid., n. 2; but in such cases, the jury is instructed that it is required to make a separate finding to convict (e. g., that a conspiratorial agreement actually occurred). Here, the dissent identifies no separate finding the jury must make beyond the fact of a federal offense. The dissent also observes that when a defendant murders a federal officer to prevent him from communicating information about a nonfederal crime, he does not violate the statute. Post, at 691. This observation convincingly establishes that the statutory words \u201cFederal offense\u201d are not superfluous under the dissent\u2019s view, an observation irrelevant to my point that the dissent makes the statutory words \u201cof the United States\u201d superfluous.\nThe dissent contends that my interpretation \u201chas no grounding in the language of the statute.\u201d Post, at 688. It asserts that \u201cthe text of the statute makes it perfectly clear that the federal officer requirement is exclusively an element of the defendant\u2019s mens rea.\u201d Post, at 689 (internal quotation marks omitted). Perhaps the only thing \u201cperfectly clear\u201d about this statute is that it states the precise opposite of that proposition: \u201c[N]o state of mind need be proved with respect to the circumstance . . . that the law enforcement officer is an officer or employee of the Federal Government!\u201d \u00a7 1512(g)(2).\nThe dissent\u2019s interpretation would federalize crimes that have no connection to any federal investigation. A person caught by a state police officer with marijuana who murders the state police officer to cover it up could be prosecuted in federal court. That would approach the outer limits of Congress\u2019s enumerated powers. We have adopted a federalism principle that applies when a statute would render \u201ctraditionally local criminal conduct... a matter for federal enforcement\u201d: \u201c[Ujnless Congress conveys its purpose clearly, it will not be deemed to have significantly changed the federal-state balance in the prosecution of crimes.\u201d Jones v. United States, 529 U. S. 848, 858 (2000) (internal quotation marks omitted). Thus, the dissent adds to the Court\u2019s \u201crule of harshness\u201d a rule of antifederalism, under which a court must actually ignore a federal connection that Congress prescribed so as to avoid intrusion into traditionally local law enforcement.\nBecause the Government did not establish that Fowler intended to prevent a communication that, if made, would have been made to a federal law enforcement officer, there was insufficient evidence to convict him of violating \u00a7 1512(a)(1)(C). Since there remains, however, the question whether Fowler preserved this issue at trial or whether the inadequacy of the evidence constituted plain error, I concur in the Court\u2019s order vacating the judgment and remanding for resolution of that question.",
+        "type": "concurrence",
+        "author": "Justice Scalia,"
+      },
+      {
+        "text": "Justice Alito,\nwith whom Justice Ginsbueg joins, dissenting.\nThe decision of the Court fails to follow the clear language of 18 U. S. C. \u00a7 1512(a)(1)(C). Instead of heeding the statutory text, the Court has effectively amended the statute by adding a new element.\nI\nAs relevant here, \u00a7 1512(a)(1)(C) makes it a federal crime \u201cto kill another person, with intent to . . . prevent the communication by any person to a law enforcement officer ... of the United States of information relating to the commission or possible commission of a Federal offense.\u201d Also important for present purposes is \u00a7 1512(g)(2), which provides, among other things, that \u201c[i]n a prosecution for an offense under this section, no state of mind need be proved with respect to the circumstance . . . that the law enforcement officer is an officer or employee of the Federal Government.\u201d\nPutting these two provisions together, what had to be shown in the present case was as follows:\n(1) Fowler killed Officer Horner,\n(2) with the intent to prevent any person (i. e., either Officer Horner or someone else) from communicating,\n(3) to a person who (whether or not known as such to Fowler) was a federal law enforcement officer,\n(4) information concerning the possible commission of a federal crime.\nThe question before us is whether there was sufficient evidence to support Fowler\u2019s conviction, and thus we must ask whether- any rational jury could find that all of the elements noted above were adequately established. See United States v. Powell, 469 U. S. 57, 67 (1984).\nThere can be no dispute that there was sufficient evidence to establish elements (1), (2), and (4). That is, there was ample evidence to show (1) that Fowler killed Officer Horner, (2) that he did so with the intent to prevent the communication of information about what Officer Horner had seen, and (4) that this information concerned the possible commission of at least one federal crime \u2014 for example, conspiracy to rob a bank in violation of 18 U. S. C. \u00a7\u00a7 371, 2113.\nThus, the only remaining question is whether there was enough evidence to permit a rational jury to infer that element (3) had been satisfied. And in connection with this question, it is important to keep in mind three things that element (3) does not require.\nFirst, element (3) does not demand proof that Officer Horner, had he not been killed, would have reported \u2014 or even might have reported \u2014 what he saw to anyone, much less to a federal officer. Element (3) is solely concerned with a defendant\u2019s intent.\nSecond, while element (3) requires proof that Fowler intended to prevent some law enforcement officer from learning what Officer Horner had seen, element (3) does not require proof that Fowler had any particular law enforcement officer in mind. Section 1512(a)(1)(C) simply demands that the recipient of the information be \u201ca law enforcement officer.\u201d Thus, it would be enough if Fowler\u2019s intent was to prevent Officer Horner\u2019s information from reaching any federal law enforcement officer.\nThird, element (3) does not demand proof that Fowler knew that the generic officer noted above was a federal, as opposed to a state or local, law enforcement officer. Section 1512(g)(2) specifically rules out any such requirement. It is enough that our generic officer was in fact a federal officer.\nWhen the meaning of element (3) is understood, it is clear that the decision of the Court of Appeals in this ease must be affirmed. A rational jury could infer that Fowler\u2019s intent was to prevent information about what Officer Horner had seen from reaching any person who could bring about his arrest and conviction. In other words, a rational jury could infer that Fowler, in effect, had in mind a set of law enforcement officers (whose identities were unknown to him) who could set in motion a chain of events that would land him in prison. And since the information that Officer Horner possessed related to, among other things, the possible commission of a federal crime, a rational jury could infer that this group included law enforcement officers who were employed by the United States. The question presented in this case is as simple as that.\nII\nThe Court begins on the right track, observing that the \u201crelevant question concerns the defendant\u2019s intent\u201d and that therefore \u201cthe Government need not show beyond a reasonable doubt (or even that it is more likely than not) that the hypothetical communication would have been to a federal officer.\u201d Ante, at 674 (emphasis in original). But the Court veers off course when it goes on to hold that the prosecution was required to show that, if Officer Horner had not been killed, there was a \u201creasonable likelihood\u201d that his information would have reached a federal officer. Ante, at 677 (emphasis in original).\nThe Court reaches this conclusion based on the meaning of the word \u201cprevent.\" See ante, at 674-678. The Court starts with the proposition that \u201capart from mistakes ... one cannot act with an 'intent to prevent\u2019 something that could not possibly have taken place regardless.\u201d Ante, at 674 (emphasis in original). I understand this to mean that a rational person will not take action to prevent something that the person knows is not possible. This is true, but it does not follow that a rational person will not take action to prevent an undesirable event unless the event is \u201creasonably likely.\u201d Risk-averse people do this all the time. They refrain from flying to avoid dying in a plane crash. They shun rooms on the upper floors of hotels to prevent being trapped in the event of a fire.\nWhat matters under \u00a7 1512(a)(1)(C) is not the likelihood that information about a possible federal crime will be conveyed to a federal officer. What matters is the intent of the person who kills or attempts to kill in order to prevent that information from reaching such an officer. The Court\u2019s \u201creasonable likelihood\u201d test has no basis in the text of \u00a7 1512(a)(1)(C).\nThe Court\u2019s test also makes little sense. Under this test, the application of \u00a7 1512(a)(1)(C) depends on a witness-killer\u2019s toleration of risk. According to the Court, \u00a7 1512(a) (1)(C) does not reach a killer who has so little regard for human life that he or she is willing to murder in order to prevent even a remote possibility that a witness will inform the authorities. It is hard to imagine why Congress would have wanted to draw this line.\nIll\nJustice Scalia\u2019s interpretation of \u00a7 1512(a)(1)(C) also has no grounding in the language of the statute. He makes the fundamental mistake of confusing \u00a7 1512(a)(l)(C)'s mens rea and actus reus elements. Justice Scatja states that what he terms \u201cthe \u2018federal officer\u2019 requirement\u201d is \u201can element of the actus reus,\u201d ante, at 679 (opinion concurring in judgment), but the text of the statute makes it perfectly clear that \u201cthe \u2018federal officer\u2019 requirement\u201d is exclusively an element of the defendant\u2019s mens rea.\nThe statute provides:\n\u201c(a)(1) Whoever kills or attempts to kill another person, with intent to\u2014\n\u201c(C) prevent the communication by any person to a law enforcement officer or judge of the United States of information relating to the commission or possible commission of a Federal offense or a violation of conditions of probation, parole, or release pending judicial proceedings;\n\u201cshall be punished as provided in paragraph (3).\u201d \u00a7 1512(a)(1)(C) (emphasis added).\nThe actus reus of this provision is set out in its first eight words (\u201cWhoever kills or attempts to kill another person\u201d). Everything else \u2014 that is, everything that follows the phrase \u201cwith intent to\u201d \u2014 concerns the defendant\u2019s mens rea.\nJustice Scalia interprets \u00a7 1512(g)(2) as transforming \u201cthe \u2018federal officer\u2019 requirement\u201d from an element of the mens rea into an element of the actus reus, see ante, at 679-680, but this reading is plainly wrong. Section 1512(g)(2) provides in relevant part:\n\u201cIn a prosecution for an offense under [18 U. S. C. \u00a7 1512], no state of mind need be proved with respect to the circumstance .. . that the law enforcement officer is an officer or employee of the Federal Government.\u201d\nWhat this clearly means, as the Court recognizes, see ante, at 672-673, is simply that a defendant need not intend to prevent a qualifying communication from reaching an officer whom the defendant knows to be a federal, as opposed to a state or local, law enforcement officer. But nothing in this provision adds to the actus reus elements in \u00a7 1512(a)(1)(C).\nJustice Scalia\u2019s principal criticism of my interpretation of the statute is that \u201cit makes the words \u2018of the United States\u2019 superfluous.\u201d Ante, at 683. He incorrectly states that under my interpretation \u201cthe Government need not prove anything with respect to the fact that the communication sought to be prevented was \u2018to a law enforcement officer ... of the United States\u2019 \u201d and that \u201c[a]s long as the Government can prove that the defendant sought to prevent the communication of information about a federal crime (including a federal crime that is also a state crime) it will necessarily have proved that [the set of officers whom the defendant had in mind] \u2018included law enforcement officers who were employed by the United States.\u2019 \u201d Ibid, (emphasis in original). This description of my interpretation confuses what the prosecution must prove with what a rational jury may choose to infer in a particular case.\nIn order to violate \u00a7 1512(a)(1)(C), a defendant must have ' an intent regarding two things: first, the substance of the communication that the defendant wishes to prevent (information concerning, among other things, the commission or possible commission of a federal crime) and, second, the recipient of the communication (a law enforcement officer or judge who turns out to be a federal officer or judge).\nIt is true that evidence regarding the federal character of an offense may lead a rational jury to infer that the officers whom the defendant had in mind included federal officers. But those two elements remain distinct; both must be proved beyond a reasonable doubt; and it is entirely possible for a defendant to satisfy one without also satisfying the other. For example, if a uniformed federal officer came upon a defendant during the commission of a purely state offense (for example, a murder, assault, or rape not committed in a federal enclave), the defendant might kill or attempt to kill the officer to prevent the officer from radioing in that information to the officer\u2019s superiors. This defendant would have the intent to prevent a communication to a federal officer, but there would be no violation of the statute because the information would not concern a federal crime. Thus, contrary to Justice Scalia\u2019s suggestion, under my interpretation, the two intent elements \u2014 relating to the substance of the feared communication and the identity of the feared recipient \u2014 are not redundant.\nJustice Scalia invokes a rule that disfavors the interpretation of a federal criminal statute in a way that \u201c \u2018significantly ehange[s] the federal-state balance in the prosecution of crimes.\u2019\u201d Ante, at 685 (quoting Jones v. United States, 529 U. S. 848, 858 (2000)). This rule, however, does not justify ignoring the plain terms of the statute.\n* * *\nThe Court has effectively amended \u00a7 1512(a)(1)(C) by adding an element that is nowhere to be found in the text of the statute. And the Court\u2019s new element makes little sense and will create confusion for trial judges and juries. Following the language of \u00a7 1512(a)(1)(C), I would hold that the evidence in this case was sufficient to establish all of the elements that Congress saw fit to include. I therefore respectfully dissent.\nThe Court makes a related argument. See ante, at 676-677.\nThere is nothing unusual about the proposition that the proof of one element of a crime may provide a sufficient basis for inferring that another element may be satisfied. To take a common example, overt acts committed in furtherance of a conspiracy may be sufficient to permit a jury to infer that a conspiratorial agreement was reached. But that does not alter the need to prove beyond a reasonable doubt that such an agreement was reached.\nThe Court again makes a related argument. See ante, at 677.",
+        "type": "dissent",
+        "author": "Justice Alito,"
+      }
+    ],
+    "attorneys": [
+      "Stephen M. Crawford argued the cause for petitioner. With him on the briefs was Kenneth S. Siegel.",
+      "Sarah E. Harrington argued the cause for the United States. With her on the brief were Acting Solicitor General Katyal, Assistant Attorney General Breuer, Deputy Solicitor General Dreeben, and Kirby A. Heller."
+    ],
+    "corrections": "",
+    "head_matter": "FOWLER v. UNITED STATES\nNo. 10-5443.\nArgued March 29, 2011 \u2014\nDecided May 26, 2011\nBreyer, X, delivered the opinion of the Court, in which Roberts, C. X, and Kennedy, Thomas, Sotomayor, and Kagan, JX, joined. Scalia, X, filed an opinion concurring in the judgment, post, p. 678. Alito, X, filed a dissenting opinion, in which Ginsburg, X, joined, post, p. 685.\nStephen M. Crawford argued the cause for petitioner. With him on the briefs was Kenneth S. Siegel.\nSarah E. Harrington argued the cause for the United States. With her on the brief were Acting Solicitor General Katyal, Assistant Attorney General Breuer, Deputy Solicitor General Dreeben, and Kirby A. Heller."
+  },
+  "file_name": "0668-01",
+  "first_page_order": 750,
+  "last_page_order": 773
+}

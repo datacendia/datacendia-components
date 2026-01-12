@@ -1,0 +1,59 @@
+{
+  "id": 12206112,
+  "name": "Pridgen v. Pennsylvania",
+  "name_abbreviation": "Pridgen v. Pennsylvania",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10812",
+  "first_page": "851",
+  "last_page": "851",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 851"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 73,
+    "ocr_confidence": 0.564,
+    "sha256": "6685c2b10534397ca9b50fc9208ab6ff820d39acb81624e531a3fd1f6d17a25c",
+    "simhash": "1:67e487d0112ba0d4",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pridgen v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Pa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10812.\nPridgen v. Pennsylvania."
+  },
+  "file_name": "0851-04",
+  "first_page_order": 933,
+  "last_page_order": 933
+}

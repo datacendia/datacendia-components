@@ -1,0 +1,61 @@
+{
+  "id": 5976861,
+  "name": "Sukup v. United States Court of Appeals for the Ninth Circuit",
+  "name_abbreviation": "Sukup v. United States Court of Appeals for the Ninth Circuit",
+  "decision_date": "2010-11-01",
+  "docket_number": "No. 10-6625",
+  "first_page": "1026",
+  "last_page": "1026",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1026"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 29,
+    "char_count": 188,
+    "ocr_confidence": 0.495,
+    "sha256": "abccfe0ec59c5991fc042e4588a80ee85b6829b85f870c2956ac2b6a39198238",
+    "simhash": "1:8bbdf2832f2ed0c2",
+    "word_count": 32
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Sukup v. United States Court of Appeals for the Ninth Circuit."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6625.\nSukup v. United States Court of Appeals for the Ninth Circuit."
+  },
+  "file_name": "1026-05",
+  "first_page_order": 1048,
+  "last_page_order": 1048
+}

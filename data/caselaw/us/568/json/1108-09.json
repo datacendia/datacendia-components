@@ -1,0 +1,59 @@
+{
+  "id": 12428753,
+  "name": "Elkins v. United States",
+  "name_abbreviation": "Elkins v. United States",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-7319",
+  "first_page": "1108",
+  "last_page": "1108",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1108"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.605,
+    "sha256": "2bff9b8bd89d9eb5c3f3a3571dc4fbd4ddfaee910a332c0a016af94c1c33a66c",
+    "simhash": "1:01aa9243c2959151",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Elkins v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7319.\nElkins v. United States."
+  },
+  "file_name": "1108-09",
+  "first_page_order": 1184,
+  "last_page_order": 1184
+}

@@ -1,0 +1,123 @@
+{
+  "id": 5919633,
+  "name": "Harper v. Maverick Recording Co. et al.",
+  "name_abbreviation": "Harper v. Maverick Recording Co.",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 10-94",
+  "first_page": "1080",
+  "last_page": "1082",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1080"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "430 F. 3d 888",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1594266
+      ],
+      "year": 2005,
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/430/0888-01"
+      ]
+    },
+    {
+      "cite": "17 U. S. C. \u00a7 101",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "598 F. 3d 193",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4221377
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "198-199"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/598/0193-01"
+      ]
+    },
+    {
+      "cite": "102 Stat. 2857",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "17 U. S. C. \u00a7 402",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(d)"
+        }
+      ],
+      "opinion_index": 1
+    }
+  ],
+  "analysis": {
+    "cardinality": 342,
+    "char_count": 5149,
+    "ocr_confidence": 0.594,
+    "pagerank": {
+      "raw": 9.505882454708161e-08,
+      "percentile": 0.5222823801696547
+    },
+    "sha256": "41fee010651226e0dd45aaa99ec6d1fbc29142e736088c55ea87c9d082d87ffb",
+    "simhash": "1:0dea52d3e7c3699e",
+    "word_count": 865
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Harper v. Maverick Recording Co. et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      },
+      {
+        "text": "Justice Alito,\ndissenting.\nI would grant the petition to consider the question whether 17 U. S. C. \u00a7 402(d) applies when a person is found to have engaged in copyright infringement by downloading digital music files. Under \u00a7 504(c)(1), an infringer is ordinarily liable for statutory damages of \u201cnot less than $750 or more than $30,000\u201d per work infringed. In a case involving an \u201cinnocent infringer,\u201d however, the minimum statutory damages that must be awarded are reduced. Specifically, if the infringer proves that he or she \u201cwas not aware and had no reason to believe that his or her acts constituted an infringement,\u201d then the minimum statutory damages per violation are $200. \u00a7 504(c)(2).\nIn this case, a 16-year-old was found to have infringed respondents\u2019 copyrights by downloading digital music files. The District Court held that there were genuine issues of fact on whether she qualified as an innocent infringer, but the Court of Appeals reversed, concluding that another provision, \u00a7 402(d), foreclosed the innocent-infringer defense as a matter of law. Section 402(d) provides, with an exception not relevant here, that if a prescribed notice of copyright \u201cappears on the published phonorecord or pho-norecords to which a defendant . . . had access, then no weight shall be given to ... a defendant\u2019s interposition of a defense based on innocent infringement in mitigation of actual or statutory damages.\u201d (Emphasis added.) The term \u201cphonorecords\u201d is defined as including only \u201cmaterial objects.\u201d\nThere is a strong argument that \u00a7 402(d) does not apply in a ease involving the downloading of digital music files. This provision was adopted in 1988, well before digital music files became available on the Internet. See Berne Convention Implementation Act, \u00a77, 102 Stat. 2857. The theory of \u00a7 402(d) appears to be that a person who copies music from a material object bearing the prescribed copyright notice is deemed to have \u201creason to believe that his or her acts constituted an infringement,\u201d \u00a7 504(c)(2). But a person who downloads a digital music file generally does not see any material object bearing a copyright notice, and accordingly there is force to the argument that \u00a7 402(d) does not apply. In such a case, the question would simply be whether the in-fringer \u201cwas . . . aware and had . .. reason to believe,\u201d \u00a7 504(c)(2), that the downloading was illegal.\nThe Court of Appeals in the present case adopted a very different interpretation of \u00a7 402(d). The court held that the innocent-infringer defense was \u201cforeelose[d]... as a matter of law\u201d because (1) respondents \u201cprovided proper notice on each of the published phonorecords from which the audio files were taken\u201d before they were made available on a file-sharing network and (2) petitioner relied solely on \u00a7 504(c)(2) and did not dispute her \u201caccess\u201d to the phonorecords under \u00a7 402(d). 598 F. 3d 193, 198-199 (CA5 2010). Under this interpretation, it is not necessary that the infringer actually see a material object with the copyright notice. It is enough that the infringer could have ascertained that the work was copyrighted. The Fifth Circuit did not specify what sort of inquiry a person who downloads digital music files is required to make in order to preserve the \u00a7 402(d) defense, but it may be that the court had in mind such things as research on the Internet or a visit to a local store in search of a compact disc containing the songs in question. In any event, the Court of Appeals rejected petitioner\u2019s argument that her youth and lack of legal sophistication were relevant considerations \u2014 a conclusion that would not necessarily be correct if the determinative question were simply whether petitioner had \u201creason to believe\u201d that her actions were illegal. Although \u201creason to believe\u201d is an objective standard, it is by no means clear that certain objective characteristics of the infringer \u2014 such as age \u2014 may not be taken into account.\nThe Fifth Circuit\u2019s decision may or may not set out a sensible rule for the post-\u201cphonorecord\u201d age, but it is at least questionable whether the decision correctly interprets \u00a7 402(d). Although there are now no conflicting Circuit decisions, I would grant review in this ease because not many cases presenting this issue are likely to reach the Courts of Appeals. The Court has decided not to grant review at this time, but if a conflict in the Circuits develops in the future, the question presented, in my judgment, is important enough to warrant review.\nSpecifically, 17 U. S. C. \u00a7 101 provides:\n\u201c\u2018Phonorecords\u2019 are material objects in which sounds, other than those accompanying a motion picture or other audiovisual work, are fixed by any method now known or later developed, and from which the sounds can be perceived, reproduced, or otherwise communicated, either directly or with the aid of a machine or device. The term \u2018phonorecords\u2019 includes the material object in which the sounds are first fixed.\u201d\nIn BMG Music v. Gonzalez, 430 F. 3d 888 (2005), the Seventh Circuit adopted a similar interpretation of \u00a7 402(d).",
+        "type": "dissent",
+        "author": "Justice Alito,"
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-94.\nHarper v. Maverick Recording Co. et al."
+  },
+  "file_name": "1080-01",
+  "first_page_order": 1102,
+  "last_page_order": 1104
+}

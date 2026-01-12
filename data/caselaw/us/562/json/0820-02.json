@@ -1,0 +1,59 @@
+{
+  "id": 5954106,
+  "name": "Pipes v. Ballard, Warden",
+  "name_abbreviation": "Pipes v. Ballard",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10M17",
+  "first_page": "820",
+  "last_page": "820",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 820"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 86,
+    "ocr_confidence": 0.585,
+    "sha256": "bdc52feee23b38c76c38141763c0270848489cd79d276c23ac8d0980d6b211f1",
+    "simhash": "1:b0839a3184f53b5c",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pipes v. Ballard, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "Motion for leave to proceed as a veteran denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10M17.\nPipes v. Ballard, Warden."
+  },
+  "file_name": "0820-02",
+  "first_page_order": 842,
+  "last_page_order": 842
+}

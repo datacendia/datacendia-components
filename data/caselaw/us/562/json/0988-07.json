@@ -1,0 +1,59 @@
+{
+  "id": 5967814,
+  "name": "Blade v. United States",
+  "name_abbreviation": "Blade v. United States",
+  "decision_date": "2010-10-18",
+  "docket_number": "No. 10-6419",
+  "first_page": "988",
+  "last_page": "988",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 988"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.641,
+    "sha256": "70b97c7718b59d66343a4ee98d135b9e4819dd8dcb53edc8aa68a58296822582",
+    "simhash": "1:000a9bd38e311428",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Blade v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6419.\nBlade v. United States."
+  },
+  "file_name": "0988-07",
+  "first_page_order": 1010,
+  "last_page_order": 1010
+}

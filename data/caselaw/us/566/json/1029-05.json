@@ -1,0 +1,59 @@
+{
+  "id": 12223833,
+  "name": "Fulton v. United States",
+  "name_abbreviation": "Fulton v. United States",
+  "decision_date": "2012-05-29",
+  "docket_number": "No. 11-10027",
+  "first_page": "1029",
+  "last_page": "1029",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1029"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.592,
+    "sha256": "af1095b3bd9c456a4591bdc6fd9defd1b31d687beddc4ab4c02dba499f51e726",
+    "simhash": "1:a73bd382ccd9146f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Fulton v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10027.\nFulton v. United States."
+  },
+  "file_name": "1029-05",
+  "first_page_order": 905,
+  "last_page_order": 905
+}

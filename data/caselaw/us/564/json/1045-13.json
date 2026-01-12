@@ -1,0 +1,59 @@
+{
+  "id": 5931072,
+  "name": "McCutchen v. United States",
+  "name_abbreviation": "McCutchen v. United States",
+  "decision_date": "2011-06-27",
+  "docket_number": "No. 10-10769",
+  "first_page": "1045",
+  "last_page": "1045",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1045"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.606,
+    "sha256": "8470f4ebd442b1f1179d8d0810df128776aad0aac9d8ad6ab834294e55195482",
+    "simhash": "1:8258e464231f1f57",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McCutchen v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. D. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10769.\nMcCutchen v. United States."
+  },
+  "file_name": "1045-13",
+  "first_page_order": 1039,
+  "last_page_order": 1039
+}

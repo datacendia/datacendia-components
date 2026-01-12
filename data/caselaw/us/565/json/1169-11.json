@@ -1,0 +1,59 @@
+{
+  "id": 12243772,
+  "name": "King v. United States",
+  "name_abbreviation": "King v. United States",
+  "decision_date": "2012-01-17",
+  "docket_number": "No. 11-7769",
+  "first_page": "1169",
+  "last_page": "1169",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1169"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.656,
+    "sha256": "8eef3164dd32943e87c343003d812c9cf4135a8ad5926a1a08a8a7cdf3eecf59",
+    "simhash": "1:c62cd7030da0d42b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "King v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7769.\nKing v. United States."
+  },
+  "file_name": "1169-11",
+  "first_page_order": 1251,
+  "last_page_order": 1251
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12246707,
+  "name": "Jones v. Mazda North American Operations",
+  "name_abbreviation": "Jones v. Mazda North American Operations",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-7717",
+  "first_page": "1208",
+  "last_page": "1208",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1208"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 89,
+    "ocr_confidence": 0.646,
+    "sha256": "9c5b0d4daa2db1c1d8be048c027a21040a6675b34c732c30dccc03f36aa70bf6",
+    "simhash": "1:03dcd20aec0aa46e",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jones v. Mazda North American Operations."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7717.\nJones v. Mazda North American Operations."
+  },
+  "file_name": "1208-11",
+  "first_page_order": 1290,
+  "last_page_order": 1290
+}

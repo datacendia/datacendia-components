@@ -1,0 +1,59 @@
+{
+  "id": 5992001,
+  "name": "Wilson v. Hubbard et al.",
+  "name_abbreviation": "Wilson v. Hubbard",
+  "decision_date": "2010-10-18",
+  "docket_number": "No. 10-5931",
+  "first_page": "983",
+  "last_page": "983",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 983"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 72,
+    "ocr_confidence": 0.602,
+    "sha256": "1c0782d0e511a6e39c48f92b011122c2256979aab10293a7a5d70f72aab7320d",
+    "simhash": "1:18aba2a97527a10d",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wilson v. Hubbard et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5931.\nWilson v. Hubbard et al."
+  },
+  "file_name": "0983-13",
+  "first_page_order": 1005,
+  "last_page_order": 1005
+}

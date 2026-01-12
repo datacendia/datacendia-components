@@ -1,0 +1,59 @@
+{
+  "id": 5990776,
+  "name": "In re Discipline of McCartney",
+  "name_abbreviation": "In re Discipline of McCartney",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. D-2551",
+  "first_page": "815",
+  "last_page": "815",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 815"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 39,
+    "char_count": 285,
+    "ocr_confidence": 0.553,
+    "sha256": "4ad07489a1be37ae361a30ecc757290ed8b1a509c20d4381df7d5a46f2d1ddd6",
+    "simhash": "1:678a33b29fee376b",
+    "word_count": 51
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of McCartney."
+    ],
+    "opinions": [
+      {
+        "text": "R. Allen McCartney, of Louisville, Ky., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2551.\nIn re Discipline of McCartney."
+  },
+  "file_name": "0815-07",
+  "first_page_order": 837,
+  "last_page_order": 837
+}

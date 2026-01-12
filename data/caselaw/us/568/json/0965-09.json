@@ -1,0 +1,59 @@
+{
+  "id": 12419531,
+  "name": "Moore v. Michigan",
+  "name_abbreviation": "Moore v. Michigan",
+  "decision_date": "2012-10-15",
+  "docket_number": "No. 12-5785",
+  "first_page": "965",
+  "last_page": "965",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 965"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 67,
+    "ocr_confidence": 0.655,
+    "sha256": "7db0387a3886a65054b405236ac7ef1468ff302de67d09b649b80403651c3bb2",
+    "simhash": "1:314b812bf48951c2",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Moore v. Michigan."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Mich. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5785.\nMoore v. Michigan."
+  },
+  "file_name": "0965-09",
+  "first_page_order": 1041,
+  "last_page_order": 1041
+}

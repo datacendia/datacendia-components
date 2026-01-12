@@ -1,0 +1,761 @@
+{
+  "id": 12521136,
+  "name": "SONY CORPORATION, Appellant v. Andrei IANCU, Under Secretary of Commerce for Intellectual Property and Director of the United States Patent and Trademark Office, Intervenor",
+  "name_abbreviation": "Sony Corp. v. Iancu",
+  "decision_date": "2019-05-22",
+  "docket_number": "2018-1172",
+  "first_page": "1235",
+  "last_page": "1243",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "924 F.3d 1235"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Fed. Cir.",
+    "id": 8955,
+    "name": "United States Court of Appeals for the Federal Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "527 F.3d 1359",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3566504,
+        3567119
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "1372",
+          "parenthetical": "\"Title to ... an expired patent ... includes more than merely the right to recover damages for past infringement.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/527/1359-01",
+        "/f3d/527/1359-02"
+      ]
+    },
+    {
+      "cite": "797 F.3d 1025",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4332352
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1033",
+          "parenthetical": "Although \"the patentee has fewer rights to transfer when the patent has expired,\" the owner of an expired patent can license the rights or transfer title to an expired patent."
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/797/1025-01"
+      ]
+    },
+    {
+      "cite": "35 U.S.C. \u00a7 286",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "655 F.3d 1291",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3827575
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1299",
+          "parenthetical": "\"[A]n expired patent may form the basis of an action for past damages subject to the six-year limitation under 35 U.S.C. \u00a7 286.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/655/1291-01"
+      ]
+    },
+    {
+      "cite": "508 U.S. 83",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12174
+      ],
+      "weight": 3,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "98"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/508/0083-01"
+      ]
+    },
+    {
+      "cite": "35 U.S.C. \u00a7 318",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "503 F.3d 1295",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        2920813
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "1308"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/503/1295-01"
+      ]
+    },
+    {
+      "cite": "64 F.3d 1553",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7416173
+      ],
+      "weight": 2,
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "1555-58",
+          "parenthetical": "\"[T]he [court] has an independent obligation to determine the meaning of the claims, notwithstanding the views asserted by the adversary parties.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/64/1553-01"
+      ]
+    },
+    {
+      "cite": "184 F.3d 1339",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11549728
+      ],
+      "weight": 3,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "1349"
+        },
+        {
+          "page": "1349"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/184/1339-01"
+      ]
+    },
+    {
+      "cite": "521 F.3d 1328",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3737069
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "1333"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/521/1328-01"
+      ]
+    },
+    {
+      "cite": "344 F.3d 1205",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        781010
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "1210"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/344/1205-01"
+      ]
+    },
+    {
+      "cite": "355 F.3d 1327",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9068880
+      ],
+      "weight": 3,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1333"
+        },
+        {
+          "page": "1334"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/355/1327-01"
+      ]
+    },
+    {
+      "cite": "35 U.S.C. \u00a7 112",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "853 F.3d 1272",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12277493
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1279"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/853/1272-01"
+      ]
+    },
+    {
+      "cite": "415 F.3d 1303",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8948489
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/415/1303-01"
+      ]
+    },
+    {
+      "cite": "793 F.3d 1268",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4277988
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1280"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/793/1268-01"
+      ]
+    },
+    {
+      "cite": "811 F.3d 435",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4081628
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "449"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/811/0435-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1295",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(4)(A)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2017 WL 4349410",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "*4"
+        },
+        {
+          "page": "*12"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "U.S. Patent No. 5,130,816",
+      "category": "laws:admin_filing",
+      "reporter": "U.S. Patent",
+      "opinion_index": 0
+    },
+    {
+      "cite": "U.S. Patent No. 6,097,676",
+      "category": "laws:admin_filing",
+      "reporter": "U.S. Patent",
+      "weight": 8,
+      "pin_cites": [
+        {
+          "parenthetical": "\"the '676 patent\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "330 U.S. 75",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        353818
+      ],
+      "weight": 3,
+      "year": 1947,
+      "pin_cites": [
+        {
+          "page": "89"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/330/0075-01"
+      ]
+    },
+    {
+      "cite": "479 U.S. 361",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6216314
+      ],
+      "weight": 3,
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "363"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/479/0361-01"
+      ]
+    },
+    {
+      "cite": "845 F.3d 1168",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12178432
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1172"
+        },
+        {
+          "page": "1171",
+          "parenthetical": "placing the burden on the appellant"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/845/1168-01"
+      ]
+    },
+    {
+      "cite": "898 F.3d 1217",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517930
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1220",
+          "parenthetical": "quoting Phigenix, Inc. v. Immunogen, Inc. , 845 F.3d 1168, 1172 (Fed. Cir. 2017) "
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/898/1217-01"
+      ]
+    },
+    {
+      "cite": "501 U.S. 312",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1108097
+      ],
+      "weight": 5,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "316",
+          "parenthetical": "internal quotation marks and citation omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks and citation omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks and citation omitted"
+        },
+        {
+          "page": "316"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/501/0312-01"
+      ]
+    },
+    {
+      "cite": "253 U.S. 113",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        189383
+      ],
+      "weight": 3,
+      "year": 1920,
+      "pin_cites": [
+        {
+          "page": "116"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/253/0113-01"
+      ]
+    },
+    {
+      "cite": "404 U.S. 244",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6172056
+      ],
+      "weight": 3,
+      "year": 1971,
+      "pin_cites": [
+        {
+          "page": "246",
+          "parenthetical": "quoting United States v. Alaska S.S. Co. , 253 U.S. 113, 116, 40 S.Ct. 448, 64 L.Ed. 808 (1920) "
+        },
+        {
+          "parenthetical": "quoting United States v. Alaska S.S. Co. , 253 U.S. 113, 116, 40 S.Ct. 448, 64 L.Ed. 808 (1920) "
+        },
+        {
+          "parenthetical": "quoting United States v. Alaska S.S. Co. , 253 U.S. 113, 116, 40 S.Ct. 448, 64 L.Ed. 808 (1920) "
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/404/0244-01"
+      ]
+    },
+    {
+      "cite": "494 U.S. 472",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5088
+      ],
+      "weight": 3,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "477",
+          "parenthetical": "\"This case-or-controversy requirement subsists through all stages of federal judicial proceedings, trial and appellate. To sustain our jurisdiction in the present case, it is not enough that a dispute was very much alive when suit was filed ....\""
+        },
+        {
+          "parenthetical": "\"This case-or-controversy requirement subsists through all stages of federal judicial proceedings, trial and appellate. To sustain our jurisdiction in the present case, it is not enough that a dispute was very much alive when suit was filed ....\""
+        },
+        {
+          "parenthetical": "\"This case-or-controversy requirement subsists through all stages of federal judicial proceedings, trial and appellate. To sustain our jurisdiction in the present case, it is not enough that a dispute was very much alive when suit was filed ....\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/494/0472-01"
+      ]
+    },
+    {
+      "cite": "422 U.S. 395",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9660
+      ],
+      "weight": 3,
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "401"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/422/0395-01"
+      ]
+    },
+    {
+      "cite": "520 U.S. 43",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11651034
+      ],
+      "weight": 3,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "67",
+          "parenthetical": "quoting Preiser v. Newkirk , 422 U.S. 395, 401, 95 S.Ct. 2330, 45 L.Ed.2d 272 (1975) "
+        },
+        {
+          "parenthetical": "quoting Preiser v. Newkirk , 422 U.S. 395, 401, 95 S.Ct. 2330, 45 L.Ed.2d 272 (1975) "
+        },
+        {
+          "parenthetical": "quoting Preiser v. Newkirk , 422 U.S. 395, 401, 95 S.Ct. 2330, 45 L.Ed.2d 272 (1975) "
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/520/0043-01"
+      ]
+    },
+    {
+      "cite": "111 U.S. 379",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3506505
+      ],
+      "weight": 3,
+      "year": 1884,
+      "pin_cites": [
+        {
+          "page": "382"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/111/0379-01"
+      ]
+    },
+    {
+      "cite": "475 U.S. 534",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6205017
+      ],
+      "weight": 5,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "546-47",
+          "parenthetical": "quoting Mansfield, C. & L.M. Ry. Co. v. Swan , 111 U.S. 379, 382, 4 S.Ct. 510, 28 L.Ed. 462 (1884) "
+        },
+        {
+          "parenthetical": "quoting Mansfield, C. & L.M. Ry. Co. v. Swan , 111 U.S. 379, 382, 4 S.Ct. 510, 28 L.Ed. 462 (1884) "
+        },
+        {
+          "parenthetical": "quoting Mansfield, C. & L.M. Ry. Co. v. Swan , 111 U.S. 379, 382, 4 S.Ct. 510, 28 L.Ed. 462 (1884) "
+        },
+        {
+          "page": "546"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/475/0534-01"
+      ]
+    },
+    {
+      "cite": "547 U.S. 332",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3276173
+      ],
+      "weight": 3,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "341"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/547/0332-01"
+      ]
+    },
+    {
+      "cite": "426 U.S. 26",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6174426
+      ],
+      "weight": 3,
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "37"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/426/0026-01"
+      ]
+    },
+    {
+      "cite": "521 U.S. 811",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        915902
+      ],
+      "weight": 3,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "818",
+          "parenthetical": "quoting Simon v. E. Ky. Welfare Rights Org. , 426 U.S. 26, 37, 96 S.Ct. 1917, 48 L.Ed.2d 450 (1976) "
+        },
+        {
+          "parenthetical": "quoting Simon v. E. Ky. Welfare Rights Org. , 426 U.S. 26, 37, 96 S.Ct. 1917, 48 L.Ed.2d 450 (1976) "
+        },
+        {
+          "parenthetical": "quoting Simon v. E. Ky. Welfare Rights Org. , 426 U.S. 26, 37, 96 S.Ct. 1917, 48 L.Ed.2d 450 (1976) "
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/521/0811-01"
+      ]
+    },
+    {
+      "cite": "U.S. Patent No. 6,097,676,",
+      "category": "laws:admin_filing",
+      "reporter": "U.S. Patent",
+      "opinion_index": 1
+    },
+    {
+      "cite": "U.S. Patent No. 6,097,676",
+      "category": "laws:admin_filing",
+      "reporter": "U.S. Patent",
+      "opinion_index": 1
+    }
+  ],
+  "analysis": {
+    "cardinality": 1093,
+    "char_count": 24389,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2593085542825084
+    },
+    "sha256": "73c99e2f8acc2d551b8f4fae85e0752ef60e2036074a3629a498b4fc4ebf20b2",
+    "simhash": "1:4d82883d5191746e",
+    "word_count": 3899
+  },
+  "last_updated": "2024-02-27T18:46:58.656971+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Prost, Chief Judge, Newman and Dyk, Circuit Judges."
+    ],
+    "parties": [
+      "SONY CORPORATION, Appellant\nv.\nAndrei IANCU, Under Secretary of Commerce for Intellectual Property and Director of the United States Patent and Trademark Office, Intervenor"
+    ],
+    "opinions": [
+      {
+        "text": "Dissenting opinion filed by Circuit Judge Newman.\nDyk, Circuit Judge Sony Corp. is the owner of U.S. Patent No. 6,097,676 (\"the '676 patent\"). It appeals the Patent Trial and Appeal Board's (\"Board's\") final decision in IPR No. 2016-00834. The Board found claims 5 and 8 of the '676 patent unpatentable as obvious. We vacate and remand.\nBACKGROUND\nThe '676 patent is directed to \"an information recording medium\" (e.g., a compact disk, video disk, or magneto-optical disk) that can store audio data having multiple channels and \"a reproducing device\" that can select which channel to play based on a default code or value stored in nonvolatile memory. '676 patent, Abstract; id. col. 1, ll. 11-15. The specification states that the reproducing device is provided with \"storing means\" for storing the audio information (e.g., audio data recorded in different languages), \"reading means\" for reading codes associated with the audio information (e.g., 0, 1, 2, and 3 for English, French, German, and Japanese, respectively), and \"reproducing means\" for reproducing the audio information based on the default code or value. Id. col. 3, ll. 4-11.\nThe specification gives the example of a device manufactured to record and store audio data (e.g., of a movie) in multiple different languages for various countries. Id. col. 3, ll. 36-42; id. col. 10, l. 60-col. 11, l. 9. A single device can be manufactured for use in any of those countries \"provided that the default [value (e.g., 0, 1, 2, or 3) ] is ... changed and set for every destination country.\" Id. col. 3, ll. 36-42.\nClaim 5 of the '676 patent recites:\n5. An information reproducing device for reproducing an information recording medium in which audio data of plural channels are multiplexedly recorded, the information reproducing device comprising:\nstoring means for storing a default value for designating one of the plural channels to be reproduced; and\nreproducing means for reproducing the audio data of the channel designated by the default value stored in the storing means; and\nwherein a plurality of voice data, each voice data having similar contents translated into different languages are multiplexedly recorded as audio data of plural channels; and a default value for designating the voice data corresponding to one of the different languages is stored in the storing means.\nId. col. 12, ll. 28-43. Claim 8 recites the same limitations as claim 5 and additionally recites that \"codes representing the kinds of the audio data\" are multiplexedly recorded in the information recording medium, that the information reproducing device includes \"reading means\" for reading the codes, and that the reproducing means is for reproducing the audio data \"according to the codes read by the reading means.\" Id. col. 13, ll. 1-21.\nThe Board instituted inter partes review as to claims 5 and 8 of the '676 patent. The primary focus during inter partes review was whether the \"reproducing means\" limitation was computer-implemented and required an algorithm.\nOn September 28, 2017, the Board issued a final decision finding the claims unpatentable as obvious over U.S. Patent No. 5,130,816 to Yoshio (\"Yoshio\"). The Board construed the \"reproducing means\" limitation as a means-plus-function limitation. The Board explained that the recited function is \"reproducing the audio data of the channel designated by the default value stored in the storing means.\" Arris Int'l PLC v. Sony Corp. , IPR2016-00834, 2017 WL 4349410, at *4 (P.T.A.B. Sept. 28, 2017). The Board determined that the structure that performs these functions is \"a controller and a synthesizer, or the equivalent.\" Id. at *12. The Board further concluded that the limitation is not computer-implemented and does not require an algorithm because \"synthesizer 11 and controller 13 both are shown and described in the '676 patent as discrete hardware elements.\" Id. at *5, 9.\nThe Board found that Yoshio taught most of the limitations of claims 5 and 8 and that the claims would have been obvious over Yoshio. Yoshio is directed to \"a method and apparatus of recording and reproducing information, in which a plurality of audio signals corresponding to speech in a plurality of languages can be recorded on a recording medium\" (e.g., a video disc or a digital audio disc) and in which \"an audio signal corresponding to the speech in a desired language can be obtained from among the plurality of audio signals recorded on the recording medium.\" Yoshio, col. 1, ll. 43-50. Yoshio taught that audio signals of five channels (e.g., CH1, CH2, CH3, CH4, and CH5 for sound effects, Japanese, English, Chinese, and Korean, respectively) can be recorded. Yoshio further disclosed a computer-implemented \"system controller\" that detects whether a channel has been designated and supplies data indicating the designated channel, or data indicating a pre-determined channel if no channel was designated, to an ADPCM decoder and graphics decoder to select the channel. Based on the channel designated, the audio track in the corresponding language is played.\nSony appeals. Petitioners have elected not to participate in the appeal, and the Director of the U.S. Patent and Trademark Office intervened to defend the Board's decision. This court has jurisdiction pursuant to 28 U.S.C. \u00a7 1295(a)(4)(A).\nDISCUSSION\nWe review the Board's legal conclusions de novo and its factual findings for substantial evidence. Redline Detection, LLC v. Star Envirotech, Inc. , 811 F.3d 435, 449 (Fed. Cir. 2015). We review the ultimate question of the proper construction of a patent de novo, with any underlying fact findings reviewed for substantial evidence. In re Cuozzo Speed Techs., LLC , 793 F.3d 1268, 1280 (Fed. Cir. 2015). The '676 patent expired in August 2017. During inter partes review proceedings, claims of an expired patent are construed using the framework set forth in Phillips v. AWH Corp. , 415 F.3d 1303 (Fed. Cir. 2005) (en banc). Wasica Fin. GmbH v. Cont'l Auto. Sys., Inc. , 853 F.3d 1272, 1279 (Fed. Cir. 2017).\nSony's primary argument on appeal is that the Board erred in construing the \"reproducing means\" limitation. Claims 5 and 8 both recite, in pertinent part, \"reproducing means for reproducing the audio data of the channel designated by the default value stored in the storing means.\" '676 patent, col. 12, ll. 28-43 (emphasis added); id. col. 13, ll. 11-21. There is no dispute that the \"reproducing means\" limitation is a means-plus-function limitation, invoking 35 U.S.C. \u00a7 112 \u00b6 6.\nThe first step in construing a means-plus-function claim limitation is to determine the function of the limitation. Golight, Inc. v. Wal-Mart Stores, Inc. , 355 F.3d 1327, 1333 (Fed. Cir. 2004). Here, Sony and the Director agree that the function performed by the reproducing means is \"reproducing the audio data of the channel designated by the default value stored in the storing means.\"\nAfter identifying the function of the means-plus-function claim limitation, the next step is to determine the corresponding structure disclosed in the specification. Id. at 1334. \"Under this second step, structure disclosed in the specification is corresponding structure only if the specification or prosecution history clearly links or associates that structure to the function recited in the claim.\" Id. (quoting Med. Instrumentation & Diagnostics Corp. v. Elekta AB , 344 F.3d 1205, 1210 (Fed. Cir. 2003) ).\n\"In cases involving a computer-implemented invention in which the inventor has invoked means-plus-function claiming, this court has consistently required that the structure disclosed in the specification be more than simply a general purpose computer or microprocessor.\" Aristocrat Techs. Austl. Pty Ltd. v. Int'l Game Tech. , 521 F.3d 1328, 1333 (Fed. Cir. 2008). For means-plus-function claims \"in which the disclosed structure is a computer, or microprocessor, programmed to carry out an algorithm,\" we have held that \"the disclosed structure is not the general purpose computer, but rather the special purpose computer programmed to perform the disclosed algorithm.\" WMS Gaming, Inc. v. Int'l Game Tech. , 184 F.3d 1339, 1349 (Fed. Cir. 1999).\nBefore the Board, Sony's primary argument was that the \"reproducing means\" limitation is implemented on a computer and thus, under our precedent, requires an algorithm to carry out the claimed function. The Board disagreed and held that the limitation is implemented in hardware and accordingly does not require an algorithm. Specifically, the Board concluded that the corresponding structure of the reproducing means is \"a controller and a synthesizer, or the equivalent.\" Arris , 2017 WL 4349410, at *12. The Board further explained that \"[a]lthough the specification of the '676 patent includes steps that could be termed an algorithm and that could be implemented on a computer, we agree with Petitioner that does not mean that the controller is 'computer-implemented' or require that the construction must include the algorithm.\" Id. at *10.\nAlthough the parties appear to agree on appeal that the specification contemplates a hardware-implementation of the reproducing means, we think Sony's original position was correct. We are not bound by the parties' arguments as to claim construction. See Exxon Chem. Patents, Inc. v. Lubrizol Corp. , 64 F.3d 1553, 1555-58 (Fed. Cir. 1995) (\"[T]he [court] has an independent obligation to determine the meaning of the claims, notwithstanding the views asserted by the adversary parties.\").\nOn its face, the '676 patent refers to a computer-implementation of the reproducing means. The specification states that the \"reproducing means comprises a synthesizer 11 and a controller 13.\" '676 patent, col. 3, ll. 18-19. The specification further explains that \"[i]n reproducing such a recording medium by using the reproducing device of the present invention, the processing as shown in FIG. 16 is executed.\" Id. col. 11, ll. 10-12 (emphasis added). Figure 16, in turn, discloses an algorithm in the form of a flowchart.\nIf the controller of the reproducing means were implemented in hardware, we would expect the patent to describe or refer to the circuitry of the controller that would be required for a hardware controller to perform the claimed function. The '676 patent does not do so. Therefore, despite testimony of petitioners' expert that a person of ordinary skill in the art would understand that the controller of the reproducing means \"need not necessarily be computer-implemented\" and \"is more likely implemented in hardware,\" J.A. 1261-64, we think that the reproducing means is necessarily construed as computer-implemented based on the specification.\nSince we conclude that the reproducing means limitation is computer-implemented, the corresponding structure must include an algorithm. See WMS Gaming , 184 F.3d at 1349. The specification describes the flowchart algorithm of Figure 16 as follows:\nIn reproducing such a recording medium by using the reproducing device of the present invention, the processing as shown in FIG. 16 is executed. First, reproduction of a desired track is commanded through the digitizer 17 (step S31). For instance, when reproduction of the track #3 is commanded, the controller 13 controls the drive 2 to start reproduction of the track 3. The start of reproduction is awaited (step S32). If the reproduction is started, the controller 13 reads the track header from the output from the decoder 4 and reads the number of multiplex sound and language data (step S33). Further, the controller 13 reads default language data from the nonvolatile memory 16 (step S34), and determines whether or not the multiplex audio data contains audio data according with the default language data (step S35). If the audio data accords with the default language data, the controller 13 controls the synthesizer 11 to select the audio data according with the default language data (step S36). If the multiplex audio data does not contain the audio data according with the default language data, the controller 13 controls the synthesizer 11 to select audio data located at the first position in the multiplex audio data (step S37).\n'676 patent, col. 11, ll. 10-32.\nThe '676 patent specification clearly links the function of the \"reproducing means\" to the algorithm flowchart of Figure 16. The specification explains that \"[i]n reproducing such a recording medium by using the reproducing device of the present invention , the processing as shown in FIG. 16 is executed.\" Id. col. 11, ll. 10-12. \"When a patent ... describes the features of the 'present invention' as a whole,\" as it does here, \"this description limits the scope of the invention.\" Verizon Servs. Corp. v. Vonage Holdings Corp. , 503 F.3d 1295, 1308 (Fed. Cir. 2007). Indeed, petitioners' expert relied on the algorithm disclosed in the '676 patent in describing how the controller performs the function of the reproducing means.\nWe conclude that the \"reproducing means\" limitation of claims 5 and 8 of the '676 patent is more appropriately construed as computer-implemented, and that the corresponding structure is a synthesizer and controller that performs the algorithm disclosed in the specification. The Board did not reach the question of whether Yoshio, which is computer-implemented, disclosed the algorithm of the '676 patent or the equivalent. Accordingly, we vacate the Board's decision and remand for further consideration of whether Yoshio discloses a synthesizer and controller that performs the algorithm disclosed in the specification, or the equivalent, and whether the challenged claims would have been obvious over Yoshio.\nVACATED AND REMANDED\nCOSTS\nNo costs.\nThe dissent urges that there is no longer \"a live case or controversy sufficient to satisfy Article III\" because the '676 patent expired in August 2017, petitioners have elected not to participate in the appeal, and the parties have settled the district court infringement suit involving the '676 patent. Dissent Op. at 1241.\nThe parties to this appeal remain adverse, and no party has suggested the lack of an Article III case or controversy. The Director argues that the Board's decision finding claims 5 and 8 of the '676 patent unpatentable should be affirmed (which would result in \"the Director ... issu[ing] and publish[ing] a certificate canceling [the] claim[s],\" 35 U.S.C. \u00a7 318(b) ). Sony argues that the Board's decision should be reversed and the claims should be found patentable. This presents an Article III controversy.\nEven if the existence of a potential infringement suit were relevant, there has been no showing that such a controversy does not exist, as would be required for mootness. See Cardinal Chem. Co. v. Morton Int'l, Inc. , 508 U.S. 83, 98, 113 S.Ct. 1967, 124 L.Ed.2d 1 (1993). It is well-established that our decision (and the Board's decision on remand) would have a consequence on any infringement that occurred during the life of the '676 patent. See Genetics Inst. v. Novartis Vaccines , 655 F.3d 1291, 1299 (Fed. Cir. 2011) (\"[A]n expired patent may form the basis of an action for past damages subject to the six-year limitation under 35 U.S.C. \u00a7 286.\"); see also Keranos, LLC v. Silicon Storage Tech., Inc. , 797 F.3d 1025, 1033 (Fed. Cir. 2015) (Although \"the patentee has fewer rights to transfer when the patent has expired,\" the owner of an expired patent can license the rights or transfer title to an expired patent.); Mars, Inc. v. Coin Acceptors, Inc. , 527 F.3d 1359, 1372 (Fed. Cir. 2008) (\"Title to ... an expired patent ... includes more than merely the right to recover damages for past infringement.\").\nBecause the application that led to the '676 patent was filed before March 16, 2013, pre-AIA 35 U.S.C. \u00a7 112 applies here.",
+        "type": "majority",
+        "author": "Dissenting opinion filed by Circuit Judge Newman."
+      },
+      {
+        "text": "Newman, Circuit Judge, dissenting.\nThe threshold question on appellate jurisdiction is whether there is a live case or controversy sufficient to satisfy Article III. The only patent on appeal, U.S. Patent No. 6,097,676, expired in August 2017; the IPR petitioner, ARRIS, declines to defend its PTAB victory; and the parties have settled the infringement suit in district court. There is no interest, neither private interest nor public interest, in the fate of this patent. There appears to be no consequence of either our appellate decision today or the potential PTAB decision on the remand now ordered by the court. This appeal fails the requirements of Article III.\n\"No principle is more fundamental to the judiciary's proper role in our system of government than the constitutional limitation of federal-court jurisdiction to actual cases or controversies.\" Raines v. Byrd , 521 U.S. 811, 818, 117 S.Ct. 2312, 138 L.Ed.2d 849 (1997) (quoting Simon v. E. Ky. Welfare Rights Org. , 426 U.S. 26, 37, 96 S.Ct. 1917, 48 L.Ed.2d 450 (1976) ). Federal courts are limited to their constitutional authority, and \"[i]f a dispute is not a proper case or controversy, the courts have no business deciding it, or expounding the law in the course of doing so.\" DaimlerChrysler Corp. v. Cuno , 547 U.S. 332, 341, 126 S.Ct. 1854, 164 L.Ed.2d 589 (2006).\nEvery federal court has the obligation to assure its own jurisdiction:\n[T]he rule, springing from the nature and limits of the judicial power of the United States, is inflexible and without exception, which requires this court, of its own motion, to deny its own jurisdiction, and, in the exercise of its appellate power, that of all other courts of the United States, in all cases where such jurisdiction does not affirmatively appear in the record on which, in the exercise of that power, it is called to act. On every writ of error or appeal, the first and fundamental question is that of jurisdiction, first, of this court, and then of the court from which the record comes. This question the court is bound to ask and answer for itself, even when not otherwise suggested, and without respect to the relation of the parties to it.\nBender v. Williamsport Area Sch. Dist. , 475 U.S. 534, 546-47, 106 S.Ct. 1326, 89 L.Ed.2d 501 (1986) (quoting Mansfield, C. & L.M. Ry. Co. v. Swan , 111 U.S. 379, 382, 4 S.Ct. 510, 28 L.Ed. 462 (1884) ).\nThe rule that \"[t]o qualify as a case fit for federal-court adjudication, 'an actual controversy must be extant at all stages of review' \" includes review by a federal court of agency action. See Arizonans for Official English v. Arizona , 520 U.S. 43, 67, 117 S.Ct. 1055, 137 L.Ed.2d 170 (1997) (quoting Preiser v. Newkirk , 422 U.S. 395, 401, 95 S.Ct. 2330, 45 L.Ed.2d 272 (1975) ); see also Lewis v. Cont'l Bank Corp. , 494 U.S. 472, 477, 110 S.Ct. 1249, 108 L.Ed.2d 400 (1990) (\"This case-or-controversy requirement subsists through all stages of federal judicial proceedings, trial and appellate. To sustain our jurisdiction in the present case, it is not enough that a dispute was very much alive when suit was filed ....\"). Such a rule follows ineluctably from the proposition that the court \"is not empowered to decide moot questions or abstract propositions.\" North Carolina v. Rice , 404 U.S. 244, 246, 92 S.Ct. 402, 30 L.Ed.2d 413 (1971) (quoting United States v. Alaska S.S. Co. , 253 U.S. 113, 116, 40 S.Ct. 448, 64 L.Ed. 808 (1920) ).\nA necessary question is whether there remain any consequences of our appellate decision. As the party seeking judicial review, \"[i]t is the responsibility of [Sony] clearly to allege facts demonstrating that [it] is a proper party to invoke judicial resolution of the dispute and the exercise of the court's remedial powers.\" Renne v. Geary , 501 U.S. 312, 316, 111 S.Ct. 2331, 115 L.Ed.2d 288 (1991) (internal quotation marks and citation omitted). Here, appellant Sony must establish its continuing interest \" 'when it seeks review of an agency's final action in a federal court,' by creating a necessary record in this court, if the record before the Board does not\" so establish. JTEKT Corp. v. GKN Auto. LTD. , 898 F.3d 1217, 1220 (Fed. Cir. 2018) (quoting Phigenix, Inc. v. Immunogen, Inc. , 845 F.3d 1168, 1172 (Fed. Cir. 2017) ).\nAlthough a patentee has an indisputable interest in the validity of its patent, here the patent has expired and the district court litigation was terminated. Appellant's Br. 2 n.1. In the \"Statement of Related Cases\" Sony \"inform[ed] the Court that U.S. Patent No. 6,097,676 was asserted in litigation captioned as Sony Corp. v. ARRIS Global Ltd ., No. 1:15-cv-00288 (D. Del.).\" However, that litigation was terminated and dismissed with prejudice, at the joint request of the parties, on November 28, 2017. Sony Corp. v. ARRIS Global Ltd. , No. 1:15-cv-00288 (D. Del.), ECF No. 286 (\"Stipulation and Order for Dismissal\"). Sony also mentions the concurrent appeal on a different patent, Sony Corp. v. Iancu , No. 18-1173, but no connection is asserted between these appeals.\nSony states that it \"is unaware of any other case pending\" upon which our decision will have an effect, and recites no other consequence of this appeal, with respect to ARRIS or any other entity. Appellant's Br. viii. The Court's precedent leaves no room for the speculative circumstances posited by my colleagues. \"Article III of the Constitution requires that there be a live case or controversy at the time that a federal court decides the case.\" Burke v. Barnes , 479 U.S. 361, 363, 107 S.Ct. 734, 93 L.Ed.2d 732 (1987). No such circumstance is mentioned, nor even hinted, by any party or the intervenor.\nThe record contains not even a remote suggestion of possible future litigation or other potential actions by unidentified acquirers of this expired patent. The panel majority searches for a possible case-or-controversy, proposing that there may be speculative or unspecified circumstances. Maj. Op. 1238-39, n.1. However, \"[w]e presume that federal courts lack jurisdiction unless the contrary appears affirmatively from the record.\" ( Renne , 501 U.S. at 316, 111 S.Ct. 2331 (internal quotation marks omitted) (quoting Bender , 475 U.S. at 546, 106 S.Ct. 1326 )). If such possibility indeed exists, it was Sony's obligation to say so, for the \"burden of establishing\" that the requirements of Article III are met is placed on \"the party seeking judicial review.\" JTEKT , 898 F.3d at 1220 ; see also Phigenix , 845 F.3d at 1171 (placing the burden on the appellant).\nNo possibility of present or future case-or-controversy has been suggested-not by Sony, not by the vanished party ARRIS, not by the intervenor Director. Whether or not the PTAB erred in its decision, now that all known past, present, and future controversy has vanished, further proceedings are devoid of juridical content.\nOn the record before us, both the court's decision on this appeal and our remand for further PTAB proceedings are devoid of substance and consequence-they thus appear to be advisory. And \"[a]s is well known the federal courts established pursuant to Article III of the Constitution do not render advisory opinions.\" United Pub. Workers of Am. (C.I.O.) v. Mitchell , 330 U.S. 75, 89, 67 S.Ct. 556, 91 L.Ed. 754 (1947).\nThis appeal should be dismissed. From my colleagues' departure from the principles of Article III and the judicial role, I respectfully dissent.\nThe PTO Director, intervening \"to defend the Board's decision,\" does not explain the agency's interest in further judicial and administrative proceedings on this patent that expired 20 months ago and is now devoid of controversy. The panel majority's description of the Director as a party that \"remain[s] adverse,\" is not explained.\nOther cases have raised various aspects of implementation of the America Invents Act, including application of \"relaxed\" jurisdictional standards, the effects of estoppel, and vacatur of unappealable decisions. However, such aspects are not here raised.",
+        "type": "dissent",
+        "author": "Newman, Circuit Judge, dissenting."
+      }
+    ],
+    "attorneys": [
+      "Scott Anthony McKeown, Ropes & Gray LLP, Washington, DC, argued for appellant. Also represented by Douglas Hallward-Driemeier ; Henry Huang, East Palo Alto, CA.",
+      "Robert McBride, Office of the Solicitor, United States Patent and Trademark Office, Alexandria, VA, argued for intervenor. Also represented by Thomas W. Krause."
+    ],
+    "corrections": "",
+    "head_matter": "SONY CORPORATION, Appellant\nv.\nAndrei IANCU, Under Secretary of Commerce for Intellectual Property and Director of the United States Patent and Trademark Office, Intervenor\n2018-1172\nUnited States Court of Appeals, Federal Circuit.\nDecided: May 22, 2019\nScott Anthony McKeown, Ropes & Gray LLP, Washington, DC, argued for appellant. Also represented by Douglas Hallward-Driemeier ; Henry Huang, East Palo Alto, CA.\nRobert McBride, Office of the Solicitor, United States Patent and Trademark Office, Alexandria, VA, argued for intervenor. Also represented by Thomas W. Krause.\nBefore Prost, Chief Judge, Newman and Dyk, Circuit Judges."
+  },
+  "file_name": "1235-01",
+  "first_page_order": 1235,
+  "last_page_order": 1243
+}

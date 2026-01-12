@@ -1,0 +1,59 @@
+{
+  "id": 12200930,
+  "name": "Thomas v. Texas",
+  "name_abbreviation": "Thomas v. Texas",
+  "decision_date": "2012-04-02",
+  "docket_number": "No. 11-7878",
+  "first_page": "924",
+  "last_page": "924",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 924"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.705,
+    "sha256": "a27ede61c26a088a049682d239c13ca8c65c0d5b2387154b51eb3b1fc68b850f",
+    "simhash": "1:081bdb539608260c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Thomas v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Tex., 14th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7878.\nThomas v. Texas."
+  },
+  "file_name": "0924-07",
+  "first_page_order": 800,
+  "last_page_order": 800
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12247930,
+  "name": "Stewart v. Illinois",
+  "name_abbreviation": "Stewart v. Illinois",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-8098",
+  "first_page": "1219",
+  "last_page": "1219",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1219"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 78,
+    "ocr_confidence": 0.603,
+    "sha256": "52d03f89e69b0c5a236f47b28d5c551ca089f25f97db65b34550927558229480",
+    "simhash": "1:4109b2d275a1e72e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Stewart v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8098.\nStewart v. Illinois."
+  },
+  "file_name": "1219-14",
+  "first_page_order": 1301,
+  "last_page_order": 1301
+}

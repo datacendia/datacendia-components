@@ -1,0 +1,59 @@
+{
+  "id": 5918492,
+  "name": "Rivers v. United States",
+  "name_abbreviation": "Rivers v. United States",
+  "decision_date": "2011-05-23",
+  "docket_number": "No. 10-10134",
+  "first_page": "1015",
+  "last_page": "1015",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1015"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.527,
+    "sha256": "c823cd1219f3792ebb28729eb91442e22ed97486857621bc4cafff5a36a89b9e",
+    "simhash": "1:86ca0a7bdfaf3015",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rivers v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10134.\nRivers v. United States."
+  },
+  "file_name": "1015-03",
+  "first_page_order": 1041,
+  "last_page_order": 1041
+}

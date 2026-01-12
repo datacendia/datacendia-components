@@ -1,0 +1,59 @@
+{
+  "id": 6001079,
+  "name": "Seay v. United States",
+  "name_abbreviation": "Seay v. United States",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-7936",
+  "first_page": "1191",
+  "last_page": "1191",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1191"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.627,
+    "sha256": "05504b676603bb6204658db9ba0a4fbbefb5329b911ffacf61dfb2479c3644c1",
+    "simhash": "1:83bba2b3ee35160a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Seay v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7936.\nSeay v. United States."
+  },
+  "file_name": "1191-09",
+  "first_page_order": 1213,
+  "last_page_order": 1213
+}

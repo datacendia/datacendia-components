@@ -1,0 +1,65 @@
+{
+  "id": 5919509,
+  "name": "Bahrami v. Ketabchi",
+  "name_abbreviation": "Bahrami v. Ketabchi",
+  "decision_date": "2010-12-13",
+  "docket_number": "No. 10-127",
+  "first_page": "1125",
+  "last_page": "1125",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1125"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 23,
+    "char_count": 160,
+    "ocr_confidence": 0.595,
+    "pagerank": {
+      "raw": 4.633379638700429e-06,
+      "percentile": 0.9984993352890165
+    },
+    "sha256": "9956fe69f95ca628efd733502f8338e6dbea501fca426a6b8aed8e1ae3e12133",
+    "simhash": "1:99b01a0a54aef608",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Bahrami v. Ketabchi,"
+    ],
+    "opinions": [
+      {
+        "text": "ante, p. 952. Petition for rehearing denied.\nJustice Sotomayor took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-127.\nBahrami v. Ketabchi,"
+  },
+  "file_name": "1125-01",
+  "first_page_order": 1147,
+  "last_page_order": 1147
+}

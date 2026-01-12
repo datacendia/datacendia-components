@@ -1,0 +1,59 @@
+{
+  "id": 5985574,
+  "name": "Mercado v. Illinois",
+  "name_abbreviation": "Mercado v. Illinois",
+  "decision_date": "2010-10-18",
+  "docket_number": "No. 10-5943",
+  "first_page": "984",
+  "last_page": "984",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 984"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 78,
+    "ocr_confidence": 0.614,
+    "sha256": "49cb69d7997786120a8fb30eb4d952e72bd3c9dda916cee06683db772d1aeb10",
+    "simhash": "1:68b1b2e715a5ef2f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mercado v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5943.\nMercado v. Illinois."
+  },
+  "file_name": "0984-02",
+  "first_page_order": 1006,
+  "last_page_order": 1006
+}

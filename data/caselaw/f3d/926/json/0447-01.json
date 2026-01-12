@@ -1,0 +1,265 @@
+{
+  "id": 12521423,
+  "name": "IN RE: Harold WADE and Lorraine Wade, Debtors-Appellants.",
+  "name_abbreviation": "In re Wade",
+  "decision_date": "2019-06-14",
+  "docket_number": "No. 18-2564",
+  "first_page": "447",
+  "last_page": "451",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "926 F.3d 447"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "7th Cir.",
+    "id": 9010,
+    "name": "United States Court of Appeals for the Seventh Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "137 S. Ct. 1266",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12603551
+      ],
+      "weight": 7,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1274"
+        },
+        {
+          "page": "1272",
+          "parenthetical": "\"[T]he court's duty to dismiss the appeal was mandatory.\""
+        },
+        {
+          "page": "1275",
+          "parenthetical": "Ginsburg, J., dissenting"
+        },
+        {
+          "page": "1274",
+          "parenthetical": "majority opinion"
+        },
+        {
+          "page": "1272",
+          "parenthetical": "quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/137/1266-01"
+      ]
+    },
+    {
+      "cite": "487 U.S. 312",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1775031
+      ],
+      "weight": 7,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "316-17"
+        },
+        {
+          "page": "356",
+          "parenthetical": "Van Bokkelen, J., concurring in the judgment"
+        },
+        {
+          "page": "315-16"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/487/0312-01"
+      ]
+    },
+    {
+      "cite": "885 F.3d 1065",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516265
+      ],
+      "weight": 3,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1073"
+        },
+        {
+          "page": "1074"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/885/1065-01"
+      ]
+    },
+    {
+      "cite": "574 F.3d 349",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5758237,
+        3676742
+      ],
+      "weight": 5,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "352",
+          "parenthetical": "Posner, J."
+        },
+        {
+          "page": "354",
+          "parenthetical": "\"[T]he failure to comply with a rule that is not jurisdictional ... is not fatal if no one is harmed by the failure....\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/410/0349-01",
+        "/f3d/574/0349-01"
+      ]
+    },
+    {
+      "cite": "139 S. Ct. 710",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12623923
+      ],
+      "weight": 5,
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "714"
+        },
+        {
+          "page": "715"
+        },
+        {
+          "page": "715"
+        },
+        {
+          "page": "714"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/139/0710-01"
+      ]
+    },
+    {
+      "cite": "138 S. Ct. 13",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12611264
+      ],
+      "weight": 5,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "17"
+        },
+        {
+          "page": "17"
+        },
+        {
+          "page": "17"
+        },
+        {
+          "page": "17",
+          "parenthetical": "stating that mandatory claim-processing rules \"must be enforced\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/0013-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 158",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(d)(2)(A)"
+        },
+        {
+          "page": "(d)(2)(A)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "11 U.S.C. \u00a7 362",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(c)(3)"
+        },
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 609,
+    "char_count": 12666,
+    "pagerank": {
+      "raw": 5.298132930532853e-08,
+      "percentile": 0.3348145007681915
+    },
+    "sha256": "57d76f5f96e2f2a7ccc4d6ca2989a25bf34fe1379d3c6a9b3b56aabc09abda60",
+    "simhash": "1:b6accb802fc99d8b",
+    "word_count": 2064
+  },
+  "last_updated": "2024-02-27T18:46:44.951673+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Kanne, Sykes, and Hamilton, Circuit Judges."
+    ],
+    "parties": [
+      "IN RE: Harold WADE and Lorraine Wade, Debtors-Appellants."
+    ],
+    "opinions": [
+      {
+        "text": "Sykes, Circuit Judge.\nDebtors Harold and Lorraine Wade moved for sanctions against Kreisler Law, P.C., alleging that the law firm violated the automatic stay arising from their bankruptcy petition by filing a lien against Lorraine's home. The couple had voluntarily dismissed a prior bankruptcy petition just a few months earlier, so the bankruptcy judge denied their motion based on 11 U.S.C. \u00a7 362(c)(3), which lifts the automatic stay after 30 days in the case of a successive petition. But the bankruptcy courts are divided over the proper interpretation of \u00a7 362(c)(3), so the judge certified her order for direct appeal to this court under 28 U.S.C. \u00a7 158(d)(2)(A). A timely notice of appeal followed.\nBut the Wades never filed a petition for permission to appeal as required by Rule 8006(g) of the Federal Rules of Bankruptcy Procedure. Kreisler moved to dismiss the appeal based on this omission. We provisionally accepted the appeal and directed the parties to address the effect of the procedural violation in their merits briefs.\nWe now dismiss the appeal. Rule 8006(g) is a mandatory claim-processing rule, and if properly invoked, it must be enforced. See Hamer v. Neighborhood Hous. Servs. of Chi. , --- U.S. ----, 138 S. Ct. 13, 17, 199 L.Ed.2d 249 (2017). Because Kreisler properly objected, the appeal must be dismissed.\nI. Background\nThe Wades filed a Chapter 13 bankruptcy petition in January 2015, which automatically stayed any collection actions against their property. See 11 U.S.C. \u00a7 362(a). But the petition was successive-they had voluntarily dismissed a different petition two months earlier-and \u00a7 362(c)(3) states that if a prior petition \"was pending within the preceding 1-year period but was dismissed,\" the automatic stay \"shall terminate with respect to the debtor on the 30th day after the filing of the later case.\"\nJust how much of the stay was lifted became relevant after the Wades discovered that Kreisler recorded a lien against Lorraine's home in April 2015. Because their bankruptcy case was active at that time, the Wades moved in the bankruptcy court to sanction Kreisler for violating the stay.\nThe parties disagreed about the meaning of \u00a7 362(c)(3). Kreisler contended that it lifts the entire stay. The Wades argued that the phrase \"with respect to the debtor\" limits the statute's effect so that it lifts the stay only for non-estate property. In their view the stay still prevented Kreisler from recording the lien because Lorraine's house was estate property.\nThe bankruptcy judge denied the Wades' motion, concluding that the entire stay lifted in February 2015, which validated Kreisler's April 2015 lien. The Wades appealed to the district court. But they also asked the bankruptcy judge to certify her order for direct appeal to this court under \u00a7 158(d)(2)(A). The judge granted that request and issued a certification order. The Wades then filed a notice of appeal, but they never filed a petition for permission to appeal as required by Rule 8006(g) of the Federal Rules of Bankruptcy Procedure. Kreisler moved to dismiss based on this procedural oversight. We provisionally accepted the appeal but instructed the parties to brief the dismissal motion with the merits.\nII. Discussion\nWe begin (and end) with the question whether the failure to file a petition for permission to appeal requires dismissal of this appeal. We are permitted to consider a direct appeal from an order of the bankruptcy court if the bankruptcy judge certifies the order for appeal and we \"authorize[ ] the direct appeal.\" 28 U.S.C. \u00a7 158(d)(2)(A). The Federal Rules of Bankruptcy and Appellate Procedure jointly set forth the procedural steps to obtain authorization for a direct appeal.\nAs relevant here, Bankruptcy Rule 8006(g) mandates that \"[w]ithin 30 days after the [bankruptcy court's] certification becomes effective ..., a request for permission to take a direct appeal to the court of appeals must be filed with the circuit clerk.\" Ignoring this rule short-circuits our approval process, which is detailed in Rule 5 of the Federal Rules of Appellate Procedure. Rule 5 states that \"[t]o request permission to appeal ..., a party must file a petition for permission to appeal.\" FED. R. APP. P. 5(a)(1). Rule 5(b)(1) specifies the required contents of the petition, which include a statement of \"the reasons why the appeal should be allowed and is authorized by a statute or rule.\" Rule 5(b)(2) provides a ten-day window for other parties to oppose the petition or file a cross-petition. Whether opposed or not, under Rule 5(b)(3) the petition for leave to appeal is decided \"without oral argument unless the court of appeals orders otherwise.\"\nBecause Rule 8006(g) is a \"time limitation ... found in a procedural rule, not a statute, it is properly classified as a nonjurisdictional claim-processing rule.\" Nutraceutical Corp. v. Lambert , --- U.S. ----, 139 S. Ct. 710, 714, 203 L.Ed.2d 43 (2019). The question here is whether Rule 8006(g) is a \"mandatory\" claim-processing rule, which \"[i]f properly invoked ... must be enforced.\" Hamer , 138 S. Ct. at 17.\nThe Supreme Court's recent decision in Nutraceutical Corp. is instructive on this point. There the Supreme Court considered Rule 23(f) of the Federal Rules of Civil Procedure, which permits an interlocutory appeal of a class-certification order if the appellant files a petition for permission to appeal \"within 14 days after the order is entered.\" The Court held that Rule 23(f) is a mandatory claim-processing rule, noting that \"the Federal Rules of Appellate Procedure single out Civil Rule 23(f) for inflexible treatment,\" Nutraceutical , 139 S. Ct. at 715, because Rule 26(b)(1) bars courts from \"extend[ing] the time to file ... a petition for permission to appeal,\" FED. R. APP. P. 26(b).\nThat reasoning applies with equal force here. Like Rule 23(f), Rule 8006(g) speaks in mandatory terms. See FED. R. BANKR. P. 8006(g) (petition \"must be filed\" before the deadline). And like Rule 23(f), Rule 8006(g) requires a petition for permission to appeal, so Rule 26(b)(1) \"singles [it] out ... for inflexible treatment.\" Nutraceutical Corp. , 139 S. Ct. at 715. Rule 8006(g) is thus a mandatory claim-processing rule. Because Kreisler properly invoked the rule, it \"must be enforced.\" Hamer , 138 S. Ct. at 17.\nIn response the Wades rely on the lead opinion in In re Turner , 574 F.3d 349 (7th Cir. 2009), and our decision in Marshall v. Blake , 885 F.3d 1065 (7th Cir. 2018). In both cases the appellants obtained certification from the bankruptcy court for a direct appeal but failed to file a petition for permission to appeal as required by the Bankruptcy and Appellate Rules. In both cases we declined to dismiss the appeal, but the decisions rested on slightly different grounds.\nThe lead opinion in Turner , representing only the author's views, concluded that the record transmitted from the bankruptcy court contained the information that a petition for leave to appeal would have provided. See 574 F.3d at 352 (Posner, J.). Invoking the Supreme Court's decision in Torres v. Oakland Scavenger Co. , the lead opinion concluded that the record sent by the bankruptcy court brought\nthe case within the principle that \"if a litigant files papers in a fashion that is technically at variance with the letter of a procedural rule, a court may nonetheless find that the litigant has complied with the rule if the litigant's action is the functional equivalent of what the rule requires.\"\nId. (quoting Torres v. Oakland Scavenger Co. , 487 U.S. 312, 316-17, 108 S.Ct. 2405, 101 L.Ed.2d 285 (1988) ). In the lead opinion's view, dismissal was unwarranted because treating the bankruptcy-court record as the \"functional equivalent\" of a petition would not prejudice the appellee. Id. ; see also id. at 356 (Van Bokkelen, J., concurring in the judgment).\nIn Marshall we dropped any reliance on functional equivalence and instead emphasized Turner 's discussion of harmlessness. See 885 F.3d at 1073 (\"[W]e have excused the failure to file a Rule 5 petition if the party filed a timely notice of appeal and 'no one is harmed by the failure.' \" (quoting Turner , 574 F.3d at 354 )). Marshall found that the failure to comply with Rule 8006(g) was harmless in that case.\nTurner was decided before Hamer clarified the effect of mandatory claim-processing rules. The lead opinion presumed that as long as a rule is not jurisdictional, courts could create equitable exceptions. See 574 F.3d at 354 (\"[T]he failure to comply with a rule that is not jurisdictional ... is not fatal if no one is harmed by the failure....\"). And Marshall postdates Hamer but does not mention the case. There the litigants framed the Rule 8006(g) objection in jurisdictional terms, and our opinion treated the issue accordingly, concluding that \"we have jurisdiction to hear the direct appeal\" after rejecting the appellee's Rule 8006(g) objection. Marshall , 885 F.3d at 1074.\nMarshall and Turner are irreconcilable with the Supreme Court's recent decisions on the effect of noncompliance with mandatory claim-processing rules. Marshall 's harmless-error analysis cannot coexist with the Court's decision in Manrique v. United States , --- U.S. ----, 137 S. Ct. 1266, 1274, 197 L.Ed.2d 599 (2017), which held that \"mandatory claim-processing rules ... are not subject to harmless-error analysis.\" More broadly, the Court's recent decisions in this area have consistently compelled enforcement of mandatory claim-processing rules. See, e.g. , Nutraceutical Corp. , 139 S. Ct. at 714 (stating that mandatory claim-processing rules are \"unalterable\"\n); Hamer , 138 S. Ct. at 17 (stating that mandatory claim-processing rules \"must be enforced\"); Manrique , 137 S. Ct. at 1272 (\"[T]he court's duty to dismiss the appeal was mandatory.\") (quotation marks omitted). Adopting a harmless-error exception, as Marshall did, necessarily alters an \"unalterable\" claim-processing rule.\nThe approach of Turner 's lead opinion is also unsustainable in light of the Court's recent cases. The Wades note that Torres remains on the books. True, but we're not persuaded that we may accept the bankruptcy court's certification order as the functional equivalent of a petition for permission to appeal.\nTo start, it's unclear if Torres itself ever extended that far. See 487 U.S. at 315-16, 108 S.Ct. 2405 (\"Permitting imperfect but substantial compliance with a technical requirement is not the same as waiving the requirement altogether....\"). Regardless, the Court has now clearly rejected the reasoning of the lead opinion in Turner . In Manrique a criminal defendant failed to file a second notice of appeal after the lower court issued an amended judgment, as Rule 4 of the Federal Rules of Criminal Procedure requires. The dissent reasoned that \"the clerk's transmission of the amended judgment to the Court of Appeals [was] an adequate substitute for a second notice of appeal.\" Manrique , 137 S. Ct. at 1275 (Ginsburg, J., dissenting). But the Court didn't agree. It treated Rule 4 as a mandatory claim-processing rule and held that the court of appeals \"may not overlook the failure to file a notice of appeal at all.\" Id. at 1274 (majority opinion). Because that omission ran afoul of Rule 4, the appeal had to be dismissed. Id.\nThe same result is required here. We cannot overlook the Wades' failure to file a petition for permission to appeal. Because Kreisler properly objected to the violation of Rule 8006(g), our \"duty to dismiss the appeal [is] mandatory.\" Id. at 1272 (quotation marks omitted). Based on the clear conflict with Nutraceutical Corp ., Hamer , and Manrique , we overrule Turner and Marshall to the extent that they approved exceptions to compliance with Bankruptcy Rule 8006(g) and Rule 5(a)(1) of the Federal Rules of Appellate Procedure -whether based on the functional-equivalence doctrine, the harmless-error doctrine, or both. The Wades must pursue their appeal through the ordinary process, which starts with the district court.\nAPPEAL DISMISSED .\nBecause this opinion overrules circuit precedent, we circulated it to all judges in active service. See 7 th Cir. R. 40(e). No judge favored rehearing en banc.",
+        "type": "majority",
+        "author": "Sykes, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Michael A. Miller, Attorney, Semrad Law Firm, LLC, Chicago, IL, for Debtors-Appellants.",
+      "Melanie Pennycuff, Attorney, Kreisler Law P.C., Chicago, IL, for Appellee",
+      "Tara A. Twomey, Attorney, National Consumer Law Center, Boston, MA, for Amici Curiae."
+    ],
+    "corrections": "",
+    "head_matter": "IN RE: Harold WADE and Lorraine Wade, Debtors-Appellants.\nNo. 18-2564\nUnited States Court of Appeals, Seventh Circuit.\nArgued February 6, 2019\nDecided June 14, 2019\nMichael A. Miller, Attorney, Semrad Law Firm, LLC, Chicago, IL, for Debtors-Appellants.\nMelanie Pennycuff, Attorney, Kreisler Law P.C., Chicago, IL, for Appellee\nTara A. Twomey, Attorney, National Consumer Law Center, Boston, MA, for Amici Curiae.\nBefore Kanne, Sykes, and Hamilton, Circuit Judges."
+  },
+  "file_name": "0447-01",
+  "first_page_order": 447,
+  "last_page_order": 451
+}

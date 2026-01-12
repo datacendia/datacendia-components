@@ -1,0 +1,59 @@
+{
+  "id": 12230933,
+  "name": "Miniard v. Supreme Court of Ohio et al.",
+  "name_abbreviation": "Miniard v. Supreme Court of Ohio",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-6078",
+  "first_page": "984",
+  "last_page": "984",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 984"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 87,
+    "ocr_confidence": 0.652,
+    "sha256": "2278ddfe761540cab46d241f21e74d8b8a28a1725cd0a0f59338e10d065c9626",
+    "simhash": "1:f89822856b87483e",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Miniard v. Supreme Court of Ohio et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6078.\nMiniard v. Supreme Court of Ohio et al."
+  },
+  "file_name": "0984-01",
+  "first_page_order": 1066,
+  "last_page_order": 1066
+}

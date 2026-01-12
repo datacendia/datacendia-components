@@ -1,0 +1,59 @@
+{
+  "id": 12235583,
+  "name": "Proctor v. New Jersey",
+  "name_abbreviation": "Proctor v. New Jersey",
+  "decision_date": "2011-11-28",
+  "docket_number": "No. 11-6454",
+  "first_page": "1064",
+  "last_page": "1064",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1064"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 83,
+    "ocr_confidence": 0.754,
+    "sha256": "7aec073300f633157d9a0db2ff1dc0d7ca65ce6a9ffd526a9e78fda79ef7c056",
+    "simhash": "1:55ed9f1ccaefb0af",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Proctor v. New Jersey."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. N. J., App. Div. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6454.\nProctor v. New Jersey."
+  },
+  "file_name": "1064-13",
+  "first_page_order": 1146,
+  "last_page_order": 1146
+}

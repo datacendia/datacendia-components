@@ -1,0 +1,126 @@
+{
+  "id": 12190413,
+  "name": "Addison v. New Hampshire",
+  "name_abbreviation": "Addison v. New Hampshire",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-8527",
+  "first_page": "810",
+  "last_page": "810",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 810"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "563 U. S. 991",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12459776,
+        12459777,
+        12459778,
+        12459779,
+        4223108,
+        12459781,
+        12459782,
+        12459783,
+        12459784,
+        12459785,
+        12459786,
+        12459787,
+        12459788,
+        12459789,
+        12459780,
+        5956239,
+        5925269,
+        5935644,
+        4225698,
+        5947952,
+        5943988,
+        5954101,
+        5947701,
+        5937477,
+        5942215,
+        5922391,
+        5935969,
+        5915003
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/179/1214-07",
+        "/l-ed-2d/179/1214-08",
+        "/l-ed-2d/179/1215-01",
+        "/l-ed-2d/179/1215-02",
+        "/us/563/0991-05",
+        "/l-ed-2d/179/1215-04",
+        "/l-ed-2d/179/1215-05",
+        "/l-ed-2d/179/1215-06",
+        "/l-ed-2d/179/1215-07",
+        "/l-ed-2d/179/1215-08",
+        "/l-ed-2d/179/1216-01",
+        "/l-ed-2d/179/1216-02",
+        "/l-ed-2d/179/1216-03",
+        "/l-ed-2d/179/1216-04",
+        "/l-ed-2d/179/1215-03",
+        "/us/563/0991-11",
+        "/us/563/0991-13",
+        "/us/563/0991-08",
+        "/us/563/0991-09",
+        "/us/563/0991-03",
+        "/us/563/0991-04",
+        "/us/563/0991-12",
+        "/us/563/0991-02",
+        "/us/563/0991-07",
+        "/us/563/0991-06",
+        "/us/563/0991-10",
+        "/us/563/0991-01",
+        "/us/563/0991-14"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 143,
+    "ocr_confidence": 0.621,
+    "sha256": "6903525da42bd79cfeec40529cdf476630f7ce60c7dddcee159cd57f57e93705",
+    "simhash": "1:02a267ae3417660c",
+    "word_count": 25
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Addison v. New Hampshire,"
+    ],
+    "opinions": [
+      {
+        "text": "563 U. S. 991. Respondent is requested to file a response to the petition for rehearing within 30 days.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8527.\nAddison v. New Hampshire,"
+  },
+  "file_name": "0810-02",
+  "first_page_order": 892,
+  "last_page_order": 892
+}

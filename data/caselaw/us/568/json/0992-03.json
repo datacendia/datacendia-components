@@ -1,0 +1,59 @@
+{
+  "id": 12421284,
+  "name": "Rodriguez, aka Rodriguez-Lopez v. United States",
+  "name_abbreviation": "Rodriguez v. United States",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-6416",
+  "first_page": "992",
+  "last_page": "992",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 992"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 96,
+    "ocr_confidence": 0.613,
+    "sha256": "61102bf807034e8923be3952c745abd57c88ada2fb25e445f89bc12bef60f216",
+    "simhash": "1:461bc2002bb1011e",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rodriguez, aka Rodriguez-Lopez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6416.\nRodriguez, aka Rodriguez-Lopez v. United States."
+  },
+  "file_name": "0992-03",
+  "first_page_order": 1068,
+  "last_page_order": 1068
+}

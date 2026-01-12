@@ -1,0 +1,59 @@
+{
+  "id": 5923660,
+  "name": "Hernandez v. Martinez, Warden",
+  "name_abbreviation": "Hernandez v. Martinez",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5056",
+  "first_page": "901",
+  "last_page": "901",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 901"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.614,
+    "sha256": "2f13cca664a6403e22771eae9902b50e0626f97d02be8e448152e8a0092d559c",
+    "simhash": "1:8a9cde3bfe7d82a6",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hernandez v. Martinez, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5056.\nHernandez v. Martinez, Warden."
+  },
+  "file_name": "0901-05",
+  "first_page_order": 923,
+  "last_page_order": 923
+}

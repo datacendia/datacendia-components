@@ -1,0 +1,59 @@
+{
+  "id": 12233006,
+  "name": "Burnett v. United States",
+  "name_abbreviation": "Burnett v. United States",
+  "decision_date": "2011-11-07",
+  "docket_number": "No. 11-6780",
+  "first_page": "1020",
+  "last_page": "1020",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1020"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.7,
+    "sha256": "11f16fc1c117ab2f8a7170c7658d9848e5fe2e4341311f40a61ebc212ceddff8",
+    "simhash": "1:024aeca30e95cd1a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Burnett v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6780.\nBurnett v. United States."
+  },
+  "file_name": "1020-11",
+  "first_page_order": 1102,
+  "last_page_order": 1102
+}

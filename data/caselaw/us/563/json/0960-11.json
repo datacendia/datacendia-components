@@ -1,0 +1,59 @@
+{
+  "id": 5963314,
+  "name": "Steward v. Town of Paradise, California",
+  "name_abbreviation": "Steward v. Town of Paradise",
+  "decision_date": "2011-04-25",
+  "docket_number": "No. 10-1063",
+  "first_page": "960",
+  "last_page": "960",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 960"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 88,
+    "ocr_confidence": 0.594,
+    "sha256": "0e3c66dd00fec180dde3698620eb8dfd683cc601b7e27a89ff49ea5e7a32c79c",
+    "simhash": "1:11e3a40e71bd314c",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Steward v. Town of Paradise, California."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1063.\nSteward v. Town of Paradise, California."
+  },
+  "file_name": "0960-11",
+  "first_page_order": 986,
+  "last_page_order": 986
+}

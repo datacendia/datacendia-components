@@ -1,0 +1,59 @@
+{
+  "id": 5999214,
+  "name": "In re Grand Jury Proceedings",
+  "name_abbreviation": "In re Grand Jury Proceedings",
+  "decision_date": "2010-11-15",
+  "docket_number": "No. 10-512",
+  "first_page": "1054",
+  "last_page": "1054",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1054"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 21,
+    "char_count": 149,
+    "ocr_confidence": 0.554,
+    "sha256": "8e2beef02fbb80ec594c38a2e3ba9e75aa8b4606b6a926500b907523127ba99f",
+    "simhash": "1:26ea541e926371f6",
+    "word_count": 24
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Grand Jury Proceedings."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Motion of petitioners to unseal petition for writ of certiorari denied. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-512.\nIn re Grand Jury Proceedings."
+  },
+  "file_name": "1054-02",
+  "first_page_order": 1076,
+  "last_page_order": 1076
+}

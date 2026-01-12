@@ -1,0 +1,59 @@
+{
+  "id": 5993562,
+  "name": "Locke v. Evans, Warden",
+  "name_abbreviation": "Locke v. Evans",
+  "decision_date": "2010-11-15",
+  "docket_number": "No. 10-356",
+  "first_page": "1045",
+  "last_page": "1045",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1045"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.602,
+    "sha256": "f749a1023b54811c67bc5d023c83e80ed581f6e8879503720a4bce0e25181033",
+    "simhash": "1:56b10691ed3be076",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Locke v. Evans, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-356.\nLocke v. Evans, Warden."
+  },
+  "file_name": "1045-02",
+  "first_page_order": 1067,
+  "last_page_order": 1067
+}

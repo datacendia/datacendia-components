@@ -1,0 +1,59 @@
+{
+  "id": 12415941,
+  "name": "Wright v. Yates, Warden",
+  "name_abbreviation": "Wright v. Yates",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5450",
+  "first_page": "913",
+  "last_page": "913",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 913"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.633,
+    "sha256": "f6f77ea542f5dc6f4327c1b4d0bd853aa57162b273ab0750e7f48eef3ff1079a",
+    "simhash": "1:91931789297cb177",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Wright v. Yates, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5450.\nWright v. Yates, Warden."
+  },
+  "file_name": "0913-05",
+  "first_page_order": 989,
+  "last_page_order": 989
+}

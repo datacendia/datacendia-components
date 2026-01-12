@@ -1,0 +1,59 @@
+{
+  "id": 6001966,
+  "name": "Adams v. Texas",
+  "name_abbreviation": "Adams v. Texas",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10A827",
+  "first_page": "1212",
+  "last_page": "1212",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1212"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 23,
+    "char_count": 155,
+    "ocr_confidence": 0.656,
+    "sha256": "65559e6b59c0203157fdc0b7a3a1cda0fb10eeb4b978819197da51e5b7e7faba",
+    "simhash": "1:440bd83857051b00",
+    "word_count": 26
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Adams v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Application for stay of execution of sentence of death, presented to Justice Scalia, and by him referred to the Court, denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10A827.\nAdams v. Texas."
+  },
+  "file_name": "1212-03",
+  "first_page_order": 1234,
+  "last_page_order": 1234
+}

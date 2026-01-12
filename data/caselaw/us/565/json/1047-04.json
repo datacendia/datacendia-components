@@ -1,0 +1,59 @@
+{
+  "id": 12234616,
+  "name": "Chandler v. Florida",
+  "name_abbreviation": "Chandler v. Florida",
+  "decision_date": "2011-11-15",
+  "docket_number": "No. 11-7307 (11A471)",
+  "first_page": "1047",
+  "last_page": "1047",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1047"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 28,
+    "char_count": 203,
+    "ocr_confidence": 0.665,
+    "sha256": "c2edc939a09d35c23f5c4ca10d2fb44eeff49bb2a4a6f3ce18c6b3a113f5a988",
+    "simhash": "1:6243da6077279b26",
+    "word_count": 32
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Chandler v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. Application for stay of execution of sentence of death, presented to Justice Thomas, and by him referred to the Court, denied. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7307 (11A471).\nChandler v. Florida."
+  },
+  "file_name": "1047-04",
+  "first_page_order": 1129,
+  "last_page_order": 1129
+}

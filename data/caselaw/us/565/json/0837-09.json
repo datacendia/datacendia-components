@@ -1,0 +1,59 @@
+{
+  "id": 12202425,
+  "name": "Ford v. Louisiana",
+  "name_abbreviation": "Ford v. Louisiana",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10457",
+  "first_page": "837",
+  "last_page": "837",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 837"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 65,
+    "ocr_confidence": 0.677,
+    "sha256": "85e5455bbfd296d220086052ef19c6374b4c655c87f05c8cc108ad8403248a8d",
+    "simhash": "1:50653fafa46be531",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ford v. Louisiana."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. La. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10457.\nFord v. Louisiana."
+  },
+  "file_name": "0837-09",
+  "first_page_order": 919,
+  "last_page_order": 919
+}

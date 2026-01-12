@@ -1,0 +1,59 @@
+{
+  "id": 12234767,
+  "name": "In re Discipline of Bartko",
+  "name_abbreviation": "In re Discipline of Bartko",
+  "decision_date": "2011-11-28",
+  "docket_number": "No. D-2719",
+  "first_page": "1054",
+  "last_page": "1054",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1054"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 38,
+    "char_count": 275,
+    "ocr_confidence": 0.633,
+    "sha256": "d91a71923612bdd49765785c4211122c5ee72091ecb456e202e9ec8bf1c15e94",
+    "simhash": "1:758a61b63eeeb763",
+    "word_count": 50
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Bartko."
+    ],
+    "opinions": [
+      {
+        "text": "Gregory Bartko, of Atlanta, Ga., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2719.\nIn re Discipline of Bartko."
+  },
+  "file_name": "1054-05",
+  "first_page_order": 1136,
+  "last_page_order": 1136
+}

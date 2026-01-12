@@ -1,0 +1,59 @@
+{
+  "id": 12409111,
+  "name": "Williams v. Booker, Warden",
+  "name_abbreviation": "Williams v. Booker",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-1358",
+  "first_page": "817",
+  "last_page": "817",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 817"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.692,
+    "sha256": "edd889f09a8d7e50e675c082d33d079adfd25643b5067a390d857d3d1893ce60",
+    "simhash": "1:a7b982a7ea6b5866",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. Booker, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1358.\nWilliams v. Booker, Warden."
+  },
+  "file_name": "0817-03",
+  "first_page_order": 893,
+  "last_page_order": 893
+}

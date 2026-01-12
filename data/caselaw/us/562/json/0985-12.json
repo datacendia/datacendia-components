@@ -1,0 +1,59 @@
+{
+  "id": 6031359,
+  "name": "Davis v. Tennessee",
+  "name_abbreviation": "Davis v. Tennessee",
+  "decision_date": "2010-10-18",
+  "docket_number": "No. 10-6007",
+  "first_page": "985",
+  "last_page": "985",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 985"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 68,
+    "ocr_confidence": 0.613,
+    "sha256": "040d106225d384f79797ef0bc4a2a449e194dbdf3eac1c2c1fdfaa01ed363ba9",
+    "simhash": "1:3022a4101562580c",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Davis v. Tennessee."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Tenn. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6007.\nDavis v. Tennessee."
+  },
+  "file_name": "0985-12",
+  "first_page_order": 1007,
+  "last_page_order": 1007
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12430138,
+  "name": "Taylor v. Reilly et al.",
+  "name_abbreviation": "Taylor v. Reilly",
+  "decision_date": "2013-01-22",
+  "docket_number": "No. 12-7484",
+  "first_page": "1147",
+  "last_page": "1147",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1147"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 74,
+    "ocr_confidence": 0.616,
+    "sha256": "77c698aeb2b4ab6ab82d3fc550764a1fef90b88c80046ca16409ab6235f65a34",
+    "simhash": "1:1ae018e844529510",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Taylor v. Reilly et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. D. C. Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7484.\nTaylor v. Reilly et al."
+  },
+  "file_name": "1147-08",
+  "first_page_order": 1223,
+  "last_page_order": 1223
+}

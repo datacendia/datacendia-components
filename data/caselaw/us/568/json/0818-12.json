@@ -1,0 +1,59 @@
+{
+  "id": 12409326,
+  "name": "Louisiana et al. v. Leonard",
+  "name_abbreviation": "Louisiana v. Leonard",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-1392",
+  "first_page": "818",
+  "last_page": "818",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 818"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 76,
+    "ocr_confidence": 0.662,
+    "sha256": "b4bb48519dbb52d540c70cf3b38d57e3c97b92ce652f59e96d1a9d1e56e0e087",
+    "simhash": "1:8388d2932a0a9c06",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Louisiana et al. v. Leonard."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1392.\nLouisiana et al. v. Leonard."
+  },
+  "file_name": "0818-12",
+  "first_page_order": 894,
+  "last_page_order": 894
+}

@@ -732,9 +732,31 @@ export const CouncilPage: React.FC = () => {
   // State
   const [agents, setAgents] = useState<Agent[]>([]);
   const [deliberations, setDeliberations] = useState<Deliberation[]>([]);
-  const [recentDecisions, setRecentDecisions] = useState<QueryResult[]>([]);
+  // Persist deliberation state in localStorage to survive navigation
+  const [recentDecisions, setRecentDecisions] = useState<QueryResult[]>(() => {
+    try {
+      const saved = localStorage.getItem('council_deliberations');
+      return saved ? JSON.parse(saved) : [];
+    } catch { return []; }
+  });
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  
+  // Service integration panel state
+  const [showServicePanel, setShowServicePanel] = useState(false);
+  const [activeService, setActiveService] = useState<string | null>(null);
+  const [serviceResults, setServiceResults] = useState<any>(null);
+  
+  // Save deliberations to localStorage whenever they change
+  useEffect(() => {
+    if (recentDecisions.length > 0) {
+      try {
+        localStorage.setItem('council_deliberations', JSON.stringify(recentDecisions.slice(0, 5)));
+      } catch (e) {
+        console.warn('Failed to save deliberations to localStorage:', e);
+      }
+    }
+  }, [recentDecisions]);
 
   const [queryInput, setQueryInput] = useState(searchParams.get('q') || '');
   const [selectedAgents, setSelectedAgents] = useState<string[]>([]);
@@ -857,6 +879,8 @@ export const CouncilPage: React.FC = () => {
 
     const q = searchParams.get('q') || searchParams.get('question');
     const mode = searchParams.get('mode');
+    const vertical = searchParams.get('vertical');
+    const matter = searchParams.get('matter');
 
     // Legacy params coming from older links (/cortex/intelligence/council?...) and deep links
     const briefing = searchParams.get('briefing');
@@ -864,6 +888,20 @@ export const CouncilPage: React.FC = () => {
     const escalate = searchParams.get('escalate');
     const appeal = searchParams.get('appeal');
     const assembly = searchParams.get('assembly');
+
+    // Handle vertical-specific agent selection
+    if (vertical === 'legal') {
+      // Select legal-specific agents (from LEGAL_AGENTS in src/lib/ollama/agents/legal.ts)
+      // Matter Lead = judge (arbiter), Research = clo, Litigation = prosecutor, Risk = defense-attorney, Red Team = juror-skeptic
+      const legalAgentIds = ['agent-clo', 'agent-judge', 'agent-prosecutor', 'agent-defense-attorney', 'agent-juror-skeptic'];
+      setSelectedAgents(legalAgentIds);
+      if (!mode) {
+        setSelectedMode('legal-research');
+      }
+      if (matter && !q) {
+        setQueryInput(matter);
+      }
+    }
 
     if (mode && COUNCIL_MODES[mode]) {
       setSelectedMode(mode);
@@ -3449,6 +3487,83 @@ export const CouncilPage: React.FC = () => {
                         >
                           💾 Save
                         </button>
+                        
+                        {/* Service Integration Dropdown */}
+                        <div className="relative group">
+                          <button className="flex items-center gap-1 px-3 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg text-sm font-medium transition-colors">
+                            🔗 Services ▾
+                          </button>
+                          <div className="absolute right-0 mt-1 w-56 bg-neutral-800 border border-neutral-700 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all z-50">
+                            <button
+                              onClick={async () => {
+                                const res = await fetch('http://localhost:3000/api/v1/consolidated/pre-mortem/analyze', {
+                                  method: 'POST',
+                                  headers: { 'Content-Type': 'application/json' },
+                                  body: JSON.stringify({ decision: result.query, context: result.response }),
+                                });
+                                const data = await res.json();
+                                setServiceResults(data);
+                                setActiveService('pre-mortem');
+                                setShowServicePanel(true);
+                              }}
+                              className="w-full text-left px-4 py-2 text-sm text-amber-300 hover:bg-neutral-700 rounded-t-lg"
+                            >
+                              ⚠️ Pre-Mortem Analysis
+                            </button>
+                            <button
+                              onClick={async () => {
+                                const res = await fetch('http://localhost:3000/api/v1/consolidated/crucible/status');
+                                const data = await res.json();
+                                setServiceResults({ ...data, deliberation: result });
+                                setActiveService('crucible');
+                                setShowServicePanel(true);
+                              }}
+                              className="w-full text-left px-4 py-2 text-sm text-red-300 hover:bg-neutral-700"
+                            >
+                              🔥 Crucible Stress Test
+                            </button>
+                            <button
+                              onClick={async () => {
+                                const res = await fetch('http://localhost:3000/api/v1/consolidated/oversight/status');
+                                const data = await res.json();
+                                setServiceResults({ ...data, deliberation: result });
+                                setActiveService('oversight');
+                                setShowServicePanel(true);
+                              }}
+                              className="w-full text-left px-4 py-2 text-sm text-blue-300 hover:bg-neutral-700"
+                            >
+                              🛡️ Oversight Compliance
+                            </button>
+                            <button
+                              onClick={async () => {
+                                const res = await fetch('http://localhost:3000/api/v1/consolidated/ghost-board/rehearse', {
+                                  method: 'POST',
+                                  headers: { 'Content-Type': 'application/json' },
+                                  body: JSON.stringify({ topic: result.query, presentationNotes: result.response }),
+                                });
+                                const data = await res.json();
+                                setServiceResults(data);
+                                setActiveService('ghost-board');
+                                setShowServicePanel(true);
+                              }}
+                              className="w-full text-left px-4 py-2 text-sm text-purple-300 hover:bg-neutral-700"
+                            >
+                              👻 Ghost Board Rehearsal
+                            </button>
+                            <button
+                              onClick={async () => {
+                                const res = await fetch('http://localhost:3000/api/v1/consolidated/decision-debt/list');
+                                const data = await res.json();
+                                setServiceResults(data);
+                                setActiveService('decision-debt');
+                                setShowServicePanel(true);
+                              }}
+                              className="w-full text-left px-4 py-2 text-sm text-orange-300 hover:bg-neutral-700 rounded-b-lg"
+                            >
+                              ⏰ Decision Debt Tracker
+                            </button>
+                          </div>
+                        </div>
                       </div>
                     )}
                 </div>
@@ -3793,6 +3908,138 @@ export const CouncilPage: React.FC = () => {
                   Done
                 </button>
               </div>
+            </div>
+          </div>
+        </div>
+      )}
+      
+      {/* Service Integration Panel - Slide-out */}
+      {showServicePanel && serviceResults && (
+        <div className="fixed inset-0 z-50 flex justify-end">
+          <div className="absolute inset-0 bg-black/50" onClick={() => setShowServicePanel(false)} />
+          <div className="relative w-full max-w-lg bg-neutral-900 border-l border-neutral-700 shadow-2xl overflow-y-auto">
+            <div className="sticky top-0 bg-neutral-900 border-b border-neutral-700 p-4 flex items-center justify-between">
+              <h2 className="text-lg font-semibold text-white flex items-center gap-2">
+                {activeService === 'pre-mortem' && '⚠️ Pre-Mortem Analysis'}
+                {activeService === 'crucible' && '🔥 Crucible Stress Test'}
+                {activeService === 'oversight' && '🛡️ Oversight Compliance'}
+                {activeService === 'ghost-board' && '👻 Ghost Board Rehearsal'}
+                {activeService === 'decision-debt' && '⏰ Decision Debt Tracker'}
+              </h2>
+              <button onClick={() => setShowServicePanel(false)} className="text-neutral-400 hover:text-white text-xl">✕</button>
+            </div>
+            
+            <div className="p-4 space-y-4">
+              {/* Pre-Mortem Results */}
+              {activeService === 'pre-mortem' && serviceResults.failureModes && (
+                <>
+                  <div className="bg-amber-900/30 border border-amber-600/30 rounded-lg p-4">
+                    <div className="text-amber-300 font-medium mb-2">Overall Risk Score</div>
+                    <div className="text-3xl font-bold text-amber-400">{Math.round((serviceResults.overallRiskScore || 0) * 100)}%</div>
+                  </div>
+                  <div className="text-sm text-neutral-300 mb-2">{serviceResults.recommendation}</div>
+                  <div className="space-y-2">
+                    {serviceResults.failureModes.map((fm: any, i: number) => (
+                      <div key={i} className="bg-neutral-800 rounded-lg p-3">
+                        <div className="flex justify-between items-center mb-1">
+                          <span className="font-medium text-white">{fm.mode}</span>
+                          <span className={`text-xs px-2 py-0.5 rounded ${fm.impact === 'Critical' ? 'bg-red-600' : fm.impact === 'High' ? 'bg-orange-600' : 'bg-yellow-600'}`}>
+                            {fm.impact}
+                          </span>
+                        </div>
+                        <div className="text-xs text-neutral-400 mb-1">Probability: {Math.round(fm.probability * 100)}%</div>
+                        <div className="text-sm text-green-400">💡 {fm.mitigation}</div>
+                      </div>
+                    ))}
+                  </div>
+                </>
+              )}
+              
+              {/* Ghost Board Results */}
+              {activeService === 'ghost-board' && serviceResults.aiQuestions && (
+                <>
+                  <div className="bg-purple-900/30 border border-purple-600/30 rounded-lg p-4">
+                    <div className="text-purple-300 font-medium mb-2">Board Rehearsal</div>
+                    <div className="text-sm text-neutral-300">{serviceResults.topic}</div>
+                  </div>
+                  <div className="text-sm text-neutral-400 mb-2">AI Directors will ask:</div>
+                  <div className="space-y-2">
+                    {serviceResults.aiQuestions.map((q: any, i: number) => (
+                      <div key={i} className="bg-neutral-800 rounded-lg p-3">
+                        <div className="text-xs text-purple-400 mb-1">{q.director}</div>
+                        <div className="text-sm text-white">{q.question}</div>
+                      </div>
+                    ))}
+                  </div>
+                  <div className="mt-4 bg-green-900/30 border border-green-600/30 rounded-lg p-3">
+                    <div className="text-green-400 font-medium text-sm mb-2">Recommendations</div>
+                    <ul className="text-sm text-neutral-300 space-y-1">
+                      {serviceResults.recommendations?.map((r: string, i: number) => (
+                        <li key={i}>• {r}</li>
+                      ))}
+                    </ul>
+                  </div>
+                </>
+              )}
+              
+              {/* Decision Debt Results */}
+              {activeService === 'decision-debt' && serviceResults.stuckDecisions && (
+                <>
+                  <div className="bg-orange-900/30 border border-orange-600/30 rounded-lg p-4">
+                    <div className="text-orange-300 font-medium mb-2">Total Decision Debt</div>
+                    <div className="text-3xl font-bold text-orange-400">{serviceResults.summary?.totalEstimatedCost}</div>
+                    <div className="text-sm text-neutral-400">{serviceResults.summary?.totalDebtDays} days stuck</div>
+                  </div>
+                  <div className="space-y-2">
+                    {serviceResults.stuckDecisions.map((d: any, i: number) => (
+                      <div key={i} className="bg-neutral-800 rounded-lg p-3">
+                        <div className="flex justify-between items-center mb-1">
+                          <span className="font-medium text-white">{d.title}</span>
+                          <span className="text-xs text-orange-400">{d.daysStuck} days</span>
+                        </div>
+                        <div className="text-xs text-neutral-400">Owner: {d.owner} • Cost: {d.estimatedDailyCost}/day</div>
+                        <div className="text-xs text-red-400 mt-1">Blockers: {d.blockers.join(', ')}</div>
+                      </div>
+                    ))}
+                  </div>
+                </>
+              )}
+              
+              {/* Crucible Results */}
+              {activeService === 'crucible' && serviceResults.status && (
+                <div className="bg-red-900/30 border border-red-600/30 rounded-lg p-4">
+                  <div className="text-red-300 font-medium mb-2">Adversarial Testing</div>
+                  <div className="text-sm text-neutral-300 mb-2">{serviceResults.description}</div>
+                  <div className="grid grid-cols-2 gap-2 text-sm">
+                    <div className="bg-neutral-800 p-2 rounded">
+                      <div className="text-neutral-400">Red Team Attacks</div>
+                      <div className="text-white font-medium">{serviceResults.status.redTeam?.attacksRun || 0}</div>
+                    </div>
+                    <div className="bg-neutral-800 p-2 rounded">
+                      <div className="text-neutral-400">Vulnerabilities</div>
+                      <div className="text-red-400 font-medium">{serviceResults.status.redTeam?.vulnerabilitiesFound || 0}</div>
+                    </div>
+                  </div>
+                </div>
+              )}
+              
+              {/* Oversight Results */}
+              {activeService === 'oversight' && serviceResults.status && (
+                <div className="bg-blue-900/30 border border-blue-600/30 rounded-lg p-4">
+                  <div className="text-blue-300 font-medium mb-2">Regulatory Compliance</div>
+                  <div className="text-sm text-neutral-300 mb-2">{serviceResults.description}</div>
+                  <div className="grid grid-cols-2 gap-2 text-sm">
+                    <div className="bg-neutral-800 p-2 rounded">
+                      <div className="text-neutral-400">Compliance Score</div>
+                      <div className="text-green-400 font-medium">{serviceResults.status.panopticon?.complianceScore || 95}%</div>
+                    </div>
+                    <div className="bg-neutral-800 p-2 rounded">
+                      <div className="text-neutral-400">Active Policies</div>
+                      <div className="text-white font-medium">{serviceResults.status.govern?.activePolicies || 12}</div>
+                    </div>
+                  </div>
+                </div>
+              )}
             </div>
           </div>
         </div>

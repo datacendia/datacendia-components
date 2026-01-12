@@ -1,0 +1,59 @@
+{
+  "id": 5983693,
+  "name": "Schell et ux. v. United States",
+  "name_abbreviation": "Schell v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-193",
+  "first_page": "897",
+  "last_page": "897",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 897"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 79,
+    "ocr_confidence": 0.624,
+    "sha256": "471dcebf2a4b04627e2155e8051bb4331fe02be5a165422a3e83536df5bb61ee",
+    "simhash": "1:c59bde420aef904b",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Schell et ux. v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. Fed. Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-193.\nSchell et ux. v. United States."
+  },
+  "file_name": "0897-01",
+  "first_page_order": 919,
+  "last_page_order": 919
+}

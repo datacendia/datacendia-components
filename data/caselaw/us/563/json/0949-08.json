@@ -1,0 +1,59 @@
+{
+  "id": 5948213,
+  "name": "Figueroa-Perez v. United States",
+  "name_abbreviation": "Figueroa-Perez v. United States",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-9438",
+  "first_page": "949",
+  "last_page": "949",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 949"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 80,
+    "ocr_confidence": 0.571,
+    "sha256": "c45ad2db6450b11a62fa487116584cfb3e0fc2b1aa3da27923e4b56d832b4d33",
+    "simhash": "1:04b8d3830f24bc6a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Figueroa-Perez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9438.\nFigueroa-Perez v. United States."
+  },
+  "file_name": "0949-08",
+  "first_page_order": 975,
+  "last_page_order": 975
+}

@@ -1,0 +1,1834 @@
+{
+  "id": 3896287,
+  "name": "IN RE TOBACCO II CASES",
+  "name_abbreviation": "In re Tobacco II Cases",
+  "decision_date": "2009-05-18",
+  "docket_number": "No. S147345",
+  "first_page": "298",
+  "last_page": "338",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "46 Cal. 4th 298"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal.",
+    "id": 9021,
+    "name": "Supreme Court of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "950 F.2d 1401",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10528173
+      ],
+      "pin_cites": [
+        {
+          "page": "1406"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/950/1401-01"
+      ]
+    },
+    {
+      "cite": "197 F.Supp. 218",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        40314
+      ],
+      "pin_cites": [
+        {
+          "page": "222-223"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/197/0218-01"
+      ]
+    },
+    {
+      "cite": "54 F.R.D. 245",
+      "category": "reporters:specialty",
+      "reporter": "F.R.D.",
+      "case_ids": [
+        3729600
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/frd/54/0245-01"
+      ]
+    },
+    {
+      "cite": "57 F.R.D. 58",
+      "category": "reporters:specialty",
+      "reporter": "F.R.D.",
+      "case_ids": [
+        1144433
+      ],
+      "year": 1971,
+      "opinion_index": 0,
+      "case_paths": [
+        "/frd/57/0058-01"
+      ]
+    },
+    {
+      "cite": "365 F.Supp. 27",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        3503806
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/365/0027-01"
+      ]
+    },
+    {
+      "cite": "171 Cal.Rptr. 334",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "114 Cal.App.3d 783",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        6043582
+      ],
+      "pin_cites": [
+        {
+          "page": "793"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/114/0783-01"
+      ]
+    },
+    {
+      "cite": "131 Cal.Rptr.2d 746",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "107 Cal.App.4th 86",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        204747
+      ],
+      "pin_cites": [
+        {
+          "page": "98"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/107/0086-01"
+      ]
+    },
+    {
+      "cite": "673 P.2d 660",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2003,
+      "opinion_index": 0
+    },
+    {
+      "cite": "197 Cal.Rptr. 783",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 2003,
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.3d 197",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4471375
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "210"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/35/0197-01"
+      ]
+    },
+    {
+      "cite": "15 U.S.C. \u00a7 1331",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "163 P.3d 106",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Cal.Rptr.3d 418",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "41 Cal.4th 1257",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3819093
+      ],
+      "pin_cites": [
+        {
+          "page": "1262"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/41/1257-01"
+      ]
+    },
+    {
+      "cite": "138 P.3d 214",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.Rptr.3d 66",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal.4th 235",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3582814
+      ],
+      "pin_cites": [
+        {
+          "page": "243"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/39/0235-01"
+      ]
+    },
+    {
+      "cite": "53 Cal.Rptr.3d 734",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "146 Cal.App.4th 1564",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5567435
+      ],
+      "pin_cites": [
+        {
+          "page": "1574"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/146/1564-01"
+      ]
+    },
+    {
+      "cite": "151 P.3d 1151",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.Rptr.3d 735",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "40 Cal.4th 623",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3158830
+      ],
+      "pin_cites": [
+        {
+          "page": "638"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/40/0623-01"
+      ]
+    },
+    {
+      "cite": "11 Cal.Rptr.3d 807",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "117 Cal.App.4th 635",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        448890
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/117/0635-01"
+      ]
+    },
+    {
+      "cite": "26 Cal.Rptr.3d 638",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "127 Cal.App.4th 1640",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        17292
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/127/1640-01"
+      ]
+    },
+    {
+      "cite": "938 P.2d 903",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "64 Cal.Rptr.2d 843",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 Cal.4th 951",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1006034
+      ],
+      "pin_cites": [
+        {
+          "page": "976-977"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/15/0951-01"
+      ]
+    },
+    {
+      "cite": "858 P.2d 568",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "23 Cal.Rptr.2d 101",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 Cal.4th 1082",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1998573
+      ],
+      "pin_cites": [
+        {
+          "page": "1110-1111"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/5/1082-01"
+      ]
+    },
+    {
+      "cite": "37 P.3d 403",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "115 Cal.Rptr.2d 219",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "27 Cal.4th 38",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1103368
+      ],
+      "pin_cites": [
+        {
+          "page": "45"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/27/0038-01"
+      ]
+    },
+    {
+      "cite": "762 P.2d 46",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "252 Cal.Rptr. 122",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.3d 1092",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1968800
+      ],
+      "pin_cites": [
+        {
+          "page": "1108"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/46/1092-01"
+      ]
+    },
+    {
+      "cite": "119 Cal.Rptr.2d 190",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "97 Cal.App.4th 1282",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1066620
+      ],
+      "pin_cites": [
+        {
+          "page": "1288"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/97/1282-01"
+      ]
+    },
+    {
+      "cite": "111 Cal.Rptr.2d 296",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "91 Cal.App.4th 1128",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        226424
+      ],
+      "pin_cites": [
+        {
+          "page": "1137"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/91/1128-01"
+      ]
+    },
+    {
+      "cite": "2007 WL 1295824",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "opinion_index": 0
+    },
+    {
+      "cite": "393 P.2d 689",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal.Rptr. 377",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "61 Cal.2d 520",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2337798
+      ],
+      "pin_cites": [
+        {
+          "page": "524, fn. 2"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/61/0520-01"
+      ]
+    },
+    {
+      "cite": "231 Cal.Rptr. 638",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "187 Cal.App.3d 62",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2200880
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/187/0062-01"
+      ]
+    },
+    {
+      "cite": "833 P.2d 545",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "10 Cal.Rptr.2d 538",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "2 Cal.4th 1254",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        2005383
+      ],
+      "pin_cites": [
+        {
+          "page": "1267"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/2/1254-01"
+      ]
+    },
+    {
+      "cite": "21 Cal.Rptr.2d 303",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "17 Cal.App.4th 415",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6044099
+      ],
+      "pin_cites": [
+        {
+          "page": "422"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/17/0415-01"
+      ]
+    },
+    {
+      "cite": "115 P.3d 1212",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Cal.Rptr.3d 565",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Cal.4th 824",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3122669
+      ],
+      "pin_cites": [
+        {
+          "page": "837"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/36/0824-01"
+      ]
+    },
+    {
+      "cite": "82 F.R.D. 420",
+      "category": "reporters:specialty",
+      "reporter": "F.R.D.",
+      "case_ids": [
+        3930870
+      ],
+      "pin_cites": [
+        {
+          "page": "428"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/frd/82/0420-01"
+      ]
+    },
+    {
+      "cite": "241 F.R.D. 305",
+      "category": "reporters:specialty",
+      "reporter": "F.R.D.",
+      "case_ids": [
+        2924055
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "310"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/frd/241/0305-01"
+      ]
+    },
+    {
+      "cite": "188 F.R.D. 483",
+      "category": "reporters:specialty",
+      "reporter": "F.R.D.",
+      "case_ids": [
+        62963
+      ],
+      "pin_cites": [
+        {
+          "page": "490"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/frd/188/0483-01"
+      ]
+    },
+    {
+      "cite": "44 Cal.Rptr.2d 526",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Cal.App.4th 1291",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6045296
+      ],
+      "pin_cites": [
+        {
+          "page": "1294"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/37/1291-01"
+      ]
+    },
+    {
+      "cite": "93 F.R.D. 875",
+      "category": "reporters:specialty",
+      "reporter": "F.R.D.",
+      "case_ids": [
+        432060
+      ],
+      "weight": 2,
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "877"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/frd/93/0875-01"
+      ]
+    },
+    {
+      "cite": "22 Cal.Rptr.2d 419",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 Cal.App.4th 644",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4683255
+      ],
+      "pin_cites": [
+        {
+          "page": "656, fn. 7"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/18/0644-01"
+      ]
+    },
+    {
+      "cite": "9 Cal.Rptr.3d 844",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "115 Cal.App.4th 1315",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1459317
+      ],
+      "pin_cites": [
+        {
+          "page": "1317"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/115/1315-01"
+      ]
+    },
+    {
+      "cite": "139 P.3d 30",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.Rptr.3d 638",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal.4th 260",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3583157
+      ],
+      "pin_cites": [
+        {
+          "page": "279"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/39/0260-01"
+      ]
+    },
+    {
+      "cite": "14 P.3d 207",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "102 Cal.Rptr.2d 533",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "24 Cal.4th 767",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1180105
+      ],
+      "pin_cites": [
+        {
+          "page": "772"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/24/0767-01"
+      ]
+    },
+    {
+      "cite": "155 P.3d 226",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "56 Cal.Rptr.3d 814",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "40 Cal.4th 1016",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3159345
+      ],
+      "pin_cites": [
+        {
+          "page": "1037"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/40/1016-01"
+      ]
+    },
+    {
+      "cite": "525 P.2d 701",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "115 Cal.Rptr. 797",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "12 Cal.3d 447",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2315549
+      ],
+      "pin_cites": [
+        {
+          "page": "462"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/12/0447-01"
+      ]
+    },
+    {
+      "cite": "999 P.2d 718",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "96 Cal.Rptr.2d 485",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "23 Cal.4th 116",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        277035
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/23/0116-01"
+      ]
+    },
+    {
+      "cite": "36 Cal.Rptr.3d 592",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2000,
+      "opinion_index": 0
+    },
+    {
+      "cite": "134 Cal.App.4th 997",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6048878
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "1015"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/134/0997-01"
+      ]
+    },
+    {
+      "cite": "155 P.3d 268",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "56 Cal.Rptr.3d 861",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "40 Cal.4th 1069",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3159366
+      ],
+      "pin_cites": [
+        {
+          "page": "1089"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/40/1069-01"
+      ]
+    },
+    {
+      "cite": "15 P.3d 1071",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "103 Cal.Rptr.2d 320",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "24 Cal.4th 906",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1180129
+      ],
+      "pin_cites": [
+        {
+          "page": "913"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/24/0906-01"
+      ]
+    },
+    {
+      "cite": "591 P.2d 51",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "153 Cal.Rptr. 28",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "23 Cal.3d 442",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2268497
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "453"
+        },
+        {
+          "page": "452"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/23/0442-01"
+      ]
+    },
+    {
+      "cite": "53 Cal.Rptr.2d 229",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.App.4th 1093",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4751448
+      ],
+      "pin_cites": [
+        {
+          "page": "1105"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/45/1093-01"
+      ]
+    },
+    {
+      "cite": "74 Cal.Rptr.2d 55",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1996,
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Cal.App.4th 325",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "332"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 P.3d 937",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "131 Cal.Rptr.2d 29",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Cal.4th 1134",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        777211
+      ],
+      "pin_cites": [
+        {
+          "page": "1144"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/29/1134-01"
+      ]
+    },
+    {
+      "cite": "45 P.3d 243",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "119 Cal.Rptr.2d 296",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "27 Cal.4th 939",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1103388
+      ],
+      "pin_cites": [
+        {
+          "page": "951"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/27/0939-01"
+      ]
+    },
+    {
+      "cite": "51 Cal.Rptr.3d 118",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "144 Cal.App.4th 824",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3677938
+      ],
+      "pin_cites": [
+        {
+          "page": "837"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/144/0824-01"
+      ]
+    },
+    {
+      "cite": "245 Cal.Rptr. 149",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "199 Cal.App.3d 736",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4402666
+      ],
+      "pin_cites": [
+        {
+          "page": "741"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/199/0736-01"
+      ]
+    },
+    {
+      "cite": "182 P.3d 600",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "76 Cal.Rptr.3d 276",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.4th 737",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3884068
+      ],
+      "pin_cites": [
+        {
+          "page": "746"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/43/0737-01"
+      ]
+    },
+    {
+      "cite": "2 P.3d 27",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "97 Cal.Rptr.2d 179",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "23 Cal.4th 429",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        277044
+      ],
+      "pin_cites": [
+        {
+          "page": "435-436"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/23/0429-01"
+      ]
+    },
+    {
+      "cite": "138 P.3d 207",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.Rptr.3d 57",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal.4th 223",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3583098
+      ],
+      "pin_cites": [
+        {
+          "page": "227"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/39/0223-01"
+      ]
+    },
+    {
+      "cite": "484 P.2d 964",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "94 Cal.Rptr. 796",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "4 Cal.3d 800",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2319608
+      ],
+      "pin_cites": [
+        {
+          "page": "815"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-3d/4/0800-01"
+      ]
+    },
+    {
+      "cite": "196 F.R.D. 348",
+      "category": "reporters:specialty",
+      "reporter": "F.R.D.",
+      "case_ids": [
+        238570
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "353"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/frd/196/0348-01"
+      ]
+    },
+    {
+      "cite": "626 F.2d 600",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        651437
+      ],
+      "pin_cites": [
+        {
+          "page": "604"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/626/0600-01"
+      ]
+    },
+    {
+      "cite": "443 F.3d 253",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        2657087
+      ],
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "264"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/443/0253-01"
+      ]
+    },
+    {
+      "cite": "472 F.3d 506",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5197923
+      ],
+      "pin_cites": [
+        {
+          "page": "514-515"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/472/0506-01"
+      ]
+    },
+    {
+      "cite": "629 P.2d 23",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "174 Cal.Rptr. 515",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "29 Cal.3d 462",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2257745
+      ],
+      "pin_cites": [
+        {
+          "page": "470"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-3d/29/0462-01"
+      ]
+    },
+    {
+      "cite": "96 P.3d 194",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2000,
+      "opinion_index": 1
+    },
+    {
+      "cite": "17 Cal.Rptr.3d 906",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2000,
+      "opinion_index": 1
+    },
+    {
+      "cite": "34 Cal.4th 319",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        633022
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "326"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-4th/34/0319-01"
+      ]
+    },
+    {
+      "cite": "673 P.2d 660",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2003,
+      "opinion_index": 1
+    },
+    {
+      "cite": "197 Cal.Rptr. 783",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 2003,
+      "opinion_index": 1
+    },
+    {
+      "cite": "35 Cal.3d 197",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4471375
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "211"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-3d/35/0197-01"
+      ]
+    },
+    {
+      "cite": "119 Cal.Rptr.2d 190",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "97 Cal.App.4th 1282",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1066620
+      ],
+      "pin_cites": [
+        {
+          "page": "1288-1292"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-app-4th/97/1282-01"
+      ]
+    },
+    {
+      "cite": "231 Cal.Rptr. 638",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "187 Cal.App.3d 62",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2200880
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "69, 72-73"
+        },
+        {
+          "page": "73"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-app-3d/187/0062-01"
+      ]
+    },
+    {
+      "cite": "833 P.2d 545",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "10 Cal.Rptr.2d 538",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "2 Cal.4th 1254",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        2005383
+      ],
+      "pin_cites": [
+        {
+          "page": "1267"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-4th/2/1254-01"
+      ]
+    },
+    {
+      "cite": "188 F.R.D. 483",
+      "category": "reporters:specialty",
+      "reporter": "F.R.D.",
+      "case_ids": [
+        62963
+      ],
+      "pin_cites": [
+        {
+          "page": "490"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/frd/188/0483-01"
+      ]
+    },
+    {
+      "cite": "44 Cal.Rptr.2d 526",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "37 Cal.App.4th 1291",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6045296
+      ],
+      "pin_cites": [
+        {
+          "page": "1294-1295"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-app-4th/37/1291-01"
+      ]
+    },
+    {
+      "cite": "93 F.R.D. 875",
+      "category": "reporters:specialty",
+      "reporter": "F.R.D.",
+      "case_ids": [
+        432060
+      ],
+      "weight": 3,
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "878"
+        },
+        {
+          "page": "878"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/frd/93/0875-01"
+      ]
+    },
+    {
+      "cite": "999 P.2d 718",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "96 Cal.Rptr.2d 485",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "23 Cal.4th 116",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        277035
+      ],
+      "pin_cites": [
+        {
+          "page": "126-137"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-4th/23/0116-01"
+      ]
+    },
+    {
+      "cite": "155 P.3d 268",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "56 Cal.Rptr.3d 861",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "40 Cal.4th 1069",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3159366
+      ],
+      "pin_cites": [
+        {
+          "page": "1089"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-4th/40/1069-01"
+      ]
+    },
+    {
+      "cite": "591 P.2d 51",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "weight": 2,
+      "opinion_index": 1
+    },
+    {
+      "cite": "153 Cal.Rptr. 28",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "23 Cal.3d 442",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2268497
+      ],
+      "pin_cites": [
+        {
+          "page": "449-454"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-3d/23/0442-01"
+      ]
+    },
+    {
+      "cite": "63 P.3d 937",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "131 Cal.Rptr.2d 29",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "29 Cal.4th 1134",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        777211
+      ],
+      "pin_cites": [
+        {
+          "page": "1143-1152"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-4th/29/1134-01"
+      ]
+    },
+    {
+      "cite": "2 P.3d 27",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "97 Cal.Rptr.2d 179",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "23 Cal.4th 429",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        277044
+      ],
+      "pin_cites": [
+        {
+          "page": "435"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-4th/23/0429-01"
+      ]
+    },
+    {
+      "cite": "138 P.3d 207",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "46 Cal.Rptr.3d 57",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "39 Cal.4th 223",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3583098
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "232"
+        },
+        {
+          "page": "232"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-4th/39/0223-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 2643,
+    "char_count": 104555,
+    "ocr_confidence": 0.911,
+    "pagerank": {
+      "raw": 2.321191387193771e-06,
+      "percentile": 0.9960978419977381
+    },
+    "sha256": "f5cb7181800dd6f17f25df5261668ba1754dbc0ee35039303ad47142c1a4caa1",
+    "simhash": "1:dc20e68b7e969af8",
+    "word_count": 16406
+  },
+  "last_updated": "2024-02-27T17:32:20.267174+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "IN RE TOBACCO II CASES."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nMORENO, J.\nPrior to the 2004 amendment of the unfair competition law (UCL) (Bus. & Prof. Code, \u00a7 17200 et seq.), by Proposition 64, \u201c[ajctions for any relief [under the UCL could be] prosecuted ... by the Attorney General or any district attorney or by any county counsel . . . [or] by a city prosecutor . . . [or] by a city attorney ... or upon the complaint of any board, officer, person, corporation or association or by any person acting for the interests of itself, its members or the general public.\u201d (Bus. & Prof. Code, former \u00a7 17204, as amended by Stats. 1993, ch. 926, \u00a7 2, p. 5198; see also Californians for Disability Rights v. Mervyn\u2019s, LLC (2006) 39 Cal.4th 223, 227 [46 Cal.Rptr.3d 57, 138 P.3d 207] (Mervyn\u2019s).) Post Proposition 64, the section provides, \u201c[a]ny person may pursue representative claims or relief on behalf of others only if the claimant meets the standing requirements of Section 17204 and complies with Section 382 of the Code of Civil Procedure\u201d (\u00a7 17203, as amended by Prop. 64, \u00a7 2), that is, a \u201cperson who has suffered injury in fact and has lost money or property as a result of [such] unfair competition.\u201d (\u00a7 17204, as amended by Prop. 64, \u00a7 3.)\nThe complaint before us alleges that the tobacco industry defendants violated the UCL by conducting a decades-long campaign of deceptive advertising and misleading statements about the addictive nature of nicotine and the relationship between tobacco use and disease. Prior to passage of Proposition 64, the trial court had certified the case as a class action. The class was defined as \u201cAll people who at the time they were residents of California, smoked in California one or more cigarettes between June 10, 1993 to April 23, 2001, and who were exposed to Defendants\u2019 marketing and advertising activities in California.\u201d After Proposition 64 was approved, the trial court granted defendants\u2019 motion to decertify the class on the grounds that each class member was now required to show an injury in fact, consisting of lost money or property, as a result of the alleged unfair competition. The Court of Appeal affirmed.\nOn review, we address two questions: First, who in a UCL class action must comply with Proposition 64\u2019s standing requirements, the class representatives or all unnamed class members, in order for the class action to proceed? We conclude that standing requirements are applicable only to the class representatives, and not all absent class members. Second, what is the causation requirement for purposes of establishing standing under the UCL, and in particular what is the meaning of the phrase \u201cas a result of\u2019 in section 17204? We conclude that a class representative proceeding on a claim of misrepresentation as the basis of his or her UCL action must demonstrate actual reliance on the allegedly deceptive or misleading statements, in accordance with well-settled principles regarding the element of reliance in ordinary fraud actions. Those same principles, however, do not require the class representative to plead or prove with an unrealistic degree of specificity that the plaintiff relied on particular advertisements or statements when the unfair practice is a fraudulent advertising campaign. Accordingly, we reverse the order of decertification to the extent it was based upon the conclusion that all class members were required to demonstrate Proposition 64 standing, and remand for further proceedings regarding whether the class representatives in this case have, or can demonstrate, standing.\nI. STATEMENT OF THE CASE\nA. Introduction\nThe original complaint in this action was filed on June 10, 1997, and was thereafter amended numerous times, ultimately resulting in the current ninth amended complaint. The UCL cause of action was added in the sixth amended complaint. Class certification of the UCL cause of action was granted in connection with the seventh amended complaint. The relevant allegations of the seventh and the ninth amended complaints are substantially the same. Therefore, we examine the seventh amended complaint as background for our discussion of the class certification issues.\nB. The Seventh Amended Complaint\nThe seventh amended complaint was filed in January 2001. In it, plaintiff Willard Brown, acting \u201cindividually, on behalf of the General Public of the State of California, as well as on Behalf of All Others Similarly Situated,\u201d sued the American Tobacco Company, Philip Morris USA Inc., R.J. Reynolds Tobacco Company, Brown & Williamson Tobacco Corporation, British American Tobacco Co., Ltd., Liggett & Myers, Inc., Hill and Knowlton, Inc., the Council for Tobacco Research-U.S.A., Inc., the Tobacco Institute, Inc., United States Tobacco Company, and Lorillard Tobacco Company, alleging causes of action for unfair competition under the UCL; false and misleading advertisement under the false advertising law (\u00a7 17500 et seq.); violation of the Consumers Legal Remedies Act (Civ. Code, \u00a7 1750 et seq.) (CLRA); breach of express warranty; fraud and intentional misrepresentation; breach of undertaking of special duty; negligence; and breach of implied warranty of merchantability.\nThe prefatory allegations stated: \u201cThrough a fraudulent course of conduct that has spanned decades, Defendants have manufactured, promoted, distributed or sold tobacco products to Plaintiff and thousands of California citizens and residents, knowing, but denying and concealing that Defendants\u2019 tobacco products contain a highly addictive drug known as nicotine. Unbeknownst to the public, Defendants have intentionally controlled and manipulated the amount and bio-availability of nicotine in their tobacco products to create and sustain addiction to their products.\u201d\nClass action allegations were stated with respect to the causes of action under the UCL, false advertising law and CLRA, pursuant to Code of Civil Procedure section 382. The complaint alleged that the predominance of common questions supported class action certification. \u201cThese common legal and factual questions arise from two central issues, which do not vary among Class Members: (1) Defendants\u2019 common course of conduct in manufacturing, promoting, distributing and selling cigarettes; and (2) the biochemical and psychoactive properties of nicotine.\u201d Included among the specific allegations of commonality was, \u201cWhether Defendants conspired to misrepresent, have repeatedly misrepresented, and continue to misrepresent to Plaintiffs and Class Members that smoking does not cause diseases, including, but not limited to, lung disease, heart disease, various cancers and other diseases.\u201d\nFollowing the class action allegations was a lengthy section captioned \u201cFACTUAL ALLEGATIONS COMMON TO ALL COUNTS,\u201d which set forth in specific detail the alleged concealment by the tobacco industry of the relationship between its product and various diseases. Pertinently, the complaint alleged that defendants had engaged in a \u201cpublic disinformation strategy . . . concerning the health effects of cigarette smoking,\u201d beginning in the 1960\u2019s with magazine articles that questioned the link between cigarette smoking and lung cancer. It was further alleged that \u201c[o]ther public statements by the Defendants over the years have repeated the misrepresentations that Defendants were dedicated to the pursuit and dissemination of the scientific truth regarding smoking and health.\u201d\nThe UCL claim was alleged as the first cause of action: \u201cThe acts complained of in each of the preceding paragraphs of this complaint, and each of them, constitute unfair and/or unlawful acts in competition in violation of Section 17200 of the California Business and Professions Code. Such acts and violations have not abated and will continue to occur unless enjoined.\u201d\nC. The Motion for Class Certification\nPlaintiff Brown moved for class certification of the UCL and false advertising causes of action in his seventh amended complaint. He sought to certify as a class \u201cthose people who are residents of California and who, while residents of California, smoked one or more cigarettes during the applicable class period.\u201d Defendants opposed certification on the grounds that plaintiff had failed to establish that common questions of law or fact predominated over issues requiring plaintiff-specific proof. As to plaintiffs UCL claim, defendants argued that each plaintiff would have to demonstrate that \u201c(a) he read or heard a misrepresentation made by defendants, and (b) that he was in some way misled or deceived about the health risks of smoking. It is undeniable that proof of these issues cannot be made on a class-wide basis.\u201d\nDefendants also maintained that issues of causation and injury would require individual proof as to each class member to justify the remedy of restitution under the UCL. Defendants argued: \u201cGiven the multitude of different alleged unfair and deceptive practices which plaintiff says were committed over a forty year plus history by eleven different defendants, it is beyond reasonable dispute that proof of causation cannot be made on a class-wide basis.\u201d\nIn granting the motion, the trial court stated: \u201cWhile the court agrees with Defendants that a myriad of distinct issues exist as to each class member\u2019s exposure to the alleged deceptive marketing, reliance thereon, whether same was a causal factor of the person\u2019s smoking and whether each class member sustained injury, such does not defeat the otherwise finding [mc] of substantial commonality as such issues are wholly outside the purview of B & P Code \u00a7\u00a7 17200 et seq. and 17500 et seq.\u201d The court explained: \u201cAll class claims are brought under B & P \u00a7\u00a7 17200 et seq. and 17500 et seq. and assert identically that Defendants, by way of concealment and affirmative misrepresentation, manipulated the chemical constituent content of tobacco products and by way of deceptive advertising and marketing acts, misled the smoking public of the health risks and addictive nature of smoking and targeted the putative class uniformly in an alleged class-wide effort to seduce and induce people to smoke.\u201d The court concluded: \u201cAs the class is defined as including those people that smoked in California one or more cigarettes during the applicable class period and were exposed to Defendants\u2019 marketing and advertising activities in California, it must be said the class is readily ascertainable.\u201d The trial court\u2019s order granting the certification motion specified that the \u201cclass period for said class is June 10, 1993 to April 23, 2001.\u201d\nD. The Class Decertification Motion\nFollowing class certification, plaintiff filed an eighth and then a ninth amended complaint. The ninth amended complaint, the operative pleading here, alleged only two causes of action, for violation of the UCL and for false advertising. The factual allegations in support of these claims were essentially unchanged from those alleged in the seventh amended complaint. The ninth amended complaint added three new plaintiffs, Damien Bierly, Michelle Denise Buller-Seymore, and Daniel Kagei.\nFollowing the passage of Proposition 64 in November 2004, defendants moved for class decertification. Defendants argued that the new standing requirement imposed on plaintiffs bringing a UCL action by Proposition 64\u2014that such persons must have suffered injury in fact and lost money or property as a result of the alleged UCL violation\u2014applied to every class member. Therefore \u201cnumerous individualized issues now predominate, including; (1) whether each class member was actually exposed to the allegedly false and misleading statements on which Plaintiffs\u2019 remaining UCL and [false advertising] claims are based; (2) whether, assuming such exposure, each class member was actually affected in some manner by the statement (e.g., did they believe some or all of the statements] to be true); and (3) whether each class member actually spent money to purchase cigarettes manufactured by any of the Defendants in this case as a result of his or her exposure to, and belief in the veracity of, the allegedly false and misleading statement, which the class member would not have spent in the absence of such alleged statement.\u201d\nPlaintiffs responded that Proposition 64\u2019s class action compliance requirement \u201cadds nothing to the substantive analysis of whether this action has been properly certified. Neither before nor after Prop. 64 does the class action procedure impose different substantive elements on the prosecution of a claim. There is no evidence supporting defendants\u2019 argument that the voters intended to or did add additional substantive elements to the definition of what constitutes unlawful, unfair or fraudulent business practices.\u201d\nThe trial court granted defendants\u2019 motion. Most of its ruling addressed the question whether Proposition 64 applied to pending cases, and its discussion of Proposition 64\u2019s standing requirement was brief. The trial court found that the \u201csimple language\u201d of Proposition 64 required that \u201cfor standing purposes, a showing of causation is required as to each class member\u2019s injury in fact.... [T]he injury in fact that each class member must show for standing purposes in this case would presumably consist of the cost of their cigarette purchases. But significant questions then arise undermining the purported commonality among the class members, such as whether each class member was exposed to Defendants\u2019 alleged false statements and whether each member purchased cigarettes \u2018as a result\u2019 of the false statements. Clearly . . . individual issues predominate, making class treatment unmanageable and inefficient.\u201d\nPlaintiffs appealed. The Court of Appeal affirmed, agreeing with the trial court that, post Proposition 64, individual issues of exposure to the allegedly deceptive statements and reliance upon them predominated over class issues. We granted plaintiffs\u2019 petition for review.\nII. DISCUSSION\nA. Standard of Review\n\u201cBecause trial courts are ideally situated to evaluate the efficiencies and practicalities of permitting group action, they are afforded great discretion in granting or denying certification. . . . [I]n the absence of other error, a trial court ruling supported by substantial evidence generally will not be disturbed \u2018unless (1) improper criteria were used [citation]; or (2) erroneous legal assumptions were made [citation].\u2019 \u201d (Linder v. Thrifty Oil Co. (2000) 23 Cal.4th 429, 435-436 [97 Cal.Rptr.2d 179, 2 P.3d 27]; see People v. Superior Court (Humberto S.) (2008) 43 Cal.4th 737, 746 [76 Cal.Rptr.3d 276, 182 P.3d 600] [\u201c[W]hen a trial court\u2019s decision rests on an error of law, that decision is an abuse of discretion.\u201d].) Additionally, the issues before us involve the meaning of certain language in the UCL as amended by Proposition 64 and, as such, present questions of law that we review de novo. (Jones v. Pierce (1988) 199 Cal.App.3d 736, 741 [245 Cal.Rptr. 149] [\u201cQuestions of statutory interpretation are, of course, pure matters of law upon which we may exercise our independent judgment.\u201d].)\nB. Purpose and Scope of the Fraud Prong of the UCL\nThe UCL defines unfair competition as \u201cany unlawful, unfair or fraudulent business act or practice.\u201d (\u00a7 17200.) Therefore, under the statute \u201cthere are three varieties of unfair competition: practices which are unlawful, unfair or fraudulent.\u201d (Daugherty v. American Honda Motor Co., Inc. (2006) 144 Cal.App.4th 824, 837 [51 Cal.Rptr.3d 118].) We are here concerned with the third prong of the statute\u2014an allegation of a fraudulent business act or practice, specifically claims of deceptive advertisements and misrepresentations by the tobacco industry about its products.\n\u201c[T]o state a claim under either the UCL or the false advertising law, based on false advertising or promotional practices, \u2018it is necessary only to show that \u201cmembers of the public are likely to be deceived\u201d \u2019 \u201d (Kasky v. Nike, Inc. (2002) 27 Cal.4th 939, 951 [119 Cal.Rptr.2d 296, 45 P.3d 243] ,) To achieve its goal of deterring unfair business practices in an expeditious manner, the Legislature limited the scope of the remedies available under the UCL. \u201cA UCL action is equitable in nature; damages cannot be recovered. [Citation.] . . . We have stated under the UCL, \u2018[prevailing plaintiffs are generally limited to injunctive relief and restitution.\u2019 [Citation.]\u201d (Korea Supply Co. v. Lockheed Martin Corp. (2003) 29 Cal.4th 1134, 1144 [131 Cal.Rptr.2d 29, 63 P.3d 937].)\nThe fraudulent business practice prong of the UCL has been understood to be distinct from common law fraud. \u201cA [common law] fraudulent deception must be actually false, known to be false by the perpetrator and reasonably relied upon by a victim who incurs damages. None of these elements are required to state a claim for injunctive relief\u2019 under the UCL. (Day v. A T & T Corp. (1998) 63 Cal.App.4th 325, 332 [74 Cal.Rptr.2d 55]; see State Farm Fire & Casualty Co. v. Superior Court (1996) 45 Cal.App.4th 1093, 1105 [53 Cal.Rptr.2d 229].) This distinction reflects the UCL\u2019s focus on the defendant\u2019s conduct, rather than the plaintiff\u2019s damages, in service of the statute\u2019s larger purpose of protecting the general public against unscrupulous business practices. (Fletcher v. Security Pacific National Bank (1979) 23 Cal.3d 442, 453 [153 Cal.Rptr. 28, 591 P.2d 51].)\nC. Class Actions and the UCL; Impact of Proposition 64\nClass actions have often been the vehicle through which UCL actions have been brought. Code of Civil Procedure section 382 has been judicially construed as the authorizing statute for class suits in California. (Washington Mutual Bank v. Superior Court (2001) 24 Cal.4th 906, 913 [103 Cal.Rptr.2d 320, 15 P.3d 1071].) It provides, in pertinent part, that \u201cwhen the question is one of a common or general interest, of many persons, or when the parties are numerous, and it is impracticable to bring them all before the court, one or more may sue or defend for the benefit of all.\u201d \u201cClass certification requires proof (1) of a sufficiently numerous, ascertainable class, (2) of a well-defined community of interest, and (3) that certification will provide substantial benefits to litigants and the courts, i.e., that proceeding as a class is superior to other methods. [Citations.] In turn, the \u2018community of interest requirement embodies three factors: (1) predominant common questions of law or fact; (2) class representatives with claims or defenses typical of the class; and (3) class representatives who can adequately represent the class.\u2019 \u201d (Fireside Bank v. Superior Court (2007) 40 Cal.4th 1069, 1089 [56 Cal.Rptr.3d 861, 155 P.3d 268].)\n\u201c \u2018[A] trial court may certify a UCL claim as a class action when the statutory requirements of section 382 of the Code of Civil Procedure are met.\u2019 \u201d (Feitelberg v. Credit Suisse First Boston, LLC (2005) 134 Cal.App.4th 997, 1015 [36 Cal.Rptr.3d 592].) As we commented in Kraus v. Trinity Management Services, Inc. (2000) 23 Cal.4th 116 [96 Cal.Rptr.2d 485, 999 P.2d 718], \u201cconsumer class actions and representative UCL actions serve important roles in the enforcement of consumers\u2019 rights. [They] make it economically feasible to sue when individual claims are too small to justify the expense of litigation, and thereby encourage attorneys to undertake private enforcement actions. Through the UCL a plaintiff may obtain restitution and/or injunctive relief against unfair or unlawful practices in order to protect the public and restore to the parties in interest money or property taken by means of unfair competition. These actions supplement the efforts of law enforcement and regulatory agencies. This court has repeatedly recognized the importance of these private enforcement efforts.\u201d (Id. at p. 126, fn. omitted.)\nThus, the UCL class action is a procedural device that enforces substantive law by aggregating many individual claims into a single claim, in compliance with Code of Civil Procedure section 382, to achieve the remedial goals outlined above. It does not change that substantive law, however. (City of San Jose v. Superior Court (1974) 12 Cal.3d 447, 462 [115 Cal.Rptr. 797, 525 P.2d 701] [\u201cClass actions are provided only as a means to enforce substantive law.\u201d].)\nThis remains true even after passage of Proposition 64. Proposition 64 wrought certain procedural changes with respect to standing to bring a UCL action, and it now also explicitly mandates that a representative UCL action comply with Code of Civil Procedure section 382. These procedural modifications to the statute, however, \u201cleft entirely unchanged the substantive rules governing business and competitive conduct. Nothing a business might lawfully do before Proposition 64 is unlawful now, and nothing earlier forbidden is now permitted.\u201d (Mervyn\u2019s, supra, 39 Cal.4th at p. 232.)\nAs we explained in Mervyn\u2019s, prior to passage of Proposition 64 the UCL \u201cauthorized any person acting for the general public to sue for relief from unfair competition.\u201d (Mervyn\u2019s, supra, 39 Cal.4th at p. 227.) \u201cStanding to bring such an action did not depend on a showing of injury or damage.\u201d (Id. at p. 228.) \u201cAfter Proposition 64, which the voters approved at the November 2, 2004, General Election, a private person has standing to sue only if he or she \u2018has suffered injury in fact and has lost money or property as a result of such unfair competition.\u2019 (\u00a7 17204, as amended by Prop. 64, \u00a7 3; see also \u00a7 17203, as amended by Prop. 64, \u00a7 2.)\u201d (Mervyn\u2019s, supra, 39 Cal.4th at p. 227.)\n\u201cProposition 64 accomplishes its goals in relatively few words. The measure amends section 17204, which prescribes who may sue to enforce the UCL, by deleting the language that had formerly authorized suits by any person \u2018acting for the interests of itself, its members or the general public,\u2019 and by replacing it with the phrase, \u2018who has suffered injury in fact and has lost money or property as a result of such unfair competition.\u2019 The measure also amends section 17203, which authorizes courts to enjoin unfair competition, by adding the following words: \u2018Any person may pursue representative claims or relief on behalf of others only if the claimant meets the standing requirements of Section 17204 and complies with Section 382 of the Code of Civil Procedure, but these limitations do not apply to claims brought under this chapter by the Attorney General, or any district attorney, county counsel, city attorney, or city prosecutor in this state.\u2019 (\u00a7 17203.)\u201d (Mervyn\u2019s, supra, 39 Cal.4th at pp. 228-229.) Thus, the effect of Proposition 64 is to \u201cprevent uninjured private persons from suing for restitution on behalf of others.\u201d (39 Cal.4th at p. 232, italics omitted.)\nWith this background in mind, we turn to the questions before us.\nD. Analysis\n1. Who Must Meet the Standing Requirement in a UCL Class Action, the Representative Plaintiff or All Class Members?\nAs noted, in granting defendants\u2019 motion for decertification, the trial court concluded that \u201cthe simple language of Proposition] 64\u201d required each class member to show injury in fact and causation. Thus, the trial court construed the text of Proposition 64 as requiring absent members to affirmatively demonstrate that they met Proposition 64\u2019s standing requirements\u2014injury in fact and the loss of money or property as a result of the unfair practice. We conclude that the trial court\u2019s construction of Proposition 64 was erroneous.\nThe trial court did not identify the \u201csimple language\u201d in Proposition 64 upon which it based its conclusion. In fact, as we demonstrate, no such language appears\u2014a point that even defendants\u2019 counsel conceded at argument\u2014nor is such a construction necessary to address the very specific abuse of the prior UCL standing provision at which Proposition 64 was directed.\nThe first principle of statutory construction requires us to interpret the words of the statute themselves, giving them their ordinary meaning, and reading them in the context of the statute (or, here, the initiative) as a whole. If the language is unambiguous, there is no need for further construction. If, however, the language is susceptible of more than one reasonable meaning, we may consider the ballot summaries and arguments to determine how the voters understood the ballot measure and what they intended in enacting it. (Professional Engineers in California Government v. Kempton (2007) 40 Cal.4th 1016, 1037 [56 Cal.Rptr.3d 814, 155 P.3d 226].) Applying the first principle of construction to the initiative, it is obvious that nothing in its plain language supports the trial court\u2019s construction of it as imposing the standing requirement on absent class members.\nSection 17204 now provides in pertinent part: \u201cActions for relief pursuant to this chapter shall be prosecuted exclusively in a court of competent jurisdiction by the Attorney General or a district attorney or by a county counsel . . . [or] city attorney . . . [or] city prosecutor ... or upon the complaint of a board, officer, person, corporation, or association, or by a person who has suffered injury in fact and has lost money or property as a result of the unfair competition.\u201d Section 17203\u2014the statute authorizing representative actions\u2014states in part: \u201cAny person may pursue representative claims or relief on behalf of others only if the claimant meets the standing requirements of Section 17204 and complies with Section 382 of the Code of Civil Procedure, but these limitations do not apply to claims brought under this chapter by the Attorney General, or any district attorney, county counsel, city attorney, or city prosecutor in this state.\u201d\nNotably, the references in section 17203 to one who wishes to pursue UCL claims on behalf of others are in the singular; that is, the \u201cperson\u201d and the \u201cclaimant\u201d who pursues such claims must meet the standing requirements of section 17204 and comply with Code of Civil Procedure section 382. The conclusion that must be drawn from these words is that only this individual\u2014 the representative plaintiff\u2014is required to meet the standing requirements. Thus, the plain language of the statute lends no support to the trial court\u2019s conclusion that all unnamed class members in a UCL class action must demonstrate section 17204 standing. \u201c \u2018If there is no ambiguity in the language of the statute, \u201cthen the Legislature [or electorate] is presumed to have meant what it said, and the plain meaning of the language governs.\u201d \u2019 \u201d (People v. Tindall (2000) 24 Cal.4th 767, 772 [102 Cal.Rptr.2d 533, 14 P.3d 207].)\nJust as nothing in the initiative\u2019s language supports the trial court\u2019s conclusion, neither does that conclusion find any support in Proposition 64\u2019s ballot materials. (See Soukup v. Law Offices of Herbert Hafif (2006) 39 Cal.4th 260, 279 [46 Cal.Rptr.3d 638, 139 P.3d 30] [even though recourse to extrinsic material is unnecessary given the plain language of statute, we may consult it for material that buttresses our construction of the statutory language].)\nThe specific abuse of the UCL at which Proposition 64 was directed was its use by unscrupulous lawyers who exploited the generous standing requirement of the UCL to file \u201cshakedown\u201d suits to extort money from small businesses. \u201cAttorneys form[ed] a front \u2018watchdog\u2019 or \u2018consumer\u2019 organization. They scour[ed] public records on the Internet for what [were] often ridiculously minor violations of some regulation or law by a small business, and sue[d] that business in the name of the front organization. Since even frivolous lawsuits can have economic nuisance value, the attorneys then contacted] the business (often owned by immigrants for whom English is a second language), and point[ed] out that a quick settlement (usually around a few thousand dollars) would be in the business\u2019s long-term interest.\u201d (People ex rel. Lockyer v. Brar (2004) 115 Cal.App.4th 1315, 1317 [9 Cal.Rptr.3d 844].)\n\u201cIn Proposition 64, as stated in the measure\u2019s preamble, the voters found and declared that the UCL\u2019s broad grant of standing had encouraged \u2018[frivolous unfair competition lawsuits [that] clog our courts[,] cost taxpayers\u2019 and \u2018threatenf the survival of small businesses . . . .\u2019 (Prop. 64, \u00a7 1, subd. (c) [\u2018Findings and Declarations of Purpose\u2019].) The former law, the voters determined, had been \u2018misused by some private attorneys who\u2019 \u2018[file frivolous lawsuits as a means of generating attorney\u2019s fees without creating a corresponding public benefit,\u2019 \u2018[file lawsuits where no client has been injured in fact,\u2019 \u2018[file lawsuits for clients who have not used the defendant\u2019s product or service, viewed the defendant\u2019s advertising, or had any other business dealing with the defendant,\u2019 and \u2018[file lawsuits on behalf of the general public without any accountability to the public and without adequate court supervision.\u2019 (Prop. 64, \u00a7 1, subd. (b)(1)\u2014(4).) \u2018[T]he intent of California voters in enacting\u2019 Proposition 64 was to limit such abuses by \u2018prohibiting] private attorneys from filing lawsuits for unfair competition where they have no client who has been injured in fact' (id., \u00a7 1, subd. (e)) and by providing \u2018that only the California Attorney General and local public officials be authorized to file and prosecute actions on behalf of the general public\u2019 (id., \u00a7 1, subd. (f)).\u201d (Mervyn\u2019s, supra, 39 Cal.4th at p. 228, italics added.)\nOn the other hand, the ballot materials also support the conclusion that Proposition 64 did not propose to curb the broad remedial purpose of the UCL or the use of class actions to effect that purpose, but targeted only the specific abuse described above. The proponents\u2019 statement in the voter information guide for Proposition 64 described the purpose of the initiative as \u201cprotecting] small businesses from frivolous lawsuits\u201d generated by \u201c[s]hakedown lawyers [who] \u2018appoint\u2019 themselves to act like the Attorney General and file lawsuits on behalf of the people of the State of California, demanding thousands of dollars from small business that can\u2019t afford to fight in court.\u201d (Voter Information Guide, Gen. Elec. (Nov. 2, 2004) argument in favor of Prop. 64, p. 40, capitalization omitted.)\nAt the same time, the proponents proclaimed that Proposition 64 \u201c[protects your right to file a lawsuit if you\u2019ve been damaged.\u201d (Voter Information Guide, Gen. Elec., supra, argument in favor of Prop. 64, p. 40, italics omitted.)\nOpponents of Proposition 64 argued that the initiative would adversely impact the ability of private groups to enforce consumer protection statutes, including \u201cenforcing the laws against selling tobacco to children.\u201d (Voter Information Guide, Gen. Elec., supra, argument against Prop. 64, p. 41.) In response, the proponents emphasized: \u201cProposition 64 doesn\u2019t change any of these laws,\u201d and \u201cProposition 64 would permit ALL the suits cited by its opponents.\u201d (Voter Information Guide, Gen. Elec., supra, rebuttal to argument against Prop. 64, p. 41.) Indeed, the findings and declarations of the purpose of Proposition 64 state quite plainly: \u201c \u2018It is the intent of California voters in enacting this act to eliminate frivolous unfair competition lawsuits while protecting the right of individuals to retain an attorney and file an action for relief pursuant to [this chapter].\u2019 \u201d (Prop. 64, \u00a7 1, subd. (d), as reprinted in 4D West\u2019s Ann. Bus. & Prof. Code (2008 ed.) foll. \u00a7 17203, p. 409.)\nNotably absent from the ballot materials is any indication that the purpose of the initiative was to alter the way in which class actions operate in the context of the UCL. Indeed, other than the requirement that the representative plaintiff comply with Code of Civil Procedure section 382, the ballot materials contain no reference whatsoever to class actions, nor is there any indication that Proposition 64 was intended in any way to alter the rules surrounding class action certification. Those rules do not require that unnamed class members establish standing but, insofar as standing is concerned, focus on the class representative. This is demonstrated by federal law, to which we look when seeking guidance on issues of class action procedure. (Caro v. Procter & Gamble Co. (1993) 18 Cal.App.4th 644, 656, fn. 7 [22 Cal.Rptr.2d 419].)\nUnder rule 23(a) of the Federal Rules of Civil Procedure (28 U.S.C.), a class action is authorized \u201conly if: [][] (1) the class is so numerous that joinder of all members is impracticable; [f] (2) there are questions of law or fact common to the class; [f] (3) the claims or defenses of the representative parties are typical of the claims or defenses of the class; and [f] (4) the representative parties will fairly and adequately protect the interests of the class.\u201d These requirements are analogous to the requirements for class certification under Code of Civil Procedure section 382. (Fireside Bank v. Superior Court, supra, 40 Cal.4th at p. 1089.) Under both federal and state procedure, a prerequisite to class certification is the existence of an ascertainable class. (McElhaney v. Eli Lilly & Co. (D.S.D. 1982) 93 F.R.D. 875, 877 [\u201cPrior to a consideration of the criteria established by Rule 23, the Court must determine whether a class exists, and is capable of legal definition.\u201d]; American Suzuki Motor Corp. v. Superior Court (1995) 37 Cal.App.4th 1291, 1294 [44 Cal.Rptr.2d 526] [\u201cA prerequisite toq the maintenance of a class action is the existence of an ascertainable class.\u201d].)\nAlthough, with respect to whether such a class exists, it has been said that \u201c[t]he definition of a class should not be so broad as to include individuals who are without standing to maintain the action on their own behalf\u2019 (Clay v. American Tobacco Company (S.D.Ill. 1999) 188 F.R.D. 483, 490), such references do not support the proposition that all class members must individually show they have the same standing as the class representative in order to be part of the class. Rather, federal case law is clear that the question of standing in class actions involves the standing of the class representative and not the class members.\n\u201cGenerally standing in a class action is assessed solely with respect to class representatives, not unnamed members of the class.\u201d (In re General Motors Corporation Dex-Cool Products Liability Litigation (S.D.Ill. 2007) 241 F.R.D. 305, 310; see 1 Newberg & Conte, Newberg on Class Actions (3d ed. 1992) \u00a7 2.07, p. 2-41 [\u201cthe standing issue focuses on whether the plaintiff is properly before the court, not whether . . . absent class members are properly before the court\u201d].) \u201cRepresentative parties who have a direct and substantial interest have standing; the question whether they may be allowed to present claims on behalf of others who have similar, but not identical, interests depends not on standing, but on an assessment of typicality and adequacy of representation.\u201d (7AA Wright et al., Federal Practice and Procedure (3d ed. 2005) \u00a7 1785.1, pp. 388-389.) \u201cIn a class action, then, the trial court initially must address whether the named plaintiffs have standing under Article III to assert their individual claims. If that initial test is met, the court must then scrutinize the putative class and its representatives to determine whether the relationship between them is such that under the requirements of Rule 23 the named plaintiffs may represent the class. The trial court generally need not address the final question of whether the class itself, after certification, has standing. If that court, guided by the nature and purpose of the substantive law on which the plaintiffs base their claims, properly applies Rule 23, then the certified class must necessarily have standing as an entity.\u201d (Vuyanich v. Republic National Bank of Dallas (N.D.Tex. 1979) 82 F.R.D. 420, 428.)\nAs noted, nothing in the text of Proposition 64, nor in the accompanying ballot materials, makes any reference to altering class action procedures to impose upon all absent class members the standing requirement imposed upon the class representative. Moreover, Proposition 64 left intact provisions of the UCL that support the conclusion that the initiative was not intended to have any effect on absent class members. Specifically, Proposition 64 did not amend the remedies provision of section 17203. This is significant because under section 17203, the primary form of relief available under the UCL to protect consumers from unfair business practices is an injunction, along with ancillary relief in the form of such restitution \u201cas may be necessary to restore to any person in interest any money or property, real or personal, which may have been acquired by means of such unfair competition.\u201d (\u00a7 17203.)\nNeither form of relief requires that the absent class members, on whose behalf such relief is sought, meet the same standing requirements as are imposed upon the class representative. Injunctive relief operates \u201c \u2018 \u201cin futuro.\u201d \u2019 \u201d (Koebke v. Bernardo Heights Country Club (2005) 36 Cal.4th 824, 837 [31 Cal.Rptr.3d 565, 115 P.3d 1212].) The purpose of such relief, in the context of a UCL action, is to protect California\u2019s consumers against unfair business practices by stopping such practices in their tracks. An injunction would not serve the purpose of prevention of future harm if only those who had already been injured by the practice were entitled to that relief. Indeed, \u201c[a]n injunction should not be granted as punishment for past acts where it is unlikely that they will recur.\u201d (Choice-in-Education League v. Los Angeles Unified School Dist. (1993) 17 Cal.App.4th 415, 422 [21 Cal.Rptr.2d 303].)\nSimilarly, the language of section 17203 with respect to those entitled to restitution\u2014\u201cto restore to any person in interest any money or property, real or personal, which may have been acquired\u2019 (italics added) by means of the unfair practice\u2014is patently less stringent than the standing requirement for the class representative\u2014\u201ca person who has suffered injury in fact and has lost money or property as a result of the unfair competition.\u201d (\u00a7 17204, italics added.) This language, construed in light of the \u201cconcern that wrongdoers not retain the benefits of their misconduct\u201d (Fletcher v. Security Pacific National Bank, supra, 23 Cal. 3d 442, 452) has led courts repeatedly and consistently to hold that relief under the UCL is available without individualized proof of deception, reliance and injury. (E.g., Bank of the West v. Superior Court (1992) 2 Cal.4th 1254, 1267 [10 Cal.Rptr.2d 538, 833 P.2d 545]; Committee on Children\u2019s Television, Inc. v. General Foods Corp., supra, 35 Cal.3d at p. 211.) Accordingly, to hold that the absent class members on whose behalf a private UCL action is prosecuted must show on an individualized basis that they have \u201clost money or property as a result of the unfair competition\u201d (\u00a7 17204) would conflict with the language in section 17203 authorizing broader relief\u2014the \u201cmay have been acquired\u201d language\u2014and implicitly overrule a fundamental holding in our previous decisions, including Fletcher, Bank of the West and Committee on Children\u2019s Television. Had this been the intention of the drafters of Proposition 64\u2014to limit the availability of class actions under the UCL only to those absent class members who met Proposition 64\u2019s standing requirements\u2014presumably they would have amended section 17203 to reflect this intention. Plainly, they did not.\nTo conclude: (1) there is nothing in the express language of Proposition 64 that purports to alter accepted principles of class action procedure that treat the issue of standing as referring only to the class representative and not the absent class members; (2) nor is there any indication in the ballot pamphlet materials that would have alerted the voters that such alteration in class action procedure was an intended result of passage of the initiative; (3) imposing such a novel requirement is not necessary to remedy the specific abuse of the UCL at which Proposition 64 was directed; (4) but, on the other hand, imposing this unprecedented requirement would undermine the guarantee made by Proposition 64\u2019s proponents that the initiative would not undermine the efficacy of the UCL as a means of protecting consumer rights, because requiring all unnamed members of a class action to individually establish standing would effectively eliminate the class action lawsuit as a vehicle for the vindication of such rights; and (5) the remedies provision of UCL, left unchanged by Proposition 64, offers additional support for the conclusion that the initiative was not intended to have any effect at all on unnamed members of UCL class actions.\nAt argument, defendants acknowledged that the text of Proposition 64 does not apply the standing requirements to unnamed class members. Defendants maintained, rather, that application of these requirements to absent class members is mandated by class action principles, specifically, that a class member must have standing to bring the action individually and that the aggregation of individual claims into a class action cannot be used to transform the underlying claim. We reject these arguments.\nIn concluding that Proposition 64 required absent class members to demonstrate standing, the lower courts and defendants here uncritically cited a single sentence in Collins v. Safeway Stores, Inc. (1986) 187 Cal.App.3d 62 [231 Cal.Rptr. 638] stating that \u201c \u2018[e]ach class member must have standing to bring the suit in his own right.\u2019 \u201d (Id. at p. 73, quoting McElhaney v. Eli Lilly & Co., supra, 93 F.R.D. at p. 878.) A closer reading of Collins reveals that it is inapposite; the question in Collins was whether a class existed at all and not whether unnamed members of a certified class must demonstrate standing.\nIn Collins, the putative class representatives bought eggs produced by the defendant egg producer and sold by the defendant supermarket chain; some of the eggs had been contaminated by a pesticide. The contaminated eggs were mixed in with uncontaminated eggs, and once the contamination was known, all cartons from the producer were pulled from the supermarket chain\u2019s shelves and destroyed. The proposed class was divided into two subclasses: (1) all California consumers who had purchased eggs from Safeway within a five-month period (the economic class), and (2) all persons who had ingested the eggs and sustained damage. The trial court declined to certify the first class on the grounds that the proposed \u201cclass was not ascertainable as an economic class that had suffered an economic loss.\u201d (Collins v. Safeway Stores, Inc., supra, 187 Cal.App.3d at p. 67.)\nThe Court of Appeal affirmed. As the court observed, under the particular facts of the case before it, \u201cno individual member of the defined economic class will ever be able to come forward and prove that their purchased eggs were contaminated in whole or in part. Due to the commingling of 20 percent contaminated eggs with 80 percent noncontaminated eggs, each carton may have contained one or more contaminated eggs, or none at all.\u201d (Collins v. Safeway Stores, Inc., supra, 187 Cal.App.3d at p. 69.) Thus, the court declined \u201cto certify an economic class where not all products sold to the class were defective and where the class members themselves do not know, and never will know, whether they purchased a defective product.\u201d (Id. at p. 70.) It was therefore in this context\u2014in which it could not be established that any member of the alleged class had suffered any injury caused by the defendants\u2019 conduct\u2014that the court quoted the McElhaney court\u2019s observation that each class member must have standing to bring the action on,his or her own behalf. (Id. at p. 73.)\nImportantly, the class certification discussion in Collins was not framed in the context of the UCL. Indeed, the only hint that the UCL was involved in Collins is a brief reference in a footnote that, among the plaintiffs\u2019 \u201ctheories of recovery\u201d were \u201cviolations of sections of the . . . Business and Professions Code.\u201d (Collins v. Safeway Stores, Inc., supra, 187 Cal.App.3d at p. 66, fn. 2.) Moreover, to the extent that the UCL was involved, the Court of Appeal\u2019s conclusion that the plaintiffs had failed to describe a certifiable class is questionable. It is clear in Collins that some of the purchasers in question may have purchased contaminated eggs\u2014therefore, the \u201cmoney or property\u201d of the entire class of purchasers \u201cmay have been acquired by means\u201d of an unfair practice (\u00a7 17203), thus entitling them to restitution for their loss.\nCollins does not address the question before us of whether absent class members in a UCL action are required to establish standing, and is therefore inapposite. (Ginns v. Savage (1964) 61 Cal.2d 520, 524, fn. 2 [39 Cal.Rptr. 377, 393 P.2d 689] [\u201can opinion is not authority for a proposition not therein considered\u201d].) Rather, Collins involved the preliminary step of identifying the existence of an ascertainable class. The reference to standing must be understood in this context\u2014that is, as part of the requirement that a class \u201c \u2018be sufficiently definite so that it is administratively feasible for the Court to determine whether a particular individual is a member of the proposed class.\u2019 \u201d (Miller v. Janssen Pharmaceutica Products, L.P. (S.D.Ill. 2007) 2007 WL 1295824, p. *5.)\nHere, the trial court certified a class. Its subsequent decertification was not based on any deficiency by plaintiffs in having described the class in the first place, but on the trial court\u2019s erroneous view that changes in the UCL\u2019s standing requirement were now applicable to all class members. In other words, the trial court did not conclude that the class was no longer ascertainable, but that the absent class members were now required in a UCL action to individually demonstrate standing in order to remain in the class. As we have demonstrated, the trial court\u2019s conclusion is not supported either by principles of class action procedure or by the language of Proposition 64 itself.\nDefendants also argue that Proposition 64\u2019s standing requirement must be applied to all class members because otherwise the class representative would be permitted \u201cto assert \u2018claims\u2019 that the absent class members do not have.\u201d According to defendants this would violate the principle that the aggregation of individual claims into a class action \u201cdoes not serve to enlarge substantive rights or remedies.\u201d (Feitelberg v. Credit Suisse First Boston, LLC, supra, 134 Cal.App.4th at p. 1014.) We disagree.\nThe substantive right extended to the public by the UCL is the \u201c \u2018 \u201cright to protection from fraud, deceit, and unlawful conduct\u201d \u2019 \u201d (Prata v. Superior Court (2001) 91 Cal.App.4th 1128, 1137 [111 Cal.Rptr.2d 296]), and the focus of the statute is on the defendant\u2019s conduct. As we have already observed, the proponents of Proposition 64 told the electorate that the initiative would not alter the statute\u2019s fundamental purpose of protecting consumers from unfair businesses practices. Rather, the purpose of the initiative was to address a specific abuse of the UCL\u2019s generous standing provision by eliminating that provision in favor of a more stringent standing requirement. That change, as we observed in Mervyn\u2019s, did not change the substantive law. (Mervyn\u2019s, supra, 39 Cal.4th at p. 232.)\nThe underlying claim in the instant case is that defendants have engaged in a long-term campaign of deceptive advertising and misrepresentations to the consumers of its products regarding the health risks of those products. The class, as certified, consists of members of the public who were exposed to defendants\u2019 allegedly deceptive advertisements and misrepresentations and who were also consumers of defendants\u2019 products during a specific period of time. The nature of the claim is the same\u2014the right to be protected against defendants\u2019 alleged deceit\u2014and the remedies remain the same\u2014injunctive relief and restitution. Applying Proposition 64\u2019s standing requirements to the class representative but not the absent class members enlarges neither the substantive rights nor the remedies of the class.\nWe therefore conclude that Proposition 64 was not intended to, and does not, impose section 17204\u2019s standing requirements on absent class members in a UCL class action where class requirements have otherwise been found to exist.\n2. What Is Required to Establish Standing Under the UCL As Amended by Proposition 64?\nThe second question before us is the meaning of the phrase \u201cas a result of\u2019 in section 17204\u2019s requirement that a private enforcement action under the UCL can only be brought by \u201ca person who has suffered injury in fact and has lost money or property as a result of the unfair competition.\u201d (\u00a7 17204.) While it is clear that the phrase indicates there must be some connection between the injury and the defendant\u2019s conduct, the parties disagree about the\njueienaants claim mat me pirrase \"as a result of\u201d introduced a tort causation element into UCL actions. In the context of this case, this would appear to require a showing of actual reliance on the deceptive advertising and misrepresentations as a result of which the loss of money or property was sustained. Plaintiffs, on the other hand, maintain that the new standing requirement did not impose any type of tort causation requirement. Plaintiffs argue that the phrase merely requires \u201ca factual nexus\u201d between a defendant\u2019s conduct and a plaintiff\u2019s injury: \u201cthe representative plaintiff need only be one of the people from whom the defendant obtained money or property while engaging in its unfair business practice.\u201d\nThe phrase is not defined by other provisions of the statute. Moreover, examination of the ballot materials does not shed any light on whether it was the intent of the electorate in enacting Proposition 64 to impose actual reliance where a UCL claim is based on fraud. Causation merits only a passing mention in the Attorney General\u2019s summary. The summary describes the purpose of the initiative as limiting the right of an individual to sue by allowing private enforcement of the UCL only by a person who \u201cwas actually injured by, and suffered financial/property loss because of, an unfair business practice.\u201d (Voter Information Guide, Gen. Elec., supra, official title and summary, p. 38, italics added.) In describing the changes to the UCL that would result from the initiative, the analysis by the Legislative Analyst does not refer to causation at all: \u201cThis measure prohibits any person, other than the Attorney General and local public prosecutors, from bringing a lawsuit for unfair competition unless the person has suffered injury and lost money or property.\u201d (Voter Information Guide, Gen. Elec., supra, analysis of Prop. 64 by Legis. Analyst, p. 38.)\nMoreover, as noted, before Proposition 64, \u201cCalifornia courts have repeatedly held that relief under the UCL is available without individualized proof of deception, reliance and injury.\u201d (Massachusetts Mutual Life Ins. Co. v. Superior Court (2002) 97 Cal.App.4th 1282, 1288 [119 Cal.Rptr.2d 190].)\nOn the other hand, there is no doubt that reliance is the causal mechanism of fraud. (Molko v. Holy Spirit Assn. (1988) 46 Cal.3d 1092, 1108 [252 Cal.Rptr. 122, 762 P.2d 46].) Additionally, because it is clear that the overriding purpose of Proposition 64 was to impose limits on private enforcement actions under the UCL, we must construe the phrase \u201cas a result of\u2019 in light of this intention to limit such actions. (People v. Cooper (2002) 27 Cal.4th 38, 45 [115 Cal.Rptr.2d 219, 37 P.3d 403] [\u201cTo determine the meaning of a statute, we seek to discern the sense of its language, in full context, in light of its purpose.\u201d].) Therefore, we conclude that this language imposes an actual reliance requirement on plaintiffs prosecuting a private enforcement action under the UCL\u2019s fraud prong.\nThis conclusion, however, is the beginning, not the end, of the analysis of what a plaintiff must plead and prove under the fraud prong of the UCL. Reliance is \u201can essential element of . . . fraud . . . . ['][] . . . QRJeliance is proved by showing that the defendant\u2019s misrepresentation or nondisclosure was \u2018an immediate cause\u2019 of the plaintiff\u2019s injury-producing conduct. [Citation.] A plaintiff may establish that the defendant\u2019s misrepresentation is an \u2018immediate cause\u2019 of the plaintiff\u2019s conduct by showing that in its absence the plaintiff \u2018in all reasonable probability\u2019 would not have engaged in the injury-producing conduct.\u201d (Mirkin v. Wasserman (1993) 5 Cal.4th 1082, 1110-1111 [23 Cal.Rptr.2d 101, 858 P.2d 568] (conc. & dis. opn. of Kennard, J.).)\nWhile a plaintiff must show that the misrepresentation was an immediate cause of the injury-producing conduct, the plaintiff need not demonstrate it was the only cause. \u201c \u2018It is not . . . necessary that [the plaintiff\u2019s] reliance upon the truth of the fraudulent misrepresentation be the sole or even the predominant or decisive factor in influencing his conduct. ... It is enough that the representation has played a substantial part, and so has been a substantial factor, in influencing his decision.\u2019 [Citation.] [][] Moreover, a presumption, or at least an inference, of reliance arises wherever there is a showing that a misrepresentation was material. [Citations.] A misrepresentation is judged to be \u2018material\u2019 if \u2018a reasonable man would attach importance to its existence or nonexistence in determining his choice of action in the transaction in question\u2019 [citations], and as such materiality is generally a question of fact unless the \u2018fact misrepresented is so obviously unimportant that the jury could not reasonably find that a reasonable man would have been influenced by it.\u2019 [Citation.]\u201d (Engalla v. Permanente Medical Group, Inc. (1997) 15 Cal.4th 951, 976-977 [64 Cal.Rptr.2d 843, 938 P.2d 903].)\nNor does a plaintiff need to demonstrate individualized reliance on specific misrepresentations to satisfy the reliance requirement. This principle is illustrated in a pair of tobacco case decisions that upheld verdicts for the plaintiffs against substantial evidence challenges, specifically focusing on the sufficiency of the evidence supporting reliance. (Boeken v. Philip Morris, Inc. (2005) 127 Cal.App.4th 1640 [26 Cal.Rptr.3d 638] (Boeken); Whiteley v. Philip Morris, Inc. (2004) 117 Cal.App.4th 635 [11 Cal.Rptr.3d 807] (Whiteley).) In each case, the defendants argued that the evidence was insufficient to support the judgments because the plaintiffs had failed to prove they heard and had relied on specific misrepresentations about the health hazards of cigarette smoking. (Boeken, supra, 127 Cal.App.4th at p. 1657; Whiteley, supra, 117 Cal.App.4th at pp. 667-678.) In both Boeken and Whiteley, evidence was admitted to prove the decades-long campaign of the tobacco industry to conceal the health risks of its product while minimizing the growing consensus regarding the link between cigarette smoking and lung cancer and, simultaneously, engaging in \u201csaturation advertising targeting adolescents, the age group from which new smokers must come.\u201d (Whiteley, supra, 117 Cal.App.4th at p. 647; see Boeken, supra, 127 Cal.App.4th at p. 1660 [\u201cEven before Boeken became a target member of the group of addicted smokers, Philip Morris targeted Boeken as a member of another group\u2014adolescent boys.\u201d].)\nIn each case, the plaintiffs testified that their decision to begin smoking was influenced and reinforced by cigarette advertising, though neither could point to specific advertisements. (Boeken, supra, 127 Cal.App.4th at pp. 1662-1663; Whiteley, supra, 117 Cal.App.4th at p. 679.) Each plaintiff also testified that, despite awareness of the controversy surrounding smoking, he or she believed the tobacco industry\u2019s assurances that there was no definitive connection between cigarette smoking and various diseases. (Boeken, supra, 127 Cal.App.4th at pp. 1664-1665; Whiteley, supra, 117 Cal.App.4th at p. 679.) Based on this record, the Boeken court concluded that there was substantial evidence that Boeken began to smoke \u201cfor reasons that track Philip Morris\u2019s advertising of the time\u201d (Boeken, at p. 1663), notwithstanding his inability to recall specific advertisements, that he relied on the defendant\u2019s false statements regarding the health risks of cigarette smoking notwithstanding his awareness of contrary statements, and that his reliance was justified. (Boeken, at pp. 1664-1667.) Similarly, in Whiteley, the court concluded that substantial evidence supported the conclusion that Whiteley justifiably relied on the defendant\u2019s \u201cfalse assurances and denials\u201d regarding the hazard of smoking. (Whiteley; supra, 117 Cal.App.4th at p. 679.)\nThese decisions provide a framework for what plaintiffs must plead and prove in UCL fraud actions in terms of reliance. These cases teach that, while a plaintiff must allege that the defendant\u2019s misrepresentations were an immediate cause of the injury-causing conduct, the plaintiff is not required to allege that those misrepresentations were the sole or even the decisive cause of the injury-producing conduct. Furthermore, where, as here, a plaintiff alleges exposure to a long-term advertising campaign, the plaintiff is not required to plead with an unrealistic degree of specificity that the plaintiff relied on particular advertisements or statements. Finally, an allegation of reliance is not defeated merely because there was alternative information available to the consumer-plaintiff, even regarding an issue as prominent as whether cigarette smoking causes cancer. (See Grisham v. Philip Morris U.S.A., Inc. (2007) 40 Cal.4th 623, 638 [54 Cal.Rptr.3d 735, 151 P.3d 1151] [there is no \u201cspecial presumption under California law based on common knowledge that a plaintiff is aware that smoking is addictive or harmful\u201d].) Accordingly, we conclude that a plaintiff must plead and prove actual reliance to satisfy the standing requirement of section 17204 but, consistent with the principles set forth above, is not required to necessarily plead and prove individualized reliance on specific misrepresentations or false statements where, as here, those misrepresentations and false statements were part of an extensive and long-term advertising campaign.\nIn granting the motion to decertify the class, and in concluding that the entire class was required to demonstrate standing, the trial court\u2019s order also stated, \u201cFurther, it appears from the record that not even Plaintiffs\u2019 named representatives satisfy Proposition] 64\u2019s standing requirement.\u201d The trial court did not elaborate on the basis for its conclusion, and we cannot be certain what it meant. Moreover, even assuming that, in light of Proposition 64, the named representatives are no longer adequate representatives of the class because they lack standing, the proper procedure would not be to decertify the class but grant leave to amend to redefine the class or add a new class representative. \u201cThis rule is usually applied in situations where the class representative originally had standing, but has since lost it by intervening law or facts.\u201d (First American Title Ins. Co. v. Superior Court (2007) 146 Cal.App.4th 1564, 1574 [53 Cal.Rptr.3d 734].) We ourselves sanctioned this procedure in a post-Proposition 64 case. (Branick v. Downey Savings & Loan Assn. (2006) 39 Cal.4th 235, 243 [46 Cal.Rptr.3d 66, 138 P.3d 214] [\u201ccourts have permitted plaintiffs who have been determined to lack standing, or who have lost standing after the complaint was filed, to substitute as plaintiffs the true real parties in interest\u201d].) Accordingly, we reverse the order granting the decertification motion and remand the case for further proceedings to determine whether these plaintiffs can establish standing as we have now defined it and, if not, whether amendment should be permitted.\nDISPOSITION\nThe order granting defendants\u2019 decertification motion is reversed and the matter is remanded for further proceedings consistent with this opinion.\nKennard, Acting C. J., Werdegar, J., and Moore, J., concurred.\nAll further statutory references are to the Business and Professions Code unless otherwise specified.\nPlaintiffs initially posited two distinct theories of violation of the UCL: first, that defendants engaged in unlawful business practices because the manipulation of nicotine levels in their products, and the sale and distribution of such products, violated the CLRA; and second, defendants engaged in unfair and fraudulent business practices because of their misrepresentations regarding the dangerousness of their products. In September 2002, however, defendants and plaintiffs entered into a stipulation in which plaintiffs abandoned any claim that the manipulation of the chemical content of cigarettes to enhance addiction was an unfair business practice and elected instead to \u201cpresent this issue solely in the context that Defendants made false and misleading statements to the public about Defendants\u2019 efforts to manipulate cigarettes to enhance addiction and that such false and/or misleading statements constitute a fraudulent and/or unfair business act or practice.\u201d Thus, plaintiffs have elected to proceed solely under their second theory, the UCL\u2019s fraud prong.\nThe second cause of action alleged violation of the false advertising law.\nPlaintiff Brown had previously sought to certify a class based on a cause of action under the CLRA (Civ. Code, \u00a7 1750 et seq.) in his sixth amended complaint. That motion had been denied. He renewed the motion in connection with his seventh amended complaint. That motion was also denied.\nThe ninth amended complaint was subject to a series of summary judgment motions that were granted in part and denied in part. One result of the motions was that allegations within the UCL cause of action that pertained to defendants\u2019 targeting of minors in advertising were struck as preempted by federal law. (See In re Tobacco Cases II (2007) 41 Cal.4th 1257, 1262 [63 Cal.Rptr.3d 418, 163 P.3d 106] [UCL claim against tobacco industry based on advertising targeting minors preempted by the Federal Cigarette Labeling and Advertising Act (15 U.S.C. \u00a7 1331 et seq.)].)\nThe bulk of the decertification motion addressed the issue of whether Proposition 64 applied to cases pending at the time of its enactment, which was then an unsettled question, but which we have now answered in the affirmative. (Mervyn\u2019s, supra, 39 Cal.4th at p. 227.)\nAs previously noted, plaintiffs abandoned the only other unfair or unlawful business practice claim they made\u2014regarding the alleged manipulation of the chemical constituents of cigarettes to enhance their addictiveness\u2014except to the extent that defendants made false or misleading statements on this subject. (See fn. 2, ante, at p. 307.)\nA violation of the UCL\u2019s fraud prong is also a violation of the false advertising law (\u00a7 17500 et seq.). (Committee on Children\u2019s Television, Inc. v. General Foods Corp. (1983) 35 Cal.3d 197, 210 [197 Cal.Rptr. 783, 673 P.2d 660]; Brockey v. Moore (2003) 107 Cal.App.4th 86, 98 [131 Cal.Rptr.2d 746].)\n\u201cSection 382 has also been interpreted as permitting associations to sue on behalf of their members.\u201d (Mervyn\u2019s, supra, 39 Cal.4th at p. 232, fn. 4; see Raven\u2019s Cove Townhomes, Inc. v. Knuppe Development Co. (1981) 114 Cal.App.3d 783, 793 [171 Cal.Rptr. 334].)\nWe grant the request for judicial notice by amicus curiae the Foundation for Taxpayer and Consumer Rights to judicially notice the text of Proposition 64, the ballot pamphlet argument for and against the proposition, and the analysis of the initiative by the Legislative Analyst.\nAt several points, the dissent conveys the distinct impression that Proposition 64 reserved to public officials alone the right to bring broad-based actions to enforce the provisions of the UCL. As the language quoted above illustrates, however, it is clear that the proponents did not intend to eliminate private representative actions to protect Californians from unfair business practices. In the post-Proposition 64 era, as before, such actions continue to \u201csupplement the efforts of law enforcement and regulatory agencies.\u201d (Kraus v. Trinity Management Services, Inc., supra, 23 Cal.4th at p. 126.)\nOur reading of the trial court\u2019s order\u2014that a \u201cshowing of causation is required as to each class member\u2019s injury in fact (specifically the phrase \u2018as a result of\u2019 the UCL violation)\u201d\u2014is that the court meant that the absent class members in this action must individually establish standing. Defendants apparently would not go so far. They suggest only that standing must be part of the calculus the court employs when it rules on a certification motion under the UCL. This is a distinction without a difference because ultimately both the trial court and defendants proceed from the same erroneous premise that the standing requirements of Proposition 64 apply to absent class members.\nIt is conceivable that a named class representative who met the standing requirements under Proposition 64 could pursue a broad-based UCL class action in which only injunctive relief was sought on behalf of a class that was likely to, but had not yet, suffered injury arising from the unfair business practice. We need not decide here whether such an action would be proper.\nOur conclusion with respect to the remedies set forth in section 17203 has nothing to do with the nonrestitutionary disgorgement disallowed in Kraus v. Trinity Management Services, Inc., supra, 23 Cal.4th 116. In Kraus, we concluded that section 17203 does not allow a court to order disgorgement into a fluid recovery fund, e.g., to \u201ccompel a defendant to surrender all money obtained through an unfair business practice even though not all is to be restored to the persons from whom it was obtained or those claiming under those persons.\u201d (Kraus, at p. 127.) This prohibition against nonrestitutionary disgorgement did not overrule any part of Fletcher v. Security Pacific National Bank, supra, 23 Cal.3d 442, under which restitution may be ordered \u201cwithout individualized proof of deception, reliance, and injury if necessary to prevent the use or employment of an unfair practice.\u201d (Bank of the West v. Superior Court, supra, 2 Cal.4th at p. 1267.)\nNothing in Proposition 64 explicitly extends the standing requirement of the representative plaintiff to the unnamed class members; the fact that the \u201cmay have been acquired\u201d language in section 17203 was unchanged by the initiative undermines the dissent\u2019s conclusion that it was the intention of the electorate to do so. We must take the initiative as it is, neither reading into it language that is not in it, nor reading out of it language that is present to support some presumed intention of the electorate.\nCollins quoted McElhaney v. Eli Lilly & Co., supra, 93 F.R.D. 875, but McElhaney is no more apposite than Collins because it, too, dealt with the denial of a class certification motion based on putative class representatives\u2019 inability to describe a cognizable class of individuals who had suffered injury caused by the defendant\u2019s conduct, allegedly the exposure of fetuses to the drug diethylstilbestrol (DES). (McElhaney v. Eli Lilly & Co. supra, 93 F.R.D. at p. 877 [\u201cAlthough plaintiff alleges that she is suffering from DES-related injuries, there appears to be no requirement that any class member has sustained any injury or damage.\u201d].) The cases cited by McElhaney also involve the failure of the putative class representative to have identified an ascertainable class. (Kister v. Ohio Board of Regents (S.D.Ohio 1973) 365 F.Supp. 27 [purported class challenging statute governing suspension and dismissal of students and employees of Ohio\u2019s university and college system who had been arrested and convicted of certain criminal statutes, which included all students, faculty and staff members, was too broad]; Lamb v. Hamblin (D.Minn. 1972) 57 F.R.D. 58 [class action brought by users of municipal water service challenging termination of service procedure must be limited to those under present threat of termination or whose service had been terminated, not all users of service]; Thomas v. Clarke (D.Minn. 1971) 54 F.R.D. 245 [class action challenging constitutionality of claim and delivery statute that defined class as all persons potentially subject to the statute was too broad; limited to those whose property had been seized or was under threat of seizure under the statute].) Moreover, the genesis of the Collins quotation is a decision, cited by Thomas, involving a radically different context than the dicta for which it has been subsequently cited. (Pacific Inter-Club Yacht Association v. Morris (N.D.Cal. 1960) 197 F.Supp. 218, 222-223 [where court lacks jurisdiction over plaintiff\u2019s action to prevent the building of a bridge over a navigable waterway, bringing the action as a class action does not confer jurisdiction; \u201c[b]anding together a group of individuals who could not invoke the jurisdiction of this Court does not cloak the group with rights not granted to the several individuals\u201d].)\nPlaintiffs also maintain that Proposition 64 was intended to do no more than require federal Constitution article III standing and that, for purposes of such standing, a plaintiff need only show that his or her injury is fairly traceable to the defendant\u2019s conduct. They base their argument on the following statement: \u201cIt is the intent of the California voters in enacting this act to prohibit private attorneys from filing lawsuits for unfair competition where they have no client who has been injured in fact under the standing requirements of the United States Constitution.\u201d (Prop. 64, \u00a7 1, subd. (e), as reprinted in 4D West\u2019s Ann. Bus. & Prof. Code, supra, foll. \u00a7 17203, p. 409.) The purpose of article HI standing is to ensure that \u201cfederal courts reserve their judicial power for ' \u201cconcrete legal issues, presented in actual cases, not abstractions.\u201d \u2019 \u201d (Associated Contractors of California v. Coalition for Economic Equity (9th Cir. 1991) 950 F.2d 1401, 1406.) It may have been that the reference to article IH standing was intended simply to emphasize Proposition 64\u2019s requirement that only those plaintiffs who have suffered actual injury be permitted to prosecute private enforcement actions under the UCL. In any event, we are certain that if the proponents of the initiative had intended some other standard of causation to apply, they would have said so directly instead of using an elliptical reference to federal standing.\nWe emphasize that our discussion of causation in this case is limited to such cases where, as here, a UCL action is based on a fraud theory involving false advertising and misrepresentations to consumers. The UCL defines \u201cunfair competition\u201d as \u201cincluding] any unlawful, unfair or fraudulent business act or practice . . . .\u201d (\u00a7 17200.) There are doubtless many types of unfair business practices in which the concept of reliance, as discussed here, has no application.\nFAssociate Justice, Court of Appeal, Fourth Appellate District, Division 3, assigned by the Acting Chief Justice pursuant to article VI, section 6 of the California Constitution.",
+        "type": "majority",
+        "author": "MORENO, J."
+      },
+      {
+        "text": "BAXTER, J., Concurring and Dissenting.\nProposition 64, an initiative measure adopted by the voters at the November 2004 election, worked a sea change in litigation to enforce the unfair competition law (UCL; Bus. & Prof. Code, \u00a7 17200 et seq.). Previously, a UCL action against one alleged to have committed an illegal, unfair, or deceptive business practice could be maintained by any one of several specified public officials, or by \u201cany person acting for the interests of itself, its members or the general public.\u201d (Former \u00a7 17204, as amended by Stats. 1993, ch. 926, \u00a7 2, p. 5198.) In a suit by either a public or private plaintiff, the court could order injunctive relief as well as the restoration \u201cto any person in interest [of] any money or property, real or personal, which [might] have been acquired by means of such unfair competition.\u201d (\u00a7 17203.) As a result, a private individual or entity with no relationship to the alleged wrongful practice could use the statute to force a business to repay substantial sums arguably acquired through a UCL violation.\nAdvised that the broad power accorded to \u201cprivate attorneys general\u201d under the UCL had led to abusive \u201cshakedown\u201d suits, the voters, through Proposition 64, adopted crucial reforms. Proposition 64 left intact the authority of the enumerated public officials to maintain UCL actions on the public\u2019s behalf, and therein to obtain injunctive relief and restitution of profits generally associated with the alleged unfair practice. However, the measure severely restricted the UCL enforcement powers of private persons in two ways.\nFirst, it provided that any private person bringing a UCL suit must have suffered \u201cinjury in fact and . . . lost money or property as a result of the unfair competition.\u201d (\u00a7 17204, italics added.) Second, it specified that a private person may pursue representative claims on behalf of others only if he or she (1) personally has suffered actual injury and loss caused by the unfair practice and (2) \u201ccomplies with [s]ection 382 of the Code of Civil Procedure.\u201d (\u00a7 17203.)\nCode of Civil Procedure section 382 is the statute that authorizes class actions, and the ballot pamphlet materials for Proposition 64 leave no doubt the voters understood the reference to this statute as requiring all representative UCL suits by private persons to proceed under the rules and principles governing class actions. As I will discuss, those rules and principles prominently require that the representative, or named, plaintiff have a claim typical of the class, and that each class member be someone who could bring suit on his or her own behalf.\nApplying these principles to the issues before us, I concur in the majority\u2019s conclusion that, under Proposition 64\u2019s injury-in-fact and causation requirements, the named plaintiffs in a UCL action alleging deceptive or fraudulent advertising of an injurious product must plead and prove they purchased the product in actual reliance on the false advertising. I also agree the named plaintiffs need not allege or establish that the asserted false advertising was the sole cause of the purchases. Nor, where the defendant has engaged in a pervasive campaign of false claims over a long period of time, need the named plaintiffs cite a specific advertisement or advertisements that influenced their purchases.\nHowever, I respectfully disagree with the majority insofar as it concludes that unnamed class members in a private UCL class action need not meet the injury-in-fact and causation requirements of Proposition 64. In this UCL suit alleging that tobacco companies engaged in false advertising about the health risks of their products, the majority applies its mistaken holding to conclude, in effect, that so long as the named plaintiffs actually relied on the allegedly deceptive advertising claims when buying and smoking cigarettes, they may seek injunctive and restitutionary relief on behalf of all California smokers who simply saw or heard such ads during the period at issue, regardless of whether false claims contained in those ads had anything to do with any class member\u2019s decision to buy and smoke cigarettes.\nEven if the majority\u2019s holding has some sympathetic appeal on the particular facts alleged here, the rule the majority announces will apply equally to less egregious cases, where it invites the very kinds of mischief Proposition 64 was intended to curtail. Accordingly, I cannot join the majority\u2019s erroneous determination, which turns class action law upside down and contravenes the initiative measure\u2019s plain intent.\nAs indicated above, Proposition 64 requires all UCL suits brought by private persons on behalf of others to comply with Code of Civil Procedure section 382 by proceeding as class actions. It is well settled that maintenance of a class suit requires proof, among other things, of a sufficiently numerous, ascertainable class with a well-defined community of interest. The \u201ccommunity of interest\u201d requirement has three aspects: (1) predominant common questions of law and fact, (2) class representatives with claims or defenses typical of the class, and (3) class representatives who can adequately represent the class. (E.g., Fireside Bank v. Superior Court (2007) 40 Cal.4th 1069, 1089 [56 Cal.Rptr.3d 861, 155 P.3d 268]; Sav-On Drug Stores, Inc. v. Superior Court (2004) 34 Cal.4th 319, 326 [17 Cal.Rptr.3d 906, 96 P.3d 194]; Linder v. Thrifty Oil Co. (2000) 23 Cal.4th 429, 435 [97 Cal.Rptr.2d 179, 2 P.3d 27]; Richmond v. Dart Industries, Inc. (1981) 29 Cal.3d 462, 470 [174 Cal.Rptr. 515, 629 P.2d 23].) As the majority notes, these criteria are analogous to those set forth in Federal Rules of Civil Procedure, rule 23(a) (28 U.S.C.), and we look to federal decisions under that rule for guidance in matters of class action procedure.\nAscertainability and typicality both require that members of a certified class themselves have causes of action against the defendant. Courts, state and federal, repeatedly have stressed that the definition of a class cannot be so broad as to include persons who would lack standing to bring suit in their own names. (E.g., American Suzuki Motor Corp. v. Superior Court (1995) 37 Cal.App.4th 1291, 1294-1295 [44 Cal.Rptr.2d 526] [class action for breach of warranty based on motorcycle design defect could not be maintained on behalf of purchasers who suffered no injury or property damage from alleged defect]; Collins v. Safeway Stores, Inc. (1986) 187 Cal.App.3d 62, 69, 72-73 [231 Cal.Rptr. 638] (Collins) [in action alleging defendant\u2019s distribution of 20 percent contaminated and 80 percent uncontaminated eggs, randomly commingled, no class could be ascertained because it was impossible to tell whether any particular putative class member bought contaminated eggs]; Oshana v. Coca-Cola Co. (7th Cir. 2006) 472 F.3d 506, 514-515 [in statutory consumer-fraud action claiming defendant misrepresented ingredients in its fountain diet soda, requirements of ascertainability and typicality were not met where proposed class included persons who did not rely on misrepresentations when buying defendant\u2019s fountain soda]; Denney v. Deutsche Bank AG (2d Cir. 2006) 443 F.3d 253, 264 [stating that, while class members need not make individual showings of standing at the certification stage, \u201cno class may be certified that contains members lacking . . . standing [under U.S. Const., art. III]\u201d]; Adashunas v. Negley (7th Cir. 1980) 626 F.2d 600, 604 [stating, in action on behalf of all learning-disabled Indiana public school students who allegedly had not been identified and thus were not receiving their special-education entitlement, that under article Ill\u2019s \u201ccase or controversy\u201d requirement, it must \u201cbe reasonably clear that the proposed class members have all suffered a constitutional or statutory violation warranting some relief\u2019; denial of class certification affirmed]; In re Copper Antitrust Litigation (W.D.Wis. 2000) 196 F.R.D. 348, 353 [stating that \u201c[i]mplicit in Rule 23 is the requirement that the plaintiffs and the class they seek to represent have standing\u201d]; Clay v. American Tobacco Co. (S.D.Ill. 1999) 188 F.R.D. 483, 490 [stating, in suit against tobacco companies for wrongful youth-oriented marketing, seeking disgorgement of all profits from cigarette sales to minors, and proposing class of all United States persons who, as children, bought and smoked defendants\u2019 cigarettes, that \u201c[t]he definition of a class should not be so broad ... as to include individuals who are without standing to maintain the action on their own behalf\u2019; class certification denied]; McElhaney v. Eli Lilly & Co. (D.S.D. 1982) 93 F.R.D. 875, 878 (McElhaney) [in suit claiming precancerous condition caused by in \u00fatero exposure to diethylstilbestrol (DES), proposed class could not include persons who lacked standing to sue in their own right because they were not exposed to DES and sustained no injury in fact]; see 7AA Wright et al., Federal Practice and Procedure (3d ed. 2005) \u00a7 1785.1, pp. 387-388, fn. 10.)\nIn this private UCL action alleging fraudulent advertising by tobacco companies, the majority agrees the named plaintiffs could not sue without meeting Proposition 64\u2019s standing requirement of personal loss stemming from their actual reliance on the deceptive ads. Under well-established class action rules, the putative class the named plaintiffs seek to represent may include only persons who could themselves bring similar UCL claims in their own behalves. They could do so only if they themselves met Proposition 64\u2019s standing requirement. It follows inexorably that any UCL class certified in this action must be limited to those individuals who also actually relied on defendants\u2019 alleged deceptive advertising campaign when purchasing and smoking cigarettes, and thereby suffered loss.\nIn holding otherwise, the majority thus determines, contrary to the electorate\u2019s clear directive, that normal class action rules do not apply to UCL private representative actions governed by Proposition 64. The majority says that under Proposition 64, as long as the named plaintiffs in a UCL action have suffered \u201cinjury in fact and loss of money or property\u201d caused by the unfair practice alleged, they can file a representative UCL action, and even seek UCL restitutionary relief, on behalf of members of the public to whom the unfair practice caused no actual harm or loss. None of the majority\u2019s reasons for interpreting Proposition 64 in this way is persuasive.\nThe majority notes that the words of Proposition 64 say only that the \u201cclaimant\u201d\u2014the named plaintiff in a private representative UCL action\u2014 must \u201cmeet[] the standing requirements of [sjection 17204\u201d (\u00a7 17203), that is, must have suffered \u201cinjury in fact and [loss of] money or property\u201d as a result of the unfair practice. (\u00a7 17204.) The initiative\u2019s language, the majority stresses, does not impose similar express limitations on the persons to be represented. However, those limitations are incorporated into the UCL by Proposition 64\u2019s additional specification that, to maintain a representative action, a private person must \u201ccompl[y] with [sjection 382 of the Code of Civil Procedure\u201d (\u00a7 17203)\u2014i.e., must satisfy the procedural rules governing class actions. As we have seen, those rules provide that the putative class cannot include persons to whom an alleged unfair practice caused no actual injury or loss, and who thus could not bring suit in their own names.\nThe majority insists Proposition 64 sought only to end a single, narrow form of abuse\u2014\u201cshakedown\u201d suits by uninjured named plaintiffs\u2014and did not otherwise restrict the role of private representative actions in enforcing the UCL\u2019s prohibition of unfair business practices. However, the ballot materials for the initiative measure indicate otherwise.\nBoth the neutral descriptions of the measure and the proponents\u2019 arguments emphasized that under Proposition 64, the government officials enumerated in the UCL would retain the right to maintain representative enforcement actions on behalf of the public generally, but private persons would not. (Voter Information Guide, supra, official title and summary of Prop. 64 by Atty. Gen., p. 38 [Prop. 64 \u201c[authorizes only the California Attorney General or local government prosecutors to sue on behalf of general public to enforce unfair business competition laws\u201d (italics added)]; id., analysis of Prop. 64 by Legis. Analyst, p. 39 [Prop. 64 \u201crequires that unfair competition lawsuits initiated by any person, other than the Attorney General and local public prosecutors, on behalf of others, meet the additional requirements of class action lawsuits\u201d (italics added)]; id., argument in favor of Prop. 64, p. 40 [Prop. 64 \u201c[a]llows only the Attorney General, district attorneys, and other public officials to file lawsuits on behalf of the People of the State of California to enforce California\u2019s unfair competition law\u201d (original italics)]; id., rebuttal to argument against Prop. 64, p. 41 [Prop. 64 \u201c[p]ermits only real public officials like the Attorney General or District Attorneys to file lawsuits on behalf of the People of the State of California\u201d (original italics)].) The proponents urged that passage of the measure would \u201c[stop] fee-seeking trial lawyers from exploiting a loophole in California law\u2014A LOOPHOLE NO OTHER STATE HAS\u2014that lets them \u2018appoint\u2019 themselves Attorney General and file lawsuits on behalf of the People of the State of California.\u201d (Id., rebuttal to argument against Prop. 64, p. 41.)\nNothing in these statements and arguments suggested a private lawyer could sue on behalf of the public so long as he or she had a single client to whom the unfair practice had caused actual injury and loss, and who could thus serve as a named plaintiff. On the contrary, Proposition 64 clearly sought to eliminate the UCL\u2019s former \u201cprivate attorney general\u201d enforcement feature by precluding individuals, even if themselves injured, from suing on behalf of others except under the rules normally attendant on class actions. Thus, just as Proposition 64 eliminated the right of uninjured private persons to represent those who have been injured (Californians for Disability Rights v. Mervyn\u2019s, LLC (2006) 39 Cal.4th 223, 232 [46 Cal.Rptr.3d 57, 138 P.3d 207] (Mervyn\u2019s)), it also eliminated any private right, even of injured persons, to represent those who have not been injured.\nIndeed, the majority\u2019s holding encourages the very sort of abusive shakedown suits that Proposition 64 was designed to curb. That holding can be applied not only to the unsympathetic facts alleged in this case\u2014i.e., that large tobacco companies lured consumers into nicotine addiction by falsely claiming, over many years, that cigarettes were safe\u2014but also to a myriad of situations in which the anticonsumer implications are far less dire.\nConsider the following scenario: A local chain of family-owned supermarkets receives a large shipment of ground beef and puts it out for sale. The stores\u2019 meat departments label and display the meat as \u201cground round,\u201d the leanest grade. The stores\u2019 regular price for ground round is $5.99 per pound, but the display labels offer the meat from this shipment at a \u201creduced price\u201d of $4.99 per pound. The company has not intentionally misrepresented the product. However, in the exercise of due care, it should have known the meat is ground sirloin, a wholesome but slightly fattier grade. The chain is actually selling other quantities of ground sirloin, correctly labeled, at its regular $4.99 per pound price.\nCustomer A visits one of the stores, seeking to buy ground beef. Concerned about his fat intake, he does not intend to purchase any grade other than ground round and would not knowingly do so. Relying upon the incorrect \u201cground round\u201d label, he buys a pound of the meat, so labeled, at the $4.99 price, and consumes it. A substantial number of other customers also see the incorrect \u201cground round\u201d labels. However, many do not care about the grade of ground beef they eat, do not realize the significance of the label, and are not influenced by it. Nonetheless, they also buy substantial quantities of the mislabeled meat and happily consume it.\nCustomer A later discovers the labeling mistake. He obtains counsel and brings a UCL action alleging false advertising that caused him actual injury or loss in the amount of $4.99. He claims restitution to himself in that amount. In the suit, he further seeks to certify a class of all other customers who saw the incorrect labels and purchased the mistakenly mislabeled meat. Regardless of whether these persons relied on the incorrect description when purchasing the mislabeled product, he prays for restitution, on their behalf, of all profits the stores received from such purchases.\nUnder the majority\u2019s concept of no-injury class actions, the plaintiff, Customer A, may well succeed in this endeavor if the case proceeds in court. Realizing this, the company quickly settles. That cannot be what the voters intended when they adopted the substantial reforms set forth in Proposition 64.\nThe majority\u2019s reasoning contains an even more fundamental flaw. As explained above, under the majority\u2019s construction of Proposition 64, a person may be a party to a UCL private representative action as a class member even though he or she could not sue in his or her own name. Thus, an individual whose personal effort to bring a UCL action failed because he or she could not demonstrate any personal injury or loss caused by the unfair practice may simply join, as an uninjured class member, in an identical class action brought by another named plaintiff who does meet the minimal injury-in-fact and causation requirements. Again, this cannot be what the electorate intended to achieve by enacting Proposition 64.\nThe majority insists Proposition 64 did not alter the remedies the court may order in a private representative UCL action, including injunctive relief and, of particular note, the \u201crestoration] to any person in interest [of] any money or property, real or personal, which may have been acquired by means of [the alleged] unfair competition.\u201d (\u00a7 17203, italics added.) In preProposition 64 cases, the majority points out, we held that this \u201cmay have\u201d language promotes the UCL\u2019s purpose of ensuring that wrongdoers do not profit by their misconduct, and allows the court to order restitutionary relief under the UCL without individualized proof of deception, reliance, and injury. (E.g., Bank of the West v. Superior Court (1992) 2 Cal.4th 1254, 1267 [10 Cal.Rptr.2d 538, 833 P.2d 545]; Committee on Children\u2019s Television, Inc. v. General Foods Corp. (1983) 35 Cal.3d 197, 211 [197 Cal.Rptr. 783, 673 P.2d 660]; Fletcher v. Security Pacific National Bank (1979) 23 Cal.3d 442, 449-454 [153 Cal.Rptr. 28, 591 P.2d 51] (Fletcher).) Hence, the majority reasons, even after Proposition 64, an individual who was actually injured and suffered the loss of money or property as a result of a defendant\u2019s unfair practice must still be able to sue on behalf of other persons from whom the defendant merely \u201cmay\u201d have obtained money or property by wrongful means.\nAgain, the majority\u2019s analysis is not convincing. As the ballot materials for Proposition 64 made clear, the public officials enumerated in the UCL still may bring broad-based injunctive and restitutionary actions on behalf of the public to redress and prevent unfair or deceptive business practices. Public enforcement suits are not constrained by Proposition 64\u2019s class action restrictions, and in such actions, the court may order the full range of remedies specified in the statute. But by specially providing that private UCL suitors may represent others only under the rules governing class actions, Proposition 64 withdrew from these plaintiffs any authority simply to force repayment of alleged wrongful profits on behalf of persons not truly and similarly affected by the alleged unfair practice. This change in the law was impelled by a belief that certain private litigants and their counsel had abused their authority as \u201cprivate attorneys general\u201d to \u201cshake down\u201d undeserving businesses. Accordingly, under Proposition 64\u2019s class action provisions, private UCL plaintiffs may represent only those other persons with similar UCL claims that could be brought individually.\nIn my view, therefore, the Court of Appeal properly upheld the trial court\u2019s order granting defendants\u2019 motion to decertify the UCL class approved prior to the adoption of Proposition 64. That class had been defined to include all persons who, as residents of California, \u201csmoked . . . one or more cigarettes between June 10, 1993 [and] April 23, 2001, and who were exposed to [defendants\u2019 marketing and advertising activities in California.\u201d (Italics added.)\nHowever, as the trial court and the Court of Appeal correctly concluded, Proposition 64, as applicable to this pending action, requires that class members in a UCL action, like the named plaintiffs, must have suffered actual injury and loss of money or property caused by defendants\u2019 alleged deceptive advertising and marketing campaign. In turn, both courts concluded, because the necessary element of causation created so many potential issues of individual proof, there was no predominant commonality in the proposed class. Finding this reasoning entirely sound, I would affirm the judgment of the Court of Appeal.\nChin, J., and Corrigan, J., concurred.\nThe petition of all respondents for a rehearing was denied August 12, 2009. George, C. J., did not participate therein. Baxter, J., Chin, J., and Corrigan, J., were of the opinion that the rehearing should be granted.\nAll unlabeled statutory references are to the Business and Professions Code.\n(See Voter Information Guide, Gen. Elec. (Nov. 2, 2004) official title and summary of Prop. 64 by Atty. Gen., p. 38 (Voter Information Guide) [measure \u201c[Requires private representative claims [under unfair competition statutes] to comply with procedural requirements applicable to class action lawsuits\u201d]; id., analysis of Prop. 64 by Legis. Analyst, p. 39 [\u201cmeasure requires that unfair competition lawsuits initiated by any [private] person ... on behalf of others, meet the additional requirements of class action lawsuits\u201d].)\nFor purposes of California law, Collins expressly states that \u201c *[t]he definition of a class cannot be so broad as to include individuals who are without standing to maintain the action on their own behalf. Each class member must have standing to bring the suit in his own right.\u2019 \u201d (Collins, supra, 187 Cal.App.3d 62, 73, quoting McElhaney, supra, 93 F.R.D. 875, 878.) The majority attempts to distinguish both Collins and McElhaney on grounds those cases simply present problems in certifying a class when the circumstances make it impossible, in the first instance, to ascertain if anyone was injured., and if so, who. But the purported distinction is unpersuasive. The premise upon which the \u201cascertainability\u201d conclusions in Collins and McElhaney proceed is that the class may include only those persons who have suffered injury and could thus bring suit in their own behalves. This is equally true of the cases cited by McElhaney and discussed by the majority in footnote 15 of its opinion. (Maj. opn., ante, at p. 323.)\nThe majority\u2019s error may stem, in part, from the fact that it largely misframes the issue. The majority repeatedly implies the question is whether each unnamed class member must \u201caffirmatively demonstrate\u201d (maj. opn., ante, at p. 315) or \u201cindividually show\u201d (id., at p. 318) he or she has the same \u201cstanding\u201d as the named plaintiff or plaintiffs before a class can be certified. The majority suggests this is \u201c[o]ur reading\u201d of the trial court\u2019s decertification order. (Id., at p. 318, fn. 12.) However, as the majority briefly acknowledges (ibid.), defendants make no such argument. Indeed, class action principles include no such requirement; the identification of individual class members and their entitlement to personal recovery is determined only after a class has been certified and issues common to the class have been litigated.\nAs defendants contend, and as a fair reading of the trial court\u2019s order indicates it understood, the true \u201cclass standing\u201d issue at the certification stage is simply one of class definition. As applied under Proposition 64, this means only that any class to be certified in a private UCL action must be defined or described to include only those (as yet unidentified) persons who, like the named plaintiffs, have suffered actual injury and loss of money or property as a result of the alleged unfair business practice. That limitation may lead, in turn, as it did here, to a determination that individual issues of proof ultimately would predominate over common ones, thus negating the benefits of a class proceeding.\nFletcher, the pre-Proposition 64 case most on point, did hold, in a UCL action for restitution of illegal bank overcharges on short-term commercial loans, that an overcharged plaintiff who alleged he was unaware of the illegal practice could maintain a class action on behalf of some 50,000 other overcharged customers without any need for individualized proof that each class member was aware of the overcharge. Of course, the gravamen of that action was the illegality of the overcharge itself, regardless of any associated deception. Thus, all overcharged customers had suffered loss as a result of the unfair practice, the representative plaintiff did have a typical claim, and unnamed class members could have sued in their own names. Moreover, to the extent Fletcher and its progeny broadly suggested, under the UCL\u2019s \u201cmay have acquired\u201d language, that a private UCL action, individual or representative, could force disgorgement of unfair profits without strict regard to the persons from whom those profits actually were wrongfully obtained, we had, even before Proposition 64, rejected any such notion. (See Kraus v. Trinity Management Services, Inc. (2000) 23 Cal.4th 116, 126-137 [96 Cal.Rptr.2d 485, 999 P.2d 718] [UCL authorizes not general \u201cdisgorgement,\u201d but only restitution to specific persons from whom money was obtained by means of unfair practice; hence, in representative UCL action, statute does not authorize defendant\u2019s payment of profits into fluid recovery fund]; Korea Supply Co. v. Lockheed Martin Corp. (2003) 29 Cal.4th 1134, 1143-1152 [131 Cal.Rptr.2d 29, 63 P.3d 937] [in individual UCL action, plaintiff who alleges injury or loss from unfair business practice is entitled only to restitution, not \u201cdisgorgement,\u201d and thus may not recover money not taken directly from him or her as a result of the unfair practice]; but see Massachusetts Mutual Life Ins. Co. v. Superior Court (2002) 97 Cal.App.4th 1282, 1288-1292 [119 Cal.Rptr.2d 190].)\nProposition 64 confirmed these principles. It expressly requires both (1) that a private person may sue under the UCL only if money or property was taken from him or her by means of an unfair business practice and (2) that he or she may represent others only under the rules generally pertaining to class actions. The measure thus made clear that all UCL class members must have suffered actual loss of money or property caused by the unfair practice. Where, as here, the gravamen of the complaint is fraudulent inducement, all class members in a private UCL suit must therefore meet the standard of actual reliance upon which such a claim depends. In such an action, a smoker who may have been \u201cexposed\u201d to, but was not deceived by, the alleged false advertising claims is not entitled to restitution of the money he or she paid for cigarettes.\nContrary to plaintiffs\u2019 and the majority\u2019s suggestion, a conclusion that both the named, or representative, plaintiff and the UCL class he or she seeks to represent must include only persons who satisfy Proposition 64\u2019s injury-in-fact and causation requirements does not contravene our determination in Mervyn\u2019s that the initiative measure made no change in \u201cthe substantive rales governing business and competitive conduct.\u201d (Mervyn\u2019s, supra, 39 Cal.4th 223, 232.) As Mervyn\u2019s explained, \u201c[n]othing a business might lawfully do before Proposition 64 is unlawful now, and nothing earlier forbidden is now permitted.\u201d (Ibid.) Now, as before, damages are unavailable, and \u201ca private person may recover restitution only of those profits that the defendant has unfairly obtained from such person . . . .\u201d (Ibid.) Now, as before, enumerated public officials may enforce the UCL by means of litigation seeking broad forms of injunctive and restitutionary relief. The only changes wrought by Proposition 64 are that uninjured private persons cannot seek restitution on behalf of others (Mervyn\u2019s, supra, at p. 232), and that private persons, even if themselves injured, may not represent a class of persons who suffered no injury and loss caused by the alleged unfair practice.\nPlaintiffs argue that even if UCL class members must, like the named plaintiffs themselves, be persons who actually relied on defendants\u2019 alleged disinformation campaign when deciding to buy and smoke cigarettes, the previously certified class of \u201cexposed\u201d smokers met this standard, without creating undue problems of individual proof, under the doctrine of presumed reliance. (See, e.g., Vasquez v. Superior Court (1971) 4 Cal.3d 800, 815 [94 Cal.Rptr. 796, 484 P.2d 964].) The Court of Appeal correctly rejected this contention. The duration and diversity of the alleged campaign of deception, the myriad of different statements to which various members of the putative class were exposed over time, the prominent, long-standing private and governmental countercampaign to alert the public to the dangers of smoking, and the many cultural and psychological factors that influence individual decisions to smoke all militate against a presumption that every smoker who merely saw or heard deceptive cigarette advertising and marketing statements believed and relied on those statements in deciding to consume tobacco products.",
+        "type": "concurring-in-part-and-dissenting-in-part",
+        "author": "BAXTER, J., Concurring and Dissenting."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Dougherty & Hildre, Donald E Hildre, William O. Dougherty, Frederick M. Dudek, Thomas D. Haklar; Robinson, Calcagnie & Robinson, Mark R Robinson, Sharon J. Arkin and Karen Karavatos for Plaintiffs and Appellants.",
+      "Harvey Rosenfield, Pamela M. Pressley, Todd M. Foreman; Gianelli & Morris, Timothy J. Morris and Jully C. Pae for The Foundation for Taxpayer and Consumer Rights as Amicus Curiae on behalf of Plaintiffs and Appellants.",
+      "Law Offices of Mark Peacock and Mark J. Peacock for Consumer Attorneys of California as Amicus Curiae on behalf of Plaintiffs and Appellants.",
+      "Mark Savage for Consumers Union of United States, Inc., as Amicus Curiae on behalf of Plaintiffs and Appellants.",
+      "Jackson, DeMarco Tidus & Peckenpaugh, William M. Hensley and Robert J. Stein HI for Curtis Schlessinger, Peter LoRe and California Law Institute as Amici Curiae on behalf of Plaintiffs and Appellants.",
+      "Fazio Micheletti, Jeffrey L. Fazio and Dina E. Micheletti for Public Citizen, Inc., and The Center for Auto Safety as Amici Curiae on behalf of Plaintiffs and Appellants.",
+      "Levy, Ram & Olson, Arthur D. Levy; The Sturdevant Law Firm, James C. Sturdevant and Monique Olivier for The National Consumer Law Center and National Association of Consumer Advocates as Amici Curiae on behalf of Plaintiffs and Appellants.",
+      "Munger, Tolies & Olson, Gregory P. Stone, Daniel P. Collins, Fred A. Rowley, Jr., Steven B. Weisburd, Joseph S. Klapach, Daniel B. Levin; Seltzer Caplan McMahon Vitek, Gerald L. McMahon and Daniel E. Eaton for Defendant and Respondent Philip Morris USA Inc.",
+      "Dechert, H. Joseph Escher III; Wright & L\u2019Estrange, Robert C. Wright; Jones Day and William T. Plesec for Defendants and Respondents RJ. Reynolds Tobacco Company and Brown & Williamson Holdings, Inc., formerly known as Brown & Williamson Tobacco Corporation.",
+      "Loeb & Loeb and Sharon S. Mequet for Defendant and Respondent The Council for Tobacco Research-U.S.A., Inc.",
+      "DLA Piper Rudnick Gray Cary US, DLA Piper US, William S. Boggs and Brian A. Foster for Defendant and Respondent Lorillard Tobacco Company.",
+      "Reed Smith and Mary C. Oppedahl for Defendant and Respondent The Tobacco Institute.",
+      "Lendrum Law Firm and Jeffrey R Lendrum for Defendants and Respondents Liggett Group Inc., and Liggett & Myers, Inc.",
+      "Deborah J. La Fetra for Pacific Legal Foundation as Amicus Curiae on behalf of Defendants and Respondents.",
+      "Fred J. Hiestand; Morrison & Foerster and William L. Stem for The Civil Justice Association of California, California Chamber of Commerce, California Manufacturers and Technology Association and California Bankers Association as Amici Curiae on behalf of Defendants and Respondents.",
+      "Shook, Hardy & Bacon and Kevin Underhill for Product Liability Advisory Council, Inc., as Amicus Curiae on behalf of Defendants and Respondents.",
+      "Kaye Scholer and Jeffrey S. Gordon for Pfizer Inc., as Amicus Curiae on behalf of Defendants and Respondents.",
+      "Gibson, Dunn & Cmtcher, G. Charles Nierlich, Rebecca Justice Lazaras, Gail E. Lees and Christopher Chorba for Farmers Insurance Exchange and Granite State Insurance Company as Amici Curiae on behalf of Defendants and Respondents.",
+      "Horvtiz & Levy, Lisa Perrochet and John A. Taylor, Jr., for Verisign, Inc., and AT&T Mobility LLC as Amici Curiae on behalf of Defendants and Respondents."
+    ],
+    "corrections": "",
+    "head_matter": "[No. S147345.\nMay 18, 2009.]\nIN RE TOBACCO II CASES.\nCounsel\nDougherty & Hildre, Donald E Hildre, William O. Dougherty, Frederick M. Dudek, Thomas D. Haklar; Robinson, Calcagnie & Robinson, Mark R Robinson, Sharon J. Arkin and Karen Karavatos for Plaintiffs and Appellants.\nHarvey Rosenfield, Pamela M. Pressley, Todd M. Foreman; Gianelli & Morris, Timothy J. Morris and Jully C. Pae for The Foundation for Taxpayer and Consumer Rights as Amicus Curiae on behalf of Plaintiffs and Appellants.\nLaw Offices of Mark Peacock and Mark J. Peacock for Consumer Attorneys of California as Amicus Curiae on behalf of Plaintiffs and Appellants.\nMark Savage for Consumers Union of United States, Inc., as Amicus Curiae on behalf of Plaintiffs and Appellants.\nJackson, DeMarco Tidus & Peckenpaugh, William M. Hensley and Robert J. Stein HI for Curtis Schlessinger, Peter LoRe and California Law Institute as Amici Curiae on behalf of Plaintiffs and Appellants.\nFazio Micheletti, Jeffrey L. Fazio and Dina E. Micheletti for Public Citizen, Inc., and The Center for Auto Safety as Amici Curiae on behalf of Plaintiffs and Appellants.\nLevy, Ram & Olson, Arthur D. Levy; The Sturdevant Law Firm, James C. Sturdevant and Monique Olivier for The National Consumer Law Center and National Association of Consumer Advocates as Amici Curiae on behalf of Plaintiffs and Appellants.\nMunger, Tolies & Olson, Gregory P. Stone, Daniel P. Collins, Fred A. Rowley, Jr., Steven B. Weisburd, Joseph S. Klapach, Daniel B. Levin; Seltzer Caplan McMahon Vitek, Gerald L. McMahon and Daniel E. Eaton for Defendant and Respondent Philip Morris USA Inc.\nDechert, H. Joseph Escher III; Wright & L\u2019Estrange, Robert C. Wright; Jones Day and William T. Plesec for Defendants and Respondents RJ. Reynolds Tobacco Company and Brown & Williamson Holdings, Inc., formerly known as Brown & Williamson Tobacco Corporation.\nLoeb & Loeb and Sharon S. Mequet for Defendant and Respondent The Council for Tobacco Research-U.S.A., Inc.\nDLA Piper Rudnick Gray Cary US, DLA Piper US, William S. Boggs and Brian A. Foster for Defendant and Respondent Lorillard Tobacco Company.\nReed Smith and Mary C. Oppedahl for Defendant and Respondent The Tobacco Institute.\nLendrum Law Firm and Jeffrey R Lendrum for Defendants and Respondents Liggett Group Inc., and Liggett & Myers, Inc.\nDeborah J. La Fetra for Pacific Legal Foundation as Amicus Curiae on behalf of Defendants and Respondents.\nFred J. Hiestand; Morrison & Foerster and William L. Stem for The Civil Justice Association of California, California Chamber of Commerce, California Manufacturers and Technology Association and California Bankers Association as Amici Curiae on behalf of Defendants and Respondents.\nShook, Hardy & Bacon and Kevin Underhill for Product Liability Advisory Council, Inc., as Amicus Curiae on behalf of Defendants and Respondents.\nKaye Scholer and Jeffrey S. Gordon for Pfizer Inc., as Amicus Curiae on behalf of Defendants and Respondents.\nGibson, Dunn & Cmtcher, G. Charles Nierlich, Rebecca Justice Lazaras, Gail E. Lees and Christopher Chorba for Farmers Insurance Exchange and Granite State Insurance Company as Amici Curiae on behalf of Defendants and Respondents.\nHorvtiz & Levy, Lisa Perrochet and John A. Taylor, Jr., for Verisign, Inc., and AT&T Mobility LLC as Amici Curiae on behalf of Defendants and Respondents."
+  },
+  "file_name": "0298-01",
+  "first_page_order": 336,
+  "last_page_order": 376
+}

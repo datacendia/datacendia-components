@@ -1,0 +1,59 @@
+{
+  "id": 6002275,
+  "name": "In re Disbarment of Toner",
+  "name_abbreviation": "In re Disbarment of Toner",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. D-2498",
+  "first_page": "1212",
+  "last_page": "1212",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1212"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 105,
+    "ocr_confidence": 0.54,
+    "sha256": "22120cdb5478a8c262b8f900045e16eb129119b863291e27dbfd2b045ecffba1",
+    "simhash": "1:3038d98eebba8206",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Toner."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see ante, p. 808.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2498.\nIn re Disbarment of Toner."
+  },
+  "file_name": "1212-07",
+  "first_page_order": 1234,
+  "last_page_order": 1234
+}

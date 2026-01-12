@@ -1,0 +1,59 @@
+{
+  "id": 12234511,
+  "name": "Maier v. United States",
+  "name_abbreviation": "Maier v. United States",
+  "decision_date": "2011-11-14",
+  "docket_number": "No. 11-6956",
+  "first_page": "1045",
+  "last_page": "1045",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1045"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.696,
+    "sha256": "30d8e681408039bc45b77318098708a53f948620e2275704d0a2f9fe605ba116",
+    "simhash": "1:4408bbcbac955018",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Maier v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6956.\nMaier v. United States."
+  },
+  "file_name": "1045-07",
+  "first_page_order": 1127,
+  "last_page_order": 1127
+}

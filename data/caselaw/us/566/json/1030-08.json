@@ -1,0 +1,59 @@
+{
+  "id": 12224165,
+  "name": "Mark v. United States",
+  "name_abbreviation": "Mark v. United States",
+  "decision_date": "2012-05-29",
+  "docket_number": "No. 11-10084",
+  "first_page": "1030",
+  "last_page": "1030",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1030"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.633,
+    "sha256": "a78ae8cb252b97515c6e60c799f815e477ffbe8316146be8095af919e9ddb2e7",
+    "simhash": "1:8a0aef83cebcb50c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mark v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10084.\nMark v. United States."
+  },
+  "file_name": "1030-08",
+  "first_page_order": 906,
+  "last_page_order": 906
+}

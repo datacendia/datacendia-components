@@ -1,0 +1,79 @@
+{
+  "id": 5970885,
+  "name": "Peterson v. McNeil, Secretary, Florida Department of Corrections, et al.",
+  "name_abbreviation": "Peterson v. McNeil",
+  "decision_date": "2010-10-12",
+  "docket_number": "No. 09-11051",
+  "first_page": "956",
+  "last_page": "956",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 956"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "560 U. S. 631",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3641601,
+        12454867
+      ],
+      "year": 2010,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/560/0631-01",
+        "/l-ed-2d/177/0130-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 41,
+    "char_count": 308,
+    "ocr_confidence": 0.548,
+    "pagerank": {
+      "raw": 4.688403287882615e-08,
+      "percentile": 0.17531286415807926
+    },
+    "sha256": "d33818a54c050ed017bb99be9aac86e511844f69b69d22904e4958bad6f0487c",
+    "simhash": "1:6fca78ba854aa2d8",
+    "word_count": 48
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Peterson v. McNeil, Secretary, Florida Department of Corrections, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Motion of petitioner for leave to proceed in forma pauperis granted. Certiorari granted, judgment vacated, and case remanded for farther consideration in light of Holland v. Florida, 560 U. S. 631 (2010).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11051.\nPeterson v. McNeil, Secretary, Florida Department of Corrections, et al."
+  },
+  "file_name": "0956-03",
+  "first_page_order": 978,
+  "last_page_order": 978
+}

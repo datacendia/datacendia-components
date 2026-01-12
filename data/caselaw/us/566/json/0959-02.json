@@ -1,0 +1,98 @@
+{
+  "id": 12209403,
+  "name": "In re Disbarment of Elliott",
+  "name_abbreviation": "In re Disbarment of Elliott",
+  "decision_date": "2012-04-23",
+  "docket_number": "No. D-2620",
+  "first_page": "959",
+  "last_page": "959",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 959"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "565 U. S. 1107",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12446014,
+        12238787,
+        12238788,
+        12238790,
+        12238793,
+        12238797,
+        12238802,
+        12446009,
+        12446010,
+        12446011,
+        12446012,
+        12446013,
+        12238782,
+        12446015
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/181/0805-02",
+        "/us/565/1107-02",
+        "/us/565/1107-03",
+        "/us/565/1107-04",
+        "/us/565/1107-05",
+        "/us/565/1107-06",
+        "/us/565/1107-07",
+        "/l-ed-2d/181/0804-04",
+        "/l-ed-2d/181/0804-05",
+        "/l-ed-2d/181/0804-06",
+        "/l-ed-2d/181/0804-07",
+        "/l-ed-2d/181/0805-01",
+        "/us/565/1107-01",
+        "/l-ed-2d/181/0805-03"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 109,
+    "ocr_confidence": 0.567,
+    "sha256": "d0e437d6569d8ea1c4b08ef703e256f8a225464bd816eb4913189bef610f4ee3",
+    "simhash": "1:2b3d1982efc212c6",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:45:15.365324+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Elliott."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see 565 U. S. 1107.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2620.\nIn re Disbarment of Elliott."
+  },
+  "file_name": "0959-02",
+  "first_page_order": 835,
+  "last_page_order": 835
+}

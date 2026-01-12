@@ -1,0 +1,982 @@
+{
+  "id": 3159014,
+  "name": "THE PEOPLE, Plaintiff and Appellant, v. MANUEL ALEX TRUJILLO, Defendant and Respondent",
+  "name_abbreviation": "People v. Trujillo",
+  "decision_date": "2006-12-11",
+  "docket_number": "No. S130080",
+  "first_page": "165",
+  "last_page": "188",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "40 Cal. 4th 165"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal.",
+    "id": 9021,
+    "name": "Supreme Court of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "950 P.2d 85",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "71 Cal.Rptr.2d 241",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "17 Cal.4th 448",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1550660
+      ],
+      "pin_cites": [
+        {
+          "page": "457"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/17/0448-01"
+      ]
+    },
+    {
+      "cite": "86 Cal.Rptr.2d 134",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "72 Cal.App.4th 1520",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        872692
+      ],
+      "pin_cites": [
+        {
+          "page": "1531"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/72/1520-01"
+      ]
+    },
+    {
+      "cite": "270 Cal.Rptr. 266",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "221 Cal.App.3d 56",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2343376
+      ],
+      "pin_cites": [
+        {
+          "page": "60"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/221/0056-01"
+      ]
+    },
+    {
+      "cite": "87 P.3d 27",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1990,
+      "opinion_index": 0
+    },
+    {
+      "cite": "11 Cal.Rptr.3d 723",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1990,
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Cal.4th 878",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        801083
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "882"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/32/0878-01"
+      ]
+    },
+    {
+      "cite": "519 P.2d 604",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "112 Cal.Rptr. 556",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "10 Cal.3d 868",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2299834
+      ],
+      "pin_cites": [
+        {
+          "page": "873"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/10/0868-01"
+      ]
+    },
+    {
+      "cite": "532 U.S. 162",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9300919
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "173"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/532/0162-01"
+      ]
+    },
+    {
+      "cite": "133 P.3d 1054",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.Rptr.3d 899",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 Cal.4th 682",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3853314
+      ],
+      "pin_cites": [
+        {
+          "page": "691"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/38/0682-01"
+      ]
+    },
+    {
+      "cite": "85 Cal.Rptr.2d 474",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "72 Cal.App.4th 761",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        872762
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "796"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/72/0761-01"
+      ]
+    },
+    {
+      "cite": "60 Cal.Rptr.2d 737",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Cal.App.4th 670",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        452987
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "674"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/52/0670-01"
+      ]
+    },
+    {
+      "cite": "914 P.2d 184",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Cal.Rptr.2d 106",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "13 Cal.4th 217",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1965962
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "230"
+        },
+        {
+          "page": "230"
+        },
+        {
+          "page": "223"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/13/0217-01"
+      ]
+    },
+    {
+      "cite": "748 P.2d 1150",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "243 Cal.Rptr. 688",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.3d 343",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4537076
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "355"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/44/0343-01"
+      ]
+    },
+    {
+      "cite": "724 P.2d 1154",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "230 Cal.Rptr. 129",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.3d 627",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4464302
+      ],
+      "pin_cites": [
+        {
+          "page": "629"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/42/0627-01"
+      ]
+    },
+    {
+      "cite": "694 P.2d 736",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "210 Cal.Rptr. 623",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Cal.3d 826",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1949121
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "831"
+        },
+        {
+          "page": "832"
+        },
+        {
+          "page": "832"
+        },
+        {
+          "page": "836"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/37/0826-01"
+      ]
+    },
+    {
+      "cite": "524 U.S. 721",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11183048
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "734"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/524/0721-01"
+      ]
+    },
+    {
+      "cite": "941 P.2d 1121",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "66 Cal.Rptr.2d 853",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 Cal.4th 826",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1217902
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "831"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/16/0826-01"
+      ]
+    },
+    {
+      "cite": "241 Cal.Rptr. 461",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "195 Cal.App.3d 1235",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2221693
+      ],
+      "pin_cites": [
+        {
+          "page": "1237-38"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/195/1235-01"
+      ]
+    },
+    {
+      "cite": "972 P.2d 151",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "82 Cal.Rptr.2d 816",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 Cal.4th 85",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        829728
+      ],
+      "pin_cites": [
+        {
+          "page": "89-90"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/20/0085-01"
+      ]
+    },
+    {
+      "cite": "110 P.3d 1239",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.Rptr.3d 29",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.4th 817",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        873221
+      ],
+      "pin_cites": [
+        {
+          "page": "822-823"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/35/0817-01"
+      ]
+    },
+    {
+      "cite": "62 Cal.Rptr.2d 220",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "53 Cal.App.4th 1333",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "pin_cites": [
+        {
+          "page": "1338"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "750 P.2d 741",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "244 Cal.Rptr. 867",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "44 Cal.3d 713",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4537465
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-3d/44/0713-01"
+      ]
+    },
+    {
+      "cite": "45 Cal.Rptr.2d 633",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "38 Cal.App.4th 1557",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4898806
+      ],
+      "pin_cites": [
+        {
+          "page": "1564-1565"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-app-4th/38/1557-01"
+      ]
+    },
+    {
+      "cite": "136 Cal.Rptr. 496",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "67 Cal.App.3d 173",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2029301
+      ],
+      "pin_cites": [
+        {
+          "page": "181-182"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-app-3d/67/0173-01"
+      ]
+    },
+    {
+      "cite": "285 Cal.Rptr. 213",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "233 Cal.App.3d 1347",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4388785
+      ],
+      "pin_cites": [
+        {
+          "page": "p. 1351"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-app-3d/233/0783-01"
+      ]
+    },
+    {
+      "cite": "264 Cal.Rptr. 662",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1991,
+      "opinion_index": 1
+    },
+    {
+      "cite": "216 Cal.App.3d 233",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4413027
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "237"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-app-3d/216/0233-01"
+      ]
+    },
+    {
+      "cite": "950 P.2d 85",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "71 Cal.Rptr.2d 241",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "17 Cal.4th 448",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1550660
+      ],
+      "weight": 2,
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-4th/17/0448-01"
+      ]
+    },
+    {
+      "cite": "86 Cal.Rptr.2d 134",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "72 Cal.App.4th 1520",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        872692
+      ],
+      "pin_cites": [
+        {
+          "page": "1527"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-app-4th/72/1520-01"
+      ]
+    },
+    {
+      "cite": "270 Cal.Rptr. 266",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "221 Cal.App.3d 56",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2343376
+      ],
+      "pin_cites": [
+        {
+          "page": "58-60"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-app-3d/221/0056-01"
+      ]
+    },
+    {
+      "cite": "87 P.3d 27",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1990,
+      "opinion_index": 1
+    },
+    {
+      "cite": "11 Cal.Rptr.3d 723",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1990,
+      "opinion_index": 1
+    },
+    {
+      "cite": "32 Cal.4th 878",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        801083
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "895-898"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-4th/32/0878-01"
+      ]
+    },
+    {
+      "cite": "519 P.2d 604",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "112 Cal.Rptr. 556",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "10 Cal.3d 868",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2299834
+      ],
+      "pin_cites": [
+        {
+          "page": "873"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-3d/10/0868-01"
+      ]
+    },
+    {
+      "cite": "133 P.3d 1054",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "42 Cal.Rptr.3d 899",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "38 Cal.4th 682",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3853314
+      ],
+      "pin_cites": [
+        {
+          "page": "691"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-4th/38/0682-01"
+      ]
+    },
+    {
+      "cite": "60 Cal.Rptr.2d 737",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "52 Cal.App.4th 670",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        452987
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "680"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-app-4th/52/0670-01"
+      ]
+    },
+    {
+      "cite": "914 P.2d 184",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "52 Cal.Rptr.2d 106",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "13 Cal.4th 217",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1965962
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-4th/13/0217-01"
+      ]
+    },
+    {
+      "cite": "748 P.2d 1150",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "243 Cal.Rptr. 688",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "44 Cal.3d 343",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4537076
+      ],
+      "pin_cites": [
+        {
+          "page": "355"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-3d/44/0343-01"
+      ]
+    },
+    {
+      "cite": "524 U.S. 721",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11183048
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "724"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/524/0721-01"
+      ]
+    },
+    {
+      "cite": "941 P.2d 1121",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "66 Cal.Rptr.2d 853",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 1
+    },
+    {
+      "cite": "16 Cal.4th 826",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1217902
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/cal-4th/16/0826-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1410,
+    "char_count": 56344,
+    "ocr_confidence": 0.912,
+    "pagerank": {
+      "raw": 2.8058361357422525e-07,
+      "percentile": 0.8371851022974699
+    },
+    "sha256": "bc43fb523a4bb57019819e7b5efb1dd6b081b4bafedd005c5cf5b5c2e882784e",
+    "simhash": "1:db2bc7076dca2c48",
+    "word_count": 9001
+  },
+  "last_updated": "2024-02-27T23:38:15.410825+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Appellant, v. MANUEL ALEX TRUJILLO, Defendant and Respondent."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nMORENO, J.\nFollowing a jury trial at which defendant was convicted of a felony, the court found an allegation that defendant had suffered a prior conviction for a violent felony within the meaning of the \u201cThree Strikes\u201d law \u201cnot to be a strike\u201d and sentenced defendant to prison accordingly. Asserting that the trial court erred in finding that the alleged prior conviction was not a strike, the People appeal, relying upon Penal Code section 1238, subdivision (a), which permits an appeal by the People from \u201c[a]n order setting aside all or any portion of the indictment\u201d (id., subd. (a)(1)), from \u201c[a]n order or judgment dismissing or otherwise terminating all or any portion of the action\u201d (id., subd. (a)(8)), and from \u201c[t]he imposition of an unlawful sentence\u201d (id., subd. (a)(10)). The Court of Appeal ruled that the People could appeal under section 1238, subdivision (a)(10), reversed the trial court\u2019s order that the alleged prior conviction was not a strike, and remanded the case to the trial court for a retrial of the prior conviction allegation.\nWe agree with the Court of Appeal that the People may appeal from the judgment pursuant to section 1238, subdivision (a)(10) on the ground that defendant\u2019s sentence is unlawful because the trial court erred in ruling that the alleged prior conviction was not a strike. Accordingly, we need not, and do not, address whether this appeal also is authorized by subdivision (a)(1) and subdivision (a)(8) of section 1238. We disagree, however, with the Court of Appeal\u2019s conclusion that the trial court erred in ruling that the alleged prior conviction was not a strike. Thus, we affirm in part and reverse in part the judgment of the Court of Appeal.\nFacts\nAn information was filed on March 7, 2002, charging defendant Manuel Alex Trujillo with robbery in the second degree in violation of section 211, and assault by means of force likely to produce great bodily injury in violation of section 245, subdivision (a)(1). The information further alleged that defendant had personally inflicted great bodily injury in committing the charged crimes in violation of section 12022.7, subdivision (a). The information alleged that defendant had suffered three prior convictions, two of which were alleged to be prior \u201cstrike\u201d convictions for serious or violent felonies within the meaning of the Three Strikes law (\u00a7 667, subds. (b)-(i)).\nPrior to trial, the court bifurcated the determination of the truth of the prior conviction allegations from the determination of defendant\u2019s guilt of the charged crimes, and defendant later waived his right to a jury determination of the truth of the prior conviction allegations. The jury subsequently found defendant guilty of assault by means of force likely to produce great bodily injury and not guilty of robbery. The jury found not true the allegation that defendant had inflicted great bodily injury.\nThe court held a bench trial on the prior conviction allegations. The court admitted into evidence, without objection by defendant, certified copies of records showing that defendant previously had been convicted of inflicting corporal injury in violation of section 273.5, subdivision (a) in 1991 and of assault with a deadly weapon in violation of section 245, subdivision (a)(1) in 1989, and had been committed to the California Youth Authority for receiving stolen property in violation of section 496 in 1987.\nThe prosecutor argued that defendant\u2019s prior convictions for inflicting corporal injury and assault with a deadly weapon were both serious felonies within the meaning of section 1192.7, and thus constituted strikes under the Three Strikes law. The prosecutor acknowledged that neither offense was specifically listed as a serious felony in subdivision (c) of section 1192.7, but argued that both offenses came within subdivision (c)(23), which defines as a serious felony, \u201cany felony in which the defendant personally used a dangerous or deadly weapon.\u201d\nDefense counsel conceded that defendant\u2019s prior conviction for assault with a deadly weapon \u201cis clearly a strike\u201d because the information in that case alleged that defendant committed the assault \u201cwith a deadly weapon, to wit, a knife.\u201d The parties disagreed, however, over whether defendant\u2019s prior conviction for inflicting corporal injury was a strike.\nThe documents submitted by the People to prove the prior conviction for inflicting corporal injury reflected that a felony complaint was filed on August 7, 1991, charging defendant with inflicting corporal injury, with a further allegation under section 12022, subdivision (b) that defendant personally used a deadly and dangerous weapon in the commission of the offense. A second count charged defendant with assault with a deadly weapon, \u201ctwo wit, a knife.\u201d A reporter\u2019s transcript of proceedings on September 5, 1991, reflects that defendant pled guilty pursuant to a plea bargain to inflicting corporal injury. The court agreed to impose a sentence of two years in prison, adding: \u201cThe D.A.\u2019s office has agreed to dismiss count 2, the assault with a deadly weapon. They\u2019ve also agreed to strike the allegation that you used a knife in the commission of the felony.\u201d A probation report prepared prior to sentencing reflects that defendant was interviewed on September 16, 1991, and admitted stabbing the victim with a knife during an argument, stating: \u201cI stuck her with the knife.\u201d\nThe prosecutor argued that the prior conviction for inflicting corporal injury was a serious felony based upon defendant\u2019s statement recounted in the probation report that he had personally used a knife. Defense counsel argued the prior conviction was not a serious felony because, regardless of the probation report, defendant \u201cwas convicted merely of [section] 273.5, and the use allegation that would have elevated it into a strike or into a serious or violent crime at the time was stricken. Therefore I think whatever he said in the probation report is not relevant and not something the Court can look at because it undermines the conviction itself.\u201d\nThe trial court found \u201cthat the defendant did, in fact, suffer all three prior felony convictions that are alleged in the Information,\u201d and found that defendant\u2019s prior conviction for assault with a deadly weapon was a strike, but agreed with defense counsel that defendant\u2019s prior conviction for inflicting corporal injury was not a strike because the allegation that defendant had personally used a deadly and dangerous weapon in the commission of the offense had been stricken. The court observed that the prosecutor in the prior case \u201csettled the case with the understanding the knife allegation would not be used. It went away. The defendant relied on that.\u201d Accordingly, the trial court found that defendant\u2019s prior conviction for inflicting corporal injury \u201cis not a strike.\u201d The court further found true the allegation that defendant had served a prior prison term based upon his prior conviction for inflicting corporal injury within the meaning of section 667.5, subdivision (b).\nOn March 7, 2003, defendant was sentenced to a term of seven years in prison, consisting of the midterm of three years for assault by means of force likely to produce great bodily injury \u201cdoubled because of the strike,\u201d plus one year for the prior prison term. The People filed a notice of appeal on April 30, 2003.\nThe Court of Appeal ruled that the People could appeal pursuant to section 1238, subdivision (a)(10), which permits the People to appeal \u201c[t]he imposition of an unlawful sentence,\u201d and held that the trial court erred in ruling that defendant\u2019s prior conviction for inflicting corporal injury was not a strike. The Court of Appeal concluded that the striking of the allegation that defendant had personally used a deadly or dangerous weapon as part of the plea bargain in the prior proceeding did not bar the use of the underlying facts of the prior conviction in the present proceedings. We granted review.\nDiscussion\nPeople\u2019s Right to Appeal\n\u201cThe prosecution in a criminal case has no right to appeal except as provided by statute. [Citation.] \u2018The Legislature has determined that except under certain limited circumstances the People shall have no right of appeal in criminal cases. [Citations.] . . . [f] The restriction on the People\u2019s right to appeal ... is a substantive limitation on review of trial court determinations in criminal trials.\u2019 [Citation.] \u2018Appellate review at the request of the People necessarily imposes substantial burdens on an accused, and the extent to which such burdens should be imposed to review claimed errors involves a delicate balancing of the competing considerations of preventing harassment of the accused as against correcting possible errors.\u2019 [Citation.] Courts must respect the limits on review imposed by the Legislature \u2018although the People may thereby suffer a wrong without a remedy.\u2019 [Citation.]\u201d (People v. Williams (2005) 35 Cal.4th 817, 822-823 [28 Cal.Rptr.3d 29, 110 P.3d 1239].)\nSection 1238 \u201cgoverns the People\u2019s appeals from orders or judgments of the superior courts.\u201d (People v. Douglas (1999) 20 Cal.4th 85, 89-90 [82 Cal.Rptr.2d 816, 972 P.2d 151].) Subdivision (a)(10) of section 1238 provides that the People may appeal from \u201c[t]he imposition of an unlawful sentence,\u201d and defines an \u201cunlawful sentence\u201d as \u201cthe imposition of a sentence not authorized by law or the imposition of a sentence based upon an unlawful order of the court which strikes or otherwise modifies the effect of an enhancement or prior conviction.\u201d\nThe People assert that the sentence in the present case is unlawful as defined in section 1238, subdivision (a)(10) because it is \u201cbased upon an unlawful order of the court which . . . modifies the effect of a[] . . . prior conviction.\u201d Specifically, the People argue that the sentence is based upon the trial court\u2019s allegedly erroneous order that defendant\u2019s prior conviction for inflicting corporal injury is not a strike because the allegation in that case that defendant had personally used a deadly and dangerous weapon in the commission of the offense had been stricken as part of a plea bargain. This allegedly \u201cunlawful order\u201d modified the effect of defendant\u2019s prior conviction for inflicting corporal injury upon a spouse by ruling that it is not a serious felony.\nThe prosecutor alleged that defendant had suffered two prior convictions that were serious felonies within the meaning of section 1192.7. Section 667, subd. (e)(2)(A), the Three Strikes law, requires that a defendant who is convicted of a felony and has suffered two or more prior convictions for serious felonies be sentenced to an indeterminate term of life imprisonment. As the prosecutor acknowledged in the trial court, inflicting corporal injury is not one of the offenses specifically listed in section 1192.7, but the prosecutor relied upon subdivision (c)(23) of section 1192.7, which includes within the definition of a serious felony \u201cany felony in which the defendant personally used a dangerous or deadly weapon.\u201d\nThe trial court ruled that defendant\u2019s prior conviction for inflicting corporal injury was not a strike, concluding that in determining whether defendant had personally used a dangerous or deadly weapon in committing the prior conviction, it could not consider defendant\u2019s statement reflected in the probation report that he had stabbed the victim, because the allegation that defendant had personally used a dangerous or deadly weapon in committing the prior offense had been stricken as part of a plea bargain. If this ruling is \u201can unlawful order . . . which strikes or otherwise modifies the effect of [a] . . . prior conviction\u201d within the meaning of subdivision (a)(10) of section 1238, as the People contend it is, then defendant\u2019s resulting sentence is unlawful within the meaning of subdivision (a)(10) of section 1238 and the People may appeal. As we observed in People v. Douglas, supra, 20 Cal.4th at pages 94-95, the plain language of subdivision (a)(10) permits the People to appeal \u201csentences based on assertedly unlawful underlying orders,\u201d and \u201cthe underlying orders may be reviewed on appeal.\u201d (See People v. Henderson (1987) 195 Cal.App.3d 1235, 1237-38 [241 Cal.Rptr. 461].) Accordingly, the People in the present case may appeal the imposition of the sentence in order to challenge the trial court\u2019s ruling that defendant\u2019s prior conviction for inflicting corporal injury is not a strike.\nDefendant argues that the People may not appeal from a finding that a prior conviction is not true, but his argument misconstrues the circumstances of this case. The People did not appeal from an order finding a prior conviction allegation not true. Rather, the People properly appealed from an allegedly unlawful sentence based upon an allegedly unlawful ruling that a prior conviction was not a strike. As part of such an appeal from an allegedly unlawful sentence, the Court of Appeal may review the trial court\u2019s underlying ruling on the prior conviction allegation.\nDefendant argues, for the first time in this court, that we should hold that permitting the People to appeal the sentence in this case \u201cwould raise serious constitutional doubts.\u201d Defendant acknowledges that such a holding would effectively overturn our decision in People v. Monge (1997) 16 Cal.4th 826 [66 Cal.Rptr.2d 853, 941 P.2d 1121] (Monge I) and disregard the decision of the United States Supreme Court in Monge v. California (1998) 524 U.S. 721 [141 L.Ed.2d 615, 118 S.Ct. 2246] (Monge II). We decline to do so.\nIn Monge I, the Court of Appeal had reversed the trial court\u2019s true finding on a prior serious felony allegation, and ruled that retrying the allegation would subject the defendant to double jeopardy. We granted review to decide whether the state and federal double jeopardy clauses \u201capply to a proceeding, in a noncapital case, to determine the truth of a prior serious felony allegation.\u201d (Monge I, supra, 16 Cal.4th 826, 831 (lead opn. of Chin, J.) The lead opinion in Monge I stated that the state and federal prohibitions against double jeopardy do not apply to proceedings in noncapital cases to determine the truth of prior conviction allegations. (Id. at p. 829.) Justice Brown concurred in this result, creating a majority. (Id. at p. 847 (conc. opn. of Brown, J.).)\nThe United States Supreme Court granted certiorari and, in Monge II, affirmed the judgment, holding that \u201cthe Double Jeopardy Clause does not preclude retrial on a prior conviction allegation in the noncapital sentencing context.\u201d (Monge II, supra, 524 U.S. 721, 734.) The high court observed: \u201cWhere noncapital sentencing proceedings contain trial-like protections, that is a matter of legislative grace, not constitutional command, Many States have chosen to implement procedural safeguards to protect defendants who may face dramatic increases in their sentences as a result of recidivism enhancements. We do not believe that because the States have done so, we are compelled to extend the double jeopardy bar. Indeed, were we to apply double jeopardy here, we might create disincentives that would diminish these important procedural protections.\u201d (Ibid.) We are not at liberty to, nor are we inclined to, disregard the holding of the United State Supreme Court in Monge II. Nor are we persuaded that we should reconsider Monge I\u2019s conclusion that the California Constitution\u2019s double jeopardy clause does not preclude retrial on a prior conviction allegation in a noncapital sentencing context.\nAccordingly, we agree with the Court of Appeal that the People may appeal the imposition of the sentence under section 1238, subdivision (a)(10). The People contend that the sentence in the present case is unlawful because it is based upon the trial court\u2019s allegedly erroneous ruling that the striking of an allegation in the prior case that defendant had personally used a dangerous or deadly weapon precluded the trial court in the present case from relying on defendant\u2019s admission that he had stabbed the victim. Thus, the People may appeal under section 1238, subdivision (a)(10) on the ground that the resulting sentence was unlawful.\nThe Prior Conviction Was Not a Strike\nAlthough the Court of Appeal correctly concluded that the People could appeal the imposition of the sentence, it erred in reversing the trial court\u2019s ruling that defendant\u2019s prior conviction for inflicting corporal injury was not a strike. The prosecutor in the present case submitted the probation officer\u2019s report, which included defendant\u2019s admission that he had stabbed the victim with a knife. The trial court ruled, however, that it could not consider defendant\u2019s admission, because the allegation that defendant had personally used a dangerous or deadly weapon in committing the prior offense had been stricken as part of a plea bargain, reasoning that the prior case had been settled \u201cwith the understanding the knife allegation would not be used. It went away. The defendant relied on that.\u201d The Court of Appeal reversed, reasoning that the plea bargain in the prior case that, in part, struck the allegation that defendant had personally used a deadly weapon did not \u201cbar the use of the facts underlying the stricken enhancement in sentencing on a subsequent conviction\u201d and concluded that \u201cthe trial court\u2019s refusal to consider defendant\u2019s statement [reflected in the probation report] constituted judicial error and deprived the prosecution of a full and fair opportunity to prove that the prior offense was a \u2018serious\u2019 felony.\u201d We disagree. Although we employ different reasoning than that utilized by the trial court, we conclude that the trial court correctly declined to consider the statement attributed to defendant in the probation officer\u2019s report in determining whether defendant had suffered a prior conviction for a serious felony as defined in section 1192.7, subdivision (c)(23).\nAs noted above, the information alleged that defendant\u2019s prior conviction for inflicting corporal injury in violation of section 273.5, subdivision (a) was a serious felony within the meaning of the Three Strikes law (\u00a7 667, subds. (b)-(i)), which, among other provisions, mandates an enhanced sentence if a defendant has one or more prior felony convictions for a serious felony as defined in section 1192.7, subdivision (c). The list of serious felonies in section 1192.7, however, is not limited \u201cto specific, discrete offenses.\u201d (People v. Jackson (1985) 37 Cal.3d 826, 831 [210 Cal.Rptr. 623, 694 P.2d 736].) For instance, section 1192.7, subdivision (c)(23), upon which the prosecution relied here, defines as a serious felony \u201cany felony in which the defendant personally used a dangerous or deadly weapon.\u201d We have construed such provisions \u201cas referring not to specific criminal offenses, but to the criminal conduct described therein, and applicable whenever the prosecution pleads and proves that conduct.\u201d (People v. Jackson, supra, 37 Cal.3d 826, 832.)\nIn Jackson, the defendant entered into a plea bargain under which he admitted that he had suffered a prior conviction for a residential burglary. At the time, former section 1192.7, subdivision (18) defined burglary of a residence as a serious felony. (People v. Jackson, supra, 37 Cal.3d 826, 832; Prop. 8, \u00a7 7, as approved by voters, Primary Elec. (June 8, 1982).) We gave effect to the defendant\u2019s admission that his prior second degree burglary conviction \u201cinvolved burglary of a residence,\u201d but warned that, in general, \u201cproof of the residential character of the burglary encounters obstacles.\u201d (People v. Jackson, supra, 37 Cal.3d 826, 836, fn. omitted.) We observed: \u201cThe record of a conviction for second degree burglary would not prove entry into a residence, even if the pleadings included superfluous allegations to that effect. [Citation.] Moreover, the People could not go behind that record to prove a fact which was not then an element of the crime. [Citations.] A contrary holding, permitting the People to litigate the circumstances of a crime committed years in the past, would raise serious problems akin to double jeopardy and denial of speedy trial.\u201d (Id. at p. 836.)\nIn People v. Alfaro (1986) 42 Cal.3d 627, 629 [230 Cal.Rptr. 129, 724 P.2d 1154], we reaffirmed our statement in Jackson that \u201cin proving a prior conviction was a \u2018serious felony\u2019 . . . , proof was limited to matters necessarily established by the prior conviction.\u201d The prosecution had sought to prove that the defendant in Alfaro had suffered a prior conviction in 1974 for the serious felony of residential burglary by introducing a copy of the information in the prior conviction, which alleged that the defendant \u201c \u2018entered the house of Shelby Gilbert\u2019 \u201d and a minute order showing the defendant had pled guilty to the charge \u201c \u2018as set forth in the Information.\u2019 \u201d (Id. at pp. 630, 631.) We held that \u201cthe judgment in the 1974 burglary proceeding did not establish that defendant entered a residence. While the information so alleged, such entry was not an element of the crime. Defendant\u2019s guilty plea constituted \u2018a judicial admission of every element of the offense charged\u2019 [citation], but only that; it did not admit other allegations in the pleadings. [Citation.]\u201d (Id. at p. 636.) We observed: \u201cThe virtue of this analysis is that proof of the prior conviction is limited to matters which fall within the doctrine of collateral estoppel and thus cannot be controverted. Proof is simple and conclusive. The contrary view . . .\u2014that residential entry is conduct which can be proved like any other controverted question of fact\u2014creates obvious difficulties. The prosecution could then introduce documentary and testimonial evidence to show that the prior burglary involved a residence; defendant could introduce contrary evidence or argue that the prosecution\u2019s evidence does not prove the point beyond a reasonable doubt. The net result would resemble retrial of the original burglary charge.\u201d (Id. at pp. 634-635.)\nThe holding in Alfaro that in determining the truth of an allegation that a defendant had been convicted of a serious felony the trier or fact \u201cwas limited to matters necessarily established by the prior conviction\u201d was short lived. (People v. Alfaro, supra, 42 Cal.3d at p. 629.) We reconsidered the issue little more than a year later in People v. Guerrero (1988) 44 Cal.3d 343 [243 Cal.Rptr. 688, 748 P.2d 1150], overruled our holding in Alfaro, and held instead that \u201cthe trier of fact may look to the entire record of the conviction.\u201d (People v. Guerrero, supra, 44 Cal.3d at p. 345.)\nIt was alleged in People v. Guerrero that the defendant had suffered two prior convictions for residential burglary, which is a serious felony. The truth of the prior conviction allegations was tried to the court, which reviewed \u201cthe record of each conviction, which included an accusatory pleading charging a residential burglary and defendant\u2019s plea of guilty or nolo contendere\u201d and found the allegations true. (People v. Guerrero, supra, 44 Cal.3d at p. 345.) In holding that the trial court \u201cacted properly\u201d in reviewing the accusatory pleading to determine that the burglary of which the defendant was convicted was a residential burglary and thus a serious felony, we held that in determining the truth of a prior conviction allegation, the trier of fact may \u201clook beyond the judgment to the entire record of the conviction\u201d (id. at p. 356) \u201cbut no further\" (id. at p. 355). This rule was fair, we observed, because \u201cit effectively bars the prosecution from relitigating the circumstances of a crime committed years ago and thereby threatening the defendant with harm akin to double jeopardy and denial of speedy trial.\u201d (Ibid.) We expressly declined to address, however, \u201csuch questions as what items in the record of conviction are admissible and for what purpose.\u201d (Id. at p. 356, fn. 1.) We did not decide in Guerrero, therefore, whether the trier of fact could consider statements attributed to the defendant in a probation report in determining the nature of the crime of which the defendant was convicted.\nIn People v. Reed (1996) 13 Cal.4th 217, 230 [52 Cal.Rptr.2d 106, 914 P.2d 184], we held that a reporter\u2019s transcript of a preliminary hearing is a part of the record of a prior conviction within the meaning of the rule announced in Guerrero. We recognized that the term \u201crecord of conviction\u201d could be \u201cused technically, as equivalent to the record on appeal [citation], or more narrowly, as referring only to those record documents reliably reflecting the facts of the offense for which the defendant was convicted.\u201d (Id. at p. 223.) We held that a reporter\u2019s transcript of a preliminary hearing \u201cfalls within even the narrower definition because the procedural protections afforded the defendant during a preliminary hearing tend to ensure the reliability of such evidence. Those protections include the right to confront and cross-examine witnesses and the requirement those witnesses testify under oath, coupled with the accuracy afforded by the court reporter\u2019s verbatim reporting of the proceedings.\u201d (Ibid.)\nWe expressly declined to decide in Reed whether an excerpt from a probation officer\u2019s report is part of the record of conviction, stating: \u201cWhether the probation officer\u2019s report also falls within the more narrow definition of record of conviction presents a closer question.\u201d (People v. Reed, supra, 13 Cal.4th 217, 230.) We declined to reach that question because we concluded that the excerpt from the probation officer\u2019s report in that case was multiple hearsay that did not fall within a recognized exception to the hearsay rule. (Ibid.)\nThe Court of Appeal in People v. Monreal (1997) 52 Cal.App.4th 670 [60 Cal.Rptr.2d 737] reached the issue we left open in Reed and held that a probation officer\u2019s report is part of the record of a prior conviction, and a defendant\u2019s admission reflected in such a report may be considered in determining the nature of a prior conviction. We disagree, however, with the holding in Monreal.\nThe defendant in Monreal had suffered a prior conviction for assault with a deadly weapon or by means of force likely to produce great bodily injury in violation of section 245, subdivision (a)(1). The prosecution sought to prove that this prior conviction was for a serious felony because the defendant \u201cpersonally used a dangerous or deadly weapon\u201d within the meaning of section 1192.7, subdivision (c)(23). The People proffered the abstract of judgment, which reflected that the defendant had been convicted after a jury trial of \u201cassault with a knife.\u201d (People v. Monreal, supra, 52 Cal.App.4th 670, 674.) In order to establish that the defendant had personally used the knife, as required by section 1192.7, subdivision (c)(23), the People also produced the probation officer\u2019s report, which stated that the defendant told the probation officer that he had stabbed the victim with a knife.\nThe Court of Appeal in Monreal concluded that the statement was admissible even though it was double hearsay because it fell within the exceptions for an admission by a party (Evid. Code, \u00a7 1220) and a record by a public employee (Evid. Code, \u00a7 1280). The court in Monreal then considered the issue we left open in Reed of whether the probation officer\u2019s report is part of the \u201crecord of conviction,\u201d noting that our decision in Reed had \u201csuggested two possible meanings for \u2018record of conviction,\u2019 either \u2018the record on appeal... or more narrowly,. .. only . . . those record documents reliably reflecting the facts of the offense for which the defendant was convicted ....\u2019\u201d (People v. Monreal, supra, 52 Cal.4th at p. 675.) The court in Monreal concluded the probation report was part of the record of the conviction under either definition. The probation report certainly was part of the record on appeal, and the court in Monreal concluded the report was sufficiently reliable, even though it recognized \u201cthat the procedural protections which support the reliability of a preliminary hearing transcript are not applicable to a probation officer\u2019s report of a defendant\u2019s admissions.\u201d (Id. at p. 679.) The Monreal decision thus concluded that the trial court properly considered the defendant\u2019s statement in the probation officer\u2019s report in concluding that the defendant\u2019s prior conviction was for a serious felony because he personally used a deadly or dangerous weapon. (See also People v. Mobley (1999) 72 Cal.App.4th 761, 796 [85 Cal.Rptr.2d 474] [finding Monreal\u2019s \u201creasoning and holdings dispositive\u201d].)\nWe reach a different conclusion than the court in Monreal, but for reasons not considered in that decision; we conclude that a defendant\u2019s statements, made after a defendant\u2019s plea of guilty has been accepted, that appear in a probation officer\u2019s report prepared after the guilty plea has been accepted are not part of the record of the prior conviction, because such statements do not \u201creflecto the facts of the offense for which the defendant was convicted.\u201d (People v. Reed, supra, 13 Cal.4th at p. 223.) We recognized in People v. McGee (2006) 38 Cal.4th 682, 691 [42 Cal.Rptr.3d 899, 133 P.3d 1054], that in determining whether a prior conviction is for a serious felony \u201c \u2018the nature of the conviction is at issue.\u2019 \u201d We explained that \u201cthe relevant inquiry in deciding whether a particular prior conviction qualifies as a serious felony for California sentencing purposes is limited to an examination of the record of the prior criminal proceeding to determine the nature or basis of the crime of which the defendant was convicted.\u201d (Ibid., italics added.)\nA statement by the defendant recounted in a postconviction probation officer\u2019s report does not necessarily reflect the nature of the crime of which the defendant was convicted. In the present case, for example, the prosecution did not attempt to prove that defendant used a knife and, instead, entered into a plea bargain in which it dismissed the allegation that defendant used a deadly or dangerous weapon and committed an assault with a deadly weapon. The prosecution could not have compelled defendant to testify, and thus could not have used defendant\u2019s subsequent admission that he stabbed the victim to convict him. Once the court accepted his plea, defendant could admit to the probation officer having stabbed the victim without fear of prosecution, because he was clothed with the protection of the double jeopardy clause from successive prosecution for the same offense. (Texas v. Cobb (2001) 532 U.S. 162, 173 [149 L.Ed.2d 321, 121 S.Ct. 1335].) Defendant\u2019s admission recounted in the probation officer\u2019s report, therefore, does not describe the nature of the crime of which he was convicted and cannot be used to prove that the prior conviction was for a serious felony.\nWe agree with the concurring and dissenting justices that information that comes to the court\u2019s attention after it has accepted a plea of guilty may be considered by the trial court in deciding such matters as whether to withdraw its prior approval of the plea (People v. Johnson (1974) 10 Cal.3d 868, 873 [112 Cal.Rptr. 556, 519 P.2d 604]) and, of course, in determining the appropriate sentence. But we disagree with the concurring and dissenting justices\u2019 leap in logic that this means that defendant\u2019s admission to his probation officer in the prior case that he stabbed the victim, made after the trial court had accepted his guilty plea pursuant to a plea bargain dismissing all allegations that he had stabbed the victim, \u201creflects] the facts of the offense for which the defendant was convicted.\u201d (People v. Reed, supra, 13 Cal.4th 217, 223.)\nAs the concurring and dissenting justices acknowledge, \u201ca defendant\u2019s guilty plea, on which a sentence has not yet been imposed, constitutes a conviction for purposes of imposing an enhanced sentence.\u201d (Conc. & dis. opn. of Baxter, J., post, at p. 184, citing People v. Laino (2004) 32 Cal.4th 878, 882 [11 Cal.Rptr.3d 723, 87 P.3d 27] & People v. Rhoads (1990) 221 Cal.App.3d 56, 60 [270 Cal.Rptr. 266].) Defendant\u2019s admission in the present case, therefore, was made after defendant was convicted and does not reflect the facts upon which he was convicted.\nBarring the use of a defendant\u2019s statement reflected in a probation officer\u2019s report to prove that an alleged prior conviction was for a serious felony is consistent with our rule in People v. Guerrero that in determining the nature of a prior conviction, the court may look to the entire record of the conviction, \u201cbut no further.\u201d (People v. Guerrero, supra, 44 Cal.3d 343, 355.) The reason for this limitation was to \u201ceffectively bar[] the prosecution from relitigating the circumstances of a crime committed years ago and thereby threatening the defendant with harm akin to double jeopardy and denial of speedy trial.\u201d (Ibid.) Permitting a defendant\u2019s statement made in a postconviction probation officer\u2019s report to be used against him to establish the nature of the conviction would present similar problems, creating harm akin to double jeopardy and forcing the defendant to relitigate the circumstances of the crime.\nA defendant\u2019s statements in the probation officer\u2019s report differ in this respect from a reporter\u2019s transcript of the preliminary hearing, which is admissible to prove the nature of the prior conviction. (People v. Reed, supra, 13 Cal.4th at pp. 223-229; People v. Blackburn (1999) 72 Cal.App.4th 1520, 1531 [86 Cal.Rptr.2d 134].) The transcript of a preliminary hearing contains evidence that was admitted against the defendant and was available to the prosecution prior to the conviction. The transcript of a preliminary hearing, therefore, sheds light on the basis for the conviction.\nA defendant\u2019s statements in the probation officer\u2019s report also differ from an appellate court decision, which can be relied upon to determine the nature of a prior conviction because it may disclose the facts upon which the conviction was based. (People v. Woodell (1998) 17 Cal.4th 448, 457 [71 Cal.Rptr.2d 241, 950 P.2d 85].) We held in Woodell \u201cthat appellate opinions, in general, are part of the record of conviction that the trier of fact may consider in determining whether a conviction qualifies under the sentencing scheme at issue.\u201d (Ibid.) We warned, however, that \u201c[w]hether and to what extent an opinion is probative in a specific case must be decided on the facts of that case.\u201d (Ibid.)\nAccordingly, the trial court correctly declined to consider defendant\u2019s statement recounted in the probation officer\u2019s report of the prior conviction, and correctly determined that the prior conviction was not a serious felony within the meaning of the Three Strikes law (\u00a7 667, subds. (b)-(i)).\nDisposition\nThe judgment of the Court of Appeal is reversed to the extent that it reversed the \u201c \u2018not true\u2019 finding on the prior conviction in Santa Clara County Superior Court case No. 149886.\u201d In all other respects, the judgment of the Court of Appeal is affirmed.\nGeorge, C. J., Kennard, J., and Werdegar, J., concurred.\nFurther undesignated statutory references are to the Penal Code.\nSection 1238 provides, in pertinent part: \u201c(a) An appeal may be taken by the people from any of the following:\n\u201c(1) An order setting aside all or any portion of the indictment, information, or complaint. [\u00b6]... [\u00b6]\n\u201c(8) An order or judgment dismissing or otherwise terminating all or any portion of the action including such an order or judgment after a verdict or finding of guilty or an order or judgment entered before the defendant has been placed in jeopardy or where the defendant has waived jeopardy. [\u00b6] . . . [\u00b6]\n\u201c(10) The imposition of an unlawful sentence, whether or not the court suspends the execution of the sentence .... As used in this paragraph, \u2018unlawful sentence\u2019 means the imposition of a sentence not authorized by law or the imposition of a sentence based upon an unlawful order of the court which strikes or otherwise modifies the effect of an enhancement or prior conviction.\u201d\nThe decisions in People v. Monreal, supra, 52 Cal.App.4th 670 and People v. Mobley, supra, 72 Cal.App.4th 761 are disapproved to the extent they are contrary to this opinion.",
+        "type": "majority",
+        "author": "MORENO, J."
+      },
+      {
+        "text": "BAXTER, J., Concurring and Dissenting.\nI concur in the majority\u2019s holding that the People may appeal from the judgment under section 1238, subdivision (a)(10) of the Penal Code (all further unlabeled statutory references are to this code).\nI dissent, however, from the majority\u2019s determination that the trial court correctly declined to consider defendant\u2019s admission in the probation officer\u2019s report that, \u201cI stuck her with the knife.\u201d Contrary to the majority, I conclude that a probation officer\u2019s report is part of the \u201crecord of conviction\u201d that a trial court may lawfully consider in determining whether a defendant\u2019s prior conviction was a serious or violent felony within the meaning of the \u201cThree Strikes\u201d law (\u00a7 667, subds. (b)-(i)).\nI.\nTo properly analyze this issue, I start by reviewing our most recent decisions on the matter. In People v. Reed (1996) 13 Cal.4th 217 [52 Cal.Rptr.2d 106, 914 P.2d 184] (Reed), we noted prior decisions had not defined the phrase \u201crecord of conviction\u201d so as to provide definitive guidance regarding what documents could be considered to determine the substance of a prior conviction and the applicability of a prior conviction sentence enhancement. (Id. at p. 223.) Reed did, however, explain that the phrase may be used either \u201ctechnically, as equivalent to the record on appeal [citation], or more narrowly, as referring only to those record documents reliably reflecting the facts of the offense for which the defendant was convicted.\u201d (Ibid.) Without deciding which definition ought to control, Reed held that a preliminary hearing transcript falls within \u201ceven the narrower definition\u201d of record of conviction because the procedural protections afforded the defendant during such a hearing \u201ctend to ensure the reliability of such evidence.\u201d (Ibid.) With respect to another category of evidence offered in that case\u2014certain out-of-court witness statements contained in a probation officer\u2019s report\u2014Reed declined to decide whether the report itself was part of the record of conviction and instead found the statements in the report should have been excluded as inadmissible hearsay. (Id. at p. 230.)\nIn rejecting the admissibility of the statements at issue, consisting of the probation officer\u2019s narration of facts drawn from sources other than the defendant, Reed distinguished the type of statement involved here: \u201cThe report fragment does not identify the declarant or declarants from whose statements the probation officer drew his factual summary. There is no evidence the excerpt was based on defendant\u2019s own admissions to the officer, so as to fall within the hearsay exception for party admissions. (Evid. Code, \u00a7 1220; see People v. Garcia (1989) 216 Cal.App.3d 233, 237 [264 Cal.Rptr. 662] [defendant\u2019s admission contained in probation report]; People v. Abarca [(1991) 233 Cal.App.3d 1347, at p. 1351 [285 Cal.Rptr. 213]] [defendant\u2019s admission contained in transcript of change-of-plea hearing].) Nor does any other exception to the hearsay rule appear applicable.\u201d (Reed, supra, 13 Cal.4th at p. 230, italics added.)\nIn People v. Woodell (1998) 17 Cal.4th 448 [71 Cal.Rptr.2d 241, 950 P.2d 85] (Woodell), the defendant contended the record of conviction cannot include an appellate opinion prepared after a defendant\u2019s conviction and sentencing, because such a document would not be a record leading to imposition of judgment. (Id. at pp. 454-455.) Woodell disagreed, finding that the record of conviction is not limited to \u201ctrial court documents,\u201d but also \u201cincludes appellate court documents at least up to finality of the judgment.\u201d (Id. at p. 455.)\nEarlier this year, we reiterated \u201cthe relevant inquiry in deciding whether a particular prior conviction qualifies as a serious felony for California sentencing purposes is limited to an examination of the record of the prior criminal proceeding to determine the nature or basis of the crime of which the defendant was convicted.\u201d (People v. McGee (2006) 38 Cal.4th 682, 691 [42 Cal.Rptr.3d 899, 133 P.3d 1054] (McGee), italics added.) In McGee, we held a defendant has no federal constitutional right to have a jury decide whether a prior out-of-state conviction constitutes a qualifying felony for purposes of a California sentencing statute. (Id. at p. 687.)\nThere can be no dispute that a probation officer\u2019s report, which properly belongs in the record on appeal in a criminal proceeding, meets the technical definition of \u201crecord of conviction\u201d to which Reed referred. (Reed, supra, 13 Cal.4th at p. 223.) For the reasons below, such a report also falls within Reed\u2019s narrower concept of the term because it \u201creliably reflect[s] the facts of the offense for which the defendant was convicted\u201d (ibid.) and additionally qualifies under McGee as a document properly included in the record of the prior proceeding from which the \u201cnature or basis of the crime\u201d can be determined (McGee, supra, 38 Cal.4th at p. 691).\nSignificantly, probation officers\u2019 reports are highly relevant to a number of important judicial and correctional determinations regarding defendants convicted of crimes. Such reports \u201care used by judges in determining the appropriate length of a prison sentence and by the Department of Corrections and Rehabilitation ... in deciding upon the type of facility and program in which to place a defendant, and are also used in deciding whether probation is appropriate.\u201d (Cal. Rules of Court, rule 4.411(d) (all further rule references are to these rules); see \u00a7 1203, subds. (b), (g).) Judges also refer to such reports in deciding whether and to what extent restitution fines and costs should be assessed against a defendant. (Rule 4.411.5(a)(11); \u00a7 1203, subds. (b)(2)(C), (g).)\nGiven the important purposes these reports serve, the California Rules of Court provide a detailed list of the information that must be included, including information pertaining to \u201c[t]he facts and circumstances of the crime.\u201d (Rule 4.411.5(a)(2).) Additionally, the reports shall include \u201c[a]ny statement made by the defendant to the probation officer, or a summary thereof, including the defendant\u2019s account of the circumstances of the crime.\u201d (Rule 4.411.5(a)(4), italics added.) To promote reliability and transparency of the fact-gathering process, the rules explicitly mandate that \u201c[t]he source of all information shall be stated. Any person who has furnished information included in the report shall be identified by name or official capacity unless a reason is given for not disclosing the person\u2019s identity.\u201d (Rule 4.411.5(c); see also rule 4.411.5(a)(2).) At their sentencing hearings, defendants have the opportunity to challenge the accuracy of the report and to correct any misstatements, including admissions attributed to them. (People v. Monreal (1997) 52 Cal.App.4th 670, 680 [60 Cal.Rptr.2d 737]; People v. Garcia, supra, 216 Cal.App.3d at p. 237.)\nThus, a probation officer\u2019s report\u2014with its recitation of the facts and circumstances of the defendant\u2019s crime and its inclusion of any admissions made by the defendant\u2014properly serves to inform official decisions regarding the appropriate punishment, restitution fines, correctional facility, and rehabilitative programs for the defendant based on the nature of his crime and other factors. In light of this sanctioned use, it makes no sense whatsoever to find that the same report cannot be considered, in a subsequent criminal proceeding, as a document that \u201creliably reflects] the facts of the [prior] offense for which the defendant was convicted\u201d (Reed, supra, 13 Cal.4th at p. 223), or as a document in the record of the prior criminal proceeding from which the \u201cnature or basis of the [prior] crime\u201d can be determined (McGee, supra, 38 Cal.4th at p. 691).\nDespite the obvious importance and factual reliability of a probation officer\u2019s report, the majority holds in this case that the \u201crecord of the prior conviction\u201d includes only those documents in the record that contain information aired in trial court proceedings prior to the point of \u201cconviction,\u201d which in the majority\u2019s view is the point at which the trial court here \u201caccepted\u201d defendant\u2019s negotiated guilty plea. (Maj. opn., ante, at p. 179.) Pursuant to this understanding, the majority regards the record of conviction as properly excluding \u201cpostconviction\u201d documents, such as a probation officer\u2019s report, that reflect information and evidence formally brought to the trial court\u2019s attention after acceptance of the plea, but before sentencing and before conclusion of the trial court proceedings. (Ibid.)\nI have no quarrel with the proposition that a defendant\u2019s guilty plea, on which a sentence has not yet been imposed, constitutes a conviction for purposes of imposing an enhanced sentence. (See People v. Rhoads (1990) 221 Cal.App.3d 56, 58-60 [270 Cal.Rptr. 266] [addressing a Health and Safety Code enhancement]; see also People v. Laino (2004) 32 Cal.4th 878, 895-898 [11 Cal.Rptr.3d 723, 87 P.3d 27] [defendant\u2019s plea of guilty to a domestic violence felony, even when followed by a dismissal of the defendant\u2019s case after his successful completion of a state diversion program, constitutes a prior conviction under the Three Strikes law].)\nBut the question here is not whether a defendant\u2019s guilty plea, standing alone, has legal significance as a prior conviction for purposes of the Three Strikes law. Rather, the issue is whether a trial court may assess the serious or violent nature of the offense for which the defendant was convicted based on the defendant\u2019s own admissions in an official report that is prepared after his plea of guilty but before entry of a judgment on that plea.\nA trial court that initially accepts or approves of a defendant\u2019s negotiated guilty plea to an offense retains broad discretion at the sentencing phase to withdraw that prior approval and negate the plea\u2019s effect as a conviction. (People v. Johnson (1974) 10 Cal.3d 868, 873 [112 Cal.Rptr. 556, 519 P.2d 604].) In this regard, evidence concerning the offense at issue, whether contained in a probation officer\u2019s report or otherwise presented to the trial court by the time of the sentencing hearing, may be highly relevant to whether the defendant\u2019s plea may stand as a valid conviction. For instance, it has been held that a trial court\u2019s reading of a probation officer\u2019s report after the entry of a defendant\u2019s negotiated plea of guilty contributed to a sufficient factual basis for the plea and supported the trial court\u2019s denial of the defendant\u2019s motion to withdraw his plea. (People v. Watts (1977) 67 Cal.App.3d 173, 181-182 [136 Cal.Rptr. 496] [also finding grand jury transcripts provided a sufficient factual basis].) In a similar vein, when trial counsel stipulates to a factual basis for a negotiated plea, but appellate counsel claims the plea lacks an adequate factual basis, the appellate court may review the probation report to see if it establishes a factual basis for the plea. (People v. Mickens (1995) 38 Cal.App.4th 1557, 1564\u20141565 [45 Cal.Rptr.2d 633].) Because a court may rely on facts disclosed in a probation officer\u2019s report for the critical purpose of validating the defendant\u2019s plea and resulting conviction, it follows that a court should be able to rely on the defendant\u2019s uncontradicted admission of facts in such a report for the additional purpose of determining the nature or basis of the pleaded offense.\nNotably, the majority\u2019s cramped view is at odds with Woodell, supra, 17 Cal.4th 448, which specifically held that \u201cappellate opinions, in general, are part of the record of conviction that the trier of fact may consider in determining whether a conviction qualifies under the sentencing scheme at issue.\u201d (Id. at p. 457.) Although the majority attempts to distinguish Woodell from the situation here, Woodell rejected the notion that the record leading to imposition of judgment could not include a document prepared after a conviction and sentencing. (Id. at pp. 454-455.) Today\u2019s decision\u2014which categorizes a probation officer\u2019s report as a \u201cpostconviction\u201d document that is not part of the record of conviction because it is prepared after the defendant pleads guilty, even though his trial proceedings have not concluded\u2014would seem to require disapproval of Woodell\u2019s holding that the record of conviction may include a judicial opinion and other appellate documents written after the trial proceedings but before a judgment becomes final.\nFinally, although the majority\u2019s rule happens to aid the defendant in this particular case, other defendants may suffer from the rule\u2019s effect of unduly limiting the documents comprising a record of conviction. For instance, what if a probation officer\u2019s report contains information favorable to a defendant and shows the prior felony conviction should not be considered a strike? Under the majority\u2019s analysis, a trial court would be barred from admitting and considering such information, even though the balance of the record of conviction otherwise supports a finding that the prior felony was serious or violent. There appears no legal, logical, or public policy reason to limit a trial court\u2019s review to such misleadingly incomplete information. (See Woodell, supra, 17 Cal.4th at p. 456 [noting similar concern in the context of appellate opinions].)\nII.\nAs an additional justification for its conclusion that a defendant\u2019s admission of facts in a probation officer\u2019s report is outside the record of conviction, the majority states: \u201cPermitting a defendant\u2019s statement made in a postconviction probation officer\u2019s report to be used against him to establish the nature of the conviction would . . . creat[e] harm akin to double jeopardy and forc[e] the defendant to relitigate the circumstances of the crime.\u201d (Maj. opn., ante, at p. 180, relying on People v. Guerrero (1988) 44 Cal.3d 343, 355 [243 Cal.Rptr. 688, 748 P.2d 1150].) This reasoning is devoid of merit.\nIn People v. Melton (1988) 44 Cal.3d 713 [244 Cal.Rptr. 867, 750 P.2d 741], the defendant in a capital case argued that evidence of prior criminal activity that previously had been subject to a plea bargain should not have been admitted at the penalty phase. Melton concluded, however, that \u201cone is not placed \u2018twice in jeopardy for the same offense\u2019 when the details of misconduct which has already resulted in conviction and punishment, or in dismissal pursuant to a plea bargain or for witness unavailability, are presented in a later proceeding on the separate issue of the appropriate penalty for a subsequent offense.\u201d (Id. at p. 756, fn. 17; see also Monge v. California (1998) 524 U.S. 721, 724 [141 L.Ed.2d 615, 118 S.Ct. 2246] [double jeopardy clause does not extend to noncapital sentencing proceedings]; People v. Monge (1997) 16 Cal.4th 826 [66 Cal.Rptr.2d 853, 941 P.2d 1121] (lead opn. of Chin, J.) [state and federal double jeopardy principles do not bar retrial of prior conviction allegations].) As another court summarized, \u201cwhen a plea bargain calls for striking an enhancement, that merely means the enhancement cannot be used to enhance the current conviction. The plea bargain does not bar the use of the facts underlying the stricken enhancement in sentencing on a subsequent conviction. [Citations.]\u201d (People v. Blackburn (1999) 72 Cal.App.4th 1520, 1527 [86 Cal.Rptr.2d 134].) Given these settled legal principles, it is difficult to comprehend the majority\u2019s double jeopardy concerns in the context of this case.\nSetting aside the fact this case involves a recidivist sentencing scheme that does not subject a defendant to double jeopardy for the same offense, and also setting aside the legal point that double jeopardy principles are in any event inapplicable in the noncapital sentencing context (Monge v. California, supra, 524 U.S. at p. 724), it remains unclear how the harm perceived by the majority could be implicated by consideration of a probation officer\u2019s report, but not also by consideration of a preliminary hearing transcript (Reed) or an appellate opinion (Woodell). The majority\u2019s discussion on this point is vague, and no meaningful distinction appears.\nIII.\nThe Three Strikes law makes clear the Legislature\u2019s intent \u201cto ensure longer prison sentences and greater punishment for those who commit a felony and have been previously convicted of serious and/or violent felony offenses.\u201d (\u00a7 667, subd. (b).) A probation officer\u2019s report is reasonably and logically viewed as part of the record of a defendant\u2019s prior conviction because: (1) a probation officer\u2019s report is an official document that is designed to include the facts and circumstances of the crime; (2) the rules governing the preparation of such reports, coupled with the opportunity afforded defendants to challenge misstatements in the reports, contribute to the reliability of the information contained therein; and (3) a trial court in a negotiated plea case retains broad discretion at a sentencing hearing to affirm or withdraw its prior approval of a plea bargain based on facts disclosed in a probation officer\u2019s report and other information subsequently coming to light. Given the nature and content of a probation officer\u2019s report, as well as the role such a report may play in the specific context of a negotiated plea, I can only conclude that a probation officer\u2019s report properly is considered part of the record of the prior conviction for purposes of a serious or violent felony determination.\nThat said, I do not take issue with the decisional law recognizing that a trial court may consider the matters contained in a probation officer\u2019s report only to the extent the matters are relevant and otherwise admissible under the normal rules of evidence. In this regard, the majority does not contest the determination in People v. Monreal, supra, 52 Cal.App.4th 670, that a defendant\u2019s admission in a probation officer\u2019s report is admissible in a sentencing hearing under Evidence Code sections 1220 (party admission exception to the hearsay rule) and 1280 (public employee record exception). (People v. Monreal, supra, 52 Cal.App.4th at pp. 676-678; see also Reed, supra, 13 Cal.4th at p. 230.) Neither do I.\nIn sum, I strongly disagree with the majority\u2019s determination that the trial court properly declined to consider defendant\u2019s statement in the probation officer\u2019s report that, \u201cI stuck [the victim] with the knife.\u201d Because defendant\u2019s admission was reflected in an official document that properly belongs in the record of the prior conviction, and because the admission was admissible in court under Evidence Code sections 1220 and 1280,1 would affirm the Court of Appeal\u2019s judgment remanding the matter to the trial court for a retrial on the prior conviction allegation.\nChin, J., and Corrigan, I., concurred.\nA trial court\u2019s withdrawal of approval \u201cis permitted, for example, in those instances where the court becomes more fully informed about the case [citation], or where, after further consideration, the court concludes that the bargain is not in the best interests of society. [Citation.]\u201d (People v. Superior Court (Gifford) (1997) 53 Cal.App.4th 1333, 1338 [62 Cal.Rptr.2d 220].) Consistent with this broad discretion, the trial court in the prior proceeding at issue declined to rule on the People\u2019s motion to dismiss the count charging assault with a deadly weapon and to strike the knife use allegation at the same time it accepted defendant\u2019s plea. Instead, the court took the People\u2019s motion under submission and indicated it would make its ruling at the time of sentencing.",
+        "type": "concurring-in-part-and-dissenting-in-part",
+        "author": "BAXTER, J., Concurring and Dissenting."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Bill Lockyer, Attorney General, Robert R. Anderson, Chief Assistant Attorney General, Gerald A. Engler and Pamela C. Hamanaka, Assistant Attorneys General, Ren\u00e9 A. Chac\u00f3n, Kristofer Jorstad, Lawrence M. Daniels and Ryan B. McCarroll, Deputy Attorneys General; George W. Kennedy, District Attorney, and Neal J. Kimball, Deputy District Attorney, for Plaintiff and Appellant.",
+      "Michael A. Kresser, under appointment by the Supreme Court, for Defendant and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. S130080.\nDec. 11, 2006.]\nTHE PEOPLE, Plaintiff and Appellant, v. MANUEL ALEX TRUJILLO, Defendant and Respondent.\nCounsel\nBill Lockyer, Attorney General, Robert R. Anderson, Chief Assistant Attorney General, Gerald A. Engler and Pamela C. Hamanaka, Assistant Attorneys General, Ren\u00e9 A. Chac\u00f3n, Kristofer Jorstad, Lawrence M. Daniels and Ryan B. McCarroll, Deputy Attorneys General; George W. Kennedy, District Attorney, and Neal J. Kimball, Deputy District Attorney, for Plaintiff and Appellant.\nMichael A. Kresser, under appointment by the Supreme Court, for Defendant and Respondent."
+  },
+  "file_name": "0165-01",
+  "first_page_order": 203,
+  "last_page_order": 226
+}

@@ -1,0 +1,59 @@
+{
+  "id": 6028456,
+  "name": "Roe v. Yates, Warden",
+  "name_abbreviation": "Roe v. Yates",
+  "decision_date": "2011-01-24",
+  "docket_number": "No. 10-7683",
+  "first_page": "1204",
+  "last_page": "1204",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1204"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.45,
+    "sha256": "800199d39010ab7c54d1cd32fe2429aac935a2c29daab1c4d89aabf9e87d6e2d",
+    "simhash": "1:10003d0129d907df",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Roe v. Yates, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7683.\nRoe v. Yates, Warden."
+  },
+  "file_name": "1204-09",
+  "first_page_order": 1226,
+  "last_page_order": 1226
+}

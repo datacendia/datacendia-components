@@ -1,0 +1,59 @@
+{
+  "id": 12430154,
+  "name": "Avilez v. Massachusetts",
+  "name_abbreviation": "Avilez v. Massachusetts",
+  "decision_date": "2013-01-22",
+  "docket_number": "No. 12-7572",
+  "first_page": "1147",
+  "last_page": "1147",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1147"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 72,
+    "ocr_confidence": 0.664,
+    "sha256": "2f3595a48c977468965ba5da2aeaa459be685fbc03f404282132dc4d16d05a60",
+    "simhash": "1:e89d64ac82519a0a",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Avilez v. Massachusetts."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Mass. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7572.\nAvilez v. Massachusetts."
+  },
+  "file_name": "1147-13",
+  "first_page_order": 1223,
+  "last_page_order": 1223
+}

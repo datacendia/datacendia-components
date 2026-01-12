@@ -1,0 +1,59 @@
+{
+  "id": 12246419,
+  "name": "Catchings v. Mississippi",
+  "name_abbreviation": "Catchings v. Mississippi",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-7580",
+  "first_page": "1205",
+  "last_page": "1205",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1205"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 74,
+    "ocr_confidence": 0.582,
+    "sha256": "77086b19af30213b7e099c99ed3c87647e7161fdceaf1b8ce41acb9f3f44a40a",
+    "simhash": "1:2590007656dd1000",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Catchings v. Mississippi."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Miss. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7580.\nCatchings v. Mississippi."
+  },
+  "file_name": "1205-13",
+  "first_page_order": 1287,
+  "last_page_order": 1287
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12217483,
+  "name": "Creswell v. California",
+  "name_abbreviation": "Creswell v. California",
+  "decision_date": "2012-05-14",
+  "docket_number": "No. 11-9236",
+  "first_page": "996",
+  "last_page": "996",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 996"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 86,
+    "ocr_confidence": 0.522,
+    "sha256": "6d0455dfb79ea157de08750faeb4a998da77f18dda4818e2e38814fc17e4d488",
+    "simhash": "1:2821008013c05261",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Creswell v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 6th App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9236.\nCreswell v. California."
+  },
+  "file_name": "0996-06",
+  "first_page_order": 872,
+  "last_page_order": 872
+}

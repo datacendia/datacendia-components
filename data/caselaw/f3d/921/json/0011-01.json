@@ -1,0 +1,721 @@
+{
+  "id": 12520755,
+  "name": "UNITED STATES of America, Plaintiff-Appellee, v. L-3 COMMUNICATIONS EOTECH, INC., L-3 Communications Corporation, Paul Mangano, Defendants. Milton DaSilva, Movant-Appellant.",
+  "name_abbreviation": "United States v. L-3 Commc'ns Eotech, Inc.",
+  "decision_date": "2019-04-04",
+  "docket_number": "Docket No. 17-0621; August Term, 2017",
+  "first_page": "11",
+  "last_page": "30",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "921 F.3d 11"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "2nd Cir.",
+    "id": 9993,
+    "name": "United States Court of Appeals for the Second Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "137 S.Ct. 436",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12607891
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "443"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/137/0436-01"
+      ]
+    },
+    {
+      "cite": "9 F.3d 743",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10513046
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "748",
+          "parenthetical": "\"the entire purpose of the FCA's qui tam provisions is to employ the help of individuals to uncover fraud against the government\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/9/0743-01"
+      ]
+    },
+    {
+      "cite": "566 U.S. 93",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12188399
+      ],
+      "weight": 3,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "102"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/566/0093-01"
+      ]
+    },
+    {
+      "cite": "136 S.Ct. 1061",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12594890
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1070",
+          "parenthetical": "quoting Roberts v. Sea-Land Services, Inc. , 566 U.S. 93, 102, 132 S.Ct. 1350, 182 L.Ed.2d 341 (2012) "
+        },
+        {
+          "parenthetical": "quoting Roberts v. Sea-Land Services, Inc. , 566 U.S. 93, 102, 132 S.Ct. 1350, 182 L.Ed.2d 341 (2012) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/136/1061-01"
+      ]
+    },
+    {
+      "cite": "14 F.3d 645",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3817555,
+        10527319
+      ],
+      "pin_cites": [
+        {
+          "page": "651"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/304/0347-01",
+        "/f3d/14/0645-01"
+      ]
+    },
+    {
+      "cite": "258 F.3d 1004",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11084568,
+        11084515
+      ],
+      "weight": 2,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "1010",
+          "parenthetical": "\" Barajas \""
+        },
+        {
+          "page": "1010"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/258/1004-02",
+        "/f3d/258/1004-01"
+      ]
+    },
+    {
+      "cite": "185 F.3d 188",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11584087
+      ],
+      "weight": 2,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "190",
+          "parenthetical": "\" LaCorte \""
+        },
+        {
+          "page": "191"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/185/0188-01"
+      ]
+    },
+    {
+      "cite": "342 F.3d 634",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9100503
+      ],
+      "weight": 2,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "647",
+          "parenthetical": "\" Bledsoe \""
+        },
+        {
+          "page": "647",
+          "parenthetical": "\"We hold that 'alternate remedy' refers to the government's pursuit of any alternative to intervening in a relator's qui tam action.\" (emphasis added)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/342/0634-01"
+      ]
+    },
+    {
+      "cite": "746 F.3d 157",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4239539
+      ],
+      "weight": 5,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "162",
+          "parenthetical": "\" Babalola \""
+        },
+        {
+          "page": "159"
+        },
+        {
+          "page": "161-62",
+          "parenthetical": "emphases ours"
+        },
+        {
+          "page": "161",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/746/0157-01"
+      ]
+    },
+    {
+      "cite": "2000 WL 962249",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "*2"
+        },
+        {
+          "page": "*2"
+        },
+        {
+          "page": "*2"
+        },
+        {
+          "page": "*2"
+        },
+        {
+          "page": "*3"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "217 F.3d 843",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "904 F.2d 83",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10533364
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "86",
+          "parenthetical": "same; \"the page is once again pristine\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/904/0083-01"
+      ]
+    },
+    {
+      "cite": "284 F.3d 1154",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9509341
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "1157",
+          "parenthetical": "same; \"any future lawsuit based on the same claim [is] an entirely new lawsuit\" (internal quotation marks omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/284/1154-01"
+      ]
+    },
+    {
+      "cite": "434 F.3d 320",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        931717
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "324",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/434/0320-01"
+      ]
+    },
+    {
+      "cite": "395 F.3d 477",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9169358
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "480",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/395/0477-01"
+      ]
+    },
+    {
+      "cite": "347 F.3d 1192",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9053386
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "1201",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/347/1192-01"
+      ]
+    },
+    {
+      "cite": "50 F.3d 405",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7413263
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "407",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/50/0405-01"
+      ]
+    },
+    {
+      "cite": "551 F.2d 213",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        980318
+      ],
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "219",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/551/0213-01"
+      ]
+    },
+    {
+      "cite": "304 F.2d 427",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        6810818
+      ],
+      "year": 1962,
+      "pin_cites": [
+        {
+          "page": "428",
+          "parenthetical": "dismissal of an action without prejudice leaves the situation the same as if the suit had never been brought"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/304/0427-01"
+      ]
+    },
+    {
+      "cite": "97 L.Ed. 680",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "year": 1952,
+      "opinion_index": 0
+    },
+    {
+      "cite": "73 S.Ct. 169",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "year": 1952,
+      "opinion_index": 0
+    },
+    {
+      "cite": "344 U.S. 878",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11331434,
+        11331122,
+        11331379,
+        11331286,
+        11331646,
+        11331551
+      ],
+      "year": 1952,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/344/0878-04",
+        "/us/344/0878-01",
+        "/us/344/0878-03",
+        "/us/344/0878-02",
+        "/us/344/0878-06",
+        "/us/344/0878-05"
+      ]
+    },
+    {
+      "cite": "197 F.2d 498",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        496720
+      ],
+      "year": 1952,
+      "pin_cites": [
+        {
+          "page": "502",
+          "parenthetical": "\"voluntary dismissal of a suit leaves the situation so far as procedures therein are concerned the same as though the suit had never been brought\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/197/0498-01"
+      ]
+    },
+    {
+      "cite": "496 U.S. 384",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12123482
+      ],
+      "weight": 3,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "395-97"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/496/0384-01"
+      ]
+    },
+    {
+      "cite": "232 F.Supp.3d 583",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        12268498
+      ],
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "584"
+        },
+        {
+          "page": "587",
+          "parenthetical": "emphases ours"
+        },
+        {
+          "page": "588",
+          "parenthetical": "emphases ours"
+        },
+        {
+          "page": "589",
+          "parenthetical": "emphases added"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/232/0583-01"
+      ]
+    },
+    {
+      "cite": "31 U.S.C. \u00a7\u00a7 3730",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 21,
+      "pin_cites": [
+        {
+          "page": "(d)(1)"
+        },
+        {
+          "page": "(b)(2)"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(c)(5)",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "(c)(5)"
+        },
+        {
+          "page": "(b)(4)"
+        },
+        {
+          "page": "(c)(5)"
+        },
+        {
+          "page": "(b)(1)"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(d)(1)"
+        },
+        {
+          "page": "(c)(1)"
+        },
+        {
+          "page": "(c)(2)(A)"
+        },
+        {
+          "page": "(c)(3)"
+        },
+        {
+          "page": "(c)(5)",
+          "parenthetical": "emphases added"
+        },
+        {
+          "page": "(c)(5)"
+        },
+        {
+          "page": "(c)(4)",
+          "parenthetical": "emphases added"
+        },
+        {
+          "page": "(c)(5)",
+          "parenthetical": "emphases added"
+        },
+        {
+          "page": "(b)(4)(A)"
+        },
+        {
+          "page": "(b)(5)",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "(c)(4)",
+          "parenthetical": "emphases added"
+        },
+        {
+          "page": "(c)(2)(A)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "912 F.2d 13",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        9043145
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "18"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/912/0013-01"
+      ]
+    },
+    {
+      "cite": "824 F.3d 16",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4323231
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "23"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/824/0016-01"
+      ]
+    },
+    {
+      "cite": "529 U.S. 765",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9509149
+      ],
+      "weight": 3,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "parenthetical": "\"Qui tam is short for the Latin phrase qui tam pro domino rege quam pro se ipso in hac parte sequitur , which means 'who pursues this action on our Lord the King's behalf as well as his own.' \""
+        },
+        {
+          "parenthetical": "\"Qui tam is short for the Latin phrase qui tam pro domino rege quam pro se ipso in hac parte sequitur , which means 'who pursues this action on our Lord the King's behalf as well as his own.' \""
+        },
+        {
+          "parenthetical": "\"Qui tam is short for the Latin phrase qui tam pro domino rege quam pro se ipso in hac parte sequitur , which means 'who pursues this action on our Lord the King's behalf as well as his own.' \""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/529/0765-01"
+      ]
+    },
+    {
+      "cite": "556 U.S. 928",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653672
+      ],
+      "weight": 3,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "932"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/556/0928-01"
+      ]
+    },
+    {
+      "cite": "31 U.S.C. \u00a7 3729",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1601,
+    "char_count": 62070,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.259258937490178
+    },
+    "sha256": "57d78046a13c8bd160455ee890e102f1ff95bed40460d44788b739ae8ce327fe",
+    "simhash": "1:b4989b242f6e7a6f",
+    "word_count": 10307
+  },
+  "last_updated": "2024-02-27T18:46:36.196324+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before: KATZMANN, Chief Judge, KEARSE and POOLER, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee,\nv.\nL-3 COMMUNICATIONS EOTECH, INC., L-3 Communications Corporation, Paul Mangano, Defendants."
+    ],
+    "opinions": [
+      {
+        "text": "KEARSE, Circuit Judge:\nMovant Milton DaSilva appeals from an order of the United States District Court for the Southern District of New York, Richard J. Sullivan, then-District Judge , denying his motion for a declaration that, under the False Claims Act (or \"FCA\"), 31 U.S.C. \u00a7 3729 et seq . --and in particular under \u00a7 3730(c)(5)--he is entitled to a share of the $25.6 million received by the United States in settlement of the present action brought by the government under the FCA against defendants L-3 Communications EOTech, Inc., L-3 Communications Corporation (collectively \"EOTech\"), and Paul Mangano. The district court denied the motion on the ground that, although DaSilva had brought a qui tam action against EOTech, he voluntarily dismissed that action long prior to the government's initiation of its own suit, and that given the absence of an ongoing qui tam action he had no entitlement under \u00a7 3730(c)(5) to a share of the government's recovery. On appeal, DaSilva contends principally that the court's ruling conflicts with the language, purpose, and legislative history of the FCA. He also argues that the court should not have viewed his dismissal of the qui tam action as voluntary because his attorneys contended that the dismissal was coerced by the government. We conclude for the reasons that follow that DaSilva presented no viable basis for claiming coercion and that the district court correctly ruled that he was not entitled to share in the government's recovery in light of his voluntary dismissal of his qui tam action.\nI. BACKGROUND\nThe False Claims Act, the most relevant provisions of which are set out in greater detail in Part II below,\nestablishes a scheme that permits either the Attorney General, \u00a7 3730(a), or a private party, \u00a7 3730(b), to initiate a civil action alleging fraud on the Government. A private enforcement action under the FCA is called a qui tam action, with the private party referred to as the \"relator.\" .... When a relator initiates such an action, the United States is given 60 days to review the claim and decide whether it will \"elect to intervene and proceed with the action,\" \u00a7\u00a7 3730(b)(2), (b)(4) ....\nIf the United States intervenes, the relator has \"the right to continue as a party to the action,\" but the United States acquires the \"primary responsibility for prosecuting the action.\" \u00a7 3730(c)(1). If the United States declines to intervene, the relator retains \"the right to conduct the action.\" \u00a7 3730(c)(3).\nUnited States ex rel. Eisenstein v. City of New York , 556 U.S. 928, 932, 129 S.Ct. 2230, 173 L.Ed.2d 1255 (2009) ; see also Vermont Agency of Natural Resources v. United States ex rel. Stevens , 529 U.S. 765, 768 n.1, 120 S.Ct. 1858, 146 L.Ed.2d 836 (2000) (\"Qui tam is short for the Latin phrase qui tam pro domino rege quam pro se ipso in hac parte sequitur , which means 'who pursues this action on our Lord the King's behalf as well as his own.' \").\nTo incentivize private persons to uncover, report, and prosecute FCA claims for the benefit of the United States, see , e.g. , United States ex rel. Ladas v. Exelis, Inc. , 824 F.3d 16, 23 (2d Cir. 2016) ; United States ex rel. Dick v. Long Island Lighting Co. , 912 F.2d 13, 18 (2d Cir. 1990), the FCA provides that if a qui tam action is successful, the relator will generally be entitled to receive a portion of the amount recovered from the defendants, see 31 U.S.C. \u00a7\u00a7 3730(d)(1)-(2) (typically 15-30% of the proceeds, depending in part on whether the government has intervened and taken over prosecution of the action, or instead has declined to intervene and left prosecution to the relator).\nThe record as to the events leading to this appeal shows the following.\nA. Events Surrounding DaSilva's 2014 Qui Tam Action\nDaSilva was employed at EOTech as a quality control engineer from mid-May to late June 2013. On August 13, 2013, through attorneys then representing him in anticipation of filing a qui tam action against EOTech, DaSilva submitted to the United States Attorney's Office for the Southern District of New York information alleging EOTech's manufacture and knowing sale to the government of defective holographic firearm sights, in violation of the FCA.\nOn August 22, 2013, DaSilva was convicted in a Michigan state court of criminal conduct that both sides agree was unrelated to the alleged FCA violations by EOTech. DaSilva was scheduled to be sentenced on September 25, 2013; however, he did not appear for sentencing, having fled to Brazil.\nBeginning in mid-January 2014, Solomon M. Radner, a Michigan attorney representing DaSilva in his criminal proceeding, had ongoing communications with an Assistant United States Attorney (\"AUSA\") with regard to DaSilva's allegations against EOTech. Radner disclosed DaSilva's fugitive status to the AUSA, who \"responded that she had to first seek permission from her supervisors before speaking to DaSilva because of his fugitive status.\" (Affidavit of Solomon M. Radner dated April 14, 2016 (\"Radner Aff.\"), \u00b6 9.) After the AUSA received such permission, Radner sent DaSilva's materials to the AUSA, and facilitated, inter alia , telephone conferences between or among DaSilva, the AUSA, and other government officials.\nIn April 2014, DaSilva filed a qui tam complaint--under seal and in camera , as required by 31 U.S.C. \u00a7 3730(b)(2) --in the United States District Court for the Southern District of New York, represented by attorneys in New York and Florida (\"qui tam counsel\"). The complaint alleged, inter alia , that DaSilva was a resident of Michigan; it made no mention of his fugitive status. The next business day, the government sent Radner an email requesting a conference to discuss, inter alia , the reason for characterizing DaSilva as a resident of Michigan, when he was known to have fled the United States, and the propriety of having claims on behalf of the United States prosecuted by a fugitive. (See Radner Aff. \u00b6 28.)\nDaSilva's qui tam action was assigned to District Judge Alison Nathan. On July 8, 2014, the court issued an order stating principally as follows:\n[T]he Government represents (among other things) that relator plaintiff Milton DaSilva is currently wanted by Michigan authorities after fleeing to Brazil prior to sentencing for certain crimes he was convicted of in 2013. The Government indicates that counsel for Mr. DaSilva have stated their intention to withdraw and voluntarily dismiss this action if Mr. DaSilva did not surrender by June 23, 2014 .\nGiven that that date has now passed, counsel for Mr. DaSilva are hereby instructed to submit a status letter by July 18, 2014 indicating whether Mr. DaSilva remains a fugitive and, if so, whether and when they plan to withdraw and dismiss this action. If counsel do not submit a letter by July 18, the Court will dismiss this case.\nDistrict Court Order dated July 8, 2014 (\"July 2014 Order\") (emphasis added).\nFollowing entry of this order, both DaSilva's qui tam counsel and the government made submissions to the district court. DaSilva's attorneys\nrequested that the Court not dismiss this case on the basis of DaSilva's fugitive status despite their earlier representation to the Government that they would voluntarily withdraw the complaint if DaSilva did not surrender to Michigan authorities by June 23, 2014.\nDistrict Court Order dated August 14, 2014 (\"August 2014 Order\"). The government responded and reiterated its concern as to the propriety of having the rights of the United States represented by a fugitive. It had cited to DaSilva's attorneys a Michigan bar governance principle that stated, \"[a] lawyer may not aid or abet a client who has chosen independently to become a fugitive from justice. The lawyer may not represent the client in collateral or unrelated matters while the lawyer knows the client remains a fugitive ,\" Mich. Ethics Op. RI-160 (Apr. 14, 1993) (\"Mich. Ethics Op. RI-160\" or \"Michigan Ethics Opinion\") (emphasis added). The government indicated to the court \"that it would move to dismiss if qui tam counsel refused to dismiss their complaint voluntarily.\" August 2014 Order.\nThe court ordered that, \"[s]ince qui tam counsel have neither withdrawn their complaint nor indicated that DaSilva has surrendered, ... the Government may move to dismiss the complaint by August 31, 2014.\" Id . Before the government could so move, however, DaSilva's qui tam counsel made a motion on August 19, 2014, \"request[ing] that th[e] action be voluntarily dismissed without prejudice .... pursuant to Rule 41(a)(1)(A)(i) of the Federal Rules of Civil Procedure.\" (Relator's Request For Voluntary Dismissal Without Prejudice Pursuant to Federal Rule of Civil Procedure 41(a)(1)(A)(i) (\"DaSilva Voluntary Dismissal Request\") at 1.)\nDaSilva's attorneys represented that the government had stated it would inform the court of its consent to the voluntary dismissal, and the government promptly so notified the court. On September 3, the court granted DaSilva's request:\nIn light of Relator Milton DaSilva's request on August 19, 2014 that this action be voluntarily dismissed, and the United States's consent to voluntary dismissal on August 20, 2014, this case is dismissed without prejudice. The case shall remain under seal.\nDistrict Court Order dated September 3, 2014 (\"September 2014 Order\").\nThere were no further qui tam proceedings by DaSilva.\nB. The Government's FCA Action\nMore than 14 months after DaSilva's voluntary dismissal, the government on November 24, 2015, commenced its own False Claims Act lawsuit pursuant to 31 U.S.C. \u00a7 3730(a) --the present action--against EOTech and Mangano. This action was assigned to then-District Judge Sullivan. On the following day, with the approval of the court, the parties settled the action, with defendants agreeing, inter alia , that EOTech would pay the government $25.6 million.\nOn April 14, 2016, DaSilva filed--in the present action, i.e. , the government's \u00a7 3730(a) action that had been settled on November 25, 2015--the motion giving rise to this appeal. He stated that he had \"unquestionably filed a valid qui tam lawsuit that was ... dismissed without prejudice\" \"only after intense pressure from the government.\" (DaSilva's Motion To Be Declared Eligible for Share of Government's Recovery Under the False Claims Act (\"DaSilva Eligibility Motion\") at 1; see , e.g. , id . at 4 (after \"immense pressure\").) He cited the FCA provision which states, inter alia , that \"[n]otwithstanding subsection (b)\"--the section that authorizes a qui tam action--if the government pursues an \"alternate remedy available to [it],\" the person who initiated the qui tam action \"shall have the same rights in such proceeding as such person would have had if the action had continued under this section,\" 31 U.S.C. \u00a7 3730(c)(5) (emphasis added). DaSilva argued that the FCA \"contains no requirement that a relator's original claim continue or succeed in order for the relator to share in fruits of the alternate remedy pursued by the Government\" (DaSilva Eligibility Motion at 2) and that he is thus entitled to a relator's share of the government's settlement proceeds.\nThe government opposed the motion, disputing, inter alia , DaSilva's interpretation of \u00a7 3730(c)(5). It argued that \" section 3730(c)(5) unambiguously requires a pending qui tam complaint in order for the government to elect an 'alternate remedy,' and for the 'alternate remedy' provision to be triggered.\" (United States Memorandum of Law in Opposition to DaSilva's Motion To Be Declared Eligible for a Share of the Government's Recovery Under the False Claims Act at 10.)\nThe government cited authorities stating that an action that was voluntarily dismissed without prejudice is treated as never having been brought, and it denied that any undue pressure had been applied to cause DaSilva to dismiss the 2014 qui tam action. Given that such an action is brought in the name of the United States, to remedy wrongs to the United States, DaSilva's fugitive status--undisclosed in his qui tam complaint, which called him a resident of Michigan--caused the government concern for whether its interests would be represented properly, and warranted \"inquir[y as to] whether the applicable rules of professional responsibility permitted counsel to represent DaSilva in his qui tam action\" (id . at 16). The government stated that DaSilva's motion had not described--and could not point to--any impropriety on the part of the government in raising its concerns.\nC. The District Court's Denial of DaSilva's Motion for a Share\nIn an opinion dated February 3, 2017, reported at 232 F.Supp.3d 583, the district court denied DaSilva's motion to be declared eligible to share in the government's recovery from EOTech. The court stated that although the FCA \"generally entitles a relator to a share of a recovery obtained by the government through an 'alternate remedy' to the action initiated by the relator,\" 232 F.Supp.3d at 584, \"the terms of Section 3730(c)(5) unambiguously preclude\" the award of such a share to DaSilva, because prior to the government's bringing suit he had voluntarily dismissed his qui tam action, id . at 587. The court reasoned as follows:\nBy beginning with the phrase \"[n]otwithstanding subsection (b),\" Section 3730(c)(5) makes clear that the \"alternate remedy\" described in that section is an \"alternate\" to the government's options listed in Section 3730(b). Specifically, Section 3730(c)(5) governs the relator's rights when the government \"elect[s] to pursue its claim through any alternate remedy,\" 31 U.S.C. \u00a7 3730(c)(5) --that is, an \"alternate\" to the remedies set forth in Section 3730(b)(4), which are limited to (a) intervening and \"proceed[ing] with the [qui tam ] action\" or (b) \"declin[ing] to take over the action\" and providing the relator with \"the right to conduct the action,\" 31 U.S.C. \u00a7 3730(b)(4). The implication of this framework is clear: when there is no qui tam action for the government to \"take over,\" the government's filing of its own action is not an \"alternate\" to taking over (or not taking over) a qui tam action .\n232 F.Supp.3d at 587 (emphases ours).\nThe court noted that the effect of a voluntary dismissal without prejudice, such as DaSilva's, is to\n\"le[ave] the situation as if the action never had been filed ,\" 9 Charles Alan Wright & Arthur R. Miller et al. , Federal Practice and Procedure \u00a7 2367 (3d ed. 2016), and \"render[ ] the proceedings a nullity ,\" 8 Moore's Federal Practice \u00a7 41.40[9][b] (2016).\n232 F.Supp.3d at 588 (emphases ours). Thus,\n[f]ramed in terms of the instant action, a dismissed qui tam suit does not present the government with the choice between acting under subsection (b)(4) or pursuing an \"alternate remedy\" authorized by subsection (c)(5) . Accordingly, the government's commencement and settlement of this action was not an \"alternate remedy\" to DaSilva's qui tam action because DaSilva had dismissed his action.\nId . at 587 (emphasis ours). The court concluded that\nDaSilva's decision to voluntarily dismiss his qui tam action in 2014 precludes him from clambering back on board for a share of the government's proceeds as though he had never dismissed his own action . To hold otherwise would contradict the plain language of Section 37[30](c)(5) and provide DaSilva with a windfall to which he is not entitled under the statute.\nId . at 589 (emphases added).\nII. DISCUSSION\nOn appeal, DaSilva contends principally that the district court's interpretation of \u00a7 3730(c)(5) as not authorizing a private person to share in FCA proceeds received by the government in its own suit unless he had a qui tam action pending when the government commenced its suit is contrary to the plain language of that subsection and conflicts with the purpose and legislative history of the FCA. He also contends that his terminated qui tam action should not have been treated as nonexistent, arguing that his dismissal of the action was not voluntary but rather was coerced by the government.\nWe review for clear error findings of fact as to such questions as whether DaSilva's attorneys were subjected to any pressure. We review de novo conclusions of law, such as whether any such pressure was improper or amounted to coercion, whether DaSilva's dismissal of the 2014 qui tam action without prejudice constituted a voluntary dismissal within the meaning of the Rules of Civil Procedure, and whether the government pursued an alternate remedy within the meaning of 31 U.S.C. \u00a7 3730(c)(5), so as to entitle DaSilva to share in that remedy's proceeds.\nPreliminarily, we note that the record is opaque as to the authorization for DaSilva's ability to seek relief in the present action. DaSilva referred to a need to \"reopen[ ]\" the case (DaSilva Eligibility Motion at 16-17 (citing Fed. R. Civ. P. 60 )). The district court, denying the eligibility motion, stated that DaSilva should not be allowed to \"clamber[ ] back on board for a share of the government's proceeds as though he had never dismissed his own action .\" 232 F.Supp.3d at 589 (emphases added). Whether the motion was treated as one under Fed. R. Civ. P. 60(b) to reopen the government's action, although in that action DaSilva was neither \"a party\" nor \"[a party's] legal representative,\" id. , or one to reopen DaSilva's own voluntarily dismissed qui tam action, we conclude that it was meritless. We reject DaSilva's challenges to the district court's order for the reasons that follow.\nA. DaSilva's Unsupported Claim of Coercion\nWe deal first with DaSilva's contention that the dismissal of his 2014 qui tam action was improperly coerced, since well established legal principles and the clarity of the record make its lack of merit obvious.\n1. Voluntary Dismissal Principles\nRule 41(a) of the Federal Rules of Civil Procedure, subject to certain other rules not pertinent here and to \"any applicable federal statute,\" allows a plaintiff, by filing either a stipulation of dismissal signed by all parties who have appeared or a notice of dismissal before the opposing party has served either an answer or a motion for summary judgment, to voluntarily dismiss his action without prejudice. Fed. R. Civ. P. 41(a)(1)(A) and (B). As a general matter,\n[a] first dismissal either by notice or stipulation under Federal Rule 41(a)(1)(A) is without prejudice to the commencement of another action, unless otherwise stated in the notice or stipulation itself.\n9 Wright & Miller, Federal Practice and Procedure \u00a7 2367, at 549 (3d ed. 2017) (\"Wright & Miller \").\nIn the context of a qui tam action, this general Rule 41(a) framework is subject to several constraints imposed by the FCA. First, the relator may not voluntarily dismiss such an action without the written consent of the court and the United States Attorney General. See 31 U.S.C. \u00a7 3730(b)(1). In addition, although the voluntary dismissal is without prejudice to the commencement of a new action, a new qui tam action is impermissible if it is based on allegations or transactions which, by the time the new action is sought to be filed, \"are the subject of a civil suit or an administrative civil money penalty proceeding in which the Government is already a party,\" id . \u00a7 3730(e)(3), or are the subject of another person's pending qui tam action, see id . \u00a7 3730(b)(5).\nAs to the usual effect of a Rule 41(a) dismissal--aside from a court's inherent postdismissal authority to consider such collateral matters as the possibility of sanctions, see , e.g. , Cooter & Gell v. Hartmarx Corp. , 496 U.S. 384, 395-97, 110 S.Ct. 2447, 110 L.Ed.2d 359 (1990) --it is hornbook law that \"a voluntary dismissal without prejudice under Rule 41(a)leaves the situation as if the action never had been filed ,\" Wright & Miller \u00a7 2367, at 559 (emphasis added); see , e.g. , 8 Moore's Federal Practice \u00a7 41.34[6][d] (2018) (stipulation for dismissal \"without prejudice terminates the action as if it were never filed \" (emphasis added)).\nThis long established principle has been recognized by this Circuit and most others. See , e.g. , A.B. Dick Co. v. Marr , 197 F.2d 498, 502 (2d Cir. 1952) (\"voluntary dismissal of a suit leaves the situation so far as procedures therein are concerned the same as though the suit had never been brought\"), cert. denied , 344 U.S. 878, 73 S.Ct. 169, 97 L.Ed. 680 (1952) ; Bomer v. Ribicoff , 304 F.2d 427, 428 (6th Cir. 1962) (dismissal of an action without prejudice leaves the situation the same as if the suit had never been brought); In re Piper Aircraft Distribution System Antitrust Litigation , 551 F.2d 213, 219 (8th Cir. 1977) (same); Beck v. Caterpillar, Inc. , 50 F.3d 405, 407 (7th Cir. 1995) (same); EEOC v. W.H. Braum, Inc. , 347 F.3d 1192, 1201 (10th Cir. 2003) (same); In re Matthews , 395 F.3d 477, 480 (4th Cir. 2005) (same); Harvey Specialty & Supply, Inc. v. Anson Flowline Equipment, Inc. , 434 F.3d 320, 324 (5th Cir. 2005) (same); City of South Pasadena v. Mineta , 284 F.3d 1154, 1157 (9th Cir. 2002) (same; \"any future lawsuit based on the same claim [is] an entirely new lawsuit\" (internal quotation marks omitted)); Sandstrom v. ChemLawn Corp. , 904 F.2d 83, 86 (1st Cir. 1990) (same; \"the page is once again pristine\").\nAs discussed further in Part II.B.2.c. below, this principle is applicable to a voluntarily dismissed qui tam action. See Webster v. United States , 217 F.3d 843, 2000 WL 962249 July 12, 2000 (\" Webster \"). Citing, inter alia , contemporaneous editions of Wright & Miller and Moore's Federal Practice , the Webster court noted that \"[a] voluntary dismissal without prejudice leaves the situation as if the action never had been filed\" (internal quotation marks omitted) and \"renders the proceedings a nullity\" (internal quotation marks omitted). 2000 WL 962249, at *2. The court ruled that \"Webster c[ould ]not assert the rights of an original qui tam plaintiff ... because she abandoned those rights when she voluntarily dismissed her [prior qui tam ] suit.\" Id .\n2. The Record\nIn seeking to avoid this normal consequence of a voluntary dismissal, DaSilva argues that the district court should not have found his dismissal voluntary because he presented evidence that it was instead the result of impermissible coercion by the government (see DaSilva brief on appeal at 23-27). The record does not support this contention.\nBefore Judge Sullivan in the district court, the qui tam attorneys argued that DaSilva had dismissed his qui tam action \"only after intense pressure from the government\" (DaSilva Eligibility Motion at 1). In support of this assertion, they stated as follows, citing portions of the Radner affidavit:\nAUSA Nawaday claimed [DaSilva's] counsel was in violation of ethical duties by representing [DaSilva] because he was a fugitive. [Radner Aff.] \u00b6 28. [DaSilva's] counsel was left with the belief that if [DaSilva's] complaint were not dismissed, bar grievances would be filed against [DaSilva's] counsel. Id . \u00b6 31. Subsequently, under immense pressure from AUSA Nawaday, [DaSilva] dismissed his case with the consent of the Government and without prejudice because of the alleged difficulties in prosecuting the case while Mr. DaSilva remained out of the country avoiding unrelated criminal matters in Michigan. Id . \u00b6 33.\n(DaSilva Eligibility Motion at 4.) The record citations in that argument support only the proposition that Radner, in paragraph 31 of his affidavit, stated that \"[b]ased upon the communications with the New York U.S. Attorney's office it was my belief that if [DaSilva] did not dismiss his action, bar grievances would be filed against [DaSilva's] counsel\" (Radner Aff. \u00b6 31). Radner's paragraph 33--the only record item cited in support of DaSilva's claim of \"immense pressure\"--stated in full as follows:\nCounsel for DaSilva voluntarily dismissed the action on August 19, 2014, and the United States consented to such voluntary dismissal on August 20, 2014. This case was then dismissed without prejudice on September 3, 2014.\n(Radner Aff. \u00b6 33 (emphases added).)\nThe other paragraph of Radner's affidavit that was cited in the Eligibility Motion's claim of immense and intense pressure stated as follows:\nOn April 25, 2014, DaSilva's qui tam complaint was filed.\nOn April 28, 2014, AUSA Nawaday stated in an email to [DaSilva's] Counsel \"Please let us know if you are available at 2 pm tomorrow to discuss the complaint with my colleague ... and me. Among other things, we would like to hear your position as to why you chose to list Mr. DaSilva is listed [sic ] as a resident of Michigan in paragraph 17 and why representation of a fugitive in a new civil matter, to assert claims on behalf of the United States, complies with the applicable rules of professional conduct. Thanks.\"\n(Radner Aff. \u00b6 28.)\nNothing other than paragraphs 28, 31, and 33 of the Radner affidavit was cited to support DaSilva's claim of coercion.\nIn reality, the record forecloses any conclusion other than that the dismissal was voluntary. DaSilva's attorneys did not contend that the government had misquoted the Michigan bar governance principle that provided that, as to \"a client who has chosen independently to become a fugitive from justice,\" a \"lawyer may not represent the client in collateral or unrelated matters while the lawyer knows the client remains a fugitive,\" Mich. Ethics Op. RI-160. And we have seen no indication in the record that DaSilva's attorneys suggested to Judge Nathan that the government lacked a legitimate concern about the propriety of (a) having the United States represented by a fugitive who, in the words of his own attorneys, \"remained out of the country avoiding the unrelated criminal matters in Michigan\" (DaSilva Eligibility Motion at 4), and (b) having the government represented by his attorneys who were thus apparently willing to proceed in violation of express ethical constraints.\nAlthough DaSilva on appeal complains that the government referred only to the \"syllabus\" of the Michigan Ethics Opinion (or \"Opinion\"), and states that \"[a] closer reading of the [O]pinion's text would have revealed a more nuanced picture\" (DaSilva brief on appeal at 25), the record does not indicate that his counsel proffered a \"nuanced\" reading to either Judge Nathan or Judge Sullivan. Nor is it clear to us from our own reading of the complete text of the Michigan Ethics Opinion that there is any reasonable basis for deeming the prohibition summarized in the syllabus inapplicable to DaSilva's attorneys. The text described a client who was on probation, who had removed his physical restraints and become a fugitive, and who had asked his lawyer to assist him in asserting claims for the recovery of money and property. The Opinion's conclusion was reported nearly verbatim in the syllabus, which stated, inter alia , \"the lawyer must counsel the client that the requested services may not be performed while the client remains a fugitive . If the lawyer's attempts to convince the client to come forward are unsuccessful, the lawyer must withdraw from representing the client .\" Mich. Ethics Op. RI-160 (emphases added).\nNor did DaSilva's attorneys suggest that there was any error in Judge Nathan's factual understanding that \"counsel for Mr. DaSilva ha[d] stated [to the government] their intention to withdraw and voluntarily dismiss this action if Mr. DaSilva did not surrender by June 23, 2014,\" July 2014 Order (emphasis added); see also August 2014 Order (\"qui tam counsel\" had made a \"representation to the Government that they would voluntarily withdraw the complaint if DaSilva did not surrender\" (emphasis added)). And when the August 2014 Order stated, in light of the facts that DaSilva had not returned and qui tam counsel had not withdrawn the complaint, that the government could move for dismissal, DaSilva's qui tam counsel quickly filed a motion--having been assured that the government would consent--\"request[ing] that th[e] action be voluntarily dismissed without prejudice .... pursuant to Rule 41(a)(1)(A)(i) of the Federal Rules of Civil Procedure.\" (DaSilva Voluntary Dismissal Request at 1 (emphasis added)).\nDaSilva's Rule 41(a)(1)(A)(i) motion was granted in light of the United States's consent and \"[i]n light of Relator Milton DaSilva's request on August 19, 2014 that this action be voluntarily dismissed.\" September 2014 Order.\nThe record thus provides no basis for a finding that DaSilva had in effect been coerced to abandon his qui tam action. Indeed, Radner's affidavit, after stating that \"Counsel for DaSilva voluntarily dismissed the action,\" went on to say that \"[n]othing in any of the orders prevented or precluded counsel for DaSilva to re-file this claim,\" and that in fact counsel had\nplanned on refiling this action whether or not DaSilva returned. However, for simplicity's sake, we were waiting for him to return.\n(Radner Aff. \u00b6\u00b6 33, 34.)\nIn sum, the record cannot support the claim that DaSilva was unfairly pressured to dismiss his qui tam action. The district court properly found that the action was voluntarily dismissed. Given that the legal effect of such a dismissal is that it is as if the action had never been filed, and given that DaSilva never filed a new action, the district court correctly ruled that there was no qui tam action pending when, more than 14 months later, the United States filed its own action against EOTech.\nB. DaSilva's Claim for a Share of the Proceeds from the Government's FCA Action Against EOTech\nAs indicated at the outset of the Background section of this opinion, an action under the FCA may be brought either by the government, in the name of the United States, see 31 U.S.C. \u00a7 3730(a), or by a private person as the relator in a qui tam action, see id . \u00a7 3730(b). The government has the right to intervene in a qui tam action. See id . \u00a7\u00a7 3730(b)(2) and (b)(4). If the government intervenes, it takes on \"the primary responsibility for prosecuting the action,\" id . \u00a7 3730(c)(1) ; if it declines to intervene in the qui tam action, \"the person who initiated the action shall have the right to conduct the action,\" id . \u00a7 3730(c)(3).\n1. Shares of the Proceeds for the Qui Tam Relator\nSection 3730(d), titled \"AWARD TO QUI TAM PLAINTIFF,\" contains several express provisions as to the relator's permissible share of the amount the government is awarded in, or receives in settlement of, his qui tam action. That subsection states in pertinent part as follows:\n(1) If the Government proceeds with an action brought by a person under subsection (b) , such person shall ... [generally] receive at least 15 percent but not more than 25 percent of the proceeds of the action or settlement of the claim , depending upon the extent to which the person substantially contributed to the prosecution of the action. ... Any payment to a person under the [above] sentence ... shall be made from the proceeds ....\n(2) If the Government does not proceed with an action under this section , the person bringing the action or settling the claim shall receive an amount which the court decides is reasonable for collecting the civil penalty and damages. The amount shall be not less than 25 percent and not more than 30 percent of the proceeds of the action or settlement and shall be paid out of such proceeds ....\n31 U.S.C. \u00a7\u00a7 3730(d)(1)-(2) (emphases added). Each of these paragraphs provides that the relator will also be entitled to reasonable attorneys' fees, expenses, and costs, but to be paid by the defendants. See also id . \u00a7 3730(d)(3) (if the qui tam relator planned and initiated the FCA violation on which the action was brought, his share of the proceeds may be reduced; and if he is convicted of criminal conduct arising from his role in the violation, he is to receive no share).\nIn sum, as most relevant here, under paragraph (1) of subsection (d), when the government has intervened in (and thus takes over) the qui tam action brought under \"subsection (b),\" the relator will generally be entitled to a share of between 15% and 25% of what the government receives in the action or in settlement of the claim. Under paragraph (2) of subsection (d), when the government has not proceeded under \"this section \" (emphasis added)--i.e. , it has neither intervened in the \u00a7 3730(b)qui tam action nor brought its own FCA action under \u00a7 3730(a), leaving it up to the relator to conduct the qui tam action--the relator's share will generally be between 25% and 30% of the proceeds of the qui tam action or settlement. But \u00a7 3730(d) does not make any provision for the qui tam relator to receive a share of proceeds received by the government for violation of the FCA if the government has not intervened in the qui tam action and has instead brought its own suit under \u00a7 3730(a). DaSilva contends that this scenario is one that is covered by \u00a7 3730(c)(5).\n2. The Government's Pursuit of an \"Alternate Remedy\"\nSection 3730(c), titled \"RIGHTS OF THE PARTIES TO QUI TAM ACTIONS,\" contains several provisions as to the conduct of qui tam actions: some expressly applicable when the government has intervened, some expressly applicable when it has not, and at least one applicable whether or not it has intervened.\nUnder paragraphs (1) and (2) of \u00a7 3730(c), if the government has intervened and \"proceeds with the action,\" it assumes primary responsibility for the action, but the qui tam relator \"ha[s] the right to continue as a party to the action, subject to the limitations set forth in paragraph (2),\" 31 U.S.C. \u00a7 3730(c)(1). Paragraph (2) provides in part as follows:\n(A) The Government may dismiss the action notwithstanding the objections of the person initiating the action if the person has been notified by the Government of the filing of the motion and the court has provided the person with an opportunity for a hearing on the motion.\n(B) The Government may settle the action with the defendant notwithstanding the objections of the person initiating the action if the court determines, after a hearing, that the proposed settlement is fair, adequate, and reasonable under all the circumstances. ...\n(C) Upon a showing by the Government that unrestricted participation during the course of the litigation by the person initiating the action would interfere with or unduly delay the Government's prosecution of the case, or would be repetitious, irrelevant, or for purposes of harassment, the court may, in its discretion, impose limitations on the person's participation, such as --\n(i) limiting the number of witnesses the person may call; (ii) limiting the length of the testimony of such witnesses; (iii) limiting the person's cross-examination of witnesses; or (iv) otherwise limiting the participation by the person in the litigation ....\n31 U.S.C. \u00a7\u00a7 3730(c)(2)(A)-(C) (emphases added).\nParagraph (3) of \u00a7 3730(c) deals with proceedings in the qui tam action when the government has elected--as permitted in \u00a7 3730(b)(4) --\"not to proceed with the action.\" 31 U.S.C. \u00a7 3730(c)(3). Paragraph (3) provides in part that \"the person who initiated the action shall have the right to conduct the action,\" although the government may be allowed to intervene later \"upon a showing of good cause.\" Id . Paragraph (4) of \u00a7 3730(c) --which we discuss further in Part II.B.2.c. below--provides that \"[w]hether or not the Government proceeds with the action,\" the government may persuade the court to stay discovery by the qui tam relator if that discovery \"would interfere with the government's investigation or prosecution of a criminal or civil matter arising out of the same facts.\" Id . \u00a7 3730(c)(4).\nParagraph (5) of \u00a7 3730(c), on which DaSilva relies as authority for his eligibility to share in the proceeds of the action brought by the government against EOTech under \u00a7 3730(a), provides as follows:\n(5) Notwithstanding subsection (b) , the Government may elect to pursue its claim through any alternate remedy available to the Government , including any administrative proceeding to determine a civil money penalty. If any such alternate remedy is pursued in another proceeding, the person initiating the action shall have the same rights in such proceeding as such person would have had if the action had continued under this section . Any finding of fact or conclusion of law made in such other proceeding that has become final shall be conclusive on all parties to an action under this section. For purposes of the preceding sentence, a finding or conclusion is final if it has been finally determined on appeal to the appropriate court of the United States, if all time for filing such an appeal with respect to the finding or conclusion has expired, or if the finding or conclusion is not subject to judicial review.\n31 U.S.C. \u00a7 3730(c)(5) (emphases added). Our Court has not previously had occasion to interpret this section.\nSeveral of our Sister Circuits have dealt with cases concerning the meaning of \u00a7 3730(c)(5)'s \"alternate remedy\" clause. The consensus appears to have been that \u00a7 3730(c)(5) is applicable only if, when the government chose to pursue any alternate remedy, there was a qui tam action pending into which the government could--alternatively--have intervened. See United States ex rel. Babalola v. Sharma , 746 F.3d 157, 162 (5th Cir. 2014) (\" Babalola \") (noting that \"no circuit court has expressly held that a qui tam action must be filed prior to the alternate remedy,\" but \"interpret[ing] other circuits' analyses of the alternate remedy provision as implicitly recognizing that a qui tam suit must be filed before there is an alternate remedy,\" citing as examples United States ex rel. Bledsoe v. Community Health Systems, Inc. , 342 F.3d 634, 647 (6th Cir. 2003) (\" Bledsoe \"); United States ex rel. LaCorte v. Wagner , 185 F.3d 188, 190 (4th Cir. 1999) (\" LaCorte \"); and United States ex rel. Barajas v. Northrop Corp. , 258 F.3d 1004, 1010 (9th Cir. 2001) (\" Barajas \")). See also Webster , 2000 WL 962249, at *2.\nIn Babalola , medical assistants who had practiced medicine in Nigeria (\"the Assistants\") sent an anonymous letter to the government in 2007 alleging, in detail, that the defendants had submitted numerous fraudulent Medicare and Medicaid claims. The government's investigation of these allegations (which included contacting the theretofore anonymous Assistants to inquire whether they had any knowledge about the allegations) resulted in the defendants' indictment in July 2009, their guilty pleas in April 2010, and their sentences in February 2011 which included orders to pay more than $43 million in restitution. See 746 F.3d at 159. In November 2011, while the defendants' appeals from their sentences were pending (the restitution ordered was later reduced to some $37.6 million), the Assistants filed their FCA qui tam action based on the claims set out in their 2007 anonymous letter, and they later moved under \u00a7 3730(c)(5) for a share of the government's recovery of restitution in the criminal case. The government moved to dismiss the qui tam action on the ground that the relators were not entitled to share in money pursued by the government prior to their filing of the qui tam action. The district court granted the government's motion; the court of appeals affirmed.\nExamining the first sentence of \u00a7 3730(c)(5), which states that the government may elect to pursue an FCA claim through any alternate remedy available to it \"[n]otwithstanding subsection (b),\" and noting that \"subsection (b) is ... the provision in \u00a7 3730 that allows a private person to file a qui tam action,\" the Fifth Circuit stated that\nthis first sentence means that, notwithstanding that a private person has filed a qui tam suit, the Government may elect to pursue an alternate remedy to the qui tam suit. ...\nThe word \"alternate,\" as used in this context, is defined as \"a choice between two or among more than two objects or courses .\" Webster's Third New International Dictionary (1993) at p. 63. We agree with the district court's reasoning that for a remedy to be \"alternate\" to the qui tam proceeding, there must have been two proceedings from which to choose. Accordingly , we hold that the qui tam proceeding must have been in existence at the time of the Government's election of the alternate remedy .\nBabalola , 746 F.3d at 161-62 (emphases ours).\nIn Webster , the plaintiff had initiated a qui tam action but had later voluntarily--with the government's consent--dismissed the action without prejudice, believing that the defendants would be impecuniated by criminal proceedings. The government subsequently brought a civil action under \u00a7 3730(a), and Webster attempted to intervene. The Fourth Circuit affirmed the denial of her motion to intervene.\nAfter applying \u00a7 3730(b)(5) --which provides that no person other than the government is allowed to intervene in an action brought under subsection (b), i.e. , in a private person's qui tam action--to bar a person also from intervening in an action brought under subsection (a) by the government, see 2000 WL 962249, at *2, the court rejected Webster's contention that she was entitled to share in any recovery by the government under \u00a7 3730(c)(5) :\nThat provision allows the government \"to pursue its claim through any alternate remedy available to the Government, including any administrative proceeding to determine a civil money penalty.\" If the government elects an alternate remedy, \"the person initiating the action shall have the same rights in such proceeding as such person would have had if the action had continued under this section.\" 31 U.S.C. \u00a7 3730(c)(5). Webster maintains that the government's FCA suit is an alternate remedy .... [W]e disagree. Section 3730(c)(5)\"does not confer any rights on would-be intervenors.\" LaCorte , 185 F.3d at 191. Rather, it \"simply preserves the rights of the original qui tam plaintiffs when the government resorts to an alternate remedy in place of the original action.\" Id .Webster cannot assert the rights of an original qui tam plaintiff, however, because she abandoned those rights when she voluntarily dismissed her [qui tam] suit ....\nWebster , 2000 WL 962249, at *2 (emphases ours).\nThe court also rejected Webster's contention that her voluntary dismissal should be disregarded, i.e. , \"that she should have the same rights\" in the government's suit \"that she would have had in her own, had she not dismissed it,\" stating that\n[r]equiring a qui tam plaintiff to make some effort to prosecute her suit in order to participate in any ultimate recovery results in neither unfairness nor the frustration of congressional policy . By barring private persons from intervening in pending FCA actions or from bringing related suits, section 3730(b) creates a race to the courthouse: the winner of that race is the only person allowed to participate in the government's recovery, thus providing incentive to promptly report fraud. Once the race is won, however, the winner is not free simply to claim the prize and go home. As we and numerous other courts have observed, \"[t]he history of the FCA qui tam provisions demonstrates repeated congressional efforts to walk a fine line between encouraging whistle-blowing and discouraging opportunistic behavior .\" United States ex rel. Springfield Terminal Ry. v. Quinn , 14 F.3d 645, 651 (D.C.Cir.1994).... As the government points out, Webster's reading of the statute would allow a private party to file a qui tam false claims suit with no intention of pursuing it , dismiss the suit without prejudice , and then, when the government chose to investigate and prosecute its own claim, clamber back on board . The careful balance struck by Congress would be thrown awry if individuals could stockpile potential qui tam claims while waiting for more diligent plaintiffs to bring the case in earnest.\nWebster , 2000 WL 962249, at *3 (emphases added).\nWhile Babalola and Webster dealt directly with whether the \"alternate remedy\" provision is applicable when there is no qui tam action pending, the courts in Barajas and Bledsoe were focused more on whether the applicability of \u00a7 3730(c)(5) depended on whether or not the government had intervened in the qui tam action--and they concluded that it was applicable only if the government had not intervened, see , e.g. , Bledsoe , 342 F.3d at 647 (\"We hold that 'alternate remedy' refers to the government's pursuit of any alternative to intervening in a relator's qui tam action.\" (emphasis added));\nBarajas , 258 F.3d at 1010 (concluding that \u00a7 3730(c)(5)'s \"use of the term 'alternate remedy' makes clear that the government must choose one remedy or the other\"). While we are skeptical that \u00a7 3730(c)(5) is so limited, given other FCA provisions that envision the government's pursuit of other proceedings even after it has intervened in a qui tam action--for example, allowing the government to seek stays of discovery by the relator in the qui tam action if that discovery \"would interfere with the Government's ... prosecution of a ... civil matter arising out of the same facts ,\" \"[w]hether or not the Government proceeds with the [qui tam ] action,\" 31 U.S.C. \u00a7 3730(c)(4) (emphases added)--we agree with Babalola that Barajas and Bledsoe implicitly considered an existing qui tam action to be a prerequisite to any recovery under \u00a7 3730(c)(5).\nAll of these opinions found \u00a7 3730(c)(5) to be clear and unambiguous in its availability only if there existed a pending qui tam action in which the government could intervene. We reach the same ultimate conclusion in the circumstances here--i.e. , that \u00a7 3730(c)(5)'s \"alternate remedy\" provision does not entitle a person to a share of the government's recovery if, at the time the government pursued its alternate remedy, the person, having voluntarily dismissed his qui tam action, had no qui tam action pending. We conclude that \"alternate\" has that meaning in light of \u00a7 3730(c)(5) when \" 'read in [its] context and with a view to [its] place in the overall statutory scheme,' \" Sturgeon v. Frost , --- U.S. ----, 136 S.Ct. 1061, 1070, 194 L.Ed.2d 108 (2016) (quoting Roberts v. Sea-Land Services, Inc. , 566 U.S. 93, 102, 132 S.Ct. 1350, 182 L.Ed.2d 341 (2012) ). But our road to that conclusion is not so easy. As discussed below, the word \"alternate\" appears in a section whose individual parts are less than pellucid: some that are susceptible to more than one interpretation, some that we think cannot have been meant literally, and some in which the same words in successive sentences have demonstrably different meanings.\nAlthough \u00a7 3730(c)(5) is set out in full earlier, we repeat its first three sentences here, numbered, for ease of reference:\n[1]Notwithstanding subsection (b) , the Government may elect to pursue its claim through any alternate remedy available to the Government , including any administrative proceeding to determine a civil money penalty. [2] If any such alternate remedy is pursued in another proceeding, the person initiating the action shall have the same rights in such proceeding as such person would have had if the action had continued under this section . [3] Any finding of fact or conclusion of law made in such other proceeding that has become final shall be conclusive on all parties to an action under this section.\n31 U.S.C. \u00a7 3730(c)(5) (emphases added).\na. \"Notwithstanding subsection (b) \"\nThe very first clause of \u00a7 3730(c)(5), viewed on its own, is ambiguous. \"Notwithstanding subsection (b)\" could mean either (1) notwithstanding what that subsection authorizes or (2) notwithstanding any actions taken in accordance with that subsection. If it meant solely the former, then no existing qui tam action would be required in order to trigger the applicability of \u00a7 3730(c)(5). However, given Congress's goal of encouraging private persons to assist the government, see , e.g. , United States ex rel. Kelly v. Boeing Co. , 9 F.3d 743, 748 (9th Cir. 1993) (\"the entire purpose of the FCA's qui tam provisions is to employ the help of individuals to uncover fraud against the government\"), and the first sentence's reference to remedies that are \"available to the Government\" (emphasis added), we see no basis for inferring that Congress intended \u00a7 3730(c)(5) to confer monetary rewards on persons who are merely authorized to bring fraud suits in the name of the government but do not do so. If a qui tam action is not pending, it is not available. No one is entitled to share in the proceeds of the government's recovery by reason of a qui tam action that is merely an inchoate possibility.\nThus, we interpret the \"[n]otwithstanding\" clause as meaning that what follows it is to be given effect regardless of any actions taken in accordance with subsection (b). If our focus were on actions of the government, we would thus interpret this initial clause to mean notwithstanding which of the options presented by subsection (b) was adopted by the government, which include opting to intervene and declining to intervene, see 31 U.S.C. \u00a7\u00a7 3730(b)(4)(A)-(B). A private person, however, has no options under subsection (b) if he does not pursue his right to bring a qui tam action.\nb. \"alternate \"\nStill focusing on \u00a7 3730(c)(5)'s first sentence, we note that the word \"alternate\" is one we have not seen used in other statutory enactments focusing on choices of remedies. However, \"alternate\" seems clearly to have been meant in its common usage as a synonym of the more frequently used word \"alternative,\" see Webster's Third New International Dictionary 63 (2002) (defining \"alternate\" as, inter alia , \"a choice between two or among more than two objects or courses: alternative \") (emphases added). The implication that the government is expected to choose between or among options that exist is reinforced by other language in the sentence, including the reference to remedies that are \"available to\" the government. In addition, non-use of the simple phrase \"may pursue\" in favor of the adopted phrase \"may elect to pursue\" (emphasis added), likewise suggests a choice between existing options.\nGiving effect to common meanings of \"alternate\" and \"available,\" and to the presence of other language implying choices between existing options, all introduced by the phrase \"[n]otwithstanding subsection (b)\" which deals with qui tam actions, we agree with the district court that \u00a7 3730(c)(5) was meant to allow the government to choose between (1) exercising subsection (b) rights accorded to it with respect to a qui tam action and (2) pursuing an alternate or substitute remedy. For such a choice to be available, a qui tam action must have been in existence. But only a person, not the government, can bring a qui tam action. If no qui tam action is pending, a qui tam action remedy is thus not \"available\" to the government and is not an \"alternate\" to any other remedy.\nc. \"any alternate remedy \"\nSection 3730(c)(5)'s first sentence allows the government to pursue \"any alternate remedy available to [it]\" (emphasis added). The word \"any\" is all-encompassing, but the intended scope of the phrase as a whole, despite its apparently unbounded breadth, is not entirely clear. The means by which the government is authorized to combat frauds include criminal prosecutions. Indeed, the principal reason for the FCA requirement that a qui tam complaint initially be filed in camera and under seal is to minimize the possibility \"that a relator filing a civil complaint would alert defendants to a pending federal criminal investigation,\" State Farm Fire & Casualty Co. v. United States ex rel. Rigsby , --- U.S. ----, 137 S.Ct. 436, 443, 196 L.Ed.2d 340 (2016). In Babalola , discussed above, the court stated that it assumed arguendo that a criminal prosecution could be considered an alternate remedy, see 746 F.3d at 161 n.4, but it concluded that the prosecution in question was in fact not alternate \"because there was no qui tam action pending at the commencement of the restitution proceeding,\" id . at 159. Yet it is hardly clear that \"any alternate remedy\" was meant to include a criminal prosecution, given that the second sentence of \u00a7 3730(c)(5) states that \"[i]f any such alternate remedy is pursued in another proceeding, the person initiating the action\"--i.e. , the qui tam relator--\"shall have the same rights in such proceeding as such person would have had if the action had continued under this section\" (emphases added). We would find it difficult to infer that Congress intended a private qui tam relator to be entitled to, for example, conduct discovery and cross-examine the witnesses in a criminal prosecution.\nRegardless, however, of whether \"any alternate remedy\" may include a criminal prosecution, we think it clear from other FCA provisions that that phrase was intended to include the government's authorization to bring a civil suit under \u00a7 3730(a). For one thing, if the government preferred not to intervene in an existing qui tam action, it would seem perverse to exclude from the alternatives \"available to [it]\" the judicial civil remedy that the government is explicitly authorized to pursue in \u00a7 3730(a).\nIn addition, other FCA sections indicate that there is no impediment to the government's commencement of its own action under \u00a7 3730(a) after a qui tam action under subsection (b) has been brought. Paragraph (5) of subsection (b), for example, provides in part that \"[w]hen a person brings an action under this subsection, no person other than the Government may ... bring a related action based on the facts underlying the pending action .\" 31 U.S.C. \u00a7 3730(b)(5) (emphasis added). That this prohibition is only against persons \"other than\" the government seems to imply that \"the Government\" indeed \"may ... bring a related action based on the facts underlying\" a \"pending\" qui tam action. Further, the paragraph immediately preceding \u00a7 3730(c)(5) explodes any lingering supposition that the government is not permitted to commence its own \u00a7 3730(a) action after a qui tam action has been commenced. That (c)(4) paragraph, as mentioned previously, provides, in pertinent part, that the government may obtain stays of discovery by the qui tam relator if that discovery \"would interfere with the government's ... prosecution of a ... civil matter arising out of the same facts ,\" 31 U.S.C. \u00a7 3730(c)(4) (emphases added). Given that the FCA provides that \"[i]n no event may a person bring an action under subsection (b) which is based on allegations or transactions which are the subject of a civil suit or an administrative civil money penalty proceeding in which the Government is already a party,\" id . \u00a7 3730(e)(3) (emphases added), the government's prosecution of any \"civil matter arising out of the same facts\" as the qui tam action, id . \u00a7 3730(c)(4), would necessarily have been initiated after the filing of the qui tam action.\nIn sum, while there may be some question as to the precise intended scope of the phrase \"any alternate remedy,\" we think it clear from the FCA as a whole that the government may initiate its own suit under \u00a7 3730(a) even though there is a pending qui tam action. The government's suit--in contrast to an inchoate qui tam action--may properly be considered an \"alternate [available] remedy\" within the meaning of \u00a7 3730(c)(5).\nd. \"this section\" in \u00a7 3730(c)(5)'s Second Sentence vs \"this section\" in \u00a7 3730(c)(5)'s Third Sentence\nSection 3730(c)(5)'s second sentence provides that, in the government's pursuit of an alternate remedy in another proceeding, \"the person initiating the action shall have the same rights in such proceeding as such person would have had if the action had continued under this section.\" Although the phrase \"this section,\" viewed by itself, is literally broader than subsection (b), it is, in \u00a7 3730(c)(5)'s second sentence, limited by the fact that the rest of the sentence speaks in precise terms of \"the action\" that was \"initiat[ed]\" by \"the person,\" which can only refer to the qui tam action authorized by subsection (b). Thus, in this second sentence of \u00a7 3730(c)(5), \"the action\" that could be \"continued under this section\" must mean could be continued as a qui tam action.\nThe third sentence of \u00a7 3730(c)(5) also uses the term \"this section,\" but does so in a way that is not tied to a qui tam action. It states that any final \"finding of fact or conclusion of law made in\" the government's alternate remedy proceeding \"shall be conclusive on all parties to an action under this section\" (emphasis added). As this third sentence speaks in terms of \"an action under this section \" (emphasis added) and does not, like the second sentence, use the more restrictive phrases \"the action\" and initiated by \"the person,\" we interpret \"this section\" in the third sentence to refer to the whole of \u00a7 3730.\ne. \"if the action had continued under this section\"\nFinally, the second sentence of \u00a7 3730(c)(5), in stating that \"the person initiating the action shall have the same rights in such proceeding as such person would have had if the action had continued under this section,\" is not, on its own, entirely clear. DaSilva contends that the \"if the action had continued\" clause itself expressly hypothesizes that the qui tam action had been terminated, and since his action was terminated, he should be entitled to a share of the government's settlement received in its \u00a7 3730(a) action. Although Babalola opines that the language \"would have had if the action had continued under this section\" clearly indicates \"that the original qui tam action did not continue,\" 746 F.3d at 161 (internal quotation marks omitted), for two reasons we do not equate not-continued here with terminated.\nFirst, while some unadorned variations of the word \"continued,\" such as \"continuance\" and \"discontinuance,\" are legal terms of art, see , e.g. , Black's Law Dictionary 387 (10th ed. 2014) (defining \"continuance\" as, inter alia , \"[t]he adjournment or postponement of a trial or other proceeding to a future date\"); id . at 563 (defining \"discontinuance\" as, inter alia , \"[t]he termination of a lawsuit by the plaintiff\"), the word \"continued\" itself is not defined in that dictionary. Nor, in \u00a7 3730(c)(5), is it unadorned. Section 3730(c)(5) grants rights as \"if the action had continued under this section \" (emphasis added), phrasing consistent with a mere pause in the qui tam action in order to allow the government's pursuit of its alternate remedy.\nSecond, we view any interpretation of \"if the action had continued\" to imply that the qui tam action had in fact been terminated as foreclosed by the third sentence of \u00a7 3730(c)(5). This third sentence provides that any final findings of fact in the alternate remedy proceeding \"shall be conclusive on all parties to an action under this section.\" But the alternate remedy proceeding's findings and conclusions could have no such effect in an action that had already ended. Thus, we conclude that \u00a7 3730(c)(5) refers to qui tam actions that were pending when the government considered its alternatives and that continued in existence--albeit likely stayed--while an alternate to participation in the qui tam action was pursued.\n* * *\nIn sum, we conclude that \u00a7 3730(c)(5), read as a whole and in light of other unambiguous provisions in the FCA, entitles a person who brought a qui tam action to share in the recovery gained by the government in a proceeding it has pursued as an alternative to the qui tam action, if the relator's qui tam action was pending when the government was choosing what course to pursue.\nDaSilva argues that this interpretation will allow the government unfairly to intervene in qui tam actions, have those actions dismissed, and then bring its own action, thereby depriving the qui tam relators of any right to share in the proceeds gained by the government. The FCA itself, however, includes some safeguards against unfairness by providing for example, that a qui tam action may not be dismissed by the government without notice to the relator and, if the relator objects, without the court's affording \"an opportunity for a hearing,\" 31 U.S.C. \u00a7 3730(c)(2)(A). And it provides that the government may not settle the action over the relator's objections unless \"the court determines, after a hearing, that the proposed settlement is fair, adequate, and reasonable under all the circumstances.\" Id . \u00a7 3730(c)(2)(B).\nBut the record before us presents neither the unfairness hypothesized by DaSilva nor a settlement or dismissal over a relator's objections. DaSilva's qui tam action was voluntarily dismissed on motion of his attorneys in light of the Michigan Ethics Opinion prohibiting an attorney from representing in collateral matters a client the lawyer knows remains a fugitive. That voluntary dismissal made DaSilva's action a nullity and left him with no vestige of qui tam relator status. As there was no existing qui tam action because DaSilva voluntarily dismissed his action, \u00a7 3730(c)(5) does not entitle him to share in the government's recovery in its own subsequent proceeding.\nCONCLUSION\nWe have considered all of DaSilva's arguments on this appeal and have found them to be without merit. The district court's order denying his motion to share in the government's recovery is affirmed.",
+        "type": "majority",
+        "author": "KEARSE, Circuit Judge:"
+      }
+    ],
+    "attorneys": [
+      "JOSEPH N. CORDARO, Assistant United States Attorney, New York, New York (Joon H. Kim, Acting United States Attorney for the Southern District of New York, Christopher Connolly, Assistant United States Attorney, New York, New York, on the brief), for Plaintiff-Appellee.",
+      "DANIEL W. WEININGER, Southfield, Michigan, (Keith L. Altman, Excolo Law, Southfield, Michigan, on the brief), for Movant-Appellant."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee,\nv.\nL-3 COMMUNICATIONS EOTECH, INC., L-3 Communications Corporation, Paul Mangano, Defendants.\nMilton DaSilva, Movant-Appellant.\nDocket No. 17-0621\nAugust Term, 2017\nUnited States Court of Appeals, Second Circuit.\nArgued: January 18, 2018\nDecided: April 4, 2019\nJOSEPH N. CORDARO, Assistant United States Attorney, New York, New York (Joon H. Kim, Acting United States Attorney for the Southern District of New York, Christopher Connolly, Assistant United States Attorney, New York, New York, on the brief), for Plaintiff-Appellee.\nDANIEL W. WEININGER, Southfield, Michigan, (Keith L. Altman, Excolo Law, Southfield, Michigan, on the brief), for Movant-Appellant.\nBefore: KATZMANN, Chief Judge, KEARSE and POOLER, Circuit Judges.\nThe Clerk of Court is directed to amend the official caption to conform with the above."
+  },
+  "file_name": "0011-01",
+  "first_page_order": 11,
+  "last_page_order": 30
+}

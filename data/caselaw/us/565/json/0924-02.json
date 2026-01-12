@@ -1,0 +1,59 @@
+{
+  "id": 12224675,
+  "name": "Gonzalez-Mendez v. United States",
+  "name_abbreviation": "Gonzalez-Mendez v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5871",
+  "first_page": "924",
+  "last_page": "924",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 924"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 81,
+    "ocr_confidence": 0.686,
+    "sha256": "6f7d25da4cecddd5064b1deff5cca245a2f9b99dd67b55d82a98ef38956c7fd3",
+    "simhash": "1:050a960246909528",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gonzalez-Mendez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5871.\nGonzalez-Mendez v. United States."
+  },
+  "file_name": "0924-02",
+  "first_page_order": 1006,
+  "last_page_order": 1006
+}

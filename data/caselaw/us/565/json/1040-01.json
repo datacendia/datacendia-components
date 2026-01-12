@@ -1,0 +1,59 @@
+{
+  "id": 12233903,
+  "name": "Bradley v. Barrow, Warden",
+  "name_abbreviation": "Bradley v. Barrow",
+  "decision_date": "2011-11-14",
+  "docket_number": "No. 11-6383",
+  "first_page": "1040",
+  "last_page": "1040",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1040"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.636,
+    "sha256": "9ca6b2f8db292f94ce3ba5db2ae5fddcffe5dbdebdd4ca46b65146407c9eee70",
+    "simhash": "1:1ef84f3377cf127e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bradley v. Barrow, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6383.\nBradley v. Barrow, Warden."
+  },
+  "file_name": "1040-01",
+  "first_page_order": 1122,
+  "last_page_order": 1122
+}

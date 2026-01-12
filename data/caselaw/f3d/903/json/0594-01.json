@@ -1,0 +1,964 @@
+{
+  "id": 12518566,
+  "name": "UNITED STATES of America, Plaintiff-Appellee, v. Desmond CAMP, Defendant-Appellant.",
+  "name_abbreviation": "United States v. Camp",
+  "decision_date": "2018-09-07",
+  "docket_number": "No. 17-1879",
+  "first_page": "594",
+  "last_page": "604",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "903 F.3d 594"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "6th Cir.",
+    "id": 21296,
+    "name": "United States Court of Appeals for the Six Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "689 F.3d 621",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3500417
+      ],
+      "year": 2012,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/689/0621-01"
+      ]
+    },
+    {
+      "cite": "2018 WL 1448555",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "*8"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2017 WL 4082823",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "*3"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "811 F.3d 342",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4081755
+      ],
+      "weight": 3,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "346-47",
+          "parenthetical": "noting that, pursuant to the majority view, \"the unlawful taking of property of another by threats to property falls within the definition of extortion\""
+        },
+        {
+          "page": "346-47"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/811/0342-01"
+      ]
+    },
+    {
+      "cite": "393 U.S. 286",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11314176
+      ],
+      "weight": 5,
+      "year": 1969,
+      "pin_cites": [
+        {
+          "page": "290, 296"
+        },
+        {
+          "page": "295-96"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/393/0286-01"
+      ]
+    },
+    {
+      "cite": "537 U.S. 393",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9191165
+      ],
+      "weight": 3,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "409",
+          "parenthetical": "citation omitted"
+        },
+        {
+          "parenthetical": "citation omitted"
+        },
+        {
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/537/0393-01"
+      ]
+    },
+    {
+      "cite": "590 F. App'x 574",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        4336220
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "584",
+          "parenthetical": "concluding that the court does \"not need to abandon the plain meaning of the statute\" and, where the meaning of the statute is \"plain,\" the defendant need not provide a case to demonstrate a realistic probability that the statute is broader than the generic offense"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/590/0574-01"
+      ]
+    },
+    {
+      "cite": "198 L.Ed.2d 686",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12606248,
+        12606249,
+        12606250,
+        12606251,
+        12606252,
+        12606253,
+        12606254,
+        12606255
+      ],
+      "year": 2017,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/137/2250-04",
+        "/s-ct/137/2250-05",
+        "/s-ct/137/2250-06",
+        "/s-ct/137/2251-01",
+        "/s-ct/137/2251-02",
+        "/s-ct/137/2251-03",
+        "/s-ct/137/2251-04",
+        "/s-ct/137/2251-05"
+      ]
+    },
+    {
+      "cite": "137 S.Ct. 2251",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12606251,
+        12606252,
+        12606253,
+        12606254,
+        12606255,
+        12606256
+      ],
+      "year": 2017,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/137/2251-01",
+        "/s-ct/137/2251-02",
+        "/s-ct/137/2251-03",
+        "/s-ct/137/2251-04",
+        "/s-ct/137/2251-05",
+        "/s-ct/137/2251-06"
+      ]
+    },
+    {
+      "cite": "849 F.3d 221",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12277311
+      ],
+      "weight": 3,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "228"
+        },
+        {
+          "page": "228"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/849/0221-01"
+      ]
+    },
+    {
+      "cite": "517 F.3d 813",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3656878
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "815"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/517/0813-01"
+      ]
+    },
+    {
+      "cite": "895 F.3d 1153",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517574
+      ],
+      "weight": 6,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1156-57",
+          "parenthetical": "holding that Nevada robbery is not a categorical match with generic robbery because it allows \"a conviction to rest on fear of injury to property alone\""
+        },
+        {
+          "page": "1157"
+        },
+        {
+          "page": "1157-58",
+          "parenthetical": "holding that Nevada's robbery statute, which is substantially similar to Hobbs Act robbery, is not a categorical match with either generic robbery or Guidelines extortion and is not a crime of violence under the Guidelines"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/895/1153-01"
+      ]
+    },
+    {
+      "cite": "541 F.3d 881",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6049610
+      ],
+      "weight": 4,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "890-92"
+        },
+        {
+          "page": "891",
+          "parenthetical": "citation omitted"
+        },
+        {
+          "page": "890-91"
+        },
+        {
+          "page": "891-92"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/541/0881-01"
+      ]
+    },
+    {
+      "cite": "700 F.3d 751",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3637880
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "754"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/700/0751-01"
+      ]
+    },
+    {
+      "cite": "549 F. App'x 434",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        4114260
+      ],
+      "weight": 3,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "438-39"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/549/0434-01"
+      ]
+    },
+    {
+      "cite": "882 F.3d 605",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12515978
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "606-07",
+          "parenthetical": "holding that an offense requiring \"an application of force to an occupied structure, but not to the occupants themselves\" is not a crime of violence under the Armed Career Criminal Act's use-of-force clause"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/882/0605-01"
+      ]
+    },
+    {
+      "cite": "495 U.S. 575",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        634101
+      ],
+      "weight": 3,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "600-02"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/495/0575-01"
+      ]
+    },
+    {
+      "cite": "570 U.S. 254",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12698469
+      ],
+      "weight": 6,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "257-58"
+        },
+        {
+          "page": "257"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/570/0254-01"
+      ]
+    },
+    {
+      "cite": "135 S.Ct. 2551",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12591035
+      ],
+      "weight": 4,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "2557, 2562"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/135/2551-01"
+      ]
+    },
+    {
+      "cite": "136 S.Ct. 2243",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12598042
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "2248-53"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/136/2243-01"
+      ]
+    },
+    {
+      "cite": "953 F.2d 110",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10516765
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "113-14"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/953/0110-01"
+      ]
+    },
+    {
+      "cite": "441 F.3d 1084",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1037309
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "1086-87"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/441/1084-01"
+      ]
+    },
+    {
+      "cite": "706 F.3d 643",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6048808
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "647-49"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/706/0643-01"
+      ]
+    },
+    {
+      "cite": "890 F.3d 51",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516964
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "55-56"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/890/0051-01"
+      ]
+    },
+    {
+      "cite": "199 L.Ed.2d 141",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12612876,
+        12612877,
+        12612878,
+        12612879,
+        12612880,
+        12612881,
+        12612882
+      ],
+      "year": 2017,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/0215-04",
+        "/s-ct/138/0215-05",
+        "/s-ct/138/0215-06",
+        "/s-ct/138/0216-01",
+        "/s-ct/138/0216-02",
+        "/s-ct/138/0216-03",
+        "/s-ct/138/0216-04"
+      ]
+    },
+    {
+      "cite": "138 S.Ct. 215",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12612873,
+        12612874,
+        12612875,
+        12612876,
+        12612877,
+        12612878
+      ],
+      "year": 2017,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/0215-01",
+        "/s-ct/138/0215-02",
+        "/s-ct/138/0215-03",
+        "/s-ct/138/0215-04",
+        "/s-ct/138/0215-05",
+        "/s-ct/138/0215-06"
+      ]
+    },
+    {
+      "cite": "844 F.3d 137",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12175092
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "141"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/844/0137-01"
+      ]
+    },
+    {
+      "cite": "254 F.3d 1200",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11093296
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "1204"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/254/1200-01"
+      ]
+    },
+    {
+      "cite": "690 F.3d 1056",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3505088
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "1069"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/690/1056-01"
+      ]
+    },
+    {
+      "cite": "560 F.3d 420",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3431672
+      ],
+      "weight": 2,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "422"
+        },
+        {
+          "parenthetical": "brackets, citations, and internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/560/0420-01"
+      ]
+    },
+    {
+      "cite": "866 F.3d 723",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275591
+      ],
+      "weight": 6,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "728",
+          "parenthetical": "quoting United States v. Ford , 560 F.3d 420, 422 (6th Cir. 2009) "
+        },
+        {
+          "page": "734",
+          "parenthetical": "citation omitted"
+        },
+        {
+          "page": "733",
+          "parenthetical": "citation omitted"
+        },
+        {
+          "parenthetical": "citations omitted"
+        },
+        {
+          "page": "733-34"
+        },
+        {
+          "page": "734",
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/866/0723-01"
+      ]
+    },
+    {
+      "cite": "874 F.3d 1147",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12266950
+      ],
+      "weight": 11,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1158-59"
+        },
+        {
+          "page": "1158"
+        },
+        {
+          "page": "1155"
+        },
+        {
+          "page": "1154",
+          "parenthetical": "\"Hobbs Act robbery reaches conduct directed at 'property' because the statute specifically says so. We cannot ignore the statutory text and construct a narrower statute than the plain language supports.\" (citation omitted)"
+        },
+        {
+          "page": "1156",
+          "parenthetical": "\"We need not derive a generic definition of extortion because the Guidelines provide the applicable definition in Amendment 798.\""
+        },
+        {
+          "page": "1157"
+        },
+        {
+          "page": "1157",
+          "parenthetical": "noting that, in some other provisions, \"the Commission has limited the scope of injury to a person ... by saying so explicitly\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/874/1147-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 841",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 U.S.C. \u00a7 5845",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "206 F.3d 609",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11455200
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "615"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/206/0609-01"
+      ]
+    },
+    {
+      "cite": "198 L.Ed.2d 670",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        12606118,
+        12606119,
+        12606120,
+        12606121,
+        12606106,
+        12606108,
+        12606109,
+        12606110
+      ],
+      "year": 2017,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/137/2230-01",
+        "/s-ct/137/2230-02",
+        "/s-ct/137/2230-03",
+        "/s-ct/137/2230-04",
+        "/s-ct/137/2229-02",
+        "/s-ct/137/2229-04",
+        "/s-ct/137/2229-05",
+        "/s-ct/137/2229-06"
+      ]
+    },
+    {
+      "cite": "137 S.Ct. 2230",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12606118,
+        12606119,
+        12606120,
+        12606121,
+        12606122,
+        12606123
+      ],
+      "year": 2017,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/137/2230-01",
+        "/s-ct/137/2230-02",
+        "/s-ct/137/2230-03",
+        "/s-ct/137/2230-04",
+        "/s-ct/137/2230-05",
+        "/s-ct/137/2230-06"
+      ]
+    },
+    {
+      "cite": "850 F.3d 285",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12277283
+      ],
+      "weight": 3,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "292"
+        },
+        {
+          "page": "292"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/850/0285-01"
+      ]
+    },
+    {
+      "cite": "739 F.3d 873",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4083404
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "877",
+          "parenthetical": "Guidelines"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/739/0873-01"
+      ]
+    },
+    {
+      "cite": "829 F.3d 437",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4340759
+      ],
+      "weight": 3,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "443",
+          "parenthetical": " \u00a7 924(c) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/829/0437-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 924",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "(c)(1)(C)(i)"
+        },
+        {
+          "page": "(c)(3)"
+        },
+        {
+          "page": "(c)"
+        },
+        {
+          "page": "(c)(3)(A)"
+        },
+        {
+          "page": "(c)(3)(A)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 922",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(g)(1)"
+        },
+        {
+          "page": "(g)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 1951",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 6,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(b)(1)",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "parenthetical": "the Hobbs Act"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1028,
+    "char_count": 28868,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25906220787389533
+    },
+    "sha256": "a242a33812ee120d6b1e810f6a66bf481b9b03160f9f6213d67a57755cee8243",
+    "simhash": "1:985bdfb49a3575e8",
+    "word_count": 4658
+  },
+  "last_updated": "2024-02-27T18:45:28.627343+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before: CLAY, STRANCH, and LARSEN, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee,\nv.\nDesmond CAMP, Defendant-Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "JANE B. STRANCH, Circuit Judge.\nDesmond Camp pled guilty to Hobbs Act robbery, in violation of 18 U.S.C. \u00a7 1951(a) ; using a firearm during a crime of violence, in violation of 18 U.S.C \u00a7 924(c) ; and being a felon in possession of a firearm, in violation of 18 U.S.C. \u00a7 922(g)(1). He now appeals his conviction and sentence, arguing that Hobbs Act robbery is not a crime of violence and therefore cannot serve as a predicate for his \u00a7 924(c) conviction or his career offender classification. For the following reasons, we AFFIRM Camp's conviction, VACATE his sentence, and REMAND for resentencing.\nI. BACKGROUND\nIn November 2015, Desmond Camp robbed a dollar store at gunpoint. He was arrested and charged by indictment with Hobbs Act robbery, in violation of 18 U.S.C. \u00a7 1951(a) ; using a firearm during a crime of violence, in violation of 18 U.S.C \u00a7 924(c) ; and being a felon in possession of a firearm, in violation of 18 U.S.C. \u00a7 922(g)(1). Camp pled guilty on all counts.\nPursuant to 18 U.S.C. \u00a7 924(c)(1)(C)(i), Camp faced a 25-year mandatory minimum prison sentence on the \u00a7 924(c) count because he had a prior conviction for the same offense. The district court also determined that Camp was a career offender under the United States Sentencing Guidelines (USSG), finding that Camp's instant Hobbs Act robbery conviction was a crime of violence and that his two prior convictions-a 2003 federal bank robbery conviction and a 1990 Michigan armed robbery conviction-were both crimes of violence. Camp received a 372-month prison sentence-the 25-year mandatory minimum on the \u00a7 924(c) count and 72 months on the robbery and felon in possession counts, to run consecutively.\nCamp appeals his conviction and sentence, arguing that Hobbs Act robbery is not a crime of violence and therefore cannot serve as a predicate for his \u00a7 924(c) conviction or his career offender classification.\nII. ANALYSIS\nWhether an offense qualifies as a crime of violence under \u00a7 924(c) or under the Guidelines is a legal question that this court reviews de novo. See United States v. Rafidi , 829 F.3d 437, 443 (6th Cir. 2016) ( \u00a7 924(c) ); United States v. Cooper , 739 F.3d 873, 877 (6th Cir. 2014) (Guidelines). The Government acknowledges that Camp preserved his Guidelines challenge but argues that Camp waived his right to challenge his \u00a7 924(c) conviction by pleading guilty. Because Camp's \u00a7 924(c) argument fails on the merits, we need not resolve this question.\nA. Whether Hobbs Act Robbery Is a Crime of Violence Under \u00a7 924(c)\nCamp argues that Hobbs Act robbery is not a crime of violence under 18 U.S.C \u00a7 924(c). He acknowledges, however, that binding precedent forecloses his argument. In United States v. Gooch , we held that Hobbs Act robbery is a crime of violence under \u00a7 924(c)'s use-of-force clause. 850 F.3d 285, 292 (6th Cir. 2017), cert. denied , --- U.S. ----, 137 S.Ct. 2230, 198 L.Ed.2d 670 (2017). We explained that the Hobbs Act is divisible into Hobbs Act robbery and Hobbs Act extortion offenses, that a Hobbs Act robbery conviction \"requires a finding of actual or threatened force, or violence, or fear of injury, immediate or future,\" to person or property, and therefore \"clearly has as an element the use, attempted use, or threatened use of physical force against the person or property of another as necessary to constitute a crime of violence under \u00a7 924(c)(3)(A).\" Id. at 291-92 (citation and internal quotation marks omitted).\nCamp concedes that he was convicted of Hobbs Act robbery, rather than Hobbs Act extortion. Under Gooch , Camp's Hobbs Act robbery conviction qualifies as a crime of violence under \u00a7 924(c), and his argument to the contrary is foreclosed. \"This panel may not overrule the decision of another panel; the earlier determination is binding authority unless a decision of the United States Supreme Court mandates modification or this Court sitting en banc overrules the prior decision.\" United States v. Moody , 206 F.3d 609, 615 (6th Cir. 2000).\nB. Whether Hobbs Act Robbery Is a Crime of Violence Under the Guidelines\nOur holding in Gooch does not determine whether Hobbs Act robbery is a crime of violence under the career offender guideline, however, because 18 U.S.C. \u00a7 924(c)(3) and USSG \u00a7 4B1.2 define \"crime of violence\" differently.\nUnder the Sentencing Guidelines, a defendant is a career offender, and therefore subject to a higher guideline range, if:\n(1) the defendant was at least eighteen years old at the time the defendant committed the instant offense of conviction; (2) the instant offense of conviction is a felony that is either a crime of violence or a controlled substance offense; and (3) the defendant has at least two prior felony convictions of either a crime of violence or a controlled substance offense.\nUSSG \u00a7 4B1.1(a). The 2016 version of the Guidelines, which applies to Camp, defines crime of violence as:\n[A]ny offense under federal or state law, punishable by imprisonment for a term exceeding one year, that-\n(1) has as an element the use, attempted use, or threatened use of physical force against the person of another, or\n(2) is murder, voluntary manslaughter, kidnapping, aggravated assault, a forcible sex offense, robbery, arson, extortion, or the use or unlawful possession of a firearm described in 26 U.S.C. \u00a7 5845(a) or explosive material as defined in 18 U.S.C. \u00a7 841(c).\nUSSG \u00a7 4B1.2(a). Subsection (1) is known as the use-of-force or elements clause, and subsection (2) is known as the enumerated offense clause. The 2016 Guidelines, unlike prior versions, do not contain a residual clause.\nAlthough both 18 U.S.C. \u00a7 924(c) and USSG \u00a7 4B1.1(a) have a use-of-force clause, the Guidelines' force clause is limited to force against the person , while \u00a7 924(c) covers force against person or property . See 18 U.S.C. \u00a7 924(c)(3)(A) ; USSG \u00a7 4B1.2(a)(1). We must determine, then, whether Hobbs Act robbery is a crime of violence under the Guidelines.\nThe Hobbs Act provides that:\nWhoever in any way or degree obstructs, delays, or affects commerce or the movement of any article or commodity in commerce, by robbery or extortion or attempts or conspires so to do, or commits or threatens physical violence to any person or property in furtherance of a plan or purpose to do anything in violation of this section shall be fined under this title or imprisoned not more than twenty years, or both.\n18 U.S.C. \u00a7 1951(a). Robbery is in turn defined as:\nthe unlawful taking or obtaining of personal property from the person or in the presence of another, against his will, by means of actual or threatened force, or violence, or fear of injury, immediate or future, to his person or property, or property in his custody or possession, or the person or property of a relative or member of his family or of anyone in his company at the time of the taking or obtaining.\nId. \u00a7 1951(b)(1).\nMany courts of appeals have held that Hobbs Act robbery is a crime of violence under \u00a7 924(c). See Gooch , 850 F.3d at 292 (collecting cases and \"join[ing] our sister circuits in ruling that Hobbs Act robbery constitutes a crime of violence [under \u00a7 924(c) ]\"). The only circuit to have squarely addressed whether Hobbs Act robbery categorically qualifies as a crime of violence under the Guidelines, however, held that it was not. See United States v. O'Connor , 874 F.3d 1147, 1158-59 (10th Cir. 2017). The Tenth Circuit, applying the same version of the Guidelines that applies to Camp, determined that the minimum conduct necessary for a Hobbs Act robbery conviction is broader than the enumerated offenses of robbery and extortion and therefore concluded that Hobbs Act robbery is not a crime of violence under the enumerated offense clause. Id . at 1153-58. The court further held that Hobbs Act robbery does not have as an element the use or threatened use of force against the person , as is required under the Guidelines' use-of-force clause. Id . at 1158.\n1. Categorical Approach\nAs an initial matter, we must determine whether the categorical approach applies. We typically use the categorical approach to analyze whether a conviction qualifies as a crime of violence under the Guidelines, \"meaning that we look at the statutory definition of the crime of conviction, not the facts underlying that conviction, to determine the nature of the crime.\" United States v. Yates , 866 F.3d 723, 728 (6th Cir. 2017) (quoting United States v. Ford , 560 F.3d 420, 422 (6th Cir. 2009) ). Under the categorical approach, courts must \"assume that [the defendant's] conviction rested upon nothing more than the least of the acts criminalized, and then determine whether even those acts would qualify as a crime of violence under the guidelines.\" Id. (brackets, citations, and internal quotation marks omitted).\nThe Government argues that we need not apply the categorical approach in this case because the offense in question is the instant offense of conviction, rather than a prior offense. A few circuits have adopted this approach. See, e.g. , United States v. Williams , 690 F.3d 1056, 1069 (8th Cir. 2012) ; United States v. Riggans , 254 F.3d 1200, 1204 (10th Cir. 2001) ; see also United States v. Robinson , 844 F.3d 137, 141 (3d Cir. 2016), cert. denied , --- U.S. ----, 138 S.Ct. 215, 199 L.Ed.2d 141 (2017). Other courts apply the categorical approach to both instant and prior convictions. See, e.g. , United States v. Hill , 890 F.3d 51, 55-56 (2d Cir. 2018) ; United States v. Stoker , 706 F.3d 643, 647-49 (5th Cir. 2013) ; United States v. Piccolo , 441 F.3d 1084, 1086-87 (9th Cir. 2006) ; United States v. Johnson , 953 F.2d 110, 113-14 (4th Cir. 1991).\nIn the past, we have applied the categorical approach to instant offenses, including Hobbs Act robbery in Gooch , albeit without directly analyzing the issue. See 850 F.3d at 290 (citing Rafidi , 829 F.3d at 444 ). The Guidelines support this approach, suggesting that the crime of violence analysis is the same whether the offense in question is federal or state, instant or prior:\nSection 4B1.1 (Career Offender) expressly provides that the instant and prior offenses must be crimes of violence or controlled substance offenses of which the defendant was convicted. Therefore, in determining whether an offense is a crime of violence or controlled substance for the purposes of \u00a7 4B1.1 (Career Offender), the offense of conviction (i.e., the conduct of which the defendant was convicted) is the focus of inquiry.\nUSSG \u00a7 4B1.2, comment. (n.2). Tellingly, this explanation that the offense of conviction, rather than the particular facts of the case, is the \"focus of inquiry\" does not distinguish between instant and prior offenses. Id. ; see also Reason for Amendment, USSG Supp. to App. C, Amend. 798 at 129 (2016) [hereinafter Reason for Amendment 798] (instructing, without differentiating between instant and prior convictions, that courts applying the enumerated offense clause \"compare the elements of the predicate offense of conviction with the elements of the enumerated offense in its generic, contemporary definition\" (internal quotation marks omitted)).\nUnder our caselaw and the guidance provided by the Guidelines Manual itself, we are to apply the categorical approach as set out and repeatedly reaffirmed by the Supreme Court. See, e.g. , Mathis v. United States , --- U.S. ----, 136 S.Ct. 2243, 2248-53, 195 L.Ed.2d 604 (2016) ;\nJohnson v. United States , --- U.S. ----, 135 S.Ct. 2551, 2557, 2562, 192 L.Ed.2d 569 (2015) ; Descamps v. United States , 570 U.S. 254, 257-58, 133 S.Ct. 2276, 186 L.Ed.2d 438 (2013) ; Taylor v. United States , 495 U.S. 575, 600-02, 110 S.Ct. 2143, 109 L.Ed.2d 607 (1990). We therefore hold that the categorical approach applies to both prior and instant offenses, including Camp's Hobbs Act robbery conviction.\n2. Use-of-Force Clause\nWe look first to whether Hobbs Act robbery categorically qualifies as a crime of violence under the Guidelines' use-of-force clause. An offense is a crime of violence under that clause if it has as an element the \"use, attempted use, or threatened use of physical force against the person of another.\" USSG \u00a7 4B1.2(a)(1) (emphasis added). The plain text of the Hobbs Act criminalizes robbery accomplished by using or threatening force against \"person or property .\" 18 U.S.C. \u00a7 1951(b)(1) (emphasis added). Though this may be sufficient under \u00a7 924(c), it is not under the Guidelines. See USSG \u00a7 4B1.2(a)(1) ; O'Connor , 874 F.3d at 1158 ; see also Higdon v. United States , 882 F.3d 605, 606-07 (6th Cir. 2018) (holding that an offense requiring \"an application of force to an occupied structure, but not to the occupants themselves\" is not a crime of violence under the Armed Career Criminal Act's use-of-force clause). Given their definitional differences, \"[t]here is nothing incongruous about holding that Hobbs Act robbery is a crime of violence for purposes of 18 U.S.C. \u00a7 924(c)(3)(A), which includes force against a person or property, but not for purposes of U.S.S.G. 4B1.2(a)(1), which is limited to force against a person.\" O'Connor , 874 F.3d at 1158. Hobbs Act robbery is not a crime of violence under the Guidelines' use-of-force clause.\n3. Enumerated Offense Clause\nWe turn next to the enumerated offense clause. USSG \u00a7 4B1.2(a)(2) lists two enumerated offenses that could be a categorical match: robbery and extortion. We consider each in turn.\na. Robbery\nWhen the Guidelines do not clearly define a listed enumerated offense, we compare the elements of the offense in question with the elements of the \"generic\" enumerated offense to determine whether the two are a categorical match. See Descamps , 570 U.S. at 257, 133 S.Ct. 2276. The offense qualifies as a predicate crime of violence \"only if the statute's elements are the same as, or narrower than, those of the generic offense.\" Id. The Government contends that this \"generic\" analysis is unnecessary here because the Sentencing Commission's intent with respect to robbery is clear. According to the Government, because the commentary to USSG \u00a7 2B3.1 (\"Robbery\") includes a cross-reference to 18 U.S.C. \u00a7 1951 (the Hobbs Act), the Commission intended to include Hobbs Act robbery when it listed robbery as an enumerated offense in USSG \u00a7 4B1.2(a)(2).\nThe Government is correct that we need not look outside the Guidelines to the generic definition of an enumerated offense when Congress or the Commission itself clearly provides a definition. See O'Connor , 874 F.3d at 1156 ; United States v. Sanbria-Bueno , 549 F. App'x 434, 438-39 (6th Cir. 2013) ; United States v. Rodriguez-Escareno , 700 F.3d 751, 754 (5th Cir. 2012) (finding it unnecessary to \"search outside the Guidelines for a definition of 'conspiracy' \" because the Guidelines commentary included \"a clear statement by the Sentencing Commission that the enhancement applies to conspiracies to commit federal drug trafficking offenses\" (footnote omitted)). In these cases, however, the clarifying definition is found within the guideline at issue or its commentary.\nHere, the Government seeks to have us look to a cross-reference in the commentary of a separate guideline in a different, unrelated section of the Guidelines Manual. Under these circumstances, we cannot agree that \"the Commission's intent is clear.\" Sanbria-Bueno , 549 F. App'x at 438 ; see also Reason for Amendment 798 at 129 (instructing courts to \"compare the elements of the predicate offense of conviction with the elements of the enumerated offense in its generic, contemporary definition\" (internal quotation marks omitted)); id. at 130 (noting that Amendment 798 adds definitions for forcible sex offense and extortion, but \"continues to rely on existing case law for purposes of defining the remaining enumerated offenses\"). Without a clear definition from Congress or the Commission, we compare Hobbs Act robbery to the generic definition of robbery.\nGeneric robbery is defined as the \"misappropriation of property under circumstances involving immediate danger to the person.\" Yates , 866 F.3d at 734 (citation omitted). The precise meaning of \"immediate danger\" is unclear. The majority of jurisdictions require that property be taken \"by means of force or putting in fear,\" while the Model Penal Code and a minority of jurisdictions reference bodily injury, violence, or physical harm. Id. at 733 (citation omitted). Without endorsing either approach, we have noted that the difference between the two definitions is slight: \"[T]he bodily injury approach focuses on the realization of the immediate danger rather than the means by which the immediate danger is created, but they are two sides of the same coin. ... [R]obbery requires that the taking be done by means of violence or intimidation.\" Id. (citations omitted).\nWe need not adopt one position or the other to resolve the issue before us. This case turns not on the difference between injury and apprehension, but on the requirement that the danger be both immediate and to a person. Id. at 733-34. For example, in O'Connor , the Tenth Circuit agreed with the majority view that \"robbery requires property to be taken from a person under circumstances involving danger or threat of potential injury to the person \" and held that \"generic robbery encompasses a threat to a person but not to property alone.\" 874 F.3d at 1155. The Ninth Circuit came to a similar conclusion when it analyzed whether California robbery was a crime of violence under USSG \u00a7 2L1.2. See United States v. Becerril-Lopez , 541 F.3d 881, 890-92 (9th Cir. 2008). Recognizing that \"most modern statutes limit robbery to force or threats against a person,\" the court held that, because California robbery encompassed \"mere threats to property,\" it was not \"categorically 'robbery' as used in the Guideline.\" Id. at 891 (citation omitted); see also United States v. Edling , 895 F.3d 1153, 1156-57 (9th Cir. 2018) (holding that Nevada robbery is not a categorical match with generic robbery because it allows \"a conviction to rest on fear of injury to property alone\"). The Fifth Circuit reached the opposite conclusion. See United States v. Tellez-Martinez , 517 F.3d 813, 815 (5th Cir. 2008) (concluding that \"even when the [California robbery] statute is violated by placing the victim in fear of injury to property, the property has been misappropriated in circumstances involving immediate danger to the person\" because \"that danger is inherent in the criminal act\" (brackets, citations, and internal quotation marks omitted)). However, when it considered Nevada's robbery statute-which, like the Hobbs Act, criminalizes robbery achieved by fear of future injury to property-the Fifth Circuit held that the statute's lack of an immediacy requirement rendered it \"broader than the generic, contemporary definition of robbery.\"\nUnited States v. Montiel-Cortes , 849 F.3d 221, 228 (5th Cir. 2017), cert. denied , --- U.S. ----, 137 S.Ct. 2251, 198 L.Ed.2d 686 (2017).\nWe agree with the Tenth Circuit that Hobbs Act robbery reaches conduct that falls outside of generic robbery. At a minimum, the lack of an immediacy requirement renders the statute broader than generic robbery, see Montiel-Cortes , 849 F.3d at 228, and the Government concedes as much. We also find persuasive the Ninth and Tenth Circuits' conclusion that threats to property alone-whether immediate or future-do not necessarily create a danger to the person . See Edling , 895 F.3d at 1156-57 ; O'Connor , 874 F.3d at 1155 ; Becerril-Lopez , 541 F.3d at 890-91. Because the statute plainly criminalizes the \"misappropriation of property under circumstances\" that do not involve \"immediate danger to the person,\" we join the Tenth Circuit in holding that Hobbs Act robbery is broader than, and therefore not a categorical match with, generic robbery. Yates , 866 F.3d at 734 (citation omitted); see also O'Connor , 874 F.3d at 1154 (\"Hobbs Act robbery reaches conduct directed at 'property' because the statute specifically says so. We cannot ignore the statutory text and construct a narrower statute than the plain language supports.\" (citation omitted)); United States v. Lara , 590 F. App'x 574, 584 (6th Cir. 2014) (concluding that the court does \"not need to abandon the plain meaning of the statute\" and, where the meaning of the statute is \"plain,\" the defendant need not provide a case to demonstrate a realistic probability that the statute is broader than the generic offense).\nThis conclusion, however, does not end our analysis; we must next determine whether Hobbs Act robbery is a categorical match with the enumerated offense of extortion.\nb. Extortion\nWe first must define extortion. The Supreme Court defines generic extortion as \"obtaining something of value from another with his consent induced by the wrongful use of force, fear, or threats.\" Scheidler v. Nat'l Org. for Women, Inc. , 537 U.S. 393, 409, 123 S.Ct. 1057, 154 L.Ed.2d 991 (2003) (citation omitted); see also United States v. Nardello , 393 U.S. 286, 290, 296, 89 S.Ct. 534, 21 L.Ed.2d 487 (1969). Courts have generally interpreted \"wrongful use of force, fear, or threats\" to include threats against property and wrongful threats to reputation. See, e.g. , Nardello , 393 U.S. at 295-96, 89 S.Ct. 534 (holding that extortion encompassed threats to expose sexual orientation); United States v. Castillo , 811 F.3d 342, 346-47 (10th Cir. 2015) (noting that, pursuant to the majority view, \"the unlawful taking of property of another by threats to property falls within the definition of extortion\"). Thus, even if a robbery statute is broader than generic robbery, it may be a categorical match with generic extortion. See Montiel-Cortes , 849 F.3d at 229 ; Castillo , 811 F.3d at 347 ; Becerril-Lopez , 541 F.3d at 891-92.\nThe career offender guideline has, however, recently been amended to include a definition of extortion. See USSG \u00a7 4B1.2, comment. (n.1). We look to that definition rather than a generic definition. See Sanbria-Bueno , 549 F. App'x at 438-39 ; see also O'Connor , 874 F.3d at 1156 (\"We need not derive a generic definition of extortion because the Guidelines provide the applicable definition in Amendment 798.\"). The Guidelines define extortion as \"obtaining something of value from another by the wrongful use of (A) force, (B) fear of physical injury, or (C) threat of physical injury.\" USSG \u00a7 4B1.2, comment. (n.1). The Sentencing Commission has explained what it intended to accomplish by changing the definition:\nConsistent with the Commission's goal of focusing the career offender and related enhancements on the most dangerous offenders, the amendment narrows the generic definition of extortion by limiting the offense to those having an element of force or an element of fear or threats \"of physical injury,\" as opposed to non-violent threats such as injury to reputation.\nReason for Amendment 798 at 131. The Commission did not add an immediacy requirement, so future threats can still constitute extortion under the Guidelines definition. The Commission did not define \"force\" or \"physical injury,\" so while the amendment was clearly intended to narrow the generic definition by excluding reputational threats, it is less obvious whether force against or threats to property are still included.\nAlthough reasonable arguments in support of both interpretations exist, we agree with the Ninth Circuit that the \"most natural reading of the text of the definition, particularly its reference to 'physical injury,' \" is that it requires that the \"wrongful use of force, fear, or threats be directed against the person of another, not property.\" Edling , 895 F.3d at 1157. The term \"physical injury\" typically means \"bodily injury,\" which in turn is defined as \"[p]hysical damage to a person's body.\" Injury, Black's Law Dictionary (10th ed. 2014). The Guidelines' use of the phrase lends support to this interpretation. The Guidelines do not use \"physical injury\" to mean injury to property; instead, they refer to property \"damage\" or \"destruction.\" See, e.g. , USSG \u00a7 2C1.1(c)(3) (providing a sentencing enhancement if the offense involved \"a threat of physical injury or property destruction\" (emphasis added)). Although they use \"bodily injury\" more frequently, the Guidelines do use \"physical injury\" to mean bodily injury. See, e.g. , id. ; id. \u00a7 5K2.2, p.s. (\"Physical Injury\") (providing an enhancement when \"significant physical injury\" results and tying the enhancement to the degree of injury suffered by the \"victim\"). Additionally, the Commission's stated goal of focusing career offender enhancements on the \"most dangerous offenders\"-both by narrowing the definition of extortion and by removing burglary as an enumerated offense, in part because burglaries \"rarely result in physical violence\"-further supports an interpretation that the new extortion definition excludes injury to property. Reason for Amendment 798 at 129-31.\nThe Government's counterarguments do not overcome these textual clues. It is true that generic extortion and most state extortion statutes include threats to property. See Castillo , 811 F.3d at 346-47. Some extortion statutes were originally enacted to \"fill gaps left by robbery statutes\" and \"to provide a remedy for victims whose property was misappropriated by threats to property or reputation.\" O'Connor , 874 F.3d at 1157. But in explaining the new definition, the Commission departed from that historical practice by expressly excluding \"non-violent threats such as injury to reputation.\" Reason for Amendment 798 at 131. That the Commission did not mention threats to property might suggest that it did not intend to exclude them. See United States v. Johnson , No. 3:16-CV-01067-JO-1, 2017 WL 4082823, at *3 (D. Or. Sept. 15, 2017) ; see also O'Connor , 874 F.3d at 1157 (noting that, in some other provisions, \"the Commission has limited the scope of injury to a person ... by saying so explicitly\"). But the phrase \"such as\" might also imply that the Commission intended to exclude other types of \"non-violent threats.\" In that case, the lack of an explicit reference to threats to property could suggest an intention to exclude them. See United States v. Jonas , No. 3:17-CR-00050-HZ, 2018 WL 1448555, at *8 (D. Or. Mar. 23, 2018) (\"If the Sentencing Commission had meant for the new, amended definition of 'extortion' to include threats to property when it referred to 'physical injury,' it would have made its intent clear as it has in other provisions. ... [By] omitt[ing] an express reference to property (or other language consistent with such an express reference), [the Commission] meant ... to exclude threats to property.\" (citations omitted)).\nWe therefore hold that Guidelines extortion does not include threats against property and, as a result, Hobbs Act robbery-which plainly does-is not a categorical match with Guidelines extortion. See O'Connor , 874 F.3d at 1158 ; see also Edling , 895 F.3d at 1157-58 (holding that Nevada's robbery statute, which is substantially similar to Hobbs Act robbery, is not a categorical match with either generic robbery or Guidelines extortion and is not a crime of violence under the Guidelines).\nBecause Hobbs Act robbery criminalizes conduct that extends beyond both generic robbery and Guidelines extortion, it is not a crime of violence under the enumerated offense clause.\nIII. CONCLUSION\nFor the above reasons, we join the Tenth Circuit in holding that Hobbs Act robbery is not a crime of violence under the Guidelines. As our binding precedent makes clear, Hobbs Act robbery is a crime of violence under \u00a7 924(c)'s use-of-force clause. We therefore AFFIRM Camp's conviction, VACATE his sentence, and REMAND to the district court to resentence Camp in accordance with this opinion.\nCamp's plea agreement included a broad appellate waiver. Due to significant confusion at the plea and sentencing hearings, the Government has decided not to enforce the waiver. Because \"plea-agreement waivers are not jurisdictional,\" we are \"not required to consider [them] sua sponte and decline to do so.\" Jones v. United States , 689 F.3d 621, 624 n.1 (6th Cir. 2012).\nBecause we conclude that Hobbs Act robbery is a crime of violence under the elements clause, we need not address Camp's argument, relying on Johnson v. United States , --- U.S. ----, 135 S.Ct. 2551, 192 L.Ed.2d 569 (2015), that \u00a7 924(c)'s residual clause is unconstitutionally vague.",
+        "type": "majority",
+        "author": "JANE B. STRANCH, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "COUNSEL ON BRIEF: Kenneth P. Tableman, Kenneth P. Tableman, P.C., Grand Rapids, Michigan, for Appellant. Shane Cralle, United States Attorney's Office, Detroit, Michigan, for Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee,\nv.\nDesmond CAMP, Defendant-Appellant.\nNo. 17-1879\nUnited States Court of Appeals, Sixth Circuit.\nDecided and Filed: September 7, 2018\nRehearing En Banc Denied October 19, 2018\nCOUNSEL ON BRIEF: Kenneth P. Tableman, Kenneth P. Tableman, P.C., Grand Rapids, Michigan, for Appellant. Shane Cralle, United States Attorney's Office, Detroit, Michigan, for Appellee.\nBefore: CLAY, STRANCH, and LARSEN, Circuit Judges."
+  },
+  "file_name": "0594-01",
+  "first_page_order": 594,
+  "last_page_order": 604
+}

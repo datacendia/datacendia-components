@@ -1,0 +1,59 @@
+{
+  "id": 12213069,
+  "name": "Paul C. v. Nebraska",
+  "name_abbreviation": "Paul C. v. Nebraska",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11272",
+  "first_page": "876",
+  "last_page": "876",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 876"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 69,
+    "ocr_confidence": 0.658,
+    "sha256": "627aed187770b9f00d33608d8dab4ae164b883c42394170d89bfcc2b75be9030",
+    "simhash": "1:95aa3763549a9226",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Paul C. v. Nebraska."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Neb. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11272.\nPaul C. v. Nebraska."
+  },
+  "file_name": "0876-08",
+  "first_page_order": 958,
+  "last_page_order": 958
+}

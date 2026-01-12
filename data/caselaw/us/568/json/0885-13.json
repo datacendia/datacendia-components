@@ -1,0 +1,59 @@
+{
+  "id": 12415034,
+  "name": "Jones v. University of Hawaii et al.",
+  "name_abbreviation": "Jones v. University of Hawaii",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-69",
+  "first_page": "885",
+  "last_page": "885",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 885"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 86,
+    "ocr_confidence": 0.658,
+    "sha256": "87d8478858978ccdc32f30e4c0b02340bd565e031a9cffa89b303075baf990d0",
+    "simhash": "1:62a0a0629292b33c",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jones v. University of Hawaii et al."
+    ],
+    "opinions": [
+      {
+        "text": "Int. Ct. App. Haw. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-69.\nJones v. University of Hawaii et al."
+  },
+  "file_name": "0885-13",
+  "first_page_order": 961,
+  "last_page_order": 961
+}

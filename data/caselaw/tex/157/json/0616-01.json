@@ -1,0 +1,83 @@
+{
+  "id": 2254017,
+  "name": "Texas Department of Public Safety v. Samuel Brockman Hamilton",
+  "name_abbreviation": "Texas Department of Public Safety v. Hamilton",
+  "decision_date": "1957-11-13",
+  "docket_number": "No. A-6544",
+  "first_page": "616",
+  "last_page": "617",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "157 Tex. 616"
+    },
+    {
+      "type": "parallel",
+      "cite": "306 S.W.2d 712"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "304 S.W. 2d 719",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10173296
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/304/0719-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 95,
+    "char_count": 802,
+    "ocr_confidence": 0.603,
+    "pagerank": {
+      "raw": 1.8219135147019497e-07,
+      "percentile": 0.7193351813175208
+    },
+    "sha256": "5b30f441a020af8b68836df76b412acc006e2f42aa50e0160630955354158eac",
+    "simhash": "1:9a69c7668d22a40d",
+    "word_count": 123
+  },
+  "last_updated": "2024-02-27T18:48:18.334778+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Texas Department of Public Safety v. Samuel Brockman Hamilton"
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM:\nArticle 6687b, Vernon\u2019s Texas Annotated Statutes, properly construed, does not authorize suspension of operators\u2019 or chauffeurs\u2019 licenses without notice and hearing except as provided in Section 24 thereof. Accordingly, we do not reach or pass on the other questions discussed by the Court of Civil Appeals (304 S.W. 2d 719), and the application for writ of error is REFUSED. NO REVERSIBLE ERROR.\nOpinion delivered November 13, 1957.",
+        "type": "majority",
+        "author": "PER CURIAM:"
+      }
+    ],
+    "attorneys": [
+      "Noah Kennedy, Jr., County Attorney of Ellis County, Ellis M. Brown, William Brode Mobley, Jr., Assistants County Attorneys, of Corpus Christi for petitioner.",
+      "Ney & Cohn and Bernard W. Schrader, of Corpus Christi, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "Texas Department of Public Safety v. Samuel Brockman Hamilton\nNo. A-6544.\nDecided November 13, 1957.\n(306 S.W. 2d Series 712.)\nNoah Kennedy, Jr., County Attorney of Ellis County, Ellis M. Brown, William Brode Mobley, Jr., Assistants County Attorneys, of Corpus Christi for petitioner.\nNey & Cohn and Bernard W. Schrader, of Corpus Christi, for respondent."
+  },
+  "file_name": "0616-01",
+  "first_page_order": 632,
+  "last_page_order": 633
+}

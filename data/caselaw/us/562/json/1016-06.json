@@ -1,0 +1,59 @@
+{
+  "id": 6025469,
+  "name": "Sullivan v. United States",
+  "name_abbreviation": "Sullivan v. United States",
+  "decision_date": "2010-11-01",
+  "docket_number": "No. 10-6604",
+  "first_page": "1016",
+  "last_page": "1016",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1016"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.644,
+    "sha256": "6532b467babe403faed756e0a4b064c293a68efb8bab4f661d423d98a09ddcbc",
+    "simhash": "1:86aad3820988842f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sullivan v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6604.\nSullivan v. United States."
+  },
+  "file_name": "1016-06",
+  "first_page_order": 1038,
+  "last_page_order": 1038
+}

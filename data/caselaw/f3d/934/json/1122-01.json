@@ -1,0 +1,860 @@
+{
+  "id": 12522366,
+  "name": "UNITED STATES of America, Plaintiff - Appellee, v. Cameo WILLIAMS, Sr., Defendant - Appellant.",
+  "name_abbreviation": "United States v. Williams",
+  "decision_date": "2019-08-20",
+  "docket_number": "No. 18-1080",
+  "first_page": "1122",
+  "last_page": "1134",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "934 F.3d 1122"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "10th Cir.",
+    "id": 8771,
+    "name": "United States Court of Appeals for the Tenth Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "427 F.3d 840",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1241084
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "855"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/427/0840-01"
+      ]
+    },
+    {
+      "cite": "917 F.3d 1227",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12520271
+      ],
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "1231",
+          "parenthetical": "\"[W]hen a party omits an argument from its opening brief, an appellate court has no obligation to consider that argument.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/917/1227-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1005",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "892 F.2d 1494",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10531883
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "1496",
+          "parenthetical": "observing that when we review for plain error, \"the standard actually applied is essentially the same as if there had been a timely motion for acquittal\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/892/1494-01"
+      ]
+    },
+    {
+      "cite": "630 F.3d 1263",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6052288
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "parenthetical": "noting that \"[i]n the context of sufficiency of the evidence claim, ... the plain error standard is essentially the same as the usual de novo standard\" (internal quotation marks omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/630/1263-01"
+      ]
+    },
+    {
+      "cite": "548 F.2d 281",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        993353
+      ],
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "287"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/548/0281-01"
+      ]
+    },
+    {
+      "cite": "557 F.3d 1129",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3384105
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "1136",
+          "parenthetical": "quoting Neu v. Grant , 548 F.2d 281, 287 (10th Cir. 1977) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/557/1129-01"
+      ]
+    },
+    {
+      "cite": "665 F.3d 1184",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3863057
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1213",
+          "parenthetical": "footnote omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/665/1184-01"
+      ]
+    },
+    {
+      "cite": "995 F.2d 982",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10518157
+      ],
+      "weight": 2,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "986"
+        },
+        {
+          "page": "986",
+          "parenthetical": "brackets and citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/995/0982-01"
+      ]
+    },
+    {
+      "cite": "633 F.3d 963",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4092024
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "966",
+          "parenthetical": "quoting United States v. Mejia-Alarcon , 995 F.2d 982, 986 (10th Cir. 1993) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/633/0963-01"
+      ]
+    },
+    {
+      "cite": "107 F.3d 774",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7642306
+      ],
+      "weight": 2,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "782"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/107/-810-01"
+      ]
+    },
+    {
+      "cite": "864 F.3d 1241",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275995
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1249",
+          "parenthetical": "brackets, citation, and internal quotation marks omitted"
+        },
+        {
+          "page": "1249"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/864/1241-01"
+      ]
+    },
+    {
+      "cite": "891 F.3d 900",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517157
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "905",
+          "parenthetical": "quoting Dowlin , 408 F.3d at 659 "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/891/0900-01"
+      ]
+    },
+    {
+      "cite": "98 L.Ed.2d 798",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        602206,
+        11300959
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "parenthetical": "\"The accused does not have an unfettered right to offer testimony that is ... inadmissible under standard rules of evidence.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/484/0400-01",
+        "/us/347/0396-01"
+      ]
+    },
+    {
+      "cite": "484 U.S. 400",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        602206
+      ],
+      "weight": 2,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "410",
+          "parenthetical": "\"The accused does not have an unfettered right to offer testimony that is ... inadmissible under standard rules of evidence.\""
+        },
+        {
+          "parenthetical": "\"The accused does not have an unfettered right to offer testimony that is ... inadmissible under standard rules of evidence.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/484/0400-01"
+      ]
+    },
+    {
+      "cite": "408 F.3d 647",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8957661
+      ],
+      "weight": 2,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "659",
+          "parenthetical": "citation and internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/408/0647-01"
+      ]
+    },
+    {
+      "cite": "145 F.3d 1140",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1344515
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "1151"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/145/1140-01"
+      ]
+    },
+    {
+      "cite": "87 S.Ct. 1920",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        6167274
+      ],
+      "weight": 2,
+      "year": 1967,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/388/0014-01"
+      ]
+    },
+    {
+      "cite": "338 U.S. 14",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "18-19"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "314 F.3d 1229",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9387402
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "1234"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/314/1229-01"
+      ]
+    },
+    {
+      "cite": "537 F.3d 1271",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4130425
+      ],
+      "weight": 2,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "1276"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/537/1271-01"
+      ]
+    },
+    {
+      "cite": "473 F.3d 1295",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        2536647
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "1303",
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/473/1295-01"
+      ]
+    },
+    {
+      "cite": "710 F.3d 1124",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3551037
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "1145",
+          "parenthetical": "noting that materiality under \u00a7 1001 is satisfied where a false statement \"could have influenced the agency's decision on how to craft its investigative focus\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/710/1124-01"
+      ]
+    },
+    {
+      "cite": "543 F. App'x 862",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        3843240
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "867"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/543/0862-01"
+      ]
+    },
+    {
+      "cite": "2012 WL 1945142",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "*6",
+          "parenthetical": "collecting cases"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "433 F.3d 344",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        881169
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "350-52"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/433/0344-01"
+      ]
+    },
+    {
+      "cite": "796 F.3d 1206",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5768961
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1210-11, 1218-19"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/796/1206-01"
+      ]
+    },
+    {
+      "cite": "682 F.3d 1254",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3890392
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "1267-68",
+          "parenthetical": "concluding that because the materiality standard is objective, whether the decisionmakers were influenced by the defendant's false statement is \"irrelevant\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/682/1254-01"
+      ]
+    },
+    {
+      "cite": "916 F.3d 814",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12520231
+      ],
+      "weight": 2,
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "853-54"
+        },
+        {
+          "page": "853-54"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/916/0814-01"
+      ]
+    },
+    {
+      "cite": "515 U.S. 506",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1564227
+      ],
+      "weight": 3,
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "512-14"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/515/0506-01"
+      ]
+    },
+    {
+      "cite": "865 F.3d 1302",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12275848
+      ],
+      "weight": 6,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1310",
+          "parenthetical": "citations omitted"
+        },
+        {
+          "parenthetical": "\"Requiring the government to establish actual reliance to satisfy materiality ... would undermine the statute's criminalization of 'attempts to execute' the fraudulent scheme.\" (citation omitted)"
+        },
+        {
+          "page": "1316",
+          "parenthetical": "upholding materiality even if the agency determination had already been made before misrepresentation occurred"
+        },
+        {
+          "page": "1316"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/865/1302-01"
+      ]
+    },
+    {
+      "cite": "981 F.2d 1171",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1875110
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "1175",
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/981/1171-01"
+      ]
+    },
+    {
+      "cite": "745 F.3d 1035",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4237355
+      ],
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1050",
+          "parenthetical": "citation omitted"
+        },
+        {
+          "page": "1050"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/745/1035-01"
+      ]
+    },
+    {
+      "cite": "546 F.3d 1242",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3893871
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "1263"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/546/1242-01"
+      ]
+    },
+    {
+      "cite": "483 F.3d 676",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5744341
+      ],
+      "year": 2007,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/483/0676-01"
+      ]
+    },
+    {
+      "cite": "849 F.3d 906",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12277767
+      ],
+      "weight": 3,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "909"
+        },
+        {
+          "page": "909"
+        },
+        {
+          "page": "912",
+          "parenthetical": "holding that uncharged acts are admissible intrinsic evidence when the prior acts explain the course of the law enforcement investigation"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/849/0906-01"
+      ]
+    },
+    {
+      "cite": "403 F.3d 727",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9017922
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "732",
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/403/0727-01"
+      ]
+    },
+    {
+      "cite": "573 F.3d 1011",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6048968
+      ],
+      "weight": 2,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "1033"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/573/1011-01"
+      ]
+    },
+    {
+      "cite": "821 F.3d 1194",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4257563
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1201",
+          "parenthetical": "citing United States v. Hutchinson , 573 F.3d 1011, 1033 (10th Cir. 2009) "
+        },
+        {
+          "page": "1201"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/821/1194-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1291",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 1001",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 7,
+      "pin_cites": [
+        {
+          "page": "(a)(2)"
+        },
+        {
+          "page": "(a)(2)"
+        },
+        {
+          "page": "332"
+        },
+        {
+          "page": "(a)(2)"
+        },
+        {
+          "page": "(a)(2)"
+        },
+        {
+          "page": "(b)"
+        },
+        {
+          "page": "(a)(2)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 C.F.R. \u00a7 3.304",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(f)(2)"
+        },
+        {
+          "page": "(f)(2)"
+        },
+        {
+          "page": "(f)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1358,
+    "char_count": 35731,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25951435778688253
+    },
+    "sha256": "680109994338b902cc77faf75dc7214211522a3dd7c002b60e75ae9656d9dfc4",
+    "simhash": "1:39b8af246c382761",
+    "word_count": 5656
+  },
+  "last_updated": "2024-02-27T18:47:10.696993+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before BRISCOE, PHILLIPS, and MORITZ, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff - Appellee,\nv.\nCameo WILLIAMS, Sr., Defendant - Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "PHILLIPS, Circuit Judge.\nDoes it matter if a veteran lies about having served overseas? Yes, if the veteran lies to the Department of Veteran Affairs (VA) to get undeserved benefits under 38 C.F.R. \u00a7 3.304(f)(2) for combat-related posttraumatic stress disorder (PTSD). We reject Williams's argument that his lie was not material under 18 U.S.C. \u00a7 1001(a)(2), as well as his two challenges to evidentiary rulings. Exercising jurisdiction under 28 U.S.C. \u00a7 1291, we affirm.\nBACKGROUND\nCameo Williams, Sr. is a veteran of the United States Army, who spent his entire service stateside-never overseas or in combat. But for years, based on his false statements about combat service, he obtained VA benefits for combat-related PTSD.\nEventually, during a review of his eligibility for benefits, the VA began to question Williams's accounts of his combat service. The VA's doubts arose after reviewing Williams's medical records, which revealed that he had made inconsistent statements regarding the nature of his alleged deployment. He had told one VA medical provider about serving in Guantanamo Bay, Cuba from August 2004 to April 2005 and in Afghanistan from May 2005 to June 2006. But he had told two other VA providers about serving in Iraq in 2007 and 2008 for two three-month stints, never mentioning having served in Cuba or Afghanistan. Recognizing that Williams's claimed foreign service was also unsupported by his military records, the VA proposed to decrease his benefits by severing the service connection to his PTSD diagnosis. For some reason, Williams challenged that proposal, maintaining that he was entitled to his previously awarded benefits for combat-related PTSD.\nThe VA set Williams's challenge for an informal hearing before Alana Bucheit, a VA Decision Review Officer. The Review Officer's preliminary review of Mr. Williams's military records revealed nothing to support his claim of overseas or combat service. Even so, in August 2014 the Review Officer held the informal hearing.\nWhile testifying at the informal hearing, Williams claimed to have served in Iraq from May to September 2007. This statement underlies his charge and conviction under 18 U.S.C. \u00a7 1001(a)(2). Interrelatedly, though not charged in the indictment, Williams further testified that he had been stationed at Camp Taji, outside Baghdad; that he had been deployed there twice as a casualty replacement; that while there he had been exposed to the enemy's improvised explosive devices and had to clean blood from an attacked Humvee; and that these experiences had caused his PTSD. At the hearing, Williams was the sole witness, but he provided the Review Officer with a \"buddy statement,\" a letter from a fellow veteran claiming to have served with Williams in Iraq. R. Vol. III at 321. At the hearing, the Review Officer questioned Williams about the lack of any deployment entries in his military records and asked whether he would consider trying to have his records corrected to show his service in Iraq. Williams declined, professing to have lost trust in the military and the VA.\nAfter the hearing, the Review Officer continued to investigate Williams's account of being deployed to Iraq. She directed another VA employee to contact the Joint Services Records Research Center (JSRRC) to confirm that Williams had been assigned to the casualty-replacement unit and served with it in Iraq. As the Review Officer later described at the criminal trial, the JSRRC has \"access to the command chronologies that [VA employees] don't have access to\" and \"can research to try [to] confirm reported events.\"\nId. at 332. The JSRRC also refuted Williams's testimony. In fact, his military records showed that at the very time he claimed to have been serving in Iraq, he was being treated at Madigan Army Medical Center in Fort Lewis, Washington.\nIn June 2015, almost a year after the informal hearing, Review Officer Bucheit upheld the VA's proposal to reduce Williams's benefits, finding that he lacked a service connection for his claimed combat-related PTSD. She then followed her customary practice and shredded her notes from the informal hearing with Williams.\nIn March 2016, a grand jury sitting in the District of Colorado charged Williams in a single-count indictment with violating 18 U.S.C. \u00a7 1001(a)(2). The charged conduct was Williams's false statement to the Review Officer about having served in Iraq from May to September 2007. The indictment did not charge any of several other similar statements he had made to other VA representatives.\nThe case proceeded to a jury trial. At the close of the government's case, Williams moved for a judgment of acquittal, arguing that the government had presented insufficient evidence of materiality. The district court denied this motion. The jury found Williams guilty, and the district court sentenced him to five years' probation. Williams timely appealed.\nOn appeal, Williams challenges his conviction on three grounds: (1) that the government presented insufficient evidence of materiality; (2) that the district court violated his Fifth and Sixth Amendment rights by disallowing testimony from his two listed expert witnesses; and (3) that the district court abused its discretion by admitting into evidence some of Williams's earlier false statements to the VA that the Army had deployed him overseas.\nANALYSIS\nA. Williams's False Statement at the VA Hearing Was Material, and the District Court Did Not Err in Denying Williams's Motion for Acquittal\nOn appeal, Williams does not dispute making the false statement about serving in Iraq. Rather, he challenges its materiality. He argues that under 38 C.F.R. \u00a7 3.304(f)(2), the Review Officer could rely only on military records to determine whether he had served in Iraq. For this reason, he contends that his testimony on that point could not be material to the benefits decision. From this, Williams argues that the district court erred by not granting his motion for acquittal, reasoning that materiality is an element of an 18 U.S.C. \u00a7 1001(a)(2) offense and that his false testimony was immaterial as a matter of law. We disagree.\nWe generally review de novo any challenges to the sufficiency of evidence and the denial of a judgment of acquittal, \"view[ing] the evidence in the light most favorable to the government to determine whether a rational trier of fact could have found the elements of the offense beyond a reasonable doubt.\" United States v. Johnson , 821 F.3d 1194, 1201 (10th Cir. 2016) (citing United States v. Hutchinson , 573 F.3d 1011, 1033 (10th Cir. 2009) ). But the government argues for plain-error review because Williams did not raise the materiality issue in the same terms on appeal as he did in moving for a judgment of acquittal before the district court. The government is correct.\nIn moving for a judgment of acquittal before the district court, Williams raised two arguments. First, he argued that the informal hearing was akin to a judicial proceeding and that 18 U.S.C. \u00a7 1001(b) excludes from prosecution false statements made during judicial proceedings. Second, he argued that the prosecution had failed to present sufficient evidence for a jury to find materiality because the government had never directly asked the Review Officer during his criminal trial (a) whether Williams's false statement about deploying was material to her decision, or (b) whether she had decided to reduce his benefits before the informal hearing. But on appeal, Williams raises a new theory of immateriality based on VA regulations. Because he did not argue that point to the district court, we will review for plain error.\n\"Plain error occurs when there is (1) error, (2) that is plain, which (3) affects substantial rights, and which (4) seriously affects the fairness, integrity, or public reputation of judicial proceedings.\" United States v. Gonzalez-Huerta , 403 F.3d 727, 732 (10th Cir. 2005) (citation omitted). But as a practical matter, whether we review Williams's challenge for plain error or de novo, \"the review would be similar because insufficiency of the evidence generally meets the plain error test.\" United States v. Thomas , 849 F.3d 906, 909 (10th Cir. 2017). This is so because \"a conviction in the absence of sufficient evidence of guilt is plainly an error, clearly prejudiced the defendant, and almost always creates manifest injustice.\" United States v. Goode , 483 F.3d 676, 681 n.1 (10th Cir. 2007). \"Therefore, plain error review and de novo review are functionally equivalent so long as the fourth prong of plain error review-that the error seriously affects the fairness, integrity, or public reputation of judicial proceedings-is also met.\" United States v. Kaufman , 546 F.3d 1242, 1263 (10th Cir. 2008). As such, we will \"view the evidence in the light most favorable to the verdict and ask whether any rational trier of fact could find the element in question.\" United States v. Thomas , 849 F.3d 906, 909 (10th Cir. 2017). We do not, however, \"weigh conflicting evidence or consider witness credibility.\" United States v. Porter , 745 F.3d 1035, 1050 (10th Cir. 2014) (citation omitted). \"The only question is 'whether the government's evidence, credited as true, suffices to establish the elements of the crime.' \" Johnson , 821 F.3d at 1201 (quoting Hutchinson , 573 F.3d at 1033 ).\nTo support a conviction for making a false statement in a matter within the jurisdiction of the executive branch of the United States under 18 U.S.C. \u00a7 1001(a)(2), the government must prove five elements beyond a reasonable doubt: \"(1) the defendant made a statement; (2) the statement was false, fictitious, or fraudulent as the defendant knew; (3) the statement was made knowingly and willfully; (4) the statement was within the jurisdiction of the federal agency; and (5) the statement was material.\" United States v. Harrod , 981 F.2d 1171, 1175 (10th Cir. 1992) (citation omitted). This appeal concerns only the fifth element-materiality.\nA false statement is material when \"it has a natural tendency to influence, or is capable of influencing, the decision of the decisionmaking body to which it was addressed.\" United States v. Williams , 865 F.3d 1302, 1310 (10th Cir. 2017) (citations omitted). Whether a statement satisfies the materiality standard is a mixed question of law and fact that the jury decides. United States v. Gaudin , 515 U.S. 506, 512-14, 115 S.Ct. 2310, 132 L.Ed.2d 444 (1995). In determining whether the government presented sufficient evidence to support a jury's finding of materiality under \u00a7 1001, we ask three questions: \"(1) What statement was made? (2) What decision was the decision maker considering? (3) Was the statement capable of influencing the relevant decision?\" United States v. Christy , 916 F.3d 814, 853-54 (10th Cir. 2019).\nIn evaluating Williams's materiality argument, a federal regulation guides us:\n(f) Posttraumatic stress disorder. Service connection for posttraumatic stress disorder requires medical evidence diagnosing the condition in accordance with \u00a7 4.125 (a) of this chapter; a link, established by medical evidence, between current symptoms and an in-service stressor; and credible supporting evidence that the claimed in-service stressor occurred. The following provisions apply to claims for service connection of posttraumatic stress disorder diagnosed during service or based on the specified type of claimed stressor:\n* * *\n(2) If the evidence establishes that the veteran engaged in combat with the enemy and the claimed stressor is related to that combat, in the absence of clear and convincing evidence to the contrary, and provided that the claimed stressor is consistent with the circumstances, conditions, or hardships of the veteran's service, the veteran's lay testimony alone may establish the occurrence of the claimed in-service stressor.\n38 C.F.R. \u00a7\u00a7 3.304(f) & (f)(2) (VA regulation governing benefits for PTSD and combat-related PTSD).\nAs set forth in the regulation, \u00a7 3.304(f) requires three showings for a service connection to PTSD. This appeal concerns Williams's effort at the informal hearing to meet the last of these, namely, \"credible supporting evidence that the claimed in-service stressor occurred.\" Because Williams claimed that his alleged PTSD resulted from combat, we examine how \u00a7 3.304(f)(2) applies to Williams's showing. There, we see that Williams could prevail on the in-service-stressor question more easily if he could persuade the Review Officer that he satisfied the other requirements of subsection (f)(2). To do so, he needed in part to establish that he had engaged in combat with the enemy-hence the importance of his false testimony that he had served in Iraq. Had Williams succeeded in persuading the Review Officer that he had engaged in combat in Iraq (as well as that the claimed stressors related to that combat), he could have established the occurrence of the stressor solely by his own testimony. So for him, the stakes were high in convincing the Review Officer that he had served in Iraq.\nEvery link in the subsections (f) and (f)(2) chain is material. Whether the Review Officer was ultimately persuaded by Williams's testimony is a separate question from its materiality. It does not matter whether Williams's statement ultimately influenced the Review Officer's decision-indeed, \"[a] statement can be objectively material even if the decision maker did not consider it\" at all. Williams , 865 F.3d at 1316 ; see id. (\"Requiring the government to establish actual reliance to satisfy materiality ... would undermine the statute's criminalization of 'attempts to execute' the fraudulent scheme.\" (citation omitted)); United States v. Irvin , 682 F.3d 1254, 1267-68 (10th Cir. 2012) (concluding that because the materiality standard is objective, whether the decisionmakers were influenced by the defendant's false statement is \"irrelevant\").\nHere, Williams's testimony had the natural tendency to influence and was capable of influencing the Review Officer's benefits decision. We reject any rule that would increase a veteran's leeway to provide false statements as the statements became more far-fetched. Williams falsely testified about combat service in Iraq to persuade the Review Officer of that service. And he put the issue squarely before the Review Officer to decide. Cf. United States v. Camick , 796 F.3d 1206, 1210-11, 1218-19 (10th Cir. 2015) (ruling that false statements about applicant's identity in a provisional patent application with the U.S. Patent and Trademark Office were incapable of influencing the agency's decision, because filing a provisional application requires no decision be made-any decision awaits the applicant taking additional action so the agency had no reason or opportunity to review the preliminary application).\nTo support his interpretation of subsection (f)(2), Williams strays from its language. He argues that the words \"the evidence establishes that the veteran engaged in combat with the enemy\" bars a VA review officer from considering any lay evidence unless there is \"threshold evidence (such as medical records and a DD Form 214 or other official military records)\" of the veteran's combat service. Appellant's Opening Br. at 24-25. But subsection (f)(2) does not say that. In fact, its sole reference to a veteran's lay testimony enlarges its importance-saying that lay testimony alone will suffice to establish \"the occurrence of the claimed in-service stressor.\" We will not read language into the regulation that would bar a veteran from testifying about his or her combat service in an effort to persuade the VA that the veteran had, in fact, served overseas. After all, as the government notes, \"[m]istakes occur in recordkeeping or records can be lost.\" Appellee's Br. at 13 (citing R. Vol. III at 334).\nApart from the regulation's language, Williams challenges materiality by relying on the Review Officer's actions and later testimony at Williams's criminal trial. He notes that the Review Officer questioned the need for the informal hearing after preliminarily reviewing the military records, and that the Review Officer testified at the criminal trial that \"[j]ust lay testimony alone, um, that Mr. Williams had deployed to Iraq would not be enough evidentiary-or not enough evidence for me to concede that he had been to Iraq. I needed some kind of military record.\" Appellant's Opening Br. at 3 (quoting R. Vol. III at 376). But as the government accurately explained, the \"standard for materiality is an objective one that is not based on the subjective views of the individual decision-maker.\" Appellee's Br. at 15 (citing United States v. McBane , 433 F.3d 344, 350-52 (3d Cir. 2005) ; United States v. Galindo , No. CR 11-10117-EFM, 2012 WL 1945142, at *6 (D. Kan. May 30, 2012) (collecting cases), aff'd 543 F. App'x 862, 867 (10th Cir. Nov. 14, 2013) ). A false statement can be material regardless of its influence on the decisionmaker and can also be material even if the decisionmaker had already arrived at her conclusion before the statement is made. See Williams , 865 F.3d at 1316 (upholding materiality even if the agency determination had already been made before misrepresentation occurred).\nFurther, we can understand the Review Officer's surprise that Williams still sought an informal hearing despite his military records not showing overseas service. But after learning that he still did seek a hearing, the Review Officer held a hearing and heard Williams's sworn testimony about his supposed Iraq service. As mentioned, the Review Officer also received the unsworn, written buddy statement from a fellow veteran, who claimed that he and Williams had served in Iraq together. Further, the Review Officer testified that she waited until after the hearing to arrive at her final decision, and that post-hearing she investigated further into Williams's military records concerning the dates he claimed to have been in Iraq. See United States v. Gordon , 710 F.3d 1124, 1145 (10th Cir. 2013) (noting that materiality under \u00a7 1001 is satisfied where a false statement \"could have influenced the agency's decision on how to craft its investigative focus\"). We will not question or weigh the credibility of this testimony. See Porter , 745 F.3d at 1050.\nIn sum, we conclude that Williams's false statement about his deployment to Iraq was material to the VA's determination of his eligibility for benefits under \u00a7 3.304(f)(2) for combat-related PTSD. Accordingly, the district court did not err in denying Williams's motion for acquittal.\nB. The District Court Did Not Commit a Constitutional Violation by Granting the Prosecution's Motion to Exclude Testimony of Two Defense Witnesses\nWe next consider Williams's argument that the district court violated his constitutional right to present a defense by excluding testimony from two defense experts: Gregory Rada, an attorney with After Service Advocates, \"a law firm for service members and veterans,\" R. Vol. I at 379 (capitalization altered); and Dr. Polly Wescott, a clinical neuropsychologist and psychologist who works with patients suffering from PTSD. Williams contends that Rada would have testified that the VA should have considered other service-connected stressors that could have caused Williams's PTSD, and that Dr. Wescott would have testified that Williams suffers from PTSD. Combined, Williams asserts that this testimony would have shown that his false statement to the Review Officer was not material. The government moved to exclude the testimony as irrelevant and likely to cause juror confusion. The district court agreed, explaining, \"[w]hat is of concern in this case is a general operation or process of the [VA] and whether by law and by practice the [VA] considers statements regarding service in a combat area as material to their decisional process. That's it.\" R. Vol. III at 155-56. The district court concluded that the proposed testimony was \"just totally irrelevant,\" and therefore granted the motion to exclude it. Id. at 156. On appeal, Williams argues that this evidentiary ruling violated his constitutional right to present a defense.\nWe review the district court's application of the Federal Rules of Evidence for an abuse of discretion and \"will not disturb an evidentiary ruling absent a distinct showing that it was based on a clearly erroneous finding of fact or an erroneous conclusion of law or manifests a clear error in judgment.\" United States v. Hall , 473 F.3d 1295, 1303 (10th Cir. 2007) (citation omitted). We review de novo the constitutionality of any challenged evidentiary ruling. United States v. Rivas-Macias , 537 F.3d 1271, 1276 (10th Cir. 2008). When it comes to the constitutionality of evidentiary rulings, we \"take a 'fresh, independent' look at the question at bar.\" Id. (quoting Timmons v. White , 314 F.3d 1229, 1234 (10th Cir. 2003) ).\nA defendant undoubtedly has a right to present witnesses under both the Fifth Amendment's Due Process Clause and the Sixth Amendment's right to compulsory process. Washington v. Texas , 338 U.S. 14, 18-19, 87 S.Ct. 1920, 18 L.Ed.2d 1019 (1967). But this right \"is not absolute.\" United States v. Bautista , 145 F.3d 1140, 1151 (10th Cir. 1998). In presenting witnesses, the defendant must still \"abide the rules of evidence and procedure, including standards of relevance and materiality.\" United States v. Dowlin , 408 F.3d 647, 659 (10th Cir. 2005) (citation and internal quotation marks omitted); see Taylor v. Illinois , 484 U.S. 400, 410, 108 S.Ct. 646, 98 L.Ed.2d 798 (1988) (\"The accused does not have an unfettered right to offer testimony that is ... inadmissible under standard rules of evidence.\"). Williams thus has a two-part burden to succeed on his constitutional claim. \"First, [ ]he must demonstrate that the district court abused its discretion in excluding the evidence. Second, [ ]he must demonstrate that the excluded evidence 'was of such an exculpatory nature that its exclusion affected the trial's outcome.' \" United States v. Tapaha , 891 F.3d 900, 905 (10th Cir. 2018) (quoting Dowlin , 408 F.3d at 659 ). We need not reach the second prong, because Williams cannot show an abuse of discretion.\nTo be admissible, Rada's and Dr. Wescott's testimony must first be relevant. This means their testimony must have \"any tendency to make a fact more or less probable than it would be without the evidence\" and the fact must be \"of consequence in determining the action.\" Fed. R. Evid. 401. \"In other words, relevant evidence tends to make a necessary element of an offense more or less probable.\" United States v. Henthorn , 864 F.3d 1241, 1249 (10th Cir. 2017) (brackets, citation, and internal quotation marks omitted). Williams argues that Rada's and Dr. Wescott's testimony would have undermined the materiality of his false statement of serving in Iraq, so we again turn our focus there.\nAs the district court correctly explained in granting the prosecution's motion to exclude, materiality in this case depends solely on whether Williams's alleged false \"statement would influence a decision of the [VA] and, if believed, increase a veteran's chances of two things, of obtaining disability benefits he was seeking and of receiving preference.\" R. Vol. III at 157. Whether Williams was entitled to some benefits for other reasons, and whether he has a valid PTSD diagnosis, do not change this analysis-being otherwise eligible for some benefits does not make it more or less likely that the VA would be influenced by a veteran's false claim to have served in combat when deciding whether that veteran is eligible for benefits for combat-related PTSD under \u00a7 3.304(f)(2). As discussed above, that is our sole consideration in evaluating materiality in this case. It thus follows that the defense's proposed testimony from Rada and Dr. Wescott could not render materiality \"more or less probable.\" See Henthorn , 864 F.3d at 1249. Accordingly, because the proffered defense-expert testimony could not make any element of the charged crime less probable, the district court did not abuse its discretion in excluding the testimony. Because the district court did not abuse its discretion, Williams's constitutional claim fails.\nC. The District Court Did Not Abuse Its Discretion in Admitting Williams's Prior Statements Regarding Deployment\nFinally, we turn to Williams's claim that the district court abused its discretion in admitting as intrinsic evidence Williams's prior statements to VA providers about having served in combat zones, and not barring those statements under Federal Rule of Evidence 404(b). During trial, two prosecution witnesses, Dr. Justin Schulz and Dr. Donna Peters, testified that Williams had told them about his having been deployed to Iraq during their psychological assessments of him conducted as part of earlier compensation and pension exams. These prior statements, Williams argues, \"were not integral to the crime charged or necessary for the jury to understand the evidence.\" Appellant's Opening Br. at 38.\nAs a threshold matter, the parties disagree on the standard of review. We normally review for an abuse of discretion a district court's determination regarding admissibility of evidence under Rule 404(b). United States v. Wilson , 107 F.3d 774, 782 (10th Cir. 1997). But where the complaining party has not objected at trial and thus has failed to preserve the issue for appeal, we review for plain error. Id. Williams did not object during trial. The question is whether that matters.\n\"[A] motion in limine may preserve an objection when the issue (1) is fairly presented to the district court, (2) is the type of issue that can be finally decided in a pretrial hearing, and (3) is ruled upon without equivocation by the trial judge.\" United States v. Goodman , 633 F.3d 963, 966 (10th Cir. 2011) (quoting United States v. Mejia-Alarcon , 995 F.2d 982, 986 (10th Cir. 1993) ). \"Once the court rules definitively on the record-either before or at trial-a party need not renew an objection ... to preserve a claim of error for appeal.\" Fed. R. Evid. 103(b).\nBefore trial, Williams requested that the government provide notice of all Rule 404(b) and intrinsic evidence. The government responded that Williams's prior statements about having been deployed were not subject to Rule 404(b) because they were intrinsic to the charged crime. R. Vol. I at 46-47 (\"The prior statements by the defendant describing his military service and deployment history in a way inconsistent with his statement [at the informal hearing] are direct evidence that the charged statement was false, that the defendant knew it was false, and that he made the false statement willfully.\"). After hearing argument from both parties at a motions hearing, the district court agreed with the government and ruled from the bench that \"[t]he activity of this defendant before May of 2007 and his activity after that are and can be relevant, and [Williams's] overall objection to confine all testimony to this one particular period and this one particular statement is rejected.\" Id. at 362. The district court further concluded that Williams's prior statements about deploying \"are not 404 statements,\" but instead \"facts which would tend to prove the truth of the charge.\" Id.\nGiven this procedural history, we are satisfied that the motion in limine preserved Williams's objection to the admissibility of his prior statements for appellate review: the parties briefed and then argued the issue for the district court's consideration, the admissibility of prior statements is a general legal issue capable of decision prior to trial, and the district court definitively addressed the matter in its ruling from the bench. This is a case where counsel \"diligently advance[d] the contentions supporting a motion in limine and fully apprise[d] the trial judge of the issue in an evidentiary hearing\" such that \"application of the rule requiring parties to reraise objections at trial makes little sense.\" Mejia-Alarcon , 995 F.2d at 986 (brackets and citation omitted). We therefore reject the government's contention that we must review for plain error and turn to the merits of Williams's argument under the abuse-of-discretion standard.\nWilliams argues that his prior statements were not intrinsic evidence and were unnecessary to provide context for the evidence to prove the charged offense (the single false statement to the Review Officer at the informal hearing). Instead, he asserts that the prior statements to Dr. Schulz and Dr. Peters were improperly admitted \" 'propensity evidence' prohibited by Rule 404(b).\" Appellant's Opening Br. at 41. We disagree.\nWilliams's statements to Dr. Schulz and Dr. Peters about his having served in Iraq were properly admitted in evidence. Those statements explained Williams's earlier award of benefits for combat-related PTSD and presaged his informal-hearing testimony demanding that the benefits be restored. The statements helped the jury to understand the importance of his lie to the Review Officer and what prompted and underlay the Review Officer investigation. See United States v. Thomas , 849 F.3d 906, 912 (10th Cir. 2017) (holding that uncharged acts are admissible intrinsic evidence when the prior acts explain the course of the law enforcement investigation). Because we agree with the district court that this evidence was intrinsic to the charge, \" Rule 404(b) is inapplicable.\" United States v. Irving , 665 F.3d 1184, 1213 (10th Cir. 2011) (footnote omitted). In short, the district court did not abuse its discretion in admitting Williams's statements.\nCONCLUSION\nFor the reasons given, we AFFIRM.\nThese claims were both inconsistent with Williams's other statements and factually unfeasible, as Williams did not join the Army until August 2006.\nThe veteran said that he had served with \"Sergeant Williams\" in Iraq (Williams was never a Sergeant-his highest rank was private first class) and that his unit had relieved Williams's unit in Iraq. R. Vol. III at 323. The person who wrote the buddy statement, however, later testified at trial that he had never seen Williams in Iraq.\nUnfortunately, the recording equipment had failed during the hearing, leaving no verbatim record of the hearing testimony. Because of this, the Review Officer drafted a summary of the testimony and obtained approval of it from Williams's representative from the Veterans of Foreign Wars (VFW), who was assisting with the appeal.\nSee, e.g. , Appellant's Opening Br. at 40 (\"[I]t's difficult to fathom that [Williams] did not knowingly and willingly falsely state that he deployed to Iraq, unless he was psychotic, a diagnosis that is not contained in any of his medical records.\" (footnote omitted)).\nOn appeal, Williams contends that we should review de novo because the VA regulations alone support his argument in the district court that the government offered insufficient evidence of materiality. In moving for a judgment of acquittal, Williams argued that the Review Officer had \"conceded, unrebutted, that the testimony did not have a tendency to influence as she had already reviewed so many documents prior to the hearing and it was not capable of influencing her decision.\" R. Vol. III at 640. Based on that \"unrebutted\" testimony, Williams argued that the prosecution had not offered sufficient evidence to support a jury finding of materiality. Id. at 639-40 (arguing that \"there was never any testimony to the contrary that the statements themselves were material to her finding\"). This argument differs from the one he makes on appeal, namely, that the VA regulations precluded the Review Officer from considering lay testimony in determining Williams's eligibility for benefits. \"Our precedent is clear that an objection must be 'definite' enough to indicate to the district court 'the precise ground' for a party's complaint.\" United States v. Winder , 557 F.3d 1129, 1136 (10th Cir. 2009) (quoting Neu v. Grant , 548 F.2d 281, 287 (10th Cir. 1977) ). Thus, because Williams did not raise the argument with the required definitiveness or precision, we apply plain-error review.\nSee also United States v. Weiss , 630 F.3d 1263, 1269 n.2 (10th Cir. 2010) (noting that \"[i]n the context of sufficiency of the evidence claim, ... the plain error standard is essentially the same as the usual de novo standard\" (internal quotation marks omitted)); United States v. Bowie , 892 F.2d 1494, 1496 (10th Cir. 1990) (observing that when we review for plain error, \"the standard actually applied is essentially the same as if there had been a timely motion for acquittal\").\nIn Christy , we interpreted materiality under the false bank entry statute, 28 U.S.C. \u00a7 1005, and in doing so, we applied the materiality standards for bank-fraud offenses. Christy , 916 F.3d at 853-54. But that analysis informs our consideration of materiality under \u00a7 1001 because, as we have noted, the materiality analyses are \"identical\" for bank fraud, mail fraud, wire fraud, and false-statement offenses. Williams , 865 F.3d at 1310 n.10.\nBecause Williams preserved this argument in the district court, we review it de novo.\nIn Williams , we favorably cited McBane as \"finding misrepresentation to FBI was material even when FBI's investigation was essentially complete and FBI conceded the statement had no effect on its case because it was still 'of a type' capable of influencing a reasonable decision maker.\" 865 F.3d at 1316.\nDr. Schulz and Dr. Peters conduct medical exams for people who have applied for VA benefits as part of the compensation and pension unit.\nWilliams also filed a motion in limine to exclude all records and evidence related to his psychotherapy treatment, including his statements to his therapists regarding deployment. The government countered that the therapists' records are not privileged because they were not created with any expectation of privacy, that Williams waived privilege by asking the VA to review the records as part of his benefit application, and that the records were \"created as part of his plan to defraud the VA\" and thus fell under the crime-fraud exception. R. Vol. I at 110. The district court agreed and ruled that the crime-fraud exception defeated any claim of privilege for Williams's statements to his therapists. On appeal, Williams neither argues that the prior statements were privileged nor that the district court erred regarding the crime-fraud exception. Instead, Williams argues solely that the court erred in treating his prior statements as intrinsic evidence, contending that those statements were extrinsic evidence improperly admitted under Rule 404(b). Accordingly, we need not address patient-therapist privilege. See United States v. Bowline , 917 F.3d 1227, 1231 (10th Cir. 2019) (\"[W]hen a party omits an argument from its opening brief, an appellate court has no obligation to consider that argument.\").\nIntrinsic evidence may still be excluded if it upsets the balancing test of Rule 403. See Fed. R. Evid. 403 ; United States v. Wenger , 427 F.3d 840, 855 (10th Cir. 2005). On appeal, however, Williams does not raise a 403 issue. He argues only that the district court abused its discretion in concluding the statements were intrinsic.",
+        "type": "majority",
+        "author": "PHILLIPS, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Megan L. Hayes, Attorney at Law, Laramie, Wyoming, for Defendant-Appellant.",
+      "Jason R. Dunn, United States Attorney, J. Bishop Grewell, Assistant United States Attorney, Denver, Colorado, for Plaintiff-Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff - Appellee,\nv.\nCameo WILLIAMS, Sr., Defendant - Appellant.\nNo. 18-1080\nUnited States Court of Appeals, Tenth Circuit.\nFILED August 20, 2019\nMegan L. Hayes, Attorney at Law, Laramie, Wyoming, for Defendant-Appellant.\nJason R. Dunn, United States Attorney, J. Bishop Grewell, Assistant United States Attorney, Denver, Colorado, for Plaintiff-Appellee.\nBefore BRISCOE, PHILLIPS, and MORITZ, Circuit Judges."
+  },
+  "file_name": "1122-01",
+  "first_page_order": 1122,
+  "last_page_order": 1134
+}

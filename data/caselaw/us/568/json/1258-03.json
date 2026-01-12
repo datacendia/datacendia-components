@@ -1,0 +1,59 @@
+{
+  "id": 12434210,
+  "name": "Ruiz Henriquez v. United States",
+  "name_abbreviation": "Ruiz Henriquez v. United States",
+  "decision_date": "2013-03-25",
+  "docket_number": "No. 12-8912",
+  "first_page": "1258",
+  "last_page": "1258",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1258"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 80,
+    "ocr_confidence": 0.631,
+    "sha256": "358fc7a93dbd44ae372715e74e2eb1a7c4ce50b7cf156f23250646b3026863a2",
+    "simhash": "1:85ca8a528ec99404",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ruiz Henriquez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8912.\nRuiz Henriquez v. United States."
+  },
+  "file_name": "1258-03",
+  "first_page_order": 1334,
+  "last_page_order": 1334
+}

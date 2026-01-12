@@ -1,0 +1,59 @@
+{
+  "id": 12211096,
+  "name": "Lopez v. Small, Warden",
+  "name_abbreviation": "Lopez v. Small",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11138",
+  "first_page": "869",
+  "last_page": "869",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 869"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.696,
+    "sha256": "57f7409af3890bf808d5a1dc561ed224dd510cc4d9c5798f73aaec2b69543c98",
+    "simhash": "1:b451b632299b67e7",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lopez v. Small, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11138.\nLopez v. Small, Warden."
+  },
+  "file_name": "0869-06",
+  "first_page_order": 951,
+  "last_page_order": 951
+}

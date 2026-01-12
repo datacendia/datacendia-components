@@ -1,0 +1,59 @@
+{
+  "id": 5957631,
+  "name": "Archuleta v. United States",
+  "name_abbreviation": "Archuleta v. United States",
+  "decision_date": "2011-05-23",
+  "docket_number": "No. 10-10107",
+  "first_page": "1014",
+  "last_page": "1014",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1014"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.573,
+    "sha256": "b5243d0c84bdabdd26ee2dff396dfc9629eb34908d12c3e5e4fba43605c8fa69",
+    "simhash": "1:bd48d3d10a15964e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Archuleta v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10107.\nArchuleta v. United States."
+  },
+  "file_name": "1014-11",
+  "first_page_order": 1040,
+  "last_page_order": 1040
+}

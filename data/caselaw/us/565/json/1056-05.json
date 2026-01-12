@@ -1,0 +1,59 @@
+{
+  "id": 12234869,
+  "name": "In re Webb; and In re Evans",
+  "name_abbreviation": "In re Webb",
+  "decision_date": "2011-11-28",
+  "docket_number": "No. 11-6629; No. 11-7086",
+  "first_page": "1056",
+  "last_page": "1056",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1056"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 95,
+    "ocr_confidence": 0.669,
+    "sha256": "50912f9e72438486d7b0acfbbf5fab60817bf744f6fc474a54672187e992dda7",
+    "simhash": "1:481f187bdacd666d",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Webb; and In re Evans."
+    ],
+    "opinions": [
+      {
+        "text": "Petitions for writs of mandamus denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6629.\nNo. 11-7086.\nIn re Webb; and In re Evans."
+  },
+  "file_name": "1056-05",
+  "first_page_order": 1138,
+  "last_page_order": 1138
+}

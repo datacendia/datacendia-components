@@ -1,0 +1,59 @@
+{
+  "id": 12415316,
+  "name": "Cabrera Saucedo v. United States",
+  "name_abbreviation": "Cabrera Saucedo v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5130",
+  "first_page": "896",
+  "last_page": "896",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 896"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 81,
+    "ocr_confidence": 0.675,
+    "sha256": "f6f613e4a9235139db76668d1c115a6bf9c14e60f450ad613b7edcb2727e88b1",
+    "simhash": "1:860ad282080c122e",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cabrera Saucedo v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5130.\nCabrera Saucedo v. United States."
+  },
+  "file_name": "0896-11",
+  "first_page_order": 972,
+  "last_page_order": 972
+}

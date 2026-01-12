@@ -1,0 +1,59 @@
+{
+  "id": 12415957,
+  "name": "Hall v. Jones et al.",
+  "name_abbreviation": "Hall v. Jones",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5455",
+  "first_page": "913",
+  "last_page": "913",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 913"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 69,
+    "ocr_confidence": 0.637,
+    "sha256": "af1a4cd1b5ac95acdd352590a99251080167bc0cec5f9e17dab572614f747445",
+    "simhash": "1:90c824ea987177bb",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hall v. Jones et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5455.\nHall v. Jones et al."
+  },
+  "file_name": "0913-08",
+  "first_page_order": 989,
+  "last_page_order": 989
+}

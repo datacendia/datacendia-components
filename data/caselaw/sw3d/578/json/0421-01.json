@@ -1,0 +1,740 @@
+{
+  "id": 12660277,
+  "name": "Nathan E. BROOKS v. BOARD OF PROFESSIONAL RESPONSIBILITY",
+  "name_abbreviation": "Brooks v. Bd. of Prof'l Responsibility",
+  "decision_date": "2019-05-07",
+  "docket_number": "No. E2018-00125-SC-R3-BP",
+  "first_page": "421",
+  "last_page": "431",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "578 S.W.3d 421"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tenn.",
+    "id": 10312,
+    "name": "Tennessee Supreme Court"
+  },
+  "jurisdiction": {
+    "id": 11,
+    "name_long": "Tennessee",
+    "name": "Tenn."
+  },
+  "cites_to": [
+    {
+      "cite": "397 U.S. 254",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12052726
+      ],
+      "weight": 3,
+      "year": 1970,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/397/0254-01"
+      ]
+    },
+    {
+      "cite": "325 S.W.3d 578",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7321989
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "582",
+          "parenthetical": "alteration in original"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/325/0578-01"
+      ]
+    },
+    {
+      "cite": "418 S.W.3d 1",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7252591
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "20",
+          "parenthetical": "quoting Graham v. Caples , 325 S.W.3d 578, 582 (Tenn. 2010) (alteration in original)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/418/0001-01"
+      ]
+    },
+    {
+      "cite": "714 F.2d 171",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        3788170,
+        1886454
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "177"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/230/0080-01",
+        "/f2d/714/0171-01"
+      ]
+    },
+    {
+      "cite": "262 S.W.3d 741",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8361510
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "767",
+          "parenthetical": "Holder, J., concurring and dissenting"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/262/0741-01"
+      ]
+    },
+    {
+      "cite": "551 S.W.3d 712",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12657044
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "726",
+          "parenthetical": "citing Hughes v. Bd. of Prof'l Responsibility , 259 S.W.3d 631, 641 (Tenn. 2008) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/551/0712-01"
+      ]
+    },
+    {
+      "cite": "29 S.W.3d 445",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11182617
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "449"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/29/0445-01"
+      ]
+    },
+    {
+      "cite": "458 S.W.3d 900",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6876868
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "903",
+          "parenthetical": "citing Brown v. Bd. of Prof'l Responsibility , 29 S.W.3d 445, 449 (Tenn. 2000) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/458/0900-01"
+      ]
+    },
+    {
+      "cite": "300 S.W.3d 654",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7299572
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "660"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/300/0654-01"
+      ]
+    },
+    {
+      "cite": "380 S.W.3d 669",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7126985
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "676",
+          "parenthetical": "citing Rayburn v. Bd. of Prof'l Responsibility , 300 S.W.3d 654, 660 (Tenn. 2009) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/380/0669-01"
+      ]
+    },
+    {
+      "cite": "342 Ark. 691",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        1342431
+      ],
+      "weight": 2,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "parenthetical": "citations omitted"
+        },
+        {
+          "page": "799",
+          "parenthetical": "citations omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/342/0691-01"
+      ]
+    },
+    {
+      "cite": "209 Tenn. 304",
+      "category": "reporters:state",
+      "reporter": "Tenn.",
+      "case_ids": [
+        8528783
+      ],
+      "weight": 2,
+      "year": 1961,
+      "pin_cites": [
+        {
+          "parenthetical": "\"The granting of a law license is a privilege and may be revoked at any time by this Court for good and satisfactory reasons, one of which is that the holder of this license has been guilty of such conduct as renders him unfit to further pursue the practice of law.\""
+        },
+        {
+          "page": "402",
+          "parenthetical": "\"The granting of a law license is a privilege and may be revoked at any time by this Court for good and satisfactory reasons, one of which is that the holder of this license has been guilty of such conduct as renders him unfit to further pursue the practice of law.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tenn/209/0304-01"
+      ]
+    },
+    {
+      "cite": "259 S.W.3d 631",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8173687
+      ],
+      "weight": 2,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "641",
+          "parenthetical": "citation omitted"
+        },
+        {
+          "page": "641"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/259/0631-01"
+      ]
+    },
+    {
+      "cite": "205 S.W.3d 384",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8448266
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "391-92"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/205/0384-01"
+      ]
+    },
+    {
+      "cite": "521 U.S. 702",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        916123
+      ],
+      "weight": 3,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "720-21"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/521/0702-01"
+      ]
+    },
+    {
+      "cite": "135 S. Ct. 2584",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12591054
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "2618",
+          "parenthetical": "Roberts, C.J., dissenting"
+        },
+        {
+          "parenthetical": "Roberts, C.J., dissenting"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/135/2584-01"
+      ]
+    },
+    {
+      "cite": "302 U.S. 319",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6140617
+      ],
+      "weight": 7,
+      "year": 1937,
+      "pin_cites": [
+        {
+          "page": "325"
+        },
+        {
+          "page": "325"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/302/0319-01"
+      ]
+    },
+    {
+      "cite": "96 L.Ed. 183",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "year": 1952,
+      "pin_cites": [
+        {
+          "parenthetical": "quoting Palko v. Connecticut , 302 U.S. 319, 325, 58 S.Ct. 149, 82 L.Ed. 288 (1937) "
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "342 U.S. 165",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        640823
+      ],
+      "weight": 2,
+      "year": 1952,
+      "pin_cites": [
+        {
+          "page": "169",
+          "parenthetical": "quoting Palko v. Connecticut , 302 U.S. 319, 325, 58 S.Ct. 149, 82 L.Ed. 288 (1937) "
+        },
+        {
+          "parenthetical": "quoting Palko v. Connecticut , 302 U.S. 319, 325, 58 S.Ct. 149, 82 L.Ed. 288 (1937) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/342/0165-01"
+      ]
+    },
+    {
+      "cite": "417 S.W.3d 393",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7257446
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "409"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/417/0393-01"
+      ]
+    },
+    {
+      "cite": "531 S.W.3d 131",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12386455
+      ],
+      "weight": 3,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "138-39",
+          "parenthetical": "quoting Mansell v. Bridgestone Firestone N. Am. Tire, LLC , 417 S.W.3d 393, 409 (Tenn. 2013) "
+        },
+        {
+          "page": "139"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/531/0131-01"
+      ]
+    },
+    {
+      "cite": "401 U.S. 371",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11712525
+      ],
+      "weight": 23,
+      "year": 1971,
+      "pin_cites": [
+        {
+          "page": "372-73"
+        },
+        {
+          "page": "373"
+        },
+        {
+          "page": "374"
+        },
+        {
+          "page": "382"
+        },
+        {
+          "page": "382-83"
+        },
+        {
+          "page": "383"
+        },
+        {
+          "page": "386"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/401/0371-01"
+      ]
+    },
+    {
+      "cite": "221 S.W. 491",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "year": 1920,
+      "pin_cites": [
+        {
+          "page": "495",
+          "parenthetical": "citations omitted"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "142 Tenn. 527",
+      "category": "reporters:state",
+      "reporter": "Tenn.",
+      "case_ids": [
+        8534730
+      ],
+      "year": 1920,
+      "pin_cites": [
+        {
+          "parenthetical": "citations omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tenn/142/0527-01"
+      ]
+    },
+    {
+      "cite": "866 S.W.2d 520",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10006740
+      ],
+      "weight": 2,
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "529-30"
+        },
+        {
+          "page": "529-30"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/866/0520-01"
+      ]
+    },
+    {
+      "cite": "38 S.W.3d 1",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11120968
+      ],
+      "weight": 2,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "7",
+          "parenthetical": "quoting Davis-Kidd Booksellers, Inc. v. McWherter , 866 S.W.2d 520, 529-30 (Tenn. 1993) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/38/0001-01"
+      ]
+    },
+    {
+      "cite": "482 S.W.3d 520",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6819962
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "530"
+        },
+        {
+          "page": "530"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/482/0520-01"
+      ]
+    },
+    {
+      "cite": "549 S.W.3d 71",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12656807
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "73",
+          "parenthetical": "quoting In re Vogel , 482 S.W.3d 520, 530 (Tenn. 2016) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/549/0071-01"
+      ]
+    },
+    {
+      "cite": "515 S.W.3d 271",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12375253
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "276-77",
+          "parenthetical": "citations omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/515/0271-01"
+      ]
+    },
+    {
+      "cite": "301 S.W.3d 603",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7299755
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "612"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/301/0603-01"
+      ]
+    },
+    {
+      "cite": "388 S.W.3d 264",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7094680
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "267",
+          "parenthetical": "citing Sneed v. Bd. of Prof'l Responsibility , 301 S.W.3d 603, 612 (Tenn. 2010) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/388/0264-01"
+      ]
+    },
+    {
+      "cite": "Tenn. Code Ann. \u00a7 20-12-127",
+      "category": "laws:leg_statute",
+      "reporter": "Tenn. Code Ann.",
+      "weight": 5,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "145 S.W.3d 519",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9149189
+      ],
+      "weight": 7,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "520-22"
+        },
+        {
+          "page": "522"
+        },
+        {
+          "page": "522"
+        },
+        {
+          "page": "525"
+        },
+        {
+          "page": "523"
+        },
+        {
+          "page": "525"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/145/0519-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1248,
+    "char_count": 33514,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.26519229499480473
+    },
+    "sha256": "9a2e057b3d3fff7f82e96530cb713af1217e030edac6a225ab6f36aa2d3f60a6",
+    "simhash": "1:21e9061e233ab7e8",
+    "word_count": 5445
+  },
+  "last_updated": "2024-02-27T17:40:50.103894+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Nathan E. BROOKS\nv.\nBOARD OF PROFESSIONAL RESPONSIBILITY"
+    ],
+    "opinions": [
+      {
+        "text": "Holly Kirby, J.\nIn 1998, the appellant attorney agreed to entry of a consent order suspending his law license for two years. In 2017, the appellant filed this petition for reinstatement of his suspended law license. Instead of the advance cost deposit required by Tennessee Supreme Court Rule 9, section 30.4(d)(9), he filed a pauper's oath and affidavit of indigency. Upon motion of the Board of Professional Responsibility of the Supreme Court of Tennessee, the hearing panel dismissed the appellant's petition without prejudice to his ability to file a new petition in compliance with Rule 9. On appeal, the chancery court affirmed. The appellant now appeals to this Court, arguing that a Tennessee statute entitles him to file his petition without paying the advance cost deposit, and also that mandating payment of the advance cost deposit deprives him of his constitutional right to due process. Discerning no error, we affirm.\nFACTUAL PROCEDURE AND BACKGROUND\nPetitioner/Appellant Nathan E. Brooks became licensed to practice law in Tennessee in 1986. In 1997, Mr. Brooks was served with a petition for discipline by the Respondent/Appellee Board of Professional Responsibility of the Supreme Court of Tennessee (\"Board\"). \"Faced with possible disbarment,\" Mr. Brooks \"entered into a negotiated settlement with the Board on February 13, 1998,\" in which he admitted he was guilty of violating multiple disciplinary rules, agreed to a two-year suspension of his law license, \"agreed to pay restitution on twelve complaints totaling $8,532.50, and [agreed] to pay costs and expenses of the proceeding, totaling $2,028.82.\" Brooks v. Bd. of Prof'l Responsibility , 145 S.W.3d 519, 520-22 (Tenn. 2004). Thus, pursuant to an agreed order of this Court, Mr. Brooks' law license was suspended for two years. Payment of costs and expenses was required as a condition precedent to reinstatement. Id. at 522.\nIn 2002, approximately four years after the suspension of his law license, Mr. Brooks filed a motion for reinstatement. Id. at 522. In that proceeding, Mr. Brooks claimed he was \"indigent and therefore unable to pay the costs and restitution that he previously agreed to pay as part of the conditional guilty plea.\" Id. at 525. Mr. Brooks was denied a hearing by both the hearing panel and by the chancery court because he had not paid the restitution and past costs. Id. at 523. On appeal to this Court, he claimed, inter alia , that \"by denying him a hearing on his petition for reinstatement based on his inability to pay the costs and restitution, the hearing panel and Chancery Court were denying him due process.\" Id. at 525. This Court rejected that argument, holding that Mr. Brooks had been \"denied a hearing on the merits of his petition due to his failure to meet certain conditions precedent.\" Id.\nSome 13 years later, Mr. Brooks filed the instant petition to reinstate his Tennessee law license. Instead of the advance cost deposit required for petitions to reinstate under Tennessee Supreme Court Rule 9, section 30.4(d)(9), Mr. Brooks submitted a pauper's oath and an affidavit of indigency.\nIn light of Mr. Brooks' failure to pay the required advance cost deposit, Disciplinary Counsel for the Board filed a motion seeking dismissal of Mr. Brooks' petition to reinstate. The motion to dismiss noted that Rule 9 made no provision for waiver of the advance cost deposit in cases of indigency and asserted that Mr. Brooks' petition was fatally flawed.\nIn response to the Board's motion to dismiss, Mr. Brooks argued that he should be permitted to file his petition to reinstate pursuant to a pauper's oath. He claimed he had a \"substantial property interest in the return of his law license\" and argued that denying him the opportunity to proceed as a pauper would violate his rights under the Fifth and Fourteenth Amendments to the federal Constitution. Mr. Brooks also relied on Tennessee Code Annotated \u00a7 20-12-127, which provides generally that a \"civil action\" may be commenced upon filing a pauper's oath. Tenn. Code Ann. \u00a7 20-12-127(a) (2009).\nMr. Brooks' petition was referred to a hearing panel. See Tenn. Sup. Ct. R. 9, \u00a7 30.4(d). On May 16, 2017, the hearing panel dismissed Mr. Brooks' petition. The panel noted that the language in Rule 9 makes the advance cost deposit mandatory and makes no \"provision for use of the pauper's oath in the filing of a petition for reinstatement.\" It concluded that Tenn. Code Ann. \u00a7 20-12-127 was not applicable. The hearing panel dismissed Mr. Brooks' petition without prejudice to his ability to file a new petition in compliance with Rule 9.\nIn July 2017, Mr. Brooks filed an appeal from the hearing panel's decision with the Hamilton County Chancery Court. See Tenn. Sup. Ct. R. 9, \u00a7 33. In it, Mr. Brooks raised the same arguments he had made to the hearing panel. Mr. Brooks' appeal included another pauper's oath and affidavit of indigency.\nThe matter was heard by the trial court on December 4, 2017. On December 28, 2017, the trial court issued its findings and conclusions, affirming the decision of the hearing panel. The trial court took note of Rule 9's advance cost deposit requirement and the Board's need to secure funding from such deposits. It acknowledged the general provisions in Tennessee Code Annotated \u00a7 20-12-127 but held that Tennessee Supreme Court Rule 9 controls because it \"specifically provides that an attorney shall provide an advance cost deposit when filing a petition for reinstatement.\" The trial court held that Tennessee Code Annotated \u00a7 20-12-127 does not apply to attorney reinstatement proceedings and affirmed the decision of the hearing panel.\nOn January 18, 2018, Mr. Brooks filed an appeal as of right to this Court. See Tenn. Sup. Ct. R. 9, \u00a7 33.\nSTANDARD OF REVIEW\nIn this case, the issues presented involve only questions of law, which are reviewed de novo with no presumption of correctness. Bd. of Prof'l Responsibility v. Cowan , 388 S.W.3d 264, 267 (Tenn. 2012) (citing Sneed v. Bd. of Prof'l Responsibility , 301 S.W.3d 603, 612 (Tenn. 2010) ).\nANALYSIS\nIn his appellate brief, Mr. Brooks describes the issue before the Court as whether the trial court erred in affirming the hearing panel's dismissal of his petition to reinstate solely on the ground that he was not entitled to proceed as a pauper. Under this broad umbrella, he argues generally that the public policy of Tennessee, as embodied in Tennessee Code Annotated \u00a7 20-12-127, requires that he not be denied access to the courts based on his poverty. Mr. Brooks also contends that refusal to reinstate his law license because he cannot afford to pay the advance cost deposit required by Rule 9 violates his due process rights as guaranteed by the Fourteenth Amendment to the federal Constitution.\nWe discuss these issues in turn.\nTennessee Code Annotated, Section 20-12-127\nMr. Brooks asserts that public policy favoring access to the courts undergirds Tennessee Code Annotated \u00a7 20-12-127, which provides:\nAny civil action may be commenced by a resident of this state without giving security as required by law for costs and without the payment of litigation taxes due by:\n(1) Filing the following oath of poverty ...; and\n(2) Filing an accompanying affidavit of indigency as prescribed by court rule.\nTenn. Code Ann. \u00a7 20-12-127(a). Relying on the statutory language \"[a]ny civil action,\" Mr. Brooks contends that the statute applies to attorney disciplinary proceedings, superseding the advance cost deposit requirement in Tennessee Supreme Court Rule 9. We respectfully disagree.\nIn order to discharge its duty to supervise the legal profession in Tennessee, this Court has adopted rules, such as Tennessee Supreme Court Rule 9, to regulate the practice of law:\nThis Court has exercised its supervisory and inherent power to promulgate rules governing the practice and procedure before the courts of this State; to adopt ethics rules for judges, including guidelines for discipline that should be imposed for violations of those rules; to prescribe and administer rules pertaining to the licensing and admission of attorneys ; to adopt rules regulating the practice of law, including ethics rules for lawyers and rules regarding the disciplinary process and violations of those rules ; and to prevent the unauthorized practice of law.... In such matters, this Court \"is supreme in fact as well as in name.\"\nMoore-Pennoyer v. State , 515 S.W.3d 271, 276-77 (Tenn. 2017) (citations omitted) (emphasis added); see also In re Cope , 549 S.W.3d 71, 73 (Tenn. 2018) (quoting In re Vogel , 482 S.W.3d 520, 530 (Tenn. 2016) ) (\"We examine disciplinary judgments pursuant to this Court's 'inherent power' and 'essential and fundamental right' to enforce the rules regulating the practice of law.\").\nTennessee Supreme Court Rule 9, \u00a7 30.4(d)(9) states: \"Petitions for reinstatement under this Section shall be accompanied by an advance cost deposit in an amount to be set from time-to-time by the Board to cover anticipated costs of the reinstatement proceeding.\" The phrase \"this Section\" within this provision refers to section 30 of Rule 9, the overall provision on reinstatement of an attorney's law license. See Tenn. Sup. Ct. R. 9, \u00a7 30. Mr. Brooks' proposed interpretation of Tennessee Code Annotated \u00a7 20-12-127(a) would make the statute applicable to attorney disciplinary proceedings and thereby relieve him of the obligation to pay the advance cost deposit if he is a \"pauper.\" This would bring the statute into conflict with the advance cost requirement in Rule 9 \u00a7 30.4(d)(9).\nThe Tennessee Constitution provides that \"[t]he powers of the Government shall be divided into three distinct departments: the Legislative, Executive, and Judicial.\" Tenn. Const. art. II, \u00a7 1. It includes a specific provision on separation of governmental powers: \"No person or persons belonging to one of these departments shall exercise any of the powers properly belonging to either of the others, except in cases herein directed or permitted.\" Tenn. Const. art. II, \u00a7 2. Prescribing the rules governing the reinstatement of an attorney's suspended law license falls squarely within this Court's inherent authority under the Tennessee Constitution to regulate the legal profession in this State. Moore-Pennoyer , 515 S.W.3d at 276-77 ; see also In re Cope , 549 S.W.3d at 73 ; In re Vogel , 482 S.W.3d at 530.\nAgainst this backdrop, we consider whether Tennessee Code Annotated \u00a7 20-12-127(a) should be interpreted in a manner that conflicts with a rule of this Court on attorney disciplinary proceedings. \"[I]n construing statutes, it is our duty to adopt a construction which will sustain a statute and avoid constitutional conflict if any reasonable construction exists that satisfies the requirements of the Constitution.\" Planned Parenthood of Middle Tenn. v. Sundquist , 38 S.W.3d 1, 7 (Tenn. 2000) (quoting Davis-Kidd Booksellers, Inc. v. McWherter , 866 S.W.2d 520, 529-30 (Tenn. 1993) ); see also State v. Thomason , 142 Tenn. 527, 221 S.W. 491, 495 (1920) (citations omitted) (\"It is always to be presumed that the Legislature acted in good faith and within constitutional limits....\"). Mr. Brooks' preferred application of section 20-12-127(a) would in effect have the General Assembly override a Supreme Court rule regulating the practice of law. This prospect would raise the spectre of violating our Constitution's provisions on separation of powers.\nWe are obliged to construe section 20-12-127(a) in a manner that avoids constitutional conflict. Planned Parenthood of Middle Tenn. , 38 S.W.3d at 7 ; Davis-Kidd Booksellers, Inc. , 866 S.W.2d at 529-30. For this reason, we decline to hold that Tennessee Code Annotated \u00a7 20-12-127(a) applies to attorney disciplinary proceedings.\nIn the course of his argument on Tennessee Code Annotated \u00a7 20-12-127, Mr. Brooks also cites Tennessee Supreme Court Rule 29, which states: \"Pursuant to Tenn. Code Ann. \u00a7 20-12-127(a), any civil action may be commenced by a resident of this state without giving security as required by law for costs and without payment of litigation taxes due by filing the oath of poverty....\" Tenn. Sup. Ct. R. 29. He contends that, by specifically adopting Tenn. Code Ann. \u00a7 20-12-127(a), Rule 29 evidences this Court's \"intent to provide liberal leave to proceed by indigents in any action....\"\nIn making this argument, Mr. Brooks in effect suggests that this Court should interpret Tennessee Supreme Court Rule 29 in a manner that would bring it into conflict with Tennessee Supreme Court Rule 9. We decline to do so. Tennessee Supreme Court Rule 29 augments and implements Tennessee Code Annotated \u00a7 20-12-127(a), but it does not evidence any intent to apply either the statute or Rule 29 to attorney disciplinary proceedings. Rule 29 does not authorize Mr. Brooks to proceed in forma pauperis in this proceeding to reinstate his law license.\nDue Process\nMr. Brooks also contends that the requirement in Rule 9 that his petition for reinstatement of his law license be accompanied by an advance cost deposit violates his right to due process under the federal Constitution. He does not specify whether he relies on substantive due process or procedural due process. We discuss both.\nIn general support, Mr. Brooks cites Boddie v. Connecticut , 401 U.S. 371, 91 S.Ct. 780, 28 L.Ed.2d 113 (1971). Boddie was a federal class action filed by indigent women who wished to file for divorce but were unable to pay the filing fees required by Connecticut courts.\nId. at 372-73, 91 S.Ct. 780. They sought a declaration that the filing fee requirement, applied as to them, violated due process. Id. at 373, 91 S.Ct. 780. The Court in Boddie held that, \"given the basic position of the marriage relationship in this society's hierarchy of values and the concomitant state monopolization of the means for legally dissolving this relationship,\" due process prohibited Connecticut \"from denying, solely because of inability to pay, access to its courts to individuals who seek judicial dissolution of their marriages.\" Id. at 374, 91 S.Ct. 780. Boddie cautioned that its holding was intended to \"go no further than necessary to dispose of the case before us.\" Id. at 382, 91 S.Ct. 780. The Court clarified that it was not deciding \"that access for all individuals to the courts is a right that is, in all circumstances, guaranteed by the Due Process Clause of the Fourteenth Amendment so that its exercise may not be placed beyond the reach of any individual,\" emphasizing that the right involved in that case was \"the adjustment of a fundamental human relationship.\" Id. at 382-83, 91 S.Ct. 780.\nBased on Boddie , Mr. Brooks emphasizes that this Court provides the only avenue to reinstatement of his law license. He asserts that reinstatement of a suspended law license is an \"important property right,\" comparable to divorce as relating to a \"fundamental human relationship.\" Id. at 383, 91 S.Ct. 780. He asserts that the advance cost deposit required for reinstatement of his law license under Rule 9, \u00a7 30.4(d)(9) deprives him of due process.\nWe first consider substantive due process. \"Substantive due process, unlike procedural due process, 'bars oppressive government action regardless of the fairness of the procedures used to implement the action.' \" In re Walwyn , 531 S.W.3d 131, 138-39 (Tenn. 2017) (quoting Mansell v. Bridgestone Firestone N. Am. Tire, LLC , 417 S.W.3d 393, 409 (Tenn. 2013) ). It protects unenumerated rights that are fundamental to our system of ordered liberty. Rochin v. California , 342 U.S. 165, 169, 72 S.Ct. 205, 96 L.Ed. 183 (1952) (quoting Palko v. Connecticut , 302 U.S. 319, 325, 58 S.Ct. 149, 82 L.Ed. 288 (1937) ); see also Obergefell v. Hodges , --- U.S. ----, 135 S. Ct. 2584, 2618, 192 L.Ed.2d 609 (2015) (Roberts, C.J., dissenting) (quoting Washington v. Glucksberg , 521 U.S. 702, 720-21, 117 S.Ct. 2258, 138 L.Ed.2d 772 (1997) ). \"Substantive due process has been used to protect rights such as the right to marry, have children, and make child-rearing decisions.\" Walwyn , 531 S.W.3d at 139 (citing Lynch v. City of Jellico , 205 S.W.3d 384, 391-92 (Tenn. 2006) ).\nContrary to Mr. Brooks' comparison of his interest in reinstatement of his law license to the indigent litigants' interest in obtaining divorce in Boddie , this Court has emphasized that \"the license to practice law in this state is a privilege, not a right.\" Hughes v. Bd. of Prof'l Responsibility , 259 S.W.3d 631, 641 (Tenn. 2008) (citation omitted); see also Schoolfield v. Tenn. Bar Ass'n , 209 Tenn. 304, 353 S.W.2d 401, 402 (1961) (\"The granting of a law license is a privilege and may be revoked at any time by this Court for good and satisfactory reasons, one of which is that the holder of this license has been guilty of such conduct as renders him unfit to further pursue the practice of law.\"). Addressing a similar contention, our sister state Arkansas explained:\n[The suspended attorney's] argument is premised on the idea that once licensed, he was then conferred a \"property right\" to practice law. However, this court has stated again and again that \"the practice of law is a privilege and not a right.\" As such, any protections to a law license are only subject to the very lowest of review under the Due Process and Equal Protections Clauses of the Constitution.\nCambiano v. Neal , 342 Ark. 691, 35 S.W.3d 792, 799 (2000) (citations omitted). As we stated in Walwyn , \"While the practice of law ... [is] certainly important, it simply does not rise to the same level as those rights that have been identified by state and federal courts as 'implicit in the concept of ordered liberty' so as to trigger substantive due process concerns.\" 531 S.W.3d at 139 (quoting Palko , 302 U.S. at 325, 58 S.Ct. 149 ). As in Walwyn , we conclude that requiring Mr. Brooks to pay in advance a deposit on the costs of his reinstatement proceeding \"does not violate his substantive due process rights.\" Id.\nWe next address procedural due process. Procedural due process seeks to ensure \"that litigants are 'given an opportunity to have their legal claims heard at a meaningful time and in a meaningful manner.' \" Id. (quoting Lynch , 205 S.W.3d at 391 ).\nTo address the contention on procedural due process, it behooves us to briefly outline the responsibilities and funding for Tennessee's Board of Professional Responsibility. As the State's high court, this Court has the \"fundamental and inherent power to promulgate, administer, and enforce the rules governing the licensing and professional conduct of lawyers practicing in Tennessee.\" Hanzelik v. Bd. of Prof'l Responsibility , 380 S.W.3d 669, 676 (Tenn. 2012) (citing Rayburn v. Bd. of Prof'l Responsibility , 300 S.W.3d 654, 660 (Tenn. 2009) ).\nIn the performance of these duties, the Court established the Board of Professional Responsibility of the Supreme Court of Tennessee and adopted rules to govern the legal profession in this State. See Tenn. Sup. Ct. R. 9, \u00a7 4.1; see also Mabry v. Bd. of Prof'l Responsibility , 458 S.W.3d 900, 903 (Tenn. 2014) (citing Brown v. Bd. of Prof'l Responsibility , 29 S.W.3d 445, 449 (Tenn. 2000) ) (\"The Supreme Court of Tennessee is the source of authority of the Board of Professional Responsibility and all its functions.\").\nThe Board's responsibilities include investigating \"any alleged ground for discipline or alleged incapacity of any attorney\" and taking appropriate action to discipline errant attorneys and \"ensure the efficient and timely resolution of complaints, investigations, and formal proceedings,\" such as hearings before hearing panels, trial courts, and this Court. Tenn. Sup. Ct. R. 9, \u00a7 4.5(a)-(b). In addition to investigating and litigating ethical complaints against lawyers, the Board endeavors to prevent ethics problems by issuing ethics opinions, responding to informal ethics inquiries from attorneys and the public, and conducting continuing legal education on ethics. See Tenn. Sup. Ct. R. 9, \u00a7 5. To assist citizens who may have been injured by a lawyer's unethical conduct, the Board operates a Consumer Assistance Program. Consumer Assistance Program (CAP) , Board of Professional Responsibility, http://www.tbpr.org/for-the-public/consumer-assistance-program (last visited Feb. 22, 2019). It also staffs the Tennessee Lawyers' Fund for Client Protection, a separate entity established by this Court to reimburse claimants for losses caused by dishonest conduct committed by lawyers duly licensed to practice in Tennessee. See Tenn. Sup. Ct. R. 9, \u00a7\u00a7 10.2(c), 12.7; Tenn. Sup. Ct. R. 25, \u00a7 1.01.\nThe considerable cost of the Board's important work is not, in the main, paid by the lay public. The cost is instead borne by Tennessee's attorneys, in the form of fees and assessments they must pay along with their annual registration. See Tenn. Sup. Ct. R. 9, \u00a7\u00a7 10, 31.1.\nHowever, once a judgment of significant discipline has been rendered, the source of funding for these costly disciplinary proceedings changes. In the event of significant discipline such as disbarment, suspension or censure, much of the responsibility for the cost of the disciplinary proceedings shifts to the subject attorney. Accordingly, once a judgment of discipline is entered, Disciplinary Counsel must apply to the hearing panel for assessment of costs against the subject attorney, and may apply for assessment of the cost of further appeals as well. See Tenn. Sup. Ct. Rule 9, \u00a7 31.3. If a practice monitor is required, the subject attorney must pay a reasonable fee for his or her services. See Tenn. Sup. Ct. Rule 9, \u00a7 12.9(d). If persons such as clients were injured as a result of the subject attorney's misconduct, restitution may be required. See Tenn. Sup. Ct. R. 9, \u00a7 12.7.\nPayment of assessed costs, practice monitor fees and restitution may be required as a condition of reinstatement of the attorney's law license. See Tenn. Sup. Ct. R. 9, \u00a7\u00a7 12.9(d), 30.4(c), 30.4(d)(7)-(8). Significant to this appeal, in order to obtain reinstatement after the most serious discipline-disbarment or suspension for more than one year-any petition for reinstatement must be accompanied by an advance cost deposit. See Tenn. Sup. Ct. R. 9, \u00a7 30.4(d)(9).\nAs can be seen under the rules adopted by the Court, most of the onus of paying for Tennessee's system of attorney licensure and discipline is on the great body of licensed lawyers, through the payment of mandatory annual fees. Most bear these costs year in and year out without ever becoming the subject of significant discipline for ethics violations. In the event, however, that a lawyer becomes the subject of significant discipline, the rules reflect a policy decision to shift responsibility for the disciplinary costs onto the attorney whose misconduct necessitated them. This is done by assessing costs at the end of disciplinary proceedings, by mandating the payment of restitution and previously-incurred costs as a condition of reinstatement, and by requiring on the front end a deposit on the costs for reinstatement proceedings. Payment of restitution, previously-incurred costs, and a deposit toward future costs in conjunction with reinstatement proceedings also evidences the petitioner's determination to earn back the precious privilege of practicing law.\nAgainst this backdrop, we return to the facts in this case. In 1998, Mr. Brooks faced serious charges of neglect and failure to perform legal services for multiple clients. Tennessee's practicing lawyers fronted the costs for the Board's investigation and prosecution of those charges.\nMr. Brooks ended up entering a conditional guilty plea to the charges against him. He agreed to very significant discipline, suspension of his law license for two years, along with payment of costs and restitution. Concomitant with this most serious discipline is the requirement that, in order to be considered for reinstatement, Mr. Brooks must pay-in advance-a deposit on the costs associated with his reinstatement proceeding. This reflects the Court's reasoned decision to place the financial burden of Mr. Brooks' reinstatement proceedings where it belongs, on him.\nHaving occasioned the suspension of his law license by admittedly engaging in serious misconduct involving multiple clients, Mr. Brooks is not denied procedural due process by requiring him to pay, in advance, a deposit on the costs of the reinstatement proceedings his misconduct necessitated. Accordingly, we find no violation of Mr. Brooks' constitutional right to due process.\nCONCLUSION\nThe decision of the hearing panel and the trial court, dismissing Mr. Brooks' petition for reinstatement without prejudice to his ability to file a new petition in compliance with Rule 9, is affirmed. Costs of this appeal are assessed to Nathan E. Brooks, for which execution may issue if necessary.\nSharon G. Lee, J., filed a separate opinion concurring in part and not joining in part.\nSharon G. Lee, concurring in part and not joining in part.\nNathan E. Brooks petitioned to have his law license reinstated. Rather than pay an advance cost deposit under Tennessee Supreme Court Rule 9, section 30.4(d)(9), Mr. Brooks filed a pauper's oath and indigency affidavit. A Board of Professional Responsibility hearing panel dismissed the petition without prejudice, giving Mr. Brooks the opportunity to refile the petition with a cost deposit. The trial court agreed with the hearing panel and, now, so does the Tennessee Supreme Court.\nThe Court properly denies relief to Mr. Brooks because Rule 9, section 30.4(d)(9) requires an advance cost deposit for a reinstatement petition, and Mr. Brooks' due process claim lacks merit.\nMr. Brooks' due process claim was vague and generalized. He failed to specify whether he asserted a substantive or procedural due process claim, or both. Mr. Brooks' brief, consisting of four pages of argument, had a single issue: \"Whether The Trial Court Erred When It Affirmed The Order Of The Board Dismissing Appellant's Petition To Reinstate Solely On The Ground That Appellant Was Not Entitled To Proceed As A Pauper?\" Mr. Brooks first argued that \" Boddie [sic] v. Connecticut [sic], 401 U.S. 371, 91 S.Ct. 780, 28 L.Ed.2d 113 (1971) is four corners on point in this cause and is dispositive.\" Later in his brief, Mr. Brooks stated that the \"application of the holding in Boddie [sic] to the case at bar is lucid,\" and \" Boddie [sic] lucidly holds that where only one forum is available to a litigant, due process requires that he may not be refused access because he is a pauper.\" The gist of Mr. Brooks' argument was that based on the due process analysis in Boddie v. Connecticut , 401 U.S. 371, 91 S.Ct. 780, 28 L.Ed.2d 113 (1971), attorneys facing quasi-criminal disciplinary proceedings are entitled to \"procedural due process and an opportunity to be heard.\"\nBoddie , however, involved a litigant's interest in obtaining a divorce-a very different interest than Mr. Brooks' desire to have his law license reinstated. A law license, unlike a divorce, is a privilege, not a right. Smith v. Bd. of Prof'l Responsibility , 551 S.W.3d 712, 726 (Tenn. 2018) (citing Hughes v. Bd. of Prof'l Responsibility , 259 S.W.3d 631, 641 (Tenn. 2008) ). Besides, this is an attorney reinstatement case, not a disciplinary case filed by the Board of Professional Responsibility.\nIn short, Mr. Brooks failed to adequately make a procedural due process claim; at most, he only hinted at such a claim. That should have ended the discussion. Yet the Court engaged in a protracted and unnecessary discussion of the responsibilities of and funding for the Board of Professional Responsibility.\nA party, not the Court, should identify the issues and provide adequate legal authority and argument. Tenn. R. App. P. 13(b). When a party fails to do so, it is not the Court's role to step in and fill in the gaps. Although the Court has the discretion under Rule 13(b) to consider issues not identified by the parties for reasons such as preventing needless litigation, injury to the public interests, or prejudice to the judicial process, none of these considerations are present here. The Court's discretion under Rule 13(b) should be exercised sparingly. Tenn. R. App. P. 13(b) advisory comm'n cmt.\nOur judicial system works best when the Court considers the issues raised by the parties after input and briefing on the issues presented. See State v. Northern , 262 S.W.3d 741, 767 (Tenn. 2008) (Holder, J., concurring and dissenting) (quoting Carducci v. Regan , 714 F.2d 171, 177 (D.C. Cir. 1983) ) (\" 'The premise of our adversarial system is that appellate courts do not sit as self-directed boards of legal inquiry and research, but essentially as arbiters of legal questions presented and argued by the parties before them.' \").\nFor the reasons stated, I concur in the Court's decision that Mr. Brooks' petition should be dismissed because he failed to pay an advance cost deposit as required by Tennessee Supreme Court Rule 9, section 30.4(d)(9) and that Mr. Brooks' due process claim had no merit. I do not join in the Court's procedural due process analysis.\nSection 30.4(d)(9) provides:\nPetitions for reinstatement under this Section shall be accompanied by an advance cost deposit in an amount to be set from time-to-time by the Board to cover anticipated costs of the reinstatement proceeding. All advance cost deposits collected hereunder shall be deposited by the Board with the State Treasurer; all such funds including earnings on investments and all interest and proceeds from said funds, if any, are deemed to be, and shall be designated as, funds belonging solely to the Board. Withdrawals from those funds shall only be made by the Board to cover costs of reinstatement proceedings, and reimbursement of advance cost deposits not expended. Such advance cost deposit funds shall be maintained, managed, and administered solely and exclusively by the Board.\nTenn. Sup. Ct. R. 9, \u00a7 30.4(d)(9).\nMr. Brooks also argued that refusal to allow him to proceed as a pauper would violate Article 1, section 8, of the Tennessee Constitution. His appellate brief to this Court does not refer to his rights under the Tennessee Constitution, so we decline to address that issue in this opinion.\nThe hearing panel order did not address Mr. Brooks' constitutional argument.\nThe Honorable Jeffrey F. Stewart heard the matter by interchange. It appears that the trial court may have issued an oral ruling at the conclusion of the December 4, 2017 hearing, because Mr. Brooks filed a motion to reconsider before the trial court entered its written order affirming the hearing panel.\nIn Mr. Brooks' motion to reconsider, he argued, as he does in this appeal, that the Board's refusal to hear his petition to reinstate without the advance cost deposit violated his constitutional right to due process. The trial court denied the motion to reconsider on January 11, 2018.\nThe trial court relied on a canon of statutory interpretation, generalia specialibus non derogant ; under this canon, \"[w]here a conflict is presented between two statutes, a more specific statutory provision takes precedence over a more general provision.\" Lovlace v. Copley , 418 S.W.3d 1, 20 (Tenn. 2013) (quoting Graham v. Caples , 325 S.W.3d 578, 582 (Tenn. 2010) (alteration in original)).\nAs with the hearing panel, the trial court did not address Mr. Brooks' constitutional arguments.\nOn September 13, 2018, Mr. Brooks filed a Motion to Strike and Vacate Tenn. Sup. Ct. R. 9 \u00a7 30.4(d)'s Requirement of an Advanced Cost Deposit. In a separate order filed concurrently with this opinion, the Court denied Mr. Brooks' motion.\nThe separate concurring opinion disagrees with our decision to address procedural due process. As noted, Mr. Brooks made a general due process argument, without delineating between procedural and substantive due process. He relies heavily on Boddie v. Connecticut , which itself does not specify whether its holding is based on procedural or substantive due process, and appears to have elements of both. Notably, a concurring opinion in Boddie characterizes the majority's holding as relating to procedural due process. See Boddie , 401 U.S. at 386, 91 S.Ct. 780 (Brennan, J. concurring in part). Mr. Brooks also cites Goldberg v. Kelly , 397 U.S. 254, 90 S.Ct. 1011, 25 L.Ed.2d 287 (1970), a foundational procedural due process case, and uses procedural due process language in arguing against the Board's perceived effort \"[t]o deny him fair notice and a hearing.\" In its discussion of Mr. Brooks' right to due process, the Board's brief explicitly refers to procedural due process. Under all of these circumstances, we felt it prudent to address both substantive and procedural due process in this appeal.\nMany of the Board's most visible functions are performed by lawyers appointed as members of the Board and of the district committees. See Tenn. Sup. Ct. R. 9, \u00a7\u00a7 4.1, 6.1. These lawyers perform their duties as a public service; members are reimbursed for their travel and other incidental expenses, but otherwise receive no compensation for their services. See Tenn. Sup. Ct. R. 9, \u00a7 4.4.\nFailure to register and pay the required registration fees results in suspension of the attorney's law license and the assessment of additional fees. See Tenn. Sup. Ct. R. 9, \u00a7 10.4-6.",
+        "type": "majority",
+        "author": "Holly Kirby, J."
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "Nathan E. BROOKS\nv.\nBOARD OF PROFESSIONAL RESPONSIBILITY\nNo. E2018-00125-SC-R3-BP\nSupreme Court of Tennessee, AT KNOXVILLE.\nSeptember 6, 2018 Session\nFILED May 7, 2019"
+  },
+  "file_name": "0421-01",
+  "first_page_order": 421,
+  "last_page_order": 431
+}

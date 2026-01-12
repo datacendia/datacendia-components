@@ -1,0 +1,59 @@
+{
+  "id": 12245789,
+  "name": "Arnold v. City of Columbus, Georgia, et al.",
+  "name_abbreviation": "Arnold v. City of Columbus",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-723",
+  "first_page": "1199",
+  "last_page": "1199",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1199"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 91,
+    "ocr_confidence": 0.69,
+    "sha256": "95fe3893e5849359dbdf0c6d74f111e2aede9a0ef7aecb8781cc3d6ee2942d5a",
+    "simhash": "1:8c498b13f0abb4fe",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Arnold v. City of Columbus, Georgia, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-723.\nArnold v. City of Columbus, Georgia, et al."
+  },
+  "file_name": "1199-05",
+  "first_page_order": 1281,
+  "last_page_order": 1281
+}

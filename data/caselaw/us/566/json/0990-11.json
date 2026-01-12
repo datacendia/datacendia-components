@@ -1,0 +1,59 @@
+{
+  "id": 12216013,
+  "name": "Combs v. United States",
+  "name_abbreviation": "Combs v. United States",
+  "decision_date": "2012-05-14",
+  "docket_number": "No. 11-7799",
+  "first_page": "990",
+  "last_page": "990",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 990"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.569,
+    "sha256": "fc14ee3b60b656643c0c16c588d9b4bcedbf9617b03cecb3971446f08239f3f7",
+    "simhash": "1:02c89a834a9150b8",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Combs v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7799.\nCombs v. United States."
+  },
+  "file_name": "0990-11",
+  "first_page_order": 866,
+  "last_page_order": 866
+}

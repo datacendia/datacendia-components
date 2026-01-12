@@ -1,0 +1,59 @@
+{
+  "id": 6022451,
+  "name": "In re Discipline of Brandes",
+  "name_abbreviation": "In re Discipline of Brandes",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. D-2525",
+  "first_page": "812",
+  "last_page": "812",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 812"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 39,
+    "char_count": 287,
+    "ocr_confidence": 0.574,
+    "sha256": "af2b0225f066f89a29452867b25c9966b4cf41b6d8dea1421c2574e7bad8e012",
+    "simhash": "1:758a71b6bfeeb762",
+    "word_count": 51
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Brandes."
+    ],
+    "opinions": [
+      {
+        "text": "Frederic Michael Brandes, of Timonium, Md., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2525.\nIn re Discipline of Brandes."
+  },
+  "file_name": "0812-03",
+  "first_page_order": 834,
+  "last_page_order": 834
+}

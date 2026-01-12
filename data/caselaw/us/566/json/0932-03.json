@@ -1,0 +1,59 @@
+{
+  "id": 12202976,
+  "name": "In re Discipline of Peel",
+  "name_abbreviation": "In re Discipline of Peel",
+  "decision_date": "2012-04-16",
+  "docket_number": "No. D-2639",
+  "first_page": "932",
+  "last_page": "932",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 932"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 40,
+    "char_count": 276,
+    "ocr_confidence": 0.624,
+    "sha256": "a337739b482ce9947398cc42af070ea6bb3e565de50217bae912186d1b930a03",
+    "simhash": "1:748271b0bffa27a2",
+    "word_count": 52
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Peel."
+    ],
+    "opinions": [
+      {
+        "text": "Gary E. Peel, of Glen Carbon, Ill., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2639.\nIn re Discipline of Peel."
+  },
+  "file_name": "0932-03",
+  "first_page_order": 808,
+  "last_page_order": 808
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5984484,
+  "name": "Reyes-Burgos v. United States",
+  "name_abbreviation": "Reyes-Burgos v. United States",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-7593",
+  "first_page": "1188",
+  "last_page": "1188",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1188"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 78,
+    "ocr_confidence": 0.587,
+    "sha256": "df69784a6b9ca83beada2561129a68e33fc81d15fb68384a4ae53cff27f9db80",
+    "simhash": "1:8028d302884e394e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Reyes-Burgos v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7593.\nReyes-Burgos v. United States."
+  },
+  "file_name": "1188-02",
+  "first_page_order": 1210,
+  "last_page_order": 1210
+}

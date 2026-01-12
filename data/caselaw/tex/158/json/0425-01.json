@@ -1,0 +1,297 @@
+{
+  "id": 2255833,
+  "name": "Ex Parte Dayl Jean Flournoy",
+  "name_abbreviation": "Ex parte Flournoy",
+  "decision_date": "1958-04-09",
+  "docket_number": "No. A-6755",
+  "first_page": "425",
+  "last_page": "433",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "158 Tex. 425"
+    },
+    {
+      "type": "parallel",
+      "cite": "312 S.W.2d 488"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "35 S.W. 2d 488",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10265228
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/35/0488-01"
+      ]
+    },
+    {
+      "cite": "256 S.W. 2d 79",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2246232,
+        10194869
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/152/0231-01",
+        "/sw2d/256/0079-01"
+      ]
+    },
+    {
+      "cite": "152 Texas 231",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2246232
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/152/0231-01"
+      ]
+    },
+    {
+      "cite": "24 S.E. 2d 787",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "195 Ga. 465",
+      "category": "reporters:state",
+      "reporter": "Ga.",
+      "case_ids": [
+        218483
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ga/195/0465-01"
+      ]
+    },
+    {
+      "cite": "266 S.W. 2d. 365",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10192400,
+        2247949
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/266/0365-01",
+        "/tex/153/0252-01"
+      ]
+    },
+    {
+      "cite": "153 Texas 252",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2247949
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/153/0252-01"
+      ]
+    },
+    {
+      "cite": "336 U.S. 155",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3939353
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/336/0155-01"
+      ]
+    },
+    {
+      "cite": "206 S.W. 2d 1000",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        8716379,
+        10215727
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/146/0328-01",
+        "/sw2d/206/1000-01"
+      ]
+    },
+    {
+      "cite": "146 Texas 328",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        8716379
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/146/0328-01"
+      ]
+    },
+    {
+      "cite": "128 U.S. 289",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3533595
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/128/0289-01"
+      ]
+    },
+    {
+      "cite": "190 S.W. 2d 485",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10196521
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/190/0485-01"
+      ]
+    },
+    {
+      "cite": "144 Texas 295",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2336656
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/144/0295-01"
+      ]
+    },
+    {
+      "cite": "13 S.W. 2d 59",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10289169
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/13/0059-01"
+      ]
+    },
+    {
+      "cite": "39 L. Ed. 767",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Sup. Ct. 390",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        6143413
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/267/0517-01"
+      ]
+    },
+    {
+      "cite": "267 U.S. 535",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 A.L.R. 541",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "3 S.W. 2d 406",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2274824,
+        10283538
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/117/0325-01",
+        "/sw2d/3/0406-01"
+      ]
+    },
+    {
+      "cite": "117 Texas 325",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2274824
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/117/0325-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 741,
+    "char_count": 17121,
+    "ocr_confidence": 0.579,
+    "pagerank": {
+      "raw": 1.0914488917805559e-07,
+      "percentile": 0.5657115530673796
+    },
+    "sha256": "7f2f5d3754fd6412e0b0ddf4f7db6712863216a442db27e79b2261363ed39189",
+    "simhash": "1:3063c1f3de9d5f45",
+    "word_count": 3000
+  },
+  "last_updated": "2024-02-27T19:47:07.204323+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ex Parte Dayl Jean Flournoy"
+    ],
+    "opinions": [
+      {
+        "text": "PER CURIAM.\nOn March 19 Dayl Jean Flournoy filed in this court an application for writ of habeas corpus to obtain release from imprisonment in the Bexar County jail. Because of the length of the relator\u2019s imprisonment and his repeated unsuccessful efforts in this and other courts to obtain release we set the application for formal oral argument in the courtroom on April 2.\nRelator\u2019s imprisonment is by virtue of an order of the District Court of the 73rd Judicial District, Bexar County, holding him in contempt of an order of the court and directing that he be committed to the Bexar County jail until he should purge himself. A statement of the pertinent history of the matter prior to the filing of the motion in this court on March 19 is necessary to an understanding of the issues to be decided. The statement is taken from transcripts of prior proceedings which are on file herein as exhibits.\nOn April 3, 1947 relator and his wife, Bonnie Bell Flournoy, were divorced by judgment of the District Court of the 73rd Judicial District. Custody of Dayl Jean Flournoy, II, minor child of the parties, was awarded to the mother, now Bonnie Bell Allen, with the right in relator to have the child in his possession on Saturday afternoons and Sundays. The judgment further provided that on days when the child was in his possession relator should return him to his mother\u2019s home before 7:00 p.m.\nIn 1952 relator filed a proceeding to change the custody of the minor child. The proceeding was later dismissed by his attorneys. On March 14, 1952, while the proceeding to change the custody was pending and at the conclusion of a hearing at which relator was present in person and was duly represented by counsel, relator was adjudged guilty of contempt by reason of having retained possession of the child from February 10 through March 6 in violation of the court\u2019s judgment of April 3, 1947. As punishment for his contempt the court imposed a fine of $100.00 and ordered relator committed to the county jail for a period of three days, but upon motion and a plea by relator for lenience the court remitted the fine and jail sentence.\nIn the judgment of March 14, 1952 the court took notice of the proceeding for change of custody of the minor child and temporarily awarded exclusive custody of the child to its mother during the pendency of such proceeding. Further, the court by the same judgment enjoined relator from interfering with the mother\u2019s care, custody and control of the child until further order of the court.\nOn April 28, 1952 relator again took possession of the minor child and since that time has declined and refused and to this day still declines and refuses to return him to the custody of his mother or to produce him in District Court of the 73rd Judicial District.\nOn April 29, 1952 the court issued a writ of habeas corpus commanding relator to produce the child in court and an order to appear and show cause why he should not be adjudged guilty of contempt. The writ was returned unserved on December 29, 1952 marked \u201cUnable to locate.\u201d Another show cause order was issued by the court on May 2, 1952. It, too, was returned unserved on December 29, 1952, marked \u201cUnable to locate.\u201d In, August, 1952, pursuant to a verified motion of the mother\u2019s attorney setting up that relator had taken the child to Mexico but that he had returned t\u00f3 San Antonio, the court issued a writ of attachment directing the Sheriff of Bexar County to attach and produce relator before the court, but again the sheriff was unable to locate him.\nIn July, 1956, pursuant to a verified motion filed by Bonnie Bell Allen and her husband, the court issued another writ of attachment for relator. The writ was duly executed on July 24 and relator was produced in the District Court of the 73rd Judicial District on July 25. The writ of attachment was authorized by Rule 692, T.R.C.P. In response to a question from the bench during argument before this court relator\u2019s counsel stated that the legality of the issuance and execution of the writ of attachment is not in question.\nWe have before us a transcript of the proceedings on July 25, 1956. Relator was brought before the court, whereupon Mrs. Allen\u2019s attorney offered in evidence the judgment of March 14, 1952. While the attorney was refreshing the memory of the judge with respect to the terms of the judgment relator interrupted to state to the judge that he had not been given counsel or an opportunity to get counsel. To the judge\u2019s question, \u201cDo you want to get a lawyer?\u201d relator replied that he and his son were Cherokee Indians and as such were not American citizens but were wards of the federal government. He requested a postponement until he could go and confer with the United States District Attorney. The judge of the District Court then reviewed orally the prior proceedings in his court, substantially as recounted above, and several times asked the whereabouts of the child. Relator evaded and refused to answer the question, even after being advised that he would be held in contempt unless he did so, and again stated that he would like a postponement until he could obtain counsel. The sheriff was then directed to take the relator to jail.\nLater in the day, on July 25, 1956, relator was again brought before the court and the judge carefully explained the proceeding and directed relator to disclose the whereabouts of the child and to produce him in court on penalty of being held in contempt and committed to jail therefor. Relator admitted that the child had been with him at all times since 1952 but continued to decline and refuse to disclose his whereabouts or to produce him in court, continuing also to demand counsel before doing so.\nAt the conclusion of the hearing the court entered a formal order reciting the factual background of the contempt proceeding which the court described as a \u201ccontinuous contempt\u201d of the court \u201cover a long period of time.\u201d The court found in its order that the refusal of relator, \u201cin open court, to disclose the whereabouts of said child and produce said child\u201d in court constituted \u201ca flagrant and wilful disobedience\u201d of the orders of the court. It was then adjudged that relator was guilty of contempt of the court in \u201crefusing, on orders of this court, to disclose the whereabouts of said child and in refusing to comply with the court\u2019s order to produce said child before this court.\u201d Relator was committed to the Bexar County jail until he' should purge himself of \u201cthe last-mentioned acts of contempt in refusing to disclose the whereabouts of said child and in refusing to produce said child before this court.\u201d The record reflects that at the time of the hearing and judgment and continuously for at least two months thereafter the child was living in the home of relator\u2019s mother in Castroville, Texas, a fact well known to relator.\nBeginning on November 28, 1956 a hearing was held in the District Court of the 73rd Judicial District on a motion filed by relator seeking discharge from his commitment. The motion is not before us but the transcript of the testimony taken on the hearing is, and it is clear that release was sought on the ground that it was impossible for relator to. purge himself of his contempt inasmuch as his son had disappeared from his (relator\u2019s) mother\u2019s home in the latter part of September and he neither knew the whereabout of the child nor was he able to produce him. A number of witnesses, including relator, testified. Relator was represented at the hearing by counsel. At its conclusion the motion was overruled.\nOn December 23, 1957 the judge of the District Court of the 73rd Judicial District had relator brought before him and, with his counsel present, offered him every reasonable opportunity to secure his release from imprisonment by the production of his son in court, even to the point of assuring him that the child would not be delivered into the possession of its mother until a new and full hearing had been conducted concerning the best interests of the child and offering him his release if he would only promise to bring the boy into court. The judge\u2019s efforts were met by a completely contemptuous attitude, charges of prejudice, insinuations that the judge had acted and would act like \u201c a Russian judge,\u201d vague references to a pay-off, defiant statements that charges had been filed against the judge with the State Bar which had not been tried, and charges that the judge was holding the hearing with an ulterior motive which it would serve no useful purpose to repeat here. It appears from the transcript of the hearing that the child, if he had ever in fact been missing, was then back in the possession of relator\u2019s mother but relator declined to permit his own counsel to tell the grandmother to bring the child to court.\nOn or about May 28, 1957 relator\u2019s mother, Mrs. Charles G. Clark, joined by her husband, Charles G. Clark, and relator filed suit in the District Court of Medina County to re-adjudicate and change the custody of the minor child, alleging changed conditions. A plea in abatement of prior suit pending, based upon the contempt proceeding in the District Court of 73rd Judicial District was filed by the child\u2019s mother, Mrs. Allen, and the plea was sustained by the trial court and the suit dismissed. That judgment was reversed and the plea in abatement overruled by the San Antonio Court of Civil Appeals on February 5, 1958.\nOn January 29, 1958 a lunacy complaint was filed against relator in the County Court of Bexar County by the jailer of Bexar County. The complaint was supported by the affidavits of two licensed physicians who had examined relator. In answer to special issues submitted to them a jury, on trial of the complaint, found that relator was not a mentally ill person and that his own welfare and protection and the protection of others did not require that he be committed to a mental hospital for observation and treatment. Accordingly, the County Court of Bexar County adjudged that relator was not a mentally ill person and ordered him restored and returned to the custody of the sheriff of Bexar County.\nDuring the period of relator\u2019s imprisonment he has, through counsel, presented applications for writs of habeas corpus to the Supreme Court of the United States and to other federal courts pending before the United States District Court for the Western District of Texas which sits in San Antonio. On four other occasions applications for writ of habeas corpus have been presented to this court. Three of the applications were denied and one was personally withdrawn by relator as having been unauthorized.\nThe application now on file assigns four principal reasons why relator is entitled to his release, as follows: (1) relator is a Chreokee Indian and as such is not subject to the jurisdiction of state courts, and the judgment under which he is held is therefore void; (2) relator was denied counsel and a hearing at the time of his commitment, and the judgment is therefore void; (3) a county court jury having acquitted him of a charge of insanity the judgment of the county court returning him to the custody of the sheriff of Bexar County is void, and (4) the District Court of Medina County having acquired jurisdiction of his suit for change of custody that court has exclusive jurisdiction of the custody of the minor child and the right of the District Court of the 73rd Judicial District to continue his imprisonment has therefore terminated.\nThe first reason assigned was the reason given by r\u00e9lator for challenging the jurisdiction of the District Court in all three of the hearing before that court. It is included in the opplication, as heretofore stated, but it was not argued orally by counsel for relator and he evidently does not regard it as valid. In any event, we know of no federal law, and have been cited to none, which denies to our state courts jurisdiction to try and adjudicate in civil cases the legal rights of those of Cherokee Indian blood residing within our borders. And neither do we know of any law which denies to our state courts the power to punish those of Cherokee Indian blood for contempt.\nCounsel for relator has briefed the question of denial of counsel as though relator was committed for a constructive contempt for violation of the court\u2019s judgment or order of injunction of March 14, 1952. The transcript of the proceeding on July 25, 1956 and the wording of the judgment entered clearly show the contrary.\nRelator could not have been committed legally for violating the terms of the injunction order of March 14 without a hearing and a reasonable opportunity to obtain counsel. Ex Parte Ratliff, 117 Texas 325, 3 S.W. 2d 406; 57 A.L.R. 541; Cooke v. United States, 267 U.S. 535, 45 Sup. Ct. 390, 39 L. Ed. 767; Ex Parte Hejda, Texas Com. App., 13 S.W. 2d 59; Ex Parte Holden, 144 Texas 295, 190 S.W. 2d 485. But relator was committed for, and only for, a direct contempt represented by his failure and refusal to obey the command of the court, given in open court, to disclose to the court the whereabouts of the minor child and to produce him in court so that the court might exercise its jurisdiction to deal with the custody of the child in his own best interests. Litigants and others appearing in court are certainly not entitled to counsel and a hearing before they may be committed for every type of direct contempt. Ex Parte Terry, 128 U.S. 289, 9 Sup. Ct. 77, 32 L. Ed. 405; Cooke v. United States, supra; Ex Parte Ratliff, supra; Ex Parte Fisher, 146 Texas 328, 206 S.W. 2d 1000, affirmed 336 U.S. 155, 69 Sup. Ct. 425; Ex Parte Sentell, 153 Texas 252, 266 S.W. 2d. 365; White v. George, 195 Ga. 465, 24 S.E. 2d 787.\nOur district courts are entrusted with the grave responsibility of protecting the minor children of divorced parents. There is no need for the advice of counsel when a judge, having jurisdiction, demands in open court that a parent disclose the whereabouts of a minor child or that he produce the child in court. The child is a ward of the court. Knollhoff v. Norris, 152 Texas 231, 256 S.W. 2d 79. It must be assumed that a trial judge will deal properly with a person of a minor child, and if he does not do so the law provides a remedy by appeal.\nThe acquittal of relator on the insanity complaint did not void the contempt judgment or operate to effect relator\u2019s release from imprisonment. If it were otherwise a person adjudged in contempt of court and committed until he purged himself could defeat the judgment and avoid the necessary action for purging himself by the simple expedient of procuring the filing of an insanity complaint and obtaining an acquittal of the charge. Clark v. State, Texas Civ. App., 35 S.W. 2d 488, cited by relator, is not in point and is not controlling.\nThe applicaable statute (Acts 55th Leg., Regular Session Ch. 243, pps. 511-512, Chapter III, Part 2, sec. 38) provides that if the proposed patient is found not to be mentally ill and not to require observation or treatment in a hospital the court trying the insanity complaint shall order his immediate release if he is not at liberty. The statute does not contemplate that the court shall release a person from restraint imposed by a valid order in another legal proceeding.\nPendency in the District Court of Medina County of suit to change the custody of the minor child does not invalidate the contempt judgment. If relator\u2019s contention were sustained, here again contempt judgments in cases of this character would be meaningless; their effect could be avoided by the filing of a second suit in another court. All that has been adjudicated in the Medina County case is that it should not have been dismissed. What orders and judgment will be entered eventually we cannot know. But until this time no orders have been made inconsistent with the order of the District Court of the 73rd District that the child be produced in that court. If some order should be entered in the future in the District Court of Medina County of such character that it will no longer be possible for relator to purge himself of his contumnacy, he may present a new application for writ of habeas corpus on that ground and for that reason, and any right he may then have to be discharged will not be prejudiced by this proceeding.\nA consideration of the record before us indicates that relator not only was in contempt of the trial court at the time of his commitment but that he has continued contemptuous of the court and defiant of its orders at all times since. No doubt a letter or a telephone call to his mother at Castroville would long since have resulted in his release from his imprisonment. In the words of the trial judge he \u201chas had the key to the jail in his pocket\u201d at all times.\nThe application for writ of habeas corpus is denied.\nOpinion delivered April 9, 1958.\nRehearing overruled May 7, 1958.",
+        "type": "majority",
+        "author": "PER CURIAM."
+      }
+    ],
+    "attorneys": [
+      "j/oe Burkett, of San Antonio, for relator.",
+      "Arthur A. Domanque, of San Antonio, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "Ex Parte Dayl Jean Flournoy\nNo. A-6755.\nDecided April 9, 1958.\nRehearing overruled May 7, 1958.\n(312 S.W. 2d Series 488)\nj/oe Burkett, of San Antonio, for relator.\nArthur A. Domanque, of San Antonio, for respondent."
+  },
+  "file_name": "0425-01",
+  "first_page_order": 441,
+  "last_page_order": 449
+}

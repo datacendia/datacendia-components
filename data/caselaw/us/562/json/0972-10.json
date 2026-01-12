@@ -1,0 +1,59 @@
+{
+  "id": 6033773,
+  "name": "Marcano v. United States",
+  "name_abbreviation": "Marcano v. United States",
+  "decision_date": "2010-10-12",
+  "docket_number": "No. 10-6236",
+  "first_page": "972",
+  "last_page": "972",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 972"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.546,
+    "sha256": "1090d2fcce35f171105e8408a729ecc98ca176b9f0c32af2a70fa8e2e674d16d",
+    "simhash": "1:040bcf234eb5a52e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Marcano v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6236.\nMarcano v. United States."
+  },
+  "file_name": "0972-10",
+  "first_page_order": 994,
+  "last_page_order": 994
+}

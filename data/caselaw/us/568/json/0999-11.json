@@ -1,0 +1,59 @@
+{
+  "id": 12421909,
+  "name": "Keen v. United States",
+  "name_abbreviation": "Keen v. United States",
+  "decision_date": "2012-11-05",
+  "docket_number": "No. 12-5595",
+  "first_page": "999",
+  "last_page": "999",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 999"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.678,
+    "sha256": "664d7f04dabbde56f8ffe1667681f76dc53bdf416ef4e3350653c688229b58d0",
+    "simhash": "1:1f4a9a06eec1901a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Keen v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5595.\nKeen v. United States."
+  },
+  "file_name": "0999-11",
+  "first_page_order": 1075,
+  "last_page_order": 1075
+}

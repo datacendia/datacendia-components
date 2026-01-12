@@ -1,0 +1,718 @@
+{
+  "id": 3679441,
+  "name": "CHAMBERS v. UNITED STATES",
+  "name_abbreviation": "Chambers v. United States",
+  "decision_date": "2009-01-13",
+  "docket_number": "No. 06-11206",
+  "first_page": "122",
+  "last_page": "134",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "555 U.S. 122"
+    },
+    {
+      "type": "parallel",
+      "cite": "172 L. Ed. 2d 484"
+    },
+    {
+      "type": "parallel",
+      "cite": "129 S. Ct. 687"
+    },
+    {
+      "type": "vendor",
+      "cite": "2009 U.S. LEXIS 580"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2008-008"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "979 P. 2d 898",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "899"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "96 Wash. App. 369",
+      "category": "reporters:state",
+      "reporter": "Wash. App.",
+      "case_ids": [
+        128602
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "371-372"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wash-app/96/0369-01"
+      ]
+    },
+    {
+      "cite": "245 S. W. 3d 288",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8390976,
+        8390949
+      ],
+      "weight": 2,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "291"
+        },
+        {
+          "parenthetical": "Mo. Ct. App. 2008"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/245/0288-02",
+        "/sw3d/245/0288-01"
+      ]
+    },
+    {
+      "cite": "571 F. 2d 1069",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        922853
+      ],
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "1072"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/571/1069-01"
+      ]
+    },
+    {
+      "cite": "553 U. S. 137",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3674072
+      ],
+      "weight": 5,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "144-146"
+        },
+        {
+          "page": "141-142"
+        },
+        {
+          "page": "153-154",
+          "parenthetical": "Scalia, J., concurring in judgment"
+        },
+        {
+          "page": "156-158",
+          "parenthetical": "Alito, J., dissenting"
+        },
+        {
+          "page": "144-145"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/553/0137-01"
+      ]
+    },
+    {
+      "cite": "550 U. S. 192",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3556011
+      ],
+      "weight": 2,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "204-206"
+        },
+        {
+          "page": "203-204"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/550/0192-01"
+      ]
+    },
+    {
+      "cite": "544 U. S. 13",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5879404
+      ],
+      "weight": 4,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "16-17"
+        },
+        {
+          "page": "20-21"
+        },
+        {
+          "page": "16-17"
+        },
+        {
+          "page": "25",
+          "parenthetical": "sentencing court may look, for example, to charging document, plea agreement, jury instructions, or transcript of plea colloquy to determine crime at issue"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/544/0013-01"
+      ]
+    },
+    {
+      "cite": "495 U. S. 575",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        634101
+      ],
+      "weight": 2,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "602"
+        },
+        {
+          "page": "598"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/495/0575-01"
+      ]
+    },
+    {
+      "cite": "441 F. 3d 1084",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1037309
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "1088",
+          "parenthetical": "failure to report is not a \"violent felony\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/441/1084-01"
+      ]
+    },
+    {
+      "cite": "364 F. 3d 7",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9269638
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "12",
+          "parenthetical": "failure to report is a \"violent felony\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/364/0007-01"
+      ]
+    },
+    {
+      "cite": "473 F. 3d 724",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        2539557
+      ],
+      "weight": 3,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "727",
+          "parenthetical": "Posner, J."
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/473/0724-01"
+      ]
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 924",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(e)"
+        },
+        {
+          "page": "(e)(2)(B)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "169 F. 3d 217",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11757905
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/169/0217-01"
+      ]
+    },
+    {
+      "cite": "471 F. 3d 913",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6045967
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "parenthetical": "automobile tampering violent under ACCA's residual clause"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/471/0913-01"
+      ]
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 16",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "501 F. 3d 1208",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3706707
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "parenthetical": "unauthorized use of a motor vehicle not a \"violent felony\" under 18 U. S. C. \u00a7 16(b), which closely resembles ACCA's residual clause"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/501/1208-01"
+      ]
+    },
+    {
+      "cite": "453 F. 3d 30",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6046381
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "parenthetical": "violent"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/453/0030-01"
+      ]
+    },
+    {
+      "cite": "501 F. 3d 524",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3706757
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "parenthetical": "not violent"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/501/0524-01"
+      ]
+    },
+    {
+      "cite": "77 F. 3d 398",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7638731
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "parenthetical": "violent"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/77/0398-01"
+      ]
+    },
+    {
+      "cite": "907 F. 2d 798",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10539985
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "parenthetical": "not violent"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/907/0798-01"
+      ]
+    },
+    {
+      "cite": "108 F. 3d 878",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7634971
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "parenthetical": "attempted burglary violent if statute requires proof .of overt act"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/108/0878-01"
+      ]
+    },
+    {
+      "cite": "511 F. 3d 1035",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4067668
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "parenthetical": "even after James v. United States, 550 U. S. 192 (2007), and even where statute requires an overt act, conspiracy to commit burglary not violent"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/511/1035-01"
+      ]
+    },
+    {
+      "cite": "402 F. 3d 482",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9178954
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "parenthetical": "not violent"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/402/0482-01"
+      ]
+    },
+    {
+      "cite": "231 Fed. Appx. 765",
+      "category": "reporters:federal",
+      "reporter": "Fed. Appx.",
+      "year": 2007,
+      "pin_cites": [
+        {
+          "parenthetical": "all rape violent"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "120 F. 3d 575",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        224003
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "parenthetical": "inducement of minor to commit sodomy violent"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/120/0575-01"
+      ]
+    },
+    {
+      "cite": "409 F. 3d 732",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8957203
+      ],
+      "weight": 2,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "parenthetical": "statutory rape not categorically violent"
+        },
+        {
+          "parenthetical": "violent"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/409/0732-01"
+      ]
+    },
+    {
+      "cite": "100 Stat. 3207",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "100 Stat. 459",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "98 Stat. 2185",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "477 U. S. 79",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6203837
+      ],
+      "year": 1986,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/477/0079-01"
+      ]
+    },
+    {
+      "cite": "552 U. S. 130",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3675998
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "139"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/552/0130-01"
+      ]
+    },
+    {
+      "cite": "979 P. 2d 898",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1999,
+      "opinion_index": 1
+    },
+    {
+      "cite": "553 U. S. 137",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3674072
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "155",
+          "parenthetical": "dissenting opinion"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/553/0137-01"
+      ]
+    },
+    {
+      "cite": "550 U. S. 192",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3556011
+      ],
+      "year": 2007,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/550/0192-01"
+      ]
+    },
+    {
+      "cite": "495 U. S. 575",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        634101
+      ],
+      "weight": 6,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "602"
+        },
+        {
+          "page": "600"
+        },
+        {
+          "page": "598"
+        },
+        {
+          "page": "581-590"
+        },
+        {
+          "page": "603",
+          "parenthetical": "Scalia, J., concurring in part and concurring in judgment"
+        },
+        {
+          "page": "589-590"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/495/0575-01"
+      ]
+    },
+    {
+      "cite": "18 U. S. C. \u00a7 924",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(e)(2)(B)(ii)"
+        }
+      ],
+      "opinion_index": 1
+    }
+  ],
+  "analysis": {
+    "cardinality": 986,
+    "char_count": 20636,
+    "ocr_confidence": 0.695,
+    "pagerank": {
+      "raw": 7.138834061612103e-06,
+      "percentile": 0.9993229334992118
+    },
+    "sha256": "ec6a98bae8cb276ef8184f6a4f525bb823ad0ad252ddcdd22107adfebeb696ea",
+    "simhash": "1:d8c997c4f9cc0329",
+    "word_count": 3390
+  },
+  "last_updated": "2024-02-27T16:45:54.330906+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Breyer, J., delivered the opinion of the Court, in which Roberts, C. J., and Stevens, Scalia, Kennedy, Souter, and Ginsburg, JJ., joined. Alito, J., filed an opinion concurring in the judgment, in which Thomas, J., joined, post, p. 131."
+    ],
+    "parties": [
+      "CHAMBERS v. UNITED STATES"
+    ],
+    "opinions": [
+      {
+        "text": "Justice Breyer\ndelivered the opinion of the Court.\nThe question before us is whether a \u201cfailure to report\u201d for penal confinement is a \u201c \u2018violent felony\u2019 \u201d within the terms of the Armed Career Criminal Act. 18 U. S. C. \u00a7 924(e). We hold that it is not.\nI\nThe Armed Career Criminal Act (ACCA) imposes a 15-year mandatory prison term on an individual convicted of being a felon in possession of a firearm if that individual has \u201cthree previous convictions ... for a violent felony or a serious drug offense, or both, committed on occasions different from one another.\u201d \u00a7 924(e)(1). ACCA defines a \u201cviolent felony\u201d as a \u201ccrime punishable by imprisonment for a term exceeding one year\u201d that also either\n\u201c(i) has as an element the use, attempted use, or threatened use of physical force against the person of another; or\n\u201c(ii) is burglary, arson, or extortion, involves the use of explosives, or otherwise involves conduct that presents a serious potential risk of physical injury to another.\u201d \u00a7 924(e)(2)(B).\nClause (ii), ACCA\u2019s so-called residual clause, is at issue here.\nII\nThe petitioner, Deondery Chambers, pleaded guilty to a charge of being a felon unlawfully in possession of a firearm. \u00a7 922(g). At sentencing the Government asked the District Court to apply ACCA\u2019s 15-year mandatory prison term because, in its view, three of Chambers\u2019 prior convictions qualified as an ACCA \u201cserious drug offense\u201d or \u201cviolent felony.\u201d Chambers conceded that two of his prior convictions, namely, a 1998 conviction for robbery and aggravated battery and a 1999 drug crime conviction, fell within ACCA\u2019s definitions. But he disputed the Government\u2019s claim as to a third conviction. That third conviction arose out of Chambers\u2019 sentence for his 1998 robbery and battery offense. The sentence required Chambers to report to a local prison for 11 weekends of incarceration. He failed to report for weekend confinement on four occasions, and was later convicted of the crime of \u201cfail[ing] to report to a penal institution.\u201d Ill. Comp. Stat., ch. 720, \u00a75/31-6(a) (West Supp. 2008).\nThe District Court treated the \u201cfailure to report\u201d as a form of what the relevant Illinois statute calls \u201cescape from [a] penal institution,\u201d ibid., and held that the crime qualified as a \u201cviolent felony\u201d under ACCA. The Court of Appeals agreed. 473 F. 3d 724 (CA7 2007). In light of disagreement among the Circuits as to whether failure to report for imprisonment falls within the scope of ACCA\u2019s definition of \u201cviolent felony,\u201d we granted certiorari. Compare United States v. Winn, 364 F. 3d 7, 12 (CA1 2004) (failure to report is a \u201cviolent felony\u201d), with United States v. Piccolo, 441 F. 3d 1084, 1088 (CA9 2006) (failure to report is not a \u201cviolent felony\u201d).\nIll\nWe initially consider the classification of the crime. In ordinary speech, words such as \u201ccrime\u201d and \u201cfelony\u201d can refer not only to a generic set of acts, say, burglary in general, but also to a specific act committed on a particular occasion, say, the burglary that the defendant engaged in last month. We have made clear, however, that, for purposes of ACCA\u2019s definitions, it is the generic sense of the word \u201cfelony\u201d that counts. Taylor v. United States, 495 U. S. 575, 602 (1990); see also Shepard v. United States, 544 U. S. 13,16-17 (2005). The statute\u2019s defining language, read naturally, uses \u201cfelony\u201d to refer to a crime as generally committed. And by so construing the statute, one avoids the practical difficulty of trying to ascertain at sentencing, perhaps from a paper record mentioning only a guilty plea, whether the present defendant\u2019s prior crime, as committed on a particular occasion, did or did not involve violent behavior. See id., at 20-21. Thus, to determine, for example, whether attempted burglary is a \u201cviolent felony,\u201d we have had to examine, not the unsuccessful burglary the defendant attempted on a particular occasion, but the generic crime of attempted burglary. James v. United States, 550 U. S. 192, 204-206 (2007).\nThis categorical approach requires courts to choose the right category. And sometimes the choice is not obvious. The nature of the behavior that likely underlies a statutory phrase matters in this respect. Where Massachusetts, for example, placed within a single, separately numbered statutory section (entitled \u201cBreaking and entering at night,\u201d Mass. Gen. Laws Ann., ch. 266, \u00a7 16 (West 2008)) burglary of a \u201cbuilding, ship, vessel or vehicle,\u201d this Court found that the behavior underlying, say, breaking into a building differs so significantly from the behavior underlying, say, breaking into a vehicle that for ACCA purposes a sentencing court must treat the two as different crimes. See Shepard, supra, at 16-17; see also Taylor, supra, at 598.\nThe Illinois statute now before us, like the Massachusetts statute, places together in a single numbered statutory section several different kinds of behavior. It separately describes those behaviors as (1) escape from a penal institution, (2) escape from the custody of an employee of a penal institution, (3) failing to report to a penal institution, (4) failing to report for periodic imprisonment, (5) failing to return from furlough, (6) failing to return from work and day release, and (7) failing to abide by the terms of home confinement. Ill. Comp. Stat., ch. 720, \u00a7 5/31 \u2014 6(a); see Appendix A, infra. We know from the state-court information in the record that Chambers pleaded guilty to \u201cknowingly fail[ing] to report\u201d for periodic imprisonment \u201cto the Jefferson County Jail, a penal institution.\u201d App. 68; see Shepard, supra, at 25 (sentencing court may look, for example, to charging document, plea agreement, jury instructions, or transcript of plea colloquy to determine crime at issue). But we must decide whether for ACCA purposes a failure to report counts as a separate crime.\nUnlike the lower courts, we believe that a failure to report (as described in the statutory provision\u2019s third, fourth, fifth, and sixth phrases) is a separate crime, different from escape (the subject matter of the statute\u2019s first and second phrases), and from the potentially less serious failure to abide by the terms of home confinement (the subject of the final phrase); The behavior that likely underlies a failure to report would seem less likely to involve a risk of physical harm than the less passive, more aggressive behavior underlying an escape from custody. See Begay v. United States, 553 U. S. 137, 144-146 (2008). Moreover, the statute itself not only lists escape and failure to report separately (in its title and its body) but also places the behaviors in two different felony classes (Class Two and Class Three) of different degrees of seriousness. See Appendix A, infra.\nAt the same time, we believe the statutory phrases setting forth various kinds of failure to report (or to return) describe roughly similar forms of behavior. Each is characterized by a failure to present oneself for detention on a specified occasion. All amount to variations on a single theme. For that reason we consider them as together constituting a single category. Cf. James, supra, at 207-209 (determining that where separately listed behaviors pose a similar degree of risk, sentencing courts may consider all listed behaviors as a single crime). We consequently treat the statute for ACCA purposes as containing at least two separate crimes, namely, escape from custody on the one hand, and a failure to report on the other. Failure to abide by home confinement terms\u2014 potentially the least serious of the offenses \u2014 is not at issue here.\nIV\nWe now must consider whether the \u201cfailure to report\u201d crime satisfies ACCA\u2019s \u201cviolent felony\u201d definition. It clearly satisfies the first part of that definition, for it is a \u201ccrime punishable by imprisonment for a term exceeding one year.\u201d 18 U. S. C. \u00a7 924(e)(2)(B). But it satisfies none of the other parts. It does not have \u201cas an element the use, attempted use, or threatened use of physical force against the person of another.\u201d \u00a7 924(e)(2)(B)(i). It does not consist of \u201cburglary, arson, or extortion,\u201d or \u201cinvolv[e] use of explosives.\u201d \u00a7 924(e)(2)(B)(ii). And, more critically for present purposes, it does not \u201c \u2018involve conduct that presents a serious potential risk of physical injury to another.\u2019\u201d See Begay, 553 U. S., at 141-142; id., at 153-154 (Scalia, J., concurring in judgment) (treating serious risk of physical injury to another as critical definitional factor); id., at 156-158 (Alito, J., dissenting) (same).\nConceptually speaking, the crime amounts to a form of inaction, a far cry from the \u201cpurposeful, \u2018violent,\u2019 and \u2018aggressive\u2019 conduct\u201d potentially at issue when an offender uses explosives against property, commits arson, burgles a dwelling or residence, or engages in certain forms of extortion. Cf. id., at 144-145. While an offender who fails to report must of course be doing something at the relevant time, there is no reason to believe that the something poses a serious potential risk of physical injury. Cf. James, 550 U. S., at 203-204. To the contrary, an individual who fails to report would seem unlikely, not likely, to call attention to his whereabouts by simultaneously engaging in additional violent and unlawful conduct.\nThe Government argues that a failure to report reveals the offender\u2019s special, strong aversion to penal custody. And it points to three cases arising over a period of 30 years in which reported opinions indicate that individuals shot at officers attempting to recapture them. See United States v. Eaglin, 571 F. 2d 1069, 1072 (CA9 1977); State v. Johnson, 245 S. W. 3d 288, 291 (Mo. Ct. App. 2008); State v. Jones, 96 Wash. App. 369, 371-372, 979 P. 2d 898, 899 (1999). But even if we assume for argument\u2019s sake the relevance of violence that may occur long after an offender fails to report, we are not convinced by the Government\u2019s argument. The offender\u2019s aversion to penal custody, even if special, is beside the point. The question is whether such an offender is significantly more likely than others to attack, or physically to resist, an apprehender, thereby producing a \u201cserious potential risk of physical injury.\u201d \u00a7 924(e)(2)(B)(ii). And here a United States Sentencing Commission report helps provide a conclusive, negative answer. See Report on Federal Escape Offenses in Fiscal Years 2006 and 2007, p. 7 (Nov. 2008) (hereinafter Commission\u2019s Report), reprinted in part in Appendix B, infra. See also 473 F. 3d, at 727 (Posner, J.) (urging that such research be done).\nThe Commission\u2019s Report identifies every federal case in 2006 or 2007 in which a federal sentencing court applied the Sentencing Guideline, \u201cEscape, Instigating or Assisting Escape,\u201d 1 United States Sentencing Commission, Guidelines Manual \u00a72P1.1 (Nov. 2008), and in which sufficient detail was provided, say, in the presentence report, about the circumstances of the crime to permit analysis. The analysis included calculation of the likelihood that violence would accompany commission of the escape or the offender\u2019s later apprehension.\nOf 414 such cases, 160 involved a failure to report either for incarceration (42) or for custody after having been temporarily released (118). Commission\u2019s Report 7; see also Appendix B, infra. Of these 160 cases, none at all involved violence \u2014 not during commission of the offense itself, not during the offender\u2019s later apprehension \u2014 although in 5 instances (3.1%) the offenders were armed. Ibid. The upshot is that th\u00e9 study strongly supports the intuitive belief that failure to report does not involve a serious potential risk of physical injury.\nThe three reported cases to which the Government points do not show the contrary. The Sentencing Commission culled its 160 instances from a set of federal sentences imposed over a period of two years. The Government apparently culled its three examples from a set of state and federal sentences imposed over a period of 30 years. Compare Eag lin, supra (CA9 1977), with Johnson, supra (Mo. Ct. App. 2008). Given the larger set, the presence of three instances of violence is consistent with the Commission\u2019s data. Simple multiplication (2 years versus 30 years; federal alone versus federal-plus-state) suggests that they show only a small risk of physical violence (less than one in several thousand). And the Government provides no other empirical information.\nFor these reasons we conclude that the crime here at issue falls outside the scope of ACCA\u2019s definition of \u201cviolent felony.\u201d \u00a7 924(e)(2)(B)(ii). The judgment of the Court of Appeals is reversed, and the case is remanded for further proceedings consistent with this opinion.\nIt is so ordered.\nAPPENDIXES\nA\n\u201cEscape; failure to report to a penal institution or to report for periodic imprisonment.\n\u201cA person convicted of a felony, adjudicated a delinquent minor for the commission of a felony offense under the Juvenile Court Act of 1987, or charged with the commission of a felony who intentionally escapes from any penal institution or from the custody of an employee of that institution commits a Class 2 felony; however, a person convicted of a felony or adjudicated a delinquent minor for the commission of a felony offense under the Juvenile Court Act of 1987 who knowingly fails to report to a penal institution or to report for periodic imprisonment at any time or knowingly fails to return from furlough or from work and day release or who knowingly fails to abide by the terms of home confinement is guilty of a Class 3 felony.\u201d Ill. Comp. Stat., ch. 720, \u00a75/31-6(a) (West Supp. 2008).\nB\nReport on Federal Escape Offenses in Fiscal Years 2006 and 2007, p. 7, fig. 1 (Nov. 2008).\nCases can fall into more than one category. For example, one case could involve both force and injury. Such a case would be represented in the table for force and also for injury. Therefore, the reader should not aggregate the numbers in any column.",
+        "type": "majority",
+        "author": "Justice Breyer"
+      },
+      {
+        "text": "Justice Alito,\nwith whom Justice Thomas joins, concurring in the judgment.\nAs I have previously explained, I believe that the Court\u2019s approach in Begay, like its approach in this case, \u201ccannot be reconciled with the statutory text.\u201d Begay v. United States, 553 U. S. 137, 155 (2008) (dissenting opinion). I nonetheless recognize that \u201cstare decisis in respect to statutory interpretation has \u2018special force,\u2019\u201d John R. Sand & Gravel Co. v. United States, 552 U. S. 130, 139 (2008), and I am sympathetic to the majority\u2019s efforts to provide a workable interpretation of the \u201cresidual clause\u201d of the Armed Career Criminal Act (ACCA), while retaining the \u201ccategorical approach\u201d that we adopted in Taylor v. United States, 495 U. S. 575, 602 (1990). In light of Taylor and Begay, I agree that this case should be remanded for resentencing. I write separately, however, to emphasize that only Congress can rescue\u2019 the federal courts from the mire into which ACCA\u2019s draftsmanship and Taylor\u2019s \u201ccategorical approach\u201d have pushed us.\nIn 1986, when Congress enacted ACCA\u2019s residual clause, 18 U. S. C. \u00a7 924(e)(2)(B)(ii), few could have foreseen the difficulties that lay ahead. Only four months before Congress framed the residual clause, this Court upheld a state sentencing provision that imposed a mandatory minimum sentence where the judge found by a preponderance of the evidence that the defendant visibly possessed a firearm during the commission of certain felonies (including robbery). See McMillan v. Pennsylvania, 477 U. S. 79 (1986). Legislating against the background of McMillan, Congress may have assumed that ACCA\u2019s residual clause would similarly require federal sentencing judges to determine whether the particular facts of a particular case triggered a mandatory minimum sentence.\nBut history took a different track. In Taylor, the Court held that ACCA requires \u201cthe sentencing court to look only to the fact that the defendant had been convicted of crimes falling within certain categories, and not to the facts underlying the prior convictions.\u201d 495 U. S., at 600. Thus, we held that sentencing judges should apply a \u201ccategorical approach\u201d to determine whether an underlying state offense meets the \u201cgeneric\u201d definition of burglary that this Court\u2014 not Congress \u2014 created. Id., at 598. The Court justified its decision with a 10-page discussion of ACCA\u2019s purpose and legislative history, id., at 581-590; see also id., at 603 (Scalia, J., concurring in part and concurring in judgment) (criticizing the Court\u2019s approach), and explained that its conclusion was necessary to undo \u201can inadvertent casualty [in ACCA\u2019s] complex drafting process,\u201d id., at 589-590.\nACCA\u2019s clarity has been the true inadvertent casualty. After almost two decades with Taylor\u2019s \u201ccategorical approach,\u201d only one thing is clear: ACCA\u2019s residual clause is nearly impossible to apply, consistently. Indeed, the \u201ccategorical approach\u201d to predicate offenses has created numerous splits among the lower federal courts, the resolution of which could occupy this Court for years. What is worse is that each new application of the residual clause seems to lead us further and further away from the statutory text. Today\u2019s decision, for example, turns on little more than a statistical analysis of a research report prepared by the United States Sentencing Commission. Ante, at 129, 131 (Appendix B).\nAt this point, the only tenable, long-term solution is for Congress to formulate a specific list of expressly defined crimes that are deemed to be worthy of ACCA\u2019s sentencing enhancement. That is the approach that Congress took in 1984, when it applied ACCA to two enumerated and expressly defined felonies. See n. 1, supra. And that approach is the only way to right ACCA\u2019s ship.\nCongress originally enacted ACCA in 1984. See \u00a7 1802, 98 Stat. 2185, 18 U. S. C. App. \u00a7 1202(a) (1982 ed. and Supp. II) (repealed in 1986 by Firearms Owners\u2019 Protection Act, \u00a7 104(b), 100 Stat. 459). That statute, however, applied a mandatory sentencing enhancement to only two predicate felonies \u2014 robbery and burglary \u2014 which the statute expressly defined. 18 U. S. C. App. \u00a7\u00a71202(c)(8)-(9) (1982 ed., Supp. II). Congress did not add the undefined \u201cotherwise clause\u201d until 1986. See Career Criminals Amendment Act of 1986, \u00a7 1402, 100 Stat. 3207-39.\nFor example, the lower courts have split over whether it is a \u201cviolent felony\u201d under ACCA\u2019s residual clause to commit rape, compare United States v. Sawyers, 409 F. 3d 732 (CA6 2005) (statutory rape not categorically violent), with United States v. Williams, 120 F. 3d 575 (CA5 1997) (inducement of minor to commit sodomy violent), and United States v. Thomas, 231 Fed. Appx. 765 (CA9 2007) (all rape violent); retaliate against a government officer, compare United States v. Montgomery, 402 F. 3d 482 (CA5 2005) (not violent), with Sawyers, supra (violent); attempt or conspire to commit burglary, compare United States v. Fell, 511 F. 3d 1035 (CA10 2007) (even after James v. United States, 550 U. S. 192 (2007), and even where statute requires an overt act, conspiracy to commit burglary not violent), with United States v. Moore, 108 F. 3d 878 (CA8 1997) (attempted burglary violent if statute requires proof .of overt act); carry a concealed weapon, compare United States v. Whitfield, 907 F. 2d 798 (CA8 1990) (not violent), with United States v. Hall, 77 F. 3d 398 (CA11 1996) (violent); and possess a sawed-off shotgun as a felon, compare United States v. Amos, 501 F. 3d 524 (CA6 2007) (not violent), with United States v. Bishop, 453 F. 3d 30 (CA1 2006) (violent). Compare also United States v. Sanchez-Garcia, 501 F. 3d 1208 (CA10 2007) (unauthorized use of a motor vehicle not a \u201cviolent felony\u201d under 18 U. S. C. \u00a7 16(b), which closely resembles ACCA\u2019s residual clause), with United States v. Reliford, 471 F. 3d 913 (CA8 2006) (automobile tampering violent under ACCA\u2019s residual clause), and United States v. Galvan-Rodriguez, 169 F. 3d 217 (CA5 1999) (per curiam) (unauthorized use of a motor vehicle a \u201cviolent felony\u201d under \u00a7 16(b)).",
+        "type": "concurrence",
+        "author": "Justice Alito,"
+      }
+    ],
+    "attorneys": [
+      "Robert N. Hochman argued the cause for petitioner. With him on the briefs were Jeffrey T. Green, Julie Morian, and Sarah O\u2019Rourke Schrup.",
+      "Matthew D. Roberts argued the cause for the United States. With him on the brief were Solicitor General Garre, Acting Assistant Attorney General Friedrich, and Deputy Solicitor General Dreeben."
+    ],
+    "corrections": "",
+    "head_matter": "CHAMBERS v. UNITED STATES\nNo. 06-11206.\nArgued November 10, 2008\nDecided January 13, 2009\nBreyer, J., delivered the opinion of the Court, in which Roberts, C. J., and Stevens, Scalia, Kennedy, Souter, and Ginsburg, JJ., joined. Alito, J., filed an opinion concurring in the judgment, in which Thomas, J., joined, post, p. 131.\nRobert N. Hochman argued the cause for petitioner. With him on the briefs were Jeffrey T. Green, Julie Morian, and Sarah O\u2019Rourke Schrup.\nMatthew D. Roberts argued the cause for the United States. With him on the brief were Solicitor General Garre, Acting Assistant Attorney General Friedrich, and Deputy Solicitor General Dreeben."
+  },
+  "file_name": "0122-01",
+  "first_page_order": 320,
+  "last_page_order": 332
+}

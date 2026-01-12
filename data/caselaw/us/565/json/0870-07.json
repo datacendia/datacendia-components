@@ -1,0 +1,59 @@
+{
+  "id": 12211423,
+  "name": "Jordan v. Brunsman, Warden",
+  "name_abbreviation": "Jordan v. Brunsman",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-11158",
+  "first_page": "870",
+  "last_page": "870",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 870"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.667,
+    "sha256": "0b8573661bd2355d48c61dc0350d0ef73a5342ba0b5bc001ba15f9cc3e7d2288",
+    "simhash": "1:869b7283ca3b0026",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jordan v. Brunsman, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-11158.\nJordan v. Brunsman, Warden."
+  },
+  "file_name": "0870-07",
+  "first_page_order": 952,
+  "last_page_order": 952
+}

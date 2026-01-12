@@ -1,0 +1,59 @@
+{
+  "id": 12415507,
+  "name": "Clark v. United States",
+  "name_abbreviation": "Clark v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5221",
+  "first_page": "901",
+  "last_page": "901",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 901"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.705,
+    "sha256": "ce8e78d1fd240660d8bab43677d9d99ca3482e979728e1b8a5716005429d0cf7",
+    "simhash": "1:a58a9b0ecad51818",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Clark v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5221.\nClark v. United States."
+  },
+  "file_name": "0901-08",
+  "first_page_order": 977,
+  "last_page_order": 977
+}

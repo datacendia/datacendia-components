@@ -1,0 +1,59 @@
+{
+  "id": 12428486,
+  "name": "Brown v. California",
+  "name_abbreviation": "Brown v. California",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-6978",
+  "first_page": "1102",
+  "last_page": "1102",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1102"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 68,
+    "ocr_confidence": 0.554,
+    "sha256": "a8b9f0ceeadd862262ebb1bdfb8da3b0a98c61e788b3691c1702c233eb088add",
+    "simhash": "1:960911460ccb001a",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Brown v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6978.\nBrown v. California."
+  },
+  "file_name": "1102-10",
+  "first_page_order": 1178,
+  "last_page_order": 1178
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12430925,
+  "name": "Newball v. Massachusetts",
+  "name_abbreviation": "Newball v. Massachusetts",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-7605",
+  "first_page": "1169",
+  "last_page": "1169",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1169"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 73,
+    "ocr_confidence": 0.628,
+    "sha256": "e46936c0413e2ed273c9f54484c8ed7e90f778b77df0aa9d6abcc74058c74fbe",
+    "simhash": "1:c99d68f6b0613bfa",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Newball v. Massachusetts."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Mass. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7605.\nNewball v. Massachusetts."
+  },
+  "file_name": "1169-05",
+  "first_page_order": 1245,
+  "last_page_order": 1245
+}

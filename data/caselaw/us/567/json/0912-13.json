@@ -1,0 +1,59 @@
+{
+  "id": 12409047,
+  "name": "Marioni-Melendez v. United States",
+  "name_abbreviation": "Marioni-Melendez v. United States",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. 11-10289",
+  "first_page": "912",
+  "last_page": "912",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 912"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 83,
+    "ocr_confidence": 0.689,
+    "sha256": "0dbc77c877266eacd91f8d614dd4ca1d0409e8305b4e2268b2485717d64b45cb",
+    "simhash": "1:028a83020e4f944c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Marioni-Melendez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10289.\nMarioni-Melendez v. United States."
+  },
+  "file_name": "0912-13",
+  "first_page_order": 816,
+  "last_page_order": 816
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12234613,
+  "name": "Brooks v. Bobby, Warden",
+  "name_abbreviation": "Brooks v. Bobby",
+  "decision_date": "2011-11-15",
+  "docket_number": "No. 11A485",
+  "first_page": "1047",
+  "last_page": "1047",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1047"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 163,
+    "ocr_confidence": 0.67,
+    "sha256": "d72c3ed5dbadbffeca8aff0c33ae477090cdf3647015db4acb6d3bf3f2d784c5",
+    "simhash": "1:60531f21d7451cb7",
+    "word_count": 27
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Brooks v. Bobby, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "Application for stay of execution of sentence of death, presented to Justice Kagan, and by her referred to the Court, denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11A485.\nBrooks v. Bobby, Warden."
+  },
+  "file_name": "1047-03",
+  "first_page_order": 1129,
+  "last_page_order": 1129
+}

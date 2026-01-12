@@ -1,0 +1,59 @@
+{
+  "id": 12411109,
+  "name": "Retanan v. Sacramento County Sheriff's Department et al.",
+  "name_abbreviation": "Retanan v. Sacramento County Sheriff's Department",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10013",
+  "first_page": "830",
+  "last_page": "830",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 830"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 105,
+    "ocr_confidence": 0.705,
+    "sha256": "e585ee51e9fadbef6e563675bb051d3f3d51931db73b06d6dc696fd15efca17e",
+    "simhash": "1:139b6c88219bf2c4",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Retanan v. Sacramento County Sheriff\u2019s Department et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10013.\nRetanan v. Sacramento County Sheriff\u2019s Department et al."
+  },
+  "file_name": "0830-11",
+  "first_page_order": 906,
+  "last_page_order": 906
+}

@@ -1,0 +1,1060 @@
+{
+  "id": 3582065,
+  "name": "REED ELSEVIER, INC., et al. v. MUCHNICK et al.",
+  "name_abbreviation": "Reed Elsevier, Inc. v. Muchnick",
+  "decision_date": "2010-03-02",
+  "docket_number": "No. 08-103",
+  "first_page": "154",
+  "last_page": "174",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "559 U.S. 154"
+    },
+    {
+      "type": "parallel",
+      "cite": "176 L. Ed. 2d 18"
+    },
+    {
+      "type": "parallel",
+      "cite": "130 S. Ct. 1237"
+    },
+    {
+      "type": "vendor",
+      "cite": "2010 U.S. LEXIS 2202"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2009-028"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "556 U. S. 1161",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": -1
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 157",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(b)(2)(J)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "546 U. S. 12",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5984933
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/546/0012-01"
+      ]
+    },
+    {
+      "cite": "541 U. S. 401",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5932838
+      ],
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "418"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/541/0401-01"
+      ]
+    },
+    {
+      "cite": "548 U. S. 81",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3500482
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "93",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/548/0081-01"
+      ]
+    },
+    {
+      "cite": "549 U. S. 199",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3553543
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "211",
+          "parenthetical": "treating the administrative exhaustion requirement of the Prison Litigation Reform Act of 1995 (PLRA"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/549/0199-01"
+      ]
+    },
+    {
+      "cite": "535 U. S. 625",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        353467
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "630",
+          "parenthetical": "\"[Jjurisdietion\" properly refers to a court's power to hear a case, a matter that \"can never be forfeited or waived\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/535/0625-01"
+      ]
+    },
+    {
+      "cite": "35 Stat. 1078",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 F. 3d 1147",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10530360
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "1163"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/36/1147-01"
+      ]
+    },
+    {
+      "cite": "216 F. 3d 1281",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11220335
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "1285"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/216/1281-01"
+      ]
+    },
+    {
+      "cite": "264 F. 3d 622",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9484328
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "630"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/264/0622-01"
+      ]
+    },
+    {
+      "cite": "323 F. 3d 279",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9344589
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "283"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/323/0279-01"
+      ]
+    },
+    {
+      "cite": "394 F. 3d 357",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9166983
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "365"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/394/0357-01"
+      ]
+    },
+    {
+      "cite": "416 F. 3d 1195",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8945282
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1200-1201"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/416/1195-01"
+      ]
+    },
+    {
+      "cite": "17 U. S. C. \u00a7412",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "493 U. S. 20",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11329413
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "26, 31",
+          "parenthetical": "Resource Conservation and Recovery Act of 1976 notice provision"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/493/0020-01"
+      ]
+    },
+    {
+      "cite": "547 U. S. 198",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3275706
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "205-206",
+          "parenthetical": "habeas statute of limitations"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/547/0198-01"
+      ]
+    },
+    {
+      "cite": "530 U. S. 392",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9413818
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "412-413",
+          "parenthetical": "res judicata defense"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/530/0392-01"
+      ]
+    },
+    {
+      "cite": "532 U. S. 742",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9302102
+      ],
+      "weight": 2,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "750"
+        },
+        {
+          "page": "751",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/532/0742-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 2107",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "536 U. S. 101",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1254428
+      ],
+      "weight": 2,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "119-121"
+        },
+        {
+          "page": "109, 121",
+          "parenthetical": "relying on the analysis in Zipes"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/536/0101-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7\u00a7 1331",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "260 F. 2d 637",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        444526
+      ],
+      "year": 1958,
+      "pin_cites": [
+        {
+          "page": "640-641",
+          "parenthetical": "construing \u00a7411(a)'s precursor"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/260/0637-01"
+      ]
+    },
+    {
+      "cite": "90 Stat. 2583",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "455 U. S. 385",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11305742
+      ],
+      "weight": 8,
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "394"
+        },
+        {
+          "page": "394"
+        },
+        {
+          "page": "393"
+        },
+        {
+          "page": "393",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "395"
+        },
+        {
+          "page": "393-395"
+        },
+        {
+          "page": "398-394, 397",
+          "parenthetical": "relying on the fact that Congress had \"approved\" at least some cases awarding Title VII relief to claimants who had not complied with the statute's Equal Employment Opportunity Commission (EEOC"
+        },
+        {
+          "page": "395",
+          "parenthetical": "noting that \"the legal character of the requirement was not at issue in those\" earlier cases"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/455/0385-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a71332",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "506 U. S. 80",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11924969
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "100",
+          "parenthetical": "Thomas, J., concurring"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/506/0080-01"
+      ]
+    },
+    {
+      "cite": "511 U. S. 244",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1147362
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "274",
+          "parenthetical": "\"[J]urisdictional statutes 'speak to the power of the court rather than to the rights or obligations of the parties'\" (quoting Republic Nat. Bank of Miami v. United States, 506 U. S. 80, 100 (1992) (Thomas, J., concurring))"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/511/0244-01"
+      ]
+    },
+    {
+      "cite": "523 U. S. 83",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11503308
+      ],
+      "weight": 2,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "89",
+          "parenthetical": "\"subject-matter jurisdiction\" refers to \"the courts' statutory or constitutional power to adjudicate the case\" (emphasis in original)"
+        },
+        {
+          "page": "91",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/523/0083-01"
+      ]
+    },
+    {
+      "cite": "540 U. S. 443",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8897340
+      ],
+      "weight": 6,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "455"
+        },
+        {
+          "page": "456"
+        },
+        {
+          "page": "455"
+        },
+        {
+          "page": "453"
+        },
+        {
+          "page": "453"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/540/0443-01"
+      ]
+    },
+    {
+      "cite": "555 U. S. 1211",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "551 U. S. 205",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3573311
+      ],
+      "weight": 7,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "208"
+        },
+        {
+          "page": "209-210"
+        },
+        {
+          "page": "211"
+        },
+        {
+          "page": "211"
+        },
+        {
+          "page": "210-211"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/551/0205-01"
+      ]
+    },
+    {
+      "cite": "546 U. S. 500",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5937941
+      ],
+      "weight": 17,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "511-512",
+          "parenthetical": "citing examples"
+        },
+        {
+          "page": "511"
+        },
+        {
+          "page": "514"
+        },
+        {
+          "page": "515-516",
+          "parenthetical": "citation and footnote omitted"
+        },
+        {
+          "page": "508"
+        },
+        {
+          "page": "515-516"
+        },
+        {
+          "page": "511-513"
+        },
+        {
+          "page": "513-516"
+        },
+        {
+          "page": "514-515"
+        },
+        {
+          "page": "515"
+        },
+        {
+          "page": "515",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "515"
+        },
+        {
+          "page": "514-515"
+        },
+        {
+          "page": "515"
+        },
+        {
+          "page": "515"
+        },
+        {
+          "page": "504, 515-516",
+          "parenthetical": "holding that Title VIPs numerosity requirement is nonjurisdietional even though it serves the important policy goal of \"spar[ing] very small businesses from Title VII liability\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/546/0500-01"
+      ]
+    },
+    {
+      "cite": "259 F. 3d 65",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9498171
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "72-73"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/259/0065-01"
+      ]
+    },
+    {
+      "cite": "354 F. 3d 112",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9293663
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "114-115"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/354/0112-01"
+      ]
+    },
+    {
+      "cite": "509 F. 3d 116",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3329091
+      ],
+      "weight": 5,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "119"
+        },
+        {
+          "page": "129"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/509/0116-01"
+      ]
+    },
+    {
+      "cite": "533 U. S. 483",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9313415
+      ],
+      "weight": 2,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "493"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/533/0483-01"
+      ]
+    },
+    {
+      "cite": "17 U. S. C. \u00a7 102",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)",
+          "parenthetical": "2006 ed."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "17 U. S. C. \u00a7 411",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "556 U. S. 1161",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "6 How. 106",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3348816
+      ],
+      "year": 1848,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/47/0106-01"
+      ]
+    },
+    {
+      "cite": "108 U. S. 567",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3502488
+      ],
+      "year": 1883,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/108/0567-01"
+      ]
+    },
+    {
+      "cite": "552 U. S. 130",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3675998
+      ],
+      "weight": 3,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "136",
+          "parenthetical": "\"[P]etitioner can succeed only by convincing us that this Court has overturned, or that it should now overturn, its earlier precedent.\""
+        },
+        {
+          "page": "136"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/552/0130-01"
+      ]
+    },
+    {
+      "cite": "558 U. S. 67",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3639103
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "82",
+          "parenthetical": "citing Bowles, 551 U. S., at 209-211"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/558/0067-01"
+      ]
+    },
+    {
+      "cite": "546 U. S. 12",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5984933
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/546/0012-01"
+      ]
+    },
+    {
+      "cite": "541 U. S. 401",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5932838
+      ],
+      "year": 2004,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/541/0401-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 2107",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "455 U. S. 385",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11305742
+      ],
+      "weight": 2,
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "394"
+        },
+        {
+          "page": "394"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/455/0385-01"
+      ]
+    },
+    {
+      "cite": "523 U. S. 83",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11503308
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "91"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/523/0083-01"
+      ]
+    },
+    {
+      "cite": "540 U. S. 443",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8897340
+      ],
+      "year": 2004,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/540/0443-01"
+      ]
+    },
+    {
+      "cite": "551 U. S. 205",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3573311
+      ],
+      "weight": 9,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "209",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "211"
+        },
+        {
+          "page": "210-213"
+        },
+        {
+          "page": "209"
+        },
+        {
+          "page": "217",
+          "parenthetical": "opinion of Souter, J."
+        },
+        {
+          "page": "209-211"
+        },
+        {
+          "page": "209, n. 2"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/551/0205-01"
+      ]
+    },
+    {
+      "cite": "546 U. S. 500",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5937941
+      ],
+      "weight": 3,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "511"
+        },
+        {
+          "page": "511-513"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/546/0500-01"
+      ]
+    },
+    {
+      "cite": "17 U. S. C. \u00a7 411",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 1
+    }
+  ],
+  "analysis": {
+    "cardinality": 1472,
+    "char_count": 37294,
+    "ocr_confidence": 0.594,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.10164453603279573
+    },
+    "sha256": "40df8125719cfdd826ccec2d069f8c3f42cc07a12796dac71349a61039277c67",
+    "simhash": "1:980efec74b08dcc9",
+    "word_count": 5899
+  },
+  "last_updated": "2024-02-27T16:02:41.844851+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Thomas, J., delivered the opinion of the Court, in which Roberts, C. J., and Scalia, Kennedy, and Auto, JJ., joined. Ginsburg, J., filed an opinion concurring in part and concurring in the judgment, in which Stevens and Breyer, JJ., joined, post, p. 171. Sotomayor, J., took no part in the consideration or decision of the case.",
+      "Justice Sotomayor took no part in the consideration or decision of this case."
+    ],
+    "parties": [
+      "REED ELSEVIER, INC., et al. v. MUCHNICK et al."
+    ],
+    "opinions": [
+      {
+        "text": "Justice Thomas\ndelivered the opinion of the Court.\nSubject to certain exceptions, the Copyright Act (Act) requires copyright holders to register their works before suing for copyright infringement. 17 U. S. C. \u00a7 411(a) (2006 ed., Supp. II). In this case, the Court of Appeals for the Second Circuit held that a copyright holder\u2019s failure to comply with \u00a7411(a)\u2019s registration requirement deprives a federal court of jurisdiction to adjudicate his copyright infringement claim. We disagree. Section 411(a)\u2019s registration requirement is a precondition to filing a claim that does not restrict a federal court\u2019s subject-matter jurisdiction.\nI\nA\nThe Constitution grants Congress the power \u201c[t]o promote the Progress of Science and useful Arts, by securing for limited Times to Authors . . . the exclusive Right to . . . their . . . Writings.\u201d Art. I, \u00a78, cl. 8. Exercising this power, Congress has crafted a comprehensive statutory scheme governing the existence and scope of \u201c[cjopyright protection\u201d for \u201coriginal works of authorship fixed in any tangible medium of expression.\u201d 17 U. S. C. \u00a7 102(a) (2006 ed.). This scheme gives copyright owners \u201cthe exclusive rights\u201d (with specified statutory exceptions) to distribute, reproduce, or publicly perform their works. \u00a7 106. \u201cAnyone who violates any of the exclusive rights of the copyright owner as provided\u201d in the Act \u201cis an infringer of the copyright.\u201d \u00a7 501(a). When such infringement occurs, a copyright owner \u201cis entitled, subject to the requirements of section Ipil, to institute an action\u201d for copyright infringement. \u00a7 501(b) (emphasis added).\nThis case concerns \u201cthe requirements of section 411\u201d to which \u00a7 501(b) refers. Section 411(a) provides, inter alia and with certain exceptions, that \u201cno civil action for infringement of the copyright in any United States work shall be instituted until preregistration or registration of the copyright claim\u2019has been made in accordance with this title.\u201d This provision is part of the Act\u2019s remedial scheme. It establishes a condition \u2014 copyright registration \u2014 that plaintiffs ordinarily must satisfy before filing an infringement claim and invoking the Act\u2019s remedial provisions. We address whether \u00a7 411(a) also deprives federal courts of subject-matter jurisdiction to adjudicate infringement claims involving unregistered works.\nB\nThe relevant proceedings in this case began after we issued our opinion in New York Times Co. v. Tasini, 533 U. S. 483 (2001). In Tasini, we agreed with the Court of Appeals for the Second Circuit that several owners of online databases and print publishers had infringed the copyrights of six freelance authors by reproducing the authors\u2019 works electronically without first securing their permission. See id., at 493. In so holding, we affirmed the principal theory of liability underlying copyright infringement suits that other freelance authors had filed after the Court of Appeals had issued its opinion in Tasini. These other suits, which were stayed pending our decision in Tasini, resumed after we issued our opinion and were consolidated in the United States District Court for the Southern District of New York by the Judicial Panel on Multidistriet Litigation.\nThe consolidated complaint alleged that the named plaintiffs each own at least one copyright, typically in a freelance article written for a newspaper or a magazine, that they had registered in accordance with \u00a7 411(a). The class, however, included both authors who had registered their copyrighted works and authors who had not. See App. 94.\nBecause of the growing size and complexity of the lawsuit, the District Court referred the parties to mediation. For more than three years, the freelance authors, the publishers (and their insurers), and the electronic databases (and their insurers) negotiated. Finally, in March 2005, they reached a settlement agreement that the parties intended \u201cto achieve a global peace in the publishing industry.\u201d In re Literary Works in Electronic Databases Copyright Litigation, 509 F. 3d 116, 119 (CA2 2007).\nThe parties moved the District Court to certify a class for settlement and to approve the settlement agreement. Ten freelance authors, including Irvin Muehnick (hereinafter Muehnick respondents), objected. The District Court overruled the objections; certified a settlement class of freelance authors under Federal Rules of Civil Procedure 23(a) and (b)(3); approved the settlement as fair, reasonable, and adequate under Rule 23(e); and entered final judgment. At no time did the Muehnick respondents or any other party urge the District Court to dismiss the case, or to refuse to certify the class or approve the settlement, for lack of subject-matter jurisdiction.\nThe Muehnick respondents appealed, renewing their objections to the settlement on procedural and substantive grounds. Shortly before oral argument, the Court of Appeals sua sponte ordered briefing on the question whether \u00a7411(a) deprives federal courts of subject-matter jurisdiction over infringement claims involving unregistered copyrights. All parties filed briefs asserting that the District Court had subject-matter jurisdiction to approve the settlement agreement even though it included unregistered works.\nRelying on two Circuit precedents holding that \u00a7 411(a)\u2019s registration requirement was jurisdictional, see 509 F. 3d, at 121 (citing Well-Made Toy Mfg. Corp. v. Goffa Int\u2019l Corp., 354 F. 3d 112, 114-115 (CA2 2003); Morris v. Business Concepts, Inc., 259 F. 3d 65, 72-73 (CA2 2001)), the Court of Appeals concluded that the District Court lacked jurisdiction to certify a class of claims arising from the infringement of unregistered works, and also lacked jurisdiction to approve a settlement with respect to those claims, 509 F. 3d, at 121 (citing \u201cwidespread agreement among the circuits that section 411(a) is jurisdictional\u201d).\nJudge Walker dissented. He concluded \u201cthat \u00a7 411(a) is more like the [nonjurisdictional] employee-numerosity requirement in Arbaugh [v. Y & H Corp., 546 U. S. 500 (2006),]\u201d than the jurisdictional statutory time limit in Bowles v. Russell, 551 U. S. 205 (2007). 509 F. 3d, at 129. Accordingly, he reasoned that \u00a7411(a)\u2019s registration requirement does not limit federal subject-matter jurisdiction over infringement suits involving unregistered works. Ibid.\nWe granted the owners\u2019 and publishers\u2019 petition for a writ of certiorari, and formulated the question presented to ask whether \u00a7 411(a) restricts the subject-matter jurisdiction of the federal courts over copyright infringement actions. 555 U. S. 1211 (2009). Because no party supports the Court of Appeals\u2019 jurisdictional holding, we appointed an amicus curias to defend the Court of Appeals\u2019 judgment. 556 U. S. 1161 (2009). We now reverse.\nII\nA\n. \u201cJurisdiction\u201d refers to \u201ca court\u2019s adjudicatory authority.\u201d Kontrick v. Ryan, 540 U. S. 443, 455 (2004). Accordingly, the term \u201cjurisdictional\u201d properly applies only to \u201cprescriptions delineating the classes of cases (subject-matter jurisdiction) and the persons (personal jurisdiction)\u201d implicating that authority. Ibid.; see also Steel Co. v. Citizens for Better Environment, 523 U. S. 83, 89 (1998) (\u201csubject-matter jurisdiction\u201d refers to \u201cthe courts\u2019 statutory or constitutional power to adjudicate the case\u201d (emphasis in original)); Landgrafv. USI Film Products, 511 U. S. 244, 274 (1994) (\u201c[J]urisdictional statutes 'speak to the power of the court rather than to the rights or obligations of the parties\u2019\u201d (quoting Republic Nat. Bank of Miami v. United States, 506 U. S. 80, 100 (1992) (Thomas, J., concurring))).\nWhile perhaps clear in theory, the distinction between jurisdictional conditions and claim-processing rules can be confusing in practice. Courts \u2014 including this Court \u2014 have sometimes miseharacterized claim-processing rules or elements of a cause of action as jurisdictional limitations, particularly when that characterization was not central to the case, and thus did not require close analysis. See Arbaugh v. Y & H Corp., 546 U. S. 500, 511-512 (2006) (citing examples); Steel Co., 523 U. S., at 91 (same). Our recent cases evince a marked desire to curtail such \u201cdrive-by jurisdictional rulings,\u201d ibid., which too easily can miss the \u201ccritical difference[s]\u201d between true jurisdictional conditions and nonjurisdietional limitations on causes of action, Kontrick, supra, at 456; see also Arbaugh, 546 U. S., at 511.\nIn light of the important distinctions between jurisdictional prescriptions and claim-processing rules, see, e. g., id., at 514, we have encouraged federal courts and litigants to \u201cfacilitate]\u201d clarity by using the term \u201cjurisdictional\u201d only when it is apposite, Kontrick, supra, at 455. In Arbaugh, we described the general approach to distinguish \u201cjurisdictional\u201d conditions from claim-processing requirements or elements of a claim:\n\u201cIf the Legislature clearly states that a threshold limitation on a statute\u2019s scope shall count as jurisdictional, then courts and litigants will be duly instructed and will not be left to wrestle with the issue. But when Congress does not rank a statutory limitation on coverage as jurisdictional, courts should treat the restriction as nonjurisdictional in character.\u201d 546 U. S., at 515-516 (citation and footnote omitted).\nThe plaintiff in Arbaugh brought a claim under Title VII of the Civil Rights Act of 1964, which makes it unlawful \u201cfor an employer ... to discriminate,\u201d inter alia, on the basis of sex. 42 U. S. C. \u00a7 2000e-2(a)(l). But employees can bring Title VII claims only against employers that have \u201cfifteen or more employees.\u201d \u00a7 2000e(b). Arbaugh addressed whether that employee numerosity requirement \u201caffects federal-court subject-matter jurisdiction or, instead, delineates a substantive ingredient of a Title VII claim for relief.\u201d 546 U. S., at 508. We held that it does the latter.\nOur holding turned principally on our examination of the text of \u00a7 2000e(b), the section in which Title VII\u2019s numerosity requirement appears. Section 20Q0e(b) does not \u201cclearly stat[e]\u201d that the employee numerosity threshold on Title VII\u2019s scope \u201ceount[s] as jurisdictional.\u201d Id., at 515-516, and n. 11. And nothing in our prior Title VII cases compelled the conclusion that even though the numerosity requirement lacks a clear jurisdictional label, it nonetheless imposed a jurisdictional limit. See id., at 511-513. Similarly, \u00a72Q00e(b)\u2019s text and structure did not demonstrate that Congress \u201crank[ed]\u201d that requirement as jurisdictional. See id., at 513-516. As we observed, the employee numerosity requirement is located in a provision \u201cseparate\u201d from \u00a7 2000e-5(f)(3), Title VII\u2019s jurisdiction-granting section, distinguishing it from the \u201camount-in-eontroversy threshold ingredient of subject-matter jurisdiction in . .. diversity-of-jurisdiction under 28 U. S. C. \u00a71332.\u201d Arbaugh, 546 U. S., at 514-515. Accordingly, the numerosity requirement could not fairly be read to \u201c \u2018speak in jurisdictional terms or in any way refer to the jurisdiction of the district courts.\u2019 \u201d Id., at 515 (quoting Zipes v. Trans World Airlines, Inc., 455 U. S. 385, 394 (1982)). We thus \u201crefrain[ed] from\u201d construing the numerosity requirement to \u201cconstric[t] \u00a7 1331 or Title VII\u2019s jurisdictional provision.\u201d Arbaugh, supra, at 515 (internal quotation marks omitted).\nWe now apply this same approach to \u00a7 411(a).\nB\nSection 411(a) provides:\n\u201cExcept for an action brought for a violation of the rights of the author under section 106A(a), and subject to the provisions of subsection (b), no civil action for infringement of the copyright in any United States work shall be instituted until preregistration or registration of the copyright claim has been made in accordance with this title. In any case, however, where the deposit, application, and fee required for registration have been delivered to the Copyright Office in proper form and registration has been refused, the applicant is entitled to institute a civil action for infringement if notice thereof, with a copy of the complaint, is served on the Register of Copyrights. The Register may, at his or her option, become a party to the action with respect to the issue of registrability of the copyright claim by entering an appearance within sixty days after such service, but the Register\u2019s failure to become a party shall not deprive the court of jurisdiction to determine that issue.\u201d (Footnote omitted.)\nWe must consider whether \u00a7 411(a) \u201cclearly states\u201d that its registration requirement is \u201cjurisdictional.\u201d Arbaugh, supra, at 515. It does not. Amicus disagrees, pointing to the presence of the word \u201cjurisdiction\u201d in the last sentence of \u00a7 411(a) and contending that the use of the term there indicates the jurisdictional cast of \u00a7411(a)\u2019s first sentence as well. Brief for Court-Appointed Amicus Curiae in Support of Judgment Below 18 (hereinafter Amicus Brief). But this reference to \u201cjurisdiction\u201d cannot bear the weight that ami cus places upon it. The sentence upon which amicus relies states:\n\u201cThe Register [of Copyrights] may, at his or her option, become a party to the [copyright infringement] action with respect to the issue of registrability of the copyright claim by entering an appearance within sixty days after such service, but the Register\u2019s failure to become a party shall not deprive the court of jurisdiction to determine that issue.\u201d \u00a7 411(a) (emphasis added).\nCongress added this sentence to the Act in 1976, 90 Stat. 2583, to clarify that a federal court can determine \u201cthe issue of registrability of the copyright claim\u201d even if the Register does not appear in the infringement suit. That clarification was necessary because courts had interpreted \u00a7411(a)\u2019s precursor provision, which imposed a similar registration requirement, as prohibiting copyright owners who had been refused registration by the Register of Copyrights from suing for infringement until the owners first sought mandamus against the Register. See Vacheron & Constantin-Le Coultre Watches, Inc. v. Benrus Watch Co., 260 F. 2d 637, 640-641 (CA2 1958) (construing \u00a7411(a)\u2019s precursor). The 1976 amendment made it clear that a federal court plainly has adjudicatory authority to determine \u201cthat issue,\u201d \u00a7 411(a) (emphasis added) \u2014 i e., the issue of registrability \u2014 regardless of whether the Register is a party to the infringement suit. The word \u201cjurisdiction,\u201d as used here, thus says nothing about whether a federal court has subject-matter jurisdiction to adjudicate claims for infringement of unregistered works.\nMoreover, \u00a7411(a)\u2019s registration requirement, like Title VII\u2019s numerosity requirement, is located in a provision \u201cseparate\u201d from those granting federal courts subject-matter jurisdiction over those respective claims. See Arbaugh, supra, at 514-515. Federal district courts have subject-matter jurisdiction over copyright infringement actions based on 28 U. S. C. \u00a7\u00a7 1331 and 1338. But neither \u00a7 1331, which confers subject-matter jurisdiction over questions of federal law, nor \u00a7 1338(a), which is specific to copyright claims, conditions its jurisdictional grant on whether copyright holders have registered their works before suing for infringement. Cf. Arbaugh, 546 U. S., at 515 (\u201cTitle VII\u2019s jurisdictional provision\u201d does not \u201cspeeif[y] any threshold ingredient akin to 28 U. S. C. \u00a7 1332\u2019s monetary floor\u201d).\nNor does any other factor suggest that 17 U. S. C. \u00a7411(a)\u2019s registration requirement can be read to \u201c \u2018speak in jurisdictional terms or refer in any way to the jurisdiction of the district courts.\u2019 \u201d Arbaugh, supra, at 515 (quoting Zipes, 455 U. S., at 394). First, and most significantly, \u00a7 411(a) expressly allows courts to adjudicate infringement claims involving unregistered works in three circumstances: where the work is not a U. S. work, where the infringement claim concerns rights of attribution and integrity under \u00a7 106A, or where the holder attempted to register the work and registration was refused. Separately, \u00a7 411(c) permits courts to adjudicate infringement actions over certain kinds of unregistered works where the author \u201cdeclare[s] an intention to secure copyright in the work\u201d and \u201cmakes registration for the work, if required by subsection (a), within three months after [the work\u2019s] first transmission.\u201d \u00a7\u00a7411(c)(l)-<2). It would be at least unusual to ascribe jurisdictional significance to a condition subject to these sorts of exceptions.\nThat the numerosity requirement in Arbaugh could be considered an element of a Title VII claim, rather than a prerequisite to initiating a lawsuit, does not change this conclusion, as our decision in Zipes demonstrates. Zipes (upon which Arbaugh relied) held that Title YITs requirement that sex-discrimination claimants timely file a discrimination charge with the EEOC before filing a civil action in federal court was nonjurisdietional. See 455 U. S., at 393; 42 U. S. C. \u00a72000e-5(f)(l) (establishing specific time periods within which a discrimination claimant must file a lawsuit after filing a charge with the EEOC). A statutory condition that requires a party to take some action before filing a lawsuit is not automatically \u201ca jurisdictional prerequisite to suit.\u201d Zipes, 455 U. S., at 393 (emphasis added). Rather, the jurisdictional analysis must focus on the \u201clegal character\u201d of the requirement, id., at 395, which we discerned by looking to the condition\u2019s text, context, and relevant historical treatment, id., at 393-395; see also National Railroad Passenger Corporation v. Morgan, 536 U. S. 101, 119-121 (2002). We similarly have treated as nonjurisdietional other types of threshold requirements that claimants must complete, or exhaust, before filing a lawsuit.\nThe registration requirement in 17 U. S. C. \u00a7 411(a) fits in this mold. Section 411(a) imposes a precondition to filing a claim that is not clearly labeled jurisdictional, is not located in a jurisdiction-granting provision, and admits of congressionally authorized exceptions. See \u00a7\u00a7411(a)-(c). Section 411(a) thus imposes a type of precondition to suit that supports nonjurisdietional treatment under our precedents.\nC\nAmicus insists that our decision in Bowles, 551 U. S. 205, compels a conclusion contrary to the one we reach today. Amicus cites Bowles for the proposition that where Congress did not explicitly label a statutory condition as jurisdictional, a court nevertheless should treat it as such if that is how the condition consistently has been interpreted and if Congress has not disturbed that interpretation. Amicus Brief 26. Specifically, amicus relies on a footnote in Bowles to argue that here, as in Bowles, it would be improper to characterize the statutory condition as nonjurisdictional because doing so would override \u201c \u2018a century\u2019s worth of precedent\u2019\u201d treating \u00a7411(a)\u2019s registration requirement as jurisdictional. Amicus Brief 26 (quoting Bowles, swpra, at 209, n. 2). This argument focuses on the result in Bowles, rather than on the analysis we employed.\nBowles did not hold that any statutory condition devoid of an express jurisdictional label should be treated as jurisdictional simply because courts have long treated it as such. Nor did it hold that all statutory conditions imposing a time limit should be considered jurisdictional. Rather, Bowles stands for the proposition that context, including this Court\u2019s interpretation of similar provisions in many years past, is relevant to whether a statute ranks a requirement as jurisdictional.\nIn Bowles, we considered 28 U. S. C. \u00a7 2107, which requires parties in a civil action to file a notice of appeal within 30 days of the judgment being appealed, and Rule 4 of the Federal Rules of Appellate Procedure, which \u201ccarries \u00a72107 into practice.\u201d 551 U. S., at 208. After analyzing \u00a72107\u2019s specific language and this Court\u2019s historical treatment of the type of limitation \u00a72107 imposes (1 e., statutory deadlines for filing appeals), we concluded that Congress had ranked the statutory condition as jurisdictional. Our focus in Bowles on the historical treatment of statutory conditions for taking an appeal is thus consistent with the Arbaugh framework. Indeed, Bowles emphasized that this Court had long treated such conditions as jurisdictional, including in statutes other than \u00a72107, and specifically in statutes that predated the creation of the eourts of appeals. See 551 U. S., at 209-210, and n. 2.\nBowles therefore demonstrates that the relevant question here is not (as amicus puts it) whether \u00a7 411(a) itself has long been labeled jurisdictional, but whether the type of limitation that \u00a7 411(a) imposes is one that is properly ranked as jurisdictional absent an express designation. The statutory limitation in Bowles was of a type that we had long held did \u201cspeak in jurisdictional terms\u201d even absent a \u201cjurisdictional\u201d label, and nothing about \u00a7 2107\u2019s text or context, or the historical treatment of that type of limitation, justified a departure from this view. That was not the case, however, for the types of conditions in Zvpes and Arbaugh.\nHere, that same analysis leads us to conclude that \u00a7 411(a) does not implicate the subject-matter jurisdiction of federal courts. Although \u00a7 411 (a)\u2019s historical treatment as \u201cjurisdictional\u201d is a factor in the analysis, it is not dispositive. The other factors discussed above demonstrate that \u00a7411(a)\u2019s registration requirement is more analogous to the nonjurisdictional conditions we considered in Zipes and Arbaugk than to the statutory time limit at issue in Bowles. We thus conclude that \u00a7411(a)\u2019s registration requirement is nonjurisdictional, notwithstanding its prior jurisdictional treatment.\nIII\nAmicus argues that even if \u00a7 411(a) is nonjurisdietional, we should nonetheless affirm on estoppel grounds the Court of Appeals\u2019 judgment vacating the District Court\u2019s order approving the settlement and dismissing the case. According to amicus, petitioners asserted previously in these proceedings that copyright registration was jurisdictional, and this assertion should estop them from now asserting a right to waive objections to the authors\u2019 failure to register. Amicus urges us to prevent the parties \u201cfrom \u2018playing fast and loose with the courts\u2019 by \u2018deliberately changing positions according to the exigencies of the moment.\u2019\u201d Amicus Brief 58 (quoting New Hampshire v. Maine, 532 U. S. 742, 750 (2001)).\nWe agree that some statements in the parties\u2019 submissions to the District Court and the Court of Appeals are in tension with their arguments here. But we decline to apply judicial estoppel. As we explained in New Hampshire, that doctrine typically applies when, among other things, a \u201cparty has succeeded in persuading a court to accept that party\u2019s earlier position, so that judicial acceptance of an inconsistent position in a later proceeding would create the perception that either the first or the second court was misled.\u201d Ibid, (internal quotation marks omitted).\nSuch circumstances do not exist here for two reasons. First, the parties made their prior statements when negotiating or defending the settlement agreement. We do not fault the parties\u2019 lawyers for invoking in the negotiations binding Circuit precedent that supported their clients\u2019 positions. Perhaps more importantly, in approving the settlement, the District Court did not adopt petitioners\u2019 interpretation of \u00a7 411(a) as jurisdictional. Second, when the Court of Appeals asked petitioners to brief whether \u00a7 411(a) restricted the District Court\u2019s subject-matter jurisdiction, they argued that it did not, and the Court of Appeals rejected their arguments. See App. to Reply Brief for Petitioners 3a-5a, and n. 2. Accepting petitioners\u2019 arguments here thus cannot create \u201cinconsistent court determinations\u201d in their favor. New Hampshire, supra, at 751 (internal quotation marks omitted). We therefore hold that the District Court had authority to adjudicate the parties\u2019 request to approve their settlement.\nIV\nOur holding that \u00a7 411(a) does not restrict a federal court\u2019s subject-matter jurisdiction precludes the need for us to address the parties\u2019 alternative arguments as to whether the District Court had authority to approve the settlement even under the Court of Appeals\u2019 erroneous reading of \u00a7411. In concluding that the District Court had jurisdiction to approve the settlement, we express no opinion on the settlement\u2019s merits.\nWe also decline to address whether \u00a7411(a)\u2019s registration requirement is a mandatory precondition to suit that \u2014 like the threshold conditions in Arizona v. California, 530 U. S. 392, 412-413 (2000) (res judicata defense); Day v. McDonough, 547 U. S. 198, 205-206 (2006) (habeas statute of limitations); and Hallstrom v. Tillamook County, 493 U. S. 20, 26, 31 (1989) (Resource Conservation and Recovery Act of 1976 notice provision) \u2014 district courts may or should enforce sua sponte by dismissing copyright infringement claims involving unregistered works.\n* * *\nWe reverse the judgment of the Court of Appeals for the Second Circuit and remand this case for proceedings consistent with this opinion.\nIt is so ordered.\nJustice Sotomayor took no part in the consideration or decision of this case.\nOther sections of the Act \u2014 principally \u00a7\u00a7408-410 \u2014 detail the registration process, and establish remedial incentives to encourage copyright holders to register their works, see, e. g., \u00a7 410(c); 17 U. S. C. \u00a7412 (2006 ed. and Supp. II).\nSee La Resolana Architects, PA v. Clay Realtors Angel Fire, 416 F. 3d 1195, 1200-1201 (CA10 2005); Positive Black Talk Inc. v. Cash Money Records Inc., 394 F. 3d 357, 365 (CA5 2004); Zoom, Inc. v. Image-line, Inc., 323 F. 3d 279, 283 (CA4 2003); Murray Hill Publications, Inc. v. ABC Communications, Inc., 264 F. 3d 622, 630, and n. 1 (GA6 2001); Brewer-Giorgio v. Producers Video, Inc., 216 F. 3d 1281, 1285 (CA11 2000); Data Gen. Corp. v. Grumman Systems Support Corp., 36 F. 3d 1147, 1163 (CA1 1994).\nWe appointed Deborah Jones Merritt to brief and argue the case, as amicus curiae, in support of the Court of Appeals\u2019 judgment. Ms. Merritt has ably discharged her assigned responsibilities.\nSee Act of Mar. 4, 1909, \u00a7 12, 35 Stat. 1078.\nCf. Zipes, 455 U. S., at 398-394, 397 (relying on the fact that Congress had \u201capproved\u201d at least some cases awarding Title VII relief to claimants who had not complied with the statute\u2019s Equal Employment Opportunity Commission (EEOC) filing requirement in holding that the filing requirement was not a jurisdictional prerequisite to suit); United States v. Cotton, 535 U. S. 625, 630 (2002) (\u201c[Jjurisdietion\u201d properly refers to a court\u2019s power to hear a case, a matter that \u201ccan never be forfeited or waived\u201d).\nSee Jones v. Bock, 549 U. S. 199, 211 (2007) (treating the administrative exhaustion requirement of the Prison Litigation Reform Act of 1995 (PLRA) \u2014 which states that \u201c[n]o action shall be brought with respect to prison conditions under section 1983 of this title, or any other Federal law, by a prisoner ... until such administrative remedies as are available are exhausted,\u201d 42 U. S. C. \u00a7 1997e(a) \u2014 as an affirmative defense even though \u201c[t]here is no question that exhaustion is mandatory under the PLRA and that unexhausted claims cannot be brought in court\u201d); Woodford v. Ngo, 548 U. S. 81, 93 (2006) (same).\nBowles, for example, distinguished Scarborough v. Principi, 541 U. S. 401 (2004), which characterized as nonjurisdictional an express statutory-time limit for initiating postjudgment proceedings for attorney\u2019s fees under the Equal Access to Justice Act. See 551 U. S., at 211. As we explained, the time limit in Scarborough \u201cconcerned \u2018a mode of relief. .. ancillary to the judgment of a court\u2019 that already had plenary jurisdiction.\u201d 551 U. S., at 211 (quoting Scarborough, supra, at 418; emphasis added). Bowles also distinguished Kontrick v. Ryan, 540 U. S. 443 (2004), and Eberhart v. United States, 546 U. S. 12 (2005) (per curiam), as cases in which the Court properly held that certain time limits were nonjurisdictional because they were imposed by rules that did not purport to have any jurisdictional significance. See 551 U. S., at 210-211. Kontrick involved \u201ctime constraints applicable to objections to discharge\u201d in bankruptcy proceedings. 540 U. S., at 453. In that case, we first examined 28 U. S. C. \u00a7 157(b)(2)(J), the statute \u201cconferring jurisdiction over objections to discharge,\u201d and observed that it did not contain a timeliness requirement. Kontrick, 540 U. S., at 453. Rather, the \u201ctime constraints applicable to objections to discharge\u201d were contained in the Bankruptcy Rules, which expressly state that they \u201c \u2018shall not be construed to extend or limit the jurisdiction of the courts.\u2019\u201d See ibid, (quoting Fed. Rule Bkrtcy. Proc. 9030). Eberhart, in ton, treated as nonjurisdietional certain rules that the Court held \u201cclosely parallel[ed]\u201d those in Kontriek. 546 U. S., at 15.\nThis conclusion mirrors our holding in Zipes that Title VIPs EEOC filing requirement was nonjurisdietional, even though some of our own decisions had characterized it as jurisdictional. See 455 U. S., at 395 (noting that \u201cthe legal character of the requirement was not at issue in those\u201d earlier cases); see also National Railroad Passenger Corporation v. Morgan, 536 U. S. 101, 109, 121 (2002) (relying on the analysis in Zipes).\nAmicus\u2019 remaining jurisdictional argument \u2014 that the policy goals underlying copyright registration support construing \u00a7411(a)\u2019s registration provisions as jurisdictional, see Amicus Brief 45 \u2014 is similarly unavailing. We do not agree that a condition should be ranked as jurisdictional merely because it promotes important congressional objectives. See Arbaugh v. Y & H Corp., 546 U. S. 500, 504, 515-516 (2006) (holding that Title VIPs numerosity requirement is nonjurisdietional even though it serves the important policy goal of \u201cspar[ing] very small businesses from Title VII liability\u201d).",
+        "type": "majority",
+        "author": "Justice Thomas"
+      },
+      {
+        "text": "Justice Ginsburg,\nwith whom Justice Stevens and Justice Breyer join, concurring in part and concurring in the judgment.\nI agree with the Court\u2019s characterization of 17 U. S. C. \u00a7 411(a) (2006 ed. and Supp. II). That provision, which instructs authors to register their copyrights before commencing suit for infringement, \u201cis a precondition to filing a claim that does not restrict a federal court\u2019s subject-matter jurisdiction.\u201d Ante, at 157. I further agree that Arbaugh v. Y & H Corp., 546 U. S. 500 (2006), is the controlling precedent, see ante, at 161-162, and that Bowles v. Russell, 551 U. S. 205 (2007), does not counsel otherwise. There is, however, undeniable tension between the two decisions. Aiming to stave off continuing controversy over what qualifies as \u201cjurisdictional,\u201d and what does not, I set out my understanding of the Court\u2019s opinions in Arbaugh and Bowles, and the ground on which I would reconcile those rulings.\nIn Arbaugh, we held nonjurisdietional a prescription confining Title VII\u2019s coverage to employers with 15 or more employees, 42 U. S. C. \u00a72000e-2(a)(l). After observing that \u201cthe 15-employee threshold . . . \u2018d[id] not speak in jurisdictional terms or refer in any way to the jurisdiction of the district courts,\u2019 \u201d 546 U. S., at 515 (quoting Zipes v. Trans World Airlines, Inc., 455 U. S. 385, 394 (1982)), the Arbaugh opinion announced and applied a \u201creadily administrable bright line\u201d:\n\u201cIf the Legislature clearly states that a threshold limitation on a statute\u2019s scope shall count as jurisdictional, then courts and litigants will be duly instructed and will not be left to wrestle with the issue. But when Congress does not rank a statutory limitation on coverage as jurisdictional, courts should treat the restriction as nonjurisdietional in character. Applying that readily administrable bright line to this case, we hold that the threshold number of employees for application of Title VII is an element of a plaintiff\u2019s claim for relief, not a jurisdictional issue.\u201d 546 U. S., at 515-516 (citation and footnote omitted).\nAs the above-quoted passage indicates, the unanimous Arbaugh Court anticipated that all federal courts would thereafter adhere to the \u201cbright line\u201d held dispositive that day.\nBowles moved in a different direction. A sharply divided Court there held \u201cmandatory and jurisdictional\u201d the time limits for filing a notice of appeal stated in 28 U. S. C. \u00a7 2107(a), (c). 551 U. S., at 209 (internal quotation marks omitted). Bowles mentioned Arbaugh only to distinguish it as involving a statute setting \u201can employee-numerosity requirement, not a time limit.\u201d 551 U. S., at 211. Section 2107\u2019s time limits were \u201cjurisdictional,\u201d Bowles explained, because they were contained in a statute, not merely a rule, id., at 210-213, and because \u201c[t]his Court ha[d] long held that the taking of an appeal within the prescribed time is \u2018mandatory and jurisdictional,\u2019 \u201d id., at 209. Fidelity to Arbaugh and similarly reasoned decisions, the dissent in Bowles observed, would have yielded the conclusion that statutory time limits \u201care only jurisdictional if Congress says so. \u201d 551 U. S., at 217 (opinion of Souter, J.).\nBowles and Arbaugh can be reconciled without distorting either decision, however, on the ground that Bowles \u201crel[ied] on a long line of this Court\u2019s decisions left undisturbed by Congress.\u201d Union Pacific R. Co. v. Locomotive Engineers, 558 U. S. 67, 82 (2009) (citing Bowles, 551 U. S., at 209-211). The same is true of our decision, subsequent to Bowles, in John R. Sand & Gravel Co. v. United States, 552 U. S. 130 (2008). There the Court concluded, largely on stare decisis grounds, that the Court of Federal Claims statute of limitations requires sua sponte consideration of a lawsuit\u2019s timeliness. Id., at 136 (\u201c[P]etitioner can succeed only by convincing us that this Court has overturned, or that it should now overturn, its earlier precedent.\u201d).\nPlainly read, Arbaugh and Bowles both point to the conclusion that \u00a7 411(a) is nonjurisdictional. Section 411(a) \u201cdoes not speak in jurisdictional terms or refer in any way to the jurisdiction of the district courts.\u201d Zipes, 455 U. S., at 394. Arbaugh\u2019s \u201creadily administrable bright line\u201d is therefore controlling. 546 U. S., at 516.\nBowles does not detract from that determination. Amicus, reading Bowles as I do, urges on its authority that we hold \u00a7411(a) jurisdictional lest we disregard \u201c\u2018a century\u2019s worth of precedent.\u2019\u201d Brief for Court-Appointed Amicus Curiae in Support of Judgment Below 26 (quoting Bowles, 551 U. S., at 209, n. 2); see ante, at 167. But in Bowles and John R. Sand & Gravel Co., as just explained, we relied on longstanding decisions of this Court typing the relevant prescriptions \u201cjurisdictional.\u201d Bowles, 551 U. S., at 209-210 (citing, inter alia, Scarborough v. Pargoud, 108 U. S. 567 (1883), and United States v. Curry, 6 How. 106 (1848)); John R. Sand & Gravel Co., 552 U. S., at 136. Amicus cites well over 200 opinions that characterize \u00a7 411(a) as jurisdictional, but not one is from this Court, and most are \u201c \u2018drive-by jurisdictional rulings\u2019 that should be accorded \u2018no precedential effect,\u201d\u2019 Arbaugh, 546 U. S., at 511 (quoting Steel Co. v. Citizens for Better Environment, 523 U. S. 83, 91 (1998)); see Arbaugh, 546 U. S., at 511-513; ante, at 161.\n* * *\nFor the reasons stated, I join the Court\u2019s judgment and concur in part in the Court\u2019s opinion.\nE. g., Eberhart v. United States, 546 U. S. 12 (2005) (per curiam); Scarborough v. Principi, 541 U. S. 401 (2004); Kontrick v. Ryan, 540 U. S. 443 (2004).",
+        "type": "concurrence",
+        "author": "Justice Ginsburg,"
+      }
+    ],
+    "attorneys": [
+      "Charles S. Sims argued the cause for petitioners. With him on the briefs were Jon A. Baumgarten, Mark D. Harris, Henry B. Gutman, James L. Hallowell, Richard A. Bierschbach, David Nimmer, Ian Ballon, and Michael S. Denniston.",
+      "Ginger D. Anders argued the cause for the United States as amicus curiae. With her on the brief were Solicitor General Kagan, Assistant Attorney General West, Deputy Solicitor General Stewart, Scott R. McIntosh, and Jonathan H. Levy.",
+      "Deborah Jones Merritt, by invitation of the Court, 556 U. S. 1161, argued the cause and filed a brief as amicus curiae in support of the judgment below. With her on the brief were John Deaver Drinko and Andrew Lloyd Merritt. Charles D. Chalmers filed a brief for respondents Muchnick et al. With him on the brief were Amy Howe, Kevin K. Russell, Pamela S. Karlan, and Jeffrey L. Fisher. Michael J. Boni, Joanne Zack, Joshua D. Snyder, Gary Fergus, and George W. Croner filed briefs for respondents Pogrebin et al."
+    ],
+    "corrections": "",
+    "head_matter": "REED ELSEVIER, INC., et al. v. MUCHNICK et al.\nNo. 08-103.\nArgued October 7, 2009\nDecided March 2, 2010\nThomas, J., delivered the opinion of the Court, in which Roberts, C. J., and Scalia, Kennedy, and Auto, JJ., joined. Ginsburg, J., filed an opinion concurring in part and concurring in the judgment, in which Stevens and Breyer, JJ., joined, post, p. 171. Sotomayor, J., took no part in the consideration or decision of the case.\nCharles S. Sims argued the cause for petitioners. With him on the briefs were Jon A. Baumgarten, Mark D. Harris, Henry B. Gutman, James L. Hallowell, Richard A. Bierschbach, David Nimmer, Ian Ballon, and Michael S. Denniston.\nGinger D. Anders argued the cause for the United States as amicus curiae. With her on the brief were Solicitor General Kagan, Assistant Attorney General West, Deputy Solicitor General Stewart, Scott R. McIntosh, and Jonathan H. Levy.\nDeborah Jones Merritt, by invitation of the Court, 556 U. S. 1161, argued the cause and filed a brief as amicus curiae in support of the judgment below. With her on the brief were John Deaver Drinko and Andrew Lloyd Merritt. Charles D. Chalmers filed a brief for respondents Muchnick et al. With him on the brief were Amy Howe, Kevin K. Russell, Pamela S. Karlan, and Jeffrey L. Fisher. Michael J. Boni, Joanne Zack, Joshua D. Snyder, Gary Fergus, and George W. Croner filed briefs for respondents Pogrebin et al.\nBriefs of amici curiae urging reversal were filed for the American Intellectual Property Law Association by Amy Sullivan Cahill; and for Media Publishers by Clifford M. Sloan, Judith S. Kaye, Sarah E. McCallum, Ren\u00e9 P. Milam, Eve Burton, Jonathan Donnellan, Guy R. Friddell III, Eric Lieberman, and James McLaughlin.\nJonathan Band filed a brief for the Computer & Communications Industry Association et al. as amici curiae."
+  },
+  "file_name": "0154-01",
+  "first_page_order": 254,
+  "last_page_order": 274
+}

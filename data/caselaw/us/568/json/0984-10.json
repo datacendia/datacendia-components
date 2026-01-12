@@ -1,0 +1,59 @@
+{
+  "id": 12420567,
+  "name": "Montgomery v. Buchanan, Warden",
+  "name_abbreviation": "Montgomery v. Buchanan",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-5942",
+  "first_page": "984",
+  "last_page": "984",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 984"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.671,
+    "sha256": "6b767e7848f8a70ac114476ee73113a70bd5ef01e1e34a33dec9001e60f25515",
+    "simhash": "1:f48932954e499056",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Montgomery v. Buchanan, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5942.\nMontgomery v. Buchanan, Warden."
+  },
+  "file_name": "0984-10",
+  "first_page_order": 1060,
+  "last_page_order": 1060
+}

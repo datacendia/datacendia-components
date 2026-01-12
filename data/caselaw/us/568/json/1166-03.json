@@ -1,0 +1,59 @@
+{
+  "id": 12430790,
+  "name": "Meirovitz v. United States",
+  "name_abbreviation": "Meirovitz v. United States",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-7461",
+  "first_page": "1166",
+  "last_page": "1166",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1166"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.614,
+    "sha256": "f5d22d9d2c1c848e90cb20183d34064915211a329d84a4200a9a1fe5a5d8ada3",
+    "simhash": "1:95bbc6b24f35164b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Meirovitz v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7461.\nMeirovitz v. United States."
+  },
+  "file_name": "1166-03",
+  "first_page_order": 1242,
+  "last_page_order": 1242
+}

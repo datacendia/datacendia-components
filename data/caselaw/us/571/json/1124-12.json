@@ -1,0 +1,68 @@
+{
+  "id": 12700305,
+  "name": "In re Danielle BITON, petitioner.",
+  "name_abbreviation": "In re Biton",
+  "decision_date": "2014-01-13",
+  "docket_number": "No. 13\u20136895.",
+  "first_page": "1124",
+  "last_page": "1124",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 1124"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 836"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 909"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 21,
+    "char_count": 136,
+    "sha256": "846cb8be2e78d3f88a0c62d03ad68f970fdafef86fef33131e9ccb1142727172",
+    "simhash": "1:5df75056f2d215e5",
+    "word_count": 22
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Danielle BITON, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of mandamus denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re Danielle BITON, petitioner.\nNo. 13-6895.\nSupreme Court of the United States\nJan. 13, 2014.\nPetition for writ of mandamus denied."
+  },
+  "file_name": "1124-12",
+  "first_page_order": 1124,
+  "last_page_order": 1124
+}

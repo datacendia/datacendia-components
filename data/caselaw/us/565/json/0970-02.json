@@ -1,0 +1,59 @@
+{
+  "id": 12229779,
+  "name": "Cardenas v. United States",
+  "name_abbreviation": "Cardenas v. United States",
+  "decision_date": "2011-10-17",
+  "docket_number": "No. 11-6431",
+  "first_page": "970",
+  "last_page": "970",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 970"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.68,
+    "sha256": "72114da3a2e724b74f1e50267f6e867f9b8f0efc973c528f2efa01f8f699d557",
+    "simhash": "1:159bcb2727c8b016",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cardenas v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6431.\nCardenas v. United States."
+  },
+  "file_name": "0970-02",
+  "first_page_order": 1052,
+  "last_page_order": 1052
+}

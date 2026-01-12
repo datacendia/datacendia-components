@@ -1,0 +1,61 @@
+{
+  "id": 12221617,
+  "name": "Dawes et ux. v. United States",
+  "name_abbreviation": "Dawes v. United States",
+  "decision_date": "2012-05-21",
+  "docket_number": "No. 11-217",
+  "first_page": "1017",
+  "last_page": "1017",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1017"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 26,
+    "char_count": 156,
+    "ocr_confidence": 0.585,
+    "sha256": "ae6af7265e0e21ea53aa0d0e7705d59e5c1e0cca9e01e5004b69e7d93f0ddffd",
+    "simhash": "1:dd92fb022226b22a",
+    "word_count": 27
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Dawes et ux. v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-217.\nDawes et ux. v. United States."
+  },
+  "file_name": "1017-04",
+  "first_page_order": 893,
+  "last_page_order": 893
+}

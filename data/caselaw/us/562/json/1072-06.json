@@ -1,0 +1,59 @@
+{
+  "id": 5981795,
+  "name": "Freeman v. Steele, Warden",
+  "name_abbreviation": "Freeman v. Steele",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 10-6916",
+  "first_page": "1072",
+  "last_page": "1072",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1072"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.603,
+    "sha256": "2058c3b909e9d22b6e0f93835f45a24e4f978d02528401860d585a4f7f616079",
+    "simhash": "1:90ff67932c3712e7",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Freeman v. Steele, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6916.\nFreeman v. Steele, Warden."
+  },
+  "file_name": "1072-06",
+  "first_page_order": 1094,
+  "last_page_order": 1094
+}

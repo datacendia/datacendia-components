@@ -1,0 +1,59 @@
+{
+  "id": 5987399,
+  "name": "Xinidakis v. United States",
+  "name_abbreviation": "Xinidakis v. United States",
+  "decision_date": "2010-10-12",
+  "docket_number": "No. 10-6387",
+  "first_page": "975",
+  "last_page": "975",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 975"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.607,
+    "sha256": "4b1341ba5e58bde1ee561eb61fda4d68fc638cf3799bd7604db62f8b09d804d0",
+    "simhash": "1:94bbc103678d314e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Xinidakis v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6387.\nXinidakis v. United States."
+  },
+  "file_name": "0975-13",
+  "first_page_order": 997,
+  "last_page_order": 997
+}

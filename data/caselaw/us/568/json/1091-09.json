@@ -1,0 +1,59 @@
+{
+  "id": 12428045,
+  "name": "Moore v. United States",
+  "name_abbreviation": "Moore v. United States",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-5661",
+  "first_page": "1091",
+  "last_page": "1091",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1091"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.699,
+    "sha256": "873c1815b74fe0d53663d147a1fa899856388cc54e2727a80c4a09c15f9f157f",
+    "simhash": "1:00a8ae0b64b64018",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Moore v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5661.\nMoore v. United States."
+  },
+  "file_name": "1091-09",
+  "first_page_order": 1167,
+  "last_page_order": 1167
+}

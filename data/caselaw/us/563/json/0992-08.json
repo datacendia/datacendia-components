@@ -1,0 +1,59 @@
+{
+  "id": 5934055,
+  "name": "Henry v. Alabama et al.",
+  "name_abbreviation": "Henry v. Alabama",
+  "decision_date": "2011-05-16",
+  "docket_number": "No. 10-9314",
+  "first_page": "992",
+  "last_page": "992",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 992"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 72,
+    "ocr_confidence": 0.604,
+    "sha256": "0efce5a7127c20f48600787d26b5a7971212d72199d7d84fef9f20be6d6e070f",
+    "simhash": "1:5870082b030c9210",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Henry v. Alabama et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9314.\nHenry v. Alabama et al."
+  },
+  "file_name": "0992-08",
+  "first_page_order": 1018,
+  "last_page_order": 1018
+}

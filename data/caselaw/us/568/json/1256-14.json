@@ -1,0 +1,59 @@
+{
+  "id": 12434151,
+  "name": "Weatherspoon v. United States",
+  "name_abbreviation": "Weatherspoon v. United States",
+  "decision_date": "2013-03-25",
+  "docket_number": "No. 12-8849",
+  "first_page": "1256",
+  "last_page": "1256",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1256"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.654,
+    "sha256": "7b2b2570837f6bd02efbcaea05b6feea1afe01f0d07c4a9c7ec652aeeb66b08e",
+    "simhash": "1:848acb834a37940e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Weatherspoon v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8849.\nWeatherspoon v. United States."
+  },
+  "file_name": "1256-14",
+  "first_page_order": 1332,
+  "last_page_order": 1332
+}

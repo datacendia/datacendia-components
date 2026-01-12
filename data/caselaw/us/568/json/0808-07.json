@@ -1,0 +1,92 @@
+{
+  "id": 12408399,
+  "name": "Liberty University et al. v. Geithner, Secretary of the Treasury, et al.",
+  "name_abbreviation": "Liberty University v. Geithner",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-438",
+  "first_page": "808",
+  "last_page": "808",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 808"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "567 U. S. 951",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12412737,
+        12412769,
+        12412709,
+        12412745,
+        12412780,
+        12412717,
+        12412754,
+        12412693,
+        12412726,
+        12412762,
+        12412700
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/567/0951-06",
+        "/us/567/0951-10",
+        "/us/567/0951-03",
+        "/us/567/0951-07",
+        "/us/567/0951-11",
+        "/us/567/0951-04",
+        "/us/567/0951-08",
+        "/us/567/0951-01",
+        "/us/567/0951-05",
+        "/us/567/0951-09",
+        "/us/567/0951-02"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 30,
+    "char_count": 188,
+    "ocr_confidence": 0.691,
+    "sha256": "03efc8d0a0bae72648a6a071fdc32d11183726a19491806e09c29b2bd698326b",
+    "simhash": "1:3d9e17ff07ee78b4",
+    "word_count": 32
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Liberty University et al. v. Geithner, Secretary of the Treasury, et al.,"
+    ],
+    "opinions": [
+      {
+        "text": "567 U. S. 951. Respondents are requested to file a response to petition for rehearing within 30 days.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-438.\nLiberty University et al. v. Geithner, Secretary of the Treasury, et al.,"
+  },
+  "file_name": "0808-07",
+  "first_page_order": 884,
+  "last_page_order": 884
+}

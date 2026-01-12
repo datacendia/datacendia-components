@@ -1,0 +1,59 @@
+{
+  "id": 5929256,
+  "name": "David v. Scutt, Warden",
+  "name_abbreviation": "David v. Scutt",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5242",
+  "first_page": "911",
+  "last_page": "911",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 911"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.626,
+    "sha256": "2ac4eb90ea0f1fb39febd0d75ee7bb065be3587e6ac30914da91f396a53bb0b3",
+    "simhash": "1:b6ac320f4e1f20a6",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "David v. Scutt, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5242.\nDavid v. Scutt, Warden."
+  },
+  "file_name": "0911-01",
+  "first_page_order": 933,
+  "last_page_order": 933
+}

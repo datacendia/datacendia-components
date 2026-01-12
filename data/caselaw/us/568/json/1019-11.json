@@ -1,0 +1,59 @@
+{
+  "id": 12423489,
+  "name": "Thomas, Commissioner, Alabama Department of Corrections, et al. v. Madison",
+  "name_abbreviation": "Thomas v. Madison",
+  "decision_date": "2012-11-13",
+  "docket_number": "No. 12-308",
+  "first_page": "1019",
+  "last_page": "1019",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1019"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 28,
+    "char_count": 192,
+    "ocr_confidence": 0.645,
+    "sha256": "7177b2cd23c7646fed971ddd887291e803f91948d1c9ecfeebb669dd50b14289",
+    "simhash": "1:175088d7af60b81a",
+    "word_count": 29
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Thomas, Commissioner, Alabama Department of Corrections, et al. v. Madison."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Motion of respondent for leave to proceed in forma pauperis granted. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-308.\nThomas, Commissioner, Alabama Department of Corrections, et al. v. Madison."
+  },
+  "file_name": "1019-11",
+  "first_page_order": 1095,
+  "last_page_order": 1095
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12188006,
+  "name": "Davis v. Allegheny County, Pennsylvania, et al.",
+  "name_abbreviation": "Davis v. Allegheny County",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10624",
+  "first_page": "803",
+  "last_page": "803",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 803"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 32,
+    "char_count": 198,
+    "ocr_confidence": 0.646,
+    "sha256": "53eb24890f18a00e8b2d6b9d7058069802a1e19c3ad3952d1852ef47b9e6b6de",
+    "simhash": "1:28a079c9cbc0bf36",
+    "word_count": 32
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Davis v. Allegheny County, Pennsylvania, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Motion of petitioner for leave to proceed in forma pauperis denied, and certiorari dismissed. See this Court\u2019s Rule 39.8.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10624.\nDavis v. Allegheny County, Pennsylvania, et al."
+  },
+  "file_name": "0803-06",
+  "first_page_order": 885,
+  "last_page_order": 885
+}

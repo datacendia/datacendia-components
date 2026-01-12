@@ -1,0 +1,59 @@
+{
+  "id": 5941108,
+  "name": "Sneed v. Mississippi",
+  "name_abbreviation": "Sneed v. Mississippi",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7286",
+  "first_page": "1150",
+  "last_page": "1150",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1150"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 70,
+    "ocr_confidence": 0.611,
+    "sha256": "9df884abfeb8059289b8e306a3c7dbcc3bc8dde8c1a60f8fd8829d5eab14b840",
+    "simhash": "1:f00169271d49050a",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sneed v. Mississippi."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Miss. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7286.\nSneed v. Mississippi."
+  },
+  "file_name": "1150-05",
+  "first_page_order": 1172,
+  "last_page_order": 1172
+}

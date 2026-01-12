@@ -1,0 +1,59 @@
+{
+  "id": 12191458,
+  "name": "Smith et al. v. Fields et al.",
+  "name_abbreviation": "Smith v. Fields",
+  "decision_date": "2012-03-26",
+  "docket_number": "No. 11-561",
+  "first_page": "904",
+  "last_page": "904",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 904"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 76,
+    "ocr_confidence": 0.547,
+    "sha256": "b687e615567e54233d40d97a6b602a4d13de3764d82e7129d4c1815929b41799",
+    "simhash": "1:204034a9414f4020",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Smith et al. v. Fields et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-561.\nSmith et al. v. Fields et al."
+  },
+  "file_name": "0904-09",
+  "first_page_order": 780,
+  "last_page_order": 780
+}

@@ -1,0 +1,696 @@
+{
+  "id": 2260321,
+  "name": "Texas Employment Commission v. Clara Huey Et Al.",
+  "name_abbreviation": "Texas Employment Commission v. Huey",
+  "decision_date": "1961-02-01",
+  "docket_number": "No. A-7789",
+  "first_page": "500",
+  "last_page": "511",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "161 Tex. 500"
+    },
+    {
+      "type": "parallel",
+      "cite": "342 S.W.2d 544"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "142 A. 2d 774",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "pin_cites": [
+        {
+          "page": "776"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "237 Miss. 897",
+      "category": "reporters:state",
+      "reporter": "Miss.",
+      "case_ids": [
+        1311543
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/miss/237/0897-01"
+      ]
+    },
+    {
+      "cite": "142 N.Y.S. 2d 378",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "286 App. Div. 910",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        2914293,
+        2899926
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/286/0910-01",
+        "/ad/286/0910-02"
+      ]
+    },
+    {
+      "cite": "142 N.Y.S. 2d 380",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "year": 1955,
+      "opinion_index": 0
+    },
+    {
+      "cite": "286 App. Div. 911",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        2927849,
+        2923211
+      ],
+      "year": 1955,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/286/0911-02",
+        "/ad/286/0911-01"
+      ]
+    },
+    {
+      "cite": "97 N.Y.S. 2d 309",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "year": 1950,
+      "opinion_index": 0
+    },
+    {
+      "cite": "276 App. Div. 625",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "year": 1950,
+      "opinion_index": 0
+    },
+    {
+      "cite": "118 N.E. 2d 816",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 1954,
+      "opinion_index": 0
+    },
+    {
+      "cite": "306 N.Y. 794",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        2232368
+      ],
+      "year": 1954,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/306/0794-01"
+      ]
+    },
+    {
+      "cite": "117 N.Y.S. 2d 775",
+      "category": "reporters:state",
+      "reporter": "N.Y.S.2d",
+      "year": 1954,
+      "opinion_index": 0
+    },
+    {
+      "cite": "281 App. Div. 721",
+      "category": "reporters:state",
+      "reporter": "A.D.",
+      "case_ids": [
+        2865128,
+        2842567
+      ],
+      "year": 1954,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad/281/0721-02",
+        "/ad/281/0721-01"
+      ]
+    },
+    {
+      "cite": "101 S.E. 2d 327",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "75 Ariz. 345",
+      "category": "reporters:state",
+      "reporter": "Ariz.",
+      "case_ids": [
+        5198348
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ariz/75/0345-01"
+      ]
+    },
+    {
+      "cite": "90 N.W. 2d 468",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "352 Mich. 472",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1870015
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/352/0472-01"
+      ]
+    },
+    {
+      "cite": "80 N.W. 2d 193",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "347 Mich. 465",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1846439
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/347/0465-01"
+      ]
+    },
+    {
+      "cite": "143 N.E. 2d 564",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 1949,
+      "opinion_index": 0
+    },
+    {
+      "cite": "237 Ind. 63",
+      "category": "reporters:state",
+      "reporter": "Ind.",
+      "case_ids": [
+        1763281
+      ],
+      "year": 1949,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ind/237/0063-01"
+      ]
+    },
+    {
+      "cite": "36 Minn. L. Rev. 426",
+      "category": "journals:journal",
+      "reporter": "Minn. L. Rev.",
+      "year": 1952,
+      "opinion_index": 0
+    },
+    {
+      "cite": "70 N.W. 2d 335",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "year": 1952,
+      "opinion_index": 0
+    },
+    {
+      "cite": "244 Minn. 351",
+      "category": "reporters:state",
+      "reporter": "Minn.",
+      "case_ids": [
+        1745319
+      ],
+      "year": 1952,
+      "opinion_index": 0,
+      "case_paths": [
+        "/minn/244/0351-01"
+      ]
+    },
+    {
+      "cite": "47 N.W. 2d 449",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "234 Minn. 52",
+      "category": "reporters:state",
+      "reporter": "Minn.",
+      "case_ids": [
+        179658
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/minn/234/0052-01"
+      ]
+    },
+    {
+      "cite": "2 Okla. L. Rev. 389",
+      "category": "journals:journal",
+      "reporter": "Okla. L. Rev.",
+      "year": 1949,
+      "opinion_index": 0
+    },
+    {
+      "cite": "201 P. 2d 194",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1950,
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Wash. 2d 205",
+      "category": "reporters:state",
+      "reporter": "Wash. 2d",
+      "case_ids": [
+        5303683
+      ],
+      "year": 1950,
+      "opinion_index": 0,
+      "case_paths": [
+        "/wash-2d/32/0205-01"
+      ]
+    },
+    {
+      "cite": "8 A.L.R. 2d 429",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "85 N.E. 2d 779",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "324 Mass. 246",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        510324
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/324/0246-01"
+      ]
+    },
+    {
+      "cite": "177 Pa. Super. 53",
+      "category": "reporters:state",
+      "reporter": "Pa. Super.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "110 A. 2d 258",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "262"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "177 Pa. Super. 49",
+      "category": "reporters:state",
+      "reporter": "Pa. Super.",
+      "case_ids": [
+        724755
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/pa-super/177/0049-01"
+      ]
+    },
+    {
+      "cite": "105 A. 2d 176",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "year": 1955,
+      "opinion_index": 0
+    },
+    {
+      "cite": "175 Pa. Super. 402",
+      "category": "reporters:state",
+      "reporter": "Pa. Super.",
+      "case_ids": [
+        720810
+      ],
+      "year": 1955,
+      "opinion_index": 0,
+      "case_paths": [
+        "/pa-super/175/0402-01"
+      ]
+    },
+    {
+      "cite": "122 N.E. 2d 202",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 1955,
+      "opinion_index": 0
+    },
+    {
+      "cite": "79 S.E. 2d 114",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "139 W. Va. 75",
+      "category": "reporters:state",
+      "reporter": "W. Va.",
+      "case_ids": [
+        8581770
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/w-va/139/0075-01"
+      ]
+    },
+    {
+      "cite": "133 A 2d 333",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "24 N.J. 607",
+      "category": "reporters:state",
+      "reporter": "N.J.",
+      "case_ids": [
+        1312156
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nj/24/0607-01"
+      ]
+    },
+    {
+      "cite": "133 A. 2d 331",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "year": 1957,
+      "opinion_index": 0
+    },
+    {
+      "cite": "24 N.J. 604",
+      "category": "reporters:state",
+      "reporter": "N.J.",
+      "case_ids": [
+        1312176
+      ],
+      "year": 1957,
+      "opinion_index": 0,
+      "case_paths": [
+        "/nj/24/0604-01"
+      ]
+    },
+    {
+      "cite": "111 A. 2d 404",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "weight": 2,
+      "year": 1957,
+      "opinion_index": 0
+    },
+    {
+      "cite": "17 N.J. 313",
+      "category": "reporters:state",
+      "reporter": "N.J.",
+      "case_ids": [
+        1341878
+      ],
+      "weight": 2,
+      "year": 1957,
+      "opinion_index": 0,
+      "case_paths": [
+        "/nj/17/0313-01"
+      ]
+    },
+    {
+      "cite": "133 A. 2d 328",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "year": 1955,
+      "opinion_index": 0
+    },
+    {
+      "cite": "24 N.J. 598",
+      "category": "reporters:state",
+      "reporter": "N.J.",
+      "case_ids": [
+        1312144
+      ],
+      "year": 1955,
+      "opinion_index": 0,
+      "case_paths": [
+        "/nj/24/0598-01"
+      ]
+    },
+    {
+      "cite": "133 A. 2d 320",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "weight": 2,
+      "year": 1957,
+      "opinion_index": 0
+    },
+    {
+      "cite": "228 Ark 1012",
+      "category": "reporters:state",
+      "reporter": "Ark.",
+      "case_ids": [
+        8725769
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ark/228/1012-01"
+      ]
+    },
+    {
+      "cite": "98 N.E. 2d 193",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "1 Ind. App. 576",
+      "category": "reporters:state",
+      "reporter": "Ind. App.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "138 Conn. 253",
+      "category": "reporters:state",
+      "reporter": "Conn.",
+      "case_ids": [
+        1589666
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/conn/138/0253-01"
+      ]
+    },
+    {
+      "cite": "88 N.E. 2d 916",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "119 Ind. App. 607",
+      "category": "reporters:state",
+      "reporter": "Ind. App.",
+      "case_ids": [
+        1680874
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ind-app/119/0607-01"
+      ]
+    },
+    {
+      "cite": "30 A.L.R. 2d 362",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "91 A. 2d 315",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "171 Pa. Super. 634",
+      "category": "reporters:state",
+      "reporter": "Pa. Super.",
+      "case_ids": [
+        475705
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/pa-super/171/0634-01"
+      ]
+    },
+    {
+      "cite": "63 A. 2d 429",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "164 Pa. Super. 36",
+      "category": "reporters:state",
+      "reporter": "Pa. Super.",
+      "case_ids": [
+        465663
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/pa-super/164/0036-01"
+      ]
+    },
+    {
+      "cite": "83 A. 2d 217",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "138 Conn. 1951",
+      "category": "reporters:state",
+      "reporter": "Conn.",
+      "pin_cites": [
+        {
+          "page": "253"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "133 Atl. 2d 320",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "pin_cites": [
+        {
+          "page": "327-328"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "24 N.J. 585",
+      "category": "reporters:state",
+      "reporter": "N.J.",
+      "case_ids": [
+        1312188
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/nj/24/0585-01"
+      ]
+    },
+    {
+      "cite": "30 A.L.R. 2d 366",
+      "category": "reporters:specialty",
+      "reporter": "A.L.R. 2d",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "367"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "332 S.W. 2d 366",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10157414
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/332/0366-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1086,
+    "char_count": 27374,
+    "ocr_confidence": 0.597,
+    "pagerank": {
+      "raw": 2.351858890369991e-07,
+      "percentile": 0.7933082199000792
+    },
+    "sha256": "1b0f1f875e3f5fa3d82397b2da5d556c7f9e6241bcc10f6a1e03776c990a369d",
+    "simhash": "1:91eef48bfc625748",
+    "word_count": 4579
+  },
+  "last_updated": "2024-02-27T18:05:23.850581+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Texas Employment Commission v. Clara Huey Et Al."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Greenhill\ndelivered the opinion of the Court.\nClara Huey and other plaintiffs sought benefits under the Texas Unemployment Compensation Act for the period during which they were out of work while the Nardis Sportswear, Inc., plant was substantially shut down. The case is one purely of statutory construction: were these plaintiffs eligible for benefits under the Act or were they disqualified because of the provision of the union contract with Nardis? Other employees of other plants, not covered by any such contract, are considered by the Texas Employment Commission to be eligible for benefits under similar circumstances. It is the union contract which, in the opinion of the Commission, disqualifies the plaintiffs from benefits. The Commission had paid unemployment benefits to people thus laid off at the Nardis plant from 1946 through 1955 when it changed its position. This suit ensued.\nFrom the standpoint of the plaintiffs, Clara Huey et al., they were simply laid off without pay while the employer was without orders and was changing to new styles. From the standpoint of the employer (with which the Employment Commission now agrees), the shutdown coincided with a period of vacation for employees. Employees with seniority received vacation pay during the period while those like Clara Huey who had been with the company less than a year received none. The Employment Commission contends that the employees had agreed, through their unions, to this \u201cvacation period\u201d without pay and were thus disqualied from receiving benefits under the Act.\nThe Act, in the general language of the preamble, says that it is to the public good that the unemployment benefit funds be set aside \u201cto be used for the benefit of persons unemployed through no fault of their own.\u201d The Act says, \u201cAn individual shall be deemed Totally unemployed\u2019 in any benefit period during which he performs no services and with respect to which no wages are payable to him.\u201d 3It is stipulated that the plaintiffs performed no services and received no wages during this period. The Act, as applicable here, disqualifies a person from benefits if \u201che has left his last employment voluntarily without good cause connected with his employment.\u201d\nThe trial court sustained the action of the Commission in denying the plaintiffs a recovery. The Court of Civil Appeals reversed that judgment and held that these plaintiffs were not disqualified because of the union contract from receiving benefits under the Act. 332 S.W. 2d 366. It held, among other things, that these people had not left their -employment \u201cvoluntarily without good cause connected with their employment.\u201d We here affirm that judgment.\nThe facts are stipulated. Since at least 1946, it had been the practice of Nardis to shut down substantial parts of its operations between its summer and fall seasons. Its summer merchandise was primarily cotton. Its fall line was primarily of woolen and cotton garments. The practice had been that at the close of the summer season, when there were no more orders for sumemr garments, to shut down. The time of the shutdown varied from year to year depending upon the volume and timing of sales. Nardis employed people when work (orders for finished merchandise) was available. When work was short or unavailable, it laid off employees. None of the employees were guaranteed any set number of hours per week or per year, and sometimes the factory had been shut down for lack of work when such shutdown did not coincide with the period when vacations were taken.\nBeginning about 1946, the collective bargaining agreement provided that Nardis would grant a week\u2019s vacation to employees who had been there a year. The vacation pay was 40 times the employee\u2019s average hourly wage. If the employee had been there 5 years he was entitled to two weeks\u2019 vacation during which he received 80 times his average hourly wage. The agreement was silent as to employees who had been there less than a year. It provided that the vacation period would be determined by the employer, Nardis, at some time between June 1 and September 30 of each year. It made no provision for a plant shutdown.\nIn March of 1955, the contract was revised to read:\n\u201cA. The object of establishing the Vacation Plan hereinafter set forth is to provide the workers with diversion and rest from steady continuity of work and to contribute to their health and welfare.\n\u201cB. It is the desire and intention of the parties that eligible employees receive and enjoy annually the benefits of paid vacations. Employees are therefore expected not to accept other employment during such vacation periods, otherwise the actual purpose of this vacation plan will be defeated. Acceptance by an employee of work elsewhere during a vacation shall terminate his or her employment status with the Employer at the discretion of the Employer.\n\u201cC. The Employer agrees to grant one (1) week\u2019s annual vacation with pay * * * to all workers who as of May 1st, of any calendar year during which this agreement is in effect have at least one (1) year\u2019s service with the Employer immediately prior to such date; and, two (2) weeks\u2019 vacation with pay * * * to all workers who as of the same date have at least five (5) years\u2019 service with the Employer.\n\u201cD. The vacation period shall be determined by the Employer at times between May 1st and June 30th of each year.\u201d\nDuring the period May 21 through June 4, 1956, Nardis Sportswear shut down a substantial portion of its operations. Employees who had earned a two weeks\u2019 paid vacation in accordance with the terms of a collective bargaining contract, also employees who had earned a one week\u2019s paid vacation, were told to take their vacations during the shutdown period. Some of the employees in a few department who had not earned any paid vacation were furnished work during the shutdown. Others, including Clara Huey et al, who had not worked long enough to be entitled to paid vacations, were laid off during the shutdown. They applied for unemployment compensation for the period of time they were laid off without vacation pay during the shutdown. Their claims were denied.\nThe production facilities of Nardis, though carried on in one building, are divided into two factories. The 120 employees in the third-floor factory work largely on dresses and suits. The 140 employees in the second-floor factory work mainly on skirts and blouses. Of the employees on the first floor, approximately 50 are engaged in finishing and pressing garments produced in the second and third-floor factories; approximately 15 work as cutters, approximately 16 work in the belt department, and approximately 15 in the bundling department.\nIn 1956 approximately two weeks before the vacations were taken, Nardis notified the employees that the factories would be closed from May 21 through June 4, 1956. During this period Nardis substantially ceased all production operations in its second-floor factory. During the same period, operations were substantially reduced in its third-floor factory. Employees working on that floor who were not entitled to paid vacations under the contract were generally given work during this period. But in the second-floor factory, no work was available. With but a few exceptions, none of the second-floor employees worked during the vacation or shutdown period.\nMost of the first-floor employees continued to work during the period May 21 through June 4, because their duties were finishing operations and work was available for them. Thereafter those on the first floor who were entitled to paid vacations received a vacation on a staggered basis with various employees taking their vacations at different periods of time. Such vacations were taken to coincide with the employer\u2019s production schedule so that nonvacationing employees would be available to perform the necessary fiinishing work as the garments came down from the second and third floors for completion.\nThe parties stipulated that:\n\u201c6. At all times material hereto each of the claimants was carried on the employment rolls of Nardis Sportswear. During the period May 21 through June 4, 1956, claimants were so carried on the Nardis payroll records. Likewise, at all times when employees have been on layoff status, regardless of the reason for such layoff, laid-off employees have continued to be carried on the Nardis employment rolls.\n\u201c16. Throughout the years that vacations have been given the union has never agreed that the vacation should be by plant shutdown. The decisions substantially to shut down the factory duing the time when vacations are given has always been the employer\u2019s decisions in accordance with the terms of the contract.\n\u201c17. Although the union at all times material hereto was the collective bargaining representative for all of the production employees, some of the employees were not members of the union, including some of the employees who received no vacation pay bcause of insufficient seniority and those who received one week\u2019s vacation pay only because of insufficient seniority. It is agreed, however, that most of the employees were members of the union.\n\u201c18. At no time did any of the plaintiffs request or authorize the union to agree that they or any of them or any employee similarly situated was to receive a vacation without pay whether for a period of one week, two weeks or any other period of time, and the union did not at any time request or agree with Nardis that any such employee was to be given unpaid vacations for any period of time, except to the extent, if any, that they were bound by the contract between the union and the employer of which all employees had notice.\n\u201c19. Neither management nor the union objected to employees who received no vacation pay from seeking and obtaining other employment during the shutdown when other employees were on vacation and receiving vacation pay, or employees who received only one week\u2019s vacation from seeking and obtaining other employment for the remaining time they were out of work during the aforesaid period when the plant operations were shut down or curtailed.\u201d\nEach of the plaintiffs was able to work and was available for work either at Nardis or elsewhere.\nThis question has been before the courts of other states. Most of their opinions are not precisely in point because the unemployment acts and the statutory disqualifications are not precisely like the Texas Act. Under some statutes a person is disqualified if he left his employment \u201cvoluntarily.\u201d Others add \u201cwithout good cause\u201d or \u201cgood cause in connection with his work.\u201d There are many of these cases, and to set them out would greatly lengthen this opinion. They are reviewed in an annotation in 30 A.L.R. 2d 366. Its conclusion is:\n\u201cOn this question the courts have been divided, some by a process of legalistic hairsplitting concluding that such workers are voluntarily unemployed and therefore not eligible for unemployment compensation, and others taking the more realistic view that such employees are out of work through no fault of their own and therefore are entitled to benefits.\u201d 30 A.L.R. 2d at 367.\nThrough all of these cases runs the thread that if the plant is shut down for the benefit or convenience of the employer, or in accordance with company policy, or because the employer wants the plant shut down for a period for any reason (as for inventory, retooling, weather conditions, lack of orders, etc.), those employees laid off without pay and who have registered with the Employment Commission as being ready, able, willing and desirous of obtaining work but for whom no work is available at the plant or elsewhere are eligible for, and not disqualified from receiving, unemployment benefits. And this is held to be so even though the shutdown occurs during a layoff period designated as \u201cthe vacation period\u201d in which the employer has agreed, through union contract, to pay those employees with seniority certain \u201cvacation pay.\u201d\nOn the other hand, if the union has sought, demanded, and obtained a plant-wide shutdown as a vacation period for the benefit of all the employees, recovery has been denied. For example, the United Mine Workers obtained from management an agreement to shut down the coal mines for a period each year to let all of the miners have some time off without the loss of their jobs. The Pennsylvania Court denied recovery. But in a case in which the shutdown was for the benefit of the employer (for inventory)- and some employees were in a layoff status, the same court allowed recovery, even though employees with seniority were on paid vacations during the period. And in Indiana, John L. Lewis obtained for union members a two weeks\u2019 shutdown of coal mines as a \u201cmemorial period.\u201d It was held that no unemployment benefits were payable during the period. If the shutdown is compelled by-the union contract, the employees are bound in those states, by a theory of agency, to have asked for the layoff without pay.\nThough there are exceptions on both sides, the gravamen of the holdings in those states using the voluntary and involuntary unemployment or \u201cfault\u201d test seems to be determined by answering these questions: for whose primary benefit is the shutdown? Does the union contract require the closing of the plant? Does management have the choice of keeping the plant open to provide work for those who desire it? Do the employees in good faith want work, or have they by their union agreement procured a voluntary leave of absence? Have the employees voluntarily withdrawn themselves from the labor market for the period, short or long? Have the union and the people it represents, to accomplish rewards for seniority of employees or to obtain a rest for all employees, or to obtain other concessions from the employer, agreed to the voluntary unemployment of those without seniority?\nThe leading cases upholding and denying the payment of benefits are cited in the footnotes below.\nIn four of the states whose courts had held the claimants not entitled to benefits, the legislatures have amended their laws to make them eligible. That occurred in Pennsylvania, New Jersey, Massachusetts, and Washington.\nThe question recurs: Are Clara Huey and others similarly situated disqualified by virtue of the above provisions of the contract between the union and Nardis? Did they leave their employment \u201cvoluntarily without good cause connected with their work?\u201d We think not. There are several reasons.\n1. The plant had been shutting down annually at the end of the summer season since at least 1946 because of lack of orders and to change styles. There is nothing in the union agreement of 1946 about a plant shutdown nor do we find anything in the 1955 union agreement which would indicate that the plant was shut down by union demand or as a result of union bargaining for a plant shutdown for all employees for a period of vacation. It therefore appears that the plant was shutdown primarily for the benefit of the employer.\n2. There is nothing in the contract which says that all employees shall or must take a vacation, paid or not, during the shutdown period. To the contrary, Nardis continued to employ those people for which work was available during the so-called vacation period. For others, such as Clara Huey, it had no work.\n3. The contract of March, 1955, set out above, provides for \u201cvacations\u201d for people who had worked one year or longer. There is no provision for any vacation for those like Clara Huey who had worked less time. If the employees entitled to vacations accepted other employment during the week or two they were on [paid] vacation, their employment was subject to termination. It is stipulated that neither the management nor the union objected to those who were entitled to no vacation pay seeking employment elsewhere during the period during the plant shutdown. They registered with the Commission for work, but none was available.\n4. It is stipulated that the union has never agreed that vacations should be by shutdown. The decision to shut down the plant or not was up to management. When vacations were to be given was up to management within the dates fixed by the union agreement. The contract simply provided that employees with a sufficient seniority would be given one or two weeks of paid vacation.\nConsidering the above, we do not believe that Clara Huey et al. left their work \u201cvoluntarily without good cause connected with their work\u201d so as to disqualify themselves from the benefits provided by the Act. They were unemployed within the definition of the statute, being in that period \u201cduring which he [they] performed no services with respect to which no wages are [were] payable to him [them].\u201d If the layoff had been six months instead of six weeks, the conclusion might have more readily fit the ordinary understanding of \u201cunemployed.\u201d But the principle is the same. In this regard, the Supreme Court of New Jersey held:\n\u201cIt seems to us that a worker who is ready, willing and able to work but is left without work and pay because his employer\u2019s plant has temporarily shut down comes fairly within the broad coverage of the Unemployment Compensation Law. The shutdown may be for a relatively short period or it may be for a relatively long period. In either event the worker does not receive the weekly pay check upon which he and his family are generally dependent for their food and shelter. In good times as well as in bad there are unemployed persons who seek work and finally obtain it at plants which they understand may temporarily shut down thereafter. These persons are truly without employment during the payless shutdowns, even though they will resume when the plants reopen. Where they have fully satisfied the statutory eligibility requirements and are subject to none of the statutory disqualifications, they are justly entitled to the measure of protection against economic insecurity which the Unemployment Compensation Law soundly affords for the welfare of our entire society.\u201d Teichler v. Curtiss-Wright Corp. (1957), 24 N.J. 585, 133 Atl. 2d 320, at 327-328.\nAs stated, in some states the disqualification is simply that the employee has left his work \u201cvoluntarily.\u201d In the original Texas Act, the disqualification was that he left his work \u201cvoluntarily without good cause.\u201d The Texas disqualification was amended in 1943 to add that the person should have left his employment \u201cvoluntarily without good cause connected with his employment.\u201d It is therefore apparent that the Legislature has provided that for a person to be disqualified, he must not only have left his employment voluntarily, he must have left without good cause connected with his work.\nUnder our interpretation of the Texas statute and what we regard as the better reasoned opinions of other states as they bear on the wording of our statute, we conclude that Clara Huey et al. are not disqualified from benefits because of the union contract with Nardis Sportswear, Inc.\nThere is a section in the Texas Unemployment Compensation Act which provides: \u201cNo agreement by an individual to waive, release, or commute his rights to benefits or any other rights under this Act shall be valid.\u201d Since we have held that Clara Huey et al. were not, because of the union contract with Nardis, disqualified from receiving benefits under the Act, it is unnecessary for us to decide whether that agreement would have constituted a waiver or release of any rights under the statute so as to be invalid under the above provision. It is also unnecessary for us to decide whether the union agreement would constitute a disqualification for nonunion employees who were similarly laid off without pay during the period.\nThe judgment of the Court of Civil Appeals is affirmed.\nOpinion delivered February 1,1961.\nAssociate Justice Steakley not sitting.\n. \u2014Acts 1936, 44th Leg., 3rd called session, page 1993 at 1994. All subsequent references to statutes will be to articles in Vernon\u2019s Civil Statutes of Texas, Annotated, which codifies the unemployment compensation act as amended.\n. \u2014Article 5221b-17(I) Cp. 263 Vol. 15 V.A.C.S., and p. 158 of 1960 Cumulative pocket partsl.\n. \u2014Article 5221b-3(a).\n. \u2014See, e.g., Schettino v. Administrator, Unemployment Comp. Act., 138 Conn. 1951, 253, 83 A. 2d 217.\n. \u2014Mattey v. Unemployment Compensation Board, 1949, 164 Pa. Super. 36, 63 A. 2d 429. The Pennsylvania Unemployment Compensation Act, [43 P. S., section 751] was changed after Mattey. Persons laid off as in the case under consideration tion are now eligible for benefits there.\n. \u2014Golubski v. Unemployment Compensation Board of Review, 1952, 171 Pa. Super. 634, 91 A. 2d 315, 30 A.L.R. 2d 362, noted 57 Dickinson L. Rev. 248, 1953.\n. \u2014Bedwell v. Review Board of Indiana Emp. Security Div., 1949, 119 Ind. App. 607, 88 N.E. 2d 916.\n. ' \u2014 Upholding the payment of benefits:\nCONNECTICUT: Schettino v. Administrator, Unemployment Comp. Act. (1951), 138 Conn. 253, 83 A. 2d 217.\nINDIANA: American Bridge Co. v. Review Board (1951), 1 Ind. App. 576, 98 N.E. 2d 193.\nPENNSYLVANIA: Golubaski v. Board of Review (1952), 171 Pa. Super. 634, 91 A. 2d 315.\nARKANSAS: Thornbrough v. Schlenker (1958), 228 Ark 1012, 311 S.W. 2d 753.\nNEW JERSEY: Teichler v. Curtis-Wright Corp. (1957), 24 N.J. 585, 133 A. 2d 320; Watson v. U. S. Ruber Co. (1957), 24 N.J. 598, 133 A. 2d 328, overruling Glover v. Simmons Co. (1955), 17 N.J. 313, 111 A. 2d 404. The Glover case is noted and criticized in 41 Va. L. Review. 671; John R. Roebling\u2019s Corp. v. Bodrog (1957), 24 N.J. 604, 133 A. 2d 331; O\u2019Rourke v. Board of Review (1957), 24 N.J. 607 133 A 2d 333\nVIRGINIA: Bennett v. Hix (1953), 139 W. Va. 75, 79 S.E. 2d 114.\nOHIO: Yobe v. Sherwin-Williams Paint Co. (1954), 122 N.E. 2d 202, noted 16 Ohio State L.J. 248 (1955).\n. \u2014Denying payment of benefits:\nPENNSYLVANIA: Mattey v. Unemployment Compensation (1949), 164 Pa. Super. 36, 63 A. 2d 429; Whilco Corp. v. Unemployment Comp. Bd. (1954), 175 Pa. Super. 402, 105 A. 2d 176, where the union requested and got the shutdown; General Electric Co. v. Unemployment Comp. Bd. (1955) 177 Pa. Super. 49, 110 A. 2d 258, where the court found that the shutdown was \u201cnot brought about by the employer for its own benefit, but was for the purpose of providing the employees with benefits to which they were entitled by virtue of the agreements, 177 Pa. Super. 53, 110 A. 2d at 262. The Pennsylvania Legislature in 1955 amended its Unemployment Compensation Act to allow recovery.\nMASSACHUSETTS: Moen v. Director of Div. of Employment Security (1949), 324 Mass. 246, 85 N.E. 2d 779, 8 A.L.R. 2d 429. The rule of the decision was changed by subsequent statute.\nWASHINGTON: In re Buffelen Lbr. & Mfg. Co. (1948), 32 Wash. 2d 205, 201 P. 2d 194, where the contract was, \u201cIt is understood that vacations may be given by closing down the entire plant * * * .\u201d The rule was changed by subsequent statute. The holding is criticized in 25 Washington L. Rev. 99 (1950) and noted in 2 Okla. L. Rev. 389 (1949).\nMINNESOTA: Jackson v. Minneapolis-Honeywell Regulator Co. (1951), 234 Minn. 52, 47 N.W. 2d 449, where the factory was closed for inventory and vacation purposes and where the union contract provided, \u201cAll employees shall take time off equal to the established length of vacation shutdown, except those employees the company may require to work during the vacation shutdown;\u201d Johnson v. La Grange Shoe Corp. (1955), 244 Minn. 351, 70 N.W. 2d 335. The Jackson-Honeywell case is noted in 36 Minn. L. Rev. 426 (1952).\nINDIANA: Adams v. Review Board (1957), 237 Ind. 63, 143 N.E. 2d 564, where the plant, upon union contract, was shut down for vacation purposes. It distinguishes the American Bridge Co. case above where the shutdown was for inventory. See also Bedwell v. Review Board (1949), 119 Ind. App. 607, 88 N.E. 2d 916, where the mines were closed at the union\u2019s demand for a two weeks\u2019 memorial period.\nMICHIGAN: I. M. Dach Underwear Co. v. Michigan Employment Security Commission (1956), 347 Mich. 465, 80 N.W. 2d 193, (a 5-3 decision), criticized 34 U. of Detroit L. Rev. 440 (1957); but see Malone v. Appeal Board (1958), 352 Mich. 472, 90 N.W. 2d 468, which indicates a change in the feeling of the court based upon change in the personnel of the court. Dach is not expressly overruled in Malone, but the claimant in Malone is allowed to recover benefits during the so-called \u201cvacation\u201d period under different circumstances. Malone is a 4-3 decision in which the three dissenting justices are those remaining of the five who formed the majority in Dach. Of the four judges forming the majority in Malone, three were the dissenters in Dach. They were joined by a new justice. The eighth justice, new to the court, did not participate in Malone.\nARIZONA: Beaman v. Bench (1953), 75 Ariz. 345, 256 P. 2d 721, where the court felt that the union had forced the shutdown.\nNORTH CAROLINA: In re Southern (1958), 247 N.C. 544\u201e 101 S.E. 2d 327, where a statute provided that the employer was entitled to suspend work for a total of two weeks without conferring upon employees the right to unemployment compensation.\nNEW YORK: Naylor v. Shuron Optical Co. (1952), 281 App. Div. 721, 117 N.Y.S. 2d 775, aff\u2019d. Claim of Naylor, 306 N.Y. 794, 118 N.E. 2d 816 (1954) and Claim of Rakowski, 276 App. Div. 625, 97 N.Y.S. 2d 309 (1950) where the shutdown was at the express request of the union; Graziadei\u2019s Claim (1955), 286 App. Div. 911, 142 N.Y.S. 2d 380. The decisions rest on the theory that through the union agreement, the claimants had voluntarily withdrawn temporarily from the labor market. See also In re Barnes Claim (1955), 286 App. Div. 910, 142 N.Y.S. 2d 378.\nMISSISSIPPI: Mississippi State Employment Sec. Com\u2019n v. Jackson (1960), 237 Miss. 897, 116 So. 2d 830; the statutory test was \u201cvoluntarily\u201d or \u201cinvoluntarily\u201d unemployed.\n. \u2014\u201cNotwithstanding any other provisions of this act, an employee who is unemployed during a plant shutdown for vacation purposes shall not be deemed ineligible for compensation merely by reason of the fact that he or his collective bargaining agents agree to the vacation.\u201d Act of March 30, 1955, P.L. 6, Section 4(u), 43 P.S., section 753, quoted in American Insulator Corp. v. Board of Review (1958), 142 A. 2d 774 at 776.\n. \u2014After the opinion in Glover v. Simmons Co. (1955), 17 N..J 313, 111 A. 2d 404, the New Jersey Legislature amended the definition of \u201cunemployed\u201d to include the instance where the individual is on a vacation without pay, provided such vacation is not the result of the \u201cindividual\u2019s voluntary action.\u201d L. 1956, c. 65, R.S. 43:21-19 N.J.S.A. In Teichler v. Curtiss-Wright Corp., (1957) 24 N.J. 585, 133 A. 2d 320, an employee\u2019s going to work with knowledge that there would be a plant shutdown for \u201cvacation\u201d (without pay to him) was held not to be his \u201cvoluntary action\u201d so as to disqualify him.\n. \u2014Mass. Anno. Laws, Ch. 151A., section 1(R) (1,2).\n. \u2014Rev. Code of Wash., section 50.20.115.\n. \u2014Acts 1936, 44th Leg., 3rd C.S., page 1993 at 1997.\n. \u2014Acts 1943, 48th Leg., page 585 at 587.\n. \u2014Art. 5221-13(a).",
+        "type": "majority",
+        "author": "Mr. Justice Greenhill"
+      }
+    ],
+    "attorneys": [
+      "Will Wilson, Attorney General, C. K. Richards, Assistant Attorney General, for petitioner.",
+      "Mullinax, Wells, Morris & Mauzy and Chas. J. Morris, of Dallas, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "Texas Employment Commission v. Clara Huey Et Al.\nNo. A-7789.\nDecided February 1, 1961.\n(342 S.W. 2d Series 544)\nWill Wilson, Attorney General, C. K. Richards, Assistant Attorney General, for petitioner.\nMullinax, Wells, Morris & Mauzy and Chas. J. Morris, of Dallas, for respondents."
+  },
+  "file_name": "0500-01",
+  "first_page_order": 514,
+  "last_page_order": 525
+}

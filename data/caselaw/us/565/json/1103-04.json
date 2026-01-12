@@ -1,0 +1,102 @@
+{
+  "id": 12238697,
+  "name": "Filarsky v. Delia",
+  "name_abbreviation": "Filarsky v. Delia",
+  "decision_date": "2012-01-06",
+  "docket_number": "No. 10-1018",
+  "first_page": "1103",
+  "last_page": "1103",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1103"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "564 U. S. 1066",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12451296,
+        12451297,
+        5923234,
+        5930275,
+        4332740,
+        12451300,
+        12451302,
+        12451303,
+        5925928,
+        12451299,
+        5930730,
+        12451298,
+        12451301,
+        4335311,
+        5924029,
+        5929503
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/180/0939-01",
+        "/l-ed-2d/180/0939-02",
+        "/us/564/1066-06",
+        "/us/564/1066-07",
+        "/us/564/1066-08",
+        "/l-ed-2d/180/0939-05",
+        "/l-ed-2d/180/0939-07",
+        "/l-ed-2d/180/0940-01",
+        "/us/564/1066-01",
+        "/l-ed-2d/180/0939-04",
+        "/us/564/1066-02",
+        "/l-ed-2d/180/0939-03",
+        "/l-ed-2d/180/0939-06",
+        "/us/564/1066-03",
+        "/us/564/1066-05",
+        "/us/564/1066-04"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 35,
+    "char_count": 226,
+    "ocr_confidence": 0.647,
+    "sha256": "50072df748ed1a0a1262e144e0a824812244f51816acd446ec58670e2ba66711",
+    "simhash": "1:9094a023c6e7e65c",
+    "word_count": 38
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Filarsky v. Delia."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. [Certiorari granted, 564 U. S. 1066.] Motion of the Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "January 6, 2012\nNo. 10-1018.\nFilarsky v. Delia."
+  },
+  "file_name": "1103-04",
+  "first_page_order": 1185,
+  "last_page_order": 1185
+}

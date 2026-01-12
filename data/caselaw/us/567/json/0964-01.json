@@ -1,0 +1,59 @@
+{
+  "id": 12413163,
+  "name": "In re Discipline of Mitchell",
+  "name_abbreviation": "In re Discipline of Mitchell",
+  "decision_date": "2012-08-31",
+  "docket_number": "No. D-2690",
+  "first_page": "964",
+  "last_page": "964",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 964"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 39,
+    "char_count": 289,
+    "ocr_confidence": 0.659,
+    "sha256": "f8e73d66fa493934d8cd8a95f865fe2046ec4236bb6e4f0045ef4a0bf02ffef7",
+    "simhash": "1:268a33a43bfea76a",
+    "word_count": 51
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Mitchell."
+    ],
+    "opinions": [
+      {
+        "text": "Robert Vincent Mitchell, of Pittsburgh, Pa., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2690.\nIn re Discipline of Mitchell."
+  },
+  "file_name": "0964-01",
+  "first_page_order": 868,
+  "last_page_order": 868
+}

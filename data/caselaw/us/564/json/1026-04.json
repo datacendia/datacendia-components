@@ -1,0 +1,59 @@
+{
+  "id": 4335923,
+  "name": "Spencer v. Harry, Warden",
+  "name_abbreviation": "Spencer v. Harry",
+  "decision_date": "2011-06-20",
+  "docket_number": "No. 10-10253",
+  "first_page": "1026",
+  "last_page": "1026",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1026"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.484,
+    "sha256": "ee5ab04ee4274b1df80b3beeb1c302c6773bdf4ffb8ddefc9daf5abeb4c9868b",
+    "simhash": "1:f7dc36668e3f0c46",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Spencer v. Harry, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10253.\nSpencer v. Harry, Warden."
+  },
+  "file_name": "1026-04",
+  "first_page_order": 1020,
+  "last_page_order": 1020
+}

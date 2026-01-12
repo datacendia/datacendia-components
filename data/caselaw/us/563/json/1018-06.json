@@ -1,0 +1,102 @@
+{
+  "id": 5947606,
+  "name": "In re Discipline of Harris-Smith",
+  "name_abbreviation": "In re Discipline of Harris-Smith",
+  "decision_date": "2011-05-31",
+  "docket_number": "No. D-2521",
+  "first_page": "1018",
+  "last_page": "1018",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1018"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "562 U. S. 811",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6029216,
+        5970346,
+        5989963,
+        12437754,
+        6014831,
+        6021553,
+        5994643,
+        5900596,
+        12437749,
+        5938934,
+        12437751,
+        12437752,
+        12437753,
+        12437750,
+        12437755,
+        12437748
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/562/0811-07",
+        "/us/562/0811-03",
+        "/us/562/0811-08",
+        "/l-ed-2d/178/0266-07",
+        "/us/562/0811-01",
+        "/us/562/0811-02",
+        "/us/562/0811-06",
+        "/us/562/0811-04",
+        "/l-ed-2d/178/0266-02",
+        "/us/562/0811-05",
+        "/l-ed-2d/178/0266-04",
+        "/l-ed-2d/178/0266-05",
+        "/l-ed-2d/178/0266-06",
+        "/l-ed-2d/178/0266-03",
+        "/l-ed-2d/178/0267-01",
+        "/l-ed-2d/178/0266-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 35,
+    "char_count": 220,
+    "ocr_confidence": 0.606,
+    "sha256": "cf6ac6a80ae2ed439598b6273fafe2432c63584b1c3a89086517f6944e451136",
+    "simhash": "1:78da4942b130a50c",
+    "word_count": 37
+  },
+  "last_updated": "2024-02-27T23:44:09.189648+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Harris-Smith."
+    ],
+    "opinions": [
+      {
+        "text": "It having been reported that Bridgette Miriam Harris-Smith, of Washington, D. C., has died, the rule to show cause, issued on October 4, 2010 [562 U. S. 811], is discharged.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2521.\nIn re Discipline of Harris-Smith."
+  },
+  "file_name": "1018-06",
+  "first_page_order": 1044,
+  "last_page_order": 1044
+}

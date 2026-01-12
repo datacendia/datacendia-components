@@ -1,0 +1,98 @@
+{
+  "id": 12421650,
+  "name": "Mayes v. Graphic Packaging International",
+  "name_abbreviation": "Mayes v. Graphic Packaging International",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 11-9959",
+  "first_page": "996",
+  "last_page": "996",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 996"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "567 U. S. 939",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12411808,
+        12411841,
+        12411875,
+        12411909,
+        12411944,
+        12411850,
+        12411950,
+        12411888,
+        12411825,
+        12411920,
+        12411859,
+        12411895,
+        12411867,
+        12411934
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/567/0939-01",
+        "/us/567/0939-03",
+        "/us/567/0939-07",
+        "/us/567/0939-10",
+        "/us/567/0939-13",
+        "/us/567/0939-04",
+        "/us/567/0939-14",
+        "/us/567/0939-08",
+        "/us/567/0939-02",
+        "/us/567/0939-11",
+        "/us/567/0939-05",
+        "/us/567/0939-09",
+        "/us/567/0939-06",
+        "/us/567/0939-12"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 101,
+    "ocr_confidence": 0.599,
+    "sha256": "999e0e040ca0b09949f64e7c26e904b3bb06573bc81d7b422d918365113ad160",
+    "simhash": "1:131c12054298780d",
+    "word_count": 15
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mayes v. Graphic Packaging International,"
+    ],
+    "opinions": [
+      {
+        "text": "567 U. S. 939. Petition for rehearing denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9959.\nMayes v. Graphic Packaging International,"
+  },
+  "file_name": "0996-04",
+  "first_page_order": 1072,
+  "last_page_order": 1072
+}

@@ -1,0 +1,97 @@
+{
+  "id": 2336656,
+  "name": "Ex Parte Harold Holden",
+  "name_abbreviation": "Ex parte Holden",
+  "decision_date": "1945-11-21",
+  "docket_number": "No. A-702",
+  "first_page": "295",
+  "last_page": "296",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "144 Tex. 295"
+    },
+    {
+      "type": "parallel",
+      "cite": "190 S.W.2d 484"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "3 S. W. (2d) 406",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2274824,
+        10283538
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/117/0325-01",
+        "/sw2d/3/0406-01"
+      ]
+    },
+    {
+      "cite": "117 Texas 325",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2274824
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/117/0325-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 240,
+    "char_count": 3165,
+    "ocr_confidence": 0.639,
+    "pagerank": {
+      "raw": 1.2547240252223698e-07,
+      "percentile": 0.6110483661402654
+    },
+    "sha256": "bf8f712b72f187845ec825065315d3f9d2cc9a68931b8008d424cc8cdfcc0cc7",
+    "simhash": "1:eb0f2e46161fc692",
+    "word_count": 566
+  },
+  "last_updated": "2024-02-27T23:17:38.113242+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ex Parte Harold Holden."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Hickman\ndelivered the opinion of the Court.\nThis is an original habeas corpus proceeding in this court in which Harold Holden seeks release from an order of a special judge of one of the district courts of Dallas County adjudging him to be in contempt of that court. The punishment assessed was a fine of $100.00 and 3 days in jail, the maximum allowed by law. Art. 1911 R. S. 1925. By order of this court heretofore entered relator was released from the custody of the Sheriff of Dallas County pending a hearing of this proceeding by this court on its merits.\nThe contempt order was based upon a finding that relator violated a previous order of the court requiring him to pay $35.00 per week into the registry of the court for the support and maintenance of his wife during the pendency of an action for divorce instituted by her against him. Relator\u2019s verified petition in this court is not controverted. One of the grounds upon which he attacks the legality of the contempt order is that upon the hearing he was denied the right to testify as to why he had not complied with the order requiring him to pay alimony. In support of this ground he has caused a statement of facts in the contempt hearing to be filed here and it discloses that while relator was on the witness stand for the purpose of testifying in his own defense his attorney asked him for what reason he had not paid the $35.00 per week. To this inquiry counsel for Mrs. Holden objected on the ground that it was immaterial and irrelevant why he had not paid it. The objection was sustained and relator was denied the right to state why he had not complied with the court\u2019s order.\nThere is thus presented for decision the question of whether or not due process has been accorded a party charged with contempt committed outside the presence of the court by disobedience of a previous order of the court when he has been denied the right to testify as a witness at the contempt hearing, in defense of the charge or mitigation of the punishment, concerning the reason why he disobeyed the order. That is not a difficult question. It was held in Ex parte Ratliff, 117 Texas 325, 3 S. W. (2d) 406, that due process, as guaranteed by Amendment 5 of the United States Constitution, and Art. 1, Sec. 19, of the Texas Constitution, \u201c* * * requires that one charged with contempt be accorded the opportunity not only to establish a complete defense, but to offer evidence and argument in extenuation of his offense and in mitigation of the penalty.\u201d That principle governs this case. To deny an accused the right to inform the court why he had not complied with its order is, in effect, to deny him a trial. That is not due process.\nOther grounds are relied on by relator, but since full relief. must be granted him on the ground just discussed, no reason is perceived far discussing other grounds.\nThe relator is discharged.\nOpinion delivered November 21, 1945.",
+        "type": "majority",
+        "author": "Mr. Justice Hickman"
+      }
+    ],
+    "attorneys": [
+      "Milton K. Norton and J. E. McLemore, Jr., both of Dallas, for relator.",
+      "White & Yarborough and T. H. Hoivard, all of Dallas, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "Ex Parte Harold Holden.\nNo. A-702.\nDecided November 21, 1945.\n(190 S. W., 2d Series, 484.)\nMilton K. Norton and J. E. McLemore, Jr., both of Dallas, for relator.\nWhite & Yarborough and T. H. Hoivard, all of Dallas, for respondent."
+  },
+  "file_name": "0295-01",
+  "first_page_order": 321,
+  "last_page_order": 322
+}

@@ -1,0 +1,96 @@
+{
+  "id": 6022960,
+  "name": "Gravenhorst v. United States",
+  "name_abbreviation": "Gravenhorst v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10453",
+  "first_page": "823",
+  "last_page": "823",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 823"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "560 U. S. 938",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12449705,
+        12449706,
+        12449707,
+        12449708,
+        12449709,
+        12449710,
+        12449711,
+        12449712,
+        12449713,
+        12449714,
+        12449865,
+        12449866
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/176/1243-06",
+        "/l-ed-2d/176/1244-01",
+        "/l-ed-2d/176/1244-02",
+        "/l-ed-2d/176/1244-03",
+        "/l-ed-2d/176/1244-04",
+        "/l-ed-2d/176/1244-05",
+        "/l-ed-2d/176/1244-06",
+        "/l-ed-2d/176/1245-01",
+        "/l-ed-2d/176/1245-02",
+        "/l-ed-2d/176/1245-03",
+        "/l-ed-2d/176/1264-02",
+        "/l-ed-2d/176/1264-03"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 37,
+    "char_count": 252,
+    "ocr_confidence": 0.577,
+    "sha256": "0a1da641444e8f069a1074d50444d941694df15c830111382b2e2b3aae9d129e",
+    "simhash": "1:4fb8bb4245069f9e",
+    "word_count": 42
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this motion."
+    ],
+    "parties": [
+      "Gravenhorst v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Motion of petitioner for reconsideration of order denying leave to proceed in forma pauperis [560 U. S. 938] denied.\nJustice Kagan took no part in the consideration or decision of this motion.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10453.\nGravenhorst v. United States."
+  },
+  "file_name": "0823-01",
+  "first_page_order": 845,
+  "last_page_order": 845
+}

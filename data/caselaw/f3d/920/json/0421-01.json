@@ -1,0 +1,1922 @@
+{
+  "id": 12520691,
+  "name": "EMW WOMEN'S SURGICAL CENTER, P.S.C., on behalf of itself, its staff, and its patients; Ernest Marshall, M.D., on behalf of himself and his patients; Ashley Bergin, M.D., on behalf of herself and her patients; Tanya Franklin, M.D., on behalf of herself and her patients, Plaintiffs-Appellees, v. Andrew G. BESHEAR, Attorney General (17-6183); Adam Meier, in his capacity as Secretary of the Cabinet of Health and Family Services (17-6151), Defendants-Appellants.",
+  "name_abbreviation": "Emw Women's Surgical Ctr. v. Beshear",
+  "decision_date": "2019-04-04",
+  "docket_number": "Nos. 17-6151/6183",
+  "first_page": "421",
+  "last_page": "461",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "920 F.3d 421"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "6th Cir.",
+    "id": 21296,
+    "name": "United States Court of Appeals for the Six Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "138 S.Ct. 1719",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12612189
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1740",
+          "parenthetical": "Thomas, J., concurring"
+        },
+        {
+          "parenthetical": "Thomas, J., concurring"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/1719-01"
+      ]
+    },
+    {
+      "cite": "679 F.2d 656",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        552717
+      ],
+      "year": 1982,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/679/0656-01"
+      ]
+    },
+    {
+      "cite": "274 F.Supp.2d 1262",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        9098046
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "1272",
+          "parenthetical": "rejecting unwilling-listener challenge to abortion-informed-consent statute because the statute did not require the patient to listen"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/274/1262-01"
+      ]
+    },
+    {
+      "cite": "245 F.3d 587",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11115423
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "598"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/245/0587-01"
+      ]
+    },
+    {
+      "cite": "185 F.3d 579",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11585237
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "586",
+          "parenthetical": "\"[O]n summary judgment, neither the district court nor this Court may make credibility determinations or weigh the evidence.\" (citation omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/185/0579-01"
+      ]
+    },
+    {
+      "cite": "643 F.3d 162",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5648634
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "168",
+          "parenthetical": "\"When reviewing a summary judgment motion, credibility judgments and weighing of the evidence are prohibited.\" (quotation omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/643/0162-01"
+      ]
+    },
+    {
+      "cite": "42 C.F.R. \u00a7\u00a7 441.257",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "87 U.S.L.W. 3172",
+      "category": "reporters:specialty",
+      "reporter": "U.S.L.W.",
+      "year": 2018,
+      "pin_cites": [
+        {
+          "parenthetical": "No. 18-483"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "888 F.3d 300",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12516680
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/888/0300-01"
+      ]
+    },
+    {
+      "cite": "265 F.Supp.3d 859",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        12266446
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "parenthetical": "granting a permanent injunction against a similar law"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/265/0859-01"
+      ]
+    },
+    {
+      "cite": "294 F.Supp.3d 746",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        12523800
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "parenthetical": "granting a preliminary injunction against an Ohio law criminalizing abortions performed because of fetal indication of Down Syndrome"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/294/0746-01"
+      ]
+    },
+    {
+      "cite": "138 S.Ct. 2080",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12612833
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "2097",
+          "parenthetical": "discussing the Cyber Age"
+        },
+        {
+          "parenthetical": "discussing the Cyber Age"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/2080-01"
+      ]
+    },
+    {
+      "cite": "137 S.Ct. 1730",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12604756
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1736",
+          "parenthetical": "explaining \"that the Cyber Age is a revolution of historic proportions [and that] we cannot appreciate yet its full dimensions and vast potential to alter how we think, express ourselves , and define who we want to be\" (emphasis added)"
+        },
+        {
+          "parenthetical": "explaining \"that the Cyber Age is a revolution of historic proportions [and that] we cannot appreciate yet its full dimensions and vast potential to alter how we think, express ourselves , and define who we want to be\" (emphasis added)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/137/1730-01"
+      ]
+    },
+    {
+      "cite": "S.D. Codified Laws \u00a7 34",
+      "category": "laws:leg_statute",
+      "reporter": "S.D. Codified Laws",
+      "opinion_index": 0
+    },
+    {
+      "cite": "N.D. Cent. Code \u00a7 14-02.1-04",
+      "category": "laws:leg_statute",
+      "reporter": "N.D. Cent. Code",
+      "opinion_index": 0
+    },
+    {
+      "cite": "Mo. Rev. Stat. \u00a7 188.027",
+      "category": "laws:leg_statute",
+      "reporter": "Mo. Rev. Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "W. Va. Code \u00a7 16",
+      "category": "laws:leg_statute",
+      "reporter": "W. Va. Code",
+      "opinion_index": 0
+    },
+    {
+      "cite": "Neb. Rev. Stat. \u00a7 28-327",
+      "category": "laws:leg_statute",
+      "reporter": "Neb. Rev. Stat.",
+      "pin_cites": [
+        {
+          "parenthetical": "requiring doctors to display the sonogram\"so that the woman may choose to view [it]\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "Mich. Comp. Laws \u00a7 333.17015",
+      "category": "laws:leg_statute",
+      "reporter": "Mich. Comp. Laws",
+      "opinion_index": 0
+    },
+    {
+      "cite": "Idaho Code \u00a7 18-609",
+      "category": "laws:leg_statute",
+      "reporter": "Idaho Code",
+      "opinion_index": 0
+    },
+    {
+      "cite": "915 N.W.2d 206",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "case_ids": [
+        12557161
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "212",
+          "parenthetical": "holding 72-hour waiting period was an undue burden "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nw2d/915/0206-01"
+      ]
+    },
+    {
+      "cite": "Ind. Code \u00a7 16-34-2-1",
+      "category": "laws:leg_statute",
+      "reporter": "Ind. Code",
+      "opinion_index": 0
+    },
+    {
+      "cite": "Fla. Stat. \u00a7 390.0111",
+      "category": "laws:leg_statute",
+      "reporter": "Fla. Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "Ariz. Rev. Stat. \u00a7 36-2156",
+      "category": "laws:leg_statute",
+      "reporter": "Ariz. Rev. Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "Ala. Code \u00a7 26",
+      "category": "laws:leg_statute",
+      "reporter": "Ala. Code",
+      "opinion_index": 0
+    },
+    {
+      "cite": "Wis. Stat. \u00a7 253.10",
+      "category": "laws:leg_statute",
+      "reporter": "Wis. Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "905 F.3d 787",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518819
+      ],
+      "year": 2018,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/905/0787-01"
+      ]
+    },
+    {
+      "cite": "250 F.Supp.3d 27",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        12274126
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "30",
+          "parenthetical": "holding statute was an undue burden "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/250/0027-01"
+      ]
+    },
+    {
+      "cite": "436 U.S. 447",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1490308
+      ],
+      "weight": 3,
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "455-56"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/436/0447-01"
+      ]
+    },
+    {
+      "cite": "130 S.Ct. 1324",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        3581856,
+        12446771,
+        5876476
+      ],
+      "year": 2010,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/559/0229-01",
+        "/l-ed-2d/176/0079-01",
+        "/br/424/1324-01"
+      ]
+    },
+    {
+      "cite": "559 U.S. 229",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3581856,
+        12446771
+      ],
+      "weight": 2,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "250"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/559/0229-01",
+        "/l-ed-2d/176/0079-01"
+      ]
+    },
+    {
+      "cite": "471 U.S. 626",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6206937
+      ],
+      "weight": 3,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "651"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/471/0626-01"
+      ]
+    },
+    {
+      "cite": "2007 U. Ill. L. Rev. 939",
+      "category": "journals:journal",
+      "reporter": "U. Ill. L. Rev.",
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "940"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "477 U.S. 317",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6207800
+      ],
+      "weight": 6,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "324"
+        },
+        {
+          "page": "324",
+          "parenthetical": "when the moving party submits a summary judgment motion, \"Rule 56(e)... requires the nonmoving party to go beyond the pleadings and ... designate 'specific facts showing that there is a genuine issue for trial.' \" (emphasis added)"
+        },
+        {
+          "parenthetical": "when the moving party submits a summary judgment motion, \"Rule 56(e)... requires the nonmoving party to go beyond the pleadings and ... designate 'specific facts showing that there is a genuine issue for trial.' \" (emphasis added)"
+        },
+        {
+          "parenthetical": "when the moving party submits a summary judgment motion, \"Rule 56(e)... requires the nonmoving party to go beyond the pleadings and ... designate 'specific facts showing that there is a genuine issue for trial.' \" (emphasis added)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/477/0317-01"
+      ]
+    },
+    {
+      "cite": "487 U.S. 781",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1775217
+      ],
+      "weight": 9,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "790",
+          "parenthetical": "content-based restrictions on speech must pass strict scrutiny"
+        },
+        {
+          "parenthetical": "content-based restrictions on speech must pass strict scrutiny"
+        },
+        {
+          "parenthetical": "content-based restrictions on speech must pass strict scrutiny"
+        },
+        {
+          "page": "795"
+        },
+        {
+          "page": "790"
+        },
+        {
+          "page": "796"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/487/0781-01"
+      ]
+    },
+    {
+      "cite": "226 F.3d 429",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11232132
+      ],
+      "weight": 3,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "437"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/226/0429-01"
+      ]
+    },
+    {
+      "cite": "411 S.W.3d 741",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7089530
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "751"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/411/0741-01"
+      ]
+    },
+    {
+      "cite": "784 F.3d 1037",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4182096
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1048",
+          "parenthetical": "citing Deters , 92 F.3d at 1415 "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/784/1037-01"
+      ]
+    },
+    {
+      "cite": "92 F.3d 1412",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7638075
+      ],
+      "weight": 4,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "1415"
+        },
+        {
+          "parenthetical": "citations omitted"
+        },
+        {
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/92/1412-01"
+      ]
+    },
+    {
+      "cite": "209 U.S. 123",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8288600
+      ],
+      "weight": 5,
+      "year": 1908,
+      "pin_cites": [
+        {
+          "page": "156"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/209/0123-01"
+      ]
+    },
+    {
+      "cite": "465 U.S. 89",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11334896
+      ],
+      "weight": 4,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "102",
+          "parenthetical": "citation omitted"
+        },
+        {
+          "parenthetical": "citation omitted"
+        },
+        {
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/465/0089-01"
+      ]
+    },
+    {
+      "cite": "530 U.S. 703",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9414210
+      ],
+      "weight": 9,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "716"
+        },
+        {
+          "page": "707"
+        },
+        {
+          "page": "716"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/530/0703-01"
+      ]
+    },
+    {
+      "cite": "448 U.S. 297",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1787609
+      ],
+      "weight": 3,
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "325"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/448/0297-01"
+      ]
+    },
+    {
+      "cite": "848 F.3d 1293",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12278035
+      ],
+      "weight": 4,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1309",
+          "parenthetical": "en banc"
+        },
+        {
+          "page": "1311",
+          "parenthetical": "quoting Stuart , 774 F.3d at 249 "
+        },
+        {
+          "parenthetical": "en banc"
+        },
+        {
+          "page": "1313"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/848/1293-01"
+      ]
+    },
+    {
+      "cite": "18 F.3d 526",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10508378
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "534",
+          "parenthetical": "upholding abortion-informed-consent statute and observing that it allowed doctors to \"disassociate themselves\" from the required information"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/18/0526-01"
+      ]
+    },
+    {
+      "cite": "500 U.S. 173",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6220676
+      ],
+      "weight": 3,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "200",
+          "parenthetical": "rejecting argument that regulations abridged free-speech rights of the grantee's staff and noting that \"[n]othing in [the regulations] requires a doctor to represent as [her or] his own any opinion that [she or] he does not in fact hold\""
+        },
+        {
+          "parenthetical": "rejecting argument that regulations abridged free-speech rights of the grantee's staff and noting that \"[n]othing in [the regulations] requires a doctor to represent as [her or] his own any opinion that [she or] he does not in fact hold\""
+        },
+        {
+          "parenthetical": "rejecting argument that regulations abridged free-speech rights of the grantee's staff and noting that \"[n]othing in [the regulations] requires a doctor to represent as [her or] his own any opinion that [she or] he does not in fact hold\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/500/0173-01"
+      ]
+    },
+    {
+      "cite": "331 F.Supp.2d 805",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        9200907
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "1011"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/331/0805-01"
+      ]
+    },
+    {
+      "cite": "464 F.2d 772",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        709527
+      ],
+      "weight": 4,
+      "year": 1972,
+      "pin_cites": [
+        {
+          "page": "784",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "787"
+        },
+        {
+          "page": "784",
+          "parenthetical": "\"[T]o bind the disclosure obligation to medical usage is to arrogate the decision on revelation to the physician alone.\""
+        },
+        {
+          "page": "784, 787"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/464/0772-01"
+      ]
+    },
+    {
+      "cite": "497 U.S. 261",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6215746
+      ],
+      "weight": 7,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "269"
+        },
+        {
+          "page": "277"
+        },
+        {
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "269"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/497/0261-01"
+      ]
+    },
+    {
+      "cite": "740 F.3d 1208",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3826018
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "1227-29",
+          "parenthetical": "holding professional speech is viewed \"along a continuum\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/740/1208-01"
+      ]
+    },
+    {
+      "cite": "774 F.3d 238",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4341416
+      ],
+      "weight": 11,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "246, 255-56"
+        },
+        {
+          "page": "246"
+        },
+        {
+          "page": "253"
+        },
+        {
+          "page": "248"
+        },
+        {
+          "page": "249"
+        },
+        {
+          "page": "249",
+          "parenthetical": "\"The fact that a regulation does not impose an undue burden on a woman under the due process clause does not answer the question of whether it imposes an impermissible burden on the physician under the First Amendment.\""
+        },
+        {
+          "page": "253",
+          "parenthetical": "holding that the state \"cannot commandeer the doctor-patient relationship to compel a physician to express its preference to the patient[ ]\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/774/0238-01"
+      ]
+    },
+    {
+      "cite": "1992 WL 12006398",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "pin_cites": [
+        {
+          "page": "*54"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "429 U.S. 589",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        7501
+      ],
+      "weight": 3,
+      "year": 1977,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/429/0589-01"
+      ]
+    },
+    {
+      "cite": "305 F.3d 684",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11390058
+      ],
+      "weight": 2,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "684-85",
+          "parenthetical": "holding informed-consent law requiring abortion doctors to offer pictures, drawings, and dimensions of the unborn life within patients was \"materially identical\" to the Casey statute's requirements"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/305/0684-01"
+      ]
+    },
+    {
+      "cite": "550 U.S. 124",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3555978
+      ],
+      "weight": 21,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "159"
+        },
+        {
+          "page": "159"
+        },
+        {
+          "page": "158"
+        },
+        {
+          "page": "163",
+          "parenthetical": "quoting Casey , 505 U.S. at 884, 112 S.Ct. 2791 "
+        },
+        {
+          "parenthetical": "quoting Casey , 505 U.S. at 884, 112 S.Ct. 2791 "
+        },
+        {
+          "parenthetical": "quoting Casey , 505 U.S. at 884, 112 S.Ct. 2791 "
+        },
+        {
+          "page": "163"
+        },
+        {
+          "page": "159"
+        },
+        {
+          "page": "158"
+        },
+        {
+          "page": "157"
+        },
+        {
+          "page": "158"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/550/0124-01"
+      ]
+    },
+    {
+      "cite": "674 F.3d 509",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3747125
+      ],
+      "weight": 2,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "559",
+          "parenthetical": "footnote omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/674/0509-01"
+      ]
+    },
+    {
+      "cite": "894 F.3d 267",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517479
+      ],
+      "weight": 2,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "276"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/894/0267-01"
+      ]
+    },
+    {
+      "cite": "175 F.3d 456",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1720087
+      ],
+      "weight": 2,
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "460-61"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/175/0456-01"
+      ]
+    },
+    {
+      "cite": "353 F.3d 436",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9295213
+      ],
+      "weight": 2,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "443",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/353/0436-01"
+      ]
+    },
+    {
+      "cite": "520 U.S. 968",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11653646
+      ],
+      "weight": 3,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "972-73",
+          "parenthetical": "per curiam"
+        },
+        {
+          "parenthetical": "per curiam"
+        },
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/520/0968-01"
+      ]
+    },
+    {
+      "cite": "744 F.Supp. 1323",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        7394542
+      ],
+      "weight": 7,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "1349",
+          "parenthetical": "noting that pamphlets described stages of development for unborn life"
+        },
+        {
+          "page": "1349"
+        },
+        {
+          "page": "1351-52, 1355, 1360"
+        },
+        {
+          "page": "1354"
+        },
+        {
+          "page": "1325-26"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/744/1323-01"
+      ]
+    },
+    {
+      "cite": "18 Pa. Cons. Stat. \u00a7 3205",
+      "category": "laws:leg_statute",
+      "reporter": "Pa. Cons. Stat.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "476 U.S. 747",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12915
+      ],
+      "weight": 17,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "762"
+        },
+        {
+          "page": "762"
+        },
+        {
+          "page": "762"
+        },
+        {
+          "page": "762"
+        },
+        {
+          "page": "830-31"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/476/0747-01"
+      ]
+    },
+    {
+      "cite": "462 U.S. 416",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6189391
+      ],
+      "weight": 12,
+      "year": 1983,
+      "pin_cites": [
+        {
+          "parenthetical": "\" Akron I \""
+        },
+        {
+          "parenthetical": "\" Akron I \""
+        },
+        {
+          "parenthetical": "\" Akron I \""
+        },
+        {
+          "page": "444"
+        },
+        {
+          "page": "444"
+        },
+        {
+          "parenthetical": "\" Akron I \""
+        },
+        {
+          "parenthetical": "\" Akron I \""
+        },
+        {
+          "parenthetical": "\" Akron I \""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/462/0416-01"
+      ]
+    },
+    {
+      "cite": "515 U.S. 557",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1563831
+      ],
+      "weight": 3,
+      "year": 1995,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/515/0557-01"
+      ]
+    },
+    {
+      "cite": "430 U.S. 705",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12127286
+      ],
+      "weight": 3,
+      "year": 1977,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/430/0705-01"
+      ]
+    },
+    {
+      "cite": "319 U.S. 624",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        366560
+      ],
+      "weight": 3,
+      "year": 1943,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/319/0624-01"
+      ]
+    },
+    {
+      "cite": "135 S.Ct. 2218",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12590246
+      ],
+      "weight": 3,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "2226"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/135/2218-01"
+      ]
+    },
+    {
+      "cite": "268 U.S. 652",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        13126
+      ],
+      "weight": 3,
+      "year": 1925,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/268/0652-01"
+      ]
+    },
+    {
+      "cite": "477 U.S. 242",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6206897
+      ],
+      "weight": 3,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "248"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/477/0242-01"
+      ]
+    },
+    {
+      "cite": "929 F.2d 240",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10541987
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "248"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/929/0240-01"
+      ]
+    },
+    {
+      "cite": "823 F.3d 862",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5919518
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "866"
+        },
+        {
+          "page": "866"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/823/0862-01"
+      ]
+    },
+    {
+      "cite": "530 F.3d 724",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4232398
+      ],
+      "weight": 12,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "734-35",
+          "parenthetical": "en banc"
+        },
+        {
+          "page": "726",
+          "parenthetical": "en banc"
+        },
+        {
+          "page": "727"
+        },
+        {
+          "page": "734-35"
+        },
+        {
+          "page": "738"
+        },
+        {
+          "page": "734-35"
+        },
+        {
+          "page": "735"
+        },
+        {
+          "page": "734-35"
+        },
+        {
+          "page": "737",
+          "parenthetical": "concluding doctor's ability to disassociate herself or himself from disclosures is irrelevant to the compelled-speech analysis if disclosures are truthful and non-misleading"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/530/0724-01"
+      ]
+    },
+    {
+      "cite": "667 F.3d 570",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3715897
+      ],
+      "weight": 14,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "576"
+        },
+        {
+          "page": "577-78"
+        },
+        {
+          "page": "579"
+        },
+        {
+          "page": "579"
+        },
+        {
+          "page": "578",
+          "parenthetical": "explaining that disclosures like those in H.B. 2 \"are not different in kind\" than the disclosures in Casey "
+        },
+        {
+          "page": "574"
+        },
+        {
+          "page": "576",
+          "parenthetical": "footnote omitted"
+        },
+        {
+          "page": "579",
+          "parenthetical": "\"Denying [a woman] up to date medical information is more of an abuse to her ability to decide than providing the information.\""
+        },
+        {
+          "page": "578"
+        },
+        {
+          "page": "577"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/667/0570-01"
+      ]
+    },
+    {
+      "cite": "505 U.S. 833",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1480969
+      ],
+      "weight": 147,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "parenthetical": "plurality opinion"
+        },
+        {
+          "parenthetical": "plurality opinion"
+        },
+        {
+          "parenthetical": "plurality opinion"
+        },
+        {
+          "page": "882"
+        },
+        {
+          "page": "882-84"
+        },
+        {
+          "page": "884"
+        },
+        {
+          "page": "881"
+        },
+        {
+          "page": "882"
+        },
+        {
+          "page": "882"
+        },
+        {
+          "page": "882"
+        },
+        {
+          "page": "881, 902-03"
+        },
+        {
+          "page": "884"
+        },
+        {
+          "page": "884"
+        },
+        {
+          "page": "883"
+        },
+        {
+          "page": "882"
+        },
+        {
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "882-83"
+        },
+        {
+          "page": "871-72"
+        },
+        {
+          "page": "884"
+        },
+        {
+          "page": "884"
+        },
+        {
+          "page": "882"
+        },
+        {
+          "page": "882-84"
+        },
+        {
+          "page": "882"
+        },
+        {
+          "page": "852"
+        },
+        {
+          "page": "852"
+        },
+        {
+          "page": "852"
+        },
+        {
+          "page": "882"
+        },
+        {
+          "page": "882"
+        },
+        {
+          "page": "881, 902"
+        },
+        {
+          "page": "871"
+        },
+        {
+          "parenthetical": "No. 91-744"
+        },
+        {
+          "page": "878"
+        },
+        {
+          "page": "882-84"
+        },
+        {
+          "page": "884"
+        },
+        {
+          "page": "884"
+        },
+        {
+          "page": "882-83"
+        },
+        {
+          "page": "881"
+        },
+        {
+          "page": "884"
+        },
+        {
+          "page": "881"
+        },
+        {
+          "page": "883-84"
+        },
+        {
+          "page": "883"
+        },
+        {
+          "page": "881"
+        },
+        {
+          "page": "882"
+        },
+        {
+          "page": "882"
+        },
+        {
+          "page": "882-83"
+        },
+        {
+          "page": "882"
+        },
+        {
+          "page": "883-84"
+        },
+        {
+          "page": "884"
+        },
+        {
+          "page": "882-83"
+        },
+        {
+          "page": "884"
+        },
+        {
+          "page": "883"
+        },
+        {
+          "page": "884"
+        },
+        {
+          "page": "884"
+        },
+        {
+          "page": "844-45"
+        },
+        {
+          "page": "844-853, 884"
+        },
+        {
+          "page": "884"
+        },
+        {
+          "page": "884"
+        },
+        {
+          "page": "883"
+        },
+        {
+          "page": "884"
+        },
+        {
+          "page": "881"
+        },
+        {
+          "page": "884-85"
+        },
+        {
+          "page": "884"
+        },
+        {
+          "page": "883"
+        },
+        {
+          "page": "876"
+        },
+        {
+          "page": "884"
+        },
+        {
+          "page": "883"
+        },
+        {
+          "page": "878"
+        },
+        {
+          "page": "882-84"
+        },
+        {
+          "page": "845"
+        },
+        {
+          "page": "884"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/505/0833-01"
+      ]
+    },
+    {
+      "cite": "138 S.Ct. 2361",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12613016
+      ],
+      "weight": 50,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "parenthetical": "\" NIFLA \""
+        },
+        {
+          "parenthetical": "\" NIFLA \""
+        },
+        {
+          "page": "2373"
+        },
+        {
+          "page": "2371"
+        },
+        {
+          "page": "2371"
+        },
+        {
+          "page": "2371-72"
+        },
+        {
+          "page": "2373-74"
+        },
+        {
+          "page": "2373"
+        },
+        {
+          "page": "2373"
+        },
+        {
+          "page": "2373, 2375"
+        },
+        {
+          "page": "2373"
+        },
+        {
+          "page": "2371"
+        },
+        {
+          "page": "2371-72"
+        },
+        {
+          "page": "2373",
+          "parenthetical": "citations and internal quotation marks omitted"
+        },
+        {
+          "page": "2373"
+        },
+        {
+          "page": "2373"
+        },
+        {
+          "page": "2373",
+          "parenthetical": "\" NIFLA \""
+        },
+        {
+          "parenthetical": "\" NIFLA \""
+        },
+        {
+          "page": "2372"
+        },
+        {
+          "page": "2373"
+        },
+        {
+          "page": "2374"
+        },
+        {
+          "page": "2374"
+        },
+        {
+          "page": "2369-70"
+        },
+        {
+          "page": "2373-74"
+        },
+        {
+          "page": "2373"
+        },
+        {
+          "page": "2374"
+        },
+        {
+          "page": "2376"
+        },
+        {
+          "page": "2385, 2388",
+          "parenthetical": "Breyer, J., dissenting"
+        },
+        {
+          "page": "2374",
+          "parenthetical": "\"[W]hen the government polices the content of professional speech, it can fail to preserve an uninhibited marketplace of ideas in which truth will ultimately prevail.\" (quotation marks omitted)"
+        },
+        {
+          "page": "2375",
+          "parenthetical": "\"[the regulation] cannot survive even intermediate scrutiny\""
+        },
+        {
+          "page": "2371",
+          "parenthetical": "citation omitted"
+        },
+        {
+          "page": "2374",
+          "parenthetical": "citation omitted"
+        },
+        {
+          "parenthetical": "quotation marks omitted"
+        },
+        {
+          "page": "2376"
+        },
+        {
+          "page": "2374"
+        },
+        {
+          "page": "2375"
+        },
+        {
+          "page": "2374",
+          "parenthetical": "striking down as unconstitutional a law the state said promoted informed consent"
+        },
+        {
+          "page": "2368-70"
+        },
+        {
+          "page": "2373"
+        },
+        {
+          "page": "2373, 2375"
+        },
+        {
+          "page": "2385",
+          "parenthetical": "Breyer, J., dissenting"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/138/2361-01"
+      ]
+    },
+    {
+      "cite": "283 F.Supp.3d 629",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 3d",
+      "case_ids": [
+        12522762
+      ],
+      "weight": 10,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "644"
+        },
+        {
+          "page": "645"
+        },
+        {
+          "page": "647-48"
+        },
+        {
+          "page": "646"
+        },
+        {
+          "page": "645-46"
+        },
+        {
+          "page": "648"
+        },
+        {
+          "page": "643"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-3d/283/0629-01"
+      ]
+    },
+    {
+      "cite": "410 U.S. 113",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11957048
+      ],
+      "weight": 10,
+      "year": 1973,
+      "pin_cites": [
+        {
+          "page": "133"
+        },
+        {
+          "page": "153"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/410/0113-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 3340,
+    "char_count": 140904,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2592533387081641
+    },
+    "sha256": "2dddafc4e3f9aeb0e9f88da15b7f2038dfd302fdd81957b8435a6e3109560e73",
+    "simhash": "1:fe43c738abb4be89",
+    "word_count": 22114
+  },
+  "last_updated": "2024-02-27T18:46:47.899627+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "EMW WOMEN'S SURGICAL CENTER, P.S.C., on behalf of itself, its staff, and its patients; Ernest Marshall, M.D., on behalf of himself and his patients; Ashley Bergin, M.D., on behalf of herself and her patients; Tanya Franklin, M.D., on behalf of herself and her patients, Plaintiffs-Appellees,\nv.\nAndrew G. BESHEAR, Attorney General (17-6183); Adam Meier, in his capacity as Secretary of the Cabinet of Health and Family Services (17-6151), Defendants-Appellants."
+    ],
+    "opinions": [
+      {
+        "text": "JOHN K. BUSH, Circuit Judge.\nUnder Roe v. Wade , 410 U.S. 113, 93 S.Ct. 705, 35 L.Ed.2d 147 (1973), a woman has the right to choose to have an abortion. To inform that choice, the Commonwealth of Kentucky directs a doctor, before performing an abortion, to auscultate (or make audible) the fetal heartbeat, perform an ultrasound, and display and describe the ultrasound images to the patient. This appeal principally concerns whether those requirements violate the doctor's First Amendment rights.\n\"The Ultrasound Informed Consent Act,\" also known as \"House Bill 2\" or \"H.B. 2,\" is challenged by Plaintiffs-Appellees EMW Women's Surgical Center, P.S.C. and its associated physicians (collectively, \"EMW\") under the First Amendment, as incorporated against the States by the Fourteenth Amendment. EMW prevailed in the district court, which, in granting the complaint's first claim for relief under the First Amendment, applied heightened scrutiny to invalidate the statute and permanently enjoin enforcement of H.B. 2. See EMW Women's Surgical Ctr., P.S.C. v. Beshear , 283 F.Supp.3d 629 (W.D. Ky. 2017). Our court then denied the motion of then-Defendant-Appellant Vickie Glisson, who was Secretary of the Cabinet for Health and Family Services, to stay the injunction pending appeal. See EMW Women's Surgical Ctr., P.S.C. v. Beshear , No. 17-6151 (6th Cir. Dec. 8, 2017) (order). However, neither our court nor the district court had the benefit of the Supreme Court's recent decision in National Institute of Family & Life Advocates v. Becerra , --- U.S. ----, 138 S.Ct. 2361, 201 L.Ed.2d 835 (2018) (\" NIFLA \").\nIn NIFLA the Court clarified that no heightened First Amendment scrutiny should apply to informed-consent statutes like the abortion-informed-consent statute at issue in Planned Parenthood of Southeastern Pennsylvania v. Casey , 505 U.S. 833, 112 S.Ct. 2791, 120 L.Ed.2d 674 (1992) (plurality opinion). See NIFLA , 138 S.Ct. at 2373. Thus, even though an abortion-informed-consent law compels a doctor's disclosure of certain information, it should be upheld so long as the disclosure is truthful, non-misleading, and relevant to an abortion. See Casey , 505 U.S. at 882, 112 S.Ct. 2791 ; Tex. Med. Providers Performing Abortion Servs. v. Lakey , 667 F.3d 570, 576 (5th Cir. 2012) ; Planned Parenthood Minn., N.D., S.D. v. Rounds , 530 F.3d 724, 734-35 (8th Cir. 2008) (en banc).\nBecause H.B. 2, like the statute in Casey , requires the disclosure of truthful, nonmisleading, and relevant information about an abortion, we hold that it does not violate a doctor's right to free speech under the First Amendment. See NIFLA , 138 S.Ct. at 2373 ; Casey , 505 U.S. at 882-84, 112 S.Ct. 2791. We also hold that the Attorney General, Defendant-Appellant Andrew Beshear, is not a proper party to this case.\nI.\nH.B. 2 directs a doctor, prior to performing an abortion, to perform an ultrasound; display the ultrasound images for the patient; and explain, in the doctor's own words, what is being depicted by the images-for example, pointing out organs and whether the patient is pregnant with twins. KRS \u00a7 311.727. There is no requirement that the patient view the images or listen to the doctor's description. The doctor also must auscultate the fetal heartbeat but may turn off the volume of the auscultation if the patient so requests. Id. Failure to comply with these requirements can result in the doctor being fined and referred to Kentucky's medical-licensing board. KRS \u00a7 311.990(34). But H.B. 2 does not penalize a doctor if the patient requested that the heartbeat sound be turned off or chose not to look at the ultrasound images. KRS \u00a7 311.727(3). Nor does H.B. 2 penalize a doctor if she or he exercises discretion to advise a patient that she need not listen to or view the disclosures, or if the doctor makes any other statement, including advising the patient to have an abortion. Finally, a doctor need not make any disclosure from H.B. 2 at all if an abortion is medically necessary or in the case of a medical emergency. KRS \u00a7 311.727(5).\nEMW sued General Beshear, Secretary Glisson, and Michael S. Rodman, who is Executive Director of the Kentucky Board of Medical Licensure. The parties cross-moved for summary judgment on the complaint's first claim for relief, styled \"First Amendment Rights of Physicians.\" The district court ruled in favor of EMW and, as noted, permanently enjoined enforcement of H.B. 2. Executive Director Rodman does not appeal, but Secretary Meier, as Secretary Glisson's successor, seeks reversal of the judgment. General Beshear also defends H.B. 2 on appeal but argues that he is not a proper party to this case. We address first whether H.B. 2 violates doctors' First Amendment rights, then whether General Beshear is appropriately in this suit.\nII.\nWe engage in de novo review of the district court's summary judgment. McKay v. Federspiel , 823 F.3d 862, 866 (6th Cir. 2016). \"[W]here, as here, the parties filed cross-motions for summary judgment, 'the court must evaluate each party's motion on its own merits, taking care in each instance to draw all reasonable inferences against the party whose motion is under consideration.' \" Id. at 866 (quoting Taft Broad. Co. v. United States , 929 F.2d 240, 248 (6th Cir. 1991) ). A moving party may obtain summary judgment only if it \"shows that there is no genuine dispute as to any material fact and the movant is entitled to judgment as a matter of law.\" Fed. R. Civ. P. 56(a). A fact is material if it \"might affect the outcome of the suit under the governing law.\" Anderson v. Liberty Lobby, Inc. , 477 U.S. 242, 248, 106 S.Ct. 2505, 91 L.Ed.2d 202 (1986).\nNo material facts are in dispute here, so this matter turns on a pure question of law: does H.B. 2 compel a doctor's speech in violation of the First Amendment?\nThe First Amendment, applicable to the States through the Fourteenth Amendment, see, e.g. , Gitlow v. New York , 268 U.S. 652, 45 S.Ct. 625, 69 L.Ed. 1138 (1925), provides, in pertinent part, that \"Congress shall make no law ... abridging the freedom of speech,\" U.S. Const. amend. I. This constitutional guarantee, the Supreme Court has held, applies not only when government restricts speech, see, e.g. , Reed v. Town of Gilbert , --- U.S. ----, 135 S.Ct. 2218, 2226, 192 L.Ed.2d 236 (2015), but also when it compels speech, see, e.g. , NIFLA , 138 S.Ct. at 2371. When laws, whether restrictive or compulsive, \"target speech based on its communicative content,\" they generally \"are presumptively unconstitutional and may be justified only if the government proves that they are narrowly tailored to serve compelling state interests.\" NIFLA , 138 S.Ct. at 2371 (quoting Reed , 135 S.Ct. at 2226 ). Such content-based restrictions have been declared unconstitutional in compelled-speech cases such as West Virginia State Board of Education v. Barnette , 319 U.S. 624, 63 S.Ct. 1178, 87 L.Ed. 1628 (1943), which struck down a requirement that students salute the United States flag; Wooley v. Maynard , 430 U.S. 705, 97 S.Ct. 1428, 51 L.Ed.2d 752 (1977), which invalidated a law requiring a state motto \"Live Free or Die\" on license plates; and Hurley v. Irish-American Gay, Lesbian & Bisexual Group of Boston , 515 U.S. 557, 115 S.Ct. 2338, 132 L.Ed.2d 487 (1995), which held that a State could not force parade organizers to include a group that would convey a message contrary to the organizers' views.\nHeightened scrutiny generally applies to content-based regulation of any speaker, including a physician or other professional. See NIFLA , 138 S.Ct. at 2371-72. But, as the Supreme Court noted in NIFLA , there is \"less protection for professional speech in two circumstances\": first, for \"some laws that require professionals to disclose factual, noncontroversial information in their 'commercial speech' \"; second, for regulation of \"professional conduct, even though that conduct incidentally involves speech,\" id. at 2372 (citing Casey , 505 U.S. at 884, 112 S.Ct. 2791 ). The second exception is at issue here because H.B. 2 regulates doctors' conduct: performing abortions.\nWe review H.B. 2 against the backdrop of thirty-five years of evolving Supreme Court precedent concerning the constitutionality of abortion-informed-consent statutes. In the 1980s, the Court invalidated some aspects of these laws. For example, in City of Akron v. Akron Center for Reproductive Health, Inc. , 462 U.S. 416, 103 S.Ct. 2481, 76 L.Ed.2d 687 (1983) (\" Akron I \"), and Thornburgh v. AmericanCollege of Obstetricians & Gynecologists , 476 U.S. 747, 106 S.Ct. 2169, 90 L.Ed.2d 779 (1986), the Court struck down state laws requiring abortion doctors to provide patients with information about the development of unborn life and alternatives to abortion. In Akron I , the Court \"invalidated an ordinance which required that a woman seeking an abortion be provided by her physician with specific information 'designed to influence the woman's informed choice between abortion or childbirth.' \" Casey , 505 U.S. at 881, 112 S.Ct. 2791 (quoting Akron I , 462 U.S. at 444, 103 S.Ct. 2481 ). The required disclosure included the statement that \"the unborn child is a human life from the moment of conception.\" Akron I , 462 U.S. at 444, 103 S.Ct. 2481. That this \"information was designed to dissuade the woman from having an abortion,\" Casey , 505 U.S. at 882, 112 S.Ct. 2791, was one of \"two purported flaws in the Akron ordinance.\" Id. (citing Thornburgh , 476 U.S. at 762, 106 S.Ct. 2169 ). The other purported flaw was that the Akron I statute mandated \"a rigid requirement that a specific body of information be given in all cases, irrespective of the particular needs of the patient, [that] intrude[d] upon the discretion of the pregnant woman's physician.\" Thornburgh , 476 U.S. at 762, 106 S.Ct. 2169 ; see also Casey , 505 U.S. at 882, 112 S.Ct. 2791. In Thornburgh , the purported flaw in the Pennsylvania informed-consent statute at issue was that it was \"an outright attempt to wedge the Commonwealth's message discouraging abortion into the privacy of the informed-consent dialogue between the woman and her physician,\" Thornburgh , 476 U.S. at 762, 106 S.Ct. 2169 -that is, an interference with the doctor-patient relationship.\nIn the early 1990s, the Supreme Court reversed course. In Casey , the Court effectively abrogated the holdings in Akron I and Thornburgh . The Casey joint opinion declared:\nTo the extent Akron I and Thornburgh find a constitutional violation when the government requires, as it does here, the giving of truthful, nonmisleading information about the nature of the procedure, the attendant health risks and those of childbirth, and the \"probable gestational age\" of the fetus, those cases go too far, are inconsistent with Roe 's acknowledgment of an important interest in potential life, and are overruled.\nCasey , 505 U.S. at 882, 112 S.Ct. 2791 (emphasis added) (internal quotation marks omitted). Casey addressed informed-consent provisions of another Pennsylvania statute that required physicians, among other things, to inform patients orally of the nature of the abortion procedure; its risks and alternatives; the probable gestational age of the unborn life in the patient when the doctors would perform the abortion; and the availability of pamphlets (1) describing unborn life in further detail, including stages of gestational development, (2) listing agencies offering alternatives to abortion, and (3) giving information about obtaining child support from the unborn life's father. See Casey , 505 U.S. at 881, 902-03, 112 S.Ct. 2791 (quoting 18 Pa. Cons. Stat. \u00a7 3205(a) ); Planned Parenthood of Se. Pa. v. Casey , 744 F.Supp. 1323, 1349 (E.D. Pa. 1990) (noting that pamphlets described stages of development for unborn life).\nThe Casey plurality reasoned that \"a requirement that a doctor give a woman certain information as part of obtaining her consent to an abortion is, for constitutional purposes, no different from a requirement that a doctor give certain specific information about any medical procedure.\" Casey , 505 U.S. at 884, 112 S.Ct. 2791. Though the joint opinion acknowledged that \"the physician's First Amendment rights not to speak\" were implicated by the informed-consent statute, the plurality applied no heightened scrutiny and upheld the statute because a doctor's rights were implicated \"only as part of the practice of medicine, subject to reasonable licensing and regulation by the State.\" Id. at 884, 112 S.Ct. 2791 (citations omitted).\nImportantly too, in \"depart[ing] from the holdings of Akron I and Thornburgh ,\" the Casey plurality emphasized that a State may \"further its legitimate goal of protecting the life of the unborn by enacting legislation aimed at ensuring a decision that is mature and informed, even when in so doing the State expresses a preference for childbirth over abortion .\" Casey , 505 U.S. at 883, 112 S.Ct. 2791 (emphasis added); see also Mazurek v. Armstrong , 520 U.S. 968, 972-73, 117 S.Ct. 1865, 138 L.Ed.2d 162 (1997) (per curiam) (affirming Casey and holding that a statute restricting who could perform abortions that was drafted by an anti-abortion group had no improper purpose). The plurality instructed that informed consent to an abortion procedure may mandate disclosure of the \"full consequences of\" the abortion decision, including \"a requirement that a woman be apprised of the health risks of abortion and childbirth,\" as well as \"the impact on\" or \"consequences to the fetus, even when those consequences have no direct relation to her health.\" Casey , 505 U.S. at 882, 112 S.Ct. 2791. As the plurality explained, it cannot \"be doubted that most women considering an abortion would deem the impact on the fetus relevant , if not dispositive, to the decision.\" Id. (emphasis added). The joint opinion analogized an informed-consent disclosure of the effect on unborn life to a requirement that an organ recipient learn the effect on the donor before consenting to the transplant: \"[w]e would think it constitutional for the State to require that in order for there to be informed consent to a kidney transplant operation the recipient must be supplied with information about risks to the donor as well as risks to himself or herself.\" Id. at 882-83, 112 S.Ct. 2791.\nWe have long understood Casey as marking a shift toward greater respect for States' interests in informing women and protecting unborn life. For example, in Women's Medical Professional Corp. v. Taft , 353 F.3d 436 (6th Cir. 2003), we affirmed that \"[a]n essential feature of the jointly authored opinion in Casey is the reaffirmation of the substantial state interest in potential life throughout pregnancy.\" Id. at 443 (internal quotation marks omitted). Likewise, in Memphis Planned Parenthood v. Sundquist , 175 F.3d 456 (6th Cir. 1999), we explained that Casey establishes that States may take steps to ensure that a woman's choice to abort is informed:\n[a] plurality of the justices in Casey recognized the weighty concerns of the state in \"the protection of potential life\" and reasoned that, although \"the woman has a right to choose to terminate or continue her pregnancy before viability, it does not at all follow that the state is prohibited from taking steps to ensure that this choice is thoughtful and informed.\"\nId. at 460-61 (quoting Casey , 505 U.S. at 871-72, 112 S.Ct. 2791 ). In other words, our circuit has recognized that after Casey there can be no doubt that \"a state can require that a doctor give a woman certain information before she may have an abortion.\" Id. at 465 (citing Casey , 505 U.S. at 884, 112 S.Ct. 2791 ).\nRecently, in NIFLA , a majority of the Supreme Court adopted the First Amendment analysis applied in Casey . See NIFLA , 138 S.Ct. at 2373-74. Specifically, the Court explained that although heightened scrutiny generally applies to content-based regulations of speech, \"regulations of professional conduct that incidentally burden speech\" receive lower scrutiny. Id. at 2373. The Court acknowledged that \"drawing the line between speech and conduct can be difficult.\" Id. But it held that statutes that \"facilitate informed consent to a medical procedure,\" like the one at issue in Casey , fall on the conduct side of the line because they regulate speech \"only 'as part of the practice of medicine, subject to reasonable licensing and regulation by the State.' \" Id. (quoting Casey , 505 U.S. at 884, 112 S.Ct. 2791 ).\nIn both NIFLA and Casey , then, the Court clarified that the First Amendment has a limited role to play in allowing doctors to avoid making truthful mandated disclosures related to informed consent. Under the First Amendment, we will not highly scrutinize an informed-consent statute, including one involving informed consent to an abortion, so long as it meets these three requirements: (1) it must relate to a medical procedure; (2) it must be truthful and not misleading; and (3) it must be relevant to the patient's decision whether to undertake the procedure, which may include, in the abortion context, information relevant to the woman's health risks, as well as the impact on the unborn life. See NIFLA , 138 S.Ct. at 2373 ; Casey , 505 U.S. at 882, 112 S.Ct. 2791.\nAlthough much of the analysis in Casey addressed the plaintiffs' undue-burden claim, the joint opinion's First Amendment holding built upon its conclusion that the mandated informed-consent disclosures in that case met the criteria of being truthful, non-misleading, and relevant. Contrary to the Dissent's suggestion that we have \"focused on the wrong provision of the Constitution,\" Dissent at 450, indeed we do address the relevant provision-the First Amendment. Casey and NIFLA recognize that First Amendment heightened scrutiny does not apply to incidental regulation of professional speech that is part of the practice of medicine and that such incidental regulation includes mandated informed-consent requirements, provided that the disclosures are truthful, non-misleading, and relevant. See Casey , 505 U.S. at 882-84, 112 S.Ct. 2791 ; NIFLA , 138 S.Ct. at 2373. Casey also recognizes that, as part of informed consent for an abortion, permissible mandated disclosures under the First Amendment may pertain to the effect of the procedure on unborn life. 505 U.S. at 882, 112 S.Ct. 2791. And in NIFLA , the Court explicitly reaffirmed that heightened scrutiny is not appropriate under the First Amendment for informed-consent requirements of the nature upheld in Casey . See NIFLA , 138 S.Ct. at 2373, 2375. We therefore are applying Casey and NIFLA as they directly pertain to the First Amendment claim and not to any undue-burden claim under the Fourteenth Amendment.\nIII.\nThis First Amendment appeal, thus, turns on whether H.B. 2 shares the same material attributes as the informed-consent statute in Casey . If it does, then no heightened First Amendment scrutiny applies because, as NIFLA instructed, an informed-consent law like the Casey statute is a regulation of professional conduct that only incidentally burdens professional speech. See NIFLA , 138 S.Ct. at 2373.\nDoes H.B. 2 relate to a medical procedure? Yes-abortion. Are the mandated disclosures truthful and not misleading? Yes-no one argues that the heartbeat, sonogram, or its description is false or misleading. We have previously held that similar information conveys objective medical facts. For example, in United States v. Paulus , 894 F.3d 267 (6th Cir. 2018), we explained that \"it would be an insult to common sense and the practice of medicine to say that [the doctor] was not measuring facts (or attempting to do so) when he conducted the angiograms at issue\" in that case. Id. at 276. Similarly, we explained in Discount Tobacco City & Lottery, Inc. v. United States , 674 F.3d 509 (6th Cir. 2012), that anatomical pictures convey facts:\nStudents in biology, human-anatomy, and medical-school courses look at pictures or drawings in textbooks of both healthy and damaged cells, tissues, organs, organ systems, and humans because those pictures convey factual information about medical conditions and biological systems. The argument that a picture of a specific person or part of a person is opinion because not every person or part of a person with that condition would appear the same way is unpersuasive.... People with the same illness can and often will suffer a variety of differing symptoms. But one wouldn't say that a list of symptoms characterizing a particular medical condition is nonfactual and opinion-based as a result.\nId. at 559 (footnote omitted). So, \"[t]o belabor the obvious and conceded point,\" the disclosures of the heartbeat, sonogram, and its description \"are the epitome of truthful, non-misleading information.\" Lakey , 667 F.3d at 577-78.\nThat leaves the final question: are the mandated disclosures relevant to the patient's decision whether to abort unborn life? The Supreme Court's abortion precedent answers this question for us.\n\"Abortion is a unique act,\" Casey , 505 U.S. at 852, 112 S.Ct. 2791, that \"requires a difficult and painful moral decision,\" Gonzales v. Carhart , 550 U.S. 124, 159, 127 S.Ct. 1610, 167 L.Ed.2d 480 (2007). It is \"fraught with consequences ... for the woman who must live with the implications of her decision.\" Casey , 505 U.S. at 852, 112 S.Ct. 2791. \"[I]t seems unexceptionable to conclude some women come to regret their choice to abort the infant life they once created and sustained. Severe depression and loss of esteem can follow.\" Gonzales , 550 U.S. at 159, 127 S.Ct. 1610 (citations omitted). Abortion also is \"fraught with consequences ... for the life or potential life that is aborted,\" Casey , 505 U.S. at 852, 112 S.Ct. 2791, in whom the State may have a significant interest, Gonzales , 550 U.S. at 158, 127 S.Ct. 1610, and who cannot consent to the procedure to terminate her or his life or potential life. Thus, the Supreme Court has explained that the effect of an abortion procedure on unborn life is \"relevant, if not dispositive \" information for the patient's decision. See Casey , 505 U.S. at 882, 112 S.Ct. 2791 (emphasis added).\nWith this background in mind, we hold that H.B. 2 provides relevant information. The information conveyed by an ultrasound image, its description, and the audible beating fetal heart gives a patient greater knowledge of the unborn life inside her. This also inherently provides the patient with more knowledge about the effect of an abortion procedure: it shows her what, or whom, she is consenting to terminate. That this information might persuade a woman to change her mind does not render it suspect under the First Amendment. It just means that it is pertinent to her decision-making. See Casey , 505 U.S. at 882, 112 S.Ct. 2791 (explaining that information on abortion's impact on unborn life \"furthers the legitimate purpose of reducing the risk that a woman may elect an abortion, only to discover later, with devastating psychological consequences, that her decision was not fully informed\").\nThe prevalence of ultrasound-use in pregnancy also underscores the relevance of the mandated sonogram of H.B. 2 to a woman's abortion decision. Ultrasounds are ubiquitous procedures that are a part of every pregnancy and, EMW concedes, every abortion. Oral Arg. at 23:53-24:10; R. 3-3, PageID 111, 112-13. Indeed, ultrasounds are \"routine measures in pregnancy [and] viewed as 'medically necessary' for the mother and fetus.\" Lakey , 667 F.3d at 579. The physical invasiveness of the sonogram, as noted by the Dissent, see Dissent at 447-48, 456 n.9, therefore, is no reason to characterize the procedure as an unwarranted invasion of bodily integrity; indeed, the Dissent cites authority \"finding that up to 98% of U.S. abortion facilities use an ultrasound to date the pregnancy,\"\nid. at 455. Also, Kentucky is hardly alone among the States in finding ultrasounds to be relevant: according to amici , twenty-four other States have enacted informed-consent laws that involve ultrasounds.\nAlthough Casey did not involve the displaying of an ultrasound, its facts are not \"a constitutional ceiling for regulation of informed consent to abortion, [but] a set of principles to be applied to the states' legislative decisions.\" Lakey , 667 F.3d at 579. The Casey statute required doctors to inform patients of the unborn life's gestational age and offer them materials further describing unborn life's development at a given gestational age. See Casey , 505 U.S. at 881, 902, 112 S.Ct. 2791 ; Lakey , 667 F.3d at 575 n.2, 578 ; Casey , 744 F.Supp. at 1349. The sonogram requirements of H.B. 2 provide \"materially identical\" information. See A Woman's Choice-East Side Women's Clinic v. Newman , 305 F.3d 684, 684-85 (7th Cir. 2002) (holding informed-consent law requiring abortion doctors to offer pictures, drawings, and dimensions of the unborn life within patients was \"materially identical\" to the Casey statute's requirements); see also Lakey , 667 F.3d at 578 (explaining that disclosures like those in H.B. 2 \"are not different in kind\" than the disclosures in Casey ). A sonogram depicts unborn life in further detail at the current gestational age-information no less relevant to the patient's decision than were the materials at issue in Casey . In fact, because of its individualized nature, a sonogram provides even more relevant information for the patient's decision than any of the required materials at issue in Casey . Whereas the Pennsylvania law provided information about unborn life generally , H.B. 2 directs that the patient receive specific , real-time images of herself and the unborn life within her. H.B. 2 also allows the doctor to explain, in her or his own words, the sonogram, as well as the auscultation, thus further ensuring that the information is tailored to the patient's specific circumstances.\nSonograms of unborn life were uncommon when Roe was decided. Writing for the Roe Court, Justice Blackmun was limited by words on paper-sometimes using medieval descriptions such as \"quickening\" or \"infused with a 'soul' or 'animated' \"-to explain when life had been understood to come into being. Roe , 410 U.S. at 133, 93 S.Ct. 705. But in the Cyber Age, words tell only part of a story. For today's Posterity -the Gen-X, Millennial, and Gen-Z generations, whose first picture of themselves commonly comes from a sonogram, and who increasingly turn to photos and videos to share information -one can hardly dispute the relevance of sonogram images for twenty-first-century informed consent.\nUnder the lower level of scrutiny mandated by Casey and NIFLA , there is no burden placed on the State to justify that its prior regulation \"was defective in facilitating informed consent\" or that \"H.B. 2 filled any gaps in existing informed-consent legislation,\" as the Dissent apparently believes the State must show, see Dissent at 456-57, 459-60. No such requirements were imposed on Pennsylvania to justify its statute in Casey . But even if the Commonwealth bore such a burden, it would easily meet it here. It is not difficult to conclude that the particularized visual and audible disclosures mandated by H.B. 2 provide more relevant information for informed consent than was provided by the less patient-specific, verbal and written disclosures of the earlier Kentucky abortion-informed-consent statute, KRS \u00a7 311.725.\nIn sum, H.B. 2, like the Pennsylvania statute in Casey , provides truthful, non-misleading, and relevant information aimed at informing a patient about her decision to abort unborn life. Therefore, although the statute requires doctors to disclose certain truthful and non-misleading information relevant to the abortion procedure, it does not violate their First Amendment rights because the required disclosures are incidental to the Commonwealth's regulation of doctors' professional conduct.\nIV.\nThis result is in line with two other circuits that have faced First Amendment challenges to similar abortion-informed-consent statutes. The Fifth and Eighth Circuits read Casey , as well as Gonzales , to establish the same First Amendment test for truthful, non-misleading, and relevant informed-consent disclosures that we apply here.\nIn Lakey , the Fifth Circuit addressed a Texas informed-consent statute requiring the performance, display, and description of an ultrasound as well as the auscultation of the unborn life's heartbeat. Tex. Med. Providers Performing Abortion Servs. v. Lakey , 667 F.3d 570, 574 (5th Cir. 2012). The Fifth Circuit rejected a First Amendment challenge to the statute, explaining that Casey upheld the constitutionality of informed-consent laws that require disclosure of truthful, non-misleading, and relevant information, including facts about the unborn life, with no heightened scrutiny applying to such laws:\nFirst, informed consent laws that do not impose an undue burden on the woman's right to have an abortion are permissible if they require truthful, non-misleading, and relevant disclosures. Second, such laws are part of the state's reasonable regulation of medical practice and do not fall under the rubric of compelling \"ideological\" speech that triggers First Amendment strict scrutiny. Third, \"relevant\" informed consent may entail not only the physical and psychological risks to the expectant mother facing this \"difficult moral decision,\" but also the state's legitimate interests in \"protecting the potential life within her.\"\nLakey , 667 F.3d at 576 (footnote omitted) (quoting Casey , 505 U.S. at 871, 112 S.Ct. 2791 ).\nApplying this understanding of Casey , the Fifth Circuit held that requirements that doctors perform, display, and describe the ultrasound and auscultate the heartbeat-though more technologically advanced than the mandated disclosure that Casey allowed-were the \"epitome\" of truthful, non-misleading, and relevant information that Casey permits:\nTo belabor the obvious and conceded point, the required disclosures of a sonogram, the fetal heartbeat, and their medical descriptions are the epitome of truthful, non-misleading information. They are not different in kind, although more graphic and scientifically up-to-date, than the disclosures discussed in Casey -probable gestational age of the fetus and printed material showing a baby's general prenatal development stages. Likewise, the relevance of these disclosures to securing informed consent is sustained by Casey and Gonzales , because both cases allow the state to regulate medical practice by deciding that information about fetal development is \"relevant\" to a woman's decision-making.\nId. at 577-78 (emphasis added).\nBecause the Texas statute at issue in Lakey satisfied the criteria for an abortion-informed-consent statute (that is, the statute mandated only truthful, non-misleading, and relevant disclosures related to an abortion), the Fifth Circuit determined that no heightened scrutiny of the statute was warranted under Casey and reversed the district court's determination otherwise:\nThe [ Casey ] plurality response to the compelled speech claim is clearly not a strict scrutiny analysis. It inquires into neither compelling interests nor narrow tailoring. The three sentences with which the Court disposed of the First Amendment claims are, if anything, the antithesis of strict scrutiny. Indeed, the plurality references Whalen v. Roe [429 U.S. 589, 97 S.Ct. 869, 51 L.Ed.2d 64 (1977) ], in which the Court had upheld a regulation of medical practice against a right to privacy challenge. The only reasonable reading of Casey 's passage is that physicians' rights not to speak are, when part of the practice of medicine, subject to reasonable licensing and regulation by the State. This applies to information that is truthful, nonmisleading, and relevant ... to the decision to undergo an abortion.\n....\nApplying to [the statute] the principles of Casey 's plurality, the most reasonable conclusion is to uphold the provisions declared as unconstitutional compelled speech by the district court.\nId. at 575, 577 (cleaned up).\nWhen faced with an analogous issue, the Eighth Circuit read the Supreme Court's precedent similarly. The Eighth Circuit's decision in Rounds involved a South Dakota informed-consent statute. Planned Parenthood Minn., N.D., S.D. v. Rounds , 530 F.3d 724, 726 (8th Cir. 2008) (en banc). The statute required physicians to give patients a written statement providing, among other things, \"[t]hat the abortion will terminate the life of a whole, separate, unique, living human being,\" \"[t]hat the pregnant woman has an existing relationship with that unborn human being and that the relationship enjoys protection under the United States Constitution and the laws of South Dakota,\" \"[t]hat by having an abortion, her existing relationship and her existing constitutional rights with regards to that relationship will be terminated,\" and \"[a] description of all known medical risks of the procedure ... including ... [d]epression and related psychological distress [and] [i]ncreased risk of suicide ideation and suicide.\" Id. The statute defined \"Human being\" as \"an individual living member of the species of Homo sapiens, including the unborn human being during the entire embryonic and fetal ages from fertilization to full gestation.\" Id. at 727. The statute further required physicians to certify in writing that they provided all this information to the patients. Id. Also, the patients had to sign a written statement showing that the abortion doctors had complied with the statute's disclosure requirements and provided them with the required information. Id.\nSitting en banc, the Eighth Circuit explained that Supreme Court precedent likely allowed the statute to stand because it mandated the doctor provide only \"truthful, non-misleading information relevant to a patient's decision to have an abortion\":\nCasey and Gonzales establish that, while the State cannot compel an individual simply to speak the State's ideological message, it can use its regulatory authority to require a physician to provide truthful, non-misleading information relevant to a patient's decision to have an abortion, even if that information might also encourage the patient to choose childbirth over abortion. Therefore, Planned Parenthood cannot succeed on the merits of its claim that [the statute] violates a physician's right not to speak unless it can show that the disclosure is either untruthful, misleading or not relevant to the patient's decision to have an abortion.\nId. at 734-35. Because Planned Parenthood's evidence did not establish a likelihood of proving that the statute required \"anything but truthful, non-misleading and relevant [information] to the patient's decision to have an abortion,\" the Eighth Circuit vacated the district court's preliminary injunction. Id. at 738.\nThe Fifth and Eighth Circuits' interpretations of Casey support our holding today. Like the statutes in those circuits' cases, H.B. 2 provides truthful, non-misleading, and relevant information for a decision whether to abort unborn life. Like these other circuits, we find no First Amendment infirmity.\nV.\nIn challenging H.B. 2, EMW echoes Planned Parenthood's unsuccessful arguments in Casey . EMW contends that H.B. 2 warrants heightened scrutiny because it (1) compels ideological speech, (2) interferes with the doctor-patient relationship, and (3) emotionally affects patients.\nIdeological Speech . Casey forecloses EMW's attempt to invoke heightened scrutiny by claiming that H.B. 2 requires the doctors to engage in ideological speech. The statute in Casey required doctors to disclose facts about the abortion procedure, the unborn life within a patient, and options available to a patient if she carried that life to term. Planned Parenthood argued that the statute mandated ideological speech that warranted heighted scrutiny. Brief of Petitioners and Cross-Respondents, Casey , 505 U.S. 833 (1992) (No. 91-744), 1992 WL 12006398 at *54 (\" Casey Br.\"). The Casey plurality acknowledged that the disclosure requirements were targeted at causing patients to \"choose childbirth over abortion.\" Casey , 505 U.S. at 878, 112 S.Ct. 2791. Yet, the plurality applied no heightened scrutiny to Pennsylvania's statute because of the alleged ideological nature of the required disclosures. So Casey rejected EMW's rationale for applying heightened scrutiny.\nThe Fourth Circuit, however, disagreed that Casey forecloses the ideological argument. In Stuart v. Camnitz , 774 F.3d 238 (4th Cir. 2014), decided before NIFLA , the Fourth Circuit struck down as compelled ideological speech a North Carolina statute similar to H.B. 2. Id. at 246, 255-56. We decline to follow Stuart , however, because it gave insufficient regard to the First Amendment analysis in Casey that the Court clarified and adopted as the majority view in NIFLA .\nStuart 's basis for applying heightened scrutiny is called into question by Supreme Court precedent. Stuart applied heightened scrutiny because the facts disclosed by a sonogram have \"moral or ideological implications.\" Id. at 246. However, the \"moral or ideological\" label has not been used by the Supreme Court as a reason to apply heightened scrutiny to mandated factual disclosures in the informed-consent context. Nor has the Supreme Court considered on what \"side of the abortion debate\" required factual disclosures fall in deciding the level of scrutiny to apply to abortion-informed-consent laws, as did the Fourth Circuit, see id. And unlike the Fourth Circuit, the Supreme Court has not been concerned that facts might \"convey[ ] a particular opinion\" like \"convinc[ing] women seeking abortions to change their minds.\" Id.\nInstead, under Casey , what matters for First Amendment purposes is whether the disclosed facts are truthful, non-misleading, and relevant to the procedure, not whether they fall on one side of the debate, and not whether they influence a woman to keep the child. Casey , 505 U.S. at 882-84, 112 S.Ct. 2791 ; see also Lakey , 667 F.3d at 575-77 ; Rounds , 530 F.3d at 734-35. In Stuart the Fourth Circuit tried to distinguish Casey by reasoning that the Casey statute was not ideological: \"[i]nforming a patient that there are state-issued materials available is not ideological, because the viewpoint conveyed by the pamphlet is clearly the state's-not the physician's.\" Stuart , 774 F.3d at 253. But the same is true here. H.B. 2 allows doctors to tell patients that the Commonwealth requires this information. The record shows that's exactly what they do. R. 55, PageID 699. Thus, the doctors are just as free as those subject to the statute in Casey to clarify that the mandated disclosures come from the State not the doctors themselves.\nAfter holding that the North Carolina statute compelled ideological speech, the Fourth Circuit in Stuart adopted a \"sliding-scale\" test first applied by the Ninth Circuit in Pickup v. Brown , 740 F.3d 1208, 1227-29 (9th Cir. 2013) (holding professional speech is viewed \"along a continuum\"). The Fourth Circuit then asserted the statute \"reside[d] somewhere in the middle on that sliding scale\" because it regulated medical treatment but also regulated speech, Stuart , 774 F.3d at 248, thus justifying intermediate scrutiny, id. at 249. This \"sliding scale\" test based on ideological speech, however, appeared nowhere in Casey .\nNor did this test appear in NIFLA . In fact, the NIFLA Court, after citing the Ninth Circuit in Pickup as an example of \"[s]ome Courts of Appeals\" that \"have recognized 'professional speech' as a separate category of speech that is subject to different rules,\" NIFLA , 138 S.Ct. at 2371, did not adopt any of the \"different rules\" applied in Pickup . Instead, the Court explained that, generally, it is the compulsion of a message-not whether the compulsion is of an ideological nature-that alters the content of speech and therefore dictates a single heightened-scrutiny standard, with no sliding scale. NIFLA , 138 S.Ct. at 2371-72. However, as discussed, the Supreme Court explicitly carved out two exceptions to that general test that do not call for heightened scrutiny. As also already explained, H.B. 2 falls into at least one of those exceptions.\nWe therefore find that Stuart is unpersuasive in light of NIFLA , and we decline to follow the Fourth Circuit. If at least one of the two exceptions noted in NIFLA applies, there is no Supreme Court authority for looking to whether the speech has ideological implications and applying a \"sliding scale\" that may result in intermediate scrutiny.\nDoctor-Patient Relationship . As for EMW's second argument, H.B. 2 does not interfere with the doctor-patient relationship any more than other informed-consent laws. \"[I]nformed consent is generally required for medical treatment,\"\nCruzan v. Director, Missouri Department of Health , 497 U.S. 261, 269, 110 S.Ct. 2841, 111 L.Ed.2d 224 (1990), and this requirement \"is firmly entrenched in American tort law,\" NIFLA , 138 S.Ct. at 2373 (citations and internal quotation marks omitted). \"[T]he common-law doctrine of informed consent is viewed as generally encompassing the right of a competent individual to refuse medical treatment.\" Cruzan , 497 U.S. at 277, 110 S.Ct. 2841. This right, grounded in principles of self-determination, may \"demand[ ] a standard set by law for physicians rather than one which physicians may or may not impose upon themselves .\" Canterbury v. Spence , 464 F.2d 772, 784 (D.C. Cir. 1972) (emphasis added); see F. Rozovsky, Consent to Treatment: A Practical Guide 2-8 (5th ed. 2018) (explaining that informed-consent standards are set by \"state legislation, regulations, and case law\" in addition to standards among professional groups). \"[T]o safeguard the patient's interest in achieving [her or] his own determination on treatment, the law must itself set the standard for adequate disclosure.\" Canterbury , 464 F.2d at 787.\nThe principle that informed-consent requirements may be created by law, as opposed to merely medical-profession custom, applies to all medical procedures, including abortion. As the Supreme Court has instructed, \"an informed-consent requirement in the abortion context [is] 'no different from a requirement that a doctor give certain specific information about any medical procedure.' \" Gonzales v. Carhart , 550 U.S. 124, 163, 127 S.Ct. 1610, 167 L.Ed.2d 480 (2007) (quoting Casey , 505 U.S. at 884, 112 S.Ct. 2791 ). \"The law need not give abortion doctors unfettered choice in the course of their medical practice, nor should it elevate their status above other physicians in the medical community.\" Id. As part of States' regulation of the medical profession, they may require doctors to provide information to their patients to ensure patients can give their informed consent for an abortion, like for any other medical procedure. See Casey , 505 U.S. at 884, 112 S.Ct. 2791.\nThe district court cited testimony that the mandated disclosures of H.B. 2 are inconsistent with medical standards because (1) their mandatory nature-that is, the Commonwealth's requiring their actual disclosure rather than requiring their being offered to be disclosed-makes them contrary to the customary standard of care for informed consent, and (2) they provide information that the American College of Obstetricians and Gynecologists (\"ACOG\") and the National Abortion Federation do not consider to be necessary for informed consent. See EMW Women's Surgical Ctr. , 283 F.Supp.3d at 644.\nAs for the first point, most legally enacted informed-consent disclosures could be subject to the same criticism because they require the doctor to disclose, rather than simply offer to disclose, information. The Casey plurality explained that States can require doctors to give information to patients about abortion just like it can require doctors to give information to an organ donor about that procedure.\nCasey , 505 U.S. at 882-83, 112 S.Ct. 2791. Also, the very reason that the required disclosure in NIFLA did \"not facilitate informed consent\" was because it provided no information about the risks or benefits of a medical procedure. NIFLA , 138 S.Ct. at 2373. In other words, the doctrine of informed consent does not stop at offering the opportunity for the information. It applies equally when a doctor must actually disclose the information. True, for some information, the Casey statute required doctors to inform patients that it was available. See Casey , 505 U.S. at 881, 112 S.Ct. 2791. But it also mandated information actually be given to patients. Id. H.B. 2 is no different.\nThe second point considered significant by the district court-certain medical groups' views regarding whether a particular mandated truthful disclosure is necessary for informed consent-is not the type of evidence deemed material by the Supreme Court in reviewing abortion-informed-consent statutes. Indeed, the Supreme Court has upheld abortion regulations that were directly contrary to alleged medical-profession custom and that certain medical groups did not consider to be necessary-laws that those groups asserted were inconsistent with accepted standards of care for informed consent. For example, in Casey, the district court found that \"[t]he informed consent requirements of the [Pennsylvania law] represent a substantial departure from the ordinary medical requirements of informed consent,\" Casey , 744 F.Supp. at 1351 ; that \"[c]ontent-based informed consent is contrary to the standard medical practice that informed consent be specifically tailored to the needs of the specific patient,\" id. at 1353 ; and that various provisions of the Pennsylvania law conflicted with official positions of ACOG and the American Public Health Association, see id. at 1351-52, 1355, 1360. Still, the Supreme Court in Casey upheld the law's informed-consent requirements. See Casey , 505 U.S. at 884, 112 S.Ct. 2791.\nSimilarly, in Gonzales , the Court upheld a statute prohibiting a form of partial-birth abortions, despite the district court's factual findings that the law was contrary to certain medical-profession views, including that ACOG \"told Congress several times that the procedure should not be banned,\" Carhart v. Ashcroft , 331 F.Supp.2d 805, 1011 (D. Neb. 2004), and \"that Congress'[s] Finding-that a medical consensus supports the ban because partial-birth abortions are unnecessary-is both unreasonable and not supported by substantial evidence,\" id. at 1015.\nIf the validity of an informed-consent law depended on whether doctors agreed with the law-or whether the law required disclosures that, with no law, the doctor would disclose anyway-there would be no need for the law to supplement custom. See Canterbury , 464 F.2d at 784 (\"[T]o bind the disclosure obligation to medical usage is to arrogate the decision on revelation to the physician alone.\"). As Casey and Gonzales establish, the constitutionality of an abortion regulation is based on the relevant legal standard as interpreted by the Supreme Court-here, whether the mandated disclosures are truthful, non-misleading, and relevant to the medical procedure-and not necessarily whether the law is consistent with medical-profession custom or views of certain medical groups.\nThe Dissent, therefore, is mistaken to argue that we \"must naturally turn to the medical community\" to ascertain the \"contours of informed consent\" to determine whether a regulation is in accord with \"medical practice\" or \"medical purpose.\" Dissent at 449. Following that approach would require us, in effect, to hold that a State must surrender its authority to regulate informed consent to private parties. This method, however, would conflict with the Court's recognition in Gonzales that the State may regulate informed consent in the abortion context in the same way that it regulates informed consent in other medical contexts. See 550 U.S. at 163, 127 S.Ct. 1610. The validity of this regulation does not turn on what any private party claims is the norm for the practice of medicine. See Canterbury , 464 F.2d at 784, 787. Instead, we defer to the legislature's determination of which informed-consent disclosures are required, provided that they are relevant, truthful, and non-misleading. This deference does not make our court a player in policy making, as the Dissent contends, see Dissent at 454, but rather preserves our role as umpires who apply the rules enacted by the People's representatives. If the medical groups cited by the Dissent want the legislated rules of informed consent to change, they should address their arguments to those elected representatives. Casey makes clear, however, that the Dissent is incorrect to contend that opposition by medical groups to informed-consent rules necessarily renders those rules in valid under the First Amendment.\nThe reasoning in Casey also shows that H.B. 2 does not impermissibly infringe on abortion doctors' autonomy. Indeed, as noted, the Casey plurality overruled the Court's earlier holdings that requiring doctors to give certain information to all patients impermissibly intruded upon doctors' discretion. See Casey , 505 U.S. at 881, 112 S.Ct. 2791 ; Thornburgh v. American Coll. of Obstetricians & Gynecologists , 476 U.S. 747, 762, 106 S.Ct. 2169, 90 L.Ed.2d 779 (1986).\nTo be sure, H.B. 2 does require the disclosure of truthful, non-misleading, and relevant facts that otherwise the doctor might not disclose. However, to the extent that it matters to the First Amendment analysis, nothing prevents the doctor from informing the patient that the factual disclosures of H.B.2 are required by the Commonwealth rather than made by the doctor's choice. See generally Rust v. Sullivan , 500 U.S. 173, 200, 111 S.Ct. 1759, 114 L.Ed.2d 233 (1991) (rejecting argument that regulations abridged free-speech rights of the grantee's staff and noting that \"[n]othing in [the regulations] requires a doctor to represent as [her or] his own any opinion that [she or] he does not in fact hold\"); Fargo Women's Health Org. v. Schafer , 18 F.3d 526, 534 (8th Cir. 1994) (upholding abortion-informed-consent statute and observing that it allowed doctors to \"disassociate themselves\" from the required information).\nIt is also true that H.B. 2 differs from the Pennsylvania statute in Casey in that H.B. 2 does not have an express provision, as did the Casey statute, excusing a doctor from providing the mandated disclosure \"if he or she can demonstrate by a preponderance of the evidence, that he or she reasonably believed that furnishing the information would have resulted in a severely adverse effect on the physical or mental health of the patient.\" Casey , 505 U.S. at 883-84, 112 S.Ct. 2791. Although the Casey joint opinion noted this statutory provision in the context of discussing \"a constitutional right of privacy between a pregnant woman and her physician,\" id. at 883, 112 S.Ct. 2791, there is no indication that the plurality considered the provision to be significant for its First Amendment review. To the extent that it was, we also must consider that a doctor need not comply with H.B. 2 if an abortion is medically necessary or in the case of a medical emergency, KRS \u00a7 311.727(5), and H.B. 2 has other provisions not contained in the Casey statute that effectively give the doctor the same discretion afforded to doctors under the Casey statute. For example, unlike the Casey statute, H.B. 2 imposes no obligation that the patient certify in writing that she has received certain mandated disclosures, see id. at 881, 112 S.Ct. 2791, or even requires that the patient pay attention to the disclosures, and it imposes no penalty on the doctor if the patient ignores the disclosures the doctor is making, see KRS \u00a7 311.727(3). These provisions operate to allow a doctor who reasonably believes that the disclosures would result in a severely adverse effect on the patient, to inform the patient in the doctor's discretion that she need not listen to or view the disclosures.\nFurthermore, H.B. 2 restricts no doctor from advising the patient to keep or abort the unborn life displayed or from providing any other opinion, medical or otherwise, that the doctor wishes to convey. See generally Wollschlaeger v. Governor of Fla. , 848 F.3d 1293, 1309 (11th Cir. 2017) (en banc) (\"Importantly, however, the law [at issue in other cases] did not restrict what the practitioner could say or recommend to a patient or client .\" (emphasis added)). Indeed, the statute contains nothing that would prevent a doctor in her or his discretion from advocating to the patient in favor of an abortion.\nGiven these considerations, the requirements of H.B. 2 are no more of a regulation that departed from a medical group's definition of medical practice than the abortion-informed-consent law upheld in Casey and no more of a regulation of professional speech than many informed-consent and physician-disclosure laws enacted by Kentucky, other States, and the federal government.\nEmotional Effect on Patients . As for EMW's third argument-that the emotional effect of H.B. 2 on patients warrants heightened scrutiny- Casey again is instructive. In that case, the district court accepted Planned Parenthood's similar argument and held that the Pennsylvania informed-consent statute did not survive heightened scrutiny because the mandated information \"will create the impression in women that the Commonwealth disapproves of the woman's decision\" and \"will create undesirable and unnecessary anxiety, anguish and fear.\" Casey , 744 F.Supp. at 1354. In this regard, the district court's factual finding in Casey was like the district court's finding here, based on evidence cited by the Dissent, see Dissent at 457-58, that \"H.B. 2 causes patients distress.\" EMW Women's Surgical Ctr. , 283 F.Supp.3d at 645. We recognize the significance of the district court's finding regarding the negative emotional effect on certain patients, as well as its acknowledgment of declarations from several women who had undergone abortions and who stated that the mandated disclosures of H.B. 2 would have had a positive impact on their emotional health by persuading them not to have an abortion. R. 32-3, PageID 406-08; R. 32-4, PageID 410; R. 32-5, PageID 412-14. However, for purposes of this summary judgment determination, we need not and should not weigh the competing evidence of emotional effect, as the district court and Dissent appear to do. Instead, the Casey plurality did not view any finding regarding emotional effect as material to the level of First Amendment scrutiny of an informed-consent statute. Although the Casey district court's finding as to emotional effect was quoted by Planned Parenthood in its brief to the Supreme Court, see Casey Br. at *52, the controlling opinion in Casey did not make any note of this finding in its analysis of the doctors' First Amendment challenge. Instead, without mentioning emotional effect on patients at all, the Casey plurality reversed the district court's judgment that struck down the informed-consent statute.\nCasey thus implicitly recognized that discomfort to the patient from the mandated disclosure of truthful, non-misleading, and relevant information does not make an informed-consent law invalid under the First Amendment. Indeed, discomfort may be a byproduct of informed consent itself. See generally Gonzales , 550 U.S. at 159, 127 S.Ct. 1610 (\"Any number of patients facing imminent surgical procedures would prefer not to hear all details, lest the usual anxiety preceding invasive medical procedures become the more intense.\"). This may be especially true in the abortion context. For, as the Supreme Court has explained, \"[a]bortion is inherently different from other medical procedures, because no other procedure involves the purposeful termination of a potential life.\" Harris v. McRae , 448 U.S. 297, 325, 100 S.Ct. 2671, 65 L.Ed.2d 784 (1980).\nProviding sonogram and auscultation results to the patient furthers the State's legitimate interest, recognized in Casey , of ensuring that the patient understands the full implications of her decision, including the impact on unborn life. Under Casey , the State may decide that its interest in having the unborn life actually be seen and heard before being aborted, and potential negative emotional consequences to the patient from not having received that disclosure, justify the incidental regulation of professional speech and outweigh the risk of negative emotional impact on the patient from the disclosure (even assuming the latter consideration is relevant to the First Amendment analysis and was a permissible finding for summary judgment given the disputed factual record). This conclusion follows from Casey 's reasoning that the State has \"an important interest in potential life,\" Casey , 505 U.S. at 882, 112 S.Ct. 2791, and that there is the risk to the patient's psychological health from having made such a profound decision without adequate disclosure of its consequences, including the impact on unborn life, beforehand:\nIt cannot be questioned that psychological well-being is a facet of health. Nor can it be doubted that most women considering an abortion would deem the impact on the fetus relevant, if not dispositive, to the decision. In attempting to ensure that a woman apprehend the full consequences of her decision, the State furthers the legitimate purpose of reducing the risk that a woman may elect an abortion, only to discover later, with devastating psychological consequences, that her decision was not fully informed.\nCasey , 505 U.S. at 882, 112 S.Ct. 2791.\nEMW has offered no Supreme Court authority to contradict Casey 's teaching. At oral argument, EMW cited only Hill v. Colorado , 530 U.S. 703, 120 S.Ct. 2480, 147 L.Ed.2d 597 (2000), as support for our considering the impact of H.B. 2 on the listening patients as part of the First Amendment analysis. Hill explained that the effect of certain speech on unwilling listeners can be a factor when determining whether restricting speech is constitutional. See 530 U.S. at 716, 120 S.Ct. 2480 (\"[T]he protection afforded to offensive messages does not always embrace offensive speech that is so intrusive that the unwilling audience cannot avoid it.\"). Hill , however, did not involve a situation where, as here, no speech-fact or opinion-is restricted. The only issue here is whether the government may compel more disclosures of a strictly truthful, non-misleading, and relevant nature.\nMore fundamentally, though, Hill is distinguishable because it did not involve informed consent to a medical procedure. Hill concerned speech to people on public streets and sidewalks within 100 feet of health-care facilities. 530 U.S. at 707, 120 S.Ct. 2480. The informed-consent exception to heightened scrutiny simply did not apply, as NIFLA confirms. Because H.B. 2, like the Casey statute, provides truthful, non-misleading, and relevant information about an abortion, it helps ensure informed consent to that procedure. It therefore is not subject to heightened scrutiny and complies with the First Amendment under NIFLA and Casey .\nVI.\nFinally, a few words in response to the Dissent's conclusion, based on physician testimony that is disputed by other physician testimony, that H.B. 2 \"would require physicians to harm their patients with 'no medical purpose,' \" id. at 449, and the Dissent's statement that \"[i]t is transparent that furthering informed consent was not the aim of the Commonwealth-nor will it be achieved by H.B. 2,\" id. at 460.\nFirst, in order to make the claim that informed consent is a pretextual and not the actual reason for H.B. 2, the Dissent engages in a methodology that we respectfully submit is inconsistent with Casey . The Dissent argues that \"H.B. 2 is not coterminous with the medical practice of informed consent. It should not receive deferential review because it regulates the content of physician speech, not the practice of medicine.\" Dissent at 454.\nThe Dissent's approach departs from with how the Casey joint opinion reviewed the informed-consent statute in that case. The plurality considered mandated informed-consent disclosures regarding unborn life to be an incidental regulation of professional speech that was engaged in as \"part of the practice of medicine.\" NIFLA , 138 S.Ct. at 2373. In Casey , as here, certain private medical organizations argued, and the district court found, that the mandated disclosures were inconsistent with informed-consent custom. But that argument and lower court finding did not cause the Casey plurality to conclude that the disclosures were somehow not part of the practice of medicine and therefore subject to heightened scrutiny. Nor did Casey question the motives of the legislature. Instead, the plurality accepted as \"legitimate\" that the legislature may have the motive of \"protecting the life of the unborn\" in fashioning informed-consent requirements for the abortion procedure. See Casey , 505 U.S. at 882-83, 112 S.Ct. 2791. This motive did not call for heightened scrutiny in Casey . Nor should it in this case.\nFurthermore, the reasoning in Casey establishes that H.B. 2 does indeed legitimately facilitate informed consent and serve a medical purpose that does not harm the patient. To give the patient more information that is truthful, non-misleading, and relevant to a medical procedure is the epitome of ensuring informed consent. See Casey , 505 U.S. at 882, 112 S.Ct. 2791 ; Lakey , 667 F.3d at 579 ; Rounds , 530 F.3d at 735. A sonogram and heartbeat auscultation of the unborn life inside the patient are disclosures directly pertinent to whether to obtain a procedure to abort that unborn life. If we were to hold that a State may not require such disclosures, we would essentially be concluding that women must be shielded and protected from this up-to-date medical information, that women are unable to or should not be required to process it. This conclusion is incompatible with the concept of personal choice under Casey . See Casey , 505 U.S. at 883-84, 112 S.Ct. 2791 ; Lakey , 667 F.3d at 579 (\"Denying [a woman] up to date medical information is more of an abuse to her ability to decide than providing the information.\"). Casey recognized that a State may require a physician to inform the patient of the impact on unborn life and that facts relating to this impact are among the disclosures that may be part of informed consent for an abortion.\nVII.\nShifting from the First Amendment to the Eleventh, General Beshear argues that he is not a proper party to this matter. \"[A] suit against state officials that is in fact a suit against a State is barred regardless of whether it seeks damages or injunctive relief.\" Pennhurst State Sch. & Hosp. v. Halderman , 465 U.S. 89, 102, 104 S.Ct. 900, 79 L.Ed.2d 67 (1984) (citation omitted). That said, one \"important exception\" exists for suits \"challenging the constitutionality of a state official's action .\" Id. (citing Ex parte Young , 209 U.S. 123, 28 S.Ct. 441, 52 L.Ed. 714 (1908) ) (emphasis added). The district court held that General Beshear falls into this exception because he has the \"necessary authority\" to enforce H.B. 2. EMW Women's Surgical Ctr. , 283 F.Supp.3d at 647-48. But General Beshear argues that \"an attorney general's status as the chief law enforcement officer of the state is not a sufficient connection\" to fall into this exception. We agree with him.\nState officials who are \"clothed with some duty in regard to the enforcement of the laws of the state, and who threaten and are about to commence proceedings ... to enforce against parties affected an unconstitutional act, violating the Federal Constitution, may be enjoined by a Federal court of equity from such action.\" Ex parte Young , 209 U.S. at 156, 28 S.Ct. 441 (emphasis added). However, this exception to sovereign immunity created in Ex parte Young has been read narrowly. Children's Healthcare is a Legal Duty, Inc. v. Deters , 92 F.3d 1412, 1415 (6th Cir. 1996). We have held that it \"does not apply when a defendant state official has neither enforced nor threatened to enforce the allegedly unconstitutional state statute.\" Id. (citations omitted). There must be \"a realistic possibility the official will take legal or administrative actions against the plaintiff's interests.\" Russell v. Lundergan-Grimes , 784 F.3d 1037, 1048 (6th Cir. 2015) (citing Deters , 92 F.3d at 1415 ). General enforcement authority is insufficient. Id. (citation omitted).\nH.B. 2 and its penalty provision, in contrast with other statutes, do not delegate specific enforcement power to any single state actor. KRS \u00a7\u00a7 311.727, 311.990(33). Multiple local prosecutors-the Commonwealth's and county attorneys-have the duty to enforce H.B. 2.\nTrue, the Attorney General is \"the chief law officer of the Commonwealth\" with a responsibility to \"exercise all common law duties and authority pertaining to the office of the Attorney General under the common law, except when modified by statutory enactment.\" KRS \u00a7 15.020. Kentucky law permits the Attorney General to defend a statute's constitutional validity, but it also gives her or him discretion. KRS \u00a7 418.075(1) ; Commonwealth v. Hamilton , 411 S.W.3d 741, 751 (Ky. 2013). However, Kentucky law does not require the Attorney General to represent the Commonwealth \"where it is made the duty of the Commonwealth's attorney or county attorney\" instead. KRS \u00a7 15.020. That is what we have here.\nEach Commonwealth's attorney must \"attend to all civil cases and proceedings in which the Commonwealth is interested in the Circuit Courts of [her or] his judicial circuit.\" KRS \u00a7 69.010(1). The county attorneys must do the same within their counties. KRS \u00a7 69.210(4)(a). Both must investigate the condition of unsatisfied judgments in their districts or counties. KRS \u00a7\u00a7 69.040, 69.240. They also must \"take all necessary steps, by motion, action, or otherwise to collect [them] and cause them to be paid into the State Treasury.\" KRS \u00a7 69.240 ; accord KRS \u00a7 69.040. When these attorneys fail to meet this mandate, and if the Department of Revenue submits a written request, then the Attorney General must bring an action to collect any unsatisfied judgments. See KRS \u00a7 15.060(3). The duty to enforce H.B. 2 therefore lies not with the Attorney General but with the Commonwealth's attorneys and the county attorneys.\nTo support their interpretation of Ex parte Young , EMW cites McNeilus Truck & Manufacturing, Inc. v. Ohio ex rel. Montgomery , 226 F.3d 429 (6th Cir. 2000). That case, however, affirms the holding of Deters , which we rely on here. See McNeilus Truck & Mfg. , 226 F.3d at 438 (citing Deters for the proposition that Young \"does not apply when the defendant official has neither enforced nor threatened to enforce\" the challenged statute). McNeilus also held that the Attorney General is a proper defendant \"[w]here there is an imminent threat of enforcement.\" Id. at 437. There, the Attorney General helped enforce portions of the statute, and the other defendant had threatened to withdraw the plaintiff's license. So, we held both the Attorney General and the other defendant could be sued. McNeilus , however, does not help EMW because there is no evidence of a similar \"imminent threat\" of prosecution by the Attorney General in the present case. Any imminent threat comes from the Commonwealth's and county attorneys, not the Attorney General.\nGeneral Beshear has not enforced or even threatened to enforce H.B. 2. Rather, the Kentucky legislature has charged local prosecutors with its enforcement. We therefore hold that the Attorney General is not a proper party to this action.\nVIII.\nH.B. 2-The Ultrasound Informed Consent Act-is an informed-consent statute like the statute in Casey because it provides truthful, non-misleading, and relevant information related to an abortion. The statute incidentally burdens speech only as part of Kentucky's regulation of professional conduct. Therefore, H.B. 2 is not subject to any heightened scrutiny with respect to the doctors' First Amendment rights, and it does not violate those rights, based on NIFLA and Casey . See NIFLA , 138 S.Ct. at 2373 ; Casey , 505 U.S. at 884, 112 S.Ct. 2791. Also, because local prosecutors would handle the enforcement of fines under H.B. 2, the Attorney General is not a proper party to this action.\nWith due respect for the views of the Dissent, we adopt instead the position of the Fifth and Eighth Circuits on the First Amendment issue. Our responsibility here is to apply the level of scrutiny mandated by the plurality opinion in Casey and reaffirmed by a majority of the Supreme Court in NIFLA . Under Casey , \"protecting the life of the unborn\" is a \"legitimate goal\" that may be pursued by a State as part of informed consent. See Casey , 505 U.S. at 882-83, 112 S.Ct. 2791. As a First Amendment matter, there is nothing suspect with a State's requiring a doctor, before performing an abortion, to make truthful, non-misleading factual disclosures, relevant to informed consent, even if those disclosures relate to unborn life and have the effect of persuading the patient not to have an abortion.\nAccordingly, we REVERSE the district court's contrary decision and VACATE the injunction. We also remand with instructions for General Beshear to be dismissed from the case, for summary judgment to be entered in favor of Secretary Meier on the first claim for relief stated in the complaint, and for further proceedings consistent with this opinion.\nDISSENT\nBERNICE BOUIE DONALD, Circuit Judge, dissenting.\nThis is a First Amendment case. Although the challenged statute affects abortion, the question before this Court is not whether the statute unduly burdens a woman's right to choose. The question is how the statute-which compels specific speech and actions by physicians-impacts a physician's First Amendment rights. The majority misses this critical distinction. They incorrectly apply Fourteenth Amendment precedent to resolve this case, as succinctly depicted by their opening line: \"Under Roe v. Wade , 410 U.S. 113, 93 S.Ct. 705, 35 L.Ed.2d 147 (1973), a woman has the right to choose to have an abortion.\" Majority Opn. at 421. The categorical test the majority conjures today may be applicable to an undue burden challenge, but it does not reflect the protections the First Amendment affords private citizens.\nPursuant to the First Amendment, a regulation that compels physician speech is subject to heightened scrutiny unless it regulates speech \"as part of the practice of medicine,\" Nat'l Inst. of Family & Life Advocates v. Becerra , --- U.S. ----, 138 S.Ct. 2361, 2373, 201 L.Ed.2d 835 (2018) (\" NIFLA \") (quoting Planned Parenthood of Se. Pennsylvania v. Casey , 505 U.S. 833, 884, 112 S.Ct. 2791, 120 L.Ed.2d 674 (1992) ), such as when it \"facilitate[s] informed consent to a medical procedure,\" id. The driving term here is \"practice of medicine.\" A regulation that affects physician speech receives deferential review only when that speech is auxiliary to a medical practice. Id. at 2372 (\"The Court has afforded less protection for professional speech ... where States regulate professional conduct , even though that conduct incidentally regulates speech.\" (emphasis added)). In other words, when the state regulates the content of physician speech in a manner that is inconsistent with the practice of medicine, we must apply heightened scrutiny, full stop. Id .\nAt issue in this case is H.B. 2, a law that has no basis in the practice of medicine. Prior to performing an abortion, H.B. 2 requires physicians in the Commonwealth of Kentucky to conduct an ultrasound (oftentimes using a transvaginal probe) while simultaneously describing the fetus with particularity, displaying the sonogram images, and playing aloud the fetus' heartbeat to the patient. Ky. Rev. Stat. \u00a7 311.727(2)(a)-(f). Moreover, the physician is not permitted to exercise his or her medical judgment in deciding whether the procedure is appropriate or ethical. Id. The Commonwealth argues that H.B. 2 facilitates informed consent as part of the practice of medicine. Prevailing standards of care and the undisputed evidence, however, contradict this contention.\nH.B. 2 does not facilitate informed consent. Under the prevailing standard of care, informed consent requires respect for the patient's autonomy and sensitivity to the patient's condition. Physician discretion is vital, but H.B. 2 eviscerates physician discretion. H.B. 2 is thus at odds with the prevailing standard of care. The undisputed evidence shows the same. Plaintiffs introduced 1) physician testimony stating that H.B. 2's mandatory provisions would cause patient harm but \"serve no medical purpose,\" and 2) a grim account from a woman who had an abortion under a \"display and describe\" regulation that caused her serious harm without facilitating her informed consent. The Commonwealth did not controvert that evidence, and the majority ignores these significant points (indeed, the majority goes so far as to hold that \"customary standard[s] of medical care\" play no role in determining whether a regulation conforms to the practice of medicine, Majority Opn. at n. 24).\nRather than look to the standard of care and the evidence, the majority relies on undue burden jurisprudence to fashion a test that they believe comprehensively captures informed consent. The result is erroneous. If a regulation requires the provision of truthful, nonmisleading, and relevant information, the majority has decided that the regulation per se facilitates informed consent. The three elements the majority identifies-truthful, nonmisleading, and relevant-were drawn from Casey , a controlling case that considered both an undue burden and a First Amendment challenge. These three elements, however, were central only to Casey's undue burden analysis. Casey , 505 U.S. at 883, 112 S.Ct. 2791 (holding that a regulation that requires provision of truthful and non-misleading information \"cannot be considered a substantial obstacle to obtaining an abortion, and, it follows, there is no undue burden.\"). Nowhere are these elements even mentioned in Casey's discussion of the First Amendment. See id. at 884, 112 S.Ct. 2791. It is a mistake to transpose Casey's holding on undue burden to the First Amendment challenge here. Stuart v. Camnitz , 774 F.3d 238, 249 (4th Cir. 2014) (\"The fact that a regulation does not impose an undue burden on a woman under the due process clause does not answer the question of whether it imposes an impermissible burden on the physician under the First Amendment.\"). To illustrate further, imagine if a state passed a law requiring all gun owners to turn in their guns for just compensation, and this Court upheld the law under the Second Amendment, but relied only on facts from Takings Clause jurisprudence. The outcome would be flawed because the issues are distinct. The same is true in this case.\nThe ultimate question in this First Amendment case is whether H.B. 2 regulates the practice of medicine, with physician speech being an \"incidental\" victim. NIFLA , 138 S.Ct. at 2372. The two authorities upon which the majority relies to answer this question do not canvass the medical practice of informed consent (nor do they profess to do so); the majority thus takes Casey and NIFLA too far by extrapolating from them a categorical test on informed consent. Casey established the general principle that regulation of physician speech must be reasonable and regulate speech \"as part of the practice of medicine.\" Casey , 505 U.S. at 884, 112 S.Ct. 2791. Applying that principle, the Court upheld a law that permitted a physician to exercise his or her medical judgment in deciding whether to provide truthful, non-misleading information to patients. Id. Then, in NIFLA , the Court applied the same principle to a regulation that required unlicensed medical clinics to disseminate certain information in all of their advertising materials. NIFLA , 138 S.Ct. at 2373. Because that regulation extended to non-patients, the Court found that it did not facilitate informed consent, so it was nothing more than a prohibited regulation of \"speech as speech.\" Id. at 2374. Casey and NIFLA do the following two things for our First Amendment inquiry: they provide a guiding principle and two factual comparators.\nDespite what the majority avers, these cases do not set out elements that comprehensively define the medical practice of informed consent. Because we do not have legal authority reciting the contours of informed consent, we must naturally turn to the medical community for that definition. The prevailing standard of care and the undisputed evidence from below make this clear: H.B. 2 does not facilitate informed consent. H.B. 2 does not permit physician discretion-a central tenet of informed consent-and it would require physicians to harm their patients with \"no medical purpose.\" Accordingly, it does not regulate speech as part of the practice of medicine; it regulates \"speech as speech.\" See id. at 2374. For that reason, H.B. 2 should be subjected to heightened scrutiny and deemed an unconstitutional infringement of the physicians' right to free speech. I respectfully dissent.\nA. Informed Consent and First Amendment Jurisprudence\nThe controlling First Amendment cases in this context are Casey and NIFLA (and only a limited portion of Casey is germane). These cases do two things. First, they create the guiding principle that reasonable regulations that facilitate informed consent to a medical procedure are excepted from heightened scrutiny. Second, they illustrate that guiding principle by applying it to a Pennsylvania statute (in Casey ) and a California statute (in NIFLA ). What these cases do not do , however, is provide a simple equation with which to calculate whether a regulation facilitates informed consent. They do not support the majority's categorical test.\n1. Under Casey , a Regulation Compelling Physician Speech is Subject to Deferential Review Only When It is Reasonable and Conforms to the Practice of Medicine\nIn Casey , several abortion clinics and physicians challenged a Pennsylvania statute that required a woman seeking an abortion to receive certain information at least 24 hours before the abortion was performed. Casey , 505 U.S. at 844-45, 112 S.Ct. 2791. The Pennsylvania statute also permitted the physician to exercise his or her medical judgment (e.g., discretion) to decide whether to provide the information at all. Id. Though the primary challenge in Casey centered on the woman's right to choose, the physicians also challenged the statute as a violation of their right to free speech. See id. at 844-853, 884, 112 S.Ct. 2791. The Court disposed of that First Amendment challenge with a single paragraph , reproduced in its entirety below:\nAll that is left of petitioners' argument is an asserted First Amendment right of a physician not to provide information about the risks of abortion, and childbirth, in a manner mandated by the State. To be sure, the physician's First Amendment rights not to speak are implicated, but only as part of the practice of medicine, subject to reasonable licensing and regulation by the State. We see no constitutional infirmity in the requirement that the physician provide the information mandated by the State here.\nCasey , 505 U.S. at 884, 112 S.Ct. 2791 (emphasis added) (internal citations omitted). This paragraph \"did not hold sweepingly that all regulation of speech in the medical context merely receives rational basis review.\"\nWollschlaeger v. Gov. Florida , 848 F.3d 1293, 1311 (11th Cir. 2017) (quoting Stuart , 774 F.3d at 249 ). Indeed, Casey's First Amendment reach is limited. The Court held that the Pennsylvania statute-with all of its specific features-was a \"reasonable ... regulation by the State\" \"as part of the practice of medicine,\" and thus did not run afoul of the physicians' First Amendment rights. Casey , 505 U.S. at 884, 112 S.Ct. 2791.\nThe majority interprets Casey very differently. First, the majority recites language from several passages in Casey detailing why the provision of truthful, non-misleading, and relevant information is constitutionally appropriate. They have focused on the wrong provision of the Constitution. The following summation, which immediately follows the specific passages the majority cites from Casey , makes clear that the pertinent language is specific to the undue burden challenge in that case:\nIn short, requiring that the woman be informed of the availability of information relating to fetal development and the assistance available should she decide to carry the pregnancy to full term is a reasonable measure to ensure an informed choice, one which might cause the woman to choose childbirth over abortion. This requirement cannot be considered a substantial obstacle to obtaining an abortion , and, it follows, there is no undue burden .\nCasey , 505 U.S. at 883, 112 S.Ct. 2791 (emphasis added). Only after the discussion of those enumerated elements and the summation above did the Court begin to analyze the plaintiffs' First Amendment claims. See id. The analysis in Casey that the majority relies upon applies to an undue burden challenge, not a First Amendment challenge. We are not at liberty to transpose undue burden principles to the First Amendment.\nMore egregiously, the majority announces that \"the First Amendment analysis of an informed-consent statute turns on whether the mandated disclosure is truthful, non-misleading, and relevant, not whether the disclosure is, or is not, currently embodied in the customary standard of medical care.\" Majority Opn. at n. 24. This proclamation contravenes Casey's explicit holding on the First Amendment. In Casey , the Court addressed the First Amendment challenge within a single paragraph, and within that single paragraph, only a single sentence provided the germane, guiding principle: \"To be sure, the physician's First Amendment rights not to speak are implicated, but only as part of the practice of medicine , subject to reasonable licensing and regulation by the State.\" Casey , 505 U.S. at 884, 112 S.Ct. 2791 (emphasis added). The majority now reads this sentence completely out of Casey , and instead dictates that what truly matters to our inquiry is whether a subsequent statute shares some material features of the Casey statute. This is the proverbial tail that wags the dog.\nSecond, the majority highlights that Casey explicitly overruled City of Akron v. Akron Ctr. for Reprod. Health, Inc. , 462 U.S. 416, 103 S.Ct. 2481, 76 L.Ed.2d 687 (1983) (\" Akron I \") and Thornburgh v. Am. Coll. of Obstetricians & Gynecologists , 476 U.S. 747, 106 S.Ct. 2169, 90 L.Ed.2d 779 (1986), cases the majority argues might have lent credence to the position that H.B. 2 does not facilitate informed consent. This argument attacks a straw man. The legal challenges in Akron I and Thornburgh were based on undue burden, not the First Amendment. Akron I , 462 U.S. at 432 n.16, 103 S.Ct. 2481 (\"This is not to say that the informed consent provisions may not violate the First Amendment rights of the physician....\"), Thornburgh , 476 U.S. at 830-31, 106 S.Ct. 2169 (O'Connor, J., dissenting) (\"Since the Court of Appeals did not reach appellees' First Amendment claim, and since appellees do not raise it here, I need not decide whether this potential problem would be sufficiently serious to warrant issuance of a preliminary injunction.\"). Casey even explained that overruling Akron I and Thornburgh was premised entirely on \"the undue burden standard adopted in this opinion.\" Casey , 505 U.S. at 881, 112 S.Ct. 2791 (emphasis added). The majority's attempt to bolster their own analysis by pointing out that Akron I and Thornburgh are no longer good law unnecessarily confuses the issues.\nLast, the majority avers that any statute that is \"of the nature upheld in Casey \" should not be subjected to heightened scrutiny. This point is uncontroversial. If the Court has considered a materially identical statute and treated it in one way, we are bound to do the same (given the same challenge). The issue here, however, is how we define the material elements of the Pennsylvania statute in Casey . As the majority frequently repeats, the Pennsylvania statute required the provision of truthful, non-misleading, and relevant information. That is not the whole story, though. The statute also permitted the physician to \"exercis[e] his or her medical judgment\" in deciding whether to provide the information at all. Casey , 505 U.S. at 884-85, 112 S.Ct. 2791 (\"[I]t is worth noting that the statute now before us does not require a physician to comply with the informed consent provisions 'if he or she can demonstrate by a preponderance of the evidence, that he or she reasonably believed that furnishing the information would have resulted in a severely adverse effect on the physical or mental health of the patient.' \" (quoting 18 Pa. Cons. Stat. \u00a7 3205 (1990)). This fact the majority decides not to repeat as a material feature of the statute.\nTo the extent that we use the facts of Casey to guide our decision-making in this case, we cannot cherry-pick those that align with H.B. 2 and ignore those that do not. The Pennsylvania statute in Casey required the provision of truthful, non-misleading, and relevant information, and it provided the physician the opportunity to exercise his or her medical judgment to decide not to provide that information. Those are the material facts. If we encounter a statute with those same material elements, it should be deemed constitutionally sound, just as the Pennsylvania statute in Casey was-but H.B. 2 does not share those same material elements because H.B. 2 does not allow for the physician to exercise his or her medical judgment. H.B. 2 cannot be treated as equivalent to the Pennsylvania statute in Casey . It is not \"of the nature upheld in Casey .\"\nAlthough they try, the majority cannot explain this stubborn fact away. First, the majority concludes that \"there is no indication that the [ Casey ] plurality considered the [physician discretion] provision to be significant for its First Amendment review.\"\nMajority Opn. at 440. This principle is of no help to the majority. The Casey plurality never mentioned the provision of non-misleading or truthful information in its brief discussion of the First Amendment, yet the majority bases its entire analytical approach on those elements. See 505 U.S. at 884, 112 S.Ct. 2791. Equal application of the principle, then, would undermine the majority's entire opinion. Second, the majority attempts to frame H.B. 2 as \"effectively\" providing the same physician discretion as the Pennsylvania statute did, pointing out that H.B. 2 permits the physician to tell his or her patient not to listen to the heartbeat and not to watch the images from the sonogram. Majority Opn. at 442. This fact may be so, but under H.B. 2, the patient must still be probed, the doctor must still describe the fetus with mandated particularity and auscultate the heartbeat, and the procedure must proceed to completion. There is no discretion to avoid these acts, regardless of their impact on the health of the patient. H.B. 2 thus does not afford the same discretion as the Pennsylvania statute did and is therefore not \"of the nature upheld in Casey .\"\n2. NIFLA Requires the Provision of Information to Actual Patients, and Warns of the Dangers of Abridging Speech\nMoving on from Casey , the next case shaping the informed-consent exception is NIFLA . In NIFLA , California passed a regulation that required unlicensed facilities to display government-drafted notices on all advertising materials and within on-site locations. NIFLA , 138 S.Ct. at 2369-70. The government there argued that the regulation facilitated informed consent, but the Court was not convinced. Id. at 2373-74. The reason why: the provision of information was \"not tied to a procedure at all ... [and] applie[d] to all interactions between a covered facility and its clients, regardless of whether a medical procedure [was] ever sought, offered, or performed.\" Id. at 2373. Because the regulation did not facilitate informed consent, it did not regulate speech as part of the practice of medicine-it \"regulate[d] speech as speech.\" Id. at 2374. Therefore, the Court applied heightened scrutiny and deemed it an unconstitutional infringement of the physicians' right to free speech. Id. at 2376. Other than requiring the provision of information to actual patients seeking a specific medical procedure, NIFLA does not say anything else about what constitutes informed consent. Indeed, the words \"truthful,\" \"not misleading,\" and \"relevant\" are wholly absent from NIFLA , except in the dissent. Id. at 2385, 2388 (Breyer, J., dissenting).\nThe second and arguably most important point in NIFLA is that the First Amendment is necessary to maintain a free and democratic society. Id. at 2374 (\"[W]hen the government polices the content of professional speech, it can fail to preserve an uninhibited marketplace of ideas in which truth will ultimately prevail.\" (quotation marks omitted)). The Court emphatically rebuked California's attempt to restrict physician speech under the guise of facilitating informed consent. See id. at 2375 (\"[the regulation] cannot survive even intermediate scrutiny\"). Of the 5,945 words in the majority and concurring opinions, approximately 2,485 (41.8%) of them were dedicated to explicating the dangers of abridging speech. Word count is, of course, a crude measure of importance; but the substance of those words underscored the same point. The Court emphasized \"the fundamental principle that governments 'have no power to restrict expression because of its message, its ideas, its subject matter, or its content.' \" Id. at 2371 (citation omitted). More specific to physician speech, the Court warned that \"regulating the content of professionals' speech 'pose[s] the inherent risk that the Government seeks not to advance a legitimate regulatory goal, but to suppress unpopular ideas or information.' \" Id. at 2374 (citation omitted).\nTo illuminate that risk, the Court recounted a laundry list of despotic regimes that had \"manipulated the content of doctor-patient discourse\" to advance their own iniquitous interests, such as China during the Cultural Revolution, the Soviet Government in the 1930's, and Nazi Germany. Id. (quotation marks omitted). The results were, respectively, to suppress child rearing in peasant communities; to place injured railroad workers in significant danger; and to exact an unprecedented campaign of genocide. Id. It is unsettling to think that this country could follow in those ignominious footsteps. Yet, the majority cavalierly dismisses this concern, stating that \"what matters for First Amendment purposes is whether the disclosed facts are truthful, non-misleading, and relevant to the procedure, not whether they fall on one side of the debate, and not whether they influence a woman to abort or keep the child.\" Majority Opn. at 436. This account is at odds with the principles of the First Amendment, particularly as described in NIFLA .\nTo avoid this foundational consideration, the majority relies on (and emphasizes) the following holding in Casey : \"a State may 'further its legitimate goal of protecting the life of the unborn by enacting legislation aimed at ensuring a decision that is mature and informed, even when in so doing the State expresses a preference for childbirth over abortion .' \" Majority Opn. at 427 (quoting Casey , 505 U.S. at 883, 112 S.Ct. 2791 ). This sentiment makes sense in an undue burden challenge. The state has a legitimate interest in protecting the life of unborn children, Roe v. Wade , 410 U.S. at 153, 93 S.Ct. 705, and, when challenged under the due process clause, is free to convey that message itself so long as the woman's right to choose is not unduly burdened, Casey , 505 U.S. at 876, 112 S.Ct. 2791 (\"In our view, the undue burden standard is the appropriate means of reconciling the State's interest with the woman's constitutionally protected liberty.\").\nHowever, we apply a different, more inquisitive standard when the state forces private individuals to voice that preference. Riley v. Nat'l Fed. of the Blind of N. Carolina, Inc. , 487 U.S. 781, 790, 108 S.Ct. 2667, 101 L.Ed.2d 669 (1988) (content-based restrictions on speech must pass strict scrutiny). As made clear in NIFLA , the state \"cannot co-opt [physicians] to deliver its message for it. '[T]he First Amendment does not permit the State to sacrifice speech for efficiency.' \" NIFLA , 138 S.Ct. at 2376 (quoting Riley , 487 U.S. at 795, 108 S.Ct. 2667 ); see also Stuart , 774 F.3d at 253 (holding that the state \"cannot commandeer the doctor-patient relationship to compel a physician to express its preference to the patient[ ]\"). As a First Amendment challenge, we must consider whether the state is regulating the content of speech and for what reason. Riley , 487 U.S. at 790, 108 S.Ct. 2667. Here, the Commonwealth is regulating the content of physician speech, not the practice of medicine, and is doing so to promote the Commonwealth's chosen message. The First Amendment protects physicians-who are private citizens-from such regulations.\nIn sum, Casey and NIFLA are useful in the underlying First Amendment case in the following ways: they establish the guiding principle that reasonable regulations that facilitate informed consent to a medical procedure are excepted from heightened scrutiny, and they provide two comparator statutes. These cases do not, however, provide comprehensive instructions on what informed consent is or what it means to facilitate informed consent. To discern those definitions, we must turn to the medical community, because, after all, the primary question here is whether H.B. 2 regulates speech \"only as part of the practice of medicine .\" Casey , 505 U.S. at 884, 112 S.Ct. 2791 (emphasis added).\nB. The Medical Definition of Informed Consent\nBefore delving into the prevailing standard of medical care, I must address the majority's contention that the Court, and not \"private part[ies],\" should determine on its own what constitutes a medical practice. Majority Opn. at 438-41. What the majority describes is not consistent with jurisprudential tenets. As the Chief Justice of the Supreme Court aptly noted, it is our job to call balls and strikes and not to pitch or bat. We are not medical experts, and even if we were, we would not be permitted to divine from our own personal beliefs what a medical practice is and what it is not. This foundational rule is particularly important when confronted with an ever-evolving practice such as medicine. Indeed, what once was an acceptable medical practice-like easing children's nerves with \"soothing syrups\" containing heroin in the early 20th century-is no longer acceptable based upon modern standards of practice and research. Unlike the majority, and pursuant to jurisprudential tenets, I rely on the evidence submitted by the parties (and the materials submitted by the amici) to determine whether H.B. 2 facilitates informed consent.\nAs a medical practice, informed consent requires a physician to be able to exercise his or her judgment in deciding how to provide relevant information to the patient. H.B. 2 does not allow for any physician discretion. Therefore, very simply, H.B. 2 is not coterminous with the medical practice of informed consent. It should not receive deferential review because it regulates the content of physician speech, not the practice of medicine.\nThe ethical doctrine of informed consent is \"rooted in the concept of self-determination and the fundamental understanding that patients have the right to make their own decisions regarding their own bodies.\" Am. Coll. of Obstetricians & Gynecologists (\"ACOG\") & the Am. Med. Ass'n (\"AMA\") Br. at 6 (citing ACOG Comm. on Ethics, Comm. Op. No. 439 (2009, reaffirmed 2015)). Facilitating informed consent involves two major elements: comprehension and free consent. ACOG Comm. on Ethics, Comm. Op. No. 439; ACOG & AMA Br. at 7. \"Comprehension ... includes the patient's awareness and understanding of her situation and the possibilities. It implies that she has been given adequate information about her diagnosis, prognosis, and alternative treatment choices, including the option of no treatment.\" ACOG Comm. Op. No. 439 at 3. \"Free consent is an intentional and voluntary choice that authorizes someone else to act in certain ways.\" Id. Informed consent is not attained when a patient is \"deceived [or] coerced.\" Id.\nThe purpose of informed consent is to permit a patient's \"self-determination,\" or, \"the taking hold of her own life and action, determining the meaning and possibility of what she undergoes as well as what she does.\" Id. at 2. The AMA code of ethics requires physicians to:\n(a) Assess the patient's ability to understand relevant medical information and the implications of treatment alternatives and to make an independent, voluntary decision.\n(b) Present relevant information accurately and sensitively, in keeping with the patient's preferences for receiving medical information. The physician should include information about:\n1. The diagnosis (when known)\n2. The nature and purpose of recommended interventions\n3. The burdens, risks, and expected benefits of all options, including forgoing treatment\n(c) Document the informed consent conversation and the patient's (or surrogate's) decision in the medical record in some manner. When the patient/surrogate has provided specific written consent, the consent form should be included in the record.\nAMA Code of Ethics, Opinion 2.1.1(a)-(c) - Informed Consent (2016) (emphasis added). As a general practice, informed consent requires the physician to be able to assess the situation and present information in a way that helps the patient make a voluntary, informed, and personal decision.\nSpecific to the procedure at issue here, the National Abortion Federation informed-consent standard of care states that: \"The practitioner must ensure that appropriate personnel have a discussion with the patient in which accurate information is provided about the abortion process and its alternatives, and the potential risks and benefits. The patient must have the opportunity to have any questions answered to her satisfaction prior to intervention.\" Nat'l Abortion Fed'n, Clinical Policy Guidelines for Abortion Care (2018), https://5aa1b2xfmfh2e2mk03kk8rsx-wpengine.netdna-ssl.com/wp-content/uploads/2018_CPGs.pdf. There is no requirement that the patient undergo an ultrasound to provide informed consent to an abortion. See id. (\"The use of ultrasound is not a requirement for the provision of first-trimester abortion care.\"), cf. K. White, H. Jones, E.S. Lichtenberg & M. Paul, First-Trimester Surgical Abortion Practices in the United States , 92 Contraception 368 (2015) (finding that up to 98% of U.S. abortion facilities use an ultrasound to date the pregnancy). When an ultrasound is conducted, the standard of care requires an evaluation of the uterus and the embryo or fetus for specific features. Nat'l Abortion Fed'n, Clinical Policy Guidelines for Abortion Care (2018). Further, the patient must affirm that she understands the risks of the procedure. Id.\nUnlike H.B. 2, this standard of care does not require the physician to conduct an ultrasound and to simultaneously describe specific parts of the fetus, display those images to the patient, and play aloud any audible heartbeat. (Summary Judgment Hearing Tr., Mar. 23, 2017, Testimony of Dr. Joffe, R. 55, PageID # 751-53 (explaining in detail the National Abortion Federation standard of care).) Nor does the standard of care require physicians to abandon their ethical and professional obligation to present information sensitively. (Id. at 753-54.) H.B. 2 diverges from the national standard of care in a dispositive way: physicians have no ability to respond to their patients' conditions, histories, and needs in performing the mandated procedure. By proscribing physician discretion, H.B. 2 is hostile to the medical practice of informed consent. Accordingly, H.B. 2 is not a regulation of speech as part of the practice of medicine, it is a regulation of \"speech as speech.\" NIFLA , 138 S.Ct. at 2374.\nC. The Undisputed Evidence\nThe undisputed evidence introduced below demonstrates that H.B. 2 would require physicians to violate their professional and ethical obligations. Three physicians testified that H.B. 2's one-size-fits-all approach would cause them to harm their patients in direct violation of the prevailing standard of care. Further, a woman who underwent an abortion under a similar regulation described the horrifying pain she suffered as a result, all while not receiving any helpful information. The Commonwealth did not controvert these facts. Nor did the Commonwealth introduce evidence demonstrating that the mandatory nature of H.B. 2 is consistent with informed consent. Therefore, the undisputed evidence shows that H.B. 2 does not facilitate informed consent as a medical practice.\n1. Informed-Consent Regulation Preceding H.B. 2\nOriginally enacted in 1998, Kentucky Revised Statute \u00a7 311.725 is the abortion informed-consent statute that preceded H.B. 2 in the Commonwealth. It contains a list of required information physicians must provide to a woman at least 24 hours prior to the procedure, including:\n1. The nature and purpose of the particular abortion procedure or treatment to be performed and of those medical risks and alternatives to the procedure or treatment that a reasonable patient would consider material to the decision of whether or not to undergo the abortion;\n2. The probable gestational age of the embryo or fetus at the time the abortion is to be performed;\n3. The medical risks associated with the pregnant woman carrying her pregnancy to term;\n4. That published materials produced by the state are available to her which she has a right to, free of charge;\n5. That there may be medical assistance benefits available to her for prenatal care, childbirth, and neonatal care; and\n6. That the father of the fetus is liable to assist in the support of her child, even in instances where he has offered to pay for the abortion.\nKy. Rev. Stat. \u00a7 311.725(1)(a)-(b) (1998). For almost twenty years, these regulations governed the information that the Commonwealth mandated be disclosed to patients seeking an abortion. In the underlying proceedings, the Commonwealth failed to, and then refused to, describe how this regulation was defective in facilitating informed consent. EMW Women's Surgical Ctr. , 283 F.Supp.3d 629, 646 (W.D. Ky. 2017).\n2. Physician Testimony on H.B. 2\nOn the other hand, the undisputed evidence shows that that regulation's successor-H.B.\n2-is defective in facilitating informed consent. The testimony offered in affidavits and at the summary judgment hearing clarified that H.B. 2 would require physicians to inflict unnecessary harm upon their patients in direct contravention of the practice of medicine.\nAs an initial matter, Dr. Franklin testified that offering , rather than requiring, an ultrasound is the national standard of care pursuant to the National Abortion Federation practice guidelines. H.B. 2's mandatory provisions are not consistent with that standard of care. For example, Dr. Joffe testified that \"[t]o continue to speak to a patient, to continue to share that information with a patient who's clearly signaling that she doesn't want that information to me is the definition of insensitivity.\" Dr. Nichols similarly testified that simultaneously displaying and describing the fetus \"clearly violates basic principles of medical ethics and informed consent and serves no medical purpose.\" Indeed, in his decades of experience, Dr. Nichols has \"never heard of an institution that-absent a law compelling them to do so-forces an ultrasound image and description and any fetal heart tones on a woman before she can have an abortion.\"\nAs a practical matter, the undisputed evidence also demonstrates that, regardless of her stated preferences, the woman will likely still hear the auscultation of the heartbeat and her physician's description of the fetus. Dr. Franklin explained that a physician \"can't auscultate [the fetus' heartbeat] in the room with [the patient] and she not hear it too.\" Yet H.B. 2 requires auscultation. Accordingly, even when a patient asks not to hear the heartbeat, \"the sound can not necessarily be drowned out unless they have their ears covered and they're yelling or they're making noises or humming. So there's no true way to not hear the heartbeat, even though we think they have a choice about it.\" Dr. Joffe similarly testified that even when a patient is permitted to cover her ears or avert her eyes, the physician must still audibly describe and visually display the fetus as the Commonwealth mandates:\n[I]f you just imagine for a moment being in that exam room with a patient who is-the doctor is talking, the doctor is talking on because she's mandated to be talking on by H.B. 2, and the patient is doing everything in her power to avoid that experience, and that interaction, and those sounds, that looks nothing like any informed consent that I am familiar with, any standard of informed consent. That's in complete violation of it.\nThese physicians each emphatically agreed that H.B. 2 bears no resemblance to the medical practice of informed consent.\n3. Patient Testimony on Display-and-Describe Regulations\nThe procedure-and its impact-was not solely described by physicians. The affidavit of a woman who was forced to undergo a \"display-and-describe\" procedure offered a grim scene, one in which the professional and ethical practice of medicine was absent. This pregnant woman and her husband, already parents of a two-year-old girl, went to the doctor's office for a routine ultrasound. Horrific news and a traumatic experience followed. The doctor informed the couple that the \"baby was profoundly ill,\" and sent them to a specialist for further consultation. After speaking with two more medical professionals that same day, the couple was left with the following options: \"abortion or continue the pregnancy and subject our child to a life of pain.\" They had to make a \"very difficult decision,\" but they did so with full comprehension and free consent. As a medical question, the mother provided informed consent to have an abortion (and to spare her unborn child a life of pain). However, because she was having the procedure in Texas, and pursuant to Tex. Health & Safety Code \u00a7 171.012(a)(4), she was required to undergo an additional \"display-and-describe\" procedure, just like H.B. 2 requires. Her account of that experience-which was mandated by her state government, not her doctor-is tragic:\nWhile the staff at the abortion clinic did all they could for me, this experience was nothing short of torture. I had to lie on an examination table, with my feet in stirrups. My belly was exposed with the ultrasound gel and abdominal probe on it while we saw images of our sick child forming on the screen for the third time that day. Before the doctor even started the description, I began to sob until I could barely breathe. My husband had to calm me down and the doctor had to wait for me to find my breath.\nThe description the doctor provided was perhaps the most devastating part because although our baby was profoundly ill, he had healthy organs too. So, the doctor was forced to describe - and I to hear - that he had a well-developed diaphragm and four healthy chambers of the heart. His words were unwelcome and I felt completely trapped. I closed my eyes. I twisted away from the screen. The doctor and staff repeatedly apologized for making us go through this, but their compassion could not ameliorate my pain.\nShe explained that she \"learned nothing as a result of [her] experience.\" Moreover, \"the doctor and staff at the abortion clinic were clear that they were doing this, even though [she] was so upset, because the Texas law required it - not because they thought it provided any medical benefit.\" In her words, the \"Texas law did nothing other than cause me additional pain and distress on a day that was already the worst of my life.\" H.B. 2 mandates the same process, which will incur the same results. This is not the practice of medicine. The Commonwealth has offered no evidence showing otherwise.\n4. The Commonwealth's Limited Evidence\nLast, the Commonwealth produced no evidence that H.B. 2 was either aimed at furthering informed consent or will achieve that ostensible goal. When presented the opportunity to offer evidence at the summary judgment hearing, the Commonwealth decided instead to rely on the affidavits it submitted with its briefing, despite the extensive testimony presented by the plaintiffs' witnesses describing precisely how H.B. 2 is adverse to informed consent. Specific to the issues in this appeal, the Commonwealth produced no evidence demonstrating that mandating the procedure set forth in H.B. 2, rather than offering it, is the medically-accepted standard of care.\nAs part of its briefing, the Commonwealth submitted four affidavits from women who had obtained abortions they later came to regret; but these undated affidavits have no information as to when or with what information the women obtained abortions. It is even unclear whether they were before or after the passage of the informed-consent statute that predated H.B. 2. Without such information, these affidavits do not create a genuine issue of material fact. Celotex Corp. v. Catrett , 477 U.S. 317, 324, 106 S.Ct. 2548, 91 L.Ed.2d 265 (1986). More importantly, simply because H.B. 2's provisions might have assisted some women in their autonomous decision-making does not mean that H.B. 2's provisions will assist all women in their autonomous decision-making. No number of affidavits can negate the grim experience described by the woman in Texas or the absence of the \"practice of medicine\" in that setting.\nThe Commonwealth also submitted two affidavits from physicians opining that an ultrasound, a description of the fetus, and an auscultation of the heartbeat are consistent with the national standard of care. Those affidavits are deficient, however, because neither physician discusses the impact of offering these procedures versus requiring them-even against patient wishes. Requiring these procedures is the primary flaw with H.B. 2. Failing to directly address that flaw means the Commonwealth failed to establish that H.B. 2 regulates speech as part of the practice of medicine.\nThere is also no evidence that H.B. 2 filled any gaps in existing informed-consent legislation. Although the Commonwealth submitted affidavits from state legislators explaining why they passed H.B. 2 (including to \"protect the lives of unborn infants\"), those affidavits are silent on any deficiencies with the earlier law. In contrast, EMW (the sole abortion-provider in the Commonwealth) produced evidence, undisputed at summary judgment, that \"prior to H.B. 2, EMW patients made informed decisions about abortion and that the informed-consent process followed by EMW physicians ensured this.\" EMW Women's Surgical Ctr. , 283 F.Supp.3d at 646 (citing the testimony of Dr. Franklin). It is transparent that furthering informed consent was not the aim of the Commonwealth-nor will it be achieved by H.B. 2-and thus, H.B. 2 is an impermissible regulation of the content of speech.\nD. Conclusion\nI am gravely concerned with the precedent the majority creates today. Its decision opens the floodgates to states in this Circuit to manipulate doctor-patient discourse solely for ideological reasons. So long as the state's legislators wisely use the words \"informed consent\" in the title of a regulation, the majority instructs us to \"defer to the legislature's determination of which informed-consent disclosures are required,\" despite what the evidence or standards of care say. Majority Opn. at 438-39; but see NIFLA , 138 S.Ct. at 2375 (\"[S]tate labels cannot be dispositive of [the] degree of First Amendment protection.\" (quoting Riley , 487 U.S. at 796, 108 S.Ct. 2667 )). Even further, the majority contends that \"[i]f the [plaintiffs] want the legislated rules of informed consent to change, they should address their arguments to [their] elected officials\" and not the Court. Majority Opn. at 438-39. This instruction amounts to an improper abdication of judicial oversight. NIFLA , 138 S.Ct. at 2374 (striking down as unconstitutional a law the state said promoted informed consent). In reviewing whether a regulation facilitates informed consent, we do not give deference to the state simply because it is a governmental body; rather, we must rely on the evidence submitted by the parties and look to the prevailing standard of care. See id. Employing that practice here clarifies that H.B. 2 has the singular goal to \"completely end abortion\" in the Commonwealth. See Robert Post, Informed Consent to Abortion: A First Amendment Analysis of Compelled Physician Speech , 2007 U. Ill. L. Rev. 939, 940 (2007) ; see also Audrey Carlsen, Ash Ngu & Sara Simon, What it Takes to Get an Abortion in the Most Restrictive U.S. State , N.Y. Times (July 20, 2018), https://www.nytimes.com/interactive/2018/07/20/us/mississippi-abortion-restrictions.html?action =click&module=Top%20Stories&pgtype=Homepage (highlighting the ways legal abortion is made increasingly less accessible). That goal is driven by politics, which explains why H.B. 2 was not drafted to be coextensive with the practice of medicine.\nAs a final analogy more closely related to the business of the Court, consider if the state legislature passed a law mandating that attorneys inform their clients of certain truthful, nonmisleading, and relevant information in specific types of cases.\nMore precisely, what if the state required an attorney, prior to filing a complaint, to inform each medical-malpractice plaintiff that pursuing her claim would burden the state's resources, incur reputational harm for the physician, and make healthcare less accessible to the community? Any attorney would find this to be a repugnant invasion of the attorney-client relationship. Yet, pursuant to the deferential standard adopted by the majority today, the state is the sole and final arbiter of what constitutes the practice of any profession, including the law. This hypothetical legislation amounts to client counseling, which is part of the practice of law, so would say the state; further, it does not infringe on the attorneys' First Amendment rights, so would say the majority. On balance, this two-step registers more Orwellian than it does a \"reasonable regulation\" of speech \"as part of the practice\" of a profession. I trust that a panel of this Court would treat that claim much differently than the majority treats the underlying one.\nThe Commonwealth has coopted physicians' examining tables, their probing instruments, and their voices in order to espouse a political message, without regard to the health of the patient or the judgment of the physician. Armed with the title \"informed consent,\" the majority affirms this practice as constitutional. In so doing, the majority 1) conflates the undue burden and First Amendment standards, while misreading the explicit language of Casey ; 2) ignores the national standards of medical care; and 3) disregards the evidence showing that H.B. 2 is not consistent with the medical practice of informed consent. Benjamin Franklin warned that \"[f]reedom of speech is a principal pillar of a free government; when this support is taken away, the constitution of a free society is dissolved, and tyranny is erected on its ruins.\" H.B. 2 is a restriction on speech that has no basis in the practice of medicine. It should be subjected to heightened scrutiny and deemed unconstitutional, lest our constitution dissolve, and tyranny be erected on its ruins. I dissent!\nCodified at Kentucky Revised Statute (\"KRS\") \u00a7\u00a7 311.727, 311.990(34).\nCitations to Casey refer to the joint opinion by Justices O'Connor, Kennedy, and Souter.\nNIFLA , 138 S.Ct. at 2372 (citing Zauderer v. Office of Disciplinary Counsel of Supreme Court of Ohio , 471 U.S. 626, 651, 105 S.Ct. 2265, 85 L.Ed.2d 652 (1985) ; Milavetz, Gallop & Milavetz, P.A. v. United States , 559 U.S. 229, 250, 130 S.Ct. 1324, 176 L.Ed.2d 79 (2010) ; Ohralik v. Ohio State Bar Ass'n , 436 U.S. 447, 455-56, 98 S.Ct. 1912, 56 L.Ed.2d 444 (1978) ).\nWe do not address whether H.B. 2 falls within the Zauderer /Milavetz /Ohralik commercial-speech exception.\nWe use the term unborn life consistent with the Supreme Court's reference to \"the life of the unborn,\" Casey , 505 U.S. at 883, 112 S.Ct. 2791. See also Gonzales v. Carhart , 550 U.S. 124, 158, 127 S.Ct. 1610, 167 L.Ed.2d 480 (2007).\nThe Court went on in NIFLA to declare unconstitutional a California statute requiring crisis pregnancy centers to disclose that the State offered abortion services, among other things. See NIFLA , 138 S.Ct. at 2368-70. In so doing, the Court distinguished the California statute from the Pennsylvania law upheld in Casey because the notice at issue under the California statute was not an informed-consent law: it \"provide[d] no information about the risks or benefits of [medical] procedures.\" Id. at 2373. Because the regulation \"at issue [in NIFLA ] [was] not an informed-consent requirement [like in Casey ] or any other regulation of professional conduct,\" the Court applied heightened scrutiny and held that the California law likely violated the First Amendment. Id. at 2373, 2375.\nThe dissenters in NIFLA also recognized this key attribute of Casey 's holding. See 138 S.Ct. at 2385 (Breyer, J., dissenting) (\"Thus, the [Casey ] Court considered the State's statutory requirements, including that the doctor must inform his patient about where she could learn how to have the newborn child adopted (if carried to term) and how she could find related financial assistance. To repeat the point, [Casey ] held that the State's requirements did not violate the Constitution's protection of free speech or its protection of a woman's right to choose to have an abortion.\" (citation omitted)).\nThree of them track more closely with H.B. 2 and require physicians to perform, display, and describe ultrasounds before an abortion. La. Stat. \u00a7 40:1061.10(D), invalidated by June Med. Servs. LLC v. Kliebert , 250 F.Supp.3d 27, 30 (M.D. La. 2017) (holding statute was an undue burden ), rev'd sub nom. June Med. Servs. LLC v. Gee , 905 F.3d 787 (5th Cir. 2018) ; Tex. Health & Safety Code \u00a7 171.012(a)(4) ; Wis. Stat. \u00a7 253.10. Seven require doctors to perform ultrasounds and offer patients the chance to view them. Ala. Code \u00a7 26-23A-6 ; Ariz. Rev. Stat. \u00a7 36-2156 ; Fla. Stat. \u00a7 390.0111 ; Ind. Code \u00a7 16-34-2-1.1 ; Iowa Code \u00a7 146A.1, invalidated by Planned Parenthood of Heartland v. Reynolds ex rel. State , 915 N.W.2d 206, 212 (Iowa 2018) (holding 72-hour waiting period was an undue burden ); Miss. Code \u00a7 41-41-34 ; Va. Code \u00a7 18.2-76. Ten require doctors to offer the patient the chance to view the ultrasound image if they perform one. Ark. Code \u00a7 20-16-602 ; Ga. Code \u00a7 31-9A-3 ; Idaho Code \u00a7 18-609 ; Kan. Stat. \u00a7 65-6709 ; Mich. Comp. Laws \u00a7 333.17015 ; Neb. Rev. Stat. \u00a7 28-327 (requiring doctors to display the sonogram\"so that the woman may choose to view [it]\"); Ohio Rev. Code \u00a7 2317.561 ; S.C. Code \u00a7 44-41-330 ; Utah Code \u00a7 76-7-305 (requiring doctors to display the sonogram\"to permit the woman ... to view the images, if she chooses to\"); W. Va. Code \u00a7 16-2I-2. Four require doctors to offer women the chance to view-and thus receive-an ultrasound. Mo. Rev. Stat. \u00a7 188.027 ; N.D. Cent. Code \u00a7 14-02.1-04 ; S.D. Codified Laws \u00a7 34-23A-52 ; Wyo. Stat. \u00a7 35-6-119.\nContrary to EMW's assertion at oral argument, the information's pictorial medium fails to take H.B. 2 out of the realm of informed consent. See A Woman's Choice-East Side Women's Clinic , 305 F.3d at 684-85 ; see also F. Rozovsky, Consent to Treatment: A Practical Guide 2-82 (5th ed. 2018) (discussing the use of videos, pictures, and slides to obtain informed consent). This means of sharing information simply is more scientifically up to date. Lakey , 667 F.3d at 578.\nSee Packingham v. North Carolina , --- U.S. ----, 137 S.Ct. 1730, 1736, 198 L.Ed.2d 273 (2017) (explaining \"that the Cyber Age is a revolution of historic proportions [and that] we cannot appreciate yet its full dimensions and vast potential to alter how we think, express ourselves , and define who we want to be\" (emphasis added)); see also South Dakota v. Wayfair, Inc. , --- U.S. ----, 138 S.Ct. 2080, 2097, 201 L.Ed.2d 403 (2018) (discussing the Cyber Age).\nU.S. Const. pmbl.\nSee, e.g. , Farhad Manjoo, While We Weren't Looking, Snapchat Revolutionized Social Networks , N.Y. Times (Nov. 30, 2016), https://www nytimes.com/2016/11/30/technology/while-we-werent-looking-snapchat-revolutionized-social-networks.html.\nContrary to what the Dissent maintains, a State is entitled to regulate informed consent with respect to the abortion even when it has a political \"goal\" to protect unborn life. See Dissent at 460-61. The Casey joint opinion made that point clear when it allowed for mandated disclosures intended by the State to further its \"profound interest in potential life\" and \"to persuade the woman to choose childbirth over abortion.\" See 505 U.S. at 878, 112 S.Ct. 2791 (\"To promote the State's profound interest in potential life, throughout pregnancy the State may take measures to ensure that the woman's choice is informed, and measures designed to advance this interest will not be invalidated as long as their purpose is to persuade the woman to choose childbirth over abortion.\").\nIt is not at all clear that the facts mandated to be disclosed by an H.B. 2 sonogram fall on only one side of the abortion debate. For example, abortions are increasingly sought to terminate lives likely to be born with disabilities. See Preterm-Cleveland v. Himes , 294 F.Supp.3d 746 (S.D. Ohio 2018) (granting a preliminary injunction against an Ohio law criminalizing abortions performed because of fetal indication of Down Syndrome), appeal docketed, No. 18-3329 (6th Cir. Apr. 12, 2018); Planned Parenthood of Ind. & Ky., Inc. v. Comm'r, Ind. State Dep't of Health , 265 F.Supp.3d 859 (S.D. Ind. 2017) (granting a permanent injunction against a similar law), aff'd , 888 F.3d 300 (7th Cir. 2018), petition for cert. filed , 87 U.S.L.W. 3172 (Oct. 12, 2018) (No. 18-483); Julian Quinones & Arijeta Lajka, \"What Kind of Society Do You Want to Live In?\": Inside the Country Where Down Syndrome is Disappearing , CBS News (Aug. 14, 2007, 4:00 PM), https://www.cbsnews.com/news/down-syndromeiceland/?linkId=40953194. An ultrasound showing the likelihood of a disability could be interpreted by some people, but not all, as a reason to have an abortion.\nThe district court also relied largely on Wollschlaeger v. Governor of Fla. , 848 F.3d 1293 (11th Cir. 2017) (en banc), which invalidated a Florida law restricting doctors from asking patients about gun ownership in part because of concerns over interrupting the flow of information between doctor and patient. Id. at 1313. Those concerns are not present here: H.B. 2 serves to increase the flow of information between doctor and patient. Also, unlike the statute in Wollschlaeger , H.B. 2 restricts no speech that the doctor wishes to impart to the patient. More important, however, Wollschlaeger did not involve patients' informed consent.\nThe Supreme Court has cited earlier editions of this treatise. See, e.g. , Cruzan , 497 U.S. at 269, 110 S.Ct. 2841.\nFor example, other Kentucky informed-consent and physician-disclosure requirements require information actually to be given when (1) diagnosing and treating breast cancer, KRS \u00a7 311.935 ; (2) performing acupuncture, KRS \u00a7 311.678 ; (3) testing for HIV infection, KRS \u00a7 214.625 ; and (4) performing mammograms, KRS \u00a7 214.555. An example of this at the federal level is 42 C.F.R. \u00a7\u00a7 441.257 -.258, which requires medical providers actually disclose-not just offer to disclose-the risks, benefits, and alternatives of sterilization procedures to ensure a patient's informed consent to be sterilized.\nThe district court's first point also overlooks that H.B. 2 allows patients to decline to receive the information, by not viewing the sonogram or listening to the verbal disclosures, and asking the doctors to turn off the heartbeat. In fact, that H.B. 2 provides patients with the choice not to receive the information is the very reason the district court held that H.B. 2 does not go far enough to meet Kentucky's goal of informing the patients. EMW Women's Surgical Ctr. , 283 F.Supp.3d at 645-46. In other words, according to the district court, if the Kentucky legislature wished to better inform patients about their abortion procedure, it should have required the patients receive the information, rather than allowing them to choose not to do so. We disagree with this conclusion. That H.B. 2 allows women to avoid receiving the disclosures does not detract from the statute's purpose to better inform; it merely reflects the Commonwealth's recognition that, ultimately, it is the woman's choice as to whether to consider those disclosures in making her decision. And even if the disclosures do not change many minds, either because some patients are not persuaded by them or because some patients ignore them, the Commonwealth still is entitled under Casey to require doctors to provide them. See Casey , 505 U.S. at 882-84, 112 S.Ct. 2791 ; Lakey , 667 F.3d at 575-77 ; Rounds , 530 F.3d at 734-35.\nSee Rounds , 530 F.3d at 737 (concluding doctor's ability to disassociate herself or himself from disclosures is irrelevant to the compelled-speech analysis if disclosures are truthful and non-misleading).\nSee supra note 17. Other examples of Kentucky mandating speech in the health-care context occur when (1) reporting tuberculosis, KRS \u00a7 215.590 ; (2) reporting abuse of adults and dependents, KRS \u00a7\u00a7 209.030, 620.030 ; (3) displaying licenses, KRS \u00a7 311.470 ; and, of course, (4) performing an abortion, KRS \u00a7\u00a7 311.725, 311.727.\nThe Dissent states that \"the Commonwealth did not controvert\" testimony from a Texas resident against H.B. 2 based upon the emotional impact on her from disclosures required by a Texas informed-consent statute. Dissent at 447-48, 456. True, the Commonwealth did not dispute that particular patient's experience, but it is not accurate to conclude that the evidence of the emotional effect of the H.B. 2 disclosures is uncontroverted based on that testimony. To the contrary, several Kentucky residents submitted declarations attesting to beneficial emotional effects they would have experienced from disclosures mandated by H.B. 2 had they received them. R. 32-3, PageID 406-08; R. 32-4, PageID 410; R. 32-5, PageID 412-14. For example, one patient stated that if she had received the information required by H.B. 2, she \"would never have gone through with the procedure\" and that having not received that information makes her regret of the abortion \"even more painful.\" R. 32-3, PageID 407. The Dissent's and district court's discounting of this testimony and other evidence submitted by the Commonwealth regarding emotional effect appears to involve the weighing of proof and credibility determinations not appropriate for summary judgment. Dissent at 458; see Alspaugh v. McConnell , 643 F.3d 162, 168 (6th Cir. 2011) (\"When reviewing a summary judgment motion, credibility judgments and weighing of the evidence are prohibited.\" (quotation omitted)); Ingram v. City of Columbus , 185 F.3d 579, 586 (6th Cir. 1999) (\"[O]n summary judgment, neither the district court nor this Court may make credibility determinations or weigh the evidence.\" (citation omitted)). Unlike in Casey , where the district court made its findings of fact after a bench trial, Casey , 505 U.S. at 845, 112 S.Ct. 2791 ; Casey , 744 F.Supp. at 1325-26, the district court here was ruling on summary judgment, see EMW Women's Surgical Center , 283 F.Supp.3d at 648, and therefore was not permitted to make findings of fact based on the disputed evidence. And we further note that on cross-motions for summary judgment this court must review the issues of material fact in the light most favorable to the party whose motion did not prevail in the district court. See B.F. Goodrich Co. v. U.S. Filter Corp. , 245 F.3d 587, 598 (6th Cir. 2001). However, as explained above, ultimately fact issues regarding emotional effect on patients are not material to resolution of the relevant First Amendment issue of whether the disclosures of H.B. 2 are truthful, non-misleading, and relevant to an abortion.\nSee also Gonzales , 550 U.S. at 157, 127 S.Ct. 1610 (emphasizing that a State \"may use its voice and its regulatory authority to show its profound respect for the life within the woman\"); id. at 158, 127 S.Ct. 1610 (\"[T]he State may use its regulatory power to bar certain procedures and substitute others, all in furtherance of its legitimate interests in regulating the medical profession in order to promote respect for life, including life of the unborn.\").\nHill also explained that a reason we allow protestors to display vulgar language is because viewers can avert their eyes to avoid more offense. 530 U.S. at 716, 120 S.Ct. 2480 (citation omitted). The information provided by H.B. 2 is not vulgar speech, but still, if the patient desires not to receive the information mandated by H.B. 2, she may avert her eyes from the ultrasound image, not listen to the doctor's description of the image, and ask the doctor to turn off the heartbeat. See Summit Med. Ctr. of Ala., Inc. v. Riley , 274 F.Supp.2d 1262, 1272 (M.D. Ala. 2003) (rejecting unwilling-listener challenge to abortion-informed-consent statute because the statute did not require the patient to listen). Unlike in Casey and Rounds , this appeal involves no challenge to H.B. 2 as an undue burden on a woman's substantive due process right to choose an abortion. The only challenge here is alleged unconstitutional compelled speech of the abortion doctors. We must be careful, therefore, not to upset Casey 's balance between States' ability to regulate the medical profession and women's rights. See Lakey , 667 F.3d at 577 (\"If the disclosures are truthful and non-misleading, and if they would not violate the woman's privacy right under the Casey plurality opinion, then Appellees would, by means of their First Amendment claim, essentially trump the balance Casey struck between women's rights and the states' prerogatives. Casey , however, rejected any such clash of rights in the informed consent context.\").\nIn addressing standard-of-care issues, such as whether H.B. 2 \"cause[s] patient harm,\" whether it has a \"medical purpose,\" and whether it \"facilitates informed consent as part of the practice of medicine,\" Dissent at 447-48, the Dissent and district court again appear to make credibility determinations and to weigh the evidence in a manner that is contrary to the summary judgment standard. It is not undisputed that H.B. 2 is \"at odds with the prevailing standard of care,\" as the Dissent contends. See Dissent at 447-48. To the contrary, the Commonwealth's experts (John W. Seeds, M.D., FACOG, the retired chair of the Department of Obstetrics and Gynecology at Virginia Commonwealth University, and W. David Hager, M.D., FACOG, an obstetrician and gynecologist who practices in Lexington, Kentucky) submitted declarations that H.B. 2 complies with existing standards of medical care. See generally R. 32-1; R. 32-2. For example, Dr. Seeds stated: \"Far from impairing the physician-patient relationship, the Act simply conforms the law to the existing national standards of care for the diagnosis of pregnancy and the obtaining of a knowing and voluntary consent of the patient before the pregnancy is surgically or medically terminated through elective abortion.\" R. 32-1, PageID 363. We also note that Dr. Seeds offered this expert opinion with the understanding that the disclosures required by H.B. 2 are mandatory. Id. at 349. The district court acknowledged Dr. Seeds's (and Dr. Hager's) opinion \"that H.B. 2 conforms to existing national standards of care,\" EMW Women's Surgical Center , 283 F.Supp.3d at 643, but then dismissed that testimony as \"undermined by the testimony given at the hearing\" by EMW's witnesses, id. Such weighing of evidence regarding national standards of care appears inappropriate at summary judgment, but ultimately a factual finding in this area is not material to the relevant legal issue. As explained above, the First Amendment analysis of an informed-consent statute turns on whether the mandated disclosure is truthful, non-misleading, and relevant, not whether the disclosure is, or is not, currently embodied in the customary standard of medical care.\nBecause it is uncontested that the Secretary Meier is a proper party, no concern exists that EMW \"would be unable to vindicate the alleged infringement of their constitutional rights without first violating [H.B. 2].\" See Allied Artists Picture Corp. v. Rhodes , 679 F.2d 656, 665 n.5 (6th Cir. 1982).\nI agree with the majority that Attorney General Beshear is not a proper party to this action.\nAll citations to Casey are to the plurality opinion, unless otherwise noted.\nNor do these cases propose that the state's intention in regulating physician speech is immaterial to a First Amendment challenge. To the contrary, NIFLA explicitly condemned California's attempt to further its ideological message by regulating the content of physician speech outside the practice of medicine. 138 S.Ct. at 2374-76.\nCasey guides us to apply a deferential standard of review to a regulation on physician speech only when it regulates speech \"as part of the practice of medicine.\" 505 U.S. at 884, 112 S.Ct. 2791. It must be said that the practice of medicine is always subject to change given advancements in research and treatment. If such change occurs, it could render the facts of a previous First Amendment case no longer useful as a comparator. At which point, the Court must rely on the parties to apprise it of the prevailing standards of care.\nThe majority also makes clear that they do not find physician discretion to be material to their First Amendment analysis. Majority Opn. at n. 24 (\"[U]ltimately a factual finding in this area is not material to the relevant legal issue.\"). Their discussion on the matter thus amounts to surplusage.\nThis is the majority's reference to the plaintiffs in the underlying case who provided evidence to support their arguments.\nHearing Before the Senate Judiciary Comm. on the Nomination of The Honorable John G. Roberts to be the Chief Justice of the United States, 109th Cong. (Sept. 12, 2005), https://www.uscourts.gov/educationalresources/educational-activities/chief-justice-roberts-statement-nomination-process.\nSoothing Syrups , N.Y. Times (Aug. 30, 1910) https://timesmachine.nytimes.com/timesmachine/1910/08/30/105088995.pdf.\nAccording to the majority, H.B. 2 does permit physician discretion because it allows the physician to tell his or her patient that she may avoid listening to the heartbeat or watching the images displayed. This is not the type of discretion that informed consent requires. Under H.B. 2, the physician must still probe his or her patient and perform the mandated procedure. In Casey , on the other hand, the physician could exercise his or her discretion not to perform the mandated practice at all based on the potential effect it would have on the patient. There is no similar discretion under H.B. 2. The majority's attempt to frame H.B. 2 as permitting physician discretion fails because it glosses over this fact.\nDr. Franklin testified at the summary judgment hearing to a similar experience:\nA. And I actually had a patient in the first month who had a fetal anomaly who was-had five or six ultrasounds, went to that specialist, to that specialist to try to determine whether or not they were going to proceed on. This was a wanted pregnancy, a very desired pregnancy. And her husband did come back with her because they were very, very upset and were making a very difficult decision. And so when I told them about the state laws changing and this is what I had to do, she immediately started sobbing. Like you could not console this woman. Her husband was visibly furious and saying, \"Why do they have to force her to do this? She has gone through enough. We have gone through enough.\" And I had to auscultate the heartbeat and I had to describe in detail what I saw on the screen.\nQ. And did you believe that that woman was competent to make a decision as to whether she should look at the screen or not?\nA. I absolutely do think that. She had already been informed multiple times by multiple physicians with multiple ultrasounds already, and I felt like this was just adding no additional piece to the care that she and her husband ultimately decided needed to happen for them.\nQ. Do you think she understood what the result of an abortion would be?\nA. Yes. And I'm sure that she had multiple conversations with all those different physicians along the way because there was a problem with the pregnancy.\nThe patient also has no input in the process. She must subject herself to this invasive procedure. Ky. Rev. Stat. \u00a7 311.727(2). The majority makes much of the fact that the woman may cover her ears and look away as the doctor goes on with the procedure. This cannot be the saving grace of an informed-consent statute. As described, the purpose of informed consent is to ensure that the patient makes an informed, autonomous, and rational decision. Emotion should be subdued, not inflamed. Forcing a woman to undergo the invasive procedure-which adds approximately three to five minutes to a standard ultrasound-while permitting her to avoid all of the information, does nothing to facilitate her comprehension or free consent. See ACOG Comm. on Ethics, Comm. Op. No. 439.\nAs the district court noted, both physicians misunderstood EMW's previous practice.\nThe majority contends that the dissent \"appears\" to be weighing the evidence and making credibility determinations in violation of the principles of summary judgment. Majority Opn. at n. 21. The majority is incorrect. If the evidence a party submits does not actually dispute the opposing evidence, there is no weighing necessary because no genuine issue has been made. See Celotex Corp. v. Catrett , 477 U.S. 317, 324, 106 S.Ct. 2548, 91 L.Ed.2d 265 (1986) (when the moving party submits a summary judgment motion, \"Rule 56(e)... requires the nonmoving party to go beyond the pleadings and ... designate 'specific facts showing that there is a genuine issue for trial.' \" (emphasis added)). Such is the case here. The plaintiffs submitted evidence showing that the mandatory provisions of H.B. 2 conflict with the medical practice of informed consent. No other evidence refutes that fact. Therefore, there is no genuine issue as to whether H.B. 2 facilitates informed consent-it does not.\nThe majority tries to lessen the impropriety of H.B. 2 by noting that the physician is permitted to distance himself or herself from the procedure's anti-abortion message after the procedure is completed. Majority Opn. at ----. This fact has no legal significance. Masterpiece Cakeshop, Ltd. v. Colorado Civil Rights Comm'n , --- U.S. ----, 138 S.Ct. 1719, 1740, 201 L.Ed.2d 35 (2018) (Thomas, J., concurring) (\"[The Circuit Court] reasoned that an outside observer would think that Phillips was merely complying with Colorado's public-accommodations law, not expressing a message, and that Phillips could post a disclaimer to that effect. This reasoning flouts bedrock principles of our free-speech jurisprudence and would justify virtually any law that compels individuals to speak.\").",
+        "type": "majority",
+        "author": "JOHN K. BUSH, Circuit Judge."
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "EMW WOMEN'S SURGICAL CENTER, P.S.C., on behalf of itself, its staff, and its patients; Ernest Marshall, M.D., on behalf of himself and his patients; Ashley Bergin, M.D., on behalf of herself and her patients; Tanya Franklin, M.D., on behalf of herself and her patients, Plaintiffs-Appellees,\nv.\nAndrew G. BESHEAR, Attorney General (17-6183); Adam Meier, in his capacity as Secretary of the Cabinet of Health and Family Services (17-6151), Defendants-Appellants.\nNos. 17-6151/6183\nUnited States Court of Appeals, Sixth Circuit.\nArgued: July 25, 2018\nDecided and Filed: April 4, 2019"
+  },
+  "file_name": "0421-01",
+  "first_page_order": 421,
+  "last_page_order": 461
+}

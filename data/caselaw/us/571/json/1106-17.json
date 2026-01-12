@@ -1,0 +1,68 @@
+{
+  "id": 12700092,
+  "name": "Dale FULMER, petitioner, v. TEXAS.",
+  "name_abbreviation": "Fulmer v. Tex.",
+  "decision_date": "2013-12-09",
+  "docket_number": "No. 13\u20135769.",
+  "first_page": "1106",
+  "last_page": "1106",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 1106"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 620"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 819"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 20,
+    "char_count": 129,
+    "sha256": "afb37e991d04ae53a36ba70e7d10b6bf30e50048c357faaef36af57a7b78a4e2",
+    "simhash": "1:08072cc417ce66ee",
+    "word_count": 20
+  },
+  "last_updated": "2021-09-08T21:16:17.237805+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dale FULMER, petitioner,\nv.\nTEXAS."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for rehearing denied."
+    ],
+    "corrections": "",
+    "head_matter": "Dale FULMER, petitioner,\nv.\nTEXAS.\nNo. 13-5769.\nSupreme Court of the United States\nDec. 9, 2013.\nPetition for rehearing denied."
+  },
+  "file_name": "1106-17",
+  "first_page_order": 1106,
+  "last_page_order": 1106
+}

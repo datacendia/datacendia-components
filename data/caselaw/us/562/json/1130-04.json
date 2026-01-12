@@ -1,0 +1,82 @@
+{
+  "id": 6024569,
+  "name": "Sanders v. Jackson, Administrator, Environmental Protection Agency, et al.",
+  "name_abbreviation": "Sanders v. Jackson",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7438",
+  "first_page": "1130",
+  "last_page": "1130",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1130"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "506 U. S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11924825
+      ],
+      "year": 1992,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/506/0001-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 75,
+    "char_count": 582,
+    "ocr_confidence": 0.576,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.17199786551262256
+    },
+    "sha256": "46f074461ee8068843c93a045a385362b5995c57e3d1dfa91bb4305914eeb462",
+    "simhash": "1:e5a234cc15e4d3ff",
+    "word_count": 94
+  },
+  "last_updated": "2024-02-27T22:51:28.129297+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sanders v. Jackson, Administrator, Environmental Protection Agency, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Motion of petitioner for leave to proceed in forma pauperis denied, and certiorari dismissed. See this Court\u2019s Rule 39.8. As petitioner has repeatedly abused this Court\u2019s process, the Clerk is directed not to accept any further petitions in noncriminal matters from petitioner unless the docketing fee required by Rule 38(a) is paid and the petition is submitted in compliance with Rule 33.1. See Martin v. District of Columbia Court of Appeals, 506 U. S. 1 (1992) (per curiam).",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7438.\nSanders v. Jackson, Administrator, Environmental Protection Agency, et al."
+  },
+  "file_name": "1130-04",
+  "first_page_order": 1152,
+  "last_page_order": 1152
+}

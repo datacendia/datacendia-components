@@ -1,0 +1,59 @@
+{
+  "id": 5999516,
+  "name": "Smith v. Crist, Governor of Florida, et al.",
+  "name_abbreviation": "Smith v. Crist",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8106",
+  "first_page": "1235",
+  "last_page": "1235",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1235"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 92,
+    "ocr_confidence": 0.606,
+    "sha256": "e678bfda7ad897ca17106e112b19e242931ce61785d6c09b2355797605280057",
+    "simhash": "1:5558caa873cfb012",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Smith v. Crist, Governor of Florida, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8106.\nSmith v. Crist, Governor of Florida, et al."
+  },
+  "file_name": "1235-10",
+  "first_page_order": 1257,
+  "last_page_order": 1257
+}

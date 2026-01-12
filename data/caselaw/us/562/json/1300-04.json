@@ -1,0 +1,59 @@
+{
+  "id": 6023489,
+  "name": "Garcia v. United States",
+  "name_abbreviation": "Garcia v. United States",
+  "decision_date": "2011-03-21",
+  "docket_number": "No. 10-9011",
+  "first_page": "1300",
+  "last_page": "1300",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1300"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.629,
+    "sha256": "7baff500158307a8496a2e21c7b50eb4366b1e795d454936946d1b066fb5b7da",
+    "simhash": "1:854be6330fb51f27",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Garcia v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9011.\nGarcia v. United States."
+  },
+  "file_name": "1300-04",
+  "first_page_order": 1322,
+  "last_page_order": 1322
+}

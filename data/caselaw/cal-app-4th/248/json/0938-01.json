@@ -1,0 +1,1233 @@
+{
+  "id": 12441524,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. ROBERT FRANKLIN, Defendant and Appellant",
+  "name_abbreviation": "People v. Franklin",
+  "decision_date": "2016-06-30",
+  "docket_number": "No. B263511",
+  "first_page": "938",
+  "last_page": "957",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "248 Cal. App. 4th 938"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "466 U.S. 668",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6204802
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "687-688"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/466/0668-01"
+      ]
+    },
+    {
+      "cite": "299 P.2d 243",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.2d 818",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4370142
+      ],
+      "pin_cites": [
+        {
+          "page": "836"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/46/0818-01"
+      ]
+    },
+    {
+      "cite": "807 P.2d 1076",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "279 Cal.Rptr. 847",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.3d 467",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2358791
+      ],
+      "pin_cites": [
+        {
+          "page": "480"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/53/0467-01"
+      ]
+    },
+    {
+      "cite": "58 P.3d 391",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "127 Cal.Rptr.2d 544",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Cal.4th 381",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        777212
+      ],
+      "pin_cites": [
+        {
+          "page": "436"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/29/0381-01"
+      ]
+    },
+    {
+      "cite": "807 P.2d 1009",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "279 Cal.Rptr. 780",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.3d 334",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2358530
+      ],
+      "pin_cites": [
+        {
+          "page": "373-374"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/53/0334-01"
+      ]
+    },
+    {
+      "cite": "133 P.3d 1076",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.Rptr.3d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 Cal.4th 491",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3852905
+      ],
+      "pin_cites": [
+        {
+          "page": "572-574"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/38/0491-01"
+      ]
+    },
+    {
+      "cite": "58 P.3d 931",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "127 Cal.Rptr.2d 802",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Cal.4th 515",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        777236
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/29/0515-01"
+      ]
+    },
+    {
+      "cite": "950 P.2d 1035",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "71 Cal.Rptr.2d 680",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "17 Cal.4th 468",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1550661
+      ],
+      "pin_cites": [
+        {
+          "page": "521"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/17/0468-01"
+      ]
+    },
+    {
+      "cite": "82 P.3d 296",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "8 Cal.Rptr.3d 271",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Cal.4th 73",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        801078
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/32/0073-01"
+      ]
+    },
+    {
+      "cite": "104 Cal.Rptr.3d 666",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "181 Cal.App.4th 828",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4213703
+      ],
+      "pin_cites": [
+        {
+          "page": "836"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/181/0828-01"
+      ]
+    },
+    {
+      "cite": "144 Cal.Rptr. 6",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 2010,
+      "opinion_index": 0
+    },
+    {
+      "cite": "77 Cal.App.3d 924",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2011338
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "935"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/77/0924-01"
+      ]
+    },
+    {
+      "cite": "1 P.3d 3",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "96 Cal.Rptr.2d 682",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "23 Cal.4th 225",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        277033
+      ],
+      "pin_cites": [
+        {
+          "page": "282"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/23/0225-01"
+      ]
+    },
+    {
+      "cite": "140 P.3d 657",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.Rptr.3d 326",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal.4th 641",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3582965
+      ],
+      "pin_cites": [
+        {
+          "page": "683"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/39/0641-01"
+      ]
+    },
+    {
+      "cite": "232 P.3d 32",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "110 Cal.Rptr.3d 384",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 Cal.4th 175",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6050619
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "198"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/49/0175-01"
+      ]
+    },
+    {
+      "cite": "640 P.2d 776",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "180 Cal.Rptr. 640",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal.3d 841",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2013833
+      ],
+      "pin_cites": [
+        {
+          "page": "854"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/30/0841-01"
+      ]
+    },
+    {
+      "cite": "996 P.2d 46",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "94 Cal.Rptr.2d 396",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "22 Cal.4th 690",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        157878
+      ],
+      "pin_cites": [
+        {
+          "page": "725"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/22/0690-01"
+      ]
+    },
+    {
+      "cite": "25 Cal.Rptr.3d 124",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "126 Cal.App.4th 1539",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1557162
+      ],
+      "pin_cites": [
+        {
+          "page": "1550"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/126/1539-01"
+      ]
+    },
+    {
+      "cite": "91 Cal.Rptr.3d 874",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "172 Cal.App.4th 1148",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        3963709
+      ],
+      "pin_cites": [
+        {
+          "page": "1167"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/172/1148-01"
+      ]
+    },
+    {
+      "cite": "6 P.3d 150",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "99 Cal.Rptr.2d 485",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "24 Cal.4th 130",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1180101
+      ],
+      "pin_cites": [
+        {
+          "page": "162"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/24/0130-01"
+      ]
+    },
+    {
+      "cite": "269 P.3d 568",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "137 Cal.Rptr.3d 147",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "53 Cal.4th 622",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6050989
+      ],
+      "pin_cites": [
+        {
+          "page": "663"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/53/0622-01"
+      ]
+    },
+    {
+      "cite": "211 P.3d 617",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2012,
+      "opinion_index": 0
+    },
+    {
+      "cite": "97 Cal.Rptr.3d 117",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2012,
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.4th 145",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3899649
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "195"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/47/0145-01"
+      ]
+    },
+    {
+      "cite": "966 P.2d 442",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "79 Cal.Rptr.2d 408",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 Cal.4th 353",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1709345
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "408"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/19/0353-01"
+      ]
+    },
+    {
+      "cite": "55 Cal.Rptr.3d 892",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "148 Cal.App.4th 862",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        5571922
+      ],
+      "pin_cites": [
+        {
+          "page": "867"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/148/0862-01"
+      ]
+    },
+    {
+      "cite": "821 P.2d 610",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2007,
+      "opinion_index": 0
+    },
+    {
+      "cite": "3 Cal.Rptr.2d 106",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 2007,
+      "opinion_index": 0
+    },
+    {
+      "cite": "1 Cal.4th 324",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1201305
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "388"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/1/0324-01"
+      ]
+    },
+    {
+      "cite": "183 P.3d 1146",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "77 Cal.Rptr.3d 163",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.4th 959",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3884568
+      ],
+      "pin_cites": [
+        {
+          "page": "1008"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/43/0959-01"
+      ]
+    },
+    {
+      "cite": "262 P.3d 581",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "132 Cal.Rptr.3d 373",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Cal.4th 1038",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3919405
+      ],
+      "pin_cites": [
+        {
+          "page": "1048"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/52/1038-01"
+      ]
+    },
+    {
+      "cite": "94 P.3d 1080",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 Cal.Rptr.3d 880",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 Cal.4th 1040",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        493363
+      ],
+      "pin_cites": [
+        {
+          "page": "1047-1048"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/33/1040-01"
+      ]
+    },
+    {
+      "cite": "927 P.2d 713",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 Cal.Rptr.2d 356",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "14 Cal.4th 605",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        341437
+      ],
+      "pin_cites": [
+        {
+          "page": "622"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/14/0605-01"
+      ]
+    },
+    {
+      "cite": "355 P.3d 480",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "192 Cal.Rptr.3d 309",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "62 Cal.4th 59",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        12454510
+      ],
+      "pin_cites": [
+        {
+          "page": "66-67"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/62/0059-01"
+      ]
+    },
+    {
+      "cite": "165 Cal.Rptr.3d 687",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "222 Cal.App.4th 542",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6051381
+      ],
+      "pin_cites": [
+        {
+          "page": "564"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/222/0542-01"
+      ]
+    },
+    {
+      "cite": "830 P.2d 712",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "8 Cal.Rptr.2d 678",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "2 Cal.4th 870",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        2005375
+      ],
+      "pin_cites": [
+        {
+          "page": "890-891"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/2/0870-01"
+      ]
+    },
+    {
+      "cite": "611 P.2d 883",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "165 Cal.Rptr. 289",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "27 Cal.3d 303",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2261846
+      ],
+      "pin_cites": [
+        {
+          "page": "324"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/27/0303-01"
+      ]
+    },
+    {
+      "cite": "931 P.2d 262",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "61 Cal.Rptr.2d 84",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 Cal.4th 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1006007
+      ],
+      "pin_cites": [
+        {
+          "page": "35"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/15/0001-01"
+      ]
+    },
+    {
+      "cite": "205 P.3d 1074",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1997,
+      "opinion_index": 0
+    },
+    {
+      "cite": "92 Cal.Rptr.3d 627",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1997,
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.4th 172",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3896050
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "181, fn. 2"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/46/0172-01"
+      ]
+    },
+    {
+      "cite": "700 P.2d 446",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "214 Cal.Rptr. 832",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 Cal.3d 658",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1977081
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "695"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/38/0658-01"
+      ]
+    },
+    {
+      "cite": "5 P.3d 68",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "99 Cal.Rptr.2d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "23 Cal.4th 978",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        277025
+      ],
+      "pin_cites": [
+        {
+          "page": "1053"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/23/0978-01"
+      ]
+    },
+    {
+      "cite": "304 P.3d 983",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2000,
+      "opinion_index": 0
+    },
+    {
+      "cite": "160 Cal.Rptr.3d 305",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2000,
+      "opinion_index": 0
+    },
+    {
+      "cite": "57 Cal.4th 482",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        6054126
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "515"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/57/0482-01"
+      ]
+    },
+    {
+      "cite": "244 P.3d 1062",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "119 Cal.Rptr.3d 415",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 Cal.4th 47",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3915029
+      ],
+      "pin_cites": [
+        {
+          "page": "59-60"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/51/0047-01"
+      ]
+    },
+    {
+      "cite": "102 Cal.Rptr.3d 108",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "179 Cal.App.4th 650",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4210762
+      ],
+      "pin_cites": [
+        {
+          "page": "656-657"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/179/0650-01"
+      ]
+    },
+    {
+      "cite": "200 Cal.Rptr.3d 799",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "246 Cal.App.4th 468",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6775636
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "483"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/246/0468-01"
+      ]
+    },
+    {
+      "cite": "149 Cal.Rptr.3d 815",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "211 Cal.App.4th 586",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4262262
+      ],
+      "pin_cites": [
+        {
+          "page": "614"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/211/0586-01"
+      ]
+    },
+    {
+      "cite": "187 P.3d 1041",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2012,
+      "opinion_index": 0
+    },
+    {
+      "cite": "80 Cal.Rptr.3d 211",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2012,
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.4th 758",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3888116
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "806"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/44/0758-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1693,
+    "char_count": 43879,
+    "ocr_confidence": 0.93,
+    "pagerank": {
+      "raw": 5.9523705033137755e-08,
+      "percentile": 0.3709061802444853
+    },
+    "sha256": "8de5703eb84f0e88292dbce314e3d171883f162a6a9d1c07ee0b1524beb53c4e",
+    "simhash": "1:76aad706677691f0",
+    "word_count": 7128
+  },
+  "last_updated": "2024-02-27T20:05:38.451463+00:00",
+  "provenance": {
+    "date_added": "2019-05-21",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Rothschild, P. J., and Johnson, J., concurred."
+    ],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. ROBERT FRANKLIN, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nLUI, J.\nRobert Franklin appeals from the judgment entered following a jury trial in which he was convicted of one count of first degree residential burglary in violation of Penal Code section 459 (count 5), one count of making criminal threats (\u00a7 422, subd. (a)), one count of false imprisonment (\u00a7 236; count 3) as the lesser included offense of kidnapping (\u00a7 207, subd. (a)), and one count of attempted extortion (\u00a7\u00a7 664, 520; count 4). All of the charged offenses were alleged to be gang related within the meaning of section 186.22, but the jury found the gang allegations true only as to the criminal threats and false imprisonment charges, and rejected the gang allegations as to the burglary and attempted extortion charges. (\u00a7 186.22, subd. (b)(1).) Following a bench trial, the trial court found true the prior strike conviction allegation and sentenced appellant to state prison for 18 years four months.\nAppellant contends (1) The true findings on the gang enhancement allegations must be reversed for insufficient evidence because they were based on the gang expert\u2019s improper and unsubstantiated opinion, and there was no evidence the offenses were gang related; (2) The trial court abused its discretion in refusing to bifurcate the trial on the gang allegations; (3) Revelations about appellant\u2019s criminal background resulted in incurable prejudice denying appellant a fair trial, and defense counsel\u2019s inaction in the wake of the inadmissible testimony concerning appellant\u2019s prior criminal record constituted ineffective assistance of counsel; (4) The trial court erred in admitting the prosecution gang expert\u2019s highly inflammatory testimony about the Mexican Mafia, and defense counsel was ineffective for failing to object. We reverse the gang enhancement findings for insufficient evidence and remand the matter for resentencing, but otherwise affirm.\nFACTUAL BACKGROUND\nThe underlying criminal offenses\nCrystal Delgado dated appellant on and off over a nine-month period from February to November 2013. They fought frequently, often sending each other vicious text messages, and appellant once pulled Delgado\u2019s hair. On October 24, 2013, appellant sent Delgado a text message in which he said she would live to regret \u201cfuckin\u2019 with a real gangster.\u201d A few days later, Delgado received another text message from appellant in which he threatened to stomp on her face, break her nose, and crack her teeth.\nIn early November 2013 Delgado planned a trip to San Diego with friends to serve drinks at a bachelor party. Appellant did not want her to go, and left a message on Delgado\u2019s voicemail threatening that if she \u201cwent to San Diego, he was going to kill [her].\u201d Sometime before attending the party, Delgado posted on social media that she was single, which she later told police appellant had taken personally as indicating disrespect toward him.\nThe day Delgado returned home from the party she found her room ransacked and empty of all of her belongings\u2014only the furniture remained. The television had been pulled from the wall mount, and her laptop, her bedsheets, most of her clothing, and other personal items had all been removed. There were no signs of a break-in. Delgado suspected appellant had burglarized her room with help from her cousin Lexi, who lived in the house with Delgado and Delgado\u2019s mother.\nDelgado played several voicemail messages she had received from appellant for the police. In one message, appellant said he was coming right over and threatened to kill Delgado if she did not pick up the phone. In another voice message, appellant told Delgado he was going to hide out until he caught her, and declared, \u201cNo one\u2019s ever gonna want to fucking see your face, eh. I\u2019m gonna fuck it up, eh. I\u2019m gonna fuck you up, you fucking piece of shit.\u201d Appellant also threatened Delgado\u2019s mother: \u201cYou fucking gonna go to a fucking bachelor party, fucker? Fucking piece of shit. Just watch what we do to your mom when she comes home from work.\u201d Finally, appellant threatened to \u201cseriously hurt\u201d Delgado. Delgado told the police she was afraid of appellant because he was an active Jim Town gang member and she believed he would kill her.\nLater that day, appellant called Delgado and admitted he had taken her property. He promised to return her property if she would agree to meet with him. They met at Guirado Park and appellant got into the front passenger seat of Delgado\u2019s car. Producing a foot-long metal pipe from his jacket, appellant struck Delgado on the head and arms. Appellant switched seats with Delgado and drove around for several hours before taking Delgado to his house where he lived with his mother and sister.\nThey went to a Knights Inn in Pico Rivera, a Pico Viejo gang hangout well outside of Jim Town gang territory to spend the night. Appellant offered to return Delgado\u2019s property to her for $500. The next morning, Andrea Sandoval, whom Delgado identified as a member of the White Fence gang known as \u201cStalker,\u201d arrived at the motel. The three of them left the Knights Inn and went to a park where they left Delgado\u2019s car. Driving appellant\u2019s car, they went to the Lancer\u2019s Motel in an area of Pico Rivera claimed by the Pico Viejo gang where Sandoval was staying. There they met another White Fence gang member, a woman Delgado knew only as \u201cTraviesa.\u201d\nAppellant left Delgado at the motel with Sandoval and Traviesa with instructions to watch her and not to let her leave. Appellant returned sometime later with his 13-year-old daughter, Luckie, and took Delgado and Luckie to a grocery store. At the store, Delgado went to the restroom and texted her mother. She told her mother she was with appellant and she was hurt. She instructed her mother to agree to pay appellant $500 for the return of her property when appellant called.\nAppellant dropped Luckie off and took Delgado to the home of Janae Vasquez, a member of the Pico Viejo gang known as \u201cHazel.\u201d Before leaving in Vasquez\u2019s burgundy Nissan Altima, appellant warned Vasquez not to let Delgado go. Delgado fell asleep, and was awakened by a notification on her phone. When she looked at the phone, she saw a picture of her stolen property in the backseat of a burgundy car.\nAppellant and Delgado left Vasquez\u2019s home and drove back to appellant\u2019s house where they spent the night. There, appellant made a video recording on his cell phone of Delgado in which he told her to say appellant had not taken her clothes and she was not being held against her will. The next morning they picked up Sandoval at the Lancer Motel and went to the park where they had left Delgado\u2019s car. Appellant replaced the battery in Delgado\u2019s car, and they returned to the Lancer Motel. After convincing appellant to allow her leave to get the money to pay him for her property, Delgado drove directly to a police station and reported the entire incident.\nA few days later, Delgado called 911 to report that appellant was following her in a burgundy Altima. Police located the Altima parked in front of Vasquez\u2019s residence. Sandoval was sitting in the driver\u2019s seat and appellant was detained when he emerged from the house. On a bed inside the house, police found appellant\u2019s phone containing the video of Delgado and photographs of Delgado\u2019s property. Delgado never recovered any of her stolen property, nor did she or her mother ever give appellant any money for its return.\nThe gang evidence\nWhile they were dating, appellant told Delgado he was a member of the Jim Town gang known as \u201cSpooky,\u201d and he would sometimes brag to Delgado about his status in the gang hierarchy, telling her that \u201chis homeboys were all scared of him.\u201d Delgado testified at the preliminary hearing in this case that \u2018\u201c[o]f course\u201d she was afraid of appellant because \u2018\u201cI know what he\u2019s capable of. I know that he doesn\u2019t care, and he would do anything in his power to hurt me.\u201d Delgado also acknowledged that some of appellant\u2019s friends were in gangs other than Jim Town.\nDetective Lopez, a deputy sheriff and gang investigator with the Operation Safe Streets Bureau, testified as a gang expert. He is familiar with the Jim Town gang and described its borders and hangouts. Detective Lopez identified Guirado Park as one such hangout in Jim Town gang territory, which is known as a stronghold for the gang where gang members often congregate. The gang has approximately 85 to 90 members, of whom 20 to 25 actively participate in gang crimes, including murder, assaults with deadly weapons, robbery, kidnapping, extortion, and felony vandalism.\nDetective Lopez explained that gang members put in work for the gang by committing crimes in order to gain respect for the gang and create fear and intimidation within the community or rival gangs. According to Detective Lopez, fear and intimidation reduce the likelihood that crimes will be reported, and people are \u2018\u201cless likely to testify in court against gang members for fear of retaliation by the gang or gang member.\u201d Gang members can lose respect within the gang if they stop putting in work or if they allow themselves to be publicly disrespected.\nAppellant lived in the garage of his mother\u2019s house, which was in Jim Town territory. During a probation/consensual search of the garage, police found various writings and items which Detective Lopez identified as gang related. Specifically, police found references to appellant\u2019s gang moniker, \u2018\u201cSpooks,\u201d along with the words, \u2018\u201cJim Town\u201d and \u2018\u201cLomas,\u201d in what Detective Lopez described as \u2018\u201cOld English writing.\u201d Detective Lopez speculated that other marks in appellant\u2019s living quarters appeared to represent a gang \u2018\u201cpoint system.\u201d\nDetective Lopez explained that while it is \u2018\u201cnot common\u201d for members of one gang to associate with members of another gang or spend the night in rival gang territory, Hispanic gang members tend to set their gang rivalries aside when they go to prison and come under the auspices of the Mexican Mafia. According to the detective, appellant\u2019s ability to associate with members of rival gangs stemmed from the fact that \u201cwhen these gang members from different gangs get out of jail or prison, they still keep those allegiances.\u201d\nIn Detective Lopez\u2019s opinion, appellant is a senior high-ranking member of the Jim Town gang who commands the respect of other gangs, and is possibly a valued member of the Mexican Mafia. He based his opinion on 25 reports identifying appellant as a member of the gang, numerous references to the Jim Town gang in appellant\u2019s living quarters, and appellant\u2019s ability to associate with members of other gangs and spend the night in rival gang territory. Detective Lopez also cited appellant\u2019s numerous gang tattoos, including a \u201cJim Town\u201d tattoo across the front of his neck, and \u201cJim Town\u201d across his stomach as evidence of his active gang membership.\nDrawing on his training and experience and the facts of a hypothetical related to this case, Detective Lopez opined that appellant committed the crimes herein for the benefit of and in association with a criminal street gang. While he conceded that sometimes a gang member may commit a crime for his own benefit and not for the benefit of his gang, Detective Lopez stated that \u201cmost crimes\u201d committed by a gang member are committed for the benefit of the gang. Detective Lopez cited as support for his opinion the fact that \u201cthe crime was committed in the gang\u2019s stronghold.\u201d He explained that gang members commonly commit crimes in their own territory because they have the backing of the gang and they can easily hide from law enforcement if necessary. In addition, victims or potential witnesses are less likely to report crimes committed within the gang\u2019s territory for fear of retaliation from the gang.\nThe detective cited the violence involved in the crime as another basis for his opinion. Because the crime itself\u2014assault with a metal pipe\u2014is violent, he explained, it gives the gang member notoriety and shows that he is a hardcore gang member willing to put in work. Again, \u201cputting in work,\u201d or committing a violent crime, instills fear in the community as well as rival gangs because it shows this gang member\u2019s willingness to commit such violent crimes. When rival gang members fear a gang\u2019s members, that gang is able to impose its will and expand its territory by taking over rival gangs\u2019 territories. According to the detective, all of this benefits the gang because it permits gang members to perpetrate more crime with impunity.\nDetective Lopez also concluded that appellant committed these crimes in association with the Jim Town gang, citing the fact that appellant acted with the assistance of other gang members. In the detective\u2019s opinion, the fact that these members of different gangs came together to commit offenses showed loyalty and allegiance to the Mexican Mafia, which in turn enhanced the respect gained by the participants in the crimes.\nDISCUSSION\nI. The True Findings on the Gang Enhancement Allegations Are Not Supported by Substantial Evidence\nAppellant contends that the jury\u2019s true findings on the gang enhancements lack substantial evidentiary support and must be stricken. We agree.\nA. Applicable Law\nThe standard of appellate review for determining the sufficiency of the evidence supporting an enhancement is the same as that applied to a conviction. (People v. Wilson (2008) 44 Cal.4th 758, 806 [80 Cal.Rptr.3d 211, 187 P.3d 1041]; People v. Mejia (2012) 211 Cal.App.4th 586, 614 [149 Cal.Rptr.3d 815].) Like a conviction unsupported by substantial evidence, a true finding on a gang enhancement without sufficient support in the evidence violates a defendant\u2019s federal and state constitutional rights and must be reversed. (People v. Weddington (2016) 246 Cal.App.4th 468, 483 [200 Cal.Rptr.3d 799]; People v. Ochoa (2009) 179 Cal.App.4th 650, 656-657 [102 Cal.Rptr.3d 108].)\n\u201cIn considering a challenge to the sufficiency of the evidence to support an enhancement, we review the entire record in the light most favorable to the judgment to determine whether it contains substantial evidence\u2014that is, evidence that is reasonable, credible, and of solid value\u2014from which a reasonable trier of fact could find the defendant guilty beyond a reasonable doubt.\u201d (People v. Albillar (2010) 51 Cal.4th 47, 59-60 [119 Cal.Rptr.3d 415, 244 P.3d 1062] (Albillar).) We draw all reasonable inferences in favor of the verdict, and presume the existence of every fact the jury could reasonably deduce from the evidence that supports its findings. (People v. Maciel (2013) 57 Cal.4th 482, 515 [160 Cal.Rptr.3d 305, 304 P.3d 983]; People v. Kraft (2000) 23 Cal.4th 978, 1053 [99 Cal.Rptr.2d 1, 5 P.3d 68].)\nThe court may not, however, \u201c \u2018go beyond inference and into the realm of speculation in order to find support for a judgment. A finding . . . which is merely the product of conjecture and surmise may not be affirmed.\u2019 \u201d (People v. Memro (1985) 38 Cal.3d 658, 695 [214 Cal.Rptr. 832, 700 P.2d 446], overruled on other grounds by People v. Gaines (2009) 46 Cal.4th 172, 181, fn. 2 [92 Cal.Rptr.3d 627, 205 P.3d 1074]; People v. Marshall (1997) 15 Cal.4th 1, 35 [61 Cal.Rptr.2d 84, 931 P.2d 262]; People v. Ochoa, supra, 179 Cal.App.4th at p. 663.) \u201c \u2018[EJvidence which merely raises a strong suspicion of the defendant\u2019s guilt is not sufficient to support a conviction. Suspicion is not evidence; it merely raises a possibility, and this is not a sufficient basis for an inference of fact.\u2019 \u201d (People v. Thompson (1980) 27 Cal.3d 303, 324 [165 Cal.Rptr. 289, 611 P.2d 883].) Indeed, \u201c[a] trier of fact may rely on inferences to support a conviction only if those inferences are \u2018of such substantiality that a reasonable trier of fact could determine beyond a reasonable doubt\u2019 that the inferred facts are true. (People v. Raley (1992) 2 Cal.4th 870, 890-891 [8 Cal.Rptr.2d 678, 830 P.2d 712].)\u201d (People v. Rios (2013) 222 Cal.App.4th 542, 564 [165 Cal.Rptr.3d 687].)\nIn 1988 the Legislature enacted section 186.20 et seq., known as the California Street Terrorism Enforcement and Prevention Act, to combat the scourge of gang-related crimes and violence afflicting the state. (People v. Prunty (2015) 62 Cal.4th 59, 66-67 [192 Cal.Rptr.3d 309, 355 P.3d 480] (Prunty).) Section 186.22, subdivision (b)(1) imposes various sentencing enhancements on a defendant convicted of a gang-related felony committed with the specific intent to promote, further, or assist in any criminal conduct by gang members.\nThere are two prongs to the gang enhancement under section 186.22, subdivision (b)(1), both of which must be established by the evidence. (Albillar, supra, 51 Cal.4th at p. 59.) The first prong requires proof that the underlying felony was \u2018\u201cgang related,\u201d that is, the defendant committed the charged offense \u2018\u201cfor the benefit of, at the direction of, or in association with any criminal street gang.\u201d (\u00a7 186.22, subd. (b)(1); Albillar, supra, 51 Cal.4th at p. 60; see People v. Gardeley (1996) 14 Cal.4th 605, 622 [59 Cal.Rptr.2d 356, 927 P.2d 713].) The second prong \u2018\u201crequires that a defendant commit the gang-related felony \u2018with the specific intent to promote, further, or assist in any criminal conduct by gang members.\u2019 \u201d (Albillar, at p. 64; see \u00a7 186.22, subd. (b)(1).) As the Supreme Court has noted, \u2018\u201c[t]he prosecution\u2019s evidence must permit the jury to infer that the \u2018gang\u2019 that the defendant sought to benefit, and the \u2018gang\u2019 that the prosecution proves to exist, are one and the same.\u201d (Prunty, supra, 62 Cal.4th at p. 75.) \u2018\u201cThat gang is defined in section 186.22[, subdivision] (1), which provides that the gang must consist of \u2018three or more persons\u2019 who have as one of their \u2018primary activities the commission of\u2019 certain enumerated criminal acts; who share \u2018a common name or common identifying sign or symbol\u2019; and \u2018whose members individually or collectively engage in or have engaged in a pattern of criminal gang activity.\u2019 \u201d (Ibid.; see People v. Gardeley, supra, 14 Cal.4th at p. 617.)\n\u2018\u201cIn order to prove the elements of the criminal street gang enhancement, the prosecution may, as in this case, present expert testimony on criminal street gangs.\u201d (People v. Hernandez (2004) 33 Cal.4th 1040, 1047-1048 [16 Cal.Rptr.3d 880, 94 P.3d 1080] (Hernandez).) \u2018\u201cExpert opinion that particular criminal conduct benefited a gang\u2019 is not only permissible but can be sufficient to support [a] gang enhancement.\u201d (People v. Vang (2011) 52 Cal.4th 1038, 1048 [132 Cal.Rptr.3d 373, 262 P.3d 581]; see Albillar, supra, 51 Cal.4th at p. 63.) While an expert may render an opinion assuming the truth of facts set forth in a hypothetical question, the \u2018\u201chypothetical question must be rooted in facts shown by the evidence.\u201d (People v. Gardeley, supra, 14 Cal.4th at p. 618.) Indeed, an \u201cexpert\u2019s opinion may not be based \u2018on assumptions of fact without evidentiary support [citation], or on speculative or conjectural factors.\u2019 \u201d (People v. Richardson (2008) 43 Cal.4th 959, 1008 [77 Cal.Rptr.3d 163, 183 P.3d 1146]; see People v. Gardeley, supra, 14 Cal.4th at p. 618 [\u201c \u2018Like a house built on sand, the expert\u2019s opinion is no better than the facts on which it is based\u2019 \u201d].)\nAs for the specific intent prong, \u201c \u2018[i]ntent is rarely susceptible of direct proof and usually must be inferred from the facts and circumstances surrounding the offense.\u2019 \u201d (People v. Rios, supra, 222 Cal.App.4th at pp. 567-568.) Our Supreme Court has thus held that the scienter requirement may be satisfied with proof \u201cthat the defendant intended to and did commit the charged felony with known members of a gang,\u201d from which \u201cthe jury may fairly infer that the defendant had the specific intent to promote, further, or assist criminal conduct by those gang members.\u201d (Albillar, supra, 51 Cal.4th at p. 68.)\nB. The Insufficiency of the Evidence\nThe prosecution presented the testimony of gang expert Detective Lopez, along with the contents of the text and voicemail messages appellant left on Delgado\u2019s phone to prove the gang allegations in this case. The detective testified about appellant\u2019s membership in the Jim Town gang, the predicate acts committed by known members of that gang, and the criminal conduct of the Jim Town gang. Appellant concedes that the expert\u2019s testimony established appellant\u2019s membership in the Jim Town gang, the organization\u2019s status as a criminal street gang, and the pattern of criminal activity among its members as required under section 186.22, subdivision (f). But when it came to proving appellant committed the false imprisonment and criminal threats offenses \u201cfor the benefit of, at the direction of, or in association with\u201d the Jim Town gang, and \u201c \u2018with the specific intent to promote, further, or assist in any criminal conduct by gang members\u2019 \u201d (Albillar, supra, 51 Cal.4th at pp. 60, 64), the expert\u2019s testimony fell well short of providing substantial evidence to support true findings on the gang allegations.\nIn support of his opinion that appellant committed these crimes for the benefit of a criminal street gang, Detective Lopez averred that the crime was committed in Jim Town territory. He opined that gang members commit crimes in their own territory to avoid apprehension and to intimidate victims and members of the community. But there was no evidence placing the criminal threats offense in Jim Town gang territory, and appellant carried out the acts which resulted in the false imprisonment conviction in non-gang territory as well as turf Detective Lopez opined was controlled by the Pico Viejo, Pico Nuevo, and Jim Town gangs.\nThe additional benefit to the gang that Detective Lopez cited\u2014that commission of the violent crime of assault with a metal pipe instills fear in the community and victims, allowing the gang to act with impunity\u2014also finds scant support in the record. There was no evidence that any of appellant\u2019s fellow gang members were aware of the assault, much less participated in it. And because appellant was not convicted of the assault charge, the expert\u2019s opinion that appellant\u2019s violent assault somehow benefited the Jim Town gang is irrelevant to the true findings on the gang allegations as to the false imprisonment and criminal threats charges. Finally, the expert\u2019s opinion that \u201cmost crimes\u201d committed by a gang member are committed for the benefit of the gang lacked any factual basis in the record. And nothing in the record supports the detective\u2019s casual dismissal of the possibility that appellant acted for his own benefit rather than for the benefit of his gang.\nThe record also contains no showing that appellant committed his crimes in association with other members of the Jim Town gang. In this regard the prosecution sought to prove the offenses were \u201cin association with\u201d members of a criminal street gang with evidence that appellant falsely imprisoned Delgado with the assistance of three friends who were members of other gangs, not the Jim Town gang.\nPrunty, however, rejects this sort of bait-and-switch tactic to prove the requisite benefit or association element of the gang enhancement, holding that the criminal street gang that is shown to exist under section 186.22, subdivision (1) must be the same criminal street gang with which the defendant acted in association or sought to benefit in the commission of his crimes. (Prunty, supra, 62 Cal.4th at pp. 72-76 & fn. 3 [no reason the definition of \u201ccriminal street gang\u201d would vary in different parts of the statute].) Here, there was no evidence whatsoever to demonstrate any associational or organizational connection among the White Fence, Pico Viejo, Pico Nuevo, or Jim Town gangs. Detective Lopez testified that members of different Hispanic gangs become linked to the Mexican Mafia while in prison, and after release from prison they continue to maintain their prison alliances. But the prosecution failed to present any evidence of collaboration or organization between the Mexican Mafia and these other gangs, and there was no evidence these gangs shared material information, no evidence of any hierarchical organization among these gangs with the Mexican Mafia at the top, and no evidence of any behavior by members of these gangs showing a self-identification with the Mexican Mafia. (See, e.g., Prunty, at p. 71.)\nThe prosecution also attempted to show a link between these gangs with the expert\u2019s opinion that, as a senior high-ranking member of the Jim Town gang and possibly a valued member of the Mexican Mafia, appellant commanded the respect of other gangs and could enlist the assistance of rival gang members as he would members of his own gang. Again, no evidence supports the detective\u2019s supposition: Not a single fact was presented to suggest appellant\u2019s rank within the Jim Town gang, nor was there a shred of evidence that appellant had any actual connection to the Mexican Mafia. The prosecution simply failed to demonstrate any basis for treating these disparate gangs as a single organization, and thus failed to prove the gang allegation on the theory that appellant committed these crimes in association with the Jim Town gang.\nThe prosecution also failed to present sufficient evidence to support the requisite finding of specific intent under the statute. Respondent cites appellant\u2019s use of the word \u201cwe\u201d in his threat, \u201cwatch what we do to your mom,\u201d along with the presence of members of other gangs during the commission of the offense, to contend that \u201cthe jury could reasonably infer that appellant intended to have gang members promote, further, or assist in his criminal conduct.\u201d However, in the absence of any evidence about to whom appellant was referring when he used the word \u201cwe,\u201d any inference that the threat constituted an invocation of appellant\u2019s gang amounts to pure speculation. And, as set forth above, speculation, supposition and suspicion are patently insufficient to support an inference of fact. (People v. Rios, supra, 222 Cal.App.4th at p. 564.)\nGiven the lack of substantial evidentiary support for either prong of the gang enhancement, the true findings on the gang allegations must be stricken.\nII. The Trial Court Did Not Abuse Its Discretion in Denying Appellant\u2019s Motion to Bifurcate the Tried on the Gang Allegations\nA trial court has discretion to bifurcate the trial of a gang enhancement allegation from the trial of the substantive offense. (Hernandez, supra, 33 Cal.4th at pp. 1049-1050.) Appellant contends the trial court abused its discretion in this case when, in light of the lack of evidence of any gang-related intent or motive for the offenses, the court refused to bifurcate the gang enhancement allegations. We disagree.\nBifurcation of gang allegations is appropriate where the gang evidence is \u201cso extraordinarily prejudicial, and of so little relevance to guilt, that it threatens to sway the jury to convict regardless of the defendant\u2019s actual guilt.\u201d (Hernandez, supra, 33 Cal.4th at p. 1049.) In a case not involving imposition of the gang enhancement, such \u201cevidence of gang membership is potentially prejudicial and should not be admitted if its probative value is minimal.\u201d (ibid.) On the other hand, \u201cevidence of gang membership is often relevant to, and admissible regarding, the charged offense.\u201d (Ibid.) Given the public policy preference for the efficiency of a unitary trial, a court\u2019s discretion to deny bifurcation of a gang allegation is broader than its discretion to admit gang evidence in a case with no gang allegation. (Id. at p. 1050.) Thus, \u201c[ejven if some of the evidence offered to prove the gang enhancement would be inadmissible at a trial of the substantive crime itself ... a court may still deny bifurcation.\u201d (Ibid.)\nWe review the trial court\u2019s denial of the motion to bifurcate for abuse of discretion, based on the record as it stood at the time of the ruling. (Hernandez, supra, 33 Cal.4th at p. 1048; People v. Price (1991) 1 Cal.4th 324, 388 [3 Cal.Rptr.2d 106, 821 P.2d 610]; People v. Burch (2007) 148 Cal.App.4th 862, 867 [55 Cal.Rptr.3d 892].) Our review is guided by the familiar principle that \u201c[a] court abuses its discretion when its rulings fall \u2018outside the bounds of reason.\u2019 \u201d (People v. Ochoa (1998) 19 Cal.4th 353, 408 [79 Cal.Rptr.2d 408, 966 P.2d 442]; see People v. Carrington (2009) 47 Cal.4th 145, 195 [97 Cal.Rptr.3d 117, 211 P.3d 617] [an abuse of discretion is \u201cestablished by \u2018a showing the trial court exercised its discretion in an arbitrary, capricious, or patently absurd manner that resulted in a manifest miscarriage of justice\u2019 \u201d]; People v. Fuiava (2012) 53 Cal.4th 622, 663 [137 Cal.Rptr.3d 147, 269 P.3d 568].) If the trial court\u2019s ruling was correct on the record before it, the ruling is subject to reversal only upon a showing that \u201c \u2018joinder actually resulted in \u201cgross unfairness\u201d amounting to a denial of due process.\u2019 \u201d (People v. Mendoza (2000) 24 Cal.4th 130, 162 [99 Cal.Rptr.2d 485, 6 P.3d 150].)\n\u201c[E]vidence related to gang membership is not insulated from the general rule that all relevant evidence is admissible if it is relevant to a material issue in the case other than character, is not more prejudicial than probative, and is not cumulative.\u201d (People v. Samaniego (2009) 172 Cal.App.4th 1148, 1167 [91 Cal.Rptr.3d 874]; see also Hernandez, supra, 33 Cal.4th at p. 1049.) Indeed, gang evidence is \u201crelevant and admissible when the very reason for the underlying crime, that is the motive, is gang related.\u201d (People v. Samaniego, supra, 172 Cal.App.4th at p. 1167.) \u201c \u2018[B]ecause a motive is ordinarily the incentive for criminal behavior, its probative value generally exceeds its prejudicial effect, and wide latitude is permitted in admitting evidence of its existence.\u2019 \u201d (People v. Gonzalez (2005) 126 Cal.App.4th 1539, 1550 [25 Cal.Rptr.3d 124].)\nWe find no abuse of discretion in the trial court\u2019s denial of the defense bifurcation motion here. The prosecution\u2019s theory was that appellant\u2019s motive in committing the crimes was to protect his status in the gang and strike back at Delgado for disrespecting him and his gang. According to the prosecution, appellant retaliated against Delgado for publicly disrespecting him by burglarizing her home, attempting to extort money from her for the return of her property, assaulting her with a metal pipe, and kidnapping her. The gang evidence here was thus relevant to the prosecution\u2019s theory of motive. That the defense countered with a different theory did not diminish the relevance of the gang evidence offered in support of the prosecution\u2019s case, nor does our conclusion that substantial evidence does not support true findings on the gang allegations mean that such evidence was inadmissible to prove the substantive charges.\nMoreover, the trial court properly instructed the jury that evidence of gang activity could be considered solely for the limited purpose of deciding whether appellant acted with the intent, purpose, and knowledge necessary to prove the gang-related crimes and gang allegations, or that appellant had a motive to commit the charged offenses. We presume that the jury followed these limiting instructions, and there is nothing in this record to rebut that presumption. (People v. Waidla (2000) 22 Cal.4th 690, 725 [94 Cal.Rptr.2d 396, 996 P.2d 46].) The trial court did not abuse its discretion in denying bifurcation of the gang enhancement.\nIII. Fleeting References to Appellant\u2019s Prior Criminal Record Do Not Warrant Reversal\nAppellant contends that improper references to his criminal history irreparably prejudiced his case, and his counsel\u2019s inaction in the wake of the inadmissible testimony amounted to ineffective assistance of counsel. We disagree.\nOver the course of the trial, three references were made from which the jury could have discerned that appellant might have a criminal history. In his direct examination, Detective Lopez referred to the \u201cprobation/consensual search\u201d of appellant\u2019s living quarters in the garage of his mother\u2019s home. There was no objection to this testimony. Later, outside the presence of the jury, the trial court noted this reference could be construed as a reference to appellant\u2019s criminal record. Reiterating its order that \u2018\u201cthere should be no reference to or allusion of prior criminal history of the defendant,\u201d the court invited comment from the parties. Neither defense counsel nor the prosecutor voiced any question, comment, or objection.\nLater, during the cross-exantination of Detective Lopez, defense counsel asked what information he reviewed prior to interviewing Delgado. The detective responded that he had reviewed some information obtained from reports to the Norwalk sheriff\u2019s station of \u2018\u201cother incidents.\u201d\nFinally, during the defense case, counsel displayed to the jury a text message Delgado had sent to the witness prior to trial. The message read: \u2018\u201cYou guys say I\u2019m a loser and I\u2019m a lowlife. You don\u2019t see me going to court try to help some repeated [sic] offender . . . ,\u201d The witness said she found Delgado\u2019s text message to be intimidating. Immediately after this testimony, the trial court admonished the jury as follows:\n\u2018T am going to advise the jury of some matter that is not typically told to a jury, but outside the presence of the jury at the outset of the case, the court made . . . orders in tintine. Those are orders governing the conduct of the case and presentation of the evidence. For reasons that these charges need to be proved beyond a reasonable doubt, we do not permit information to be brought out with respect to prior criminal incidents. So at the outset, I made the following order: No party, witness, or attorney shall make any statement, reference, or allusion to any prior arrests, prior charges, and prior convictions or prior criminal history of the defendant on trial in this case. That has been violated by the presentation of exhibit E [sic]. So you should bear that in mind and not use it to decide the charges in this case. Do you understand?\u201d The jury responded in the affirmative.\n\u201c \u2018A mistrial should be granted if the court is apprised of prejudice that it judges incurable by admonition or instruction. [Citation.] Whether a particular incident is incurably prejudicial is by its nature a speculative matter, and the trial court is vested with considerable discretion in ruling on mistrial motions. [Citation.]\u2019 (People v. Haskett (1982) 30 Cal.3d 841, 854 [180 Cal.Rptr. 640, 640 P.2d 776].)\u201d (People v. Collins (2010) 49 Cal.4th 175, 198 [110 Cal.Rptr.3d 384, 232 P.3d 32].) While \u201c[a] witness\u2019s volunteered statement can, under some circumstances, provide the basis for a finding of incurable prejudice\u201d (People v. Ledesma (2006) 39 Cal.4th 641, 683 [47 Cal.Rptr.3d 326, 140 P.3d 657]), \u201ca motion for mistrial should be granted only when \u2018 \u201ca party\u2019s chances of receiving a fair trial have been irreparably damaged\u201d \u2019 \u201d (People v. Ayala (2000) 23 Cal.4th 225, 282 [96 Cal.Rptr.2d 682, 1 P.3d 3]). Moreover, it is only in the \u2018\u201cexceptional case\u201d that any prejudice from an improperly volunteered statement cannot be cured by appropriate admonition to the jury. (People v. Allen (1978) 77 Cal.App.3d 924, 935 [144 Cal.Rptr. 6]; see People v. Navarrete (2010) 181 Cal.App.4th 828, 836 [104 Cal.Rptr.3d 666] [\u2018\u201ca trial court can almost always cure the prejudice of an improperly volunteered statement by granting a motion to strike and charging the jury with an appropriate curative instruction\u201d].)\nThe California Supreme Court has consistently found vague and fleeting references to a defendant\u2019s past criminality to be curable by appropriate admonition to the jury. Thus, in People v. Collins, supra, 49 Cal.4th 175, the trial court denied a mistrial motion based on the defendant\u2019s girlfriend\u2019s volunteered remarks that the defendant called her collect every night from Susanville, and \u201c \u2018[t]his was when he was still in Susanville before he got out in December.\u2019 \u201d (Id. at p. 197.) Noting that the reference to state prison at Susanville had been \u201cbrief and ambiguous,\u201d the court held that the trial \u201ccourt did not abuse its discretion in concluding that any prejudicial effect could be cured by an admonition.\u201d (Id. at p. 199.)\nSimilarly, in People v. Valdez (2004) 32 Cal.4th 73 [8 Cal.Rptr.3d 271, 82 P.3d 296], a detective testifying about the identification of the defendant from a photographic lineup explained he had found the defendant\u2019s picture when he went to the jail and obtained the defendant\u2019s mug shot photo. Concluding that \u201can admonition would have cured any prejudice,\u201d the high court held that the detective\u2019s \u201cfleeting reference to \u2018jail\u2019 was not \u2018so outrageous or inherently prejudicial that an admonition could not have cured it.\u2019 (People v. Dennis (1999) 17 Cal.4th 468, 521 [71 Cal.Rptr.2d 680, 950 P.2d 1035].)\u201d (People v. Valdez, supra, 32 Cal.4th at p. 123.)\nPeople v. Bolden (2002) 29 Cal.4th 515 [127 Cal.Rptr.2d 802, 58 P.3d 931] stands as another case in which our Supreme Court rejected the notion that a passing reference to the defendant\u2019s criminal history is necessarily incurably prejudicial. There, in answering a question about the defendant\u2019s address, a police officer mentioned the Department of Corrections parole office, and was interrupted before he could say anything further. (Id. at p. 554.) Affirming the denial of the defendant\u2019s mistrial motion, the Supreme Court held that \u2018\u201c[t]he incident was not significant in the context of the entire guilt trial, and the trial court did not abuse its discretion in ruling that defendant\u2019s chances of receiving a fair trial had not been irreparably damaged.\u201d (Id. at p. 555; see also People v. Avila (2006) 38 Cal.4th 491, 572-574 [43 Cal.Rptr.3d 1, 133 P.3d 1076] [codefendant\u2019s volunteered statement that defendant had \u2018\u201cbarely got[ten] out of prison\u201d when the crimes were committed did not result in incurable prejudice]; People v. Ledesma, supra, 39 Cal.4th at p. 683 [\u2018\u201cwe do not presume that knowledge that a defendant previously has been convicted and is being retried is incurably prejudicial\u201d]; People v. Jennings (1991) 53 Cal.3d 334, 373-374 [279 Cal.Rptr. 780, 807 P.2d 1009].)\nIn the present case, none of the three vague and fleeting references to appellant\u2019s criminal history resulted in incurable prejudice or irreparably damaged appellant\u2019s chance of obtaining a fair trial. None of the statements clearly referred to appellant, and none unambiguously pointed to arrests, convictions, or any other actual criminal history. There was no indication whose probationary status allowed the police to search appellant\u2019s living quarters when his mother was the only adult present. There was also no indication what kind of \u2018\u201cincidents\u201d Detective Lopez was referring to or who was involved. And while Delgado\u2019s allusion to \u201csome repeat[] offender\u201d in her text message probably referred to appellant, it only vaguely suggested his criminal history. Given the ambiguity of these passing statements, we conclude that any possible prejudice was removed by the court\u2019s clear admonition to disregard any testimony about appellant\u2019s prior criminal conduct and not consider such evidence in deciding the charges. Because we presume the jury followed those instructions (People v. Boyette (2002) 29 Cal.4th 381, 436 [127 Cal.Rptr.2d 544, 58 P.3d 391]), we deem any possible prejudice from these remarks to have been cured.\nDISPOSITION\nThe sentence is reversed, and the matter is remanded for resentencing with directions to strike the 2-year 8-month gang enhancement on counts 2 and 3. (Pen. Code, \u00a7 186.22, subd. (b)(1)(A), (B).) In all other respects, the judgment is affirmed.\nRothschild, P. J., and Johnson, J., concurred.\nAppellant\u2019s petition for review by the Supreme Court was denied October 12, 2016, S236191.\nUndesignated statutory references are to the Penal Code.\nAfter the jury deadlocked on count 1, assault with a deadly weapon (\u00a7 245, subd. (a)(1)), the court declared a mistrial and dismissed the count in furtherance of justice. A charge of vandalism under $400 (\u00a7 594, subd. (a)) was dismissed during trial.\nAppellant\u2019s sentence consisted of 15 years eight months on counts 5, 2, 3, and 4, plus two years eight months for the gang enhancements. (\u00a7 186.22, subd. (b)(1).)\nAt trial, Delgado claimed to have no memory of the events related to this case, and the prosecution presented Detective Steven Lopez\u2019s account of the facts underlying the case as related to him in an interview of Delgado on November 14, 2013.\nThe voicemail messages were not date- or time-stamped, and Delgado did not say specifically when she received them.\nIn later testimony. Detective Lopez identified the Knights Inn as a stronghold of the Pico Nuevo gang, a rival of the Pico Viejo gang.\nLuckie testified that appellant took her to a motel where they met Delgado and Sandoval. Delgado was drinking a beer and \u201cseemed fine.\u201d After about 20 minutes, they left the motel and dropped Sandoval off somewhere near downtown Los Angeles. Then appellant, Delgado and Luckie drove back to Pico Rivera and went grocery shopping. Delgado never complained of any pain, nor did she indicate she wanted to leave.\nDetective Lopez also described two predicate acts committed by documented Jim Town gang members. One involved a conviction for illegal weapon possession in 2013, and the other a conviction for assault with a deadly weapon in 2008.\nJim Town gang members use multiple signs and symbols to designate the gang. The names \u201cHoyos\u201d and \u201cLomas\u201d may be added to the Jim Town designation to indicate subsets of the gang. Detective Lopez also explained that variations on the number 13 may be attached to Jim Town gang designations to show allegiance to the Mexican Mafia, a Southern California prison gang.\nAs appellant observes, the Attorney General has failed to address appellant\u2019s argument that the evidence is insufficient to support a finding that the offenses were \u201cgang-related.\u201d Despite this apparent concession of the issue (see People v. Bouzas (1991) 53 Cal.3d 467, 480 [279 Cal.Rptr. 847, 807 P.2d 1076]), we address it insofar as it relates to the prosecution\u2019s overall failure to establish the gang allegations in this case.\nThe record is equally devoid of evidence demonstrating the existence of the White Fence or Pico Viejo criminal street gangs, much less any actual affiliation or relationship Sandoval, Traviesa, or Vasquez had with these gangs.\nAppellant also asserts that the trial court erred in admitting the prosecution gang expert\u2019s highly inflammatory testimony about the Mexican Mafia. Given the lack of evidence that appellant had any connection or affiliation with the Mexican Mafia, we agree. However, the evidence of appellant\u2019s guilt on the substantive charges in this case was overwhelming. We therefore conclude that a more favorable result would not have been reached had the expert\u2019s testimony about the Mexican Mafia been excluded. (People v. Watson (1956) 46 Cal.2d 818, 836 [299 P.2d 243].)\nOriginally marked as defense exhibit F, the document was redacted to remove the reference to repeat offender and admitted as defense exhibit FF.\nIn light of our conclusion that the court properly admonished the jury thereby curing any possible prejudice, we need not address appellant\u2019s further claim that he received ineffective assistance of counsel because his attorney failed to request a mistrial based on improper references to prior criminal conduct. (See Strickland v. Washington (1984) 466 U.S. 668, 687-688 [80 L.Ed.2d 674, 104 S.Ct. 2052].)",
+        "type": "majority",
+        "author": "LUI, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Julie Schumer, under appointment by the Court of Appeal, for Defendant and Appellant.",
+      "Kamala D. Harris, Attorney General, Gerald A. Engler, Chief Assistant Attorney General, Lance E. Winters, Assistant Attorney General, Steven E. Mercer and Alene M. Games, Deputy Attorneys General, for Plaintiff and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. B263511.\nSecond Dist., Div. One.\nJune 30, 2016.]\nTHE PEOPLE, Plaintiff and Respondent, v. ROBERT FRANKLIN, Defendant and Appellant.\nCounsel\nJulie Schumer, under appointment by the Court of Appeal, for Defendant and Appellant.\nKamala D. Harris, Attorney General, Gerald A. Engler, Chief Assistant Attorney General, Lance E. Winters, Assistant Attorney General, Steven E. Mercer and Alene M. Games, Deputy Attorneys General, for Plaintiff and Respondent."
+  },
+  "file_name": "0938-01",
+  "first_page_order": 840,
+  "last_page_order": 859
+}

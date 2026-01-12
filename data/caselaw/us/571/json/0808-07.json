@@ -1,0 +1,64 @@
+{
+  "id": 12702075,
+  "name": "Alfred LAM, petitioner, v. Kamala D. HARRIS, Attorney General of California, et al.",
+  "name_abbreviation": "Lam v. Harris",
+  "decision_date": "2013-10-07",
+  "docket_number": "No. 13M27.",
+  "first_page": "808",
+  "last_page": "808",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 808"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 371"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 45,
+    "char_count": 310,
+    "sha256": "5548469eb5e05edf4c22bd2274806acde94e28f7c23073ddf0bd71980f6bc305",
+    "simhash": "1:a8ef3006d7c9fb9b",
+    "word_count": 54
+  },
+  "last_updated": "2021-09-08T21:16:17.237805+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Alfred LAM, petitioner,\nv.\nKamala D. HARRIS, Attorney General of California, et al."
+    ],
+    "opinions": [
+      {
+        "text": "Justice BREYER took no part in the consideration or decision of this motion.",
+        "type": "majority",
+        "author": "Justice BREYER took no part in the consideration or decision of this motion."
+      }
+    ],
+    "attorneys": [
+      "Motion to direct the Clerk to file a petition for writ of certiorari out of time denied."
+    ],
+    "corrections": "",
+    "head_matter": "Alfred LAM, petitioner,\nv.\nKamala D. HARRIS, Attorney General of California, et al.\nNo. 13M27.\nSupreme Court of the United States\nOct. 7, 2013.\nMotion to direct the Clerk to file a petition for writ of certiorari out of time denied."
+  },
+  "file_name": "0808-07",
+  "first_page_order": 808,
+  "last_page_order": 808
+}

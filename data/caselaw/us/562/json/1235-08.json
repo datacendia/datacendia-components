@@ -1,0 +1,59 @@
+{
+  "id": 5914320,
+  "name": "Nixon v. United States",
+  "name_abbreviation": "Nixon v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8104",
+  "first_page": "1235",
+  "last_page": "1235",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1235"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.628,
+    "sha256": "6da4458149a69ed446f2e0aeb2ecba753f3588956b6e117f8840d5d7c97be115",
+    "simhash": "1:b68a92516e857935",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Nixon v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8104.\nNixon v. United States."
+  },
+  "file_name": "1235-08",
+  "first_page_order": 1257,
+  "last_page_order": 1257
+}

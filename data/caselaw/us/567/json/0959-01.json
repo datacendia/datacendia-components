@@ -1,0 +1,59 @@
+{
+  "id": 12413015,
+  "name": "Cox v. Gilson, Warden",
+  "name_abbreviation": "Cox v. Gilson",
+  "decision_date": "2012-08-13",
+  "docket_number": "No. 11A1155",
+  "first_page": "959",
+  "last_page": "959",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 959"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 20,
+    "char_count": 148,
+    "ocr_confidence": 0.664,
+    "sha256": "6c2e8876bb9ef0488f14c2c52c2d4b6ac064cf91a9c1454a7b74ec092e443862",
+    "simhash": "1:ac5d1e0f718d8d2a",
+    "word_count": 21
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cox v. Gilson, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "Application for certificate of appealability, addressed to Justice Sotomayor and referred to the Court, denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11A1155.\nCox v. Gilson, Warden."
+  },
+  "file_name": "0959-01",
+  "first_page_order": 863,
+  "last_page_order": 863
+}

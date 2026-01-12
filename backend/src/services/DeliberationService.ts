@@ -269,6 +269,36 @@ export class DeliberationService extends BaseService {
 
     if (!d) return null;
 
+    // Build responses from messages
+    const responses = d.deliberation_messages.map(m => ({
+      agentId: m.agent_id,
+      agentCode: (m as any).agents?.code || 'unknown',
+      agentName: (m as any).agents?.name || 'Unknown Agent',
+      agentRole: (m as any).agents?.role || 'Council Member',
+      content: m.content,
+      response: m.content, // Alias for compatibility
+      timestamp: m.created_at,
+      phase: m.phase || 'response',
+      duration: 0,
+    }));
+
+    // Extract synthesis from messages or decision field
+    const synthesisMsg = d.deliberation_messages.find(m => m.phase === 'synthesis');
+    const synthesis = synthesisMsg?.content || (d.decision as string) || 
+      responses.map(r => `${r.agentName}: ${r.content?.substring(0, 200)}...`).join('\n\n');
+
+    // Extract cross-examinations
+    const crossExaminations = d.deliberation_messages
+      .filter(m => m.phase === 'cross_examination')
+      .map(m => ({
+        challengerId: m.agent_id,
+        challengerName: (m as any).agents?.name || 'Agent',
+        targetId: '',
+        targetName: '',
+        challenge: m.content,
+        rebuttal: '',
+      }));
+
     return {
       id: d.id,
       organizationId: d.organization_id,
@@ -280,23 +310,17 @@ export class DeliberationService extends BaseService {
       currentPhase: d.current_phase || undefined,
       progress: d.progress || 0,
       decision: d.decision || undefined,
-      confidence: d.confidence || undefined,
+      confidence: d.confidence || 0.8,
       startedAt: d.started_at || undefined,
       completedAt: d.completed_at || undefined,
       createdAt: d.created_at,
       created_at: d.created_at,
       completed_at: d.completed_at,
       deliberation_messages: d.deliberation_messages,
-      responses: d.deliberation_messages.map(m => ({
-        agentId: m.agent_id,
-        agentCode: (m as any).agents?.code || 'unknown',
-        agentName: (m as any).agents?.name || 'Unknown Agent',
-        content: m.content,
-        timestamp: m.created_at,
-        phase: m.phase || 'response',
-      })),
-      crossExaminations: [],
-      synthesis: d.decision || undefined,
+      responses,
+      agentResponses: responses, // Alias for compatibility
+      crossExaminations,
+      synthesis,
     };
   }
 
@@ -347,7 +371,7 @@ QUESTION: ${deliberation.question}
 
 SYNTHESIS: ${deliberation.synthesis}
 
-AGENTS CONSULTED: ${deliberation.agentResponses.map(r => r.agentName).join(', ')}
+AGENTS CONSULTED: ${(deliberation.responses || deliberation.agentResponses || []).map((r: any) => r.agentName || r.agentCode || 'Agent').join(', ')}
 
 Generate this exact JSON structure (fill in ALL arrays with at least 2-3 items each):
 {
@@ -462,14 +486,15 @@ IMPORTANT: Every array MUST have at least 2 items. Return ONLY the JSON, no othe
       type: 'statement',
     });
 
-    // Agent responses
-    for (const response of deliberation.agentResponses) {
+    // Agent responses - use responses or agentResponses
+    const agentResps = deliberation.responses || deliberation.agentResponses || [];
+    for (const response of agentResps) {
       timestamp = new Date(timestamp.getTime() + 60000); // +1 minute
       proceedings.push({
         timestamp,
-        speaker: response.agentName,
-        speakerRole: response.agentRole,
-        content: response.response,
+        speaker: response.agentName || response.agentCode || 'Agent',
+        speakerRole: response.agentRole || 'Council Member',
+        content: response.response || response.content || '',
         type: 'statement',
       });
     }
@@ -511,9 +536,9 @@ IMPORTANT: Every array MUST have at least 2 items. Return ONLY the JSON, no othe
       deliberationId,
       title: `Council Minutes - ${deliberation.question.substring(0, 50)}...`,
       date: deliberation.createdAt,
-      attendees: deliberation.agentResponses.map(r => ({
-        name: r.agentName,
-        role: r.agentRole,
+      attendees: agentResps.map((r: any) => ({
+        name: r.agentName || r.agentCode || 'Agent',
+        role: r.agentRole || 'Council Member',
       })),
       agenda: deliberation.question,
       proceedings,

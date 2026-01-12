@@ -1,0 +1,59 @@
+{
+  "id": 12409829,
+  "name": "Chapman v. McEwen, Acting Warden",
+  "name_abbreviation": "Chapman v. McEwen",
+  "decision_date": "2012-06-18",
+  "docket_number": "No. 11-9802",
+  "first_page": "919",
+  "last_page": "919",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 919"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 81,
+    "ocr_confidence": 0.707,
+    "sha256": "6e5bf1eff5a351bb914d35230f8c0e87eb5f1206de41c6b3839691eabc0868c3",
+    "simhash": "1:b0b305802389262a",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Chapman v. McEwen, Acting Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9802.\nChapman v. McEwen, Acting Warden."
+  },
+  "file_name": "0919-10",
+  "first_page_order": 823,
+  "last_page_order": 823
+}

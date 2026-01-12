@@ -1,0 +1,59 @@
+{
+  "id": 12247900,
+  "name": "Taggart v. United States",
+  "name_abbreviation": "Taggart v. United States",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-8082",
+  "first_page": "1219",
+  "last_page": "1219",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1219"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.626,
+    "sha256": "d99a24842f8052dd1be55594f58d60220d5d137cabbfbedb67314b3d49cadd6a",
+    "simhash": "1:119be6930f17144a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Taggart v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8082.\nTaggart v. United States."
+  },
+  "file_name": "1219-09",
+  "first_page_order": 1301,
+  "last_page_order": 1301
+}

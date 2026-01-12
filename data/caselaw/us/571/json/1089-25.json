@@ -1,0 +1,68 @@
+{
+  "id": 12699853,
+  "name": "In re Gary HUNT, petitioner.",
+  "name_abbreviation": "In re Hunt",
+  "decision_date": "2013-12-02",
+  "docket_number": "No. 13\u20135008.",
+  "first_page": "1089",
+  "last_page": "1089",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 1089"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 585"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 730"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 20,
+    "char_count": 123,
+    "sha256": "fcdd0f9d431fa42d0a7338c9d53628baba2a890440d61e1194d9cf46ef5da8d9",
+    "simhash": "1:70f75c723b8342af",
+    "word_count": 20
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Gary HUNT, petitioner."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for rehearing denied."
+    ],
+    "corrections": "",
+    "head_matter": "In re Gary HUNT, petitioner.\nNo. 13-5008.\nSupreme Court of the United States\nDec. 2, 2013.\nPetition for rehearing denied."
+  },
+  "file_name": "1089-25",
+  "first_page_order": 1089,
+  "last_page_order": 1089
+}

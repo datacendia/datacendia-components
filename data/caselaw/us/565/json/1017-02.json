@@ -1,0 +1,59 @@
+{
+  "id": 12232591,
+  "name": "Zivkovic v. Idaho",
+  "name_abbreviation": "Zivkovic v. Idaho",
+  "decision_date": "2011-11-07",
+  "docket_number": "No. 11-6332",
+  "first_page": "1017",
+  "last_page": "1017",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1017"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 9,
+    "char_count": 67,
+    "ocr_confidence": 0.727,
+    "sha256": "d84569e5e7508eeeb8021d168245a459c488e7a9bf41dad90d4535bcdb8bfa32",
+    "simhash": "1:d3218db08a9c4f0c",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Zivkovic v. Idaho."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Idaho. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6332.\nZivkovic v. Idaho."
+  },
+  "file_name": "1017-02",
+  "first_page_order": 1099,
+  "last_page_order": 1099
+}

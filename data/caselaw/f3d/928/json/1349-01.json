@@ -1,0 +1,774 @@
+{
+  "id": 12521629,
+  "name": "GENERAL ELECTRIC COMPANY, Appellant v. UNITED TECHNOLOGIES CORPORATION, Appellee",
+  "name_abbreviation": "Gen. Elec. Co. v. United Techs. Corp.",
+  "decision_date": "2019-07-10",
+  "docket_number": "2017-2497",
+  "first_page": "1349",
+  "last_page": "1359",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "928 F.3d 1349"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Fed. Cir.",
+    "id": 8955,
+    "name": "United States Court of Appeals for the Federal Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "753 F.3d 1258",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5918243
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1262"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/753/1258-01"
+      ]
+    },
+    {
+      "cite": "294 F.3d 164",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3699533,
+        9408583
+      ],
+      "weight": 2,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "172"
+        },
+        {
+          "parenthetical": "\"The government action is the upholding of specific patent claims, which do not address prices or introduce new competitors, but rather give exclusivity rights over precisely defined product features.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us-app-dc/352/0366-01",
+        "/f3d/294/0164-01"
+      ]
+    },
+    {
+      "cite": "524 U.S. 417",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11182643
+      ],
+      "weight": 3,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "433"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/524/0417-01"
+      ]
+    },
+    {
+      "cite": "923 F.3d 1357",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12521035
+      ],
+      "weight": 4,
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "1363"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/923/1357-01"
+      ]
+    },
+    {
+      "cite": "35 U.S.C. \u00a7 315",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(e)"
+        },
+        {
+          "page": "(e)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "547 U.S. 332",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3276173
+      ],
+      "weight": 3,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "342"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/547/0332-01"
+      ]
+    },
+    {
+      "cite": "504 U.S. 555",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11730070
+      ],
+      "weight": 6,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "560"
+        },
+        {
+          "page": "560"
+        },
+        {
+          "parenthetical": "requiring \"a causal connection between the injury and the conduct complained of\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/504/0555-01"
+      ]
+    },
+    {
+      "cite": "898 F.3d 1217",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517930
+      ],
+      "weight": 4,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1220",
+          "parenthetical": "emphasis omitted"
+        },
+        {
+          "page": "1220"
+        },
+        {
+          "page": "1221",
+          "parenthetical": "holding appellant lacked standing because it had not established that it had \"concrete plans for future activity that creates a substantial risk of future infringement\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/898/1217-01"
+      ]
+    },
+    {
+      "cite": "136 S. Ct. 1540",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12596653
+      ],
+      "weight": 2,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1545"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/136/1540-01"
+      ]
+    },
+    {
+      "cite": "136 S. Ct. 2131",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12597964
+      ],
+      "weight": 3,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "2143-44"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/136/2131-01"
+      ]
+    },
+    {
+      "cite": "845 F.3d 1168",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12178432
+      ],
+      "weight": 4,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1172",
+          "parenthetical": "citing Cuozzo Speed Techs., LLC v. Lee , --- U.S. ----, 136 S. Ct. 2131, 2143-44, 195 L.Ed.2d 423 (2016) "
+        },
+        {
+          "page": "1171",
+          "parenthetical": "stating that the injury must be real or imminent"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/845/1168-01"
+      ]
+    },
+    {
+      "cite": "U.S. Patent No. 8,511,605",
+      "category": "laws:admin_filing",
+      "reporter": "U.S. Patent",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "parenthetical": "\"the '605 patent\""
+        },
+        {
+          "page": "\u00b6 7"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "496 F.3d 1362",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5705267
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "1370-71"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/496/1362-01"
+      ]
+    },
+    {
+      "cite": "141 F.3d 364",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        191515,
+        3712534
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "367"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/141/0364-01",
+        "/us-app-dc/329/0401-01"
+      ]
+    },
+    {
+      "cite": "401 U.S. 617",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11714490
+      ],
+      "weight": 3,
+      "year": 1971,
+      "pin_cites": [
+        {
+          "page": "620"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/401/0617-01"
+      ]
+    },
+    {
+      "cite": "397 U.S. 150",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12050959
+      ],
+      "weight": 7,
+      "year": 1970,
+      "pin_cites": [
+        {
+          "page": "152"
+        },
+        {
+          "page": "151"
+        },
+        {
+          "page": "152"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/397/0150-01"
+      ]
+    },
+    {
+      "cite": "137 S. Ct. 954",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12609989
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "964",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/s-ct/137/0954-01"
+      ]
+    },
+    {
+      "cite": "35 U.S.C. \u00a7 141",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "635 F.3d 1345",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4030467
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1348",
+          "parenthetical": "recognizing that MedImmune rejected the requirement of a \"reasonable apprehension of imminent suit\" to establish declaratory judgment jurisdiction"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/635/1345-01"
+      ]
+    },
+    {
+      "cite": "549 U.S. 118",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3553591
+      ],
+      "weight": 3,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "parenthetical": "noting that the \"reasonable apprehension of suit\" test conflicts with Supreme Court precedent"
+        },
+        {
+          "parenthetical": "noting that the \"reasonable apprehension of suit\" test conflicts with Supreme Court precedent"
+        },
+        {
+          "parenthetical": "noting that the \"reasonable apprehension of suit\" test conflicts with Supreme Court precedent"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/549/0118-01"
+      ]
+    },
+    {
+      "cite": "904 F.3d 996",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518724
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1004",
+          "parenthetical": "holding that an IPR petitioner had suffered an injury in fact because it \"currently operates a plant capable of infringing\" the challenged patent"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/904/0996-01"
+      ]
+    },
+    {
+      "cite": "915 F.3d 764",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12520099
+      ],
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "769-70",
+          "parenthetical": "holding that an IPR petitioner lacked standing because it had abandoned its plans for developing a potentially infringing product, so it no longer faced a potential infringement suit"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/915/0764-01"
+      ]
+    },
+    {
+      "cite": "672 F.2d 1145",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1142391
+      ],
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "1151",
+          "parenthetical": "\"The contours of the injury-in-fact requirement, while not precisely defined, are very generous.\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/672/1145-01"
+      ]
+    },
+    {
+      "cite": "432 F.3d 286",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        556410
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "294"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/432/0286-01"
+      ]
+    },
+    {
+      "cite": "369 U.S. 186",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6166554
+      ],
+      "weight": 3,
+      "year": 1962,
+      "pin_cites": [
+        {
+          "page": "204"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/369/0186-01"
+      ]
+    },
+    {
+      "cite": "549 U.S. 497",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3553859
+      ],
+      "weight": 4,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "517"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/549/0497-01"
+      ]
+    },
+    {
+      "cite": "517 F.3d 1319",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "weight": 4,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "1333",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "1333"
+        },
+        {
+          "page": "1332",
+          "parenthetical": "noting that competitor standing \"relies on economic logic to conclude that a plaintiff will likely suffer an injury-in-fact when the government acts in a way that increases competition or aids the plaintiff's competitors \" (emphasis added)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "753 F.3d 1258",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5918243
+      ],
+      "weight": 4,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "1262"
+        },
+        {
+          "page": "1262",
+          "parenthetical": "noting that the appellant/petitioner \"is not engaged in any activity that would give rise to a possible infringement suit\""
+        },
+        {
+          "page": "1261",
+          "parenthetical": "recognizing that \"where Congress has accorded a procedural right to a litigant, such as the right to appeal an administrative decision, certain requirements of standing-namely immediacy and redressability, as well as prudential aspects that are not part of Article III-may be relaxed\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/753/1258-01"
+      ]
+    },
+    {
+      "cite": "524 U.S. 417",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11182643
+      ],
+      "weight": 8,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "433",
+          "parenthetical": "citing David & Pierce, supra , at 13-14"
+        },
+        {
+          "parenthetical": "citing David & Pierce, supra , at 13-14"
+        },
+        {
+          "parenthetical": "citing David & Pierce, supra , at 13-14"
+        },
+        {
+          "page": "433"
+        },
+        {
+          "page": "432"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/524/0417-01"
+      ]
+    },
+    {
+      "cite": "923 F.3d 1357",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12521035
+      ],
+      "weight": 6,
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "1365"
+        },
+        {
+          "page": "1365"
+        },
+        {
+          "page": "1363"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/923/1357-01"
+      ]
+    },
+    {
+      "cite": "35 U.S.C. \u00a7 315",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(e)"
+        },
+        {
+          "page": "(e)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "504 U.S. 555",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11730070
+      ],
+      "weight": 5,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "560",
+          "parenthetical": "internal quotation marks and citations omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks and citations omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks and citations omitted"
+        },
+        {
+          "page": "560"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/504/0555-01"
+      ]
+    },
+    {
+      "cite": "898 F.3d 1217",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517930
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1220"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/898/1217-01"
+      ]
+    },
+    {
+      "cite": "845 F.3d 1168",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12178432
+      ],
+      "weight": 2,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "1173-74",
+          "parenthetical": "noting that appellant \"does not contend that it faces risk of infringing the [challenged] patent, that it is an actual or prospective licensee of the patent, or that it otherwise plans to take any action that would implicate the patent\""
+        },
+        {
+          "page": "1171"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/845/1168-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1214,
+    "char_count": 29580,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2593821106944845
+    },
+    "sha256": "5c133718f6c79f4eae01ff0a3b4bd8c41fc754234fa73bd8e3660615d68c4938",
+    "simhash": "1:5dc27fa2631517c2",
+    "word_count": 4696
+  },
+  "last_updated": "2024-02-27T18:46:54.782589+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Reyna, Taranto, and Hughes, Circuit Judges."
+    ],
+    "parties": [
+      "GENERAL ELECTRIC COMPANY, Appellant\nv.\nUNITED TECHNOLOGIES CORPORATION, Appellee"
+    ],
+    "opinions": [
+      {
+        "text": "Concurring opinion filed by Circuit Judge Hughes.\nReyna, Circuit Judge.\nGeneral Electric Company petitioned the United States Patent Trial and Appeal Board for inter partes review of U.S. Patent No. 8,511,605. United Technologies Corporation is the assignee of the patent. The Board found the claims not obvious in view of the prior art. General Electric appeals. For the reasons discussed below, we hold that General Electric lacks Article III standing and accordingly, we dismiss the appeal.\nBACKGROUND\nAppellee United Technologies Corporation (\"UTC\") is the assignee of U.S. Patent No. 8,511,605 (\"the '605 patent\"). The '605 patent is generally directed to a gas turbine engine having a gear train driven by a spool with a low stage count low pressure turbine. '605 patent, Abstract. This particular gas turbine engine is designed for use in airplanes and has an axially movable variable area fan nozzle.\nOn January 29, 2016, General Electric Company (\"GE\") filed a petition for inter partes review (\"IPR\") challenging claims 1 and 2 of the '605 patent on grounds of anticipation and claims 7-11 of the '605 patent on grounds of obviousness. After institution, UTC disclaimed claims 1 and 2, leaving only claims 7-11 at issue. On June 26, 2017, the United States Patent Trial and Appeal Board (\"Board\") issued a Final Written Decision concluding that the preponderance of the evidence did not show claims 7-11 of the '605 patent to be unpatentable for obviousness. GE timely appealed to this court.\nOn December 29, 2017, UTC moved to dismiss GE's appeal for lack of standing. UTC asserted that GE lacked standing because it failed to demonstrate a sufficient injury in fact. In support, UTC pointed to this court's decisions holding that an appellant does not automatically possess standing to appeal an adverse Board decision by virtue of serving its petitions in the challenged IPR. GE submitted a response on January 16, 2018, including the Declaration of Alexander E. Long, GE's Chief IP Counsel and General Counsel of Engineering for GE Aviation (\"First Long Declaration\"). Mr. Long explained that the commercial aircraft engine business operates on a long life-cycle and that airplane engines are designed to meet certain specifications for certain aircraft. Because the design of aircraft engines can take eight years or more, GE develops new engines based on old designs. Mr. Long stated that, in the 1970s, GE developed a geared turbofan engine with a variable area fan nozzle for NASA. GE asserted that the '605 patent impedes its ability to use its 1970s geared-fan engine design as a basis for developing and marketing future geared turbofan engine designs with a variable area fan nozzle, thereby limiting the scope of GE's engine designs and its ability to compete in a highly regulated industry. Mr. Long also declared that designing around the '605 patent restricts GE's design choices and forced GE to incur additional research and development expenses.\nWe denied UTC's motion without addressing the merits and ordered UTC to brief the issue in its responsive appellate brief. The parties subsequently briefed the standing issue. GE argued that the injuries it suffered include statutory estoppel, economic loss, future threat of litigation, and competitive harm. GE relied on the First Long Declaration as evidence to show its injuries. UTC argued that GE suffered no injury in fact because: (1) UTC has not sued or threatened to sue GE for infringement of the '605 patent ; (2) GE does not offer evidence of a concrete and particularized economic injury because it has not developed an engine that implicates claims 7-11 of the '605 patent ; and (3) statutory estoppel and the competitive standing doctrine do not apply to GE.\nWe heard oral argument on November 7, 2018. Much of oral argument focused on whether GE had constitutional standing to appeal and whether general statements made in the First Long Declaration were sufficient to establish standing. We subsequently ordered GE to supplement the First Long Declaration and submit any additional declarations that would provide greater specificity regarding the asserted injury GE contends provides sufficient standing to appeal in this matter. We provided UTC with an opportunity to respond.\nEach party filed its supplemental submission. GE filed an additional declaration from Mr. Long on November 28, 2018 (\"Second Long Declaration\"). In his second declaration, Mr. Long stated that Boeing requested information from GE and several of its competitors for engine designs for future Boeing aircrafts. Mr. Long also noted that Boeing requested information regarding designs for both geared-fan engines and direct-drive engines.\nIn response to Boeing's request, GE researched a geared-fan engine design that \"would potentially implicate [UTC's] 605 Patent.\" Second Long Decl. \u00b6 5. GE asserts it \"expended time and money researching and further developing\" this technology for the potential business opportunity with Boeing. Id. \u00b6 7. Ultimately, GE chose not to submit to Boeing a geared-fan engine design and instead submitted a design for a direct-drive engine of the type used in GE's current engine designs. The record does not indicate why GE submitted a direct-drive engine design instead of a geared-fan engine design. Nor does Mr. Long state whether GE lost this particular bid. He contends only that to maintain GE's competitive position, it needs to be able to meet customer needs with a geared-fan engine design that may implicate the '605 patent.\nDISCUSSION\nNot every party to an IPR will have Article III standing to appeal a final written decision of the Board. See Phigenix, Inc. v. Immunogen, Inc. , 845 F.3d 1168, 1172 (Fed. Cir. 2017) (citing Cuozzo Speed Techs., LLC v. Lee , --- U.S. ----, 136 S. Ct. 2131, 2143-44, 195 L.Ed.2d 423 (2016) ). To establish standing, an appellant must have suffered an injury in fact that has a nexus to the challenged conduct and that can be ameliorated by the court. Id. at 1171 (citing Spokeo, Inc. v. Robins , --- U.S. ----, 136 S. Ct. 1540, 1545, 194 L.Ed.2d 635 (2016) ). The injury in fact must be \"concrete and particularized,\" not merely \"conjectural or hypothetical.\" JTEKT Corp. v. GKN Auto. Ltd. , 898 F.3d 1217, 1220 (Fed. Cir. 2018) (emphasis omitted) (first quoting Spokeo , 136 S. Ct. at 1545, and then quoting Lujan v. Defs. of Wildlife , 504 U.S. 555, 560, 112 S.Ct. 2130, 119 L.Ed.2d 351 (1992) ).\nGE has the burden of showing that it suffered an injury in fact sufficient to confer Article III standing to appeal. See DaimlerChrysler Corp. v. Cuno , 547 U.S. 332, 342, 126 S.Ct. 1854, 164 L.Ed.2d 589 (2006). It is undisputed that GE did not establish before the Board that it had standing to appeal the Board's Final Written Decision. See JTEKT , 898 F.3d at 1220. Therefore, GE must create a record in this court with the \"requisite proof of an injury in fact\" sufficient to show that it has standing to appeal. Id. (quoting Phigenix , 845 F.3d at 1171-72 ). As a result, GE has submitted two declarations from Mr. Long and has proffered three theories of harm to support standing: (1) competitive harm; (2) economic losses; and (3) estoppel under 35 U.S.C. \u00a7 315(e). For the reasons stated below, we reject GE's arguments.\nGE's purported competitive injuries are too speculative to support constitutional standing. See Phigenix , 845 F.3d at 1171 (stating that the injury must be real or imminent). Mr. Long's declarations are the only evidence of standing before the court, and neither shows a concrete and imminent injury to GE related to the '605 patent. Mr. Long does not assert that GE lost bids to customers because it could offer only a direct-drive engine design. Nor does Mr. Long attest that GE submitted a direct-drive engine design to Boeing because of the '605 patent. Mr. Long contends only that GE expended some unspecified amount of time and money to consider engine designs that could potentially implicate the '605 patent. Boeing may have asked for information regarding a possible geared-fan engine design, but there is no evidence that Boeing demanded or required an engine covered by claims 7-11 of the '605 patent, and there is no indication that GE lost the Boeing bid. The evidence shows that GE submitted to Boeing a direct-drive engine design, but there is no indication as to why it opted not to submit a geared-fan engine design. There is also no evidence that GE lost business or lost opportunities because it could not deliver a geared-fan engine covered by the upheld claims or any evidence that prospective bids require geared-fan engine designs. GE asserts only speculative harm untethered to the '605 patent. Without a real, particularized injury, GE lacks standing to appeal the IPR decision.\nWe recently addressed the \"competitor standing\" doctrine in AVX Corp. v. Presidio Components, Inc ., 923 F.3d 1357 (Fed. Cir. 2019). There, we concluded that the appellant lacked Article III standing because it had \"no present or nonspeculative interest in engaging in conduct even arguably covered by the patent claims at issue.\" Id. at 1363. We explained that competitor standing has been found when government action alters competitive conditions. Id. at 1364 (citing Clinton v. City of New York , 524 U.S. 417, 433, 118 S.Ct. 2091, 141 L.Ed.2d 393 (1998) ). In those circumstances, the government \"provides benefits to an existing competitor or expands the number of entrants in the petitioner's market, not an agency action that is, at most, the first step in the direction of future competition.\" Id. at 1364 (quoting New World Radio, Inc. v. FCC , 294 F.3d 164, 172 (D.C. Cir. 2002) ).\nFor the competitor standing doctrine to apply, the government action must change the competitive landscape by, for example, creating new benefits to competitors. Put another way, the government action must alter the status quo of the field of competition. Here, the Board's upholding of claims 7-11 of the '605 patent did not change the competitive landscape for commercial airplane engines. See id. (\"The government action is the upholding of specific patent claims, which do not address prices or introduce new competitors, but rather give exclusivity rights over precisely defined product features.\"). Therefore, we see no competitive harm to GE sufficient to establish standing to appeal.\nWe similarly reject GE's economic losses argument. GE contends that it has been injured by increased research and development costs sustained by attempts to design engines that could implicate the '605 patent and engines that do not implicate the '605 patent. Yet, GE provides no further details. It fails to provide an accounting for the additional research and development costs expended to design around the '605 patent. It provides no evidence that GE actually designed a geared-fan engine or that these research and development costs are tied to a demand by Boeing for a geared-fan engine. The only evidence that GE actually designed a geared-fan engine is the engine that it designed in the 1970s. Any economic loss deriving from the 1970s engine is not an imminent injury. See Lujan , 504 U.S. at 560, 112 S.Ct. 2130 (stating that injury in fact must be actual or imminent). Aside from a broad claim of research and development expenditures, GE has provided no evidence that these expenses were caused by the '605 patent. See id. (requiring \"a causal connection between the injury and the conduct complained of\"). Therefore, GE's broad claim of economic loss is insufficient to confer standing.\nThere is also no evidence that GE is in the process of designing an engine covered by claims 7-11 of the '605 patent. Nor has GE demonstrated that it has definite plans to use the claimed features of the '605 patent in the airplane engine market. See JTEKT , 898 F.3d at 1221 (holding appellant lacked standing because it had not established that it had \"concrete plans for future activity that creates a substantial risk of future infringement\"). UTC has not sued or threatened to sue GE for infringing the '605 patent. Appellee Br. 36. Therefore, GE's future harm argument fails.\nGE also contends that estoppel under 35 U.S.C. \u00a7 315(e) creates injury in fact for standing purposes. We have previously rejected the estoppel argument as a basis for Article III standing. Where, as here, the appellant does not currently practice the patent claims and the injury is speculative, we have held that the estoppel provision does not amount to an injury in fact. See, e.g. , AVX Corp. , 923 F.3d at 1362-63 ; Phigenix , 845 F.3d at 1175-76 ; Consumer Watchdog v. Wis. Alumni Research Found. , 753 F.3d 1258, 1262 (Fed. Cir. 2014). We see no need to reach a different conclusion on this record.\nCONCLUSION\nWe have considered GE's remaining arguments and find them unpersuasive. We hold that GE lacks Article III standing to appeal the Board's Final Written Decision and therefore dismiss the appeal.\nDISMISSED\nCOSTS\nNo costs.",
+        "type": "majority",
+        "author": "Concurring opinion filed by Circuit Judge Hughes."
+      },
+      {
+        "text": "Hughes, Circuit Judge, concurring.\nBecause our recent precedent compels holding that General Electric Company lacks Article III standing here, I concur in the judgment. I write separately because I believe that precedent has developed an overly rigid and narrow standard for Article III standing in the context of appeals from inter partes review proceedings.\nOur recent decision in AVX Corp. v. Presidio Components, Inc. , 923 F.3d 1357 (Fed. Cir. 2019), which I believe was incorrectly decided, takes a patent-specific approach to the doctrine of competitor standing that is out of step with Supreme Court precedent. The Court has repeatedly held that government actions altering the competitive landscape of a market cause competitors probable economic injury sufficient for Article III standing. And I do not believe that a Board decision erroneously upholding a competitor's patent in an IPR is meaningfully different from the type of government actions held to invoke competitor standing in those cases. Thus, absent our holding in AVX Corp. , I would conclude that GE possesses Article III standing in this appeal.\nI\nThe parties here are direct competitors in the commercial aircraft turbofan engine market. GE, both itself and through joint ventures, \"designs, tests, certifies, manufactures, and supplies aircraft engines\" for major airplane manufacturers, or \"airframers,\" such as Boeing and Airbus. Decl. of Alexander E. Long 2 \u00b6 3, ECF No. 36. During the design process, \"airframers explain to GE their needs and requirements for turbofan engines, to enable GE to provide competitive offerings that will satisfy the airframers' requirements.\" Suppl. Decl. of Alexander E. Long 2 \u00b6 3, ECF No. 64.\nDue to the safety and regulatory requirements of the turbofan engine market, \"designing, developing, testing, and certifying a new aircraft engine can take eight to ten years or longer.\" Long Decl. 3 \u00b6 6. And \"[t]here is enormous up-front investment required.\" Long Decl. 4 \u00b6 7. Accordingly, \"new aircraft engine design work necessarily begins years before there is any commercial sale or offer for sale of the final engine.\" Long Decl. 4 \u00b6 8.\nAccording to GE, competition in the aircraft engine market is fierce, and the market is dominated by three major players: GE, Universal Technologies Corporation, and Rolls-Royce. GE petitioned for IPR of a patent owned by UTC. That patent is directed to a turbofan engine design - the very type of technology over which GE and UTC fiercely compete. The Board decided that GE failed to show that the challenged claims were unpatentable, and GE appealed that decision to this Court.\nUTC filed a motion to dismiss the appeal, arguing that GE lacks Article III standing because GE does not produce or plan to produce an engine that would infringe its patent. Relying on precedent of both this Court and the Supreme Court, GE argued that the Board's decision to uphold UT's patent caused GE a concrete competitive injury sufficient to satisfy Article III standing.\nII\nThe sole issue with respect to standing in this case is whether GE has shown that it has suffered an injury-in-fact. An injury-in-fact requires a party to establish \"an invasion of a legally protected interest which is (a) concrete and particularized, and (b) actual or imminent, not conjectural or hypothetical.\" Lujan v. Defs. of Wildlife , 504 U.S. 555, 560, 112 S.Ct. 2130, 119 L.Ed.2d 351 (1992) (internal quotation marks and citations omitted). This requirement \"ensure[s] that the plaintiffs have a stake in the fight and will therefore diligently prosecute the case ... while, at the same time, ensuring that the claim is not abstract or conjectural so that resolution by the judiciary is both manageable and proper.\" Canadian Lumber Trade All. v. United States , 517 F.3d 1319, 1333 (Fed. Cir. 2008) (internal quotation marks omitted); see also Massachusetts v. E.P.A. , 549 U.S. 497, 517, 127 S.Ct. 1438, 167 L.Ed.2d 248 (2007) (\"At bottom, 'the gist of the question of standing' is whether petitioners have 'such a personal stake in the outcome of the controversy as to assure that concrete adverseness which sharpens the presentation of issues upon which the court so largely depends for illumination.' \" (quoting Baker v. Carr , 369 U.S. 186, 204, 82 S.Ct. 691, 7 L.Ed.2d 663 (1962) )). But \"[i]njury-in-fact is not Mount Everest.\" Canadian Lumber , 517 F.3d at 1333 (quoting Danvers Motor Co. v. Ford Motor Co. , 432 F.3d 286, 294 (3d Cir. 2005) ); accord Bowman v. Wilson , 672 F.2d 1145, 1151 (3d Cir. 1982) (\"The contours of the injury-in-fact requirement, while not precisely defined, are very generous.\").\nMany of our recent cases dealing with injury-in-fact in IPR appeals have focused on the appellant/petitioner's likelihood of facing a future infringement suit. See JTEKT Corp. v. GKN Auto. LTD. , 898 F.3d 1217, 1220 (Fed. Cir. 2018) (noting that \"typically in order to demonstrate the requisite injury in an IPR appeal, the appellant/petitioner must show that it is engaged or will likely engage 'in an[ ] activity that would give rise to a possible infringement suit,' ... or has contractual rights that are affected by a determination of patent validity\" (quoting Consumer Watchdog v. Wis. Alumni Research Found. , 753 F.3d 1258, 1262 (Fed. Cir. 2014) )); see also Momenta Pharm., Inc. v. Bristol-Myers Squibb Co. , 915 F.3d 764, 769-70 (Fed. Cir. 2019) (holding that an IPR petitioner lacked standing because it had abandoned its plans for developing a potentially infringing product, so it no longer faced a potential infringement suit); E.I. Dupont de Nemours & Co. v. Synvina C.V. , 904 F.3d 996, 1004 (Fed. Cir. 2018) (holding that an IPR petitioner had suffered an injury in fact because it \"currently operates a plant capable of infringing\" the challenged patent); Phigenix, Inc. v. Immunogen, Inc. , 845 F.3d 1168, 1173-74 (Fed. Cir. 2017) (noting that appellant \"does not contend that it faces risk of infringing the [challenged] patent, that it is an actual or prospective licensee of the patent, or that it otherwise plans to take any action that would implicate the patent\"); Consumer Watchdog , 753 F.3d at 1262 (noting that the appellant/petitioner \"is not engaged in any activity that would give rise to a possible infringement suit\"). But these cases do not suggest that the only means for an IPR petitioner to establish injury-in-fact is to show a reasonable likelihood of an imminent infringement suit. Such a reading would conflate the injury-in-fact analysis with the \"reasonable apprehension of imminent suit\" test for declaratory judgment jurisdiction, which the Supreme Court overruled. See MedImmune, Inc. v. Genentech, Inc. , 549 U.S. 118, 132 n. 11, 127 S.Ct. 764, 166 L.Ed.2d 604 (2007) (noting that the \"reasonable apprehension of suit\" test conflicts with Supreme Court precedent); see also ABB Inc. v. Cooper Indus., LLC , 635 F.3d 1345, 1348 (Fed. Cir. 2011) (recognizing that MedImmune rejected the requirement of a \"reasonable apprehension of imminent suit\" to establish declaratory judgment jurisdiction).\nThe risk of a future infringement suit is not the only way an IPR petitioner can show injury-in-fact. \"The [Supreme Court] routinely recognizes probable economic injury resulting from [government actions] that alter competitive conditions as sufficient to satisfy the [Article III injury-in-fact requirement].\" 3 K. Davis & R. Pierce, Administrative Law Treatise 13-14 (3d ed. 1994); see also Clinton v. City of New York , 524 U.S. 417, 433, 118 S.Ct. 2091, 141 L.Ed.2d 393 (1998) (citing David & Pierce, supra , at 13-14). This Court's recent decision in AVX Corp. addressed the competitor standing doctrine in IPR appeals. We held that a patent could cause an IPR petitioner competitive harm if the petitioner \"was currently using the claimed features [of the challenged patent] or nonspeculatively planning to do so in competition.\" AVX Corp. , 923 F.3d at 1365. But if the petitioner is not currently engaged in infringing activity and has no concrete plans to do so in the imminent future, we held that the Board's decision to uphold a challenged patent does not invoke the competitor standing doctrine. Id.\nThus, even when the parties are direct competitors, our cases require an unsuccessful IPR appellant/petitioner to show concrete current or future plans to infringe the challenged patent. I do not believe that Article III requires such a showing, particularly where Congress has provided IPR petitioners a procedural right of appeal. See 35 U.S.C. \u00a7 141 ; see also Consumer Watchdog , 753 F.3d at 1261 (recognizing that \"where Congress has accorded a procedural right to a litigant, such as the right to appeal an administrative decision, certain requirements of standing-namely immediacy and redressability, as well as prudential aspects that are not part of Article III-may be relaxed\").\nAVX Corp. found that the \"government action at issue [in IPR] is quite different\" from the government action in other cases applying competitor standing. AVX Corp. , 923 F.3d at 1365. According to AVX Corp. , the \"feature-specific exclusivity right [of a patent] does not, by the operation of ordinary economic forces, naturally harm a firm just because it is a competitor in the same market as the beneficiary of the government action (the patentee).\" Id. This analysis sets patents apart from other applications of competitor standing on the basis that a patent's exclusivity right is different than other interests. The Supreme Court, however, has made clear that \"[p]atent law is governed by the same common-law principles, methods of statutory interpretation, and procedural rules as other areas of civil litigation.\" SCA Hygiene Prods. Aktiebolag v. First Quality Baby Prods., LLC , --- U.S. ----, 137 S. Ct. 954, 964, 197 L.Ed.2d 292 (2017) (internal quotation marks omitted).\nOur patent-specific treatment of competitor standing is out of step with its application in other areas. The Supreme Court has repeatedly found standing where government action subjects the plaintiff to increased competition because of the probable economic injury that accompanies it. See Clinton , 524 U.S. at 433, 118 S.Ct. 2091 ; Ass'n of Data Processing Serv. Orgs., Inc. , 397 U.S. 150, 152, 90 S.Ct. 827, 25 L.Ed.2d 184 (1970) ; Inv. Co. Inst. v. Camp , 401 U.S. 617, 620, 91 S.Ct. 1091, 28 L.Ed.2d 367 (1971) ; accord Canadian Lumber , 517 F.3d at 1334 ; La. Energy & Power Auth. v. FERC , 141 F.3d 364, 367 (D.C. Cir. 1998). In Data Processing , for example, the petitioners - organizations who sold data processing services to businesses - challenged a ruling by the Comptroller of Currency that allowed national banks to provide data processing services to other banks and bank customers. 397 U.S. at 151, 90 S.Ct. 827. The Supreme Court held that the Comptroller's ruling caused petitioners an injury-in-fact because the resulting increase in competition would likely cause petitioners future economic harm. Id. at 152, 90 S.Ct. 827. Similarly, in Clinton the Supreme Court held that a farmers' cooperative suffered a concrete injury when the president cancelled a tax benefit enacted to facilitate the purchase of processing plants by such cooperatives. 524 U.S. at 432, 118 S.Ct. 2091. The Court found that \"[b]y depriving [the cooperative] of their statutory bargaining chip, the cancellation inflicted a sufficient likelihood of economic injury to establish standing under our precedents.\" Id.\nIn both Data Processing and Clinton , the government action subjected the challenger to increased competition. The exclusionary right of a patent, however, allows the patent owner to exclude others from competing in its market. But like an action that increases competition, government action that excludes an appellant from effectively competing in a market, such as erroneously upholding its competitor's patent, provides a benefit to the competitor and causes competitive harm to the appellant that presumptively leads to economic injury. See Canadian Lumber , 517 F.3d at 1332 (noting that competitor standing \"relies on economic logic to conclude that a plaintiff will likely suffer an injury-in-fact when the government acts in a way that increases competition or aids the plaintiff's competitors \" (emphasis added)). Thus, I do not believe there is any sound basis for AVX Corp. 's patent-specific treatment of the competitor standing doctrine.\nThe facts of this case further demonstrate why AVX Corp. 's patent-specific approach is incorrect. GE and UTC are direct competitors in a fiercely competitive market that requires significant up-front investment years before any profits can be realized. During the engine design process, \"airframers explain to GE their needs and requirements for turbofan engines, to enable GE to provide competitive offerings that will satisfy the airframers' requirements.\" Long Suppl. Decl. at 2 \u00b6 3. According to GE, one such air-framer specifically requested that GE research an engine design that would implicate UTC's patent. But at least until that patent expires, GE cannot design and produce such an engine without risking infringement. Thus, UTC's patent effectively precludes GE from meeting its customer's design needs without spending additional resources to design around the patent. I fail to see how this costly competitive burden does not constitute a \"concrete and particularized\"\nharm to GE. See Lujan , 504 U.S. at 560, 112 S.Ct. 2130. And GE certainly has a \"personal stake in the outcome of th[is] controversy,\" which concerns the validity of a patent owned by its direct competitor covering technology over which the parties compete. E.P.A. , 549 U.S. at 517, 127 S.Ct. 1438 (internal quotation marks omitted).\nFinally, as the majority correctly notes, we have repeatedly held that the estoppel provisions of 35 U.S.C. \u00a7 315(e), standing alone, do not create an injury. Maj. Op. 1354-55. But the effects of that estoppel have especially significant impact where the parties are direct competitors. Unlike the appellant/petitioners in Consumer Watchdog or Phigenix , who did not manufacture or sell products in the market involving the patented technology, see Consumer Watchdog , 753 F.3d at 1260 ; Phigenix , 845 F.3d at 1171, GE is one of three major actors in the turbofan engine market. Although we have not decided whether \u00a7 315(e) would estop an IPR petitioner who lacked standing to appeal an unfavorable Board decision, see AVX Corp. , 923 F.3d at 1363, until we do, UTC's patent is an even greater competitive deterrent for GE. GE faces uncertainty as to whether it is estopped from raising an invalidity defense on any ground \"that [it] raised or reasonably could have raised during\" its IPR. See \u00a7 315(e)(2). This uncertainty makes facing potential infringement litigation significantly more impactful on GE's future design choices. Thus, while I agree that 35 U.S.C. \u00a7 315(e) estoppel alone does not create an injury-in-fact, its potential effects in this case underscore the problems with our increasingly narrow approach to Article III standing.\nAbsent AVX Corp. , which I believe was incorrectly decided, I would conclude that GE has established Article III standing to appeal the Board's adverse decision. Because I am bound by that precedent, however, I respectfully concur only in the judgment.\nIn Biotechnology Industry Organization v. District of Columbia , we found that \"[w]hether the Act is enforced or not,\" pharmaceutical manufacturers challenging a statute that penalized selling prescription drugs at \"excessive price[s]\" could demonstrate injury-in-fact due to the \"actual administrative costs\" they would necessarily incur in complying with the statute. 496 F.3d 1362, 1370-71 (Fed. Cir. 2007). Those \"actual administrative costs\" are analogous to the increased research and design costs that GE has allegedly suffered due to UTC's patent.",
+        "type": "concurrence",
+        "author": "Hughes, Circuit Judge, concurring."
+      }
+    ],
+    "attorneys": [
+      "Brian E. Ferguson, Weil, Gotshal & Manges LLP, Washington, DC, argued for appellant. Also represented by Stephen Bosco, Christopher Pepe ; Anish R. Desai, New York, NY.",
+      "Michael Valaik, Bartlit Beck Herman Palenchar & Scott LLP, Chicago, IL, argued for appellee. Also represented by Patrick Joseph Coyne, Michael Andrew Holtman, Sydney Kestle, Jeffrey Curtiss Totten, Finnegan, Henderson, Farabow, Garrett & Dunner, LLP, Washington, DC; Benjamin Aaron Saidman, Atlanta, GA."
+    ],
+    "corrections": "",
+    "head_matter": "GENERAL ELECTRIC COMPANY, Appellant\nv.\nUNITED TECHNOLOGIES CORPORATION, Appellee\n2017-2497\nUnited States Court of Appeals, Federal Circuit.\nDecided: July 10, 2019\nBrian E. Ferguson, Weil, Gotshal & Manges LLP, Washington, DC, argued for appellant. Also represented by Stephen Bosco, Christopher Pepe ; Anish R. Desai, New York, NY.\nMichael Valaik, Bartlit Beck Herman Palenchar & Scott LLP, Chicago, IL, argued for appellee. Also represented by Patrick Joseph Coyne, Michael Andrew Holtman, Sydney Kestle, Jeffrey Curtiss Totten, Finnegan, Henderson, Farabow, Garrett & Dunner, LLP, Washington, DC; Benjamin Aaron Saidman, Atlanta, GA.\nBefore Reyna, Taranto, and Hughes, Circuit Judges."
+  },
+  "file_name": "1349-01",
+  "first_page_order": 1349,
+  "last_page_order": 1359
+}

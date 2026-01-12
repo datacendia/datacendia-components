@@ -1,0 +1,59 @@
+{
+  "id": 12433936,
+  "name": "Maestas v. Utah",
+  "name_abbreviation": "Maestas v. Utah",
+  "decision_date": "2013-03-25",
+  "docket_number": "No. 12-7886",
+  "first_page": "1252",
+  "last_page": "1252",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1252"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 9,
+    "char_count": 64,
+    "ocr_confidence": 0.636,
+    "sha256": "3e49affe8318bc4dc64b03f10fecc890bd071af964a0e7cdf3205f487aac5c33",
+    "simhash": "1:58314ad2c0e5544e",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Maestas v. Utah."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Utah. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7886.\nMaestas v. Utah."
+  },
+  "file_name": "1252-02",
+  "first_page_order": 1328,
+  "last_page_order": 1328
+}

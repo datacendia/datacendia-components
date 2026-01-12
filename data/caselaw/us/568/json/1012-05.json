@@ -1,0 +1,59 @@
+{
+  "id": 12422665,
+  "name": "Lotches v. Oregon",
+  "name_abbreviation": "Lotches v. Oregon",
+  "decision_date": "2012-11-13",
+  "docket_number": "No. 12-5594",
+  "first_page": "1012",
+  "last_page": "1012",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1012"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 67,
+    "ocr_confidence": 0.722,
+    "sha256": "924d45b8c40b924308f16d94eee04f43714f312a7523039c1b929eb75eb32646",
+    "simhash": "1:50292dff3da9656b",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lotches v. Oregon."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5594.\nLotches v. Oregon."
+  },
+  "file_name": "1012-05",
+  "first_page_order": 1088,
+  "last_page_order": 1088
+}

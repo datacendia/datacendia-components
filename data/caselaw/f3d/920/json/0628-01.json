@@ -1,0 +1,687 @@
+{
+  "id": 12520714,
+  "name": "UNITED STATES of America, Plaintiff-Appellee, v. Christopher JOHNSON, Defendant-Appellant.",
+  "name_abbreviation": "U.S. v. Johnson",
+  "decision_date": "2019-04-09",
+  "docket_number": "No. 18-10016",
+  "first_page": "628",
+  "last_page": "639",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "920 F.3d 628"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "9th Cir.",
+    "id": 18869,
+    "name": "United States Court of Appeals for the Ninth"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "18 U.S.C. \u00a7 3559",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(5)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "901 F.3d 1060",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518288
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "1066-68"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/901/1060-01"
+      ]
+    },
+    {
+      "cite": "299 P.3d 1263",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2013,
+      "opinion_index": 0
+    },
+    {
+      "cite": "156 Cal.Rptr.3d 307",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2013,
+      "opinion_index": 0
+    },
+    {
+      "cite": "56 Cal.4th 782",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        4225010
+      ],
+      "year": 2013,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/56/0782-01"
+      ]
+    },
+    {
+      "cite": "447 P.2d 117",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1968,
+      "pin_cites": [
+        {
+          "page": "126"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "73 Cal.Rptr. 21",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1968,
+      "opinion_index": 0
+    },
+    {
+      "cite": "69 Cal.2d 613",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2304315
+      ],
+      "year": 1968,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/69/0613-01"
+      ]
+    },
+    {
+      "cite": "33 Cal.Rptr. 31",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1963,
+      "pin_cites": [
+        {
+          "page": "37"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "219 Cal.App.2d 330",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2132888
+      ],
+      "year": 1963,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/219/0330-01"
+      ]
+    },
+    {
+      "cite": "928 P.2d 1171",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "1176",
+          "parenthetical": "observing that California law \"rests the decision whether to reduce a wobbler solely 'in the discretion of the court' \""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "60 Cal.Rptr.2d 93",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1997,
+      "pin_cites": [
+        {
+          "parenthetical": "observing that California law \"rests the decision whether to reduce a wobbler solely 'in the discretion of the court' \""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "14 Cal.4th 968",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        341412
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "parenthetical": "observing that California law \"rests the decision whether to reduce a wobbler solely 'in the discretion of the court' \""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/14/0968-01"
+      ]
+    },
+    {
+      "cite": "560 U.S. 563",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12454864,
+        3641562
+      ],
+      "weight": 3,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "580"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/177/0068-01",
+        "/us/560/0563-01"
+      ]
+    },
+    {
+      "cite": "544 U.S. 13",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5879404
+      ],
+      "weight": 3,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "24",
+          "parenthetical": "plurality opinion"
+        },
+        {
+          "parenthetical": "plurality opinion"
+        },
+        {
+          "parenthetical": "plurality opinion"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/544/0013-01"
+      ]
+    },
+    {
+      "cite": "634 F.3d 1070",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4094050
+      ],
+      "year": 2011,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/634/1070-01"
+      ]
+    },
+    {
+      "cite": "549 U.S. 183",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3553841
+      ],
+      "weight": 3,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "186"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/549/0183-01"
+      ]
+    },
+    {
+      "cite": "566 F.3d 943",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3648532
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "946"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/566/0943-01"
+      ]
+    },
+    {
+      "cite": "466 F.3d 1121",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3775884
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "1125",
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/466/1121-01"
+      ]
+    },
+    {
+      "cite": "495 U.S. 575",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        634101
+      ],
+      "weight": 3,
+      "year": 1990,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/495/0575-01"
+      ]
+    },
+    {
+      "cite": "912 F.3d 1215",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12519642
+      ],
+      "weight": 3,
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "1224"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/912/1215-01"
+      ]
+    },
+    {
+      "cite": "450 F.3d 1010",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3086799
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "1018-20"
+        },
+        {
+          "page": "1018-20"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/450/1010-01"
+      ]
+    },
+    {
+      "cite": "16 Cal.Rptr. 12",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1961,
+      "pin_cites": [
+        {
+          "page": "13"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "195 Cal.App.2d 735",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2322539
+      ],
+      "year": 1961,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/195/0735-01"
+      ]
+    },
+    {
+      "cite": "967 F.2d 287",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10517454
+      ],
+      "weight": 2,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "293",
+          "parenthetical": "quoting People v. Smith , 195 Cal.App.2d 735, 16 Cal.Rptr. 12, 13 (1961) "
+        },
+        {
+          "page": "293"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/967/0287-01"
+      ]
+    },
+    {
+      "cite": "220 F.3d 1159",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11213417
+      ],
+      "year": 2000,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/220/1159-01"
+      ]
+    },
+    {
+      "cite": "581 F.3d 1186",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5755018
+      ],
+      "weight": 5,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "1188"
+        },
+        {
+          "page": "1189"
+        },
+        {
+          "page": "1188"
+        },
+        {
+          "page": "1189",
+          "parenthetical": "internal quotation marks and alterations omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/581/1186-01"
+      ]
+    },
+    {
+      "cite": "441 F.3d 864",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1037230
+      ],
+      "weight": 4,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "872"
+        },
+        {
+          "page": "872"
+        },
+        {
+          "page": "871"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/441/0864-01"
+      ]
+    },
+    {
+      "cite": "163 P.2d 692",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "weight": 2,
+      "year": 1945,
+      "pin_cites": [
+        {
+          "page": "696"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "27 Cal.2d 220",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2189877
+      ],
+      "year": 1945,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/27/0220-01"
+      ]
+    },
+    {
+      "cite": "538 U.S. 11",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9030344
+      ],
+      "weight": 7,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "16",
+          "parenthetical": "quoting People v. Williams , 27 Cal.2d 220, 163 P.2d 692, 696 (1945) "
+        },
+        {
+          "parenthetical": "quoting People v. Williams , 27 Cal.2d 220, 163 P.2d 692, 696 (1945) "
+        },
+        {
+          "parenthetical": "quoting People v. Williams , 27 Cal.2d 220, 163 P.2d 692, 696 (1945) "
+        },
+        {
+          "page": "16"
+        },
+        {
+          "page": "28-29"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/538/0011-01"
+      ]
+    },
+    {
+      "cite": "564 F.3d 1047",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4239938
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "1049"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/564/1047-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 841",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 U.S.C. \u00a7 5845",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "506 F.3d 738",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6045815,
+        6047343
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "740-41"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/506/736-738-01",
+        "/f3d/506/736-738-02"
+      ]
+    },
+    {
+      "cite": "578 F.3d 1103",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4048456
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "1106",
+          "parenthetical": "quoting United States v. Rodriguez-Guzman , 506 F.3d 738, 740-41 (9th Cir. 2007) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/578/1103-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7\u00a7 922",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(g)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "569 U.S. 184",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12697041
+      ],
+      "weight": 14,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "190"
+        },
+        {
+          "page": "192"
+        },
+        {
+          "page": "190"
+        },
+        {
+          "page": "197-98"
+        },
+        {
+          "page": "188"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/569/0184-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1014,
+    "char_count": 26853,
+    "pagerank": {
+      "raw": 4.89950402824256e-08,
+      "percentile": 0.3090185952926213
+    },
+    "sha256": "6843706e365f9e2af613ab32aafd157d1a348257a8cdd996f6273ee7a61bbc43",
+    "simhash": "1:b44afe364a06741b",
+    "word_count": 4330
+  },
+  "last_updated": "2024-02-27T18:46:47.899627+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee,\nv.\nChristopher JOHNSON, Defendant-Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "BENNETT, Circuit Judge:\nChristopher Johnson pleaded guilty to one count of being a felon in possession of a firearm. The district court assigned Johnson a base offense level of 20 based on a determination that Johnson had previously been convicted of a \"crime of violence\" as that term is used in \u00a7 2K2.1(a)(4)(A) of the U.S. Sentencing Guidelines Manual (\"USSG\" or the \"Guidelines\"), and sentenced Johnson to 30 months' imprisonment.\nOn appeal, Johnson argues that the district court erred by applying a crime-of-violence enhancement to his offense level. We first consider whether Johnson's concessions in the district court foreclose his newly minted argument that his underlying conviction for violation of California Penal Code (\"CPC\") \u00a7 245(a)(1) was not actually a felony under California law. Reviewing de novo, we also examine Johnson's CPC \u00a7 245(a)(1) conviction to determine whether it truly was for a felony, and if so, whether, in light of Moncrieffe v. Holder , 569 U.S. 184, 133 S.Ct. 1678, 185 L.Ed.2d 727 (2013), a felony conviction for violating CPC \u00a7 245(a)(1) can be a predicate offense for a crime-of-violence enhancement. Because the answer to all three questions is yes, we affirm Johnson's sentence.\nI.\nA grand jury in the District of Nevada indicted Johnson for possession of a firearm after having been convicted of a felony, in violation of 18 U.S.C. \u00a7\u00a7 922(g)(1) and 924(a)(2). Johnson pleaded guilty without a plea agreement.\nThe U.S. Probation Office assigned Johnson a base offense level of 20 pursuant to USSG \u00a7 2K2.1(a)(4)(A), because of Johnson's prior conviction for a felony crime of violence. The predicate crime was Johnson's 2014 California conviction for assault with a deadly weapon (not a firearm), in violation of CPC \u00a7 245(a)(1), for which Johnson served six months in county jail. Probation reduced the offense level by three for acceptance of responsibility, resulting in a total offense level of seventeen. Johnson's advisory Guidelines range was thirty-to-thirty-seven months.\nJohnson objected to Probation's classification of his assault-with-a-deadly-weapon conviction as a crime of violence on the basis that the state offense lacked the mens rea to qualify as a crime of violence under the categorical approach. Johnson did not, however, object to Probation's classification of his CPC \u00a7 245(a)(1) conviction as a felony, or otherwise assert that the conviction was not for an offense punishable by more than one year in prison. Rather, he conceded in his sentencing memorandum that \"[h]e has two prior felony convictions .... [He] received his second felony conviction for Assault with a Deadly Weapon-Not a Firearm, for which he received a suspended six-month jail sentence and three years of probation.\" The district judge asked whether Johnson or his attorney found any \"errors or discrepancies\" in the presentence investigation report (\"PSR\"); both answered that they had not.\nThe district court held that a conviction under CPC \u00a7 245(a)(1) is a crime of violence, and overruled Johnson's objections to the PSR. The court sentenced Johnson to thirty months' imprisonment, the low end of his advisory Guidelines range. Johnson timely appealed.\nII.\n\"We review 'de novo a district court's determination that a prior conviction qualifies as a \"crime of violence\" under the Guidelines ....\" United States v. Saavedra-Velazquez , 578 F.3d 1103, 1106 (9th Cir. 2009) (quoting United States v. Rodriguez-Guzman , 506 F.3d 738, 740-41 (9th Cir. 2007) ).\nThe parties dispute the proper standard of review for the sub-issue whether Johnson's underlying California conviction for assault with a deadly weapon was punishable by more than one year in prison. Johnson argues that we should review this issue de novo because he has merely advanced a new argument in support of his preserved claim that the crime-of-violence enhancement was improper. The government urges us to review for plain error only because Johnson failed to make this argument in the district court and because our consideration of this argument would invite improper appellate fact-finding.\nAs we explain below, this dispute is immaterial to our analysis because Johnson's argument fails under plain error and de novo review. We believe, however, that resolution of this sub-issue is actually governed by Federal Rules of Criminal Procedure Rule 32(i)(3)(A), which permits a district court to find as facts, uncontroverted factual statements in the PSR.\nIII.\nThe Guidelines assign a base offense level of twenty for the offense of unlawful firearms possession by a felon if \"the defendant committed any part of the instant offense subsequent to sustaining one felony conviction of either a crime of violence or a controlled substance offense.\" USSG \u00a7 2K2.1(a)(4)(A). The Guidelines define \"crime of violence\" as\nany offense under federal or state law, punishable by imprisonment for a term exceeding one year, that-\n(1) has an element the use, attempted use, or threatened use of physical force against the person of another, or\n(2) is murder, voluntary manslaughter, kidnapping, aggravated assault, a forcible sex offense, robbery, arson, extortion, or the use or unlawful possession of a firearm described in 26 U.S.C. \u00a7 5845(a) or explosive material as defined in 18 U.S.C. \u00a7 841(c).\nUSSG \u00a7 4B1.2(a).\nThe two issues presented in this appeal are whether Johnson's assault-with-a-deadly-weapon conviction was for an offense \"punishable by imprisonment for a term exceeding one year,\" and if so, whether CPC \u00a7 245(a)(1) can ever, under the categorical approach, be a crime of violence after Moncrieffe .\nA.\nJohnson first argues that, by operation of California law, his conviction was for a misdemeanor, not a felony. Because under California law, a misdemeanor is not punishable by a prison term exceeding one year, Johnson asserts that the crime-of-violence enhancement should not apply. Ultimately, Johnson's concessions in the district court foreclose this argument.\nThe relevant Commentary to the Guidelines defines \"felony conviction\" as \"a prior adult federal or state conviction for an offense punishable by death or imprisonment for a term exceeding one year, regardless of whether such offense is specifically designated as a felony and regardless of the actual sentence imposed.\" USSG \u00a7 2K2.1 cmt. n.1. The underlying statute of conviction here provides:\nAny person who commits an assault upon the person of another with a deadly weapon or instrument other than a firearm shall be punished by imprisonment in the state prison for two, three, or four years, or in a county jail for not exceeding one year, or by a fine not exceeding ten thousand dollars ($ 10,000), or by both the fine and imprisonment.\nCPC \u00a7 245(a)(1).\nThe variety of punishments that a defendant can receive for being convicted under CPC \u00a7 245(a)(1) demonstrate that the statute is a wobbler. \"In the parlance of California law enforcement, a violation of the statute is a 'wobbler' that may be punished either as a felony or as a misdemeanor.\" United States v. Diaz-Argueta , 564 F.3d 1047, 1049 (9th Cir. 2009). \"Under California law, a 'wobbler' is presumptively a felony and 'remains a felony except when the discretion is actually exercised' to make the crime a misdemeanor.\" Ewing v. California , 538 U.S. 11, 16, 123 S.Ct. 1179, 155 L.Ed.2d 108 (2003) (quoting People v. Williams , 27 Cal.2d 220, 163 P.2d 692, 696 (1945) ). \"To determine whether a conviction for a wobbler is an offense punishable by a term of imprisonment exceeding one year under ... the Guidelines, the sentencing court must look to state law: Did the California court's treatment of the offense convert it into a 'misdemeanor for all purposes' under [CPC] section 17(b)?\" United States v. Bridgeforth , 441 F.3d 864, 872 (9th Cir. 2006). If not, the offense remains a felony. A conviction becomes a \"misdemeanor for all purposes\" when certain conditions are met, including, as relevant here: \"[a]fter a judgment imposing a punishment other than imprisonment in the state prison or\" \"[w]hen the court grants probation to a defendant\" without imposition of a sentence \"and at the time of granting probation ... declares the offense to be a misdemeanor.\" CPC \u00a7 17(b)(1) & (3).\nJohnson argues that his sentence of six months in the county jail conclusively establishes that he received a \"punishment other than imprisonment in the state prison,\" thus converting his CPC \u00a7 245(a)(1) conviction into a \"misdemeanor for all purposes\" under CPC \u00a7 17(b)(1). In addition, Johnson asks us to take judicial notice of several documents related to sentencing in his underlying CPC \u00a7 245(a)(1) conviction that, in Johnson's view, establish that his sentence converted his wobbler conviction into a misdemeanor.\nWe reject Johnson's belated attempts to characterize his underlying California conviction as a misdemeanor. Pursuant to Rule 32(i)(3)(A), the district court \"may accept any undisputed portion of the presentence report as a finding of fact.\" The PSR clearly characterized Johnson's assault-with-a-deadly-weapon conviction as a felony. As discussed above, not only did Johnson fail to challenge that description, his counsel affirmatively represented to the court that he had two prior felony convictions, including the CPC \u00a7 245(a)(1) conviction at issue here. Additionally, Johnson and his attorney confirmed, in open court, the factual accuracy of the PSR. Because Johnson did not dispute that he had a felony conviction, the district court was entitled, under Rule 32, to accept as a fact the PSR's characterization of his offense of conviction. Thus, pursuant to Rule 32, Johnson's concessions in the district court foreclose his argument that his conviction was not a felony.\nJohnson nonetheless argues that the PSR's description of his CPC \u00a7 245(a) conviction is at least ambiguous because it also contained the notation that he was \"sentenced to six months in jail,\" which, according to Johnson, means that he received a qualifying misdemeanor sentence under CPC \u00a7 17(b)(1). We deem that notation irrelevant because Johnson conceded that the PSR accurately described the conviction as a felony. But even were this not so, the mere fact that Johnson received a six-month jail sentence does not necessarily mean that his conviction was for a misdemeanor. The PSR does not indicate that the California sentencing court entered a judgment imposing a six-month sentence. Indeed, Johnson's six-month term could have been a condition of probation (which seems very likely, for the reasons discussed below), in which case, the \"six months in jail\" notation would not contradict the PSR's characterization of the offense as a felony.\nWe addressed a similar situation in United States v. Grajeda , 581 F.3d 1186 (9th Cir. 2009), and our resolution of the issue in Grajeda is instructive here. Grajeda argued on appeal that the district court erred by failing to resolve a factual dispute surrounding the prior convictions described in the PSR. Grajeda , 581 F.3d at 1188. We reviewed the objections that Grajeda made in the district court and concluded that, contrary to his assertions on appeal, \"his objections raised only legal arguments, not factual ones. Grajeda did not controvert the accuracy of the PSR or argue that he had not been convicted of the listed crimes.\" Id. at 1189. Because Grajeda did not challenge the factual basis for his sentencing enhancement, Rule 32 permitted the district court to accept the PSR's factual findings regarding his underlying convictions. Id. at 1188.\nSo too here. The record shows that Johnson did not challenge the factual accuracy of the PSR's description of his CPC \u00a7 245(a)(1) conviction as a felony. Rather, like the defendant in Grajeda , Johnson's objections were purely legal: he argued that CPC \u00a7 245(a)(1) is overbroad under the categorical approach and thus cannot be considered a crime of violence. Because Johnson failed to controvert the PSR's felony classification of his \u00a7 245(a)(1) conviction, the district court was entitled to accept that aspect of the PSR as a finding of fact under Rule 32. See United States v. Romero-Rendon , 220 F.3d 1159, 1163 n.4 (9th Cir. 2000) (\"The government bears the burden of proving the facts underlying the enhancement. Where, as here, it submits the PSR as proof, and the defendant submits no contrary evidence, the only evidence before the sentencing judge is the uncontroverted PSR. In these cases, a judge may rely on it to establish the factual basis for the enhancement.\").\nWe also hold alternatively that Johnson has failed to establish that he received a misdemeanor sentence for his \u00a7 245(a)(1) conviction.\nJohnson asserts that the state court record supports his claim because the sentencing court asked, before commencing the proceeding, whether there existed \"any legal cause why judgment should not be pronounced.\" While we agree that the court's statement suggested it was about to enter a judgment, we do not agree with Johnson that the court actually did impose a judgment (none appears in the documents that Johnson submitted) or that even if it did so, any such judgment would convert his conviction into a misdemeanor by operation of CPC \u00a7 17(b).\nRather, the documents that Johnson submitted contain numerous indications that Johnson received a sentence that did not convert his conviction to a misdemeanor. First the document titled \"Felony Plea Form,\" suggests that Johnson pleaded guilty to a felony. Second, that Form shows Johnson's initials next to this statement: \"As a convicted felon, I will not be able to own or possess any firearm.\" Third, the sentencing memorandum filed in the case, and signed by the defendant, the defense attorney, and the judicial officer, has two boxes at the top: \"Felony\" and \"Misdemeanor.\" \"Felony\" is checked.\nFinally, and perhaps most importantly, the documents make clear that Johnson received, in addition to a term in county jail, a term of 36 months' formal probation. The documents also show that Johnson's 180-day term in county jail was not a standalone sentence, but rather was a \"legal restriction apply[ing] to a decision to grant probation in this case.\"\n\"[A]n order granting probation is not a judgment.\" United States v. Robinson , 967 F.2d 287, 293 (9th Cir. 1992) (quoting People v. Smith , 195 Cal.App.2d 735, 16 Cal.Rptr. 12, 13 (1961) ), abrogated on other grounds by Ortega-Mendez v. Gonzales , 450 F.3d 1010, 1018-20 (9th Cir. 2006). Where, as here, a California court grants probation \"subject to serving the first [six] months in jail,\" the requirements of CPC \u00a7 17(b) are not met. Id. at 292. Johnson's offense therefore never \"wobbled\" to a misdemeanor, and the district court did not err in concluding that Johnson was previously convicted of an offense punishable by a term exceeding one year in prison.\nJohnson argues that our recent decision in United States v. Valencia-Mendoza , 912 F.3d 1215 (9th Cir. 2019), requires us to hold that his conviction was for a misdemeanor. In Velencia-Mendoza , we held that when we consider whether a predicate offense (for purposes of a sentencing enhancement) was \"punishable by imprisonment for a term exceeding one year,\" we must consider, in addition to the relevant statutory maximum sentence for the offense, any mandatory sentencing factors that would limit the actual maximum sentence that the defendant was eligible to receive. Id. at 1224. Johnson argues that if we follow Valencia-Mendoza 's guidance and take a \"realistic look\" ( id. at 1223 ) at Johnson's CPC \u00a7 245(a)(1) conviction, we will arrive at the conclusion that he was convicted of a misdemeanor. We disagree.\nIn this case, there are no mandatory sentencing factors that would potentially affect whether Johnson's CPC \u00a7 245(a)(1) conviction was punishable by a prison term exceeding one year. Rather, we look solely to whether the actual sentence the court imposed converted Johnson's conviction to a \"misdemeanor for all purposes\" under CPC \u00a7 17(b)-if not, it remains punishable as a felony under USSG \u00a7 2K2.1 cmt. n.1. See Bridgeforth , 441 F.3d at 872. And as we discussed above, applying CPC \u00a7 17 to Johnson's conviction, we readily conclude that the state sentencing court did not convert Johnson's conviction to a misdemeanor. Valencia-Mendoza does not alter that analysis or our conclusion.\nB.\nWe turn next to Johnson's argument that Moncrieffe has abrogated our treatment of wobbler offenses in the context of a crime-of-violence sentencing enhancement. We start by briefly describing the framework we use when evaluating whether a prior conviction is for a crime of violence.\nWe employ the categorical approach described in Taylor v. United States , 495 U.S. 575, 110 S.Ct. 2143, 109 L.Ed.2d 607 (1990), to determine whether Johnson's CPC \u00a7 245(a)(1) conviction is a \"crime of violence.\" See Fernandez-Ruiz v. Gonzales , 466 F.3d 1121, 1125 (9th Cir. 2006) (en banc). We consider \"whether the offense defined by section 245(a)(1) is categorically a crime of violence by assessing whether the full range of conduct covered by the statute falls within the meaning of that term.\" Grajeda , 581 F.3d at 1189 (internal quotation marks and alterations omitted) (quoting United States v. Juvenile Female , 566 F.3d 943, 946 (9th Cir. 2009) ); see also Moncrieffe , 569 U.S. at 190, 133 S.Ct. 1678 (\"[W]e look 'not to the facts of the particular prior case,' but instead to whether the 'state statute defining the crime of conviction' categorically fits within the 'generic' federal definition of a corresponding aggravated felony.\" (quoting Gonzales v. Duenas-Alvarez , 549 U.S. 183, 186, 127 S.Ct. 815, 166 L.Ed.2d 683 (2007) )).\nIn Moncrieffe , the Court held that a Georgia conviction for possession with intent to distribute marijuana was not categorically an aggravated felony for purposes of the Immigration and Nationality Act (\"INA\"), because the fact of the conviction itself failed to establish that the offense of conviction was comparable to an offense listed in the INA (in that case, the INA referenced the Controlled Substances Act (\"CSA\")). Because the relevant Georgia law would sustain a felony for transfer of only a small amount of marijuana without remuneration, but the analogous CSA provision would treat the same conduct as a misdemeanor, the Georgia violation was not \" 'necessarily' [for] conduct punishable as a felony under the CSA,\" and therefore not categorically an aggravated felony. 569 U.S. at 192, 133 S.Ct. 1678.\nJohnson argues that Moncrieffe abrogates our prior holdings that require us to analyze a wobbler conviction under the categorical approach. \"The fact that the law permits conviction as either a misdemeanor or felony does not preclude a categorical analysis.\" United States v. Salazar-Mojica , 634 F.3d 1070, 1072 n.2 (9th Cir. 2011). Under Moncrieffe , Johnson argues, \"a statute categorically qualifies as a crime of violence only if it is punishable by more than a year in prison in every case .\" Because CPC \u00a7 245(a)(1) can be punished as either a felony or a misdemeanor (depending on whether it wobbles), Johnson claims that it is not punishable by more than one year in prison in every case, and therefore is not categorically a crime of violence.\nWe reject this argument because it misinterprets the scope of Moncrieffe . Moncrieffe reiterated the proposition that \"a state offense is a categorical match with a generic federal offense only if a conviction of the state offense ' \"necessarily involved facts equating to the generic federal offense.' \" 569 U.S. at 190, 133 S.Ct. 1678 (internal alterations omitted) (quoting Shepard v. United States , 544 U.S. 13, 24, 125 S.Ct. 1254, 161 L.Ed.2d 205 (2005) (plurality opinion)). \"[T]o satisfy the categorical approach, a state ... offense must meet two conditions: It must 'necessarily' proscribe conduct that is an offense under the [federal analog], and the [federal analog] must 'necessarily' prescribe felony punishment for that conduct.\" Id. at 192, 133 S.Ct. 1678 ; see also id. at 197-98, 133 S.Ct. 1678 (\"[O]ur 'more focused, categorical inquiry' is whether the record of conviction of the predicate offense necessarily establishes conduct that the CSA, on its own terms, makes punishable as a felony.\" (emphasis added) (quoting Carachuri-Rosendo v. Holder , 560 U.S. 563, 580, 130 S.Ct. 2577, 177 L.Ed.2d 68 (2010) )).\nIn this case, a conviction under \u00a7 245(a)(1) establishes conduct that California law makes punishable as a felony. Indeed, \"under California law, a 'wobbler' is presumptively a felony and 'remains a felony except when the discretion is actually exercised' to make the crime a misdemeanor.\" Ewing , 538 U.S. at 16, 123 S.Ct. 1179 (internal quotation marks omitted) (quoting Williams , 163 P.2d at 696 ); see also People v. Superior Court (Alvarez) , 14 Cal.4th 968, 60 Cal.Rptr.2d 93, 928 P.2d 1171, 1176 (1997) (observing that California law \"rests the decision whether to reduce a wobbler solely 'in the discretion of the court' \") (emphasis added). The fact of a CPC \u00a7 245(a)(1) conviction establishes that the defendant was convicted of an offense punishable by more than one year in prison. Thus, Moncrieffe 's upshot-a state felony conviction for conduct potentially subject to both felony and misdemeanor punishment under the CSA cannot be a predicate offense under the categorical approach-is inapplicable here. Cf. People v. Finley , 219 Cal.App.2d 330, 33 Cal.Rptr. 31, 37 (1963) (holding that a wobbler assault is always a felony for purposes of felony-murder conviction where the defendant is not charged or tried separately for the assault, because \"there is ... no occasion or opportunity to impose a sentence or to thus convert the felony into a misdemeanor. For the purpose of the instant prosecution the infliction of such an assault is felony and can be nothing less\").\nJohnson argues, though, that a wobbler conviction is not necessarily punishable as a felony because the California legislature has given California sentencing courts the discretion to determine whether the offense is a felony or misdemeanor. Johnson's argument misapprehends the nature of a wobbler under California law. As noted above, a wobbler \"remains a felony ... 'unless and until the trial court imposes a misdemeanor sentence.' \" Ewing , 538 U.S. at 28-29, 123 S.Ct. 1179 (quoting In re Anderson , 69 Cal.2d 613, 73 Cal.Rptr. 21, 447 P.2d 117, 126 (1968) ). Importantly, though, this \"classification of the offense as a misdemeanor [does] not operate retroactively to the time of the crime's commission, the charge, or the adjudication of guilt.\" People v. Park , 56 Cal.4th 782, 156 Cal.Rptr.3d 307, 299 P.3d 1263, 1268 n.6 (2013). A wobbler conviction is therefore punishable as a felony, even if the court later exercises its discretion to reduce the offense to a misdemeanor.\nMoreover, this case does not implicate the concern, identified by the Court in Moncrieffe , that underlies the categorical approach: the potential unfairness of relitigation of prior offenses to determine whether the facts of the prior particular offense constitute a crime of violence. Instead, to determine whether a conviction under CPC \u00a7 245(a)(1) is punishable as a felony, the court need look only at the defendant's conviction and sentence. See CPC \u00a7 17(b); Bridgeforth , 441 F.3d at 871.\nIV.\nBecause Johnson confirmed to the district court that the PSR accurately described his CPC \u00a7 245(a)(1) as a felony, the court was entitled to rely on that characterization, and we will not disturb it on appeal. We reach the same result reviewing the classification of Johnson's state-court sentence de novo. Finally, Moncrieffe does not alter our longstanding precedents holding that a felony conviction under CPC \u00a7 245(a)(1) is a crime of violence. We therefore reject Johnson's challenges to the crime-of-violence enhancement to his offense level.\nThe district court's judgment is AFFIRMED.\nJohnson also argues that CPC \u00a7 245(a) lacks the appropriate mens rea requirement to be considered a crime of violence. As he acknowledges, though, a long line of our cases-most recently United States v. Vasquez-Gonzalez , 901 F.3d 1060, 1066-68 (9th Cir. 2018) -squarely forecloses much of this argument, leaving only Johnson's contention that Moncrieffe abrogated our treatment of CPC \u00a7 245(a) in the crime-of-violence context.\nThe definition of both \"felony conviction\" (USSG \u00a7 2K2.1 cmt. n.1.) and \"crime of violence,\" (id. \u00a7 4B1.2 (a)) refer to \"imprisonment for a term exceeding one year.\"\nThe Guidelines instruct us: \" 'Felony conviction ' means a prior adult federal or state conviction for an offense punishable by death or imprisonment for a term exceeding one year, regardless of whether such offense is specifically designated as a felony and regardless of the actual sentence imposed.\" USSG \u00a7 2K2.1 cmt. n.1. Despite this clear admonition, our binding circuit precedent requires us, where wobblers are concerned, to ignore the maximum sentence allowed by statute and instead adopt the designation that California gives to the offense by operation of CPC \u00a7 17(b). See Bridgeforth , 441 F.3d at 872 ; United States v. Robinson , 967 F.2d 287, 293 (9th Cir. 1992), recognized as overruled on other grounds by Ortega-Mendez v. Gonzales , 450 F.3d 1010, 1018-20 (9th Cir. 2006).\nIndeed, he did the opposite and expressly confirmed that the PSR was factually accurate.\nThe statute at issue in Moncrieffe is similar to the Guidelines provision at issue here, insofar as it \"provides that a 'felony' is an offense for which the 'maximum term of imprisonment authorized' is 'more than one year.' \" Moncrieffe , 569 U.S. at 188, 133 S.Ct. 1678 (quoting 18 U.S.C. \u00a7 3559(a)(5) ). However, \u00a7 3559(a)(5) does not contain language like that present in the relevant Guideline Comment: \" 'Felony conviction ' \" means a prior adult federal or state conviction for an offense punishable by death or imprisonment for a term exceeding one year, regardless of whether such offense is specifically designated as a felony and regardless of the actual sentence imposed .\" USSG \u00a7 2K2.1 cmt. n.1. (emphasis added).",
+        "type": "majority",
+        "author": "BENNETT, Circuit Judge:"
+      }
+    ],
+    "attorneys": [
+      "Amy B. Cleary (argued) and Cullen O. Macbeth, Assistant Federal Public Defenders; Rene L. Valladares, Federal Public Defender; Office of the Federal Public Defender, Las Vegas, Nevada; for Defendant-Appellant.",
+      "Elizabeth O. White (argued), Appellate Chief; Dayle Elieson, United States Attorney; United States Attorney's Office, Reno, Nevada; for Plaintiff-Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee,\nv.\nChristopher JOHNSON, Defendant-Appellant.\nNo. 18-10016\nUnited States Court of Appeals, Ninth Circuit.\nArgued and Submitted December 21, 2018 San Francisco, California\nFiled April 9, 2019\nAmy B. Cleary (argued) and Cullen O. Macbeth, Assistant Federal Public Defenders; Rene L. Valladares, Federal Public Defender; Office of the Federal Public Defender, Las Vegas, Nevada; for Defendant-Appellant.\nElizabeth O. White (argued), Appellate Chief; Dayle Elieson, United States Attorney; United States Attorney's Office, Reno, Nevada; for Plaintiff-Appellee.\nBefore: Milan D. Smith, Jr., Jacqueline H. Nguyen, and Mark J. Bennett, Circuit Judges."
+  },
+  "file_name": "0628-01",
+  "first_page_order": 628,
+  "last_page_order": 639
+}

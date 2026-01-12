@@ -1,0 +1,59 @@
+{
+  "id": 5924497,
+  "name": "Hise v. United States",
+  "name_abbreviation": "Hise v. United States",
+  "decision_date": "2011-04-04",
+  "docket_number": "No. 10-9273",
+  "first_page": "926",
+  "last_page": "926",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 926"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.654,
+    "sha256": "51a88428205593cb5aaade967feec72a658552abf182b7afa264bdfe0f11fdae",
+    "simhash": "1:b718a28beebe8d0e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hise v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9273.\nHise v. United States."
+  },
+  "file_name": "0926-07",
+  "first_page_order": 952,
+  "last_page_order": 952
+}

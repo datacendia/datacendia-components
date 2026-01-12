@@ -1,0 +1,59 @@
+{
+  "id": 5898619,
+  "name": "Brown v. Camden County Counsel et al.",
+  "name_abbreviation": "Brown v. Camden County Counsel",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5047",
+  "first_page": "900",
+  "last_page": "900",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 900"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 84,
+    "ocr_confidence": 0.611,
+    "sha256": "7db25e975a95a63da52a2c076a9c3c324c7b7c144bb471418bc07e4f83677e9f",
+    "simhash": "1:aa8661a8c53da02e",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Brown v. Camden County Counsel et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5047.\nBrown v. Camden County Counsel et al."
+  },
+  "file_name": "0900-11",
+  "first_page_order": 922,
+  "last_page_order": 922
+}

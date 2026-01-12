@@ -1,0 +1,59 @@
+{
+  "id": 12413662,
+  "name": "Thomas v. Alabama Department of Corrections",
+  "name_abbreviation": "Thomas v. Alabama Department of Corrections",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-10655",
+  "first_page": "854",
+  "last_page": "854",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 854"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 92,
+    "ocr_confidence": 0.682,
+    "sha256": "d1f45316f3aaa9ba912f053680cd0a99cdb33ada9ebad894d9f2e0e29bff1c92",
+    "simhash": "1:79221256da13c022",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Thomas v. Alabama Department of Corrections."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ala. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-10655.\nThomas v. Alabama Department of Corrections."
+  },
+  "file_name": "0854-06",
+  "first_page_order": 930,
+  "last_page_order": 930
+}

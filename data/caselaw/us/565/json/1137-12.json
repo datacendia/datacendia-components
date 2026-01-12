@@ -1,0 +1,59 @@
+{
+  "id": 12241981,
+  "name": "Jefferson v. United States",
+  "name_abbreviation": "Jefferson v. United States",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-7676",
+  "first_page": "1137",
+  "last_page": "1137",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1137"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.69,
+    "sha256": "aca05b27bde5af0a14cb1a01cdf709c25624faef8455cb3e57f5b01b3613b027",
+    "simhash": "1:b42ae621073d106b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jefferson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7676.\nJefferson v. United States."
+  },
+  "file_name": "1137-12",
+  "first_page_order": 1219,
+  "last_page_order": 1219
+}

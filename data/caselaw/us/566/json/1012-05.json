@@ -1,0 +1,59 @@
+{
+  "id": 12220489,
+  "name": "Chandler v. Illinois",
+  "name_abbreviation": "Chandler v. Illinois",
+  "decision_date": "2012-05-21",
+  "docket_number": "No. 11-9321",
+  "first_page": "1012",
+  "last_page": "1012",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1012"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 78,
+    "ocr_confidence": 0.628,
+    "sha256": "0da19da6d48687fef643c13a0bc60711eb36a9ac0b29278b74362f78fe4e3459",
+    "simhash": "1:60d1f29a5d51bd29",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Chandler v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 2d Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9321.\nChandler v. Illinois."
+  },
+  "file_name": "1012-05",
+  "first_page_order": 888,
+  "last_page_order": 888
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12419540,
+  "name": "Rochin v. California",
+  "name_abbreviation": "Rochin v. California",
+  "decision_date": "2012-10-15",
+  "docket_number": "No. 12-5789",
+  "first_page": "965",
+  "last_page": "965",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 965"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 83,
+    "ocr_confidence": 0.7,
+    "sha256": "6a852054a2e8a87d0e739ec1116651f9a890f132d909e1fb9236ddd5dfb27f81",
+    "simhash": "1:6c0d528010632a41",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rochin v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 2d App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5789.\nRochin v. California."
+  },
+  "file_name": "0965-11",
+  "first_page_order": 1041,
+  "last_page_order": 1041
+}

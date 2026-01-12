@@ -1,0 +1,61 @@
+{
+  "id": 6029531,
+  "name": "Dodd v. United States",
+  "name_abbreviation": "Dodd v. United States",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-8535",
+  "first_page": "1251",
+  "last_page": "1251",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1251"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 149,
+    "ocr_confidence": 0.561,
+    "sha256": "310dd6ae752f84f7c5bd421b28f7c25052c0600bcd535ffcd45f816cd4839b5a",
+    "simhash": "1:09bafb82ada65ada",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Dodd v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Cer-tiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8535.\nDodd v. United States."
+  },
+  "file_name": "1251-07",
+  "first_page_order": 1273,
+  "last_page_order": 1273
+}

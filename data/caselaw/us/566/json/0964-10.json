@@ -1,0 +1,59 @@
+{
+  "id": 12210331,
+  "name": "Morrow v. Humphrey, Warden",
+  "name_abbreviation": "Morrow v. Humphrey",
+  "decision_date": "2012-04-23",
+  "docket_number": "No. 11-8892",
+  "first_page": "964",
+  "last_page": "964",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 964"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 73,
+    "ocr_confidence": 0.579,
+    "sha256": "f1deaf0c736057ba422fb870ad9d1f665379ca6b825c2584cfd21118943b0d9a",
+    "simhash": "1:0128080084509101",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Morrow v. Humphrey, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ga. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8892.\nMorrow v. Humphrey, Warden."
+  },
+  "file_name": "0964-10",
+  "first_page_order": 840,
+  "last_page_order": 840
+}

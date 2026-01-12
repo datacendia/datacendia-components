@@ -1,0 +1,59 @@
+{
+  "id": 5932616,
+  "name": "Carter v. Michigan",
+  "name_abbreviation": "Carter v. Michigan",
+  "decision_date": "2011-03-28",
+  "docket_number": "No. 10-8652",
+  "first_page": "908",
+  "last_page": "908",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 908"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 67,
+    "ocr_confidence": 0.618,
+    "sha256": "89b12f402fdd0dfeecc44029ecd2fe7e435368f1c418b66e47164c64a01a95a9",
+    "simhash": "1:bc4aa7a3ea8b93fe",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Carter v. Michigan."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Mich. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8652.\nCarter v. Michigan."
+  },
+  "file_name": "0908-10",
+  "first_page_order": 934,
+  "last_page_order": 934
+}

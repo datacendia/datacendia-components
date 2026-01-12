@@ -1,0 +1,59 @@
+{
+  "id": 12207480,
+  "name": "Key v. Clarke, Director, Virginia Department of Corrections",
+  "name_abbreviation": "Key v. Clarke",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10897",
+  "first_page": "856",
+  "last_page": "856",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 856"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 109,
+    "ocr_confidence": 0.678,
+    "sha256": "45839a5130e5b29093b03b5fe697474959002976e57d106de06e0dadcfbce6dd",
+    "simhash": "1:3ee348299e0eb061",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Key v. Clarke, Director, Virginia Department of Corrections."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10897.\nKey v. Clarke, Director, Virginia Department of Corrections."
+  },
+  "file_name": "0856-01",
+  "first_page_order": 938,
+  "last_page_order": 938
+}

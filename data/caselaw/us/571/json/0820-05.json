@@ -1,0 +1,68 @@
+{
+  "id": 12702259,
+  "name": "Ben FRICK, et al., petitioners, v. CITY OF SALINA, KANSAS.",
+  "name_abbreviation": "Frick v. City of Salina",
+  "decision_date": "2013-10-07",
+  "docket_number": "No. 12\u20131331.",
+  "first_page": "820",
+  "last_page": "820",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 820"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 31"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 386"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 27,
+    "char_count": 196,
+    "sha256": "816d613209b404ce9ee563b3e8fdcbf2a2e0bf0003e8c09167df0ee70514b21f",
+    "simhash": "1:68bfe61bb7e136e9",
+    "word_count": 34
+  },
+  "last_updated": "2021-08-27T20:47:23.363448+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ben FRICK, et al., petitioners,\nv.\nCITY OF SALINA, KANSAS."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of certiorari to the Court of Appeals of Kansas denied."
+    ],
+    "corrections": "",
+    "head_matter": "Ben FRICK, et al., petitioners,\nv.\nCITY OF SALINA, KANSAS.\nNo. 12-1331.\nSupreme Court of the United States\nOct. 7, 2013.\nPetition for writ of certiorari to the Court of Appeals of Kansas denied."
+  },
+  "file_name": "0820-05",
+  "first_page_order": 820,
+  "last_page_order": 820
+}

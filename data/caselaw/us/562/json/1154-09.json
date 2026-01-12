@@ -1,0 +1,59 @@
+{
+  "id": 5975446,
+  "name": "Elliott v. Florida",
+  "name_abbreviation": "Elliott v. Florida",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7517",
+  "first_page": "1154",
+  "last_page": "1154",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1154"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 82,
+    "ocr_confidence": 0.642,
+    "sha256": "4f6b13729d221ead6253180eb3ce6a7daea9135638d68217fb33d21d9673d4df",
+    "simhash": "1:bb60412aae644818",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Elliott v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Dist. Ct. App. Fla., 2d Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7517.\nElliott v. Florida."
+  },
+  "file_name": "1154-09",
+  "first_page_order": 1176,
+  "last_page_order": 1176
+}

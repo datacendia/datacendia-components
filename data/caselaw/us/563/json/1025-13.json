@@ -1,0 +1,59 @@
+{
+  "id": 5940196,
+  "name": "Powell v. Louisiana",
+  "name_abbreviation": "Powell v. Louisiana",
+  "decision_date": "2011-05-31",
+  "docket_number": "No. 10-9964",
+  "first_page": "1025",
+  "last_page": "1025",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1025"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 66,
+    "ocr_confidence": 0.602,
+    "sha256": "cf6246645a967a95ffde5740832d299d58ac6ff617e6f7c4f8ae4b76e651aa56",
+    "simhash": "1:b0ac2f85f576f112",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Powell v. Louisiana."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. La. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9964.\nPowell v. Louisiana."
+  },
+  "file_name": "1025-13",
+  "first_page_order": 1051,
+  "last_page_order": 1051
+}

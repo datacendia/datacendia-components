@@ -1,0 +1,883 @@
+{
+  "id": 2257146,
+  "name": "Phillips Chemical Co. v. Dumas Ind. School District",
+  "name_abbreviation": "Phillips Chemical Co. v. Dumas Ind. School District",
+  "decision_date": "1958-06-18",
+  "docket_number": "No. A-6639",
+  "first_page": "116",
+  "last_page": "139",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "159 Tex. 116"
+    },
+    {
+      "type": "parallel",
+      "cite": "316 S.W.2d 382"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "217 U.S. 114",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        407800
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "120-124"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/217/0114-01"
+      ]
+    },
+    {
+      "cite": "253 U.S. 233",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        189367
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/253/0233-01"
+      ]
+    },
+    {
+      "cite": "217 S.W. 2d 171",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10188860
+      ],
+      "pin_cites": [
+        {
+          "page": "174"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/217/0171-01"
+      ]
+    },
+    {
+      "cite": "110 S.W. 2d 53",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10241940,
+        2290149
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/110/0053-01",
+        "/tex/130/0285-01"
+      ]
+    },
+    {
+      "cite": "130 Texas 285",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2290149
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/130/0285-01"
+      ]
+    },
+    {
+      "cite": "294 S.W. 835",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        2276555,
+        10313214
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/116/0453-01",
+        "/sw/294/0835-01"
+      ]
+    },
+    {
+      "cite": "116 Texas 453",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2276555
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/116/0453-01"
+      ]
+    },
+    {
+      "cite": "163 S.W. 2d 631",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        2311428,
+        10219670
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "633"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/139/0532-01",
+        "/sw2d/163/0631-01"
+      ]
+    },
+    {
+      "cite": "139 Texas 532",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2311428
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/139/0532-01"
+      ]
+    },
+    {
+      "cite": "12 S.W. 176",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "72 Texas 297",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2190604
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/72/0297-01"
+      ]
+    },
+    {
+      "cite": "10 S.W. 245",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "72 Texas 364",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2190672
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/72/0364-01"
+      ]
+    },
+    {
+      "cite": "9 S.W. 99",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "71 Texas 192",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2192727
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/71/0192-01"
+      ]
+    },
+    {
+      "cite": "117 U.S. 151",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8299656
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/117/0151-01"
+      ]
+    },
+    {
+      "cite": "4 Wheat 316",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "case_ids": [
+        4702
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/17/0316-01"
+      ]
+    },
+    {
+      "cite": "96 S.E. 2d 341",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.2d",
+      "pin_cites": [
+        {
+          "page": "1957"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "245 N.C. 492",
+      "category": "reporters:state",
+      "reporter": "N.C.",
+      "case_ids": [
+        8613593
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nc/245/0492-01"
+      ]
+    },
+    {
+      "cite": "300 S.W. 2d 506",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10176346
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/300/0506-01"
+      ]
+    },
+    {
+      "cite": "351 U.S. 253",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1104910
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/351/0253-01"
+      ]
+    },
+    {
+      "cite": "160 Neb. 320",
+      "category": "reporters:state",
+      "reporter": "Neb.",
+      "case_ids": [
+        2556741
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/neb/160/0320-01"
+      ]
+    },
+    {
+      "cite": "89 S.E. 2d 482",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "211 Ga. 835",
+      "category": "reporters:state",
+      "reporter": "Ga.",
+      "case_ids": [
+        260228
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ga/211/0835-01"
+      ]
+    },
+    {
+      "cite": "100 L.Ed. 1483",
+      "category": "reporters:federal",
+      "reporter": "L. Ed.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "76 Sup. Ct. 1024",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "351 U.S. 962",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1104769,
+        1105170,
+        1105099,
+        1105115
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/351/0962-01",
+        "/us/351/0962-03",
+        "/us/351/0962-02",
+        "/us/351/0962-04"
+      ]
+    },
+    {
+      "cite": "225 F. 2d 473",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        59136
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/225/0473-01"
+      ]
+    },
+    {
+      "cite": "95 A. 2d 280",
+      "category": "reporters:state_regional",
+      "reporter": "A.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "202 Md. 20",
+      "category": "reporters:state",
+      "reporter": "Md.",
+      "case_ids": [
+        2235019
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/md/202/0020-01"
+      ]
+    },
+    {
+      "cite": "52 So. 2d 137",
+      "category": "reporters:state_regional",
+      "reporter": "So. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "118 Miss. 799",
+      "category": "reporters:state",
+      "reporter": "Miss.",
+      "case_ids": [
+        747183
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/miss/118/0799-01"
+      ]
+    },
+    {
+      "cite": "231 U.S. 683",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3672165
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/231/0683-01"
+      ]
+    },
+    {
+      "cite": "77 N.W. 2d 799",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "pin_cites": [
+        {
+          "page": "801"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "346 Mich. 218",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1847673
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/346/0218-01"
+      ]
+    },
+    {
+      "cite": "355 U.S. 484",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6167947
+      ],
+      "weight": 6,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/355/0484-01"
+      ]
+    },
+    {
+      "cite": "355 U.S. 489",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6168187
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/355/0489-01"
+      ]
+    },
+    {
+      "cite": "318 U.S. 261",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        364214
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "270"
+        },
+        {
+          "page": "621"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/318/0261-01"
+      ]
+    },
+    {
+      "cite": "300 U.S. 577",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        336691
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "582-583"
+        },
+        {
+          "page": "526, 527"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/300/0577-01"
+      ]
+    },
+    {
+      "cite": "77 N.W. 2d 79",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "345 Mich. 601",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1849287
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich/345/0601-01"
+      ]
+    },
+    {
+      "cite": "355 U.S. 466",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6167817
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "479"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/355/0466-01"
+      ]
+    },
+    {
+      "cite": "133 S.W. 2d 951",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        12074924,
+        2319499,
+        12074700,
+        2321127
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "956"
+        },
+        {
+          "page": "958"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/133/0951-02",
+        "/tex/134/0455-01",
+        "/sw2d/133/0951-01",
+        "/tex/133/0622-01"
+      ]
+    },
+    {
+      "cite": "134 Texas 455",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2319499
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/tex/134/0455-01"
+      ]
+    },
+    {
+      "cite": "261 S.W. 1077",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10335906
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/261/1077-01"
+      ]
+    },
+    {
+      "cite": "251 S.W. 1107",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "case_ids": [
+        10338488,
+        10338600
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw/251/1107-01",
+        "/sw/251/1107-02"
+      ]
+    },
+    {
+      "cite": "307 S.W. 2d 605",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10175783
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/307/0605-01"
+      ]
+    },
+    {
+      "cite": "12 S.W. 317",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "74 Texas 557",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2186824
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/74/0557-01"
+      ]
+    },
+    {
+      "cite": "9 S.W. 99",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 1
+    },
+    {
+      "cite": "71 Texas 192",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2192727
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/tex/71/0192-01"
+      ]
+    },
+    {
+      "cite": "352 U.S. 962",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6340806,
+        6341323,
+        6341516,
+        6341041,
+        6341746,
+        6341973
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/352/0962-01",
+        "/us/352/0962-03",
+        "/us/352/0962-04",
+        "/us/352/0962-02",
+        "/us/352/0962-05",
+        "/us/352/0962-06"
+      ]
+    },
+    {
+      "cite": "352 U.S. 963",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6342205,
+        6342868,
+        6342629,
+        6342431
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/352/0963-01",
+        "/us/352/0963-04",
+        "/us/352/0963-03",
+        "/us/352/0963-02"
+      ]
+    },
+    {
+      "cite": "9 S.W. 100",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "pin_cites": [
+        {
+          "page": "101"
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "322 U.S. 174",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6142598
+      ],
+      "weight": 3,
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/322/0174-01"
+      ]
+    },
+    {
+      "cite": "12 S.W. 317",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "74 Texas 557",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2186824
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/74/0557-01"
+      ]
+    },
+    {
+      "cite": "9 S.W. 99",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.",
+      "opinion_index": 2
+    },
+    {
+      "cite": "71 Texas 192",
+      "category": "reporters:state",
+      "reporter": "Tex.",
+      "case_ids": [
+        2192727
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/tex/71/0192-01"
+      ]
+    },
+    {
+      "cite": "4 Wheat 316",
+      "category": "reporters:scotus_early",
+      "reporter": "Wheat.",
+      "case_ids": [
+        4702
+      ],
+      "weight": 3,
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/17/0316-01"
+      ]
+    },
+    {
+      "cite": "77 N.W. 2d 799",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "opinion_index": 2
+    },
+    {
+      "cite": "346 Mich. 218",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1847673
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/mich/346/0218-01"
+      ]
+    },
+    {
+      "cite": "355 U.S. 484",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6167947
+      ],
+      "weight": 2,
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/355/0484-01"
+      ]
+    },
+    {
+      "cite": "77 N.W. 2d 79",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "opinion_index": 2
+    },
+    {
+      "cite": "345 Mich. 601",
+      "category": "reporters:state",
+      "reporter": "Mich.",
+      "case_ids": [
+        1849287
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/mich/345/0601-01"
+      ]
+    },
+    {
+      "cite": "355 U.S. 466",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6167817
+      ],
+      "weight": 2,
+      "opinion_index": 2,
+      "case_paths": [
+        "/us/355/0466-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1521,
+    "char_count": 53380,
+    "ocr_confidence": 0.605,
+    "pagerank": {
+      "raw": 9.505882454708161e-08,
+      "percentile": 0.5209653149662393
+    },
+    "sha256": "5175530720c83ec93115ac61ed2a024d5fcc67bb7b703a993b04b4b58c8355cd",
+    "simhash": "1:fa211d445988a74f",
+    "word_count": 9114
+  },
+  "last_updated": "2024-02-27T19:26:07.846026+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Phillips Chemical Co. v. Dumas Ind. School District."
+    ],
+    "opinions": [
+      {
+        "text": "Mr. Justice Griffin\ndelivered the opinion of the Court.\nPhillips Chemical Company, petitioner herein and plaintiff in the trial court, uses and occupies, as Lessee, a chemical plant owned by the United States Government known as \u201cCactus Ordnance Works\u201d in Moore County, Texas. Phillips went into possession on August 16, 1948 under and by virtue of a lease contract between the Secretary of the Army, representing the United States of America, as Lessor, and Phillips Petroleum Company, as Lessee. The lease was for a primary term of 15 years with option on the part of Phillips Petroleum Company for renewal of two five year terms, and a further provision that any additional holding over would be on a year to year basis. The Government had certain options for termination of the lease after notice and happening of certain contingencies. This lease was immediately assigned by Phillips Petroleum Company to Phillips Chemical Company and the Chemical Company has operated the plant at all times since possession was taken under the lease.\nThe Government plant is located within the limits of Dumas Independent School District and that body has sought to collect school taxes thereon for the years 1949 through 1954, inclusive. Chemical Company, as plaintiff in the trial court, brought this suit in the District Court of Moore County, Texas, to (1) enjoin the School District from attempting to collect ad valorem taxes from it on the \u201cCactus Ordnance Works;\u201d and (2) to cancel the taxes on the tax rolls of the School District on said property for the years 1949 through 1954. The trial court severed the question of the right to tax from the question of valuation, and upon trial before the court, without a jury, judgment was rendered cancelling all taxes through March 16, 1950, and permanently enjoining the collection of taxes for such period upon either the property or the leasehold estate, but validated all taxes after such date and as to these taxes refused the relief sought. Chemical Company appealed and the Court of Civil Appeals affirmed the judgment of the trial court. 307 S.W. 2d 605. Each party applied- for a writ of error and both applications were granted. We affirm the judgment of the courts below.\nWe first consider and discuss the application of the Chemical Company. It has assigned 13 points of error. These points attack the judgments of the courts below; first, on the basis that there exists no lawful authority authorizing taxation to the Chemical Company of either the Government-owned \u201cCactus Ordnance Works,\u201d or the leasehold estate therein; and, second, on the basis of whether the leasehold estate of the Chemical Company was assessed by the School District, as distinguished from the assessment of the property itself ,or as a fee interest. After the end of World War II the United States Government had on hand a number of plants which it had constructed for the production of material and supplies needed to effectually wage that war. In order to keep these plants and equipment in working condition and available to the Government in case of another emergency it was decided, after careful study, to sell some of the plants to private operators with a \u201crecapture\u201d clause for the plants to be returned to the Government for a consideration; and to be operated by the purchaser solely under Government direction and control for the exclusive use of the Government in the event of another war or the declaration of an emergency. Certain other plants and equipment, which included \u201cCactus Ordnance Works\u201d were to be leased by the Government to private operators with like provisions for Government control and operation in the event of another war or existence of an emergency; also provision was made in the leases authorizing the delivery of possession to the purchaser in the event the Government exercised its option to sell. Adequate legislation enabling the Government, through its proper officers, to make these sales or leases was passed by Congress. This plant was leased to the Chemical Company under the provisions of \u201cPublic Law 364-80th Congress,\u201d codified in part as 10 U.S.C.A. 1270, et seq. 1270d provides in part that, \u201cthe lessee\u2019s interest, made or created pursuant to the provisions of Sections 1270-1270b, 1270d of this title, shall be made subject to State or local taxation * * This Act was passed in 1947. This was a specific consent of Congress that such government property was subject to state or local taxation.\nIn the lease to this plant, the Chemical Company agreed \u201cthat the Lessee shall pay to the proper authority, when and as the same becomes due and payable, all taxes, assessments, and similar charges which, at any time during the term of this lease, may he taxed, assessed or imposed.upon the Government or upon the Lessee with respect to or upon the Leased Property. * * *\u201d\nThus we see the matter of local taxes was taken into consideration by both parties in arriving at the amount of rental to be paid to the Government by the Chemical Company for the use and occupation of \u201cCactus Ordnance Works.\u201d\nThe School District relied mainly upon Article 5248, Vernon\u2019s Annotated Texas Civil Statutes, as amended, effective March 17, 1850, to sustain the validity of their taxes. Chemical Company attacks this statute as being unconstitutional and void on a number of grounds. The principal ground is that such statute attempts to tax property belonging to the United States of America and is therefore unconstitutional. Prior to 1950, Article 5248 read:\n\u25a0 \u201cThe United States shall be secure in their possession and enjoyment of all lands acquired under the provisions of this title; [Federal Use] and such land and all improvements thereon shall be exempt from any taxation under the authority of this State so long as the same are held, owned, used and occupied by the United States for the purposes expressed in this title and not otherwise.\u201d\nArticle 7150, Section 4, Vernon\u2019s Annotated Texas Civil Statutes, provides an exemption from taxation of \u201call property whether real or personal, belonging exclusively to this State * * *, or the United States, * *\nThe Legistlature of the State of Texas being of the opinion that there were \u201cno adequate provisions\u201d for the taxation of the lands and improvements owned by the United States of America, which are used and occupied in the conduct of private businesses and enterprises by persons, firms, associations of persons, and corporations, and that funds badly needed by the State and its political subdivisions were being lost by reason of these properties escaping taxation, amended Article 5248, (Sec. 1, Acts 51st Leg., 1st. C.S., p. 105, ch. 37, effective March 17, 1950). There was added a proviso for the taxation of personal property belonging to the user and operator of these plants located on the land owned by the Government and a further proviso\u201d * * * that any portion of said lands and improvements which is used and occupied by any person, firm, association of persons or corporation in its private capacity, or which is being used or occupied in the conduct of any private business or enterprise, shall be subject to taxation by this State and its political subdivisions.\u201d The captic. ;f the amended act specifically covers this part of the amendnc- -t. Section 2 of the Article is the severability clause and Section 3 repeals all laws and parts of law in conflict with the Act to the extent of the conflict.\nIn its application for writ of error, the Chemical Company admits that this language is clear and plain and could refer to nothing other than the property itself. Further it says, \u201cthis Honorable Court would certainly be justified if not compelled to find, from the words of the second proviso, [the one immediately quoted above] that it is the entire property interest which the statute says shall be subject to taxation.\u201d This is followed by the contention that such construction of the statute would violate both the Constitution of the United States and of Texas. We agree that it was the intention of the Legislature, in amending Article 5248 to make the value of the entire property belonging to the United States Government, if used and occupied by private business and operated for profit, taxable to such user and operator. Article 8, Section 1 of our State Constitution provides for taxation of all property within the State in proportion to its value. Article 7145, Vernon\u2019s Annotated Texas Civil Statutes, is to the same effect. Article 7146, Vernon\u2019s Annotated Texas Civil Statutes, provides in part that \u201creal property for the purposes of taxation, shall be construed to include the land itself, * * * all buildings, structures and improvements, or other fixtures of whatsoever kind thereon, and all of the rights and privileges belonging or in anywise appertaining thereto * *\n\u201cThe rule is generally accepted in this State that all property rights acquired and held, and all contracts made, are subject to the authority of the State to levy its taxes and collect its revenues for the support of the government. State for Use of Delta County Levee Im. Dist. No. 1 v. Bank of Mineral Wells, Texas Civ. App., 251 S.W. 1107, writ refused; Preston v. Anderson County Levee Imp. Dist. No. 2, Texas Civ. App., 261 S.W. 1077, writ refused; 9 Texas Jur., pp. 549, 550, Sec. 114.\u201d State v. Wynne, 134 Texas 455, 133 S.W. 2d 951, 956.\nArticle 8, Section 17, Constitution of the State of Texas, Vernon\u2019s Annotated, provides:\n\u201cThe specification of the objects and subjects of taxation shall not deprive the Legislature of the power to require other subjects or objects to be taxed in such manner as may be consistent with the principles of taxation fixed in this Constitution.\u201d\nArticle 7150, Section 4, Vernon\u2019s Annotated Texas Civil Sta-: tutes, exempts from taxation propertly belonging exclusively to this State or the United States. With the Chemical Company operating and using \u201cCactus Ordnance Works,\u201d it ceases to belong exclusively to the United States. Whatever exemptions, if any, enjoyed by the United States Government-owned property in the hands of private business operators prior to March 17, 1950 were put to an end by virtue of the Acts of Congress, 1948 permitting state and local taxation, and the amendment of Article 5248 making this property subject to taxation. The tax sought to be collected does not violate our State Constitution.\nThe Chemical Company\u2019s objections to Article 5248 as being unconstitutional have been effectively disposed of by the Supreme Court of the United States in its opinions in the cases discussed below. The case of U. S. of America and Borg-Warner Corporation (Detroit Gear Division) v. City of Detroit, 355 U.S. 466, 78 Sup. Ct. 474, 2 L.Ed. 2d 424, 479, is directly in point. In 1953 the Legislature of the State of Michigan passed Public Act 189 providing that when tax-exempt property is used by a private party in a business conducted for profit, the private party is subject to taxation to the same extent as though he owned the property. The pertinent parts of that Act are \u201cwhen any real property which for any reason is exempt from taxation is leased, loaned, or otherwise made available to and used by a private individual, * * * in connection with a business conducted for profit, [it] * * * shall be subject to taxation in the same amount and to the same extent as though the lessee or user were the owner of such property * * The United States was owner of an industrial plant in Detroit, Michigan. It leased a portion of that plant to Borg-Warner Corporation at a stipulated annual rental for use in the latter\u2019s private manufacturing business. The lease provided that Borg-Warner could deduct from the agreed rental any taxes paid by it under Public Act 189 or similar state statutes enacted during the term of the lease, but the Government reserved the right to contest the validity of such taxes. On January 1, 1954, a tax was assessed against Borg-Warner under Public Act 189. The tax was based on the value of the property leased and computed at the rate used for calculating real property taxes. Under protest Borg-Warner paid part of the assessment. Subsequently the United States and Borg-Warner filed this suit in a state court for refund of the amount paid. They charged that the tax was repugnant to the Constitution of the United States because it imposed a levy upon government property and discriminated against those using such property. The lower court however upheld the tax and the Michigan Supreme Court affirmed. 345 Mich. 601, 77 N.W. 2d 79. The Michigan Supreme Court ruled that the tax was neither discriminatory nor was it on property of the United States, but instead was a tax on the lessee\u2019s privilege of using the property in a private business conducted for profit. After stating that a state cannot constitutionally levy a tax directly against the Government of the United States or its property without consent of Congress, and that the private parties with whom the Government does business cannot escape state taxation, the United States Supreme Court says:\n\u201cThe Michigan statute challenged here imposes a tax on private lessees and users of tax-exempt property who use such property in a business conducted for profit. Any taxes due under the statute are the personal obligation of the private lessee or user. The owner is not liable for their payment nor is the property itself subject to any lien if they remain unpaid. So far as the United States is concerned as the owner of the exempt property used in this case it seems clear that there was no attempt to levy against its property or treasury.\u201d\nThe Court upholds the validity of the assessed taxes saying:\n\u201c* * * A tax for the beneficial use of property, as distinguished from a tax on the property itself has long been a commonplace in this country. See Henneford v. Silas Mason Co., 300 U.S. 577, 582-583 [57 Sup. Ct. 524, 526, 527; 81 L.Ed. 814]. In measuring such a use tax it seems neither irregular nor extravagant to resort to the value of the property used; indeed no more so than measuring a sales tax by the value of the property sold. Public Act 189 was apparently designed to equalize the annual tax burden carried by private businesses using exempt property with that of similar businesses using nonexempt property. Other things being the same, it seems obvious enough that use of exempt property is worth as much as use of comparable taxed property during the same interval. In our judgment it was not an impermissible subterfuge but a permissible exercise of its taxing power for Michigan to compute its tax by the value of the property used.\u201d\nThe Court finally concludes:\n\u201cToday the United States does business with a vast number of private parties. In this Court the trend has been to reject immunizing these private parties from nondiscriminatory state taxes as a matter of constitutional law. Cf. Penn. Dairies v. Milk Control System, 318 U.S. 261, 270, 63 Sup. Ct. 617, 621, 87'L.Ed. 748. Of course this is not to say that Congress, acting within the proper scope of its power, cannot confer immunity by statute where it does not exist constitutionally. Wise and flexible adjustment of intergovernmental tax immunity calls for political and economic considerations of the greatest difficulty and delicacy. Such complex problems are ones which Congress is best qualified to resolve. As the Government points out Congress has already extensively legislated in this area by permitting States to tax what would have otherwise been immune. To hold that the tax imposed here on a private business violates the Government's constitutional tax immunity would improperly impair the taxing power of the State. Affirmed.\u201d\nTo the same effect are the companion cases decided the same day, (March 3, 1958), City of Detroit v. The Murray Corporation of America, (City of Detroit v. The Murray Corporation of America), 355 U.S. 489, 78 Sup. Ct. 458, 2 L.Ed. 2d 441; United States of America v. Township of Muskegon, (Continental Motors Corporation v. Township of Muskegon), 355 U.S. 484, 78 Sup. Ct. 483, 2 L.Ed. 2d 436. These cases clearly uphold the validity of the taxes assessed by the School District against the Chemical Company since March 17, 1950 insofar as the Federal Constitution and laws are concerned.\nThe Supreme Court of Michigan in its opinion \u2014 which was affirmed by the U. S. Supreme Court above \u2014 takes up and disposes of the objections made by the Government and Borg-Warner to the taxes assessed against them. Much of what is said by that Court is applicable to our case. Particularly applicable is the following quotation (United States and Borg-Warner Corporation v. City of Detroit, (1956), 345 Mich. 601, 77 N.W. 2d 79, 83:\n\u201cAs defendant in the instant case properly points out, lessees of private nontax-exempt real estate ordinarily bear the tax burden thereon, either by direct payment thereof under lease requirements or by payment of rent sufficient to include the tax; and defendant reasons that the legislative intent here was to put such lessees of private property used by them in business conducted for profit on an equal footing with users of tax-exempt Government property used by them in business conducted for profit, thus avoiding- discrimination against the former and eliminating an element of unfair competition between them by requiring an equal tax burden as to both; and defendant urges that this does not evidence an intent on the part of the legislature to aim at or reach United States property for taxation but only to treat both classes of users equally.\u201d\nOn the question of unjust discrimination the case of Township of Muskegon v. Continental Motors Corporation, 1956, 346 Mich. 218, 77 N.W. 2d 799, 801, affirmed, 355 U.S. 484, 78 Sup. Ct. 483, 2 L.Ed. 2d 436, is applicable:\n\u201cThe contention [of discrimination] is without merit. Indeed, when it is searchingly examined in light of the companion records that are before us, we should in my view conclude that the legislature by Act 189 has wisely effectuated its continuing duty of providing equal burdens and equal privileges for those of corresponding or similar situation. Without Act 189 a lessee or user for profit of Federally-owned tax-immune realty becomes specially privileged and notably favored over his local classmates, and I refer to that class which directly shares the burdens as well as the benefits of local Government.\u201d\nOther cases upholding a similar tax are Trimble v. City of Seattle, 1914, 231 U.S. 683, 58 L.Ed. 435, 34 Sup. Ct. 218; Board of Supervisors of Leflore County v. Whittington, 1918, 118 Miss. 799, 80 So. 8; Gay v. Jemison, Fla., 1951, 52 So. 2d 137; Meade Heights, Inc. v. State Tax Commission, 1953, 202 Md. 20, 95 A. 2d 280; Sheridanville, Inc. v. Borough of Wrightstown, D.N.J. 1954, 125 Fed. Supp. 743 aff.; Fort Dix Apartments Corporation v. Borough of Wrightstown, 3rd Cir. 1955, 225 F. 2d 473, cert, denied, 1956, 351 U.S. 962, 76 Sup. Ct. 1024, 100 L.Ed. 1483; Conley Housing Corporation v. Coleman, 1955, 211 Ga. 835, 89 S.E. 2d 482; Offut Housing Company v. County of Sarpy, 160 Neb. 320, 70 N.W. 2d 382, aff., 1956, 351 U.S. 253, 76 Sup. Ct. 814; State of Missouri, ex rel Benson v. Personnel Housing, Inc., Mo., 1957, 300 S.W. 2d 506; Bragg Investment Company, Inc. v. Cumberland County, 245 N.C. 492, 96 S.E. 2d 341, 1957.\nChemical Company contends that if Article 5248 is given the construction we have given it, it would be unconstitutional as being discriminatory between lessees of United States government property and lessees of State-owned and other exempt proprties. United States government property may not be taxes by a state except by consent of the Government. McCullough v. State of Maryland, 4 Wheat 316, 4 L.Ed. 579; Van Brocklin v. Anderson, 117 U.S. 151, 6 Sup. Ct. 670, 29 L.Ed. 845. The State of Texas recognizes this exemption of United States government property. Article 5248, Vernon\u2019s Annotated Texas Civil Statutes to first proviso added by the amendment of 1950; Section 4 of Article 7150, Vernon\u2019s Annotated Texas Civil Statutes. The various provisions' of Article 7150 setting forth what property is exempt contain language to the effect that such exemption from taxation shall apply only if the exempt property is \u201c* * * not leased or otherwise used with a view to profit other than for the purpose of maintaining the building, * * *\u201d (Secs. 1, 2, 2a, 3, 7, 16). Thus we see that all property owned by private individuals is subject to taxation when not used for a purpose covered by the exemption statutes, and is taxable for the full value of the property.\nChemical Company relies upon the cases of Daugherty v. Thompson, 1888, 71 Texas 192, 9 S.W. 99; Taylor v. Robinson, 1888, 72 Texas 364, 10 S.W. 245; State v. Taylor, 1888, 72 Texas 297, 12 S.W. 176; Bashara v. Saratoga Independent School Dist., 1942, 139 Texas 532, 163 S.W. 2d 631, 633; and Articles 7173 and 7174, Vernon\u2019s Annotated Civil Statutes, to support their contentions that the taxes are illegal and void. The cases of Daugherty v. Thompson, supra; Taylor v. Robinson, supra; State v. Taylor, supra, all have to do with an attempt to tax public school lands, or some interest therein. The Court held that under the Constitution of Texas as it existed at that time these school lands or any interest therein, were not subject to taxation. The case of Daugherty v. Thompson discusses the applicability of Articles 4691, 4692 (1888-1889) and now Articles 7173 and 7174 in connection with the right of the Legislature to exempt property from taxation under Article 4673 and now Article 7150. The Court said:\n\u201c* * * q^at section of the constitution [Article 8, Sec. 2] seems to apply to property owned by persons or corporations in private right,' but which, from the use to which it is applied, is, in a qualified sense, deemed public property. Leases of such property for a purpose not carrying the exemption from taxation would doubtless be embraced in article 4691 [now Art. 7173] Rev. St., and therefore subject to taxation against the holder of the leasehold, if it be for a term of three or more years. Such property, if leased for a term of less than three years for a purpose not carrying the exemption, would be subject to taxation; but, in the absence of a statute so directing, such a leasehold would not be taxable against the lessee. * * *\u201d (Emphasis added).\nIn our case the Legislature in amending Article 5248 has \u201cso directed\u201d the taxation of the property against the user and occupier thereof. Again the Court says: \u201c* * * property exempted from' taxation in the hands of its owner while used for the purposes on account of which the exemption is given, will doubtless become subject to taxation if leased, for any period, to be used for a purpose which does not itself give the exemption, unless in cases in which the exemption is given by the Constitution, or under a contract that would be impaired by taxation, * *\nWhile it is true the Legislature has included what are now Articles 7173 and 7174, Vernon\u2019s Annotated Texas Civil Statutes, in each revision made since the Daugherty v. Thompson case, it is also true that in 1927 the people of this State adopted an amendment to Article 7 of our State Constitution, known as Article 6a, which makes the State school lands subject to taxation. The Legislature passed Article 7150a in 1927 and Article 7150c in 1931 so as to take away the exemption theretofore enjoyed by the public school lands. Since the above Articles were passed, public school lands have been subject to taxation by the political subdivisions of the State. The above cases are no longer controlling. Neither are Articles 7173 and 7174.\nThe interest of a lessee in an oil or gas lease is taxable upon the value of such interest. Hager v. Stakes, 1927, 116 Texas 453, 294 S.W. 835; Tennant v. Dunn, 1937, 130 Texas 285, 110 S.W. 2d 53; Big Lake Oil Co. v. Reagan County, Texas Civ. App., 1948, 217 S.W. 2d 171, 174, (10, 11) wr. ref. The taxes levied against Chemical Company are levied under Article 5248 which covers any interest that Chemical Company has in the property composing \u201cCactus Ordnance Works\u201d \u2014 whether by leasehold or in any other manner. It is not a tax levied only on a leasehold. It is a tax levied against the user and occupier of such property and is based on the value of the property used and occupied by it.\n\u201cThe burden of levying taxes rests on the Legislature, and that body has plenary power of prescribing the mode of taxation to raise revenue; and the specification of certain objects and subjects of taxation in the Constitution does not prevent it from passing laws requiring other subjects and objects to be taxed, unless expressly prohibited by the Constitution. Section 17 of Article 8, Constitution, Vernon\u2019s Ann. St.\u201d State v. Wynne, 134 Texas 455, 133 S.W. 2d 951, 958.\nAnd further from Green v. Frazier, 253 U.S. 233, 40 Sup. Ct. 499, 64 L. Ed. 878:\n\u201c* * * The tax power of the State is primarily vested in their legislatures, deriving their authority from the people. When a state legislature acts within the scope of its authority it is responsible to the people, and their right to change the agents to whom they have entrusted the power is ordinarily deemed a sufficient check upon its abuse. When the constituted authority of the State undertakes to exert the taxing power, and the question of the validity of its action is brought before this court, every presumption in its favor is indulged, and only clear and demonstrated ursurpation of power will authorize judicial interference with legislative action.\u201d\nSee also Southwestern Oil Co. v. State of Texas, 217 U.S. 114, 120-124, 54 L. Ed. 688, 30 Sup. Ct. 496. We hold that Article 5248 is not in violation of the 14th Amendment to the Federal Constitution; that it is not discriminatory and that it is valid legislation and authorized the taxation of Chemical Company\u2019s property by the school district.\nIn the case of Bashara v. Saratoga Independent School Dist., 139 Texas 532, 163 S.W. 2d 631, the School District sought to collect taxes from Bashara on all of the interest and estate in a 136-acre tract of land. Bashara did not own all the tnineral estate thereunder and was not in control of, using, or occupying, or enjoying any part of a 2/3rds of l/8th royalty interest in all oil, gas, or other minerals, which had been expressly reserved by a Mrs. Baker, Bashar a\u2019s grantor, in the deed whereby Bashara received title to his interest in the 136 acres. This Court held the reserved interest was not taxable to Bashara; that it was an estate in land which Bashara did not own, and, therefore, there was no personal liability on Bashara for the taxes. In the case at bar the tax sought to be enjoined was levied by virtue of specific legislative authority that the user and occupier of United States Government property should pay taxes assessed on the basis of the value of the property it was using, occupying and enjoying.\nWe overrule the School District\u2019s contention in its application that taxes for 1949 through March 16, 1950 are a valid charge against the Chemical Company. The assent given by Congress to taxation of this plant was not effective in this State until the amendment of Article 5248 March 17, 1950, and it is only from and after this date that this property may be lawfully taxed.\nJudgments of both Courts below are affirmed.\nOpinion delivered June 18, 1958.",
+        "type": "majority",
+        "author": "Mr. Justice Griffin"
+      },
+      {
+        "text": "Mr. Justice Garwood,\njoined by Justices Calvert, Walker and Culver, dissenting.\nOne naturally sympathizes with the desire to tax a federally owned plant, when used by a private lessee for purposes of profit, and especially when the federal government has consented to a tax being levied against \u201cthe lessee\u2019s interest\u201d and has stipulated in the lease that the lessee shall pay whatever taxes are assessed. On the other hand, the responsibility of providing for taxes being legislative rather than judicial, courts should not strain as much as we have here done to plug rather obvious tax loopholes, which the Legislature can easily plug at any time and could as easily have plugged long ago.\nArt. 5248, before the 1950 amendment, was undoubtedly not a taxing statute at all, but an exemption statute, found, as it was and still is, in Title 85, \u201cLands-Acquisition for Public Use,\u201d whereas our taxing statutes, with all of their hundreds of separate provisions, were and are found in Title 122 under the heading \u201cTaxation.\u201d The addition of the 1950 proviso, to the effect that federally owned property when used and occupied by private parties \u201cshall be subject to taxation by this State and its political subdivisions,\u201d did not convert what was theretofore a pure exemption statute into a taxing statute. It did not levy or provide for any tax, but simply qualified the express exemption theretofore existing, and the Attorney General of Texas has so ruled in his opinion S-124 as late as March 10, 1954.\nIt may be true that the amendment accomplished no great purpose, if it did not itself establish a tax. On the other hand, the article as it stood prior to the amendment likewise accomplished no great purpose, since it merely declared an exemption which undoubtedly already existed. The explanation of the amendment may well be that in 1950, following the 1947 Federal legislation permitting taxation of the lessee\u2019s interest in Federal lands, the Legislature simply felt it proper to add a corresponding limitation to the exemption of Art. 5248, pending later enactment of appropriate taxing laws if found to be desirable.\nNow, both before and since 1950, Art. 7173 of the taxing statutes provided that \u201cProperty held under a lease for a term of three years or more, * * * belonging to this State, or that is exempt by law from taxation in the hands of the owner thereof, shall be considered for all the purposes of taxation, as the property of the person so holding the same, * * This article deals expressly with the situation of exempt property leased to a private person \u2014 the same general situation we have here. Daugherty v. Thompson, 71 Texas 192, 9 S.W. 99, states that the article is what governs in situations of leases of exempt property to private persons but also confirms the obvious fact that it imposes no tax, if the lease in question is for a term under three years.\nIn Trammell v. Faught, 74 Texas 557, 12 S.W. 317, it was held with respect to state lands leased to private parties for a primary or basic term of more than three years, but subject to the right of the lessor-State to terminate within less than three years in the event it should sell the lands in question, that the lease was not \u201ca lease for a term of three years or more\u201d within the meaning of Art. 7173, supra. The Attorney General\u2019s opinion S-124, supra, states that the taxability of Federal property leased to private parties is governed by Article 7173, notwithstanding the 1950 proviso to Art. 5248. It ruled that in the particular case, the tax upon the lessee provided by Art. 7173 was applicable, since the lease was for a term of 75 years, that is, \u201cfor a term of three years or more.\u201d In the instant case, the lease, being terminable by the lessor, upon ninety days\u2019 notice, in the event the property should be sold, is a lease for less than three years. If the lawmaking body did not like the result of Trammell v. Faught, supra, it could long ago have changed it without difficulty. Therefore no tax applies so far as Art. 7173 is concerned. What other article imposes a tax?\nIf we are to say that either the 1950 proviso in Art. 5248, or the general statement in Art. 7146 that all interests in land are taxable, imposes a tax on the short term lessee as if he were the land owner, we reach the strange result that both long and short term lessees of exempt property are so taxable, when Art. 7173 says that only long term lessees are so taxable. Certainly the normal course for the Legislature to pursue in 1950, if it intended to tax both short and long term lessees, would have been to amend Art. 7173 so as to strike out the word \u201cfor a term of three years or more.\u201d That it failed to take this simple and obvious step certainly does not suggest that we should assume the responsibility to take it.\nThere is also the matter of Art. 7174, providing that leases shall be taxed only upon their market value; and Daugherty v. Thompson, supra, says that there can be no tax against a lessee except it be based on the market value of the lease.\nIf the mentioned rule of Daugherty v. Thompson is to stand, then the tax here involved cannot stand. In the first place, that tax is one based on the fee value of the premises and thus cannot be collected, if the only tax incident to leases is one based on the value of the lease itself. Moreover, we cannot say that the 1950 proviso to Art. 5248 levied a tax on lessees of federally owned property, measured by the fee value thereof, while as to lessees of other exempt property (to whom 5248 could not possibly apply) the tax is only one upon the market value of the lease itself. The result would be to discriminate against lessees of federally owned property, because their tax (based on the fee value) will obviously be much higher than one based on the sale value of a mere lease, which would b applicable to lessees of other exempt property.\nIf the mentioned rule of Daugherty v. Thompson is to be discarded (after all these years) on the theory that Art. 7173 effectively imposed on long term lessees of exempt property the same kind of tax sought to be levied here, and that Art. 7174 deals with a different subject, we still have the peculiar result of a short term lessee being taxed on the basis of the full value of the premises, when Art. 7173 says that only long term lessees shall be so taxed.\nIt therefore appears to me that the tax sought to be collected in this case has no basis in law. By so declaring, and thus putting the matter squarely up to the Legislature, which has the authority and duty to correct statutory confusion and deficiencies of this sort, I think that in the long run we will serve the public better than by ourselves attempting to do in roundabout fashion what we think the Legislature ought to have done. In this connection there can now be little doubt that a use tax on lessees (whether long term or short term) of exempt property-measured by the value of the premises would be as valid under our state constitution as it evidently is under the constitution of the United States. Article 7174 can readily be amended so as to make it clearly inapplicable to leases of exempt property.\nOpinion delivered June 18, 1958.",
+        "type": "dissent",
+        "author": "Mr. Justice Garwood,"
+      },
+      {
+        "text": "Mr. Justice Calvert,\njoined by Justice Walker, dissenting.\nThis case involves three basic questions, as follows: 1. Is Phillips Chemical Company\u2019s leasehold estate in the Cactus Ordinance Works taxable? 2. If it is, on what basis is it to be valued for tax purposes? 3. If it is, pn what date did it become taxable?\nActually, the second question was severed by the trial court, was not tried and technically is not before- us. But the three questions are so interrelated that a discussion and decision of the first and third questions require an incidental discussion and decision of the second.\nMy discussion will indicate not only my points of difference with the majority opinion but as well my points of difference with the dissenting opinion filed by Associate Justice Garwood.\nAt the time Congress enacted Public Law 364 in 1948, under which Phillips holds its lease, the right of the State of Texas and its political subdivisions to tax exempt property which had been leased for a non-exempt use, as well as the basis for valuing such property, was then fixed and established by the Constitution and certain statutes and court decisions.\nSection 1 of Article 8 of our State Constitution then provided and still provides: \u201cTaxation shall be equal and uniform. All property in this State, whether owned by natural persons or corporations, other than municipal, shall be taxed in proportion to its value, which shall be ascertained as may be provided by law.\u201d\nArticle 7146, Y.A.T.S., then provided and still provides : \u201cReal property for the purpose .of taxation, shall be construed to include the land itself, * * * and all the rights and privileges belonging or in anywise appertaining thereto * * *.\u201d\nArticle 7173, Y.A.T.S., then provided and still provides: \u201cProperty held under a lease for a term of three years or more, or held under a contract for the purchase thereof, belonging to this State, or that is exempt by law from taxation in the hands of the owner thereof, shall be considered for all the purposes of taxation, as the property of the person so holding the same, except as otherwise specially provided by law. * * *\u201d\nArticle 7174, V.A.T.S., then provided, in part, and still provides : \u201cTaxable leasehold estates shall be valued at such a price as they would bring at a fair voluntary sale for cash.\u201d\nArticle 5248, ViA.T.S., then provided: \u201cThe United States shall be secure in their possession and enjoyment of all- lands acquired under the provisions of this title; and such lands and all improvements thereon shall be exempt from any taxation under authority of this State so long as the same are held, owned, used and occupied by the United States for the purposes expressed in this title and not otherwise.\u201d\nIn 1888, this Court in Daugherty v. Thompson, 71 Texas 192, 9 S.W. 99, with Articles 7146, 7173 and 7174 before it, made the following significant holdings:\n1. Neither the fee nor a leasehold interest in County public school land is taxable.\n2. Exempt property, when leased for a non-exempt purpose for any term, will \u201cdoubtless become subject to taxation,\u201d but \u201cit does not follow that a lessee will be liable to pay taxes on the leasehold, unless the law so provides.\u201d\n3. Privately owned exempt property, leased for a nonexempt purpose, will be subject to taxation at its full value to the owner.\n4. The Legislature has the power to impose a tax on the value of a leasehold, on the lessee.\n5. \u201cIn cases to which Article 4691 (7173) is applicable, it must be held that it was the intention of the legislature only to impose on the lessee a tax based on the value of the \u2018taxable leasehold estate,\u2019 and not impose upon him a tax based on a sum equal to the full value of the real estate.\u201d\n6. Article 7173 is the only statute authorizing taxation of leasehold estates.\nIn 1889, this Court held in Trammell v. Faught, 74 Texas 557, 12 S.W. 317, that a lease of state owned lands for terms of six and ten years, subject to cancellation upon sale, v/ere not leases \u201cfor a term of three years or more\u201d within the meaning of Article 7173.\nIn 1944, the Supreme Court of the United States held in United States v. Allegheny County, Pennsylvania, 322 U.S. 174, 64 Sup. Ct. 908, 88 L.Ed. 1209, that a leasehold estate in federally owned property was not subject to local taxation.\nSection 6a of Article 7 of our State Constitution was adopted in 1926 withdrawing county school lands from the class of lands exempt from taxes, and Article 7150a, V.A.T.S., was enacted in 1927 providing for the payment of taxes on county owned school lands by the counties.\nSuch was the status of the law in this State when Public Law 364 was enacted by Congress in 1948. The following developments thereafter occurred.\nEffective March 17, 1950 the Legislature amended Article 5248 to provide \u201cthat any portion of said lands and improvements [federally owned] which is used and occupied by any person, firm, association of persons or corporation in its private capacity, or which is being used or occupied in the conduct of any private business or enterprise, shall be subject to taxation by this State and its political subdivisions.\u201d\nIn the series of cases recently decided by the Supreme Court of the United States, cited in the majority opinion, it is now held that leasehold estates in federally owned lands are subject to local taxation. Moreover, it is held that they may be made taxable to the lessee as though he were the fee owner. There is, therefore, now no Congressional Act or decision of the Supreme Court of the United States which stands as a bar to local taxation of leasehold estates in federally owned lands as here involved because they are federally owned, or which, for that reason alone, prohibits their taxation to the lessee as though he were the owner of the fee. But the absence of such a bar or prohibition does not mean that such leasehold estates may be taxed to the lessee as though he is the owner, or even that they may be taxed to him at all. They may not be so taxed under enumerated holding Number 2 in Daugherty v. Thompson unless their taxation is authorized by state law. And it goes without saying that lessees of federally owned lands may not be singled out as objects of discriminatory taxation. Discriminatory taxation is prohibited by Article 1, sec. 3 and Article 8, sec. 1 of the Constitution of Texas and by the Fourteenth Amendment to the Constitution of the United States.\nIn my opinion it was the purpose of the 1950 amendment to Article 5248 to authorize taxation of leasehold estates in federally owned lands to lessees. On this point I agree with the majority opinion and disagree with the dissenting opinion filed by Justice Garwood. True, the amendment provision is not placed in the Taxation Title of our statutes and does not specifically provide that federally owned lands used for private business shall be taxed to the user, but I think it the clear purport and intendment of the amendment that it be so taxed.\nState statutes do not ordinarily levy ad valorem taxes; they only authorize the levy of ad valorem taxes by state and local taxing agencies. The amendment to Art. 5248 is sufficient for that purpose. Moreover, the Legislature could hardly have intended by the amendment that taxes would be assessed to the United States, as owner, for it had been held in M\u2019CuIIoch v. Maryland, 4 Wheat. 316, 4 L.Ed. 579, that local taxes could not be imposed on property of the United States without consent of Congress, and Public Law 364 did not provide that they could. It seems to me, therefore, that the amendment to Article 5248, reasonably interpreted, purports to authorize taxation of leasehold estates in federally owned lands. In the latter respect it can be said that the amendment meets enumerated holdings 2 and 4 of Daughtery v. Thompson.\nThe majority have held that the amendment to Article 5248 authorizes taxation of leasehold estates in federally owned lands to lessees - as though they are the owners of the land, and, thus holding, have upheld the validity of the amendment against the claim that it is unjustly discriminatory. I do not agree with either of those conclusions. They have been reached without reference to enumerated holding Number 5 of Daugherty v. Thompson, without overruling either that holding or Trammell v. Faught, and without examination of the discriminatory features of the amendment.\nEnumerated holding Number 6 in Daugherty v. Thompson is that Article 7173 (4691) is the \u201conly law providing that the lessee shall pay taxes on leased property.\u201d That article provided then and provides now for taxation of leasehold estates in exempt property only when the lease is \u201cfor a term of three years or more.\u201d There is no statute authorizing taxation of leasehold estates in exempt property owned privately or by the State or its subdivisions when the lease is for a term of less than three years. The amendment to Article 5248, considered alone and apart, purports to authorize taxation of leasehold estates in federally owned property even though the lease be for a term, of less than three years. If that be the proper construction of the amendment, it is quite obviously discriminatory against lessees of federally owned exempt property. I know of no sound basis for such discrimination.\nA better construction of the amendment to Article 5248 is to say that it must be read in connection with and is controlled by the provisions of Article 7173. Under that construction, we can say that leasehold estates in federally owned property are taxable, but only when the lease is \u201cfor a term of three years or more.\u201d That construction will obviate a holding that the amendment is per se discriminatory.\nThat brings us to the question of whether Phillips\u2019 lease is \u201cfor a term of three years or more.\u201d The lease gives an absolute right of cancellation in the event of sale of the property. In that respect it is identical with the lease in Trammell v. Faught. Unless Trammell v. Faught be overruled \u2014 and the majority opinion does not suggest that it should be overruled \u2014 we must hold that Phillips\u2019 lease is not one \u201cfor a term of three years or more.\u201d So holding, we must then hold that the amendment to Article 5248, as qualified by Art. 7173 and enumerated holding Number 5 in Daugherty v. Thompson, does not authorize taxation to Phillips of its leasehold estate in Cactus Ordinance Works on any basis.\nEven if Trammel] v. Faught should be overruled and it should now be held that leases of the type considered in Trammell v. Faught and held by Phillips are leases for the full term stipulated subject to a conditional limitation, I yet could not agree with the majority\u2019s holding that the property should be taxed to Phillips as though it were the owner of the fee. Here again the majority holding runs squarely into the equal protection clauses of our Constitutions.\nUnder enumerated holding Number 5 in Daugherty v. Thompson it is expressly held, with respect to leasehold estates \u201cfor a term of three years or more\u201d made taxable by Article 7173, \u201cthat it was the intention of the legislature only to impose on the lessee a tax based on the value of the \u2018taxable leasehold estate,\u2019 and not impose upon him a tax based on a- sum equal to the full value of the real estate.\u201d I can conceive of no sound basis for saying that that holding will apply to leasehold estates in state owned and privately owned exempt property when the lease is \u201cfor a term of three years, or more\u201d but will not apply to leasehold estates in federally owned property. The holding of the majority, without overruling enumerated holding Number 5 of Daugherty v. Thompson, obviously results in unjust discrimination against lessees of federally owned property.\nThe majority seek to justify their holding that a leasehold estate in federally owned land may be taxed on the full value of the fee by referring to the adoption of Section 6a of Article 7 of the Constitution, the enactment of Articles 7150a and 7150c, certain provisions of Article 7150, and the series of cases recently decided by the Supreme Court of the United States, I respectfully suggest that none of the matters to which reference is made avoid or justify the discrimination which results from the majority\u2019s holding.\nAs heretofore noted, adoption of Section 6a of Article 7 of the State Constitution and the enactment of Article 7150a only withdrew the exemption from taxation theretofore accorded county owned school lands. I-find no provision in either of those enactments which permits taxation of leasehold estates in such lands. On the contrary, Article 7150a specifically provides that the counties shall themselves pay taxes levied against such lands. Under enumerated holding Number 2 of Daugherty v. Thompson leasehold estates in such lands may not be taxed until the legislature so provides. The same may be said with respect to Article 7150c enacted in 1931. That Article authorizes payment by the State of local taxes on lands set apart for endowment of the University of Texas. It does not provide for taxation of leasehold estates in such lands.\nThe specific provisions in Article 7150, referred to by the majority as indicating that property there listed as exempt will not be exempt if it is \u201cleased or otherwise used for profit,\u201d are the identical provisions which were in the early counterpart of Article 7150 (4673) and were said by this Court in Daugherty v. Thompson not to authorize taxation of leasehold estates in the property. See 9 S.W. 100, 101. Surely those provisions have no stronger force now than they had then.\nThe decisions of the Supreme Court of Michigan in United States of America and Borg-Warner Corp. v. City of Detroit, 345 Mich. 601, 77 N.W. 2d 79, and Township of Muskegon v. Continental Motors Corp., 346 Mich. 218, 77 N.W. 2d 799, and the decisions of the Supreme Court of the United States in the same cases (see 352 U.S. 963, 78 Sup. Ct. 474, 2 L.Ed. 2d 424 and 352 U.S. 962, 78 Sup. Ct. 483, 2 L.Ed. 2d 436) are not in point and cannot be made controlling on the question at issue in this case. The principal reason they are not in point is because of the vast difference between Michigan and Texas statutory provisions governing taxation of leasehold estates.\nThe portion of Michigan Public Act 189 quoted in the majority opinion shows clearly that it authorizes taxation of leasehold estates of whatever duration in all exempt property to the lessees as though they were the owners of the property. Our statute, interpreted in the light of Trammell v. Faught and Daugherty v. Thompson, authorizes taxation of leasehold estates only in federally owned property, only when the lease is \u201cfor a term of three or more years\u201d and only on the fair market value of the leasehold estate. Obviously we are not dealing with the same problem that was before the Supreme Court of Michigan and the Supreme Court of the United States in the cited cases.\nThe Supreme Court of the United States made clear in the Borg-Warner case that local taxing units would not be permitted to assess and collect discriminatory taxes from lessees of federally owned property, when it said:\n\u201cIt still remains true, as it has from the beginning, that a tax may be invalid even though it does not fall directly on the United States if it operates so as to discriminate against the Government or those with whom it deals. Cf. M\u2019Culloch v. Maryland, 4 Wheat. 316. But here the tax applies to every private party who uses exempt property in Michigan in connection with a business conducted for private gain. Under Michigan law this means persons who use property owned by the Federal Government, the State, its political subdivisions, churches, charitable organizations and a great host of other entities. * * * Nor is there any showing that the tax is in fact administered to discriminate against those using federal property. To the contrary undisputed evidence introduced by appellees demonstrates that lessees of other exempt property have also been taxed.\u201d\nIn Texas, under existing law, there is no authority for taxing-leasehold estates created by leases for a term of less than three years in either non-exempt or, exempt property, and leasehold estates in exempt property owned either privately or by the state and its subdivisions created by leases for a term of three years or more may only be taxed on their fair market value. And yet the majority hold in this case that leasehold estates in federal property created by leases for a term of less than three years may be taxed and that they may be taxed on the full value of the fee.\nI conclude: 1. That the amendment to Article 5248 authorizes taxation of leasehold estates in federally owned property. 2. That the amendment to Article 5248 is discriminatory and unconstitutional unless it be construed to apply only to leasehold estates of three or more years duration. 3. That the amendment may properly be held to apply only to leasehold estates of three or more years duration. 4. That the amendment is still discriminatory and unconstitutional if it be construed to authorize taxation of leasehold estates to lessees as owners. 5. That the amendment may properly be construed to authorize taxation of leasehold estates of a duration of three or more years at their fair market value. 6. That unless and until Trammell v. Faught is overruled, Phillips\u2019 leasehold estate in Cactus Ordinance Works is for a term of less than three years. 7. That Phillips\u2019 leasehold estate is not subject to taxation, and the taxes levied on such estate by Dumas Independent School District may not be sustained. 8. That the judgments of the trial court and of the Court of Civil Appeals should therefore be reversed and judgment be rendered in favor of Phillips. 9. That Phillips\u2019 leasehold estate may be taxed only by overruling Trammell v. Faught, and then may be taxed on the full value of the fee only by overruling certain of the holdings in Daugherty v. Thompson.\nUnless the mentioned holdings in Daugherty v. Thompson are overruled, I agree with the majority\u2019s holding that there is no statutory authority for taxation of Phillips\u2019 leasehold estate prior to the date of the amendment to Article 5248 in 1950.\nOpinion delivered June 18, 1958.\nRehearing overruled October 22, 1958.",
+        "type": "dissent",
+        "author": "Mr. Justice Calvert,"
+      }
+    ],
+    "attorneys": [
+      "Rayburn L. Foster and Harry R. Turner, both of Bartlesville, Okla., C. J. Roberts, Thomas L. Blume, and C. Rex Boyd, all of Amarillo, for petitioner.",
+      "James W. Witherspoon, John D. Aikin, Wayne E. Thomas, all of Hereford, for respondents."
+    ],
+    "corrections": "",
+    "head_matter": "Phillips Chemical Co. v. Dumas Ind. School District.\nNo. A-6639.\nDecided June 18, 1958.\nRehearing Overruled October 22, 1958.\n(316 S.W. 2d Series 382)\nRayburn L. Foster and Harry R. Turner, both of Bartlesville, Okla., C. J. Roberts, Thomas L. Blume, and C. Rex Boyd, all of Amarillo, for petitioner.\nJames W. Witherspoon, John D. Aikin, Wayne E. Thomas, all of Hereford, for respondents."
+  },
+  "file_name": "0116-01",
+  "first_page_order": 130,
+  "last_page_order": 153
+}

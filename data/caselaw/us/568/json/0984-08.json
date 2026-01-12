@@ -1,0 +1,59 @@
+{
+  "id": 12420557,
+  "name": "Smith v. Koerner et al.",
+  "name_abbreviation": "Smith v. Koerner",
+  "decision_date": "2012-10-29",
+  "docket_number": "No. 12-5936",
+  "first_page": "984",
+  "last_page": "984",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 984"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 72,
+    "ocr_confidence": 0.649,
+    "sha256": "4685382969f37c85c069cf8977bcacb4aa7bf195252fa2a1e889f3facdd909df",
+    "simhash": "1:8a68d4e8ffced03a",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Smith v. Koerner et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5936.\nSmith v. Koerner et al."
+  },
+  "file_name": "0984-08",
+  "first_page_order": 1060,
+  "last_page_order": 1060
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12432081,
+  "name": "Robinson v. Evans, Warden",
+  "name_abbreviation": "Robinson v. Evans",
+  "decision_date": "2013-02-25",
+  "docket_number": "No. 12-7882",
+  "first_page": "1198",
+  "last_page": "1198",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1198"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.637,
+    "sha256": "0d32db4e09cdd5a37548ba17c2e128e517bd7000125df5c2d0fd23b9eb958cdc",
+    "simhash": "1:56bfa7b13dbb6076",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Robinson v. Evans, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7882.\nRobinson v. Evans, Warden."
+  },
+  "file_name": "1198-07",
+  "first_page_order": 1274,
+  "last_page_order": 1274
+}

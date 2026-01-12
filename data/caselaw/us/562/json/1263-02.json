@@ -1,0 +1,59 @@
+{
+  "id": 5957610,
+  "name": "Dinwiddie v. United States",
+  "name_abbreviation": "Dinwiddie v. United States",
+  "decision_date": "2011-02-28",
+  "docket_number": "No. 10-8712",
+  "first_page": "1263",
+  "last_page": "1263",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1263"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.654,
+    "sha256": "6aadff3cfa68d7d8d606fc7dbfb71a07fad152dd6f604bcaa5a0c31dd3400d40",
+    "simhash": "1:042ae7232c351441",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dinwiddie v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8712.\nDinwiddie v. United States."
+  },
+  "file_name": "1263-02",
+  "first_page_order": 1285,
+  "last_page_order": 1285
+}

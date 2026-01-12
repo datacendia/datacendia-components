@@ -1,0 +1,59 @@
+{
+  "id": 6019178,
+  "name": "Lewis v. United States",
+  "name_abbreviation": "Lewis v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5017",
+  "first_page": "899",
+  "last_page": "899",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 899"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.675,
+    "sha256": "b3fd5e51ec9e6a9abfdf34d308547987954d7e908fb38c5495c441c83fc34c9a",
+    "simhash": "1:850ac7d24f901d28",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Lewis v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5017.\nLewis v. United States."
+  },
+  "file_name": "0899-05",
+  "first_page_order": 921,
+  "last_page_order": 921
+}

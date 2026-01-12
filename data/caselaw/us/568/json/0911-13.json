@@ -1,0 +1,59 @@
+{
+  "id": 12415870,
+  "name": "Villegas v. Galloway et al.",
+  "name_abbreviation": "Villegas v. Galloway",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5417",
+  "first_page": "911",
+  "last_page": "911",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 911"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 75,
+    "ocr_confidence": 0.65,
+    "sha256": "2ba0a407695155302f1ddd2a62abfac8f6425cc744dca575b4ab530f2e87369f",
+    "simhash": "1:91cc10a8190ab67b",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Villegas v. Galloway et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5417.\nVillegas v. Galloway et al."
+  },
+  "file_name": "0911-13",
+  "first_page_order": 987,
+  "last_page_order": 987
+}

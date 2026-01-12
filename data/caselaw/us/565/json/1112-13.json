@@ -1,0 +1,59 @@
+{
+  "id": 12239153,
+  "name": "Bushnell v. Bedford County, Tennessee",
+  "name_abbreviation": "Bushnell v. Bedford County",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-509",
+  "first_page": "1112",
+  "last_page": "1112",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1112"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 85,
+    "ocr_confidence": 0.615,
+    "sha256": "88fdbfa7b7cd6afd53b9754c68305a2ea88cd9b6da5f20592b3c928e262ea8c5",
+    "simhash": "1:8ac93283ea3b0476",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bushnell v. Bedford County, Tennessee."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-509.\nBushnell v. Bedford County, Tennessee."
+  },
+  "file_name": "1112-13",
+  "first_page_order": 1194,
+  "last_page_order": 1194
+}

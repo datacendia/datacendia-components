@@ -1,0 +1,61 @@
+{
+  "id": 12433748,
+  "name": "Dalal v. Krantz & Berman LLP",
+  "name_abbreviation": "Dalal v. Krantz & Berman LLP",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-716",
+  "first_page": "1245",
+  "last_page": "1245",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1245"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 25,
+    "char_count": 157,
+    "ocr_confidence": 0.637,
+    "sha256": "2183a1bb7d46d83608782b96085eddcfa052446e35d608389cfda527688b51d1",
+    "simhash": "1:9df72890512ef644",
+    "word_count": 26
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Dalal v. Krantz & Berman LLP."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.\nJustice Sotomayor took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-716.\nDalal v. Krantz & Berman LLP."
+  },
+  "file_name": "1245-01",
+  "first_page_order": 1321,
+  "last_page_order": 1321
+}

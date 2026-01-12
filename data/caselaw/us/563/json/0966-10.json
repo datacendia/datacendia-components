@@ -1,0 +1,59 @@
+{
+  "id": 5940840,
+  "name": "Dickson v. United States",
+  "name_abbreviation": "Dickson v. United States",
+  "decision_date": "2011-04-25",
+  "docket_number": "No. 10-9678",
+  "first_page": "966",
+  "last_page": "966",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 966"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.584,
+    "sha256": "2bef2f89269b8205278c42132f0f916828404277e577a45f739264d151c33455",
+    "simhash": "1:92aad30a8c5c9d6f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dickson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9678.\nDickson v. United States."
+  },
+  "file_name": "0966-10",
+  "first_page_order": 992,
+  "last_page_order": 992
+}

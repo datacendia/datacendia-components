@@ -1,0 +1,59 @@
+{
+  "id": 12414680,
+  "name": "Gonzalez-Perez v. United States",
+  "name_abbreviation": "Gonzalez-Perez v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-11031",
+  "first_page": "875",
+  "last_page": "875",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 875"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 81,
+    "ocr_confidence": 0.743,
+    "sha256": "57ce7023e5eef248825b42b8aa4623370620f4e7c9c3f537b79785095475dbb2",
+    "simhash": "1:862aa3820ebf8848",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gonzalez-Perez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-11031.\nGonzalez-Perez v. United States."
+  },
+  "file_name": "0875-05",
+  "first_page_order": 951,
+  "last_page_order": 951
+}

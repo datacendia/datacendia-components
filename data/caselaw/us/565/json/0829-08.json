@@ -1,0 +1,59 @@
+{
+  "id": 12199785,
+  "name": "Haas v. United States",
+  "name_abbreviation": "Haas v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-9582",
+  "first_page": "829",
+  "last_page": "829",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 829"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.73,
+    "sha256": "8e395e0df7a1c81305424c043fa5caedddb722f30dc8bece5d8aa311b3548a2e",
+    "simhash": "1:b598e6336d35146f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Haas v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9582.\nHaas v. United States."
+  },
+  "file_name": "0829-08",
+  "first_page_order": 911,
+  "last_page_order": 911
+}

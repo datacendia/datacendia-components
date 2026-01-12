@@ -1,0 +1,59 @@
+{
+  "id": 5978873,
+  "name": "Randall v. United States",
+  "name_abbreviation": "Randall v. United States",
+  "decision_date": "2010-12-06",
+  "docket_number": "No. 10-7353",
+  "first_page": "1096",
+  "last_page": "1096",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1096"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.606,
+    "sha256": "027a622e45d7a52cea0d8a8e2a636b352f2b612d7c52256df4769cdc86023a69",
+    "simhash": "1:169893820d3e1e7f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Randall v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7353.\nRandall v. United States."
+  },
+  "file_name": "1096-08",
+  "first_page_order": 1118,
+  "last_page_order": 1118
+}

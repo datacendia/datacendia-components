@@ -1,0 +1,59 @@
+{
+  "id": 5998930,
+  "name": "Ali v. United States",
+  "name_abbreviation": "Ali v. United States",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7748",
+  "first_page": "1160",
+  "last_page": "1160",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1160"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.554,
+    "sha256": "f17c1540c2c17c445547e6c11bd50c56e708d5836e12664c14ba864bec1e34d5",
+    "simhash": "1:844b8d270811d238",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ali v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7748.\nAli v. United States."
+  },
+  "file_name": "1160-09",
+  "first_page_order": 1182,
+  "last_page_order": 1182
+}

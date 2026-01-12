@@ -1,0 +1,59 @@
+{
+  "id": 12248531,
+  "name": "Zierke v. United States",
+  "name_abbreviation": "Zierke v. United States",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-8310",
+  "first_page": "1224",
+  "last_page": "1224",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1224"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.695,
+    "sha256": "27e49e5532c28cc84aeb9b9aa43746e52ee1de8bdefdf786f898831a77ffcb37",
+    "simhash": "1:80bab3b38e311218",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Zierke v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8310.\nZierke v. United States."
+  },
+  "file_name": "1224-12",
+  "first_page_order": 1306,
+  "last_page_order": 1306
+}

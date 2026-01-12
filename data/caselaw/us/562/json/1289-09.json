@@ -1,0 +1,59 @@
+{
+  "id": 5998740,
+  "name": "Birdow v. United States",
+  "name_abbreviation": "Birdow v. United States",
+  "decision_date": "2011-03-21",
+  "docket_number": "No. 10-7018",
+  "first_page": "1289",
+  "last_page": "1289",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1289"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.667,
+    "sha256": "51321bc10a6fa01da5f38937c0db2671f0cc9ef7f7c00712f74f9c8fdcb49fce",
+    "simhash": "1:a48adf83ce1bbc1f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Birdow v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7018.\nBirdow v. United States."
+  },
+  "file_name": "1289-09",
+  "first_page_order": 1311,
+  "last_page_order": 1311
+}

@@ -1,0 +1,59 @@
+{
+  "id": 4333362,
+  "name": "B. J. G. v. St. Charles County Sheriff et al.",
+  "name_abbreviation": "B. J. G. v. St. Charles County Sheriff",
+  "decision_date": "2011-06-13",
+  "docket_number": "No. 10-9900",
+  "first_page": "1006",
+  "last_page": "1006",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1006"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 18,
+    "char_count": 93,
+    "ocr_confidence": 0.615,
+    "sha256": "2f4375efe8b98df3eaf60daecaca4eebfec6382a8bb2fda5135256699cab0999",
+    "simhash": "1:f1f92728f5ecd5d5",
+    "word_count": 18
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "B. J. G. v. St. Charles County Sheriff et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9900.\nB. J. G. v. St. Charles County Sheriff et al."
+  },
+  "file_name": "1006-10",
+  "first_page_order": 1000,
+  "last_page_order": 1000
+}

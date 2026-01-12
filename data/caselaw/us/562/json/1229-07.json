@@ -1,0 +1,59 @@
+{
+  "id": 5990799,
+  "name": "Dean v. Street et al.",
+  "name_abbreviation": "Dean v. Street",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-7918",
+  "first_page": "1229",
+  "last_page": "1229",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1229"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 69,
+    "ocr_confidence": 0.602,
+    "sha256": "707a95c05f5c9c101bfb687fb717a8cba5fa1f6e0356aea348a4e44fad8a8576",
+    "simhash": "1:d170a68849acc054",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dean v. Street et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7918.\nDean v. Street et al."
+  },
+  "file_name": "1229-07",
+  "first_page_order": 1251,
+  "last_page_order": 1251
+}

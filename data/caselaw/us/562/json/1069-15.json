@@ -1,0 +1,59 @@
+{
+  "id": 6024925,
+  "name": "Laird v. Pennsylvania",
+  "name_abbreviation": "Laird v. Pennsylvania",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 10-6696",
+  "first_page": "1069",
+  "last_page": "1069",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1069"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 69,
+    "ocr_confidence": 0.559,
+    "sha256": "3c80c91e4a26653b3eb6668ccf81f9cd60baefc23e20f08757b70b683909e0ae",
+    "simhash": "1:b90b8ae388aab20a",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Laird v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Pa. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6696.\nLaird v. Pennsylvania."
+  },
+  "file_name": "1069-15",
+  "first_page_order": 1091,
+  "last_page_order": 1091
+}

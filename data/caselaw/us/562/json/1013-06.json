@@ -1,0 +1,59 @@
+{
+  "id": 5975597,
+  "name": "Matthews v. Scribner, Warden",
+  "name_abbreviation": "Matthews v. Scribner",
+  "decision_date": "2010-11-01",
+  "docket_number": "No. 10-6237",
+  "first_page": "1013",
+  "last_page": "1013",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1013"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.482,
+    "sha256": "935979f7eb4b8e142557dc0ea8232a44adc600dc71573bf87262f066f8f96a5a",
+    "simhash": "1:b4b322e9a1ff3166",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Matthews v. Scribner, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6237.\nMatthews v. Scribner, Warden."
+  },
+  "file_name": "1013-06",
+  "first_page_order": 1035,
+  "last_page_order": 1035
+}

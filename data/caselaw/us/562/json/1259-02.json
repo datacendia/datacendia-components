@@ -1,0 +1,59 @@
+{
+  "id": 5990898,
+  "name": "Villa v. Arizona",
+  "name_abbreviation": "Villa v. Arizona",
+  "decision_date": "2011-02-28",
+  "docket_number": "No. 10-8160",
+  "first_page": "1259",
+  "last_page": "1259",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1259"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 65,
+    "ocr_confidence": 0.603,
+    "sha256": "6d0c69a3ed852e89950ffe3486b7f790c26aa744b3c5b28aeba42887b24326ec",
+    "simhash": "1:3896b7c303a6d80a",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Villa v. Arizona."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ariz. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8160.\nVilla v. Arizona."
+  },
+  "file_name": "1259-02",
+  "first_page_order": 1281,
+  "last_page_order": 1281
+}

@@ -1,0 +1,59 @@
+{
+  "id": 6024423,
+  "name": "Turner v. Rogers et al.",
+  "name_abbreviation": "Turner v. Rogers",
+  "decision_date": "2010-12-13",
+  "docket_number": "No. 10-10",
+  "first_page": "1105",
+  "last_page": "1105",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1105"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 23,
+    "char_count": 145,
+    "ocr_confidence": 0.606,
+    "sha256": "2ddf76100331ba93b0d468468c5203069c1aa1cbe6eeac053e7e500769e66d97",
+    "simhash": "1:5269301053e206d7",
+    "word_count": 24
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Turner v. Rogers et al."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. S. C. [Cer-tiorari granted, ante, p. 1002.] Motion of respondents for appointment of counsel denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10.\nTurner v. Rogers et al."
+  },
+  "file_name": "1105-10",
+  "first_page_order": 1127,
+  "last_page_order": 1127
+}

@@ -1,0 +1,616 @@
+{
+  "id": 3581913,
+  "name": "MAC'S SHELL SERVICE, INC., et al. v. SHELL OIL PRODUCTS CO. LLC et al.",
+  "name_abbreviation": "Mac's Shell Service, Inc. v. Shell Oil Products Co.",
+  "decision_date": "2010-03-02",
+  "docket_number": "No. 08-240",
+  "first_page": "175",
+  "last_page": "195",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "559 U.S. 175"
+    },
+    {
+      "type": "parallel",
+      "cite": "176 L. Ed. 2d 36"
+    },
+    {
+      "type": "parallel",
+      "cite": "130 S. Ct. 1251"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2009-027"
+    },
+    {
+      "type": "vendor",
+      "cite": "2010 U.S. LEXIS 2203"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "10 F. 3d 568",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10509622
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "572",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/10/0568-01"
+      ]
+    },
+    {
+      "cite": "17 F. 3d 62",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1830335
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "65-66",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/17/0062-01"
+      ]
+    },
+    {
+      "cite": "22 F. 3d 880",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10512636
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "892-894",
+          "parenthetical": "insured who accepts a successor insurance policy cannot maintain a claim for constructive nonrenewal of the previous policy"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/22/0880-01"
+      ]
+    },
+    {
+      "cite": "536 U. S. 181",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1254475
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "187-188"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/536/0181-01"
+      ]
+    },
+    {
+      "cite": "163 N. E. 2d 4",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "weight": 4,
+      "year": 1959,
+      "pin_cites": [
+        {
+          "page": "7-8"
+        },
+        {
+          "page": "138-139, 314-315",
+          "parenthetical": "Cynthia Karol"
+        },
+        {
+          "page": "154-155, 310-311",
+          "parenthetical": "Akmal, Inc."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "340 Mass. 124",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        3851696
+      ],
+      "year": 1959,
+      "pin_cites": [
+        {
+          "page": "129-130"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/340/0124-01"
+      ]
+    },
+    {
+      "cite": "940 F. 2d 744",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10525297
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "746-747"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/940/0744-01"
+      ]
+    },
+    {
+      "cite": "153 F. 3d 938",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11708568
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "948"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/153/0938-01"
+      ]
+    },
+    {
+      "cite": "343 F. 3d 482",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9096845
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "486-488"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/343/0482-01"
+      ]
+    },
+    {
+      "cite": "115 F. 3d 849",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11986059
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "852-853"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/115/0849-01"
+      ]
+    },
+    {
+      "cite": "137 F. 3d 386",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        105998
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "390-391"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/137/0386-01"
+      ]
+    },
+    {
+      "cite": "524 P. 3d 33",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "37, n. 1"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 U. S. C. \u00a72805",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(b)(2)(A)(i)",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(d)(1)(C)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "556 U. S. 928",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653672
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "933"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/556/0928-01"
+      ]
+    },
+    {
+      "cite": "15 U. S. C. \u00a7 2806",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "404 U. S. 336",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6173129
+      ],
+      "year": 1971,
+      "pin_cites": [
+        {
+          "page": "349"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/404/0336-01"
+      ]
+    },
+    {
+      "cite": "32 Emory L. J. 273",
+      "category": "journals:journal",
+      "reporter": "Emory L.J.",
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "277-283"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "314 F. 3d 846",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9384541
+      ],
+      "weight": 2,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "861"
+        },
+        {
+          "page": "861"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/314/0846-01"
+      ]
+    },
+    {
+      "cite": "555 U. S. 246",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3679105
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "258-259"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/555/0246-01"
+      ]
+    },
+    {
+      "cite": "1 DePaul L. Rev. 69",
+      "category": "journals:journal",
+      "reporter": "DePaul L. Rev.",
+      "weight": 2,
+      "year": 1951,
+      "pin_cites": [
+        {
+          "page": "75"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "509 F. 2d 923",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        141650
+      ],
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "929"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/509/0923-01"
+      ]
+    },
+    {
+      "cite": "509 F. 2d 140",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        141449
+      ],
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "144"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/509/0140-01"
+      ]
+    },
+    {
+      "cite": "542 U. S. 129",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5858697
+      ],
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "141-143",
+          "parenthetical": "tracing the doctrine to the 1930's"
+        },
+        {
+          "page": "141-143, 148"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/542/0129-01"
+      ]
+    },
+    {
+      "cite": "513 U. S. 179",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1334078
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "187"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/513/0179-01"
+      ]
+    },
+    {
+      "cite": "557 U. S. 903",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 2009,
+      "opinion_index": 0
+    },
+    {
+      "cite": "524 F. 3d 33",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3823171
+      ],
+      "weight": 14,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "38"
+        },
+        {
+          "page": "37"
+        },
+        {
+          "page": "38"
+        },
+        {
+          "page": "47"
+        },
+        {
+          "page": "45-47"
+        },
+        {
+          "page": "46",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "49"
+        },
+        {
+          "page": "389"
+        },
+        {
+          "page": "46"
+        },
+        {
+          "page": "44-47"
+        },
+        {
+          "page": "51"
+        },
+        {
+          "page": "44-45",
+          "parenthetical": "case below"
+        },
+        {
+          "page": "46",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/524/0033-01"
+      ]
+    },
+    {
+      "cite": "15 U. S. C. \u00a7\u00a72802",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 8,
+      "pin_cites": [
+        {
+          "page": "(aMb)"
+        },
+        {
+          "page": "(a)(1)"
+        },
+        {
+          "page": "204"
+        },
+        {
+          "page": "330-331"
+        },
+        {
+          "page": "202-207"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "1980 Duke L. J. 522",
+      "category": "journals:journal",
+      "reporter": "Duke L.J.",
+      "pin_cites": [
+        {
+          "page": "524-531"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "92 Stat. 322,15",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1446,
+    "char_count": 38734,
+    "ocr_confidence": 0.592,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.10163816500498678
+    },
+    "sha256": "939bf9143725185ed6cfd3c04c791f38d3763bd233a309f41d339d693b61b6ee",
+    "simhash": "1:4d10ee559a355670",
+    "word_count": 6187
+  },
+  "last_updated": "2024-02-27T16:02:41.844851+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Auto, J., delivered the opinion for a unanimous Court."
+    ],
+    "parties": [
+      "MAC\u2019S SHELL SERVICE, INC., et al. v. SHELL OIL PRODUCTS CO. LLC et al."
+    ],
+    "opinions": [
+      {
+        "text": "Justice Alito\ndelivered the opinion of the Court.\nThe Petroleum Marketing Practices Act (PMPA or Act), 92 Stat. 322,15 U. S. C. \u00a7 2801 et seq., limits the circumstances in which petroleum franchisors may \u201cterminate\u201d a franchise or \u201cfail to renew\u201d a franchise relationship. \u00a72802. In these consolidated cases, service-station franchisees brought suit under the Act, alleging that a franchisor had constructively \u201cterminate!)!]\u201d their franchises and had constructively \u201cfail[ed] to renew\u201d their franchise relationships. They asserted these claims even though the conduct of which they complained had not compelled any of them to abandon their franchises and even though they had been offered and had accepted renewal agreements. We hold that a franchisee cannot recover for constructive termination under the PMPA if the franchisor\u2019s allegedly wrongful conduct did not compel the franchisee to abandon its franchise. Additionally, we conclude that a franchisee who signs and operates under a renewal agreement with a franchisor may not maintain a claim for constructive nonrenewal. We therefore reverse in part and affirm in part.\nI\nA\nPetroleum refiners and distributors supply motor fuel to the public through service stations that often are operated by independent franchisees. In the typical franchise arrangement, the franchisor leases the service-station premises to the franchisee, grants the franchisee the right to use the franchisor\u2019s trademark, and agrees to sell motor fuel to the franchisee for resale. Franchise agreements remain in effect for a stated term, after which the parties can opt to renew the franchise relationship by executing a new agreement.\nEnacted in 1978, the PMPA was a response to widespread concern over increasing numbers of allegedly unfair franchise terminations and nonrenewals in the petroleum industry. See, e. g., Comment, 1980 Duke L. J. 522, 524-531. The Act establishes minimum federal standards governing the termination and nonrenewal of petroleum franchises. Under the Act's operative provisions, a franchisor may \u201cterminate\u201d a \u201cfranchise\u201d during the term stated in the franchise agreement and may \u201cfail to renew\u201d a \u201cfranchise relationship\u201d at the conclusion of that term only if the franchisor provides written notice and takes the action in question for a reason specifically recognized in the statute. 15 U. S. C. \u00a7\u00a72802, 2804. Consistent with the typical franchise arrangement, a \u201cfranchise\u201d is defined as \u201cany contract\u201d that authorizes a franchisee to use the franchisor\u2019s trademark, as well as any associated agreement providing for the supply of motor fuel or authorizing the franchisee to occupy a service station owned by the franchisor. \u00a72801(1). The Act defines a \u201cfranchise relationship\u201d in more general terms: the parties\u2019 \u201crespective motor fuel marketing or distribution obligations and responsibilities\u201d that result from the franchise arrangement. \u00a7 2801(2).\nTo enforce these provisions, a franchisee may bring suit in federal court against any franchisor that fails to comply with the Act\u2019s restrictions on terminations and nonrenewals. See \u00a7 2805. Successful franchisees can benefit from a wide range of remedies, including compensatory and punitive damages, reasonable attorney\u2019s fees and expert costs, and equitable relief. See \u00a7\u00a7 2805(b), (d). The Act also requires district courts to grant preliminary injunctive relief to aggrieved franchisees, if there are \u201csufficiently serious questions going to the merits\u201d that present \u201ca fair ground for litigation\u201d and the balance of hardships favors such relief. \u00a7 2805(b)(2).\nB\nThis litigation involves a dispute between Shell Oil Company (Shell), a petroleum franchisor, and several Shell franchisees in Massachusetts. Pursuant to their franchise agreements with Shell, each franchisee was required to pay Shell monthly rent for use of the service-station premises. For many years, Shell offered the franchisees a rent subsidy that reduced the monthly rent by a set amount for every gallon of motor fuel a franchisee sold above a specified threshold. Shell renewed the subsidy annually through notices that \u201cexplicitly provided for cancellation [of the rent subsidy] with thirty days\u2019 notice.\u201d Marcoux v. Shell Oil Prods. Co., 524 F. 3d 33, 38 (CA1 2008). Nonetheless, Shell representatives made various oral representations to the franchisees \u201cthat the [s]ubsidy or something like it would always exist.\u201d Ibid.\nIn 1998, Shell joined with two other oil companies to create Motiva Enterprises LLC (Motiva), a joint venture that combined the companies\u2019 petroleum-marketing operations in the eastern United States. Id., at 37. Shell assigned to Motiva its rights and obligations under the relevant franchise agreements. Motiva, in turn, took two actions that led to this lawsuit. First, effective January 1, 2000, Motiva ended the volume-based rent subsidy, thus increasing the franchisees\u2019 rent. Id., at 38. Second, as each franchise agreement expired, Motiva offered the franchisees new agreements that contained a different formula for calculating rent. For some (but not all) of the franchisees, annual rent was greater under the new formula.\nC\nIn July 2001, 63 Shell franchisees (hereinafter dealers) filed suit against Shell and Motiva in Federal District Court. Their complaint alleged that Motiva\u2019s discontinuation of the rent subsidy constituted a breach of contract under state law. Additionally, the dealers asserted two claims under the PMPA. First, they maintained that Shell and Motiva, by eliminating the rent subsidy, had \u201cconstructively terminated\u201d their franchises in violation of the Act. Second, they claimed that Motiva\u2019s offer of new franchise agreements that calculated rent using a different formula amounted to a \u201cconstructive nonrenewal\u201d of their franchise relationships. 524 F. 3d, at 47.\nAfter a 2-week trial involving eight of the dealers, the jury found against Shell and Motiva on all claims. Both before and after the jury\u2019s verdict, Shell and Motiva moved for judgment as a matter of law on the dealers\u2019 two PMPA claims. They argued that they could not be found liable for constructive termination under the Act because none of the dealers had abandoned their franchises in response to Motiva\u2019s elimination of the rent subsidy \u2014 something Shell and Motiva said was a necessary element of any constructive termination claim. Similarly, they argued that the dealers\u2019 constructive nonrenewal claims necessarily failed because seven of the eight dealers had signed and operated under renewal agreements with Motiva, and the eighth had sold his franchise prior to the expiration of his franchise agreement. The District Court denied these motions, and Shell and Motiva appealed.\nThe First Circuit affirmed in part and reversed in part. In affirming the judgment on the dealers\u2019 constructive termination claims, the Court of Appeals held that a franchisee is not required to abandon its franchise to recover for constructive termination under the PMPA. See id., at 45-47. Instead, the court ruled, a simple breach of contract by an assignee of a franchise agreement can amount to constructive termination under the Act, so long as the breach resulted in \u201csuch a material change that it effectively ended the lease, even though the [franchisee] continued to operate [its franchise].\u201d Id., at 46 (internal quotation marks omitted). Turning to the dealers\u2019 constructive nonrenewal claims, the First Circuit agreed with Shell and Motiva that a franchisee cannot maintain a claim for unlawful nonrenewal under the PMPA \u201cwhere the franchisee has signed and operates under the renewal agreement complained of.\u201d Id., at 49. The court thus reversed the judgment on those claims.\nWe granted certiorari. 557 U. S. 903 (2009).\nII\nThe first question we are asked to decide is whether a service-station franchisee may recover for constructive termination under the PMPA when the franchisor\u2019s allegedly wrongful conduct did not force the franchisee to abandon its franchise. For the reasons that follow, we conclude that a necessary element of any constructive termination claim under the Act is that the franchisor\u2019s conduct forced an end to the franchisee\u2019s use of the franchisor\u2019s trademark, purchase of the franchisor\u2019s fuel, or occupation of the franchisor\u2019s service station.\nA\nWhen given its ordinary meaning, the text of the PMPA prohibits only that franchisor conduct that has the effect of ending a franchise. As relevant here, the Act provides that \u201cno franchisor . . . may ... terminate any franchise,\u201d except for an enumerated reason and after providing written notice. 15 U. S. C. \u00a7\u00a72802(aMb). The Act specifies that \u201c[t]he term \u2018termination\u2019 includes cancellation,\u201d \u00a72801(17), but it does not further define the term \u201cterminate\u201d or the incorporated term \u201ccancel.\u201d We therefore give those terms their ordinary meanings. See Asgrow Seed Co. v. Winterboer, 513 U. S. 179, 187 (1995).\nThe word \u201cterminate\u201d ordinarily means \u201cput an end to.\u201d Webster\u2019s New International Dictionary 2605 (2d ed. 1957); see also The Random House Dictionary of the English Language 1465 (1967). The term \u201ccancel\u201d carries a similar meaning: to \u201cannul or destroy.\u201d Webster\u2019s, supra, at 389; see also Random House, supra, at 215 (\u201cto make void; revoke; annul\u201d). The object of the verb \u201cterminate\u201d is the noun \u201cfranchise,\u201d a term the Act defines as \u201cany contract\u201d for the provision of one (or more) of the three elements of a typical petroleum franchise. \u00a72801(1). Thus, when given its ordinary meaning, the Act is violated only if an agreement for the use of a trademark, purchase of motor fuel, or lease of a premises is \u201cput [to] an end\u201d or \u201cannul[ed] or destroyed].\u201d Conduct that does not force an end to the franchise, in contrast, is not prohibited by the Act\u2019s plain terms.\nThe same conclusion follows even if Congress was using the words \u201cterminate\u201d and \u201ccancel\u201d in their technical, rather than ordinary, senses. When Congress enacted the PMPA, those terms had established meanings under the Uniform Commercial Code. Under both definitions, however, a \u201ctermination\u201d or \u201ccancellation\u201d occurs only when a contracting party \u201cputs an end to the contract.\u201d U. C. C. \u00a7\u00a72-106(3)-(4) (1972); see also U. C. C. \u00a7\u00a7 2-106(3)-(4), 1 U. L. A. 695,695-696 (2004). Thus, a franchisee who continues operating a franchise \u2014 occupying the same premises, receiving the same fuel, and using the same trademark \u2014 has not had the franchise \u201c terminate [d]\u201d in either the ordinary or technical sense of the word.\nRequiring franchisees to abandon their franchises before claiming constructive termination is also consistent with the general understanding of the doctrine of constructive termination. As applied in analogous legal contexts \u2014 both now and at the time Congress enacted the PMPA \u2014 a plaintiff must actually sever a particular legal relationship in order to maintain a claim for constructive termination. For example, courts have long recognized a theory of constructive discharge in the field of employment law. See Pennsylvania State Police v. Suders, 542 U. S. 129, 141-143 (2004) (tracing the doctrine to the 1930\u2019s). To recover for constructive discharge, however, an employee generally is required to quit his or her job. See 1B. Lindemann & P. Grossman, Employment Discrimination Law 1449 (4th ed. 2007); 3 L. Larson, Labor and Employment Law \u00a7 59.05[8] (2009); 2 EEOC Compliance Manual \u00a7 612.9(a) (2008); cf. Suders, supra, at 141-143, 148; Young v. Southwestern Savings & Loan Assn., 509 F. 2d 140, 144 (CA5 1975); Muller v. United States Steel Corp., 509 F. 2d 923, 929 (CA10 1975). Similarly, landlord-tenant law has long recognized the concept of constructive eviction. See Rapacz, Origin and Evolution of Constructive Eviction in the United States, 1 DePaul L. Rev. 69 (1951). The general rule under that doctrine is that a tenant must actually move out in order to claim constructive eviction. See id., at 75; Glendon, The Transformation of American Landlord-Tenant Law, 23 Boston College L. Rev. 503, 513-514 (1982); 1 H. Tiffany, Real Property \u00a7\u00a7141,143 (3d ed. 1939).\nAs generally understood in these and other contexts, a termination is deemed \u201cconstructive\u201d because it is the plaintiff, rather than the defendant, who formally puts an end to the particular legal relationship \u2014 not because there is no end to the relationship at all. There is no reason why a different understanding should apply to constructive termination claims under the PMPA. At the time when it enacted the statute, Congress presumably was aware of how courts applied the doctrine of constructive termination in these analogous legal contexts. Cf. Fitzgerald v. Barnstable School Comm., 555 U. S. 246, 258-259 (2009). And in the absence of any contrary evidence, we think it reasonable to interpret the Act in a way that is consistent with this well-established body of law.\nThe Court of Appeals was of the view that analogizing to doctrines of constructive termination in other contexts was inappropriate because \u201csunk costs, optimism, and the habit of years might lead franchisees to try to make the new arrangements work, even when the terms have changed so materially as to make success impossible.\u201d 524 F. 3d, at 46. But surely these same factors compel employees and tenants \u2014 no less than service-station franchisees \u2014 to try to make their changed arrangements work. Nonetheless, courts have long required plaintiffs asserting such claims to show an actual severance of the relevant legal relationship. We see no reason for a different rule here.\nAdditionally, allowing franchisees to obtain PMPA relief for conduct that does not force an end to a franchise would extend the reach of the Act much further than its text and structure suggest. Prior to 1978, the regulation of petroleum franchise agreements was largely a matter of state law. See Dersch Energies, Inc. v. Shell Oil Co., 314 F. 3d 846, 861 (CA7 2002); Comment, 32 Emory L. J. 273, 277-283 (1983). In enacting the PMPA, Congress did not regulate every aspect of the petroleum franchise relationship but instead federalized only the two parts of that relationship with which it was most concerned: the circumstances in which franchisors may terminate a franchise or decline to renew a franchise relationship. See 15 U. S. C. \u00a7 2802; Dersch Energies, supra, at 861-862. Congress left undisturbed state-law regulation of other types of disputes between petroleum franchisors and franchisees. See \u00a7 2806(a) (pre-empting only those state laws governing franchise terminations or nonrenewals).\nThe dealers would have us interpret the PMPA in a manner that ignores the Act\u2019s limited scope. On their view, and in the view of the Court of Appeals, the PMPA prohibits, not just unlawful terminations and nonrenewals, but also certain serious breaches of contract that do not cause an end to the franchise. See Brief for Respondents in No. 08-372, pp. 28-35 (hereinafter Respondents\u2019 Brief); 524 F. 3d, at 44-47. Reading the Act to prohibit simple breaches of contract, however, would be inconsistent with the Act\u2019s limited purpose and would further expand federal law into a domain traditionally reserved for the States. Without a clearer indication that Congress intended to federalize such a broad swath of the law governing petroleum franchise agreements, we decline to adopt an interpretation of the Act that would have such sweeping consequences. See, e. g., United States v. Bass, 404 U. S. 336, 349 (1971).\nFinally, important practical considerations inform our decision. Adopting the dealers\u2019 reading of the PMPA would require us to articulate a standard for identifying those breaches of contract that should be treated as effectively ending a franchise, even though the franchisee in fact continues to use the franchisor\u2019s trademark, purchase the franchisor\u2019s fuel, and occupy the service-station premises. We think any such standard would be indeterminate and unworkable. How is a court to determine whether a breach is serious enough effectively to end a franchise when the franchisee is still willing and able to continue its operations? And how is a franchisor to know in advance which breaches a court will later determine to have been so serious? The dealers have not provided answers to these questions. Nor could they. Any standard for identifying when a simple breach of contract amounts to a PMPA termination, when all three statutory elements remain operational, simply evades coherent formulation.\nB\nThe dealers suggest that this interpretation of the PMPA fails to provide franchisees with much-needed protection from unfair and coercive franchisor conduct that does not force an end to the franchise. That argument, however, ignores the fact that franchisees still have state-law remedies available to them. The pre-emptive scope of the PMPA is limited: The Act pre-empts only those state or local laws that govern the termination of petroleum franchises or the nonrenewal of petroleum franchise relationships. See 15 U. S. C. \u00a7 2806(a). Outside of those areas, therefore, franchisees can still rely on state-law remedies to address wrongful franchisor conduct that does not have the effect of ending the franchise. Indeed, that happened in this very lawsuit. The dealers argued in the District Court that Motiva\u2019s elimination of the rent subsidy not only constructively terminated their franchises in violation of the PMPA but also amounted to a breach of contract under state law. The jury found in their favor on their state-law claims and awarded them almost $1.3 million in damages. See App. 376-379. Thus, the dealers\u2019 own experience demonstrates that franchisees do not need a PMPA remedy to have meaningful protection from abusive franchisor conduct.\nThe dealers also charge that this interpretation of the PMPA cannot be correct because it renders other provisions of the Act meaningless. Respondents\u2019 Brief 21-22, 24-25. While we agree that we normally should construe statutes \u201cin a manner that gives effect to all of their provisions,\u201d we believe our interpretation is faithful to this \u201cwell-established principle] of statutory interpretation.\u201d United States ex rel. Eisenstein v. City of New York, 556 U. S. 928, 933 (2009).\nTo begin, the dealers insist that our reading of the term \u201cterminate\u201d will require franchisees to go out of business before they can obtain preliminary relief and thus will render useless the Act\u2019s preliminary injunction mechanism. We disagree. To obtain a preliminary injunction, it is true, a franchisee must show, among other things, that \u201cthe franchise of which he is a party has been terminated.\u201d 15 U. S. C. \u00a72805(b)(2)(A)(i) (emphasis added). But that does not necessarily mean that a franchisee must go out of business before obtaining an injunction. For example, in cases of actual termination, the Act requires franchisors to provide franchisees with written notice of termination well in advance of the date on which the termination \"takes effect.\u201d \u00a7 2804(a). A franchisee that receives notice of termination \u201chas been terminated\u201d within the meaning of \u00a72805(b)(2)(A)(i), even though the termination \u201ctakes effect\u201d on a later date, just as an employee who receives notice of discharge can be accurately described as having been discharged, even though the employee\u2019s last day at work may perhaps be weeks later. Thus, franchisees that receive notice of impending termination can invoke the protections of the Act\u2019s preliminary injunction mechanism well before having to go out of business. Contrary to the dealers\u2019 assertions, therefore, our interpretation of the Act gives meaningful effect to the PMPA\u2019s preliminary injunction provisions.\nOur interpretation also gives effect to the Act\u2019s alternative statute-of-limitations accrual dates. The 1-year limitations period governing PMPA claims runs from the later of either (1) \u201cthe date of termination of the franchise\u201d or (2) \u201cthe date the franchisor fails to comply with the requirements of\u201d the Act. \u00a7 2805(a). Some violations of the PMPA, however, cannot occur until after a franchise has been terminated. See, e. g., \u00a7 2802(d)(1) (franchisor must share with a franchisee certain parts of a condemnation award when the termination was the result of a condemnation or taking); \u00a7 2802(d)(2) (franchisor must grant a franchisee a right of first refusal if the franchise was terminated due to the destruction of the service station and the station subsequently is rebuilt). The second accrual date listed in \u00a7 2805(a), therefore, shows only that the limitations period runs from the date of these types of post-termination violations. It does not suggest that Congress intended franchisees to maintain claims under the PMPA to redress franchisor conduct that does not force an end to the franchise.\n* * *\nWe therefore hold that a necessary element of any constructive termination claim under the PMPA is that the complained-of conduct forced an end to the franchisee\u2019s use of the franchisor\u2019s trademark, purchase of the franchisor's fuel, or occupation of the franchisor\u2019s service station. Because none of the dealers in this litigation abandoned any element of their franchise operations in response to Motiva's ehmination of the rent subsidy, they cannot maintain a constructive termination claim on the basis of that conduct.\nIII\nThe second question we are asked to decide is whether a franchisee who is offered and signs a renewal agreement can nonetheless maintain a claim for \u201cconstructive nonrenewal\u201d under the PMPA. For reasons similar to those given above, we agree with the Court of Appeals that a franchisee that chooses to accept a renewal agreement cannot thereafter assert a claim for unlawful nonrenewal under the Act.\nThe plain text of the statute leaves no room for a franchisee to claim that a franchisor has unlawfully declined to renew a franchise relationship \u2014 constructively or otherwise \u2014 when the franchisee has in fact accepted a new franchise agreement. As relevant here, a franchisor violates the PMPA only when it \u201cfail[s] to renew\u201d a franchise relationship for a reason not provided for in the Act or after not providing the required notice. See 15 U. S. C. \u00a7 2802. The Act defines the term \u201cfail to renew,\u201d in turn, as a \u201cfailure to reinstate, continue, or extend the franchise relationship.\u201d \u00a72801(14). Thus, the threshold requirement of any unlawful nonrenewal action \u2014 a requirement the franchisee bears the burden of establishing, see \u00a7 2805(c) \u2014 is that the franchisor did not \u201creinstate, continue, or renew\u201d the franchise relationship once a franchise agreement expired. But if a franchisee signs a renewal agreement, the franchisor clearly has \u201creinstated], continued], or extend[ed]\u201d the franchise relationship. True, the franchisee might find some of the terms in the new agreement objectionable. But the Act prohibits only unlawful \u201cfail[ures] to renew\u201d a franchise relationship, not renewals of a franchise relationship on terms that are less than favorable to the franchisee. A franchisee that signs a renewal agreement, in short, cannot carry the threshold burden of showing a \u201cnonrenewal of the franchise relationship,\u201d \u00a7 2805(c), and thus necessarily cannot establish that the franchisor has violated the Act.\nThe dealers point out that several of them signed then-renewal agreements \u201cunder protest,\u201d and they argue that they thereby explicitly preserved their ability to assert a claim for unlawful nonrenewal under the PMPA. That argument misunderstands the legal significance of signing a renewal agreement. Signing a renewal agreement does not constitute a waiver of a franchisee\u2019s legal rights \u2014 something that signing \u201cunder protest\u201d can sometimes help avoid. See, e. g., U. C. C. \u00a7 1-207, 1 U. L. A. 318. Instead, signing a renewal agreement negates the very possibility of a violation of the PMPA. When a franchisee signs a renewal agreement \u2014 even \u201cunder protest\u201d \u2014 there has been no \u201cfail[ure] to renew,\u201d and thus the franchisee has no cause of action under the Act. See 15 U. S. C. \u00a7 2805(a).\nThe Act\u2019s structure and purpose confirm this interpretation. By requiring franchisors to renew only the \u201cfranchise relationship,\u201d as opposed to the same franchise agreement, see \u00a72802; see also \u00a72801(2), the PMPA contemplates that franchisors can respond to market demands by proposing new and different terms at the expiration of a franchise agreement. To that end, the Act authorizes franchisors to decline to renew a franchise relationship if the franchisee refuses to accept changes or additions that are proposed \u201cin good faith and in the normal course of business\u201d and that are not designed to convert the service station to direct operation by the franchisor. \u00a7 2802(b)(3)(A). Additionally, the Act creates a procedural mechanism for resolving disputes over the legality of proposed new terms. If the parties cannot agree, the franchisor has the option of either modifying the objectionable terms or pursuing nonrenewal, in which case it must provide the franchisee with written notice well in advance of the date when the nonrenewal takes effect. \u00a7 2804(a)(2). Once the franchisee receives notice of nonrenewal, it can seek a preliminary injunction under the Act\u2019s relaxed injunctive standard, maintaining the status quo while a court determines the lawfulness of the proposed changes. See \u00a7 2805(b)(2); supra, at 188-189.\nAllowing franchisees to pursue nonrenewal claims even after they have signed renewal agreements would undermine this procedural mechanism and, in the process, would frustrate franchisors\u2019 ability to propose new terms. Under the dealers\u2019 theory, franchisees have no incentive to object to burdensome new terms and seek a preliminary injunction if a franchisor pursues nonrenewal. Instead, a franchisee eould simply sign the new franchise agreement and decide later whether to sue under the PMPA. Franchisees would then have the option of either continuing to operate under the new agreement or, if the terms of the agreement later proved unfavorable, bringing suit under the PMPA alleging that the newly imposed terms are unlawful. And because the PMPA has a 1-year statute of limitations, see \u00a7 2805(a), franchisees would retain that option for the entire first year of a new franchise agreement. Accepting the dealers\u2019 argument, therefore, would cast a cloud of uncertainty over all renewal agreements and could chill franchisors from proposing new terms in response to changing market conditions and consumer needs.\nFinally, accepting the dealers\u2019 argument would greatly expand the PMPA\u2019s reach. Under the balance struck by the plain text of the statute, a franchisee faced with objectionable new terms must decide whether challenging those terms is worth risking the nonrenewal of the franchise relationship; if the franchisee rejects the terms and the franchisor seeks nonrenewal, the franchisee rims the risk that a court will ultimately determine that the proposed terms were lawful under the PMPA. See \u00a7 2802(b)(3)(A). That risk acts as a restraint, limiting the scope of franchisor liability under the Act to that with which Congress was most concerned: the imposition of arbitrary and unreasonable new terms on a franchisee that are designed to force an end to the petroleum franchise relationship. See, e: g., ibid.; Comment, 32 Emory L. J., at 277-283. Allowing franchisees both to sign a franchise agreement and to pursue a claim under the PMPA would eliminate that restraint and thus permit franchisees to challenge a much broader range of franchisor conduct \u2014 conduct to which the dealer might object but not consider so serious as to risk the nonrenewal of the franchise by mounting a legal challenge. As explained, the PMPA was enacted to address the narrow areas of franchise terminations and nonrenewals, not to govern every aspect of the petroleum franchise relationship. See supra, at 186; Derseh Energies, 314 F. 3d, at 861. We thus decline to adopt an interpretation that would expand the Act in such a fashion.\n* * *\nWe hold that a franchisee who is offered and signs a renewed franchise agreement cannot maintain a claim for unlawful nonrenewal under the PMPA. We therefore affirm the judgment of the Court of Appeals with respect to the dealers' nonrenewal claims.\nIV\nThe judgment of the Court of Appeals is reversed in part and affirmed in part. The cases are remanded for further proceedings consistent with this opinion.\nIt is so ordered.\nCourts sometimes describe these three types of agreements as the \u201cstatutory elements\u201d of a petroleum franchise. See, e.g., Marcoux v. Shell Oil Prods. Co., 524 P. 3d 33, 37, n. 1 (CA1 2008).\nShell Oil Products Company LLC, another party in this litigation, is a wholly owned subsidiary of Shell Oil Company. See Brief for Petitioners in No. 08-372, p. iii.\nThe dealers also claimed that Shell and Motiva had violated the Uniform Commercial Code, as adopted in Massachusetts, by setting unreasonable prices under the open-price terms of their fuel-supply agreements with the dealers. The jury found in favor of the dealers on this claim, and the Court of Appeals affirmed. 524 F. 3d, at 51. That issue is not before us.\nBecause resolving this question is sufficient to decide these cases, we need not address Shell and Motiva's alternative argument that the PMPA does not embrace claims for constructive termination at all. Several Courts of Appeals have held that the Act does create a cause of action for constructive termination. See, e. g., 524 F. 3d, at 44-45 (case below); Clark v. BP Oil Co., 137 F. 3d 386, 390-391 (CA6 1998); Shukla v. BP Exploration & Oil, Inc., 115 F. 3d 849, 852-853 (CA11 1997). Others have reserved judgment on the issue. See, e. g., Abrams Shell v. Shell Oil Co., 343 F. 3d 482, 486-488 (CA5 2003); Portland 76 Auto/Truck Plaza, Inc. v. Union Oil Co. of Cal., 153 F. 3d 938, 948 (CA9 1998). We leave the question for another day.\nThe difference between a \u201ctermination\u201d and a \u201ccancellation\u201d under the Uniform Commercial Code relates to how the contracting party justifies its ending of the contractual relationship. A \u201ctermination\u201d occurs when \u201ceither party pursuant to a power created by agreement or law puts an end to the contract otherwise than for its breach.\u201d U. C. C. \u00a72-106(3) (1972). By contrast, a \u201ccancellation\u201d occurs when \u201ceither party puts an end to the contract for breach by the other.\u201d \u00a7 2-106(4).\nThat difference might well explain why Congress felt compelled to specify that \u201ccancellationjs],\u201d no less than \u201ctermmation[s],\u201d are covered by the Act. Prior to the PMPA, franchisors often leveraged their greater bargaining power to end franchise agreements for minor or technical breaches by the franchisee. See, e. g., Chestnut Hill Gulf, Inc. v. Cumberland Farms, Inc., 940 F. 2d 744, 746-747 (CA1 1991). By specifying that the Act eovers \u201ccancellation[s]\u201d as well as \u201ctermination[s],\u201d Congress foreclosed any argument that a termination for breach is not covered by the Act because it is technically a \u201ccancellation\u201d rather than a \u201ctermination.\u201d\nBefore Congress enacted the PMPA, at least one court, it is true, had held that a tenant asserting constructive eviction could obtain declaratory .relief without abandoning the premises \u2014 although the court observed that the tenant still would have to abandon the premises in order to obtain rescission. See Charles E. Burt, Inc. v. Seven Grand Corp., 340 Mass. 124, 129-130, 163 N. E. 2d 4, 7-8 (1959). But as even the dealers concede, see Tr. of Oral Arg. 37-38, the clear majority of authority required a tenant to leave the premises before claiming constructive eviction.\nFor similar reasons, the Second Restatement of Property is of no help to the dealers. Although it would allow a tenant to bring a constructive eviction claim without moving out, it noted that this proposition was \u201ccontrary to the present weight of judicial authority.\u201d 1 Restatement (Second) of Property \u00a7 6.1, Reporter\u2019s Note 1, p. 230 (1976).\nAdopting such a broad reading of the PMPA also would have serious implications for run-of-the-mill franchise disputes., The Act requires courts to award attorney\u2019s fees and expert-witness fees in any case in which a plaintiff recovers more than nominal damages. See 15 U. S. C. \u00a7 2805(d)(1)(C). The Act also permits punitive damages, \u00a7 2805(d)(1)(B), a remedy ordinarily not available in breach-of-contract actions, see Barnes v. Gorman, 536 U. S. 181, 187-188 (2002). Accepting the dealers\u2019 reading of the statute, therefore, would turn everyday contract disputes into high-stakes affairs.\nThe First Circuit, for example, approved of a test that asks whether the breach resulted in \u201csuch a material change that it effectively ended the lease, even though the plaintiffs continued to operate [their franchises].\u201d 524 F. 3d, at 46 (internal quotation marks omitted). That standard, it seems to us, does little more than restate the relevant question. While we do not decide whether the PMPA contemplates claims for constructive termination, we observe that the Court of Appeals\u2019 unwillingness or inability to establish a more concrete standard underscores the difficulties and inherent contradictions involved in crafting a standard for finding a \u201ctermination\u201d when no termination has in fact occurred.\nThe Government reads the Act to permit a dealer to seek preliminary injunctive relief if a franchisor announces its \u201cintent to engage in conduct that would leave the franchisee no reasonable alternative but to abandon\u201d one (or more) of the franchise elements. Brief for United States as Amicus Curiae 21. Because we do not decide whether the PMPA permits constructive termination claims at all, see n. 4, supra, we need not address this argument.\nAfter Motiva withdrew the rent subsidy, seven of the dealers continued operating their franchises for the Ml terms of their franchise agreements and then signed new agreements that did not include the subsidy. See App. 161, 164, 316-321 (Mac\u2019s Shell Service, Inc.); id., at 138-139, 314-315 (Cynthia Karol); id., at 154-155, 310-311 (Akmal, Inc.); id., at 185-186, 268-269 (Sid Prashad); id., at 190, 312-313 (J & M Avramidis, Inc.); id., at 179-182, 322-323 (RAM Corp., Inc.); id., at 148-153, 324-325 (John A. Sullivan). These dealers necessarily cannot establish that the elimination of the subsidy \u201cterminate[d]\u2019\u2019 their franchises \u201cprior to the conclusion of the term\u201d stated in their franchise agreements. 15 U. S. C. \u00a7 2802(a)(1). Whether they ceased operations after their franchise agreements expired, moreover, is irrelevant. Indeed, in the Court of Appeals, the dealers abandoned any claim for constructive termination based on the subsequent franchise agreements. See Appellees\u2019 Brief in No. 05-2770 etc. (CAI), p. 40, n. 29.\nOne dealer did leave his franchise before his franchise agreement expired. App. 204, 330-331 (Stephen Pisarczyk). But that dealer not only continued to operate for seven months after the subsidy ended, id., at 204, but also during that period entered into an agreement with Motiva to extend the term of his franchise agreement, id., at 330-331. Moreover, that dealer had been planning to leave the service-station business before Motiva eliminated the subsidy, and he never claimed that his decision to leave had anything to do with Motiva\u2019s rent policies. See id., at 202-207.\nAs is true with respect to the dealers\u2019 constructive termination claims, it is not necessary for us to decide in these cases whether the Act at all recognizes claims for \u201cconstructive nonrenewal.\u201d We therefore do not express a view on that question.\nThe availability of preliminary injunctive relief under the Act also explains why the dealers are wrong to suggest that our holding will force franchisees \u201cto choose between accepting an unlawful and coercive contract in order to stay in business [or] rejecting it and going out of business in order to preserve a cause of action.\u201d Respondents\u2019 Brief 51 (internal quotation marks omitted). A franchisee presented with \u201cunlawful and coercive\u201d terms'can simply reject those terms and, if the franchisor pursues nonrenewal, seek a preliminary injunction under the Act once the franchisee receives notice of nonrenewal. Indeed, the PMPA substantially relaxes the normal standard for obtaining preliminary injunctive relief, \u00a7 2805(b)(2)(A)(ii), thus allowing a franchisee with anything close to a meritorious claim to obtain relief.\nIt is possible, of course, that a franchisor could fail to renew a franchise relationship without providing the statutorily required notice. But in that circumstance, a franchisee would not only have a sure-fire claim for unlawful nonrenewal, see \u00a7 2802(b)(1)(A), but also presumably could seek a preliminary injunction forcing the franchisor to resume providing the franchise elements for the duration of the litigation.\nIt also is worth noting that, although the concept of \u201cconstructive nonrenewal\u201d does not arise frequently in other areas of the law, the little authority on this concept supports our conclusion that a plaintiff who signs a new agreement cannot maintain a claim for constructive nonrenewal. See American Cas. Co. of Reading, Pa. v. Baker, 22 F. 3d 880, 892-894 (CA9 1994) (insured who accepts a successor insurance policy cannot maintain a claim for constructive nonrenewal of the previous policy); American Cas. Co. of Reading, Pa. v. Continisio, 17 F. 3d 62, 65-66 (CA3 1994) (same); Adams v. Greenwood, 10 F. 3d 568, 572 (CA8 1993) (same).",
+        "type": "majority",
+        "author": "Justice Alito"
+      }
+    ],
+    "attorneys": [
+      "Jeffrey A Lamken argued the cause for petitioners in No. 08-372 and respondents in No. 08-240. With him on the briefs were Robert K. Kry, Macey Reasoner Stokes, David M. Rodi, Paul D. Sanson, Vaughan Finn, Karen T. Staib, and James Cowan.",
+      "David A. O\u2019Neil argued the cause for the United States as amicus curiae supporting petitioners in No. 08-372 and respondents in No. 08-240. With him on the brief were Solicitor General Kagan, Assistant Attorney General Varney, Deputy Solicitor General Stewart, Deputy Assistant Attorney General Weiser, Catherine G. O\u2019Sullivan, and Nickolai G. Levin.",
+      "John F. Farraher, Jr., argued the cause for respondents in No. 08-372 and petitioners in No. 08-240. With him on the briefs were Gary R. Greenberg, Peter Alley, Louis J. Scerra, Justin F. Keith, Mark E. Solomons, and Laura Metcoff Klaus."
+    ],
+    "corrections": "",
+    "head_matter": "MAC\u2019S SHELL SERVICE, INC., et al. v. SHELL OIL PRODUCTS CO. LLC et al.\nNo. 08-240.\nArgued January 19, 2010\nDecided March 2, 2010\nAuto, J., delivered the opinion for a unanimous Court.\nJeffrey A Lamken argued the cause for petitioners in No. 08-372 and respondents in No. 08-240. With him on the briefs were Robert K. Kry, Macey Reasoner Stokes, David M. Rodi, Paul D. Sanson, Vaughan Finn, Karen T. Staib, and James Cowan.\nDavid A. O\u2019Neil argued the cause for the United States as amicus curiae supporting petitioners in No. 08-372 and respondents in No. 08-240. With him on the brief were Solicitor General Kagan, Assistant Attorney General Varney, Deputy Solicitor General Stewart, Deputy Assistant Attorney General Weiser, Catherine G. O\u2019Sullivan, and Nickolai G. Levin.\nJohn F. Farraher, Jr., argued the cause for respondents in No. 08-372 and petitioners in No. 08-240. With him on the briefs were Gary R. Greenberg, Peter Alley, Louis J. Scerra, Justin F. Keith, Mark E. Solomons, and Laura Metcoff Klaus.\nTogether with No. 08-872, Shell Oil Products Co. LLC et al. v. Mac\u2019s Shell Service, Inc., et al., also on certiorari to the same court.\nRobert A Long, Jr., Jonathan L. Marcus, Harry M. Ng, and Janice K Raburn filed a brief for the American Petroleum Institute as amicus curiae."
+  },
+  "file_name": "0175-01",
+  "first_page_order": 275,
+  "last_page_order": 295
+}

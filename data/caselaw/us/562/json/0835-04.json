@@ -1,0 +1,59 @@
+{
+  "id": 5983450,
+  "name": "Venezia v. William Penn School District",
+  "name_abbreviation": "Venezia v. William Penn School District",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-1464",
+  "first_page": "835",
+  "last_page": "835",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 835"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 87,
+    "ocr_confidence": 0.612,
+    "sha256": "7702da6a5951d9a46f6bf96cc95e44ccad198225d5ca2241dc0a10a766fb110a",
+    "simhash": "1:781bd0d86c2c3c26",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Venezia v. William Penn School District."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-1464.\nVenezia v. William Penn School District."
+  },
+  "file_name": "0835-04",
+  "first_page_order": 857,
+  "last_page_order": 857
+}

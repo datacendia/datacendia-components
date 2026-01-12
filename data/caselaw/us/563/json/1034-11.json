@@ -1,0 +1,59 @@
+{
+  "id": 5957130,
+  "name": "Tylman v. United States",
+  "name_abbreviation": "Tylman v. United States",
+  "decision_date": "2011-06-06",
+  "docket_number": "No. 10-7499",
+  "first_page": "1034",
+  "last_page": "1034",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1034"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.629,
+    "sha256": "18417a23559c51b76f8bf32ef154f5810b659fa9f8f3a1d561d5b894d2e41716",
+    "simhash": "1:024bc68be7af8922",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Tylman v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7499.\nTylman v. United States."
+  },
+  "file_name": "1034-11",
+  "first_page_order": 1060,
+  "last_page_order": 1060
+}

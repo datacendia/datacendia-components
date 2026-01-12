@@ -1,0 +1,59 @@
+{
+  "id": 12416842,
+  "name": "Ford v. United States",
+  "name_abbreviation": "Ford v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5845",
+  "first_page": "925",
+  "last_page": "925",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 925"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.686,
+    "sha256": "3608836221ddeaa02e912da5b678c28b976f289c0dd370a91e5dd84f25b94b4e",
+    "simhash": "1:24e292c3ce851119",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ford v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5845.\nFord v. United States."
+  },
+  "file_name": "0925-04",
+  "first_page_order": 1001,
+  "last_page_order": 1001
+}

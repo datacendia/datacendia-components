@@ -1,0 +1,59 @@
+{
+  "id": 12424866,
+  "name": "Hoffman v. Florida Department of Corrections",
+  "name_abbreviation": "Hoffman v. Florida Department of Corrections",
+  "decision_date": "2012-11-26",
+  "docket_number": "No. 12-6402",
+  "first_page": "1033",
+  "last_page": "1033",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1033"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 14,
+    "char_count": 94,
+    "ocr_confidence": 0.681,
+    "sha256": "487caf49d0b811e368d3065ecef5144b16d8445d2780f77f16bab742b54c92e2",
+    "simhash": "1:17f34e3b83dbb034",
+    "word_count": 14
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hoffman v. Florida Department of Corrections."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6402.\nHoffman v. Florida Department of Corrections."
+  },
+  "file_name": "1033-11",
+  "first_page_order": 1109,
+  "last_page_order": 1109
+}

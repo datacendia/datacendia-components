@@ -1,0 +1,59 @@
+{
+  "id": 12240273,
+  "name": "Bush v. Division of Human Rights et al.",
+  "name_abbreviation": "Bush v. Division of Human Rights",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-7085",
+  "first_page": "1123",
+  "last_page": "1123",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1123"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 87,
+    "ocr_confidence": 0.674,
+    "sha256": "0dcbf008fb85c3bfd10cf698638204b8fb5e1e8ec0c91dc29d24c3f2e7c2e7c9",
+    "simhash": "1:baf07dce98215f77",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Bush v. Division of Human Rights et al."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. N. Y. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7085.\nBush v. Division of Human Rights et al."
+  },
+  "file_name": "1123-07",
+  "first_page_order": 1205,
+  "last_page_order": 1205
+}

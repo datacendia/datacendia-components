@@ -1,0 +1,98 @@
+{
+  "id": 5920885,
+  "name": "In re Disbarment of Bleecker",
+  "name_abbreviation": "In re Disbarment of Bleecker",
+  "decision_date": "2011-05-16",
+  "docket_number": "No. D-2514",
+  "first_page": "985",
+  "last_page": "985",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 985"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "562 U. S. 810",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6017025,
+        5940070,
+        5999819,
+        5997549,
+        12437742,
+        12437743,
+        12437744,
+        5984657,
+        12437746,
+        12437747,
+        12437741,
+        12437745,
+        6023830,
+        6021374
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/562/0810-01",
+        "/us/562/0810-06",
+        "/us/562/0810-07",
+        "/us/562/0810-03",
+        "/l-ed-2d/178/0265-01",
+        "/l-ed-2d/178/0265-02",
+        "/l-ed-2d/178/0265-03",
+        "/us/562/0810-04",
+        "/l-ed-2d/178/0265-05",
+        "/l-ed-2d/178/0265-06",
+        "/l-ed-2d/178/0264-06",
+        "/l-ed-2d/178/0265-04",
+        "/us/562/0810-02",
+        "/us/562/0810-05"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 109,
+    "ocr_confidence": 0.514,
+    "sha256": "80b61fda2ccc054d8382643ddab1dd9104ccd9ae57f8727a1a45cb694893dce6",
+    "simhash": "1:3c6d8ca3fba4faa5",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:44:09.189648+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Bleecker."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered. [For earlier order herein, see 562 U. S. 810.]",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2514.\nIn re Disbarment of Bleecker."
+  },
+  "file_name": "0985-07",
+  "first_page_order": 1011,
+  "last_page_order": 1011
+}

@@ -1,0 +1,826 @@
+{
+  "id": 12518220,
+  "name": "IN RE: Matthew N. MURRAY. Wilk Auslander LLP, Creditor-Appellant, v. Matthew N. Murray, Debtor-Appellee.",
+  "name_abbreviation": "Wilk Auslander LLP v. Murray (In re Murray)",
+  "decision_date": "2018-08-14",
+  "docket_number": "No. 17-1272-bk; August Term, 2017",
+  "first_page": "53",
+  "last_page": "63",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "900 F.3d 53"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "2nd Cir.",
+    "id": 9993,
+    "name": "United States Court of Appeals for the Second Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "118 A.D.3d 613",
+      "category": "reporters:state",
+      "reporter": "A.D.3d",
+      "case_ids": [
+        4068416
+      ],
+      "weight": 2,
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "23"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ad3d/118/0613-01"
+      ]
+    },
+    {
+      "cite": "11 U.S.C. \u00a7\u00a7 930",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "565 B.R. 527",
+      "category": "reporters:specialty",
+      "reporter": "B.R.",
+      "case_ids": [
+        12272784
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "530"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/565/0527-01"
+      ]
+    },
+    {
+      "cite": "831 F.2d 395",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1768176,
+        6546370
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "396",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/831/0395-01",
+        "/br/78/0395-01"
+      ]
+    },
+    {
+      "cite": "30 B.R. 956",
+      "category": "reporters:specialty",
+      "reporter": "B.R.",
+      "case_ids": [
+        6123503
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "963"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/30/0956-01"
+      ]
+    },
+    {
+      "cite": "37 B.R. 496",
+      "category": "reporters:specialty",
+      "reporter": "B.R.",
+      "case_ids": [
+        6109443
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "499",
+          "parenthetical": "it is \"obvious that the use of the bankruptcy court as a routine collection device would quickly paralyze\" the bankruptcy court"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/37/0496-01"
+      ]
+    },
+    {
+      "cite": "561 B.R. 868",
+      "category": "reporters:specialty",
+      "reporter": "B.R.",
+      "case_ids": [
+        12176869
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "901",
+          "parenthetical": "noting that even if a creditor's interests may be better served by bankruptcy remedies, the existence of a state forum supports dismissal"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/561/0868-01"
+      ]
+    },
+    {
+      "cite": "772 F.2d 397",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        306515,
+        6123460
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "400",
+          "parenthetical": "\"A creditor does not have a special need for bankruptcy relief if it can go to state court to collect a debt.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/772/0397-01",
+        "/br/52/0397-01"
+      ]
+    },
+    {
+      "cite": "733 F.2d 27",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        6558992,
+        575434
+      ],
+      "year": 1984,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/39/0027-01",
+        "/f2d/733/0027-01"
+      ]
+    },
+    {
+      "cite": "39 B.R. 977",
+      "category": "reporters:specialty",
+      "reporter": "B.R.",
+      "case_ids": [
+        6558241
+      ],
+      "weight": 2,
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "979"
+        },
+        {
+          "page": "977, 979"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/39/0977-01"
+      ]
+    },
+    {
+      "cite": "30 B.R. 976",
+      "category": "reporters:specialty",
+      "reporter": "B.R.",
+      "case_ids": [
+        6123809
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "979-81"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/30/0976-01"
+      ]
+    },
+    {
+      "cite": "893 F.2d 15",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        11641208
+      ],
+      "weight": 4,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "19"
+        },
+        {
+          "page": "20-21"
+        },
+        {
+          "page": "17, 19-20"
+        },
+        {
+          "page": "20-21",
+          "parenthetical": "\"non-economic factors\" are relevant"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/893/0015-01"
+      ]
+    },
+    {
+      "cite": "4 B.R. 327",
+      "category": "reporters:specialty",
+      "reporter": "B.R.",
+      "case_ids": [
+        6528830
+      ],
+      "year": 1980,
+      "pin_cites": [
+        {
+          "page": "330"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/4/0327-01"
+      ]
+    },
+    {
+      "cite": "128 B.R. 49",
+      "category": "reporters:specialty",
+      "reporter": "B.R.",
+      "case_ids": [
+        6481539
+      ],
+      "weight": 2,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "51"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/128/0049-01"
+      ]
+    },
+    {
+      "cite": "212 F.2d 584",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        545751
+      ],
+      "year": 1954,
+      "pin_cites": [
+        {
+          "page": "585",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/212/0584-01"
+      ]
+    },
+    {
+      "cite": "106 B.R. 890",
+      "category": "reporters:specialty",
+      "reporter": "B.R.",
+      "case_ids": [
+        6120324
+      ],
+      "weight": 2,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "parenthetical": "collecting cases considering the purpose for which a bankruptcy petition was filed and noting a bankruptcy court's right to protect the integrity of its jurisdiction"
+        },
+        {
+          "page": "927-28"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/106/0890-01"
+      ]
+    },
+    {
+      "cite": "223 B.R. 648",
+      "category": "reporters:specialty",
+      "reporter": "B.R.",
+      "case_ids": [
+        11702734
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "653-54",
+          "parenthetical": "dismissing for an \"unenumerated 'cause' \""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/223/0648-01"
+      ]
+    },
+    {
+      "cite": "986 F.2d 709",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        6523888,
+        662184
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "parenthetical": "\"Debt collection is not a proper purpose of bankruptcy.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/151/0709-02",
+        "/f2d/986/0709-01"
+      ]
+    },
+    {
+      "cite": "113 F.3d 1304",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        440132,
+        336518
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "1309-10"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/209/1304-01",
+        "/f3d/113/1304-01"
+      ]
+    },
+    {
+      "cite": "11 U.S.C. \u00a7 1112",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "121 B.R. 694",
+      "category": "reporters:specialty",
+      "reporter": "B.R.",
+      "case_ids": [
+        6112749
+      ],
+      "weight": 2,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "696, 700"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/121/0694-01"
+      ]
+    },
+    {
+      "cite": "202 B.R. 341",
+      "category": "reporters:specialty",
+      "reporter": "B.R.",
+      "case_ids": [
+        6441442
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "346-48",
+          "parenthetical": "explaining why some courts refuse to consider sole-creditor petitions unless there are exceptional circumstances such as where the creditor has no adequate alternative remedy under non-bankruptcy law"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/202/0341-01"
+      ]
+    },
+    {
+      "cite": "216 B.R. 470",
+      "category": "reporters:specialty",
+      "reporter": "B.R.",
+      "case_ids": [
+        1213660,
+        1213558
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "486"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/216/0470-01",
+        "/br/216/0470-02"
+      ]
+    },
+    {
+      "cite": "835 F.3d 414",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4353435,
+        12136742
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "419"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/835/0414-01",
+        "/br/559/0414-01"
+      ]
+    },
+    {
+      "cite": "773 F.2d 945",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        18593,
+        6125036
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "946"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/773/0945-01",
+        "/br/53/0945-02"
+      ]
+    },
+    {
+      "cite": "804 F.3d 328",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4355324,
+        4356134
+      ],
+      "weight": 2,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "335",
+          "parenthetical": "quoting In re Reid , 773 F.2d 945, 946 (7th Cir. 1985) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/541/0328-01",
+        "/f3d/804/0328-01"
+      ]
+    },
+    {
+      "cite": "370 B.R. 236",
+      "category": "reporters:specialty",
+      "reporter": "B.R.",
+      "case_ids": [
+        3502204
+      ],
+      "weight": 2,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "245-46"
+        },
+        {
+          "page": "246"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/370/0236-01"
+      ]
+    },
+    {
+      "cite": "11 U.S.C. \u00a7 301",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "812 F.3d 365",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4085849,
+        4116259
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "369-75"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/812/0365-01",
+        "/br/546/0365-01"
+      ]
+    },
+    {
+      "cite": "527 B.R. 85",
+      "category": "reporters:specialty",
+      "reporter": "B.R.",
+      "case_ids": [
+        4040997
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "94"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/527/0085-01"
+      ]
+    },
+    {
+      "cite": "212 B.R. 437",
+      "category": "reporters:specialty",
+      "reporter": "B.R.",
+      "case_ids": [
+        940514
+      ],
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "442"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/212/0437-01"
+      ]
+    },
+    {
+      "cite": "793 F.3d 228",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4284224,
+        4278917
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "231",
+          "parenthetical": "applying the same standard when reviewing the dismissal of an involuntary petition"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/535/0228-02",
+        "/f3d/793/0228-01"
+      ]
+    },
+    {
+      "cite": "874 F.3d 787",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12270104,
+        12265893
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "794",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/577/0787-01",
+        "/f3d/874/0787-01"
+      ]
+    },
+    {
+      "cite": "11 U.S.C. \u00a7 363",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(h)"
+        },
+        {
+          "page": "(h)"
+        },
+        {
+          "page": "(i)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "507 F.3d 64",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5862010,
+        6047300
+      ],
+      "weight": 9,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "73"
+        },
+        {
+          "page": "72"
+        },
+        {
+          "page": "72",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "73",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "73"
+        },
+        {
+          "page": "72"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/379/0064-01",
+        "/f3d/507/0064-01"
+      ]
+    },
+    {
+      "cite": "N.Y. Debt. & Cred. Law \u00a7 271",
+      "category": "laws:leg_act",
+      "reporter": "N.Y.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "543 B.R. 484",
+      "category": "reporters:specialty",
+      "reporter": "B.R.",
+      "case_ids": [
+        4363842
+      ],
+      "weight": 4,
+      "year": 2016,
+      "pin_cites": [
+        {
+          "parenthetical": "citing N.Y. Debt. & Cred. Law \u00a7 271 et seq. "
+        },
+        {
+          "page": "493-94",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "485"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/br/543/0484-01"
+      ]
+    },
+    {
+      "cite": "11 U.S.C. \u00a7 707",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "11 U.S.C. \u00a7 303",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(i)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1146,
+    "char_count": 27747,
+    "pagerank": {
+      "raw": 7.536141250336302e-08,
+      "percentile": 0.4475971379026345
+    },
+    "sha256": "335c4ca0d6a3e0a6a166188d5035a3142a073e81a218bc75a4de2bac94f20642",
+    "simhash": "1:b65c73f83a794752",
+    "word_count": 4517
+  },
+  "last_updated": "2024-02-27T18:45:52.975388+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before: Walker, Hall, and Lohier, Circuit Judges."
+    ],
+    "parties": [
+      "IN RE: Matthew N. MURRAY."
+    ],
+    "opinions": [
+      {
+        "text": "John M. Walker, Jr., Circuit Judge:\nCreditor-Appellant Wilk Auslander LLP appeals a judgment of the United States District Court for the Southern District of New York (Vernon S. Broderick, J. ) affirming the Bankruptcy Court's (Robert E. Gerber, Bankr. J. ) dismissal of the Chapter 7 involuntary bankruptcy petition Wilk Auslander filed under 11 U.S.C. \u00a7 303(a) against Debtor-Appellee Matthew N. Murray.\nThe bankruptcy court dismissed for cause under 11 U.S.C. \u00a7 707(a) after concluding that the petition was simply a judgment enforcement tactic for a two-party dispute for which there were adequate remedies under state law and that continuing the case would not serve any bankruptcy purposes such as ensuring equal distribution among creditors or otherwise protecting assets from depletion. The district court affirmed, holding that the dismissal for cause was not an abuse of discretion. This appeal followed, and we AFFIRM the judgment below.\nBACKGROUND\nCreditor-Appellant Wilk Auslander LLP seeks to enforce a more than $19 million judgment against Debtor-Appellee Matthew N. Murray. The judgment arose out of a Financial Industry Regulatory Authority arbitration that awarded Murray's former employer, Rodman & Renshaw LLC (\"Rodman\"), $10.7 million in damages for New York law claims of defamation, tortious interference, breach of fiduciary duty, conversion, breach of contract, and prima facie tort.\nThe arbitral award was subsequently affirmed by the New York State Supreme Court and the Appellate Division and augmented with interest. After filing for Chapter 7 bankruptcy, Rodman's estate assigned the judgment against Murray to Rodman's law firm, Wilk Auslander, as part of a settlement of outstanding fees, with any recovery to be split 70/30 between the Rodman estate and Wilk Auslander, respectively.\nMurray, who lost his job with Rodman in November 2011 and indicated to the bankruptcy court that he has no income, has not made any payments towards his debt. Wilk Auslander asserts that Murray, prior to entry of the judgment, took steps to shield his assets from creditors by selling his yacht, helicopter, and car and by transferring $169,000 from a United States bank account to an offshore asset-protection trust. The bankruptcy court, without discussing these transfers in depth, pointed out that if they were fraudulent, they could be avoided under state law without the need to file a bankruptcy action. See In re Murray , 543 B.R. 484, 487 n.15 (Bankr. S.D.N.Y. 2016) (citing N.Y. Debt. & Cred. Law \u00a7 271 et seq. ).\nMurray's sole asset consists of a residential cooperative apartment in Manhattan, the corresponding shares of which he holds with his wife in a tenancy by the entirety. In February 2013, Wilk Auslander secured a lien on the shares. In February 2014, the apartment was appraised at $4.6 million. The Murrays live in the apartment with their two children.\nIn February 2014, as part of an effort to collect on its judgment, Wilk Auslander filed an involuntary bankruptcy petition against Murray. See 11 U.S.C. \u00a7 303. It is undisputed that Wilk Auslander's purpose in filing the petition was to take advantage of bankruptcy remedies that would allow it to force a sale of the apartment-notwithstanding Murray's wife's interest, which would be recognized after the sale-rather than state law remedies that would permit it to execute on Murray's interest only. Murray moved to dismiss the petition under, inter alia , 11 U.S.C. \u00a7\u00a7 303(i) and 305(a), with costs or damages to be awarded to Murray or, alternatively, for the bankruptcy court to abstain from entertaining the petition.\nIn January 2016, after discovery and oral argument, the bankruptcy court dismissed the petition sua sponte for cause under 11 U.S.C. \u00a7 707(a), rather than under Sections 303 or 305, holding that the petition amounted to an improper exploitation of the bankruptcy system. Section 707(a) authorizes a bankruptcy court to dismiss a case for cause, with the determination of whether cause exists left to the discretion of the bankruptcy court. See In re Smith , 507 F.3d 64, 73 (2d Cir. 2007).\nThe bankruptcy court identified nine factors supporting its conclusion that the petition should be dismissed as an improper use of the bankruptcy system: (1) the bankruptcy court was the most recent battlefield in a long-running, two-party dispute; (2) Wilk Auslander brought the case solely to enforce a judgment; (3) there were no competing creditors; (4) there was no need for pari passu distribution; (5) assuming there were fraudulent transfers to be avoided, Wilk Auslander could do so in another forum; (6) Wilk Auslander had adequate remedies to enforce its judgment under non-bankruptcy law; (7) Wilk Auslander invoked the bankruptcy laws solely to secure a benefit-the ability to execute on both Murray and his wife's interests in their apartment under 11 U.S.C. \u00a7 363(h) -that it does not have under non-bankruptcy law and without a creditor community to protect; (8) no assets would be lost or dissipated in the event that the bankruptcy case did not continue; and (9) Murray did not want or need a bankruptcy discharge. The bankruptcy court further held that a case could be dismissed for cause based on the behavior of a creditor as opposed to that of a debtor because Section 707(a) has no restraints to the contrary.\nThe bankruptcy court made the following additional determinations: it declined to reach the question of whether Wilk Auslander filed the petition in bad faith; it declined to grant Murray's request for an award of sanctions; and it found no need to act on Murray's motion to abstain under Section 305(a).\nWilk Auslander appealed to the district court arguing, as relevant here, that the bankruptcy court erred in dismissing its petition for cause because the petition met the statutory requirements of 11 U.S.C. \u00a7 303, was not found to have been filed in bad faith, and would provide Wilk Auslander with relief not available outside of the bankruptcy forum.\nThe district court, concluding that the bankruptcy court did not abuse its discretion in dismissing the petition for cause, affirmed. The district court agreed with the bankruptcy court that New York law provides a sufficient means for Wilk Auslander to enforce its judgment and Wilk Auslander's inability to execute on Murray's wife's interest under that law does not, under these circumstances, justify a need for relief in bankruptcy court. This appeal followed.\nDISCUSSION\n\"We exercise plenary review over a district court's affirmance of a bankruptcy court's decisions, reviewing de novo the bankruptcy court's conclusions of law, and reviewing its findings of facts for clear error.\" In re MPM Silicones, L.L.C. , 874 F.3d 787, 794 (2d Cir. 2017) (internal quotation marks omitted); see also In re TPG Troy, LLC , 793 F.3d 228, 231 (2d Cir. 2015) (applying the same standard when reviewing the dismissal of an involuntary petition).\nThe Bankruptcy Code does not define \"cause\" for dismissal under Section 707(a), and the statute's three examples of cause are illustrative, not exhaustive. See In re Smith , 507 F.3d at 72. Courts must \"engage in case-by-case analysis in order to determine what constitutes 'cause' sufficient to warrant dismissal.\" In re Dinova , 212 B.R. 437, 442 (2d Cir. BAP 1997). We \"determine[ ] whether cause exists by looking at whether dismissal would be in the best interest of all parties.\" In re Smith , 507 F.3d at 72 (internal quotation marks omitted). We conclude in this case that a similar analysis governs our review of the bankruptcy court's sua sponte decision to dismiss. Here we consider whether dismissal would be in the best interest not only of the parties but of the bankruptcy system.\nIn the usual case, the best interest of a debtor \"lies generally in securing an effective fresh start upon discharge and in the reduction of administrative expenses,\" id. (internal quotation marks omitted), whereas the best interest of the creditor goes to whether it is prejudiced by dismissal, such as when the motion to dismiss is brought after a significant amount of time, during which the creditors were prevented from taking other measures to collect, see id. Generally, however, creditors are not prejudiced by dismissal when they may exercise their rights outside of bankruptcy. See In re Segal , 527 B.R. 85, 94 (Bankr. E.D.N.Y. 2015).\nA bankruptcy court's decision to dismiss a case for cause under Section 707(a) is guided by equitable considerations and is committed to the sound discretion of the bankruptcy court. In re Smith , 507 F.3d at 73 (internal quotation marks omitted); see also In re Krueger , 812 F.3d 365, 369-75 (5th Cir. 2016) ; 6 Collier on Bankruptcy \u00a7 707.03 [1] (Richard Levin & Harry J. Sommers eds., 16th ed. 2018) [hereinafter \"Collier on Bankruptcy \"]. Accordingly, we disturb a dismissal for cause only if the bankruptcy court has abused its discretion. See In re Smith , 507 F.3d at 73. A bankruptcy court abuses its discretion if its decision rests on an error of law or a clearly erroneous factual finding or cannot be located within the range of permissible decisions. See id.\nAt the outset, the following factors favor dismissal in this case: Wilk Auslander is a sole creditor; judgment enforcement remedies exist under state law; and no assets would be lost or dissipated in the event the bankruptcy case does not continue. Wilk Auslander does not dispute the existence of these factors but rests its argument for invoking bankruptcy remedies upon the premise that New York's remedies for enforcing a judgment on property owned in a tenancy by the entirety do not adequately protect its interests. We disagree, and therefore affirm.\nI. The Bankruptcy Court Did Not Abuse its Discretion in Dismissing for Cause under Section 707(a)\nAfter considering the purpose of involuntary petitions, the goals of the Bankruptcy Code, and a bankruptcy court's authority under Section 707(a), we are convinced that the bankruptcy court did not abuse its discretion in dismissing Wilk Auslander's petition for cause because dismissal better advances Murray's interests as a debtor, furthers the interests of the bankruptcy courts and the public, and does not substantially prejudice Wilk Auslander's interests as a creditor. In making this determination, we conclude that the judgment enforcement remedies under New York law sufficiently protect Wilk Auslander's interests as a sole creditor.\nA. Involuntary Petitions and Section 707(a)\nMost bankruptcy filings are initiated as voluntary petitions under 11 U.S.C. \u00a7 301 by a debtor seeking a fresh start. Far fewer are initiated as involuntary petitions by creditors, much less a single creditor, under 11 U.S.C. \u00a7 303. See Administrative Office of the United States Courts, Judicial Facts and Figures, tbl. 7.2, http://www.uscourts.gov/sites/default/files/data_tables/jff_7.2_0930.2016.pdf (last visited Aug. 13, 2018).\nInvoluntary bankruptcy petitions help ensure the orderly and fair distribution of an estate by giving creditors an alternative to watching nervously as assets are depleted, either by the debtor or by rival creditors who beat them to the courthouse. See In re Macke Int'l Trade, Inc. , 370 B.R. 236, 245-46 (9th Cir. BAP 2007). Despite these benefits, involuntary bankruptcy petitions have \"serious consequences [for] the alleged debtor, such as loss of credit standing, inability to transfer assets and carry on business affairs, and public embarrassment.\" In re Forever Green Athletic Fields, Inc. , 804 F.3d 328, 335 (3d Cir. 2015) (quoting In re Reid , 773 F.2d 945, 946 (7th Cir. 1985) ); see also In re Macke Int'l Trade , 370 B.R. at 246. \"By giving creditors the ability to bring a debtor into bankruptcy, Congress created a power that could be abused.\" Rosenberg v. DVI Receivables XVII, LLC , 835 F.3d 414, 419 (3d Cir. 2016). \"Such a remedy exists as an avenue of relief for the benefit of the overall creditor body .... [It] was not intended to redress the special grievances, no matter how legitimate, of particular creditors .... [Such creditors] must seek redress under state law, in the state courts[,] and not in the bankruptcy court.\"\nIn re Brooklyn Res. Recovery, Inc. , 216 B.R. 470, 486 (Bankr. E.D.N.Y. 1997).\nIn part because of the unusual nature of involuntary petitions, Congress provided bankruptcy courts with a variety of tools with which to police their use. To begin, a petition must meet the statutory requirements for filing under Section 303. These statutory requirements do permit single creditors to file an involuntary petition, but courts tend to scrutinize such petitions closely. See, e.g. , In re Fischer , 202 B.R. 341, 346-48 (E.D.N.Y. 1996) (explaining why some courts refuse to consider sole-creditor petitions unless there are exceptional circumstances such as where the creditor has no adequate alternative remedy under non-bankruptcy law). The bankruptcy court, though it expressed some doubt, assumed that Wilk Auslander's petition met the Section 303 requirements without deciding the issue. On appeal, neither party disputes that the requirements were met, and we assume for purposes of determining this appeal that they were.\nEven if a petition meets the statutory requirements of Section 303, however, a bankruptcy court may dismiss it for cause under Section 707(a) after notice and a hearing. See In re MacFarlane Webster Assocs. , 121 B.R. 694, 696, 700 (Bankr. S.D.N.Y. 1990). Wilk Auslander argues that the bankruptcy court abused its discretion by dismissing its petition under Section 707(a) absent a finding of bad faith because Wilk Auslander's interests as a creditor will be prejudiced if it is denied access to the remedies available in bankruptcy court. We conclude that New York remedies are sufficient in this case because they do not substantially prejudice Wilk Auslander's interests, they better advance the interests of the debtor, the bankruptcy court, and the public, and no other factors provide a basis for disturbing the bankruptcy court's discretionary ruling that cause existed to dismiss the petition.\nCause is a fact-specific inquiry as to which a variety of factors may be relevant, including the purpose for which the petition was filed and whether state proceedings adequately protect the parties' interests. For example, in In re C-TC 9th Avenue Partnership , we affirmed a dismissal for cause under 11 U.S.C. \u00a7 1112(b) where the filing was the latest move in a two-party dispute that \"could be fully resolved in a non-bankruptcy forum\" and where the primary function of the petition was to serve as a \"litigation tactic.\" 113 F.3d 1304, 1309-10 (2d Cir. 1997).\nInappropriate use of the Bankruptcy Code may constitute cause to dismiss, and courts that consider bad faith to be cause to dismiss often classify such inappropriate use as evidence of bad faith. See, e.g. , In re Forever Green Athletic Fields , 804 F.3d at 336 ; Atlas Mach. & Iron Works, Inc. v. Bethlehem Steel Corp. , 986 F.2d 709, 716 & n.11 (4th Cir. 1993) (\"Debt collection is not a proper purpose of bankruptcy.\"); 2 Collier on Bankruptcy \u00a7 303.16.\nWe need not, however, classify misuse of the Bankruptcy Code as bad faith in order to accept it as cause to dismiss, particularly when, as here, misuse is one of a number of factors supporting cause to dismiss. See In re Head , 223 B.R. 648, 653-54 (Bankr. W.D.N.Y. 1998) (dismissing for an \"unenumerated 'cause' \"); In re Caucus Distribs., Inc. , 106 B.R. 890, 923 n.43 (Bankr. E.D. Va. 1989) (collecting cases considering the purpose for which a bankruptcy petition was filed and noting a bankruptcy court's right to protect the integrity of its jurisdiction).\nIn this case, the bankruptcy court held that nine factors supported dismissal for cause. Distilled to their essence, the bankruptcy court noted that Wilk Auslander's petition was part of a long-running, two-party dispute, there were no other creditors to protect, and it had been brought solely as a judgment enforcement device for which adequate remedies existed in state law. The bankruptcy court also noted that Murray did not want or need a discharge and no other goals of bankruptcy, such as pari passu distribution among competing creditors, would be served by continuing the petition. We agree that the factors considered by the bankruptcy court favor dismissal. In concluding that the bankruptcy court did not abuse its discretion under the circumstances of this case, we focus particularly on the following: (1) Wilk Auslander cannot show that it will be substantially prejudiced by relying on New York remedies; and (2) the interests of the debtor and the bankruptcy system as a whole would be advanced if this case were dismissed.\nB. Wilk Auslander is not Substantially Prejudiced by Being Denied Access to Bankruptcy Remedies\nWilk Auslander argues that its interests are prejudiced by dismissal because New York's judgment enforcement remedies for property owned in a tenancy by the entirety are not adequate when compared to remedies available under the Bankruptcy Code. We conclude that New York law offers adequate remedies for Wilk Auslander to enforce its judgment and it is therefore not substantially prejudiced by being denied access to bankruptcy remedies.\nAs a judgment creditor, Wilk Auslander has the right under New York law to execute on Murray's shares in his apartment and to cause those shares to be sold in a judgment execution sale. See Rothschild v. Lincoln Rochester-Tr. Co. , 212 F.2d 584, 585 (2d Cir. 1954) (per curiam) (collecting cases); In re Waxman , 128 B.R. 49, 51 (Bankr. E.D.N.Y. 1991). However, neither Wilk Auslander nor any third-party purchaser of those shares would have the right to execute on Murray's wife's interest in the apartment, to force a partition or sale of the apartment, or to inhabit the apartment. See In re Waxman , 128 B.R. at 51 ; In re Weiss , 4 B.R. 327, 330 (Bankr. S.D.N.Y. 1980). Furthermore, because Murray's wife maintains her right of survivorship in the apartment, she would own the apartment free and clear of any third party's interest if Murray predeceases her. See In re Persky , 893 F.2d 15, 19 (2d Cir. 1989). Because of these complications, most courts conclude that a debtor's interest in a tenancy by the entirety is essentially the debtor's own survivorship right, which could be as low as 5 percent of the total value of the property, especially when factoring in the non-debtor spouse's age, gender, and other actuarial data. See, e.g. , id. at 20-21.\nUnlike New York law, the Bankruptcy Code permits the sale of both the debtor's interest and the interest of any spouse or other co-owner in the property, including in a tenancy by the entirety. See id. at 17, 19-20. However, such sale is permitted only if, as relevant here: (1) partition in kind is impracticable; (2) sale of the estate's undivided interest would realize significantly less for the estate than sale of such property free and clear of the interests of co-owners; and (3) the benefit to the estate of a sale of the property free and clear of other interests outweighs the detriment, if any, to such co-owners. 11 U.S.C. \u00a7 363(h). The spouse or co-owner has the right to purchase the property at the price at which a sale would otherwise be made to a third party and the right to her share of the proceeds, less costs and expenses. 11 U.S.C. \u00a7 363(i), (j).\nIf this case were allowed to proceed in bankruptcy court, it is by no means certain that Wilk Auslander would be authorized to sell the apartment for at least two reasons: (1) the detriment to Murray's wife may be deemed to outweigh the value to the estate, see In re Persky , 893 F.2d at 20-21 (\"non-economic factors\" are relevant); and (2) it is unclear that any sale under Section 363 would value Murray's interest any higher than would a sale under New York law. Even under a Section 363 sale, the proceeds Wilk Auslander can expect to collect remain speculative for the same reasons they are speculative under New York law, as Murray's wife's interest may be greater than 50 percent. See In re Levenhar , 30 B.R. 976, 979-81 (Bankr. E.D.N.Y. 1983).\nWe are therefore convinced that under these circumstances, Wilk Auslander has not shown that its interests would be substantially prejudiced if it were denied access to bankruptcy remedies. This case can be distinguished from In re Tsunis , in which a district court, in the context of an involuntary petition, found that New York proceedings were inadequate in part because of the speculative value of the debtor's interest. See 39 B.R. 977, 979 (E.D.N.Y. 1983), aff'd , 733 F.2d 27 (2d Cir. 1984) (per curiam). In that case, because four creditors filed the petition, there was a greater need for the collective remedies available only in bankruptcy court. See In re Tsunis , 39 B.R. at 977, 979. This case, by contrast, involves only one creditor and no risk of asset depletion in favor of other creditors. Wilk Auslander's preference for bankruptcy remedies to solve a two-party dispute cannot outweigh the lack of any other bankruptcy-related purpose. See In re Nordbrock , 772 F.2d 397, 400 (8th Cir. 1985) (\"A creditor does not have a special need for bankruptcy relief if it can go to state court to collect a debt.\"); In re Bos , 561 B.R. 868, 901 (Bankr. N.D. Fla. 2016) (noting that even if a creditor's interests may be better served by bankruptcy remedies, the existence of a state forum supports dismissal); see also Ginsberg & Martin on Bankruptcy \u00a7 2.03 (Robert E. Ginsberg, Robert D. Martin, & Susan V. Kelley, eds., 5th ed. 2018). And Wilk Auslander's argument regarding the importance of maximizing the value of a bankruptcy estate puts the cart before the horse. This proposed estate should not be in bankruptcy court to begin with. Thus, we conclude that Wilk Auslander has not shown that it would be substantially prejudiced if it had to resort to New York remedies.\nC. The Interests of the Debtor and of the Bankruptcy System as a Whole are Advanced by Dismissal\nSection 707(a) requires us to balance the competing interests at stake in determining whether there is cause to dismiss. We agree with the bankruptcy court that the interests of the debtor and of the bankruptcy system as a whole are advanced by dismissal of Wilk Auslander's petition. Murray's interest in not participating in this involuntary case is evidenced by his vigorous opposition to the petition.\nMore importantly, the bankruptcy court appropriately recognized the interest of the bankruptcy system, and thus the public interest, in preventing parties from exploiting the bankruptcy system for non-bankruptcy-related reasons, especially when adequate remedies exist in state courts. See In re Murray , 543 B.R. at 494-95 ; see also In re Caucus Distribs. , 106 B.R. at 927-28. Were we to ignore those interests, we would likely see an increase of new bankruptcy filings in cases that are more appropriately handled in state court. This increase would divert the valuable resources and attention of specialized bankruptcy courts to matters intended to be addressed in state court-a result that is antithetical to the purpose of having a separate bankruptcy system in the first place. See In re Godroy Wholesale Co., Inc. , 37 B.R. 496, 499 (Bankr. D. Mass. 1984) (it is \"obvious that the use of the bankruptcy court as a routine collection device would quickly paralyze\" the bankruptcy court) (internal quotation marks omitted); In re Goldsmith , 30 B.R. 956, 963 (Bankr. E.D.N.Y. 1983).\nWhere continuation of a case would serve none of the Bankruptcy Code's goals or purposes, including the specific goals of an involuntary bankruptcy petition, whose detriments for debtors are meant to be balanced by benefits to creditors that would be unachievable in another forum, and where the sole creditor is not substantially prejudiced by remedies available under state law, the bankruptcy court did not abuse its discretion under Section 707(a) when it declined to serve as a \"rented battlefield\" or \"collection agency.\" See In re Murray , 543 B.R. at 493-94 (internal quotation marks omitted).\nCONCLUSION\nFor the foregoing reasons, we AFFIRM the judgment of the district court in all respects.\nThe facts in this section are undisputed and are derived from the bankruptcy court opinion and the parties' motion papers. See Brunner v. N.Y. State Higher Educ. Servs. Corp. , 831 F.2d 395, 396 (2d Cir. 1987) (per curiam).\nWe note that although the bankruptcy court indicated that Murray had moved for dismissal under Section 707, see In re Murray , 543 B.R. at 485, we agree with the district court that Murray did not raise the possibility of a Section 707(a) dismissal in his moving papers; rather, the bankruptcy court raised it during the hearing. See In re Murray , 565 B.R. 527, 530 (S.D.N.Y. 2017) ; Joint Appendix (\"J.A.\") 362-63.\nThe full text of Section 707(a) reads as follows:\nThe court may dismiss a case under this chapter only after notice and a hearing and only for cause, including-(1) unreasonable delay by the debtor that is prejudicial to creditors; (2) nonpayment of any fees or charges required under chapter 123 of title 28; and (3) failure of the debtor in a voluntary case to file, within fifteen days or such additional time as the court may allow after the filing of the petition commencing such case, the information required by paragraph (1) of section 521(a), but only on a motion by the United States trustee.\n11 U.S.C. \u00a7 707(a).\nAs the bankruptcy court noted, other chapters of the Code include similar provisions. See 11 U.S.C. \u00a7\u00a7 930(a), 1112(b), 1208(c), 1307(c).\nWe agree with the bankruptcy court that Section 707(a) -and therefore precedent interpreting it-applies to involuntary as well as voluntary petitions. See In re MacFarlane Webster Assocs. , 121 B.R. at 696-97 ; 6 Collier on Bankruptcy \u00a7 707.03.\nWilk Auslander argues in its reply brief that this right is potentially illusory because New York courts may block a sale to lessen its effect on the non-debtor spouse. Some of the cases it cites for this concern relate to whether property may be sold, not whether a debtor's interest in property may be sold. See, e.g. , Solomon Holding Corp. v. Stephenson , 118 A.D.3d 613, 989 N.Y.S.2d 22, 23 (2014). Regardless, we fail to see how the New York court's power to account for equitable considerations differs from the bankruptcy court's authority to do the same under Section 363(h), or otherwise makes New York remedies inadequate as a matter of law.\nWilk Auslander argues that Murray's lack of desire or need for a discharge is irrelevant to whether there is cause to dismiss. Wilk Auslander takes an overly myopic view of the interests at stake in this case. As we have already noted, involuntary bankruptcy proceedings are serious measures with drastic repercussions for the debtor. Such petitions are involuntary rather than voluntary precisely because it is the creditor, rather than the debtor, who seeks the advantages of the bankruptcy forum. Contrary to Wilk Auslander's contention, the interests of a debtor must be considered when determining whether cause exists to dismiss. See In re Smith , 507 F.3d at 72.",
+        "type": "majority",
+        "author": "John M. Walker, Jr., Circuit Judge:"
+      }
+    ],
+    "attorneys": [
+      "Eric J. Snyder (Eloy A. Peral, on the brief ), Wilk Auslander LLP, New York, NY, for Creditor-Appellant.",
+      "Brendan Scott (Tracy L. Klestadt, on the brief ), Klestadt Winters Jureller Southard & Stevens, LLP, New York, NY, for Debtor-Appellee."
+    ],
+    "corrections": "",
+    "head_matter": "IN RE: Matthew N. MURRAY.\nWilk Auslander LLP, Creditor-Appellant,\nv.\nMatthew N. Murray, Debtor-Appellee.\nNo. 17-1272-bk\nAugust Term, 2017\nUnited States Court of Appeals, Second Circuit.\nArgued: February 13, 2018\nDecided: August 14, 2018\nEric J. Snyder (Eloy A. Peral, on the brief ), Wilk Auslander LLP, New York, NY, for Creditor-Appellant.\nBrendan Scott (Tracy L. Klestadt, on the brief ), Klestadt Winters Jureller Southard & Stevens, LLP, New York, NY, for Debtor-Appellee.\nBefore: Walker, Hall, and Lohier, Circuit Judges."
+  },
+  "file_name": "0053-01",
+  "first_page_order": 53,
+  "last_page_order": 63
+}

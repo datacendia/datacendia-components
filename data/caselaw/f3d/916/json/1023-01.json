@@ -1,0 +1,398 @@
+{
+  "id": 12520125,
+  "name": "UNITED STATES CAPITOL POLICE, Petitioner v. OFFICE OF COMPLIANCE, Cross-Applicant Fraternal Order of Police, District of Columbia Lodge No. 1, U.S. Capitol Police Labor Committee, Intervenor",
+  "name_abbreviation": "U.S. Capitol Police v. Office of Compliance",
+  "decision_date": "2019-02-21",
+  "docket_number": "2018-1293, 2018-1396",
+  "first_page": "1023",
+  "last_page": "1028",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "916 F.3d 1023"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Fed. Cir.",
+    "id": 8955,
+    "name": "United States Court of Appeals for the Federal Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "908 F.3d 748",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12519198
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "760-65"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/908/0748-01"
+      ]
+    },
+    {
+      "cite": "913 F.3d 1361",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12519759
+      ],
+      "year": 2019,
+      "pin_cites": [
+        {
+          "page": "1366-68"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/913/1361-01"
+      ]
+    },
+    {
+      "cite": "124 Stat. 49",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "year": 2010,
+      "opinion_index": 0
+    },
+    {
+      "cite": "132 Stat. 5297",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "year": 2018,
+      "opinion_index": 0
+    },
+    {
+      "cite": "196 L.Ed.2d 463",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "year": 2017,
+      "pin_cites": [
+        {
+          "parenthetical": "stating that, in the qualified immunity context, a right is \"clearly established\" if \"existing precedent ... placed the statutory or constitutional question beyond debate\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "137 S.Ct. 548",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12608520
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "551",
+          "parenthetical": "stating that, in the qualified immunity context, a right is \"clearly established\" if \"existing precedent ... placed the statutory or constitutional question beyond debate\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/137/0548-01"
+      ]
+    },
+    {
+      "cite": "656 F.3d 772",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3830312
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "775",
+          "parenthetical": "suggesting that a right is not clearly established for qualified immunity purposes \"[w]here the law is open to interpretation\" and one could \"reasonably interpret an unclear statute\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/656/0772-01"
+      ]
+    },
+    {
+      "cite": "637 F.3d 380",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4197537,
+        3555147
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "384",
+          "parenthetical": "assessing \"clearly established\" law in the qualified immunity context by \"look[ing] to cases from the Supreme Court and [the U.S. Court of Appeals for the D.C. Circuit], as well as to cases from other courts exhibiting a consensus view\" (citation omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/637/0380-01",
+        "/us-app-dc/394/0446-01"
+      ]
+    },
+    {
+      "cite": "17 F.L.R.A. 372",
+      "category": "reporters:federal",
+      "reporter": "F.L.R.A.",
+      "weight": 2,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "374-75"
+        },
+        {
+          "page": "375",
+          "parenthetical": "using court decisions and the absence of \"question[s] of interpretation or statutory construction which can legitimately be resolved\" to ascertain the presence of \"clearly established law\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "65 F.L.R.A. 224",
+      "category": "reporters:federal",
+      "reporter": "F.L.R.A.",
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "228"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "5 U.S.C. \u00a7 7121",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(b)(1)(C)(iii)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "514 U.S. 938",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1339246
+      ],
+      "weight": 3,
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "944",
+          "parenthetical": "\"Courts should not assume that the parties agreed to arbitrate arbitrability unless there is 'clea[r] and unmistakabl[e]' evidence that they did so.\" (alterations in original) (citation omitted)"
+        },
+        {
+          "parenthetical": "\"Courts should not assume that the parties agreed to arbitrate arbitrability unless there is 'clea[r] and unmistakabl[e]' evidence that they did so.\" (alterations in original) (citation omitted)"
+        },
+        {
+          "parenthetical": "\"Courts should not assume that the parties agreed to arbitrate arbitrability unless there is 'clea[r] and unmistakabl[e]' evidence that they did so.\" (alterations in original) (citation omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/514/0938-01"
+      ]
+    },
+    {
+      "cite": "363 U.S. 574",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6166480
+      ],
+      "weight": 10,
+      "year": 1960,
+      "pin_cites": [
+        {
+          "page": "582-83"
+        },
+        {
+          "page": "649"
+        },
+        {
+          "page": "582-83"
+        },
+        {
+          "parenthetical": "\"Courts should not assume that the parties agreed to arbitrate arbitrability unless there is 'clea[r] and unmistakabl[e]' evidence that they did so.\" (alterations in original"
+        },
+        {
+          "page": "582-83"
+        },
+        {
+          "page": "584-85"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/363/0574-01"
+      ]
+    },
+    {
+      "cite": "475 U.S. 643",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6206747
+      ],
+      "weight": 6,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "650",
+          "parenthetical": "citing United Steelworkers of Am. v. Warrior & Gulf Navigation Co. , 363 U.S. 574, 582-83, 80 S.Ct. 1347, 4 L.Ed.2d 1409 (1960) "
+        },
+        {
+          "parenthetical": "citing United Steelworkers of Am. v. Warrior & Gulf Navigation Co. , 363 U.S. 574, 582-83, 80 S.Ct. 1347, 4 L.Ed.2d 1409 (1960) "
+        },
+        {
+          "parenthetical": "citing United Steelworkers of Am. v. Warrior & Gulf Navigation Co. , 363 U.S. 574, 582-83, 80 S.Ct. 1347, 4 L.Ed.2d 1409 (1960) "
+        },
+        {
+          "page": "650"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/475/0643-01"
+      ]
+    },
+    {
+      "cite": "5 U.S.C. \u00a7 706",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "786 F.3d 1340",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4191179,
+        4190580
+      ],
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "1346",
+          "parenthetical": "reciting the standard of review for appeals from the Merit Systems Protection Board"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/786/1340-02",
+        "/f3d/786/1340-01"
+      ]
+    },
+    {
+      "cite": "2 U.S.C. \u00a7 1407",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "(a)(1)(D)"
+        },
+        {
+          "page": "(a)(2)"
+        },
+        {
+          "page": "(d)"
+        },
+        {
+          "page": "(a)(2)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2 U.S.C. \u00a7\u00a7 1301",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "2 U.S.C. \u00a7 1907",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(e)(1)(B)",
+          "parenthetical": "stating that the Board is deemed to have approved a termination decision made by the Chief of Police if it does not disapprove of that decision within thirty days"
+        },
+        {
+          "page": "(e)(1)(B)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2017 WL 4335144",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2017,
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 726,
+    "char_count": 15411,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25919348965904965
+    },
+    "sha256": "e412fc69a35db709d9f82f14f611904879aa14701594e57ee8c39eef480923f6",
+    "simhash": "1:dfeeacd0c036b191",
+    "word_count": 2374
+  },
+  "last_updated": "2024-02-27T16:21:04.146489+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Newman, Lourie, and Clevenger, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES CAPITOL POLICE, Petitioner\nv.\nOFFICE OF COMPLIANCE, Cross-Applicant"
+    ],
+    "opinions": [
+      {
+        "text": "Clevenger, Circuit Judge.\nOn September 26, 2017, the Board of Directors of the Congressional Accountability Office of Compliance (\"Board\") issued a decision stating that the United States Capitol Police (\"Police\") committed an unfair labor practice when it refused to engage in arbitration of an unresolved grievance. U.S. Capitol Police and Fraternal Order of Police, D.C. Lodge No. 1 U.S. Capitol Police Labor Comm. , No. 16-LMR-01, 2017 WL 4335144 (C.A.O.C. Sept. 26, 2017). The Police petitions for review of that decision and the Office of Compliance (\"OOC\") cross-applies for enforcement of the Board's decision and remedial order. For the reasons set forth below, we deny the Police's petition and grant the OOC's application.\nBACKGROUND\nChristopher Donaldson, a former officer with the Police, was involved in an off-duty domestic incident. The Police's Office of Professional Responsibility investigated the incident and ultimately recommended that he be terminated. The Disciplinary Review Board then heard the matter and, although it agreed that Officer Donaldson should be punished, it recommended only a forty-five day unpaid suspension. The Chief of Police reviewed the evidence and recommendations and decided to terminate Officer Donaldson. After thirty days passed from the date of the Chief's decision without intervention by the Capitol Police Board, the Chief's decision took effect and Officer Donaldson was terminated. See 2 U.S.C. \u00a7 1907(e)(1)(B) (stating that the Board is deemed to have approved a termination decision made by the Chief of Police if it does not disapprove of that decision within thirty days).\nThe Fraternal Order of Police, District of Columbia Lodge No. 1, U.S. Capitol Police Labor Committee (\"Union\") and the Police are parties to a collective bargaining agreement. Under the terms of that agreement, termination decisions by the Chief are subject to binding arbitration. The Union requested an arbitration panel to review the termination decision. The Police refused to select an arbitrator because it took the legal position that termination actions are not subject to arbitration and thus it \"would be in violation of a determination of the Capitol Police Board and its distinct statutory authority by consenting to the jurisdiction of any arbitrator\" in this case. J.A. 102.\nThe Union then protested to the General Counsel for the OOC that the Police violated \u00a7 220(c)(2) of the Congressional Accountability Act of 1995 (\"CAA\"), codified at 2 U.S.C. \u00a7\u00a7 1301 - 1438, by refusing to arbitrate an unresolved grievance and therefore committed an unfair labor practice. The General Counsel investigated the charges, determined that there was sufficient evidence and cause to support them, and filed a complaint with the OOC alleging an unfair labor practice.\nA hearing officer considered cross-motions for summary judgment on the unfair labor practice charge and granted judgment in favor of the OOC. The Police petitioned the Board to review the hearing officer's decision, and the Board affirmed. The Board reasoned that the Police is obligated to arbitrate disputes arising under its collective bargaining agreement, unless it can point to clearly established law that removes the dispute in question from arbitration, and that without such a clearly established law excuse for refusal to arbitrate, the refusal is an unfair labor practice. The Police asserted that the CAA should be interpreted to bar arbitration of employee termination. The best the Police could do to demonstrate clearly established law that termination decisions are not arbitrable was a set of arguments it made on how it thought provisions of the CAA should be interpreted. Because the Police's legal arguments fell well short of being clearly established law, the Board rejected the Police's excuse and held that the Police committed an unfair labor practice by refusing to engage in arbitration.\nThis appeal followed. We have jurisdiction over the Police's petition under 2 U.S.C. \u00a7 1407(a)(1)(D) and over the OOC's application for enforcement pursuant to 2 U.S.C. \u00a7 1407(a)(2).\nDISCUSSION\nWhen we review a Board decision, we are required to \"decide all relevant questions of law and interpret constitutional and statutory provisions.\" 2 U.S.C. \u00a7 1407(d). We must affirm a final decision of the Board unless that decision: \"(1) [is] arbitrary, capricious, an abuse of discretion, or otherwise not consistent with law; (2) [was] not made consistent with required procedures; or (3) [is] unsupported by substantial evidence.\" Id. We review the Board's legal conclusions de novo and its factual findings for substantial evidence. Cf. Archuleta v. Hopper , 786 F.3d 1340, 1346 (Fed. Cir. 2015) (reciting the standard of review for appeals from the Merit Systems Protection Board).\nWe apply the Administrative Procedure Act standard of review, 5 U.S.C. \u00a7 706, to enforcement actions brought under 2 U.S.C. \u00a7 1407(a)(2). Capitol Police I , 908 F.3d at 758. That standard is essentially identical to the one recited above for our review of final Board decisions. Id. at 755 n.4.\nThe parties do not dispute that it is an unfair labor practice to refuse wrongfully to participate in arbitration, which includes the improper refusal to select an arbitrator. The question presented here is instead whether the Police's refusal to select an arbitrator is excusable.\nThe existence of an arbitration clause in a contract raises a presumption of arbitrability, which means doubts over whether a matter is arbitrable are generally resolved in favor of coverage. AT&T Techs., Inc. v. Commc'ns Workers of Am. , 475 U.S. 643, 650, 106 S.Ct. 1415, 89 L.Ed.2d 648 (1986) (citing United Steelworkers of Am. v. Warrior & Gulf Navigation Co. , 363 U.S. 574, 582-83, 80 S.Ct. 1347, 4 L.Ed.2d 1409 (1960) ). That includes the question of arbitrability itself where it is \"clearly and unmistakably provide[d]\" for by the parties. Id. at 649, 106 S.Ct. 1415 (citing Warrior & Gulf , 363 U.S. at 582-83, 80 S.Ct. 1347 ); see also First Options of Chi., Inc. v. Kaplan , 514 U.S. 938, 944, 115 S.Ct. 1920, 131 L.Ed.2d 985 (1995) (\"Courts should not assume that the parties agreed to arbitrate arbitrability unless there is 'clea[r] and unmistakabl[e]' evidence that they did so.\" (alterations in original) (citation omitted)). Here, the presumption of arbitrability applies and extends to the question of arbitrability itself. The CAA extends certain labor-management relations matters in the Federal Service Labor Management Relations Statute (\"FSLMRS\") to covered employees of the federal government's legislative branch, including the right to collectively bargain for procedures to settle certain grievances. 2 U.S.C. \u00a7\u00a7 1301, 1351 ; 5 U.S.C. \u00a7 7121. Incorporated provisions of the FSLMRS expressly provide that \"[a]ny negotiated grievance procedure\" must \"provide that any grievance not satisfactorily settled under the negotiated grievance procedure shall be subject to binding arbitration ....\" 5 U.S.C. \u00a7 7121(b)(1)(C)(iii). The collective bargaining agreement between the Union and the Police expressly provides for arbitration of \"any matter relating to conditions of employment,\" and reserves for the arbitrator \"[i]ssues concerning the arbitrability of a grievance presented for arbitration ....\" J.A. 389-90, 395.\nBut an exception to the general rule that a particular grievance should be presumed arbitrable exists when \"it may be said with positive assurance that the arbitration clause is not susceptible of an interpretation that covers the asserted dispute.\" AT&T Techs. , 475 U.S. at 650, 106 S.Ct. 1415 (quoting Warrior & Gulf , 363 U.S. at 582-83, 80 S.Ct. 1347 ). In other words, as applied in the context of federal sector arbitration, the presumption of arbitrability does not attach to a matter that \"clearly established law\" excludes from the coverage of the applicable negotiated grievance procedures. See U. S. Dep't of Veterans Affairs Veterans Canteen Serv. Martinsburg, W. Va. and Nat'l Ass'n of Gov't Emps. Local R4-78 , 65 F.L.R.A. 224, 228 (2010) (recognizing an exception to the rule that \"questions of arbitrability are solely for an arbitrator to decide\" where \"clearly established law\" precludes arbitration (citing Dir. of Admin. Headquarters, U.S. Air Force and AFGE-GAIU Council of Headquarters USAF Locals, AFL-CIO (\"AFGE-GAIU \"), 17 F.L.R.A. 372, 374-75 (1985) )). \"Clearly established law\" includes an express provision proscribing a particular grievance or \"the most forceful evidence of a purpose to exclude the claim from arbitration ....\" Warrior & Gulf , 363 U.S. at 584-85, 80 S.Ct. 1347. In this case, such forceful evidence would encompass either earlier Supreme Court or Federal Circuit decisions or statutory text that is so clear that it forecloses the potential for any contrary nonfrivolous argument. Cf. Bame v. Dillard , 637 F.3d 380, 384 (D.C. Cir. 2011) (assessing \"clearly established\" law in the qualified immunity context by \"look[ing] to cases from the Supreme Court and [the U.S. Court of Appeals for the D.C. Circuit], as well as to cases from other courts exhibiting a consensus view\" (citation omitted)); Reher v. Vivo , 656 F.3d 772, 775 (7th Cir. 2011) (suggesting that a right is not clearly established for qualified immunity purposes \"[w]here the law is open to interpretation\" and one could \"reasonably interpret an unclear statute\"); AFGE-GAIU , 17 F.L.R.A. at 375 (using court decisions and the absence of \"question[s] of interpretation or statutory construction which can legitimately be resolved\" to ascertain the presence of \"clearly established law\"). Binding legal authority must have placed the question of arbitrability beyond debate. Cf. White v. Pauly , --- U.S. ----, 137 S.Ct. 548, 551, 196 L.Ed.2d 463 (2017) (stating that, in the qualified immunity context, a right is \"clearly established\" if \"existing precedent ... placed the statutory or constitutional question beyond debate\").\nAs noted above, the Police argued before the Board that it thought the CAA should be interpreted to mean that termination decisions should be excluded from arbitration under the governing collective bargaining agreement. The Board concluded, and we agree, that arguments over how statutes might be interpreted cannot suffice as \"clearly established law\" to show that a subject has been removed from arbitration. Before the Board, the Police could point to no clearly established law stating that Police termination decisions are not arbitrable, and it points to no such law on appeal. Indeed, two recent decisions by this Court flatly reject the statutory interpretation arguments made by the Police to show that termination decisions are not arbitrable. See Capitol Police II , 913 F.3d at 1367-69 (rejecting the argument that the special rule for terminations in the TCA specifically provides for employee termination and thus excludes the subject of employee removal from the ambit of arbitration because it would not be a condition of employment); Capitol Police I , 908 F.3d at 760-65 (rejecting the arguments that the Capitol Police Board's authority in 2 U.S.C. \u00a7 1907(e)(1)(B) to ratify employee removals or a comprehensive statutory scheme like the one in Fausto preclude arbitrator review of the Police's termination decisions). The Board was correct in deciding that the Police can point to no clearly established law to excuse the refusal to arbitrate in this case. Accordingly, the Board correctly concluded that the Police committed an unfair labor practice in this case.\nCONCLUSION\nFor the reasons stated above, we deny the Police's petition and affirm the Board's decision that the Police committed an unfair labor practice when it refused to participate in arbitration concerning Officer Donaldson's termination. As the Police's challenge to the OOC's application seeking enforcement of the Board's decision and remedial order depends on its challenge to the Board's final decision, its opposition to the OOC's application fails. We therefore grant the OOC's application to enforce the Board's decision and order.\nDENIED AS TO 2018-1293 AND GRANTED AS TO 2018-1396\nCOSTS\nNo costs.\nThe CAA was amended on December 21, 2018. See Congressional Accountability Act of 1995 Reform Act, Pub L. No. 115-397, 132 Stat. 5297 (2018). All citations to the Act refer to the applicable provisions in effect before the 2018 amendments, unless otherwise indicated.\nAfter that complaint was filed, the Police agreed to select an arbitrator to consider the arbitrability of the termination decision while maintaining its objection to the arbitrator's jurisdiction. An arbitrator was selected and he determined that the termination decision was arbitrable.\nThe Police argued before the Board that the controversy between it and the Union was mooted by the Police's willingness to select an arbitrator and engage in arbitration limited to the issue of the arbitrator's jurisdiction over the controversy. The Board rejected the mootness argument noting that remedies for the Police's initial refusal to arbitrate survive the Police's belated partial agreement to proceed with arbitration. The Police do not maintain a mootness argument on appeal, and we agree with the Board that the instant controversy is not moot.\nThe Police argued that the United States Capitol Police Administrative Technical Corrections Act of 2009 (\"TCA\"), Pub. L. No. 111-145, 124 Stat. 49 (2010), bore on the question of arbitrability of termination decisions. According to the Police, the TCA gave the Capitol Police Board sufficient authority over termination decisions to deem those decisions \"specifically provided for\" by law and thus statutorily excluded from \"conditions of employment\" and hence beyond the scope of a collective bargaining agreement. Additionally, the Police argued it had no duty to bargain over, and hence no duty to engage in arbitration over, matters for which bargaining over or engaging in arbitration over the matter would be inconsistent with federal law. The Police argued that allowing arbitration over termination decisions specifically would be inconsistent with the TCA, and generally inconsistent with a body of case law that denied arbitration remedies for certain disputes when direct judicial review over such disputes is lacking. Those arguments have been rejected by this Court. See U.S. Capitol Police v. Office of Compliance (\"Capitol Police II \"), 913 F.3d 1361, 1366-68 (Fed. Cir. 2019) ; U.S. Capitol Police v. Office of Compliance (\"Capitol Police I \"), 908 F.3d 748, 760-65 (Fed. Cir. 2018).",
+        "type": "majority",
+        "author": "Clevenger, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Rafique Omar Anderson, Office of Employment Counsel, United States Capitol Police, Washington, DC, argued for petitioner. Also represented by Frederick M. Herrera.",
+      "John D. Uelmen, Office of the General Counsel, United States Office of Compliance, Washington, DC, argued for cross-applicant. Also represented by Julia Akins Clark ; Simone Jenkins, Congressional Office of Compliance, Washington, DC.",
+      "Megan Kathleen Mechak, Woodley & McGillivary LLP, Washington, DC, argued for intervenor."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES CAPITOL POLICE, Petitioner\nv.\nOFFICE OF COMPLIANCE, Cross-Applicant\nFraternal Order of Police, District of Columbia Lodge No. 1, U.S. Capitol Police Labor Committee, Intervenor\n2018-1293, 2018-1396\nUnited States Court of Appeals, Federal Circuit.\nDecided: February 21, 2019\nRafique Omar Anderson, Office of Employment Counsel, United States Capitol Police, Washington, DC, argued for petitioner. Also represented by Frederick M. Herrera.\nJohn D. Uelmen, Office of the General Counsel, United States Office of Compliance, Washington, DC, argued for cross-applicant. Also represented by Julia Akins Clark ; Simone Jenkins, Congressional Office of Compliance, Washington, DC.\nMegan Kathleen Mechak, Woodley & McGillivary LLP, Washington, DC, argued for intervenor.\nBefore Newman, Lourie, and Clevenger, Circuit Judges."
+  },
+  "file_name": "1023-01",
+  "first_page_order": 1023,
+  "last_page_order": 1028
+}

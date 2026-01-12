@@ -1,0 +1,59 @@
+{
+  "id": 12245985,
+  "name": "Firishchak v. Holder, Attorney General",
+  "name_abbreviation": "Firishchak v. Holder",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-779",
+  "first_page": "1201",
+  "last_page": "1201",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1201"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 86,
+    "ocr_confidence": 0.625,
+    "sha256": "3e4c504ab4f501557c431039d292e2ab167fb8db09a04002866c0232f5184561",
+    "simhash": "1:420b56b8c0055020",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Firishchak v. Holder, Attorney General."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-779.\nFirishchak v. Holder, Attorney General."
+  },
+  "file_name": "1201-06",
+  "first_page_order": 1283,
+  "last_page_order": 1283
+}

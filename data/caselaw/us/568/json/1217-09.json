@@ -1,0 +1,59 @@
+{
+  "id": 12432700,
+  "name": "Thompson v. Lewis, Acting Warden",
+  "name_abbreviation": "Thompson v. Lewis",
+  "decision_date": "2013-03-04",
+  "docket_number": "No. 12-8277",
+  "first_page": "1217",
+  "last_page": "1217",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1217"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 81,
+    "ocr_confidence": 0.638,
+    "sha256": "8b20ceb5b69693b533b90b4940177d277e06611a919a83ce2eba21890c64787e",
+    "simhash": "1:17c123993fcd0052",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Thompson v. Lewis, Acting Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8277.\nThompson v. Lewis, Acting Warden."
+  },
+  "file_name": "1217-09",
+  "first_page_order": 1293,
+  "last_page_order": 1293
+}

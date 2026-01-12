@@ -1,0 +1,1650 @@
+{
+  "id": 3653276,
+  "name": "14 PENN PLAZA LLC etal. v. PYETT et al.",
+  "name_abbreviation": "14 Penn Plaza LLC v. Pyett",
+  "decision_date": "2009-04-01",
+  "docket_number": "No. 07-581",
+  "first_page": "247",
+  "last_page": "286",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "556 U.S. 247"
+    },
+    {
+      "type": "parallel",
+      "cite": "173 L. Ed. 2d 398"
+    },
+    {
+      "type": "parallel",
+      "cite": "129 S. Ct. 1456"
+    },
+    {
+      "type": "vendor",
+      "cite": "2009 U.S. LEXIS 2497"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2008-041"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "9 U. S. C. \u00a7 10",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "491 U. S. 164",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6211653
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "173",
+          "parenthetical": "explaining that it is appropriate to overrule a decision where there \"has been [an] intervening development of the law\" such that the earlier \"decision [is] irreconcilable with competing legal doctrines or policies\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/491/0164-01"
+      ]
+    },
+    {
+      "cite": "510 U. S. 135",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        231570
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "147-148",
+          "parenthetical": "\"[W]e do not resort to legislative history to cloud a statutory text that is clear\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/510/0135-01"
+      ]
+    },
+    {
+      "cite": "42 U.S.C. \u00a71981",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "105 Stat. 1081",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "373 F. 3d 530",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9232884
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "533"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/373/0530-01"
+      ]
+    },
+    {
+      "cite": "288 F. 3d 313",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9437229
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "317"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/288/0313-01"
+      ]
+    },
+    {
+      "cite": "343 F. 3d 811",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9097224
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "824"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/343/0811-01"
+      ]
+    },
+    {
+      "cite": "350 F. 3d 279",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9051363
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "285"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/350/0227-01"
+      ]
+    },
+    {
+      "cite": "220 F. 3d 73",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11199920
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "75",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/220/0073-01"
+      ]
+    },
+    {
+      "cite": "462 U. S. 151",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6186614
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "164-165"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/462/0151-01"
+      ]
+    },
+    {
+      "cite": "29 U. S. C. \u00a7 185",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "531 U. S. 79",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9505413
+      ],
+      "weight": 2,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "90"
+        },
+        {
+          "page": "91"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/531/0079-01"
+      ]
+    },
+    {
+      "cite": "537 U. S. 51",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9190636
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "56, n. 4"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/537/0051-01"
+      ]
+    },
+    {
+      "cite": "551 U. S. 338",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3573000
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "360"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/551/0338-01"
+      ]
+    },
+    {
+      "cite": "461 U. S. 458",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11298743
+      ],
+      "year": 1983,
+      "pin_cites": [
+        {
+          "page": "468-469, n. 12"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/461/0458-01"
+      ]
+    },
+    {
+      "cite": "439 U. S. 463",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11331119
+      ],
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "476, n. 20"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/439/0463-01"
+      ]
+    },
+    {
+      "cite": "492 U. S. 33",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6211254
+      ],
+      "weight": 2,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "38-39",
+          "parenthetical": "quoting Washington v. Confederated Bands and Tribes of Yakima Nation, 439 U. S. 463, 476, n. 20 (1979)"
+        },
+        {
+          "page": "39"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/492/0033-01"
+      ]
+    },
+    {
+      "cite": "534 U. S. 279",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9108200
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "295-296"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/534/0279-01"
+      ]
+    },
+    {
+      "cite": "482 U. S. 656",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6218699
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "669"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/482/0656-01"
+      ]
+    },
+    {
+      "cite": "29 U. S. C. \u00a7 623",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(d)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "386 U. S. 171",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6169888
+      ],
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "177",
+          "parenthetical": "describing the duty of fair representation as the \"statutory obligation to serve the interests of all members without hostility or discrimination toward any, to exercise its discretion with complete good faith and honesty, and to avoid arbitrary conduct\" (emphasis added)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/386/0171-01"
+      ]
+    },
+    {
+      "cite": "525 U. S. 33",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11076311
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "44"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/525/0033-01"
+      ]
+    },
+    {
+      "cite": "352 U. S. 480",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6161985
+      ],
+      "year": 1957,
+      "pin_cites": [
+        {
+          "page": "498",
+          "parenthetical": "Frankfurter, J., concurring"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/352/0480-01"
+      ]
+    },
+    {
+      "cite": "345 U. S. 330",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        372924
+      ],
+      "year": 1953,
+      "pin_cites": [
+        {
+          "page": "338",
+          "parenthetical": "\"The complete satisfaction of all who are represented is hardly to be expected\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/345/0330-01"
+      ]
+    },
+    {
+      "cite": "420 U. S. 50",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11642663
+      ],
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "62"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/420/0050-01"
+      ]
+    },
+    {
+      "cite": "534 U. S. 438",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9108314
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "462"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/534/0438-01"
+      ]
+    },
+    {
+      "cite": "554 U. S. 33",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3677251
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "52",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/554/0033-01"
+      ]
+    },
+    {
+      "cite": "482 U. S. 220",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6212026
+      ],
+      "weight": 2,
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "231-232"
+        },
+        {
+          "page": "232"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/482/0220-01"
+      ]
+    },
+    {
+      "cite": "490 U. S. 477",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        605341
+      ],
+      "weight": 2,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "480"
+        },
+        {
+          "page": "481"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/490/0477-01"
+      ]
+    },
+    {
+      "cite": "346 U. S. 427",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6931436
+      ],
+      "weight": 3,
+      "year": 1953,
+      "pin_cites": [
+        {
+          "page": "438"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/346/0427-01"
+      ]
+    },
+    {
+      "cite": "400 U. S. 351",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12047213
+      ],
+      "year": 1971,
+      "pin_cites": [
+        {
+          "page": "359-360",
+          "parenthetical": "Harlan, J., concurring"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/400/0351-01"
+      ]
+    },
+    {
+      "cite": "512 U. S. 107",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        39425
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "127, n. 21"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/512/0107-01"
+      ]
+    },
+    {
+      "cite": "42 U. S. C. \u00a7 1983",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "285"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "466 U. S. 284",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6197724
+      ],
+      "weight": 3,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "290"
+        },
+        {
+          "page": "291",
+          "parenthetical": "\"The union's interests and those of the individual employee are not always identical or even compatible. As a result, the union may present the employee's grievance less vigorously, or make different strategic choices, than would the employee\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/466/0284-01"
+      ]
+    },
+    {
+      "cite": "450 U. S. 728",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6189685
+      ],
+      "weight": 6,
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "729-730"
+        },
+        {
+          "page": "731, n. 5"
+        },
+        {
+          "page": "744"
+        },
+        {
+          "page": "743"
+        },
+        {
+          "page": "742"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/450/0728-01"
+      ]
+    },
+    {
+      "cite": "29 U. S. C. \u00a7 626",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(f)(1)"
+        },
+        {
+          "page": "(f)(1)(C)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "473 U. S. 614",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6204792
+      ],
+      "weight": 5,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "628"
+        },
+        {
+          "page": "628"
+        },
+        {
+          "page": "634",
+          "parenthetical": "\"We decline to indulge the presumption that the parties and arbitral body conducting a proceeding will be unable or unwilling to retain competent, conscientious, and impartial arbitrators\""
+        },
+        {
+          "page": "628"
+        },
+        {
+          "page": "637"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/473/0614-01"
+      ]
+    },
+    {
+      "cite": "415 U. S. 322",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6175154
+      ],
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "328",
+          "parenthetical": "Stewart, J., concurring in part and dissenting in part"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/415/0322-01"
+      ]
+    },
+    {
+      "cite": "532 U. S. 105",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9300786
+      ],
+      "weight": 2,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "123",
+          "parenthetical": "\"Arbitration agreements allow parties to avoid the costs of litigation, a benefit that may be of particular importance in employment litigation, which often involves smaller sums of money than disputes concerning commercial contracts\""
+        },
+        {
+          "page": "123"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/532/0105-01"
+      ]
+    },
+    {
+      "cite": "353 U. S. 448",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6161391
+      ],
+      "year": 1957,
+      "pin_cites": [
+        {
+          "page": "455",
+          "parenthetical": "\"Plainly the agreement to arbitrate grievance disputes is the quid pro quo for an agreement not to strike\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/353/0448-01"
+      ]
+    },
+    {
+      "cite": "363 U. S. 574",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6166480
+      ],
+      "year": 1960,
+      "pin_cites": [
+        {
+          "page": "578",
+          "parenthetical": "\"[Arbitration of labor disputes under collective bargaining agreements is part and parcel of the collective bargaining process itself\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/363/0574-01"
+      ]
+    },
+    {
+      "cite": "501 U. S. 190",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1107959
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "199",
+          "parenthetical": "\"[A]rrangements for arbitration of disputes are a term or condition of employment and a mandatory subject of bargaining\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/501/0190-01"
+      ]
+    },
+    {
+      "cite": "29 U. S. C. \u00a7 158",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(5)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "375 U. S. 335",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11719541
+      ],
+      "year": 1964,
+      "pin_cites": [
+        {
+          "page": "342"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/375/0335-01"
+      ]
+    },
+    {
+      "cite": "487 U. S. 735",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1774712
+      ],
+      "weight": 2,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "739",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "743",
+          "parenthetical": "citation omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/487/0735-01"
+      ]
+    },
+    {
+      "cite": "552 U. S. 1178",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 2008,
+      "opinion_index": 0
+    },
+    {
+      "cite": "525 U. S. 70",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11076333
+      ],
+      "weight": 7,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "82"
+        },
+        {
+          "page": "80",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "80"
+        },
+        {
+          "page": "76"
+        },
+        {
+          "page": "77"
+        },
+        {
+          "page": "80"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/525/0070-01"
+      ]
+    },
+    {
+      "cite": "500 U. S. 20",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6216237
+      ],
+      "weight": 18,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "33-35"
+        },
+        {
+          "page": "26-33"
+        },
+        {
+          "page": "26"
+        },
+        {
+          "page": "29",
+          "parenthetical": "internal quotation marks and some brackets omitted"
+        },
+        {
+          "page": "26-27"
+        },
+        {
+          "page": "28",
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "30"
+        },
+        {
+          "page": "35"
+        },
+        {
+          "page": "35"
+        },
+        {
+          "page": "26"
+        },
+        {
+          "page": "34, n. 5",
+          "parenthetical": "reiterating that Gardner-Denver's view of arbitration \"has been undermined by [the Court's] recent arbitration decisions\""
+        },
+        {
+          "page": "31"
+        },
+        {
+          "page": "29"
+        },
+        {
+          "page": "26"
+        },
+        {
+          "page": "80",
+          "parenthetical": "emphasis added"
+        },
+        {
+          "page": "41",
+          "parenthetical": "Stevens, J., dissenting"
+        },
+        {
+          "page": "42"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/500/0020-01"
+      ]
+    },
+    {
+      "cite": "9 U. S. C. \u00a7\u00a716",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(l)(AMB)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "9 U. S. C. \u00a7\u00a7 3",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "498 F. 3d 88",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6048330
+      ],
+      "weight": 6,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "91"
+        },
+        {
+          "page": "92, 91"
+        },
+        {
+          "page": "91"
+        },
+        {
+          "page": "91, n. 3"
+        },
+        {
+          "page": "93-94"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/498/0088-01"
+      ]
+    },
+    {
+      "cite": "29 U. S. C. \u00a7 159",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 Stat. 449",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "415 U. S. 36",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6171755
+      ],
+      "weight": 6,
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "49-51"
+        },
+        {
+          "page": "51"
+        },
+        {
+          "page": "51"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/415/0036-01"
+      ]
+    },
+    {
+      "cite": "29 U. S. C. \u00a7 621",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "81 Stat. 602",
+      "category": "laws:leg_session",
+      "reporter": "Stat.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "480 U. S. 557",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1131192
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "565"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/480/0557-01"
+      ]
+    },
+    {
+      "cite": "199 F. 3d 477",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1753232,
+        3671977
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "484",
+          "parenthetical": "\"We see a clear rule of law emerging from Gardner-Denver and Gilmer [v. Interstate/Johnson Lane Corp., 500 U. S. 20 (1991"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/199/0477-01",
+        "/us-app-dc/339/0264-01"
+      ]
+    },
+    {
+      "cite": "29 U. S. C. \u00a7 151",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "502 U. S. 197",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6221734
+      ],
+      "weight": 2,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "202"
+        },
+        {
+          "page": "202"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/502/0197-01"
+      ]
+    },
+    {
+      "cite": "553 U. S. 442",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3673844
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "457"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/553/0442-01"
+      ]
+    },
+    {
+      "cite": "434 U. S. 575",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6186066
+      ],
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "584"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/434/0575-01"
+      ]
+    },
+    {
+      "cite": "469 U. S. 111",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11958809
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "121",
+          "parenthetical": "quoting Lorillard v. Pons, 434 U. S. 575, 584 (1978)"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/469/0111-01"
+      ]
+    },
+    {
+      "cite": "441 U. S. 750",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1780341
+      ],
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "756"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/441/0750-01"
+      ]
+    },
+    {
+      "cite": "513 U. S. 352",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1334665
+      ],
+      "weight": 3,
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "358",
+          "parenthetical": "quoting Oscar Mayer & Co. v. Evans, 441 U. S. 750, 756 (1979)"
+        },
+        {
+          "page": "358"
+        },
+        {
+          "page": "358",
+          "parenthetical": "\"The ADEA and Title VII share common substantive features and also a common purpose\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/513/0352-01"
+      ]
+    },
+    {
+      "cite": "417 U. S. 506",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1519355
+      ],
+      "year": 1974,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/417/0506-01"
+      ]
+    },
+    {
+      "cite": "484 F. 2d 611",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        238552
+      ],
+      "year": 1973,
+      "pin_cites": [
+        {
+          "page": "615-620",
+          "parenthetical": "dissenting opinion"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/484/0611-01"
+      ]
+    },
+    {
+      "cite": "487 U. S. 500",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1775177
+      ],
+      "year": 1988,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/487/0500-01"
+      ]
+    },
+    {
+      "cite": "491 U. S. 164",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6211653
+      ],
+      "weight": 2,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "172-173"
+        },
+        {
+          "page": "172-173"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/491/0164-01"
+      ]
+    },
+    {
+      "cite": "482 U. S. 220",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6212026
+      ],
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "231"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/482/0220-01"
+      ]
+    },
+    {
+      "cite": "490 U. S. 477",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        605341
+      ],
+      "weight": 4,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "486"
+        },
+        {
+          "page": "484"
+        },
+        {
+          "page": "481",
+          "parenthetical": "noting Wilko's reliance on \"the outmoded presumption of disfavoring arbitration proceedings\""
+        },
+        {
+          "page": "487",
+          "parenthetical": "footnote and citation omitted"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/490/0477-01"
+      ]
+    },
+    {
+      "cite": "346 U. S. 427",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6931436
+      ],
+      "year": 1953,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/346/0427-01"
+      ]
+    },
+    {
+      "cite": "466 U. S. 284",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6197724
+      ],
+      "weight": 3,
+      "year": 1984,
+      "pin_cites": [
+        {
+          "page": "291"
+        },
+        {
+          "page": "291"
+        },
+        {
+          "page": "291"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/466/0284-01"
+      ]
+    },
+    {
+      "cite": "450 U. S. 728",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6189685
+      ],
+      "weight": 6,
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "742"
+        },
+        {
+          "page": "737"
+        },
+        {
+          "page": "737"
+        },
+        {
+          "page": "742"
+        },
+        {
+          "page": "737"
+        },
+        {
+          "page": "742",
+          "parenthetical": "\"[E]ven if the employee's claim were meritorious, his union might, without breaching its duty of fair representation, reasonably and in good faith decide not to support the claim vigorously in arbitration\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/450/0728-01"
+      ]
+    },
+    {
+      "cite": "29 U. S. C. \u00a7 626",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "473 U. S. 614",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6204792
+      ],
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "640"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/473/0614-01"
+      ]
+    },
+    {
+      "cite": "532 U. S. 105",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9300786
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "124"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/532/0105-01"
+      ]
+    },
+    {
+      "cite": "525 U. S. 70",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11076333
+      ],
+      "weight": 2,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "80"
+        },
+        {
+          "page": "77"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/525/0070-01"
+      ]
+    },
+    {
+      "cite": "500 U. S. 20",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6216237
+      ],
+      "weight": 6,
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "36"
+        },
+        {
+          "page": "35",
+          "parenthetical": "\"An important concern\" in Gardner-Denver \"was the tension between collective representation and individual statutory rights ... \""
+        },
+        {
+          "page": "35"
+        },
+        {
+          "page": "34, n. 5"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/500/0020-01"
+      ]
+    },
+    {
+      "cite": "415 U. S. 36",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6171755
+      ],
+      "weight": 7,
+      "year": 1974,
+      "pin_cites": [
+        {
+          "page": "45"
+        },
+        {
+          "page": "47-59"
+        },
+        {
+          "page": "49-50"
+        },
+        {
+          "page": "58, n. 19",
+          "parenthetical": "noting that a duty of fair representation claim would often \"prove difficult to establish\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/415/0036-01"
+      ]
+    },
+    {
+      "cite": "29 U. S. C. \u00a7 621",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 1
+    }
+  ],
+  "analysis": {
+    "cardinality": 2321,
+    "char_count": 75651,
+    "ocr_confidence": 0.669,
+    "pagerank": {
+      "raw": 1.6717451647414663e-06,
+      "percentile": 0.993180490445582
+    },
+    "sha256": "82a1ae0433ad8621352188718e620dacfbeb79e4d1a9b244896da6988ff40dbf",
+    "simhash": "1:58a8abb1a6ce960c",
+    "word_count": 11861
+  },
+  "last_updated": "2024-02-27T20:53:05.274471+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Souter, with whom Justice Stevens, Justice Ginsburg, and Justice Breyer join, dissenting."
+    ],
+    "parties": [
+      "14 PENN PLAZA LLC et al. v. PYETT et al."
+    ],
+    "opinions": [
+      {
+        "text": "Justice Thomas\ndelivered the opinion of the Court.\nThe question presented by this case is whether a provision in a collective-bargaining agreement that clearly and unmistakably requires union members to arbitrate claims arising under the Age Discrimination in Employment Act of 1967 (ADEA), 81 Stat. 602, as amended, 29 U. S. C. \u00a7 621 et seq., is enforceable. The United States Court of Appeals for the Second Circuit held that this Court\u2019s decision in Alexander v. Gardner-Denver Co., 415 U. S. 36 (1974), forbids enforcement of such arbitration provisions. We disagree and reverse the judgment of the Court of Appeals.\nI\nRespondents are members of the Service Employees International Union, Local 32BJ (Union). Under the National Labor Relations Act (NLRA), 49 Stat. 449, as amended, the Union is the exclusive bargaining representative of employees within the building-services industry in New York City, which includes building cleaners, porters, and doorpersons. See 29 U. S. C. \u00a7 159(a). In this role, the Union has exclusive authority to bargain on behalf of its members over their \u201crates of pay, wages, hours of employment, or other conditions of employment.\u201d Ibid. Since the 193G\u2019s, the Union has engaged in industrywide collective bargaining with the Realty Advisory Board on Labor Relations, Inc. (RAB), a multiemployer bargaining association for the New York City real-estate industry. The agreement between the Union and the RAB is embodied in their Collective Bargaining Agreement for Contractors and Building Owners (CBA). The CBA requires Union members to submit all claims of employment discrimination to binding arbitration under the CBA\u2019s grievance and dispute resolution procedures:\n\u201c30. NO DISCRIMINATION\n\u201cThere shall be no discrimination against any present or future employee by reason of race, creed, color, age, disability, national origin, sex, union membership, or any characteristic protected by law, including, but not limited to, claims made pursuant to Title VII of the Civil Rights Act, the Americans with Disabilities Act, the Age Discrimination in Employment Act, the New York State Human Rights Law, the New York City Human Rights Code, ... or any other similar laws, rules or regulations. AH such claims shall be subject to the grievance and arbitration procedure (Articles V and VI) as the sole and exclusive remedy for violations. Arbitrators shall apply appropriate law in rendering decisions based upon claims of discrimination.\u201d App. to Pet. for Cert. 48a.\nPetitioner 14 Penn Plaza LLC is a member of the RAB. It owns and operates the New York City office building where, prior to August 2003, respondents worked as night lobby watchmen and in other similar capacities. Respondents were directly employed by petitioner Temco Service Industries, Inc. (Temco), a maintenance service and cleaning contractor. In August 2003, with the Union\u2019s consent, 14 Penn Plaza engaged Spartan Security, a unionized security services contractor and affiliate of Temco, to provide licensed security guards to staff the lobby and entrances of its building. Because this rendered respondents\u2019 lobby services unnecessary, Temco reassigned them to jobs as night porters and light-duty cleaners in other locations in the building. Respondents contend that these reassignments led to a loss in income, caused them emotional distress, and were otherwise less desirable than their former positions.\nAt respondents\u2019 request, the Union filed grievances challenging the reassignments. The grievances alleged that petitioners: (1) violated the CBA\u2019s ban on workplace discrimination by reassigning respondents on account of their age; (2) violated seniority rules by failing to promote one of the respondents to a handyman position; and (3) failed to equitably rotate overtime. After failing to obtain relief on any of these claims through the grievance process, the Union requested arbitration under the CBA.\nAfter the initial arbitration hearing, the Union withdrew the first set of respondents\u2019 grievances \u2014 the age-discrimination claims \u2014 from arbitration. Because it had consented to the contract for new security personnel at 14 Penn Plaza, the Union believed that it could not legitimately object to respondents\u2019 reassignments as discriminatory. But the Union continued to arbitrate the seniority and overtime claims, and, after several hearings, the claims were denied.\nIn May 2004, while the arbitration was ongoing but after the Union withdrew the age-discrimination claims, respondents filed a complaint with the Equal Employment Opportunity Commission (EEOC) alleging that petitioners had violated their rights under the ADEA. Approximately one month later, the EEOC issued a Dismissal and Notice of Rights, which explained that the agency\u2019s \u201c\u2018review of the evidence . . . fail[ed] to indicate that a violation ha[d] occurred,\u2019 \u201d and notified each respondent of his right to sue. Pyett v. Pennsylvania Building Co., 498 F. 3d 88, 91 (CA2 2007).\nRespondents thereafter filed suit against petitioners in the United States District Court for the Southern District of New York, alleging that their reassignment violated the ADEA and state and local laws prohibiting age discrimination. Petitioners filed a motion to compel arbitration of respondents\u2019 claims pursuant to \u00a7\u00a7 3 and 4 of the Federal Arbitration Act (FAA), 9 U. S. C. \u00a7\u00a7 3, 4. The District Court denied the motion because under Second Circuit precedent, \u201ceven a clear and unmistakable union-negotiated waiver of a right to litigate certain federal and state statutory claims in a judicial forum is unenforceable.\u201d App. to Pet. for Cert. 21a. Respondents immediately appealed the ruling under \u00a716 of the FAA, which authorizes an interlocutory appeal of \u201can order . . . refusing a stay of any action under section 3 of this title\u201d or \u201cdenying a petition under section 4 of this title to order arbitration to proceed.\u201d 9 U. S. C. \u00a7\u00a716(a)(l)(AMB).\nThe Court of Appeals affirmed. 498 F. 3d 88. According to the Court of Appeals, it could not compel arbitration of the dispute because Gardner-Denver, which \u201cremains good law,\u201d held \u201cthat a collective bargaining agreement could not waive covered workers\u2019 rights to a judicial forum for causes of action created by Congress.\u201d 498 F. 3d, at 92, 91, n. 3 (citing Gardner-Denver, 415 U. S., at 49-51). The Court of Appeals observed that the Gardner-Denver decision was in tension with this Court\u2019s more recent decision in Gilmer v. Interstate/Johnson Lane Corp., 500 U. S. 20 (1991), which \u201cheld that an individual employee who had agreed individually to waive his right to a federal forum could be compelled to arbitrate a federal age discrimination claim.\u201d 498 F. 3d, at 91, n. 3 (citing Gilmer, supra, at 33-35; emphasis in original). The Court of Appeals also noted that this Court previously declined to resolve this tension in Wright v. Universal Maritime Service Corp., 525 U. S. 70, 82 (1998), where the waiver at issue was not \u201cclear and unmistakable.\u201d 498 F. 3d, at 91, n. 3.\nThe Court of Appeals attempted to reconcile Gardner-Denver and Gilmer by holding that arbitration provisions in a collective-bargaining agreement, \u201cwhich purport to waive employees\u2019 rights to a federal forum with respect to statutory claims, are unenforceable.\u201d 498 F. 3d, at 93-94. As a result, an individual employee would be free to choose compulsory arbitration under Gilmer, but a labor union could not collectively bargain for arbitration on behalf of its members. We granted certiorari, 552 U. S. 1178 (2008), to address the issue left unresolved in Wright, which continues to divide the Courts of Appeals, and now reverse.\nII\nA\nThe NLRA governs federal labor-relations law. As permitted by that statute, respondents designated the Union as their \u201cexclusive representative] ... for the purposes of collective bargaining in respect to rates of pay, wages, hours of employment, or other conditions of employment.\u201d 29 U. S. C. \u00a7 159(a). As the employees\u2019 exclusive bargaining representative, the Union \u201cenjoys broad authority ... in the negotiation and administration of [the] collective bargaining contract.\u201d Communications Workers v. Beck, 487 U. S. 735, 739 (1988) (internal quotation marks omitted). But this broad authority \u201cis accompanied by a responsibility of equal scope, the responsibility and duty of fair representation.\u201d Humphrey v. Moore, 375 U. S. 335, 342 (1964). The employer has a corresponding duty under the NLRA to bargain in good faith \u201cwith the representatives of his employees\u201d on wages, hours, and conditions of employment. 29 U. S. C. \u00a7 158(a)(5); see also \u00a7 158(d).\nIn this instance, the Union and the RAB, negotiating on behalf of 14 Penn Plaza, collectively bargained in good faith and agreed that employment-related discrimination claims, including claims brought under the ADEA, would be resolved in arbitration. This freely negotiated term between the Union and the RAB easily qualifies as a \u201cconditio[n] of employment\u201d that is subject to mandatory bargaining under \u00a7 159(a). See Litton Financial Printing Div., Litton Business Systems, Inc. v. NLRB, 501 U. S. 190, 199 (1991) (\u201c[A]rrangements for arbitration of disputes are a term or condition of employment and a mandatory subject of bargaining\u201d); Steelworkers v. Warrior & Gulf Nav. Co., 363 U. S. 574, 578 (1960) (\u201c[Arbitration of labor disputes under collective bargaining agreements is part and parcel of the collective bargaining process itself\u201d); Textile Workers v. Lincoln Mills of Ala., 353 U. S. 448, 455 (1957) (\u201cPlainly the agreement to arbitrate grievance disputes is the quid pro quo for an agreement not to strike\u201d). The decision to fashion a collective-bargaining agreement to require arbitration of employment-discrimination claims is no different from the many other decisions made by parties in designing grievance machinery.\nRespondents, however, contend that the arbitration clause here is outside the permissible scope of the collective-bargaining process because it affects the \u201cemployees\u2019 individual, non-economic statutory rights.\u201d Brief for Respondents 22; see also post, at 281-283 (Souter, J., dissenting). We disagree. Parties generally favor arbitration precisely because of the economics of dispute resolution. See Circuit City Stores, Inc. v. Adams, 532 U. S. 105, 123 (2001) (\u201cArbitration agreements allow parties to avoid the costs of litigation, a benefit that may be of particular importance in employment litigation, which often involves smaller sums of money than disputes concerning commercial contracts\u201d). As in any contractual negotiation, a union may agree to the inclusion of an arbitration provision in a collective-bargaining agreement in return for other concessions from the employer. Courts generally may not interfere in this bargained-for exchange. \u201cJudicial nullification of contractual concessions ... is contrary to what the Court has recognized as one of the fundamental policies of the National Labor Relations Act \u2014 freedom of contract.\u201d NLRB v. Magnavox Co., 415 U. S. 322, 328 (1974) (Stewart, J., concurring in part and dissenting in part) (internal quotation marks and brackets omitted).\nAs a result, the CBA\u2019s arbitration provision must be honored unless the ADEA itself removes this particular class of grievances from the NLRA\u2019s broad sweep. See Mitsubishi Motors Corp. v. Soler Chrysler-Plymouth, Inc., 473 U. S. 614, 628 (1985). It does not. This Court has squarely held that the ADEA does not preclude arbitration of claims brought under the statute. See Gilmer, 500 U. S., at 26-33.\nIn Gilmer, the Court explained that \u201c[although all statutory claims may not be appropriate for arbitration, \u2018[hjaving made the bargain to arbitrate, the party should be held to it unless Congress itself has evinced an intention to preclude a waiver of judicial remedies for the statutory rights at issue.\u2019 \u201d Id., at 26 (quoting Mitsubishi Motors Corp., supra, at 628). And \u201c[i]f Congress intended the substantive protection afforded by the ADEA to include protection against waiver of the right to a judicial forum, that intention will be deducible from text or legislative history.\u201d 500 U. S., at 29 (internal quotation marks and some brackets omitted). The Court determined that \u201cnothing in the text of the ADEA or its legislative history explicitly precludes arbitration.\u201d Id., at 26-27. The Court also concluded that arbitrating ADEA disputes would not undermine the statute\u2019s \u201cremedial and deterrent function.\u201d Id., at 28 (internal quotation marks omitted). In the end, the employee\u2019s \u201cgeneralized attacks\u201d on \u201cthe adequacy of arbitration procedures\u201d were \u201cinsufficient to preclude arbitration of statutory claims,\u201d id., at 30, because there was no evidence that \u201cCongress, in enacting the ADEA, intended to preclude arbitration of claims under that Act,\u201d id., at 35.\nThe Gilmer Court\u2019s interpretation of the ADEA fully applies in the collective-bargaining context. Nothing in the law suggests a distinction between the status of arbitration agreements signed by an individual employee and those agreed to by a union representative. This Court has required only that an agreement to arbitrate statutory antidiscrimination claims be \u201cexplicitly stated\u201d in the collective-bargaining agreement. Wright, 525 U. S., at 80 (internal quotation marks omitted). The CBA under review here meets that obligation. Respondents incorrectly counter that an individual employee must personally \u201cwaive\u201d a \u201c[substantive] right\u201d to proceed in court for a waiver to be \u201cknowing and voluntary\u201d under the ADEA. 29 U. S. C. \u00a7 626(f)(1). As explained below, however, the agreement to arbitrate ADEA claims is not the waiver of a \u201csubstantive right\u201d as that term is employed in the ADEA. Wright, supra, at 80; see infra, at 265-266. Indeed, if the \u201cright\u201d referred to in \u00a7 626(f)(1) included the prospective waiver of the right to bring an ADEA claim in court, even a waiver signed by an individual employee would be invalid as the statute also prevents individuals from \u201cwaiving] rights or claims that may arise after the date the waiver is executed.\u201d \u00a7 626(f)(1)(C).\nExamination of the two federal statutes at issue in this ease, therefore, yields a straightforward answer to the question presented: The NLRA provided the Union and the RAB with statutory authority to collectively bargain for arbitration of workplace discrimination claims, and Congress did not terminate that authority with respect to federal age-discrimination claims in the ADEA. Accordingly, there is no legal basis for the Court to strike down the arbitration clause in this CBA, which was freely negotiated by the Union and the RAB, and which clearly and unmistakably requires respondents to arbitrate the age-discrimination claims at issue in this appeal. Congress has chosen to allow arbitration of ADEA claims. The Judiciary must respect that choice.\nB\nThe CBA\u2019s arbitration provision is also fully enforceable under the Gardner-Denver line of cases. Respondents interpret Gardner-Denver and its progeny to hold that \u201ca union cannot waive an employee\u2019s right to a judicial forum under the federal antidiscrimination statutes\u201d because \u201callowing the union to waive this right would substitute the union\u2019s interests for the employee\u2019s antidiscrimination rights.\u201d Brief for Respondents 12. The \u201ccombination of union control over the process and inherent conflict of interest with respect to discrimination claims,\u201d they argue, \u201cprovided the foundation for the Court\u2019s holding [in Gardner-Denver] that arbitration under a collective bargaining agreement could not preclude an individual employee\u2019s right to bring a lawsuit in court to vindicate a statutory discrimination claim.\u201d Id., at 15. We disagree.\n1\nThe holding of Gardner-Denver is not as broad as respondents suggest. The employee in that case was covered by a collective-bargaining agreement that prohibited \u201cdiscrimination against any employee on account of race, color, religion, sex, national origin, or ancestry\u201d and that guaranteed that \u201c[n]o employee will be discharged ... except for just cause.\u201d 415 U. S., at 39 (internal quotation marks omitted). The agreement also included a \u201cmultistep grievance procedure\u201d that culminated in compulsory arbitration for any \u201cdifferences aris[ing] between the Company and the Union as to the meaning and application of the provisions of this Agreement\u201d and \u201cany trouble aris[ing] in the plant.\u201d Id., at 40-41 (internal quotation marks omitted).\nThe employee was discharged for allegedly producing too many defective parts while working for the respondent as a drill operator. He filed a grievance with his union claiming that he was \u201c \u2018unjustly discharged\u2019 \u201d in violation of the \u201c \u2018just cause\u2019\u201d provision within the collective-bargaining agreement. Id., at 39, 42. Then at the final prearbitration step of the grievance process, the employee added a claim that he was discharged because of his race. Id., at 38-42.\nThe arbitrator ultimately ruled that the employee had been \u201c \u2018discharged for just cause,\u2019 \u201d but \u201cmade no reference to [the] claim of racial discrimination.\u201d Id., at 42. After obtaining a right-to-sue letter from the EEOC, the employee filed a claim in Federal District Court, alleging racial discrimination in violation of Title VII of the Civil Rights Act of 1964. The District Court issued a decision, affirmed by the Court of Appeals, which granted summary judgment to the employer because it concluded that \u201cthe claim of racial discrimination had been submitted to the arbitrator and resolved adversely to [the employee].\u201d Id., at 43. In the District Court\u2019s view, \u201chaving voluntarily elected to pursue his grievance to final arbitration under the nondiscrimination clause of the collective-bargaining agreement,\u201d the employee was \u201cbound by the arbitral decision\u201d and precluded from suing his employer on any other grounds, such as a statutory claim under Title VII. Ibid.\nThis Court reversed the judgment on the narrow ground that the arbitration was not preclusive because the collective-bargaining agreement did not cover statutory claims. As a result, the lower courts erred in relying on the \u201cdoctrine of election of remedies\u201d to bar the employee\u2019s Title VII claim. Id., at 49. \u201cThat doctrine, which refers to situations where an individual pursues remedies that are legally or factually inconsistent\u201d with each other, did not apply to the employee\u2019s dual pursuit of arbitration and a Title VII discrimination claim in district court. Ibid. The employee\u2019s collective-bargaining agreement did not mandate arbitration of statutory antidiscrimination claims. Id., at 49-50. \u201cAs the proctor of the bargain, the arbitrator\u2019s task is to effectuate the intent of the parties.\u201d Id., at 53. Because the collective-bargaining agreement gave the arbitrator \u201cauthority to resolve only questions of contractual rights,\u201d his decision could not prevent the employee from bringing the Title VII claim in federal court \u201cregardless of whether certain contractual rights are similar to, or duplicative of, the substantive rights secured by Title VII.\u201d Id., at 53-54; see also id., at 50.\nThe Court also explained that the employee had not waived his right to pursue his Title VII claim in federal court by participating in an arbitration that was premised on the same underlying facts as the Title VII claim. See id., at 52. Thus, whether the legal theory of preclusion advanced by the employer rested on \u201cthe doctrines of election of remedies\u201d or was recast \u201cas resting instead on the doctrine of equitable estoppel and on themes of res judicata and collateral estoppel,\u201d id., at 49, n. 10 (internal quotation marks omitted), it could not prevail in light of the collective-bargaining agreement\u2019s failure to address arbitration of Title VII claims. See id., at 46, n. 6 (\u201c[W]e hold that the federal policy favoring arbitration does not establish that an arbitrator\u2019s resolution of a contractual claim is dispositive of a statutory claim under Title VII\u201d (emphasis added)).\nThe Court\u2019s decisions following Gardner-Denver have not broadened its holding to make it applicable to the facts of this case. In Barrentine v. Arkansas-Best Freight System, Inc., 450 U. S. 728 (1981), the Court considered \u201cwhether an employee may bring an action in federal district court, alleging a violation of the minimum wage provisions of the Fair Labor Standards Act,... after having unsuccessfully submitted a wage claim based on the same underlying facts to a joint grievance committee pursuant to the provisions of his union\u2019s collective-bargaining agreement.\u201d Id., at 729-730. The Court held that the unsuccessful arbitration did not preclude the federal lawsuit. Like the collective-bargaining agreement in Gardner-Denver, the arbitration provision under review in Barrentine did not expressly reference the statutory claim at issue. See 450 U. S., at 731, n. 5. The Court thus reiterated that an \u201carbitrator\u2019s power is both derived from, and limited by, the collective-bargaining agreement\u201d and \u201c[h]is task is limited to construing the meaning of the collective-bargaining agreement so as to effectuate the collective intent of the parties.\u201d Id., at 744.\nMcDonald v. West Branch, 466 U. S. 284 (1984), was decided along similar lines. The question presented in that case was \u201cwhether a federal court may accord preclusive effect to an unappealed arbitration award in a case brought under [42 U. S. C. \u00a7 1983].\u201d Id., at 285. The Court declined to fashion such a rule, again explaining that \u201cbecause an arbitrator\u2019s authority derives solely from the contract, Barren-tine, supra, at 744, an arbitrator may not have the authority to enforce \u00a7 1983\u201d when that provision is left unaddressed by the arbitration agreement. Id., at 290. Accordingly, as in both Gardner-Denver and Barrentine, the Court\u2019s decision in McDonald hinged on the scope of the collective-bargaining agreement and the arbitrator\u2019s parallel mandate.\nThe facts underlying Gardner-Denver, Barrentine, and McDonald reveal the narrow scope of the legal rule arising from that trilogy of decisions. Summarizing those opinions in Gilmer, this Court made clear that the Gardner-Denver line of cases \u201cdid not involve the issue of the enforceability of an agreement to arbitrate statutory claims.\u201d 500 U. S., at 35. Those decisions instead \u201cinvolved the quite different issue whether arbitration of contract-based claims precluded subsequent judicial resolution of statutory claims. Since the employees there had not agreed to arbitrate their statutory, claims, and the labor arbitrators were not authorized to resolve such claims, the arbitration in those cases understandably was held not to preclude subsequent statutory actions.\u201d Ibid.; see also Wright, 525 U. S., at 76; Livadas v. Bradshaw, 512 U. S. 107, 127, n. 21 (1994). Gardner-Denver and its progeny thus do not control the outcome where, as is the case here, the collective-bargaining agreement\u2019s arbitration provision expressly covers both statutory and contractual discrimination claims.\n2\nWe recognize that apart from their narrow holdings, the Gardner-Denver line of cases included broad dicta that were highly critical of the use of arbitration for the vindication of statutory antidiscrimination rights. That skepticism, however, rested on a misconceived view of arbitration that this Court has since abandoned.\nFirst, the Court in Gardner-Denver erroneously assumed that an agreement to submit statutory discrimination claims to arbitration was tantamount to a waiver of those rights. See 415 U. S., at 51 (\u201c[T]here can be no prospective waiver of an employee\u2019s rights under Title VII\u201d (emphasis added)). For this reason, the Court stated, \u201cthe rights conferred [by Title VII] can form no part of the collective-bargaining process since waiver of these rights would defeat the paramount congressional purpose behind Title VII.\u201d Ibid.; see also id., at 56 (\u201c[W]e have long recognized that The choice of forums inevitably affects the scope of the substantive right to be vindicated\u2019 \u201d (quoting U. S. Bulk Carriers, Inc. v. Arguelles, 400 U. S. 351, 359-360 (1971) (Harlan, J., concurring))).\nThe Court was correct in concluding that federal antidiscrimination rights may not be prospectively waived, see 29 U. S. C. \u00a7 626(f)(1)(C); see supra, at 259, but it confused an agreement to arbitrate those statutory claims with a prospective waiver of the substantive right. The decision to resolve ADEA claims by way of arbitration instead of litigation does not waive the statutory right to be free from workplace age discrimination; it waives only the right to seek relief from a court in the first instance. See Gilmer, supra, at 26 (\u2018\u201c[B]y agreeing to arbitrate a statutory claim, a party does not forgo the substantive rights afforded by the statute; it only submits to their resolution in an arbitral, rather than a judicial, forum\u2019\u201d (quoting Mitsubishi Motors Corp., 473 U. S., at 628)). This \u201cCourt has been quite specific in holding that arbitration agreements can be enforced under the FAA without contravening the policies of congressional enactments giving employees specific protection against discrimination prohibited by federal law.\u201d Circuit City Stores, Inc., 532 U. S., at 123. The suggestion in Gardner-Denver that the decision to arbitrate statutory discrimination claims was tantamount to a substantive waiver of those rights, therefore, reveals a distorted understanding of the compromise made when an employee agrees to compulsory arbitration.\nIn this respect, Gardner-Denver is a direct descendant of the Court\u2019s decision in Wilko v. Swan, 346 U. S. 427 (1953), which held that an agreement to arbitrate claims under the Securities Act of 1933 was unenforceable. See id., at 438. The Court subsequently overruled Wilko and, in so doing, characterized the decision as \u201cpervaded by . . . \u2018the old judicial hostility to arbitration.\u2019\u201d Rodriguez de Quijas v. Shearson/American Express, Inc., 490 U. S. 477, 480 (1989). The Court added: \u201cTo the extent that Wilko rested on suspicion of arbitration as a method of weakening the protections afforded in the substantive law to would-be complainants, it has fallen far out of step with our current strong endorsement of the federal statutes favoring this method of resolving disputes.\u201d Id., at 481; see also Mitsubishi Motors Corp., supra, at 626-627 (\u201c[W]e are well past the time when judicial suspicion of the desirability of arbitration and of the competence of arbitral tribunals inhibited the development of arbitration as an alternative means of dispute resolution\u201d). The timeworn \u201cmistrust of the arbitral process\u201d harbored by the Court in Gardner-Denver thus weighs against reliance on anything more than its core holding. Shearson/American Express Inc. v. McMahon, 482 U. S. 220, 231-232 (1987); see also Gilmer, 500 U. S., at 34, n. 5 (reiterating that Gardner-Denver\u2019s view of arbitration \u201chas been undermined by [the Court\u2019s] recent arbitration decisions\u201d). Indeed, in light of the \u201cradical change, over two decades, in the Court\u2019s receptivity to arbitration,\u201d Wright, 525 U. S., at 77, reliance on any judicial decision similarly littered with Wilko\u2019s overt hostility to the enforcement of arbitration agreements would be ill advised.\nSecond, Gardner-Denver mistakenly suggested that certain features of arbitration made it a forum \u201cwell suited to the resolution of contractual disputes,\u201d but \u201ca comparatively inappropriate forum for the final resolution of rights created by Title VII.\u201d 415 U. S., at 56. According to the Court, the \u201cfactfinding process in arbitration\u201d is \u201cnot equivalent to judicial factfinding\u201d and the \u201cinformality of arbitral procedure . . . makes arbitration a less appropriate forum for final resolution of Title VII issues than the federal courts.\u201d Id., at 57, 58. The Court also questioned the competence of arbitrators to decide federal statutory claims. See id., at 57 (\u201c[T]he specialized competence of arbitrators pertains primarily to the law of the shop, not the law of the land\u201d); Barrentine, 450 U. S., at 743 (\u201cAlthough an arbitrator may be competent to resolve many preliminary factual questions, such as whether the employee \u2018punched in\u2019 when he said he did, he may lack the competence to decide the ultimate legal issue whether an employee\u2019s right to a minimum wage or to overtime pay under the statute has been violated\u201d). In the Court\u2019s view, \u201cthe resolution of statutory or constitutional issues is a primary responsibility of courts, and judicial construction has proved especially necessary with respect to Title VII, whose broad language frequently can be given meaning only by reference to public law concepts.\u201d Gardner-Denver, supra, at 57; see also McDonald, 466 U. S., at 290 (\u201cAn arbitrator may not . . . have the expertise required to resolve the complex legal questions that arise in \u00a7 1983 actions\u201d).\nThese misconceptions have been corrected. For example, the Court has \u201crecognized that arbitral tribunals are readily capable of handling the factual and legal complexities of antitrust claims, notwithstanding the absence of judicial instruction and supervision\u201d and that \u201cthere is no reason to assume at the outset that arbitrators will not follow the law.\u201d McMahon, supra, at 232; Mitsubishi Motors Corp., 473 U. S., at 634 (\u201cWe decline to indulge the presumption that the parties and arbitral body conducting a proceeding will be unable or unwilling to retain competent, conscientious, and impartial arbitrators\u201d). An arbitrator\u2019s capacity to resolve complex questions of fact and law extends with equal force to discrimination claims brought under the ADEA. Moreover, the recognition that arbitration procedures are more streamlined than federal litigation is not a basis for finding the forum somehow inadequate; the relative informality of arbitration is one of the chief reasons that parties select arbitration. Parties \u201ctrad[e] the procedures and opportunity for review of the courtroom for the simplicity, informality, and expedition of arbitration.\u201d Id., at 628. In any event, \u201c[i]t is unlikely . .. that age discrimination claims require more extensive discovery than other claims that we have found to be arbitrable, such as [Racketeer Influenced and Corrupt Organizations Act] and antitrust claims.\u201d Gilmer, supra, at 31. At bottom, objections centered on the nature of arbitration do not offer a credible basis for discrediting the choice of that forum to resolve statutory antidiscrimination claims.\nThird, the Court in Gardner-Denver raised in a footnote a \u201cfurther concern\u201d regarding \u201cthe union\u2019s exclusive control over the manner and extent to which an individual grievance is presented.\u201d 415 U. S., at 58, n. 19. The Court suggested that in arbitration, as in the collective-bargaining process, a union may subordinate the interests of an individual employee to the collective interests of all employees in the bargaining unit. Ibid.; see also McDonald, supra, at 291 (\u201cThe union\u2019s interests and those of the individual employee are not always identical or even compatible. As a result, the union may present the employee\u2019s grievance less vigorously, or make different strategic choices, than would the employee\u201d); see also Barrentine, supra, at 742; post, at 284, n. 4 (Souter, J., dissenting).\nWe cannot rely on this judicial policy concern as a source of authority for introducing a qualification into the ADEA that is not found in its text. Absent a constitutional barrier, \u201cit is not for us to substitute our view of . . . policy for the legislation which has been passed by Congress.\u201d Florida Dept. of Revenue v. Piccadilly Cafeterias, Inc., 554 U. S. 33, 52 (2008) (internal quotation marks omitted). Congress is fully equipped \u201cto identify any category of claims as to which agreements to arbitrate will be held unenforceable.\u201d Mitsubishi Motors Corp., supra, at 627. Until Congress amends the ADEA to meet the conflict-of-interest concern identified in the Gardner-Denver dicta, and seized on by respondents here, there is \u201cno reason to color the lens through which the arbitration clause is read\u201d simply because of an alleged conflict of interest between a union and its members. Mitsubishi Motors Corp., supra, at 628. This is a \u201cbattl[e] that should be fought among the political branches and the industry. Those parties should not seek to amend the statute by appeal to the Judicial Branch.\u201d Barnhart v. Sigmon Coal Co., 534 U. S. 438, 462 (2002).\nThe conflict-of-interest argument also proves too much. Labor unions certainly balance the economic interests of some employees against the needs of the larger work force as they negotiate collective-bargaining agreements and implement them on a daily basis. But this attribute of organized labor does not justify singling out an arbitration provision for disfavored treatment. This \u201cprinciple of majority rule\u201d to which respondents object is in fact the central premise of the NLRA. Emporium Capwell Co. v. Western Addition Community Organization, 420 U. S. 50, 62 (1975). \u201cIn establishing a regime of majority rule, Congress sought to secure to all members of the unit the benefits of their collective strength and bargaining power, in full awareness that the superior strength of some individuals or groups might be subordinated to the interest of the majority.\u201d Ibid, (footnote omitted); see also Ford Motor Co. v. Huffman, 345 U. S. 330, 338 (1953) (\u201cThe complete satisfaction of all who are represented is hardly to be expected\u201d); Pennsylvania R. Co. v. Rychlik, 352 U. S. 480, 498 (1957) (Frankfurter, J., concurring). It was Congress\u2019 verdict that the benefits of organized labor outweigh the sacrifice of individual liberty that this system necessarily demands. Respondents\u2019 argument that they were deprived of the right to pursue their ADEA claims in federal court by a labor union with a conflict of interest is therefore unsustainable; it amounts to a collateral attack on the NLRA.\nIn any event, Congress has accounted for this conflict of interest in several ways. As indicated above, the NLRA has been interpreted to impose a \u201cduty of fair representation\u201d on labor unions, which a union breaches \u201cwhen its conduct toward a member of the bargaining unit is arbitrary, discriminatory, or in bad faith.\u201d Marquez v. Screen Actors, 525 U. S. 33, 44 (1998). This duty extends to \u201cchallenges leveled not only at a union\u2019s contract administration and enforcement efforts but at its negotiation activities as well.\u201d Beck, 487 U. S., at 743 (citation omitted). Thus, a union is subject to liability under the NLRA if it illegally discriminates against older workers in either the formation or governance of the collective-bargaining agreement, such as by deciding not to pursue a grievance on behalf of one of its members for discriminatory reasons. See Vaca v. Sipes, 386 U. S. 171, 177 (1967) (describing the duty of fair representation as the \u201cstatutory obligation to serve the interests of all members without hostility or discrimination toward any, to exercise its discretion with complete good faith and honesty, and to avoid arbitrary conduct\u201d (emphasis added)). Respondents in fact brought a fair representation suit against the Union based on its withdrawal of support for their age-discrimination claims. See n. 2, supra. Given this avenue that Congress has made available to redress a union\u2019s violation of its duty to its members, it is particularly inappropriate to ask this Court to impose an artificial limitation on the collective-bargaining process.\nIn addition, a union is subject to liability under the ADEA if the union itself discriminates against its members on the basis of age. See 29 U. S. C. \u00a7 623(d); see also 1 B. Lindemann & P. Grossman, Employment Discrimination Law 1575-1581 (4th ed. 2007) (explaining that a labor union may be held jointly liable with an employer under federal antidiscrimination laws for discriminating in the formation of a collective-bargaining agreement, knowingly acquiescing in the employer\u2019s discrimination, or inducing the employer to discriminate); cf. Goodman v. Lukens Steel Co., 482 U. S. 656, 669 (1987). Union members may also file age-discrimination claims with the EEOC and the National Labor Relations Board, which may then seek judicial intervention under this Court\u2019s precedent. See EEOC v. Waffle House, Inc., 534 U. S. 279, 295-296 (2002). In sum, Congress has provided remedies for the situation where a labor union is less than vigorous in defense of its members\u2019 claims of discrimination under the ADEA.\nIll\nFinally, respondents offer a series of arguments contending that the particular CBA at issue here does not clearly and unmistakably require them to arbitrate their ADEA claims. See Brief for Respondents 44-47. But respondents did not raise these contract-based arguments in the District Court or the Court of Appeals. To the contrary, respondents acknowledged on appeal that the CBA provision requiring arbitration of their federal antidiscrimination statutory claims \u201cis sufficiently explicit\u201d in precluding their federal lawsuit. Brief for Plaintiffs-Appellees in No. 06-3047-cv(L) etc. (CA2), p. 9. In light of respondents\u2019 litigating position, both lower courts assumed that the CBA's arbitration clause clearly applied to respondents and proceeded to decide the question left unresolved in Wright. We granted review of the question presented on that understanding.\n\u201cWithout cross-petitioning for certiorari, a prevailing party may, of course, \u2018defend its judgment on any ground properly raised below whether or not that ground was relied upon, rejected, or even considered by the District Court or the Court of Appeals.\u2019 \u201d Granfinanciera, S. A. v. Nordberg, 492 U. S. 33, 38-39 (1989) (quoting Washington v. Confederated Bands and Tribes of Yakima Nation, 439 U. S. 463, 476, n. 20 (1979)). But this Court will affirm on grounds that have \u201c\u2018not been raised below . . . \u201conly in exceptional cases.\u201d \u2019 \u201d Nordberg, supra, at 39 (quoting Heckler v. Campbell, 461 U. S. 458, 468-469, n. 12 (1983)). This is not an \u201cexceptional case.\u201d As a result, we find that respondents\u2019 alternative arguments for affirmance have been forfeited. See, e. g., Rita v. United States, 551 U. S. 338, 360 (2007); Sprietsma v. Mercury Marine, 537 U. S. 51, 56, n. 4 (2002). We will not resurrect them on respondents\u2019 behalf.\nRespondents also argue that the CBA operates as a substantive waiver of their ADEA rights because it not only precludes a federal lawsuit, but also allows the Union to block arbitration of these claims. Brief for Respondents 28-30. Petitioners contest this characterization of the CBA, see Reply Brief for Petitioners 23-27, and offer record evidence suggesting that the Union has allowed respondents to continue with the arbitration even though the Union has declined to participate, see App. to Pet. for Cert. 42a. But not only does this question require resolution of contested factual allegations, it was not fully briefed to this or any court and is not fairly encompassed within the question presented, see this Court\u2019s Rule 14.1(a). Thus, although a substantive waiver of federally protected civil rights will not be upheld, see Mitsubishi Motors Corp., 473 U. S., at 637, and n. 19; Gilmer, 500 U. S., at 29, we are not positioned to resolve in the first instance whether the CBA allows the Union to prevent respondents from \u201ceffectively vindicating\u201d their \u201cfederal statutory rights in the arbitral forum,\u201d Green Tree Financial Corp.-Ala. v. Randolph, 531 U. S. 79, 90 (2000). Resolution of this question at this juncture would be particularly inappropriate in light of our hesitation to invalidate arbitration agreements on the basis of speculation. See id., at 91.\nIV\nWe hold that a collective-bargaining agreement that clearly and unmistakably requires union members to arbitrate ADEA claims is enforceable as a matter of federal law. The judgment of the Court of Appeals is reversed, and the case is remanded for further proceedings consistent with this opinion.\nIt is so ordered.\nArticle V establishes the grievance process, which applies to all claims regardless of whether they are subject to arbitration under the CBA. Article VI establishes the procedures for arbitration and postarbitration judicial review, and, in particular, provides that the arbitrator \u201cshall... decide all differences arising between the parties as to interpretation, application or performance of any part of this Agreement and such other issues as the parties are expressly required to arbitrate before him under the terms of this Agreement.\u201d App. to Pet. for Cert. 43a-47a.\nRespondents also filed a \u201chybrid\u201d lawsuit against the Union and petitioners under \u00a7301 of the Labor Management Relations Act, 1947, 29 U. S. C. \u00a7 185, see also DelCostello v. Teamsters, 462 U. S. 151, 164-165 (1983), alleging that the Union breached its \u201cduty of fair representation\u201d under the NLRA by withdrawing support for the age-discrimination claims during the arbitration and that petitioners breached the CBA by reassigning respondents. Respondents later voluntarily dismissed this suit with prejudice.\nPetitioners also filed a motion to dismiss the complaint for failure to state a claim. The District Court denied the motion, holding that respondents had sufficiently alleged an ADEA claim by claiming that they \u201cwere over the age of 40,... they were reassigned to positions which led to substantial losses in income, and . . . their replacements were both younger and had less seniority at the building.\u201d App. to Pet. for Cert. 20a (footnote omitted). Petitioners have not appealed that ruling.\nCompare, e. g., Rogers v. New York Univ., 220 F. 3d 73, 75 (CA2 2000) (per curiam); O\u2019Brien v. Agawam, 350 F. 3d 279, 285 (CA1 2003); Mitchell v. Chapman, 343 F. 3d 811, 824 (CA6 2003); Tice v. American Airlines, Inc., 288 F. 3d 313, 317 (CA7 2002), with, e. g., Eastern Associated Coal Corp. v. Massey, 373 F. 3d 530, 533 (CA4 2004).\nJustice Souter claims that this understanding is \u201cimpossible to square with our conclusion in [Alexander v.] Gardner-Denver [Co., 415 U. S. 36 (1974),] that \u2018Title VII... stands on plainly different ground\u2019 from \u2018statutory rights related to collective activity\u2019: \u2018it concerns not majoritarian processes, but an individual\u2019s right to equal employment opportunities.\u2019 \u201d Post, at 282 (dissenting opinion) (quoting Gardner-Denver, supra, at 51). As explained below, however, Justice Souter repeats the key analytical mistake made in Gardner-Denver\u2019s dicta by equating the decision to arbitrate Title VII and ADEA claims to a decision to forgo these substantive guarantees against workplace discrimination. See infra, at 265-267. The right to a judicial forum is not the nonwaivable \u201csubstantive\u201d right protected by the ADEA. See infra, at 259. Thus, although Title VII and ADEA rights may well stand on \u201cdifferent ground\u201d than statutory rights that protect \u201cmajoritarian processes,\u201d Gardner-Denver, supra, at 51, the voluntary decision to collectively bargain for arbitration does not deny those statutory antidiscrimination rights the full protection they are due.\nRespondents\u2019 contention that \u00a7 118 of the Civil Rights Act of 1991, Pub. L. 102-166, 105 Stat. 1081, note following 42 U.S.C. \u00a71981 (2000 ed.), precludes the enforcement of this arbitration agreement also is misplaced. See Brief for Respondents 31-32. Section 118 expresses Congress\u2019 support for alternative dispute resolution: \u201cWhere appropriate and to the extent authorized by law, the use of alternative means of dispute resolution, including ... arbitration, is encouraged to resolve disputes arising under\u201d the ADEA. 105 Stat. 1081, note following 42 U. S C. \u00a7 1981. Respondents argue that the legislative history actually signals Congress\u2019 intent to preclude arbitration waivers in the collective-bargaining context. In particular, respondents point to a House Report that, in spite of the statute\u2019s plain language, interprets \u00a7 118 to support their position. See H. R. Rep. No. 102-40, pt. 1, p. 97 (1991) (\u201c[A]ny agreement to submit disputed issues to arbitration ... in the context of a collective bargaining agreement. . . does not preclude the affected person from seeking relief under the enforcement provisions of Title VII. This view is consistent with the Supreme Court\u2019s interpretation of Title VII in Alexander v. Gardner-Denver Co., 415 U. S. 36 (1974)\u201d). But the legislative history miseharacterizes the holding of Gardner-Denver, which does not prohibit collective bargaining for arbitration of ADEA claims. See infra, at 260-264. Moreover, reading the legislative history in the manner suggested by respondents would create a direct conflict with the statutory text, which encourages the use of arbitration for dispute resolution without imposing any constraints on collective bargaining. In such a contest, the text must prevail. See Ratzlaf v. United States, 510 U. S. 135, 147-148 (1994) (\u201c[W]e do not resort to legislative history to cloud a statutory text that is clear\u201d).\nJustice Souter\u2019s reliance on Wright v. Universal Maritime Service Corp., 525 U. S. 70 (1998), to support its view of Gardner-Denver is misplaced. See post, at 281, 283. Wright identified the \u201ctension\u201d between the two lines of cases represented by Gardner-Denver and Gilmer, but found \u201cit unnecessary to resolve the question of the validity of a union-negotiated waiver, since it [was] apparent... on the facts and arguments presented . . . that no such waiver [had] occurred.\u201d 525 U. S., at 76-77. And although his dissent describes Wrights characterization of Gardner-Denver as \u201craising a \u2018seemingly absolute prohibition of union waiver of employees\u2019 federal forum rights,\u2019 \u201d post, at 283 (quoting Wright, 525 U. S., at 80), it wrenches the statement out of context: \u201cAlthough [the right to a judicial forum] is not a substantive right, see Gilmer, 500 U. S., at 26, and whether or not Gardner-Denver\u2019s, seemingly absolute prohibition of union waiver of employees\u2019 federal forum rights survives Gilmer, Gardner-Denver at least stands for the proposition that the right to a federal judicial forum is of sufficient importance to be protected against less-than-explicit union waiver in a CBA,\u201d id., at 80 (emphasis added). Wright therefore neither endorsed Gardner-Denver\u2019s, broad language nor suggested a particular result in this case.\nBecause today\u2019s decision does not contradict the holding of Gardner-Denver, we need not resolve the stare decisis concerns raised by the dissenting opinions. See post, at 280-281, 285-286 (opinion of Souter, J.); post, at 275-277 (opinion of Stevens, J.). But given the development of this Court\u2019s arbitration jurisprudence in the intervening years, see infra, at 266-269, Gardner-Denver would appear to be a strong candidate for overruling if the dissents\u2019 broad view of its holding, see post, at 282-283 (opinion of Souter, J.), were correct. See Patterson v. McLean Credit Union, 491 U. S. 164, 173 (1989) (explaining that it is appropriate to overrule a decision where there \u201chas been [an] intervening development of the law\u201d such that the earlier \u201cdecision [is] irreconcilable with competing legal doctrines or policies\u201d).\nJustice Stevens suggests that the Court is displacing its \u201cearlier determination of the relevant provisions\u2019 meaning\u201d based on a \u201cpreference for arbitration.\u201d Post, at 275. But his criticism lacks any basis. We are not revisiting a settled issue or disregarding an earlier determination; the Court is simply deciding the question identified in Wright as unresolved. See supra, at 255; see also infra, at 272-273. And, contrary to Justice Stevens\u2019 accusation, it is the Court\u2019s fidelity to the ADEA\u2019s text \u2014 not an alleged preference for arbitration \u2014 that dictates the answer to the question presented. As Gilmer explained, nothing in the text of Title VII or the ADEA precludes contractual arbitration, see supra, at 258, and Justice Stevens has never suggested otherwise. Rather, he has always contended that permitting the \u201ccompulsory arbitration\u201d of employment-discrimination claims conflicts with his perception of \u201cthe congressional purpose animating the ADEA.\u201d Gilmer, 500 U. S., at 41 (Stevens, J., dissenting); see also id., at 42 (\u201cPlainly, it would not comport with the congressional objectives behind a statute seeking to enforce civil rights protected by Title VII to allow the very forces that had practiced discrimination to contract away the right to enforce civil rights in the courts\u201d (internal quotation marks omitted)). The Gilmer Court did not adopt Justice Stevens\u2019 personal view of the purposes underlying the ADEA, for good reason: That view is not embodied within the statute\u2019s text. Accordingly, it is not the statutory text that Justice Stevens has sought to vindicate \u2014 it is instead his own \u201cpreference\u201d for mandatory judicial review, which he disguises as a search for congressional purpose. This Court is not empowered to incorporate such a preference into the text of a federal statute. See infra, at 270. It is for this reason, and not because of a \u201cpolicy favoring arbitration,\u201d see post, at 274, 275 (Stevens, J., dissenting), that the Court overturned Wilko v. Swan, 346 U. S. 427 (1953). And it is why we disavow the antiarbitration dicta of Gardner-Denver and its progeny today.\nMoreover, an arbitrator\u2019s decision as to whether a unionized employee has been discriminated against on the basis of age in violation of the ADEA remains subject to judicial review under the FA A. 9 U. S. C. \u00a7 10(a). \u201c[Although judicial scrutiny of arbitration awards necessarily is limited, such review is sufficient to ensure that arbitrators comply with the requirements of the statute.\u201d Shearson/American Express Inc. v. McMahon, 482 U. S. 220, 232 (1987).",
+        "type": "majority",
+        "author": "Justice Thomas"
+      },
+      {
+        "text": "Justice Stevens,\ndissenting.\nJustice Souter's dissenting opinion, which I join in full, explains why our decision in Alexander v. Gardner-Denver Co., 415 U. S. 36 (1974), answers the question presented in this case. My concern regarding the Court\u2019s subversion of precedent to the poliey favoring arbitration prompts these additional remarks.\nNotwithstanding the absence of change in any relevant statutory provision, the Court has recently retreated from, and in some cases reversed, prior decisions based on its changed view of the merits of arbitration. Previously, the Court approached with caution questions involving a union\u2019s waiver of an employee\u2019s right to raise statutory claims in a federal judicial forum. After searching the text and purposes of Title VII of the Civil Rights Act of 1964, the Court in Gardner-Denver held that a clause of a collective-bargaining agreement (CBA) requiring arbitration of discrimination claims could not waive an employee\u2019s right to a judicial forum for statutory claims. See 415 U. S., at 51. The Court\u2019s decision rested on several features of the statute, including the individual nature of the rights it confers, the broad remedial powers it grants federal courts, and its expressed preference for overlapping remedies. See id., at 44-48. The Court also noted the problem of entrusting a union with certain arbitration decisions given the potential conflict between the collective interest and the interests of an individual employee seeking to assert his rights. See id., at 58, n. 19. That concern later provided a basis for our decisions in Barrentine v. Arkansas-Best Freight System, Inc., 450 U. S. 728, 742 (1981), and McDonald v. West Branch, 466 U. S. 284, 291 (1984), which similarly held that a CBA may not commit enforcement of certain rights-creating statutes exclusively to a union-controlled arbitration process. Congress has taken no action signaling disagreement with those decisions.\nThe statutes construed by the Court in the foregoing cases and in Wilko v. Swan, 346 U. S. 427 (1953), have not since been amended in any relevant respect. But the Court has in a number of cases replaced our predecessors\u2019 statutory analysis with judicial reasoning espousing a policy favoring arbitration and thereby reached divergent results. I dissented in those cases to express concern that my colleagues were making policy choices not made by Congress. See Mitsubishi Motors Corp. v. Soler Chrysler-Plymouth, Inc., 473 U. S. 614, 640 (1985); Rodriguez de Quijas v. Shearson/American Express, Inc., 490 U. S. 477, 486 (1989); Gilmer v. Interstate/Johnson Lane Corp., 500 U. S. 20, 36 (1991); and Circuit City Stores, Inc. v. Adams, 532 U. S. 105, 124 (2001).\nToday the majority\u2019s preference for arbitration again leads it to disregard our precedent. Although it purports to ascertain the relationship between the Age Discrimination in Employment Act of 1967 (ADEA), the National Labor Relations Act, and the Federal Arbitration Act, the Court ignores our earlier determination of the relevant provisions\u2019 meaning. The Court concludes that \u201c[i]t was Congress\u2019 verdict that the benefits of organized labor outweigh the sacrifice of individual liberty\u201d that the system of organized labor \u201cnecessarily demands,\u201d even when the sacrifice demanded is a judicial forum for asserting an individual statutory right. Ante, at 271. But in Gardner-Denver we determined that \u201cCongress\u2019 verdict\u201d was otherwise when we held that Title VII does not permit a CBA to waive an employee\u2019s right to a federal judicial forum. Because the purposes and relevant provisions of Title VII and the ADEA are not meaningfully distinguishable, it is only by reexamining the statutory questions resolved in Gardner-Denver through the lens of the policy favoring arbitration that the majority now reaches a different result.\nUnder the circumstances, I believe a passage from one of my earlier dissents merits repetition. The Court in Rodriguez de Quijos overruled our decision in Wilko and held that predispute agreements to arbitrate claims under the Securities Act of 1933 are enforceable. 490 U. S., at 484; see also id., at 481 (noting Wilko\u2019s reliance on \u201cthe outmoded presumption of disfavoring arbitration proceedings\u201d). I observed in dissent:\n\u201cIn the final analysis, a Justice\u2019s vote in a case like this depends more on his or her views about the respective lawmaking responsibilities of Congress and this Court than on conflicting policy interests. Judges who have confidence in their own ability to fashion public policy are less hesitant to change the law than those of us who are inclined to give wide latitude to the views of the voters\u2019 representatives on noneonstitutional matters. Cf. Boyle v. United Technologies Corp., 487 U. S. 500 (1988). As I pointed out years ago, Alberto-Culver Co. v. Scherk, 484 F. 2d 611, 615-620 (CA7 1973) (dissenting opinion), rev\u2019d, 417 U. S. 506 (1974), there are valid policy and textual arguments on both sides regarding the interrelation of federal securities and arbitration Acts. None of these arguments, however, carries sufficient weight to tip the balance between judicial and legislative authority and overturn an interpretation of an Act of Congress that has been settled for many years.\u201d Rodriguez de Quijas, 490 U. S., at 487 (footnote and citation omitted).\nAs was true in Rodriguez de Quijas, there are competing arguments in this case regarding the interaction of the relevant statutory provisions. But the Court in Gardner-Denver considered these arguments, including \u201cthe federal policy favoring arbitration of labor disputes,\u201d 415 U. S., at 59, and held that Congress did not intend to permit the result petitioners seek. In the absence of an intervening amendment to the relevant statutory language, we are bound by that decision. It is for Congress, rather than this Court, to reassess the policy arguments favoring arbitration and revise the relevant provisions to reflect its views.\nJustice Souter, with whom Justice Stevens, Justice Ginsburg, and Justice Breyer join, dissenting.\nThe issue here is whether employees subject to a collective-bargaining agreement (CBA) providing for conclusive arbitration of all grievances, including claimed breaches of the Age Discrimination in Employment Act of 1967 (ADEA), 29 U. S. C. \u00a7 621 et seq., lose their statutory right to bring an ADE A claim in court, \u00a7 626(e). Under the 35-year-old holding in Alexander v. Gardner-Denver Co., 415 U. S. 36 (1974), they do not, and I would adhere to stare decisis and so hold today.\nI\nLike Title VII of the Civil Rights Act of 1964, 42 U. S. C. \u00a720Q0e et seq., the ADEA is aimed at \u201c 'the elimination of discrimination in the workplace,\u2019 \u201d McKennon v. Nashville Banner Publishing Co., 513 U. S. 352, 358 (1995) (quoting Oscar Mayer & Co. v. Evans, 441 U. S. 750, 756 (1979)), and, again like Title VII, the ADEA \u201ccontains a vital element...: It grants an injured employee a right of action to obtain the authorized relief,\u201d 513 U. S., at 358. \u201cAny person aggrieved\u201d under the ADEA \u201cmay bring a civil action in any court of competent jurisdiction for such legal or equitable relief,\u201d 29 U. S. C. \u00a7 626(c), thereby \u201cnot only redressing] his own injury but also vindicating] the important congressional policy against discriminatory employment practices,\u201d Gardner-Denver, supra, at 45.\nGardner-Denver considered the effect of a CBA\u2019s arbitration clause on an employee\u2019s right to sue under Title VII. One of the employer\u2019s arguments was that the CBA entered into by the union had waived individual employees\u2019 statutory cause of action subject to a judicial remedy for discrimination in violation of Title VII. Although Title VII, like the ADEA, \u201cdoes not speak expressly to the relationship between federal courts and the grievance-arbitration machinery of collective-bargaining agreements,\u201d 415 U. S., at 47, we unanimously held that \u201cthe rights conferred\u201d by Title VII (with no exception for the right to a judicial forum) cannot be waived as \u201cpart of the collective bargaining process,\u201d id., at 51. We stressed the contrast between two categories of rights in labor and employment law. There were \u201cstatutory rights related to collective activity,\u201d which \u201care conferred on employees collectively to foster the processes of bargaining^ which] properly may be exercised or relinquished by the union as collective-bargaining agent to obtain economic benefits for union members.\u201d Ibid. But \u201cTitle VII . . . stands on plainly different [categorical] ground; it concerns not majoritarian processes, but an individual\u2019s right to equal employment opportunities.\u201d Ibid. Thus, as the Court previously realized, Gardner-Denver imposed a \u201cseemingly absolute prohibition of union waiver of employees\u2019 federal forum rights.\u201d Wright v. Universal Maritime Service Corp., 525 U. S. 70, 80 (1998).\nWe supported the judgment with several other lines of complementary reasoning. First, we explained that anti-discrimination statutes \u201chave long evinced a general intent to accord parallel or overlapping remedies against discrimination,\u201d and Title VII\u2019s statutory scheme carried \u201cno suggestion ... that a prior arbitral decision either forecloses an individual\u2019s right to sue or divests federal courts of jurisdiction.\u201d Gardner-Denver, 415 U. S., at 47. We accordingly concluded that \u201can individual does not forfeit his private cause of action if he first pursues his grievance to final arbitration under the nondiscrimination clause of a collective-bargaining agreement.\u201d Id., at 49.\nSecond, we rejected the District Court\u2019s view that simply participating in the arbitration amounted to electing the arbitration remedy and waiving the plaintiff\u2019s right to sue. We said that the arbitration agreement at issue covered only a contractual right under the CBA to be free from discrimination, not the \u201cindependent statutory rights accorded by Congress\u201d in Title VII. Id., at 49-50. Third, we rebuffed the employer\u2019s argument that federal courts should defer to arbitral rulings. We declined to make the \u201cassumption that arbitral processes are commensurate with judicial processes,\u201d id., at 56, and described arbitration as \u201ca less appropriate forum for final resolution of Title VII issues than the federal courts,\u201d id., at 58.\nFinally, we took note that \u201c[i]n arbitration, as in the collective-bargaining process, the interests of the individual employee may be subordinated to the collective interests of all employees in the bargaining unit,\u201d ibid., n. 19, a result we deemed unacceptable when it came to Title VII claims. In sum, Gardner-Denver held that an individual\u2019s statutory right of freedom from discrimination and access to court for enforcement were beyond a union\u2019s power to waive.\nOur analysis of Title VII in Gardner-Denver is just as pertinent to the ADEA in this case. The \u201cinterpretation of Title VII . . . applies with equal force in the context of age discrimination, for the substantive provisions of the ADEA \u2018were derived in haec verba from Title VII,\u2019\u201d and indeed neither petitioners nor the Court points to any relevant distinction between the two statutes. Trans World Airlines, Inc. v. Thurston, 469 U. S. 111, 121 (1985) (quoting Lorillard v. Pons, 434 U. S. 575, 584 (1978)); see also McKennon, 513 U. S., at 358 (\u201cThe ADEA and Title VII share common substantive features and also a common purpose\u201d). Given the unquestionable applicability of the Gardner-Denver rule to this ADEA issue, the argument that its precedent be followed in this case of statutory interpretation is equally unquestionable. \u201cPrinciples of stare decisis ... demand respect for precedent whether judicial methods of interpretation change or stay the same. Were that not so, those principles would fail to achieve the legal stability that they seek and upon which the rule of law depends.\u201d CBOCS West, Inc. v. Humphries, 553 U. S. 442, 457 (2008). And \u201c[considerations of stare decisis have special force\u201d over an issue of statutory interpretation, which is unlike constitutional interpretation owing to the capacity of Congress to alter any reading we adopt simply by amending the statute. Patterson v. McLean Credit Union, 491 U. S. 164, 172-173 (1989). Once we have construed a statute, stability is the rule, and \u201cwe will not depart from [it] without some compelling justification.\u201d Hilton v. South Carolina Public Railways Comm\u2019n, 502 U. S. 197, 202 (1991). There is no argument for abandoning precedent here, and Gardner-Denver controls.\nII\nThe majority evades the precedent of Gardner-Denver as long as it can simply by ignoring it. The Court never mentions the case before concluding that the ADEA and the National Labor Relations Act, 29 U. S. C. \u00a7 151 et seq., \u201cyiel[d] a straightforward answer to the question presented,\u201d ante, at 260, that is, that unions can bargain away individual rights to a federal forum for antidiscrimination claims. If this were a case of first impression, it would at least be possible to consider that conclusion, but the issue is settled and the time is too late by 35 years to make the bald assertion that \u201c[njothing in the law suggests a distinction between the status of arbitration agreements signed by an individual employee and those agreed to by a union representative,\u201d ante, at 258. In fact, we recently and unanimously said that the principle that \u201cfederal forum rights cannot be waived in union-negotiated CBAs even if they can be waived in individually executed contracts . . . assuredly finds support in\u201d our case law, Wright, supra, at 77, and every Court of Appeals save one has read our decisions as holding to this position, Air Line Pilots Assn., Int\u2019l v. Northwest Airlines, Inc., 199 F. 3d 477, 484 (CADC 1999) (\u201cWe see a clear rule of law emerging from Gardner-Denver and Gilmer [v. Interstate/Johnson Lane Corp., 500 U. S. 20 (1991)]: ... an individual may prospectively waive his own statutory right to a judicial forum, but his union may not prospectively waive that right for him. All of the circuits to have considered the meaning of Gardner-Denver after Gilmer, other than the Fourth, are in accord with this view\u201d).\nEqually at odds with existing law is the majority\u2019s statement that \u201c[t]he decision to fashion a [CBA] to require arbitration of employment-discrimination claims is no different from the many other decisions made by parties in designing grievance machinery.\u201d Ante, at 256. That is simply impossible to square with our conclusion in Gardner-Denver that \u201cTitle VII... stands on plainly different ground\u201d from \u201cstatutory rights related to collective activity\u201d: \u201cit concerns not majoritarian processes, but an individual\u2019s right to equal employment opportunities.\u201d 415 U. S., at 51; see also Atchison, T. & S. F. R. Co. v. Buell, 480 U. S. 557, 565 (1987) (\u201c[Notwithstanding the strong policies encouraging arbitration, \u2018different considerations apply where the employee\u2019s claim is based on rights arising out of a statute designed to provide minimum substantive guarantees to individual workers\u2019\u201d (quoting Barrentine v. Arkansas-Best Freight System, Inc., 450 U. S. 728, 737 (1981))).\nWhen the majority does speak to Gardner-Denver, it misreads the case in claiming that it turned solely \u201con the narrow ground that the arbitration was not preclusive because the collective-bargaining agreement did not cover statutory claims.\u201d Ante, at 262. That, however, was merely one of several reasons given in support of the decision, see Gardner-Denver, 415 U. S., at 47-59, and we raised it to explain why the District Court made a mistake in thinking that the employee lost his Title VII rights by electing to pursue the contractual arbitration remedy, see id., at 49-50. One need only read Gardner-Denver itself to know that it was not at all so narrowly reasoned, and we have noted already how later cases have made this abundantly clear. Barrentine, sUpra, at 737, provides further testimony: rights arising out of a statute designed to provide minimum substantive guarantees to individual workers.\n\u201cNot all disputes between an employee and his employer are suited for binding resolution in accordance with the procedures established by collective bargaining. While courts should defer to an arbitral decision where the employee\u2019s claim is based on rights arising out of the collective-bargaining agreement, different considerations apply where the employee\u2019s claim is based on\n\u201cThese considerations were the basis for our decision in [Gardner-Denver].\u201d\nSee also Gilmer v. Interstate/Johnson Lane Corp., 500 U. S. 20, 35 (1991) (\u201cAn important concern\u201d in Gardner-Denver \u201cwas the tension between collective representation and individual statutory rights ... \u201d). Indeed, if the Court can read Gardner-Denver as resting on nothing more than a contractual failure to reach as far as statutory claims, it must think the Court has been wreaking havoc on the truth for years, since (as noted) we have unanimously described the case as raising a \u201cseemingly absolute prohibition of union waiver of employees\u2019 federal forum rights.\u201d Wright, 525 U. S., at 80. Human ingenuity is not equal to the task of reconciling statements like this with the majority\u2019s representation that Gardner-Denver held only that \u201cthe arbitration was not preclusive because the collective-bargaining agreement did not cover statutory claims.\u201d Ante, at 262.\nNor, finally, does the majority have any better chance of being rid of another of Gardner-Denver\u2019s statements supporting its rule of decision, set out and repeated in previous quotations: \u201cin arbitration, as in the collective-bargaining process, a union may subordinate the interests of an individual employee to the collective interests of all employees in the bargaining unit,\u201d ante, at 269 (citing 415 U. S., at 58, n. 19), an unacceptable result when it comes to \u201can individual\u2019s right to equal employment opportunities,\u201d id., at 51. The majority tries to diminish this reasoning, and the previously stated holding it supported, by making the remarkable rejoinder that \u201c[w]e cannot rely on this judicial policy concern as a source of authority for introducing a qualification into the ADEA that is not found in its text.\u201d Ante, at 270. It is enough to recall that respondents are not seeking to \u201cintroduc[e] a qualification into\u201d the law; they are justifiably relying on statutory-interpretation precedent decades old, never overruled, and serially reaffirmed over the years. See, e. g., McDonald v. West Branch, 466 U. S. 284, 291 (1984); Barrentine, 450 U. S., at 742. With that precedent on the books, it makes no sense for the majority to claim that \u201cjudicial policy concern[s]\u201d about unions sacrificing individual antidiscrimination rights should be left to Congress.\nFor that matter, Congress has unsurprisingly understood Gardner-Denver the way we have repeatedly explained it and has operated on the assumption that a CBA cannot waive employees\u2019 rights to a judicial forum to enforce antidiscrimination statutes. See, e. g., H. R. Rep. No. 102-40, pt. 1, p. 97 (1991) (stating that, \u201cconsistent with the Supreme Court\u2019s interpretation of Title VII in [Gardner-Denver],\u201d \u201cany agreement to submit disputed issues to arbitration ... in the context of a collective bargaining agreement . . . does not preclude the affected person from seeking relief under the enforcement provisions of Title VII\u201d). And Congress apparently does not share the Court\u2019s demotion of Gardner-Denver\u2019s holding to a suspect judicial policy concern: \u201cCongress has had [over] 30 years in which it could have corrected our decision ... if it disagreed with it, and has not chosen to do so. We should accord weight to this continued acceptance of our earlier holding.\u201d Hilton, 502 U. S., at 202; see also Patterson, 491 U. S., at 172-173.\nIll\nOn one level, the majority opinion may have little effect, for it explicitly reserves the question whether a CBA\u2019s waiver of a judicial forum is enforceable when the union controls access to and presentation of employees\u2019 claims in arbitration, ante, at 273-274, which \u201cis usually the case,\u201d McDonald, supra, at 291. But as a treatment of precedent in statutory interpretation, the majority\u2019s opinion cannot be reconciled with the Gardner-Denver Court\u2019s own view of its holding, repeated over the years and generally understood, and I respectfully dissent.\nReferring to the potential conflict between individual and collective interests, the Court asserts that it \u201ccannot rely on this judicial policy concern as a source of authority for introducing a qualification into the ADEA that is not found in its text.\u201d Ante, at 270. That potential conflict of interests, however, was a basis for our decision in several pertinent cases, including Alexander v. Gardner-Denver Co., 415 U. S. 36 (1974), and Gilmer v. Interstate/Johnson Lane Corp., 500 U. S. 20, 35 (1991), and in the intervening years Congress has not seen fit to correct that interpretation. The Court\u2019s derision of that \u201cpolicy concern\u201d is particularly disingenuous given its subversion of Gardner-Denver\u2019s holding in the service of an ex-tratextual policy favoring arbitration.\nGardner-Denver also contained some language seemingly prohibiting even individual prospective waiver of federal forum rights, see 415 U. S., at 51-52, an issue revisited in Gilmer v. Interstate/Johnson Lane Corp., 500 U. S. 20 (1991), and not disputed here.\nThe majority seems inexplicably to think that the statutory right to a federal forum is not a right, or that Gardner-Denver failed to recognize it because it is not \u201csubstantive.\u201d Ante, at 256-257, n. 5. But Gardner-Denver forbade union waiver of employees\u2019 federal forum rights in large part because of the importance of such rights and a fear that unions would too easily give them up to benefit the many at the expense of the few, a far less salient concern when only economic interests are at stake. See, e. g., Barrentine v. Arkansas-Best Freight System, Inc., 450 U. S. 728, 737 (1981).\nThere is no comfort for the Court in making the one point on which we are in accord, that Gardner-Denver relied in part on what the majority describes as \u201cbroad dicta that was highly critical of the use of arbitration for the vindication of statutory antidiscrimination rights.\u201d Ante, at 265. I agree that Gardner-Denver\u2019s \u201c\u2018mistrust of the arbitral process\u2019... has been undermined by our recent arbitration decisions,\u201d Gilmer, 500 U. S., at 34, n. 5 (quoting Shearson/American Express Inc. v. McMahon, 482 U. S. 220, 231 (1987)), but if the statements are \u201cdicta,\u201d their obsolescence is as irrelevant to Gardner-Denver\u2019s continued vitality as their currency was to the case\u2019s holding when it came down; in Gardner-Denver itself we acknowledged \u201cthe federal policy favoring arbitration,\u201d 415 U. S., at 46, n. 6, but nonetheless held that a union could not waive its members\u2019 statutory right to a federal forum in a CBA.\nThe majority says it would be \u201cparticularly inappropriate\u201d to consider Gardner-Denver\u2019s conflict-of-interest rationale because \u201cCongress has made available\u201d another \u201cavenue\u201d to protect workers against union discrimination, namely, a duty of fair representation claim. Ante, at 272. This answer misunderstands the law, for unions may decline for a variety of reasons to pursue potentially meritorious discrimination claims without succumbing to a member\u2019s suit for failure of fair representation. See, e. g., Barrentine, 450 U. S., at 742 (\u201c[E]ven if the employee\u2019s claim were meritorious, his union might, without breaching its duty of fair representation, reasonably and in good faith decide not to support the claim vigorously in arbitration\u201d). More importantly, we have rejected precisely this argument in the past, making this yet another occasion where the majority ignores precedent. See, e. g., ibid.; Gardner-Denver, supra, at 58, n. 19 (noting that a duty of fair representation claim would often \u201cprove difficult to establish\u201d). And we were wise to reject it. When the Court construes statutes to allow a union to eliminate a statutory right to sue in favor of arbitration in which the union cannot represent the employee because it agreed to the employer\u2019s challenged action, it is not very consoling to add that the employee can sue the union for being unfair.",
+        "type": "dissent",
+        "author": "Justice Stevens,"
+      }
+    ],
+    "attorneys": [
+      "Paul Salvatore argued the cause for petitioners. With him on the briefs were Edward A. Brill, Charles S. Sims, Mark D. Harris, Brian S. Rauch, lan C. Schaefer, James F. Berg, and Howard Rothschild.",
+      "David C. Frederick argued the cause for respondents. With him on the brief were Jeffrey L. Kreisberg, Michael F. Sturley, and Lynn E. Blais.",
+      "Curtis E. Gannon argued the cause for the United States as amicus curiae urging affirmance. With him on the brief were former Solicitor General Garre, Acting Assistant Attorney General Becker, Dennis J. Dimsey, Ronald S. Cooper, and Lorraine C. Davis"
+    ],
+    "corrections": "",
+    "head_matter": "14 PENN PLAZA LLC et al. v. PYETT et al.\nNo. 07-581.\nArgued December 1, 2008\nDecided April 1, 2009\nPaul Salvatore argued the cause for petitioners. With him on the briefs were Edward A. Brill, Charles S. Sims, Mark D. Harris, Brian S. Rauch, lan C. Schaefer, James F. Berg, and Howard Rothschild.\nDavid C. Frederick argued the cause for respondents. With him on the brief were Jeffrey L. Kreisberg, Michael F. Sturley, and Lynn E. Blais.\nCurtis E. Gannon argued the cause for the United States as amicus curiae urging affirmance. With him on the brief were former Solicitor General Garre, Acting Assistant Attorney General Becker, Dennis J. Dimsey, Ronald S. Cooper, and Lorraine C. Davis\nBriefs of amici curiae urging reversal were filed for the Chamber of Commerce of the United States of America by Samuel Estreicher and Robin S. Conrad; and for the Equal Employment Advisory Council by Rae T. Vann.\nBriefs of amici curia;e urging affirmance were filed for the American Federation of Labor and Congress of Industrial Organizations et al. by Jonathan P. Hiatt, James B. Coppess, and Laurence Gold; for the Lawyers\u2019 Committee for Civil Rights Under Law et al. by Matthew D. Slater, Michael Byars, Andrew Weaver, and Michael Foreman; for the National Employment Lawyers Association et al. by Kathleen Phair Barnard, Jeffrey L. Needle, Laurie A. McCann, and Deborah Zuckerman; for the National Right to Work Legal Defense Foundation, Inc., by Raymond J. La Jeunesse, Jr.; and for the Service Employees International Union, Local 32BJ, by Larry Engelstein.\nMatthew W. Finkin, Barry Winograd, and James Oldham filed a brief for the National Academy of Arbitrators as amicus curiae."
+  },
+  "file_name": "0247-01",
+  "first_page_order": 347,
+  "last_page_order": 386
+}

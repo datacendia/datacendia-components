@@ -1,0 +1,1860 @@
+{
+  "id": 3884163,
+  "name": "THE PEOPLE, Plaintiff and Respondent, v. PAUL GREGORY WATSON, Defendant and Appellant",
+  "name_abbreviation": "People v. Watson",
+  "decision_date": "2008-05-08",
+  "docket_number": "No. S024471",
+  "first_page": "652",
+  "last_page": "705",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "43 Cal. 4th 652"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal.",
+    "id": 9021,
+    "name": "Supreme Court of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "31 Cal.Rptr.3d 160",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Cal.4th 595",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3122362
+      ],
+      "pin_cites": [
+        {
+          "page": "641"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/36/0595-01"
+      ]
+    },
+    {
+      "cite": "126 P.3d 981",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2005,
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 Cal.Rptr.3d 149",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2005,
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Cal.4th 839",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3771776
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "913"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/37/0839-01"
+      ]
+    },
+    {
+      "cite": "37 Cal.4th 1067",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3772164
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "1165"
+        },
+        {
+          "page": "1106"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/37/1067-01"
+      ]
+    },
+    {
+      "cite": "137 P.3d 229",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "45 Cal.Rptr.3d 407",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal.4th 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3582872
+      ],
+      "pin_cites": [
+        {
+          "page": "43-44"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/39/0001-01"
+      ]
+    },
+    {
+      "cite": "906 P.2d 2",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "47 Cal.Rptr.2d 165",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "11 Cal.4th 694",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1960658
+      ],
+      "pin_cites": [
+        {
+          "page": "781"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/11/0694-01"
+      ]
+    },
+    {
+      "cite": "133 P.3d 534",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.Rptr.3d 621",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 Cal.4th 344",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3852869
+      ],
+      "pin_cites": [
+        {
+          "page": "409"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/38/0344-01"
+      ]
+    },
+    {
+      "cite": "132 P.3d 235",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.Rptr.3d 30",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 Cal.4th 302",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3853002
+      ],
+      "pin_cites": [
+        {
+          "page": "319"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/38/0302-01"
+      ]
+    },
+    {
+      "cite": "123 P.3d 614",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Cal.Rptr.3d 340",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Cal.4th 547",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3772115
+      ],
+      "pin_cites": [
+        {
+          "page": "590"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/37/0547-01"
+      ]
+    },
+    {
+      "cite": "22 P.3d 347",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "106 Cal.Rptr.2d 575",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Cal.4th 543",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        265431
+      ],
+      "pin_cites": [
+        {
+          "page": "584"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/25/0543-01"
+      ]
+    },
+    {
+      "cite": "33 P.3d 450",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "113 Cal.Rptr.2d 27",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 Cal.4th 1100",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        456791
+      ],
+      "pin_cites": [
+        {
+          "page": "1138"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/26/1100-01"
+      ]
+    },
+    {
+      "cite": "937 P.2d 213",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Cal.Rptr.2d 782",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 Cal.4th 619",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1006055
+      ],
+      "pin_cites": [
+        {
+          "page": "687-689"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/15/0619-01"
+      ]
+    },
+    {
+      "cite": "938 P.2d 2",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "64 Cal.Rptr.2d 400",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "15 Cal.4th 795",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1006002
+      ],
+      "pin_cites": [
+        {
+          "page": "852-853"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/15/0795-01"
+      ]
+    },
+    {
+      "cite": "70 P.3d 981",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "135 Cal.Rptr.2d 553",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal.4th 1166",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        269727
+      ],
+      "pin_cites": [
+        {
+          "page": "1226-1227"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/30/1166-01"
+      ]
+    },
+    {
+      "cite": "88 P.3d 498",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "12 Cal.Rptr.3d 592",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Cal.4th 1107",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        801074
+      ],
+      "pin_cites": [
+        {
+          "page": "1135"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/32/1107-01"
+      ]
+    },
+    {
+      "cite": "966 P.2d 442",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "79 Cal.Rptr.2d 408",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 Cal.4th 353",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1709345
+      ],
+      "pin_cites": [
+        {
+          "page": "455-456"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/19/0353-01"
+      ]
+    },
+    {
+      "cite": "905 P.2d 420",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.Rptr.2d 751",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "11 Cal.4th 475",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1960680
+      ],
+      "pin_cites": [
+        {
+          "page": "559-561"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/11/0475-01"
+      ]
+    },
+    {
+      "cite": "124 P.3d 363",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Cal.Rptr.3d 760",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Cal.4th 592",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3772147
+      ],
+      "pin_cites": [
+        {
+          "page": "653-654"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/37/0592-01"
+      ]
+    },
+    {
+      "cite": "21 P.3d 1225",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "106 Cal.Rptr.2d 313",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Cal.4th 466",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        265409
+      ],
+      "pin_cites": [
+        {
+          "page": "476"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/25/0466-01"
+      ]
+    },
+    {
+      "cite": "386 U.S. 18",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6168882
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "24"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/386/0018-01"
+      ]
+    },
+    {
+      "cite": "135 P.3d 649",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1967,
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.Rptr.3d 237",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1967,
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 Cal.4th 932",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3853474
+      ],
+      "year": 1967,
+      "pin_cites": [
+        {
+          "page": "961"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/38/0932-01"
+      ]
+    },
+    {
+      "cite": "978 P.2d 1171",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "86 Cal.Rptr.2d 243",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 Cal.4th 936",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        829715
+      ],
+      "pin_cites": [
+        {
+          "page": "995"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/20/0936-01"
+      ]
+    },
+    {
+      "cite": "476 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12814
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "4"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/476/0001-01"
+      ]
+    },
+    {
+      "cite": "68 P.3d 302",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "134 Cal.Rptr.2d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal.4th 581",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        269740
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "627"
+        },
+        {
+          "page": "642"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/30/0581-01"
+      ]
+    },
+    {
+      "cite": "549 P.2d 1240",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "130 Cal.Rptr. 144",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "17 Cal.3d 24",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2292819
+      ],
+      "pin_cites": [
+        {
+          "page": "39"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/17/0024-01"
+      ]
+    },
+    {
+      "cite": "68 P.3d 1190",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "134 Cal.Rptr.2d 223",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal.4th 705",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        269724
+      ],
+      "pin_cites": [
+        {
+          "page": "713"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/30/0705-01"
+      ]
+    },
+    {
+      "cite": "57 Cal.Rptr.2d 214",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "49 Cal.App.4th 1096",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        4681581
+      ],
+      "pin_cites": [
+        {
+          "page": "1106, fn. 10"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/49/1096-01"
+      ]
+    },
+    {
+      "cite": "927 P.2d 288",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "59 Cal.Rptr.2d 178",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "14 Cal.4th 544",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        341404
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/14/0544-01"
+      ]
+    },
+    {
+      "cite": "250 Cal.Rptr. 836",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1996,
+      "opinion_index": 0
+    },
+    {
+      "cite": "203 Cal.App.3d 1468",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2380102
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "1472-1473"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/203/1468-01"
+      ]
+    },
+    {
+      "cite": "802 P.2d 169",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "276 Cal.Rptr. 679",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "52 Cal.3d 115",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2375410
+      ],
+      "pin_cites": [
+        {
+          "page": "170"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/52/0115-01"
+      ]
+    },
+    {
+      "cite": "672 P.2d 110",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1990,
+      "opinion_index": 0
+    },
+    {
+      "cite": "196 Cal.Rptr. 704",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1990,
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.3d 24",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4472355
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "36-37"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/35/0024-01"
+      ]
+    },
+    {
+      "cite": "48 P.3d 1107",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "121 Cal.Rptr.2d 546",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.4th 313",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        947687
+      ],
+      "pin_cites": [
+        {
+          "page": "323-324"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/28/0313-01"
+      ]
+    },
+    {
+      "cite": "112 Cal.Rptr. 321",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Cal.App.3d 349",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4466467
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/37/0349-01"
+      ]
+    },
+    {
+      "cite": "118 P.3d 496",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 Cal.Rptr.3d 451",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Cal.4th 168",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3772262
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "235"
+        },
+        {
+          "page": "235"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/37/0168-01"
+      ]
+    },
+    {
+      "cite": "208 Cal.Rptr. 635",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "162 Cal.App.3d 454",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        2167463
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/162/0454-01"
+      ]
+    },
+    {
+      "cite": "299 P.2d 243",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.2d 818",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        4370142
+      ],
+      "pin_cites": [
+        {
+          "page": "836"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/46/0818-01"
+      ]
+    },
+    {
+      "cite": "122 P.3d 765",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1956,
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.Rptr.3d 644",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1956,
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Cal.4th 428",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3771953
+      ],
+      "year": 1956,
+      "pin_cites": [
+        {
+          "page": "439"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/37/0428-01"
+      ]
+    },
+    {
+      "cite": "841 P.2d 938",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "14 Cal.Rptr.2d 418",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "4 Cal.4th 284",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        2001629
+      ],
+      "pin_cites": [
+        {
+          "page": "291"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/4/0284-01"
+      ]
+    },
+    {
+      "cite": "112 P.2d 979",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "44 Cal.App.2d 723",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        4560928
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/44/0723-01"
+      ]
+    },
+    {
+      "cite": "409 P.2d 222",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1941,
+      "opinion_index": 0
+    },
+    {
+      "cite": "48 Cal.Rptr. 382",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "year": 1941,
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Cal.2d 779",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        2335688
+      ],
+      "year": 1941,
+      "pin_cites": [
+        {
+          "page": "790"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/63/0779-01"
+      ]
+    },
+    {
+      "cite": "821 P.2d 610",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "3 Cal.Rptr.2d 106",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "1 Cal.4th 324",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1201305
+      ],
+      "pin_cites": [
+        {
+          "page": "441"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/1/0324-01"
+      ]
+    },
+    {
+      "cite": "95 P.3d 811",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 1991,
+      "opinion_index": 0
+    },
+    {
+      "cite": "17 Cal.Rptr.3d 532",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1991,
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 Cal.4th 1158",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        493342
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "1199"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/33/1158-01"
+      ]
+    },
+    {
+      "cite": "108 P.3d 182",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "26 Cal.Rptr.3d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.4th 514",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        873219
+      ],
+      "pin_cites": [
+        {
+          "page": "545"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/35/0514-01"
+      ]
+    },
+    {
+      "cite": "51 P.3d 224",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "123 Cal.Rptr.2d 345",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.4th 557",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        947634
+      ],
+      "pin_cites": [
+        {
+          "page": "624"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/28/0557-01"
+      ]
+    },
+    {
+      "cite": "885 P.2d 887",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Cal.Rptr.2d 474",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "9 Cal.4th 83",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1989379
+      ],
+      "pin_cites": [
+        {
+          "page": "134"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/9/0083-01"
+      ]
+    },
+    {
+      "cite": "907 P.2d 373",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "48 Cal.Rptr.2d 525",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "12 Cal.4th 415",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1957541
+      ],
+      "pin_cites": [
+        {
+          "page": "449"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/12/0415-01"
+      ]
+    },
+    {
+      "cite": "139 P.3d 64",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "46 Cal.Rptr.3d 677",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "39 Cal.4th 398",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3583313
+      ],
+      "pin_cites": [
+        {
+          "page": "454"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/39/0398-01"
+      ]
+    },
+    {
+      "cite": "51 P.3d 874",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "123 Cal.Rptr.2d 654",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.4th 946",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        947619
+      ],
+      "pin_cites": [
+        {
+          "page": "971"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/28/0946-01"
+      ]
+    },
+    {
+      "cite": "62 P.3d 1",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "129 Cal.Rptr.2d 747",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "29 Cal.4th 833",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        777243
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "864"
+        },
+        {
+          "page": "878"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/29/0833-01"
+      ]
+    },
+    {
+      "cite": "5 P.3d 130",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "99 Cal.Rptr.2d 69",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "23 Cal.4th 1153",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        277038
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "1186, fn. 6"
+        },
+        {
+          "page": "1216"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/23/1153-01"
+      ]
+    },
+    {
+      "cite": "878 P.2d 521",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Cal.Rptr.2d 762",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "8 Cal.4th 137",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1985972
+      ],
+      "pin_cites": [
+        {
+          "page": "165"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/8/0137-01"
+      ]
+    },
+    {
+      "cite": "74 P.3d 852",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "3 Cal.Rptr.3d 769",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Cal.4th 903",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        18553
+      ],
+      "pin_cites": [
+        {
+          "page": "919"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/31/0903-01"
+      ]
+    },
+    {
+      "cite": "170 L.Ed.2d 175",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "case_ids": [
+        3675742
+      ],
+      "weight": 2,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/552/0472-01"
+      ]
+    },
+    {
+      "cite": "117 P.3d 622",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2008,
+      "opinion_index": 0
+    },
+    {
+      "cite": "33 Cal.Rptr.3d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2008,
+      "opinion_index": 0
+    },
+    {
+      "cite": "37 Cal.4th 50",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3772007
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "66-67"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/37/0050-01"
+      ]
+    },
+    {
+      "cite": "545 U.S. 162",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8208918
+      ],
+      "weight": 5,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/545/0162-01"
+      ]
+    },
+    {
+      "cite": "476 U.S. 79",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12787
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "86"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/476/0079-01"
+      ]
+    },
+    {
+      "cite": "583 P.2d 748",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "148 Cal.Rptr. 890",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "22 Cal.3d 258",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2282118
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/22/0258-01"
+      ]
+    },
+    {
+      "cite": "384 U.S. 436",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12046400
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/384/0436-01"
+      ]
+    },
+    {
+      "cite": "133 P.3d 581",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.Rptr.3d 677",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "38 Cal.4th 412",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3853194
+      ],
+      "pin_cites": [
+        {
+          "page": "441"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/38/0412-01"
+      ]
+    },
+    {
+      "cite": "129 P.3d 321",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "40 Cal.Rptr.3d 118",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "616 P.2d 1301",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "168 Cal.Rptr. 128",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.3d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2259812
+      ],
+      "pin_cites": [
+        {
+          "page": "80"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/28/0001-01"
+      ]
+    },
+    {
+      "cite": "25 P.3d 519",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "108 Cal.Rptr.2d 291",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "25 Cal.4th 926",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        265422
+      ],
+      "pin_cites": [
+        {
+          "page": "1041"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/25/0926-01"
+      ]
+    },
+    {
+      "cite": "49 P.3d 1032",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "122 Cal.Rptr.2d 285",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.4th 486",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        947649
+      ],
+      "pin_cites": [
+        {
+          "page": "541-542"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/28/0486-01"
+      ]
+    },
+    {
+      "cite": "115 P.3d 1145",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Cal.Rptr.3d 485",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Cal.4th 686",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3122915
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "754"
+        },
+        {
+          "page": "754-755"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/36/0686-01"
+      ]
+    },
+    {
+      "cite": "536 U.S. 584",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1254507
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/536/0584-01"
+      ]
+    },
+    {
+      "cite": "530 U.S. 466",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9413911
+      ],
+      "weight": 3,
+      "year": 2002,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/530/0466-01"
+      ]
+    },
+    {
+      "cite": "101 P.3d 568",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "year": 2000,
+      "opinion_index": 0
+    },
+    {
+      "cite": "21 Cal.Rptr.3d 682",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 2000,
+      "opinion_index": 0
+    },
+    {
+      "cite": "34 Cal.4th 698",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        633004
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "731"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/34/0698-01"
+      ]
+    },
+    {
+      "cite": "65 P.3d 749",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "132 Cal.Rptr.2d 271",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal.4th 43",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        269732
+      ],
+      "pin_cites": [
+        {
+          "page": "126"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/30/0043-01"
+      ]
+    },
+    {
+      "cite": "115 P.3d 472",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 3240,
+    "char_count": 123457,
+    "ocr_confidence": 0.929,
+    "pagerank": {
+      "raw": 1.4409345754596433e-07,
+      "percentile": 0.6531075749976157
+    },
+    "sha256": "6b0f81b297d5f5ed70f4799ab5ff5bd2f1e9065d2d4fd2e0d3aaaba308b329fe",
+    "simhash": "1:8368806637479dd8",
+    "word_count": 19900
+  },
+  "last_updated": "2024-02-27T22:20:00.784373+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "THE PEOPLE, Plaintiff and Respondent, v. PAUL GREGORY WATSON, Defendant and Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nMORENO, J.\nDefendant Paul Gregory Watson was convicted of two counts of first degree murder (Pen. Code, \u00a7 187, subd. (a)) with multiple-murder special-circumstance findings (\u00a7 190.2, subd. (a)(3)). The jury found that defendant was armed with and personally used a firearm in the commission of the offense. (\u00a7\u00a7 12022, subd. (a), 12022.5, subd. (a).) At the penalty phase, the jury returned a verdict of death.\nThe trial court denied defendant\u2019s automatic application to modify the verdict (\u00a7 190.4, subd. (e)) and sentenced defendant to death. This appeal is automatic. (\u00a7 1239, subd. (b).) For the reasons that follow, we affirm the judgment.\nI. Facts\nA. Guilt Phase\n1. Prosecution\u2019s Case\na. The Shooting\nDuring early 1989 in Compton, California, the Atlantic Drive Crips were \u201cat war\u201d with the Santana Block Crips. On the afternoon of Sunday, April 2, 1989, a large group of people were passing the day at Compton\u2019s Kelly Park. The individuals in the park that day included members of the Atlantic Drive Crips and their allies, the Kelly Park Crips and the In Hood Crips. By early evening, between 100 and 150 people, most of whom were barbecuing, listening to music, and playing basketball, remained in the park.\nThat evening, Timothy Martin was talking with a friend in front of the Alondra Apartments when he noticed a white Cadillac, followed by another vehicle, traveling westbound on Alondra Boulevard toward Castlegate Avenue. The vehicles aroused his suspicion because there were \u201ctoo many people in both cars.\u201d He was also alarmed because he believed the occupants to be members of the Santana Block Crips. Martin rode his bicycle to the park to alert his brother to the potential danger.\nAfter talking to his brother, Martin rode to his house on Castlegate Avenue, south of Caldwell Street. While Martin stood in his driveway talking to another friend, he saw the same white Cadillac stop at the comer of Castlegate Avenue and Caldwell Street. The front passenger, whom Martin identified as defendant in a photo lineup and at trial, was seated on the door rail, holding an AK-47 rifle over the roof of the car and aiming at Martin. The Cadillac then continued toward the park, and five or six seconds later Martin heard about 20 gunshots. A reluctant witness, Martin had received threats to his life from unidentified persons if he testified.\nTerry Fennell, who was associated with the Kelly Park Crips, was in the park playing basketball about 6:00 that evening. After finishing a game, he walked to his car on Butler Avenue to get a towel. As he returned to the park, he noticed Tammy Eldridge and Ava Williams sitting in a black Toyota C\u00e9lica parked in front of the Compton Police Department substation on the north side of Caldwell Street, with their three young children in the car. Eldridge and Williams were talking with Earl Solomon, a member of the Atlantic Drive Crips. A white Cadillac with three occupants was traveling westbound on Caldwell Street; Fennell recognized the Cadillac as belonging to defendant. When Fennell reached the sidewalk on the north side of Caldwell Street, 20 feet from the Cadillac, he saw an AK-47, held by defendant, come out of the window. Defendant leaned out of the front passenger window of the Cadillac and shot into the park. Fennell ducked behind a parked car and continued to watch defendant. The Cadillac passed Eldridge\u2019s C\u00e9lica; defendant turned back toward the C\u00e9lica and continued shooting, hitting Solomon in the head. Fennell could not remember if any cars were following the Cadillac.\nFennell was standing about 35 to 40- feet from Solomon when Solomon was shot. He went directly to Solomon\u2019s body while Eldridge started her car and drove away down Butler Avenue. Fennell was the first to arrive at Solomon\u2019s side, and left immediately after confirming he was dead. Fennell later returned to the scene and spoke with police.\nFennell had been convicted of taking a vehicle and receiving stolen property. Fennell\u2019s friends in the neighborhood stopped talking with him because they did not want him to come forward and testify. He and his family ultimately were forced to move away from the neighborhood.\nGary Lomax, Fennell\u2019s brother-in-law, was also playing basketball in the park at the time of the shooting. His back was to Caldwell Street when he heard the gunfire, and he turned to see what was happening. As he ran for cover, Lomax saw two cars traveling westbound on Caldwell Street. Lomax had seen the two cars pass the park 10 to 15 minutes before the shootings. Lomax testified defendant was leaning out of, and trying to sit back down in, the passenger side of one of the cars, holding what appeared to be a gun.\nBetween 6:00 and 6:35 p.m., Henrietta Harper, a security officer employed by the City of Compton, was inside the police substation at Kelly Park when she heard about 15 to 20 gunshots coming from the area of Castlegate Avenue and Caldwell Street. Although she could not see what was going on outside, she heard the gunfire moving westward along the south side of the park. When the firing stopped, she saw an African-American male lying in front of the substation bleeding profusely from a gunshot wound to the head. She approached him and found he had no pulse. By this time, police officers were arriving at the park and Harper returned to the substation to report a homicide.\nBrian Owens, an associate of the Atlantic Drive Crips, was also in Kelly Park that day. He saw Eldridge and Williams there in his Toyota C\u00e9lica, which he had loaned to Eldridge. Hearing gunfire, Owens looked up to see a white Cadillac being driven westbound on Caldwell Street, with a person hanging out of the passenger window. Owens saw the person shoot a rifle into the park, hitting Solomon in the head. He later described the shooter as a light-skinned African-American man wearing a white T-shirt.\nAfter witnessing the shooting, Owens ran to his Chevrolet Cavalier, got in, and chased the Cadillac, armed with a .45-caliber semiautomatic handgun. Some cars that had been trailing the Cadillac moved behind Owens\u2019s car and opened fire. Owens could not recall whether he ever fired his weapon. He was hit in the left shoulder and the head; at the time of trial a bullet remained in his head and he was blind in his left eye. His memory of that day\u2019s events was impaired. He admitted he could not remember anything after seeing Solomon get shot and had filled in the rest of the events by speaking to other individuals.\nAbout 6:15 on the evening of the shootings, Officer Henry Johnson of the Compton Police Department received a radio call directing him to go to Kelly Park. As his partner drove down Alondra Boulevard, Johnson saw a late model Chevrolet Cavalier traveling in the opposite direction, but he did not see anyone in the driver\u2019s seat. Johnson instructed his partner to make a U-tum and follow the Cavalier, which went off the road and came to rest in a flowerbed near the comer of Alondra Boulevard and Ward Avenue. Johnson ran to the Cavalier. Inside, an African-American male (Owens) was lying unconscious across the front seats, his arm extended toward the floor near a blue steel .45-caliber semiautomatic handgun that smelled as if it recently had been fired. Johnson saw three large-caliber bullet holes near the driver\u2019s door, a large-caliber bullet hole at the left front fender, and a similar hole at the left rear fender. The rear window was broken out, and in the windshield was what appeared to be a bullet exit hole.\nIrma Myricks and her daughter Lattice Nick lived near Kelly Park and were at home on the evening of April 2, 1989. They both heard gunshots and looked out their front door to see a white Cadillac traveling westbound on Caldwell Street. Myricks saw someone hanging out of the car\u2019s window firing a gun, and then saw Solomon lying on the sidewalk.\nTammy Eldridge testified at trial that she and Williams were sitting in Owens\u2019s C\u00e9lica parked in front of the police substation at Kelly Park while talking with Earl Solomon, who was standing on the sidewalk on the north side of Caldwell Street. As they talked, Eldridge heard gunshots coming from behind her and saw people mnning and getting down on the ground. Eldridge tried to shield herself and the children from the gunshots. When the shooting stopped, she looked up to see a white Cadillac similar to one she previously had seen defendant driving, followed by a dark blue or black car. A medium-complected African-American man leaned out of the passenger window of the Cadillac with what Eldridge believed to be a rifle in his hands. She then heard more shooting and again ducked for protection. Williams\u2019s head fell to Eldridge\u2019s knee and, when the firing ceased, Eldridge lifted Williams\u2019s head, revealing a large bullet wound to her face and causing one of her eyes to fall out of her head. Eldridge replaced the eye and drove away to get help.\nEldridge stopped her car in front of some houses and rushed the children inside someone\u2019s home. Williams was not conscious or moving. Eldridge noticed a bullet hole in the windshield of the C\u00e9lica.\nAlisha Dukes lived near Castlegate Avenue and Adana Street near Kelly Park in Compton. On the evening of the shooting, she heard a car\u2019s brakes screeching and looked to find a car with broken glass on the passenger side stopped in the street. A hysterical woman jumped from the car. Dukes took a baby from the car and, after summoning help from neighbors, tried to calm the child and clean blood and glass from its head. The adult passenger in the car appeared to be dead.\nHenry Williams lived next door to Alisha Dukes. He too heard a car\u2019s brakes screeching and saw a woman get out yelling for help because her friend had been shot. Williams called 911. His wife and neighbor cared for the children taken from the car while he attended to the car\u2019s adult passenger. The passenger was missing part of her face and, believing her to be dead, Williams covered her with a blanket.\nb. The Investigation\nCompton Police Detective Marvin Branscomb responded to Kelly Park after the shooting and cordoned off the area to protect the crime scene. Terry Fennell identified defendant to Branscomb as the shooter and a member of the Santana Block Crips, going by the moniker \u201cPotato Head.\u201d Branscomb obtained a \u201csix pack\u201d photographic lineup containing a picture of Potato Head. Branscomb admonished Fennell that persons involved in the shooting might or might not be depicted in the six-pack and that he should identify only the person he believed to be the shooter. Branscomb then had Fennell examine the photographs, and he identified defendant as the shooter. No other witnesses came forward at the scene.\nBranscomb and other officers searched Caldwell Street and located one assault rifle casing and several .45-caliber shell casings.\nBranscomb unsuccessfully tried to locate defendant. The next day, Branscomb contacted defendant\u2019s sister, Bridgette Norflee, but was still unable to find defendant.\nc. Defendant\u2019s Activities Before and After the Shooting\nSonya Stone, defendant\u2019s former girlfriend, testified she saw defendant on the day of the shooting driving his white Cadillac with several African-American male passengers. Stone explained the Cadillac previously had been painted green.\nTony Carillo managed Color King Auto Painting in Compton, California. On April 3, 1989, he generated a receipt for the painting of a Cadillac with the license plate number 2JYC400. The receipt indicated the work was \u201cexclusively for Paul,\u201d and a woman named Bridgette signed the receipt. Color King painted the Cadillac black.\nHazel Adams, a Department of Motor Vehicles registration manager, testified that ownership of a 1977 Cadillac coupe, license plate number 2JYC400, was transferred from Paul Watson to Serita Hutchinson on June 6, 1989, in exchange for $500.\nd. Defendant\u2019s Arrest\nOn August 31, 1989, Bakersfield Police Sergeant David Haskins, seeking to locate defendant, executed a search warrant on a Bakersfield apartment. Haskins arrested defendant inside the apartment. Outside, Haskins located and impounded a black Cadillac, license plate number 2JYC400.\nThat afternoon, Detective Marvin Branscomb traveled to the Kern County jail in Bakersfield and took defendant into his custody. Branscomb also inspected the black Cadillac. He took a paint sample from the vehicle and discovered three layers of paint: green, white, and black. Inside the car, Branscomb located a shell casing.\nBranscomb advised defendant of his Miranda rights (Miranda v. Arizona (1966) 384 U.S. 436 [16 L.Ed.2d 694, 86 S.Ct. 1602]), which he declined to waive, and transported him to Los Angeles. During the drive, defendant, without being informed of any specific details of his arrest, asked why he was being charged with attempted murder arid claimed he was not in Compton on the day of the shooting.\ne. Forensic Evidence\nLos Angeles Sheriffs Department firearms identification specialist Edward Robinson testified that a bullet fragment found in the C\u00e9lica that Eldridge had been driving was consistent with a bullet fired from an AK-47. The bullet recovered by the coroner\u2019s office from Williams\u2019s brain likely had been fired from an AK-47 or SKS rifle. Robinson was unable to compare the bullet found in the C\u00e9lica with the bullet found in Williams\u2019s brain because the bullets were damaged.\nf. Cause of Death\nForensic pathologist and chief physician for the Los Angeles County Department of Coroner Lakshmanan Sathyavagiswaran testified that Ava Williams died of a gunshot wound to the head. The bullet traversed her left cheek and entered her nose before coming to rest in the right front portion of her brain. The bullet jacket was located in the base of her skull. Given the damage to Williams\u2019s face, the bullet might first have hit something else, such as the car\u2019s window. Williams\u2019s wounds were consistent with a high-powered rifle.\nDr. Sathyavagiswaran testified Earl Solomon died of a gunshot wound to the head, suffering subarachnoid hemorrhage with massive laceration. The wound was caused by a high-velocity weapon, such as a rifle.\ng. Gang Expert\nAt the time of defendant\u2019s trial, Compton Police Sergeant Reginald Wright served in the department\u2019s gang homicide unit. Wright described the structure of Black street gangs in Los Angeles, the different categories of gang membership, the rivalries between Crips and Bloods and between various Crip sets, and the concept of \u201cpayback,\u201d or retaliation, between gangs. Wright described the Santana Block Crips as a violent street gang whose hardcore members wear the letters \u201cSBC\u201d on their caps, belt buckles and jackets, or who may have tattoos referring to the gang. Formerly allies with the Atlantic Drive Crips, the Santana Block Crips became embroiled in warfare with them, involving retaliatory shootings, over a bad narcotics deal. Wright knew defendant by his gang moniker Potato Head and knew he was a member of the Santana Block Crips. In Wright\u2019s opinion, the murders were gang motivated. Wright also testified that gang members are reluctant to testify against one another, even regarding a shooting of the witness\u2019s own \u201chomeboy\u201d by a member of an opposing gang, because they generally prefer \u201chandling their own business\u201d to involving the police.\n2. Defense Case\na. Eyewitness Testimony\nCurtis Jones was in Kelly Park at the time of the shootings. Jones was a longtime member of the South Side Compton Crips, allies of the Atlantic Drive Crips. Before the shooting, Jones saw a beige Cutlass and a black Regal being driven past the park; a man Jones knew as Chico (Brian Owens), was chasing the cars in another vehicle. Jones then heard seven or eight gunshots and hid behind a tree for protection. He got only a quick glimpse of the cars as they passed and did not see any of the occupants. Jones did not immediately inform police of his observations and admitted having spoken to defendant while they were both incarcerated in the Los Angeles County jail.\nJones acknowledged having previously been convicted of a felony (joy riding).\nJames Randle, a \u201cretired member\u201d of the Compton Neighborhood Crips (also known as In Hood) testified he saw the shooting in Kelly Park. He remembered seeing a man in a white car apparently pulling an AK-47 back into the car through the passenger window. The man had brown skin and a blue rag covering his face from the nose down. Randle was friends with defendant and believed the person in the white car had darker skin than defendant. Randle did not come forward with this information until after speaking with defendant in jail.\nRandle acknowledged having previously been convicted of felonies.\nUnuva Miller also witnessed the shooting at Kelly Park. At the time of the shooting, Miller was near the park on Caldwell Street. She saw a beige car and a black car drive down Caldwell Street. She believed the cars might have been Buicks, Monte Carlos, or Cutlasses. One of the individuals in the beige car was carrying a rifle, but she could not identify the person other than to say he was wearing a black hat. Although Miller had known defendant for five or six years, she did not recognize him as the individual with the gun. Miller testified despite having been threatened by the Atlantic Drive Crips, who accused her of setting up the shooting because she had had a child with a Santana Block Crips member. Miller admitted, however, she was so focused on getting her daughter out of the park that she might not have observed all of the cars involved.\nPrivate investigator Arthur Runnels testified Timothy Martin told him that a person in the Cadillac shot through the driver\u2019s side window and that he was unable to identify the shooter.\nJoseph Widby was a longtime member of the Atlantic Drive Crips and was friends with Earl Solomon. Widby was in the park at the time of the shooting. He heard gunshots and saw a person leaning out of the window of a white Cadillac holding what appeared to be an AK-47. Widby saw that one of the other passengers in the Cadillac was holding a .45-caliber gun and both individuals were aiming their guns at the park. Widby saw Brian Owens driving a black car behind the Cadillac. Widby had known defendant for several years and testified that he was not the man holding the AK-47\u2014his hair was longer than defendant\u2019s and he was skinnier and lighter skinned than defendant. Widby also denied there was a gang war between the Atlantic Drive Crips and Santana Block Crips, instead claiming the story of the feud had been fabricated by police.\nWidby testified he would not lie for defendant and did not want an innocent man to be charged with a crime. In addition, Widby testified he was concerned his testimony might offend Solomon\u2019s parents because he had been friends with Solomon. Widby also admitted speaking with defendant while incarcerated.\nWidby acknowledged he was, at the time he testified, serving a 10-year term in a federal prison in Petersburg, Virginia, on a conviction of being a felon in possession of a gun.\nb. Police Incompetence\nThe defense sought to establish that the police investigation of the offenses was marred by error.\nHermetta Harper, recalled by the defense, testified that Timothy Martin told her what he had seen, but that she did not inform the police until two or three weeks before trial.\nCompton Police Officer Ronald Thrash testified he responded to Kelly Park within five minutes of the shooting. Thrash spoke with Terry Fennell at the scene and, according to Thrash, Fennell told him he was standing on the southwest comer of Caldwell Street and Butler Avenue at the time of the shooting, contrary to Fennell\u2019s testimony that he crossed to the north side of the street when the shooting occurred. Thrash also admitted he made a mistake in his report as to the location of Earl Solomon\u2019s body.\nDistrict attorney investigator Adam Khan accompanied the prosecutor, Mark Ashen, to Oregon to interview Gary Lomax. Lomax described to Khan and Ashen a white or green Chevrolet as being involved in the shooting. Lomax\u2019s signed statement, drafted by Khan, stated the car was white. Khan admitted he had mistakenly failed to indicate the car could have been green.\n3. Prosecution\u2019s Rebuttal\nLos Angeles County Deputy Sheriff Michael Winter testified that while working at the Los Angeles County Men\u2019s Central Jail, he was assigned to monitor the gang modules. For a period in 1991, defendant and Curtis Jones were housed in the same module. Deputy Winter further testified that inmates housed in the same modules have access to each other\u2019s cells and can spend time together in group areas. He was unsure whether defendant and Jones were ever released to the common areas at the same time.\nB. Penalty Phase\n1. Prosecution\u2019s Case\nBruce Bromley testified that, on January 28, 1990, he was incarcerated at Los Angeles County\u2019s Wayside Honor Rancho. On that date, Bromley placed a cup of juice on the table where defendant was sitting, and defendant brushed the cup off the table. Bromley told defendant he did not know defendant owned the table. Defendant stood up and looked at Bromley, then sat down again. As Bromley walked away, he was punched from behind. The blow landed on the right side of his face and he was knocked almost unconscious and fell to the ground. As he came to, defendant said, \u201cDon\u2019t you ever talk that way to me again,\u201d then walked away. The right side of Bromley\u2019s face became swollen and he had a black eye.\nBromley \u00e1cknowledged he had suffered two grand theft convictions.\nBrett Homick testified that, on February 19, 1990, he was incarcerated at Wayside Honor Rancho. When Homick walked behind the jail\u2019s lunch area that afternoon, a blanket was put over his head and he was beaten; $5 was stolen from his sock. After Homick removed the blanket, he saw defendant mnning away. Homick sustained a broken nose, but did not report the assault.\nBetween 3:00 and 4:00 the next morning, Homick saw defendant and three other inmates attack a Caucasian inmate lying in the bunk next to Homick. One of defendant\u2019s cohorts beat the victim\u2019s head with a table squeegee and then, with the help of defendant and the other inmate, pulled the victim off his top bunk and went through his pockets, \u201ctaking what they could from him.\u201d The victim was bleeding from his head and face and was convulsing, and his eyes rolled back in his head. About two minutes later, defendant and his cohorts pulled another Caucasian inmate from his bunk by the hair, again beating the victim and going through his pockets.\nHomick acknowledged he had suffered felony convictions for possession of stolen property, attempted robbery, burglary and sexual assault.\nThe prosecution introduced evidence of defendant\u2019s January 28, 1990 conviction for misdemeanor battery upon Bromley. The prosecution also introduced defendant\u2019s March 11, 1985, and April 29, 1985 convictions for felony possession for sale of cocaine and his December 3, 1986 conviction for possession of cocaine.\n2. Defense Case\na. Lay Testimony\nDefendant\u2019s mother, Mary Louise Cooper, testified she never married defendant\u2019s father or the fattier of defendant\u2019s sister. She provided for her family with government assistance and her salary as a maid. She had a difficult time caring for defendant because she had epileptic seizures and back problems. Cooper\u2019s boyfriend, Devon Williams, moved into the home when defendant was three years old, but he did not make any significant financial contribution to the household because he spent all his money on drugs.\nDevon Williams died when defendant was 13 years old. Cooper then quit her job and defendant tried to help support the family. According to Cooper, on some days defendant would work instead of going to school. Cooper was aware that defendant began selling drugs at the age of 14 and that he involved himself in gangs after he returned from prison.\nCooper explained she sympathized with the parents of the victims, as defendant had once been shot and nearly died. She pleaded, however, for the jury not to sentence defendant to death.\nDefendant\u2019s uncle, James Walker, testified to his role in defendant\u2019s life. He visited with defendant regularly while he was growing up and never knew him to do anything wrong. He described defendant as a nice boy. Walker never saw defendant involved in any gang activity, and was surprised to hear defendant had been convicted of murder because he was a nice and respectful boy. Walker believed defendant should be spared the death penalty because of his potential to grow and help other people.\nDefendant\u2019s aunt, Dorotheria Mitchell, testified defendant was a good boy. Mitchell believed defendant was in the situation he was in because he was forced to provide for his family at such an early age. She also explained that the neighborhood where defendant was raised did not provide a good environment.\nAiline Jackson testified she had known defendant since he was 12 years old. She described him as a happy and nice child who would help his mother and neighbors with chores. Because defendant often complained of being bored at home because his immediate family engaged in very little recreation, Jackson would allow him to join her family\u2019s activities.\nJackson described defendant\u2019s chaotic family life. His stepfather Devon Williams was an unemployed drug addict who used heroin in the house. When defendant was 13 or 14, Williams would send him out late at night to buy his drugs. Defendant\u2019s mother gave her children very little supervision and it appeared to Jackson she put Williams\u2019s needs before the children\u2019s. According to Jackson, after defendant\u2019s mother stopped working, defendant quit school so he could work full time. Jackson saw a change in defendant at this time.\nWhen defendant went to prison for selling drugs at the age of 19, Jackson testified, he became \u201charder\u201d and more arrogant. He explained to her he had to join a gang in prison for protection. Jackson did not believe defendant committed the murders.\nAnita Masterson, Jackson\u2019s sister, testified she had known defendant from the time he was 10 or 11 years old. Defendant often played at her house with her two sons. She described defendant as being a \u201cgood boy\u201d who was polite and helpful. Masterson was surprised by defendant\u2019s previous incarceration because she had thought him to be such a nice boy.\nVincent Masterson, Anita Masterson\u2019s son, testified he was a childhood friend of defendant\u2019s. Defendant seemed to care less about his education as he entered high school and had to get a full-time job when he was in the ninth grade. Vincent never saw defendant use drugs, and defendant never tried to sell drugs to him. After getting out of prison, defendant appeared \u201charder\u201d and \u201ctoo grown up.\u201d Vincent felt defendant lacked a positive role model. He believed defendant should not be sentenced to death because he had the potential for rehabilitation.\nSylvia Stanley, who lived in defendant\u2019s neighborhood, described him as a good child who was liked by everyone. Stanley testified defendant began selling drugs at age 18 or 19, but she did not think he used them. Defendant returned from prison with tattoos and a \u201cthuggish\u201d demeanor.\nb. Expert Testimony\nForensic Psychologist Adrienne Davis interviewed defendant, his family members, and his childhood neighbors, and reviewed probation, parole, and police reports pertaining to the current and previous crimes in order to evaluate his background, mental state, and personality and help explain to the jury how he came to be the person he was at the time of trial.\nDr. Davis testified that during defendant\u2019s early years, he was very dependent upon his mother and demanded much of her attention; he did not know his father. Defendant\u2019s family was very poor. Devon Williams entered defendant\u2019s life when he was four or five years old and became his father figure. During this time, social workers sometimes reported that defendant\u2019s house was in disarray and the children were dirty.\nDevon Williams created inconsistency in defendant\u2019s fife. On one hand, he helped, defendant with his homework and encouraged him to work hard. But on the other hand, he was a drug addict who sent defendant out to buy his drugs. Defendant was upset by Williams\u2019s death and thereafter his schoolwork suffered.\nAiline Jackson\u2019s influence was also inconsistent. Defendant respected Jackson and she had a very strong influence on him. But she also used drugs, even in defendant\u2019s home.\nDefendant became the \u201cman of the house\u201d at age 16 or 17. He felt obligated to care for his epileptic mother and quit school to work full time. When he lost his job, he began selling drugs. Despite having been a nonaggressive child, he was changed by Devon Williams\u2019s death and his experiences in prison. According to Dr. Davis, defendant\u2019s involvement with drugs increased the possibility of his becoming involved in violent behavior.\nII. Jury Selection Issue\nDefendant, an African-American, claims the prosecutor used peremptory challenges in a racially discriminatory manner to excuse nine African-American prospective jurors. He thus argues the trial court\u2019s denial of his motion under People v. Wheeler (1978) 22 Cal.3d 258 [148 Cal.Rptr. 890, 583 P.2d 748] (Wheeler) violated his state and federal constitutional rights to equal protection and a representative jury. (Batson v. Kentucky (1986) 476 U.S. 79, 86 [90 L.Ed.2d 69, 106 S.Ct. 1712] (Batson); Wheeler, supra, 22 Cal.3d at pp. 271-272.)\nA. Legal Standard\nBoth the state and federal Constitutions prohibit the use of peremptory challenges to remove prospective jurors based solely on group bias. (Batson, supra, 476 U.S. at p. 89; Wheeler, supra, 22 Cal.3d at pp. 276-277.) In Johnson v. California (2005) 545 U.S. 162 [162 L.Ed.2d 129, 125 S.Ct. 2410] (Johnson), \u201cthe United States Supreme Court reaffirmed that Batson states the procedure and standard to be employed by trial courts when challenges such as defendant\u2019s are made. \u2018First, the defendant must make out a prima facie case \u201cby showing that the totality of the relevant facts gives rise to an inference of discriminatory purpose.\u201d [Citations.] Second, once the defendant has made out a prima facie case, the \u201cburden shifts to the State to explain adequately the racial exclusion\u201d by offering permissible race-neutral justifications for the strikes. [Citations.] Third, \u201c[i]f a race-neutral explanation is tendered, the trial court must then decide . . . whether the opponent of the strike has proved purposeful racial discrimination.\u201d [Citation.]\u2019 \u201d (People v. Cornwell (2005) 37 Cal.4th 50, 66-67 [33 Cal.Rptr.3d 1, 117 P.3d 622], quoting Johnson, supra, 545 U.S. at p. 168; see also Snyder v. Louisiana (2008) 552 U.S. _, _ [170 L.Ed.2d 175, 128 S.Ct. 1203].)\nMoreover, as Johnson explains, \u201ca defendant satisfies the requirements of Batson\u2019s first step by producing evidence sufficient to permit the trial judge to draw an inference that discrimination has occurred.\u201d (Johnson, supra, 545 U.S. at p. 170.) At step three, \u201cthe trial court \u2018must make \u201ca sincere and reasoned attempt to evaluate the prosecutor\u2019s explanation in light of the circumstances of the case as then known, his knowledge of trial techniques, and his observations of the manner in which the prosecutor has examined members of the venire and has exercised challenges for cause or peremptorily . . . .\u201d [Citation.]\u2019 \u201d (People v. Reynoso (2003) 31 Cal.4th 903, 919 [3 Cal.Rptr.3d 769, 74 P.3d 852].) A prosecutor\u2019s reasons for exercising a peremptory challenge \u201cneed not be sufficient to justify a challenge for cause.\u201d (People v. Turner (1994) 8 Cal.4th 137, 165 [32 Cal.Rptr.2d 762, 878 P.2d 521].) \u201cJurors may be excused based on \u2018hunches\u2019 and even \u2018arbitrary\u2019 exclusion is permissible, so long as the reasons are not based on impermissible group bias.\u201d (Ibid.; see also People v. Box (2000) 23 Cal.4th 1153, 1186, fn. 6 [99 Cal.Rptr.2d 69, 5 P.3d 130].) \u201c[T]he trial court is not required to make specific or detailed comments for the record to justify every instance in which a prosecutor\u2019s race-neutral reason for exercising a peremptory challenge is being accepted by the court as genuine.\u201d (People v. Reynoso, supra, 31 Cal.4th at p. 919.) Inquiry by the trial court is not even required. (See id. at p. 920.) \u201cWe presume that a prosecutor uses peremptory challenges in a constitutional manner and give great deference to the trial court\u2019s ability to distinguish bona fide reasons from sham excuses. [Citation.] So long as the trial court makes a sincere and reasoned effort to evaluate the nondiscriminatory justifications offered, its conclusions are entitled to deference on appeal. [Citation.]\u201d (People v. Burgener (2003) 29 Cal.4th 833, 864 [129 Cal.Rptr.2d 747, 62 P.3d 1].)\nWe review a trial court\u2019s ruling at step three for substantial evidence. (People v. McDermott (2002) 28 Cal.4th 946, 971 [123 Cal.Rptr.2d 654, 51 P.3d 874].)\nB. Factual Background\nThe prosecutor initially used four peremptory challenges, the second through fourth of which were used against African-Americans. After the fourth challenge, defendant made a Wheeler motion. The trial court found a prima facie showing and asked the prosecutor to give his reasons for challenging the three African-American prospective jurors.\nThe prosecutor explained he excused D.H. because of her substantial exposure to gang members while growing up in Compton and her belief that a driveby shooting does not warrant the death penalty. Next, the prosecutor stated he challenged P.H. because she had been an identification witness to a crime and thus might have preconceived notions about the identification issue in this case. The prosecutor also based his excusal on the circumstance that she had a friend in state prison who committed more than one murder, but she did not believe her friend deserved the death penalty. P.H. also indicated she would not vote for the death penalty if it were on the ballot, and she previously had been disappointed with the police. Finally, the prosecutor explained that he excused D.G. because she had been unable to identify the perpetrator of a purse-snatching incident she had witnessed, her brother was a counselor with the California Youth Authority who told her stories about the wards and their troubles, and she expressed opposition to the death penalty.\nThe trial court denied the Wheeler motion, concluding the prosecutor had stated \u201ca sufficient basis of concern as to the three jurors individually and collectively\u201d and finding no indication of \u201csystematic exclusion\u201d of the jurors based on race.\nThe prosecutor then immediately challenged O.K., an African-American woman, and defendant renewed his Wheeler motion. The prosecutor explained that he was concerned O.K. would be overly sympathetic to defendant in light of her employment as a social worker working with abused children. The prosecutor also cited O.K.\u2019s belief that the death penalty should only be applied when the defendant\u2019s guilt is \u201cabsolutely certain,\u201d suggesting she would hold the prosecution to a higher standard than the law requires. Finally, the prosecutor suspected O.K. would be sympathetic to defendant in light of her son\u2019s multiple arrests for dealing drugs. The court concluded the prosecutor had stated \u201clegitimate prosecutorial concerns\u201d on an objective basis aside from that of race, and again denied defendant\u2019s motion.\nAfter excusing two other prospective jurors, the prosecutor challenged N.B., an African-American woman, and defendant again renewed his Wheeler motion. The prosecutor explained he had challenged N.B. because of her opposition to the death penalty and because her husband had been convicted of manufacturing phencyclidine (PCP), which might render her overly sympathetic to persons in custody. The trial court denied defendant\u2019s motion, finding that a juror\u2019s reluctance to impose the death penalty was a proper basis for a peremptory challenge.\nAfter excusing two more prospective jurors, the prosecutor exercised another peremptory challenge against T.S., an African-American man. Again, the defendant renewed his Wheeler motion. The prosecutor stated he excused T.S. primarily because he had grown up in a gang neighborhood and counted many members of the Bloods street gang among his friends. The prosecutor did not want T.S. to substitute his own knowledge of gangs in place of the expected testimony of the gang expert witness. The prosecutor also explained that he was concerned about T.S. because he had been late twice, appeared to be generally immature, and had suggested he might hold the prosecution to too strict a standard of proof. The trial court denied the motion, finding the prosecutor had articulated a nonracial basis for the peremptory challenge.\nThe prosecutor then excused two consecutive African-American prospective jurors and defendant renewed his Wheeler motion after each challenge. As to the first, T.J., an African-American man, the prosecutor explained that he appeared noncommittal and indecisive and repeatedly expressed concern that a defendant could be \u201cset up\u201d or evidence could be withheld, leading to the execution of an innocent person. The trial court concluded the prosecutor\u2019s reasons were race-neutral and relevant to the proceedings, holding there had been no purposeful discrimination.\nAs to the second, G.W., an African-American man, the prosecutor stated he had' excused G.W. because of his belief that an unintentional shooting of an individual would merely constitute an accident and because he would not vote for the death penalty in an election due to his religious beliefs. The prosecutor also noted G.W. seemed strong willed and \u201cvery, very\u201d opinionated. The trial court stated, \u201cI am not at this point prepared to find that persons have been excluded systematically on the basis of race and, therefore, the motion is denied.\u201d\nAfter excusing one other prospective juror and accepting the jury four times, the prosecutor exercised a peremptory challenge to exclude S.B., an African-American woman. In response to defendant\u2019s renewed Wheeler motion, the prosecutor explained he excused S.B. because she seemed confused, could not get past guilt phase issues in answering voir dire questions, and appeared biased against the death penalty. Finding the prosecutor had articulated \u201clegitimate concerns\u201d regarding S.B., the trial court denied defendant\u2019s motion.\nThe prosecutor excused three more prospective jurors without objection before the jury was accepted by both parties.\nC. Analysis\nAs the trial court found, and as discussed below, the record supports a finding that the prosecutor did not purposefully discriminate against any of the prospective jurors, either individually or collectively. The record also reflects that the jurors and alternate jurors selected and sworn in this case were a diverse group: Among the seated jurors, four were White, six were Black, one was Hispanic, and one described himself as \u201cFilipino Afro\u201d; among the alternates, three were White and one was Black. These circumstances further support the inference that the prosecutor acted in good faith and without discriminatory purpose in exercising peremptory challenges.\n1. D.H.\nAs stated above, the prosecutor justified his challenge to D.H. on the grounds that she had substantial exposure to gang members and believed a driveby shooting does not warrant the death penalty.\nDuring Hovey voir dire, D.H. explained she believed in the death penalty in certain circumstances and would have to hear all the evidence to determine whether a death sentence was appropriate in this case. She also expressed her understanding of the gravity of the sentencing decision and said she would not \u201ctake it lightly.\u201d She explained, however, that in the case of a gang-related driveby shooting, she might be disinclined to vote for death because \u201cbeing the age that I am, I hear it. I\u2019m around it. And it\u2014so it\u2019s just different reasons. I guess it could be different reasons why people could do it.\u201d\nDuring general voir dire, D.H. said she had gone to school with gang members in Compton and South Central Los Angeles, specifically members of the In Hood, Rolling 60\u2019s, and Compton Crips. She did not, however, like to be around gang activity.\nD.H. thus had substantial exposure to gangs, resulting in her possible reluctance to impose a death sentence in a case, such as this one, involving a gang-related driveby shooting. This was a relevant, race-neutral reason for the prosecutor to exercise a peremptory challenge against her.\nA comparative juror analysis does not further defendant\u2019s claim, as none of the seated jurors had similar exposure to gang activity. Defendant compares D.H. with seated juror M.P., an African-American man. Preliminarily, we question whether the comparison of a prospective juror assertedly excused on account of his race with a seated juror who was a member of the same race does anything to further the Batson/Wheeler analysis. In any event, the comparison of D.H. with M.P. does not assist defendant. Although M.P. had some exposure to gang members and gang activity in his capacity as a plumber for the Los Angeles Unified School District, for the prosecutor to afford this experience less weight than he did D.H.\u2019s upbringing in a gang-infested community would have been reasonable. M.P., moreover, did not share D.H.\u2019s apparent bias against imposing the death penalty on facts similar to those in this case.\nThus, the trial court\u2019s ruling as to D.H. is supported by substantial evidence.\n2. P.H.\nThe prosecutor asserted he challenged P.H. because she had been an identification witness to a crime, she believed a friend of hers was appropriately sentenced to life without the possibility of parole despite having committed multiple murders, she would not vote for the death penalty if it were on the ballot, and she had previously been disappointed with how the police investigated a shooting she witnessed. The trial court\u2019s denial of the Wheeler motion as to prospective juror P.H. is supported by substantial evidence.\nDuring Hovey voir dire, P.H. explained she had a childhood friend who was serving a life sentence for murder. This friend had \u201ccommitted murders on numerous occasions\u201d and \u201cwould take a life, you know, for any reason.\u201d She did not, however, feel he deserved the death penalty because of the neighborhood he grew up in, the fact that he came from a single-parent family, and because \u201cthis was a common way of life where he lived and where I lived.\u201d She opined these factors did not excuse her friend\u2019s behavior, but contributed to his conduct.\nDuring general voir dire, P.H. explained that, two years earlier, she had witnessed a fatal shooting. She reported her observations to police but was never called to testify as a witness. The fact she was never called as a witness indicated to her that the police did not take the crime seriously and that it was \u201cjust no big deal to them, you know, just another life.\u201d After witnessing the shooting, she felt sorry for both the victim and the shooter. She also could \u201crelate\u201d to prosecution witnesses because she had been a witness to the shooting, but would not \u201cnecessarily\u201d assume prosecution witnesses had greater credibility.\nP.H.\u2019s voir dire answers thus suggested she might be overly sympathetic to an individual with defendant\u2019s background and might have developed certain biases as a result of witnessing a fatal shooting.\nDefendant argues the prosecutor\u2019s explanation for his challenge of P.H. was a pretext for racial discrimination, in that he did not challenge other jurors with similar characteristics. Seated Jurors D.G. (a Caucasian woman), and M.P., A.C., and J.L., and seated Alternate Juror F.M. (all African-American men), each had witnessed crimes in the past. Moreover, J.L. and F.M. had expressed complaints about law enforcement. In fact, F.M. had a pending lawsuit against the Los Angeles County Sheriff\u2019s Department for breaking into his residence and holding his family at gunpoint. Further, defendant claims P.H. held views on the death penalty similar to those espoused by a number of non-African-American jurors whom the prosecutor did not challenge. None of these jurors, however; had the combined characteristics of being a witness to a crime and expressing anti-law-enforcement sentiments. More importantly, unlike any of these seated jurors, P.H. had a friend who was imprisoned for murder but she did not believe he deserved the death penalty despite his having committed multiple murders.\nThe trial court\u2019s ruling as to P.H. was supported by substantial evidence.\n3. D.G.\nThe prosecutor explained he challenged D.G. because she had witnessed a crime but was unable to identify the perpetrator; her brother was a counselor with the California Youth Authority; and she expressed anti-death-penalty sentiments. Importantly, the prosecutor indicated that \u201cshe is the one I\u2019m really concerned about with the identity issue because this happened basically so fast that she couldn\u2019t I.D. because of surprise element [sic]. She may feel that if there\u2019s a surprise element in any particular situation, that that may compromise a witness\u2019s I.D. . . Substantial evidence supports the trial court\u2019s conclusion the prosecutor articulated adequate race-neutral reasons for excusing D.G.\nIn her questionnaire, D.G. indicated that she had been a witness to a purse snatching and that her brother worked for the California Youth Authority. She also indicated she generally did not support the death penalty, she believed the death penalty was used too often, and she did not think California should have the death penalty today.\nDuring Hovey voir dire, D.G. stated she was \u201cnot for the death penalty,\u201d but could impose a death sentence under the appropriate circumstances. She would vote against the death penalty if it were on the ballot.\nDuring general voir dire, D.G. explained that about eight years before defendant\u2019s trial, she was the victim of a purse snatching. She had reported the crime to police but was unable to give an accurate description of the assailant. Her brother was a security officer for the California Youth Authority and he sometimes would tell D.G. \u201ca sad story from an inmate\u2019s point of view.\u201d\nD.G.\u2019s questionnaire and voir dire answers suggested she would have sympathy toward defendant as a result of the stories her brother had told her about his work with the California Youth Authority, and she was unsupportive of the death penalty. Moreover, D.G. had trouble describing her assailant when she was the victim of a purse snatching, triggering the prosecutor\u2019s valid concern that she might reject the identification testimony in this case.\nAgain, a comparative juror analysis does little to further defendant\u2019s claim. Like D.G., seated Juror M.P. was unable to provide details about a driveby shooting he had witnessed because it happened too fast. In addition, seated Juror C.D.\u2019s mother worked at the Federal Correctional Institution on Terminal Island and seated Alternate Juror P.H. had worked as a jailer in Nevada. None of the jurors, however, shared both characteristics relied upon by the prosecutor in excusing D.G.\nThe trial court\u2019s ruling as to D.G. was supported by substantial evidence.\n4. O.K.\nThe prosecutor justified his challenge to O.K. on the basis that O.K. might be too sympathetic to defendant in light of her background in social work, her concern for abused children, and her son\u2019s history of legal problems. In addition, the prosecutor cited O.K.\u2019s unwillingness to impose the death penalty unless she was \u201cabsolutely certain\u201d of the defendant\u2019s guilt.\nIn her questionnaire, O.K. stated she had worked for the Los Angeles County Department of Children\u2019s Services and in that capacity had made court appearances on behalf of minor children. She had an associate degree in social welfare and had taken courses in behavioral sciences, such as counseling, psychology, and sociology. She also indicated her third son had been incarcerated. This son had been arrested or charged with crimes many times and had been apprehended for selling narcotics to an undercover police officer. Finally, in her questionnaire, O.K. indicated that the purpose of the death penalty was \u201cto apply when absolutely certain.\u201d\nDuring Hovey voir dire, O.K. stated the death penalty is warranted in some cases but not others, and was too seldom used. When asked about her answer in the questionnaire that the death penalty should only be used when \u201cabsolutely certain,\u201d she explained she would not apply a standard of \u201cno doubt whatsoever about guilt,\u201d but would apply the law as instructed by the judge.\nIn response to general voir dire questioning, O.K. said her son had been caught several times trying to sell drugs to undercover police officers. She believed her son was still involved in criminal activity but she did not often see him.\nO.K. also explained that, in her capacity as a children\u2019s service worker for the department of children services, she helped to protect children from abuse and tried to find them compatible homes.\nOn this record, the prosecutor\u2019s concern about O.K.\u2019s ability to remain objective in light of her background as a social worker was reasonable. The prosecutor noted that, based on the defense\u2019s Hovey voir dire, defendant apparently would be presenting evidence of abuse and neglect during his childhood, and O.K. might be overly sympathetic to him as a result. The prosecutor also reasonably might have questioned O.K.\u2019s ability to remain objective in light of her son\u2019s criminal history. The record also provides some support for the prosecutor\u2019s concern that O.K. might hold him to too strict a burden of proof.\nMoreover, a comparative juror analysis does not reveal purposeful discrimination. Like O.K., seated Jurors A.R. and A.C. had loved ones who had been incarcerated. None of those jurors, however, shared O.K.\u2019s background in social work or expressed a tendency to hold the prosecution to too strict a burden of proof.\nBecause the prosecutor\u2019s reasons for excusing O.K. were race neutral and were borne out by the record, the trial court\u2019s determination was supported by substantial evidence.\n5. N.B.\nThe prosecutor assertedly challenged N.B. because of her anti-death-penalty beliefs and because her ex-husband had been convicted of manufacturing PCP.\nIn her questionnaire, N.B. expressed the belief that the death penalty should only be used in \u201cextreme\u201d cases, with the word \u201cextreme\u201d underscored. She also said she believed the death penalty is used too randomly. N.B. disagreed somewhat with the propositions that someone who intentionally kills one or two people should receive the death penalty and that convicted murderers should be swiftly executed. N.B. also revealed in her questionnaire that her ex-husband had been incarcerated in 1982 for burglary and \u201cmanufacturing.\u201d\nDuring Hovey voir dire, defense counsel asked N.B. how she might sentence a defendant whom she was convinced beyond a reasonable doubt had intentionally killed two people \u201cin cold blood.\u201d She explained that under such a scenario she \u201cwould have a tendency to go with life without parole. It would have to be totally extreme for me to go with death.\u201d Upon questioning by the prosecutor, however, N.B. explained that she would be \u201copen\u201d to either sentence in a case where the defendant was convicted of intentionally and deliberately killing two people.\nAs with the other jurors, a comparative juror analysis does not reveal racial discrimination by the prosecutor. Seated Juror D.G. answered questions regarding the sentencing of a defendant who intentionally killed two people without legal justification and not in self-defense by explaining that the issue was not \u201ccut [and] dried\u201d and that she would have to know all of the circumstances. Seated Juror C.D. disagreed somewhat that a person who intentionally kills two people should be sentenced to death because her determination would have to be based on the facts of the case. She also strongly disagreed that convicted murderers should be swiftly executed because she did not \u201cknow any facts.\u201d Seated Juror A.G. did not believe all killers should receive the death penalty and disagreed somewhat that a defendant who intentionally kills one or two people without legal justification should be sentenced to death. A.G. also disagreed somewhat with the proposition that convicted murderers should be swiftly executed because he believed defendants should be allowed to exhaust all appeals. Also, seated Alternate Jurors F.G. and P.H. indicated in their questionnaires that they did not fully agree with the proposition that anyone who kills one or two people without legal justification should be sentenced to death, because they believed the sentencing determination should depend on the facts of the case.\nWhile these jurors\u2019 answers to the questionnaire contain similarities to N.B.\u2019s answers, none of them expressed in their voir dire testimony the degree of opposition to the death penalty N.B. did. For example, N.B. explained during voir dire that she would likely vote against the death penalty if it were on the ballot and that her death penalty determination might be swayed by her religious beliefs. N.B. also wavered when asked whether she could impose the death penalty on a defendant who had been convicted of intentionally killing two people. None of the comparable jurors held so steadfastly to their anti-death-penalty beliefs under voir dire questioning.\nIn addition, although seated Jurors A.R. and A.C. had family members who had been incarcerated, neither of these jurors also expressed anti-death-penalty sentiments similar to those expressed by N.B.\nSubstantial evidence supports the trial court\u2019s conclusion that the prosecutor had bona fide, race-neutral reasons for excusing N.B.\n6. T.S.\nThe prosecutor stated he excused T.S. because he was young, inexperienced, and had extensive exposure to gang members. The prosecutor also was concerned about T.S. because he had been late twice, appeared to be generally immature, and had suggested he might hold the prosecution to too strict a standard of proof.\nIn response to the questionnaire inquiry why crime rates were increasing, T.S. stated it was because \u201cRepublicans [were] in the presidency,\u201d an answer deemed immature by the prosecutor. He also explained his belief that the death penalty should be imposed when a defendant had been found guilty \u201cwithout a shadow of a doubt.\u201d\nDuring Hovey voir dire, T.S. was generally supportive of the death penalty, but indicated it should be imposed only if the defendant was found guilty \u201cwithout a doubt.\u201d\nT.S. acknowledged during general voir dire that he had had contact with members of the Bloods street gang when he lived in Compton. He admitted to being close friends with some gang members, but insisted he was not involved in gang activity and that his exposure to gangs would not bias him. Neither the court nor the defense challenged the prosecutor\u2019s assertion that T.S. was late to the proceedings twice on the day he was excused.\nThis record provides support for the prosecutor\u2019s conclusion that T.S. was too immature, irresponsible, and potentially biased to serve as a juror in this case. Moreover, a comparative juror analysis is not helpful to defendant here, as none of the jurors accepted by the prosecutor exhibited characteristics similar to those that led him to excuse T.S. Notably, the prosecutor also challenged D.H. in part because of her extensive exposure to gangs.\nThus, the record provides substantial evidence to support the trial court\u2019s determination as to T.S.\n7. T.J.\nThe prosecutor explained he challenged T.J. because he was noncommittal, expressed some anti-death-penalty views, and was overly concerned about condemning an innocent man.\nDuring Hovey voir dire, T.J. expressed the opinion that the death penalty was appropriate only in certain cases, such as the killing of a child. He later indicated he strongly agreed that someone who kills an innocent person should receive the death penalty. He was unsure, however, whether he could vote for death in a case where one person was intentionally killed and another was an innocent bystander. T.J. also stated that in order to vote for the death penalty, he would have to have \u201cno doubt\u201d about the defendant\u2019s guilt and that the defendant should have the right to appeal to \u201cwhatever extent\u201d necessary to ensure his guilt. He explained the \u201cno doubt\u201d standard should be applied to the appeal process, but he would not apply that standard at trial.\nT.J.\u2019s voir dire answers revealed his uncertainty about whether he could impose the death penalty on the facts of this case. His answers were also equivocal as to what standard of proof he believed appropriate in a death penalty case. These answers gave rise to legitimate, race-neutral prosecutorial concerns.\nDefendant\u2019s claim fares no better under a comparative juror analysis. Seated Juror A.G. expressed his belief that the death penalty should only be imposed when there is no doubt about the defendant\u2019s guilt, and seated Jurors J.P., M.P., and R.R., as well as seated Alternate Juror P.H., all believed in the importance of the appellate process for defendants sentenced to death. None of these jurors, however, exhibited the same equivocation with respect to crucial issues as did TJ.\nOn this record, substantial evidence supports the trial court\u2019s ruling as to TJ.\n8. G.W.\nThe prosecutor explained he exercised a peremptory challenge against G.W. because he expressed some opposition to the death penalty, he believed that the unintentional shooting of a victim merely constituted an accident, and he appeared to be too stubborn and opinionated to appropriately participate in jury deliberations. The record supports these relevant, race-neutral concerns.\nBased on his juror questionnaire and his voir dire testimony, G.W. seemed more supportive of the death penalty than many of the seated jurors. According to his questionnaire, he agreed that the intentional killing of one individual warranted the death penalty, he strongly agreed that a defendant sentenced to death should be swiftly executed, and he strongly believed in the adage \u201can eye for an eye.\u201d During Hovey voir dire, he explained he would have no problem imposing the death penalty if the crime warranted such a sentence. He also stated he would \u201cprobably\u201d vote for the death penalty if the defendant were convicted of a premeditated murder. When questioned, however, about a crime in which one victim was the intentional target and another victim was an innocent bystander, G.W. opined the killing of the bystander would constitute an accident. He also asserted he would make his own penalty decision and would not be swayed by other jurors. Finally, G.W. asserted he could impose the death penalty because it is established law but, due in part to his religious beliefs, he would not vote for the death penalty if it were on the ballot. These views legitimately could cause the prosecutor to excuse G.W.\nA comparative juror analysis also fails to provide support for defendant\u2019s claim of purposeful discrimination. Most significantly, no other juror accepted by the prosecutor shared G.W.\u2019s belief that the unintentional killing of an innocent bystander would merely constitute an accident. This belief was understandably of concern to the prosecutor in light of the circumstance that defendant would be death eligible only if convicted of murdering both victims. G.W., moreover, was unwilling to vote for the death penalty in an election and the prosecutor had the impression G.W. was too strong willed to fairly serve as a juror.\nThe record therefore provides substantial support for the trial court\u2019s conclusion that the prosecutor did not engage in purposeful discrimination in excusing G.W.\n9. S.B.\nThe prosecutor asserted he excused S.B. because she seemed confused, was unable to conceptualize penalty phase issues in answering voir dire questions, and appeared predisposed against the death penalty. These reasons are supported by the record.\nDuring Hovey voir dire, S.B. exhibited significant confusion about the death penalty determination. First, she said the death penalty should be imposed in a case where the defendant was found guilty and a death sentence was \u201chis last choice.\u201d When informed that the penalty imposed was not the defendant\u2019s choice, she responded: \u201c[B]ut he have [szc] to be found guilty by the twelve jurors first.\u201d S.B. then acknowledged the sentence was to be determined by the jury, but insisted it did not have to recommend a sentence of death. She also stated that, in her opinion, \u201cthe death penalty is for once you find a person guilty\u2014once you find a person guilty, the death penalty is for that reason.\u201d\nWhen asked by the prosecutor whether a crime would have to be as heinous as those of Richard Ramirez and Charles Manson to deserve the death penalty, S.B. answered, \u201cthat or worse, yes.\u201d The prosecutor then attempted to clarify whether S.B. could recommend the death penalty for a defendant who killed fewer people than Ramirez and Manson. S.B. explained: \u201cThe case have [sz'c] to go to trial and the defendant have [szc] to be found guilty before I believe that they could go to the gas chamber.\u201d\nS.B.\u2019s answers reflected substantial confusion regarding the penalty phase process. In addition, they imply an unwillingness on her part to vote for death on the facts of this case. Because none of the other jurors exhibited such confusion, particularly not in addition to a potential unwillingness to impose the death penalty on the facts of this case, a comparative juror analysis does not further defendant\u2019s claim of discrimination. Thus, the record provides substantial evidence to support the trial court\u2019s determination as to S.B.\nIII. Issues Relating to Guilt\nA. Admission of Crime Scene and Autopsy Photographs\nDefendant claims the trial court erred in admitting crime scene and autopsy photographs of the victims over his objection because the photographs were more prejudicial than probative and were cumulative of other evidence. (See Evid. Code, \u00a7 352.) In addition, defendant asserts the trial court\u2019s error in admitting the photographs violated his rights to due process, a fair jury trial and a reliable capital trial under the federal Constitution.\nBefore trial, the prosecutor sought a ruling on the admissibility of a number of photographs, specifically People\u2019s exhibits 6A-F, 9B, and 11. Exhibits 6A-F are crime scene photographs of the body of Earl Solomon: 6A shows the victim\u2019s body from the waist up; 6B depicts the victim\u2019s entire body outlined in chalk; 6C shows the victim\u2019s body from a distance, covered by a sheet; 6D is a closeup of the victim\u2019s tattooed arm; 6E focuses on blood splatters near the victim\u2019s covered body; and 6F depicts the victim\u2019s entire covered body and the blood splatters on the sidewalk. Exhibit 9B, an autopsy photograph, depicts a large exit wound in the back of Earl Solomon\u2019s head. Exhibit 11, also an autopsy photograph, shows a large bullet wound to Ava Williams\u2019s face.\nThe prosecutor argued the photographs were relevant to prove intent and the cause of death. He also argued that exhibits 6A-F were relevant to corroborate witness testimony, and that exhibit 6D was probative of motive. Defense counsel objected under Evidence Code section 352, arguing that intent to kill and the cause of death, as proven through exhibits 9B and 11, could be established by other, less inflammatory evidence. The trial court overruled the objection.\n\u201cThe court in its discretion may exclude evidence if its probative value is substantially outweighed by the probability that its admission will . . . create substantial danger of undue prejudice . . . .\u201d (Evid. Code, \u00a7 352.) \u201cThe jury can, and must, be shielded from depictions that sensationalize an alleged crime, or are unnecessarily gruesome, but the jury cannot be shielded from an accurate depiction of the charged crimes that does not unnecessarily play upon the emotions of the jurors.\u201d (People v. Ramirez (2006) 39 Cal.4th 398, 454 [46 Cal.Rptr.3d 677, 139 P.3d 64].) We review the trial court\u2019s ruling under Evidence Code section 352 for abuse of discretion (People v. Lucas (1995) 12 Cal.4th 415, 449 [48 Cal.Rptr.2d 525, 907 P.2d 373]), and a reviewing court will reverse a trial court\u2019s exercise of discretion to admit crime scene or autopsy photographs only when \u201cthe probative value of the photographs clearly is outweighed by their prejudicial effect.\u201d (People v. Crittenden (1994) 9 Cal.4th 83, 134 [36 Cal.Rptr.2d 474, 885 P.2d 887].)\nWe have viewed the photographs contained in exhibits 6A-F, 9B, and 11 and conclude they are highly probative of motive, intent, and the cause and manner of death. Although unpleasant, they depict the nature of the crime without unnecessarily playing upon the jurors\u2019 emotions. (People v. Ramirez, supra, 39 Cal.4th at p. 454.) The probative value of the photographs thus is not clearly outweighed by their prejudicial effect.\nIn addition, the photographs were not made inadmissible by the prosecutor\u2019s ability to prove motive, intent, and cause of death through other evidence. (See People v. Gurule (2002) 28 Cal.4th 557, 624 [123 Cal.Rptr.2d 345, 51 P.3d 224] [\u201c[Pjrosecutors, it must be remembered, are not obliged to prove their case with evidence solely from live witnesses; the jury is entitled to see details of the victims\u2019 bodies to determine if the evidence supports the prosecution\u2019s theory of the case.\u201d].) Furthermore, autopsy and crime scene photographs are not made inadmissible because they are offered to prove an issue not in dispute (People v. Stitely (2005) 35 Cal.4th 514, 545 [26 Cal.Rptr.3d 1, 108 P.3d 182]), and are admissible even if repetitive of other evidence, provided their probative value is not substantially outweighed by their prejudicial effect, as we have determined is true here (People v. Cole (2004) 33 Cal.4th 1158, 1199 [17 Cal.Rptr.3d 532, 95 P.3d 811]; People v. Price (1991) 1 Cal.4th 324, 441 [3 Cal.Rptr.2d 106, 821 P.2d 610]).\nB. Impeachment of Joseph Widby\nDefendant next argues the trial court erred in allowing the prosecutor to impeach defense witness Joseph Widby with the fact that at the time of his testimony he was serving a 10-year federal prison sentence for a conviction of being a felon in possession of a firearm.\nBefore Widby took the stand, the trial court ruled that neither Widby\u2019s 1975 assault conviction nor his 1979 robbery conviction was subject to exclusion on the ground of remoteness. In addition, defendant conceded Widby could be impeached on the basis of his more recent federal firearm conviction. Defendant moved the trial court, however, for a ruling that the fact and length of Widby\u2019s custody status was inadmissible under Evidence Code section 352. The prosecutor argued the fact that Widby was then serving a 10-year prison sentence was relevant to his credibility because it showed he did not have anything to lose by committing perjury. The trial court ruled Widby\u2019s custody status and the length of his prison term were admissible under the prosecutor\u2019s theory of relevance. On cross-examination, the prosecutor elicited from Widby that he was \u201cbasically at the beginning\u201d of a 10-year term in federal prison.\nEvidence Code section 788 provides in relevant part: \u201cFor the purpose of attacking the credibility of a witness, it may be shown by the examination of the witness . . . that he has been convicted of a felony . . . .\u201d We have held that the predecessor to Evidence Code section 788 did not permit the impeachment of a witness with the length of the sentence imposed for the conviction at issue. (People v. Smith (1966) 63 Cal.2d 779, 790 [48 Cal.Rptr. 382, 409 P.2d 222]; see also People v. Wynn (1941) 44 Cal.App.2d 723 [112 P.2d 979].)\nWith the adoption of the so-called truth-in-evidence rule by the passage of Proposition 8 in 1982, the California Constitution was amended to read: \u201cExcept as provided by statute hereafter enacted by a two-thirds vote of the membership in each house of the Legislature, relevant evidence shall not be excluded in any criminal proceeding, including pretrial and post conviction motions and hearings, or in any trial or hearing of a juvenile for a criminal offense, whether heard in juvenile or adult court. Nothing in this section shall affect any existing statutory rule of evidence relating to privilege or hearsay, or Evidence Code, Sections 352, 782 or 1103. Nothing in this section shall affect any existing statutory or constitutional right of the press.\u201d (Cal. Const., art. I, \u00a7 28, subd. (dj.)\nRespondent notes that in People v. Wheeler (1992) 4 Cal.4th 284, 291 [14 Cal.Rptr.2d 418, 841 P.2d 938], we concluded that the truth-in-evidence rule \u201csupersedes all California restrictions on the admission of relevant evidence except those preserved or permitted by the express words of [California Constitution, article I,] section 28 [, subdivision] (d) itself.\u201d We continued: \u201cThe limitations on impeachment evidence contained in Evidence Code sections 787 and 788 do not fall within any of section 28[, subdivision] (d)\u2019s stated exceptions to [the] general rule that relevant evidence is admissible.\u201d (People v. Wheeler, supra, 4 Cal.4th at p. 292.) Respondent thus argues that our holding in Smith\u2014that a witness may not be impeached under Evidence Code section 788 with the length of the prison sentence\u2014did not survive the truth-in-evidence rule. Here, the prosecutor offered information about Widby\u2019s prison sentence to prove not the fact of the underlying conviction under Evidence Code section 788, but rather that Widby had nothing to lose by lying. (Evid. Code, \u00a7 780, subd. (f) [impeachment of witness with existence or nonexistence of bias, interest, or motive].)\nWe have never considered whether a witness may be impeached with the length of a prison sentence when offered not to prove the fact of the conviction, but rather to prove the witness has some other motive or bias. We need not decide that issue here, however, as any alleged error was harmless.\n\u201cAbsent fundamental unfairness, state law error in admitting evidence is subject to the traditional Watson test: The reviewing court must ask whether it is reasonably probable the verdict would have been more favorable to the defendant absent the error.\u201d (People v. Partida (2005) 37 Cal.4th 428, 439 [35 Cal.Rptr.3d 644, 122 P.3d 765], citing People v. Watson (1956) 46 Cal.2d 818, 836 [299 P.2d 243].)\nEven apart from the matter of Widby\u2019s federal prison term, the prosecutor thoroughly impeached Widby\u2019s credibility. On cross-examination, Widby admitted he had suffered three prior felony convictions and was friendly with the Santana Block Crips, who had once been allied with Widby\u2019s gang, the Atlantic Drive Crips. In fact, Widby displayed for the jury Atlantic Drive Crips and Santana Block Crips tattoos on his left wrist. Also, Widby testified he had spoken to defendant while they were both incarcerated at the Los Angeles County jail, thereby supporting the prosecutor\u2019s argument that defendant solicited Widby\u2019s testimony.\nMoreover, although other defense witnesses called into question the eyewitness identifications of defendant as the shooter, the jury clearly rejected their testimony by returning a guilty verdict. It is not reasonably probable the jury\u2019s categorical rejection of their testimony was based solely on the fact that Widby was serving a 10-year federal prison sentence.\nFinally, the evidence against defendant was overwhelming. Multiple eyewitnesses identified defendant as the shooter and defendant\u2019s vehicle as the vehicle involved. Defendant had a motive for the killings, given the active gang war between defendant\u2019s gang and Atlantic Drive Crips, Solomon\u2019s gang. Defendant himself had been shot by an Atlantic Drive Crips member several months before he committed these offenses. In addition, defendant\u2019s behavior after the shootings reflected a consciousness of guilt: He had his car repainted and fled to Bakersfield. Also telling of defendant\u2019s state of mind was his spontaneous statement to Detective Branscomb that he did not know why he was being charged with attempted murder and that he was not in Compton on the day of the shooting, before officers had informed him of the details of the charges on which he was being held.\nIn light of all of the evidence, it is not reasonably probable the verdict would have been more favorable to defendant had the trial court excluded evidence of Widby\u2019s federal prison term.\nC. Guilt Phase Instructions\n1. CALJIC No. 8.65\nDefendant contends the trial court erred by instructing the jury with CALJIC No. 8.65, which states: \u201cWhen one attempts to kill a certain person, but by mistake or inadvertence kills a different person, the crime, if any, so committed is the same as though the person originally intended to be killed, had been killed.\u201d Citing People v. Birreuta (1984) 162 Cal.App.3d 454 [208 Cal.Rptr. 635], defendant argues that at the time of his offense in 1989, the doctrine of transferred intent could not be applied where one killed his intended victim and also accidentally killed an unintended victim. The impact of CALJIC No. 8.65 was crucial, defendant asserts, because of the prosecutor\u2019s theory at trial that defendant\u2019s intended victim was Earl Solomon and that Ava Williams was an innocent bystander. The prosecutor thus argued in summation that defendant was guilty of murdering Ava Williams under a theory of transferred intent.\nAlthough defendant did not object to this instruction at trial, he may challenge it on appeal because it implicates his substantial rights. (\u00a7 1259; see People v. Gray (2005) 37 Cal.4th 168, 235 [33 Cal.Rptr.3d 451, 118 P.3d 496].)\nIn People v. Carlson (1974) 37 Cal.App.3d 349 [112 Cal.Rptr. 321], the defendant, who killed his pregnant wife, was convicted of voluntary manslaughter of the wife and second degree felony murder of the fetus. Carlson held \u201cthere can be no doubt that the doctrine of \u2018transferred intent\u2019 applies even though the original object of the assault is killed as well as the person whose death was the accidental or the unintended result of the intent to kill the former\u201d and in that case, \u201cif defendant was guilty of the killing of his wife without malice, i.e., voluntary manslaughter [citation], he would normally be guilty of the voluntary manslaughter of the fetus.\u201d (Id. at p. 357.) Because California law precluded a conviction of manslaughter of a fetus, the Carlson court reversed the murder conviction as to the fetus, finding the felony-murder rule inapplicable. (Id. at pp. 354\u2014358.)\nIn Birreuta, the Court of Appeal disagreed with Carlson, reasoning the doctrine of transferred intent was meant to \u201cinsure the adequate punishment of those who accidentally kill innocent bystanders, while failing to kill their intended victims.\u201d (People v. Birreuta, supra, 162 Cal.App.3d at p. 460.) Birreuta continued: \u201cWhen the intended victim is killed, however, there is no need for such an artificial doctrine. The defendant\u2019s premeditation, deliberation, intent to kill and malice aforethought are all directly employable in the prosecution for murdering his intended victim. The accidental killing may thus be prosecuted as a manslaughter or second- degree murder without ignoring the most culpable mental elements of the situation. There is no danger that a premeditated killing will go unpunished or be treated as a manslaughter because the murder of the intended victim will presumably be the subject of prosecution.\u201d (Ibid.)\nIn 2002, we disapproved Birreuta on this point and adopted the reasoning in Carlson, holding: \u201cWhether one conceptualizes the matter by saying that the intent to kill the intended target transfers to others also killed, or by saying that intent to kill need not be directed at a specific person, the result is the same: assuming legal causation, a person maliciously intending to kill is guilty of the murder of all persons actually killed. If the intent is premeditated, the murder or murders are first degree.\u201d (People v. Bland (2002) 28 Cal.4th 313, 323-324 [121 Cal.Rptr.2d 546, 48 P.3d 1107].)\nDefendant acknowledges Bland, but contends its reasoning cannot be applied retroactively to justify the transferred intent instruction here. Thus, defendant argues, under Birreuta he cannot be held liable for the murder of Ava Williams under a theory of transferred intent.\n\u201cIn determining whether a decision should be given retroactive effect, the California courts undertake first a threshold inquiry, inquiring whether the decision established new standards or a new rule of law. If it does not establish a new rule or standards, but only elucidates and enforces prior law, no question of retroactivity arises. [Citations.] Neither is there any issue of retroactivity when we resolve a conflict between lower court decisions, or address an issue not previously presented to the courts. In all such cases the ordinary assumption of retrospective operation [citations] takes full effect.\u201d (Donaldson v. Superior Court (1983) 35 Cal.3d 24, 36-37 [196 Cal.Rptr. 704, 672 P.2d 110], italics added; see also People v. Gallego (1990) 52 Cal.3d 115, 170 [276 Cal.Rptr. 679, 802 P.2d 169] [\u201cfor questions of retroactivity concerning matters of state law we adhere to the test employed in Donaldson\u201d'].)\nBirreuta acknowledged its conflict with Carlson but explained that the discussion in Carlson was dicta, \u201cunsupported by any real analysis.\u201d (People v. Birreuta, supra, 162 Cal.App.3d at p. 458.) At least one other case decided prior to defendant\u2019s offense, however, acknowledged the conflict between Birreuta and Carlson. (See People v. Czahara (1988) 203 Cal.App.3d 1468, 1472-1473 [250 Cal.Rptr. 836].) The conflict was acknowledged by this court in People v. Scott (1996) 14 Cal.4th 544 [59 Cal.Rptr.2d 178, 927 P.2d 288]. In Scott, the defendant was convicted of the attempted murder of the intended victim and murder of an unintended victim based upon transferred intent. We concluded that applying the transferred intent doctrine to convict the defendant of murdering the unintended victim did not preclude also convicting the defendant of attempted murder of the intended victim. The defendant in Scott, citing Birreuta, argued such liability treated him \u201cas if he intended to kill two people rather than one.\u201d (Scott, supra, 14 Cal.4th at p. 551.) Scott noted that \u201cin cases involving crimes relating to both intended and unintended victims, reliance on the doctrine [of transferred intent] to assign criminal liability has led to mixed results,\u201d citing Birreuta and Carlson among other cases. (Scott, supra, at p. 552.) Scott ultimately declined to pass on the soundness of Birreuta, stating \u201cthe facts of the case presented here do not involve the fatal shooting of both an intended and unintended victim . . . .\u201d (Ibid.)\nAlthough we declined to pass on Birreuta in Scott, we faced the issue directly in Bland, and resolved the acknowledged conflict among the lower courts. While defendant attempts to dismiss Carlson\u2019s reasoning as \u201cdicta,\u201d there appears little doubt Carlson\u2019s reasoning conflicted with the later decided Birreuta, a conflict noted in several cases, including Scott, and created uncertainty in the law. In fact, the first sentence in Bland reads: \u201cWe granted review to resolve issues involving transferred intent and proximate causation.\u201d (People v. Bland, supra, 28 Cal.4th at p. 317, italics added.) Bland itself did not hesitate to apply its reasoning to the defendant before that court. \u201cWhere, as here, the Supreme Court resolves a conflict between lower court decisions, there is \u2018no clear mle on which anyone could have justifiably relied\u2019 \u201d to bar retroactive application. (People v. Walsh (1996) 49 Cal.App.4th 1096, 1106, fn. 10 [57 Cal.Rptr.2d 214].)\nThus, the trial court did not err by instructing on transferred intent in a manner consistent with Bland.\n2. CALJIC No. 2.03\nDefendant next argues that his state and federal constitutional rights to due process, an impartial and properly instructed jury, and a fair and reliable trial were violated by instmcting the jury with CALJIC No. 2.03 as follows: \u201cIf you find that before this trial the defendant made a willfully false or deliberately misleading statement concerning the crimes for which he is now being tried, you may consider such statement as a circumstance tending to prove a consciousness of guilt. However, that conduct is not sufficient by itself to prove guilt, and its weight and significance, if any, are matters for your determination.\u201d\nSpecifically, defendant argues the instruction permitted irrational inferences and was impermissibly argumentative, thereby undermining evidence supporting his mistaken identity defense.\nAs defendant concedes, we have rejected identical arguments in other cases. (E.g., People v. Nakahara (2003) 30 Cal.4th 705, 713 [134 Cal.Rptr.2d 223, 68 P.3d 1190].) He offers no persuasive reason to reconsider these decisions.\nIV. Issues Relating to Penalty\nA. Exclusion of Testimony by Criminologist\nDefendant contends the trial court\u2019s exclusion of the proffered testimony of his penalty phase investigator Joel Sickler was erroneous under state evidentiary law and violated his Eighth and Fourteenth Amendment rights to present mitigating evidence.\nDefendant called Sickler, a criminologist, to testify about defendant\u2019s background and explain why people with similar backgrounds turn to gangs and crime. Sickler was also to testify that a person with defendant\u2019s background would adjust well to prison life and, if sentenced to life without the possibility of parole, would not be a management problem. Sickler began his testimony by informing the jury that he had a bachelor\u2019s degree in criminal justice and a master\u2019s degree in criminology. He explained that he had worked for seven years for the National Center on Institutions and Alternatives, advising courts on appropriate sentencing options for over 500 felony offenders. In private practice, Sickler acted as a sentencing consultant, testifying in four penalty phase hearings with respect to the defendant\u2019s background and identifying mitigating factors.\nAt this point, the prosecutor objected to Sickler\u2019s testimony, arguing that Sickler could not testify as to the proper sentence for defendant and that he lacked personal knowledge of defendant\u2019s background. The prosecutor contended only witnesses who actually knew defendant properly could present background evidence.\nDefendant argued that Sickler would not render an opinion on the proper sentence, but rather would testify to defendant\u2019s character, background, and history as mitigating evidence under section 190.3, factor (k): Defense counsel informed the court that Sickler\u2019s testimony would be based on a variety of records, including Aid to Families with Dependent Children (AFDC) and prison records, and interviews with family members. Defense counsel advised the court that Sickler would \u201csynthesize\u201d the information in the records and give a \u201chistorical\u201d view of what happened in defendant\u2019s life.\nThe trial court found no authority for an expert to \u201csynthesize\u201d information already presented through other witnesses and no need for Sickler to testify to defendant\u2019s background in light of the other testimony presented. The court questioned whether Sickler had the expertise to testify to defendant\u2019s propensity for violence or whether he would adjust well to prison life. Nevertheless, the trial court decided to conduct a hearing under Evidence Code section 402. Accordingly, in a hearing outside the jury\u2019s presence, Sickler testified that, as a sentencing investigator, he analyzed criminal defendants\u2019 backgrounds, including personal history, character, and prior criminal record, and determined whether a defendant was suitable for probation or other alternative sentencing. His role in this case was to identify mitigating factors, which he did by interviewing defendant\u2019s friends and family members and reviewing social services, court, prison, and police records.\nAccording to Sickler, AFDC records were relevant to show that defendant\u2019s mother, as a teenager, gave birth to defendant and his sister and that the family had been abandoned by defendant\u2019s father. He explained it would not be sufficient for the jurors simply to read the records without the help of his expert testimony because they might not be able to make the correlation between delinquency and being raised by a single mother, living in poverty, being abandoned by a father, and having a negative male role model in the home.\nSickler also reviewed police and prison reports of defendant\u2019s acts of violence while incarcerated to determine whether defendant would be a management problem if sentenced to life without the possibility of parole. Sickler acknowledged he was not qualified to offer an opinion as to how defendant would actually adjust to life in prison, and that his testimony would be limited to how a hypothetical individual with defendant\u2019s background would adjust to prison life. Sickler further acknowledged he was not a psychologist and could not testify to the psychological profile of someone with defendant\u2019s history of poverty, but rather could only testify regarding the general population.\nDefense counsel argued Sickler\u2019s testimony should be admitted because, he asserted, the rules of evidence are relaxed at the penalty phase and Sickler could provide relevant testimony based on the AFDC and prison records and his interviews with witnesses. Counsel explained that it was insufficient simply to provide the jury with the records themselves because Sickler would give an overview of the mitigating evidence based on the records and interviews, which would then be \u201ccorroborated\u201d by the lay witnesses. The defense also argued that the prosecution opened the door to evidence of defendant\u2019s good behavior in prison by putting on evidence of defendant\u2019s violent acts while incarcerated, and suggested that Sickler could describe pertinent differences between custodial conditions in local facilities and state prison.\nThe trial court excluded Sickler\u2019s testimony, finding that Sickler was not an expert on any relevant issues, but ruled that the defense could present the reports reviewed by Sickler through a duly qualified expert.\nExpert opinion testimony is admissible only if it is \u201c[r]elated to a subject that is sufficiently beyond common experience that the opinion of an expert would assist the trier of fact.\u201d (Evid. Code, \u00a7 801, subd. (a).) \u201cA person is qualified to testify as an expert if he has special knowledge, skill, experience, training, or education sufficient to qualify him as an expert on the subject to which his testimony relates. Against the objection of a party, such special knowledge, skill, experience, training, or education must be shown before the witness may testify as an expert.\u201d (Evid. Code, \u00a7 720, subd. (a).) \u201c \u2018The competency of an expert is relative to the topic and fields of knowledge about which the person is asked to make a statement.\u2019 \u201d (People v. Kelly (1976) 17 Cal.3d 24, 39 [130 Cal.Rptr. 144, 549 P.2d 1240].) We review the trial court\u2019s ruling on the admissibility of expert testimony for abuse of discretion. (People v. Smith (2003) 30 Cal.4th 581, 627 [134 Cal.Rptr.2d 1, 68 P.3d 302].)\nThe trial court did not abuse its discretion in excluding Sickler\u2019s proposed testimony. As the court reasoned, Sickler characterized himself not as an expert, but as a penalty phase investigator whose role was to collect and analyze records and information from lay witnesses about a defendant\u2019s background, and to \u201csynthesize\u201d such data for the jury. Although the stresses of prison life and an individual\u2019s ability to adapt to such circumstances are subjects beyond common experience and expert testimony thereon likely would have been helpful to the jury (Evid. Code, \u00a7 801, subd. (a)), Sickler was not qualified to offer such testimony. Sickler had a significant educational background in criminal justice and was experienced in noncapital sentencing alternatives, but he was not a psychologist and candidly acknowledged he was not qualified to offer an expert opinion as to the psychological impact of defendant\u2019s upbringing on his current behavior or how defendant would actually adjust to life in prison.\nBecause the trial court did not abuse its discretion in excluding Sickler\u2019s testimony, defendant\u2019s federal constitutional claim also lacks merit. A capital defendant has a constitutional right to present all relevant mitigating evidence at the penalty phase. (Skipper v. South Carolina (1986) 476 U.S. 1, 4 [90 L.Ed.2d 1, 106 S.Ct. 1669].) But \u201cthe United States Supreme Court never has suggested that this right precludes the state from applying ordinary rules of evidence to determine whether such evidence is admissible.\u201d (People v. Smithey (1999) 20 Cal.4th 936, 995 [86 Cal.Rptr.2d 243, 978 P.2d 1171].)\nEven if the trial court had abused its discretion in excluding Sickler\u2019s proposed testimony, however, any error would have been harmless under both the state and federal standards. Penalty phase error is prejudicial under state law if there is a \u201creasonable possibility\u201d the error affected the verdict. (People v. Gonzalez (2006) 38 Cal.4th 932, 961 [44 Cal.Rptr.3d 237, 135 P.3d 649].) This standard is identical in substance and effect to the federal harmless beyond a reasonable doubt standard enunciated in Chapman v. California (1967) 386 U.S. 18, 24 [17 L.Ed.2d 705, 87 S.Ct. 824]. (People v. Gonzalez, supra, 38 Cal.4th at p. 961.)\nDefendant intentionally fired an AK-47 into a crowded park, at one point aiming at a car containing two innocent women and their children. He shot and killed a rival gang member and an innocent teenaged mother of two. Further testimony regarding defendant\u2019s underprivileged background was largely cumulative of testimony by defendant\u2019s family members and friends that had been presented to the jury and was unlikely to overcome the heinous nature of these killings. In addition, evidence that a prisoner similar to defendant might adjust well to prison life likely would have been outweighed by the evidence of defendant\u2019s continued violence while in custody, even taking into account possible differences between local facilities and state prison. Based on these facts, there is no reasonable possibility that the penalty verdict would have been different had the jury been presented with Sickler\u2019s testimony.\nB. Removal of Juror J.L.\nDefendant claims the trial court\u2019s decision to inquire into potential juror bias and remove, over defense objection, Juror J.L. violated state common law and defendant\u2019s state constitutional right to a unanimous jury verdict.\n1. Facts\nOn the second day of penalty phase deliberations, D.G., the jury\u2019s foreperson, sent a note to the court, stating, \u201cWhat do we do if we have a juror that has admitted he does not believe in the death penalty, under any circumstances?\u201d The trial court consulted with counsel and determined that \u201cthe appropriate procedure would be to have the foreperson come out and determine who the juror is and if that is the position that that person has taken, then have that juror, once identified, come out and make a determination whether or not that juror does take that stance. If so, then that juror should be removed and an alternate selected at random and the jury instructed to begin to deliberate from the inception.\u201d\nDefense counsel objected, arguing that the juror had survived extensive voir dire questioning and should not be disqualified because, in the heat of deliberations, he developed \u201cgrave reservations\u201d about capital punishment. Defense counsel suggested that the court question D.G. about the note and admonish the entire jury that they had been qualified as capital jurors and should deliberate to the best of their ability.\nThe trial court declined to admonish the entire jury, viewing such a procedure as coercive. Instead the court concluded that it would inquire of D.G. and then, rather than allowing counsel to question her directly, would invite counsel to raise any lingering questions at sidebar. During the ensuing inquiry the foreperson stated that Juror J.L. had spoken with his minister the previous evening and had decided that he could not \u201cbring himself to take another human life.\u201d\nDefense counsel suggested the court inquire of J.L., and the court agreed. The court then engaged in the following colloquy with J.L.:\n\u201cThe Court: Is it your position that you could not vote for the death penalty under any circumstances no matter what the evidence in the case is?\u201d\n\u201c[J.L.]: Right.\n\u201cThe Court: It\u2019s without regard to what evidence is presented in the case?\n\u201c[J.L.]: Right.\n\u201cThe Court: That means that you would not consider the circumstances of the crime?\n\u201c[J.L.]: Right.\n\u201cThe Court: You would not consider circumstances in aggravation?\n\u201c[J.L.]: Right.\n\u201cThe Court: And would you not consider circumstances in mitigation?\n\u201c[J.L.]: Right.\n\u201cThe Court: You would under no circumstances without regard to what the evidence is vote for the death penalty?\n\u201c[J.L.]: Right.\u201d\nDefense counsel then requested the court ask J.L. if he would be unable to vote for the death penalty in any case, or if he was merely disinclined to impose the death penalty on the facts of this case. The trial court concluded that J.L.\u2019s answers reflected an inability to vote for the death penalty in any case and thus declined to question him further. The court then excused J.L. and randomly selected an alternate to take his place on the jury.\n2. Inquiry of D.G.\nDefendant argues that the trial court erred by questioning D.G. regarding J.L.\n\u201cThe need to protect the sanctity of jury deliberations . . . does not preclude reasonable inquiry by the court into allegations of misconduct during deliberations.\u201d (People v. Cleveland (2001) 25 Cal.4th 466, 476 [106 Cal.Rptr.2d 313, 21 P.3d 1225].) In fact, a hearing is required \u201c \u2018where the court possesses information which, if proven to be true, would constitute \u201cgood cause\u201d to doubt a juror\u2019s ability to perform his duties and would justify his removal from the case.\u2019 \u201d (Id. at p. 478.) In making such inquiry, the trial court should focus on the juror\u2019s conduct rather than the content of the deliberations. (Id. at p. 485.) Ultimately, the decision whether to investigate is within the discretion of the trial court. (People v. Burgener, supra, 29 Cal.4th 833, 878.)\nAs we explained in Cleveland: \u201c[Pjroper grounds for removing a deliberating juror include refusal to deliberate. . . . Examples of refusal to deliberate include, but are not limited to, expressing a fixed conclusion at the beginning of deliberations and refusing to consider other points of view, refusing to speak to other jurors, and attempting to separate oneself physically from the remainder of the jury.\u201d (People v. Cleveland, supra, 25 Cal.4th at p. 485.)\nThe foreperson\u2019s note informed the court that a juror had decided after just one afternoon of deliberations that he was unable to vote for the death penalty under any circumstances. Thus, the note indicated to the court that the juror was refusing to consider other points of view. Assuming the note accurately characterized the juror\u2019s attitude, the trial court was on notice that a juror was refusing to deliberate and was subject to removal. (People v. Cleveland, supra, 25 Cal.4th at p. 485.) Under these circumstances, the trial court acted well within its discretion in questioning D.G., and in fact was required to do so. (Id. at p. 478.)\nDefendant argues, however, that rather than embarking on an investigation of D.G.\u2019s allegations, the trial court should first have reinstructed the jury regarding their duties and allowed them to continue deliberations. We have held that such a procedure might be appropriate in many cases, but have never mandated it. In Cleveland, we noted that \u201cit often is appropriate for a trial court that questions whether all of the jurors are participating in deliberations to reinstruct the jurors regarding their duty to deliberate and to permit the jury to continue deliberations before making further inquiries that could intrude upon the sanctity of deliberations.\u201d (People v. Cleveland, supra, 25 Cal.4th at p. 480.) But, as Cleveland suggests, this procedure may not be appropriate in every case. Where, as here, the trial court is faced with allegations that a juror would refuse to impose the death penalty under any circumstances, the court was obligated to conduct an investigation. (Id. at p. 478.)\n3. Discharge of J.L.\nDefendant next argues that, assuming the trial court was justified in questioning D.G., it erred in ultimately excusing J.L.\nSection 1089 provides, in relevant part, \u201cIf at any time, whether before or after the final submission of the case to the jury, a juror dies or becomes ill, or upon other good cause shown to the court is found to be unable to perform his or her duty . . . the court may order the juror to be discharged.....\u201d As discussed above, a juror\u2019s refusal to deliberate constitutes proper grounds for removal. (People v. Cleveland, supra, 25 Cal.4th at p. 485.) The determination of good cause to excuse a juror rests within the sound discretion of the court and is upheld if supported by substantial evidence. (Id. at p. 474.) The juror\u2019s inability to perform, however, must \u201c \u2018 \u201c \u2018appear in the record as a demonstrable reality.\u2019 \u201d \u2019 \u201d (Ibid.)\nThe record here meets the standard enunciated in section 1089 and Cleveland. After a single afternoon of deliberations, J.L. consulted his minister regarding the death penalty. The next day, J.L. announced to the rest of the jury that he could not vote for the death penalty under any circumstances. When questioned by the trial court, J.L. confirmed he could not vote for the death penalty no matter what the evidence showed. J.L. \u201cexpress[ed] a fixed conclusion at the beginning of deliberations and refus[ed] to consider other points of view,\u201d thereby refusing to deliberate. (People v. Cleveland, supra, 25 Cal.4th at p. 485.) Thus, the trial court did not err in removing J.L. from the jury.\nDefendant further argues the trial court erred in failing to clarify whether J.L. was refusing to vote for death in this case or whether he would be unable to impose a death sentence in any case. The trial court declined to question J.L. further, finding it clear from his answers that he would not impose a death sentence in any case. Its finding is supported by the record. The trial court asked whether J.L. could impose the death penalty \u201cunder any circumstances\u201d regardless of the evidence presented in the case, and J.L. replied that under no circumstances, regardless of the evidence, would he vote for the death penalty.\nThe same reasoning dictates rejection of defendant\u2019s argument that the trial court\u2019s inquiry violated Evidence Code section 1150 by intruding on J.L.\u2019s mental processes in deliberations; J.L., in effect, was not deliberating.\nThus, the trial court did not err in removing J.L. from the jury.\nC. Penalty Phase Instructions\n1. Trial Court\u2019s Rejection of Proposed Instructions\nDefendant asserts the trial court erred in rejecting three penalty phase instructions proposed by the defense.\nFirst, defendant claims the trial court erred in refusing his proposed instruction that \u201cWhether or not you have a lingering doubt as to whether the defendant committed the two homicides of which you have convicted him, you may consider this as a factor in mitigation.\u201d We repeatedly have rejected state and federal law claims that a trial court must instruct the jury concerning lingering doubt. (E.g., People v. Robinson (2005) 37 Cal.4th 592, 653-654 [36 Cal.Rptr.3d 760, 124 P.3d 363].) Defendant presents no reason to revisit that conclusion.\nNext, defendant argues the trial court erred by refusing to instruct the jury that \u201cDuring the penalty phase of the trial testimony has been presented from the defendant\u2019s mother. She has testified to her love for the defendant and she does not wish him to be put to death. You are instructed that you may consider and take into account as mitigating factors these expressions of love and concern for Paul Watson in determining whether he should be sentenced to death or life in prison without parole. This evidence may be sufficient standing alone to warrant the return of a verdict of life without the possibility of parole.\u201d\nThe trial court properly denied this instruction as argumentative. (People v. Sanders (1995) 11 Cal.4th 475, 559-561 [46 Cal.Rptr.2d 751, 905 P.2d 420].) This instruction merely highlighted evidence defendant wished the jury to consider in mitigation and sought sympathy for defendant\u2019s mother, an impermissible consideration. (People v. Ochoa (1998) 19 Cal.4th 353, 455-456 [79 Cal.Rptr.2d 408, 966 P.2d 442].)\nFinally, defendant argues the trial court erred in refusing a multipart instruction that sought to guide the jury in its weighing of aggravating and mitigating factors and its ultimate penalty determination. The proposed instruction read as follows:\n\u201cYou are instructed that you may return a verdict of life without the possibility of parole, even though you should find the presence of one or more aggravating circumstances. One mitigating circumstance may be sufficient for you to return a verdict of life without the possibility of parole.\n\u201cIf a mitigating circumstance or an aspect of the background, character or your observation of the defendant arouses sympathy or compassion, so as to persuade you that death is not an appropriate penalty, you may act in response thereto and opt instead for life without the possibility of parole.\n\u201cThe laws of the State of California express no preference as to which punishment, death or life without the possibility of parole is appropriate. Punishment is the sole province of the jury.\u201d\nThe trial court properly rejected as argumentative the first part of the proposed instruction because it states that any mitigating evidence may support a sentence of life without the possibility of parole, without also stating that any aggravating evidence may support a death sentence. (People v. Lenart (2004) 32 Cal.4th 1107, 1135 [12 Cal.Rptr.3d 592, 88 P.3d 498].) Additionally, the point of the proposed instruction, to make clear that one factor in mitigation was sufficient in and of itself to outweigh the three factors in aggravation, was conveyed to the jury through CALJIC No. 8.88 (weight to be afforded any factor was within the discretion of the jury).\nThe second part of the proposed instruction was properly rejected as duplicative in light of the trial court\u2019s instruction that, in determining penalty, the jury should consider pity and sympathy for defendant. (People v. Carter (2003) 30 Cal.4th 1166, 1226-1227 [135 Cal.Rptr.2d 553, 70 P.3d 981].)\nFinally, although it is not error for a trial court to instruct that the law has no preference as to penalty and that the penalty decision is the sole province of the jury (People v. Samayoa (1997) 15 Cal.4th 795, 852-853 [64 Cal.Rptr.2d 400, 938 P.2d 2]), neither was it error for the trial court to refuse to so instruct defendant\u2019s jury. The court clearly and unambiguously instructed the jury that the decision between a sentence of death and life without the possibility of parole was within their exclusive discretion. Specifically, the trial court instructed the jury that it \u201cmust now determine which of said penalties shall be imposed on the defendant\u201d (CALJIC No. 8.84), that it was to determine which penalty was to be imposed based on all the evidence received during any part of the trial (CALJIC No. 8.85), that nothing the court did or said should be taken as to \u201cintimate or suggest what you should find to be the facts\u201d (CALJIC No. 17.30), and that \u201c[ejach of you must decide the case for yourself . . .\u201d (CALJIC No. 17.40). Perhaps most significantly, the jury was instructed pursuant to CALJIC No. 8.88 as follows:\n\u201cIt is now your duty to determine which of the two penalties, death or confinement in the state prison for life without the possibility of parole, shall be imposed on the defendant.\n\u201cAfter having heard all of the evidence, and after having heard and considered the arguments of counsel, you shall consider, take into account and be guided by the applicable factors of aggravating and mitigating circumstances upon which you have been instructed. [][]... [f]\n\u201cYou are free to assign whatever moral or sympathetic value you deem appropriate to each and all of the various factors you are permitted to consider. In weighing the various circumstances you determine under the relevant evidence which penalty is justified and appropriate by considering the totality of the aggravating circumstances with the totality of the mitigating circumstances. To return a judgment of death, each of you must be persuaded that the aggravating circumstances are so substantial in comparison with the mitigating circumstances that it warrants death instead of life without parole.\u201d\nIn light of these instructions, there was no room for the jury to speculate that the laws of the State of California had a preference as to penalty. Rather, the jurors certainly must have understood that the decision was left to their sole discretion.\n2. Definition of Life Without the Possibility of Parole\nDefendant claims the trial court had a sua sponte duty to instruct the jury that a sentence of life without possibility of parole meant that defendant would never be considered for parole. We addressed this argument in People v. Holt (1997) 15 Cal.4th 619, 687-689 [63 Cal.Rptr.2d 782, 937 P.2d 213], holding that a trial court does not have a sua sponte duty to define \u201clife without the possibility of parole\u201d because the term has a plain meaning that does not require further explanation. We further concluded such an instruction would be erroneous given the gubernatorial powers of pardon and commutation and the possibility that the death penalty statute could be invalidated in the future. (Id. at p. 688.) Defendant presents no reason to reconsider our holding.\n3. CALJIC No. 8.85\nDefendant next argues that his rights under the Fifth, Sixth, Eighth, and Fourteenth Amendments to the federal Constitution were violated when the trial court instructed the jury with CALJIC No. 8.85.\nAlthough defendant did not challenge this instruction at trial, this claim is cognizable on appeal because it implicates his substantial rights. (\u00a7 1259; see People v. Gray, supra, 37 Cal.4th 168, 235.)\nDefendant first argues that section 190.3, factor (b) (factor (b)) violates his rights to due process and equal protection by failing to provide sufficient guidance to the jury regarding their consideration of defendant\u2019s past unadjudicated criminal conduct. We previously have rejected this argument. (People v. Kipp (2001) 26 Cal.4th 1100, 1138 [113 Cal.Rptr.2d 27, 33 P.3d 450].)\nNext, defendant argues that factor (b) violated his rights to due process and a reliable penalty determination under the Eighth and Fourteenth Amendments by permitting the jury to consider unreliable evidence of his unadjudicated criminal conduct. Thus, he appears to mount a broad attack on the consideration by the jury of unadjudicated criminal conduct generally. We often have rejected this contention. (E.g., People v. Anderson (2001) 25 Cal.4th 543, 584 [106 Cal.Rptr.2d 575, 22 P.3d 347].)\nDefendant also claims that factor (b) violates state and federal constitutional rights to equal protection and due process because it allows the consideration of unadjudicated criminal conduct in capital sentencing, while such conduct may not be used in sentencing noncapital offenders. His claim fails because \u201ccapital and noncapital defendants are not similarly situated and therefore may be treated differently without violating constitutional guarantees of equal protection of the laws or due process of law . . . .\u201d (People v. Manriquez (2005) 37 Cal.4th 547, 590 [36 Cal.Rptr.3d 340, 123 P.3d 614], citations omitted.)\nFinally, defendant argues the trial court violated his constitutional rights by failing to delete inapplicable factors from CALJIC No. 8.85. We previously have rejected this argument. (People v. Perry (2006) 38 Cal.4th 302, 319 [42 Cal.Rptr.3d 30, 132 P.3d 235].) Defendant presents no persuasive reason to reconsider our precedents.\n4. Scope of Sentencing Discretion\nDefendant asserts that CALJIC No. 8.88 violated his rights to due process, a fair jury trial, and a reliable penalty determination. This claim is cognizable on appeal despite defendant\u2019s failure to object at trial because it implicates his substantial rights. (\u00a7 1259; see People v. Gray, supra, 37 Cal.4th at p. 235.)\nContrary to defendant\u2019s arguments, his constitutional rights were not infringed by the reading of CALJIC No. 8.88. First, the language in CALJIC No. 8.88 directing the jury to determine whether the aggravating circumstances are \u201cso substantial\u201d in comparison to the mitigating circumstances is not unconstitutionally vague. (People v. Chatman (2006) 38 Cal.4th 344, 409 [42 Cal.Rptr.3d 621, 133 P.3d 534].) Moreover, CALJIC No. 8.88 is not defective in requiring the jury to determine whether the death penalty is \u201cwarranted\u201d rather than \u201cappropriate.\u201d (People v. Perry, supra, 38 Cal.4th at p. 320; People v. Medina (1995) 11 Cal.4th 694, 781 [47 Cal.Rptr.2d 165, 906 P.2d 2].) Neither is it defective in failing to inform the jurors that defendant did not carry the burden of persuading them that the death penalty was inappropriate. (People v. Medina, supra, 11 Cal.4th at p. 782.) Finally, the trial court need not instruct the jury that a life sentence is mandatory if circumstances in aggravation do not outweigh those in mitigation, or that a life sentence could be imposed even if aggravating evidence outweighed mitigating evidence. (Id. at pp. 781-782.)\nD. Constitutionality of California\u2019s Death Penalty Law\nDefendant presents a number of familiar attacks on the constitutionality of California\u2019s death penalty statute. We previously have rejected these arguments, and defendant presents no compelling reason for us to reconsider those holdings. Below we briefly describe defendant\u2019s arguments and the cases rejecting them.\nCalifornia\u2019s death penalty law is not unconstitutional for failing to sufficiently narrow the class of death-eligible defendants to the most serious offenders. (People v. Perry, supra, 38 Cal.4th at p. 322; People v. Demetrulias (2006) 39 Cal.4th 1, 43-44 [45 Cal.Rptr.3d 407, 137 P.3d 229].)\nAllowing the jury to consider the circumstances of the crime under section 190.3, factor (a) does not lead to the arbitrary and capricious imposition of the death penalty. (People v. Guerra, supra, 37 Cal.4th 1067, 1165; People v. Hinton (2006) 37 Cal.4th 839, 913 [38 Cal.Rptr.3d 149, 126 P.3d 981]; People v. Kennedy (2005) 36 Cal.4th 595, 641 [31 Cal.Rptr.3d 160, 115 P.3d 472].)\nThe death penalty statute is not unconstitutional for failing to impose a proof-beyond-a-reasonable-doubt standard for finding the existence of aggravating factors, finding aggravating factors outweigh mitigating factors, or finding that death is the appropriate penalty. (People v. Snow (2003) 30 Cal.4th 43, 126 [132 Cal.Rptr.2d 271, 65 P.3d 749]; People v. Box, supra, 23 Cal.4th 1153, 1216.)\nCalifornia\u2019s death penalty law is not unconstitutional for failing to impose a burden to prove that death is appropriate, either beyond a reasonable doubt or by a preponderance of the evidence. (People v. Perry, supra, 38 Cal.4th at p. 321; People v. Box, supra, 23 Cal.4th at p. 1216.) Neither is the law invalid for not requiring a jury instruction on the burden of proof. (People v. Box, supra, 23 Cal.4th at p. 1216; see also People v. Morrison (2004) 34 Cal.4th 698, 731 [21 Cal.Rptr.3d 682, 101 P.3d 568] [neither Apprendi v. New Jersey (2000) 530 U.S. 466 [147 L.Ed.2d 435, 120 S.Ct. 2348] nor Ring v. Arizona (2002) 536 U.S. 584 [153 L.Ed.2d 556, 122 S.Ct. 2428] warrants reconsideration of our conclusion that the death penalty statute is not unconstitutional for failing to provide the jury with instructions on the burden of proof].)\nA jury in a capital case need not make written findings or achieve unanimity as to aggravating circumstances. (People v. Kennedy, supra, 36 Cal.4th at p. 641; People v. Morrison, supra, 34 Cal.4th at p. 730.) California\u2019s death penalty statute does not violate equal protection by denying capital defendants certain procedural safeguards, such as jury unanimity and written jury findings, while affording such safeguards to noncapital defendants. (People v. Blair (2005) 36 Cal.4th 686, 754 [31 Cal.Rptr.3d 485, 115 P.3d 1145].)\nThe jury properly may consider a defendant\u2019s unadjudicated criminal activity at the penalty phase and need not agree unanimously that the defendant committed those acts. (People v. Smith, supra, 30 Cal.4th 581, 642; People v. Michaels (2002) 28 Cal.4th 486, 541-542 [122 Cal.Rptr.2d 285, 49 P.3d 1032].)\nThe use of restrictive adjectives, such as \u201cextreme\u201d and \u201csubstantial,\u201d in the sentencing statute and instructions do not render either unconstitutional. (People v. Kennedy, supra, 36 Cal.4th at p. 641.)\nCalifornia\u2019s death penalty statute is not unconstitutional for failing to require a jury instruction as to which factors are aggravating and which are mitigating, or an instruction that the absence of mitigating factors does not constitute aggravation. (People v. Cunningham (2001) 25 Cal.4th 926, 1041 [108 Cal.Rptr.2d 291, 25 P.3d 519].)\nFinally, the federal Constitution does not require intercase proportionality review. (People v. Kennedy, supra, 36 Cal.4th at p. 641.)\nE. Violation of International Law\nDefendant contends that the use of capital punishment as an assertedly \u201cregular\u201d form of punishment for substantial numbers of crimes, rather than as an extraordinary punishment for extraordinary crimes, violates international norms of human decency. He also argues that the use of the death penalty as a \u201cregular\u201d form of punishment violates the law of nations and is therefore unconstitutional \u201cbecause international law is part of our law.\u201d We have rejected both of these arguments (see, e.g., People v. Blair, supra, 36 Cal.4th 686, 754-755), and defendant presents no reason to reconsider our conclusion.\nV. Cumulative Error\nDefendant argues that the cumulative effect of errors in both phases of his trial undermined the fundamental fairness of his trial and the reliability of his sentence. Whether considered independently or together, any errors or assumed errors are nonprejudicial and do not undermine defendant\u2019s conviction or sentence.\nVI. Disposition\nThe judgment is affirmed.\nGeorge, C. J., Kennard, J., Baxter, J., Werdegar, J., Chin, J., and Corrigan, J., concurred.\nAppellant\u2019s petition for a rehearing was denied June 18, 2008. George, C. J., Werdegar, J., and Corrigan, J., did not participate therein.\nAll statutory references are to the Penal Code unless otherwise noted.\nKelly Park is bordered to the north by Alondra Boulevard, to the west by Castlegate Avenue, to the south by Caldwell Street, and to the east by Harris Avenue.\nThe reference to attempted murder evidently related to the shooting of Brian Owens.\nHovey v. Superior Court (1980) 28 Cal.3d 1, 80 [168 Cal.Rptr. 128, 616 P.2d 1301] (Hovey).\nWhether a court must perform a comparative juror analysis for the first time on appeal to evaluate the prosecutor\u2019s reasons for peremptorily challenging prospective jurors is an issue that is currently pending in this court in People v. Lenix, review granted January 24, 2007, S148029. For purposes of argument only, we assume in this case that such an analysis is required. (See People v. Guerra (2006) 37 Cal.4th 1067, 1106 [40 Cal.Rptr.3d 118, 129 P.3d 321].)\nT.J.\u2019s juror questionnaire is not included in the record and has apparently been lost or destroyed. During Hovey voir dire, however, counsel questioned T.J. about his questionnaire answer that the death penalty should only be imposed when there is no doubt about the defendant\u2019s guilt. The questioning revealed that T.J. had underlined the words \u201cno doubt.\u201d\nDefendant here and in a number of other claims urges that the error or misconduct he is asserting infringed various of his constitutional rights to due process and a fair trial. What we stated in People v. Boyer (2006) 38 Cal.4th 412, 441, footnote 17 [42 Cal.Rptr.3d 677, 133 P.3d 581], applies here: \u201cIn most instances, insofar as defendant raised the issue at all in the trial court, he failed explicitly to make some or all of the constitutional arguments he now advances. In each instance, unless otherwise indicated, it appears that either (1) the appellate claim is of a kind . . . that required no trial court action by the defendant to preserve it, or (2) the new arguments do not invoke facts or legal standards different from those the trial court itself was asked to apply, but merely assert that the trial court\u2019s act or omission, insofar as wrong for the reasons actually presented to that court, had the additional legal consequence of violating the Constitution. To that extent, defendant\u2019s new constitutional arguments are not forfeited on appeal. [Citations.] [f] In the latter instance, of course, rejection, on the merits, of a claim that the trial court erred on the issue actually before that court necessarily leads to rejection of the newly applied constitutional \u2018gloss\u2019 as well. No separate constitutional discussion is required in such cases, and we therefore provide none.\u201d\nThe prosecutor initially sought to introduce exhibits 6A-G, but conceded the photograph originally identified as 6F was largely duplicative of 6E. He therefore withdrew that photograph and renumbered the exhibits 6A-F.\nThe record is not entirely clear whether defendant later objected to the questioning of J.L. After Defense Counsel John Johnson requested that J.L. be called, Cocounsel John Doyle stated, \u201cWe would object as being brought out and inquired of.\u201d\nThe record does not reflect the nature of J.L.\u2019s conversation with his minister. This conversation, standing alone, might have constituted juror misconduct, but because defendant has not asserted a claim of juror misconduct in this appeal, we do not address it.\nCALJIC No. 8.85 (5th ed. 1988) parallels the provisions of section 190.3, instructing: \u201cIn determining which penalty is to be imposed on defendant, you shall consider all of the evidence which has been received during any part of the trial of this case, except as you may be hereafter instructed. You shall consider, take into account and be guided by the following factors, if applicable:\n\u201c(a) The circumstances of the crime of which the defendant was convicted in the present proceeding and the existence of any special circumstance found to be true.\n\u201c(b) The presence or absence of criminal activity by the defendant, other than the crime for which the defendant has been tried in the present proceedings, which involved the use or attempted use of force or violence or the express or implied threat to use force or violence.\n\u201c(c) The presence or absence of any prior felony conviction, other than the crimes for which the defendant has been tried in the present proceedings.\n\u201c(d) Whether or not the offense was committed while the defendant was under the influence of extreme mental or emotional disturbance.\n\u201c(e) Whether or not the victim was a participant in the defendant\u2019s homicidal conduct or consented to the homicidal act.\n\u201c(f) Whether or not the offense was committed under circumstances which the defendant reasonably believed to be a moral justification or extenuation for his conduct.\n\u201c(g) Whether or not the defendant acted under extreme duress or under the substantial domination of another person.\n\u201c(h) Whether or not at the time of the offense the capacity of the defendant to appreciate the criminality of his conduct or to conform his conduct to the requirements of law was impaired as a result of mental disease or defect or the effects of intoxication.\n\u201c(i) The age of the defendant at the time of the crime.\n\u201c(j) Whether or not the defendant was an accomplice to the offense and his participation in the commission of the offense was relatively minor.\n\u201c(k) Any other circumstance which extenuates the gravity of the crime even though it is not a legal excuse for the crime and any sympathetic or other aspect of the defendant\u2019s character or record that the defendant offers as a basis for a sentence less than death, whether or not related to the offense for which he is on trial. You must disregard any jury instruction given to you in the guilt or innocence phase of this trial which conflicts with this principle.\u201d\nAs modified at trial, CALJIC No. 8.88 (5th ed. 1988), reads as follows:\n\u201cIt is now your duty to determine which of the two penalties, death or confinement in the state prison for life without possibility of parole, shall be imposed on the defendant.\n\u201cAfter having heard all of the evidence and after having heard and considered the arguments of counsel, you shall consider, take into account and be guided by the applicable factors or aggravating and mitigating circumstances upon which you have been instructed.\n\u201cAn aggravating factor is any fact, condition] or event attending the commission of a crime which increases its guilt or enormity, or adds to its injurious consequences which is above and beyond the elements of the crime itself.\n\u201cA mitigating circumstance is any fact, condition or event which, as such, does not constitute a justification or excuse for the crime in question but may be considered as an extenuating circumstance in determining the appropriateness of the death penalty.\n\u201cThe weighing of aggravating and mitigating circumstances does not mean a mere mechanical counting of factors on each side of an imaginary scale or the arbitrary assignment of weights to any of them. You are free to assign whatever moral or sympathetic value you deem appropriate to each and all of the various factors you are permitted to consider.\n\u201cIn weighing the various circumstances you determine under the relevant evidence which penalty is justified and appropriate by considering the totality of the aggravating circumstances with the totality of the mitigating circumstances.\n\u201cTo return a judgment of death, each of you must be persuaded that the aggravating circumstances are so substantial in comparison with the mitigating circumstances that it warrants death instead of life without parole.\u201d",
+        "type": "majority",
+        "author": "MORENO, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Lynn S. Coffin and Michael J. Hersek, State Public Defenders, under appointment by the Supreme Court, and Peter R. Silten, Deputy State Public Defender, for Defendant and Appellant.",
+      "Bill Lockyer and Edmund G. Brown, Jr., Attorneys General, David P. Druliner and Robert R. Anderson, Chief Assistant Attorneys General, Carol Wendelin Pollack and Pamela C. \" Hamanaka, Assistant Attorneys General, William T. Harter, Susan Lee Frierson, April S. Rylaarsdam, John R. Gorey and Nancy G. James, Deputy Attorneys General, for Plaintiff and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. S024471.\nMay 8, 2008.]\nTHE PEOPLE, Plaintiff and Respondent, v. PAUL GREGORY WATSON, Defendant and Appellant.\nCounsel\nLynn S. Coffin and Michael J. Hersek, State Public Defenders, under appointment by the Supreme Court, and Peter R. Silten, Deputy State Public Defender, for Defendant and Appellant.\nBill Lockyer and Edmund G. Brown, Jr., Attorneys General, David P. Druliner and Robert R. Anderson, Chief Assistant Attorneys General, Carol Wendelin Pollack and Pamela C. \" Hamanaka, Assistant Attorneys General, William T. Harter, Susan Lee Frierson, April S. Rylaarsdam, John R. Gorey and Nancy G. James, Deputy Attorneys General, for Plaintiff and Respondent."
+  },
+  "file_name": "0652-01",
+  "first_page_order": 690,
+  "last_page_order": 743
+}

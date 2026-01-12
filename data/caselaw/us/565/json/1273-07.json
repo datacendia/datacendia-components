@@ -1,0 +1,59 @@
+{
+  "id": 12252843,
+  "name": "Martin v. United States",
+  "name_abbreviation": "Martin v. United States",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. 11-8843",
+  "first_page": "1273",
+  "last_page": "1273",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1273"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.613,
+    "sha256": "dd98cc3424d807fea34d81737d9fee7f11818db73ba5d6c52c272f89db19fff3",
+    "simhash": "1:028a980bdb85d418",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Martin v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8843.\nMartin v. United States."
+  },
+  "file_name": "1273-07",
+  "first_page_order": 1355,
+  "last_page_order": 1355
+}

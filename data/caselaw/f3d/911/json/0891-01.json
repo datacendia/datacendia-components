@@ -1,0 +1,129 @@
+{
+  "id": 12519601,
+  "name": "UNITED STATES of America, Plaintiff-Appellee, v. Mandy L. HAGEN, Defendant-Appellant.",
+  "name_abbreviation": "United States v. Hagen",
+  "decision_date": "2019-01-02",
+  "docket_number": "No. 18-1579",
+  "first_page": "891",
+  "last_page": "897",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "911 F.3d 891"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "7th Cir.",
+    "id": 9010,
+    "name": "United States Court of Appeals for the Seventh Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "528 F.3d 525",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3581606
+      ],
+      "weight": 6,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "527"
+        },
+        {
+          "parenthetical": "internal quotation marks omitted"
+        },
+        {
+          "page": "527",
+          "parenthetical": "\"A sentence based on an incorrect Guideline range constitutes an error affecting substantial rights and can thus constitute plain error, which requires us to remand unless we have reason to believe that the error did not affect the district court's selection of a particular sentence.\""
+        },
+        {
+          "page": "527"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/528/0525-01"
+      ]
+    },
+    {
+      "cite": "416 N.E.2d 736",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 1981,
+      "pin_cites": [
+        {
+          "page": "739"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "48 Ill.Dec. 463",
+      "category": "reporters:state",
+      "reporter": "Ill. Dec.",
+      "year": 1981,
+      "opinion_index": 0
+    },
+    {
+      "cite": "93 Ill.App.3d 6",
+      "category": "reporters:state",
+      "reporter": "Ill. App. 3d",
+      "case_ids": [
+        3136079
+      ],
+      "year": 1981,
+      "opinion_index": 0,
+      "case_paths": [
+        "/ill-app-3d/93/0006-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 669,
+    "char_count": 14236,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2591471549113481
+    },
+    "sha256": "f6d1164262457eec84d40ad44f9b0573358052b67cece9b84edcebd64e0c1ac2",
+    "simhash": "1:89e25da51bf19d5b",
+    "word_count": 2293
+  },
+  "last_updated": "2024-02-27T18:47:02.365226+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Rovner, Sykes, and Barrett, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee,\nv.\nMandy L. HAGEN, Defendant-Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Barrett, Circuit Judge.\nMandy Hagen was convicted twice under Illinois law for failing to get her children to school. When she later pleaded guilty in federal court for conspiring to distribute methamphetamine, the district court counted her two convictions for allowing child truancy toward her criminal history score. That was an error. Section 4A1.2(c) of the Sentencing Guidelines excludes certain crimes, and those \"similar to\" them, from a defendant's criminal history. One of the listed offenses is non-support, which involves failing to provide for a child's basic needs. Permitting truancy is a similar offense, and a less serious one at that. Hagen's criminal history score must be recalculated, this time excluding her two truancy-related offenses.\nI.\nIn 2013, Mandy Hagen joined a scheme to distribute methamphetamine to several counties in Illinois. As part of this enterprise, she sold meth, provided ingredients and a venue for its manufacture, and collected drug debts. After a few close calls with law enforcement, Hagen was finally arraigned in May 2017. She pleaded guilty to a single count of conspiracy to distribute more than 50 grams of methamphetamine.\nAt sentencing, the government contended that the district court should count Hagen's two prior offenses for Guardian Allows Child Truancy, a crime under 105 Ill. Comp. Stat. 5/26-10, in calculating her criminal history score. See U.S.S.G. \u00a7 4A1.1(c). Hagen had pleaded guilty to this offense twice. During the 2013-14 school year, she allowed her child M.F. to be truant for 21 days. Then in 2015, she allowed another of her children, B.F., to accumulate 18 unexcused absences. Including these two convictions in the calculation of Hagen's criminal history score put her in a higher criminal history category than she would have otherwise been in.\nHagen objected to their inclusion, insisting that they fell within \u00a7 4A1.2(c) of the Guidelines, which excludes certain specific offenses-and those \"similar to\" them-from a defendant's criminal history. According to Hagen, Guardian Allows Child Truancy is similar enough to the listed excluded offense of \"[j]uvenile status offenses and truancy\" that it should be excluded. The government responded that permitting truancy is a more serious offense than actually being truant, since adult guardians are held to a higher standard of responsibility than are the children in their care. The district court sided with the government, and Hagen appeals that decision.\nII.\nUnder the Guidelines, prior offenses-including misdemeanors and petty offenses-typically increase the defendant's criminal history score, which in turn affects the recommended sentencing range. But \u00a7 4A1.2(c) of the Guidelines provides two lists of offenses that courts are to treat differently when calculating a criminal history score. Section 4A1.2(c)(1) instructs that\n[s]entences for the following prior offenses and offenses similar to them, by whatever name they are known, are counted only if (A) the sentence was a term of probation of more than one year or a term of imprisonment of at least thirty days, or (B) the prior offense was similar to an instant offense[.]\nIt then lists various offenses, including careless driving, gambling, contempt of court, prostitution, and non-support. Section 4A1.2(c)(2) says that certain offenses should never be counted. Those include offenses such as fish and game violations, juvenile status offenses and truancy, loitering, and speeding. U.S.S.G. \u00a7 4A1.2(c)(2). Like \u00a7 4A1.2(c)(1), this section states that any offenses \"similar to\" the enumerated offenses, \"by whatever name they are known,\" are not to be counted. Id.\nHagen concedes that allowing truancy is not specifically listed in either \u00a7 4A1.2(c)(1) or (c)(2). The question is whether her convictions should be excluded from her criminal history score because they are \"similar to\" one or more of those listed offenses. The Guidelines commentary on \u00a7 4A1.2(c) lists five factors for courts to consider in analyzing this issue: (1) \"a comparison of punishments imposed for the listed and unlisted offenses,\" (2) \"the perceived seriousness of the offense as indicated by the level of punishment,\" (3) \"the elements of the offense,\" (4) \"the level of culpability involved,\" and (5) \"the degree to which the commission of the offense indicates a likelihood of recurring criminal conduct.\" U.S.S.G. \u00a7 4A1.2 cmt. 12(A). In applying these factors, courts are to take a \"common sense approach.\" Id.\nThe Illinois Code makes it a crime for \"[a]ny person having custody or control of a child ... to whom notice has been given of the child's truancy ... [to] knowingly and willfully permit[ ] such a child to persist in his truancy within that school year.\" 105 Ill. Comp. Stat. 5/26-10. A child is truant if he is \"absent without valid cause ... from such attendance for more than 1% but less than 5% of the past 180 school days.\" 105 Ill. Comp. Stat. 5/26-2a. A guardian who allows truancy commits a Class C misdemeanor punishable by up to \"30 days [of] imprisonment and/or a fine of up to $500.\" 105 Ill. Comp. Stat. 5/26-10. Class C misdemeanors are the least serious misdemeanors in the Illinois code. See 730 Ill. Comp. Stat. 5/5-4.5-10, 5/5-4.5-65. And the maximum fine for allowing truancy is lower than the usual $1,500 cap for a Class C misdemeanor in Illinois. See id. at 5/5-4.5-65(e).\nHagen's argument below was that her offenses were similar to \"[j]uvenile status offenses and truancy,\" an offense listed in \u00a7 4A1.2(c)(2). She renews this argument on appeal. Her basic point is that Guardian Allows Child Truancy is nothing more than aiding and abetting truancy. If that's right, she says, then allowing truancy would be at most identical in seriousness to the underlying offense it abets, and it couldn't logically be worse.\nWe disagree. Adults who allow (or abet) truancy are more culpable than the truant children themselves. They are held to a higher standard than those in their care, and for good reason. Children can't generally be expected to understand the importance of their school attendance. But adults should know better.\nThe truancy laws in Illinois reflect this reasoning. The Illinois Code doesn't criminalize truancy by children-it doesn't even allow for any punitive action to be taken unless supportive services and resources have been provided to the student. 105 Ill. Comp. Stat. 5/26-12. But it does criminalize the allowance of truancy by a guardian. 105 Ill. Comp. Stat. 5/26-10. Indeed, \"criminal proceedings under the [truancy statutes] are directed against those having custody of the child, not the child himself.\" In re K.S.Y. , 93 Ill.App.3d 6, 48 Ill.Dec. 463, 416 N.E.2d 736, 739 (1981). This is a significant difference in punishment, and it indicates different levels of seriousness between the offenses. We therefore conclude that Guardian Allows Child Truancy is not sufficiently similar to truancy itself to merit exclusion under that part of \u00a7 4A1.2(c)(2).\nIII.\nThat is not to say that Guardian Allows Child Truancy should necessarily count toward Hagen's criminal history category. Hagen contends that even if this offense is insufficiently similar to truancy, it should be excluded because of its similarity to other offenses marked for exclusion by \u00a7\u00a7 4A1.2(c)(1) and (c)(2).\nHagen did not raise this more general argument before the district court; there, she focused solely on the comparison between allowing truancy and truancy itself. Because she forfeited the point she now presses, the government is correct that we can review it only for plain error. See United States v. Garrett , 528 F.3d 525, 527 (7th Cir. 2008). Under the plain error test, we \"decide whether there was an error, whether it was plain, and whether it affected substantial rights.\" Id. If so, then \"we may exercise our discretion only if the error seriously affects the fairness, integrity, or public reputation of judicial proceedings.\" Id. (internal quotation marks omitted).\nNone of the offenses listed in \u00a7\u00a7 4A1.2(c)(1) and (c)(2) is exactly like Guardian Allows Child Truancy. But while allowing truancy is more serious than simple truancy, it is substantially less serious than one comparable offense listed in \u00a7 4A1.2(c)(1) : non-support, which involves various failures to support or provide maintenance for a spouse or child to whom one is obligated. See, e.g. , 750 Ill. Comp. Stat. 16/15(a).\nNon-support is a (c)(1) offense. Those offenses (and those similar to them) are only counted if the sentence was a term of probation of more than one year or a term of imprisonment of at least thirty days, or if the prior offense was similar to an instant offense. U.S.S.G. \u00a7 4A1.2(c)(1). Hagen's Guardian Allows Child Truancy sentences were for only four days total, and they were not similar to the drug conspiracy conviction for which she is being sentenced here. Thus, if her prior offenses were similar to non-support, the district court should not have included them.\nAs noted, non-support bears an obvious resemblance to allowing truancy because both offenses involve a guardian's failure to fulfill her responsibilities to a minor in her care. And the following analysis of the five factors from the Guidelines commentary does more than confirm this resemblance-it reveals that non-support is a significantly more serious offense than Guardian Allows Child Truancy. It would plainly violate our common sense approach to hold that the less serious offense must be counted while the more serious one is exempt.\nThe first factor compares the punishments for each offense. Looking at Illinois's code, we see that a person convicted of non-support is guilty of a Class A misdemeanor at best, and a Class 4 felony at worst. 750 Ill. Comp. Stat. 16/15(b). The former carries a sentence of less than one year of imprisonment, and the latter carries a sentence of not less than one year and not more than three years. 730 Ill. Comp. Stat. 5/5-4.5-45, 5/5-4.5-55. These sentences are both much more significant than the 30-day maximum imprisonment for Class C misdemeanors like Guardian Allows Child Truancy. 730 Ill. Comp. Stat. 5/5-4.5-65.\nThe relative sentences suggest a considerable difference in the seriousness of these two offenses as indicated by their punishments, which we consider under the second commentary factor. And the fact that Guardian Allows Child Truancy is the less serious of the two cuts very strongly in favor of excluding it under \u00a7 4A1.2(c)(1).\nUnder the third factor, we compare the elements of the offense. Here again, we see similarity between the two. Guardian Allows Child Truancy involves positions of authority over a child and a willful failure to fulfill one's responsibilities to that child. See 105 Ill. Comp. Stat. 5/26-10. Non-support involves a similar, and we think more serious, failure toward a child or spouse. See 750 Ill. Comp. Stat. 16/15(a).\nThis comparative culpability goes toward the fourth factor. Refusing to support a child strikes us as a more severe offense than allowing truancy. Non-support involves one who \"without lawful excuse, deserts or willfully refuses to provide for the support or maintenance of his or her child....\" Id. We think that one who deserts a child or fails to provide for the child's basic necessities is more culpable than one who permits a child to skip school.\nThe fifth factor asks us to compare the extent to which these offenses suggest a likelihood of recurring criminal conduct. It isn't entirely clear which way this cuts, since both crimes could be committed under many different circumstances. But at the very least, it doesn't seem that permitting truancy is any more likely to suggest future criminal conduct than is non-support.\nIn sum, the five-factor test confirms that Guardian Allows Child Truancy is similar to the offense of non-support and that \u00a7 4A1.2(c)(1) therefore required its exclusion from Hagen's criminal history score. Non-support bears so many obvious similarities to Guardian Allows Child Truancy that the court plainly ought to have considered it. And it is so clearly more serious than Hagen's offenses that we are convinced that the court committed plain error. This error affected a substantial right-Hagen's freedom-by increasing her recommended sentence under the Guidelines. See Garrett , 528 F.3d at 527 (\"A sentence based on an incorrect Guideline range constitutes an error affecting substantial rights and can thus constitute plain error, which requires us to remand unless we have reason to believe that the error did not affect the district court's selection of a particular sentence.\"). And the fact that the more serious offense of non-support is excluded would make it particularly unjust to count the similar, less serious offense of Guardian Allows Child Truancy toward Hagen's criminal history score. We believe that letting this error stand would \"seriously affect[ ] the fairness ... of judicial proceedings,\" justifying a rare exercise of our discretion in reversing under a plain error standard. See Garrett , 528 F.3d at 527.\n* * *\nWe REVERSE the district court's sentence and REMAND for resentencing in accordance with this opinion.\nThough the name doesn't seem to appear in the Illinois code, we take the parties' lead in calling this offense \"Guardian Allows Child Truancy.\"\nHagen's first Guardian Allows Child Truancy offense earned her two days' imprisonment, six months of delayed court supervision, and a fine of $210. Her second resulted in a sentence of two weekends' imprisonment, twelve months of court supervision, and a $180 fine. Her second fine and both terms of imprisonment were stayed.",
+        "type": "majority",
+        "author": "Barrett, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Amanda A. Robertson, Attorney, George A. Norwood, Attorney, OFFICE OF THE UNITED STATES ATTORNEY, Benton, IL, for Plaintiff-Appellee.",
+      "Thomas W. Patton, Attorney, OFFICE OF THE FEDERAL PUBLIC DEFENDER, Peoria, IL, Colleen McNichols Ramais, Attorney, OFFICE OF THE FEDERAL PUBLIC DEFENDER, Urbana, IL, for Defendant-Appellant."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee,\nv.\nMandy L. HAGEN, Defendant-Appellant.\nNo. 18-1579\nUnited States Court of Appeals, Seventh Circuit.\nArgued November 7, 2018\nDecided January 2, 2019\nAmanda A. Robertson, Attorney, George A. Norwood, Attorney, OFFICE OF THE UNITED STATES ATTORNEY, Benton, IL, for Plaintiff-Appellee.\nThomas W. Patton, Attorney, OFFICE OF THE FEDERAL PUBLIC DEFENDER, Peoria, IL, Colleen McNichols Ramais, Attorney, OFFICE OF THE FEDERAL PUBLIC DEFENDER, Urbana, IL, for Defendant-Appellant.\nBefore Rovner, Sykes, and Barrett, Circuit Judges."
+  },
+  "file_name": "0891-01",
+  "first_page_order": 891,
+  "last_page_order": 897
+}

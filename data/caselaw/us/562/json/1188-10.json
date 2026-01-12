@@ -1,0 +1,59 @@
+{
+  "id": 5908502,
+  "name": "Meeks v. North Carolina",
+  "name_abbreviation": "Meeks v. North Carolina",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-7639",
+  "first_page": "1188",
+  "last_page": "1188",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1188"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.612,
+    "sha256": "dfa7cdc435bed579408144434e157ef8de3653a9d4653d516560324bbb851198",
+    "simhash": "1:5157e58bc33f324a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Meeks v. North Carolina."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. N. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7639.\nMeeks v. North Carolina."
+  },
+  "file_name": "1188-10",
+  "first_page_order": 1210,
+  "last_page_order": 1210
+}

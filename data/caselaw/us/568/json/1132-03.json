@@ -1,0 +1,59 @@
+{
+  "id": 12429570,
+  "name": "Mendoza v. Nevada",
+  "name_abbreviation": "Mendoza v. Nevada",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-7327",
+  "first_page": "1132",
+  "last_page": "1132",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1132"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 65,
+    "ocr_confidence": 0.726,
+    "sha256": "b29dbe83598950cf98682df458b46037b31a54f359c76bd014805a166597b947",
+    "simhash": "1:8236a4bfa6ae6fdc",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mendoza v. Nevada."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Nev. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7327.\nMendoza v. Nevada."
+  },
+  "file_name": "1132-03",
+  "first_page_order": 1208,
+  "last_page_order": 1208
+}

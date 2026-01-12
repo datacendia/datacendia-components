@@ -1,0 +1,94 @@
+{
+  "id": 4223719,
+  "name": "Simpson v. Johnson, Director, Virginia Department of Corrections, et al.",
+  "name_abbreviation": "Simpson v. Johnson",
+  "decision_date": "2011-04-04",
+  "docket_number": "No. 10-7786",
+  "first_page": "916",
+  "last_page": "916",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 916"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "562 U. S. 1210",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5952328,
+        5944202,
+        12457259,
+        6012237,
+        5976913,
+        12457269,
+        12457270,
+        12457271,
+        12457272,
+        12457273,
+        6032890,
+        5998782
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/562/1210-02",
+        "/us/562/1210-01",
+        "/l-ed-2d/179/0092-02",
+        "/us/562/1210-03",
+        "/us/562/1210-04",
+        "/l-ed-2d/179/0293-01",
+        "/l-ed-2d/179/0293-02",
+        "/l-ed-2d/179/0293-03",
+        "/l-ed-2d/179/0293-04",
+        "/l-ed-2d/179/0293-05",
+        "/us/562/1210-05",
+        "/us/562/1210-06"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 33,
+    "char_count": 219,
+    "ocr_confidence": 0.599,
+    "sha256": "49e9e306b29b4afde90653efd3334692c5acbdf535318575408f6628414554ff",
+    "simhash": "1:e4e138e8018cb390",
+    "word_count": 35
+  },
+  "last_updated": "2024-02-27T23:44:09.189648+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Simpson v. Johnson, Director, Virginia Department of Corrections, et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Motion of petitioner for reconsideration of order denying leave to proceed in forma pauperis [562 U. S. 1210] denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7786.\nSimpson v. Johnson, Director, Virginia Department of Corrections, et al."
+  },
+  "file_name": "0916-05",
+  "first_page_order": 942,
+  "last_page_order": 942
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12407840,
+  "name": "In re Panghat",
+  "name_abbreviation": "In re Panghat",
+  "decision_date": "2012-06-11",
+  "docket_number": "No. 11-1246",
+  "first_page": "905",
+  "last_page": "905",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 905"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 66,
+    "ocr_confidence": 0.679,
+    "sha256": "f900fb28e4f9bfd22cc465730ca2af6cd4056fa2ef5ed5ac0aa02375785881c4",
+    "simhash": "1:4e61125400f1a05d",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Panghat."
+    ],
+    "opinions": [
+      {
+        "text": "Petition for writ of mandamus denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1246.\nIn re Panghat."
+  },
+  "file_name": "0905-01",
+  "first_page_order": 809,
+  "last_page_order": 809
+}

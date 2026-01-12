@@ -1,0 +1,59 @@
+{
+  "id": 6025915,
+  "name": "Zommer v. Florida",
+  "name_abbreviation": "Zommer v. Florida",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11400",
+  "first_page": "878",
+  "last_page": "878",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 878"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 66,
+    "ocr_confidence": 0.543,
+    "sha256": "b06ba8515e84c29aeb119d9fa6d53f4cb13200fa9bc47e6bab13638ce64854a4",
+    "simhash": "1:37defe0678634ba7",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Zommer v. Florida."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11400.\nZommer v. Florida."
+  },
+  "file_name": "0878-07",
+  "first_page_order": 900,
+  "last_page_order": 900
+}

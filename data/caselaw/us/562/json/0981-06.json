@@ -1,0 +1,59 @@
+{
+  "id": 5946032,
+  "name": "Rodriguez v. United States",
+  "name_abbreviation": "Rodriguez v. United States",
+  "decision_date": "2010-10-18",
+  "docket_number": "No. 09-11360",
+  "first_page": "981",
+  "last_page": "981",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 981"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.587,
+    "sha256": "2d09f325a55d98c7eaa0c2252b4e3d2bcd7a4ca149c40012af5905d5ca9cf382",
+    "simhash": "1:a6bae2b30fb5100b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Rodriguez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11360.\nRodriguez v. United States."
+  },
+  "file_name": "0981-06",
+  "first_page_order": 1003,
+  "last_page_order": 1003
+}

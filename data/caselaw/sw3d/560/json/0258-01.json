@@ -1,0 +1,986 @@
+{
+  "id": 12658026,
+  "name": "Anibal J. DUARTE-VIERA, Edward M. Reiss and Antonio P. Pardo, Appellants v. FANNIE MAE, Appellee",
+  "name_abbreviation": "Duarte-Viera v. Mae",
+  "decision_date": "2016-02-23",
+  "docket_number": "No. 07\u201314\u201300271\u2013CV",
+  "first_page": "258",
+  "last_page": "276",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "560 S.W.3d 258"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex. App. Ct.",
+    "id": 30081,
+    "name": "Court of Appeals of Texas, Amarillo"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "275 S.W.3d 647",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8212980
+      ],
+      "pin_cites": [
+        {
+          "page": "650-51"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/275/0647-01"
+      ]
+    },
+    {
+      "cite": "438 S.W.3d 1",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6914993
+      ],
+      "pin_cites": [
+        {
+          "page": "6"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/438/0001-01"
+      ]
+    },
+    {
+      "cite": "459 S.W.3d 550",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6875695
+      ],
+      "pin_cites": [
+        {
+          "page": "557"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/459/0550-01"
+      ]
+    },
+    {
+      "cite": "Tex. Civ. Prac. & Rem. Code Ann. \u00a7 132.001",
+      "category": "laws:leg_statute",
+      "reporter": "Tex. Code Ann.",
+      "year": 2015,
+      "opinion_index": 0
+    },
+    {
+      "cite": "169 S.W.3d 402",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8929828
+      ],
+      "pin_cites": [
+        {
+          "page": "411-13"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/169/0402-01"
+      ]
+    },
+    {
+      "cite": "687 S.W.2d 772",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9984861
+      ],
+      "pin_cites": [
+        {
+          "page": "774"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/687/0772-01"
+      ]
+    },
+    {
+      "cite": "963 S.W.2d 776",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        11852891
+      ],
+      "pin_cites": [
+        {
+          "page": "782"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/963/0776-01"
+      ]
+    },
+    {
+      "cite": "985 S.W.2d 477",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        11594974
+      ],
+      "pin_cites": [
+        {
+          "page": "479"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/985/0477-01"
+      ]
+    },
+    {
+      "cite": "2007 WL 2247371",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "*1-2"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "397 S.W.3d 150",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7093098
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "156"
+        },
+        {
+          "page": "159"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/397/0150-01"
+      ]
+    },
+    {
+      "cite": "148 S.W.3d 124",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9146465
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "135",
+          "parenthetical": "internal quotation marks and footnotes omitted"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/148/0124-01"
+      ]
+    },
+    {
+      "cite": "701 S.W.2d 238",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9933866,
+        9933677
+      ],
+      "pin_cites": [
+        {
+          "page": "241-42"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/701/0238-02",
+        "/sw2d/701/0238-01"
+      ]
+    },
+    {
+      "cite": "180 S.W.3d 570",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8999072
+      ],
+      "pin_cites": [
+        {
+          "page": "575"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/180/0570-01"
+      ]
+    },
+    {
+      "cite": "897 S.W.2d 750",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10019352
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "753"
+        },
+        {
+          "page": "754",
+          "parenthetical": "noting guiding rules and principles governing the exclusion of evidence in that case \"must be culled from\" the provisions of statute applicable to claim"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/897/0750-01"
+      ]
+    },
+    {
+      "cite": "972 S.W.2d 35",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        11707360
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "43"
+        },
+        {
+          "page": "43"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/972/0035-01"
+      ]
+    },
+    {
+      "cite": "2004 WL 2418009",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "*2"
+        },
+        {
+          "page": "*1-2"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "754 S.W.2d 392",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9971153
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "394"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/754/0392-01"
+      ]
+    },
+    {
+      "cite": "136 S.W.3d 271",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9239398
+      ],
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "274"
+        },
+        {
+          "page": "276"
+        },
+        {
+          "page": "277"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/136/0271-01"
+      ]
+    },
+    {
+      "cite": "783 S.W.2d 598",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10008826
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "601"
+        },
+        {
+          "page": "601"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/783/0598-01"
+      ]
+    },
+    {
+      "cite": "2013 WL 6465637",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "*10"
+        },
+        {
+          "page": "*10"
+        },
+        {
+          "page": "*13"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2016 WL 287523",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "*3"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "323 S.W.3d 316",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7322549
+      ],
+      "pin_cites": [
+        {
+          "page": "319"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/323/0316-01"
+      ]
+    },
+    {
+      "cite": "331 S.W.3d 500",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7321246
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "505"
+        },
+        {
+          "page": "512",
+          "parenthetical": "contrasting Fairbank and Am. 10-Minute Oil Change "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/331/0500-01"
+      ]
+    },
+    {
+      "cite": "633 S.W.2d 574",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9947617
+      ],
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "575"
+        },
+        {
+          "page": "575"
+        },
+        {
+          "page": "575"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/633/0574-01"
+      ]
+    },
+    {
+      "cite": "526 S.W.2d 252",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10122715
+      ],
+      "weight": 8,
+      "pin_cites": [
+        {
+          "page": "253"
+        },
+        {
+          "page": "254"
+        },
+        {
+          "page": "254",
+          "parenthetical": "\"the bare statement of 'default ... in payment' amounts to a legal conclusion\""
+        },
+        {
+          "page": "255"
+        },
+        {
+          "page": "254"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/526/0252-01"
+      ]
+    },
+    {
+      "cite": "745 S.W.2d 939",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9991056
+      ],
+      "pin_cites": [
+        {
+          "page": "943"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/745/0939-01"
+      ]
+    },
+    {
+      "cite": "2001 WL 832350",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "pin_cites": [
+        {
+          "page": "*4"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "154 S.W.3d 149",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9035618
+      ],
+      "pin_cites": [
+        {
+          "page": "157"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/154/0149-01"
+      ]
+    },
+    {
+      "cite": "2011 U.S. Dist. LEXIS 1954",
+      "category": "reporters:specialty_lexis",
+      "reporter": "U.S. Dist. LEXIS",
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "*14",
+          "parenthetical": "citing Byrd v. Estate of Nelms, 154 S.W.3d 149, 157 (Tex.App.-Waco 2004, pet. denied) "
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "2011 WL 66161",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "*5",
+          "parenthetical": "citing Byrd v. Estate of Nelms, 154 S.W.3d 149, 157 (Tex.App.-Waco 2004, pet. denied) "
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "260 S.W.3d 626",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8171937
+      ],
+      "pin_cites": [
+        {
+          "page": "630"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/260/0626-01"
+      ]
+    },
+    {
+      "cite": "313 S.W.3d 837",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7326061
+      ],
+      "pin_cites": [
+        {
+          "page": "839"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/313/0837-01"
+      ]
+    },
+    {
+      "cite": "1 S.W.3d 126",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11498985
+      ],
+      "pin_cites": [
+        {
+          "page": "130"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/1/0126-01"
+      ]
+    },
+    {
+      "cite": "164 S.W.3d 656",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9010190
+      ],
+      "pin_cites": [
+        {
+          "page": "661"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/164/0656-01"
+      ]
+    },
+    {
+      "cite": "168 S.W.3d 802",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8943104
+      ],
+      "pin_cites": [
+        {
+          "page": "816"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/168/0802-01"
+      ]
+    },
+    {
+      "cite": "997 S.W.2d 217",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        11541580
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "223"
+        },
+        {
+          "page": "222-23"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw2d/997/0217-01"
+      ]
+    },
+    {
+      "cite": "128 S.W.3d 211",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9258218
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "215-16"
+        },
+        {
+          "page": "215"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/128/0211-01"
+      ]
+    },
+    {
+      "cite": "289 S.W.3d 844",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7303381
+      ],
+      "pin_cites": [
+        {
+          "page": "848"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/289/0844-01"
+      ]
+    },
+    {
+      "cite": "35 S.W.3d 166",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11075871
+      ],
+      "pin_cites": [
+        {
+          "page": "178"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw3d/35/0166-01"
+      ]
+    },
+    {
+      "cite": "136 S.W.3d 227",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9239001
+      ],
+      "pin_cites": [
+        {
+          "page": "232"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw3d/136/0227-01"
+      ]
+    },
+    {
+      "cite": "710 S.W.2d 59",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        9960127
+      ],
+      "pin_cites": [
+        {
+          "page": "60"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw2d/710/0059-01"
+      ]
+    },
+    {
+      "cite": "459 S.W.3d 550",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6875695
+      ],
+      "pin_cites": [
+        {
+          "page": "557"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw3d/459/0550-01"
+      ]
+    },
+    {
+      "cite": "783 S.W.2d 598",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        10008826
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "601"
+        },
+        {
+          "page": "601",
+          "parenthetical": "emphasis added"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw2d/783/0598-01"
+      ]
+    },
+    {
+      "cite": "323 S.W.3d 316",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7322549
+      ],
+      "pin_cites": [
+        {
+          "page": "319"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw3d/323/0316-01"
+      ]
+    },
+    {
+      "cite": "331 S.W.3d 500",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7321246
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "505"
+        },
+        {
+          "page": "512"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw3d/331/0500-01"
+      ]
+    },
+    {
+      "cite": "154 S.W.3d 149",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9035618
+      ],
+      "pin_cites": [
+        {
+          "page": "157"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw3d/154/0149-01"
+      ]
+    },
+    {
+      "cite": "2011 U.S. Dist. LEXIS 1954",
+      "category": "reporters:specialty_lexis",
+      "reporter": "U.S. Dist. LEXIS",
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "*14",
+          "parenthetical": "citing Byrd v. Estate of Nelms, 154 S.W.3d 149, 157 (Tex.App.-Waco 2004, pet. denied) "
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "2011 WL 66161",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "*4-5",
+          "parenthetical": "citing Byrd v. Estate of Nelms, 154 S.W.3d 149, 157 (Tex.App.-Waco 2004, pet. denied) "
+        }
+      ],
+      "opinion_index": 2
+    },
+    {
+      "cite": "260 S.W.3d 626",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8171937
+      ],
+      "pin_cites": [
+        {
+          "page": "630"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw3d/260/0626-01"
+      ]
+    },
+    {
+      "cite": "313 S.W.3d 837",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7326061
+      ],
+      "pin_cites": [
+        {
+          "page": "839"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw3d/313/0837-01"
+      ]
+    },
+    {
+      "cite": "164 S.W.3d 656",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9010190
+      ],
+      "pin_cites": [
+        {
+          "page": "661"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw3d/164/0656-01"
+      ]
+    },
+    {
+      "cite": "997 S.W.2d 217",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.2d",
+      "case_ids": [
+        11541580
+      ],
+      "pin_cites": [
+        {
+          "page": "223"
+        }
+      ],
+      "opinion_index": 2,
+      "case_paths": [
+        "/sw2d/997/0217-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1608,
+    "char_count": 53978,
+    "pagerank": {
+      "raw": 5.061447019797991e-08,
+      "percentile": 0.31970396729693507
+    },
+    "sha256": "f5742b7a11a611be53ab4908b4b0026902570711ada8f95d54740f6029b183a5",
+    "simhash": "1:afc2e84c51bfdc3c",
+    "word_count": 8608
+  },
+  "last_updated": "2024-02-27T16:53:27.912671+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Anibal J. DUARTE-VIERA, Edward M. Reiss and Antonio P. Pardo, Appellants\nv.\nFANNIE MAE, Appellee"
+    ],
+    "opinions": [
+      {
+        "text": "James T. Campbell, Justice\nAppellants Anibal J. Duarte-Viera, Edward M. Reiss and Antonio P. Pardo, guarantors of a note held by appellee Fannie Mae, appeal a final summary judgment awarding Fannie Mae $732,708.31. We will affirm the judgment.\nBackground\nIn 2009, La Fiesta Apartments, LLC obtained a real estate loan from Arbor Commercial Funding, LLC for the purchase of a San Antonio apartment complex. Duarte-Viera, Reiss and Pardo (the Guarantors), owners of La Fiesta, signed a guaranty agreement. By the guaranty's terms, the Guarantors \"absolutely, unconditionally and irrevocably\" guaranteed the \"full and prompt payment when due, whether at maturity or earlier, by reason of acceleration or otherwise ... and the full and prompt performance when due\" of three categories of obligations: (a) \"The entire Indebtedness\"; (b) \"The payment and performance of all of [La Fiesta's] obligations under Section 18 of the [deed of trust] [dealing with environmental hazards]\"; and (c) \"All costs and expenses, including reasonable fees and out of pocket expenses of attorneys and expert witnesses, incurred by [Arbor] in enforcing its rights under this Guaranty.\" Arbor's interest was subsequently assigned to Fannie Mae.\nIn 2013, Fannie Mae declared the loan in default. Fannie Mae then conducted a foreclosure sale, at which it was sole bidder and acquired the apartment complex for a credited bid of $2,376,918.48. Fannie Mae sued the Guarantors for the deficiency. The Guarantors plead an offset based on the property's fair market value on the date of sale. Fannie Mae moved for summary judgment and the Guarantors responded. The trial court rendered final summary judgment in favor of Fannie Mae and then denied the Guarantors' motion for new trial after a hearing.\nAnalysis\nIn this court, the Guarantors present three issues, contending (1) Fannie Mae did not meet its summary judgment burden of proof to show La Fiesta defaulted in payment of the indebtedness; (2) it failed to meet its summary judgment burden of proof of the amount of the deficiency; and (3) the trial court erred by striking the Guarantors' summary judgment evidence in support of their statutory offset based on the property's fair market value.\nStandard of Review on Summary Judgment\nWe review de novo the trial court's ruling on a motion for summary judgment. Mann Frankfort Stein & Lipp Advisors, Inc. v. Fielding, 289 S.W.3d 844, 848 (Tex.2009). The movant for summary judgment filing a traditional motion must establish that no genuine issue of material fact exists and that the movant is entitled to judgment as a matter of law. See TEX.R. CIV. P. 166a(c) ; Provident Life & Accident Ins. Co. v. Knott, 128 S.W.3d 211, 215-16 (Tex.2003). A movant seeking affirmative relief by summary judgment must prove each element of its cause of action as a matter of law. Rhone-Poulenc, Inc. v. Steel, 997 S.W.2d 217, 223 (Tex.1999). \"Evidence is conclusive only if reasonable people could not differ in their conclusions, a matter that depends on the facts of each case.\" City of Keller v. Wilson, 168 S.W.3d 802, 816 (Tex.2005) (footnote omitted). Only if the movant meets its summary judgment burden does the burden shift to the non-movant to produce evidence demonstrating the existence of a genuine issue of material fact precluding summary judgment. Steel, 997 S.W.2d at 222-23. The court takes as true evidence favorable to the nonmovant, indulges every reasonable inference in favor of the nonmovant, and resolves any doubts in favor of the nonmovant. Valence Operating Co. v. Dorsett, 164 S.W.3d 656, 661 (Tex.2005) ; Knott, 128 S.W.3d at 215. \"[A]n objection that an affidavit is conclusory is an objection to the substance of the affidavit that can be raised for the first time on appeal.\" Green v. Indus. Specialty Contractors, Inc., 1 S.W.3d 126, 130 (Tex.App.-Houston [1st Dist.] 1999, no pet.) ; see also Wal-Mart Stores, Inc. v. Merrell, 313 S.W.3d 837, 839 (Tex.2010) (per curiam) (noting in summary judgment case that conclusory statements cannot support a judgment even when no objection was made to the statements at trial). A conclusory statement is one that is not susceptible to being readily controverted and does not provide the underlying facts to support the conclusion. Hon. David Hittner & Lynne Liberato, Summary Judgments in Texas: State and Federal Practice, 52 HOUS. L.REV. 773, 842 (2015) (citing Eberstein v. Hunter, 260 S.W.3d 626, 630 (Tex.App.-Dallas 2008, no pet.) ).\nIssue One-Proof of Default\nA plaintiff seeking to enforce a guaranty must prove: \"(1) the existence and ownership of the guaranty agreement; (2) the terms of the underlying contract by the holder; (3) the occurrence of the conditions upon which liability is based; and (4) the failure or refusal to perform the promise by the guarantor.\" Fannie Mae v. United States Prop. Solutions, No.H-08-3588, 2011 WL 66161, at *5, 2011 U.S. Dist. LEXIS 1954, at *14 (S.D.Tex. Jan. 10, 2011) (citing Byrd v. Estate of Nelms, 154 S.W.3d 149, 157 (Tex.App.-Waco 2004, pet. denied) ). The First Court of Appeals summarized the third element of proof of liability under a guaranty as requiring proof of the debtors' \"default on the underlying note, so as to activate [the guarantors'] liability under the guaranties.\" Kaminetzky v. Park Nat'l Bank of Houston, No. 01-96-01002-CV, 2001 WL 832350, at *4, 2001 Tex.App. LEXIS 4939, at *10 (Tex.App.-Houston [1st Dist.] July 19, 2001, pet. denied) (mem. op., not designated for publication). \"A guarantor may require that the terms of his guaranty be followed strictly; the guaranty agreement may not be extended beyond its precise terms by construction or implication.\" FDIC v. Attayi, 745 S.W.2d 939, 943 (Tex.App.-Houston [1st Dist.] 1988, no writ) (italics omitted).\nSpecifically, the Guarantors assert Fannie Mae failed to prove La Fiesta defaulted under the loan documents because its evidence of default amounted to nothing more than conclusions unsupported by background facts.\nFannie Mae's summary judgment evidence of default relied on the affidavit of its senior asset manager for multifamily loss mitigation, Ross Heath. Heath indicates his responsibilities include \"monitoring loans in which Fannie Mae invests, and pursuing loss mitigation and recovery activities in connection with defaulted loans.\" He adds he is one of the Fannie Mae employees responsible for monitoring the La Fiesta loan.\nThe only paragraph in Heath's affidavit that directly addresses La Fiesta's default reads, \"On or before March 2013 [La Fiesta] defaulted on the Loan. After [La Fiesta] defaulted, Fannie Mae posted to foreclose the Property in May 2013, and then consummated the foreclosure sale on June 4, 2013. At such sale, Fannie Mae was the sole bidder, and purchased the Property with a bid of $2,376,918.48.\"\nWe agree, however, with Fannie Mae's argument that we also should consider Heath's statement in the last paragraph of the affidavit, which addressed the necessity for Fannie Mae to retain counsel. That paragraph begins, \"As a result of [La Fiesta's] failure to pay the amounts due and owing under the Note, and [the Guarantors']\nfailure to pay the amounts due and owing under the Guaranty, Fannie Mae was forced to engage\" legal counsel. Together, Fannie Mae contends, these statements amount to conclusive proof of La Fiesta's default, thus triggering the Guarantors' liability.\nThe Guarantors rest their argument chiefly on Skeen v. Glenn Justice Mortg. Co., Inc., 526 S.W.2d 252 (Tex.Civ.App.-Dallas 1975, no writ). In Skeen a corporation made a promissory note secured by a deed of trust lien on real property. As additional security, individuals named Skeen signed a contract of guaranty. After a foreclosure sale, a deficiency remained, and the assignee of the note, deed of trust, and guaranty sued the corporation and the Skeens to recover the deficiency. Id. at 253. When the assignee obtained summary judgment, the Skeens appealed, challenging the sufficiency of the summary judgment proof of default. The proof relied on affidavit testimony that:\nUpon the default of [the corporation] in the payment of the Note, the entire unpaid balance of principal and accrued interest was declared immediately due and payable; and upon the failure and refusal of [the corporation] to pay the Note according to the terms and conditions thereof, I was, as trustee, requested by the owner and holder of the Note to sell the Property at public auction.\n526 S.W.2d at 254. The court held the Skeens' liability was not conclusively shown, concluding \"that the bare statement of 'default ... in payment' amounts to a legal conclusion on the part of the affiant and cannot support the summary judgment.\" Id.\nFannie Mae relies on Ecurie Cerveza Racing Team, Inc. v. Texas Commerce Bank-Southeast, 633 S.W.2d 574 (Tex.App.-Houston [14th Dist.] 1982, no writ), which also involved a challenge to the summary judgment affidavit offered to support judgment on a guaranty, and which distinguished Skeen . Id. at 575.\nFannie Mae reads Ecurie Cerveza to say the affidavit offered there was not conclusory because it said the debtor \"defaulted in payment.\" 633 S.W.2d at 575. The addition of the words \"in payment,\" Fannie Mae argues, made the difference and distinguished the affidavit from that in Skeen . The argument misreads the Ecurie Cerveza opinion. The court did not say the presence of the words \"in payment\" distinguished the affidavit from that in Skeen . The affidavit in Skeen also included the words \"in payment.\" 526 S.W.2d at 254 (\"the bare statement of 'default ... in payment' amounts to a legal conclusion\").\nThe distinction the Ecurie Cerveza court saw between the facts before it and those in Skeen dealt instead with the terms of the defaulted note. Under the notes in Ecurie Cerveza, the court said, \"only one condition constitutes default in payment.\" 633 S.W.2d at 575. But in Skeen, it continued, \"the terms of the note allowed several acts or omissions to be treated as default in payment.\" Id. In other words, a statement the debtor had defaulted in payment effectively specified the event of default because there was only one possible default in payment. Not so in Skeen, because there were several possible events of default involving a default in payment.\nThere is, however, a significant difference in La Fiesta's loan documents and those described in Skeen and Ecurie Cerveza . The deed of trust La Fiesta signed contains a section specifying the events of default under the instrument. By the first item on the list, the parties agreed that \"any failure by [La Fiesta] to pay or deposit when due any amount required by the Note, this Instrument or any other Loan Document\" would constitute an event of default. The deed of trust goes on to list eight other occurrences that constitute events of default, but none of them speak directly of a failure to pay an amount due under the Note or another loan document. Heath's statements that La Fiesta defaulted on the Loan and failed \"to pay the amounts due and owing under the Note\" could have provided more detail, but they are statements of fact identifying the particular manner in which La Fiesta defaulted. The trial court did not err by treating the statements as conclusive proof of La Fiesta's default, thus triggering the Guarantors' liability. The Guarantors' first issue is overruled.\nIssue Two-Proof of Amount of Deficiency\nHeath's affidavit also incorporated its exhibit 4, his calculation of the deficiency. The calculation contains entries for the loan's principal balance at the time of foreclosure, the \"regular interest, default interest and late charge\" then owed, the \"servicer advance and other fees paid by Fannie Mae,\" and the prepayment premium. From the total of those amounts Heath deducted an \"insurance claim,\" a \"credit for funds swept to Fannie Mae,\" and the foreclosure bid amount of $2,376,918.48, leaving a deficiency equal to the amount of the prepayment premium, $732,708.31.\nA plaintiff moving for summary judgment for recovery on a promissory note must establish \"a certain balance is due and owing on the note.\" Rockwall Commons Assocs. v. MRC Mortg. Grantor Trust I, 331 S.W.3d 500, 505 (Tex.App.-El Paso 2010, no pet.) (citing TrueStar Petr. Corp. v. Eagle Oil & Gas Co., 323 S.W.3d 316, 319 (Tex.App.-Dallas 2010, no pet.).\nThe Guarantors contend Fannie Mae's summary judgment evidence of the amount of the deficiency fails because (a) it does not show La Fiesta missed a loan payment so as to incur a late charge and interest at the default rate; (b) it does not show the date the note was accelerated, which date is necessary to determine the U.S. Treasury security yield rate to be included in the calculation of the prepayment premium; and (c) it does not provide detail for the \"servicer advance and other fees paid by Fannie Mae.\"\nEvidence of Missed Loan Payment\nThe Guarantors first contend Fannie Mae's summary judgment evidence failed to show La Fiesta incurred late charges and interest at the default rate. Here, as with their first issue, the Guarantors cite Skeen, 526 S.W.2d at 255, to support the argument Heath's affidavit merely stated the conclusion that an unspecified default occurred. The Guarantors correctly state that late charges and the default interest rate are incurred under the terms of La Fiesta's note if monthly installments or other amounts due are not timely paid. Because we have concluded that Heath's affidavit was not conclusory but contained statements of fact regarding La Fiesta's failure to pay amounts due under the note, we conclude also it contains statements of fact supporting La Fiesta's, and thus the Guarantors', liability for late charges and default interest.\nThe Guarantors raise another issue challenging Fannie Mae's entitlement to interest at the default rate. In the trial court, they raised several objections to Heath's affidavit. Among them was an objection it contained a per diem default interest rate of $205.77 and the figure had not been disclosed during discovery. The trial court later overruled all the Guarantors' objections to Heath's affidavit.\nOn appeal, the Guarantors argue the court erred by overruling their objection to the per diem interest figure because Rule of Civil Procedure 193.6 required its exclusion. Under rule 193.6, evidence that is requested in a discovery request but not timely disclosed in an initial, amended or supplemental discovery response is excluded unless good cause exists for the failure to disclose or the failure to disclose will not unfairly surprise or unfairly prejudice the other parties. TEX.R. CIV. P . 193.6 ; Babaria v. City of Southlake, No. 02-14-00068-CV, 2016 WL 287523, at *3, 2016 Tex.App. LEXIS 454, at *8-9 (Tex.App.-Fort Worth Jan. 14, 2016, no pet. h.) (mem. op.). We review a trial court's ruling on a rule 193.6 objection for abuse of discretion. Id. 2016 WL 287523, at *4-5 n. 11, 2016 Tex.App. LEXIS 454, at *12 n. 11 ; Roper v. CitiMortgage, Inc., No. 03-11-00887-CV, 2013 WL 6465637, at *10, 2013 Tex.App. LEXIS 14518, at *33 (Tex.App.-Austin November 27, 2013, pet. denied) (mem. op.). We must uphold the ruling on any legal theory on which the court properly could have relied. Id.\nSimilar to the circumstance in Roper, 2013 WL 6465637, at *10, 2013 Tex.App. LEXIS 14518, at *33, the record before us gives no indication how the trial court addressed the Guarantors' failure-to-disclose objection, or an indication on what grounds the court denied the objection. From our review of the record, however, we find the court well could have determined Fannie Mae's failure to disclose the $205.77 per diem figure neither unfairly surprised nor unfairly prejudiced the Guarantors because very similar per diem figures had previously been provided them. On this record we are unable to say the trial court abused its discretion by overruling the Guarantors' discovery complaint.\nDetail for Servicer Advance and Other Fees\nWe next consider the Guarantors' contention Fannie Mae failed to offer any evidence supporting its entitlement to the amounts Heath included in his calculation for \"servicer advance and other fees paid by Fannie Mae.\" In part, the Guarantors' argument in support of their contention returns to their earlier theme that Fannie Mae has not explained \"what acts, omissions, or events constituted the alleged default.\" Our conclusion Heath's affidavit provides facts describing the event of default is applicable here to require that we again reject such an argument.\nThe Guarantors' argue further, however, that the affidavit was conclusory because it did not explain how the costs arose and how the Guarantors became responsible for them. In answer to the Guarantors' challenge to its summary judgment evidence, Fannie Mae cites Rockwall Commons, holding that an affidavit made on the personal knowledge of a bank officer, identifying the notes and guaranty and reciting the principal and interest due, is not conclusory and is sufficient to support summary judgment. 331 S.W.3d at 512 (citing Am. 10-Minute Oil Change, Inc. v. Metro. Nat'l Bank-Farmers Branch, 783 S.W.2d 598, 601 (Tex.App.-Dallas 1989, no writ) (stating same)). See also Roper, 2013 WL 6465637, at *13, 2013 Tex.App. LEXIS 14518, at *41-42 (affidavit testimony, based on personal knowledge of records custodian, that identified note and deed of trust and recited payoff due as of certain date was not conclusory and sufficed to support summary judgment). The Guarantors respond by noting they have not challenged Fannie Mae's evidence of the principal amount due but the proof of fees and other amounts Fannie Mae included.\nThe Guarantors cite Lefton v. Griffith, 136 S.W.3d 271 (Tex.App.-San Antonio 2004, no pet.). We find the case inapposite because it lies outside the realm of suits on promissory notes and guaranties; it concerns a restricted appeal of damages awarded in a default judgment granted on Griffith's Deceptive Trade Practices Act claim. Id. at 274. Griffith's suit alleged the actions of the lessors of her furniture store were a producing cause of economic damages including losses on the sale of her inventory and her personal residence. Id. at 276. On appeal, the court agreed with the lessors that Griffith's affidavit testimony supporting the amount of her damages failed to provide a factual basis for her conclusions and thus was no evidence. While undoubtedly correct in its context, the court's holding Griffith's testimony was conclusory provides little guidance for us in this case.\nFannie Mae has cited us to Keenan v. Gibraltar Sav. Ass'n, 754 S.W.2d 392 (Tex.App.-Houston [14th Dist.] 1988, no writ), in which the court found sufficient to support summary judgment an affidavit in which the savings association's officer stated in lump sums amounts due for \"late charges\" and amounts advanced for payment of taxes. Id. at 394. We note also the opinion in Obasi v. Univ. of Okla. Health Sci. Ctr., No.04-04-00016-CV, 2004 WL 2418009, 2004 Tex.App. LEXIS 9435 (Tex.App.-San Antonio October 27, 2004, pet. denied), in which the court affirmed a summary judgment based on an \"account summary,\" sworn to by the university's bursar. As described in the opinion, the document listed principal and interest due but, without elaboration, also listed amounts due for \"collection costs\" and \"late charges.\" Id. 2004 WL 2418009, at *2, 2004 Tex.App. LEXIS 9435 at *6. We conclude the advances and fees reflected in Heath's calculation of the deficiency are not different in kind from the charges and amounts stated in the affidavits in Keenan and Obasi . The inclusion of such amounts in Heath's affidavit, made on his personal knowledge, did not render his affidavit conclusory.\nProof of Prepayment Premium\nWe turn to the Guarantors' argument that Heath's affidavit was insufficient to prove their liability for the prepayment premium. Under the terms of the note, La Fiesta could voluntarily prepay all the unpaid principal balance but would owe a prepayment premium. The note provides also that the lender's exercise of the right of acceleration after default is treated as a prepayment so the prepayment premium is owed in addition to other amounts due. A schedule to the note sets out the formula for computation of the premium. One of the elements of the formula compares the interest rate under the note to the yield rate on a particular U.S. Treasury security, as published in the WALL STREET JOURNAL on the twenty-fifth business day before the date of acceleration. Heath's affidavit refers to the twenty-fifth day as the \"lookback day.\"\nThe Guarantors' specific complaint on this point is that Heath's affidavit does not show \"when or how\" the note was accelerated.\nAt a point in their briefing, the Guarantors emphasize we must be guided primarily by opinions of the San Antonio court of appeals in this case, transferred from that court. On more than one occasion, the San Antonio court has relied on Timothy Patton, SUMMARY JUDGMENTS IN TEXAS, PRACTICE, PROCEDURE AND REVIEW when dealing with summary judgment evidence in a promissory note case. According to this commentator, courts \"have generally not required the movant to file detailed proof reflecting the calculations underlying the balance due on a note,\" Patton, \u00a7 9.06[4][e] (3d ed.2015), but later states that in some instances \"greater detail might be required in the supporting affidavit to justify summary judgment.\" Id. In support, Patton cites cases in which courts have reversed a summary judgment based on an affidavit showing a lump sum due on multiple promissory notes.\nHere, with regard to the computation of the prepayment premium, the summary judgment proof provided a level of detail. Heath's affidavit explained that March 13, 2013 was the lookback day, and stated the WALL STREET JOURNAL reported the yield rate on the particular U.S. Treasury security as of that day to be 1.0990%. Heath appended to his affidavit an exhibit on which the premium formula was reprinted, with his computation. The 1.0990% figure is the yield rate value appearing in the computation. We cannot agree the detail Heath provided of his computation of the premium was impermissibly weakened by his failure to state the date of acceleration from which he measured the lookback day, or his failure to further describe the manner by which the note was accelerated. The Guarantors cite us no authority, and we have found none, requiring any greater detail than that Heath's affidavit provided of his computation of the prepayment premium due under La Fiesta's note. We overrule the Guarantors' second issue.\nIssue Three-Guarantors' Affirmative Defense of Offset\nBy amended answer, the Guarantors alleged any deficiency claimed by Fannie Mae should be reduced by the difference between the fair market value of the apartment property on the date of the foreclosure sale and the amount of Fannie Mae's bid. To their summary judgment response, the Guarantors attached the declaration of Pardo stating his opinion that \"the Property was worth no less than three-million dollars ... on June 4, 2013\" and a certified copy of a tax appraisal district document showing the same valuation. The response cited section 51.003 of the Texas Property Code.\nBefore the trial court ruled on its motion for summary judgment, Fannie Mae raised an objection to the Pardo declaration and the appraisal district record \"on the ground that allowing them into evidence would constitute a violation of the parties' Deed of Trust.\" The trial court agreed, ruled the Pardo declaration and appraisal district record were inadmissible and struck them from the summary judgment record.\nAs the result of the trial court's action, the Guarantors had no evidence of fair market value. By their third issue, the Guarantors assert the trial court erred by striking their summary judgment evidence presented in support of their Property Code section 51.003 offset affirmative defense.\nEvidentiary rulings are \"committed to the trial court's sound discretion.\" Owens-Corning Fiberglas Corp. v. Malone, 972 S.W.2d 35, 43 (Tex.1998) (quoting City of Brownsville v. Alvarado, 897 S.W.2d 750, 753 (Tex.1995) ); see In re J.P.B., 180 S.W.3d 570, 575 (Tex.2005) (admission or exclusion of evidence within trial court's sound discretion). A trial court abuses its discretion when it acts without regard for any guiding rules or principles. Downer v. Aquamarine Operators, Inc., 701 S.W.2d 238, 241-42 (Tex.1985).\nFannie Mae's objection to the Guarantors' evidence was based on language in section 43 of the deed of trust. That section, entitled \"Acceleration; Remedies,\" includes language regarding foreclosure of the deed of trust lien, and addresses actions for a deficiency. It also addresses determinations of fair market value. The deed of trust language begins:\nIn any action for a deficiency after a foreclosure under this Instrument, if a person against whom recovery is sought requests the court in which the action is pending to determine the fair market value of the Mortgaged Property, as of the date of the foreclosure sale, the following shall be the basis of the court's determination of the fair market value :\n(italics ours)\nOne of the paragraphs following that language is paragraph (f), which reads:\n(f) expert opinion testimony shall be considered only from a licensed appraiser certified by the State of Texas and, to the extent permitted under Texas law, a member of the Appraisal Institute, having at least five years' experience in appraising property similar to the Mortgaged Property in the county where the Mortgaged Property is located, and who has conducted and prepared a complete written appraisal of the Mortgaged Property taking into considerations the factors set forth in this Instrument; no expert opinion testimony shall be considered without such written appraisal.\nFannie Mae argued the Pardo declaration and the appraisal district record failed to comply with section 43(f) and were therefore inadmissible as evidence of fair market value to support an offset.\nOn appeal, the Guarantors argue they are not bound by section 43(f) because they were not parties to the deed of trust and thus not bound by its terms, and the guaranty agreement they signed did not contain such restrictions on expert testimony.\nThe Guarantors are correct that the guaranty does not contain language like that in section 43 addressing deficiency actions. We therefore turn to the question whether the Guarantors are bound by conditions of the deed of trust which they did not sign. Fannie Mae argues the Guarantors are bound because the loan documents-the note, deed of trust, and guaranty-all are part of a single transaction.\nThe note, guaranty, and deed of trust were each made on August 20, 2009. The guaranty recites the Guarantors had an economic interest in La Fiesta, the guaranty was a required condition for Arbor's loan to La Fiesta, and the guaranty was given in consideration for the loan. According to the guaranty's merger clause, the \"guaranty and the other loan documents represent the final agreement between the parties....\" Similarly, a clause in the deed of trust states that, \"the note and other loan documents represent the final agreement between the parties....\" The definition of \"loan documents\" includes \"all guaranties.\"\nIn In re Prudential Ins. Co. of Am., 148 S.W.3d 124 (Tex.2004) (orig. proceeding), the court considered whether a waiver of trial-by-jury clause contained in a commercial lease but not found in a contemporaneously executed guaranty was enforceable against the guarantors. In the guaranty, the individual guarantors promised to \"faithfully perform and fulfill all of [the] terms, covenants, conditions, provisions, and agreements\" of the lease should the partnership lessee default. In concluding the guaranty incorporated the lease's jury-waiver clause, the court explained \"an unsigned paper may be incorporated by reference in the paper signed by the person sought to be charged. The language used is not important provided the document signed ... plainly refers to another writing.\" And \"agreements executed at the same time, with the same purpose, and as part of the same transaction, are construed together.\" Id. at 135 (internal quotation marks and footnotes omitted). The Guarantors concede, as they must, that the guaranty, the note and the deed of trust are to be construed together.\nUnder this guaranty's language, the primary item guaranteed was \"[t]he entire Indebtedness.\" The term \"Indebtedness\" was not defined in the guaranty but in the deed of trust, which defined the Indebtedness to mean \"the principal of, interest on, and all other amounts due at any time under \" the note, the deed of trust or any other loan document. (italics ours) The amounts due at any time under the note and deed of trust would include a deficiency remaining after foreclosure.\nBut the Guarantors argue that calculation of the Indebtedness does not include the offset against a deficiency provided under section 51.003. Determining the Indebtedness and applying the statutory offset, the Guarantors argue, \"have nothing to do with one another.\" Accordingly, they reason, their guarantee of the Indebtedness bears no relation to the terms of the deed of trust affecting the manner in which fair market value, and the resulting offset, are to be determined.\nWe cannot accept the Guarantors' contention. By their reasoning, the offset to which the Guarantors would be entitled against a deficiency is to be determined under section 51.003, unaffected by the provisions of section 43 of the deed of trust, while the offset applicable to a party expressly subject to the deed of trust, like La Fiesta, is determined under section 51.003 as affected by section 43's provisions. By the Guarantors' reading of the documents, the amount of the deficiency due, after the offset, from La Fiesta thus would be determined under different rules and accordingly might differ in amount, from the amount of the deficiency guaranteed under the guaranty. We fail to see how this result accomplishes the guarantee of \"the entire Indebtedness\" required by the guaranty. The \"entire Indebtedness\" should not mean one thing for amounts owed by La Fiesta and another for amounts owed by the Guarantors. Construing the documents together, and applying the express terms of the guaranty, we find the provisions of section 43 of the deed of trust applicable to the Guarantors.\nThe Guarantors contend for a second reason that the trial court erred by striking Pardo's declaration. They argue his opinion of the fair market value of the apartment property was not an expert opinion but was relevant and admissible as that of an owner of the property. See Natural Gas Pipeline Co. of Am. v. Justiss, 397 S.W.3d 150, 156 (Tex.2012) (explaining under the property-owner rule a property owner may testify to his property's value, but the testimony must meet the \"same requirements as any other opinion evidence\"). Because section 43(f) of the deed of trust speaks only to expert opinion testimony, the Guarantors assert, Pardo's opinion was not barred even if section 43 was applicable to their proof of fair market value.\nWe reiterate that we review the trial court's ruling for an abuse of discretion, considering whether the court acted without regard for any guiding rules or principles. We must uphold the trial court's evidentiary ruling if there is any legitimate basis for the ruling. Owens-Corning, 972 S.W.2d at 43. With regard to evidence of fair market value offered under section 51.003, the guiding rules or principles must include the categories of evidence listed by the Legislature in section 51.003(b). See PlainsCapital Bank, 459 S.W.3d at 556 (analyzing factors enumerated in \u00a7 51.003(b) ); City of Brownsville, 897 S.W.2d at 754 (noting guiding rules and principles governing the exclusion of evidence in that case \"must be culled from\" the provisions of statute applicable to claim). Because section 43(f) of the deed of trust is applicable to the Guarantors, it also properly served to guide the trial court. Property-owner valuation testimony is the \"functional equivalent of expert testimony.\" Justiss, 397 S.W.3d at 159. We see no abuse of discretion in the trial court's decision to exclude Pardo's property-owner valuation opinion. The Guarantors' third issue is overruled.\nConclusion\nHaving overruled each of the Guarantors' issues on appeal, we affirm the trial court's judgment.\nThis case was transferred to us from the Fourth Court of Appeals in San Antonio pursuant to an order of the Texas Supreme Court under the authority of Section 73.001 of the Texas Government Code. Tex. Gov't Code Ann. 73.001 (West 2013) ; see Tex.R.App. P. 41.3 (precedent in transferred cases).\nAs the court in Skeen described it, \"examination of the note, the guaranty agreement and the deed of trust reveals that there were numerous acts or omissions set out in the instruments which would give rise to a legal duty or duties which, if not performed, would constitute a 'default.' Several of these may be referred to as a 'default ... in payment.' \" 526 S.W.2d at 254. The court set out in a footnote some sixteen possible events of default. Id.\nThe document we refer to as the deed of trust is Fannie Mae's Multifamily Deed of Trust, Assignment of Rents and Security Agreement and Fixture Filing (Texas), Form 4044, bearing the date 11/01. Heath's affidavit identified the deed of trust, the note and the guaranty, and copies of each were appended.\nThe deed of trust defines the term \"loan servicer\" as the entity designated to collect payments and deposits, receive notices under the loan documents and otherwise \"service the loan.\"\nNor do the Guarantors challenge on appeal Heath's statements regarding the \"insurance claim\" or the \"credit for funds swept to Fannie Mae.\"\nThe court noted Griffith's affidavit, which asserted she was forced to sell for $10,000 her inventory she valued at $300,000, described neither the amount nor the type of furniture in the inventory. 136 S.W.3d at 277.\nThe Guarantors also cite Fairbank v. First Am. Bank, S.S.B., No. 05--6-00005-CV, 2007 WL 2247371, 2007 Tex.App. LEXIS 6228 (Tex.App.-Dallas Aug. 7, 2007, no pet.) (mem. op.). It is unclear to us that the holding of Fairbank is contrary to that of Am. 10-Minute Oil Change, 783 S.W.2d at 601. The brief discussion in Fairbank identifies the affiant only by name and does not address his relationship with the noteholder or other basis for personal knowledge of the facts to which he swore in his affidavit. 2007 WL 2247371, at *1-2, 2007 Tex.App. LEXIS 6228, at *3-4. We think the court's statement in Fairbank that the summary judgment evidence did not contain a ledger sheet or other document providing the necessary supporting facts must be seen in that light. See Rockwall Commons, 331 S.W.3d at 512 (contrasting Fairbank and Am. 10-Minute Oil Change ).\nOr, in the case of a voluntary prepayment, the twenty-fifth business day before the date stated in the borrower's required written notice of the intention to make a prepayment.\nIn Obasi, the San Antonio court cited the quoted statement from Patton, rejecting Obasi's appellate contention the trial court should have sustained her objection asserting the bursar's affidavit was conclusory. 2004 WL 2418009, at *1-2, 2004 Tex.App. LEXIS 9435, at *3-4. See also Hudspeth v. Investor Collection Servs., Ltd. Pshp., 985 S.W.2d 477, 479 (Tex.App.-San Antonio 1998, no pet.) ; Stucki v. Noble, 963 S.W.2d 776, 782 (Tex.App.-San Antonio 1998, pet. denied) (both also citing Patton).\nPatton, \u00a7 9.06[4][e] n.608, (citing General Specialties, Inc. v. Charter Nat'l Bank-Houston, 687 S.W.2d 772, 774 (Tex.App.-Houston [14th Dist.] 1985, no writ) and FFP Mktg. Co. v. Long Lane Master Tr. IV, 169 S.W.3d 402, 411-13 (Tex.App.-Fort Worth 2005, no pet.) ).\nSee Tex. Civ. Prac. & Rem. Code Ann. \u00a7 132.001 (West Supp.2015).\nTex. Prop.Code Ann. \u00a7 51.003 (West 2014).\nSee PlainsCapital Bank v. Martin, 459 S.W.3d 550, 557 (Tex.2015) (offset under \u00a7 51.003 operates as an affirmative defense to deficiency claim) (citing Moayedi v. Interstate 35/Chisam Rd., L.P., 438 S.W.3d 1, 6 (Tex.2014) ).\nThe paragraphs appear as (a) through (h), each addressing some aspect of valuation of collateral at the time of foreclosure.\nIt is undisputed that Pardo is not a \"licensed appraiser certified by the State of Texas,\" and that he had not prepared a \"complete written appraisal.\"\nSee U.S. Bank Nat' l Ass'n, as Trustee, et al. v. Am. Realty Trust, Inc., 275 S.W.3d 647, 650-51 (Tex.App.-Dallas 2009, pet. denied) (citing Prudential and construing guaranty, mortgage and security agreement together).\nUnder paragraph 3 of the guaranty, the Guarantors' obligations survived the foreclosure sale.",
+        "type": "majority",
+        "author": "James T. Campbell, Justice"
+      },
+      {
+        "text": "Pirtle, J., dissenting.",
+        "type": "dissent",
+        "author": "Pirtle, J., dissenting."
+      },
+      {
+        "text": "Patrick A. Pirtle, Justice, dissenting\nThis appeal concerns a summary judgment granted in favor of Appellee, Fannie Mae, in an action to collect a deficiency allegedly owing on a promissory note, following the foreclosure of an apartment complex, based upon a guaranty agreement executed by Appellants, Anibal J. Duarte-Viera, Edward M. Reiss, and Antonio P. Pardo, (herein the \"Guarantors\"). In affirming the summary judgment, the majority rejects the argument of the Guarantors that Fannie Mae's summary judgment evidence was insufficient to establish a right of recovery as a matter of law. Because I find that there are significant deficiencies in Fannie Mae's summary judgment evidence concerning material facts relevant to the determination of the deficiency, I would reverse and remand. Accordingly, I respectfully dissent.\nBACKGROUND\nOn August 20, 2009, La Fiesta Apartments, LLC, a Florida limited liability company, obtained a loan from Arbor Commercial Funding, LLC for the purpose of purchasing a San Antonio apartment complex. The loan was evidenced by a promissory note secured by a comprehensive deed of trust covering that property, an assignment of rents, and a security agreement. In addition, the promissory note was secured by a guaranty agreement executed by the Guarantors. By the terms of that agreement, the Guarantors \"absolutely, unconditionally and irrevocably\" guaranteed the \"full and prompt payment\" of the entire indebtedness due and owing under the terms of the promissory note and security agreements. Arbor Commercial Funding, LLC subsequently assigned to Fannie Mae all of its interest in the loan, including but not limited to the promissory note, deed of trust, and guaranty agreement.\nIn 2013, Fannie Mae declared the promissory note to be in default, accelerated the unpaid balance, and posted the property for foreclosure. On June 4, 2013, Fannie Mae conducted a foreclosure sale, at which time it was the sole bidder and acquired the apartment complex for a credited bid of $2,376,918.48. On August 30, 2013, Fannie Mae sued the Guarantors for a deficiency allegedly due and owing after the application of all payments and credits. In addition to sums due under the promissory note, Fannie Mae alleged the Guarantors were liable for reasonable and necessary attorney's fees in accordance with the promissory note and security agreements. The Guarantors timely filed a general denial.\nOn March 10, 2014, Fannie Mae filed its First Amended Original Petition, and on that same date filed its First Amended Motion for Partial Summary Judgment pursuant to Rule 166a(c) of the Texas Rules of Civil Procedure. In that motion, Fannie Mae alleged that the promissory note was in default and that there was due and owing the sum of $732,708.31. Fannie Mae further alleged that a demand for payment had been made to the Guarantors and that they had failed and refused to pay the amounts due and owing.\nIn response to Fannie Mae's amended petition and motion for summary judgment, the Guarantors filed their First Amended Answer and Response to [Fannie Mae's] Amended Partial Motion for Summary Judgment. In addition to contesting the amount of the deficiency being claimed by Fannie Mae, the Guarantors further claimed they were entitled to a statutory credit pursuant to section 51.003 of the Texas Property Code, based on the difference between the fair market value of the property at the time of the foreclosure sale and the amount of Fannie Mae's credit bid. See TEX. PROP.CODE ANN. \u00a7 51.003(b), (c) (West 2014) (providing a statutory offset to persons against whom a deficiency is sought after foreclosure, in the amount by which the fair market value of the property, less remaining claims secured by the property, exceeds the sales price). In support of the claim concerning their right to a statutory credit, the Guarantors offered (1) the affidavit of Antonio P. Pardo and (2) a certified copy of the Bexar County Appraisal District's 2013 Property Appraisal Information Card. Pardo's affidavit valued the property at \"no less than three-million ($3,000,000.00) on June 4, 2013\" and the Appraisal District records also showed an assessment value of $3,000,000. Fannie Mae's bid was $2,376,918.48, leaving a difference of $623,081.52.\nOn April 4, 2014, Fannie Mae non-suited its claim for the recovery of attorney's fees and, in light of that non-suit, contended it was entitled to a final summary judgment. That same day, the trial court heard arguments and rendered a final summary judgment in favor of Fannie Mae. The trial court subsequently denied the Guarantors' Motion to Vacate Judgment and Motion for New Trial. The Guarantors then filed a timely notice of appeal.\nANALYSIS\nBy their first two issues, the Guarantors contend Fannie Mae did not meet its summary judgment burden of proof to show both a default in payment of the promissory note and the amount of the deficiency. By their third issue, the Guarantors contend the trial court erred by striking their summary judgment evidence in support of their statutory offset. Because I agree with the majority's disposition of the Guarantors' first issue and pretermit any discussion of the third issue, I will limit my discussion to the sufficiency of Fannie Mae's summary judgment evidence tending to establish the amount of the claimed deficiency.\nSTANDARD OF REVIEW ON SUMMARY JUDGMENT\nThe appellate standard of review applicable to a summary judgment proceeding is well known and I defer to the statement of that standard contained in the majority opinion. That being said, of particular note in this proceeding are two summary judgment principles. The first critical principle is the requirement that, as the movant, Fannie Mae was required to establish every essential element of its cause of action as a matter of law. See Rhone-Poulenc, Inc. v. Steel, 997 S.W.2d 217, 223 (Tex.1999) ; MMP, Ltd. v. Jones, 710 S.W.2d 59,60 (Tex.1986). The second critical principle is that a conclusory statement will not support a summary judgment, even if no objection was made to that statement at the trial court level. See Wal-Mart Stores, Inc. v. Merrell, 313 S.W.3d 837, 839 (Tex.2010) (holding conclusory evidence lacks probative value and will not support a summary judgment, \"even when no objection was made to the statement at trial.\") (quoting Coastal Transp. Co. v. Crown Cent. Petroleum Corp., 136 S.W.3d 227, 232 (Tex.2004).\nConclusory statements contained in an affidavit are not proper summary judgment evidence. See TEX.R. CIV. P. 166a(f) (stating that supporting affidavit must set forth such facts as would be admissible in evidence). To avoid being conclusory, the affidavit of an interested party must be \"clear, positive, direct, credible, free from contradiction and susceptible of being readily controverted.\" Haynes v. City of Beaumont, 35 S.W.3d 166, 178 (Tex.App.-Texarkana 2000, no pet.). It has also been said that a conclusory statement is one that does not provide the underlying facts to support the conclusion. Hon. David Hittner & Lynne Liberato, Summary Judgments in Texas: State and Federal Practice, 52 HOUS. L.REV. 773, 842 (2015) (citing Eberstein v. Hunter, 260 S.W.3d 626, 630 (Tex.App.-Dallas 2008, no pet.) ). A conclusory summary judgment affidavit amounts to no evidence and it is insufficient to support a summary judgment. See Coastal Transp., 136 S.W.3d at 232-33.\nHere, the Guarantors contend Fannie Mae failed to prove, as a matter of law, the amount of the deficiency owing on the promissory note. Specifically, they contend Fannie Mae failed to prove the amount of principal, interest, and prepayment penalty owed under the terms of the promissory note because the only summary judgment evidence presented was the conclusory affidavit of Ross A. Heath.\nThe Guarantors also contend Fannie Mae failed to prove the amount due and owing because a fact issue was raised with respect to whether or not they were entitled to an offset pursuant to section 51.003 of the Texas Property Code. A borrower's right to an offset against a deficiency pursuant to this code provision is an affirmative defense for which the borrower bears the burden of proof. PlainsCapital Bank v. Martin, 459 S.W.3d 550, 557 (Tex.2015). For purposes of this summary judgment proceeding, the trial court found the Guarantors failed to meet their burden of proof as to that issue because the loan documents limited the types of evidence that would be admissible for purposes of establishing the fair market value of the foreclosed property. Because I find significant issues pertaining to other material facts, I will pretermit any discussion of the Guarantors' argument that they were not bound by the original borrower's agreement to restrict the admissibility of evidence relevant to its statutory offset rights.\nConcerning the Guarantors' liability, the majority correctly states that a plaintiff seeking to enforce a guaranty agreement securing a promissory note must prove: (1) the terms, existence, and ownership of the guaranty agreement, (2) the terms, existence, and ownership of the underlying promissory note, (3) the occurrence of conditions upon which liability is based, (4) the balance due and owing on the promissory note, and (5) the failure or refusal to perform the terms of the guaranty agreement by the guarantors. See Mae v. United States Prop. Solutions, No. H-08-3588, 2011 WL 66161, at *4-5, 2011 U.S. Dist. LEXIS 1954, at *14 (S.D.Tex. Jan. 10, 2011) (citing Byrd v. Estate of Nelms, 154 S.W.3d 149, 157 (Tex.App.-Waco 2004, pet. denied) ). See also Rockwall Commons Assocs. v. MRC Mortg. Grantor Trust 1, 331 S.W.3d 500, 505 (Tex.App.-El Paso 2010, no pet.) (citing TrueStar Petr. Corp. v. Eagle Oil & Gas Co., 323 S.W.3d 316, 319 (Tex.App.-Dallas 2010, no pet.) ).\nAs discussed in the majority opinion, Fannie Mae's summary judgment evidence concerning the amount of the deficiency relies entirely on the affidavit of Fannie Mae's senior asset manager for multifamily loss mitigation, Ross A. Heath. In that affidavit, Heath states that the Guarantors failed to pay Fannie Mae \"the post-foreclosure amount due and owing under the Note and Guaranty, in the amount of $732,708.31, which is calculated on the attached Exhibit '4.' \" In relevant part, Exhibit 4 provides as follows:\nCALCULATION OF DEFICIENCY OWED BY GUARANTORS:\nPrincipal Balance Owed on Loan at Time of Foreclosure $ 2,601,578.66 Regular Interest, Default Interest and Late Charge, $ 107,256.80 Owed on Loan at Time of Foreclosure Servicer Advance and Other Fees Paid by Fannie Mae $ 65,243.24 ______________ $ 2,774,078.70 Plus: Prepayment Premium + 732,708.31 ============== $ 3,506,787.01 Less: Insurance Claim - 350,000.00 ______________ $ 3,156,787.01 Less: Credits for Funds Swept to Fannie Mae - 47,160.22 ============== $ 3,109,626.79 ============== Less: Foreclosure Bid Amount $ 2,376,918.48 ============== Deficiency Owed $ 732,708.31\nThe remaining portion of Exhibit 4 is a detailed computation of the prepayment penalty of $732,708.31. While the majority concludes the computation of the prepayment penalty is adequately supported by the summary judgment evidence, computations within that calculation depend on the amount of principal being prepaid. Therefore, although mathematically complex, as with the garbage in-garbage out principle, if the principal being prepaid has not been established as a matter of law, the prepayment penalty cannot be established as a matter of law. Furthermore, it is important to note that while curiously identical in amount to the deficiency claimed, the prepayment penalty is a separate and distinct calculation from the deficiency owed.\nAs to the computation of the deficiency, nowhere does Heath explain how the $2,601,578.66 \"Principal Balance Owed on Loan at Time of Foreclosure\" was computed. Nor does the affidavit provide any information necessary to calculate the \"Regular Interest, Default Interest and Late Charge Owed on Loan at Time of Foreclosure\" in the sum of $107,256.80. In a single conclusory assertion, Heath avers that \"[o]n or before March 2013, the Borrower defaulted on the Loan\"; however, he never specifies a date of default. Although a review of the promissory note itself will identify the obligation to pay interest at a specified higher rate (the \"default rate\"), nowhere does Heath identify a date certain from which any default interest could be calculated. Furthermore, a reader of Heath's affidavit would have to accept as purely ipse dixit his basis for and amount of the \"Servicer Advance and Other Fees,\" the \"Insurance Claim,\" and the \"Credits for Funds Swept to Fannie Mae.\" Not only are the dollar amounts of those sums not found in the promissory note or other security agreements, they are not described in Heath's affidavit other than by simply accepting that they are what he says they are. In short, Fannie Mae has attempted to support its claim for a deficiency judgment by using little more than bare, unsupported, conclusory statements.\nIn answering the Guarantors' challenge to the conclusory nature of Heath's affidavit, Fannie Mae cites Rockwall Commons for the proposition that a summary judgment affidavit based on the personal knowledge of a bank officer, identifying the notes and guaranty and simply reciting the amount of principal and interest due, is not conclusory. Rockwall Commons Assocs. v. MRC Mortg. Grantor Trust I, 331 S.W.3d 500, 512 (Tex.App.-El Paso 2010, no pet.) (citing Am. 10-Minute Oil Change, Inc. v. Metro. Nat'l Bank-Farmers Branch, 783 S.W.2d 598, 601 (Tex.App.-Dallas 1989, no writ) (purportedly supporting the same conclusion). Fannie Mae misreads this authority.\nIn Rockwall Commons, the debtor objected to several statements contained in the summary judgment affidavit of the creditor's custodian of records. The debtor claimed the statements were impermissibly conclusory because the balances owed and the interests accrued were stated without explanation of their computation. Agreeing with the debtor that legal conclusions and conclusory statements in an affidavit, without more, were insufficient to establish a right to summary judgment as a matter of law, the court went on to find that the statements in that case were not conclusory because they were adequately supported by other summary judgment evidence. The court found that other summary judgment evidence, specifically a letter from the creditor to the debtor, described \"how calculations had been made\" and \"how interest will accrue.\" Id. at 513. Furthermore, attached to the letter was a billing statement and copies of calculator tapes containing the calculations. Under those circumstances, the court found the statements contained in the summary judgment affidavit regarding the balance due were not impermissibly conclusory because they were \"supported by facts or documentation.\" Id.\nThe language supporting Fannie Mae's proposition in 10-Minute Oil Change is even weaker. There the court recited that \"[t]he affidavit set forth the principal and accrued but unpaid interest due pursuant to the promissory note, after allowing for all offsets, payments, and credits.\" The court went on to say that a review of the affidavit indicated that \"the principal balance along with the interest was designated in detail. \" 10-Minute Oil Change, 783 S.W.2d at 601 (emphasis added).\nWithout taking certain statements contained in Heath's affidavit concerning the amount of the deficiency ipse dixit, there is no way a court conducting a de novo review could reach the conclusion that Fannie Mae established the amount due and owing as a matter of law. Accordingly, I would sustain the Guarantors' second issue.\nCONCLUSION\nBecause a conclusory statement will not support a summary judgment, I conclude that the trial court erred in granting summary judgment. Accordingly, I would reverse and remand for further proceedings.\nOriginally appealed to the Fourth Court of Appeals in San Antonio, this case was transferred to this court by the Texas Supreme Court pursuant to its docket equalization efforts. See Tex. Gov't Code Ann. 73.001 (West 2013). We are unaware of any conflict between precedent of the Fourth Court of Appeals and that of this Court on any relevant issue. See Tex.R.App. P . 41.3.\nThe majority limits its consideration of the sufficiency of the summary judgment evidence to the questions of (1) a missed loan payment, (2) the date of acceleration, (3) the \"servicer advance and other fees paid by Fannie Mae\" figure, and (4) the prepayment penalty. Because the issue of the amount of the deficiency was globally raised in the Guarantors' response to Fannie Mae's motion for summary judgment and its briefing on appeal, a de novo review would encompass all fact issues relevant to that determination. See Valence Operating Co. v. Dorsett, 164 S.W.3d 656, 661 (Tex.2005) (holding that a trial court's summary judgment is reviewed de novo ).",
+        "type": "dissent",
+        "author": "Patrick A. Pirtle, Justice, dissenting"
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "Anibal J. DUARTE-VIERA, Edward M. Reiss and Antonio P. Pardo, Appellants\nv.\nFANNIE MAE, Appellee\nNo. 07-14-00271-CV\nCourt of Appeals of Texas, Amarillo.\nFebruary 23, 2016"
+  },
+  "file_name": "0258-01",
+  "first_page_order": 258,
+  "last_page_order": 276
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5925195,
+  "name": "Hossaini v. United States",
+  "name_abbreviation": "Hossaini v. United States",
+  "decision_date": "2011-05-23",
+  "docket_number": "No. 10-1282",
+  "first_page": "1009",
+  "last_page": "1009",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1009"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.613,
+    "sha256": "9fbf73a2cc79e303499ca5e7cdc1c4a1e604e9e35e0eda3822144c57a3cee021",
+    "simhash": "1:bf22899b0b93960c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hossaini v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1282.\nHossaini v. United States."
+  },
+  "file_name": "1009-03",
+  "first_page_order": 1035,
+  "last_page_order": 1035
+}

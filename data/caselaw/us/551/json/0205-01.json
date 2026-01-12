@@ -1,0 +1,1049 @@
+{
+  "id": 3573311,
+  "name": "BOWLES v. RUSSELL, WARDEN",
+  "name_abbreviation": "Bowles v. Russell",
+  "decision_date": "2007-06-14",
+  "docket_number": "No. 06-5306",
+  "first_page": "205",
+  "last_page": "223",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "551 U.S. 205"
+    },
+    {
+      "type": "parallel",
+      "cite": "168 L. Ed. 2d 96"
+    },
+    {
+      "type": "parallel",
+      "cite": "127 S. Ct. 2360"
+    },
+    {
+      "type": "vendor",
+      "cite": "2007 U.S. LEXIS 7721"
+    },
+    {
+      "type": "vendor",
+      "cite": "SCDB 2006-061"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "480 F. 3d 932",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3895083
+      ],
+      "weight": 2,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "935"
+        },
+        {
+          "page": "936"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/480/0932-01"
+      ]
+    },
+    {
+      "cite": "361 U. S. 220",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6167282
+      ],
+      "year": 1960,
+      "pin_cites": [
+        {
+          "page": "229"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/361/0220-01"
+      ]
+    },
+    {
+      "cite": "489 U. S. 169",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12031761
+      ],
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "170",
+          "parenthetical": "referring to \"the so-called 'unique circumstances' exception\" to the timely appeal requirement"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/489/0169-01"
+      ]
+    },
+    {
+      "cite": "487 U. S. 266",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1774898
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "282",
+          "parenthetical": "Scalia, J., dissenting"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/487/0266-01"
+      ]
+    },
+    {
+      "cite": "241 F. 3d 367",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11137086
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "371",
+          "parenthetical": "doubting \"the continued viability of the unique circumstances doctrine\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/241/0367-01"
+      ]
+    },
+    {
+      "cite": "375 U. S. 384",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11719655
+      ],
+      "year": 1964,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/375/0384-01"
+      ]
+    },
+    {
+      "cite": "303 F. 2d 609",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        251010
+      ],
+      "year": 1962,
+      "pin_cites": [
+        {
+          "page": "611-612"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/303/0609-01"
+      ]
+    },
+    {
+      "cite": "371 U. S. 215",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        451231
+      ],
+      "weight": 2,
+      "year": 1962,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        },
+        {
+          "page": "217"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/371/0215-01"
+      ]
+    },
+    {
+      "cite": "513 U. S. 88",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1335080
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "90"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/513/0088-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 2101",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "541 U. S. 401",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5932838
+      ],
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "413"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/541/0401-01"
+      ]
+    },
+    {
+      "cite": "546 U. S. 500",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5937941
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "513-514"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/546/0500-01"
+      ]
+    },
+    {
+      "cite": "546 U. S. 12",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5984933
+      ],
+      "weight": 2,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        },
+        {
+          "page": "16"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/546/0012-01"
+      ]
+    },
+    {
+      "cite": "398 U. S. 58",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6169381
+      ],
+      "year": 1970,
+      "pin_cites": [
+        {
+          "page": "64"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/398/0058-01"
+      ]
+    },
+    {
+      "cite": "540 U. S. 443",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8897340
+      ],
+      "weight": 7,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "448"
+        },
+        {
+          "page": "454"
+        },
+        {
+          "page": "454"
+        },
+        {
+          "page": "453"
+        },
+        {
+          "page": "455"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/540/0443-01"
+      ]
+    },
+    {
+      "cite": "537 U. S. 149",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9190904
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "160, n. 6",
+          "parenthetical": "majority opinion of Souter, J., joined by Stevens, Ginsburg, and Breyer, JJ., inter alios"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/537/0149-01"
+      ]
+    },
+    {
+      "cite": "2007 WL 1048810",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2007,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "6 How. 106",
+      "category": "reporters:scotus_early",
+      "reporter": "How.",
+      "case_ids": [
+        3348816
+      ],
+      "weight": 3,
+      "year": 1848,
+      "pin_cites": [
+        {
+          "page": "113",
+          "parenthetical": "\"[A]s this appeal has not been prosecuted in the manner directed, within the time limited by the acts of Congress, it must be dismissed for want of jurisdiction\""
+        },
+        {
+          "page": "113"
+        },
+        {
+          "page": "113"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/47/0106-01"
+      ]
+    },
+    {
+      "cite": "108 U. S. 567",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3502488
+      ],
+      "year": 1883,
+      "pin_cites": [
+        {
+          "page": "568",
+          "parenthetical": "\"[T]he writ of error in this case was not brought within the time limited by law, and we have consequently no jurisdiction\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/108/0567-01"
+      ]
+    },
+    {
+      "cite": "487 U. S. 312",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1775031
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "314-315"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/487/0312-01"
+      ]
+    },
+    {
+      "cite": "524 U. S. 236",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11182106
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "247"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/524/0236-01"
+      ]
+    },
+    {
+      "cite": "459 U. S. 56",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6191150
+      ],
+      "year": 1982,
+      "pin_cites": [
+        {
+          "page": "61",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/459/0056-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 2107",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "549 U. S. 1092",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 2006,
+      "opinion_index": 0
+    },
+    {
+      "cite": "434 U. S. 257",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6182157
+      ],
+      "weight": 2,
+      "year": 1978,
+      "pin_cites": [
+        {
+          "page": "264"
+        },
+        {
+          "page": "264"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/434/0257-01"
+      ]
+    },
+    {
+      "cite": "432 F. 3d 668",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        556357
+      ],
+      "weight": 3,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "673",
+          "parenthetical": "citing Browder v. Director, Dept. of Corrections of Ill., 434 U. S. 257, 264 (1978)"
+        },
+        {
+          "page": "673",
+          "parenthetical": "collecting eases"
+        },
+        {
+          "page": "676"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/432/0668-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a72107",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "509 U. S. 502",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        355912
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "515",
+          "parenthetical": "\"[W]e think it generally undesirable, where holdings of the Court are not at issue, to dissect the sentences of the United States Reports as though they were the United States Code\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/509/0502-01"
+      ]
+    },
+    {
+      "cite": "376 U. S. 203",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        379618
+      ],
+      "year": 1964,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/376/0203-01"
+      ]
+    },
+    {
+      "cite": "498 U. S. 89",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6219498
+      ],
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "95-96"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/498/0089-01"
+      ]
+    },
+    {
+      "cite": "547 U. S. 198",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3275706
+      ],
+      "weight": 2,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "205"
+        },
+        {
+          "page": "207-208"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/547/0198-01"
+      ]
+    },
+    {
+      "cite": "549 U. S. 457",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3553469
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "467",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/549/0457-01"
+      ]
+    },
+    {
+      "cite": "85 F. 3d 661",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        571922,
+        3693663
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "663, n. 2"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/85/0661-01",
+        "/us-app-dc/318/0095-01"
+      ]
+    },
+    {
+      "cite": "523 U. S. 83",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11503308
+      ],
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "90",
+          "parenthetical": "quoting United States v. Vanness, 85 F. 3d 661, 663, n. 2 (CADC 1996)"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/523/0083-01"
+      ]
+    },
+    {
+      "cite": "361 U. S. 220",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6167282
+      ],
+      "weight": 2,
+      "year": 1960,
+      "pin_cites": [
+        {
+          "page": "229"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/361/0220-01"
+      ]
+    },
+    {
+      "cite": "489 U. S. 169",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12031761
+      ],
+      "weight": 2,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "179"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/489/0169-01"
+      ]
+    },
+    {
+      "cite": "487 U. S. 266",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1774898
+      ],
+      "weight": 2,
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "282",
+          "parenthetical": "Scalia, J., dissenting"
+        },
+        {
+          "page": "282"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/487/0266-01"
+      ]
+    },
+    {
+      "cite": "375 U. S. 384",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11719655
+      ],
+      "weight": 2,
+      "year": 1964,
+      "pin_cites": [
+        {
+          "page": "387",
+          "parenthetical": "per curiam"
+        },
+        {
+          "page": "387"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/375/0384-01"
+      ]
+    },
+    {
+      "cite": "371 U. S. 215",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        451231
+      ],
+      "year": 1962,
+      "pin_cites": [
+        {
+          "page": "217",
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/371/0215-01"
+      ]
+    },
+    {
+      "cite": "513 U. S. 88",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1335080
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "90"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/513/0088-01"
+      ]
+    },
+    {
+      "cite": "541 U. S. 401",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5932838
+      ],
+      "weight": 2,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "414"
+        },
+        {
+          "page": "414"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/541/0401-01"
+      ]
+    },
+    {
+      "cite": "546 U. S. 500",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5937941
+      ],
+      "weight": 8,
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "510",
+          "parenthetical": "same"
+        },
+        {
+          "page": "510"
+        },
+        {
+          "page": "514"
+        },
+        {
+          "page": "516"
+        },
+        {
+          "page": "510"
+        },
+        {
+          "page": "510",
+          "parenthetical": "internal quotation marks omitted"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/546/0500-01"
+      ]
+    },
+    {
+      "cite": "546 U. S. 12",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5984933
+      ],
+      "weight": 3,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "17-18",
+          "parenthetical": "per curiam"
+        },
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/546/0012-01"
+      ]
+    },
+    {
+      "cite": "540 U. S. 443",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        8897340
+      ],
+      "weight": 7,
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "454",
+          "parenthetical": "quoting Steel Co."
+        },
+        {
+          "page": "454"
+        },
+        {
+          "page": "454",
+          "parenthetical": "same"
+        },
+        {
+          "page": "452",
+          "parenthetical": "\"Only Congress may determine a lower federal court's subject-matter jurisdiction\""
+        },
+        {
+          "page": "455"
+        },
+        {
+          "page": "453"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/540/0443-01"
+      ]
+    },
+    {
+      "cite": "537 U. S. 149",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9190904
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "160, n. 6"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/537/0149-01"
+      ]
+    },
+    {
+      "cite": "524 U. S. 236",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11182106
+      ],
+      "year": 1998,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/524/0236-01"
+      ]
+    },
+    {
+      "cite": "459 U. S. 56",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6191150
+      ],
+      "year": 1982,
+      "pin_cites": [
+        {
+          "parenthetical": "per curiam"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/459/0056-01"
+      ]
+    },
+    {
+      "cite": "28 U. S. C. \u00a7 2107",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(c)"
+        },
+        {
+          "page": "(c)(2)",
+          "parenthetical": "allowing reopening for \"14 days from the date of entry\""
+        }
+      ],
+      "opinion_index": 1
+    },
+    {
+      "cite": "434 U. S. 257",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6182157
+      ],
+      "year": 1978,
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/434/0257-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1470,
+    "char_count": 37642,
+    "ocr_confidence": 0.685,
+    "pagerank": {
+      "raw": 0.00011910568657658364,
+      "percentile": 0.9999897677432159
+    },
+    "sha256": "e21bb47df9e56896e761780257ca7481605ad42b12fd9f372729d9036cc63485",
+    "simhash": "1:fd3aefde2a3f9c99",
+    "word_count": 6330
+  },
+  "last_updated": "2024-02-27T20:23:21.737771+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Thomas, J., delivered the opinion of the Court, in which Roberts, C. J., and Scaua, Kennedy, and Auto, JJ., joined. Souter, J., filed a dissenting opinion, in which Stevens, Ginsburg, and Breyer, JJ., joined, post, p. 215."
+    ],
+    "parties": [
+      "BOWLES v. RUSSELL, WARDEN"
+    ],
+    "opinions": [
+      {
+        "text": "Justice Thomas\ndelivered the opinion of the Court.\nIn this case, a District Court purported to extend a party\u2019s time for filing an appeal beyond the period allowed by statute. We must decide whether the Court of Appeals had jurisdiction to entertain an appeal filed after the statutory period but within the period allowed by the District Court\u2019s order. We have long and repeatedly held that the time limits for filing a notice of appeal are jurisdictional in nature. Accordingly, we hold that petitioner\u2019s untimely notice \u2014 even though filed in reliance upon a District Court\u2019s order\u2014 deprived the Court of Appeals of jurisdiction.\nI\nIn 1999, an Ohio jury convicted petitioner Keith Bowles of murder for his involvement in the beating death of Ollie Gipson. The jury sentenced Bowles to 15-years-to-life imprisonment. Bowles unsuccessfully challenged his conviction and sentence on direct appeal.\nBowles then filed a federal habeas corpus application on September 5, 2002. On September 9, 2003, the District Court denied Bowles habeas relief. After the entry of final judgment, Bowles had 30 days to file a notice of appeal. Fed. Rule App. Proc. 4(a)(1)(A); 28 U.S.C. \u00a72107(a). He failed to do so. On December 12, 2003, Bowles moved to reopen the period during which he could file his notice of appeal pursuant to Rule 4(a)(6), which allows district courts to extend the filing period for 14 days from the day the district court grants the order to reopen, provided certain conditions are met. See \u00a7 2107(c).\nOn February 10, 2004, the District Court granted Bowles\u2019 motion. But rather than extending the time period by 14 days, as Rule 4(a)(6) and \u00a7 2107(c) allow, the District Court inexplicably gave Bowles 17 days \u2014 until February 27 \u2014 to file his notice of appeal. Bowles filed his notice on February 26 \u2014 within the 17 days allowed by the District Court\u2019s order, but after the 14-day period allowed by Rule 4(a)(6) and \u00a7 2107(c).\nOn appeal, respondent Russell argued that Bowles\u2019 notice was untimely and that the Court of Appeals therefore lacked jurisdiction to hear the ease. The Court of Appeals agreed. It first recognized that this Court has consistently held the requirement of filing a timely notice of appeal is \u201cmandatory and jurisdictional.\u201d 432 F. 3d 668, 673 (CA6 2005) (citing Browder v. Director, Dept. of Corrections of Ill., 434 U. S. 257, 264 (1978)). The court also noted that Courts of Appeals have uniformly held that Rule 4(a)(6)\u2019s 180-day period for filing a motion to reopen is also mandatory and not susceptible to equitable modification. 432 F. 3d, at 673 (collecting eases). Concluding that \u201cthe fourteen-day period in Rule 4(a)(6) should be treated as strictly as the 180-day period in that same Rule,\u201d id., at 676, the Court of Appeals held that it was without jurisdiction. We granted certiorari, 549 U. S. 1092 (2006), and now affirm.\nII\nAccording to 28 U. S. C. \u00a7 2107(a), parties must file notices of appeal within 30 days of the entry of the judgment being appealed. District courts have limited authority to grant an extension of the 30-day time period. Relevant to this case, if certain conditions are met, district courts have the statutory authority to grant motions to reopen the time for filing an appeal for 14 additional days. \u00a7 2107(c). Rule 4 of the Federal Rules of Appellate Procedure carries \u00a72107 into practice. In accord with \u00a7 2107(c), Rule 4(a)(6) describes the district court\u2019s authority to reopen and extend the time for filing a notice of appeal after the lapse of the usual 30 days:\n\u201c(6) Reopening the Time to File an Appeal.\n\u201cThe district court may reopen the time to file an appeal for a period of 14 days after the date when its order to reopen is entered, but only if all the following conditions are satisfied:\n\u201c(A) the motion is filed within 180 days after the judgment or order is entered or within 7 days after the moving party receives notice of the entry, whichever is earlier;\n\u201c(B) the court finds that the moving party was entitled to notice of the entry of the judgment or order sought to be appealed but did not receive the notice from the district court or any party within 21 days after entry; and\n\u201c(C) the court finds that no party would be prejudiced.\u201d (Emphasis added.)\nIt is undisputed that the District Court\u2019s order in this case purported to reopen the filing period for more than 14 days. Thus, the question before us is whether the Court of Appeals lacked jurisdiction to entertain an appeal filed outside the 14-day window allowed by \u00a7 2107(c) but within the longer period granted by the District Court.\nA\nThis Court has long held that the taking of an appeal within the prescribed time is \u201cmandatory and jurisdictional.\u201d Griggs v. Provident Consumer Discount Co., 459 U. S. 56, 61 (1982) (per curiam) (internal quotation marks omitted); accord, Hohn v. United States, 524 U. S. 236, 247 (1998); Tor res v. Oakland Scavenger Co., 487 U. S. 312, 314-315 (1988); Browder, 434 U. S., at 264. Indeed, even prior to the creation of the circuit courts of appeals, this Court regarded statutory limitations on the timing of appeals as limitations on its own jurisdiction. See Scarborough v. Pargoud, 108 U. S. 567, 568 (1883) (\u201c[T]he writ of error in this case was not brought within the time limited by law, and we have consequently no jurisdiction\u201d); United States v. Curry, 6 How. 106, 113 (1848) (\u201c[A]s this appeal has not been prosecuted in the manner directed, within the time limited by the acts of Congress, it must be dismissed for want of jurisdiction\u201d). Reflecting the consistency of this Court\u2019s holdings, the courts of appeals routinely and uniformly dismiss untimely appeals for lack of jurisdiction. See, e. g., Atkins v. Medical Dept. of Augusta Cty. Jail, No. 06-7792, 2007 WL 1048810 (CA4, Apr. 4, 2007) (per curiam) (unpublished); see also 15A C. Wright, A. Miller, & E. Cooper, Federal Practice and Procedure \u00a7 3901, p. 6 (2d ed. 1992) (\u201cThe rule is well settled that failure to file a timely notice of appeal defeats the jurisdiction of a court of appeals\u201d). In fact, the author of today\u2019s dissent recently reiterated that \u201c[t]he accepted fact is that some time limits are jurisdictional even though expressed in a separate statutory section from jurisdictional grants, see, e.g., . . . \u00a72107 (providing that notice of appeal in civil cases must be filed \u2018within thirty days after the entry of such judgment\u2019).\u201d Barnhart v. Peabody Coal Co., 537 U. S. 149, 160, n. 6 (2003) (majority opinion of Souter, J., joined by Stevens, Ginsburg, and Breyer, JJ., inter alios).\nAlthough several of our recent decisions have undertaken to clarify the distinction between claims-processing rules and jurisdictional rules, none of them calls into question our longstanding treatment of statutory time limits for taking an appeal as jurisdictional. Indeed, those decisions have also recognized the jurisdictional significance of the fact that a time limitation is set forth in a statute. In Kontrick v. Ryan, 540 U. S. 443 (2004), we held that failure to comply with the time requirement in Federal Rule of Bankruptcy Procedure 4004 did not affect a court\u2019s subject-matter jurisdiction. Critical to our analysis was the fact that \u201c[n]o statute . . . specifies a time limit for filing a complaint objecting to the debtor\u2019s discharge.\u201d 540 U. S., at 448. Rather, the filing deadlines in the Bankruptcy Rules are \u201c \u2018procedural rules adopted by the Court for the orderly transaction of its business\u2019\u201d that are \u201c\u2018not jurisdictional.\u2019\u201d Id., at 454 (quoting Schacht v. United States, 398 U. S. 58, 64 (1970)). Because \u201c[o]nly Congress may determine a lower federal court\u2019s subject-matter jurisdiction,\u201d 540 U. S., at 452 (citing U. S. Const., Art. III, \u00a7 1), it was improper for courts to use \u201cthe term \u2018jurisdictional\u2019 to describe emphatic time prescriptions in rules of court,\u201d 540 U. S., at 454. See also Eberhart v. United States, 546 U. S. 12 (2005) (per curiam). As a point of contrast, we noted that \u00a72107 contains the type of statutory time constraints that would limit a court\u2019s jurisdiction. 540 U. S., at 453, and n. 8. Nor do Arbaugh v. Y & H Corp., 546 U. S. 500 (2006), or Scarborough v. Principi, 541 U. S. 401 (2004), aid petitioner. In Arbaugh, the statutory limitation was an employee-numerosity requirement, not a time limit. 546 U. S., at 505. Scarborough, which addressed the availability of attorney\u2019s fees under the Equal Access to Justice Act, concerned \u201ca mode of relief . . . ancillary to the judgment of a court\u201d that already had plenary jurisdiction. 541 U. S., at 413.\nThis Court\u2019s treatment of its certiorari jurisdiction also demonstrates the jurisdictional distinction between court-promulgated rules and limits enacted by Congress. According to our Rules, a petition for a writ of certiorari must be filed within 90 days of the entry of the judgment sought to be reviewed. See this Court\u2019s Rule 13.1. That 90-day period applies to both civil and criminal cases. But the 90-day period for civil cases derives from both this Court\u2019s Rule 13.1 and 28 U. S. C. \u00a7 2101(c). We have repeatedly held that this statute-based filing period for civil cases is jurisdictional. See, e. g., Federal Election Comm\u2019n v. NRA Political Victory Fund, 513 U. S. 88, 90 (1994). Indeed, this Court\u2019s Rule 13.2 cites \u00a7 2101(c) in directing the Clerk not to file any petition \u201cthat is jurisdictionally out of time.\u201d (Emphasis added.) On the other hand, we have treated the rule-based time limit for criminal cases differently, stating that it may be waived because \u201c[t]he procedural rules adopted by the Court for the orderly transaction of its business are not jurisdictional and can be relaxed by the Court in the exercise of its discretion ....\u201d Schacht, supra, at 64.\nJurisdictional treatment of statutory time limits makes good sense. Within constitutional bounds, Congress decides what cases the federal courts have jurisdiction to consider. Because Congress decides whether federal courts can hear cases at all, it can also determine when, and under what conditions, federal courts can hear them. See Curry, 6 How., at 113. Put another way, the notion of \u201c\u2018subject-matter\u2019\u201d jurisdiction obviously extends to \u201c \u2018classes of cases ... falling within a court\u2019s adjudicatory authority,\u2019\u201d Eberhart, supra, at 16 (quoting Kontrick, supra, at 455), but it is no less \u201cjurisdictional\u201d when Congress prohibits federal courts from adjudicating an otherwise legitimate \u201cclass of cases\u201d after a certain period has elapsed from final judgment.\nThe resolution of this ease follows naturally from this reasoning. Like the initial 30-day period for filing a notice of appeal, the limit on how long a district court may reopen that period is set forth in a statute, 28 U. S. C. \u00a7 2107(c). Because Congress specifically limited the amount of time by which district courts can extend the notice-of-appeal period in \u00a7 2107(c), that limitation is more than a simple \u201cclaim-processing rule.\u201d As we have long held, when an \u201cappeal has not been prosecuted in the manner directed, within the time limited by the acts of Congress, it must be dismissed for want of jurisdiction.\u201d Curry, supra, at 113. Bowles\u2019 failure to file his notice of appeal in accordance with the statute therefore deprived the Court of Appeals of jurisdiction. And because Bowles\u2019 error is one of jurisdictional magnitude, he cannot rely on forfeiture or waiver to excuse his lack of compliance with the statute\u2019s time limitations. See Arbaugh, supra, at 513-514.\nB\nBowles contends that we should excuse his untimely filing because he satisfies the \u201cunique circumstances\u201d doctrine, which has its roots in Harris Truck Lines, Inc. v. Cherry Meat Packers, Inc., 371 U. S. 215 (1962) (per curiam). There, pursuant to then-Rule 73(a) of the Federal Rules of Civil Procedure, a District Court entertained a timely motion to extend the time for filing a notice of appeal. The District Court found the moving party had established a showing of \u201cexcusable neglect,\u201d as required by the Rule, and granted the motion. The Court of Appeals reversed the finding of excusable neglect and, accordingly, held that the District Court lacked jurisdiction to grant the extension. Harris Truck Lines, Inc. v. Cherry Meat Packers, Inc., 303 F. 2d 609, 611-612 (CA7 1962). This Court reversed, noting \u201cthe obvious great hardship to a party who relies upon the trial judge\u2019s finding of \u2018excusable neglect.\u2019 \u201d 371 U. S., at 217.\nToday we make clear that the timely filing of a notice of appeal in a civil case is a jurisdictional requirement. Because this Court has no authority to create equitable exceptions to jurisdictional requirements, use of the \u201cunique circumstances\u201d doctrine is illegitimate. Given that this Court has applied Harris Truck Lines only once in the last half century, Thompson v. INS, 375 U. S. 384 (1964) (per curiam), several courts have rightly questioned its continuing validity. See, e. g., Panhorst v. United States, 241 F. 3d 367, 371 (CA4 2001) (doubting \u201cthe continued viability of the unique circumstances doctrine\u201d). See also Houston v. Lack, 487 U. S. 266, 282 (1988) (Scalia, J., dissenting) (\u201cOur later cases ... effectively repudiate the Harris Truck Lines approach . . . \u201d); Osterneck v. Ernst & Whinney, 489 U. S. 169, 170 (1989) (referring to \u201cthe so-called \u2018unique circumstances\u2019 exception\u201d to the timely appeal requirement). We see no compelling reason to resurrect the doctrine from its 40-year slumber. Accordingly, we reject Bowles\u2019 reliance on the doctrine, and we overrule Harris Truck Lines and Thompson to the extent they purport to authorize an exception to a jurisdictional rule.\nC\nIf rigorous rules like the one applied today are thought to be inequitable, Congress may authorize courts to promulgate rules that excuse compliance with the statutory time limits. Even narrow rules to this effect would give rise to litigation testing their reach and would no doubt detract from the clarity'of the rule. However, congressionally authorized rule-making would likely lead to less litigation than court-created exceptions without authorization. And in all events, for the reasons discussed above, we lack present authority to make the exception petitioner seeks.\nIll\nThe Court of Appeals correctly held that it lacked jurisdiction to consider Bowles\u2019 appeal. The judgment of the Court of Appeals is affirmed.\nIt is so ordered.\nThe Rule was amended, effective December 1, 2005, to require that notice be pursuant to Fed. Rule Civ. Proc. 77(d). The substance is otherwise unchanged.\nGriggs and several other of this Court\u2019s decisions ultimately rely on United States v. Robinson, 361 U. S. 220, 229 (1960), for the proposition that the timely filing of a notice of appeal is jurisdictional. As the dissent notes, we have recently questioned Robinson\u2019s use of the term \u201cjurisdictional.\u201d Post, at 215-216 (opinion of Souter, J.). Even in our cases criticizing Robinson, however, we have noted the jurisdictional significance of the fact that a time limit is set forth in a statute, see infra, at 210-&11, and have even pointed to \u00a7 2107 as a statute deserving of jurisdictional treatment, infra, at 211. Additionally, because we rely on those cases in reaching today\u2019s holding, the dissent\u2019s rhetoric claiming that we are ignoring their reasoning is unfounded.\nRegardless of this Court\u2019s past careless use of terminology, it is indisputable that time limits for filing a notice of appeal have been treated as jurisdictional in American law for well over a century. Consequently, the dissent\u2019s approach would require the repudiation of a century\u2019s worth of precedent and practice in American courts. Given the choice between calling into question some dicta in our recent opinions and effectively overruling a century\u2019s worth of practice, we think the former option is the only prudent course.\nAt least one Federal Court of Appeals has noted that Kontrick and Eberhart \u201ccalled . . . into question\u201d the \u201clongstanding assumption\u201d that the timely filing of a notice of appeal is a jurisdictional requirement. United States v. Sadler, 480 F. 3d 932, 935 (CA9 2007). That court nonetheless found that \u201c[t]he distinction between jurisdictional rules and inflexible but not jurisdictional timeliness rules drawn by Eberhart and Kontrick turns largely on whether the timeliness requirement is or is not grounded in a statute.\u201d Id., at 936.\nThe dissent minimizes this argument, stating that the Court understood \u00a7 2101(c) as jurisdictional \u201cin the days when we used the term imprecisely.\u201d Post, at 218, n. 4. The dissent\u2019s apathy is surprising because if our treatment of our own jurisdiction is simply a relic of the old days, it is a relic with severe consequences. Just a few months ago, the Clerk, pursuant to this Court\u2019s Rule 13.2, refused to accept a petition for certiorari submitted by Ryan Heath Dickson because it had been filed one day late. In the letter sent to Dickson\u2019s counsel, the Clerk explained that \u201c[w]hen the time to file a petition for a writ of certiorari in a civil case ... has expired, the Court no longer has the power to review the petition.\u201d Letter from William K. Suter, Clerk of Court, to Ronald T. Spriggs (Dec. 28, 2006). Dickson was executed on April 26, 2007, without any Member of this Court having even seen his petition for certiorari. The rejected certiorari petition was Dickson\u2019s first in this Court, and one can only speculate as to whether denial of that petition would have been a foregone conclusion.",
+        "type": "majority",
+        "author": "Justice Thomas"
+      },
+      {
+        "text": "Justice Souter,\nwith whom Justice Stevens, Justice Ginsburg, and Justice Breyer join, dissenting.\nThe District Court told petitioner Keith Bowles that his notice of appeal was due on February 27, 2004. He filed a notice of appeal on February 26, only to be told that he was too late because his deadline had actually been February 24. It is intolerable for the judicial system to treat people this way, and there is not even a technical justification for condoning this bait and switch. I respectfully dissent.\nI\n\u201c \u2018Jurisdiction,\u2019 \u201d we have warned several times in the last decade, \u201c \u2018is a word of many, too many, meanings.\u2019 \u201d Steel Co. v. Citizens for Better Environment, 523 U. S. 83, 90 (1998) (quoting United States v. Vanness, 85 F. 3d 661, 663, n. 2 (CADC 1996)); Kontrick v. Ryan, 540 U. S. 443, 454 (2004) (quoting Steel Co.); Arbaugh v. Y & H Corp., 546 U. S. 500, 510 (2006) (same); Rockwell Int\u2019l Corp. v. United States, 549 U. S. 457, 467 (2007) (same). This variety of meaning has insidiously tempted courts, this one included, to engage in \u201cless than meticulous,\u201d Kontrick, supra, at 454, sometimes even \u201cprofligate . . . use of the term,\u201d Arbaugh, supra, at 510.\nIn recent years, however, we have tried to clean up our language, and until today we have been avoiding the erroneous jurisdictional conclusions that flow from indiscriminate use of the ambiguous word. Thus, although we used to call the sort of time limit at issue here \u201cmandatory and jurisdictional,\u201d United States v. Robinson, 361 U. S. 220, 229 (1960), we have recently and repeatedly corrected that designation as a misuse of the \u201cjurisdiction\u201d label, Arbaugh, supra, at 510 (citing Robinson as an example of improper use of the term \u201cjurisdiction\u201d); Eberhart v. United States, 546 U. S. 12, 17-18 (2005) (per curiam) (same); Kontrick, supra, at 454 (same).\nBut one would never guess this from reading the Court's opinion in this case, which suddenly restores Robinson\u2019s indiscriminate use of the \u201cmandatory and jurisdictional\u201d label to good law in the face of three unanimous repudiations of Robinson\u2019s error. See ante, at 209. This is puzzling, the more so because our recent (and, I repeat, unanimous) efforts to confine jurisdictional rulings to jurisdiction proper were obviously sound, and the majority makes no attempt to show they were not. 1\nThe stakes are high in treating time limits as jurisdictional. While a mandatory but nonjurisdictional limit is enforceable at the insistence of a party claiming its benefit or by a judge concerned with moving the docket, it may be waived or mitigated in exercising reasonable equitable discretion. But if a limit is taken to be jurisdictional, waiver becomes impossible, meritorious excuse irrelevant (unless the statute so provides), and sua sponte consideration in the courts of appeals mandatory, see Arbaugh, supra, at 514. As the Court recognizes, ante, at 210-211, this is no way to regard time limits set out in a court rule rather than a statute, see Kontrick, supra, at 452 (\u201cOnly Congress may determine a lower federal court\u2019s subject-matter jurisdiction\u201d). But neither is jurisdictional treatment automatic when a time limit is statutory, as it is in this case. Generally speaking, limits on the reach of federal statutes, even nontemporal ones, are only jurisdictional if Congress says so: \u201cwhen Congress does not rank a statutory limitation on coverage as jurisdictional, courts should treat the restriction as nonjurisdictional in character.\u201d Arbaugh, 546 U. S., at 516. Thus, we have held \u201cthat time prescriptions, however emphatic, \u2018are not properly typed \u201cjurisdictional,\u201d \u2019 \u201d id., at 510 (quoting Scarborough v. Principi, 541 U. S. 401, 414 (2004)), absent some jurisdictional designation by Congress. Congress put no jurisdictional tag on the time limit here.\nThe doctrinal underpinning of this recently repeated view was set out in Kontrick: \u201cthe label \u2018jurisdictional\u2019 [is appropriate] not for claim-processing rules, but only for prescriptions delineating the classes of cases (subject-matter jurisdiction) and the persons (personal jurisdiction) falling within a court\u2019s adjudicatory authority.\u201d 540 U. S., at 455. A filing deadline is the paradigm of a claim-processing rule, not of a delineation of cases that federal courts may hear, and so it falls outside the class of limitations on subject-matter jurisdiction unless Congress says otherwise. **4\nThe time limit at issue here, far from defining the set of cases that may be adjudicated, is much more like a statute of limitations, which provides an affirmative defense, see Fed. Rule Civ. Proc. 8(c), and is not jurisdictional, Day v. McDonough, 547 U. S. 198, 205 (2006). Statutes of limitations may thus be waived, id., at 207-208, or excused by rules, such as equitable tolling, that alleviate hardship and unfairness, see Irwin v. Department of Veterans Affairs, 498 U. S. 89, 95-96 (1990).\nConsistent with the traditional view of statutes of limitations, and the carefully limited concept of jurisdiction explained in Arbaugh, Eberhart, and Kontrick, an exception to the time limit in 28 U. S. C. \u00a7 2107(c) should be available when there is a good justification for one, for reasons we recognized years ago. In Harris Truck Lines, Inc. v. Cherry Meat Packers, Inc., 371 U. S. 215, 217 (1962) (per curiam), and Thompson v. INS, 375 U. S. 384, 387 (1964) (per curiam), we found that \u201cunique circumstances\u201d excused failures to comply with the time limit. In fact, much like this case, Harris and Thompson involved District Court errors that misled litigants into believing they had more time to file notices of appeal than a statute actually provided. Thus, even back when we thoughtlessly called time limits jurisdictional, we did not actually treat them as beyond exemption to the point of shrugging at the inequity of penalizing a party for relying on what a federal judge had said to him. Since we did not dishonor reasonable reliance on a judge's official word back in the days when we uncritically had a jurisdictional reason to be unfair, it is unsupportable to dishonor it now, after repeatedly disavowing any such jurisdictional justification that would apply to the 14-day time limit of \u00a7 2107(c).\nThe majority avoids clashing with Harris and Thompson by overruling them on the ground of their \u201cslumber,\u201d ante, at 214, and inconsistency with a time-limit-as-jurisdictional rule. But eliminating those precedents underscores what has become the principal question of this case: why does to-day\u2019s majority refuse to come to terms with the steady stream of unanimous statements from this Court in the past four years, culminating in Arbaugh\u2019s summary a year ago? The majority begs this question by refusing to confront what we have said: \u201cin recent decisions, we have clarified that time prescriptions, however emphatic, \u2018are not properly typed \u201cjurisdictional.\u201d \u2019 \u201d Arbaugh, 546 U. S., at 510 (quoting Scarborough, 541 U. S., at 414). This statement of the Court, and those preceding it for which it stands as a summation, cannot be dismissed as \u201csome dicta,\u201d ante, at 209, n. 2, and cannot be ignored on the ground that some of them were made in cases where the challenged restriction was not a time limit, see ante, at 211. By its refusal to come to grips with our considered statements of law the majority leaves the Court incoherent.\nIn ruling that Bowles cannot depend on the word of a District Court Judge, the Court demonstrates that no one may depend on the recent, repeated, and unanimous statements of all participating Justices of this Court. Yet more incongruously, all of these pronouncements by the Court, along with two of our cases, are jettisoned in a ruling for which the leading justification is stare decisis, see ante, at 209 (\u201cThis Court has long held ... \u201d).\nII\nWe have the authority to recognize an equitable exception to the 14-day limit, and we should do that here, as it certainly seems reasonable to rely on an order from a federal judge. Bowles, though, does not have to convince us as a matter of first impression that his reliance was justified, for we only have to look as far as Thompson to know that he ought to prevail. There, the would-be appellant, Thompson, had filed post-trial motions 12 days after the District Court\u2019s final order. Although the rules said they should have been filed within 10, Fed. Rules Civ. Proc. 52(b) and 59(b) (1964 ed.), the trial court nonetheless had \u201cspecifically declared that the \u2018motion for a new trial\u2019 was made \u2018in ample time.\u2019 \u201d Thompson, supra, at 885. Thompson relied on that statement in filing a notice of appeal within 60 days of the denial of the post-trial motions but not within 60 days of entry of the original judgment. Only timely post-trial motions affected the 60-day time limit for filing a notice of appeal, Rule 73(a) (1964 ed.), so the Court of Appeals held the appeal untimely. We vacated because Thompson \u201crelied on the statement of the District Court and filed the appeal within the assumedly new deadline but beyond the old deadline.\u201d 375 U. S., at 387.\nThompson should control. In that ease, and this one, the untimely filing of a notice of appeal resulted from reliance on an error by a District Court, an error that caused no evident prejudice to the other party. Actually, there is one difference between Thompson and this case: Thompson filed his post-trial motions late, and the District Court was mistaken when it said they were timely; here, the District Court made the error out of the blue, not on top of any mistake by Bowles, who then filed his notice of appeal by the specific date the District Court had declared timely. If anything, this distinction ought to work in Bowles\u2019s favor. Why should we have rewarded Thompson, who introduced the error, but now punish Bowles, who merely trusted the District Court\u2019s statement?\nUnder Thompson, it would be no answer to say that Bowles\u2019s trust was unreasonable because the 14-day limit was clear and counsel should have checked the judge\u2019s arithmetic. The 10-day limit on post-trial motions was no less pellucid in Thompson, which came out the other way. And what is more, counsel here could not have uncovered the court\u2019s error simply by counting off the days on a calendar. Federal Rule of Appellate Procedure 4(a)(6) allows a party to file a notice of appeal within 14 days of \u201cthe date when [the district court\u2019s] order to reopen is entered.\u201d See also 28 U. S. C. \u00a7 2107(c)(2) (allowing reopening for \u201c14 days from the date of entry\u201d). The District Court\u2019s order was dated February 10,2004, which reveals the date the judge signed it but not necessarily the date on which the order was entered. Bowles\u2019s lawyer therefore could not tell from reading the order, which he received by mail, whether it was entered the day it was signed. Nor is the possibility of delayed entry merely theoretical: the District Court\u2019s original judgment in this case, dated July 10, 2003, was not entered until July 28. See App. 11 (District Court docket). According to Bowles\u2019s lawyer, electronic access to the docket was unavailable at the time, so to learn when the order was actually entered he would have had to call or go to the courthouse and check. See Tr. of Oral Arg. 56-57. Surely this is more than equity demands, and unless every statement by a federal court is to be tagged with the warning \u201cBeware of the Judge,\u201d Bowles\u2019s lawyer had no obligation to go behind the terms of the order he received.\nI have to admit that Bowles\u2019s counsel probably did not think the order might have been entered on a different day from the day it was signed. He probably just trusted that the date given was correct, and there was nothing unreasonable in so trusting. The other side let the order pass without objection, either not caring enough to make a fuss or not even noticing the discrepancy; the mistake of a few days was probably not enough to ring the alarm bell to send either lawyer to his copy of the Federal Rules and then off to the courthouse to check the docket. This would be a different case if the year were wrong on the District Court\u2019s order, or if opposing counsel had flagged the error. But on the actual facts, it was reasonable to rely on a facially plausible date provided by a federal judge.\nI would vacate the decision of the Court of Appeals and remand for consideration of the merits.\nThe Court thinks my fellow dissenters and I are forgetful of an opinion I wrote and the others joined in 2003, which referred to the 30-day rule of 28 U. S. C. 12107(a) as a jurisdictional time limit. See ante, at 210 (quoting Barnhart v. Peabody Coal Co., 537 U. S. 149, 160, n. 6 (2003)). But that reference in Barnhart was a perfect example of the confusion of the mandatory and the jurisdictional that the entire Court has spent the past four years repudiating in Arbaugh, Eberhart, and Kontrick. My fellow dissenters and I believe that the Court was right to correct its course; the majority, however, will not even admit that we deliberately changed course, let alone explain why it is now changing course again.\nThe requirement that courts of appeals raise jurisdictional issues sua sponte reveals further ill effects of today\u2019s decision. Under \u00a7 2107(c), \u201c[t]he district court may ... extend the time for appeal upon a showing of excusable neglect or good cause.\u201d By the Court\u2019s logic, if a district court grants such an extension, the extension\u2019s propriety is subject to mandatory sua sponte review in the court of appeals, even if the extension was unopposed throughout, and upon finding error the court of appeals must dismiss the appeal. I see no more justification for such a rule than reason to suspect Congress meant to create it.\nThe majority answers that a footnote of our unanimous opinion in Kontrick v. Ryan, 540 U. S. 443 (2004), used \u00a7 2107(a) as an illustration of a jurisdictional time limit. Ante, at 211 (\u201c[W]e noted that \u00a72107 contains the type of statutory time constraints that would limit a court\u2019s jurisdiction. 540 U. S., at 453, and n. 8\u201d). What the majority overlooks, however, are the post-Kontrick cases showing that \u00a7 2107(a) can no longer be seen as an example of a jurisdictional time limit. The jurisdictional character of the 30- (or 60)-day time limit for filing notices of appeal under the present \u00a7 2107(a) was first pronounced by this Court in Browder v. Director, Dept. of Corrections of Ill., 434 U. S. 257 (1978). But in that respect Browder was undercut by Eberhart v. United States, 546 U. S. 12 (2005) (per curiam), decided after Kontrick. Eberhart cited Browder (along with several of the other cases on which the Court now relies) as an exam-pie of the basic error of confusing mandatory time limits with jurisdictional limitations, a confusion for which United States v. Robinson, 361 U. S. 220 (1960), was responsible. Compare ante, at 209-210 (citing Browder, Griggs v. Provident Consumer Discount Co., 459 U. S. 56 (1982) (per curiam), and Hohn v. United States, 524 U. S. 236 (1998)), with Eberhart, supra, at 17-18 (citing those cases as examples of the confusion caused by Robinson\u2019s imprecise language). Eberhart was followed four months later by Arbaugh v. Y & H Corp., 546 U. S. 500 (2006), which summarized the body of recent decisions in which the Court \u201cclarified that time prescriptions, however emphatic, are not properly typed jurisdictional,\u201d id., at 510 (internal quotation marks omitted). This unanimous statement of all Members of the Court participating in the case eliminated the option of continuing to accept \u00a7 2107(a) as jurisdictional and it precludes treating the 14-day period of \u00a7 2107(c) as a limit on jurisdiction.\nThe Court points out that we have affixed a \u201cjurisdiction\u201d label to the time limit contained in \u00a7 2101(c) for petitions for writ of certiorari in civil cases. Ante, at 212 (citing Federal Election Comm\u2019n v. NRA Political Victory Fund, 513 U. S. 88, 90 (1994); this Court\u2019s Rule 13.2). Of course, we initially did so in the days when we used the term imprecisely. The status of \u00a7 2101(e) is not before the Court in this case, so I express no opinion on whether there are sufficient reasons to treat it as jurisdictional. The Court\u2019s observation that jurisdictional treatment has had severe consequences in that context, ante, at 212, n. 4, does nothing to support an argument that jurisdictional treatment is sound, but instead merely shows that the certiorari rule, too, should be reconsidered in light of our recent clarifications of what sorts of rules should be treated as jurisdictional.\nWith no apparent sense of irony, the Court finds that \u201c\u2018[o]ur later cases ... effectively repudiate the Harris Truck Lines approach.\u2019 \u201d Ante, at 214 (quoting Houston v. Lack, 487 U. S. 266, 282 (1988) (Scalia, J., dissenting); omission in original). Of course, those \u201clater cases\u201d were Browder and Griggs, see Houston, supra, at 282, which have themselves been repudiated, not just \u201ceffectively\u201d but explicitly, in Eberhart. See n. 3, supra.\nThree, if we include Wolfsohn v. Hankin, 376 U. S. 203 (1964) (per curiam).\nAs a member of the Federal Judiciary, I cannot help but think that reliance on our orders is reasonable. See O. Holmes, Natural Law, in Collected Legal Papers 311 (1920). I would also rest better knowing that my innocent errors will not jeopardize anyone\u2019s rights unless absolutely necessary.\nNothing in Osterneck v. Ernst & Whinney, 489 U. S. 169 (1989), requires such a strange rule. In Osterneek, we described the \u201cunique circumstances\u201d doctrine as applicable \u201conly where a party has performed an act which, if properly done, would postpone the deadline for filing his appeal and has received specific assurance by a judicial officer that this act has been properly done.\u201d Id., at 179. But the point we were making was that Thompson could not excuse a lawyer\u2019s original mistake in a case in which a judge had not assured him that his act had been timely; the Court of Appeals in Osterneck had found that no court provided a specific assurance, and we agreed. I see no reason to take Osterneck\u2019s language out of context to buttress a fundamentally unfair resolution of an issue the Osterneck Court did not have in front of it. Cf. St. Mary\u2019s Honor Center v. Hicks, 509 U. S. 502, 515 (1993) (\u201c[W]e think it generally undesirable, where holdings of the Court are not at issue, to dissect the sentences of the United States Reports as though they were the United States Code\u201d).\nAt first glance it may seem unreasonable for counsel to wait until the penultimate day under the judge\u2019s order, filing a notice of appeal being so easy that counsel should not have needed the extra time. But as Bowles's lawyer pointed out at oral argument, filing the notice of appeal starts the clock for filing the record, see Fed. Rules App. Proc. 6(b)(2)(B), 10(b), and 11, which in turn starts the clock for filing a brief, see Rule 31(a)(1), for which counsel might reasonably want as much time as possible. See Tr. of Oral Arg. 6. A good lawyer plans ahead, and Bowles had a good lawyer.",
+        "type": "dissent",
+        "author": "Justice Souter,"
+      }
+    ],
+    "attorneys": [
+      "Paul Mancino, Jr., argued the cause for petitioner. With him on the briefs were Paul Mancino III and Brett Mancino.",
+      ", William P. Marshall argued the cause for respondent. With him on the brief were Marc Dann, Attorney General of Ohio, Elise W. Porter, Acting Solicitor General, and Stephen P. Carney, Robert J. Krummen, and Elizabeth T. Scavo, Deputy Solicitors..",
+      "Malcolm L. Stewart argued the cause for the United States as amicus curiae urging affirmance. On the brief were Solicitor General Clement, Assistant Attorney General Keisler, Deputy Solicitor General Dreeben, Eric D. Miller, Douglas N. Letter, and Lowell V. Sturgill, Jr."
+    ],
+    "corrections": "",
+    "head_matter": "BOWLES v. RUSSELL, WARDEN\nNo. 06-5306.\nArgued March 26, 2007\nDecided June 14, 2007\nThomas, J., delivered the opinion of the Court, in which Roberts, C. J., and Scaua, Kennedy, and Auto, JJ., joined. Souter, J., filed a dissenting opinion, in which Stevens, Ginsburg, and Breyer, JJ., joined, post, p. 215.\nPaul Mancino, Jr., argued the cause for petitioner. With him on the briefs were Paul Mancino III and Brett Mancino.\n, William P. Marshall argued the cause for respondent. With him on the brief were Marc Dann, Attorney General of Ohio, Elise W. Porter, Acting Solicitor General, and Stephen P. Carney, Robert J. Krummen, and Elizabeth T. Scavo, Deputy Solicitors..\nMalcolm L. Stewart argued the cause for the United States as amicus curiae urging affirmance. On the brief were Solicitor General Clement, Assistant Attorney General Keisler, Deputy Solicitor General Dreeben, Eric D. Miller, Douglas N. Letter, and Lowell V. Sturgill, Jr.\nAmy Howe, Kevin K. Russell, and Jeffrey L. Fisher filed a brief for the National Association of Criminal Defense Lawyers as amicus curiae urging reversal."
+  },
+  "file_name": "0205-01",
+  "first_page_order": 257,
+  "last_page_order": 275
+}

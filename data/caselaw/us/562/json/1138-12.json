@@ -1,0 +1,59 @@
+{
+  "id": 5908087,
+  "name": "Green v. Rhee",
+  "name_abbreviation": "Green v. Rhee",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-608",
+  "first_page": "1138",
+  "last_page": "1138",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1138"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 61,
+    "ocr_confidence": 0.605,
+    "sha256": "fbc4bab2c2c0f2a5a91313d2ca49e24b0a99ccc76edef20d643816221d44fc3b",
+    "simhash": "1:82dd7eedfa2883d5",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Green v. Rhee."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. D. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-608.\nGreen v. Rhee."
+  },
+  "file_name": "1138-12",
+  "first_page_order": 1160,
+  "last_page_order": 1160
+}

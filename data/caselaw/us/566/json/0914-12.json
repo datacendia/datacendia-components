@@ -1,0 +1,59 @@
+{
+  "id": 12198129,
+  "name": "Dimache v. United States",
+  "name_abbreviation": "Dimache v. United States",
+  "decision_date": "2012-03-26",
+  "docket_number": "No. 11-8949",
+  "first_page": "914",
+  "last_page": "914",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 914"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.647,
+    "sha256": "e6767a5abe4bf59d884c121a638d8b13330dede53c666e60769be5f58e67e99a",
+    "simhash": "1:378a86534eab3d65",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dimache v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8949.\nDimache v. United States."
+  },
+  "file_name": "0914-12",
+  "first_page_order": 790,
+  "last_page_order": 790
+}

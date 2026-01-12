@@ -1,0 +1,98 @@
+{
+  "id": 12229968,
+  "name": "In re Disbarment of Osborne",
+  "name_abbreviation": "In re Disbarment of Osborne",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. D-2588",
+  "first_page": "974",
+  "last_page": "974",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 974"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "564 U. S. 1015",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12450683,
+        5929348,
+        5924874,
+        12450890,
+        5922892,
+        4336336,
+        5926709,
+        12450871,
+        5934104,
+        12450682,
+        5932379,
+        12450684,
+        12450685,
+        12450686
+      ],
+      "opinion_index": -1,
+      "case_paths": [
+        "/l-ed-2d/180/0842-01",
+        "/us/564/1015-07",
+        "/us/564/1015-03",
+        "/l-ed-2d/180/0868-07",
+        "/us/564/1015-01",
+        "/us/564/1015-06",
+        "/us/564/1015-05",
+        "/l-ed-2d/180/0866-03",
+        "/us/564/1015-04",
+        "/l-ed-2d/180/0841-07",
+        "/us/564/1015-02",
+        "/l-ed-2d/180/0842-02",
+        "/l-ed-2d/180/0842-03",
+        "/l-ed-2d/180/0842-04"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 109,
+    "ocr_confidence": 0.648,
+    "sha256": "a84ed6e9d3bda15b18dae6d5f89b9810e91f89aa853d72ab7db1e645b23fe6eb",
+    "simhash": "1:bf9950bae3c2ba67",
+    "word_count": 18
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Disbarment of Osborne."
+    ],
+    "opinions": [
+      {
+        "text": "Disbarment entered.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2588.\nIn re Disbarment of Osborne.\n[For earlier order herein, see 564 U. S. 1015.]"
+  },
+  "file_name": "0974-04",
+  "first_page_order": 1056,
+  "last_page_order": 1056
+}

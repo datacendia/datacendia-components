@@ -1,0 +1,59 @@
+{
+  "id": 12232705,
+  "name": "Prince v. Colorado",
+  "name_abbreviation": "Prince v. Colorado",
+  "decision_date": "2011-11-07",
+  "docket_number": "No. 11-6578",
+  "first_page": "1018",
+  "last_page": "1018",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1018"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 68,
+    "ocr_confidence": 0.725,
+    "sha256": "69d3c9f64df0075b62be2657092a60f09bb8a33abfbc7dfb75c0021b00f3adfa",
+    "simhash": "1:3114071195fa4180",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Prince v. Colorado."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Colo. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6578.\nPrince v. Colorado."
+  },
+  "file_name": "1018-05",
+  "first_page_order": 1100,
+  "last_page_order": 1100
+}

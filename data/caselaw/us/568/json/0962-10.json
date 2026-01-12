@@ -1,0 +1,59 @@
+{
+  "id": 12419359,
+  "name": "Arias v. TBC Corp.",
+  "name_abbreviation": "Arias v. TBC Corp.",
+  "decision_date": "2012-10-15",
+  "docket_number": "No. 11-11071",
+  "first_page": "962",
+  "last_page": "962",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 962"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 69,
+    "ocr_confidence": 0.595,
+    "sha256": "be579242db9ff6c611019766bc9daf1d9f0c26a7b970b0a081756478fa5507c0",
+    "simhash": "1:9209087b49cbe558",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Arias v. TBC Corp."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-11071.\nArias v. TBC Corp."
+  },
+  "file_name": "0962-10",
+  "first_page_order": 1038,
+  "last_page_order": 1038
+}

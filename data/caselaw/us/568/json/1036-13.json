@@ -1,0 +1,59 @@
+{
+  "id": 12425274,
+  "name": "Solis v. United States",
+  "name_abbreviation": "Solis v. United States",
+  "decision_date": "2012-11-26",
+  "docket_number": "No. 12-6814",
+  "first_page": "1036",
+  "last_page": "1036",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1036"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.578,
+    "sha256": "b40aa952c9da66536ac4bf25a4dbf57c1a1b93df531b2a35be2848d6f7efd812",
+    "simhash": "1:04ea9be39d111818",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Solis v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6814.\nSolis v. United States."
+  },
+  "file_name": "1036-13",
+  "first_page_order": 1112,
+  "last_page_order": 1112
+}

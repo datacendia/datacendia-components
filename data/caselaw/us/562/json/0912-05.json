@@ -1,0 +1,59 @@
+{
+  "id": 6032495,
+  "name": "Graham v. Missouri",
+  "name_abbreviation": "Graham v. Missouri",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5265",
+  "first_page": "912",
+  "last_page": "912",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 912"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 80,
+    "ocr_confidence": 0.601,
+    "sha256": "180b880c82cf8ca58d65c5b1a60bc6157e1421fbfd62af02e964ec6df31e12fd",
+    "simhash": "1:694b075b26d099ea",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Graham v. Missouri."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Mo., Western Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5265.\nGraham v. Missouri."
+  },
+  "file_name": "0912-05",
+  "first_page_order": 934,
+  "last_page_order": 934
+}

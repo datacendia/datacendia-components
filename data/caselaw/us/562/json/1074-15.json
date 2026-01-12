@@ -1,0 +1,59 @@
+{
+  "id": 6032849,
+  "name": "Gaines v. Middlebrooks, Warden",
+  "name_abbreviation": "Gaines v. Middlebrooks",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 10-7145",
+  "first_page": "1074",
+  "last_page": "1074",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1074"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 80,
+    "ocr_confidence": 0.609,
+    "sha256": "161646fedc8f8d1381bfb795347b9519ecc3347352212d11a7650378498f15e8",
+    "simhash": "1:9fc80b311febb0df",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gaines v. Middlebrooks, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7145.\nGaines v. Middlebrooks, Warden."
+  },
+  "file_name": "1074-15",
+  "first_page_order": 1096,
+  "last_page_order": 1096
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12237716,
+  "name": "In re Blunt",
+  "name_abbreviation": "In re Blunt",
+  "decision_date": "2011-12-12",
+  "docket_number": "No. 11-7515",
+  "first_page": "1092",
+  "last_page": "1092",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1092"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 69,
+    "ocr_confidence": 0.598,
+    "sha256": "42dfb72ae57eb379432269f923c12986cd97b6dc9257521c1de6ef023b400a52",
+    "simhash": "1:794f5e6f83798911",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Blunt."
+    ],
+    "opinions": [
+      {
+        "text": "Petition for writ of habeas corpus denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7515.\nIn re Blunt."
+  },
+  "file_name": "1092-01",
+  "first_page_order": 1174,
+  "last_page_order": 1174
+}

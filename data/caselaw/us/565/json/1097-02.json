@@ -1,0 +1,59 @@
+{
+  "id": 12238213,
+  "name": "Shue v. Sisto, Warden",
+  "name_abbreviation": "Shue v. Sisto",
+  "decision_date": "2011-12-12",
+  "docket_number": "No. 11-6941",
+  "first_page": "1097",
+  "last_page": "1097",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1097"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.682,
+    "sha256": "ba53d144d3c5672cfa6617fe391807d6bac702044518a662eeba958509d2f0fb",
+    "simhash": "1:518505e318ab44ff",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Shue v. Sisto, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6941.\nShue v. Sisto, Warden."
+  },
+  "file_name": "1097-02",
+  "first_page_order": 1179,
+  "last_page_order": 1179
+}

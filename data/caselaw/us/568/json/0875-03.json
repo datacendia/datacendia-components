@@ -1,0 +1,59 @@
+{
+  "id": 12414677,
+  "name": "Guzman v. United States",
+  "name_abbreviation": "Guzman v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-11028",
+  "first_page": "875",
+  "last_page": "875",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 875"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.675,
+    "sha256": "5f9498a001ee35574a71b26901bea064da83cd715d1b26f150a76c09daf3a4d8",
+    "simhash": "1:17ca2e51cfcd340c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Guzman v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-11028.\nGuzman v. United States."
+  },
+  "file_name": "0875-03",
+  "first_page_order": 951,
+  "last_page_order": 951
+}

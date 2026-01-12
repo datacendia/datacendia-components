@@ -1,0 +1,59 @@
+{
+  "id": 5994224,
+  "name": "Sines v. Wilner, Warden",
+  "name_abbreviation": "Sines v. Wilner",
+  "decision_date": "2011-01-18",
+  "docket_number": "No. 10-6303",
+  "first_page": "1182",
+  "last_page": "1182",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1182"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.547,
+    "sha256": "fbed42e5c77804d08eafcd96c7cb649a56f14134adbebe77665de1a1677c5a50",
+    "simhash": "1:1eac52fd97be13e0",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sines v. Wilner, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6303.\nSines v. Wilner, Warden."
+  },
+  "file_name": "1182-05",
+  "first_page_order": 1204,
+  "last_page_order": 1204
+}

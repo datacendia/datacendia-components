@@ -1,0 +1,59 @@
+{
+  "id": 5976932,
+  "name": "Cibrian v. United States",
+  "name_abbreviation": "Cibrian v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11421",
+  "first_page": "879",
+  "last_page": "879",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 879"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.538,
+    "sha256": "dec431702898d34bcba7c44a7ec8751994c0a3ad61d7df3c05fd22e238d1b86f",
+    "simhash": "1:a70ac383cd0e945e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Cibrian v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11421.\nCibrian v. United States."
+  },
+  "file_name": "0879-11",
+  "first_page_order": 901,
+  "last_page_order": 901
+}

@@ -1,0 +1,70 @@
+{
+  "id": 2308528,
+  "name": "Mims Brothers v. N. A. James, Incorporated",
+  "name_abbreviation": "Mims Bros. v. N. A. James, Inc.",
+  "decision_date": "1943-11-10",
+  "docket_number": "Application No. 27,294",
+  "first_page": "554",
+  "last_page": "554",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "141 Tex. 554"
+    },
+    {
+      "type": "parallel",
+      "cite": "175 S.W.2d 74"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex.",
+    "id": 9992,
+    "name": "Supreme Court of Texas"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 80,
+    "char_count": 846,
+    "ocr_confidence": 0.58,
+    "pagerank": {
+      "raw": 1.6883970876324603e-07,
+      "percentile": 0.6986729728258289
+    },
+    "sha256": "a83d0a8c5df6851ba429a2685de5c6ddb6c87d74e30b78a0d672093aea51e662",
+    "simhash": "1:09692685c3ffa408",
+    "word_count": 144
+  },
+  "last_updated": "2023-07-14T16:29:51.831235+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Mims Brothers v. N. A. James, Incorporated."
+    ],
+    "opinions": [
+      {
+        "text": "PER curiam:\nThis case involves many questions, as shown by the opinion of the Court of Civil Appeals. However, there is only one question presented to this Court in the application for writ of error, and that relates to the holding of the Court of Civil Appeals that Rule 107 of the Texas Rules of Civil Procedure does not apply to justice courts.\nThe Court of Civil Appeals in its opinion discussed the rules relating to district courts, county courts, and justice courts, and correctly held that Rule 107 does not apply to justice courts. Therefore the application for writ of error is refused.\nOpinion delivered November 10, 1943.",
+        "type": "majority",
+        "author": "PER curiam:"
+      }
+    ],
+    "attorneys": [
+      "B. W. Smith, of San Angelo, for petitioner.",
+      "Clyde Vinson, of San Angelo, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "Mims Brothers v. N. A. James, Incorporated.\nApplication No. 27,294.\nDecided November 10, 1943.\n(175 S. W., 2d Series, 74.)\nB. W. Smith, of San Angelo, for petitioner.\nClyde Vinson, of San Angelo, for respondent."
+  },
+  "file_name": "0554-01",
+  "first_page_order": 572,
+  "last_page_order": 572
+}

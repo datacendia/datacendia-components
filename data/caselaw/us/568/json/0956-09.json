@@ -1,0 +1,59 @@
+{
+  "id": 12418964,
+  "name": "Colon v. United States",
+  "name_abbreviation": "Colon v. United States",
+  "decision_date": "2012-10-09",
+  "docket_number": "No. 12-6132",
+  "first_page": "956",
+  "last_page": "956",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 956"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.667,
+    "sha256": "eca150b064a4910a8cc93fd83abcad41252a54e449f6e8a2dea2cd44e77b1ce5",
+    "simhash": "1:0408cab2e8dd901a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Colon v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6132.\nColon v. United States."
+  },
+  "file_name": "0956-09",
+  "first_page_order": 1032,
+  "last_page_order": 1032
+}

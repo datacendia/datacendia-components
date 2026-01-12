@@ -1,0 +1,59 @@
+{
+  "id": 12249226,
+  "name": "Caldwell v. Kentucky",
+  "name_abbreviation": "Caldwell v. Kentucky",
+  "decision_date": "2012-02-27",
+  "docket_number": "No. 11-318",
+  "first_page": "1234",
+  "last_page": "1234",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1234"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 66,
+    "ocr_confidence": 0.709,
+    "sha256": "0eac1ef6be56de1a92acab103ed2cf74aa1cb149673167d620749424e68135a5",
+    "simhash": "1:5c82db0cc2f81822",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Caldwell v. Kentucky."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Ky. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-318.\nCaldwell v. Kentucky."
+  },
+  "file_name": "1234-06",
+  "first_page_order": 1316,
+  "last_page_order": 1316
+}

@@ -1,0 +1,61 @@
+{
+  "id": 12232192,
+  "name": "Lucas v. United States",
+  "name_abbreviation": "Lucas v. United States",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-6644",
+  "first_page": "1010",
+  "last_page": "1010",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1010"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 153,
+    "ocr_confidence": 0.712,
+    "sha256": "8c29406b793abfe6b3dff6bc868a27928027fd3399e19fb0a5ff56a3039b07d2",
+    "simhash": "1:897afa8a43ae5f58",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Lucas v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Cer-tiorari denied.\nJustice Sotomayor took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6644.\nLucas v. United States."
+  },
+  "file_name": "1010-02",
+  "first_page_order": 1092,
+  "last_page_order": 1092
+}

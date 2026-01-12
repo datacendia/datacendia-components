@@ -1,0 +1,68 @@
+{
+  "id": 12700904,
+  "name": "John Ray KIDD, petitioner, v. MISSISSIPPI.",
+  "name_abbreviation": "Kidd v. Miss.",
+  "decision_date": "2014-01-21",
+  "docket_number": "No. 13\u20137361.",
+  "first_page": "1165",
+  "last_page": "1165",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 1165"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 854"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 1005"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 23,
+    "char_count": 183,
+    "sha256": "c276c31bcbf40251933e6e0d138addf3a70c8c2dcab1fe1327e976db4b66ecde",
+    "simhash": "1:496f3444388545c5",
+    "word_count": 29
+  },
+  "last_updated": "2021-09-08T21:16:17.237805+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "John Ray KIDD, petitioner,\nv.\nMISSISSIPPI."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of certiorari to the Supreme Court of Mississippi denied."
+    ],
+    "corrections": "",
+    "head_matter": "John Ray KIDD, petitioner,\nv.\nMISSISSIPPI.\nNo. 13-7361.\nSupreme Court of the United States\nJan. 21, 2014.\nPetition for writ of certiorari to the Supreme Court of Mississippi denied."
+  },
+  "file_name": "1165-03",
+  "first_page_order": 1165,
+  "last_page_order": 1165
+}

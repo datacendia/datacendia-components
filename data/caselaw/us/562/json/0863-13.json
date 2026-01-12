@@ -1,0 +1,59 @@
+{
+  "id": 6028351,
+  "name": "Masko v. United States",
+  "name_abbreviation": "Masko v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-11141",
+  "first_page": "863",
+  "last_page": "863",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 863"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.576,
+    "sha256": "9fe84f367b79f0da3fc7e7c91091dce6a06041a76a77a7eb319d462295467e25",
+    "simhash": "1:20ea9a5bce958108",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Masko v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-11141.\nMasko v. United States."
+  },
+  "file_name": "0863-13",
+  "first_page_order": 885,
+  "last_page_order": 885
+}

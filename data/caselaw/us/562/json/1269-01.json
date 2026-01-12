@@ -1,0 +1,59 @@
+{
+  "id": 6027115,
+  "name": "Tapia v. United States",
+  "name_abbreviation": "Tapia v. United States",
+  "decision_date": "2011-03-07",
+  "docket_number": "No. 10-5400",
+  "first_page": "1269",
+  "last_page": "1269",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1269"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 29,
+    "char_count": 181,
+    "ocr_confidence": 0.61,
+    "sha256": "31ddc59a634f642bb813e6413e6cec13c3bfc4778922f1846c3f79d0f45243b4",
+    "simhash": "1:6091dd33c7952d1d",
+    "word_count": 31
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Tapia v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. [Cer-tiorari granted, ante, p. 1104.] Motion of petitioner for leave to file volume II of the joint appendix under seal granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5400.\nTapia v. United States."
+  },
+  "file_name": "1269-01",
+  "first_page_order": 1291,
+  "last_page_order": 1291
+}

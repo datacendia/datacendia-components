@@ -1,0 +1,59 @@
+{
+  "id": 12220255,
+  "name": "Myles v. Maryland",
+  "name_abbreviation": "Myles v. Maryland",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5403",
+  "first_page": "905",
+  "last_page": "905",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 905"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 69,
+    "ocr_confidence": 0.618,
+    "sha256": "b3cb07c24a01b32144910505cc7abb60233165209af1021fda3feb96fe7508c1",
+    "simhash": "1:c91f4dcfd951f3f7",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Myles v. Maryland."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Sp.'App. Md. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5403.\nMyles v. Maryland."
+  },
+  "file_name": "0905-09",
+  "first_page_order": 987,
+  "last_page_order": 987
+}

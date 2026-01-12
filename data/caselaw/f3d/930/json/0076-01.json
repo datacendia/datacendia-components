@@ -1,0 +1,886 @@
+{
+  "id": 12521929,
+  "name": "GN NETCOM, INC., Appellant v. PLANTRONICS, INC.",
+  "name_abbreviation": "GN Netcom, Inc. v. Plantronics, Inc.",
+  "decision_date": "2019-07-10",
+  "docket_number": "No. 18-1287",
+  "first_page": "76",
+  "last_page": "93",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "930 F.3d 76"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "3rd Cir.",
+    "id": 9319,
+    "name": "United States Court of Appeals for the Third Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "234 F.3d 136",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11145779
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "146"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/234/0136-01"
+      ]
+    },
+    {
+      "cite": "347 F.3d 550",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9049038
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "556-57",
+          "parenthetical": "improperly excluding evidence of a witness's character for truthfulness was not harmless"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/347/0550-01"
+      ]
+    },
+    {
+      "cite": "729 F.2d 213",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1938897
+      ],
+      "year": 1984,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/729/0213-01"
+      ]
+    },
+    {
+      "cite": "795 F.2d 278",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1596203
+      ],
+      "weight": 2,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "290",
+          "parenthetical": "quoting United States v. Jannotti, 729 F.2d 213, 219-20 & n.2 (3d Cir. 1984) "
+        },
+        {
+          "page": "290"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/795/0278-01"
+      ]
+    },
+    {
+      "cite": "879 F.2d 43",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10528690
+      ],
+      "weight": 2,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "53, 59"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/879/0043-01"
+      ]
+    },
+    {
+      "cite": "34 F.3d 188",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        10522537
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "191",
+          "parenthetical": "quoting Lockhart v. Westinghouse Credit Corp. , 879 F.2d 43, 53, 59 (3d Cir. 1989) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/34/0188-01"
+      ]
+    },
+    {
+      "cite": "293 F.3d 655",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9417021
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "670",
+          "parenthetical": "quoting 1 McCormick on Evidence \u00a7 185 (John W. Strong et al. eds., 5th ed. 1999) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/293/0655-01"
+      ]
+    },
+    {
+      "cite": "779 F.2d 916",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1539635
+      ],
+      "weight": 5,
+      "year": 1985,
+      "pin_cites": [
+        {
+          "page": "923",
+          "parenthetical": "holding that \"absen[t] ... a showing of particularized danger of unfair prejudice, the evidence must be admitted\""
+        },
+        {
+          "page": "923"
+        },
+        {
+          "page": "930-31",
+          "parenthetical": "improperly excluding plaintiff's work records, which were relevant to the damages determination, was not harmless"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/779/0916-01"
+      ]
+    },
+    {
+      "cite": "354 F.3d 739",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9297041
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "750",
+          "parenthetical": "holding that without relevant evidence related to missing information, \"the jury is deprived of sufficient information on which to base a rational decision of whether to apply the adverse inference\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/354/0739-01"
+      ]
+    },
+    {
+      "cite": "347 F.3d 515",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9048792
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "525"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/347/0515-01"
+      ]
+    },
+    {
+      "cite": "935 F.2d 553",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10537971
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "572"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/935/0553-01"
+      ]
+    },
+    {
+      "cite": "851 F.3d 263",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12277267
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "277"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/851/0263-01"
+      ]
+    },
+    {
+      "cite": "173 F.3d 145",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11618546
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "167"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/173/0145-01"
+      ]
+    },
+    {
+      "cite": "837 F.3d 281",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12125297
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "314",
+          "parenthetical": "quoting In re Unisys Sav. Plan Litig. , 173 F.3d 145, 167 (3d Cir. 1999) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/837/0281-01"
+      ]
+    },
+    {
+      "cite": "306 F.3d 1333",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11442249
+      ],
+      "weight": 5,
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "1343"
+        },
+        {
+          "page": "1343-44"
+        },
+        {
+          "page": "1344",
+          "parenthetical": "quoting Federal Rules of Evidence Manual 242 (Stephen A. Saltzburg et al. eds., 7th ed. 1998)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/306/1333-01"
+      ]
+    },
+    {
+      "cite": "886 F. Supp. 2d 466",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        4316783
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "481"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/886/0466-01"
+      ]
+    },
+    {
+      "cite": "116 F.R.D. 107",
+      "category": "reporters:specialty",
+      "reporter": "F.R.D.",
+      "case_ids": [
+        7857234
+      ],
+      "weight": 3,
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "109"
+        },
+        {
+          "page": "109-10"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/frd/116/0107-01"
+      ]
+    },
+    {
+      "cite": "271 F.3d 583",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9464259
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "585",
+          "parenthetical": "dismissing manufacturing defect suit where plaintiff had vehicle repaired before defendant could inspect it, effectively destroying the \"sole piece of evidence in th[e] case\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/271/0583-01"
+      ]
+    },
+    {
+      "cite": "427 F.3d 939",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1241091
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "943",
+          "parenthetical": "dismissing crashworthiness action where plaintiff allowed vehicle to be sold for salvage before the defendant could inspect it"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/427/0939-01"
+      ]
+    },
+    {
+      "cite": "645 F.3d 1311",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5649870
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "1326",
+          "parenthetical": "holding a party must have \"intended to impair the ability\" of a litigant to put on a case or defend itself to find \"bad faith\" (quoting Schmid , 13 F.3d at 80 )"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/645/1311-01"
+      ]
+    },
+    {
+      "cite": "121 F. Supp. 2d 404",
+      "category": "reporters:federal",
+      "reporter": "F. Supp. 2d",
+      "case_ids": [
+        11157823
+      ],
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "423"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp-2d/121/0404-01"
+      ]
+    },
+    {
+      "cite": "665 F.3d 68",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3863221
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "83"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/665/0068-01"
+      ]
+    },
+    {
+      "cite": "13 F.3d 76",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1834632
+      ],
+      "weight": 4,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "79"
+        },
+        {
+          "page": "80"
+        },
+        {
+          "page": "79"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/13/0076-01"
+      ]
+    },
+    {
+      "cite": "475 F.3d 524",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3753060
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "538"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/475/0524-01"
+      ]
+    },
+    {
+      "cite": "580 F.3d 119",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4056109
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "134",
+          "parenthetical": "quoting Bowers v. Nat'l Coll. Athletic Ass'n , 475 F.3d 524, 538 (3d Cir. 2007), amended on grant of reh'g (March 8, 2007)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/580/0119-01"
+      ]
+    },
+    {
+      "cite": "424 F.3d 344",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        8923355
+      ],
+      "weight": 6,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "349"
+        },
+        {
+          "page": "349"
+        },
+        {
+          "page": "355"
+        },
+        {
+          "page": "349"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/424/0344-01"
+      ]
+    },
+    {
+      "cite": "756 F.3d 240",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4100263
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "248"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/756/0240-01"
+      ]
+    },
+    {
+      "cite": "28 U.S.C. \u00a7 1291",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 U.S.C. \u00a7\u00a7 1331",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "809 F.3d 686",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4059935
+      ],
+      "year": 2015,
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/809/0686-01"
+      ]
+    },
+    {
+      "cite": "100 F.3d 1061",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11942881
+      ],
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "1071-72"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/100/1061-01"
+      ]
+    },
+    {
+      "cite": "233 F.3d 188",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11173247
+      ],
+      "weight": 5,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "192",
+          "parenthetical": "alternation in original"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/233/0188-01"
+      ]
+    },
+    {
+      "cite": "602 F.3d 152",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3919909
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "176",
+          "parenthetical": "noting that district courts have \"broad discretion\" to engage in \"case management both before and during trial\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/602/0152-01"
+      ]
+    },
+    {
+      "cite": "715 F.3d 165",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        6047719
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "178"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/715/0165-01"
+      ]
+    },
+    {
+      "cite": "289 F.R.D. 374",
+      "category": "reporters:specialty",
+      "reporter": "F.R.D.",
+      "case_ids": [
+        4255765
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "380",
+          "parenthetical": "stating that \"[c]ase law overwhelmingly favors using a permissive rather than mandatory instruction\" and collecting cases"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/frd/289/0374-01"
+      ]
+    },
+    {
+      "cite": "938 F.2d 158",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10522381
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "161",
+          "parenthetical": "\"Generally, a trier of fact may draw an adverse inference from the destruction of evidence relevant to a case.\" (emphasis added)"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f2d/938/0158-01"
+      ]
+    },
+    {
+      "cite": "622 F.3d 540",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3786414
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "555",
+          "parenthetical": "noting that \"an adverse inference is usually only permissive for the factfinder\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/622/0540-01"
+      ]
+    },
+    {
+      "cite": "81 F.3d 1148",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7653688
+      ],
+      "weight": 2,
+      "year": 1996,
+      "pin_cites": [
+        {
+          "page": "1159"
+        },
+        {
+          "page": "1159",
+          "parenthetical": "explaining that adverse inference sanctions for the spoliation of evidence should be \"permissive, not mandatory\""
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/81/1148-01"
+      ]
+    },
+    {
+      "cite": "494 U.S. 370",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        4909
+      ],
+      "weight": 3,
+      "year": 1990,
+      "pin_cites": [
+        {
+          "page": "384",
+          "parenthetical": "explaining that juries view deferentially statements of a district court"
+        },
+        {
+          "parenthetical": "explaining that juries view deferentially statements of a district court"
+        },
+        {
+          "parenthetical": "explaining that juries view deferentially statements of a district court"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/us/494/0370-01"
+      ]
+    },
+    {
+      "cite": "373 F.3d 896",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9235362
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "900"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/373/0896-01"
+      ]
+    },
+    {
+      "cite": "354 F.3d 739",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9297041
+      ],
+      "year": 2004,
+      "pin_cites": [
+        {
+          "page": "750"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/354/0739-01"
+      ]
+    },
+    {
+      "cite": "347 F.3d 515",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9048792
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "525"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/347/0515-01"
+      ]
+    },
+    {
+      "cite": "13 F.3d 76",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1834632
+      ],
+      "weight": 3,
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "79",
+          "parenthetical": "instructing district courts to \"select the least onerous sanction\""
+        },
+        {
+          "page": "79",
+          "parenthetical": "stating that one of the central goals of discovery sanctions is \"to restore the accuracy of the trial\" (internal quotation marks and citation omitted)"
+        }
+      ],
+      "opinion_index": 1,
+      "case_paths": [
+        "/f3d/13/0076-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1834,
+    "char_count": 50532,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2594338511627512
+    },
+    "sha256": "74ae260586e813a4b8908e3287ba8c39d314cee69c34c333804e7d44fae259f6",
+    "simhash": "1:9be2fae3fa9b2649",
+    "word_count": 7934
+  },
+  "last_updated": "2024-02-27T18:47:03.658527+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "GN NETCOM, INC., Appellant\nv.\nPLANTRONICS, INC."
+    ],
+    "opinions": [
+      {
+        "text": "FISHER, Circuit Judge.\nGN Netcom, Inc. filed an antitrust lawsuit against competitor Plantronics, Inc. Plantronics executives deleted emails relevant to the litigation and instructed others to do the same. Many of these emails were unrecoverable, prompting GN to move for default judgment under Federal Rule of Civil Procedure 37. The District Court acted within its discretion when it denied the motion for default judgment, instead instructing the jurors that they were permitted to draw an adverse inference against Plantronics because of the missing emails. However, the District Court committed reversible error when it excluded GN's expert testimony on the scope of Plantronics' spoliation. Accordingly, we will affirm in part, reverse in part, and remand for a new trial.\nI.\nGN and Plantronics manufacture telephone audio headsets used by individuals who work in customer service. They have nearly equal market share globally. Plantronics is U.S.-based and \"holds an 80%-83% market share\" in North America, App. 1398, while GN is based in Europe and controls the market outside North America.\nPlantronics began selling its headsets in the United States in the 1960s, the first of their kind on the market. GN began its U.S.-based operations in 1987. In 2000, it acquired Jabra and began selling Jabra's headsets, which serve the same market as Plantronics.\nThe parties sell their headsets to customers through distributors. Plantronics has a Plantronics-Only Distributor (\"POD\") program, which is a voluntary program designed to foster relationships and create joint marketing efforts with distributors. A distributor that joins the program becomes a \"POD\" and receives incentives such as \"favorable credit terms,\" \"marketing funds in the form of rebates,\" and \"website support.\" App. 1306. In exchange, PODs agree to two terms. First, they may not purchase headsets directly from other manufacturers, but may do so indirectly (such as from other distributors). Second, PODs are not allowed to market competitors' products on resellers' websites.\nGN sent Plantronics a demand letter in May 2012 and filed suit in October 2012, alleging that Plantronics' POD program constituted monopolization in \"violation[ ] of the Sherman Act, the Clayton Act, and Delaware common law.\" App. 110. When it received the demand letter, Plantronics \"promptly issued a litigation hold to relevant employees and provided training sessions to ensure compliance.\" App. 7. When the lawsuit was filed, Plantronics updated the hold, held more training sessions, and sent quarterly reminders requiring acknowledgment of compliance.\nGN alleges that Plantronics committed large-scale spoliation after the lawsuit was filed. Despite the litigation hold, Plantronics' Senior Vice President of Sales, Don Houston, instructed Plantronics employees to delete certain emails that referenced Plantronics' competitive practices or its competitors, particularly those concerning GN or its products. As the District Court noted, the evidence reflects at least three instances of such spoliation.\nFirst, in November 2012, about a month after GN filed its lawsuit, Houston replied to an email chain stating, \"Team, please be careful about competitive statements like what was said below. I would suggest everyone immediately delete this message.\" App. 184. In October 2013, Houston sent an email stating, \"Given the sensitive nature of this issue and the on going legal issues, please delete this entire string of emails for everyone that has been copied ASAP!\" App. 178. Houston admitted that the only legal issue he was aware of was the lawsuit filed by GN. The underlying email chain referenced a distributor who met with a Jabra representative and began selling Jabra headsets to one of its customers, who previously used only Plantronics headsets. One email in the chain stated, \"I was under the impression [redacted distributor] was a POD distributor and could not sell Jabra,\" and another employee stated he \"want[ed] to be absolutely sure of the facts before I confront [redacted distributor].\" App. 178, 180. Houston and two others, Roy Meadows and Jose Gonzalez, deleted the email chain.\nIn February or March 2014, Plantronics' Associate General Counsel, Peggy Fawcett, learned of Houston's conduct and took several actions in response, including instituting a litigation hold on Houston's assistant, in case she had duplicate emails, and requesting back-up tapes of Houston's email account. Plantronics engaged BlackStone Discovery, its discovery vendor, and Stroz Friedberg, a leading forensics expert, to try to recover as many of Houston's emails as possible. Stroz recovered some of the emails.\nThe spoliation, however, continued. In April 2014, for a third time, Houston instructed employees to delete emails: \"Team this is an inappropriate email, please delete immediately. Bill should call Lou Ann directly for any information relating to competition or a competitive situation!!!\" App. 181.\nIn addition to instructing others to delete emails, Houston deleted his own emails. He deleted \"more than 40% of his emails from\" November 2013 to February 2014. App. 9. He took the next step of \"double-delet[ing]\" them by emptying his deleted-files folder so that he would not be able to recover them. App. 9.\nHouston did not act alone. Plantronics executives took other actions to hide relevant information from GN. For instance, a senior Plantronics manager asked sales team members to use code words to refer to competitors, including \"zebra\" for GN. At an \"All Hands\" meeting with marketing employees, Plantronics' CEO, Ken Kannappan, stated that he was \"not positive that there were not damning statements in a variety [of] staff emails that [GN's] legal team would dig up that would be 'emotionally relevant' in court.\" App. 325.\nPlantronics' efforts to undo the spoliation fell short. BlackStone Discovery confirmed that Meadows and Gonzalez had deleted at least one email chain, but Plantronics never obtained the backup tapes to determine whether they had deleted any other emails. Stroz, the forensics expert, provided Plantronics with \"preliminary findings\" that were a \"work in progress,\" but stated that it would cost Plantronics two to five thousand more dollars for the firm to complete its analysis. App. 11. Plantronics did not have Stroz complete its analysis; it instead destroyed the back-up tapes of Houston's emails. At an April 2015 hearing, Plantronics told the District Court that \"there is no [Stroz] report,\" App. 246, despite Stroz providing its preliminary findings months before. In addition, the same lawyer who stated that there was no report had previously listed work on the \"Stroz report\" in billing entries. App. 12.\nStroz's preliminary findings included a determination that Houston had deleted between 36,397 and 90,574 unrecoverable emails, 2380 to 5887 of which were likely responsive to GN's discovery requests. While some of those emails were likely produced by other employees, Stroz estimated that 952 to 2354 of those emails were permanently missing and could not be recovered from other Plantronics employees' accounts or backups. GN's expert, Dan Gallivan, concluded that Stroz's estimates were conservative; Gallivan independently determined that ten to fifteen thousand of Houston's deleted emails were relevant to the litigation.\nDuring depositions, Plantronics executives, including Houston and Kannappan, were either forgetful or dishonest. In his July 2014 deposition, Houston acknowledged asking others to delete emails, but stated he could not remember deleting his own emails. And though Plantronics had admitted knowing about Houston's deletions at the time of his deposition, its outside counsel emailed GN's outside counsel after the deposition, stating, \"It is incorrect to assume deletion as you suggest,\" because Houston had testified that he did not remember. App. 187.\nAt a subsequent deposition in September 2015, Houston testified that he thought the IT department saved all emails and that he was not instructing employees to delete emails to hide them, but because he did not \"want the dialogue to continue.\" App. 202. On more than one occasion, Kannappan testified that all of Houston's emails were recovered. The reports from Plantronics' discovery and forensic experts contradicted that testimony.\nTwo months after Houston's second deposition, GN moved for a default liability judgment in light of the spoliation. The District Court held an evidentiary hearing and found that Plantronics acted in \"bad faith\" with an \"intent to deprive GN\" of documents, App. 33, but nevertheless denied the motion. Instead of default judgment, the court opted to issue a permissive adverse inference instruction to the jury at trial, fine Plantronics three million dollars, and order it to pay GN's spoliation-related fees. In choosing a permissive instruction rather than a mandatory one, the court reasoned that \"[a] jury should resolve the genuine disputes of material fact in this case.\" App. 34-35.\nGN subsequently sought to present evidence of spoliation at trial, including testimony from its expert, Gallivan. The District Court denied this request, citing a desire to reduce \"the risk of spoliation taking over\" the trial and \"the risk of unfair prejudice given the inflammatory nature of the evidence.\" App. 1044. Instead, the court decided to read \"stipulations\" to the jury and limit parties to referencing only the facts in those stipulations during trial. App. 1043-44. After considering proposals from both parties, the District Court settled on seventeen stipulations.\nAt trial, GN proceeded on claims of monopolization, attempted monopolization, and concerted action in restraint of trade under the Sherman and Clayton Acts. The trial lasted for six days. The jury returned a verdict in favor of Plantronics, finding that GN proved a relevant market-a prerequisite for its claims-but did not prove all of the elements for any of its three antitrust claims. GN moved for a new trial, but the District Court denied the motion. GN appeals.\nII.\nThe District Court had federal question jurisdiction over GN's antitrust claims under the Sherman and Clayton Acts and supplemental jurisdiction over the related state law tortious interference claim. 28 U.S.C. \u00a7\u00a7 1331, 1367. This Court has appellate jurisdiction pursuant to 28 U.S.C. \u00a7 1291. We review the District Court's sanctions under Federal Rule of Civil Procedure 37, as well as its evidentiary rulings, for abuse of discretion. McLaughlin v. Phelan Hallinan & Schmieg, LLP , 756 F.3d 240, 248 (3d Cir. 2014) ; Forrest v. Beloit Corp. , 424 F.3d 344, 349 (3d Cir. 2005).\nIII.\nA. Rule 37 sanctions\nUnder Rule 37 of the Federal Rules of Civil Procedure, a district court may sanction a party that destroys electronically stored information \"with the intent to deprive another party of the information's use in the litigation.\" Fed. R. Civ. P. 37(e)(2). The court may presume the information was unfavorable to the infracting party, instruct the jury that it may or must presume the information was unfavorable, or dismiss the action. Id. A district court abuses its discretion in imposing sanctions when it \"base[s] its ruling on an erroneous view of the law or on a clearly erroneous assessment of the evidence.\" Grider v. Keystone Health Plan Central, Inc. , 580 F.3d 119, 134 (3d Cir. 2009) (quoting Bowers v. Nat'l Coll. Athletic Ass'n , 475 F.3d 524, 538 (3d Cir. 2007), amended on grant of reh'g (March 8, 2007)).\nWe have laid out three factors district courts must consider when contemplating Rule 37 sanctions:\n(1) the degree of fault of the party who altered or destroyed the evidence; (2) the degree of prejudice suffered by the opposing party; and (3) whether there is a lesser sanction that will avoid substantial unfairness to the opposing party and, where the offending party is seriously at fault, will serve to deter such conduct by others in the future.\nSchmid v. Milwaukee Elec. Tool Corp. , 13 F.3d 76, 79 (3d Cir. 1994). A dispositive sanction is warranted only where \"the non-responsible party's case is severely impaired because it lacked the information that was not produced.\" Bull v. United Parcel Serv., Inc. , 665 F.3d 68, 83 (3d Cir. 2012).\nWhen considering evidence of significant spoliation by Plantronics, the District Court found that Plantronics had a high degree of fault and that GN was prejudiced, but opted for the lesser sanction of a permissive adverse inference instruction. The court made no error of fact or law in reaching its conclusion.\nThe District Court determined that Plantronics \"did act in bad faith, 'intend[ing] to impair the ability of the other side to effectively litigate its case.' \" App. 23 (quoting In re Wechsler , 121 F. Supp. 2d 404, 423 (D. Del. 2000) ); see also Micron Tech., Inc. v. Rambus Inc. , 645 F.3d 1311, 1326 (Fed. Cir. 2011) (holding a party must have \"intended to impair the ability\" of a litigant to put on a case or defend itself to find \"bad faith\" (quoting Schmid , 13 F.3d at 80 )). Houston deliberately deleted an unknown number of emails in response to \"pending litigation\" and urged others to do the same. Plantronics executives, including its CEO, were not truthful during depositions. And the company was not willing to spend a nominal fee for its expert, Stroz, to fully assess the spoliation and create a final report. Each of these actions was an intentional step to interfere with GN's prosecution of its claims against Plantronics. Therefore, the District Court reasonably concluded that Plantronics acted in bad faith.\nLikewise, the District Court reasonably determined that the spoliation prejudiced GN. When a party moving for spoliation sanctions cannot offer \"plausible, concrete suggestions as to what [the lost] evidence might have been,\" there should be no finding of prejudice. Schmid , 13 F.3d at 80. That is not the case here. It is undisputed that there is some number of emails that were deleted and will never be recovered. GN has plausibly suggested that those emails might contain, among other things, important information on the number of PODs and evidence of coercion of PODs. Indeed, Plantronics' own CEO stated that there may have been \"damning statements\" in some of the emails. We will never know whether those damning statements exist or if one or more of them would have been integral to GN's case, but GN has provided plausible, concrete suggestions as to what that evidence might have been. Plantronics employees' spoliation, its executives' false testimony, and its failure to pay Stroz to complete its report prejudiced GN.\nHaving found that Plantronics acted in bad faith and GN was prejudiced, the District Court determined that a lesser sanction than default judgment could avoid substantial unfairness while also deterring misconduct by future litigants. The court thoroughly examined alternatives to default judgment and provided due consideration to their fairness and deterrent value, and it committed no error of law or assessment of fact in the process.\nGN argues that the weight of authority from district courts and circuits around the country demands that the District Court enter default judgment in its favor. In support, GN offers a laundry list of cases where district courts granted dispositive sanctions and our sister circuits affirmed the harshest sanction. GN argues that in some of these cases, the spoliation was less extensive than what occurred here, but the result was a dispositive sanction. However, the notion that a list of selected cases mandates default judgment ignores that a district court's inquiry is intensely fact-specific. Several cases that GN cites involve destruction of the most critical evidence, resulting in irreparable prejudice. See, e.g. , Flury v. Daimler Chrysler Corp. , 427 F.3d 939, 943 (11th Cir. 2005) (dismissing crashworthiness action where plaintiff allowed vehicle to be sold for salvage before the defendant could inspect it); Silvestri v. Gen. Motors Corp. , 271 F.3d 583, 585 (4th Cir. 2001) (dismissing manufacturing defect suit where plaintiff had vehicle repaired before defendant could inspect it, effectively destroying the \"sole piece of evidence in th[e] case\"). The destroyed evidence is not so clearly central or critical here. While the emails may have contained information about additional PODs, helping to prove a piece of GN's antitrust suit, any deleted emails are not as central as a vehicle in a crashworthiness case, and are certainly not the \"sole piece of evidence.\" Moreover, while the District Court was free to look to cases from other circuits to inform its analysis, our sister circuits have carved out their own tests for the appropriateness of dispositive sanctions, and those tests are not necessarily identical to the three considerations we laid out in Schmid .\nGN points in particular to Telectron, Inc. v. Overhead Door Corp. , 116 F.R.D. 107 (S.D. Fla. 1987), where the individual who ordered the company-wide destruction of documents was the corporation's legal counsel, and he did so on the day that the complaint and request for production were served on him personally. Id. at 109. The district court considered this timeline to reflect \"a willful and intentional attempt to place documentation ... forever beyond the reach of [opposing] counsel.\" Id. at 109-10. In this case, Houston is not a lawyer, and the District Court found that his innocuous explanation for his deletion directive was \"somewhat plausible,\" App. 21, suggesting that Houston's conduct was not as culpable as in Telectron . And, unlike in Telectron and other cases where the court ordered dispositive sanctions, Plantronics' counsel took steps to remedy Houston's spoliation the moment she learned of it. GN's proffer of cases where there was \"less\" spoliation and the courts granted dispositive sanctions only serves to highlight that these decisions are extremely fact-dependent and that there can be no bright-line rule regarding what degree or percentage of destroyed documents warrants default judgment.\nThe District Court appropriately relied on the principle that a dispositive sanction \"is a last resort and should be imposed if no alternative remedy is available.\" App. 35 (quoting Magnetar Techs. Corp. v. Six Flags Theme Park Inc. , 886 F. Supp. 2d 466, 481 (D. Del. 2012) ); see also Schmid , 13 F.3d at 79 (\"[C]ourts select the least onerous sanction corresponding to the willfulness of the destructive act and the prejudice suffered by the victim.\" (quoting Jamie S. Gorelick et al., Destruction of Evidence \u00a7 3.16 (1989))). Through that lens, the court devoted four pages of its opinion to considering whether a package of lesser sanctions would avoid substantial unfairness to GN and would deter future misconduct. It determined that, because some of the relevant emails were recovered, a permissive adverse inference instruction would be effective as it would allow the jury to see the types of recovered emails and draw conclusions about what the deleted emails contained. Along with the instruction, the court permitted GN to propose other evidentiary sanctions for the court's consideration. And, both to punish Plantronics and to deter misconduct of this nature by future litigants further, the court levied punitive sanctions and costs on Plantronics to the tune of nearly five million dollars.\nThere was no error of fact or law in the District Court's examination of whether lesser sanctions would be appropriate under Schmid , nor in its decision to impose a package of sanctions in lieu of default judgment. GN asks for nothing more than a different conclusion based on our consideration of the same facts and law that the District Court examined. That is not the standard. Absent a specific error of law or clearly erroneous assessment of fact, we will not hold that the court abused its discretion in making the difficult and highly fact-specific decision of whether and how to avoid a last-resort dispositive sanction.\nB. Exclusion of Gallivan's testimony\nThe District Court abused its discretion in excluding Gallivan's expert testimony regarding Plantronics' spoliation. The testimony would have been highly probative of whether the jury should adopt the permissive adverse inference, and any potential prejudice would not have substantially outweighed the testimony's probative value; it therefore should have been admitted. Further, the District Court's error was not harmless, as it is possible that the exclusion affected the outcome of the case.\n1. The District Court erred in excluding Gallivan's testimony\nFederal Rules of Evidence 401 and 402 provide that, unless otherwise proscribed, evidence is relevant and admissible \"if it tends to make the existence or nonexistence of a disputed material fact more probable than it would be without that evidence.\" Forrest , 424 F.3d at 355 (citing Fed. R. Evid. 401, 402). However, relevant evidence may be excluded \"if its probative value is substantially outweighed by a danger of ... unfair prejudice, confusing the issues, misleading the jury, undue delay, wasting time, or needlessly presenting cumulative evidence.\" Fed. R. Evid. 403.\n\" Rule 403 recognizes that a cost/benefit analysis must be employed to determine whether or not to admit evidence; relevance alone does not ensure its admissibility.\" Coleman v. Home Depot, Inc. , 306 F.3d 1333, 1343 (3d Cir. 2002). However, \"[a]s we have explained on several occasions, the Federal Rules of Evidence suggest a 'generally liberal approach to the admissibility of evidence.' \" United States v. Fulton , 837 F.3d 281, 314 (3d Cir. 2016) (quoting In re Unisys Sav. Plan Litig. , 173 F.3d 145, 167 (3d Cir. 1999) ). Thus, \"there is a strong presumption that relevant evidence should be admitted, and thus for exclusion under Rule 403 to be justified, the probative value of evidence must be 'substantially outweighed' by the problems in admitting it.\" Coleman , 306 F.3d at 1343-44. This presumption in favor of admission requires weighing \"the maximum reasonable probative force for the offered evidence\" against the \"likely prejudicial impact of the evidence.\" Id. at 1344 (quoting Federal Rules of Evidence Manual 242 (Stephen A. Saltzburg et al. eds., 7th ed. 1998)). In sum, highly probative evidence is \"exceptionally difficult to exclude.\" Id.\nIn reviewing a district court's decision whether to admit evidence, we \"strongly prefer\" for the court to have explicitly undertaken a Rule 403 balancing analysis. Egan v. Del. River Port Auth. , 851 F.3d 263, 277 (3d Cir. 2017). When the court does so, we review its rationale and conclusion for abuse of discretion. Forrest , 424 F.3d at 349. If we decide that the district court implicitly performed the balance, we likewise review for abuse of discretion.\nUnited States v. Eufrasio , 935 F.2d 553, 572 (3d Cir. 1991). If it did not perform the balancing test, even implicitly, \"we undertake to perform the balance ourselves.\" Forrest , 424 F.3d at 355 (quoting Ansell v. Green Acres Contracting Co. , 347 F.3d 515, 525 (3d Cir. 2003) ).\nAt no point did the District Court undertake an explicit Rule 403 balancing on the record. However, because no application of the correct law to the facts of this case would warrant exclusion of the expert's testimony, we need not determine whether the District Court implicitly conducted a balancing test. Under both the abuse of discretion standard and de novo standard, we conclude that Gallivan's testimony should have been admitted.\nAs a threshold matter, Gallivan's proposed testimony is undoubtedly relevant under the Rule 401 definition. The District Court's permissive adverse inference instruction made Plantronics' spoliation a material issue for the jury to consider at trial, so any spoliation-related evidence clears the baseline relevance hurdle of Rules 401 and 402. To exclude Gallivan's relevant testimony, then, the evidence must confuse the issues, mislead the jury, cause undue delay, waste time, be unfairly prejudicial, and/or needlessly present cumulative evidence, and the negative impact of any of those conditions must substantially outweigh the evidence's probative value. It does not.\nWe must first examine the probative value of the proposed evidence. As proffered, Gallivan's proposed testimony would have tended to show that the scope of Houston's spoliation was more significant than Plantronics had represented, thereby helping the jury decide whether to draw an adverse inference-as it was instructed it could do. The District Court explicitly chose to put certain issues of material fact, such as whether Plantronics engaged in a \"massive cover-up to hide antitrust violations,\" App. 34, in the jury's hands. By withholding evidence regarding the scope of the spoliation, the court deprived the jury of the ability to make an informed decision about the adverse inference, and the instruction was less effective. See Stevenson v. Union Pac. R.R. Co. , 354 F.3d 739, 750 (8th Cir. 2004) (holding that without relevant evidence related to missing information, \"the jury is deprived of sufficient information on which to base a rational decision of whether to apply the adverse inference\").\nGallivan could have helped provide the jury with a fuller picture. For instance, GN proffers that Gallivan would have testified that Stroz's analytical techniques resulted in an incorrect estimate on the number of relevant emails Houston deleted-and that, in fact, Houston deleted up to five times more relevant emails than Plantronics reported. GN also argues that Gallivan would have provided the jury with a crucial expert opinion on why his estimates, rather than Stroz's, were correct.\nThat fuller picture could have had an impact on the merits of GN's antitrust claims. For instance, GN was required to prove that Plantronics coerced distributors to enter into POD agreements and to remain PODs. Houston was a key player in the administration of the POD program. He deleted and encouraged others to delete at least one email chain that suggested Plantronics employees confronted PODs that purchased or even talked with competitors. If Plantronics employees made similar statements regularly, or directly pressured distributors via email, it is very likely that Houston would have been included on or forwarded the email. Whether Houston deleted hundreds of emails or thousands may have impacted the jury's conclusion on how many similar email chains were lost.\nThe dissent minimizes the probative value of Gallivan's testimony by listing five stipulations that could have helped the jury draw an inference about the degree of Plantronics' spoliation. However, none of the five proffered stipulations materially address the scope of spoliation or render Gallivan's testimony superfluous. Indeed, the only stipulation on the scope that the District Court read to the jury casts more uncertainty on the number of deleted relevant emails: \"[I]t may be that several hundred or even up to 15,000 potentially responsive relevant emails were deleted or destroyed.\" App. 1315. This vagueness left the jury to consider estimates that were not even in the same ballpark, with no additional information as to which ballpark was more likely and why. Gallivan would have provided that additional information. He would have testified that Stroz's methodology was flawed, leading to a low estimate of 2380 to 5887 unrecoverable relevant emails, and he would have asserted that between 10,000 and 15,000 unrecoverable relevant emails were deleted. The two experts' estimates are not close, and, counter to both experts estimates, the above-referenced stipulation broadens the ranger further yet to state that only \"several hundred\" relevant emails may have been destroyed. The difference from several hundred to 15,000 could easily have been the difference between applying the adverse inference and not.\nGallivan's expert testimony would have assisted the jury in narrowing that range, giving it evidence on which it could base an important decision: whether Plantronics engaged in a \"massive cover-up.\" Without Gallivan's testimony, it is possible, if not entirely probable, that jurors concluded that only a few hundred emails were deleted, falling short of a massive cover-up; however, if they had evidence that fifteen, five, or even just one thousand emails had been deleted, they might have taken a very different view on whether to apply the adverse inference. If found credible by the jury, Gallivan's testimony would have made a material fact in dispute-whether Plantronics engaged in a massive cover-up-more likely to be true. And, in fact, Gallivan's testimony could have assisted the jury in making its determination on some of the antitrust claim issues, such as whether Plantronics' POD arrangements were coercive. The \"maximum reasonable probative force\" of his testimony was high; therefore, the District Court could have properly excluded it only if that probative value was substantially outweighed by the evidence's potential prejudice or by other risks outlined in Rule 403.\nGallivan's testimony did not carry risks that would substantially outweigh its probative value. First, Gallivan's testimony would not have been likely to confuse the issues or mislead the jury. The jury was presented with significant instruction by the District Court on the permissive adverse inference, along with seventeen spoliation stipulations. Adding the testimony would have provided additional evidence to expound upon the stipulations and increase the jury's understanding of the situation, rather than confuse or mislead. And, if confusion or misdirection was a concern, the court could have provided a limiting instruction. See McQueeney v. Wilmington Tr. Co. , 779 F.2d 916, 923 n.8 (3d Cir. 1985).\nLikewise, Gallivan's testimony would not have caused undue delay or wasted time. GN estimated that it would only need about a half hour for direct examination of Gallivan at trial. Even if that were overly optimistic, and even if cross took the same amount of time as direct, Gallivan's testimony would have required a couple of hours out of a six-day trial. Given the probative value of the testimony, this would not have constituted \"undue delay\"\nor a \"waste\" of the court's or the parties' time.\nGallivan's testimony would not have been unnecessarily cumulative. Instead, it would have added to and further explained the seventeen stipulations that the District Court read to the jury. It would not have simply rehashed those stipulations, but provided information to help the jury decide in favor of or against adopting the adverse inference.\nFurther, though the testimony could have had some prejudicial effect, that prejudice would not have been unfair. The testimony about Plantronics' employees deleting emails relevant to the litigation might color the jury's opinion of Plantronics and prejudice its view of the company on issues unrelated to spoliation, and additional trial time spent on spoliation dilutes the amount of the trial devoted directly to the merits of GN's antitrust claims. However, \"[i]t is worth stressing that the term 'unfair prejudice' ... is often misstated as mere prejudice.\" Coleman , 306 F.3d at 1343 n.6. \" '[P]rejudice does not simply mean damage to the opponent's cause.' If it did, most relevant evidence would be deemed 'prejudicial.' \" Goodman v. Pa. Tpk. Comm'n , 293 F.3d 655, 670 (3d Cir. 2002) (quoting 1 McCormick on Evidence \u00a7 185 (John W. Strong et al. eds., 5th ed. 1999) ); see also McQueeney , 779 F.2d at 923 (holding that \"absen[t] ... a showing of particularized danger of unfair prejudice, the evidence must be admitted\"). The potential for jurors to distrust Plantronics' employees and the few hours that would be taken from the merits of the case hardly amount to a risk of \"unfair\" prejudice, particularly given that the stipulations already alerted the jury to the willingness of Plantronics' executives to destroy and direct the destruction of relevant evidence.\nEven looking generously at Rule 403 's considerations, the potential for Gallivan's testimony to negatively affect Plantronics does not outweigh, much less substantially outweigh, the evidence's high probative value. In excluding that evidence, the District Court stated only that it was concerned that live testimony would be inflammatory and prejudicial without offering specifics. The dissent correctly notes that we are highly deferential to a district court's conclusion on whether to admit evidence under FRE 403. However, when a court excludes highly probative evidence that is not clearly and substantially outweighed by significant unfair prejudice to the opposing party, we must conclude that the court abused its discretion. See McQueeney , 779 F.2d at 923. Gallivan's testimony should have been admitted.\n2. The exclusion was not harmless error\nWe will not reverse if the District Court's error was harmless, that is, \"if it is highly probable that the error did not affect the outcome of the case.\" Glass v. Phila. Elec. Co. , 34 F.3d 188, 191 (3d Cir. 1994) (quoting Lockhart v. Westinghouse Credit Corp. , 879 F.2d 43, 53, 59 (3d Cir. 1989) ). \" 'High probability' requires that the court have a 'sure conviction that the error did not prejudice the defendant,' but need not disprove every 'reasonable possibility' of prejudice.\" United States v. Grayson , 795 F.2d 278, 290 (3d Cir. 1986) (quoting United States v. Jannotti, 729 F.2d 213, 219-20 & n.2 (3d Cir. 1984) ). Plantronics argues that GN did not \"identify exactly how more evidence on the issue of spoliation ... would have ... overcome the weight of the facts against GN.\"\nAppellee's Br. 53. That is not the standard. GN is not tasked with proving \"exactly\" how Gallivan's testimony would have altered the outcome of the case. Rather, to the contrary, we must have a \"sure conviction that the error did not prejudice\" GN, or we cannot deem the District Court's error harmless. Grayson , 795 F.2d at 290.\nGallivan's testimony could have shaped the jury's verdict, and the District Court's error in excluding it was not harmless. There was evidence of significant spoliation in this case and allegations that some of the destroyed evidence was damning to Plantronics' defense. The District Court instructed the jury to determine whether Plantronics' spoliation was a massive cover-up, whether the missing evidence was damning, and whether it wished to draw an adverse inference. Gallivan's excluded testimony could have assisted the jury in making those determinations, and thus could have changed the outcome of the case. We have determined that an error was not harmless in less weighty situations. See, e.g. , Renda v. King , 347 F.3d 550, 556-57 (3d Cir. 2003) (improperly excluding evidence of a witness's character for truthfulness was not harmless); McQueeney , 779 F.2d at 930-31 (improperly excluding plaintiff's work records, which were relevant to the damages determination, was not harmless).\nWe do not have the requisite sure conviction that GN was not prejudiced by the exclusion of Gallivan's testimony, so the error was not harmless. Accordingly, we will grant a new trial.\nIV.\nWe will affirm in part and reverse in part, and we will remand for a new trial.\nGN chose to abandon its Delaware law claim of tortious interference before trial, with Plantronics' consent.\nPlantronics argues that because Gallivan was not on GN's trial witness list, GN waived its right to appeal the exclusion of his testimony. However, GN expressed its desire to have Gallivan testify on more than occasion. After the court made its decision on stipulations, GN filed a brief reiterating its desire to have live testimony rather than stipulations. GN correctly argues that under the rules of evidence, a \"party need not renew an objection or offer of proof to preserve a claim of error for appeal\" if the court issued a pretrial ruling excluding evidence the party had proposed to include. Fed. R. Evid. 103(a)(2), (b). The issue is amply preserved for our review.\n\"In the context of non-constitutional harmless error, the civil and criminal standards of review are no different.\" Lockhart , 879 F.2d at 59 n.1 (citing McQueeney , 779 F.2d at 927 ).\nGN also argues that the District Court abused its discretion by improperly including stipulations that ignored GN's proposed stipulations and cast Plantronics' efforts to prevent spoliation and recover lost information in a positive light. However, GN cites no authorities to support its position, and other than excluding Gallivan's testimony, discussed above, the District Court made no \"clearly erroneous finding of fact, errant conclusion of law or an improper application of law to fact\" that would constitute an abuse of discretion. Forrest , 424 F.3d at 349 (quoting Oddi v. Ford Motor Co. , 234 F.3d 136, 146 (3d Cir. 2000) ). With its unbiased and factually correct stipulations, the court provided a broad, general picture of spoliation from start to finish, and it did not play favorites when selecting which pieces to include from GN's and Plantronics' proposed stipulations. The stipulations' greatest deficiency was the vagueness of the scope of spoliation, which will be remedied by the inclusion of expert testimony from Gallivan or others on remand. Nevertheless, the court will have the opportunity to reconsider whether to utilize stipulations, live testimony (in addition to Gallivan), or both at the new trial.",
+        "type": "majority",
+        "author": "FISHER, Circuit Judge."
+      },
+      {
+        "text": "SMITH, Chief Judge, concurring in part and dissenting in part.\nI agree with my colleagues that the District Court did not abuse its discretion by imposing a permissive adverse inference sanction, and I therefore join Section III.A of the majority opinion. I write separately to add two points to the majority's cogent analysis of why it was permissible for the Court to impose this sanction and not a harsher one. Where I part ways with the majority is in its conclusion that the District Court impermissibly prevented GN's spoliation expert, Dan Gallivan, from testifying. I therefore dissent from Section III.B.\nI.\nI begin by directly responding to two of GN's challenges to the District Court's permissive inference sanction that lack merit.\nFirst, I reject GN's argument that the District Court erred by imposing a permissive inference because it \"was the equivalent of no sanction at all.\" Appellant's Br. 36. The permissive inference had bite because in explaining it to the jury, the District Court authoritatively told the jury of Plantronics's misconduct and thereby \"brand[ed] [Plantronics] as a bad actor.\" Morris v. Union Pac. R.R. , 373 F.3d 896, 900 (8th Cir. 2004) ; see also Boyde v. California , 494 U.S. 370, 384, 110 S.Ct. 1190, 108 L.Ed.2d 316 (1990) (explaining that juries view deferentially statements of a district court). Moreover, GN seems to suggest that the absence of Don Houston's emails did not prevent it from winning on the merits-a further indication that the District Court did not abuse its discretion by declining to impose default judgment against Plantronics. See Schmid v. Milwaukee Elec. Tool Corp. , 13 F.3d 76, 79 (3d Cir. 1994) (instructing district courts to \"select the least onerous sanction\"). By asserting that only default judgment was appropriate, GN effectively contends that the Court, not the jury, should have conclusively decided the extent of the prejudice GN suffered from the spoliation. The jury, however, was the factfinder, and therefore it was permissible for the District Court to entrust this assessment to the jury. See Blinzler v. Marriott Int'l, Inc. , 81 F.3d 1148, 1159 (1st Cir. 1996) ; see also Schmid , 13 F.3d at 79 (stating that one of the central goals of discovery sanctions is \"to restore the accuracy of the trial\" (internal quotation marks and citation omitted)).\nSecond, the District Court did not abuse its discretion by declining to impose a mandatory adverse inference instruction. Contrary to GN's suggestion, the weight of authority in fact supports the District Court's choice of a permissive adverse inference. See Schmid , 13 F.3d at 79 ; Beaven v. U.S. Dep't of Justice , 622 F.3d 540, 555 (6th Cir. 2010) (noting that \"an adverse inference is usually only permissive for the factfinder\"); Blinzler , 81 F.3d at 1159 (explaining that adverse inference sanctions for the spoliation of evidence should be \"permissive, not mandatory\"); Akiona v. United States , 938 F.2d 158, 161 (9th Cir. 1991) (\"Generally, a trier of fact may draw an adverse inference from the destruction of evidence relevant to a case.\" (emphasis added)); Beck v. Test Masters Educ. Servs., Inc. , 289 F.R.D. 374, 380 (D.D.C. 2013) (stating that \"[c]ase law overwhelmingly favors using a permissive rather than mandatory instruction\" and collecting cases). And other courts' decisions to impose mandatory adverse inferences hardly means that the District Court abused its discretion here. \"Whether an adverse inference is permissive or mandatory is determined on a case-by-case basis.\" Flagg v. City of Detroit , 715 F.3d 165, 178 (6th Cir. 2013). Finally, GN is wrong to contend that a mandatory adverse inference was necessary because the spoliation evidence in the record was inadequate for the jury to rationally decide whether to adopt the permissive adverse inference. As explained in Part II below, the Court gave the jury a sufficient evidentiary basis to decide whether it should adopt the permissive inference.\nII.\nWithout a doubt, Plantronics deserves to be called out for its substantial discovery misconduct in this case. It repeatedly flouted its obligations as a litigant, depriving GN of discovery and failing to take all reasonable steps to preserve responsive electronically stored information. As the District Court found and the majority rightly concludes, Plantronics acted in bad faith. The question for the District Court then became: what to do about it?\nI dissent from the majority's conclusion that the District Court abused its discretion in declining to admit Dan Gallivan's testimony under Federal Rule of Evidence 403. In my view, the majority makes two errors. First, it minimizes the information regarding the extent of Plantronics's spoliation that the District Court provided to the jury via the stipulations. These stipulations gave the jury an adequate basis to decide whether to adopt the permissive adverse inference. Second, the majority fails to give the required deference to the District Court's reasonable conclusions that Gallivan's spoliation testimony posed a substantial risk of distracting the jury from the antitrust merits of the case and that such risk eclipsed the testimony's probative value. In sum, not only do I fail to detect error, I commend the District Judge for his innovative and effective exercise of case-management discretion. See United States v. Schiff , 602 F.3d 152, 176 (3d Cir. 2010) (noting that district courts have \"broad discretion\" to engage in \"case management both before and during trial\"). By remanding, the majority not only sets the stage for another antitrust trial but probably for a not-so-mini spoliation trial as well.\nThe tried and true abuse-of-discretion standard governs our review of the District Court's evidentiary ruling because by implicitly weighing the probative value of Gallivan's proposed testimony and explicitly considering the risks of its admission, the District Court performed a Rule 403 balancing analysis. See Ansell v. Green Acres Contracting Co. , 347 F.3d 515, 525 (3d Cir. 2003). When the District Court made its Rule 403 determination, it had Gallivan's report containing the details of his proposed testimony. The Court implicitly considered the probative value of Gallivan's testimony by concluding that the parties should agree to \"stipulations\" regarding the spoliation evidence in place of witness testimony. The Court explained its calculus that the value of spoliation testimony was outweighed by the risk that such testimony would confuse the jury and result in jurors deciding to punish Plantronics for its spoliation instead of deciding this case on its merits. Because the abuse-of-discretion standard governs our review of the Court's decision to exclude Gallivan's testimony, we should not reverse unless we have \"a definite and firm conviction that the court ... committed a clear error of judgment in the conclusion it reached.\" In re Cendant Corp. Prides Litig. , 233 F.3d 188, 192 (3d Cir. 2000) (alternation in original) (internal quotation marks and citation omitted). In my view, GN has failed to satisfy this highly deferential standard.\nTo be sure, Gallivan's testimony would have had non-negligible probative value, but the District Court read five stipulations to the jury that provided a basis for drawing a reasonable inference about the degree of Plantronics's spoliation (whether it was closer to \"several hundred\" or \"15,000\" deleted relevant emails that Plantronics did not recover ). App. 1315. All five of the following stipulations signaled to the jury that it could find reason to mistrust Plantronics's representations regarding its discovery misconduct and therefore infer that Plantronics's spoliation was at the higher end of the range:\n(1) \"At least part of the motivation for the e-mail deletion was to deprive GN of evidence to use in this litigation.\" Id.\n(2) \"By one estimate, 482 of the 487 e-mails containing the term 'GN' or 'Jabra' [the name that GN uses for its headsets] were missing from the initial collection of Mr. Houston's emails. The parties do not agree as to whether this is a reliable estimate.\" Id.\n(3) Plantronics \"did not take all steps it could have taken to recover the deleted emails.\" Id.\n(4) A 17-month period elapsed during which Houston, Plantronics's \"senior vice president for U.S. Commercial Sales,\" may have deleted emails. Id.\n(5) Plantronics did not have backup tapes of Houston's emails for any time during this 17-month period.\nGiven that the jury had these stipulations, the District Court ensured that it had \"sufficient information on which to base a rational decision of whether to apply the adverse inference.\" Stevenson v. Union Pac. R.R. Co. , 354 F.3d 739, 750 (8th Cir. 2004). Here, the stipulations provided the jury with sufficient evidence to reach an informed judgment about the degree of Plantronics's spoliation and thereby fulfill its fundamental responsibility to draw inferences based on the record. Cf. Sheridan v. E.I. DuPont de Nemours & Co. , 100 F.3d 1061, 1071-72 (3d Cir. 1996) ; United States v. Pena-Santo , 809 F.3d 686, 701 n.10 (1st Cir. 2015). I fail to see how this record provides a basis for the majority to form a definite and firm conviction that the jury lacked enough information to draw a reasonable inference concerning the extent of Plantronics's spoliation.\nIn addition, the majority does not accord appropriate deference to the District Court's conclusion that admitting Gallivan's testimony posed a significant risk that the jury's focus would be shifted from the merits of the antitrust case they had been sworn to decide. This is a classic example of the sort of discretionary call that trial judges are far better situated to make than those of us who are confined to reviewing a cold record. In my view, the District Court reasonably concluded that admitting Gallivan's testimony and rebuttal might result in \"spoliation taking over what is going to be an antitrust trial.\" App. 1044. And GN's antitrust claims were far from straightforward-four antitrust claims went to the jury, thereby requiring its members to make multiple findings from record evidence concerning, inter alia , commercial decision-making and economic forces that are hardly a part of the average citizen's daily experience. It was reasonable for the District Court to carefully limit the amount of spoliation evidence admitted so that the jury would focus on the merits. While GN's lawyer estimated that Gallivan's testimony would take about 30 minutes, it is highly speculative for the majority to assert that addressing spoliation would require only \"a couple of hours.\" And in any event, it is a usurpation of the trial judge's role for this Court to second guess a determination made immediately before trial regarding the appropriate quantum of evidence on an issue, albeit relevant but collateral to the merits of the antitrust case.\nNot only do I lack a definite and firm conviction that the District Judge erred, I consider his limitation on the admission of certain spoliation evidence to have been a sound exercise of discretion. The abuse-of-discretion standard demands that we give him the benefit of the doubt on whether to admit Gallivan's testimony. The majority fails to afford him that deference.\nI respectfully dissent.\nI acknowledge the majority's statement that, on remand, the District Court may again use stipulations to encapsulate the parties' evidence regarding the extent of Plantronics's spoliation. But given the majority's conclusion that \"no application of the correct law to the facts of this case would warrant exclusion of the expert's testimony,\" it seems unavoidable that the District Court will be required on remand to permit live testimony on spoliation, leading to the mini-trial that the District Court sought to avoid.\nThe majority faults the District Court for unnecessarily increasing the uncertainty about the number of unrecovered relevant emails by presenting this range, but GN approved of this range in the District Court. GN's lawyer told the Court that he was \"fine\" with it informing the jury that \"it may be that several hundred or even up to 15,000 potentially responsive relevant e-mails were deleted or destroyed.\" App. 1291.\nFor example, the jury had to assess whether GN established relevant geographic and product markets, whether Plantronics had market power, whether Plantronics substantially foreclosed GN from competing in the headset market, and whether Plantronics's POD agreements caused GN to lose sales.\nNotwithstanding the majority's suggestion, I do not minimize the probative value of Gallivan's testimony. Rather, I conclude that the District Court permissibly determined that the risk of spoliation testimony sidetracking the jury from the case's merits outweighed this testimony's probative value.",
+        "type": "concurring-in-part-and-dissenting-in-part",
+        "author": "SMITH, Chief Judge, concurring in part and dissenting in part."
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "GN NETCOM, INC., Appellant\nv.\nPLANTRONICS, INC.\nNo. 18-1287\nUnited States Court of Appeals, Third Circuit.\nArgued on December 11, 2018\nFiled: July 10, 2019\nOPINION OF THE COURT"
+  },
+  "file_name": "0076-01",
+  "first_page_order": 76,
+  "last_page_order": 93
+}

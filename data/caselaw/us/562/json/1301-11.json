@@ -1,0 +1,59 @@
+{
+  "id": 5949188,
+  "name": "Jacob v. United States",
+  "name_abbreviation": "Jacob v. United States",
+  "decision_date": "2011-03-21",
+  "docket_number": "No. 10-9086",
+  "first_page": "1301",
+  "last_page": "1301",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1301"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.617,
+    "sha256": "1fc33d2352f1f3ae36daa09e8647107db6b2725ae1b18a93d8b495b9de02c730",
+    "simhash": "1:168ba7212bbd004e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jacob v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9086.\nJacob v. United States."
+  },
+  "file_name": "1301-11",
+  "first_page_order": 1323,
+  "last_page_order": 1323
+}

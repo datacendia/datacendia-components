@@ -1,0 +1,59 @@
+{
+  "id": 12416836,
+  "name": "Fernandez-Avina v. United States",
+  "name_abbreviation": "Fernandez-Avina v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5844",
+  "first_page": "925",
+  "last_page": "925",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 925"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 81,
+    "ocr_confidence": 0.692,
+    "sha256": "cfbdbdff1202e4d9b108c811d35f55cc52c101a24ff293a863c76ae8b4bc54c3",
+    "simhash": "1:0422db82082e8f48",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Fernandez-Avina v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5844.\nFernandez-Avina v. United States."
+  },
+  "file_name": "0925-03",
+  "first_page_order": 1001,
+  "last_page_order": 1001
+}

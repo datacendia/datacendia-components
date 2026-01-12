@@ -1,0 +1,59 @@
+{
+  "id": 12241664,
+  "name": "McKinney v. United States",
+  "name_abbreviation": "McKinney v. United States",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-7571",
+  "first_page": "1135",
+  "last_page": "1135",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1135"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.694,
+    "sha256": "c3d6d9ac074e52c6dd753313aefbb3ea88268ddbeacfbe9b981ab08572dec5e7",
+    "simhash": "1:878bb6820e17182c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McKinney v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7571.\nMcKinney v. United States."
+  },
+  "file_name": "1135-06",
+  "first_page_order": 1217,
+  "last_page_order": 1217
+}

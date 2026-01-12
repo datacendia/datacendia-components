@@ -1,0 +1,59 @@
+{
+  "id": 12215436,
+  "name": "Zimmerman v. Flagstar Bancorp.",
+  "name_abbreviation": "Zimmerman v. Flagstar Bancorp.",
+  "decision_date": "2012-05-14",
+  "docket_number": "No. 11-1112",
+  "first_page": "988",
+  "last_page": "988",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 988"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.536,
+    "sha256": "5b1e349333d0490860cf87cbddb9e1d08313a963652b87cd5ffa977aacea8000",
+    "simhash": "1:bfcb92c4ce6e224e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Zimmerman v. Flagstar Bancorp."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. Fed. Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1112.\nZimmerman v. Flagstar Bancorp."
+  },
+  "file_name": "0988-07",
+  "first_page_order": 864,
+  "last_page_order": 864
+}

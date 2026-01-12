@@ -1,0 +1,59 @@
+{
+  "id": 12245830,
+  "name": "Damaneh v. Texas",
+  "name_abbreviation": "Damaneh v. Texas",
+  "decision_date": "2012-02-21",
+  "docket_number": "No. 11-739",
+  "first_page": "1200",
+  "last_page": "1200",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1200"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 69,
+    "ocr_confidence": 0.723,
+    "sha256": "db75ed0da7e51494714600f2aafa3756d632825d17c9fe3b2a0a9e3721adb57b",
+    "simhash": "1:2111995656951650",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Damaneh v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tex. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-739.\nDamaneh v. Texas."
+  },
+  "file_name": "1200-01",
+  "first_page_order": 1282,
+  "last_page_order": 1282
+}

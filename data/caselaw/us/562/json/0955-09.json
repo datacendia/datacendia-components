@@ -1,0 +1,61 @@
+{
+  "id": 6006999,
+  "name": "Vargas v. United States",
+  "name_abbreviation": "Vargas v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5986",
+  "first_page": "955",
+  "last_page": "956",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 955"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 153,
+    "ocr_confidence": 0.618,
+    "sha256": "b50b1370fb36b38167ff2e1174010c3d6ec95b967f8c4ca7f7c6e4ab221393d1",
+    "simhash": "1:9db39a804a84f648",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Sotomayor took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Vargas v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.\nJustice Sotomayor took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5986.\nVargas v. United States."
+  },
+  "file_name": "0955-09",
+  "first_page_order": 977,
+  "last_page_order": 978
+}

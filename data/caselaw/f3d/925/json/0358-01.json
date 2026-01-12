@@ -1,0 +1,189 @@
+{
+  "id": 12521297,
+  "name": "UNITED STATES of America, Plaintiff-Appellee, v. Franklin V. FENNELL, Defendant-Appellant.",
+  "name_abbreviation": "United States v. Fennell",
+  "decision_date": "2019-05-30",
+  "docket_number": "No. 18-1969",
+  "first_page": "358",
+  "last_page": "362",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "925 F.3d 358"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "7th Cir.",
+    "id": 9010,
+    "name": "United States Court of Appeals for the Seventh Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "330 F.3d 949",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9124920
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "953"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/330/0949-01"
+      ]
+    },
+    {
+      "cite": "489 F.3d 813",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3484730
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "821",
+          "parenthetical": "challenges to drug quantity in presentence report"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/489/0813-01"
+      ]
+    },
+    {
+      "cite": "764 F.3d 739",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4182532
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "745"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/764/0739-01"
+      ]
+    },
+    {
+      "cite": "663 F.3d 906",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5878582
+      ],
+      "weight": 2,
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "925"
+        },
+        {
+          "page": "925-26"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/663/0906-01"
+      ]
+    },
+    {
+      "cite": "732 F.3d 850",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3710179
+      ],
+      "weight": 3,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "852"
+        },
+        {
+          "page": "852-53",
+          "parenthetical": "applying plain-error review to new appellate challenges to restitution order"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/732/0850-01"
+      ]
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 1343",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 U.S.C. \u00a7 3664",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(a)"
+        },
+        {
+          "page": "(a)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 566,
+    "char_count": 10201,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25933056328766657
+    },
+    "sha256": "dff3e792c2d267f06b09ca985d3a73756565890c59488979cd082bca179be3c2",
+    "simhash": "1:fb82cb236b9c5465",
+    "word_count": 1588
+  },
+  "last_updated": "2024-02-27T18:46:49.974673+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Kanne, Hamilton, and St. Eve, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee,\nv.\nFranklin V. FENNELL, Defendant-Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Hamilton, Circuit Judge.\nIn federal criminal law, the amount of restitution for a fraud conviction depends on the victims' actual losses, regardless of whether the defendant intended larger losses. When imposing restitution, the district court must say enough about its loss calculation, under all the circumstances, to permit meaningful review. One mechanism for meeting those requirements is 18 U.S.C. \u00a7 3664(a), which permits the court to order a detailed accounting by a probation officer.\nHere, the evidence at Franklin Fennell's trial showed an actual loss amount of $110,600 in kickbacks that he and a co-defendant received for steering government contracts to a favored bidder. The presentence investigation report recited that amount as restitution, which the district court imposed, but the court referred to that amount orally as the \"intended\" loss. Fennell now seeks a remand, insisting that \u00a7 3664(a) requires that the presentence report contain its own detailed accounting rather than incorporate the trial evidence by reference, and that the district court erred by imposing restitution for intended loss instead of actual loss. We affirm. There was no plain error in the district court's restitution calculation, and despite the mistaken oral reference to intended loss, the record shows beyond reasonable dispute that the amount awarded was the victim's actual loss.\nI. Factual Background and Procedural History\nFennell was the facilities and transportation director for the Vigo County School Corporation in Indiana. In that role, he submitted requests for maintenance work to the school district, which then authorized vendors to complete the work and paid them on completion.\nFennell and co-defendant Frank Shahadey, a district security officer, invited vendor Mike Pick to submit inflated estimates and invoices for recurring projects, like tree trimming and tree removal, in exchange for kickbacks. Fennell himself would award the contract to Pick on behalf of the district. Sometimes, the maintenance projects were wholly fictitious.\nWhen Pick received a payment, he deposited the check and withdrew cash from those funds to pay kickbacks to Fennell and Shahadey. Pick performed approximately 58 jobs for the district. For most of those jobs, Fennell and Shahadey jointly received kickbacks ranging from $500 to $9,000 per invoice. Pick later cooperated with the FBI to record phone calls and meetings with Shahadey and Fennell.\nAt trial, an FBI agent testified about her analysis of the amounts embezzled, based on Pick's testimony, work orders, initial estimates, purchase requisitions, invoices, and bank statements. To summarize the voluminous records, the agent created a chart labeled Exhibit 37-2. She itemized each invoice attributed to Pick from 2014 to 2016, detailing the dates, amounts charged, and kickbacks paid to Fennell and Shahadey.\nThe agent testified that Pick's kickback payments to Fennell and Shahadey totaled $110,600. To calculate the kickback from each invoice, the agent relied on Pick's interviews with the FBI about the amount he withdrew each time to pay the defendants, on bank statements of his withdrawals, and on audio recordings and surveillance of money exchanges between Pick and the defendants.\nThe jury found Fennell guilty on all nine charged counts of wire fraud, 18 U.S.C. \u00a7 1343, one count of theft of government funds, \u00a7 666, and two counts of making false statements to the FBI during the investigation, \u00a7 1001(a)(2). In the presentence report, the probation officer recommended $110,600 of restitution (the kickback amount from trial) under 18 U.S.C. \u00a7 3663A(c)(1)(A)(ii). Fennell objected generally to the presentence report, disputing \"all findings of fact regarding loss and culpability,\" citing the \"arbitrary nature\" of the estimated loss, and asserting that the school district's loss was less than $95,000 (and thus warranted a lower total offense level under the Sentencing Guidelines). But, critical to this appeal, Fennell did not request a complete accounting under \u00a7 3664(a).\nAt the sentencing hearing, the parties debated the restitution amount in general terms. Fennell said that \"haphazard accounting\" and unreliable records from Pick marred the loss calculation. He also argued that the correct loss amount was between $40,000 and $95,000, as that range had been stipulated as part of Shahadey's earlier guilty plea. The government responded that it had uncovered additional losses in preparing for Fennell's trial; it again furnished the court with Exhibit 37-2, detailing the kickback payments the agent had summarized at trial.\nThe court sentenced Fennell to 24 months in prison. As for restitution, the court cited its recollection of the evidence and the \"complete jury verdict in favor of the Government's case\" and found that the government had offered evidence \"beyond a preponderance\" to support the \"intended\" loss amount of $110,600 in restitution, for which Fennell was jointly and severally liable.\nII. Analysis\nOn appeal, Fennell contends that 18 U.S.C. \u00a7 3664(a) required the probation officer to provide a complete accounting of the restitution amount, backed by detailed findings and documentary evidence. In Fennell's view, the presentence report here does not meet the statutory requirement because (a) it is not complete and self-contained, in that it rests on more detailed trial evidence not reiterated in the presentence report, and (b) the restitution amount was not calculated by a probation officer or subjected to renewed adversarial vetting.\nWhen a defendant raises such issues in the district court, we review the district court's authority to order restitution de novo and its calculation of the restitution amount for abuse of discretion. United States v. Berkowitz , 732 F.3d 850, 852 (7th Cir. 2013). But here, Fennell must clear the higher hurdle of plain-error review because he failed to raise specific objections to the presentence report and the restitution amount in the district court. See id . He objected only generally to the \"findings of fact regarding loss and culpability,\" \"the arbitrary nature\" of the loss calculation, and witnesses' \"haphazard\" accounting, without saying why he characterized the evidence this way. He did not invoke \u00a7 3664(a) or its complete-accounting mechanism.\nOn appeal, his contentions have a \"different flavor\"-i.e., that the court supposedly shirked its statutory duty to secure a complete accounting. See Berkowitz , 732 F.3d at 852-53 (applying plain-error review to new appellate challenges to restitution order). Because these arguments are different in kind from those raised in the district court, we will overturn the district court's calculation only if we find an error that likely deprived Fennell of his substantial rights and had a significant chance of affecting the outcome.\nOur review of the record and Fennell's contentions reveals no such error. Fennell argues that a more detailed accounting of restitution is always required at sentencing, but he does not show-and we do not find-that a comprehensive presentence report would have produced a different restitution amount in this case. Repetitive findings are unnecessary if the presentence report and trial record as a whole support the court's conclusions by a preponderance of the evidence. See United States v. Hassebrock , 663 F.3d 906, 925 (7th Cir. 2011). Where, as here, the government's sentencing theory and evidence are the same as they were at trial, and where there is only one victim to account for (i.e., the school district), it is hard to see value in requiring the district court, without a more specific objection or demand, to provide a more detailed independent discussion to justify reaching the same figure in the presentence report.\nMoreover, it was Fennell's burden to demonstrate the unreliability of the presentence report, and \"a simple denial of its accuracy does not discharge this burden.\" United States v. Scalzo , 764 F.3d 739, 745 (7th Cir. 2014) ; see also United States v. Artley , 489 F.3d 813, 821 (7th Cir. 2007) (challenges to drug quantity in presentence report). Given Fennell's failures to invoke \u00a7 3664(a), to furnish any evidence, or to raise specific challenges to the presentence report or the agent's summary chart, the district court did not commit a plain error affecting Fennell's substantial rights when it relied on the presentence report and trial evidence without a \"lengthy discussion of the restitution order.\" Berkowitz , 732 F.3d at 854 ; see also Hassebrock , 663 F.3d at 925-26.\nFennell also seizes on the district court's oral reference to the \"intended\" rather than \"actual\" loss when it discussed restitution. The statute indeed requires that the restitution be based on the loss amount that the defendant actually caused, even if some greater sum was intended. See United States v. Rhodes , 330 F.3d 949, 953 (7th Cir. 2003). The government responds, persuasively, that in context, the reference to \"intended loss\" was surely a slip of the tongue. In any event, the record makes immaterial any failure to mark the distinction between \"intended\" and \"actual\" loss. The FBI agent calculated that $110,600 represented the \"kickback amount\" that Fennell and his co-conspirator received from the school district, i.e., the district's actual loss asserted and proven by the government. (We express no view on whether the victim's actual loss was limited to the amount of the kickbacks.) There is no gulf here between the actual and intended loss. And the amount ordered by the district court is the only one with record support.\nThe judgment of the district court is AFFIRMED.",
+        "type": "majority",
+        "author": "Hamilton, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Bob Wood, Attorney, OFFICE OF THE UNITED STATES ATTORNEY, Indianapolis, IN, for Plaintiff-Appellee.",
+      "Daniel J. Hillis, Attorney, OFFICE OF THE FEDERAL PUBLIC DEFENDER, Springfield, IL, Thomas W. Patton, Attorney, OFFICE OF THE FEDERAL PUBLIC DEFENDER, Peoria, IL, for Defendant-Appellant."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee,\nv.\nFranklin V. FENNELL, Defendant-Appellant.\nNo. 18-1969\nUnited States Court of Appeals, Seventh Circuit.\nArgued April 24, 2019\nDecided May 30, 2019\nBob Wood, Attorney, OFFICE OF THE UNITED STATES ATTORNEY, Indianapolis, IN, for Plaintiff-Appellee.\nDaniel J. Hillis, Attorney, OFFICE OF THE FEDERAL PUBLIC DEFENDER, Springfield, IL, Thomas W. Patton, Attorney, OFFICE OF THE FEDERAL PUBLIC DEFENDER, Peoria, IL, for Defendant-Appellant.\nBefore Kanne, Hamilton, and St. Eve, Circuit Judges."
+  },
+  "file_name": "0358-01",
+  "first_page_order": 358,
+  "last_page_order": 362
+}

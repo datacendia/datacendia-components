@@ -1,0 +1,179 @@
+{
+  "id": 12519423,
+  "name": "UNITED STATES of America, Plaintiff-Appellee, v. Michael T. BOSTOCK, Defendant-Appellant.",
+  "name_abbreviation": "United States v. Bostock",
+  "decision_date": "2018-12-10",
+  "docket_number": "No. 18-1897",
+  "first_page": "348",
+  "last_page": "351",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "910 F.3d 348"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "7th Cir.",
+    "id": 9010,
+    "name": "United States Court of Appeals for the Seventh Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "873 F.3d 601",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12265371
+      ],
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "607-09"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/873/0601-01"
+      ]
+    },
+    {
+      "cite": "717 F.3d 536",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3576590
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "542"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/717/0536-01"
+      ]
+    },
+    {
+      "cite": "576 F.3d 365",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4038252
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "367-68"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/576/0365-01"
+      ]
+    },
+    {
+      "cite": "598 F.3d 411",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4220963
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "parenthetical": "en banc"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/598/0411-01"
+      ]
+    },
+    {
+      "cite": "552 U.S. 85",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3675682
+      ],
+      "weight": 3,
+      "year": 2007,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/552/0085-01"
+      ]
+    },
+    {
+      "cite": "516 U.S. 284",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        327837
+      ],
+      "weight": 4,
+      "year": 1996,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/516/0284-01"
+      ]
+    },
+    {
+      "cite": "21 U.S.C. \u00a7 841",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(b)(1)(A)(viii)"
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 492,
+    "char_count": 7572,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.25913248224124263
+    },
+    "sha256": "0e6c1065472d1028fdaeb6562c15b4907c6f8ffb75563f3dfe319b5406696522",
+    "simhash": "1:a88dd3a8e223308a",
+    "word_count": 1184
+  },
+  "last_updated": "2024-02-27T18:46:13.639075+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Easterbrook, Sykes, and Scudder, Circuit Judges."
+    ],
+    "parties": [
+      "UNITED STATES of America, Plaintiff-Appellee,\nv.\nMichael T. BOSTOCK, Defendant-Appellant."
+    ],
+    "opinions": [
+      {
+        "text": "Easterbrook, Circuit Judge.\nMichael Bostock pleaded guilty to distributing methamphetamine and has been sentenced to 125 months' imprisonment, which he contends is unreasonably high.\nThe statute that forbids sales of this drug distinguishes by its purity. For example, for the purpose of setting minimum and maximum sentences, \"50 grams or more of methamphetamine\" is treated the same as \"500 grams or more of a mixture or substance containing a detectable amount of methamphetamine\". 21 U.S.C. \u00a7 841(b)(1)(A)(viii). The Sentencing Guidelines reflect this classification. The drug quantity table, U.S.S.G. \u00a7 2D1.1(c), distinguishes among \"Methamphetamine\", \"Methamphetamine (actual)\", and \"Ice\". Note (A) to this table says that \"methamphetamine\" is the weight of any mixture or substance containing a detectable amount of the controlled substance; Note (B) defines the \"actual\" variant as the weight of the controlled substance disregarding any contaminants or cutting agents; Note (C) defines \"ice\" as the weight of \"a mixture or substance containing d-methamphetamine hydrochloride of at least 80% purity.\" The Guidelines treat the \"actual\" and \"ice\" variants as ten times the weight of the detectable-quality variant. So, for example, \u00a7 2D1.1(c)(5) provides that 500 grams to 1.49 kilograms of methamphetamine, 50 to 149 grams of methamphetamine (actual), and 50 to 149 grams of ice all produce an offense level of 30. Bostock, who concedes distributing 63.8 grams of ice, falls into this category. Given his criminal history category, the Guidelines recommended a sentence in the range of 130 to 162 months' imprisonment.\nThe district court sentenced him slightly below the lower end of this range. Still, he contends that the judge should have proceeded as if he had sold 64 grams of \"methamphetamine\" rather than 64 grams of \"ice.\" If the judge had done that, the recommended sentence would have been in the range of 77 to 96 months in prison. The judge declined to disregard the Guidelines' distinction between \"methamphetamine\" and \"ice,\" and that decision led to this appeal.\nBostock tried to persuade the judge that the distinction between \"methamphetamine\" and \"ice\" (or \"methamphetamine (actual),\" which we ignore from now on) is outmoded because most sellers have moved to higher-purity products. He also insisted that the distinction never had a sound empirical footing. Yet the 10-to-1 ratio is baked into the statute. Although the Sentencing Commission is not compelled to draw its recommendations from statutory text, it is entitled to do so, whether or not Congress was legislating in a data-driven way. The Commission cannot affect statutory minimum and maximum sentences, see Neal v. United States , 516 U.S. 284, 116 S.Ct. 763, 133 L.Ed.2d 709 (1996), though subject to that constraint it can use ratios different from those that Congress prefers. Id . at 292-94, 116 S.Ct. 763. Rejecting a legislative ratio is never required, however.\nThat holds for judges too. A court may deviate from a Guideline if persuaded that the Commission is mistaken, see Kimbrough v. United States , 552 U.S. 85, 128 S.Ct. 558, 169 L.Ed.2d 481 (2007) ; United States v. Corner , 598 F.3d 411 (7th Cir. 2010) (en banc), but is never required to do so. Indeed, we have held that a district judge is not required even to articulate a reason for sticking with the Guidelines and may give the silent treatment to stock arguments asking the court to disregard the Commission's recommendations. See, e.g., United States v. Aguilar-Huerta , 576 F.3d 365, 367-68 (7th Cir. 2009) ; United States v. Schmitz , 717 F.3d 536, 542 (7th Cir. 2013).\nWhen sentencing Bostock, the district judge did not ignore his challenge to the Sentencing Commission's decision to distinguish \"methamphetamine\" from \"ice.\" Instead she explained at some length why she was not persuaded by the decisions of a few other judges who have treated \"ice\" the same as \"methamphetamine.\" Here Bostock sees an opening, for he maintains that the evidence does not support some of the judge's statements.\nFor example, Bostock contends that the judge erred when remarking that \"ice\" is worse than \"methamphetamine\" because the purer substance is more valuable, and with \"more value comes more danger.\" There's no record evidence of extra value, Bostock observes. True enough, but neither does the record contain evidence to the contrary. (Bostock neither disputed the judge's observation, a step that might have spurred the prosecutor to introduce evidence, nor introduced his own evidence, so our review is for plain error. See United States v. Oliver , 873 F.3d 601, 607-09 (7th Cir. 2017).) Judges know that higher-octane gasoline sells for more than weaker stuff and do not need evidence to infer that this is true of other products as well. Unless the laws of economics have been repealed in the Central District of Illinois, 60 grams of a substance that can be cut to produce 500 grams of 10% methamphetamine is worth more than 60 grams of 10% methamphetamine. The amount of the difference is unknown on this record, but the sign on the variable is known.\nBostock also contends that the judge erred in equating sellers of \"ice\" with large-scale dealers. It may well be that the Commission (and Congress) were influenced by a belief that those selling higher-purity drugs are higher in the chain of distribution, but the district judge did not rely on that belief, which is not necessary to sustain a purity-based distinction in sentencing. The 10-to-1 ratio between \"ice\" and \"methamphetamine\" does not denigrate from marginal punishment for more serious criminals. Large-scale dealers operate on, well, a larger scale than 64-gram sales. The Guidelines increase the base offense level until it reaches 38 at 4.5 kilograms of \"ice\" or 45 kilograms of \"methamphetamine\"; kingpins thus receive higher sentences. Bigwigs also receive enhancements under \u00a7 3B1.1 for their supervisory roles. There's no problem with holding Bostock, who did not receive a supervisory enhancement, responsible for the amount or purity of the drug he distributed.\nIt is not necessary to go through Bostock's objections to the judge's other statements. The bottom line is that she stuck with the distinction between \"methamphetamine\" and \"ice,\" as she was entitled to do. She gave Bostock an individualized sentence that depended substantially on his criminal history category of VI-the judge found him undeterrable, with crimes increasing in gravity after each release from prison-and the need to protect the community from high-quality methamphetamine made in industrial laboratories in other places, which had become a plague after police man-aged to shut down most of the local manufacturers. Bostock should count himself fortunate, given the judge's observations, that his sentence is below rather than above the range recommended by the Sentencing Commission.\nAFFIRMED",
+        "type": "majority",
+        "author": "Easterbrook, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Katherine Virginia Boyle, Attorney, OFFICE OF THE UNITED STATES ATTORNEY, Urbana Division, Urbana, IL, Greggory R. Walters, Attorney, OFFICE OF THE UNITED STATES ATTORNEY, Peoria, IL, for Plaintiff - Appellee.",
+      "Daniel J. Hillis, Attorney, OFFICE OF THE FEDERAL PUBLIC DEFENDER, Springfield, IL, Brian P. Mullins, Attorney, OFFICE OF THE FEDERAL PUBLIC DEFENDER, Peoria, IL, for Defendant - Appellant."
+    ],
+    "corrections": "",
+    "head_matter": "UNITED STATES of America, Plaintiff-Appellee,\nv.\nMichael T. BOSTOCK, Defendant-Appellant.\nNo. 18-1897\nUnited States Court of Appeals, Seventh Circuit.\nArgued November 14, 2018\nDecided December 10, 2018\nKatherine Virginia Boyle, Attorney, OFFICE OF THE UNITED STATES ATTORNEY, Urbana Division, Urbana, IL, Greggory R. Walters, Attorney, OFFICE OF THE UNITED STATES ATTORNEY, Peoria, IL, for Plaintiff - Appellee.\nDaniel J. Hillis, Attorney, OFFICE OF THE FEDERAL PUBLIC DEFENDER, Springfield, IL, Brian P. Mullins, Attorney, OFFICE OF THE FEDERAL PUBLIC DEFENDER, Peoria, IL, for Defendant - Appellant.\nBefore Easterbrook, Sykes, and Scudder, Circuit Judges."
+  },
+  "file_name": "0348-01",
+  "first_page_order": 348,
+  "last_page_order": 351
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12202775,
+  "name": "Pearson v. Dormire, Superintendent, Jefferson City Correctional Center",
+  "name_abbreviation": "Pearson v. Dormire",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10486",
+  "first_page": "838",
+  "last_page": "838",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 838"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 16,
+    "char_count": 120,
+    "ocr_confidence": 0.649,
+    "sha256": "823de9aa86789076347091e6f996d9d119ca2e1bfe306d3163eb71349cbcf5c7",
+    "simhash": "1:a1f3c227283d22eb",
+    "word_count": 16
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pearson v. Dormire, Superintendent, Jefferson City Correctional Center."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10486.\nPearson v. Dormire, Superintendent, Jefferson City Correctional Center."
+  },
+  "file_name": "0838-09",
+  "first_page_order": 920,
+  "last_page_order": 920
+}

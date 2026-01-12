@@ -1,0 +1,196 @@
+{
+  "id": 6054890,
+  "name": "DEBORAH HERTING, as Trustee, etc., Plaintiff and Appellant, v. STATE DEPARTMENT OF HEALTH CARE SERVICES, Defendant and Respondent",
+  "name_abbreviation": "Herting v. State Department of Health Care Services",
+  "decision_date": "2015-03-27",
+  "docket_number": "No. H040220",
+  "first_page": "607",
+  "last_page": "618",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "235 Cal. App. 4th 607"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal. Ct. App.",
+    "id": 8799,
+    "name": "Court of Appeal of the State of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "22 Cal.Rptr.3d 488",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "125 Cal.App.4th 186",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1237834
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/125/0186-01"
+      ]
+    },
+    {
+      "cite": "10 B.U. Pub. Int. L.J. 91",
+      "category": "journals:journal",
+      "reporter": "B.U. Pub. Int. L.J.",
+      "pin_cites": [
+        {
+          "page": "151",
+          "parenthetical": "Rosenberg"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "19 Nova L.Rev. 679",
+      "category": "journals:journal",
+      "reporter": "Nova L. Rev.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "685 F.3d 325",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3902427
+      ],
+      "year": 1995,
+      "pin_cites": [
+        {
+          "page": "332-333"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/685/0325-01"
+      ]
+    },
+    {
+      "cite": "69 P.3d 927",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "135 Cal.Rptr.2d 1",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal.4th 798",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        269728
+      ],
+      "pin_cites": [
+        {
+          "page": "810"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/30/0798-01"
+      ]
+    },
+    {
+      "cite": "42 U.S.C. \u00a7 1396",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "448 U.S. 297",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1787609
+      ],
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "301, 308"
+        },
+        {
+          "page": "p. 301"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/448/0297-01"
+      ]
+    },
+    {
+      "cite": "42 U.S.C. \u00a7 301",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "et seq."
+        }
+      ],
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 978,
+    "char_count": 27447,
+    "ocr_confidence": 0.851,
+    "pagerank": {
+      "raw": 6.38852823733527e-08,
+      "percentile": 0.39558464605465415
+    },
+    "sha256": "ed34b6bbb96170f1680fe3b3a53bbace9c829831fd9a91637cf9c7e2519b1117",
+    "simhash": "1:5a234a0005768abd",
+    "word_count": 4342
+  },
+  "last_updated": "2024-02-27T17:59:06.676148+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Rushing, R J., and Premo, J., concurred."
+    ],
+    "parties": [
+      "DEBORAH HERTING, as Trustee, etc., Plaintiff and Appellant, v. STATE DEPARTMENT OF HEALTH CARE SERVICES, Defendant and Respondent."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nELIA, J.\nIn this case we are called upon to examine the relationship between \u201cspecial needs trusts,\u201d which allow certain individuals to qualify for public medical assistance under the federal Medicaid program, and the provisions entitling the state to recover the amounts it has paid to provide such assistance. Deborah Herting, trustee of the Alexandria A. Pomianowski Special Needs Trust, appeals from an order requiring the trust to reimburse respondent, the State Department of Health Care Services (DHCS or the Department) for medical expenses the Department had paid in behalf of the trust beneficiary, Alexandria Pomianowski, before her death. Herting contends that the trust assets were exempt from the Department\u2019s reimbursement rights because the beneficiary was under 55 years of age when the services were provided. We conclude that the Department was entitled to reimbursement of the medical expenses it paid under both the federal Medicaid statutes and the statutes and regulations implementing Medicaid through California\u2019s medical assistance program, known as Medi-Cal. Accordingly, we will affirm the order.\nOverview\nThe federal Medicaid program, created in 1965 by adding title XIX to the Social Security Act (42 U.S.C. \u00a7 301 et seq.), is a complex \u201csystem of \u2018cooperative federalism,\u2019 \u201d in which both the federal government and participating states \u201creimburse certain costs of medical treatment for needy pers ons.\u201d (Harris v. McRae (1980) 448 U.S. 297, 301, 308 [65 L.Ed.2d 784, 100 S.Ct. 2671]; see 42 U.S.C. \u00a7 1396 et seq.) Those eligible for Medicaid assistance include \u201cseverely impaired individuals\u201d such as Alexandria Pomianowski, the beneficiary of the trust at issue. (42 U.S.C. \u00a7 1396a(a)(10)(A)(i)(II)(bb).)\nThe functioning of the Medicaid system depends on a \u201cfinancial contribution by both the Federal Government and the participating State.\u201d (Harris v. McRae, supra, 448 U.S. at p. 308.) \u201cAlthough participation in the Medicaid program is entirely optional, once a State elects to participate, it must comply with the requirements of Title XIX,\u201d many of which are set forth in 42 United States Code section 1396a et seq. (Harris v. McRae, supra, at p. 301.) Nevertheless, \u201c \u2018[t]he [Medicaid] program was designed to provide the states with a degree of flexibility in designing plans that meet their individual needs. [Citation.] As such, states are given considerable latitude in formulating the terms of their own medical assistance plans.\u2019 [Citation.]\u201d (Olszewski v. Scripps Health (2003) 30 Cal.4th 798, 810 [135 Cal.Rptr.2d 1, 69 P.3d 927].) California has implemented the Medicaid program through the Medi-Cal Act, described in Welfare and Institutions Code section 14000 et seq.\nIn this case, the relevant statutory provisions are those delineating Medicaid and Medi-Cal eligibility and recovery requirements, particularly 42 United States Code section 1396p (hereafter section 1396p) and Welfare and Institutions Code section 14009.5, respectively. Title 42 United States Code section 1396a(a)(18) (hereafter section 1396a) specifically requires the state to \u201ccomply with the provisions of section 1396p . . . with respect to liens, adjustments and recoveries of medical assistance correctly paid, transfers of assets, and treatment of certain trusts.\u201d (Fn. omitted.) Accordingly, Welfare and Institutions Code section 14009.5 prescribes the conditions under which DHCS may claim reimbursement from the estate of a Medi-Cal recipient. Entering into the picture are the provisions for \u201cspecial needs trusts,\u201d which, in Probate Code sections 3600-3605, enable a disabled person to qualify for Medi-Cal benefits by sheltering money that exceeds the limit of the individual\u2019s eligibility. This case calls for application of these provisions and for resolution of any apparent incongruities among them.\nProcedural Background\nAlexandria Pomianowski was 19 years old in April 2009, when she was in a catastrophic automobile accident which left her a ventilator-dependent quadriplegic with associated medical complications. After being released from a four-month hospital stay, she continued to need total care in all aspects of daily living, including bathing, feeding, dressing, toileting, and mobility. A lawsuit was filed on her behalf against the County of Santa Cruz and Ford Motor Company, eventually culminating in a settlement for $3,175,000. In a December 2010 order approving the settlement, the superior court directed that these funds be deposited in a special needs trust, less amounts directly payable to Kaiser Permanente for medical care, to DHCS, and to Alexandria\u2019s attorney. Accordingly, on February 1, 2011, $1,424,019.39, was placed in the Alexandria A. Pomianowski Special Needs Trust. Appellant Deborah Herting, Alexandria\u2019s mother, was the trustee.\nOn January 19, 2013, when she was 23, Alexandria'died. By this time there was $1,294,453.23 in cash left in the trust account. Herting notified DHCS of the death in accordance with Probate Code section 9202, which gave the Department four months thereafter in which to file a claim against Alexandria\u2019s estate. Within that period the Department filed its claim for reimbursement of $417,812.43 in health care costs it had paid under the Medi-Cal program.\nIn July 2013 Herting filed a final account and petition for termination of the trust, along with a request for denial of the Department\u2019s claim for reimbursement from the trust. Herting invoked the exceptions set forth in section 1396p(b)(l)(B) and Welfare and Institutions Code section 14009.5, subdivision (b)(1), which limit the Department\u2019s right to recover from the estate of a decedent who received medical care while under 55 years of age.\nDHCS opposed Herting\u2019s request. Citing section 1396p(d)(4)(A), the Department pointed out that a special needs trust, while allowing a disabled person under 65 to be eligible for public assistance under Medicaid, must also provide for reimbursement to the state upon the person\u2019s death. Tracking that federal mandate, the Department noted, was title 22 of the California Code of Regulations, which in section 50489.9 prescribes the same condition of eligibility. Alexandria had been deemed eligible for Medi-Cal benefits only because her trust contained that reimbursement provision. Finally, the Department cited Probate Code sections 3604 and 3605, which give specified government agencies (including DHCS) priority over the funds remaining in the trust after the death of a special needs trust beneficiary. In short, the Department argued, \u201c[t]o apply the 55 and under limitation in Section 1396p(b), as argued by the Trustee, to special needs trusts, would not only thwart the intent of the statute to provide for payback of Medi-Cal expenses, but would lead to an unreasonable result that is contrary to public policy. For no logical reason, recovery by the State from special needs trusts would be limited to those individuals who incurred medical expenses between the ages of 55 and 65, and the heirs of all others would get a windfall of taxpayer funds,\u201d contrary to the intent of Congress.\nThe superior court approved the settlement but granted the Department\u2019s claim. The court recognized that the express purpose of the trust had been to enable Alexandria to qualify for Medi-Cal and that the payback provisions of the document reflected that purpose. The court therefore ordered that the Department be reimbursed from the remaining funds in the trust in the full amount of its claim. Herting filed a timely appeal from the order.\nAnalysis\nHerting\u2019s central argument is that DHCS has no right of recovery from a special needs trust when the beneficiary is under the age of 55. As Herting recognizes, Congress revised the Medicaid system in response to abuses by wealthy individuals, particularly those over 65, who used trusts not only to establish eligibility for benefits but also to preserve their assets for the benefit of their children or other third parties. (Lewis v. Alexander (3d Cir. 2012) 685 F.3d 325, 332\u2014333; see Weisner, OBRA \u201993 and Medicaid: Asset Transfers, Trust Availability and Estate Recovery Statutory Analysis in Context (1995) 19 Nova L.Rev. 679; Rosenberg, Supplemental Needs Trusts for People with Disabilities: The Development of a Private Trust in the Public Interest (2000) 10 B.U. Pub. Int. L.J. 91, 151 (Rosenberg).) As part of the Omnibus Budget Reconciliation Act of 1993, Congress tightened the eligibility rules, while adding certain exceptions, notably subdivision (d)(4)(A), to section 1396p in order to exempt the severely disabled under age 65 whose assets would otherwise make them ineligible for Medicaid, by permitting the establishment of a supplemental or special needs trust. Congress thus struck a balance between curbing abusive asset transfers and ensuring access to public assistance by the disabled. Section 1396p(d)(4)(A) now states that a determination of eligibility does not include the assets in a trust established for \u201can individual under age 65 who is disabled (as defined in section 1382c(a)(3) of this title) and which is established for the benefit of such individual by a parent, grandparent, legal guardian of the individual, or a court if the State will receive all amounts remaining in the trust upon the death of such individual up to an amount equal to the total medical assistance paid on behalf of the individual under a State plan under this subchapter\u201d (\u00a7 1396p(d)(4)(A), italics added.) In California, Probate Code section 3605 permits a court to order the establishment of a \u201cspecial needs trust\u201d for a person with a disability, but the order \u201cshall include a provision that all statutory liens in favor of the State Department of Health Care Services, the State Department of State Hospitals, the State Department of Developmental Services, and any county or city and county in this state shall first be satisfied.\u201d (Prob. Code, \u00a7 3604, subd. (d).)\nIt is the adverbial dependent clause of section 1396p(d)(4)(A), quoted in italics above, that fueled the controversy in this case. Herting has relied on a separate subdivision of section 1396p to argue that the state may not recover the remaining amounts in Alexandria\u2019s trust because she was under age 55 when she received Medicaid benefits. Subdivision (b)(1)(B) of section 1396p states: \u201c[(b)](l) No adjustment or recovery of any medical assistance correctly paid on behalf of an individual under the State plan may be made, except that the State shall seek adjustment or recovery of any medical assistance correctly paid on behalf of an individual under the State plan in the case of the following individuals: [\u00b6] . . . [\u00b6] (B) In the case of an individual who was 55 years of age or older when the individual received such medical assistance, the State shall seek adjustment or recovery from the individual\u2019s estate, but only for medical assistance consisting of \u2014 [\u00b6] (i) nursing facility services, home and community-based services, and related hospital and prescription drug services, or [\u00b6] (ii) at the option of the State, any items or services under the State plan (but not including medical assistance for medicare cost-sharing or for benefits described in section 1396a(a)(10)(E) of this title).\u201d (\u00a7 1396p(b)(l)(B).)\nCalifornia\u2019s plan reflects these guidelines in Welfare and Institutions Code section 14009.5 (hereafter section 14009.5), which requires DHCS to \u201cclaim against the estate of the decedent, or against any recipient of the property of that decedent by distribution or survival an amount equal to the payments for the health care services received or the value of the property received by any recipient from the decedent by distribution or survival, whichever is less.\u201d (\u00a7 14009.5, subd. (a).) The statute further provides, however, that the Department \u201cmay not claim in any of the following circumstances: [\u00b6] (1) The decedent was under 55 when services were received, except in the case of an individual who had been an inpatient in a nursing facility.\u201d (\u00a7 14009.5, subd. (b)(1).) The California regulation applicable to this statute also requires that the Department provide an exemption of its reimbursement claim \u201c[w]here the decedent was under age 55 when the services were provided, unless the decedent was an inpatient in a nursing facility, intermediate care facility for the mentally retarded, or other medical institution.\u201d (Cal. Code Regs., tit. 22, \u00a7 50961, subd. (d)(1).) \u201cDecedent\u201d is defined in section 14009.5, subdivision (d)(1), as \u201ca beneficiary who has received health care under this chapter . . . and who has died leaving property to others either through distribution or survival.\u201d\nBut all of these provisions apply to recovery from the aid recipient\u2019s estate, whereas the Department\u2019s claim was made pursuant to the statutes governing special needs trusts and the terms of the trust at issue. We agree with the Department that this distinction controls the outcome of the parties\u2019 dispute. Alexandria\u2019s trust was not estate property but an instrument created for the specific and exclusive purpose of ensuring that she qualify for Medi-Cal benefits and have enough resources to supplement those benefits and enhance her compromised quality of life. As noted above, section 1396p(d)(4)(A) recognizes special needs trusts for Medicaid eligibility purposes if the individual is under 65 and disabled and if the state will be reimbursed for the amount it paid for the individual\u2019s medical care. Thus, as the Department points out, Alexandria\u2019s trust would not have been approved by the court had it not contained the condition required in section 1396p(d)(4)(A). It is through this condition that the device of the special needs trust \u201cstrikes a balance between the private interest of the Medicaid recipient in having a supplemental source of support and the public interest in recovering the costs of Medicaid expenditures.\u201d (Rosenberg, supra, at p. 136.)\nLikewise, in California, the applicable Medi-Cal provisions are not those pertaining to estate recovery but those governing establishment of special needs trusts and recovery from those trusts upon the beneficiary\u2019s death. Under Probate Code section 3604, a special needs trust may not be approved without a provision that all statutory liens in favor of DHCS and other public entities \u201cfirst be satisfied.\u201d More to the point is Probate Code section 3605, which describes the procedure to be followed upon the death of the special needs trust beneficiary. Subdivision (b) of that statute provides, in pertinent part, \u201cNotwithstanding any provision in the trust instrument, at the death of the special needs trust beneficiary or on termination of the trust, the trust property is subject to claims of the State Department of Health Care Services, the State Department of State Hospitals, the State Department of Developmental Services, and any county or city and county in this state to the extent authorized by law as if the trust property is owned by the beneficiary or is part of the beneficiary\u2019s estate.\u201d The remaining subdivisions prescribe the notice that the trustee must give to the Department, the four-month period in which the Department may claim reimbursement from the trustee, the circumstances under which the statute of limitations is tolled with respect to the Department\u2019s claim, and the consequences of the trustee\u2019s distribution before the Department\u2019s four-month period has expired. No exception is stated for claims against a trust created for a beneficiary under age 55. That the provision contains the words \u201cas if the trust property is owned by the beneficiary or is part of the beneficiary\u2019s estate\u201d does not warrant engrafting estate-recovery text onto a statute specifically targeted to special needs trusts. The Department\u2019s claim was authorized by Probate Code section 3605.\nCalifornia Code of Regulations, title 22, section 50489.9 reflects this legislation: It states that a special needs trust properly constituted (i.e., established by a parent, grandparent, legal guardian, or, as here, a court, for the benefit of a disabled individual under 65) shields the trust assets if \u201c[t]he State receives all remaining funds in the trust, or respective portion of the trust, upon the death of the individual or spouse or upon termination of the trust up to an amount equal to the total medical assistance paid on behalf of that individual by the Medi-Cal program.\u201d (Id., subd. (a)(3)(C).) Thus, to be approved by the court Alexandria\u2019s trust had to contain a payback provision in compliance with the federal and state statutes under which her eligibility for assistance was established. Had the trust not contained that provision, all of the settlement funds would have been deemed available for her care, thereby disqualifying her from public assistance.\nThe terms of Alexandria\u2019s trust fully conformed to the federal and state law discussed above. Clearly its central purpose was to ensure the availability of resources for Alexandria\u2019s care, not to serve as an estate planning device. Article four, section 1, stated; \u201cIt is the intention of this trust to satisfy Medi-Cal and Supplemental Security Income (hereinafter \u2018SSI\u2019) program requirements so that its establishment and funding do not prejudice the Beneficiary\u2019s eligibility for such public benefits. It is also the intention of this trust that it be administered in a way to satisfy Medi-Cal and SSI program requirements for preserving the Beneficiary\u2019s eligibility for public benefits, as well as the amount of such benefits (except if the Trustee determines in the Trustee\u2019s discretion that distributions causing some loss of benefits would be in the Beneficiary\u2019s best interests).\u201d In two separate paragraphs the trust expressly stated that it complied with section 1396p(d)(4)(A), Probate Code sections 3600-3613, and California Code of Regulations, title 22, section 50489.9, subdivision (a)(3). Accordingly, in the trust directions for administration upon the beneficiary\u2019s death, article seven, section 1, prescribed the order of distribution of trust assets, \u201c[s]ubject to\u201d state notice and reimbursement requirements. Those requirements were delineated in the \u201cNotice and Payback Provisions\u201d section of article seven, which acknowledged that compliance with section 1396p(d)(4)(A) and California Code of Regulations, title 22, section 50489.9 was mandatory in order to enable Alexandria to maintain her eligibility for Medi-Cal. After giving the Department notice of the beneficiary\u2019s death, the trustee was required to \u201c'first distribute to [DHCS], then to any other appropriate state agency entitled to Medi-Cal reimbursement from the remaining principal and income of this trust, up to the amount remaining in this trust, an amount equal to the total medical assistance paid on behalf of the Beneficiary by the Medi-Cal program.\u201d (Italics added.)\nHerting followed the law and the terms of the trust in notifying DHCS of Alexandria\u2019s death. Upon receiving the Department\u2019s timely claim citing section 1396p(d)(4)(A) and Probate Code section 3605, she was obligated to pay the $417,812.43 claim from the assets remaining in the trust, which exceeded $1 million.\nShewry v. Arnold (2004) 125 Cal.App.4th 186 [22 Cal.Rptr.3d 488] (Shewry), on which Herting relies, does not convince us otherwise. In Shewry, the State Department of Health Services sought reimbursement from Brenda Arnold, a disabled adult who had been the conservator of her mother\u2019s person and estate. Arnold\u2019s mother, Etoria Hatcher, was enrolled in Medi-Cal after the proceeds of a settlement were placed in a special needs trust with Arnold as trustee. When Hatcher died, Arnold withdrew all but $2.31 from the trust and did not notify the department. Eventually the department learned of Hatcher\u2019s death and claimed more than $90,000 from Arnold as recipient of the remaining trust assets. Arnold refused on the ground that she was Hatcher\u2019s only surviving child and was disabled.\nThe department sued Arnold and obtained summary judgment, but the Second District, Division Five, reversed. The court held that the Medicaid reimbursement provisions of section 1396p(b)(2)(A) and the Medi-Cal provisions under section 14009.5, subdivision (b)(2)(C), barred recovery from the trust beneficiary\u2019s estate under the exception for a beneficiary with a disabled child. The estate, reasoned the court, included the trust assets. In the court\u2019s view, no different treatment after a Medi-Cal recipient\u2019s death was warranted for special needs trusts. Subdivision (d) of section 1396p was considered inapplicable because it related only to eligibility for benefits, not reimbursement. (Shewry, supra, 125 Cal.App.4th at pp. 196-197.) Consequently, the court determined that Arnold, an adult disabled child of the trust beneficiary, was entitled to the remaining trust assets free of the department\u2019s reimbursement claim. That conclusion was supported by \u201csound public policy,\u201d the court added, because enforcement of the department\u2019s reimbursement claims \u201cwould likely result in hardship\u201d to the adult disabled child of a deceased beneficiary. (Id. at p. 198.)\nWe depart from Shewry only insofar as it generally interprets the Medicaid and Medi-Cal statutes to deem the assets of any special needs trust to be part of a beneficiary\u2019s estate after death. In Shewry, the trust assets (except for $2.31) had already been distributed to Arnold, so the department had to proceed against Arnold \u2014 not as trustee, but as the \u201csole recipient of the beneficiary\u2019s estate.\u201d (Shewry, supra, 125 Cal.App.4th at p. 191.) Here the claim is against neither the estate nor any recipient of the decedent\u2019s property, but directly against the trust, which was extant at the time the Department made its claim. The statutes and regulations governing recovery from a special needs trust do not exempt beneficiaries under age 55, either directly or by making them \u201csubject to\u201d the estate recovery provisions. Nor do we see a public policy reason in this case to shield the trust assets from recovery so that the $417,812.43 spent by the public can pass to Alexandria\u2019s parents along with the rest of the trust assets. Such a result would contravene both the text of the provisions discussed above and the clear intent of Congress and our Legislature. We conclude, therefore, that the superior court properly granted the Department\u2019s reimbursement claim against Alexandria\u2019s trust after her death.\nDisposition\nThe judgment is affirmed.\nRushing, R J., and Premo, J., concurred.\nCalifornia Code of Regulations, title 22, section 50489.9 provides that a special needs trust is considered a resource \u201cavailable\u201d to the individual only after it is distributed, thus ensuring eligibility for Medi-Cal. The qualifying trust is described in this regulation as \u201cA trust established on or after August 11, 1993, which meets all of the following conditions: [\u00b6] (A) A trust, or portion of a trust, that contains the assets of an individual or spouse who was both disabled as verified in accordance with Section 50167(a)(1) and under the age of 65 when the trust was established and who is currently disabled whether or not he/she is age 65 or over, and [\u00b6] (B) A trust that is established for the benefit of the disabled individual or disabled spouse in subsection (a)(1)(A) of this section by a parent, grandparent, legal guardian of the individual, or a court, and where [\u00b6] (C) The State receives all remaining funds in the trust, or respective portion of the trust, upon the death of the individual or spouse or upon termination of the trust up to an amount equal to the total medical assistance paid on behalf of that individual by the Medi-Cal program. . . .\u201d (Cal. Code Regs., tit. 22, \u00a7 50489.9, subd. (a)(3).)\nThe statute applies if the \u201cperson with a disability has a disability that substantially impairs the individual\u2019s ability to provide for the individual\u2019s own care or custody and constitutes a substantial handicap,\u201d and the person \u201cis likely to have special needs that will not be met without the trust.\u201d (Prob. Code, \u00a7 3604, subd. (b)(1), (2).)\nIn summarizing the enactment of Probate Code section 3604, the Legislative Counsel explained, \u201cThis bill would require that the terms of the trust established for the benefit of the minor or incompetent person be court approved and satisfy specified requirements. The bill would also provide that property held under a special needs trust would be subject to claims of the State Department of Health Services, the State Department of Mental Health, the State Department of Developmental Services, and a county or city and county in this state, under specified circumstances.\u201d (Legis. Counsel\u2019s Dig., Assem. Bill No. 3328 (1991-1992 Reg. Sess.) 4 Stats 1992, Summary Dig., p. 129.)\nThe California Law Revision Commission comment to Probate Code section 3605 may appear to support Herting\u2019s position by stating, \u201cOn the death of the special needs trust beneficiary or on termination of the trust, trust property may become subject to reimbursement claims under federal or state law [(including Medicaid and Medi-Cal)]. . . . For this purpose and only this purpose, the trust property is treated as the beneficiary\u2019s property or as property of the beneficiary\u2019s estate.\u201d (Cal. Law Revision Com. com., Deering\u2019s Ann. Prob. Code (2004 ed.) foil. \u00a7 3605, pp. 345-346.) We do not read this comment, made before the enactment of OBRA \u201993 (Omnibus Budget Reconciliation Act of 1993), as a declaration that specific statutes and regulations governing government claims against special needs trusts may be disregarded simply by calling the trust assets estate property.\nArticle two, section 5 of the trust states: \u201cThe purpose of this trust is to provide for the special needs of the Beneficiary, a disabled adult. The Beneficiary presently suffers from a disability that substantially impairs her ability to provide for her own care and custody and constitutes a substantial handicap. The Beneficiary either receives or is entitled to receive public benefits on account of her disabilities. In general, this trust is therefore intended to supplement, and not to supplant, the public benefits that would be available to the Beneficiary if this trust did not exist. [\u00b6] Currently, the Beneficiary has basic living needs such as special programs and equipment that public benefits may not provide. It is vitally important that the Beneficiary receive these services to maintain a level of human dignity and humane care. If this Trust were to be invaded by creditors, to be subjected to any liens or encumbrances, or to cause the Beneficiary\u2019s public benefits to be terminated, the trust corpus would likely be depleted before the Beneficiary\u2019s death because the cost of care for persons with disabilities is high. In that event, there would be no remaining source of payment for either emergencies or supplemental support for the Beneficiary\u2019s needs.\u201d",
+        "type": "majority",
+        "author": "ELIA, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Myers Urbatsch, Kevin Patrick Urbatsch and Lily Moallem for Plaintiff and Appellant.",
+      "Kamala D. Harris, Attorney General, Julie Weng-Gutierrez, Assistant Attorney General, Susan M. Carson, Hadara R. Stanton and Cheryl Lynn Feiner, Deputy Attorneys General, for Defendant and Respondent."
+    ],
+    "corrections": "",
+    "head_matter": "[No. H040220.\nSixth Dist.\nMar. 27, 2015.]\nDEBORAH HERTING, as Trustee, etc., Plaintiff and Appellant, v. STATE DEPARTMENT OF HEALTH CARE SERVICES, Defendant and Respondent.\nCounsel\nMyers Urbatsch, Kevin Patrick Urbatsch and Lily Moallem for Plaintiff and Appellant.\nKamala D. Harris, Attorney General, Julie Weng-Gutierrez, Assistant Attorney General, Susan M. Carson, Hadara R. Stanton and Cheryl Lynn Feiner, Deputy Attorneys General, for Defendant and Respondent."
+  },
+  "file_name": "0607-01",
+  "first_page_order": 467,
+  "last_page_order": 478
+}

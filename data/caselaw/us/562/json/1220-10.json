@@ -1,0 +1,59 @@
+{
+  "id": 6020150,
+  "name": "Taylor v. Hale et al.",
+  "name_abbreviation": "Taylor v. Hale",
+  "decision_date": "2011-02-22",
+  "docket_number": "No. 10-819",
+  "first_page": "1220",
+  "last_page": "1220",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1220"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 69,
+    "ocr_confidence": 0.62,
+    "sha256": "8d28b35703ed52e65b2c9e43a40daf88c1b87b787768e30ed9e1ecb95b334bd8",
+    "simhash": "1:d0ecad2a9983f78e",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Taylor v. Hale et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-819.\nTaylor v. Hale et al."
+  },
+  "file_name": "1220-10",
+  "first_page_order": 1242,
+  "last_page_order": 1242
+}

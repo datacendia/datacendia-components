@@ -1,0 +1,59 @@
+{
+  "id": 12412926,
+  "name": "In re Discipline of Gargano",
+  "name_abbreviation": "In re Discipline of Gargano",
+  "decision_date": "2012-07-23",
+  "docket_number": "No. D-2684",
+  "first_page": "955",
+  "last_page": "955",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 955"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 40,
+    "char_count": 282,
+    "ocr_confidence": 0.655,
+    "sha256": "52dfc1d536f2f878cc7d5eb5ee33bf777f30173e0ebe1e7e65f29ecda722446c",
+    "simhash": "1:658b33b23febb74f",
+    "word_count": 51
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Gargano."
+    ],
+    "opinions": [
+      {
+        "text": "Paul A. Gar-gano, of Cambridge, Mass., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2684.\nIn re Discipline of Gargano."
+  },
+  "file_name": "0955-05",
+  "first_page_order": 859,
+  "last_page_order": 859
+}

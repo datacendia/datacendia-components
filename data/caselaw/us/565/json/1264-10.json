@@ -1,0 +1,59 @@
+{
+  "id": 12251831,
+  "name": "Starks v. Illinois",
+  "name_abbreviation": "Starks v. Illinois",
+  "decision_date": "2012-03-19",
+  "docket_number": "No. 11-8197",
+  "first_page": "1264",
+  "last_page": "1264",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1264"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.692,
+    "sha256": "dba957b33f95006d19fbfe5686fe7e52748ba843db1526317792a9de36aec886",
+    "simhash": "1:4bf9d2421423a72e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Starks v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-8197.\nStarks v. Illinois."
+  },
+  "file_name": "1264-10",
+  "first_page_order": 1346,
+  "last_page_order": 1346
+}

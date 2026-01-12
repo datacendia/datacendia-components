@@ -1,0 +1,59 @@
+{
+  "id": 5945711,
+  "name": "Taylor v. Conway et al.",
+  "name_abbreviation": "Taylor v. Conway",
+  "decision_date": "2011-03-21",
+  "docket_number": "No. 10-8840",
+  "first_page": "1297",
+  "last_page": "1297",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1297"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 70,
+    "ocr_confidence": 0.633,
+    "sha256": "fa74e8ad3e8bf4175016271b2aad505711c0c6a373a65239e9b9c76870044c2c",
+    "simhash": "1:b8c060f9190796d6",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Taylor v. Conway et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8840.\nTaylor v. Conway et al."
+  },
+  "file_name": "1297-03",
+  "first_page_order": 1319,
+  "last_page_order": 1319
+}

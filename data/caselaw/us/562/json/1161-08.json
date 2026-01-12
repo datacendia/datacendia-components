@@ -1,0 +1,59 @@
+{
+  "id": 6022464,
+  "name": "Hernandez-Perez v. United States",
+  "name_abbreviation": "Hernandez-Perez v. United States",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7784",
+  "first_page": "1161",
+  "last_page": "1161",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1161"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 81,
+    "ocr_confidence": 0.541,
+    "sha256": "40a795f08bd0d4f558c257c42fd776794def845a1ce424be6205a3ad32beb275",
+    "simhash": "1:0131e3a30f870854",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hernandez-Perez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7784.\nHernandez-Perez v. United States."
+  },
+  "file_name": "1161-08",
+  "first_page_order": 1183,
+  "last_page_order": 1183
+}

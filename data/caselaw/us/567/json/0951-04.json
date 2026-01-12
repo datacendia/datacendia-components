@@ -1,0 +1,59 @@
+{
+  "id": 12412717,
+  "name": "Johnson v. Illinois",
+  "name_abbreviation": "Johnson v. Illinois",
+  "decision_date": "2012-06-29",
+  "docket_number": "No. 10-10642",
+  "first_page": "951",
+  "last_page": "951",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 951"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.749,
+    "sha256": "be902def42af67cab22e86786bbdd2e6a1443755b6c9c177c7e26c4e426ca4df",
+    "simhash": "1:61b9f2df15a4ec2e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:38:45.282036+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Johnson v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10642.\nJohnson v. Illinois."
+  },
+  "file_name": "0951-04",
+  "first_page_order": 855,
+  "last_page_order": 855
+}

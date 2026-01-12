@@ -1,0 +1,76 @@
+{
+  "id": 12427316,
+  "name": "Marcello v. United States; and Calabrese v. United States",
+  "name_abbreviation": "Marcello v. United States",
+  "decision_date": "2012-12-10",
+  "docket_number": "No. 12-559; No. 12-7116",
+  "first_page": "1069",
+  "last_page": "1069",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1069"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "679 F. 3d 521",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3876745
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/679/0521-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 21,
+    "char_count": 149,
+    "ocr_confidence": 0.624,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2562755589225472
+    },
+    "sha256": "102e30b03c345fde9d507e2411a49ae280120b1da50b6cd88f4b740ac626a1ec",
+    "simhash": "1:054af7114385cf28",
+    "word_count": 25
+  },
+  "last_updated": "2024-02-27T23:44:49.194693+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Marcello v. United States; and Calabrese v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied. Reported below: 679 F. 3d 521.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-559.\nNo. 12-7116.\nMarcello v. United States; and Calabrese v. United States."
+  },
+  "file_name": "1069-05",
+  "first_page_order": 1145,
+  "last_page_order": 1145
+}

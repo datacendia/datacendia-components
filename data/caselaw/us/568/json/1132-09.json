@@ -1,0 +1,59 @@
+{
+  "id": 12429589,
+  "name": "Haugen v. Oregon",
+  "name_abbreviation": "Haugen v. Oregon",
+  "decision_date": "2013-01-14",
+  "docket_number": "No. 12-7403",
+  "first_page": "1132",
+  "last_page": "1132",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1132"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 64,
+    "ocr_confidence": 0.609,
+    "sha256": "aa03f7d52c5543bc1c14bc66c2d7345dc2f3991de8e2779fe1c8fa3303a5e841",
+    "simhash": "1:b268a202eb726466",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Haugen v. Oregon."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ore. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7403.\nHaugen v. Oregon."
+  },
+  "file_name": "1132-09",
+  "first_page_order": 1208,
+  "last_page_order": 1208
+}

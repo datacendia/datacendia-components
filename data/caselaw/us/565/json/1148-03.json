@@ -1,0 +1,59 @@
+{
+  "id": 12242129,
+  "name": "Pierce v. Woldenberg",
+  "name_abbreviation": "Pierce v. Woldenberg",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-568",
+  "first_page": "1148",
+  "last_page": "1148",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1148"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 84,
+    "ocr_confidence": 0.693,
+    "sha256": "9cc9bc986727d05b10b1b88bdc2a66c9ceabead329dffaf70b2952e8c8bb86a7",
+    "simhash": "1:38a40ad7d113f2ab",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pierce v. Woldenberg."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certio-rari before judgment denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-568.\nPierce v. Woldenberg."
+  },
+  "file_name": "1148-03",
+  "first_page_order": 1230,
+  "last_page_order": 1230
+}

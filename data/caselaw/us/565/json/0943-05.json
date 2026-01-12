@@ -1,0 +1,59 @@
+{
+  "id": 12227033,
+  "name": "Holmes v. East Cooper Community Hospital, Inc., et al.",
+  "name_abbreviation": "Holmes v. East Cooper Community Hospital, Inc.",
+  "decision_date": "2011-10-11",
+  "docket_number": "No. 11-125",
+  "first_page": "943",
+  "last_page": "943",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 943"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 101,
+    "ocr_confidence": 0.678,
+    "sha256": "50a52559aeb56910cd693112b7c1c83d35db9ad344ad3fd8a91369116c1d3b83",
+    "simhash": "1:90b1e07a489a05d4",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Holmes v. East Cooper Community Hospital, Inc., et al."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. S. C. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-125.\nHolmes v. East Cooper Community Hospital, Inc., et al."
+  },
+  "file_name": "0943-05",
+  "first_page_order": 1025,
+  "last_page_order": 1025
+}

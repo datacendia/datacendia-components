@@ -1,0 +1,59 @@
+{
+  "id": 5928826,
+  "name": "Myton v. United States",
+  "name_abbreviation": "Myton v. United States",
+  "decision_date": "2011-03-28",
+  "docket_number": "No. 10-9199",
+  "first_page": "912",
+  "last_page": "912",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 912"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.635,
+    "sha256": "d05d87e0e1b2c6907c8c0c4260bff20f58e3ae62bc64b75290a21522a3247759",
+    "simhash": "1:15dacb8b0f1b7148",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Myton v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9199.\nMyton v. United States."
+  },
+  "file_name": "0912-10",
+  "first_page_order": 938,
+  "last_page_order": 938
+}

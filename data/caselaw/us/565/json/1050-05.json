@@ -1,0 +1,102 @@
+{
+  "id": 12234662,
+  "name": "Williams v. Illinois",
+  "name_abbreviation": "Williams v. Illinois",
+  "decision_date": "2011-11-22",
+  "docket_number": "No. 10-8505",
+  "first_page": "1050",
+  "last_page": "1050",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1050"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "564 U. S. 1052",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        4335840,
+        12451107,
+        4331812,
+        12451109,
+        12451110,
+        5926887,
+        12451112,
+        5928009,
+        4334666,
+        12451113,
+        12451111,
+        12451114,
+        4335632,
+        4336920,
+        12451108,
+        4337599
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/564/1052-02",
+        "/l-ed-2d/180/0911-04",
+        "/us/564/1052-03",
+        "/l-ed-2d/180/0912-01",
+        "/l-ed-2d/180/0912-02",
+        "/us/564/1052-07",
+        "/l-ed-2d/180/0912-04",
+        "/us/564/1052-08",
+        "/us/564/1052-01",
+        "/l-ed-2d/180/0912-05",
+        "/l-ed-2d/180/0912-03",
+        "/l-ed-2d/180/0912-06",
+        "/us/564/1052-04",
+        "/us/564/1052-06",
+        "/l-ed-2d/180/0911-05",
+        "/us/564/1052-05"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 31,
+    "char_count": 212,
+    "ocr_confidence": 0.637,
+    "sha256": "426d5026a341570a8ae3d724ed8de45529ce02e9aab8598685b643a21702422f",
+    "simhash": "1:b08091238be7ce65",
+    "word_count": 34
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ill. [Certiorari granted, 564 U. S. 1052.] Motion of the Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8505.\nWilliams v. Illinois."
+  },
+  "file_name": "1050-05",
+  "first_page_order": 1132,
+  "last_page_order": 1132
+}

@@ -1,0 +1,94 @@
+{
+  "id": 12412941,
+  "name": "Chaidez v. United States",
+  "name_abbreviation": "Chaidez v. United States",
+  "decision_date": "2012-07-23",
+  "docket_number": "No. 11-820",
+  "first_page": "955",
+  "last_page": "955",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "567 U.S. 955"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "566 U. S. 974",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12212485,
+        12212422,
+        12212360,
+        12212555,
+        12212395,
+        12212461,
+        12212527,
+        12212370,
+        12212407,
+        12212440,
+        12212505,
+        12212383
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/566/0974-09",
+        "/us/566/0974-06",
+        "/us/566/0974-01",
+        "/us/566/0974-12",
+        "/us/566/0974-04",
+        "/us/566/0974-08",
+        "/us/566/0974-11",
+        "/us/566/0974-02",
+        "/us/566/0974-05",
+        "/us/566/0974-07",
+        "/us/566/0974-10",
+        "/us/566/0974-03"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 26,
+    "char_count": 165,
+    "ocr_confidence": 0.666,
+    "sha256": "6c188a61976b4db9ef9d4b0140d27f25e62ec07c209ae7f4bb6c7133c5ffb8b5",
+    "simhash": "1:0a09840a0dd55d2a",
+    "word_count": 27
+  },
+  "last_updated": "2024-02-27T23:46:21.325002+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Chaidez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. [Certiorari granted, 566 U. S. 974.] Motion of petitioner to dispense with printing the joint appendix granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-820.\nChaidez v. United States."
+  },
+  "file_name": "0955-07",
+  "first_page_order": 859,
+  "last_page_order": 859
+}

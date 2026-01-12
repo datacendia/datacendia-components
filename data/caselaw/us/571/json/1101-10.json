@@ -1,0 +1,68 @@
+{
+  "id": 12700005,
+  "name": "William ZUCK, petitioner, v. NEBRASKA.",
+  "name_abbreviation": "Zuck v. Neb.",
+  "decision_date": "2013-12-09",
+  "docket_number": "No. 13\u20137032.",
+  "first_page": "1101",
+  "last_page": "1101",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "571 U.S. 1101"
+    },
+    {
+      "type": "parallel",
+      "cite": "187 L. Ed. 2d 606"
+    },
+    {
+      "type": "parallel",
+      "cite": "134 S. Ct. 799"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 23,
+    "char_count": 178,
+    "sha256": "58857a05ecf06d5de7ff5e4eb34bb8a6c940b26c2e10cdf8ad77daea87895f7c",
+    "simhash": "1:68ff6685734006fd",
+    "word_count": 29
+  },
+  "last_updated": "2021-09-08T21:16:17.237805+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "William ZUCK, petitioner,\nv.\nNEBRASKA."
+    ],
+    "opinions": [
+      {
+        "text": "",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [
+      "Petition for writ of certiorari to the Court of Appeals of Nebraska denied."
+    ],
+    "corrections": "",
+    "head_matter": "William ZUCK, petitioner,\nv.\nNEBRASKA.\nNo. 13-7032.\nSupreme Court of the United States\nDec. 9, 2013.\nPetition for writ of certiorari to the Court of Appeals of Nebraska denied."
+  },
+  "file_name": "1101-10",
+  "first_page_order": 1101,
+  "last_page_order": 1101
+}

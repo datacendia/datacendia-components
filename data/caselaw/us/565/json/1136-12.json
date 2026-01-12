@@ -1,0 +1,59 @@
+{
+  "id": 12241845,
+  "name": "Soderman v. United States",
+  "name_abbreviation": "Soderman v. United States",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-7631",
+  "first_page": "1136",
+  "last_page": "1136",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1136"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.694,
+    "sha256": "7c368456962475104cd3c25f83edaa99fc9f7f9b38eda61ac0abe904b8534c46",
+    "simhash": "1:0532e6a32bfd0168",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Soderman v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7631.\nSoderman v. United States."
+  },
+  "file_name": "1136-12",
+  "first_page_order": 1218,
+  "last_page_order": 1218
+}

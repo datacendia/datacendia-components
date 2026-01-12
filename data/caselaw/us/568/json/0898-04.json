@@ -1,0 +1,59 @@
+{
+  "id": 12415379,
+  "name": "Pate v. Tennessee",
+  "name_abbreviation": "Pate v. Tennessee",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5162",
+  "first_page": "898",
+  "last_page": "898",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 898"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 11,
+    "char_count": 72,
+    "ocr_confidence": 0.663,
+    "sha256": "614ea42b3dc1a908151126eb83dfb0a8bb6535bd61863cdb07e13db9647dd2cd",
+    "simhash": "1:8061d5d46aac59ca",
+    "word_count": 11
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Pate v. Tennessee."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. Crim. App. Tenn. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5162.\nPate v. Tennessee."
+  },
+  "file_name": "0898-04",
+  "first_page_order": 974,
+  "last_page_order": 974
+}

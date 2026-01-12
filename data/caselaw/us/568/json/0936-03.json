@@ -1,0 +1,59 @@
+{
+  "id": 12417472,
+  "name": "Koontz v. St. Johns River Water Management District",
+  "name_abbreviation": "Koontz v. St. Johns River Water Management District",
+  "decision_date": "2012-10-05",
+  "docket_number": "No. 11-1447",
+  "first_page": "936",
+  "last_page": "936",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 936"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 15,
+    "char_count": 100,
+    "ocr_confidence": 0.631,
+    "sha256": "5f087e5dfadd06cb0ba1c20cbad554ed8cc095eb709a1db81648f1dbe6277c1d",
+    "simhash": "1:2d038323402008c3",
+    "word_count": 15
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Koontz v. St. Johns River Water Management District."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Fla. Certiorari granted.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-1447.\nKoontz v. St. Johns River Water Management District."
+  },
+  "file_name": "0936-03",
+  "first_page_order": 1012,
+  "last_page_order": 1012
+}

@@ -1,0 +1,59 @@
+{
+  "id": 5949859,
+  "name": "Dale v. United States",
+  "name_abbreviation": "Dale v. United States",
+  "decision_date": "2011-04-04",
+  "docket_number": "No. 10-7815",
+  "first_page": "918",
+  "last_page": "918",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 918"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 70,
+    "ocr_confidence": 0.576,
+    "sha256": "4d83a5f514ab6b2956cf277e2fb742d3dea0787947432953595f8a2bc676404d",
+    "simhash": "1:a4bbe6af0dbd15eb",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Dale v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7815.\nDale v. United States."
+  },
+  "file_name": "0918-13",
+  "first_page_order": 944,
+  "last_page_order": 944
+}

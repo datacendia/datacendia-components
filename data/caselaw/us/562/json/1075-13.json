@@ -1,0 +1,59 @@
+{
+  "id": 5968716,
+  "name": "Sagoes v. United States",
+  "name_abbreviation": "Sagoes v. United States",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 10-7204",
+  "first_page": "1075",
+  "last_page": "1075",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1075"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.623,
+    "sha256": "2792aa2098e7b8916ba9784a9922d648a418bb2495a3965d79c5cd764491c85d",
+    "simhash": "1:bdabca230aab945e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Sagoes v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7204.\nSagoes v. United States."
+  },
+  "file_name": "1075-13",
+  "first_page_order": 1097,
+  "last_page_order": 1097
+}

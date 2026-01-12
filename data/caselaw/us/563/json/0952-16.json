@@ -1,0 +1,59 @@
+{
+  "id": 5914958,
+  "name": "Garcia-Baraona v. United States",
+  "name_abbreviation": "Garcia-Baraona v. United States",
+  "decision_date": "2011-04-18",
+  "docket_number": "No. 10-9577",
+  "first_page": "952",
+  "last_page": "952",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 952"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 80,
+    "ocr_confidence": 0.598,
+    "sha256": "306675f6f90b6a135c2e5a2c02e8b12f8d999599b0e2bc9ddc1fe825871f9641",
+    "simhash": "1:054adb020e28140d",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Garcia-Baraona v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9577.\nGarcia-Baraona v. United States."
+  },
+  "file_name": "0952-16",
+  "first_page_order": 978,
+  "last_page_order": 978
+}

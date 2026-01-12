@@ -1,0 +1,59 @@
+{
+  "id": 12211533,
+  "name": "Garcia v. United States",
+  "name_abbreviation": "Garcia v. United States",
+  "decision_date": "2012-04-23",
+  "docket_number": "No. 11-9502",
+  "first_page": "968",
+  "last_page": "968",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 968"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.621,
+    "sha256": "739fe35560ffed304e557e795c9242b31d3e3159f3a9965cccf6da9d5f0cad25",
+    "simhash": "1:872ad3820fae9d2f",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Garcia v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9502.\nGarcia v. United States."
+  },
+  "file_name": "0968-12",
+  "first_page_order": 844,
+  "last_page_order": 844
+}

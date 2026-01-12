@@ -1,0 +1,59 @@
+{
+  "id": 5997913,
+  "name": "Venegas v. Texas",
+  "name_abbreviation": "Venegas v. Texas",
+  "decision_date": "2010-10-12",
+  "docket_number": "No. 10-5826",
+  "first_page": "968",
+  "last_page": "968",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 968"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.694,
+    "sha256": "9a2b8600c988b6391d2d39ad6486ebe305ebe6cb47c954d6d1136926f1ba6902",
+    "simhash": "1:ab51d9c78448e31b",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Venegas v. Texas."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Tex., 13th Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5826.\nVenegas v. Texas."
+  },
+  "file_name": "0968-08",
+  "first_page_order": 990,
+  "last_page_order": 990
+}

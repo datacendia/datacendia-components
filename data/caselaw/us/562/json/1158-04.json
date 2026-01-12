@@ -1,0 +1,59 @@
+{
+  "id": 5962916,
+  "name": "Gray v. United States",
+  "name_abbreviation": "Gray v. United States",
+  "decision_date": "2011-01-10",
+  "docket_number": "No. 10-7670",
+  "first_page": "1158",
+  "last_page": "1158",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1158"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 71,
+    "ocr_confidence": 0.597,
+    "sha256": "7bda5b53d52c1583919af418a73c68180f98b23a3f574ae7445e21b27028d7f3",
+    "simhash": "1:83aa984bcab51109",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gray v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Cer-tiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7670.\nGray v. United States."
+  },
+  "file_name": "1158-04",
+  "first_page_order": 1180,
+  "last_page_order": 1180
+}

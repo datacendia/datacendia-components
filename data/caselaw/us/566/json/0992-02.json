@@ -1,0 +1,59 @@
+{
+  "id": 12216426,
+  "name": "Salcedo v. Illinois",
+  "name_abbreviation": "Salcedo v. Illinois",
+  "decision_date": "2012-05-14",
+  "docket_number": "No. 11-9087",
+  "first_page": "992",
+  "last_page": "992",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 992"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 78,
+    "ocr_confidence": 0.597,
+    "sha256": "b299d45b893ebe3e10d6272802c997a114ddf078b8f684360c4bdd3b97f431a3",
+    "simhash": "1:c8b9dade1535ee6e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Salcedo v. Illinois."
+    ],
+    "opinions": [
+      {
+        "text": "App. Ct. Ill., 1st Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9087.\nSalcedo v. Illinois."
+  },
+  "file_name": "0992-02",
+  "first_page_order": 868,
+  "last_page_order": 868
+}

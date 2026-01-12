@@ -1,0 +1,835 @@
+{
+  "id": 12519856,
+  "name": "Frieda AARON, et al., Plaintiffs-Appellants, v. Maureen O'CONNOR and Mark R. Schweikert, in their Official Capacities, Defendants-Appellees.",
+  "name_abbreviation": "Aaron v. O'Connor",
+  "decision_date": "2019-01-30",
+  "docket_number": "No. 18-3452",
+  "first_page": "1010",
+  "last_page": "1021",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "914 F.3d 1010"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "6th Cir.",
+    "id": 21296,
+    "name": "United States Court of Appeals for the Six Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "76 F.3d 508",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        7630852
+      ],
+      "year": 1996,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/76/0508-01"
+      ]
+    },
+    {
+      "cite": "887 F.Supp. 773",
+      "category": "reporters:federal",
+      "reporter": "F. Supp.",
+      "case_ids": [
+        460457
+      ],
+      "weight": 2,
+      "year": 1995,
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-supp/887/0773-01"
+      ]
+    },
+    {
+      "cite": "570 F.3d 775",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3663711
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "776",
+          "parenthetical": "noting that preclusion of a suit based on res judicata requires \"a final decision on the merits\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/570/0775-01"
+      ]
+    },
+    {
+      "cite": "531 U.S. 497",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9505781
+      ],
+      "weight": 3,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "505",
+          "parenthetical": "\"The primary meaning of 'dismissal without prejudice,' we think, is dismissal without barring the plaintiff from returning later, to the same court, with the same underlying claim. That will also ordinarily (though not always"
+        },
+        {
+          "parenthetical": "\"The primary meaning of 'dismissal without prejudice,' we think, is dismissal without barring the plaintiff from returning later, to the same court, with the same underlying claim. That will also ordinarily (though not always"
+        },
+        {
+          "parenthetical": "\"The primary meaning of 'dismissal without prejudice,' we think, is dismissal without barring the plaintiff from returning later, to the same court, with the same underlying claim. That will also ordinarily (though not always"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/531/0497-01"
+      ]
+    },
+    {
+      "cite": "594 F.2d 705",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        512776
+      ],
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "708"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/594/0705-01"
+      ]
+    },
+    {
+      "cite": "160 L.Ed.2d 120",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "year": 2004,
+      "opinion_index": 0
+    },
+    {
+      "cite": "125 S.Ct. 110",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "year": 2004,
+      "opinion_index": 0
+    },
+    {
+      "cite": "543 U.S. 872",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5930119,
+        5892105,
+        5946666,
+        3442158,
+        5924912,
+        5975633,
+        5974320,
+        5869269,
+        5862648,
+        5913945,
+        3434584,
+        5885534
+      ],
+      "year": 2004,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/543/0872-08",
+        "/us/543/0872-05",
+        "/us/543/0872-07",
+        "/us/543/0872-09",
+        "/us/543/0872-06",
+        "/us/543/0872-02",
+        "/us/543/0872-12",
+        "/us/543/0872-03",
+        "/us/543/0872-11",
+        "/us/543/0872-01",
+        "/us/543/0872-10",
+        "/us/543/0872-04"
+      ]
+    },
+    {
+      "cite": "364 F.3d 27",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9269914
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/364/0027-01"
+      ]
+    },
+    {
+      "cite": "448 F.3d 349",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3112903
+      ],
+      "year": 2006,
+      "pin_cites": [
+        {
+          "page": "368"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/448/0349-01"
+      ]
+    },
+    {
+      "cite": "421 U.S. 117",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        541909
+      ],
+      "weight": 3,
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "125"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/421/0117-01"
+      ]
+    },
+    {
+      "cite": "556 U.S. 868",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3653867
+      ],
+      "weight": 3,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "parenthetical": "finding that the Due Process Clause required recusal of a justice on the West Virginia Supreme Court of Appeals and reversing and remanding the case"
+        },
+        {
+          "parenthetical": "finding that the Due Process Clause required recusal of a justice on the West Virginia Supreme Court of Appeals and reversing and remanding the case"
+        },
+        {
+          "parenthetical": "finding that the Due Process Clause required recusal of a justice on the West Virginia Supreme Court of Appeals and reversing and remanding the case"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/556/0868-01"
+      ]
+    },
+    {
+      "cite": "442 U.S. 415",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1531882
+      ],
+      "weight": 5,
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "432"
+        },
+        {
+          "page": "424"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/442/0415-01"
+      ]
+    },
+    {
+      "cite": "331 F.3d 524",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9112193
+      ],
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "530"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/331/0524-01"
+      ]
+    },
+    {
+      "cite": "457 U.S. 423",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6189854
+      ],
+      "weight": 3,
+      "year": 1982,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/457/0423-01"
+      ]
+    },
+    {
+      "cite": "151 F. App'x 1",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        1591423
+      ],
+      "weight": 3,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "2"
+        },
+        {
+          "page": "2"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/151/0001-01"
+      ]
+    },
+    {
+      "cite": "2014 WL 1653066",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "*5",
+          "parenthetical": "concluding that abstention under Younger was appropriate, reasoning that \"[i]n asking [the federal district court] to order the recusal of [the state court judge], plaintiff indirectly challenges Pennsylvania courts' process for judicial recusals\""
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "468 F. App'x 910",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        3934308
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "911",
+          "parenthetical": "affirming district court's dismissal on Younger grounds of suit against state court judge who \"refused to recuse himself in a pending state court eviction action involving Plaintiffs\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/468/0910-01"
+      ]
+    },
+    {
+      "cite": "4 F. App'x 276",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        160716
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "279",
+          "parenthetical": "concluding that Younger abstention applied where a plaintiff \"asked the district court to enter an order preventing [a certain state judge] from presiding over any cases involving [the plaintiff]\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/4/0276-01"
+      ]
+    },
+    {
+      "cite": "401 F.3d 411",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9173389
+      ],
+      "weight": 2,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "419",
+          "parenthetical": "concluding that Younger demanded abstention where plaintiffs sought a federal-court declaration that the failure of four justices of the Michigan Supreme Court to recuse themselves from an ongoing state-court cases violated the plaintiffs' constitutional rights"
+        },
+        {
+          "page": "419",
+          "parenthetical": "\"Plaintiffs had an adequate opportunity to raise their constitutional challenge, as evidenced by the fact that their lengthy brief in support of their motion to recuse contained the same arguments and proofs as presented in their complaint filed in federal court.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/401/0411-01"
+      ]
+    },
+    {
+      "cite": "476 F. App'x 71",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        5745027
+      ],
+      "weight": 2,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "72-73",
+          "parenthetical": "abstaining under Younger where a plaintiff sought \"an injunction to direct the judge who presided over [his] divorce to remove himself from the case,\" alleging that the judge was biased against him"
+        },
+        {
+          "page": "73",
+          "parenthetical": "concluding that there was \"no dispute that the state appellate process gave [the plaintiff] an adequate opportunity to raise his grievances concerning [the judge presiding over his divorce in state court]\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/476/0071-01"
+      ]
+    },
+    {
+      "cite": "420 U.S. 592",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11644301
+      ],
+      "weight": 7,
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "601"
+        },
+        {
+          "page": "611"
+        },
+        {
+          "page": "611"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/420/0592-01"
+      ]
+    },
+    {
+      "cite": "430 U.S. 327",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12124101
+      ],
+      "weight": 9,
+      "year": 1977,
+      "pin_cites": [
+        {
+          "page": "328-30"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/430/0327-01"
+      ]
+    },
+    {
+      "cite": "491 U.S. 350",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6214100
+      ],
+      "weight": 9,
+      "year": 1989,
+      "pin_cites": [
+        {
+          "page": "367"
+        },
+        {
+          "page": "368"
+        },
+        {
+          "page": "368"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/491/0350-01"
+      ]
+    },
+    {
+      "cite": "107 S.Ct. 1519",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        6208386,
+        6124707
+      ],
+      "weight": 6,
+      "year": 1987,
+      "pin_cites": [
+        {
+          "parenthetical": "quoting Younger v. Harris , 401 U.S. 37, 44, 91 S.Ct. 746, 27 L.Ed.2d 669 (1971) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/481/0001-01",
+        "/br/71/1519-01"
+      ]
+    },
+    {
+      "cite": "481 U.S. 1",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6208386
+      ],
+      "weight": 5,
+      "year": 1987,
+      "pin_cites": [
+        {
+          "page": "10",
+          "parenthetical": "quoting Younger v. Harris , 401 U.S. 37, 44, 91 S.Ct. 746, 27 L.Ed.2d 669 (1971) "
+        },
+        {
+          "parenthetical": "quoting Younger v. Harris , 401 U.S. 37, 44, 91 S.Ct. 746, 27 L.Ed.2d 669 (1971) "
+        },
+        {
+          "page": "6"
+        },
+        {
+          "page": "14"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/481/0001-01"
+      ]
+    },
+    {
+      "cite": "484 U.S. 305",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        601398
+      ],
+      "weight": 3,
+      "year": 1988,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/484/0305-01"
+      ]
+    },
+    {
+      "cite": "847 F.2d 310",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1778397
+      ],
+      "year": 1988,
+      "pin_cites": [
+        {
+          "page": "311",
+          "parenthetical": "finding the first prong satisfied where the plaintiff sought an injunction requiring her name to be placed on an electoral ballot, but the election had already passed by the time the court of appeals heard her claim"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/847/0310-01"
+      ]
+    },
+    {
+      "cite": "423 U.S. 147",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6175396
+      ],
+      "weight": 3,
+      "year": 1975,
+      "pin_cites": [
+        {
+          "page": "149"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/423/0147-01"
+      ]
+    },
+    {
+      "cite": "165 L.Ed.2d 278",
+      "category": "reporters:federal",
+      "reporter": "L. Ed. 2d",
+      "year": 2006,
+      "opinion_index": 0
+    },
+    {
+      "cite": "126 S.Ct. 2352",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "year": 2006,
+      "opinion_index": 0
+    },
+    {
+      "cite": "547 U.S. 1178",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "year": 2006,
+      "opinion_index": 0
+    },
+    {
+      "cite": "430 F.3d 368",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1594184
+      ],
+      "weight": 3,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "371"
+        },
+        {
+          "page": "371"
+        },
+        {
+          "page": "371"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/430/0368-01"
+      ]
+    },
+    {
+      "cite": "395 U.S. 486",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        1772164
+      ],
+      "weight": 3,
+      "year": 1969,
+      "pin_cites": [
+        {
+          "page": "496"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/395/0486-01"
+      ]
+    },
+    {
+      "cite": "440 U.S. 625",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6187104
+      ],
+      "weight": 3,
+      "year": 1979,
+      "pin_cites": [
+        {
+          "page": "631",
+          "parenthetical": "quoting Powell v. McCormack , 395 U.S. 486, 496, 89 S.Ct. 1944, 23 L.Ed.2d 491 (1969) "
+        },
+        {
+          "parenthetical": "quoting Powell v. McCormack , 395 U.S. 486, 496, 89 S.Ct. 1944, 23 L.Ed.2d 491 (1969) "
+        },
+        {
+          "parenthetical": "quoting Powell v. McCormack , 395 U.S. 486, 496, 89 S.Ct. 1944, 23 L.Ed.2d 491 (1969) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/440/0625-01"
+      ]
+    },
+    {
+      "cite": "134 S.Ct. 584",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        12584672,
+        12702001
+      ],
+      "weight": 11,
+      "year": 2013,
+      "opinion_index": 0,
+      "case_paths": [
+        "/s-ct/134/0584-01",
+        "/us/571/0069-01"
+      ]
+    },
+    {
+      "cite": "571 U.S. 69",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12702001
+      ],
+      "weight": 7,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "72"
+        },
+        {
+          "page": "72"
+        },
+        {
+          "page": "73"
+        },
+        {
+          "page": "72"
+        },
+        {
+          "page": "79"
+        },
+        {
+          "page": "81"
+        },
+        {
+          "page": "81"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/571/0069-01"
+      ]
+    },
+    {
+      "cite": "788 F.2d 328",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1569634
+      ],
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "330"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/788/0328-01"
+      ]
+    },
+    {
+      "cite": "860 F.3d 365",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12276194
+      ],
+      "weight": 3,
+      "year": 2017,
+      "pin_cites": [
+        {
+          "page": "368"
+        },
+        {
+          "page": "369"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/860/0365-01"
+      ]
+    },
+    {
+      "cite": "401 U.S. 37",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11711728
+      ],
+      "weight": 6,
+      "year": 1971,
+      "pin_cites": [
+        {
+          "page": "44"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/401/0037-01"
+      ]
+    },
+    {
+      "cite": "42 U.S.C. \u00a7 1983",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1260,
+    "char_count": 32288,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2591674263634675
+    },
+    "sha256": "e1e921c84d9bae1afb0ddcb133a00b18ca158cbec538ff42bcad3bf60c35b960",
+    "simhash": "1:aaa2741eaabb0e5b",
+    "word_count": 5139
+  },
+  "last_updated": "2024-02-27T18:46:21.348714+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before: MERRITT, GUY, and MOORE, Circuit Judges."
+    ],
+    "parties": [
+      "Frieda AARON, et al., Plaintiffs-Appellants,\nv.\nMaureen O'CONNOR and Mark R. Schweikert, in their Official Capacities, Defendants-Appellees."
+    ],
+    "opinions": [
+      {
+        "text": "KAREN NELSON MOORE, Circuit Judge.\nA large group of plaintiffs brought medical malpractice claims in Ohio state court against a doctor who operated on them and against several hospitals where he worked. The plaintiffs allege that the judge presiding over their case, Judge Mark R. Schweikert, and Chief Justice Maureen O'Connor of the Ohio Supreme Court were biased against their claims. In accordance with Ohio law, they filed affidavits of disqualification against Judge Schweikert, and requested that Chief Justice O'Connor recuse herself from deciding Judge Schweikert's disqualification. Soon thereafter, they filed the instant suit in the United States District Court for the Southern District of Ohio, asking that the court enjoin Chief Justice O'Connor from ruling on the affidavit of disqualification pertaining to Judge Schweikert and enjoin Judge Schweikert from taking any action in their cases before the affidavit of disqualification was ruled upon. Because the Younger abstention doctrine applies to this situation, we AFFIRM the district court's decision to abstain from hearing the plaintiffs' claims and dismiss the case. However, we REMAND so that the district court can amend its order to dismiss the case without prejudice.\nI. BACKGROUND\nThe plaintiffs, former patients who underwent back surgery with Dr. Abubakar Atiq Durrani, M.D., brought suit in Ohio state courts against Durrani and several hospitals in the Cincinnati area seeking tort damages for medical malpractice. R. 1 (Compl. at 7) (Page ID #7). Numerous cases, involving over 500 plaintiffs, have been litigated for over five years in state courts before several judges. Id . at 1, 7, 20-25 (Page ID #1, 7, 20-25). The plaintiffs allege that Justice Maureen O'Connor, the Chief Justice of the Supreme Court of Ohio, eventually appointed Judge Mark R. Schweikert, a Hamilton County Court of Common Pleas Judge, to oversee the Durrani cases. Appellants Br. at 4; R. 1 (Compl. at 15, 35) (Page ID #15, 35). The plaintiffs' complaint expresses their disagreement with several of Judge Schweikert's decisions regarding the litigation and alleges that Chief Justice O'Connor \"has informed and does inform Judge Mark Schweikert how to rule on issues before him and he has followed her orders.\" Id . at 25 (Page ID #25). Due to their perception that Judge Schweikert and Chief Justice O'Connor were biased against them and that that bias was impacting the litigation, on December 15, 2017, the plaintiffs' counsel filed an \"Affidavit of Disqualification of Chief Justice Maureen O'Connor and Judge Mark Schweikert\" with the Clerk of the Supreme Court of Ohio. R. 1-1 (Aff. of Disqualification) (Page ID #55). The affidavit alleged that Chief Justice O'Connor and Judge Schweikert have \"a bias and a prejudice against Plaintiffs and their claims.\" Id . (Page ID #56).\nOhio Revised Code \u00a7 2701.03 provides for the disqualification of the judge assigned to a state-court case in certain circumstances. \"If a judge of the court of common pleas ... allegedly is related to or has a bias or prejudice for or against a party to a proceeding pending before the court ... the party's counsel may file an affidavit of disqualification with the clerk of the supreme court.\" OHIO REV. CODE \u00a7 2701.03(A). The affidavit must include \"specific allegations on which the claim of interest, bias, prejudice, or disqualification is based and the facts to support each of those allegations.\" OHIO REV. CODE \u00a7 2701.03(B)(1). Filing of the affidavit \"deprives the judge against whom the affidavit was filed of any authority to preside in the proceeding until the chief justice of the supreme court, or a justice of the supreme court designated by the chief justice, rules on the affidavit.\" OHIO REV. CODE \u00a7 2701.03(D)(1).\nThe plaintiffs' affidavit of disqualification also argued that Chief Justice O'Connor should not be permitted to decide Judge Schweikert's disqualification because of the plaintiffs' allegation that she herself is biased against them. Ohio Supreme Court Rule of Practice \u00a7 4.04 provides for the disqualification and recusal of state supreme court justices in certain circumstances. Section 4.04(B)(1) provides that \"[a] party to a case pending before the [Ohio] Supreme Court ... may request the recusal of a justice by filing a request with the Clerk of the [Ohio] Supreme Court.\" The request must be supported by an affidavit explaining why the recusal is requested and including factual support. Ohio S. Ct. Prac. R. \u00a7 4.04(B)(1). Then, \"[t]he justice named in the request shall submit a written response to the Clerk indicating whether the justice will recuse from the case.\" The Clerk shall provide the parties with the response. Ohio S. Ct. Prac. R. \u00a7 4.04(C).\nOn December 18, 2017, three days after filing their affidavit with the Clerk of the Supreme Court of Ohio, the plaintiffs filed suit against Chief Justice O'Connor and Judge Schweikert in federal district court alleging due process violations under 42 U.S.C. \u00a7 1983. They sought an injunction preventing Chief Justice O'Connor from ruling on their earlier-filed affidavit of disqualification and preventing Judge Schweikert \"from taking any action on their cases\" before the affidavit of disqualification is ruled upon. R. 1 (Compl. at 2) (Page ID #2). It appears that the injunction that the plaintiffs sought against Judge Schweikert merely asked the federal district court to enjoin him from violating Ohio Revised Code \u00a7 2701.03(D)(1), which deprived him of authority to continue presiding over the state case until the affidavit of disqualification was ruled upon. The Supreme Court of Ohio appears to have sought to comply with Ohio Revised Code \u00a7 2701.03(D)(1) by issuing its December 20, 2017 letter to Judge Schweikert informing him of the affidavit that had been filed seeking his disqualification and instructing that \"no further judicial rulings should be made by [him] until the affidavit has been ruled on by Chief Justice Maureen O'Connor or a justice of the Ohio Supreme Court designated by the chief justice ....\" R. 29-1 (Page ID #1554).\nOn December 27, 2017, the district court informed the parties that it intended to rule on the preliminary issue of abstention under Younger v. Harris , 401 U.S. 37, 91 S.Ct. 746, 27 L.Ed.2d 669 (1971), before addressing the merits of the complaint. R. 34 (Op. and Order) (Page ID #1755). Accordingly, the parties briefed the court on whether Younger abstention applies and the court heard oral arguments on the issue. Id . On January 26, 2018, the district court held that Younger abstention applied and dismissed the federal case with prejudice. Id . at 10 (Page ID #1764). The plaintiffs moved to alter or amend the judgment of the district court. R. 36 (Pl. Mot. to Alter or Amend) (Page ID #1766). The district court denied the plaintiffs' motion to alter or amend its judgment on April 13, 2018. R. 47 (Order) (Page ID #2090). Plaintiffs then timely filed their notice of appeal. R. 48 (Notice of Appeal) (Page ID #2093).\nDuring the pendency of their federal suit, the plaintiffs filed in state court additional affidavits of disqualification against Judge Schweikert. O'Connor Br. at 5. After the district court's original dismissal of the case, Chief Justice O'Connor denied the plaintiffs' affidavits of disqualification on February 5, 2018. Schweikert Br. at 3. The plaintiffs then filed additional affidavits seeking the disqualification of Judge Schweikert. Schweikert Br. at 3. On February 26, 2018, Chief Justice O'Connor denied those additional affidavits of disqualification. Id .\nII. DISCUSSION\nA. Standard of Review\nWe review de novo the district court's judgment abstaining from hearing a case under the Younger doctrine. Doe v. Univ. of Kentucky , 860 F.3d 365, 368 (6th Cir. 2017).\nB. Mootness\nDefendant Schweikert argues that the plaintiffs' claims are moot because \"[s]ince the filing of their Motion for injunctive relief, Chief Justice O'Connor has ruled upon, and summarily dismissed, seventeen Affidavits of Disqualification filed by Plaintiffs' [sic] against Judge Schweikert and Judge Schweikert is currently presiding over the underlying medical malpractice actions involving the Plaintiffs.\" Schweikert Br. at 20. We address mootness before we address Younger abstention because mootness is a jurisdictional issue. See Rettig v. Kent City Sch. Dist. , 788 F.2d 328, 330 (6th Cir. 1986). If a case is moot, the \"case or controversy\" requirement of Article III of the Constitution is not satisfied and we do not have jurisdiction to hear the case. Id . The abstention doctrines, however, assume jurisdiction but decline to exercise it in limited circumstances. See, e.g., Sprint Commc'ns, Inc. v. Jacobs , 571 U.S. 69, 72, 134 S.Ct. 584, 187 L.Ed.2d 505 (2013).\n\"[A] case is moot when the issues presented are no longer 'live' or the parties lack a legally cognizable interest in the outcome.\" Cty. of Los Angeles v. Davis , 440 U.S. 625, 631, 99 S.Ct. 1379, 59 L.Ed.2d 642 (1979) (quoting Powell v. McCormack , 395 U.S. 486, 496, 89 S.Ct. 1944, 23 L.Ed.2d 491 (1969) ). The plaintiffs argue that the case should not be considered moot because it falls under an exception that allows for judicial review when \"the challenged activity is capable of repetition, yet evading review.\" Reply Br. at 7-9 (quoting Lawrence v. Blackwell , 430 F.3d 368, 371 (6th Cir. 2005), cert. denied , 547 U.S. 1178, 126 S.Ct. 2352, 165 L.Ed.2d 278 (2006) ). \"This exception applies when '(1) the challenged action was in its duration too short to be fully litigated prior to its cessation or expiration, and (2) there was a reasonable expectation that the same complaining party would be subjected to the same action again.' \" Lawrence , 430 F.3d at 371 (quoting Weinstein v. Bradford , 423 U.S. 147, 149, 96 S.Ct. 347, 46 L.Ed.2d 350 (1975) ). Because the plaintiffs assert that this exception to the normal mootness rule applies, they bear the burden of demonstrating that both criteria are met. See id .\nThe plaintiffs have carried their burden and satisfied both prongs. First, the challenged action was completed nearly immediately after the district court entered judgment, and before the case could reach the court of appeals. The district court decided to abstain from hearing the case on January 26, 2018. The plaintiffs filed their motion to alter judgment on February 5, 2018. Chief Justice O'Connor denied the affidavits of disqualification on the same day, ruling on them herself (rather than deferring to another justice) and concluding that Judge Schweikert could continue to preside over the litigation. Therefore, her challenged action (failing to recuse herself from ruling on the affidavits for Judge Schweikert's disqualification) had already been completed before its validity could be fully litigated on appeal in this court. See Speer v. City of Oregon, 847 F.2d 310, 311 (6th Cir. 1988) (finding the first prong satisfied where the plaintiff sought an injunction requiring her name to be placed on an electoral ballot, but the election had already passed by the time the court of appeals heard her claim). The second prong is satisfied if \"the controversy [is] capable of repetition and not ... whether the claimant ha[s] demonstrated that a recurrence of the dispute [is] more probable than not.\" Lawrence , 430 F.3d at 371 (quoting Honig v. Doe , 484 U.S. 305, 319 n.6, 108 S.Ct. 592, 98 L.Ed.2d 686 (1988) ) (emphasis in original). There is a reasonable expectation that the plaintiffs will file another affidavit of disqualification for Judge Schweikert, request the recusal of Chief Justice O'Connor in ruling on it, and still have the Ohio Chief Justice determine the merit of the affidavit of disqualification. The plaintiffs have already filed additional affidavits of disqualification and the Ohio Chief Justice has denied them. Schweikert Br. at 3. The state litigation is ongoing, and the situation is certainly capable of repeating itself.\nC. Younger Analysis\nWe generally \"are obliged to decide cases within the scope of federal jurisdiction.\" Sprint , 571 U.S. at 72, 134 S.Ct. 584. However, in certain circumstances, allowing a federal suit to proceed threatens \"undue interference with state proceedings,\" and the proper course is for the federal court to abstain from entertaining the action. Id . ; see Pennzoil Co. v. Texaco Inc. , 481 U.S. 1, 10, 107 S.Ct. 1519, 95 L.Ed.2d 1 (1987) (quoting Younger v. Harris , 401 U.S. 37, 44, 91 S.Ct. 746, 27 L.Ed.2d 669 (1971) ). The Younger breed of abstention requires abstention in three different circumstances outlined in New Orleans Public Service, Inc. v. Council of New Orleans (\"NOPSI\") , 491 U.S. 350, 109 S.Ct. 2506, 105 L.Ed.2d 298 (1989). The Supreme Court has noted that these three categories are the \"exception[ ]\" rather than the rule. Sprint , 571 U.S. at 73, 134 S.Ct. 584 (quoting NOPSI , 491 U.S. at 367, 109 S.Ct. 2506 ). First, we may abstain under Younger \"when there is an ongoing state criminal prosecution.\" Doe , 860 F.3d at 369. Second, we may abstain when there is a civil enforcement proceeding that is \"akin to [a] criminal prosecution[ ].\" Sprint , 571 U.S. at 72, 134 S.Ct. 584. Third, we may abstain when there is a \"civil proceeding[ ] involving certain orders that are uniquely in furtherance of the state courts' ability to perform their judicial functions.\" NOPSI , 491 U.S. at 368, 109 S.Ct. 2506.\nThe prototypical examples of situations falling within this third category are Juidice v. Vail , 430 U.S. 327, 97 S.Ct. 1211, 51 L.Ed.2d 376 (1977), and Pennzoil . In Juidice , a state-court judgment debtor filed suit in federal court against a state-court justice asking the federal court to enjoin the state-court justice from enforcing the state contempt statute against him.\n430 U.S. at 328-30, 97 S.Ct. 1211. The Supreme Court concluded that Younger abstention applied, deeming the \"vital consideration\" to be \"the notion of 'comity,' that is, a proper respect for state functions ....\" Id . at 334, 97 S.Ct. 1211 (quoting Huffman v. Pursue, Ltd. , 420 U.S. 592, 601, 95 S.Ct. 1200, 43 L.Ed.2d 482 (1975) ) (citation and quotation marks omitted). Federal abstention was proper, avoiding intrusion into \"the contempt process, through which [the state] vindicates the regular operation of its judicial system.\" Id . at 335, 97 S.Ct. 1211. In Pennzoil , Texaco filed a suit in federal court seeking to enjoin Pennzoil from enforcing a jury verdict rendered against Texaco by a Texas state court. 481 U.S. at 6, 107 S.Ct. 1519. The Supreme Court held that abstention under Younger was appropriate there as well, consistent with its repeated recognition \"that the States have important interests in administering certain aspects of their judicial systems.\" Id . at 12-13, 107 S.Ct. 1519. The Court determined that the Texas state court's ability to enforce its own jury verdicts was necessary not only \"to vindicate and preserve the private interests of competing litigants,\" but also to \"stand[ ] in aid of the authority of the judicial system, so that its orders and judgments are not rendered nugatory.\" Id . at 13, 107 S.Ct. 1519 (quoting Juidice , 430 U.S. at 336 n.12, 97 S.Ct. 1211 ).\nWe conclude that the ability of the courts of the State of Ohio to determine when recusal of a judge or justice is appropriate and to administer the recusal decision process in accordance with state law operates \"uniquely in furtherance of the state courts' ability to perform their judicial functions.\" NOPSI , 491 U.S. at 368, 109 S.Ct. 2506. In previous decisions, we have held that Younger abstention applies under the third NOPSI category where plaintiffs sought federal injunctions requiring the recusal of state-court judges. Shafizadeh v. Bowles , 476 F. App'x 71, 72-73 (6th Cir. 2012) (abstaining under Younger where a plaintiff sought \"an injunction to direct the judge who presided over [his] divorce to remove himself from the case,\" alleging that the judge was biased against him); Gilbert v. Ferry , 401 F.3d 411, 419 (6th Cir. 2005) (concluding that Younger demanded abstention where plaintiffs sought a federal-court declaration that the failure of four justices of the Michigan Supreme Court to recuse themselves from an ongoing state-court cases violated the plaintiffs' constitutional rights); Bodell v. McDonald , 4 F. App'x 276, 279 (6th Cir. 2001) (concluding that Younger abstention applied where a plaintiff \"asked the district court to enter an order preventing [a certain state judge] from presiding over any cases involving [the plaintiff]\"); see also Strand v. Dawson , 468 F. App'x 910, 911 (10th Cir. 2012) (affirming district court's dismissal on Younger grounds of suit against state court judge who \"refused to recuse himself in a pending state court eviction action involving Plaintiffs\"); Thomas v. Piccione , No. 13-425, 2014 WL 1653066, at *5 (W.D. Pa. Apr. 24, 2014) (concluding that abstention under Younger was appropriate, reasoning that \"[i]n asking [the federal district court] to order the recusal of [the state court judge], plaintiff indirectly challenges Pennsylvania courts' process for judicial recusals\").\nThe plaintiffs here argue for a narrow construction of the third NOPSI category, positing that because \"[h]ere there was no order or judgment of an Ohio court that will be implicated by this Court's exercise of jurisdiction,\" Younger abstention cannot apply. Appellants Br. at 13, 16. Defendants counter that the plaintiffs propose an overly narrow reading of the third category that cannot be correct due to the Supreme Court's decision in Pennzoil . O'Connor Br.\nat 16. The defendants offer the truer interpretation of Younger precedent.\nIn Pennzoil , Texaco filed its federal suit before the Texas court entered judgment for Pennzoil, asking the federal court \"to enjoin Pennzoil from taking any action to enforce the judgment\" because of the alleged unconstitutionality of Texas's \"judgment enforcement procedures.\" 481 U.S. at 6 & n.5, 107 S.Ct. 1519. Texaco's federal suit sought to prevent the state court from taking a specific legal action, not merely from enforcing a preexisting order. The same is true of the plaintiffs' suit here. In articulating the third NOPSI category, the Supreme Court has cited Pennzoil as an illustrative example, implicitly validating Younger abstention where a state-court's order had not yet issued. See Sprint , 571 U.S. at 79, 134 S.Ct. 584 (citing Pennzoil as involving proceedings that \"touch[ed] on a state court's ability to perform its judicial function\"). Therefore, we do not read the third category so narrowly as to preclude Younger abstention when the state court has not yet issued an order. See also Chalupowski v. Berry , 151 F. App'x 1, 2 (1st Cir. 2005) (affirming the district court's dismissal on Younger grounds where the \"Appellants asked the federal court to order the defendant, a state court appellate judge before whom a motion for contempt was then the only pending matter, to recuse herself 'from further hearing in this matter' \") (emphasis added).\nSprint dictates that once we have determined that a case falls into a NOPSI category in which Younger abstention may be proper, we next analyze the case \"using a three-factor test laid out in Middlesex County Ethics Committee v. Garden State Bar Ass'n , 457 U.S. 423, 102 S.Ct. 2515, 73 L.Ed.2d 116 (1982).\" Doe , 860 F.3d at 369 (citing Sprint , 571 U.S. at 81, 134 S.Ct. 584 ). If \"(1) state proceedings are currently pending; (2) the proceedings involve an important state interest; and (3) the state proceedings will provide the federal plaintiff with an adequate opportunity to raise his constitutional claims,\" we may abstain from hearing the federal claim. Id . ; see also Habich v. City of Dearborn , 331 F.3d 524, 530 (6th Cir. 2003).\nPlaintiffs admit that the first two Middlesex factors are satisfied in this case. Appellants Br. at 21. However, they argue that the Ohio state proceedings would not give them an adequate opportunity to raise their constitutional arguments. \"[T]he burden on this point rests on the federal plaintiff to show 'that the state procedural law barred presentation of its claims.' \" Pennzoil , 481 U.S. at 14, 107 S.Ct. 1519 (quoting Moore v. Sims , 442 U.S. 415, 432, 99 S.Ct. 2371, 60 L.Ed.2d 994 (1979) ) (brackets omitted). The plaintiffs take issue with the district court's assertion that they might seek a writ of certiorari to the United States Supreme Court should Chief Justice O'Connor and Judge Schweikert refuse to step aside and should the plaintiffs believe that these adjudicators' conduct affected their constitutional rights. They argue that certiorari is a federal, rather than state, remedy and therefore that the third Middlesex factor would not be satisfied if a writ of certiorari from the United States Supreme Court is the only available remedy left. Appellants Br. at 23.\nWe conclude that the state proceedings provide the plaintiffs an adequate opportunity to raise their constitutional arguments. First, the plaintiffs made the same constitutional arguments regarding their due process rights to an unbiased adjudication in their affidavit of disqualification and motion to disqualify the Ohio Chief Justice as they have in this federal case. Compare R. 1-1 (Affidavit of Disqualification at 1-25) (Page ID #56-80), with R. 1 (Compl. at 5-37) (Page ID #5-37); Gilbert , 401 F.3d at 419 (\"Plaintiffs had an adequate opportunity to raise their constitutional challenge, as evidenced by the fact that their lengthy brief in support of their motion to recuse contained the same arguments and proofs as presented in their complaint filed in federal court.\"). Second, the plaintiffs may appeal any potential adverse final decision of the state trial court, alleging that Judge Schweikert's and Chief Justice O'Connor's bias had tainted the proceedings. The fact that this approach requires the use of the appellate process (including a potential petition for a writ of certiorari in the U.S. Supreme Court) does not render it inadequate. See Shafizadeh , 476 F. App'x at 73 (concluding that there was \"no dispute that the state appellate process gave [the plaintiff] an adequate opportunity to raise his grievances concerning [the judge presiding over his divorce in state court]\"); see also Caperton v. A.T. Massey Coal Co. , 556 U.S. 868, 129 S.Ct. 2252, 173 L.Ed.2d 1208 (2009) (finding that the Due Process Clause required recusal of a justice on the West Virginia Supreme Court of Appeals and reversing and remanding the case).\nThere are several circumstances under which, although Younger abstention would normally be appropriate, the federal court should not abstain from hearing a case. The first is where \"the state proceeding is motivated by a desire to harass or is conducted in bad faith.\" Huffman , 420 U.S. at 611, 95 S.Ct. 1200. The second is where \"the challenged statute is flagrantly and patently violative of express constitutional prohibitions.\" Moore , 442 U.S. at 424, 99 S.Ct. 2371 (quoting Huffman , 420 U.S. at 611, 95 S.Ct. 1200 ). And third, the federal court should not abstain where there is \"an extraordinarily pressing need for immediate federal equitable relief.\" Kugler v. Helfant , 421 U.S. 117, 125, 95 S.Ct. 1524, 44 L.Ed.2d 15 (1975).\nIn their opening brief, the plaintiffs do not expressly argue that their case falls under one of these three exceptions to Younger abstention. However, the defendants construe the plaintiffs' allegations that Chief Justice O'Connor and Judge Schweikert were biased as an implicit contention that the third exception applies. O'Connor Br. at 20; Schweikert Br. at 16. The plaintiffs explicitly adopt this argument in their reply brief. Reply Br. at 6. However, we find this tactic insufficient given that the plaintiffs never argued in the district court that their case fell within the third Younger exception. Instead, the plaintiffs cast their arguments that Judge Schweikert and Chief Justice O'Connor were biased as supporting the conclusion that the third Middlesex factor was not met, not that the third exception to Younger applied. See, e.g., R. 19 (Pl. Mem. Addressing the Non-Applicability of the Younger Abstention Doctrine at 5) (Page ID #1427); R. 36-1 (Pl. Mem. in Supp. of Pl. Mot. to Alter or Amend at 3) (Page ID #1775). Given the lack of argument regarding the third exception to Younger abstention, the district court did not address its applicability in its opinion. See R. 34 (Op. and Order) (Page ID #1755). \"It is well-settled that issues not presented to the district court but raised for the first time on appeal are not properly before this Court.\" Kusens v. Pascal Co., 448 F.3d 349, 368 (6th Cir. 2006). We conclude that the plaintiffs forfeited their argument regarding the third exception to Younger by failing to raise it in the court below.\nThe plaintiffs argue that the Supreme Court's 2013 decision in Sprint \"reduced the scope of the Younger abstention doctrine in federal courts\" and therefore that this case does not fall within its newly narrowed reach. Appellants Br. at 8. Although we agree that Sprint firmly delineates and limits the types of cases that may qualify for Younger abstention, we disagree that the present case falls outside the boundary Sprint set. Sprint synthesizes the Younger doctrine and highlights the interaction between the NOPSI categories and the Middlesex factors. Sprint , 571 U.S. at 81, 134 S.Ct. 584. In Sprint , the Court articulates the firm requirement that a case fall within one of the three previously established NOPSI categories to qualify for Younger abstention. Id . at 82, 134 S.Ct. 584 (clarifying that \" Younger extends to the three 'exceptional circumstances' identified in NOPSI , but no further\"). The Court further emphasizes that \"[t]he three Middlesex conditions ... [are] not dispositive; they [are] instead, additional factors appropriately considered by the federal court before invoking Younger .\" Id . at 81, 134 S.Ct. 584. The Sprint Court determined that the district court and Eighth Circuit had abstained inappropriately because the case before them did not fall within one of the NOPSI categories and the lower courts had relied too heavily on the factors discussed in Middlesex . Id . at 79-81, 134 S.Ct. 584. We have determined that the plaintiffs' claims fall within the third NOPSI category and additionally satisfy the Middlesex factors. Accordingly, we have complied with the Younger doctrine as limited by Sprint .\nFinally, the plaintiffs argue that even if Younger abstention applies, the district court erred by dismissing their claim with prejudice. Appellants Br. at 34. Here, the plaintiffs are correct. \"A dismissal based on Younger is without prejudice.\" Chalupowski , 151 F. App'x, at 2 (citing Maymo-Melendez v. Alvarez-Ramirez , 364 F.3d 27, 32 n.4 (1st Cir.), cert. denied , 543 U.S. 872, 125 S.Ct. 110, 160 L.Ed.2d 120 (2004) ). This is because \"[a] dismissal with prejudice ordinarily operates as an adjudication on the merits,\" which is inconsistent with the court's Younger -based decision to abstain from hearing the case at all. Caldwell v. Camp , 594 F.2d 705, 708 (8th Cir. 1979). Neither we nor the district court have reached the merits of the plaintiffs' claims. Instead, our analysis focuses on the inappropriateness of our exercise of jurisdiction in this case based on the substance of the plaintiffs' claims and our relationship to the Ohio state courts. This federal-court dismissal therefore does not operate to bar the plaintiffs from again bringing the same claims. See Semtek Int'l Inc. v. Lockheed Martin Corp. , 531 U.S. 497, 505, 121 S.Ct. 1021, 149 L.Ed.2d 32 (2001) (\"The primary meaning of 'dismissal without prejudice,' we think, is dismissal without barring the plaintiff from returning later, to the same court, with the same underlying claim. That will also ordinarily (though not always) have the consequence of not barring the claim from other courts ....\"); Bragg v. Flint Bd. of Educ. , 570 F.3d 775, 776 (6th Cir. 2009) (noting that preclusion of a suit based on res judicata requires \"a final decision on the merits\") (citation omitted). Accordingly, we instruct the district court to modify its judgment to a dismissal without prejudice. See Chalupowski , 151 F. App'x at 2.\nIII. CONCLUSION\nFor the reasons discussed above, we conclude that the district court correctly determined that the Younger abstention doctrine permitted its abstention from entertaining the plaintiffs' claims. We therefore AFFIRM . However, we REMAND so that the district court can amend its order to a dismissal without prejudice.\nThe district court noted that it was \"not convinced Plaintiffs have properly sought the recusal of Chief Justice O'Connor\" because the plaintiffs had \"filed a combined Affidavit of Disqualification, seeking to disqualify Judge Schweikert and asking a justice other than Chief Justice O'Connor to rule on it. In support, Plaintiffs cite S. Ct. Prac. R. 14.6. There is, however, no Rule 14.6.\" R. 34 (Op. and Order at 10 n.6) (Page ID #1764). On appeal, the plaintiffs have cited the relevant provision of the Ohio Supreme Court Rules of Practice.\nThe plaintiffs discuss Yohn v. Love , 887 F.Supp. 773 (E.D. Pa. 1995), aff'd in part and vacated in part , 76 F.3d 508 (3d Cir. 1996), and from it argue that their \"Due Process rights were violated\" by alleged (but unsubstantiated) \"telephone conversations between the Chief Justice and the trial judge,\" leaving them with \"no opportunity to have a fair and impartial hearing on the issues.\" Appellants Br. at 29-30. However, this out-of-circuit case concerned a petitioner seeking habeas relief , alleging improper judicial interference in his criminal trial and subsequent appeals. The facts of Yohn and the case at bar diverge beyond these differences in jurisdiction and posture. As the district court noted in its order denying the plaintiffs' Motion to Alter or Amend, Yohn involved a Chief Justice's admitted and documented meddling in the trial court's decision regarding a specific evidentiary question. R. 47 (Order at 2) (Page ID #2091) (citing Yohn , 887 F.Supp. at 782 ). In contrast, the plaintiffs offer nothing more than vague and unsubstantiated allegations of alleged improper communications between Judge Schweikert and Chief Justice O'Connor.\nThe plaintiffs implicitly acknowledge the availability of the state appellate system to challenge any determinations that they allege to be biased. R. 1 (Compl. at 20) (Page ID #20) (\"Appealing biased and clearly wrong rulings is not a fair remedy to Plaintiffs.\"). They thus apparently challenge the fairness of the remedy.\nThe only references to the Younger abstention exceptions in the court below were made by Chief Justice O'Connor, who, in the same way as she did in the appellate briefing, defended against an argument about the third exception that was not actually present in the plaintiffs' earlier briefing. See R. 12 (O'Connor Mem. in Opp. to Pl. Am. Mot. for TRO at 8) (Page ID #722); R. 27 (O'Connor Suppl. Br. on Younger Abstention at 7) (Page ID #1534) (\"Plaintiffs seem to argue that the third exception to Younger applies here based on alleged bias.\").\nIn their Reply Memorandum concerning Younger abstention, the plaintiffs quote the \"flagrant unconstitutionality\" language of the second Younger exception but offer no analysis to support a claim that their case falls under it. R. 28 (Pl. Reply Mem. Further Addressing the Non-Applicability of the Younger Abstention Doctrine at 6) (Page ID #1549) (discussing \"The Third Middlesex Factor And Flagrant Unconstitutionality\").",
+        "type": "majority",
+        "author": "KAREN NELSON MOORE, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "ON BRIEF: Robert A. Winter, Jr., Fort Mitchell, Kentucky, for Appellants. Nicole M. Koppitch, Steven T. Voigt, OFFICE OF THE OHIO ATTORNEY GENERAL, Columbus, Ohio, for Appellee O'Connor. Lawrence E. Barbiere, Katherine L. Barbiere, SCHROEDER, MAUNDRELL, BARBIERE & POWERS, Mason, Ohio, for Appellee Schweikert."
+    ],
+    "corrections": "",
+    "head_matter": "Frieda AARON, et al., Plaintiffs-Appellants,\nv.\nMaureen O'CONNOR and Mark R. Schweikert, in their Official Capacities, Defendants-Appellees.\nNo. 18-3452\nUnited States Court of Appeals, Sixth Circuit.\nDecided and Filed: January 30, 2019\nON BRIEF: Robert A. Winter, Jr., Fort Mitchell, Kentucky, for Appellants. Nicole M. Koppitch, Steven T. Voigt, OFFICE OF THE OHIO ATTORNEY GENERAL, Columbus, Ohio, for Appellee O'Connor. Lawrence E. Barbiere, Katherine L. Barbiere, SCHROEDER, MAUNDRELL, BARBIERE & POWERS, Mason, Ohio, for Appellee Schweikert.\nBefore: MERRITT, GUY, and MOORE, Circuit Judges."
+  },
+  "file_name": "1010-01",
+  "first_page_order": 1010,
+  "last_page_order": 1021
+}

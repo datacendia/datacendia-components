@@ -1,0 +1,59 @@
+{
+  "id": 12225503,
+  "name": "Madeira v. Pennsylvania",
+  "name_abbreviation": "Madeira v. Pennsylvania",
+  "decision_date": "2012-06-04",
+  "docket_number": "No. 11-9623",
+  "first_page": "1038",
+  "last_page": "1038",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 1038"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 72,
+    "ocr_confidence": 0.565,
+    "sha256": "3500fc0ae58911c8e3d6ec016170ca5db0cf785224555051a4801dfe6639adbf",
+    "simhash": "1:f366a890b2e8bcd4",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Madeira v. Pennsylvania."
+    ],
+    "opinions": [
+      {
+        "text": "Super. Ct. Pa. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9623.\nMadeira v. Pennsylvania."
+  },
+  "file_name": "1038-03",
+  "first_page_order": 914,
+  "last_page_order": 914
+}

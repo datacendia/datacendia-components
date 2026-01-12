@@ -1,0 +1,59 @@
+{
+  "id": 12416626,
+  "name": "Martinez v. United States",
+  "name_abbreviation": "Martinez v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5723",
+  "first_page": "922",
+  "last_page": "922",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 922"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.708,
+    "sha256": "0a8928fae0e03d48d3c7325fec89dbb2b7a00ef15bbdc34a33102068c96a6a26",
+    "simhash": "1:87abf2834abd9c1c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Martinez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5723.\nMartinez v. United States."
+  },
+  "file_name": "0922-07",
+  "first_page_order": 998,
+  "last_page_order": 998
+}

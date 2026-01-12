@@ -1,0 +1,59 @@
+{
+  "id": 5978791,
+  "name": "Swon v. California",
+  "name_abbreviation": "Swon v. California",
+  "decision_date": "2010-11-01",
+  "docket_number": "No. 10-6066",
+  "first_page": "1008",
+  "last_page": "1008",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1008"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 67,
+    "ocr_confidence": 0.575,
+    "sha256": "3a0805ebee6d84d4ad4b942b1ab5728fc55e4f5b3a3102c50a458ce04f562943",
+    "simhash": "1:8a4b11749a0a618a",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Swon v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certio-rari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-6066.\nSwon v. California."
+  },
+  "file_name": "1008-11",
+  "first_page_order": 1030,
+  "last_page_order": 1030
+}

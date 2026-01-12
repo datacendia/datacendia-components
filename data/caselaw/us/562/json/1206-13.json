@@ -1,0 +1,59 @@
+{
+  "id": 6003121,
+  "name": "Casas-Herrera v. United States",
+  "name_abbreviation": "Casas-Herrera v. United States",
+  "decision_date": "2011-01-24",
+  "docket_number": "No. 10-8074",
+  "first_page": "1206",
+  "last_page": "1206",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1206"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 79,
+    "ocr_confidence": 0.69,
+    "sha256": "970720b18b016ff12fbe0f6b6263f7146e2fadaea57889fa5a4bdbee8422a662",
+    "simhash": "1:151bc6034f9f4058",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Casas-Herrera v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8074.\nCasas-Herrera v. United States."
+  },
+  "file_name": "1206-13",
+  "first_page_order": 1228,
+  "last_page_order": 1228
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12410901,
+  "name": "Quintana Solorio v. United States",
+  "name_abbreviation": "Quintana Solorio v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-9841",
+  "first_page": "829",
+  "last_page": "829",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 829"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 82,
+    "ocr_confidence": 0.7,
+    "sha256": "6642010936dfcf05a8f6f724c667a20ca43bf8b7c8ce8f9564b197c0f8146ed6",
+    "simhash": "1:169284010a8c014e",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Quintana Solorio v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-9841.\nQuintana Solorio v. United States."
+  },
+  "file_name": "0829-07",
+  "first_page_order": 905,
+  "last_page_order": 905
+}

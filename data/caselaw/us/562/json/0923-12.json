@@ -1,0 +1,59 @@
+{
+  "id": 6026781,
+  "name": "Washington v. Adams, Warden",
+  "name_abbreviation": "Washington v. Adams",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5469",
+  "first_page": "923",
+  "last_page": "923",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 923"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.557,
+    "sha256": "ff23884663542902894d41352e22100ef6e6b41c504f5124a23aaa182d9c2df1",
+    "simhash": "1:52d122e929a328ff",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Washington v. Adams, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5469.\nWashington v. Adams, Warden."
+  },
+  "file_name": "0923-12",
+  "first_page_order": 945,
+  "last_page_order": 945
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12414738,
+  "name": "McMillion v. United States",
+  "name_abbreviation": "McMillion v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 11-11069",
+  "first_page": "877",
+  "last_page": "877",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 877"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.692,
+    "sha256": "03c10d72e71f5863770c03e01d16ac672368b94940d7a56934ee29d5397a19dc",
+    "simhash": "1:0c1adf8b4a1d854e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McMillion v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 3d Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-11069.\nMcMillion v. United States."
+  },
+  "file_name": "0877-10",
+  "first_page_order": 953,
+  "last_page_order": 953
+}

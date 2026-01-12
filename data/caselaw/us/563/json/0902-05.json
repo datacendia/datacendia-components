@@ -1,0 +1,114 @@
+{
+  "id": 5926411,
+  "name": "American Electric Power Co., Inc., et al. v. Connecticut et al.",
+  "name_abbreviation": "American Electric Power Co. v. Connecticut",
+  "decision_date": "2011-03-28",
+  "docket_number": "No. 10-174",
+  "first_page": "902",
+  "last_page": "902",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 902"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "562 U. S. 1091",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5986560,
+        5915549,
+        6006557,
+        5980203,
+        5999286,
+        6028494,
+        6026322,
+        5995219,
+        12439401,
+        12439402,
+        12439403,
+        12439404,
+        12439405,
+        12439406,
+        12439407,
+        12439408,
+        12439409,
+        12439410,
+        12439411,
+        6002932,
+        5902324,
+        6010493
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/562/1091-06",
+        "/us/562/1091-02",
+        "/us/562/1091-09",
+        "/us/562/1091-04",
+        "/us/562/1091-11",
+        "/us/562/1091-10",
+        "/us/562/1091-01",
+        "/us/562/1091-05",
+        "/l-ed-2d/178/0530-04",
+        "/l-ed-2d/178/0530-05",
+        "/l-ed-2d/178/0530-06",
+        "/l-ed-2d/178/0531-01",
+        "/l-ed-2d/178/0531-02",
+        "/l-ed-2d/178/0531-03",
+        "/l-ed-2d/178/0531-04",
+        "/l-ed-2d/178/0531-05",
+        "/l-ed-2d/178/0531-06",
+        "/l-ed-2d/178/0531-07",
+        "/l-ed-2d/178/0532-01",
+        "/us/562/1091-03",
+        "/us/562/1091-08",
+        "/us/562/1091-07"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 43,
+    "char_count": 319,
+    "ocr_confidence": 0.559,
+    "sha256": "bae0ce0e1a61aa1af3e0bbd35166b6f4e836e1111c59d7e0962c98d29414b324",
+    "simhash": "1:b91634c2334e56cc",
+    "word_count": 53
+  },
+  "last_updated": "2024-02-27T23:44:09.189648+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "American Electric Power Co., Inc., et al. v. Connecticut et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 2d Cir. [Certiorari granted, 562 U. S. 1091.] Motion of the Acting Solicitor General for divided argument and enlargement of time for oral argument granted. Justice Sotomayor took no part in the consideration or decision of this motion.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-174.\nAmerican Electric Power Co., Inc., et al. v. Connecticut et al."
+  },
+  "file_name": "0902-05",
+  "first_page_order": 928,
+  "last_page_order": 928
+}

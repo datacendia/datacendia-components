@@ -1,0 +1,59 @@
+{
+  "id": 12238234,
+  "name": "Westbrook v. Mississippi",
+  "name_abbreviation": "Westbrook v. Mississippi",
+  "decision_date": "2011-12-12",
+  "docket_number": "No. 11-6975",
+  "first_page": "1097",
+  "last_page": "1097",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1097"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 73,
+    "ocr_confidence": 0.644,
+    "sha256": "61b4c3031c807415f8d8e089d77691c441768327aa26cdcb1df67341f8b840f3",
+    "simhash": "1:953d498cca4d8a8f",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Westbrook v. Mississippi."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Miss. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6975.\nWestbrook v. Mississippi."
+  },
+  "file_name": "1097-08",
+  "first_page_order": 1179,
+  "last_page_order": 1179
+}

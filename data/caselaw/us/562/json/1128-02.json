@@ -1,0 +1,59 @@
+{
+  "id": 6010313,
+  "name": "Missouri v. Frye",
+  "name_abbreviation": "Missouri v. Frye",
+  "decision_date": "2011-01-07",
+  "docket_number": "No. 10-444",
+  "first_page": "1128",
+  "last_page": "1128",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1128"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 58,
+    "char_count": 484,
+    "ocr_confidence": 0.597,
+    "sha256": "a5f7565796fbdb9fc33e66d2fc48375e475349cb4cbb9a882288f95d2e5df70d",
+    "simhash": "1:2bc1858647ee2d08",
+    "word_count": 72
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Missouri v. Frye."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Mo., Western Dist. Motion of respondent for leave to proceed in forma pauperis granted. Certiorari granted. In addition to the question presented by the petition, the parties are directed to brief and argue the following question: \u2018What remedy, if any, should be provided for ineffective assistance of counsel during plea bargain negotiations if the defendant was later convicted and sentenced pursuant to constitutionally adequate procedures?\u201d",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-444.\nMissouri v. Frye."
+  },
+  "file_name": "1128-02",
+  "first_page_order": 1150,
+  "last_page_order": 1150
+}

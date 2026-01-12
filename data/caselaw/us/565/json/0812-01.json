@@ -1,0 +1,98 @@
+{
+  "id": 12190934,
+  "name": "Ray v. United States",
+  "name_abbreviation": "Ray v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10699",
+  "first_page": "812",
+  "last_page": "812",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 812"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "564 U. S. 1033",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12450912,
+        12450913,
+        12450914,
+        12450915,
+        12450916,
+        4333770,
+        5928911,
+        5922800,
+        5929809,
+        12451090,
+        4336308,
+        12450909,
+        5929758,
+        12450911
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/l-ed-2d/180/0882-01",
+        "/l-ed-2d/180/0882-02",
+        "/l-ed-2d/180/0882-03",
+        "/l-ed-2d/180/0882-04",
+        "/l-ed-2d/180/0883-01",
+        "/us/564/1033-04",
+        "/us/564/1033-03",
+        "/us/564/1033-01",
+        "/us/564/1033-05",
+        "/l-ed-2d/180/0908-03",
+        "/us/564/1033-06",
+        "/l-ed-2d/180/0881-03",
+        "/us/564/1033-02",
+        "/l-ed-2d/180/0881-05"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 28,
+    "char_count": 169,
+    "ocr_confidence": 0.647,
+    "sha256": "bd6b04ebc9556593aaf79158b4bc12c6410bb6481e7f3b854a7eb1ae979929ab",
+    "simhash": "1:a2b23a2ac905bf5a",
+    "word_count": 29
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Ray v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Motion of petitioner for reconsideration of order denying leave to proceed in forma pauperis [564 U. S. 1033] denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10699.\nRay v. United States."
+  },
+  "file_name": "0812-01",
+  "first_page_order": 894,
+  "last_page_order": 894
+}

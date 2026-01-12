@@ -1,0 +1,59 @@
+{
+  "id": 5999879,
+  "name": "Thomas v. Parker et al.",
+  "name_abbreviation": "Thomas v. Parker",
+  "decision_date": "2011-03-21",
+  "docket_number": "No. 10-8467",
+  "first_page": "1293",
+  "last_page": "1293",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1293"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 72,
+    "ocr_confidence": 0.599,
+    "sha256": "153925ae3bc41010e281614c57034982ebe688049c932dfff28563e21f299be2",
+    "simhash": "1:93d24080543690b8",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Thomas v. Parker et al."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8467.\nThomas v. Parker et al."
+  },
+  "file_name": "1293-13",
+  "first_page_order": 1315,
+  "last_page_order": 1315
+}

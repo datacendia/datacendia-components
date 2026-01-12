@@ -1,0 +1,61 @@
+{
+  "id": 12427769,
+  "name": "In re Cochran",
+  "name_abbreviation": "In re Cochran",
+  "decision_date": "2013-01-07",
+  "docket_number": "No. 12-7621",
+  "first_page": "1084",
+  "last_page": "1084",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1084"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 21,
+    "char_count": 149,
+    "ocr_confidence": 0.585,
+    "sha256": "7e430bf3bb9bcbf6dd7ac178dbbc6a57335bf529221c1db5def9c571c6d9dae2",
+    "simhash": "1:09171a82116fcb5f",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "In re Cochran."
+    ],
+    "opinions": [
+      {
+        "text": "Petition for writ of habeas corpus denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-7621.\nIn re Cochran."
+  },
+  "file_name": "1084-03",
+  "first_page_order": 1160,
+  "last_page_order": 1160
+}

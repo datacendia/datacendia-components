@@ -1,0 +1,59 @@
+{
+  "id": 5925655,
+  "name": "Thomas v. Ohio",
+  "name_abbreviation": "Thomas v. Ohio",
+  "decision_date": "2011-05-31",
+  "docket_number": "No. 10-9770",
+  "first_page": "1024",
+  "last_page": "1024",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 1024"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 9,
+    "char_count": 63,
+    "ocr_confidence": 0.627,
+    "sha256": "3611cd12261764437003ad6a07fc53c4c8f3639426f105a95ff5c355f3a0b0cb",
+    "simhash": "1:082e6756e00c01af",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Thomas v. Ohio."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Ohio. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9770.\nThomas v. Ohio."
+  },
+  "file_name": "1024-13",
+  "first_page_order": 1050,
+  "last_page_order": 1050
+}

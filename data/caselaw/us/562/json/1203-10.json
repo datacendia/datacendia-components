@@ -1,0 +1,59 @@
+{
+  "id": 5991377,
+  "name": "Shaw v. Campbell, Warden",
+  "name_abbreviation": "Shaw v. Campbell",
+  "decision_date": "2011-01-24",
+  "docket_number": "No. 10-7654",
+  "first_page": "1203",
+  "last_page": "1203",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1203"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 73,
+    "ocr_confidence": 0.639,
+    "sha256": "9824fac8ef8d282167cee389e1fd1127fd801ac8320ead39726b1fd3944f74a4",
+    "simhash": "1:15f530a129df7574",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Shaw v. Campbell, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-7654.\nShaw v. Campbell, Warden."
+  },
+  "file_name": "1203-10",
+  "first_page_order": 1225,
+  "last_page_order": 1225
+}

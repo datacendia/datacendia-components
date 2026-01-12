@@ -1,0 +1,59 @@
+{
+  "id": 12218771,
+  "name": "Hatch v. Parker, Warden",
+  "name_abbreviation": "Hatch v. Parker",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5270",
+  "first_page": "898",
+  "last_page": "898",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 898"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 72,
+    "ocr_confidence": 0.608,
+    "sha256": "a0e5228da4daab754f34868ced40641a92ea35337ae637108f2a8c1af374dff7",
+    "simhash": "1:92871ed3ee1f0244",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hatch v. Parker, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5270.\nHatch v. Parker, Warden."
+  },
+  "file_name": "0898-11",
+  "first_page_order": 980,
+  "last_page_order": 980
+}

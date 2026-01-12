@@ -1,0 +1,982 @@
+{
+  "id": 12658793,
+  "name": "NATGASOLINE LLC and Orascom E&C USA Inc., Appellants v. REFRACTORY CONSTRUCTION SERVICES, CO. LLC, Appellee",
+  "name_abbreviation": "Natgasoline LLC v. Refractory Constr. Servs., Co.",
+  "decision_date": "2018-12-18",
+  "docket_number": "NO. 14-17-00503-CV",
+  "first_page": "871",
+  "last_page": "890",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 S.W.3d 871"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Tex. App. Ct.",
+    "id": 30078,
+    "name": "Court of Appeals of Texas, Houston (14th Dist.)"
+  },
+  "jurisdiction": {
+    "id": 32,
+    "name_long": "Texas",
+    "name": "Tex."
+  },
+  "cites_to": [
+    {
+      "cite": "476 S.W.3d 557",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6767646
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "564"
+        },
+        {
+          "page": "564"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/476/0557-01"
+      ]
+    },
+    {
+      "cite": "542 F.3d 354",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3840545
+      ],
+      "weight": 6,
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "359"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/542/0354-01"
+      ]
+    },
+    {
+      "cite": "235 S.W.3d 185",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8365677
+      ],
+      "weight": 4,
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "193",
+          "parenthetical": "orig. proceeding"
+        },
+        {
+          "page": "193"
+        },
+        {
+          "page": "193"
+        },
+        {
+          "page": "193"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/235/0185-01"
+      ]
+    },
+    {
+      "cite": "337 F.3d 125",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        9105981
+      ],
+      "weight": 4,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "131"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/337/0125-01"
+      ]
+    },
+    {
+      "cite": "403 S.W.3d 840",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7093447
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "847-48",
+          "parenthetical": "by pursuing a suit based on a trust's terms and validity, the non-signatory beneficiary was barred by direct benefits estoppel from avoiding a trust's arbitration provision"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/403/0840-01"
+      ]
+    },
+    {
+      "cite": "166 S.W.3d 732",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8941132
+      ],
+      "weight": 7,
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "739",
+          "parenthetical": "orig. proceeding"
+        },
+        {
+          "page": "739-40"
+        },
+        {
+          "page": "739"
+        },
+        {
+          "page": "739",
+          "parenthetical": "\"a non-signatory plaintiff may be compelled to arbitrate if its claims are 'based on a contract' containing an agreement to arbitrate\""
+        },
+        {
+          "page": "738"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/166/0732-01"
+      ]
+    },
+    {
+      "cite": "52 S.W.3d 749",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9492815
+      ],
+      "weight": 2,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "755-56",
+          "parenthetical": "orig. proceeding"
+        },
+        {
+          "page": "752-53, 755-56",
+          "parenthetical": "by suing based on the contract, the plaintiffs sought benefits that stemmed directly from the contract; the plaintiffs therefore were subject to the contract's arbitration provision"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/52/0749-01"
+      ]
+    },
+    {
+      "cite": "387 S.W.3d 99",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7094105
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/387/0099-01"
+      ]
+    },
+    {
+      "cite": "547 S.W.3d 624",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12656554
+      ],
+      "weight": 7,
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "633"
+        },
+        {
+          "page": "637-40"
+        },
+        {
+          "page": "639"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/547/0624-01"
+      ]
+    },
+    {
+      "cite": "349 S.W.3d 811",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7318833
+      ],
+      "pin_cites": [
+        {
+          "page": "816"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/349/0811-01"
+      ]
+    },
+    {
+      "cite": "124 S.W.3d 422",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9292944
+      ],
+      "pin_cites": [
+        {
+          "page": "434"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/124/0422-01"
+      ]
+    },
+    {
+      "cite": "359 S.W.3d 843",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7318233
+      ],
+      "pin_cites": [
+        {
+          "page": "852-53"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/359/0843-01"
+      ]
+    },
+    {
+      "cite": "1 S.W.3d 96",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11498711
+      ],
+      "year": 1999,
+      "pin_cites": [
+        {
+          "page": "102",
+          "parenthetical": "\"Under generally accepted principles of contract interpretation, all writings that pertain to the same transaction will be considered together, even if they were executed at different times and do not expressly refer to one another.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/1/0096-01"
+      ]
+    },
+    {
+      "cite": "350 S.W.3d 699",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7318747
+      ],
+      "pin_cites": [
+        {
+          "page": "708"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/350/0699-01"
+      ]
+    },
+    {
+      "cite": "297 S.W.3d 397",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7299480
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "403"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/297/0397-01"
+      ]
+    },
+    {
+      "cite": "294 S.W.3d 164",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7299828
+      ],
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "168"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/294/0164-01"
+      ]
+    },
+    {
+      "cite": "164 S.W.3d 656",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9010190
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "662"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/164/0656-01"
+      ]
+    },
+    {
+      "cite": "361 S.W.3d 615",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7316990
+      ],
+      "weight": 2,
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "619"
+        },
+        {
+          "page": "619"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/361/0615-01"
+      ]
+    },
+    {
+      "cite": "128 S.W.3d 223",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9258255
+      ],
+      "weight": 3,
+      "year": 2003,
+      "pin_cites": [
+        {
+          "page": "227"
+        },
+        {
+          "page": "229"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/128/0223-01"
+      ]
+    },
+    {
+      "cite": "334 S.W.3d 220",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7320466
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "223",
+          "parenthetical": "orig. proceeding"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/334/0220-01"
+      ]
+    },
+    {
+      "cite": "532 S.W.3d 1",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12386249
+      ],
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "12"
+        },
+        {
+          "page": "12"
+        },
+        {
+          "page": "12"
+        },
+        {
+          "page": "12"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/532/0001-01"
+      ]
+    },
+    {
+      "cite": "279 S.W.3d 640",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8161192
+      ],
+      "weight": 2,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "643",
+          "parenthetical": "orig. proceeding"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/279/0640-01"
+      ]
+    },
+    {
+      "cite": "340 S.W.3d 444",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7319891
+      ],
+      "year": 2011,
+      "pin_cites": [
+        {
+          "page": "453",
+          "parenthetical": "in an \"uncertain legal environment,\" an appellant may in the alternative \"request mandamus treatment of its appeal\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/340/0444-01"
+      ]
+    },
+    {
+      "cite": "2016 WL 5400217",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "*1"
+        },
+        {
+          "page": "*1"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "93 S.W.3d 562",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9375689
+      ],
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "563"
+        },
+        {
+          "page": "563"
+        },
+        {
+          "page": "563"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/93/0562-01"
+      ]
+    },
+    {
+      "cite": "458 S.W.3d 502",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        6875733
+      ],
+      "weight": 6,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "524",
+          "parenthetical": "\"As a general rule, an arbitration clause cannot be invoked by a non-party to the arbitration contract.\" (internal quotation omitted) "
+        },
+        {
+          "page": "527"
+        },
+        {
+          "page": "527"
+        },
+        {
+          "page": "527-28",
+          "parenthetical": "internal quotations omitted"
+        },
+        {
+          "page": "527",
+          "parenthetical": "direct benefits estoppel prevents a plaintiff from asserting a claim that \"depend[s] on the existence\" of the contract but simultaneously avoiding the contract's arbitration provision"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/458/0502-01"
+      ]
+    },
+    {
+      "cite": "349 S.W.3d 872",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7318919
+      ],
+      "weight": 15,
+      "pin_cites": [
+        {
+          "page": "878"
+        },
+        {
+          "page": "878",
+          "parenthetical": "analyzing the FAA"
+        },
+        {
+          "page": "875-76"
+        },
+        {
+          "page": "876"
+        },
+        {
+          "page": "876-77"
+        },
+        {
+          "page": "877"
+        },
+        {
+          "page": "879"
+        },
+        {
+          "page": "878"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/349/0872-01"
+      ]
+    },
+    {
+      "cite": "222 S.W.3d 731",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8312140
+      ],
+      "weight": 14,
+      "pin_cites": [
+        {
+          "page": "738"
+        },
+        {
+          "page": "738",
+          "parenthetical": "analyzing the TAA"
+        },
+        {
+          "page": "736-37"
+        },
+        {
+          "page": "737"
+        },
+        {
+          "page": "738"
+        },
+        {
+          "page": "738-39"
+        },
+        {
+          "page": "738-39"
+        },
+        {
+          "page": "738-39"
+        },
+        {
+          "page": "738-39"
+        },
+        {
+          "page": "738-39"
+        },
+        {
+          "page": "738-39"
+        },
+        {
+          "page": "739",
+          "parenthetical": "TAA"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/222/0731-01"
+      ]
+    },
+    {
+      "cite": "303 S.W.3d 386",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7298286
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/303/0386-01"
+      ]
+    },
+    {
+      "cite": "Tex. Civ. Prac. & Rem. Code Ann. \u00a7 51.016",
+      "category": "laws:leg_statute",
+      "reporter": "Tex. Code Ann.",
+      "weight": 8,
+      "year": 2015,
+      "pin_cites": [
+        {
+          "page": "26"
+        },
+        {
+          "page": "10"
+        },
+        {
+          "page": "10"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "9 U.S.C.A. \u00a7 16",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 5,
+      "opinion_index": 0
+    },
+    {
+      "cite": "233 S.W.3d 835",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8350528
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "840"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/233/0835-01"
+      ]
+    },
+    {
+      "cite": "Tex. Civ. Prac. & Rem. Code Ann. \u00a7 171.021",
+      "category": "laws:leg_statute",
+      "reporter": "Tex. Code Ann.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(c)"
+        },
+        {
+          "page": "(c)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "289 S.W.3d 836",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7303335
+      ],
+      "weight": 3,
+      "year": 2009,
+      "pin_cites": [
+        {
+          "page": "841",
+          "parenthetical": "orig. proceeding"
+        },
+        {
+          "parenthetical": "\"During arbitration, a court order may be needed to replace an arbitrator, compel attendance of witnesses, or direct arbitrators to proceed promptly.\" (internal citations omitted) "
+        },
+        {
+          "page": "841"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/289/0836-01"
+      ]
+    },
+    {
+      "cite": "310 S.W.3d 639",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7326059
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "642"
+        },
+        {
+          "page": "642"
+        },
+        {
+          "page": "642"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/310/0639-01"
+      ]
+    },
+    {
+      "cite": "2006 WL 3735617",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "pin_cites": [
+        {
+          "page": "*3"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "104 S.W.3d 656",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        9125367
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "660"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/104/0656-01"
+      ]
+    },
+    {
+      "cite": "550 S.W.3d 304",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        12656863
+      ],
+      "weight": 3,
+      "pin_cites": [
+        {
+          "page": "309"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/550/0304-01"
+      ]
+    },
+    {
+      "cite": "351 S.W.3d 929",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7319308
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "931"
+        },
+        {
+          "page": "931"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/351/0929-01"
+      ]
+    },
+    {
+      "cite": "39 S.W.3d 191",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        11118273
+      ],
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "195"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/39/0191-01"
+      ]
+    },
+    {
+      "cite": "422 S.W.3d 582",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7327930
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "585",
+          "parenthetical": "Texas courts apply Texas procedural law when the FAA governs the underlying dispute"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/422/0582-01"
+      ]
+    },
+    {
+      "cite": "246 S.W.3d 796",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        8389891
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "803"
+        },
+        {
+          "page": "803"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/246/0796-01"
+      ]
+    },
+    {
+      "cite": "332 S.W.3d 543",
+      "category": "reporters:state_regional",
+      "reporter": "S.W.3d",
+      "case_ids": [
+        7321042
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "547"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/sw3d/332/0543-01"
+      ]
+    },
+    {
+      "cite": "Tex. Civ. Prac. & Rem. Code Ann. \u00a7\u00a7 171.001",
+      "category": "laws:leg_statute",
+      "reporter": "Tex. Code Ann.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "9 U.S.C.A. \u00a7\u00a7 1",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 1265,
+    "char_count": 48085,
+    "pagerank": {
+      "raw": 5.207966869300525e-08,
+      "percentile": 0.32917305217408427
+    },
+    "sha256": "4719a94c6ce9660e0dea2c3131733cd5ad003814bd5f0a5690b3b15e64721feb",
+    "simhash": "1:99c01eb540eff7f5",
+    "word_count": 7178
+  },
+  "last_updated": "2024-02-27T16:04:37.378194+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Panel consists of Justices Boyce, Christopher, and Busby."
+    ],
+    "parties": [
+      "NATGASOLINE LLC and Orascom E&C USA Inc., Appellants\nv.\nREFRACTORY CONSTRUCTION SERVICES, CO. LLC, Appellee"
+    ],
+    "opinions": [
+      {
+        "text": "William J. Boyce, Justice\nThis appeal arises from competing motions to compel arbitration in a dispute involving the construction of a methanol plant.\nRefractory Construction Services, Co. LLC sued Crawford Industrial Services, LLC, Orascom E&C USA, Inc., and Natgasoline LLC to recover money allegedly owed to Refractory Construction under a construction contract. Crawford, a subcontractor, asserted cross-claims against contractor Orascom and plant owner Natgasoline.\nOrascom and Natgasoline filed a joint motion to compel a bilateral Orascom-Crawford arbitration. Refractory Construction and Crawford jointly filed a competing motion to compel arbitration as to all parties and all claims.\nThe trial court denied Orascom's and Natgasoline's motion to compel and ordered a single arbitration proceeding involving all parties and all claims. Orascom and Natgasoline appealed. For the reasons below, we reverse the trial court's orders compelling a single arbitration proceeding and remand for further proceedings consistent with this opinion.\nBACKGROUND\nAt issue are two construction contracts involving three signatories. One contract was between contractor Orascom and subcontractor Crawford (the \"subcontract\"). The second contract was between subcontractor Crawford and sub-subcontractor Refractory Construction (the \"sub-subcontract\"). The subcontract and sub-subcontract governed construction of Natgasoline's methanol plant in Beaumont, Texas.\nOrascom and Crawford are the only signatories to the subcontract; only Refractory Construction signed the sub-subcontract between Refractory Construction and Crawford.\nBoth the subcontract and the sub-subcontract contain identical arbitration provisions:\n11.3.3 ARBITRATION\nIf the matter is unresolved after submission of the matter to a mitigation procedure or mediation, a demand for arbitration may be served by either Party. Any arbitration shall be conducted in Harris County, Texas, United States of America in the English language. The arbitration shall be conducted in accordance with the Rules of Arbitration of the International Chamber of Commerce but excluding the emergency arbitrator appointment rules (\"Rules\") in effect on the date of this Agreement. The arbitration shall be presided over by three (3) arbitrators appointed in accordance with the Rules. Each arbitrator shall be fluent in English. The arbitrators' decision, which shall be in writing, shall be final, binding and conclusive upon the Parties and may be confirmed or embodied in any order or judgment of any court having jurisdiction. The foregoing agreement to arbitrate shall be specifically enforceable and the award rendered by the arbitrators shall be final and judgment may be entered upon it in accordance with applicable law in any court having jurisdiction thereof.\nThe subcontract and the sub-subcontract also contain identical provisions addressing multi-party disputes:\n11.6 MULTI-PARTY PROCEEDING\nAll parties necessary to resolve a matter agree to be parties to the same dispute resolution proceeding. To the extent disputes between the CONTRACTOR and SUBCONTRACTOR involve in whole or in part disputes between the CONTRACTOR and the OWNER, at the sole discretion of the CONTRACTOR disputes between the SUBCONTRACTOR and the CONTRACTOR shall be decided by the same tribunal and in the same forum as disputes between the CONTRACTOR and the OWNER.\nBoth documents define \"OWNER\" as Natgasoline, \"CONTRACTOR\" as Orascom, and \"SUBCONTRACTOR\" as Crawford. In the sub-subcontract, Refractory Construction is defined as the \"SUPPLIER SUBCONTRACTOR.\"\nRefractory Construction sued Crawford, Orascom, and Natgasoline in February 2017 and asserted claims for payment allegedly owed to Refractory Construction under the sub-subcontract. Crawford asserted cross-claims against Orascom and Natgasoline. Orascom and Natgasoline asserted affirmative defenses against Refractory Construction and Crawford.\nOrascom and Natgasoline filed a joint motion to compel bilateral arbitration between Orascom and Crawford under the subcontract. Orascom's and Natgasoline's motion also asked the trial court to stay trial court proceedings \"in their entirety pending the completion of such mandatory alternative dispute resolution.\" While Orascom's and Natgasoline's motion to compel bilateral arbitration was pending, Refractory Construction and Crawford filed a joint motion to compel a single arbitration as to all parties and all claims.\nThe trial court signed an order on May 24, 2017, stating in relevant part as follows:\nIt is therefore, ORDERED, ADJUDGED, and DECREED that [Refractory Construction's and Crawford's] Motion to Compel Alternative Dispute Resolution as to All Claims and All Parties is in all things GRANTED.\nOr, in the alternative, it is therefore, ORDERED, ADJUGED, and DECREED that [Orascom's and Natgasoline's] Motion to Stay the Entire Case Pending Alternative Dispute Resolution between [Orascom] and Crawford is in all things DENIED.\nOrascom and Natgasoline filed a notice of appeal asserting that the trial court's May 2017 order \"constitute[d] a final, appealable order.\" Orascom and Natgasoline alternatively perfected the appeal as an interlocutory appeal. In the further alternative, Orascom and Natgasoline asked this court to treat their appellate brief as a petition for writ of mandamus. Refractory Construction is the only party to appear as appellee; Crawford did not file an appearance on appeal or an appellate brief.\nUpon receipt of the appeal, this court mailed a letter to the parties' counsel addressing appellate jurisdiction and stating that the appeal would be dismissed unless a response was filed \"showing meritorious grounds for continuing the appeal.\" Orascom and Natgasoline filed a response asserting that appellate jurisdiction exists because this case involves (1) an appeal from a final judgment; or (2) a statutorily authorized interlocutory appeal; or (3) a mandamus proceeding.\nRefractory Construction filed a motion to dismiss Orascom's and Natgasoline's appeal for lack of jurisdiction. After receiving Orascom's and Natgasoline's response, this court denied Refractory Construction's motion to dismiss.\nThe case was orally argued on May 7, 2018. After arguments were heard, this court issued an order abating the appeal to allow the trial court to clarify its intent with respect to the May 2017 order. The trial court signed a second order on June 6, 2018, stating that \"it was the intent of the [trial court] to grant [Refractory Construction's and Crawford's] Motion to Compel Alternative Dispute Resolution as to All Claims and All Parties and that a single arbitration proceeding occur involving All Claims and all Parties ...\" (emphasis in original). Orascom's and Natgasoline's appeal was reinstated upon receipt of the trial court's June 2018 order. After the appeal was reinstated, the parties filed supplemental briefs addressing jurisdictional issues.\nGOVERNING LAW\nWe must determine as a threshold matter whether the Federal Arbitration Act (the \"FAA\") or the Texas Arbitration Act (the \"TAA\") applies to this dispute. See generally 9 U.S.C.A. \u00a7\u00a7 1 - 16 (West 2009) ; Tex. Civ. Prac. & Rem. Code Ann. \u00a7\u00a7 171.001 -.098 (Vernon 2011). The arbitration provisions at issue do not refer to the FAA or the TAA. The subcontract and sub-subcontract state that they \"shall be governed by the Law in effect at the location of the Project.\" The project is located in Beaumont, Texas.\n\"If an arbitration agreement does not specify whether the FAA or the TAA applies, but states that it is governed by the laws of Texas, both the FAA and the TAA apply unless the agreement specifically excludes federal law.\" In re Devon Energy Corp. , 332 S.W.3d 543, 547 (Tex. App.-Houston [1st Dist.] 2009, orig. proceeding) ; see also Roehrs v. FSI Holdings, Inc. , 246 S.W.3d 796, 803 (Tex. App.-Dallas 2008, pet. denied). We apply this precept here. See In re Devon Energy Corp. , 332 S.W.3d at 547 ; Roehrs , 246 S.W.3d at 803.\nANALYSIS\nWe initially address whether we have appellate jurisdiction to review Orascom's and Natgasoline's appeal. We conclude that (1) Orascom's appeal can be heard under our interlocutory appellate jurisdiction; and (2) we lack appellate jurisdiction over Natgasoline's appeal.\nThe second part of our analysis examines whether the trial court's orders compelling a single arbitration proceeding comport with the subcontract's and sub-subcontract's arbitration provisions. We conclude that they do not.\nI. Appellate Jurisdiction\nOrascom and Natgasoline assert that appellate jurisdiction exists here because this proceeding is (1) an appeal from a final judgment; or (2) a statutorily authorized interlocutory appeal; or (3) a mandamus proceeding. We address these jurisdictional bases under Texas procedural law. See Bison Bldg. Materials, Ltd. v. Aldridge , 422 S.W.3d 582, 585 (Tex. 2012) (Texas courts apply Texas procedural law when the FAA governs the underlying dispute).\nA. Final Judgment\nAn appeal generally may be taken only from a final judgment. Lehmann v. Har-Con Corp. , 39 S.W.3d 191, 195 (Tex. 2001) ; Futch v. Reliant Sources, Inc. , 351 S.W.3d 929, 931 (Tex. App.-Houston [14th Dist.] 2011, no pet.). When a conventional trial on the merits has not occurred, \"an order or judgment is not final for purposes of appeal unless it actually disposes of all parties and all claims, or unless the order clearly and unequivocally states that it finally disposes of all parties and all claims.\" Gutierrez v. Stewart Title Co. , 550 S.W.3d 304, 309 (Tex. App.-Houston [14th Dist.] 2018, no pet.). To determine whether an order constitutes a final judgment, we look at the language of the order and the record in the case. Futch , 351 S.W.3d at 931.\nOrders compelling arbitration generally do not dispose of all parties and issues; instead, they \"contemplate continuing resolution through the arbitration process.\" Brooks v. Pep Boys Auto. Supercenters , 104 S.W.3d 656, 660 (Tex. App.-Houston [1st Dist.] 2003, no pet.) ; see also John M. O'Quinn, P.C. v. Wood , Nos. 12-06-00151-CV, 12-06-00188-CV, 2006 WL 3735617, at *3 (Tex. App.-Tyler Dec. 20, 2006, orig. proceeding) (mem. op.) (when a trial court \"compels arbitration without dismissing the case,\" it \"retains continuing jurisdiction of the case until a final judgment or order is entered\"). An order compelling arbitration is interlocutory unless it clearly states that it dismisses the entire case and therefore is final. See Brooks , 104 S.W.3d at 660 ; see also Small v. Specialty Contractors, Inc. , 310 S.W.3d 639, 642 (Tex. App.-Dallas 2010, no pet.).\nIn the context of a motion to compel arbitration, a \"dismissal would usually be inappropriate because the trial court cannot dispose of all claims and all parties until arbitration is completed.\" In re Gulf Expl., LLC , 289 S.W.3d 836, 841 (Tex. 2009) (orig. proceeding). Retaining jurisdiction over the case permits the trial court to take any action necessary to facilitate the arbitration's completion. See id. (\"During arbitration, a court order may be needed to replace an arbitrator, compel attendance of witnesses, or direct arbitrators to proceed promptly.\" (internal citations omitted) ). Incorporating this reasoning, the TAA requires that an order compelling arbitration \"include a stay of any proceeding.\" See Tex. Civ. Prac. & Rem. Code Ann. \u00a7 171.021(c).\nThe trial court's May 2017 order grants Refractory Construction's and Crawford's motion to compel arbitration; in the alternative, that order denies Orascom's and Natgasoline's \"Motion to Stay the Entire Case Pending Alternative Dispute Resolution between [Orascom] and Crawford.\" The trial court's June 2018 order states that its May 2017 order was intended \"to grant [Refractory Construction's and Crawford's] Motion to Compel Alternative Dispute Resolution as to All Claims and All Parties and that a single arbitration proceeding occur involving All Claims and all Parties ...\" (emphasis in original). Arguing that these two orders constitute a final judgment, Orascom and Natgasoline contend that the orders \"unequivocally dispose[ ] of all claims and all parties\" and are \"clearly intended to dispose of the entire case and all pending motions.\"\nWe reject this contention. The orders do not state that they are final judgments, do not dismiss the case, and do not include language suggesting finality. The trial court's orders do not \"clearly and unequivocally state[ ]\" that they \"finally dispose[ ] of all parties and all claims\" in the proceeding. See Gutierrez , 550 S.W.3d at 309 ; Small , 310 S.W.3d at 642.\nInstead of disposing of all parties and all claims, the trial court's orders direct the parties to participate in a single arbitration proceeding. By compelling arbitration, the trial court reasonably could have \"contemplate[d] continuing resolution\" as necessary to facilitate the arbitration's completion. See Brooks , 104 S.W.3d at 660 ; see also In re Gulf Expl., LLC , 289 S.W.3d at 841. Moreover, under the TAA, the trial court was required to stay the underlying proceeding in conjunction with the orders compelling arbitration. See Tex. Civ. Prac. & Rem. Code Ann. \u00a7 171.021(c). In the absence of any language indicating finality, the trial court's orders compelling arbitration do not constitute final judgments. See Gutierrez , 550 S.W.3d at 309 ; Small , 310 S.W.3d at 642.\nOrascom's and Natgasoline's appeal was not properly perfected as an appeal from a final judgment.\nB. Interlocutory Appeal\nOrascom and Natgasoline assert that their appeal properly was perfected as an interlocutory appeal because the trial court's orders effected an unequivocal denial of Orascom's and Natgasoline's motion to compel a bilateral arbitration between Orascom and Crawford under the subcontract.\nAppellate courts may consider appeals from interlocutory orders when a statute explicitly authorizes an appeal. Tex. A & M Univ. Sys. v. Koseoglu , 233 S.W.3d 835, 840 (Tex. 2007). The FAA and TAA permit an interlocutory appeal from an order denying a motion to compel arbitration. See 9 U.S.C.A. \u00a7 16 ; Tex. Civ. Prac. & Rem. Code Ann. \u00a7 51.016 (Vernon 2015), \u00a7 171.098(a)(1) ; see also In re Helix Energy Sols. Group, Inc. , 303 S.W.3d 386, 395 n.7 (Tex. App.-Houston [14th Dist.] 2010, orig. proceeding).\nWhen determining whether an order denies a motion to compel arbitration, \"[t]he substance and function of the order viewed in the context of the record controls our interlocutory jurisdiction.\" McReynolds v. Elston , 222 S.W.3d 731, 738 (Tex. App.-Houston [14th Dist.] 2007, no pet.) ; see also Tex. La Fiesta Auto Sales, LLC v. Belk , 349 S.W.3d 872, 878 (Tex. App.-Houston [14th Dist.] 2011, no pet.). The FAA and TAA permit interlocutory appellate review of an order that denies a party's right to arbitrate in a specific manner under a specific contract. See Tex. La Fiesta Auto Sales, LLC , 349 S.W.3d at 878 (analyzing the FAA) ; McReynolds , 222 S.W.3d at 738 (analyzing the TAA). McReynolds and Texas La Fiesta guide our analysis here.\nThe parties in McReynolds were engaged in arbitration proceedings pursuant to their partnership agreement when the plaintiff sued to compel arbitration under a separate settlement agreement. 222 S.W.3d at 736-37. The trial court denied the plaintiff's motion to compel and the plaintiff appealed. Id. at 737. Asserting that the court lacked interlocutory appellate jurisdiction under the TAA, the defendant asserted that \"the court's order did not deny the [plaintiff's] 'right to arbitration'\nbut merely allowed pending arbitration to continue.\" Id. at 738.\nRejecting the defendant's argument, McReynolds noted that the plaintiff's motion to compel sought \"to enforce his express contractual right of arbitration under the Settlement Agreement,\" which included arbitrating before a different arbitrator. Id. Concluding that the trial court's order \"denied [the plaintiff's] potential contractual right to arbitration under the Settlement Agreement,\" the court determined that the TAA granted interlocutory jurisdiction to review the trial court's order. Id. at 738-39.\nThe parties in Texas La Fiesta similarly signed two agreements that included separate arbitration provisions: an arbitration agreement and an employment contract. 349 S.W.3d at 875-76. After the plaintiff sued the defendants, the defendants moved to compel arbitration under the arbitration agreement. Id. at 876. The trial court denied in part the defendants' motion to compel, concluding that the arbitration agreement was superseded by the employment contract. Id. at 876-77. The trial court ordered the parties to arbitrate under the employment contract. Id. at 877.\nThe defendants appealed and the plaintiff challenged the court's appellate jurisdiction. Id. Noting that \"the trial court's order did not compel arbitration under the arbitration agreement as the [defendants] requested,\" the court \"conclude[d] that the trial court's order denied the [defendants'] their potential contractual right to arbitration ... as provided in the arbitration agreement.\" Id. at 879. The appellate court therefore could review the defendants' appeal under the FAA's interlocutory jurisdiction provision. Id.\nHere, as in McReynolds and Texas La Fiesta , the parties sought different arbitrations. Orascom and Natgasoline moved to compel arbitration under the subcontract only as between Orascom and Crawford. In contrast, Refractory Construction and Crawford moved to compel arbitration under the subcontract and sub-subcontract in a single proceeding encompassing all claims and all parties. The trial court ordered a single arbitration proceeding encompassing all claims and all parties; it denied Orascom's and Natgasoline's \"Motion to Stay the Entire Case Pending Alternative Dispute Resolution between [Orascom] and Crawford.\"\nThe subcontract authorizes arbitration only between the \"Parties\" to the subcontract - namely, Orascom and Crawford. The subcontract does not permit Refractory Construction to inject itself into the arbitration proceeding between Orascom and Crawford. By requiring all parties to arbitrate all claims in a single arbitration proceeding, the trial court effectively denied to Orascom its right under the subcontract to arbitrate only with Crawford. See Tex. La Fiesta Auto Sales, LLC , 349 S.W.3d at 879 ; McReynolds , 222 S.W.3d at 738-39. We therefore have jurisdiction over Orascom's interlocutory appeal. See 9 U.S.C.A. \u00a7 16 ; Tex. Civ. Prac. & Rem. Code Ann. \u00a7\u00a7 51.016, 171.098(a)(1).\nAlthough the denial of Orascom's bilateral arbitration right under the subcontract authorizes an exercise of interlocutory jurisdiction, the same logic does not extend to Natgasoline. Unlike Orascom, Natgasoline is not a party to the subcontract or the sub-subcontract and is not entitled to enforce the arbitration provisions under the particular circumstances present here. See G.T. Leach Builders, LLC v. Sapphire V.P., LP , 458 S.W.3d 502, 524 (Tex. 2015) (\"As a general rule, an arbitration clause cannot be invoked by a non-party to the arbitration contract.\" (internal quotation omitted) ). Natgasoline does not seek to invoke its own asserted right to participate in arbitration - rather, it seeks only to compel arbitration between two other parties under contracts it did not sign. Natgasoline has not presented any argument or authority that would support recognizing interlocutory appellate jurisdiction in these circumstances. Because the trial court's orders compelling arbitration do not deny to Natgasoline any contractual rights with respect to arbitration, we lack jurisdiction over Natgasoline's attempted interlocutory appeal. See 9 U.S.C.A. \u00a7 16 ; Tex. Civ. Prac. & Rem. Code Ann. \u00a7\u00a7 51.016, 171.098(a)(1) ; see also Tex. La Fiesta Auto Sales, LLC , 349 S.W.3d at 879 ; McReynolds , 222 S.W.3d at 738-39.\nWe turn now to Refractory Construction's arguments challenging our interlocutory appellate jurisdiction.\nAsserting that the trial court did not deny Orascom's and Natgasoline's motion to compel arbitration, Refractory Construction points out that the trial court's May 2017 order denies only Orascom's and Natgasoline's \"Motion to Stay the Entire Case Pending Alternative Dispute Resolution between [Orascom] and Crawford.\" But our jurisdictional analysis is not limited to the express language of the trial court's order. We instead examine \"[t]he substance and function of the order viewed in the context of the record.\" McReynolds , 222 S.W.3d at 738 ; see also Tex. La Fiesta Auto Sales, LLC , 349 S.W.3d at 878. We also consider the trial court's June 2018 order signed in response to this court's request for clarification as to whether a single arbitration proceeding was contemplated. By ordering a single arbitration proceeding involving all claims and all parties, the trial court denied Orascom its right under the subcontract to arbitrate only with Crawford. See Tex. La Fiesta Auto Sales, LLC , 349 S.W.3d at 879 ; McReynolds , 222 S.W.3d at 738-39. This denial gives rise to interlocutory jurisdiction. See 9 U.S.C.A. \u00a7 16 ; Tex. Civ. Prac. & Rem. Code Ann. \u00a7\u00a7 51.016, 171.098(a)(1).\nRefractory Construction asserts that, even if Orascom's appeal can be construed as an interlocutory appeal from an order denying a motion to compel arbitration, Orascom nonetheless (1) failed to appeal within 20 days after the trial court's May 2017 order was signed; and (2) is not entitled to an extension of time for filing a notice of appeal.\nWe conclude that Orascom properly perfected its appeal from an interlocutory order. An appeal from an interlocutory order is accelerated. Tex. R. App. P. 28.1(a). \"[I]n an accelerated appeal, the notice of appeal must be filed within 20 days after the judgment or order is signed[.]\" Id. at 26.1(b). The time to file the notice of appeal may be extended if, within 15 days after the deadline for filing the notice of appeal, the appealing party files in the trial court a notice of appeal and files in the appellate court a motion to extend time for filing a notice of appeal. Id. at 10.5(b)(2), 26.3. A motion to extend time for filing a notice of appeal must state (1) the deadline for filing the item in question; (2) the facts relied on to reasonably explain the need for an extension; (3) the trial court; (4) the date of the trial court's judgment or appealable order; and (5) the case number or style of the case in the trial court. Id. at 10.5(b)(2).\nHere, the trial court signed its order on May 24, 2017. Treating this as an appealable interlocutory order, Orascom's notice of appeal was due no later than 20 days later on June 13, 2017. Orascom filed its notice of appeal on June 23, 2017. Orascom's notice of appeal included a request for an extension of time:\n[T]o the extent that a court may determine that the Judgment is not a final judgment, [Orascom and Natgasoline] alternatively notice this appeal as an interlocutory appeal under Texas Civil Practice & Remedies Code \u00a7\u00a7 51.016 and/or 171.098(a)(1) and request an extension of time based on the good cause of the legal uncertainty, if any, as to whether the Judgment is not actually a final judgment.\nCiting Texas Rule of Appellate Procedure 10.5(b)(2), Refractory Construction asserts that Orascom's request is \"devoid of any reference to the deadline for its filing.\" Refractory Construction also asserts that \"[t]here is no reasonable legal uncertainty\" warranting an extension.\nThe notice's failure to reference the deadline for its filing does not defeat Orascom's request for an extension of time, and Refractory Construction cites no authority holding otherwise. Even an implied motion for an extension of time is effective so long as the appellant \"come[s] forward with a reasonable explanation to support the late filing.\" Hykonnen v. Baker Hughes Bus. Support Servs. , 93 S.W.3d 562, 563 (Tex. App.-Houston [14th Dist.] 2002, no pet.) ; see also Jones v. Funk , No. 14-16-00577-CV, 2016 WL 5400217, at *1 (Tex. App.-Houston [14th Dist.] Sept. 27, 2016, no pet.) (per curiam) (mem. op.). A reasonable explanation includes any plausible statement of circumstances that shows the failure to file within the required time period was not deliberate or intentional, but was the result of inadvertence, mistake, or mischance. Hykonnen , 93 S.W.3d at 563. \"Any conduct short of deliberate or intentional noncompliance qualifies as inadvertence, mistake, or mischance - even if that conduct can be characterized as professional negligence.\" Id.\nOrascom's notice provides a \"reasonable explanation\" for its untimely filing: uncertainty with respect to the finality of the trial court's May 24, 2017 order. This explanation suffices to show that Orascom's failure to file within the required time period was not deliberate or intentional. See id. ; see also Jones , 2016 WL 5400217, at *1. Orascom's motion for an extension of time was effective and makes its notice of appeal timely. See Tex. R. App. P. 10.5(b)(2), 26.1(b), 26.3 ; see also Hykonnen , 93 S.W.3d at 563. We reject Refractory Construction's arguments challenging our interlocutory jurisdiction.\nBy ordering all parties to arbitrate all claims in a single proceeding, the trial court denied to Orascom its right under the subcontract to arbitrate only with Crawford. See Tex. La Fiesta Auto Sales, LLC , 349 S.W.3d at 879 ; McReynolds , 222 S.W.3d at 738-39. But the same is not true for Natgasoline - the trial court's orders compelling arbitration do not divest any contractual arbitration rights belonging to Natgasoline. Therefore, under the FAA and TAA, we have jurisdiction to consider Orascom's interlocutory appeal. We lack jurisdiction to consider Natgasoline's attempted appeal. See 9 U.S.C.A. \u00a7 16 ; Tex. Civ. Prac. & Rem. Code Ann. \u00a7\u00a7 51.016, 171.098(a)(1) ; see also Tex. La Fiesta Auto Sales, LLC , 349 S.W.3d at 879 ; McReynolds , 222 S.W.3d at 738-39.\nThe final section of this jurisdictional analysis examines whether mandamus relief is available to Natgasoline. See CMH Homes v. Perez , 340 S.W.3d 444, 453 (Tex. 2011) (in an \"uncertain legal environment,\" an appellant may in the alternative \"request mandamus treatment of its appeal\").\nC. Mandamus\nInsofar as Natgasoline seeks to undo the trial court's orders compelling a single arbitration proceeding by pursuing a petition for writ of mandamus, we conclude that any mandamus relief sought by Natgasoline would be moot. This is so because, as discussed more fully below, we reverse the trial court's orders compelling arbitration in an interlocutory appeal properly pursued by Orascom. Therefore, we decline to address Natgasoline's arguments with respect to its entitlement to mandamus relief.\nII. Review of the Trial Court's Orders Compelling a Single Arbitration Proceeding\nWe now turn to the merits of Orascom's authorized interlocutory appeal from the denial of its motion to compel a bilateral Orascom-Crawford arbitration under the subcontract.\nWe review the trial court's denial of a motion to compel arbitration under an abuse of discretion standard. In re Labatt Food Serv., L.P. , 279 S.W.3d 640, 643 (Tex. 2009) (orig. proceeding); Branch Law Firm L.L.P. v. Osborn , 532 S.W.3d 1, 12 (Tex. App.-Houston [14th Dist.] 2016, pet. denied). We defer to the trial court's factual determinations if they are supported by the record; we review the trial court's legal determinations de novo. In re Labatt Food Serv., L.P. , 279 S.W.3d at 643 ; Branch Law Firm L.L.P. , 532 S.W.3d at 12.\nUnder the FAA and TAA, a party seeking to compel arbitration must establish that (1) there is a valid arbitration agreement; and (2) the claims in dispute fall within the scope of that agreement. In re Rubiola , 334 S.W.3d 220, 223 (Tex. 2011) (orig. proceeding) (FAA); McReynolds , 222 S.W.3d at 739 (TAA).\nThe parties do not dispute that (1) a valid arbitration agreement exists between Orascom and Crawford under the subcontract; and (2) Crawford's claims against Orascom fall within the scope of the subcontract's arbitration provision. The parties dispute whether the subcontract or the sub-subcontract authorizes the trial court to deny a bilateral Orascom-Crawford arbitration in favor of a single arbitration proceeding involving all parties and all claims. Refractory Construction asserts three arguments to support a single arbitration proceeding.\n1. Under the sub-subcontract and Texas Rule of Civil Procedure 39(a), Refractory Construction is a necessary party to an Orascom-Crawford arbitration proceeding.\n2. Estoppel permits Refractory Construction to join a bilateral Orascom-Crawford arbitration proceeding under the subcontract.\n3. Permitting Orascom and Crawford to arbitrate without Refractory Construction is contrary to public policy.\nWe conclude that these arguments do not authorize a single arbitration proceeding involving all parties and all claims. Therefore, the trial court erred in denying Orascom's motion to compel a bilateral Orascom-Crawford arbitration under the subcontract.\nA. Refractory Construction is Not a Necessary Party to a Bilateral Orascom-Crawford Arbitration\nRelying heavily on the sub-subcontract's \"Multi-Party Proceeding\" provision, Refractory Construction asserts that \"all parties in the instant litigation should be and were properly ordered to arbitrate together.\" Orascom argues that the sub-subcontract does not support an interpretation that authorizes a single arbitration proceeding for all parties and all claims.\n\"Arbitration agreements are interpreted under traditional contract principles.\" J.M. Davidson, Inc. v. Webster , 128 S.W.3d 223, 227 (Tex. 2003). If we can give the agreement's language a certain and definite meaning, the agreement is unambiguous and we construe it as a matter of law. Milner v. Milner , 361 S.W.3d 615, 619 (Tex. 2012). Our primary concern in construing an agreement is to ascertain the intent of the parties as expressed in the instrument. Valence Operating Co. v. Dorsett , 164 S.W.3d 656, 662 (Tex. 2005).\nAn agreement's terms are accorded their \"plain and ordinary meaning\" unless the agreement indicates that the parties intended a different meaning. Dynegy Midstream Servs., Ltd. P'ship v. Apache Corp. , 294 S.W.3d 164, 168 (Tex. 2009). We presume that the parties intended each contract provision to have effect. Va. Power Energy Mktg., Inc. v. Apache Corp. , 297 S.W.3d 397, 403 (Tex. App.-Houston [14th Dist.] 2009, pet. denied).\nWe examine and consider the agreement as a whole in an effort to harmonize and give effect to all provisions so that none are rendered meaningless. Branch Law Firm L.L.P. , 532 S.W.3d at 12. \"No single provision taken alone will be given controlling effect; rather, all the provisions must be considered with reference to the whole instrument.\" J.M. Davidson, Inc. , 128 S.W.3d at 229.\nRefractory Construction focuses its arguments in particular on the sub-subcontract's \"Multi-Party Proceeding\" provision. The first sentence of this provision states as follows: \"All parties necessary to resolve a matter agree to be parties to the same dispute resolution proceeding.\"\nThis first sentence does not exist in isolation. To the contrary, it is followed immediately by another sentence applying this \"Multi-Party Proceeding\" provision \"[t]o the extent disputes between [Orascom] ... and [Crawford] ... involve in whole or in part disputes between [Orascom] ... and [Natgasoline]....\"\nIf a dispute between Orascom and Crawford also involves a dispute between Orascom and Natgasoline, then \"at the sole discretion of [Orascom] ... disputes between [Crawford] ... and [Orascom] ... shall be decided by the same tribunal and in the same forum as disputes between [Crawford] ... and [Natgasoline]....\"\nArguing in favor of a single arbitration proceeding encompassing all parties and all claims, Refractory Construction first points to the sub-subcontract's definition of \"Parties:\"\nThe \"Parties\" are collectively the CONTRACTOR and the SUBCONTRACTOR including their SubSubcontractors.\nRefractory Construction contends that this definition of \"Parties,\" when read in conjunction with the first sentence of the sub-subcontract's \"Multi-Party Proceeding\" provision, supports the denial of a bilateral Orascom-Crawford arbitration in favor of a single arbitration proceeding involving all parties and all claims.\nThe sub-subcontract is unambiguous and we ascertain its meaning as a matter of law. See Milner , 361 S.W.3d at 619. Under these unambiguous terms we reject Refractory Construction's interpretation of the sub-subcontract - and with it, Refractory Construction's reliance upon the sub-subcontract to override the bilateral Orascom-Crawford arbitration mandated under the subcontract. We do so for two reasons.\nFirst, the sub-subcontract defines \"Parties\" as a capitalized term that includes, collectively, contractor Orascom, subcontractor Crawford, and Orascom's and Crawford's sub-subcontractors. \"Parties\" as a capitalized term is employed in multiple sub-subcontract provisions, including those addressing the scope of the work, the progress schedule, indemnity, insurance, and bonds.\nThe sub-subcontract's \"Multi-Party Proceeding\" provision, in contrast, utilizes the word \"parties\" in its uncapitalized form. Ignoring the uncapitalized use of \"parties\" in favor of applying the defined, capitalized term would vitiate the sub-subcontract's distinction between \"Parties\" and \"parties.\" We decline to apply an interpretation of the sub-subcontract that would render these distinctions meaningless. See Branch Law Firm L.L.P. , 532 S.W.3d at 12 ; Va. Power Energy Mktg., Inc. , 297 S.W.3d at 403 ; see also PopCap Games, Inc. v. MumboJumbo, LLC , 350 S.W.3d 699, 708 (Tex. App.-Dallas 2011, pet. denied) (\"The use of different language in different parts of a contract generally means that the parties intended different things.\").\nSecond, even if we were to apply the defined term \"Parties\" to the sub-subcontract's \"Multi-Party Proceeding\" provision, this provision still would not authorize Refractory Construction to compel a single arbitration proceeding encompassing all parties (including Refractory Construction) and all claims.\nThe subcontract and sub-subcontract contain identical \"Multi-Party Proceeding\" provisions, and we consider these contracts together to ascertain the \"Multi-Party Proceeding\" provisions' intended effect. See DeWitt Cty. Elec. Coop., Inc. v. Parks , 1 S.W.3d 96, 102 (Tex. 1999) (\"Under generally accepted principles of contract interpretation, all writings that pertain to the same transaction will be considered together, even if they were executed at different times and do not expressly refer to one another.\"); Cleveland Constr., Inc. v. Levco Constr., Inc. , 359 S.W.3d 843, 852-53 (Tex. App.-Houston [1st Dist.] 2012, pet. dism'd) (same).\nThe identical \"Multi-Party Proceeding\" provisions in both the subcontract and the sub-subcontract provide that Orascom has sole discretion to add a party to an arbitration proceeding between Orascom and Crawford. That additional party is Natgasoline. Neither the subcontract nor the sub-subcontract grants Refractory Construction a parallel right to add itself or another party to an arbitration proceeding between Orascom and Crawford, or to inject itself into the bilateral Orascom-Crawford arbitration mandated by the subcontract. Refractory Construction's overbroad interpretation of the provisions' first sentence cannot be harmonized with the second sentence's limited allocation of sole discretion to Orascom to add Natgasoline to an Orascom-Crawford arbitration. See J.M. Davidson, Inc. , 128 S.W.3d at 229 ; Branch Law Firm L.L.P. , 532 S.W.3d at 12. Therefore, we reject Refractory Construction's interpretation of the sub-subcontract's \"Multi-Party Proceeding\" provision.\nRefractory Construction also relies on Texas Rule of Civil Procedure 39 to support its contention that it is a necessary party to an Orascom-Crawford arbitration. But \"absent a specific agreement[,] the rules of civil procedure and joinder of claims and parties do not apply in arbitration.\" Crossmark, Inc. v. Hazar , 124 S.W.3d 422, 434 (Tex. App.-Dallas 2004, pet. denied) ; see also In re F.C. Holdings, Inc. , 349 S.W.3d 811, 816 (Tex. App.-Tyler 2011, orig. proceeding [mand. denied] ).\nThe subcontract's and sub-subcontract's arbitration provisions do not invoke the Texas Rules of Civil Procedure; the provisions state that they are governed by the arbitration rules promulgated by the International Chamber of Commerce. Texas Rule of Civil Procedure 39 therefore does not provide a basis to compel a consolidated arbitration involving all parties and all claims.\nB. Estoppel\nRefractory Construction asserts that \"equitable estoppel operates to estop [Orascom and Crawford], signatories to the subcontract, from arbitrating in [Refractory Construction's] absence.\"\nThe parties encompassed by an arbitration agreement generally are determined with reference to the parties' intent as expressed by the agreement's terms. Jody James Farms, JV v. Altman Group, Inc. , 547 S.W.3d 624, 633 (Tex. 2018). Arbitration with a non-signatory may be required in several circumstances, including (1) incorporation by reference, (2) assumption, (3) agency, (4) alter ego, (5) estoppel, and (6) third-party beneficiary. Id. ; see also Cotton Commercial USA, Inc. v. Clear Creek Ind. Sch. Dist. , 387 S.W.3d 99, 104-04 & n.4 (Tex. App.-Houston [14th Dist.] 2012, no pet.). \"Estoppel\" encompasses two distinct bases for compelling arbitration with respect to non-signatories: direct benefits estoppel and intertwined claims estoppel. See Jody James Farms, JV , 547 S.W.3d at 637-40.\nDespite its status as a non-signatory to the subcontract, Refractory Construction contends that it can join an Orascom-Crawford bilateral arbitration under the subcontract pursuant to the direct benefits and intertwined claims bases for estoppel. We examine each theory in turn.\n1. Direct benefits estoppel\nUnder principles of direct benefits estoppel, \" 'a litigant who sues based on a contract subjects him or herself to the contract's terms ... including the Arbitration Addendum.\" G.T. Leach Builders, LLC , 458 S.W.3d at 527 (quoting In re FirstMerit Bank, N.A. , 52 S.W.3d 749, 755-56 (Tex. 2001) (orig. proceeding) ). Direct benefits estoppel prevents a claimant from seeking benefits under a contract while simultaneously attempting to avoid the contract's obligations, such as an obligation to arbitrate disputes. In re Kellogg Brown & Root, Inc. , 166 S.W.3d 732, 739 (Tex. 2005) (orig. proceeding). \"Thus, a non-signatory plaintiff may be compelled to arbitrate if it seeks to enforce terms of a contract containing an arbitration provision.\" Id.\nDirect benefits estoppel does not apply merely because a non-signatory's claim \"relates to\" a contract containing an arbitration agreement. G.T. Leach Builders, LLC , 458 S.W.3d at 527. Rather, the non-signatory must \"seek to derive a direct benefit\" from the agreement such that its claim \"depend[s] on the existence of the contract and [would] be unable to stand independently without the contract.\" Id. at 527-28 (internal quotations omitted); see, e.g., Rachal v. Reitz , 403 S.W.3d 840, 847-48 (Tex. 2013) (by pursuing a suit based on a trust's terms and validity, the non-signatory beneficiary was barred by direct benefits estoppel from avoiding a trust's arbitration provision); In re FirstMerit Bank, N.A. , 52 S.W.3d at 752-53, 755-56 (by suing based on the contract, the plaintiffs sought benefits that stemmed directly from the contract; the plaintiffs therefore were subject to the contract's arbitration provision). If a non-signatory's claims can stand independently of the underlying contract, then arbitration generally should not be compelled under a theory of direct benefits estoppel. In re Kellogg Brown & Root, Inc. , 166 S.W.3d at 739-40.\nTo support its invocation of direct benefits estoppel as a basis for joining the bilateral Orascom-Crawford arbitration, Refractory Construction asserts that Orascom \"call[s] for an interpretation of the sub-subcontract ... which would provide Orascom with the sole discretion to join parties to an arbitration under the sub-subcontract\" (emphasis in original). When Orascom asserts its interpretation of the sub-subcontract, Refractory Construction argues that Orascom \"clearly seek[s] to derive direct benefits\" from the sub-subcontract - benefits that in turn permit Refractory Construction to join a bilateral Orascom-Crawford arbitration under the subcontract.\nWe reject Refractory Construction's contention. Direct benefits estoppel prevents a party from asserting a claim under a contract and simultaneously avoiding the contract's obligations, such as an arbitration provision. See G.T. Leach Builders, LLC , 458 S.W.3d at 527 ; In re Kellogg Brown & Root, Inc. , 166 S.W.3d at 739. Here, Orascom asserts no claims against Refractory Construction under the sub-subcontract to which Orascom is not a signatory. Orascom therefore does not seek to derive a \"direct benefit\" from the sub-subcontract as necessary to invoke direct benefits estoppel. See G.T. Leach Builders, LLC , 458 S.W.3d at 527 (direct benefits estoppel prevents a plaintiff from asserting a claim that \"depend[s] on the existence\" of the contract but simultaneously avoiding the contract's arbitration provision); In re Kellogg Brown & Root, Inc. , 166 S.W.3d at 739 (\"a non-signatory plaintiff may be compelled to arbitrate if its claims are 'based on a contract' containing an agreement to arbitrate\").\nUnder these circumstances, Refractory Construction cannot invoke the sub-subcontract and direct benefits estoppel to justify a single arbitration proceeding involving all parties and all claims in place of the bilateral Orascom-Crawford arbitration specified under the subcontract.\n2. Intertwined claims estoppel\nRefractory Construction asserts that the theory of intertwined claims estoppel prevents Orascom and Crawford from arbitrating without Refractory Construction because Refractory Construction's \"claims are so intertwined with the subcontract.\"\nIn Merrill Lynch Investment Managers v. Optibase, Ltd. , 337 F.3d 125 (2nd Cir. 2003), the Second Circuit discussed an \"alternative estoppel theory,\" also called \"intertwined-claims theory.\" Id. at 131. Intertwined claims estoppel may permit a non-signatory to compel arbitration when (1) the non-signatory has a close relationship with a signatory to a contract with an arbitration agreement, and (2) the non-signatory's claims are \"intimately founded in and intertwined with the underlying contract obligations.\" See In re Merrill Lynch Trust Co. FSB , 235 S.W.3d 185, 193 (Tex. 2007) (orig. proceeding); see also Jody James Farms, JV , 547 S.W.3d at 639. This estoppel formulation has not been adopted by the Supreme Court of Texas. See Jody James Farms, JV , 547 S.W.3d at 639 ; In re Merrill Lynch Trust Co. FSB , 235 S.W.3d at 193.\nLimiting the application of intertwined claims estoppel, the Second Circuit has clarified that the theory does not apply \"whenever a relationship of any kind may be found among the parties to a dispute and their dispute deals with the subject matter of an arbitration contract made by one of them.\" Sokol Holdings, Inc. v. BMB Munai, Inc. , 542 F.3d 354, 359 (2nd Cir. 2008). Instead, the Second Circuit decisions that compel arbitration on the basis of intertwined claims \"typically involve some corporate affiliation between a signatory and non-signatory, not just a working relationship.\"\nJody James Farms, JV , 547 S.W.3d at 640 (citing Sokol Holdings, Inc. , 542 F.3d at 359-61 ).\nDeclining to adopt intertwined claims estoppel in Jody James Farms, JV , the Supreme Court of Texas noted that the defendants \"may have an entangled business relationship\" with respect to the transaction at issue, but no evidence \"show[ed] them to be anything other than independent and distinct entities.\" Id. To compel arbitration based on intertwined claims estoppel, \"the relationship must be closer than merely independent participants in a business transaction.\" Id.\nHere, too, the evidence does not show that Orascom, Crawford, and Refractory Construction are \"anything other than independent and distinct entities\" that contracted to participate in a construction project. See id. Intertwined claims estoppel cannot arise solely from this working relationship. See id. ; see also Merrill Lynch Investment Managers , 337 F.3d at 131 ; In re Merrill Lynch Trust Co. FSB , 235 S.W.3d at 193. Because the parties are \"merely independent participants in a business transaction,\" intertwined claims estoppel does not authorize a single arbitration proceeding involving all parties and all claims. See Merrill Lynch Inv. Managers , 337 F.3d at 131 ; Jody James Farms, JV , 547 S.W.3d at 639 ; In re Merrill Lynch Trust Co. FSB , 235 S.W.3d at 193.\nC. Public Policy\nRefractory Construction asserts that an arbitration between Orascom and Crawford without Refractory Construction's participation would permit its \"rights to be adjudicated in its absence\" and would leave Refractory Construction \"with effectively no remedy.\"\nAlthough arbitration is favored under public policy, it also is a creature of contract and \"cannot be ordered in the absence of an agreement to arbitrate.\" Cedillo v. Immobiliere Jeuness Establissement , 476 S.W.3d 557, 564 (Tex. App.-Houston [14th Dist.] 2015, pet. denied) ; see also In re Kellogg Brown & Root, Inc. , 166 S.W.3d at 738.\nHere, the subcontract mandates a bilateral Orascom-Crawford arbitration proceeding. Neither the subcontract nor the sub-subcontract permits Refractory Construction to override this mandate in favor of a single arbitration proceeding involving all parties and all claims. Refractory Construction's estoppel arguments also do not provide a basis to compel a consolidated arbitration proceeding. Standing alone, Refractory Construction's policy arguments do not support denying a bilateral Orascom-Crawford arbitration under the subcontract in favor of a single proceeding involving all parties and all claims. See In re Kellogg Brown & Root, Inc. , 166 S.W.3d at 738 ; Cedillo , 476 S.W.3d at 564. We reject Refractory Construction's public policy arguments.\nCONCLUSION\nIn their notice of appeal and before this court, Orascom and Natgasoline assert that appellate jurisdiction exists here because this proceeding is (1) an appeal from a final judgment; or (2) a statutorily authorized interlocutory appeal; or (3) a mandamus proceeding. We conclude that we have jurisdiction to consider Orascom's interlocutory appeal and lack appellate jurisdiction over Natgasoline's appeal.\nConsidering the merits of Orascom's authorized interlocutory appeal, we conclude that the trial court erred in denying Orascom's motion to compel a bilateral Orascom-Crawford arbitration under the subcontract, and in ordering instead a single arbitration proceeding involving all parties and all claims. We reverse the trial court's May 24, 2017 and June 6, 2018 orders and remand for further proceedings consistent with this opinion.\nThe subcontract's \"Multi-Party Proceeding\" provision grants limited discretion to involve other parties in an arbitration proceeding, but this discretion is vested solely in Orascom and extends only to disputes between Orascom and Natgasoline. Orascom and Natgasoline do not assert any claims against each other in the underlying proceeding. Therefore, this provision does not authorize Refractory Construction to join an arbitration between Orascom and Crawford.",
+        "type": "majority",
+        "author": "William J. Boyce, Justice"
+      }
+    ],
+    "attorneys": [
+      "Adam Quentin Voyles, McKenna Harper, Morgan G. Gullatt, Spencer G. Markle, Houston, TX, for Appellee.",
+      "Kay J. Hazelwood, Suzanna Caroline Bonham, Houston, TX, for Appellants."
+    ],
+    "corrections": "",
+    "head_matter": "NATGASOLINE LLC and Orascom E&C USA Inc., Appellants\nv.\nREFRACTORY CONSTRUCTION SERVICES, CO. LLC, Appellee\nNO. 14-17-00503-CV\nCourt of Appeals of Texas, Houston (14th Dist.).\nOpinion filed December 18, 2018\nRehearing En Banc Denied February 19, 2019\nAdam Quentin Voyles, McKenna Harper, Morgan G. Gullatt, Spencer G. Markle, Houston, TX, for Appellee.\nKay J. Hazelwood, Suzanna Caroline Bonham, Houston, TX, for Appellants.\nPanel consists of Justices Boyce, Christopher, and Busby."
+  },
+  "file_name": "0871-01",
+  "first_page_order": 871,
+  "last_page_order": 890
+}

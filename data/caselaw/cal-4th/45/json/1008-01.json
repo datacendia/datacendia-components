@@ -1,0 +1,920 @@
+{
+  "id": 3892750,
+  "name": "STATE OF CALIFORNIA, Plaintiff and Appellant, v. ALLSTATE INSURANCE COMPANY et al., Defendants and Respondents; STATE OF CALIFORNIA, Plaintiff, v. UNDERWRITERS AT LLOYD'S LONDON et al., Defendants",
+  "name_abbreviation": "State v. Allstate Insurance",
+  "decision_date": "2009-03-09",
+  "docket_number": "No. S149988",
+  "first_page": "1008",
+  "last_page": "1038",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "45 Cal. 4th 1008"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "Cal.",
+    "id": 9021,
+    "name": "Supreme Court of California"
+  },
+  "jurisdiction": {
+    "id": 30,
+    "name_long": "California",
+    "name": "Cal."
+  },
+  "cites_to": [
+    {
+      "cite": "48 P.3d 408",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "121 Cal.Rptr.2d 373",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "28 Cal.4th 274",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        947610
+      ],
+      "pin_cites": [
+        {
+          "page": "279-280, 285"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/28/0274-01"
+      ]
+    },
+    {
+      "cite": "913 P.2d 878",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.Rptr.2d 324",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "10 Cal.4th 645",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1992355
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/10/0645-01"
+      ]
+    },
+    {
+      "cite": "494 S.E.2d 774",
+      "category": "reporters:state_regional",
+      "reporter": "S.E.2d",
+      "pin_cites": [
+        {
+          "page": "784"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "128 N.C.App. 189",
+      "category": "reporters:state",
+      "reporter": "N.C. App.",
+      "case_ids": [
+        11653257
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/nc-app/128/0189-01"
+      ]
+    },
+    {
+      "cite": "676 N.E.2d 801",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.2d",
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "806"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "424 Mass. 226",
+      "category": "reporters:state",
+      "reporter": "Mass.",
+      "case_ids": [
+        117617
+      ],
+      "year": 1998,
+      "opinion_index": 0,
+      "case_paths": [
+        "/mass/424/0226-01"
+      ]
+    },
+    {
+      "cite": "529 P.2d 608",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "118 Cal.Rptr. 184",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "13 Cal.3d 43",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2317632
+      ],
+      "pin_cites": [
+        {
+          "page": "60"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/13/0043-01"
+      ]
+    },
+    {
+      "cite": "578 P.2d 899",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "146 Cal.Rptr. 182",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "20 Cal.3d 578",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2288520
+      ],
+      "pin_cites": [
+        {
+          "page": "586-589"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/20/0578-01"
+      ]
+    },
+    {
+      "cite": "75 Cal.Rptr.2d 54",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "63 Cal.App.4th 1440",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "pin_cites": [
+        {
+          "page": "1460"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "35 Cal.Rptr.3d 799",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "year": 1998,
+      "opinion_index": 0
+    },
+    {
+      "cite": "134 Cal.App.4th 187",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6048676
+      ],
+      "weight": 2,
+      "year": 1998,
+      "pin_cites": [
+        {
+          "page": "194"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/134/0187-01"
+      ]
+    },
+    {
+      "cite": "819 P.2d 872",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 2005,
+      "opinion_index": 0
+    },
+    {
+      "cite": "1 Cal.Rptr.2d 913",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 2005,
+      "opinion_index": 0
+    },
+    {
+      "cite": "54 Cal.3d 1041",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        1946394
+      ],
+      "year": 2005,
+      "pin_cites": [
+        {
+          "page": "1048-1054"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/54/1041-01"
+      ]
+    },
+    {
+      "cite": "941 P.2d 1203",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "year": 1991,
+      "opinion_index": 0
+    },
+    {
+      "cite": "67 Cal.Rptr.2d 16",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "year": 1991,
+      "opinion_index": 0
+    },
+    {
+      "cite": "16 Cal.4th 953",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1217891
+      ],
+      "year": 1991,
+      "pin_cites": [
+        {
+          "page": "968-969"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/16/0953-01"
+      ]
+    },
+    {
+      "cite": "770 P.2d 704",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "257 Cal.Rptr. 292",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "48 Cal.3d 395",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4614625
+      ],
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "407"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/48/0395-01"
+      ]
+    },
+    {
+      "cite": "102 Cal.Rptr.2d 834",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "85 Cal.App.4th 1300",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        1244203
+      ],
+      "weight": 3,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/85/1300-01"
+      ]
+    },
+    {
+      "cite": "133 N.E. 437",
+      "category": "reporters:state_regional",
+      "reporter": "N.E.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "232 N.Y. 176",
+      "category": "reporters:state",
+      "reporter": "N.Y.",
+      "case_ids": [
+        1898249
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/ny/232/0176-01"
+      ]
+    },
+    {
+      "cite": "799 P.2d 1253",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "274 Cal.Rptr. 820",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "51 Cal.3d 807",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        4457524
+      ],
+      "pin_cites": [
+        {
+          "page": "833"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/51/0807-01"
+      ]
+    },
+    {
+      "cite": "545 F.2d 95",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        1014948
+      ],
+      "pin_cites": [
+        {
+          "page": "96"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/545/0095-01"
+      ]
+    },
+    {
+      "cite": "118 Cal.Rptr. 75",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "43 Cal.App.3d 745",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 3d",
+      "case_ids": [
+        4428456
+      ],
+      "pin_cites": [
+        {
+          "page": "750-753"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-3d/43/0745-01"
+      ]
+    },
+    {
+      "cite": "861 P.2d 1153",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "24 Cal.Rptr.2d 467",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "6 Cal.4th 287",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        1995112
+      ],
+      "pin_cites": [
+        {
+          "page": "304-305"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/6/0287-01"
+      ]
+    },
+    {
+      "cite": "284 P.2d 809",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "133 Cal.App.2d 700",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 2d",
+      "case_ids": [
+        2189237
+      ],
+      "pin_cites": [
+        {
+          "page": "703"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-2d/133/0700-01"
+      ]
+    },
+    {
+      "cite": "412 P.2d 529",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "50 Cal.Rptr. 273",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "64 Cal.2d 396",
+      "category": "reporters:state",
+      "reporter": "Cal. 2d",
+      "case_ids": [
+        12127626
+      ],
+      "pin_cites": [
+        {
+          "page": "400"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-2d/64/0396-01"
+      ]
+    },
+    {
+      "cite": "173 R 994",
+      "category": "reporters:state_regional",
+      "reporter": "R",
+      "opinion_index": 0
+    },
+    {
+      "cite": "178 Cal. 450",
+      "category": "reporters:state",
+      "reporter": "Cal.",
+      "case_ids": [
+        1995197
+      ],
+      "pin_cites": [
+        {
+          "page": "453"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal/178/0450-01"
+      ]
+    },
+    {
+      "cite": "881 P.2d 201",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "pin_cites": [
+        {
+          "page": "206"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "124 Wn.2d 618",
+      "category": "reporters:state",
+      "reporter": "Wash. 2d",
+      "case_ids": [
+        507165
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wash-2d/124/0618-01"
+      ]
+    },
+    {
+      "cite": "572 N.W.2d 686",
+      "category": "reporters:state_regional",
+      "reporter": "N.W.2d",
+      "pin_cites": [
+        {
+          "page": "703"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "225 Mich.App. 635",
+      "category": "reporters:state",
+      "reporter": "Mich. App.",
+      "case_ids": [
+        481994
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/mich-app/225/0635-01"
+      ]
+    },
+    {
+      "cite": "882 P.2d 703",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "pin_cites": [
+        {
+          "page": "719"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "126 Wn.2d 50",
+      "category": "reporters:state",
+      "reporter": "Wash. 2d",
+      "case_ids": [
+        436063
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/wash-2d/126/0050-01"
+      ]
+    },
+    {
+      "cite": "15 F.3d 699",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        1527466
+      ],
+      "year": 1994,
+      "pin_cites": [
+        {
+          "page": "704"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/15/0699-01"
+      ]
+    },
+    {
+      "cite": "73 P.3d 1205",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "3 Cal.Rptr.3d 228",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "31 Cal.4th 635",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        17925
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/31/0635-01"
+      ]
+    },
+    {
+      "cite": "15 Cal.Rptr.2d 815",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "12 Cal.App.4th 715",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        6035626
+      ],
+      "pin_cites": [
+        {
+          "page": "783-784"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/12/0715-01"
+      ]
+    },
+    {
+      "cite": "73 Cal.Rptr.2d 116",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "62 Cal.App.4th 882",
+      "category": "reporters:state",
+      "reporter": "Cal. App. 4th",
+      "case_ids": [
+        283062
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-app-4th/62/0882-01"
+      ]
+    },
+    {
+      "cite": "959 P.2d 1213",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "77 Cal.Rptr.2d 537",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 2d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "18 Cal.4th 1183",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        344161
+      ],
+      "pin_cites": [
+        {
+          "page": "1192"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/18/1183-01"
+      ]
+    },
+    {
+      "cite": "115 P.3d 68",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal.Rptr.3d 787",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Cal.4th 495",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3123396
+      ],
+      "pin_cites": [
+        {
+          "page": "501"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/36/0495-01"
+      ]
+    },
+    {
+      "cite": "116 P.3d 1123",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "32 Cal.Rptr.3d 436",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Cal.4th 1028",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3121992
+      ],
+      "pin_cites": [
+        {
+          "page": "1037"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/36/1028-01"
+      ]
+    },
+    {
+      "cite": "171 P.3d 1082",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "68 Cal.Rptr.3d 746",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "42 Cal.4th 713",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3673019
+      ],
+      "pin_cites": [
+        {
+          "page": "720"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/42/0713-01"
+      ]
+    },
+    {
+      "cite": "115 P.3d 77",
+      "category": "reporters:state_regional",
+      "reporter": "P.3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "30 Cal.Rptr.3d 797",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr. 3d",
+      "opinion_index": 0
+    },
+    {
+      "cite": "36 Cal.4th 446",
+      "category": "reporters:state",
+      "reporter": "Cal. 4th",
+      "case_ids": [
+        3123113
+      ],
+      "pin_cites": [
+        {
+          "page": "460"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-4th/36/0446-01"
+      ]
+    },
+    {
+      "cite": "514 P.2d 123",
+      "category": "reporters:state_regional",
+      "reporter": "P.2d",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "109 Cal.Rptr. 811",
+      "category": "reporters:state",
+      "reporter": "Cal. Rptr.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "10 Cal.3d 94",
+      "category": "reporters:state",
+      "reporter": "Cal. 3d",
+      "case_ids": [
+        2299823
+      ],
+      "weight": 4,
+      "opinion_index": 0,
+      "case_paths": [
+        "/cal-3d/10/0094-01"
+      ]
+    },
+    {
+      "cite": "1993 WL 565393",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "opinion_index": 0
+    },
+    {
+      "cite": "1995 WL 450856",
+      "category": "reporters:specialty_west",
+      "reporter": "WL",
+      "weight": 2,
+      "opinion_index": 0
+    }
+  ],
+  "analysis": {
+    "cardinality": 2177,
+    "char_count": 74361,
+    "ocr_confidence": 0.907,
+    "pagerank": {
+      "raw": 3.5480308516668835e-07,
+      "percentile": 0.8851226461465515
+    },
+    "sha256": "195a0f20975c7295376588f2f4417b8b221a0566db6344f322269d0faf2e72fc",
+    "simhash": "1:7a31675a7cf200c3",
+    "word_count": 11852
+  },
+  "last_updated": "2024-02-27T22:20:01.435318+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "STATE OF CALIFORNIA, Plaintiff and Appellant, v. ALLSTATE INSURANCE COMPANY et al., Defendants and Respondents. STATE OF CALIFORNIA, Plaintiff, v. UNDERWRITERS AT LLOYD\u2019S LONDON et al., Defendants."
+    ],
+    "opinions": [
+      {
+        "text": "Opinion\nWERDEGAR, J.\nThis case arises from efforts by the State of California (State) to obtain insurance coverage for property damage liability imposed in a federal lawsuit as a result of discharges from the \u201cStringfellow Acid Pits,\u201d a State-designed and -operated hazardous waste disposal facility in Riverside County. The trial court granted summary judgment to four of the State\u2019s excess insurers, and the Court of Appeal reversed. The case presents several issues regarding application of pollution exclusions in comprehensive general liability policies: (1) In determining whether the \u201csudden and accidental\u201d discharge exception to the policies\u2019 pollution exclusion applies, is the proper focus on the initial deposit of chemical wastes into storage on the site or, instead, on the escape of pollutants from the site into the larger environment? (2) Does whether an absolute exclusion for pollution of a \u201cwatercourse\u201d applies to a 1969 overflow, in which polluted runoff ran down a creekbed, present a triable issue of fact? (3) Does whether an emergency release of polluted runoff in 1978 was \u201caccidental\u201d present a triable issue of fact? (4) If triable issues exist as to whether some, but not all, discharges of pollutants from the site were sudden and accidental, did the trial court properly grant the insurers summary judgment on the ground that the State cannot prove what part of its property damage liability resulted from sudden and accidental discharges?\nOn these issues, we conclude: (1) Because the State\u2019s liability for property damage was founded on its negligence in allowing pollutants to escape from the Stringfellow evaporation ponds into the surrounding groundwater and land, the proper focus of analysis here is on discharges from the ponds, rather than deposits to them. (2) A triable issue exists whether the entirety of the 1969 overflow discharge was limited to a watercourse. (3) A triable issue exists whether the 1978 release was \u201caccidental.\u201d (4) Because a triable issue of fact exists as to whether sudden and accidental discharges were a substantial factor in causing indivisible property damage for which the State was found liable, the trial court erred in granting summary judgment on the ground that the State cannot prove how much of its liability is traceable to those discharges. Based on these conclusions, we will affirm in part and reverse in part the judgment of the Court of Appeal.\nFactual and Procedural Background\nThe State seeks coverage from four insurers, Allstate Insurance Company, Century Indemnity Company, Columbia Casualty Company, and Westport Insurance Corporation (collectively Insurers), for liability imposed in a federal court civil action based on discharge of hazardous wastes from the Stringfellow Acid Pits. In the federal action, the State and the United States sued companies that had disposed of waste at the Stringfellow Acid Pits, and the companies counterclaimed against the State. In 1998, the federal district court held the State 100 percent liable for claims under California law, and 65 percent liable for claims under federal law, for past and future costs of remediating contamination of land and groundwater. The State expects those remediation costs to exceed $500 million. (See United States v. Stringfellow (C.D.Cal., Jan. 24, 1995, No. CV-83-2501 JMI (Mx)) 1995 WL 450856, pp. *5-*6.)\nMany of the undisputed facts that follow are taken from the November 1993 report of a special master in the federal case, which was adopted, with modifications, by the district court, and which was added to the summary judgment record by one of the Insurers. (United States v. Stringfellow (C.D.Cal., Nov. 30, 1993, No. CV 83-2501 JMI) 1993 WL 565393; see United States v. Stringfellow, supra, 1995 WL 450856 at p. *1.)\nIn the 1950\u2019s, the State selected the location for, and designed and directed the construction of, a class I hazardous waste disposal site (i.e., one capable of accepting all types of liquid wastes) known as the Stringfellow Acid Pits. The facility, located in the Jampa Mountains just north of the community of Glen Avon, in Riverside County, sat on the floor of a canyon drained by Pyrite Creek. In 1955, geologist Robert Fox inspected the Stringfellow site for the State. After a brief inspection that included no borings or soil analysis, Fox deemed the site suitable because of what he believed to be an impermeable layer of rock, which he assumed had no water in it, beneath the site. Fox\u2019s investigation resulted in a report concluding that with construction of a watertight barrier dam across the canyon, and with adequate measures to divert runoff, the site would pose no threat of environmental pollution.\nThe State directed construction of open, unlined evaporation ponds to contain the hazardous waste, channels to divert rainwater around the site, and a barrier dam at the bottom of the site. The hazardous waste disposal facility was opened in 1956. At the direction and under the control of the State, more than 30 million gallons of liquid industrial waste were deposited in the Stringfellow ponds during the facility\u2019s operation; the State closed the site to new deposits in 1972 after the discovery of groundwater contamination.\nFox\u2019s assessment of the site proved inaccurate. In fact, the site was underlain by decomposed granite and fractured bedrock, through which an underground alluvial channel ran. By 1960, a later report by a State expert found, chemical pollution was seeping into the groundwater through the fractured rock and around the ends of the barrier dam, which had been negligently constructed. A plume of contaminated groundwater moved down-gradient from the site.\nIn addition to underground leaking, two major overflow episodes occurred at the site. In March 1969, a rainstorm of around 20 inches (statistically expected to occur no more than once every 50 years), following on earlier heavy rains in January and February, flooded the site, causing the waste ponds to overflow and send polluted water down the canyon. In March 1978, again following extraordinarily heavy rains, the ponds were once more near overflowing and the retention dam began to fail. The State made a series of controlled discharges from the ponds, releasing about one million gallons of diluted waste down the Pyrite Creek channel. (The circumstances of the 1969 and 1978 releases are discussed in greater detail in connection with the legal issues.)\nThe State requested coverage for the liability imposed in the federal action from several insurers, including the four involved in this appeal. All four of the pertinent comprehensive general liability polices contain coverage exclusions for liability resulting from environmental pollution. Three of the policies (all but Columbia Casualty Company\u2019s) contain a then standard exclusion, qualified by a \u201csudden and accidental\u201d exception as to pollution to land or air, but absolute as to pollution to watercourses and bodies of water: \u201cThis policy does not apply: [][]... [][] H. To Personal Injury or Property Damage arising out of the discharge, dispersal, release or escape of smoke, vapors, soot, fumes, acids, alkalis, toxic chemicals, liquids or gases, waste materials or other irritants, contaminants or pollutants into or upon land or the atmosphere, but this exclusion does not apply if such discharge, dispersal, release or escape is sudden and accidental. [j[] It is further agreed that the Policy does not apply to Personal Injury or Property Damage arising out of the discharges, dispersal, release or escape of smoke, vapors, soot, fumes, acids, alkalis, toxic chemicals, liquids or gases, waste materials or other irritants, contaminants or pollutants into or upon any watercourse or body of water.\u201d (Italics added.)\nColumbia Casualty Company\u2019s policy combined the exclusion for pollution of land and air with that for pollution of watercourses and bodies of water, making both subject to the exception for \u201csudden and accidental\u201d discharges.\nInsurers denied coverage. The State then brought this action for declaratory relief, breach of contract, and bad faith denial of coverage. The trial court granted Insurers summary judgment based on their policies\u2019 pollution exclusions. The Court of Appeal reversed. As relevant here, the appellate court held that the focus in applying the pollution exclusion was properly on release of pollutants from containment on the Stringfellow site, that triable issues of fact exist as to whether the 1969 overflow of waste was \u201csudden and accidental\u201d and whether it discharged pollutants onto land as well as into a watercourse, but that the undisputed facts show the 1978 release was not \u201caccidental\u201d because the State had been warned, after the 1969 events, that it needed to cover the ponds to avoid a reoccurrence.\nRegarding the State\u2019s inability to separate out the cost of remediating sudden and accidental releases from costs attributable to the gradual seepage of pollutants from the evaporation ponds into the groundwater (the State had effectively so admitted in response to discovery requests), the Court of Appeal, relying on our decision in State Farm Mut. Auto. Ins. Co. v. Partridge (1973) 10 Cal.3d 94 [109 Cal.Rptr. 811, 514 P.2d 123], held the policies covered the State\u2019s liability for indivisible damage caused partly by covered causes and partly by excluded causes. The appellate court therefore reversed the grant of summary judgment to Insurers, but ordered the superior court, on remand, to grant their alternative motion for summary adjudication of issues, establishing that the 1978 release as well as the gradual escape of pollutants were excluded events under the policies.\nWe granted Insurers\u2019 petitions for review, which challenged the Court of Appeal\u2019s holdings on the relevant release for application of the pollution exclusions, whether the 1969 discharge was within the watercourse pollution exclusion, and the burden of allocating costs between covered and excluded causes. The State\u2019s answer to the petitions raised the further issue of whether the Court of Appeal had correctly held the 1978 release to be nonaccidental as a matter of law.\nDiscussion\n\u201c \u2018A trial court properly grants a motion for summary judgment only if no issues of triable fact appear and the moving party is entitled to judgment as a matter of law. (Code Civ. Proc., \u00a7 437c, subd. (c); see also id., \u00a7 437c, subd. (f) [summary adjudication of issues].) The moving party bears the burden of showing the court that the plaintiff \u201chas not established, and cannot reasonably expect to establish,\u201d \u2019 the elements of his or her cause of action. (Miller v. Department of Corrections (2005) 36 Cal.4th 446, 460 [30 Cal.Rptr.3d 797, 115 P.3d 77].)\u201d (Wilson v. 21st Century Ins. Co. (2007) 42 Cal.4th 713, 720 [68 Cal.Rptr.3d 746, 171 P.3d 1082].) We review the trial court\u2019s decision de novo, liberally construing the evidence in support of the party opposing summary judgment and resolving doubts concerning the evidence in favor of that party. (Yanowitz v. L\u2019Oreal USA, Inc. (2005) 36 Cal.4th 1028, 1037 [32 Cal.Rptr.3d 436, 116 P.3d 1123].)\n\u201cOur goal in construing insurance contracts, as with contracts generally, is to give effect to the parties\u2019 mutual intentions. [Citations.] \u2018If contractual language is clear and explicit, it governs.\u2019 [Citations.] If the terms are ambiguous, we interpret them to protect \u2018 \u201cthe objectively reasonable expectations of the insured.\u201d \u2019 \u201d (Boghos v. Certain Underwriters at Lloyd\u2019s of London (2005) 36 Cal.4th 495, 501 [30 Cal.Rptr.3d 787, 115 P.3d 68].) The \u201csudden and accidental\u201d exception to the pollution exclusion, which we construe and apply in this case, acts to reinstate coverage where it would otherwise be barred by the exclusion, and, \u201c[a]s a coverage provision, the exception will be construed broadly in favor of the insured.\u201d (Aydin Corp. v. First State Ins. Co. (1998) 18 Cal.4th 1183, 1192 [77 Cal.Rptr.2d 537, 959 P.2d 1213].)\nI. The Relevant Discharge for Application of the Pollution Exclusion\nThe Court of Appeal held that because the basis for the State\u2019s federal court liability was the escape into the environment of pollutants from containment ponds on the site, \u201cthe release of the wastes from the site after they had been deposited there by other entities\u201d was \u201cthe relevant discharge for purposes of determining whether the State\u2019s discharge of pollutants was \u2018sudden and accidental.\u2019 \u201d Insurers, relying on Standun, Inc. v. Fireman\u2019s Fund Ins. Co. (1998) 62 Cal.App.4th 882 [73 Cal.Rptr.2d 116] (Standun), argue, to the contrary, that the relevant discharges are the \u201cinitial disposals of waste into the unlined ponds,\u201d which discharges were, of course, neither sudden nor accidental.\nWe agree with the Court of Appeal. The State seeks indemnity from Insurers for its liability for property damage as determined in the federal action. The policies exclude such liability if the property damage arises out of a discharge of pollutants to land, unless the discharge was \u201csudden and accidental.\u201d Because the issue is thus whether the discharge causing the property damage for which the State was found liable was \u201csudden and accidental,\u201d the focus of analysis must be on the particular discharge or discharges that gave rise to that property damage. Here the State\u2019s liability was based on its having sited, designed, built, and operated the Stringfellow facility in such a negligent manner as to allow hazardous chemicals to escape from the evaporation ponds (by both seepage and overflow) into the surrounding environment. The State was not held liable for polluting the evaporation ponds, but for polluting the land and groundwater outside the ponds? The relevant discharges for application of the pollution exclusion, then, are those in which, due to the State\u2019s negligence, pollutants were released from the Stringfellow evaporation ponds into the surrounding soils and groundwater.\nStandun is not to the contrary. The insured in that case was a manufacturer who had dumped its liquid wastes at a landfill operated by a third party. The liquid wastes were not held in containment ponds at the landfill but were deposited on the soil or mixed with solid refuse. (Standun, supra, 62 Cal.App.4th at pp. 885-886, 891.) The appellate court concluded \u201c[t]he relevant discharge as to [the insured] is the discharge of its wastes into the landfill,\u201d not the subsequent migration of wastes from the landfill to other property. (Id. at p. 892.)\nThough it reached a different result, the Standun court\u2019s approach resembles our own. As have we, the court \u201clook[ed] first to the underlying claims to determine the polluting event.\u201d (Standun, supra, 62 Cal.App.4th at p. 890.) The underlying actions, a United States Environmental Protection Agency claim and a third party action for contribution, sought damages from the insured \u201carising out of [its] disposal of hazardous wastes at the . . . landfill.\u201d (Ibid.) Because the policyholder\u2019s liability was based on this set of discharges, which were \u201cpurposeful and regular,\u201d not sudden or accidental, its liability policy\u2019s pollution exclusion barred coverage. (Id. at p. 892.)\nThe result in Standun thus depended, as it does here, on identification of the discharge that formed the basis for the insured\u2019s liability, in that case the insured\u2019s depositing liquid wastes at the landfill. The Court of Appeal in this case explained the importance of the factual distinction: \u201cHere, in contrast, the State was not held liable for dumping wastes into the site. It was held liable for negligently selecting, designing, building, and operating the site. Its liability was based not on the release of wastes into the site\u2014that was, after all, the intended purpose of the site\u2014but on the release of wastes from the site when, because of the State\u2019s negligence, the site failed to contain them properly. Because the bases for the underlying liability in Standun and this case were different, Standun does not support denying coverage here.\u201d\nThe Standun court also opined that where wastes are deposited directly onto the land, not into a containment facility, \u201cthe subsequent release of pollutants from the landfill into the water, air and adjoining land\u201d was merely an instance of \u201cdamages arising out of the discharge.\u201d (Standun, supra, 62 Cal.App.4th at p. 891.) Again, Standun is distinguishable. We agree that in the \u201csudden and accidental\u201d exception, \u201c \u2018 [accidental\u2019 means an unexpected or unintended discharge, not unexpected or unintended damage.\u201d (Id. at p. 889; accord, Shell Oil Co. v. Winterthur Swiss Ins. Co. (1993) 12 Cal.App.4th 715, 783-784 [15 Cal.Rptr.2d 815].) When, as in Standun, pollutants are deposited directly onto land or into water, without any attempt at containment, their further migration may reasonably be viewed as an aspect of property damage rather than an additional release or discharge; arguably, the only \u201cdischarge\u201d to be considered in such a case is the initial deposit. In this case, however, the hazardous wastes were deposited into ponds intended and expected to contain them, albeit ones poorly sited and designed for the purpose. Because the wastes were placed into containment in the evaporation ponds rather than directly dispersed widely into the environment, the initial deposit of chemical wastes into the Stringfellow ponds was not itself a \u201cdischarge, dispersal, release or escape\u201d within the meaning of the pollution exclusion.\nIn MacKinnon v. Truck Ins. Exchange (2003) 31 Cal.4th 635 [3 Cal.Rptr.3d 228, 73 P.3d 1205], we held an apartment building owner\u2019s liability for spraying the building with insecticides was not excluded from coverage by a pollution exclusion phrased similarly to that here (though lacking an exception for sudden and accidental events). (See id. at p. 639.) We noted that the terms \u201crelease\u201d and \u201cescape\u201d in a pollution exclusion \u201cconnote some sort of freedom from containment\u201d (id. at p. 651); \u201cthe word \u2018dispersal,\u2019 when in conjunction with \u2018pollutant,\u2019 is commonly used to describe the spreading of pollution widely enough to cause its dissipation and dilution\u201d (ibid.); and in the pesticide context \u201cdischarge\u201d was most commonly used \u201cto describe pesticide runoff behaving as a traditional environmental pollutant\u201d (id. at p. 652). Because of the tension between the potentially broad literal meanings of these terms and their connotations in common usage, the pollution exclusion as phrased here and in MacKinnon is ambiguous as to its exact scope of application.\nThe initial deposit of wastes at the Stringfellow site put them into confinement, imperfect though it was, and did not itself spread chemical wastes widely through the environment. A reasonable insured would not understand an exclusion for \u201crelease\u201d of pollutants to apply where, as here, the wastes are deposited into intended containment ponds and do not behave as environmental pollutants until they are later released or discharged from the ponds. (See MacKinnon v. Truck Ins. Exchange, supra, 31 Cal.4th at p. 654 [reasonable insured would not understand spraying of pesticides to control insects in building as an act of pollution]; Patz v. St. Paul Fire & Marine Ins. Co. (7th Cir. 1994) 15 F.3d 699, 704 [unlined evaporation pit \u201cwas a containing structure, despite its lack of artificial materials\u201d and \u201c[t]he discharge of wastes into the environment did not occur until the water leached through the bottom of the pit\u201d]; Queen City Farms v. Central Nat\u2019l Ins. (1994) 126 Wn.2d 50 [882 P.2d 703, 719] [placement of wastes into earthen pits intended to contain them was not a \u201cdischarge, dispersal, release, or escape\u201d of pollutants, as \u201c \u2018none of the[se] terms is normally used to describe the placement of a substance into an area of confinement\u2019 \u201d; rather, \u201cthe polluting event is the discharge, dispersal, release, or escape from that place of containment into or upon the land, the air or water\u201d].)\nBut even considering the initial deposit of chemicals into the evaporation ponds to be a \u201cdischarge, dispersal, release or escape\u201d (or rather a set of such events), the subsequent escape of those chemicals from the ponds into the surrounding soils and groundwater was clearly another. And, as we have seen, the State\u2019s liability was based on its negligence in allowing the second set of discharges, not the first. The instances of seepage and overflow from the ponds were therefore liability-causing events, not merely aspects of the property damage as in Standun, supra, 62 Cal.App.4th at page 891. (See SMDA v. American Ins. Co. (1997) 225 Mich.App. 635 [572 N.W.2d 686, 703] [pollution exclusion is applied to escape of pollutants from landfill facility, not initial dumping: \u201c \u2018If waste materials are placed in a contained area or structure and later escape into the environment, the latter discharge is the relevant discharge.\u2019 \u201d]; Key Tronic Corporation v. Aetna (1994) 124 Wn.2d 618 [881 P.2d 201, 206] [\u201cDepending upon the circumstances, the initial depositing of wastes may be a polluting event. For example, the dumping of toxic wastes into a lake could fit this category, as well as so-called \u2018midnight dumping\u2019 along a county road, [f] However, where wastes are deposited in a sanitary landfill, the escape of polluting materials from the landfill is the relevant polluting event.\u201d].)\nWe conclude the initial deposit of wastes was not a polluting event subject to the policy exclusion (i.e., a \u201cdischarge, dispersal, release or escape\u201d of pollutants) and, even if it were, the State\u2019s liability was based not on the initial deposit, but instead on the subsequent escape of chemicals from the Stringfellow ponds into the surrounding soils and groundwater, making that the relevant set of polluting events. In light of these conclusions, we need not address Insurers\u2019 argument that the damages here \u201car[ose] out of\u2019 the initial deposit of wastes in a simple (\u201cbut for\u201d) causal sense.\nII. Application of the Watercourse Pollution Exclusion to the 1969 Overflow\nInsurers did not seek review of the Court of Appeal\u2019s holding that triable issues exist as to whether the 1969 overflow was \u201csudden and accidental\u201d within the meaning of the qualified pollution exclusion, but did seek review of whether the 1969 overflow was \u201cinto or upon any watercourse\u201d within the meaning of the absolute pollution exclusion for watercourses contained in all the policies but Columbia Casualty Company\u2019s. We agree with the lower court that triable issues exist on this factual issue.\nA general dictionary defines \u201cwatercourse\u201d as \u201ca stream of water, as a river or brook\u201d or \u201cthe bed of a stream that flows only seasonally.\u201d (The Random House Dict, of the English Language, Unabridged (2d ed. 1987) p. 2147.) Similarly, a legal dictionary defines the term as \u201c[a] body of water, usu[ally] of natural origin, flowing in a reasonably definite channel with bed and banks.\u201d (Black\u2019s Law Dict. (8th ed. 2004) p. 1623.) We have explained that it is \u201cnot necessary to the existence of a watercourse that the flow should be continuous throughout the year\u201d (Lindblom v. Round Valley Water Co. (1918) 178 Cal. 450, 453 [173 R 994]), but have distinguished a watercourse, i.e., \u201cwater flowing in a fixed channel,\u201d from surface water, i.e., \u201c[w]ater diffused over the surface of land, or contained in depressions therein\u201d (Keys v. Romley (1966) 64 Cal.2d 396, 400 [50 Cal.Rptr. 273, 412 P.2d 529]). Perhaps the simplest and most concise definition is \u201c \u2018the channel through which the water of a particular district or watershed usually or periodically flows.\u2019 \u201d (Phillips v. Burke (1955) 133 Cal.App.2d 700, 703 [284 P.2d 809].)\nInsurers have the burden of proof to show the watercourse pollution exclusion applies. (See Aydin Corp. v. First State Ins. Co., supra, 18 Cal.4th at p. 1194.) To establish their entitlement to summary judgment or summary adjudication on this basis, Insurers must show by undisputed evidence the 1969 overflow was confined to the regular channel of the stream draining the canyon where the Stringfellow site was located, Pyrite Creek, though they need not show the creek was flowing at the time. Evidence the contaminants flowed onto land drained by Pyrite Creek, by itself, is insufficient. (Keys v. Romley, supra, 64 Cal.2d at p. 400; Phillips v. Burke, supra, 133 Cal.App.2d at p. 703.) While the evidence Insurers point to in the record does suggest the 1969 flood waters flowed directly from the site into Pyrite Creek, rather than onto the surrounding land, it falls short of establishing the waters\u2019 path as an undisputed fact.\nThe parties have not directed us to any eyewitness account of the 1969 flood in the summary judgment record. The nearest thing to a contemporaneous description appears to be the following, in a 1972 letter written by Richard A. Bueermann, executive officer of the California Regional Water Quality Control Board, Santa Ana Region, to a Riverside County official: \u201cIn the spring of 1969, the heavy rains exceeded the capacity of the storm water diversion ditches and runoff flowed through the dump site carrying some of the waste out of the dump and down a natural drainage ditch parallel to Pyrite Street crossing Highway 60 and Mission Boulevard. Samples collected on March 18, 1969 at the dam across the mouth of the dumpsite and in the ditch at the NW comer of Pyrite and Mission Boulevard showed the presence of acid wastes in the storm runoff.\u201d\nIn 1980, a State interagency status report on the Stringfellow site stated: \u201cThe 1969 high rainfall conditions caused an undetermined quantity of sediments that had been contaminated by toxic wastes at the Stringfellow site to be eroded and deposited downstream in the Pyrite Creek drainage channel.\u201d\nMuch later, in 2004, an expert for the State summarized the 1969 event as follows: \u201cIn 1969 during a period of heavy rainfalls the Site overflowed, discharging waste and stormwater into Pyrite Creek below the Site (NBS, 1973). During this discharge the conductivity (a measure of the degree of contamination) of the discharged fluids was measured just below the dam and at the intersection of Pyrite and Mission Streets. The measurements at these two locations were 7500 and 2800 micromhos respectively, an indication that wastes were discharged from the site.\u201d\nInsurers contend that maps in the record show the Pyrite Creek channel extends upslope to the disposal site, from which Insurers infer that overflow from the site went directly into the channel. The maps, however, are not detailed enough to make clear the topography or hydrology of the area. Where exactly the channel ran relative to the site\u2019s evaporation ponds and dam, and where and how the 1969 floodwaters exited the disposal site, are not shown. Thus it cannot be determined from the maps, for example, that water passing over \u201cthe dam at the mouth of the dumpsite,\u201d where Bueermann reported a sample showed contamination, flowed from there directly into the Pyrite Creek channel. The maps also show that \u201cthe NW comer of Pyrite and Mission Boulevard,\u201d where Bueermann also reported contamination was found, is not in the Pyrite channel, which at that point mns parallel to, but east of, Pyrite Street. Despite the references in Bueermann\u2019s letter, the 1980 interagency report and the 2004 report of the State\u2019s expert to a flow of contaminated water down the Pyrite drainage, then, Insurers have not established as an undisputed fact that the 1969 floodwaters overflowing the Stringfellow site were restricted to the Pyrite Creek channel and did not also flow onto and contaminate areas of land below the site.\nIII. Application of the \u201cSudden and Accidental\u201d Exception to the 1978 Release\nThe Court of Appeal concluded the State, having experienced the 1969 overflow and been advised on, but not taken, measures to avoid a repetition, must have expected the 1978 flooding, making the 1978 release nonaccidental. The State insists it did take protective measures after 1969, but these were ineffective in the extraordinary circumstances of the 1978 rains; the evidence, the State argues, shows at most it was negligent in allowing the overflow conditions of 1978 to occur, not that it expected or intended the 1978 release. We conclude the record reflects a triable issue of fact on this issue.\nAs the parties agree, an \u201caccidental\u201d discharge, within the meaning of the \u201csudden and accidental\u201d exception to the pollution exclusion, is one the insured neither intended nor expected to happen (Shell Oil Co. v. Winterthur Swiss Ins. Co., supra, 12 Cal.App.4th at p. 755 (Shell Oil Co.)), and a discharge is considered \u201cexpected\u201d only when the insured subjectively knew or believed it was highly likely to occur (id. at p. 746 [\u201cThe plain meaning of \u2018expected\u2019 does not include \u2018should have known.\u2019 Rather, the word comprehends actual belief in the probability of a future event.\u201d]). (See also Montrose Chemical Corp. v. Superior Court (1993) 6 Cal.4th 287, 304-305 [24 Cal.Rptr.2d 467, 861 P.2d 1153] [citing Shell Oil Co. for the proposition that the \u201ctest for \u2018expected\u2019 damage is whether the insured knew or believed its conduct was substantially certain or highly likely to result in that kind of damage\u201d].) While the State bears the ultimate burden of proving the exception applicable (Aydin Corp. v. First State Ins. Co., supra, 18 Cal.4th at p. 1194), on summary judgment we ask only whether the record reflects the existence of a triable factual issue on the question.\nThe evidence, liberally construed in favor of the State as the nonmoving party (Yanowitz v. L\u2019Oreal USA, Inc., supra, 36 Cal.4th at p. 1037), shows the following: After the 1969 overflow, which resulted from a 50-year storm that overwhelmed the site\u2019s runoff diversion channels, the State temporarily closed the site, rebuilt the ponds, and modified the diversion channels to improve storm drainage. Before the site was reopened, the county flood control agency checked it and found the drainage adequate. After the site was permanently closed to new waste in 1972, the State\u2019s chief geologist, Alvin Franks, inspected and assessed it, finding that in addition to leakage, there was a danger of overflow in sufficiently heavy rains. In his 1974 report, Franks suggested, among other measures, leveling and capping the site to prevent flooding of the ponds. Neither that measure nor the others recommended, however, were taken before the 1978 rains, though the State did transfer about 375,000 gallons of waste from the site to other facilities. Had Franks\u2019s recommendations been followed, the federal court special master found, the 1978 release would not have occurred.\nIn early 1978, severe rainstorms struck the region. A state of emergency in Riverside County was declared by Governor Brown on February 5, and on February 15 President Carter declared the county a disaster area. On March 3, concerned about rising levels in the Stringfellow site\u2019s evaporation ponds, James Anderson, executive officer of the Regional Water Quality Control Board, had additional storage ponds dug on the site and started pumping water to the new ponds. On March 5, as heavy rain continued, the main pond was again full. National Guard troops placed sandbags on top of the dam and pumping continued, though it was limited when one of the two pumps broke. When a crack was observed in the face of the dam, Anderson ordered wastes released through a spillway to prevent an uncontrolled release of up to 20 million gallons. The controlled release was stopped on March 7, but restarted on March 10 when the dam began to give way. It was stopped again on March 11, when the danger of collapse had passed.\nAs Insurers point out, in one obvious sense the 1978 discharges were not accidental: the wastes were intentionally released at Anderson\u2019s direction. But Anderson ordered the release only to prevent a larger, uncontrolled discharge of wastes if, as threatened, the dam broke, which the State maintains would have been an accidental discharge. Liability policies have been held to cover damages resulting from an act undertaken to prevent a covered source of injury from coming into action, even if that act would otherwise not be covered. (Globe Indem. Co. v. State of California (1974) 43 Cal.App.3d 745, 750-753 [118 Cal.Rptr. 75] (Globe Indemnity) [statutory liability for fire suppression costs, incurred after the insured negligently started a fire that spread to neighboring property, held covered even under a policy limited to liability for bodily injury and property damage]; Goodyear Rubber & Supply v. Great Am. Ins. Co. (9th Cir. 1976) 545 F.2d 95, 96 (Goodyear Rubber) [decided under Oregon law: liability for salvage costs covered under property damage liability policy, where salvager had acted to prevent further damage from fire, a covered source of damage]; see also AIU Ins. Co. v. Superior Court (1990) 51 Cal.3d 807, 833 [274 Cal.Rptr. 820, 799 P.2d 1253] [citing Globe Indemnity and Goodyear Rubber as support for holding that government response costs designed to prevent environmental damage from spreading constitute \u201cdamages\u201d under liability policy].)\nThis rule makes sense as a matter of causation, for just as \u201c[d]anger invites rescue\u201d (Wagner v. International Ry. Co. (1921) 232 N.Y. 176 [133 N.E. 437]), so the evident threat of property damage (arising by hypothesis from a covered cause) leads naturally to acts, whether by the insured or others, to prevent or mitigate the damage. (See Globe Indemnity, supra, 43 Cal.App.3d at p. 751 [\u201csince all of the fire suppression costs in question were expended to prevent further damage to tangible property, it can be said that the insureds became legally obligated to pay these fire suppression costs because of damage to tangible property\u201d]; Goodyear Rubber, supra, 545 F.2d at p. 96 [\u201cthe peril insured against, the damage caused by the occurrence of explosion and fire, set the salvage operation in motion\u201d].)\nThe rule fits, as well, with the principle that insurance policies are to be read in accord with the parties\u2019 reasonable expectations; when an insured takes out a policy providing coverage for property damage liability, \u201c[i]t would seem strangely incongruous to him, as it does to us, that his policy would cover him for damages to tangible property destroyed through his negligence in allowing a fire to escape but not for the sums incurred in mitigating such damages by suppressing the fire.\u201d (Globe Indemnity, supra, 43 Cal.App.3d at p. 751; see AIU Ins. Co. v. Superior Court, supra, 51 Cal.3d at p. 833 [\u201cA contrary result would fail to fulfill the reasonable expectations of the parties.\u201d].)\nFinally, according coverage in this situation \u201cencourages a most salutary course of conduct,\u201d that is, the taking of measures to mitigate or prevent damage. (Globe Indemnity, supra, 43 Cal.App.3d at p. 752.) And Insurers are not harmed by such measures, since they would be responsible for greater liability were the measures not taken. \u201cIt would be a strange kind of justice, and a stranger kind of logic, that would hold the defendant to be liable for as much as $450,000 if the barge and its contents had been consumed by fire, but free of liability for a much lesser amount because of the fortuity of rescue.\u201d (Goodyear Rubber, supra, 545 F.2d at p. 96.) This policy has been codified as to first party insurance in Insurance Code section 531, subdivision (b), which provides for coverage \u201c[i]f a loss is caused by efforts to rescue the thing insured from a peril insured against.\u201d\nFor these reasons, we conclude that to the extent the conditions in March 1978 threatened a \u201csudden and accidental\u201d release of wastes from the Stringfellow site, the qualified pollution exclusion does not bar coverage for liability arising from the State\u2019s intentional releases performed to prevent such a greater accidental release. We turn to the question of whether the overflow and dam break threatened in 1978 would in fact have been \u201caccidental.\u201d Insurers were entitled to summary adjudication on this point only if the record demonstrates, as an undisputed fact, that the State knew or believed a discharge was highly likely to occur because of flooding. (Shell Oil Co., supra, 12 Cal.App.4th at p. 746.) Unlike the Court of Appeal, we find a triable issue of fact on this point.\nAfter the extraordinary rainfalls of 1969, which statistically would be expected to occur no more than once every 50 years, the State took measures to prevent future flooding: it improved the runoff diversion system and removed a large amount of waste from the ponds. The facility was reopened only after the county flood control agency reviewed the drainage system and found it sufficient. When new flooding hit in January and February of 1978\u2014due to rainfall so intense as to provoke a government declaration of emergency and designation of the county as a disaster area\u2014the State attempted to alleviate the flooding emergency by topping the dam with sandbags and digging new storage ponds into which waste could be pumped. The State official in charge hoped the rain would abate and these measures would be sufficient. But the rain continued, a pump broke, and the dam began to crack. The State\u2019s preventive measures had proved inadequate.\nThese facts do not demonstrate the State expected rains so heavy they would overwhelm the improved drainage, defeat emergency measures, and threaten the dam; they show only that the State was aware of a flooding risk and took what proved to be inadequate measures against it. Being aware of a risk of a particular event is not equivalent to knowing or believing the event is highly likely to occur.\nThe Court of Appeal considered the risk of flooding, after 1969, so great as to compel a finding the State expected it: \u201cHere, though there was a theoretical chance that after 1969 it would never again rain heavily enough to cause any discharge, if that were enough to make a discharge \u2018accidental,\u2019 the term would cease to have any practical meaning.\u201d To be sure, the evidence in a given case might show the insured was aware of a risk so great that no reasonable person could find the insured did not expect the event. But the evidence here did not establish that level of probability. The special master found only that the State was aware in 1973 of a \u201cdanger\u201d of overflow, and the undisputed fact as framed in the Insurers\u2019 statement was only that Franks, the State\u2019s geologist, recognized a \u201cpotential for overflow during a heavy storm.\u201d The State took measures to prevent and control flooding; the rains that led to both the 1969 and 1978 discharges were no everyday events, but extraordinary, unpredictable phenomena; and the ultimate release was caused partly by mechanical failure of a pump and partly by structural failure of the site dam. On this evidence, a trier of fact could reasonably find the State did not expect this set of events.\nThe State failed to take a measure\u2014covering the site with an impermeable cap\u2014that was suggested to it and that would have prevented the release. Even assuming this failure was unreasonable, however, the State\u2019s omission demonstrates only negligence, against which the policy insured. As the State argues: \u201cMany accidents occur when a policyholder negligently delays taking steps to eliminate a remote risk of harm, such as when an auto driver negligently delays replacing his tires, resulting in an auto accident, or a homeowner puts off cutting down an aging tree which he knows could be blown over and cause damage in an extraordinarily . .. heavy windstorm .. . .\u201d Evidence the State should have known flooding was likely, and should have taken additional measures against it, is insufficient to prove, as an undisputed fact, that a waste discharge due to flooding was expected and therefore nonaccidental. (Shell Oil Co., supra, 12 Cal.App.4th at p. 746.)\nIV. Whether the State Must Prove the Amount of Property Damage Caused by \u201cSudden and Accidental\u2019\u2019 Discharges\nDuring discovery, the State admitted it could not differentiate the property damage caused by the 1969 and 1978 releases from that caused by the gradual leakage of wastes from the ponds. The State also admitted it could not differentiate the \u201cwork performed to date\u201d to remedy the property damage caused by the various sets of releases. In light of these admissions, the trial court ruled, the State could recover nothing because it could not prove how much of the property damage was caused by sudden and accidental releases. Insurers, relying on Golden Eagle Refinery Co. v. Associated Internat. Ins. Co. (2001) 85 Cal.App.4th 1300 [102 Cal.Rptr.2d 834] (Golden Eagle), argue the same position here. The State, in contrast, contends it is entitled to indemnity for all the damages it was held liable for in the underlying federal court action. The Court of Appeal agreed, finding Golden Eagle inconsistent with this court\u2019s decision in State Farm Mut. Auto. Ins. Co. v. Partridge, supra, 10 Cal.3d 94 (Partridge).\nWe agree with the State and the Court of Appeal, at least as to the result on summary judgment. To the extent the State can show \u201csudden and accidental\u201d releases proximately caused the damage for which it was held liable, it is contractually entitled to indemnity for that liability. The summary judgment record reflects at least a triable issue of fact as to whether the 1969 and 1978 discharges were substantial factors in causing contamination of soils and groundwater downgradient from the Stringfellow site\u2014the property damage for which the State was held liable. The record also reflects a triable issue as to whether that property damage, or the cost of repairing it, can be quantitatively divided among the various causes of contamination. As we will explain, although Partridge arose on very different facts, our conclusion in that case that liability coverage exists \u201cwhenever an insured risk constitutes a proximate cause of an accident, even if an excluded risk is a concurrent proximate cause\u201d (Partridge, supra, 10 Cal.3d at p. 105, fn. 11) applies equally in the present circumstances.\nAs relevant, the coverage clause of each Insurer\u2019s policy obligated the company to \u201cpay on behalf of the Insured all sums which the Insured shall become obligated to pay by reason of liability imposed by law ... for damages, including consequential damages, because of direct damage to or destruction of tangible property . .. which results in an Occurrence during the policy period.\u201d The policies defined an \u201cOccurrence\u201d as \u201can accident, event or happening including continuous or repeated exposure to conditions which results, during the policy period, in . . . Property Damage neither expected nor intended from the standpoint of the Insured.\u201d As previously explained, however, each policy then excluded \u201cProperty Damage arising out of\u2019 pollution to land or air, unless the discharge of pollutants was sudden and accidental.\nIn sum, under the policies at issue, liability for property damage caused by an accident was covered, while that caused by gradual or nonaccidental release of pollutants was excluded. What, then, of property damage caused by a set of pollutant discharges, some sudden and accidental, and some gradual or nonaccidental?\nWe faced an analogous question in Partridge. There, the policyholder negligently filed the trigger mechanism of his pistol to lighten the trigger pull. Later, as he and two friends drove through the countryside shooting jackrabbits, the insured\u2019s truck hit a bump and the gun fired, wounding one of the passengers. (Partridge, supra, 10 Cal.3d at pp. 97-98.) Before us on appeal was the question whether the insured\u2019s homeowner\u2019s policy, which generally covered his personal liability for negligence but excluded injuries arising out of the use of a motor vehicle, afforded coverage for liability for the passenger\u2019s injury. (Id. at pp. 98-99.)\nWe framed and answered the coverage question as follows: \u201c[T]he crucial question presented is whether a liability insurance policy provides coverage for an accident caused jointly by an insured risk (the negligent filing of the trigger mechanism) and by an excluded risk (the negligent driving). Defendants correctly contend that when two such risks constitute concurrent proximate causes of an accident, the insurer is liable so long as one of the causes is covered by the policy.\u201d (Partridge, supra, 10 Cal.3d at p. 102.) We reasoned that the insured\u2019s negligent filing of the trigger subjected him to liability for the injury regardless of whether use of a vehicle was involved. The insured would have been liable and covered for his liability, that is, \u201cif the gun had accidentally fired while the insured was walking down the street or running through the woods\u201d (id. at p. 103), and in this sense \u201cthe insured\u2019s negligent modification of the gun suffices, in itself, to render him fully liable for the resulting injuries\u201d (ibid.). Damages for the passenger\u2019s injury were therefore covered as \u201c \u2018sums which the Insured . . . [became] legally obligated to pay\u2019 \u201d because of his nonautomobile related negligence. (Ibid.)\nTo further explain our conclusion in Partridge, we hypothesized a case in which the covered and excluded causes were attributable to different actors: \u201cIf, after negligently modifying the gun, Partridge had lent it to a friend who had then driven his own insured car negligently, resulting in the firing of the gun and injuring of a passenger, both Partridge and his friend under traditional joint tortfeasor principles would be liable for the injury. In such circumstances, Partridge\u2019s personal liability would surely be covered by his homeowner\u2019s policy, and his friend\u2019s liability would be covered by automobile insurance.\u201d (Partridge, supra, 10 Cal.3d at p. 103.) The insurer\u2019s contractual obligation, we further reasoned, was not lessened by the coincidence that Partridge was responsible for both of the causes contributing to the injury. (Ibid.)\nPartridge addressed the problem of multiple causes by looking to the rules governing the insured\u2019s underlying liability. This follows from the nature of third party liability insurance, as we later explained in Garvey v. State Farm Fire & Casualty Co. (1989) 48 Cal.3d 395, 407 [257 Cal.Rptr. 292, 770 P.2d 704]: \u201c[T]he right to coverage in the third party liability insurance context draws on traditional tort concepts of fault, proximate cause and duty. This liability analysis differs substantially from the coverage analysis in the [first party] property insurance context, which draws on the relationship between perils that are either covered or excluded in the contract. In liability insurance, by insuring for personal liability, and agreeing to cover the insured for his own negligence, the insurer agrees to cover the insured for a broader spectrum of risks.\u201d (Accord, Montrose Chemical Corp. v. Admiral Ins. Co., supra, 10 Cal.4th at p. 664.) While coverage under both first and third party insurance is a matter of contract, the contractual scope of third party liability insurance coverage, as reflected in the policy language, depends on the tort law source of the insured\u2019s liability.\nUnder Partridge, then, we look to whether a covered act or event subjected the insured to liability for the disputed property damage or injury under the law of torts. We ask, in the standard insuring language used here, whether the disputed amounts are \u201csums which the Insured . . . [became] obligated to pay ... for damages . . . because of\u2019 property damage that is not excluded under the policy. (See Partridge, supra, 10 Cal.3d at p. 99, fn. 5 [substantially the same language].) If the insured\u2019s nonexcluded negligence \u201csuffices, in itself, to render him fully liable for the resulting injuries\u201d or property damage {id. at p. 103), the insurer is obligated to indemnify the policyholder even if other, excluded causes contributed to the injury or property damage.\nApplying the Partridge approach here leads to the conclusion summary judgment was not appropriate for Insurers on this ground. The 1969 and 1978 releases would have rendered the State fully liable for the contamination of soils and groundwater below the Stringfellow site, without consideration of the subsurface leakage, if they were substantial factors in causing the contamination. (Rutherford v. Owens-Illinois, Inc. (1997) 16 Cal.4th 953, 968-969 [67 Cal.Rptr.2d 16, 941 P.2d 1203]; Mitchell v. Gonzales (1991) 54 Cal.3d 1041, 1048-1054 [1 Cal.Rptr.2d 913, 819 P.2d 872]; see also Lockheed Martin Corp. v. Continental Ins. Co. (2005) 134 Cal.App.4th 187, 194 [35 Cal.Rptr.3d 799] [insured must show an \u201cappreciable amount\u201d of the damage for which it was held liable resulted from accidental discharges]; Travelers Casualty & Surety Co. v. Superior Court (1998) 63 Cal.App.4th 1440, 1460 [75 Cal.Rptr.2d 54] [same].) The summary judgment record demonstrates, at the least, a triable issue on this point. That subsurface leakage from the site, an excluded cause of property damage, also contributed to the contamination is insufficient to defeat coverage under Partridge\u2019s holding that liability coverage exists \u201cwhenever an insured risk constitutes a proximate cause of an accident, even if an excluded risk is a concurrent proximate cause.\u201d (Partridge, supra, 10 Cal.3d at p. 105, fn. 11.)\nAs in Partridge, our reasoning can be elucidated with a hypothetical in which responsibility for the covered and excluded causes of damage is divided. Suppose the State had shared design and management of the Stringfellow site with a private operator, with the State taking responsibility for design and maintenance of flood control systems and the private operator being responsible for preventing subsurface leakage. The State\u2019s negligence in failing to take adequate measures to prevent overflow of the ponds in heavy rains would, under long-standing principles of joint and several liability, subject it to full liability for remediation of the downgradient contamination even if subsurface leakage also contributed to that property damage. (See American Motorcycle Assn. v. Superior Court (1978) 20 Cal.3d 578, 586-589 [146 Cal.Rptr. 182, 578 P.2d 899].) Whatever claims for contribution or indemnity might exist between the joint tortfeasors in such a case, each of them would be liable to the plaintiffs for the entirety of the property damage. In those circumstances, the full damages assessed in the federal action would be \u201csums which the Insured . . . [became] obligated to pay ... for damages . . . because of\u2019 property damage, and hence within Insurers\u2019 contractual indemnity obligation. Nothing in the policies indicates Insurers are relieved of that obligation because, in reality, the State was also responsible for an excluded cause of the property damage.\nInsurers argue that while Partridge involved a single injury (the shooting of the insured\u2019s passenger), here each source of contamination (the two overflow events and the various subsurface leakage pathways) caused damage of its own; they assert contamination from leakage occurred, for example, before and after the 1969 discharge. The distinction is valid as far as it goes: one can differentiate in theory between hazardous chemicals that entered the surrounding environment in the 1969 and 1978 overflows and those that leaked gradually from the site over the entire period of its operation. But the summary judgment record fails to establish that the cost of remediating the contamination can be divided in this manner; indeed, the State\u2019s pertinent admission was that it could not divide the \u201cwork performed to date\u201d according to the event causing contamination. Thus the damages for which the State is liable appear, at least on this record, to be indivisible.\nUnder California tort law, a set of injuries for which the damages are indivisible is treated the same as a single injury: the tortfeasor is liable for the entirety of the damages. (Bertero v. National General Corp. (1974) 13 Cal.3d 43, 60 [118 Cal.Rptr. 184, 529 P.2d 608] (Bertero).) Bertero involved damages for malicious prosecution. In the original, underlying lawsuit, the defendants had not only answered Bertero\u2019s complaint but had also cross-complained against him. That case was resolved in favor of Bertero, who then brought and won a suit against the original defendants for malicious prosecution of the cross-complaint. (Id. at pp. 48-50.) We held Bertero could maintain an action for malicious prosecution of a cross-complaint, even though that pleading had been closely related to defense of Bertero\u2019s original complaint. (Id. at pp. 50-53.) This led to the question of whether Bertero could recover the ordinary measure of malicious prosecution damages for a cross-complaint that was \u201cpremised upon the same theories as was a privileged affirmative defense.\u201d (Id. at p. 60.)\nWe held the full measure of damages applicable. It was, we observed, \u201cdifficult if not impossible\u201d to apportion the malicious prosecution damages between those attributable to defending the cross-action and those attributable to overcoming the affirmative defense. (Bertero, supra, 13 Cal.3d at p. 60.) In such circumstances, we held, \u201cthe burden of proving such an apportionment must rest with the party whose malicious conduct created the problem. To place the burden on the injured party rather than upon the wrongdoer would, in effect, clothe the transgressor with immunity when, because of the interrelationship of the defense and cross-action, the injured party could not apportion his damages.\u201d (Ibid.) Just as California tort law requires \u201cthat a defendant prove what portion of the totality of damages his negligence has caused when the evidence establishes that he has contributed substantially to the total damages\u201d (ibid.), so the defendant in Bertero bore the burden of showing, if it could be shown, what portion of the proven damages was attributable to its privileged assertion of a defense. (Cf. Rest.3d Torts, Apportionment of Liability, \u00a7 26, p. 320 [where damages for an injury cannot be divided causally among multiple tortfeasors, each is liable for the indivisible amount to the extent provided by the applicable rules of joint and several liability and comparative fault].)\nBertero\u2019s holding applies here. If, in the underlying federal action, the State had not been liable for damage from subsurface leakage (whether because of a defense or immunity, or because leakage was the fault of another party), then the burden of proving what part of the remediation cost was attributable to leakage would have rested with the State, not with the federal court plaintiffs. If the remediation cost could not be so apportioned\u2014as the State\u2019s discovery response suggests\u2014the State would have been liable to the federal court plaintiffs for all the remediation costs. As in Partridge, supra, 10 Cal.3d 94, where a single injury was caused by covered and excluded acts, so too here, where the damages caused by covered and excluded events appear indivisible, the entirety of the federal court damages are, in the policies\u2019 terms, \u201csums which the Insured . . . [became] obligated to pay ... for damages . . . because of\u2019 nonexcluded property damage.\nApplicability of the Partridge approach here is necessarily premised on the indivisibility of the remediation costs awarded as damages in the federal action. If, to the contrary, only a provably distinct amount of the remediation costs were attributable to \u201csudden and accidental\u201d discharges of pollutants, only that amount would constitute \u201csums which the Insured . . . [became] obligated to pay ... for damages . . . because of\u2019 property damage from \u201csudden and accidental\u201d discharges. The Court of Appeal thus correctly observed that at trial \u201cthe State would have to prove its damages were indivisible to claim coverage under Partridge,\u201d while Insurers could offer evidence the damages were not indivisible. As already noted, however, the summary judgment record\u2014particularly the State\u2019s admission it could not allocate amounts already spent on remediation among the various sources of contamination\u2014establishes at least a triable issue as to whether the damages are divisible.\nAs noted, Insurers rely primarily on Golden Eagle, supra, 85 Cal.App.4th 1300. The insured in Golden Eagle, a petroleum refiner, had polluted its refinery site by discharging petroleum hydrocarbon constituents on and into the ground. The insured sought indemnity for its government-ordered remediation costs. (Id. at p. 1304.) The insurers sought summary judgment based on qualified pollution exclusions, presenting evidence of \u201croutine, repeated and intentional\u201d discharges by the insured having caused the contamination (id. at p. 1308) and the insured\u2019s admission that it could not assign any particular portion of the property damage to any particular event (id. at p. 1310).\nThe appellate court held the insurers had established their entitlement to summary judgment by showing that, because the property damage was indivisible, Golden Eagle Refinery Company, the insured, \u201ccould not reasonably be expected to prove what proportion, if any, of the millions of dollars of alleged damages were under the coverage of which of the various policies issued by respondents, failing which, Golden Eagle could not recover anything.\u201d (Golden Eagle, supra, 85 Cal.App.4th at p. 1311.) The policyholder, relying on Travelers Casualty & Surety Co. v. Superior Court, supra, 63 Cal.App.4th at page 1460, argued coverage depended only on a showing that \u201can appreciable amount\u201d of the environmental damage was caused by sudden and accidental events, over and above that caused by routine, intentional dumping. The Golden Eagle court rejected this approach: \u201cGolden Eagle\u2019s argument that it need only prove that a sudden and accidental event caused an appreciable amount of the contamination is wrong because it is essentially a tort approach. Golden Eagle\u2019s claim is for indemnity and sounds in contract. To prove a claim for breach of contract, more is required than evidence that a covered cause was a \u2018substantial contributing cause\u2019 of its damage. \u2018Substantial cause\u2019 may be sufficient to make a prima facie case in a tort action in order to support a joint and several judgment, but in the context of a coverage dispute relating only to the duty to indemnify, the tort threshold is not sufficient.\u201d (Golden Eagle, at p. 1316.) Because the insured could not quantify the damages resulting from sudden and accidental discharges, it could recover nothing. {Id. at pp. 1316-1317.)\nThe quoted passage reveals the fundamental flaw in Golden Eagle\u2019s reasoning. In analyzing coverage under a liability policy, a \u201ctort approach\u201d (Golden Eagle, supra, 85 Cal.App.4th at p. 1316) to causation of damages is precisely what is called for, as we demonstrated in Partridge, supra, 10 Cal.3d 94, and explained in Garvey v. State Farm Fire & Casualty Co., supra, 48 Cal.3d 395. When the insurer has promised to indemnify the insured for all \u201csums which the Insured shall become obligated to pay ... for damages . . . because of\u2019 nonexcluded property damage, or similar language, coverage necessarily turns on whether the damages for which the insured became liable resulted\u2014under tort law\u2014from covered causes. Thus, \u201cthe right to coverage in the third party liability insurance context draws on traditional tort concepts of fault, proximate cause and duty.\u201d (Id. at p. 407.)\nContrary to Golden Eagle's reasoning, the fact that \u201c \u2018[substantial cause\u2019 may be sufficient to make a prima facie case in a tort action in order to support a joint and several judgment\u201d (Golden Eagle, supra, 85 Cal.App.4th at p. 1316) does imply that such tort law (substantial factor) causation is sufficient to create coverage under a liability policy when covered and excluded acts or events have concurred in causing injury or property damage. That was the holding of Partridge (a decision Golden Eagle did not address), which concluded that when multiple acts or events \u201cconstitute concurrent proximate causes of an accident, the insurer is liable so long as one of the causes is covered by the policy.\u201d (Partridge, supra, 10 Cal.3d at p. 102.) Indeed, to explain our holding in Partridge we hypothesized the application of \u201ctraditional joint tortfeasor principles\u201d (id. at p. 103), as we have also done earlier in this opinion. And as also demonstrated in this opinion, when the damages cannot be apportioned between two tortfeasors or between tortious and nontortious causes, a tortfeasor whose acts have been a substantial factor in causing the damages is legally responsible for the whole. (Bertero, supra, 13 Cal.3d at p. 60.) We therefore disapprove Golden Eagle Refinery Co. v. Associated Internat. Ins. Co., supra, 85 Cal.App.4th 1300, insofar as it holds an insured must not only show a covered cause contributed substantially to the damages for which the insured was held liable, but must also show how much of an indivisible amount of damages resulted from covered causes. (See id. at pp. 1316-1317.)\nThe insured under a third party liability policy has the burden of proving a covered act or event was a substantial cause of the injury or property damage for which the insured is liable, and this burden extends to showing the causal act or event was within an exception to a policy exclusion when the insurer has shown the exclusion applicable. (Aydin Corp. v. First State Ins. Co., supra, 18 Cal.4th at p. 1194.) In addition, when the damages for which the insured is liable relate to distinct, divisible injuries or items of property damage, the insured has the burden of proving which of those are attributable to causes within the exclusion\u2019s exception, for only the corresponding portion of the damages constitutes \u201csums which the Insured shall become obligated to pay ... for damages . . . because of\u2019 nonexcluded property damage. But if the insured proves that multiple acts or events have concurred in causing a single injury (as in Partridge) or an indivisible amount of property damage (as may be shown at trial here), such that one or more of the covered causes would have rendered the insured liable in tort for the entirety of the damages, the insured\u2019s inability to allocate the damages by cause does not excuse the insurer from its duty to indemnify. The insurer, of course, may counter the insured\u2019s evidence of indivisibility with its own evidence that the damages are divisible and that only a limited portion of them resulted from covered events.\nOur holding does not extend indemnity to situations where the policyholder can do no more than speculate that some polluting events may have occurred suddenly and accidentally, or where sudden and accidental events have contributed only trivially to the property damage from pollution. Cases have properly held against indemnity where the insured can make only \u201cunsubstantiated claims of sudden and accidental discharges in the face of repeated, continuous discharges in the course of business.\u201d (SMDA v. American Ins. Co., supra, 572 N.W.2d at p. 705; see Travelers Casualty & Surety Co. v. Superior Court, supra, 63 Cal.App.4th at p. 1460 [insured \u201cmust do more than point to possible\u201d sudden and accidental events; it must show such events caused an \u201cappreciable amount of environmental damage\u201d]; Highlands Insurance Company v. Aerovox Incorporated (1997) 424 Mass. 226 [676 N.E.2d 801, 806] [insured must show sudden and accidental event caused \u201cmore than a de minimis amount of the damages for which it is now liable\u201d]; Home Indem. Co. v. Hoechst Celanese Corp. (1998) 128 N.C.App. 189 [494 S.E.2d 774, 784] [same].) Only if the insured can identify particular sudden and accidental events and prove they contributed substantially to causing indivisible property damage for which the insured bore liability is the insurer obliged to indemnify its insured for the entirety of the damages.\nThe summary judgment record showed the existence of triable issues of fact as to whether the 1969 and 1978 events occurred suddenly and accidentally, whether they contributed substantially to the downslope contamination of soil and groundwater for which the State was held liable in damages, and whether those damages were incapable of division according to causal event. Summary judgment for Insurers based on the policies\u2019 qualified pollution exclusions was therefore improper.\nDisposition\nThe judgment of the Court of Appeal is reversed insofar as the court directed the superior court to grant Insurers\u2019 alternative motion for summary adjudication establishing that the 1978 discharge was excluded by the qualified pollution exclusion. The judgment is otherwise affirmed, and the cause is remanded to the Court of Appeal for further proceedings consistent with this opinion.\nGeorge, C. J., Kennard, J., Baxter, J., Moreno, J., Corrigan, J., and Mosk, J., concurred.\nIn Montrose Chemical Corp. v. Admiral Ins. Co. (1995) 10 Cal.4th 645 [42 Cal.Rptr.2d 324, 913 P.2d 878], we addressed issues regarding insurance coverage for liability on the part of a business that had disposed of hazardous waste at the Stringfellow site, arising in part from the same federal court action in which the State was held liable. (See id. at pp. 656-657.) We did not, however, address there any issue regarding pollution exclusions in comprehensive general liability policies. (See id. at p. 694.)\nThe report of the special master in the federal action, which was largely adopted by the federal district court, makes this plain. The special master found the State did not conduct a competent assessment of the site\u2019s geology, which would have found the underlying rock \u201cfractured and permeable.\u201d (United States v. Stringfellow, supra, 1993 WL 565393 at p. *6.) The State did not follow remedial recommendations made after the 1969 flood; if it had, \u201c[t]he release of waste in 1978 would not have occurred.\u201d (Id. at p. *8.) The State also did not create a hydraulic barrier against subsurface waste flows as recommended in 1974, resulting in significant increases in remedial costs. (Id. at pp. *7-*8.) In contrast to the State, the counterclaimants (the landowner and waste producers) did not negligently contribute to \u201creleases of waste from the Site.\u201d (Id. at p. *118.) The State, not the landowner, negligently caused \u201crelease[s] of hazardous substances to the ground or surface water.\u201d (Id. at p. *119.) In sum, the special master found, \u201cthe State played the central and negligent role in . . . causing the releases and potential releases of wastes from the Site that are the subject of this suit.\u201d (Id. at p. *47, italics added.) It was on this basis that the special master, and the district court in adopting his findings, found the State fully liable for the remediation costs.\nThe watercourse pollution exclusion could in theory be applied in part to discharges that were partly, but not wholly, confined to a watercourse. In the present procedural context, however, Insurers would be entitled to summary adjudication on the issue only if they could demonstrate on the summary judgment record that the 1969 overflow was wholly confined to the Pyrite Creek channel. Absent such a showing, an allocation issue of the type discussed in part IV., post, arises.\nBueermann may have incorrectly noted the location of the Pyrite Creek channel, or he may have been mistaken about whether the water sample was taken from that channel. On this summary judgment record it appears impossible to say which occurred.\nOn similar grounds, the State also argues the absolute watercourse exclusion does not apply to the March 1978 release. We express no opinion on this issue, which is not within the scope of our grant of review.\nIn qualification of the admission, the State noted \u201cthe obvious differentiations that each respective property damage originated at separate times and locations at the Site, was caused by separate contaminants of separate amounts or volumes and has a separate existence.\u201d For the same reason, the State denied a request to admit the property damage caused by one occurrence was \u201cindivisible\u201d from damage caused by another.\nThis once standard phrasing of the coverage clause, together with the definition of an occurrence, created an apparent circularity. The insurer agreed to indemnify for liability from property damage that \u201cresults in\u201d an occurrence, and an occurrence was defined as an event, etc., that \u201cresults . .. in\u201d property damage. The most reasonable reading of the coverage clause is that the covered property damage results from (is caused by) an occurrence, a formulation later adopted in the standard comprehensive general liability insuring clause used in California. (See Croskey et al., Cal. Practice Guide: Insurance Litigation (The Rutter Group 2008) f 7:16, p. 7A-6 (rev. # 1, 2008).) Insurers apparently agree; they paraphrase the policies here as covering liability for damages because of property damage \u201cfrom an occurrence.\u201d\nAs noted earlier, water samples taken after the 1969 flood showed contamination below the site dam as well as farther downslope at Pyrite Street and Mission Boulevard. The 1980 interagency report noted that after the 1969 event, \u201ca marked change ... in the quality of the groundwater\u201d was detected in monitoring wells and that during and after the 1978 release, in which hundreds of thousands of gallons of diluted waste were discharged, polluted runoff was found as far as six miles downstream of the site. In his 2004 report, the State\u2019s expert opined that downslope soil and groundwater contamination found in post-1978 testing was attributable to both the 1969 and 1978 releases, though in a deposition he declined to estimate the amount of contamination caused by either source.\nWe express no opinion as to whether it will ultimately prove possible to approximately allocate damages according to the amounts and types of pollutants released at various times. Amicus curiae Aerojet-General Corporation points out that cleanup costs are not necessarily directly proportional to the volume of pollutants from various sources, in part because the fixed costs of conducting any significant cleanup may account for the bulk of the total cost.\nGolden Eagle does not quote the language of the disputed policies\u2019 indemnity clauses, an omission making thorough analysis of the insurers\u2019 contractual indemnity duties in that case difficult. The policies are described, however, as \u201cthird party general liability policies\u201d issued between 1976 and 1985 (Golden Eagle, supra, 85 Cal.App.4th at p. 1304), suggesting they probably used standard language similar to that in Partridge and this case.\nWe also disapprove Lockheed Martin Corp. v. Continental Ins. Co., supra, 134 Cal.App.4th 187, to the same extent. (See id. at p. 209, fn. 8.)\nIf, for example, the insured had contaminated land on a third party\u2019s parcel A by a covered (sudden and accidental) polluting event and had contaminated the same owner\u2019s parcel B by an excluded polluting event, only the cost of remediating the damage to parcel A would be subject to indemnity (assuming the remediation costs could be so divided). The insured would bear the burden of proof on this allocation.\nWe do not speak here of cases in which it is determined in the third party action that the insured\u2019s covered actions subject the insured to liability for the whole of the damages. This might happen, for example, where multiple tortfeasors, including the insured, are held jointly and severally liable for the entirety of damages and the insured\u2019s only tortious act was one covered by the policy. The liability insurer in that situation must indemnify its insured for liability imposed by law, but may have a remedy through subrogation of the insured\u2019s partial equitable indemnity claim against the other tortfeasors. (See Musser v. Provencher (2002) 28 Cal.4th 274, 279-280, 285 [121 Cal.Rptr.2d 373, 48 P.3d 408].)\n'Associate Justice of the Court of Appeal, Second Appellate District, Division Five, assigned by the Chief Justice pursuant to article VI, section 6 of the California Constitution.",
+        "type": "majority",
+        "author": "WERDEGAR, J."
+      }
+    ],
+    "attorneys": [
+      "Counsel",
+      "Bill Lockyer and Edmund G. Brown, Jr., Attorneys General, Gordon B. Bums, Deputy State Solicitor General, Darryl L. Doke and Jill Scally, Deputy Attorneys General; Cotkin, Collins & Ginsburg, Cotkin & Collins, Roger W. Simpson, David W. Johnson, Jr.; Law Offices of Daniel J. Schultz, Daniel J. Schultz; Anderson Kill & Olick, Robert M. Horkovich and Edward J. Stein for Plaintiff and Appellant.",
+      "Morgan, Lewis & Bokius, Michael Y. Horton, Jason B. Komorsky and David S. Cox for League of California Cities as Amicus Curiae on behalf of Plaintiff and Appellant.",
+      "Winston & Strawn, Scott P. DeVries and Yelitza V. Dunham for Aerojet-General Corporation as Amicus Curiae on behalf of Plaintiff and Appellant.",
+      "Gauntlett & Associates, David A. Gauntlett and Eric R. Little for United Policyholders, Consumer Federation of America and Center for Community Action and Environmental Justice as Amici Curiae on behalf of Plaintiff and Appellant.",
+      "Nixon Peabody, Brace E. Copeland and Alan S. Feiler for Defendant and Respondent Allstate Insurance Company.",
+      "Berkes Crane Robinson & Seal, Steven M. Crane and Barbara S. Hodous for Defendant and Respondent Columbia Casualty Company.",
+      "Berman & Aiwasian, Deborah Aiwasian, Alan S. Berman and Steven P. Haskell for Defendant and Respondent Century Indemnity Company.",
+      "Riedl, McCloskey & Waring and Andrew McCloskey for Defendant and Respondent Westport Insurance Corporation.",
+      "Wiley Rein & Fielding, Wiley Rein, Laura A. Foggan, John C. Yang; Sinnott, Dito, Moura & Puebla, Randolph P. Sinnott and John J. Moura for Complex Insurance Claims Litigation Association as Amicus Curiae on behalf of Defendants and Respondents.",
+      "Duane Morris, William J. Baron and Joleen C. Lenihan for Certain London Market Insurers and Great American Insurance Company as Amici Curiae on behalf of Defendants and Respondents.",
+      "Horvitz & Levy, Barry R. Levy and Peter Abrahams for TIG Insurance Company as Amicus Curiae on behalf of Defendants and Respondents."
+    ],
+    "corrections": "",
+    "head_matter": "[No. S149988.\nMar. 9, 2009.]\nSTATE OF CALIFORNIA, Plaintiff and Appellant, v. ALLSTATE INSURANCE COMPANY et al., Defendants and Respondents. STATE OF CALIFORNIA, Plaintiff, v. UNDERWRITERS AT LLOYD\u2019S LONDON et al., Defendants.\nCounsel\nBill Lockyer and Edmund G. Brown, Jr., Attorneys General, Gordon B. Bums, Deputy State Solicitor General, Darryl L. Doke and Jill Scally, Deputy Attorneys General; Cotkin, Collins & Ginsburg, Cotkin & Collins, Roger W. Simpson, David W. Johnson, Jr.; Law Offices of Daniel J. Schultz, Daniel J. Schultz; Anderson Kill & Olick, Robert M. Horkovich and Edward J. Stein for Plaintiff and Appellant.\nMorgan, Lewis & Bokius, Michael Y. Horton, Jason B. Komorsky and David S. Cox for League of California Cities as Amicus Curiae on behalf of Plaintiff and Appellant.\nWinston & Strawn, Scott P. DeVries and Yelitza V. Dunham for Aerojet-General Corporation as Amicus Curiae on behalf of Plaintiff and Appellant.\nGauntlett & Associates, David A. Gauntlett and Eric R. Little for United Policyholders, Consumer Federation of America and Center for Community Action and Environmental Justice as Amici Curiae on behalf of Plaintiff and Appellant.\nNixon Peabody, Brace E. Copeland and Alan S. Feiler for Defendant and Respondent Allstate Insurance Company.\nBerkes Crane Robinson & Seal, Steven M. Crane and Barbara S. Hodous for Defendant and Respondent Columbia Casualty Company.\nBerman & Aiwasian, Deborah Aiwasian, Alan S. Berman and Steven P. Haskell for Defendant and Respondent Century Indemnity Company.\nRiedl, McCloskey & Waring and Andrew McCloskey for Defendant and Respondent Westport Insurance Corporation.\nWiley Rein & Fielding, Wiley Rein, Laura A. Foggan, John C. Yang; Sinnott, Dito, Moura & Puebla, Randolph P. Sinnott and John J. Moura for Complex Insurance Claims Litigation Association as Amicus Curiae on behalf of Defendants and Respondents.\nDuane Morris, William J. Baron and Joleen C. Lenihan for Certain London Market Insurers and Great American Insurance Company as Amici Curiae on behalf of Defendants and Respondents.\nHorvitz & Levy, Barry R. Levy and Peter Abrahams for TIG Insurance Company as Amicus Curiae on behalf of Defendants and Respondents."
+  },
+  "file_name": "1008-01",
+  "first_page_order": 1048,
+  "last_page_order": 1078
+}

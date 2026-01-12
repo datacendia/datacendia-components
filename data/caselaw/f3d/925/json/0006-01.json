@@ -1,0 +1,758 @@
+{
+  "id": 12521321,
+  "name": "Dylan O'RIORDAN, Petitioner, v. William P. BARR, Respondent.",
+  "name_abbreviation": "O'Riordan v. Barr",
+  "decision_date": "2019-05-22",
+  "docket_number": "No. 17-1990",
+  "first_page": "6",
+  "last_page": "16",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "925 F.3d 6"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "1st Cir.",
+    "id": 8809,
+    "name": "United States Court of Appeals for the First Circuit"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "8 U.S.C. \u00a7 1153",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "pin_cites": [
+        {
+          "page": "(a)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "8 U.S.C. \u00a7 1151",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(b)(2)(A)(i)"
+        },
+        {
+          "page": "(b)(2)(A)(i)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "8 U.S.C. \u00a7 1255",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 5,
+      "pin_cites": [
+        {
+          "page": "(c)(4)"
+        },
+        {
+          "page": "(a)(2)"
+        },
+        {
+          "page": "(a)(2)"
+        },
+        {
+          "page": "(a)(2)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "533 U.S. 289",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9313153
+      ],
+      "weight": 3,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "322"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/533/0289-01"
+      ]
+    },
+    {
+      "cite": "13 S.Ct. 1016",
+      "category": "reporters:federal",
+      "reporter": "S. Ct.",
+      "case_ids": [
+        3569340
+      ],
+      "weight": 2,
+      "year": 1893,
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/149/0698-02"
+      ]
+    },
+    {
+      "cite": "149 U.S. 698",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3569969,
+        3569340
+      ],
+      "year": 1893,
+      "pin_cites": [
+        {
+          "page": "740"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/149/0698-01",
+        "/us/149/0698-02"
+      ]
+    },
+    {
+      "cite": "559 U.S. 356",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        3581896,
+        12447673
+      ],
+      "weight": 3,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "365",
+          "parenthetical": "quoting Fong Yue Ting v. United States, 149 U.S. 698, 740, 13 S.Ct. 1016, 37 L.Ed. 905 (1893) "
+        },
+        {
+          "parenthetical": "quoting Fong Yue Ting v. United States, 149 U.S. 698, 740, 13 S.Ct. 1016, 37 L.Ed. 905 (1893) "
+        },
+        {
+          "parenthetical": "quoting Fong Yue Ting v. United States, 149 U.S. 698, 740, 13 S.Ct. 1016, 37 L.Ed. 905 (1893) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/559/0356-01",
+        "/l-ed-2d/176/0284-01"
+      ]
+    },
+    {
+      "cite": "238 F.3d 50",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        11139313
+      ],
+      "weight": 6,
+      "year": 2001,
+      "pin_cites": [
+        {
+          "page": "57"
+        },
+        {
+          "page": "53"
+        },
+        {
+          "page": "57"
+        },
+        {
+          "page": "56",
+          "parenthetical": "emphasis in original"
+        },
+        {
+          "page": "57"
+        },
+        {
+          "page": "56-57"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/238/0050-01"
+      ]
+    },
+    {
+      "cite": "528 U.S. 470",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        9476451
+      ],
+      "weight": 7,
+      "year": 2000,
+      "pin_cites": [
+        {
+          "page": "483"
+        },
+        {
+          "page": "483"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/528/0470-01"
+      ]
+    },
+    {
+      "cite": "551 F.3d 1",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        5752580
+      ],
+      "year": 2008,
+      "pin_cites": [
+        {
+          "page": "7",
+          "parenthetical": "\"A petitioner can carry his burden only by a specific showing that the challenged practice likely affected the result of the hearing.\""
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/551/0001-01"
+      ]
+    },
+    {
+      "cite": "904 F.3d 11",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12518620
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "22",
+          "parenthetical": "\"[A]n argument raised for the first time in a reply brief comes too late to be preserved on appeal.\" (internal quotation and alteration omitted)"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/904/0011-01"
+      ]
+    },
+    {
+      "cite": "424 U.S. 319",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        12026449
+      ],
+      "weight": 3,
+      "year": 1976,
+      "pin_cites": [
+        {
+          "page": "335"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/424/0319-01"
+      ]
+    },
+    {
+      "cite": "993 F.2d 75",
+      "category": "reporters:federal",
+      "reporter": "F.2d",
+      "case_ids": [
+        10509890
+      ],
+      "year": 1993,
+      "pin_cites": [
+        {
+          "page": "79"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f2d/993/0075-01"
+      ]
+    },
+    {
+      "cite": "593 F.3d 495",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3518867
+      ],
+      "weight": 6,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "503-05"
+        },
+        {
+          "page": "506"
+        },
+        {
+          "page": "506"
+        },
+        {
+          "page": "506"
+        },
+        {
+          "page": "506"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/593/0495-01"
+      ]
+    },
+    {
+      "cite": "304 U.S. 458",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        10805
+      ],
+      "weight": 3,
+      "year": 1938,
+      "pin_cites": [
+        {
+          "page": "464"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/304/0458-01"
+      ]
+    },
+    {
+      "cite": "758 F.3d 72",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4159229
+      ],
+      "year": 2014,
+      "pin_cites": [
+        {
+          "page": "81"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/758/0072-01"
+      ]
+    },
+    {
+      "cite": "727 F.3d 27",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4076706
+      ],
+      "weight": 2,
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "32"
+        },
+        {
+          "page": "31"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/727/0027-01"
+      ]
+    },
+    {
+      "cite": "385 U.S. 276",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11336895
+      ],
+      "weight": 3,
+      "year": 1966,
+      "pin_cites": [
+        {
+          "page": "277"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/385/0276-01"
+      ]
+    },
+    {
+      "cite": "891 F.3d 42",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        12517099
+      ],
+      "year": 2018,
+      "pin_cites": [
+        {
+          "page": "48"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/891/0042-01"
+      ]
+    },
+    {
+      "cite": "51 F. App'x 732",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        1083200
+      ],
+      "year": 2002,
+      "pin_cites": [
+        {
+          "page": "733",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/51/0732-01"
+      ]
+    },
+    {
+      "cite": "486 F.3d 223",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3116901
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "228-30",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/486/0223-01"
+      ]
+    },
+    {
+      "cite": "509 F.3d 709",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3330810
+      ],
+      "year": 2007,
+      "pin_cites": [
+        {
+          "page": "713",
+          "parenthetical": "rejecting a ripening theory for premature petitions for review"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/509/0709-01"
+      ]
+    },
+    {
+      "cite": "373 F. App'x 836",
+      "category": "reporters:federal",
+      "reporter": "F. App'x",
+      "case_ids": [
+        4151836
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "843",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f-appx/373/0836-01"
+      ]
+    },
+    {
+      "cite": "597 F.3d 128",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4221205
+      ],
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "132",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/597/0128-01"
+      ]
+    },
+    {
+      "cite": "691 F.3d 488",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3508862
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "page": "493",
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/691/0488-01"
+      ]
+    },
+    {
+      "cite": "691 F.3d 967",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3508726
+      ],
+      "year": 2012,
+      "pin_cites": [
+        {
+          "parenthetical": "same"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/691/0967-01"
+      ]
+    },
+    {
+      "cite": "821 F.3d 1307",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4257888
+      ],
+      "year": 2016,
+      "pin_cites": [
+        {
+          "page": "1308",
+          "parenthetical": "adopting a ripening theory for premature petitions for review"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/821/1307-01"
+      ]
+    },
+    {
+      "cite": "8 U.S.C. \u00a7 1252",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 2,
+      "pin_cites": [
+        {
+          "page": "(b)(1)"
+        },
+        {
+          "page": "(b)(4)(B)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "506 U.S. 9",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11924854
+      ],
+      "weight": 3,
+      "year": 1992,
+      "pin_cites": [
+        {
+          "page": "12"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/506/0009-01"
+      ]
+    },
+    {
+      "cite": "705 F.3d 44",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        3658597
+      ],
+      "year": 2013,
+      "pin_cites": [
+        {
+          "page": "52"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/705/0044-01"
+      ]
+    },
+    {
+      "cite": "475 U.S. 534",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        6205017
+      ],
+      "weight": 3,
+      "year": 1986,
+      "pin_cites": [
+        {
+          "page": "541"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/475/0534-01"
+      ]
+    },
+    {
+      "cite": "520 U.S. 43",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        11651034
+      ],
+      "weight": 3,
+      "year": 1997,
+      "pin_cites": [
+        {
+          "page": "73",
+          "parenthetical": "quoting Bender v. Williamsport Area Sch. Dist., 475 U.S. 534, 541, 106 S.Ct. 1326, 89 L.Ed.2d 501 (1986) "
+        },
+        {
+          "parenthetical": "quoting Bender v. Williamsport Area Sch. Dist., 475 U.S. 534, 541, 106 S.Ct. 1326, 89 L.Ed.2d 501 (1986) "
+        },
+        {
+          "parenthetical": "quoting Bender v. Williamsport Area Sch. Dist., 475 U.S. 534, 541, 106 S.Ct. 1326, 89 L.Ed.2d 501 (1986) "
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/520/0043-01"
+      ]
+    },
+    {
+      "cite": "8 C.F.R. \u00a7 217.5",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "opinion_index": 0
+    },
+    {
+      "cite": "8 C.F.R. \u00a7 217.2",
+      "category": "laws:admin_compilation",
+      "reporter": "C.F.R.",
+      "pin_cites": [
+        {
+          "page": "(b)(1)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "8 U.S.C. \u00a7 1187",
+      "category": "laws:leg_statute",
+      "reporter": "U.S.C.",
+      "weight": 4,
+      "pin_cites": [
+        {
+          "page": "(b)"
+        }
+      ],
+      "opinion_index": 0
+    },
+    {
+      "cite": "603 F.3d 235",
+      "category": "reporters:federal",
+      "reporter": "F.3d",
+      "case_ids": [
+        4227144
+      ],
+      "weight": 6,
+      "year": 2010,
+      "pin_cites": [
+        {
+          "page": "238",
+          "parenthetical": "citing 8 U.S.C. \u00a7 1187 "
+        },
+        {
+          "page": "240-41"
+        },
+        {
+          "page": "240-41"
+        }
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/f3d/603/0235-01"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 1108,
+    "char_count": 30811,
+    "pagerank": {
+      "raw": 4.03580807328026e-08,
+      "percentile": 0.2593344245166417
+    },
+    "sha256": "aa87262477fe96c8026f76583a5ddc626c7784111c2f6d96d14ab60026377569",
+    "simhash": "1:f18afaa45f606e5f",
+    "word_count": 5214
+  },
+  "last_updated": "2024-02-27T18:46:49.974673+00:00",
+  "provenance": {
+    "date_added": "2021-08-27",
+    "source": "Fastcase",
+    "batch": "2021"
+  },
+  "casebody": {
+    "judges": [
+      "Before Torruella, Selya, and Barron, Circuit Judges."
+    ],
+    "parties": [
+      "Dylan O'RIORDAN, Petitioner,\nv.\nWilliam P. BARR, Respondent."
+    ],
+    "opinions": [
+      {
+        "text": "BARRON, Circuit Judge.\nDylan O'Riordan is an Irish citizen who had entered this country as a child and had been living in the United States for more than seven years when immigration officials apprehended him. The government charged him with having been admitted to this country via the Visa Waiver Program (\"VWP\") and having stayed here beyond the 90-day period permitted by the visa that he secured through that program. He now petitions for review of the administrative order of removal that was issued in accord with the terms of the VWP, after the government found that he had been admitted to the United States through the VWP as a child and then overstayed his visa. Although O'Riordan's circumstances are most unfortunate, we conclude that we must deny the petition.\nI.\nThe VWP allows \"a qualifying visitor [to] enter the United States without obtaining a visa, so long as a variety of statutory and regulatory requirements are met.\" Bradley v. Att'y Gen., 603 F.3d 235, 238 (3d Cir. 2010) (citing 8 U.S.C. \u00a7 1187 ). The VWP is a reciprocal waiver program, which means that \"[a]n alien may not be provided a waiver [of the visa requirement from the United States government] under the program unless the alien has waived any right ... to contest, other than on the basis of an application for asylum, any action for removal of the alien.\" 8 U.S.C. \u00a7 1187(b). The VWP allows the alien visitor, per their visa, to remain in the United States for 90 days after entry. Id. \u00a7 1187(a)(1).\nPursuant to the VWP, an alien must sign an \"I-94W, Nonimmigrant Visa Waiver Arrival/Departure Form.\" 8 C.F.R. \u00a7 217.2(b)(1). The alien must also complete a travel authorization under the Electronic System for Travel Authorization (\"ESTA\"). See 8 C.F.R. \u00a7 217.5. On this ESTA form, there are fields to indicate whether the visitor has \"Waived Rights\" and whether the form was filled out by a \"Third Party.\"\nThere is no I-94W waiver form related to O'Riordan's case in the record. The record does contain an ESTA form concerning his entry into the United States. That form, which is dated June 10, 2010, indicates \"Y\" in the field \"Waived Rights\" and \"Y\" in the field \"Third Party Indicator.\" O'Riordan was twelve years old as of that date. At that time, his parents were both lawful permanent residents of the United States.\nDuring the more than seven years in which O'Riordan thereafter lived in the United States, he met Brenna Blanchette, a United States citizen. He became engaged to her in January 2017 while she was pregnant with his child, who was born in this country.\nOn September 18, 2017, O'Riordan, then 19 years of age, was taken into Department of Homeland Security (\"DHS\") custody. The next day, he was served with a final administrative order of removal. That order indicated that he had waived his right \"to contest, other than on the basis of an application for asylum, any action for [his] removal\" through the VWP.\nIn acknowledging service of the final order of removal, O'Riordan declined to contest his removal on certain grounds, such as U.S. citizen or lawful permanent resident status, entry through means other than the VWP, or compliance with the terms of the VWP. Instead, he indicated that he wished to contest his removal on \"Other\" grounds and explained that \"I came here as a child not knowing the consequences with my parents. I now have a [U.S. citizen] child here in the United States who needs me.\" He also indicated that he \"wish[ed] to request Asylum, Withholding or Deferral of Removal.\"\nO'Riordan petitioned this court for review of his removal order on October 6, 2017. The same day, O'Riordan moved in this Court to stay his removal. That motion was denied. O'Riordan then moved for reconsideration, but that motion was denied as well.\nBecause O'Riordan indicated that he intended to seek asylum or withholding of removal, he was put into withholding-only removal proceedings on October 6, 2017. He moved to terminate those proceedings on October 18, 2017. He explained that he did \"not understand[ ] the legal definitions of 'withholding' and 'deferral' \" and so \"checked the box\" to seek such relief on the understanding that doing so would allow him to seek review of his removal.\nO'Riordan's petition for review in our Court and the withholding-only proceedings were both pending when the government moved to dismiss O'Riordan's petition for review for lack of jurisdiction. The government did so on the ground that the administrative order of removal was not final because the withholding-only proceedings were ongoing.\nThe withholding-only proceedings terminated while the government's motion to dismiss the petition was pending before us. As a result, the government moved to withdraw its motion to dismiss for lack of jurisdiction. On November 9, 2017, we granted the government's motion to withdraw its motion to dismiss.\nOn November 28, 2017, DHS cancelled and reissued O'Riordan's prior Final Order of Removal. O'Riordan did not file a petition for review of that order. Throughout this period, O'Riordan was detained pending his removal.\nOn December 18, 2017, after the entry of his final order of removal, O'Riordan and Blanchette were married in a prison chapel. O'Riordan was ultimately removed to Ireland on February 15, 2018.\nII.\nWe first address our jurisdiction to review O'Riordan's petition. We begin with the issue of whether we have jurisdiction under Article III of the federal Constitution. We then consider whether we have statutory jurisdiction.\nThe constitutional issue concerning our jurisdiction arises because, after O'Riordan's removal to Ireland, he made certain statements to the press in which he appeared to indicate that he did not intend to return to the United States. Because \"every federal appellate court has a special obligation to satisfy itself ... of its own jurisdiction,\" we ordered O'Riordan to show cause why the case should not be dismissed as moot. Arizonans for Official English v. Arizona, 520 U.S. 43, 73, 117 S.Ct. 1055, 137 L.Ed.2d 170 (1997) (quoting Bender v. Williamsport Area Sch. Dist., 475 U.S. 534, 541, 106 S.Ct. 1326, 89 L.Ed.2d 501 (1986) ) (internal quotation marks and citations omitted).\nO'Riordan, in response to our order, stated his interest in returning to the United States and explained that we \"continue[ ] to have the power to grant effectual relief by vacating his order of removal and ordering the government to provide a constitutionally sufficient hearing in which Dylan may pursue relief.\" The government, which bears the burden of establishing mootness, see Am. Civil Liberties Union of Mass. v. U.S. Conference of Catholic Bishops, 705 F.3d 44, 52 (1st Cir. 2013), has made no attempt to rebut O'Riordan's representations to us regarding his intentions to return to the United States or otherwise argue that O'Riordan's case is moot. In light of O'Riordan's representations about his intentions, and our power to grant O'Riordan \"effectual relief\" -- by vacating the removal order and thus permitting him to return to the United States and challenge his removal in the type of hearing that he contends he is entitled to receive as a constitutional matter -- his case is not moot. See Church of Scientology of Cal. v. United States, 506 U.S. 9, 12, 113 S.Ct. 447, 121 L.Ed.2d 313 (1992).\nWe must also consider the question of whether we have statutory jurisdiction. The statutory issue concerning our jurisdiction arises because \"petition[s] for review must be filed not later than 30 days after the date of the final order of removal.\" 8 U.S.C. \u00a7 1252(b)(1). O'Riordan timely petitioned for review of the September 19, 2017 removal order. O'Riordan did not, however, petition -- timely or otherwise -- for review of the removal order that was subsequently issued on November 28, 2017.\nDespite this wrinkle concerning the timeliness of O'Riordan's petition, the parties agree that we do have statutory jurisdiction. O'Riordan contends that we should not treat the order issued in November as if it were a distinct removal order at all, given what the record shows about how the government itself treated it. He further contends that we may treat the September order as final, despite the fact that the withholding of removal proceedings were pending at the time of the petition from the order. The government, for its part, contends that we may treat the petition for review from the September order as timely, even though the government contends that order was not final. The government contends that we may deem the petition for review to have ripened upon the issuance of the subsequently issued removal order.\nWe have not previously decided whether a prematurely filed petition for review from an order of removal may be deemed timely on a ripening theory, and other circuits are divided on that issue. Compare Jimenez-Morales v. U.S. Att'y Gen., 821 F.3d 1307, 1308 (11th Cir. 2016) (adopting a ripening theory for premature petitions for review), Hounmenou v. Holder, 691 F.3d 967, 970 n.1 (8th Cir. 2012) (same), Khan v. Att'y Gen., 691 F.3d 488, 493 (3d Cir. 2012) (same), Herrera-Molina v. Holder, 597 F.3d 128, 132 (2d Cir. 2010) (same), and G.S. v. Holder, 373 F. App'x 836, 843 (10th Cir. 2010) (same), with Moreira v. Mukasey, 509 F.3d 709, 713 (5th Cir. 2007) (rejecting a ripening theory for premature petitions for review), Jaber v. Gonzales, 486 F.3d 223, 228-30 (6th Cir. 2007) (same), and Brion v. INS, 51 F. App'x 732, 733 (9th Cir. 2002) (same). Nor are we aware of a case that has applied a ripening theory in a case in which the assertedly non-final order from which the petition for review was sought was purportedly cancelled and a new removal order was subsequently issued.\nHowever, we need not resolve the precise ground on which we may treat this petition for review to be timely. Given our conclusion that the petition for review clearly must be denied on the merits, we may simply proceed on the assumption that our statutory jurisdiction is secure, without resolving definitively that it is. See Morris v. Sessions, 891 F.3d 42, 48 (1st Cir. 2018).\nIII.\nWe begin with O'Riordan's contention that the government failed to present sufficient evidence of his removability. He contends that the proper inquiry concerns whether \"clear, unequivocal, and convincing evidence,\" Woodby v. INS, 385 U.S. 276, 277, 87 S.Ct. 483, 17 L.Ed.2d 362 (1966), establishes that he is subject to removal pursuant to 8 U.S.C. \u00a7 1187 for having overstayed his visa after having been admitted to the United States pursuant to the VWP.\nWe may assume that the Woodby standard applies in a case like this one -- a proposition that the government disputes -- and that our review is thus for substantial evidence, see Urizar-Carrascoza v. Holder, 727 F.3d 27, 32 (1st Cir. 2013), as neither party contends otherwise. We may do so because we conclude that, even under Woodby, there is no basis in the record for vacating the administrative order of removal on evidentiary grounds.\nIn reaching this conclusion, we note that O'Riordan does not dispute that the record shows that, upon service of the government's Notice of Intent to Issue a Final Administrative Removal Order, he completed a form in which he indicated that he did not intend to contest removal on the basis of threshold factual issues that would undermine the basis for finding him removable. These issues included his being a U.S. citizen or a lawful permanent resident, his not having entered this country through the VWP, or his being in compliance with the terms of his admission. Nor does he dispute that the form provided an option whereby O'Riordan could select \"Other\" and provide a basis for contesting his removability, to which he responded by explaining only that he came to the United States as a child without understanding the consequences and that he now has a U.S. citizen child dependent. We note, too, that the record contains travel documents that show that O'Riordan flew to the United States with his mother at the time that the ESTA form that is in the record was filled out.\nTo make the case that we are nonetheless compelled on this record to find that the government has not met its evidentiary burden as to his removability, see Urizar-Carrascoza, 727 F.3d at 31 (explaining that, when reviewing for substantial evidence, \"we uphold [factual] determinations unless 'any reasonable adjudicator would be compelled to conclude to the contrary' \" (quoting 8 U.S.C. \u00a7 1252(b)(4)(B) )), O'Riordan points to the fact that there is no I-94W form pertaining to him in the record and to certain documents in the record that contain varying dates as to when he entered the United States as a child. But, in light of the evidence described above concerning the circumstances of O'Riordan's entry, his own representations on the form that he filled out when given notice of his administrative removal based on his having overstayed the visa under the VWP, see Lima v. Holder, 758 F.3d 72, 81 (1st Cir. 2014), and the fact that he makes no contention that he in fact entered the country through any means other than the VWP, those features of the record that he highlights in support of his position do not suffice to permit us to conclude that the administrative order is not supportable as an evidentiary matter.\nIV.\nWe thus turn to O'Riordan's procedural due process challenge to the removal order under the Fifth Amendment to the United States Constitution. For purposes of this challenge, O'Riordan appears to accept that the record supports the conclusion that he was admitted into the United States pursuant to the VWP, that the waiver of the right to contest removal that is required of those who are admitted pursuant to the VWP was effected on his behalf in his case, and that he then overstayed his visa in violation of the terms of the VWP.\nNevertheless, O'Riordan contends that, as a matter of constitutional procedural due process, his administrative order of removal must be vacated because he was permitted to contest it only on certain limited grounds and then only in a removal proceeding that he characterizes as one in which there was not \"any hearing at all.\" In pressing this contention, he does not dispute that the right he claims to have -- the right to contest his removal on other grounds and in what he contends would qualify as a \"hearing\" -- is subject to waiver. But, he contends, the waiver of any right to such greater process than was effected in accord with the VWP is not enforceable in his case, because, at the time of his admission into this country through the VWP, he was a mere child and thus could not have knowingly and intelligently waived any such right. For, as he correctly notes, a person ordinarily must knowingly and intelligently waive a federal constitutional right -- such as a right to the process due under the Fifth Amendment -- in order for that waiver to bar that person from asserting that right. See Johnson v. Zerbst, 304 U.S. 458, 464, 58 S.Ct. 1019, 82 L.Ed. 1461 (1938) ; see also Bayo v. Napolitano, 593 F.3d 495, 503-05 (7th Cir. 2010) ; Nose v. Att'y Gen., 993 F.2d 75, 79 (5th Cir. 1993).\nThe government asserts in response that O'Riordan was not entitled under Mathews v. Eldridge, 424 U.S. 319, 335, 96 S.Ct. 893, 47 L.Ed.2d 18 (1976), to more process than he received, and, we note, O'Riordan does not address Mathews until his reply brief. See United States v. Freitas, 904 F.3d 11, 22 (1st Cir. 2018) (\"[A]n argument raised for the first time in a reply brief comes too late to be preserved on appeal.\" (internal quotation and alteration omitted)). Nor does he spell out the additional procedural protections that he claims he was entitled to receive.\nBut, even assuming both that the waiver's enforcement would deprive O'Riordan of a right to a type of removal proceeding to which he claims that he otherwise would have been entitled as a matter of constitutional due process and that the record fails to establish that he did knowingly and intelligently make a waiver of his right to such a proceeding, the question remains whether O'Riordan has shown prejudice from the due process violation that he alleges. See Mu\u00f1oz-Monsalve v. Mukasey, 551 F.3d 1, 7 (1st Cir. 2008) (\"A petitioner can carry his burden only by a specific showing that the challenged practice likely affected the result of the hearing.\"). O'Riordan appears to accept that he needs to show prejudice to succeed on his due process challenge. Yet, his challenge comes up short on that score, as he fails either to establish that he is entitled to what he refers to as a \"presumption of prejudice\" or to make a sufficient particularized showing of prejudice.\nA.\nWe begin with O'Riordan's contention that he is entitled to a presumption of prejudice, such that he need not make a particularized showing of prejudice. We may assume that the government has not rebutted any such presumption, for, as we explain, we find that his attempt to establish that such a presumption applies is unpersuasive.\nO'Riordan relies in making this argument for presumptive prejudice on Roe v. Flores-Ortega, 528 U.S. 470, 120 S.Ct. 1029, 145 L.Ed.2d 985 (2000), which holds that a \"denial of [an] entire judicial proceeding itself ... demands a presumption of prejudice\" for purposes of a Sixth Amendment ineffective assistance of counsel claim, id. at 483, 120 S.Ct. 1029, and on Hernandez v. Reno, 238 F.3d 50, 57 (1st Cir. 2001), which addressed Flores-Ortega in the context of immigration proceedings. In Hernandez, we considered an alien's challenge to a denial by the Board of Immigration Appeals (\"BIA\") of a motion to reopen that was based on the contention that the alien's counsel had provided ineffective assistance by failing to appeal to the BIA from the immigration judge's deportation order. Id. at 53.\nO'Riordan points out that, although Hernandez rejected the petitioner's due process challenge in that case, it addressed Flores-Ortega by noting that \"[o]ur concern in the immigration context is not with the Sixth Amendment but with preserving a fair opportunity to have a ... claim considered ....\" Id. at 57. He also rightly notes that, in Hernandez, we went on to explain that the alien in that case had been given \"a fair opportunity to present his waiver case to the immigration judge,\" which included \"a hearing, substantial testimony, and a reasoned decision.\" Id. at 56 (emphasis in original). O'Riordan contends, based on these statements, that Hernandez shows that he is entitled to at least a presumption that he was prejudiced by being denied such process, due to the type of proceedings that were used to effect his removal.\nBut, in Hernandez, we expressly declined to \"extend[ ] the prejudice per se notion from criminal convictions to review of waiver denials in deportations,\" id. at 57, that we would apply in the event of a \"waiver\" of a requested appeal from a criminal conviction due to the ineffective assistance of counsel, see Flores-Ortega, 528 U.S. at 483, 120 S.Ct. 1029. Moreover, in declining to extend Flores-Ortega in that respect, we made no holding -- nor even offered any dicta -- as to when, if ever, a presumption of prejudice for a claimed lack of constitutionally adequate process arising from the use of summary process in the immigration context might be appropriate. See Hernandez, 238 F.3d at 56-57.\nThus, Hernandez does not justify, much less require, the conclusion that the logic of Flores-Ortega must be extended to the immigration context, such that we must presume that the waiver's enforcement in O'Riordan's case prejudiced him by depriving him of a right to more than the process that he received. That is so, even if we assume both that the waiver's enforcement would deprive O'Riordan of the greater (though unspecified) process that he contends he is entitled to as a matter of constitutional due process and that the presumption of prejudice that he contends that we must apply has not been overcome here.\nO'Riordan does note that the Supreme Court has observed since we decided Hernandez that removal is a \"severe 'penalty,' \" Padilla v. Kentucky, 559 U.S. 356, 365, 130 S.Ct. 1473, 176 L.Ed.2d 284 (2010) (quoting Fong Yue Ting v. United States, 149 U.S. 698, 740, 13 S.Ct. 1016, 37 L.Ed. 905 (1893) ), and that the \"right to remain in the United States may be more important ... than any potential jail sentence,\" 3 Bender, Criminal Defense Techniques \u00a7 60A.01 (1999) (quoted in INS v. St. Cyr, 533 U.S. 289, 322, 121 S.Ct. 2271, 150 L.Ed.2d 347 (2001) ). But, those statements were not made in connection with due process challenges to immigration proceedings. They thus do not suffice to show that Flores-Ortega must be extended in a way that Hernandez itself does not require. Nor does O'Riordan develop any other argument as to why he is entitled to a presumption of prejudice.\nB.\nWe turn, then, to O'Riordan's assertion that he can make a particularized showing of prejudice. He relies on either of two grounds to do so, notwithstanding that he did not mention either one in filling out the form that he was given upon being served with the Notice of Intent to Issue a Final Administrative Removal Order. We find neither contention persuasive.\n1.\nO'Riordan contends first that, \"[b]ut for the order of removal and his detention, [he] would be eligible to adjust his status to that of a lawful permanent resident\" as the \"son of lawful permanent resident parents and the spouse of a U.S. citizen[.]\" He thus contends that -- because he did not knowingly and intelligently make the waiver of his right to more process than he received, which he contends includes the right to contest his removal on grounds precluded by the enforcement of the waiver -- he was prejudiced by having been denied the opportunity to contest his removal on the basis of his eligibility to adjust his status, as that is a ground that he asserts otherwise \"would be\" available to him to contest his removal.\nWe start with the prejudice claim that O'Riordan makes based on the lawful permanent resident status of his parents. They had that status at the time of his admission to the United States through the VWP, and nothing in the record indicates that they fell out of that status at any point. O'Riordan thus contends that -- but for the waiver's enforcement -- he would be eligible to apply for adjustment of status under 8 U.S.C. \u00a7 1255(c)(4).\nBut, \u00a7 1255(c)(4) provides that individuals admitted under the VWP may not apply for adjustment of status except on the basis of their relationship to an \"immediate relative,\" id., which 8 U.S.C. \u00a7 1151(b)(2)(A)(i) defines as, in relevant part, U.S. citizen parents. As O'Riordan makes no argument, at least with respect to his constitutional challenge, that he is not an individual admitted under the VWP or that his parents are U.S. citizens, we do not see how he would have been eligible to apply for adjustment of status on the basis of his relationship to his parents at the \"hearing\" that he claims he was constitutionally entitled to receive but was not given.\nWe turn, then, to the prejudice claim that O'Riordan makes based on the U.S. citizenship status of his wife. Here, the problem with his contention is somewhat different. The record shows that O'Riordan was not married to her at the time of the issuance of the administrative order of removal that he now seeks to have vacated. Thus, he could not have contested his removal on the basis of his relationship to her at that time. 8 U.S.C. \u00a7\u00a7 1151(b)(2)(A)(i), 1255(c)(4). Yet, he makes no argument as to why the decision to afford him a \"hearing\" at which he could have contested removal on more grounds than he was permitted would have ensured that he would have been married to her and thus that he could have then contested his removal at that hearing on that basis.\n2.\nO'Riordan separately contends that he can make a particularized showing of prejudice by asking us to focus on the moment at which the choice was made to have him admitted into the country through the VWP. He notes that, at that time, he was a child of lawful permanent residents of this country, and he points out that his parents could have, at that time or thereafter, \"petitioned\" for his admission independent of the VWP on the basis of their familial ties to him.\nBut, he points out, his parents may not now similarly petition for his admission to this country on that basis, in light of 8 U.S.C. \u00a7 1255(a)(2), precisely because he was admitted into this country through the VWP and then overstayed his visa. Thus, he contends, due to the waiver's enforcement, and the resulting administrative removal that triggered the bar to his admission to the United States that remains in place under 8 U.S.C. \u00a7 1255(a)(2), he is worse off than he would have been with respect to his ability to obtain admission to the United States than if he had not been admitted pursuant to the VWP at all. Accordingly, he contends, in this way, he can show the requisite prejudice from the deprivation of process that he claims that he was subjected to by virtue of the issuance of the administrative order of removal.\nThe government counters this contention on the basis of Bayo, 593 F.3d at 506, and Bradley, 603 F.3d at 240-41. The circuit court in each of those cases determined that an alien potentially could show prejudice if the alien could have exercised the option of not entering through the VWP and, by doing so, obtained admission into the United States through some other means that would have enabled the alien to forge a relationship that would have supplied a ground for contesting removal -- such as by seeking adjustment of status based on that relationship. See Bayo, 593 F.3d at 506 ; Bradley, 603 F.3d at 240-41. The prejudice, the court went on to explain in each case, would then arise from the alien having been denied -- due to the enforcement of the waiver -- the opportunity to contest the administrative order of removal on the basis of that relationship. See Bradley, 603 F.3d at 241 ; Bayo, 593 F.3d at 506.\nIn each case, however, the circuit court determined that the claim of prejudice was too speculative. See Bradley, 603 F.3d at 240 ; Bayo, 593 F.3d at 506. The problem that each court identified inhered in the fact that it was highly uncertain that the relationship on which the eligibility for adjustment of status would have been based would have been forged at all, absent the alien first having been admitted to the country through the VWP. See Bradley, 603 F.3d at 240 ; Bayo, 593 F.3d at 506.\nO'Riordan is right that, unlike in either Bayo or Bradley, we need not speculate in O'Riordan's case whether, if he had not been admitted into this country through the VWP, he would have forged a relationship through which he then could have been eligible for admission to this country. The relationship that would provide the basis for his eligibility would be the one that he had with his parent, who was a lawful permanent resident at the time of his admission to this country as a child through the VWP and thereafter. See 8 U.S.C. \u00a7 1153(a)(1).\nThis distinction notwithstanding, O'Riordan still has failed to show how the fact that his parents could have chosen not to seek his admission through the VWP is relevant to his contention that he was prejudiced by the deprivation of process that he identifies. A necessary premise of the prejudice claim addressed in Bayo and Bradley was that the alien petitioner might not have entered this country through the VWP in the first place. It is no less a necessary premise of O'Riordan's related prejudice claim.\nBut, that premise was plausible in Bayo and Bradley precisely because the alien petitioner claimed in each case that he had not made a knowing and intelligent waiver of the process rights that the VWP required him to make. That premise is not similarly plausible here.\nO'Riordan appears to accept -- at least for purposes of his constitutional challenge -- that one of his parents did make the choice to seek his admission, as a child, through the VWP. O'Riordan does not explain how his inability to knowingly and intelligently effect the waiver that his parent made on his behalf at that time bears on the choice that the parent made to seek his admission through the VWP at that time. Thus, we do not see what reason we have to posit an alternative scenario for purposes of assessing prejudice -- such as was considered in Bayo and Bradley-- in which he would not have entered this country through the VWP and thus might be thought to have been prejudiced by having been removed through the administrative proceeding afforded to those who have been admitted in that way. Accordingly, this more particularized ground for showing prejudice necessarily fails.\nV.\nThe petition for review is denied .\nWe do note that, although the parties agree that we have statutory jurisdiction, the divergent rationales they provide demonstrate that they differ as to which order we are reviewing pursuant to O'Riordan's petition. O'Riordan contends that the operative order of removal is, and has always been, the September 19, 2017 order of removal. The government, by contrast, contends that order was canceled and replaced by the November 28, 2017 order. Because our reasons for denying O'Riordan's petition for review on the merits are the same regardless of which order forms the basis of our jurisdiction, we need not resolve this issue either.\nIn pointing out that, in consequence of 8 U.S.C. \u00a7 1255(a)(2), he is now barred from obtaining adjustment of status so long as the 10-year bar on his admissibility into the United States remains in place, O'Riordan does not argue that, wholly apart from the procedural due process challenge that he brings, it is constitutionally impermissible to impose such a ten-year bar on alien adults who first entered this country through the VWP years earlier as children with their family and thus might not have been aware of their immigration status during the years that followed in which they lived in this country and developed ties to it.",
+        "type": "majority",
+        "author": "BARRON, Circuit Judge."
+      }
+    ],
+    "attorneys": [
+      "Anthony Marino, with whom Irish International Immigrant Center was on brief, for petitioner.",
+      "Joanna L. Watson, Trial Attorney, Office of Immigration Litigation, with whom Chad A. Readler, Acting Assistant Attorney General, Civil Division, and Anthony P. Nicastro, Assistant Director, Office of Immigration Litigation were on brief, for respondent."
+    ],
+    "corrections": "",
+    "head_matter": "Dylan O'RIORDAN, Petitioner,\nv.\nWilliam P. BARR, Respondent.\nNo. 17-1990\nUnited States Court of Appeals, First Circuit.\nMay 22, 2019\nAnthony Marino, with whom Irish International Immigrant Center was on brief, for petitioner.\nJoanna L. Watson, Trial Attorney, Office of Immigration Litigation, with whom Chad A. Readler, Acting Assistant Attorney General, Civil Division, and Anthony P. Nicastro, Assistant Director, Office of Immigration Litigation were on brief, for respondent.\nBefore Torruella, Selya, and Barron, Circuit Judges.\nPursuant to Fed. R. App. P. 43(c)(2), Attorney General William P. Barr has been substituted for former Attorney General Jefferson Sessions, III, as the respondent."
+  },
+  "file_name": "0006-01",
+  "first_page_order": 6,
+  "last_page_order": 16
+}

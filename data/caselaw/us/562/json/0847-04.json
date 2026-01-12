@@ -1,0 +1,59 @@
+{
+  "id": 5940276,
+  "name": "Hagins v. Sinclair, Warden",
+  "name_abbreviation": "Hagins v. Sinclair",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 09-10583",
+  "first_page": "847",
+  "last_page": "847",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 847"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.546,
+    "sha256": "7bdec98b41bb4e3c2531104746754b26c8a0bdacaf4459814d5d119efc691085",
+    "simhash": "1:12d3eb8331bb3076",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Hagins v. Sinclair, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10583.\nHagins v. Sinclair, Warden."
+  },
+  "file_name": "0847-04",
+  "first_page_order": 869,
+  "last_page_order": 869
+}

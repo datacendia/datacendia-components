@@ -1,0 +1,59 @@
+{
+  "id": 4334630,
+  "name": "Torrez-Chavez v. United States",
+  "name_abbreviation": "Torrez-Chavez v. United States",
+  "decision_date": "2011-06-13",
+  "docket_number": "No. 10-10520",
+  "first_page": "1012",
+  "last_page": "1012",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1012"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 81,
+    "ocr_confidence": 0.612,
+    "sha256": "6d2582a30b8bb255fc20767a24a628e1ec1697730739e3b317d6d0489e08ec35",
+    "simhash": "1:868c5281eb26933a",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Torrez-Chavez v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 10th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10520.\nTorrez-Chavez v. United States."
+  },
+  "file_name": "1012-06",
+  "first_page_order": 1006,
+  "last_page_order": 1006
+}

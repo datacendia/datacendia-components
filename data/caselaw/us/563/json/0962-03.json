@@ -1,0 +1,59 @@
+{
+  "id": 4224045,
+  "name": "Tucker et al. v. City of Los Angeles, California",
+  "name_abbreviation": "Tucker v. City of Los Angeles",
+  "decision_date": "2011-04-25",
+  "docket_number": "No. 10-8228",
+  "first_page": "962",
+  "last_page": "962",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 962"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 17,
+    "char_count": 97,
+    "ocr_confidence": 0.569,
+    "sha256": "30f2708be5819e641bd69781b056ac0a05fc476524e42416b1c695c4202c7a95",
+    "simhash": "1:93fb62191bef7160",
+    "word_count": 17
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Tucker et al. v. City of Los Angeles, California."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-8228.\nTucker et al. v. City of Los Angeles, California."
+  },
+  "file_name": "0962-03",
+  "first_page_order": 988,
+  "last_page_order": 988
+}

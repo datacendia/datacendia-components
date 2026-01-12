@@ -1,0 +1,59 @@
+{
+  "id": 12416011,
+  "name": "Jennings v. United States",
+  "name_abbreviation": "Jennings v. United States",
+  "decision_date": "2012-10-01",
+  "docket_number": "No. 12-5468",
+  "first_page": "914",
+  "last_page": "914",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 914"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.695,
+    "sha256": "db94edc92b2e90f3525e280c09f0060c5eafb6de0b18d5ffa98fd5d35ac08f4c",
+    "simhash": "1:17cbcad1ce89b815",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jennings v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-5468.\nJennings v. United States."
+  },
+  "file_name": "0914-04",
+  "first_page_order": 990,
+  "last_page_order": 990
+}

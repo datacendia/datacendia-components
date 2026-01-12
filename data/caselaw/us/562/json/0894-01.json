@@ -1,0 +1,59 @@
+{
+  "id": 6000962,
+  "name": "McGee v. Superior Court of California, Sacramento County, et al.",
+  "name_abbreviation": "McGee v. Superior Court of California",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-105",
+  "first_page": "894",
+  "last_page": "894",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 894"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 19,
+    "char_count": 125,
+    "ocr_confidence": 0.609,
+    "sha256": "aa6a7490c665fa3e607df88754c77fb9e9e97d1ef60454300d1a12b31e82d243",
+    "simhash": "1:a823de6578a6fbd7",
+    "word_count": 20
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "McGee v. Superior Court of California, Sacramento County, et al."
+    ],
+    "opinions": [
+      {
+        "text": "Ct. App. Cal., 3d App. Dist. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-105.\nMcGee v. Superior Court of California, Sacramento County, et al."
+  },
+  "file_name": "0894-01",
+  "first_page_order": 916,
+  "last_page_order": 916
+}

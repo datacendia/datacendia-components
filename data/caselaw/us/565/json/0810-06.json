@@ -1,0 +1,102 @@
+{
+  "id": 12190658,
+  "name": "Gillard v. Southern New England School of Law",
+  "name_abbreviation": "Gillard v. Southern New England School of Law",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-9937",
+  "first_page": "810",
+  "last_page": "810",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 810"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [
+    {
+      "cite": "563 U. S. 1030",
+      "category": "reporters:federal",
+      "reporter": "U.S.",
+      "case_ids": [
+        5933920,
+        5950661,
+        12450473,
+        12450474,
+        12450475,
+        12450300,
+        5941999,
+        5939826,
+        5928978,
+        12450298,
+        5949527,
+        12450297,
+        5965114,
+        12450299,
+        5916348,
+        12450301
+      ],
+      "opinion_index": 0,
+      "case_paths": [
+        "/us/563/1030-02",
+        "/us/563/1030-03",
+        "/l-ed-2d/180/0266-05",
+        "/l-ed-2d/180/0266-06",
+        "/l-ed-2d/180/0266-07",
+        "/l-ed-2d/180/0244-01",
+        "/us/563/1030-07",
+        "/us/563/1030-08",
+        "/us/563/1030-06",
+        "/l-ed-2d/180/0243-06",
+        "/us/563/1030-05",
+        "/l-ed-2d/180/0243-05",
+        "/us/563/1030-01",
+        "/l-ed-2d/180/0243-07",
+        "/us/563/1030-04",
+        "/l-ed-2d/180/0244-02"
+      ]
+    }
+  ],
+  "analysis": {
+    "cardinality": 31,
+    "char_count": 193,
+    "ocr_confidence": 0.645,
+    "sha256": "68303854776f9a9e6df98a22f60d020eb5a9d5c86f424dea2b7508fc6db69492",
+    "simhash": "1:00d69071453db21a",
+    "word_count": 33
+  },
+  "last_updated": "2024-02-27T23:09:45.461346+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Gillard v. Southern New England School of Law."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Motion of petitioner for reconsideration of order denying leave to proceed in forma pauperis [563 U. S. 1030] denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9937.\nGillard v. Southern New England School of Law."
+  },
+  "file_name": "0810-06",
+  "first_page_order": 892,
+  "last_page_order": 892
+}

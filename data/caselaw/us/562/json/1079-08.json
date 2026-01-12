@@ -1,0 +1,61 @@
+{
+  "id": 5971569,
+  "name": "Robertson v. United States",
+  "name_abbreviation": "Robertson v. United States",
+  "decision_date": "2010-11-29",
+  "docket_number": "No. 09-10178",
+  "first_page": "1079",
+  "last_page": "1079",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 1079"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 24,
+    "char_count": 154,
+    "ocr_confidence": 0.557,
+    "sha256": "8a724a7b1136df8ac1716676bdf4c762901f817348e30f1af6dd7335bd9f9aff",
+    "simhash": "1:8933e282212c1842",
+    "word_count": 25
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Robertson v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 09-10178.\nRobertson v. United States."
+  },
+  "file_name": "1079-08",
+  "first_page_order": 1101,
+  "last_page_order": 1101
+}

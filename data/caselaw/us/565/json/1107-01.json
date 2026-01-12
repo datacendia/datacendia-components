@@ -1,0 +1,59 @@
+{
+  "id": 12238782,
+  "name": "In re Discipline of Hanna",
+  "name_abbreviation": "In re Discipline of Hanna",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. D-2617",
+  "first_page": "1107",
+  "last_page": "1107",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1107"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 40,
+    "char_count": 284,
+    "ocr_confidence": 0.632,
+    "sha256": "4f2e3409b4f1639ba94f85f57b6c167e1a610c2f95206198128a19068a279e23",
+    "simhash": "1:7d8a73b2bffeb72b",
+    "word_count": 52
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Hanna."
+    ],
+    "opinions": [
+      {
+        "text": "Joseph John Hanna, Jr., of Portland, Or\u00e9., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2617.\nIn re Discipline of Hanna."
+  },
+  "file_name": "1107-01",
+  "first_page_order": 1189,
+  "last_page_order": 1189
+}

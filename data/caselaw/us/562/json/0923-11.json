@@ -1,0 +1,59 @@
+{
+  "id": 5965032,
+  "name": "White Horse v. United States",
+  "name_abbreviation": "White Horse v. United States",
+  "decision_date": "2010-10-04",
+  "docket_number": "No. 10-5468",
+  "first_page": "923",
+  "last_page": "923",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "562 U.S. 923"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 77,
+    "ocr_confidence": 0.596,
+    "sha256": "b53e68a1b890606e895140b26d597b1c8e43fd1dd8db5e255e1e15a7d4447e33",
+    "simhash": "1:85bbe6078f251602",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:36:35.794153+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "White Horse v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-5468.\nWhite Horse v. United States."
+  },
+  "file_name": "0923-11",
+  "first_page_order": 945,
+  "last_page_order": 945
+}

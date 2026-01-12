@@ -1,0 +1,59 @@
+{
+  "id": 12203367,
+  "name": "In re Discipline of Joseph",
+  "name_abbreviation": "In re Discipline of Joseph",
+  "decision_date": "2012-04-16",
+  "docket_number": "No. D-2658",
+  "first_page": "934",
+  "last_page": "934",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "566 U.S. 934"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 40,
+    "char_count": 285,
+    "ocr_confidence": 0.527,
+    "sha256": "b3df79ece04b9e4c387f6e360ee3319bf75820563622793b5fafb3807ab93326",
+    "simhash": "1:708a31b27feab7cb",
+    "word_count": 52
+  },
+  "last_updated": "2023-07-14T22:37:30.598960+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "In re Discipline of Joseph."
+    ],
+    "opinions": [
+      {
+        "text": "Joel David Joseph, of Beverly Hills, Cal., is suspended from the practice of law in this Court, and a rule will issue, returnable within 40 days, requiring him to show cause why he should not be disbarred from the practice of law in this Court.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. D-2658.\nIn re Discipline of Joseph."
+  },
+  "file_name": "0934-07",
+  "first_page_order": 810,
+  "last_page_order": 810
+}

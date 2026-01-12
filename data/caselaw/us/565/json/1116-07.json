@@ -1,0 +1,59 @@
+{
+  "id": 12239508,
+  "name": "Carvahlo v. United States",
+  "name_abbreviation": "Carvahlo v. United States",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-6039",
+  "first_page": "1116",
+  "last_page": "1116",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1116"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.603,
+    "sha256": "2d5cb5a8980e5cd93ebf5b4480454eab73d48064c163a13bfc993d176b928425",
+    "simhash": "1:043a7f096f93b42c",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Carvahlo v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 1st Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6039.\nCarvahlo v. United States."
+  },
+  "file_name": "1116-07",
+  "first_page_order": 1198,
+  "last_page_order": 1198
+}

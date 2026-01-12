@@ -1,0 +1,59 @@
+{
+  "id": 12430703,
+  "name": "Daniels v. United States",
+  "name_abbreviation": "Daniels v. United States",
+  "decision_date": "2013-02-19",
+  "docket_number": "No. 12-6556",
+  "first_page": "1164",
+  "last_page": "1164",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1164"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.626,
+    "sha256": "d9b5224c5d6c848784a97cb7e27ac56dbdd7a63936892b7cc43c032d3dbe0c0b",
+    "simhash": "1:0fabce0307a9907e",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Daniels v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-6556.\nDaniels v. United States."
+  },
+  "file_name": "1164-02",
+  "first_page_order": 1240,
+  "last_page_order": 1240
+}

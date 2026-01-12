@@ -1,0 +1,59 @@
+{
+  "id": 12231487,
+  "name": "Vargas v. Gonzalez, Acting Warden",
+  "name_abbreviation": "Vargas v. Gonzalez",
+  "decision_date": "2011-10-31",
+  "docket_number": "No. 11-6419",
+  "first_page": "989",
+  "last_page": "989",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 989"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 82,
+    "ocr_confidence": 0.655,
+    "sha256": "68c3830db5524d2aeb570bd8154672d34394f2056005e899602156a37752cb55",
+    "simhash": "1:10f022e17fa520f6",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Vargas v. Gonzalez, Acting Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 9th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6419.\nVargas v. Gonzalez, Acting Warden."
+  },
+  "file_name": "0989-08",
+  "first_page_order": 1071,
+  "last_page_order": 1071
+}

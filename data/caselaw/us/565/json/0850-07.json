@@ -1,0 +1,59 @@
+{
+  "id": 12205917,
+  "name": "Oropeza v. United States",
+  "name_abbreviation": "Oropeza v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10798",
+  "first_page": "850",
+  "last_page": "850",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 850"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.697,
+    "sha256": "c7fe834bb779279feb4a160bca1cc42ecb35c7f0b589259b2d4160351fb9c20f",
+    "simhash": "1:b6aa8a0607eb9119",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Oropeza v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10798.\nOropeza v. United States."
+  },
+  "file_name": "0850-07",
+  "first_page_order": 932,
+  "last_page_order": 932
+}

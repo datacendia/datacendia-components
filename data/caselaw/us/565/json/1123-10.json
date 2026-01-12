@@ -1,0 +1,59 @@
+{
+  "id": 12240294,
+  "name": "O'Geary v. Fayram, Warden",
+  "name_abbreviation": "O'Geary v. Fayram",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-7092",
+  "first_page": "1123",
+  "last_page": "1123",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1123"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.594,
+    "sha256": "7a05c897dff9cf693d007548e088b540b1e8043ec271cf84c8f2365c87b78550",
+    "simhash": "1:240e4eb5c83912a2",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "O\u2019Geary v. Fayram, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 8th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-7092.\nO\u2019Geary v. Fayram, Warden."
+  },
+  "file_name": "1123-10",
+  "first_page_order": 1205,
+  "last_page_order": 1205
+}

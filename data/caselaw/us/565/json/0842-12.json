@@ -1,0 +1,59 @@
+{
+  "id": 12203870,
+  "name": "Reed v. California",
+  "name_abbreviation": "Reed v. California",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10647",
+  "first_page": "842",
+  "last_page": "842",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 842"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 10,
+    "char_count": 67,
+    "ocr_confidence": 0.604,
+    "sha256": "47f8aaa7c23c96479b3e286be668033d3a49edab8be3fbe1429e9f96857a41d2",
+    "simhash": "1:1e4b13d5de5a427b",
+    "word_count": 10
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Reed v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10647.\nReed v. California."
+  },
+  "file_name": "0842-12",
+  "first_page_order": 924,
+  "last_page_order": 924
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12222362,
+  "name": "Palmer v. United States",
+  "name_abbreviation": "Palmer v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5572",
+  "first_page": "914",
+  "last_page": "914",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 914"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 74,
+    "ocr_confidence": 0.698,
+    "sha256": "508ca9a7d4e4d95b93ca6065b1088011c337b40a78033a5445c8643909ee196a",
+    "simhash": "1:8523c7000e1d8044",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Palmer v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. D. C. Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5572.\nPalmer v. United States."
+  },
+  "file_name": "0914-13",
+  "first_page_order": 996,
+  "last_page_order": 996
+}

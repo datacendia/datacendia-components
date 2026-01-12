@@ -1,0 +1,59 @@
+{
+  "id": 12208739,
+  "name": "Williams v. Knowlin, Warden",
+  "name_abbreviation": "Williams v. Knowlin",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-10985",
+  "first_page": "860",
+  "last_page": "860",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 860"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 77,
+    "ocr_confidence": 0.636,
+    "sha256": "50df2fd0074092446411bba122b2eb89585063d9aaf2c38832bd1aebb5100fe8",
+    "simhash": "1:3ec18ef2daedb857",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Williams v. Knowlin, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-10985.\nWilliams v. Knowlin, Warden."
+  },
+  "file_name": "0860-12",
+  "first_page_order": 942,
+  "last_page_order": 942
+}

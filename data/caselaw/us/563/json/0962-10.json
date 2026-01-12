@@ -1,0 +1,59 @@
+{
+  "id": 5935227,
+  "name": "Jones-El v. Pollard, Warden",
+  "name_abbreviation": "Jones-El v. Pollard",
+  "decision_date": "2011-04-25",
+  "docket_number": "No. 10-9087",
+  "first_page": "962",
+  "last_page": "962",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 962"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 76,
+    "ocr_confidence": 0.579,
+    "sha256": "4dc56b0fbacc456869d6dd5433fb855e144d5bf913109aefa1cffff33571ac4f",
+    "simhash": "1:a3811039e7091820",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Jones-El v. Pollard, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 7th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9087.\nJones-El v. Pollard, Warden."
+  },
+  "file_name": "0962-10",
+  "first_page_order": 988,
+  "last_page_order": 988
+}

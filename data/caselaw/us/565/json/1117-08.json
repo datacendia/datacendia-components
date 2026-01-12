@@ -1,0 +1,59 @@
+{
+  "id": 12239619,
+  "name": "Schlee v. Williams, Warden",
+  "name_abbreviation": "Schlee v. Williams",
+  "decision_date": "2012-01-09",
+  "docket_number": "No. 11-6798",
+  "first_page": "1117",
+  "last_page": "1117",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 1117"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 75,
+    "ocr_confidence": 0.618,
+    "sha256": "648c321bc8c12c11cd52aed348e4c92cd715104ecd43ea6d8a9791f1e3534d6b",
+    "simhash": "1:8dceb326fc1bbc56",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Schlee v. Williams, Warden."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 6th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-6798.\nSchlee v. Williams, Warden."
+  },
+  "file_name": "1117-08",
+  "first_page_order": 1199,
+  "last_page_order": 1199
+}

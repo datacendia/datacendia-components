@@ -1,0 +1,59 @@
+{
+  "id": 12222458,
+  "name": "Brizuela-Ramos v. United States",
+  "name_abbreviation": "Brizuela-Ramos v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 11-5581",
+  "first_page": "915",
+  "last_page": "915",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 915"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 12,
+    "char_count": 80,
+    "ocr_confidence": 0.665,
+    "sha256": "cb7c4c8f689d0695ce9310b25930a7abf714a57c66c50de631210f918539f854",
+    "simhash": "1:072bd3038808d826",
+    "word_count": 12
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Brizuela-Ramos v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 5th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 11-5581.\nBrizuela-Ramos v. United States."
+  },
+  "file_name": "0915-03",
+  "first_page_order": 997,
+  "last_page_order": 997
+}

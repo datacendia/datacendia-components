@@ -1,0 +1,61 @@
+{
+  "id": 5922134,
+  "name": "Comstock et al. v. United States",
+  "name_abbreviation": "Comstock v. United States",
+  "decision_date": "2011-06-20",
+  "docket_number": "No. 10-9360",
+  "first_page": "1030",
+  "last_page": "1030",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "564 U.S. 1030"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 26,
+    "char_count": 159,
+    "ocr_confidence": 0.548,
+    "sha256": "63b96919bce82c8b9632be37735af187127db45a6751df86f57051105cb7670c",
+    "simhash": "1:99a26a804eaef808",
+    "word_count": 27
+  },
+  "last_updated": "2023-07-14T22:39:34.673306+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Comstock et al. v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 4th Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9360.\nComstock et al. v. United States."
+  },
+  "file_name": "1030-05",
+  "first_page_order": 1024,
+  "last_page_order": 1024
+}

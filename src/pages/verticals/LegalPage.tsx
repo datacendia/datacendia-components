@@ -933,10 +933,17 @@ export const LegalPage: React.FC = () => {
                       )}
                     </div>
                     <button
-                      onClick={() => navigate(`/cortex/council?vertical=legal&mode=${uc.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`)}
+                      onClick={() => {
+                        // Regulator's Receipt has its own dedicated demo page
+                        if (uc.name === "Regulator's Receipt") {
+                          navigate('/cortex/trust/regulators-receipt');
+                        } else {
+                          navigate(`/cortex/council?vertical=legal&mode=${uc.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`);
+                        }
+                      }}
                       className="px-4 py-2 bg-primary-600 hover:bg-primary-700 text-white rounded-lg text-sm font-medium transition-colors flex items-center gap-2"
                     >
-                      <span>▶</span> Start
+                      <span>▶</span> {uc.name === "Regulator's Receipt" ? 'Demo' : 'Start'}
                     </button>
                   </div>
                 </div>
@@ -1047,6 +1054,12 @@ export const LegalPage: React.FC = () => {
 
             <section className="text-center">
               <div className="flex justify-center gap-4">
+                <button
+                  onClick={() => navigate('/cortex/workflows/legal')}
+                  className="px-8 py-3 bg-gradient-to-r from-amber-500 to-orange-500 text-white rounded-lg font-medium hover:from-amber-600 hover:to-orange-600 transition-colors"
+                >
+                  ▶ Start 12-Step Legal Workflow
+                </button>
                 <button
                   onClick={() => navigate('/demo')}
                   className="px-8 py-3 bg-primary-600 text-white rounded-lg font-medium hover:bg-primary-700 transition-colors"

@@ -1,0 +1,59 @@
+{
+  "id": 5911602,
+  "name": "Suarez Flores v. United States",
+  "name_abbreviation": "Suarez Flores v. United States",
+  "decision_date": "2011-05-02",
+  "docket_number": "No. 10-9827",
+  "first_page": "981",
+  "last_page": "981",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "563 U.S. 981"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 13,
+    "char_count": 80,
+    "ocr_confidence": 0.569,
+    "sha256": "06f7129c31f553aeb95e8c491fba9a7b485e24a5ace13af62579742d2005fbbc",
+    "simhash": "1:15ab422322849002",
+    "word_count": 13
+  },
+  "last_updated": "2023-07-14T22:36:12.019686+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Suarez Flores v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. 11th Cir. Certiorari denied.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-9827.\nSuarez Flores v. United States."
+  },
+  "file_name": "0981-13",
+  "first_page_order": 1007,
+  "last_page_order": 1007
+}

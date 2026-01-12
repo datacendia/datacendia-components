@@ -1,0 +1,61 @@
+{
+  "id": 12225873,
+  "name": "Holland et al. v. United States",
+  "name_abbreviation": "Holland v. United States",
+  "decision_date": "2011-10-03",
+  "docket_number": "No. 10-1221",
+  "first_page": "928",
+  "last_page": "928",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "565 U.S. 928"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 26,
+    "char_count": 159,
+    "ocr_confidence": 0.657,
+    "sha256": "d9c6007e32c8a066c7b4444d6515e7213b61797b9e7b7f6cb3f30563a0afb169",
+    "simhash": "1:8d32da062ea6584a",
+    "word_count": 27
+  },
+  "last_updated": "2023-07-14T21:58:13.069412+00:00",
+  "provenance": {
+    "date_added": "2019-08-29",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [
+      "Justice Kagan took no part in the consideration or decision of this petition."
+    ],
+    "parties": [
+      "Holland et al. v. United States."
+    ],
+    "opinions": [
+      {
+        "text": "C. A. Fed. Cir. Certiorari denied.\nJustice Kagan took no part in the consideration or decision of this petition.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 10-1221.\nHolland et al. v. United States."
+  },
+  "file_name": "0928-12",
+  "first_page_order": 1010,
+  "last_page_order": 1010
+}

@@ -1,0 +1,59 @@
+{
+  "id": 12432962,
+  "name": "Naddi v. California",
+  "name_abbreviation": "Naddi v. California",
+  "decision_date": "2013-03-18",
+  "docket_number": "No. 12-8486",
+  "first_page": "1225",
+  "last_page": "1225",
+  "citations": [
+    {
+      "type": "official",
+      "cite": "568 U.S. 1225"
+    }
+  ],
+  "court": {
+    "name_abbreviation": "U.S.",
+    "id": 9009,
+    "name": "Supreme Court of the United States"
+  },
+  "jurisdiction": {
+    "id": 39,
+    "name_long": "United States",
+    "name": "U.S."
+  },
+  "cites_to": [],
+  "analysis": {
+    "cardinality": 27,
+    "char_count": 170,
+    "ocr_confidence": 0.617,
+    "sha256": "ed89e4678e634765d8c1518995b2f3143b25d9a82bbb182ffc28d841318ba73a",
+    "simhash": "1:7e8859ccca40af16",
+    "word_count": 27
+  },
+  "last_updated": "2023-07-14T22:36:59.319971+00:00",
+  "provenance": {
+    "date_added": "2018-10-24",
+    "source": "Harvard",
+    "batch": "2018"
+  },
+  "casebody": {
+    "judges": [],
+    "parties": [
+      "Naddi v. California."
+    ],
+    "opinions": [
+      {
+        "text": "Sup. Ct. Cal. Motion of petitioner for leave to proceed in forma pauperis denied, and certiorari dismissed. See this Court\u2019s Rule 39.8.",
+        "type": "majority",
+        "author": null
+      }
+    ],
+    "attorneys": [],
+    "corrections": "",
+    "head_matter": "No. 12-8486.\nNaddi v. California."
+  },
+  "file_name": "1225-08",
+  "first_page_order": 1301,
+  "last_page_order": 1301
+}
